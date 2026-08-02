@@ -3,197 +3,197 @@ const C2_WORDS = [
     "de": "Unvoreingenommenheit",
     "de_article": "die",
     "de_plural": "die Unvoreingenommenheiten",
-    "lv": "Objektiivsus • Neutraalsus",
+    "lv": "Objektivitet • Neutralitet",
     "level": "C2"
   },
   {
     "de": "konterkarieren",
-    "lv": "Nurjama",
+    "lv": "At forstyrre",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Põhjendatus",
+    "lv": "Rimelighed",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "Üheselt mõistetav",
+    "lv": "Umiskendelig",
     "level": "C2"
   },
   {
     "de": "Wechselwirkung",
     "de_article": "die",
     "de_plural": "die Wechselwirkungen",
-    "lv": "Vastastikmõju",
+    "lv": "Vekselvirkning",
     "level": "C2"
   },
   {
     "de": "veranschaulichen",
-    "lv": "Näitlikustama",
+    "lv": "At vise beviseligt",
     "level": "C2"
   },
   {
     "de": "Schlussfolgerung",
     "de_article": "die",
     "de_plural": "die Schlussfolgerungen",
-    "lv": "Järeldus",
+    "lv": "Konklusion",
     "level": "C2"
   },
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "Hoolsuskohustus",
+    "lv": "Omsorgspligt",
     "level": "C2"
   },
   {
     "de": "Anfangsbuchstabe",
     "de_article": "der",
     "de_plural": "die Anfangsbuchstaben",
-    "lv": "Algustäht",
+    "lv": "Indledende brev",
     "level": "C2"
   },
   {
     "de": "Anführungszeichen",
     "de_article": "das",
     "de_plural": "die Anführungszeichen",
-    "lv": "Jutumärgid",
+    "lv": "Anførselstegn",
     "level": "C2"
   },
   {
     "de": "Abschlussprüfung",
     "de_article": "die",
     "de_plural": "die Abschlussprüfungen",
-    "lv": "Lõpueksam",
+    "lv": "Afsluttende eksamen",
     "level": "C2"
   },
   {
     "de": "Arbeitserlaubnis",
     "de_article": "die",
     "de_plural": "die Arbeitserlaubnisse",
-    "lv": "Tööluba",
+    "lv": "Arbejdstilladelse",
     "level": "C2"
   },
   {
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Osaleja tunnistus",
+    "lv": "Medlemskort",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "Patareidega töötav",
+    "lv": "Batteridrevet",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Järelevalvet teostama",
+    "lv": "Overvåge",
     "level": "C2"
   },
   {
     "de": "Lebensbedingungen",
     "de_article": "die",
     "de_plural": "die Lebensbedingungen",
-    "lv": "Elutingimused",
+    "lv": "Levevilkår",
     "level": "C2"
   },
   {
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Arsti kabinet",
+    "lv": "Lægens kontor",
     "level": "C2"
   },
   {
     "de": "beispielsweise",
-    "lv": "Näiteks",
+    "lv": "F.eks",
     "level": "C2"
   },
   {
     "de": "Mitgliedsbeitrag",
     "de_article": "der",
     "de_plural": "die Mitgliedsbeiträge",
-    "lv": "Liikmemaks",
+    "lv": "Medlemskontingent",
     "level": "C2"
   },
   {
     "de": "benachrichtigen",
-    "lv": "Teavitama",
+    "lv": "At meddele",
     "level": "C2"
   },
   {
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "Bensiinitalong",
+    "lv": "Benzin kupon",
     "level": "C2"
   },
   {
     "de": "Benzinkanister",
     "de_article": "der",
     "de_plural": "die Benzinkanister",
-    "lv": "Bensiinikanister",
+    "lv": "Benzindunk",
     "level": "C2"
   },
   {
     "de": "Benzinverbrauch",
     "de_article": "der",
     "de_plural": "die Benzinverbräuche",
-    "lv": "Bensiinikulu",
+    "lv": "Benzinforbrug",
     "level": "C2"
   },
   {
     "de": "Bequemlichkeit",
     "de_article": "die",
     "de_plural": "die Bequemlichkeiten",
-    "lv": "Mugavus",
+    "lv": "Bekvemmelighed",
     "level": "C2"
   },
   {
     "de": "berücksichtigen",
-    "lv": "Arvesse võtma",
+    "lv": "At tage hensyn til",
     "level": "C2"
   },
   {
     "de": "Berufsausbildung",
     "de_article": "die",
     "de_plural": "die Berufsausbildungen",
-    "lv": "Kutseharidus",
+    "lv": "Professionel uddannelse",
     "level": "C2"
   },
   {
     "de": "Tintenstrahldrucker",
     "de_article": "der",
     "de_plural": "die Tintenstrahldrucker",
-    "lv": "Tindiprinter",
+    "lv": "Inkjet printer",
     "level": "C2"
   },
   {
     "de": "Gewichtseinheit",
     "de_article": "die",
     "de_plural": "die Gewichtseinheiten",
-    "lv": "Kaaluühik",
+    "lv": "Vægtenhed",
     "level": "C2",
     "study": {
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
-      "translation": "Kaaluühik",
-      "explanation": "Põhiidee: die Gewichtseinheit tähendab kaaluühikut. Seda kasutatakse, kui räägitakse kilogrammidest, grammidest, tonnidest ja teistest kaalu/massi ühikutest.",
+      "translation": "Vægtenhed",
+      "explanation": "Hovedidé: die Gewichtseinheit betyder vægtenhed. Det bruges, når man taler om kilogram, gram, tons og andre vægt-/masseenheder.",
       "examples": [
         {
           "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "Kilogramm on kaaluühik."
+          "lv": "Kilogram er en vægtenhed."
         },
         {
           "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Millist kaaluühikut ma peaksin kasutama?"
+          "lv": "Hvilken vægtenhed skal jeg bruge?"
         },
         {
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Gramm ja tonn on kaaluühikud."
+          "lv": "Gram og ton er vægtenheder."
         }
       ]
     }
@@ -201,335 +201,335 @@ const C2_WORDS = [
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",
-    "lv": "Põhiteadmised",
+    "lv": "Grundlæggende viden",
     "level": "C2"
   },
   {
     "de": "entgegenkommen",
-    "lv": "Vastu tulema",
+    "lv": "Kom over",
     "level": "C2"
   },
   {
     "de": "Gebrauchtwagen",
     "de_article": "der",
     "de_plural": "die Gebrauchtwagen",
-    "lv": "Kasutatud auto",
+    "lv": "Brugt bil",
     "level": "C2"
   },
   {
     "de": "Geburtsurkunde",
     "de_article": "die",
     "de_plural": "die Geburtsurkunden",
-    "lv": "Sünnitunnistus",
+    "lv": "Fødselsattest",
     "level": "C2"
   },
   {
     "de": "Gehaltsabrechnung",
     "de_article": "die",
     "de_plural": "die Gehaltsabrechnungen",
-    "lv": "Palgaarvestus",
+    "lv": "Lønberegning",
     "level": "C2"
   },
   {
     "de": "Gehaltserhöhung",
     "de_article": "die",
     "de_plural": "die Gehaltserhöhungen",
-    "lv": "Palgatõus",
+    "lv": "Lønstigning",
     "level": "C2"
   },
   {
     "de": "Gehirnerschütterung",
     "de_article": "die",
     "de_plural": "die Gehirnerschütterungen",
-    "lv": "Ajupõrutus",
+    "lv": "Hjernerystelse",
     "level": "C2"
   },
   {
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "Pagasihoid",
+    "lv": "Opbevaring af bagage",
     "level": "C2"
   },
   {
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "Ettevõtte juht",
+    "lv": "Virksomhedsleder",
     "level": "C2"
   },
   {
     "de": "Geschäftspartner",
     "de_article": "der",
     "de_plural": "die Geschäftspartner",
-    "lv": "Äripartner",
+    "lv": "Forretningspartner",
     "level": "C2"
   },
   {
     "de": "Geschenkgutschein",
     "de_article": "der",
     "de_plural": "die Geschenkgutscheine",
-    "lv": "Kinkekaart",
+    "lv": "Gavekort",
     "level": "C2"
   },
   {
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "Kingituspakend",
+    "lv": "Gaveindpakning",
     "level": "C2"
   },
   {
     "de": "Gleichheitszeichen",
     "de_article": "das",
     "de_plural": "die Gleichheitszeichen",
-    "lv": "Võrdusmärk",
+    "lv": "Ligetegn",
     "level": "C2"
   },
   {
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
-    "lv": "Sisukord",
+    "lv": "Indholdsfortegnelse",
     "level": "C2"
   },
   {
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "Keelpill",
+    "lv": "Strygeinstrument",
     "level": "C2"
   },
   {
     "de": "Kassettenrecorder",
     "de_article": "der",
     "de_plural": "die Kassettenrecorder",
-    "lv": "Kassettmagnetofon",
+    "lv": "Kassettebåndoptager",
     "level": "C2"
   },
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "Katastroofiabi teenistus",
+    "lv": "Katastrofetjeneste",
     "level": "C2"
   },
   {
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "Kulude hüvitamine",
+    "lv": "Godtgørelse af omkostninger",
     "level": "C2"
   },
   {
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "Kulude suurenemine",
+    "lv": "Stigende omkostninger",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Haiguskindlustus",
+    "lv": "Forsikring i tilfælde af sygdom",
     "level": "C2"
   },
   {
     "de": "Krankheitssymptom",
     "de_article": "das",
     "de_plural": "die Krankheitssymptome",
-    "lv": "Haigussümptom",
+    "lv": "Sygdomssymptom",
     "level": "C2"
   },
   {
     "de": "Krankheitsüberträger",
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
-    "lv": "Haiguse levitaja",
+    "lv": "Bærere af sygdom",
     "level": "C2"
   },
   {
     "de": "Liebenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Liebenswürdigkeiten",
-    "lv": "Lahkus",
+    "lv": "Venlighed",
     "level": "C2"
   },
   {
     "de": "Luftverschmutzung",
     "de_article": "die",
     "de_plural": "die Luftverschmutzungen",
-    "lv": "Õhusaaste",
+    "lv": "Luftforurening",
     "level": "C2"
   },
   {
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Kopsupõletik",
+    "lv": "Lungekræft",
     "level": "C2"
   },
   {
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "Udutuli",
+    "lv": "Tågelygte til biler",
     "level": "C2"
   },
   {
     "de": "Personenkraftwagen",
     "de_article": "der",
     "de_plural": "die Personenkraftwagen",
-    "lv": "Sõiduauto",
+    "lv": "Personbil",
     "level": "C2"
   },
   {
     "de": "Reisebeschreibung",
     "de_article": "die",
     "de_plural": "die Reisebeschreibungen",
-    "lv": "Reisikirjeldus",
+    "lv": "Rejsebeskrivelse",
     "level": "C2"
   },
   {
     "de": "Reparaturwerkstatt",
     "de_article": "die",
     "de_plural": "die Reparaturwerkstätten",
-    "lv": "Remonditöökoda",
+    "lv": "Reparationsværksted",
     "level": "C2"
   },
   {
     "de": "Rundfunkempfänger",
     "de_article": "der",
     "de_plural": "die Rundfunkempfänger",
-    "lv": "Raadiovastuvõtja",
+    "lv": "Radiomodtager",
     "level": "C2"
   },
   {
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Magamisvagunikupee",
+    "lv": "Soveværelse",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Uisu tera",
+    "lv": "Slæde hældning",
     "level": "C2"
   },
   {
     "de": "Schornsteinfeger",
     "de_article": "der",
     "de_plural": "die Schornsteinfeger",
-    "lv": "Korstnapühkija",
+    "lv": "Skorstensfejer",
     "level": "C2"
   },
   {
     "de": "selbstverständlich",
-    "lv": "Iseenesestmõistetav",
+    "lv": "Selvforklarende",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "Ohutuse mõttes",
+    "lv": "For sikkerheden",
     "level": "C2"
   },
   {
     "de": "Sozialversicherung",
     "de_article": "die",
     "de_plural": "die Sozialversicherungen",
-    "lv": "Sotsiaalkindlustus",
+    "lv": "Socialforsikring",
     "level": "C2"
   },
   {
     "de": "Straßenbahnführer",
     "de_article": "der",
     "de_plural": "die Straßenbahnführer",
-    "lv": "Trammijuht",
+    "lv": "Sporvognschauffør",
     "level": "C2"
   },
   {
     "de": "Straßenbahnstrecke",
     "de_article": "die",
     "de_plural": "die Straßenbahnstrecken",
-    "lv": "Trammiliin",
+    "lv": "Sporvognslinje",
     "level": "C2"
   },
   {
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "Teeviadukt",
+    "lv": "Vejoverkørsel",
     "level": "C2"
   },
   {
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Jalakäijate tunnel",
+    "lv": "Fodgængertunnel",
     "level": "C2"
   },
   {
     "de": "verantwortlich",
-    "lv": "Vastutav",
+    "lv": "Ansvarlig",
     "level": "C2"
   },
   {
     "de": "Verkehrsunfall",
     "de_article": "der",
     "de_plural": "die Verkehrsunfälle",
-    "lv": "Liiklusõnnetus",
+    "lv": "Trafikulykke",
     "level": "C2"
   },
   {
     "de": "veröffentlichen",
-    "lv": "Avaldama",
+    "lv": "At udgive",
     "level": "C2"
   },
   {
     "de": "verschlechtern",
-    "lv": "Halvendama",
+    "lv": "Værre",
     "level": "C2"
   },
   {
     "de": "sich verschlechtern",
-    "lv": "Halvenema",
+    "lv": "Få det værre",
     "level": "C2"
   },
   {
     "de": "Vorstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Vorstellungsgespräche",
-    "lv": "Töövestlus",
+    "lv": "Jobsamtale",
     "level": "C2"
   },
   {
     "de": "Wettervorhersage",
     "de_article": "die",
     "de_plural": "die Wettervorhersagen",
-    "lv": "Ilmaennustus",
+    "lv": "Vejrudsigt",
     "level": "C2"
   },
   {
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "Esiklaas",
+    "lv": "Bilens forrude",
     "level": "C2"
   },
   {
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "Vaatamisväärsus",
+    "lv": "Et fremtrædende sted",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "Seiklusjutt",
+    "lv": "Historien om en affære",
     "level": "C2"
   },
   {
@@ -543,84 +543,84 @@ const C2_WORDS = [
     "de": "Aufenthaltsgenehmigung",
     "de_article": "die",
     "de_plural": "die Aufenthaltsgenehmigungen",
-    "lv": "Elamisluba",
+    "lv": "Opholdstilladelse",
     "level": "C2"
   },
   {
     "de": "Gedankenaustausch",
     "de_article": "der",
     "de_plural": "die Gedankenaustausche",
-    "lv": "Mõttevahetus",
+    "lv": "Udveksling af ideer",
     "level": "C2"
   },
   {
     "de": "Behindertenausweis",
     "de_article": "der",
     "de_plural": "die Behindertenausweise",
-    "lv": "Puudega inimese tunnistus",
+    "lv": "Handicapbevis",
     "level": "C2"
   },
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "Elamuehituskooperatiiv",
+    "lv": "Boligforening",
     "level": "C2"
   },
   {
     "de": "Arbeitslosenbeihilfe",
     "de_article": "die",
     "de_plural": "die Arbeitslosenbeihilfen",
-    "lv": "Töötu abiraha",
+    "lv": "Dagpenge",
     "level": "C2"
   },
   {
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Õppetoetus",
+    "lv": "Undervisningsgodtgørelse",
     "level": "C2"
   },
   {
     "de": "Unternehmensberater",
     "de_article": "der",
     "de_plural": "die Unternehmensberater",
-    "lv": "Ettevõttekonsultant",
+    "lv": "Virksomhedskonsulent",
     "level": "C2"
   },
   {
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Referent • Teataja • Korrespondent • Reporter",
+    "lv": "Reporter • Reporter • Korrespondent • Reporter",
     "level": "C2"
   },
   {
     "de": "Berufsbezeichnung",
     "de_article": "die",
     "de_plural": "die Berufsbezeichnungen",
-    "lv": "Ametinimetus",
+    "lv": "Jobtitel",
     "level": "C2"
   },
   {
     "de": "Besatzungsregime",
     "de_article": "das",
     "de_plural": "die Besatzungsregime",
-    "lv": "Okupatsioonirežiim",
+    "lv": "Besættelsesregime",
     "level": "C2"
   },
   {
     "de": "Besatzungstruppen",
     "de_article": "die",
     "de_plural": "die Besatzungstruppen",
-    "lv": "Okupatsiooniväed",
+    "lv": "Besættelsestropper",
     "level": "C2"
   },
   {
     "de": "Bevölkerungsdichte",
     "de_article": "die",
     "de_plural": "die Bevölkerungsdichten",
-    "lv": "Rahvastikutihedus",
+    "lv": "Befolkningstæthed",
     "level": "C2"
   },
   {
@@ -634,852 +634,852 @@ const C2_WORDS = [
     "de": "Wirtschaftsblock",
     "de_article": "der",
     "de_plural": "die Wirtschaftsblöcke",
-    "lv": "Majandusblokk",
+    "lv": "Økonomisk blok",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblockade",
     "de_article": "die",
     "de_plural": "die Wirtschaftsblockaden",
-    "lv": "Majandusblokaad",
+    "lv": "Økonomisk blokade",
     "level": "C2"
   },
   {
     "de": "Bluttransfusion",
     "de_article": "die",
     "de_plural": "die Bluttransfusionen",
-    "lv": "Vereülekanne",
+    "lv": "Blodtransfusion",
     "level": "C2"
   },
   {
     "de": "Computersimulation",
     "de_article": "die",
     "de_plural": "die Computersimulationen",
-    "lv": "Arvutisimulatsioon",
+    "lv": "Computersimulering",
     "level": "C2"
   },
   {
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "Arvutiteadus • Informaatika",
+    "lv": "Datalogi • Informatik",
     "level": "C2"
   },
   {
     "de": "Informationsdefizit",
     "de_article": "das",
-    "lv": "Infopuudujääk",
+    "lv": "Informationsunderskud",
     "level": "C2"
   },
   {
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "Kõlblusnormide rikkumine",
+    "lv": "Overtrædelse af moralske standarder",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "Narkootikumidevastase võitluse osakond",
+    "lv": "Narkotikaafdelingen",
     "level": "C2"
   },
   {
     "de": "Dialektik",
     "de_article": "die",
     "de_plural": "die Dialektiken",
-    "lv": "Dialektika",
+    "lv": "Dialektik",
     "level": "C2"
   },
   {
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Valveteenistus",
+    "lv": "Operationel service",
     "level": "C2"
   },
   {
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
     "de_plural": "die Durchfuhrerlaubnisse",
-    "lv": "Läbisõiduluba",
+    "lv": "Transittilladelse",
     "level": "C2"
   },
   {
     "de": "durchkreuzen",
-    "lv": "Läbi kriipsutama • Risti tõmbama • Ristuma • Nurjama",
+    "lv": "Slå ud • Kryds • Kryds • Forstyr",
     "level": "C2"
   },
   {
     "de": "Durchschnittsalter",
     "de_article": "das",
     "de_plural": "die Durchschnittsalter",
-    "lv": "Keskmine vanus",
+    "lv": "Gennemsnitsalder",
     "level": "C2"
   },
   {
     "de": "Durchschnittsverdienst",
     "de_article": "der",
     "de_plural": "die Durchschnittsverdienste",
-    "lv": "Keskmine sissetulek",
+    "lv": "Gennemsnitlig indtjening",
     "level": "C2"
   },
   {
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Keskpärane tulemus • Keskmine tulemus",
+    "lv": "Gennemsnitlig præstation • Gennemsnitlig præstation",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "Keskmine inimene",
+    "lv": "En gennemsnitlig person",
     "level": "C2"
   },
   {
     "de": "Einfuhrbeschränkung",
     "de_article": "die",
     "de_plural": "die Einfuhrbeschränkungen",
-    "lv": "Impordipiirang",
+    "lv": "Importrestriktioner",
     "level": "C2"
   },
   {
     "de": "Einstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Einstellungsgespräche",
-    "lv": "Töövestlus",
+    "lv": "Jobsamtale",
     "level": "C2"
   },
   {
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Soovituskiri",
+    "lv": "Skriftlig anbefaling",
     "level": "C2"
   },
   {
     "de": "Entbindungsanstalt",
     "de_article": "die",
     "de_plural": "die Entbindungsanstalten",
-    "lv": "Sünnitusmaja",
+    "lv": "Fødselshospital",
     "level": "C2"
   },
   {
     "de": "entgegengesetzt",
-    "lv": "Vastupidine",
+    "lv": "Det modsatte",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Otsustavus • Sihikindlus • Kahtlematus",
+    "lv": "Sikkerhed • Beslutsomhed • Uden tvivl",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "Arengumaa",
+    "lv": "Udviklingens land",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "Puhvet",
+    "lv": "Buffet",
     "level": "C2"
   },
   {
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "Valitsuse avaldus",
+    "lv": "Regeringens meddelelse",
     "level": "C2"
   },
   {
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "Saavutus • Saavutis • Võit",
+    "lv": "Præstation • Udbytte • Gevinst",
     "level": "C2"
   },
   {
     "de": "Erwachsenenbildung",
     "de_article": "die",
     "de_plural": "die Erwachsenenbildungen",
-    "lv": "Täiskasvanuharidus",
+    "lv": "Voksenundervisning",
     "level": "C2"
   },
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "Langevarjuhüpe",
+    "lv": "Faldskærmsudspring",
     "level": "C2"
   },
   {
     "de": "Friedensbedingungen",
     "de_article": "die",
     "de_plural": "die Friedensbedingungen",
-    "lv": "Rahutingimused",
+    "lv": "Fredsforhold",
     "level": "C2"
   },
   {
     "de": "Friedensverhandlungen",
     "de_article": "die",
     "de_plural": "die Friedensverhandlungen",
-    "lv": "Rahuläbirääkimised",
+    "lv": "Fredssamtaler",
     "level": "C2"
   },
   {
     "de": "Führereigenschaften",
     "de_article": "die",
     "de_plural": "die Führereigenschaften",
-    "lv": "Juhiomadused",
+    "lv": "Lederegenskaber",
     "level": "C2"
   },
   {
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "Juhi isiksus",
+    "lv": "Leder personlighed",
     "level": "C2"
   },
   {
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "Jalgpalli maailmameistrivõistlused",
+    "lv": "Verdensmesterskab i fodbold",
     "level": "C2"
   },
   {
     "de": "Geburtenkontrolle",
     "de_article": "die",
     "de_plural": "die Geburtenkontrollen",
-    "lv": "Sündimuse kontroll",
+    "lv": "Prævention",
     "level": "C2"
   },
   {
     "de": "Gedächtnisschwäche",
     "de_article": "die",
     "de_plural": "die Gedächtnisschwächen",
-    "lv": "Halb mälu",
+    "lv": "Dårlig hukommelse",
     "level": "C2"
   },
   {
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "Mäluhäire",
+    "lv": "Hukommelsessvækkelse",
     "level": "C2"
   },
   {
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "Vanglavalvur",
+    "lv": "Fængselsbetjent",
     "level": "C2"
   },
   {
     "de": "Gefängnisinsasse",
     "de_article": "der",
     "de_plural": "die Gefängnisinsassen",
-    "lv": "Vang",
+    "lv": "En fange",
     "level": "C2"
   },
   {
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "Veresoonte laienemine",
+    "lv": "Udvidelse af blodkar",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Vaimne kohalolek",
+    "lv": "Opfindsomhed",
     "level": "C2"
   },
   {
     "de": "geistige Getränke",
-    "lv": "Alkohoolsed joogid",
+    "lv": "Alkoholiske drikkevarer",
     "level": "C2"
   },
   {
     "de": "Gelegenheitsarbeiter",
     "de_article": "der",
     "de_plural": "die Gelegenheitsarbeiter",
-    "lv": "Juhutööline",
+    "lv": "Tilfældig arbejder",
     "level": "C2"
   },
   {
     "de": "Gemäldeausstellung",
     "de_article": "die",
     "de_plural": "die Gemäldeausstellungen",
-    "lv": "Maalinäitus",
+    "lv": "Udstilling af malerier",
     "level": "C2"
   },
   {
     "de": "Arbeitsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Arbeitsgemeinschaften",
-    "lv": "Töörühm",
+    "lv": "Arbejdsgruppe",
     "level": "C2"
   },
   {
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "Külaelanikkond",
+    "lv": "Landsbyboerne",
     "level": "C2"
   },
   {
     "de": "Forschungsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Forschungsgemeinschaften",
-    "lv": "Uurimisrühm",
+    "lv": "Forskningsgruppe",
     "level": "C2"
   },
   {
     "de": "Generalreparatur",
     "de_article": "die",
     "de_plural": "die Generalreparaturen",
-    "lv": "Kapitaalremont",
+    "lv": "Overhaling",
     "level": "C2"
   },
   {
     "de": "Generalversammlung",
     "de_article": "die",
     "de_plural": "die Generalversammlungen",
-    "lv": "Üldkoosolek",
+    "lv": "Generalforsamling",
     "level": "C2"
   },
   {
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Ühistu • Artell",
+    "lv": "Andelsforening • Artel",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Õiglustunne",
+    "lv": "Retfærdighed • Retfærdighedssans",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Vahekohus",
+    "lv": "Voldgift",
     "level": "C2"
   },
   {
     "de": "Gerichtsverfahren",
     "de_article": "das",
     "de_plural": "die Gerichtsverfahren",
-    "lv": "Kohtuprotsess",
+    "lv": "Retssager",
     "level": "C2"
   },
   {
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Põhimäärus • Reglement",
+    "lv": "Forordning • Forordninger",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "Seksuaalvahekord",
+    "lv": "Samleje",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsbegrenzung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsbegrenzungen",
-    "lv": "Kiirusepiirang",
+    "lv": "Hastighedsgrænse",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitskontrolle",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitskontrollen",
-    "lv": "Kiiruskontroll",
+    "lv": "Hastighedskontrol",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsmessung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsmessungen",
-    "lv": "Kiirusmõõtmine",
+    "lv": "Hastighedsmåling",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Kiirusepiirangu ületamine",
+    "lv": "Manglende overholdelse af den foreskrevne hastighed • Overtrædelse",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Ühiskondlik • Ühiskonna",
+    "lv": "Offentlige • Selskaber",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Ühiskonnakord",
+    "lv": "Offentligt anlæg",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "Seaduseelnõu",
+    "lv": "Regning",
     "level": "C2"
   },
   {
     "de": "gesetzgebende Gewalt",
     "de_article": "die",
     "de_plural": "die gesetzgebenden Gewalten",
-    "lv": "Seadusandlik võim",
+    "lv": "Lovgivende magt",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "Ametiühingu liikmemaks",
+    "lv": "Fagforenings kontingent",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsmitglied",
     "de_article": "das",
     "de_plural": "die Gewerkschaftsmitglieder",
-    "lv": "Ametiühingu liige",
+    "lv": "Fagforeningsmedlem",
     "level": "C2"
   },
   {
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Loteriivõidu väljamaksmine",
+    "lv": "Udbetaling af lotterigevinster",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "Tippkohtumine",
+    "lv": "Konference på højeste niveau",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Võrdõiguslikkus",
+    "lv": "Lighed",
     "level": "C2"
   },
   {
     "de": "Grundnahrungsmittel",
     "de_article": "das",
     "de_plural": "die Grundnahrungsmittel",
-    "lv": "Põhitoiduaine",
+    "lv": "Basisfødevarer",
     "level": "C2"
   },
   {
     "de": "Handelsabkommen",
     "de_article": "das",
     "de_plural": "die Handelsabkommen",
-    "lv": "Kaubandusleping",
+    "lv": "Handelsaftale",
     "level": "C2"
   },
   {
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Pereliikmed • Majaelanikud",
+    "lv": "Familiemedlemmer • Beboere i huset",
     "level": "C2"
   },
   {
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "Eelarvekomisjon",
+    "lv": "Budgetkommission",
     "level": "C2"
   },
   {
     "de": "Herztransplantation",
     "de_article": "die",
     "de_plural": "die Herztransplantationen",
-    "lv": "Südamesiirdamine",
+    "lv": "Hjertetransplantation",
     "level": "C2"
   },
   {
     "de": "Hinterlassenschaft",
     "de_article": "die",
     "de_plural": "die Hinterlassenschaften",
-    "lv": "Pärand",
+    "lv": "Arv",
     "level": "C2"
   },
   {
     "de": "Kabinettsbeschluss",
     "de_article": "der",
     "de_plural": "die Kabinettsbeschlüsse",
-    "lv": "Kabineti otsus",
+    "lv": "Kabinets beslutning",
     "level": "C2"
   },
   {
     "de": "Kabinettsmitglied",
     "de_article": "das",
     "de_plural": "die Kabinettsmitglieder",
-    "lv": "Kabineti liige • Minister",
+    "lv": "Kabinetsmedlem • Minister",
     "level": "C2"
   },
   {
     "de": "Koalitionspartner",
     "de_article": "der",
     "de_plural": "die Koalitionspartner",
-    "lv": "Koalitsioonipartner",
+    "lv": "Koalitionspartner",
     "level": "C2"
   },
   {
     "de": "Koalitionsregierung",
     "de_article": "die",
     "de_plural": "die Koalitionsregierungen",
-    "lv": "Koalitsioonivalitsus",
+    "lv": "Koalitionsregering",
     "level": "C2"
   },
   {
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "Sõjakahjude hüvitamine • Reparatsioonid",
+    "lv": "Erstatning for krigstab • Erstatning",
     "level": "C2"
   },
   {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "Elutahe",
+    "lv": "Livets drivkraft",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Elatuskulud",
+    "lv": "Forsørgelsesmidler • Omkostninger",
     "level": "C2"
   },
   {
     "de": "Lebensversicherung",
     "de_article": "die",
     "de_plural": "die Lebensversicherungen",
-    "lv": "Elukindlustus",
+    "lv": "Livsforsikring",
     "level": "C2"
   },
   {
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "Töövõime • Tootlikkus • Võimsus",
+    "lv": "Arbejdskapacitet • Produktivitet • Kapacitet",
     "level": "C2"
   },
   {
     "de": "Mannschaftskampf",
     "de_article": "der",
     "de_plural": "die Mannschaftskämpfe",
-    "lv": "Võistkondlik võistlus",
+    "lv": "Holdkonkurrence",
     "level": "C2"
   },
   {
     "de": "Marktwirtschaft",
     "de_article": "die",
     "de_plural": "die Marktwirtschaften",
-    "lv": "Turumajandus",
+    "lv": "Markedsøkonomi",
     "level": "C2"
   },
   {
     "de": "Meinungsverschiedenheiten",
     "de_article": "die",
     "de_plural": "die Meinungsverschiedenheiten",
-    "lv": "Arvamuserinevused",
+    "lv": "Uenigheder",
     "level": "C2"
   },
   {
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Meistrivõistlused",
+    "lv": "Mesterløb",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humaanne • Inimlik",
+    "lv": "Humane • Humane",
     "level": "C2"
   },
   {
     "de": "Minderheitsregierung",
     "de_article": "die",
     "de_plural": "die Minderheitsregierungen",
-    "lv": "Vähemusvalitsus",
+    "lv": "Mindretalsregering",
     "level": "C2"
   },
   {
     "de": "Mutterschaftsurlaub",
     "de_article": "der",
     "de_plural": "die Mutterschaftsurlaube",
-    "lv": "Rasedus- ja sünnituspuhkus",
+    "lv": "Barselsorlov",
     "level": "C2"
   },
   {
     "de": "Nebenbeschäftigung",
     "de_article": "die",
     "de_plural": "die Nebenbeschäftigungen",
-    "lv": "Kõrvaltöö",
+    "lv": "Sidejob",
     "level": "C2"
   },
   {
     "de": "Nervenzusammenbruch",
     "de_article": "der",
     "de_plural": "die Nervenzusammenbrüche",
-    "lv": "Närvivapustus",
+    "lv": "Nervøst sammenbrud",
     "level": "C2"
   },
   {
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "Parlamendisaadik • Parlamendiliige",
+    "lv": "Folketingsmedlem • Folketingsmedlem",
     "level": "C2"
   },
   {
     "de": "Pflichtversicherung",
     "de_article": "die",
     "de_plural": "die Pflichtversicherungen",
-    "lv": "Kohustuslik kindlustus",
+    "lv": "Obligatorisk forsikring",
     "level": "C2"
   },
   {
     "de": "politische Ökonomie",
     "de_article": "die",
-    "lv": "Poliitiline ökonoomia",
+    "lv": "Politisk økonomi",
     "level": "C2"
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Populaarteaduslik",
+    "lv": "Populær videnskab",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Võistlus",
+    "lv": "Konkurrence",
     "level": "C2"
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "Paremäärmuslik",
+    "lv": "Højreekstremist",
     "level": "C2"
   },
   {
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Satelliitülekanne",
+    "lv": "Satellit-tv transmission",
     "level": "C2"
   },
   {
     "de": "Scheidungsprozess",
     "de_article": "der",
     "de_plural": "die Scheidungsprozesse",
-    "lv": "Lahutusprotsess",
+    "lv": "Skilsmissesag",
     "level": "C2"
   },
   {
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Kaebus",
+    "lv": "Klage",
     "level": "C2"
   },
   {
     "de": "Schwangerschaftsabbruch",
     "de_article": "der",
     "de_plural": "die Schwangerschaftsabbrüche",
-    "lv": "Raseduse katkestamine",
+    "lv": "Afbrydelse af graviditet",
     "level": "C2"
   },
   {
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "Enesemääramisõigus",
+    "lv": "Selvbestemmelsesretten",
     "level": "C2"
   },
   {
     "de": "Selbsterhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Selbsterhaltungstriebe",
-    "lv": "Enesesäilitamisinstinkt",
+    "lv": "Selvopholdelsesinstinktet",
     "level": "C2"
   },
   {
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "Enesekaitse",
+    "lv": "Et sæt selvforsvarsteknikker",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Kodakondsus",
+    "lv": "Statsskab",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Maksusoodustus",
+    "lv": "Skattefordele",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Jur. kriminaalkoodeks",
+    "lv": "Jur straffelov",
     "level": "C2"
   },
   {
     "de": "Tochtergesellschaft",
     "de_article": "die",
     "de_plural": "die Tochtergesellschaften",
-    "lv": "Tütarettevõte",
+    "lv": "Datterselskab",
     "level": "C2"
   },
   {
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "Isaduse tuvastamise hagi",
+    "lv": "En retssag for at fastslå faderskab",
     "level": "C2"
   },
   {
     "de": "verallgemeinern",
-    "lv": "Üldistama",
+    "lv": "At generalisere",
     "level": "C2"
   },
   {
     "de": "Verhütungsmittel",
     "de_article": "das",
     "de_plural": "die Verhütungsmittel",
-    "lv": "Rasestumisvastane vahend",
+    "lv": "Præventionsmiddel",
     "level": "C2"
   },
   {
     "de": "Waffenstillstand",
     "de_article": "der",
     "de_plural": "die Waffenstillstände",
-    "lv": "Vaherahu",
+    "lv": "Våbenstilstand",
     "level": "C2"
   },
   {
     "de": "Widerstandsbewegung",
     "de_article": "die",
     "de_plural": "die Widerstandsbewegungen",
-    "lv": "Vastupanuliikumine",
+    "lv": "Modstandsbevægelse",
     "level": "C2"
   },
   {
     "de": "Widerstandskämpfer",
     "de_article": "der",
     "de_plural": "die Widerstandskämpfer",
-    "lv": "Vastupanuliikumise võitleja",
+    "lv": "Medlem af modstandsbevægelsen",
     "level": "C2"
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "Põhiliselt",
+    "lv": "Dybest set",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "Kasuks • Heaks",
+    "lv": "For the good • For the good",
     "level": "C2"
   },
   {
     "de": "imstande",
-    "lv": "Võimeline",
+    "lv": "I stand",
     "level": "C2"
   },
   {
     "de": "im Stande",
-    "lv": "Võimeline",
+    "lv": "I stand",
     "level": "C2"
   },
   {
     "de": "instand",
-    "lv": "Korras",
+    "lv": "I rækkefølge",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "Korras",
+    "lv": "I rækkefølge",
     "level": "C2"
   },
   {
     "de": "inwiefern",
-    "lv": "Mil määral",
+    "lv": "I hvilket omfang",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "Mil määral",
+    "lv": "I hvilket omfang",
     "level": "C2"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Kärutis",
+    "lv": "Trillebør",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Kärutis",
+    "lv": "Trillebør",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Sõjainvaliid",
+    "lv": "En krigsinvalid",
     "level": "C2"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Sõjavang",
+    "lv": "En krigsfange",
     "level": "C2"
   },
   {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Asjatundja • Ekspert",
+    "lv": "Dygtig • Ekspert",
     "level": "C2"
   }
 ];

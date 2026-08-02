@@ -1,3982 +1,3982 @@
 const SENTENCE_ENTRIES = [
   {
     "de": "Hüte dich davor!",
-    "lv": "Hoia end selle eest!",
+    "lv": "Pas på det!",
     "level": "Sätze"
   },
   {
     "de": "Wenn nichts dazwischenkommt.",
-    "lv": "Kui miski ei sega. • Kui kõik läheb plaanipäraselt.",
+    "lv": "Hvis intet forstyrrer. • Hvis alt går efter planen.",
     "level": "Sätze"
   },
   {
     "de": "Das kann ich mir denken!",
-    "lv": "Seda ma juba tean!",
+    "lv": "Jeg ved det!",
     "level": "Sätze"
   },
   {
     "de": "Ist er denn krank?",
-    "lv": "Kas ta siis on haige?",
+    "lv": "Er han så syg?",
     "level": "Sätze"
   },
   {
     "de": "Was denn?",
-    "lv": "Mis siis?",
+    "lv": "Hvad så?",
     "level": "Sätze"
   },
   {
     "de": "Desto mehr.",
-    "lv": "Seda enam.",
+    "lv": "Jo flere.",
     "level": "Sätze"
   },
   {
     "de": "Je mehr, desto besser.",
-    "lv": "Mida rohkem, seda parem.",
+    "lv": "Jo flere jo bedre.",
     "level": "Sätze"
   },
   {
     "de": "Alles deutet auf Regen.",
-    "lv": "Kõik viitab vihmale.",
+    "lv": "Alt peger på sagen.",
     "level": "Sätze"
   },
   {
     "de": "Damit ist mir wenig gedient.",
-    "lv": "Sellest on mulle vähe kasu.",
+    "lv": "Det giver lidt mening for mig.",
     "level": "Sätze"
   },
   {
     "de": "Er ist dienstlich verhindert.",
-    "lv": "Ta ei saa tulla teenistuskohustuste tõttu.",
+    "lv": "Han kan ikke komme på grund af arbejde.",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie doch!",
-    "lv": "Rääkige juba!",
+    "lv": "Sig op!",
     "level": "Sätze"
   },
   {
     "de": "Es donnert.",
-    "lv": "Müristab.",
+    "lv": "Torden brøler.",
     "level": "Sätze"
   },
   {
     "de": "Doppelt so groß.",
-    "lv": "Kaks korda suurem.",
+    "lv": "Dobbelt så stor.",
     "level": "Sätze"
   },
   {
     "de": "Von dort.",
-    "lv": "Sealt.",
+    "lv": "Derfra.",
     "level": "Sätze"
   },
   {
     "de": "Die Zeit drängt.",
-    "lv": "Aeg kihutab.",
+    "lv": "Tiden løber ud.",
     "level": "Sätze"
   },
   {
     "de": "Ihn drücken Sorgen.",
-    "lv": "Teda rõhuvad mured.",
+    "lv": "Han er overvældet af bekymring.",
     "level": "Sätze"
   },
   {
     "de": "Hast du das Buch durchgearbeitet?",
-    "lv": "Kas sa oled raamatu hoolikalt läbi töötanud?",
+    "lv": "Har du gennemgået bogen nøje?",
     "level": "Sätze"
   },
   {
     "de": "Kein Durchgang!",
-    "lv": "Läbipääs suletud!",
+    "lv": "Gå ikke igennem! • Udgang lukket!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich Sie bitten?",
-    "lv": "Kas ma tohin teilt paluda?",
+    "lv": "Må jeg spørge dig",
     "level": "Sätze"
   },
   {
     "de": "Ich bin durstig.",
-    "lv": "Mul on janu.",
+    "lv": "Jeg er tørstig.",
     "level": "Sätze"
   },
   {
     "de": "Eben das meine ich.",
-    "lv": "Just seda ma mõtlengi.",
+    "lv": "Det er præcis, hvad jeg mener.",
     "level": "Sätze"
   },
   {
     "de": "Es ist ganz egal.",
-    "lv": "See on täiesti ükskõik.",
+    "lv": "Det betyder overhovedet ikke noget.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie eigentlich?",
-    "lv": "Mida te õigupoolest tahate?",
+    "lv": "Hvad vil du egentlig?",
     "level": "Sätze"
   },
   {
     "de": "Eilt es mit dieser Sache?",
-    "lv": "Kas see asi on kiireloomuline?",
+    "lv": "Er denne sag presserende?",
     "level": "Sätze"
   },
   {
     "de": "Eilt sehr!",
-    "lv": "Väga kiiresti!",
+    "lv": "Meget presserende!",
     "level": "Sätze"
   },
   {
     "de": "Ich habe es eilig.",
-    "lv": "Mul on kiire.",
+    "lv": "Jeg har travlt.",
     "level": "Sätze"
   },
   {
     "de": "Du bildest dir nur ein, krank zu sein.",
-    "lv": "Sa ainult kujutled, et oled haige.",
+    "lv": "Du forestiller dig bare, at du er syg.",
     "level": "Sätze"
   },
   {
     "de": "Was fällt dir ein?",
-    "lv": "Mis sulle pähe tuleb?",
+    "lv": "Hvad falder dig ind?",
     "level": "Sätze"
   },
   {
     "de": "Es war einmal.",
-    "lv": "Kord oli.",
+    "lv": "Engang var der.",
     "level": "Sätze"
   },
   {
     "de": "Steigen Sie bitte ein!",
-    "lv": "Palun astuge peale!",
+    "lv": "Kom venligst ind!",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie ein!",
-    "lv": "Palun tulge sisse!",
+    "lv": "Kom venligst ind!",
     "level": "Sätze"
   },
   {
     "de": "Einzelnes hat mir dort gefallen.",
-    "lv": "Mõned asjad meeldisid mulle seal.",
+    "lv": "Jeg kunne godt lide nogle ting der.",
     "level": "Sätze"
   },
   {
     "de": "Es empfiehlt sich.",
-    "lv": "On soovitatav.",
+    "lv": "Det anbefales.",
     "level": "Sätze"
   },
   {
     "de": "Diese Flasche enthält Essig.",
-    "lv": "Selles pudelis on äädikas.",
+    "lv": "Denne flaske indeholder eddike.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Vabandage, palun!",
+    "lv": "Undskyld mig, tak!",
     "level": "Sätze"
   },
   {
     "de": "Entweder... oder...",
-    "lv": "Kas... või...",
+    "lv": "Enten... eller...",
     "level": "Sätze"
   },
   {
     "de": "Wer war der Erste?",
-    "lv": "Kes oli esimene?",
+    "lv": "Hvem var først?",
     "level": "Sätze"
   },
   {
     "de": "Wer fehlt heute?",
-    "lv": "Kes täna puudub?",
+    "lv": "Hvem er ikke kommet i dag?",
     "level": "Sätze"
   },
   {
     "de": "Was fehlt dir?",
-    "lv": "Mis sul viga on?",
+    "lv": "Hvad er der galt med dig?",
     "level": "Sätze"
   },
   {
     "de": "Wie heißen Sie?",
-    "lv": "Mis on teie nimi?",
+    "lv": "Hvad er dit navn?",
     "level": "Sätze"
   },
   {
     "de": "Was soll das heißen?",
-    "lv": "Mida see tähendab?",
+    "lv": "Hvad betyder det?",
     "level": "Sätze"
   },
   {
     "de": "Bitte treten Sie näher heran!",
-    "lv": "Palun tulge lähemale!",
+    "lv": "Kom venligst nærmere!",
     "level": "Sätze"
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Räägi! • Räägi ära!",
+    "lv": "Tale! • Historier!",
     "level": "Sätze"
   },
   {
     "de": "im Herbst",
-    "lv": "Sügisel",
+    "lv": "I efteråret",
     "level": "Sätze"
   },
   {
     "de": "Meine Herrschaften!",
-    "lv": "Daamid ja härrad!",
+    "lv": "Mine damer og herrer!",
     "level": "Sätze"
   },
   {
     "de": "von heute an",
-    "lv": "Alates tänasest",
+    "lv": "Starter i dag",
     "level": "Sätze"
   },
   {
     "de": "heute früh",
-    "lv": "Täna hommikul",
+    "lv": "Denne morgen",
     "level": "Sätze"
   },
   {
     "de": "heute Nacht",
-    "lv": "Täna öösel",
+    "lv": "I går aftes",
     "level": "Sätze"
   },
   {
     "de": "Zu Hilfe!",
-    "lv": "Appi!",
+    "lv": "Hjælp!",
     "level": "Sätze"
   },
   {
     "de": "Ich lerne jeden Tag Deutsch.",
-    "lv": "Ma õpin iga päev saksa keelt.",
+    "lv": "Jeg studerer tysk hver dag.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das bitte wiederholen?",
-    "lv": "Kas sa saad seda palun korrata?",
+    "lv": "Kan du venligst gentage det?",
     "level": "Sätze"
   },
   {
     "de": "Wir treffen uns am Bahnhof.",
-    "lv": "Me kohtume raudteejaamas.",
+    "lv": "Vi mødes på banegården.",
     "level": "Sätze"
   },
   {
     "de": "Ich stimme dir teilweise zu.",
-    "lv": "Ma olen sinuga osaliselt nõus.",
+    "lv": "Jeg er til dels enig med dig.",
     "level": "Sätze"
   },
   {
     "de": "Diese Entscheidung hat weitreichende Folgen.",
-    "lv": "Sellel otsusel on kaugeleulatuvad tagajärjed.",
+    "lv": "Denne beslutning har vidtrækkende konsekvenser.",
     "level": "Sätze"
   },
   {
     "de": "Man sollte mehrere Perspektiven berücksichtigen.",
-    "lv": "Tuleks arvestada mitme vaatenurgaga.",
+    "lv": "Flere perspektiver bør overvejes.",
     "level": "Sätze"
   },
   {
     "de": "Könnten Sie das näher erläutern?",
-    "lv": "Kas te võiksite seda täpsemalt selgitada?",
+    "lv": "Kan du forklare dette mere detaljeret?",
     "level": "Sätze"
   },
   {
     "de": "Was mich anbelangt,...",
-    "lv": "Mis puutub minusse,...",
+    "lv": "Hvad mig angår...",
     "level": "Sätze"
   },
   {
     "de": "Wie alt sind Sie?",
-    "lv": "Kui vana te olete?",
+    "lv": "Hvor gammel er du?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zwanzig Jahre alt.",
-    "lv": "Ma olen kakskümmend aastat vana.",
+    "lv": "Jeg er tyve år gammel.",
     "level": "Sätze"
   },
   {
     "de": "Von heute an.",
-    "lv": "Alates tänasest.",
+    "lv": "Fra i dag.",
     "level": "Sätze"
   },
   {
     "de": "Von jetzt an.",
-    "lv": "Alates sellest hetkest.",
+    "lv": "Fra nu af.",
     "level": "Sätze"
   },
   {
     "de": "Anders geht es nicht.",
-    "lv": "Teisiti ei saa.",
+    "lv": "Der er ingen anden måde.",
     "level": "Sätze"
   },
   {
     "de": "Rufen Sie mich an.",
-    "lv": "Helistage mulle.",
+    "lv": "Ring til mig.",
     "level": "Sätze"
   },
   {
     "de": "Bitte stellen Sie das Radio ab.",
-    "lv": "Palun lülitage raadio välja.",
+    "lv": "Sluk venligst for radioen.",
     "level": "Sätze"
   },
   {
     "de": "Achte bitte auf den Verkehr.",
-    "lv": "Palun pööra tähelepanu liiklusele.",
+    "lv": "Vær opmærksom på trafikken.",
     "level": "Sätze"
   },
   {
     "de": "Darauf musst du achten.",
-    "lv": "Sellele pead sa tähelepanu pöörama.",
+    "lv": "Det bør du være opmærksom på.",
     "level": "Sätze"
   },
   {
     "de": "Heute mache ich es anders.",
-    "lv": "Täna teen ma seda teisiti.",
+    "lv": "I dag vil jeg gøre det anderledes.",
     "level": "Sätze"
   },
   {
     "de": "Wir warten auf den Bus.",
-    "lv": "Me ootame bussi.",
+    "lv": "Vi venter på bussen.",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt allein.",
-    "lv": "Ta elab üksi.",
+    "lv": "Han bor alene.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Ausbildung absolviert.",
-    "lv": "Ma lõpetasin väljaõppe. • Ma lõpetasin hariduse.",
+    "lv": "Jeg afsluttede min uddannelse. • Jeg afsluttede min uddannelse.",
     "level": "Sätze"
   },
   {
     "de": "Ich warte den Regen ab.",
-    "lv": "Ma ootan ära, kuni vihm lakkab.",
+    "lv": "Jeg venter på, at regnen holder op.",
     "level": "Sätze"
   },
   {
     "de": "Er arbeitet in der Verkaufsabteilung.",
-    "lv": "Ta töötab müügiosakonnas.",
+    "lv": "Han arbejder i salgsafdelingen.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin allergisch gegen Katzen.",
-    "lv": "Mul on allergia kasside vastu.",
+    "lv": "Jeg er allergisk over for katte.",
     "level": "Sätze"
   },
   {
     "de": "Andererseits verstehe ich ihn.",
-    "lv": "Teisest küljest ma saan temast aru.",
+    "lv": "På den anden side forstår jeg ham.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe die Situation analysiert.",
-    "lv": "Ma analüüsisin olukorda.",
+    "lv": "Jeg analyserede situationen.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat meinen Vorschlag akzeptiert.",
-    "lv": "Ta võttis vastu minu ettepaneku.",
+    "lv": "Hun accepterede mit forslag.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte das genauer analysieren.",
-    "lv": "Ma soovin seda täpsemalt analüüsida.",
+    "lv": "Jeg vil gerne analysere det mere præcist.",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte den Vertrag ändern.",
-    "lv": "Ma soovin lepingut muuta.",
+    "lv": "Jeg vil ændre kontrakten.",
     "level": "Sätze"
   },
   {
     "de": "Er ändert ständig seine Meinung.",
-    "lv": "Ta muudab pidevalt oma arvamust.",
+    "lv": "Han ændrer konstant mening.",
     "level": "Sätze"
   },
   {
     "de": "Ähnliche Probleme hatten wir schon früher.",
-    "lv": "Sarnaseid probleeme oli meil juba varem.",
+    "lv": "Vi havde lignende problemer før.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ahnung!",
-    "lv": "Pole aimugi!",
+    "lv": "Ingen anelse!",
     "level": "Sätze"
   },
   {
     "de": "Hör auf zu jammern.",
-    "lv": "Lõpeta virisemine.",
+    "lv": "Lad være med at klage.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Kleid ist akademisch gekleidet.",
-    "lv": "See kleit on stiilselt konservatiivne.",
+    "lv": "Denne kjole er stilfuldt konservativ.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre gerne Akkordeonmusik.",
-    "lv": "Mulle meeldib kuulata akordionimuusikat.",
+    "lv": "Jeg kan godt lide at lytte til harmonikamusik.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du das Gerät anklicken?",
-    "lv": "Kas sa saad seadmele klõpsata?",
+    "lv": "Kan du klikke på enheden?",
     "level": "Sätze"
   },
   {
     "de": "Bitte öffne die Datei und klicke darauf.",
-    "lv": "Palun ava fail ja klõpsa sellel.",
+    "lv": "Åbn venligst filen og klik på den.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe einen Unfall gehabt.",
-    "lv": "Sattusin õnnetusse.",
+    "lv": "Jeg var ude for en ulykke.",
     "level": "Sätze"
   },
   {
     "de": "Wir laufen zum Bahnhof.",
-    "lv": "Me läheme jaama.",
+    "lv": "Vi går til stationen.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schalte den Fernseher an.",
-    "lv": "Palun lülita televiisor sisse.",
+    "lv": "Tænd venligst for tv'et.",
     "level": "Sätze"
   },
   {
     "de": "Mein Computer ist abgestürzt.",
-    "lv": "Minu arvuti jooksis kokku.",
+    "lv": "Min computer er gået ned.",
     "level": "Sätze"
   },
   {
     "de": "Am Wochenende gehe ich angeln.",
-    "lv": "Nädalavahetusel lähen ma kalale.",
+    "lv": "Jeg skal ud at fiske i weekenden.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe den Anruf verpasst.",
-    "lv": "Ma jäin kõnest ilma.",
+    "lv": "Jeg gik glip af opkaldet.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mich später anrufen?",
-    "lv": "Kas sa saad mulle hiljem helistada?",
+    "lv": "Kan du ringe til mig senere",
     "level": "Sätze"
   },
   {
     "de": "Bitte nimm meinen Vorschlag an.",
-    "lv": "Palun võta mu ettepanek vastu.",
+    "lv": "Accepter venligst mit forslag.",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme dein Angebot an.",
-    "lv": "Ma võtan su pakkumise vastu.",
+    "lv": "Jeg accepterer dit tilbud.",
     "level": "Sätze"
   },
   {
     "de": "Er nahm die Einladung an.",
-    "lv": "Ta võttis kutse vastu.",
+    "lv": "Han tog imod invitationen.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Angst vor Spinnen.",
-    "lv": "Mul on hirm ämblike ees.",
+    "lv": "Jeg er bange for edderkopper.",
     "level": "Sätze"
   },
   {
     "de": "Keine Angst, alles wird gut.",
-    "lv": "Ära karda, kõik saab hästi.",
+    "lv": "Vær ikke bange, alt vil være godt.",
     "level": "Sätze"
   },
   {
     "de": "Anklang finden.",
-    "lv": "Leida vastukaja. • Leida poolehoidu.",
+    "lv": "Find et ekko. • Find lydhørhed",
     "level": "Sätze"
   },
   {
     "de": "Es kommt darauf an.",
-    "lv": "See sõltub sellest.",
+    "lv": "Det afhænger af det.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Sel puhul. • Sellega seoses.",
+    "lv": "På grund af denne tid. • I denne forbindelse",
     "level": "Sätze"
   },
   {
     "de": "Nehmen wir an, dass...",
-    "lv": "Oletame, et...",
+    "lv": "Antag at...",
     "level": "Sätze"
   },
   {
     "de": "Was hast du da angerichtet?",
-    "lv": "Mida sa seal oled korda saatnud?",
+    "lv": "Hvad har du lavet der",
     "level": "Sätze"
   },
   {
     "de": "Bis ans Ende.",
-    "lv": "Lõpuni.",
+    "lv": "Indtil slutningen.",
     "level": "Sätze"
   },
   {
     "de": "Du glaubst mir anscheinend nicht.",
-    "lv": "Näib, et sa ei usu mind.",
+    "lv": "Du synes ikke at tro mig.",
     "level": "Sätze"
   },
   {
     "de": "Meiner Ansicht nach...",
-    "lv": "Minu arvates...",
+    "lv": "Efter min mening...",
     "level": "Sätze"
   },
   {
     "de": "Stell dich nicht so an!",
-    "lv": "Ära teeskle!",
+    "lv": "Lad være med at lade som om!",
     "level": "Sätze"
   },
   {
     "de": "An die Arbeit gehen.",
-    "lv": "Asuda tööle.",
+    "lv": "Kom på arbejde.",
     "level": "Sätze"
   },
   {
     "de": "Außer Atem sein.",
-    "lv": "Olla hingetu.",
+    "lv": "At blive forpustet.",
     "level": "Sätze"
   },
   {
     "de": "Guten Appetit!",
-    "lv": "Head isu!",
+    "lv": "God appetit!",
     "level": "Sätze"
   },
   {
     "de": "In einem Atemzug.",
-    "lv": "Ühe hingetõmbega.",
+    "lv": "I et åndedrag.",
     "level": "Sätze"
   },
   {
     "de": "Auf jeden Fall.",
-    "lv": "Igal juhul.",
+    "lv": "I hvert tilfælde.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal war alles still.",
-    "lv": "Järsku jäi kõik vaikseks.",
+    "lv": "Pludselig blev alt stille.",
     "level": "Sätze"
   },
   {
     "de": "Bitte mach die Tür auf!",
-    "lv": "Ava palun uks!",
+    "lv": "Åbn venligst døren!",
     "level": "Sätze"
   },
   {
     "de": "Er hat den Kredit aufgenommen.",
-    "lv": "Ta võttis laenu.",
+    "lv": "Han tog et lån.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen heute aufräumen.",
-    "lv": "Meil tuleb täna ruum korda teha.",
+    "lv": "Vi skal rydde op i lokalet i dag.",
     "level": "Sätze"
   },
   {
     "de": "Ich höre jetzt auf.",
-    "lv": "Ma lõpetan nüüd.",
+    "lv": "Jeg stopper nu.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schon auf.",
-    "lv": "Ta on juba üleval.",
+    "lv": "Han er allerede oppe.",
     "level": "Sätze"
   },
   {
     "de": "Wir müssen das Treffen verschieben.",
-    "lv": "Meil tuleb kohtumine edasi lükata.",
+    "lv": "Vi er nødt til at omlægge mødet.",
     "level": "Sätze"
   },
   {
     "de": "Sie hat mich aufgeregt.",
-    "lv": "Ta ärritas mind.",
+    "lv": "Hun irriterede mig.",
     "level": "Sätze"
   },
   {
     "de": "Auf einmal.",
-    "lv": "Järsku.",
+    "lv": "Pludselig.",
     "level": "Sätze"
   },
   {
     "de": "Auf der Stelle.",
-    "lv": "Viivitamatult.",
+    "lv": "Straks.",
     "level": "Sätze"
   },
   {
     "de": "Für den Schaden aufkommen.",
-    "lv": "Katta tekitatud kahju.",
+    "lv": "Dæk skaderne.",
     "level": "Sätze"
   },
   {
     "de": "Bitte die Tür auf!",
-    "lv": "Avage palun uks!",
+    "lv": "Åbn døren, tak!",
     "level": "Sätze"
   },
   {
     "de": "Aufrecht sitzen.",
-    "lv": "Istuda sirgelt.",
+    "lv": "Sid oprejst.",
     "level": "Sätze"
   },
   {
     "de": "Er ist auf.",
-    "lv": "Ta on üleval.",
+    "lv": "Han har rejst sig.",
     "level": "Sätze"
   },
   {
     "de": "Alle Kräfte aufwenden.",
-    "lv": "Pühendada kõik jõud.",
+    "lv": "Brug al din styrke.",
     "level": "Sätze"
   },
   {
     "de": "Viel Mühe aufwenden.",
-    "lv": "Väga pingutada.",
+    "lv": "Prøv meget hårdt.",
     "level": "Sätze"
   },
   {
     "de": "Geh mir aus den Augen!",
-    "lv": "Ära näita end mulle enam silmas!",
+    "lv": "Se ikke på mig igen!",
     "level": "Sätze"
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Kahekesi. • Vaikselt.",
+    "lv": "I to. • Stille og roligt",
     "level": "Sätze"
   },
   {
     "de": "Aus Mangel an Zeit.",
-    "lv": "Ajapuuduse tõttu.",
+    "lv": "På grund af mangel på tid.",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Grunde.",
-    "lv": "Sel põhjusel.",
+    "lv": "Af denne grund.",
     "level": "Sätze"
   },
   {
     "de": "Alle außer dir.",
-    "lv": "Kõik peale sinu.",
+    "lv": "Alle undtagen dig.",
     "level": "Sätze"
   },
   {
     "de": "Auf Äußerlichkeiten Wert legen.",
-    "lv": "Panna rõhku välimusele.",
+    "lv": "Læg vægt på udseendet.",
     "level": "Sätze"
   },
   {
     "de": "Im äußersten Fall.",
-    "lv": "Halvimal juhul.",
+    "lv": "I værste fald.",
     "level": "Sätze"
   },
   {
     "de": "Äußerst wichtig.",
-    "lv": "Äärmiselt tähtis.",
+    "lv": "Ekstremt vigtigt.",
     "level": "Sätze"
   },
   {
     "de": "Aussicht auf die See.",
-    "lv": "Vaade merele.",
+    "lv": "Havudsigt.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gute Aussichten.",
-    "lv": "Tal on head väljavaated.",
+    "lv": "Han har en god chance.",
     "level": "Sätze"
   },
   {
     "de": "Wie wird dieses Wort ausgesprochen?",
-    "lv": "Kuidas seda sõna hääldatakse?",
+    "lv": "Hvordan udtales dette ord?",
     "level": "Sätze"
   },
   {
     "de": "Sein Beileid aussprechen.",
-    "lv": "Avaldada kaastunnet.",
+    "lv": "Udtryk kondolence.",
     "level": "Sätze"
   },
   {
     "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
-    "lv": "Millal toimusid meistrivõistlused?",
+    "lv": "Hvornår var mesterskabet?",
     "level": "Sätze"
   },
   {
     "de": "Welchen Beruf üben Sie aus?",
-    "lv": "Milline on teie amet?",
+    "lv": "Hvad er dit erhverv?",
     "level": "Sätze"
   },
   {
     "de": "Einfluss ausüben.",
-    "lv": "Mõjutada.",
+    "lv": "At påvirke.",
     "level": "Sätze"
   },
   {
     "de": "Auswärts essen.",
-    "lv": "Süüa väljas.",
+    "lv": "Spis ude.",
     "level": "Sätze"
   },
   {
     "de": "Per Bahn.",
-    "lv": "Rongiga.",
+    "lv": "Med jernbane.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Bahn.",
-    "lv": "Rongiga.",
+    "lv": "Med jernbane.",
     "level": "Sätze"
   },
   {
     "de": "Möglichst bald.",
-    "lv": "Nii kiiresti kui võimalik.",
+    "lv": "Så hurtigt som muligt.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist Angst und bange.",
-    "lv": "Mul on väga hirm.",
+    "lv": "Jeg er meget bange.",
     "level": "Sätze"
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Edasi lükata. • Venitada. • Lükata määramata ajaks.",
+    "lv": "Trække tiden ud. • Træk til længden • Udsæt på ubestemt tid",
     "level": "Sätze"
   },
   {
     "de": "Bar zahlen.",
-    "lv": "Maksta sularahas.",
+    "lv": "Betal kontant.",
     "level": "Sätze"
   },
   {
     "de": "Erz bauen.",
-    "lv": "Saada maaki.",
+    "lv": "Få malm.",
     "level": "Sätze"
   },
   {
     "de": "Mist bauen.",
-    "lv": "Untsu keerata. • Rumalusi teha.",
+    "lv": "Skud. • Gør dig selv til grin",
     "level": "Sätze"
   },
   {
     "de": "Ich bin beauftragt.",
-    "lv": "Mulle on antud ülesanne.",
+    "lv": "Jeg er blevet tildelt et job.",
     "level": "Sätze"
   },
   {
     "de": "Nach Bedarf.",
-    "lv": "Vastavalt vajadusele.",
+    "lv": "Efter behov.",
     "level": "Sätze"
   },
   {
     "de": "Ich bedauere ihn.",
-    "lv": "Mul on temast kahju.",
+    "lv": "Jeg har ondt af ham.",
     "level": "Sätze"
   },
   {
     "de": "Was bedeutet dieses Wort?",
-    "lv": "Mida see sõna tähendab?",
+    "lv": "Hvad betyder dette ord?",
     "level": "Sätze"
   },
   {
     "de": "Unter der Bedingung, dass...",
-    "lv": "Tingimusel, et...",
+    "lv": "Forudsat at...",
     "level": "Sätze"
   },
   {
     "de": "Sie sieht bedrückt aus.",
-    "lv": "Ta näeb rusutud välja.",
+    "lv": "Hun ser deprimeret ud.",
     "level": "Sätze"
   },
   {
     "de": "Hinweise befolgen.",
-    "lv": "Järgida juhiseid.",
+    "lv": "Følg instruktionerne.",
     "level": "Sätze"
   },
   {
     "de": "Befehle befolgen.",
-    "lv": "Täita käske.",
+    "lv": "Følg ordrer.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Post befördern.",
-    "lv": "Saata posti teel.",
+    "lv": "Send med mail.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin begierig zu wissen.",
-    "lv": "Mul on väga huvi teada saada.",
+    "lv": "Jeg vil virkelig gerne vide det.",
     "level": "Sätze"
   },
   {
     "de": "Zu Beginn.",
-    "lv": "Alguses.",
+    "lv": "I begyndelsen.",
     "level": "Sätze"
   },
   {
     "de": "Am Beginn.",
-    "lv": "Alguses.",
+    "lv": "I begyndelsen.",
     "level": "Sätze"
   },
   {
     "de": "Bei Beginn.",
-    "lv": "Alates.",
+    "lv": "Starter",
     "level": "Sätze"
   },
   {
     "de": "In Begleitung.",
-    "lv": "Saatel.",
+    "lv": "Ledsaget.",
     "level": "Sätze"
   },
   {
     "de": "Mit seiner Begleitung.",
-    "lv": "Kaaslasega.",
+    "lv": "Med akkompagnement.",
     "level": "Sätze"
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Ta taipab aeglaselt. • Tal on aeglane mõtlemine.",
+    "lv": "Han er langsom til at opfatte. • Han tænker langsomt",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Meelde jätta. • Mällu hoida.",
+    "lv": "Huske. • Gem i hukommelsen",
     "level": "Sätze"
   },
   {
     "de": "Bei Tisch.",
-    "lv": "Laua ääres.",
+    "lv": "Ved bordet.",
     "level": "Sätze"
   },
   {
     "de": "Bei Sinnen sein.",
-    "lv": "Olla täie mõistuse juures.",
+    "lv": "At være fornuftig.",
     "level": "Sätze"
   },
   {
     "de": "Bei Tage.",
-    "lv": "Päevasel ajal.",
+    "lv": "I løbet af dagen.",
     "level": "Sätze"
   },
   {
     "de": "Bei weitem nicht so.",
-    "lv": "Sugugi mitte.",
+    "lv": "Slet ikke.",
     "level": "Sätze"
   },
   {
     "de": "Alle beide.",
-    "lv": "Mõlemad.",
+    "lv": "Begge to.",
     "level": "Sätze"
   },
   {
     "de": "Stürmischer Beifall brach los.",
-    "lv": "Kõlas tormiline aplaus.",
+    "lv": "Der var tordnende klapsalver.",
     "level": "Sätze"
   },
   {
     "de": "Beifall finden.",
-    "lv": "Leida heakskiitu.",
+    "lv": "Indhent samtykke.",
     "level": "Sätze"
   },
   {
     "de": "Beileid aussprechen.",
-    "lv": "Avaldada kaastunnet.",
+    "lv": "Udtryk kondolence.",
     "level": "Sätze"
   },
   {
     "de": "Auf eigenen Beinen stehen.",
-    "lv": "Olla rahaliselt iseseisev.",
+    "lv": "At være økonomisk uafhængig.",
     "level": "Sätze"
   },
   {
     "de": "Zum Beispiel.",
-    "lv": "Näiteks.",
+    "lv": "F.eks.",
     "level": "Sätze"
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Aidata. • Osutada abi.",
+    "lv": "At hjælpe. • Yde assistance",
     "level": "Sätze"
   },
   {
     "de": "Beitrag leisten.",
-    "lv": "Anda oma panus.",
+    "lv": "Invester din andel.",
     "level": "Sätze"
   },
   {
     "de": "Jemandes Bekanntschaft machen.",
-    "lv": "Kellegagi tuttavaks saada.",
+    "lv": "Lær nogen at kende.",
     "level": "Sätze"
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Tuttavaks saada. • Kontakti luua.",
+    "lv": "Lær hinanden at kende. • Etabler kontakt",
     "level": "Sätze"
   },
   {
     "de": "Belegte Brötchen.",
-    "lv": "Võileivad pealispanusega.",
+    "lv": "Sandwich med toppings.",
     "level": "Sätze"
   },
   {
     "de": "Nach Ihrem Belieben.",
-    "lv": "Nagu te soovite.",
+    "lv": "Som du ønsker.",
     "level": "Sätze"
   },
   {
     "de": "Zu jeder beliebigen Zeit.",
-    "lv": "Igal ajal.",
+    "lv": "Til enhver tid.",
     "level": "Sätze"
   },
   {
     "de": "Schweigen beobachten.",
-    "lv": "Hoida vaikust.",
+    "lv": "At iagttage stilhed.",
     "level": "Sätze"
   },
   {
     "de": "Zur Bequemlichkeit.",
-    "lv": "Mugavuse mõttes.",
+    "lv": "For nemheds skyld.",
     "level": "Sätze"
   },
   {
     "de": "Bereit sein.",
-    "lv": "Olla valmis. • Olla nõus.",
+    "lv": "Vær klar. • Vær i fred",
     "level": "Sätze"
   },
   {
     "de": "Unfallopfer bergen.",
-    "lv": "Päästa õnnetuses kannatanuid.",
+    "lv": "Redde ofre i tilfælde af en ulykke.",
     "level": "Sätze"
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Teatada. • Anda aru. • Esitada ülevaade.",
+    "lv": "Rapport. • Give en rapport • Give et overblik",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind besetzt.",
-    "lv": "Kõik kohad on hõivatud.",
+    "lv": "Alle pladser er optaget.",
     "level": "Sätze"
   },
   {
     "de": "Neue Besen kehren gut.",
-    "lv": "Uus luud pühib hästi.",
+    "lv": "En ny kost fejer godt.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt ein Haus.",
-    "lv": "Talle kuulub maja.",
+    "lv": "Han ejer et hus.",
     "level": "Sätze"
   },
   {
     "de": "Er besitzt viel Mut.",
-    "lv": "Tal on suur julgus.",
+    "lv": "Han har et stort mod.",
     "level": "Sätze"
   },
   {
     "de": "Desto besser.",
-    "lv": "Seda parem.",
+    "lv": "Jo bedre.",
     "level": "Sätze"
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Paranege! • Saa terveks!",
+    "lv": "Få det godt! • Bliv rask!",
     "level": "Sätze"
   },
   {
     "de": "Beim besten Willen.",
-    "lv": "Kui väga ka ei tahaks.",
+    "lv": "Hvad end du vil.",
     "level": "Sätze"
   },
   {
     "de": "Am besten.",
-    "lv": "Kõige paremini.",
+    "lv": "Den bedste.",
     "level": "Sätze"
   },
   {
     "de": "Es besteht Zweifel.",
-    "lv": "On kahtlusi.",
+    "lv": "Der er tvivl.",
     "level": "Sätze"
   },
   {
     "de": "Seine Aufgabe besteht darin...",
-    "lv": "Tema ülesanne seisneb...",
+    "lv": "Hans opgave er...",
     "level": "Sätze"
   },
   {
     "de": "Grüße bestellen.",
-    "lv": "Tervitusi edastada.",
+    "lv": "Sig hej.",
     "level": "Sätze"
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Kindlasti. • Täiesti kindlalt.",
+    "lv": "Definitivt. • Fuldstændig sikker",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch kommen.",
-    "lv": "Külla tulla.",
+    "lv": "Kom på besøg.",
     "level": "Sätze"
   },
   {
     "de": "Zu Besuch sein.",
-    "lv": "Külas olla. • Külas käia.",
+    "lv": "At besøge. • At besøge",
     "level": "Sätze"
   },
   {
     "de": "Oft Konzerte besuchen.",
-    "lv": "Sageli kontsertidel käia.",
+    "lv": "Går ofte til koncerter.",
     "level": "Sätze"
   },
   {
     "de": "Welche Schule hat er besucht?",
-    "lv": "Millises koolis ta õppis?",
+    "lv": "Hvilken skole gik han på?",
     "level": "Sätze"
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Arvesse võtta. • Kaaluda.",
+    "lv": "Tage hensyn. • Overvej",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Mitte arvesse võtta. • Mitte kaaluda.",
+    "lv": "Se bort fra. • Overvej ikke",
     "level": "Sätze"
   },
   {
     "de": "Er betreibt ein Hotel.",
-    "lv": "Ta juhib hotelli.",
+    "lv": "Han driver et hotel.",
     "level": "Sätze"
   },
   {
     "de": "Alle beiden.",
-    "lv": "Mõlemad.",
+    "lv": "Begge to.",
     "level": "Sätze"
   },
   {
     "de": "Alles bezahlen.",
-    "lv": "Maksta kõik ära.",
+    "lv": "Betal alt.",
     "level": "Sätze"
   },
   {
     "de": "Bezüglich auf etwas.",
-    "lv": "Millegi suhtes.",
+    "lv": "Angående noget.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön.",
-    "lv": "Palun.",
+    "lv": "Behage",
     "level": "Sätze"
   },
   {
     "de": "Wie bitte?",
-    "lv": "Kuidas, palun?",
+    "lv": "Hvordan venligst",
     "level": "Sätze"
   },
   {
     "de": "Bitte sehr.",
-    "lv": "Palun.",
+    "lv": "Behage",
     "level": "Sätze"
   },
   {
     "de": "Ich habe eine Bitte an Sie.",
-    "lv": "Mul on teile palve.",
+    "lv": "Jeg har en anmodning til dig.",
     "level": "Sätze"
   },
   {
     "de": "Trompete blasen.",
-    "lv": "Puhuda trompetit.",
+    "lv": "Blæs i trompet.",
     "level": "Sätze"
   },
   {
     "de": "In einem Buch blättern.",
-    "lv": "Lehitseda raamatut.",
+    "lv": "Sorter bogen.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßen Füßen.",
-    "lv": "Paljajalu.",
+    "lv": "Bare fødder.",
     "level": "Sätze"
   },
   {
     "de": "Mit bloßem Auge.",
-    "lv": "Palja silmaga.",
+    "lv": "Med det blotte øje.",
     "level": "Sätze"
   },
   {
     "de": "Danke für die Blumen!",
-    "lv": "Aitäh lillede eest!",
+    "lv": "Tak for blomsterne!",
     "level": "Sätze"
   },
   {
     "de": "Alles in Butter.",
-    "lv": "Kõik korras.",
+    "lv": "Alt er fint.",
     "level": "Sätze"
   },
   {
     "de": "Bitte checken.",
-    "lv": "Kontrollida. • Üle kontrollida.",
+    "lv": "Check. • Tjek",
     "level": "Sätze"
   },
   {
     "de": "Da ist er!",
-    "lv": "Seal ta on!",
+    "lv": "Her er han!",
     "level": "Sätze"
   },
   {
     "de": "Alles spricht dafür.",
-    "lv": "Kõik räägib selle kasuks.",
+    "lv": "Alt taler godt.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann nichts dafür.",
-    "lv": "Ma ei saa selle vastu midagi teha.",
+    "lv": "Jeg kan ikke gøre noget der.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin dagegen.",
-    "lv": "Ma olen selle vastu.",
+    "lv": "Jeg er imod det.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe nichts dagegen.",
-    "lv": "Mul ei ole selle vastu midagi.",
+    "lv": "Det har jeg ikke noget imod.",
     "level": "Sätze"
   },
   {
     "de": "Von daheim.",
-    "lv": "Kodust.",
+    "lv": "Hjemmefra.",
     "level": "Sätze"
   },
   {
     "de": "Mit der Dame ziehen.",
-    "lv": "Teha lipu käiku.",
+    "lv": "Lav en dames bevægelse.",
     "level": "Sätze"
   },
   {
     "de": "Es dämmert.",
-    "lv": "Hakkab hämarduma. • Koidab.",
+    "lv": "Det er ved at blive mørkt. • Daggry bryder ind.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Aitäh! • Tänan!",
+    "lv": "Tak! • Tak!",
     "level": "Sätze"
   },
   {
     "de": "Dann und wann.",
-    "lv": "Aeg-ajalt.",
+    "lv": "Nu og da.",
     "level": "Sätze"
   },
   {
     "de": "Darauf kannst du dich verlassen.",
-    "lv": "Selle peale võid sa kindel olla.",
+    "lv": "Det kan du regne med.",
     "level": "Sätze"
   },
   {
     "de": "Daraus wird nichts.",
-    "lv": "Sellest ei tule midagi välja.",
+    "lv": "Det kommer der ikke noget ud af.",
     "level": "Sätze"
   },
   {
     "de": "So dass...",
-    "lv": "Nii et...",
+    "lv": "Så det...",
     "level": "Sätze"
   },
   {
     "de": "Für wen halten Sie mich?",
-    "lv": "Kelleks te mind peate?",
+    "lv": "Hvad tror du, jeg er?",
     "level": "Sätze"
   },
   {
     "de": "Hände weg!",
-    "lv": "Käed eemale!",
+    "lv": "Hænderne af!",
     "level": "Sätze"
   },
   {
     "de": "Lass den Kopf nicht hängen!",
-    "lv": "Ära lase pead norgu!",
+    "lv": "Sænk ikke hovedet!",
     "level": "Sätze"
   },
   {
     "de": "zu Hause",
-    "lv": "Kodus",
+    "lv": "Hjemme",
     "level": "Sätze"
   },
   {
     "de": "nach Hause gehen",
-    "lv": "Koju minema",
+    "lv": "Gå hjem",
     "level": "Sätze"
   },
   {
     "de": "von Haus aus",
-    "lv": "Lapsepõlvest saati • Algusest peale",
+    "lv": "Siden barndommen • Helt fra begyndelsen",
     "level": "Sätze"
   },
   {
     "de": "Meinen herzlichsten Glückwunsch!",
-    "lv": "Südamlikud õnnitlused!",
+    "lv": "Tillykke!",
     "level": "Sätze"
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Olge nii lahke! • Olge nii hea!",
+    "lv": "Vær så venlig! • Vær så god!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie die Güte!",
-    "lv": "Olge nii lahke!",
+    "lv": "Vær så venlig!",
     "level": "Sätze"
   },
   {
     "de": "Was hast du?",
-    "lv": "Mis sul viga on? • Mis on juhtunud?",
+    "lv": "Hvad er der galt med dig? • Hvad skete der?",
     "level": "Sätze"
   },
   {
     "de": "Gestatten Sie bitte!",
-    "lv": "Lubage, palun!",
+    "lv": "Tillad mig, tak!",
     "level": "Sätze"
   },
   {
     "de": "Ist es gestattet zu rauchen?",
-    "lv": "Kas tohib suitsetada?",
+    "lv": "Må jeg ryge?",
     "level": "Sätze"
   },
   {
     "de": "Ich muss gestehen, dass...",
-    "lv": "Pean tunnistama, et...",
+    "lv": "Jeg må indrømme at...",
     "level": "Sätze"
   },
   {
     "de": "gestern früh",
-    "lv": "Eile vara hommikul",
+    "lv": "Tidligt i går morges",
     "level": "Sätze"
   },
   {
     "de": "gestern Abend",
-    "lv": "Eile õhtul",
+    "lv": "I går aftes",
     "level": "Sätze"
   },
   {
     "de": "Es ist mir gleichgültig, ob...",
-    "lv": "Mulle on ükskõik, kas...",
+    "lv": "Jeg er ligeglad med...",
     "level": "Sätze"
   },
   {
     "de": "Was ist geschehen?",
-    "lv": "Mis on juhtunud?",
+    "lv": "Hvad skete der?",
     "level": "Sätze"
   },
   {
     "de": "Mach keine Geschichten!",
-    "lv": "Ära tee rumalusi! • Ära tee nalja!",
+    "lv": "Gør ikke noget sludder! • Lav ikke vittigheder!",
     "level": "Sätze"
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Rääkimata sellest. • Kus veel.",
+    "lv": "For ikke at nævne det. • Hvor ellers",
     "level": "Sätze"
   },
   {
     "de": "Gehen Sie geradeaus!",
-    "lv": "Minge otse edasi!",
+    "lv": "Gå ligeud!",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Kuidas teil läheb? • Kuidas käsi käib?",
+    "lv": "Hvordan har du det • Hvordan har du det?",
     "level": "Sätze"
   },
   {
     "de": "Frag ihn gelegentlich, ob...",
-    "lv": "Küsi temalt, kui juhtub, kas...",
+    "lv": "Spørg ham, om han kommer ud, hvis...",
     "level": "Sätze"
   },
   {
     "de": "morgen früh",
-    "lv": "Homme hommikul",
+    "lv": "I morgen tidlig",
     "level": "Sätze"
   },
   {
     "de": "im Frühling",
-    "lv": "Kevadel",
+    "lv": "I foråret",
     "level": "Sätze"
   },
   {
     "de": "Was gibt’s Neues?",
-    "lv": "Mis uudist?",
+    "lv": "Hvad er nyt?",
     "level": "Sätze"
   },
   {
     "de": "Aus diesem Brief folgt, dass...",
-    "lv": "Sellest kirjast selgub, et...",
+    "lv": "Det fremgår af dette brev, at...",
     "level": "Sätze"
   },
   {
     "de": "Fahre fort!",
-    "lv": "Jätka samamoodi edasi!",
+    "lv": "Hold det op!",
     "level": "Sätze"
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Talle ei meeldi...",
+    "lv": "Han kan ikke lide...",
     "level": "Sätze"
   },
   {
     "de": "Es erwies sich, dass...",
-    "lv": "Selgus, et...",
+    "lv": "Det viste sig, at...",
     "level": "Sätze"
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Kas sa mind mäletad? • Kas sa mõtled minu peale?",
+    "lv": "Kan du huske mig • Har du tænkt på mig?",
     "level": "Sätze"
   },
   {
     "de": "im Winter",
-    "lv": "Talvel",
+    "lv": "Om vinteren",
     "level": "Sätze"
   },
   {
     "de": "Welcher Jahrgang sind Sie?",
-    "lv": "Mis aastal te olete sündinud?",
+    "lv": "Hvilket år er du født?",
     "level": "Sätze"
   },
   {
     "de": "Es jammert mich zu sehen...",
-    "lv": "Kahju vaadata...",
+    "lv": "Trist at se...",
     "level": "Sätze"
   },
   {
     "de": "je mehr, desto besser",
-    "lv": "Mida rohkem, seda parem",
+    "lv": "Jo flere jo bedre",
     "level": "Sätze"
   },
   {
     "de": "bis jetzt",
-    "lv": "Praeguse hetkeni",
+    "lv": "Indtil nu",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich zum Bahnhof?",
-    "lv": "Kuidas jaama jõuab?",
+    "lv": "Hvordan kommer man til stationen?",
     "level": "Sätze"
   },
   {
     "de": "Komm her!",
-    "lv": "Tule siia!",
+    "lv": "Kom her!",
     "level": "Sätze"
   },
   {
     "de": "Könnte ich Frau N. sprechen?",
-    "lv": "Kas ma saaksin rääkida proua N-ga?",
+    "lv": "Må jeg tale med fru N.?",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das?",
-    "lv": "Kui palju see maksab?",
+    "lv": "Hvor meget koster det?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange dauert die Vorstellung?",
-    "lv": "Kui kaua etendus kestab?",
+    "lv": "Hvor længe varer forestillingen?",
     "level": "Sätze"
   },
   {
     "de": "Lass das!",
-    "lv": "Lõpeta! • Jäta see!",
+    "lv": "Stop det! • Drop det!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich in Ruhe!",
-    "lv": "Jäta mind rahule!",
+    "lv": "Lad mig være i fred!",
     "level": "Sätze"
   },
   {
     "de": "Lassen Sie mich Ihnen helfen!",
-    "lv": "Lubage mul teid aidata!",
+    "lv": "Lad mig hjælpe dig!",
     "level": "Sätze"
   },
   {
     "de": "Lasst uns gehen!",
-    "lv": "Lähme!",
+    "lv": "Lad os gå!",
     "level": "Sätze"
   },
   {
     "de": "Na, wie läufts?",
-    "lv": "Kuidas läheb?",
+    "lv": "Hvordan har du det",
     "level": "Sätze"
   },
   {
     "de": "Es lebe!",
-    "lv": "Elagu!",
+    "lv": "Længe leve!",
     "level": "Sätze"
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Elage õnnelikult! • Hüvasti!",
+    "lv": "Lev sundt! • Farvel!",
     "level": "Sätze"
   },
   {
     "de": "Was ist los?",
-    "lv": "Mis on juhtunud?",
+    "lv": "Hvad skete der?",
     "level": "Sätze"
   },
   {
     "de": "Der Job ist anstrengend.",
-    "lv": "Töö on väsitav.",
+    "lv": "Arbejdet er udmattende.",
     "level": "Sätze"
   },
   {
     "de": "Das war ein anstrengender Tag.",
-    "lv": "See oli pingeline päev.",
+    "lv": "Det var en travl dag.",
     "level": "Sätze"
   },
   {
     "de": "Deutsch lernen kann anstrengend sein.",
-    "lv": "Saksa keele õppimine võib olla väsitav.",
+    "lv": "At lære tysk kan være udmattende.",
     "level": "Sätze"
   },
   {
     "de": "Er verlangt eine Erklärung.",
-    "lv": "Ta nõuab selgitust.",
+    "lv": "Han kræver en forklaring.",
     "level": "Sätze"
   },
   {
     "de": "Der Verkäufer verlangt zu viel Geld.",
-    "lv": "Müüja küsib liiga palju raha.",
+    "lv": "Sælgeren beder om for mange penge.",
     "level": "Sätze"
   },
   {
     "de": "Das Gesetz verlangt es so.",
-    "lv": "Seadus nõuab seda nii.",
+    "lv": "Loven kræver det.",
     "level": "Sätze"
   },
   {
     "de": "Das ist gar nicht so schwer.",
-    "lv": "See ei ole sugugi nii raske.",
+    "lv": "Det er slet ikke så svært.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe gar kein Geld.",
-    "lv": "Mul ei ole üldse raha.",
+    "lv": "Jeg har ingen penge overhovedet.",
     "level": "Sätze"
   },
   {
     "de": "Er hat gar nichts gesagt.",
-    "lv": "Ta ei öelnud üldse midagi.",
+    "lv": "Han sagde slet ikke noget.",
     "level": "Sätze"
   },
   {
     "de": "Der Hund ist los.",
-    "lv": "Koer on lahti lastud.",
+    "lv": "Hunden er sluppet fri.",
     "level": "Sätze"
   },
   {
     "de": "Hier ist viel los.",
-    "lv": "Siin toimub palju.",
+    "lv": "Der sker meget her.",
     "level": "Sätze"
   },
   {
     "de": "Halt die Luft an!",
-    "lv": "Hoia hinge kinni!",
+    "lv": "Hold vejret!",
     "level": "Sätze"
   },
   {
     "de": "Was machst du?",
-    "lv": "Mida sa teed?",
+    "lv": "Hvad laver du",
     "level": "Sätze"
   },
   {
     "de": "Sag mal!",
-    "lv": "Ütle juba!",
+    "lv": "Sig ja!",
     "level": "Sätze"
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Mida te sellega mõtlete? • Kuidas te seda mõtlete?",
+    "lv": "Hvad mener du med det? • Hvad synes du?",
     "level": "Sätze"
   },
   {
     "de": "Wir gehen mit Ihnen.",
-    "lv": "Me läheme koos teiega.",
+    "lv": "Vi går med dig.",
     "level": "Sätze"
   },
   {
     "de": "Ich fahre mit der Eisenbahn.",
-    "lv": "Ma sõidan rongiga.",
+    "lv": "Jeg rejser med tog.",
     "level": "Sätze"
   },
   {
     "de": "am Mittwoch",
-    "lv": "Kolmapäeval",
+    "lv": "På onsdag",
     "level": "Sätze"
   },
   {
     "de": "Es mag sein.",
-    "lv": "Võib-olla.",
+    "lv": "Måske.",
     "level": "Sätze"
   },
   {
     "de": "Ich mag das nicht.",
-    "lv": "Mulle see ei meeldi.",
+    "lv": "Jeg kan ikke lide det.",
     "level": "Sätze"
   },
   {
     "de": "am Montag",
-    "lv": "Esmaspäeval",
+    "lv": "På mandag",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen!",
-    "lv": "Tere hommikust!",
+    "lv": "Godmorgen!",
     "level": "Sätze"
   },
   {
     "de": "am Morgen",
-    "lv": "Hommikul",
+    "lv": "Om morgenen",
     "level": "Sätze"
   },
   {
     "de": "Gute Nacht!",
-    "lv": "Head ööd!",
+    "lv": "Godnat!",
     "level": "Sätze"
   },
   {
     "de": "Nehmen Sie Platz!",
-    "lv": "Istuge!",
+    "lv": "Sæt dig ned!",
     "level": "Sätze"
   },
   {
     "de": "Letzte Neuheit!",
-    "lv": "Viimane uudis!",
+    "lv": "De seneste nyheder!",
     "level": "Sätze"
   },
   {
     "de": "Nicht wahr?",
-    "lv": "Kas pole?",
+    "lv": "Højre?",
     "level": "Sätze"
   },
   {
     "de": "Nicht doch!",
-    "lv": "Ei ometi! • Pole vaja!",
+    "lv": "Nej, selvfølgelig! • Lad være!",
     "level": "Sätze"
   },
   {
     "de": "Nun endlich!",
-    "lv": "Noh, lõpuks ometi!",
+    "lv": "Nå, endelig!",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das?",
-    "lv": "Milleks see kõlbab?",
+    "lv": "Hvad er det godt for?",
     "level": "Sätze"
   },
   {
     "de": "Wozu nützt das alles?",
-    "lv": "Milleks see kõik?",
+    "lv": "Hvad er alt dette til for?",
     "level": "Sätze"
   },
   {
     "de": "Parken verboten!",
-    "lv": "Parkimine keelatud!",
+    "lv": "Parkering er forbudt!",
     "level": "Sätze"
   },
   {
     "de": "Nicht parken!",
-    "lv": "Parkimine keelatud!",
+    "lv": "Parkering er forbudt!",
     "level": "Sätze"
   },
   {
     "de": "Er hat Recht.",
-    "lv": "Tal on õigus.",
+    "lv": "Han har ret.",
     "level": "Sätze"
   },
   {
     "de": "Wovon ist die Rede?",
-    "lv": "Millest on jutt?",
+    "lv": "Hvad handler det om?",
     "level": "Sätze"
   },
   {
     "de": "Davon kann keine Rede sein.",
-    "lv": "Sellest ei saa juttugi olla.",
+    "lv": "Det er udelukket.",
     "level": "Sätze"
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Head reisi!",
+    "lv": "God rejse!",
     "level": "Sätze"
   },
   {
     "de": "Mir reißt die Geduld.",
-    "lv": "Mu kannatus saab otsa.",
+    "lv": "Jeg er ved at løbe tør for tålmodighed.",
     "level": "Sätze"
   },
   {
     "de": "Man sagt, dass...",
-    "lv": "Räägitakse, et...",
+    "lv": "De siger, at...",
     "level": "Sätze"
   },
   {
     "de": "Schon gut!",
-    "lv": "On juba hea!",
+    "lv": "Det er allerede godt!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schön!",
-    "lv": "Palun!",
+    "lv": "Behage!",
     "level": "Sätze"
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Kui palju ma võlgnen? • Kui palju ma pean maksma?",
+    "lv": "Hvor meget skylder jeg? • Hvor meget skal jeg betale?",
     "level": "Sätze"
   },
   {
     "de": "Vor dem Gebrauch schütteln!",
-    "lv": "Enne kasutamist loksutada!",
+    "lv": "Ryst før brug!",
     "level": "Sätze"
   },
   {
     "de": "Sehen Sie mal!",
-    "lv": "Vaadake!",
+    "lv": "Tag et kig!",
     "level": "Sätze"
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "Kui väga ka...",
+    "lv": "Hvor meget...",
     "level": "Sätze"
   },
   {
     "de": "Seit wann?",
-    "lv": "Mis ajast?",
+    "lv": "Siden hvornår?",
     "level": "Sätze"
   },
   {
     "de": "Was soll ich tun?",
-    "lv": "Mida ma peaksin tegema?",
+    "lv": "Hvad skal jeg gøre?",
     "level": "Sätze"
   },
   {
     "de": "im Sommer",
-    "lv": "Suvel",
+    "lv": "Om sommeren",
     "level": "Sätze"
   },
   {
     "de": "Nicht nur..., sondern auch...",
-    "lv": "Mitte ainult..., vaid ka...",
+    "lv": "Ikke kun... men også...",
     "level": "Sätze"
   },
   {
     "de": "Sonst noch etwas?",
-    "lv": "Veel midagi?",
+    "lv": "Noget andet?",
     "level": "Sätze"
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Ilma naljata! • Nali kõrvale!",
+    "lv": "Ingen joke! • Jokes på kanten!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "Mis kell on?",
+    "lv": "Hvad er klokken",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Läbisõit keelatud!",
+    "lv": "Det er forbudt at køre igennem!",
     "level": "Sätze"
   },
   {
     "de": "Sprechen Sie deutsch?",
-    "lv": "Kas te räägite saksa keelt?",
+    "lv": "Taler du tysk?",
     "level": "Sätze"
   },
   {
     "de": "Statt zu...",
-    "lv": "Selle asemel, et...",
+    "lv": "I stedet for...",
     "level": "Sätze"
   },
   {
     "de": "Wie steht’s?",
-    "lv": "Kuidas läheb?",
+    "lv": "Hvordan har du det",
     "level": "Sätze"
   },
   {
     "de": "Dieser Hut steht ihr gut.",
-    "lv": "See müts sobib talle hästi.",
+    "lv": "Denne hat klæder hende godt.",
     "level": "Sätze"
   },
   {
     "de": "Guten Tag!",
-    "lv": "Tere päevast!",
+    "lv": "Hej!",
     "level": "Sätze"
   },
   {
     "de": "Wo treffen wir uns?",
-    "lv": "Kus me kohtume?",
+    "lv": "Hvor skal vi mødes?",
     "level": "Sätze"
   },
   {
     "de": "Treten Sie näher!",
-    "lv": "Tulge lähemale!",
+    "lv": "Kom tættere på!",
     "level": "Sätze"
   },
   {
     "de": "Ehrlichkeit ist eine Tugend.",
-    "lv": "Ausus on voorus.",
+    "lv": "Ærlighed er en dyd.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe viel zu tun.",
-    "lv": "Mul on palju tegemist.",
+    "lv": "Jeg har meget at lave.",
     "level": "Sätze"
   },
   {
     "de": "Nicht übel!",
-    "lv": "Üsna hea! • Pole midagi ette heita.",
+    "lv": "Meget godt! • Der er ingen indvendinger",
     "level": "Sätze"
   },
   {
     "de": "Er wohnt über mir.",
-    "lv": "Ta elab minust ülalpool.",
+    "lv": "Han bor over mig.",
     "level": "Sätze"
   },
   {
     "de": "Er ist davon überzeugt.",
-    "lv": "Ta on selles veendunud.",
+    "lv": "Det er han sikker på.",
     "level": "Sätze"
   },
   {
     "de": "So ist es üblich.",
-    "lv": "Nii on kombeks.",
+    "lv": "Det er accepteret.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Sinu kell jääb maha.",
+    "lv": "Dit ur er bagud.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Mis kell on?",
+    "lv": "Hvad er klokken?",
     "level": "Sätze"
   },
   {
     "de": "Um acht Uhr früh.",
-    "lv": "Kell kaheksa hommikul.",
+    "lv": "Klokken otte om morgenen.",
     "level": "Sätze"
   },
   {
     "de": "umso mehr",
-    "lv": "Seda enam",
+    "lv": "Jo flere",
     "level": "Sätze"
   },
   {
     "de": "Rechts um!",
-    "lv": "Pöörduge paremale!",
+    "lv": "Drej til højre!",
     "level": "Sätze"
   },
   {
     "de": "Und ob!",
-    "lv": "Ja veel kuidas!",
+    "lv": "Og hvad ellers!",
     "level": "Sätze"
   },
   {
     "de": "und zwar",
-    "lv": "Nimelt",
+    "lv": "Nemlig",
     "level": "Sätze"
   },
   {
     "de": "Auf Unkosten von...",
-    "lv": "... arvel.",
+    "lv": "På bekostning af...",
     "level": "Sätze"
   },
   {
     "de": "Er saß unter den Zuschauern.",
-    "lv": "Ta istus pealtvaatajate hulgas.",
+    "lv": "Han sad blandt publikum.",
     "level": "Sätze"
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Pole tänu väärt!",
+    "lv": "Intet for ingenting!",
     "level": "Sätze"
   },
   {
     "de": "Es geschah, wie verabredet.",
-    "lv": "Läks nii, nagu oli kokku lepitud.",
+    "lv": "Det skete som aftalt.",
     "level": "Sätze"
   },
   {
     "de": "Rauchen verboten!",
-    "lv": "Suitsetamine keelatud!",
+    "lv": "Rygning er forbudt!",
     "level": "Sätze"
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Vale ühendus!",
+    "lv": "Forkert forbindelse!",
     "level": "Sätze"
   },
   {
     "de": "Eintritt verboten!",
-    "lv": "Sissepääs keelatud!",
+    "lv": "Adgang er forbudt!",
     "level": "Sätze"
   },
   {
     "de": "Verstehen Sie mich?",
-    "lv": "Kas te saate minust aru?",
+    "lv": "Forstår du mig?",
     "level": "Sätze"
   },
   {
     "de": "Er versteht nichts davon.",
-    "lv": "Ta ei saa sellest midagi aru.",
+    "lv": "Han forstår ikke noget af det.",
     "level": "Sätze"
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Kaitsta oma seisukohta.",
+    "lv": "Forsvar din mening.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Põhjustada tüli.",
+    "lv": "Skabe et skænderi.",
     "level": "Sätze"
   },
   {
     "de": "Viel besser.",
-    "lv": "Palju parem.",
+    "lv": "Meget bedre.",
     "level": "Sätze"
   },
   {
     "de": "Zu viel.",
-    "lv": "Liiga palju.",
+    "lv": "For meget.",
     "level": "Sätze"
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "Kuulduste järgi.",
+    "lv": "Efter at have hørt.",
     "level": "Sätze"
   },
   {
     "de": "Von Zeit zu Zeit.",
-    "lv": "Aeg-ajalt.",
+    "lv": "Fra tid til anden.",
     "level": "Sätze"
   },
   {
     "de": "Von Beruf.",
-    "lv": "Elukutse poolest.",
+    "lv": "Af profession.",
     "level": "Sätze"
   },
   {
     "de": "Er ist Berliner von Geburt.",
-    "lv": "Ta on sündinud berliinlane.",
+    "lv": "Han er berliner af fødsel.",
     "level": "Sätze"
   },
   {
     "de": "Er steht vor dem Fenster.",
-    "lv": "Ta seisab akna ees.",
+    "lv": "Han står ved vinduet.",
     "level": "Sätze"
   },
   {
     "de": "Vor Sonnenaufgang.",
-    "lv": "Enne päikesetõusu.",
+    "lv": "Før solopgang.",
     "level": "Sätze"
   },
   {
     "de": "Vor vierzehn Tagen.",
-    "lv": "Kaks nädalat tagasi.",
+    "lv": "For to uger siden.",
     "level": "Sätze"
   },
   {
     "de": "Vor Freude.",
-    "lv": "Rõõmu pärast.",
+    "lv": "For sjov.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "Esiteks. • Kõigepealt.",
+    "lv": "Først og fremmest. • Først og fremmest",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Ette. • Eelnevalt.",
+    "lv": "Tidligere.",
     "level": "Sätze"
   },
   {
     "de": "Unter der Voraussetzung, dass...",
-    "lv": "Eeldusel, et...",
+    "lv": "Forudsat at...",
     "level": "Sätze"
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Tingimusel.",
+    "lv": "Betinget.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Olemas olla. • Kohal olla. • Kättesaadav olla.",
+    "lv": "At være. • Vær til stede • Vær tilgængelig",
     "level": "Sätze"
   },
   {
     "de": "In der vorigen Woche.",
-    "lv": "Eelmisel nädalal.",
+    "lv": "Sidste uge.",
     "level": "Sätze"
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Võtta ette kaitsemeetmed.",
+    "lv": "Træf foranstaltninger til beskyttelse.",
     "level": "Sätze"
   },
   {
     "de": "Sie kommt mir bekannt vor.",
-    "lv": "Ta tundub mulle tuttav.",
+    "lv": "Hun ser bekendt ud for mig.",
     "level": "Sätze"
   },
   {
     "de": "Er hat Vorliebe für Literatur.",
-    "lv": "Talle meeldib väga kirjandus.",
+    "lv": "Han holder meget af litteratur.",
     "level": "Sätze"
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Täna hommikul. • Täna enne lõunat.",
+    "lv": "Denne morgen. • I dag om morgenen",
     "level": "Sätze"
   },
   {
     "de": "Von vorn.",
-    "lv": "Eest.",
+    "lv": "Forfra.",
     "level": "Sätze"
   },
   {
     "de": "Nach vorn.",
-    "lv": "Edasi.",
+    "lv": "Forward.",
     "level": "Sätze"
   },
   {
     "de": "Von vornherein.",
-    "lv": "Algusest peale.",
+    "lv": "Allerede i begyndelsen.",
     "level": "Sätze"
   },
   {
     "de": "Im Vorteil sein.",
-    "lv": "Olla soodsamas seisus.",
+    "lv": "Vær i en bedre position.",
     "level": "Sätze"
   },
   {
     "de": "Wach sein.",
-    "lv": "Olla ärkvel.",
+    "lv": "At være vågen.",
     "level": "Sätze"
   },
   {
     "de": "Wach werden.",
-    "lv": "Ärgata.",
+    "lv": "Vågn op.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Seista valves.",
+    "lv": "Stå vagt.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "Aasta jooksul.",
+    "lv": "I løbet af året.",
     "level": "Sätze"
   },
   {
     "de": "Während des Krieges.",
-    "lv": "Sõja ajal.",
+    "lv": "Under krigen.",
     "level": "Sätze"
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Rääkida asjatult.",
+    "lv": "Tal forgæves.",
     "level": "Sätze"
   },
   {
     "de": "Hier haben die Wände Ohren.",
-    "lv": "Siin on seintel kõrvad.",
+    "lv": "Her har væggene ører.",
     "level": "Sätze"
   },
   {
     "de": "Bis wann?",
-    "lv": "Kuni millise ajani?",
+    "lv": "Indtil hvornår?",
     "level": "Sätze"
   },
   {
     "de": "Es ist warm.",
-    "lv": "On soe.",
+    "lv": "Det er varmt.",
     "level": "Sätze"
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Oodata teadet.",
+    "lv": "Vent på beskeden.",
     "level": "Sätze"
   },
   {
     "de": "Was wollen Sie?",
-    "lv": "Mida te soovite?",
+    "lv": "Hvad vil du?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein...?",
-    "lv": "Milline...? • Mis...?",
+    "lv": "WHO...? • Hvad med...?",
     "level": "Sätze"
   },
   {
     "de": "Auf halbem Wege.",
-    "lv": "Poolel teel.",
+    "lv": "Halvvejs.",
     "level": "Sätze"
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Sel viisil. • Selliste vahenditega.",
+    "lv": "På den måde. • For sådanne midler",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "Rahumeelsel teel.",
+    "lv": "På fredens vej.",
     "level": "Sätze"
   },
   {
     "de": "Unserer Freundschaft wegen.",
-    "lv": "Meie sõpruse pärast.",
+    "lv": "På grund af vores venskab.",
     "level": "Sätze"
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "Õigluse järgi.",
+    "lv": "Ved retfærdighed.",
     "level": "Sätze"
   },
   {
     "de": "Weh tun.",
-    "lv": "Valutada.",
+    "lv": "At gøre ondt.",
     "level": "Sätze"
   },
   {
     "de": "Zu Weihnachten.",
-    "lv": "Jõulude ajal.",
+    "lv": "I julen.",
     "level": "Sätze"
   },
   {
     "de": "Auf welche Weise?",
-    "lv": "Mil viisil?",
+    "lv": "På hvilken måde?",
     "level": "Sätze"
   },
   {
     "de": "Art und Weise.",
-    "lv": "Viis.",
+    "lv": "Type.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Kohe. • Viivitamatult.",
+    "lv": "Straks. • Straks",
     "level": "Sätze"
   },
   {
     "de": "Bis auf weiteres.",
-    "lv": "Kuni edasise korralduseni.",
+    "lv": "Indtil videre.",
     "level": "Sätze"
   },
   {
     "de": "Und so weiter.",
-    "lv": "Ja nii edasi.",
+    "lv": "Og så videre.",
     "level": "Sätze"
   },
   {
     "de": "Weiter nichts.",
-    "lv": "Muud midagi.",
+    "lv": "Ikke mere.",
     "level": "Sätze"
   },
   {
     "de": "An welchem Tag?",
-    "lv": "Millisel päeval?",
+    "lv": "På hvilken dag?",
     "level": "Sätze"
   },
   {
     "de": "Alle Welt.",
-    "lv": "Kogu maailm. • Kõik.",
+    "lv": "Hele verden. • Alle",
     "level": "Sätze"
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "Mõne päeva pärast.",
+    "lv": "I nogle dage.",
     "level": "Sätze"
   },
   {
     "de": "Zu wenig.",
-    "lv": "Liiga vähe.",
+    "lv": "For lidt.",
     "level": "Sätze"
   },
   {
     "de": "Wenn auch.",
-    "lv": "Kuigi.",
+    "lv": "Skønt.",
     "level": "Sätze"
   },
   {
     "de": "Wer da?",
-    "lv": "Kes seal on?",
+    "lv": "Hvad er der?",
     "level": "Sätze"
   },
   {
     "de": "Gesammelte Werke von Schiller.",
-    "lv": "Schilleri kogutud teosed.",
+    "lv": "Schillers samlede skrifter.",
     "level": "Sätze"
   },
   {
     "de": "Ausgewählte Werke.",
-    "lv": "Valik teoseid.",
+    "lv": "Et udvalg af værker.",
     "level": "Sätze"
   },
   {
     "de": "Er ist wert, dass...",
-    "lv": "Ta on ära teeninud, et...",
+    "lv": "Han fortjener at...",
     "level": "Sätze"
   },
   {
     "de": "Es ist zwei Euro wert.",
-    "lv": "See maksab kaks eurot.",
+    "lv": "Det koster to euro.",
     "level": "Sätze"
   },
   {
     "de": "Nach Westen.",
-    "lv": "Läände.",
+    "lv": "Mod vest.",
     "level": "Sätze"
   },
   {
     "de": "Von Westen.",
-    "lv": "Läänest.",
+    "lv": "Fra vest.",
     "level": "Sätze"
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Astuda võistlusse.",
+    "lv": "Deltag i konkurrencen.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Võistelda jooksus.",
+    "lv": "Løb løbet.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "Mille peale me kihla veame?",
+    "lv": "Hvad forhandler vi om?",
     "level": "Sätze"
   },
   {
     "de": "Wie wird das Wetter?",
-    "lv": "Milline ilm tuleb?",
+    "lv": "Hvordan bliver vejret?",
     "level": "Sätze"
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Võistlused võimlemises.",
+    "lv": "Konkurrencer i gymnastik.",
     "level": "Sätze"
   },
   {
     "de": "Wider meinen Willen.",
-    "lv": "Vastu minu tahtmist.",
+    "lv": "Mod min vilje.",
     "level": "Sätze"
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Protesteerida. • Esitada vastuväiteid.",
+    "lv": "At protestere. • Fremsætte indsigelser",
     "level": "Sätze"
   },
   {
     "de": "Wie alt ist er?",
-    "lv": "Kui vana ta on?",
+    "lv": "Hvor gammel er han?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange?",
-    "lv": "Kui kaua?",
+    "lv": "Hvor længe",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiederhören!",
-    "lv": "Kuulmiseni!",
+    "lv": "Farvel!",
     "level": "Sätze"
   },
   {
     "de": "Auf Wiedersehen!",
-    "lv": "Nägemiseni!",
+    "lv": "Farvel!",
     "level": "Sätze"
   },
   {
     "de": "Wilde Tiere.",
-    "lv": "Metsloomad.",
+    "lv": "Vilde dyr.",
     "level": "Sätze"
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Südamlikult teretulnud!",
+    "lv": "Varme hilsner!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "Sinu kord käia.",
+    "lv": "Du har et træk.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Tõmbab tuult.",
+    "lv": "Træk",
     "level": "Sätze"
   },
   {
     "de": "Ziemlich kalt.",
-    "lv": "Üsna külm.",
+    "lv": "Ganske koldt.",
     "level": "Sätze"
   },
   {
     "de": "Zipfel einer Wurst.",
-    "lv": "Vorsti otsatükk.",
+    "lv": "Pølse tip.",
     "level": "Sätze"
   },
   {
     "de": "Zu ihm gehen.",
-    "lv": "Minna tema juurde.",
+    "lv": "Gå til ham.",
     "level": "Sätze"
   },
   {
     "de": "Zur Schule gehen.",
-    "lv": "Kooli minna.",
+    "lv": "Gå i skole.",
     "level": "Sätze"
   },
   {
     "de": "Zu Hause bleiben.",
-    "lv": "Koju jääda.",
+    "lv": "Bliv hjemme.",
     "level": "Sätze"
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "Päevast päeva.",
+    "lv": "På daglig basis.",
     "level": "Sätze"
   },
   {
     "de": "Zum Glück.",
-    "lv": "Õnneks.",
+    "lv": "Heldigvis.",
     "level": "Sätze"
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Joogivesi.",
+    "lv": "Vand til at drikke.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "Jalgsi.",
+    "lv": "Til benene.",
     "level": "Sätze"
   },
   {
     "de": "Zu Pferde.",
-    "lv": "Ratsa.",
+    "lv": "Ja.",
     "level": "Sätze"
   },
   {
     "de": "Zu Rad.",
-    "lv": "Jalgrattaga.",
+    "lv": "På cykel.",
     "level": "Sätze"
   },
   {
     "de": "Es hörte auf zu regnen.",
-    "lv": "Vihm lakkas sadamast.",
+    "lv": "Det holdt op med at regne.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe noch viel zu tun.",
-    "lv": "Mul on veel palju teha.",
+    "lv": "Jeg har stadig meget at lave.",
     "level": "Sätze"
   },
   {
     "de": "Zu früh.",
-    "lv": "Liiga vara.",
+    "lv": "For tidligt.",
     "level": "Sätze"
   },
   {
     "de": "Zu groß.",
-    "lv": "Liiga suur.",
+    "lv": "For stor.",
     "level": "Sätze"
   },
   {
     "de": "Mit den Achseln zucken.",
-    "lv": "Kehitada õlgu.",
+    "lv": "Træk på skuldrene.",
     "level": "Sätze"
   },
   {
     "de": "In einem Zug trinken.",
-    "lv": "Juua ühe sõõmuga.",
+    "lv": "Drik i én slurk.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde gehen.",
-    "lv": "Hukka minna.",
+    "lv": "Omkomme.",
     "level": "Sätze"
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Panna aluseks. • Võtta aluseks.",
+    "lv": "Sæt på grundlag. • Tag udgangspunkt i.",
     "level": "Sätze"
   },
   {
     "de": "Zum ersten Mal.",
-    "lv": "Esmakordselt.",
+    "lv": "For første gang.",
     "level": "Sätze"
   },
   {
     "de": "Machen Sie bitte die Tür zu!",
-    "lv": "Sulgege palun uks!",
+    "lv": "Luk venligst døren!",
     "level": "Sätze"
   },
   {
     "de": "Er hat zugenommen.",
-    "lv": "Ta on juurde võtnud.",
+    "lv": "Han tog på i vægt.",
     "level": "Sätze"
   },
   {
     "de": "Die Tage nehmen zu.",
-    "lv": "Päevad muutuvad pikemaks.",
+    "lv": "Dagene bliver længere.",
     "level": "Sätze"
   },
   {
     "de": "Zusammenhängen mit etwas.",
-    "lv": "Olla millegagi seotud.",
+    "lv": "At blive forbundet med noget.",
     "level": "Sätze"
   },
   {
     "de": "Die Tür ist zu.",
-    "lv": "Uks on suletud.",
+    "lv": "Døren er lukket.",
     "level": "Sätze"
   },
   {
     "de": "Das hätte ich ihm nicht zugetraut.",
-    "lv": "Seda ma poleks temalt oodanud.",
+    "lv": "Det havde jeg ikke forventet af ham.",
     "level": "Sätze"
   },
   {
     "de": "Freier Zutritt.",
-    "lv": "Vaba sissepääs.",
+    "lv": "Gratis adgang.",
     "level": "Sätze"
   },
   {
     "de": "Zutritt verboten!",
-    "lv": "Sissepääs keelatud!",
+    "lv": "Adgang er forbudt!",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu viel!",
-    "lv": "See on liiga palju!",
+    "lv": "Det er for meget!",
     "level": "Sätze"
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Muutuda vastikuks. • Tüütuks muutuda.",
+    "lv": "Bliv ulækker. • Bliv syg",
     "level": "Sätze"
   },
   {
     "de": "Und zwar.",
-    "lv": "Nimelt.",
+    "lv": "Nemlig.",
     "level": "Sätze"
   },
   {
     "de": "Es steht außer Zweifel.",
-    "lv": "Pole mingit kahtlust.",
+    "lv": "Der er ingen tvivl.",
     "level": "Sätze"
   },
   {
     "de": "Ohne Zweifel.",
-    "lv": "Kahtlemata.",
+    "lv": "Uden tøven.",
     "level": "Sätze"
   },
   {
     "de": "Zum Zweiten.",
-    "lv": "Teiseks.",
+    "lv": "For det andet.",
     "level": "Sätze"
   },
   {
     "de": "Frohes neues Jahr!",
-    "lv": "Head uut aastat!",
+    "lv": "Godt nytår!",
     "level": "Sätze"
   },
   {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "Palju õnne sünnipäevaks!",
+    "lv": "Tillykke med fødselsdagen!",
     "level": "Sätze"
   },
   {
     "de": "Gute Reise!",
-    "lv": "Head reisi!",
+    "lv": "God rejse!",
     "level": "Sätze"
   },
   {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Rõõm on teiega tuttavaks saada.",
+    "lv": "Jeg er glad for at møde dig.",
     "level": "Sätze"
   },
   {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Kas te oleksite palun nii lahke?",
+    "lv": "Vil du venligst være så venlig?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Olen teile väga tänulik.",
+    "lv": "Jeg er dig meget taknemmelig.",
     "level": "Sätze"
   },
   {
     "de": "Setzt euch bitte hin!",
-    "lv": "Istuge palun!",
+    "lv": "Sæt dig ned, tak!",
     "level": "Sätze"
   },
   {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, tule palun tahvli juurde!",
+    "lv": "Ben, kom venligst til bestyrelsen!",
     "level": "Sätze"
   },
   {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Avage palun õpikud!",
+    "lv": "Åbn lærebøgerne, tak!",
     "level": "Sätze"
   },
   {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Minge palun spordisaali!",
+    "lv": "Gå venligst i fitnesscenteret!",
     "level": "Sätze"
   },
   {
     "de": "Schläfst du noch?",
-    "lv": "Kas sa veel magad?",
+    "lv": "Sover du stadig",
     "level": "Sätze"
   },
   {
     "de": "Schlafen Sie noch?",
-    "lv": "Kas te veel magate?",
+    "lv": "Sover du stadig?",
     "level": "Sätze"
   },
   {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Ta on sügavalt magama jäänud.",
+    "lv": "Han sover hurtigt.",
     "level": "Sätze"
   },
   {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Palun ärata ta, on juba hilja!",
+    "lv": "Væk ham venligst, det er allerede sent!",
     "level": "Sätze"
   },
   {
     "de": "Es tut mir sehr leid!",
-    "lv": "Mul on väga kahju!",
+    "lv": "Jeg er så ked af det!",
     "level": "Sätze"
   },
   {
     "de": "Vielen Dank!",
-    "lv": "Suur aitäh!",
+    "lv": "Mange tak!",
     "level": "Sätze"
   },
   {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, alusta palun!",
+    "lv": "Finn, start, tak!",
     "level": "Sätze"
   },
   {
     "de": "Lest bitte mit!",
-    "lv": "Lugege kaasa, palun!",
+    "lv": "Læs venligst videre!",
     "level": "Sätze"
   },
   {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emma, palun ära vaata aknast välja!",
+    "lv": "Emma, ​​kig venligst ikke ud af vinduet!",
     "level": "Sätze"
   },
   {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, too palun vihikud!",
+    "lv": "Jonas, tag venligst notesbøgerne med!",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Mine tagasi oma kohale!",
+    "lv": "Gå tilbage til dit sted!",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb acht.",
-    "lv": "Kell on pool kaheksa.",
+    "lv": "Klokken er halv otte.",
     "level": "Sätze"
   },
   {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Millal sa tavaliselt ärkad?",
+    "lv": "Hvornår plejer du at vågne?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe gleich auf.",
-    "lv": "Ma tõusen kohe üles.",
+    "lv": "Jeg rejser mig med det samme.",
     "level": "Sätze"
   },
   {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Tõuse üles, Hanna, kella helistatakse!",
+    "lv": "Rejs dig op, Hannah, klokken ringer!",
     "level": "Sätze"
   },
   {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Luba mul veel viis minutit magada!",
+    "lv": "Lad mig sove i fem minutter mere!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Ära unusta tuba tuulutada!",
+    "lv": "Glem ikke at ventilere rummet!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist das Handtuch?",
-    "lv": "Kus on käterätik?",
+    "lv": "Hvor er håndklædet",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Tahan hambaid pesta.",
+    "lv": "Jeg vil gerne børste mine tænder.",
     "level": "Sätze"
   },
   {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Millega sa hambaid pesed?",
+    "lv": "Hvad børster du tænder med?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Tahan riidesse panna.",
+    "lv": "Jeg vil gerne klædes på.",
     "level": "Sätze"
   },
   {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Pane kiiresti riidesse, palun!",
+    "lv": "Klæd dig hurtigt på, tak!",
     "level": "Sätze"
   },
   {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Pane soojemalt riidesse, väljas on jahe.",
+    "lv": "Klæd dig varmt på, det er koldt udenfor.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Tere hommikust, kuidas sul läheb?",
+    "lv": "Godmorgen, hvordan har du det?",
     "level": "Sätze"
   },
   {
     "de": "Mir geht es gut, danke.",
-    "lv": "Mul läheb hästi, aitäh.",
+    "lv": "Jeg har det godt, tak.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es Neues?",
-    "lv": "Mis uudist?",
+    "lv": "Hvad er nyt?",
     "level": "Sätze"
   },
   {
     "de": "Was für ein Chaos hier!",
-    "lv": "Küll siin on segadus!",
+    "lv": "Hvilket rod det er her!",
     "level": "Sätze"
   },
   {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Kas ma tohin koristada aidata?",
+    "lv": "Må jeg hjælpe med at rydde op?",
     "level": "Sätze"
   },
   {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Mida sa hommikul jood, kohvi või teed?",
+    "lv": "Hvad drikker du om morgenen, kaffe eller te?",
     "level": "Sätze"
   },
   {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Tavaliselt joon hommikul tassi kohvi.",
+    "lv": "Jeg plejer at drikke en kop kaffe om morgenen.",
     "level": "Sätze"
   },
   {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Kõige rohkem meeldib mulle musta kohvi juua.",
+    "lv": "Jeg drikker bedst sort kaffe.",
     "level": "Sätze"
   },
   {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Tere hommikust, kas magasid hästi?",
+    "lv": "Godmorgen, sov du godt?",
     "level": "Sätze"
   },
   {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Ma olen ikka veel väga väsinud.",
+    "lv": "Jeg er stadig meget træt.",
     "level": "Sätze"
   },
   {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Kas tahad kohvi või piima?",
+    "lv": "Vil du have kaffe eller mælk?",
     "level": "Sätze"
   },
   {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Anna mulle palun juustusai.",
+    "lv": "Giv mig en ostebolle, tak.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss jetzt los!",
-    "lv": "Ma pean nüüd minema!",
+    "lv": "Jeg er nødt til at gå nu!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Ära unusta hommikusööki!",
+    "lv": "Glem ikke morgenmad!",
     "level": "Sätze"
   },
   {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Klara, palun kata laud!",
+    "lv": "Clara, vær venlig at dække bordet!",
     "level": "Sätze"
   },
   {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Ära unusta salvrätte!",
+    "lv": "Glem ikke servietterne!",
     "level": "Sätze"
   },
   {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Millal te sööte lõunat?",
+    "lv": "Hvornår spiser du frokost",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit zu essen.",
-    "lv": "On aeg süüa.",
+    "lv": "Det er tid til at spise.",
     "level": "Sätze"
   },
   {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Mis on täna lõunaks?",
+    "lv": "Hvad skal der til frokost i dag?",
     "level": "Sätze"
   },
   {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Kuidas supp sulle maitseb?",
+    "lv": "Hvordan kan du lide suppen?",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Ausalt öeldes on see pisut liiga soolane.",
+    "lv": "Helt ærligt, det er en anelse for salt.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Kas ma tohin sulle viilu leiba anda?",
+    "lv": "Må jeg give dig en skive brød?",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich habe schon.",
-    "lv": "Aitäh, mul on juba.",
+    "lv": "Tak, det har jeg allerede.",
     "level": "Sätze"
   },
   {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Liha maitseb suurepäraselt.",
+    "lv": "Kødet smager fantastisk.",
     "level": "Sätze"
   },
   {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Aitäh, ma olen juba söönud.",
+    "lv": "Tak, jeg er allerede mæt.",
     "level": "Sätze"
   },
   {
     "de": "Heute haben wir Besuch.",
-    "lv": "Täna on meil külalised.",
+    "lv": "I dag har vi besøg.",
     "level": "Sätze"
   },
   {
     "de": "Bist du heute Abend frei?",
-    "lv": "Kas sul on täna õhtul vaba aega?",
+    "lv": "Har du fri i aften",
     "level": "Sätze"
   },
   {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Tule täna lõunale külla!",
+    "lv": "Kom og besøg til frokost i dag!",
     "level": "Sätze"
   },
   {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Istume laua taha.",
+    "lv": "Lad os sætte os ved bordet.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, bedien dich!",
-    "lv": "Palun söö, kui palju tahad!",
+    "lv": "Spis så meget som du vil!",
     "level": "Sätze"
   },
   {
     "de": "Stört dich das Rauchen?",
-    "lv": "Kas suitsetamine häirib sind?",
+    "lv": "Generer rygning dig?",
     "level": "Sätze"
   },
   {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Aitäh lahke vastuvõtu eest!",
+    "lv": "Tak for den varme velkomst!",
     "level": "Sätze"
   },
   {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Millal sa magama lähed?",
+    "lv": "Hvornår går du i seng",
     "level": "Sätze"
   },
   {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Kui ma tööl tulen, olen alati väsinud.",
+    "lv": "Jeg er altid træt, når jeg kommer hjem fra arbejde.",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "On aeg magama minna.",
+    "lv": "Det er tid til at gå i seng.",
     "level": "Sätze"
   },
   {
     "de": "Es ist schönes Wetter.",
-    "lv": "On ilus ilm.",
+    "lv": "Det er en dejlig tid.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Kas tahad minuga jalutada?",
+    "lv": "Vil du gå med mig?",
     "level": "Sätze"
   },
   {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Vaata, kohe hakkab sadama.",
+    "lv": "Se, det vil snart regne.",
     "level": "Sätze"
   },
   {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Võta vihmavari kaasa!",
+    "lv": "Tag en paraply med!",
     "level": "Sätze"
   },
   {
     "de": "Es regnet.",
-    "lv": "Sajab vihma.",
+    "lv": "Det regner.",
     "level": "Sätze"
   },
   {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Olen juba täiesti märg.",
+    "lv": "Jeg er allerede helt våd.",
     "level": "Sätze"
   },
   {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Kas arvad, et sajab kogu päeva?",
+    "lv": "Tror du, det kommer til at regne hele dagen?",
     "level": "Sätze"
   },
   {
     "de": "Es hört auf zu regnen.",
-    "lv": "Vihm lakkab sadamast.",
+    "lv": "Regnen stopper.",
     "level": "Sätze"
   },
   {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Päike paistab jälle.",
+    "lv": "Solen skinner igen.",
     "level": "Sätze"
   },
   {
     "de": "Es ist sehr warm.",
-    "lv": "On väga palav.",
+    "lv": "Det er meget varmt.",
     "level": "Sätze"
   },
   {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Näib, et hakkab sadama.",
+    "lv": "Det ser ud til, at det kommer til at regne.",
     "level": "Sätze"
   },
   {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Varsti tuleb äikesetorm.",
+    "lv": "Vi er ved at få en storm.",
     "level": "Sätze"
   },
   {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Äikesetorm on möödas.",
+    "lv": "Stormen er forbi.",
     "level": "Sätze"
   },
   {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Pilved hajuvad.",
+    "lv": "Skyerne spreder sig.",
     "level": "Sätze"
   },
   {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Kas näed vikerkaart?",
+    "lv": "Ser du regnbuen?",
     "level": "Sätze"
   },
   {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Talv on käes, öösel sadas lund.",
+    "lv": "Vinteren er her, det sneede om natten.",
     "level": "Sätze"
   },
   {
     "de": "Es schneit.",
-    "lv": "Sajab lund.",
+    "lv": "Det sner.",
     "level": "Sätze"
   },
   {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Kui ilus on metsas talvel!",
+    "lv": "Hvor er det smukt i skoven om vinteren!",
     "level": "Sätze"
   },
   {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Mul on külm, ma külmetan.",
+    "lv": "Jeg er kold, jeg fryser.",
     "level": "Sätze"
   },
   {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Väljas on libe, ole ettevaatlik!",
+    "lv": "Det er glat udenfor, pas på!",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Kas läheme uisutama?",
+    "lv": "Skal vi stå på skøjter?",
     "level": "Sätze"
   },
   {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Pane jope selga, võid külmetuda.",
+    "lv": "Tag en jakke på, du kan blive forkølet.",
     "level": "Sätze"
   },
   {
     "de": "Es ist halb sieben.",
-    "lv": "Kell on pool seitse.",
+    "lv": "Klokken er halv otte.",
     "level": "Sätze"
   },
   {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Minu kell käib viis minutit ees.",
+    "lv": "Mit ur er hurtigt fem minutter.",
     "level": "Sätze"
   },
   {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Ärata mind homme kell seitse!",
+    "lv": "Væk mig klokken syv i morgen!",
     "level": "Sätze"
   },
   {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Mis kuupäev täna on?",
+    "lv": "Hvad er datoen i dag?",
     "level": "Sätze"
   },
   {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Täna on üheteistkümnes juuli.",
+    "lv": "I dag er det den ellevte juli.",
     "level": "Sätze"
   },
   {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Mida sa tavaliselt õhtuti teed?",
+    "lv": "Hvad plejer du at lave om aftenen?",
     "level": "Sätze"
   },
   {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Me pole ammu kohtunud.",
+    "lv": "Vi har ikke mødt hinanden i lang tid.",
     "level": "Sätze"
   },
   {
     "de": "Wie geht es dir?",
-    "lv": "Kuidas sul läheb?",
+    "lv": "Hvordan har du det",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Vabanda, tahan sinuga midagi arutada.",
+    "lv": "Undskyld mig, jeg vil diskutere noget med dig.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir spazieren!",
-    "lv": "Lähme jalutama!",
+    "lv": "Lad os gå en tur!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Kas tahad minuga parki minna?",
+    "lv": "Vil du med mig i parken?",
     "level": "Sätze"
   },
   {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Ma tulin sulle jalutuskäigule järele.",
+    "lv": "Jeg kom for at tage dig en tur.",
     "level": "Sätze"
   },
   {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Mine pisut aeglasemalt, ma ei jõua sulle järele!",
+    "lv": "Gå lidt langsommere, jeg kan ikke følge med dig!",
     "level": "Sätze"
   },
   {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Olen siin esimest korda.",
+    "lv": "Jeg er her for første gang.",
     "level": "Sätze"
   },
   {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Puhkame veidi.",
+    "lv": "Lad os hvile lidt.",
     "level": "Sätze"
   },
   {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Nüüd võime tagasi minna.",
+    "lv": "Nu kan vi gå tilbage.",
     "level": "Sätze"
   },
   {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Ausalt öeldes olen üsna väsinud.",
+    "lv": "Helt ærligt, jeg er ret træt.",
     "level": "Sätze"
   },
   {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Vabanda, kus on lähim metroojaam?",
+    "lv": "Undskyld mig, hvor er den nærmeste metrostation?",
     "level": "Sätze"
   },
   {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Milline on lühim tee?",
+    "lv": "Hvilken er den korteste vej?",
     "level": "Sätze"
   },
   {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Pööra siin teisel tänaval vasakule ja mine otse edasi.",
+    "lv": "Her tager du den anden gade til venstre og går ligeud.",
     "level": "Sätze"
   },
   {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Kuidas kiiremini jaama jõuda?",
+    "lv": "Hvordan kommer man hurtigere til stationen?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Kavatsen homme ära sõita.",
+    "lv": "Jeg har tænkt mig at tage afsted i morgen.",
     "level": "Sätze"
   },
   {
     "de": "Wohin willst du fahren?",
-    "lv": "Kuhu sa tahad sõita?",
+    "lv": "Hvor vil du hen?",
     "level": "Sätze"
   },
   {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Kas sa sõidad töö pärast või puhkusele?",
+    "lv": "Rejser du for arbejde eller fritid?",
     "level": "Sätze"
   },
   {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn sõidab Berliinini, siis läheb mere äärde.",
+    "lv": "Finn kører til Berlin, så skal han til havet.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Millal laev väljub?",
+    "lv": "Hvornår afgår skibet?",
     "level": "Sätze"
   },
   {
     "de": "In einer halben Stunde.",
-    "lv": "Pool tunni pärast.",
+    "lv": "Efter en halv time.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Kas ma saan veel kajuti?",
+    "lv": "Kan jeg stadig få en hytte?",
     "level": "Sätze"
   },
   {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Ära unusta passi!",
+    "lv": "Glem ikke dit pas!",
     "level": "Sätze"
   },
   {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "On aeg kohver pakkida.",
+    "lv": "Det er tid til at pakke kufferten.",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Rong väljub pool seitse.",
+    "lv": "Toget går klokken halv otte.",
     "level": "Sätze"
   },
   {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Kutsu palun takso, muidu jään rongist maha!",
+    "lv": "Ring til en taxa, ellers går jeg glip af toget!",
     "level": "Sätze"
   },
   {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Vii palun jaama!",
+    "lv": "Tag mig venligst til stationen!",
     "level": "Sätze"
   },
   {
     "de": "Ich muss mich beeilen.",
-    "lv": "Ma pean kiirustama.",
+    "lv": "Jeg skal skynde mig.",
     "level": "Sätze"
   },
   {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Kas kassa on juba avatud?",
+    "lv": "Er billetkontoret åbent endnu?",
     "level": "Sätze"
   },
   {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Üks pilet Kölnini, palun.",
+    "lv": "En billet til Köln, tak.",
     "level": "Sätze"
   },
   {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Millal rong väljub?",
+    "lv": "Hvornår kører toget?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Rong väljub kohe.",
+    "lv": "Toget kører snart.",
     "level": "Sätze"
   },
   {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Kas ma pean Koblenzis ümber istuma?",
+    "lv": "Skal jeg skifte plads i Koblenz?",
     "level": "Sätze"
   },
   {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Jah, seal pead sa ümber istuma.",
+    "lv": "Ja, du skal skifte plads der.",
     "level": "Sätze"
   },
   {
     "de": "Ist dieser Platz frei?",
-    "lv": "Kas see koht on vaba?",
+    "lv": "Er dette sted ledigt?",
     "level": "Sätze"
   },
   {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Ei, siin ei istu keegi.",
+    "lv": "Nej, her sidder ingen.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Kus on perroonipiletite automaat?",
+    "lv": "Hvor er platformsbilletautomaten?",
     "level": "Sätze"
   },
   {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Pane mu käsipagas võrele.",
+    "lv": "Læg min håndbagage i nettet.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Kas ma tohin akna avada?",
+    "lv": "Må jeg åbne vinduet?",
     "level": "Sätze"
   },
   {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Tõmbab tuult, sulge palun aken!",
+    "lv": "Træk igennem, luk venligst vinduet!",
     "level": "Sätze"
   },
   {
     "de": "Welche ist die nächste Station?",
-    "lv": "Milline on järgmine peatus?",
+    "lv": "Hvad er næste stop?",
     "level": "Sätze"
   },
   {
     "de": "Wie lange hält der Zug?",
-    "lv": "Kui kaua rong seisab?",
+    "lv": "Hvor længe står toget?",
     "level": "Sätze"
   },
   {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Kus ma pean ümber istuma?",
+    "lv": "Hvor skal jeg overføre?",
     "level": "Sätze"
   },
   {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Rong hilineb.",
+    "lv": "Toget er forsinket.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "See vagun on mittesuitsetajatele.",
+    "lv": "Denne vogn er ikke-ryger.",
     "level": "Sätze"
   },
   {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Nüüd sõidame üle piiri.",
+    "lv": "Nu kører vi over grænsen.",
     "level": "Sätze"
   },
   {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Kas sul on midagi tollile deklareerida?",
+    "lv": "Har du noget at rydde op?",
     "level": "Sätze"
   },
   {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Oleme jõudnud Berliini.",
+    "lv": "Vi er ankommet til Berlin.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Kas sa saad head hotelli soovitada?",
+    "lv": "Kan du anbefale et godt hotel?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Kas teil on vabu tube?",
+    "lv": "Har du nogle ledige værelser?",
     "level": "Sätze"
   },
   {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Kaheinimesetuba, palun.",
+    "lv": "Et værelse med to senge, tak.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Kui palju maksab tuba öö kohta?",
+    "lv": "Hvor meget koster værelset per nat?",
     "level": "Sätze"
   },
   {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Homme sõidan ära. Ärata mind kell seitse!",
+    "lv": "Jeg tager afsted i morgen. Væk mig klokken syv!",
     "level": "Sätze"
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Arve, palun!",
+    "lv": "Bill, tak!",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Kus on linnaraamatukogu?",
+    "lv": "Hvor er byens bibliotek?",
     "level": "Sätze"
   },
   {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Millal muuseum on avatud?",
+    "lv": "Hvornår er museet åbent?",
     "level": "Sätze"
   },
   {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Kas läheme muuseumisse?",
+    "lv": "Skal vi gå på museum?",
     "level": "Sätze"
   },
   {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Kas sõidame bussi või metrooga?",
+    "lv": "Skal vi med bus eller metro?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Kus on lähim bussipeatus?",
+    "lv": "Hvor er det nærmeste busstoppested?",
     "level": "Sätze"
   },
   {
     "de": "Ich habe großen Hunger.",
-    "lv": "Mul on suur nälg.",
+    "lv": "Jeg er meget sulten.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Kas läheme koos sööma?",
+    "lv": "Skal vi spise sammen?",
     "level": "Sätze"
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Ettekandja, menüü, palun!",
+    "lv": "Tjener, menu, tak!",
     "level": "Sätze"
   },
   {
     "de": "Ist der Fisch frisch?",
-    "lv": "Kas kala on värske?",
+    "lv": "Er fisken frisk?",
     "level": "Sätze"
   },
   {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Maitseb suurepäraselt!",
+    "lv": "Det smager fantastisk!",
     "level": "Sätze"
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Ettekandja, palun arve!",
+    "lv": "Tjener, betal venligst!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Lähen kohvikusse kohvi jooma.",
+    "lv": "Jeg vil gå på cafe for at drikke kaffe.",
     "level": "Sätze"
   },
   {
     "de": "Willst du mitkommen?",
-    "lv": "Kas tahad kaasa tulla?",
+    "lv": "Vil du med?",
     "level": "Sätze"
   },
   {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Tass kohvi piimaga, palun!",
+    "lv": "En kop kaffe med mælk, tak!",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Kiiremini, palun, mul on kiire!",
+    "lv": "Hurtigere tak, jeg skal skynde mig!",
     "level": "Sätze"
   },
   {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Ära lase kohvil jahtuda!",
+    "lv": "Lad ikke kaffen blive kold!",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Kas teil on midagi karastavat?",
+    "lv": "Har du noget forfriskende?",
     "level": "Sätze"
   },
   {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Portsjon jäätist, palun!",
+    "lv": "En portion is, tak!",
     "level": "Sätze"
   },
   {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Täna hommikul sain kirja.",
+    "lv": "Jeg modtog et brev i morges.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Ma pean talle kohe kirjutama.",
+    "lv": "Jeg må skrive til ham nu.",
     "level": "Sätze"
   },
   {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Kus on lähim postkast?",
+    "lv": "Hvor er den nærmeste postkasse?",
     "level": "Sätze"
   },
   {
     "de": "Wo ist die Post?",
-    "lv": "Kus on postkontor?",
+    "lv": "Hvor er posthuset?",
     "level": "Sätze"
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Tuleta mulle homme meelde kirja kirjutada!",
+    "lv": "Mind mig om at skrive under i morgen!",
     "level": "Sätze"
   },
   {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Palun pane see kiri postkasti!",
+    "lv": "Send venligst dette brev i postkassen!",
     "level": "Sätze"
   },
   {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Tere, siin räägib Emma.",
+    "lv": "Hej, det er Emma.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Kas ma tohin sulle hiljem helistada?",
+    "lv": "Kan jeg ringe til dig senere",
     "level": "Sätze"
   },
   {
     "de": "Muss ich lange warten?",
-    "lv": "Kas ma pean kaua ootama?",
+    "lv": "Skal jeg vente længe?",
     "level": "Sätze"
   },
   {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Palun lõigake mul juukseid.",
+    "lv": "Klip venligst mit hår.",
     "level": "Sätze"
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Taga, palun, mitte liiga lühikeseks.",
+    "lv": "I ryggen, tak, ikke for kort.",
     "level": "Sätze"
   },
   {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Millal etendus algab?",
+    "lv": "Hvornår starter showet?",
     "level": "Sätze"
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "Algab pool kaheksa.",
+    "lv": "Det starter klokken halv ni.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Kõik piletid on välja müüdud.",
+    "lv": "Alle billetter er udsolgt.",
     "level": "Sätze"
   },
   {
     "de": "Drei Karten, bitte!",
-    "lv": "Kolm piletit, palun!",
+    "lv": "Tre billetter, tak!",
     "level": "Sätze"
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Jätame joped garderoobi.",
+    "lv": "Lad os lade jakkerne blive i garderoben.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Kiiremini, palun, eesriie avaneb kohe!",
+    "lv": "Hurtigere tak, gardinet er ved at åbne sig!",
     "level": "Sätze"
   },
   {
     "de": "Der Vorhang fällt.",
-    "lv": "Eesriie langeb.",
+    "lv": "Gardinet falder.",
     "level": "Sätze"
   },
   {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Kas ma tohin tantsule kutsuda?",
+    "lv": "Må jeg bede dig om at danse?",
     "level": "Sätze"
   },
   {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Millal on teie pulmad?",
+    "lv": "Hvornår er jeres bryllup?",
     "level": "Sätze"
   },
   {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Otsin korterit.",
+    "lv": "Jeg leder efter en lejlighed.",
     "level": "Sätze"
   },
   {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Kas selles majas on vaba korter?",
+    "lv": "Er der en ledig lejlighed i dette hus?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Kui palju maksab üür?",
+    "lv": "Hvor meget er huslejen?",
     "level": "Sätze"
   },
   {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "Korteris on kolm tuba ja köök.",
+    "lv": "Lejligheden har tre værelser og køkken.",
     "level": "Sätze"
   },
   {
     "de": "Heute ziehen wir um.",
-    "lv": "Täna kolime.",
+    "lv": "Vi flytter i dag.",
     "level": "Sätze"
   },
   {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, pane palun asjad kastidesse!",
+    "lv": "Mia, læg tingene i kasser, tak!",
     "level": "Sätze"
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Kas kõik on juba kastidesse pandud?",
+    "lv": "Er alt allerede pakket ind?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Olen kirjavahetuses oma sõbraga.",
+    "lv": "Jeg er i korrespondance med min ven.",
     "level": "Sätze"
   },
   {
     "de": "Gehen wir ins Theater?",
-    "lv": "Kas läheme teatrisse?",
+    "lv": "Iesim teātrī?",
     "level": "Sätze"
   },
   {
     "de": "Ist alles eingeladen?",
-    "lv": "Kas kõik on peale laaditud?",
+    "lv": "Er alt indlæst?",
     "level": "Sätze"
   },
   {
     "de": "Welch schöne Aussicht!",
-    "lv": "Küll on kaunis vaade!",
+    "lv": "Hvilken smuk udsigt!",
     "level": "Sätze"
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Nüüd võime kõik jälle korda teha.",
+    "lv": "Nu kan vi samle det hele igen.",
     "level": "Sätze"
   },
   {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Mitu tuba teil on?",
+    "lv": "Hvor mange rum har du?",
     "level": "Sätze"
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Suvel sõidan mere äärde.",
+    "lv": "Jeg tager til havet om sommeren.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Kas sa oskad ujuda?",
+    "lv": "Kan du svømme",
     "level": "Sätze"
   },
   {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Ära uju liiga kaugele!",
+    "lv": "Svøm ikke for langt!",
     "level": "Sätze"
   },
   {
     "de": "Badest du jeden Tag?",
-    "lv": "Kas sa käid iga päev ujumas?",
+    "lv": "Svømmer du hver dag?",
     "level": "Sätze"
   },
   {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Kui ilm on ilus, lähen kalale.",
+    "lv": "Hvis vejret er godt, tager jeg ud og fiske.",
     "level": "Sätze"
   },
   {
     "de": "Wie sieht er aus?",
-    "lv": "Kuidas ta välja näeb?",
+    "lv": "Hvordan ser han ud?",
     "level": "Sätze"
   },
   {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Ta on ikkagi üsna muutunud.",
+    "lv": "Han har dog ændret sig en del.",
     "level": "Sätze"
   },
   {
     "de": "Wie ist er als Mensch?",
-    "lv": "Milline ta on inimesena?",
+    "lv": "Hvordan er han som person?",
     "level": "Sätze"
   },
   {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Ta on alati tore ja sõbralik.",
+    "lv": "Han er altid sød og venlig.",
     "level": "Sätze"
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Tunnen end halvasti.",
+    "lv": "Jeg har det dårligt.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Mul on tugev peavalu.",
+    "lv": "Jeg har en voldsom hovedpine.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe mich erkältet.",
-    "lv": "Olen külmetunud.",
+    "lv": "Jeg er forkølet.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Schnupfen.",
-    "lv": "Mul on nohu.",
+    "lv": "Jeg har en løbende næse.",
     "level": "Sätze"
   },
   {
     "de": "Mir ist schwindlig.",
-    "lv": "Mul on peapööritus.",
+    "lv": "Jeg er svimmel.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Ma pean arsti juurde minema.",
+    "lv": "Jeg er nødt til at gå til lægen.",
     "level": "Sätze"
   },
   {
     "de": "Leg dich ins Bett!",
-    "lv": "Heida voodisse pikali!",
+    "lv": "Læg dig i sengen!",
     "level": "Sätze"
   },
   {
     "de": "Hast du Fieber?",
-    "lv": "Kas sul on palavik?",
+    "lv": "Har du feber?",
     "level": "Sätze"
   },
   {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Eile oli mul kõrgenenud temperatuur.",
+    "lv": "Jeg havde høj temperatur i går.",
     "level": "Sätze"
   },
   {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Mul valutab hammas.",
+    "lv": "Jeg har tandpine.",
     "level": "Sätze"
   },
   {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Ma pean hambaarsti juurde minema.",
+    "lv": "Jeg skal til tandlægen.",
     "level": "Sätze"
   },
   {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Kas sa tead, et Finn on haige?",
+    "lv": "Ved du, at Finn er syg?",
     "level": "Sätze"
   },
   {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Arsti sõnul saab ta varsti jälle terveks.",
+    "lv": "Ifølge lægen bliver han snart rask igen.",
     "level": "Sätze"
   },
   {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Tahan korterit uuesti sisustada.",
+    "lv": "Jeg vil gerne ommøblere lejligheden.",
     "level": "Sätze"
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Kas ma saan järelmaksuga osta?",
+    "lv": "Kan jeg købe på afbetaling?",
     "level": "Sätze"
   },
   {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Jää voodisse, kuni tunned end paremini!",
+    "lv": "Bliv i sengen, indtil du har det bedre!",
     "level": "Sätze"
   },
   {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah õppis kahe nädalaga ujuma.",
+    "lv": "Noah lærte at svømme på to uger.",
     "level": "Sätze"
   },
   {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Ole toiduga veel ettevaatlik.",
+    "lv": "Vær forsigtig med mad.",
     "level": "Sätze"
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Kas sa räägid saksa keelt?",
+    "lv": "Taler du tysk",
     "level": "Sätze"
   },
   {
     "de": "Ja, ein bisschen.",
-    "lv": "Jah, natuke.",
+    "lv": "Ja, lidt.",
     "level": "Sätze"
   },
   {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Sa räägid üsna ladusalt.",
+    "lv": "Du taler ret flydende.",
     "level": "Sätze"
   },
   {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Kus sa saksa keelt õppisid?",
+    "lv": "Hvor lærte du tysk?",
     "level": "Sätze"
   },
   {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Juba aasta võtan saksa keele tunde.",
+    "lv": "Jeg har taget tyskundervisning i et år.",
     "level": "Sätze"
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Otsin alati võimalust saksa keelt rääkida.",
+    "lv": "Altid på udkig efter en mulighed for at tale tysk.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Kas see raamat on veel saadaval?",
+    "lv": "Er denne bog stadig tilgængelig?",
     "level": "Sätze"
   },
   {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Kahjuks on raamat läbi müüdud.",
+    "lv": "Bogen er desværre udsolgt.",
     "level": "Sätze"
   },
   {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Millal ilmub uus trükk?",
+    "lv": "Hvornår udkommer den nye udgave?",
     "level": "Sätze"
   },
   {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Millega saan aidata?",
+    "lv": "Hvordan kan jeg hjælpe?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Kas teil on värskeid mune?",
+    "lv": "Har du friske æg?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die?",
-    "lv": "Kui palju need maksavad?",
+    "lv": "Hvor meget koster de?",
     "level": "Sätze"
   },
   {
     "de": "Das ist zu teuer.",
-    "lv": "See on liiga kallis.",
+    "lv": "Det er for dyrt.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Kas te saate poole kilo maha kaaluda?",
+    "lv": "Kan du veje et halvt kilo?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Kui palju ma pean maksma?",
+    "lv": "Hvor meget skal jeg betale?",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Kui palju maksab kilogramm?",
+    "lv": "Hvor meget koster et kilo?",
     "level": "Sätze"
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Kaaluge palun kaks kilogrammi.",
+    "lv": "Vej venligst to kilo.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Kas teil on ka porgandeid?",
+    "lv": "Har du også gulerødder?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Kas teil on head veiseliha?",
+    "lv": "Har du godt oksekød?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Andke kaks kilogrammi hakkliha.",
+    "lv": "Giv to kilo hakket kød.",
     "level": "Sätze"
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Üks leivapäts, palun, aga mitte liiga kõva.",
+    "lv": "Et brød, tak, men ikke for hårdt.",
     "level": "Sätze"
   },
   {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Leib on värskelt küpsetatud.",
+    "lv": "Brødet er nybagt.",
     "level": "Sätze"
   },
   {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Milliseid puuvilju teil täna on?",
+    "lv": "Hvilken frugt har du i dag?",
     "level": "Sätze"
   },
   {
     "de": "Was kosten die Äpfel?",
-    "lv": "Kui palju maksavad õunad?",
+    "lv": "Hvor meget koster æbler?",
     "level": "Sätze"
   },
   {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Siis võtan kaks kilogrammi õunu.",
+    "lv": "Så tager jeg to kilo æbler.",
     "level": "Sätze"
   },
   {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Pirnid on väga kallid.",
+    "lv": "Pærer er meget dyre.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Kas te saate kõik koju tuua?",
+    "lv": "Kan du levere alt hjem til dig?",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie Reis?",
-    "lv": "Kas teil on riisi?",
+    "lv": "Har du ris?",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Andke palun kilogramm riisi.",
+    "lv": "Giv mig et kilo ris, tak.",
     "level": "Sätze"
   },
   {
     "de": "Danke, diesmal nicht.",
-    "lv": "Aitäh, seekord mitte.",
+    "lv": "Tak, ikke denne gang.",
     "level": "Sätze"
   },
   {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Kui palju maksab see vaip?",
+    "lv": "Hvor meget koster dette tæppe?",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Kas te saate mööbli korterisse toimetada?",
+    "lv": "Kan du levere møbler til lejligheden?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Palun makske kassas.",
+    "lv": "Betal venligst i kassen.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Kirjutage palun arve.",
+    "lv": "Udsted venligst en faktura.",
     "level": "Sätze"
   },
   {
     "de": "Was kostet das Meter?",
-    "lv": "Kui palju maksab meeter?",
+    "lv": "Hvor mange meter?",
     "level": "Sätze"
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Mulle meeldib see riie.",
+    "lv": "Jeg elsker dette stof.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Lõigake palun kolm meetrit.",
+    "lv": "Nogrieziet, lūdzu, trīs metrus.",
     "level": "Sätze"
   },
   {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Kas teil on ka teisi näidiseid?",
+    "lv": "Har du andre prøver?",
     "level": "Sätze"
   },
   {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Mulle ei meeldi see värv.",
+    "lv": "Jeg kan ikke lide denne farve.",
     "level": "Sätze"
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Andke heledam.",
+    "lv": "Giv lysere.",
     "level": "Sätze"
   },
   {
     "de": "Was kosten diese Socken?",
-    "lv": "Kui palju maksavad need sokid?",
+    "lv": "Hvor meget koster disse sokker?",
     "level": "Sätze"
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Milliseid kindaid soovite?",
+    "lv": "Hvilken slags handsker vil du have?",
     "level": "Sätze"
   },
   {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Need on mulle pisut liiga kitsad.",
+    "lv": "De er lidt for stramme til mig.",
     "level": "Sätze"
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "Nii, nüüd sobib hästi.",
+    "lv": "Så det fungerer fint nu.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Kas sa saad head rätsepat soovitada?",
+    "lv": "Kan du anbefale en god skrædder?",
     "level": "Sätze"
   },
   {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Tahan tellida ülikonna.",
+    "lv": "Jeg vil bestille et jakkesæt.",
     "level": "Sätze"
   },
   {
     "de": "Wann wird er fertig sein?",
-    "lv": "Millal on valmis?",
+    "lv": "Hvornår vil den være klar?",
     "level": "Sätze"
   },
   {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Ülikond sobib hästi.",
+    "lv": "Dragten sidder godt.",
     "level": "Sätze"
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "Püksid on liiga pikad.",
+    "lv": "Bukserne er for lange.",
     "level": "Sätze"
   },
   {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Palun puhastage ja triikige see!",
+    "lv": "Rengør og stryg det!",
     "level": "Sätze"
   },
   {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Millal kleit on valmis?",
+    "lv": "Hvornår er kjolen klar?",
     "level": "Sätze"
   },
   {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Kingad on liiga kitsad.",
+    "lv": "Skoene er for stramme.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Kas te saate täna kingad parandada?",
+    "lv": "Kan du ordne dine sko i dag?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Millal ma saan kingad ära tuua?",
+    "lv": "Hvornår kan jeg medbringe skoene?",
     "level": "Sätze"
   },
   {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Minu käekell ei tööta.",
+    "lv": "Mit armbåndsur virker ikke.",
     "level": "Sätze"
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "See käib viis minutit ees.",
+    "lv": "Det er fem minutter for tidligt.",
     "level": "Sätze"
   },
   {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Kas sa oled lühinägelik või kaugelenägelik?",
+    "lv": "Er du nærsynet eller langsynet?",
     "level": "Sätze"
   },
   {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Tahan prille osta.",
+    "lv": "Jeg vil gerne købe briller.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Kas te saate mu prillid ära parandada?",
+    "lv": "Kan du ordne mine briller?",
     "level": "Sätze"
   },
   {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "See kestab ainult veerand tundi.",
+    "lv": "Det vil kun tage femten minutter.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Hind on mulle liiga kõrge.",
+    "lv": "Prisen er for høj for mig.",
     "level": "Sätze"
   },
   {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Mul on vaja kahte fotot passi jaoks.",
+    "lv": "Jeg skal bruge to pasbilleder.",
     "level": "Sätze"
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Palun pakkige ja saatke koju.",
+    "lv": "Pak venligst og send hjem.",
     "level": "Sätze"
   },
   {
     "de": "Wir haben feste Preise.",
-    "lv": "Meil on fikseeritud hinnad.",
+    "lv": "Vi har faste priser.",
     "level": "Sätze"
   },
   {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Palun tehke minust foto.",
+    "lv": "Tag venligst et billede af mig.",
     "level": "Sätze"
   },
   {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Istuge, vaadake otse kaamerasse ja ärge liikuge!",
+    "lv": "Sæt dig ned, kig direkte ind i kameraet og bevæg dig ikke!",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Millal ma näen näidist?",
+    "lv": "Hvornår kan jeg se en prøve?",
     "level": "Sätze"
   },
   {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Millal fotod on valmis?",
+    "lv": "Hvornår er billederne klar?",
     "level": "Sätze"
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Foto õnnestus.",
+    "lv": "Billedet var vellykket.",
     "level": "Sätze"
   },
   {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Fotod õnnestusid hästi.",
+    "lv": "Billederne blev godt.",
     "level": "Sätze"
   },
   {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Kas te saate ka fotot suurendada?",
+    "lv": "Kan du også forstørre billedet?",
     "level": "Sätze"
   },
   {
     "de": "Sind diese Steine echt?",
-    "lv": "Kas need kivid on ehtsad?",
+    "lv": "Er disse sten ægte?",
     "level": "Sätze"
   },
   {
     "de": "Ist das echtes Gold?",
-    "lv": "Kas see on ehtne kuld?",
+    "lv": "Er det ægte guld?",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Näidake palun abielusõrmuseid.",
+    "lv": "Vis mig vielsesringene, tak.",
     "level": "Sätze"
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Sõrmus on mulle pisut liiga suur.",
+    "lv": "Ringen er lidt for stor til mig.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Ma saan seda kitsamaks teha.",
+    "lv": "Jeg kan indsnævre det.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "See sõrmus sobib mulle.",
+    "lv": "Denne ring passer til mig.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Näidake ilusaid kingituse ideid.",
+    "lv": "Fremvis smukke gaveideer.",
     "level": "Sätze"
   },
   {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Kuidas need kõrvarõngad sulle meeldivad?",
+    "lv": "Hvordan kan du lide disse øreringe?",
     "level": "Sätze"
   },
   {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "See sõlg on väga ilus.",
+    "lv": "Denne broche er meget smuk.",
     "level": "Sätze"
   },
   {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "See kivi on safiir.",
+    "lv": "Denne sten er en safir.",
     "level": "Sätze"
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "See ei ole ehtne kivi, see on klaas.",
+    "lv": "Dette er ikke ægte sten, det er glas.",
     "level": "Sätze"
   },
   {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Seda käevõru võin eriti soovitada.",
+    "lv": "Jeg kan især anbefale dette armbånd.",
     "level": "Sätze"
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "See on eriti peenelt valmistatud.",
+    "lv": "Det er ekstremt fint udformet.",
     "level": "Sätze"
   },
   {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Hind ei ole kõrge.",
+    "lv": "Prisen er ikke høj.",
     "level": "Sätze"
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Kas ma saan karbi tasuta?",
+    "lv": "Fik jeg kassen gratis?",
     "level": "Sätze"
   },
   {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Kõik ehted on templiga.",
+    "lv": "Alle smykker er stemplet.",
     "level": "Sätze"
   },
   {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Kui mu naisele ei meeldi, kas ma saan vahetada?",
+    "lv": "Hvis min kone ikke kan lide det, kan jeg så bytte det?",
     "level": "Sätze"
   },
   {
     "de": "Natürlich, jederzeit.",
-    "lv": "Muidugi, igal ajal.",
+    "lv": "Når som helst, selvfølgelig.",
     "level": "Sätze"
   }
 ];

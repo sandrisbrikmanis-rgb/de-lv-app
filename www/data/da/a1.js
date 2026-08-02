@@ -3,105 +3,98 @@ const A1_WORDS = [
     "de": "Apfel",
     "de_article": "der",
     "de_plural": "die Äpfel",
-    "lv": "Õun",
+    "lv": "Et æble",
     "level": "A1"
   },
   {
     "de": "Brot",
     "de_article": "das",
     "de_plural": "die Brote",
-    "lv": "Leib",
+    "lv": "Brød",
     "level": "A1"
   },
   {
     "de": "Wasser",
     "de_article": "das",
-    "lv": "Vesi",
+    "lv": "Vand",
     "level": "A1"
   },
   {
     "de": "Haus",
     "de_article": "das",
     "de_plural": "die Häuser",
-    "lv": "Maja",
+    "lv": "Hus",
     "level": "A1"
   },
   {
     "de": "lernen",
-    "lv": "Õppima",
+    "lv": "At lære",
     "level": "A1"
   },
   {
     "de": "sprechen",
-    "lv": "Rääkima",
+    "lv": "At tale",
     "level": "A1",
     "study": {
       "id": "a1-sprechen-study",
       "layout": "standardStudy",
-      "translation": "Rääkima",
+      "translation": "At tale",
       "explanation": [
-        "Põhiidee: Rääkima, vestlema või keelt kasutama.",
-        "Sprechen tähendab peamiselt: rääkima või vestlema.",
-        "Sageli kirjeldab: keelt/vestlust.",
-        "Sprechen kirjeldab rääkimist või keele kasutamist."
+        "Hovedidé: At tale, tale eller bruge sprog.",
+        "Sprechen betyder hovedsageligt: ​​at tale eller tale.",
+        "Ofte præget af: sprog/samtale.",
+        "Sprechen beskriver at tale eller bruge sprog."
       ],
       "examples": [
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "Ma räägin saksa keelt."
+          "lv": "Jeg taler tysk."
         },
         {
           "de": "Wir sprechen über die Arbeit.",
-          "lv": "Me räägime tööst."
+          "lv": "Vi taler om arbejde."
         },
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "Ma räägin saksa keelt."
+          "lv": "Jeg taler tysk"
         }
       ],
       "comparison": [
         {
           "word": "sprechen",
-          "meaning": "Rääkima (protsess, keel)",
-          "example": "Wir sprechen über die Arbeit. – Me räägime tööst."
+          "meaning": "Tale (proces, sprog)",
+          "example": "Wir sprechen über die Arbeit. – Vi taler om arbejde."
         },
         {
           "word": "sagen",
-          "meaning": "Ütlema (konkreetset teksti)",
-          "example": "Sag mir die Wahrheit. – Ütle mulle tõtt."
+          "meaning": "Fortæl (en bestemt tekst)",
+          "example": "Sag mir die Wahrheit. – Fortæl mig sandheden."
         }
       ],
       "tip": [
-        "sprechen = runāt",
-        "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+        "sprechen = at tale",
+        "Brug sprechen, når konteksten passer til denne betydning."
       ],
       "important": [
-        "sprechen = runāt.",
-        "Runāt, sarunāties vai lietot valodu."
+        "sprechen = at tale.",
+        "Du taler, samtaler eller bruger sprog."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "sprechen"
-          ],
           "purple": [
-            "rääkima"
-          ],
-          "orange": [
-            "rääkima"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "spreche",
                 "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "räägin"
+                "Jeg"
               ]
             }
           },
@@ -112,22 +105,17 @@ const A1_WORDS = [
                 "sprechen"
               ]
             },
-            "lv": {
-              "purple": [
-                "räägime"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "spreche",
                 "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "räägin"
+                "Jeg"
               ]
             }
           }
@@ -151,61 +139,55 @@ const A1_WORDS = [
   },
   {
     "de": "klein",
-    "lv": "Väike",
+    "lv": "Lille",
     "level": "A1",
     "study": {
       "id": "a1-klein-study",
       "layout": "standardStudy",
-      "translation": "Väike",
+      "translation": "Lille",
       "explanation": [
-        "Põhiidee: Väike suuruse või mahu poolest.",
-        "Klein tähendab peamiselt: väike suurus.",
-        "Sageli kirjeldab: asja/isiku suurust.",
-        "Klein tähendab peamiselt: väike/noor.",
-        "Sageli kirjeldab: last.",
-        "Klein kirjeldab väikest suurust."
+        "Hovedidé: Lille i størrelse eller omfang.",
+        "Klein betyder hovedsageligt: ​​lille størrelse.",
+        "Beskriver ofte: størrelsen af ​​en ting/person.",
+        "Klein betyder i bund og grund: lille/ny.",
+        "Beskriver ofte: et barn.",
+        "Klein beskriver en lille størrelse."
       ],
       "examples": [
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Tuba on väike."
+          "lv": "Værelset er lille."
         },
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Tuba on väike."
+          "lv": "Værelset er lille."
         },
         {
           "de": "Das Kind ist noch klein.",
-          "lv": "Laps on veel väike."
+          "lv": "Barnet er stadig lille."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "Mul on väike kott."
+          "lv": "Jeg har en lille taske."
         },
         {
           "de": "Das Kind ist klein.",
-          "lv": "Laps on väike."
+          "lv": "Barnet er lille."
         }
       ],
       "tip": [
         "klein = mazs",
-        "Izmanto klein, kad konteksts atbilst šai nozīmei."
+        "Brug klein, når konteksten passer til denne betydning."
       ],
       "important": [
-        "klein = mazs izmērā.",
+        "klein = lille i størrelsen.",
         "klein = mazs.",
-        "Mazs izmērā vai apjomā."
+        "Lille i størrelse eller omfang."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "klein"
-          ],
           "purple": [
-            "väike"
-          ],
-          "green": [
-            "Väike"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -218,7 +200,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "väike"
+                "Værelset"
               ]
             }
           },
@@ -231,7 +213,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "väike"
+                "Værelset"
               ]
             }
           },
@@ -244,7 +226,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "väike"
+                "Barnet"
               ]
             }
           },
@@ -257,7 +239,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "väike"
+                "Jeg"
               ]
             }
           },
@@ -270,7 +252,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "väike"
+                "Barnet"
               ]
             }
           }
@@ -278,7 +260,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "klein"
+              "mazs"
             ]
           }
         ],
@@ -294,68 +276,68 @@ const A1_WORDS = [
   },
   {
     "de": "alle",
-    "lv": "Kõik",
+    "lv": "Alle sammen",
     "level": "A1"
   },
   {
     "de": "allein",
-    "lv": "Üksi",
+    "lv": "Alene",
     "level": "A1"
   },
   {
     "de": "alles",
-    "lv": "Kõik",
+    "lv": "Alt",
     "level": "A1"
   },
   {
     "de": "alt",
-    "lv": "Vana",
+    "lv": "Gammel",
     "level": "A1"
   },
   {
     "de": "Alter",
     "de_article": "das",
-    "lv": "Vanus",
+    "lv": "Alder",
     "level": "A1"
   },
   {
     "de": "an",
-    "lv": "Juures • Peal • Ligi",
+    "lv": "Kl • Til • Præsenter",
     "level": "A1",
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "Juures • Pinna küljes • Serva ääres",
-      "explanation": "Kasutatakse, kui miski asub seina, akna, ukse, jõe, mereranna või mõne muu ääre/pinna juures.",
+      "translation": "Kl • Til • Præsenter",
+      "explanation": "Bruges når noget er i nærheden af ​​en væg, vindue, dør, flod, strand eller anden kant/overflade.",
       "examples": [
         {
           "de": "an der Wand",
-          "lv": "Seina küljes / seinal"
+          "lv": "På væggen / på væggen"
         },
         {
           "de": "am Fenster",
-          "lv": "Akna juures"
+          "lv": "Ved vinduet"
         },
         {
           "de": "am Meer",
-          "lv": "Mere ääres"
+          "lv": "Ved havet"
         }
       ],
       "comparison": [
         {
           "word": "an",
-          "meaning": "Pinna või serva juures",
-          "example": "an der Wand – Seinal"
+          "meaning": "Ved overfladen eller kanten",
+          "example": "an der Wand – Ved væggen"
         },
         {
           "word": "auf",
-          "meaning": "Horisontaalsel pinnal",
-          "example": "auf dem Tisch – Laual"
+          "meaning": "På en vandret overflade",
+          "example": "auf dem Tisch – På bordet"
         },
         {
           "word": "bei",
-          "meaning": "Isiku või koha juures",
-          "example": "beim Arzt – Arsti juures"
+          "meaning": "Til en person eller et sted",
+          "example": "beim Arzt – Til lægen"
         }
       ],
       "sectionAccents": {
@@ -368,8 +350,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seina",
-                "seina"
+                "væggen",
+                "væggen"
               ]
             }
           },
@@ -381,7 +363,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juures"
+                "Ved"
               ]
             }
           },
@@ -393,7 +375,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mere"
+                "Ved"
               ]
             }
           }
@@ -440,7 +422,7 @@ const A1_WORDS = [
                 "beim"
               ],
               "purple": [
-                "juures"
+                "beim"
               ]
             }
           }
@@ -451,46 +433,29 @@ const A1_WORDS = [
               "an"
             ],
             "purple": [
-              "Atceries"
+              "pie"
             ],
             "green": [
-              "Atceries",
-              "Atceries",
-              "Atceries"
+              "sienas",
+              "loga",
+              "malas"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "an"
-            ],
             "purple": [
-              "nav"
-            ],
-            "green": [
-              "nav",
-              "nav",
-              "nav",
-              "nav"
-            ]
-          },
-          {
-            "yellow": [
-              "auf"
-            ],
-            "purple": [
-              "horizontālas"
+              "ikke"
             ]
           }
         ]
       },
       "tip": {
-        "text": "Atceries: pie sienas/loga/malas → an."
+        "text": "Husk: pie sienas/loga/malas → an."
       },
       "important": [
-        "an nav jebkurš “pie”. Tas bieži nozīmē pie virsmas, sienas, loga vai malas.",
-        "Uz horizontālas virsmas parasti lieto auf."
+        "da er ikke en hvilken som helst \"tarte\". Det betyder ofte ved siden af ​​en overflade, væg, vindue eller kant.",
+        "Auf bruges normalt på en vandret overflade."
       ]
     }
   },
@@ -498,67 +463,67 @@ const A1_WORDS = [
     "de": "Anfang",
     "de_article": "der",
     "de_plural": "die Anfänge",
-    "lv": "Algus",
+    "lv": "Begyndelse",
     "level": "A1"
   },
   {
     "de": "anfangen",
-    "lv": "Alustama",
+    "lv": "For at starte",
     "level": "A1"
   },
   {
     "de": "anders",
-    "lv": "Teisiti",
+    "lv": "Ellers",
     "level": "A1"
   },
   {
     "de": "anrufen",
-    "lv": "Helistama",
+    "lv": "At ringe",
     "level": "A1"
   },
   {
     "de": "ab",
-    "lv": "-st",
+    "lv": "Fra",
     "level": "A1",
     "study": {
       "id": "a1-ab",
       "layout": "standardStudy",
-      "translation": "-st",
-      "explanation": "Kasutatakse, kui miski algab kindlast ajast, kohast või punktist. Sageli tähendab “alates”.",
+      "translation": "Fra",
+      "explanation": "Bruges når noget starter fra et bestemt tidspunkt, sted eller punkt. Betyder ofte \"startende fra\".",
       "examples": [
         {
           "de": "ab heute",
-          "lv": "Alates tänasest",
+          "lv": "Fra i dag",
           "level": "A1"
         },
         {
           "de": "ab Montag",
-          "lv": "Alates esmaspäevast"
+          "lv": "Fra mandag"
         },
         {
           "de": "ab 8 Uhr",
-          "lv": "Alates kella 8-st"
+          "lv": "Fra 8"
         },
         {
           "de": "ab Bahnhof",
-          "lv": "Jaamast"
+          "lv": "Fra stationen"
         }
       ],
       "comparison": [
         {
           "word": "ab",
-          "meaning": "Alates punktist/ajast",
-          "example": "ab Montag – Alates esmaspäevast"
+          "meaning": "Starter fra tidspunkt/tidspunkt",
+          "example": "ab Montag – Fra mandag"
         },
         {
           "word": "von",
-          "meaning": "Kellestki/millestki • Päritolu",
-          "example": "von mir – Minult"
+          "meaning": "Fra nogen/noget • Oprindelse",
+          "example": "von mir – Fra mig"
         },
         {
           "word": "aus",
-          "meaning": "Seest välja",
-          "example": "aus dem Haus – Majast / majast välja"
+          "meaning": "Ud indefra",
+          "example": "aus dem Haus – Fra huset / ud af huset"
         }
       ],
       "sectionAccents": {
@@ -571,7 +536,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "alates"
+                "Fra"
               ]
             }
           },
@@ -583,7 +548,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "alates"
+                "Fra"
               ]
             }
           },
@@ -595,7 +560,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "-st"
+                "Fra"
               ]
             }
           },
@@ -607,7 +572,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaamast"
+                "Fra"
               ]
             }
           }
@@ -665,47 +630,28 @@ const A1_WORDS = [
               "ab"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "green": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "ab"
-            ],
             "purple": [
-              "rāda"
-            ],
-            "green": [
-              "rāda",
-              "rāda"
-            ]
-          },
-          {
-            "yellow": [
-              "von"
-            ],
-            "red": [
-              "aus"
-            ],
-            "purple": [
-              "doma",
-              "doma"
+              "viser"
             ]
           }
         ]
       },
       "tip": {
-        "text": "Atceries: sākuma punkts laikā/vietā → ab."
+        "text": "Husk: udgangspunkt i tid/sted → ab."
       },
       "important": [
-        "ab rāda sākuma punktu laikā vai vietā.",
-        "Ja doma ir izcelsme vai virziens ārā no iekšienes, biežāk lieto von vai aus."
+        "ab viser udgangspunktet i tid eller sted.",
+        "Hvis tanken stammer fra eller bevæger sig udad indefra, bruges von eller aus oftere."
       ]
     }
   },
@@ -713,63 +659,63 @@ const A1_WORDS = [
     "de": "Abend",
     "de_article": "der",
     "de_plural": "die Abende",
-    "lv": "Õhtu",
+    "lv": "Aften",
     "level": "A1"
   },
   {
     "de": "Abendessen",
     "de_article": "das",
     "de_plural": "die Abendessen",
-    "lv": "Õhtusöök",
+    "lv": "Aftensmad",
     "level": "A1"
   },
   {
     "de": "abends",
-    "lv": "Õhtul",
+    "lv": "Om aftenen",
     "level": "A1"
   },
   {
     "de": "aber",
-    "lv": "Aga",
+    "lv": "Men",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "Aga",
-      "explanation": "Kasutatakse vastanduse sissetoomiseks või vastuväite väljendamiseks. Sageli tähendab “aga”, “siiski” või “ometi”.",
+      "translation": "Men",
+      "explanation": "Bruges til at introducere en kontrast eller udtrykke en indvending. Betyder ofte \"men\", \"dog\" eller \"men\".",
       "examples": [
         {
           "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "Ma tahan kaasa tulla, aga mul ei ole aega."
+          "lv": "Jeg vil gerne med, men jeg har ikke tid."
         },
         {
           "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "Toit oli maitsev, aga liiga kallis."
+          "lv": "Maden var lækker, men overpris."
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "Tal on õigus, aga ma arvan teisiti."
+          "lv": "Han har ret, men jeg tror noget andet."
         }
       ],
       "comparison": [
         {
           "word": "aber",
-          "meaning": "Vastand • Vastuväide • Siiski",
-          "example": "Ich komme, aber später. – Ma tulen, aga hiljem."
+          "meaning": "Modsat • Indvending • Dog",
+          "example": "Ich komme, aber später. – Jeg kommer, men senere."
         },
         {
           "word": "sondern",
-          "meaning": "Mitte • Vaid",
-          "example": "Ich wollte Tee, sondern Kaffee. – Ma tahtsin teed, mitte kohvi."
+          "meaning": "Ikke • Men",
+          "example": "Ich wollte Tee, sondern Kaffee. – Jeg ville have te, ikke kaffe."
         },
         {
           "word": "jedoch",
-          "meaning": "Siiski",
-          "example": "Es ist kalt, jedoch sonnig. – On külm, siiski päikeseline."
+          "meaning": "Imidlertid",
+          "example": "Es ist kalt, jedoch sonnig. – Det er koldt, men solrigt."
         }
       ],
       "tip": {
-        "text": "Atceries: pretstats/iebilde → aber."
+        "text": "Husk: modsat/indvending → aber."
       },
       "sectionAccents": {
         "examples": [
@@ -781,7 +727,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aga"
+                "Jeg"
               ]
             }
           },
@@ -793,7 +739,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aga"
+                "Maden"
               ]
             }
           },
@@ -805,7 +751,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tal"
+                "Han"
               ]
             }
           }
@@ -822,7 +768,7 @@ const A1_WORDS = [
                 "aber"
               ],
               "purple": [
-                "aga"
+                "Ich"
               ]
             }
           },
@@ -837,7 +783,7 @@ const A1_WORDS = [
                 "sondern"
               ],
               "purple": [
-                "mitte"
+                "Ich"
               ]
             }
           },
@@ -852,7 +798,7 @@ const A1_WORDS = [
                 "jedoch"
               ],
               "purple": [
-                "siiski"
+                "ist"
               ]
             }
           }
@@ -863,55 +809,45 @@ const A1_WORDS = [
               "aber"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "green": [
-              "aber"
-            ],
             "purple": [
               "aber",
+              "aber",
+              "aber",
               "aber"
-            ]
-          },
-          {
-            "yellow": [
-              "sondern"
-            ],
-            "purple": [
-              "pretstats",
-              "pretstats"
             ]
           }
         ]
       },
       "important": [
-        "aber rāda pretstatu vai iebildi.",
-        "Ja pretstats ir “nevis..., bet gan...”, vāciski parasti lieto sondern."
+        "aber viser det modsatte eller opposition.",
+        "Når det modsatte er \"ikke..., men...\", bruger på tysk normalt sondern."
       ]
     }
   },
   {
     "de": "achten",
-    "lv": "Järgima",
+    "lv": "At observere",
     "level": "A1"
   },
   {
     "de": "Adresse",
     "de_article": "die",
     "de_plural": "die Adressen",
-    "lv": "Aadress",
+    "lv": "Adresse",
     "level": "A1"
   },
   {
     "de": "Affe",
     "de_article": "der",
     "de_plural": "die Affen",
-    "lv": "Ahv",
+    "lv": "Abe",
     "level": "A1"
   },
   {
@@ -923,46 +859,46 @@ const A1_WORDS = [
   },
   {
     "de": "also",
-    "lv": "Seega",
+    "lv": "Derfor",
     "level": "A1",
     "study": {
       "id": "a1-also",
       "layout": "standardStudy",
-      "translation": "Seega",
-      "explanation": "Kasutatakse järelduse tegemiseks või tulemuse näitamiseks. Tähendab “seega”, “järelikult”.",
+      "translation": "Derfor",
+      "explanation": "Bruges til at drage en konklusion eller vise et resultat. Betyder \"derfor\", \"derfor\".",
       "examples": [
         {
           "de": "Es regnet, also bleibe ich zu Hause.",
-          "lv": "Sajab vihma, seepärast jään ma koju."
+          "lv": "Det regner, så jeg bliver hjemme."
         },
         {
           "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "Sa oled haige, seepärast sa ei lähe tööle."
+          "lv": "Du er syg, så gå ikke på arbejde."
         },
         {
           "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-          "lv": "Ma olen palju õppinud, seega saan nüüd aru."
+          "lv": "Jeg har studeret meget, så nu forstår jeg det."
         }
       ],
       "comparison": [
         {
           "word": "also",
-          "meaning": "Seega • Järelikult",
-          "example": "Es regnet, also bleibe ich zu Hause. – Sajab vihma, järelikult jään koju."
+          "meaning": "Så • Derfor",
+          "example": "Es regnet, also bleibe ich zu Hause. – Det regner, så jeg bliver hjemme."
         },
         {
           "word": "auch",
-          "meaning": "Ka",
-          "example": "Ich komme auch. – Ma tulen ka."
+          "meaning": "Også",
+          "example": "Ich komme auch. – Jeg kommer også."
         },
         {
           "word": "deshalb",
-          "meaning": "Seepärast",
-          "example": "Es regnet, deshalb bleibe ich zu Hause. – Sajab vihma, seepärast jään koju."
+          "meaning": "Derfor",
+          "example": "Es regnet, deshalb bleibe ich zu Hause. – Det regner, så jeg bliver hjemme."
         }
       ],
       "tip": {
-        "text": "Atceries: secinājums → also."
+        "text": "Husk: konklusion → ogås."
       },
       "sectionAccents": {
         "examples": [
@@ -974,7 +910,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seepärast"
+                "Det"
               ]
             }
           },
@@ -986,7 +922,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seepärast"
+                "syg"
               ]
             }
           },
@@ -998,7 +934,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seega"
+                "Jeg"
               ]
             }
           }
@@ -1030,7 +966,7 @@ const A1_WORDS = [
                 "auch"
               ],
               "purple": [
-                "ka"
+                "Ich"
               ]
             }
           },
@@ -1045,7 +981,7 @@ const A1_WORDS = [
                 "deshalb"
               ],
               "purple": [
-                "seepärast"
+                "regnet"
               ]
             }
           }
@@ -1053,35 +989,24 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "green": [
-              "also"
+              "Husk"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "green": [
-              "also"
-            ],
             "purple": [
-              "also"
-            ]
-          },
-          {
-            "green": [
-              "deshalb"
-            ],
-            "purple": [
-              "Latviešu"
+              "ogsga"
             ]
           }
         ]
       },
       "important": [
-        "also rāda secinājumu: no iepriekš teiktā izriet nākamā doma.",
-        "Latviešu “tāpēc” bieži var būt arī deshalb."
+        "ogsga viser en konklusion: den næste tanke følger af det før sagt.",
+        "Dansk 'derfor' kan ofte også være deshalb."
       ]
     }
   },
@@ -1089,179 +1014,172 @@ const A1_WORDS = [
     "de": "Ameise",
     "de_article": "die",
     "de_plural": "die Ameisen",
-    "lv": "Sipelgas",
+    "lv": "Myre",
     "level": "A1"
   },
   {
     "de": "ankommen",
-    "lv": "Saabuma",
+    "lv": "At ankomme",
     "level": "A1"
   },
   {
     "de": "anschauen",
-    "lv": "Vaatama",
+    "lv": "Se på",
     "level": "A1"
   },
   {
     "de": "anziehen",
-    "lv": "Selga panema",
+    "lv": "Tag på",
     "level": "A1"
   },
   {
     "de": "anhalten",
-    "lv": "Peatuma",
+    "lv": "At stoppe",
     "level": "A1"
   },
   {
     "de": "Angst",
     "de_article": "die",
     "de_plural": "die Ängste",
-    "lv": "Hirm",
+    "lv": "Frygt",
     "level": "A1"
   },
   {
     "de": "angenehm",
-    "lv": "Meeldiv",
+    "lv": "Behagelig",
     "level": "A1"
   },
   {
     "de": "Antenne",
     "de_article": "die",
     "de_plural": "die Antennen",
-    "lv": "Antenn",
+    "lv": "Antenne",
     "level": "A1"
   },
   {
     "de": "Antwort",
     "de_article": "die",
     "de_plural": "die Antworten",
-    "lv": "Vastus",
+    "lv": "Svaret",
     "level": "A1"
   },
   {
     "de": "antworten",
-    "lv": "Vastama",
+    "lv": "At svare",
     "level": "A1"
   },
   {
     "de": "Anzug",
     "de_article": "der",
     "de_plural": "die Anzüge",
-    "lv": "Ülikond",
+    "lv": "Et jakkesæt",
     "level": "A1"
   },
   {
     "de": "Apfelbaum",
     "de_article": "der",
     "de_plural": "die Apfelbäume",
-    "lv": "Õunapuu",
+    "lv": "Æbletræ",
     "level": "A1"
   },
   {
     "de": "Apfelsine",
     "de_article": "die",
     "de_plural": "die Apfelsinen",
-    "lv": "Apelsin",
+    "lv": "En appelsin",
     "level": "A1"
   },
   {
     "de": "Aprikose",
     "de_article": "die",
     "de_plural": "die Aprikosen",
-    "lv": "Aprikoos",
+    "lv": "Abrikos",
     "level": "A1"
   },
   {
     "de": "April",
     "de_article": "der",
-    "lv": "Aprill",
+    "lv": "April",
     "level": "A1"
   },
   {
     "de": "Arbeit",
     "de_article": "die",
     "de_plural": "die Arbeiten",
-    "lv": "Töö",
+    "lv": "Arbejde",
     "level": "A1"
   },
   {
     "de": "arbeiten",
-    "lv": "Töötama",
+    "lv": "At arbejde",
     "level": "A1"
   },
   {
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Käsi",
+    "lv": "Hånd",
     "level": "A1"
   },
   {
     "de": "Armbanduhr",
     "de_article": "die",
     "de_plural": "die Armbanduhren",
-    "lv": "Käekell",
+    "lv": "Armbåndsur",
     "level": "A1"
   },
   {
     "de": "Ärztin",
     "de_article": "die",
     "de_plural": "die Ärztinnen",
-    "lv": "Naisarst",
+    "lv": "En læge",
     "level": "A1"
   },
   {
     "de": "atmen",
-    "lv": "Hingama",
+    "lv": "At trække vejret",
     "level": "A1"
   },
   {
     "de": "auch",
-    "lv": "Ka",
+    "lv": "Også",
     "level": "A1",
     "study": {
       "id": "a1-auch-study",
       "layout": "standardStudy",
-      "translation": "Ka",
+      "translation": "Også",
       "explanation": [
-        "Põhiidee: Kõige sagedasem ja neutraalsem “ka”.",
-        "Auch tähendab peamiselt: lihtne “ka”.",
-        "Sageli kirjeldab: täiendust.",
-        "Auch on kõige tavalisem sõna “ka”."
+        "Hovedidé: Den mest almindelige og neutrale \"også\".",
+        "Auch betyder dybest set: simpelt 'også'.",
+        "Ofte karakteriseret ved: tilføjelse.",
+        "Auch er det mest almindelige ord for 'også'."
       ],
       "examples": [
         {
           "de": "Ich komme auch.",
-          "lv": "Ma tulen ka."
+          "lv": "Jeg kommer også."
         },
         {
           "de": "Ich komme auch.",
-          "lv": "Ma tulen ka."
+          "lv": "Jeg kommer også"
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "Ta töötab ka siin."
+          "lv": "Hun arbejder også her."
         }
       ],
       "tip": [
-        "auch = arī",
-        "Izmanto auch, kad konteksts atbilst šai nozīmei."
+        "auch = også",
+        "Brug auch, når konteksten passer til denne betydning."
       ],
       "important": [
-        "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
-        "auch = arī."
+        "Ich auch wünsche Ihnen er ikke den rigtige ordstilling.",
+        "auch = også."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "auch",
-            "auch"
-          ],
           "purple": [
-            "ka"
-          ],
-          "green": [
-            "Ka"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -1274,7 +1192,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "Jeg"
               ]
             }
           },
@@ -1287,7 +1205,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "Jeg"
               ]
             }
           },
@@ -1300,7 +1218,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "Hun"
               ]
             }
           }
@@ -1324,46 +1242,46 @@ const A1_WORDS = [
   },
   {
     "de": "auf",
-    "lv": "Peale",
+    "lv": "Til",
     "level": "A1",
     "study": {
       "id": "a1-auf",
       "layout": "standardStudy",
-      "translation": "Peale",
-      "explanation": "Kasutatakse suuna näitamiseks mingi koha poole või pinna peale.",
+      "translation": "Til",
+      "explanation": "Bruges til at angive en retning til et sted eller toppen af ​​en overflade.",
       "examples": [
         {
           "de": "Ich stelle das Buch auf den Tisch.",
-          "lv": "Ma panen raamatu lauale."
+          "lv": "Jeg lagde bogen på bordet."
         },
         {
           "de": "Wir fahren auf den Berg.",
-          "lv": "Me sõidame mäele."
+          "lv": "Vi skal til bjerget."
         },
         {
           "de": "Die Katze springt auf das Sofa.",
-          "lv": "Kass hüppab diivanile."
+          "lv": "Katten hopper i sofaen."
         }
       ],
       "comparison": [
         {
           "word": "auf",
-          "meaning": "Peale (pinnale või ülespoole)",
-          "example": "Ich stelle das Glas auf den Tisch. – Ma panen klaasi lauale."
+          "meaning": "Til (overflade eller op)",
+          "example": "Ich stelle das Glas auf den Tisch. – Jeg satte glasset på bordet."
         },
         {
           "word": "an",
-          "meaning": "Juures (vertikaalne pind)",
-          "example": "Ich hänge das Bild an die Wand. – Ma riputan pildi seinale."
+          "meaning": "Ved (lodret overflade)",
+          "example": "Ich hänge das Bild an die Wand. – Jeg hænger billedet op på væggen."
         },
         {
           "word": "in",
-          "meaning": "Sees",
-          "example": "Ich lege das Buch in die Tasche. – Ma panen raamatu kotti."
+          "meaning": "Indenfor",
+          "example": "Ich lege das Buch in die Tasche. – Jeg lagde bogen i min taske."
         }
       ],
       "tip": {
-        "text": "Atceries: uz virsmas/augšā → auf."
+        "text": "Husk: på overfladen/over → auf."
       },
       "sectionAccents": {
         "examples": [
@@ -1375,7 +1293,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "panen"
+                "Jeg"
               ]
             }
           },
@@ -1387,7 +1305,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sõidame"
+                "skal"
               ]
             }
           },
@@ -1399,7 +1317,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kass"
+                "Katten"
               ]
             }
           }
@@ -1429,7 +1347,7 @@ const A1_WORDS = [
             "example": {
               "green": [
                 "an",
-                "Ich"
+                "die"
               ]
             }
           },
@@ -1452,79 +1370,62 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "green": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "auf"
-            ],
             "purple": [
-              "auf"
-            ],
-            "green": [
+              "auf",
               "auf",
               "auf"
-            ]
-          },
-          {
-            "green": [
-              "an"
-            ],
-            "yellow": [
-              "in"
-            ],
-            "purple": [
-              "kaut",
-              "kaut"
             ]
           }
         ]
       },
       "important": [
-        "auf nav vienkārši jebkurš “uz”. Tas bieži nozīmē kustību vai atrašanos uz virsmas/augšpusē.",
-        "Ja kaut kas ir pie vertikālas virsmas, bieži vajag an; ja iekšā, vajag in."
+        "auf er ikke et hvilket som helst 'på'. Det betyder ofte at bevæge sig eller være på overfladen/overfladen.",
+        "Hvis noget er i nærheden af ​​en lodret overflade, har du ofte brug for en; hvis inde, skal ind."
       ]
     }
   },
   {
     "de": "aufmachen",
-    "lv": "Avama",
+    "lv": "At åbne",
     "level": "A1"
   },
   {
     "de": "aufpassen",
-    "lv": "Ettevaatlik olema",
+    "lv": "Vær forsigtig",
     "level": "A1"
   },
   {
     "de": "aufstehen",
-    "lv": "Püsti tõusma",
+    "lv": "Stå op",
     "level": "A1"
   },
   {
     "de": "aufwärts",
-    "lv": "Ülespoole",
+    "lv": "Op",
     "level": "A1"
   },
   {
     "de": "Auge",
     "de_article": "das",
     "de_plural": "die Augen",
-    "lv": "Silm",
+    "lv": "Øje",
     "level": "A1"
   },
   {
     "de": "Augenblick",
     "de_article": "der",
     "de_plural": "die Augenblicke",
-    "lv": "Hetk",
+    "lv": "Et øjeblik",
     "level": "A1"
   },
   {
@@ -1535,46 +1436,46 @@ const A1_WORDS = [
   },
   {
     "de": "aus",
-    "lv": "-st • Välja",
+    "lv": "Fra • Ud",
     "level": "A1",
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "-st • Välja",
-      "explanation": "Kasutatakse, kui miski tuleb seestpoolt, tuleb välja või osutab päritolule.",
+      "translation": "Fra • Ud",
+      "explanation": "Bruges når noget kommer indefra, kommer ud eller angiver oprindelse.",
       "examples": [
         {
           "de": "Ich komme aus Deutschland.",
-          "lv": "Ma olen Saksamaalt."
+          "lv": "Jeg er fra tyskland."
         },
         {
           "de": "Er geht aus dem Haus.",
-          "lv": "Ta läheb majast välja."
+          "lv": "Han forlader huset."
         },
         {
           "de": "Ich nehme das Buch aus der Tasche.",
-          "lv": "Ma võtan raamatu kotist välja."
+          "lv": "Jeg tager bogen op af tasken."
         }
       ],
       "comparison": [
         {
           "word": "aus",
-          "meaning": "Seest, seest välja",
-          "example": "aus dem Haus – Majast"
+          "meaning": "Indefra, ud af",
+          "example": "aus dem Haus – Hjemmefra"
         },
         {
           "word": "von",
-          "meaning": "Isikult, kohalt, pinnalt",
-          "example": "von meinem Freund – Minu sõbralt"
+          "meaning": "Fra person, sted, overflade",
+          "example": "von meinem Freund – Fra min ven"
         },
         {
           "word": "ab",
-          "meaning": "Alates punktist või ajast",
-          "example": "ab Montag – Alates esmaspäevast"
+          "meaning": "Starter fra et tidspunkt eller et tidspunkt",
+          "example": "ab Montag – Fra mandag"
         }
       ],
       "tip": {
-        "text": "Atceries: ārā no iekšienes → aus."
+        "text": "Husk: ud indefra → aus."
       },
       "sectionAccents": {
         "examples": [
@@ -1586,7 +1487,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "olen"
+                "Jeg"
               ]
             }
           },
@@ -1598,7 +1499,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "läheb"
+                "Han"
               ]
             }
           },
@@ -1610,7 +1511,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "võtan"
+                "Jeg"
               ]
             }
           }
@@ -1668,146 +1569,127 @@ const A1_WORDS = [
               "aus"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "green": [
-              "aus"
-            ],
             "purple": [
               "aus",
               "aus"
-            ]
-          },
-          {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "runa"
             ]
           }
         ]
       },
       "important": [
-        "aus parasti rāda kustību ārā no iekšienes vai izcelsmi.",
-        "Ja runa ir tikai par sākuma punktu laikā vai vietā, bieži lieto ab."
+        "aus viser normalt bevægelse ud indefra eller oprindelse.",
+        "Hvis det kun drejer sig om et udgangspunkt i tid eller sted, bruges ofte ab."
       ]
     }
   },
   {
     "de": "auf dem Boden",
-    "lv": "Põrandal",
+    "lv": "På gulvet",
     "level": "A1"
   },
   {
     "de": "auf dem Bahnhof",
-    "lv": "Jaamas",
+    "lv": "På stationen",
     "level": "A1"
   },
   {
     "de": "aufs",
-    "lv": "Peale • Otsa • Kuhu?",
+    "lv": "Til • På • Hvor?",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "Peale • Otsa • Kuhu?",
+      "translation": "Til • På • Hvor?",
       "explanation": [
-        "Aufs on eessõna auf ja artikli das lühend.",
-        "Täisvorm: auf das (Akkusativ).",
-        "Kasutatakse, kui tegevus näitab suunda kindla asja või pinna poole — vastab küsimusele kuhu?",
-        "Sageli kasutatakse koos liikumisega: peale ronima, istuma, asetama, millegi peale sõitma.",
-        "Kõnekeeles ja igapäevaelus kasutatakse peaaegu alati aufs, mitte täisvormi auf das."
+        "Aufs er en forkortelse af præpositionen auf og artiklen das.",
+        "Fuld form: auf das (hvor?).",
+        "Bruges når handlingen angiver retningen til en specifik ting eller overflade - besvarer spørgsmålet hvor?",
+        "Bruges ofte med bevægelse: klatre, sæt dig ned, læg ned, kør hen til noget.",
+        "I dagligtale og daglig tale bruges aufs næsten altid i stedet for den fulde auf das."
       ],
       "examples": [
         {
           "de": "Ich gehe aufs Dach.",
-          "lv": "Ma lähen katusele."
+          "lv": "Jeg går op på taget"
         },
         {
           "de": "Sie setzt sich aufs Sofa.",
-          "lv": "Ta istub diivanile."
+          "lv": "Hun sætter sig på sofaen."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "Me sõidame maale."
+          "lv": "Vi går på landet."
         },
         {
           "de": "Stell die Tasche aufs Bett.",
-          "lv": "Pane kott voodile."
+          "lv": "Læg posen på sengen."
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Ta ronib hobuse selga."
+          "lv": "Han går op på en hest."
         },
         {
           "de": "Leg das Buch aufs Regal.",
-          "lv": "Pane raamat riiulile."
+          "lv": "Læg bogen på hylden."
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "Tule kiiresti paati!"
+          "lv": "Kom hurtigt til båden!"
         },
         {
           "de": "Wir gehen aufs Fest.",
-          "lv": "Me läheme peole."
+          "lv": "Vi skal til fest."
         }
       ],
       "comparison": [
         {
           "word": "aufs",
-          "meaning": "Kindlale asjale (Akk.)",
-          "example": "aufs Dach – Katusele"
+          "meaning": "Til en konkret sag (Akk.)",
+          "example": "aufs Dach – På taget"
         },
         {
           "word": "auf",
-          "meaning": "Pinnale või ülespoole",
-          "example": "auf den Tisch – Laual"
+          "meaning": "Til overfladen eller op",
+          "example": "auf den Tisch – På bordet"
         },
         {
           "word": "an",
-          "meaning": "Vertikaalse pinna juures",
-          "example": "an die Wand – Seinal"
+          "meaning": "På en lodret overflade",
+          "example": "an die Wand – Ved væggen"
         },
         {
           "word": "ins",
-          "meaning": "Sisse (ruumi sisse)",
-          "example": "ins Zimmer – Tuppa"
+          "meaning": "Indad",
+          "example": "ins Zimmer – I rummet"
         },
         {
           "word": "zum",
-          "meaning": "-sse / juurde (Dativ)",
-          "example": "zum Arzt – Arsti juures"
+          "meaning": "Til / hos (hvem?)",
+          "example": "zum Arzt – Til lægen"
         }
       ],
       "tip": [
-        "Atceries: auf + das → aufs (kurp?, kurp?).",
-        "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
+        "Husk: auf + das → aufs (kurp?, kurp?).",
+        "Den fulde auf das tales næsten aldrig i daglig tale - aufs bruges."
       ],
       "important": [
-        "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp? — kustība uz konkrētu vietu vai virsmu.",
-        "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
-        "Nesajauc ar an (pie sienas) vai ins (iekš telpas)."
+        "aufs = auf das, kun med et navneord af ethvert køn, hvor? i bøjning.",
+        "Svar på hvor? — bevægelse til et bestemt sted eller overflade.",
+        "På en vandret overflade bruges ofte auf den i stedet for aufs.",
+        "Ikke at forveksle med en (på væggen) eller ins (inde i rummet)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "aufs",
-            "auf das"
-          ],
           "purple": [
-            "peale",
-            "peale",
-            "kuhu?"
-          ],
-          "green": [
-            "kuhu?",
-            "liikumisega"
+            "Aufs",
+            "Aufs",
+            "Aufs"
           ]
         },
         "examples": [
@@ -1819,7 +1701,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "katusele"
+                "Jeg"
               ]
             }
           },
@@ -1831,7 +1713,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "diivanile"
+                "Hun"
               ]
             }
           },
@@ -1843,7 +1725,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maale"
+                "går"
               ]
             }
           },
@@ -1855,7 +1737,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "voodile"
+                "Læg"
               ]
             }
           },
@@ -1867,7 +1749,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hobuse"
+                "Han"
               ]
             }
           },
@@ -1879,7 +1761,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "riiulile"
+                "Læg"
               ]
             }
           },
@@ -1891,7 +1773,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tule"
+                "Kom"
               ]
             }
           },
@@ -1903,7 +1785,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peole"
+                "skal"
               ]
             }
           }
@@ -1917,7 +1799,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kindlale asjale"
+                "Til"
               ]
             },
             "example": {
@@ -1934,7 +1816,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pinnale"
+                "Til"
               ]
             },
             "example": {
@@ -1951,7 +1833,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "juures"
+                "lodret"
               ]
             },
             "example": {
@@ -1968,7 +1850,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sisse"
+                "Indad"
               ]
             },
             "example": {
@@ -1985,8 +1867,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse",
-                "juurde"
+                "Til",
+                "Til"
               ]
             },
             "example": {
@@ -1998,53 +1880,16 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "aufs"
-            ],
             "purple": [
-              "Atceries"
-            ]
-          },
-          {
-            "purple": [
+              "kurp?",
               "auf das"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "aufs"
-            ],
             "purple": [
               "auf das"
-            ],
-            "green": [
-              "aufs"
-            ]
-          },
-          {
-            "purple": [
-              "Atbild"
-            ],
-            "green": [
-              "Atbild"
-            ]
-          },
-          {
-            "yellow": [
-              "auf den"
-            ],
-            "red": [
-              "aufs"
-            ]
-          },
-          {
-            "green": [
-              "an"
-            ],
-            "red": [
-              "ins"
             ]
           }
         ]
@@ -2055,132 +1900,116 @@ const A1_WORDS = [
     "de": "Augenbraue",
     "de_article": "die",
     "de_plural": "die Augenbrauen",
-    "lv": "Kulm",
+    "lv": "Øjenbryn",
     "level": "A1"
   },
   {
     "de": "Augenfarbe",
     "de_article": "die",
     "de_plural": "die Augenfarben",
-    "lv": "Silmade värv",
+    "lv": "Øjenfarve",
     "level": "A1"
   },
   {
     "de": "Auto",
     "de_article": "das",
     "de_plural": "die Autos",
-    "lv": "Auto",
+    "lv": "Bil",
     "level": "A1"
   },
   {
     "de": "Bad",
     "de_article": "das",
     "de_plural": "die Bäder",
-    "lv": "Vannituba",
+    "lv": "Badeværelse",
     "level": "A1"
   },
   {
     "de": "Badezimmer",
     "de_article": "das",
     "de_plural": "die Badezimmer",
-    "lv": "Vannituba",
+    "lv": "Badeværelse",
     "level": "A1"
   },
   {
     "de": "Schwimmbad",
     "de_article": "das",
     "de_plural": "die Schwimmbäder",
-    "lv": "Ujumisbassein",
+    "lv": "Svømmehal",
     "level": "A1"
   },
   {
     "de": "Sauna",
     "de_article": "die",
     "de_plural": "die Saunen",
-    "lv": "Saun",
+    "lv": "Sauna",
     "level": "A1"
   },
   {
     "de": "baden",
-    "lv": "Suplema",
+    "lv": "At svømme",
     "level": "A1",
     "study": {
       "id": "a1-baden",
       "layout": "standardStudy",
-      "translation": "Suplema",
+      "translation": "At svømme",
       "explanation": [
-        "Põhiidee: baden tähendab suplema, vees olema või vett nautima.",
-        "Baden kasutatakse, kui jutt on puhkusest vees, järves, meres või basseinis.",
-        "Baden võib tähendada ka vannis käimist.",
-        "Kui rõhk on ujumisliigutustel endil või spordil, kasutatakse saksa keeles sagedamini schwimmen."
+        "Hovedidé: baden betyder at bade, være i vand eller nyde vand.",
+        "Baden bruges, når det kommer til rekreation i vandet, søen, havet eller poolen.",
+        "Baden kan også betyde at tage et bad.",
+        "Når vægten er på selve bevægelsen eller svømningssporten, er schwimmen mere almindeligt brugt på tysk."
       ],
       "examples": [
         {
           "de": "Ich gehe baden.",
-          "lv": "Ma lähen ujuma."
+          "lv": "Jeg svømmer"
         },
         {
           "de": "Wir gehen im See baden.",
-          "lv": "Me läheme järve ujuma."
+          "lv": "Vi svømmer i søen."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Ta ujub väga hästi."
+          "lv": "Han svømmer meget godt."
         },
         {
           "de": "Ich schwimme jeden Montag.",
-          "lv": "Ma käin igal esmaspäeval ujumas."
+          "lv": "Jeg svømmer hver mandag."
         }
       ],
       "comparison": [
         {
           "word": "baden",
-          "meaning": "Suplema / vees olema / end pesema",
+          "meaning": "Svøm/vær i vand/vask",
           "example": "Ich gehe baden."
         },
         {
           "word": "schwimmen",
-          "meaning": "Ujuma liikumisena või spordina",
+          "meaning": "At svømme som en bevægelse eller sport",
           "example": "Er schwimmt sehr gut."
         },
         {
           "word": "duschen",
-          "meaning": "Duši all käima",
+          "meaning": "Tag et brusebad",
           "example": "Ich dusche am Morgen."
         },
         {
           "word": "schwimmen gehen",
-          "meaning": "Ujuma minema",
+          "meaning": "Tag på svømning",
           "example": "Ich gehe heute schwimmen."
         }
       ],
       "tip": {
-        "text": "Atceries: atpūta ūdenī → baden; peldēšanas kustība → schwimmen."
+        "text": "Husk: hvile i vand → baden; svømmebevægelse → schwimmen."
       },
       "important": [
-        "baden un schwimmen nav sinonīmi.",
-        "Latviski bieži saka vienkārši “peldēt”, bet vācu valodā jāizvēlas pēc situācijas."
+        "baden og schwimmen er ikke synonyme.",
+        "på dansk siger man ofte bare \"at svømme\", men på tysk skal man vælge efter situationen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "baden"
-          ],
           "purple": [
-            "suplema",
-            "vees olema",
-            "vett nautima",
-            "vannis käimist"
-          ],
-          "green": [
-            "järves",
-            "meres",
-            "basseinis"
-          ],
-          "red": [
-            "schwimmen",
-            "ujumisliigutustel",
-            "spordil"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -2192,7 +2021,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lähen"
+                "Jeg"
               ]
             }
           },
@@ -2207,10 +2036,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "läheme"
-              ],
-              "green": [
-                "järve"
+                "svømmer"
               ]
             }
           },
@@ -2222,7 +2048,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "ujub"
+                "Han"
               ]
             }
           },
@@ -2234,7 +2060,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "käin"
+                "Jeg"
               ]
             }
           }
@@ -2248,9 +2074,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "suplema",
-                "vees olema",
-                "end pesema"
+                "Svøm/vær",
+                "Svøm/vær",
+                "Svøm/vær"
               ]
             },
             "example": {
@@ -2267,9 +2093,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ujuma",
-                "liikumisena",
-                "spordina"
+                "svømme",
+                "svømme",
+                "sport"
               ]
             },
             "example": {
@@ -2286,7 +2112,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "duši all käima"
+                "Tag"
               ]
             },
             "example": {
@@ -2303,7 +2129,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ujuma minema"
+                "svømning"
               ]
             },
             "example": {
@@ -2319,32 +2145,18 @@ const A1_WORDS = [
               "baden"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "schwimmen",
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "baden"
-            ],
-            "red": [
-              "schwimmen"
-            ]
-          },
-          {
             "purple": [
-              "Latviski"
-            ],
-            "blue": [
-              "Latviski"
-            ],
-            "red": [
-              "Latviski"
+              "baden"
             ]
           }
         ]
@@ -2353,103 +2165,103 @@ const A1_WORDS = [
   },
   {
     "de": "bald",
-    "lv": "Varsti",
+    "lv": "Snart",
     "level": "A1"
   },
   {
     "de": "Balkon",
     "de_article": "der",
     "de_plural": "die Balkons",
-    "lv": "Rõdu",
+    "lv": "Altan",
     "level": "A1"
   },
   {
     "de": "Ball",
     "de_article": "der",
     "de_plural": "die Bälle",
-    "lv": "Pall",
+    "lv": "Bold",
     "level": "A1"
   },
   {
     "de": "Banane",
     "de_article": "die",
     "de_plural": "die Bananen",
-    "lv": "Banaan",
+    "lv": "Banan",
     "level": "A1"
   },
   {
     "de": "Bauch",
     "de_article": "der",
     "de_plural": "die Bäuche",
-    "lv": "Kõht",
+    "lv": "Mave",
     "level": "A1"
   },
   {
     "de": "Baum",
     "de_article": "der",
     "de_plural": "die Bäume",
-    "lv": "Puu",
+    "lv": "Et træ",
     "level": "A1"
   },
   {
     "de": "bedeuten",
-    "lv": "Tähendama",
+    "lv": "Betyde",
     "level": "A1"
   },
   {
     "de": "Erdbeere",
     "de_article": "die",
     "de_plural": "die Erdbeeren",
-    "lv": "Maasikas",
+    "lv": "Jordbær",
     "level": "A1"
   },
   {
     "de": "beginnen",
-    "lv": "Alustama",
+    "lv": "For at starte",
     "level": "A1"
   },
   {
     "de": "bei",
-    "lv": "Juures",
+    "lv": "På",
     "level": "A1",
     "study": {
       "id": "a1-bei",
       "layout": "standardStudy",
-      "translation": "Juures",
-      "explanation": "Kasutatakse, kui miski asub isiku, organisatsiooni või koha juures või toimub mingites tingimustes.",
+      "translation": "På",
+      "explanation": "Bruges, når noget er i nærheden af ​​en person, organisation, sted eller under nogle omstændigheder sker.",
       "examples": [
         {
           "de": "Ich bin bei meinem Freund.",
-          "lv": "Ma olen oma sõbra juures."
+          "lv": "Jeg er hjemme hos min ven."
         },
         {
           "de": "Sie arbeitet bei Siemens.",
-          "lv": "Ta töötab Siemensis."
+          "lv": "Hun arbejder for Siemens."
         },
         {
           "de": "Bei Regen bleiben wir zu Hause.",
-          "lv": "Vihma korral jääme koju."
+          "lv": "Vi bliver hjemme, når det regner."
         }
       ],
       "comparison": [
         {
           "word": "bei",
-          "meaning": "Isiku, ettevõtte juures või teatud tingimustel",
-          "example": "Ich bin bei meiner Schwester. – Ma olen oma õe juures."
+          "meaning": "Hos en person, virksomhed eller under visse omstændigheder",
+          "example": "Ich bin bei meiner Schwester. – Jeg er hos min søster."
         },
         {
           "word": "an",
-          "meaning": "Seina, serva, kalda, pinna ääres",
-          "example": "Das Bild hängt an der Wand. – Pilt ripub seinal."
+          "meaning": "Ved væggen, kanten, kysten, kanten af ​​overfladen",
+          "example": "Das Bild hängt an der Wand. – Billedet hænger på væggen."
         },
         {
           "word": "zu",
-          "meaning": "Kellegi juurde minnakse (suund)",
-          "example": "Ich gehe zu meinem Freund. – Ma lähen oma sõbra juurde."
+          "meaning": "Hvem skal til (retning)",
+          "example": "Ich gehe zu meinem Freund. – Jeg skal til min ven."
         }
       ],
       "tip": {
-        "text": "Atceries: pie cilvēka/vietas/uzņēmuma → bei."
+        "text": "Husk: hos en person/sted/virksomhed → bei."
       },
       "sectionAccents": {
         "examples": [
@@ -2513,9 +2325,9 @@ const A1_WORDS = [
               "bei"
             ],
             "green": [
-              "Atceries",
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk",
+              "Husk"
             ]
           }
         },
@@ -2523,155 +2335,139 @@ const A1_WORDS = [
           {
             "purple": [
               "bei"
-            ],
-            "green": [
-              "bei",
-              "bei",
-              "bei"
-            ]
-          },
-          {
-            "blue": [
-              "auf"
-            ],
-            "red": [
-              "bei"
-            ],
-            "purple": [
-              "runa"
             ]
           }
         ]
       },
       "important": [
-        "bei bieži nozīmē pie cilvēka, pie vietas vai uzņēmumā.",
-        "Ja runa ir par kustību uz virsmu, parasti vajag auf, nevis bei."
+        "bei betyder ofte på en person, på et sted eller på en virksomhed.",
+        "Når det kommer til at flytte til overfladen, har du normalt brug for auf, ikke bei."
       ]
     }
   },
   {
     "de": "beide",
-    "lv": "Mõlemad",
+    "lv": "Begge",
     "level": "A1"
   },
   {
     "de": "Bein",
     "de_article": "das",
     "de_plural": "die Beine",
-    "lv": "Jalg",
+    "lv": "Ben",
     "level": "A1"
   },
   {
     "de": "Beispiel",
     "de_article": "das",
     "de_plural": "die Beispiele",
-    "lv": "Näide",
+    "lv": "Et eksempel",
     "level": "A1"
   },
   {
     "de": "bekommen",
-    "lv": "Saama",
+    "lv": "At modtage",
     "level": "A1"
   },
   {
     "de": "benutzen",
-    "lv": "Kasutama",
+    "lv": "Bruge",
     "level": "A1"
   },
   {
     "de": "Berg",
     "de_article": "der",
     "de_plural": "die Berge",
-    "lv": "Mägi",
+    "lv": "Bjerg",
     "level": "A1"
   },
   {
     "de": "besser",
-    "lv": "Parem",
+    "lv": "Bedre",
     "level": "A1"
   },
   {
     "de": "beste",
-    "lv": "Parim",
+    "lv": "Den bedste",
     "level": "A1"
   },
   {
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Külaskäik",
+    "lv": "Et besøg",
     "level": "A1"
   },
   {
     "de": "Besucher",
     "de_article": "der",
     "de_plural": "die Besucher",
-    "lv": "Külastaja",
+    "lv": "Besøgende",
     "level": "A1"
   },
   {
     "de": "besuchen",
-    "lv": "Külastama • Külla minema",
+    "lv": "At deltage • At besøge",
     "level": "A1"
   },
   {
     "de": "Bett",
     "de_article": "das",
     "de_plural": "die Betten",
-    "lv": "Voodi",
+    "lv": "Sengen",
     "level": "A1"
   },
   {
     "de": "bis",
-    "lv": "Kuni",
+    "lv": "Indtil",
     "level": "A1",
     "study": {
       "id": "a1-bis",
       "layout": "standardStudy",
-      "translation": "Kuni",
-      "explanation": "Osutab mingile piirile, ajahetkele või tingimusele.",
+      "translation": "Indtil",
+      "explanation": "Refererer til en grænse, et tidspunkt eller en tilstand.",
       "examples": [
         {
           "de": "Ich warte bis zu deiner Ankunft.",
-          "lv": "Ma ootan sinu saabumiseni."
+          "lv": "Jeg venter på din ankomst."
         },
         {
           "de": "Bleib hier, bis ich zurückkomme.",
-          "lv": "Jää siia, kuni ma tagasi tulen."
+          "lv": "Bliv her indtil jeg kommer tilbage."
         },
         {
           "de": "Ich lerne Deutsch bis zum Abend.",
-          "lv": "Ma õpin saksa keelt õhtuni."
+          "lv": "Jeg læser tysk til aften."
         },
         {
           "de": "Bis jetzt habe ich nichts verstanden.",
-          "lv": "Siiani pole ma midagi aru saanud."
+          "lv": "Indtil videre har jeg ikke forstået noget."
         }
       ],
       "comparison": [
         {
           "word": "bis",
-          "meaning": "Kuni (ajahetke saavutamiseni)",
-          "example": "Ich bleibe bis 18 Uhr. – Ma jään kuni kell 18:00."
+          "meaning": "Indtil (tidspunktet er nået)",
+          "example": "Ich bleibe bis 18 Uhr. – Jeg bliver til 18:00."
         },
         {
           "word": "bis ... zu",
-          "meaning": "Kuni (kuni kindla ajani)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – Ni."
+          "meaning": "Indtil (indtil et bestemt tidspunkt)",
+          "example": "Ich arbeite von 9 bis 17 Uhr. – Jeg arbejder fra 9 til 17."
         },
         {
           "word": "bis dass",
-          "meaning": "Seni, kuni",
-          "example": "Ich warte, bis dass du kommst. – Ma ootan, kuni sa tuled."
+          "meaning": "Indtil",
+          "example": "Ich warte, bis dass du kommst. – Jeg venter på, at du kommer."
         },
         {
           "word": "bis jetzt",
-          "meaning": "Siiani, tänase päevani",
-          "example": "Bis jetzt ist alles gut. – Siiani on kõik hästi."
+          "meaning": "Indtil nu, indtil denne dag",
+          "example": "Bis jetzt ist alles gut. – Så langt så godt."
         }
       ],
       "tip": {
-        "text": "Atceries: robeža laikā/nosacījumā → bis."
+        "text": "Husk: grænse i tid/tilstand → bis."
       },
       "sectionAccents": {
         "examples": [
@@ -2752,28 +2548,16 @@ const A1_WORDS = [
               "bis"
             ],
             "green": [
-              "Atceries",
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
             "purple": [
-              "bis"
-            ],
-            "green": [
               "bis",
-              "bis"
-            ]
-          },
-          {
-            "blue": [
-              "bis jetzt",
-              "bis dass"
-            ],
-            "purple": [
               "bis",
               "bis"
             ]
@@ -2781,77 +2565,74 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "bis = līdz robežai vai laika punktam.",
-        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr."
+        "bis = til en grænse eller et tidspunkt.",
+        "bis jetzt = indtil nu; bis dass = indtil."
       ]
     }
   },
   {
     "de": "bisschen",
-    "lv": "Natuke",
+    "lv": "Lidt",
     "level": "A1"
   },
   {
     "de": "bitte",
-    "lv": "Palun",
+    "lv": "Behage",
     "level": "A1",
     "study": {
       "id": "a1-bitte",
       "layout": "standardStudy",
-      "translation": "Palun",
+      "translation": "Behage",
       "explanation": [
-        "Põhiidee: Viisakussõna väikese algustähega. Kasutatakse viisakuse väljendamiseks — palun.",
-        "Bitte tähendab peamiselt: viisakus.",
-        "Sageli kirjeldab: viisakussõna.",
-        "Bitte tähendab peamiselt: palve/nõudmine.",
-        "Sageli kirjeldab: nimisõna (die).",
-        "Bitte väikese algustähega on viisakussõna — see tähendab palun (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte suure algustähega ja artikliga die on nimisõna — see tähendab palvet või soovi (Ich habe eine Bitte = mul on üks palve).",
-        "Mitmuses: die Bitten."
+        "Hovedidé: Høfligt ord med små bogstaver. Har været høflig - tak.",
+        "Bitte betyder hovedsageligt: ​​høflighed.",
+        "Beskriver ofte: et høfligt ord.",
+        "Bitte betyder hovedsageligt: ​​anmodning/anmodning.",
+        "Ofte karakteriseret ved: navneord (dø).",
+        "Bitte med et lille bogstav er et høfligt ord - det betyder venligst (Bitte schön!, Eine Tasse Kaffee, bitte).",
+        "Die Bitte med stort bogstav og artiklen die er et substantiv - det betyder en anmodning eller en anmodning (Ich habe eine Bitte = jeg har en anmodning).",
+        "Flertal: die Bitten."
       ],
       "examples": [
         {
           "de": "Bitte schön!",
-          "lv": "Palun!"
+          "lv": "Behage!"
         },
         {
           "de": "Bitte schön!",
-          "lv": "Palun!"
+          "lv": "Behage!"
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Üks tass kohvi, palun."
+          "lv": "En kop kaffe, tak."
         },
         {
           "de": "Kann ich bitte fragen?",
-          "lv": "Kas ma tohin palun küsida?"
+          "lv": "Må jeg spørge venligst"
         },
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Mul on üks palve."
+          "lv": "Jeg har en anmodning."
         },
         {
           "de": "Die Bitte ist wichtig.",
-          "lv": "Palve on tähtis."
+          "lv": "Anmodningen er vigtig."
         }
       ],
       "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu."
+        "Lille bitte = please (Bitte schön!, Kaffee, bitte). die Bitte med stort bogstav = anmodning (eine Bitte, meine Bitte).",
+        "høflighedsnavn med små bogstaver. Har været høflig - tak."
       ],
       "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "bitte er små bogstaver - det er et høfligt ord, ikke et substantiv.",
+        "die Bitte med stort bogstav og artiklen die er et navneord.",
+        "Flertal: die Bitten (anmodninger).",
+        "Nepareizi: Die Bitte Schön! → Pareizi: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "bitte"
-          ],
           "purple": [
-            "palun"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -2864,7 +2645,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palun"
+                "Behage"
               ]
             }
           },
@@ -2877,7 +2658,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palun"
+                "Behage"
               ]
             }
           },
@@ -2890,7 +2671,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palun"
+                "kop"
               ]
             }
           },
@@ -2903,7 +2684,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palun"
+                "jeg"
               ]
             }
           },
@@ -2914,11 +2695,7 @@ const A1_WORDS = [
                 "bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "palve"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2927,17 +2704,13 @@ const A1_WORDS = [
                 "bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "palve"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
           {
             "purple": [
-              "Mazais"
+              "Lille"
             ]
           }
         ],
@@ -2955,136 +2728,110 @@ const A1_WORDS = [
     "de": "Bitte",
     "de_article": "die",
     "de_plural": "die Bitten",
-    "lv": "Palve",
+    "lv": "En anmodning",
     "level": "A1",
     "study": {
       "id": "a1-bitte-study",
       "layout": "standardStudy",
-      "translation": "Palve",
+      "translation": "En anmodning",
       "explanation": [
-        "Põhiidee: Nimisõna artikliga die ja suure algustähega. Konkreetne palve või taotlus.",
-        "Die Bitte tähendab peamiselt: viisakus.",
-        "Sageli kirjeldab: viisakussõna.",
-        "Die Bitte tähendab peamiselt: palve/soov.",
-        "Sageli kirjeldab: nimisõna (die).",
-        "Bitte väikese algustähega on viisakussõna — see tähendab palun (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte suure algustähega ja artikliga die on nimisõna — see tähendab palvet või soovi (Ich habe eine Bitte = mul on üks palve).",
-        "Mitmuses: die Bitten."
+        "Hovedidé: Navneord med artiklen dør og stort bogstav. En specifik anmodning eller anmodning.",
+        "Die Bitte betyder hovedsageligt: ​​høflighed.",
+        "Beskriver ofte: et høfligt ord.",
+        "Die Bitte betyder i bund og grund: anmodning/anmodning.",
+        "Ofte karakteriseret ved: navneord (dø).",
+        "Bitte med et lille bogstav er et høfligt ord - det betyder venligst (Bitte schön!, Eine Tasse Kaffee, bitte).",
+        "Die Bitte med stort bogstav og artiklen die er et substantiv - det betyder en anmodning eller en anmodning (Ich habe eine Bitte = jeg har en anmodning).",
+        "Flertal: die Bitten."
       ],
       "examples": [
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Mul on üks palve."
+          "lv": "Jeg har en anmodning."
         },
         {
           "de": "Bitte schön!",
-          "lv": "Palun!"
+          "lv": "Behage!"
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Üks tass kohvi, palun."
+          "lv": "En kop kaffe, tak."
         },
         {
           "de": "Kann ich bitte fragen?",
-          "lv": "Kas ma tohin palun küsida?"
+          "lv": "Må jeg spørge venligst"
         },
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Mul on üks palve."
+          "lv": "Jeg har en anmodning."
         },
         {
           "de": "Die Bitte ist wichtig.",
-          "lv": "Palve on tähtis."
+          "lv": "Anmodningen er vigtig."
         }
       ],
       "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
+        "Lille bitte = please (Bitte schön!, Kaffee, bitte). die Bitte med stort bogstav = anmodning (eine Bitte, meine Bitte).",
+        "Navneord med artiklen dø og hovedstaden væk. En specifik anmodning eller anmodning."
       ],
       "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "bitte er små bogstaver - det er et høfligt ord, ikke et substantiv.",
+        "die Bitte med stort bogstav og artiklen die er et navneord.",
+        "Flertal: die Bitten (anmodninger).",
+        "Nepareizi: Die Bitte Schön! → Pareizi: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "die Bitte",
-            "bitte"
-          ],
           "purple": [
-            "palve",
-            "palve"
-          ],
-          "yellow": [
-            "Bitte",
-            "Bitten"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "Ich",
                 "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "palve"
+                "Jeg"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Bitte",
                 "bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "palun"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "Eine",
                 "bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "palun"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "Kann",
                 "bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "palun"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "Ich",
                 "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "palve"
+                "Jeg"
               ]
             }
           },
@@ -3097,7 +2844,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palve"
+                "Anmodningen"
               ]
             }
           }
@@ -3105,129 +2852,118 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Mazais"
+              "bitte"
             ]
           }
         ],
         "important": [
-          {
-            "green": [
-              "bitte"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "billig",
-    "lv": "Odav",
+    "lv": "Billig",
     "level": "A1"
   },
   {
     "de": "Bier",
     "de_article": "das",
     "de_plural": "die Biere",
-    "lv": "Õlu",
+    "lv": "Øl",
     "level": "A1"
   },
   {
     "de": "Bild",
     "de_article": "das",
     "de_plural": "die Bilder",
-    "lv": "Pilt",
+    "lv": "Billede",
     "level": "A1"
   },
   {
     "de": "bitten",
-    "lv": "Paluma",
+    "lv": "At spørge",
     "level": "A1"
   },
   {
     "de": "Blatt",
     "de_article": "das",
     "de_plural": "die Blätter",
-    "lv": "Leht",
+    "lv": "Side",
     "level": "A1"
   },
   {
     "de": "blau",
-    "lv": "Sinine",
+    "lv": "Blå",
     "level": "A1"
   },
   {
     "de": "bleiben",
-    "lv": "Jääma",
+    "lv": "Ophold",
     "level": "A1",
     "study": {
       "id": "a1-bleiben",
       "layout": "standardStudy",
-      "translation": "Jääma",
+      "translation": "Ophold",
       "explanation": [
-        "Põhiidee: bleiben tähendab jäämist.",
-        "Bleiben kasutatakse, kui inimene või asi ei lähe ära ja jääb samasse kohta või olekusse.",
-        "See on sõnade gehen ja fahren vastand, kui jutt on ära minekust.",
-        "Väga sage fraas on Ich bleibe zu Hause."
+        "Hovedidé: bleiben betyder at blive.",
+        "Bleiben bruges, når en person eller ting ikke forsvinder og forbliver på samme sted eller samme tilstand.",
+        "Det er det modsatte af gehen og fahren, når det kommer til at tage afsted.",
+        "En meget almindelig sætning er Ich bleibe zu Hause."
       ],
       "examples": [
         {
           "de": "Ich bleibe zu Hause.",
-          "lv": "Ma jään koju."
+          "lv": "Jeg bliver hjemme"
         },
         {
           "de": "Bleib hier!",
-          "lv": "Jää siia!"
+          "lv": "Bliv her!"
         },
         {
           "de": "Wir bleiben noch eine Stunde.",
-          "lv": "Me jääme veel üheks tunniks."
+          "lv": "Vi bliver en time mere."
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "Ma lähen koju."
+          "lv": "Jeg tager hjem"
         }
       ],
       "comparison": [
         {
           "word": "bleiben",
-          "meaning": "Jääma",
+          "meaning": "Ophold",
           "example": "Ich bleibe hier."
         },
         {
           "word": "gehen",
-          "meaning": "Minema / jalgsi ära minema",
+          "meaning": "Gå / gå til fods",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "fahren",
-          "meaning": "Sõitma / sõidukiga liikuma",
+          "meaning": "Kør/gå med transport",
           "example": "Ich fahre nach Hause."
         },
         {
           "word": "warten",
-          "meaning": "Ootama",
+          "meaning": "At vente",
           "example": "Ich warte hier."
         }
       ],
       "tip": {
-        "text": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen."
+        "text": "Husk: gå ikke væk → bleiben; går til fods → gå."
       },
       "important": [
-        "bleiben nozīmē palikt, nevis gaidīt.",
-        "Ich bleibe hier = es palieku šeit; Ich warte hier = es gaidu šeit."
+        "bleiben betyder ophold, ikke vent.",
+        "Ich bleibe hier = Jeg bliver her; Ich warte hier = Jeg venter her."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "bleiben"
-          ],
           "purple": [
-            "jäämist",
-            "ei lähe ära"
-          ],
-          "red": [
-            "gehen",
-            "fahren"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -3239,7 +2975,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jään"
+                "Jeg"
               ]
             }
           },
@@ -3251,7 +2987,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jää"
+                "Bliv"
               ]
             }
           },
@@ -3263,7 +2999,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jääme"
+                "bliver"
               ]
             }
           },
@@ -3275,7 +3011,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "lähen"
+                "Jeg"
               ]
             }
           }
@@ -3289,7 +3025,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jääma"
+                "Ophold"
               ]
             },
             "example": {
@@ -3306,8 +3042,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "minema",
-                "ära minema"
+                "til",
+                "til"
               ]
             },
             "example": {
@@ -3324,8 +3060,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sõitma",
-                "sõitma"
+                "Kør/gå",
+                "transport"
               ]
             },
             "example": {
@@ -3342,7 +3078,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ootama"
+                "vente"
               ]
             },
             "example": {
@@ -3358,32 +3094,17 @@ const A1_WORDS = [
               "bleiben"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
-              "gehen"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "bleiben"
-            ],
             "purple": [
               "bleiben"
-            ],
-            "green": [
-              "bleiben",
-              "bleiben"
-            ]
-          },
-          {
-            "blue": [
-              "bleibe"
-            ],
-            "green": [
-              "warte"
             ]
           }
         ]
@@ -3394,7 +3115,7 @@ const A1_WORDS = [
     "de": "Bleistift",
     "de_article": "der",
     "de_plural": "die Bleistifte",
-    "lv": "Pliiats",
+    "lv": "Blyant",
     "level": "A1"
   },
   {
@@ -3406,119 +3127,110 @@ const A1_WORDS = [
     "de": "Blume",
     "de_article": "die",
     "de_plural": "die Blumen",
-    "lv": "Lill",
+    "lv": "En blomst",
     "level": "A1"
   },
   {
     "de": "Boot",
     "de_article": "das",
     "de_plural": "die Boote",
-    "lv": "Paat",
+    "lv": "En båd",
     "level": "A1"
   },
   {
     "de": "brauchen",
-    "lv": "Vajama",
+    "lv": "At have brug for",
     "level": "A1"
   },
   {
     "de": "braun",
-    "lv": "Pruun",
+    "lv": "Brun",
     "level": "A1"
   },
   {
     "de": "breit",
-    "lv": "Lai",
+    "lv": "Bred",
     "level": "A1"
   },
   {
     "de": "Brief",
     "de_article": "der",
     "de_plural": "die Briefe",
-    "lv": "Kiri",
+    "lv": "Bogstav",
     "level": "A1"
   },
   {
     "de": "Brille",
     "de_article": "die",
     "de_plural": "die Brillen",
-    "lv": "Prillid",
+    "lv": "Briller",
     "level": "A1"
   },
   {
     "de": "bringen",
-    "lv": "Tooma • Viima",
+    "lv": "Medbring • Take away",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "Tooma • Viima",
+      "translation": "Medbring • Take away",
       "explanation": [
-        "Põhiidee: bringen tähendab midagi kellelegi tooma, viima või toimetama.",
-        "Bringen kasutatakse, kui midagi viiakse teise kohta või teise inimese juurde.",
-        "See ei ole sama mis nehmen, sest nehmen tähendab endale võtma.",
-        "Holen tähendab järele minema ja tooma või võtma."
+        "Hovedidé: bringen betyder at bringe, bære eller levere noget til nogen.",
+        "Bringen bruges, når noget flyttes til et andet sted eller til en anden person.",
+        "Det er ikke det samme som nehmen, for nehmen betyder at tage for sig selv.",
+        "Holen betyder at gå efter og hente eller tage."
       ],
       "examples": [
         {
           "de": "Bring mir bitte Wasser.",
-          "lv": "Too mulle palun vett."
+          "lv": "Bring mig venligst vand"
         },
         {
           "de": "Ich bringe dich nach Hause.",
-          "lv": "Ma viin sind koju."
+          "lv": "Jeg tager dig hjem"
         },
         {
           "de": "Er bringt das Buch zur Schule.",
-          "lv": "Ta viib raamatu kooli."
+          "lv": "Han tager bogen med i skole."
         },
         {
           "de": "Ich nehme das Buch.",
-          "lv": "Ma võtan raamatu."
+          "lv": "Jeg tager bogen"
         }
       ],
       "comparison": [
         {
           "word": "bringen",
-          "meaning": "Tooma / viima / kohale toimetama",
+          "meaning": "Medbring/tag/lever",
           "example": "Bring mir Wasser."
         },
         {
           "word": "nehmen",
-          "meaning": "Võtma / kätte võtma",
+          "meaning": "At tage / at tage",
           "example": "Ich nehme das Buch."
         },
         {
           "word": "holen",
-          "meaning": "Järele minema / tooma",
+          "meaning": "Gå efter/hent",
           "example": "Ich hole Wasser."
         },
         {
           "word": "mitbringen",
-          "meaning": "Kaasa võtma ja kohale tooma",
+          "meaning": "Tag væk og medbring",
           "example": "Bringst du Brot mit?"
         }
       ],
       "tip": {
-        "text": "Atceries: pārvieto pie kāda → bringen; paņem sev → nehmen."
+        "text": "Husk: flytte til nogen → bringen; tag selv → nehmen."
       },
       "important": [
-        "bringen rāda virzienu pie kāda vai uz kādu vietu.",
-        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam."
+        "bringen viser retning til nogen eller til et sted.",
+        "nehmen betyder at tage, men ikke nødvendigvis at levere til en anden."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "bringen"
-          ],
           "purple": [
-            "tooma",
-            "viima",
-            "Põhiidee"
-          ],
-          "red": [
-            "nehmen",
-            "holen"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -3533,10 +3245,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "too"
-              ],
-              "yellow": [
-                "vett"
+                "Bring"
               ]
             }
           },
@@ -3551,10 +3260,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viin"
-              ],
-              "green": [
-                "sind"
+                "Jeg"
               ]
             }
           },
@@ -3569,10 +3275,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viib"
-              ],
-              "yellow": [
-                "raamatu"
+                "tager"
               ]
             }
           },
@@ -3587,10 +3290,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "võtan"
+                "Jeg"
               ],
               "yellow": [
-                "raamatu"
+                "Jeg"
               ]
             }
           }
@@ -3604,9 +3307,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tooma",
-                "viima",
-                "kohale toimetama"
+                "Bring",
+                "Bring",
+                "Bring"
               ]
             },
             "example": {
@@ -3623,8 +3326,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "võtma",
-                "võtma"
+                "tage",
+                "tage"
               ]
             },
             "example": {
@@ -3641,8 +3344,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "järele minema",
-                "tooma"
+                "efter/hent",
+                "efter/hent"
               ]
             },
             "example": {
@@ -3659,8 +3362,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kaasa võtma",
-                "tooma"
+                "Tag",
+                "Tag"
               ]
             },
             "example": {
@@ -3676,29 +3379,18 @@ const A1_WORDS = [
               "bringen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "nehmen",
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "bringen"
-            ],
             "purple": [
               "bringen"
-            ]
-          },
-          {
-            "red": [
-              "nehmen"
-            ],
-            "blue": [
-              "nehmen"
             ]
           }
         ]
@@ -3709,42 +3401,42 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "Võileib",
+    "lv": "En sandwich",
     "level": "A1"
   },
   {
     "de": "Brötchen",
     "de_article": "das",
     "de_plural": "die Brötchen",
-    "lv": "Kukkel",
+    "lv": "En bolle",
     "level": "A1"
   },
   {
     "de": "Brücke",
     "de_article": "die",
     "de_plural": "die Brücken",
-    "lv": "Sild",
+    "lv": "Bro",
     "level": "A1"
   },
   {
     "de": "Bruder",
     "de_article": "der",
     "de_plural": "die Brüder",
-    "lv": "Vend",
+    "lv": "Bror",
     "level": "A1"
   },
   {
     "de": "Buch",
     "de_article": "das",
     "de_plural": "die Bücher",
-    "lv": "Raamat",
+    "lv": "Bog",
     "level": "A1"
   },
   {
     "de": "Buchstabe",
     "de_article": "der",
     "de_plural": "die Buchstaben",
-    "lv": "Täht",
+    "lv": "Bogstav",
     "level": "A1"
   },
   {
@@ -3758,20 +3450,20 @@ const A1_WORDS = [
     "de": "Bus",
     "de_article": "der",
     "de_plural": "die Busse",
-    "lv": "Buss",
+    "lv": "Bus",
     "level": "A1"
   },
   {
     "de": "Butter",
     "de_article": "die",
-    "lv": "Või",
+    "lv": "Smør",
     "level": "A1"
   },
   {
     "de": "Café",
     "de_article": "das",
     "de_plural": "die Cafés",
-    "lv": "Kohvik",
+    "lv": "Cafe",
     "level": "A1"
   },
   {
@@ -3785,94 +3477,84 @@ const A1_WORDS = [
     "de": "Computer",
     "de_article": "der",
     "de_plural": "die Computer",
-    "lv": "Arvuti",
+    "lv": "Computer",
     "level": "A1"
   },
   {
     "de": "Cousin",
     "de_article": "der",
     "de_plural": "die Cousins",
-    "lv": "Nõbu",
+    "lv": "Fætter",
     "level": "A1"
   },
   {
     "de": "Cousine",
     "de_article": "die",
     "de_plural": "die Cousinen",
-    "lv": "Nõbu",
+    "lv": "Fætter",
     "level": "A1"
   },
   {
     "de": "da",
-    "lv": "Seal",
+    "lv": "Der",
     "level": "A1",
     "study": {
       "id": "a1-da",
       "layout": "standardStudy",
-      "translation": "Seal",
+      "translation": "Der",
       "explanation": [
-        "Põhiidee: da tähendab A1 tasemel kõige sagedamini seal.",
-        "Da osutab kohale või viitab millelegi juba mainitule.",
-        "Olenevalt olukorrast võib seda tõlkida ka kui siin või seal.",
-        "A1 tasemel õpime sõna da peamiselt üldise kohamäärsõnana."
+        "Hovedidé: da på A1-niveau betyder oftest der.",
+        "Da angiver et sted eller henviser til noget allerede nævnt.",
+        "Alt efter situationen kan det også oversættes til her eller her.",
+        "På A1-niveau lærer vi hovedsageligt da som et generelt stedord."
       ],
       "examples": [
         {
           "de": "Da ist mein Auto.",
-          "lv": "Seal on minu auto."
+          "lv": "Der er min bil."
         },
         {
           "de": "Ich war da.",
-          "lv": "Ma olin seal."
+          "lv": "Jeg var der"
         },
         {
           "de": "Da kommt er.",
-          "lv": "Siin ta tuleb."
+          "lv": "Her kommer han."
         },
         {
           "de": "Komm mal da her!",
-          "lv": "Tule siia!"
+          "lv": "Kom her!"
         }
       ],
       "comparison": [
         {
           "word": "da",
-          "meaning": "Seal • Siin • Siinsamas (üldiselt)",
+          "meaning": "Der • Her • Her (generelt)",
           "example": "Da ist mein Auto."
         },
         {
           "word": "hier",
-          "meaning": "Siin (kindlas kohas)",
+          "meaning": "Her (på et bestemt sted)",
           "example": "Hier ist mein Auto."
         },
         {
           "word": "dort",
-          "meaning": "Seal (kaugemal)",
+          "meaning": "Der (videre)",
           "example": "Dort ist mein Auto."
         },
         {
           "word": "dann",
-          "meaning": "Siis",
+          "meaning": "Så",
           "example": "Dann gehen wir nach Hause."
         }
       ],
       "tip": {
-        "text": "Atceries: vispārīgs tur/te → da."
+        "text": "Husk: generelt der/der → da."
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "da"
-          ],
           "purple": [
-            "seal"
-          ],
-          "green": [
-            "siin",
-            "siin"
-          ],
-          "yellow": [
-            "koha"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -3884,7 +3566,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seal"
+                "Der"
               ]
             }
           },
@@ -3896,7 +3578,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seal"
+                "Jeg"
               ]
             }
           },
@@ -3908,7 +3590,7 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "Siin"
+                "Her"
               ]
             }
           },
@@ -3920,7 +3602,7 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "siia"
+                "Kom"
               ]
             }
           }
@@ -3934,8 +3616,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "siin",
-                "siin"
+                "Der",
+                "Der"
               ]
             },
             "example": {
@@ -3952,7 +3634,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "siin"
+                "Her"
               ]
             },
             "example": {
@@ -3969,7 +3651,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "seal"
+                "Der"
               ]
             },
             "example": {
@@ -3984,11 +3666,7 @@ const A1_WORDS = [
                 "dann"
               ]
             },
-            "meaning": {
-              "purple": [
-                "siis"
-              ]
-            },
+            "meaning": {},
             "example": {
               "red": [
                 "Dann"
@@ -4002,34 +3680,18 @@ const A1_WORDS = [
               "da"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "green": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "da"
-            ],
             "purple": [
-              "vispārīgs"
-            ]
-          },
-          {
-            "yellow": [
-              "hier"
-            ],
-            "red": [
-              "dort"
-            ],
-            "green": [
-              "hier"
-            ],
-            "purple": [
-              "hier"
+              "generelt",
+              "generelt"
             ]
           }
         ]
@@ -4040,13 +3702,13 @@ const A1_WORDS = [
           "Da"
         ],
         "purple": [
-          "seal",
-          "Seal"
+          "tur",
+          "Tur"
         ],
         "green": [
-          "siin",
-          "Siin",
-          "siin"
+          "te",
+          "Te",
+          "here"
         ],
         "yellow": [
           "hier"
@@ -4057,63 +3719,63 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "da ir vispārīgs vietas vārds.",
-        "hier ir konkrēti “šeit”, dort ir tālāks “tur”."
+        "da er et generelt stednavn.",
+        "her er konkret 'her', dort er yderligere 'der'."
       ]
     }
   },
   {
     "de": "danken",
-    "lv": "Tänama",
+    "lv": "At takke",
     "level": "A1"
   },
   {
     "de": "dann",
-    "lv": "Siis",
+    "lv": "Så",
     "level": "A1"
   },
   {
     "de": "das",
-    "lv": "Kesksoo määrav artikkel",
+    "lv": "Neutrum bestemt artikel",
     "level": "A1",
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "Kesksoo määrav artikkel",
-      "explanation": "Kasutatakse kesksoost nimisõnade juures. Mõnes lauses võib “das” toimida ka asesõnana või siduva asesõnana.",
+      "translation": "Neutrum bestemt artikel",
+      "explanation": "Bruges til intetkønssubstantiver. I nogle sætninger kan \"det\" også fungere som et pronomen eller et relativt pronomen.",
       "examples": [
         {
           "de": "Das ist mein Auto.",
-          "lv": "See on minu auto."
+          "lv": "Det er min bil"
         },
         {
           "de": "Das ist gut.",
-          "lv": "See on hea."
+          "lv": "Det er godt."
         },
         {
           "de": "Das Buch, das ich lese, ist interessant.",
-          "lv": "Raamat, mida ma loen, on huvitav."
+          "lv": "Bogen jeg læser er interessant."
         }
       ],
       "comparison": [
         {
           "word": "das",
-          "meaning": "See (artikkel / asesõna)",
-          "example": "Das ist mein Auto. – See on minu auto."
+          "meaning": "Det (artikel / pronomen)",
+          "example": "Das ist mein Auto. – Det er min bil."
         },
         {
           "word": "dies",
-          "meaning": "See",
-          "example": "Dies ist mein Auto. – See on minu auto."
+          "meaning": "Denne her",
+          "example": "Dies ist mein Auto. – Det her er min bil."
         },
         {
           "word": "welches",
-          "meaning": "Mis • Mille • Mida",
-          "example": "Das ist das Buch, welches ich lese. – See on raamat, mida ma loen."
+          "meaning": "Hvem • Hvilken • Hvem",
+          "example": "Das ist das Buch, welches ich lese. – Det er en bog, jeg læser."
         }
       ],
       "tip": {
-        "text": "Atceries: vidus dzimte → das; ka → dass."
+        "text": "Husk: vidus dzimte → das; ka → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -4186,7 +3848,7 @@ const A1_WORDS = [
               "das"
             ],
             "purple": [
-              "Atceries"
+              "vidus dzimte"
             ],
             "red": [
               "dass"
@@ -4195,80 +3857,65 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "das"
-            ],
             "purple": [
-              "līmenī"
-            ]
-          },
-          {
-            "blue": [
-              "das"
-            ],
-            "purple": [
-              "artikuls",
-              "das"
-            ],
-            "red": [
-              "dass"
+              "niveau"
             ]
           }
         ]
       },
       "important": [
-        "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
-        "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
+        "På A1-niveau studeres das først som en artikel af mellemkønnet.",
+        "das er ikke det samme som dass - das kan være en artikel eller et pronomen, dass betyder 'det'."
       ]
     }
   },
   {
     "de": "dass",
-    "lv": "Et",
+    "lv": "At",
     "level": "A1",
     "study": {
       "id": "a1-dass",
       "layout": "standardStudy",
-      "translation": "Et",
-      "explanation": "Juhatab sisse kõrvallause, mis väljendab fakti, mõtet või öeldut.",
+      "translation": "At",
+      "explanation": "Introducerer en hjælpesætning, der udtrykker en kendsgerning, tanke eller udsagn.",
       "examples": [
         {
           "de": "Ich weiß, dass du müde bist.",
-          "lv": "Ma tean, et sa oled väsinud."
+          "lv": "Jeg ved, du er træt."
         },
         {
           "de": "Er sagt, dass er kommt.",
-          "lv": "Ta ütleb, et ta tuleb."
+          "lv": "Han siger, at han vil komme."
         },
         {
           "de": "Ich glaube, dass das stimmt.",
-          "lv": "Ma arvan, et see on õige."
+          "lv": "Jeg tror, ​​det er rigtigt."
         }
       ],
       "comparison": [
         {
           "word": "dass",
-          "meaning": "Et",
-          "example": "Ich weiß, dass er kommt. – Ma tean, et ta tuleb."
+          "meaning": "At",
+          "example": "Ich weiß, dass er kommt. – Jeg ved, han kommer."
         },
         {
           "word": "weil",
-          "meaning": "Sest • Sellepärast et",
-          "example": "Ich bleibe zu Hause, weil es regnet. – Ma jään koju, sest sajab vihma."
+          "meaning": "Fordi • Fordi",
+          "example": "Ich bleibe zu Hause, weil es regnet. – Jeg bliver hjemme, fordi det regner."
         },
         {
           "word": "damit",
-          "meaning": "Et",
-          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Ma õpin saksa keelt, et saaksin Saksamaal töötada."
+          "meaning": "Til",
+          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Jeg lærer tysk, så jeg kan arbejde i Tyskland."
         },
         {
           "word": "ob",
-          "meaning": "Kas",
-          "example": "Ich weiß nicht, ob er kommt. – Ma ei tea, kas ta tuleb."
+          "meaning": "Eller",
+          "example": "Ich weiß nicht, ob er kommt. – Jeg ved ikke, om han kommer."
         }
       ],
       "tip": {
-        "text": "Atceries: ka → dass."
+        "text": "Husk: ka → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -4280,7 +3927,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "et"
+                "Jeg"
               ]
             }
           },
@@ -4292,7 +3939,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "et"
+                "Han"
               ]
             }
           },
@@ -4304,7 +3951,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "et"
+                "Jeg"
               ]
             }
           }
@@ -4321,7 +3968,7 @@ const A1_WORDS = [
                 "dass"
               ],
               "purple": [
-                "et"
+                "Ich"
               ]
             }
           },
@@ -4336,7 +3983,7 @@ const A1_WORDS = [
                 "weil"
               ],
               "purple": [
-                "sest"
+                "Ich"
               ]
             }
           },
@@ -4351,7 +3998,7 @@ const A1_WORDS = [
                 "damit"
               ],
               "purple": [
-                "et"
+                "Ich"
               ]
             }
           },
@@ -4366,7 +4013,7 @@ const A1_WORDS = [
                 "ob"
               ],
               "purple": [
-                "kas"
+                "Ich"
               ]
             }
           }
@@ -4377,38 +4024,22 @@ const A1_WORDS = [
               "dass"
             ],
             "purple": [
-              "Atceries"
+              "ka"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "dass"
-            ],
             "purple": [
+              "dass",
               "dass"
-            ],
-            "green": [
-              "dass"
-            ]
-          },
-          {
-            "red": [
-              "das"
-            ],
-            "yellow": [
-              "artikuls"
-            ],
-            "purple": [
-              "nejaukt"
             ]
           }
         ]
       },
       "important": [
-        "dass nozīmē “ka” un ievada palīgteikumu.",
-        "To nejaukt ar das, kas var būt artikuls vai “tas”."
+        "dass betyder \"det\" og introducerer en hjælpesætning.",
+        "For at skal ikke forveksles med das, som kan være en artikel eller 'det'."
       ]
     }
   },
@@ -4416,44 +4047,44 @@ const A1_WORDS = [
     "de": "Datum",
     "de_article": "das",
     "de_plural": "die Daten",
-    "lv": "Kuupäev",
+    "lv": "Datoen",
     "level": "A1"
   },
   {
     "de": "dein",
-    "lv": "Sinu",
+    "lv": "Dine",
     "level": "A1"
   },
   {
     "de": "denken",
-    "lv": "Mõtlema",
+    "lv": "At tænke",
     "level": "A1"
   },
   {
     "de": "der",
-    "lv": "Meessoo määrav artikkel",
+    "lv": "Den maskuline bestemte artikel",
     "level": "A1",
     "study": {
       "id": "a1-der",
       "layout": "standardStudy",
-      "translation": "Meessoo määrav artikkel",
-      "explanation": "Kasutatakse meessoost nimisõnade juures. Mõnes lauses võib “der” toimida ka asesõnana või siduva asesõnana.",
+      "translation": "Den maskuline bestemte artikel",
+      "explanation": "Brugt med maskuline navneord. I nogle sætninger kan \"der\" også fungere som et pronomen eller et relativt pronomen.",
       "examples": [
         {
           "de": "Der Mann ist hier.",
-          "lv": "Mees on siin."
+          "lv": "Manden er her."
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "Buss tuleb."
+          "lv": "Bussen kører."
         },
         {
           "de": "Der Lehrer spricht.",
-          "lv": "Õpetaja räägib."
+          "lv": "Læreren taler."
         }
       ],
       "tip": {
-        "text": "Atceries: vīriešu dzimte → der."
+        "text": "Husk: maskulin → passer."
       },
       "sectionAccents": {
         "examples": [
@@ -4494,72 +4125,63 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "der"
+              "Husk"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "der"
-            ],
             "purple": [
-              "līmenī"
-            ]
-          },
-          {
-            "red": [
-              "Vietniekvārda",
-              "Vietniekvārda"
+              "niveau"
             ]
           }
         ]
       },
       "important": [
-        "A1 līmenī der vispirms mācies kā vīriešu dzimtes artikulu.",
-        "Vietniekvārda un relatīvā lietojumi nāk vēlāk."
+        "På A1-niveau bør du først lære som en maskulin artikel.",
+        "Pronomen og relative anvendelser kommer senere."
       ]
     }
   },
   {
     "de": "deutsch",
-    "lv": "Saksa",
+    "lv": "Tysk",
     "level": "A1"
   },
   {
     "de": "Dezember",
     "de_article": "der",
-    "lv": "Detsember",
+    "lv": "December",
     "level": "A1"
   },
   {
     "de": "die",
-    "lv": "Naissoo määrav artikkel",
+    "lv": "Den feminine bestemte artikel",
     "level": "A1",
     "study": {
       "id": "a1-die",
       "layout": "standardStudy",
-      "translation": "Naissoo määrav artikkel",
-      "explanation": "Kasutatakse naissoost nimisõnade juures. Mõnes lauses võib “die” toimida ka asesõnana või siduva asesõnana.",
+      "translation": "Den feminine bestemte artikel",
+      "explanation": "Brugt med feminine navneord. I nogle sætninger kan \"dø\" også fungere som et pronomen eller et relativt pronomen.",
       "examples": [
         {
           "de": "Die Frau ist hier.",
-          "lv": "Naine on siin."
+          "lv": "Kvinden er her."
         },
         {
           "de": "Die Katze schläft.",
-          "lv": "Kass magab."
+          "lv": "Killingen sover."
         },
         {
           "de": "Die Lehrerin erklärt.",
-          "lv": "Naisõpetaja selgitab."
+          "lv": "Læreren forklarer."
         }
       ],
       "tip": {
-        "text": "Atceries: sieviešu dzimte → die."
+        "text": "Husk: feminin → dø."
       },
       "sectionAccents": {
         "examples": [
@@ -4612,38 +4234,25 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "die"
+              "Husk"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "die"
-            ],
             "purple": [
-              "līmenī"
-            ]
-          },
-          {
-            "blue": [
-              "die"
-            ],
-            "green": [
-              "Daudzskaitlī"
-            ],
-            "purple": [
-              "Daudzskaitlī"
+              "niveau",
+              "niveau"
             ]
           }
         ]
       },
       "important": [
-        "A1 līmenī die vispirms mācies kā sieviešu dzimtes artikulu.",
-        "Daudzskaitlī die lieto arī visām dzimtēm."
+        "På A1-niveau studeres die først som en feminin artikel.",
+        "Flertalsformen bruges også til alle køn."
       ]
     }
   },
@@ -4651,34 +4260,34 @@ const A1_WORDS = [
     "de": "Dienstag",
     "de_article": "der",
     "de_plural": "die Dienstage",
-    "lv": "Teisipäev",
+    "lv": "Tirsdag",
     "level": "A1"
   },
   {
     "de": "dieser",
-    "lv": "See",
+    "lv": "Denne her",
     "level": "A1",
     "study": {
       "id": "a1-dieser",
       "layout": "standardStudy",
-      "translation": "See",
-      "explanation": "Osutab lähedal olevale inimesele, asjale või loomale. Kasutatakse koos meessoost nimisõnaga.",
+      "translation": "Denne her",
+      "explanation": "Peger på en nærliggende person, ting eller dyr. Brugt sammen med et maskulint substantiv.",
       "examples": [
         {
           "de": "Dieser Mann ist nett.",
-          "lv": "See mees on kena."
+          "lv": "Denne mand er flink."
         },
         {
           "de": "Ich mag diesen Hund.",
-          "lv": "Mulle meeldib see koer."
+          "lv": "Jeg kan godt lide denne hund"
         },
         {
           "de": "Dieser Stift ist neu.",
-          "lv": "See pastakas on uus."
+          "lv": "Denne pen er ny."
         }
       ],
       "tip": {
-        "text": "Atceries: šis + vīriešu dzimte → dieser."
+        "text": "Husk: denne + maskulin → dieser."
       },
       "sectionAccents": {
         "examples": [
@@ -4690,7 +4299,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "see"
+                "Denne"
               ]
             }
           },
@@ -4702,7 +4311,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "see"
+                "lide"
               ]
             }
           },
@@ -4714,7 +4323,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "see"
+                "Denne"
               ]
             }
           }
@@ -4743,41 +4352,24 @@ const A1_WORDS = [
               "dieser"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "green": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "dieser"
-            ],
-            "green": [
-              "diese"
-            ],
-            "yellow": [
-              "dieses"
-            ],
             "purple": [
               "dieser"
-            ]
-          },
-          {
-            "red": [
-              "diese"
-            ],
-            "green": [
-              "Daudzskaitlī"
             ]
           }
         ]
       },
       "important": [
-        "dieser, diese un dieses mainās pēc dzimtes.",
-        "Daudzskaitlī forma atkal ir diese."
+        "dieser, diese og dieser skifter efter køn.",
+        "Flertalsformen er igen diese."
       ]
     }
   },
@@ -4785,107 +4377,107 @@ const A1_WORDS = [
     "de": "Ding",
     "de_article": "das",
     "de_plural": "die Dinge",
-    "lv": "Asi",
+    "lv": "Ting",
     "level": "A1"
   },
   {
     "de": "Donnerstag",
     "de_article": "der",
     "de_plural": "die Donnerstage",
-    "lv": "Neljapäev",
+    "lv": "Torsdag",
     "level": "A1"
   },
   {
     "de": "dort",
-    "lv": "Seal",
+    "lv": "Der",
     "level": "A1"
   },
   {
     "de": "drei",
-    "lv": "Kolm",
+    "lv": "Tre",
     "level": "A1"
   },
   {
     "de": "dreihundert",
-    "lv": "Kolmsada",
+    "lv": "Tre hundrede",
     "level": "A1"
   },
   {
     "de": "dreimal",
-    "lv": "Kolm korda",
+    "lv": "Tre gange",
     "level": "A1"
   },
   {
     "de": "dreißig",
-    "lv": "Kolmkümmend",
+    "lv": "Tredive",
     "level": "A1"
   },
   {
     "de": "dreizehn",
-    "lv": "Kolmteist",
+    "lv": "Tretten",
     "level": "A1"
   },
   {
     "de": "dritte",
-    "lv": "Kolmas",
+    "lv": "Den tredje",
     "level": "A1"
   },
   {
     "de": "du",
-    "lv": "Sina",
+    "lv": "Du",
     "level": "A1"
   },
   {
     "de": "dürfen",
-    "lv": "Tohtima",
+    "lv": "At få lov",
     "level": "A1"
   },
   {
     "de": "Dusche",
     "de_article": "die",
     "de_plural": "die Duschen",
-    "lv": "Dušš",
+    "lv": "Brusebad",
     "level": "A1"
   },
   {
     "de": "Ecke",
     "de_article": "die",
     "de_plural": "die Ecken",
-    "lv": "Nurk",
+    "lv": "Hjørnet",
     "level": "A1"
   },
   {
     "de": "Ei",
     "de_article": "das",
     "de_plural": "die Eier",
-    "lv": "Muna",
+    "lv": "Et æg",
     "level": "A1"
   },
   {
     "de": "ein",
-    "lv": "Umbmäärane artikkel • Üks • Mingi",
+    "lv": "Ubestemt artikel • En • Nogen",
     "level": "A1",
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "Umbmäärane artikkel • Üks • Mingi",
-      "explanation": "Kasutatakse koos meessoost nimisõnaga. Osutab ühele kindlale asjale või inimesele mitme võimaluse hulgast.",
+      "translation": "Ubestemt artikel • En • Nogen",
+      "explanation": "Brugt sammen med et maskulint substantiv. Peger på én ting eller person fra flere muligheder.",
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
-          "lv": "Üks mees ootab väljas."
+          "lv": "En mand venter udenfor."
         },
         {
           "de": "Ich habe ein Buch.",
-          "lv": "Mul on üks raamat."
+          "lv": "Jeg har én bog."
         },
         {
           "de": "Er sucht einen Stift.",
-          "lv": "Ta otsib mingit pastakat."
+          "lv": "Han leder efter en kuglepen."
         }
       ],
       "tip": {
-        "text": "Atceries: nekonkrēts viens/kāds → ein."
+        "text": "Husk: uspecifik en/nogen → ein."
       },
       "sectionAccents": {
         "examples": [
@@ -4897,7 +4489,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "üks"
+                "man"
               ]
             }
           },
@@ -4909,7 +4501,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "üks"
+                "Jeg"
               ]
             }
           },
@@ -4921,7 +4513,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "otsib"
+                "Han"
               ]
             }
           }
@@ -4958,11 +4550,11 @@ const A1_WORDS = [
               "ein"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ],
             "green": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
@@ -4982,111 +4574,98 @@ const A1_WORDS = [
               "das"
             ],
             "green": [
-              "lieta"
+              "Hvis"
             ]
           }
         ]
       },
       "important": [
-        "ein nav noteiktais artikuls.",
-        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das."
+        "ein er ikke en bestemt artikel.",
+        "Hvis sagen allerede er konkret kendt, er der ofte behov for der, die eller das."
       ]
     }
   },
   {
     "de": "einfach",
-    "lv": "Lihtne",
+    "lv": "Enkel",
     "level": "A1"
   },
   {
     "de": "eins",
-    "lv": "Üks",
+    "lv": "En",
     "level": "A1"
   },
   {
     "de": "Eis",
     "de_article": "das",
-    "lv": "Jää • Jäätis",
+    "lv": "Is • Is",
     "level": "A1",
     "study": {
       "id": "a1-eis",
       "layout": "standardStudy",
-      "translation": "Jää • Jäätis",
+      "translation": "Is • Is",
       "explanation": [
-        "Põhiidee: das Eis võib tähendada nii jääd kui ka jäätist.",
-        "Kui jutt on külmast külmunud veest, öeldakse eesti keeles tavaliselt jää.",
-        "Kui jutt on toidust või magustoidust, tähendab das Eis igapäevaelus väga sageli jäätis.",
-        "Kontekst ütleb tavaliselt kohe, milline tähendus on mõeldud.",
-        "A1 tasemel on kõige tähtsamad fraasid ein Eis essen ja Eis im Glas."
+        "Hovedidé: das Eis kan betyde både is og is.",
+        "Når det kommer til koldt frosset vand, siger lettisk normalt is.",
+        "Når det kommer til mad eller dessert, betyder das Eis meget ofte is i hverdagen.",
+        "Konteksten fortæller dig som regel med det samme, hvilken betydning der er tilsigtet.",
+        "På A1-niveau er de vigtigste sætninger ein Eis essen og Eis im Glas."
       ],
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "Ma söön jäätist."
+          "lv": "Jeg spiser is"
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "Kas sa tahad jäätist?"
+          "lv": "Vil du have is"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
-          "lv": "Talvel on järvel jää."
+          "lv": "Om vinteren er der is på søen."
         },
         {
           "de": "Das Eis ist kalt.",
-          "lv": "Jää on külm."
+          "lv": "Isen er kold."
         },
         {
           "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "Ma võtan jäätist šokolaadiga."
+          "lv": "Jeg skal have chokoladeis."
         }
       ],
       "comparison": [
         {
           "word": "das Eis",
-          "meaning": "Jää / jäätis",
-          "example": "Ich esse ein Eis. = Ma söön jäätist."
+          "meaning": "Is / is",
+          "example": "Ich esse ein Eis. = Jeg spiser is."
         },
         {
           "word": "der Schnee",
-          "meaning": "Lumi",
-          "example": "Der Schnee ist weiß. = Lumi on valge."
+          "meaning": "Det vil sne",
+          "example": "Der Schnee ist weiß. = Sneen er hvid."
         },
         {
           "word": "kalt",
-          "meaning": "Külm",
-          "example": "Das Wasser ist kalt. = Vesi on külm."
+          "meaning": "Kold",
+          "example": "Das Wasser ist kalt. = Vandet er koldt."
         },
         {
           "word": "das Dessert",
-          "meaning": "Magustoit",
-          "example": "Eis ist ein Dessert. = Jäätis on magustoit."
+          "meaning": "Dessert",
+          "example": "Eis ist ein Dessert. = Is er en dessert."
         }
       ],
       "tip": {
-        "text": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus."
+        "text": "Husk: mad → is; vinter/vand → is."
       },
       "important": [
-        "Latviski ledus un saldējums ir divi dažādi vārdi, bet vāciski abiem bieži lieto das Eis.",
-        "Konteksts ir galvenais: ēdiens nozīmē saldējumu, auksta virsma vai ūdens nozīmē ledu."
+        "på dansk is og is er to forskellige ord, men på tysk bruger man ofte das Eis om begge.",
+        "Kontekst er nøglen: mad betyder is, kold overflade eller vand betyder is."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Eis",
-            "Eis"
-          ],
           "purple": [
-            "jääd",
-            "jää",
-            "jäätis"
-          ],
-          "green": [
-            "toidust",
-            "magustoidust"
-          ],
-          "yellow": [
-            "Põhiidee"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -5098,7 +4677,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jäätist"
+                "Jeg"
               ]
             }
           },
@@ -5110,7 +4689,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jäätist"
+                "Vil"
               ]
             }
           },
@@ -5122,10 +4701,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jää"
-              ],
-              "green": [
-                "järvel"
+                "vinteren"
               ]
             }
           },
@@ -5137,7 +4713,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jää"
+                "Isen"
               ]
             }
           },
@@ -5149,10 +4725,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jäätist"
-              ],
-              "yellow": [
-                "šokolaadiga"
+                "Jeg"
               ]
             }
           }
@@ -5164,18 +4737,13 @@ const A1_WORDS = [
                 "das Eis"
               ]
             },
-            "meaning": {
-              "purple": [
-                "jää",
-                "jäätis"
-              ]
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "Eis"
               ],
               "purple": [
-                "jäätist"
+                "Ich"
               ]
             }
           },
@@ -5187,13 +4755,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "lumi"
+                "Det"
               ]
             },
             "example": {
               "green": [
                 "Schnee",
-                "Lumi"
+                "Der"
               ]
             }
           },
@@ -5205,13 +4773,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "külm"
+                "Kold"
               ]
             },
             "example": {
               "yellow": [
                 "kalt",
-                "külm"
+                "Das"
               ]
             }
           },
@@ -5223,7 +4791,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "magustoit"
+                "Dessert"
               ]
             },
             "example": {
@@ -5231,46 +4799,29 @@ const A1_WORDS = [
                 "Eis"
               ],
               "red": [
-                "magustoit"
+                "Dessert"
               ]
             }
           }
         ],
         "tip": {
           "left": {
-            "blue": [
-              "Atceries"
-            ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ],
             "green": [
-              "Atceries",
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "das Eis"
-            ],
             "purple": [
-              "Latviski",
-              "Latviski"
-            ]
-          },
-          {
-            "purple": [
-              "Konteksts",
-              "Konteksts"
-            ],
-            "green": [
-              "Konteksts",
-              "Konteksts",
-              "Konteksts"
+              "dansk",
+              "dansk"
             ]
           }
         ]
@@ -5279,98 +4830,98 @@ const A1_WORDS = [
   },
   {
     "de": "elf",
-    "lv": "Üksteist",
+    "lv": "Elleve",
     "level": "A1"
   },
   {
     "de": "E-Mail",
     "de_article": "die",
     "de_plural": "die E-Mails",
-    "lv": "E-post",
+    "lv": "E-mail",
     "level": "A1"
   },
   {
     "de": "Eltern",
     "de_article": "die",
-    "lv": "Vanemad",
+    "lv": "Forældre",
     "level": "A1"
   },
   {
     "de": "Ende",
     "de_article": "das",
-    "lv": "Lõpp",
+    "lv": "Slutningen",
     "level": "A1"
   },
   {
     "de": "er",
-    "lv": "Tema",
+    "lv": "Han",
     "level": "A1"
   },
   {
     "de": "Erbse",
     "de_article": "die",
     "de_plural": "die Erbsen",
-    "lv": "Hernes",
+    "lv": "En ært",
     "level": "A1"
   },
   {
     "de": "Erde",
     "de_article": "die",
     "de_plural": "die Erden",
-    "lv": "Maa",
+    "lv": "Jord",
     "level": "A1"
   },
   {
     "de": "erst",
-    "lv": "Kõigepealt • Alles",
+    "lv": "Først • Kun",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "Kõigepealt • Alles",
-      "explanation": "“erst” kasutatakse järjekorra näitamiseks (kõigepealt) või selle rõhutamiseks, et midagi toimub hiljem kui oodatud või väiksemas mahus (alles).",
+      "translation": "Først • Kun",
+      "explanation": "\"erst\" bruges til at angive sekvens (først) eller for at understrege, at noget sker senere end forventet eller i mindre omfang (kun).",
       "examples": [
         {
           "de": "Erst trinken, dann fahren.",
-          "lv": "Kõigepealt juua, siis sõita."
+          "lv": "Drik først, kør så."
         },
         {
           "de": "Ich komme erst morgen.",
-          "lv": "Ma tulen alles homme."
+          "lv": "Jeg kommer først i morgen."
         },
         {
           "de": "Er ist erst 18 Jahre alt.",
-          "lv": "Ta on alles 18 aastat vana."
+          "lv": "Han er kun 18 år gammel."
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "Me sööme alles kaheksa ajal."
+          "lv": "Vi spiser først klokken otte."
         }
       ],
       "comparison": [
         {
           "word": "erst",
-          "meaning": "Kõigepealt • Alles",
-          "example": "Erst arbeiten, dann Pause. = Kõigepealt töötada, siis paus."
+          "meaning": "Først • Kun",
+          "example": "Erst arbeiten, dann Pause. = Arbejd først, så pause."
         },
         {
           "word": "zuerst",
-          "meaning": "Kõigepealt • Alguses",
-          "example": "Zuerst frühstücken wir. = Kõigepealt me sööme hommikust."
+          "meaning": "Først • I begyndelsen",
+          "example": "Zuerst frühstücken wir. = Først spiser vi morgenmad."
         },
         {
           "word": "nur",
-          "meaning": "Ainult",
-          "example": "Ich habe nur 5 Euro. = Mul on ainult 5 eurot."
+          "meaning": "Kun",
+          "example": "Ich habe nur 5 Euro. = Jeg har kun 5 euro."
         },
         {
           "word": "dann",
-          "meaning": "Siis",
-          "example": "Dann gehen wir nach Hause. = Siis me läheme koju."
+          "meaning": "Så",
+          "example": "Dann gehen wir nach Hause. = Så går vi hjem."
         }
       ],
       "tip": {
-        "text": "Atceries: laiks/skaits → erst; daudzums → nur."
+        "text": "Husk: laiks/skaits → erst; daudzums → nur."
       },
       "accents": {
         "blue": [
@@ -5477,95 +5028,75 @@ const A1_WORDS = [
               "nur"
             ],
             "green": [
-              "Atceries",
-              "Atceries"
+              "laiks",
+              "skaits"
             ],
             "purple": [
-              "Atceries"
+              "daudzums"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
             "purple": [
-              "erst"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ],
-            "green": [
               "erst",
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "purple": [
               "erst"
             ]
           }
         ]
       },
       "important": [
-        "erst un nur abi var skanēt kā “tikai”, bet nav viens un tas pats.",
-        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu."
+        "erst og nur kan begge lyde som \"kun\", men er ikke ens.",
+        "først taler ofte om tid, sekvens eller endnu at nå et punkt; nur begrænser mængden."
       ]
     }
   },
   {
     "de": "erste",
-    "lv": "Esimene",
+    "lv": "Den første",
     "level": "A1"
   },
   {
     "de": "es",
-    "lv": "See • Ta • Umbisikuline vorm",
+    "lv": "Det • Det • Upersonlig form",
     "level": "A1",
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "See • Ta • Umbisikuline vorm",
-      "explanation": "Saksa keeles ei kasutata “es” enda kohta rääkimiseks. Seda kasutatakse, et tähistada: see, ta või umbisikulist vormi (ilm, aeg, mitmesugused umbisikulised laused).",
+      "translation": "Det • Det • Upersonlig form",
+      "explanation": "Tysk \"jeg\" er ikke vant til at tale om sig selv. Det bruges til at betegne: det, det eller en upersonlig form (vejr, tid, forskellige upersonlige sætninger).",
       "examples": [
         {
           "de": "Ich lerne Deutsch.",
-          "lv": "Ma õpin saksa keelt."
+          "lv": "Jeg lærer tysk."
         },
         {
           "de": "Er ist müde.",
-          "lv": "Ta on väsinud."
+          "lv": "Han er træt."
         },
         {
           "de": "Sie arbeitet hier.",
-          "lv": "Ta töötab siin."
+          "lv": "Hun arbejder her."
         },
         {
           "de": "Das ist mein Buch.",
-          "lv": "See on minu raamat."
+          "lv": "Det er min bog."
         },
         {
           "de": "Es regnet.",
-          "lv": "Sajab vihma."
+          "lv": "Det regner"
         },
         {
           "de": "Es schneit.",
-          "lv": "Sajab lund."
+          "lv": "Det sner"
         }
       ],
       "info": [
-        "Eesti “mina” = saksa “ich”",
-        "Saksa “es” = see; ta; umbisikuline vorm"
+        "Latvian \"es\" = German \"ich\"",
+        "German \"I\" = it; so; impersonal form"
       ],
       "tip": {
-        "text": "Atceries: latviešu “es” → ich, nevis vācu es."
+        "text": "Husk: lettisk \"es\" → ich, ikke tysk es."
       },
       "sectionAccents": {
         "examples": [
@@ -5653,33 +5184,15 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "es"
-            ],
-            "red": [
-              "Vācu"
-            ],
             "purple": [
-              "es"
-            ]
-          },
-          {
-            "red": [
-              "ich"
-            ],
-            "blue": [
-              "es"
-            ],
-            "purple": [
-              "Latviešu",
-              "Latviešu"
+              "Det"
             ]
           }
         ]
       },
       "important": [
-        "Vācu es nav latviešu “es”.",
-        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots."
+        "Det tyske jeg er ikke det lettiske jeg.",
+        "Dansk \"I\" på tysk is ich; Tysk es betyder ofte det/det eller er ikke oversat."
       ]
     }
   },
@@ -5687,91 +5200,81 @@ const A1_WORDS = [
     "de": "Esslöffel",
     "de_article": "der",
     "de_plural": "die Esslöffel",
-    "lv": "Supilusikas",
+    "lv": "Spiseske",
     "level": "A1"
   },
   {
     "de": "etwas",
-    "lv": "Midagi • Veidi",
+    "lv": "Noget • Lidt",
     "level": "A1",
     "study": {
       "id": "a1-etwas",
       "layout": "standardStudy",
-      "translation": "Midagi • Veidi",
+      "translation": "Noget • Lidt",
       "explanation": [
-        "Põhiidee: etwas tähendab olenevalt kontekstist midagi või natuke.",
-        "Kui etwas asendab tundmatut asja, öeldakse eesti keeles tavaliselt midagi.",
-        "Kui etwas seisab omadussõna või hulga juures, tähendab see sageli natuke.",
-        "Vestlustes on etwas väga sage ja neutraalne A1 sõna.",
-        "Kõige tähtsam on eristada: etwas kaufen = midagi ostma, etwas müde = veidi väsinud."
+        "Hovedidé: etwas betyder noget eller lidt afhængigt af konteksten.",
+        "Hvis etwas erstatter en ukendt ting, siger lettisk normalt noget.",
+        "Når etwas står foran et adjektiv eller mængde, betyder det ofte lidt.",
+        "Etwas er et meget almindeligt og neutralt A1-ord i samtale.",
+        "Det vigtigste er at skelne: etwas kaufen = at købe noget, etwas müde = lidt træt."
       ],
       "examples": [
         {
           "de": "Ich möchte etwas trinken.",
-          "lv": "Ma sooviksin midagi juua."
+          "lv": "Jeg vil gerne have noget at drikke."
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "Kas sul on natuke aega?"
+          "lv": "Har du lidt tid"
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "Ma olen veidi väsinud."
+          "lv": "Jeg er lidt træt"
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "Mul on sulle midagi."
+          "lv": "Jeg har noget til dig"
         },
         {
           "de": "Das ist etwas teuer.",
-          "lv": "See on veidi kallis."
+          "lv": "Det er lidt dyrt."
         }
       ],
       "comparison": [
         {
           "word": "etwas",
-          "meaning": "Midagi / veidi",
-          "example": "Ich brauche etwas. = Mul on midagi vaja."
+          "meaning": "Noget/lidt",
+          "example": "Ich brauche etwas. = Jeg har brug for noget."
         },
         {
           "word": "was",
-          "meaning": "Midagi (kõnekeeles)",
-          "example": "Willst du was trinken? = Kas tahad midagi juua?"
+          "meaning": "Noget (i daglig tale)",
+          "example": "Willst du was trinken? = Vil du have noget at drikke?"
         },
         {
           "word": "ein bisschen",
-          "meaning": "Natuke",
-          "example": "Ich bin ein bisschen müde. = Ma olen pisut väsinud."
+          "meaning": "Lidt",
+          "example": "Ich bin ein bisschen müde. = Jeg er lidt træt."
         },
         {
           "word": "nichts",
-          "meaning": "Mitte midagi",
-          "example": "Ich brauche nichts. = Mul ei ole midagi vaja."
+          "meaning": "Intet",
+          "example": "Ich brauche nichts. = Jeg har ikke brug for noget."
         }
       ],
       "tip": {
-        "text": "Atceries: lieta → kaut kas; pakāpe → nedaudz."
+        "text": "Husk: ting → noget; grad → lidt."
       },
       "important": [
-        "etwas nav tas pats, kas nichts: etwas nozīmē, ka kaut kas ir, bet nichts nozīmē nekas.",
-        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert."
+        "etwas er ikke det samme som nichts: etwas betyder noget, men nichts betyder ingenting.",
+        "på dansk lyder nogle gange bedre end noget, for eksempel: etwas trinken = at drikke noget."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "etwas"
-          ],
           "purple": [
-            "midagi",
-            "veidi",
-            "midagi"
-          ],
-          "green": [
-            "kontekstist"
-          ],
-          "yellow": [
-            "asja",
-            "hulga"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -5783,7 +5286,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "midagi"
+                "Jeg"
               ]
             }
           },
@@ -5795,10 +5298,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
-              ],
-              "yellow": [
-                "aega"
+                "Har"
               ]
             }
           },
@@ -5810,7 +5310,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veidi"
+                "Jeg"
               ]
             }
           },
@@ -5822,7 +5322,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "midagi"
+                "Jeg"
               ]
             }
           },
@@ -5834,7 +5334,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veidi"
+                "Det"
               ]
             }
           }
@@ -5848,8 +5348,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "midagi",
-                "veidi"
+                "Noget/lidt",
+                "Noget/lidt"
               ]
             },
             "example": {
@@ -5857,7 +5357,7 @@ const A1_WORDS = [
                 "etwas"
               ],
               "purple": [
-                "midagi"
+                "Ich"
               ]
             }
           },
@@ -5869,7 +5369,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "midagi"
+                "Noget"
               ]
             },
             "example": {
@@ -5877,7 +5377,7 @@ const A1_WORDS = [
                 "was"
               ],
               "purple": [
-                "midagi"
+                "Willst"
               ]
             }
           },
@@ -5889,7 +5389,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "natuke"
+                "Lidt"
               ]
             },
             "example": {
@@ -5907,54 +5407,37 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mitte midagi"
+                "Intet"
               ]
             },
             "example": {
               "red": [
                 "nichts",
-                "midagi"
+                "Ich"
               ]
             }
           }
         ],
         "tip": {
           "left": {
-            "blue": [
-              "Atceries"
-            ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ],
             "yellow": [
-              "Atceries"
+              "Husk"
             ],
             "green": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "etwas"
-            ],
             "purple": [
+              "etwas",
+              "etwas",
               "etwas"
-            ],
-            "red": [
-              "nichts",
-              "etwas"
-            ]
-          },
-          {
-            "blue": [
-              "etwas"
-            ],
-            "purple": [
-              "Latviski",
-              "Latviski"
             ]
           }
         ]
@@ -5963,61 +5446,61 @@ const A1_WORDS = [
   },
   {
     "de": "euch",
-    "lv": "Teid • Teile",
+    "lv": "Dig • Dig",
     "level": "A1",
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "Teid • Teile",
-      "explanation": "“euch” on 2. isiku mitmuse asesõna. Seda kasutatakse nii otsesihitisena (Akkusativ) — “teid”, kui ka kaudsihitisena (Dativ) — “teile”.",
+      "translation": "Dig • Dig",
+      "explanation": "\"euch\" er et 2. person flertalspronomen. Det bruges både som et direkte supplement (hvor?) - \"dig\" og som et indirekte supplement (til hvem?) - \"til dig\".",
       "examples": [
         {
           "de": "Ich sehe euch.",
-          "lv": "Ma näen teid."
+          "lv": "Jeg ser dig"
         },
         {
           "de": "Ich helfe euch.",
-          "lv": "Ma aitan teid."
+          "lv": "Jeg hjælper dig"
         },
         {
           "de": "Ich gebe euch das Buch.",
-          "lv": "Ma annan teile raamatu."
+          "lv": "Jeg giver dig en bog"
         },
         {
           "de": "Ich danke euch.",
-          "lv": "Ma tänan teid."
+          "lv": "Jeg takker dig"
         },
         {
           "de": "Ihr erinnert euch.",
-          "lv": "Teie mäletate."
+          "lv": "Du husker"
         }
       ],
       "comparison": [
         {
           "word": "ihr",
-          "meaning": "Teie",
-          "example": "Ihr seid freundlich. = Teie olete sõbralikud."
+          "meaning": "Du",
+          "example": "Ihr seid freundlich. = Du er venlig."
         },
         {
           "word": "euch",
-          "meaning": "Teid / teile",
-          "example": "Ich helfe euch. = Ma aitan teid."
+          "meaning": "Dig/til dig",
+          "example": "Ich helfe euch. = Jeg hjælper dig."
         },
         {
           "word": "euer",
-          "meaning": "Teie",
-          "example": "Das ist euer Haus. = See on teie maja."
+          "meaning": "Dine",
+          "example": "Das ist euer Haus. = Det er dit hus."
         }
       ],
-      "tip": {
-        "text": "“euch” atbild uz jautājumu “kam?” vai ir tiešais papildinājums teikumos ar “jūs”.",
-        "example": "Es jums palīdzu. = Ich helfe euch. Es redzu jūs. = Ich sehe euch. Es stāstu jums. = Ich erzähle euch."
-      },
       "info": [
-        "ihr = teie (lause aluse vorm)",
-        "euch = teid (Akkusativ) / teile (Dativ)",
-        "euer = teie (omastav vorm)"
+        "ihr = you (subject form of the sentence)",
+        "euch = you (where? form) / you (whom? form)",
+        "euer = your (possessive form)"
       ],
+      "tip": {
+        "text": "\"euch\" billede til spørgsmålet \"til hvem?\" eller er det direkte komplement i sætninger med \"dig\".",
+        "example": "Jeg hjælper dig. = Ich helfe euch. jeg ser dig = Ich sehe euch. Jeg fortæller dig. = Ich erzähle euch."
+      },
       "accents": {
         "blue": [
           "ihr"
@@ -6033,78 +5516,78 @@ const A1_WORDS = [
   },
   {
     "de": "euer",
-    "lv": "Teie",
+    "lv": "Dine",
     "level": "A1"
   },
   {
     "de": "fahren",
-    "lv": "Sõitma • Vedama • Ära viima",
+    "lv": "Kør • Bly • Take away",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Sõitma • Vedama • Ära viima",
+      "translation": "Kør • Bly • Take away",
       "explanation": [
-        "Põhiidee: fahren tähendab sõidukiga sõitma ja mõnes lauses ka kedagi sõidutama või ära viima.",
-        "Fahren kasutatakse, kui liikumine toimub autoga, bussiga, rongiga, jalgrattaga või muu sõidukiga.",
-        "Kui lauses on isik objektina, võib fahren tähendada sõidutama või ära viima.",
-        "Kui liikumine toimub jalgsi, kasutatakse tavaliselt gehen või laufen."
+        "Hovedidé: fahren betyder at køre et køretøj og i nogle sætninger også at tage eller tage nogen.",
+        "Fahren bruges, når du rejser med bil, bus, tog, cykel eller andet køretøj.",
+        "Når sætningen har en person som objekt, kan fahren betyde at føre eller tage væk.",
+        "Hvis bevægelsen er til fods, bruges som regel gehen eller laufen."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Ma sõidan Berliini."
+          "lv": "Jeg skal til Berlin."
         },
         {
           "de": "Ich fahre mit dem Auto.",
-          "lv": "Ma sõidan autoga."
+          "lv": "Jeg kører bil."
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Ma viin oma tütre kooli."
+          "lv": "Jeg tager min datter med i skole."
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "Ma viin sind koju."
+          "lv": "Jeg tager dig hjem"
         },
         {
           "de": "Wir fahren morgen nach München.",
-          "lv": "Me sõidame homme Münchenisse."
+          "lv": "Vi skal til München i morgen."
         }
       ],
       "comparison": [
         {
           "word": "fahren",
-          "meaning": "Sõidukiga sõitma",
+          "meaning": "Kør transporten",
           "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "gehen",
-          "meaning": "Jalgsi minema",
+          "meaning": "Gå til fods",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "laufen",
-          "meaning": "Jooksma / käima",
-          "example": "Er läuft schnell."
+          "meaning": "Løb / gå",
+          "example": "Er läuft hurtigt."
         },
         {
           "word": "bringen",
-          "meaning": "Tooma / kohale toimetama",
+          "meaning": "Medbring/lever",
           "example": "Ich bringe das Buch."
         },
         {
           "word": "mitnehmen",
-          "meaning": "Kaasa võtma",
+          "meaning": "Tag med dig",
           "example": "Ich nehme dich mit."
         }
       ],
       "tip": {
-        "text": "Atceries: transportlīdzeklis → fahren; kājām → gehen."
+        "text": "Husk: køretøj → fahren; til fods → gå."
       },
       "important": {
-        "text": "Fahren ≠ ainult “sõitma”",
-        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
+        "text": "Fahren ≠ tikai “braukt”",
+        "example": "På tysk betyder det samme verbum ofte: at køre • at køre • at tage væk afhængigt af sammenhængen."
       },
       "accents": {
         "blue": [
@@ -6112,19 +5595,19 @@ const A1_WORDS = [
           "fahre"
         ],
         "purple": [
-          "sõitma",
-          "sõidan",
-          "viima",
-          "viin",
-          "ära viima"
+          "braukt",
+          "braucu",
+          "vest",
+          "vedu",
+          "aizvest"
         ],
         "green": [
-          "transporti",
-          "transpordivahendit",
+          "transportu",
+          "vehicle",
           "auto",
-          "bussi",
-          "rongiga",
-          "jalgratast"
+          "autobusu",
+          "vilcienu",
+          "bicycle"
         ],
         "yellow": [
           "gehen",
@@ -6137,24 +5620,10 @@ const A1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "fahren"
-          ],
           "purple": [
-            "sõitma",
-            "viima",
-            "ära viima"
-          ],
-          "green": [
-            "autoga",
-            "bussiga",
-            "rongiga",
-            "jalgrattaga",
-            "Põhiidee"
-          ],
-          "yellow": [
-            "gehen",
-            "laufen"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -6166,10 +5635,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sõidan"
-              ],
-              "green": [
-                "Berliini"
+                "Jeg"
               ]
             }
           },
@@ -6184,10 +5650,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sõidan"
-              ],
-              "green": [
-                "autoga"
+                "Jeg"
               ]
             }
           },
@@ -6203,11 +5666,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viin"
-              ],
-              "green": [
-                "tütre",
-                "kooli"
+                "Jeg"
               ]
             }
           },
@@ -6223,11 +5682,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viin"
-              ],
-              "green": [
-                "sind",
-                "viin"
+                "Jeg"
               ]
             }
           },
@@ -6242,10 +5697,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sõidame"
-              ],
-              "green": [
-                "Münchenisse"
+                "skal"
               ]
             }
           }
@@ -6259,7 +5711,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sõidukiga"
+                "transport"
               ]
             },
             "example": {
@@ -6276,7 +5728,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jalgsi minema"
+                "til"
               ]
             },
             "example": {
@@ -6293,8 +5745,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jooksma",
-                "jooksma"
+                "Løb",
+                "Løb"
               ]
             },
             "example": {
@@ -6311,8 +5763,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tooma",
-                "kohale toimetama"
+                "Bring",
+                "Bring"
               ]
             },
             "example": {
@@ -6329,7 +5781,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kaasa võtma"
+                "Tag"
               ]
             },
             "example": {
@@ -6346,11 +5798,11 @@ const A1_WORDS = [
               "fahren"
             ],
             "yellow": [
-              "gehen"
+              "Husk"
             ],
             "green": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
@@ -6361,7 +5813,7 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "sõitma"
+                "braukt"
               ]
             },
             "example": {
@@ -6369,9 +5821,9 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "sõitma",
-                "Fahren",
-                "Fahren"
+                "braukt",
+                "fahren",
+                "fahren"
               ]
             }
           }
@@ -6381,76 +5833,76 @@ const A1_WORDS = [
   },
   {
     "de": "falsch",
-    "lv": "Vale",
+    "lv": "Ukorrekt",
     "level": "A1"
   },
   {
     "de": "Familie",
     "de_article": "die",
     "de_plural": "die Familien",
-    "lv": "Perekond",
+    "lv": "Familie",
     "level": "A1"
   },
   {
     "de": "Nachname",
     "de_article": "der",
     "de_plural": "die Nachnamen",
-    "lv": "Perekonnanimi",
+    "lv": "Efternavn",
     "level": "A1"
   },
   {
     "de": "Farbe",
     "de_article": "die",
     "de_plural": "die Farben",
-    "lv": "Värv",
+    "lv": "Farve",
     "level": "A1"
   },
   {
     "de": "fast",
-    "lv": "Peaaegu",
+    "lv": "Næsten",
     "level": "A1"
   },
   {
     "de": "Februar",
     "de_article": "der",
-    "lv": "Veebruar",
+    "lv": "Februar",
     "level": "A1"
   },
   {
     "de": "Fehler",
     "de_article": "der",
     "de_plural": "die Fehler",
-    "lv": "Viga",
+    "lv": "Fejl",
     "level": "A1"
   },
   {
     "de": "Fenster",
     "de_article": "das",
     "de_plural": "die Fenster",
-    "lv": "Aken",
+    "lv": "Vindue",
     "level": "A1"
   },
   {
     "de": "Wochenende",
     "de_article": "das",
-    "lv": "Nädalavahetus",
+    "lv": "Weekenden",
     "level": "A1"
   },
   {
     "de": "Fernseher",
     "de_article": "der",
     "de_plural": "die Fernseher",
-    "lv": "Teler",
+    "lv": "Television",
     "level": "A1"
   },
   {
     "de": "fertig",
-    "lv": "Valmis",
+    "lv": "Parat",
     "level": "A1"
   },
   {
     "de": "fett",
-    "lv": "Rasvane",
+    "lv": "Fedt",
     "level": "A1"
   },
   {
@@ -6464,84 +5916,75 @@ const A1_WORDS = [
     "de": "Filzstift",
     "de_article": "der",
     "de_plural": "die Filzstifte",
-    "lv": "Viltpliiats",
+    "lv": "Filtpen",
     "level": "A1"
   },
   {
     "de": "finden",
-    "lv": "Leidma • Arvama",
+    "lv": "Find • Overvej",
     "level": "A1",
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "Leidma • Arvama",
+      "translation": "Find • Overvej",
       "explanation": [
-        "Põhiidee: finden tähendab kõige sagedamini leidma.",
-        "Vestlustes tähendab finden väga sageli ka arvamist või millegi kohta mõtlemist.",
-        "Kui jutt on kaotatud asjast, tõlgi kui leidma.",
-        "Kui jutt on arvamusest, tõlgi kui arvama või tunduma."
+        "Hovedidé: finden betyder oftest at finde.",
+        "I samtale betyder finden meget ofte også at overveje eller tænke over noget.",
+        "Hvis det handler om en tabt ting, oversættes det til at finde.",
+        "Hvis det handler om en mening, oversættes det til at tænke eller synes."
       ],
       "examples": [
         {
           "de": "Ich finde meinen Schlüssel nicht.",
-          "lv": "Ma ei leia oma võtit."
+          "lv": "Jeg kan ikke finde min nøgle"
         },
         {
           "de": "Hast du dein Handy gefunden?",
-          "lv": "Kas sa leidsid oma telefoni?"
+          "lv": "Fandt du din telefon"
         },
         {
           "de": "Ich finde das gut.",
-          "lv": "Minu meelest on see hea."
+          "lv": "Det forekommer mig godt."
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "Kuidas sulle film tundub?"
+          "lv": "Hvad synes du om filmen?"
         }
       ],
       "comparison": [
         {
           "word": "finden",
-          "meaning": "Leidma / arvama",
-          "example": "Ich finde das gut. = Minu meelest on see hea."
+          "meaning": "Find/overvej",
+          "example": "Ich finde das gut. = Det forekommer mig fint."
         },
         {
           "word": "suchen",
-          "meaning": "Otsima",
-          "example": "Ich suche den Schlüssel. = Ma otsin võtit."
+          "meaning": "At søge",
+          "example": "Ich suche den Schlüssel. = Jeg leder efter nøglen."
         },
         {
           "word": "denken",
-          "meaning": "Mõtlema",
-          "example": "Ich denke an dich. = Ma mõtlen sinule."
+          "meaning": "At tænke",
+          "example": "Ich denke an dich. = Jeg tænker på dig."
         },
         {
           "word": "glauben",
-          "meaning": "Uskuma / arvama",
-          "example": "Ich glaube, er kommt. = Ma arvan, et ta tuleb."
+          "meaning": "Tro/tænk",
+          "example": "Ich glaube, er kommt. = Jeg tror, ​​han kommer."
         }
       ],
       "tip": {
-        "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."
+        "text": "Husk: tabt ting → funde; mening → jeg kan finde..."
       },
       "important": [
         "finden nav tikai “atrast”.",
-        "Ich finde das gut nozīmē “man tas šķiet labi”, nevis “es to atrodu labi”."
+        "Ich finde das gut betyder \"Jeg synes, det er godt\", ikke \"Jeg synes, det er godt\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "finden"
-          ],
           "purple": [
-            "leidma",
-            "arvama",
-            "mõtlemist",
-            "tunduma"
-          ],
-          "green": [
-            "kaotatud asjast",
-            "arvamusest"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -6553,7 +5996,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "leia"
+                "Jeg"
               ]
             }
           },
@@ -6565,7 +6008,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "leidsid"
+                "din"
               ]
             }
           },
@@ -6577,7 +6020,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "minu"
+                "Det"
               ]
             }
           },
@@ -6589,7 +6032,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tundub"
+                "Hvad"
               ]
             }
           }
@@ -6603,8 +6046,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "leidma",
-                "arvama"
+                "Find",
+                "Find"
               ]
             },
             "example": {
@@ -6624,13 +6067,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "otsima"
+                "søge"
               ]
             },
             "example": {
               "yellow": [
                 "suche",
-                "otsin"
+                "Ich"
               ]
             }
           },
@@ -6642,7 +6085,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mõtlema"
+                "tænke"
               ]
             },
             "example": {
@@ -6660,14 +6103,14 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uskuma",
-                "uskuma"
+                "Tro/tænk",
+                "Tro/tænk"
               ]
             },
             "example": {
               "red": [
                 "glaube",
-                "arvan"
+                "Ich"
               ]
             }
           }
@@ -6675,32 +6118,18 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "finden"
+              "finde"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "finden"
-            ],
             "purple": [
-              "finden"
-            ]
-          },
-          {
-            "blue": [
-              "finde"
-            ],
-            "purple": [
-              "Ich"
-            ],
-            "red": [
-              "Ich"
+              "atrast"
             ]
           }
         ]
@@ -6711,129 +6140,125 @@ const A1_WORDS = [
     "de": "Finger",
     "de_article": "der",
     "de_plural": "die Finger",
-    "lv": "Sõrm",
+    "lv": "Finger",
     "level": "A1"
   },
   {
     "de": "Fisch",
     "de_article": "der",
     "de_plural": "die Fische",
-    "lv": "Kala",
+    "lv": "Fisk",
     "level": "A1"
   },
   {
     "de": "Flasche",
     "de_article": "die",
     "de_plural": "die Flaschen",
-    "lv": "Pudel",
+    "lv": "Flaske",
     "level": "A1"
   },
   {
     "de": "Fleisch",
     "de_article": "das",
-    "lv": "Liha",
+    "lv": "Kød",
     "level": "A1"
   },
   {
     "de": "fliegen",
-    "lv": "Lendama",
+    "lv": "At flyve",
     "level": "A1"
   },
   {
     "de": "Flugzeug",
     "de_article": "das",
     "de_plural": "die Flugzeuge",
-    "lv": "Lennuk",
+    "lv": "Et fly",
     "level": "A1"
   },
   {
     "de": "Fluss",
     "de_article": "der",
     "de_plural": "die Flüsse",
-    "lv": "Jõgi",
+    "lv": "Floden",
     "level": "A1"
   },
   {
     "de": "Foto",
     "de_article": "das",
     "de_plural": "die Fotos",
-    "lv": "Foto",
+    "lv": "Fotografi",
     "level": "A1"
   },
   {
     "de": "Frage",
     "de_article": "die",
     "de_plural": "die Fragen",
-    "lv": "Küsimus",
+    "lv": "Spørgsmål",
     "level": "A1"
   },
   {
     "de": "fragen",
-    "lv": "Küsima",
+    "lv": "At spørge",
     "level": "A1"
   },
   {
     "de": "Frau",
     "de_article": "die",
     "de_plural": "die Frauen",
-    "lv": "Naine • Abikaasa",
+    "lv": "Kvinde • Hustru",
     "level": "A1",
     "study": {
       "id": "a1-frau",
       "layout": "standardStudy",
-      "translation": "Naine • Abikaasa",
+      "translation": "Kvinde • Hustru",
       "explanation": [
-        "Põhiidee: die Frau võib tähendada naist (sugu) või abikaasat (abielupool).",
-        "Kui jutt on lihtsalt soost või isikust, die Frau = naine.",
-        "Kui jutt on abikaasast, die Frau = naine (meine Frau = minu naine).",
-        "Omastav asesõna (meine/deine/seine Frau) tähendab peaaegu alati naist — abikaasat.",
-        "Mitmuses: die Frauen.",
-        "Meessoovormil der Mann on samasugune kahetine tähendus: mees JA abikaasa."
+        "Hovedidé: die Frau kan betyde kvinde (køn) eller hustru (ægtefælle).",
+        "Hvis det blot er et spørgsmål om køn eller person, die Frau = kvinde.",
+        "I tilfælde af en ægtefælle, die Frau = hustru (meine Frau = min kone).",
+        "Det besiddende pronomen (meine/deine/seine Frau) betyder næsten altid hustru - ægtefælle.",
+        "Flertal: die Frauen.",
+        "Den hankønsform der Mann har samme dobbeltbetydning: mand OG mand."
       ],
       "examples": [
         {
           "de": "Sie ist eine nette Frau.",
-          "lv": "Ta on tore naine."
+          "lv": "Hun er en dejlig kvinde."
         },
         {
           "de": "Das ist meine Frau.",
-          "lv": "See on minu naine."
+          "lv": "Det her er min kone."
         },
         {
           "de": "Wie viele Frauen sind hier?",
-          "lv": "Kui palju naisi on siin?"
+          "lv": "Hvor mange kvinder er her?"
         },
         {
           "de": "Meine Frau arbeitet in Berlin.",
-          "lv": "Minu naine töötab Berliinis."
+          "lv": "Min kone arbejder i Berlin."
         },
         {
           "de": "Die Frau trägt ein Kleid.",
-          "lv": "Naine kannab kleiti."
+          "lv": "En kvinde bærer en kjole."
         },
         {
           "de": "Seine Frau ist Ärztin.",
-          "lv": "Tema naine on arst."
+          "lv": "Hans kone er læge."
         }
       ],
       "tip": [
-        "Ar piederības vārdu (meine/deine/seine Frau) gandrīz vienmēr domāta sieva (laulātā).",
-        "Bez piederības vārda (die Frau, eine Frau) parasti domāta sieviete."
+        "Det besiddende pronomen (meine/deine/seine Frau) betyder næsten altid hustru.",
+        "Uden besiddelse (die Frau, eine Frau) betyder normalt en kvinde."
       ],
       "important": [
-        "die Frau = sieviete VAI sieva — atkarībā no konteksta.",
+        "die Frau = kvinde ELLER kone - alt efter sammenhængen.",
         "meine Frau = mana sieva (ne 'mana sieviete').",
-        "Daudzskaitlī: die Frauen."
+        "Flertal: die Frauen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "die Frau",
-            "Frau"
-          ],
           "purple": [
-            "naine",
-            "naine"
+            "min",
+            "min"
           ]
         },
         "examples": [
@@ -6845,7 +6270,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naine"
+                "Hun"
               ]
             }
           },
@@ -6857,7 +6282,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naine"
+                "Det"
               ]
             }
           },
@@ -6869,7 +6294,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naisi"
+                "Hvor"
               ]
             }
           },
@@ -6881,7 +6306,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naine"
+                "Min"
               ]
             }
           },
@@ -6893,7 +6318,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naine"
+                "kvinde"
               ]
             }
           },
@@ -6905,29 +6330,16 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naine"
+                "Hans"
               ]
             }
           }
         ],
         "tip": [
           {
-            "green": [
-              "meine",
-              "deine",
-              "seine Frau"
-            ],
             "purple": [
-              "piederības"
-            ]
-          },
-          {
-            "blue": [
-              "die Frau",
-              "eine Frau"
-            ],
-            "purple": [
-              "piederības"
+              "Det",
+              "Det"
             ]
           }
         ],
@@ -6937,16 +6349,6 @@ const A1_WORDS = [
               "die",
               "die"
             ]
-          },
-          {
-            "green": [
-              "meine Frau"
-            ]
-          },
-          {
-            "blue": [
-              "die Frauen"
-            ]
           }
         ]
       }
@@ -6954,154 +6356,150 @@ const A1_WORDS = [
   },
   {
     "de": "frei",
-    "lv": "Vaba",
+    "lv": "Gratis",
     "level": "A1"
   },
   {
     "de": "Freitag",
     "de_article": "der",
     "de_plural": "die Freitage",
-    "lv": "Reede",
+    "lv": "Fredag",
     "level": "A1"
   },
   {
     "de": "Freund",
     "de_article": "der",
     "de_plural": "die Freunde",
-    "lv": "Sõber",
+    "lv": "En ven",
     "level": "A1"
   },
   {
     "de": "Freundin",
     "de_article": "die",
     "de_plural": "die Freundinnen",
-    "lv": "Sõbratar",
+    "lv": "Kæreste",
     "level": "A1"
   },
   {
     "de": "freundlich",
-    "lv": "Sõbralik",
+    "lv": "Slags",
     "level": "A1"
   },
   {
     "de": "frisch",
-    "lv": "Värske",
+    "lv": "Frisk",
     "level": "A1"
   },
   {
     "de": "früh",
-    "lv": "Varane",
+    "lv": "Tidlig",
     "level": "A1"
   },
   {
     "de": "Frühling",
     "de_article": "der",
     "de_plural": "die Frühlinge",
-    "lv": "Kevad",
+    "lv": "Forår",
     "level": "A1"
   },
   {
     "de": "Frühstück",
     "de_article": "das",
-    "lv": "Hommikusöök",
+    "lv": "Morgenmad",
     "level": "A1"
   },
   {
     "de": "frühstücken",
-    "lv": "Hommikust sööma",
+    "lv": "At spise morgenmad",
     "level": "A1"
   },
   {
     "de": "fünf",
-    "lv": "Viis",
+    "lv": "Fem",
     "level": "A1"
   },
   {
     "de": "fünfhundert",
-    "lv": "Viissada",
+    "lv": "Fem hundrede",
     "level": "A1"
   },
   {
     "de": "fünfte",
-    "lv": "Viies",
+    "lv": "Femte",
     "level": "A1"
   },
   {
     "de": "fünfzehn",
-    "lv": "Viisteist",
+    "lv": "Femten",
     "level": "A1"
   },
   {
     "de": "fünfzehnte",
-    "lv": "Viieteistkümnes",
+    "lv": "Den femtende",
     "level": "A1"
   },
   {
     "de": "fünfzig",
-    "lv": "Viiskümmend",
+    "lv": "Halvtreds",
     "level": "A1"
   },
   {
     "de": "fünfzigste",
-    "lv": "Viiekümnes",
+    "lv": "Den halvtredsindstyvende",
     "level": "A1"
   },
   {
     "de": "für",
-    "lv": "Jaoks • Eest",
+    "lv": "For • For",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "Jaoks • Eest",
+      "translation": "For • For",
       "explanation": [
-        "Põhiidee: für on eessõna, mis nõuab alati Akkusativit — eesti keeles tavaliselt jaoks või eest.",
-        "Saajast või eesmärgist rääkides für = jaoks (für dich = sinu jaoks).",
-        "Vahetusest, tasust või põhjusest rääkides für = eest (danke für das Geschenk = aitäh kingi eest).",
-        "Für nõuab alati Akkusativi, olenemata tähendusest."
+        "Hovedidé: für er en præposition, der altid styrer akkusativ kasus - normalt for eller for på letisk.",
+        "Når man taler om modtager eller hensigt, für = for (für dich = for dig).",
+        "Når man taler om bytte, gebyr eller årsag, für = for (danke für das Geschenk = tak for gaven).",
+        "Für kræver altid akkusativ, uanset betydning."
       ],
       "examples": [
         {
           "de": "Das ist für dich.",
-          "lv": "See on sinu jaoks."
+          "lv": "Det er til dig."
         },
         {
           "de": "Danke für die Hilfe.",
-          "lv": "Aitäh abi eest."
+          "lv": "Tak for din hjælp."
         },
         {
           "de": "Ich kaufe ein Geschenk für meine Mutter.",
-          "lv": "Ma ostan kingi oma emale."
+          "lv": "Jeg køber en gave til min mor."
         },
         {
           "de": "Was bezahlst du für das Auto?",
-          "lv": "Kui palju sa auto eest maksad?"
+          "lv": "Hvor meget betaler du for en bil?"
         },
         {
           "de": "Das Buch ist für Kinder.",
-          "lv": "Raamat on lastele."
+          "lv": "Bogen er for børn."
         },
         {
           "de": "Für heute ist das genug.",
-          "lv": "Tänaseks on sellest küll."
+          "lv": "Det er nok for i dag."
         }
       ],
       "tip": [
-        "für vienmēr + akuzatīvs — neatkarīgi no nozīmes.",
-        "Saņēmējs/nolūks → priekš; apmaiņa/iemesls/maksa → par."
+        "für altid + akkusativ - uanset betydning.",
+        "Modtager/hensigt → for; bytte/grund/gebyr → stk."
       ],
       "important": [
-        "für + Akkusativ vienmēr, piemēram für mich, für dich, für das Kind.",
-        "danke für / bezahlen für = 'par', ne 'priekš'."
+        "für + Akkusativ altid, fx für mich, für dich, für das Kind.",
+        "danke für / bezahlen für = 'for', ikke 'før'."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "für"
-          ],
           "purple": [
-            "jaoks",
-            "eest"
+            "for"
           ]
         },
         "examples": [
@@ -7113,7 +6511,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaoks"
+                "Det"
               ]
             }
           },
@@ -7125,7 +6523,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eest"
+                "Tak"
               ]
             }
           },
@@ -7137,7 +6535,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "oma"
+                "Jeg"
               ]
             }
           },
@@ -7149,7 +6547,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eest"
+                "Hvor"
               ]
             }
           },
@@ -7161,7 +6559,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "raamat"
+                "for"
               ]
             }
           },
@@ -7173,38 +6571,22 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tänaseks"
+                "Det"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "für"
-            ]
-          },
-          {
             "purple": [
-              "für",
               "für"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "für",
-              "Akkusativ"
-            ]
-          },
-          {
-            "green": [
-              "danke für",
-              "bezahlen für"
-            ],
             "purple": [
-              "danke"
+              "für"
             ]
           }
         ]
@@ -7215,117 +6597,107 @@ const A1_WORDS = [
     "de": "Fuß",
     "de_article": "der",
     "de_plural": "die Füße",
-    "lv": "Jalg",
+    "lv": "Fod",
     "level": "A1"
   },
   {
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Jalgpall",
+    "lv": "Fodbold",
     "level": "A1"
   },
   {
     "de": "ganz",
-    "lv": "Kõik",
+    "lv": "Alt",
     "level": "A1"
   },
   {
     "de": "Garage",
     "de_article": "die",
     "de_plural": "die Garagen",
-    "lv": "Garaaž",
+    "lv": "Garage",
     "level": "A1"
   },
   {
     "de": "Garten",
     "de_article": "der",
     "de_plural": "die Gärten",
-    "lv": "Aed",
+    "lv": "Have",
     "level": "A1"
   },
   {
     "de": "Gast",
     "de_article": "der",
     "de_plural": "die Gäste",
-    "lv": "Külaline",
+    "lv": "En gæst",
     "level": "A1"
   },
   {
     "de": "geben",
-    "lv": "Andma",
+    "lv": "At give",
     "level": "A1",
     "study": {
       "id": "a1-geben",
       "layout": "standardStudy",
-      "translation": "Andma",
+      "translation": "At give",
       "explanation": [
-        "Põhiidee: geben tähendab andmist.",
-        "Geben kasutatakse, kui keegi annab midagi teisele inimesele.",
-        "See on vastupidine suund sõnale nehmen.",
-        "Bekommen tähendab saama, seega olla see, kes midagi kätte saab."
+        "Hovedidé: geben betyder at give.",
+        "Geben bruges, når nogen giver noget til en anden person.",
+        "Dette er den modsatte retning af nehmen.",
+        "Bekommen betyder at modtage, altså at være den, der får noget."
       ],
       "examples": [
         {
           "de": "Gib mir bitte das Buch.",
-          "lv": "Anna mulle palun raamat."
+          "lv": "Giv mig venligst bogen"
         },
         {
           "de": "Ich gebe dir meine Nummer.",
-          "lv": "Ma annan sulle oma numbri."
+          "lv": "Jeg giver dig mit nummer"
         },
         {
           "de": "Ich nehme das Buch.",
-          "lv": "Ma võtan raamatu."
+          "lv": "Jeg tager bogen"
         },
         {
           "de": "Ich bekomme ein Geschenk.",
-          "lv": "Ma saan kingi."
+          "lv": "Jeg får en gave"
         }
       ],
       "comparison": [
         {
           "word": "geben",
-          "meaning": "Andma",
+          "meaning": "At give",
           "example": "Gib mir das Buch."
         },
         {
           "word": "nehmen",
-          "meaning": "Võtma / kätte võtma",
+          "meaning": "At tage / at tage",
           "example": "Ich nehme das Buch."
         },
         {
           "word": "bekommen",
-          "meaning": "Saama / kätte saama",
+          "meaning": "Modtage/få",
           "example": "Ich bekomme ein Geschenk."
         },
         {
           "word": "bringen",
-          "meaning": "Tooma / kohale toimetama",
+          "meaning": "Medbring/lever",
           "example": "Ich bringe dir das Buch."
         }
       ],
       "tip": {
-        "text": "Atceries: dot prom → geben; paņemt sev → nehmen."
+        "text": "Husk: prik væk → geben; tag selv → nehmen."
       },
       "important": [
-        "geben un nehmen ir pretēji virzieni.",
-        "bekommen nozīmē saņemt, nevis dot."
+        "geben og nehmen er modsatte retninger.",
+        "bekommen betyder at modtage, ikke at give."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "geben"
-          ],
           "purple": [
-            "andmist"
-          ],
-          "red": [
-            "nehmen",
-            "bekommen"
-          ],
-          "green": [
-            "teisele inimesele"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -7340,10 +6712,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "anna"
-              ],
-              "yellow": [
-                "raamat"
+                "Giv"
               ]
             }
           },
@@ -7358,10 +6727,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "annan"
-              ],
-              "yellow": [
-                "numbri"
+                "give"
               ]
             }
           },
@@ -7376,10 +6742,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "võtan"
+                "Jeg"
               ],
               "yellow": [
-                "raamatu"
+                "Jeg"
               ]
             }
           },
@@ -7394,10 +6760,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "saan"
+                "Jeg"
               ],
               "yellow": [
-                "kingi"
+                "Jeg"
               ]
             }
           }
@@ -7411,7 +6777,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "andma"
+                "give"
               ]
             },
             "example": {
@@ -7428,8 +6794,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "võtma",
-                "võtma"
+                "tage",
+                "tage"
               ]
             },
             "example": {
@@ -7446,8 +6812,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saama",
-                "saama"
+                "Modtage/få",
+                "Modtage/få"
               ]
             },
             "example": {
@@ -7464,8 +6830,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tooma",
-                "kohale toimetama"
+                "Bring",
+                "Bring"
               ]
             },
             "example": {
@@ -7481,35 +6847,19 @@ const A1_WORDS = [
               "geben"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "nehmen",
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "geben"
-            ],
-            "red": [
-              "nehmen"
-            ],
             "purple": [
+              "geben",
               "geben"
-            ]
-          },
-          {
-            "yellow": [
-              "bekommen"
-            ],
-            "purple": [
-              "bekommen"
-            ],
-            "blue": [
-              "bekommen"
             ]
           }
         ]
@@ -7518,169 +6868,166 @@ const A1_WORDS = [
   },
   {
     "de": "geboren",
-    "lv": "Sündinud",
+    "lv": "Blev født",
     "level": "A1"
   },
   {
     "de": "gefallen",
-    "lv": "Meeldima",
+    "lv": "At kunne lide",
     "level": "A1"
   },
   {
     "de": "gegen",
-    "lv": "Vastu",
+    "lv": "Vs",
     "level": "A1"
   },
   {
     "de": "gehen",
-    "lv": "Minema",
+    "lv": "Gå",
     "level": "A1"
   },
   {
     "de": "gelb",
-    "lv": "Kollane",
+    "lv": "Gul",
     "level": "A1"
   },
   {
     "de": "Geld",
     "de_article": "das",
-    "lv": "Raha",
+    "lv": "Penge",
     "level": "A1"
   },
   {
     "de": "genug",
-    "lv": "Piisavalt",
+    "lv": "Nok",
     "level": "A1"
   },
   {
     "de": "geradeaus",
-    "lv": "Otse edasi",
+    "lv": "Lige frem",
     "level": "A1"
   },
   {
     "de": "gern",
-    "lv": "Meelsasti",
+    "lv": "Med vilje",
     "level": "A1"
   },
   {
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Lugu • Ajalugu",
+    "lv": "Historie • Historie",
     "level": "A1"
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Õed-vennad",
+    "lv": "Brødre og søstre",
     "level": "A1"
   },
   {
     "de": "Gesicht",
     "de_article": "das",
     "de_plural": "die Gesichter",
-    "lv": "Nägu",
+    "lv": "Ansigt",
     "level": "A1"
   },
   {
     "de": "gestern",
-    "lv": "Eile",
+    "lv": "I går",
     "level": "A1"
   },
   {
     "de": "gesund",
-    "lv": "Terve",
+    "lv": "Sund",
     "level": "A1"
   },
   {
     "de": "Gesundheit",
     "de_article": "die",
-    "lv": "Tervis",
+    "lv": "Sundhed",
     "level": "A1"
   },
   {
     "de": "Getränk",
     "de_article": "das",
     "de_plural": "die Getränke",
-    "lv": "Jook",
+    "lv": "En drink",
     "level": "A1"
   },
   {
     "de": "Giraffe",
     "de_article": "die",
     "de_plural": "die Giraffen",
-    "lv": "Kaelkirjak",
+    "lv": "Giraf",
     "level": "A1"
   },
   {
     "de": "Glas",
     "de_article": "das",
     "de_plural": "die Gläser",
-    "lv": "Klaas",
+    "lv": "Et glas",
     "level": "A1"
   },
   {
     "de": "glauben",
-    "lv": "Uskuma",
+    "lv": "At tro",
     "level": "A1"
   },
   {
     "de": "gleich",
-    "lv": "Kohe • Ühesugune",
+    "lv": "Straks • Lige",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "Kohe • Ühesugune",
+      "translation": "Straks • Lige",
       "explanation": [
-        "Põhiidee: gleich tähendab aja mõttes kohe, võrdluses tähendab ühesugune.",
-        "Kui jutt on ajast, gleich = kohe/varsti (Ich komme gleich. = Ma tulen kohe.).",
-        "Kui jutt on võrdlusest, gleich = ühesugune/sama (die gleiche Farbe = ühesugune värv).",
-        "Sõna gleich võib kasutada ka eessõnana koos Dativiga, see tähendab nagu (gleich mir = nagu mina).",
-        "Kontekst (ajamäärus või võrdlus) näitab õiget tähendust."
+        "Hovedidé: gleich betyder midlertidigt umiddelbart, sammenlignende betyder lige.",
+        "Når det kommer til tiden, gleich = straks/om et øjeblik (Ich komme gleich. = Jeg kommer med det samme.).",
+        "Når det kommer til sammenligning, er gleich = den samme/den samme (die gleiche Farbe = den samme farve).",
+        "Gleich kan også bruges som præposition med dativ, der betyder ligesom (gleich mir = som mig).",
+        "Konteksten (spændt eller sammenligning) viser den korrekte betydning."
       ],
       "examples": [
         {
           "de": "Ich komme gleich.",
-          "lv": "Ma tulen kohe."
+          "lv": "Jeg kommer med det samme."
         },
         {
           "de": "Wir haben die gleiche Farbe.",
-          "lv": "Meil on ühesugune värv."
+          "lv": "Vi har samme farve."
         },
         {
           "de": "Das Essen ist gleich fertig.",
-          "lv": "Toit saab kohe valmis."
+          "lv": "Maden er snart klar."
         },
         {
           "de": "Beide Wege sind gleich lang.",
-          "lv": "Mõlemad teed on ühepikkused."
+          "lv": "Begge stier er lige lange."
         },
         {
           "de": "Bis gleich!",
-          "lv": "Näeme kohe!"
+          "lv": "Vi ses snart!"
         },
         {
           "de": "Sie sind gleich groß.",
-          "lv": "Nad on ühepikkused."
+          "lv": "De har samme højde."
         }
       ],
       "tip": [
-        "Par laiku (pēc brīža) → tūlīt.",
-        "Par salīdzinājumu (tāds pats) → vienāds."
+        "Om et stykke tid (om et øjeblik) → nu.",
+        "Til sammenligning (samme) → samme."
       ],
       "important": [
-        "gleich = tūlīt (laiks) VAI vienāds (salīdzinājums).",
-        "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
+        "gleich = umiddelbart (tid) ELLER lig (sammenligning).",
+        "Gud! = vi ses snart! — en almindelig afskedssætning."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "gleich"
-          ],
           "purple": [
-            "kohe",
-            "ühesugune"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -7692,7 +7039,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kohe"
+                "Jeg"
               ]
             }
           },
@@ -7704,7 +7051,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ühesugune"
+                "har"
               ]
             }
           },
@@ -7716,7 +7063,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kohe"
+                "Maden"
               ]
             }
           },
@@ -7728,7 +7075,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mõlemad"
+                "Begge"
               ]
             }
           },
@@ -7740,7 +7087,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kohe"
+                "ses"
               ]
             }
           },
@@ -7752,7 +7099,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nad"
+                "har"
               ]
             }
           }
@@ -7760,12 +7107,12 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "Par"
+              "stykke"
             ]
           },
           {
             "green": [
-              "Par"
+              "stykke"
             ]
           }
         ],
@@ -7775,11 +7122,6 @@ const A1_WORDS = [
               "gleich",
               "gleich"
             ]
-          },
-          {
-            "blue": [
-              "Bis gleich!"
-            ]
           }
         ]
       }
@@ -7788,93 +7130,87 @@ const A1_WORDS = [
   {
     "de": "Glück",
     "de_article": "das",
-    "lv": "Õnn",
+    "lv": "Lykke",
     "level": "A1"
   },
   {
     "de": "glücklich",
-    "lv": "Õnnelik",
+    "lv": "Lykkelig",
     "level": "A1"
   },
   {
     "de": "Gramm",
     "de_article": "das",
     "de_plural": "die Gramm",
-    "lv": "Gramm",
+    "lv": "Gram",
     "level": "A1"
   },
   {
     "de": "Grammatik",
     "de_article": "die",
     "de_plural": "die Grammatiken",
-    "lv": "Grammatika",
+    "lv": "Grammatik",
     "level": "A1"
   },
   {
     "de": "Gras",
     "de_article": "das",
     "de_plural": "die Gräser",
-    "lv": "Rohi",
+    "lv": "Græs",
     "level": "A1"
   },
   {
     "de": "grau",
-    "lv": "Hall",
+    "lv": "Grå",
     "level": "A1"
   },
   {
     "de": "groß",
-    "lv": "Suur",
+    "lv": "Stor",
     "level": "A1",
     "study": {
       "id": "a1-gross-study",
       "layout": "standardStudy",
-      "translation": "Suur",
+      "translation": "Stor",
       "explanation": [
-        "Põhiidee: Suur mõõtmete poolest või inimese puhul - pikk kasvult.",
-        "Groß tähendab peamiselt: suur mõõt.",
-        "Sageli kirjeldab: üldist suurust.",
-        "Groß tähendab peamiselt: inimese pikkus.",
-        "Sageli kirjeldab: isikut.",
-        "Groß kirjeldab üldist suurust või inimese pikkust."
+        "Hovedidé: Stor i størrelsen eller til en person - høj i højden.",
+        "Groß betyder primært: stor størrelse.",
+        "Ofte karakteriseret ved: overordnet størrelse.",
+        "Groß betyder primært: menneskelig højde.",
+        "Beskriver ofte: en person.",
+        "Groß beskriver størrelse generelt eller højden af ​​en person."
       ],
       "examples": [
         {
           "de": "Das Haus ist groß.",
-          "lv": "Maja on suur."
+          "lv": "Huset er stort."
         },
         {
           "de": "Das Haus ist groß.",
-          "lv": "Maja on suur."
+          "lv": "Huset er stort."
         },
         {
           "de": "Er ist groß.",
-          "lv": "Ta on pikka kasvu."
+          "lv": "Han er høj."
         },
         {
           "de": "Das Zimmer ist groß.",
-          "lv": "Tuba on suur."
+          "lv": "Værelset er stort."
         }
       ],
       "tip": [
         "groß = liels",
-        "Izmanto groß, kad konteksts atbilst šai nozīmei."
+        "Brug groß, når konteksten passer til denne betydning."
       ],
       "important": [
-        "Cilvēkam Er ist groß nozīmē garš augumā.",
+        "For en person betyder Er ist groß høj.",
         "groß = liels.",
-        "Liels izmērā vai cilvēkam - garš augumā."
+        "Stor i størrelsen eller til en person - høj af statur."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "groß"
-          ],
           "purple": [
-            "suur"
-          ],
-          "green": [
-            "Suur"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -7887,7 +7223,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "suur"
+                "Huset"
               ]
             }
           },
@@ -7900,7 +7236,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "suur"
+                "Huset"
               ]
             }
           },
@@ -7911,11 +7247,7 @@ const A1_WORDS = [
                 "groß"
               ]
             },
-            "lv": {
-              "purple": [
-                "pikka"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7926,7 +7258,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "suur"
+                "Værelset"
               ]
             }
           }
@@ -7934,7 +7266,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "groß"
+              "liels"
             ]
           }
         ],
@@ -7951,115 +7283,109 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Vanavanemad",
+    "lv": "Bedsteforældre",
     "level": "A1"
   },
   {
     "de": "Großmutter",
     "de_article": "die",
     "de_plural": "die Großmütter",
-    "lv": "Vanaema",
+    "lv": "Bedstemor",
     "level": "A1"
   },
   {
     "de": "Großvater",
     "de_article": "der",
     "de_plural": "die Großväter",
-    "lv": "Vanaisa",
+    "lv": "Bedstefar",
     "level": "A1"
   },
   {
     "de": "grün",
-    "lv": "Roheline",
+    "lv": "Grøn",
     "level": "A1"
   },
   {
     "de": "Gruppe",
     "de_article": "die",
     "de_plural": "die Gruppen",
-    "lv": "Grupp",
+    "lv": "Gruppe",
     "level": "A1"
   },
   {
     "de": "Gruß",
     "de_article": "der",
     "de_plural": "die Grüße",
-    "lv": "Tervitus",
+    "lv": "Hilsen",
     "level": "A1"
   },
   {
     "de": "grüßen",
-    "lv": "Tervitama",
+    "lv": "At hilse",
     "level": "A1"
   },
   {
     "de": "Gurke",
     "de_article": "die",
     "de_plural": "die Gurken",
-    "lv": "Kurk",
+    "lv": "Agurk",
     "level": "A1"
   },
   {
     "de": "gut",
-    "lv": "Hea",
+    "lv": "God",
     "level": "A1",
     "study": {
       "id": "a1-gut-study",
       "layout": "standardStudy",
-      "translation": "Hea",
+      "translation": "God",
       "explanation": [
-        "Põhiidee: gut on omadus-/määrsõna — hea, hästi, korras.",
-        "Gut kirjeldab kvaliteeti, tervist või seda, kuidas midagi läheb (Es geht mir gut. = Mul läheb hästi.).",
-        "Viisakusfraasis guten Tag/Abend/Morgen muudab gut lõppu käände järgi.",
-        "Kui gut kirjeldab tegusõna, on see määrsõna (gut schwimmen = hästi ujuma).",
-        "Ära aja segi sõnaga das Gut — see on suure algustähega ja artikliga nimisõna (vara, mõis)."
+        "Hovedidé: gut er et adjektiv/adverbium - godt, vellykket, okay.",
+        "Gut beskriver kvalitet, sundhed eller hvordan noget går (Es geht mir gut. = Jeg har det godt.).",
+        "I høflighedssætningen guten Tag/Abend/Morgen ændrer gut slutningen efter bøjningen.",
+        "Hvis gut beskriver et verbum, er det et adverbium (gut schwimmen = at svømme godt).",
+        "Ikke at forveksle med das Gut - det er et substantiv (ejendom, herregård) med stort bogstav og artikel."
       ],
       "examples": [
         {
           "de": "Das Essen ist gut.",
-          "lv": "Toit on hea."
+          "lv": "Maden er god."
         },
         {
           "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "Kuidas sul läheb? – hästi, aitäh!"
+          "lv": "Hvordan har du det - ok, tak!"
         },
         {
           "de": "Er spricht gut Deutsch.",
-          "lv": "Ta räägib hästi saksa keelt."
+          "lv": "Han taler godt tysk."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Tere hommikust!"
+          "lv": "Godmorgen!"
         },
         {
           "de": "Das ist eine gute Idee.",
-          "lv": "See on hea idee."
+          "lv": "Det er en god idé."
         },
         {
           "de": "Alles ist gut.",
-          "lv": "Kõik on korras."
+          "lv": "Alt er fint."
         }
       ],
       "tip": [
-        "gut bez artikula ir īpašības/apstākļa vārds — labs/labi.",
-        "das Gut ar lielo burtu un artikulu ir pavisam cits vārds — lietvārds (īpašums, muiža)."
+        "tarm uden en artikel er et adjektiv/adverbium - godt/vel.",
+        "das Gut med stort bogstav og artikel er et helt andet ord - et substantiv (ejendom, herregård)."
       ],
       "important": [
-        "gut = labs/labi (īpašības/apstākļa vārds).",
-        "das Gut = īpašums/muiža (lietvārds) — nejauc ar gut.",
-        "Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma."
+        "tarm = god/vel (tillægsord/tillægsord).",
+        "das Gut = ejendom/herregård (substantiv) - ikke at forveksle med gut.",
+        "Guten Tag/Morgen/Abend - tarmændringer slutter efter bøjning."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "gut"
-          ],
           "purple": [
-            "hea",
-            "hästi"
-          ],
-          "green": [
-            "das Gut"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -8071,7 +7397,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hea"
+                "Maden"
               ]
             }
           },
@@ -8083,7 +7409,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hästi"
+                "Hvordan"
               ]
             }
           },
@@ -8095,7 +7421,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hästi"
+                "Han"
               ]
             }
           },
@@ -8107,7 +7433,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tere hommikust"
+                "Godmorgen"
               ]
             }
           },
@@ -8119,7 +7445,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hea"
+                "Det"
               ]
             }
           },
@@ -8131,7 +7457,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "korras"
+                "Alt"
               ]
             }
           }
@@ -8151,7 +7477,7 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "gut"
+              "tarm"
             ]
           },
           {
@@ -8174,84 +7500,76 @@ const A1_WORDS = [
     "de": "Haar",
     "de_article": "das",
     "de_plural": "die Haare",
-    "lv": "Juus",
+    "lv": "Hår",
     "level": "A1"
   },
   {
     "de": "haben",
-    "lv": "Mul on",
+    "lv": "Jeg har",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
-      "translation": "Mul on",
+      "translation": "Jeg har",
       "explanation": [
-        "Põhiidee: haben tähendab, et kellelegi kuulub midagi või et miski on kättesaadav.",
-        "Eesti väljendile „mul on / sul on” vastab saksa keeles Nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — mitte *mir habe.",
-        "Sõna haben järel tuleb Akkusativ: Ich habe ein Auto. = Mul on auto.",
-        "Haben kasutatakse ka abitegusõnana Perfektis: Ich habe gelernt."
+        "Hovedidé: haben betyder, at nogen har eller har adgang til noget.",
+        "Den lettiske dativkonstruktion \"jeg har / du har\" på tysk er nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ikke *mir habe.",
+        "Haben efterfølges af akkusativ: Ich habe ein Auto. = Jeg har en bil.",
+        "Haben bruges også som hjælpeverbum i Perfektum: Ich habe gelernt."
       ],
       "examples": [
         {
           "de": "Ich habe ein Auto.",
-          "lv": "Mul on auto."
+          "lv": "Jeg har en bil"
         },
         {
           "de": "Hast du Zeit?",
-          "lv": "Kas sul on aega?"
+          "lv": "Har du tid"
         },
         {
           "de": "Wir haben Hunger.",
-          "lv": "Meil on kõht tühi."
+          "lv": "Vi er sultne."
         },
         {
           "de": "Ich habe das gemacht.",
-          "lv": "Ma tegin seda."
+          "lv": "Jeg gjorde det"
         }
       ],
       "comparison": [
         {
           "word": "haben",
-          "meaning": "Mul on",
-          "example": "Ich habe Zeit. = Mul on aega."
+          "meaning": "Jeg har",
+          "example": "Ich habe Zeit. = Jeg har tid."
         },
         {
           "word": "sein",
-          "meaning": "Olema",
-          "example": "Ich bin hier. = Ma olen siin."
+          "meaning": "At være",
+          "example": "Ich bin hier. = Jeg er her."
         },
         {
           "word": "bekommen",
-          "meaning": "Saama",
-          "example": "Ich bekomme ein Geschenk. = Ma saan kingi."
+          "meaning": "At modtage",
+          "example": "Ich bekomme ein Geschenk. = Jeg får en gave."
         },
         {
           "word": "machen",
-          "meaning": "Tegema / valmistama",
-          "example": "Ich mache das. = Ma teen seda."
+          "meaning": "At gøre/lave",
+          "example": "Ich mache das. = Jeg gør det."
         }
       ],
       "tip": {
-        "text": "Atceries: Ich habe → man ir."
+        "text": "Husk: Ich habe → man ir."
       },
       "important": [
-        "Latviski „man ir” = vāciski Ich habe + akuzatīvs. Ne lietot datīvu: nepareizi *mir habe.",
-        "Ar sein un datīvu: Mir ist kalt. = Man ir auksti. (tas nav haben!)",
-        "Perfektā: Ich habe gelernt = es esmu mācījies."
+        "på dansk \"Jeg har\" = på tysk Ich habe + akkusativ. Brug ikke dativens kasus: forkert *mir habe.",
+        "Med sein og dativ: Mir ist kaldt. = Jeg er kold. (det er ikke haveben!)",
+        "Perfekt: Ich habe gelernt = jeg har lært."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "haben",
-            "Ich habe"
-          ],
           "purple": [
-            "mul on",
-            "sul on",
-            "Põhiidee"
-          ],
-          "yellow": [
-            "abitegusõnana"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -8263,7 +7581,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mul on"
+                "Jeg"
               ]
             }
           },
@@ -8275,7 +7593,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sul on"
+                "Har"
               ]
             }
           },
@@ -8287,7 +7605,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "meil"
+                "sultne"
               ]
             }
           },
@@ -8299,7 +7617,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tegin"
+                "Jeg"
               ]
             }
           }
@@ -8313,7 +7631,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mul on"
+                "Jeg"
               ]
             },
             "example": {
@@ -8321,7 +7639,7 @@ const A1_WORDS = [
                 "habe"
               ],
               "purple": [
-                "mul on"
+                "Ich"
               ]
             }
           },
@@ -8331,15 +7649,11 @@ const A1_WORDS = [
                 "sein"
               ]
             },
-            "meaning": {
-              "purple": [
-                "olema"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "bin",
-                "olen"
+                "Ich"
               ]
             }
           },
@@ -8351,13 +7665,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saama"
+                "modtage"
               ]
             },
             "example": {
               "yellow": [
                 "bekomme",
-                "saan"
+                "Ich"
               ]
             }
           },
@@ -8369,13 +7683,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tegema"
+                "gøre/lave"
               ]
             },
             "example": {
               "red": [
                 "mache",
-                "teen"
+                "Ich"
               ]
             }
           }
@@ -8386,26 +7700,14 @@ const A1_WORDS = [
               "Ich habe"
             ],
             "purple": [
-              "Atceries"
+              "man ir"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "habe"
-            ],
             "purple": [
-              "Latviski"
-            ]
-          },
-          {
-            "blue": [
-              "haben"
-            ],
-            "purple": [
-              "sein",
-              "sein"
+              "dansk"
             ]
           }
         ]
@@ -8414,98 +7716,91 @@ const A1_WORDS = [
   },
   {
     "de": "halb",
-    "lv": "Pool",
+    "lv": "Side",
     "level": "A1"
   },
   {
     "de": "Hälfte",
     "de_article": "die",
     "de_plural": "die Hälften",
-    "lv": "Pool",
+    "lv": "Side",
     "level": "A1"
   },
   {
     "de": "Hals",
     "de_article": "der",
     "de_plural": "die Hälse",
-    "lv": "Kael",
+    "lv": "Halsen",
     "level": "A1"
   },
   {
     "de": "halten",
-    "lv": "Hoidma • Peatama",
+    "lv": "Hold • Stop",
     "level": "A1",
     "study": {
       "id": "a1-halten",
       "layout": "standardStudy",
-      "translation": "Hoidma • Peatama",
+      "translation": "Hold • Stop",
       "explanation": [
-        "Põhiidee: halten tähendab hoidma, aga sõiduki või liikumise puhul võib tähendada peatama või peatuma.",
-        "Kui ese on käes, tähendab halten tavaliselt hoidma.",
-        "Bussi, rongi või auto puhul tähendab halten sageli peatuma.",
-        "Arvamust väljendavas fraasis ich halte das für... tähendab see millekski pidama."
+        "Hovedidé: halten betyder at holde, men med transport eller bevægelse kan det betyde at stoppe eller stoppe.",
+        "Med en genstand i hånden er halten normalt at holde.",
+        "Med bus, tog eller bil betyder halten ofte at stoppe.",
+        "I meningssætningen ich halte das für... betyder det at betragte som."
       ],
       "examples": [
         {
           "de": "Ich halte die Tasche.",
-          "lv": "Ma hoian kotti."
+          "lv": "Jeg holder en taske"
         },
         {
           "de": "Der Bus hält hier.",
-          "lv": "Buss peatub siin."
+          "lv": "Bussen stopper her."
         },
         {
           "de": "Bitte halten Sie an.",
-          "lv": "Palun, peatuge."
+          "lv": "Stop venligst"
         },
         {
           "de": "Ich halte das für richtig.",
-          "lv": "Ma pean seda õigeks."
+          "lv": "Jeg anser det for korrekt."
         }
       ],
       "comparison": [
         {
           "word": "halten",
-          "meaning": "Hoidma / peatuma",
-          "example": "Der Bus hält. = Buss peatub."
+          "meaning": "Hold / stop",
+          "example": "Der Bus hält. = Bussen stopper."
         },
         {
           "word": "nehmen",
-          "meaning": "Võtma",
-          "example": "Ich nehme die Tasche. = Ma võtan koti."
+          "meaning": "At tage",
+          "example": "Ich nehme die Tasche. = Jeg tager posen."
         },
         {
           "word": "stoppen",
-          "meaning": "Peatama",
-          "example": "Stoppen Sie das Auto. = Peatage auto."
+          "meaning": "At stoppe",
+          "example": "Stoppen Sie das Auto. = Stop bilen."
         },
         {
           "word": "denken",
-          "meaning": "Mõtlema",
-          "example": "Ich denke, das ist richtig. = Ma arvan, et see on õige."
+          "meaning": "At tænke",
+          "example": "Ich denke, das ist richtig. = Det tror jeg er rigtigt."
         }
       ],
       "tip": {
-        "text": "Atceries: rokā → halten; transports → hält/apstājas."
+        "text": "Husk: i hånden → halten; transportør → holder/stopper."
       },
       "important": [
-        "halten nav tikai “turēt”. Ar transportu tas bieži nozīmē apstāties.",
-        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”."
+        "halten er ikke bare 'hold'. Med transport betyder det ofte stop.",
+        "Ich halte das für... er en meningssætning: \"Jeg betragter det som...\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "halten"
-          ],
           "purple": [
-            "hoidma",
-            "peatama",
-            "peatuma",
-            "millekski pidama"
-          ],
-          "green": [
-            "Põhiidee",
-            "liikumise"
+            "hold",
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -8517,7 +7812,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hoian"
+                "Jeg"
               ]
             }
           },
@@ -8529,7 +7824,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peatub"
+                "Bussen"
               ]
             }
           },
@@ -8541,7 +7836,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peatuge"
+                "stop"
               ]
             }
           },
@@ -8553,7 +7848,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pean"
+                "Jeg"
               ]
             }
           }
@@ -8567,8 +7862,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "hoidma",
-                "peatuma"
+                "Hold",
+                "Hold"
               ]
             },
             "example": {
@@ -8576,7 +7871,7 @@ const A1_WORDS = [
                 "hält"
               ],
               "purple": [
-                "peatub"
+                "Der"
               ]
             }
           },
@@ -8588,13 +7883,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "võtma"
+                "tage"
               ]
             },
             "example": {
               "yellow": [
                 "nehme",
-                "võtan"
+                "Ich"
               ]
             }
           },
@@ -8606,13 +7901,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peatama"
+                "stop"
               ]
             },
             "example": {
               "red": [
                 "Stoppen",
-                "Peatage"
+                "Stoppen"
               ]
             }
           },
@@ -8624,13 +7919,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mõtlema"
+                "tænke"
               ]
             },
             "example": {
               "green": [
                 "denke",
-                "arvan"
+                "Ich"
               ]
             }
           }
@@ -8642,8 +7937,8 @@ const A1_WORDS = [
               "hält"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ],
             "green": [
               "transport"
@@ -8652,20 +7947,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "halten"
-            ],
             "purple": [
-              "halten",
               "halten"
-            ]
-          },
-          {
-            "blue": [
-              "halte"
-            ],
-            "purple": [
-              "Ich"
             ]
           }
         ]
@@ -8676,139 +7959,133 @@ const A1_WORDS = [
     "de": "Haltestelle",
     "de_article": "die",
     "de_plural": "die Haltestellen",
-    "lv": "Peatus",
+    "lv": "Stop",
     "level": "A1"
   },
   {
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Käsi (kämmal)",
+    "lv": "Hånd (håndflade)",
     "level": "A1"
   },
   {
     "de": "Handschuh",
     "de_article": "der",
     "de_plural": "die Handschuhe",
-    "lv": "Kinnas",
+    "lv": "En handske",
     "level": "A1"
   },
   {
     "de": "Handtasche",
     "de_article": "die",
     "de_plural": "die Handtaschen",
-    "lv": "Käekott",
+    "lv": "Håndtaske",
     "level": "A1"
   },
   {
     "de": "Handtuch",
     "de_article": "das",
     "de_plural": "die Handtücher",
-    "lv": "Käterätik",
+    "lv": "Et håndklæde",
     "level": "A1"
   },
   {
     "de": "Handy",
     "de_article": "das",
     "de_plural": "die Handys",
-    "lv": "Mobiiltelefon",
+    "lv": "Mobiltelefon",
     "level": "A1"
   },
   {
     "de": "Hauptstadt",
     "de_article": "die",
     "de_plural": "die Hauptstädte",
-    "lv": "Pealinn",
+    "lv": "Hovedstaden",
     "level": "A1"
   },
   {
     "de": "Heft",
     "de_article": "das",
     "de_plural": "die Hefte",
-    "lv": "Vihik",
+    "lv": "Notesbog",
     "level": "A1"
   },
   {
     "de": "heiraten",
-    "lv": "Abielluma",
+    "lv": "Bliv gift",
     "level": "A1"
   },
   {
     "de": "heiß",
-    "lv": "Kuum",
+    "lv": "Varmt",
     "level": "A1"
   },
   {
     "de": "heißen",
-    "lv": "Nimi olema • Tähendama",
+    "lv": "At blive kaldt • Mean",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "Nimi olema • Tähendama",
+      "translation": "At blive kaldt • Mean",
       "explanation": [
-        "Põhiidee: heißen kasutatakse kõige sagedamini selleks, et öelda, mis kellegi nimi on.",
-        "Fraas Ich heiße... tähendab “minu nimi on...”.",
-        "Sõnade või väljendite puhul võib heißen tähendada ka tähendama.",
-        "A1 tasemel on kõige tähtsam fraas Wie heißt du?"
+        "Hovedidé: heißen bruges oftest til at sige, hvad nogen hedder.",
+        "Udtrykket Ich heiße... betyder \"mit navn er...\".",
+        "Med ord eller udtryk kan heißen også betyde middel.",
+        "På A1-niveau er den vigtigste sætning Wie heißt du?"
       ],
       "examples": [
         {
           "de": "Ich heiße Anna.",
-          "lv": "Minu nimi on Anna."
+          "lv": "Mit navn er Anna."
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Kuidas sind kutsutakse?"
+          "lv": "Hvad er dit navn"
         },
         {
           "de": "Wie heißt das auf Deutsch?",
-          "lv": "Kuidas seda saksa keeles nimetatakse?"
+          "lv": "Hvad hedder det på tysk?"
         },
         {
           "de": "Was heißt das?",
-          "lv": "Mida see tähendab?"
+          "lv": "Hvad betyder det"
         }
       ],
       "comparison": [
         {
           "word": "heißen",
-          "meaning": "Nimi olema / tähendama",
-          "example": "Ich heiße Anna. = Minu nimi on Anna."
+          "meaning": "At blive kaldt/betyde",
+          "example": "Ich heiße Anna. = Mit navn er Anna."
         },
         {
           "word": "nennen",
-          "meaning": "Kutsuma / nimetama",
-          "example": "Er nennt mich Tom. = Ta kutsub mind Tomiks."
+          "meaning": "At ringe/navne",
+          "example": "Er nennt mich Tom. = Han kalder mig Tom."
         },
         {
           "word": "bedeuten",
-          "meaning": "Tähendama",
-          "example": "Was bedeutet das? = Mida see tähendab?"
+          "meaning": "Betyde",
+          "example": "Was bedeutet das? = Hvad betyder det?"
         },
         {
           "word": "rufen",
-          "meaning": "Hüüdma / helistama",
-          "example": "Ich rufe dich. = Ma hüüan sind / helistan sulle."
+          "meaning": "Ring/ring",
+          "example": "Ich rufe dich. = Jeg ringer til dig / jeg ringer til dig."
         }
       ],
       "tip": {
-        "text": "Atceries: Ich heiße... → mani sauc..."
+        "text": "Husk: Ich heiße... → mani sauc..."
       },
       "important": [
-        "Wie heißt du? nozīmē “Kā tevi sauc?”, nevis burtiski “kā tu saucies?”.",
-        "Was heißt das? bieži nozīmē “Ko tas nozīmē?”."
+        "Wie heißt du? betyder \"Hvad hedder du?\", ikke bogstaveligt \"hvad hedder du?\".",
+        "Var heißt das? betyder ofte \"Hvad betyder det?\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "heißen",
-            "Ich heiße",
-            "Wie heißt du"
-          ],
           "purple": [
-            "nimi",
-            "tähendama"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -8820,7 +8097,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "minu nimi on"
+                "Mit"
               ]
             }
           },
@@ -8832,7 +8109,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuidas"
+                "Hvad"
               ]
             }
           },
@@ -8844,7 +8121,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nimetatakse"
+                "Hvad"
               ]
             }
           },
@@ -8856,7 +8133,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tähendab"
+                "Hvad"
               ]
             }
           }
@@ -8870,8 +8147,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nimi olema",
-                "tähendama"
+                "blive",
+                "blive"
               ]
             },
             "example": {
@@ -8879,7 +8156,7 @@ const A1_WORDS = [
                 "heiße"
               ],
               "purple": [
-                "nimi"
+                "Ich"
               ]
             }
           },
@@ -8891,7 +8168,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kutsuma"
+                "ringe/navne"
               ]
             },
             "example": {
@@ -8909,13 +8186,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tähendama"
+                "Betyde"
               ]
             },
             "example": {
               "yellow": [
                 "bedeutet",
-                "tähendab"
+                "Was"
               ]
             }
           },
@@ -8927,8 +8204,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "hüüdma",
-                "helistama"
+                "Ring/ring",
+                "Ring/ring"
               ]
             },
             "example": {
@@ -8944,25 +8221,15 @@ const A1_WORDS = [
               "Ich heiße"
             ],
             "purple": [
-              "Atceries"
+              "mani sauc"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "Wie heißt du"
-            ],
             "purple": [
+              "Wie",
               "Wie"
-            ]
-          },
-          {
-            "blue": [
-              "Was heißt das"
-            ],
-            "purple": [
-              "Was"
             ]
           }
         ]
@@ -8971,109 +8238,103 @@ const A1_WORDS = [
   },
   {
     "de": "helfen",
-    "lv": "Aitama",
+    "lv": "At hjælpe",
     "level": "A1"
   },
   {
     "de": "Hemd",
     "de_article": "das",
     "de_plural": "die Hemden",
-    "lv": "Särk",
+    "lv": "En skjorte",
     "level": "A1"
   },
   {
     "de": "Herbst",
     "de_article": "der",
     "de_plural": "die Herbste",
-    "lv": "Sügis",
+    "lv": "Efterår",
     "level": "A1"
   },
   {
     "de": "Herr",
     "de_article": "der",
     "de_plural": "die Herren",
-    "lv": "Härra",
+    "lv": "Hr",
     "level": "A1"
   },
   {
     "de": "heute",
-    "lv": "Täna",
+    "lv": "I dag",
     "level": "A1"
   },
   {
     "de": "hier",
-    "lv": "Siin",
+    "lv": "Her",
     "level": "A1"
   },
   {
     "de": "Hilfe",
     "de_article": "die",
     "de_plural": "die Hilfen",
-    "lv": "Abi",
+    "lv": "Hjælp",
     "level": "A1"
   },
   {
     "de": "hinter",
-    "lv": "Taga",
+    "lv": "Bagved",
     "level": "A1"
   },
   {
     "de": "hoch",
-    "lv": "Kõrge",
+    "lv": "Høj",
     "level": "A1",
     "study": {
       "id": "a1-hoch-study",
       "layout": "standardStudy",
-      "translation": "Kõrge",
+      "translation": "Høj",
       "explanation": [
-        "Põhiidee: Kõrge vertikaalselt, taseme või kõrguse poolest.",
-        "Hoch tähendab peamiselt: kõrguselt suur.",
-        "Sageli kirjeldab: vertikaalset kõrgust.",
-        "Hoch tähendab peamiselt: kõrge tase.",
-        "Sageli kirjeldab: hindu/arve.",
-        "Hoch kirjeldab kõrgust, vertikaalset suunda või taset."
+        "Hovedidé: Høj lodret, niveau eller højde.",
+        "Hoch betyder primært: stor i højden.",
+        "Ofte karakteriseret ved: lodret højde.",
+        "Hoch betyder i bund og grund: højt niveau.",
+        "Ofte præget af: priser/tal.",
+        "Hoch beskriver højde, lodret retning eller niveau."
       ],
       "examples": [
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Mägi on kõrge."
+          "lv": "Bjerget er højt."
         },
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Mägi on kõrge."
+          "lv": "Bjerget er højt."
         },
         {
           "de": "Die Miete ist hoch.",
-          "lv": "Üür on kõrge."
+          "lv": "Huslejen er høj."
         },
         {
           "de": "Die Mauer ist hoch.",
-          "lv": "Müür on kõrge."
+          "lv": "Muren er høj."
         },
         {
           "de": "Die Preise sind hoch.",
-          "lv": "Hinnad on kõrged."
+          "lv": "Priserne er høje."
         }
       ],
       "tip": [
         "hoch = augsts",
-        "Izmanto hoch, kad konteksts atbilst šai nozīmei."
+        "Brug hoch, når konteksten passer til denne betydning."
       ],
       "important": [
-        "Cenām un līmenim bieži lieto hoch.",
+        "Hoch bruges ofte til priser og niveau.",
         "hoch = augsts.",
-        "Augsts vertikāli, līmenī vai augstumā."
+        "Høj lodret, niveau eller højde."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "hoch"
-          ],
           "purple": [
-            "kõrge"
-          ],
-          "orange": [
-            "kõrge"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -9086,7 +8347,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kõrge"
+                "Bjerget"
               ]
             }
           },
@@ -9099,7 +8360,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kõrge"
+                "Bjerget"
               ]
             }
           },
@@ -9112,7 +8373,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kõrge"
+                "Huslejen"
               ]
             }
           },
@@ -9125,7 +8386,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kõrge"
+                "Muren"
               ]
             }
           },
@@ -9138,7 +8399,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kõrged"
+                "Priserne"
               ]
             }
           }
@@ -9146,7 +8407,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "hoch"
+              "augsts"
             ]
           }
         ],
@@ -9162,74 +8423,59 @@ const A1_WORDS = [
   },
   {
     "de": "höflich",
-    "lv": "Viisakas",
+    "lv": "Høflig",
     "level": "A1"
   },
   {
     "de": "hören",
-    "lv": "Kuulma • Kuulama",
+    "lv": "Hør • Lyt",
     "level": "A1",
     "study": {
       "id": "a1-hoeren-study",
       "layout": "standardStudy",
-      "translation": "Kuulma • Kuulama",
+      "translation": "Hør • Lyt",
       "explanation": [
-        "Põhiidee: Kuulda heli või kuulata muusikat.",
-        "Hören tähendab peamiselt: heli tajuma.",
-        "Sageli kirjeldab: helisid.",
-        "Hören kasutatakse helide, muusika ja selle kohta, mida kuuldakse."
+        "Hovedidé: At høre lyd eller lytte til musik.",
+        "Hören betyder primært: at opfatte lyd.",
+        "Ofte karakteriseret ved: lyde.",
+        "Hören bruges til lyde, musik og hvad der høres."
       ],
       "examples": [
         {
           "de": "Ich höre Musik.",
-          "lv": "Ma kuulan muusikat."
+          "lv": "Jeg lytter til musik."
         },
         {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "Lapsed kuulavad lugu."
+          "lv": "Børnene lytter til historien."
         },
         {
           "de": "Ich höre dich.",
-          "lv": "Ma kuulen sind."
+          "lv": "Jeg hører dig"
         }
       ],
       "tip": [
-        "Dzirdēt skaņu vai klausīties mūziku.",
-        "Izmanto hören, kad konteksts atbilst šai nozīmei."
+        "Hør en lyd eller lyt til musik.",
+        "Brug hören, når konteksten passer til denne betydning."
       ],
       "important": [
-        "hören = dzirdēt/klausīties skaņu.",
-        "Dzirdēt skaņu vai klausīties mūziku."
+        "hören = at høre/lytte til en lyd.",
+        "Hør en lyd eller lyt til musik."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "hören"
-          ],
           "purple": [
-            "Põhiidee",
-            "kuulata",
-            "Kuulda"
-          ],
-          "green": [
-            "kuulata",
-            "Kuulda"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "höre",
                 "höre"
               ]
             },
-            "lv": {
-              "purple": [
-                "kuulan",
-                "kuulan"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -9238,24 +8484,17 @@ const A1_WORDS = [
                 "hören"
               ]
             },
-            "lv": {
-              "purple": [
-                "kuulavad",
-                "kuulavad"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "höre",
                 "höre"
               ]
             },
             "lv": {
               "purple": [
-                "kuulen",
-                "kuulen"
+                "Jeg"
               ]
             }
           }
@@ -9263,12 +8502,8 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Dzirdēt"
-            ]
-          },
-          {
-            "purple": [
-              "Dzirdēt"
+              "Hør",
+              "Hør"
             ]
           }
         ],
@@ -9284,84 +8519,80 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Nägus • Kena",
+    "lv": "Pænt • Pænt",
     "level": "A1"
   },
   {
     "de": "hundert",
-    "lv": "Sada",
+    "lv": "Hundrede",
     "level": "A1"
   },
   {
     "de": "hungrig",
-    "lv": "Näljane",
+    "lv": "Sulten",
     "level": "A1"
   },
   {
     "de": "ich",
-    "lv": "Mina",
+    "lv": "Mig",
     "level": "A1"
   },
   {
     "de": "ihr",
-    "lv": "Teie • Temale",
+    "lv": "Du • Hende",
     "level": "A1",
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "Teie • Temale",
+      "translation": "Du • Hende",
       "explanation": [
-        "Põhiidee: ihr on kaks erinevat ühesuguse kirjapildiga asesõna — mitme inimese poole pöördumine (teie) ja asesõna sie Dativi vorm (talle/tema).",
-        "Väikese ihr tõlgitakse mitme inimese poole pöördumisel sõnaga teie (Kommt ihr mit? = Kas te tulete kaasa?).",
-        "Ihr omastava asesõnana tähendab tema (ihr Buch = tema raamat).",
-        "Ihr Dativi vormina (sõnast sie) tähendab talle (Ich gebe ihr das Buch. = Ma annan talle raamatu.).",
-        "Tegusõna vorm (kommt, habt) näitab, et jutt on sõnast teie — mitme inimese poole pöördumisest.",
-        "Viisakas pöördumine on alati Sie suure algustähega, mitte ihr."
+        "Hovedidé: ihr er to forskellige pronominer med samme stavemåde - henvender sig til flere personer (dig) og dativformen af ​​pronomenet sie (hende/hun).",
+        "Med små bogstaver ihr som adresse til flere personer oversættes som dig (Kommt ihr mit? = Kommer du med?).",
+        "Ihr som besiddende pronomen betyder hende (ihr Buch = hendes bog).",
+        "Ihr som dativform (af sie) betyder for hende (Ich gebe ihr das Buch. = jeg giver hende en bog.).",
+        "Udsagnsordsformen (kommt, habt) viser, at det handler om dig – at henvende dig til flere personer.",
+        "Den høflige adresse er altid Sie med stort bogstav, ikke ihr."
       ],
       "examples": [
         {
           "de": "Kommt ihr heute Abend?",
-          "lv": "Kas te tulete täna õhtul?"
+          "lv": "Kommer du i aften"
         },
         {
           "de": "Ich gebe ihr das Buch.",
-          "lv": "Ma annan talle raamatu."
+          "lv": "Jeg giver hende bogen."
         },
         {
           "de": "Wo wohnt ihr?",
-          "lv": "Kus te elate?"
+          "lv": "Hvor bor du"
         },
         {
           "de": "Er schreibt ihr einen Brief.",
-          "lv": "Ta kirjutab talle kirja."
+          "lv": "Han skriver et brev til hende."
         },
         {
           "de": "Habt ihr Zeit?",
-          "lv": "Kas teil on aega?"
+          "lv": "Har du tid"
         },
         {
           "de": "Das ist ihr Auto.",
-          "lv": "See on tema auto."
+          "lv": "Det er hendes bil."
         }
       ],
       "tip": [
-        "ihr ar darbības vārda dsk. formu (kommt, habt) = jūs; ihr blakus vārdam kā datīvs vai piederība = viņai/viņas.",
-        "Pārbaudi: Habt ihr...? / Kommt ihr...? = jūs; Ich gebe ihr... / ihr Buch = viņai/viņas."
+        "ihr med verbet dsk. form (kommt, habt) = dig; ihr ved siden af ​​et ord som dativ eller besiddelse = hendes/hendes.",
+        "Tjek: Har du...? / Kommt ihr...? = dig; Ich gebe ihr... / ihr Buch = for hende/hendes."
       ],
       "important": [
-        "ihr = jūs (uzruna vairākiem) VAI viņai (datīvs) VAI viņas (piederība) — pēc konteksta.",
-        "Pieklājīgā uzruna vienmēr Sie ar lielo burtu, nevis ihr.",
-        "Nepareizi: Ihr (pieklājīgi) → Pareizi: Sie."
+        "ihr = dig (adresse til flere) ELLER hende (dativ) ELLER hende (besiddende) - afhængig af sammenhængen.",
+        "Den høflige adresse er altid Sie med stort bogstav, ikke ihr.",
+        "Forkert: Ihr (høflig) → Korrekt: Sie."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "ihr"
-          ],
           "purple": [
-            "teie",
-            "talle",
-            "tema"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -9373,7 +8604,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
+                "Kommer"
               ]
             }
           },
@@ -9385,7 +8616,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "talle"
+                "give"
               ]
             }
           },
@@ -9397,7 +8628,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kus"
+                "Hvor"
               ]
             }
           },
@@ -9409,7 +8640,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "talle"
+                "Han"
               ]
             }
           },
@@ -9421,7 +8652,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teil"
+                "Har"
               ]
             }
           },
@@ -9433,7 +8664,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tema"
+                "er"
               ]
             }
           }
@@ -9453,22 +8684,7 @@ const A1_WORDS = [
         "important": [
           {
             "purple": [
-              "ihr",
-              "ihr",
               "ihr"
-            ]
-          },
-          {
-            "blue": [
-              "Sie"
-            ]
-          },
-          {
-            "blue": [
-              "Sie"
-            ],
-            "red": [
-              "Ihr"
             ]
           }
         ]
@@ -9477,103 +8693,94 @@ const A1_WORDS = [
   },
   {
     "de": "im",
-    "lv": "Sees (-s) • Kus?",
+    "lv": "I • Hvor?",
     "level": "A1",
     "study": {
       "id": "a1-im",
       "layout": "standardStudy",
-      "translation": "Sees (-s) • Kus?",
+      "translation": "I • Hvor?",
       "explanation": [
-        "Im on eessõna in ja artikli dem lühend.",
-        "Täisvorm: in dem (Dativ).",
-        "Kasutatakse mees- ja kesksoost nimisõnadega, kui vastatakse küsimusele kus? — asukoht.",
-        "Ajaga ja aastaaegadega: im Januar, im Sommer, im Winter.",
-        "Praktikas kasutatakse peaaegu alati im, mitte täisvormi in dem."
+        "Im er en forkortelse for præpositionen i og artiklen dem.",
+        "Fuld form: in dem (til hvem?).",
+        "Brugt med maskuline navneord og navneord af ethvert køn, når du besvarer spørgsmålet hvor? — placering.",
+        "Med tid og årstider: im Januar, im Sommer, im Winter.",
+        "I praksis bruges im næsten altid i stedet for fuld i dem."
       ],
       "examples": [
         {
           "de": "Ich bin im Park.",
-          "lv": "Ma olen pargis."
+          "lv": "Jeg er i parken"
         },
         {
           "de": "Wir wohnen im Zentrum.",
-          "lv": "Me elame kesklinnas."
+          "lv": "Vi bor i centrum."
         },
         {
           "de": "Im Sommer ist es warm.",
-          "lv": "Suvel on soe."
+          "lv": "Det er varmt om sommeren."
         },
         {
           "de": "Er arbeitet im Büro.",
-          "lv": "Ta töötab kontoris."
+          "lv": "Han arbejder på et kontor."
         },
         {
           "de": "Das Kind spielt im Garten.",
-          "lv": "Laps mängib aias."
+          "lv": "Barnet leger i haven."
         },
         {
           "de": "Im Januar fahre ich nach Wien.",
-          "lv": "Jaanuaris sõidan ma Viini."
+          "lv": "Jeg tog til Wien i januar."
         },
         {
           "de": "Sie ist im Kino.",
-          "lv": "Ta on kinos."
+          "lv": "Hun er i biografen."
         },
         {
           "de": "Wir treffen uns im Restaurant.",
-          "lv": "Me kohtume restoranis."
+          "lv": "Vi mødes på en restaurant."
         }
       ],
       "comparison": [
         {
           "word": "im",
-          "meaning": "Sees, kus? (Dativ)",
-          "example": "im Park – Pargis"
+          "meaning": "Hvor inde? (til hvem?)",
+          "example": "im Park – I parken"
         },
         {
           "word": "ins",
-          "meaning": "Sisse, kuhu? (Akk.)",
-          "example": "ins Kino – Kinno"
+          "meaning": "Indad, hvor? (Acc.)",
+          "example": "ins Kino – Til biografen"
         },
         {
           "word": "in",
-          "meaning": "Sees / sisse (ilma artiklita)",
-          "example": "in Berlin – Berliinis"
+          "meaning": "I / til (ingen artikel)",
+          "example": "in Berlin – I Berlin"
         },
         {
           "word": "am",
-          "meaning": "Juures, kus? (Dativ)",
-          "example": "am Fenster – Akna juures"
+          "meaning": "På, hvor? (til hvem?)",
+          "example": "am Fenster – Ved vinduet"
         },
         {
           "word": "auf",
-          "meaning": "Pinnal",
-          "example": "auf dem Tisch – Laual"
+          "meaning": "På overfladen",
+          "example": "auf dem Tisch – På bordet"
         }
       ],
       "tip": [
-        "Atceries: in + dem → im (kam?, kur?).",
-        "Kurp? → ins; kur? → im — nesajauc šos divus!"
+        "Husk: in + dem → im (kam?, kur?).",
+        "Hvor? → ins; hvor? → im - lad være med at forveksle disse to!"
       ],
       "important": [
-        "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Atbild uz kur?, nevis kurp? — atrašanās vieta, nevis kustība.",
-        "Ar mēnešiem un gadalaikiem: im März, im Herbst.",
-        "Sieviešu dzimtei: in der Schule, nevis im Schule."
+        "im = in dem, kun med et hankøns- eller intetkønssubstantiv for hvem? i bøjning.",
+        "Svar på hvor?, ikke hvor? — placering, ikke bevægelse.",
+        "Med måneder og årstider: im März, im Herbst.",
+        "For kvinder: in der Schule, ikke im Schule."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "im",
-            "in dem"
-          ],
           "purple": [
-            "mees",
-            "kus?"
-          ],
-          "green": [
-            "eessõna",
-            "asukoht"
+            "forkortelse"
           ]
         },
         "examples": [
@@ -9585,7 +8792,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pargis"
+                "Jeg"
               ]
             }
           },
@@ -9597,7 +8804,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "elame"
+                "bor"
               ]
             }
           },
@@ -9609,7 +8816,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "suvel"
+                "Det"
               ]
             }
           },
@@ -9621,7 +8828,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kontoris"
+                "Han"
               ]
             }
           },
@@ -9633,7 +8840,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aias"
+                "Barnet"
               ]
             }
           },
@@ -9645,7 +8852,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaanuaris"
+                "Jeg"
               ]
             }
           },
@@ -9657,7 +8864,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kinos"
+                "Hun"
               ]
             }
           },
@@ -9669,7 +8876,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "restoranis"
+                "mødes"
               ]
             }
           }
@@ -9683,8 +8890,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sees",
-                "kus?"
+                "Hvor",
+                "Hvor"
               ]
             },
             "example": {
@@ -9701,8 +8908,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sisse",
-                "kuhu?"
+                "Indad",
+                "Indad"
               ]
             },
             "example": {
@@ -9719,7 +8926,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sees"
+                "til"
               ]
             },
             "example": {
@@ -9736,7 +8943,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "juures"
+                "hvor"
               ]
             },
             "example": {
@@ -9753,7 +8960,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pinnal"
+                "overfladen"
               ]
             },
             "example": {
@@ -9765,53 +8972,15 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "im"
-            ],
             "purple": [
-              "in + dem",
-              "Atceries"
-            ]
-          },
-          {
-            "red": [
-              "ins",
-              "Atceries"
+              "kur?"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "im"
-            ],
             "purple": [
               "in dem"
-            ],
-            "green": [
-              "dem"
-            ]
-          },
-          {
-            "purple": [
-              "Atbild"
-            ],
-            "green": [
-              "Atbild"
-            ]
-          },
-          {
-            "green": [
-              "im März",
-              "im Herbst"
-            ]
-          },
-          {
-            "yellow": [
-              "in der Schule"
-            ],
-            "red": [
-              "im Schule"
             ]
           }
         ]
@@ -9820,62 +8989,53 @@ const A1_WORDS = [
   },
   {
     "de": "immer",
-    "lv": "Alati",
+    "lv": "Altid",
     "level": "A1"
   },
   {
     "de": "in",
-    "lv": "Sees • Sisse",
+    "lv": "I • Til",
     "level": "A1",
     "study": {
       "id": "a1-in",
       "layout": "standardStudy",
-      "translation": "Sees • Sisse",
+      "translation": "I • Til",
       "explanation": [
-        "Põhiidee: in tähendab tavaliselt sees või mingisse kohta, kui jutt on ruumist, riigist, linnast või hoonest.",
-        "Asukoha puhul tõlgitakse in sageli sõnaga sees või lõpuga -s: in Berlin = Berliinis.",
-        "Liikumise puhul tähendab in sissepoole: ins Kino = kinno.",
-        "Eesti keeles muutub tõlge olenevalt kontekstist."
+        "Hovedidé: betyder normalt i eller til et sted, når der henvises til et rum, land, by eller bygning.",
+        "Med placering oversættes in ofte som i eller i: i Berlin = i Berlin.",
+        "Med bevægelsen i betyder indad: ins Kino = til biografen.",
+        "Den lettiske oversættelse ændres afhængigt af konteksten."
       ],
       "examples": [
         {
           "de": "Ich bin in Berlin.",
-          "lv": "Ma olen Berliinis."
+          "lv": "Jeg er i berlin"
         },
         {
           "de": "Ich gehe in die Schule.",
-          "lv": "Ma lähen kooli."
+          "lv": "Jeg går i skole"
         },
         {
           "de": "Das Buch ist in der Tasche.",
-          "lv": "Raamat on kotis."
+          "lv": "Bogen er i tasken."
         },
         {
           "de": "Wir gehen ins Kino.",
-          "lv": "Me läheme kinno."
+          "lv": "Vi skal i biografen."
         }
       ],
       "tip": {
-        "text": "Atceries: iekšā/telpā → in."
+        "text": "Husk: i/rum → i."
       },
       "important": [
-        "in nav vienmēr burtiski “iekšā”; latviski bieži saka Berlīnē, skolā, uz kino.",
-        "Ja runa ir par virsmu, bieži vajag auf, nevis in."
+        "in er ikke altid bogstaveligt \"in\"; på dansk siges ofte i Berlin, i skolen, i biografen.",
+        "Når det kommer til overflade, har du ofte brug for auf i stedet for in."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "in"
-          ],
           "purple": [
-            "sees",
-            "Põhiidee"
-          ],
-          "green": [
-            "ruumist",
-            "riigist",
-            "linnast",
-            "hoonest"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -9887,7 +9047,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Berliinis"
+                "Jeg"
               ]
             }
           },
@@ -9899,7 +9059,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kooli"
+                "Jeg"
               ]
             }
           },
@@ -9911,7 +9071,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kotis"
+                "Bogen"
               ]
             }
           },
@@ -9923,7 +9083,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kinno"
+                "skal"
               ]
             }
           }
@@ -9953,34 +9113,19 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "in"
+              "Husk"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "in"
-            ],
             "purple": [
-              "nav",
-              "nav",
-              "kino"
-            ]
-          },
-          {
-            "yellow": [
-              "auf"
-            ],
-            "red": [
-              "in"
-            ],
-            "purple": [
-              "runa"
+              "ikke",
+              "ikke"
             ]
           }
         ]
@@ -9989,104 +9134,96 @@ const A1_WORDS = [
   },
   {
     "de": "ins",
-    "lv": "Sisse • Sissepoole • Kuhu?",
+    "lv": "I • Ind i • Hvor?",
     "level": "A1",
     "study": {
       "id": "a1-ins",
       "layout": "standardStudy",
-      "translation": "Sisse • Sissepoole • Kuhu?",
+      "translation": "I • Ind i • Hvor?",
       "explanation": [
-        "Ins on eessõna in ja artikli das lühend.",
-        "Täisvorm: in das (Akkusativ).",
-        "Kasutatakse kesksoost nimisõnadega, kui vastatakse küsimusele kuhu? — liikumine sissepoole.",
-        "Sageli koos tegusõnadega: gehen, fahren, kommen, legen, stecken.",
-        "Praktikas kasutatakse peaaegu alati ins, mitte täisvormi in das."
+        "Ins er en forkortelse af præpositionen i og artiklen das.",
+        "Fuld form: in das (hvor?).",
+        "Brugt med navneord af ethvert køn, når du besvarer spørgsmålet hvor? — indadgående bevægelse.",
+        "Ofte med verber: gehen, fahren, kommen, legen, stecken.",
+        "I praksis bruges ins næsten altid i stedet for fuld indas."
       ],
       "examples": [
         {
           "de": "Ich gehe ins Kino.",
-          "lv": "Ma lähen kinno."
+          "lv": "Jeg går i biografen"
         },
         {
           "de": "Sie geht ins Bett.",
-          "lv": "Ta läheb magama."
+          "lv": "Hun går i seng."
         },
         {
           "de": "Wir fahren ins Ausland.",
-          "lv": "Me sõidame välismaale."
+          "lv": "Vi skal til udlandet."
         },
         {
           "de": "Komm ins Haus!",
-          "lv": "Tule majja!"
+          "lv": "Kom til huset!"
         },
         {
           "de": "Er steckt das Geld in den Geldbeutel.",
-          "lv": "Ta paneb raha rahakotti."
+          "lv": "Han putter pengene i sin pung."
         },
         {
           "de": "Wir gehen ins Museum.",
-          "lv": "Me läheme muuseumi."
+          "lv": "Vi går på museum."
         },
         {
           "de": "Sie legt die Blumen ins Wasser.",
-          "lv": "Ta paneb lilled vette."
+          "lv": "Hun sætter blomsterne i vandet."
         },
         {
           "de": "Fahr bitte ins Zentrum.",
-          "lv": "Palun, sõida kesklinna."
+          "lv": "Venligst gå til centret."
         }
       ],
       "comparison": [
         {
           "word": "ins",
-          "meaning": "Sisse, kuhu? (Akk.)",
-          "example": "ins Kino – Kinno"
+          "meaning": "Indad, hvor? (Acc.)",
+          "example": "ins Kino – Til biografen"
         },
         {
           "word": "im",
-          "meaning": "Sees, kus? (Dativ)",
-          "example": "im Kino – Kino"
+          "meaning": "Hvor inde? (til hvem?)",
+          "example": "im Kino – Biograf"
         },
         {
           "word": "in",
-          "meaning": "Sees / sisse (eraldi artikliga)",
-          "example": "in die Stadt – Linna"
+          "meaning": "I / til (med uafhængig artikel)",
+          "example": "in die Stadt – Til byen"
         },
         {
           "word": "aufs",
-          "meaning": "Pinnale (Akk.)",
-          "example": "aufs Dach – Katusele"
+          "meaning": "Til overfladen (Akk.)",
+          "example": "aufs Dach – På taget"
         },
         {
           "word": "zum",
-          "meaning": "-sse / juurde (Dativ)",
-          "example": "zum Arzt – Arsti juures"
+          "meaning": "Til / hos (hvem?)",
+          "example": "zum Arzt – Til lægen"
         }
       ],
       "tip": [
-        "Atceries: in + das → ins (kurp?, kurp?).",
-        "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
+        "Husk: in + das → ins (kurp?, kurp?).",
+        "Hvor? → ins; hvor? → im - dette er den vigtigste forskel!"
       ],
       "important": [
-        "ins = in das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
-        "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
-        "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
+        "ins = in das, kun med et navneord af ethvert køn hvor? i bøjning.",
+        "Svar på hvor?, ikke hvor? — bevægelse, ikke placering.",
+        "For det maskuline køn: in den Wald; af kvinder: in die Schule.",
+        "Forveksle ikke: ins Kino gehen (i biografen) vs. im Kino sein (at være i biografen)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "ins",
-            "in das"
-          ],
           "purple": [
-            "ins",
-            "sissepoole",
-            "kuhu?"
-          ],
-          "green": [
-            "kuhu?",
-            "liikumine"
+            "Ins",
+            "Ins",
+            "Ins"
           ]
         },
         "examples": [
@@ -10098,7 +9235,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kinno"
+                "Jeg"
               ]
             }
           },
@@ -10110,7 +9247,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "magama"
+                "Hun"
               ]
             }
           },
@@ -10122,7 +9259,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "välismaale"
+                "skal"
               ]
             }
           },
@@ -10134,7 +9271,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "majja"
+                "Kom"
               ]
             }
           },
@@ -10146,9 +9283,9 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "paneb",
-                "raha",
-                "rahakotti"
+                "Han",
+                "Han",
+                "Han"
               ]
             }
           },
@@ -10160,7 +9297,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "muuseumi"
+                "går"
               ]
             }
           },
@@ -10172,7 +9309,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "paneb"
+                "Hun"
               ]
             }
           },
@@ -10184,7 +9321,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kesklinna"
+                "Venligst"
               ]
             }
           }
@@ -10198,8 +9335,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sisse",
-                "kuhu?"
+                "Indad",
+                "Indad"
               ]
             },
             "example": {
@@ -10216,8 +9353,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sees",
-                "kus?"
+                "Hvor",
+                "Hvor"
               ]
             },
             "example": {
@@ -10234,9 +9371,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sees",
-                "sees",
-                "sees"
+                "til",
+                "til",
+                "til"
               ]
             },
             "example": {
@@ -10253,7 +9390,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pinnale"
+                "Til"
               ]
             },
             "example": {
@@ -10270,8 +9407,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse",
-                "juurde"
+                "Til",
+                "Til"
               ]
             },
             "example": {
@@ -10283,55 +9420,15 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "ins"
-            ],
             "purple": [
-              "in + das",
-              "Atceries"
-            ]
-          },
-          {
-            "red": [
-              "im",
-              "Atceries"
+              "kurp?"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "ins"
-            ],
             "purple": [
               "in das"
-            ],
-            "green": [
-              "ins"
-            ]
-          },
-          {
-            "purple": [
-              "Atbild"
-            ],
-            "green": [
-              "Atbild"
-            ]
-          },
-          {
-            "yellow": [
-              "in den Wald"
-            ],
-            "green": [
-              "in die Schule"
-            ]
-          },
-          {
-            "blue": [
-              "ins Kino gehen"
-            ],
-            "red": [
-              "im Kino sein"
             ]
           }
         ]
@@ -10340,106 +9437,100 @@ const A1_WORDS = [
   },
   {
     "de": "ja",
-    "lv": "Jah",
+    "lv": "Ja",
     "level": "A1"
   },
   {
     "de": "Januar",
     "de_article": "der",
-    "lv": "Jaanuar",
+    "lv": "Januar",
     "level": "A1"
   },
   {
     "de": "jawohl",
-    "lv": "Täpselt nii",
+    "lv": "Præcis sådan",
     "level": "A1"
   },
   {
     "de": "jeder",
-    "lv": "Iga",
+    "lv": "Hver enkelt",
     "level": "A1"
   },
   {
     "de": "jemand",
-    "lv": "Keegi",
+    "lv": "Nogen",
     "level": "A1"
   },
   {
     "de": "jetzt",
-    "lv": "Nüüd • Praegu",
+    "lv": "Nu • I øjeblikket",
     "level": "A1"
   },
   {
     "de": "Juli",
     "de_article": "der",
-    "lv": "Juuli",
+    "lv": "Juli",
     "level": "A1"
   },
   {
     "de": "jung",
-    "lv": "Noor (inimeste kohta)",
+    "lv": "Ung (om mennesker)",
     "level": "A1",
     "study": {
       "id": "a1-jung",
       "layout": "standardStudy",
-      "translation": "Noor (inimeste kohta)",
+      "translation": "Ung (om mennesker)",
       "explanation": [
-        "Põhiidee: jung tähendab noor vanuse mõttes — kasutatakse inimeste ja loomade, mitte asjade kohta.",
-        "Jung kirjeldab vanust — vastand on alt (vana).",
-        "Eesti keeles on need kaks tähendust eri sõnadega: noor vanuse kohta (jung) ja uus/hiljuti valminud asja kohta (neu).",
-        "Asjade kohta, mis on hiljuti loodud või ostetud, kasutatakse neu, mitte jung.",
-        "Jung kasutatakse ka ülekantud tähenduses: noor põlvkond, noor paar, noored inimesed.",
-        "On olemas ka nimisõna die Jugend (noorsugu, noorus)."
+        "Hovedidé: jung betyder ung i alderen - brugt af mennesker og dyr, ikke ting.",
+        "Jung beskriver alder – det modsatte er alt (gammelt).",
+        "På lettisk har ordet ung to betydninger: ung i alderen (jung) og ung/nyligt oprettet (neu).",
+        "For nyligt oprettede eller erhvervede ting, brug neu, ne jung.",
+        "Jung bruges også i overført betydning: en ny generation, et ungt par, unge mennesker.",
+        "Der er også substantivet die Jugend (ungdom)."
       ],
       "examples": [
         {
           "de": "Sie ist noch jung.",
-          "lv": "Ta on veel noor."
+          "lv": "Hun er stadig ung."
         },
         {
           "de": "Der Hund ist jung.",
-          "lv": "Koer on noor."
+          "lv": "Hunden er ung."
         },
         {
           "de": "Wir sind noch jung.",
-          "lv": "Me oleme veel noored."
+          "lv": "Vi er stadig unge."
         },
         {
           "de": "Er sieht sehr jung aus.",
-          "lv": "Ta näeb väga noor välja."
+          "lv": "Han ser meget ung ud."
         },
         {
           "de": "Das ist ein junges Paar.",
-          "lv": "See on noor paar."
+          "lv": "Det er et nyt par."
         },
         {
           "de": "Die junge Frau lächelt.",
-          "lv": "Noor naine naeratab."
+          "lv": "Den unge kvinde smiler."
         },
         {
           "de": "Mein Bruder ist jünger als ich.",
-          "lv": "Minu vend on noorem kui mina."
+          "lv": "Min bror er yngre end mig."
         }
       ],
       "tip": [
-        "jung ir par vecumu (cilvēki, dzīvnieki) — ja runā par lietām, kas nesen radītas, lieto neu.",
-        "Pretstats: jung ↔ alt (jauns ↔ vecs)."
+        "jung handler om alder (mennesker, dyr) - når du taler om ting, der for nylig er blevet skabt, så brug neu.",
+        "Modsat: jung ↔ alt (ung ↔ gammel)."
       ],
       "important": [
         "jung raksturo vecumu, ne lietas jaunumu.",
-        "Par jaunām lietām (telefonu, automašīnu, māju) lieto neu, nevis jung.",
+        "Til nye ting (telefon, bil, hus) brug neu i stedet for jung.",
         "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "jung"
-          ],
           "purple": [
-            "uus"
-          ],
-          "green": [
-            "neu"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -10451,7 +9542,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noor"
+                "Hun"
               ]
             }
           },
@@ -10463,7 +9554,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "koer"
+                "Hunden"
               ]
             }
           },
@@ -10475,7 +9566,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noored"
+                "stadig"
               ]
             }
           },
@@ -10487,19 +9578,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "näeb"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "junges"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "see"
+                "Han"
               ]
             }
           },
@@ -10511,7 +9590,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noor"
+                "Det"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "junge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Den"
               ]
             }
           },
@@ -10523,24 +9614,13 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noorem"
+                "Min"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "jung"
-            ],
-            "green": [
-              "neu"
-            ]
-          },
-          {
-            "blue": [
-              "jung"
-            ],
             "purple": [
               "alt"
             ]
@@ -10575,77 +9655,74 @@ const A1_WORDS = [
   {
     "de": "Juni",
     "de_article": "der",
-    "lv": "Juuni",
+    "lv": "Juni",
     "level": "A1"
   },
   {
     "de": "Jeans",
     "de_article": "die",
-    "lv": "Teksapüksid",
+    "lv": "Jeans",
     "level": "A1"
   },
   {
     "de": "kaufen",
-    "lv": "Ostma",
+    "lv": "At købe",
     "level": "A1"
   },
   {
     "de": "kein",
-    "lv": "Mitte ükski • Mitte mingi",
+    "lv": "Ingen • Intet",
     "level": "A1",
     "study": {
       "id": "a1-kein",
       "layout": "standardStudy",
-      "translation": "Mitte ükski • Mitte mingi",
+      "translation": "Ingen • Intet",
       "explanation": [
-        "Põhiidee: kein on eitav artikkel, mis eitab nimisõna — eesti keeles olenevalt kontekstist mitte ükski või mitte mingi.",
-        "Kein käändub samamoodi nagu ein (kein/keine/keinen...) ja seisab nimisõna ees.",
-        "Loendatavate nimisõnadega (inimestega) tõlgitakse kein sageli kui mitte ükski (kein Mensch = mitte ükski inimene).",
-        "Loendamatute või abstraktsete nimisõnadega tõlgitakse kein sageli kui mitte mingi/ei ole üldse (kein Geld = mitte mingit raha/ei ole raha).",
-        "Kein eitab tervet nimisõna, mitte ainult tegusõna (võrdle sõnaga nicht)."
+        "Hovedidé: kein er en negationsartikel, der negerer et substantiv - lettisk, afhængigt af konteksten, ingen eller intet.",
+        "Kein bøjes som ein (kein/keine/keinen...) og står foran et substantiv.",
+        "Med tællelige navneord (mennesker) oversættes kein ofte med ingen (kein Mensch = intet menneske).",
+        "Med uforpligtende eller abstrakte navneord oversættes kein ofte med ingenting/slet ikke (kein Geld = ingen penge/ingen penge).",
+        "Kein afviser et helt navneord, ikke kun et verbum (sammenlign nicht)."
       ],
       "examples": [
         {
           "de": "Ich habe kein Geld.",
-          "lv": "Mul ei ole raha."
+          "lv": "Jeg har ikke penge"
         },
         {
           "de": "Es gibt keine Milch mehr.",
-          "lv": "Piima ei ole enam üldse."
+          "lv": "Der er slet ikke mere mælk."
         },
         {
           "de": "Kein Mensch war da.",
-          "lv": "Ükski inimene ei olnud seal."
+          "lv": "Ingen var der."
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Mul ei ole aega."
+          "lv": "Jeg har ikke tid"
         },
         {
           "de": "Das ist kein Problem.",
-          "lv": "See ei ole mingi probleem."
+          "lv": "Det er ikke noget problem."
         },
         {
           "de": "Wir haben keine Kinder.",
-          "lv": "Meil ei ole lapsi."
+          "lv": "Vi har ingen børn."
         }
       ],
       "tip": [
-        "kein noliedz lietvārdu (kein + lietvārds), nicht noliedz darbības vārdu vai teikumu.",
-        "kein locījas kā ein: kein/keine/keinen/keiner."
+        "kein fornægter et substantiv (kein + substantiv), nicht negerer et verbum eller en klausul.",
+        "kein bøjes som ein: kein/keine/keinen/keiner."
       ],
       "important": [
-        "kein + lietvārds = 'nav nekāda/neviena X', ne 'nicht ein X'.",
-        "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
+        "kein + substantiv = 'der er ingen/intet X', ikke 'nicht ein X'.",
+        "Nepareizi: Ich have nicht ein Geld. → Pareizi: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "kein"
-          ],
           "purple": [
-            "Põhiidee",
-            "mitte mingi"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -10657,7 +9734,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei ole"
+                "Jeg"
               ]
             }
           },
@@ -10669,7 +9746,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "piima"
+                "Der"
               ]
             }
           },
@@ -10681,7 +9758,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ükski"
+                "Ingen"
               ]
             }
           },
@@ -10693,7 +9770,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei ole"
+                "Jeg"
               ]
             }
           },
@@ -10705,7 +9782,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mingi"
+                "Det"
               ]
             }
           },
@@ -10717,7 +9794,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei ole"
+                "har"
               ]
             }
           }
@@ -10759,88 +9836,113 @@ const A1_WORDS = [
     "de": "Keks",
     "de_article": "der",
     "de_plural": "die Kekse",
-    "lv": "Küpsis",
+    "lv": "Cookie",
     "level": "A1"
   },
   {
     "de": "kennen",
-    "lv": "Tundma",
+    "lv": "At vide",
     "level": "A1",
     "id": "a1-kennen",
     "study": {
       "id": "a1-kennen-study",
       "layout": "standardStudy",
-      "translation": "Tundma",
+      "translation": "At vide",
       "explanation": [
-        "Põhiidee: Tunda inimest, kohta või asja kogemuse põhjal.",
-        "Kennen tähendab peamiselt: isiklik tundmine.",
-        "Sageli kirjeldab: inimesi, kohti.",
-        "Kennen kasutatakse siis, kui tunned inimest, kohta või asja isiklikust kogemusest."
+        "Hovedidé: At kende en person, et sted eller en ting af erfaring.",
+        "Kennen betyder primært: personligt bekendtskab.",
+        "Beskriver ofte: mennesker, steder.",
+        "Kennen bruges, når du kender en person, et sted eller en ting fra personlig erfaring."
       ],
       "examples": [
         {
           "de": "Ich kenne ihn.",
-          "lv": "Ma tunnen teda."
+          "lv": "Jeg kender ham."
         },
         {
           "de": "Kennen Sie diese Frau?",
-          "lv": "Kas te tunnete seda naist?"
+          "lv": "Kender du denne kvinde"
         },
         {
           "de": "Wo habt ihr euch kennengelernt?",
-          "lv": "Kus te tutvusite?"
+          "lv": "Hvor mødtes du?"
         },
         {
           "de": "Ich kenne ihn.",
-          "lv": "Ma tunnen teda."
+          "lv": "Jeg kender ham"
         },
         {
           "de": "kennen",
-          "lv": "Kas sa tunned seda linna?"
+          "lv": "At kende wissen"
         }
       ],
       "comparison": [
         {
           "word": "kennen",
-          "meaning": "Tundma (inimest, kohta, asja)",
-          "example": "Ich kenne ihn. – Ma tunnen teda."
+          "meaning": "Kend (person, sted, ting)",
+          "example": "Ich kenne ihn. – Jeg kender ham."
         },
         {
           "word": "wissen",
-          "meaning": "Teadma (fakti, teavet)",
-          "example": "Ich weiß seinen Namen. – Ma tean tema nime."
+          "meaning": "Kend (fakta, information)",
+          "example": "Ich weiß seinen Namen. – Jeg kender hans navn."
         }
       ],
       "tip": [
-        "kennen = pazīt",
-        "Izmanto kennen, kad konteksts atbilst šai nozīmei."
+        "kende = at vide",
+        "Brug kennen, når konteksten passer til denne betydning."
       ],
       "important": [
-        "kennen = pazīt cilvēku/vietu.",
-        "kennen = pazīt.",
-        "Pazīt cilvēku, vietu vai lietu no pieredzes."
+        "kennen = at kende en person/sted.",
+        "kende = at vide.",
+        "At kende en person, et sted eller en ting af erfaring."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "kennen",
-            "kennen"
-          ],
           "purple": [
-            "tundmine"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "kenne",
                 "kenne"
               ]
             },
             "lv": {
               "purple": [
-                "tunnen"
+                "Jeg"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "kenne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Jeg"
               ]
             }
           },
@@ -10853,45 +9955,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "kennen",
-                "kennen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "kenne",
-                "kenne"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tunnen"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "kennen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tunned"
+                "kende"
               ]
             }
           }
@@ -10915,77 +9979,64 @@ const A1_WORDS = [
   },
   {
     "de": "wissen",
-    "lv": "Teadma",
+    "lv": "At vide",
     "level": "A1",
     "id": "a1-wissen",
     "study": {
       "id": "a1-wissen-study",
       "layout": "standardStudy",
-      "translation": "Teadma",
+      "translation": "At vide",
       "explanation": [
-        "Põhiidee: Teada fakti, vastust või teavet.",
-        "Wissen tähendab peamiselt: teave/fakt.",
-        "Sageli kirjeldab: vastuseid, andmeid.",
-        "Wissen kasutatakse, kui tead fakti, vastust või teavet."
+        "Hovedidé: At kende et faktum, svar eller information.",
+        "Wissen betyder hovedsageligt: ​​information/fakta.",
+        "Ofte præget af: svar, data.",
+        "Wissen bruges, når du kender et faktum, svar eller information."
       ],
       "examples": [
         {
           "de": "Ich weiß, wo er wohnt.",
-          "lv": "Ma tean, kus ta elab."
+          "lv": "Jeg ved, hvor han bor."
         },
         {
           "de": "Woher wissen Sie das?",
-          "lv": "Kust te seda teate?"
+          "lv": "Hvordan ved du det?"
         },
         {
           "de": "Ich weiß die Antwort.",
-          "lv": "Ma tean vastust."
+          "lv": "Jeg kender svaret."
         }
       ],
       "comparison": [
         {
           "word": "wissen",
-          "meaning": "Teadma (fakti, teavet)",
-          "example": "Ich weiß, wo er wohnt. – Ma tean, kus ta elab."
+          "meaning": "Kend (fakta, information)",
+          "example": "Ich weiß, wo er wohnt. – Jeg ved, hvor han bor."
         },
         {
           "word": "kennen",
-          "meaning": "Tundma (inimest, kohta, asja)",
-          "example": "Ich kenne die Stadt. – Ma tunnen linna."
+          "meaning": "Kend (person, sted, ting)",
+          "example": "Ich kenne die Stadt. – Jeg kender byen."
         }
       ],
       "tip": [
-        "wissen = zināt",
-        "Izmanto wissen, kad konteksts atbilst šai nozīmei."
+        "wissen = at vide",
+        "Brug wissen, når sammenhængen passer til denne betydning."
       ],
       "important": [
-        "wissen = zināt faktu.",
-        "wissen = zināt.",
-        "Zināt faktu, atbildi vai informāciju."
+        "wissen = kende kendsgerningen.",
+        "wissen = at vide.",
+        "Kend et faktum, svar eller information."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "wissen",
-            "wissen"
-          ],
           "purple": [
-            "Teada"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Ich",
-                "Ich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tean"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
@@ -10996,22 +10047,13 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kust"
+                "Hvordan"
               ]
             }
           },
           {
-            "de": {
-              "green": [
-                "Ich",
-                "Ich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tean"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
@@ -11035,121 +10077,113 @@ const A1_WORDS = [
     "de": "Kilogramm",
     "de_article": "das",
     "de_plural": "die Kilogramm",
-    "lv": "Kilogramm",
+    "lv": "Kilogram",
     "level": "A1"
   },
   {
     "de": "Kilometer",
     "de_article": "der",
     "de_plural": "die Kilometer",
-    "lv": "Kilomeeter",
+    "lv": "Kilometer",
     "level": "A1"
   },
   {
     "de": "Kind",
     "de_article": "das",
     "de_plural": "die Kinder",
-    "lv": "Laps",
+    "lv": "Et barn",
     "level": "A1"
   },
   {
     "de": "Kindergarten",
     "de_article": "der",
     "de_plural": "die Kindergärten",
-    "lv": "Lasteaed",
+    "lv": "Børnehave",
     "level": "A1"
   },
   {
     "de": "Kirche",
     "de_article": "die",
     "de_plural": "die Kirchen",
-    "lv": "Kirik",
+    "lv": "Kirke",
     "level": "A1"
   },
   {
     "de": "kochen",
-    "lv": "Valmistama",
+    "lv": "At lave mad",
     "level": "A1"
   },
   {
     "de": "kommen",
-    "lv": "Tulema",
+    "lv": "At komme",
     "level": "A1"
   },
   {
     "de": "können",
-    "lv": "Saama • Oskama",
+    "lv": "Kunne • Kende",
     "level": "A1",
     "study": {
       "id": "a1-können",
       "layout": "standardStudy",
-      "translation": "Saama • Oskama",
+      "translation": "Kunne • Kende",
       "explanation": [
-        "Põhiidee: können tähendab midagi suutma või oskama teha.",
-        "Kui jutt on võimest või oskusest, öeldakse eesti keeles sageli oskama.",
-        "Kui jutt on võimalusest, öeldakse sageli saama.",
-        "Können on modaaltegusõna, seepärast seisab teine tegusõna tavaliselt lause lõpus."
+        "Hovedidé: können betyder at kunne eller vide, hvordan man gør noget.",
+        "Når det kommer til evner eller færdigheder, siger lettiske ofte at vide.",
+        "Når det kommer til mulighed, siges det ofte at kunne.",
+        "Können er et modalt verbum, så det andet verbum kommer normalt til sidst."
       ],
       "examples": [
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "Ma oskan saksa keelt rääkida."
+          "lv": "Jeg kan tale tysk"
         },
         {
           "de": "Kannst du mir helfen?",
-          "lv": "Kas sa saad mind aidata?"
+          "lv": "Kan du hjælpe mig"
         },
         {
           "de": "Wir können heute kommen.",
-          "lv": "Me saame täna tulla."
+          "lv": "Vi kan komme i dag."
         },
         {
           "de": "Er kann gut schwimmen.",
-          "lv": "Ta oskab hästi ujuda."
+          "lv": "Han kan godt svømme."
         }
       ],
       "comparison": [
         {
           "word": "können",
-          "meaning": "Saama / oskama",
-          "example": "Ich kann schwimmen. = Ma oskan ujuda."
+          "meaning": "Kunne/kende",
+          "example": "Ich kann schwimmen. = Jeg kan svømme."
         },
         {
           "word": "dürfen",
-          "meaning": "Tohtima",
-          "example": "Darf ich gehen? = Kas ma tohin minna?"
+          "meaning": "At få lov",
+          "example": "Darf ich gehen? = Må jeg gå"
         },
         {
           "word": "müssen",
-          "meaning": "Vajama / pidama",
-          "example": "Ich muss lernen. = Ma pean õppima."
+          "meaning": "Behøver/være ja-",
+          "example": "Ich muss lernen. = Jeg skal studere."
         },
         {
           "word": "wissen",
-          "meaning": "Teadma",
-          "example": "Ich weiß das. = Ma tean seda."
+          "meaning": "At vide",
+          "example": "Ich weiß das. = Det ved jeg."
         }
       ],
       "tip": {
-        "text": "Atceries: prasme/iespēja → können."
+        "text": "Husk: dygtighed/evne → können."
       },
       "important": [
-        "können nav tas pats, kas dürfen. können = varēt/prast, dürfen = drīkstēt.",
-        "Teikumā ar können otrs darbības vārds bieži stāv beigās: Ich kann schwimmen."
+        "können er ikke det samme som dürfen. können = at kunne/kende, dürfen = at få lov.",
+        "I en sætning med können kommer det andet verbum ofte til sidst: Ich kann schwimmen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "können"
-          ],
           "purple": [
-            "saama",
-            "oskama"
-          ],
-          "green": [
-            "Põhiidee",
-            "oskusest",
-            "võimalusest"
+            "man",
+            "man"
           ]
         },
         "examples": [
@@ -11161,7 +10195,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "oskan"
+                "kan"
               ]
             }
           },
@@ -11173,7 +10207,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saad"
+                "Kan"
               ]
             }
           },
@@ -11185,7 +10219,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saame"
+                "kan"
               ]
             }
           },
@@ -11197,7 +10231,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "oskab"
+                "Han"
               ]
             }
           }
@@ -11211,8 +10245,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saama",
-                "oskama"
+                "Kunne/kende",
+                "Kunne/kende"
               ]
             },
             "example": {
@@ -11220,7 +10254,7 @@ const A1_WORDS = [
                 "kann"
               ],
               "purple": [
-                "oskan"
+                "Ich"
               ]
             }
           },
@@ -11232,13 +10266,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tohtima"
+                "lov"
               ]
             },
             "example": {
               "red": [
                 "Darf",
-                "tohin"
+                "Darf"
               ]
             }
           },
@@ -11250,7 +10284,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vajama"
+                "Behøver/være"
               ]
             },
             "example": {
@@ -11268,13 +10302,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "teadma"
+                "vide"
               ]
             },
             "example": {
               "green": [
                 "weiß",
-                "tean"
+                "Ich"
               ]
             }
           }
@@ -11285,31 +10319,15 @@ const A1_WORDS = [
               "können"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "können"
-            ],
-            "red": [
-              "dürfen"
-            ],
             "purple": [
-              "können",
-              "können",
               "können"
-            ]
-          },
-          {
-            "blue": [
-              "kann"
-            ],
-            "green": [
-              "schwimmen"
             ]
           }
         ]
@@ -11318,99 +10336,88 @@ const A1_WORDS = [
   },
   {
     "de": "kosten",
-    "lv": "Maksma",
+    "lv": "At betale",
     "level": "A1",
     "study": {
       "id": "a1-kosten",
       "layout": "standardStudy",
-      "translation": "Maksma",
+      "translation": "At betale",
       "explanation": [
-        "Põhiidee: kosten tähendab maksma nii ja nii palju — jutt on asja hinnast.",
-        "Seda sõna kasutatakse, kui küsitakse või öeldakse, kui palju miski maksab, mitte siis, kui inimene teeb makse.",
-        "Hinnaküsimus algab saksa keeles sageli sõnadega Was kostet...?",
-        "Eesti sõna maksma on selles kontekstis õige: Das kostet 5 Euro. = See maksab 5 eurot.",
-        "Kui inimene annab kauba või teenuse eest raha, kasutatakse saksa keeles bezahlen või zahlen."
+        "Hovedidé: kosten betyder at betale sådan og sådan - taler om prisen på en ting.",
+        "Dette ord bruges, når man spørger eller siger, hvor meget noget koster, ikke når en person foretager en betaling.",
+        "Et prisspørgsmål på tysk begynder ofte med Var kostet...?",
+        "Det lettiske ord at betale er korrekt i denne sammenhæng: Das kostet 5 Euro. = Det koster 5 euro.",
+        "Når en person giver penge for en vare eller tjeneste, bruger tysk bezahlen eller zahlen."
       ],
       "examples": [
         {
           "de": "Das kostet 5 Euro.",
-          "lv": "See maksab 5 eurot."
+          "lv": "Det koster 5 euro."
         },
         {
           "de": "Was kostet das?",
-          "lv": "Kui palju see maksab?"
+          "lv": "Hvor meget koster det"
         },
         {
           "de": "Wie viel kostet der Pullover?",
-          "lv": "Kui palju kampsun maksab?"
+          "lv": "Hvor meget koster en sweater?"
         },
         {
           "de": "Das Essen kostet nicht viel.",
-          "lv": "Toit ei maksa palju."
+          "lv": "Maden koster ikke meget."
         },
         {
           "de": "Ich bezahle die Rechnung.",
-          "lv": "Ma maksan arve."
+          "lv": "Jeg betaler regningen"
         },
         {
           "de": "Kann ich bar bezahlen?",
-          "lv": "Kas ma saan sularahas maksta?"
+          "lv": "Kan jeg betale kontant"
         },
         {
           "de": "Er zahlt mit Karte.",
-          "lv": "Ta maksab kaardiga."
+          "lv": "Han betaler med kort."
         },
         {
           "de": "Ich zahle gleich.",
-          "lv": "Ma maksan kohe."
+          "lv": "Jeg betaler nu"
         }
       ],
       "comparison": [
         {
           "word": "kosten",
-          "meaning": "Maksma (hinda) • Kui palju maksab",
-          "example": "Das kostet 5 Euro. = See maksab 5 eurot."
+          "meaning": "Betal (pris) • Hvor meget",
+          "example": "Das kostet 5 Euro. = Det koster 5 euro."
         },
         {
           "word": "bezahlen",
-          "meaning": "Maksma • Ära maksma (raha)",
-          "example": "Ich bezahle die Rechnung. = Ma maksan arve."
+          "meaning": "Betal • Betal (penge)",
+          "example": "Ich bezahle die Rechnung. = Jeg betaler regningen."
         },
         {
           "word": "zahlen",
-          "meaning": "Maksma • Ära maksma",
-          "example": "Kann ich bar zahlen? = Kas ma saan sularahas maksta?"
+          "meaning": "At betale • At betale",
+          "example": "Kann ich bar zahlen? = Kan jeg betale kontant?"
         },
         {
           "word": "Was kostet...?",
-          "meaning": "Kui palju maksab...?",
-          "example": "Was kostet das Buch? = Kui palju raamat maksab?"
+          "meaning": "Hvor meget koster det...?",
+          "example": "Was kostet das Buch? = Hvor meget koster bogen?"
         }
       ],
       "tip": [
-        "Atceries: jautājums par cenu → kosten (Was kostet das?).",
-        "Atceries: maksājuma veikšana → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+        "Husk: spørgsmål om pris → kosten (Was kostet das?).",
+        "Husk: at foretage en betaling → bezahlen / zahlen (Ich bezahle die Rechnung.)."
       ],
       "important": [
-        "kosten un bezahlen nav sinonīmi: kosten = cik maksā; bezahlen = samaksāt naudu.",
-        "Latviski abos gadījumos bieži lieto maksāt, bet vācu valodā jāizvēlas pēc situācijas."
+        "kosten og bezahlen er ikke synonyme: kosten = hvor meget det koster; bezahlen = tjene penge.",
+        "på dansk bruges i begge tilfælde ofte til at betale, men på tysk skal man vælge efter situationen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "kosten"
-          ],
           "purple": [
-            "maksma",
-            "Põhiidee",
-            "Põhiidee"
-          ],
-          "green": [
-            "Was kostet"
-          ],
-          "yellow": [
-            "bezahlen",
-            "zahlen"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -11422,7 +10429,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksab"
+                "Det"
               ]
             }
           },
@@ -11434,7 +10441,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksab"
+                "Hvor"
               ]
             }
           },
@@ -11446,7 +10453,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksab"
+                "Hvor"
               ]
             }
           },
@@ -11458,7 +10465,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei maksa"
+                "Maden"
               ]
             }
           },
@@ -11470,7 +10477,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksan"
+                "Jeg"
               ]
             }
           },
@@ -11482,7 +10489,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksta"
+                "Kan"
               ]
             }
           },
@@ -11494,7 +10501,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksab"
+                "Han"
               ]
             }
           },
@@ -11506,7 +10513,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksan"
+                "Jeg"
               ]
             }
           }
@@ -11520,9 +10527,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "maksma",
-                "hinda",
-                "kui palju maksab"
+                "Betal",
+                "Betal",
+                "Betal"
               ]
             },
             "example": {
@@ -11530,7 +10537,7 @@ const A1_WORDS = [
                 "kostet"
               ],
               "purple": [
-                "maksab"
+                "Das"
               ]
             }
           },
@@ -11542,8 +10549,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "maksma",
-                "maksma"
+                "Betal",
+                "Betal"
               ]
             },
             "example": {
@@ -11551,7 +10558,7 @@ const A1_WORDS = [
                 "bezahle"
               ],
               "purple": [
-                "maksan"
+                "Ich"
               ]
             }
           },
@@ -11563,8 +10570,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "maksma",
-                "maksma"
+                "betale",
+                "betale"
               ]
             },
             "example": {
@@ -11572,7 +10579,7 @@ const A1_WORDS = [
                 "zahlen"
               ],
               "purple": [
-                "maksta"
+                "Kann"
               ]
             }
           },
@@ -11584,7 +10591,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kui palju maksab"
+                "Hvor"
               ]
             },
             "example": {
@@ -11592,48 +10599,23 @@ const A1_WORDS = [
                 "kostet"
               ],
               "purple": [
-                "maksab"
+                "Was"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "kosten",
-              "Was kostet"
-            ],
             "purple": [
-              "Atceries"
-            ]
-          },
-          {
-            "yellow": [
-              "bezahlen",
-              "zahlen"
-            ],
-            "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "kosten"
-            ],
-            "yellow": [
-              "bezahlen"
-            ],
             "purple": [
               "kosten",
-              "maksā"
-            ]
-          },
-          {
-            "purple": [
-              "maksāt",
-              "Latviski"
+              "kosten"
             ]
           }
         ]
@@ -11642,65 +10624,65 @@ const A1_WORDS = [
   },
   {
     "de": "küssen",
-    "lv": "Suudlema",
+    "lv": "At kysse",
     "level": "A1"
   },
   {
     "de": "lächeln",
-    "lv": "Naeratama",
+    "lv": "At smile",
     "level": "A1"
   },
   {
     "de": "lachen",
-    "lv": "Naerma",
+    "lv": "At grine",
     "level": "A1"
   },
   {
     "de": "Honig",
     "de_article": "der",
     "de_plural": "die Honige",
-    "lv": "Mesi",
+    "lv": "Honning",
     "level": "A1"
   },
   {
     "de": "Hose",
     "de_article": "die",
     "de_plural": "die Hosen",
-    "lv": "Püksid",
+    "lv": "Bukser",
     "level": "A1"
   },
   {
     "de": "Huhn",
     "de_article": "das",
     "de_plural": "die Hühner",
-    "lv": "Kana",
+    "lv": "Kylling",
     "level": "A1"
   },
   {
     "de": "Hund",
     "de_article": "der",
     "de_plural": "die Hunde",
-    "lv": "Koer",
+    "lv": "En hund",
     "level": "A1"
   },
   {
     "de": "Hut",
     "de_article": "der",
     "de_plural": "die Hüte",
-    "lv": "Müts",
+    "lv": "Hat",
     "level": "A1"
   },
   {
     "de": "Jahr",
     "de_article": "das",
     "de_plural": "die Jahre",
-    "lv": "Aasta",
+    "lv": "År",
     "level": "A1"
   },
   {
     "de": "Kaffee",
     "de_article": "der",
-    "lv": "Kohv",
+    "lv": "Kaffe",
     "level": "A1"
   },
   {
@@ -11714,172 +10696,166 @@ const A1_WORDS = [
     "de": "Kamera",
     "de_article": "die",
     "de_plural": "die Kameras",
-    "lv": "Kaamera",
+    "lv": "Kamera",
     "level": "A1"
   },
   {
     "de": "Karotte",
     "de_article": "die",
     "de_plural": "die Karotten",
-    "lv": "Porgand",
+    "lv": "Gulerod",
     "level": "A1"
   },
   {
     "de": "Kartoffel",
     "de_article": "die",
     "de_plural": "die Kartoffeln",
-    "lv": "Kartul",
+    "lv": "Kartoffel",
     "level": "A1"
   },
   {
     "de": "Käse",
     "de_article": "der",
-    "lv": "Juust",
+    "lv": "Ost",
     "level": "A1"
   },
   {
     "de": "Katze",
     "de_article": "die",
     "de_plural": "die Katzen",
-    "lv": "Kass",
+    "lv": "Kat",
     "level": "A1"
   },
   {
     "de": "Kleid",
     "de_article": "das",
     "de_plural": "die Kleider",
-    "lv": "Kleit",
+    "lv": "En kjole",
     "level": "A1"
   },
   {
     "de": "Kleidung",
     "de_article": "die",
-    "lv": "Riietus",
+    "lv": "Tøj",
     "level": "A1"
   },
   {
     "de": "Knoblauch",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Küüslauk",
+    "lv": "Hvidløg",
     "level": "A1"
   },
   {
     "de": "Koch",
     "de_article": "der",
     "de_plural": "die Köche",
-    "lv": "Kokk",
+    "lv": "Lave mad",
     "level": "A1"
   },
   {
     "de": "Köchin",
     "de_article": "die",
     "de_plural": "die Köchinnen",
-    "lv": "Naiskokk",
+    "lv": "Lave mad",
     "level": "A1"
   },
   {
     "de": "Kopf",
     "de_article": "der",
     "de_plural": "die Köpfe",
-    "lv": "Pea",
+    "lv": "Hovedet",
     "level": "A1"
   },
   {
     "de": "Kraftwagen",
     "de_article": "der",
     "de_plural": "die Kraftwagen",
-    "lv": "Auto",
+    "lv": "Bil",
     "level": "A1"
   },
   {
     "de": "Küche",
     "de_article": "die",
     "de_plural": "die Küchen",
-    "lv": "Köök",
+    "lv": "Køkken",
     "level": "A1"
   },
   {
     "de": "Kuchen",
     "de_article": "der",
     "de_plural": "die Kuchen",
-    "lv": "Kook",
+    "lv": "Kage",
     "level": "A1"
   },
   {
     "de": "Kuh",
     "de_article": "die",
     "de_plural": "die Kühe",
-    "lv": "Lehm",
+    "lv": "En ko",
     "level": "A1"
   },
   {
     "de": "Kühlschrank",
     "de_article": "der",
     "de_plural": "die Kühlschränke",
-    "lv": "Külmkapp",
+    "lv": "Køleskab",
     "level": "A1"
   },
   {
     "de": "Kuss",
     "de_article": "der",
     "de_plural": "die Küsse",
-    "lv": "Suudlus",
+    "lv": "Et kys",
     "level": "A1"
   },
   {
     "de": "Laden",
     "de_article": "der",
     "de_plural": "die Läden",
-    "lv": "Pood",
+    "lv": "Butik",
     "level": "A1",
     "study": {
       "id": "a1-laden-study",
       "layout": "standardStudy",
-      "translation": "Pood",
+      "translation": "Butik",
       "explanation": [
-        "Põhiidee: der Laden suure algustähega ja artikliga der on nimisõna — väike pood.",
-        "Laden väikese algustähega on tegusõna — peale laadima või laadima.",
-        "Der Laden tähistab igapäevaelus sageli väikest poodi (im Laden einkaufen = poes sisseoste tegema).",
-        "Mitmuses: die Läden."
+        "Hovedidé: der Laden er stort, og artiklen der er et substantiv - en lille butik.",
+        "Laden er et verbum med små bogstaver - at indlæse eller oplade.",
+        "Der Laden refererer ofte til en lille butik i hverdagen (im Laden einkaufen = at handle i en butik).",
+        "Flertal: die Läden."
       ],
       "examples": [
         {
           "de": "Ich gehe in den Laden.",
-          "lv": "Ma lähen poodi."
+          "lv": "Jeg går i butikken"
         },
         {
           "de": "Der Laden ist geschlossen.",
-          "lv": "Pood on suletud."
+          "lv": "Butikken er lukket."
         },
         {
           "de": "Es gibt viele Läden hier.",
-          "lv": "Siin on palju poode."
+          "lv": "Her er mange butikker."
         },
         {
           "de": "Ich muss mein Handy laden.",
-          "lv": "Ma pean telefoni laadima."
+          "lv": "Jeg skal oplade min telefon."
         }
       ],
       "tip": [
-        "der Laden ar lielo burtu — lietvārds (veikals).",
-        "laden ar mazo burtu — darbības vārds (iekraut/uzlādēt)."
+        "der Laden ar lielo burtu — lietvards (veikals).",
+        "små bogstaver laden - verbum (at indlæse/oplade)."
       ],
       "important": [
-        "der Laden = veikals (lietvārds).",
-        "laden = iekraut/uzlādēt (darbības vārds).",
-        "Daudzskaitlī: die Läden."
+        "der Laden = butik (substantiv).",
+        "laden = loade/charge (udsagnsord).",
+        "Flertal: die Läden."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Laden"
-          ],
           "purple": [
-            "pood"
-          ],
-          "green": [
-            "laden"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -11891,7 +10867,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poodi"
+                "Jeg"
               ]
             }
           },
@@ -11903,7 +10879,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pood"
+                "Butikken"
               ]
             }
           },
@@ -11915,7 +10891,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poode"
+                "Her"
               ]
             }
           },
@@ -11927,7 +10903,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laadima"
+                "Jeg"
               ]
             }
           }
@@ -11968,88 +10944,79 @@ const A1_WORDS = [
     "de": "Lampe",
     "de_article": "die",
     "de_plural": "die Lampen",
-    "lv": "Lamp",
+    "lv": "Lampe",
     "level": "A1"
   },
   {
     "de": "Land",
     "de_article": "das",
     "de_plural": "die Länder",
-    "lv": "Riik • Maa",
+    "lv": "Land • Land",
     "level": "A1",
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
-      "translation": "Riik • Maa",
+      "translation": "Land • Land",
       "explanation": [
-        "Põhiidee: das Land tähendab kõige sagedamini riiki või maad väljaspool linna.",
-        "Kui jutt on Saksamaast, Eestist või mõnest muust piiridega territooriumist, tõlgi kui riik.",
-        "Kui jutt on maakohast või maast linna vastandina, tõlgitakse see kui maa või maakoht.",
-        "Kontekst määrab, kas mõtleme riiki, maakohta või maad."
+        "Hovedidé: das Land betyder oftest land eller land uden for byen.",
+        "Hvis det drejer sig om Tyskland, Letland eller andet territorium med grænser, oversættes det til land.",
+        "Når du taler om landskabet eller landet i modsætning til byen, oversæt som landskabet eller landet.",
+        "Konteksten afgør, om vi mener land, landskab eller land."
       ],
       "examples": [
         {
           "de": "Deutschland ist ein schönes Land.",
-          "lv": "Saksamaa on ilus riik."
+          "lv": "Tyskland er et smukt land."
         },
         {
           "de": "Ich komme aus einem kleinen Land.",
-          "lv": "Ma olen pärit väikesest riigist."
+          "lv": "Jeg kommer fra et lille land."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "Me sõidame maale."
+          "lv": "Vi går på landet."
         },
         {
           "de": "Auf dem Land ist es ruhig.",
-          "lv": "Maal on rahulik."
+          "lv": "Der er stille på landet."
         }
       ],
       "comparison": [
         {
           "word": "das Land",
-          "meaning": "Riik / maa / maapiirkond",
+          "meaning": "Land / land / landskab",
           "example": "Deutschland ist ein Land."
         },
         {
           "word": "die Stadt",
-          "meaning": "Linn",
+          "meaning": "By",
           "example": "Ich wohne in der Stadt."
         },
         {
           "word": "das Dorf",
-          "meaning": "Küla",
+          "meaning": "Landsby",
           "example": "Er lebt in einem Dorf."
         },
         {
           "word": "die Erde",
-          "meaning": "Maa / planeet",
+          "meaning": "Jorden / planeten",
           "example": "Die Erde ist rund."
         }
       ],
       "tip": {
-        "text": "Atceries: valsts → das Land; pilsēta → die Stadt."
+        "text": "Husk: land → das Land; by → die Stadt."
       },
       "important": [
-        "aufs Land nozīmē “uz laukiem”, nevis “uz valsti”.",
-        "das Land nav tas pats, kas die Stadt."
+        "aufs Land betyder 'til landet', ikke 'til landet'.",
+        "das Land er ikke det samme som die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Land",
-            "Land"
-          ],
           "purple": [
-            "Põhiidee",
-            "maad",
-            "maa",
-            "riik"
-          ],
-          "green": [
-            "Saksamaast",
-            "Eestist",
-            "linna"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -12064,10 +11031,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "riik"
-              ],
-              "green": [
-                "Saksamaa"
+                "Tyskland"
               ]
             }
           },
@@ -12079,7 +11043,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "riigist"
+                "Jeg"
               ]
             }
           },
@@ -12091,7 +11055,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maale"
+                "går"
               ]
             }
           },
@@ -12103,7 +11067,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maal"
+                "Der"
               ]
             }
           }
@@ -12117,9 +11081,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "riik",
-                "maa",
-                "maa"
+                "Land",
+                "Land",
+                "Land"
               ]
             },
             "example": {
@@ -12134,11 +11098,7 @@ const A1_WORDS = [
                 "die Stadt"
               ]
             },
-            "meaning": {
-              "purple": [
-                "linn"
-              ]
-            },
+            "meaning": {},
             "example": {
               "yellow": [
                 "Stadt"
@@ -12153,7 +11113,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "küla"
+                "Landsby"
               ]
             },
             "example": {
@@ -12170,8 +11130,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "maa",
-                "planeet"
+                "Jorden",
+                "planet"
               ]
             },
             "example": {
@@ -12187,32 +11147,18 @@ const A1_WORDS = [
               "das Land"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "yellow": [
               "die Stadt",
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "aufs Land"
-            ],
             "purple": [
               "aufs"
-            ],
-            "red": [
-              "aufs"
-            ]
-          },
-          {
-            "blue": [
-              "das Land"
-            ],
-            "yellow": [
-              "die Stadt"
             ]
           }
         ]
@@ -12221,61 +11167,57 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Pikk • Kauakestev",
+    "lv": "Lang • Lang",
     "level": "A1",
     "study": {
       "id": "a1-lang",
       "layout": "standardStudy",
-      "translation": "Pikk • Kauakestev",
+      "translation": "Lang • Lang",
       "explanation": [
-        "Põhiidee: lang tähendab ruumiliselt pikk, aja mõttes pikk või kestev.",
-        "Kui jutt on suurusest või kaugusest, lang = pikk (ein langer Tisch = pikk laud).",
-        "Kui jutt on ajalisest kestusest, lang = pikk (ein langer Tag = pikk päev).",
-        "Fraasis den ganzen Tag lang tähendab see kogu päeva (jooksul).",
-        "Eesti keeles öeldakse nii 'pikk laud' kui ka 'pikk päev' ning saksa lang katab samamoodi mõlemad tähendused."
+        "Hovedidé: lang rumligt betyder lang, tidsmæssigt lang.",
+        "Når det kommer til størrelse eller afstand, er lang = lang (ein langer Tisch = langbord).",
+        "Når det kommer til længden af ​​tid, lang = lang (ein langer Tag = lang dag).",
+        "I sætningen den ganzen Tag lang betyder det hele dagen (i længden).",
+        "Engelsk 'lang' i forskellige sammenhænge er to forskellige ord, men tysk lang dækker begge betydninger."
       ],
       "examples": [
         {
           "de": "Der Tisch ist sehr lang.",
-          "lv": "Laud on väga pikk."
+          "lv": "Bordet er meget langt."
         },
         {
           "de": "Der Film war sehr lang.",
-          "lv": "Film oli väga pikk."
+          "lv": "Filmen var meget lang."
         },
         {
           "de": "Wie lange dauert es?",
-          "lv": "Kui kaua see kestab?"
+          "lv": "Hvor længe holder det"
         },
         {
           "de": "Sie hat lange Haare.",
-          "lv": "Tal on pikad juuksed."
+          "lv": "Hun har langt hår."
         },
         {
           "de": "Ich warte schon lange.",
-          "lv": "Ma ootan juba kaua."
+          "lv": "Jeg har ventet længe."
         },
         {
           "de": "Den ganzen Tag lang.",
-          "lv": "Kogu päev (otsa)."
+          "lv": "Hele dagen (i længden)."
         }
       ],
       "tip": [
-        "Par izmēru vai attālumu (mati, ceļš, galds) → garš.",
-        "Par laiku (diena, gaidīšana, filma) → ilgs."
+        "For størrelse eller afstand (hår, vej, bord) → lang.",
+        "Om tid (dag, ventetid, film) → lang."
       ],
       "important": [
-        "lang = garš (izmērs) VAI ilgs (laiks) — atkarībā no konteksta.",
-        "wie lange = cik ilgi (jautājums par laiku, ne izmēru)."
+        "lang = lang (størrelse) ELLER lang (tid) - afhængig af konteksten.",
+        "wie lange = hvor længe (spørgsmål om tid, ikke størrelse)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "lang"
-          ],
           "purple": [
-            "pikk",
-            "pikk"
+            "lang"
           ]
         },
         "examples": [
@@ -12287,7 +11229,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pikk"
+                "Bordet"
               ]
             }
           },
@@ -12299,7 +11241,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pikk"
+                "Filmen"
               ]
             }
           },
@@ -12311,7 +11253,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaua"
+                "Hvor"
               ]
             }
           },
@@ -12323,7 +11265,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pikad"
+                "Hun"
               ]
             }
           },
@@ -12335,7 +11277,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaua"
+                "Jeg"
               ]
             }
           },
@@ -12347,7 +11289,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kogu"
+                "Hele"
               ]
             }
           }
@@ -12355,25 +11297,19 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "Par"
+              "For"
             ]
           },
           {
             "green": [
-              "Par"
+              "For"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "lang",
               "lang"
-            ]
-          },
-          {
-            "green": [
-              "wie lange"
             ]
           }
         ]
@@ -12382,94 +11318,85 @@ const A1_WORDS = [
   },
   {
     "de": "lange",
-    "lv": "Kaua",
+    "lv": "I lang tid",
     "level": "A1"
   },
   {
     "de": "langsam",
-    "lv": "Aeglane",
+    "lv": "Langsom",
     "level": "A1"
   },
   {
     "de": "langweilig",
-    "lv": "Igav",
+    "lv": "Kedelig",
     "level": "A1"
   },
   {
     "de": "lassen",
-    "lv": "Jätma • Laskma",
+    "lv": "Forlad • Lad",
     "level": "A1",
     "study": {
       "id": "a1-lassen",
       "layout": "standardStudy",
-      "translation": "Jätma • Laskma",
+      "translation": "Forlad • Lad",
       "explanation": [
-        "Põhiidee: lassen tähendab midagi jätma või laskma millelgi juhtuda.",
-        "Kui miski jääb paigale, tõlgitakse lassen kui jätma.",
-        "Kui kellelegi antakse luba, tõlgitakse lassen kui lubama.",
-        "Vestlustes on väga sage vorm Lass mich! = Jäta mind rahule! või Lase mind!"
+        "Hovedidé: lassen betyder at forlade noget eller lade noget ske.",
+        "Hvis noget forbliver på plads, oversætter lassen som orlov.",
+        "Hvis du giver tilladelse til nogen, oversætter lassen som lad.",
+        "En meget hyppig form i samtale er Lass mich! = Lad mig være! eller lad mig!"
       ],
       "examples": [
         {
           "de": "Ich lasse die Tasche hier.",
-          "lv": "Ma jätan koti siia."
+          "lv": "Jeg efterlod posen her"
         },
         {
           "de": "Lass das bitte auf dem Tisch.",
-          "lv": "Jäta see palun lauale."
+          "lv": "Lad det være på bordet, tak."
         },
         {
           "de": "Meine Eltern lassen mich gehen.",
-          "lv": "Vanemad lasevad mul minna."
+          "lv": "Mine forældre lod mig gå."
         },
         {
           "de": "Lass mich in Ruhe!",
-          "lv": "Jäta mind rahule!"
+          "lv": "Lad mig være i fred!"
         }
       ],
       "comparison": [
         {
           "word": "lassen",
-          "meaning": "Jätma / laskma",
+          "meaning": "Forlad / lad",
           "example": "Ich lasse das hier."
         },
         {
           "word": "bleiben",
-          "meaning": "Jääma",
+          "meaning": "Ophold",
           "example": "Ich bleibe hier."
         },
         {
           "word": "erlauben",
-          "meaning": "Lubama",
+          "meaning": "Tillade",
           "example": "Sie erlaubt mir das."
         },
         {
           "word": "geben",
-          "meaning": "Andma",
+          "meaning": "At give",
           "example": "Gib mir das Buch."
         }
       ],
       "tip": {
-        "text": "Atceries: kaut kas paliek → lassen; kādam atļauj → lassen."
+        "text": "Husk: noget bliver tilbage → lassen; nogen har lov → lassen."
       },
       "important": [
-        "lassen nav tikai “atstāt”. Tas bieži nozīmē arī “ļaut”.",
-        "Lass mich in Ruhe! ir ļoti bieža frāze: “Liec mani mierā!”"
+        "lassen er ikke bare 'at forlade'. Det betyder også ofte 'at lade'.",
+        "Lass mich i Ruhe! der er en meget almindelig sætning: \"Lad mig være!\""
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "lassen",
-            "Lass mich"
-          ],
           "purple": [
-            "jätma",
-            "laskma",
-            "Jäta mind rahule"
-          ],
-          "green": [
-            "Põhiidee",
-            "luba"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -12481,10 +11408,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jätan"
-              ],
-              "yellow": [
-                "koti"
+                "Jeg"
               ]
             }
           },
@@ -12496,7 +11420,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jäta"
+                "Lad"
               ]
             }
           },
@@ -12508,7 +11432,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vanemad"
+                "Mine"
               ]
             }
           },
@@ -12520,7 +11444,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jäta mind rahule"
+                "Lad"
               ]
             }
           }
@@ -12534,8 +11458,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jätma",
-                "laskma"
+                "Forlad",
+                "Forlad"
               ]
             },
             "example": {
@@ -12552,7 +11476,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jääma"
+                "Ophold"
               ]
             },
             "example": {
@@ -12569,7 +11493,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "lubama"
+                "Tillade"
               ]
             },
             "example": {
@@ -12586,7 +11510,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "andma"
+                "give"
               ]
             },
             "example": {
@@ -12602,27 +11526,16 @@ const A1_WORDS = [
               "lassen"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "lassen"
-            ],
             "purple": [
               "lassen",
               "lassen"
-            ]
-          },
-          {
-            "blue": [
-              "Lass mich in Ruhe"
-            ],
-            "purple": [
-              "Lass"
             ]
           }
         ]
@@ -12631,81 +11544,71 @@ const A1_WORDS = [
   },
   {
     "de": "laufen",
-    "lv": "Jooksma • Töötama",
+    "lv": "Kør • Betjen",
     "level": "A1",
     "study": {
       "id": "a1-laufen",
       "layout": "standardStudy",
-      "translation": "Jooksma • Töötama",
+      "translation": "Kør • Betjen",
       "explanation": [
-        "Põhiidee: laufen tähendab jooksma, aga seadmete puhul võib see tähendada töötama.",
-        "Inimese või looma kohta tähendab laufen sageli jooksma või kiires sammus minema.",
-        "Filmi, masina või programmi kohta tähendab laufen, et see töötab või käib.",
-        "Jalgsi liikumise puhul võrreldakse A1 tasemel kõige sagedamini sõnu gehen ja laufen."
+        "Hovedidé: Laufen betyder at løbe, men med enheder kan det betyde at løbe.",
+        "For en person eller et dyr betyder laufen ofte at løbe eller gå i hurtigt tempo.",
+        "For en film, maskine eller program betyder laufen, at den kører eller sker.",
+        "Ved benbevægelse på A1-niveau sammenlignes oftest gehen og laufen."
       ],
       "examples": [
         {
           "de": "Er läuft sehr schnell.",
-          "lv": "Ta jookseb väga kiiresti."
+          "lv": "Han løber meget hurtigt."
         },
         {
           "de": "Die Kinder laufen im Park.",
-          "lv": "Lapsed jooksevad pargis."
+          "lv": "Børn løber i parken."
         },
         {
           "de": "Der Film läuft schon.",
-          "lv": "Film juba käib."
+          "lv": "Filmen kører allerede."
         },
         {
           "de": "Die Maschine läuft gut.",
-          "lv": "Masin töötab hästi."
+          "lv": "Maskinen fungerer godt."
         }
       ],
       "comparison": [
         {
           "word": "laufen",
-          "meaning": "Jooksma / töötama",
-          "example": "Er läuft schnell."
+          "meaning": "Kør/betjen",
+          "example": "Er läuft hurtigt."
         },
         {
           "word": "gehen",
-          "meaning": "Jalgsi minema",
+          "meaning": "Gå til fods",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "fahren",
-          "meaning": "Sõidukiga sõitma",
+          "meaning": "Kør transporten",
           "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "funktionieren",
-          "meaning": "Toimima",
+          "meaning": "At operere",
           "example": "Das funktioniert gut."
         }
       ],
       "tip": {
-        "text": "Atceries: kājas ātri → laufen; transports → fahren."
+        "text": "Husk: fødder hurtig → laufen; transportør → fahren."
       },
       "important": [
-        "laufen nav tikai “skriet”. Par filmu vai ierīci tas var nozīmēt “iet” vai “darboties”.",
-        "Ich laufe nozīmē kustību kājām, nevis braukšanu."
+        "Laufen er ikke bare 'løb'. For en film eller enhed kan det betyde \"go\" eller \"act\".",
+        "Ich laufe betyder bevægelse til fods, ikke kørsel."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "laufen"
-          ],
           "purple": [
-            "jooksma",
-            "Põhiidee",
-            "minema"
-          ],
-          "green": [
-            "Inimese",
-            "looma",
-            "filmi",
-            "masina",
-            "programmi"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -12717,7 +11620,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jookseb"
+                "Han"
               ]
             }
           },
@@ -12729,7 +11632,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jooksevad"
+                "Børn"
               ]
             }
           },
@@ -12741,7 +11644,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "film"
+                "Filmen"
               ]
             }
           },
@@ -12753,7 +11656,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "masin"
+                "Maskinen"
               ]
             }
           }
@@ -12767,8 +11670,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jooksma",
-                "jooksma"
+                "Kør/betjen",
+                "Kør/betjen"
               ]
             },
             "example": {
@@ -12785,7 +11688,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "minema"
+                "til"
               ]
             },
             "example": {
@@ -12802,7 +11705,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sõitma"
+                "Kør"
               ]
             },
             "example": {
@@ -12819,7 +11722,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "toimima"
+                "operere"
               ]
             },
             "example": {
@@ -12835,7 +11738,7 @@ const A1_WORDS = [
               "laufen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "fahren",
@@ -12845,24 +11748,11 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "laufen"
-            ],
             "purple": [
               "laufen",
               "laufen",
+              "laufen",
               "laufen"
-            ]
-          },
-          {
-            "blue": [
-              "Ich laufe"
-            ],
-            "purple": [
-              "Ich"
-            ],
-            "red": [
-              "Ich"
             ]
           }
         ]
@@ -12871,66 +11761,62 @@ const A1_WORDS = [
   },
   {
     "de": "laut",
-    "lv": "Vali",
+    "lv": "Højt",
     "level": "A1",
     "study": {
       "id": "a1-laut",
       "layout": "standardStudy",
-      "translation": "Vali",
+      "translation": "Højt",
       "explanation": [
-        "Põhiidee: Omadussõna väikese algustähega. Kirjeldab intensiivsust — kui vali on heli või kõne.",
-        "Laut tähendab peamiselt: vali heli.",
-        "Sageli kirjeldab: omadussõna.",
-        "Laut tähendab peamiselt: helisignaal.",
-        "Sageli kirjeldab: nimisõna (der).",
-        "Laut väikese algustähega on omadussõna — see kirjeldab, kui vali on heli (Die Musik ist laut = muusika on vali).",
-        "Der Laut suure algustähega ja artikliga der on nimisõna — see tähendab heli kui asja või signaali (Der Laut ist schön = heli on ilus).",
-        "Mitmuses: die Laute."
+        "Hovedidé: Adjektiv med små bogstaver. Beskriver lydstyrke - hvor høj en lyd eller tale er.",
+        "Laut betyder hovedsageligt: ​​høj lyd.",
+        "Beskriver ofte: adjektiv.",
+        "Laut betyder i bund og grund: lydsignal.",
+        "Beskriver ofte: navneord (der).",
+        "Små bogstaver laut er et adjektiv - det beskriver hvor høj lyden er (Die Musik ist laut = musikken er høj).",
+        "Der Laut med stort bogstav og artiklen der er et substantiv - det betyder lyd som ting eller signal (Der Laut ist schön = lyden er smuk).",
+        "Flertal: die Laute."
       ],
       "examples": [
         {
           "de": "Die Musik ist laut.",
-          "lv": "Muusika on vali."
+          "lv": "Musikken er høj."
         },
         {
           "de": "Die Musik ist laut.",
-          "lv": "Muusika on vali."
+          "lv": "Musikken er høj."
         },
         {
           "de": "Sprich nicht so laut!",
-          "lv": "Ära räägi nii valjult!"
+          "lv": "Tal ikke så højt!"
         },
         {
           "de": "Das ist sehr laut.",
-          "lv": "See on väga vali."
+          "lv": "Det er meget højt."
         },
         {
           "de": "Der Laut ist schön.",
-          "lv": "Heli on ilus."
+          "lv": "Lyden er smuk."
         },
         {
           "de": "Ich höre einen Laut.",
-          "lv": "Ma kuulen mingit heli."
+          "lv": "Jeg hører en lyd"
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "laut = skaņa"
+        "Lille laut = højlydt (tillægsord: ist laut). der Laut med stort = lyd (substantiv: ein Laut, der Laut).",
+        "laut = lyd"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+        "laut er små bogstaver og har ingen artikel - det er et adjektiv.",
+        "der Laut med stort bogstav og artiklen der er et navneord.",
+        "Flertal: die Laute (sproglyde, bip).",
         "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "laut"
-          ],
           "purple": [
-            "vali",
-            "Põhiidee"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -12943,7 +11829,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vali"
+                "Musikken"
               ]
             }
           },
@@ -12956,7 +11842,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vali"
+                "Musikken"
               ]
             }
           },
@@ -12969,7 +11855,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "valjult"
+                "Tal"
               ]
             }
           },
@@ -12982,7 +11868,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vali"
+                "Det"
               ]
             }
           },
@@ -12995,7 +11881,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "heli"
+                "Lyden"
               ]
             }
           },
@@ -13008,7 +11894,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuulen"
+                "Jeg"
               ]
             }
           }
@@ -13016,7 +11902,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Mazais"
+              "Lille"
             ]
           }
         ],
@@ -13034,71 +11920,62 @@ const A1_WORDS = [
     "de": "Laut",
     "de_article": "der",
     "de_plural": "die Laute",
-    "lv": "Heli",
+    "lv": "Lyden",
     "level": "A1",
     "study": {
       "id": "a1-laut-study",
       "layout": "standardStudy",
-      "translation": "Heli",
+      "translation": "Lyden",
       "explanation": [
-        "Põhiidee: Nimisõna artikliga der ja suure algustähega. Tähendab heli kui asja, signaali või keele häälikut.",
-        "Der Laut tähendab peamiselt: vali heli.",
-        "Sageli kirjeldab: omadussõna.",
-        "Der Laut tähendab peamiselt: helisignaal.",
-        "Sageli kirjeldab: nimisõna (der).",
-        "Laut väikese algustähega on omadussõna — see kirjeldab, kui vali on heli (Die Musik ist laut = muusika on vali).",
-        "Der Laut suure algustähega ja artikliga der on nimisõna — see tähendab heli kui asja või signaali (Der Laut ist schön = heli on ilus).",
-        "Mitmuses: die Laute."
+        "Hovedidé: Et navneord med en artikel passer til og skrives med stort. Betyder lyd som en ting, et signal eller lyden af ​​sprog.",
+        "Der Laut betyder primært: høj lyd.",
+        "Beskriver ofte: adjektiv.",
+        "Der Laut betyder primært: lydsignal.",
+        "Beskriver ofte: navneord (der).",
+        "Små bogstaver laut er et adjektiv - det beskriver hvor høj lyden er (Die Musik ist laut = musikken er høj).",
+        "Der Laut med stort bogstav og artiklen der er et substantiv - det betyder lyd som ting eller signal (Der Laut ist schön = lyden er smuk).",
+        "Flertal: die Laute."
       ],
       "examples": [
         {
           "de": "Der Laut ist schön.",
-          "lv": "Heli on ilus."
+          "lv": "Lyden er smuk."
         },
         {
           "de": "Die Musik ist laut.",
-          "lv": "Muusika on vali."
+          "lv": "Musikken er høj."
         },
         {
           "de": "Sprich nicht so laut!",
-          "lv": "Ära räägi nii valjult!"
+          "lv": "Tal ikke så højt!"
         },
         {
           "de": "Das ist sehr laut.",
-          "lv": "See on väga vali."
+          "lv": "Det er meget højt."
         },
         {
           "de": "Der Laut ist schön.",
-          "lv": "Heli on ilus."
+          "lv": "Lyden er smuk."
         },
         {
           "de": "Ich höre einen Laut.",
-          "lv": "Ma kuulen mingit heli."
+          "lv": "Jeg hører en lyd"
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "der Laut = skaņa"
+        "Lille laut = højlydt (tillægsord: ist laut). der Laut med stort = lyd (substantiv: ein Laut, der Laut).",
+        "der Laut = lyd"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+        "laut er små bogstaver og har ingen artikel - det er et adjektiv.",
+        "der Laut med stort bogstav og artiklen der er et navneord.",
+        "Flertal: die Laute (sproglyde, bip).",
         "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Laut",
-            "laut"
-          ],
           "purple": [
-            "heli",
-            "heli"
-          ],
-          "yellow": [
-            "Laut",
-            "Laute"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -13111,46 +11988,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "heli"
+                "Lyden"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Die",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "muusika"
+                "Musikken"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Sprich",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "ära"
+                "Tal"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Das",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "see"
+                "Det"
               ]
             }
           },
@@ -13163,20 +12037,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "heli"
+                "Lyden"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Ich",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "heli"
+                "Jeg"
               ]
             }
           }
@@ -13184,112 +12057,98 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Mazais"
+              "Lille"
             ]
           }
         ],
         "important": [
-          {
-            "green": [
-              "laut"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "leben",
-    "lv": "Elama",
+    "lv": "At leve",
     "level": "A1"
   },
   {
     "de": "lecker",
-    "lv": "Maitsev",
+    "lv": "Lækker",
     "level": "A1"
   },
   {
     "de": "leer",
-    "lv": "Tühi",
+    "lv": "Tom",
     "level": "A1"
   },
   {
     "de": "legen",
-    "lv": "Panema",
+    "lv": "Læg ned",
     "level": "A1",
     "study": {
       "id": "a1-legen",
       "layout": "standardStudy",
-      "translation": "Panema",
+      "translation": "Læg ned",
       "explanation": [
-        "Põhiidee: legen tähendab midagi pikali või horisontaalselt panema.",
-        "Legen kasutatakse, kui sa ise liigutad asja ja paned selle lauale, voodile või mõnele muule pinnale.",
-        "See erineb sõnast liegen, mis tähendab, et miski juba asub või lamab.",
-        "A1 tasemel on kõige tähtsam vahe: legen = asetama, liegen = lamama."
+        "Hovedidé: legen betyder at lægge noget ned eller vandret.",
+        "Legen bruges, når du selv flytter tingen og sætter den på et bord, seng eller anden overflade.",
+        "Det adskiller sig fra liegen, hvilket betyder, at noget allerede ligger eller ligger.",
+        "På A1-niveau er den vigtigste forskel: legen = at lægge sig, liegen = at ligge ned."
       ],
       "examples": [
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Ma panen raamatu lauale."
+          "lv": "Jeg lagde bogen på bordet."
         },
         {
           "de": "Leg den Schlüssel hierhin.",
-          "lv": "Pane võti siia."
+          "lv": "Læg nøglen her."
         },
         {
           "de": "Sie legt das Kind ins Bett.",
-          "lv": "Ta paneb lapse voodisse."
+          "lv": "Hun lægger barnet i seng."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Raamat on laual."
+          "lv": "Bogen ligger på bordet."
         }
       ],
       "comparison": [
         {
           "word": "legen",
-          "meaning": "Panema",
+          "meaning": "Læg ned",
           "example": "Ich lege das Buch auf den Tisch."
         },
         {
           "word": "liegen",
-          "meaning": "Asuma / lamama",
+          "meaning": "At være / sove",
           "example": "Das Buch liegt auf dem Tisch."
         },
         {
           "word": "stellen",
-          "meaning": "Püsti panema",
+          "meaning": "Sæt oprejst",
           "example": "Ich stelle die Flasche auf den Tisch."
         },
         {
           "word": "setzen",
-          "meaning": "Istuma panema / maha istuma",
+          "meaning": "Sæt dig ned / sæt dig ned",
           "example": "Ich setze mich."
         }
       ],
       "tip": {
-        "text": "Atceries: tu noliec → legen; lieta jau atrodas → liegen."
+        "text": "Husk: tu noliec → legen; lieta jau atrodas → liegen."
       },
       "important": [
         "legen un liegen nav viens un tas pats.",
-        "Ich lege das Buch = es nolieku grāmatu. Das Buch liegt = grāmata atrodas."
+        "Ich lege das Buch = jeg lægger bogen fra mig. Das Buch ligger = bogen ligger."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "legen",
-            "liegen"
-          ],
           "purple": [
-            "panema",
-            "asub",
-            "lamab"
-          ],
-          "yellow": [
-            "asja",
-            "lauale",
-            "voodile",
-            "pinnale"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -13305,11 +12164,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "panen"
-              ],
-              "yellow": [
-                "raamatu",
-                "lauale"
+                "Jeg"
               ]
             }
           },
@@ -13324,10 +12179,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pane"
-              ],
-              "yellow": [
-                "võti"
+                "Læg"
               ]
             }
           },
@@ -13345,13 +12197,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "paneb"
-              ],
-              "green": [
-                "lapse"
-              ],
-              "yellow": [
-                "voodisse"
+                "Hun"
               ]
             }
           },
@@ -13367,11 +12213,11 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "raamat"
+                "Bogen"
               ],
               "yellow": [
-                "Raamat",
-                "laual"
+                "Bogen",
+                "Bogen"
               ]
             }
           }
@@ -13385,7 +12231,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "panema"
+                "Læg"
               ]
             },
             "example": {
@@ -13402,8 +12248,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "asuma",
-                "lamama"
+                "være",
+                "være"
               ]
             },
             "example": {
@@ -13420,7 +12266,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "püsti"
+                "Sæt"
               ]
             },
             "example": {
@@ -13437,7 +12283,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "istuma"
+                "Sæt"
               ]
             },
             "example": {
@@ -13453,33 +12299,18 @@ const A1_WORDS = [
               "legen"
             ],
             "purple": [
-              "Atceries"
+              "noliec"
             ],
             "red": [
               "liegen",
-              "Atceries"
+              "atrodas"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "legen"
-            ],
-            "red": [
-              "liegen"
-            ]
-          },
-          {
-            "blue": [
-              "lege"
-            ],
             "purple": [
-              "Ich"
-            ],
-            "red": [
-              "liegt",
-              "Ich"
+              "legen"
             ]
           }
         ]
@@ -13490,77 +12321,71 @@ const A1_WORDS = [
     "de": "Lehrer",
     "de_article": "der",
     "de_plural": "die Lehrer",
-    "lv": "Õpetaja",
+    "lv": "Læreren",
     "level": "A1"
   },
   {
     "de": "Lehrerin",
     "de_article": "die",
     "de_plural": "die Lehrerinnen",
-    "lv": "Naisõpetaja",
+    "lv": "En lærer",
     "level": "A1"
   },
   {
     "de": "leicht",
-    "lv": "Kerge",
+    "lv": "Let",
     "level": "A1"
   },
   {
     "de": "leider",
-    "lv": "Kahjuks",
+    "lv": "Desværre",
     "level": "A1"
   },
   {
     "de": "leise",
-    "lv": "Vaikne",
+    "lv": "Stille",
     "level": "A1",
     "study": {
       "id": "a1-leise-study",
       "layout": "standardStudy",
-      "translation": "Vaikne",
+      "translation": "Stille",
       "explanation": [
-        "Põhiidee: Vaikne või väikese helitugevusega.",
-        "Leise tähendab peamiselt: väike helitugevus.",
-        "Sageli kirjeldab: heli/häält/muusikat.",
-        "Leise kirjeldab väikest helitugevust või vaikset häält/heli."
+        "Hovedidé: Støjsvag eller lav lydstyrke.",
+        "Leise betyder grundlæggende: lavt volumen.",
+        "Beskriver ofte: lyd/stemme/musik.",
+        "Leise beskriver en lav lydstyrke eller stille stemme/lyd."
       ],
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "Palun, ole vaikne."
+          "lv": "Vær venligst stille."
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "Palun, ole vaikne."
+          "lv": "Vær venligst stille"
         },
         {
           "de": "Die Musik ist leise.",
-          "lv": "Muusika on vaikne."
+          "lv": "Musikken er stille."
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "Palun, räägi vaikselt."
+          "lv": "Tal venligst stille."
         }
       ],
       "tip": [
         "leise = kluss",
-        "Izmanto leise, kad konteksts atbilst šai nozīmei."
+        "Brug leise, når konteksten passer til denne betydning."
       ],
       "important": [
-        "leise = kluss skaņas ziņā.",
-        "leise = skaļums.",
-        "Kluss vai ar mazu skaļumu."
+        "leise = stille i lyden.",
+        "leise = volumen.",
+        "Støjsvag eller lav lydstyrke."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "leise"
-          ],
           "purple": [
-            "vaikne"
-          ],
-          "orange": [
-            "vaikne"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -13573,7 +12398,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaikne"
+                "Vær"
               ]
             }
           },
@@ -13586,7 +12411,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaikne"
+                "Vær"
               ]
             }
           },
@@ -13599,7 +12424,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaikne"
+                "Musikken"
               ]
             }
           },
@@ -13612,7 +12437,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaikselt"
+                "Tal"
               ]
             }
           }
@@ -13620,7 +12445,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "leise"
+              "kluss"
             ]
           }
         ],
@@ -13636,124 +12461,117 @@ const A1_WORDS = [
   },
   {
     "de": "lesen",
-    "lv": "Lugema",
+    "lv": "At læse",
     "level": "A1"
   },
   {
     "de": "letzte",
-    "lv": "Viimane",
+    "lv": "Den sidste",
     "level": "A1"
   },
   {
     "de": "Leute",
     "de_article": "die",
-    "lv": "Inimesed",
+    "lv": "Mennesker",
     "level": "A1"
   },
   {
     "de": "Licht",
     "de_article": "das",
     "de_plural": "die Lichter",
-    "lv": "Valgus",
+    "lv": "Lys",
     "level": "A1"
   },
   {
     "de": "lieb",
-    "lv": "Kallis",
+    "lv": "Kære",
     "level": "A1"
   },
   {
     "de": "Liebe",
     "de_article": "die",
-    "lv": "Armastus",
+    "lv": "Kærlighed",
     "level": "A1"
   },
   {
     "de": "lieben",
-    "lv": "Armastama",
+    "lv": "At elske",
     "level": "A1"
   },
   {
     "de": "Lied",
     "de_article": "das",
     "de_plural": "die Lieder",
-    "lv": "Laul",
+    "lv": "Sang",
     "level": "A1"
   },
   {
     "de": "liegen",
-    "lv": "Asuma • Lamama",
+    "lv": "At være • At sove",
     "level": "A1",
     "study": {
       "id": "a1-liegen",
       "layout": "standardStudy",
-      "translation": "Asuma • Lamama",
+      "translation": "At være • At sove",
       "explanation": [
-        "Põhiidee: liegen tähendab asuma või horisontaalselt lamama.",
-        "Inimese kohta tähendab liegen sageli lamamist.",
-        "Asja kohta tähendab liegen, et see asub kuskil.",
-        "See erineb sõnast legen, mis tähendab midagi pikali panema."
+        "Hovedidé: Liegen betyder at ligge eller ligge vandret.",
+        "For en person betyder løgn ofte at sove.",
+        "For en ting ligger betyder, at den er et sted.",
+        "Det adskiller sig fra legen, som betyder at lægge noget fra sig."
       ],
       "examples": [
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Raamat on laual."
+          "lv": "Bogen ligger på bordet."
         },
         {
           "de": "Mein Handy liegt im Auto.",
-          "lv": "Minu telefon on autos."
+          "lv": "Min telefon er i bilen."
         },
         {
           "de": "Er liegt im Bett.",
-          "lv": "Ta lamab voodis."
+          "lv": "Han sover i sengen."
         },
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Ma panen raamatu lauale."
+          "lv": "Jeg lagde bogen på bordet."
         }
       ],
       "comparison": [
         {
           "word": "liegen",
-          "meaning": "Asuma / lamama",
+          "meaning": "At være / sove",
           "example": "Das Buch liegt hier."
         },
         {
           "word": "legen",
-          "meaning": "Panema",
+          "meaning": "Læg ned",
           "example": "Ich lege das Buch hierhin."
         },
         {
           "word": "stehen",
-          "meaning": "Seisma / püsti olema",
+          "meaning": "Stå/vær stående",
           "example": "Die Flasche steht auf dem Tisch."
         },
         {
           "word": "sein",
-          "meaning": "Olema",
+          "meaning": "At være",
           "example": "Ich bin hier."
         }
       ],
       "tip": {
-        "text": "Atceries: lieta jau ir vietā → liegen; tu to noliec → legen."
+        "text": "Husk: tingen er allerede på plads → liegen; tu til lægge sig ned → legen."
       },
       "important": [
-        "liegen rāda stāvokli vai atrašanās vietu.",
-        "legen rāda darbību: kāds kaut ko noliek."
+        "liegen viser en stat eller lokation.",
+        "legen viser en handling: nogen lægger noget fra sig."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "liegen",
-            "legen"
-          ],
           "purple": [
-            "asuma",
-            "lamama",
-            "panema"
-          ],
-          "yellow": [
-            "asja"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -13769,11 +12587,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "raamat"
-              ],
-              "yellow": [
-                "Raamat",
-                "laual"
+                "Bogen"
               ]
             }
           },
@@ -13789,11 +12603,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "minu"
-              ],
-              "yellow": [
-                "telefon",
-                "autos"
+                "Min"
               ]
             }
           },
@@ -13808,10 +12618,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lamab"
-              ],
-              "green": [
-                "voodis"
+                "Han"
               ]
             }
           },
@@ -13827,11 +12634,11 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "panen"
+                "Jeg"
               ],
               "yellow": [
-                "raamatu",
-                "lauale"
+                "Jeg",
+                "Jeg"
               ]
             }
           }
@@ -13845,8 +12652,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "asuma",
-                "lamama"
+                "være",
+                "være"
               ]
             },
             "example": {
@@ -13863,7 +12670,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "panema"
+                "Læg"
               ]
             },
             "example": {
@@ -13880,7 +12687,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "seisma"
+                "Stå/vær"
               ]
             },
             "example": {
@@ -13895,11 +12702,7 @@ const A1_WORDS = [
                 "sein"
               ]
             },
-            "meaning": {
-              "purple": [
-                "olema"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "bin"
@@ -13913,31 +12716,18 @@ const A1_WORDS = [
               "liegen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "legen",
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "liegen"
-            ],
             "purple": [
-              "liegen",
               "liegen"
-            ]
-          },
-          {
-            "red": [
-              "legen"
-            ],
-            "purple": [
-              "legen",
-              "legen"
             ]
           }
         ]
@@ -13948,77 +12738,45 @@ const A1_WORDS = [
     "de": "Limonade",
     "de_article": "die",
     "de_plural": "die Limonaden",
-    "lv": "Limonaad",
+    "lv": "Limonade",
     "level": "A1"
   },
   {
     "de": "Lineal",
     "de_article": "das",
     "de_plural": "die Lineale",
-    "lv": "Joonlaud",
+    "lv": "Lineal",
     "level": "A1"
   },
   {
     "de": "links",
-    "lv": "Vasakule • Vasak",
+    "lv": "Venstre • Venstre",
     "level": "A1"
   },
   {
     "de": "Liste",
     "de_article": "die",
     "de_plural": "die Listen",
-    "lv": "Nimekiri",
+    "lv": "Liste",
     "level": "A1"
   },
   {
     "de": "Liter",
     "de_article": "der",
     "de_plural": "die Liter",
-    "lv": "Liiter",
+    "lv": "Liter",
     "level": "A1",
     "study": {
       "id": "a1-liter",
       "layout": "standardStudy",
-      "translation": "Liiter",
-      "explanation": "Põhiidee: der Liter on mahu mõõtühik. Saksamaal öeldakse tavaliselt der Liter, aga Austrias ja Šveitsis võib kuulda ka das Liter. Mitmuse vorm on alati die Liter — see ei muutu.",
+      "translation": "Liter",
+      "explanation": "I Tyskland siger man normalt 'der liter', men i Østrig og Schweiz kan man også høre 'das liter'. Flertalsformen forbliver uændret: 'die liter'.",
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Liter"
-          ],
-          "blue": [
-            "das Liter"
-          ],
           "purple": [
-            "die Liter"
+            "'die liter'"
           ]
-        },
-        "examples": [
-          {
-            "de": {},
-            "lv": {}
-          },
-          {
-            "de": {},
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "meaning": {}
-          },
-          {
-            "word": {},
-            "meaning": {}
-          },
-          {
-            "word": {},
-            "meaning": {}
-          }
-        ],
-        "tip": {},
-        "important": {}
+        }
       }
     }
   },
@@ -14026,73 +12784,65 @@ const A1_WORDS = [
     "de": "Löffel",
     "de_article": "der",
     "de_plural": "die Löffel",
-    "lv": "Lusikas",
+    "lv": "Ske",
     "level": "A1"
   },
   {
     "de": "Luft",
     "de_article": "die",
     "de_plural": "die Lüfte",
-    "lv": "Õhk",
+    "lv": "Luft",
     "level": "A1"
   },
   {
     "de": "lustig",
-    "lv": "Lõbus",
+    "lv": "Sjov",
     "level": "A1"
   },
   {
     "de": "machen",
-    "lv": "Tegema • Valmistama",
+    "lv": "Gør • Lav",
     "level": "A1",
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "Tegema • Valmistama",
+      "translation": "Gør • Lav",
       "explanation": [
-        "Põhiidee: machen on väga sage sõna, mis tähendab tegema või valmistama.",
-        "Kui jutt on tegevusest üldiselt, tõlgitakse see kui tegema.",
-        "Kui midagi luuakse või valmistatakse, tõlgitakse see kui tegema või valmistama.",
-        "Paljudes fraasides tõlgitakse machen loomulikult eesti keele järgi, mitte sõna-sõnalt."
+        "Hovedidé: machen er et meget almindeligt ord, der betyder at lave eller at lave.",
+        "Hvis det handler om handling generelt, oversættes det til, hvordan man gør.",
+        "Hvis noget er lavet eller tilberedt, oversættes det til at lave eller lave mad.",
+        "I mange sætninger oversættes machen naturligt til lettisk, ikke bogstaveligt."
       ],
       "examples": [
         {
           "de": "Was machst du?",
-          "lv": "Mida sa teed?"
+          "lv": "Hvad laver du"
         },
         {
           "de": "Ich mache Hausaufgaben.",
-          "lv": "Ma teen kodutöid."
+          "lv": "Jeg laver mine lektier."
         },
         {
           "de": "Wir machen Pizza.",
-          "lv": "Me teeme pitsat."
+          "lv": "Vi laver pizza."
         },
         {
           "de": "Das macht Spaß.",
-          "lv": "See on lõbus."
+          "lv": "Det er sjovt."
         }
       ],
       "tip": {
-        "text": "Atceries: Was machst du? = Ko tu dari?"
+        "text": "Husk: Var machst du? = Ko tu dari?"
       },
       "important": [
-        "machen ir ļoti plašs vārds, bet latviski bieži jātulko dabiski pēc situācijas.",
-        "Das macht Spaß nozīmē “tas ir jautri”, nevis burtiski “tas taisa prieku”."
+        "machen er et meget bredt ord, men på dansk skal ofte oversættes naturligt efter situationen.",
+        "Das macht Spaß betyder \"det er sjovt\", ikke bogstaveligt \"det gør det sjovt\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "machen"
-          ],
           "purple": [
-            "tegema",
-            "tegema",
-            "valmistama"
-          ],
-          "green": [
-            "tegevusest",
-            "fraasides"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -14104,7 +12854,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teed"
+                "Hvad"
               ]
             }
           },
@@ -14119,10 +12869,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teen"
-              ],
-              "yellow": [
-                "kodutöid"
+                "Jeg"
               ]
             }
           },
@@ -14137,10 +12884,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teeme"
-              ],
-              "yellow": [
-                "pitsat"
+                "laver"
               ]
             }
           },
@@ -14152,7 +12896,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "on lõbus"
+                "Det"
               ]
             }
           }
@@ -14182,31 +12926,18 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "Was machst du"
+              "Husk"
             ],
             "purple": [
-              "Atceries"
+              "ko tu dari"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "machen"
-            ],
             "purple": [
+              "machen",
               "machen"
-            ]
-          },
-          {
-            "blue": [
-              "Das macht Spaß"
-            ],
-            "purple": [
-              "Das"
-            ],
-            "red": [
-              "Das"
             ]
           }
         ]
@@ -14217,76 +12948,70 @@ const A1_WORDS = [
     "de": "Mädchen",
     "de_article": "das",
     "de_plural": "die Mädchen",
-    "lv": "Tüdruk",
+    "lv": "En pige",
     "level": "A1"
   },
   {
     "de": "Mahlzeit",
     "de_article": "die",
     "de_plural": "die Mahlzeiten",
-    "lv": "Söögikord",
+    "lv": "Et måltid",
     "level": "A1"
   },
   {
     "de": "Mai",
     "de_article": "der",
-    "lv": "Mai",
+    "lv": "Maj",
     "level": "A1"
   },
   {
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Kord",
+    "lv": "Tid",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Kord",
+      "translation": "Tid",
       "explanation": [
-        "Põhiidee: das Mal tähendab korda kui sündmust või juhtumit.",
-        "Sageli kasutatakse koos arvudega: ein Mal, zwei Mal, drei Mal.",
-        "Järgarvuga: das erste Mal, das zweite Mal.",
-        "Ära aja segi kõnekeelse osakesega mal (Komm mal her!) — sellel on teine tähendus."
+        "Hovedidé: das Mal betyder én gang som en begivenhed eller lejlighed.",
+        "Bruges ofte med tal: ein Mal, zwei Mal, drei Mal.",
+        "Med et ordenstal: das erste Mal, das zweite Mal.",
+        "Tal ikke med den daglige partikel mal (Komm mal her!) - det er en anden betydning."
       ],
       "examples": [
         {
           "de": "Das erste Mal war schwer.",
-          "lv": "Esimest korda oli raske."
+          "lv": "Den første tid var hård."
         },
         {
           "de": "Ich war schon zwei Mal in Berlin.",
-          "lv": "Ma olen juba kaks korda Berliinis käinud."
+          "lv": "Jeg har allerede været i Berlin to gange."
         },
         {
           "de": "Ein Mal reicht.",
-          "lv": "Üks kord piisab."
+          "lv": "En gang er nok."
         },
         {
           "de": "Noch ein Mal, bitte!",
-          "lv": "Veel üks kord, palun!"
+          "lv": "Endnu en gang tak!"
         }
       ],
       "tip": {
-        "text": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa."
+        "text": "Husk: das Mal = tid (substantiv); mal uden artikel = dagligdags partikel."
       },
       "important": [
-        "das Mal / die Male — lietvārds ar artikulu.",
+        "das Mal / die Male - navneord med artikel.",
         "ein Mal, zwei Mal — skaita reizes.",
-        "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
+        "mal uden artikel (Komm mal her!) er ikke det samme som das Mal."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Mal",
-            "ein Mal",
-            "zwei Mal",
-            "das erste Mal"
-          ],
           "purple": [
-            "korda",
-            "sündmust",
-            "juhtumit"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -14298,7 +13023,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "esimest korda"
+                "Den"
               ]
             }
           },
@@ -14310,7 +13035,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaks korda"
+                "Jeg"
               ]
             }
           },
@@ -14322,7 +13047,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "üks kord"
+                "gang"
               ]
             }
           },
@@ -14334,42 +13059,21 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kord"
+                "Endnu"
               ]
             }
           }
         ],
         "tip": {
-          "blue": [
-            "das Mal",
-            "mal"
-          ],
           "purple": [
-            "Atceries",
-            "Atceries"
+            "Husk",
+            "Husk"
           ]
         },
         "important": [
           {
-            "blue": [
-              "das Mal",
-              "die Male"
-            ]
-          },
-          {
-            "blue": [
-              "ein Mal",
-              "zwei Mal"
-            ],
             "purple": [
-              "ein"
-            ]
-          },
-          {
-            "blue": [
-              "mal"
-            ],
-            "purple": [
+              "das",
               "das Mal"
             ]
           }
@@ -14379,83 +13083,79 @@ const A1_WORDS = [
   },
   {
     "de": "malen",
-    "lv": "Maalima • Värvima",
+    "lv": "At male • At male",
     "level": "A1"
   },
   {
     "de": "manchmal",
-    "lv": "Vahel",
+    "lv": "Undertiden",
     "level": "A1"
   },
   {
     "de": "Mandarine",
     "de_article": "die",
     "de_plural": "die Mandarinen",
-    "lv": "Mandariin",
+    "lv": "Mandarin",
     "level": "A1"
   },
   {
     "de": "Mann",
     "de_article": "der",
     "de_plural": "die Männer",
-    "lv": "Mees • Abikaasa",
+    "lv": "Mand • Mand",
     "level": "A1",
     "study": {
       "id": "a1-mann",
       "layout": "standardStudy",
-      "translation": "Mees • Abikaasa",
+      "translation": "Mand • Mand",
       "explanation": [
-        "Põhiidee: der Mann võib tähendada meest (sugu) või abikaasat (abielupool).",
-        "Kui jutt on lihtsalt soost või isikust, der Mann = mees.",
-        "Kui jutt on abikaasast, der Mann = mees (mein Mann = minu mees).",
-        "Omastav asesõna (mein/dein/ihr Mann) tähendab peaaegu alati meest — abikaasat.",
-        "Mitmuses: die Männer.",
-        "Naissoovormil die Frau on samasugune kahekordne tähendus: naine JA abikaasa."
+        "Hovedidé: der Mann kan betyde mand (køn) eller mand (ægtefælle).",
+        "Hvis det blot er et spørgsmål om køn eller person, er der Mann = mand.",
+        "For en ægtefælle er der Mann = mand (mein Mann = min mand).",
+        "Det besiddende pronomen (mein/dein/ihr Mann) betyder næsten altid ægtemand - ægtefælle.",
+        "Flertal: die Männer.",
+        "Den feminine form die Frau har samme dobbeltbetydning: kvinde OG hustru."
       ],
       "examples": [
         {
           "de": "Er ist ein netter Mann.",
-          "lv": "Ta on tore mees."
+          "lv": "Han er en flink mand."
         },
         {
           "de": "Das ist mein Mann.",
-          "lv": "See on minu mees."
+          "lv": "Det her er min mand."
         },
         {
           "de": "Wie viele Männer sind hier?",
-          "lv": "Kui palju mehi on siin?"
+          "lv": "Hvor mange mænd er her?"
         },
         {
           "de": "Mein Mann arbeitet in Berlin.",
-          "lv": "Minu mees töötab Berliinis."
+          "lv": "Min mand arbejder i Berlin."
         },
         {
           "de": "Der Mann trägt einen Anzug.",
-          "lv": "Mees kannab ülikonda."
+          "lv": "Manden har et jakkesæt på."
         },
         {
           "de": "Ihr Mann ist Arzt.",
-          "lv": "Tema mees on arst."
+          "lv": "Hendes mand er læge."
         }
       ],
       "tip": [
-        "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
-        "Bez piederības vārda (der Mann, ein Mann) parasti domāts vīrietis."
+        "Det besiddende pronomen (mein/dein/ihr Mann) betyder næsten altid ægtemand (ægtefælle).",
+        "Uden besiddelse (der Mann, ein Mann) betyder normalt en mand."
       ],
       "important": [
-        "der Mann = vīrietis VAI vīrs — atkarībā no konteksta.",
-        "mein Mann = mans vīrs (ne 'mans vīrietis').",
-        "Daudzskaitlī: die Männer."
+        "der Mann = mand ELLER ægtemand - alt efter sammenhængen.",
+        "mein Mann = min mand (ikke 'min mand').",
+        "Flertal: die mänd."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Mann",
-            "Mann"
-          ],
           "purple": [
-            "mees",
-            "abikaasa"
+            "Mann",
+            "Mann"
           ]
         },
         "examples": [
@@ -14467,7 +13167,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mees"
+                "Han"
               ]
             }
           },
@@ -14479,7 +13179,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "see"
+                "Det"
               ]
             }
           },
@@ -14491,7 +13191,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui"
+                "Hvor"
               ]
             }
           },
@@ -14503,7 +13203,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "minu"
+                "Min"
               ]
             }
           },
@@ -14515,7 +13215,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mees"
+                "Manden"
               ]
             }
           },
@@ -14527,29 +13227,15 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tema"
+                "er"
               ]
             }
           }
         ],
         "tip": [
           {
-            "green": [
-              "mein",
-              "dein",
-              "ihr Mann"
-            ],
             "purple": [
-              "piederības"
-            ]
-          },
-          {
-            "blue": [
-              "der Mann",
-              "ein Mann"
-            ],
-            "purple": [
-              "piederības"
+              "Det"
             ]
           }
         ],
@@ -14558,16 +13244,6 @@ const A1_WORDS = [
             "purple": [
               "der",
               "der"
-            ]
-          },
-          {
-            "green": [
-              "mein Mann"
-            ]
-          },
-          {
-            "blue": [
-              "die Männer"
             ]
           }
         ]
@@ -14578,165 +13254,152 @@ const A1_WORDS = [
     "de": "Marmelade",
     "de_article": "die",
     "de_plural": "die Marmeladen",
-    "lv": "Moos",
+    "lv": "Marmelade",
     "level": "A1"
   },
   {
     "de": "März",
     "de_article": "der",
-    "lv": "Märts",
+    "lv": "Marts",
     "level": "A1"
   },
   {
     "de": "Maus",
     "de_article": "die",
     "de_plural": "die Mäuse",
-    "lv": "Hiir",
+    "lv": "Mus",
     "level": "A1"
   },
   {
     "de": "Meer",
     "de_article": "das",
     "de_plural": "die Meere",
-    "lv": "Meri",
+    "lv": "Havet",
     "level": "A1"
   },
   {
     "de": "Mehl",
     "de_article": "das",
     "de_plural": "die Mehle",
-    "lv": "Jahu",
+    "lv": "Mel",
     "level": "A1"
   },
   {
     "de": "mehr",
-    "lv": "Rohkem",
+    "lv": "Mere",
     "level": "A1"
   },
   {
     "de": "mein",
-    "lv": "Minu",
+    "lv": "Mine",
     "level": "A1"
   },
   {
     "de": "Mensch",
     "de_article": "der",
     "de_plural": "die Menschen",
-    "lv": "Inimene",
+    "lv": "En person",
     "level": "A1"
   },
   {
     "de": "Messer",
     "de_article": "das",
     "de_plural": "die Messer",
-    "lv": "Nuga",
+    "lv": "En kniv",
     "level": "A1"
   },
   {
     "de": "Meter",
     "de_article": "der",
     "de_plural": "die Meter",
-    "lv": "Meeter",
+    "lv": "Måler",
     "level": "A1"
   },
   {
     "de": "Milch",
     "de_article": "die",
-    "lv": "Piim",
+    "lv": "Mælk",
     "level": "A1"
   },
   {
     "de": "Million",
     "de_article": "die",
     "de_plural": "die Millionen",
-    "lv": "Miljon",
+    "lv": "Million",
     "level": "A1"
   },
   {
     "de": "Minute",
     "de_article": "die",
     "de_plural": "die Minuten",
-    "lv": "Minut",
+    "lv": "Et minut",
     "level": "A1"
   },
   {
     "de": "mit",
-    "lv": "-ga",
+    "lv": "Med",
     "level": "A1",
     "study": {
       "id": "a1-mit",
       "layout": "standardStudy",
-      "translation": "-ga",
+      "translation": "Med",
       "explanation": [
-        "Põhiidee: mit tähendab kõige sagedamini -ga.",
-        "Mit kasutatakse, kui inimene on kellegagi koos või teeb midagi mingi asjaga.",
-        "Transpordi puhul tähendab mit sageli bussiga, rongiga või autoga sõitmist.",
-        "A1 tasemel on väga sagedased fraasid mit dem Bus, mit dem Auto ja mit dir."
+        "Hovedidé: mit betyder oftest med.",
+        "Mit bruges, når en person er sammen med nogen eller gør noget med en ting.",
+        "Med transport betyder det ofte at tage bus, tog eller bil.",
+        "På A1-niveau er meget hyppige sætninger mit dem Bus, mit dem Auto og mit dir."
       ],
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "Ma tulen sinuga."
+          "lv": "Jeg kommer med dig"
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "Ma sõidan bussiga."
+          "lv": "Jeg tager med bus"
         },
         {
           "de": "Sie schreibt mit dem Stift.",
-          "lv": "Ta kirjutab pastakaga."
+          "lv": "Hun skriver med en kuglepen."
         },
         {
           "de": "Kommst du mit?",
-          "lv": "Kas sa tuled kaasa?"
+          "lv": "Vil du tage med mig?"
         }
       ],
       "comparison": [
         {
           "word": "mit",
-          "meaning": "-ga / koos",
+          "meaning": "Med / sammen med",
           "example": "Ich komme mit dir."
         },
         {
           "word": "ohne",
-          "meaning": "Ilma",
+          "meaning": "Uden",
           "example": "Ich komme ohne dich."
         },
         {
           "word": "bei",
-          "meaning": "Juures / kellegi juures",
+          "meaning": "Hos / hos nogen",
           "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
-          "meaning": "-sse / juurde",
+          "meaning": "Til / kl",
           "example": "Ich gehe zum Arzt."
         }
       ],
       "tip": {
-        "text": "Atceries: kopā ar kādu vai ar transportu → mit."
+        "text": "Husk: sammen med nogen eller med transport → mit."
       },
       "important": [
-        "mit prasa datīvu: mit dem Bus, mit der Mutter, mit dir.",
-        "Kommst du mit? nozīmē “Vai tu nāksi līdzi?”"
+        "mit kræver dativ: mit dem Bus, mit der Mutter, mit dir.",
+        "Hvor bor du? betyder \"Vil du tage med?\""
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "mit",
-            "mit dem Bus",
-            "mit dem Auto",
-            "mit dir"
-          ],
           "purple": [
-            "-ga",
-            "koos"
-          ],
-          "green": [
-            "Transpordi",
-            "bussiga",
-            "rongiga",
-            "auto"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -14748,7 +13411,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sinuga"
+                "Jeg"
               ]
             }
           },
@@ -14760,7 +13423,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "bussiga"
+                "bus"
               ]
             }
           },
@@ -14772,7 +13435,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pastakaga"
+                "Hun"
               ]
             }
           },
@@ -14784,7 +13447,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaasa"
+                "Vil"
               ]
             }
           }
@@ -14798,8 +13461,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "-ga",
-                "koos"
+                "Med",
+                "Med"
               ]
             },
             "example": {
@@ -14816,7 +13479,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ilma"
+                "Uden"
               ]
             },
             "example": {
@@ -14833,7 +13496,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "juures"
+                "Hos"
               ]
             },
             "example": {
@@ -14848,12 +13511,7 @@ const A1_WORDS = [
                 "zu"
               ]
             },
-            "meaning": {
-              "purple": [
-                "sse",
-                "juurde"
-              ]
-            },
+            "meaning": {},
             "example": {
               "yellow": [
                 "zum Arzt"
@@ -14867,31 +13525,15 @@ const A1_WORDS = [
               "mit"
             ],
             "purple": [
-              "Atceries",
-              "transportu"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "mit"
-            ],
             "purple": [
-              "mit"
-            ],
-            "yellow": [
-              "dem Bus",
-              "der Mutter",
-              "dir"
-            ]
-          },
-          {
-            "blue": [
-              "Kommst du mit"
-            ],
-            "purple": [
-              "Kommst"
+              "dativ"
             ]
           }
         ]
@@ -14900,102 +13542,97 @@ const A1_WORDS = [
   },
   {
     "de": "mitnehmen",
-    "lv": "Kaasa võtma",
+    "lv": "Tag med dig",
     "level": "A1"
   },
   {
     "de": "Mittag",
     "de_article": "der",
     "de_plural": "die Mittage",
-    "lv": "Keskpäev",
+    "lv": "Frokost",
     "level": "A1"
   },
   {
     "de": "Mittagessen",
     "de_article": "das",
     "de_plural": "die Mittagessen",
-    "lv": "Lõunasöök",
+    "lv": "Frokost",
     "level": "A1"
   },
   {
     "de": "Mittwoch",
     "de_article": "der",
     "de_plural": "die Mittwoche",
-    "lv": "Kolmapäev",
+    "lv": "Onsdag",
     "level": "A1"
   },
   {
     "de": "mögen",
-    "lv": "Meeldima",
+    "lv": "At kunne lide",
     "level": "A1",
     "study": {
       "id": "a1-mögen",
       "layout": "standardStudy",
-      "translation": "Meeldima",
+      "translation": "At kunne lide",
       "explanation": [
-        "Põhiidee: mögen tähendab kõige sagedamini, et miski meeldib.",
-        "Ich mag... on eesti keeles tavaliselt “mulle meeldib...”.",
-        "Möchte on teine vorm, mida kasutatakse viisaka soovi jaoks: ma sooviksin.",
-        "A1 tasemel on kõige tähtsam fraas Ich mag das."
+        "Hovedidé: mögen betyder ofte at kunne lide noget.",
+        "Ich mag... er normalt \"jeg kan lide...\" på lettisk.",
+        "Möchte er en anden form, der bruges til høfligt belært: Jeg vil gerne.",
+        "På A1-niveau er den vigtigste sætning Ich mag das."
       ],
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "Mulle meeldib muusika."
+          "lv": "Jeg kan godt lide musik"
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "Kas sulle maitseb kohv?"
+          "lv": "Kan du lide kaffe"
         },
         {
           "de": "Sie mag Kinder.",
-          "lv": "Talle meeldivad lapsed."
+          "lv": "Hun kan godt lide børn."
         },
         {
           "de": "Ich möchte einen Kaffee.",
-          "lv": "Ma sooviksin kohvi."
+          "lv": "Jeg vil gerne have kaffe"
         }
       ],
       "comparison": [
         {
           "word": "mögen",
-          "meaning": "Meeldima",
+          "meaning": "At kunne lide",
           "example": "Ich mag Musik."
         },
         {
           "word": "möchte",
-          "meaning": "Sooviksin",
+          "meaning": "Vil gerne",
           "example": "Ich möchte Kaffee."
         },
         {
           "word": "wollen",
-          "meaning": "Tahtma",
+          "meaning": "Vil du",
           "example": "Ich will nach Hause."
         },
         {
           "word": "lieben",
-          "meaning": "Armastama",
+          "meaning": "At elske",
           "example": "Ich liebe dich."
         }
       ],
       "tip": {
-        "text": "Atceries: Ich mag... = man patīk..."
+        "text": "Husk: Ich mag... = Jeg kan godt lide..."
       },
       "important": [
-        "mögen nav galvenais vārds pieklājīgam “es gribētu”. Tam parasti lieto möchte.",
-        "Ich mag Kaffee nozīmē “man garšo/patīk kafija”."
+        "mögen er ikke et navneord for høflig 'jeg vil gerne'. Möchte bruges normalt til dette.",
+        "Ich mag Kaffee betyder \"Jeg kan godt lide kaffe\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "mögen",
-            "Ich mag",
-            "möchte"
-          ],
           "purple": [
-            "meeldib",
-            "mulle meeldib",
-            "ma sooviksin"
+            "lide",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -15007,10 +13644,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "meeldib"
-              ],
-              "yellow": [
-                "muusika"
+                "lide"
               ]
             }
           },
@@ -15022,10 +13656,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maitseb"
-              ],
-              "yellow": [
-                "kohv"
+                "Kan"
               ]
             }
           },
@@ -15037,10 +13668,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "meeldivad"
-              ],
-              "green": [
-                "lapsed"
+                "lide"
               ]
             }
           },
@@ -15052,10 +13680,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "sooviksin"
+                "Jeg"
               ],
               "yellow": [
-                "kohvi"
+                "Jeg"
               ]
             }
           }
@@ -15069,7 +13697,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "meeldima"
+                "lide"
               ]
             },
             "example": {
@@ -15086,7 +13714,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sooviksin"
+                "Vil"
               ]
             },
             "example": {
@@ -15103,7 +13731,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tahtma"
+                "Vil"
               ]
             },
             "example": {
@@ -15120,7 +13748,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "armastama"
+                "elske"
               ]
             },
             "example": {
@@ -15136,30 +13764,15 @@ const A1_WORDS = [
               "Ich mag"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "mögen"
-            ],
-            "red": [
-              "möchte"
-            ],
             "purple": [
               "mögen",
               "mögen"
-            ]
-          },
-          {
-            "blue": [
-              "mag"
-            ],
-            "purple": [
-              "Ich",
-              "Ich"
             ]
           }
         ]
@@ -15170,85 +13783,81 @@ const A1_WORDS = [
     "de": "Möhre",
     "de_article": "die",
     "de_plural": "die Möhren",
-    "lv": "Porgand",
+    "lv": "Gulerod",
     "level": "A1"
   },
   {
     "de": "Monat",
     "de_article": "der",
     "de_plural": "die Monate",
-    "lv": "Kuu",
+    "lv": "Måned",
     "level": "A1"
   },
   {
     "de": "Montag",
     "de_article": "der",
     "de_plural": "die Montage",
-    "lv": "Esmaspäev",
+    "lv": "Mandag",
     "level": "A1"
   },
   {
     "de": "morgen",
-    "lv": "Homme",
+    "lv": "I morgen",
     "level": "A1",
     "study": {
       "id": "a1-morgen",
       "layout": "standardStudy",
-      "translation": "Homme",
+      "translation": "I morgen",
       "explanation": [
-        "Põhiidee: Ajamäärus väikese algustähega. Tähendab järgmist päeva — homme.",
-        "Morgen tähendab peamiselt: järgmisel päeval.",
-        "Sageli kirjeldab: ajamäärus.",
-        "Morgen tähendab peamiselt: päeva osa.",
-        "Sageli kirjeldab: nimisõna (der).",
-        "Morgen tähendab peamiselt: mitu hommikut.",
-        "Sageli kirjeldab: nimisõna (pl.).",
-        "Morgen väikese algustähega tähendab homme — järgmisel päeval (Ich komme morgen = ma tulen homme, Bis morgen!"
+        "Hovedidé: Adverbiet af tid er små bogstaver. Betyder næste dag - i morgen.",
+        "Morgen betyder hovedsageligt: ​​næste dag.",
+        "Ofte præget af: vejr.",
+        "Morgen betyder primært: en del af dagen.",
+        "Beskriver ofte: navneord (der).",
+        "Morgen betyder i bund og grund: flere morgener.",
+        "Ofte karakteriseret ved: navneord (pl.).",
+        "Morgen med et lille begyndelsesbogstav betyder i morgen - næste dag (Ich komme morgen = jeg kommer i morgen, Bis morgen!"
       ],
       "examples": [
         {
           "de": "Ich komme morgen.",
-          "lv": "Ma tulen homme."
+          "lv": "Jeg kommer i morgen."
         },
         {
           "de": "Bis morgen!",
-          "lv": "Homseni!"
+          "lv": "Indtil i morgen!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Ma tulen homme."
+          "lv": "Jeg kommer i morgen"
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Homme on esmaspäev."
+          "lv": "I morgen er det mandag"
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Tere hommikust!"
+          "lv": "Godmorgen!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "Hommik on ilus."
+          "lv": "Morgenen er smuk."
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "morgen = rīt"
+        "Lille morgen = i morgen (Ich komme morgen). der Morgen med stort bogstav = morgen (Guten Morgen!, am Morgen).",
+        "morgen = rit"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+        "morgen er små bogstaver - det er et tidsadverbium (i morgen).",
+        "der Morgen med stort bogstav og artiklen der er et navneord (morgen).",
+        "Godmorgen! — altid med stort M (morgen, ikke i morgen).",
         "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "morgen"
-          ],
           "purple": [
-            "homme",
-            "Põhiidee"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -15261,7 +13870,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homme"
+                "Jeg"
               ]
             }
           },
@@ -15274,7 +13883,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homseni"
+                "Indtil"
               ]
             }
           },
@@ -15287,7 +13896,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homme"
+                "Jeg"
               ]
             }
           },
@@ -15300,7 +13909,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homme"
+                "morgen"
               ]
             }
           },
@@ -15313,7 +13922,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hommikust"
+                "Godmorgen"
               ]
             }
           },
@@ -15326,7 +13935,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hommik"
+                "Morgenen"
               ]
             }
           }
@@ -15334,7 +13943,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "komme"
+              "Lille"
             ]
           }
         ],
@@ -15351,137 +13960,116 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
-    "lv": "Hommik",
+    "lv": "Morgenen",
     "level": "A1",
     "study": {
       "id": "a1-morgen-study",
       "layout": "standardStudy",
-      "translation": "Hommik",
+      "translation": "Morgenen",
       "explanation": [
-        "Põhiidee: Nimisõna artikliga der ja suure algustähega. Päevaosa — hommik.",
-        "Der Morgen tähendab peamiselt: järgmisel päeval.",
-        "Sageli kirjeldab: ajamäärus.",
-        "Der Morgen tähendab peamiselt: päeva osa.",
-        "Sageli kirjeldab: nimisõna (der).",
-        "Der Morgen tähendab peamiselt: mitu hommikut.",
-        "Sageli kirjeldab: nimisõna (pl.).",
-        "Morgen väikese algustähega tähendab homme — järgmisel päeval (Ich komme morgen = ma tulen homme, Bis morgen!"
+        "Hovedidé: Et navneord med en artikel passer til og skrives med stort. Dag del - morgen.",
+        "Der Morgen betyder hovedsageligt: ​​næste dag.",
+        "Ofte præget af: vejr.",
+        "Der Morgen betyder primært: en del af dagen.",
+        "Beskriver ofte: navneord (der).",
+        "Der Morgen betyder i bund og grund: flere morgener.",
+        "Ofte karakteriseret ved: navneord (pl.).",
+        "Morgen med et lille begyndelsesbogstav betyder i morgen - næste dag (Ich komme morgen = jeg kommer i morgen, Bis morgen!"
       ],
       "examples": [
         {
           "de": "Guten Morgen!",
-          "lv": "Tere hommikust!"
+          "lv": "Godmorgen!"
         },
         {
           "de": "Bis morgen!",
-          "lv": "Homseni!"
+          "lv": "Indtil i morgen!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Ma tulen homme."
+          "lv": "Jeg kommer i morgen"
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Homme on esmaspäev."
+          "lv": "I morgen er det mandag"
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Tere hommikust!"
+          "lv": "Godmorgen!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "Hommik on ilus."
+          "lv": "Morgenen er smuk."
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "der Morgen = rīt"
+        "Lille morgen = i morgen (Ich komme morgen). der Morgen med stort bogstav = morgen (Guten Morgen!, am Morgen).",
+        "der Morgen = rit"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+        "morgen er små bogstaver - det er et tidsadverbium (i morgen).",
+        "der Morgen med stort bogstav og artiklen der er et navneord (morgen).",
+        "Godmorgen! — altid med stort M (morgen, ikke i morgen).",
         "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Morgen",
-            "morgen"
-          ],
           "purple": [
-            "hommik",
-            "hommikut"
-          ],
-          "yellow": [
-            "Morgen"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "Guten",
+                "morgen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "hommikust"
+                "Indtil"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Bis",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "homseni"
+                "Jeg"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Ich",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "homme"
+                "morgen"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Morgen",
                 "morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "homme"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Guten",
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "hommikust"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15492,7 +14080,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hommik"
+                "Morgenen"
               ]
             }
           }
@@ -15500,118 +14088,107 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Mazais"
+              "Lille"
             ]
           }
         ],
         "important": [
-          {
-            "green": [
-              "morgen"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "morgens",
-    "lv": "Hommikul",
+    "lv": "Om morgenen",
     "level": "A1"
   },
   {
     "de": "müde",
-    "lv": "Väsinud",
+    "lv": "Træt",
     "level": "A1"
   },
   {
     "de": "Mund",
     "de_article": "der",
     "de_plural": "die Münder",
-    "lv": "Suu",
+    "lv": "Munden",
     "level": "A1"
   },
   {
     "de": "Musik",
     "de_article": "die",
-    "lv": "Muusika",
+    "lv": "Musik",
     "level": "A1"
   },
   {
     "de": "müssen",
-    "lv": "Pidama",
+    "lv": "At have brug for",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
       "layout": "standardStudy",
-      "translation": "Pidama",
+      "translation": "At have brug for",
       "explanation": [
-        "Põhiidee: müssen tähendab, et midagi tuleb teha.",
-        "Eesti keeles tõlgitakse müssen sageli väljenditega “ma pean...”, “sa pead...”, “me peame...”.",
-        "Saksa lauses on teine tegusõna tavaliselt lõpus.",
-        "A1 tasemel on kõige tähtsam vorm Ich muss..."
+        "Hovedidé: müssen betyder at gøre noget.",
+        "På letisk oversættes müssen ofte med \"mig ja...\", \"du ja...\", \"vi ja...\".",
+        "I en tysk sætning kommer det andet udsagnsord normalt til sidst.",
+        "På A1-niveau er den vigtigste form Ich muss..."
       ],
       "examples": [
         {
           "de": "Ich muss gehen.",
-          "lv": "Ma pean minema."
+          "lv": "Jeg er nødt til at gå"
         },
         {
           "de": "Du musst warten.",
-          "lv": "Sa pead ootama."
+          "lv": "Du må vente."
         },
         {
           "de": "Wir müssen lernen.",
-          "lv": "Me peame õppima."
+          "lv": "Vi skal lære."
         },
         {
           "de": "Ich muss heute arbeiten.",
-          "lv": "Ma pean täna töötama."
+          "lv": "Jeg skal arbejde i dag"
         }
       ],
       "comparison": [
         {
           "word": "müssen",
-          "meaning": "Pidama",
+          "meaning": "Behøver/skal gøre",
           "example": "Ich muss gehen."
         },
         {
           "word": "können",
-          "meaning": "Saama / oskama",
+          "meaning": "Kunne/kende",
           "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
-          "meaning": "Tahtma",
+          "meaning": "Vil du",
           "example": "Ich will nach Hause."
         },
         {
           "word": "dürfen",
-          "meaning": "Tohtima",
+          "meaning": "At få lov",
           "example": "Darf ich gehen?"
         }
       ],
       "tip": {
-        "text": "Atceries: Ich muss... = man jā..."
+        "text": "Husk: Ich muss... = Jeg skal..."
       },
       "important": [
-        "müssen ir modālais darbības vārds.",
-        "Otrs darbības vārds parasti iet teikuma beigās: Ich muss heute arbeiten."
+        "müssen er et modalt verbum.",
+        "Det andet verbum går normalt i slutningen af ​​sætningen: Ich muss heute arbeiten."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "müssen",
-            "Ich muss"
-          ],
           "purple": [
-            "tuleb teha",
-            "ma pean",
-            "sa pead",
-            "me peame"
-          ],
-          "green": [
-            "lõpus"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -15624,7 +14201,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pean"
+                "Jeg"
               ]
             }
           },
@@ -15637,7 +14214,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pead"
+                "vente"
               ]
             }
           },
@@ -15650,7 +14227,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peame"
+                "skal"
               ]
             }
           },
@@ -15663,7 +14240,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pean"
+                "Jeg"
               ]
             }
           }
@@ -15677,8 +14254,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pidama",
-                "pidama"
+                "Behøver/skal",
+                "Behøver/skal"
               ]
             },
             "example": {
@@ -15695,8 +14272,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saama",
-                "oskama"
+                "Kunne/kende",
+                "Kunne/kende"
               ]
             },
             "example": {
@@ -15713,7 +14290,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tahtma"
+                "Vil"
               ]
             },
             "example": {
@@ -15730,7 +14307,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tohtima"
+                "lov"
               ]
             },
             "example": {
@@ -15746,26 +14323,15 @@ const A1_WORDS = [
               "Ich muss"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "müssen"
-            ],
             "purple": [
+              "müssen",
               "müssen"
-            ]
-          },
-          {
-            "blue": [
-              "muss",
-              "arbeiten"
-            ],
-            "purple": [
-              "Otrs"
             ]
           }
         ]
@@ -15776,92 +14342,81 @@ const A1_WORDS = [
     "de": "Mutter",
     "de_article": "die",
     "de_plural": "die Mütter",
-    "lv": "Ema",
+    "lv": "Mor",
     "level": "A1"
   },
   {
     "de": "Mütze",
     "de_article": "die",
     "de_plural": "die Mützen",
-    "lv": "Müts",
+    "lv": "Hat",
     "level": "A1"
   },
   {
     "de": "nach",
-    "lv": "-sse • Pärast",
+    "lv": "Til • Efter",
     "level": "A1",
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "-sse • Pärast",
+      "translation": "Til • Efter",
       "explanation": [
-        "Põhiidee: nach tähendab kohtade puhul suunda kuhugi ja aja või järjekorra puhul pärast.",
-        "Artiklita linnade ja riikide puhul tähendab nach sageli lõppu -sse.",
-        "Aja puhul tähendab nach pärast.",
-        "Fraasis nach Hause tähendab see koju."
+        "Hovedidé: nach betyder at med steder og efter med tid eller sekvens.",
+        "Med byer og lande uden artiklen nach ofte betyder at.",
+        "Med tiden betyder nach efter.",
+        "I sætningen nach Hause betyder det hjem."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Ma sõidan Berliini."
+          "lv": "Jeg skal til Berlin."
         },
         {
           "de": "Wir gehen nach Hause.",
-          "lv": "Me läheme koju."
+          "lv": "Vi skal hjem."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Pärast söömist läheme jalutama."
+          "lv": "Efter at have spist går vi en tur."
         },
         {
           "de": "Es ist zehn nach acht.",
-          "lv": "On kümme minutit kaheksa läbi."
+          "lv": "Klokken er ti over otte."
         }
       ],
       "comparison": [
         {
           "word": "nach",
-          "meaning": "-sse / pärast",
+          "meaning": "Til/efter",
           "example": "Ich fahre nach Berlin."
         },
         {
           "word": "zu",
-          "meaning": "-sse / juurde",
+          "meaning": "Til / kl",
           "example": "Ich gehe zum Arzt."
         },
         {
           "word": "in",
-          "meaning": "Sees / mingisse kohta artikliga",
+          "meaning": "I / til stedet med artiklen",
           "example": "Ich gehe in die Schule."
         },
         {
           "word": "vor",
-          "meaning": "Enne / ees",
+          "meaning": "Før / foran",
           "example": "Vor dem Essen wasche ich die Hände."
         }
       ],
       "tip": {
-        "text": "Atceries: nach Hause; nach Berlin; pēc ēšanas."
+        "text": "Husk: nach Hause; nach Berlin; efter at have spist."
       },
       "important": [
-        "nach nelieto ar visām vietām.",
+        "nach bruges ikke med alle steder.",
         "Uz skolu parasti ir in die Schule, nevis nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "nach",
-            "nach Hause"
-          ],
           "purple": [
-            "Põhiidee",
-            "pärast",
-            "koju"
-          ],
-          "green": [
-            "linnade",
-            "riikide",
-            "aja"
+            "efter"
           ]
         },
         "examples": [
@@ -15876,10 +14431,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sõidan"
-              ],
-              "green": [
-                "Berliini"
+                "Jeg"
               ]
             }
           },
@@ -15891,7 +14443,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "koju"
+                "skal"
               ]
             }
           },
@@ -15906,10 +14458,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pärast"
-              ],
-              "yellow": [
-                "söömist"
+                "Efter"
               ]
             }
           },
@@ -15921,7 +14470,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kümme"
+                "Klokken"
               ]
             }
           }
@@ -15935,8 +14484,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse",
-                "pärast"
+                "Til/efter",
+                "Til/efter"
               ]
             },
             "example": {
@@ -15951,12 +14500,7 @@ const A1_WORDS = [
                 "zu"
               ]
             },
-            "meaning": {
-              "purple": [
-                "sse",
-                "juurde"
-              ]
-            },
+            "meaning": {},
             "example": {
               "yellow": [
                 "zum Arzt"
@@ -15971,7 +14515,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sees"
+                "til"
               ]
             },
             "example": {
@@ -15988,8 +14532,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "enne",
-                "ees"
+                "Før",
+                "Før"
               ]
             },
             "example": {
@@ -16006,7 +14550,7 @@ const A1_WORDS = [
               "nach Berlin"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
@@ -16035,95 +14579,92 @@ const A1_WORDS = [
     "de": "Nachmittag",
     "de_article": "der",
     "de_plural": "die Nachmittage",
-    "lv": "Pärastlõuna",
+    "lv": "Eftermiddag",
     "level": "A1"
   },
   {
     "de": "nachmittags",
-    "lv": "Pärastlõunal",
+    "lv": "Om eftermiddagen",
     "level": "A1"
   },
   {
     "de": "Nacht",
     "de_article": "die",
     "de_plural": "die Nächte",
-    "lv": "Öö",
+    "lv": "Nat",
     "level": "A1"
   },
   {
     "de": "Nase",
     "de_article": "die",
     "de_plural": "die Nasen",
-    "lv": "Nina",
+    "lv": "Næsen",
     "level": "A1"
   },
   {
     "de": "nass",
-    "lv": "Märg",
+    "lv": "Våd",
     "level": "A1"
   },
   {
     "de": "Natur",
     "de_article": "die",
-    "lv": "Loodus",
+    "lv": "Natur",
     "level": "A1"
   },
   {
     "de": "natürlich",
-    "lv": "Muidugi • Loomulik",
+    "lv": "Selvfølgelig • Naturlig",
     "level": "A1",
     "study": {
       "id": "a1-natuerlich",
       "layout": "standardStudy",
-      "translation": "Muidugi • Loomulik",
+      "translation": "Selvfølgelig • Naturlig",
       "explanation": [
-        "Põhiidee: natürlich tähendab määrsõnana muidugi, omadussõnana tähendab loomulik.",
-        "Vestluses, midagi kinnitades, natürlich = muidugi (Kommst du mit? – Natürlich! = Kas tuled kaasa? – Muidugi!).",
-        "Loodusest, päritolust või omadustest rääkides natürlich = loomulik (natürliche Schönheit = loomulik ilu).",
-        "Kontekst (vastus/kinnitus või kirjeldus) näitab õiget tähendust."
+        "Hovedidé: natürlich som et adverb betyder selvfølgelig, som et adjektiv betyder det naturligt.",
+        "I samtale, bekræftende noget, natürlich = selvfølgelig (Kommst du mit? – Natürlich! = Følger du med? – Selvfølgelig!).",
+        "Når man taler om natur, oprindelse eller kvaliteter, er natürlich = naturlig (natürliche Schönheit = naturlig skønhed).",
+        "Konteksten (svar/bekræftelse eller beskrivelse) viser den korrekte betydning."
       ],
       "examples": [
         {
           "de": "Kommst du mit? – Natürlich!",
-          "lv": "Kas tuled kaasa? – muidugi!"
+          "lv": "Kommer du med mig? - selvfølgelig!"
         },
         {
           "de": "Das ist eine natürliche Reaktion.",
-          "lv": "See on loomulik reaktsioon."
+          "lv": "Det er en naturlig reaktion."
         },
         {
           "de": "Natürlich helfe ich dir.",
-          "lv": "Muidugi, ma aitan sind."
+          "lv": "Jeg vil selvfølgelig hjælpe dig."
         },
         {
           "de": "Sie hat natürliche rote Haare.",
-          "lv": "Tal on loomulikult punased juuksed."
+          "lv": "Hun har naturligt rødt hår."
         },
         {
           "de": "Natürlich kann ich das machen.",
-          "lv": "Muidugi, ma saan seda teha."
+          "lv": "Selvfølgelig kan jeg gøre det."
         },
         {
           "de": "Das ist ganz natürlich.",
-          "lv": "See on täiesti loomulik/normaalne."
+          "lv": "Dette er helt naturligt/normalt."
         }
       ],
       "tip": [
-        "Kā atsevišķs vārds, apstiprinot vai atbildot → protams.",
-        "Blakus lietvārdam, aprakstot izcelsmi vai īpašību → dabisks."
+        "Som et separat ord, bekræftelse eller besvarelse → selvfølgelig.",
+        "Ved siden af ​​et substantiv, der beskriver en oprindelse eller kvalitet → naturlig."
       ],
       "important": [
-        "natürlich = protams (apstākļa vārds, apstiprinājums) VAI dabisks (īpašības vārds).",
-        "Natürlich! kā atsevišķs saucienis vienmēr = protams!"
+        "natürlich = selvfølgelig (adverbium, bekræftelse) ELLER naturlig (tillægsord).",
+        "Naturligt! som et separat udråbstegn altid = selvfølgelig!"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "natürlich"
-          ],
           "purple": [
-            "muidugi",
-            "loomulik"
+            "man",
+            "man"
           ]
         },
         "examples": [
@@ -16135,7 +14676,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "muidugi"
+                "Kommer"
               ]
             }
           },
@@ -16147,7 +14688,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "loomulik"
+                "Det"
               ]
             }
           },
@@ -16159,7 +14700,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "muidugi"
+                "Jeg"
               ]
             }
           },
@@ -16171,7 +14712,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "loomulikult"
+                "Hun"
               ]
             }
           },
@@ -16183,7 +14724,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "muidugi"
+                "Selvfølgelig"
               ]
             }
           },
@@ -16195,7 +14736,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "loomulik"
+                "Dette"
               ]
             }
           }
@@ -16203,12 +14744,12 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "atsevišķs"
+              "Som"
             ]
           },
           {
             "green": [
-              "atsevišķs"
+              "Som"
             ]
           }
         ],
@@ -16218,11 +14759,6 @@ const A1_WORDS = [
               "natürlich",
               "natürlich"
             ]
-          },
-          {
-            "blue": [
-              "Natürlich!"
-            ]
           }
         ]
       }
@@ -16230,82 +14766,75 @@ const A1_WORDS = [
   },
   {
     "de": "neben",
-    "lv": "Kõrval",
+    "lv": "Ved siden af",
     "level": "A1"
   },
   {
     "de": "nehmen",
-    "lv": "Võtma • Kätte võtma",
+    "lv": "At tage • At tage",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "Võtma • Kätte võtma",
+      "translation": "At tage • At tage",
       "explanation": [
-        "Põhiidee: nehmen tähendab võtma või kätte võtma.",
-        "Nehmen kasutatakse, kui sa võtad midagi endale või valid.",
-        "See ei ole sama mis bringen, sest bringen tähendab kellelegi tooma või viima.",
-        "Holen tähendab järele minema ja tooma/võtma."
+        "Hovedidé: nehmen betyder at tage eller tage.",
+        "Nehmen bruges, når du tager noget for dig selv eller vælger.",
+        "Det er ikke det samme som bringen, fordi bringen betyder at bringe eller tage til nogen.",
+        "Holen betyder at gå efter og hente/tage."
       ],
       "examples": [
         {
           "de": "Ich nehme den Bus.",
-          "lv": "Ma sõidan bussiga."
+          "lv": "Jeg tager med bus"
         },
         {
           "de": "Nimm das Buch!",
-          "lv": "Võta raamat!"
+          "lv": "Tag bogen!"
         },
         {
           "de": "Ich bringe dir das Buch.",
-          "lv": "Ma toon sulle raamatu."
+          "lv": "Jeg bragte dig en bog"
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "Ma tulen sulle järele."
+          "lv": "Jeg tager dig"
         }
       ],
       "comparison": [
         {
           "word": "nehmen",
-          "meaning": "Võtma / kätte võtma",
+          "meaning": "At tage / at tage",
           "example": "Nimm das Buch!"
         },
         {
           "word": "bringen",
-          "meaning": "Tooma / viima / kohale toimetama",
+          "meaning": "Medbring/tag/lever",
           "example": "Ich bringe dir das Buch."
         },
         {
           "word": "holen",
-          "meaning": "Järele minema / tooma",
+          "meaning": "Gå efter/hent",
           "example": "Ich hole Wasser."
         },
         {
           "word": "mitnehmen",
-          "meaning": "Kaasa võtma",
+          "meaning": "Tag med dig",
           "example": "Ich nehme dich mit."
         }
       ],
       "tip": {
-        "text": "Atceries: paņem sev → nehmen; atnes kādam → bringen."
+        "text": "Husk: tag selv → nehmen; bringe nogen → bringen."
       },
       "important": [
-        "Ich nehme den Bus latviski nozīmē “es braucu ar autobusu”.",
-        "nehmen nav tas pats, kas bringen."
+        "Ich nehme den Bus på dansk betyder \"jeg tager bussen\".",
+        "nehmen er ikke det samme som bringen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "nehmen"
-          ],
           "purple": [
-            "võtma",
-            "võtma"
-          ],
-          "red": [
-            "bringen",
-            "holen"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -16320,10 +14849,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sõidan"
-              ],
-              "yellow": [
-                "bussiga"
+                "bus"
               ]
             }
           },
@@ -16338,10 +14864,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "võta"
-              ],
-              "yellow": [
-                "raamat"
+                "Tag"
               ]
             }
           },
@@ -16356,10 +14879,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "toon"
+                "Jeg"
               ],
               "yellow": [
-                "raamatu"
+                "Jeg"
               ]
             }
           },
@@ -16374,10 +14897,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "tulen"
+                "Jeg"
               ],
               "green": [
-                "tulen"
+                "Jeg"
               ]
             }
           }
@@ -16391,8 +14914,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "võtma",
-                "võtma"
+                "tage",
+                "tage"
               ]
             },
             "example": {
@@ -16409,9 +14932,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tooma",
-                "viima",
-                "kohale toimetama"
+                "Bring",
+                "Bring",
+                "Bring"
               ]
             },
             "example": {
@@ -16428,8 +14951,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "järele minema",
-                "tooma"
+                "efter/hent",
+                "efter/hent"
               ]
             },
             "example": {
@@ -16446,7 +14969,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kaasa võtma"
+                "Tag"
               ]
             },
             "example": {
@@ -16463,29 +14986,18 @@ const A1_WORDS = [
               "nehmen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "bringen",
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "nehme den Bus"
-            ],
             "purple": [
               "Ich"
-            ]
-          },
-          {
-            "blue": [
-              "nehmen"
-            ],
-            "red": [
-              "bringen"
             ]
           }
         ]
@@ -16494,84 +15006,78 @@ const A1_WORDS = [
   },
   {
     "de": "nein",
-    "lv": "Ei",
+    "lv": "Ingen",
     "level": "A1"
   },
   {
     "de": "nennen",
-    "lv": "Nimetama",
+    "lv": "At navngive",
     "level": "A1"
   },
   {
     "de": "nett",
-    "lv": "Kena",
+    "lv": "Pæn",
     "level": "A1"
   },
   {
     "de": "neu",
-    "lv": "Uus (asjade kohta)",
+    "lv": "Nyt (om ting)",
     "level": "A1",
     "study": {
       "id": "a1-neu",
       "layout": "standardStudy",
-      "translation": "Uus (asjade kohta)",
+      "translation": "Nyt (om ting)",
       "explanation": [
-        "Põhiidee: neu tähendab uus asja mõttes — hiljuti loodud, soetatud või esimest korda kasutatud.",
-        "Neu kirjeldab asju, seadmeid, riideid, maja, ideed jms — mitte inimese või looma vanust.",
-        "Eesti keeles on need kaks tähendust eri sõnadega: noor vanuse kohta (jung) ja uus/hiljuti valminud asja kohta (neu).",
-        "Inimese või looma vanuse kohta kasutatakse jung, mitte neu.",
-        "Neu kasutatakse ka ülekantud tähenduses: uus töö, uus info, uus algus.",
-        "Vastand on alt (vana) • Nimisõna das Neue tähendab midagi uut."
+        "Hovedidé: neu betyder nyt i form af en ting - for nylig oprettet, købt eller brugt for første gang.",
+        "Neu beskriver ting, enheder, tøj, huse, ideer osv. - ikke menneske- eller dyrealder.",
+        "På lettisk har ordet ung to betydninger: ung i alderen (jung) og ung/nyligt oprettet (neu).",
+        "For en persons eller et dyrs alder bruges jung, ikke neu.",
+        "Neu bruges også billedligt: ​​nyt job, ny information, ny begyndelse.",
+        "Det modsatte er alt (gammelt) • Navneordet das Neue betyder nyt."
       ],
       "examples": [
         {
           "de": "Mein Handy ist neu.",
-          "lv": "Minu telefon on uus."
+          "lv": "Min telefon er ny."
         },
         {
           "de": "Wir haben ein neues Auto.",
-          "lv": "Meil on uus auto."
+          "lv": "Vi har en ny bil."
         },
         {
           "de": "Das ist meine neue Wohnung.",
-          "lv": "See on minu uus korter."
+          "lv": "Dette er min nye lejlighed."
         },
         {
           "de": "Ich habe neue Schuhe gekauft.",
-          "lv": "Ma ostsin uued kingad."
+          "lv": "Jeg købte nye sko."
         },
         {
           "de": "Das ist eine neue Idee.",
-          "lv": "See on uus idee."
+          "lv": "Det er en ny idé."
         },
         {
           "de": "Er hat einen neuen Job.",
-          "lv": "Tal on uus töö."
+          "lv": "Han har et nyt job."
         },
         {
           "de": "Was gibt es Neues?",
-          "lv": "Mis uut?"
+          "lv": "Hvad er nyt"
         }
       ],
       "tip": [
-        "neu ir par lietām, ierīcēm un jaunumiem — ja runā par cilvēka vecumu, lieto jung.",
-        "Pretstats: neu ↔ alt (jauns ↔ vecs)."
+        "neu handler om ting, enheder og nyheder - når du taler om en persons alder, så brug jung.",
+        "Modsat: neu ↔ alt (ny ↔ gammel)."
       ],
       "important": [
-        "neu raksturo lietas un jaunumus, ne cilvēka vai dzīvnieka vecumu.",
-        "Par cilvēka vai dzīvnieka vecumu lieto jung, nevis neu.",
+        "neu beskriver ting og nyheder, ej heller alderen på en person eller et dyr.",
+        "For en persons eller et dyrs alder, brug jung i stedet for neu.",
         "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "neu"
-          ],
           "purple": [
-            "uus"
-          ],
-          "green": [
-            "jung"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -16583,7 +15089,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uus"
+                "Min"
               ]
             }
           },
@@ -16595,7 +15101,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "meil"
+                "har"
               ]
             }
           },
@@ -16607,7 +15113,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uus"
+                "Dette"
               ]
             }
           },
@@ -16619,7 +15125,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uued"
+                "Jeg"
               ]
             }
           },
@@ -16631,7 +15137,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "see"
+                "Det"
               ]
             }
           },
@@ -16643,7 +15149,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uus"
+                "Han"
               ]
             }
           },
@@ -16655,24 +15161,13 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uut"
+                "Hvad"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "neu"
-            ],
-            "green": [
-              "jung"
-            ]
-          },
-          {
-            "blue": [
-              "neu"
-            ],
             "purple": [
               "alt"
             ]
@@ -16706,102 +15201,99 @@ const A1_WORDS = [
   },
   {
     "de": "neun",
-    "lv": "Üheksa",
+    "lv": "Ni",
     "level": "A1"
   },
   {
     "de": "neunhundert",
-    "lv": "Üheksasada",
+    "lv": "Ni hundrede",
     "level": "A1"
   },
   {
     "de": "neunte",
-    "lv": "Üheksas",
+    "lv": "Den niende",
     "level": "A1"
   },
   {
     "de": "neunzehn",
-    "lv": "Üheksateist",
+    "lv": "Nitten",
     "level": "A1"
   },
   {
     "de": "neunzehnte",
-    "lv": "Üheksateistkümnes",
+    "lv": "Den nittende",
     "level": "A1"
   },
   {
     "de": "neunzig",
-    "lv": "Üheksakümmend",
+    "lv": "Halvfems",
     "level": "A1"
   },
   {
     "de": "neunzigste",
-    "lv": "Üheksakümnes",
+    "lv": "Den halvfemsindstyvende",
     "level": "A1"
   },
   {
     "de": "nicht",
-    "lv": "Ei",
+    "lv": "Ingen",
     "level": "A1"
   },
   {
     "de": "nichts",
-    "lv": "Mitte midagi",
+    "lv": "Intet",
     "level": "A1"
   },
   {
     "de": "nie",
-    "lv": "Mitte kunagi",
+    "lv": "Aldrig",
     "level": "A1"
   },
   {
     "de": "niemand",
-    "lv": "Mitte keegi",
+    "lv": "Ingen",
     "level": "A1"
   },
   {
     "de": "noch",
-    "lv": "Veel",
+    "lv": "Endnu",
     "level": "A1",
     "study": {
       "id": "a1-noch-study",
       "layout": "standardStudy",
-      "translation": "Veel",
+      "translation": "Endnu",
       "explanation": [
-        "Põhiidee: Miski jätkub endiselt või ei ole veel lõppenud.",
-        "Noch tähendab peamiselt: miski ikka veel jätkub.",
-        "Sageli kirjeldab: jätkumist või lõpetamata olekut.",
-        "Noch tähendab veel: miski ikka veel jätkub või ei ole veel lõppenud."
+        "Hovedidé: Noget der stadig foregår eller endnu ikke er færdigt.",
+        "Noch betyder hovedsageligt: ​​noget, der stadig foregår.",
+        "Beskriver ofte: fortsættelse eller ufærdig tilstand.",
+        "Noch betyder stadig: noget, der stadig foregår eller endnu ikke afsluttet."
       ],
       "examples": [
         {
           "de": "Ich bin noch zu Hause.",
-          "lv": "Ma olen veel kodus."
+          "lv": "Jeg er stadig hjemme."
         },
         {
           "de": "Ich bin noch zu Hause.",
-          "lv": "Ma olen veel kodus."
+          "lv": "Jeg er stadig hjemme"
         },
         {
           "de": "Bist du noch da?",
-          "lv": "Kas sa oled veel siin?"
+          "lv": "Er du her stadig"
         }
       ],
       "tip": [
-        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
-        "Izmanto noch, kad konteksts atbilst šai nozīmei."
+        "Noget er stadig i gang eller ikke overstået endnu.",
+        "Brug noch når konteksten passer til denne betydning."
       ],
       "important": [
-        "noch = vēl.",
-        "Kaut kas joprojām turpinās vai vēl nav beidzies."
+        "noch = endnu.",
+        "Noget er stadig i gang eller ikke overstået endnu."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "Veel"
-          ],
           "purple": [
-            "veel"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -16814,7 +15306,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veel"
+                "Jeg"
               ]
             }
           },
@@ -16827,7 +15319,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veel"
+                "Jeg"
               ]
             }
           },
@@ -16840,7 +15332,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veel"
+                "her"
               ]
             }
           }
@@ -16848,7 +15340,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Kaut"
+              "Noget"
             ]
           }
         ],
@@ -16864,7 +15356,7 @@ const A1_WORDS = [
   },
   {
     "de": "normal",
-    "lv": "Normaalne",
+    "lv": "Normal",
     "level": "A1"
   },
   {
@@ -16877,59 +15369,59 @@ const A1_WORDS = [
     "de": "Null",
     "de_article": "die",
     "de_plural": "die Nullen",
-    "lv": "Null",
+    "lv": "Nul",
     "level": "A1"
   },
   {
     "de": "Nummer",
     "de_article": "die",
     "de_plural": "die Nummern",
-    "lv": "Number",
+    "lv": "Antal",
     "level": "A1"
   },
   {
     "de": "nur",
-    "lv": "Ainult • Üksnes",
+    "lv": "Kun • Kun",
     "level": "A1",
     "study": {
       "id": "a1-nur-study",
       "layout": "standardStudy",
-      "translation": "Ainult • Üksnes",
+      "translation": "Kun • Kun",
       "explanation": [
-        "Põhiidee: Piirab kogust, inimeste arvu, valikut või võimalusi.",
-        "Nur tähendab peamiselt: piiratud kogus või valik.",
-        "Sageli kirjeldab: kui palju, mis täpselt või kes ainuke.",
-        "Nur tähendab ainult, üksnes, mitte rohkem: see piirab kogust või valikut."
+        "Hovedidé: Begrænser antal, antal personer, valg eller muligheder.",
+        "Nur betyder primært: begrænset mængde eller valg.",
+        "Beskriver ofte: hvor mange, præcist, eller hvem den eneste.",
+        "Nur betyder kun, udelukkende, intet mere: det begrænser mængde eller valg."
       ],
       "examples": [
         {
           "de": "Ich habe nur zehn Euro.",
-          "lv": "Mul on ainult kümme eurot."
+          "lv": "Jeg har kun ti euro."
         },
         {
           "de": "Ich habe nur zehn Euro.",
-          "lv": "Mul on ainult kümme eurot."
+          "lv": "Jeg har kun ti euro."
         },
         {
           "de": "Nur du kannst mir helfen.",
-          "lv": "Ainult sina saad mind aidata."
+          "lv": "Kun du kan hjælpe mig."
         },
         {
           "de": "Ich möchte nur Kaffee.",
-          "lv": "Ma tahan ainult kohvi."
+          "lv": "Jeg vil bare have kaffe"
         },
         {
           "de": "Ich habe nur acht Euro.",
-          "lv": "Mul on ainult kaheksa eurot."
+          "lv": "Jeg har kun otte euro."
         }
       ],
       "tip": [
-        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
-        "Izmanto nur, kad konteksts atbilst šai nozīmei."
+        "Begrænser antal, antal personer, valg eller muligheder.",
+        "Brug nur når konteksten passer til denne betydning."
       ],
       "important": [
-        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
-        "nur = tikai / vienīgi."
+        "Dansk \"kun\" på tysk er ikke altid nur.",
+        "nur = kun / udelukkende."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16937,18 +15429,15 @@ const A1_WORDS = [
             "nur",
             "nur"
           ],
-          "purple": [
-            "ainult, üksnes"
-          ],
           "green": [
-            "üksnes"
+            "Hovedidé"
           ],
           "red": [
-            "Ainult"
+            "Hovedidé"
           ],
           "yellow": [
-            "üksnes",
-            "ainult"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -16961,8 +15450,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ainult",
-                "Mul"
+                "Jeg"
               ]
             }
           },
@@ -16975,8 +15463,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ainult",
-                "mul"
+                "Jeg"
               ]
             }
           },
@@ -16989,8 +15476,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ainult",
-                "ainult"
+                "Kun"
               ]
             }
           },
@@ -17003,8 +15489,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ainult",
-                "tahan"
+                "Jeg"
               ]
             }
           },
@@ -17017,23 +15502,14 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ainult",
-                "mul"
+                "Jeg"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Ierobežo"
-            ]
-          },
-          {
-            "purple": [
-              "Ierobežo"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -17047,81 +15523,70 @@ const A1_WORDS = [
   },
   {
     "de": "ob",
-    "lv": "Kas",
+    "lv": "Eller",
     "level": "A1",
     "study": {
       "id": "a1-ob",
       "layout": "standardStudy",
-      "translation": "Kas",
+      "translation": "Eller",
       "explanation": [
-        "Põhiidee: ob juhatab sisse kaudse küsimuse ja tähendab eesti keeles kõige sagedamini kas.",
-        "Ob kasutatakse pärast sõnu nagu fragen, wissen, sehen, sagen, kui tegemist ei ole otsese küsimusega.",
-        "Otseses küsimuses ob saksa keeles tavaliselt ei kasutata.",
-        "A1 tasemel on oluline eristada ob ja oder."
+        "Hovedidé: ob introducerer et indirekte spørgsmål og betyder på lettisk oftest eller.",
+        "Ob bruges efter ord som fragen, wissen, sehen, sagen, når der ikke er noget direkte spørgsmål.",
+        "Ob bruges normalt ikke i et direkte spørgsmål på tysk.",
+        "På A1-niveau er det vigtigt at skelne ob fra oder."
       ],
       "examples": [
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Ma ei tea, kas ta tuleb."
+          "lv": "Jeg ved ikke, om han kommer."
         },
         {
           "de": "Sie fragt, ob du Zeit hast.",
-          "lv": "Ta küsib, kas sul on aega."
+          "lv": "Hun spørger om du har tid."
         },
         {
           "de": "Sag mir, ob das stimmt.",
-          "lv": "Ütle mulle, kas see on tõsi."
+          "lv": "Fortæl mig om dette er sandt."
         },
         {
           "de": "Kommst du heute oder morgen?",
-          "lv": "Kas sa tuled täna või homme?"
+          "lv": "Kommer du i dag eller i morgen?"
         }
       ],
       "comparison": [
         {
           "word": "ob",
-          "meaning": "Kas kaudses küsimuses",
+          "meaning": "Eller i et indirekte spørgsmål",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
           "word": "oder",
-          "meaning": "Või valikus variantide vahel",
+          "meaning": "Eller vælg mellem muligheder",
           "example": "Kaffee oder Tee?"
         },
         {
           "word": "wenn",
-          "meaning": "Kui (tingimus) / kui (aeg)",
+          "meaning": "Hvis / hvornår",
           "example": "Wenn du Zeit hast..."
         },
         {
           "word": "dass",
-          "meaning": "Et",
+          "meaning": "At",
           "example": "Ich weiß, dass er kommt."
         }
       ],
       "tip": {
-        "text": "Atceries: nezinu, vai... → ob; kafija vai tēja → oder."
+        "text": "Husk: Jeg ved ikke om... → ob; kaffe eller te → eller."
       },
       "important": [
-        "ob nav parasta izvēles “vai” forma starp divām lietām.",
+        "ob er ikke den sædvanlige form for et \"eller\" valg mellem to ting.",
         "Kaffee oder Tee? lieto oder, nevis ob."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "ob",
-            "oder"
-          ],
           "purple": [
-            "kas",
-            "kaudse küsimuse",
-            "Otseses küsimuses"
-          ],
-          "green": [
-            "fragen",
-            "wissen",
-            "sehen",
-            "sagen"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -17133,7 +15598,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
+                "Jeg"
               ]
             }
           },
@@ -17145,7 +15610,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
+                "Hun"
               ]
             }
           },
@@ -17157,7 +15622,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
+                "Fortæl"
               ]
             }
           },
@@ -17169,7 +15634,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "kas"
+                "Kommer"
               ]
             }
           }
@@ -17183,8 +15648,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kas",
-                "kaudses küsimuses"
+                "indirekte",
+                "indirekte"
               ]
             },
             "example": {
@@ -17201,8 +15666,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "või",
-                "valikus"
+                "Eller",
+                "Eller"
               ]
             },
             "example": {
@@ -17219,8 +15684,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kui",
-                "kui"
+                "Hvis",
+                "Hvis"
               ]
             },
             "example": {
@@ -17235,11 +15700,7 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "meaning": {
-              "purple": [
-                "et"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "dass"
@@ -17253,11 +15714,11 @@ const A1_WORDS = [
               "ob"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
-              "oder",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
@@ -17265,9 +15726,6 @@ const A1_WORDS = [
           {
             "blue": [
               "ob"
-            ],
-            "red": [
-              "nav"
             ]
           },
           {
@@ -17284,80 +15742,75 @@ const A1_WORDS = [
   },
   {
     "de": "oben",
-    "lv": "Üleval",
+    "lv": "Over",
     "level": "A1"
   },
   {
     "de": "oder",
-    "lv": "Või • Ehk",
+    "lv": "Eller • Eller",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "Või • Ehk",
+      "translation": "Eller • Eller",
       "explanation": [
-        "Põhiidee: oder kasutatakse, kui valime kahe või mitme võimaluse vahel.",
-        "Eesti keeles tähendab oder kõige sagedamini või.",
-        "See ei ole sama mis ob, mis juhatab sisse kaudse küsimuse.",
-        "Vestlustes võib oder olla ka lause lõpus: Du kommst, oder?"
+        "Hovedidé: oder bruges, når vi vælger mellem to eller flere muligheder.",
+        "På lettisk betyder oder oftest eller.",
+        "Det er ikke det samme som ob, som introducerer et indirekte spørgsmål.",
+        "I samtaler kan oder også stå i slutningen af ​​sætningen: Du kommst, oder?"
       ],
       "examples": [
         {
           "de": "Kaffee oder Tee?",
-          "lv": "Kohvi või teed?"
+          "lv": "Kaffe eller te?"
         },
         {
           "de": "Heute oder morgen?",
-          "lv": "Täna või homme?"
+          "lv": "I dag eller i morgen?"
         },
         {
           "de": "Willst du Pizza oder Salat?",
-          "lv": "Kas sa tahad pitsat või salatit?"
+          "lv": "Vil du have pizza eller salat"
         },
         {
           "de": "Du kommst, oder?",
-          "lv": "Sa tuled, eks?"
+          "lv": "Du kommer, vil du ikke?"
         }
       ],
       "comparison": [
         {
           "word": "oder",
-          "meaning": "Või valikus",
+          "meaning": "Eller vælg",
           "example": "Kaffee oder Tee?"
         },
         {
           "word": "ob",
-          "meaning": "Kas kaudses küsimuses",
+          "meaning": "Eller i et indirekte spørgsmål",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
           "word": "und",
-          "meaning": "Ja",
+          "meaning": "Og",
           "example": "Kaffee und Kuchen."
         },
         {
           "word": "aber",
-          "meaning": "Aga",
+          "meaning": "Men",
           "example": "Ich komme, aber später."
         }
       ],
       "tip": {
-        "text": "Atceries: izvēle starp variantiem → oder."
+        "text": "Husk: valg mellem varianter → oder."
       },
       "important": [
-        "oder lieto izvēlei: Kaffee oder Tee.",
-        "Netiešā jautājumā “vai” parasti ir ob."
+        "oder bruges til at vælge: Kaffee eller Tee.",
+        "I et indirekte spørgsmål er \"om\" normalt ob."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "oder",
-            "ob"
-          ],
           "purple": [
-            "kasutatakse",
-            "valime",
-            "kaudse küsimuse"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -17373,11 +15826,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kohvi"
-              ],
-              "yellow": [
-                "Kohvi",
-                "teed"
+                "Kaffe"
               ]
             }
           },
@@ -17389,7 +15838,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "täna"
+                "dag"
               ]
             }
           },
@@ -17405,11 +15854,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
-              ],
-              "yellow": [
-                "pitsat",
-                "salatit"
+                "Vil"
               ]
             }
           },
@@ -17421,7 +15866,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eks"
+                "kommer"
               ]
             }
           }
@@ -17435,8 +15880,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "või",
-                "valikus"
+                "Eller",
+                "Eller"
               ]
             },
             "example": {
@@ -17453,8 +15898,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kas",
-                "kaudses küsimuses"
+                "indirekte",
+                "indirekte"
               ]
             },
             "example": {
@@ -17469,11 +15914,7 @@ const A1_WORDS = [
                 "und"
               ]
             },
-            "meaning": {
-              "purple": [
-                "ja"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "und"
@@ -17488,7 +15929,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "aga"
+                "Men"
               ]
             },
             "example": {
@@ -17504,26 +15945,16 @@ const A1_WORDS = [
               "oder"
             ],
             "purple": [
-              "Atceries",
-              "variantiem"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "oder"
-            ],
             "purple": [
+              "oder",
               "oder"
-            ]
-          },
-          {
-            "red": [
-              "ob"
-            ],
-            "purple": [
-              "Netiešā"
             ]
           }
         ]
@@ -17532,148 +15963,137 @@ const A1_WORDS = [
   },
   {
     "de": "öffnen",
-    "lv": "Avama",
+    "lv": "At åbne",
     "level": "A1"
   },
   {
     "de": "oft",
-    "lv": "Sageli",
+    "lv": "Ofte",
     "level": "A1"
   },
   {
     "de": "ohne",
-    "lv": "Ilma",
+    "lv": "Uden",
     "level": "A1"
   },
   {
     "de": "Ohr",
     "de_article": "das",
     "de_plural": "die Ohren",
-    "lv": "Kõrv",
+    "lv": "Øre",
     "level": "A1"
   },
   {
     "de": "Oktober",
     "de_article": "der",
-    "lv": "Oktoober",
+    "lv": "Oktober",
     "level": "A1"
   },
   {
     "de": "Onkel",
     "de_article": "der",
     "de_plural": "die Onkel",
-    "lv": "Onu",
+    "lv": "Onkel",
     "level": "A1"
   },
   {
     "de": "Orange",
     "de_article": "die",
     "de_plural": "die Orangen",
-    "lv": "Apelsin",
+    "lv": "En appelsin",
     "level": "A1"
   },
   {
     "de": "Ostern",
-    "lv": "Lihavõtted",
+    "lv": "Påske",
     "level": "A1"
   },
   {
     "de": "Paar",
     "de_article": "das",
     "de_plural": "die Paare",
-    "lv": "Paar",
+    "lv": "Et par",
     "level": "A1"
   },
   {
     "de": "Papier",
     "de_article": "das",
     "de_plural": "die Papiere",
-    "lv": "Paber",
+    "lv": "Papir",
     "level": "A1"
   },
   {
     "de": "Park",
     "de_article": "der",
     "de_plural": "die Parks",
-    "lv": "Park",
+    "lv": "Parkere",
     "level": "A1"
   },
   {
     "de": "passen",
-    "lv": "Sobima • Hästi sobima",
+    "lv": "Tilpas • Tilpas",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "Sobima • Hästi sobima",
+      "translation": "Tilpas • Tilpas",
       "explanation": [
-        "Põhiidee: passen tähendab sobima, hästi istuma või paras olema.",
-        "Riiete puhul tähendab passen sageli suuruse järgi sobima.",
-        "Värvide või stiili kohta tähendab passen hästi sobima.",
-        "Väga sage fraas on Das passt. = See sobib."
+        "Hovedidé: passager betyder at passe, passe eller være egnet.",
+        "For tøj betyder passager ofte at passe til størrelsen.",
+        "For farver eller stil betyder passager at passe.",
+        "En meget almindelig sætning er Das passt. = Det passer."
       ],
       "examples": [
         {
           "de": "Die Jacke passt mir.",
-          "lv": "Jakk sobib mulle."
+          "lv": "Jakken passer til mig."
         },
         {
           "de": "Das Kleid passt gut.",
-          "lv": "Kleit sobib hästi."
+          "lv": "Kjolen sidder godt."
         },
         {
           "de": "Die Farbe passt zu dir.",
-          "lv": "See värv sobib sulle."
+          "lv": "Denne farve passer til dig."
         },
         {
           "de": "Das passt.",
-          "lv": "See sobib."
+          "lv": "Det passer."
         }
       ],
       "comparison": [
         {
           "word": "passen",
-          "meaning": "Sobima / hästi sobima",
+          "meaning": "Pasform / pasform",
           "example": "Die Jacke passt mir."
         },
         {
           "word": "stehen",
-          "meaning": "Sobima / seisma",
+          "meaning": "At stå / at stå",
           "example": "Rot steht dir gut."
         },
         {
           "word": "geeignet sein",
-          "meaning": "Sobiv olema",
+          "meaning": "At være egnet",
           "example": "Das ist geeignet."
         },
         {
           "word": "funktionieren",
-          "meaning": "Toimima",
+          "meaning": "At operere",
           "example": "Das funktioniert."
         }
       ],
       "tip": {
-        "text": "Atceries: Das passt. = Tas der."
+        "text": "Husk: Das passt. = Tas der."
       },
       "important": [
-        "passen nav tikai par apģērbu.",
-        "Tas var nozīmēt arī, ka laiks, plāns vai risinājums der."
+        "passerge handler ikke kun om tøj.",
+        "Det kan også betyde, at timingen, planen eller løsningen er rigtig."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "passen",
-            "Das passt"
-          ],
           "purple": [
-            "sobima",
-            "sobima",
-            "Põhiidee"
-          ],
-          "yellow": [
-            "Riiete",
-            "Värvide",
-            "stiili"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -17688,10 +16108,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jakk"
-              ],
-              "yellow": [
-                "Jakk"
+                "Jakken"
               ]
             }
           },
@@ -17706,10 +16123,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kleit"
-              ],
-              "yellow": [
-                "Kleit"
+                "Kjolen"
               ]
             }
           },
@@ -17724,10 +16138,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sobib"
-              ],
-              "yellow": [
-                "värv"
+                "Denne"
               ]
             }
           },
@@ -17739,7 +16150,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "see sobib"
+                "Det"
               ]
             }
           }
@@ -17753,8 +16164,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sobima",
-                "sobima"
+                "Pasform",
+                "Pasform"
               ]
             },
             "example": {
@@ -17771,8 +16182,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sobima",
-                "seisma"
+                "stå",
+                "stå"
               ]
             },
             "example": {
@@ -17789,7 +16200,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sobiv"
+                "være"
               ]
             },
             "example": {
@@ -17806,7 +16217,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "toimima"
+                "operere"
               ]
             },
             "example": {
@@ -17822,25 +16233,14 @@ const A1_WORDS = [
               "Das passt"
             ],
             "purple": [
-              "Atceries"
+              "tas der"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "passen"
-            ],
-            "yellow": [
-              "passen"
-            ]
-          },
-          {
             "purple": [
-              "Tas",
-              "Tas",
-              "Tas",
-              "Tas"
+              "passerge"
             ]
           }
         ]
@@ -17851,55 +16251,55 @@ const A1_WORDS = [
     "de": "Pause",
     "de_article": "die",
     "de_plural": "die Pausen",
-    "lv": "Vaheaeg",
+    "lv": "En pause",
     "level": "A1"
   },
   {
     "de": "Person",
     "de_article": "die",
     "de_plural": "die Personen",
-    "lv": "Isik",
+    "lv": "Person",
     "level": "A1"
   },
   {
     "de": "Pferd",
     "de_article": "das",
     "de_plural": "die Pferde",
-    "lv": "Hobune",
+    "lv": "En hest",
     "level": "A1"
   },
   {
     "de": "Pflanze",
     "de_article": "die",
     "de_plural": "die Pflanzen",
-    "lv": "Taim",
+    "lv": "Plante",
     "level": "A1"
   },
   {
     "de": "Pizza",
     "de_article": "die",
     "de_plural": "die Pizzen",
-    "lv": "Pitsa",
+    "lv": "Pizza",
     "level": "A1"
   },
   {
     "de": "Plan",
     "de_article": "der",
     "de_plural": "die Pläne",
-    "lv": "Plaan",
+    "lv": "Plan",
     "level": "A1"
   },
   {
     "de": "Platz",
     "de_article": "der",
     "de_plural": "die Plätze",
-    "lv": "Koht",
+    "lv": "Placere",
     "level": "A1"
   },
   {
     "de": "Polizei",
     "de_article": "die",
-    "lv": "Politsei",
+    "lv": "Politiet",
     "level": "A1"
   },
   {
@@ -17912,98 +16312,76 @@ const A1_WORDS = [
     "de": "Preis",
     "de_article": "der",
     "de_plural": "die Preise",
-    "lv": "Hind",
+    "lv": "Pris",
     "level": "A1"
   },
   {
     "de": "probieren",
-    "lv": "Proovima • Maitsma",
+    "lv": "At prøve • At smage",
     "level": "A1",
     "study": {
       "id": "a1-probieren",
       "layout": "standardStudy",
-      "translation": "Proovima • Maitsma",
+      "translation": "At prøve • At smage",
       "explanation": [
-        "Põhiidee: probieren tähendab proovima või maitsma.",
-        "Kui jutt on toidust või joogist, tähendab probieren sageli maitsma.",
-        "Kui jutt on tegevusest, meetodist või asjast, tähendab probieren proovima.",
-        "Testen tähendab süstemaatilist testimist või kontrollimist, mitte lihtsalt proovimist.",
-        "See ei ole sama mis prüfen, mis tähendab põhjalikumalt kontrollima."
+        "Hovedidé: probieren betyder at prøve eller smage.",
+        "Når det kommer til mad eller drikke, betyder probieren ofte at smage.",
+        "Når det kommer til en handling, metode eller ting, betyder probieren at prøve.",
+        "Det er ikke det samme som prüfen, hvilket betyder at kontrollere mere omhyggeligt."
       ],
       "examples": [
         {
           "de": "Probier mal die Suppe!",
-          "lv": "Maitse suppi!"
+          "lv": "Smag på suppen!"
         },
         {
           "de": "Ich möchte den Kuchen probieren.",
-          "lv": "Ma tahan kooki maitsta."
+          "lv": "Jeg vil smage kagen."
         },
         {
           "de": "Wir probieren eine neue Methode.",
-          "lv": "Me proovime uut meetodit."
+          "lv": "Vi prøver en ny metode."
         },
         {
           "de": "Kann ich die Jacke anprobieren?",
-          "lv": "Kas ma saan jakki proovida?"
-        },
-        {
-          "de": "Wir testen die neue Software.",
-          "lv": "Me testime uut tarkvara."
+          "lv": "Må jeg prøve jakken"
         }
       ],
       "comparison": [
         {
           "word": "probieren",
-          "meaning": "Proovima / maitsma",
+          "meaning": "Prøv / smag",
           "example": "Probier mal die Suppe!"
         },
         {
           "word": "versuchen",
-          "meaning": "Testima / kontrollima",
-          "example": "Wir testen die Software."
-        },
-        {
-          "word": "prüfen",
-          "meaning": "Üritama",
+          "meaning": "At prøve",
           "example": "Ich versuche es."
         },
         {
-          "word": "anprobieren",
-          "meaning": "Kontrollima",
+          "word": "prüfen",
+          "meaning": "At tjekke",
           "example": "Ich prüfe die Rechnung."
         },
         {
-          "word": "Anprobieren",
-          "meaning": "Selga proovima",
+          "word": "anprobieren",
+          "meaning": "For at prøve",
           "example": "Ich probiere die Jacke an."
         }
       ],
       "tip": {
-        "text": "Atceries: ēdiens → probieren = nogaršot."
+        "text": "Skal: mad → probieren = efter smag."
       },
       "important": [
-        "probieren nav galvenais vārds oficiālai pārbaudei.",
-        "Dokumentu vai rēķinu pārbaudīt parasti ir prüfen."
+        "probieren er ikke hovedordet for formel eksamen.",
+        "At kontrollere et dokument eller en faktura er normalt prüfen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "probieren",
-            "prüfen",
-            "testen"
-          ],
           "purple": [
-            "proovima",
-            "maitsma",
-            "kontrollima",
-            "Põhiidee"
-          ],
-          "yellow": [
-            "toidust",
-            "joogist",
-            "meetodist",
-            "asjast"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -18018,10 +16396,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maitse"
-              ],
-              "yellow": [
-                "suppi"
+                "Smag"
               ]
             }
           },
@@ -18036,10 +16411,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maitsta"
-              ],
-              "yellow": [
-                "kooki"
+                "Jeg"
               ]
             }
           },
@@ -18054,10 +16426,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "proovime"
-              ],
-              "yellow": [
-                "meetodit"
+                "prøver"
               ]
             }
           },
@@ -18072,28 +16441,10 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "kas"
+                "jeg"
               ],
               "yellow": [
-                "jakki"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "testen"
-              ],
-              "yellow": [
-                "Software"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "testime"
-              ],
-              "yellow": [
-                "tarkvara"
+                "jeg"
               ]
             }
           }
@@ -18107,8 +16458,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "proovima",
-                "maitsma"
+                "Prøv",
+                "Prøv"
               ]
             },
             "example": {
@@ -18119,31 +16470,13 @@ const A1_WORDS = [
           },
           {
             "word": {
-              "blue": [
+              "green": [
                 "versuchen"
               ]
             },
             "meaning": {
               "purple": [
-                "testima",
-                "kontrollima"
-              ]
-            },
-            "example": {
-              "blue": [
-                "testen"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "prüfen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "üritama"
+                "prøve"
               ]
             },
             "example": {
@@ -18155,12 +16488,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "anprobieren"
+                "prüfen"
               ]
             },
             "meaning": {
               "purple": [
-                "kontrollima"
+                "tjekke"
               ]
             },
             "example": {
@@ -18177,7 +16510,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "selga proovima"
+                "For"
               ]
             },
             "example": {
@@ -18194,28 +16527,17 @@ const A1_WORDS = [
               "probieren"
             ],
             "yellow": [
-              "Atceries"
+              "Skal"
             ],
             "purple": [
-              "Atceries"
+              "Skal"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "probieren"
-            ],
-            "red": [
-              "probieren"
-            ]
-          },
-          {
-            "red": [
-              "Dokumentu"
-            ],
             "purple": [
-              "Dokumentu"
+              "probieren"
             ]
           }
         ]
@@ -18226,21 +16548,21 @@ const A1_WORDS = [
     "de": "Problem",
     "de_article": "das",
     "de_plural": "die Probleme",
-    "lv": "Probleem",
+    "lv": "Problem",
     "level": "A1"
   },
   {
     "de": "Programm",
     "de_article": "das",
     "de_plural": "die Programme",
-    "lv": "Programm",
+    "lv": "Program",
     "level": "A1"
   },
   {
     "de": "Pullover",
     "de_article": "der",
     "de_plural": "die Pullover",
-    "lv": "Kampsun",
+    "lv": "Sweater",
     "level": "A1"
   },
   {
@@ -18252,101 +16574,94 @@ const A1_WORDS = [
   },
   {
     "de": "putzen",
-    "lv": "Puhastama",
+    "lv": "At gøre rent",
     "level": "A1"
   },
   {
     "de": "Rad fahren",
-    "lv": "Jalgrattaga sõitma",
+    "lv": "Kør en cykel",
     "level": "A1"
   },
   {
     "de": "Radiergummi",
     "de_article": "der",
     "de_plural": "die Radiergummis",
-    "lv": "Kustutuskumm",
+    "lv": "Viskelæder",
     "level": "A1"
   },
   {
     "de": "rauchen",
-    "lv": "Suitsetama",
+    "lv": "At ryge",
     "level": "A1"
   },
   {
     "de": "rechts",
-    "lv": "Paremale • Parem",
+    "lv": "Til højre • Til højre",
     "level": "A1"
   },
   {
     "de": "reden",
-    "lv": "Rääkima",
+    "lv": "At tale",
     "level": "A1"
   },
   {
     "de": "Regen",
     "de_article": "der",
-    "lv": "Vihm",
+    "lv": "Regn",
     "level": "A1"
   },
   {
     "de": "Regenschirm",
     "de_article": "der",
     "de_plural": "die Regenschirme",
-    "lv": "Vihmavari",
+    "lv": "En paraply",
     "level": "A1"
   },
   {
     "de": "regnen",
-    "lv": "Vihma sadama",
+    "lv": "Det regner",
     "level": "A1"
   },
   {
     "de": "Reis",
     "de_article": "der",
-    "lv": "Riis",
+    "lv": "Ris",
     "level": "A1",
     "study": {
       "id": "a1-reis",
       "layout": "standardStudy",
-      "translation": "Riis",
-      "explanation": "Saksa keeles kasutatakse sõna „der Reis” ainult ainsuses, seepärast peab tegusõna lauses olema ainsuse vormis (näiteks „ist”, mitte „sind”). Eesti keeles öeldakse samamoodi ainsuses „riis”.",
+      "translation": "Ris",
+      "explanation": "På tysk bruges ordet \"der Reis\" kun i ental, så verbet i sætningen skal være i entalsform (f.eks. \"ist\", ikke \"sind\"). Lettere siger dog ofte \"ris\".",
       "examples": [
         {
           "de": "Der Reis ist fertig.",
-          "lv": "Riis on valmis."
+          "lv": "Risene er klar."
         },
         {
           "de": "Ich esse Reis.",
-          "lv": "Ma söön riisi."
+          "lv": "Jeg spiser ris"
         },
         {
           "de": "Kochst du Reis?",
-          "lv": "Kas sa keedad riisi?"
+          "lv": "Koger du ris?"
         },
         {
           "de": "Der Reis schmeckt gut.",
-          "lv": "Riis maitseb hästi."
+          "lv": "Risene smager godt."
         }
       ],
       "tip": {
-        "text": "Atceries: der Reis ir vienskaitlis vāciski, bet latviski parasti — rīsi."
+        "text": "Husk: der Reis er ental på tysk, men normalt ris på dansk."
       },
       "important": [
-        "der Reis — vācu valodā tikai vienskaitlis (Der Reis ist..., nicht *sind).",
-        "Latviski tulkojumā bieži lieto daudzskaitli: rīsi ir gatavi."
+        "der Reis - på tysk kun ental (Der Reis ist..., nicht *sind).",
+        "på dansk oversættes ofte i flertal: risene er klar."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Reis",
-            "ist"
-          ],
           "purple": [
-            "ainsus",
-            "riis"
-          ],
-          "red": [
-            "sind"
+            "tysk",
+            "tysk"
           ]
         },
         "examples": [
@@ -18359,7 +16674,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "riis"
+                "Risene"
               ]
             }
           },
@@ -18371,18 +16686,14 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "riisi"
+                "Jeg"
               ]
             }
           }
         ],
         "tip": {
-          "blue": [
-            "der Reis"
-          ],
           "purple": [
-            "Atceries",
-            "Reis"
+            "Husk"
           ]
         }
       }
@@ -18390,121 +16701,106 @@ const A1_WORDS = [
   },
   {
     "de": "richtig",
-    "lv": "Õige",
+    "lv": "Korrekt",
     "level": "A1"
   },
   {
     "de": "rosa",
-    "lv": "Roosa",
+    "lv": "Lyserød",
     "level": "A1"
   },
   {
     "de": "rot",
-    "lv": "Punane",
+    "lv": "Rød",
     "level": "A1"
   },
   {
     "de": "rufen",
-    "lv": "Hüüdma",
+    "lv": "At ringe",
     "level": "A1"
   },
   {
     "de": "rund",
-    "lv": "Ümmargune",
+    "lv": "Rund",
     "level": "A1"
   },
   {
     "de": "Rose",
     "de_article": "die",
     "de_plural": "die Rosen",
-    "lv": "Roos",
+    "lv": "En rose",
     "level": "A1"
   },
   {
     "de": "Sache",
     "de_article": "die",
     "de_plural": "die Sachen",
-    "lv": "Asi",
+    "lv": "Ting",
     "level": "A1"
   },
   {
     "de": "Saft",
     "de_article": "der",
     "de_plural": "die Säfte",
-    "lv": "Mahl",
+    "lv": "Juice",
     "level": "A1"
   },
   {
     "de": "sagen",
-    "lv": "Ütlema",
+    "lv": "At sige",
     "level": "A1",
     "study": {
       "id": "a1-sagen-study",
       "layout": "standardStudy",
-      "translation": "Ütlema",
+      "translation": "At sige",
       "explanation": [
-        "Põhiidee: Öelda konkreetne mõte, sõna või lause.",
-        "Sagen tähendab peamiselt: konkreetset mõtet ütlema.",
-        "Sageli kirjeldab: sõnu/lauseid.",
-        "Sagen kasutatakse konkreetse öeldud teksti kohta."
+        "Hovedidé: Fortæl en bestemt idé, ord eller sætning.",
+        "Sagen betyder hovedsageligt: ​​at komme med en bestemt pointe.",
+        "Beskriver ofte: ord/sætninger.",
+        "Sagen bruges til en bestemt given tekst."
       ],
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "Mida sa ütlesid?"
+          "lv": "Hvad sagde du"
         }
       ],
       "comparison": [
         {
           "word": "sagen",
-          "meaning": "Ütlema (konkreetset teksti)",
-          "example": "Was hast du gesagt? – Mida sa ütlesid?"
+          "meaning": "Fortæl (en bestemt tekst)",
+          "example": "Was hast du gesagt? – Hvad sagde du"
         },
         {
           "word": "sprechen",
-          "meaning": "Rääkima (keelt, vestlema)",
-          "example": "Ich spreche Deutsch. – Ma räägin saksa keelt."
+          "meaning": "Tal (sprog, snak)",
+          "example": "Ich spreche Deutsch. – Jeg taler tysk."
         }
       ],
       "tip": [
         "sagen = teikt",
-        "Izmanto sagen, kad konteksts atbilst šai nozīmei."
+        "Brug sagen når sammenhængen passer til denne betydning."
       ],
       "important": [
         "sagen = pateikt.",
-        "Pateikt konkrētu domu, vārdu vai teikumu."
+        "At formidle en bestemt tanke, ord eller sætning."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sagen"
-          ],
           "purple": [
-            "ütlema"
-          ],
-          "green": [
-            "Ütlema"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "Was",
-                "Was"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ütlesid"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
           {
             "purple": [
-              "sagen"
+              "teikt"
             ]
           }
         ],
@@ -18529,94 +16825,83 @@ const A1_WORDS = [
     "de": "Salz",
     "de_article": "das",
     "de_plural": "die Salze",
-    "lv": "Sool",
+    "lv": "Salt",
     "level": "A1"
   },
   {
     "de": "sauber",
-    "lv": "Puhas",
+    "lv": "Ren",
     "level": "A1"
   },
   {
     "de": "Schaf",
     "de_article": "das",
     "de_plural": "die Schafe",
-    "lv": "Lammas",
+    "lv": "Et får",
     "level": "A1"
   },
   {
     "de": "schauen",
-    "lv": "Vaatama",
+    "lv": "Ur",
     "level": "A1",
     "study": {
       "id": "a1-schauen-study",
       "layout": "standardStudy",
-      "translation": "Vaatama",
+      "translation": "Ur",
       "explanation": [
-        "Põhiidee: Aktiivselt vaadata või pilku heita.",
-        "Schauen tähendab peamiselt: aktiivselt vaatama.",
-        "Sageli kirjeldab: tegevust.",
-        "Schauen tähendab aktiivselt vaatamist."
+        "Hovedidé: At se eller kigge aktivt.",
+        "Schauen betyder primært: at se aktivt.",
+        "Beskriver ofte: handling.",
+        "Schauen betyder at se aktivt."
       ],
       "examples": [
         {
           "de": "Ich schaue fern.",
-          "lv": "Ma vaatan telerit."
+          "lv": "Jeg ser tv."
         },
         {
           "de": "Wir schauen aus dem Fenster.",
-          "lv": "Me vaatame aknast välja."
+          "lv": "Vi kigger ud af vinduet."
         },
         {
           "de": "Ich schaue fern.",
-          "lv": "Ma vaatan telerit."
+          "lv": "Jeg ser tv"
         }
       ],
       "comparison": [
         {
           "word": "schauen",
-          "meaning": "Vaatama (aktiivselt)",
-          "example": "Ich schaue aus dem Fenster. – Ma vaatan aknast välja."
+          "meaning": "Se (aktivt)",
+          "example": "Ich schaue aus dem Fenster. – Jeg kigger ud af vinduet."
         },
         {
           "word": "sehen",
-          "meaning": "Nägema (ilma kavatsuseta)",
-          "example": "Ich sehe dich. – Ma näen sind."
+          "meaning": "Se (uden hensigt)",
+          "example": "Ich sehe dich. – Jeg ser dig"
         }
       ],
       "tip": [
-        "schauen = skatīties",
-        "Izmanto schauen, kad konteksts atbilst šai nozīmei."
+        "schauen = at se",
+        "Brug schauen, når konteksten passer til denne betydning."
       ],
       "important": [
-        "schauen = skatīties.",
-        "Aktīvi skatīties vai palūkoties."
+        "schauen = at se.",
+        "Se eller se aktivt."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "schauen"
-          ],
           "purple": [
-            "vaatama"
-          ],
-          "orange": [
-            "vaatama"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "schaue",
                 "schaue"
               ]
             },
-            "lv": {
-              "purple": [
-                "vaatan"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -18627,22 +16912,17 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vaatame"
+                "kigger"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "schaue",
                 "schaue"
               ]
             },
-            "lv": {
-              "purple": [
-                "vaatan"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -18664,94 +16944,90 @@ const A1_WORDS = [
   },
   {
     "de": "schicken",
-    "lv": "Saatma",
+    "lv": "At sende",
     "level": "A1"
   },
   {
     "de": "schlafen",
-    "lv": "Magama",
+    "lv": "At sove",
     "level": "A1"
   },
   {
     "de": "schlecht",
-    "lv": "Halb",
+    "lv": "Dårlig",
     "level": "A1"
   },
   {
     "de": "Schlüssel",
     "de_article": "der",
     "de_plural": "die Schlüssel",
-    "lv": "Võti",
+    "lv": "Nøglen",
     "level": "A1"
   },
   {
     "de": "schmecken",
-    "lv": "Maitsema",
+    "lv": "At smage",
     "level": "A1"
   },
   {
     "de": "schmutzig",
-    "lv": "Must",
+    "lv": "Snavset",
     "level": "A1"
   },
   {
     "de": "Schnee",
     "de_article": "der",
-    "lv": "Lumi",
+    "lv": "Det vil sne",
     "level": "A1"
   },
   {
     "de": "schneien",
-    "lv": "Lund sadama",
+    "lv": "Det sner",
     "level": "A1"
   },
   {
     "de": "schnell",
-    "lv": "Kiire",
+    "lv": "Hurtig",
     "level": "A1"
   },
   {
     "de": "Schokolade",
     "de_article": "die",
-    "lv": "Šokolaad",
+    "lv": "Chokolade",
     "level": "A1"
   },
   {
     "de": "schon",
-    "lv": "Juba",
+    "lv": "Allerede",
     "level": "A1",
     "study": {
       "id": "a1-schon-study",
       "layout": "standardStudy",
-      "translation": "Juba",
+      "translation": "Allerede",
       "explanation": [
-        "Põhiidee: Miski on juba juhtunud või juba kehtib.",
-        "Schon tähendab peamiselt: midagi on juba toimunud või kehtib.",
-        "Sageli kirjeldab: toimunud fakti või olemasolevat olekut.",
-        "Schon tähendab juba: midagi on juba toimunud või juba kehtib."
+        "Hovedidé: Noget er allerede sket eller er allerede i kraft.",
+        "Schon betyder hovedsageligt: ​​noget er allerede sket eller er i kraft.",
+        "Beskriver ofte: et faktum, der skete, eller en eksisterende tilstand.",
+        "Schon betyder allerede: noget er allerede sket eller er allerede i kraft."
       ],
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "Ma olen juba kodus."
+          "lv": "Jeg er allerede hjemme"
         }
       ],
       "tip": [
-        "Kaut kas jau ir noticis vai jau ir spēkā.",
-        "Izmanto schon, kad konteksts atbilst šai nozīmei."
+        "Noget er allerede sket eller er allerede i kraft.",
+        "Brug schon, når konteksten passer til denne betydning."
       ],
       "important": [
         "schon = jau.",
-        "Kaut kas jau ir noticis vai jau ir spēkā."
+        "Noget er allerede sket eller er allerede i kraft."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "schon",
-            "schon"
-          ],
           "purple": [
-            "juba"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -18764,7 +17040,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juba"
+                "Jeg"
               ]
             }
           }
@@ -18772,7 +17048,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Kaut"
+              "Noget"
             ]
           }
         ],
@@ -18788,134 +17064,126 @@ const A1_WORDS = [
   },
   {
     "de": "schön",
-    "lv": "Ilus",
+    "lv": "Smuk",
     "level": "A1"
   },
   {
     "de": "Schrank",
     "de_article": "der",
     "de_plural": "die Schränke",
-    "lv": "Kapp",
+    "lv": "Skab",
     "level": "A1"
   },
   {
     "de": "schreiben",
-    "lv": "Kirjutama",
+    "lv": "At skrive",
     "level": "A1"
   },
   {
     "de": "Schuh",
     "de_article": "der",
     "de_plural": "die Schuhe",
-    "lv": "King",
+    "lv": "Sko",
     "level": "A1"
   },
   {
     "de": "Schule",
     "de_article": "die",
     "de_plural": "die Schulen",
-    "lv": "Kool",
+    "lv": "Skole",
     "level": "A1"
   },
   {
     "de": "Schüler",
     "de_article": "der",
     "de_plural": "die Schüler",
-    "lv": "Õpilane",
+    "lv": "En studerende",
     "level": "A1"
   },
   {
     "de": "schwarz",
-    "lv": "Must",
+    "lv": "Sort",
     "level": "A1"
   },
   {
     "de": "Schwein",
     "de_article": "das",
     "de_plural": "die Schweine",
-    "lv": "Siga",
+    "lv": "En gris",
     "level": "A1"
   },
   {
     "de": "Schwester",
     "de_article": "die",
     "de_plural": "die Schwestern",
-    "lv": "Õde",
+    "lv": "Søster",
     "level": "A1"
   },
   {
     "de": "schwimmen",
-    "lv": "Ujuma",
+    "lv": "At svømme",
     "level": "A1",
     "study": {
       "id": "a1-schwimmen",
       "layout": "standardStudy",
-      "translation": "Ujuma",
+      "translation": "At svømme",
       "explanation": [
-        "Põhiidee: schwimmen tähendab ujuma kui liikumist või sporti.",
-        "Schwimmen kasutatakse, kui inimene ujub vees ujumisliigutustega.",
-        "Kui jutt on vees puhkamisest või suplemisest, kasutatakse sageli baden.",
-        "A1 tasemel on oluline eristada: schwimmen = ujuma, baden = suplema."
+        "Hovedidé: schwimmen betyder at svømme som bevægelse eller sport.",
+        "Schwimmen bruges, når en person svømmer i vand med en svømmebevægelse.",
+        "Når det kommer til at slappe af i vandet eller svømme, bruges baden ofte.",
+        "På A1 niveau er det vigtigt at skelne: schwimmen = at svømme, baden = at bade."
       ],
       "examples": [
         {
           "de": "Ich schwimme gern.",
-          "lv": "Mulle meeldib ujuda."
+          "lv": "Jeg kan godt lide at svømme"
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Ta ujub väga hästi."
+          "lv": "Han svømmer meget godt."
         },
         {
           "de": "Wir schwimmen im Schwimmbad.",
-          "lv": "Me ujume basseinis."
+          "lv": "Vi svømmer i poolen."
         },
         {
           "de": "Ich gehe baden.",
-          "lv": "Ma lähen ujuma."
+          "lv": "Jeg svømmer"
         }
       ],
       "comparison": [
         {
           "word": "schwimmen",
-          "meaning": "Ujuma liikumisena või spordina",
+          "meaning": "At svømme som en bevægelse eller sport",
           "example": "Er schwimmt sehr gut."
         },
         {
           "word": "baden",
-          "meaning": "Suplema / vees olema",
+          "meaning": "Svøm/vær i vand",
           "example": "Ich gehe baden."
         },
         {
           "word": "schwimmen gehen",
-          "meaning": "Ujuma minema",
+          "meaning": "Tag på svømning",
           "example": "Wir gehen schwimmen."
         },
         {
           "word": "duschen",
-          "meaning": "Duši all käima",
+          "meaning": "Tag et brusebad",
           "example": "Ich dusche morgens."
         }
       ],
       "tip": {
-        "text": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden."
+        "text": "Husk: svømmebevægelse → schwimmen; hvile i vand → baden."
       },
       "important": [
         "schwimmen un baden nav viens un tas pats.",
-        "Latviski bieži saka “peldēt”, bet vāciski jāskatās, vai tā ir kustība vai peldēšanās."
+        "på dansk står der ofte \"svøm\", men på tysk skal man se om det er bevægelse eller badning."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "schwimmen"
-          ],
           "purple": [
-            "ujuma",
-            "ujumisliigutustega"
-          ],
-          "red": [
-            "baden",
-            "suplema"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -18927,7 +17195,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ujuda"
+                "lide"
               ]
             }
           },
@@ -18939,7 +17207,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ujub"
+                "Han"
               ]
             }
           },
@@ -18954,10 +17222,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ujume"
-              ],
-              "green": [
-                "basseinis"
+                "svømmer"
               ]
             }
           },
@@ -18969,7 +17234,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "lähen"
+                "Jeg"
               ]
             }
           }
@@ -18983,9 +17248,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ujuma",
-                "liikumisena",
-                "spordina"
+                "svømme",
+                "svømme",
+                "sport"
               ]
             },
             "example": {
@@ -19002,8 +17267,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "suplema",
-                "vees"
+                "Svøm/vær",
+                "Svøm/vær"
               ]
             },
             "example": {
@@ -19020,7 +17285,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ujuma minema"
+                "svømning"
               ]
             },
             "example": {
@@ -19037,7 +17302,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "duši all käima"
+                "Tag"
               ]
             },
             "example": {
@@ -19053,32 +17318,18 @@ const A1_WORDS = [
               "schwimmen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "baden",
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "schwimmen"
-            ],
-            "red": [
-              "baden"
-            ]
-          },
-          {
             "purple": [
-              "Latviski"
-            ],
-            "blue": [
-              "Latviski"
-            ],
-            "red": [
-              "Latviski"
+              "schwimmen"
             ]
           }
         ]
@@ -19087,113 +17338,105 @@ const A1_WORDS = [
   },
   {
     "de": "sechs",
-    "lv": "Kuus",
+    "lv": "Seks",
     "level": "A1"
   },
   {
     "de": "sechshundert",
-    "lv": "Kuussada",
+    "lv": "Seks hundrede",
     "level": "A1"
   },
   {
     "de": "sechste",
-    "lv": "Kuues",
+    "lv": "Den sjette",
     "level": "A1"
   },
   {
     "de": "sechzehn",
-    "lv": "Kuusteist",
+    "lv": "Seksten",
     "level": "A1"
   },
   {
     "de": "sechzehnte",
-    "lv": "Kuueteistkümnes",
+    "lv": "Den sekstende",
     "level": "A1"
   },
   {
     "de": "sechzig",
-    "lv": "Kuuskümmend",
+    "lv": "Tres",
     "level": "A1"
   },
   {
     "de": "sechzigste",
-    "lv": "Kuuekümnes",
+    "lv": "Den tresindstyvende",
     "level": "A1"
   },
   {
     "de": "sehen",
-    "lv": "Nägema",
+    "lv": "At se",
     "level": "A1",
     "study": {
       "id": "a1-sehen",
       "layout": "standardStudy",
-      "translation": "Nägema",
+      "translation": "At se",
       "explanation": [
-        "Põhiidee: sehen tähendab silmadega nägema.",
-        "Kui jutt on sellest, mida silmad tajuvad, kasutatakse sehen.",
-        "Teadlik vaatamine on sageli schauen või ansehen.",
-        "Väga sage fraas on Ich sehe dich. = Ma näen sind."
+        "Hovedidé: sehen betyder at se med øjnene.",
+        "Når det kommer til, hvad øjnene opfatter, bruges sehen.",
+        "At se bevidst er ofte schauen eller ansehen.",
+        "En meget almindelig sætning er Ich sehe dich. = Jeg ser dig."
       ],
       "examples": [
         {
           "de": "Ich sehe dich.",
-          "lv": "Ma näen sind."
+          "lv": "Jeg ser dig"
         },
         {
           "de": "Siehst du das Auto?",
-          "lv": "Kas sa näed seda autot?"
+          "lv": "Kan du se den bil"
         },
         {
           "de": "Ich sehe nichts.",
-          "lv": "Ma ei näe midagi."
+          "lv": "Jeg kan ikke se noget"
         },
         {
           "de": "Wir schauen einen Film.",
-          "lv": "Me vaatame filmi."
+          "lv": "Vi ser en film."
         }
       ],
       "comparison": [
         {
           "word": "sehen",
-          "meaning": "Nägema",
+          "meaning": "At se",
           "example": "Ich sehe dich."
         },
         {
           "word": "schauen",
-          "meaning": "Vaatama",
+          "meaning": "Ur",
           "example": "Ich schaue auf das Bild."
         },
         {
           "word": "ansehen",
-          "meaning": "Vaatama / vaatlema",
+          "meaning": "Se/se",
           "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
-          "meaning": "Kuulma",
+          "meaning": "At høre",
           "example": "Ich höre Musik."
         }
       ],
       "tip": {
-        "text": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen."
+        "text": "Husk: øjnene opfatter → sehen; bevidst skøjter → schauen/ansehen."
       },
       "important": [
-        "sehen nav tas pats, kas anschauen.",
+        "sehen er ikke det samme som anschauen.",
         "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sehen",
-            "Ich sehe"
-          ],
           "purple": [
-            "nägema",
-            "silmadega"
-          ],
-          "red": [
-            "schauen",
-            "ansehen"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -19205,7 +17448,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "näen"
+                "ser"
               ]
             }
           },
@@ -19217,7 +17460,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "näed"
+                "Kan"
               ]
             }
           },
@@ -19229,7 +17472,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ei näe"
+                "Jeg"
               ]
             }
           },
@@ -19241,7 +17484,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "vaatame"
+                "ser"
               ]
             }
           }
@@ -19255,7 +17498,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nägema"
+                "se"
               ]
             },
             "example": {
@@ -19270,11 +17513,7 @@ const A1_WORDS = [
                 "schauen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "vaatama"
-              ]
-            },
+            "meaning": {},
             "example": {
               "red": [
                 "schaue"
@@ -19289,8 +17528,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vaatama",
-                "vaatama"
+                "Se/se",
+                "Se/se"
               ]
             },
             "example": {
@@ -19308,7 +17547,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kuulma"
+                "høre"
               ]
             },
             "example": {
@@ -19324,7 +17563,7 @@ const A1_WORDS = [
               "sehen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "schauen",
@@ -19334,23 +17573,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "sehen"
-            ],
-            "red": [
-              "anschauen"
-            ]
-          },
-          {
-            "blue": [
-              "sehe"
-            ],
             "purple": [
-              "Ich"
-            ],
-            "red": [
-              "schaue",
-              "Ich"
+              "sehen"
             ]
           }
         ]
@@ -19359,90 +17583,82 @@ const A1_WORDS = [
   },
   {
     "de": "sehr",
-    "lv": "Väga",
+    "lv": "Meget",
     "level": "A1"
   },
   {
     "de": "Seife",
     "de_article": "die",
     "de_plural": "die Seifen",
-    "lv": "Seep",
+    "lv": "Sæbe",
     "level": "A1"
   },
   {
     "de": "sein",
-    "lv": "Olema",
+    "lv": "At være",
     "level": "A1",
     "study": {
       "id": "a1-sein",
       "layout": "standardStudy",
-      "translation": "Olema",
+      "translation": "At være",
       "explanation": [
-        "Põhiidee: sein tähendab olemist.",
-        "Sein on üks tähtsamaid saksa tegusõnu.",
-        "A1 tasemel on eriti tähtsad vormid ich bin, du bist, er ist ja wir sind.",
-        "Sein kasutatakse ka paljudes lausetes koos asukoha või omadusega."
+        "Hovedidé: sein betyder at være.",
+        "Sein er et af de vigtigste tyske verber.",
+        "På A1-niveau er særligt vigtige former ich bin, du bist, er ist og wir sind.",
+        "Sein bruges også i mange lokative eller karakteristiske sætninger."
       ],
       "examples": [
         {
           "de": "Ich bin hier.",
-          "lv": "Ma olen siin."
+          "lv": "Jeg er her"
         },
         {
           "de": "Du bist müde.",
-          "lv": "Sa oled väsinud."
+          "lv": "Du er træt"
         },
         {
           "de": "Er ist Lehrer.",
-          "lv": "Ta on õpetaja."
+          "lv": "Han er lærer."
         },
         {
           "de": "Wir sind zu Hause.",
-          "lv": "Me oleme kodus."
+          "lv": "Vi er hjemme."
         }
       ],
       "comparison": [
         {
           "word": "sein",
-          "meaning": "Olema",
+          "meaning": "At være",
           "example": "Ich bin hier."
         },
         {
           "word": "haben",
-          "meaning": "Mul on",
+          "meaning": "Jeg har",
           "example": "Ich habe Zeit."
         },
         {
           "word": "werden",
-          "meaning": "Saama",
+          "meaning": "At blive",
           "example": "Ich werde müde."
         },
         {
           "word": "bleiben",
-          "meaning": "Jääma",
+          "meaning": "Ophold",
           "example": "Ich bleibe hier."
         }
       ],
       "tip": {
-        "text": "Atceries: ich bin = es esmu; du bist = tu esi."
+        "text": "Husk: ich bin = es esmu; du bist = tu esi."
       },
       "important": [
-        "sein formas jāiemācās atsevišķi: bin, bist, ist, sind.",
-        "Ich bin ir “es esmu”, nevis “es būt”."
+        "sein-former skal læres særskilt: bin, bist, ist, sind.",
+        "Ich bin er \"jeg er\" ikke \"jeg være\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sein",
-            "ich bin",
-            "du bist",
-            "er ist",
-            "wir sind"
-          ],
           "purple": [
-            "olemist",
-            "asukoha",
-            "omadusega"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -19454,7 +17670,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "olen"
+                "her"
               ]
             }
           },
@@ -19466,7 +17682,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "oled"
+                "træt"
               ]
             }
           },
@@ -19478,7 +17694,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "on"
+                "Han"
               ]
             }
           },
@@ -19490,7 +17706,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "oleme"
+                "hjemme"
               ]
             }
           }
@@ -19502,11 +17718,7 @@ const A1_WORDS = [
                 "sein"
               ]
             },
-            "meaning": {
-              "purple": [
-                "olema"
-              ]
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "bin"
@@ -19521,7 +17733,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mul on"
+                "Jeg"
               ]
             },
             "example": {
@@ -19538,7 +17750,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saama"
+                "blive"
               ]
             },
             "example": {
@@ -19555,7 +17767,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jääma"
+                "Ophold"
               ]
             },
             "example": {
@@ -19572,29 +17784,15 @@ const A1_WORDS = [
               "du bist"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "es esmu",
+              "tu esi"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "bin",
-              "bist",
-              "ist",
-              "sind"
-            ]
-          },
-          {
-            "blue": [
-              "Ich bin"
-            ],
             "purple": [
-              "Ich"
-            ],
-            "red": [
-              "Ich"
+              "sein"
             ]
           }
         ]
@@ -19603,70 +17801,66 @@ const A1_WORDS = [
   },
   {
     "de": "seit",
-    "lv": "Alates",
+    "lv": "Siden",
     "level": "A1"
   },
   {
     "de": "Seite",
     "de_article": "die",
     "de_plural": "die Seiten",
-    "lv": "Lehekülg • Külg",
+    "lv": "Side • Side",
     "level": "A1",
     "study": {
       "id": "a1-seite",
       "layout": "standardStudy",
-      "translation": "Lehekülg • Külg",
+      "translation": "Side • Side",
       "explanation": [
-        "Põhiidee: die Seite võib tähendada raamatu/dokumendi lehekülge või mingi asja külge/serva.",
-        "Raamatus, ajakirjas või veebilehel die Seite = lehekülg (Seite 5 = 5. lehekülg).",
-        "Ruumilises tähenduses die Seite = külg (auf der linken Seite = vasakul pool).",
-        "Ülekantud tähenduses võib die Seite tähendada ka poolt konfliktis või mõtetes (auf meiner Seite = minu poolel).",
-        "Kontekst (raamat/lugemine või asend/suhted) näitab õiget tähendust.",
-        "Mitmuses mõlema tähenduse puhul: die Seiten."
+        "Hovedidé: Die Seite kan betyde siden af ​​en bog/dokument eller siden/kanten af ​​noget.",
+        "I en bog, et blad eller en hjemmeside er den Seite = side (Seite 5 = side 5).",
+        "I rumlig forstand er die Seite = side (auf der linken Seite = til venstre).",
+        "I overført betydning kan die Seite også betyde en side i konflikt eller tanker (auf meiner Seite = på min side).",
+        "Konteksten (bog/læsning eller position/forhold) viser den korrekte betydning.",
+        "Flertal for begge betydninger: die Seiten."
       ],
       "examples": [
         {
           "de": "Schlagt die Seite zwanzig auf.",
-          "lv": "Avage kahekümnes lehekülg."
+          "lv": "Gå til side tyve."
         },
         {
           "de": "Auf der linken Seite ist ein Park.",
-          "lv": "Vasakul pool on park."
+          "lv": "Til venstre er en park."
         },
         {
           "de": "Die Webseite lädt langsam.",
-          "lv": "Veebileht laadib aeglaselt."
+          "lv": "Websiden indlæses langsomt."
         },
         {
           "de": "Er steht auf meiner Seite.",
-          "lv": "Ta on minu poolel."
+          "lv": "Han er på min side."
         },
         {
           "de": "Das Buch hat 200 Seiten.",
-          "lv": "Raamatul on 200 lehekülge."
+          "lv": "Bogen har 200 sider."
         },
         {
           "de": "Auf der anderen Seite der Straße.",
-          "lv": "Teisel pool tänavat."
+          "lv": "På den anden side af gaden."
         }
       ],
       "tip": [
-        "Runā par grāmatu vai lasīšanu → lappuse. Runā par novietojumu, virzienu vai attiecībām → puse.",
-        "Seite X grāmatā vienmēr ir lappuse, ne puse."
+        "Taler om en bog eller læsning → side. Taler om position, retning eller forhold → side.",
+        "Seite X er altid en side i en bog, ikke en halv."
       ],
       "important": [
-        "die Seite = lappuse VAI puse — konteksts izšķir.",
-        "Daudzskaitlī abām nozīmēm: die Seiten."
+        "die Seite = side ELLER side - konteksten bestemmer.",
+        "Flertal for begge betydninger: die Seiten."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "die Seite",
-            "Seite"
-          ],
           "purple": [
-            "lehekülg",
-            "pool"
+            "min",
+            "min"
           ]
         },
         "examples": [
@@ -19678,7 +17872,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lehekülg"
+                "til"
               ]
             }
           },
@@ -19690,7 +17884,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pool"
+                "Til"
               ]
             }
           },
@@ -19702,7 +17896,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veebileht"
+                "Websiden"
               ]
             }
           },
@@ -19714,7 +17908,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poolel"
+                "side"
               ]
             }
           },
@@ -19726,7 +17920,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lehekülge"
+                "Bogen"
               ]
             }
           },
@@ -19738,26 +17932,15 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pool"
+                "den"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "Runā"
-            ],
-            "green": [
-              "Runā"
-            ]
-          },
-          {
-            "blue": [
-              "Seite"
-            ],
             "purple": [
-              "Runā"
+              "Taler"
             ]
           }
         ],
@@ -19766,11 +17949,6 @@ const A1_WORDS = [
             "purple": [
               "die",
               "die"
-            ]
-          },
-          {
-            "blue": [
-              "die Seiten"
             ]
           }
         ]
@@ -19781,7 +17959,7 @@ const A1_WORDS = [
     "de": "Sekunde",
     "de_article": "die",
     "de_plural": "die Sekunden",
-    "lv": "Sekund",
+    "lv": "Et sekund",
     "level": "A1"
   },
   {
@@ -19792,76 +17970,71 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "End • Endale",
+    "lv": "Dig selv • For dig selv",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "End • Endale",
+      "translation": "Dig selv • For dig selv",
       "explanation": [
-        "Põhiidee: sich näitab, et tegevus käib tegija enda kohta.",
-        "Eesti keeles tõlgitakse seda sageli kui ennast või endale.",
-        "Mõne saksa tegusõna puhul on sich kohustuslik osa, näiteks sich waschen.",
-        "A1 tasemel on oluline tähele panna: ich wasche mich, er wäscht sich."
+        "Hovedidé: sich viser, at handlingen refererer til gøreren selv.",
+        "På lettisk oversættes det ofte som selv eller selv.",
+        "I nogle tyske verber er sich en obligatorisk del, såsom sich waschen.",
+        "Vigtigt at bemærke på A1-niveau: ich wasche mich, er wäscht sich."
       ],
       "examples": [
         {
           "de": "Er wäscht sich.",
-          "lv": "Ta peseb end."
+          "lv": "Han tager et bad."
         },
         {
           "de": "Ich setze mich.",
-          "lv": "Ma istun maha."
+          "lv": "Jeg sætter mig ned."
         },
         {
           "de": "Sie freut sich.",
-          "lv": "Ta rõõmustab."
+          "lv": "Hun er glad."
         },
         {
           "de": "Ich wasche das Auto.",
-          "lv": "Ma pesen autot."
+          "lv": "Jeg vasker bilen"
         }
       ],
       "comparison": [
         {
           "word": "sich",
-          "meaning": "End / endale",
+          "meaning": "Mig selv / mig selv",
           "example": "Er wäscht sich."
         },
         {
           "word": "mich",
-          "meaning": "Mind / ennast ich puhul",
+          "meaning": "Mig / mig selv på ich",
           "example": "Ich wasche mich."
         },
         {
           "word": "dich",
-          "meaning": "Sind / ennast du puhul",
+          "meaning": "Dig / mig selv på du",
           "example": "Du wäschst dich."
         },
         {
           "word": "ihn",
-          "meaning": "Teda",
+          "meaning": "Ham",
           "example": "Ich sehe ihn."
         }
       ],
       "tip": {
-        "text": "Atceries: darbība uz sevi → sich/mich/dich."
+        "text": "Husk: handling på sig selv → sich/mich/dich."
       },
       "important": [
-        "sich nav patstāvīgs lietvārds.",
-        "Tas mainās pēc personas: ich → mich, du → dich, er/sie/es → sich."
+        "sich er ikke et selvstændigt navneord.",
+        "Det ændrer sig efter person: ich → mich, du → dich, er/sie/es → sich."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sich",
-            "ich wasche mich",
-            "er wäscht sich"
-          ],
           "purple": [
-            "end",
-            "endale",
-            "Põhiidee"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -19873,7 +18046,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peseb"
+                "Han"
               ]
             }
           },
@@ -19885,7 +18058,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "istun"
+                "Jeg"
               ]
             }
           },
@@ -19897,7 +18070,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rõõmustab"
+                "Hun"
               ]
             }
           },
@@ -19912,10 +18085,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "pesen"
+                "Jeg"
               ],
               "yellow": [
-                "autot"
+                "Jeg"
               ]
             }
           }
@@ -19929,8 +18102,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "end",
-                "endale"
+                "Mig",
+                "Mig"
               ]
             },
             "example": {
@@ -19947,8 +18120,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mind",
-                "mind"
+                "Mig",
+                "Mig"
               ]
             },
             "example": {
@@ -19965,8 +18138,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sind",
-                "sind"
+                "Dig",
+                "Dig"
               ]
             },
             "example": {
@@ -19983,7 +18156,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "teda"
+                "Ham"
               ]
             },
             "example": {
@@ -19999,7 +18172,7 @@ const A1_WORDS = [
               "sich"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
@@ -20027,60 +18200,56 @@ const A1_WORDS = [
   },
   {
     "de": "sicher",
-    "lv": "Kindel • Kindlasti",
+    "lv": "Sikker • Helt sikkert",
     "level": "A1",
     "study": {
       "id": "a1-sicher",
       "layout": "standardStudy",
-      "translation": "Kindel • Kindlasti",
+      "translation": "Sikker • Helt sikkert",
       "explanation": [
-        "Põhiidee: sicher tähendab omadussõnana kindel, määrsõnana tähendab kindlasti/küllap.",
-        "Kohast, olukorrast või inimesest rääkides sicher = turvaline (ein sicherer Ort = turvaline koht).",
-        "Kinnitusena või veendumusena lauses sicher = kindlasti/muidugi (Das ist sicher wahr. = See on kindlasti tõsi.).",
-        "Sicher! eraldi vastusena tähendab muidugi!/küllap!"
+        "Hovedidé: sicher som adjektiv betyder sikker, som adverb betyder det sikkert/sandsynligvis.",
+        "Når man taler om et sted, en situation eller en person, er sicher = sikkert (ein sicherer Ort = sikkert sted).",
+        "Som bekræftelse eller forsikring i en sætning, sicher = bestemt/selvfølgelig (Das ist sicher wahr. = Det er bestemt sandt.).",
+        "Helt sikkert! som et særskilt svar betyder selvfølgelig!/sandsynligvis!"
       ],
       "examples": [
         {
           "de": "Ist das Wasser sicher?",
-          "lv": "Kas vesi on ohutu?"
+          "lv": "Er vandet sikkert?"
         },
         {
           "de": "Kommst du morgen? – Sicher!",
-          "lv": "Kas sa tuled homme? – kindlasti!"
+          "lv": "Kommer du i morgen - helt sikkert!"
         },
         {
           "de": "Er ist sicher zu Hause.",
-          "lv": "Ta on arvatavasti kodus."
+          "lv": "Han er formentlig hjemme."
         },
         {
           "de": "Das ist eine sichere Lösung.",
-          "lv": "See on kindel lahendus."
+          "lv": "Det er en sikker løsning."
         },
         {
           "de": "Ich bin mir sicher.",
-          "lv": "Ma olen kindel."
+          "lv": "Jeg er sikker"
         },
         {
           "de": "Fahr sicher!",
-          "lv": "Sõida ohutult!"
+          "lv": "Kør sikkert!"
         }
       ],
       "tip": [
-        "Par vietu vai situāciju (drošība) → drošs.",
-        "Kā pārliecība vai apstiprinājums teikumā → noteikti/droši vien."
+        "Om et sted eller en situation (sikkerhed) → sikker.",
+        "Som en tro eller bekræftelse i en sætning → bestemt/sandsynligvis."
       ],
       "important": [
-        "sicher = drošs (īpašības vārds) VAI noteikti/droši vien (apstākļa vārds).",
-        "sich sicher sein = būt pārliecinātam."
+        "sicher = sikker (tillægsord) ELLER sikkert/sandsynligvis (adverbium).",
+        "sich sicher sein = for at være sikker."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sicher"
-          ],
           "purple": [
-            "kindel",
-            "kindlasti"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -20092,7 +18261,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
+                "vandet"
               ]
             }
           },
@@ -20104,7 +18273,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kindlasti"
+                "Kommer"
               ]
             }
           },
@@ -20116,7 +18285,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arvatavasti"
+                "Han"
               ]
             }
           },
@@ -20128,7 +18297,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kindel"
+                "Det"
               ]
             }
           },
@@ -20140,7 +18309,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "olen"
+                "Jeg"
               ]
             }
           },
@@ -20152,7 +18321,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sõida"
+                "Kør"
               ]
             }
           }
@@ -20160,13 +18329,13 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "Par"
+              "sted"
             ]
           },
           {
             "green": [
-              "Par",
-              "Par"
+              "sted",
+              "sted"
             ]
           }
         ],
@@ -20174,13 +18343,7 @@ const A1_WORDS = [
           {
             "purple": [
               "sicher",
-              "sicher",
               "sicher"
-            ]
-          },
-          {
-            "green": [
-              "sich sicher sein"
             ]
           }
         ]
@@ -20189,178 +18352,150 @@ const A1_WORDS = [
   },
   {
     "de": "sie",
-    "lv": "Nemad / nad",
+    "lv": "De/hende",
     "level": "A1",
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "Nemad / nad",
+      "translation": "De/hende",
       "explanation": [
-        "Põhiidee: Mitmuse vorm — jutt on mitmest inimesest. Tegusõna lõpeb -en: kochen, essen, gehen.",
-        "Sie tähendab peamiselt: üks naine.",
-        "Sageli kirjeldab: tegusõna ainsuses (-t).",
-        "Sie tähendab peamiselt: mitu inimest.",
-        "Sageli kirjeldab: tegusõna mitmuses (-en).",
-        "Sie tähendab peamiselt: viisakas pöördumine.",
-        "Sageli kirjeldab: kohustuslikult suure S-tähega.",
-        "Väike sie tähendab teda, kui tegusõna on ainsuses (Sie kocht = tema teeb süüa)."
+        "Hovedidé: Flertal - taler om mere end én person. Verbet ender på -en: kochen, essen, gehen.",
+        "Sie betyder hovedsageligt: ​​én kvinde.",
+        "Ofte karakteriseret ved: ental verbum (-t).",
+        "Sie betyder hovedsageligt: ​​flere personer.",
+        "Ofte karakteriseret ved: flertal verbum (-en).",
+        "Sie betyder hovedsageligt: ​​høflig adresse.",
+        "Ofte beskrevet: nødvendigvis med stort S.",
+        "Den lille sie betyder hende, når verbet er ental (Sie kocht = hun laver mad)."
       ],
       "examples": [
         {
           "de": "Sie kochen.",
-          "lv": "Anna teeb süüa. Ta teeb seda iga päev."
+          "lv": "De laver mad."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Maria on arst. Ta töötab haiglas."
+          "lv": "Hun laver mad."
         },
         {
           "de": "Sie isst.",
-          "lv": "Anna ja Paul teevad süüa. Nad teevad seda koos."
+          "lv": "Hun spiser"
         },
         {
           "de": "Sie kochen.",
-          "lv": "Lapsed mängivad aias. Nad mängivad jalgpalli."
+          "lv": "De laver mad."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "Proua Keller, kas te teete meelsasti süüa?"
+          "lv": "De spiller fodbold."
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Härra Müller, kas te olete siin uus?"
+          "lv": "Du laver mad"
         }
       ],
       "tip": [
-        "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
-        "Izmanto sie, kad konteksts atbilst šai nozīmei."
+        "Flertal - henviser til mere end én person. Verbet ender på -en: kochen, essen, gehen.",
+        "Brug sie, når konteksten passer til denne betydning."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+        "Høflighed altid med stort S: Sie, not sie.",
+        "Hun: Sie kocht. De: sie kochen. Du: Sie kochen.",
         "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "Forkert: Sie kocht (de) → Korrekt: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "sie",
-            "kochen"
-          ],
           "purple": [
-            "Põhiidee",
-            "tema"
+            "er"
           ]
         },
         "examples": [
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
-              "blue": [
-                "Sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Ta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "orange": [
-                "Sie"
-              ],
-              "blue": [
-                "Sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Ta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "orange": [
-                "Sie"
-              ],
               "green": [
-                "Sie"
+                "sie",
+                "sie"
               ]
             },
             "lv": {
               "purple": [
-                "Nad"
+                "laver"
               ]
             }
           },
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hun"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hun"
+              ]
+            }
+          },
+          {
+            "de": {
               "green": [
-                "Sie"
+                "sie",
+                "sie"
               ]
             },
             "lv": {
               "purple": [
-                "Nad"
+                "laver"
               ]
             }
           },
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
-              "yellow": [
-                "Sie"
+              "green": [
+                "sie",
+                "sie"
               ]
             },
             "lv": {
               "purple": [
-                "te"
+                "spiller"
               ]
             }
           },
           {
             "de": {
-              "orange": [
-                "Sie"
-              ],
               "yellow": [
-                "Sie"
+                "sie"
               ]
             },
             "lv": {
               "purple": [
-                "te"
+                "laver"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Daudzskaitļa"
-            ]
-          }
+          {}
         ],
         "important": [
           {
-            "blue": [
-              "Sie"
-            ],
             "green": [
-              "Sie"
-            ],
-            "yellow": [
-              "Sie"
+              "sie"
             ]
           }
         ]
@@ -20369,66 +18504,62 @@ const A1_WORDS = [
   },
   {
     "de": "Sie",
-    "lv": "Teie",
+    "lv": "Du",
     "level": "A1",
     "study": {
       "id": "a1-sie-study-2",
       "layout": "standardStudy",
-      "translation": "Teie",
+      "translation": "Du",
       "explanation": [
-        "Põhiidee: Viisakas pöördumine — alati suure S-iga. Eesti keeles: teie. Sageli tegusõnaga mitmuses.",
-        "Sie tähendab peamiselt: üks naine.",
-        "Sageli kirjeldab: tegusõna ainsuses (-t).",
-        "Sie tähendab peamiselt: mitu inimest.",
-        "Sageli kirjeldab: tegusõna mitmuses (-en).",
-        "Sie tähendab peamiselt: viisakas pöördumine.",
-        "Sageli kirjeldab: kohustuslikult suure S-tähega.",
-        "Väike sie tähendab teda, kui tegusõna on ainsuses (Sie kocht = tema teeb süüa)."
+        "Hovedidé: Høflighedsadresse - altid med stort S. på dansk: dig. Ofte med et verbum i flertal.",
+        "Sie betyder grundlæggende: én kvinde.",
+        "Ofte karakteriseret ved: ental verbum (-t).",
+        "Sie betyder hovedsageligt: ​​flere personer.",
+        "Ofte karakteriseret ved: flertal verbum (-en).",
+        "Sie betyder hovedsageligt: ​​høflig adresse.",
+        "Ofte beskrevet: nødvendigvis med stort S.",
+        "Den lille sie betyder hende, når verbet er ental (Sie kocht = hun laver mad)."
       ],
       "examples": [
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Teie teete süüa, palun."
+          "lv": "Du laver mad, tak."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Ta teeb süüa."
+          "lv": "Hun laver mad."
         },
         {
           "de": "Sie isst.",
-          "lv": "Ta sööb."
+          "lv": "Hun spiser"
         },
         {
           "de": "Sie kochen.",
-          "lv": "Nad teevad süüa."
+          "lv": "De laver mad."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "Nad mängivad jalgpalli."
+          "lv": "De spiller fodbold."
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Teie teete süüa, palun."
+          "lv": "Du laver mad"
         }
       ],
       "tip": [
-        "Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
-        "Izmanto Sie, kad konteksts atbilst šai nozīmei."
+        "Høflighed - altid med stort S. på dansk: dig. Ofte med et verbum i flertal.",
+        "Brug Sie, når konteksten passer til denne betydning."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+        "Høflighed altid med stort S: Sie, not sie.",
+        "Hun: Sie kocht. De: sie kochen. Du: Sie kochen.",
         "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "Forkert: Sie kocht (de) → Korrekt: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
-          "yellow": [
-            "Sie",
-            "kocht"
-          ],
           "purple": [
-            "teie"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -20441,7 +18572,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "teie"
+                "laver"
               ]
             }
           },
@@ -20452,11 +18583,34 @@ const A1_WORDS = [
                 "sie"
               ]
             },
-            "lv": {
-              "purple": [
-                "teeb"
+            "lv": {}
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
               ]
-            }
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {}
           },
           {
             "de": {
@@ -20467,46 +18621,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sööb"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nad"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nad"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "teie"
+                "laver"
               ]
             }
           }
@@ -20514,7 +18629,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Pieklājības"
+              "Høflighed"
             ]
           }
         ],
@@ -20530,112 +18645,105 @@ const A1_WORDS = [
   },
   {
     "de": "siebenhundert",
-    "lv": "Seitsesada",
+    "lv": "Syv hundrede",
     "level": "A1"
   },
   {
     "de": "siebente",
-    "lv": "Seitsmes",
+    "lv": "Den syvende",
     "level": "A1"
   },
   {
     "de": "siebzehn",
-    "lv": "Seitseteist",
+    "lv": "Sytten",
     "level": "A1"
   },
   {
     "de": "siebzehnte",
-    "lv": "Seitsmeteistkümnes",
+    "lv": "Den syttende",
     "level": "A1"
   },
   {
     "de": "siebzig",
-    "lv": "Seitsekümmend",
+    "lv": "Halvfjerds",
     "level": "A1"
   },
   {
     "de": "siebzigste",
-    "lv": "Seitsmekümnes",
+    "lv": "Den halvfjerdsende",
     "level": "A1"
   },
   {
     "de": "singen",
-    "lv": "Laulma",
+    "lv": "At synge",
     "level": "A1"
   },
   {
     "de": "sitzen",
-    "lv": "Istuma",
+    "lv": "At sidde",
     "level": "A1",
     "study": {
       "id": "a1-sitzen",
       "layout": "standardStudy",
-      "translation": "Istuma",
+      "translation": "At sidde",
       "explanation": [
-        "Põhiidee: sitzen tähendab istumist.",
-        "Sitzen kasutatakse inimese või looma kohta, kes istub.",
-        "Vahel tähendab sitzen ka kindlas kohas asumist, aga A1 tasemel on peamine tähendus istuma.",
-        "Oluline on eristada: sitzen = istuma, stehen = seisma, liegen = lamama/pikali olema."
+        "Hovedidé: sitzen betyder at sidde.",
+        "Sitzen bruges til at sidde en person eller et dyr.",
+        "Nogle gange betyder sitzen også at være et bestemt sted, men i A1 er hovedbetydningen at sidde.",
+        "Det er vigtigt at skelne: sitzen = sidde, stehen = stå, ligge = ligge."
       ],
       "examples": [
         {
           "de": "Ich sitze am Tisch.",
-          "lv": "Ma istun laua taga."
+          "lv": "Jeg sidder ved bordet."
         },
         {
           "de": "Die Kinder sitzen im Bus.",
-          "lv": "Lapsed istuvad bussis."
+          "lv": "Børnene sidder i bussen."
         },
         {
           "de": "Er steht an der Tür.",
-          "lv": "Ta seisab ukse juures."
+          "lv": "Han står ved døren."
         },
         {
           "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "Kass lamab diivanil."
+          "lv": "Katten sover på sofaen."
         }
       ],
       "comparison": [
         {
           "word": "sitzen",
-          "meaning": "Istuma",
+          "meaning": "At sidde",
           "example": "Ich sitze am Tisch."
         },
         {
           "word": "stehen",
-          "meaning": "Seisma",
+          "meaning": "At stå",
           "example": "Er steht an der Tür."
         },
         {
           "word": "liegen",
-          "meaning": "Lamama / pikali olema",
+          "meaning": "Sov/lig dig",
           "example": "Die Katze liegt dort."
         },
         {
           "word": "setzen",
-          "meaning": "Istet võtma / istuma panema",
+          "meaning": "At sidde/sætte sig ned",
           "example": "Ich setze mich."
         }
       ],
       "tip": {
-        "text": "Atceries: sēdus → sitzen; stāvus → stehen; guļus → liegen."
+        "text": "Husk: siddende → sitzen; stående → stehen; liggende → ligge."
       },
       "important": [
-        "sitzen rāda stāvokli “sēdēt”.",
-        "Apsēsties ir sich setzen, nevis sitzen."
+        "sitzen viser tilstanden 'siddende'.",
+        "At sidde ned er sich setzen, ikke sitzen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sitzen"
-          ],
           "purple": [
-            "istuma",
-            "istub"
-          ],
-          "red": [
-            "stehen",
-            "liegen"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -20647,7 +18755,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "istun"
+                "Jeg"
               ]
             }
           },
@@ -20662,10 +18770,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "istuvad"
-              ],
-              "green": [
-                "Lapsed"
+                "Børnene"
               ]
             }
           },
@@ -20677,7 +18782,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "seisab"
+                "Han"
               ]
             }
           },
@@ -20689,7 +18794,7 @@ const A1_WORDS = [
             },
             "lv": {
               "yellow": [
-                "lamab"
+                "Katten"
               ]
             }
           }
@@ -20703,7 +18808,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "istuma"
+                "sidde"
               ]
             },
             "example": {
@@ -20720,7 +18825,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "seisma"
+                "stå"
               ]
             },
             "example": {
@@ -20737,8 +18842,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "lamama",
-                "pikali"
+                "Sov/lig",
+                "Sov/lig"
               ]
             },
             "example": {
@@ -20755,7 +18860,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "istet võtma"
+                "sig"
               ]
             },
             "example": {
@@ -20771,30 +18876,19 @@ const A1_WORDS = [
               "sitzen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "stehen"
             ],
             "yellow": [
-              "liegen"
+              "ligge"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "sitzen"
-            ],
             "purple": [
-              "sitzen"
-            ]
-          },
-          {
-            "green": [
-              "sich setzen"
-            ],
-            "blue": [
               "sitzen"
             ]
           }
@@ -20804,109 +18898,100 @@ const A1_WORDS = [
   },
   {
     "de": "so",
-    "lv": "Nii",
+    "lv": "Så",
     "level": "A1"
   },
   {
     "de": "Socke",
     "de_article": "die",
     "de_plural": "die Socken",
-    "lv": "Sokk",
+    "lv": "En sok",
     "level": "A1"
   },
   {
     "de": "Sofa",
     "de_article": "das",
     "de_plural": "die Sofas",
-    "lv": "Diivan",
+    "lv": "Sofa",
     "level": "A1"
   },
   {
     "de": "sofort",
-    "lv": "Kohe",
+    "lv": "Straks",
     "level": "A1"
   },
   {
     "de": "Sohn",
     "de_article": "der",
     "de_plural": "die Söhne",
-    "lv": "Poeg",
+    "lv": "Søn",
     "level": "A1"
   },
   {
     "de": "sollen",
-    "lv": "Peaks",
+    "lv": "Skulle",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "Peaks",
+      "translation": "Skulle",
       "explanation": [
-        "Põhiidee: sollen tähendab, et keegi peaks midagi tegema või peab midagi tegema juhise järgi.",
-        "Sollen kasutatakse sageli siis, kui keegi teine ütleb, mida teha.",
-        "See ei ole nii tugev kui müssen.",
-        "Väga sage fraas on Was soll ich machen? = Mida ma peaksin tegema?"
+        "Hovedidé: sollen betyder, at nogen skal eller skal gøre noget som anvist.",
+        "Sollen bruges ofte, når en anden fortæller dig, hvad du skal gøre.",
+        "Den er ikke så stærk som müssen.",
+        "En meget almindelig sætning er Was soll ich machen? = Hvad skal jeg gøre?"
       ],
       "examples": [
         {
           "de": "Was soll ich machen?",
-          "lv": "Mida ma peaksin tegema?"
+          "lv": "Hvad skal jeg gøre"
         },
         {
           "de": "Du sollst kommen.",
-          "lv": "Sa pead tulema."
+          "lv": "Du skal komme"
         },
         {
           "de": "Ich soll zu Hause bleiben.",
-          "lv": "Ma pean koju jääma."
+          "lv": "Jeg er nødt til at blive hjemme"
         },
         {
           "de": "Ich muss jetzt gehen.",
-          "lv": "Ma pean nüüd minema."
+          "lv": "Jeg er nødt til at gå nu"
         }
       ],
       "comparison": [
         {
           "word": "sollen",
-          "meaning": "Peaks / juhise järgi tegema",
+          "meaning": "Bør/bør gøre som anvist",
           "example": "Was soll ich machen?"
         },
         {
           "word": "müssen",
-          "meaning": "Tingimata vaja olema",
+          "meaning": "Absolut brug for",
           "example": "Ich muss gehen."
         },
         {
           "word": "können",
-          "meaning": "Saama",
+          "meaning": "Kunne",
           "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
-          "meaning": "Tahtma",
+          "meaning": "Vil du",
           "example": "Ich will bleiben."
         }
       ],
       "tip": {
-        "text": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen."
+        "text": "Husk: nogen fortæller, hvad de skal gøre → sollen; skal gøres → müssen."
       },
       "important": [
-        "Was soll ich machen? ir ļoti bieža frāze.",
-        "sollen un müssen nav pilnīgi vienādi."
+        "Kan Soll ich machen? er en meget almindelig sætning.",
+        "sollen og müssen er ikke helt det samme."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sollen",
-            "Was soll ich machen"
-          ],
           "purple": [
-            "peaks",
-            "Põhiidee",
-            "juhise"
-          ],
-          "red": [
-            "müssen"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -20919,7 +19004,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mida ma peaksin tegema"
+                "Hvad"
               ]
             }
           },
@@ -20932,7 +19017,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pead"
+                "skal"
               ]
             }
           },
@@ -20945,7 +19030,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pean"
+                "Jeg"
               ]
             }
           },
@@ -20958,7 +19043,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "pean"
+                "Jeg"
               ]
             }
           }
@@ -20972,8 +19057,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peaks",
-                "juhise"
+                "Bør/bør",
+                "Bør/bør"
               ]
             },
             "example": {
@@ -20990,7 +19075,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tingimata"
+                "Absolut"
               ]
             },
             "example": {
@@ -21007,7 +19092,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saama"
+                "Kunne"
               ]
             },
             "example": {
@@ -21024,7 +19109,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tahtma"
+                "Vil"
               ]
             },
             "example": {
@@ -21040,21 +19125,18 @@ const A1_WORDS = [
               "sollen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "müssen",
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
             "blue": [
-              "Was soll ich machen"
-            ],
-            "purple": [
-              "Was"
+              "Kan"
             ]
           },
           {
@@ -21073,144 +19155,137 @@ const A1_WORDS = [
     "de": "Sommer",
     "de_article": "der",
     "de_plural": "die Sommer",
-    "lv": "Suvi",
+    "lv": "Sommer",
     "level": "A1"
   },
   {
     "de": "Samstag",
     "de_article": "der",
     "de_plural": "die Samstage",
-    "lv": "Laupäev",
+    "lv": "Lørdag",
     "level": "A1"
   },
   {
     "de": "Sonne",
     "de_article": "die",
     "de_plural": "die Sonnen",
-    "lv": "Päike",
+    "lv": "Solen",
     "level": "A1"
   },
   {
     "de": "Sonntag",
     "de_article": "der",
     "de_plural": "die Sonntage",
-    "lv": "Pühapäev",
+    "lv": "Søndag",
     "level": "A1"
   },
   {
     "de": "spät",
-    "lv": "Hiline",
+    "lv": "Sent",
     "level": "A1"
   },
   {
     "de": "spazieren gehen",
-    "lv": "Jalutama minema",
+    "lv": "Gå en tur",
     "level": "A1"
   },
   {
     "de": "Spiel",
     "de_article": "das",
     "de_plural": "die Spiele",
-    "lv": "Mäng",
+    "lv": "Spillet",
     "level": "A1"
   },
   {
     "de": "spielen",
-    "lv": "Mängima",
+    "lv": "At spille",
     "level": "A1"
   },
   {
     "de": "Spielzeug",
     "de_article": "das",
     "de_plural": "die Spielzeuge",
-    "lv": "Mänguasi",
+    "lv": "Et legetøj",
     "level": "A1"
   },
   {
     "de": "Sprache",
     "de_article": "die",
     "de_plural": "die Sprachen",
-    "lv": "Keel",
+    "lv": "Sprog",
     "level": "A1"
   },
   {
     "de": "stark",
-    "lv": "Tugev",
+    "lv": "Stærk",
     "level": "A1"
   },
   {
     "de": "stehen",
-    "lv": "Seisma",
+    "lv": "At stå",
     "level": "A1",
     "study": {
       "id": "a1-stehen",
       "layout": "standardStudy",
-      "translation": "Seisma",
+      "translation": "At stå",
       "explanation": [
-        "Põhiidee: stehen tähendab seisma või püstises asendis olema.",
-        "Inimese kohta tähendab stehen seismist.",
-        "Eseme kohta tähendab stehen, et see asub püsti või kindlas kohas.",
-        "Oluline on eristada: stehen = seisma, sitzen = istuma, liegen = lamama/pikali olema."
+        "Hovedidé: stehen betyder at stå eller stå.",
+        "For en person betyder stehen at stå.",
+        "For en genstand betyder stehen, at den står eller er på et bestemt sted.",
+        "Det er vigtigt at skelne: stehen = at stå, sitzen = at sidde, ligge = at ligge."
       ],
       "examples": [
         {
           "de": "Ich stehe an der Tür.",
-          "lv": "Ma seisan ukse juures."
+          "lv": "Jeg står ved døren."
         },
         {
           "de": "Der Stuhl steht in der Küche.",
-          "lv": "Tool seisab köögis."
+          "lv": "Stolen står i køkkenet."
         },
         {
           "de": "Er sitzt am Tisch.",
-          "lv": "Ta istub laua ääres."
+          "lv": "Han sidder ved bordet."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Raamat on laual."
+          "lv": "Bogen ligger på bordet."
         }
       ],
       "comparison": [
         {
           "word": "stehen",
-          "meaning": "Seisma / püsti olema",
+          "meaning": "Stå/vær stående",
           "example": "Ich stehe hier."
         },
         {
           "word": "sitzen",
-          "meaning": "Istuma",
+          "meaning": "At sidde",
           "example": "Er sitzt am Tisch."
         },
         {
           "word": "liegen",
-          "meaning": "Lamama / pikali olema",
+          "meaning": "Sov/lig dig",
           "example": "Das Buch liegt dort."
         },
         {
           "word": "stellen",
-          "meaning": "Püsti panema",
+          "meaning": "Sæt oprejst",
           "example": "Ich stelle die Flasche hin."
         }
       ],
       "tip": {
-        "text": "Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen."
+        "text": "Husk: stående → stehen; siddende → sidden; liggende → ligge."
       },
       "important": [
-        "stehen rāda stāvokli, nevis darbību “nolikt”.",
-        "Nolikt priekšmetu stāvus ir stellen, nevis stehen."
+        "Stehen viser en tilstand, ikke handlingen med at 'lægge ned'.",
+        "At stille en genstand oprejst er stellen, ikke stehen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "stehen"
-          ],
           "purple": [
-            "seisma",
-            "püsti"
-          ],
-          "red": [
-            "sitzen",
-            "liegen"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -21222,7 +19297,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seisan"
+                "Jeg"
               ]
             }
           },
@@ -21237,10 +19312,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seisab"
-              ],
-              "yellow": [
-                "Tool"
+                "Stolen"
               ]
             }
           },
@@ -21252,7 +19324,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "istub"
+                "Han"
               ]
             }
           },
@@ -21264,7 +19336,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "raamat"
+                "Bogen"
               ]
             }
           }
@@ -21278,8 +19350,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "seisma",
-                "püsti"
+                "Stå/vær",
+                "Stå/vær"
               ]
             },
             "example": {
@@ -21296,7 +19368,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "istuma"
+                "sidde"
               ]
             },
             "example": {
@@ -21313,8 +19385,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "lamama",
-                "pikali"
+                "Sov/lig",
+                "Sov/lig"
               ]
             },
             "example": {
@@ -21331,7 +19403,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "püsti panema"
+                "Sæt"
               ]
             },
             "example": {
@@ -21347,33 +19419,19 @@ const A1_WORDS = [
               "stehen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
-              "sitzen"
+              "sidden"
             ],
             "yellow": [
-              "liegen"
+              "ligge"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "stehen"
-            ],
             "purple": [
-              "stehen"
-            ],
-            "green": [
-              "stehen"
-            ]
-          },
-          {
-            "green": [
-              "stellen"
-            ],
-            "blue": [
               "stehen"
             ]
           }
@@ -21385,106 +19443,106 @@ const A1_WORDS = [
     "de": "Stern",
     "de_article": "der",
     "de_plural": "die Sterne",
-    "lv": "Täht",
+    "lv": "Stjerne",
     "level": "A1"
   },
   {
     "de": "Straße",
     "de_article": "die",
     "de_plural": "die Straßen",
-    "lv": "Tänav",
+    "lv": "Gade",
     "level": "A1"
   },
   {
     "de": "Straßenbahn",
     "de_article": "die",
     "de_plural": "die Straßenbahnen",
-    "lv": "Tramm",
+    "lv": "Sporvogn",
     "level": "A1"
   },
   {
     "de": "Stück",
     "de_article": "das",
     "de_plural": "die Stücke",
-    "lv": "Tükk",
+    "lv": "Stykke",
     "level": "A1"
   },
   {
     "de": "Student",
     "de_article": "der",
     "de_plural": "die Studenten",
-    "lv": "Üliõpilane",
+    "lv": "En studerende",
     "level": "A1"
   },
   {
     "de": "Stuhl",
     "de_article": "der",
     "de_plural": "die Stühle",
-    "lv": "Tool",
+    "lv": "En stol",
     "level": "A1"
   },
   {
     "de": "Stunde",
     "de_article": "die",
     "de_plural": "die Stunden",
-    "lv": "Tund",
+    "lv": "En time",
     "level": "A1"
   },
   {
     "de": "suchen",
-    "lv": "Otsima",
+    "lv": "At søge",
     "level": "A1"
   },
   {
     "de": "süß",
-    "lv": "Magus",
+    "lv": "Sød",
     "level": "A1"
   },
   {
     "de": "Tag",
     "de_article": "der",
     "de_plural": "die Tage",
-    "lv": "Päev",
+    "lv": "Dag",
     "level": "A1"
   },
   {
     "de": "Tante",
     "de_article": "die",
     "de_plural": "die Tanten",
-    "lv": "Tädi",
+    "lv": "Moster",
     "level": "A1"
   },
   {
     "de": "tanzen",
-    "lv": "Tantsima",
+    "lv": "At danse",
     "level": "A1"
   },
   {
     "de": "Tasche",
     "de_article": "die",
     "de_plural": "die Taschen",
-    "lv": "Kott",
+    "lv": "En taske",
     "level": "A1"
   },
   {
     "de": "Tasse",
     "de_article": "die",
     "de_plural": "die Tassen",
-    "lv": "Tass",
+    "lv": "En kop",
     "level": "A1"
   },
   {
     "de": "Taxi",
     "de_article": "das",
     "de_plural": "die Taxis",
-    "lv": "Takso",
+    "lv": "Taxa",
     "level": "A1"
   },
   {
     "de": "Tee",
     "de_article": "der",
     "de_plural": "die Tees",
-    "lv": "Tee",
+    "lv": "Te",
     "level": "A1"
   },
   {
@@ -21496,19 +19554,19 @@ const A1_WORDS = [
   },
   {
     "de": "telefonieren",
-    "lv": "Telefoniga helistama",
+    "lv": "Ring på telefonen",
     "level": "A1"
   },
   {
     "de": "Teller",
     "de_article": "der",
     "de_plural": "die Teller",
-    "lv": "Taldrik",
+    "lv": "Plade",
     "level": "A1"
   },
   {
     "de": "teuer",
-    "lv": "Kallis",
+    "lv": "Dyr",
     "level": "A1"
   },
   {
@@ -21522,28 +19580,28 @@ const A1_WORDS = [
     "de": "Tier",
     "de_article": "das",
     "de_plural": "die Tiere",
-    "lv": "Loom",
+    "lv": "Et dyr",
     "level": "A1"
   },
   {
     "de": "Tisch",
     "de_article": "der",
     "de_plural": "die Tische",
-    "lv": "Laud",
+    "lv": "Tabel",
     "level": "A1"
   },
   {
     "de": "Tochter",
     "de_article": "die",
     "de_plural": "die Töchter",
-    "lv": "Tütar",
+    "lv": "Datter",
     "level": "A1"
   },
   {
     "de": "Toilette",
     "de_article": "die",
     "de_plural": "die Toiletten",
-    "lv": "Tualett",
+    "lv": "Toilet",
     "level": "A1"
   },
   {
@@ -21557,108 +19615,98 @@ const A1_WORDS = [
     "de": "Treppe",
     "de_article": "die",
     "de_plural": "die Treppen",
-    "lv": "Trepp",
+    "lv": "Trappe",
     "level": "A1"
   },
   {
     "de": "trinken",
-    "lv": "Jooma",
+    "lv": "At drikke",
     "level": "A1"
   },
   {
     "de": "tun",
-    "lv": "Tegema",
+    "lv": "At gøre",
     "level": "A1"
   },
   {
     "de": "Tür",
     "de_article": "die",
     "de_plural": "die Türen",
-    "lv": "Uks",
+    "lv": "Døren",
     "level": "A1"
   },
   {
     "de": "U-Bahn",
     "de_article": "die",
     "de_plural": "die U-Bahnen",
-    "lv": "Metroo",
+    "lv": "Undergrundsbane",
     "level": "A1"
   },
   {
     "de": "über",
-    "lv": "Kohal • Kohta",
+    "lv": "Over • For",
     "level": "A1",
     "study": {
       "id": "a1-über",
       "layout": "standardStudy",
-      "translation": "Kohal • Kohta",
+      "translation": "Over • For",
       "explanation": [
-        "Põhiidee: über tähendab olenevalt kontekstist millegi kohal või millegi kohta.",
-        "Kui jutt on asukohast, tähendab über sageli kohal.",
-        "Kui jutt on vestlusest, tekstist või teemast, tähendab über millegi kohta.",
-        "Liikumise puhul võib über tähendada üle."
+        "Hovedidé: über betyder over eller om afhængig af konteksten.",
+        "Når det kommer til placering, betyder det ofte ovenfor.",
+        "Når det kommer til en samtale, tekst eller emne, betyder over ca.",
+        "I bevægelse kan über betyde forbi."
       ],
       "examples": [
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "Lamp ripub laua kohal."
+          "lv": "En lampe hænger over bordet."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Me räägime ilmast."
+          "lv": "Vi taler om tid."
         },
         {
           "de": "Das Kind läuft über die Straße.",
-          "lv": "Laps jookseb üle tänava."
+          "lv": "Barnet løber over gaden."
         },
         {
           "de": "Ich freue mich über das Geschenk.",
-          "lv": "Ma rõõmustan kingi üle."
+          "lv": "Jeg er glad for gaven."
         }
       ],
       "comparison": [
         {
           "word": "über",
-          "meaning": "Kohal / kohta / üle",
+          "meaning": "Over / over / på tværs",
           "example": "Wir sprechen über das Wetter."
         },
         {
           "word": "auf",
-          "meaning": "Pinnal",
+          "meaning": "På overfladen",
           "example": "Das Buch liegt auf dem Tisch."
         },
         {
           "word": "unter",
-          "meaning": "All",
+          "meaning": "Under",
           "example": "Die Tasche ist unter dem Tisch."
         },
         {
           "word": "von",
-          "meaning": "-st / kohta mingist allikast",
+          "meaning": "Fra/om fra en eller anden kilde",
           "example": "Ich höre von dir."
         }
       ],
       "tip": {
-        "text": "Atceries: tēma sarunā → über; virs galda → über."
+        "text": "Husk: emne i samtale → über; over bordet → über."
       },
       "important": [
-        "über nav tikai vietas vārds.",
-        "sprechen über nozīmē “runāt par”."
+        "über er ikke bare et stednavn.",
+        "sprechen über betyder \"at tale om\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "über"
-          ],
           "purple": [
-            "kohal",
-            "Põhiidee",
-            "üle"
-          ],
-          "green": [
-            "vestlusest",
-            "tekstist",
-            "teemast"
+            "over"
           ]
         },
         "examples": [
@@ -21673,10 +19721,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kohal"
-              ],
-              "yellow": [
-                "laua"
+                "lamp"
               ]
             }
           },
@@ -21691,10 +19736,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "räägime"
-              ],
-              "green": [
-                "räägime"
+                "taler"
               ]
             }
           },
@@ -21709,10 +19751,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "üle"
-              ],
-              "yellow": [
-                "tänava"
+                "Barnet"
               ]
             }
           },
@@ -21727,10 +19766,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rõõmustan"
-              ],
-              "yellow": [
-                "kingi"
+                "Jeg"
               ]
             }
           }
@@ -21744,9 +19780,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kohal",
-                "kohal",
-                "üle"
+                "Over",
+                "Over",
+                "Over"
               ]
             },
             "example": {
@@ -21763,7 +19799,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pinnal"
+                "overfladen"
               ]
             },
             "example": {
@@ -21780,7 +19816,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "all"
+                "Under"
               ]
             },
             "example": {
@@ -21797,7 +19833,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "-st"
+                "Fra/om"
               ]
             },
             "example": {
@@ -21813,26 +19849,15 @@ const A1_WORDS = [
               "über"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "über"
-            ],
             "purple": [
               "über"
-            ]
-          },
-          {
-            "blue": [
-              "sprechen über"
-            ],
-            "purple": [
-              "sprechen"
             ]
           }
         ]
@@ -21841,90 +19866,79 @@ const A1_WORDS = [
   },
   {
     "de": "überall",
-    "lv": "Kõikjal",
+    "lv": "Overalt",
     "level": "A1"
   },
   {
     "de": "übermorgen",
-    "lv": "Ülehomme",
+    "lv": "I overmorgen",
     "level": "A1"
   },
   {
     "de": "um",
-    "lv": "Umbes • Kell",
+    "lv": "Omkring • Kl",
     "level": "A1",
     "study": {
       "id": "a1-um",
       "layout": "standardStudy",
-      "translation": "Umbes • Kell",
+      "translation": "Omkring • Kl",
       "explanation": [
-        "Põhiidee: um tähendab väga sageli aja puhul kell või koha puhul ümber/ringi.",
-        "Täpse kellaaja puhul tähendab um kell.",
-        "Koha puhul tähendab um ümber või ringi.",
-        "Fraasis um ... zu aitab see väljendada eesmärki: et."
+        "Hovedidé: um betyder meget ofte ur med tid eller omkring/omkring med sted.",
+        "Med nøjagtig tid betyder um klokken.",
+        "Med et sted betyder um omkring eller omkring.",
+        "I sætningen um ... zu hjælper det med at udtrykke hensigten: at."
       ],
       "examples": [
         {
           "de": "Ich komme um acht Uhr.",
-          "lv": "Ma tulen kell kaheksa."
+          "lv": "Jeg kommer klokken otte."
         },
         {
           "de": "Wir sitzen um den Tisch.",
-          "lv": "Me istume laua ümber."
+          "lv": "Vi sidder rundt om bordet."
         },
         {
           "de": "Er geht um die Ecke.",
-          "lv": "Ta läheb ümber nurga."
+          "lv": "Han går rundt om hjørnet."
         },
         {
           "de": "Ich lerne, um Deutsch zu sprechen.",
-          "lv": "Ma õpin, et saksa keelt rääkida."
+          "lv": "Jeg er ved at lære at tale tysk."
         }
       ],
       "comparison": [
         {
           "word": "um",
-          "meaning": "Kell / umbes / et",
+          "meaning": "Ved / omkring / til",
           "example": "Ich komme um acht."
         },
         {
           "word": "am",
-          "meaning": "Päeval / juures",
+          "meaning": "Pr. dag / kl",
           "example": "Am Montag komme ich."
         },
         {
           "word": "gegen",
-          "meaning": "Kella paiku / vastu",
+          "meaning": "Omkring tid / vs",
           "example": "Ich komme gegen acht."
         },
         {
           "word": "für",
-          "meaning": "Jaoks / kasuks",
+          "meaning": "For / til fordel for",
           "example": "Das ist für dich."
         }
       ],
       "tip": {
-        "text": "Atceries: um acht = pulksten astoņos."
+        "text": "Husk: um acht = klokken otte."
       },
       "important": [
         "um ar laiku parasti ir “pulksten”.",
-        "um ... zu bieži nozīmē “lai ...”."
+        "um ... zu betyder ofte \"at ...\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "um",
-            "um ... zu"
-          ],
           "purple": [
-            "kell",
-            "ümber",
-            "ümber",
-            "et"
-          ],
-          "green": [
-            "aja",
-            "koha"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -21939,7 +19953,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kell kaheksa"
+                "Jeg"
               ]
             }
           },
@@ -21954,10 +19968,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ümber"
-              ],
-              "yellow": [
-                "laua"
+                "sidder"
               ]
             }
           },
@@ -21972,10 +19983,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ümber"
-              ],
-              "yellow": [
-                "nurga"
+                "Han"
               ]
             }
           },
@@ -21988,7 +19996,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "et"
+                "Jeg"
               ]
             }
           }
@@ -22002,9 +20010,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kell",
-                "umbes",
-                "et"
+                "Ved",
+                "Ved",
+                "Ved"
               ]
             },
             "example": {
@@ -22021,8 +20029,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "päeval",
-                "juures"
+                "Pr",
+                "Pr"
               ]
             },
             "example": {
@@ -22039,8 +20047,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kella paiku",
-                "vastu"
+                "Omkring",
+                "Omkring"
               ]
             },
             "example": {
@@ -22057,7 +20065,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jaoks"
+                "For"
               ]
             },
             "example": {
@@ -22073,25 +20081,15 @@ const A1_WORDS = [
               "um acht"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "um"
-            ],
             "purple": [
-              "laiku"
-            ]
-          },
-          {
-            "blue": [
-              "um ... zu"
-            ],
-            "purple": [
-              "bieži"
+              "pulksten",
+              "lai"
             ]
           }
         ]
@@ -22100,92 +20098,85 @@ const A1_WORDS = [
   },
   {
     "de": "und",
-    "lv": "Ja",
+    "lv": "Og",
     "level": "A1"
   },
   {
     "de": "unser",
-    "lv": "Meie",
+    "lv": "Vores",
     "level": "A1"
   },
   {
     "de": "unten",
-    "lv": "All",
+    "lv": "Nederst",
     "level": "A1"
   },
   {
     "de": "unter",
-    "lv": "All",
+    "lv": "Under",
     "level": "A1",
     "study": {
       "id": "a1-unter",
       "layout": "standardStudy",
-      "translation": "All",
+      "translation": "Under",
       "explanation": [
-        "Põhiidee: unter tähendab olenevalt kontekstist all või seas.",
-        "Kui miski asub laua, tooli või mõne muu eseme all, kasutatakse unter.",
-        "Kui jutt on inimeste rühmast, võib unter tähendada seas.",
-        "See on sõna über vastand, kui jutt on suunast üles/alla."
+        "Hovedidé: unter betyder under eller mellem afhængigt af konteksten.",
+        "Hvis der er noget under et bord, en stol eller en anden genstand, så brug unter.",
+        "Når man taler om en gruppe mennesker, kan unter betyde mellem.",
+        "Det er det modsatte af über, når man henviser til retningen op/ned."
       ],
       "examples": [
         {
           "de": "Die Tasche ist unter dem Tisch.",
-          "lv": "Kott on laua all."
+          "lv": "Tasken er under bordet."
         },
         {
           "de": "Die Katze liegt unter dem Stuhl.",
-          "lv": "Kass lamab tooli all."
+          "lv": "Katten sover under stolen."
         },
         {
           "de": "Unter Freunden sagt man das so.",
-          "lv": "Sõprade seas öeldakse nii."
+          "lv": "Blandt venner siges det."
         },
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "Lamp ripub laua kohal."
+          "lv": "En lampe hænger over bordet."
         }
       ],
       "comparison": [
         {
           "word": "unter",
-          "meaning": "All / seas",
+          "meaning": "Under/mellem",
           "example": "Die Tasche ist unter dem Tisch."
         },
         {
           "word": "über",
-          "meaning": "Kohal / kohta",
-          "example": "Die Lampe hängt über dem Tisch."
+          "meaning": "Over / for",
+          "example": "Die Lampe hænger over dem Tisch."
         },
         {
           "word": "zwischen",
-          "meaning": "Kahe asja vahel",
+          "meaning": "Mellem to ting",
           "example": "Zwischen den Häusern."
         },
         {
           "word": "auf",
-          "meaning": "Pinnal",
+          "meaning": "På overfladen",
           "example": "Auf dem Tisch."
         }
       ],
       "tip": {
-        "text": "Atceries: zem galda → unter dem Tisch."
+        "text": "Husk: zem galda → unter dem Tisch."
       },
       "important": [
-        "unter var nozīmēt arī “starp”, īpaši ar cilvēkiem vai grupām.",
-        "unter un über bieži ir pretstati vietas nozīmē."
+        "unter kan også betyde \"mellem\", især med personer eller grupper.",
+        "unter og über er ofte modsætninger i betydningen sted."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "unter",
-            "über"
-          ],
           "purple": [
-            "all",
-            "Põhiidee"
-          ],
-          "green": [
-            "inimeste rühmast"
+            "man",
+            "man"
           ]
         },
         "examples": [
@@ -22200,10 +20191,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "all"
-              ],
-              "yellow": [
-                "laua"
+                "Tasken"
               ]
             }
           },
@@ -22218,10 +20206,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "all"
-              ],
-              "yellow": [
-                "tooli"
+                "Katten"
               ]
             }
           },
@@ -22236,10 +20221,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seas"
-              ],
-              "green": [
-                "Sõprade"
+                "Blandt"
               ]
             }
           },
@@ -22254,10 +20236,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "kohal"
+                "lamp"
               ],
               "yellow": [
-                "laua"
+                "lamp"
               ]
             }
           }
@@ -22271,8 +20253,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "all",
-                "all"
+                "Under",
+                "Under"
               ]
             },
             "example": {
@@ -22289,13 +20271,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kohal",
-                "kohal"
+                "Over",
+                "Over"
               ]
             },
             "example": {
               "red": [
-                "über"
+                "Die"
               ]
             }
           },
@@ -22307,7 +20289,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vahel"
+                "Mellem"
               ]
             },
             "example": {
@@ -22324,7 +20306,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pinnal"
+                "overfladen"
               ]
             },
             "example": {
@@ -22340,25 +20322,14 @@ const A1_WORDS = [
               "unter dem Tisch"
             ],
             "purple": [
-              "Atceries"
+              "zem galda"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "unter"
-            ],
             "purple": [
               "unter"
-            ]
-          },
-          {
-            "blue": [
-              "unter"
-            ],
-            "red": [
-              "über"
             ]
           }
         ]
@@ -22369,106 +20340,97 @@ const A1_WORDS = [
     "de": "Vase",
     "de_article": "die",
     "de_plural": "die Vasen",
-    "lv": "Vaas",
+    "lv": "Vase",
     "level": "A1"
   },
   {
     "de": "Vater",
     "de_article": "der",
     "de_plural": "die Väter",
-    "lv": "Isa",
+    "lv": "Far",
     "level": "A1"
   },
   {
     "de": "verheiratet",
-    "lv": "Abielus",
+    "lv": "Gift",
     "level": "A1"
   },
   {
     "de": "verkaufen",
-    "lv": "Müüma",
+    "lv": "At sælge",
     "level": "A1"
   },
   {
     "de": "verlieren",
-    "lv": "Kaotama",
+    "lv": "At tabe",
     "level": "A1"
   },
   {
     "de": "verstehen",
-    "lv": "Mõistma",
+    "lv": "At forstå",
     "level": "A1",
     "study": {
       "id": "a1-verstehen",
       "layout": "standardStudy",
-      "translation": "Mõistma",
+      "translation": "At forstå",
       "explanation": [
-        "Põhiidee: verstehen tähendab arusaamist.",
-        "Seda kasutatakse, kui mõistad keelt, inimest, teksti või olukorda.",
-        "Eesti keeles ei ole siin tavaliselt vaja sõnu “oskama” või “suutma” • Need vastavad sagedamini sõnale können.",
-        "Väga sage fraas on Ich verstehe. = Ma saan aru."
+        "Hovedidé: verstehen betyder at forstå.",
+        "Det bruges, når du forstår et sprog, person, tekst eller situation.",
+        "Du normalt behøver ikke at \"kende\" eller \"undervise\" letisk her • De er oftere können.",
+        "En meget almindelig sætning er Ich verstehe. = Jeg forstår."
       ],
       "examples": [
         {
           "de": "Ich verstehe dich.",
-          "lv": "Ma saan sinust aru."
+          "lv": "Jeg forstår dig"
         },
         {
           "de": "Verstehst du Deutsch?",
-          "lv": "Kas sa saad saksa keelest aru?"
+          "lv": "Forstår du tysk"
         },
         {
           "de": "Ich verstehe das nicht.",
-          "lv": "Ma ei saa sellest aru."
+          "lv": "Jeg forstår det ikke."
         },
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "Ma oskan saksa keelt rääkida."
+          "lv": "Jeg kan tale tysk"
         }
       ],
       "comparison": [
         {
           "word": "verstehen",
-          "meaning": "Mõistma",
+          "meaning": "At forstå",
           "example": "Ich verstehe dich."
         },
         {
           "word": "können",
-          "meaning": "Saama / oskama",
+          "meaning": "Kunne/kende",
           "example": "Ich kann schwimmen."
         },
         {
           "word": "wissen",
-          "meaning": "Fakti teadma",
+          "meaning": "Kend kendsgerningen",
           "example": "Ich weiß das."
         },
         {
           "word": "kennen",
-          "meaning": "Tundma",
+          "meaning": "At vide",
           "example": "Ich kenne ihn."
         }
       ],
       "tip": {
-        "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
+        "text": "Husk: at forstå teksten/personen → verstehen; at vide, hvordan man gør noget → können."
       },
       "important": [
-        "verstehen nav galvenais vārds nozīmei “prast”.",
-        "Ich verstehe Deutsch nozīmē “es saprotu vāciski”."
+        "verstehen er ikke grundordet for 'at forstå'.",
+        "Ich verstehe Deutsch betyder \"jeg forstår på tysk\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "verstehen",
-            "Ich verstehe"
-          ],
           "purple": [
-            "mõistad",
-            "mõistad"
-          ],
-          "red": [
-            "können",
-            "oskama",
-            "oskama"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -22480,7 +20442,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saan"
+                "Jeg"
               ]
             }
           },
@@ -22492,7 +20454,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
+                "Forstår"
               ]
             }
           },
@@ -22504,7 +20466,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saa"
+                "Jeg"
               ]
             }
           },
@@ -22516,7 +20478,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "oskan"
+                "kan"
               ]
             }
           }
@@ -22530,7 +20492,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mõistma"
+                "forstå"
               ]
             },
             "example": {
@@ -22547,8 +20509,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saama",
-                "oskama"
+                "Kunne/kende",
+                "Kunne/kende"
               ]
             },
             "example": {
@@ -22565,7 +20527,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "teadma"
+                "Kend"
               ]
             },
             "example": {
@@ -22582,7 +20544,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tundma"
+                "vide"
               ]
             },
             "example": {
@@ -22598,29 +20560,18 @@ const A1_WORDS = [
               "verstehen"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "red": [
               "können",
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "verstehen"
-            ],
-            "red": [
-              "verstehen"
-            ]
-          },
-          {
-            "blue": [
-              "verstehe"
-            ],
             "purple": [
-              "Ich"
+              "verstehen"
             ]
           }
         ]
@@ -22629,164 +20580,156 @@ const A1_WORDS = [
   },
   {
     "de": "versuchen",
-    "lv": "Üritama",
+    "lv": "At prøve",
     "level": "A1"
   },
   {
     "de": "viel",
-    "lv": "Palju",
+    "lv": "En masse",
     "level": "A1"
   },
   {
     "de": "vielleicht",
-    "lv": "Võib-olla",
+    "lv": "Måske",
     "level": "A1"
   },
   {
     "de": "vier",
-    "lv": "Neli",
+    "lv": "Fire",
     "level": "A1"
   },
   {
     "de": "vierhundert",
-    "lv": "Nelisada",
+    "lv": "Fire hundrede",
     "level": "A1"
   },
   {
     "de": "vierte",
-    "lv": "Neljas",
+    "lv": "Den fjerde",
     "level": "A1"
   },
   {
     "de": "vierzehn",
-    "lv": "Neliteist",
+    "lv": "Fjorten",
     "level": "A1"
   },
   {
     "de": "vierzehnte",
-    "lv": "Neljateistkümnes",
+    "lv": "Den fjortende",
     "level": "A1"
   },
   {
     "de": "vierzig",
-    "lv": "Nelikümmend",
+    "lv": "Fyrre",
     "level": "A1"
   },
   {
     "de": "vierzigste",
-    "lv": "Neljakümnes",
+    "lv": "Den fyrretyvende",
     "level": "A1"
   },
   {
     "de": "Vogel",
     "de_article": "der",
     "de_plural": "die Vögel",
-    "lv": "Lind",
+    "lv": "En fugl",
     "level": "A1"
   },
   {
     "de": "voll",
-    "lv": "Täis",
+    "lv": "Fuld",
     "level": "A1"
   },
   {
     "de": "vom",
-    "lv": "-st",
+    "lv": "Fra",
     "level": "A1",
     "study": {
       "id": "a1-vom",
       "layout": "standardStudy",
-      "translation": "-st",
+      "translation": "Fra",
       "explanation": [
-        "Vom on eessõna von ja artikli dem lühend.",
-        "Täisvorm: von dem (Dativ).",
-        "Kasutatakse mees- ja kesksoost nimisõnadega, kui näidatakse päritolu või suunda millestki eemale.",
-        "Vastab küsimustele kellelt? või kust?",
-        "Praktikas kasutatakse peaaegu alati vom, mitte täisvormi von dem."
+        "Vom er en forkortelse for præpositionen von og artiklen dem.",
+        "Fuld form: von dem (til hvem?).",
+        "Bruges sammen med substantiver af hankøn og intetkøn, når de angiver oprindelse eller retning fra hvad.",
+        "Svarer på spørgsmål fra hvem? eller hvorfra?",
+        "I praksis bruges vom næsten altid i stedet for den fulde von dem."
       ],
       "examples": [
         {
           "de": "Ich komme vom Bahnhof.",
-          "lv": "Ma tulen jaamast."
+          "lv": "Jeg kommer fra stationen"
         },
         {
           "de": "Das Geschenk ist vom Vater.",
-          "lv": "Kingitus on isalt."
+          "lv": "Gaven er fra far."
         },
         {
           "de": "Er kommt vom Arzt.",
-          "lv": "Ta tuleb arsti juurest."
+          "lv": "Han kommer fra lægen."
         },
         {
           "de": "Sie fährt vom Flughafen.",
-          "lv": "Ta sõidab lennujaamast."
+          "lv": "Hun kører fra lufthavnen."
         },
         {
           "de": "Das ist vom Markt.",
-          "lv": "See on turult."
+          "lv": "Det er fra markedet."
         },
         {
           "de": "Wir kommen vom Fest.",
-          "lv": "Me tuleme peolt."
+          "lv": "Vi kommer fra en fest."
         },
         {
           "de": "Er holt Milch vom Bauern.",
-          "lv": "Ta võtab piima talunikult."
+          "lv": "Han tager mælk fra bonden."
         },
         {
           "de": "Die Nachricht ist vom Chef.",
-          "lv": "Sõnum on ülemuselt."
+          "lv": "Beskeden er fra chefen."
         }
       ],
       "comparison": [
         {
           "word": "vom",
-          "meaning": "-st (konkreetne asi, Dativ)",
-          "example": "vom Bahnhof – Jaamast"
+          "meaning": "Fra (en bestemt ting, for hvem?)",
+          "example": "vom Bahnhof – Fra stationen"
         },
         {
           "word": "von",
-          "meaning": "-st (üldiselt)",
-          "example": "von mir – Minult"
+          "meaning": "Fra (generelt)",
+          "example": "von mir – Fra mig"
         },
         {
           "word": "aus",
-          "meaning": "Seest / päritolu",
-          "example": "aus Deutschland – Pärit Saksamaalt"
+          "meaning": "Indefra / oprindelse",
+          "example": "aus Deutschland – Fra Tyskland"
         },
         {
           "word": "ab",
-          "meaning": "Alates (aeg/koht)",
-          "example": "ab Montag – Alates esmaspäevast"
+          "meaning": "Starter kl (tid/sted)",
+          "example": "ab Montag – Fra mandag"
         },
         {
           "word": "zu",
-          "meaning": "-sse / juurde (vastupidine suund)",
-          "example": "zum Arzt – Arsti juures"
+          "meaning": "Til/ved (modsat retning)",
+          "example": "zum Arzt – Til lægen"
         }
       ],
       "tip": [
-        "Atceries: von + dem → vom (kam?).",
-        "Sarunvalodā gandrīz nekad nesaka von dem — lieto vom."
+        "Husk: von + dem → vom (kam?).",
+        "I daglig tale siger man næsten aldrig von dem – brug vom."
       ],
       "important": [
-        "vom = von dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda izcelsmi, avotu vai virzienu no kā konkrēta.",
-        "Sieviešu dzimtei: von der Mutter, nevis vom Mutter.",
-        "Nesajauc ar aus (izcelsme no valsts) vai ab (sākuma punkts)."
+        "vom = von dem, kun med et hankøns- eller intetkønsnavn for hvem? i bøjning.",
+        "Angiver oprindelsen, kilden eller retningen fra noget bestemt.",
+        "For det kvindelige køn: von der Mutter, ikke vom Mutter.",
+        "Ikke at forveksle med aus (oprindelsesland) eller ab (udgangspunkt)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "vom",
-            "von dem"
-          ],
           "purple": [
-            "vom"
-          ],
-          "green": [
-            "vom",
-            "päritolu"
+            "Vom"
           ]
         },
         "examples": [
@@ -22798,7 +20741,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaamast"
+                "Jeg"
               ]
             }
           },
@@ -22810,7 +20753,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "isalt"
+                "Gaven"
               ]
             }
           },
@@ -22822,7 +20765,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arsti juurest"
+                "Han"
               ]
             }
           },
@@ -22834,7 +20777,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lennujaamast"
+                "Hun"
               ]
             }
           },
@@ -22846,7 +20789,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "turult"
+                "Det"
               ]
             }
           },
@@ -22858,7 +20801,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peolt"
+                "kommer"
               ]
             }
           },
@@ -22870,7 +20813,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "talunikult"
+                "tager"
               ]
             }
           },
@@ -22882,7 +20825,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ülemuselt"
+                "Beskeden"
               ]
             }
           }
@@ -22896,7 +20839,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "-st"
+                "Fra"
               ]
             },
             "example": {
@@ -22913,7 +20856,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "-st"
+                "Fra"
               ]
             },
             "example": {
@@ -22930,7 +20873,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "seest"
+                "Indefra"
               ]
             },
             "example": {
@@ -22947,7 +20890,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "alates"
+                "Starter"
               ]
             },
             "example": {
@@ -22964,8 +20907,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse",
-                "juurde"
+                "Til/ved",
+                "Til/ved"
               ]
             },
             "example": {
@@ -22977,14 +20920,6 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "vom"
-            ],
-            "purple": [
-              "Atceries"
-            ]
-          },
-          {
             "purple": [
               "von dem"
             ]
@@ -22992,36 +20927,8 @@ const A1_WORDS = [
         ],
         "important": [
           {
-            "blue": [
-              "vom"
-            ],
             "purple": [
               "von dem"
-            ],
-            "green": [
-              "vom"
-            ]
-          },
-          {
-            "purple": [
-              "Norāda",
-              "Norāda"
-            ]
-          },
-          {
-            "yellow": [
-              "von der Mutter"
-            ],
-            "red": [
-              "vom Mutter"
-            ]
-          },
-          {
-            "green": [
-              "aus"
-            ],
-            "red": [
-              "ab"
             ]
           }
         ]
@@ -23030,84 +20937,75 @@ const A1_WORDS = [
   },
   {
     "de": "von",
-    "lv": "-st",
+    "lv": "Fra",
     "level": "A1"
   },
   {
     "de": "vor",
-    "lv": "Enne • Ees",
+    "lv": "Før • Foran",
     "level": "A1",
     "study": {
       "id": "a1-vor",
       "layout": "standardStudy",
-      "translation": "Enne • Ees",
+      "translation": "Før • Foran",
       "explanation": [
-        "Põhiidee: vor tähendab aja puhul enne või koha puhul ees.",
-        "Kui jutt on ajast, tähendab vor enne.",
-        "Kui jutt on kohast, tähendab vor ees või juures.",
-        "Kellaajas tähendab vor “kuni”, näiteks fünf vor acht."
+        "Hovedidé: vor betyder før i tid eller foran sted.",
+        "Når det kommer til tid, betyder vor før.",
+        "Når det kommer til sted, betyder vor foran eller ved.",
+        "I klokkeslæt betyder vor 'indtil', fx fünf vor acht."
       ],
       "examples": [
         {
           "de": "Vor dem Essen wasche ich die Hände.",
-          "lv": "Enne söömist ma pesen käsi."
+          "lv": "Jeg vasker hænder før jeg spiser."
         },
         {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "Auto seisab maja ees."
+          "lv": "Bilen er parkeret foran huset."
         },
         {
           "de": "Es ist fünf vor acht.",
-          "lv": "On viie minuti pärast kaheksa."
+          "lv": "Klokken er fem til otte."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Pärast söömist läheme jalutama."
+          "lv": "Efter at have spist går vi en tur."
         }
       ],
       "comparison": [
         {
           "word": "vor",
-          "meaning": "Enne / ees",
+          "meaning": "Før / foran",
           "example": "Vor dem Essen..."
         },
         {
           "word": "nach",
-          "meaning": "Pärast / poole",
+          "meaning": "Efter / til",
           "example": "Nach dem Essen..."
         },
         {
           "word": "neben",
-          "meaning": "Kõrval",
+          "meaning": "Ved siden af",
           "example": "Neben dem Haus."
         },
         {
           "word": "hinter",
-          "meaning": "Taga",
+          "meaning": "Bagved",
           "example": "Hinter dem Haus."
         }
       ],
       "tip": {
-        "text": "Atceries: pirms laikā, priekšā vietā → vor."
+        "text": "Husk: før tid, foran sted → vor."
       },
       "important": [
-        "vor var būt gan laiks, gan vieta.",
-        "vor dem Essen = pirms ēšanas; vor dem Haus = mājas priekšā."
+        "vor kan være både tid og sted.",
+        "vor dem Essen = før spisning; vor dem Haus = foran huset."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "vor",
-            "fünf vor acht"
-          ],
           "purple": [
-            "enne",
-            "ees",
-            "kuni"
-          ],
-          "green": [
-            "ajast",
-            "koha"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -23122,10 +21020,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "enne"
-              ],
-              "yellow": [
-                "söömist"
+                "Jeg"
               ]
             }
           },
@@ -23140,10 +21035,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ees"
-              ],
-              "yellow": [
-                "maja"
+                "Bilen"
               ]
             }
           },
@@ -23155,7 +21047,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viie minuti pärast"
+                "Klokken"
               ]
             }
           },
@@ -23170,10 +21062,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Pärast"
+                "Efter"
               ],
               "yellow": [
-                "söömist"
+                "Efter"
               ]
             }
           }
@@ -23187,8 +21079,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "enne",
-                "ees"
+                "Før",
+                "Før"
               ]
             },
             "example": {
@@ -23205,8 +21097,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pärast",
-                "poole"
+                "Efter",
+                "Efter"
               ]
             },
             "example": {
@@ -23223,7 +21115,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kõrval"
+                "Ved"
               ]
             },
             "example": {
@@ -23240,7 +21132,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "taga"
+                "Bagved"
               ]
             },
             "example": {
@@ -23256,26 +21148,13 @@ const A1_WORDS = [
               "vor"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "vor"
-            ],
-            "purple": [
-              "vor",
-              "vor"
-            ]
-          },
-          {
-            "blue": [
-              "vor dem Essen",
-              "vor dem Haus"
-            ],
             "purple": [
               "vor",
               "vor"
@@ -23289,107 +21168,104 @@ const A1_WORDS = [
     "de": "Vorname",
     "de_article": "der",
     "de_plural": "die Vornamen",
-    "lv": "Eesnimi",
+    "lv": "Ord",
     "level": "A1"
   },
   {
     "de": "Wald",
     "de_article": "der",
     "de_plural": "die Wälder",
-    "lv": "Mets",
+    "lv": "Skov",
     "level": "A1"
   },
   {
     "de": "Wand",
     "de_article": "die",
     "de_plural": "die Wände",
-    "lv": "Sein",
+    "lv": "Væg",
     "level": "A1"
   },
   {
     "de": "wann",
-    "lv": "Millal",
+    "lv": "Når",
     "level": "A1"
   },
   {
     "de": "warm",
-    "lv": "Soe",
+    "lv": "Varm",
     "level": "A1"
   },
   {
     "de": "warten",
-    "lv": "Ootama",
+    "lv": "At vente",
     "level": "A1"
   },
   {
     "de": "warum",
-    "lv": "Miks",
+    "lv": "Hvorfor",
     "level": "A1"
   },
   {
     "de": "was",
-    "lv": "Mis • Mida",
+    "lv": "Hvem • Hvad",
     "level": "A1",
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Mis • Mida",
+      "translation": "Hvem • Hvad",
       "explanation": [
-        "Põhiidee: was on küsisõna asjade ja sündmuste kohta — eesti keeles on see mis või mida, olenevalt lauseosast.",
-        "Was küsib asjade, sündmuste ja faktide kohta, mitte isikute kohta.",
-        "Saksa keeles was käänetes ei muutu — see näeb alati välja nagu was.",
-        "Kui was on lause alus (subjekt), tõlgitakse see eesti keeles sõnaga mis (Was ist das? = Mis see on?).",
-        "Kui was on tegusõna sihitis (objekt), tõlgitakse see eesti keeles sõnaga mida (Was machst du? = Mida sa teed?).",
-        "Isikute kohta küsitakse sõnaga wer (kes/milline), mitte was."
+        "Hovedidé: hvad er et spørgsmålsord om ting og begivenheder - på lettisk er det hvad eller hvad, afhængigt af sætningens del.",
+        "Blev spurgt om ting, begivenheder og fakta, ikke om personer.",
+        "På tysk ændres var ikke efter bøjning - det ser altid ud som om var.",
+        "Hvis was er emnet for sætningen, oversættes det til kas (Was ist das? = Hvad er det?) på lettisk.",
+        "Hvis var er komplementet (objektet) til verbet, oversættes det til ko (Was machst du? = Hvad laver du?) på lettisk.",
+        "Folk bliver spurgt med wer (hvem/hvem), ikke var."
       ],
       "examples": [
         {
           "de": "Was ist das?",
-          "lv": "Mis see on?"
+          "lv": "Hvad er det?"
         },
         {
           "de": "Was ist passiert?",
-          "lv": "Mis juhtus?"
+          "lv": "Hvad skete der?"
         },
         {
           "de": "Was machst du gerade?",
-          "lv": "Mida sa praegu teed?"
+          "lv": "Hvad laver du nu"
         },
         {
           "de": "Was möchtest du trinken?",
-          "lv": "Mida sa soovid juua?"
+          "lv": "Hvad vil du drikke"
         },
         {
           "de": "Was bedeutet dieses Wort?",
-          "lv": "Mida see sõna tähendab?"
+          "lv": "Hvad betyder dette ord?"
         },
         {
           "de": "Was ist dein Lieblingsessen?",
-          "lv": "Mis on sinu lemmiktoit?"
+          "lv": "Hvad er din yndlingsmad?"
         },
         {
           "de": "Was hast du gesagt?",
-          "lv": "Mida sa ütlesid?"
+          "lv": "Hvad sagde du"
         }
       ],
       "tip": [
-        "was pats nemainās — vācu valodā tas vienmēr ir was; latviski izvēlies kas vai ko pēc teikuma daļas.",
-        "Ātrs triks: ja uz jautājumu var atbildēt ar 'Tas ir ...', lieto kas; ja atbilde nāk pēc darbības vārda kā papildinājums, lieto ko."
+        "var i sig selv ændrer sig ikke - på tysk er det altid var; på dansk vælge hvem eller hvad ifølge sætningens del.",
+        "Hurtigt trick: hvis spørgsmålet kan besvares med 'Det er ...', så brug hvem; hvis svaret kommer efter udsagnsordet som et supplement, så brug ko."
       ],
       "important": [
-        "was jautā par lietām, notikumiem un faktiem — nekad par personām.",
-        "Par personām jautā ar wer (kas/kurš), nevis was.",
-        "was für (ein/eine) nozīmē kāds/kas par un jautā par īpašību vai veidu (Was für ein Film ist das? = Kāda tā ir filma?).",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "blev spurgt om ting, begivenheder og fakta - aldrig om personer.",
+        "Folk bliver spurgt med wer (hvem/hvem), ikke kan.",
+        "was für (ein/eine) betyder nogen/hvad med og spørger om en kvalitet eller type (Was für ein Film ist das? = Hvilken slags film er det?).",
+        "Nepareizi: Wer ist passiert? → Pareizi: Var det passeret?"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "was"
-          ],
           "purple": [
-            "mis",
-            "mida"
+            "kas",
+            "ko"
           ]
         },
         "examples": [
@@ -23401,7 +21277,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mis"
+                "Hvad"
               ]
             }
           },
@@ -23413,7 +21289,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mis"
+                "Hvad"
               ]
             }
           },
@@ -23425,7 +21301,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mida"
+                "Hvad"
               ]
             }
           },
@@ -23437,7 +21313,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mida"
+                "Hvad"
               ]
             }
           },
@@ -23449,7 +21325,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mida"
+                "Hvad"
               ]
             }
           },
@@ -23461,7 +21337,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mis"
+                "Hvad"
               ]
             }
           },
@@ -23473,28 +21349,22 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mida"
+                "Hvad"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "was"
-            ]
-          },
-          {
             "purple": [
-              "was",
-              "was"
+              "ko"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "was"
+              "blev"
             ]
           },
           {
@@ -23509,7 +21379,7 @@ const A1_WORDS = [
           },
           {
             "blue": [
-              "was"
+              "Nepareizi"
             ]
           }
         ]
@@ -23518,133 +21388,125 @@ const A1_WORDS = [
   },
   {
     "de": "waschen",
-    "lv": "Pesema",
+    "lv": "At vaske",
     "level": "A1"
   },
   {
     "de": "sich waschen",
-    "lv": "End pesema",
+    "lv": "At vaske",
     "level": "A1"
   },
   {
     "de": "Weg",
     "de_article": "der",
     "de_plural": "die Wege",
-    "lv": "Tee",
+    "lv": "Vej",
     "level": "A1"
   },
   {
     "de": "Weihnachten",
-    "lv": "Jõulud",
+    "lv": "Jul",
     "level": "A1"
   },
   {
     "de": "Wein",
     "de_article": "der",
     "de_plural": "die Weine",
-    "lv": "Vein",
+    "lv": "Vin",
     "level": "A1"
   },
   {
     "de": "weinen",
-    "lv": "Nutma",
+    "lv": "At græde",
     "level": "A1"
   },
   {
     "de": "weiß",
-    "lv": "Valge",
+    "lv": "Hvid",
     "level": "A1"
   },
   {
     "de": "welcher",
-    "lv": "Milline",
+    "lv": "WHO",
     "level": "A1"
   },
   {
     "de": "Welt",
     "de_article": "die",
     "de_plural": "die Welten",
-    "lv": "Maailm",
+    "lv": "Verden",
     "level": "A1"
   },
   {
     "de": "wenig",
-    "lv": "Vähe",
+    "lv": "Ikke meget",
     "level": "A1"
   },
   {
     "de": "wenn",
-    "lv": "Kui (tingimus) • Kui (aeg)",
+    "lv": "Hvis • Hvornår",
     "level": "A1",
     "study": {
       "id": "a1-wenn",
       "layout": "standardStudy",
-      "translation": "Kui (tingimus) • Kui (aeg)",
+      "translation": "Hvis • Hvornår",
       "explanation": [
-        "Põhiidee: wenn väljendab olenevalt olukorrast tingimust või korduvat aega ja vastab eesti keeles sõnale kui.",
-        "Kui jutt on tingimusest, tõlgi see sõnaga kui.",
-        "Kui jutt on korduvast või üldisest ajast, tõlgitakse see sõnaga kui.",
-        "Pärast wenn on tegusõna saksa lauses tavaliselt lõpus."
+        "Hovedidé: wenn betyder hvis eller hvornår afhængigt af situationen.",
+        "Hvis det er en betingelse, så oversæt som om.",
+        "Hvis det drejer sig om gentagen eller generel tid, så oversæt som hvornår.",
+        "Efter wenn ender verbet normalt med en tysk sætning."
       ],
       "examples": [
         {
           "de": "Wenn du Zeit hast, komm vorbei.",
-          "lv": "Kui sul on aega, astu läbi."
+          "lv": "Hvis du har tid, så kig forbi."
         },
         {
           "de": "Wenn es regnet, bleibe ich zu Hause.",
-          "lv": "Kui sajab, jään ma koju."
+          "lv": "Hvis det regner, bliver jeg hjemme."
         },
         {
           "de": "Wenn ich müde bin, trinke ich Kaffee.",
-          "lv": "Kui olen väsinud, joon kohvi."
+          "lv": "Når jeg er træt drikker jeg kaffe."
         },
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Ma ei tea, kas ta tuleb."
+          "lv": "Jeg ved ikke, om han kommer."
         }
       ],
       "comparison": [
         {
           "word": "wenn",
-          "meaning": "Kui (tingimus) / kui (aeg)",
+          "meaning": "Hvis / hvornår",
           "example": "Wenn du Zeit hast..."
         },
         {
           "word": "ob",
-          "meaning": "Kas kaudses küsimuses",
+          "meaning": "Eller i et indirekte spørgsmål",
           "example": "Ich weiß nicht, ob..."
         },
         {
           "word": "wann",
-          "meaning": "Millal küsimuses",
+          "meaning": "Når der er tale om",
           "example": "Wann kommst du?"
         },
         {
           "word": "weil",
-          "meaning": "Sest",
+          "meaning": "Fordi",
           "example": "Ich bleibe, weil ich krank bin."
         }
       ],
       "tip": {
-        "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
+        "text": "Husk: tilstand → wenn; spørgsmålet \"hvornår?\" → vil."
       },
       "important": [
         "wenn un wann nav viens un tas pats.",
-        "Wann kommst du? ir jautājums. Wenn du kommst... ir nosacījums/laiks."
+        "Kommer du? der er et spørgsmål. Wenn du kommst... er en tilstand/spændt."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "wenn"
-          ],
           "purple": [
-            "ja",
-            "Põhiidee",
-            "tingimust"
-          ],
-          "green": [
-            "lõpus"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -23657,7 +21519,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui"
+                "Hvis"
               ]
             }
           },
@@ -23670,7 +21532,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui"
+                "Hvis"
               ]
             }
           },
@@ -23683,7 +21545,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui"
+                "Når"
               ]
             }
           },
@@ -23695,7 +21557,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "kas"
+                "Jeg"
               ]
             }
           }
@@ -23709,8 +21571,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kui",
-                "kui"
+                "Hvis",
+                "Hvis"
               ]
             },
             "example": {
@@ -23727,7 +21589,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kas"
+                "indirekte"
               ]
             },
             "example": {
@@ -23744,7 +21606,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "millal"
+                "Når"
               ]
             },
             "example": {
@@ -23761,7 +21623,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sest"
+                "Fordi"
               ]
             },
             "example": {
@@ -23777,11 +21639,11 @@ const A1_WORDS = [
               "wenn"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ],
             "yellow": [
-              "wann",
-              "Atceries"
+              "wenn",
+              "Husk"
             ]
           }
         },
@@ -23796,7 +21658,7 @@ const A1_WORDS = [
           },
           {
             "yellow": [
-              "Wann kommst du"
+              "Wenn"
             ],
             "blue": [
               "Wenn du kommst"
@@ -23808,71 +21670,64 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "Kes • Kumb",
+    "lv": "Hvem • Hvem",
     "level": "A1",
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "Kes • Kumb",
+      "translation": "Hvem • Hvem",
       "explanation": [
-        "Põhiidee: wer on küsisõna inimese identiteedi kohta — eesti keeles on see kes.",
-        "Wer küsib inimeste kohta, mitte asjade või sündmuste kohta.",
-        "Asjade ja sündmuste kohta küsitakse was, mitte wer.",
-        "Wer on saksa keeles tavaliselt lause alus (Nominativis) — Wer ist das? = Kes see on?",
-        "Kui küsid, kes täpselt mitmest inimesest, kasutatakse wer sageli koos von (wer von euch = kes teist).",
-        "Wer muudab vormi käände järgi: wen (Akkusativ), wem (Dativ), wessen (Genitiv) — A1 tasemel esineb kõige sagedamini just vorm wer."
+        "Hovedidé: wer er et spørgsmålsord om en persons identitet - på lettisk er det hvem eller hvem.",
+        "Vi spurgte om mennesker, ikke om ting eller begivenheder.",
+        "Ting og begivenheder spørges med var, ikke wer.",
+        "Wer på tysk er normalt genstand for en sætning (nominativ) — Wer ist das? = Hvad er det?",
+        "Når man spørger, hvem af flere personer, bruges wer ofte sammen med von (wer von euch = hvem af jer).",
+        "Wer skifter form efter bøjning: wen (akkusativ), wem (dativ), wessen (genitiv) - det er netop formen wer, der er mest almindelig på A1-niveau."
       ],
       "examples": [
         {
           "de": "Wer ist das?",
-          "lv": "Mis see on?"
+          "lv": "Hvad er det?"
         },
         {
           "de": "Wer bist du?",
-          "lv": "Kes sa oled?"
+          "lv": "Hvem er du"
         },
         {
           "de": "Wer kommt heute?",
-          "lv": "Kes täna tuleb?"
+          "lv": "Hvad kommer der i dag?"
         },
         {
           "de": "Wer ist deine Lehrerin?",
-          "lv": "Kes on sinu õpetaja?"
+          "lv": "Hvem er din lærer"
         },
         {
           "de": "Wer von euch spricht Deutsch?",
-          "lv": "Kes teist räägib saksa keelt?"
+          "lv": "Hvem af jer taler tysk?"
         },
         {
           "de": "Wer hat das gesagt?",
-          "lv": "Kes seda ütles?"
+          "lv": "Hvem sagde det?"
         },
         {
           "de": "Wer möchte Kaffee?",
-          "lv": "Kes soovib kohvi?"
+          "lv": "Hvem vil have kaffe?"
         }
       ],
       "tip": [
-        "wer jautā par personām (kas/kurš) — par lietām un notikumiem lieto was.",
-        "Lai jautātu par izvēli starp vairākiem cilvēkiem, izmanto wer von... (kurš no...)."
+        "wer spørger om personer (hvem/hvem) - om ting og begivenheder, vi bruger var.",
+        "For at spørge om et valg mellem flere personer, brug wer von... (hvilken af...)."
       ],
       "important": [
-        "wer jautā tikai par personām, nekad par lietām.",
-        "Par lietām un notikumiem jautā ar was, nevis wer.",
-        "wer maina formu pēc locījuma: wen, wem, wessen — bet pamatforma ir wer.",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "Der blev kun spurgt om personer, aldrig om ting.",
+        "Ting og begivenheder spørges med var, ikke wer.",
+        "wer skifter form ved bøjning: wen, wem, wessen - men grundformen er wer.",
+        "Nepareizi: Wer ist passiert? → Pareizi: Var det passeret?"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "wer"
-          ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee"
-          ],
-          "green": [
-            "was"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -23884,7 +21739,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mis"
+                "Hvad"
               ]
             }
           },
@@ -23896,7 +21751,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
+                "Hvem"
               ]
             }
           },
@@ -23908,7 +21763,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
+                "Hvad"
               ]
             }
           },
@@ -23920,7 +21775,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
+                "Hvem"
               ]
             }
           },
@@ -23932,7 +21787,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
+                "Hvem"
               ]
             }
           },
@@ -23944,7 +21799,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
+                "Hvem"
               ]
             }
           },
@@ -23956,24 +21811,13 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kes"
+                "Hvem"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "wer"
-            ],
-            "green": [
-              "was"
-            ]
-          },
-          {
-            "blue": [
-              "wer von"
-            ],
             "purple": [
               "wer"
             ]
@@ -23982,12 +21826,12 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "wer"
+              "Der"
             ]
           },
           {
             "green": [
-              "was"
+              "Ting"
             ],
             "blue": [
               "wer"
@@ -24003,7 +21847,7 @@ const A1_WORDS = [
               "Wer"
             ],
             "green": [
-              "Was"
+              "Nepareizi"
             ]
           }
         ]
@@ -24012,75 +21856,70 @@ const A1_WORDS = [
   },
   {
     "de": "werden",
-    "lv": "Saama",
+    "lv": "At blive",
     "level": "A1",
     "study": {
       "id": "a1-werden",
       "layout": "standardStudy",
-      "translation": "Saama",
+      "translation": "At blive",
       "explanation": [
-        "Põhiidee: werden tähendab A1 tasemel kõige sagedamini saama.",
-        "Seda kasutatakse, kui miski muutub või saab teistsuguseks.",
-        "Hiljem kasutatakse saksa keeles werden ka tuleviku ja passiivi jaoks.",
-        "A1 tasemel on kõige tähtsam fraas Ich werde müde. = Ma jään väsinuks."
+        "Hovedidé: werden på A1 betyder oftest at blive.",
+        "Det bruges, når noget ændrer sig eller bliver anderledes.",
+        "På senere tysk bruges werden også om fremtiden og det passive.",
+        "På A1-niveau er den vigtigste sætning Ich werde müde. = Jeg er ved at være træt."
       ],
       "examples": [
         {
           "de": "Ich werde müde.",
-          "lv": "Ma jään väsinuks."
+          "lv": "Jeg er ved at være træt."
         },
         {
           "de": "Es wird kalt.",
-          "lv": "Läheb külmaks."
+          "lv": "Det bliver koldt."
         },
         {
           "de": "Sie wird Ärztin.",
-          "lv": "Ta saab arstiks."
+          "lv": "Hun bliver læge."
         },
         {
           "de": "Ich bin müde.",
-          "lv": "Ma olen väsinud."
+          "lv": "Jeg er træt"
         }
       ],
       "comparison": [
         {
           "word": "werden",
-          "meaning": "Saama",
+          "meaning": "At blive",
           "example": "Ich werde müde."
         },
         {
           "word": "sein",
-          "meaning": "Olema",
+          "meaning": "At være",
           "example": "Ich bin müde."
         },
         {
           "word": "bleiben",
-          "meaning": "Jääma",
+          "meaning": "Ophold",
           "example": "Ich bleibe hier."
         },
         {
           "word": "machen",
-          "meaning": "Tegema / valmistama",
+          "meaning": "At gøre/lave",
           "example": "Ich mache das."
         }
       ],
       "tip": {
-        "text": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden."
+        "text": "Husk: forandring/tilstand bliver anderledes → werden."
       },
       "important": [
-        "werden nav tas pats, kas sein.",
-        "Ich werde müde = es kļūstu noguris; Ich bin müde = es esmu noguris."
+        "werden er ikke det samme som sein.",
+        "Ich werde müde = jeg er ved at blive træt; Ich bin müde = jeg er træt."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "werden",
-            "Ich werde"
-          ],
           "purple": [
-            "saama",
-            "muutub",
-            "muutub"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -24092,7 +21931,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jään"
+                "Jeg"
               ]
             }
           },
@@ -24104,7 +21943,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "läheb"
+                "Det"
               ]
             }
           },
@@ -24116,7 +21955,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saab"
+                "Hun"
               ]
             }
           },
@@ -24128,7 +21967,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "olen"
+                "Jeg"
               ]
             }
           }
@@ -24142,7 +21981,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saama"
+                "blive"
               ]
             },
             "example": {
@@ -24157,11 +21996,7 @@ const A1_WORDS = [
                 "sein"
               ]
             },
-            "meaning": {
-              "purple": [
-                "olema"
-              ]
-            },
+            "meaning": {},
             "example": {
               "red": [
                 "bin"
@@ -24176,7 +22011,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jääma"
+                "Ophold"
               ]
             },
             "example": {
@@ -24193,8 +22028,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tegema",
-                "tegema"
+                "gøre/lave",
+                "gøre/lave"
               ]
             },
             "example": {
@@ -24210,30 +22045,15 @@ const A1_WORDS = [
               "werden"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "werden"
-            ],
-            "red": [
-              "sein"
-            ]
-          },
-          {
-            "blue": [
-              "werde"
-            ],
             "purple": [
-              "Ich"
-            ],
-            "red": [
-              "bin",
-              "Ich"
+              "werden"
             ]
           }
         ]
@@ -24243,83 +22063,79 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "lv": "Ilm (ilmastik)",
+    "lv": "Tid (vejr)",
     "level": "A1",
     "study": {
       "id": "a1-wetter",
       "layout": "standardStudy",
-      "translation": "Ilm (ilmastik)",
+      "translation": "Tid (vejr)",
       "explanation": [
-        "Põhiidee: das Wetter tähendab ilma — päikeseline, vihmane, külm või soe.",
-        "Eesti sõna „ilm” tähendab ainult ilmastikuolusid, mitte kellaaega — ka saksa keeles on need eri sõnad.",
-        "Ilma kohta räägitakse sõnaga das Wetter: Wie ist das Wetter heute?",
-        "Lauses kasutatakse das Wetter sageli koos sõnadega nagu warm või kalt.",
-        "Ära aja segi sõnaga die Zeit — see on aeg kui hetk või võimalus (Ich habe keine Zeit)."
+        "Hovedidé: das Wetter betyder vejret - solrigt, regnfuldt, koldt eller varmt.",
+        "Det lettiske ord \"laiks\" kan betyde både vejret og tiden på uret - på tysk er det anderledes.",
+        "Tal om vejret i naturen med das Wetter: Wie ist das Wetter heute?",
+        "Das Wetter bruges ofte i en sætning sammen med ord som varm eller kalt.",
+        "Ikke at forveksle med die Zeit - det er tid som et øjeblik eller mulighed (Ich habe keine Zeit)."
       ],
       "examples": [
         {
           "de": "Wie ist das Wetter heute?",
-          "lv": "Milline ilm on täna?"
+          "lv": "Hvad er klokken i dag?"
         },
         {
           "de": "Das Wetter ist schön.",
-          "lv": "Ilm on ilus."
+          "lv": "Vejret er dejligt."
         },
         {
           "de": "Das Wetter ist schlecht.",
-          "lv": "Ilm on halb."
+          "lv": "Vejret er dårligt."
         },
         {
           "de": "Im Winter ist das Wetter oft kalt.",
-          "lv": "Talvel on ilm sageli külm."
+          "lv": "Vejret er ofte koldt om vinteren."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Me räägime ilmast."
+          "lv": "Vi taler om tid."
         },
         {
           "de": "Morgen wird das Wetter besser.",
-          "lv": "Homme läheb ilm paremaks."
+          "lv": "I morgen bliver vejret bedre."
         }
       ],
       "comparison": [
         {
           "word": "Wetter",
-          "meaning": "Ilm",
+          "meaning": "Vejrforhold",
           "example": "Das Wetter ist schön."
         },
         {
           "word": "Zeit",
-          "meaning": "Aeg (hetk)",
+          "meaning": "Tid (øjeblik)",
           "example": "Ich habe keine Zeit."
         },
         {
           "word": "Regen",
-          "meaning": "Vihm",
+          "meaning": "Regn",
           "example": "Es gibt viel Regen."
         },
         {
           "word": "Sonne",
-          "meaning": "Päike",
+          "meaning": "Solen",
           "example": "Die Sonne scheint."
         }
       ],
       "tip": [
-        "Ja runā par sauli, lietu vai temperatūru ārpusē — lieto das Wetter.",
-        "Atceries: Wie ist das Wetter? = Kāds laiks? (ne pulkstenis)."
+        "Når du taler om sol, regn eller temperatur udenfor - brug das Wetter.",
+        "Husk: Wie ist das Wetter? = Hvad er klokken? (ikke et ur)."
       ],
       "important": [
-        "das Wetter = laikapstākļi, ne laiks pulkstenī.",
-        "die Zeit = laiks kā brīdis vai iespēja — cita karte A1."
+        "das Wetter = vejret, ikke tiden på uret.",
+        "die Zeit = tid som et øjeblik eller mulighed - endnu et kort A1."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "Wetter",
-            "Zeit"
-          ],
           "purple": [
-            "ilma"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -24331,7 +22147,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "milline"
+                "Hvad"
               ]
             }
           },
@@ -24343,7 +22159,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ilm"
+                "Vejret"
               ]
             }
           },
@@ -24355,7 +22171,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ilm"
+                "Vejret"
               ]
             }
           },
@@ -24370,10 +22186,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "talvel"
-              ],
-              "yellow": [
-                "talvel"
+                "Vejret"
               ]
             }
           },
@@ -24385,7 +22198,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "räägime"
+                "taler"
               ]
             }
           },
@@ -24400,10 +22213,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "homme"
-              ],
-              "green": [
-                "paremaks"
+                "morgen"
               ]
             }
           }
@@ -24417,7 +22227,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ilm"
+                "Vejrforhold"
               ]
             },
             "example": {
@@ -24434,7 +22244,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "aeg"
+                "Tid"
               ]
             },
             "example": {
@@ -24451,7 +22261,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vihm"
+                "Regn"
               ]
             },
             "example": {
@@ -24468,7 +22278,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "päike"
+                "Solen"
               ]
             },
             "example": {
@@ -24492,16 +22302,8 @@ const A1_WORDS = [
         ],
         "important": [
           {
-            "blue": [
-              "Wetter"
-            ]
-          },
-          {
-            "green": [
-              "Zeit"
-            ],
             "purple": [
-              "die"
+              "das"
             ]
           }
         ]
@@ -24510,67 +22312,63 @@ const A1_WORDS = [
   },
   {
     "de": "wichtig",
-    "lv": "Tähtis",
+    "lv": "Vigtig",
     "level": "A1"
   },
   {
     "de": "wie",
-    "lv": "Kuidas • Kui",
+    "lv": "Hvordan • Hvor meget",
     "level": "A1",
     "study": {
       "id": "a1-wie",
       "layout": "standardStudy",
-      "translation": "Kuidas • Kui",
+      "translation": "Hvordan • Hvor meget",
       "explanation": [
-        "Põhiidee: wie küsib viisi või omaduse kohta (kuidas) ja hulga või arvu kohta (kui palju), olenevalt kontekstist.",
-        "Wie üksi (Wie geht's?) küsib viisi kohta — eesti keeles kuidas.",
-        "Wie + omadussõna (wie viel, wie alt, wie lange) küsib hulga, vanuse või kestuse kohta — eesti keeles kui.",
-        "Wie viel(e) tähendab kui palju • Wie alt tähendab kui vana • Wie lange tähendab kui kaua.",
-        "Võrdlustes tähendab wie samuti nagu (so groß wie = sama suur kui)."
+        "Hovedidé: wie spørger om art eller kvalitet (hvordan) og om mængde eller antal (hvor meget), afhængigt af konteksten.",
+        "Wie alene (Wie geht's?) spørger om vejen - på lettisk hvordan.",
+        "Wie + adjektiv (wie viel, wie alt, wie lange) spørger om mængde, alder eller varighed - hvor meget på lettisk.",
+        "Wie viel(e) betyder hvor meget • Wie alt betyder hvor gammel • Wie lange betyder hvor længe.",
+        "Til sammenligning betyder wie ligesom (så groß wie = så stor som)."
       ],
       "examples": [
         {
           "de": "Wie geht es dir?",
-          "lv": "Kuidas sul läheb?"
+          "lv": "Hvordan har du det"
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Kuidas sind kutsutakse?"
+          "lv": "Hvad er dit navn"
         },
         {
           "de": "Wie viel kostet das?",
-          "lv": "Kui palju see maksab?"
+          "lv": "Hvor meget koster det"
         },
         {
           "de": "Wie alt bist du?",
-          "lv": "Kui vana sa oled?"
+          "lv": "Hvor gammel er du"
         },
         {
           "de": "Wie lange dauert der Film?",
-          "lv": "Kui kaua film kestab?"
+          "lv": "Hvor lang er filmen?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
-          "lv": "Ta on sama pikk kui tema isa."
+          "lv": "Han er lige så høj som sin far."
         }
       ],
       "tip": [
-        "wie pati par sevi = kā (veids); wie + īpašības vārds (viel/alt/lange) = cik (apjoms).",
-        "Salīdzinājumā so ... wie = tikpat ... kā."
+        "wie af sig selv = hvordan (weis); wie + adjektiv (viel/alt/lange) = hvor meget (beløb).",
+        "Til sammenligning, så ... wie = som ... som."
       ],
       "important": [
         "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
-        "wie viens pats (Wie...?) parasti = kā, ne cik.",
-        "Nepareizi: Cik tev iet? → Pareizi: Kā tev iet? (Wie geht's?)"
+        "wie alene (Wie...?) normalt = hvordan, ikke hvor meget.",
+        "Forkert: Hvor gammel er du? → Korrekt: Hvordan har du det? (Wie geht's?)"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "wie"
-          ],
           "purple": [
-            "kuidas",
-            "kui palju"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -24582,7 +22380,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuidas"
+                "Hvordan"
               ]
             }
           },
@@ -24594,7 +22392,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kuidas"
+                "Hvad"
               ]
             }
           },
@@ -24606,7 +22404,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui palju"
+                "Hvor"
               ]
             }
           },
@@ -24618,7 +22416,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui"
+                "Hvor"
               ]
             }
           },
@@ -24630,7 +22428,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kui"
+                "Hvor"
               ]
             }
           },
@@ -24642,21 +22440,12 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sama"
+                "Han"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "wie"
-            ],
-            "purple": [
-              "wie",
-              "wie"
-            ]
-          },
           {
             "purple": [
               "wie",
@@ -24667,22 +22456,10 @@ const A1_WORDS = [
         "important": [
           {
             "purple": [
-              "wie",
-              "wie",
+              "cik daudz",
+              "cik vecs",
+              "cik ilgi",
               "wie"
-            ]
-          },
-          {
-            "purple": [
-              "wie"
-            ]
-          },
-          {
-            "red": [
-              "Nepareizi"
-            ],
-            "blue": [
-              "Nepareizi"
             ]
           }
         ]
@@ -24691,126 +22468,114 @@ const A1_WORDS = [
   },
   {
     "de": "wieder",
-    "lv": "Jälle",
+    "lv": "Igen",
     "level": "A1"
   },
   {
     "de": "wie viel",
-    "lv": "Kui palju",
+    "lv": "Hvor meget",
     "level": "A1"
   },
   {
     "de": "Wind",
     "de_article": "der",
     "de_plural": "die Winde",
-    "lv": "Tuul",
+    "lv": "Vinden",
     "level": "A1"
   },
   {
     "de": "Zigarette",
     "de_article": "die",
     "de_plural": "die Zigaretten",
-    "lv": "Sigaret",
+    "lv": "En cigaret",
     "level": "A1"
   },
   {
     "de": "Zimmer",
     "de_article": "das",
     "de_plural": "die Zimmer",
-    "lv": "Tuba",
+    "lv": "Værelse",
     "level": "A1"
   },
   {
     "de": "Zitrone",
     "de_article": "die",
     "de_plural": "die Zitronen",
-    "lv": "Sidrun",
+    "lv": "Citron",
     "level": "A1"
   },
   {
     "de": "Zoo",
     "de_article": "der",
     "de_plural": "die Zoos",
-    "lv": "Loomaaed",
+    "lv": "Zoologisk have",
     "level": "A1"
   },
   {
     "de": "zu",
-    "lv": "-sse • Juurde",
+    "lv": "Til • Kl",
     "level": "A1",
     "study": {
       "id": "a1-zu",
       "layout": "standardStudy",
-      "translation": "-sse • Juurde",
+      "translation": "Til • Kl",
       "explanation": [
-        "Põhiidee: zu tähendab väga sageli juurde või poole, aga sellel on oma roll ka infinitiiviga.",
-        "Inimeste ja asutuste puhul tähendab zu sageli juurde või poole.",
-        "Omadussõnadega võib zu tähendada liiga.",
-        "Konstruktsioonis zu + tegevusnimi aitab see moodustada tegevusnime: zu lernen, zu gehen."
+        "Hovedidé: zu betyder meget ofte til eller ved, men det har også en rolle med infinitiv.",
+        "Med mennesker og institutioner betyder zu ofte på eller til.",
+        "Med adjektiver kan zu også betyde.",
+        "I konstruktionen zu + ubestemt er det med til at danne det ubestemte: zu lernen, zu gehen."
       ],
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "Ma lähen arsti juurde."
+          "lv": "Jeg skal til lægen."
         },
         {
           "de": "Wir gehen zur Schule.",
-          "lv": "Me läheme kooli."
+          "lv": "Vi går i skole."
         },
         {
           "de": "Das ist zu teuer.",
-          "lv": "See on liiga kallis."
+          "lv": "Det er for dyrt."
         },
         {
           "de": "Ich habe keine Zeit zu lernen.",
-          "lv": "Mul ei ole aega õppida."
+          "lv": "Jeg har ikke tid til at studere."
         }
       ],
       "comparison": [
         {
           "word": "zu",
-          "meaning": "-sse / juurde / liiga / infinitiiv",
+          "meaning": "Til / ved / også / infinitiv",
           "example": "Ich gehe zum Arzt."
         },
         {
           "word": "nach",
-          "meaning": "-sse linnade/riikidega",
+          "meaning": "Til med byer/lande",
           "example": "Ich fahre nach Berlin."
         },
         {
           "word": "in",
-          "meaning": "Sees / mingisse kohta",
+          "meaning": "I/til et sted",
           "example": "Ich gehe in die Schule."
         },
         {
           "word": "bei",
-          "meaning": "Kellegi juures / töö juures",
+          "meaning": "Hos nogen / på arbejde",
           "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
-        "text": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer."
+        "text": "Husk: til lægen → zum Arzt; for dyrt → zu teuer."
       },
       "important": [
-        "zu ir ļoti daudz lietojumu, tāpēc vienmēr skaties uz konstrukciju.",
-        "zu teuer nozīmē “pārāk dārgi”, nevis “uz dārgi”."
+        "zu har mange anvendelsesmuligheder, så se altid på konstruktionen.",
+        "zu teuer betyder \"for dyrt\", ikke \"for dyrt\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "zu",
-            "zu lernen",
-            "zu gehen"
-          ],
           "purple": [
-            "poole",
-            "juurde",
-            "liiga",
-            "tegevusnime"
-          ],
-          "green": [
-            "Inimeste",
-            "asutuste"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -24822,7 +22587,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arsti juurde"
+                "Jeg"
               ]
             }
           },
@@ -24834,7 +22599,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kooli"
+                "går"
               ]
             }
           },
@@ -24846,7 +22611,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "liiga kallis"
+                "Det"
               ]
             }
           },
@@ -24858,7 +22623,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "õppida"
+                "Jeg"
               ]
             }
           }
@@ -24872,10 +22637,10 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse",
-                "juurde",
-                "liiga",
-                "infinitiiv"
+                "Til",
+                "Til",
+                "Til",
+                "infinitiv"
               ]
             },
             "example": {
@@ -24892,7 +22657,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse"
+                "Til"
               ]
             },
             "example": {
@@ -24909,8 +22674,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sees",
-                "sees"
+                "I/til",
+                "I/til"
               ]
             },
             "example": {
@@ -24927,7 +22692,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "juures"
+                "Hos"
               ]
             },
             "example": {
@@ -24944,29 +22709,15 @@ const A1_WORDS = [
               "zu teuer"
             ],
             "purple": [
-              "Atceries",
-              "Atceries"
+              "Husk",
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "zu"
-            ],
             "purple": [
-              "ļoti"
-            ]
-          },
-          {
-            "blue": [
-              "zu teuer"
-            ],
-            "purple": [
-              "teuer"
-            ],
-            "red": [
-              "teuer"
+              "har"
             ]
           }
         ]
@@ -24976,92 +22727,82 @@ const A1_WORDS = [
   {
     "de": "Zucker",
     "de_article": "der",
-    "lv": "Suhkur",
+    "lv": "Sukker",
     "level": "A1"
   },
   {
     "de": "zuerst",
-    "lv": "Kõigepealt",
+    "lv": "Først og fremmest",
     "level": "A1"
   },
   {
     "de": "Zug",
     "de_article": "der",
     "de_plural": "die Züge",
-    "lv": "Rong",
+    "lv": "Toget",
     "level": "A1",
     "study": {
       "id": "a1-zug",
       "layout": "standardStudy",
-      "translation": "Rong",
+      "translation": "Toget",
       "explanation": [
-        "Põhiidee: der Zug tähendab A1 tasemel kõige sagedamini rong.",
-        "Seda kasutatakse igapäevastes olukordades sõitmise, saabumise ja väljumise kohta.",
-        "Mõnes muus tähenduses võib Zug olla käik, tuuletõmbus või näojoon, aga need ei ole peamised A1 tähendused.",
-        "Väga sagedased fraasid on mit dem Zug fahren ja Der Zug kommt."
+        "Hovedidé: der Zug på A1-niveau betyder oftest tog.",
+        "Det bruges i hverdagssituationer om kørsel, ankomst og afgang.",
+        "I nogle andre betydninger kan Zug være en march, et udkast eller et indslag, men disse er ikke hovedbetydningen af ​​A1.",
+        "Meget almindelige sætninger er mit dem Zug fahren og Der Zug kommt."
       ],
       "examples": [
         {
           "de": "Der Zug kommt um acht Uhr.",
-          "lv": "Rong saabub kell kaheksa."
+          "lv": "Toget ankommer klokken otte."
         },
         {
           "de": "Ich fahre mit dem Zug.",
-          "lv": "Ma sõidan rongiga."
+          "lv": "Jeg rejser med tog"
         },
         {
           "de": "Der Zug ist voll.",
-          "lv": "Rong on täis."
+          "lv": "Toget er fyldt."
         },
         {
           "de": "Der Bus kommt später.",
-          "lv": "Buss saabub hiljem."
+          "lv": "Bussen kommer senere."
         }
       ],
       "comparison": [
         {
           "word": "der Zug",
-          "meaning": "Rong",
+          "meaning": "Toget",
           "example": "Der Zug kommt."
         },
         {
           "word": "die Bahn",
-          "meaning": "Raudtee / rongiga sõitmine",
+          "meaning": "Jernbane / rejser med tog",
           "example": "Ich fahre mit der Bahn."
         },
         {
           "word": "der Bus",
-          "meaning": "Buss",
+          "meaning": "Bus",
           "example": "Der Bus kommt."
         },
         {
           "word": "die Straßenbahn",
-          "meaning": "Tramm",
+          "meaning": "Sporvogn",
           "example": "Die Straßenbahn ist hier."
         }
       ],
       "tip": {
-        "text": "Atceries: konkrēts vilciens → der Zug."
+        "text": "Husk: specifikt tog → der Zug."
       },
       "important": [
-        "der Zug virsrakstā jāuztver kā “vilciens”.",
-        "Retākās nozīmes nav vajadzīgas galvenajā A1 virsrakstā."
+        "der Zug i titlen skal læses som \"tog\".",
+        "De mere sjældne betydninger er ikke nødvendige i A1-hovedoverskriften."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Zug",
-            "Zug",
-            "mit dem Zug fahren"
-          ],
           "purple": [
-            "rong",
-            "Rong"
-          ],
-          "red": [
-            "käik",
-            "tuuletõmbus",
-            "näojoon"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -25073,7 +22814,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rong"
+                "Toget"
               ]
             }
           },
@@ -25085,7 +22826,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rongiga"
+                "Jeg"
               ]
             }
           },
@@ -25097,7 +22838,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rong"
+                "Toget"
               ]
             }
           },
@@ -25109,7 +22850,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Buss"
+                "Bussen"
               ]
             }
           }
@@ -25123,7 +22864,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "rong"
+                "Toget"
               ]
             },
             "example": {
@@ -25140,8 +22881,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "raudtee",
-                "rongiga"
+                "Jernbane",
+                "Jernbane"
               ]
             },
             "example": {
@@ -25158,7 +22899,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "buss"
+                "Bus"
               ]
             },
             "example": {
@@ -25175,7 +22916,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tramm"
+                "Sporvogn"
               ]
             },
             "example": {
@@ -25191,25 +22932,15 @@ const A1_WORDS = [
               "der Zug"
             ],
             "purple": [
-              "Atceries"
+              "Husk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "der Zug"
-            ],
             "purple": [
+              "der",
               "der"
-            ]
-          },
-          {
-            "red": [
-              "Retākās"
-            ],
-            "purple": [
-              "Retākās"
             ]
           }
         ]
@@ -25218,103 +22949,95 @@ const A1_WORDS = [
   },
   {
     "de": "zum",
-    "lv": "-sse • Juurde",
+    "lv": "Til • Kl",
     "level": "A1",
     "study": {
       "id": "a1-zum",
       "layout": "standardStudy",
-      "translation": "-sse • Juurde",
+      "translation": "Til • Kl",
       "explanation": [
-        "Zum on eessõna zu ja artikli dem lühend.",
-        "Täisvorm: zu dem (Dativ).",
-        "Kasutatakse mees- ja kesksoost nimisõnadega, kui näidatakse suunda või eesmärki.",
-        "Tähendab sageli millegi juurde või kellegi juurde — arsti juurde, jaama, sõbra juurde.",
-        "Praktikas kasutatakse peaaegu alati zum, mitte täisvormi zu dem."
+        "Zum er en forkortelse af præpositionen zu og artiklen dem.",
+        "Fuld form: zu dem (til hvem?).",
+        "Bruges sammen med navneord for maskuline og intetkøn, når de angiver retning eller formål.",
+        "Betyder ofte for noget eller for nogen - for lægen, til stationen, for en ven.",
+        "I praksis bruges zum næsten altid i stedet for fuld zu dem."
       ],
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "Ma lähen arsti juurde."
+          "lv": "Jeg skal til lægen."
         },
         {
           "de": "Wir fahren zum Bahnhof.",
-          "lv": "Me sõidame jaama."
+          "lv": "Vi skal til stationen."
         },
         {
           "de": "Sie geht zum Supermarkt.",
-          "lv": "Ta läheb poodi."
+          "lv": "Hun går til butikken."
         },
         {
           "de": "Komm zum Essen!",
-          "lv": "Tule sööma!"
+          "lv": "Kom og spis!"
         },
         {
           "de": "Er fährt zum Flughafen.",
-          "lv": "Ta sõidab lennujaama."
+          "lv": "Han skal til lufthavnen."
         },
         {
           "de": "Wir gehen zum Konzert.",
-          "lv": "Me läheme kontserdile."
+          "lv": "Vi skal til koncert."
         },
         {
           "de": "Das Geschenk ist zum Geburtstag.",
-          "lv": "Kingitus on sünnipäevaks."
+          "lv": "Gaven er til en fødselsdag."
         },
         {
           "de": "Ich gehe zum Friseur.",
-          "lv": "Ma lähen juuksuri juurde."
+          "lv": "Jeg går til frisøren."
         }
       ],
       "comparison": [
         {
           "word": "zum",
-          "meaning": "-sse / juurde (Dativ)",
-          "example": "zum Arzt – Arsti juures"
+          "meaning": "Til / hos (hvem?)",
+          "example": "zum Arzt – Til lægen"
         },
         {
           "word": "zur",
-          "meaning": "-sse / juurde (naissugu)",
-          "example": "zur Schule – Kooli"
+          "meaning": "Til / hos (hustrus familie)",
+          "example": "zur Schule – Til skole"
         },
         {
           "word": "zu",
-          "meaning": "-sse / juurde / liiga",
-          "example": "zu Hause – Kodus"
+          "meaning": "Til / ved / også",
+          "example": "zu Hause – Hjemme"
         },
         {
           "word": "nach",
-          "meaning": "-sse (linnad/riigid)",
-          "example": "nach Berlin – Berliini"
+          "meaning": "Til (byer/lande)",
+          "example": "nach Berlin – Til Berlin"
         },
         {
           "word": "bei",
-          "meaning": "Juures (asukoht)",
-          "example": "beim Arzt – Arsti juures"
+          "meaning": "På (sted)",
+          "example": "beim Arzt – Til lægen"
         }
       ],
       "tip": [
-        "Atceries: zu + dem → zum (kam?).",
-        "Sievišķās dzimtes vārdiem: zu + der → zur."
+        "Husk: zu + dem → zum (kam?).",
+        "For feminine ord: zu + der → zur."
       ],
       "important": [
-        "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda virzienu vai mērķi: pie ārsta, uz staciju, pie drauga.",
-        "Sievišķās dzimtei lieto zur: zur Bank, zur Post.",
-        "Nesajauc ar bei (atrašanās pie) vai nach (uz pilsētām bez artikula)."
+        "zum = zu dem, kun med et maskulint eller kønsløst navneord for hvem? i bøjning.",
+        "Angiver retningen eller målet: til lægen, til stationen, til en ven.",
+        "For det feminine køn bruges zur: zur Bank, zur Post.",
+        "Ikke at forveksle med bei (placeret ved) eller nach (til byer uden artikel)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "zum",
-            "zu dem"
-          ],
           "purple": [
-            "peaaegu",
-            "juurde"
-          ],
-          "green": [
-            "zum",
-            "eesmärki"
+            "Zum",
+            "Zum"
           ]
         },
         "examples": [
@@ -25326,7 +23049,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arsti juurde"
+                "Jeg"
               ]
             }
           },
@@ -25338,7 +23061,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaama"
+                "skal"
               ]
             }
           },
@@ -25350,7 +23073,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poodi"
+                "Hun"
               ]
             }
           },
@@ -25362,7 +23085,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sööma"
+                "Kom"
               ]
             }
           },
@@ -25374,7 +23097,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lennujaama"
+                "Han"
               ]
             }
           },
@@ -25386,7 +23109,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kontserdile"
+                "skal"
               ]
             }
           },
@@ -25398,7 +23121,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sünnipäevaks"
+                "Gaven"
               ]
             }
           },
@@ -25410,7 +23133,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juuksuri juurde"
+                "Jeg"
               ]
             }
           }
@@ -25424,8 +23147,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse",
-                "juurde"
+                "Til",
+                "Til"
               ]
             },
             "example": {
@@ -25442,8 +23165,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse",
-                "juurde"
+                "Til",
+                "Til"
               ]
             },
             "example": {
@@ -25460,9 +23183,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse",
-                "juurde",
-                "liiga"
+                "Til",
+                "Til",
+                "Til"
               ]
             },
             "example": {
@@ -25479,7 +23202,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sse"
+                "Til"
               ]
             },
             "example": {
@@ -25496,7 +23219,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "juures"
+                "sted"
               ]
             },
             "example": {
@@ -25510,51 +23233,18 @@ const A1_WORDS = [
           {
             "blue": [
               "zum"
-            ],
-            "purple": [
-              "zu + dem"
             ]
           },
           {
             "yellow": [
-              "zur",
-              "zu + der"
+              "zur"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "zum"
-            ],
             "purple": [
               "zu dem"
-            ],
-            "green": [
-              "zum"
-            ]
-          },
-          {
-            "purple": [
-              "Norāda",
-              "Norāda"
-            ],
-            "green": [
-              "Norāda"
-            ]
-          },
-          {
-            "yellow": [
-              "zur Bank",
-              "zur Post"
-            ]
-          },
-          {
-            "green": [
-              "bei"
-            ],
-            "red": [
-              "nach"
             ]
           }
         ]
@@ -25563,138 +23253,130 @@ const A1_WORDS = [
   },
   {
     "de": "zumachen",
-    "lv": "Kinni tegema",
+    "lv": "Tæt på",
     "level": "A1"
   },
   {
     "de": "zurück",
-    "lv": "Tagasi",
+    "lv": "Tilbage",
     "level": "A1"
   },
   {
     "de": "zusammen",
-    "lv": "Koos",
+    "lv": "Sammen",
     "level": "A1"
   },
   {
     "de": "zu viel",
-    "lv": "Liiga palju",
+    "lv": "For meget",
     "level": "A1"
   },
   {
     "de": "zwanzig",
-    "lv": "Kakskümmend",
+    "lv": "Tyve",
     "level": "A1"
   },
   {
     "de": "zwanzigste",
-    "lv": "Kahekümnes",
+    "lv": "Den tyvende",
     "level": "A1"
   },
   {
     "de": "zwei",
-    "lv": "Kaks",
+    "lv": "To",
     "level": "A1"
   },
   {
     "de": "zweihundert",
-    "lv": "Kakssada",
+    "lv": "To hundrede",
     "level": "A1"
   },
   {
     "de": "zweimal",
-    "lv": "Kaks korda",
+    "lv": "To gange",
     "level": "A1"
   },
   {
     "de": "zweite",
-    "lv": "Teine",
+    "lv": "Den anden",
     "level": "A1"
   },
   {
     "de": "Zwiebel",
     "de_article": "die",
     "de_plural": "die Zwiebeln",
-    "lv": "Sibul",
+    "lv": "Løg",
     "level": "A1"
   },
   {
     "de": "zwischen",
-    "lv": "Vahel",
+    "lv": "Mellem",
     "level": "A1"
   },
   {
     "de": "zwölf",
-    "lv": "Kaksteist",
+    "lv": "Tolv",
     "level": "A1"
   },
   {
     "de": "zwölfte",
-    "lv": "Kaheteistkümnes",
+    "lv": "Den tolvte",
     "level": "A1"
   },
   {
     "de": "fernsehen",
-    "lv": "Telerit vaatama",
+    "lv": "Se tv",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen",
       "layout": "standardStudy",
-      "translation": "Telerit vaatama",
-      "explanation": "Põhiidee: fernsehen on lahutatav tegusõna — ich sehe fern, du siehst fern. See tähendab telerit vaatama. Ära aja segi nimisõnaga das Fernsehen (televisioon kui meedium).",
+      "translation": "Se tv",
+      "explanation": "Hovedidé: fernsehen er et split verbum — ich sehe fern, du siehst fern. Det betyder at se fjernsyn. Ikke at forveksle med navneordet das Fernsehen (fjernsyn som medie).",
       "examples": [
         {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "Täna õhtul vaatan ma telerit."
+          "lv": "Jeg ser tv i aften."
         },
         {
           "de": "Siehst du oft fern?",
-          "lv": "Kas sa vaatad sageli telerit?"
+          "lv": "Ser du ofte tv?"
         },
         {
           "de": "Die Kinder sehen am Nachmittag fern.",
-          "lv": "Lapsed vaatavad pärastlõunal televiisorit."
+          "lv": "Børnene ser tv om eftermiddagen."
         }
       ],
       "comparison": [
         {
           "word": "fernsehen",
-          "meaning": "Telerit vaatama",
-          "example": "Ich sehe fern. = Ma vaatan televiisorit."
+          "meaning": "Se tv",
+          "example": "Ich sehe fern. = Jeg ser fjernsyn."
         },
         {
           "word": "das Fernsehen",
-          "meaning": "Televisioon (meedium)",
-          "example": "Im Fernsehen läuft ein Film. = Televisioonis näidatakse filmi."
+          "meaning": "Fjernsyn (medier)",
+          "example": "Im Fernsehen läuft ein film. = Der vises en film på tv."
         },
         {
           "word": "sehen",
-          "meaning": "Nägema",
-          "example": "Ich sehe einen Film. = Ma vaatan filmi."
+          "meaning": "At se",
+          "example": "Ich sehe einen Film. = Jeg ser en film."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Tegevuse kohta kasutatakse fernsehen (ich sehe fern). TV-saate või meediumi kohta kasutatakse das Fernsehen."
+            "text": "Fernsehen (ich sehe fern) bruges til handlingen. Das Fernsehen bruges til et tv-program eller medie."
           }
         ]
       },
       "important": {
-        "text": "Fernsehen = tegusõna (ich sehe fern). das Fernsehen = nimisõna, ainult ainsuses."
+        "text": "Fernsehen = verbum (ich sehe bregne). das Fernsehen = navneord, kun ental."
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "fernsehen",
-            "sehe",
-            "fern"
-          ],
           "purple": [
-            "telerit vaatama"
-          ],
-          "green": [
-            "das Fernsehen"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -25707,7 +23389,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "täna"
+                "Jeg"
               ]
             }
           },
@@ -25720,7 +23402,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kas"
+                "Ser"
               ]
             }
           },
@@ -25733,7 +23415,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lapsed"
+                "Børnene"
               ]
             }
           }
@@ -25744,94 +23426,77 @@ const A1_WORDS = [
   {
     "de": "Fernsehen",
     "de_article": "das",
-    "lv": "Televisioon",
+    "lv": "Television",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen-study",
       "layout": "standardStudy",
-      "translation": "Televisioon",
+      "translation": "Television",
       "explanation": [
-        "Põhiidee: Nimisõna, ainult ainsus. Kirjeldab TV-d kui meediumi või saateid tervikuna.",
-        "Das Fernsehen tähendab peamiselt: saadet vaatama.",
-        "Sageli kirjeldab: tegevust.",
-        "Das Fernsehen tähendab peamiselt: televisioon kui meedium.",
-        "Sageli kirjeldab: nimisõna (ainult ainsuses).",
-        "Fernsehen on tegusõna, mida saab lahutada: ich sehe fern, du siehst fern.",
-        "Das Fernsehen on nimisõna ja ainult ainsuses — sellel ei ole mitmuse vormi."
+        "Hovedidé: Navneord, kun ental. Beskriver TV som et medie eller udsendelse generelt.",
+        "Das Fernsehen betyder i bund og grund: at se en udsendelse.",
+        "Beskriver ofte: handling.",
+        "Das Fernsehen betyder primært: TV som medie.",
+        "Beskriver ofte: et substantiv (kun ental).",
+        "Fernsehen er et verbum, der kan opdeles: ich sehe fern, du siehst fern.",
+        "Das Fernsehen er et substantiv og kun ental - det har ingen flertalsform."
       ],
       "examples": [
         {
           "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Mida täna televisioonis näidatakse?"
+          "lv": "Hvad er der på tv i dag?"
         },
         {
           "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Mida täna televisioonis näidatakse?"
+          "lv": "Hvad er der på tv i dag?"
         },
         {
           "de": "Im Fernsehen läuft ein Film.",
-          "lv": "Televisioonis näidatakse filmi."
+          "lv": "En film afspilles på tv."
         },
         {
           "de": "Das Fernsehen ist heute langweilig.",
-          "lv": "Televisiooniprogramm on täna igav."
+          "lv": "Tv-programmet i dag er kedeligt."
         },
         {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "Täna õhtul vaatan ma telerit."
+          "lv": "Jeg ser tv i aften."
         },
         {
           "de": "Was gibt es im Fernsehen?",
-          "lv": "Mida televisioonis näidatakse?"
+          "lv": "Hvad vises på tv?"
         }
       ],
       "tip": [
-        "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
-        "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā."
+        "Når du taler om en handling, så brug fernsehen (ich sehe bregne). Når du taler om et tv-program eller et medie, så brug das Fernsehen.",
+        "Navneord, kun ental. Beskriver tv-mediet eller udsendelsen generelt."
       ],
       "important": [
-        "fernsehen ir sadalāms: sehen + fern.",
-        "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
+        "fernsehen er splittet: sehen + bregne.",
+        "das Fernsehen er ikke flertal - ikke *die Fernsehen.",
         "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
-        "Darbība: fernsehen → ich sehe fern."
+        "Handling: fernsehen → ich sehe bregne."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "Fernsehen"
           ],
-          "purple": [
-            "televisioon",
-            "Põhiidee"
-          ],
           "yellow": [
-            "Põhiidee"
+            "Fernsehen"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "Was",
+                "Fernsehen",
                 "fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "televisioonis"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Was",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "televisioonis"
+                "Hvad"
               ]
             }
           },
@@ -25844,7 +23509,20 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "televisioonis"
+                "Hvad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "film"
               ]
             }
           },
@@ -25857,43 +23535,34 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "televisiooniprogramm"
+                "programmet"
               ]
             }
           },
           {
-            "de": {
-              "green": [
-                "Ich",
-                "Ich"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
-                "täna"
+                "Jeg"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Was",
+                "Fernsehen",
                 "fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "televisioonis"
+                "Hvad"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "runā"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -25908,54 +23577,47 @@ const A1_WORDS = [
   {
     "de": "Appetit",
     "de_article": "der",
-    "lv": "Isu",
+    "lv": "Appetit",
     "level": "A1",
     "study": {
       "id": "a1-appetit",
       "layout": "standardStudy",
-      "translation": "Isu",
+      "translation": "Appetit",
       "explanation": [
-        "Põhiidee: Tunne, et tahaks süüa. ainult ainsus — mitmust ei ole.",
-        "Der Appetit tähendab peamiselt: soov süüa.",
-        "Sageli kirjeldab: tunnet (ainult ainsuses).",
-        "Der Appetit on ainult ainsuses — isu.",
-        "A1 tasemel esinevad need sageli koos, näiteks: Guten Appetit!"
+        "Hovedidé: Følelsen af ​​at ville spise. kun ental - ingen flertal.",
+        "Der Appetit betyder grundlæggende: lysten til at spise.",
+        "Beskriver ofte: følelse (kun ental).",
+        "Der Appetit er kun ental – appetit.",
+        "På A1-niveau mødes de ofte, for eksempel: Guten Appetit!"
       ],
       "examples": [
         {
           "de": "Guten Appetit!",
-          "lv": "Head isu!"
+          "lv": "God appetit!"
         },
         {
           "de": "Guten Appetit!",
-          "lv": "Head isu!"
+          "lv": "God appetit!"
         },
         {
           "de": "Ich habe keinen Appetit.",
-          "lv": "Mul ei ole isu."
+          "lv": "Jeg har ingen appetit."
         }
       ],
       "tip": [
-        "der Appetit = apetīte",
-        "Izmanto der Appetit, kad konteksts atbilst šai nozīmei."
+        "der Appetit = appetit",
+        "Brug der Appetit når konteksten passer til denne betydning."
       ],
       "important": [
-        "der Appetit ir tikai vienskaitlī.",
-        "Nepareizi: die Appetite → Pareizi: der Appetit",
-        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
-        "Sajūta: der Appetit."
+        "der Appetit er kun ental.",
+        "Nepareizi: die Appetit → Pareizi: der Appetit",
+        "Nepareizi: Ich bin Appetit. → Pareizi: Jeg har appetit.",
+        "Føl: der Appetit."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Appetit",
-            "appetit"
-          ],
           "purple": [
-            "isu",
-            "isu"
-          ],
-          "yellow": [
+            "Appetit",
             "Appetit"
           ]
         },
@@ -25963,39 +23625,36 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Guten",
                 "appetit"
               ]
             },
             "lv": {
               "purple": [
-                "isu"
+                "appetit"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Guten",
                 "appetit"
               ]
             },
             "lv": {
               "purple": [
-                "isu"
+                "appetit"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Ich",
                 "appetit"
               ]
             },
             "lv": {
               "purple": [
-                "isu"
+                "appetit"
               ]
             }
           }
@@ -26003,7 +23662,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "der"
+              "Appetit"
             ]
           }
         ],
@@ -26019,84 +23678,71 @@ const A1_WORDS = [
   },
   {
     "de": "essen",
-    "lv": "Sööma",
+    "lv": "At spise",
     "level": "A1",
     "study": {
       "id": "a1-essen",
       "layout": "standardStudy",
-      "translation": "Sööma",
+      "translation": "At spise",
       "explanation": [
-        "Põhiidee: Tegusõna — toitu sööma.",
-        "Essen tähendab peamiselt: toitu tarbima.",
-        "Sageli kirjeldab: tegevust.",
-        "Essen tähendab peamiselt: toit või söögikord.",
-        "Sageli kirjeldab: asja.",
-        "Essen tähendab söömist.",
-        "Das Essen võib tähendada toitu või söögikorda üldiselt."
+        "Hovedidé: Verbum - at spise mad.",
+        "Essen betyder primært: at indtage mad.",
+        "Beskriver ofte: handling.",
+        "Essen betyder i bund og grund: mad eller måltid.",
+        "Beskriver ofte: regn.",
+        "Essen betyder at spise.",
+        "Das Essen kan betyde mad eller et måltid generelt."
       ],
       "examples": [
         {
           "de": "Ich esse gern Pizza.",
-          "lv": "Ma söön meelsasti pitsat."
+          "lv": "Jeg kan godt lide at spise pizza."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Mida te tahate süüa?"
+          "lv": "Hvad vil du spise"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Me sööme kell 12."
+          "lv": "Vi spiser ved 12-tiden."
         },
         {
           "de": "Das Essen ist fertig.",
-          "lv": "Toit on valmis."
+          "lv": "Maden er klar."
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Toit maitseb väga hästi."
+          "lv": "Maden smager meget godt."
         },
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Toit maitseb hästi."
+          "lv": "Maden smager godt."
         }
       ],
       "tip": [
-        "essen = ēst",
-        "Izmanto essen, kad konteksts atbilst šai nozīmei."
+        "essen = at spise",
+        "Brug essen, når konteksten passer til denne betydning."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
-        "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "essen er et verbum uden en artikel.",
+        "das Essen er ikke det samme som essen.",
+        "Handling: essens.",
+        "Sag/måltid: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "essen",
-            "essen"
-          ],
           "purple": [
-            "sööma"
-          ],
-          "blue": [
-            "essen",
-            "essen"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "esse",
                 "esse"
               ]
             },
-            "lv": {
-              "purple": [
-                "söön"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26107,7 +23753,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mida"
+                "Hvad"
               ]
             }
           },
@@ -26118,11 +23764,7 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "sööme"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26131,11 +23773,7 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "toit"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26144,11 +23782,7 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "toit"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26157,11 +23791,7 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "toit"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -26184,69 +23814,62 @@ const A1_WORDS = [
   {
     "de": "Essen",
     "de_article": "das",
-    "lv": "Toit",
+    "lv": "Mad • Måltid",
     "level": "A1",
     "study": {
       "id": "a1-essen-study",
       "layout": "standardStudy",
-      "translation": "Toit",
+      "translation": "Mad • Måltid",
       "explanation": [
-        "Põhiidee: Nimisõna — toit või terve söögikord.",
-        "Das Essen tähendab peamiselt: toitu tarbima.",
-        "Sageli kirjeldab: tegevust.",
-        "Das Essen tähendab peamiselt: toit või söögikord.",
-        "Sageli kirjeldab: asja.",
-        "Essen tähendab söömist.",
-        "Das Essen võib tähendada toitu või söögikorda üldiselt."
+        "Hovedidé: Navneord - mad eller hele måltidet.",
+        "Das Essen betyder primært: at indtage mad.",
+        "Beskriver ofte: handling.",
+        "Das Essen betyder i bund og grund: mad eller måltid.",
+        "Beskriver ofte: regn.",
+        "Essen betyder at spise.",
+        "Das Essen kan betyde mad eller et måltid generelt."
       ],
       "examples": [
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Toit maitseb hästi."
+          "lv": "Maden smager godt."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Mida te tahate süüa?"
+          "lv": "Hvad vil du spise"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Me sööme kell 12."
+          "lv": "Vi spiser ved 12-tiden."
         },
         {
           "de": "Das Essen ist fertig.",
-          "lv": "Toit on valmis."
+          "lv": "Maden er klar."
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Toit maitseb väga hästi."
+          "lv": "Maden smager meget godt."
         },
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Toit maitseb hästi."
+          "lv": "Maden smager godt."
         }
       ],
       "tip": [
-        "das Essen = ēst",
-        "Izmanto das Essen, kad konteksts atbilst šai nozīmei."
+        "das Essen = at spise",
+        "Brug das Essen, når konteksten passer til denne betydning."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
-        "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "essen er et verbum uden en artikel.",
+        "das Essen er ikke det samme som essen.",
+        "Handling: essens.",
+        "Sag/måltid: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
-          "yellow": [
-            "das Essen",
-            "essen"
-          ],
           "purple": [
-            "toit",
-            "söögikord"
-          ],
-          "green": [
-            "Essen"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -26259,36 +23882,36 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "toit",
-                "Toit"
+                "Maden"
               ]
             }
           },
           {
             "de": {
               "yellow": [
-                "Was",
                 "essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "mida",
-                "mida"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "yellow": [
-                "Wir",
+                "essen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
                 "essen"
               ]
             },
             "lv": {
               "purple": [
-                "sööme",
-                "sööme"
+                "Maden"
               ]
             }
           },
@@ -26301,8 +23924,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "toit",
-                "toit"
+                "Maden"
               ]
             }
           },
@@ -26315,44 +23937,17 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "toit",
-                "toit"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "toit",
-                "toit"
+                "Maden"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "das"
-            ]
-          },
-          {
-            "purple": [
-              "das"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "yellow": [
-              "essen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -26360,89 +23955,80 @@ const A1_WORDS = [
   {
     "de": "Gemüse",
     "de_article": "das",
-    "lv": "Köögiviljad",
+    "lv": "Grøntsager",
     "level": "A1",
     "study": {
       "id": "a1-gemuese",
       "layout": "standardStudy",
-      "translation": "Köögiviljad",
+      "translation": "Grøntsager",
       "explanation": [
-        "Põhiidee: Köögiviljad üldiselt. Saksa keeles ei ole mitmuse vormi *die Gemüse.",
-        "Das Gemüse tähendab peamiselt: köögiviljad üldiselt.",
-        "Sageli kirjeldab: kesksoos (ainult ainsuses)."
+        "Hovedidé: Grøntsager generelt. Tysk har ikke en flertalsform for *die Gemüse.",
+        "Das Gemüse betyder hovedsagelig: grøntsager generelt.",
+        "Ofte beskrevet: i ethvert køn (kun ental)."
       ],
       "examples": [
         {
           "de": "Ich esse gern Gemüse.",
-          "lv": "Ma söön meelsasti köögivilju."
+          "lv": "Jeg kan godt lide at spise grøntsager."
         },
         {
           "de": "Ich esse gern Gemüse.",
-          "lv": "Ma söön meelsasti köögivilju."
+          "lv": "Jeg kan godt lide at spise grøntsager."
         },
         {
           "de": "Das Gemüse ist frisch.",
-          "lv": "Köögiviljad on värsked."
+          "lv": "Grøntsagerne er friske."
         },
         {
           "de": "Wir kaufen Gemüse auf dem Markt.",
-          "lv": "Me ostame turult köögivilju."
+          "lv": "Vi køber grøntsager på markedet."
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "Mulle meeldivad puuviljad ja köögiviljad."
+          "lv": "Jeg kan godt lide frugt og grøntsager."
         },
         {
           "de": "Ich esse Gemüse.",
-          "lv": "Ma söön köögivilju."
+          "lv": "Jeg spiser grøntsager."
         }
       ],
       "tip": [
-        "das Gemüse = dārzeņi",
-        "Izmanto das Gemüse, kad konteksts atbilst šai nozīmei."
+        "das Gemüse = grøntsager",
+        "Brug das Gemüse, når konteksten passer til denne betydning."
       ],
       "important": [
         "Nav pareizi: die Gemüse, die Obsts.",
         "Nepareizi: die Gemüse → Pareizi: das Gemüse",
-        "das Gemüse = dārzeņi (kopumā)."
+        "das Gemüse = grøntsager (generelt)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Gemüse",
-            "gemüse"
-          ],
           "purple": [
-            "köögiviljad"
-          ],
-          "green": [
-            "Gemüse"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Ich",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "köögivilju"
+                "Jeg"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Ich",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "köögivilju"
+                "Jeg"
               ]
             }
           },
@@ -26455,46 +24041,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "köögiviljad"
+                "Grøntsagerne"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wir",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "köögivilju"
+                "køber"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Ich",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "köögiviljad"
+                "Jeg"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Ich",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "köögivilju"
+                "Jeg"
               ]
             }
           }
@@ -26507,11 +24090,7 @@ const A1_WORDS = [
           }
         ],
         "important": [
-          {
-            "blue": [
-              "Nav"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -26519,123 +24098,111 @@ const A1_WORDS = [
   {
     "de": "Obst",
     "de_article": "das",
-    "lv": "Puuviljad",
+    "lv": "Frugter",
     "level": "A1",
     "study": {
       "id": "a1-obst",
       "layout": "standardStudy",
-      "translation": "Puuviljad",
+      "translation": "Frugter",
       "explanation": [
-        "Põhiidee: Puuviljad üldiselt. Saksa keeles ei ole mitmuse vormi *die Obsts.",
-        "Das Obst tähendab peamiselt: puuviljad üldiselt.",
-        "Sageli kirjeldab: kesksoos (ainult ainsuses)."
+        "Hovedidé: Frugt generelt. Tysk har ingen flertalsform *die Obsts.",
+        "Das Obst betyder hovedsageligt: ​​frugt generelt.",
+        "Ofte beskrevet: i ethvert køn (kun ental)."
       ],
       "examples": [
         {
           "de": "Wir essen viel Obst.",
-          "lv": "Me sööme palju puuvilju."
+          "lv": "Vi spiser meget frugt."
         },
         {
           "de": "Wir essen viel Obst.",
-          "lv": "Me sööme palju puuvilju."
+          "lv": "Vi spiser meget frugt."
         },
         {
           "de": "Obst ist gesund.",
-          "lv": "Puuviljad on tervislikud."
+          "lv": "Frugt er sundt."
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "Mulle meeldivad puuviljad ja köögiviljad."
+          "lv": "Jeg kan godt lide frugt og grøntsager."
         },
         {
           "de": "Wir essen Obst.",
-          "lv": "Me sööme puuvilju."
+          "lv": "Vi spiser frugt."
         }
       ],
       "tip": [
-        "das Obst = augļi",
-        "Izmanto das Obst, kad konteksts atbilst šai nozīmei."
+        "das Obst = frugter",
+        "Brug das Obst når sammenhængen passer til denne betydning."
       ],
       "important": [
         "Nepareizi: die Obsts → Pareizi: das Obst",
-        "das Obst = augļi (kopumā)."
+        "das Obst = frugter (i almindelighed)."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "das Obst",
-            "obst"
-          ],
           "purple": [
-            "puuviljad"
-          ],
-          "yellow": [
-            "Obst"
+            "Frugt"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "Wir",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "puuvilju"
+                "frugt"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Wir",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "puuvilju"
+                "frugt"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Obst",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "puuviljad"
+                "Frugt"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Ich",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "puuviljad"
+                "frugt"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Wir",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "puuvilju"
+                "frugt"
               ]
             }
           }
@@ -26660,173 +24227,131 @@ const A1_WORDS = [
   {
     "de": "Ferien",
     "de_article": "die",
-    "lv": "Vaheaeg (kool)",
+    "lv": "Ferie (skole)",
     "level": "A1",
     "study": {
       "id": "a1-ferien",
       "layout": "standardStudy",
-      "translation": "Vaheaeg (kool)",
+      "translation": "Ferie (skole)",
       "explanation": [
-        "Põhiidee: ainult mitmus. Kooli- või õppevaheaeg — alati mitmuses.",
-        "Die Ferien tähendab peamiselt: koolivaheaeg.",
-        "Sageli kirjeldab: ainult mitmus.",
-        "Die Ferien on ainult mitmuses — alati mitmuses (in den Ferien)."
+        "Hovedidé: kun flertal. Skole- eller studieferier - altid i flertal.",
+        "Die Ferien betyder i bund og grund: skoleferier.",
+        "Ofte karakteriseret ved: kun flertal.",
+        "Die Ferien er kun flertal — altid i flertal (i den Ferien)."
       ],
       "examples": [
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Vaheajal sõidame me mere äärde."
+          "lv": "I weekenden tager vi til havet."
         },
         {
           "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "Vaheajal on mul palju aega."
+          "lv": "Jeg har meget tid i ferien."
         },
         {
           "de": "Was macht ihr in den Ferien?",
-          "lv": "Mida te vaheajal teete?"
+          "lv": "Hvad laver du på ferier"
         },
         {
           "de": "Die Schule ist in den Ferien zu.",
-          "lv": "Kool on vaheajal suletud."
+          "lv": "Skolen er lukket i helligdage."
         },
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Vaheajal sõidame me mere äärde."
+          "lv": "På ferie tager vi til havet."
         },
         {
           "de": "In den Ferien",
-          "lv": "Vaheajal (kool)."
+          "lv": "I ferier (skole)."
         }
       ],
       "comparison": [
         {
           "word": "die Ferien",
-          "meaning": "Kooli/ülikooli vaheaeg (ainult mitmuses)",
-          "example": "In den Ferien fahren wir weg. – Vaheajal sõidame me kuhugi ära."
+          "meaning": "Skole-/studiepause (kun dsk.)",
+          "example": "In den Ferien fahren wir weg. – Vi tager et sted hen i weekenden."
         },
         {
           "word": "der Urlaub",
-          "meaning": "Puhkus töölt (ainult ains.)",
-          "example": "Ich habe zwei Wochen Urlaub. – Mul on kaks nädalat puhkust."
+          "meaning": "Orlov fra arbejde (kun alle)",
+          "example": "Ich habe zwei Wochen Urlaub. – Jeg har to ugers ferie."
         }
       ],
       "tip": [
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
-        "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
+        "kun flertal. Skole- eller studieferier - altid i flertal.",
+        "Brug die Ferien, når sammenhængen passer til denne betydning."
       ],
       "important": [
-        "Ferien vienmēr ar datīvu: in den Ferien.",
+        "Ferien altid med dativ: in den Ferien.",
         "Nepareizi: in der Ferien → Pareizi: in den Ferien",
-        "Skola: die Ferien (tikai daudzskaitlī).",
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
+        "Skole: die Ferien (kun flertal).",
+        "kun flertal. Skole- eller studieferier - altid i flertal."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "die Ferien",
-            "ferien"
-          ],
           "purple": [
-            "vaheaeg",
-            "kool"
-          ],
-          "green": [
-            "Ferien"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "den",
                 "ferien"
               ]
             },
-            "lv": {
-              "purple": [
-                "Vaheajal"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "den",
                 "ferien"
               ]
             },
-            "lv": {
-              "purple": [
-                "vaheajal"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "Was",
                 "ferien"
               ]
             },
-            "lv": {
-              "purple": [
-                "mida"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "Die",
                 "ferien"
               ]
             },
-            "lv": {
-              "purple": [
-                "kool"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "den",
                 "ferien"
               ]
             },
-            "lv": {
-              "purple": [
-                "vaheajal"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "den",
                 "ferien"
               ]
             },
             "lv": {
               "purple": [
-                "vaheajal (kool)"
+                "ferier"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "tikai"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "Ferien"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -26834,138 +24359,126 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
-    "lv": "Puhkus",
+    "lv": "Ferie",
     "level": "A1",
     "study": {
       "id": "a1-urlaub",
       "layout": "standardStudy",
-      "translation": "Puhkus",
+      "translation": "Ferie",
       "explanation": [
-        "Põhiidee: ainult ainsus. Puhkus töölt — alati ainsuses.",
-        "Der Urlaub tähendab peamiselt: vaba aeg töölt.",
-        "Sageli kirjeldab: ainult ainsus.",
-        "Der Urlaub on ainult ainsuses — puhkus töölt (im Urlaub)."
+        "Hovedidé: kun ental. Orlov fra arbejde - altid ental.",
+        "Der Urlaub betyder i bund og grund: fri fra arbejde.",
+        "Ofte karakteriseret ved: kun ental.",
+        "Der Urlaub er kun ental - ferie fra arbejde (im Urlaub)."
       ],
       "examples": [
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "Minu isa on puhkusel."
+          "lv": "Min far er på ferie."
         },
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "Minu isa on puhkusel."
+          "lv": "Min far er på ferie."
         },
         {
           "de": "Nächste Woche habe ich Urlaub.",
-          "lv": "Järgmisel nädalal on mul puhkus."
+          "lv": "Jeg har ferie i næste uge."
         },
         {
           "de": "Wir machen Urlaub in Spanien.",
-          "lv": "Me veedame puhkuse Hispaanias."
+          "lv": "Vi er på ferie i Spanien."
         },
         {
           "de": "im Urlaub",
-          "lv": "Puhkusel (töö)."
+          "lv": "På ferie (arbejde)."
         }
       ],
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "Puhkus töölt (ainult ains.)",
-          "example": "Mein Vater ist im Urlaub. – Minu isa on puhkusel."
+          "meaning": "Orlov fra arbejde (kun alle)",
+          "example": "Mein Vater ist im Urlaub. – Min far er på ferie."
         },
         {
           "word": "die Ferien",
-          "meaning": "Kooli/ülikooli vaheaeg (ainult mitmuses)",
-          "example": "Die Kinder haben Ferien. – Lastel on vaheaeg."
+          "meaning": "Skole-/studiepause (kun dsk.)",
+          "example": "Die Kinder haben Ferien. – Børn har ferie."
         }
       ],
       "tip": [
-        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
-        "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
+        "kun ental. Orlov fra arbejde - altid ental.",
+        "Brug der Urlaub, når konteksten passer til denne betydning."
       ],
       "important": [
-        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
+        "Forkert: die Ferie, der Urlabe (på A1-niveau).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
         "Nepareizi: die Urlaube → Pareizi: der Urlaub",
-        "Darbs: der Urlaub (tikai vienskaitlī)."
+        "Arbejde: der Urlaub (kun ental)."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Urlaub",
-            "urlaub"
-          ],
           "purple": [
-            "puhkus"
-          ],
-          "yellow": [
-            "Urlaub"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "Mein",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "puhkusel"
+                "Min"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Mein",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "puhkusel"
+                "Min"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Nächste",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "puhkus"
+                "Jeg"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Wir",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "puhkuse"
+                "ferie"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Urlaub",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "puhkusel"
+                "ferie"
               ]
             }
           }
@@ -26973,14 +24486,14 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "tikai"
+              "kun"
             ]
           }
         ],
         "important": [
           {
             "green": [
-              "der Urlaube"
+              "der Urlabe"
             ]
           }
         ]
@@ -26991,156 +24504,139 @@ const A1_WORDS = [
     "de": "Stadt",
     "de_article": "die",
     "de_plural": "die Städte",
-    "lv": "Linn",
+    "lv": "By",
     "level": "A1"
   },
   {
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "Riik",
+    "lv": "Land",
     "level": "A1"
   },
   {
     "de": "Uhr",
     "de_article": "die",
     "de_plural": "die Uhren",
-    "lv": "Kell",
+    "lv": "Ur",
     "level": "A1",
     "study": {
       "id": "a1-uhr",
       "layout": "standardStudy",
-      "translation": "Kell",
+      "translation": "Ur",
       "explanation": [
-        "Põhiidee: Kell või käekell. Ka kellaaeg: Es ist acht Uhr.",
-        "Die Uhr tähendab peamiselt: seade või kellaaeg.",
-        "Sageli kirjeldab: konkreetne kellaaeg.",
-        "Die Uhr tähendab kella — seadet või kellaaega (Es ist acht Uhr, meine Uhr)."
+        "Hovedidé: Ur eller armbåndsur. Også tiden på uret: Es ist acht Uhr.",
+        "Die Uhr betyder grundlæggende: enhed eller tid i et ur.",
+        "Ofte karakteriseret ved: et bestemt tidspunkt.",
+        "Die Uhr betyder et ur - en enhed eller tid i et ur (Es ist acht Uhr, meine Uhr)."
       ],
       "examples": [
         {
           "de": "Es ist acht Uhr.",
-          "lv": "On kaheksa (kell kaheksa)."
+          "lv": "Klokken er otte (klokken otte)."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "On kaheksa (kell kaheksa)."
+          "lv": "Klokken er otte (klokken otte)."
         },
         {
           "de": "Meine Uhr ist kaputt.",
-          "lv": "Minu kell on katki."
+          "lv": "Mit ur er gået i stykker."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "On kaheksa."
+          "lv": "Klokken er otte."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "On kaheksa (kell)."
+          "lv": "Klokken er otte (klokken)."
         },
         {
           "de": "die Uhr",
-          "lv": "Kell näitab aega."
+          "lv": "Enhed/tid på ur • Die Zeit"
         }
       ],
       "tip": [
-        "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
-        "Izmanto die Uhr, kad konteksts atbilst šai nozīmei."
+        "Ur eller armbåndsur. Også tiden på uret: Es ist acht Uhr.",
+        "Brug die Uhr, når sammenhængen passer til denne betydning."
       ],
       "important": [
-        "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
-        "die Uhr: pārbaudi kontekstu pirms lietošanas."
+        "die Uhr: enhed (meine Uhr) eller tid (acht Uhr).",
+        "die Uhr: tjek konteksten før brug."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "Uhr"
-          ],
           "purple": [
-            "kell"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ist",
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "kell"
+                "Klokken"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ist",
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "kell"
+                "Klokken"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Meine",
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "kell"
+                "Mit"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ist",
+                "uhr"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "kaheksa"
+                "Klokken"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ist",
+                "die Uhr",
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "kell"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Uhr"
-              ],
-              "green": [
-                "die"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kell"
-              ],
-              "yellow": [
-                "aega"
+                "Enhed/tid"
               ]
             }
           }
@@ -27148,7 +24644,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Pulkstenis"
+              "eller"
             ]
           }
         ],
@@ -27166,94 +24662,84 @@ const A1_WORDS = [
     "de": "Zeit",
     "de_article": "die",
     "de_plural": "die Zeiten",
-    "lv": "Aeg (hetk / ajavahemik)",
+    "lv": "Tid (øjeblik/periode)",
     "level": "A1",
     "study": {
       "id": "a1-zeit",
       "layout": "standardStudy",
-      "translation": "Aeg (hetk / ajavahemik)",
+      "translation": "Tid (øjeblik/periode)",
       "explanation": [
-        "Põhiidee: Aeg kui mõiste — hetk, võimalus, ajavahemik.",
-        "Die Zeit tähendab peamiselt: hetk, võimalus.",
-        "Sageli kirjeldab: abstraktne mõiste.",
-        "Die Zeit on abstraktne mõiste — aeg, hetk või võimalus (Ich habe keine Zeit)."
+        "Hovedidé: Tid som begreb - et øjeblik, en mulighed, en periode.",
+        "Die Zeit betyder primært: øjeblik, mulighed.",
+        "Ofte karakteriseret ved: et abstrakt begreb.",
+        "Die Zeit er et abstrakt begreb - tid, øjeblik eller mulighed (Ich habe keine Zeit)."
       ],
       "examples": [
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Mul ei ole aega."
+          "lv": "Jeg har ikke tid."
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Mul ei ole aega."
+          "lv": "Jeg har ikke tid"
         },
         {
           "de": "Hast du Zeit?",
-          "lv": "Kas sul on aega?"
+          "lv": "Har du tid"
         },
         {
           "de": "Die Zeit vergeht schnell.",
-          "lv": "Aeg möödub kiiresti."
+          "lv": "Tiden går hurtigt."
         }
       ],
       "tip": [
-        "Laiks kā jēdziens — brīdis, iespēja, laika posms.",
-        "Izmanto die Zeit, kad konteksts atbilst šai nozīmei."
+        "Tid som begreb - et øjeblik, en mulighed, en periode.",
+        "Brug die Zeit, når konteksten passer til denne betydning."
       ],
       "important": [
-        "die Zeit: pārbaudi kontekstu pirms lietošanas.",
-        "die Zeit: pārbaudi kontekstu pirms lietošanas."
+        "die Zeit: Tjek konteksten før brug.",
+        "die Zeit: Tjek konteksten før brug."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "die Zeit",
-            "zeit"
-          ],
           "purple": [
-            "aeg"
-          ],
-          "yellow": [
-            "Zeit"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "Ich",
                 "zeit"
               ]
             },
             "lv": {
               "purple": [
-                "aega"
+                "Jeg"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Ich",
                 "zeit"
               ]
             },
             "lv": {
               "purple": [
-                "aega"
+                "Jeg"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Hast",
                 "zeit"
               ]
             },
             "lv": {
               "purple": [
-                "aega"
+                "Har"
               ]
             }
           },
@@ -27266,7 +24752,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg"
+                "Tiden"
               ]
             }
           }
@@ -27274,7 +24760,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Laiks"
+              "Tid"
             ]
           }
         ],
@@ -27290,44 +24776,40 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "Üks kord • Kord",
+    "lv": "Én gang • Én gang",
     "level": "A1",
     "study": {
       "id": "a1-einmal",
       "layout": "standardStudy",
-      "translation": "Üks kord • Kord",
+      "translation": "Én gang • Én gang",
       "explanation": [
-        "Põhiidee: Osutab ühele korrale või minevikule (kord ma olin...).",
-        "Einmal tähendab peamiselt: üks kord / minevikus.",
-        "Sageli kirjeldab: ajamäärust.",
-        "Einmal viitab ühele korrale või minevikule (kord ma...)."
+        "Hovedidé: Refererer til en tid eller fortid (engang var jeg...).",
+        "Einmal betyder dybest set: én gang / i fortiden.",
+        "Ofte præget af: vejrforhold.",
+        "Einmal refererer til én tid eller fortiden (når jeg...)."
       ],
       "examples": [
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "Ma olin kord Berliinis."
+          "lv": "Jeg var engang i Berlin."
         },
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "Ma olin kord Berliinis."
+          "lv": "Jeg var engang i Berlin."
         }
       ],
       "tip": [
         "einmal = vienreiz",
-        "Izmanto einmal, kad konteksts atbilst šai nozīmei."
+        "Brug einmal når konteksten passer til denne betydning."
       ],
       "important": [
-        "einmal = vienreiz vai reiz pagātnē.",
-        "Norāda uz vienu reizi vai pagātni (reiz es biju...)."
+        "einmal = én eller én gang i fortiden.",
+        "Henviser til en tid eller fortid (engang var jeg...)."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "einmal"
-          ],
           "purple": [
-            "üks kord",
-            "kord"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -27340,8 +24822,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "olin",
-                "kord"
+                "Jeg"
               ]
             }
           },
@@ -27354,8 +24835,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "olin",
-                "kord"
+                "Jeg"
               ]
             }
           }
@@ -27363,12 +24843,8 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "einmal"
-            ]
-          },
-          {
-            "purple": [
-              "einmal"
+              "vienreiz",
+              "reiz"
             ]
           }
         ],
@@ -27384,44 +24860,41 @@ const A1_WORDS = [
   },
   {
     "de": "noch mal",
-    "lv": "Veel kord",
+    "lv": "Igen",
     "level": "A1",
     "study": {
       "id": "a1-noch-mal",
       "layout": "standardStudy",
-      "translation": "Veel kord",
+      "translation": "Igen",
       "explanation": [
-        "Põhiidee: Tähendab veel kord — tegevust korrata või paluda kordamist."
+        "Hovedidé: Betyder igen - at gentage en handling eller bede om at den bliver gentaget."
       ],
       "examples": [
         {
           "de": "Noch mal, bitte.",
-          "lv": "Veel kord, palun."
+          "lv": "Igen, tak."
         },
         {
           "de": "Noch mal, bitte.",
-          "lv": "Veel kord, palun."
+          "lv": "Igen tak"
         },
         {
           "de": "Sag das noch mal.",
-          "lv": "Ütle seda veel kord."
+          "lv": "Sig det igen"
         }
       ],
       "tip": [
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei.",
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei."
+        "Brug endund mal når sammenhængen passer til denne betydning.",
+        "Brug endund mal når sammenhængen passer til denne betydning."
       ],
       "important": [
-        "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
-        "noch mal: pārbaudi kontekstu pirms lietošanas."
+        "Igen betyder at gentage en handling eller bede om en gentagelse.",
+        "noch mal: tjek konteksten før brug."
       ],
       "sectionAccents": {
         "explanation": {
-          "yellow": [
-            "Põhiidee"
-          ],
           "purple": [
-            "veel kord"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -27434,7 +24907,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veel kord"
+                "Igen"
               ]
             }
           },
@@ -27447,7 +24920,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veel kord"
+                "Igen"
               ]
             }
           },
@@ -27460,24 +24933,16 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veel kord"
+                "Sig"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Izmanto"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "yellow": [
-              "Nozīmē"
-            ]
-          }
+          {}
         ]
       }
     }

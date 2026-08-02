@@ -3,129 +3,129 @@ const C1_WORDS = [
     "de": "Wahrnehmung",
     "de_article": "die",
     "de_plural": "die Wahrnehmungen",
-    "lv": "Taju",
+    "lv": "Opfattelse",
     "level": "C1"
   },
   {
     "de": "gewährleisten",
-    "lv": "Tagama",
+    "lv": "At yde",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "Mõju",
+    "lv": "Indflydelse",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "Vastuoluline",
+    "lv": "Modsigende",
     "level": "C1"
   },
   {
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "Ametlik avaldus • Seisukoha väljendamine",
+    "lv": "Officiel udtalelse • Udtalelse",
     "level": "C1"
   },
   {
     "de": "nachvollziehen",
-    "lv": "Mõista • Loogikat jälgida",
+    "lv": "Forstå • Følg logikken",
     "level": "C1"
   },
   {
     "de": "ausschlaggebend",
-    "lv": "Otsustav",
+    "lv": "Afgørende",
     "level": "C1"
   },
   {
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "Stressitaluvus • Koormustaluvus",
+    "lv": "Stressmodstand • Modstand mod belastning",
     "level": "C1"
   },
   {
     "de": "akkreditieren",
-    "lv": "Akrediteerima",
+    "lv": "At akkreditere",
     "level": "C1"
   },
   {
     "de": "Aktiengesellschaft",
     "de_article": "die",
     "de_plural": "die Aktiengesellschaften",
-    "lv": "Aktsiaselts",
+    "lv": "Aktieselskab",
     "level": "C1"
   },
   {
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "Tegevusprogramm",
+    "lv": "Program for arrangementer",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "Häirevalmidus",
+    "lv": "Alarmberedskab",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Vananaistesuvi",
+    "lv": "Forår",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "Vaidlustama • Kahtluse alla seadma",
+    "lv": "Tvist • Spørgsmål",
     "level": "C1"
   },
   {
     "de": "allerseits",
-    "lv": "Igast küljest",
+    "lv": "Fra alle sider",
     "level": "C1"
   },
   {
     "de": "anderweitig",
-    "lv": "Mujal • Teisiti",
+    "lv": "Andetsteds • Ellers",
     "level": "C1"
   },
   {
     "de": "Abrüstungsabkommen",
     "de_article": "das",
     "de_plural": "die Abrüstungsabkommen",
-    "lv": "Desarmeerimisleping",
+    "lv": "Nedrustningstraktat",
     "level": "C1"
   },
   {
     "de": "Abrüstungsverhandlungen",
     "de_article": "die",
     "de_plural": "die Abrüstungsverhandlungen",
-    "lv": "Desarmeerimisläbirääkimised",
+    "lv": "Nedrustningsforhandlinger",
     "level": "C1"
   },
   {
     "de": "Aal",
     "de_article": "der",
     "de_plural": "die Aale",
-    "lv": "Angerjas",
+    "lv": "Ål",
     "level": "C1"
   },
   {
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "Kõrvalekalle • Aberratsioon",
+    "lv": "Afvigelse • Afvigelse",
     "level": "C1"
   },
   {
     "de": "abstumpfen",
-    "lv": "Nüristama • Tundetuks tegema",
+    "lv": "At sløve • At gøre ufølsom",
     "level": "C1"
   },
   {
@@ -139,246 +139,246 @@ const C1_WORDS = [
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "Afektipurse",
+    "lv": "Et følelsesudbrud",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "Tõrjuma • Sotsiaalselt tõrjuma",
+    "lv": "Udstødelse • Social udstødelse",
     "level": "C1"
   },
   {
     "de": "Flottenstützpunkt",
     "de_article": "der",
     "de_plural": "die Flottenstützpunkte",
-    "lv": "Mereväebaas",
+    "lv": "Flådebase",
     "level": "C1"
   },
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "Lennuilm",
+    "lv": "Vejrforhold til flyvning",
     "level": "C1"
   },
   {
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "Kaubasaateleht",
+    "lv": "Fragtbrev",
     "level": "C1"
   },
   {
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "Veotasu",
+    "lv": "Fragtomkostninger",
     "level": "C1"
   },
   {
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "Naisõiguslane",
+    "lv": "En kæmper for kvinders ligestilling",
     "level": "C1"
   },
   {
     "de": "Freikörperkultur",
     "de_article": "die",
     "de_plural": "die Freikörperkulturen",
-    "lv": "Nudism",
+    "lv": "Nudisme",
     "level": "C1"
   },
   {
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "Lapse väärkohtleja",
+    "lv": "Pædofil",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "Lastevastane vägivald",
+    "lv": "Vold mod børn",
     "level": "C1"
   },
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Tsiviilseadustik",
+    "lv": "Civilret",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Aktsia",
+    "lv": "Handling",
     "level": "C1"
   },
   {
     "de": "Abenddämmerung",
     "de_article": "die",
     "de_plural": "die Abenddämmerungen",
-    "lv": "Õhtuhämarus",
+    "lv": "Aftentusmørke",
     "level": "C1"
   },
   {
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "Advokaat",
+    "lv": "En advokat",
     "level": "C1"
   },
   {
     "de": "außergewöhnlich",
-    "lv": "Ebatavaline",
+    "lv": "Usædvanlig",
     "level": "C1"
   },
   {
     "de": "außerordentlich",
-    "lv": "Erakorraline",
+    "lv": "Ekstraordinær",
     "level": "C1"
   },
   {
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Auto numbrimärgi tähed ja numbrid",
+    "lv": "Bogstaver og tal på bilens nummerplade",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Pagariamet",
+    "lv": "Bagerens job",
     "level": "C1"
   },
   {
     "de": "bekannt geben",
-    "lv": "Teatavaks tegema",
+    "lv": "At meddele",
     "level": "C1"
   },
   {
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "Mägiturism",
+    "lv": "Bjerg turisme",
     "level": "C1"
   },
   {
     "de": "beschäftigen",
-    "lv": "Tööle võtma",
+    "lv": "Beskæftige",
     "level": "C1"
   },
   {
     "de": "sich beschäftigen",
-    "lv": "Tegelema",
+    "lv": "At besætte",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "Tegevusala",
+    "lv": "Besættelse",
     "level": "C1"
   },
   {
     "de": "beschleunigen",
-    "lv": "Kiirendama",
+    "lv": "Sæt farten op",
     "level": "C1"
   },
   {
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "Vaatamine",
+    "lv": "Inspektion",
     "level": "C1"
   },
   {
     "de": "beurteilen",
-    "lv": "Hindama",
+    "lv": "At vurdere",
     "level": "C1"
   },
   {
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Teeviadukt",
+    "lv": "Vejoverkørsel",
     "level": "C1"
   },
   {
     "de": "Eisenbahnbrücke",
     "de_article": "die",
     "de_plural": "die Eisenbahnbrücken",
-    "lv": "Raudteesild",
+    "lv": "Jernbanebro",
     "level": "C1"
   },
   {
     "de": "Dampfbügeleisen",
     "de_article": "das",
     "de_plural": "die Dampfbügeleisen",
-    "lv": "Auruga triikraud",
+    "lv": "Dampstrygejern",
     "level": "C1"
   },
   {
     "de": "Büroangestellte",
     "de_article": "der",
-    "lv": "Kontoritöötaja",
+    "lv": "Kontormedarbejder",
     "level": "C1"
   },
   {
     "de": "charakteristisch",
-    "lv": "Iseloomulik",
+    "lv": "Karakteristisk",
     "level": "C1"
   },
   {
     "de": "Diplomat",
     "de_article": "der",
     "de_plural": "die Diplomaten",
-    "lv": "Diplomaat",
+    "lv": "En diplomat",
     "level": "C1"
   },
   {
     "de": "Dokumentarfilm",
     "de_article": "der",
     "de_plural": "die Dokumentarfilme",
-    "lv": "Dokumentaalfilm",
+    "lv": "Dokumentarfilm",
     "level": "C1"
   },
   {
     "de": "durchschnittlich",
-    "lv": "Keskmiselt",
+    "lv": "I gennemsnit",
     "level": "C1"
   },
   {
     "de": "durchstreichen",
-    "lv": "Läbi kriipsutama",
+    "lv": "At slå ud",
     "level": "C1"
   },
   {
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Üksikelamu",
+    "lv": "Enkeltfamiliehus",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Üksikelamu",
-      "explanation": "Põhiidee: das Einfamilienhaus on maja ühele perele. See tähendab tavaliselt eraldiseisvat eramaja, mitte kortermaja.",
+      "translation": "Enkeltfamiliehus",
+      "explanation": "Hovedidé: das Einfamilienhaus er et hus til én familie. Det betyder normalt et parcelhus, ikke en lejlighedsbygning.",
       "examples": [
         {
           "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Nad elavad üksikelamus."
+          "lv": "De bor i et enfamiliehus."
         },
         {
           "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "Üksikelamul on aed."
+          "lv": "Enfamiliehuset har have."
         },
         {
           "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Kõrval asub kortermaja."
+          "lv": "Der er en lejlighedsbygning ved siden af."
         }
       ]
     }
@@ -387,396 +387,396 @@ const C1_WORDS = [
     "de": "Eisenbahnfahrt",
     "de_article": "die",
     "de_plural": "die Eisenbahnfahrten",
-    "lv": "Rongisõit",
+    "lv": "Togrejse",
     "level": "C1"
   },
   {
     "de": "Eisenbahnstation",
     "de_article": "die",
     "de_plural": "die Eisenbahnstationen",
-    "lv": "Raudteejaam",
+    "lv": "Jernbanestation",
     "level": "C1"
   },
   {
     "de": "ekelhaft",
-    "lv": "Vastik",
+    "lv": "Modbydelig",
     "level": "C1"
   },
   {
     "de": "Energieverbrauch",
     "de_article": "der",
     "de_plural": "die Energieverbräuche",
-    "lv": "Energiakulu",
+    "lv": "Energiforbrug",
     "level": "C1"
   },
   {
     "de": "Gartenerdbeere",
     "de_article": "die",
     "de_plural": "die Gartenerdbeeren",
-    "lv": "Aiamaasikas",
+    "lv": "Have jordbær",
     "level": "C1"
   },
   {
     "de": "erforderlich",
-    "lv": "Vajalik",
+    "lv": "Nødvendig",
     "level": "C1"
   },
   {
     "de": "fabelhaft",
-    "lv": "Suurepärane",
+    "lv": "Fremragende",
     "level": "C1"
   },
   {
     "de": "fehlerhaft",
-    "lv": "Vigane",
+    "lv": "Forkert",
     "level": "C1"
   },
   {
     "de": "folgendermaßen",
-    "lv": "Järgmiselt",
+    "lv": "Som følger",
     "level": "C1"
   },
   {
     "de": "Geburtsschein",
     "de_article": "der",
     "de_plural": "die Geburtsscheine",
-    "lv": "Sünnitunnistus",
+    "lv": "Fødselsattest",
     "level": "C1"
   },
   {
     "de": "gegeneinander",
-    "lv": "Üksteise vastu",
+    "lv": "Mod hinanden",
     "level": "C1"
   },
   {
     "de": "Gemüsegarten",
     "de_article": "der",
     "de_plural": "die Gemüsegärten",
-    "lv": "Köögiviljaaed",
+    "lv": "Grøntsagshave",
     "level": "C1"
   },
   {
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "Pagasiraam",
+    "lv": "Bagagerum",
     "level": "C1"
   },
   {
     "de": "geschäftlich",
-    "lv": "Äri-",
+    "lv": "Transaktion",
     "level": "C1"
   },
   {
     "de": "Geschäftsmann",
     "de_article": "der",
     "de_plural": "die Geschäftsleute",
-    "lv": "Ärimees",
+    "lv": "Entreprenør",
     "level": "C1"
   },
   {
     "de": "geschichtlich",
-    "lv": "Ajalooline",
+    "lv": "Historisk",
     "level": "C1"
   },
   {
     "de": "geschmacklos",
-    "lv": "Maitsetu",
+    "lv": "Smagløs",
     "level": "C1"
   },
   {
     "de": "geschmackvoll",
-    "lv": "Maitsekas",
+    "lv": "Smagfuld",
     "level": "C1"
   },
   {
     "de": "gesetzlich",
-    "lv": "Seaduslik",
+    "lv": "Legal",
     "level": "C1"
   },
   {
     "de": "Gesichtspunkt",
     "de_article": "der",
     "de_plural": "die Gesichtspunkte",
-    "lv": "Seisukoht",
+    "lv": "Udtalelse",
     "level": "C1"
   },
   {
     "de": "Gewichtheben",
     "de_article": "das",
-    "lv": "Tõstmine",
+    "lv": "Vægtløftning",
     "level": "C1"
   },
   {
     "de": "gewissenhaft",
-    "lv": "Kohusetundlik",
+    "lv": "Samvittighedsfuld",
     "level": "C1"
   },
   {
     "de": "Gipfel",
     "de_article": "der",
     "de_plural": "die Gipfel",
-    "lv": "Tipp",
+    "lv": "Spids",
     "level": "C1"
   },
   {
     "de": "Hausangestellte",
     "de_article": "die",
-    "lv": "Koduabiline",
+    "lv": "En husholderske",
     "level": "C1"
   },
   {
     "de": "hinaufklettern",
-    "lv": "Üles ronima",
+    "lv": "At klatre op",
     "level": "C1"
   },
   {
     "de": "hintereinander",
-    "lv": "Üksteise järel",
+    "lv": "Den ene bag den anden",
     "level": "C1"
   },
   {
     "de": "Hochzeitsbrauch",
     "de_article": "der",
     "de_plural": "die Hochzeitsbräuche",
-    "lv": "Pulmakomme",
+    "lv": "Bryllupsskik",
     "level": "C1"
   },
   {
     "de": "Hochzeitsfeier",
     "de_article": "die",
     "de_plural": "die Hochzeitsfeiern",
-    "lv": "Pulmapidu",
+    "lv": "Bryllupsfest",
     "level": "C1"
   },
   {
     "de": "Hochzeitsreise",
     "de_article": "die",
     "de_plural": "die Hochzeitsreisen",
-    "lv": "Mesinädalate reis",
+    "lv": "Bryllupsrejse",
     "level": "C1"
   },
   {
     "de": "identifizieren",
-    "lv": "Identifitseerima",
+    "lv": "At identificere",
     "level": "C1"
   },
   {
     "de": "Inflationsrate",
     "de_article": "die",
     "de_plural": "die Inflationsraten",
-    "lv": "Inflatsioonimäär",
+    "lv": "Inflationsrate",
     "level": "C1"
   },
   {
     "de": "Schlaginstrument",
     "de_article": "das",
     "de_plural": "die Schlaginstrumente",
-    "lv": "Löökpill",
+    "lv": "Percussion instrument",
     "level": "C1"
   },
   {
     "de": "Tasteninstrument",
     "de_article": "das",
     "de_plural": "die Tasteninstrumente",
-    "lv": "Klahvpill",
+    "lv": "Tastatur",
     "level": "C1"
   },
   {
     "de": "Jahreseinkommen",
     "de_article": "das",
     "de_plural": "die Jahreseinkommen",
-    "lv": "Aastasissetulek",
+    "lv": "Årlig indkomst",
     "level": "C1"
   },
   {
     "de": "Kabelanschluss",
     "de_article": "der",
     "de_plural": "die Kabelanschlüsse",
-    "lv": "Kaabellevi liitumine",
+    "lv": "Kabel-tv tilslutning",
     "level": "C1"
   },
   {
     "de": "Kabelfernsehen",
     "de_article": "das",
-    "lv": "Kaabeltelevisioon",
+    "lv": "Kabel-tv",
     "level": "C1"
   },
   {
     "de": "Kaltwasserhahn",
     "de_article": "der",
     "de_plural": "die Kaltwasserhähne",
-    "lv": "Külma vee kraan",
+    "lv": "Koldtvandshane",
     "level": "C1"
   },
   {
     "de": "Pressekampagne",
     "de_article": "die",
     "de_plural": "die Pressekampagnen",
-    "lv": "Ajakirjanduskampaania",
+    "lv": "Pressekampagne",
     "level": "C1"
   },
   {
     "de": "Kandidatenliste",
     "de_article": "die",
     "de_plural": "die Kandidatenlisten",
-    "lv": "Kandidaatide nimekiri",
+    "lv": "Liste over kandidater",
     "level": "C1"
   },
   {
     "de": "Klage",
     "de_article": "die",
     "de_plural": "die Klagen",
-    "lv": "Kaebus",
+    "lv": "Klage",
     "level": "C1"
   },
   {
     "de": "klagen",
-    "lv": "Kaebama",
+    "lv": "At klage",
     "level": "C1"
   },
   {
     "de": "Kostenanschlag",
     "de_article": "der",
     "de_plural": "die Kostenanschläge",
-    "lv": "Kuluprognoos",
+    "lv": "Udgiftsoverslag",
     "level": "C1"
   },
   {
     "de": "krampfhaft",
-    "lv": "Kramplik",
+    "lv": "Kramper",
     "level": "C1"
   },
   {
     "de": "Krankheitsbild",
     "de_article": "das",
     "de_plural": "die Krankheitsbilder",
-    "lv": "Haiguspilt",
+    "lv": "Sygdomsscene",
     "level": "C1"
   },
   {
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
-    "lv": "Veoauto",
+    "lv": "Tung bil",
     "level": "C1"
   },
   {
     "de": "lebhaft",
-    "lv": "Elav",
+    "lv": "Livlig",
     "level": "C1"
   },
   {
     "de": "Leichtathletik",
     "de_article": "die",
     "de_plural": "die Leichtathletiken",
-    "lv": "Kergejõustik",
+    "lv": "Atletik",
     "level": "C1"
   },
   {
     "de": "Mehrwertsteuer",
     "de_article": "die",
     "de_plural": "die Mehrwertsteuern",
-    "lv": "Käibemaks",
+    "lv": "Merværdiafgift",
     "level": "C1"
   },
   {
     "de": "Meinungsumfrage",
     "de_article": "die",
     "de_plural": "die Meinungsumfragen",
-    "lv": "Arvamusküsitlus",
+    "lv": "Meningsmåling",
     "level": "C1"
   },
   {
     "de": "Menschenrechte",
     "de_article": "die",
-    "lv": "Inimõigused",
+    "lv": "Menneskerettigheder",
     "level": "C1"
   },
   {
     "de": "Ministerium",
     "de_article": "das",
     "de_plural": "die Ministerien",
-    "lv": "Ministeerium",
+    "lv": "Ministerium",
     "level": "C1"
   },
   {
     "de": "Missverständnis",
     "de_article": "das",
     "de_plural": "die Missverständnisse",
-    "lv": "Arusaamatus",
+    "lv": "Misforståelse",
     "level": "C1"
   },
   {
     "de": "Modezeitschrift",
     "de_article": "die",
     "de_plural": "die Modezeitschriften",
-    "lv": "Moeajakiri",
+    "lv": "Modemagasin",
     "level": "C1"
   },
   {
     "de": "Morgendämmerung",
     "de_article": "die",
     "de_plural": "die Morgendämmerungen",
-    "lv": "Koidik",
+    "lv": "Daggry",
     "level": "C1"
   },
   {
     "de": "Morgengymnastik",
     "de_article": "die",
     "de_plural": "die Morgengymnastiken",
-    "lv": "Hommikvõimlemine",
+    "lv": "Daggry",
     "level": "C1"
   },
   {
     "de": "nahrhaft",
-    "lv": "Toitev",
+    "lv": "Nærende",
     "level": "C1"
   },
   {
     "de": "Nationaltracht",
     "de_article": "die",
     "de_plural": "die Nationaltrachten",
-    "lv": "Rahvarõivas",
+    "lv": "Nationaldragt",
     "level": "C1"
   },
   {
     "de": "Notar",
     "de_article": "der",
     "de_plural": "die Notare",
-    "lv": "Notar",
+    "lv": "Notarius publicus",
     "level": "C1"
   },
   {
     "de": "Notarzt",
     "de_article": "der",
     "de_plural": "die Notärzte",
-    "lv": "Kiirabiarst",
+    "lv": "Akut læge",
     "level": "C1"
   },
   {
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "Avalikkus • Avalik ruum",
+    "lv": "Samfund • Åbenhed",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "Avalikkus • Avalik ruum",
-      "explanation": "Põhiidee: die Öffentlichkeit tähendab avalikkust kui avalikku ruumi või inimesi tervikuna. Väljendis an die Öffentlichkeit kommen tähendab see avalikuks saamist.",
+      "translation": "Samfund • Åbenhed",
+      "explanation": "Hovedidé: die Öffentlichkeit betyder samfundet som det offentlige rum eller mennesker som helhed. I sætningen an die Öffentlichkeit kommen betyder det at komme i det fri.",
       "examples": [
         {
           "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Avalikkus reageeris kriitiliselt."
+          "lv": "Offentligheden reagerede kritisk."
         },
         {
           "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Juhtum sai avalikuks."
+          "lv": "Sagen kom frem."
         },
         {
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "Avalikkusel on õigus infole."
+          "lv": "Offentligheden har ret til information."
         }
       ]
     }
@@ -792,25 +792,25 @@ const C1_WORDS = [
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "Partei • Pool",
+    "lv": "Fest • Fest",
     "level": "C1",
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "Partei • Pool",
-      "explanation": "Põhiidee: die Partei on tavaliselt poliitiline partei. Juriidilises või konfliktikeeles võib see tähendada ka poolt.",
+      "translation": "Fest • Fest",
+      "explanation": "Hovedidé: die Partei er normalt et politisk parti. I juridisk eller konfliktmæssigt sprogbrug kan det også betyde en part.",
       "examples": [
         {
           "de": "Diese Partei gewann die Wahl.",
-          "lv": "See partei võitis valimised."
+          "lv": "Dette parti vandt valget."
         },
         {
           "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Ta on juba aastaid partei liige."
+          "lv": "Han har været partimedlem i årevis."
         },
         {
           "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Mõlemad pooled peavad lepingu allkirjastama."
+          "lv": "Begge parter skal underskrive kontrakten."
         }
       ]
     }
@@ -819,67 +819,67 @@ const C1_WORDS = [
     "de": "Persönlichkeit",
     "de_article": "die",
     "de_plural": "die Persönlichkeiten",
-    "lv": "Isiksus",
+    "lv": "Personlighed",
     "level": "C1"
   },
   {
     "de": "Polizeieinheit",
     "de_article": "die",
     "de_plural": "die Polizeieinheiten",
-    "lv": "Politseiüksus",
+    "lv": "Politienhed",
     "level": "C1"
   },
   {
     "de": "Polizeistreife",
     "de_article": "die",
     "de_plural": "die Polizeistreifen",
-    "lv": "Politseipatrull",
+    "lv": "Politipatrulje",
     "level": "C1"
   },
   {
     "de": "Pollenallergie",
     "de_article": "die",
     "de_plural": "die Pollenallergien",
-    "lv": "Õietolmuallergia",
+    "lv": "Pollenallergi",
     "level": "C1"
   },
   {
     "de": "Polstergarnitur",
     "de_article": "die",
     "de_plural": "die Polstergarnituren",
-    "lv": "Pehme mööbli garnituur",
+    "lv": "Polstret møbelsæt",
     "level": "C1"
   },
   {
     "de": "Premier",
     "de_article": "der",
     "de_plural": "die Premiers",
-    "lv": "Peaminister",
+    "lv": "Premierminister",
     "level": "C1"
   },
   {
     "de": "Prozess",
     "de_article": "der",
     "de_plural": "die Prozesse",
-    "lv": "Protsess • Kohtuprotsess",
+    "lv": "Proces • Retssag",
     "level": "C1",
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "Protsess • Kohtuprotsess",
-      "explanation": "Põhiidee: der Prozess on protsess või kulg. Kohtus tähendab der Prozess kohtuprotsessi.",
+      "translation": "Proces • Retssag",
+      "explanation": "Hovedidé: der Prozess er en proces eller et forløb. I retten betyder der Prozess retssag.",
       "examples": [
         {
           "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "Protsess kestab mitu kuud."
+          "lv": "Processen tager flere måneder."
         },
         {
           "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Kohtuprotsess algab homme."
+          "lv": "Retssagen starter i morgen."
         },
         {
           "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Me täiustame kogu protsessi."
+          "lv": "Vi forbedrer hele processen."
         }
       ]
     }
@@ -888,53 +888,53 @@ const C1_WORDS = [
     "de": "Prozessor",
     "de_article": "der",
     "de_plural": "die Prozessoren",
-    "lv": "Protsessor",
+    "lv": "Processor",
     "level": "C1"
   },
   {
     "de": "Radioübertragung",
     "de_article": "die",
     "de_plural": "die Radioübertragungen",
-    "lv": "Raadioülekanne",
+    "lv": "Radioudsendelse",
     "level": "C1"
   },
   {
     "de": "Rechtsanwalt",
     "de_article": "der",
     "de_plural": "die Rechtsanwälte",
-    "lv": "Advokaat",
+    "lv": "En advokat",
     "level": "C1"
   },
   {
     "de": "Rekonstruktion",
     "de_article": "die",
     "de_plural": "die Rekonstruktionen",
-    "lv": "Rekonstrueerimine",
+    "lv": "Rekonstruktion",
     "level": "C1"
   },
   {
     "de": "Rennen mit Hindernissen",
     "de_article": "das",
     "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Tõkkejooks",
+    "lv": "Forhindringsbane",
     "level": "C1"
   },
   {
     "de": "Reparaturkosten",
     "de_article": "die",
-    "lv": "Remondikulud",
+    "lv": "Reparationsomkostninger",
     "level": "C1"
   },
   {
     "de": "Rettungsstelle",
     "de_article": "die",
     "de_plural": "die Rettungsstellen",
-    "lv": "Kiirabipunkt",
+    "lv": "Førstehjælpssted",
     "level": "C1"
   },
   {
     "de": "rezeptpflichtig",
-    "lv": "Retsepti alusel",
+    "lv": "Efter recept",
     "level": "C1"
   },
   {
@@ -948,385 +948,379 @@ const C1_WORDS = [
     "de": "Scheibenwischer",
     "de_article": "der",
     "de_plural": "die Scheibenwischer",
-    "lv": "Klaasipuhastaja",
+    "lv": "Bilrudespudser",
     "level": "C1"
   },
   {
     "de": "Schiedsrichter",
     "de_article": "der",
     "de_plural": "die Schiedsrichter",
-    "lv": "Kohtunik",
+    "lv": "Dommeren",
     "level": "C1"
   },
   {
     "de": "Schlussverkauf",
     "de_article": "der",
     "de_plural": "die Schlussverkäufe",
-    "lv": "Hooajalõpu allahindlus",
+    "lv": "Salg af varer sidst på sæsonen til nedsatte priser",
     "level": "C1"
   },
   {
     "de": "schmerzhaft",
-    "lv": "Valus",
+    "lv": "Smertefuld",
     "level": "C1"
   },
   {
     "de": "Schneewittchen",
     "de_article": "das",
     "de_plural": "die Schneewittchen",
-    "lv": "Muinasjututegelane Lumivalgeke",
+    "lv": "Eventyrfigur Snehvide",
     "level": "C1"
   },
   {
     "de": "Schraubenzieher",
     "de_article": "der",
     "de_plural": "die Schraubenzieher",
-    "lv": "Kruvikeeraja",
+    "lv": "Skruetrækker",
     "level": "C1"
   },
   {
     "de": "Schutzumschlag",
     "de_article": "der",
     "de_plural": "die Schutzumschläge",
-    "lv": "Ümbrispaber",
+    "lv": "Dække",
     "level": "C1"
   },
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "Ämm ja äi",
+    "lv": "Mandens forældre",
     "level": "C1"
   },
   {
     "de": "Schwiegermutter",
     "de_article": "die",
     "de_plural": "die Schwiegermütter",
-    "lv": "Ämm",
+    "lv": "Svigermor",
     "level": "C1"
   },
   {
     "de": "Schwiegertochter",
     "de_article": "die",
     "de_plural": "die Schwiegertöchter",
-    "lv": "Minia",
+    "lv": "Svigerdatter",
     "level": "C1"
   },
   {
     "de": "Schwiegervater",
     "de_article": "der",
     "de_plural": "die Schwiegerväter",
-    "lv": "Äi",
+    "lv": "Svigerfar",
     "level": "C1"
   },
   {
     "de": "Selbstbedienung",
     "de_article": "die",
     "de_plural": "die Selbstbedienungen",
-    "lv": "Iseteenindus",
+    "lv": "Selvbetjening",
     "level": "C1"
   },
   {
     "de": "Stabhochspringen",
     "de_article": "das",
-    "lv": "Teivashüpe",
+    "lv": "Stangspring",
     "level": "C1"
   },
   {
     "de": "Stadtrundfahrt",
     "de_article": "die",
     "de_plural": "die Stadtrundfahrten",
-    "lv": "Linnaekskursioon",
+    "lv": "Bytur",
     "level": "C1"
   },
   {
     "de": "stecken bleiben",
-    "lv": "Kinni jääma",
+    "lv": "Sæt dig fast",
     "level": "C1"
   },
   {
     "de": "Stellvertreter",
     "de_article": "der",
     "de_plural": "die Stellvertreter",
-    "lv": "Asendaja",
+    "lv": "Erstatte",
     "level": "C1"
   },
   {
     "de": "Steuererklärung",
     "de_article": "die",
     "de_plural": "die Steuererklärungen",
-    "lv": "Maksudeklaratsioon",
+    "lv": "Selvangivelse",
     "level": "C1"
   },
   {
     "de": "Strampelhöschen",
     "de_article": "das",
     "de_plural": "die Strampelhöschen",
-    "lv": "Imiku roomik",
+    "lv": "Baby crawler",
     "level": "C1"
   },
   {
     "de": "Stromverbrauch",
     "de_article": "der",
     "de_plural": "die Stromverbräuche",
-    "lv": "Voolutarve",
+    "lv": "Nuværende forbrug",
     "level": "C1"
   },
   {
     "de": "Tagesnachrichten",
     "de_article": "die",
-    "lv": "Päevauudised",
+    "lv": "Dagens nyheder",
     "level": "C1"
   },
   {
     "de": "Teilzeitarbeit",
     "de_article": "die",
     "de_plural": "die Teilzeitarbeiten",
-    "lv": "Osaajaga töö",
+    "lv": "Deltidsarbejde",
     "level": "C1"
   },
   {
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "Tähtajakalender",
+    "lv": "Bemærk kalender",
     "level": "C1"
   },
   {
     "de": "Thermosflasche",
     "de_article": "die",
     "de_plural": "die Thermosflaschen",
-    "lv": "Termos",
+    "lv": "Termokande",
     "level": "C1"
   },
   {
     "de": "Tierkreiszeichen",
     "de_article": "das",
     "de_plural": "die Tierkreiszeichen",
-    "lv": "Sodiaagimärk",
+    "lv": "Stjernetegn",
     "level": "C1"
   },
   {
     "de": "transportieren",
-    "lv": "Transportima",
+    "lv": "At transportere",
     "level": "C1"
   },
   {
     "de": "Überschwemmung",
     "de_article": "die",
     "de_plural": "die Überschwemmungen",
-    "lv": "Üleujutus",
+    "lv": "Oversvømmelse",
     "level": "C1"
   },
   {
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "Ettevõte • Ettevõtmine",
+    "lv": "Firma • Event",
     "level": "C1"
   },
   {
     "de": "unterstreichen",
-    "lv": "Alla kriipsutama",
+    "lv": "At understrege",
     "level": "C1"
   },
   {
     "de": "unverständlich",
-    "lv": "Arusaamatu",
+    "lv": "Uforståelig",
     "level": "C1"
   },
   {
     "de": "Heiratsurkunde",
     "de_article": "die",
     "de_plural": "die Heiratsurkunden",
-    "lv": "Abielutunnistus",
+    "lv": "Vielsesattest",
     "level": "C1"
   },
   {
     "de": "Urteil",
     "de_article": "das",
     "de_plural": "die Urteile",
-    "lv": "Kohtuotsus",
+    "lv": "Dom",
     "level": "C1"
   },
   {
     "de": "veranstalten",
-    "lv": "Korraldama",
+    "lv": "Organisere",
     "level": "C1"
   },
   {
     "de": "verantworten",
-    "lv": "Vastutust võtma",
+    "lv": "Tag ansvar for",
     "level": "C1"
   },
   {
     "de": "Verantwortung",
     "de_article": "die",
     "de_plural": "die Verantwortungen",
-    "lv": "Vastutus",
+    "lv": "Ansvar",
     "level": "C1"
   },
   {
     "de": "Vereinbarung",
     "de_article": "die",
     "de_plural": "die Vereinbarungen",
-    "lv": "Kokkulepe",
+    "lv": "Aftale",
     "level": "C1"
   },
   {
     "de": "Vergangenheit",
     "de_article": "die",
     "de_plural": "die Vergangenheiten",
-    "lv": "Minevik",
+    "lv": "Fortiden",
     "level": "C1"
   },
   {
     "de": "Verkehrsstau",
     "de_article": "der",
     "de_plural": "die Verkehrsstaue",
-    "lv": "Liiklusummik",
+    "lv": "Trafikprop",
     "level": "C1"
   },
   {
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "Hämmeldus",
+    "lv": "Forvirring",
     "level": "C1"
   },
   {
     "de": "verschließen",
-    "lv": "Lukustama",
+    "lv": "At låse",
     "level": "C1"
   },
   {
     "de": "verschlucken",
-    "lv": "Alla neelama",
+    "lv": "At sluge",
     "level": "C1"
   },
   {
     "de": "verschwenden",
-    "lv": "Raiskama",
+    "lv": "At spilde",
     "level": "C1"
   },
   {
     "de": "Versicherung",
     "de_article": "die",
     "de_plural": "die Versicherungen",
-    "lv": "Kindlustus",
+    "lv": "Forsikring",
     "level": "C1"
   },
   {
     "de": "sich verständigen",
-    "lv": "Üksteisest aru saama",
+    "lv": "Tag dig sammen",
     "level": "C1"
   },
   {
     "de": "verständlich",
-    "lv": "Arusaadav",
+    "lv": "Forståelig",
     "level": "C1"
   },
   {
     "de": "Vertrag",
     "de_article": "der",
     "de_plural": "die Verträge",
-    "lv": "Leping",
+    "lv": "Kontrakt",
     "level": "C1"
   },
   {
     "de": "voll beschäftigt",
-    "lv": "Täiskohaga tööl",
+    "lv": "Fuldtidsansat",
     "level": "C1"
   },
   {
     "de": "Vorgesetzte",
     "de_article": "der",
     "de_plural": "die Vorgesetzten",
-    "lv": "Ülemus",
+    "lv": "Chefen",
     "level": "C1"
   },
   {
     "de": "vorteilhaft",
-    "lv": "Kasulik",
+    "lv": "Fordelagtig",
     "level": "C1"
   },
   {
     "de": "Wettbewerb",
     "de_article": "der",
     "de_plural": "die Wettbewerbe",
-    "lv": "Konkurss",
+    "lv": "Konkurrence",
     "level": "C1"
   },
   {
     "de": "sich zufrieden geben",
-    "lv": "Leppima",
+    "lv": "At tilfredsstille",
     "level": "C1"
   },
   {
     "de": "zusammenbringen",
-    "lv": "Kokku viima",
+    "lv": "Tag sammen",
     "level": "C1"
   },
   {
     "de": "zusammenfassen",
-    "lv": "Kokku võtma • Resümeerima",
+    "lv": "Opsummere • Opsummer",
     "level": "C1",
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "Kokku võtma • Resümeerima",
+      "translation": "Opsummere • Opsummer",
       "explanation": [
-        "Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.",
-        "Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade.",
-        "Ära aja segi sõnaga die Zusammenfassung — see on suure algustähe ja artikliga die nimisõna, mis tähistab kokkuvõtet ennast (tulemust, valmis teksti).",
-        "Zusammenfassen = protsess/tegevus (kokku võtma, resümeerima) • Die Zusammenfassung = tulemus (kokkuvõte nimisõnana).",
-        "Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
+        "Hovedidé: zusammenfassen er et verbum - at samle eller organisere information i en kortfattet erklæring.",
+        "Zusammenfassen bruges, når flere fakta, tekster eller tanker laves til en kort oversigt.",
+        "Ikke at forveksle med die Zusammenfassung - den med stort bogstav og artiklen die er et navneord, der betegner selve resuméet (resultat, færdig tekst).",
+        "Zusammenfassen = proces/handling (resumé, opsummering) • Die Zusammenfassung = resultat (resumé som substantiv).",
+        "Som mange tyske verber kan zusammenfassen blive et navneord med stort bogstav og en artikel: zusammenfassen → die Zusammenfassen (substantivisering)."
       ],
       "examples": [
         {
           "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Kas te saate selle teksti kokku võtta?"
+          "lv": "Kan du opsummere denne tekst?"
         },
         {
           "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Ma võtan kokku kõige tähtsamad punktid."
+          "lv": "Jeg opsummerer de vigtigste punkter."
         },
         {
           "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "Ta resümeeris lühidalt ülevaate."
+          "lv": "Han opsummerede kort anmeldelsen."
         },
         {
           "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Kokkuvõttes võib öelda, et..."
+          "lv": "Sammenfattende kan man sige, at..."
         },
         {
           "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Ma kirjutan raamatu kokkuvõtet."
+          "lv": "Jeg skriver et bogresumé."
         },
         {
           "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Kokkuvõte on liiga pikk."
+          "lv": "Resuméet er for langt."
         }
       ],
       "tip": [
-        "zusammenfassen (darbības vārds) = process — apkopot/rezumēt.",
-        "die Zusammenfassung (lietvārds, ar lielo burtu un artikulu die) = rezultāts — pats kopsavilkums."
+        "zusammenfassen (verbum) = bearbejde - at opsummere/opsummere.",
+        "die Zusammenfassung (navneord, med stort og artikel die) = resultat - selve resuméet."
       ],
       "important": [
-        "zusammenfassen = apkopot/rezumēt (darbības vārds).",
-        "die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen).",
-        "Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu)."
+        "zusammenfassen = at sammenfatte/sammenfatte (udsagnsord).",
+        "die Zusammenfassung = resumé (substantiv, substantiviseret fra zusammenfassen).",
+        "Forkert: die zusammenfassen → Korrekt: die Zusammenfassen (navneord altid med stort)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "zusammenfassen"
-          ],
           "purple": [
-            "kokku võtma",
-            "resümeerima"
-          ],
-          "green": [
-            "die Zusammenfassung"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -1338,7 +1332,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kokku võtta"
+                "Kan"
               ]
             }
           },
@@ -1351,7 +1345,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "võtan kokku"
+                "Jeg"
               ]
             }
           },
@@ -1363,7 +1357,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "resümeeris"
+                "Han"
               ]
             }
           },
@@ -1375,7 +1369,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kokkuvõttes"
+                "Sammenfattende"
               ]
             }
           },
@@ -1387,7 +1381,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kokkuvõtet"
+                "Jeg"
               ]
             }
           },
@@ -1399,7 +1393,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kokkuvõte"
+                "Resuméet"
               ]
             }
           }
@@ -1429,7 +1423,7 @@ const C1_WORDS = [
           },
           {
             "green": [
-              "die Zusammenfassung"
+              "die zusammenfassen"
             ],
             "red": [
               "die zusammenfassen"
@@ -1441,84 +1435,79 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenhängen",
-    "lv": "Seotud olema (millegagi)",
+    "lv": "At være forbundet (med)",
     "level": "C1"
   },
   {
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "Tähelepanu",
+    "lv": "Opmærksomhed",
     "level": "C1"
   },
   {
     "de": "Fernsehsendung",
     "de_article": "die",
     "de_plural": "die Fernsehsendungen",
-    "lv": "Telesaade",
+    "lv": "Tv-show",
     "level": "C1"
   },
   {
     "de": "Landschaft",
     "de_article": "die",
     "de_plural": "die Landschaften",
-    "lv": "Maastik",
+    "lv": "Landskab",
     "level": "C1"
   },
   {
     "de": "Rechtschreibung",
     "de_article": "die",
     "de_plural": "die Rechtschreibungen",
-    "lv": "Õigekiri",
+    "lv": "Stavning",
     "level": "C1"
   },
   {
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "Tänavaristmik",
+    "lv": "Gadekryds",
     "level": "C1"
   },
   {
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Valik • Valimised",
+    "lv": "Valg • Valg",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Valik • Valimised",
-      "explanation": [
-        "Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.",
-        "Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.",
-        "Väljend eine Wahl treffen tähendab valiku tegemist • Zur Wahl gehen tähendab valimistele minemist.",
-        "Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
-      ],
+      "translation": "Valg • Valg",
+      "explanation": "Die Wahl kan betyde et valg mellem muligheder. I politisk sammenhæng betyder Wahl valg. Det kan også betyde, at man stemmer selv. Udtrykket eine Wahl treffen betyder at træffe et valg. zur Wahl gehen betyder at gå til valg. Konteksten af ​​en politik eller personlig beslutning viser den korrekte betydning.",
       "examples": [
         {
           "de": "Du hast die Wahl.",
-          "lv": "Sul on valik."
+          "lv": "Du har et valg."
         },
         {
           "de": "Ich treffe meine Wahl morgen.",
-          "lv": "Ma teen oma valiku homme."
+          "lv": "Jeg træffer mit valg i morgen."
         },
         {
           "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Valimised toimuvad pühapäeval."
+          "lv": "Der afholdes valg på søndag."
         },
         {
           "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Paljud inimesed lähevad valimistele."
+          "lv": "Mange mennesker går til stemmeurnerne."
         },
         {
           "de": "Die freie Wahl ist wichtig.",
-          "lv": "Vaba valik on tähtis."
+          "lv": "Frit valg er vigtigt."
         },
         {
           "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Valimistel me hääletame."
+          "lv": "Vi stemmer ved valg."
         }
       ]
     }
@@ -1527,981 +1516,978 @@ const C1_WORDS = [
     "de": "Herausforderung",
     "de_article": "die",
     "de_plural": "die Herausforderungen",
-    "lv": "Väljakutse",
+    "lv": "En udfordring",
     "level": "C1"
   },
   {
     "de": "Abfallbeseitigung",
     "de_article": "die",
     "de_plural": "die Abfallbeseitigungen",
-    "lv": "Jäätmete kõrvaldamine",
+    "lv": "Bortskaffelse af affald",
     "level": "C1"
   },
   {
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Saadik • Esindaja • Delegaat",
+    "lv": "Suppleant • Repræsentant • Delegeret",
     "level": "C1"
   },
   {
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Kokkulepe",
+    "lv": "Aftale • Aftale",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Evakuatsiooniteenistus • Pukseerimisteenistus",
+    "lv": "Evakueringsservice • Flytteservice",
     "level": "C1"
   },
   {
     "de": "Abteilungsleiter",
     "de_article": "der",
     "de_plural": "die Abteilungsleiter",
-    "lv": "Osakonnajuhataja",
+    "lv": "Afdelingsleder",
     "level": "C1"
   },
   {
     "de": "antifaschistisch",
-    "lv": "Antifašistlik",
+    "lv": "Antifascist",
     "level": "C1"
   },
   {
     "de": "Aufenthaltsdauer",
     "de_article": "die",
     "de_plural": "die Aufenthaltsdauern",
-    "lv": "Viibimise kestus",
+    "lv": "Opholdets længde",
     "level": "C1"
   },
   {
     "de": "augenscheinlich",
-    "lv": "Ilmselt",
+    "lv": "Tilsyneladende",
     "level": "C1"
   },
   {
     "de": "Güteraustausch",
     "de_article": "der",
     "de_plural": "die Güteraustausche",
-    "lv": "Kaubavahetus",
+    "lv": "Udveksling af varer",
     "level": "C1"
   },
   {
     "de": "Flottenbasis",
     "de_article": "die",
     "de_plural": "die Flottenbasen",
-    "lv": "Laevastikubaas",
+    "lv": "Flådebase",
     "level": "C1"
   },
   {
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "Põhiuuring",
+    "lv": "Grundforskning",
     "level": "C1"
   },
   {
     "de": "beachtenswert",
-    "lv": "Tähelepanuväärne • Arvestamisväärne",
+    "lv": "Bemærkelsesværdig • Betydelig",
     "level": "C1"
   },
   {
     "de": "beanspruchen",
-    "lv": "Nõudma • Pretendeerima • Koormatud olema",
+    "lv": "Kræv • Krav • Være belastet",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "Laiatarbekaup",
+    "lv": "Forbrugsvarer",
     "level": "C1"
   },
   {
     "de": "bedingungslos",
-    "lv": "Tingimusteta",
+    "lv": "Ubetinget • Ubetinget • Uden forbehold • Uden betingelser",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Kimbatus • Segadus",
+    "lv": "Forlegenhed • Forlegenhed",
     "level": "C1"
   },
   {
     "de": "beglaubigen",
-    "lv": "Ametlikult kinnitama • Notariaalselt tõestama",
+    "lv": "Officielt certifikat • Notarius",
     "level": "C1"
   },
   {
     "de": "beglückwünschen",
-    "lv": "Õnne soovima • Õnnitlema",
+    "lv": "At ønske lykke • At lykønske",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "Kahepoolne • Vastastikune",
+    "lv": "Tosidet • Tosidet",
     "level": "C1"
   },
   {
     "de": "Familienbeihilfe",
     "de_article": "die",
     "de_plural": "die Familienbeihilfen",
-    "lv": "Peretoetus",
+    "lv": "Familieydelse",
     "level": "C1"
   },
   {
     "de": "beispielhaft",
-    "lv": "Eeskujulik",
+    "lv": "Eksemplarisk • Eksemplarisk",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "Kahetsema • Kurvastama • Leinama • Kaebama",
+    "lv": "Fortrydelse • Sorg • Sørge • Beklage • Klag",
     "level": "C1"
   },
   {
     "de": "Zahnbelag",
     "de_article": "der",
     "de_plural": "die Zahnbeläge",
-    "lv": "Hambakatt",
+    "lv": "Tandplak",
     "level": "C1"
   },
   {
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Kollektiiv • Personal",
+    "lv": "Kollektiv • Personale",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Kahjustama • Kahju tekitama",
+    "lv": "Skade • Forårsage skade • Skade",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "Tööalane nõustaja",
+    "lv": "Beskæftigelseskonsulent",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "Nõu pidama",
+    "lv": "Drøfte",
     "level": "C1"
   },
   {
     "de": "Einflussbereich",
     "de_article": "der",
     "de_plural": "die Einflussbereiche",
-    "lv": "Mõjusfäär",
+    "lv": "Indflydelsessfære",
     "level": "C1"
   },
   {
     "de": "bereitwillig",
-    "lv": "Abivalmis • Teenistusvalmis",
+    "lv": "Klar til servering • Forpligtende",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Kutsenõustamine",
+    "lv": "Faglig orienteringskonsultation",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Ametisaladus",
+    "lv": "Embedets hemmelighed",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Kutsumus • Kalduvus • Apellatsioon",
+    "lv": "Opkald • Tilbøjelighed • Appel",
     "level": "C1"
   },
   {
     "de": "Besatzungsmacht",
     "de_article": "die",
     "de_plural": "die Besatzungsmächte",
-    "lv": "Okupatsioonivõim",
+    "lv": "Besættende magt",
     "level": "C1"
   },
   {
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Omadus • Olemus",
+    "lv": "Kvalitet • Natur • Essens",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "Kinnitama • Tõendit väljastama",
+    "lv": "Certificere • Udsted et certifikat",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Tõend • Tunnistus • Kinnitus",
+    "lv": "Reference • Certifikat • Attestation • Attestation",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Arestima • Konfiskeerima • Võõrandama",
+    "lv": "Beslaglægge • Konfiskere • Ekspropriere",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Süüdistama",
+    "lv": "Anklage • Fornærmelse",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "Iseärasus",
+    "lv": "Ejendommelighed • Mærkelighed",
     "level": "C1"
   },
   {
     "de": "beträchtlich",
-    "lv": "Märkimisväärne • Üsna suur",
+    "lv": "Betydelig • Ganske stor • Betydelig",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "Ettevõtte ekspluatatsioonikulud • Tootmiskulud",
+    "lv": "Virksomhedens driftsudgifter • Produktionsomkostninger",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "Operatsioonisüsteem",
+    "lv": "Computer installationssystem",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "Volitama",
+    "lv": "Godkend • Give bemyndigelse",
     "level": "C1"
   },
   {
     "de": "bevorstehend",
-    "lv": "Eesseisev • Järgmine",
+    "lv": "Kommende • Næste",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "End tõestama • Õigustatuks osutuma",
+    "lv": "Vis sig at være sandt • Retfærdiggør",
     "level": "C1"
   },
   {
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "Materiaalsed tõendid",
+    "lv": "Fysiske beviser",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "Kandideerima • Püüdlema",
+    "lv": "Ansøg • Løb • Stræb • Aspire",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Kontaktisik • Lähedane inimene",
+    "lv": "Kontakt • Nærmeste person",
     "level": "C1"
   },
   {
     "de": "Bildhauerkunst",
     "de_article": "die",
-    "lv": "Skulptuur",
+    "lv": "Skulptur",
     "level": "C1"
   },
   {
     "de": "Bilanz",
     "de_article": "die",
     "de_plural": "die Bilanzen",
-    "lv": "Bilanss",
+    "lv": "Balance",
     "level": "C1"
   },
   {
     "de": "Finanzblockade",
     "de_article": "die",
     "de_plural": "die Finanzblockaden",
-    "lv": "Finantsblokaad",
+    "lv": "Finansiel blokade",
     "level": "C1"
   },
   {
     "de": "Blutuntersuchung",
     "de_article": "die",
     "de_plural": "die Blutuntersuchungen",
-    "lv": "Vereanalüüs",
+    "lv": "Blodanalyse",
     "level": "C1"
   },
   {
     "de": "Blutsverwandte",
     "de_article": "der",
     "de_plural": "die Blutsverwandten",
-    "lv": "Veresugulane",
+    "lv": "Blodslægtning",
     "level": "C1"
   },
   {
     "de": "Botschafter",
     "de_article": "der",
     "de_plural": "die Botschafter",
-    "lv": "Saadik",
+    "lv": "Ambassadør",
     "level": "C1"
   },
   {
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "Saksamaa Liitvabariigi kodanik",
+    "lv": "FFR borger",
     "level": "C1"
   },
   {
     "de": "Computersprache",
     "de_article": "die",
     "de_plural": "die Computersprachen",
-    "lv": "Programmeerimiskeel",
+    "lv": "Computersprog",
     "level": "C1"
   },
   {
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "Katuse pagasiraam",
+    "lv": "Bil tagbøjler",
     "level": "C1"
   },
   {
     "de": "Datenübermittlung",
     "de_article": "die",
     "de_plural": "die Datenübermittlungen",
-    "lv": "Andmeedastus",
+    "lv": "Dataoverførsel",
     "level": "C1"
   },
   {
     "de": "Datenübertragung",
     "de_article": "die",
     "de_plural": "die Datenübertragungen",
-    "lv": "Andmeedastus",
+    "lv": "Dataoverførsel",
     "level": "C1"
   },
   {
     "de": "dauerhaft",
-    "lv": "Püsiv • Pikaajaline • Vastupidav",
+    "lv": "Holdbar • Lang • Holdbar",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "Vahele tulema • Sekkuma",
+    "lv": "At ske • At ske mellem • At gribe ind",
     "level": "C1"
   },
   {
     "de": "Haushaltsdefizit",
     "de_article": "das",
     "de_plural": "die Haushaltsdefizite",
-    "lv": "Eelarvedefitsiit",
+    "lv": "Budgetunderskud",
     "level": "C1"
   },
   {
     "de": "Zolldeklaration",
     "de_article": "die",
     "de_plural": "die Zolldeklarationen",
-    "lv": "Tollideklaratsioon",
+    "lv": "Toldangivelse",
     "level": "C1"
   },
   {
     "de": "Delegation",
     "de_article": "die",
     "de_plural": "die Delegationen",
-    "lv": "Delegatsioon",
+    "lv": "Delegation",
     "level": "C1"
   },
   {
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Omandiõiguse rikkumine",
+    "lv": "Krænkelse af ejendomsrettigheder",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "Liiklusrikkumine",
+    "lv": "Overtrædelse af færdselsreglerne",
     "level": "C1"
   },
   {
     "de": "dementsprechend",
-    "lv": "Vastavalt sellele",
+    "lv": "Derfor",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "Sellest hoolimata",
+    "lv": "På trods af det • På trods af det",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "Riiklik luureteenistus",
+    "lv": "Statens efterretningstjeneste",
     "level": "C1"
   },
   {
     "de": "Rettungsdienst",
     "de_article": "der",
     "de_plural": "die Rettungsdienste",
-    "lv": "Päästeteenistus",
+    "lv": "Redningstjeneste",
     "level": "C1"
   },
   {
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Olmeteenus",
+    "lv": "Indenrigstjeneste",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Sõjaväeteenistuskohuslane",
+    "lv": "Afgivet til militærtjeneste",
     "level": "C1"
   },
   {
     "de": "diensttauglich",
-    "lv": "Sõjaväeteenistuskõlblik",
+    "lv": "Velegnet til militærtjeneste",
     "level": "C1"
   },
   {
     "de": "Dieseltreibstoff",
     "de_article": "der",
     "de_plural": "die Dieseltreibstoffe",
-    "lv": "Diislikütus",
+    "lv": "Dieselbrændstof",
     "level": "C1"
   },
   {
     "de": "Diplomatie",
     "de_article": "die",
-    "lv": "Diplomaatia",
+    "lv": "Diplomati",
     "level": "C1"
   },
   {
     "de": "diplomatisch",
-    "lv": "Diplomaatiline",
+    "lv": "Diplomatisk",
     "level": "C1"
   },
   {
     "de": "Dirigentenstab",
     "de_article": "der",
     "de_plural": "die Dirigentenstäbe",
-    "lv": "Dirigendikepp",
+    "lv": "Dirigentstafetten",
     "level": "C1"
   },
   {
     "de": "Diskettenlaufwerk",
     "de_article": "das",
     "de_plural": "die Diskettenlaufwerke",
-    "lv": "Disketiseade",
+    "lv": "Diskettedrev",
     "level": "C1"
   },
   {
     "de": "disqualifizieren",
-    "lv": "Diskvalifitseerima",
+    "lv": "Diskvalificere",
     "level": "C1"
   },
   {
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Läbisõidukeeld",
+    "lv": "Passageforbud",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "lv": "Transiitliiklus",
+    "lv": "Transittrafik",
     "level": "C1"
   },
   {
     "de": "ehrenhaft",
-    "lv": "Aus • Auväärne • Lugupeetav",
+    "lv": "Ærlig • Ærlig • Respektabel",
     "level": "C1"
   },
   {
     "de": "Einflusssphäre",
     "de_article": "die",
     "de_plural": "die Einflusssphären",
-    "lv": "Mõjusfäär",
+    "lv": "Indflydelsessfære",
     "level": "C1"
   },
   {
     "de": "eingeschrieben",
-    "lv": "Registreeritud",
+    "lv": "Optaget • Registreret",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Rahaühik",
+    "lv": "Enhed af penge",
     "level": "C1"
   },
   {
     "de": "Einkommensteuer",
     "de_article": "die",
     "de_plural": "die Einkommensteuern",
-    "lv": "Tulumaks",
+    "lv": "Indkomstskat",
     "level": "C1"
   },
   {
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "Sissemakse • Hoius • Kirja lisa",
+    "lv": "Bidrag • Depositum • Bilag til brevet",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "Sisendama • Veenda püüdma",
+    "lv": "Fortæl • Insister • Prøv at overbevise",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "Meelitama end sisse",
+    "lv": "At smigre • At smigre",
     "level": "C1"
   },
   {
     "de": "Einschreibebrief",
     "de_article": "der",
     "de_plural": "die Einschreibebriefe",
-    "lv": "Tähtkiri",
+    "lv": "Rekommanderet brev",
     "level": "C1"
   },
   {
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "Vastuväiteõigus • Vetoõigus",
+    "lv": "Protestret • Vetoret",
     "level": "C1"
   },
   {
     "de": "Einstandsgebühr",
     "de_article": "die",
     "de_plural": "die Einstandsgebühren",
-    "lv": "Liitumistasu",
+    "lv": "Indgangsgebyr",
     "level": "C1"
   },
   {
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "Üksmeel • Kokkulepe • Nõusolek",
+    "lv": "Forståelse • Konsensus • Samtykke",
     "level": "C1"
   },
   {
     "de": "Eisenbahnunglück",
     "de_article": "das",
     "de_plural": "die Eisenbahnunglücke",
-    "lv": "Raudteeõnnetus",
+    "lv": "Jernbanekatastrofe",
     "level": "C1"
   },
   {
     "de": "Eisenbahnverkehr",
     "de_article": "der",
     "de_plural": "die Eisenbahnverkehre",
-    "lv": "Raudteeliiklus",
+    "lv": "Jernbanetrafik",
     "level": "C1"
   },
   {
     "de": "Elektrizitätswerk",
     "de_article": "das",
     "de_plural": "die Elektrizitätswerke",
-    "lv": "Elektrijaam",
+    "lv": "Kraftværk",
     "level": "C1"
   },
   {
     "de": "Elementarbegriff",
     "de_article": "der",
     "de_plural": "die Elementarbegriffe",
-    "lv": "Põhimõiste",
+    "lv": "Grundlæggende koncept",
     "level": "C1"
   },
   {
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Põhireegel",
+    "lv": "Grundlov",
     "level": "C1"
   },
   {
     "de": "Energieerzeugung",
     "de_article": "die",
     "de_plural": "die Energieerzeugungen",
-    "lv": "Energiatootmine",
+    "lv": "Energiproduktion",
     "level": "C1"
   },
   {
     "de": "Energieversorgung",
     "de_article": "die",
     "de_plural": "die Energieversorgungen",
-    "lv": "Energiavarustus",
+    "lv": "Energiforsyning",
     "level": "C1"
   },
   {
     "de": "entgegensetzen",
-    "lv": "Vastandama",
+    "lv": "Set against • Set against",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "Vastu seisma",
+    "lv": "Modstå",
     "level": "C1"
   },
   {
     "de": "entschädigen",
-    "lv": "Hüvitama • Kompenseerima",
+    "lv": "Kompenser • Kompenser",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "Otsustama",
+    "lv": "At beslutte • At bestemme",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Otsustav • Kindlameelne",
+    "lv": "Determined • Determined • Urokkelig",
     "level": "C1"
   },
   {
     "de": "entschlüsseln",
-    "lv": "Dešifreerima",
+    "lv": "Dechifrere",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Seaduseelnõu",
+    "lv": "Regning",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Võõrutusravi kuur",
+    "lv": "Behandlingskursus for alkoholikere eller stofmisbrugere",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Pärilik haigus",
+    "lv": "Medfødt sygdom",
     "level": "C1"
   },
   {
     "de": "Kriegserklärung",
     "de_article": "die",
     "de_plural": "die Kriegserklärungen",
-    "lv": "Sõjakuulutus",
+    "lv": "Krigserklæring",
     "level": "C1"
   },
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Saagikoristustööd",
+    "lv": "Høstoperationer",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Reservväelane • Reservmängija",
+    "lv": "Reservespiller • Reservespiller",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Esietendus",
+    "lv": "Premiere • Premiere",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
-    "lv": "Kindlaks määratud",
+    "lv": "Bestemt • Betinget • Fastlagt",
     "level": "C1"
   },
   {
     "de": "feuergefährlich",
-    "lv": "Tuleohtlik",
+    "lv": "Brandsikker",
     "level": "C1"
   },
   {
     "de": "Feuerversicherung",
     "de_article": "die",
     "de_plural": "die Feuerversicherungen",
-    "lv": "Tulekindlustus",
+    "lv": "Brandforsikring",
     "level": "C1"
   },
   {
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Ilutulestikurakett",
+    "lv": "Raket til fyrværkeri",
     "level": "C1"
   },
   {
     "de": "Fleckenentferner",
     "de_article": "der",
     "de_plural": "die Fleckenentferner",
-    "lv": "Plekieemaldi",
+    "lv": "Pletfjerner",
     "level": "C1"
   },
   {
     "de": "Flüchtlingslager",
     "de_article": "das",
     "de_plural": "die Flüchtlingslager",
-    "lv": "Pagulaslaager",
+    "lv": "Flygtningelejr",
     "level": "C1"
   },
   {
     "de": "Fortbildungskurse",
     "de_article": "die",
-    "lv": "Täienduskoolituskursused",
+    "lv": "Faglige udviklingskurser",
     "level": "C1"
   },
   {
     "de": "fortgeschritten",
-    "lv": "Üsna hilises arengujärgus",
+    "lv": "Relativt sent i udviklingen",
     "level": "C1"
   },
   {
     "de": "fortschrittlich",
-    "lv": "Progressiivne",
+    "lv": "Progressiv",
     "level": "C1"
   },
   {
     "de": "Freilichtmuseum",
     "de_article": "das",
     "de_plural": "die Freilichtmuseen",
-    "lv": "Vabaõhumuuseum",
+    "lv": "Frilandsmuseum",
     "level": "C1"
   },
   {
     "de": "Friedensangebot",
     "de_article": "das",
     "de_plural": "die Friedensangebote",
-    "lv": "Rahupakkumine",
+    "lv": "Et fredsoffer",
     "level": "C1"
   },
   {
     "de": "Friedensvertrag",
     "de_article": "der",
     "de_plural": "die Friedensverträge",
-    "lv": "Rahuleping",
+    "lv": "Fredstraktat",
     "level": "C1"
   },
   {
     "de": "Friedenspolitik",
     "de_article": "die",
     "de_plural": "die Friedenspolitiken",
-    "lv": "Rahupoliitika",
+    "lv": "Fredspolitik",
     "level": "C1"
   },
   {
     "de": "Führunternehmen",
     "de_article": "das",
     "de_plural": "die Führunternehmen",
-    "lv": "Kravas transporta uzņēmums",
+    "lv": "Godstransportfirma",
     "level": "C1"
   },
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Sotsiaalhoolekanne",
+    "lv": "Social sikring",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Taipamisvõime",
+    "lv": "Perceptiv evne",
     "level": "C1"
   },
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "Kasutatud asjad",
+    "lv": "Brugte varer",
     "level": "C1"
   },
   {
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "Sündimuse tase",
+    "lv": "Fødselsrate",
     "level": "C1"
   },
   {
     "de": "Gefängniszelle",
     "de_article": "die",
     "de_plural": "die Gefängniszellen",
-    "lv": "Vanglakamber",
+    "lv": "Fængselscelle",
     "level": "C1"
   },
   {
     "de": "Gefäßverengung",
     "de_article": "die",
     "de_plural": "die Gefäßverengungen",
-    "lv": "Veresoonte ahenemine",
+    "lv": "Forsnævring af blodkar",
     "level": "C1"
   },
   {
     "de": "Geflügelzucht",
     "de_article": "die",
     "de_plural": "die Geflügelzuchten",
-    "lv": "Linnukasvatus",
+    "lv": "Fjerkræavl",
     "level": "C1"
   },
   {
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "Külmumispunkt • Nullpunkt",
+    "lv": "Frysepunkt • Nulpunkt",
     "level": "C1"
   },
   {
     "de": "Gehaltskürzung",
     "de_article": "die",
     "de_plural": "die Gehaltskürzungen",
-    "lv": "Palgakärbe",
+    "lv": "Lønnedsættelse",
     "level": "C1"
   },
   {
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "Pihisaladus",
+    "lv": "En tilstået hemmelighed",
     "level": "C1"
   },
   {
     "de": "Gehirnschlag",
     "de_article": "der",
     "de_plural": "die Gehirnschläge",
-    "lv": "Insult",
+    "lv": "Et slagtilfælde",
     "level": "C1"
   },
   {
     "de": "Geisterstunde",
     "de_article": "die",
     "de_plural": "die Geisterstunden",
-    "lv": "Kummituste tund",
+    "lv": "Spøgelsestime",
     "level": "C1"
   },
   {
     "de": "geistesabwesend",
-    "lv": "Hajevil",
+    "lv": "Distraheret",
     "level": "C1"
   },
   {
     "de": "geisteskrank",
-    "lv": "Vaimuhaige",
+    "lv": "Psykisk syg",
     "level": "C1"
   },
   {
     "de": "geistesschwach",
-    "lv": "Vaimupuudega",
+    "lv": "Svag i ånden • Bevidst",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Maastikusõit",
+    "lv": "Langrendstur",
     "level": "C1"
   },
   {
     "de": "Geldentwertung",
     "de_article": "die",
     "de_plural": "die Geldentwertungen",
-    "lv": "Inflatsioon",
+    "lv": "Inflation",
     "level": "C1"
   },
   {
     "de": "gelegentlich",
-    "lv": "Aeg-ajalt • Juhuslik • Seoses",
+    "lv": "Nogle gange • Anledning • Pga",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Aeg-ajalt • Juhuslik • Seoses",
-      "explanation": "Põhiidee: gelegentlich on kolme funktsiooniga sõna. Omadussõna: juhuslik (ein gelegentlicher Besuch). Määrsõna: aeg-ajalt (Er kommt gelegentlich). Eessõna + genitiiv: seoses (gelegentlich des Festes).",
+      "translation": "Nogle gange • Anledning • Pga",
+      "explanation": "Hovedidé: gelegentlich er et ord med tre funktioner. Adjektiv: afslappet (ein gelegentlicher Besuch). Adverbium: nogle gange, fra tid til anden (Er kommt gelegentlich). Præposition + dativ: på grund af (gelegentlich des Festes).",
       "examples": [
         {
           "de": "Er kommt gelegentlich vorbei.",
-          "lv": "Ta astub aeg-ajalt läbi."
+          "lv": "Han kigger forbi nogle gange."
         },
         {
           "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Juhuslikust külastusest piisab."
+          "lv": "Et lejlighedsvis besøg er nok."
         },
         {
           "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Peo puhul peeti kõne."
+          "lv": "Der blev holdt tale i anledning af højtiden."
         }
       ],
       "comparison": [
         {
           "word": "gelegentlich (Adv.)",
-          "meaning": "Aeg-ajalt",
-          "example": "Er kommt gelegentlich. = Ta tuleb aeg-ajalt."
+          "meaning": "Nogle gange • Nu og da",
+          "example": "Er kommt gelegentlich. = Han kommer nogle gange."
         },
         {
           "word": "gelegentlich (Adj.)",
-          "meaning": "Juhuslik",
-          "example": "ein gelegentlicher Besuch = Juhuslik külaskäik"
+          "meaning": "Casual • Tilfældig",
+          "example": "ein gelegentlicher Besuch = Uformelt besøg"
         },
         {
           "word": "gelegentlich (+ Gen.)",
-          "meaning": "Seoses",
-          "example": "gelegentlich des Festes = Peo puhul"
+          "meaning": "Pga",
+          "example": "gelegentlich des Festes = På grund af ferie"
         },
         {
           "word": "manchmal",
-          "meaning": "Vahel",
-          "example": "Manchmal regnet es. = Vahel sajab."
+          "meaning": "Undertiden",
+          "example": "Manchmal regnet es. = Nogle gange regner det."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Positsioon lauses aitab: enne nimisõna = omadussõna • Pärast tegusõna = määrsõna • + genitiiv = eessõna."
+            "text": "Position i en sætning hjælper: før substantiv = adjektiv • Efter verbum = adverbium • + genitiv = præposition."
           }
         ]
       },
       "important": {
-        "text": "Adj: juhuslik. Adv: aeg-ajalt. Prep. + Gen.: seoses. Kontekst määrab tähenduse."
+        "text": "Adj.: afslappet. Adv.: nogle gange. Prep. + Gen.: pga. Kontekst bestemmer betydningen."
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "gelegentlich"
-          ],
           "purple": [
-            "aeg-ajalt",
-            "juhuslik",
-            "seoses"
+            "Hovedidé",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -2513,7 +2499,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aeg-ajalt"
+                "Han"
               ]
             }
           },
@@ -2525,7 +2511,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juhuslik"
+                "lejlighedsvis"
               ]
             }
           },
@@ -2537,7 +2523,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puhul"
+                "Der"
               ]
             }
           }
@@ -2549,1327 +2535,1324 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "Maaligalerii",
+    "lv": "Maleri galleri",
     "level": "C1"
   },
   {
     "de": "Gemäldesammlung",
     "de_article": "die",
     "de_plural": "die Gemäldesammlungen",
-    "lv": "Maalikogu",
+    "lv": "En samling af malerier",
     "level": "C1"
   },
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "Ühiskondlik omand",
+    "lv": "Offentlig ejendom",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Lahke ja heasüdamlik inimene",
+    "lv": "Venlig og venlig person",
     "level": "C1"
   },
   {
     "de": "Genmanipulation",
     "de_article": "die",
     "de_plural": "die Genmanipulationen",
-    "lv": "Geenimuundamine",
+    "lv": "Genmodifikation",
     "level": "C1"
   },
   {
     "de": "Generalprobe",
     "de_article": "die",
     "de_plural": "die Generalproben",
-    "lv": "Peaproov",
+    "lv": "Generalprøve",
     "level": "C1"
   },
   {
     "de": "Generalstreik",
     "de_article": "der",
     "de_plural": "die Generalstreiks",
-    "lv": "Üldstreik",
+    "lv": "Generalstrejke",
     "level": "C1"
   },
   {
     "de": "genmanipuliert",
-    "lv": "Geneetiliselt muundatud",
+    "lv": "Med modificerede gener",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "Pagasitõend",
+    "lv": "Bagage kvittering",
     "level": "C1"
   },
   {
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Harjumus • Komme",
+    "lv": "Brugerdefineret • Brugerdefineret",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "Sirgeks ajama • Parandama",
+    "lv": "Ret ud • Korrekt",
     "level": "C1"
   },
   {
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "Vandekohus",
+    "lv": "Jury-retssag",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Kohtukoda • Tribunal",
+    "lv": "Retssal • Tribunal",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "Põlglik • Halvustav",
+    "lv": "Hånlig • Foragtelig • Foragtelig",
     "level": "C1"
   },
   {
     "de": "Gesamteindruck",
     "de_article": "der",
     "de_plural": "die Gesamteindrücke",
-    "lv": "Üldmulje",
+    "lv": "Helhedsindtryk",
     "level": "C1"
   },
   {
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Lõpptulemus",
+    "lv": "Slutresultat • Slutresultat",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Saatkond",
+    "lv": "Ambassade",
     "level": "C1"
   },
   {
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "Kaubamaja",
+    "lv": "Handelshus",
     "level": "C1"
   },
   {
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Majandusaasta",
+    "lv": "Gårdår",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Suguküpseks saanud",
+    "lv": "Har nået seksuel modenhed",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "Seadustik",
+    "lv": "Codex • Samling af love",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "Seadusandlik",
+    "lv": "Lovgiver",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Seadusevastane",
+    "lv": "Ulovlig",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Seaduslik • Seaduspärane",
+    "lv": "Lovlig • Lovlig",
     "level": "C1"
   },
   {
     "de": "gesetzwidrig",
-    "lv": "Seadusevastane",
+    "lv": "Mod loven",
     "level": "C1"
   },
   {
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Silmaring • Horisont",
+    "lv": "Horisont • Horisont",
     "level": "C1"
   },
   {
     "de": "Gewinnanteil",
     "de_article": "der",
     "de_plural": "die Gewinnanteile",
-    "lv": "Kasumiosa",
+    "lv": "Overskudsandel",
     "level": "C1"
   },
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "Südametunnistuse piinad",
+    "lv": "Anger",
     "level": "C1"
   },
   {
     "de": "gewissermaßen",
-    "lv": "Teataval määral • Omal moel • Nii-öelda",
+    "lv": "Til en vis grad • I en vis forstand • Så at sige",
     "level": "C1"
   },
   {
     "de": "glaubhaft",
-    "lv": "Usutav • Veenev",
+    "lv": "Troværdig • Overbevisende",
     "level": "C1"
   },
   {
     "de": "gleichberechtigt",
-    "lv": "Võrdõiguslik",
+    "lv": "Lige • Med lige rettigheder",
     "level": "C1"
   },
   {
     "de": "Götzenverehrung",
     "de_article": "die",
     "de_plural": "die Götzenverehrungen",
-    "lv": "Ebajumalateenistus",
+    "lv": "Afgudsdyrkelse",
     "level": "C1"
   },
   {
     "de": "Grenzverletzung",
     "de_article": "die",
     "de_plural": "die Grenzverletzungen",
-    "lv": "Piiririkkumine",
+    "lv": "Grænseovertrædelse",
     "level": "C1"
   },
   {
     "de": "Grundgesetz",
     "de_article": "das",
     "de_plural": "die Grundgesetze",
-    "lv": "Põhiseadus",
+    "lv": "Grundlov • Grundlov",
     "level": "C1"
   },
   {
     "de": "Gütertransport",
     "de_article": "der",
     "de_plural": "die Gütertransporte",
-    "lv": "Kaubavedu",
+    "lv": "Transport af varer",
     "level": "C1"
   },
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Vahi all olek • Arest",
+    "lv": "Frihedsberøvelse • Anholdelse",
     "level": "C1"
   },
   {
     "de": "Haftbefehl",
     "de_article": "der",
     "de_plural": "die Haftbefehle",
-    "lv": "Vahistamismäärus",
+    "lv": "Arrestordre",
     "level": "C1"
   },
   {
     "de": "haften",
-    "lv": "Kinni jääma • Küljes olema",
+    "lv": "Stick • At sidde fast",
     "level": "C1"
   },
   {
     "de": "Haftung",
     "de_article": "die",
     "de_plural": "die Haftungen",
-    "lv": "Vastutus",
+    "lv": "Ansvar",
     "level": "C1"
   },
   {
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Säilivusaeg",
+    "lv": "Opbevaringstid",
     "level": "C1"
   },
   {
     "de": "Handelspartner",
     "de_article": "der",
     "de_plural": "die Handelspartner",
-    "lv": "Kaubanduspartner",
+    "lv": "Handelspartner",
     "level": "C1"
   },
   {
     "de": "Handelsvertretung",
     "de_article": "die",
     "de_plural": "die Handelsvertretungen",
-    "lv": "Kaubandusesindus",
+    "lv": "Handelsrepræsentation",
     "level": "C1"
   },
   {
     "de": "Hauptversammlung",
     "de_article": "die",
     "de_plural": "die Hauptversammlungen",
-    "lv": "Üldkoosolek",
+    "lv": "Generalforsamling",
     "level": "C1"
   },
   {
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "Politseiläbiotsimine",
+    "lv": "Politiets eftersøgning",
     "level": "C1"
   },
   {
     "de": "Haushaltsartikel",
     "de_article": "der",
     "de_plural": "die Haushaltsartikel",
-    "lv": "Majapidamiskaup",
+    "lv": "Husholdningsgenstande",
     "level": "C1"
   },
   {
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "Palgaline koduabiline",
+    "lv": "Betalt hjælp i husholdningen",
     "level": "C1"
   },
   {
     "de": "Hautentzündung",
     "de_article": "die",
     "de_plural": "die Hautentzündungen",
-    "lv": "Nahapõletik",
+    "lv": "Hudbetændelse",
     "level": "C1"
   },
   {
     "de": "heldenhaft",
-    "lv": "Kangelaslik",
+    "lv": "Heroisk",
     "level": "C1"
   },
   {
     "de": "Herrschaft",
     "de_article": "die",
     "de_plural": "die Herrschaften",
-    "lv": "Valitsemine • Võim",
+    "lv": "Herredømme • Magt",
     "level": "C1"
   },
   {
     "de": "herunterkommen",
-    "lv": "Alla käima • Viletsaks jääma",
+    "lv": "Kom ned • Forfald • Forfald • Synk",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "Alla kukkuma",
+    "lv": "Fald til jorden • Fald til jorden",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "End kaasa haarata laskma",
+    "lv": "Bliv spændt",
     "level": "C1"
   },
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "lv": "Tööstuslikud heitgaasid",
+    "lv": "Industrielle udstødningsgasser",
     "level": "C1"
   },
   {
     "de": "Industrieabwässer",
     "de_article": "die",
-    "lv": "Tööstuslikud reoveed",
+    "lv": "Industrielt spildevand",
     "level": "C1"
   },
   {
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "Tööstuskompleks",
+    "lv": "Industrielt kompleks",
     "level": "C1"
   },
   {
     "de": "inhaftieren",
-    "lv": "Vahistama",
+    "lv": "At arrestere",
     "level": "C1"
   },
   {
     "de": "Innenarchitekt",
     "de_article": "der",
     "de_plural": "die Innenarchitekten",
-    "lv": "Sisearhitekt",
+    "lv": "Indretningsarkitekt",
     "level": "C1"
   },
   {
     "de": "Innenminister",
     "de_article": "der",
     "de_plural": "die Innenminister",
-    "lv": "Siseminister",
+    "lv": "Indenrigsministeren",
     "level": "C1"
   },
   {
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "Haigla intensiivravi osakond",
+    "lv": "Intensiv afdeling på hospitalet",
     "level": "C1"
   },
   {
     "de": "interpretieren",
-    "lv": "Tõlgendama • Selgitama",
+    "lv": "Fortolke • Forklar",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Õigusemõistmine • Justiits",
+    "lv": "Retfærdighed • Retssager",
     "level": "C1"
   },
   {
     "de": "Kabinettsitzung",
     "de_article": "die",
     "de_plural": "die Kabinettsitzungen",
-    "lv": "Kabinetiistung",
+    "lv": "Kabinetsmøde",
     "level": "C1"
   },
   {
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "Eriti raske kuritegu",
+    "lv": "En særlig alvorlig forbrydelse",
     "level": "C1"
   },
   {
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "Tagatis • Kautsjon • Garantii",
+    "lv": "Pant • Kaution • Kaution • Garanti",
     "level": "C1"
   },
   {
     "de": "Koalition",
     "de_article": "die",
     "de_plural": "die Koalitionen",
-    "lv": "Koalitsioon",
+    "lv": "Koalition",
     "level": "C1"
   },
   {
     "de": "körperbehindert",
-    "lv": "Füüsilise puudega inimene",
+    "lv": "Fysisk handicappet",
     "level": "C1"
   },
   {
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "Haigustekitaja",
+    "lv": "Sygdomsmiddel",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Sõjainvaliid",
+    "lv": "En krigsinvalid",
     "level": "C1"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Sõjavang",
+    "lv": "En krigsfange",
     "level": "C1"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Kabinetikriis",
+    "lv": "Regeringskrise",
     "level": "C1"
   },
   {
     "de": "Lawinenwarnung",
     "de_article": "die",
     "de_plural": "die Lawinenwarnungen",
-    "lv": "Laviinihoiatus",
+    "lv": "Advarsel om lavine",
     "level": "C1"
   },
   {
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "Keskmine eluiga",
+    "lv": "Gennemsnitlig forventet levetid",
     "level": "C1"
   },
   {
     "de": "lebensgefährlich",
-    "lv": "Eluohtlik • Ohtlik",
+    "lv": "Livstruende • Farlig",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Vabaabikaasa",
+    "lv": "Ægtefælle i et uregistreret ægteskab",
     "level": "C1"
   },
   {
     "de": "Lebensstandard",
     "de_article": "der",
     "de_plural": "die Lebensstandards",
-    "lv": "Elatustase",
+    "lv": "Levestandard",
     "level": "C1"
   },
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Tippspord",
+    "lv": "Professionel sport",
     "level": "C1"
   },
   {
     "de": "lichtempfindlich",
-    "lv": "Valgustundlik",
+    "lv": "Lysfølsom",
     "level": "C1"
   },
   {
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Armusuhe",
+    "lv": "Intime forhold",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "Armastusavaldus",
+    "lv": "Opdagelsen af ​​kærlighed",
     "level": "C1"
   },
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "lv": "Vasakäärmuslus",
+    "lv": "Venstre-ekstremisme",
     "level": "C1"
   },
   {
     "de": "Machtergreifung",
     "de_article": "die",
     "de_plural": "die Machtergreifungen",
-    "lv": "Võimuhaaramine",
+    "lv": "Overtagelse af magt",
     "level": "C1"
   },
   {
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Võimuülevõtmine",
+    "lv": "Overtagelse af magt",
     "level": "C1"
   },
   {
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "Magnetriba (krediitkaardil)",
+    "lv": "Magnetstribe (på et kreditkort)",
     "level": "C1"
   },
   {
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Tiibrakett",
+    "lv": "Krydsermissil • Krydsermissil",
     "level": "C1"
   },
   {
     "de": "Massenherstellung",
     "de_article": "die",
     "de_plural": "die Massenherstellungen",
-    "lv": "Masstootmine",
+    "lv": "Masseproduktion",
     "level": "C1"
   },
   {
     "de": "materialistisch",
-    "lv": "Materialistlik",
+    "lv": "Materialistisk",
     "level": "C1"
   },
   {
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "Tahtlik valeütlus kohtus",
+    "lv": "Bevidst mened i retten",
     "level": "C1"
   },
   {
     "de": "menschenfeindlich",
-    "lv": "Inimestevaenulik",
+    "lv": "Fjendtlig over for mennesker",
     "level": "C1"
   },
   {
     "de": "militärpflichtig",
-    "lv": "Ajateenistuskohuslane",
+    "lv": "Med forbehold for militærtjeneste",
     "level": "C1"
   },
   {
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Teatmeteos • Sõnaraamat • Entsüklopeedia",
+    "lv": "Referencelitteratur • Ordbog • Encyklopædi",
     "level": "C1"
   },
   {
     "de": "namhaft",
-    "lv": "Kuulus • Silmapaistev",
+    "lv": "Berømt • Bemærkelsesværdig",
     "level": "C1"
   },
   {
     "de": "Nichtangriffspakt",
     "de_article": "der",
     "de_plural": "die Nichtangriffspakte",
-    "lv": "Mittekallaletungileping",
+    "lv": "Ikke-angrebspagt",
     "level": "C1"
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Masendunud • Depressioonis",
+    "lv": "Deprimeret • Deprimeret",
     "level": "C1"
   },
   {
     "de": "Ölembargo",
     "de_article": "das",
     "de_plural": "die Ölembargos",
-    "lv": "Naftaembargo",
+    "lv": "Olieembargo",
     "level": "C1"
   },
   {
     "de": "Oppositionsführer",
     "de_article": "der",
     "de_plural": "die Oppositionsführer",
-    "lv": "Opositsioonijuht",
+    "lv": "Lederen af ​​oppositionen",
     "level": "C1"
   },
   {
     "de": "Oppositionspartei",
     "de_article": "die",
     "de_plural": "die Oppositionsparteien",
-    "lv": "Opositsioonipartei",
+    "lv": "Oppositionsparti",
     "level": "C1"
   },
   {
     "de": "Originalausgabe",
     "de_article": "die",
     "de_plural": "die Originalausgaben",
-    "lv": "Originaalväljaanne",
+    "lv": "Original udgave",
     "level": "C1"
   },
   {
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "Originaalversioon",
+    "lv": "Original variant",
     "level": "C1"
   },
   {
     "de": "Originalgemälde",
     "de_article": "das",
     "de_plural": "die Originalgemälde",
-    "lv": "Originaalmaal",
+    "lv": "Originalt maleri",
     "level": "C1"
   },
   {
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "Parteitöötaja",
+    "lv": "Partiarbejder",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "Kohustuslik kirjandus",
+    "lv": "Obligatorisk studielitteratur",
     "level": "C1"
   },
   {
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "Konkursiküsimus",
+    "lv": "Konkurrence spørgsmål",
     "level": "C1"
   },
   {
     "de": "Pressefreiheit",
     "de_article": "die",
     "de_plural": "die Pressefreiheiten",
-    "lv": "Ajakirjandusvabadus",
+    "lv": "Pressefrihed",
     "level": "C1"
   },
   {
     "de": "Pressevertreter",
     "de_article": "der",
     "de_plural": "die Pressevertreter",
-    "lv": "Ajakirjanduse esindaja",
+    "lv": "Presserepræsentant",
     "level": "C1"
   },
   {
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "Pressiteade",
+    "lv": "Pressemeddelelse",
     "level": "C1"
   },
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "Tootmise omahind",
+    "lv": "Produktionsomkostninger",
     "level": "C1"
   },
   {
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "Tootmisviis",
+    "lv": "Produktionstype",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Raudtee sorteerimisjaam",
+    "lv": "Jernbanegård",
     "level": "C1"
   },
   {
     "de": "rätselhaft",
-    "lv": "Salapärane • Arusaamatu",
+    "lv": "Gådefuld • Uforståeligt",
     "level": "C1"
   },
   {
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "Sisekujundaja",
+    "lv": "En indretningsarkitekt",
     "level": "C1"
   },
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Aruandekohustus • Vastutus",
+    "lv": "Ansvarlighed (for ens handlinger) • Ansvar",
     "level": "C1"
   },
   {
     "de": "rechtswidrig",
-    "lv": "Ebaseaduslikult",
+    "lv": "Ulovlig",
     "level": "C1"
   },
   {
     "de": "Regenbogenpresse",
     "de_article": "die",
     "de_plural": "die Regenbogenpressen",
-    "lv": "Kollane ajakirjandus",
+    "lv": "Tabloidpresse",
     "level": "C1"
   },
   {
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "Peaminister • Valitsusjuht",
+    "lv": "Statsminister • Regeringschef",
     "level": "C1"
   },
   {
     "de": "Regierungspartei",
     "de_article": "die",
     "de_plural": "die Regierungsparteien",
-    "lv": "Valitsuspartei",
+    "lv": "Regeringsparti",
     "level": "C1"
   },
   {
     "de": "Regierungswechsel",
     "de_article": "der",
     "de_plural": "die Regierungswechsel",
-    "lv": "Valitsusvahetus",
+    "lv": "Regeringsskifte",
     "level": "C1"
   },
   {
     "de": "Rentenanspruch",
     "de_article": "der",
     "de_plural": "die Rentenansprüche",
-    "lv": "Pensioniõigus",
+    "lv": "Ret til pension",
     "level": "C1"
   },
   {
     "de": "Rentenempfänger",
     "de_article": "der",
     "de_plural": "die Rentenempfänger",
-    "lv": "Pensionisaaja",
+    "lv": "Pensionist",
     "level": "C1"
   },
   {
     "de": "republikanisch",
-    "lv": "Vabariiklik",
+    "lv": "Republikanske • Republikker",
     "level": "C1"
   },
   {
     "de": "Sanktion",
     "de_article": "die",
     "de_plural": "die Sanktionen",
-    "lv": "Sanktsioon",
+    "lv": "Sanktion",
     "level": "C1"
   },
   {
     "de": "sanktionieren",
-    "lv": "Toetama • Sanktsioneerima",
+    "lv": "Support • Sanktion",
     "level": "C1"
   },
   {
     "de": "Lüftungsschacht",
     "de_article": "der",
     "de_plural": "die Lüftungsschächte",
-    "lv": "Ventilatsioonišaht",
+    "lv": "Ventilationsskakt",
     "level": "C1"
   },
   {
     "de": "Scheidungsgrund",
     "de_article": "der",
     "de_plural": "die Scheidungsgründe",
-    "lv": "Lahutuse põhjus",
+    "lv": "Årsag til skilsmisse",
     "level": "C1"
   },
   {
     "de": "Schicksalsschlag",
     "de_article": "der",
     "de_plural": "die Schicksalsschläge",
-    "lv": "Saatuselöök",
+    "lv": "Et skæbneslag",
     "level": "C1"
   },
   {
     "de": "schmerzstillend",
-    "lv": "Valuvaigistav",
+    "lv": "Smertestillende",
     "level": "C1"
   },
   {
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "Süüdistusakt",
+    "lv": "Anklage",
     "level": "C1"
   },
   {
     "de": "Schwerindustrie",
     "de_article": "die",
     "de_plural": "die Schwerindustrien",
-    "lv": "Rasketööstus",
+    "lv": "Tung industri",
     "level": "C1"
   },
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "Purilennusport",
+    "lv": "Svæveflyvning",
     "level": "C1"
   },
   {
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Omavalitsus",
+    "lv": "Kommune",
     "level": "C1"
   },
   {
     "de": "selbstzufrieden",
-    "lv": "Enesega rahulolev",
+    "lv": "Selvglad",
     "level": "C1"
   },
   {
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Sensatsiooniline teade",
+    "lv": "Sensationel udtalelse",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Paikne",
+    "lv": "Bor ét sted • Camper",
     "level": "C1"
   },
   {
     "de": "Sinfonieorchester",
     "de_article": "das",
     "de_plural": "die Sinfonieorchester",
-    "lv": "Sümfooniaorkester",
+    "lv": "Symfoniorkester",
     "level": "C1"
   },
   {
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "Hallutsinatsioon",
+    "lv": "Hallucination",
     "level": "C1"
   },
   {
     "de": "Konfliktsituation",
     "de_article": "die",
     "de_plural": "die Konfliktsituationen",
-    "lv": "Konfliktolukord",
+    "lv": "Konflikt situation",
     "level": "C1"
   },
   {
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "Kriisiolukord • Kriis",
+    "lv": "Krisesituation • Krise",
     "level": "C1"
   },
   {
     "de": "Sommersonnenwende",
     "de_article": "die",
     "de_plural": "die Sommersonnenwenden",
-    "lv": "Suvine pööripäev",
+    "lv": "Sommersolhverv",
     "level": "C1"
   },
   {
     "de": "Sonnenfinsternis",
     "de_article": "die",
     "de_plural": "die Sonnenfinsternisse",
-    "lv": "Päikesevarjutus",
+    "lv": "Solformørkelse",
     "level": "C1"
   },
   {
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Rekord • Tippsaavutus • Maksimaalne võimsus",
+    "lv": "Rekord • Højeste præstation • Tekn. maksimal effekt",
     "level": "C1"
   },
   {
     "de": "Staatsangehörige",
     "de_article": "der",
     "de_plural": "die Staatsangehörigen",
-    "lv": "Kodanik",
+    "lv": "Statsborger",
     "level": "C1"
   },
   {
     "de": "Staatsanwalt",
     "de_article": "der",
     "de_plural": "die Staatsanwälte",
-    "lv": "Prokurör",
+    "lv": "Anklager",
     "level": "C1"
   },
   {
     "de": "Staatsgeheimnis",
     "de_article": "das",
     "de_plural": "die Staatsgeheimnisse",
-    "lv": "Riigisaladus",
+    "lv": "Statshemmelighed",
     "level": "C1"
   },
   {
     "de": "Steuereinnahmen",
     "de_article": "die",
-    "lv": "Maksutulu",
+    "lv": "Skatteindtægter",
     "level": "C1"
   },
   {
     "de": "stimmberechtigt",
-    "lv": "Hääleõiguslik",
+    "lv": "Stemmeret",
     "level": "C1"
   },
   {
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "Ülikooli sisseastuja",
+    "lv": "Universitetsansøger",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "Filmi dubleerima",
+    "lv": "Dub filmen",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "Päevatulu",
+    "lv": "Daglig indtjening",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Otsene vereülekanne inimeselt inimesele",
+    "lv": "Direkte blodtransfusion fra én person til en anden",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "Üle koormama • End üle pingutama",
+    "lv": "At overarbejde • Sich ü. ved overarbejde",
     "level": "C1"
   },
   {
     "de": "Überbevölkerung",
     "de_article": "die",
     "de_plural": "die Überbevölkerungen",
-    "lv": "Ülerahvastatus",
+    "lv": "Overbefolkning",
     "level": "C1"
   },
   {
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Jäänused",
+    "lv": "Overskud • Rester",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Kokku sobima • Kellegagi ühel meelel olema",
+    "lv": "Enig • Enig med nogen",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Jääk • Ülejääk",
+    "lv": "Resten • Overskud • Afvikling",
     "level": "C1"
   },
   {
     "de": "Umgangssprache",
     "de_article": "die",
     "de_plural": "die Umgangssprachen",
-    "lv": "Kõnekeel",
+    "lv": "Samtalesprog",
     "level": "C1"
   },
   {
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Ebameeldivused • Ebameeldiv juhtum",
+    "lv": "Problemer • En ubehagelig lejlighed",
     "level": "C1"
   },
   {
     "de": "unausgeglichen",
-    "lv": "Tasakaalustamata",
+    "lv": "Ubalanceret",
     "level": "C1"
   },
   {
     "de": "unerschütterlich",
-    "lv": "Vankumatu",
+    "lv": "Urokkeligt",
     "level": "C1"
   },
   {
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "Alahindamine",
+    "lv": "Undervurdering • Undervurdering",
     "level": "C1"
   },
   {
     "de": "urteilen",
-    "lv": "Otsustama • Arutlema",
+    "lv": "At dømme",
     "level": "C1"
   },
   {
     "de": "verabschieden",
-    "lv": "Töölt vabastama • Pensionile saatma",
+    "lv": "Frigivelse fra arbejde • Gå på pension",
     "level": "C1"
   },
   {
     "de": "veränderlich",
-    "lv": "Muutlik",
+    "lv": "Udskiftelig • Udskiftelig",
     "level": "C1"
   },
   {
     "de": "veranschlagen",
-    "lv": "Arvestama • Kalkuleerima • Eelarvet koostama",
+    "lv": "Beregn • Beregn • Lav et skøn",
     "level": "C1"
   },
   {
     "de": "verdrießlich",
-    "lv": "Ebameeldiv • Tusane",
+    "lv": "Ubehagelig • Irriteret • Irriteret",
     "level": "C1"
   },
   {
     "de": "Verfallsdatum",
     "de_article": "das",
     "de_plural": "die Verfallsdaten",
-    "lv": "Kõlblikkusaja lõpp",
+    "lv": "Udløbsdato",
     "level": "C1"
   },
   {
     "de": "Verfassung",
     "de_article": "die",
     "de_plural": "die Verfassungen",
-    "lv": "Põhiseadus",
+    "lv": "Grundlov • Grundlov",
     "level": "C1"
   },
   {
     "de": "vergewaltigen",
-    "lv": "Vägistama",
+    "lv": "Voldtægt",
     "level": "C1"
   },
   {
     "de": "sich vergewissern",
-    "lv": "Veenduma",
+    "lv": "Sørg for",
     "level": "C1"
   },
   {
     "de": "Vergünstigung",
     "de_article": "die",
     "de_plural": "die Vergünstigungen",
-    "lv": "Eelis • Privileeg • Soodustus",
+    "lv": "Fordel • Privilegium • Aflastning",
     "level": "C1"
   },
   {
     "de": "verhaften",
-    "lv": "Vahistama",
+    "lv": "At arrestere",
     "level": "C1"
   },
   {
     "de": "verhältnismäßig",
-    "lv": "Suhteliselt",
+    "lv": "Forholdsvis",
     "level": "C1"
   },
   {
     "de": "Verhandlungen",
     "de_article": "die",
     "de_plural": "die Verhandlungen",
-    "lv": "Läbirääkimised",
+    "lv": "Samtaler",
     "level": "C1"
   },
   {
     "de": "verheimlichen",
-    "lv": "Varjama • Salajas hoidma",
+    "lv": "Skjul • Hold hemmelig",
     "level": "C1"
   },
   {
     "de": "Verkehrsdichte",
     "de_article": "die",
     "de_plural": "die Verkehrsdichten",
-    "lv": "Liiklustihedus",
+    "lv": "Trafiktæthed",
     "level": "C1"
   },
   {
     "de": "Verkehrswesen",
     "de_article": "das",
-    "lv": "Transport",
+    "lv": "Transportere",
     "level": "C1"
   },
   {
     "de": "Verpflichtung",
     "de_article": "die",
     "de_plural": "die Verpflichtungen",
-    "lv": "Kohustus",
+    "lv": "Pligt • Forpligtelse",
     "level": "C1"
   },
   {
     "de": "Verschwörung",
     "de_article": "die",
     "de_plural": "die Verschwörungen",
-    "lv": "Vandenõu",
+    "lv": "Sammensværgelse",
     "level": "C1"
   },
   {
     "de": "verklagen",
-    "lv": "Kohtusse kaebama",
+    "lv": "At sagsøge",
     "level": "C1"
   },
   {
     "de": "vernachlässigen",
-    "lv": "Hooletusse jätma",
+    "lv": "At negligere • At være skødesløs",
     "level": "C1"
   },
   {
     "de": "verpflichten",
-    "lv": "Kohustama",
+    "lv": "At forpligte",
     "level": "C1"
   },
   {
     "de": "sich verpflichten",
-    "lv": "Endale võtma",
+    "lv": "Foretage",
     "level": "C1"
   },
   {
     "de": "sich verschließen",
-    "lv": "Endasse tõmbuma • End isoleerima",
+    "lv": "For at lukke ned • For at slukke",
     "level": "C1"
   },
   {
     "de": "verschlossen",
-    "lv": "Lukustatud • Suletud • Endassetõmbunud",
+    "lv": "Låst • Lukket • Trans. lukket • Selvforsynet",
     "level": "C1"
   },
   {
     "de": "verschlüsseln",
-    "lv": "Krüpteerima • Kodeerima",
+    "lv": "For at kryptere • For at kode",
     "level": "C1"
   },
   {
     "de": "verschreiben",
-    "lv": "Med. välja kirjutama",
+    "lv": "Med. at underskrive",
     "level": "C1"
   },
   {
     "de": "verschweigen",
-    "lv": "Maha vaikima • Mitte avaldama",
+    "lv": "Tilbagehold • Ikke oplyse",
     "level": "C1"
   },
   {
     "de": "verständigen",
-    "lv": "Informeerima • Teatama",
+    "lv": "Informer • Giv besked",
     "level": "C1"
   },
   {
     "de": "Versuchsanlage",
     "de_article": "die",
     "de_plural": "die Versuchsanlagen",
-    "lv": "Katserajatis",
+    "lv": "Test facilitet",
     "level": "C1"
   },
   {
     "de": "Versuchsgelände",
     "de_article": "das",
     "de_plural": "die Versuchsgelände",
-    "lv": "Katsepolügoon",
+    "lv": "Prøveplads",
     "level": "C1"
   },
   {
     "de": "Versuchsreihe",
     "de_article": "die",
     "de_plural": "die Versuchsreihen",
-    "lv": "Katseseeria",
+    "lv": "Serie af tests",
     "level": "C1"
   },
   {
     "de": "verunglücken",
-    "lv": "Õnnetusse sattuma",
+    "lv": "Lider i en ulykke • Lider i en ulykke",
     "level": "C1"
   },
   {
     "de": "verurteilen",
-    "lv": "Süüdi mõistma",
+    "lv": "At dømme",
     "level": "C1"
   },
   {
     "de": "vervielfältigen",
-    "lv": "Paljundama",
+    "lv": "Gange",
     "level": "C1"
   },
   {
     "de": "vervollkommnen",
-    "lv": "Täiendama • Täiustama",
+    "lv": "Suppler • Forbedre",
     "level": "C1"
   },
   {
     "de": "sich vervollkommnen",
-    "lv": "Oma teadmisi täiendama",
+    "lv": "Suppler din viden",
     "level": "C1"
   },
   {
     "de": "verwirklichen",
-    "lv": "Realiseerima • Ellu viima",
+    "lv": "Realisere • Implementere",
     "level": "C1"
   },
   {
     "de": "Volksabstimmung",
     "de_article": "die",
     "de_plural": "die Volksabstimmungen",
-    "lv": "Rahvahääletus • Plebistsiit",
+    "lv": "Folkeafstemning • Folkeafstemning",
     "level": "C1"
   },
   {
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "Üleriigiline küsitlus • Referendum",
+    "lv": "Afstemning af alle mennesker • Folkeafstemning",
     "level": "C1"
   },
   {
     "de": "Vollversammlung",
     "de_article": "die",
     "de_plural": "die Vollversammlungen",
-    "lv": "Pleenum • Üldkoosolek • Peaassamblee",
+    "lv": "Plenum • Generalforsamling • Generalforsamling",
     "level": "C1"
   },
   {
     "de": "voreingenommen",
-    "lv": "Eelarvamuslik • Erapoolik",
+    "lv": "Biased • Biased",
     "level": "C1"
   },
   {
     "de": "waag[e]recht",
-    "lv": "Horisontaalne",
+    "lv": "Niveau • Vandret",
     "level": "C1"
   },
   {
     "de": "Waffenruhe",
     "de_article": "die",
     "de_plural": "die Waffenruhen",
-    "lv": "Relvarahu",
+    "lv": "En pause i kampene",
     "level": "C1"
   },
   {
     "de": "Waffenschein",
     "de_article": "der",
     "de_plural": "die Waffenscheine",
-    "lv": "Relvaluba",
+    "lv": "Våbentilladelse",
     "level": "C1"
   },
   {
     "de": "wahlberechtigt",
-    "lv": "Valimisõiguslik",
+    "lv": "En der har stemmeret",
     "level": "C1",
     "study": {
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
-      "translation": "Valimisõiguslik",
-      "explanation": "Põhiidee: wahlberechtigt on omadussõna, mis tähendab, et isikul on õigus valimistel osaleda — hääletada või kandideerida. Liitsõna: Wahl (valimised) + berechtigt (õigustatud).",
+      "translation": "En der har stemmeret",
+      "explanation": "Hovedidé: wahlberechtig er et adjektiv, der betyder, at en person har ret til at deltage i et valg - at stemme eller stille op til valg. Sammensætning: Wahl (valg) + behrechtig (berettiget).",
       "examples": [
         {
           "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Kõik valimisõiguslikud kodanikud võivad hääletada."
+          "lv": "Alle stemmeberettigede kan stemme."
         },
         {
           "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "Alates 18. eluaastast on valimisõigus."
+          "lv": "Fra det fyldte 18. år har stemmeret."
         },
         {
           "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Mitte kõigil elanikel pole valimisõigust."
+          "lv": "Ikke alle borgere har stemmeret."
         }
       ],
       "comparison": [
         {
           "word": "wahlberechtigt",
-          "meaning": "Valimisõiguslik",
-          "example": "Er ist wahlberechtigt. = Tal on valimisõigus."
+          "meaning": "Med stemmeret",
+          "example": "Er ist wahlberechtigt. = Han har stemmeret."
         },
         {
           "word": "wählen",
-          "meaning": "Valima • Hääletama",
-          "example": "Ich wähle heute. = Ma hääletan täna."
+          "meaning": "At ønske • At stemme",
+          "example": "Ich wähle heute. = Jeg stemte i dag."
         },
         {
           "word": "der Wähler",
-          "meaning": "Valija",
-          "example": "Der Wähler geht zur Wahl. = Valija läheb valima."
+          "meaning": "Vælger",
+          "example": "Der Wähler geht zur Wahl. = En vælger går til stemmeurnerne."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Wahl = valimised, berechtigt = õigustatud. Sageli ajakirjanduses ja õigustekstides."
+            "text": "Wahl = valg, behrechtig = valgbar. Almindelig i presse og lovtekster."
           }
         ]
       },
       "important": {
-        "text": "Wahlberechtigt = valimisõiguslik. Vastand: nicht wahlberechtigt."
+        "text": "Wahlberechtig = med stemmeret. Modsat: nicht wahlberechtigkeit."
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "wahlberechtigt",
+            "wahlberechtig",
             "Wahl",
-            "berechtigt"
-          ],
-          "purple": [
-            "Põhiidee"
+            "behrechtig"
           ]
         },
         "examples": [
@@ -3881,7 +3864,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "valimisõiguslikud"
+                "All"
               ]
             }
           },
@@ -3893,7 +3876,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "valimisõigus"
+                "Fra"
               ]
             }
           },
@@ -3905,7 +3888,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "valimisõigust"
+                "Ikke"
               ]
             }
           }
@@ -3915,147 +3898,140 @@ const C1_WORDS = [
   },
   {
     "de": "wahrhaft",
-    "lv": "Tõesti • Tõepoolest",
+    "lv": "Virkelig • Virkelig",
     "level": "C1"
   },
   {
     "de": "Wäscheschleuder",
     "de_article": "die",
     "de_plural": "die Wäscheschleudern",
-    "lv": "Pesutsentrifuug",
+    "lv": "Spinner til vasketøj",
     "level": "C1"
   },
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "Vesiravila",
+    "lv": "Vandbehandlingsanlæg",
     "level": "C1"
   },
   {
     "de": "Wasserkraftwerk",
     "de_article": "das",
     "de_plural": "die Wasserkraftwerke",
-    "lv": "Hüdroelektrijaam",
+    "lv": "Vandkraftværk",
     "level": "C1"
   },
   {
     "de": "Wasserversorgung",
     "de_article": "die",
     "de_plural": "die Wasserversorgungen",
-    "lv": "Veevarustus",
+    "lv": "Vandforsyning",
     "level": "C1"
   },
   {
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "Vastastikune seos",
+    "lv": "Gensidig kommunikation",
     "level": "C1"
   },
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "Asendusteenistus",
+    "lv": "Civiltjeneste i stedet for værnepligt",
     "level": "C1"
   },
   {
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Pajuurb",
+    "lv": "Valmue",
     "level": "C1"
   },
   {
     "de": "Weltanschauung",
     "de_article": "die",
     "de_plural": "die Weltanschauungen",
-    "lv": "Maailmavaade",
+    "lv": "Verdenssyn",
     "level": "C1"
   },
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "Hõõguv välk",
+    "lv": "Rust",
     "level": "C1"
   },
   {
     "de": "widerrechtlich",
-    "lv": "Õigusvastane",
+    "lv": "Ulovlig",
     "level": "C1"
   },
   {
     "de": "wiederherstellen",
-    "lv": "Taastama • Restaureerima",
+    "lv": "Gendan • Gendan",
     "level": "C1"
   },
   {
     "de": "zusammenfallen",
-    "lv": "Kokku langema • Kokku sattuma",
+    "lv": "Kollaps • Sker",
     "level": "C1"
   },
   {
     "de": "zusammenstellen",
-    "lv": "Koostama",
+    "lv": "At komponere",
     "level": "C1"
   },
   {
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "Lisatasu • Hinnalisa",
+    "lv": "Premium • Markup",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "Lisatasu • Hinnalisa",
+      "translation": "Premium • Markup",
       "explanation": [
-        "Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale.",
-        "Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest.",
-        "Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.",
-        "Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist."
+        "Hovedidé: der Zuschlag betyder en præmie eller et tillæg - et ekstra beløb tilføjet til basisprisen.",
+        "I forbindelse med rejser/transport er der Zuschlag en ekstra afgift for et hurtigere tog, bedre sæde osv.",
+        "Ikke at forveksle med der Anhang/die Beilage (bilaget til dokumentet) - det er et andet ord.",
+        "I auktioner betyder den Zuschlag erhalten at vinde auktionen/modtage ordren."
       ],
       "examples": [
         {
           "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "ICE rongi eest tuleb maksta lisatasu."
+          "lv": "Der er et tillæg for ICE-toget."
         },
         {
           "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Öövahetuse lisatasu on 20%."
+          "lv": "Natholdstillæg er 20%."
         },
         {
           "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Ta sai tellimuse (enampakkumisel)."
+          "lv": "Hun modtog ordren (på auktionen)."
         },
         {
           "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Liigpagasi eest on lisatasu."
+          "lv": "Der er et tillæg for overskydende bagage."
         },
         {
           "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "Hind on ilma lisatasudeta."
+          "lv": "Prisen er uden tillæg."
         }
       ],
       "tip": [
         "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
-        "den Zuschlag erhalten (izsolēs) = uzvarēt izsolē/saņemt pasūtījumu."
+        "den Zuschlag erhalten (i auktionerne) = vind auktionen/modtag ordren."
       ],
       "important": [
         "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
-        "Dokumenta pielikums vācu valodā ir die Anlage/der Anhang."
+        "Bilaget til dokumentet på tysk er die Anlage/der Anhang."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Zuschlag"
-          ],
           "purple": [
-            "lisatasu",
-            "hinnalisa"
-          ],
-          "red": [
-            "der Anhang",
-            "die Beilage"
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -4067,7 +4043,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lisatasu"
+                "Der"
               ]
             }
           },
@@ -4079,7 +4055,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lisatasu"
+                "Natholdstillæg"
               ]
             }
           },
@@ -4091,7 +4067,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tellimuse"
+                "ordren"
               ]
             }
           },
@@ -4103,7 +4079,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lisatasu"
+                "Der"
               ]
             }
           },
@@ -4115,7 +4091,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lisatasudeta"
+                "Prisen"
               ]
             }
           }
@@ -4123,8 +4099,8 @@ const C1_WORDS = [
         "tip": [
           {
             "blue": [
-              "der",
-              "der"
+              "piemaksa",
+              "uzcenojums"
             ]
           },
           {
@@ -4136,17 +4112,8 @@ const C1_WORDS = [
         "important": [
           {
             "purple": [
-              "der",
-              "der"
-            ],
-            "red": [
-              "der"
-            ]
-          },
-          {
-            "red": [
-              "die Anlage",
-              "der Anhang"
+              "piemaksa",
+              "uzcenojums"
             ]
           }
         ]
@@ -4155,69 +4122,50 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Seostama • Käima millegi kohta",
+    "lv": "Ansøg • Ansøg til",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Seostama • Käima millegi kohta",
+      "translation": "Ansøg • Ansøg til",
       "explanation": [
-        "Põhiidee: Formaalne register: seostada allikaga, regulaarse pensioni/palga saamisega või korterisse sisseelamisega.",
-        "Näidetes otsi tüüpilist igapäevast kasutust.",
-        "Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest.",
-        "Kontekst ja tegevuse suund määravad õige valiku."
+        "Hovedidé: Formelt register: tilskrivelse til kilde, almindelig pension/lønmodtagelse eller indflytning i lejlighed.",
+        "Eksempler ser efter typisk daglig brug.",
+        "Når du er i tvivl, så tjek om det er en tilstand eller en handling.",
+        "Kontekst og handlingsforløb bestemmer det rigtige valg."
       ],
       "examples": [
         {
           "de": "beziehen / sich beziehen auf.",
-          "lv": "Ta saab juba aasta pensioni."
-        },
-        {
-          "de": "Der Bericht bezieht sich auf die Ereignisse des letzten Jahres.",
-          "lv": "Aruanne käib eelmise aasta sündmuste kohta."
+          "lv": "Ansøg • Ansøg til"
         }
       ],
       "tip": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "Izmanto beziehen / sich beziehen auf, kad konteksts atbilst šai nozīmei."
+        "Formelt register: tilskrivelse til kilde, almindelig pension/lønmodtagelse eller indflytning i lejlighed.",
+        "Brug beziehen / sich beziehen auf når konteksten passer til denne betydning."
       ],
       "important": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+        "Formelt register: tilskrivelse til kilde, almindelig pension/lønmodtagelse eller indflytning i lejlighed.",
+        "beziehen / sich beziehen auf: før brug, tjek konteksten og sammenlign med andre ord på kortet."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "Põhiidee",
-            "Põhiidee"
-          ],
           "purple": [
-            "seostada",
-            "Põhiidee"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen"
+                "beziehen / sich beziehen auf",
+                "beziehen / sich beziehen auf"
               ]
             },
             "lv": {
               "purple": [
-                "saab"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bezieht sich auf"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "käib"
+                "Ansøg",
+                "Ansøg"
               ]
             }
           }
@@ -4225,96 +4173,80 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Formāls"
-            ]
-          },
-          {
-            "purple": [
-              "Formāls"
+              "Formelt"
             ]
           }
         ],
         "important": [
-          {
-            "blue": [
-              "Formāls"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "beabsichtigen",
-    "lv": "Kavatsema • Plaanima",
+    "lv": "At have til hensigt • At planlægge",
     "level": "C1",
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "Kavatsema • Plaanima",
+      "translation": "At have til hensigt • At planlægge",
       "explanation": [
-        "Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta.",
-        "Beabsichtigen tähendab peamiselt: teadlik kavatsus.",
-        "Sageli iseloomustab: plaan / kavatsus.",
-        "Beabsichtigen tähendab peamiselt: tegevust plaanima.",
-        "Sageli iseloomustab: ametlik register.",
-        "Beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
+        "Hovedidé: En bevidst intention om at udføre en handling i fremtiden. Ikke om forholdet, men om planen.",
+        "Beabsichtigen betyder primært: bevidst hensigt.",
+        "Ofte præget af: plan / hensigt.",
+        "Beabsichtigen betyder grundlæggende: at planlægge en handling.",
+        "Ofte karakteriseret ved: officielt register.",
+        "Beabsichtigen betyder bevidst at have til hensigt eller planlægge en handling - ikke en relation, men en intention."
       ],
       "examples": [
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Ta kavatseb projekti lõpetada."
+          "lv": "Han havde til hensigt at afslutte projektet."
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Mida te selle meetmega kavatsete?"
+          "lv": "Hvad mener du med denne begivenhed?"
         },
         {
           "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "Me ei plaani muudatust."
+          "lv": "Vi planlægger ikke en ændring."
         },
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Ta kavatseb projekti lõpetada."
+          "lv": "Han havde til hensigt at afslutte projektet."
         },
         {
           "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Kavatseda midagi teha."
+          "lv": "Har til hensigt at gøre noget."
         }
       ],
       "tip": [
-        "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
-        "beabsichtigen = nodomāt"
+        "Når det kommer til relationer, kilder eller regelmæssig modtagelse - beziehen. Hvis om en bevidst plan — beabsichtigen.",
+        "beabsichtigen = at tænke"
       ],
       "important": [
         "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
-        "beabsichtigen → nodoms, plāns.",
-        "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu."
+        "beabsichtigen kan ikke erstattes af beziehen - det er en hensigt, ikke en relation.",
+        "beabsichtigen → nodoms, planer.",
+        "En bevidst intention om at udføre en handling i fremtiden. Ikke om forholdet, men om planen."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "beabsichtigen",
-            "beabsichtigen"
-          ],
           "purple": [
-            "kavatsus",
-            "plaanima"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "kavatseb",
-                "kavatseb"
+                "Han"
               ]
             }
           },
@@ -4327,8 +4259,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kavatsete",
-                "mida"
+                "Hvad"
               ]
             }
           },
@@ -4339,24 +4270,17 @@ const C1_WORDS = [
                 "beabsichtigen"
               ]
             },
-            "lv": {
-              "purple": [
-                "plaani",
-                "plaani"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "green": [
-                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "kavatseb",
-                "kavatseb"
+                "Han"
               ]
             }
           },
@@ -4369,8 +4293,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kavatseda",
-                "kavatseda"
+                "Har"
               ]
             }
           }
@@ -4378,12 +4301,7 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "runa"
-            ]
-          },
-          {
-            "purple": [
-              "runa"
+              "Når"
             ]
           }
         ],
@@ -4399,75 +4317,65 @@ const C1_WORDS = [
   },
   {
     "de": "unterstellen",
-    "lv": "Ette heitma • Alusetult omistama",
+    "lv": "Skyld • Tilskriv uden grundlag",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "Ette heitma • Alusetult omistama",
+      "translation": "Skyld • Tilskriv uden grundlag",
       "explanation": [
-        "Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus.",
-        "Unterstellen tähendab peamiselt: alusetult omistama.",
-        "Sageli iseloomustab: süüdistus / kahtlustus.",
-        "Jemandem etwas unterstellen tähendab alusetult ette heita või omistada."
+        "Hovedidé: Urimeligt tildele skyld, motiv eller hensigt til en anden.",
+        "Unterstellen betyder hovedsagelig: at tilskrive uden grundlag.",
+        "Ofte præget af: anklage/tiltrækning.",
+        "Jemandem etwas unterstellen betyder at tilskrive eller bebrejde uretfærdigt."
       ],
       "examples": [
         {
           "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Mulle heidetakse ette halba kavatsust."
+          "lv": "Jeg er anklaget for dårlige intentioner."
         },
         {
           "de": "Unterstellen Sie mir nichts!",
-          "lv": "Ärge heitke mulle midagi ette!"
+          "lv": "Giv mig ikke skylden for noget!"
         },
         {
           "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Kellelegi ei tohi alusetult ette heita reetmist."
+          "lv": "Ingen bør uretmæssigt anklages for forræderi."
         },
         {
           "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Talle heidetakse ette truudusetust."
+          "lv": "Han er anklaget for mistillid."
         },
         {
           "de": "unterstellen",
-          "lv": "Ta heidab oma kolleegile ette laiskust, ilma tõenditeta."
+          "lv": "Ubegrundet skyld • Forecast"
         }
       ],
       "tip": [
-        "unterstellen = pārmest",
-        "Izmanto unterstellen, kad konteksts atbilst šai nozīmei."
+        "unterstellen = bebrejde",
+        "Brug unterstellen, når sammenhængen passer til denne betydning."
       ],
       "important": [
-        "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
+        "unterstellen er følelsesmæssigt negativ - en uberettiget anklage.",
         "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
-        "unterstellen → pārmest, piedēvēt."
+        "unterstellen → skyld, attribut."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "unterstellen",
-            "unterstellen"
-          ],
           "purple": [
-            "ette heita",
-            "alusetult omistama"
-          ],
-          "red": [
-            "ette heita"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "unterstellt",
                 "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "Mulle",
-                "Mulle"
+                "Jeg"
               ]
             }
           },
@@ -4478,12 +4386,7 @@ const C1_WORDS = [
                 "unterstellen"
               ]
             },
-            "lv": {
-              "purple": [
-                "ärge",
-                "ärge"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4494,44 +4397,33 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ette heita",
-                "kellelegi"
+                "Ingen"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellt",
                 "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "talle",
-                "talle"
+                "Han"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "unterstellen",
                 "unterstellen"
               ]
             },
-            "lv": {
-              "purple": [
-                "heidab"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "unterstellen"
-            ]
-          },
           {
             "purple": [
               "unterstellen"
@@ -4550,81 +4442,55 @@ const C1_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "Eeldama",
+    "lv": "Tag som en forudsætning",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "Eeldama",
+      "translation": "Tag som en forudsætning",
       "explanation": [
-        "Põhiidee: Pidada millegi juba teadaolevaks või aluseks olevaks.",
-        "Voraussetzen tähendab peamiselt: pidada aluseks.",
-        "Sageli iseloomustab: loogiline eeldus.",
-        "Etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
+        "Hovedidé: At antage, at noget allerede er kendt eller eksisterer som grundlag.",
+        "Voraussetzen betyder hovedsageligt: ​​at betragte som grundlag.",
+        "Ofte karakteriseret ved: en logisk præmis.",
+        "Etwas voraussetzen betyder at tage en forudsætning, der allerede eksisterer, for givet."
       ],
       "examples": [
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Me eeldame põhiteadmisi."
+          "lv": "Vi accepterer grundlæggende viden som en forudsætning."
         },
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Me eeldame põhiteadmisi."
+          "lv": "Vi accepterer grundlæggende viden som en forudsætning."
         }
       ],
       "tip": [
-        "voraussetzen = pieņemt priekšnoteikumu",
-        "Izmanto voraussetzen, kad konteksts atbilst šai nozīmei."
+        "voraussetzen = at antage en forudsætning",
+        "Brug voraussetzen, når konteksten passer til denne betydning."
       ],
       "important": [
-        "voraussetzen ir neitrāls — priekšnosacījums.",
-        "voraussetzen → pieņemt kā pamatu.",
-        "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats."
+        "voraussetzen er intetkøn — en præposition.",
+        "voraussetzen → tage som grundlag.",
+        "At betragte noget allerede kendt eller eksisterende som grundlag."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "voraussetzen",
-            "voraus"
-          ],
           "purple": [
-            "eeldus"
+            "Hovedidé"
           ]
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Wir",
-                "Wir"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "eeldame"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "Wir",
-                "Wir"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "eeldame"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "voraussetzen"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -4638,53 +4504,49 @@ const C1_WORDS = [
   },
   {
     "de": "bewahren",
-    "lv": "Hoidma • Säilitama",
+    "lv": "Beskyt • Bevar",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Hoidma • Säilitama",
+      "translation": "Beskyt • Bevar",
       "explanation": [
-        "Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu.",
-        "Bewahren tähendab peamiselt: kaitsma kaotuse eest.",
-        "Sageli iseloomustab: väärtuste säilitamine.",
-        "Bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
+        "Hovedidé: At beskytte mod tab, skade eller ødelæggelse - værdi, tradition, fred.",
+        "Bewahren betyder primært: at beskytte mod tab.",
+        "Ofte præget af: bevarelse af værdier.",
+        "Bewahren betyder at beskytte mod beskadigelse, tab eller ændring."
       ],
       "examples": [
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Me säilitame traditsioone."
+          "lv": "Vi holder traditioner."
         },
         {
           "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "Nad säilitavad rahu kriisis."
+          "lv": "De holder sig rolige i en krise."
         },
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Me säilitame traditsioone."
+          "lv": "Vi holder traditioner."
         },
         {
           "de": "bewahren",
-          "lv": "Loodust tuleb säilitada järgmise põlvkonna jaoks."
+          "lv": "Beskyt/bevar • Aufrechterhalten"
         }
       ],
       "tip": [
-        "bewahren = pasargāt",
-        "Izmanto bewahren, kad konteksts atbilst šai nozīmei."
+        "bewahren = at beskytte",
+        "Brug bewahren, når konteksten passer til denne betydning."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
+        "bewahren: Wertvolles bewahren - beskyt det værdifulde.",
         "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
-        "bewahren → aizsargāt, saglabāt."
+        "bewahren → beskytte, bevare."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "bewahren",
-            "bewahren"
-          ],
           "purple": [
-            "kaitsma"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -4697,8 +4559,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "säilitame",
-                "säilitame"
+                "holder"
               ]
             }
           },
@@ -4711,8 +4572,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nad",
-                "säilitavad"
+                "holder"
               ]
             }
           },
@@ -4725,30 +4585,25 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "säilitame",
-                "säilitame"
+                "holder"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "säilitada"
+                "Beskyt/bevar"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "bewahren"
-            ]
-          },
           {
             "purple": [
               "bewahren"
@@ -4767,40 +4622,40 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Kehtivana hoidma",
+    "lv": "Oprethold i kraft",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Kehtivana hoidma",
+      "translation": "Oprethold i kraft",
       "explanation": [
-        "Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks.",
-        "Aufrechterhalten tähendab peamiselt: tagada jätkumine.",
-        "Sageli iseloomustab: seisundi säilitamine.",
-        "Aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
+        "Hovedidé: At sikre, at en stat, orden eller relation vil fortsætte med at eksistere.",
+        "Aufrechterhalten betyder primært: at sikre fortsættelse.",
+        "Ofte karakteriseret ved: vedligeholdelse af tilstand.",
+        "Aufrechterhalten betyder at opretholde en stat, et system eller et forhold i kraft - for at sikre kontinuitet."
       ],
       "examples": [
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Riik hoiab korda kehtivana."
+          "lv": "Staten holder orden i kraft."
         },
         {
           "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Tegevus tuleb hoida kehtivana."
+          "lv": "Skal holde handlingen i kraft."
         },
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Riik hoiab korda kehtivana."
+          "lv": "Staten holder orden i kraft."
         }
       ],
       "tip": [
-        "aufrechterhalten = uzturēt spēkā",
-        "Izmanto aufrechterhalten, kad konteksts atbilst šai nozīmei."
+        "aufrechterhalten = holde i kraft",
+        "Brug aufrechterhalten, når konteksten passer til denne betydning."
       ],
       "important": [
         "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → uzturēt spēkā.",
-        "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt."
+        "aufrechterhalten → holde i kraft.",
+        "For at sikre, at en stat, orden eller relation vil fortsætte med at eksistere."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4808,27 +4663,12 @@ const C1_WORDS = [
             "aufrechterhalten",
             "erhält",
             "auf"
-          ],
-          "purple": [
-            "Põhiidee"
-          ],
-          "yellow": [
-            "Põhiidee"
           ]
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "Der",
-                "Der"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kehtivana"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
@@ -4837,24 +4677,11 @@ const C1_WORDS = [
                 "aufrechterhalten"
               ]
             },
-            "lv": {
-              "purple": [
-                "kehtivana"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "Der",
-                "Der"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kehtivana"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "tip": [
@@ -4885,28 +4712,28 @@ const C1_WORDS = [
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Kärutis",
+    "lv": "Trillebør",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Kärutis",
+    "lv": "Trillebør",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "Sandistunu",
+    "lv": "En krøbling",
     "level": "C1"
   },
   {
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "Pori • Lörts",
+    "lv": "Mudder • Sjap",
     "level": "C1"
   },
   {

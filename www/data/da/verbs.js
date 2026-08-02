@@ -2,4159 +2,4159 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "Küpsetama"
+      "lv": "Cept"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "Ta küpsetab"
+      "lv": "Han bager"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "Ta küpsetas"
+      "lv": "Han bagte"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "Ta küpsetaks"
+      "lv": "Han ville bage"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Küpsetatud"
+      "lv": "Cepts / izcepts"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "Käskima"
+      "lv": "At kommandere"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "Ta käsib"
+      "lv": "Befaler han"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "Ta käskis"
+      "lv": "Befalede han"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "Ta käsiks"
+      "lv": "Han ville kommandere"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Kästud"
+      "lv": "Kommanderede"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Alustama"
+      "lv": "At starte"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "Ta alustab"
+      "lv": "Han starter"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "Ta alustas"
+      "lv": "Begyndte han"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "Ta alustaks"
+      "lv": "Han ville starte"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Alustatud"
+      "lv": "Startede"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Hammustama"
+      "lv": "Kost"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "Ta hammustab"
+      "lv": "Han bider"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "Ta hammustas"
+      "lv": "Han kodede"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "Ta hammustaks"
+      "lv": "Han bider"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Hammustatud / ära hammustatud"
+      "lv": "Kosts / sakosts"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Peitma / päästma"
+      "lv": "Skjule"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "Ta peidab"
+      "lv": "Han gemmer sig"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "Ta peitis"
+      "lv": "Han gemte sig"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "Ta peidaks"
+      "lv": "Han ville gemme sig"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Peidetud / päästetud"
+      "lv": "Skjult / gemt"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Lõhkema"
+      "lv": "Briste"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "Ta lõhkeb"
+      "lv": "Brister han"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "Ta lõhkes"
+      "lv": "Brød han ud"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "Ta lõhkeks"
+      "lv": "Brister han"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Lõhkenud"
+      "lv": "Brudt"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "Ajendama"
+      "lv": "At opmuntre"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "Ta ajendab"
+      "lv": "Spørger han"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "Ta ajendas"
+      "lv": "Opfordrede han"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Ta ajendaks"
+      "lv": "Han ville opmuntre"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Ajendatud"
+      "lv": "Opmuntret"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Painutama"
+      "lv": "Bøje"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "Ta painutab"
+      "lv": "Han bukker"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "Ta painutas"
+      "lv": "Han bøjede sig"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "Ta painutaks"
+      "lv": "Han ville bøje sig"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Painutatud"
+      "lv": "Bøjet"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "Pakkuma"
+      "lv": "At love"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "Ta pakub"
+      "lv": "Lover han"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "Ta pakkus"
+      "lv": "Lovede han"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Ta pakuks"
+      "lv": "Ville han love"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Pakutud / pakutud välja"
+      "lv": "Lovet / tilbudt"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Siduma"
+      "lv": "Sit"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "Ta seob"
+      "lv": "Han hø"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "Ta sidus"
+      "lv": "Han såede"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "Ta seoks"
+      "lv": "Han sigtede"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Seotud"
+      "lv": "Siets"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "Paluma"
+      "lv": "At spørge"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "Ta palub"
+      "lv": "Han tigger"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "Ta palus"
+      "lv": "Spurgte han"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "Ta paluks"
+      "lv": "Han ville bede"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Palutud"
+      "lv": "Anmodet om"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "Puhuma"
+      "lv": "At blæse"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "Ta puhub"
+      "lv": "Han blæser"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "Ta puhus"
+      "lv": "Han blæste"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "Ta puhuks"
+      "lv": "Han ville blæse"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Puhutud"
+      "lv": "Blæst"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Käärima"
+      "lv": "At gære"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "See kääritab"
+      "lv": "Det gærer"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "See kääris"
+      "lv": "Det gærer"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "See kääriks"
+      "lv": "Det ville være bittert"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Kääritanud"
+      "lv": "Rug"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "Sünnitama"
+      "lv": "At føde"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "Ta sünnitab"
+      "lv": "I hendes mave"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "Ta sünnitas"
+      "lv": "Hun fødte"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Ta sünnitaks"
+      "lv": "Hun ville føde"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Sünnitatud / sündinud"
+      "lv": "Født / blev født"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Õnnestuma"
+      "lv": "Izdoties"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "See õnnestub"
+      "lv": "Tas izdodas"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "See õnnestus"
+      "lv": "Det virkede"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "See õnnestuks"
+      "lv": "Tas izdotos"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "Õnnestunud"
+      "lv": "Izdevies"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Kehtima"
+      "lv": "Komme til nytte"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "Ta kehtib"
+      "lv": "Han passer / er gyldig"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "Ta kehtis"
+      "lv": "Han passede / var fit"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "Ta kehtiks / see kehtiks"
+      "lv": "Han ville passe / det ville passe"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Kehtinud"
+      "lv": "Anvendt / var gyldig"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Paranema"
+      "lv": "Bliver rask"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "Ta paraneb"
+      "lv": "Han er ved at blive rask"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "Ta paranes"
+      "lv": "Han blev rask"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "Ta paraneks"
+      "lv": "Han ville blive rask"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Paranenud"
+      "lv": "Blive rask"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "Nautima"
+      "lv": "At nyde"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "Ta naudib"
+      "lv": "Han nyder"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "Ta nautis"
+      "lv": "Han nød"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "Ta naudiks"
+      "lv": "Han ville nyde"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Nauditud"
+      "lv": "Nød"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Juhtuma"
+      "lv": "Notikt"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "See juhtub"
+      "lv": "Tas notiek"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "See juhtus"
+      "lv": "Tas notika"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "See juhtuks"
+      "lv": "Tas notiktu"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Juhtunud"
+      "lv": "Noticis"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Valama"
+      "lv": "Liet"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "Ta valab"
+      "lv": "Han hælder"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "Ta valas"
+      "lv": "Han hældte"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "Ta valaks"
+      "lv": "Han regner"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Valatud"
+      "lv": "Liets"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "Sarnanema"
+      "lv": "At ligne"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "Ta sarnaneb"
+      "lv": "Han ligner"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "Ta sarnanes"
+      "lv": "Efterlignede han"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Ta sarnaneks"
+      "lv": "Han ville efterligne"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Sarnanenud"
+      "lv": "Lignede"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "Libisema"
+      "lv": "At glide"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "Ta libiseb"
+      "lv": "Han glider"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "Ta libises"
+      "lv": "Han gled"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "Ta libiseks"
+      "lv": "Han ville glide"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Libisenud"
+      "lv": "Gled"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Hõõguma"
+      "lv": "Glødende"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "Ta hõõgub"
+      "lv": "Han gløder"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "Ta hõõgus"
+      "lv": "Han glødede"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "Ta hõõguks"
+      "lv": "Han ville gløde"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Hõõgunud"
+      "lv": "Glødende"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "Kaevama"
+      "lv": "Rakt"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "Ta kaevab"
+      "lv": "Han graver"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "Ta kaevas"
+      "lv": "Han gravede"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "Ta kaevaks"
+      "lv": "Han ville grave"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Kaevatud"
+      "lv": "Rakter"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "Haarama"
+      "lv": "At fange"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "Ta haarab"
+      "lv": "Han fanger"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "Ta haaras"
+      "lv": "Han fangede"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "Ta haaraks"
+      "lv": "Han ville fange"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Haaratud / kinni haaratud"
+      "lv": "Fanget/grebet"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Raiuma"
+      "lv": "Cirst"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "Ta raiub"
+      "lv": "Han valgte"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "Ta raius"
+      "lv": "Knækkede han"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "Ta raiuks"
+      "lv": "Han ville skære"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Raiutud"
+      "lv": "Cirsts"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Tõstma"
+      "lv": "Celt"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "Ta tõstab"
+      "lv": "Han rejser"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "Ta tõstis"
+      "lv": "Han bragte"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "Ta tõstaks"
+      "lv": "Han ville bygge"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Tõstetud"
+      "lv": "Kelter"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Tundma / teadma"
+      "lv": "At vide / at vide"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "Ta tunneb"
+      "lv": "Han ved"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Ta tundis"
+      "lv": "Pazina"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Ta tundis"
+      "lv": "Pazina"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Tundnud"
+      "lv": "Pazinis"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "Kõlama"
+      "lv": "At lyde"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "Ta kõlab"
+      "lv": "Lyder han"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "Ta kõlas"
+      "lv": "Lød han"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "Ta kõlaks"
+      "lv": "Ville han lyde"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Kõlanud"
+      "lv": "Lød"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Näpistama"
+      "lv": "Kniebt"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "Ta näpistab"
+      "lv": "Spøger han"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "Ta näpistas"
+      "lv": "Han knibede"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "Ta näpistaks"
+      "lv": "Han ville knibe"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Näpistatud"
+      "lv": "Kniebts"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Jääma"
+      "lv": "Palikt"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "Ta jääb"
+      "lv": "Han bliver"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "Ta jäi"
+      "lv": "Han blev"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "Ta jääks"
+      "lv": "Han ville blive"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Jäänud"
+      "lv": "Palicis"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Pleegitama"
+      "lv": "Blege"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "Ta pleegitab"
+      "lv": "Han bleger"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Ta pleegitas"
+      "lv": "Bleget"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Ta pleegitas"
+      "lv": "Bleget"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Pleegitatud"
+      "lv": "Bleget"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "Küpsetama"
+      "lv": "Cept"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "Ta küpsetab"
+      "lv": "Han bager"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "Ta küpsetas"
+      "lv": "Han bagte"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "Ta küpsetaks"
+      "lv": "Han ville bage"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Küpsetatud"
+      "lv": "Cepts / izcepts"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Murdma"
+      "lv": "Lauzt"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "Ta murrab"
+      "lv": "Han knækker"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "Ta murdis"
+      "lv": "Han brød"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "Ta murraks"
+      "lv": "Han ville bryde"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Murtud / katki murtud"
+      "lv": "Lauzts / salauzts"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Põlema"
+      "lv": "Degt"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "Ta põleb"
+      "lv": "Han er i brand"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Ta põles"
+      "lv": "Dega"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Ta põles"
+      "lv": "Dega"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Põlenud"
+      "lv": "Dedzis"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Tooma"
+      "lv": "Rede"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "Ta toob"
+      "lv": "Han bærer"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Ta tõi"
+      "lv": "Han bar"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "Ta tooks"
+      "lv": "Han ville bære"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Toodud / kohale toodud"
+      "lv": "Reder / atnest"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "Mõtlema"
+      "lv": "At tænke"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Ta mõtleb"
+      "lv": "Tænker han"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "Ta mõtles"
+      "lv": "Tænkte han"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Ta mõtleks"
+      "lv": "Ville han mene"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Mõeldud"
+      "lv": "Tilsigtet"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "Palkama / kokku leppima"
+      "lv": "At ansætte / at blive enige"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "Ta palkab"
+      "lv": "Han ansætter"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Ta palkas"
+      "lv": "Ansat"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Ta palkas"
+      "lv": "Ansat"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Palgatud"
+      "lv": "Ansat"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Peksma"
+      "lv": "Kult"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "Ta peksab"
+      "lv": "Han tærsker"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "Ta peksis"
+      "lv": "Han tærskede"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "Ta peksaks"
+      "lv": "Han ville tilbede"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Pekstud"
+      "lv": "Kulter"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Tungima"
+      "lv": "Ielauzties"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "Ta tungib"
+      "lv": "Han bryder ind"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "Ta tungis"
+      "lv": "Han brød ind"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "Ta tungiks"
+      "lv": "Han ville bryde ind"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Tunginud"
+      "lv": "Ielauzies"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Tunduma"
+      "lv": "Det ser ud til"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "See tundub"
+      "lv": "Det ser ud til"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "See tundus"
+      "lv": "Det virkede"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "See tundus"
+      "lv": "Det virkede"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Tundunud"
+      "lv": "Syntes"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "Tohtima"
+      "lv": "At få lov"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "Ta tohib"
+      "lv": "Han kan"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "Ta tohtis"
+      "lv": "Var tilladt"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "Ta tohtis"
+      "lv": "Var tilladt"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Tohtinud"
+      "lv": "Tilladt"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Soovitama"
+      "lv": "Ieteikt"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "Ta soovitab"
+      "lv": "Foreslår han"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "Ta soovitas"
+      "lv": "Foreslog han"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "Ta soovitaks"
+      "lv": "Han vil anbefale"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Soovitatud"
+      "lv": "Ieteikts"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Tundma"
+      "lv": "Sajust"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "Ta tunneb"
+      "lv": "Han føler"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "Ta tundis"
+      "lv": "Han følte"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "Ta tunneks"
+      "lv": "Han ville føle"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Tuntud"
+      "lv": "Sajusts"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Kustuma"
+      "lv": "Izdzist"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "Ta kustub"
+      "lv": "Han går ud"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "Ta kustus"
+      "lv": "Han gik ud"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Ta kustuks"
+      "lv": "Han ville forsvinde"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Kustunud"
+      "lv": "Izdzisis"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Ehmuma"
+      "lv": "Blive forvirret"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "Ta ehmub"
+      "lv": "Han bliver bange"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "Ta ehmus"
+      "lv": "Han blev bange"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "Ta ehmuks"
+      "lv": "Han ville flippe ud"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Ehmunud"
+      "lv": "Sabijies"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "Sööma"
+      "lv": "At spise"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "Ta sööb"
+      "lv": "Han spiser"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "Ta sõi"
+      "lv": "Han spiste"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "Ta sööks"
+      "lv": "Han ville spise"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Söödud / ära söödud"
+      "lv": "Spist / spist"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Sõitma"
+      "lv": "Brakt"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "Ta sõidab"
+      "lv": "Han kører"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "Ta sõitis"
+      "lv": "Han kørte"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "Ta sõidaks"
+      "lv": "Han ville køre"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Sõitnud / ära sõitnud"
+      "lv": "Braucis / aizbraucis"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "Kukkuma"
+      "lv": "Krist"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "Ta kukub"
+      "lv": "Han falder"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "Ta kukkus"
+      "lv": "Han faldt"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "Ta kukuks"
+      "lv": "Han ville falde"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Kukkunud"
+      "lv": "Kritisk"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "Püüdma"
+      "lv": "At fange"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "Ta püüab"
+      "lv": "Han fanger"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "Ta püüdis"
+      "lv": "Han fangede"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "Ta püüaks"
+      "lv": "Han ville fange"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Püütud / kinni püütud"
+      "lv": "Fanget / fanget"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Leidma"
+      "lv": "Atrast"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "Ta leiab"
+      "lv": "Han finder"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "Ta leidis"
+      "lv": "Han fandt"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "Ta leiaks"
+      "lv": "Han ville finde"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Leitud"
+      "lv": "Atraster"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Lendama"
+      "lv": "Laisties"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "Ta lendab"
+      "lv": "Han flyver"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "Ta lendas"
+      "lv": "Han fløj"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "Ta lendaks"
+      "lv": "Han ville flyve"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Lennanud"
+      "lv": "Lidojis"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Põgenema"
+      "lv": "Løbe væk"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "Ta põgeneb"
+      "lv": "Han løber væk"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "Ta põgenes"
+      "lv": "Han løb væk"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "Ta põgeneks"
+      "lv": "Han ville løbe væk"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "Põgenenud"
+      "lv": "Løb væk"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "Voolama"
+      "lv": "At flyde"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "Ta voolab"
+      "lv": "Han løber"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "Ta voolas"
+      "lv": "Han løb"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Ta voolaks"
+      "lv": "Han ville løbe"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Voolanud"
+      "lv": "Bestået"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Sööma / kugistama"
+      "lv": "Spise i morgen"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "Ta sööb / kugistab"
+      "lv": "Han spiser / sluger"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Ta sõi / kugistas"
+      "lv": "Han spiste / slugte"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "Ta sööks / kugistaks"
+      "lv": "Han ville spise / morgenmad"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Ära söödud / kugistatud"
+      "lv": "Spist/morgen"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Külmetama"
+      "lv": "Salt"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "Ta külmetab"
+      "lv": "Han fryser"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "Ta külmetas"
+      "lv": "Han ø"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Ta külmetaks"
+      "lv": "Han frøs"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Külmunud"
+      "lv": "Salis"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "Andma"
+      "lv": "Prik"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "Ta annab"
+      "lv": "Han giver"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "Ta andis"
+      "lv": "Han gav"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "Ta annaks"
+      "lv": "Han ville give"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Antud"
+      "lv": "Prikker"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Õnnestuma"
+      "lv": "Izdoties"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "Tal õnnestub"
+      "lv": "Han lykkes"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "Tal õnnestus"
+      "lv": "Det lykkedes ham"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "Tal õnnestuks"
+      "lv": "Han ville lykkes"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Õnnestunud"
+      "lv": "Izdevies"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Minema"
+      "lv": "Iet"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "Ta läheb"
+      "lv": "Han går"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "Ta läks"
+      "lv": "Han gik"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "Ta läheks"
+      "lv": "Han ville gå"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Läinud"
+      "lv": "Gik"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "Võitma"
+      "lv": "At opnå"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "Ta võidab"
+      "lv": "Han får"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Ta võitis"
+      "lv": "Han fik"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "Ta võidaks"
+      "lv": "Han ville få"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Võidetud"
+      "lv": "Opnået"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Olema / omama"
+      "lv": "At være/tilhøre"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "Tal on"
+      "lv": "Han har"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Tal oli"
+      "lv": "Bija"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Tal oli"
+      "lv": "Bija"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Olnud"
+      "lv": "Bijis"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Hoidma"
+      "lv": "Holde"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "Ta hoiab"
+      "lv": "Han der"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "Ta hoidis"
+      "lv": "Holdt han"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "Ta hoiaks"
+      "lv": "Han ville holde"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Hoitud"
+      "lv": "Afholdt"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Nimetama"
+      "lv": "Saut"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "Ta nimetab / teda nimetatakse"
+      "lv": "Han kalder / han kaldes"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Ta nimetas / teda nimetati"
+      "lv": "Han kaldte / han blev kaldt"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "Ta nimetaks / teda nimetataks"
+      "lv": "Han ville kalde / han ville blive kaldt"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Nimetatud"
+      "lv": "Saukts"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "Aitama"
+      "lv": "At hjælpe"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "Ta aitab"
+      "lv": "Han hjælper"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "Ta aitas"
+      "lv": "Han hjalp"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "Ta aitaks"
+      "lv": "Han ville hjælpe"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Aidatud"
+      "lv": "Hjalp"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "Tulema"
+      "lv": "At komme"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "Ta tuleb"
+      "lv": "Han kommer"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "Ta tuli"
+      "lv": "Han kom"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "Ta tuleks"
+      "lv": "Han ville komme"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Tulnud"
+      "lv": "Er kommet"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Suutma / oskama"
+      "lv": "Kunne"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "Ta saab / oskab"
+      "lv": "Han kan"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Ta sai / oskas"
+      "lv": "Kunne"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Ta sai / oskas"
+      "lv": "Kunne"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Osanud"
+      "lv": "Kunne"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Roomama"
+      "lv": "Det regner"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "Ta roomab"
+      "lv": "Han læner sig"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Ta roomas"
+      "lv": "Han regnede"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "Ta roomaks"
+      "lv": "Han regner"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Roomanud"
+      "lv": "Gik bort"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "Laadima / kutsuma"
+      "lv": "At indlæse, at invitere"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "Ta laadib / kutsub"
+      "lv": "Han stabler / inviterer"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "Ta laadis / kutsus"
+      "lv": "Han indlæste / inviterede"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "Ta laadiks / kutsuks"
+      "lv": "Han ville indlæse / invitere"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Laaditud / kutsutud"
+      "lv": "Indlæst / inviteret"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "Panema / laskma"
+      "lv": "At sætte, at lade"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "Ta paneb / laseb"
+      "lv": "Han sætter / lader"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Ta pani / laskis"
+      "lv": "Han beordrede / tilladt"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "Ta paneks / laseks"
+      "lv": "Han ville sætte / lade"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Pandud / lastud"
+      "lv": "Sætte / tilladt"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "Jooksma"
+      "lv": "Skriet"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "Ta jookseb"
+      "lv": "Han løber"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "Ta jooksis"
+      "lv": "Han løb"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "Ta jookseks"
+      "lv": "Han ville løbe"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Jooksnud"
+      "lv": "Løb"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "Kannatama"
+      "lv": "Cyst"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "Ta kannatab"
+      "lv": "Han lider"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "Ta kannatas"
+      "lv": "Han led"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "Ta kannataks"
+      "lv": "Han ville lide"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Kannatatud"
+      "lv": "Cyster"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Laenama"
+      "lv": "Låne/låne"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "Ta laenab"
+      "lv": "Han låner/låner"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "Ta laenas"
+      "lv": "Han lånte/lånte"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "Ta laenaks"
+      "lv": "Han ville låne/låne"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Laenatud"
+      "lv": "Udlånt/lånt"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "Lugema"
+      "lv": "At læse"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "Ta loeb"
+      "lv": "Han læser"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "Ta luges"
+      "lv": "Han læste"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "Ta loeks"
+      "lv": "Han ville læse"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Loetud"
+      "lv": "Læse"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "Lamama / olema"
+      "lv": "At sove"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "Ta lamab"
+      "lv": "Han sover"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "Ta lamas"
+      "lv": "Han sov"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Ta lamaks"
+      "lv": "Han ville sove"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "Lamatud"
+      "lv": "Sov"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "Valetama"
+      "lv": "Melot"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "Ta valetab"
+      "lv": "Han lyver"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "Ta valetas"
+      "lv": "Han løj"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Ta valetaks"
+      "lv": "Han ville lyve"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Valetatud"
+      "lv": "Melots"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Jahvatama"
+      "lv": "Malt"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "Ta jahvatab"
+      "lv": "Han maler"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "Ta jahvatas"
+      "lv": "Han kant"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "Ta jahvataks"
+      "lv": "Han maler"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Jahvatatud"
+      "lv": "Malt"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Vältima"
+      "lv": "Undgå"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "Ta väldib"
+      "lv": "Han undgår"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "Ta vältis"
+      "lv": "Han undgik"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "Ta väldiks"
+      "lv": "Han ville undgå"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Välditud"
+      "lv": "Undgås"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Lüpsma"
+      "lv": "Slaukt"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Ta lüpsab"
+      "lv": "Han fejer"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "Ta lüpsis"
+      "lv": "Han fejede"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "Ta lüpsaks"
+      "lv": "Han ville malke"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Lüpstud"
+      "lv": "Slaukts"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "Mõõtma"
+      "lv": "At måle"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "Ta mõõdab"
+      "lv": "Han måler"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "Ta mõõtis"
+      "lv": "Han målte"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "Ta mõõdaks"
+      "lv": "Han ville måle"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Mõõdetud"
+      "lv": "Målt"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "Ebaõnnestuma"
+      "lv": "Neizdoties"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "See ebaõnnestub"
+      "lv": "Tas neizdodas"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "See ebaõnnestus"
+      "lv": "Mislykkedes"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "See ebaõnnestus"
+      "lv": "Mislykkedes"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Ebaõnnestunud"
+      "lv": "Neizdevies"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Meeldima"
+      "lv": "Patik"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "Talle meeldib"
+      "lv": "Han kan lide"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Talle meeldis"
+      "lv": "Patika"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Talle meeldis"
+      "lv": "Patika"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Meeldinud"
+      "lv": "Paticis"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "Pidama"
+      "lv": "At have brug for"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Ta peab"
+      "lv": "Han har brug for"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Ta pidi"
+      "lv": "Burde have"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Ta pidi"
+      "lv": "Burde have"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Pidanud"
+      "lv": "Nødvendige"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "Võtma"
+      "lv": "At tage"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "Ta võtab"
+      "lv": "Han tager"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "Ta võttis"
+      "lv": "Han tog"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "Ta võtaks"
+      "lv": "Han ville tage"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Võetud"
+      "lv": "Taget"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Nimetama"
+      "lv": "Nosaukt"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "Ta nimetab"
+      "lv": "Han navngav"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "Ta nimetas"
+      "lv": "Ringede han"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "Ta nimetaks"
+      "lv": "Han ville navngive"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Nimetatud"
+      "lv": "Nosaukts"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "Vilistama"
+      "lv": "Svilpot"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "Ta vilistab"
+      "lv": "Han fløjter"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "Ta vilistas"
+      "lv": "Fløjtede han"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "Ta vilistaks"
+      "lv": "Han ville fløjte"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Vilistatud"
+      "lv": "Svilpots"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Hoolitsema"
+      "lv": "Kopt"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "Ta hoolitseb"
+      "lv": "Han bekymrer sig"
     },
     "imperfektIndikativ": {
       "de": "pflegte vai pflog",
-      "lv": "Ta hoolitses"
+      "lv": "Kopa"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte vai pflog",
-      "lv": "Ta hoolitses"
+      "lv": "Kopa"
     },
     "partizipVergangenheit": {
       "de": "gepflegt vai gepflogen",
-      "lv": "Hoolitsetud"
+      "lv": "Kopter"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Kiitma"
+      "lv": "Ros"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "Ta kiidab"
+      "lv": "Han roser"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "Ta kiitis"
+      "lv": "Han roste"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "Ta kiidaks"
+      "lv": "Han ville rose"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Kiidetud"
+      "lv": "Rost"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Paisuma"
+      "lv": "Bryst"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "Ta paisub"
+      "lv": "Han bliver tyk"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Ta paisus"
+      "lv": "Han modnede"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "Ta paisuks"
+      "lv": "Han tyk"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Paisunud"
+      "lv": "Uzbredis"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Soovitama / arvama"
+      "lv": "Foreslå/omtale"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "Ta soovitab / arvab"
+      "lv": "Han anbefaler / min"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "Ta soovitas / arvas"
+      "lv": "Han foreslog / foreslog"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "Ta soovitaks / arvaks"
+      "lv": "Han ville foreslå / nævne"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Soovitatud / arvatud"
+      "lv": "Foreslået/nævnt"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "Hõõruma"
+      "lv": "Berzt"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "Ta hõõrub"
+      "lv": "Han gnider"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "Ta hõõrus"
+      "lv": "Han gnider"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "Ta hõõruks"
+      "lv": "Han ville gnide"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Hõõrutud"
+      "lv": "Berzts"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Rebima"
+      "lv": "Raut"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "Ta rebib"
+      "lv": "Snapper han"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "Ta rebis"
+      "lv": "Knækkede han"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "Ta rebiks"
+      "lv": "Knækkede han"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Rebitud"
+      "lv": "Rauts"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Ratsutama"
+      "lv": "At ride"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "Ta ratsutab"
+      "lv": "Han rider"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "Ta ratsutas"
+      "lv": "Han red"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "Ta ratsutaks"
+      "lv": "Han ville ride"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Ratsutanud"
+      "lv": "Red"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "Jooksma"
+      "lv": "Skriet"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "Ta jookseb"
+      "lv": "Han løber"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "Ta jooksis"
+      "lv": "Han løb"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "Ta jookseks"
+      "lv": "Han ville løbe"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Jooksnud"
+      "lv": "Løb"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Haistma / lõhnama"
+      "lv": "Ost"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "Ta haistab"
+      "lv": "Han lugter"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "Ta haistis"
+      "lv": "Han synger"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "Ta haistaks"
+      "lv": "Han havn"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Haistetud"
+      "lv": "Osts"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Murdma / rabelema"
+      "lv": "Lauzties"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "Ta rabeleb"
+      "lv": "Han knækker"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "Ta rabeles"
+      "lv": "Han brød sammen"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "Ta rabeleks"
+      "lv": "Han ville bryde"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Rabelenud"
+      "lv": "Laucies"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "Voolama"
+      "lv": "At flyde"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "Ta voolab"
+      "lv": "Han løber"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "Ta voolas"
+      "lv": "Han løb"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Ta voolaks"
+      "lv": "Han ville løbe"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Voolanud / kokku vajunud"
+      "lv": "Flød / koagulerede"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Hüüdma"
+      "lv": "Saut"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "Ta hüüab"
+      "lv": "Ringer han"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "Ta hüüdis"
+      "lv": "Ringede han"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "Ta hüüaks"
+      "lv": "Han ville ringe"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Hüütud"
+      "lv": "Saukts"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "Soolama"
+      "lv": "Til salt"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Ta soolab"
+      "lv": "Han saltede"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "Ta soolas"
+      "lv": "Han saltede"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "Ta soolaks"
+      "lv": "Han ville salte"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Soolatud"
+      "lv": "Saltet"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Juuma / pummeldama"
+      "lv": "Tørre / drikke"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "Ta juua / pummeldab"
+      "lv": "Han drikker/drikker"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "Ta jõi / pummeldas"
+      "lv": "Han drak / drak"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Ta jooks / pummeldaks"
+      "lv": "Han ville drikke / drikke"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Joodud"
+      "lv": "Dzerts"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Imema"
+      "lv": "Suge"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "Ta imeb"
+      "lv": "Han sutter"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "Ta imes"
+      "lv": "Han suttede"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "Ta imeks"
+      "lv": "Han ville sutte"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Imetud"
+      "lv": "Suget"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "Looma"
+      "lv": "At skabe"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "Ta loob"
+      "lv": "Han skaber"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "Ta lõi"
+      "lv": "Han skabte"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "Ta looks"
+      "lv": "Han ville skabe"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Loodud"
+      "lv": "Oprettet"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "Kõlama"
+      "lv": "At lyde"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "See kõlab"
+      "lv": "Tas skan"
     },
     "imperfektIndikativ": {
       "de": "schallte vai scholl",
-      "lv": "See kõlas"
+      "lv": "Lød"
     },
     "imperfektKonjunktiv": {
       "de": "schallte vai scholl",
-      "lv": "See kõlas"
+      "lv": "Lød"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Kõlanud"
+      "lv": "Lød"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Lahutama / lahkuma"
+      "lv": "Skilsmisse/opbrud"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "Ta lahutab / lahkub"
+      "lv": "Han er ved at skilles / skilles"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "Ta lahutas / lahkus"
+      "lv": "Han blev skilt / skilt"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "Ta lahutaks / lahkuks"
+      "lv": "Han ville skilles / skilles"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Lahutatud / lahkunud"
+      "lv": "Separeret/skilt"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Paistma"
+      "lv": "Skinne / fremstå"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "Ta paistab"
+      "lv": "Han skinner / synes"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "Ta paistis"
+      "lv": "Han lyste / syntes"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "Ta paistaks"
+      "lv": "Han ville skinne / synes"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Paistnud"
+      "lv": "Lyste / syntes"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Sõimama"
+      "lv": "Bart"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "Ta sõimab"
+      "lv": "Skælder han ud"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Ta sõimas"
+      "lv": "Han spærrede"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Ta sõimaks"
+      "lv": "Han barberer sig"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Sõimatud"
+      "lv": "Skæg"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Pügama"
+      "lv": "Cirpt"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "Ta pügab"
+      "lv": "Han skærer"
     },
     "imperfektIndikativ": {
       "de": "schor vai scherte",
-      "lv": "Ta pügas"
+      "lv": "Cirpa"
     },
     "imperfektKonjunktiv": {
       "de": "schor vai scherte",
-      "lv": "Ta pügas"
+      "lv": "Cirpa"
     },
     "partizipVergangenheit": {
       "de": "geschoren vai geschert",
-      "lv": "Pügatud"
+      "lv": "Apcirpts"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "Lükkama"
+      "lv": "Stump"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "Ta lükkab"
+      "lv": "Han skubber"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "Ta lükkas"
+      "lv": "Han skubbede"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "Ta lükkaks"
+      "lv": "Han ville skubbe"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Lükatud"
+      "lv": "Stumper"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "Tulistama"
+      "lv": "At skyde"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "Ta tulistab"
+      "lv": "Han skyder"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "Ta tulistas"
+      "lv": "Han skød"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "Ta tulistaks"
+      "lv": "Han ville skyde"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Tulistatud"
+      "lv": "Skud"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Piinama"
+      "lv": "Pine"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "Ta piinab"
+      "lv": "Han plager"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Ta piinas"
+      "lv": "Plaget"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Ta piinas"
+      "lv": "Plaget"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Piinatud"
+      "lv": "Plaget"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "Magama"
+      "lv": "At sove"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "Ta magab"
+      "lv": "Han sover"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "Ta magas"
+      "lv": "Han sov"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Ta magaks"
+      "lv": "Han ville sove"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "Magatud"
+      "lv": "Sov"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Lööma"
+      "lv": "Søster"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "Ta lööb"
+      "lv": "Han slår"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "Ta lõi"
+      "lv": "Han slog"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "Ta lööks"
+      "lv": "Han ville slå"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Löödud"
+      "lv": "Søster"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Hiilima"
+      "lv": "Det regner"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "Ta hiilib"
+      "lv": "Han læner sig"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Ta hiilis"
+      "lv": "Han regnede"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "Ta hiiliks"
+      "lv": "Han regner"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Hiilinud"
+      "lv": "Gik bort"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "Lihvima"
+      "lv": "At male"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "Ta lihvib"
+      "lv": "Han maler"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "Ta lihvis"
+      "lv": "Han kværnede"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "Ta lihviks"
+      "lv": "Han ville male"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Lihvitud"
+      "lv": "Poleret"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "Sulgema"
+      "lv": "At lukke"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "Ta sulgeb"
+      "lv": "Han lukker"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "Ta sulges"
+      "lv": "Han lukkede"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Ta sulgeks"
+      "lv": "Han ville lukke"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Suletud"
+      "lv": "Lukket"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Kugistama"
+      "lv": "I morgen"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "Ta kugistab"
+      "lv": "Han sluger"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "Ta kugistas"
+      "lv": "Han slugte"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "Ta kugistaks"
+      "lv": "Han morgen"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "Kugistatud"
+      "lv": "Morgenen"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Viskama"
+      "lv": "Mest"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "Ta viskab"
+      "lv": "Han kaster"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "Ta viskas"
+      "lv": "Han kastede"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "Ta viskaks"
+      "lv": "Han kastede"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Visatud"
+      "lv": "Mests"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Sulama"
+      "lv": "Kust"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "Ta sulab"
+      "lv": "Han smelter"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "Ta sulas"
+      "lv": "Stønnede han"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Ta sulaks"
+      "lv": "Han bevægede sig"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Sulanud"
+      "lv": "Kusis"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "Puristama"
+      "lv": "At hvæse"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "Ta puristab"
+      "lv": "Fnyser han"
     },
     "imperfektIndikativ": {
       "de": "schnaubte vai schnob",
-      "lv": "Ta puristas"
+      "lv": "Snøftede"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte vai schnob",
-      "lv": "Ta puristas"
+      "lv": "Snøftede"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt vai geschnoben",
-      "lv": "Puristanud"
+      "lv": "Fnyse"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "Lõikama"
+      "lv": "Griezt"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "Ta lõikab"
+      "lv": "Han spinder"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "Ta lõikas"
+      "lv": "Han skar"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Ta lõikaks"
+      "lv": "Han ville skære"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Lõigatud"
+      "lv": "Griezts"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "Kirjutama"
+      "lv": "At skrive"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "Ta kirjutab"
+      "lv": "Skriver han"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "Ta kirjutas"
+      "lv": "Skrev han"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "Ta kirjutaks"
+      "lv": "Han ville skrive"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Kirjutatud"
+      "lv": "Skrevet"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "Karjuma"
+      "lv": "Kliegt"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "Ta karjub"
+      "lv": "Råber han"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "Ta karjus"
+      "lv": "Råbte han"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "Ta karjuks"
+      "lv": "Ville han råbe"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Karjutud"
+      "lv": "Kliegts"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Sammuma"
+      "lv": "Gå"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "Ta sammub"
+      "lv": "Han går"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "Ta sammus"
+      "lv": "Han gik"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "Ta sammuks"
+      "lv": "Han ville gå"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Sammunud"
+      "lv": "Gik"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Vaikima"
+      "lv": "Tie stille"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "Ta vaikib"
+      "lv": "Han er tavs"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "Ta vaikis"
+      "lv": "Han tav"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "Ta vaikiks"
+      "lv": "Han ville tie"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Vaikitud"
+      "lv": "Forstummet"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Paisuma"
+      "lv": "Pampt"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "Ta paisub"
+      "lv": "Han tuder"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "Ta paisus"
+      "lv": "Han pampas"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "Ta paisuks"
+      "lv": "Han ville pumpe"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Paisunud"
+      "lv": "Pampis"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "Ujuma"
+      "lv": "At svømme"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "Ta ujub"
+      "lv": "Han svømmer"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "Ta ujus"
+      "lv": "Han svømmede"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "Ta ujuks"
+      "lv": "Han ville svømme"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Ujunud"
+      "lv": "Svømmede"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Kaduma"
+      "lv": "Zust"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "Ta kaob"
+      "lv": "Han forsvinder"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "Ta kadus"
+      "lv": "Han forsvandt"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "Ta kaoks"
+      "lv": "Han ville forsvinde"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Kadunud"
+      "lv": "Zudis"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Vibutama"
+      "lv": "Bølge"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "Ta vibutab"
+      "lv": "Han vinker"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Ta vibutas"
+      "lv": "Han vinkede"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Ta vibutaks"
+      "lv": "Han ville vinke"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Vibutatud"
+      "lv": "Vinkede"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "Vanduma"
+      "lv": "At bande"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Ta vannub"
+      "lv": "Han sværger"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "Ta vandus"
+      "lv": "Han svor"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Ta vanduks"
+      "lv": "Han ville bande"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Vannutud"
+      "lv": "Svoret"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "Nägema"
+      "lv": "At se"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "Ta näeb"
+      "lv": "Han ser"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "Ta nägi"
+      "lv": "Han så"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "Ta näeks"
+      "lv": "Han ville se"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Nähtud"
+      "lv": "Set"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "Olema"
+      "lv": "At være"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "Ta on"
+      "lv": "Han er"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Ta oli"
+      "lv": "Bija"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Ta oli"
+      "lv": "Bija"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Olnud"
+      "lv": "Bijis"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "Saatma"
+      "lv": "At sende"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "Ta saadab"
+      "lv": "Han sender"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "Ta saatis"
+      "lv": "Han sendte"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Ta saadaks"
+      "lv": "Han ville sende"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Saadetud"
+      "lv": "Sendt"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "Keetma"
+      "lv": "At koge"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "Ta keedab"
+      "lv": "Han laver mad"
     },
     "imperfektIndikativ": {
       "de": "sott vai siedete",
-      "lv": "Ta keetis"
+      "lv": "Kogt"
     },
     "imperfektKonjunktiv": {
       "de": "sott vai siedete",
-      "lv": "Ta keetis"
+      "lv": "Kogt"
     },
     "partizipVergangenheit": {
       "de": "gesotten vai gesiedet",
-      "lv": "Keedetud"
+      "lv": "Kogt"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "Laulma"
+      "lv": "At synge"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "Ta laulab"
+      "lv": "Han synger"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "Ta laulis"
+      "lv": "Han sang"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "Ta laulaks"
+      "lv": "Han ville synge"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Lauldud"
+      "lv": "Sunget"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Vajuma"
+      "lv": "Grimt"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "Ta vajub"
+      "lv": "Han synker"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Ta vajus"
+      "lv": "Han fandt på"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "Ta vajuks"
+      "lv": "Han ville synke"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Vajunud"
+      "lv": "Grimis"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "Mõtisklema"
+      "lv": "At undre sig"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "Ta mõtiskleb"
+      "lv": "Undrer han sig"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "Ta mõtiskles"
+      "lv": "Undrede han sig"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "Ta mõtiskleks"
+      "lv": "Ville han undre sig"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Mõtisklenud"
+      "lv": "Sindede"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "Istuma"
+      "lv": "At sidde"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "Ta istub"
+      "lv": "Han sidder"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "Ta istus"
+      "lv": "Han sad"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "Ta istuks"
+      "lv": "Han ville sidde"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "Istutud"
+      "lv": "Satte sig ned"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Pidama / olema kohustatud"
+      "lv": "Behøver/være forpligtet"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Ta peab"
+      "lv": "Han har brug for"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Ta pidi"
+      "lv": "Burde have"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Ta pidi"
+      "lv": "Burde have"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Pidanud"
+      "lv": "Nødvendige"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "Sülitama"
+      "lv": "At spytte"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "Ta sülitab"
+      "lv": "Han spytter"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "Ta sülitas"
+      "lv": "Han spyttede"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Ta sülitaks"
+      "lv": "Han ville spytte"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Sülitatud"
+      "lv": "Spyttede ud"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Ketrama"
+      "lv": "Spin"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "Ta ketrab"
+      "lv": "Han vrider sig"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Ta ketras"
+      "lv": "Han snurrede"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "Ta ketraks"
+      "lv": "Han ville spinde"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Kedratud"
+      "lv": "Spundet"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Ühendama"
+      "lv": "Savienot"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "Ta ühendab"
+      "lv": "Han forbinder"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Ta ühendas"
+      "lv": "Savienoja"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Ta ühendas"
+      "lv": "Savienoja"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Ühendatud"
+      "lv": "Savienoter"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "Rääkima"
+      "lv": "At tale"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "Ta räägib"
+      "lv": "Han taler"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "Ta rääkis"
+      "lv": "Han talte"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "Ta räägiks"
+      "lv": "Han ville tale"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Räägitud"
+      "lv": "Talt"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Idanema / võrsuma"
+      "lv": "Plaukt"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "Ta võrsub"
+      "lv": "Han trives"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "Ta võrsus"
+      "lv": "Han trivedes"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "Ta võrsuks"
+      "lv": "Han hylde"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Võrsunud"
+      "lv": "Plaucis"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "Hüppama"
+      "lv": "At hoppe"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "Ta hüppab"
+      "lv": "Han hopper"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "Ta hüppas"
+      "lv": "Han sprang"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "Ta hüppaks"
+      "lv": "Han ville hoppe"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Hüpanud"
+      "lv": "Linse"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Torkama"
+      "lv": "Durt"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "Ta torkab"
+      "lv": "Han stikker"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "Ta torkas"
+      "lv": "Han slog"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "Ta torkaks"
+      "lv": "Han ville stikke"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Torgatud"
+      "lv": "Durts"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Pistma / torkama"
+      "lv": "At stikke / stikke ind"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "Ta pistab"
+      "lv": "Han skubber"
     },
     "imperfektIndikativ": {
       "de": "stak vai steckte",
-      "lv": "Ta pistis"
+      "lv": "Fyldte"
     },
     "imperfektKonjunktiv": {
       "de": "stak vai steckte",
-      "lv": "Ta pistis"
+      "lv": "Fyldte"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Pistetud"
+      "lv": "Fyldte"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "Seisma"
+      "lv": "At stå"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "Ta seisab"
+      "lv": "Han står"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "Ta seisis"
+      "lv": "Han stod"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "Ta seisaks"
+      "lv": "Han ville stå"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Seistud"
+      "lv": "Stående"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Varastama"
+      "lv": "Zagt"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "Ta varastab"
+      "lv": "Han stjæler"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "Ta varastas"
+      "lv": "Han stjal"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "Ta varastaks"
+      "lv": "Han ville stjæle"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Varastatud"
+      "lv": "Zagts"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "Ronima"
+      "lv": "At klatre"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "Ta roniab"
+      "lv": "Han klatrer"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "Ta ronis"
+      "lv": "Han klatrede"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "Ta roniks"
+      "lv": "Han ville klatre"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Roninud"
+      "lv": "Klatrede"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "Surema"
+      "lv": "Mirt"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "Ta sureb"
+      "lv": "Han er døende"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "Ta suri"
+      "lv": "Han døde"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "Ta sureks"
+      "lv": "Han ville dø"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Surnud"
+      "lv": "Miris"
     }
   },
   {
     "infinitiv": {
       "de": "stieben",
-      "lv": "Lendlema / pihustuma"
+      "lv": "Skum / hvirvel"
     },
     "praesens": {
       "de": "es stiebt",
-      "lv": "See pihustub"
+      "lv": "Tas sat"
     },
     "imperfektIndikativ": {
       "de": "stob vai stiebte",
-      "lv": "See pihustus"
+      "lv": "Skummet"
     },
     "imperfektKonjunktiv": {
       "de": "stob vai stiebte",
-      "lv": "See pihustus"
+      "lv": "Skummet"
     },
     "partizipVergangenheit": {
       "de": "gestoben vai gestiebt",
-      "lv": "Laiali pihustunud"
+      "lv": "Forkælet"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "Haisema"
+      "lv": "At lugte"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "See haiseb"
+      "lv": "Det er sjovt"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "See haises"
+      "lv": "Lugtede"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "See haises"
+      "lv": "Lugtede"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Haisenud"
+      "lv": "Ildelugtende"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Tõukama"
+      "lv": "Skubbe"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "Ta tõukab"
+      "lv": "Han skubber"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "Ta tõukas"
+      "lv": "Han skubbede"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "Ta tõukaks"
+      "lv": "Han skubbede"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Tõugatud"
+      "lv": "Skubbet"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Värvima"
+      "lv": "Maling/strimmel"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "Ta värvib"
+      "lv": "Han maler / striber"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "Ta värvis"
+      "lv": "Han malede / stribet"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "Ta värviks"
+      "lv": "Han ville male / strippe"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Värvitud"
+      "lv": "Malet / stribet"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "Vaidlema"
+      "lv": "At kæmpe"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "Ta vaidleb"
+      "lv": "Han kæmper"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Ta vaidles"
+      "lv": "Han kæmpede"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "Ta vaidleks"
+      "lv": "Han ville kæmpe"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Vaielnud"
+      "lv": "Kæmpede"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Kandma"
+      "lv": "Rede"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "Ta kannab"
+      "lv": "Han bærer"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "Ta kandis"
+      "lv": "Han bar"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "Ta kannaks"
+      "lv": "Han ville bære"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Kantud"
+      "lv": "Reder"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Kohtama"
+      "lv": "Sastapt"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "Ta kohtab"
+      "lv": "Han møder"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "Ta kohtas"
+      "lv": "Han stødte på"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "Ta kohtaks"
+      "lv": "Han ville støde på"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Kohatud"
+      "lv": "Sastapts"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Ajama"
+      "lv": "Jage"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "Ta ajab"
+      "lv": "Han kører"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "Ta ajas"
+      "lv": "Han kørte"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "Ta ajaks"
+      "lv": "Han ville køre"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Aetud"
+      "lv": "Jaget"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Astuma / minema"
+      "lv": "Gå ind/gå"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "Ta astub / läheb"
+      "lv": "Han går ind / går"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Ta astus / läks"
+      "lv": "Han stod / gik"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "Ta astuks / läheks"
+      "lv": "Han ville stå/gå"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Astunud / läinud"
+      "lv": "Stod / gik"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "Jooma"
+      "lv": "Dzert"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "Ta joob"
+      "lv": "Han drikker"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "Ta jõi"
+      "lv": "Han drak"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "Ta jooks"
+      "lv": "Han ville drikke"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Joodud"
+      "lv": "Dzerts"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "Petma"
+      "lv": "At snyde"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "Ta petab"
+      "lv": "Han snyder"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "Ta petis"
+      "lv": "Han snød"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Ta petaks"
+      "lv": "Han ville snyde"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Petetud"
+      "lv": "Snydt"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "Tegema"
+      "lv": "At gøre"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "Ta teeb"
+      "lv": "Det gør han"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "Ta tegi"
+      "lv": "Det gjorde han"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "Ta teeks"
+      "lv": "Han ville gøre"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Tehtud"
+      "lv": "Gjort"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Rikkuma"
+      "lv": "Til skade"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "Ta rikub"
+      "lv": "Han ødelægger"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "Ta rikkus"
+      "lv": "Han beskadigede"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "Ta rikuks"
+      "lv": "Han ville skade"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Rikutud"
+      "lv": "Beskadiget"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "Pahandama"
+      "lv": "At forårsage irritation"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "Ta tekitab pahameelt"
+      "lv": "Han volder ærgrelse"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "Ta tekitas pahameelt"
+      "lv": "Han voldte ærgrelse"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "Ta tekitaks pahameelt"
+      "lv": "Han ville volde ærgrelse"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Pahandatud"
+      "lv": "Ked af det"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Unustama"
+      "lv": "Aizmirst"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "Ta unustab"
+      "lv": "Han glemmer"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "Ta unustas"
+      "lv": "Han glemte"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Ta unustaks"
+      "lv": "Han ville glemme"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Unustatud"
+      "lv": "Aizmirsts"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "Kaotama"
+      "lv": "At tabe"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "Ta kaotab"
+      "lv": "Han taber"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "Ta kaotas"
+      "lv": "Han tabte"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "Ta kaotaks"
+      "lv": "Han ville tabe"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Kaotatud"
+      "lv": "Tabt"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Kasvama"
+      "lv": "Augt"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "Ta kasvab"
+      "lv": "Han vokser"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "Ta kasvas"
+      "lv": "Han voksede op"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "Ta kasvaks"
+      "lv": "Han ville vokse"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Kasvanud"
+      "lv": "Audzis"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "Pesema"
+      "lv": "At vaske"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "Ta peseb"
+      "lv": "Han vasker"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "Ta pesi"
+      "lv": "Han vaskede"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "Ta peseks"
+      "lv": "Han ville vaske"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Pestud"
+      "lv": "Vasket"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Kuduma"
+      "lv": "Aust"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "Ta koob"
+      "lv": "Han væver"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Ta kudus"
+      "lv": "Auda"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Ta kudus"
+      "lv": "Auda"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Kootud"
+      "lv": "Izausts"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "Taganema"
+      "lv": "At trække sig tilbage"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "Ta taganeb"
+      "lv": "Han bakker"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "Ta taganes"
+      "lv": "Han trådte tilbage"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "Ta taganeks"
+      "lv": "Han ville trække sig"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Taganenud"
+      "lv": "Trække sig tilbage"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Näitama"
+      "lv": "Vise"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "Ta näitab"
+      "lv": "Viser han"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "Ta näitas"
+      "lv": "Viste han"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "Ta näitaks"
+      "lv": "Han ville vise"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Näidatud"
+      "lv": "Vist"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Pöörama"
+      "lv": "Ændre / beskære"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "Ta pöörab"
+      "lv": "Han vrider / vender sig"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Ta pööras"
+      "lv": "Han vred / vendte sig"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "Ta pööraks"
+      "lv": "Han ville ændre / omgøre"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Pööratud"
+      "lv": "Ændret/omgjort"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "Kosima"
+      "lv": "At foreslå"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "Ta kosib"
+      "lv": "Han foreslår"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "Ta kosis"
+      "lv": "Han foreslog"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "Ta kosiks"
+      "lv": "Han ville foreslå"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Kositud"
+      "lv": "Foreslået at"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "Saama"
+      "lv": "At blive"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "Ta saab"
+      "lv": "Han bliver"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Ta sai"
+      "lv": "Blev"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Ta sai"
+      "lv": "Blev"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Saanud"
+      "lv": "Er blevet"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Viskama"
+      "lv": "Mest"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "Ta viskab"
+      "lv": "Han kaster"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "Ta viskas"
+      "lv": "Han kastede"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "Ta viskaks"
+      "lv": "Han kastede"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Visatud"
+      "lv": "Mests"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "Kaaluma"
+      "lv": "At veje"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "Ta kaalub"
+      "lv": "Han vejer"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "Ta kaalus"
+      "lv": "Han vejede"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "Ta kaaluks"
+      "lv": "Han ville veje"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Kaalutud"
+      "lv": "Vægtet"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Punuma"
+      "lv": "Fletning"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "Ta punub"
+      "lv": "Han pin"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "Ta punus"
+      "lv": "Han fletter"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "Ta punuks"
+      "lv": "Han ville flette"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Punutud"
+      "lv": "Flettet"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "Teadma"
+      "lv": "At vide"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "Ta teab"
+      "lv": "Han ved"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "Ta teadis"
+      "lv": "Han vidste"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "Ta teaks"
+      "lv": "Han ville vide"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Teatud"
+      "lv": "Kendt"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Tahtma"
+      "lv": "Vil"
     },
     "praesens": {
       "de": "er will",
-      "lv": "Ta tahab"
+      "lv": "Han vil"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Ta tahtis"
+      "lv": "Ville"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Ta tahtis"
+      "lv": "Ville"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Tahtnud"
+      "lv": "Ville"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Väänama / pigistama"
+      "lv": "Izgriezt / izspiest"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "Ta väänab"
+      "lv": "Han skærer ud"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Ta väänas"
+      "lv": "Izgrieza"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Ta väänas"
+      "lv": "Izgrieza"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Väänatud"
+      "lv": "Izgriezts"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Süüdistama"
+      "lv": "Vainot"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "Ta süüdistab"
+      "lv": "Han giver skylden"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Ta süüdistas"
+      "lv": "Vainoja"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Ta süüdistas"
+      "lv": "Vainoja"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Süüdistanud"
+      "lv": "Vainojis"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Tõmbama"
+      "lv": "Lyst"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "Ta tõmbab"
+      "lv": "Han trækker"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "Ta tõmbas"
+      "lv": "Han trak"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "Ta tõmbaks"
+      "lv": "Han ville trække"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Tõmmatud"
+      "lv": "Bygds"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Sundima"
+      "lv": "Piepiest"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "Ta sunnib"
+      "lv": "Han tvinger"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "Ta sundis"
+      "lv": "Han tvang"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "Ta sunniks"
+      "lv": "Han ville tvinge"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Sunnitud"
+      "lv": "Piepiests"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "Vastu võtma"
+      "lv": "At modtage"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "Ta võtab vastu"
+      "lv": "Han modtager"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "Ta võttis vastu"
+      "lv": "Han modtog"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "Ta võtaks vastu"
+      "lv": "Han ville modtage"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Vastu võetud"
+      "lv": "Modtaget"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "Kaaluma"
+      "lv": "At overveje"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Ta kaalub"
+      "lv": "Overvejer han"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Ta kaalus"
+      "lv": "Overvejede han"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "Ta kaaluks"
+      "lv": "Ville han overveje"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Kaalutud"
+      "lv": "Overvejet"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "Vehklema / võitlema"
+      "lv": "At kæmpe"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "Ta võitleb"
+      "lv": "Han kæmper"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Ta võitles"
+      "lv": "Han kæmpede"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "Ta võitleks"
+      "lv": "Han ville kæmpe"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Võidelnud"
+      "lv": "Kæmpede"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Punuma"
+      "lv": "Fletning"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "Ta punub"
+      "lv": "Han pin"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "Ta punus"
+      "lv": "Han fletter"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "Ta punuks"
+      "lv": "Han ville flette"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Punutud"
+      "lv": "Flettet"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "Rippuma"
+      "lv": "At hænge"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "Ta ripub"
+      "lv": "Han hænger"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "Ta rippus"
+      "lv": "Han hang"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Ta ripuks"
+      "lv": "Han ville hænge sig"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Ripnud"
+      "lv": "Hæng på"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "Lõhkuma"
+      "lv": "At splitte"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "Ta lõhub"
+      "lv": "Han deler sig"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "Ta lõhkus"
+      "lv": "Han splittede"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "Ta lõhkus"
+      "lv": "Han ville splitte"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Lõhutud"
+      "lv": "Dele"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "Andestama"
+      "lv": "Piedot"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "Ta andestab"
+      "lv": "Han tilgiver"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "Ta andestas"
+      "lv": "Han tilgav"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "Ta andestaks"
+      "lv": "Han ville tilgive"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Andestatud"
+      "lv": "Piedoter"
     }
   }
 ];
