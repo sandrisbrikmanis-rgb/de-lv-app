@@ -83,6 +83,9 @@ scripts/.es-pt-translation-cache.json
 scripts/.es-pt-ui-translation-cache.json
 scripts/.en-lv-translation-cache.json
 scripts/.en-ui-translation-cache.json
+scripts/.hu-lv-translation-cache.json
+scripts/.hu-en-translation-cache.json
+scripts/.hu-ui-translation-cache.json
 scripts/.es-pt-training-cache.json
 scripts/.es-pl-training-cache.json
 *.sk-*-cache.json
