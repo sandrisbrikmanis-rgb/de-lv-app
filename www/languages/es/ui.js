@@ -1,4 +1,406 @@
 window.LANGUAGE_UI_STRINGS = {
+  "menu": {
+    "mainNav": "Menú principal",
+    "course": "Curso",
+    "sentences": "Frases",
+    "verbs": "Verbos",
+    "chooseGroup": "Elige un grupo"
+  },
+  "groups": {
+    "sentences": "Frases"
+  },
+  "nav": {
+    "backHome": "Volver al menú principal",
+    "changeLanguage": "Cambia tu idioma nativo",
+    "howItWorks": "¿Cómo funciona?",
+    "quickTools": "herramientas rapidas"
+  },
+  "buttons": {
+    "known": "Lo sé",
+    "unknown": "No lo sé",
+    "next": "la siguiente palabra",
+    "check": "Controlar",
+    "continue": "Continuar",
+    "close": "Cerca",
+    "delete": "Borrar",
+    "cancel": "Cancelar",
+    "restore": "Restaurar",
+    "restoreAll": "Restaurar todo",
+    "extraOptions": "Opciones adicionales",
+    "extraOptionsOpen": "Opciones adicionales ▼",
+    "extraOptionsClose": "Opciones adicionales ▲",
+    "weeklyReview": "revisión semanal",
+    "monthlyReview": "Revisión mensual",
+    "unwantedWords": "Palabras innecesarias",
+    "knownWords": "Por supuesto",
+    "knownWithCount": "Conocidos ({count})",
+    "markMastered": "100% dominado",
+    "shuffleVerbs": "mezclar los verbos",
+    "restartSession": "🔄 Revisar la sesión nuevamente",
+    "markSessionLearned": "🏅 Marcar la sesión como impartida",
+    "chooseAnotherGroup": "Elige otro grupo",
+    "listen": "para escuchar",
+    "listenPlural": "Escuche el plural",
+    "listenWithWord": "Escuchar: {word}",
+    "autoplayOn": "Pronunciación automática activada",
+    "autoplayOff": "Pronunciación automática desactivada",
+    "autoplayLabel": "Pronunciación automática",
+    "autoplayAriaOn": "{label} (activado automáticamente)",
+    "autoplayAriaOff": "{label} (desactivado automáticamente)",
+    "disableAutoplay": "Desactivar la pronunciación automática",
+    "enableAutoplay": "Activar la pronunciación automática",
+    "markUnwanted": "Marcar como innecesario",
+    "masteredWords": "100% conocido"
+  },
+  "tools": {
+    "problemShort": "Probl.",
+    "problemFull": "Palabras problemáticas",
+    "problemWithCount": "Palabras problemáticas ({count})",
+    "spellingShort": "Ort.",
+    "spellingFull": "Ortografía"
+  },
+  "modes": {
+    "easy": "Fácil",
+    "normal": "Normal",
+    "intense": "Intenso"
+  },
+  "direction": {
+    "deToNative": "🔄 DE ➔ {código}",
+    "nativeToDe": "🔄 {código} ➔ DE"
+  },
+  "hints": {
+    "tapToReveal": "Haga clic en la tarjeta para ver la traducción.",
+    "chooseNextStep": "Elige qué hacer a continuación.",
+    "chooseModeOrReturn": "Elija otro modo o regrese más tarde para revisar.",
+    "trainingCard": "{title} tarjeta de ejercicio"
+  },
+  "card": {
+    "pluralLabel": "Pl.",
+    "spelling": "Ortografía",
+    "spellingVerbs": "Ortografía · Verbos",
+    "verbsShuffleTraining": "Verbos · Entrenamiento mixto",
+    "answerPrefix": "Respuesta:",
+    "sessionComplete": "¡Sesión completa!",
+    "sessionLabel": "Sesión",
+    "lastSessionLabel": "Última sesión",
+    "problemLabel": "Los problemáticos",
+    "levelCompleteTitle": "¡Excelente! ¡El nivel {label} está completo! 🎉",
+    "levelCompleteDesc": "Has aprendido todas las palabras de este grupo. ¡Es hora de dar el siguiente paso!",
+    "noActiveWords": "No hay palabras activas en este grupo.",
+    "noCardsInSession": "No hay tarjetas en esta sesión.",
+    "cardNotFound": "Tarjeta no encontrada"
+  },
+  "verb": {
+    "infinitive": "Infinitivo",
+    "present": "el presente",
+    "imperfectIndicative": "Imperfecto - Indicativo",
+    "imperfectSubjunctive": "Imperfecto - Subjuntivo",
+    "pastParticiple": "Participio pasado",
+    "infinitiv": "Infinitivo",
+    "writeInfinitive": "escribe el infinitivo",
+    "guessInfinitive": "adivina el infinitivo",
+    "writeImperfect": "escribe el imperfecto",
+    "guessImperfect": "Adivina el imperfecto",
+    "writePastParticiple": "Escribe el participio pasado",
+    "guessPastParticiple": "Adivina el participio pasado",
+    "translationPrefix": "Traducción:",
+    "hintTapAnswer": "Haga clic en la tarjeta para ver la respuesta.",
+    "hintTapSwitch": "Haga clic en la tarjeta para cambiar la forma.",
+    "hintSessionProgress": "{etiqueta}: {actual} / {total}. {convertirse en}",
+    "noShuffleForms": "Este verbo no tiene suficientes formas para mezclar."
+  },
+  "notices": {
+    "chooseNextGroup": "Seleccione el siguiente grupo en el menú principal.",
+    "sessionReloaded": "Sesión recargada con orden mixto.",
+    "sessionMovedToKnown": "Los nombres de las sesiones pasaron a ser conocidos.",
+    "verbShuffleOn": "Mezcla de verbos.",
+    "verbShuffleOff": "Conjugación verbal desactivada.",
+    "spellingOn": "Modo hechizo activado.",
+    "spellingOff": "Modo de ortografía desactivado.",
+    "showingKnown": "Mostramos las cartas conocidas.",
+    "problemModeOff": "Modo de palabra problemática desactivado.",
+    "showingProblems": "Mostramos las palabras problemáticas.",
+    "noProblems": "No hay palabras problemáticas.",
+    "errorLevelReduced": "Tasa de error reducida.",
+    "movedToKnown": "¡Nombre movido a Conocido!",
+    "problemsFinishedMoved": "Palabras problemáticas aprendidas. ¡Nombre movido a Conocido!",
+    "lastSessionDone": "Revisión de la última sesión completada.",
+    "continueLastSession": "Seguimos repasando la última sesión.",
+    "knownReviewDone": "Revisión de palabras familiares completa.",
+    "continueKnownReview": "Seguimos repasando palabras conocidas.",
+    "noVerbToMark": "No hay verbos para marcar.",
+    "verbMarkedKnown": "El verbo se marca como conocido.",
+    "noCardToMark": "No hay cartas para marcar.",
+    "markedKnown": "Marcado como conocido.",
+    "noCard": "No hay cartas para marcar.",
+    "answerRevealed": "La respuesta se revela. El nombre permanece en la sesión.",
+    "returnedToStudy": "Regresó al modo de aprendizaje.",
+    "leftInProblems": "Dejado en el grupo problemático.",
+    "leftForReview": "Dejado para revisión.",
+    "showingTimeReview": "Mostrando: {etiqueta}.",
+    "continueTimeReview": "Continuando: {etiqueta}.",
+    "enterAnswerFirst": "Primero, ingrese la respuesta correcta y presione Verificar.",
+    "noCardForMastered": "No hay ninguna tarjeta para agregar al 100% conocido.",
+    "addedMastered": "Nombre añadido a 100% conocido.",
+    "alreadyMastered": "El nombre ya está en la lista 100% conocida.",
+    "noCardForUnwanted": "No hay ninguna tarjeta para marcar como innecesaria.",
+    "markedUnwanted": "Palabra marcada como innecesaria.",
+    "loadFailed": "No se pudieron cargar las tarjetas. Vuelve a cargar la página o comprueba que todos los archivos de datos estén disponibles.",
+    "noCompletedSession": "No hay sesiones completadas para revisar.",
+    "showingLastSession": "Te mostramos la última sesión completada.",
+    "sessionArchivedNext": "Última sesión marcada como aprendida. Próxima sesión cargada.",
+    "sessionArchived": "Última sesión marcada como aprendida."
+  },
+  "review": {
+    "weekLabel": "revisión semanal",
+    "weekEmpty": "No hay palabras aprendidas para el repaso semanal.",
+    "weekDone": "Revisión semanal completa.",
+    "weekCount": "Aprendido esta semana: {count} {words}",
+    "monthLabel": "Revisión mensual",
+    "monthEmpty": "No hay palabras aprendidas para la revisión mensual.",
+    "monthDone": "Informe mensual completado.",
+    "monthCount": "Aprendido este mes: {count} {words}",
+    "knownReviewDone": "Revisión de palabras familiares completa."
+  },
+  "lists": {
+    "noUnwanted": "Sin palabras innecesarias.",
+    "noLearned": "Sin palabras aprendidas.",
+    "noMastered": "No existen palabras 100% conocidas."
+  },
+  "restore": {
+    "ariaLabel": "Confirmar la eliminación de todo el progreso.",
+    "warning": "¡Atención! Todo el progreso aprendido y el historial de palabras se borrarán por completo con ceros."
+  },
+  "info": {
+    "title": "¿Cómo funciona?",
+    "directionTitle": "Dirección de traducción",
+    "directionBody": "Presione para alternar entre <strong>DE→{code}</strong> y <strong>{code}→DE</strong>.",
+    "problemTitle": "Palabras problemáticas",
+    "problemBody": "Pulsa <strong>Probl.</strong> para aprender las palabras que te equivocaste. En el flujo normal «No sé» añade la palabra aquí; aquí «lo sé correctamente» reduce el grado de error.",
+    "spellingTitle": "Ortografía",
+    "spellingBody": "Pulsa <strong>Escribir</strong> para escribir la palabra a mano antes de responder.",
+    "intensityTitle": "Intensidad de la sesión",
+    "intensityBody": "Elige cuántas palabras quieres aprender en una sesión: <strong>Fácil · 10</strong>, <strong>Normal · 20</strong> o <strong>Intensivo · 30</strong>.",
+    "listeningTitle": "Escuchando",
+    "listeningBody": "Haga clic en el icono del altavoz en la tarjeta para escuchar la pronunciación.",
+    "unwantedTitle": "Palabras innecesarias",
+    "unwantedBody": "Presione el ojo tachado en la esquina de la tarjeta y la palabra desaparecerá del feed. Puedes devolverlo en la sección Opciones adicionales.",
+    "answersTitle": "Respuestas",
+    "answersBody": "<strong>Lo sé correctamente</strong>: ya sabes la respuesta. <strong>No sé</strong>: te ayuda a recordar y añade preguntas problemáticas. <strong>Siguiente palabra</strong>: salta sin calificación.",
+    "extraTitle": "Opciones adicionales",
+    "extraBody": "Abre <strong>Opciones avanzadas</strong> para ver una descripción general semanal y mensual, palabras conocidas y devolver palabras ocultas."
+  },
+  "extra": {
+    "wordManagement": "Gestión de palabras",
+    "statistics": "Estadística",
+    "settings": "Ajustes"
+  },
+  "settings": {
+    "appLanguage": "Idioma de la aplicación"
+  },
+  "kurss": {
+    "panelLabel": "Curso",
+    "title": "Curso",
+    "subtitle": "Conceptos básicos del idioma alemán paso a paso.",
+    "back": "‹ Curso",
+    "closeCourse": "cerrar el curso",
+    "backToMain": "Volver a la pantalla principal",
+    "tipTitle": "Consejo",
+    "tipBody": "Escuche, repita y compare. ¡Tu oído es el mejor maestro!",
+    "pronunciation": "pronunciación",
+    "pronunciationDesc": "Conceptos básicos de los sonidos y la pronunciación alemanes.",
+    "articles": "Artículos",
+    "articlesDesc": "Der, die, das y conceptos básicos de uso.",
+    "pronouns": "Pronombres",
+    "pronounsDesc": "Formas Nominativ, Akkusativ y Dativ.",
+    "lessons": "conferencias",
+    "lessonsDesc": "Impartición de conferencias en orden secuencial del 1 al 21.",
+    "verbBasics": "Los fundamentos de los verbos.",
+    "verbBasicsDesc": "Personas, formas y verbos comunes.",
+    "sentenceStructure": "Estructura de oraciones",
+    "sentenceStructureDesc": "Orden simple de las palabras en oraciones alemanas.",
+    "articlesSubtitle": "Der, die, das y conceptos básicos de uso.",
+    "pronounsSubtitle": "Nominativ, Akkusativ y Dativ: formas de pronombres.",
+    "pronunciationSubtitle": "Conceptos básicos de los sonidos y la pronunciación alemanes.",
+    "vowelsSubtitle": "Vocales - largas y cortas",
+    "consonantsSubtitle": "Consonantes y combinaciones de letras.",
+    "lessonsSubtitle": "Impartición de conferencias en orden secuencial del 1 al 21.",
+    "vowelsTitle": "Vocales - largas y cortas",
+    "vowelsDesc": "Vocales largas y cortas con ejemplos.",
+    "consonantsTitle": "Consonantes y combinaciones de letras.",
+    "consonantsDesc": "Los sonidos de consonantes más importantes para el principiante.",
+    "lessonProgress": "Lekcija {lesson} · Traduce: {current} / {total}",
+    "exerciseProgress": "Conferencia {lección} · Ejercicio",
+    "sections": {
+      "grammar": "gramática",
+      "exercise": "Ejercicio",
+      "translate": "Traducir",
+      "exerciseCombined": "Ejercicio / Ejercicio"
+    },
+    "hints": {
+      "tapToRevealAnswer": "Toca la tarjeta para ver la respuesta.",
+      "tapToContinue": "Toca la tarjeta para continuar.",
+      "tapToRevealGerman": "Toque la tarjeta para ver la traducción al alemán.",
+      "tapNextStep": "Toque la tarjeta para ir al siguiente paso.",
+      "exerciseCardAria": "{title} tarjeta de ejercicio"
+    },
+    "cta": {
+      "tapNextCard": "Toca la siguiente tarjeta",
+      "tapToRevealAnswer": "Toca para ver la respuesta",
+      "tapContinue": "Toca continuar",
+      "transformSentence": "Revisa la frase.",
+      "transformThirdSingular": "Cambia la oración a 3ra persona del singular.",
+      "transformFirstPlural": "Cambia la oración a 1ª persona del plural."
+    },
+    "exerciseMeta": {
+      "fillCase": "Übung I - Usa la conjugación correcta",
+      "chooseCasePlural": "¡Pon la conjugación correcta y hazlo en plural!",
+      "answerPlural": "Ahora responde en plural.",
+      "translate": "Übung II - traducir",
+      "formDu": "Forma 1/3: Tu (singular)",
+      "formIhr": "Formulario 2/3: Tú (plural)",
+      "formSie": "Formulario 3/3: Sie (forma decente)"
+    },
+    "lessonItems": {
+      "1": {
+        "title": "Lección 1",
+        "menuDesc": "Verbos en presente, palabras, gramática y práctica."
+      },
+      "2": {
+        "title": "Lección 2",
+        "menuDesc": "Diálogos, palabras, pronunciación, gramática y traducción."
+      },
+      "3": {
+        "title": "Lección 3",
+        "menuDesc": "Diálogos, palabras, pronunciación, gramática y traducción."
+      },
+      "4": {
+        "title": "Lección 4",
+        "menuDesc": "Acusativo, nehmen, hinlegen, hinausgehen y adjetivos."
+      },
+      "5": {
+        "title": "Lección 5",
+        "menuDesc": "Wen?, acusativo, sitzen, fragen y terminación -in."
+      },
+      "6": {
+        "title": "Lección 6",
+        "menuDesc": "Números, plurales, diéresis y formas plurales de sustantivos."
+      },
+      "7": {
+        "title": "Lección 7",
+        "menuDesc": "Imperativo, forma de tratamiento y plural."
+      },
+      "8": {
+        "title": "Lección 8",
+        "menuDesc": "Verbos reflexivos, e → i/ie cambio y acusativo."
+      },
+      "9": {
+        "title": "Lección 9",
+        "menuDesc": "Múltiples sujetos, dieser/jener, singular y plural."
+      },
+      "10": {
+        "title": "Lección 10",
+        "menuDesc": "Sein, können, salud, edad y profesiones."
+      },
+      "11": {
+        "title": "Lección 11",
+        "menuDesc": "Haben, kein/keine/keinen, sustantivos posesivos y compuestos."
+      },
+      "12": {
+        "title": "Lección 12",
+        "menuDesc": "Calidades comparables, también, edad y colores."
+      },
+      "13": {
+        "title": "Lección 13",
+        "menuDesc": "Der Körper, partes del cuerpo, turnen y jeder."
+      },
+      "14": {
+        "title": "Lección 14",
+        "menuDesc": "Verbos müssen, wollen, mögen y modales."
+      },
+      "15": {
+        "title": "Lección 15",
+        "menuDesc": "sollen, dürfen, essen y frutas."
+      },
+      "16": {
+        "title": "Lección 16",
+        "menuDesc": "Dativo, geben, sich nähern."
+      },
+      "17": {
+        "title": "Lección 17",
+        "menuDesc": "mit + Dativ, womit / mit wem y Umlaut."
+      },
+      "18": {
+        "title": "Lección 18",
+        "menuDesc": "wohin / wo, Akkusativ o Dativ con / in / auf."
+      },
+      "19": {
+        "title": "Lección 19",
+        "menuDesc": "Wechselpräpositionen: vor, hinder, unter, über, neben, zwischen."
+      },
+      "20": {
+        "title": "Lección 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ y sustantivos compuestos."
+      },
+      "21": {
+        "title": "Lección 21",
+        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativo."
+      }
+    }
+  },
+  "plural": {
+    "wordOne": "palabra",
+    "wordsFew": "palabras",
+    "wordsMany": "palabras"
+  },
+  "spelling": {
+    "writeNative": "Escribe en español",
+    "writeGerman": "Escribir en alemán",
+    "correct": "¡Correcto!",
+    "incorrect": "Equivocado",
+    "expectedLabel": "Correcto:",
+    "noVerbTask": "No hay tarea de ortografía para este verbo.",
+    "writeAnswer": "escribe la respuesta",
+    "missingChar": "faltante: {char}"
+  },
+  "progress": {
+    "verbsHeading": "Verbos",
+    "courseHeading": "Curso"
+  },
+  "study": {
+    "hints": {
+      "tapToOpenExplanation": "Haga clic en la tarjeta para abrir la explicación.",
+      "tapToRevealGerman": "Haga clic en la tarjeta para ver la palabra alemana."
+    },
+    "sections": {
+      "mainIdea": "Idea principal",
+      "explanation": "Explicación",
+      "examples": "Ejemplos",
+      "comparison": "Comparación",
+      "tip": "Consejo",
+      "important": "Importante",
+      "mistakes": "Errores típicos",
+      "remember": "Recuerda",
+      "comparisonFocus": "Una comparación importante",
+      "comparisonBadge": "TARJETA DE COMPARACIÓN"
+    },
+    "table": {
+      "word": "Nombre",
+      "meaning": "Significado",
+      "example": "Un ejemplo",
+      "native": "ES",
+      "german": "Delaware",
+      "mainMeaning": "El significado principal",
+      "describes": "Describe",
+      "translation": "Traducción"
+    },
+    "minimal": {
+      "tipLabel": "Consejo:",
+      "pluralLabel": "MUCHOS",
+      "formsLabel": "Formas:",
+      "noteLabel": "Indicación:"
+    }
+  },
   "__langCode": "es",
   "splash": {
     "title": "Alemán",
@@ -10,409 +412,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "app": {
     "title": "Alemán • ES-DE",
-    "subtitle": "Tu guía inteligente para aprender alemán por nivel",
+    "subtitle": "Tu guía inteligente en alemán por nivel",
     "shellLabel": "Tarjetas Alemán–Español"
-  },
-  "menu": {
-    "mainNav": "Peamenüü",
-    "course": "Curso",
-    "sentences": "Lausado",
-    "verbs": "Tegusõnad",
-    "chooseGroup": "Grupo válido"
-  },
-  "groups": {
-    "sentences": "Lausado"
-  },
-  "nav": {
-    "backHome": "Tagasi peamenüüsse",
-    "changeLanguage": "Muuda emakelt",
-    "howItWorks": "¿Kuidas ve töötab?",
-    "quickTools": "Kiirtööriistad"
-  },
-  "buttons": {
-    "known": "Tean õigesti",
-    "unknown": "Hola té",
-    "next": "Järgmine sõna",
-    "check": "Controles",
-    "continue": "jatka",
-    "close": "Sulge",
-    "delete": "Kustuta",
-    "cancel": "Tühista",
-    "restore": "Taasta",
-    "restoreAll": "taasta kõik",
-    "extraOptions": "Lisavalikud",
-    "extraOptionsOpen": "Lisavalikud ▼",
-    "extraOptionsClose": "Lisavalikud ▲",
-    "weeklyReview": "Nädala ülevaade",
-    "monthlyReview": "Kuu ülevaade",
-    "unwantedWords": "Ebavajalikud sõnad",
-    "knownWords": "tuntud",
-    "knownWithCount": "Tuntud ({cuenta})",
-    "markMastered": "100% entonces",
-    "shuffleVerbs": "Sega tegusõnad",
-    "restartSession": "🔄 Vaata seanssi uuesti",
-    "markSessionLearned": "🏅 Märgi seanss õpituks",
-    "chooseAnotherGroup": "Válido para este grupo",
-    "listen": "kula",
-    "listenPlural": "kuula mitmust",
-    "listenWithWord": "Kuula: {palabra}",
-    "autoplayOn": "Automaatne esitus ve",
-    "autoplayOff": "Automaatne esitus valjas",
-    "autoplayLabel": "Automaatne esitus",
-    "autoplayAriaOn": "{label} (automaatselt ve)",
-    "autoplayAriaOff": "{etiqueta} (automaatselt väljas)",
-    "disableAutoplay": "Lülita automaatne esitus valja",
-    "enableAutoplay": "Lülita automaatne esitus sisse",
-    "markUnwanted": "Märgi ebavajalikuks",
-    "masteredWords": "100% tuntud"
-  },
-  "tools": {
-    "problemShort": "Problema",
-    "problemFull": "Problemas resueltos",
-    "problemWithCount": "Problemas resueltos ({count})",
-    "spellingShort": "Kirj.",
-    "spellingFull": "Õigekiri"
-  },
-  "modes": {
-    "easy": "Kerge",
-    "normal": "tavalina",
-    "intense": "Intensivo"
-  },
-  "direction": {
-    "deToNative": "Las colas:",
-    "nativeToDe": "🔄 {código} ➔ DE"
-  },
-  "hints": {
-    "tapToReveal": "Klõpsa kaardil, et näha tõlget.",
-    "chooseNextStep": "Vali, mida edasi teha.",
-    "chooseModeOrReturn": "Vali teine ​​​​režiim või tule hiljem ülevaatamiseks tagasi.",
-    "trainingCard": "Harjutuse kaart {título}"
-  },
-  "card": {
-    "pluralLabel": "Mitm.",
-    "spelling": "Õigekiri",
-    "spellingVerbs": "Õigekiri · Tegusõnad",
-    "verbsShuffleTraining": "Tegusõnad · Segatreening",
-    "answerPrefix": "Vasto:",
-    "sessionComplete": "Seanss lõpetatud!",
-    "sessionLabel": "Seans",
-    "lastSessionLabel": "viimane seanss",
-    "problemLabel": "Problemas resueltos",
-    "levelCompleteTitle": "Suurepärane! ¡Tase {label} en läbitud! 🎉",
-    "levelCompleteDesc": "Oled selle kõik grupos sõnad selgeks õppinud. ¡Aeg astuda järgmine samm!",
-    "noActiveWords": "Selles groups pole aktiivseid sõnu.",
-    "noCardsInSession": "Selles seansis pole kaarte.",
-    "cardNotFound": "Kaarti ei leitud"
-  },
-  "verb": {
-    "infinitive": "Infinitivo",
-    "present": "olevik",
-    "imperfectIndicative": "Minevik - Indicátiiv",
-    "imperfectSubjunctive": "Minevik - Konjunktiiv",
-    "pastParticiple": "Mineviku osavõte",
-    "infinitiv": "Infinitivo",
-    "writeInfinitive": "Kirjuta infinita",
-    "guessInfinitive": "Arva infinito",
-    "writeImperfect": "Kirjuta imperfecto",
-    "guessImperfect": "arva imperfecta",
-    "writePastParticiple": "Kirjuta mineviku kesskõna",
-    "guessPastParticiple": "Arva mineviku kesskõna",
-    "translationPrefix": "Tõlge:",
-    "hintTapAnswer": "Puuduta kaarti, et näha vastust.",
-    "hintTapSwitch": "Puuduta kaarti, et vahetada vormi.",
-    "hintSessionProgress": "{etiqueta}: {actual} / {total}. {grifo}",
-    "noShuffleForms": "Sellel tegusõnal ei ole segamiseks piisavalt vorme."
-  },
-  "notices": {
-    "chooseNextGroup": "Vali järgmine groupe peamenüüst.",
-    "sessionReloaded": "Seanss laaditi uuesti segatud järjekorras.",
-    "sessionMovedToKnown": "Seansi sõnad viidi tuntud hulka.",
-    "verbShuffleOn": "Tegusõnade segamine en ve.",
-    "verbShuffleOff": "Tegusõnade segamine on väljas.",
-    "spellingOn": "Õigekirja režiim on ve.",
-    "spellingOff": "Õigekirja režiim on väljas.",
-    "showingKnown": "Näitame tuntud kaarte.",
-    "problemModeOff": "Los problemas surgen de inmediato.",
-    "showingProblems": "Näitame problemeid sõnu.",
-    "noProblems": "Problema resuelto.",
-    "errorLevelReduced": "Vigade tase vähenes.",
-    "movedToKnown": "Sõna viidi tuntud hulka!",
-    "problemsFinishedMoved": "Problemas resueltos en el acto. Sõna viidi tuntud hulka!",
-    "lastSessionDone": "Viimase seansi ülevaatus on lõpetatud.",
-    "continueLastSession": "Jätkame viimase seansi ülevaatust.",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud.",
-    "continueKnownReview": "Jätkame tuntud sõnade ülevaatust.",
-    "noVerbToMark": "Pole tegusõnu, mida märkida.",
-    "verbMarkedKnown": "Tegusõna märgiti tuntuks.",
-    "noCardToMark": "Pole kaarte, mida märkida.",
-    "markedKnown": "Märgitud tuntuks.",
-    "noCard": "Pole kaarti, mida märkida.",
-    "answerRevealed": "Vastus avalikustati. Sõna jääb seanssi.",
-    "returnedToStudy": "Tagasi õpperežiimi.",
-    "leftInProblems": "Grupos de problemas de Jäeti.",
-    "leftForReview": "Jäeti ülevaatamiseks.",
-    "showingTimeReview": "Naitame: {etiqueta}.",
-    "continueTimeReview": "Jätkame: {etiqueta}.",
-    "enterAnswerFirst": "Sisesta esmalt õige vastus ja vajuta Kontrolli.",
-    "noCardForMastered": "Pole kaarti, mida lisada 100% tuntud hulka.",
-    "addedMastered": "Sõna lisa 100% tuntud hulka.",
-    "alreadyMastered": "Sõna en juba 100% tuntud nimekirjas.",
-    "noCardForUnwanted": "Pole kaarti, mida märkida ebavajalikuks.",
-    "markedUnwanted": "Sõna märgiti ebavajalikuks.",
-    "loadFailed": "Kaartide laadimine ebaõnnestus. Lea esto para comprobarlo y mefailide kättesaadavust.",
-    "noCompletedSession": "Pole lõpetatud seanssi kordamiseks.",
-    "showingLastSession": "Näitame viimast lõpetatud seanssi.",
-    "sessionArchivedNext": "Viimane seanss märgiti õpituks. Laaditi järgmine seanss.",
-    "sessionArchived": "Viimane seanss märgiti õpituks."
-  },
-  "review": {
-    "weekLabel": "Nädala ülevaade",
-    "weekEmpty": "Nädala ülevaateks pole õpitud sõnu.",
-    "weekDone": "Nädala ülevaade on lõpetatud.",
-    "weekCount": "Sel nädalal õpitud: {contar} {palabras}",
-    "monthLabel": "Kuu ülevaade",
-    "monthEmpty": "Kuu ülevaateks pole õpitud sõnu.",
-    "monthDone": "Kuu ülevaade on lõpetatud.",
-    "monthCount": "Sel kuul õpitud : {count} {palabras}",
-    "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud."
-  },
-  "lists": {
-    "noUnwanted": "Ebavajalikke sõnu pole.",
-    "noLearned": "Õpitud sõnu pole.",
-    "noMastered": "100% perfecto estado."
-  },
-  "restore": {
-    "ariaLabel": "Utamine côtière de Kinnita Kogu Edenemise",
-    "warning": "¡Tähelepanu! Kogu õpitud edenemine ja sõnade ajalugu kustutatakse täielikult."
-  },
-  "info": {
-    "title": "¿Kuidas ve töötab?",
-    "directionTitle": "Sonido de Tõlke",
-    "directionBody": "Vajuta, et lülituda <strong>DE→{code}</strong> ja <strong>{code}→DE</strong> vahel.",
-    "problemTitle": "Problemas resueltos",
-    "problemBody": "Vajuta <strong>Probl.</strong>, et õppida sõnu, milles eksisid. Tavalises režiimis «Ei tea» lisab sõna siia; siin «Tean õigesti» vähendab vigade taset.",
-    "spellingTitle": "Õigekiri",
-    "spellingBody": "Vajuta <strong>Kirj.</strong>, et enne famamist tuleks sõna käsitsi sisestada.",
-    "intensityTitle": "Sensibilidad intensiva",
-    "intensityBody": "Vali, mitu ühes seansis õppida: <strong>Kerge · 10</strong>, <strong>Tavaline · 20</strong> y <strong>Intensiivne · 30</strong>.",
-    "listeningTitle": "Kuulamina",
-    "listeningBody": "Vajuta kaardil kõlarikooni, et kuulata hääldust.",
-    "unwantedTitle": "Ebavajalikud sõnad",
-    "unwantedBody": "Vajuta kaardi nurgas läbikriipsutatud silma — sõna kaob voost. Saad selle tagasi tuua Lisavalikutes.",
-    "answersTitle": "Vastuso",
-    "answersBody": "<strong>Tean õigesti</strong> - téd vastust. <strong>Ei tea</strong> — aitab meeles pidada ja lisab problememsete hulka. <strong>Järgmine sõna</strong> — jätab hindamata vahele.",
-    "extraTitle": "Lisavalikud",
-    "extraBody": "Ava <strong>Lisavalikud</strong>, et vaadata nädala ja kuu ülevaadet, tuntud sonu ja taastada peidetud."
-  },
-  "extra": {
-    "wordManagement": "sonada haldus",
-    "statistics": "Estadística",
-    "settings": "Seaded"
-  },
-  "settings": {
-    "appLanguage": "quilla rakenduse"
-  },
-  "kurss": {
-    "panelLabel": "Curso",
-    "title": "Curso",
-    "subtitle": "Saksa keele alused samm-samult",
-    "back": "‹ Kursus",
-    "closeCourse": "kursus sulge",
-    "backToMain": "Tagasi peamisele ekraanile",
-    "tipTitle": "Nouanne",
-    "tipBody": "Kuula, korda ja võrdle. Sinu kõrv on parim õpetaja!",
-    "pronunciation": "Hääldus",
-    "pronunciationDesc": "Saksa keele häälte ja häälduse alused.",
-    "articles": "artículo",
-    "articlesDesc": "Celui qui kasutamise s'alourdit.",
-    "pronouns": "asesõnad",
-    "pronounsDesc": "Nominativ, Akkusativ ja Dativ vormid.",
-    "lessons": "Õppetunnid",
-    "lessonsDesc": "Õppetunnid järjestuses 1 kuni 21.",
-    "verbBasics": "Tegusõnade alusó",
-    "verbBasicsDesc": "Isikud, vormid ja sagedasemad tegusõnad.",
-    "sentenceStructure": "lause üleshitus",
-    "sentenceStructureDesc": "Lihtne sõnajärg saksa lausetes.",
-    "articlesSubtitle": "Celui qui kasutamise s'alourdit.",
-    "pronounsSubtitle": "Nominativ, Akkusativ ja Dativ — asesõnade vormid.",
-    "pronunciationSubtitle": "Saksa keele häälte ja häälduse alused",
-    "vowelsSubtitle": "Täishäälikud — pikad ja lühikesed",
-    "consonantsSubtitle": "Kaashäälikud ja tähekombinatsioonid",
-    "lessonsSubtitle": "Õppetunnid järjestuses 1 kuni 21.",
-    "vowelsTitle": "Täishäälikud — pikad ja lühikesed",
-    "vowelsDesc": "Pikad ja lühikesed täishäälikud näidetega.",
-    "consonantsTitle": "Kaashäälikud ja tähekombinatsioonid",
-    "consonantsDesc": "Olulisemad kaashäälikuhelid algajale.",
-    "lessonProgress": "Õppetund {lección} · Tõlgi: {actual} / {total}",
-    "exerciseProgress": "Õppetund {lección} · Harjutus",
-    "sections": {
-      "grammar": "gramática",
-      "exercise": "harjutus",
-      "translate": "Tõlgi",
-      "exerciseCombined": "Übung / Harjutus"
-    },
-    "hints": {
-      "tapToRevealAnswer": "Klõpsa kaardil, et näha vastust.",
-      "tapToContinue": "Klõpsa kaardil, et jätkata.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa tõlget.",
-      "tapNextStep": "Klõpsa kaardil, et minna järgmise sammu juurde.",
-      "exerciseCardAria": "{título} harjutuskaart"
-    },
-    "cta": {
-      "tapNextCard": "Klõpsa järgmisele kaardile",
-      "tapToRevealAnswer": "Klõpsa, et näha vastust",
-      "tapContinue": "Klõpsa jätkamisek",
-      "transformSentence": "Muuda lauset.",
-      "transformThirdSingular": "Muuda lause 3. isikus ainsuses.",
-      "transformFirstPlural": "Muuda lause 1. isikus mitmuses."
-    },
-    "exerciseMeta": {
-      "fillCase": "Übung I — kasuta õiget käänet",
-      "chooseCasePlural": "Pan õige kääne ja tee mitmus !",
-      "answerPlural": "Nüüd vastas mitmuses.",
-      "translate": "Übung II — tõlgi",
-      "formDu": "Vorm 1/3: sina (ainsus)",
-      "formIhr": "Vorm 2/3: teie (mitmus)",
-      "formSie": "Vorm 3/3: Sie (viisakusvorm)"
-    },
-    "lessonItems": {
-      "1": {
-        "title": "Õppetund 1",
-        "menuDesc": "Tegusõnad olevikus, sõnad, grammatika ja treening."
-      },
-      "2": {
-        "title": "Õppetund 2",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
-      },
-      "3": {
-        "title": "episodio 3",
-        "menuDesc": "Dialoogid, sõnad, hääldus, grammatika ja tõlkimine."
-      },
-      "4": {
-        "title": "Õppetund 4",
-        "menuDesc": "Akusatiiv, nehmen, hinlegen, hinausgehen ja omadussõnad."
-      },
-      "5": {
-        "title": "Õppetund 5",
-        "menuDesc": "Wen?, akusatiiv, sitzen, fragen ja -in lõpp."
-      },
-      "6": {
-        "title": "Õppetund 6",
-        "menuDesc": "Arvsõnad, mitmus, täishäälikumuutused ja nimisõnade mitmuse vormid."
-      },
-      "7": {
-        "title": "episodio 7",
-        "menuDesc": "Käskiv kõneviis, viisakusvorm ja mitmus."
-      },
-      "8": {
-        "title": "Õppetund 8",
-        "menuDesc": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv."
-      },
-      "9": {
-        "title": "episodio 9",
-        "menuDesc": "Mitu eset, dieser/jener, ainsus ja mitmus."
-      },
-      "10": {
-        "title": "Õppetund 10",
-        "menuDesc": "Sein, können, tervis, vanus ja ametid."
-      },
-      "11": {
-        "title": "Episodio 11",
-        "menuDesc": "Haben, kein/keine/keinen, omand ja liitsõnad."
-      },
-      "12": {
-        "title": "episodio 12",
-        "menuDesc": "Võrdlusastmed, als/wie, vanus ja värvid."
-      },
-      "13": {
-        "title": "episodio 13",
-        "menuDesc": "Der Körper, kehaosad, turnen ja jeder."
-      },
-      "14": {
-        "title": "episodio 14",
-        "menuDesc": "müssen, wollen, mögen ja modaalsed tegusõnad."
-      },
-      "15": {
-        "title": "episodio 15",
-        "menuDesc": "sollen, dürfen, essen ja puuviljad."
-      },
-      "16": {
-        "title": "episodio 16",
-        "menuDesc": "Dativ, geben, sich nähern."
-      },
-      "17": {
-        "title": "episodio 17",
-        "menuDesc": "mit + Dativ, womit / mit wem ja Umlaut."
-      },
-      "18": {
-        "title": "Õppetund 18",
-        "menuDesc": "wohin / wo, Akkusativ või Dativ koos an / in / auf."
-      },
-      "19": {
-        "title": "episodio 19",
-        "menuDesc": "Wechselpräpositionen: vor, hinder, unter, über, neben, zwischen."
-      },
-      "20": {
-        "title": "Õppetund 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ ja liitsõnad."
-      },
-      "21": {
-        "title": "episodio 21",
-        "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
-      }
-    }
-  },
-  "plural": {
-    "wordOne": "sonido",
-    "wordsFew": "sonido",
-    "wordsMany": "sonido"
-  },
-  "spelling": {
-    "writeNative": "Escribir en español",
-    "writeGerman": "Escribir en alemán",
-    "correct": "¡Eigesti!",
-    "incorrect": "valesti",
-    "expectedLabel": "Õigesti:",
-    "noVerbTask": "Selle tegusõna jaoks pole õigekirja ülesannet.",
-    "writeAnswer": "Sisesta vasto",
-    "missingChar": "puudub : {char}"
-  },
-  "progress": {
-    "verbsHeading": "Tegusõnad",
-    "courseHeading": "Curso"
-  },
-  "study": {
-    "hints": {
-      "tapToOpenExplanation": "Klõpsa kaardil, et avada selgitus.",
-      "tapToRevealGerman": "Klõpsa kaardil, et näha saksa sõna."
-    },
-    "sections": {
-      "mainIdea": "pohiidee",
-      "explanation": "Selgitus",
-      "examples": "Näited",
-      "comparison": "Võrdlus",
-      "tip": "Nouanne",
-      "important": "tahtis",
-      "mistakes": "Verdura tuüpilizada",
-      "remember": "Meles de guisantes",
-      "comparisonFocus": "Oluline võrdlus",
-      "comparisonBadge": "VÕRDLUSKAART"
-    },
-    "table": {
-      "word": "Sona",
-      "meaning": "Tähendus",
-      "example": "cupé",
-      "native": "ES",
-      "german": "Delaware",
-      "mainMeaning": "Peamine tähendus",
-      "describes": "Kirjeldab",
-      "translation": "Tõlge"
-    },
-    "minimal": {
-      "tipLabel": "Nouanne:",
-      "pluralLabel": "MITM.",
-      "formsLabel": "Vórmido:",
-      "noteLabel": "Marcos:"
-    }
   }
 };

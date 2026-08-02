@@ -2,4159 +2,4159 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "Excepto..."
+      "lv": "hornear"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "Viņš cep"
+      "lv": "el hornea"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "Viņš cepa"
+      "lv": "él estaba horneando"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "Viņš ceptu"
+      "lv": "él hornearía"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Ceptos / izceptos"
+      "lv": "frito / al horno"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "Pavēlet"
+      "lv": "mandar"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "Viņš pavēl"
+      "lv": "el manda"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "Viņš pavēlēja"
+      "lv": "él ordenó"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "Viņš pavēlētu"
+      "lv": "el mandaria"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Pabellones"
+      "lv": "ordenó"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Sākt"
+      "lv": "para empezar"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "Viņš sāk"
+      "lv": "el comienza"
     },
     "imperfektIndikativ": {
       "de": "er begann",
-      "lv": "Viņš sāka"
+      "lv": "el empezó"
     },
     "imperfektKonjunktiv": {
       "de": "er begönne / er begänne",
-      "lv": "Viņš sāktu"
+      "lv": "él comenzaría"
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Sākts"
+      "lv": "comenzó"
     }
   },
   {
     "infinitiv": {
       "de": "beißen",
-      "lv": "Costo"
+      "lv": "morder"
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "Viņš kož"
+      "lv": "el muerde"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "Viņš koda"
+      "lv": "él codificó"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "Traje de Viņš"
+      "lv": "el muerde"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Costos / sakosts"
+      "lv": "mordido / mordido"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Durmió"
+      "lv": "esconder"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "Viņš slēpj"
+      "lv": "el se esconde"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "Viņš slēpa"
+      "lv": "él se escondió"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "Viņš slēptu"
+      "lv": "él se escondería"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Paslēpts / paglābts"
+      "lv": "oculto / guardado"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Plist"
+      "lv": "muy lleno"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "Viņš plīst"
+      "lv": "el estalla"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "Viņš plīsa"
+      "lv": "él estalló"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "Viņš plīstu"
+      "lv": "el estalla"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Saplisis"
+      "lv": "roto"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "Pamudinat"
+      "lv": "alentar"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "Viņš pamudina"
+      "lv": "el incita"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "Viņš pamudināja"
+      "lv": "él instó"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Viņš pamudinātu"
+      "lv": "él alentaría"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Pamudināts"
+      "lv": "motivado"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Locito"
+      "lv": "doblar"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "Viņš loka"
+      "lv": "el se inclina"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "Viņš locīja"
+      "lv": "él se flexionó"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "Viņš locītu"
+      "lv": "él se doblaría"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
-      "lv": "Locitos"
+      "lv": "doblado"
     }
   },
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "Solit"
+      "lv": "prometer"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "Estas solo"
+      "lv": "el promete"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "Viņš solīja"
+      "lv": "el prometió"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Viņš solītu"
+      "lv": "el lo prometeria"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Solīts / piedāvāts"
+      "lv": "prometido / ofrecido"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Passoire"
+      "lv": "tamiz"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "Viņš sien"
+      "lv": "el hay"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "Viņš sēja"
+      "lv": "el sembró"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "Viņš sitio"
+      "lv": "él tamizó"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Siete"
+      "lv": "tamiz"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "Jul"
+      "lv": "preguntar"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "Smeekt hij"
+      "lv": "el suplica"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "Viņš lūdza"
+      "lv": "el pregunto"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "Viņš lūgtu"
+      "lv": "él rezaría"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Lūgts"
+      "lv": "solicitado"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "Poust"
+      "lv": "soplar"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "Viņš pūš"
+      "lv": "el sopla"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "Viņš pūta"
+      "lv": "el soplo"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "Viņš pūstu"
+      "lv": "el volaria"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Pusts"
+      "lv": "estropeado"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Rūgt"
+      "lv": "fermentar"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "Tas rūgst"
+      "lv": "fermenta"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Tas rūga"
+      "lv": "fermenta"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Tas rūgtu"
+      "lv": "seria amargo"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Rudzis"
+      "lv": "centeno"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "Dzemdet"
+      "lv": "dar a luz"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "Viņa dzemdē"
+      "lv": "en su vientre"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
-      "lv": "Viņa dzemdēja"
+      "lv": "ella dio a luz"
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Viņa dzemdētu"
+      "lv": "ella daría a luz"
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "Dzemdēts / piedzimis"
+      "lv": "nació / nació"
     }
   },
   {
     "infinitiv": {
       "de": "gelingen",
-      "lv": "Izdoties"
+      "lv": "tener éxito"
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "Tas izdodas"
+      "lv": "tiene éxito"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "Tas izdevās"
+      "lv": "funcionó"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "Tas izdotos"
+      "lv": "funcionaría"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "Izdevies"
+      "lv": "tuvo éxito"
     }
   },
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Noderēt"
+      "lv": "ser útil"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "Viņš der / ir spēkā"
+      "lv": "él encaja / es válido"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "Viņš derēja / bija spēkā"
+      "lv": "él estaba en forma / estaba en forma"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "Viņš derētu / tas būtu spēkā"
+      "lv": "él encajaría / encajaría"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Derējis / bijis spēkā"
+      "lv": "aplicado / era válido"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Izveseļoties"
+      "lv": "mejorando"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "Viņš izveseļojas"
+      "lv": "el esta mejorando"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "Viņš izveseļojās"
+      "lv": "se puso bien"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "Viņš izveseļotos"
+      "lv": "él se pondría bien"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Izveseļojies"
+      "lv": "reponerse"
     }
   },
   {
     "infinitiv": {
       "de": "genießen",
-      "lv": "Baudit"
+      "lv": "disfrutar"
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "Viņš bauda"
+      "lv": "el disfruta"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "Viņš baudīja"
+      "lv": "el disfruto"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "Viņš baudītu"
+      "lv": "el disfrutaria"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Baudīts"
+      "lv": "disfruté"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Memorándum"
+      "lv": "suceder"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "Tas noteek"
+      "lv": "sucede"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "Esta nota"
+      "lv": "sucedió"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "Tas notiktu"
+      "lv": "sucedería"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Noticia"
+      "lv": "sucedió"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Mentir"
+      "lv": "teniente"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "Viņš lej"
+      "lv": "el vierte"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "Viņš leja"
+      "lv": "él vertió"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "Viņš lugar"
+      "lv": "el llueve"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Mentiras"
+      "lv": "cosa"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "Līdzināties"
+      "lv": "parecerse"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "Viņš līdzinās"
+      "lv": "el se parece"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "Viņš līdzinājās"
+      "lv": "él emuló"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Viņš līdzinātos"
+      "lv": "él emularía"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "Līdzinājies"
+      "lv": "se parecía"
     }
   },
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "Diapositiva"
+      "lv": "deslizarse"
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "Viņš slīd"
+      "lv": "el se desliza"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "Viņš slīdēja"
+      "lv": "él se estaba deslizando"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "Viņš slīdētu"
+      "lv": "él se deslizaría"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Glissé"
+      "lv": "resbaló"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Kvelot"
+      "lv": "brillante"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "Viņš kvēlo"
+      "lv": "el brilla"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "Viņš kvēloja"
+      "lv": "el brilló"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "Viņš kvēlotu"
+      "lv": "el brillaria"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Kvēlojis"
+      "lv": "brillante"
     }
   },
   {
     "infinitiv": {
       "de": "graben",
-      "lv": "Rakt"
+      "lv": "cavar"
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "Viņš roca"
+      "lv": "el cava"
     },
     "imperfektIndikativ": {
       "de": "er grub",
-      "lv": "Viņš raka"
+      "lv": "él cavó"
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "Viņš raktu"
+      "lv": "él cavaría"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Rakts"
+      "lv": "excavar"
     }
   },
   {
     "infinitiv": {
       "de": "greifen",
-      "lv": "Ķert"
+      "lv": "atrapar"
     },
     "praesens": {
       "de": "er greift",
-      "lv": "Viņš ķer"
+      "lv": "el atrapa"
     },
     "imperfektIndikativ": {
       "de": "er griff",
-      "lv": "Viņš ķēra"
+      "lv": "él atrapó"
     },
     "imperfektKonjunktiv": {
       "de": "er griffe",
-      "lv": "Viņš ķertu"
+      "lv": "él atraparía"
     },
     "partizipVergangenheit": {
       "de": "gegriffen",
-      "lv": "Ķerts / satverts"
+      "lv": "atrapado / agarrado"
     }
   },
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Cirst"
+      "lv": "cortar"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "Viņš cērt"
+      "lv": "el escogió"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "Viņš cirta"
+      "lv": "él espetó"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "Viņš cirstu"
+      "lv": "él tallaría"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Circunstancias"
+      "lv": "tallado"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Celtas"
+      "lv": "elevar"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "Viņš ceļ"
+      "lv": "el levanta"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "Hij bracht"
+      "lv": "él trajo"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "Viņš celtu"
+      "lv": "el construiria"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Celtas"
+      "lv": "construido"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Pazīt / zināt"
+      "lv": "saber / saber"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "Viņš pazīst"
+      "lv": "el sabe"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Pazina"
+      "lv": "sabía"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Pazina"
+      "lv": "sabía"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Pazinis"
+      "lv": "conocido"
     }
   },
   {
     "infinitiv": {
       "de": "klingen",
-      "lv": "Skanet"
+      "lv": "sonar"
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "Viņš skan"
+      "lv": "el suena"
     },
     "imperfektIndikativ": {
       "de": "er klang",
-      "lv": "Viņš skanēja"
+      "lv": "el sonó"
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "Viņš skanētu"
+      "lv": "el sonaria"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Skanejis"
+      "lv": "sonó"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Kniebt"
+      "lv": "pellizco"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "Viņš kniebj"
+      "lv": "él bromea"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "Viņš knieba"
+      "lv": "el pellizcó"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "Viņš kniebtu"
+      "lv": "él pellizcaría"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Kniebts"
+      "lv": "apretado"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Palikt"
+      "lv": "permanecer"
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "Viņš paliek"
+      "lv": "el se queda"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "Viņš palika"
+      "lv": "el se quedo"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
-      "lv": "Viņš paliktu"
+      "lv": "él se quedaría"
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Palicis"
+      "lv": "izquierda"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Ingenioso"
+      "lv": "blanquear"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "Viņš balina"
+      "lv": "el blanquea"
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Balinaja"
+      "lv": "blanqueado"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Balinaja"
+      "lv": "blanqueado"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Balinats"
+      "lv": "blanqueado"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "Excepto..."
+      "lv": "hornear"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "Viņš cep"
+      "lv": "el hornea"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "Viņš cepa"
+      "lv": "él estaba horneando"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "Viņš ceptu"
+      "lv": "él hornearía"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Ceptos / izceptos"
+      "lv": "frito / al horno"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Lauzt"
+      "lv": "romper"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "Viņš lauž"
+      "lv": "el rompe"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "Freno alto"
+      "lv": "el rompió"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "Viņš lauztu"
+      "lv": "él se rompería"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Lauzts / salauzts"
+      "lv": "roto / roto"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Calificación"
+      "lv": "quemar"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "Viņš grados"
+      "lv": "el esta en llamas"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Dega"
+      "lv": "estaba ardiendo"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Dega"
+      "lv": "estaba ardiendo"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Dedzis"
+      "lv": "quemado"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Nido"
+      "lv": "llevar"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "Viņš nes"
+      "lv": "el lleva"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Viņš nesa"
+      "lv": "él llevaba"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "Viņš nestu"
+      "lv": "él llevaría"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Nidos / atnests"
+      "lv": "traído / traído"
     }
   },
   {
     "infinitiv": {
       "de": "denken",
-      "lv": "Dominio"
+      "lv": "pensar"
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Nos vemos mañana"
+      "lv": "el piensa"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "Viņš domāja"
+      "lv": "el pensó"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Viņš domātu"
+      "lv": "el pensaria"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Domāts"
+      "lv": "destinado"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "Nolīgt / vienoties"
+      "lv": "contratar / acordar"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "Viņš nolīgst"
+      "lv": "el contrata"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Noliga"
+      "lv": "contratado"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Noliga"
+      "lv": "contratado"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Noligts"
+      "lv": "contratado"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Culto"
+      "lv": "culto"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "Viņš kuļ"
+      "lv": "el trilla"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "Viņš kūla"
+      "lv": "él trilló"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "Viņš kultura"
+      "lv": "él adoraría"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Cultos"
+      "lv": "culto"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Ielauzties"
+      "lv": "forzar"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "Viņš ielaužas"
+      "lv": "él irrumpe"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "Viņš ielauzās"
+      "lv": "él irrumpió"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "Viņš ielauztos"
+      "lv": "él irrumpiría"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Ielauzies"
+      "lv": "irrumpió en"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Šķist"
+      "lv": "parece"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "Tas šķiet"
+      "lv": "parece"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Šķita"
+      "lv": "parecía"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Šķita"
+      "lv": "parecía"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Šķitis"
+      "lv": "pareció"
     }
   },
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "Drikstet"
+      "lv": "ser permitido"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "Viņš drīkst"
+      "lv": "el puede"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "Drīkstēja"
+      "lv": "estaba permitido"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "Drīkstēja"
+      "lv": "estaba permitido"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Drikstējis"
+      "lv": "permitido"
     }
   },
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "Yeikt"
+      "lv": "recomendar"
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "Viņš iesaka"
+      "lv": "el sugiere"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "Viņš ieteica"
+      "lv": "él sugirió"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "Viņš ieteiktu"
+      "lv": "el recomendaria"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Ieteikts"
+      "lv": "recomendado"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Sajust"
+      "lv": "sentir"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "Viņš sajūt"
+      "lv": "el siente"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "Viņš sajuta"
+      "lv": "el sintio"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "Viņš sajustu"
+      "lv": "el sentiria"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Sajusts"
+      "lv": "sintió"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Izdzist"
+      "lv": "se desvanece"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "Hij gaat naar buiten"
+      "lv": "el sale"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "Viņš izdzisa"
+      "lv": "él salió"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "Viņš izdzistu"
+      "lv": "él se desvanecería"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "Izdzisis"
+      "lv": "extinguido"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Sabīties"
+      "lv": "confundirse"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "Viņš sabīstas"
+      "lv": "el se asusta"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "Viņš sabijas"
+      "lv": "se asustó"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "Viņš sabītos"
+      "lv": "él se asustaría"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Sabijies"
+      "lv": "asustado"
     }
   },
   {
     "infinitiv": {
       "de": "essen",
-      "lv": "Este"
+      "lv": "comer"
     },
     "praesens": {
       "de": "er isst",
-      "lv": "Viņš ēd"
+      "lv": "el come"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "Viņš ēda"
+      "lv": "el estaba comiendo"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "Viņš ēstu"
+      "lv": "el comeria"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Ēsts / apēsts"
+      "lv": "comido / comido"
     }
   },
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "Pausa"
+      "lv": "conducir"
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "Viņš brauc"
+      "lv": "el conduce"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "Viņš brauca"
+      "lv": "él estaba conduciendo"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
-      "lv": "Viņš brauktu"
+      "lv": "él conduciría"
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Braucis / aizbraucis"
+      "lv": "condujo / se fue"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "Crist"
+      "lv": "caer"
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "Viņš krīt"
+      "lv": "el cae"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "Viņš krita"
+      "lv": "el cayó"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "Viņš kristu"
+      "lv": "el caeria"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "Kritis"
+      "lv": "cayó"
     }
   },
   {
     "infinitiv": {
       "de": "fangen",
-      "lv": "Ķert"
+      "lv": "atrapar"
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "Viņš ķer"
+      "lv": "el atrapa"
     },
     "imperfektIndikativ": {
       "de": "er fing",
-      "lv": "Viņš ķēra"
+      "lv": "él atrapó"
     },
     "imperfektKonjunktiv": {
       "de": "er finge",
-      "lv": "Viņš ķertu"
+      "lv": "él atraparía"
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Ķerts / noķerts"
+      "lv": "atrapado / atrapado"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Atraer"
+      "lv": "encontrar"
     },
     "praesens": {
       "de": "er findet",
-      "lv": "Viņš atrod"
+      "lv": "el encuentra"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "Viņš atrada"
+      "lv": "el encontro"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "Hij zou vinden"
+      "lv": "él encontraría"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Atraes"
+      "lv": "encontró"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Laisties"
+      "lv": "Déjalo ir"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "Viņš lido"
+      "lv": "el vuela"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "Viņš lidoja"
+      "lv": "el voló"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "Viņš lidotu"
+      "lv": "el volaria"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Lidojis"
+      "lv": "ha volado"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Bēgt"
+      "lv": "huir"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "Viņš bēg"
+      "lv": "el huye"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "Viņš bēga"
+      "lv": "él se escapó"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "Viņš bēgtu"
+      "lv": "él huiría"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "Aizbēdzis"
+      "lv": "se escapó"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "Tecēt"
+      "lv": "fluir"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "Viņš tek"
+      "lv": "el corre"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "Hij hace"
+      "lv": "él corrió"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "Viņš tecētu"
+      "lv": "el correria"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Tecējis"
+      "lv": "aprobado"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Уst, rit"
+      "lv": "comer mañana"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "Viņš ēd / rij"
+      "lv": "el come/traga"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Viņš ēda / rija"
+      "lv": "comió / tragó"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "Viņš ēstu / rītu"
+      "lv": "él comería/desayunaría"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Apēsts / rīts"
+      "lv": "comido / mañana"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "SEL"
+      "lv": "frío"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "Sal de Viņš"
+      "lv": "el esta helado"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "Viņš sala"
+      "lv": "la isla"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Viņš saltu"
+      "lv": "el estaba helado"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Salís"
+      "lv": "isla"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "Punto"
+      "lv": "dar"
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "Viņš dod"
+      "lv": "el da"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "Viņš deva"
+      "lv": "el dio"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "Hasta luego"
+      "lv": "el daria"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Puntos"
+      "lv": "dado"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "Izdoties"
+      "lv": "tener éxito"
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "Viņam izdodas"
+      "lv": "el tiene exito"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "Viņam izdevās"
+      "lv": "lo logró"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "Viņam izdotos"
+      "lv": "él tendría éxito"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Izdevies"
+      "lv": "tuvo éxito"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "¡Todavía!"
+      "lv": "ir"
     },
     "praesens": {
       "de": "er geht",
-      "lv": "Viņš iet"
+      "lv": "el va"
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "Viņš gāja"
+      "lv": "él caminó"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "Viņš ietu"
+      "lv": "él iría"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Gajis"
+      "lv": "fue"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "Iegūt"
+      "lv": "obtener"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "Hij krijgt"
+      "lv": "el consigue"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Viņš ieguva"
+      "lv": "el consiguió"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "Viņš iegūtu"
+      "lv": "él obtendría"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Iegūts"
+      "lv": "obtenido"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Būt / piederēt"
+      "lv": "ser / pertenecer"
     },
     "praesens": {
       "de": "er hat",
-      "lv": "Viņam ir"
+      "lv": "él tiene"
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Bija"
+      "lv": "era"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Bija"
+      "lv": "era"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Bijis"
+      "lv": "estado"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Torreta"
+      "lv": "sostener"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "Viņš tur"
+      "lv": "él ahí"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "Viņš turēja"
+      "lv": "él sostuvo"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "Viņš turētu"
+      "lv": "él sostendría"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Turēts"
+      "lv": "sostuvo"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Saukt"
+      "lv": "llamar"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "Viņš sauc / viņu sauc"
+      "lv": "él llama / él es llamado"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Viņš sauca / viņu sauca"
+      "lv": "llamó / fue llamado"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "Viņš sauktu / viņu sauktu"
+      "lv": "él llamaría / sería llamado"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Saukts"
+      "lv": "llamado"
     }
   },
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "Palidzet"
+      "lv": "para ayudar"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "Viņš palīdz"
+      "lv": "el ayuda"
     },
     "imperfektIndikativ": {
       "de": "er half",
-      "lv": "Viņš palīdzēja"
+      "lv": "él ayudó"
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "Viņš palīdzētu"
+      "lv": "el ayudaria"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "Palīdzēts"
+      "lv": "ayudó"
     }
   },
   {
     "infinitiv": {
       "de": "kommen",
-      "lv": "Nakt"
+      "lv": "venir"
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "Viņš nāk"
+      "lv": "el esta viniendo"
     },
     "imperfektIndikativ": {
       "de": "er kam",
-      "lv": "Viņš nāca"
+      "lv": "él vino"
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "Viņš nāktu"
+      "lv": "él vendría"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Atnācis"
+      "lv": "ha llegado"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Varet"
+      "lv": "poder"
     },
     "praesens": {
       "de": "er kann",
-      "lv": "Viņš var"
+      "lv": "el puede"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Vareja"
+      "lv": "podría"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Vareja"
+      "lv": "podría"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "Varējis"
+      "lv": "podría"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Lista"
+      "lv": "Está lloviendo"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "Gravamen de Viņš"
+      "lv": "el se inclina"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Viņš līda"
+      "lv": "el llovió"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "Viņš līstu"
+      "lv": "el esta lloviendo"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Lidis"
+      "lv": "falleció"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "Kraut, ielūgt"
+      "lv": "cargar, invitar"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "Viņš krauj / ielūdz"
+      "lv": "él amontona / invita"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "Viņš krāva / ielūdza"
+      "lv": "cargó / invitó"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "Viņš krautu / ielūgtu"
+      "lv": "él cargaría / invitaría"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Krauts / ielūgts"
+      "lv": "cargado / invitado"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "Likt, ļaut"
+      "lv": "poner, dejar"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "Viņš liek / ļauj"
+      "lv": "él pone / deja"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Hij heeft besteld/toegestaan"
+      "lv": "él ordenó / permitió"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "Viņš liktu / ļautu"
+      "lv": "él pondría / dejaría"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Likts / ļauts"
+      "lv": "poner / permitido"
     }
   },
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "Skriet"
+      "lv": "correr"
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "Viņš skrien"
+      "lv": "el esta corriendo"
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "Viņš skrēja"
+      "lv": "él corrió"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "Viņš skrietu"
+      "lv": "el correria"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Skrejis"
+      "lv": "corrió"
     }
   },
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "Ciest"
+      "lv": "sufrir"
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "Viņš cieš"
+      "lv": "el sufre"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "Viņš cieta"
+      "lv": "el sufrió"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "Viņš ciestu"
+      "lv": "el sufriria"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Ciests"
+      "lv": "sufrió"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Aizdot / aizņemties"
+      "lv": "prestar / pedir prestado"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "Viņš aizdod / aizņemas"
+      "lv": "él presta / toma prestado"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "Viņš aizdeva / aizņēmās"
+      "lv": "él prestó / tomó prestado"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "Viņš aizdotu / aizņemtos"
+      "lv": "él prestaría / pediría prestado"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Aizdots / aizņemts"
+      "lv": "prestado / prestado"
     }
   },
   {
     "infinitiv": {
       "de": "lesen",
-      "lv": "Lasit"
+      "lv": "leer"
     },
     "praesens": {
       "de": "er liest",
-      "lv": "Viņš lasa"
+      "lv": "el esta leyendo"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "Viņš lasīja"
+      "lv": "el estaba leyendo"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "Viņš lasītu"
+      "lv": "él leería"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Lezen"
+      "lv": "leer"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "Goleta"
+      "lv": "dormir"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "Viņš guļ"
+      "lv": "el esta durmiendo"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "Viņš gulēja"
+      "lv": "el estaba durmiendo"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Hij zou bofetada"
+      "lv": "el dormiria"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "Goletas"
+      "lv": "durmió"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "Melot"
+      "lv": "mentir"
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "Manzano de Viņš"
+      "lv": "el esta mintiendo"
     },
     "imperfektIndikativ": {
       "de": "er log",
-      "lv": "Viņš meloja"
+      "lv": "él mintió"
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Viņš melotu"
+      "lv": "él mentiría"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "Melones"
+      "lv": "mintió a"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Malta"
+      "lv": "suelo"
     },
     "praesens": {
       "de": "er mahlt",
-      "lv": "Viņš maļ"
+      "lv": "el muele"
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "Viņš mala"
+      "lv": "el borde"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "Viņš maltu"
+      "lv": "el muele"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Maltas"
+      "lv": "suelo"
     }
   },
   {
     "infinitiv": {
       "de": "meiden",
-      "lv": "Voorkomen"
+      "lv": "evitar"
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "Viņš izvairās"
+      "lv": "el evita"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "Viņš izvairījās"
+      "lv": "él evitó"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "Viņš izvairītos"
+      "lv": "él evitaría"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Izvairīts"
+      "lv": "evitado"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Slaukt"
+      "lv": "ordeñar"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "Viņš slauc"
+      "lv": "el barre"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "Viņš slauca"
+      "lv": "él barrió"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "Viņš slauktu"
+      "lv": "él ordeñaría"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Slaukts"
+      "lv": "ordeñado"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "Te lo mereces"
+      "lv": "medir"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "Viņš mēra"
+      "lv": "él mide"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "Viņš mērīja"
+      "lv": "él midió"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "Viņš mērītu"
+      "lv": "él mediría"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Méritos"
+      "lv": "mesurado"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "Neizdoties"
+      "lv": "fallar"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "Tas neizdodas"
+      "lv": "falla"
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "Neizdevas"
+      "lv": "fallido"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
-      "lv": "Neizdevas"
+      "lv": "fallido"
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Neizdevies"
+      "lv": "fallido"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "Patikt"
+      "lv": "gustar"
     },
     "praesens": {
       "de": "er mag",
-      "lv": "Viñam patik"
+      "lv": "le gusta"
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Vond het leuk"
+      "lv": "le gustó"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Vond het leuk"
+      "lv": "le gustó"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Paticis"
+      "lv": "apreciado"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "Necesidad"
+      "lv": "necesitar"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Viņam vajag"
+      "lv": "el necesita"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Vajadzēja"
+      "lv": "debería tener"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Vajadzēja"
+      "lv": "debería tener"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Vajadzējis"
+      "lv": "necesario"
     }
   },
   {
     "infinitiv": {
       "de": "nehmen",
-      "lv": "Soy"
+      "lv": "tomar"
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "Viņš ņem"
+      "lv": "el toma"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "Viņš ņēma"
+      "lv": "el tomo"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
-      "lv": "Viņš ņemtu"
+      "lv": "él tomaría"
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Ņemts"
+      "lv": "tomado"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Nosaukt"
+      "lv": "nombrar"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "Viņš nosauc"
+      "lv": "él nombró"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "Viņš nosauca"
+      "lv": "el llamo"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "Viņš nosauktu"
+      "lv": "él nombraría"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Nosaukts"
+      "lv": "nombrado"
     }
   },
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "Desarrollo"
+      "lv": "silbar"
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "Habrá desarrollo"
+      "lv": "el silba"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "Viņš se desarrolla"
+      "lv": "el silbó"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
-      "lv": "Viņš svilpotu"
+      "lv": "él silbaría"
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Desarrollos"
+      "lv": "silbó"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Título"
+      "lv": "mantener"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "Viņš kopj"
+      "lv": "a él le importa"
     },
     "imperfektIndikativ": {
       "de": "pflegte vai pflog",
-      "lv": "Kopa"
+      "lv": "colocar"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte vai pflog",
-      "lv": "Kopa"
+      "lv": "colocar"
     },
     "partizipVergangenheit": {
       "de": "gepflegt vai gepflogen",
-      "lv": "Koptos"
+      "lv": "arreglado"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Slavēt"
+      "lv": "elogio"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "Viņš slavē"
+      "lv": "el elogia"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "Viņš slavēja"
+      "lv": "el elogió"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "Viņš slavētu"
+      "lv": "él alabaría"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Slavēts"
+      "lv": "alabado"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Briest"
+      "lv": "hincharse"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "Viņš briest"
+      "lv": "el esta engordando"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Viņš brieda"
+      "lv": "el maduró"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "Viņš briestu"
+      "lv": "el gordo"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Uzbriedis"
+      "lv": "hinchado"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Ieteikt / minēt"
+      "lv": "sugerir / mencionar"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "Viņš iesaka / min"
+      "lv": "él recomienda / min"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "Hij suggereerde/suggereerde"
+      "lv": "él sugirió / sugirió"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "Viņš ieteiktu / minētu"
+      "lv": "él sugeriría / mencionaría"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Ieteikts / minēts"
+      "lv": "sugerido / mencionado"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "Berzt"
+      "lv": "frotar"
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "Viņš berž"
+      "lv": "el frota"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "Viņš berza"
+      "lv": "el frota"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "Viņš berztu"
+      "lv": "él frotaría"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Berzts"
+      "lv": "frotado"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Raut"
+      "lv": "jalar"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "Viņš rauj"
+      "lv": "él chasquea"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "Viņš rāva"
+      "lv": "él espetó"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "Viņš rautu"
+      "lv": "él espetó"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Ruidos"
+      "lv": "rasgado"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Jat"
+      "lv": "montar"
     },
     "praesens": {
       "de": "er reitet",
-      "lv": "Viņš jāj"
+      "lv": "el cabalga"
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "Viņš jāja"
+      "lv": "él montó"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "Viņš jātu"
+      "lv": "él montaría"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "Jajis"
+      "lv": "montó"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "Skriet"
+      "lv": "correr"
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "Viņš skrien"
+      "lv": "el esta corriendo"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "Viņš skrēja"
+      "lv": "él corrió"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "Viņš skrietu"
+      "lv": "el correria"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Skrejis"
+      "lv": "corrió"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Este"
+      "lv": "ost"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "Viņš ož"
+      "lv": "el huele"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "Escuchar"
+      "lv": "el canta"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "Viņš ostu"
+      "lv": "el puerto"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Ost"
+      "lv": "puerto"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Lauzties"
+      "lv": "romper"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "Viņš laužas"
+      "lv": "el rompe"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "Viņš lauzās"
+      "lv": "él se rompió"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "Viņš lauztos"
+      "lv": "él se rompería"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Laucies"
+      "lv": "esperar"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "Tecēt"
+      "lv": "fluir"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "Viņš tek"
+      "lv": "el corre"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "Hij hace"
+      "lv": "él corrió"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "Viņš tecētu"
+      "lv": "el correria"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Tecējis / sarecējis"
+      "lv": "fluido / coagulado"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Saukt"
+      "lv": "llamar"
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "Viņš sauc"
+      "lv": "el llama"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "Viņš sauca"
+      "lv": "el llamo"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "Viņš sauktu"
+      "lv": "el llamaria"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Saukts"
+      "lv": "llamado"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "Salit"
+      "lv": "a la sal"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Viņš sāla"
+      "lv": "el salado"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "Viņš sālīja"
+      "lv": "el salado"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "Viņš sālītu"
+      "lv": "el salaria"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Salits"
+      "lv": "salado"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Žūpot / dzert"
+      "lv": "secar / beber"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "Viņš žūpo / dzer"
+      "lv": "el esta bebiendo / bebiendo"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "Hola, tonto / tonto"
+      "lv": "bebió / bebió"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "Viņš žūpotu / dzertu"
+      "lv": "él bebería / bebería"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Dzerts"
+      "lv": "ebrio"
     }
   },
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "Sukt"
+      "lv": "chupar"
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "Viņš sūc"
+      "lv": "el apesta"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "Viņš sūca"
+      "lv": "el apestaba"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "Viņš sūktu"
+      "lv": "el chuparia"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Sukts"
+      "lv": "chupado"
     }
   },
   {
     "infinitiv": {
       "de": "schaffen",
-      "lv": "Radit"
+      "lv": "crear"
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "Viņš rada"
+      "lv": "el crea"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "Viņš radīja"
+      "lv": "el creo"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "Viņš radītu"
+      "lv": "él crearía"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Radits"
+      "lv": "creado"
     }
   },
   {
     "infinitiv": {
       "de": "schallen",
-      "lv": "Skanet"
+      "lv": "sonar"
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "Tas skan"
+      "lv": "suena"
     },
     "imperfektIndikativ": {
       "de": "schallte vai scholl",
-      "lv": "Skaneja"
+      "lv": "sonó"
     },
     "imperfektKonjunktiv": {
       "de": "schallte vai scholl",
-      "lv": "Skaneja"
+      "lv": "sonó"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Skanejis"
+      "lv": "sonó"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Šķirt / šķirties"
+      "lv": "divorcio / ruptura"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "Viņš šķir / šķiras"
+      "lv": "él se está divorciando/divorciando"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "Viņš šķīra / šķīrās"
+      "lv": "se divorció / se divorció"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "Viņš šķirtu / šķirtos"
+      "lv": "él se divorciaría / divorciaría"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Šķirts / šķīries"
+      "lv": "separados / divorciados"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Spīdēt / likties"
+      "lv": "brillar / aparecer"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "Viņš spīd / šķiet"
+      "lv": "él brilla / parece"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "Viņš spīdēja / šķita"
+      "lv": "él brillaba / parecía"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "Viņš spīdētu / šķistu"
+      "lv": "él brillaría / parecería"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Spīdējis / šķitis"
+      "lv": "brillaba / parecía"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Bart"
+      "lv": "barto"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "Bar Viņš"
+      "lv": "el regaña"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Viņš bāra"
+      "lv": "el prohibió"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "Viņš bārtu"
+      "lv": "el se afeita"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Baard"
+      "lv": "barba"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Cirpto"
+      "lv": "cortar"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "Viņš cirpj"
+      "lv": "el esta cortando"
     },
     "imperfektIndikativ": {
       "de": "schor vai scherte",
-      "lv": "Cirpa"
+      "lv": "tijeras"
     },
     "imperfektKonjunktiv": {
       "de": "schor vai scherte",
-      "lv": "Cirpa"
+      "lv": "tijeras"
     },
     "partizipVergangenheit": {
       "de": "geschoren vai geschert",
-      "lv": "Apreciaciones"
+      "lv": "recortado"
     }
   },
   {
     "infinitiv": {
       "de": "schieben",
-      "lv": "Tolva"
+      "lv": "empujar"
     },
     "praesens": {
       "de": "er schiebt",
-      "lv": "Viņš stumj"
+      "lv": "el empuja"
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "Viņš stūma"
+      "lv": "él empujó"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "Viņš stumtu"
+      "lv": "él empujaría"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Trucos"
+      "lv": "empujado"
     }
   },
   {
     "infinitiv": {
       "de": "schießen",
-      "lv": "Saltear"
+      "lv": "disparar"
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "Viņš šauj"
+      "lv": "el dispara"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
-      "lv": "Viņš šāva"
+      "lv": "disparó"
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "Viņš šautu"
+      "lv": "el dispararia"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Salta"
+      "lv": "disparo"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "Mocit"
+      "lv": "tormento"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "Viņš moka"
+      "lv": "el atormenta"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Gekweld"
+      "lv": "atormentado"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Gekweld"
+      "lv": "atormentado"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Mocits"
+      "lv": "atormentado"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "Goleta"
+      "lv": "dormir"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "Viņš guļ"
+      "lv": "el esta durmiendo"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "Viņš gulēja"
+      "lv": "el estaba durmiendo"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Hij zou bofetada"
+      "lv": "el dormiria"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "Goletas"
+      "lv": "durmió"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Simplificaciones"
+      "lv": "golpear"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "Viņš sentarse"
+      "lv": "el golpea"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "Viņš sita"
+      "lv": "el golpe"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "Viņš sistu"
+      "lv": "él golpearía"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Sistema"
+      "lv": "vencido"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Lista"
+      "lv": "Está lloviendo"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "Gravamen de Viņš"
+      "lv": "el se inclina"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Viņš līda"
+      "lv": "el llovió"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "Viņš līstu"
+      "lv": "el esta lloviendo"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Lidis"
+      "lv": "falleció"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "Deslizarse"
+      "lv": "moler"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "Viņš slīpē"
+      "lv": "el muele"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "Viņš slīpēja"
+      "lv": "él molió"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "Viņš slīpētu"
+      "lv": "él molería"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Slīpēts"
+      "lv": "pulido"
     }
   },
   {
     "infinitiv": {
       "de": "schließen",
-      "lv": "Slēgt"
+      "lv": "cerrar"
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "Viņš slēdz"
+      "lv": "el cierra"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "Viņš slēdza"
+      "lv": "el cerro"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Viņš slēgtu"
+      "lv": "el cerraria"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Slēgts"
+      "lv": "cerrado"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "RIT"
+      "lv": "mañana"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "Río de Viņš"
+      "lv": "el traga"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "Viņš rija"
+      "lv": "el trago"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "Viņš rītu"
+      "lv": "él mañana"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "Línea"
+      "lv": "la mañana"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Mest"
+      "lv": "tirar"
     },
     "praesens": {
       "de": "er schmeißt",
-      "lv": "Viņš conoció"
+      "lv": "el tira"
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "Destino Viņš"
+      "lv": "el arrojó"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "Viņš triste"
+      "lv": "el arrojó"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
-      "lv": "Gegoide"
+      "lv": "arrojado"
     }
   },
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Kust"
+      "lv": "emocionante"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "Viņš kūst"
+      "lv": "el se derrite"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "Viņš kusa"
+      "lv": "el gimió"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Viņš kustu"
+      "lv": "él se estaba moviendo"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Kusis"
+      "lv": "derretido"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "Šņākt"
+      "lv": "silbar"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "Viņš šņāc"
+      "lv": "el resopla"
     },
     "imperfektIndikativ": {
       "de": "schnaubte vai schnob",
-      "lv": "Šņāca"
+      "lv": "resopló"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte vai schnob",
-      "lv": "Šņāca"
+      "lv": "resopló"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt vai geschnoben",
-      "lv": "Nošņācies"
+      "lv": "bufido"
     }
   },
   {
     "infinitiv": {
       "de": "schneiden",
-      "lv": "Congelado"
+      "lv": "cortar"
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "Viņš griež"
+      "lv": "el gira"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "Viņš grieza"
+      "lv": "él estaba cortando"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Viņš grieztu"
+      "lv": "él cortaría"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Griezts"
+      "lv": "cortar"
     }
   },
   {
     "infinitiv": {
       "de": "schreiben",
-      "lv": "Rakstit"
+      "lv": "escribir"
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "Viņš raksta"
+      "lv": "el escribe"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "Viņš rakstīja"
+      "lv": "el escribio"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "Viņš rakstītu"
+      "lv": "el escribiria"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Rakstīts"
+      "lv": "escrito"
     }
   },
   {
     "infinitiv": {
       "de": "schreien",
-      "lv": "Kliegt"
+      "lv": "gritar"
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "Viņš kliedz"
+      "lv": "el grita"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "Viņš kliedza"
+      "lv": "el grito"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "Viņš kliegtu"
+      "lv": "el gritaria"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Kliegts"
+      "lv": "gritó"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Soļot"
+      "lv": "caminando"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "Viņš soļo"
+      "lv": "el esta caminando"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "Viņš soļoja"
+      "lv": "el estaba caminando"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "Viņš soļotu"
+      "lv": "el caminaria"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Soļojis"
+      "lv": "caminó"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Kluset"
+      "lv": "callar"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "Viņš klusē"
+      "lv": "el esta en silencio"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "Viņš klusēja"
+      "lv": "el estaba en silencio"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "Viņš klusētu"
+      "lv": "el estaría en silencio"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Klusēts"
+      "lv": "silenciado"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Verwen"
+      "lv": "pampa"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "Viņš pampst"
+      "lv": "él hace pucheros"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "Viņš pampa"
+      "lv": "el pampa"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "Hij zou pompen"
+      "lv": "él bombearía"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Pampis"
+      "lv": "bomba"
     }
   },
   {
     "infinitiv": {
       "de": "schwimmen",
-      "lv": "Peldet"
+      "lv": "nadar"
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "Peld de Viņš"
+      "lv": "el nada"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "Viņš peldēja"
+      "lv": "el estaba nadando"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
-      "lv": "Viņš peldētu"
+      "lv": "él nadaría"
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "Peldējis"
+      "lv": "nadé"
     }
   },
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Zust"
+      "lv": "desaparecer"
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "Viņš zūd"
+      "lv": "el desaparece"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
-      "lv": "Viņš zuda"
+      "lv": "él desapareció"
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "Viņš zustu"
+      "lv": "él desaparecería"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Zudis"
+      "lv": "perdido"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Vicināt"
+      "lv": "ola"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "Esta cerca de ti"
+      "lv": "él saluda"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Viņš vicināja"
+      "lv": "él saludó"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Viņš vicinātu"
+      "lv": "él saludaría"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Vicināts"
+      "lv": "saludó"
     }
   },
   {
     "infinitiv": {
       "de": "schwören",
-      "lv": "Zvērēt"
+      "lv": "jurar"
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Viņš zvēr"
+      "lv": "el jura"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "Viņš zvērēja"
+      "lv": "él juró"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Hij zou zweren"
+      "lv": "el juraría"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Zvērēts"
+      "lv": "jurado"
     }
   },
   {
     "infinitiv": {
       "de": "sehen",
-      "lv": "Redzet"
+      "lv": "ver"
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "Viņš redz"
+      "lv": "el ve"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "Viņš redzēja"
+      "lv": "el vio"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "Viņš redzētu"
+      "lv": "el veria"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Redzēts"
+      "lv": "visto"
     }
   },
   {
     "infinitiv": {
       "de": "sein",
-      "lv": "Ambos estamos arruinados por culpa de nuestras familias."
+      "lv": "ser"
     },
     "praesens": {
       "de": "er ist",
-      "lv": "Viņš ir"
+      "lv": "él es"
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Bija"
+      "lv": "era"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Bija"
+      "lv": "era"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Bijis"
+      "lv": "estado"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "Traje"
+      "lv": "enviar"
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "Viņš sūta"
+      "lv": "el envia"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "Viņš sūtīja"
+      "lv": "el envió"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Viņš sūtītu"
+      "lv": "él enviaría"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Sutits"
+      "lv": "enviado"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "Varit"
+      "lv": "hervir"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "Viņš vāra"
+      "lv": "el cocina"
     },
     "imperfektIndikativ": {
       "de": "sott vai siedete",
-      "lv": "Varija"
+      "lv": "cocido"
     },
     "imperfektKonjunktiv": {
       "de": "sott vai siedete",
-      "lv": "Varija"
+      "lv": "cocido"
     },
     "partizipVergangenheit": {
       "de": "gesotten vai gesiedet",
-      "lv": "Varits"
+      "lv": "hervido"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "Dziedat"
+      "lv": "cantar"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "Viņš dzied"
+      "lv": "el canta"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "Viņš dziedāja"
+      "lv": "el canto"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "Viņš dziedātu"
+      "lv": "el cantaria"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
-      "lv": "Dziedāts"
+      "lv": "cantado"
     }
   },
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Grimt"
+      "lv": "hundirse"
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "Viņš sombrío"
+      "lv": "el se esta hundiendo"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Viņš grima"
+      "lv": "él estaba haciendo las paces"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "Viņš grimtu"
+      "lv": "él se hundiría"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Grimis"
+      "lv": "constituir"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "Pratot"
+      "lv": "preguntarse"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "Viņš prāto"
+      "lv": "el se pregunta"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "Viņš prātoja"
+      "lv": "se preguntó"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "Viņš prātotu"
+      "lv": "él se preguntaría"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Prātots"
+      "lv": "dispuesto"
     }
   },
   {
     "infinitiv": {
       "de": "sitzen",
-      "lv": "Sentarse"
+      "lv": "sentarse"
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "Viņš sí"
+      "lv": "el esta sentado"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "Viņš sēdēja"
+      "lv": "el estaba sentado"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "Viņš sēdētu"
+      "lv": "él se sentaría"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "Sēdēts"
+      "lv": "se sentó"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "Vajadzēt / būt pienākumam"
+      "lv": "necesitar / estar obligado"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Viņam vajag"
+      "lv": "el necesita"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Vajadzēja"
+      "lv": "debería tener"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Vajadzēja"
+      "lv": "debería tener"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Vajadzējis"
+      "lv": "necesario"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "Spļaut"
+      "lv": "escupir"
     },
     "praesens": {
       "de": "er speit",
-      "lv": "Viņš spļauj"
+      "lv": "el escupe"
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "Viņš spļāva"
+      "lv": "el escupió"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Viņš spļautu"
+      "lv": "él escupiría"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Spļauts"
+      "lv": "escupió"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Verpt"
+      "lv": "girar"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "Hij draait"
+      "lv": "el gira"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Viņš vērpa"
+      "lv": "el giró"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "Viņš vērptu"
+      "lv": "él daría vueltas"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Vērpts"
+      "lv": "hilado"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Savienot"
+      "lv": "para conectar"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "Viņš savieno"
+      "lv": "el conecta"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Savienoja"
+      "lv": "conectado"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Savienoja"
+      "lv": "conectado"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Savienots"
+      "lv": "conectado"
     }
   },
   {
     "infinitiv": {
       "de": "sprechen",
-      "lv": "Runat"
+      "lv": "hablar"
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "Viņš runā"
+      "lv": "el habla"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "Viņš runāja"
+      "lv": "el habló"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "Viņš runātu"
+      "lv": "el hablaria"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Runats"
+      "lv": "hablado"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Plaukt"
+      "lv": "prosperar"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "Viņš plaukst"
+      "lv": "el prospera"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "Viņš plauka"
+      "lv": "él prosperó"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "Viņš plauktu"
+      "lv": "el estante"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Plaucis"
+      "lv": "el hombro"
     }
   },
   {
     "infinitiv": {
       "de": "springen",
-      "lv": "Lekt"
+      "lv": "saltar"
     },
     "praesens": {
       "de": "er springt",
-      "lv": "Viņš lec"
+      "lv": "el salta"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
-      "lv": "Viņš lēca"
+      "lv": "él saltó"
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "Viņš lēktu"
+      "lv": "el saltaria"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Lecis"
+      "lv": "lente"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Durt"
+      "lv": "puñalada"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "Viņš dur"
+      "lv": "el apuñala"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "Viņš dura"
+      "lv": "él golpeó"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
-      "lv": "Viņš durtu"
+      "lv": "él apuñalaría"
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Durts"
+      "lv": "apuñalado"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Bāzt / iespraust"
+      "lv": "pegarse / pegarse"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "Viņš bāž"
+      "lv": "el empuja"
     },
     "imperfektIndikativ": {
       "de": "stak vai steckte",
-      "lv": "Jebaza"
+      "lv": "relleno"
     },
     "imperfektKonjunktiv": {
       "de": "stak vai steckte",
-      "lv": "Jebaza"
+      "lv": "relleno"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Iebāzts"
+      "lv": "relleno"
     }
   },
   {
     "infinitiv": {
       "de": "stehen",
-      "lv": "Stāvet"
+      "lv": "estar de pie"
     },
     "praesens": {
       "de": "er steht",
-      "lv": "Viņš stāv"
+      "lv": "el esta de pie"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "Viņš stāvēja"
+      "lv": "él se puso de pie"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "Viņš stāvētu"
+      "lv": "él estaría de pie"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Stāvēts"
+      "lv": "de pie"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Ciencia"
+      "lv": "robar"
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "Viņš zog"
+      "lv": "el roba"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "Viņš zaga"
+      "lv": "el robo"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "Viņš zagtu"
+      "lv": "el robaria"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "Zagts"
+      "lv": "robado"
     }
   },
   {
     "infinitiv": {
       "de": "steigen",
-      "lv": "Kapt"
+      "lv": "escalar"
     },
     "praesens": {
       "de": "er steigt",
-      "lv": "Viņš kāpj"
+      "lv": "el sube"
     },
     "imperfektIndikativ": {
       "de": "er stieg",
-      "lv": "Hola klom"
+      "lv": "él subió"
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "Viņš kāptu"
+      "lv": "él subiría"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Kapis"
+      "lv": "subió"
     }
   },
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "Mirto"
+      "lv": "morir"
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "Viņš mirst"
+      "lv": "el esta muriendo"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "Viņš mira"
+      "lv": "el murio"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "Viņš mirtu"
+      "lv": "el moriria"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Miris"
+      "lv": "muerto"
     }
   },
   {
     "infinitiv": {
       "de": "stieben",
-      "lv": "Putēt / virpuļot"
+      "lv": "espuma / remolino"
     },
     "praesens": {
       "de": "es stiebt",
-      "lv": "Tas poner"
+      "lv": "sopla"
     },
     "imperfektIndikativ": {
       "de": "stob vai stiebte",
-      "lv": "Putēja"
+      "lv": "espumado"
     },
     "imperfektKonjunktiv": {
       "de": "stob vai stiebte",
-      "lv": "Putēja"
+      "lv": "espumado"
     },
     "partizipVergangenheit": {
       "de": "gestoben vai gestiebt",
-      "lv": "Izputējis"
+      "lv": "arruinado"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "Smirdēt"
+      "lv": "oler"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "Tas smird"
+      "lv": "apesta"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Smirdeja"
+      "lv": "olía"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Smirdeja"
+      "lv": "olía"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Smirdējis"
+      "lv": "maloliente"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Grust"
+      "lv": "empujar"
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "Viņš grūž"
+      "lv": "el empuja"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
-      "lv": "Viņš grūda"
+      "lv": "él empujó"
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "Viņš grūstu"
+      "lv": "él estaba empujando"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Grūsts"
+      "lv": "empujado"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Krāsot / strīpot"
+      "lv": "pintura / tira"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "Viņš krāso / strīpo"
+      "lv": "él pinta / rayas"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "Hij schilderde/gestreept"
+      "lv": "él pintó / rayado"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "Viņš krāsotu / strīpotu"
+      "lv": "él pintaría / desnudaría"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Krāsots / strīpots"
+      "lv": "pintado / rayado"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "Ciudades"
+      "lv": "pelear"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "Viņš cīnās"
+      "lv": "el esta peleando"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Viņš cīnījās"
+      "lv": "él luchó"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "Viņš cīnītos"
+      "lv": "el pelearia"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Cīnījies"
+      "lv": "luchó"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Nido"
+      "lv": "llevar"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "Viņš nes"
+      "lv": "el lleva"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "Viņš nesa"
+      "lv": "él llevaba"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "Viņš nestu"
+      "lv": "él llevaría"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Nidos"
+      "lv": "transportado"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Sastapt"
+      "lv": "encontrar"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "Viņš sastop"
+      "lv": "el se encuentra"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "Viņš sastapa"
+      "lv": "el encontro"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "Viņš sastaptu"
+      "lv": "él se encontraría"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Sastaptos"
+      "lv": "encontrado"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Dzit"
+      "lv": "perseguir"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "Viņš dzen"
+      "lv": "el conduce"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "Viņš dzina"
+      "lv": "él condujo"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "Viņš dzītu"
+      "lv": "él conduciría"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Dzīts"
+      "lv": "perseguido"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Estados / iet"
+      "lv": "entrar/ir"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "Viņš stājas / iet"
+      "lv": "el entra/va"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Hij stond/liep"
+      "lv": "él se puso de pie / caminó"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "Viņš stātos / ietu"
+      "lv": "él se pararía/iría"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Stājies / gājis"
+      "lv": "se puso de pie / caminó"
     }
   },
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "Dzert"
+      "lv": "beber"
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "Viņš dzer"
+      "lv": "el bebe"
     },
     "imperfektIndikativ": {
       "de": "er trank",
-      "lv": "Viņš dzēra"
+      "lv": "él estaba bebiendo"
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "Viņš dzertu"
+      "lv": "el beberia"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Dzerts"
+      "lv": "ebrio"
     }
   },
   {
     "infinitiv": {
       "de": "trügen",
-      "lv": "Krāpt"
+      "lv": "hacer trampa"
     },
     "praesens": {
       "de": "er trögt",
-      "lv": "Viņš krāpj"
+      "lv": "el hace trampa"
     },
     "imperfektIndikativ": {
       "de": "er trog",
-      "lv": "Viņš krāpa"
+      "lv": "él hizo trampa"
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Viņš krāptu"
+      "lv": "él haría trampa"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Krapts"
+      "lv": "engañado"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "Darit"
+      "lv": "hacer"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "Viņš dara"
+      "lv": "el lo hace"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "Viņš darīja"
+      "lv": "el lo hizo"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "Viņš darītu"
+      "lv": "el lo haria"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Darits"
+      "lv": "hecho"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Bojat"
+      "lv": "dañar"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "Viņš bojā"
+      "lv": "el destruye"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "Viņš bojāja"
+      "lv": "él dañó"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "Viņš bojātu"
+      "lv": "él dañaría"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Bojats"
+      "lv": "dañado"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "Sacelt īgnumu"
+      "lv": "causar molestia"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "Viņš izraisa īgnumu"
+      "lv": "el causa molestia"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "Viņš izraisīja īgnumu"
+      "lv": "el causo molestia"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "Viņš izraisītu īgnumu"
+      "lv": "él causaría molestia"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Sarūgtināts"
+      "lv": "decepcionado"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Aizmirst"
+      "lv": "olvidar"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "Viņš aizmirst"
+      "lv": "el olvida"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
-      "lv": "Viņš aizmirsa"
+      "lv": "se olvidó"
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Hij zou het vergeten"
+      "lv": "el olvidaria"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Aizmirsts"
+      "lv": "olvidado"
     }
   },
   {
     "infinitiv": {
       "de": "verlieren",
-      "lv": "Pazaudēt"
+      "lv": "perder"
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "Viņš pazaudē"
+      "lv": "el pierde"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "Viņš pazaudēja"
+      "lv": "el perdio"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "Viņš pazaudētu"
+      "lv": "el perderia"
     },
     "partizipVergangenheit": {
       "de": "verloren",
-      "lv": "Pazaudēts"
+      "lv": "perdido"
     }
   },
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "Grandir"
+      "lv": "crecer"
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "Viņš agosto"
+      "lv": "el esta creciendo"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "Viņš auga"
+      "lv": "él estaba creciendo"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
-      "lv": "Viņš agosto"
+      "lv": "él crecería"
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Audzis"
+      "lv": "creció"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "Mazgat"
+      "lv": "lavar"
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "Viņš mazgā"
+      "lv": "el lava"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "Viņš mazgāja"
+      "lv": "el lavo"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "Viņš mazgātu"
+      "lv": "él se lavaría"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Mazgats"
+      "lv": "lavado"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Agosto"
+      "lv": "tejer"
     },
     "praesens": {
       "de": "er webt",
-      "lv": "Viņš až"
+      "lv": "el teje"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Auda"
+      "lv": "tejido"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Auda"
+      "lv": "tejido"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Izausts"
+      "lv": "tejido"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "Atkāpties"
+      "lv": "retirarse"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "Viņš atkāpjas"
+      "lv": "él retrocede"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "Viņš atkāpās"
+      "lv": "él dio un paso atrás"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
-      "lv": "Viņš atkāptos"
+      "lv": "él retrocedería"
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Atkapies"
+      "lv": "dar marcha atrás"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Rādīt"
+      "lv": "espectáculo"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "Viņš rāda"
+      "lv": "el muestra"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "Viņš rādīja"
+      "lv": "el mostro"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "Viņš rādītu"
+      "lv": "el mostraria"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Getound"
+      "lv": "mostrado"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Grozīt / apgriezt"
+      "lv": "modificar / recortar"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "Viņš groza / apgriež"
+      "lv": "él gira / gira"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Viņš grozīja / apgrieza"
+      "lv": "él giró / giró"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "Viņš grozītu / apgrieztu"
+      "lv": "él enmendaría / revertiría"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Grozīts / apgriezts"
+      "lv": "modificado / revertido"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "Bildinat"
+      "lv": "proponer"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "Viņš bildina"
+      "lv": "el propone"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "Viņš bildināja"
+      "lv": "el propuso"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "Viņš bildinātu"
+      "lv": "él propondría"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Bildinats"
+      "lv": "propuesto a"
     }
   },
   {
     "infinitiv": {
       "de": "werden",
-      "lv": "Kļût"
+      "lv": "convertirse en"
     },
     "praesens": {
       "de": "er wird",
-      "lv": "Viņš kļūst"
+      "lv": "él se convierte"
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Kļuva"
+      "lv": "convertirse"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Kļuva"
+      "lv": "convertirse"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Kļuvis"
+      "lv": "se ha convertido"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Mest"
+      "lv": "tirar"
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "Viņš conoció"
+      "lv": "el tira"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "Destino Viņš"
+      "lv": "el arrojó"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "Viņš triste"
+      "lv": "el arrojó"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "Gegoide"
+      "lv": "arrojado"
     }
   },
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "Svērt"
+      "lv": "pesar"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "Viņš invierno"
+      "lv": "el pesa"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "Viņš svēra"
+      "lv": "el pesó"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "Viņš svērtu"
+      "lv": "el pesaria"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Svērts"
+      "lv": "ponderado"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Fosa"
+      "lv": "trenza"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "Pin de Viņš"
+      "lv": "el alfiler"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "Hij vlecht"
+      "lv": "el trenza"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "Viņš pītu"
+      "lv": "él trenzaría"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Pozos"
+      "lv": "trenzado"
     }
   },
   {
     "infinitiv": {
       "de": "wissen",
-      "lv": "Zinat"
+      "lv": "saber"
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "Viņš zina"
+      "lv": "el sabe"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "Viņš zināja"
+      "lv": "el sabia"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "Viņš zinātu"
+      "lv": "el sabria"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Zināts"
+      "lv": "conocido"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Gribet"
+      "lv": "quiero"
     },
     "praesens": {
       "de": "er will",
-      "lv": "Viņš grib"
+      "lv": "el quiere"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Gribeja"
+      "lv": "quería"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Gribeja"
+      "lv": "quería"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Gribejis"
+      "lv": "quería"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Izgriezt / izspiest"
+      "lv": "cortar / exprimir"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "Viņš izgriež"
+      "lv": "el corta"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Izgrieza"
+      "lv": "separar"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Izgrieza"
+      "lv": "separar"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Izgriezts"
+      "lv": "separar"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Vainot"
+      "lv": "culpar"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "Viņš vaino"
+      "lv": "el culpa"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Vainoja"
+      "lv": "culpado"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Vainoja"
+      "lv": "culpado"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Vainojis"
+      "lv": "culpado"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Vilkt"
+      "lv": "tirar"
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "Viņš velk"
+      "lv": "el tira"
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "Viņš vilka"
+      "lv": "él tiró"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "Viņš vilktu"
+      "lv": "el arrastraria"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Vilkts"
+      "lv": "arrastrado"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Piespiest"
+      "lv": "forzar"
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "Viņš piespiež"
+      "lv": "el obliga"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "Viņš piespieda"
+      "lv": "el forzó"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
-      "lv": "Viņš piespiestu"
+      "lv": "él obligaría"
     },
     "partizipVergangenheit": {
       "de": "gezwungen",
-      "lv": "Piespies"
+      "lv": "forzado"
     }
   },
   {
     "infinitiv": {
       "de": "empfangen",
-      "lv": "Sanemt"
+      "lv": "recibir"
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "Viņš saņem"
+      "lv": "el recibe"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "Viņš saņēma"
+      "lv": "el recibió"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "Viņš saņemtu"
+      "lv": "el recibiria"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Sanemts"
+      "lv": "recibió"
     }
   },
   {
     "infinitiv": {
       "de": "erwägen",
-      "lv": "Apsvērt"
+      "lv": "considerar"
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "Hij overweegt"
+      "lv": "el considera"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Viņš apsvēra"
+      "lv": "el considero"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "Viņš apsvērtu"
+      "lv": "el consideraria"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Apsvērts"
+      "lv": "consideró"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "Ciudades"
+      "lv": "pelear"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "Viņš cīnās"
+      "lv": "el esta peleando"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Viņš cīnījās"
+      "lv": "él luchó"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "Viņš cīnītos"
+      "lv": "el pelearia"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Cīnījies"
+      "lv": "luchó"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Fosa"
+      "lv": "trenza"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "Pin de Viņš"
+      "lv": "el alfiler"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "Hij vlecht"
+      "lv": "el trenza"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "Viņš pītu"
+      "lv": "él trenzaría"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Pozos"
+      "lv": "trenzado"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "Karaties"
+      "lv": "colgar"
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "Viņš karājas"
+      "lv": "el cuelga"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "Viņš karājās"
+      "lv": "el colgó"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Viņš karātos"
+      "lv": "él se ahorcaría"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Karajies"
+      "lv": "Aférrate"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "Skaldit"
+      "lv": "dividir"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "Viņš skalda"
+      "lv": "el se divide"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "Viņš skaldīja"
+      "lv": "él se dividió"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "Viņš skaldītu"
+      "lv": "él se dividiría"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Skalditas"
+      "lv": "dividir"
     }
   },
   {
     "infinitiv": {
       "de": "verzeihen",
-      "lv": "Piedoto"
+      "lv": "perdonar"
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "Viņš piedod"
+      "lv": "el perdona"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "Viņš footva"
+      "lv": "el perdonó"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "Viņš piedotu"
+      "lv": "el perdonaria"
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Piedots"
+      "lv": "perdonado"
     }
   }
 ];
