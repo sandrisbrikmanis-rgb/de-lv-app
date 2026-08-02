@@ -1308,25 +1308,19 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "zusammenfassen (darbības vārds) = process — apkopot/rezumēt.",
-        "die Zusammenfassung (lietvārds, ar lielo burtu un artikulu die) = rezultāts — pats kopsavilkums."
+        "zusammenfassen (verb) = process - to summarise/summarise.",
+        "die Zusammenfassung (noun, capitalised and article die) = result - the summary itself."
       ],
       "important": [
-        "zusammenfassen = apkopot/rezumēt (darbības vārds).",
-        "die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen).",
-        "Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu)."
+        "zusammenfassen = to summarise/summarise (verb).",
+        "die Zusammenfassung = summary (noun, substantivised from zusammenfassen).",
+        "Incorrect: die zusammenfassen → Correct: die Zusammenfassen (noun always capitalised)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "zusammenfassen"
-          ],
           "purple": [
             "Main",
             "Main"
-          ],
-          "green": [
-            "die Zusammenfassung"
           ]
         },
         "examples": [
@@ -1429,7 +1423,7 @@ const C1_WORDS = [
           },
           {
             "green": [
-              "die Zusammenfassung"
+              "die zusammenfassen"
             ],
             "red": [
               "die zusammenfassen"
@@ -2481,7 +2475,7 @@ const C1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Position in a sentence helps: before noun = adjective • After verb = adverb • + genitive = preposition."
+            "text": "Position in a sentence helps: before noun = adjective; after verb = adverb; + genitive = preposition."
           }
         ]
       },
@@ -2490,13 +2484,10 @@ const C1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "gelegentlich"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
+            "sometimes",
+            "casual",
+            "due to"
           ]
         },
         "examples": [
@@ -2508,7 +2499,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "stops"
+                "sometimes"
               ]
             }
           },
@@ -3854,7 +3845,7 @@ const C1_WORDS = [
         ]
       },
       "important": {
-        "text": "Wahlberechtig = with the right to vote. Opposite: nicht wahlberechtigkeit."
+        "text": "wahlberechtig = with the right to vote. Opposite: nicht wahlberechtigkeit."
       },
       "sectionAccents": {
         "explanation": {
@@ -4030,24 +4021,17 @@ const C1_WORDS = [
       ],
       "tip": [
         "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
-        "den Zuschlag erhalten (izsolēs) = uzvarēt izsolē/saņemt pasūtījumu."
+        "den Zuschlag erhalten (in the auctions) = win the auction/receive the order."
       ],
       "important": [
         "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
-        "Dokumenta pielikums vācu valodā ir die Anlage/der Anhang."
+        "The annex to the document in German is die Anlage/der Anhang."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Zuschlag"
-          ],
           "purple": [
             "Main",
             "Main"
-          ],
-          "red": [
-            "der Anhang",
-            "die Beilage"
           ]
         },
         "examples": [
@@ -4083,7 +4067,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "order"
               ]
             }
           },
@@ -4107,7 +4091,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "surcharges"
               ]
             }
           }
@@ -4130,15 +4114,6 @@ const C1_WORDS = [
             "purple": [
               "piemaksa",
               "uzcenojums"
-            ],
-            "red": [
-              "pielikums"
-            ]
-          },
-          {
-            "red": [
-              "die Anlage",
-              "der Anhang"
             ]
           }
         ]
@@ -4166,17 +4141,17 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "Izmanto beziehen / sich beziehen auf, kad konteksts atbilst šai nozīmei."
+        "Formal register: attribute to source, regular pension/salary receipt or moving into an apartment.",
+        "Use beziehen / sich beziehen auf when the context fits this meaning."
       ],
       "important": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+        "Formal register: attribute to source, regular pension/salary receipt or moving into an apartment.",
+        "beziehen / sich beziehen auf: before using, check the context and compare with other words on the card."
       ],
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Main"
+            "attribute"
           ]
         },
         "examples": [
@@ -4198,10 +4173,9 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "attiecināt"
+              "attribute"
             ]
-          },
-          {}
+          }
         ],
         "important": [
           {}
@@ -4248,23 +4222,19 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
-        "beabsichtigen = nodomāt"
+        "When it comes to relationships, sources, or regular receipt — beziehen. If about a deliberate plan — beabsichtigen.",
+        "beabsichtigen = to think"
       ],
       "important": [
         "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
-        "beabsichtigen → nodoms, plāns.",
-        "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu."
+        "beabsichtigen cannot be replaced by beziehen - it is an intention, not a relation.",
+        "beabsichtigen → intention, plan.",
+        "A conscious intention to perform an action in the future. Not about the relationship, but about the plan."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "beabsichtigen"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "to plan"
           ]
         },
         "examples": [
@@ -4331,12 +4301,7 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "nodomāt"
-            ]
-          },
-          {
-            "purple": [
-              "plānu"
+              "to think"
             ]
           }
         ],
@@ -4387,25 +4352,18 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "unterstellen = pārmest",
-        "Izmanto unterstellen, kad konteksts atbilst šai nozīmei."
+        "unterstellen = to reproach",
+        "Uses unterstellen when the context suits this meaning."
       ],
       "important": [
-        "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
+        "unterstellen is emotionally negative—an unwarranted accusation.",
         "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
-        "unterstellen → pārmest, piedēvēt."
+        "unterstellen → blame, attribute."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "unterstellen"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "Main"
+            "blame"
           ]
         },
         "examples": [
@@ -4468,10 +4426,9 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "pārmest"
+              "unterstellen"
             ]
-          },
-          {}
+          }
         ],
         "important": [
           {
@@ -4508,20 +4465,16 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "voraussetzen = pieņemt priekšnoteikumu",
-        "Izmanto voraussetzen, kad konteksts atbilst šai nozīmei."
+        "voraussetzen = to assume a prerequisite",
+        "Use voraussetzen when the context fits this meaning."
       ],
       "important": [
-        "voraussetzen ir neitrāls — priekšnosacījums.",
-        "voraussetzen → pieņemt kā pamatu.",
-        "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats."
+        "voraussetzen is neuter — a preposition.",
+        "voraussetzen → take as a basis.",
+        "To assume that something is already known or exists as a basis."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "voraussetzen",
-            "voraus"
-          ],
           "purple": [
             "Main"
           ]
@@ -4582,21 +4535,18 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "bewahren = pasargāt",
-        "Izmanto bewahren, kad konteksts atbilst šai nozīmei."
+        "bewahren = to protect",
+        "Use bewahren when the context fits this meaning."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
+        "bewahren: Wertvolles bewahren - protect the valuable.",
         "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
-        "bewahren → aizsargāt, saglabāt."
+        "bewahren → protect, preserve."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "bewahren"
-          ],
           "purple": [
-            "Main"
+            "protect"
           ]
         },
         "examples": [
@@ -4648,8 +4598,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Protect/preserve",
-                "Protect/preserve"
+                "protect"
               ]
             }
           }
@@ -4657,10 +4606,9 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "pasargāt"
+              "protect"
             ]
-          },
-          {}
+          }
         ],
         "important": [
           {
@@ -4701,13 +4649,13 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "aufrechterhalten = uzturēt spēkā",
-        "Izmanto aufrechterhalten, kad konteksts atbilst šai nozīmei."
+        "aufrechterhalten = to keep in force",
+        "Use aufrechterhalten when the context fits this meaning."
       ],
       "important": [
         "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → uzturēt spēkā.",
-        "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt."
+        "aufrechterhalten → keep in force.",
+        "To ensure that a state, order or relationship will continue to exist."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4739,7 +4687,7 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "uzturēt spēkā"
+              "aufrechterhalten"
             ]
           }
         ],

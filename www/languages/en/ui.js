@@ -30,30 +30,30 @@ window.LANGUAGE_UI_STRINGS = {
     "quickTools": "Quick tools"
   },
   "buttons": {
-    "known": "I know right",
+    "known": "I know it",
     "unknown": "I don't know",
-    "next": "The next word",
+    "next": "Next word",
     "check": "Check",
     "continue": "Continue",
     "close": "Close",
     "delete": "Delete",
     "cancel": "Cancel",
     "restore": "Return",
-    "restoreAll": "Return all",
-    "extraOptions": "Additional options",
-    "extraOptionsOpen": "Additional options ▼",
-    "extraOptionsClose": "Additional options ▲",
+    "restoreAll": "Restore all",
+    "extraOptions": "More options",
+    "extraOptionsOpen": "More options ▼",
+    "extraOptionsClose": "More options ▲",
     "weeklyReview": "Weekly review",
     "monthlyReview": "Monthly review",
-    "unwantedWords": "Unnecessary words",
-    "knownWords": "Of course",
+    "unwantedWords": "Unwanted words",
+    "knownWords": "Known",
     "knownWithCount": "Known ({count})",
     "markMastered": "I know 100%",
     "shuffleVerbs": "Mix the verbs",
     "restartSession": "🔄 Review the session again",
     "markSessionLearned": "🏅 Mark the session as taught",
     "chooseAnotherGroup": "Choose another group",
-    "listen": "To listen",
+    "listen": "Listen",
     "listenPlural": "Listen to the plural",
     "listenWithWord": "Listen: {word}",
     "autoplayOn": "Automatic pronunciation on",
@@ -67,10 +67,10 @@ window.LANGUAGE_UI_STRINGS = {
     "masteredWords": "100% known"
   },
   "tools": {
-    "problemShort": "Problem",
+    "problemShort": "Prob.",
     "problemFull": "Problem words",
     "problemWithCount": "Problem words ({count})",
-    "spellingShort": "Article.",
+    "spellingShort": "Spell.",
     "spellingFull": "Spelling"
   },
   "modes": {
@@ -89,7 +89,7 @@ window.LANGUAGE_UI_STRINGS = {
     "trainingCard": "{title} exercise card"
   },
   "card": {
-    "pluralLabel": "Many see",
+    "pluralLabel": "Pl.",
     "spelling": "Spelling",
     "spellingVerbs": "Spelling · Verbs",
     "verbsShuffleTraining": "Verbs · Mixed training",
@@ -97,7 +97,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sessionComplete": "Session complete!",
     "sessionLabel": "Session",
     "lastSessionLabel": "Last session",
-    "problemLabel": "The problematic ones",
+    "problemLabel": "Problem words",
     "levelCompleteTitle": "Excellent! {label} level is complete! 🎉",
     "levelCompleteDesc": "You have learned all the words in this group. Time to take the next step!",
     "noActiveWords": "There are no active words in this group.",
@@ -120,24 +120,24 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Translation:",
     "hintTapAnswer": "Click on the card to see the answer.",
     "hintTapSwitch": "Click on the card to switch the shape.",
-    "hintSessionProgress": "{label}: {current} / {total}. {become}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "This verb does not have enough forms to mix."
   },
   "notices": {
     "chooseNextGroup": "Select the next group in the main menu.",
     "sessionReloaded": "Session reloaded with mixed order.",
-    "sessionMovedToKnown": "Session names moved to known.",
+    "sessionMovedToKnown": "Session words moved to known.",
     "verbShuffleOn": "Verb mixing on.",
     "verbShuffleOff": "Verb conjugation off.",
     "spellingOn": "Spell mode on.",
     "spellingOff": "Spell Mode Off.",
     "showingKnown": "We show the known cards.",
     "problemModeOff": "Problem word mode off.",
-    "showingProblems": "We show the problematic words.",
+    "showingProblems": "Showing problem words.",
     "noProblems": "No problem words.",
     "errorLevelReduced": "Error rate reduced.",
-    "movedToKnown": "Name moved to Known!",
-    "problemsFinishedMoved": "Problem words learned. Name moved to Known!",
+    "movedToKnown": "Word moved to known!",
+    "problemsFinishedMoved": "Problem words learned. Word moved to known!",
     "lastSessionDone": "Review of last session completed.",
     "continueLastSession": "We continue to review the last session.",
     "knownReviewDone": "Familiar word review complete.",
@@ -147,16 +147,16 @@ window.LANGUAGE_UI_STRINGS = {
     "noCardToMark": "There are no cards to mark.",
     "markedKnown": "Marked as known.",
     "noCard": "There are no cards to mark.",
-    "answerRevealed": "The answer is revealed. The name remains in the session.",
+    "answerRevealed": "The answer is revealed. The word remains in the session.",
     "returnedToStudy": "Returned to learning mode.",
-    "leftInProblems": "Left in the problematic group.",
+    "leftInProblems": "Left in the problem group.",
     "leftForReview": "Left for revision.",
     "showingTimeReview": "Showing: {label}.",
     "continueTimeReview": "Continuing: {label}.",
     "enterAnswerFirst": "First, enter the correct answer and press Check.",
     "noCardForMastered": "There is no card to add to 100% known.",
-    "addedMastered": "Name added to 100% known.",
-    "alreadyMastered": "The name is already in the 100% known list.",
+    "addedMastered": "Word added to 100% known.",
+    "alreadyMastered": "The word is already in the 100% known list.",
     "noCardForUnwanted": "There is no card to mark as unnecessary.",
     "markedUnwanted": "Word marked as unnecessary.",
     "loadFailed": "Failed to load cards. Reloads the page or checks that all data files are available.",
@@ -197,12 +197,12 @@ window.LANGUAGE_UI_STRINGS = {
     "intensityBody": "Choose how many words to learn in one session: <strong>Easy · 10</strong>, <strong>Normal · 20</strong> or <strong>Intensive · 30</strong>.",
     "listeningTitle": "Listening",
     "listeningBody": "Click the speaker icon on the card to hear the pronunciation.",
-    "unwantedTitle": "Unnecessary words",
+    "unwantedTitle": "Unwanted words",
     "unwantedBody": "Press the crossed-out eye in the corner of the card and the word will disappear from the feed. You can return it in the Additional options section.",
     "answersTitle": "Answers",
     "answersBody": "<strong>I know correctly</strong> - you know the answer. <strong>Don't know</strong> - helps you remember and adds to problematic ones. <strong>Next Word</strong> - Skips without rating.",
-    "extraTitle": "Additional options",
-    "extraBody": "Opens <strong>Advanced options</strong> to see weekly and monthly overview, Known words and return hidden ones."
+    "extraTitle": "More options",
+    "extraBody": "Open <strong>More options</strong> to view weekly and monthly reviews, known words, and restore hidden ones."
   },
   "extra": {
     "wordManagement": "Word management",
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Long and short vowels with examples.",
     "consonantsTitle": "Consonants and letter combinations",
     "consonantsDesc": "The most important consonant sounds for the beginner.",
-    "lessonProgress": "Lecture {lesson} · Translated by: {current} / {total}",
-    "exerciseProgress": "Lecture {lesson} · Exercise",
+    "lessonProgress": "Lesson {lesson} · Translation: {current} / {total}",
+    "exerciseProgress": "Lesson {lesson} · Exercise",
     "sections": {
       "grammar": "Grammar",
       "exercise": "Exercise",
@@ -273,91 +273,91 @@ window.LANGUAGE_UI_STRINGS = {
       "translate": "Übung II - translate",
       "formDu": "Form 1/3: You (singular)",
       "formIhr": "Form 2/3: You (plural)",
-      "formSie": "Form 3/3: Sie (decent form)"
+      "formSie": "Form 3/3: Sie (polite form)"
     },
     "lessonItems": {
       "1": {
-        "title": "Lecture 1",
+        "title": "Lesson 1",
         "menuDesc": "Verbs in the present tense, words, grammar and practice."
       },
       "2": {
-        "title": "Lecture 2",
+        "title": "Lesson 2",
         "menuDesc": "Dialogues, words, pronunciation, grammar and translation."
       },
       "3": {
-        "title": "Lecture 3",
+        "title": "Lesson 3",
         "menuDesc": "Dialogues, words, pronunciation, grammar and translation."
       },
       "4": {
-        "title": "Lecture 4",
+        "title": "Lesson 4",
         "menuDesc": "Accusative, nehmen, hinlegen, hinausgehen and adjectives."
       },
       "5": {
-        "title": "Lecture 5",
+        "title": "Lesson 5",
         "menuDesc": "Wen?, accusative, sitzen, fragen and -in ending."
       },
       "6": {
-        "title": "Lecture 6",
+        "title": "Lesson 6",
         "menuDesc": "Numbers, plurals, umlauts and plural forms of nouns."
       },
       "7": {
-        "title": "Lecture 7",
+        "title": "Lesson 7",
         "menuDesc": "Imperative, form of address and plural."
       },
       "8": {
-        "title": "Lecture 8",
+        "title": "Lesson 8",
         "menuDesc": "Reflexive verbs, e → i/ie change and accusative."
       },
       "9": {
-        "title": "Lecture 9",
+        "title": "Lesson 9",
         "menuDesc": "Multiple subjects, dieser/jener, singular and plural."
       },
       "10": {
-        "title": "Lecture 10",
+        "title": "Lesson 10",
         "menuDesc": "Sein, können, health, age and professions."
       },
       "11": {
-        "title": "Lecture 11",
+        "title": "Lesson 11",
         "menuDesc": "Haben, kein/keine/keinen, possessive and compound nouns."
       },
       "12": {
-        "title": "Lecture 12",
+        "title": "Lesson 12",
         "menuDesc": "Comparable grades, als/wie, age and colors."
       },
       "13": {
-        "title": "Lecture 13",
+        "title": "Lesson 13",
         "menuDesc": "Der Körper, parts of the body, turnen and jeder."
       },
       "14": {
-        "title": "Lecture 14",
+        "title": "Lesson 14",
         "menuDesc": "müssen, wollen, mögen and modal verbs."
       },
       "15": {
-        "title": "Lecture 15",
+        "title": "Lesson 15",
         "menuDesc": "sollen, dürfen, essen and fruit."
       },
       "16": {
-        "title": "Lecture 16",
+        "title": "Lesson 16",
         "menuDesc": "Dative, geben, sich nähern."
       },
       "17": {
-        "title": "Lecture 17",
+        "title": "Lesson 17",
         "menuDesc": "mit + Dativ, womit / mit wem and Umlaut."
       },
       "18": {
-        "title": "Lecture 18",
+        "title": "Lesson 18",
         "menuDesc": "wohin / wo, Akkusativ or Dativ with an / in / auf."
       },
       "19": {
-        "title": "Lecture 19",
+        "title": "Lesson 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Lecture 20",
+        "title": "Lesson 20",
         "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ and compound nouns."
       },
       "21": {
-        "title": "Lecture 21",
+        "title": "Lesson 21",
         "menuDesc": "woher / wohin / wo, von / aus / mit + Dative."
       }
     }
@@ -399,7 +399,7 @@ window.LANGUAGE_UI_STRINGS = {
       "comparisonBadge": "COMPARISON CARD"
     },
     "table": {
-      "word": "Name",
+      "word": "Word",
       "meaning": "Meaning",
       "example": "An example",
       "native": "EN",
@@ -410,7 +410,7 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "minimal": {
       "tipLabel": "Tip:",
-      "pluralLabel": "MANY",
+      "pluralLabel": "PL.",
       "formsLabel": "Forms:",
       "noteLabel": "Indication:"
     }

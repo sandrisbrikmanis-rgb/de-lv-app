@@ -252,7 +252,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich abfinden requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -465,7 +465,7 @@ const B2_WORDS = [
       "rektion": "von + kam?",
       "explanation": "Sich abwenden requires the definite preposition von + kam?.",
       "forms": "von + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -919,7 +919,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich befassen requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -972,7 +972,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich begnügen requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1147,10 +1147,10 @@ const B2_WORDS = [
       "id": "b2-sich-bemaechtigen",
       "layout": "minimalStudy",
       "translation": "Seise • Take possession of",
-      "rektion": "+ piederības forma",
+      "rektion": "+ possessive form",
       "explanation": "Sich bemächtigen is used in modern German with the possessive form without a preposition.",
-      "forms": "+ piederības forma",
-      "formsLabel": "Vadība:",
+      "forms": "+ possessive form",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1235,7 +1235,7 @@ const B2_WORDS = [
       "rektion": "auf + ko?",
       "explanation": "Sich berufen requires the definite preposition auf + ko?.",
       "forms": "auf + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1291,7 +1291,7 @@ const B2_WORDS = [
       "rektion": "auf + ko?",
       "explanation": "Sich beschränken requires the definite preposition auf + ko?.",
       "forms": "auf + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1391,7 +1391,7 @@ const B2_WORDS = [
       "rektion": "in + kur?",
       "explanation": "Sich betätigen requires the definite preposition in + where?.",
       "forms": "in + kur?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3546,7 +3546,7 @@ const B2_WORDS = [
       "rektion": "auf + ko?",
       "explanation": "Sich einlassen requires the definite preposition auf + ko?.",
       "forms": "auf + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3595,7 +3595,7 @@ const B2_WORDS = [
       "rektion": "in + ko?",
       "explanation": "Sich einprägen requires the definite preposition in + ko?.",
       "forms": "in + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3629,7 +3629,7 @@ const B2_WORDS = [
       "rektion": "in + ko?",
       "explanation": "Sich einschleichen requires the definite preposition in + ko?.",
       "forms": "in + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3660,7 +3660,7 @@ const B2_WORDS = [
       "rektion": "auf + ko?",
       "explanation": "Sich einschränken requires the definite preposition auf + ko?.",
       "forms": "auf + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3879,7 +3879,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich empfehlen requires the definite preposition zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3913,7 +3913,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich empören requires the definite preposition über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4016,7 +4016,7 @@ const B2_WORDS = [
       "rektion": "von + kam?",
       "explanation": "Sich enthalten requires the definite preposition von + kam?.",
       "forms": "von + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4062,10 +4062,10 @@ const B2_WORDS = [
       "id": "b2-sich-entledigen",
       "layout": "minimalStudy",
       "translation": "Get rid of • Get rid of",
-      "rektion": "+ piederības forma",
+      "rektion": "+ possessive form",
       "explanation": "Sich entledigen is used in modern German with the possessive form without a preposition.",
-      "forms": "+ piederības forma",
-      "formsLabel": "Vadība:",
+      "forms": "+ possessive form",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4101,7 +4101,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich entrüsten requires the definite preposition über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4132,10 +4132,10 @@ const B2_WORDS = [
       "id": "b2-sich-entsinnen",
       "layout": "minimalStudy",
       "translation": "To remember • To remember",
-      "rektion": "+ piederības forma",
+      "rektion": "+ possessive form",
       "explanation": "Sich entsinnen is used in modern German with the possessive form without a preposition, for example: Ich entsinne mich eines Fehlers.",
-      "forms": "+ piederības forma",
-      "formsLabel": "Vadība:",
+      "forms": "+ possessive form",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4261,7 +4261,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich erbarmen requires the definite preposition über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4354,7 +4354,7 @@ const B2_WORDS = [
       "rektion": "aus + kam?",
       "explanation": "Sich ergeben requires the definite preposition aus + kam?.",
       "forms": "aus + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4479,7 +4479,7 @@ const B2_WORDS = [
       "rektion": "vor + kam?",
       "explanation": "Sich erniedrigen requires the definite preposition vor + kam?.",
       "forms": "vor + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4532,7 +4532,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich erregen requires the definite preposition über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4674,7 +4674,7 @@ const B2_WORDS = [
       "rektion": "als + kas?",
       "explanation": "Sich erweisen requires the definite preposition als + what?.",
       "forms": "als + kas?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4925,7 +4925,7 @@ const B2_WORDS = [
     "de": "Farbige",
     "de_article": "der",
     "de_plural": "die Farbigen",
-    "lv": "The colored man",
+    "lv": "The coloured man",
     "level": "B2"
   },
   {
@@ -4980,7 +4980,7 @@ const B2_WORDS = [
       "rektion": "an + kam?",
       "explanation": "Sich fassen requires the definite preposition an + kam?.",
       "forms": "an + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -5461,7 +5461,7 @@ const B2_WORDS = [
       "rektion": "in + ko?",
       "explanation": "Sich fügen requires the definite preposition in + ko?.",
       "forms": "in + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -5644,7 +5644,7 @@ const B2_WORDS = [
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "Gas meter",
+    "lv": "Gas metre",
     "level": "B2"
   },
   {
@@ -6024,7 +6024,7 @@ const B2_WORDS = [
       "rektion": "vor + kam?",
       "explanation": "Sich genieren requires the definite preposition vor + kam?.",
       "forms": "vor + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6222,7 +6222,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich gesellen requires the definite preposition zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6272,7 +6272,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich gestalten requires the definite preposition zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6673,7 +6673,7 @@ const B2_WORDS = [
       "rektion": "vor + kam?",
       "explanation": "Sich grauen requires the definite preposition vor + kam?.",
       "forms": "vor + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7018,28 +7018,19 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Runā par galvu, mūķeni, cepuri → cepurīte / kapuce.",
-        "Runā par auto, motoru → motora pārsegs.",
-        "Runā par plīti, iekārtu → nosūcējs vai pārsegs."
+        "Talking about head, nun, hat → cap / hood.",
+        "It's about a car, engine → hood.",
+        "We are talking about a stove, appliance → hood or hood."
       ],
       "important": [
-        "die Haube = cepurīte/kapuce VAI motora pārsegs VAI nosūcējs/pārsegs — atkarībā no konteksta.",
-        "Salikteņi palīdz: Motorhaube (auto), Dunsthaube (virtuve)."
+        "die Haube = cap/hood OR hood OR hood/bonnet - depending on the context.",
+        "Compounds help: Motorhaube (car), Dunstaube (kitchen)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "die Haube"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Motorhaube",
-            "Dunsthaube"
+            "cap",
+            "hood"
           ]
         },
         "examples": [
@@ -7075,7 +7066,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "opens"
+                "hood"
               ]
             }
           },
@@ -7299,7 +7290,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich herausbilden requires the definite preposition zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7328,7 +7319,7 @@ const B2_WORDS = [
       "rektion": "aus + kam?",
       "explanation": "Sich heraushalten requires a certain preposition aus + kam?.",
       "forms": "aus + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7357,7 +7348,7 @@ const B2_WORDS = [
       "rektion": "als + kas?",
       "explanation": "Sich herausstellen requires the definite preposition als + what?.",
       "forms": "als + kas?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7401,7 +7392,7 @@ const B2_WORDS = [
       "rektion": "in + kur?",
       "explanation": "Sich hervortun requires a definite preposition in + where?.",
       "forms": "in + kur?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7491,7 +7482,7 @@ const B2_WORDS = [
       "rektion": "+ kam?",
       "explanation": "Sich hingeben requires + for whom?.",
       "forms": "+ kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7642,25 +7633,19 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "das Hoch ar lielo burtu — svētku sauciens vai anticiklons laika ziņās.",
-        "hoch ar mazo burtu — augsts (īpašības vārds)."
+        "das Hoch with a capital letter - a celebratory cry or an anticyclone in weather news.",
+        "lower case hoch - high (adjective)."
       ],
       "important": [
-        "das Hoch = tosts (“lai dzīvo!”) VAI anticiklons (laika ziņas) — lietvārds.",
-        "hoch = augsts — īpašības vārds, bez artikula.",
-        "Pretstats laika ziņās: das Hoch ↔ das Tief."
+        "das Hoch = toast (\"long live!\") OR anticyclone (weather) - noun.",
+        "hoch = high — adjective, without article.",
+        "Contrast in weather: das Hoch ↔ das Tief."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Hoch"
-          ],
           "purple": [
             "toast",
             "Main"
-          ],
-          "green": [
-            "hoch"
           ]
         },
         "examples": [
@@ -7841,16 +7826,13 @@ const B2_WORDS = [
         ]
       },
       "important": {
-        "text": "Das Hochwasser = flood or high water level. Plural: die Hochwasser."
+        "text": "das Hochwasser = flood or high water level. Plural: die Hochwasser."
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Hochwasser"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "flood",
+            "high water level"
           ]
         },
         "examples": [
@@ -7862,7 +7844,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "After"
+                "flood"
               ]
             }
           },
@@ -7874,7 +7856,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "High"
+                "high water level"
               ]
             }
           },
@@ -7886,7 +7868,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Authorities"
+                "floods"
               ]
             }
           }
@@ -8483,25 +8465,19 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "das Leiden ar lielo burtu — lietvārds (ciešanas, smaga slimība).",
-        "leiden ar mazo burtu — darbības vārds (ciest)."
+        "das Leiden with a capital letter - noun (suffering, severe illness).",
+        "leiden in lower case - verb (to suffer)."
       ],
       "important": [
-        "das Leiden = ciešanas/smaga slimība (lietvārds).",
-        "leiden = ciest (darbības vārds).",
-        "Daudzskaitlī: die Leiden."
+        "das Leiden = suffering/severe illness (noun).",
+        "leiden = suffer (verb).",
+        "Plural: die Leiden."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Leiden"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "leiden"
+            "suffering",
+            "severe illness"
           ]
         },
         "examples": [
@@ -8525,7 +8501,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "suffering"
               ]
             }
           },
@@ -9285,7 +9261,7 @@ const B2_WORDS = [
     "de": "Nachdruck",
     "de_article": "der",
     "de_plural": "die Nachdrucke",
-    "lv": "Emphasis",
+    "lv": "Emphasis • Reprint",
     "level": "B2",
     "study": {
       "id": "b2-nachdruck",
@@ -9337,21 +9313,17 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Pārrunās un prasībās: Nachdruck = uzsvērums.",
-        "Izdevniecībā un grāmatās: Nachdruck = atkārtots izdevums."
+        "In discussions and demands: Nachdruck = emphasis.",
+        "In publishing and books: Nachdruck = reprint."
       ],
       "important": [
-        "Nachdruck auf etwas legen = likt uzsvērumu.",
-        "der Nachdruck eines Buches = atkārtots izdevums."
+        "Nachdruck auf etwas legen = to emphasise.",
+        "der Nachdruck eines Buches = reprint."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Nachdruck"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "emphasis"
           ]
         },
         "examples": [
@@ -9411,7 +9383,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "reissue"
               ]
             }
           }
@@ -9882,7 +9854,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich paaren requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10535,7 +10507,7 @@ const B2_WORDS = [
       "rektion": "bei + kam?",
       "explanation": "Sich revanchieren requires the definite preposition bei + kam?.",
       "forms": "bei + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10873,7 +10845,7 @@ const B2_WORDS = [
       "rektion": "um + ko?",
       "explanation": "Sich scheren requires a definite preposition um + ko?.",
       "forms": "um + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -11259,25 +11231,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "das Sein ar lielo burtu — lietvārds (esamība, filozofiskā nozīmē).",
-        "sein ar mazo burtu — darbības vārds (būt)."
+        "das Sein with a capital letter - a noun (existence, in a philosophical sense).",
+        "sein lowercase - verb (to be)."
       ],
       "important": [
-        "das Sein = esamība (lietvārds, abstrakts/filozofisks).",
-        "sein = būt (darbības vārds, ikdienā).",
-        "Šis vārds ir substantivizēts darbības vārds, tāpat kā das Können."
+        "das Sein = existence (noun, abstract/philosophical).",
+        "sein = to be (verb, everyday).",
+        "This word is a substantivised verb, like das Können."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Sein"
-          ],
           "purple": [
-            "Main",
             "existence"
-          ],
-          "green": [
-            "sein"
           ]
         },
         "examples": [
@@ -11289,7 +11254,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Human"
+                "existence"
               ]
             }
           },
@@ -11301,7 +11266,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "not"
+                "to be"
               ]
             }
           },
@@ -11325,7 +11290,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Existence"
+                "existence"
               ]
             }
           }
@@ -11532,25 +11497,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "sofern = ja/ar noteikumu, ka (nosacījums) — nejaukt ar cēloni.",
-        "'tā kā' (cēlonis) vācu valodā ir da/weil, ne sofern."
+        "if/provided that (condition) - not to be confused with cause.",
+        "'since' (cause) in German is da/weil, ne soufen."
       ],
       "important": [
-        "sofern ir nosacījuma, ne cēloņa savienojums.",
-        "Nepareizi: sofern = tā kā → Pareizi: da/weil = tā kā."
+        "if there is a conditional, not a causal connection.",
+        "Incorrect: soufen = as → Correct: da/weil = as."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sofern"
-          ],
           "purple": [
             "Main",
             "Main"
-          ],
-          "red": [
-            "da",
-            "weil"
           ]
         },
         "examples": [
@@ -11630,8 +11588,8 @@ const B2_WORDS = [
         "tip": [
           {
             "blue": [
-              "ja",
-              "ar noteikumu, ka"
+              "if/provided",
+              "if/provided"
             ]
           },
           {
@@ -11643,17 +11601,8 @@ const B2_WORDS = [
         ],
         "important": [
           {
-            "blue": [
-              "sofern"
-            ]
-          },
-          {
-            "red": [
-              "da",
-              "weil"
-            ],
             "purple": [
-              "tā kā"
+              "there"
             ]
           }
         ]
@@ -12124,7 +12073,7 @@ const B2_WORDS = [
     "de": "Tapferkeit",
     "de_article": "die",
     "de_plural": "die Tapferkeiten",
-    "lv": "Drosme • Drošsirdība",
+    "lv": "Courage • Bravery",
     "level": "B2"
   },
   {
@@ -12135,7 +12084,7 @@ const B2_WORDS = [
   },
   {
     "de": "telegrafieren",
-    "lv": "Telegrāfēt",
+    "lv": "To telegraph",
     "level": "B2"
   },
   {
@@ -12148,7 +12097,7 @@ const B2_WORDS = [
     "de": "Testperson",
     "de_article": "die",
     "de_plural": "die Testpersonen",
-    "lv": "Izmēģinājuma persona",
+    "lv": "Test subject",
     "level": "B2"
   },
   {
@@ -12160,19 +12109,19 @@ const B2_WORDS = [
     "de": "These",
     "de_article": "die",
     "de_plural": "die Thesen",
-    "lv": "Tēze",
+    "lv": "Thesis",
     "level": "B2"
   },
   {
     "de": "Tiefsinn",
     "de_article": "der",
-    "lv": "Dziļdomīgums",
+    "lv": "Depth of thought",
     "level": "B2"
   },
   {
     "de": "Tollwut",
     "de_article": "die",
-    "lv": "Trakumsērga",
+    "lv": "Rabies",
     "level": "B2"
   },
   {
@@ -12191,7 +12140,7 @@ const B2_WORDS = [
     "de": "Tor",
     "de_article": "der",
     "de_plural": "die Toren",
-    "lv": "Muļķis • Nelga",
+    "lv": "Fool • Trap",
     "level": "B2"
   },
   {
@@ -13010,7 +12959,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich vereinigen requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13338,7 +13287,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich verschein requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13387,7 +13336,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich versöhnen requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13436,7 +13385,7 @@ const B2_WORDS = [
       "rektion": "als + ko?",
       "explanation": "Sich verstellen requires the definite preposition als + ko?.",
       "forms": "als + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13552,7 +13501,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich verwundern requires the definite preposition über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -14231,7 +14180,7 @@ const B2_WORDS = [
       "rektion": "+ kam?",
       "explanation": "Sich widersetzen requires + for whom?.",
       "forms": "+ kam?",
-      "formsLabel": "Vadība:",
+      "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -14453,23 +14402,17 @@ const B2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Zuweisen emphasizes formal assignment—in work, administration, projects."
+            "text": "zuweisen emphasizes formal assignment—in work, administration, projects."
           }
         ]
       },
       "important": {
-        "text": "Zuweisen = to assign or assign officially. Perfect: assigned. Divisible: weise ... zu."
+        "text": "zuweisen = to assign or assign officially. Perfect: assigned. Divisible: weise ... zu."
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "zuweisen",
-            "weise",
-            "zu"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "assign"
           ]
         },
         "examples": [
@@ -14506,7 +14449,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "was"
+                "assigned"
               ]
             }
           }
@@ -14574,19 +14517,13 @@ const B2_WORDS = [
         ]
       },
       "important": {
-        "text": "Zuwider + dative = against, opposite. zuwider sein = dislike. It is not the same as wider."
+        "text": "zuwider + dative = against, opposite. zuwider sein = dislike. It is not the same as wider."
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "zuwider"
-          ],
           "purple": [
             "Main",
             "Main"
-          ],
-          "green": [
-            "wider"
           ]
         },
         "examples": [
@@ -14610,7 +14547,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "don't"
+                "don't like"
               ]
             }
           },
@@ -14622,7 +14559,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "don't"
+                "don't like"
               ]
             }
           }
@@ -14709,22 +14646,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
-        "Izmanto ändern, kad konteksts atbilst šai nozīmei."
+        "Change a specific matter or information - plan, deadline, address, decision.",
+        "Use ändern when the context fits this meaning."
       ],
       "important": [
-        "ändern = mainīt konkrētu lietu (Termin, Adresse, Plan).",
-        "Plāns, termiņš, adrese: ändern.",
-        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu."
+        "ändern = to change a specific thing (Term, Address, Plan).",
+        "Plan, term, address: ändern.",
+        "Change a specific matter or information - plan, deadline, address, decision."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "ändern"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "to change"
           ]
         },
         "examples": [
@@ -14762,7 +14695,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "change"
+                "we change"
               ]
             }
           },
@@ -14795,10 +14728,9 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "mainīt"
+              "Change"
             ]
-          },
-          {}
+          }
         ],
         "important": [
           {
@@ -14843,22 +14775,18 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
-        "Izmanto wechseln, kad konteksts atbilst šai nozīmei."
+        "To trade or exchange something for something else - money, clothes, work, school, subject.",
+        "Use wechseln when the context fits this meaning."
       ],
       "important": [
-        "wechseln = samainīt vai nomainīt pret citu (Geld, Schule, Thema).",
-        "Nauda, skola, darbs, tēma: wechseln.",
-        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu."
+        "wechseln = to exchange or exchange for another (Geld, Schule, Thema).",
+        "Money, school, work, topic: wechseln.",
+        "To trade or exchange something for something else - money, clothes, work, school, subject."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "wechseln"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "replace"
           ]
         },
         "examples": [
@@ -14900,12 +14828,8 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "samainīt"
-            ]
-          },
-          {
-            "purple": [
-              "nomainīt"
+              "trade",
+              "trade"
             ]
           }
         ],
@@ -14958,18 +14882,15 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz.",
-        "Izmanto bieten, kad konteksts atbilst šai nozīmei."
+        "Offer opportunities, courses, services, or benefits—that the location or programme provides.",
+        "Use beet when the context fits this meaning."
       ],
       "important": [
-        "bieten: Die Schule bietet Kurse. (nesadalāms)",
+        "bieten: Die Schule bietet Kurse. (indivisible)",
         "Ko vieta/programma sniedz: bieten."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "bieten"
-          ],
           "purple": [
             "Main",
             "Main"
@@ -14984,7 +14905,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "offers"
               ]
             }
           },
@@ -15009,7 +14930,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "offers"
               ]
             }
           },
@@ -15038,12 +14959,8 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "piedāvāt"
-            ]
-          },
-          {
-            "purple": [
-              "sniedz"
+              "Offer",
+              "Offer"
             ]
           }
         ],
@@ -15100,20 +15017,15 @@ const B2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Anbieten emphasizes that someone is actively offering something to a specific person: Ich biete dir ... an."
+            "text": "anbieten emphasizes that someone is actively offering something to a specific person: Ich biete dir ... an."
           }
         ]
       },
       "important": {
-        "text": "Anbieten = to offer actively. Divisible: beet ... an. Perfect: angeboten."
+        "text": "anbieten = to offer actively. Divisible: beet ... an. Perfect: angeboten."
       },
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "anbieten",
-            "biete",
-            "an"
-          ],
           "purple": [
             "Main"
           ]
@@ -15128,7 +15040,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "offer"
+                "I offer"
               ]
             }
           },
@@ -15153,7 +15065,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "offers"
               ]
             }
           }
@@ -15200,19 +15112,16 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība.",
-        "Izmanto fordern, kad konteksts atbilst šai nozīmei."
+        "Demand money, rights, changes, or obligations - an active claim.",
+        "Used by fordern when the context fits this meaning."
       ],
       "important": [
-        "fordern = pieprasīt / prasīt (bez ö).",
-        "Prasība, pieprasījums: fordern (bez ö).",
-        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība."
+        "fordern = demand / require (without ö).",
+        "Demand, request: fordern (without ö).",
+        "Demand money, rights, changes, or obligations - an active claim."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "fordern"
-          ],
           "purple": [
             "Main",
             "Main"
@@ -15240,7 +15149,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "demand"
+                "we demand"
               ]
             }
           },
@@ -15265,7 +15174,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "demand"
+                "we demand"
               ]
             }
           },
@@ -15286,12 +15195,8 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "pieprasīt"
-            ]
-          },
-          {
-            "purple": [
-              "prasīt"
+              "Demand",
+              "Demand"
             ]
           }
         ],
@@ -15342,22 +15247,19 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu.",
-        "Izmanto fördern, kad konteksts atbilst šai nozīmei."
+        "Promote development, support a person, project or process.",
+        "Use förden when the context fits this meaning."
       ],
       "important": [
-        "fördern = veicināt / atbalstīt (ar ö).",
-        "Veicināšana, atbalsts: fördern (ar ö).",
-        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu."
+        "förden = promote / support (with ö).",
+        "Promotion, support: förden (with ö).",
+        "Promote development, support a person, project or process."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "fördern"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "promote",
+            "to support"
           ]
         },
         "examples": [
@@ -15409,19 +15311,14 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "veicināt"
-            ]
-          },
-          {
-            "purple": [
-              "atbalstīt"
+              "promote"
             ]
           }
         ],
         "important": [
           {
             "green": [
-              "fördern"
+              "förden"
             ]
           }
         ]
@@ -15439,14 +15336,8 @@ const B2_WORDS = [
       "explanation": "Sich verlaufen means to get lost. It has no fixed preposition. Not to be confused with verlaufen.",
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sich verlaufen"
-          ],
           "purple": [
-            "Sich"
-          ],
-          "red": [
-            "verlaufen"
+            "get lost"
           ]
         }
       }
@@ -15463,15 +15354,9 @@ const B2_WORDS = [
       "explanation": "Verlaufen (bez sich) means to run or roll. Not synonymous with sich verlaufen (get lost).",
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "verlaufen"
-          ],
           "purple": [
             "Verlaufen",
             "Verlaufen"
-          ],
-          "red": [
-            "sich verlaufen"
           ]
         }
       }

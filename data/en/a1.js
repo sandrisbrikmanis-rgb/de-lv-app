@@ -56,7 +56,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "I speak german"
+          "lv": "I speak German"
         }
       ],
       "comparison": [
@@ -72,23 +72,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sprechen = runāt",
-        "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+        "sprechen = to speak",
+        "Uses sprechen when the context fits this meaning."
       ],
       "important": [
-        "sprechen = runāt.",
-        "Runāt, sarunāties vai lietot valodu."
+        "sprechen = to speak.",
+        "To speak, converse or use language."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "sprechen"
-          ],
           "purple": [
-            "Main"
-          ],
-          "orange": [
-            "Main"
+            "to speak"
           ]
         },
         "examples": [
@@ -129,7 +123,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "runāt"
+              "to speak"
             ]
           }
         ],
@@ -183,22 +177,16 @@ const A1_WORDS = [
       ],
       "tip": [
         "klein = mazs",
-        "Izmanto klein, kad konteksts atbilst šai nozīmei."
+        "Uses klein when the context suits this meaning."
       ],
       "important": [
-        "klein = mazs izmērā.",
+        "klein = small in sise.",
         "klein = mazs.",
-        "Mazs izmērā vai apjomā."
+        "Small in sise or scope."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "klein"
-          ],
           "purple": [
-            "Main"
-          ],
-          "green": [
             "Main"
           ]
         },
@@ -319,7 +307,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "At • At the surface • At the edge",
+      "translation": "At • To • Present",
       "explanation": "Used when something is near a wall, window, door, river, seashore or other edge/surface.",
       "examples": [
         {
@@ -456,25 +444,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "an"
-            ],
             "purple": [
-              "pie"
-            ],
-            "green": [
-              "virsmas",
-              "sienas",
-              "loga",
-              "malas"
-            ]
-          },
-          {
-            "yellow": [
-              "auf"
-            ],
-            "purple": [
-              "uz horizontālas virsmas"
+              "not"
             ]
           }
         ]
@@ -483,8 +454,8 @@ const A1_WORDS = [
         "text": "Atceries: pie sienas/loga/malas → an."
       },
       "important": [
-        "an nav jebkurš “pie”. Tas bieži nozīmē pie virsmas, sienas, loga vai malas.",
-        "Uz horizontālas virsmas parasti lieto auf."
+        "an is not just any 'at'. This often means next to a surface, wall, window or edge.",
+        "Auf is usually used on a horizontal surface."
       ]
     }
   },
@@ -659,47 +630,28 @@ const A1_WORDS = [
               "ab"
             ],
             "purple": [
-              "sākuma punkts"
+              "starting point"
             ],
             "green": [
-              "laikā",
-              "vietā"
+              "Remember",
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "ab"
-            ],
             "purple": [
-              "sākuma punktu"
-            ],
-            "green": [
-              "laikā",
-              "vietā"
-            ]
-          },
-          {
-            "yellow": [
-              "von"
-            ],
-            "red": [
-              "aus"
-            ],
-            "purple": [
-              "izcelsme",
-              "ārā no iekšienes"
+              "starting point"
             ]
           }
         ]
       },
       "tip": {
-        "text": "Atceries: sākuma punkts laikā/vietā → ab."
+        "text": "Remember: starting point in time/place → ab."
       },
       "important": [
-        "ab rāda sākuma punktu laikā vai vietā.",
-        "Ja doma ir izcelsme vai virziens ārā no iekšienes, biežāk lieto von vai aus."
+        "ab shows the starting point in time or place.",
+        "If the thought originates or moves outward from within, von or aus is more often used."
       ]
     }
   },
@@ -864,28 +816,18 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "green": [
+            "purple": [
+              "aber",
+              "aber",
+              "aber",
               "aber"
-            ],
-            "purple": [
-              "pretstatu",
-              "iebildi"
-            ]
-          },
-          {
-            "yellow": [
-              "sondern"
-            ],
-            "purple": [
-              "nevis",
-              "bet gan"
             ]
           }
         ]
       },
       "important": [
-        "aber rāda pretstatu vai iebildi.",
-        "Ja pretstats ir “nevis..., bet gan...”, vāciski parasti lieto sondern."
+        "aber shows the opposite or opposition.",
+        "When the opposite is \"not..., but...\", sondern is usually used in German."
       ]
     }
   },
@@ -956,7 +898,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: secinājums → also."
+        "text": "Remember: conclusion → also."
       },
       "sectionAccents": {
         "examples": [
@@ -1050,32 +992,21 @@ const A1_WORDS = [
               "also"
             ],
             "purple": [
-              "secinājums"
+              "conclusion"
             ]
           }
         },
         "important": [
           {
-            "green": [
-              "also"
-            ],
             "purple": [
-              "secinājumu"
-            ]
-          },
-          {
-            "green": [
-              "deshalb"
-            ],
-            "purple": [
-              "tāpēc"
+              "conclusion"
             ]
           }
         ]
       },
       "important": [
-        "also rāda secinājumu: no iepriekš teiktā izriet nākamā doma.",
-        "Latviešu “tāpēc” bieži var būt arī deshalb."
+        "also shows a conclusion: the next thought follows from what was said above.",
+        "The Latvian \"so\" can often also be deshalb."
       ]
     }
   },
@@ -1238,24 +1169,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "auch = arī",
-        "Izmanto auch, kad konteksts atbilst šai nozīmei."
+        "auch = also",
+        "Uses auch when the context suits this meaning."
       ],
       "important": [
-        "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
-        "auch = arī."
+        "Ich auch wünsche Ihnen is not the correct word order.",
+        "auch = also."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "auch",
-            "auch"
-          ],
           "purple": [
-            "Main"
-          ],
-          "green": [
-            "Main"
+            "also"
           ]
         },
         "examples": [
@@ -1294,7 +1218,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "also"
               ]
             }
           }
@@ -1302,7 +1226,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "arī"
+              "also"
             ]
           }
         ],
@@ -1357,7 +1281,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: uz virsmas/augšā → auf."
+        "text": "Remember: on the surface/above → auf."
       },
       "sectionAccents": {
         "examples": [
@@ -1446,44 +1370,27 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "uz"
+              "Remember"
             ],
             "green": [
-              "virsmas",
-              "augšā"
+              "Remember",
+              "above"
             ]
           }
         },
         "important": [
           {
-            "blue": [
+            "purple": [
+              "auf",
+              "auf",
               "auf"
-            ],
-            "purple": [
-              "uz"
-            ],
-            "green": [
-              "virsmas",
-              "augšpusē"
-            ]
-          },
-          {
-            "green": [
-              "an"
-            ],
-            "yellow": [
-              "in"
-            ],
-            "purple": [
-              "pie",
-              "iekšā"
             ]
           }
         ]
       },
       "important": [
-        "auf nav vienkārši jebkurš “uz”. Tas bieži nozīmē kustību vai atrašanos uz virsmas/augšpusē.",
-        "Ja kaut kas ir pie vertikālas virsmas, bieži vajag an; ja iekšā, vajag in."
+        "auf is not just any 'on'. It often means moving or being on the surface/above.",
+        "If something is near a vertical surface, you often need an; if in, you need in."
       ]
     }
   },
@@ -1568,7 +1475,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: ārā no iekšienes → aus."
+        "text": "Remember: out from the inside → aus."
       },
       "sectionAccents": {
         "examples": [
@@ -1662,33 +1569,22 @@ const A1_WORDS = [
               "aus"
             ],
             "purple": [
-              "ārā no iekšienes"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "green": [
+            "purple": [
+              "out from within",
               "aus"
-            ],
-            "purple": [
-              "ārā no iekšienes",
-              "izcelsmi"
-            ]
-          },
-          {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "sākuma punktu"
             ]
           }
         ]
       },
       "important": [
-        "aus parasti rāda kustību ārā no iekšienes vai izcelsmi.",
-        "Ja runa ir tikai par sākuma punktu laikā vai vietā, bieži lieto ab."
+        "aus usually shows movement out from within or origin.",
+        "If it is only about a starting point in time or place, ab is often used."
       ]
     }
   },
@@ -1780,26 +1676,18 @@ const A1_WORDS = [
       ],
       "tip": [
         "Atceries: auf + das → aufs (kurp?, kurp?).",
-        "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
+        "The full auf das is almost never spoken colloquially - aufs is used."
       ],
       "important": [
-        "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp? — kustība uz konkrētu vietu vai virsmu.",
-        "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
-        "Nesajauc ar an (pie sienas) vai ins (iekš telpas)."
+        "aufs = auf das, only with a noun of any gender, where? in inflection.",
+        "Reply to where? — movement to a specific place or surface.",
+        "On a horizontal surface, auf den is often used instead of aufs.",
+        "Not to be confused with an (on the wall) or ins (inside the room)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "aufs",
-            "auf das"
-          ],
           "purple": [
             "Aufs",
-            "Aufs",
-            "Aufs"
-          ],
-          "green": [
             "Aufs",
             "Aufs"
           ]
@@ -1992,53 +1880,16 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "aufs"
-            ],
             "purple": [
-              "kurp?"
-            ]
-          },
-          {
-            "purple": [
+              "kurp?",
               "auf das"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "aufs"
-            ],
             "purple": [
               "auf das"
-            ],
-            "green": [
-              "kurp?"
-            ]
-          },
-          {
-            "purple": [
-              "kurp?"
-            ],
-            "green": [
-              "kustība"
-            ]
-          },
-          {
-            "yellow": [
-              "auf den"
-            ],
-            "red": [
-              "aufs"
-            ]
-          },
-          {
-            "green": [
-              "an"
-            ],
-            "red": [
-              "ins"
             ]
           }
         ]
@@ -2149,32 +2000,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: atpūta ūdenī → baden; peldēšanas kustība → schwimmen."
+        "text": "Remember: rest in water → baden; swimming motion → schwimmen."
       },
       "important": [
-        "baden un schwimmen nav sinonīmi.",
-        "Latviski bieži saka vienkārši “peldēt”, bet vācu valodā jāizvēlas pēc situācijas."
+        "baden and schwimmen are not synonymous.",
+        "Latvian often says simply \"to swim\", but in German you have to choose according to the situation."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "baden"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "schwimmen",
-            "Main",
-            "sport"
+            "take a bath"
           ]
         },
         "examples": [
@@ -2201,9 +2036,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "swimming"
-              ],
-              "green": [
                 "swimming"
               ]
             }
@@ -2313,32 +2145,18 @@ const A1_WORDS = [
               "baden"
             ],
             "purple": [
-              "atpūta ūdenī"
+              "Remember"
             ],
             "red": [
               "schwimmen",
-              "peldēšanas kustība"
+              "swimming motion"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "baden"
-            ],
-            "red": [
-              "schwimmen"
-            ]
-          },
-          {
             "purple": [
-              "peldēt"
-            ],
-            "blue": [
-              "vācu valodā"
-            ],
-            "red": [
-              "situācijas"
+              "baden"
             ]
           }
         ]
@@ -2443,7 +2261,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: pie cilvēka/vietas/uzņēmuma → bei."
+        "text": "Remember: at person/place/company → bei."
       },
       "sectionAccents": {
         "examples": [
@@ -2507,9 +2325,9 @@ const A1_WORDS = [
               "bei"
             ],
             "green": [
-              "cilvēka",
-              "vietas",
-              "uzņēmuma"
+              "Remember",
+              "Remember",
+              "Remember"
             ]
           }
         },
@@ -2517,29 +2335,13 @@ const A1_WORDS = [
           {
             "purple": [
               "bei"
-            ],
-            "green": [
-              "cilvēka",
-              "vietas",
-              "uzņēmumā"
-            ]
-          },
-          {
-            "blue": [
-              "auf"
-            ],
-            "red": [
-              "bei"
-            ],
-            "purple": [
-              "uz virsmu"
             ]
           }
         ]
       },
       "important": [
-        "bei bieži nozīmē pie cilvēka, pie vietas vai uzņēmumā.",
-        "Ja runa ir par kustību uz virsmu, parasti vajag auf, nevis bei."
+        "bei often means at a person, at a place or at a company.",
+        "When it comes to moving to the surface, you usually need auf, not bei."
       ]
     }
   },
@@ -2665,7 +2467,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: robeža laikā/nosacījumā → bis."
+        "text": "Remember: border in time/condition → bis."
       },
       "sectionAccents": {
         "examples": [
@@ -2746,37 +2548,25 @@ const A1_WORDS = [
               "bis"
             ],
             "green": [
-              "robeža",
-              "laikā",
-              "nosacījumā"
+              "border",
+              "Remember",
+              "Remember"
             ]
           }
         },
         "important": [
           {
             "purple": [
+              "bis",
+              "bis",
               "bis"
-            ],
-            "green": [
-              "robežai",
-              "laika punktam"
-            ]
-          },
-          {
-            "blue": [
-              "bis jetzt",
-              "bis dass"
-            ],
-            "purple": [
-              "līdz šim",
-              "līdz tam, kamēr"
             ]
           }
         ]
       },
       "important": [
-        "bis = līdz robežai vai laika punktam.",
-        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr."
+        "bis = to a limit or point in time.",
+        "bis jetzt = until now; bis dass = until."
       ]
     }
   },
@@ -2830,22 +2620,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu."
+        "Little bitte = please (Bitte schön!, Kaffee, bitte). die Bitte with a capital letter = request (eine Bitte, meine Bitte).",
+        "Courtesy in lower case. Used to be polite - please."
       ],
       "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
+        "bitte is lowercase - it's a polite word, not a noun.",
+        "die Bitte with a capital letter and the article die is a noun.",
+        "Plural: die Bitten (requests).",
         "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "bitte"
-          ],
           "purple": [
-            "Main"
+            "please"
           ]
         },
         "examples": [
@@ -2858,7 +2645,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Please"
+                "please"
               ]
             }
           },
@@ -2871,7 +2658,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Please"
+                "please"
               ]
             }
           },
@@ -2884,7 +2671,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "One"
+                "please"
               ]
             }
           },
@@ -2897,7 +2684,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "May"
+                "please"
               ]
             }
           },
@@ -2923,7 +2710,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "lūdzu"
+              "please"
             ]
           }
         ],
@@ -2984,27 +2771,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
+        "Little bitte = please (Bitte schön!, Kaffee, bitte). die Bitte with a capital letter = request (eine Bitte, meine Bitte).",
+        "A noun with the article die and a capital letter. A specific request or request."
       ],
       "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
+        "bitte is lowercase - it's a polite word, not a noun.",
+        "die Bitte with a capital letter and the article die is a noun.",
+        "Plural: die Bitten (requests).",
         "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "die Bitte",
-            "bitte"
-          ],
           "purple": [
-            "Main"
-          ],
-          "yellow": [
-            "Bitte",
-            "Bitten"
+            "a request"
           ]
         },
         "examples": [
@@ -3073,7 +2852,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "lūgums"
+              "Little"
             ]
           }
         ],
@@ -3174,24 +2953,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen."
+        "text": "Remember: don't go away → bleiben; goes away on foot → gehen."
       },
       "important": [
-        "bleiben nozīmē palikt, nevis gaidīt.",
-        "Ich bleibe hier = es palieku šeit; Ich warte hier = es gaidu šeit."
+        "bleiben means stay, not wait.",
+        "Ich bleibe hier = I stay here; Ich warte hier = I'm waiting here."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "bleiben"
-          ],
           "purple": [
             "Main",
             "Main"
-          ],
-          "red": [
-            "gehen",
-            "fahren"
           ]
         },
         "examples": [
@@ -3322,7 +3094,7 @@ const A1_WORDS = [
               "bleiben"
             ],
             "purple": [
-              "neiet prom"
+              "Remember"
             ],
             "red": [
               "gehen"
@@ -3331,22 +3103,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "bleiben"
-            ],
             "purple": [
-              "palikt"
-            ],
-            "green": [
-              "gaidīt"
-            ]
-          },
-          {
-            "blue": [
-              "bleibe"
-            ],
-            "green": [
-              "warte"
+              "bleiben"
             ]
           }
         ]
@@ -3463,25 +3221,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: pārvieto pie kāda → bringen; paņem sev → nehmen."
+        "text": "Remember: move to someone → bringen; take for yourself → nehmen."
       },
       "important": [
-        "bringen rāda virzienu pie kāda vai uz kādu vietu.",
-        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam."
+        "bringen shows direction to someone or to a place.",
+        "nehmen means to take, but not necessarily to deliver to another."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "bringen"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "nehmen",
-            "holen"
+            "deliver"
           ]
         },
         "examples": [
@@ -3497,9 +3246,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "Bring"
-              ],
-              "yellow": [
-                "Bring"
               ]
             }
           },
@@ -3514,10 +3260,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "will"
-              ],
-              "green": [
-                "will"
+                "I will take you"
               ]
             }
           },
@@ -3532,9 +3275,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "takes"
-              ],
-              "yellow": [
                 "takes"
               ]
             }
@@ -3639,26 +3379,18 @@ const A1_WORDS = [
               "bringen"
             ],
             "purple": [
-              "pārvieto pie kāda"
+              "move to someone"
             ],
             "red": [
               "nehmen",
-              "paņem sev"
+              "take for yourself"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "bringen"
-            ],
             "purple": [
-              "virzienu pie kāda"
-            ]
-          },
-          {
-            "red": [
-              "nehmen"
+              "direction to someone"
             ]
           }
         ]
@@ -3817,21 +3549,11 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: vispārīgs tur/te → da."
+        "text": "Remember: general there/te → da."
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "da"
-          ],
           "purple": [
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main"
-          ],
-          "yellow": [
             "Main"
           ]
         },
@@ -3962,7 +3684,7 @@ const A1_WORDS = [
               "da"
             ],
             "purple": [
-              "tur"
+              "Remember"
             ],
             "green": [
               "te"
@@ -3971,25 +3693,9 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "da"
-            ],
             "purple": [
-              "vietas"
-            ]
-          },
-          {
-            "yellow": [
-              "hier"
-            ],
-            "red": [
-              "dort"
-            ],
-            "green": [
-              "šeit"
-            ],
-            "purple": [
-              "tur"
+              "general",
+              "general"
             ]
           }
         ]
@@ -4006,7 +3712,7 @@ const A1_WORDS = [
         "green": [
           "te",
           "Te",
-          "šeit"
+          "here"
         ],
         "yellow": [
           "hier"
@@ -4017,8 +3723,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "da ir vispārīgs vietas vārds.",
-        "hier ir konkrēti “šeit”, dort ir tālāks “tur”."
+        "da is a general place name.",
+        "hier is concrete 'here', dort is further 'there'."
       ]
     }
   },
@@ -4155,30 +3861,15 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "das"
-            ],
             "purple": [
-              "vidus dzimtes artikulu"
-            ]
-          },
-          {
-            "blue": [
-              "das"
-            ],
-            "purple": [
-              "artikuls",
-              "vietniekvārds"
-            ],
-            "red": [
-              "dass"
+              "level"
             ]
           }
         ]
       },
       "important": [
-        "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
-        "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
+        "At A1 level, das is first studied as an article of the middle gender.",
+        "das is not the same as dass - das can be an article or a pronoun, dass means 'that'."
       ]
     }
   },
@@ -4343,32 +4034,16 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
+            "purple": [
+              "dass",
               "dass"
-            ],
-            "purple": [
-              "ka"
-            ],
-            "green": [
-              "palīgteikumu"
-            ]
-          },
-          {
-            "red": [
-              "das"
-            ],
-            "yellow": [
-              "artikuls"
-            ],
-            "purple": [
-              "tas"
             ]
           }
         ]
       },
       "important": [
-        "dass nozīmē “ka” un ievada palīgteikumu.",
-        "To nejaukt ar das, kas var būt artikuls vai “tas”."
+        "dass means \"that\" and introduces an auxiliary clause.",
+        "Not to be confused with das, which can be an article or 'that'."
       ]
     }
   },
@@ -4413,7 +4088,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: vīriešu dzimte → der."
+        "text": "Remember: masculine → fits."
       },
       "sectionAccents": {
         "examples": [
@@ -4454,33 +4129,24 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "der"
+              "Remember"
             ],
             "purple": [
-              "vīriešu dzimte"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "der"
-            ],
             "purple": [
-              "vīriešu dzimtes artikulu"
-            ]
-          },
-          {
-            "red": [
-              "Vietniekvārda",
-              "relatīvā"
+              "level"
             ]
           }
         ]
       },
       "important": [
-        "A1 līmenī der vispirms mācies kā vīriešu dzimtes artikulu.",
-        "Vietniekvārda un relatīvā lietojumi nāk vēlāk."
+        "At A1 level, you should first learn as a masculine article.",
+        "Pronoun and relative uses come later."
       ]
     }
   },
@@ -4519,7 +4185,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: sieviešu dzimte → die."
+        "text": "Remember: feminine → die."
       },
       "sectionAccents": {
         "examples": [
@@ -4575,35 +4241,22 @@ const A1_WORDS = [
               "die"
             ],
             "purple": [
-              "sieviešu dzimte"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "die"
-            ],
             "purple": [
-              "sieviešu dzimtes artikulu"
-            ]
-          },
-          {
-            "blue": [
-              "die"
-            ],
-            "green": [
-              "Daudzskaitlī"
-            ],
-            "purple": [
-              "visām dzimtēm"
+              "level",
+              "level"
             ]
           }
         ]
       },
       "important": [
-        "A1 līmenī die vispirms mācies kā sieviešu dzimtes artikulu.",
-        "Daudzskaitlī die lieto arī visām dzimtēm."
+        "At A1 level, die is first studied as a feminine article.",
+        "The plural die is also used for all genders."
       ]
     }
   },
@@ -4638,7 +4291,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: šis + vīriešu dzimte → dieser."
+        "text": "Remember: this + masculine → dieser."
       },
       "sectionAccents": {
         "examples": [
@@ -4650,7 +4303,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "is"
+                "This"
               ]
             }
           },
@@ -4703,41 +4356,24 @@ const A1_WORDS = [
               "dieser"
             ],
             "purple": [
-              "šis"
+              "Remember"
             ],
             "green": [
-              "vīriešu dzimte"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "dieser"
-            ],
-            "green": [
-              "diese"
-            ],
-            "yellow": [
-              "dieses"
-            ],
             "purple": [
-              "dzimtes"
-            ]
-          },
-          {
-            "red": [
-              "diese"
-            ],
-            "green": [
-              "Daudzskaitlī"
+              "dieser"
             ]
           }
         ]
       },
       "important": [
-        "dieser, diese un dieses mainās pēc dzimtes.",
-        "Daudzskaitlī forma atkal ir diese."
+        "dieser, diese and dieses change by gender.",
+        "The plural form is again diese."
       ]
     }
   },
@@ -4845,7 +4481,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: nekonkrēts viens/kāds → ein."
+        "text": "Remember: non-specific one/someone → ein."
       },
       "sectionAccents": {
         "examples": [
@@ -4918,11 +4554,11 @@ const A1_WORDS = [
               "ein"
             ],
             "purple": [
-              "viens",
-              "kāds"
+              "Remember",
+              "someone"
             ],
             "green": [
-              "nekonkrēts"
+              "Remember"
             ]
           }
         },
@@ -4942,14 +4578,14 @@ const A1_WORDS = [
               "das"
             ],
             "green": [
-              "konkrēti zināma"
+              "the"
             ]
           }
         ]
       },
       "important": [
         "ein nav noteiktais artikuls.",
-        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das."
+        "If the matter is already concretely known, der, die or das is often needed."
       ]
     }
   },
@@ -5024,29 +4660,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus."
+        "text": "Remember: food → ice cream; winter/water → ice."
       },
       "important": [
-        "Latviski ledus un saldējums ir divi dažādi vārdi, bet vāciski abiem bieži lieto das Eis.",
-        "Konteksts ir galvenais: ēdiens nozīmē saldējumu, auksta virsma vai ūdens nozīmē ledu."
+        "In Latvian, ice and ice cream are two different words, but in German, das Eis is often used for both.",
+        "Context is key: food means ice cream, cold surface or water means ice."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Eis",
-            "Eis"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "dessert"
-          ],
-          "yellow": [
-            "Main"
+            "ice cream"
           ]
         },
         "examples": [
@@ -5058,7 +4681,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eat"
+                "ice cream"
               ]
             }
           },
@@ -5070,7 +4693,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "you"
+                "ice cream"
               ]
             }
           },
@@ -5082,9 +4705,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "winter"
-              ],
-              "green": [
                 "winter"
               ]
             }
@@ -5109,10 +4729,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "I'll"
-              ],
-              "yellow": [
-                "I'll"
+                "ice cream"
               ]
             }
           }
@@ -5199,35 +4816,21 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "purple": [
-              "saldējums",
-              "ledus"
+              "ice cream",
+              "Remember"
             ],
             "green": [
-              "ēdiens",
-              "ziema",
-              "ūdens"
+              "food",
+              "Remember",
+              "water"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "das Eis"
-            ],
             "purple": [
-              "ledus",
-              "saldējums"
-            ]
-          },
-          {
-            "purple": [
-              "saldējumu",
-              "ledu"
-            ],
-            "green": [
-              "ēdiens",
-              "auksta virsma",
-              "ūdens"
+              "ice cream",
+              "ice cream"
             ]
           }
         ]
@@ -5444,36 +5047,16 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
             "purple": [
-              "tikai"
-            ]
-          },
-          {
-            "blue": [
+              "erst",
               "erst"
-            ],
-            "green": [
-              "laiku",
-              "secību"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "purple": [
-              "daudzumu"
             ]
           }
         ]
       },
       "important": [
-        "erst un nur abi var skanēt kā “tikai”, bet nav viens un tas pats.",
-        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu."
+        "erst and nur can both sound like \"only\" but are not the same.",
+        "erst often speaks of time, sequence, or yet to reach a point; nur limits the quantity."
       ]
     }
   },
@@ -5518,11 +5101,11 @@ const A1_WORDS = [
         }
       ],
       "info": [
-        "Latviešu “es” = vācu “ich”",
-        "Vācu “es” = tas; tā; bezpersoniska forma"
+        "Latvian \"es\" = German \"ich\"",
+        "German \"I\" = it; so; impersonal form"
       ],
       "tip": {
-        "text": "Atceries: latviešu “es” → ich, nevis vācu es."
+        "text": "Remember: Latvian \"es\" → ich, not German es."
       },
       "sectionAccents": {
         "examples": [
@@ -5610,30 +5193,15 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "es"
-            ],
             "purple": [
-              "es"
-            ]
-          },
-          {
-            "red": [
-              "ich"
-            ],
-            "blue": [
-              "es"
-            ],
-            "purple": [
-              "tas",
-              "tā"
+              "The"
             ]
           }
         ]
       },
       "important": [
-        "Vācu es nav latviešu “es”.",
-        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots."
+        "The German self is not the Latvian self.",
+        "Latvian \"I\" is ich in German; German es often means it/it or is not translated."
       ]
     }
   },
@@ -5704,26 +5272,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: lieta → kaut kas; pakāpe → nedaudz."
+        "text": "Remember: thing → something; degree → slightly."
       },
       "important": [
-        "etwas nav tas pats, kas nichts: etwas nozīmē, ka kaut kas ir, bet nichts nozīmē nekas.",
-        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert."
+        "etwas is not the same as nichts: etwas means something, but nichts means nothing.",
+        "In Latvian, something sounds better than something, for example: etwas trinken = to drink something."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "etwas"
-          ],
           "purple": [
             "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main"
-          ],
-          "yellow": [
             "Main",
             "Main"
           ]
@@ -5749,9 +5307,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "you"
-              ],
-              "yellow": [
                 "you"
               ]
             }
@@ -5875,37 +5430,23 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "purple": [
-              "kaut kas",
-              "nedaudz"
+              "Remember",
+              "Remember"
             ],
             "yellow": [
-              "lieta"
+              "Remember"
             ],
             "green": [
-              "pakāpe"
+              "degree"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "etwas"
-            ],
             "purple": [
-              "kaut kas"
-            ],
-            "red": [
-              "nichts",
-              "nekas"
-            ]
-          },
-          {
-            "blue": [
+              "etwas",
+              "etwas",
               "etwas"
-            ],
-            "purple": [
-              "kaut ko",
-              "kaut kas"
             ]
           }
         ]
@@ -5961,13 +5502,13 @@ const A1_WORDS = [
         }
       ],
       "info": [
-        "ihr = jūs (teikuma priekšmeta forma)",
-        "euch = jūs (kurp? forma) / jums (kam? forma)",
-        "euer = jūsu (piederības forma)"
+        "ihr = you (subject form of the sentence)",
+        "euch = you (where? form) / you (whom? form)",
+        "euer = your (possessive form)"
       ],
       "tip": {
-        "text": "“euch” atbild uz jautājumu “kam?” vai ir tiešais papildinājums teikumos ar “jūs”.",
-        "example": "Es jums palīdzu. = Ich helfe euch. Es redzu jūs. = Ich sehe euch. Es stāstu jums. = Ich erzähle euch."
+        "text": "\"euch\" answers the question \"to whom?\" or is the direct complement in sentences with \"you\".",
+        "example": "I help you. = Ich helfe euch. i see you = Ich sehe euch. I'm telling you. = Ich erzähle euch."
       },
       "accents": {
         "blue": [
@@ -6051,11 +5592,11 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: transportlīdzeklis → fahren; kājām → gehen."
+        "text": "Remember: vehicle → fahren; on foot → gehen."
       },
       "important": {
-        "text": "Fahren ≠ just “drive”",
-        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
+        "text": "fahren ≠ tikai “braukt”",
+        "example": "In German, the same verb often means: to drive • to drive • to take away depending on the context."
       },
       "accents": {
         "blue": [
@@ -6071,11 +5612,11 @@ const A1_WORDS = [
         ],
         "green": [
           "transportu",
-          "transportlīdzekli",
+          "vehicle",
           "auto",
           "autobusu",
           "vilcienu",
-          "velosipēdu"
+          "bicycle"
         ],
         "yellow": [
           "gehen",
@@ -6088,24 +5629,10 @@ const A1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "fahren"
-          ],
           "purple": [
             "Main",
             "Main",
             "Main"
-          ],
-          "green": [
-            "Main",
-            "Main",
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "yellow": [
-            "gehen",
-            "laufen"
           ]
         },
         "examples": [
@@ -6118,9 +5645,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "I'm"
-              ],
-              "green": [
-                "Berlin"
               ]
             }
           },
@@ -6135,9 +5659,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "drive"
-              ],
-              "green": [
                 "drive"
               ]
             }
@@ -6155,10 +5676,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "take"
-              ],
-              "green": [
-                "take",
-                "take"
               ]
             }
           },
@@ -6174,11 +5691,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "will"
-              ],
-              "green": [
-                "will",
-                "will"
+                "I will take you"
               ]
             }
           },
@@ -6193,9 +5706,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "are"
-              ],
-              "green": [
                 "are"
               ]
             }
@@ -6300,8 +5810,8 @@ const A1_WORDS = [
               "gehen"
             ],
             "green": [
-              "transportlīdzeklis",
-              "kājām"
+              "vehicle",
+              "on foot"
             ]
           }
         },
@@ -6321,8 +5831,8 @@ const A1_WORDS = [
               ],
               "purple": [
                 "braukt",
-                "vest",
-                "aizvest"
+                "fahren",
+                "fahren"
               ]
             }
           }
@@ -6473,26 +5983,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."
+        "text": "Remember: lost thing → finden; opinion → ich finde..."
       },
       "important": [
         "finden nav tikai “atrast”.",
-        "Ich finde das gut nozīmē “man tas šķiet labi”, nevis “es to atrodu labi”."
+        "Ich finde das gut means 'I find it good', not 'I find it good'."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "finden"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main"
+            "to consider",
+            "to think"
           ]
         },
         "examples": [
@@ -6528,7 +6029,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "seems"
+                "it seems"
               ]
             }
           },
@@ -6629,29 +6130,15 @@ const A1_WORDS = [
               "finden"
             ],
             "purple": [
-              "pazaudēta lieta",
-              "viedoklis"
+              "Remember",
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "finden"
-            ],
             "purple": [
               "atrast"
-            ]
-          },
-          {
-            "blue": [
-              "finde"
-            ],
-            "purple": [
-              "šķiet"
-            ],
-            "red": [
-              "atrod"
             ]
           }
         ]
@@ -6768,20 +6255,16 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ar piederības vārdu (meine/deine/seine Frau) gandrīz vienmēr domāta sieva (laulātā).",
-        "Bez piederības vārda (die Frau, eine Frau) parasti domāta sieviete."
+        "The possessive pronoun (meine/deine/seine Frau) almost always means wife.",
+        "Without a possessive (die Frau, eine Frau) usually means a woman."
       ],
       "important": [
-        "die Frau = sieviete VAI sieva — atkarībā no konteksta.",
+        "die Frau = woman OR wife - depending on the context.",
         "meine Frau = mana sieva (ne 'mana sieviete').",
-        "Daudzskaitlī: die Frauen."
+        "Plural: die Frauen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "die Frau",
-            "Frau"
-          ],
           "purple": [
             "Main",
             "Main"
@@ -6863,40 +6346,17 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "green": [
-              "meine",
-              "deine",
-              "seine Frau"
-            ],
             "purple": [
-              "sieva"
-            ]
-          },
-          {
-            "blue": [
-              "die Frau",
-              "eine Frau"
-            ],
-            "purple": [
-              "sieviete"
+              "The",
+              "The"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "sieviete",
-              "sieva"
-            ]
-          },
-          {
-            "green": [
-              "meine Frau"
-            ]
-          },
-          {
-            "blue": [
-              "die Frauen"
+              "die",
+              "die"
             ]
           }
         ]
@@ -7038,21 +6498,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "für vienmēr + akuzatīvs — neatkarīgi no nozīmes.",
-        "Saņēmējs/nolūks → priekš; apmaiņa/iemesls/maksa → par."
+        "für always + accusative - regardless of meaning.",
+        "Recipient/intent → for; exchange/reason/fee → for."
       ],
       "important": [
-        "für + Akkusativ vienmēr, piemēram für mich, für dich, für das Kind.",
-        "danke für / bezahlen für = 'par', ne 'priekš'."
+        "für + Akkusativ always, eg für mich, für dich, für das Kind.",
+        "danke für / bezahlen für = 'for', not 'before'."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "für"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "for"
           ]
         },
         "examples": [
@@ -7064,7 +6520,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "It's"
+                "for"
               ]
             }
           },
@@ -7112,7 +6568,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "for"
               ]
             }
           },
@@ -7124,38 +6580,22 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "That's"
+                "for today"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "für"
-            ]
-          },
-          {
             "purple": [
-              "priekš",
-              "par"
+              "for"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "für",
-              "Akkusativ"
-            ]
-          },
-          {
-            "green": [
-              "danke für",
-              "bezahlen für"
-            ],
             "purple": [
-              "par"
+              "für"
             ]
           }
         ]
@@ -7257,25 +6697,15 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: dot prom → geben; paņemt sev → nehmen."
+        "text": "Remember: give away → geben; take for yourself → nehmen."
       },
       "important": [
-        "geben un nehmen ir pretēji virzieni.",
-        "bekommen nozīmē saņemt, nevis dot."
+        "geben and nehmen are opposite directions.",
+        "bekommen means to receive, not to give."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "geben"
-          ],
           "purple": [
-            "Main"
-          ],
-          "red": [
-            "nehmen",
-            "bekommen"
-          ],
-          "green": [
             "Main"
           ]
         },
@@ -7292,9 +6722,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "Give"
-              ],
-              "yellow": [
-                "Give"
               ]
             }
           },
@@ -7309,9 +6736,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "give"
-              ],
-              "yellow": [
                 "give"
               ]
             }
@@ -7432,32 +6856,19 @@ const A1_WORDS = [
               "geben"
             ],
             "purple": [
-              "dot prom"
+              "Remember"
             ],
             "red": [
               "nehmen",
-              "paņemt sev"
+              "take for yourself"
             ]
           }
         },
         "important": [
           {
-            "blue": [
+            "purple": [
+              "opposite directions",
               "geben"
-            ],
-            "red": [
-              "nehmen"
-            ],
-            "purple": [
-              "pretēji virzieni"
-            ]
-          },
-          {
-            "yellow": [
-              "bekommen"
-            ],
-            "purple": [
-              "saņemt"
             ]
           }
         ]
@@ -7614,21 +7025,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par laiku (pēc brīža) → tūlīt.",
-        "Par salīdzinājumu (tāds pats) → vienāds."
+        "In a while (in a moment) → now.",
+        "For comparison (same) → same."
       ],
       "important": [
-        "gleich = tūlīt (laiks) VAI vienāds (salīdzinājums).",
-        "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
+        "gleich = immediately (time) OR equal (comparison).",
+        "Bis gleich! = see you soon! — a common parting phrase."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "gleich"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "immediately",
+            "equal"
           ]
         },
         "examples": [
@@ -7708,25 +7116,20 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "tūlīt"
+              "while"
             ]
           },
           {
             "green": [
-              "vienāds"
+              "while"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "tūlīt",
-              "vienāds"
-            ]
-          },
-          {
-            "blue": [
-              "Bis gleich!"
+              "immediately",
+              "equal"
             ]
           }
         ]
@@ -7806,22 +7209,16 @@ const A1_WORDS = [
       ],
       "tip": [
         "groß = liels",
-        "Izmanto groß, kad konteksts atbilst šai nozīmei."
+        "Use groß when the context fits this meaning."
       ],
       "important": [
-        "Cilvēkam Er ist groß nozīmē garš augumā.",
+        "For a person, Er ist groß means tall.",
         "groß = liels.",
-        "Liels izmērā vai cilvēkam - garš augumā."
+        "Large in sise or for a person - tall in stature."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "groß"
-          ],
           "purple": [
-            "Main"
-          ],
-          "green": [
             "Main"
           ]
         },
@@ -7985,25 +7382,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "gut bez artikula ir īpašības/apstākļa vārds — labs/labi.",
-        "das Gut ar lielo burtu un artikulu ir pavisam cits vārds — lietvārds (īpašums, muiža)."
+        "gut without an article is an adjective/adverb - good/well.",
+        "das Gut with a capital letter and an article is a completely different word — a noun (property, manor)."
       ],
       "important": [
-        "gut = labs/labi (īpašības/apstākļa vārds).",
-        "das Gut = īpašums/muiža (lietvārds) — nejauc ar gut.",
-        "Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma."
+        "gut = good/well (adjective/adjective).",
+        "das Gut = property/manor (noun) - not to be confused with gut.",
+        "Guten Tag/Morgen/Abend - gut changes ending after inflection."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "gut"
-          ],
           "purple": [
             "Main",
             "Main"
-          ],
-          "green": [
-            "das Gut"
           ]
         },
         "examples": [
@@ -8051,7 +7442,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Good"
+                "good morning"
               ]
             }
           },
@@ -8179,21 +7570,14 @@ const A1_WORDS = [
         "text": "Atceries: Ich habe → man ir."
       },
       "important": [
-        "Latviski „man ir” = vāciski Ich habe + akuzatīvs. Ne lietot datīvu: nepareizi *mir habe.",
-        "Ar sein un datīvu: Mir ist kalt. = Man ir auksti. (tas nav haben!)",
-        "Perfektā: Ich habe gelernt = es esmu mācījies."
+        "Latvian \"I have\" = German Ich habe + accusative. Do not use the dative case: wrong *mir habe.",
+        "With sein and dative: Mir ist kalt. = I am cold. (it's not haben!)",
+        "Perfect: Ich habe gelernt = I have learned."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "haben",
-            "Ich habe"
-          ],
           "purple": [
             "Main",
-            "Main"
-          ],
-          "yellow": [
             "Main"
           ]
         },
@@ -8230,7 +7614,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "are"
+                "we are hungry"
               ]
             }
           },
@@ -8242,7 +7626,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "did"
+                "i did"
               ]
             }
           }
@@ -8331,16 +7715,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "habe"
-            ],
             "purple": [
-              "man ir"
-            ]
-          },
-          {
-            "blue": [
-              "habe"
+              "Latvian"
             ]
           }
         ]
@@ -8421,26 +7797,19 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: rokā → halten; transports → hält/apstājas."
+        "text": "Remember: in hand → halten; transport → hält/stops."
       },
       "important": [
-        "halten nav tikai “turēt”. Ar transportu tas bieži nozīmē apstāties.",
-        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”."
+        "halten is not just 'hold'. With transport, this often means stopping.",
+        "Ich halte das für... is a phrase of opinion: \"I consider it as...\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "halten"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "transport",
-            "Main"
+            "hold",
+            "to stop",
+            "to stop",
+            "consider as"
           ]
         },
         "examples": [
@@ -8464,7 +7833,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "stops"
               ]
             }
           },
@@ -8476,7 +7845,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Please"
+                "stop"
               ]
             }
           },
@@ -8577,30 +7946,18 @@ const A1_WORDS = [
               "hält"
             ],
             "purple": [
-              "rokā",
-              "apstājas"
+              "Remember",
+              "stops"
             ],
             "green": [
-              "transports"
+              "transport"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "halten"
-            ],
             "purple": [
-              "turēt",
-              "apstāties"
-            ]
-          },
-          {
-            "blue": [
-              "halte"
-            ],
-            "purple": [
-              "uzskatu"
+              "hold"
             ]
           }
         ]
@@ -8731,19 +8088,13 @@ const A1_WORDS = [
         "text": "Atceries: Ich heiße... → mani sauc..."
       },
       "important": [
-        "Wie heißt du? nozīmē “Kā tevi sauc?”, nevis burtiski “kā tu saucies?”.",
-        "Was heißt das? bieži nozīmē “Ko tas nozīmē?”."
+        "Wie heißt du? means \"What's your name?\", not literally \"what's your name?\".",
+        "Was heißt das? often means \"What does it mean?\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "heißen",
-            "Ich heiße",
-            "Wie heißt du"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "mean"
           ]
         },
         "examples": [
@@ -8791,7 +8142,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "What"
+                "mean"
               ]
             }
           }
@@ -8885,19 +8236,9 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "Wie heißt du"
-            ],
             "purple": [
-              "kā tevi sauc"
-            ]
-          },
-          {
-            "blue": [
-              "Was heißt das"
-            ],
-            "purple": [
-              "ko tas nozīmē"
+              "Wie",
+              "Wie"
             ]
           }
         ]
@@ -8992,22 +8333,16 @@ const A1_WORDS = [
       ],
       "tip": [
         "hoch = augsts",
-        "Izmanto hoch, kad konteksts atbilst šai nozīmei."
+        "Use hoch when the context fits this meaning."
       ],
       "important": [
-        "Cenām un līmenim bieži lieto hoch.",
+        "Hoch is often used for prices and level.",
         "hoch = augsts.",
-        "Augsts vertikāli, līmenī vai augstumā."
+        "High vertically, level or height."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "hoch"
-          ],
           "purple": [
-            "Main"
-          ],
-          "orange": [
             "Main"
           ]
         },
@@ -9129,25 +8464,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Dzirdēt skaņu vai klausīties mūziku.",
-        "Izmanto hören, kad konteksts atbilst šai nozīmei."
+        "Hear a sound or listen to music.",
+        "Use hören when the context fits this meaning."
       ],
       "important": [
-        "hören = dzirdēt/klausīties skaņu.",
-        "Dzirdēt skaņu vai klausīties mūziku."
+        "hören = to hear/listen to a sound.",
+        "Hear a sound or listen to music."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "hören"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main"
+            "to hear"
           ]
         },
         "examples": [
@@ -9184,12 +8511,8 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "dzirdēt"
-            ]
-          },
-          {
-            "purple": [
-              "klausīties"
+              "Hear",
+              "Hear"
             ]
           }
         ],
@@ -9266,23 +8589,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "ihr ar darbības vārda dsk. formu (kommt, habt) = jūs; ihr blakus vārdam kā datīvs vai piederība = viņai/viņas.",
-        "Pārbaudi: Habt ihr...? / Kommt ihr...? = jūs; Ich gebe ihr... / ihr Buch = viņai/viņas."
+        "ihr with the verb dsk. form (kommt, habt) = you; ihr next to a word as a dative or possessive = her/hers.",
+        "Check: Habt ihr...? / Kommt ihr...? = you; Ich gebe ihr... / ihr Buch = for her/hers."
       ],
       "important": [
-        "ihr = jūs (uzruna vairākiem) VAI viņai (datīvs) VAI viņas (piederība) — pēc konteksta.",
-        "Pieklājīgā uzruna vienmēr Sie ar lielo burtu, nevis ihr.",
-        "Nepareizi: Ihr (pieklājīgi) → Pareizi: Sie."
+        "ihr = you (address to several) OR her (dative) OR her (possessive) - depending on the context.",
+        "The polite address is always Sie with a capital letter, not ihr.",
+        "Incorrect: Ihr (polite) → Correct: Sie."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "ihr"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
+            "you",
+            "to her"
           ]
         },
         "examples": [
@@ -9294,7 +8613,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Are"
+                "you"
               ]
             }
           },
@@ -9318,7 +8637,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Where"
+                "you"
               ]
             }
           },
@@ -9354,7 +8673,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "It's"
+                "her"
               ]
             }
           }
@@ -9374,22 +8693,7 @@ const A1_WORDS = [
         "important": [
           {
             "purple": [
-              "jūs",
-              "viņai",
-              "viņas"
-            ]
-          },
-          {
-            "blue": [
-              "Sie"
-            ]
-          },
-          {
-            "blue": [
-              "Sie"
-            ],
-            "red": [
-              "Ihr"
+              "you"
             ]
           }
         ]
@@ -9474,25 +8778,17 @@ const A1_WORDS = [
       ],
       "tip": [
         "Atceries: in + dem → im (kam?, kur?).",
-        "Kurp? → ins; kur? → im — nesajauc šos divus!"
+        "Where? → ins; where? → im - don't confuse these two!"
       ],
       "important": [
-        "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Atbild uz kur?, nevis kurp? — atrašanās vieta, nevis kustība.",
-        "Ar mēnešiem un gadalaikiem: im März, im Herbst.",
-        "Sieviešu dzimtei: in der Schule, nevis im Schule."
+        "im = in dem, only with a masculine or neuter noun for whom? in inflection.",
+        "Answers to where?, not where? — location, not movement.",
+        "With months and seasons: im März, im Herbst.",
+        "For women: in der Schule, not im Schule."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "im",
-            "in dem"
-          ],
           "purple": [
-            "short"
-          ],
-          "green": [
-            "short",
             "short"
           ]
         },
@@ -9505,7 +8801,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "park"
+                "in the park"
               ]
             }
           },
@@ -9517,7 +8813,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "centre"
+                "in the centre"
               ]
             }
           },
@@ -9553,7 +8849,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "in the garden"
               ]
             }
           },
@@ -9565,7 +8861,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "went"
+                "in January"
               ]
             }
           },
@@ -9589,7 +8885,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "meet"
+                "in a restaurant"
               ]
             }
           }
@@ -9685,52 +8981,15 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "im"
-            ],
             "purple": [
               "kur?"
-            ]
-          },
-          {
-            "red": [
-              "ins",
-              "kurp?"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "im"
-            ],
             "purple": [
               "in dem"
-            ],
-            "green": [
-              "kam?"
-            ]
-          },
-          {
-            "purple": [
-              "kur?"
-            ],
-            "green": [
-              "atrašanās vieta"
-            ]
-          },
-          {
-            "green": [
-              "im März",
-              "im Herbst"
-            ]
-          },
-          {
-            "yellow": [
-              "in der Schule"
-            ],
-            "red": [
-              "im Schule"
             ]
           }
         ]
@@ -9775,24 +9034,15 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: iekšā/telpā → in."
+        "text": "Remember: in/in → in."
       },
       "important": [
-        "in nav vienmēr burtiski “iekšā”; latviski bieži saka Berlīnē, skolā, uz kino.",
-        "Ja runa ir par virsmu, bieži vajag auf, nevis in."
+        "in is not always literally “in”; Latvian is often said in Berlin, at school, at the cinema.",
+        "When it comes to surface, you often need auf instead of in."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "in"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main",
             "Main",
             "Main"
           ]
@@ -9806,7 +9056,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "berlin"
+                "in Berlin"
               ]
             }
           },
@@ -9830,7 +9080,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "in the bag"
               ]
             }
           },
@@ -9875,31 +9125,16 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "iekšā",
-              "telpā"
+              "Remember",
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "in"
-            ],
             "purple": [
-              "Berlīnē",
-              "skolā",
-              "uz kino"
-            ]
-          },
-          {
-            "yellow": [
-              "auf"
-            ],
-            "red": [
-              "in"
-            ],
-            "purple": [
-              "virsmu"
+              "in Berlin",
+              "at school"
             ]
           }
         ]
@@ -9984,27 +9219,19 @@ const A1_WORDS = [
       ],
       "tip": [
         "Atceries: in + das → ins (kurp?, kurp?).",
-        "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
+        "Where? → ins; where? → im - this is the main point of difference!"
       ],
       "important": [
-        "ins = in das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
-        "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
-        "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
+        "ins = in das, only with a noun of any gender where? in inflection.",
+        "Answers to where?, not where? — movement, not location.",
+        "For the masculine gender: in den Wald; of women: in die Schule.",
+        "Do not confuse: ins Kino gehen (to the cinema) vs. im Kino sein (to be in the cinema)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "ins",
-            "in das"
-          ],
           "purple": [
             "Ins",
-            "Ins",
-            "Ins"
-          ],
-          "green": [
-            "Ins",
+            "inward",
             "Ins"
           ]
         },
@@ -10029,7 +9256,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "to sleep"
               ]
             }
           },
@@ -10202,54 +9429,15 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "ins"
-            ],
             "purple": [
               "kurp?"
-            ]
-          },
-          {
-            "red": [
-              "im",
-              "kur?"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "ins"
-            ],
             "purple": [
               "in das"
-            ],
-            "green": [
-              "kurp?"
-            ]
-          },
-          {
-            "purple": [
-              "kurp?"
-            ],
-            "green": [
-              "kustība"
-            ]
-          },
-          {
-            "yellow": [
-              "in den Wald"
-            ],
-            "green": [
-              "in die Schule"
-            ]
-          },
-          {
-            "blue": [
-              "ins Kino gehen"
-            ],
-            "red": [
-              "im Kino sein"
             ]
           }
         ]
@@ -10340,24 +9528,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "jung ir par vecumu (cilvēki, dzīvnieki) — ja runā par lietām, kas nesen radītas, lieto neu.",
+        "jung is about age (people, animals) - when talking about things that have recently been created, use neu.",
         "Pretstats: jung ↔ alt (jauns ↔ vecs)."
       ],
       "important": [
         "jung raksturo vecumu, ne lietas jaunumu.",
-        "Par jaunām lietām (telefonu, automašīnu, māju) lieto neu, nevis jung.",
+        "For new things (phone, car, house) use neu instead of jung.",
         "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "jung"
-          ],
           "purple": [
             "Main"
-          ],
-          "green": [
-            "neu"
           ]
         },
         "examples": [
@@ -10441,24 +9623,13 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "brother"
+                "younger"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "jung"
-            ],
-            "green": [
-              "neu"
-            ]
-          },
-          {
-            "blue": [
-              "jung"
-            ],
             "purple": [
               "alt"
             ]
@@ -10549,21 +9720,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "kein noliedz lietvārdu (kein + lietvārds), nicht noliedz darbības vārdu vai teikumu.",
-        "kein locījas kā ein: kein/keine/keinen/keiner."
+        "kein negates a noun (kein + noun), nicht negates a verb or clause.",
+        "kein is inflected like ein: kein/keine/keinen/keiner."
       ],
       "important": [
-        "kein + lietvārds = 'nav nekāda/neviena X', ne 'nicht ein X'.",
+        "kein + noun = 'there is no/no X', not 'nicht ein X'.",
         "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "kein"
-          ],
           "purple": [
             "Main",
-            "Main"
+            "non"
           ]
         },
         "examples": [
@@ -10730,22 +9898,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "kennen = pazīt",
-        "Izmanto kennen, kad konteksts atbilst šai nozīmei."
+        "kennen = to know",
+        "Use kennen when the context fits this meaning."
       ],
       "important": [
-        "kennen = pazīt cilvēku/vietu.",
-        "kennen = pazīt.",
-        "Pazīt cilvēku, vietu vai lietu no pieredzes."
+        "kennen = to know a person/place.",
+        "kennen = to know.",
+        "Knowing a person, place or thing from experience."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "kennen",
-            "kennen"
-          ],
           "purple": [
-            "Main"
+            "to know"
           ]
         },
         "examples": [
@@ -10757,7 +9921,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "know"
+                "i know"
               ]
             }
           },
@@ -10787,7 +9951,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "know"
+                "i know"
               ]
             }
           },
@@ -10800,7 +9964,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "know"
+                "to know"
               ]
             }
           }
@@ -10808,7 +9972,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "pazīt"
+              "to know"
             ]
           }
         ],
@@ -10864,22 +10028,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wissen = zināt",
-        "Izmanto wissen, kad konteksts atbilst šai nozīmei."
+        "wissen = to know",
+        "Use wissen when the context fits this meaning."
       ],
       "important": [
-        "wissen = zināt faktu.",
-        "wissen = zināt.",
-        "Zināt faktu, atbildi vai informāciju."
+        "wissen = know the fact.",
+        "wissen = to know.",
+        "Know a fact, answer or information."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "wissen",
-            "wissen"
-          ],
           "purple": [
-            "Main"
+            "to know"
           ]
         },
         "examples": [
@@ -10908,7 +10068,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "zināt"
+              "to know"
             ]
           }
         ],
@@ -11022,23 +10182,15 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: prasme/iespēja → können."
+        "text": "Remember: skill/ability → können."
       },
       "important": [
-        "können nav tas pats, kas dürfen. können = varēt/prast, dürfen = drīkstēt.",
-        "Teikumā ar können otrs darbības vārds bieži stāv beigās: Ich kann schwimmen."
+        "können is not the same as dürfen. können = to be able/know, dürfen = to be allowed.",
+        "In a sentence with können, the second verb often comes at the end: Ich kann schwimmen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "können"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
             "Main",
             "Main"
           ]
@@ -11176,31 +10328,15 @@ const A1_WORDS = [
               "können"
             ],
             "purple": [
-              "prasme",
-              "iespēja"
+              "Remember",
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "können"
-            ],
-            "red": [
-              "dürfen"
-            ],
             "purple": [
-              "varēt",
-              "prast",
-              "drīkstēt"
-            ]
-          },
-          {
-            "blue": [
-              "kann"
-            ],
-            "green": [
-              "schwimmen"
+              "to be allowed"
             ]
           }
         ]
@@ -11279,29 +10415,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: jautājums par cenu → kosten (Was kostet das?).",
-        "Atceries: maksājuma veikšana → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+        "Remember: question about price → kosten (Was kostet das?).",
+        "Remember: making a payment → bezahlen / zahlen (Ich bezahle die Rechnung.)."
       ],
       "important": [
-        "kosten un bezahlen nav sinonīmi: kosten = cik maksā; bezahlen = samaksāt naudu.",
-        "Latviski abos gadījumos bieži lieto maksāt, bet vācu valodā jāizvēlas pēc situācijas."
+        "kosten and bezahlen are not synonymous: kosten = how much it costs; bezahlen = to pay money.",
+        "In Latvian, pay is often used in both cases, but in German, the choice must be made according to the situation."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "kosten"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Was kostet"
-          ],
-          "yellow": [
-            "bezahlen",
-            "zahlen"
+            "to pay",
+            "how much something costs"
           ]
         },
         "examples": [
@@ -11361,7 +10486,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pay"
+                "i pay"
               ]
             }
           },
@@ -11397,7 +10522,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "will"
+                "i will pay"
               ]
             }
           }
@@ -11490,41 +10615,16 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "kosten",
-              "Was kostet"
-            ],
             "purple": [
-              "cenu"
-            ]
-          },
-          {
-            "yellow": [
-              "bezahlen",
-              "zahlen"
-            ],
-            "purple": [
-              "maksājuma veikšana"
+              "making a payment"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
-              "kosten"
-            ],
-            "yellow": [
-              "bezahlen"
-            ],
             "purple": [
-              "cik maksā",
-              "samaksāt"
-            ]
-          },
-          {
-            "purple": [
-              "maksāt",
-              "situācijas"
+              "to pay",
+              "to pay"
             ]
           }
         ]
@@ -11753,24 +10853,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Laden ar lielo burtu — lietvārds (veikals).",
-        "laden ar mazo burtu — darbības vārds (iekraut/uzlādēt)."
+        "capitalised der Laden - noun (shop).",
+        "lower case laden - verb (to load/charge)."
       ],
       "important": [
-        "der Laden = veikals (lietvārds).",
-        "laden = iekraut/uzlādēt (darbības vārds).",
-        "Daudzskaitlī: die Läden."
+        "der Laden = shop (noun).",
+        "laden = load/charge (verb).",
+        "Plural: die Läden."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Laden"
-          ],
           "purple": [
             "Main"
-          ],
-          "green": [
-            "laden"
           ]
         },
         "examples": [
@@ -11919,27 +11013,18 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: valsts → das Land; pilsēta → die Stadt."
+        "text": "Remember: country → das Land; city ​​→ die Stadt."
       },
       "important": [
-        "aufs Land nozīmē “uz laukiem”, nevis “uz valsti”.",
+        "aufs Land means 'to the countryside', not 'to the country'.",
         "das Land nav tas pats, kas die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Land",
-            "Land"
-          ],
           "purple": [
             "Main",
             "Main",
             "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Latvia",
             "Main"
           ]
         },
@@ -11955,9 +11040,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Germany"
-              ],
-              "green": [
                 "Germany"
               ]
             }
@@ -12078,32 +11160,18 @@ const A1_WORDS = [
               "das Land"
             ],
             "purple": [
-              "valsts"
+              "Remember"
             ],
             "yellow": [
               "die Stadt",
-              "pilsēta"
+              "city"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "aufs Land"
-            ],
             "purple": [
-              "uz laukiem"
-            ],
-            "red": [
-              "uz valsti"
-            ]
-          },
-          {
-            "blue": [
-              "das Land"
-            ],
-            "yellow": [
-              "die Stadt"
+              "aufs"
             ]
           }
         ]
@@ -12123,7 +11191,7 @@ const A1_WORDS = [
         "When it comes to sise or distance, lang = long (ein langer Tisch = long table).",
         "When it comes to length of time, lang = long (ein langer Tag = long day).",
         "In the phrase den ganzen Tag lang it means the whole day (in length).",
-        "Latvian 'garš' and 'ilgs' are two different words, but German lang covers both meanings."
+        "English 'long' in different contexts are two different words, but German lang covers both meanings."
       ],
       "examples": [
         {
@@ -12152,21 +11220,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par izmēru vai attālumu (mati, ceļš, galds) → garš.",
-        "Par laiku (diena, gaidīšana, filma) → ilgs."
+        "For sise or distance (hair, road, table) → long.",
+        "About time (day, waiting, movie) → long."
       ],
       "important": [
-        "lang = garš (izmērs) VAI ilgs (laiks) — atkarībā no konteksta.",
-        "wie lange = cik ilgi (jautājums par laiku, ne izmēru)."
+        "lang = long (sise) OR long (time) - depending on the context.",
+        "wie lange = how long (question of time, not sise)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "lang"
-          ],
           "purple": [
-            "garš",
-            "ilgs"
+            "long"
           ]
         },
         "examples": [
@@ -12178,7 +11242,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "long"
               ]
             }
           },
@@ -12238,7 +11302,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "All"
+                "in length"
               ]
             }
           }
@@ -12246,25 +11310,19 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "garš"
+              "long"
             ]
           },
           {
             "green": [
-              "ilgs"
+              "For"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "garš",
-              "ilgs"
-            ]
-          },
-          {
-            "green": [
-              "wie lange"
+              "long"
             ]
           }
         ]
@@ -12341,26 +11399,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: kaut kas paliek → lassen; kādam atļauj → lassen."
+        "text": "Remember: something remains → lassen; someone is allowed → lassen."
       },
       "important": [
-        "lassen nav tikai “atstāt”. Tas bieži nozīmē arī “ļaut”.",
-        "Lass mich in Ruhe! ir ļoti bieža frāze: “Liec mani mierā!”"
+        "lassen is not just 'to leave'. It also often means 'to let'.",
+        "Lass mich in Ruhe! there is a very common phrase: \"Leave me alone!\""
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "lassen",
-            "Lass mich"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main"
+            "to leave",
+            "Leave me alone"
           ]
         },
         "examples": [
@@ -12372,10 +11421,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "left"
-              ],
-              "yellow": [
-                "left"
+                "I left"
               ]
             }
           },
@@ -12387,7 +11433,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Leave"
+                "leave"
               ]
             }
           },
@@ -12399,7 +11445,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "parents"
+                "let"
               ]
             }
           },
@@ -12411,7 +11457,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Leave"
+                "leave me alone"
               ]
             }
           }
@@ -12493,27 +11539,16 @@ const A1_WORDS = [
               "lassen"
             ],
             "purple": [
-              "paliek",
-              "atļauj"
+              "Remember",
+              "allowed"
             ]
           }
         },
         "important": [
           {
-            "blue": [
+            "purple": [
+              "to leave",
               "lassen"
-            ],
-            "purple": [
-              "atstāt",
-              "ļaut"
-            ]
-          },
-          {
-            "blue": [
-              "Lass mich in Ruhe"
-            ],
-            "purple": [
-              "liec mani mierā"
             ]
           }
         ]
@@ -12575,28 +11610,18 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: kājas ātri → laufen; transports → fahren."
+        "text": "Remember: feet fast → laufen; transport → fahren."
       },
       "important": [
-        "laufen nav tikai “skriet”. Par filmu vai ierīci tas var nozīmēt “iet” vai “darboties”.",
-        "Ich laufe nozīmē kustību kājām, nevis braukšanu."
+        "laufen is not just 'run'. For a film or device, it can mean \"go\" or \"act.\"",
+        "Ich laufe means movement on foot, not driving."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "laufen"
-          ],
           "purple": [
             "Main",
             "Main",
             "it"
-          ],
-          "green": [
-            "Main",
-            "Main",
-            "Main",
-            "Main",
-            "programme"
           ]
         },
         "examples": [
@@ -12726,34 +11751,21 @@ const A1_WORDS = [
               "laufen"
             ],
             "purple": [
-              "kājas ātri"
+              "feet fast"
             ],
             "red": [
               "fahren",
-              "transports"
+              "transport"
             ]
           }
         },
         "important": [
           {
-            "blue": [
+            "purple": [
+              "laufen",
+              "it",
+              "laufen",
               "laufen"
-            ],
-            "purple": [
-              "skriet",
-              "iet",
-              "darboties"
-            ]
-          },
-          {
-            "blue": [
-              "Ich laufe"
-            ],
-            "purple": [
-              "kustību kājām"
-            ],
-            "red": [
-              "braukšanu"
             ]
           }
         ]
@@ -12805,22 +11817,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "laut = skaņa"
+        "Small laut = loud (adjective: ist laut). der Laut capitalised = sound (noun: ein Laut, der Laut).",
+        "laut = sound"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+        "laut is lowercase and has no article - it is an adjective.",
+        "der Laut with a capital letter and the article der is a noun.",
+        "Plural: die Laute (language sounds, beeps).",
         "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "laut"
-          ],
           "purple": [
-            "Main"
+            "loud"
           ]
         },
         "examples": [
@@ -12833,7 +11842,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "loud"
               ]
             }
           },
@@ -12846,7 +11855,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "loud"
               ]
             }
           },
@@ -12885,7 +11894,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "the sound"
               ]
             }
           },
@@ -12898,7 +11907,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hear"
+                "sound"
               ]
             }
           }
@@ -12906,7 +11915,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "skaļš"
+              "loud"
             ]
           }
         ],
@@ -12967,28 +11976,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "der Laut = skaņa"
+        "Small laut = loud (adjective: ist laut). der Laut capitalised = sound (noun: ein Laut, der Laut).",
+        "der Laut = sound"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+        "laut is lowercase and has no article - it is an adjective.",
+        "der Laut with a capital letter and the article der is a noun.",
+        "Plural: die Laute (language sounds, beeps).",
         "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Laut",
-            "laut"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "yellow": [
-            "Laut",
-            "Laute"
+            "the sound"
           ]
         },
         "examples": [
@@ -13001,7 +12001,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "the sound"
               ]
             }
           },
@@ -13013,7 +12013,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "loud"
               ]
             }
           },
@@ -13050,7 +12050,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "the sound"
               ]
             }
           },
@@ -13062,7 +12062,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hear"
+                "sound"
               ]
             }
           }
@@ -13070,7 +12070,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "skaņa"
+              "Small"
             ]
           }
         ],
@@ -13154,21 +12154,11 @@ const A1_WORDS = [
       },
       "important": [
         "legen un liegen nav viens un tas pats.",
-        "Ich lege das Buch = es nolieku grāmatu. Das Buch liegt = grāmata atrodas."
+        "Ich lege das Buch = I put the book down. Das Buch liegt = the book lies."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "legen",
-            "liegen"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "yellow": [
-            "Main",
             "Main",
             "Main",
             "Main"
@@ -13188,10 +12178,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "put"
-              ],
-              "yellow": [
-                "put",
-                "put"
               ]
             }
           },
@@ -13206,9 +12192,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Put"
-              ],
-              "yellow": [
                 "Put"
               ]
             }
@@ -13227,12 +12210,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
-              ],
-              "green": [
-                "She"
-              ],
-              "yellow": [
                 "She"
               ]
             }
@@ -13345,23 +12322,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "legen"
-            ],
-            "red": [
-              "liegen"
-            ]
-          },
-          {
-            "blue": [
-              "lege"
-            ],
             "purple": [
-              "nolieku"
-            ],
-            "red": [
-              "liegt",
-              "atrodas"
+              "legen"
             ]
           }
         ]
@@ -13426,22 +12388,16 @@ const A1_WORDS = [
       ],
       "tip": [
         "leise = kluss",
-        "Izmanto leise, kad konteksts atbilst šai nozīmei."
+        "Use leise when the context suits this meaning."
       ],
       "important": [
-        "leise = kluss skaņas ziņā.",
-        "leise = skaļums.",
-        "Kluss vai ar mazu skaļumu."
+        "leise = quiet in sound.",
+        "leise = volume.",
+        "Quiet or low volume."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "leise"
-          ],
           "purple": [
-            "Main"
-          ],
-          "orange": [
             "Main"
           ]
         },
@@ -13617,24 +12573,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: lieta jau ir vietā → liegen; tu to noliec → legen."
+        "text": "Remember: the thing is already in place → liegen; you put it down → legen."
       },
       "important": [
-        "liegen rāda stāvokli vai atrašanās vietu.",
-        "legen rāda darbību: kāds kaut ko noliek."
+        "liegen shows a state or location.",
+        "legen shows an action: someone puts something down."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "liegen",
-            "legen"
-          ],
           "purple": [
             "Main",
             "Main",
-            "Main"
-          ],
-          "yellow": [
             "Main"
           ]
         },
@@ -13652,10 +12601,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "The"
-              ],
-              "yellow": [
-                "The",
-                "The"
               ]
             }
           },
@@ -13672,10 +12617,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "phone"
-              ],
-              "yellow": [
-                "phone",
-                "phone"
               ]
             }
           },
@@ -13690,9 +12631,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sleeping"
-              ],
-              "green": [
                 "sleeping"
               ]
             }
@@ -13791,31 +12729,18 @@ const A1_WORDS = [
               "liegen"
             ],
             "purple": [
-              "ir vietā"
+              "Remember"
             ],
             "red": [
               "legen",
-              "noliec"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "liegen"
-            ],
             "purple": [
-              "stāvokli",
-              "atrašanās vietu"
-            ]
-          },
-          {
-            "red": [
-              "legen"
-            ],
-            "purple": [
-              "darbību",
-              "noliek"
+              "location"
             ]
           }
         ]
@@ -13851,24 +12776,18 @@ const A1_WORDS = [
   {
     "de": "Liter",
     "de_article": "der",
-    "de_plural": "die Liter",
-    "lv": "Liter",
+    "de_plural": "die litre",
+    "lv": "litre",
     "level": "A1",
     "study": {
-      "id": "a1-liter",
+      "id": "a1-litre",
       "layout": "standardStudy",
-      "translation": "Liter",
-      "explanation": "In Germany it is usually said 'der Liter', but in Austria and Switzerland you can also hear 'das Liter'. The plural form remains unchanged: 'die Liter'.",
+      "translation": "litre",
+      "explanation": "In Germany it is usually said 'der litre', but in Austria and Switzerland you can also hear 'das litre'. The plural form remains unchanged: 'die litre'.",
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Liter"
-          ],
-          "blue": [
-            "das Liter"
-          ],
           "purple": [
-            "die Liter"
+            "die litre"
           ]
         }
       }
@@ -13929,22 +12848,14 @@ const A1_WORDS = [
         "text": "Atceries: Was machst du? = Ko tu dari?"
       },
       "important": [
-        "machen ir ļoti plašs vārds, bet latviski bieži jātulko dabiski pēc situācijas.",
-        "Das macht Spaß nozīmē “tas ir jautri”, nevis burtiski “tas taisa prieku”."
+        "machen is a very broad word, but Latvian often has to be translated naturally according to the situation.",
+        "Das macht Spaß means 'it's fun', not literally 'it makes fun'."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "machen"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main"
+            "to do",
+            "make"
           ]
         },
         "examples": [
@@ -13972,9 +12883,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "homework"
-              ],
-              "yellow": [
-                "homework"
               ]
             }
           },
@@ -13989,9 +12897,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "make"
-              ],
-              "yellow": [
                 "make"
               ]
             }
@@ -14043,22 +12948,9 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
+            "purple": [
+              "machen",
               "machen"
-            ],
-            "purple": [
-              "dabiski"
-            ]
-          },
-          {
-            "blue": [
-              "Das macht Spaß"
-            ],
-            "purple": [
-              "tas ir jautri"
-            ],
-            "red": [
-              "taisa prieku"
             ]
           }
         ]
@@ -14120,21 +13012,15 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa."
+        "text": "Remember: das Mal = time (noun); mal without article = colloquial particle."
       },
       "important": [
-        "das Mal / die Male — lietvārds ar artikulu.",
+        "das Mal / die Male - noun with article.",
         "ein Mal, zwei Mal — skaita reizes.",
         "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Mal",
-            "ein Mal",
-            "zwei Mal",
-            "das erste Mal"
-          ],
           "purple": [
             "Main",
             "Main",
@@ -14192,36 +13078,15 @@ const A1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "das Mal",
-            "mal"
-          ],
           "purple": [
-            "lietvārds",
-            "daļiņa"
+            "noun",
+            "particle"
           ]
         },
         "important": [
           {
-            "blue": [
-              "das Mal",
-              "die Male"
-            ]
-          },
-          {
-            "blue": [
-              "ein Mal",
-              "zwei Mal"
-            ],
             "purple": [
-              "reizes"
-            ]
-          },
-          {
-            "blue": [
-              "mal"
-            ],
-            "purple": [
+              "das",
               "das Mal"
             ]
           }
@@ -14291,20 +13156,16 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
-        "Bez piederības vārda (der Mann, ein Mann) parasti domāts vīrietis."
+        "The possessive pronoun (mein/dein/ihr Mann) almost always means husband (spouse).",
+        "Without a possessive (der Mann, ein Mann) usually means a man."
       ],
       "important": [
-        "der Mann = vīrietis VAI vīrs — atkarībā no konteksta.",
-        "mein Mann = mans vīrs (ne 'mans vīrietis').",
-        "Daudzskaitlī: die Männer."
+        "der Mann = man OR husband - depending on the context.",
+        "mein Mann = my husband (not 'my man').",
+        "Plural: die Männer."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Mann",
-            "Mann"
-          ],
           "purple": [
             "Main",
             "Main"
@@ -14386,40 +13247,16 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "green": [
-              "mein",
-              "dein",
-              "ihr Mann"
-            ],
             "purple": [
-              "vīrs"
-            ]
-          },
-          {
-            "blue": [
-              "der Mann",
-              "ein Mann"
-            ],
-            "purple": [
-              "vīrietis"
+              "a man"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "vīrietis",
-              "vīrs"
-            ]
-          },
-          {
-            "green": [
-              "mein Mann"
-            ]
-          },
-          {
-            "blue": [
-              "die Männer"
+              "der",
+              "der"
             ]
           }
         ]
@@ -14487,8 +13324,8 @@ const A1_WORDS = [
   {
     "de": "Meter",
     "de_article": "der",
-    "de_plural": "die Meter",
-    "lv": "Meter",
+    "de_plural": "die metre",
+    "lv": "metre",
     "level": "A1"
   },
   {
@@ -14566,29 +13403,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: kopā ar kādu vai ar transportu → mit."
+        "text": "Remember: together with someone or with transport → mit."
       },
       "important": [
-        "mit prasa datīvu: mit dem Bus, mit der Mutter, mit dir.",
-        "Kommst du mit? nozīmē “Vai tu nāksi līdzi?”"
+        "mit requires the dative: mit dem Bus, mit der Mutter, mit dir.",
+        "Where do you live? means \"Will you come with me?\""
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "mit",
-            "mit dem Bus",
-            "mit dem Auto",
-            "mit dir"
-          ],
           "purple": [
-            "Main",
             "Main"
-          ],
-          "green": [
-            "transport",
-            "Main",
-            "Main",
-            "auto"
           ]
         },
         "examples": [
@@ -14714,31 +13538,15 @@ const A1_WORDS = [
               "mit"
             ],
             "purple": [
-              "kopā ar",
-              "ar transportu"
+              "together with",
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "mit"
-            ],
             "purple": [
-              "datīvu"
-            ],
-            "yellow": [
-              "dem Bus",
-              "der Mutter",
-              "dir"
-            ]
-          },
-          {
-            "blue": [
-              "Kommst du mit"
-            ],
-            "purple": [
-              "nāksi līdzi"
+              "dative"
             ]
           }
         ]
@@ -14826,23 +13634,18 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: Ich mag... = man patīk..."
+        "text": "Remember: Ich mag... = I like..."
       },
       "important": [
-        "mögen nav galvenais vārds pieklājīgam “es gribētu”. Tam parasti lieto möchte.",
-        "Ich mag Kaffee nozīmē “man garšo/patīk kafija”."
+        "mögen is not a noun for polite 'I would like'. Möchte is usually used for this.",
+        "Ich mag Kaffee means \"I like coffee\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "mögen",
-            "Ich mag",
-            "möchte"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
+            "like",
+            "i like",
+            "i would like"
           ]
         },
         "examples": [
@@ -14854,9 +13657,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "like"
-              ],
-              "yellow": [
                 "like"
               ]
             }
@@ -14870,9 +13670,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "you"
-              ],
-              "yellow": [
-                "you"
               ]
             }
           },
@@ -14884,10 +13681,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
-              ],
-              "green": [
-                "She"
+                "like"
               ]
             }
           },
@@ -14983,29 +13777,15 @@ const A1_WORDS = [
               "Ich mag"
             ],
             "purple": [
-              "man patīk"
+              "i like"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "mögen"
-            ],
-            "red": [
-              "möchte"
-            ],
             "purple": [
-              "gribētu"
-            ]
-          },
-          {
-            "blue": [
-              "mag"
-            ],
-            "purple": [
-              "garšo",
-              "patīk"
+              "would like",
+              "like"
             ]
           }
         ]
@@ -15078,22 +13858,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "morgen = rīt"
+        "Little morgen = tomorrow (Ich komme morgen). der Morgen with a capital letter = morning (Guten Morgen!, am Morgen).",
+        "morgen = tomorrow"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+        "morgen is lowercase - it is a time adverb (tomorrow).",
+        "der Morgen with a capital letter and the article der is a noun (morning).",
+        "Good morning! — always with a capital M (morning, not tomorrow).",
         "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "morgen"
-          ],
           "purple": [
-            "Main"
+            "tomorrow"
           ]
         },
         "examples": [
@@ -15106,7 +13883,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "I'm"
+                "tomorrow"
               ]
             }
           },
@@ -15119,7 +13896,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Until"
+                "tomorrow"
               ]
             }
           },
@@ -15132,7 +13909,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "I'm"
+                "tomorrow"
               ]
             }
           },
@@ -15145,7 +13922,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tomorrow"
+                "tomorrow"
               ]
             }
           },
@@ -15179,7 +13956,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "rīt"
+              "tomorrow"
             ]
           }
         ],
@@ -15239,27 +14016,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "der Morgen = rīt"
+        "Little morgen = tomorrow (Ich komme morgen). der Morgen with a capital letter = morning (Guten Morgen!, am Morgen).",
+        "der Morgen = tomorrow"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+        "morgen is lowercase - it is a time adverb (tomorrow).",
+        "der Morgen with a capital letter and the article der is a noun (morning).",
+        "Good morning! — always with a capital M (morning, not tomorrow).",
         "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Morgen",
-            "morgen"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "yellow": [
-            "Morgen"
+            "morning"
           ]
         },
         "examples": [
@@ -15279,7 +14048,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Until"
+                "tomorrow"
               ]
             }
           },
@@ -15291,7 +14060,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "I'm"
+                "tomorrow"
               ]
             }
           },
@@ -15303,7 +14072,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tomorrow"
+                "tomorrow"
               ]
             }
           },
@@ -15324,7 +14093,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "the morning"
               ]
             }
           }
@@ -15332,7 +14101,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "rīts"
+              "Little"
             ]
           }
         ],
@@ -15420,25 +14189,18 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: Ich muss... = man jā..."
+        "text": "Remember: Ich muss... = I must..."
       },
       "important": [
-        "müssen ir modālais darbības vārds.",
-        "Otrs darbības vārds parasti iet teikuma beigās: Ich muss heute arbeiten."
+        "müssen is a modal verb.",
+        "The second verb usually goes at the end of the sentence: Ich muss heute arbeiten."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "müssen",
-            "Ich muss"
-          ],
           "purple": [
             "Main",
             "Main",
             "Main",
-            "Main"
-          ],
-          "green": [
             "Main"
           ]
         },
@@ -15452,7 +14214,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "have"
+                "have to go"
               ]
             }
           },
@@ -15465,7 +14227,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "You"
+                "have to wait"
               ]
             }
           },
@@ -15491,7 +14253,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "have"
+                "have to work"
               ]
             }
           }
@@ -15574,26 +14336,15 @@ const A1_WORDS = [
               "Ich muss"
             ],
             "purple": [
-              "man jā"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
+            "purple": [
+              "modal verb",
               "müssen"
-            ],
-            "purple": [
-              "modālais darbības vārds"
-            ]
-          },
-          {
-            "blue": [
-              "muss",
-              "arbeiten"
-            ],
-            "purple": [
-              "beigās"
             ]
           }
         ]
@@ -15669,27 +14420,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: nach Hause; nach Berlin; pēc ēšanas."
+        "text": "Remember: nach Hause; nach Berlin; after eating."
       },
       "important": [
-        "nach nelieto ar visām vietām.",
+        "nach is not used with all places.",
         "Uz skolu parasti ir in die Schule, nevis nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "nach",
-            "nach Hause"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main",
-            "Main"
+            "after"
           ]
         },
         "examples": [
@@ -15705,9 +14445,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "I'm"
-              ],
-              "green": [
-                "Berlin"
               ]
             }
           },
@@ -15734,10 +14471,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "After"
-              ],
-              "yellow": [
-                "After"
+                "after"
               ]
             }
           },
@@ -15829,7 +14563,7 @@ const A1_WORDS = [
               "nach Berlin"
             ],
             "purple": [
-              "pēc ēšanas"
+              "after eating"
             ]
           }
         },
@@ -15839,7 +14573,7 @@ const A1_WORDS = [
               "nach"
             ],
             "red": [
-              "visām vietām"
+              "nach"
             ]
           },
           {
@@ -15932,18 +14666,15 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kā atsevišķs vārds, apstiprinot vai atbildot → protams.",
-        "Blakus lietvārdam, aprakstot izcelsmi vai īpašību → dabisks."
+        "As a separate word, confirming or answering → of course.",
+        "Next to a noun, describing an origin or quality → natural."
       ],
       "important": [
-        "natürlich = protams (apstākļa vārds, apstiprinājums) VAI dabisks (īpašības vārds).",
-        "Natürlich! kā atsevišķs saucienis vienmēr = protams!"
+        "natürlich = of course (adverb, affirmation) OR natural (adjective).",
+        "Naturally! as a separate exclamation always = of course!"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "natürlich"
-          ],
           "purple": [
             "Main",
             "Main"
@@ -16026,25 +14757,20 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "protams"
+              "separate"
             ]
           },
           {
             "green": [
-              "dabisks"
+              "separate"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "protams",
-              "dabisks"
-            ]
-          },
-          {
-            "blue": [
-              "Natürlich!"
+              "natürlich",
+              "natürlich"
             ]
           }
         ]
@@ -16111,24 +14837,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: paņem sev → nehmen; atnes kādam → bringen."
+        "text": "Remember: take for yourself → nehmen; bring someone → bringen."
       },
       "important": [
-        "Ich nehme den Bus latviski nozīmē “es braucu ar autobusu”.",
+        "Ich nehme den Bus means \"I drive the bus\" in Latvian.",
         "nehmen nav tas pats, kas bringen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "nehmen"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "bringen",
-            "holen"
+            "to take",
+            "to take"
           ]
         },
         "examples": [
@@ -16144,9 +14863,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "bus"
-              ],
-              "yellow": [
-                "bus"
               ]
             }
           },
@@ -16161,10 +14877,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Take"
-              ],
-              "yellow": [
-                "Take"
+                "take"
               ]
             }
           },
@@ -16286,29 +14999,18 @@ const A1_WORDS = [
               "nehmen"
             ],
             "purple": [
-              "paņem sev"
+              "take for yourself"
             ],
             "red": [
               "bringen",
-              "atnes kādam"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "nehme den Bus"
-            ],
             "purple": [
-              "braucu ar autobusu"
-            ]
-          },
-          {
-            "blue": [
-              "nehmen"
-            ],
-            "red": [
-              "bringen"
+              "Ich"
             ]
           }
         ]
@@ -16377,24 +15079,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "neu ir par lietām, ierīcēm un jaunumiem — ja runā par cilvēka vecumu, lieto jung.",
+        "neu is about things, devices and news - when talking about a person's age, use jung.",
         "Pretstats: neu ↔ alt (jauns ↔ vecs)."
       ],
       "important": [
-        "neu raksturo lietas un jaunumus, ne cilvēka vai dzīvnieka vecumu.",
-        "Par cilvēka vai dzīvnieka vecumu lieto jung, nevis neu.",
+        "neu describes things and news, nor the age of a person or an animal.",
+        "For the age of a person or an animal, use jung instead of neu.",
         "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "neu"
-          ],
           "purple": [
             "Main"
-          ],
-          "green": [
-            "jung"
           ]
         },
         "examples": [
@@ -16485,17 +15181,6 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "neu"
-            ],
-            "green": [
-              "jung"
-            ]
-          },
-          {
-            "blue": [
-              "neu"
-            ],
             "purple": [
               "alt"
             ]
@@ -16611,20 +15296,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
-        "Izmanto noch, kad konteksts atbilst šai nozīmei."
+        "Something is still going on or not over yet.",
+        "Use noch when the context fits this meaning."
       ],
       "important": [
-        "noch = vēl.",
-        "Kaut kas joprojām turpinās vai vēl nav beidzies."
+        "noch = yet.",
+        "Something is still going on or not over yet."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "Main"
-          ],
           "purple": [
-            "Main"
+            "yet"
           ]
         },
         "examples": [
@@ -16671,7 +15353,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "vēl"
+              "yet"
             ]
           }
         ],
@@ -16747,12 +15429,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
-        "Izmanto nur, kad konteksts atbilst šai nozīmei."
+        "Limits quantity, number of people, choice or options.",
+        "Used only when the context corresponds to this meaning."
       ],
       "important": [
-        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
-        "nur = tikai / vienīgi."
+        "Latvian \"only\" in German is not always nur.",
+        "nur = only / exclusively."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16907,28 +15589,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: nezinu, vai... → ob; kafija vai tēja → oder."
+        "text": "Remember: I don't know if... → ob; coffee or tea → oder."
       },
       "important": [
-        "ob nav parasta izvēles “vai” forma starp divām lietām.",
+        "ob is not the usual form of an \"or\" choice between two things.",
         "Kaffee oder Tee? lieto oder, nevis ob."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "ob",
-            "oder"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "fragen",
-            "wissen",
-            "sehen",
-            "sagen"
+            "indirect question",
+            "In a direct question"
           ]
         },
         "examples": [
@@ -17060,11 +15731,11 @@ const A1_WORDS = [
               "ob"
             ],
             "purple": [
-              "nezinu, vai"
+              "Remember"
             ],
             "red": [
               "oder",
-              "kafija vai tēja"
+              "coffee or tea"
             ]
           }
         },
@@ -17146,22 +15817,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: izvēle starp variantiem → oder."
+        "text": "Remember: choosing between options → oder."
       },
       "important": [
-        "oder lieto izvēlei: Kaffee oder Tee.",
-        "Netiešā jautājumā “vai” parasti ir ob."
+        "oder is used for selection: Kaffee oder Tee.",
+        "In an indirect question, \"whether\" is usually ob."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "oder",
-            "ob"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
+            "we choose",
+            "indirect question"
           ]
         },
         "examples": [
@@ -17177,10 +15843,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Coffee"
-              ],
-              "yellow": [
-                "Coffee",
                 "Coffee"
               ]
             }
@@ -17209,10 +15871,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "you"
-              ],
-              "yellow": [
-                "you",
                 "you"
               ]
             }
@@ -17308,26 +15966,16 @@ const A1_WORDS = [
               "oder"
             ],
             "purple": [
-              "izvēle",
-              "variantiem"
+              "Remember",
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
+            "purple": [
+              "for selection",
               "oder"
-            ],
-            "purple": [
-              "izvēlei"
-            ]
-          },
-          {
-            "red": [
-              "ob"
-            ],
-            "purple": [
-              "netiešā jautājumā"
             ]
           }
         ]
@@ -17460,24 +16108,13 @@ const A1_WORDS = [
         "text": "Atceries: Das passt. = Tas der."
       },
       "important": [
-        "passen nav tikai par apģērbu.",
-        "Tas var nozīmēt arī, ka laiks, plāns vai risinājums der."
+        "passen is not just about clothing.",
+        "It can also mean that the timing, plan or solution is right."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "passen",
-            "Das passt"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "yellow": [
-            "Main",
-            "Main",
-            "style"
+            "suitable"
           ]
         },
         "examples": [
@@ -17492,9 +16129,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
-              ],
-              "yellow": [
                 "The"
               ]
             }
@@ -17511,9 +16145,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "The"
-              ],
-              "yellow": [
-                "The"
               ]
             }
           },
@@ -17528,9 +16159,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "This"
-              ],
-              "yellow": [
                 "This"
               ]
             }
@@ -17632,19 +16260,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "passen"
-            ],
-            "yellow": [
-              "apģērbu"
-            ]
-          },
-          {
             "purple": [
-              "laiks",
-              "plāns",
-              "risinājums",
-              "der"
+              "passen"
             ]
           }
         ]
@@ -17774,28 +16391,18 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: ēdiens → probieren = nogaršot."
+        "text": "Remember: food → probieren = to taste."
       },
       "important": [
-        "probieren nav galvenais vārds oficiālai pārbaudei.",
-        "Dokumentu vai rēķinu pārbaudīt parasti ir prüfen."
+        "probieren is not the main word for formal examination.",
+        "To check a document or invoice is usually prüfen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "probieren",
-            "prüfen"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "yellow": [
-            "Main",
-            "Main",
-            "method",
-            "Main"
+            "to try",
+            "to taste",
+            "to check"
           ]
         },
         "examples": [
@@ -17810,10 +16417,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Taste"
-              ],
-              "yellow": [
-                "Taste"
+                "taste"
               ]
             }
           },
@@ -17828,10 +16432,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "want"
-              ],
-              "yellow": [
-                "want"
+                "to taste"
               ]
             }
           },
@@ -17847,9 +16448,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "are"
-              ],
-              "yellow": [
-                "method"
               ]
             }
           },
@@ -17950,28 +16548,17 @@ const A1_WORDS = [
               "probieren"
             ],
             "yellow": [
-              "ēdiens"
+              "food"
             ],
             "purple": [
-              "nogaršot"
+              "to taste"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "probieren"
-            ],
-            "red": [
-              "pārbaudei"
-            ]
-          },
-          {
-            "red": [
-              "prüfen"
-            ],
             "purple": [
-              "pārbaudīt"
+              "probieren"
             ]
           }
         ]
@@ -18085,24 +16672,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: der Reis ir vienskaitlis vāciski, bet latviski parasti — rīsi."
+        "text": "Remember: der Reis is singular in German, but usually rice in Latvian."
       },
       "important": [
-        "der Reis — vācu valodā tikai vienskaitlis (Der Reis ist..., nicht *sind).",
-        "Latviski tulkojumā bieži lieto daudzskaitli: rīsi ir gatavi."
+        "der Reis - in German only singular (Der Reis ist..., nicht *sind).",
+        "In Latvian translation, the plural is often used: the rice is ready."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Reis",
-            "ist"
-          ],
           "purple": [
-            "German",
-            "German"
-          ],
-          "red": [
-            "sind"
+            "in the singular",
+            "rice"
           ]
         },
         "examples": [
@@ -18115,7 +16695,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "rice"
               ]
             }
           },
@@ -18127,18 +16707,14 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eat"
+                "rice"
               ]
             }
           }
         ],
         "tip": {
-          "blue": [
-            "der Reis"
-          ],
           "purple": [
-            "vienskaitlis",
-            "rīsi"
+            "rice"
           ]
         }
       }
@@ -18224,21 +16800,15 @@ const A1_WORDS = [
       ],
       "tip": [
         "sagen = teikt",
-        "Izmanto sagen, kad konteksts atbilst šai nozīmei."
+        "Use sagen when the context fits this meaning."
       ],
       "important": [
         "sagen = pateikt.",
-        "Pateikt konkrētu domu, vārdu vai teikumu."
+        "To convey a specific thought, word or sentence."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sagen"
-          ],
           "purple": [
-            "Main"
-          ],
-          "green": [
             "Main"
           ]
         },
@@ -18332,23 +16902,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "schauen = skatīties",
-        "Izmanto schauen, kad konteksts atbilst šai nozīmei."
+        "schauen = to look",
+        "Use schauen when the context fits this meaning."
       ],
       "important": [
-        "schauen = skatīties.",
-        "Aktīvi skatīties vai palūkoties."
+        "schauen = to look.",
+        "Actively watch or look."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "schauen"
-          ],
           "purple": [
-            "Main"
-          ],
-          "orange": [
-            "Main"
+            "watch"
           ]
         },
         "examples": [
@@ -18385,7 +16949,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "skatīties"
+              "schauen"
             ]
           }
         ],
@@ -18474,19 +17038,15 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas jau ir noticis vai jau ir spēkā.",
-        "Izmanto schon, kad konteksts atbilst šai nozīmei."
+        "Something has already happened or is already in effect.",
+        "Use schon when the context fits this meaning."
       ],
       "important": [
         "schon = jau.",
-        "Kaut kas jau ir noticis vai jau ir spēkā."
+        "Something has already happened or is already in effect."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "schon",
-            "schon"
-          ],
           "purple": [
             "Main"
           ]
@@ -18509,7 +17069,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "jau"
+              "Something"
             ]
           }
         ],
@@ -18635,24 +17195,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden."
+        "text": "Remember: swimming movement → schwimmen; rest in water → baden."
       },
       "important": [
         "schwimmen un baden nav viens un tas pats.",
-        "Latviski bieži saka “peldēt”, bet vāciski jāskatās, vai tā ir kustība vai peldēšanās."
+        "Latvian often says \"to swim\", but in German you have to check whether it is movement or bathing."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "schwimmen"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "baden",
-            "Main"
+            "to swim"
           ]
         },
         "examples": [
@@ -18691,9 +17243,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "swim"
-              ],
-              "green": [
                 "swim"
               ]
             }
@@ -18790,32 +17339,18 @@ const A1_WORDS = [
               "schwimmen"
             ],
             "purple": [
-              "peldēšanas kustība"
+              "Remember"
             ],
             "red": [
               "baden",
-              "atpūta ūdenī"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "schwimmen"
-            ],
-            "red": [
-              "baden"
-            ]
-          },
-          {
             "purple": [
-              "peldēt"
-            ],
-            "blue": [
-              "kustība"
-            ],
-            "red": [
-              "peldēšanās"
+              "schwimmen"
             ]
           }
         ]
@@ -18912,7 +17447,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen."
+        "text": "Remember: the eyes perceive → sehen; look consciously → schauen/ansehen."
       },
       "important": [
         "sehen nav tas pats, kas anschauen.",
@@ -18920,17 +17455,9 @@ const A1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sehen",
-            "Ich sehe"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "schauen",
-            "ansehen"
+            "to see",
+            "eyes"
           ]
         },
         "examples": [
@@ -19061,7 +17588,7 @@ const A1_WORDS = [
               "sehen"
             ],
             "purple": [
-              "acis uztver"
+              "Remember"
             ],
             "red": [
               "schauen",
@@ -19071,23 +17598,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "sehen"
-            ],
-            "red": [
-              "anschauen"
-            ]
-          },
-          {
-            "blue": [
-              "sehe"
-            ],
             "purple": [
-              "redzu"
-            ],
-            "red": [
-              "schaue",
-              "skatos"
+              "sehen"
             ]
           }
         ]
@@ -19164,22 +17676,14 @@ const A1_WORDS = [
         "text": "Atceries: ich bin = es esmu; du bist = tu esi."
       },
       "important": [
-        "sein formas jāiemācās atsevišķi: bin, bist, ist, sind.",
-        "Ich bin ir “es esmu”, nevis “es būt”."
+        "sein forms must be learned separately: bin, bist, ist, sind.",
+        "Ich bin is 'I am' not 'I be'."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sein",
-            "ich bin",
-            "du bist",
-            "er ist",
-            "wir sind"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
+            "to be",
+            "characteristic"
           ]
         },
         "examples": [
@@ -19312,22 +17816,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "bin",
-              "bist",
-              "ist",
-              "sind"
-            ]
-          },
-          {
-            "blue": [
-              "Ich bin"
-            ],
             "purple": [
-              "es esmu"
-            ],
-            "red": [
-              "es būt"
+              "sein"
             ]
           }
         ]
@@ -19384,19 +17874,15 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Runā par grāmatu vai lasīšanu → lappuse. Runā par novietojumu, virzienu vai attiecībām → puse.",
-        "Seite X grāmatā vienmēr ir lappuse, ne puse."
+        "Talking about a book or reading → page. Talks about position, direction or relationship → side.",
+        "Seite X is always a page in a book, not a half."
       ],
       "important": [
-        "die Seite = lappuse VAI puse — konteksts izšķir.",
-        "Daudzskaitlī abām nozīmēm: die Seiten."
+        "die Seite = page OR side - the context decides.",
+        "Plural for both meanings: die Seiten."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "die Seite",
-            "Seite"
-          ],
           "purple": [
             "Main",
             "Main"
@@ -19478,32 +17964,16 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "lappuse"
-            ],
-            "green": [
-              "puse"
-            ]
-          },
-          {
-            "blue": [
-              "Seite"
-            ],
             "purple": [
-              "lappuse"
+              "Talking"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "lappuse",
-              "puse"
-            ]
-          },
-          {
-            "blue": [
-              "die Seiten"
+              "die",
+              "die"
             ]
           }
         ]
@@ -19578,19 +18048,14 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: darbība uz sevi → sich/mich/dich."
+        "text": "Remember: action on self → sich/mich/dich."
       },
       "important": [
-        "sich nav patstāvīgs lietvārds.",
-        "Tas mainās pēc personas: ich → mich, du → dich, er/sie/es → sich."
+        "sich is not an independent noun.",
+        "It changes by person: ich → mich, du → dich, er/sie/es → sich."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sich",
-            "ich wasche mich",
-            "er wäscht sich"
-          ],
           "purple": [
             "Main",
             "Main",
@@ -19630,7 +18095,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "is happy"
               ]
             }
           },
@@ -19732,7 +18197,7 @@ const A1_WORDS = [
               "sich"
             ],
             "purple": [
-              "darbība uz sevi"
+              "Remember"
             ]
           }
         },
@@ -19742,7 +18207,7 @@ const A1_WORDS = [
               "sich"
             ],
             "red": [
-              "lietvārds"
+              "noun"
             ]
           },
           {
@@ -19799,21 +18264,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par vietu vai situāciju (drošība) → drošs.",
-        "Kā pārliecība vai apstiprinājums teikumā → noteikti/droši vien."
+        "About a place or situation (safety) → safe.",
+        "As a belief or confirmation in a sentence → definitely/probably."
       ],
       "important": [
-        "sicher = drošs (īpašības vārds) VAI noteikti/droši vien (apstākļa vārds).",
-        "sich sicher sein = būt pārliecinātam."
+        "sicher = safe (adjective) OR surely/probably (adverb).",
+        "sich sicher sein = to be sure."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sicher"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "safe"
           ]
         },
         "examples": [
@@ -19825,7 +18286,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "the"
+                "safe"
               ]
             }
           },
@@ -19893,27 +18354,21 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "drošs"
+              "safe"
             ]
           },
           {
             "green": [
-              "noteikti",
-              "droši vien"
+              "About",
+              "probably"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "drošs",
-              "noteikti",
-              "droši vien"
-            ]
-          },
-          {
-            "green": [
-              "sich sicher sein"
+              "safe",
+              "probably"
             ]
           }
         ]
@@ -19965,24 +18420,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
-        "Izmanto sie, kad konteksts atbilst šai nozīmei."
+        "Plural - refers to more than one person. The verb ends in -en: kochen, essen, gehen.",
+        "Use sie when the context fits this meaning."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+        "Courtesy always with a capital S: Sie, not sie.",
+        "She: Sie kocht. They: sie kochen. You: Sie kochen.",
         "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "Incorrect: Sie kocht (they) → Correct: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "sie",
-            "kochen"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "her"
           ]
         },
         "examples": [
@@ -20034,7 +18484,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "They"
+                "they"
               ]
             }
           },
@@ -20047,7 +18497,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "They"
+                "they"
               ]
             }
           },
@@ -20059,7 +18509,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "You"
+                "you"
               ]
             }
           }
@@ -20122,23 +18572,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
-        "Izmanto Sie, kad konteksts atbilst šai nozīmei."
+        "Courtesy address - always with a capital S. Latviski: you. Often with a plural verb.",
+        "Use Sie when the context is appropriate for this meaning."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+        "Courtesy always with a capital S: Sie, not sie.",
+        "She: Sie kocht. They: sie kochen. You: Sie kochen.",
         "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "Incorrect: Sie kocht (they) → Correct: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
-          "yellow": [
-            "Sie",
-            "kocht"
-          ],
           "purple": [
-            "Main"
+            "you"
           ]
         },
         "examples": [
@@ -20151,7 +18597,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "You"
+                "you"
               ]
             }
           },
@@ -20200,7 +18646,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "You"
+                "you"
               ]
             }
           }
@@ -20208,7 +18654,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "jūs"
+              "you"
             ]
           }
         ],
@@ -20312,24 +18758,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: sēdus → sitzen; stāvus → stehen; guļus → liegen."
+        "text": "Remember: sitting → sitzen; standing → stehen; lying down → liegen."
       },
       "important": [
-        "sitzen rāda stāvokli “sēdēt”.",
-        "Apsēsties ir sich setzen, nevis sitzen."
+        "sitzen shows the state of 'sitting'.",
+        "To sit down is sich setzen, not sitzen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sitzen"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "stehen",
-            "liegen"
+            "to sit",
+            "sitting"
           ]
         },
         "examples": [
@@ -20341,7 +18780,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "I'm"
+                "sitting"
               ]
             }
           },
@@ -20356,10 +18795,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
-              ],
-              "green": [
-                "The"
+                "sitting"
               ]
             }
           },
@@ -20465,7 +18901,7 @@ const A1_WORDS = [
               "sitzen"
             ],
             "purple": [
-              "sēdus"
+              "Remember"
             ],
             "red": [
               "stehen"
@@ -20477,18 +18913,7 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "sitzen"
-            ],
             "purple": [
-              "sēdēt"
-            ]
-          },
-          {
-            "green": [
-              "sich setzen"
-            ],
-            "blue": [
               "sitzen"
             ]
           }
@@ -20582,25 +19007,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen."
+        "text": "Remember: someone says what to do → sollen; must be done → müssen."
       },
       "important": [
-        "Was soll ich machen? ir ļoti bieža frāze.",
-        "sollen un müssen nav pilnīgi vienādi."
+        "Was soll ich machen? is a very common phrase.",
+        "sollen and müssen are not exactly the same."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "sollen",
-            "Was soll ich machen"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "müssen"
+            "should"
           ]
         },
         "examples": [
@@ -20613,7 +19029,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "What"
+                "what should i do"
               ]
             }
           },
@@ -20626,7 +19042,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "You"
+                "must come"
               ]
             }
           },
@@ -20734,11 +19150,11 @@ const A1_WORDS = [
               "sollen"
             ],
             "purple": [
-              "kāds saka"
+              "someone says"
             ],
             "red": [
               "müssen",
-              "obligāti"
+              "Remember"
             ]
           }
         },
@@ -20884,24 +19300,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen."
+        "text": "Remember: standing → stehen; sitting → sitzen; lying down → liegen."
       },
       "important": [
-        "stehen rāda stāvokli, nevis darbību “nolikt”.",
-        "Nolikt priekšmetu stāvus ir stellen, nevis stehen."
+        "stehen shows a state, not the action of 'putting down'.",
+        "To put an object upright is stellen, not stehen."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "stehen"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "sitzen",
-            "liegen"
+            "to stand",
+            "standing"
           ]
         },
         "examples": [
@@ -20913,7 +19322,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "I'm"
+                "standing"
               ]
             }
           },
@@ -20928,9 +19337,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
-              ],
-              "yellow": [
                 "The"
               ]
             }
@@ -21038,7 +19444,7 @@ const A1_WORDS = [
               "stehen"
             ],
             "purple": [
-              "stāvus"
+              "standing"
             ],
             "red": [
               "sitzen"
@@ -21050,21 +19456,7 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "stehen"
-            ],
             "purple": [
-              "stāvokli"
-            ],
-            "green": [
-              "stehen"
-            ]
-          },
-          {
-            "green": [
-              "stellen"
-            ],
-            "blue": [
               "stehen"
             ]
           }
@@ -21330,26 +19722,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: tēma sarunā → über; virs galda → über."
+        "text": "Remember: topic in conversation → über; above the table → über."
       },
       "important": [
-        "über nav tikai vietas vārds.",
-        "sprechen über nozīmē “runāt par”."
+        "über is not just a place name.",
+        "sprechen über means 'to speak of'."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "über"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main",
-            "Main"
+            "over"
           ]
         },
         "examples": [
@@ -21364,9 +19746,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lamp"
-              ],
-              "yellow": [
                 "lamp"
               ]
             }
@@ -21383,9 +19762,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "are"
-              ],
-              "green": [
-                "are"
               ]
             }
           },
@@ -21401,9 +19777,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "The"
-              ],
-              "yellow": [
-                "The"
               ]
             }
           },
@@ -21418,9 +19791,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "happy"
-              ],
-              "yellow": [
                 "happy"
               ]
             }
@@ -21504,26 +19874,15 @@ const A1_WORDS = [
               "über"
             ],
             "purple": [
-              "tēma",
-              "virs"
+              "topic",
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "über"
-            ],
             "purple": [
-              "vietas vārds"
-            ]
-          },
-          {
-            "blue": [
-              "sprechen über"
-            ],
-            "purple": [
-              "runāt par"
+              "place name"
             ]
           }
         ]
@@ -21595,27 +19954,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: um acht = pulksten astoņos."
+        "text": "Remember: um acht = eight o'clock."
       },
       "important": [
         "um ar laiku parasti ir “pulksten”.",
-        "um ... zu bieži nozīmē “lai ...”."
+        "um ... zu often means \"to ...\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "um",
-            "um ... zu"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main"
+            "around"
           ]
         },
         "examples": [
@@ -21630,7 +19978,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "will"
+                "at eight o'clock"
               ]
             }
           },
@@ -21646,9 +19994,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "are"
-              ],
-              "yellow": [
-                "are"
               ]
             }
           },
@@ -21663,9 +20008,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "goes"
-              ],
-              "yellow": [
                 "goes"
               ]
             }
@@ -21764,24 +20106,14 @@ const A1_WORDS = [
               "um acht"
             ],
             "purple": [
-              "pulksten astoņos"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "um"
-            ],
             "purple": [
-              "pulksten"
-            ]
-          },
-          {
-            "blue": [
-              "um ... zu"
-            ],
-            "purple": [
+              "pulksten",
               "lai"
             ]
           }
@@ -21862,20 +20194,13 @@ const A1_WORDS = [
         "text": "Atceries: zem galda → unter dem Tisch."
       },
       "important": [
-        "unter var nozīmēt arī “starp”, īpaši ar cilvēkiem vai grupām.",
-        "unter un über bieži ir pretstati vietas nozīmē."
+        "unter can also mean \"between\", especially with people or groups.",
+        "unter and über are often opposites in the sense of place."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "unter",
-            "über"
-          ],
           "purple": [
             "Main",
-            "Main"
-          ],
-          "green": [
             "Main"
           ]
         },
@@ -21892,9 +20217,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "The"
-              ],
-              "yellow": [
-                "The"
               ]
             }
           },
@@ -21910,9 +20232,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "The"
-              ],
-              "yellow": [
-                "The"
               ]
             }
           },
@@ -21927,9 +20246,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Among"
-              ],
-              "green": [
                 "Among"
               ]
             }
@@ -22037,19 +20353,8 @@ const A1_WORDS = [
         },
         "important": [
           {
-            "blue": [
-              "unter"
-            ],
             "purple": [
-              "starp"
-            ]
-          },
-          {
-            "blue": [
               "unter"
-            ],
-            "red": [
-              "über"
             ]
           }
         ]
@@ -22140,25 +20445,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
+        "text": "Remember: understand the text/person → verstehen; to know how to do something → können."
       },
       "important": [
-        "verstehen nav galvenais vārds nozīmei “prast”.",
-        "Ich verstehe Deutsch nozīmē “es saprotu vāciski”."
+        "verstehen is not the root word for 'to understand'.",
+        "Ich verstehe Deutsch means \"I understand German\"."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "verstehen",
-            "Ich verstehe"
-          ],
           "purple": [
             "Main",
-            "Main"
-          ],
-          "red": [
-            "können",
-            "phrase",
             "Main"
           ]
         },
@@ -22289,29 +20585,18 @@ const A1_WORDS = [
               "verstehen"
             ],
             "purple": [
-              "saprast"
+              "Remember"
             ],
             "red": [
               "können",
-              "prast"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "verstehen"
-            ],
-            "red": [
-              "prast"
-            ]
-          },
-          {
-            "blue": [
-              "verstehe"
-            ],
             "purple": [
-              "saprotu"
+              "verstehen"
             ]
           }
         ]
@@ -22458,25 +20743,17 @@ const A1_WORDS = [
       ],
       "tip": [
         "Atceries: von + dem → vom (kam?).",
-        "Sarunvalodā gandrīz nekad nesaka von dem — lieto vom."
+        "In colloquial speech, you almost never say von dem - use vom."
       ],
       "important": [
-        "vom = von dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda izcelsmi, avotu vai virzienu no kā konkrēta.",
-        "Sieviešu dzimtei: von der Mutter, nevis vom Mutter.",
-        "Nesajauc ar aus (izcelsme no valsts) vai ab (sākuma punkts)."
+        "vom = von dem, only with a masculine or neuter noun for whom? in inflection.",
+        "Indicates the origin, source, or direction from something specific.",
+        "For the female gender: von der Mutter, not vom Mutter.",
+        "Not to be confused with aus (country of origin) or ab (starting point)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "vom",
-            "von dem"
-          ],
           "purple": [
-            "Vom"
-          ],
-          "green": [
-            "Vom",
             "Vom"
           ]
         },
@@ -22513,7 +20790,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "comes"
+                "from the doctor"
               ]
             }
           },
@@ -22573,7 +20850,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "from the boss"
               ]
             }
           }
@@ -22668,11 +20945,6 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "vom"
-            ]
-          },
-          {
             "purple": [
               "von dem"
             ]
@@ -22680,35 +20952,8 @@ const A1_WORDS = [
         ],
         "important": [
           {
-            "blue": [
-              "vom"
-            ],
             "purple": [
               "von dem"
-            ],
-            "green": [
-              "kam?"
-            ]
-          },
-          {
-            "purple": [
-              "no kā"
-            ]
-          },
-          {
-            "yellow": [
-              "von der Mutter"
-            ],
-            "red": [
-              "vom Mutter"
-            ]
-          },
-          {
-            "green": [
-              "aus"
-            ],
-            "red": [
-              "ab"
             ]
           }
         ]
@@ -22775,26 +21020,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: pirms laikā, priekšā vietā → vor."
+        "text": "Remember: before time, in front of place → vor."
       },
       "important": [
-        "vor var būt gan laiks, gan vieta.",
-        "vor dem Essen = pirms ēšanas; vor dem Haus = mājas priekšā."
+        "vor can be both time and place.",
+        "vor dem Essen = before eating; vor dem Haus = in front of the house."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "vor",
-            "fünf vor acht"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main"
+            "in front",
+            "until"
           ]
         },
         "examples": [
@@ -22810,9 +21046,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "wash"
-              ],
-              "yellow": [
-                "wash"
               ]
             }
           },
@@ -22827,10 +21060,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
-              ],
-              "yellow": [
-                "The"
+                "in front"
               ]
             }
           },
@@ -22943,29 +21173,16 @@ const A1_WORDS = [
               "vor"
             ],
             "purple": [
-              "pirms",
-              "priekšā"
+              "Remember",
+              "in front"
             ]
           }
         },
         "important": [
           {
-            "blue": [
+            "purple": [
+              "vor",
               "vor"
-            ],
-            "purple": [
-              "laiks",
-              "vieta"
-            ]
-          },
-          {
-            "blue": [
-              "vor dem Essen",
-              "vor dem Haus"
-            ],
-            "purple": [
-              "pirms ēšanas",
-              "mājas priekšā"
             ]
           }
         ]
@@ -23060,20 +21277,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "was pats nemainās — vācu valodā tas vienmēr ir was; latviski izvēlies kas vai ko pēc teikuma daļas.",
-        "Ātrs triks: ja uz jautājumu var atbildēt ar 'Tas ir ...', lieto kas; ja atbilde nāk pēc darbības vārda kā papildinājums, lieto ko."
+        "was itself does not change - in German it is always was; in Latvian, choose who or what according to the part of the sentence.",
+        "Quick trick: if the question can be answered with 'It's ...', use who; if the answer comes after the verb as a complement, use ko."
       ],
       "important": [
-        "was jautā par lietām, notikumiem un faktiem — nekad par personām.",
-        "Par personām jautā ar wer (kas/kurš), nevis was.",
-        "was für (ein/eine) nozīmē kāds/kas par un jautā par īpašību vai veidu (Was für ein Film ist das? = Kāda tā ir filma?).",
+        "was asks about things, events and facts - never about persons.",
+        "People are asked with wer (who/who), not was.",
+        "was für (ein/eine) means someone/what about and asks about a quality or type (Was für ein Film ist das? = What kind of film is it?).",
         "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "was"
-          ],
           "purple": [
             "kas",
             "ko"
@@ -23167,13 +21381,7 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "was"
-            ]
-          },
-          {
             "purple": [
-              "kas",
               "ko"
             ]
           }
@@ -23314,24 +21522,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
+        "text": "Remember: condition → wenn; the question \"when?\" → wann."
       },
       "important": [
         "wenn un wann nav viens un tas pats.",
-        "Wann kommst du? ir jautājums. Wenn du kommst... ir nosacījums/laiks."
+        "When do you come? there is a question. Wenn du kommst... is a condition/tense."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "wenn"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main"
+            "condition"
           ]
         },
         "examples": [
@@ -23464,11 +21664,11 @@ const A1_WORDS = [
               "wenn"
             ],
             "purple": [
-              "nosacījums"
+              "condition"
             ],
             "yellow": [
               "wann",
-              "kad?"
+              "Remember"
             ]
           }
         },
@@ -23483,7 +21683,7 @@ const A1_WORDS = [
           },
           {
             "yellow": [
-              "Wann kommst du"
+              "When"
             ],
             "blue": [
               "Wenn du kommst"
@@ -23540,26 +21740,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wer jautā par personām (kas/kurš) — par lietām un notikumiem lieto was.",
-        "Lai jautātu par izvēli starp vairākiem cilvēkiem, izmanto wer von... (kurš no...)."
+        "wer asks about persons (who/who) - about things and events, we use was.",
+        "To ask about a choice between several people, use wer von... (which of...)."
       ],
       "important": [
-        "wer jautā tikai par personām, nekad par lietām.",
-        "Par lietām un notikumiem jautā ar was, nevis wer.",
-        "wer maina formu pēc locījuma: wen, wem, wessen — bet pamatforma ir wer.",
+        "wer only ask about persons, never about things.",
+        "Things and events are asked with was, not wer.",
+        "wer changes form by inflection: wen, wem, wessen - but the basic form is wer.",
         "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "wer"
-          ],
           "purple": [
-            "was",
-            "Main"
-          ],
-          "green": [
-            "was"
+            "who"
           ]
         },
         "examples": [
@@ -23650,19 +21843,8 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "wer"
-            ],
-            "green": [
-              "was"
-            ]
-          },
-          {
-            "blue": [
-              "wer von"
-            ],
             "purple": [
-              "kurš no"
+              "which of"
             ]
           }
         ],
@@ -23752,22 +21934,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden."
+        "text": "Remember: change/state becomes different → werden."
       },
       "important": [
         "werden nav tas pats, kas sein.",
-        "Ich werde müde = es kļūstu noguris; Ich bin müde = es esmu noguris."
+        "Ich werde müde = I am getting tired; Ich bin müde = I am tired."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "werden",
-            "Ich werde"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main"
+            "to become",
+            "becomes"
           ]
         },
         "examples": [
@@ -23803,7 +21980,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "becomes"
               ]
             }
           },
@@ -23893,30 +22070,15 @@ const A1_WORDS = [
               "werden"
             ],
             "purple": [
-              "izmaiņa",
-              "kļūst"
+              "Remember",
+              "becomes"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "werden"
-            ],
-            "red": [
-              "sein"
-            ]
-          },
-          {
-            "blue": [
-              "werde"
-            ],
             "purple": [
-              "kļūstu"
-            ],
-            "red": [
-              "bin",
-              "esmu"
+              "werden"
             ]
           }
         ]
@@ -23988,19 +22150,15 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runā par sauli, lietu vai temperatūru ārpusē — lieto das Wetter.",
-        "Atceries: Wie ist das Wetter? = Kāds laiks? (ne pulkstenis)."
+        "When talking about the sun, rain or temperature outside - use das Wetter.",
+        "Remember: Wie ist das Wetter? = What time is it? (not a clock)."
       ],
       "important": [
-        "das Wetter = laikapstākļi, ne laiks pulkstenī.",
-        "die Zeit = laiks kā brīdis vai iespēja — cita karte A1."
+        "das Wetter = the weather, not the time on the clock.",
+        "die Zeit = time as a moment or opportunity - another card A1."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "Wetter",
-            "Zeit"
-          ],
           "purple": [
             "Main"
           ]
@@ -24054,9 +22212,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "The"
-              ],
-              "yellow": [
-                "The"
               ]
             }
           },
@@ -24083,9 +22238,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tomorrow"
-              ],
-              "green": [
                 "Tomorrow"
               ]
             }
@@ -24175,16 +22327,8 @@ const A1_WORDS = [
         ],
         "important": [
           {
-            "blue": [
-              "Wetter"
-            ]
-          },
-          {
-            "green": [
-              "Zeit"
-            ],
             "purple": [
-              "laiks"
+              "das"
             ]
           }
         ]
@@ -24238,22 +22382,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wie pati par sevi = kā (veids); wie + īpašības vārds (viel/alt/lange) = cik (apjoms).",
-        "Salīdzinājumā so ... wie = tikpat ... kā."
+        "wie by itself = how (way); wie + adjective (viel/alt/lange) = how much (amount).",
+        "In comparison, so ... wie = as ... as."
       ],
       "important": [
         "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
-        "wie viens pats (Wie...?) parasti = kā, ne cik.",
-        "Nepareizi: Cik tev iet? → Pareizi: Kā tev iet? (Wie geht's?)"
+        "wie alone (Wie...?) usually = how, not how much.",
+        "Incorrect: How old are you? → Correct: How are you? (Wie geht's?)"
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "wie"
-          ],
           "purple": [
-            "Main",
-            "Main"
+            "how"
           ]
         },
         "examples": [
@@ -24265,7 +22405,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "How"
+                "how"
               ]
             }
           },
@@ -24332,18 +22472,9 @@ const A1_WORDS = [
         ],
         "tip": [
           {
-            "blue": [
-              "wie"
-            ],
             "purple": [
-              "kā",
-              "cik"
-            ]
-          },
-          {
-            "purple": [
-              "tikpat",
-              "kā"
+              "how",
+              "how"
             ]
           }
         ],
@@ -24352,20 +22483,8 @@ const A1_WORDS = [
             "purple": [
               "cik daudz",
               "cik vecs",
-              "cik ilgi"
-            ]
-          },
-          {
-            "purple": [
-              "kā"
-            ]
-          },
-          {
-            "red": [
-              "Cik tev iet?"
-            ],
-            "blue": [
-              "Kā tev iet?"
+              "cik ilgi",
+              "wie"
             ]
           }
         ]
@@ -24472,28 +22591,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer."
+        "text": "Remember: to the doctor → zum Arzt; too expensive → zu teuer."
       },
       "important": [
-        "zu ir ļoti daudz lietojumu, tāpēc vienmēr skaties uz konstrukciju.",
-        "zu teuer nozīmē “pārāk dārgi”, nevis “uz dārgi”."
+        "zu has many uses, so always look at the construction.",
+        "zu teuer means 'too expensive', not 'to expensive'."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "zu",
-            "zu lernen",
-            "zu gehen"
-          ],
           "purple": [
-            "Main",
-            "Main",
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Main",
-            "Main"
+            "too"
           ]
         },
         "examples": [
@@ -24505,7 +22612,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "I'm"
+                "to the doctor"
               ]
             }
           },
@@ -24529,7 +22636,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "It's"
+                "too expensive"
               ]
             }
           },
@@ -24627,29 +22734,15 @@ const A1_WORDS = [
               "zu teuer"
             ],
             "purple": [
-              "pie ārsta",
-              "pārāk dārgi"
+              "to the doctor",
+              "too expensive"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "zu"
-            ],
             "purple": [
-              "konstrukciju"
-            ]
-          },
-          {
-            "blue": [
-              "zu teuer"
-            ],
-            "purple": [
-              "pārāk dārgi"
-            ],
-            "red": [
-              "uz dārgi"
+              "has"
             ]
           }
         ]
@@ -24724,25 +22817,15 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: konkrēts vilciens → der Zug."
+        "text": "Remember: specific train → der Zug."
       },
       "important": [
-        "der Zug virsrakstā jāuztver kā “vilciens”.",
-        "Retākās nozīmes nav vajadzīgas galvenajā A1 virsrakstā."
+        "der Zug in the title should be read as 'train'.",
+        "The rarer meanings are not needed in the main A1 heading."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Zug",
-            "Zug",
-            "mit dem Zug fahren"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "red": [
-            "Main",
             "Main",
             "Main"
           ]
@@ -24874,25 +22957,15 @@ const A1_WORDS = [
               "der Zug"
             ],
             "purple": [
-              "konkrēts vilciens"
+              "Remember"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "der Zug"
-            ],
             "purple": [
-              "vilciens"
-            ]
-          },
-          {
-            "red": [
-              "Retākās nozīmes"
-            ],
-            "purple": [
-              "a1 virsrakstā"
+              "der",
+              "der"
             ]
           }
         ]
@@ -24977,25 +23050,17 @@ const A1_WORDS = [
       ],
       "tip": [
         "Atceries: zu + dem → zum (kam?).",
-        "Sievišķās dzimtes vārdiem: zu + der → zur."
+        "For feminine words: zu + der → zur."
       ],
       "important": [
-        "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda virzienu vai mērķi: pie ārsta, uz staciju, pie drauga.",
-        "Sievišķās dzimtei lieto zur: zur Bank, zur Post.",
-        "Nesajauc ar bei (atrašanās pie) vai nach (uz pilsētām bez artikula)."
+        "zum = zu dem, only with a masculine or genderless noun for whom? in inflection.",
+        "Indicates the direction or goal: to the doctor, to the station, to a friend.",
+        "For the feminine gender, zur is used: zur Bank, zur Post.",
+        "Not to be confused with bei (located at) or nach (to cities without article)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "zum",
-            "zu dem"
-          ],
           "purple": [
-            "Zum",
-            "Zum"
-          ],
-          "green": [
             "Zum",
             "Zum"
           ]
@@ -25009,7 +23074,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "I'm"
+                "to the doctor"
               ]
             }
           },
@@ -25081,7 +23146,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "for a birthday"
               ]
             }
           },
@@ -25203,37 +23268,8 @@ const A1_WORDS = [
         ],
         "important": [
           {
-            "blue": [
-              "zum"
-            ],
             "purple": [
               "zu dem"
-            ],
-            "green": [
-              "kam?"
-            ]
-          },
-          {
-            "purple": [
-              "uz",
-              "pie"
-            ],
-            "green": [
-              "mērķi"
-            ]
-          },
-          {
-            "yellow": [
-              "zur Bank",
-              "zur Post"
-            ]
-          },
-          {
-            "green": [
-              "bei"
-            ],
-            "red": [
-              "nach"
             ]
           }
         ]
@@ -25360,20 +23396,12 @@ const A1_WORDS = [
         ]
       },
       "important": {
-        "text": "Fernsehen = verb (ich sehe fern). das Fernsehen = noun, singular only."
+        "text": "fernsehen = verb (ich sehe fern). das Fernsehen = noun, singular only."
       },
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "fernsehen",
-            "sehe",
-            "fern"
-          ],
           "purple": [
             "Main"
-          ],
-          "green": [
-            "das Fernsehen"
           ]
         },
         "examples": [
@@ -25399,7 +23427,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "you"
+                "watch TV"
               ]
             }
           },
@@ -25465,14 +23493,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
-        "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā."
+        "Fernsehen (ich sehe fern) is used when talking about an action. When talking about a TV programme or media, use das Fernsehen.",
+        "Noun, singular only. Describes TV as a medium or broadcast in general."
       ],
       "important": [
-        "fernsehen ir sadalāms: sehen + fern.",
-        "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
+        "fernsehen is divisible: sehen + fern.",
+        "das Fernsehen is not plural - not *die Fernsehen.",
         "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
-        "Darbība: fernsehen → ich sehe fern."
+        "Action: fernsehen → ich sehe fern."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25602,26 +23630,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Appetit = apetīte",
-        "Izmanto der Appetit, kad konteksts atbilst šai nozīmei."
+        "der Appetit = appetite",
+        "Uses der Appetit when the context suits this meaning."
       ],
       "important": [
-        "der Appetit ir tikai vienskaitlī.",
+        "der Appetit is singular only.",
         "Nepareizi: die Appetite → Pareizi: der Appetit",
         "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
-        "Sajūta: der Appetit."
+        "Feel: der Appetit."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "der Appetit",
-            "appetit"
-          ],
           "purple": [
             "appetite",
-            "Appetit"
-          ],
-          "yellow": [
             "Appetit"
           ]
         },
@@ -25634,7 +23655,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Good"
+                "appetite"
               ]
             }
           },
@@ -25646,7 +23667,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Bon"
+                "appetit"
               ]
             }
           },
@@ -25666,7 +23687,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "apetīte"
+              "appetite"
             ]
           }
         ],
@@ -25724,27 +23745,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "essen = ēst",
-        "Izmanto essen, kad konteksts atbilst šai nozīmei."
+        "essen = to eat",
+        "Use essen when the context fits this meaning."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
+        "essen is a verb without an article.",
         "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "Action: essen.",
+        "Case/meal: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "essen",
-            "essen"
-          ],
           "purple": [
-            "Main"
-          ],
-          "blue": [
-            "essen",
-            "esse"
+            "to eat"
           ]
         },
         "examples": [
@@ -25765,7 +23778,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "What"
+                "to eat"
               ]
             }
           },
@@ -25809,7 +23822,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "ēst"
+              "to eat"
             ]
           }
         ],
@@ -25868,27 +23881,20 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Essen = ēst",
-        "Izmanto das Essen, kad konteksts atbilst šai nozīmei."
+        "das Essen = to eat",
+        "Use das Essen when the context suits this meaning."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
+        "essen is a verb without an article.",
         "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "Action: essen.",
+        "Case/meal: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
-          "yellow": [
-            "das Essen",
-            "essen"
-          ],
           "purple": [
-            "Main",
-            "Main"
-          ],
-          "green": [
-            "Essen"
+            "food",
+            "a meal"
           ]
         },
         "examples": [
@@ -25901,7 +23907,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "food"
               ]
             }
           },
@@ -25930,7 +23936,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "food"
               ]
             }
           },
@@ -25943,7 +23949,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "food"
               ]
             }
           },
@@ -25956,7 +23962,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "food"
               ]
             }
           }
@@ -26012,25 +24018,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Gemüse = dārzeņi",
-        "Izmanto das Gemüse, kad konteksts atbilst šai nozīmei."
+        "das Gemüse = vegetables",
+        "Use das Gemüse when the context corresponds to this meaning."
       ],
       "important": [
         "Nav pareizi: die Gemüse, die Obsts.",
         "Nepareizi: die Gemüse → Pareizi: das Gemüse",
-        "das Gemüse = dārzeņi (kopumā)."
+        "das Gemüse = vegetables (in general)."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "das Gemüse",
-            "gemüse"
-          ],
           "purple": [
-            "Main"
-          ],
-          "green": [
-            "Gemüse"
+            "vegetables"
           ]
         },
         "examples": [
@@ -26042,7 +24041,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "like"
+                "vegetables"
               ]
             }
           },
@@ -26054,7 +24053,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "like"
+                "vegetables"
               ]
             }
           },
@@ -26067,7 +24066,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "vegetables"
               ]
             }
           },
@@ -26079,7 +24078,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "buy"
+                "vegetables"
               ]
             }
           },
@@ -26091,7 +24090,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "like"
+                "vegetables"
               ]
             }
           },
@@ -26103,7 +24102,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eat"
+                "vegetables"
               ]
             }
           }
@@ -26111,7 +24110,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "dārzeņi"
+              "vegetables"
             ]
           }
         ],
@@ -26158,24 +24157,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Obst = augļi",
-        "Izmanto das Obst, kad konteksts atbilst šai nozīmei."
+        "das Obst = fruits",
+        "Use das Obst when the context suits this meaning."
       ],
       "important": [
         "Nepareizi: die Obsts → Pareizi: das Obst",
-        "das Obst = augļi (kopumā)."
+        "das Obst = fruits (in general)."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "das Obst",
-            "obst"
-          ],
           "purple": [
-            "Main"
-          ],
-          "yellow": [
-            "Obst"
+            "fruits"
           ]
         },
         "examples": [
@@ -26187,7 +24179,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eat"
+                "fruit"
               ]
             }
           },
@@ -26199,7 +24191,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eat"
+                "fruit"
               ]
             }
           },
@@ -26211,7 +24203,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Fruits"
+                "fruits"
               ]
             }
           },
@@ -26223,7 +24215,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "like"
+                "fruits"
               ]
             }
           },
@@ -26235,7 +24227,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "eat"
+                "fruit"
               ]
             }
           }
@@ -26243,7 +24235,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "augļi"
+              "fruits"
             ]
           }
         ],
@@ -26311,26 +24303,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
-        "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
+        "plural only. School or study holidays - always in the plural.",
+        "Use die Ferien when the context fits this meaning."
       ],
       "important": [
-        "Ferien vienmēr ar datīvu: in den Ferien.",
+        "Ferien always with dative: in den Ferien.",
         "Nepareizi: in der Ferien → Pareizi: in den Ferien",
-        "Skola: die Ferien (tikai daudzskaitlī).",
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
+        "School: die Ferien (plural only).",
+        "plural only. School or study holidays - always in the plural."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "die Ferien",
-            "ferien"
-          ],
           "purple": [
             "Main"
-          ],
-          "green": [
-            "Ferien"
           ]
         },
         "examples": [
@@ -26382,7 +24367,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "holidays"
+                "holidays (school)"
               ]
             }
           }
@@ -26446,26 +24431,19 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
-        "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
+        "singular only. Leave from work - always singular.",
+        "Use der Urlaub when the context fits this meaning."
       ],
       "important": [
-        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
+        "Incorrect: die Ferie, der Urlabe (at A1 level).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
         "Nepareizi: die Urlaube → Pareizi: der Urlaub",
-        "Darbs: der Urlaub (tikai vienskaitlī)."
+        "Work: der Urlaub (singular only)."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Urlaub",
-            "urlaub"
-          ],
           "purple": [
-            "Main"
-          ],
-          "yellow": [
-            "Urlaub"
+            "vacation"
           ]
         },
         "examples": [
@@ -26477,7 +24455,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "father"
+                "on vacation"
               ]
             }
           },
@@ -26489,7 +24467,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "father"
+                "on vacation"
               ]
             }
           },
@@ -26501,7 +24479,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "have"
+                "vacation"
               ]
             }
           },
@@ -26525,7 +24503,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vacation"
+                "on vacation"
               ]
             }
           }
@@ -26533,14 +24511,14 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "atvaļinājums"
+              "singular"
             ]
           }
         ],
         "important": [
           {
             "green": [
-              "der Urlaub"
+              "der Urlabe"
             ]
           }
         ]
@@ -26604,18 +24582,15 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
-        "Izmanto die Uhr, kad konteksts atbilst šai nozīmei."
+        "Clock or wristwatch. Also the time on the clock: Es ist acht Uhr.",
+        "Use die Uhr when the context fits this meaning."
       ],
       "important": [
-        "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
-        "die Uhr: pārbaudi kontekstu pirms lietošanas."
+        "die Uhr: device (meine Uhr) or time (acht Uhr).",
+        "die Uhr: check context before use."
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "Uhr"
-          ],
           "purple": [
             "Main"
           ]
@@ -26694,7 +24669,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "pulkstenis"
+              "Clock"
             ]
           }
         ],
@@ -26743,24 +24718,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Laiks kā jēdziens — brīdis, iespēja, laika posms.",
-        "Izmanto die Zeit, kad konteksts atbilst šai nozīmei."
+        "Time as a concept — a moment, an opportunity, a period of time.",
+        "Use die Zeit when the context fits this meaning."
       ],
       "important": [
-        "die Zeit: pārbaudi kontekstu pirms lietošanas.",
-        "die Zeit: pārbaudi kontekstu pirms lietošanas."
+        "die Zeit: Check the context before using.",
+        "die Zeit: Check the context before using."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "die Zeit",
-            "zeit"
-          ],
           "purple": [
             "Main"
-          ],
-          "yellow": [
-            "Zeit"
           ]
         },
         "examples": [
@@ -26817,7 +24785,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "laiks"
+              "Time"
             ]
           }
         ],
@@ -26857,17 +24825,14 @@ const A1_WORDS = [
       ],
       "tip": [
         "einmal = vienreiz",
-        "Izmanto einmal, kad konteksts atbilst šai nozīmei."
+        "Use einmal when the context fits this meaning."
       ],
       "important": [
-        "einmal = vienreiz vai reiz pagātnē.",
-        "Norāda uz vienu reizi vai pagātni (reiz es biju...)."
+        "einmal = once or once in the past.",
+        "Refers to a time or past (once I was...)."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "einmal"
-          ],
           "purple": [
             "Main"
           ]
@@ -26903,11 +24868,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "vienreiz"
-            ]
-          },
-          {
-            "purple": [
+              "vienreiz",
               "reiz"
             ]
           }
@@ -26948,17 +24909,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei.",
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei."
+        "Use noch mal when the context fits this meaning.",
+        "Use noch mal when the context fits this meaning."
       ],
       "important": [
-        "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
-        "noch mal: pārbaudi kontekstu pirms lietošanas."
+        "Again means to repeat an action or ask for a repetition.",
+        "noch mal: check context before use."
       ],
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Main"
+            "again"
           ]
         },
         "examples": [
@@ -26971,7 +24932,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Again"
+                "again"
               ]
             }
           },
@@ -26984,7 +24945,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Again"
+                "again"
               ]
             }
           },
@@ -26997,7 +24958,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Say"
+                "again"
               ]
             }
           }
