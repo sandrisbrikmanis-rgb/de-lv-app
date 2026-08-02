@@ -43,7 +43,10 @@
   function renderLanguageOptions(container) {
     if (!container) return;
     container.innerHTML = "";
-    window.AppLanguageRegistry.active().forEach((entry) => {
+    window.AppLanguageRegistry.active()
+      .slice()
+      .sort((a, b) => a.nativeName.localeCompare(b.nativeName, undefined, { sensitivity: "base" }))
+      .forEach((entry) => {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "language-option-btn";
