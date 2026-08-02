@@ -73,6 +73,17 @@
       dataManifestPath: "./languages/et/data/manifest.js"
     },
     {
+      code: "en",
+      nativeName: "British English",
+      nativeCode: "EN",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/en/ui.js",
+      dataManifestPath: "./languages/en/data/manifest.js"
+    },
+    {
       code: "ro",
       nativeName: "Română",
       nativeCode: "RO",
