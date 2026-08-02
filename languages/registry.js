@@ -247,6 +247,17 @@
       hasStudyData: true,
       uiPath: "./languages/nn/ui.js",
       dataManifestPath: "./languages/nn/data/manifest.js"
+    },
+    {
+      code: "da",
+      nativeName: "Dansk",
+      nativeCode: "DA",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/da/ui.js",
+      dataManifestPath: "./languages/da/data/manifest.js"
     }
   ];
 
