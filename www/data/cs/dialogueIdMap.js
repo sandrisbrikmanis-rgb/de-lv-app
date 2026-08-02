@@ -1,31 +1,31 @@
 const DIALOGUE_ID_MAP = {
   "diag_001": {
     "de": "Gute Besserung!",
-    "lv": "Wyzdrowieć! • Wyzdrowiej!"
+    "lv": "Uzdrav se! • Uzdravte se!"
   },
   "diag_002": {
     "de": "Frohes neues Jahr!",
-    "lv": "Szczęśliwego nowego roku!"
+    "lv": "Šťastný nový rok!"
   },
   "diag_003": {
     "de": "Herzlichen Glückwunsch zum Geburtstag!",
-    "lv": "Wszystkiego najlepszego z okazji urodzin!"
+    "lv": "Všechno nejlepší k narozeninám!"
   },
   "diag_004": {
     "de": "Gute Reise!",
-    "lv": "Szczęśliwej podróży!"
+    "lv": "Šťastnou cestu!"
   },
   "diag_005": {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Cieszę się, że cię poznałem."
+    "lv": "Rád tě poznávám."
   },
   "diag_006": {
     "de": "Wären Sie bitte so nett?",
-    "lv": "Czy byłbyś tak miły?"
+    "lv": "Byl bys prosím tak laskav?"
   },
   "diag_007": {
     "de": "Ich bin Ihnen sehr dankbar.",
-    "lv": "Jestem ci bardzo wdzięczny."
+    "lv": "Jsem vám velmi vděčný."
   },
   "diag_008": {
     "de": "Keine Ursache!",
@@ -33,35 +33,35 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_009": {
     "de": "Setzt euch bitte hin!",
-    "lv": "Usiądź, proszę!"
+    "lv": "Posaďte se, prosím!"
   },
   "diag_010": {
     "de": "Ben, komm bitte an die Tafel!",
-    "lv": "Ben, proszę podejdź do tablicy!"
+    "lv": "Bene, prosím, pojď k tabuli!"
   },
   "diag_011": {
     "de": "Schlagt bitte die Lehrbücher auf!",
-    "lv": "Otwórz podręczniki, proszę!"
+    "lv": "Otevřete učebnice, prosím!"
   },
   "diag_012": {
     "de": "Geht bitte in die Sporthalle!",
-    "lv": "Prosím, choďte do posilňovne!"
+    "lv": "Prosím, jděte do posilovny!"
   },
   "diag_013": {
     "de": "Schläfst du noch?",
-    "lv": "Czy nadal śpisz?"
+    "lv": "Ještě spíš?"
   },
   "diag_014": {
     "de": "Schlafen Sie noch?",
-    "lv": "Czy nadal śpisz?"
+    "lv": "Ty ještě spíš?"
   },
   "diag_015": {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "On szybko śpi."
+    "lv": "Tvrdě spí."
   },
   "diag_016": {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Proszę go obudzić, jest już późno!"
+    "lv": "Prosím, vzbuďte ho, už je pozdě!"
   },
   "diag_017": {
     "de": "Guten Morgen!",
@@ -69,255 +69,255 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_018": {
     "de": "Guten Tag!",
-    "lv": "Cześć!"
+    "lv": "Ahoj!"
   },
   "diag_019": {
     "de": "Gute Nacht!",
-    "lv": "Dobranoc!"
+    "lv": "Dobrou noc!"
   },
   "diag_020": {
     "de": "Entschuldigen Sie bitte!",
-    "lv": "Przepraszam, proszę!"
+    "lv": "Promiňte, prosím!"
   },
   "diag_021": {
     "de": "Es tut mir sehr leid!",
-    "lv": "Bardzo mi przykro!"
+    "lv": "Je mi to moc líto!"
   },
   "diag_022": {
     "de": "Vielen Dank!",
-    "lv": "Veľké ďakujeeem!“"
+    "lv": "Děkuji mnohokrát!"
   },
   "diag_023": {
     "de": "Finn, fang bitte an!",
-    "lv": "Finn, zacznij, proszę!"
+    "lv": "Finne, začni, prosím!"
   },
   "diag_024": {
     "de": "Lest bitte mit!",
-    "lv": "Czytaj dalej, proszę!"
+    "lv": "Čtěte, prosím!"
   },
   "diag_025": {
     "de": "Emma, schau bitte nicht aus dem Fenster!",
-    "lv": "Emmo, proszę, nie patrz przez okno!"
+    "lv": "Emmo, prosím, nedívej se z okna!"
   },
   "diag_026": {
     "de": "Jonas, bring bitte die Hefte!",
-    "lv": "Jonas, proszę przynieść zeszyty!"
+    "lv": "Jonasi, prosím, přines sešity!"
   },
   "diag_027": {
     "de": "Geh bitte zurück an deinen Platz!",
-    "lv": "Vráťte sa na svoje miesto!"
+    "lv": "Vraťte se na své místo!"
   },
   "diag_028": {
     "de": "Wie viel Uhr ist es?",
-    "lv": "Która godzina?"
+    "lv": "Kolik je hodin?"
   },
   "diag_029": {
     "de": "Es ist halb acht.",
-    "lv": "Jest wpół do siódmej."
+    "lv": "Je půl osmé."
   },
   "diag_030": {
     "de": "Wann wachst du gewöhnlich auf?",
-    "lv": "Kiedy zwykle się budzisz?"
+    "lv": "Kdy obvykle vstáváš?"
   },
   "diag_031": {
     "de": "Ich stehe gleich auf.",
-    "lv": "Zaraz wstanę."
+    "lv": "Hned vstanu."
   },
   "diag_032": {
     "de": "Steh auf, Hanna, es klingelt!",
-    "lv": "Wstawaj, Hannah, dzwoni dzwonek!"
+    "lv": "Vstávej, Hannah, zvonek zvoní!"
   },
   "diag_033": {
     "de": "Lass mich noch fünf Minuten schlafen!",
-    "lv": "Daj mi spać jeszcze pięć minut!"
+    "lv": "Nech mě spát ještě pět minut!"
   },
   "diag_034": {
     "de": "Vergiss nicht, das Zimmer zu lüften!",
-    "lv": "Nie zapomnij o wietrzeniu pomieszczenia!"
+    "lv": "Nezapomeňte místnost větrat!"
   },
   "diag_035": {
     "de": "Wo ist das Handtuch?",
-    "lv": "Gdzie jest ręcznik"
+    "lv": "Kde je ručník"
   },
   "diag_036": {
     "de": "Ich möchte mir die Zähne putzen.",
-    "lv": "Chcę umyć zęby."
+    "lv": "Chci si vyčistit zuby."
   },
   "diag_037": {
     "de": "Mit was putzt du dir die Zähne?",
-    "lv": "Czym myjesz zęby?"
+    "lv": "Čím si čistíte zuby?"
   },
   "diag_038": {
     "de": "Ich möchte mich anziehen.",
-    "lv": "Chcę się ubrać."
+    "lv": "Chci se obléknout."
   },
   "diag_039": {
     "de": "Zieh dich bitte schnell an!",
-    "lv": "Ubierz się szybko, proszę!"
+    "lv": "Rychle se obleč, prosím!"
   },
   "diag_040": {
     "de": "Kleide dich wärmer an, draußen ist es kühl.",
-    "lv": "Ubierz się ciepło, na zewnątrz jest zimno."
+    "lv": "Teple se oblečte, venku je zima."
   },
   "diag_041": {
     "de": "Guten Morgen, wie geht es dir?",
-    "lv": "Dzień dobry, jak się masz?"
+    "lv": "Dobré ráno, jak se máš?"
   },
   "diag_042": {
     "de": "Mir geht es gut, danke.",
-    "lv": "Nic mi nie jest, dziękuję."
+    "lv": "Mám se dobře, díky."
   },
   "diag_043": {
     "de": "Was gibt es Neues?",
-    "lv": "Co nowego?"
+    "lv": "Co je nového?"
   },
   "diag_044": {
     "de": "Auf Wiedersehen!",
-    "lv": "Do widzenia!"
+    "lv": "Sbohem!"
   },
   "diag_045": {
     "de": "Was für ein Chaos hier!",
-    "lv": "Cóż tu za bałagan!"
+    "lv": "Jaký je tady nepořádek!"
   },
   "diag_046": {
     "de": "Darf ich beim Aufräumen helfen?",
-    "lv": "Czy mogę pomóc w sprzątaniu?"
+    "lv": "Mohu pomoci uklidit?"
   },
   "diag_047": {
     "de": "Was trinkst du morgens, Kaffee oder Tee?",
-    "lv": "Co pijesz rano, kawę czy herbatę?"
+    "lv": "Co piješ ráno, kávu nebo čaj?"
   },
   "diag_048": {
     "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
-    "lv": "Zwykle rano piję filiżankę kawy."
+    "lv": "Ráno obvykle piju šálek kávy."
   },
   "diag_049": {
     "de": "Am liebsten trinke ich schwarzen Kaffee.",
-    "lv": "Najlepiej piję czarną kawę."
+    "lv": "Nejlépe piju černou kávu."
   },
   "diag_050": {
     "de": "Guten Morgen, hast du gut geschlafen?",
-    "lv": "Dobrý deň, dobre ste sa vyspali?"
+    "lv": "Dobré ráno, vyspali jste se dobře?"
   },
   "diag_051": {
     "de": "Ich bin noch sehr müde.",
-    "lv": "Nadal jestem bardzo zmęczony."
+    "lv": "Jsem stále velmi unavený."
   },
   "diag_052": {
     "de": "Willst du Kaffee oder Milch?",
-    "lv": "Chcesz kawę czy mleko?"
+    "lv": "Dáš si kávu nebo mléko?"
   },
   "diag_053": {
     "de": "Gib mir bitte ein Brötchen mit Käse.",
-    "lv": "Proszę, daj mi bułkę serową."
+    "lv": "Dejte mi sýrovou buchtu, prosím."
   },
   "diag_054": {
     "de": "Ich muss jetzt los!",
-    "lv": "Muszę już iść!"
+    "lv": "Už musím jít!"
   },
   "diag_055": {
     "de": "Vergiss dein Frühstück nicht!",
-    "lv": "Nie zapomnij o śniadaniu!"
+    "lv": "Nezapomeňte na snídani!"
   },
   "diag_056": {
     "de": "Klara, deck bitte den Tisch!",
-    "lv": "Clara, proszę nakryć do stołu!"
+    "lv": "Claro, prosím prostřeš stůl!"
   },
   "diag_057": {
     "de": "Vergiss die Servietten nicht!",
-    "lv": "Nie zapomnij o serwetkach!"
+    "lv": "Nezapomeňte na ubrousky!"
   },
   "diag_058": {
     "de": "Wann esst ihr zu Mittag?",
-    "lv": "Kiedy jesz lunch"
+    "lv": "Kdy obědváš"
   },
   "diag_059": {
     "de": "Es ist Zeit zu essen.",
-    "lv": "Czas jeść."
+    "lv": "Je čas jíst."
   },
   "diag_060": {
     "de": "Was gibt es heute zu Mittag?",
-    "lv": "Co dzisiaj na lunch?"
+    "lv": "Co je dnes k obědu?"
   },
   "diag_061": {
     "de": "Wie schmeckt dir die Suppe?",
-    "lv": "Jak ci się podoba zupa?"
+    "lv": "Jak vám chutná polévka?"
   },
   "diag_062": {
     "de": "Ehrlich gesagt ist sie etwas zu salzig.",
-    "lv": "Szczerze mówiąc, jest odrobinę za słony."
+    "lv": "Upřímně řečeno, je to trochu příliš slané."
   },
   "diag_063": {
     "de": "Darf ich dir ein Stück Brot geben?",
-    "lv": "Czy mogę dać ci kromkę chleba?"
+    "lv": "Můžu ti dát krajíc chleba?"
   },
   "diag_064": {
     "de": "Danke, ich habe schon.",
-    "lv": "Dziękuję, już to zrobiłem."
+    "lv": "Díky, už mám."
   },
   "diag_065": {
     "de": "Das Fleisch schmeckt ausgezeichnet.",
-    "lv": "Mięso smakuje wyśmienicie."
+    "lv": "Maso chutná skvěle."
   },
   "diag_066": {
     "de": "Danke, ich bin schon satt.",
-    "lv": "Dziękuję, już jestem pełny."
+    "lv": "Díky, už mám plno."
   },
   "diag_067": {
     "de": "Heute haben wir Besuch.",
-    "lv": "Dziś mamy gości."
+    "lv": "Dnes máme návštěvníky."
   },
   "diag_068": {
     "de": "Bist du heute Abend frei?",
-    "lv": "Czy jesteś wolny dziś wieczorem?"
+    "lv": "Máš dnes večer volno"
   },
   "diag_069": {
     "de": "Komm doch heute zum Mittagessen vorbei!",
-    "lv": "Przyjdź dziś na lunch!"
+    "lv": "Přijďte dnes na oběd!"
   },
   "diag_070": {
     "de": "Setzen wir uns an den Tisch.",
-    "lv": "Usiądźmy przy stole."
+    "lv": "Sedneme si ke stolu."
   },
   "diag_071": {
     "de": "Bitte, bedien dich!",
-    "lv": "Proszę, jedz tyle, ile chcesz!"
+    "lv": "Jezte, prosím, kolik chcete!"
   },
   "diag_072": {
     "de": "Stört dich das Rauchen?",
-    "lv": "Czy palenie Ci przeszkadza?"
+    "lv": "Vadí vám kouření?"
   },
   "diag_073": {
     "de": "Danke für die nette Aufnahme!",
-    "lv": "Dziękuję za ciepłe powitanie!"
+    "lv": "Děkujeme za vřelé přivítání!"
   },
   "diag_074": {
     "de": "Wann gehst du ins Bett?",
-    "lv": "Keď idete spať"
+    "lv": "Kdy jdeš spát"
   },
   "diag_075": {
     "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
-    "lv": "Zawsze jestem zmęczony, kiedy wracam do domu z pracy."
+    "lv": "Jsem vždy unavený, když přijdu z práce."
   },
   "diag_076": {
     "de": "Es ist Zeit, ins Bett zu gehen.",
-    "lv": "Czas iść spać."
+    "lv": "Je čas jít spát."
   },
   "diag_077": {
     "de": "Es ist schönes Wetter.",
-    "lv": "To miły czas."
+    "lv": "Je to pěkný čas."
   },
   "diag_078": {
     "de": "Willst du mit mir spazieren gehen?",
-    "lv": "Czy chcesz iść ze mną?"
+    "lv": "Chceš jít se mnou?"
   },
   "diag_079": {
     "de": "Sieh mal, es wird gleich regnen.",
-    "lv": "Spójrz, wkrótce będzie padać."
+    "lv": "Podívej, brzy bude pršet."
   },
   "diag_080": {
     "de": "Nimm den Regenschirm mit!",
-    "lv": "Zabierz ze sobą parasol!"
+    "lv": "Vezměte si s sebou deštník!"
   },
   "diag_081": {
     "de": "Es regnet.",
@@ -325,991 +325,991 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_082": {
     "de": "Ich bin schon ganz nass.",
-    "lv": "Jestem już całkowicie mokry."
+    "lv": "Už jsem úplně mokrá."
   },
   "diag_083": {
     "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
-    "lv": "Myślisz, że będzie padać przez cały dzień?"
+    "lv": "Myslíte, že bude celý den pršet?"
   },
   "diag_084": {
     "de": "Es hört auf zu regnen.",
-    "lv": "Deszcz przestaje padać."
+    "lv": "Déšť ustává."
   },
   "diag_085": {
     "de": "Die Sonne scheint wieder.",
-    "lv": "Znowu świeci słońce."
+    "lv": "Už zase svítí sluníčko."
   },
   "diag_086": {
     "de": "Es ist sehr warm.",
-    "lv": "Jest bardzo gorąco."
+    "lv": "Je velmi horko."
   },
   "diag_087": {
     "de": "Es sieht nach Regen aus.",
-    "lv": "Wygląda na to, że będzie padać."
+    "lv": "Vypadá to, že bude pršet."
   },
   "diag_088": {
     "de": "Wir bekommen gleich ein Gewitter.",
-    "lv": "Zaraz rozpęta się burza."
+    "lv": "Čeká nás bouřka."
   },
   "diag_089": {
     "de": "Das Gewitter zieht vorüber.",
-    "lv": "Burza minęła."
+    "lv": "Bouře přešla."
   },
   "diag_090": {
     "de": "Die Wolken verziehen sich.",
-    "lv": "Chmury się rozpraszają."
+    "lv": "Mraky se rozptýlí."
   },
   "diag_091": {
     "de": "Siehst du den Regenbogen?",
-    "lv": "Widzisz tęczę?"
+    "lv": "Vidíš duhu?"
   },
   "diag_092": {
     "de": "Der Winter ist da, es hat geschneit.",
-    "lv": "Nadeszła zima, w nocy padał śnieg."
+    "lv": "Zima je tady, v noci sněžilo."
   },
   "diag_093": {
     "de": "Es schneit.",
-    "lv": "Pada śnieg."
+    "lv": "Sněží."
   },
   "diag_094": {
     "de": "Wie schön ist es im Wald im Winter!",
-    "lv": "Jak pięknie jest w lesie zimą!"
+    "lv": "Jak je v zimě v lese krásně!"
   },
   "diag_095": {
     "de": "Mir ist kalt, ich friere.",
-    "lv": "Jest mi zimno, marznę."
+    "lv": "Je mi zima, mrznu."
   },
   "diag_096": {
     "de": "Draußen ist Glatteis, pass auf!",
-    "lv": "Na zewnątrz jest ślisko, uważajcie!"
+    "lv": "Venku to klouže, pozor!"
   },
   "diag_097": {
     "de": "Wollen wir auf die Eisbahn gehen?",
-    "lv": "Może pójdziemy na łyżwy?"
+    "lv": "Půjdeme bruslit?"
   },
   "diag_098": {
     "de": "Zieh die Jacke an, du kannst dich erkälten.",
-    "lv": "Załóż kurtkę, bo możesz się przeziębić."
+    "lv": "Oblečte si bundu, mohli byste nastydnout."
   },
   "diag_099": {
     "de": "Wie spät ist es?",
-    "lv": "Która godzina"
+    "lv": "Kolik je hodin"
   },
   "diag_100": {
     "de": "Es ist halb sieben.",
-    "lv": "Jest wpół do siódmej."
+    "lv": "Je půl osmé."
   },
   "diag_101": {
     "de": "Meine Uhr geht fünf Minuten vor.",
-    "lv": "Mój zegarek śpieszy się pięć minut."
+    "lv": "Moje hodinky jsou rychlé pět minut."
   },
   "diag_102": {
     "de": "Weck mich morgen früh um sieben Uhr!",
-    "lv": "Obudź mnie jutro o siódmej!"
+    "lv": "Vzbuď mě zítra v sedm hodin!"
   },
   "diag_103": {
     "de": "Was ist heute für ein Datum?",
-    "lv": "Jaka jest dzisiaj data?"
+    "lv": "Jaké je dnes datum?"
   },
   "diag_104": {
     "de": "Heute ist der elfte Juli.",
-    "lv": "Dziś jest jedenasty lipca."
+    "lv": "Dnes je jedenáctého července."
   },
   "diag_105": {
     "de": "Was machst du gewöhnlich am Abend?",
-    "lv": "Co zwykle robisz wieczorami?"
+    "lv": "Co obvykle děláš po večerech?"
   },
   "diag_106": {
     "de": "Es ist schon lange her, dass wir uns gesehen haben.",
-    "lv": "Nie spotykaliśmy się przez długi czas."
+    "lv": "Dlouho jsme se neviděli."
   },
   "diag_107": {
     "de": "Wie geht es dir?",
-    "lv": "Ako sa máš"
+    "lv": "Jak se máte"
   },
   "diag_108": {
     "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
-    "lv": "Przepraszam, chcę z tobą o czymś porozmawiać."
+    "lv": "Promiňte, chci s vámi něco probrat."
   },
   "diag_109": {
     "de": "Gehen wir spazieren!",
-    "lv": "Poďme sa prejsť!"
+    "lv": "Pojďme se projít!"
   },
   "diag_110": {
     "de": "Hast du Lust, mit mir in den Park zu gehen?",
-    "lv": "Chcesz iść ze mną do parku?"
+    "lv": "Chceš jít se mnou do parku?"
   },
   "diag_111": {
     "de": "Ich komme, um dich zum Spaziergang abzuholen.",
-    "lv": "Przyszedłem zabrać cię na spacer."
+    "lv": "Přišel jsem tě vzít na procházku."
   },
   "diag_112": {
     "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
-    "lv": "Jedź trochę wolniej, nie nadążam za tobą!"
+    "lv": "Jdi trochu pomaleji, nestíhám s tebou!"
   },
   "diag_113": {
     "de": "Ich bin zum ersten Mal in dieser Gegend.",
-    "lv": "Jestem tu po raz pierwszy."
+    "lv": "Jsem tu poprvé."
   },
   "diag_114": {
     "de": "Ruhen wir uns ein wenig aus.",
-    "lv": "Odpocznijmy trochę."
+    "lv": "Pojďme si trochu odpočinout."
   },
   "diag_115": {
     "de": "Jetzt können wir zurückgehen.",
-    "lv": "Teraz możemy wrócić."
+    "lv": "Teď se můžeme vrátit."
   },
   "diag_116": {
     "de": "Ehrlich gesagt bin ich ziemlich müde.",
-    "lv": "Szczerze mówiąc, jestem dość zmęczony."
+    "lv": "Upřímně, jsem docela unavený."
   },
   "diag_117": {
     "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
-    "lv": "Prepáčte, kde je najbližšia stanica metra?"
+    "lv": "Promiňte, kde je nejbližší stanice metra?"
   },
   "diag_118": {
     "de": "Welcher ist der kürzeste Weg?",
-    "lv": "Która ścieżka jest najkrótsza?"
+    "lv": "Jaká je nejkratší cesta?"
   },
   "diag_119": {
     "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
-    "lv": "Tutaj skręć w drugą ulicę w lewo i jedź prosto."
+    "lv": "Zde odbočte druhou ulicí doleva a jděte rovně."
   },
   "diag_120": {
     "de": "Wie komme ich am schnellsten zum Bahnhof?",
-    "lv": "Jak szybciej dotrzeć na stację?"
+    "lv": "Jak se rychleji dostat na nádraží?"
   },
   "diag_121": {
     "de": "Ich habe vor, morgen zu verreisen.",
-    "lv": "Zamierzam wyjechać jutro."
+    "lv": "Mám v úmyslu zítra odjet."
   },
   "diag_122": {
     "de": "Wohin willst du fahren?",
-    "lv": "Gdzie chcesz iść?"
+    "lv": "Kam chceš jít?"
   },
   "diag_123": {
     "de": "Reist du geschäftlich oder privat?",
-    "lv": "Podróżujesz w celach zawodowych lub rekreacyjnych?"
+    "lv": "Cestujete za prací nebo za zábavou?"
   },
   "diag_124": {
     "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
-    "lv": "Finn ide do Berlína, potom k moru."
+    "lv": "Finn jede do Berlína, pak pojede k moři."
   },
   "diag_125": {
     "de": "Wann fährt das Schiff ab?",
-    "lv": "Kiedy statek odpływa?"
+    "lv": "Kdy loď odplouvá?"
   },
   "diag_126": {
     "de": "In einer halben Stunde.",
-    "lv": "Po pół godzinie."
+    "lv": "Po půl hodině."
   },
   "diag_127": {
     "de": "Kann ich noch eine Kabine bekommen?",
-    "lv": "Czy nadal mogę dostać kabinę?"
+    "lv": "Mohu ještě dostat chatu?"
   },
   "diag_128": {
     "de": "Vergiss deinen Pass nicht!",
-    "lv": "Nie zapomnij paszportu!"
+    "lv": "Nezapomeňte si pas!"
   },
   "diag_129": {
     "de": "Es ist Zeit, den Koffer zu packen.",
-    "lv": "Je čas zbaliť si kufor."
+    "lv": "Je čas sbalit si kufr."
   },
   "diag_130": {
     "de": "Der Zug fährt um halb sieben ab.",
-    "lv": "Pociąg odjeżdża o wpół do siódmej."
+    "lv": "Vlak odjíždí v půl osmé."
   },
   "diag_131": {
     "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
-    "lv": "Proszę zadzwonić po taksówkę, inaczej spóźnię się na pociąg!"
+    "lv": "Zavolej si taxi, prosím, jinak zmeškám vlak!"
   },
   "diag_132": {
     "de": "Fahr bitte zum Bahnhof!",
-    "lv": "Proszę, zabierz mnie na stację!"
+    "lv": "Prosím, vezměte mě na stanici!"
   },
   "diag_133": {
     "de": "Ich muss mich beeilen.",
-    "lv": "Muszę się spieszyć."
+    "lv": "Musím si pospíšit."
   },
   "diag_134": {
     "de": "Ist der Schalter schon offen?",
-    "lv": "Czy kasa jest już otwarta?"
+    "lv": "Už je otevřená pokladna?"
   },
   "diag_135": {
     "de": "Eine Fahrkarte nach Köln, bitte.",
-    "lv": "Poproszę jeden bilet do Kolonii."
+    "lv": "Jeden lístek do Kolína, prosím."
   },
   "diag_136": {
     "de": "Wann fährt der Zug ab?",
-    "lv": "Kiedy odjeżdża pociąg?"
+    "lv": "Kdy jede vlak?"
   },
   "diag_137": {
     "de": "Der Zug fährt gleich ab.",
-    "lv": "Pociąg wkrótce odjeżdża."
+    "lv": "Vlak brzy odjíždí."
   },
   "diag_138": {
     "de": "Muss ich in Koblenz umsteigen?",
-    "lv": "Czy muszę zmieniać miejsce w Koblencji?"
+    "lv": "Musím v Koblenz změnit místo?"
   },
   "diag_139": {
     "de": "Ja, dort musst du umsteigen.",
-    "lv": "Tak, musisz tam zmienić miejsce."
+    "lv": "Ano, musíte si tam přesednout."
   },
   "diag_140": {
     "de": "Ist dieser Platz frei?",
-    "lv": "Czy to miejsce jest dostępne?"
+    "lv": "Je toto místo k dispozici?"
   },
   "diag_141": {
     "de": "Nein, hier sitzt niemand.",
-    "lv": "Nie, nikt tu nie siedzi."
+    "lv": "Ne, nikdo tu nesedí."
   },
   "diag_142": {
     "de": "Wo ist der Bahnsteigkartenautomat?",
-    "lv": "Kde je automat na lístky na nástupišti?"
+    "lv": "Kde je automat na jízdenky na nástupiště?"
   },
   "diag_143": {
     "de": "Stell mein Handgepäck ins Gepäcknetz.",
-    "lv": "Umieść mój bagaż podręczny w siatce."
+    "lv": "Dejte mi příruční zavazadlo do mřížky."
   },
   "diag_144": {
     "de": "Kann ich das Fenster aufmachen?",
-    "lv": "Czy mogę otworzyć okno?"
+    "lv": "Smím otevřít okno?"
   },
   "diag_145": {
     "de": "Es zieht, schließ bitte das Fenster!",
-    "lv": "Proszę przejść, proszę zamknąć okno!"
+    "lv": "Protáhněte se, prosím, zavřete okno!"
   },
   "diag_146": {
     "de": "Welche ist die nächste Station?",
-    "lv": "Jaki jest następny przystanek?"
+    "lv": "Jaká je další zastávka?"
   },
   "diag_147": {
     "de": "Wie lange hält der Zug?",
-    "lv": "Jak długo stoi pociąg?"
+    "lv": "Jak dlouho vlak stojí?"
   },
   "diag_148": {
     "de": "Wo muss ich umsteigen?",
-    "lv": "Gdzie mam się przenieść?"
+    "lv": "Kam mám přestoupit?"
   },
   "diag_149": {
     "de": "Der Zug hat Verspätung.",
-    "lv": "Pociąg się spóźnia."
+    "lv": "Vlak má zpoždění."
   },
   "diag_150": {
     "de": "Dieser Wagen ist für Nichtraucher.",
-    "lv": "W tym wagonie obowiązuje zakaz palenia."
+    "lv": "Tento kočár je nekuřácký."
   },
   "diag_151": {
     "de": "Wir fahren jetzt über die Grenze.",
-    "lv": "Teraz jedziemy przez granicę."
+    "lv": "Teď jedeme přes hranice."
   },
   "diag_152": {
     "de": "Hast du etwas zu verzollen?",
-    "lv": "Czy masz coś do oczyszczenia?"
+    "lv": "Máte něco na vymazání?"
   },
   "diag_153": {
     "de": "Wir sind in Berlin angekommen.",
-    "lv": "Dotarliśmy do Berlina."
+    "lv": "Dorazili jsme do Berlína."
   },
   "diag_154": {
     "de": "Kannst du mir ein gutes Hotel empfehlen?",
-    "lv": "Czy możecie polecić dobry hotel?"
+    "lv": "Můžete mi doporučit dobrý hotel?"
   },
   "diag_155": {
     "de": "Haben Sie freie Zimmer?",
-    "lv": "Czy masz wolne pokoje?"
+    "lv": "Máte volné pokoje?"
   },
   "diag_156": {
     "de": "Ein Zimmer mit zwei Betten, bitte.",
-    "lv": "Prosím, izba s dvoma lôžkami."
+    "lv": "Pokoj se dvěma lůžky, prosím."
   },
   "diag_157": {
     "de": "Was kostet das Zimmer pro Nacht?",
-    "lv": "Ile kosztuje pokój za noc?"
+    "lv": "Kolik stojí pokoj za noc?"
   },
   "diag_158": {
     "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
-    "lv": "Wyjeżdżam jutro. Obudź mnie o siódmej!"
+    "lv": "Zítra odjíždím. Vzbuď mě v sedm!"
   },
   "diag_159": {
     "de": "Die Rechnung, bitte!",
-    "lv": "Billu, proszę!"
+    "lv": "Bille, prosím!"
   },
   "diag_160": {
     "de": "Wo ist die Stadtbibliothek?",
-    "lv": "Kde je mestská knižnica?"
+    "lv": "Kde je městská knihovna?"
   },
   "diag_161": {
     "de": "Wann hat das Museum geöffnet?",
-    "lv": "Kiedy muzeum jest otwarte?"
+    "lv": "Kdy je muzeum otevřeno?"
   },
   "diag_162": {
     "de": "Wollen wir ins Museum gehen?",
-    "lv": "Pójdziemy do muzeum?"
+    "lv": "Půjdeme do muzea?"
   },
   "diag_163": {
     "de": "Fahren wir mit dem Bus oder der U-Bahn?",
-    "lv": "Jedziemy autobusem czy metrem?"
+    "lv": "Jedeme autobusem nebo metrem?"
   },
   "diag_164": {
     "de": "Wo ist die nächste Bushaltestelle?",
-    "lv": "Gdzie jest najbliższy przystanek autobusowy?"
+    "lv": "Kde je nejbližší autobusová zastávka?"
   },
   "diag_165": {
     "de": "Ich habe großen Hunger.",
-    "lv": "Jestem bardzo głodny."
+    "lv": "Mám velký hlad."
   },
   "diag_166": {
     "de": "Gehen wir zusammen essen?",
-    "lv": "Pójdziemy razem zjeść?"
+    "lv": "Půjdeme spolu jíst?"
   },
   "diag_167": {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Kelnerzy, menu, proszę!"
+    "lv": "Číšníci, menu, prosím!"
   },
   "diag_168": {
     "de": "Ist der Fisch frisch?",
-    "lv": "Czy ryba jest świeża?"
+    "lv": "Je ryba čerstvá?"
   },
   "diag_169": {
     "de": "Das schmeckt ausgezeichnet!",
-    "lv": "Smakuje wspaniale!"
+    "lv": "Chutná skvěle!"
   },
   "diag_170": {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Kelnerzy, proszę zapłacić!"
+    "lv": "Číšníci, prosím zaplaťte!"
   },
   "diag_171": {
     "de": "Was kostet das?",
-    "lv": "Ile to kosztuje?"
+    "lv": "Kolik to stojí?"
   },
   "diag_172": {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "Pójdę do kawiarni napić się kawy."
+    "lv": "Půjdu do kavárny vypít kávu."
   },
   "diag_173": {
     "de": "Willst du mitkommen?",
-    "lv": "Chcesz przyjść?"
+    "lv": "Chceš se přidat?"
   },
   "diag_174": {
     "de": "Eine Tasse Kaffee mit Milch, bitte!",
-    "lv": "Poproszę filiżankę kawy z mlekiem!"
+    "lv": "Šálek kávy s mlékem, prosím!"
   },
   "diag_175": {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Szybciej, proszę, muszę się spieszyć!"
+    "lv": "Rychleji prosím, musím si pospíšit!"
   },
   "diag_176": {
     "de": "Lass deinen Kaffee nicht kalt werden!",
-    "lv": "Nie pozwól, aby kawa wystygła!"
+    "lv": "Nenechte kávu vychladnout!"
   },
   "diag_177": {
     "de": "Haben Sie etwas Erfrischendes?",
-    "lv": "Máte niečo osviežujúce?"
+    "lv": "Máte něco osvěžujícího?"
   },
   "diag_178": {
     "de": "Eine Portion Eis, bitte!",
-    "lv": "Poproszę porcję lodów!"
+    "lv": "Porce zmrzliny, prosím!"
   },
   "diag_179": {
     "de": "Heute Morgen habe ich einen Brief bekommen.",
-    "lv": "Dziś rano otrzymałem list."
+    "lv": "Dnes ráno jsem dostal dopis."
   },
   "diag_180": {
     "de": "Ich muss ihm gleich schreiben.",
-    "lv": "Muszę do niego teraz napisać."
+    "lv": "Teď mu musím napsat."
   },
   "diag_181": {
     "de": "Wo ist der nächste Briefkasten?",
-    "lv": "Gdzie jest najbliższa skrzynka pocztowa?"
+    "lv": "Kde je nejbližší poštovní schránka?"
   },
   "diag_182": {
     "de": "Wo ist die Post?",
-    "lv": "Gdzie jest poczta?"
+    "lv": "Kde je pošta?"
   },
   "diag_183": {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Przypomnij mi, żebym jutro podpisał!"
+    "lv": "Připomeňte mi, abych se zítra podepsal!"
   },
   "diag_184": {
     "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
-    "lv": "Proszę wrzucić ten list do skrzynki pocztowej!"
+    "lv": "Vhoďte prosím tento dopis do poštovní schránky!"
   },
   "diag_185": {
     "de": "Hallo, hier spricht Emma.",
-    "lv": "Cześć, tu Emma."
+    "lv": "Ahoj, tady Emma."
   },
   "diag_186": {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Czy mogę zadzwonić do ciebie później?"
+    "lv": "Můžu ti zavolat později?"
   },
   "diag_187": {
     "de": "Muss ich lange warten?",
-    "lv": "Czy muszę długo czekać?"
+    "lv": "Musím dlouho čekat?"
   },
   "diag_188": {
     "de": "Bitte schneiden Sie mir die Haare.",
-    "lv": "Prosím, ostrihajte mi vlasy."
+    "lv": "Prosím ostříhej mi vlasy."
   },
   "diag_189": {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "Z tyłu, proszę, nie za krótko."
+    "lv": "Vzadu, prosím, ne příliš krátké."
   },
   "diag_190": {
     "de": "Wann beginnt die Vorstellung?",
-    "lv": "Kiedy zaczyna się przedstawienie?"
+    "lv": "Kdy představení začíná?"
   },
   "diag_191": {
     "de": "Es fängt um halb acht an.",
-    "lv": "Zaczyna się o wpół do siódmej."
+    "lv": "Začíná se v půl deváté."
   },
   "diag_192": {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "Wszystkie bilety zostały wyprzedane."
+    "lv": "Všechny vstupenky jsou vyprodány."
   },
   "diag_193": {
     "de": "Drei Karten, bitte!",
-    "lv": "Proszę o trzy bilety!"
+    "lv": "Tři lístky, prosím!"
   },
   "diag_194": {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Zostawmy kurtki w szafie."
+    "lv": "Nechme bundy v šatníku."
   },
   "diag_195": {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Szybciej, proszę, kurtyna zaraz się otworzy!"
+    "lv": "Rychleji, prosím, opona se právě otevírá!"
   },
   "diag_196": {
     "de": "Der Vorhang fällt.",
-    "lv": "Kurtyna opada."
+    "lv": "Opona padá."
   },
   "diag_197": {
     "de": "Darf ich dich zum Tanz bitten?",
-    "lv": "Czy mogę poprosić cię do tańca?"
+    "lv": "Mohu vás požádat o tanec?"
   },
   "diag_198": {
     "de": "Wann ist eure Hochzeit?",
-    "lv": "Kiedy jest twój ślub?"
+    "lv": "Kdy máš svatbu?"
   },
   "diag_199": {
     "de": "Ich suche eine Wohnung.",
-    "lv": "Szukam mieszkania."
+    "lv": "Hledám byt."
   },
   "diag_200": {
     "de": "Ist in diesem Haus eine Wohnung frei?",
-    "lv": "Czy w tym domu jest wolne mieszkanie?"
+    "lv": "Je v tomto domě volný byt?"
   },
   "diag_201": {
     "de": "Wie viel kostet die Miete?",
-    "lv": "Ile wynosi czynsz?"
+    "lv": "Kolik stojí nájem?"
   },
   "diag_202": {
     "de": "Die Wohnung hat drei Zimmer und eine Küche.",
-    "lv": "Mieszkanie ma trzy pokoje i kuchnię."
+    "lv": "Byt má tři pokoje a kuchyň."
   },
   "diag_203": {
     "de": "Heute ziehen wir um.",
-    "lv": "Dzisiaj się przeprowadzamy."
+    "lv": "Dnes se stěhujeme."
   },
   "diag_204": {
     "de": "Mia, pack die Sachen bitte in Kisten!",
-    "lv": "Mia, proszę, spakuj rzeczy do pudełek!"
+    "lv": "Mio, dej věci do krabic, prosím!"
   },
   "diag_205": {
     "de": "Hast du alles eingepackt?",
-    "lv": "Czy wszystko jest już zapakowane?"
+    "lv": "Už je vše zabalené?"
   },
   "diag_206": {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "Prowadzę korespondencję z kolegą."
+    "lv": "Jsem v korespondenci se svým přítelem."
   },
   "diag_207": {
     "de": "Gehen wir ins Theater?",
-    "lv": "Pójdziemy do teatru?"
+    "lv": "Půjdeme do divadla?"
   },
   "diag_208": {
     "de": "Ist alles eingeladen?",
-    "lv": "Czy wszystko jest załadowane?"
+    "lv": "Je vše nabité?"
   },
   "diag_209": {
     "de": "Welch schöne Aussicht!",
-    "lv": "Cóż za piękny widok!"
+    "lv": "Jaký krásný výhled!"
   },
   "diag_210": {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Teraz możemy wszystko złożyć w całość."
+    "lv": "Nyní můžeme dát vše zpět dohromady."
   },
   "diag_211": {
     "de": "Wie viele Zimmer habt ihr?",
-    "lv": "Ile masz pokoi?"
+    "lv": "Kolik pokojů máte?"
   },
   "diag_212": {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "Latem pojadę nad morze."
+    "lv": "V létě pojedu k moři."
   },
   "diag_213": {
     "de": "Kannst du schwimmen?",
-    "lv": "Czy umie Pan pływać"
+    "lv": "Umíte plavat"
   },
   "diag_214": {
     "de": "Schwimm nicht zu weit hinaus!",
-    "lv": "Nie pływaj za daleko!"
+    "lv": "Neplavte příliš daleko!"
   },
   "diag_215": {
     "de": "Badest du jeden Tag?",
-    "lv": "Plávate každý deň?"
+    "lv": "Plaveš každý den?"
   },
   "diag_216": {
     "de": "Bei schönem Wetter gehe ich angeln.",
-    "lv": "Jeśli pogoda dopisze, jadę na ryby."
+    "lv": "Pokud je dobré počasí, chodím na ryby."
   },
   "diag_217": {
     "de": "Wie sieht er aus?",
-    "lv": "Jak on wygląda?"
+    "lv": "Jak vypadá?"
   },
   "diag_218": {
     "de": "Er hat sich aber recht verändert.",
-    "lv": "Jednak zmienił się całkiem sporo."
+    "lv": "Dost se však změnil."
   },
   "diag_219": {
     "de": "Wie ist er als Mensch?",
-    "lv": "Jaki jest jako osoba?"
+    "lv": "Jaký je jako člověk?"
   },
   "diag_220": {
     "de": "Er ist immer nett und freundlich.",
-    "lv": "Zawsze jest miły i miły."
+    "lv": "Je vždy milý a hodný."
   },
   "diag_221": {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "Źle się czuję."
+    "lv": "Cítím se špatně."
   },
   "diag_222": {
     "de": "Was fehlt dir?",
-    "lv": "Čo ti je?"
+    "lv": "Co je s tebou?"
   },
   "diag_223": {
     "de": "Ich habe starke Kopfschmerzen.",
-    "lv": "Mam silny ból głowy."
+    "lv": "Velmi mě bolí hlava."
   },
   "diag_224": {
     "de": "Ich habe mich erkältet.",
-    "lv": "Jestem przeziębiony."
+    "lv": "Jsem nachlazený."
   },
   "diag_225": {
     "de": "Ich habe Schnupfen.",
-    "lv": "Mam katar."
+    "lv": "Teče mi z nosu."
   },
   "diag_226": {
     "de": "Mir ist schwindlig.",
-    "lv": "Mam zawroty głowy."
+    "lv": "Točí se mi hlava."
   },
   "diag_227": {
     "de": "Ich muss zum Arzt gehen.",
-    "lv": "Muszę iść do lekarza."
+    "lv": "Musím k doktorovi."
   },
   "diag_228": {
     "de": "Leg dich ins Bett!",
-    "lv": "Połóż się do łóżka!"
+    "lv": "Lehni si do postele!"
   },
   "diag_229": {
     "de": "Hast du Fieber?",
-    "lv": "Máte horúčku?"
+    "lv": "Máte horečku?"
   },
   "diag_230": {
     "de": "Gestern hatte ich erhöhte Temperatur.",
-    "lv": "Wczoraj miałam wysoką temperaturę."
+    "lv": "Včera jsem měl vysokou teplotu."
   },
   "diag_231": {
     "de": "Ich habe Zahnschmerzen.",
-    "lv": "Boli mnie ząb."
+    "lv": "Bolí mě zub."
   },
   "diag_232": {
     "de": "Ich muss zum Zahnarzt gehen.",
-    "lv": "Musím ísť k zubárovi."
+    "lv": "Musím k zubaři."
   },
   "diag_233": {
     "de": "Weißt du, dass Finn krank ist?",
-    "lv": "Czy wiesz, że Finn jest chory?"
+    "lv": "Víš, že je Finn nemocný?"
   },
   "diag_234": {
     "de": "Laut Arzt wird er bald wieder gesund.",
-    "lv": "Według lekarza wkrótce wróci do zdrowia."
+    "lv": "Podle lékaře bude brzy zase v pořádku."
   },
   "diag_235": {
     "de": "Ich will meine Wohnung neu möblieren.",
-    "lv": "Chcę odnowić mieszkanie."
+    "lv": "Chci zařídit byt."
   },
   "diag_236": {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Czy mogę kupić na raty?"
+    "lv": "Mohu nakupovat na splátky?"
   },
   "diag_237": {
     "de": "Bleib im Bett, bis es dir besser geht!",
-    "lv": "Pozostań w łóżku, aż poczujesz się lepiej!"
+    "lv": "Zůstaňte v posteli, dokud se nebudete cítit lépe!"
   },
   "diag_238": {
     "de": "Noah hat in zwei Wochen schwimmen gelernt.",
-    "lv": "Noah nauczył się pływać w ciągu dwóch tygodni."
+    "lv": "Noah se naučil plavat za dva týdny."
   },
   "diag_239": {
     "de": "Sei mit dem Essen noch vorsichtig.",
-    "lv": "Bądź ostrożny z jedzeniem."
+    "lv": "Buďte opatrní s jídlem."
   },
   "diag_240": {
     "de": "Sprichst du Deutsch?",
-    "lv": "Mówisz po niemiecku?"
+    "lv": "Mluvíš německy"
   },
   "diag_241": {
     "de": "Ja, ein bisschen.",
-    "lv": "Tak, trochę."
+    "lv": "Ano, trochu."
   },
   "diag_242": {
     "de": "Du sprichst ziemlich fließend.",
-    "lv": "Mówisz całkiem płynnie."
+    "lv": "Mluvíte docela plynule."
   },
   "diag_243": {
     "de": "Wo hast du Deutsch gelernt?",
-    "lv": "Kde ste sa naučili po nemecky?"
+    "lv": "Kde jste se naučil německy?"
   },
   "diag_244": {
     "de": "Ich nehme seit einem Jahr Deutschstunden.",
-    "lv": "Od roku chodzę na lekcje języka niemieckiego."
+    "lv": "Už rok chodím na hodiny němčiny."
   },
   "diag_245": {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Zawsze szukam okazji do rozmowy po niemiecku."
+    "lv": "Vždy hledám příležitost domluvit se německy."
   },
   "diag_246": {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Czy ta książka jest nadal dostępna?"
+    "lv": "Je tato kniha ještě k dispozici?"
   },
   "diag_247": {
     "de": "Das Buch ist leider ausverkauft.",
-    "lv": "Niestety książka jest wyprzedana."
+    "lv": "Kniha je bohužel vyprodaná."
   },
   "diag_248": {
     "de": "Wann erscheint die neue Auflage?",
-    "lv": "Kiedy ukaże się nowe wydanie?"
+    "lv": "Kdy vyjde nové vydání?"
   },
   "diag_249": {
     "de": "Womit kann ich Ihnen helfen?",
-    "lv": "Jak mogę pomóc?"
+    "lv": "Jak mohu pomoci?"
   },
   "diag_250": {
     "de": "Haben Sie ganz frische Eier?",
-    "lv": "Masz świeże jajka?"
+    "lv": "Máte čerstvá vejce?"
   },
   "diag_251": {
     "de": "Was kosten die?",
-    "lv": "Ile kosztują?"
+    "lv": "Kolik stojí?"
   },
   "diag_252": {
     "de": "Das ist zu teuer.",
-    "lv": "Je to príliš drahé."
+    "lv": "Je to příliš drahé."
   },
   "diag_253": {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Czy możesz ważyć pół kilo?"
+    "lv": "Dokážeš vážit půl kila?"
   },
   "diag_254": {
     "de": "Wie viel muss ich zahlen?",
-    "lv": "Ile muszę zapłacić?"
+    "lv": "Kolik musím zaplatit?"
   },
   "diag_255": {
     "de": "Wie viel kostet das Kilo?",
-    "lv": "Ile kosztuje kilogram?"
+    "lv": "Kolik stojí kilogram?"
   },
   "diag_256": {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Proszę zważyć dwa kilogramy."
+    "lv": "Navažte prosím dva kilogramy."
   },
   "diag_257": {
     "de": "Haben Sie auch Karotten?",
-    "lv": "Czy Wy też macie marchewki?"
+    "lv": "Máte taky mrkev?"
   },
   "diag_258": {
     "de": "Haben Sie gutes Rindfleisch?",
-    "lv": "Czy masz dobrą wołowinę?"
+    "lv": "Máte dobré hovězí?"
   },
   "diag_259": {
     "de": "Geben Sie mir zwei Kilo Hackfleisch.",
-    "lv": "Daj dwa kilogramy mięsa mielonego."
+    "lv": "Dejte dva kilogramy mletého masa."
   },
   "diag_260": {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "Poproszę jeden bochenek chleba, ale nie za twardy."
+    "lv": "Jeden bochník chleba, prosím, ale ne příliš tvrdý."
   },
   "diag_261": {
     "de": "Das Brot ist frisch gebacken.",
-    "lv": "Chlieb je čerstvo upečený."
+    "lv": "Chléb je čerstvě upečený."
   },
   "diag_262": {
     "de": "Was für Obst haben Sie heute?",
-    "lv": "Aké ovocie máte dnes?"
+    "lv": "Jaké ovoce máte dnes?"
   },
   "diag_263": {
     "de": "Was kosten die Äpfel?",
-    "lv": "Ile kosztują jabłka?"
+    "lv": "Kolik stojí jablka?"
   },
   "diag_264": {
     "de": "Dann nehme ich zwei Kilo Äpfel.",
-    "lv": "Potem wezmę dwa kilogramy jabłek."
+    "lv": "Pak si vezmu dva kilogramy jablek."
   },
   "diag_265": {
     "de": "Die Birnen sind sehr teuer.",
-    "lv": "Gruszki są bardzo drogie."
+    "lv": "Hrušky jsou velmi drahé."
   },
   "diag_266": {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Czy możesz dostarczyć wszystko do swojego domu?"
+    "lv": "Můžete vše doručit až domů?"
   },
   "diag_267": {
     "de": "Haben Sie Reis?",
-    "lv": "Czy masz ryż?"
+    "lv": "Máš rýži?"
   },
   "diag_268": {
     "de": "Geben Sie mir bitte ein Kilo Reis.",
-    "lv": "Proszę, daj mi kilogram ryżu."
+    "lv": "Dejte mi kilogram rýže, prosím."
   },
   "diag_269": {
     "de": "Danke, diesmal nicht.",
-    "lv": "Dziękuję, nie tym razem."
+    "lv": "Díky, tentokrát ne."
   },
   "diag_270": {
     "de": "Wie viel kostet dieser Teppich?",
-    "lv": "Ile kosztuje ten dywan?"
+    "lv": "Kolik stojí tento koberec?"
   },
   "diag_271": {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Je možné dodať nábytok do bytu?"
+    "lv": "Můžete dodat nábytek do bytu?"
   },
   "diag_272": {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Proszę zapłacić w kasie."
+    "lv": "Plaťte prosím na pokladně."
   },
   "diag_273": {
     "de": "Bitte, machen Sie die Rechnung.",
-    "lv": "Proszę o wystawienie faktury."
+    "lv": "Prosím o vystavení faktury."
   },
   "diag_274": {
     "de": "Was kostet das Meter?",
-    "lv": "Ile kosztuje metr?"
+    "lv": "Kolik stojí metr?"
   },
   "diag_275": {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "Uwielbiam tę tkaninę."
+    "lv": "Miluji tuto látku."
   },
   "diag_276": {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Proszę obciąć trzy metry."
+    "lv": "Prosím, uřízněte tři metry."
   },
   "diag_277": {
     "de": "Haben Sie auch andere Muster?",
-    "lv": "Czy masz inne próbki?"
+    "lv": "Máte jiné vzorky?"
   },
   "diag_278": {
     "de": "Diese Farbe gefällt mir nicht.",
-    "lv": "Nie podoba mi się ten kolor."
+    "lv": "Tato barva se mi nelíbí."
   },
   "diag_279": {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Daj jaśniejsze."
+    "lv": "Dejte jasnější."
   },
   "diag_280": {
     "de": "Was kosten diese Socken?",
-    "lv": "Ile kosztują te skarpetki?"
+    "lv": "Kolik jsou tyto ponožky?"
   },
   "diag_281": {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "Aké rukavice chcete?"
+    "lv": "Jaké chceš rukavice?"
   },
   "diag_282": {
     "de": "Die sind mir etwas zu eng.",
-    "lv": "Są dla mnie trochę za ciasne."
+    "lv": "Jsou mi trochu těsné."
   },
   "diag_283": {
     "de": "So, nun passen sie gut.",
-    "lv": "Więc teraz działa dobrze."
+    "lv": "Takže teď to funguje dobře."
   },
   "diag_284": {
     "de": "Kannst du mir einen guten Schneider empfehlen?",
-    "lv": "Czy możecie polecić dobrego krawca?"
+    "lv": "Můžete mi doporučit dobrého krejčího?"
   },
   "diag_285": {
     "de": "Ich will einen Anzug bestellen.",
-    "lv": "Chcę zamówić garnitur."
+    "lv": "Chci si objednat oblek."
   },
   "diag_286": {
     "de": "Wann wird er fertig sein?",
-    "lv": "Kiedy będzie gotowy?"
+    "lv": "Kdy to bude hotové?"
   },
   "diag_287": {
     "de": "Der Anzug sitzt gut.",
-    "lv": "Garnitur pasuje dobrze."
+    "lv": "Oblek dobře sedí."
   },
   "diag_288": {
     "de": "Die Hose ist zu lang.",
-    "lv": "Spodnie są za długie."
+    "lv": "Kalhoty jsou příliš dlouhé."
   },
   "diag_289": {
     "de": "Bitte reinigen und bügeln Sie ihn!",
-    "lv": "Proszę wyczyścić i wyprasować!"
+    "lv": "Prosím vyčistěte a vyžehlete!"
   },
   "diag_290": {
     "de": "Wann wird das Kleid fertig sein?",
-    "lv": "Kiedy sukienka będzie gotowa?"
+    "lv": "Kdy budou šaty hotové?"
   },
   "diag_291": {
     "de": "Die Schuhe sind zu eng.",
-    "lv": "Buty są za ciasne."
+    "lv": "Boty jsou příliš těsné."
   },
   "diag_292": {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Czy możesz dzisiaj naprawić swoje buty?"
+    "lv": "Můžete si dnes opravit boty?"
   },
   "diag_293": {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "Kiedy mogę przynieść buty?"
+    "lv": "Kdy mohu přinést boty?"
   },
   "diag_294": {
     "de": "Meine Armbanduhr funktioniert nicht.",
-    "lv": "Mój zegarek nie działa."
+    "lv": "Moje náramkové hodinky nefungují."
   },
   "diag_295": {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "Je o päť minút skôr."
+    "lv": "Je pět minut dřív."
   },
   "diag_296": {
     "de": "Bist du kurzsichtig oder weitsichtig?",
-    "lv": "Czy jesteś krótkowzroczny czy dalekowzroczny?"
+    "lv": "Jste krátkozraký nebo dalekozraký?"
   },
   "diag_297": {
     "de": "Ich möchte eine Brille kaufen.",
-    "lv": "Chcę kupić okulary."
+    "lv": "Chci si koupit brýle."
   },
   "diag_298": {
     "de": "Können Sie meine Brille reparieren?",
-    "lv": "Czy możesz naprawić moje okulary?"
+    "lv": "Můžete mi opravit brýle?"
   },
   "diag_299": {
     "de": "Das dauert nur eine Viertelstunde.",
-    "lv": "To zajmie tylko piętnaście minut."
+    "lv": "Zabere to jen patnáct minut."
   },
   "diag_300": {
     "de": "Der Preis ist mir zu hoch.",
-    "lv": "Cena jest dla mnie za wysoka."
+    "lv": "Cena je pro mě příliš vysoká."
   },
   "diag_301": {
     "de": "Ich brauche zwei Fotos für meinen Pass.",
-    "lv": "Potrzebuję dwóch zdjęć paszportowych."
+    "lv": "Potřebuji dvě pasové fotografie."
   },
   "diag_302": {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Zbaľte sa a pošlite domov."
+    "lv": "Prosím zabalte a pošlete domů."
   },
   "diag_303": {
     "de": "Wir haben feste Preise.",
-    "lv": "Mamy stałe ceny."
+    "lv": "Máme pevné ceny."
   },
   "diag_304": {
     "de": "Bitte, fotografieren Sie mich.",
-    "lv": "Proszę, zrób mi zdjęcie."
+    "lv": "Prosím, vyfoťte mě."
   },
   "diag_305": {
     "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
-    "lv": "Usiądź, spójrz prosto w kamerę i nie ruszaj się!"
+    "lv": "Sedněte si, dívejte se přímo do kamery a nehýbejte se!"
   },
   "diag_306": {
     "de": "Wann kann ich das Probebild sehen?",
-    "lv": "Kiedy mogę zobaczyć próbkę?"
+    "lv": "Kdy mohu vidět vzorek?"
   },
   "diag_307": {
     "de": "Wann sind die Fotos fertig?",
-    "lv": "Kiedy zdjęcia będą gotowe?"
+    "lv": "Kdy budou fotografie hotové?"
   },
   "diag_308": {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "Zdjęcie się udało."
+    "lv": "Fotka se povedla."
   },
   "diag_309": {
     "de": "Die Fotos sind gut geworden.",
-    "lv": "Zdjęcia wyszły dobrze."
+    "lv": "Fotky dopadly dobře."
   },
   "diag_310": {
     "de": "Können Sie das Foto auch vergrößern?",
-    "lv": "Czy możesz także powiększyć zdjęcie?"
+    "lv": "Můžete také zvětšit fotografii?"
   },
   "diag_311": {
     "de": "Sind diese Steine echt?",
-    "lv": "Czy te kamienie są prawdziwe?"
+    "lv": "Jsou tyto kameny pravé?"
   },
   "diag_312": {
     "de": "Ist das echtes Gold?",
-    "lv": "Czy to prawdziwe złoto?"
+    "lv": "Je to skutečné zlato?"
   },
   "diag_313": {
     "de": "Zeigen Sie mir bitte Trauringe.",
-    "lv": "Pokaż mi obrączki, proszę."
+    "lv": "Ukažte mi snubní prsteny, prosím."
   },
   "diag_314": {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "Pierścionek jest dla mnie trochę za duży."
+    "lv": "Prsten je na mě trochu moc velký."
   },
   "diag_315": {
     "de": "Ich kann ihn enger machen.",
-    "lv": "Mogę to zawęzić."
+    "lv": "Můžu to zúžit."
   },
   "diag_316": {
     "de": "Dieser Ring passt mir.",
-    "lv": "Tento prsteň mi vyhovuje."
+    "lv": "Tento prsten mi vyhovuje."
   },
   "diag_317": {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Zaprezentuj piękne pomysły na prezenty."
+    "lv": "Ukažte nápady na krásné dárky."
   },
   "diag_318": {
     "de": "Wie gefallen dir diese Ohrringe?",
-    "lv": "Ako sa vám páčia tieto náušnice?"
+    "lv": "Jak se vám líbí tyto náušnice?"
   },
   "diag_319": {
     "de": "Diese Brosche ist wirklich schön.",
-    "lv": "Ta broszka jest bardzo piękna."
+    "lv": "Tato brož je moc krásná."
   },
   "diag_320": {
     "de": "Der Stein ist ein Saphir.",
-    "lv": "Ten kamień to szafir."
+    "lv": "Tento kámen je safír."
   },
   "diag_321": {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "To nie jest prawdziwy kamień, to jest szkło."
+    "lv": "Toto není skutečný kámen, je to sklo."
   },
   "diag_322": {
     "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
-    "lv": "Szczególnie mogę polecić tę bransoletkę."
+    "lv": "Tento náramek mohu především doporučit."
   },
   "diag_323": {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "Jest niezwykle precyzyjnie wykonany."
+    "lv": "Je mimořádně jemně zpracovaná."
   },
   "diag_324": {
     "de": "Der Preis ist nicht hoch.",
-    "lv": "Cena nie jest wysoka."
+    "lv": "Cena není vysoká."
   },
   "diag_325": {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Czy dostałem pudełko za darmo?"
+    "lv": "Dostal jsem krabici zdarma?"
   },
   "diag_326": {
     "de": "Alle Schmuckstücke sind gestempelt.",
-    "lv": "Cała biżuteria jest stemplowana."
+    "lv": "Všechny šperky jsou vyraženy."
   },
   "diag_327": {
     "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
-    "lv": "Jeśli mojej żonie się to nie podoba, czy mogę to wymienić?"
+    "lv": "Pokud se mé ženě nelíbí, mohu ji vyměnit?"
   },
   "diag_328": {
     "de": "Natürlich, jederzeit.",
-    "lv": "Oczywiście, że kiedykolwiek."
+    "lv": "Kdykoli, samozřejmě."
   }
 };
 
