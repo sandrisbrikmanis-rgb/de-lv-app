@@ -258,6 +258,17 @@
       hasStudyData: true,
       uiPath: "./languages/da/ui.js",
       dataManifestPath: "./languages/da/data/manifest.js"
+    },
+    {
+      code: "nl",
+      nativeName: "Nederlands",
+      nativeCode: "NL",
+      active: true,
+      uiAvailable: true,
+      dataStatus: "complete",
+      hasStudyData: true,
+      uiPath: "./languages/nl/ui.js",
+      dataManifestPath: "./languages/nl/data/manifest.js"
     }
   ];
 

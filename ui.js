@@ -1150,6 +1150,9 @@ function getExerciseSourceCards(lessonId) {
     if (lang === "da" && typeof lesson7ExerciseCardsDa !== "undefined") {
       return lesson7ExerciseCardsDa;
     }
+    if (lang === "nl" && typeof lesson7ExerciseCardsNl !== "undefined") {
+      return lesson7ExerciseCardsNl;
+    }
     return typeof lesson7ExerciseCards !== "undefined" ? lesson7ExerciseCards : [];
   }
   if (lessonNumber === "8") {
@@ -1567,6 +1570,19 @@ function handleCourseExerciseCardClick(card) {
     const daDeck = daDecks[`lesson${lessonNumber}`];
     if (daDeck?.length) {
       return daDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
+    }
+  } else if (lang === "nl") {
+    const nlDecks = {
+      lesson1: typeof lesson1TrainingCardsNl !== "undefined" ? lesson1TrainingCardsNl : (typeof window.lesson1TrainingCardsNl !== "undefined" ? window.lesson1TrainingCardsNl : []),
+      lesson2: typeof lesson2TrainingCardsNl !== "undefined" ? lesson2TrainingCardsNl : (typeof window.lesson2TrainingCardsNl !== "undefined" ? window.lesson2TrainingCardsNl : []),
+      lesson3: typeof lesson3TrainingCardsNl !== "undefined" ? lesson3TrainingCardsNl : (typeof window.lesson3TrainingCardsNl !== "undefined" ? window.lesson3TrainingCardsNl : []),
+      lesson4: typeof lesson4TrainingCardsNl !== "undefined" ? lesson4TrainingCardsNl : (typeof window.lesson4TrainingCardsNl !== "undefined" ? window.lesson4TrainingCardsNl : []),
+      lesson5: typeof lesson5TrainingCardsNl !== "undefined" ? lesson5TrainingCardsNl : (typeof window.lesson5TrainingCardsNl !== "undefined" ? window.lesson5TrainingCardsNl : []),
+      lesson6: typeof lesson6TrainingCardsNl !== "undefined" ? lesson6TrainingCardsNl : (typeof window.lesson6TrainingCardsNl !== "undefined" ? window.lesson6TrainingCardsNl : [])
+    };
+    const nlDeck = nlDecks[`lesson${lessonNumber}`];
+    if (nlDeck?.length) {
+      return nlDeck.map((card) => ({ lv: card.front || card.lv || "", de: card.back || card.de || "" }));
     }
   } else if (lang !== "lt") {
     const isEt = lang === "et";
