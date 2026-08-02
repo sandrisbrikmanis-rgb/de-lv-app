@@ -70,4 +70,9 @@ scripts/.da-ui-translation-cache.json
 scripts/.nl-translation-cache.json
 scripts/.nl-lv-translation-cache.json
 scripts/.nl-ui-translation-cache.json
+scripts/.lb-nl-translation-cache.json
+scripts/.lb-ui-translation-cache.json
+scripts/.lb-lv-translation-cache.json
+scripts/.fr-nl-translation-cache.json
+scripts/.fr-nl-ui-translation-cache.json
 *.sk-*-cache.json
