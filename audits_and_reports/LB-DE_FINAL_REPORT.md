@@ -6,7 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | LB–DE (Lëtzebuergesch → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
-| **Pull Request** | (tiks izveidots pēc push) |
+| **Pull Request** | #243 |
 | **Darba rezultāts** | Pilns luksemburgiešu valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
