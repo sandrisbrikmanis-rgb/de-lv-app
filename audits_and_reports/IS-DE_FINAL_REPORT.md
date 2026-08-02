@@ -6,6 +6,7 @@
 |-------|---------|
 | **Valodas pāris** | IS–DE (Íslenska → Deutsch) |
 | **Statuss** | Tehniski pilnībā izveidots un integrēts |
+| **Pull Request** | #250 |
 | **Darba rezultāts** | Pilns íslensku valodas datu komplekts A1–C2, Study kartītes, teikumi, darbības vārdi, Kurss un UI lokalizācija |
 
 ---
