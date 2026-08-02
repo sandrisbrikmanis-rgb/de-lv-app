@@ -3,1394 +3,1318 @@ const C1_WORDS = [
     "de": "Wahrnehmung",
     "de_article": "die",
     "de_plural": "die Wahrnehmungen",
-    "lv": "Αντίληψη",
+    "lv": "Taju",
     "level": "C1"
   },
   {
     "de": "gewährleisten",
-    "lv": "Να εγγυηθεί",
+    "lv": "Tagama",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "Αποτέλεσμα",
+    "lv": "Mõju",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "Αμφιλεγόμενος",
+    "lv": "Vastuoluline",
     "level": "C1"
   },
   {
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "Επίσημη δήλωση • Που εκφράζει άποψη",
+    "lv": "Ametlik avaldus • Seisukoha väljendamine",
     "level": "C1"
   },
   {
     "de": "nachvollziehen",
-    "lv": "Κατανοούν • Ακολουθούν τη λογική",
+    "lv": "Mõista • Loogikat jälgida",
     "level": "C1"
   },
   {
     "de": "ausschlaggebend",
-    "lv": "Αποφασιστικός",
+    "lv": "Otsustav",
     "level": "C1"
   },
   {
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "Ανοχή στρες • Ανοχή φορτίου",
+    "lv": "Stressitaluvus • Koormustaluvus",
     "level": "C1"
   },
   {
     "de": "akkreditieren",
-    "lv": "Για τη διαπίστευση",
+    "lv": "Akrediteerima",
     "level": "C1"
   },
   {
     "de": "Aktiengesellschaft",
     "de_article": "die",
     "de_plural": "die Aktiengesellschaften",
-    "lv": "Ανώνυμη εταιρεία",
+    "lv": "Aktsiaselts",
     "level": "C1"
   },
   {
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "Πρόγραμμα δράσης",
+    "lv": "Tegevusprogramm",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "Ετοιμότητα",
+    "lv": "Häirevalmidus",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Καλοκαίρι της γριάς",
+    "lv": "Vananaistesuvi",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "Πρόκληση • Αμφισβητούν",
+    "lv": "Vaidlustama • Kahtluse alla seadma",
     "level": "C1"
   },
   {
     "de": "allerseits",
-    "lv": "Από όλες τις πλευρές",
+    "lv": "Igast küljest",
     "level": "C1"
   },
   {
     "de": "anderweitig",
-    "lv": "Αλλού • Διαφορετικά",
+    "lv": "Mujal • Teisiti",
     "level": "C1"
   },
   {
     "de": "Abrüstungsabkommen",
     "de_article": "das",
     "de_plural": "die Abrüstungsabkommen",
-    "lv": "Συνθήκη αφοπλισμού",
+    "lv": "Desarmeerimisleping",
     "level": "C1"
   },
   {
     "de": "Abrüstungsverhandlungen",
     "de_article": "die",
     "de_plural": "die Abrüstungsverhandlungen",
-    "lv": "Διαπραγματεύσεις για τον αφοπλισμό",
+    "lv": "Desarmeerimisläbirääkimised",
     "level": "C1"
   },
   {
     "de": "Aal",
     "de_article": "der",
     "de_plural": "die Aale",
-    "lv": "Χέλι",
+    "lv": "Angitt",
     "level": "C1"
   },
   {
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "Απόκλιση • Παρέκκλιση",
+    "lv": "Kõrvalekalle • Aberratsioon",
     "level": "C1"
   },
   {
     "de": "abstumpfen",
-    "lv": "Θαμπώνει • Μουδιάζει",
+    "lv": "Nüristama • Tundetuks tegema",
     "level": "C1"
   },
   {
     "de": "Abtreibung",
     "de_article": "die",
     "de_plural": "die Abtreibungen",
-    "lv": "Άμβλωση",
+    "lv": "Abort",
     "level": "C1"
   },
   {
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "Συναισθηματικό ξέσπασμα",
+    "lv": "Afektipurse",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "Εξοστρακίζω • Κοινωνικά εξοστρακίζω",
+    "lv": "Tõrjuma • Sotsiaalselt tõrjuma",
     "level": "C1"
   },
   {
     "de": "Flottenstützpunkt",
     "de_article": "der",
     "de_plural": "die Flottenstützpunkte",
-    "lv": "Ναυτική βάση",
+    "lv": "Mereväebaas",
     "level": "C1"
   },
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "Καιρός πτήσης",
+    "lv": "Lennuilm",
     "level": "C1"
   },
   {
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "Δελτίο αποστολής",
+    "lv": "Kaubasaateleht",
     "level": "C1"
   },
   {
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "Τέλος μεταφοράς",
+    "lv": "Veotasu",
     "level": "C1"
   },
   {
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "Ακτιβίστρια για τα δικαιώματα των γυναικών",
+    "lv": "Naisõiguslane",
     "level": "C1"
   },
   {
     "de": "Freikörperkultur",
     "de_article": "die",
     "de_plural": "die Freikörperkulturen",
-    "lv": "Γυμνισμός",
+    "lv": "Nudism",
     "level": "C1"
   },
   {
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "Κακοποιός παιδιών",
+    "lv": "Lapse väärkohtleja",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "Βίας κατά των παιδιών",
+    "lv": "Lastevastane vägivald",
     "level": "C1"
   },
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Αστικός Κώδικας",
+    "lv": "Tsiviilseadustik",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Στοκ",
+    "lv": "Aktsia",
     "level": "C1"
   },
   {
     "de": "Abenddämmerung",
     "de_article": "die",
     "de_plural": "die Abenddämmerungen",
-    "lv": "Σούρουπο",
+    "lv": "Õhtuhämarus",
     "level": "C1"
   },
   {
     "de": "Anwalt",
     "de_article": "der",
     "de_plural": "die Anwälte",
-    "lv": "Ένας δικηγόρος",
+    "lv": "Advokaat",
     "level": "C1"
   },
   {
     "de": "außergewöhnlich",
-    "lv": "Ασυνήθης",
+    "lv": "Ebatavaline",
     "level": "C1"
   },
   {
     "de": "außerordentlich",
-    "lv": "Έκτακτος",
+    "lv": "Erakorraline",
     "level": "C1"
   },
   {
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Γράμματα και αριθμούς πινακίδων αυτοκινήτου",
+    "lv": "Auto numbrimärgi tähed ja numbrid",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Γραφείο αρτοποιείου",
+    "lv": "Pagariamet",
     "level": "C1"
   },
   {
     "de": "bekannt geben",
-    "lv": "Να γίνει γνωστό",
+    "lv": "Teatavaks tegema",
     "level": "C1"
   },
   {
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "Ορεινός τουρισμός",
+    "lv": "Mägiturism",
     "level": "C1"
   },
   {
     "de": "beschäftigen",
-    "lv": "Να απασχολήσει",
+    "lv": "Tööle võtma",
     "level": "C1"
   },
   {
     "de": "sich beschäftigen",
-    "lv": "Να αντιμετωπίσει",
+    "lv": "Tegelema",
     "level": "C1"
   },
   {
     "de": "Beschäftigung",
     "de_article": "die",
     "de_plural": "die Beschäftigungen",
-    "lv": "Τομέα δραστηριότητας",
+    "lv": "Tegevusala",
     "level": "C1"
   },
   {
     "de": "beschleunigen",
-    "lv": "Να επιταχύνει",
+    "lv": "Kiirendama",
     "level": "C1"
   },
   {
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "Προβολή",
+    "lv": "Vaatamine",
     "level": "C1"
   },
   {
     "de": "beurteilen",
-    "lv": "Να αξιολογήσει",
+    "lv": "Hindama",
     "level": "C1"
   },
   {
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Οδικό υδραγωγείο",
+    "lv": "Teeviadukt",
     "level": "C1"
   },
   {
     "de": "Eisenbahnbrücke",
     "de_article": "die",
     "de_plural": "die Eisenbahnbrücken",
-    "lv": "Σιδηροδρομική γέφυρα",
+    "lv": "Raudteesild",
     "level": "C1"
   },
   {
     "de": "Dampfbügeleisen",
     "de_article": "das",
     "de_plural": "die Dampfbügeleisen",
-    "lv": "Σίδερο ατμού",
+    "lv": "Auruga triikraud",
     "level": "C1"
   },
   {
     "de": "Büroangestellte",
     "de_article": "der",
-    "lv": "Υπάλληλος γραφείου",
+    "lv": "Kontoritöötaja",
     "level": "C1"
   },
   {
     "de": "charakteristisch",
-    "lv": "Χαρακτηριστικός",
+    "lv": "Iseloomulik",
     "level": "C1"
   },
   {
     "de": "Diplomat",
     "de_article": "der",
     "de_plural": "die Diplomaten",
-    "lv": "Ένας διπλωμάτης",
+    "lv": "Diplomaat",
     "level": "C1"
   },
   {
     "de": "Dokumentarfilm",
     "de_article": "der",
     "de_plural": "die Dokumentarfilme",
-    "lv": "Μια ταινία ντοκιμαντέρ",
+    "lv": "Dokumentaalfilm",
     "level": "C1"
   },
   {
     "de": "durchschnittlich",
-    "lv": "Κατά μέσο όρο",
+    "lv": "Keskmiselt",
     "level": "C1"
   },
   {
     "de": "durchstreichen",
-    "lv": "Να διαγράφει",
+    "lv": "Läbi kriipsutama",
     "level": "C1"
   },
   {
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Μονοκατοικία",
+    "lv": "Üksikelamu",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Μονοκατοικία",
-      "explanation": "Βασική ιδέα: Το das Einfamilienhaus είναι ένα σπίτι για μια οικογένεια. Αυτό συνήθως σημαίνει μονοκατοικία, όχι πολυκατοικία.",
+      "translation": "Üksikelamu",
+      "explanation": "Põhiidee: das Einfamilienhaus on maja ühele perele. See tähendab tavaliselt eraldiseisvat eramaja, mitte kortermaja.",
       "examples": [
         {
           "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Μένουν σε μονοκατοικία."
+          "lv": "Nad elavad üksikelamus."
         },
         {
           "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "Η μονοκατοικία έχει κήπο."
+          "lv": "Üksikelamul on aed."
         },
         {
           "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Υπάρχει μια πολυκατοικία δίπλα."
+          "lv": "Kõrval asub kortermaja."
         }
-      ],
-      "comparison": [
-        {
-          "word": "Das Einfamilienhaus",
-          "meaning": "Μονοκατοικία (για μια οικογένεια)",
-          "example": "Sie wohnen in einem Einfamilienhaus. = Μένουν σε μονοκατοικία."
-        },
-        {
-          "word": "Das Mehrfamilienhaus",
-          "meaning": "Πολυκατοικία (για πολλές οικογένειες)",
-          "example": "Nebenan steht ein Mehrfamilienhaus. = Δίπλα υπάρχει πολυκατοικία."
-        },
-        {
-          "word": "Das Reihenhaus",
-          "meaning": "Μονοκατοικία",
-          "example": "Das Reihenhaus hat eine gemeinsame Wand. = Το σπίτι με ταράτσα έχει κοινό τοίχο."
-        }
-      ],
-      "tip": "Η σύνθετη λέξη αποτελείται από τα μέρη eine Familie (μία οικογένεια) + Haus (σπίτι) — βοηθά να θυμόμαστε ότι είναι ένα σπίτι μιας οικογένειας.",
-      "important": "Μην μπερδεύετε το das Einfamilienhaus (μονοκατοικία) και το das Mehrfamilienhaus (διαμέρισμα) — η διαφορά έγκειται στον αριθμό των οικογενειών που ζουν στο σπίτι."
+      ]
     }
   },
   {
     "de": "Eisenbahnfahrt",
     "de_article": "die",
     "de_plural": "die Eisenbahnfahrten",
-    "lv": "Βόλτα με το τρένο",
+    "lv": "Rongisõit",
     "level": "C1"
   },
   {
     "de": "Eisenbahnstation",
     "de_article": "die",
     "de_plural": "die Eisenbahnstationen",
-    "lv": "Σιδηροδρομικός σταθμός",
+    "lv": "Rød teejaam",
     "level": "C1"
   },
   {
     "de": "ekelhaft",
-    "lv": "Αηδιαστικός",
+    "lv": "Vastik",
     "level": "C1"
   },
   {
     "de": "Energieverbrauch",
     "de_article": "der",
     "de_plural": "die Energieverbräuche",
-    "lv": "Κατανάλωση ενέργειας",
+    "lv": "Energiakulu",
     "level": "C1"
   },
   {
     "de": "Gartenerdbeere",
     "de_article": "die",
     "de_plural": "die Gartenerdbeeren",
-    "lv": "Φράουλα κήπου",
+    "lv": "Aiamaasikas",
     "level": "C1"
   },
   {
     "de": "erforderlich",
-    "lv": "Απαραίτητος",
+    "lv": "Vayalike",
     "level": "C1"
   },
   {
     "de": "fabelhaft",
-    "lv": "Έξοχος",
+    "lv": "Glimrende",
     "level": "C1"
   },
   {
     "de": "fehlerhaft",
-    "lv": "Ελαττωματικός",
+    "lv": "Vigane",
     "level": "C1"
   },
   {
     "de": "folgendermaßen",
-    "lv": "Ως εξής",
+    "lv": "Järgmiselt",
     "level": "C1"
   },
   {
     "de": "Geburtsschein",
     "de_article": "der",
     "de_plural": "die Geburtsscheine",
-    "lv": "Πιστοποιητικό γέννησης",
+    "lv": "Sünnitunnistus",
     "level": "C1"
   },
   {
     "de": "gegeneinander",
-    "lv": "Ο ένας εναντίον του άλλου",
+    "lv": "Üksteise vastu",
     "level": "C1"
   },
   {
     "de": "Gemüsegarten",
     "de_article": "der",
     "de_plural": "die Gemüsegärten",
-    "lv": "Λαχανόκηπος",
+    "lv": "Köögiviljaaed",
     "level": "C1"
   },
   {
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "Σχάρα αποσκευών",
+    "lv": "Pagasiraam",
     "level": "C1"
   },
   {
     "de": "geschäftlich",
-    "lv": "Επιχείρηση",
+    "lv": "Äri-",
     "level": "C1"
   },
   {
     "de": "Geschäftsmann",
     "de_article": "der",
     "de_plural": "die Geschäftsleute",
-    "lv": "Επιχειρηματίας",
+    "lv": "Ärimees",
     "level": "C1"
   },
   {
     "de": "geschichtlich",
-    "lv": "Ιστορικός",
+    "lv": "Ajalooline",
     "level": "C1"
   },
   {
     "de": "geschmacklos",
-    "lv": "Άγευστος",
+    "lv": "Maitsetu",
     "level": "C1"
   },
   {
     "de": "geschmackvoll",
-    "lv": "Καλαίσθητος",
+    "lv": "Maitsekas",
     "level": "C1"
   },
   {
     "de": "gesetzlich",
-    "lv": "Νομικός",
+    "lv": "Seaduslik",
     "level": "C1"
   },
   {
     "de": "Gesichtspunkt",
     "de_article": "der",
     "de_plural": "die Gesichtspunkte",
-    "lv": "Θέση",
+    "lv": "Seisukoht",
     "level": "C1"
   },
   {
     "de": "Gewichtheben",
     "de_article": "das",
-    "lv": "Άρση",
+    "lv": "Tõstmine",
     "level": "C1"
   },
   {
     "de": "gewissenhaft",
-    "lv": "Υπάκουος",
+    "lv": "Kohusetundlik",
     "level": "C1"
   },
   {
     "de": "Gipfel",
     "de_article": "der",
     "de_plural": "die Gipfel",
-    "lv": "Κορυφή",
+    "lv": "Tipp",
     "level": "C1"
   },
   {
     "de": "Hausangestellte",
     "de_article": "die",
-    "lv": "Οικιακή βοηθός",
+    "lv": "Koduabiline",
     "level": "C1"
   },
   {
     "de": "hinaufklettern",
-    "lv": "Να ανέβει",
+    "lv": "Üles ronima",
     "level": "C1"
   },
   {
     "de": "hintereinander",
-    "lv": "Το ένα μετά το άλλο",
+    "lv": "Følg opp",
     "level": "C1"
   },
   {
     "de": "Hochzeitsbrauch",
     "de_article": "der",
     "de_plural": "die Hochzeitsbräuche",
-    "lv": "Γαμήλια καραμέλα",
+    "lv": "Pulmakomme",
     "level": "C1"
   },
   {
     "de": "Hochzeitsfeier",
     "de_article": "die",
     "de_plural": "die Hochzeitsfeiern",
-    "lv": "Ένα γαμήλιο πάρτι",
+    "lv": "Pulmapidu",
     "level": "C1"
   },
   {
     "de": "Hochzeitsreise",
     "de_article": "die",
     "de_plural": "die Hochzeitsreisen",
-    "lv": "Ταξίδι του μέλιτος",
+    "lv": "Mesinädalate reis",
     "level": "C1"
   },
   {
     "de": "identifizieren",
-    "lv": "Να προσδιορίσει",
+    "lv": "Identifitseerima",
     "level": "C1"
   },
   {
     "de": "Inflationsrate",
     "de_article": "die",
     "de_plural": "die Inflationsraten",
-    "lv": "Ποσοστό πληθωρισμού",
+    "lv": "Inflatsioonimäär",
     "level": "C1"
   },
   {
     "de": "Schlaginstrument",
     "de_article": "das",
     "de_plural": "die Schlaginstrumente",
-    "lv": "Κρουστό όργανο",
+    "lv": "Löökpill",
     "level": "C1"
   },
   {
     "de": "Tasteninstrument",
     "de_article": "das",
     "de_plural": "die Tasteninstrumente",
-    "lv": "Πληκτρολόγιο",
+    "lv": "Klahvpill",
     "level": "C1"
   },
   {
     "de": "Jahreseinkommen",
     "de_article": "das",
     "de_plural": "die Jahreseinkommen",
-    "lv": "Ετήσιο εισόδημα",
+    "lv": "Aastasissetulek",
     "level": "C1"
   },
   {
     "de": "Kabelanschluss",
     "de_article": "der",
     "de_plural": "die Kabelanschlüsse",
-    "lv": "Καλωδιακή συνδρομή",
+    "lv": "Kaabellevi liitumine",
     "level": "C1"
   },
   {
     "de": "Kabelfernsehen",
     "de_article": "das",
-    "lv": "Καλωδιακή τηλεόραση",
+    "lv": "Kaabeltelevisioon",
     "level": "C1"
   },
   {
     "de": "Kaltwasserhahn",
     "de_article": "der",
     "de_plural": "die Kaltwasserhähne",
-    "lv": "Βρύση κρύου νερού",
+    "lv": "Külma vee kraan",
     "level": "C1"
   },
   {
     "de": "Pressekampagne",
     "de_article": "die",
     "de_plural": "die Pressekampagnen",
-    "lv": "Εκστρατεία τύπου",
+    "lv": "Ajakirjanduskampaania",
     "level": "C1"
   },
   {
     "de": "Kandidatenliste",
     "de_article": "die",
     "de_plural": "die Kandidatenlisten",
-    "lv": "Λίστα υποψηφίων",
+    "lv": "Kandidaatide nimekiri",
     "level": "C1"
   },
   {
     "de": "Klage",
     "de_article": "die",
     "de_plural": "die Klagen",
-    "lv": "Καταγγελία",
+    "lv": "Kaebus",
     "level": "C1"
   },
   {
     "de": "klagen",
-    "lv": "Να παραπονεθεί",
+    "lv": "Kaebama",
     "level": "C1"
   },
   {
     "de": "Kostenanschlag",
     "de_article": "der",
     "de_plural": "die Kostenanschläge",
-    "lv": "Εκτίμηση κόστους",
+    "lv": "Kuluprognoos",
     "level": "C1"
   },
   {
     "de": "krampfhaft",
-    "lv": "Σπασμωδικός",
+    "lv": "Kramplik",
     "level": "C1"
   },
   {
     "de": "Krankheitsbild",
     "de_article": "das",
     "de_plural": "die Krankheitsbilder",
-    "lv": "Εικόνα ασθένειας",
+    "lv": "Haiguspilt",
     "level": "C1"
   },
   {
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
-    "lv": "Φορτηγό",
+    "lv": "Veoauto",
     "level": "C1"
   },
   {
     "de": "lebhaft",
-    "lv": "Ζωηρός",
+    "lv": "Elav",
     "level": "C1"
   },
   {
     "de": "Leichtathletik",
     "de_article": "die",
     "de_plural": "die Leichtathletiken",
-    "lv": "Αθλητισμός",
+    "lv": "Kergejõustik",
     "level": "C1"
   },
   {
     "de": "Mehrwertsteuer",
     "de_article": "die",
     "de_plural": "die Mehrwertsteuern",
-    "lv": "ΔΕΞΑΜΕΝΗ",
+    "lv": "Käibemaks",
     "level": "C1"
   },
   {
     "de": "Meinungsumfrage",
     "de_article": "die",
     "de_plural": "die Meinungsumfragen",
-    "lv": "Σφυγνομέτρηση της κοινής γνώμης",
+    "lv": "Arvamusküsitlus",
     "level": "C1"
   },
   {
     "de": "Menschenrechte",
     "de_article": "die",
-    "lv": "Ανθρώπινα δικαιώματα",
+    "lv": "Inimõigused",
     "level": "C1"
   },
   {
     "de": "Ministerium",
     "de_article": "das",
     "de_plural": "die Ministerien",
-    "lv": "Υπουργείο",
+    "lv": "Ministeerium",
     "level": "C1"
   },
   {
     "de": "Missverständnis",
     "de_article": "das",
     "de_plural": "die Missverständnisse",
-    "lv": "Παρεξήγηση",
+    "lv": "Arusaamatus",
     "level": "C1"
   },
   {
     "de": "Modezeitschrift",
     "de_article": "die",
     "de_plural": "die Modezeitschriften",
-    "lv": "Περιοδικό μόδας",
+    "lv": "Moeajakiri",
     "level": "C1"
   },
   {
     "de": "Morgendämmerung",
     "de_article": "die",
     "de_plural": "die Morgendämmerungen",
-    "lv": "Αυγή",
+    "lv": "Koidik",
     "level": "C1"
   },
   {
     "de": "Morgengymnastik",
     "de_article": "die",
     "de_plural": "die Morgengymnastiken",
-    "lv": "Πρωινή άσκηση",
+    "lv": "Hommikvõimlemine",
     "level": "C1"
   },
   {
     "de": "nahrhaft",
-    "lv": "Θρεπτικός",
+    "lv": "Toitev",
     "level": "C1"
   },
   {
     "de": "Nationaltracht",
     "de_article": "die",
     "de_plural": "die Nationaltrachten",
-    "lv": "Με εθνική ενδυμασία",
+    "lv": "Rahvarõivas",
     "level": "C1"
   },
   {
     "de": "Notar",
     "de_article": "der",
     "de_plural": "die Notare",
-    "lv": "Συμβολαιογράφου",
+    "lv": "Notar",
     "level": "C1"
   },
   {
     "de": "Notarzt",
     "de_article": "der",
     "de_plural": "die Notärzte",
-    "lv": "Γιατρός έκτακτης ανάγκης",
+    "lv": "Kiirabiarst",
     "level": "C1"
   },
   {
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "Δημόσιος • Δημόσιος χώρος",
+    "lv": "Avalikkus • Avalik ruum",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "Δημόσιος • Δημόσιος χώρος",
-      "explanation": "Κύρια ιδέα: die Öffentlichkeit σημαίνει δημόσιος ως δημόσιος χώρος ή άνθρωποι ως σύνολο. Στην έκφραση an die Öffentlichkeit kommen, σημαίνει να γίνεις δημόσιος.",
+      "translation": "Avalikkus • Avalik ruum",
+      "explanation": "Põhiidee: die Öffentlichkeit tähendab avalikkust kui avalikku ruumi või inimesi tervikuna. Väljendis an die Öffentlichkeit kommen tähendab see avalikuks saamist.",
       "examples": [
         {
           "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Το κοινό αντέδρασε επικριτικά."
+          "lv": "Avalikkus reageeris kriitiliselt."
         },
         {
           "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Το περιστατικό έγινε δημόσια."
+          "lv": "Juhtum sai avalikuks."
         },
         {
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "Το κοινό έχει δικαίωμα στην ενημέρωση."
+          "lv": "Avalikkusel on õigus infole."
         }
-      ],
-      "comparison": [
-        {
-          "word": "Die Öffentlichkeit",
-          "meaning": "Δημόσιο (άνθρωποι, δημόσιος χώρος)",
-          "example": "Die Öffentlichkeit reagierte kritisch. = Το κοινό αντέδρασε επικριτικά."
-        },
-        {
-          "word": "Öffentlich",
-          "meaning": "Δημόσιο (επίθετο)",
-          "example": "Das ist eine öffentliche Angelegenheit. = Αυτό είναι δημόσιο θέμα."
-        },
-        {
-          "word": "Die Privacy",
-          "meaning": "Ιδιωτική σφαίρα (απέναντι)",
-          "example": "Er schützt seine Privatsphäre. = Προστατεύει την ιδιωτικότητά του."
-        }
-      ],
-      "tip": "Η έκφραση an die Öffentlichkeit kommen/gehen σημαίνει να γίνεις ή να βγεις δημόσια.",
-      "important": "Μην συγχέετε το die Öffentlichkeit (δημόσιο, ουσιαστικό) και το öffentlich (δημόσιο, επίθετο)."
+      ]
     }
   },
   {
     "de": "Parlament",
     "de_article": "das",
     "de_plural": "die Parlamente",
-    "lv": "Κοινοβούλιο",
+    "lv": "Parlament",
     "level": "C1"
   },
   {
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "Κόμμα • Πάρτι",
+    "lv": "Partei • Pool",
     "level": "C1",
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "Κόμμα • Πάρτι",
-      "explanation": "Κύρια ιδέα: το die Party είναι συνήθως πολιτικό κόμμα. Στη νομική ή συγκρουσιακή γλώσσα, μπορεί επίσης να σημαίνει πλευρά.",
+      "translation": "Partei • Pool",
+      "explanation": "Põhiidee: die Partei on tavaliselt poliitiline partei. Juriidilises või konfliktikeeles võib see tähendada ka poolt.",
       "examples": [
         {
           "de": "Diese Partei gewann die Wahl.",
-          "lv": "Αυτό το κόμμα κέρδισε τις εκλογές."
+          "lv": "See partei võitis valimised."
         },
         {
           "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Είναι κομματικός εδώ και πολλά χρόνια."
+          "lv": "Ta on juba aastaid partei liige."
         },
         {
           "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Και τα δύο μέρη πρέπει να υπογράψουν τη σύμβαση."
+          "lv": "Mõlemad pooled peavad lepingu allkirjastama."
         }
-      ],
-      "comparison": [
-        {
-          "word": "Το κόμμα (πολιτικό)",
-          "meaning": "Ένα πολιτικό κόμμα",
-          "example": "Diese Partei gewann die Wahl. = Αυτό το κόμμα κέρδισε τις εκλογές."
-        },
-        {
-          "word": "Το κόμμα (νόμιμο)",
-          "meaning": "Συμβαλλόμενο μέρος (σε σύμβαση, σε διαφορά)",
-          "example": "Beide Parteien müssen unterschreiben. = Και τα δύο μέρη πρέπει να υπογράψουν."
-        },
-        {
-          "word": "Έχετε",
-          "meaning": "Μέρος (κάτι)",
-          "example": "Das ist nur ein Teil der Lösung. = Αυτό είναι μόνο ένα μέρος της λύσης."
-        }
-      ],
-      "tip": "Το πλαίσιο δείχνει εάν το Κόμμα είναι πολιτική οργάνωση ή νομική οντότητα.",
-      "important": "Μην μπερδεύετε το die Partei (συμβαλλόμενο μέρος, μέρος σε μια διαφωνία ή σύμβαση) και το der Teil (μέρος κάτι) — έχουν διαφορετικές σημασίες."
+      ]
     }
   },
   {
     "de": "Persönlichkeit",
     "de_article": "die",
     "de_plural": "die Persönlichkeiten",
-    "lv": "Προσωπικότητα",
+    "lv": "Isiksus",
     "level": "C1"
   },
   {
     "de": "Polizeieinheit",
     "de_article": "die",
     "de_plural": "die Polizeieinheiten",
-    "lv": "Αστυνομική μονάδα",
+    "lv": "Politseiüksus",
     "level": "C1"
   },
   {
     "de": "Polizeistreife",
     "de_article": "die",
     "de_plural": "die Polizeistreifen",
-    "lv": "Περιπολικό της αστυνομίας",
+    "lv": "Politseipatrull",
     "level": "C1"
   },
   {
     "de": "Pollenallergie",
     "de_article": "die",
     "de_plural": "die Pollenallergien",
-    "lv": "Αλλεργία στη γύρη",
+    "lv": "Õietolmuallergia",
     "level": "C1"
   },
   {
     "de": "Polstergarnitur",
     "de_article": "die",
     "de_plural": "die Polstergarnituren",
-    "lv": "Σετ επικαλυμμένων επίπλων",
+    "lv": "Pehme mööbli garnituur",
     "level": "C1"
   },
   {
     "de": "Premier",
     "de_article": "der",
     "de_plural": "die Premiers",
-    "lv": "Πρωθυπουργός",
+    "lv": "Peaminister",
     "level": "C1"
   },
   {
     "de": "Prozess",
     "de_article": "der",
     "de_plural": "die Prozesse",
-    "lv": "Διαδικασία • Δοκιμή",
+    "lv": "Protsess • Kohtuprotsess",
     "level": "C1",
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "Διαδικασία • Δοκιμή",
-      "explanation": "Κύρια ιδέα: Το der Prozess είναι μια διαδικασία ή πορεία. Στο δικαστήριο, der Prozess σημαίνει δίκη.",
+      "translation": "Protsess • Kohtuprotsess",
+      "explanation": "Põhiidee: der Prozess on protsess või kulg. Kohtus tähendab der Prozess kohtuprotsessi.",
       "examples": [
         {
           "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "Η διαδικασία διαρκεί αρκετούς μήνες."
+          "lv": "Protsess kestab mitu kuud."
         },
         {
           "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Η δίκη ξεκινά αύριο."
+          "lv": "Kohtuprotsess algab homme."
         },
         {
           "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Βελτιώνουμε την όλη διαδικασία."
+          "lv": "Me täiustame kogu protsessi."
         }
-      ],
-      "comparison": [
-        {
-          "word": "Der Prozess (γενικά)",
-          "meaning": "Διαδικασία, πρόοδος",
-          "example": "Wir verbessern den Prozess. = Βελτιώνουμε τη διαδικασία."
-        },
-        {
-          "word": "Der Prozess (νομικό)",
-          "meaning": "Δίκη",
-          "example": "Der Prozess vor Gericht beginnt morgen. = Η δίκη ξεκινά αύριο."
-        },
-        {
-          "word": "Das Verfahren",
-          "meaning": "Διαδικασία (επίσημη διαδικασία)",
-          "example": "Das Verfahren wurde eingestellt. = Η διαδικασία τερματίστηκε."
-        }
-      ],
-      "tip": "Το πλαίσιο (δικαστήριο, επιχείρηση, τεχνική) υποδεικνύει εάν το Prozess σημαίνει μια γενική διαδικασία ή μια δίκη.",
-      "important": "Μην συγχέετε το der Prozess (διαδικασία, δίκη) με το das Verfahren (επίσημη διαδικασία) — Το Verfahren είναι μια πιο επίσημη λέξη."
+      ]
     }
   },
   {
     "de": "Prozessor",
     "de_article": "der",
     "de_plural": "die Prozessoren",
-    "lv": "Επεξεργαστή",
+    "lv": "Protsessor",
     "level": "C1"
   },
   {
     "de": "Radioübertragung",
     "de_article": "die",
     "de_plural": "die Radioübertragungen",
-    "lv": "Ραδιοφωνική εκπομπή",
+    "lv": "Raadioülekanne",
     "level": "C1"
   },
   {
     "de": "Rechtsanwalt",
     "de_article": "der",
     "de_plural": "die Rechtsanwälte",
-    "lv": "Ένας δικηγόρος",
+    "lv": "Advokaat",
     "level": "C1"
   },
   {
     "de": "Rekonstruktion",
     "de_article": "die",
     "de_plural": "die Rekonstruktionen",
-    "lv": "Ανοικοδόμηση",
+    "lv": "Rekonstrueerimine",
     "level": "C1"
   },
   {
     "de": "Rennen mit Hindernissen",
     "de_article": "das",
     "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Αγώνας με εμπόδια",
+    "lv": "Tõkkejooks",
     "level": "C1"
   },
   {
     "de": "Reparaturkosten",
     "de_article": "die",
-    "lv": "Έξοδα επισκευής",
+    "lv": "Remondikulud",
     "level": "C1"
   },
   {
     "de": "Rettungsstelle",
     "de_article": "die",
     "de_plural": "die Rettungsstellen",
-    "lv": "Σταθμό πρώτων βοηθειών",
+    "lv": "Kiirabipunkt",
     "level": "C1"
   },
   {
     "de": "rezeptpflichtig",
-    "lv": "Βάσει συνταγής",
+    "lv": "Retsepti alusel",
     "level": "C1"
   },
   {
     "de": "Schauspielhaus",
     "de_article": "das",
     "de_plural": "die Schauspielhäuser",
-    "lv": "Θέατρο",
+    "lv": "Teater",
     "level": "C1"
   },
   {
     "de": "Scheibenwischer",
     "de_article": "der",
     "de_plural": "die Scheibenwischer",
-    "lv": "Υαλοκαθαριστήρα",
+    "lv": "Klaasipuhastaja",
     "level": "C1"
   },
   {
     "de": "Schiedsrichter",
     "de_article": "der",
     "de_plural": "die Schiedsrichter",
-    "lv": "Ο δικαστής",
+    "lv": "Kohtunik",
     "level": "C1"
   },
   {
     "de": "Schlussverkauf",
     "de_article": "der",
     "de_plural": "die Schlussverkäufe",
-    "lv": "Έκπτωση τέλους σεζόν",
+    "lv": "Hooajalõpu allahindlus",
     "level": "C1"
   },
   {
     "de": "schmerzhaft",
-    "lv": "Επώδυνος",
+    "lv": "Verdi",
     "level": "C1"
   },
   {
     "de": "Schneewittchen",
     "de_article": "das",
     "de_plural": "die Schneewittchen",
-    "lv": "Παραμυθιού χαρακτήρα Χιονάτη",
+    "lv": "Muinasjututegelane Lumivalgeke",
     "level": "C1"
   },
   {
     "de": "Schraubenzieher",
     "de_article": "der",
     "de_plural": "die Schraubenzieher",
-    "lv": "Κατσαβίδι",
+    "lv": "Kruvikeeraja",
     "level": "C1"
   },
   {
     "de": "Schutzumschlag",
     "de_article": "der",
     "de_plural": "die Schutzumschläge",
-    "lv": "Χαρτί περιτυλίγματος",
+    "lv": "Ümbrispaber",
     "level": "C1"
   },
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "Πεθερά και πεθερός",
+    "lv": "Ämm ja äi",
     "level": "C1"
   },
   {
     "de": "Schwiegermutter",
     "de_article": "die",
     "de_plural": "die Schwiegermütter",
-    "lv": "Πεθερά",
+    "lv": "Ämm",
     "level": "C1"
   },
   {
     "de": "Schwiegertochter",
     "de_article": "die",
     "de_plural": "die Schwiegertöchter",
-    "lv": "Νύφη",
+    "lv": "Minia",
     "level": "C1"
   },
   {
     "de": "Schwiegervater",
     "de_article": "der",
     "de_plural": "die Schwiegerväter",
-    "lv": "Πεθερός",
+    "lv": "Äi",
     "level": "C1"
   },
   {
     "de": "Selbstbedienung",
     "de_article": "die",
     "de_plural": "die Selbstbedienungen",
-    "lv": "Αυτοεξυπηρέτηση",
+    "lv": "Iseteenindus",
     "level": "C1"
   },
   {
     "de": "Stabhochspringen",
     "de_article": "das",
-    "lv": "Θησαυροφυλάκιο",
+    "lv": "Teivashüpe",
     "level": "C1"
   },
   {
     "de": "Stadtrundfahrt",
     "de_article": "die",
     "de_plural": "die Stadtrundfahrten",
-    "lv": "Ξενάγηση πόλης",
+    "lv": "Linnaekskursioon",
     "level": "C1"
   },
   {
     "de": "stecken bleiben",
-    "lv": "Να κολλήσει",
+    "lv": "Kinni jääma",
     "level": "C1"
   },
   {
     "de": "Stellvertreter",
     "de_article": "der",
     "de_plural": "die Stellvertreter",
-    "lv": "Υποκατάστατο",
+    "lv": "Asendaja",
     "level": "C1"
   },
   {
     "de": "Steuererklärung",
     "de_article": "die",
     "de_plural": "die Steuererklärungen",
-    "lv": "Φορολογική δήλωση",
+    "lv": "Maksudeklaratsioon",
     "level": "C1"
   },
   {
     "de": "Strampelhöschen",
     "de_article": "das",
     "de_plural": "die Strampelhöschen",
-    "lv": "Μωρό ερπυστριοφόρο",
+    "lv": "Imiku roomik",
     "level": "C1"
   },
   {
     "de": "Stromverbrauch",
     "de_article": "der",
     "de_plural": "die Stromverbräuche",
-    "lv": "Κατανάλωση ρεύματος",
+    "lv": "Voolutarve",
     "level": "C1"
   },
   {
     "de": "Tagesnachrichten",
     "de_article": "die",
-    "lv": "Καθημερινά νέα",
+    "lv": "Päevauudised",
     "level": "C1"
   },
   {
     "de": "Teilzeitarbeit",
     "de_article": "die",
     "de_plural": "die Teilzeitarbeiten",
-    "lv": "Μερική απασχόληση",
+    "lv": "Osaajaga töö",
     "level": "C1"
   },
   {
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "Ημερολόγιο προθεσμίας",
+    "lv": "Tähtajakalender",
     "level": "C1"
   },
   {
     "de": "Thermosflasche",
     "de_article": "die",
     "de_plural": "die Thermosflaschen",
-    "lv": "Θερμός",
+    "lv": "Termos",
     "level": "C1"
   },
   {
     "de": "Tierkreiszeichen",
     "de_article": "das",
     "de_plural": "die Tierkreiszeichen",
-    "lv": "Ζώδιο",
+    "lv": "Sodiaagimärk",
     "level": "C1"
   },
   {
     "de": "transportieren",
-    "lv": "Για μεταφορά",
+    "lv": "Transportima",
     "level": "C1"
   },
   {
     "de": "Überschwemmung",
     "de_article": "die",
     "de_plural": "die Überschwemmungen",
-    "lv": "Πλημμύρα",
+    "lv": "Üleujutus",
     "level": "C1"
   },
   {
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "Επιχείρηση • Επιχείρηση",
+    "lv": "Ettevõte • Ettevõtmine",
     "level": "C1"
   },
   {
     "de": "unterstreichen",
-    "lv": "Υπογραμμίζω",
+    "lv": "Alla kriipsutama",
     "level": "C1"
   },
   {
     "de": "unverständlich",
-    "lv": "Ακατανόητος",
+    "lv": "Arusaamatu",
     "level": "C1"
   },
   {
     "de": "Heiratsurkunde",
     "de_article": "die",
     "de_plural": "die Heiratsurkunden",
-    "lv": "Πιστοποιητικό γάμου",
+    "lv": "Abielutunnistus",
     "level": "C1"
   },
   {
     "de": "Urteil",
     "de_article": "das",
     "de_plural": "die Urteile",
-    "lv": "Κρίση",
+    "lv": "Kohtuotsus",
     "level": "C1"
   },
   {
     "de": "veranstalten",
-    "lv": "Να κανονίσει",
+    "lv": "Korraldama",
     "level": "C1"
   },
   {
     "de": "verantworten",
-    "lv": "Να αναλάβει την ευθύνη",
+    "lv": "Vastutust võtma",
     "level": "C1"
   },
   {
     "de": "Verantwortung",
     "de_article": "die",
     "de_plural": "die Verantwortungen",
-    "lv": "Ευθύνη",
+    "lv": "Vastutus",
     "level": "C1"
   },
   {
     "de": "Vereinbarung",
     "de_article": "die",
     "de_plural": "die Vereinbarungen",
-    "lv": "Συμφωνία",
+    "lv": "Kokkulepe",
     "level": "C1"
   },
   {
     "de": "Vergangenheit",
     "de_article": "die",
     "de_plural": "die Vergangenheiten",
-    "lv": "Το παρελθόν",
+    "lv": "Minevik",
     "level": "C1"
   },
   {
     "de": "Verkehrsstau",
     "de_article": "der",
     "de_plural": "die Verkehrsstaue",
-    "lv": "Μποτιλιάρισμα",
+    "lv": "Liiklusummik",
     "level": "C1"
   },
   {
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "Αμηχανών",
+    "lv": "Hämmeldus",
     "level": "C1"
   },
   {
     "de": "verschließen",
-    "lv": "Να κλειδώσει",
+    "lv": "Lukustama",
     "level": "C1"
   },
   {
     "de": "verschlucken",
-    "lv": "Να καταπιεί",
+    "lv": "Alle neelama",
     "level": "C1"
   },
   {
     "de": "verschwenden",
-    "lv": "Να σπαταλήσει",
+    "lv": "Raiskama",
     "level": "C1"
   },
   {
     "de": "Versicherung",
     "de_article": "die",
     "de_plural": "die Versicherungen",
-    "lv": "Ασφάλιση",
+    "lv": "Kindlustus",
     "level": "C1"
   },
   {
     "de": "sich verständigen",
-    "lv": "Καταλαβαίνουν ο ένας τον άλλον",
+    "lv": "Üksteisest aru saama",
     "level": "C1"
   },
   {
     "de": "verständlich",
-    "lv": "Κατανοητός",
+    "lv": "Arusaadav",
     "level": "C1"
   },
   {
     "de": "Vertrag",
     "de_article": "der",
     "de_plural": "die Verträge",
-    "lv": "Σύμβαση",
+    "lv": "Leping",
     "level": "C1"
   },
   {
     "de": "voll beschäftigt",
-    "lv": "Εργασία πλήρους απασχόλησης",
+    "lv": "Täiskohaga tööl",
     "level": "C1"
   },
   {
     "de": "Vorgesetzte",
     "de_article": "der",
     "de_plural": "die Vorgesetzten",
-    "lv": "Αφεντικό",
+    "lv": "Ülemus",
     "level": "C1"
   },
   {
     "de": "vorteilhaft",
-    "lv": "Χρήσιμος",
+    "lv": "Kasulik",
     "level": "C1"
   },
   {
     "de": "Wettbewerb",
     "de_article": "der",
     "de_plural": "die Wettbewerbe",
-    "lv": "Ανταγωνισμός",
+    "lv": "Konkurss",
     "level": "C1"
   },
   {
     "de": "sich zufrieden geben",
-    "lv": "Να συμφωνήσουν",
+    "lv": "Leppima",
     "level": "C1"
   },
   {
     "de": "zusammenbringen",
-    "lv": "Να συγκεντρωθούν",
+    "lv": "Kokku viima",
     "level": "C1"
   },
   {
     "de": "zusammenfassen",
-    "lv": "Συνοψίζω • Συνοψίζω",
+    "lv": "Kokku võtma • Resümeerima",
     "level": "C1",
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "Συνοψίζω • Συνοψίζω",
+      "translation": "Kokku võtma • Resümeerima",
       "explanation": [
-        "Κύρια ιδέα: το zusammenfassen είναι ένα ρήμα — για τη συλλογή ή τη συλλογή πληροφοριών σε μια σύντομη επισκόπηση.",
-        "Η λέξη zusammenfassen χρησιμοποιείται όταν δημιουργείται μια σύντομη επισκόπηση πολλών γεγονότων, κειμένων ή ιδεών.",
-        "Μην συγχέετε με τη λέξη die Zusammenfassung — είναι ουσιαστικό με κεφαλαίο γράμμα και το άρθρο die, που υποδηλώνει την ίδια την περίληψη (αποτέλεσμα, ολοκληρωμένο κείμενο).",
-        "Zusammenfassen = διαδικασία/δράση (συνοψίζω, συνοψίζω)· die Zusammenfassung = αποτέλεσμα (περίληψη ως ουσιαστικό).",
-        "Όπως πολλά γερμανικά ρήματα, το zusammenfassen μπορεί να γίνει ουσιαστικό με κεφαλαίο γράμμα και άρθρο: zusammenfassen → die Zusammenfassen (ουσιαστικό)."
+        "Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.",
+        "Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade.",
+        "Ära aja segi sõnaga die Zusammenfassung — see on suure algustähe ja artikliga die nimisõna, mis tähistab kokkuvõtet ennast (tulemust, valmis teksti).",
+        "Zusammenfassen = protsess/tegevus (kokku võtma, resümeerima) • Die Zusammenfassung = tulemus (kokkuvõte nimisõnana).",
+        "Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
       ],
       "examples": [
         {
           "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Μπορείτε να συνοψίσετε αυτό το κείμενο • "
+          "lv": "Kas te saate selle teksti kokku võtta?"
         },
         {
           "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Θα συνοψίσω τα πιο σημαντικά σημεία."
+          "lv": "Ma võtan kokku kõige tähtsamad punktid."
         },
         {
           "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "Συνόψισε εν συντομία την επισκόπηση."
+          "lv": "Ta resümeeris lühidalt ülevaate."
         },
         {
           "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Συμπερασματικά, μπορούμε να πούμε ότι..."
+          "lv": "Kokkuvõttes võib öelda, et..."
         },
         {
           "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Γράφω μια περίληψη βιβλίου."
+          "lv": "Ma kirjutan raamatu kokkuvõtet."
         },
         {
           "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Η περίληψη είναι πολύ μεγάλη."
+          "lv": "Kokkuvõte on liiga pikk."
         }
       ],
       "tip": [
-        "Zusammenfassen (ρήμα) = διαδικασία — συνοψίζω/συνοψίζω.",
-        "Die Zusammenfasung (ουσιαστικό, κεφαλαίο και άρθρο die) = αποτέλεσμα — η ίδια η περίληψη."
+        "zusammenfassen (darbības vārds) = process — apkopot/rezumēt.",
+        "die Zusammenfassung (lietvārds, ar lielo burtu un artikulu die) = rezultāts — pats kopsavilkums."
       ],
       "important": [
-        "Zusammenfassen = συνοψίζω/συνοψίζω (ρήμα).",
-        "Die Zusammenfassung = περίληψη (ουσιαστικό, υποστασιοποιημένο από το zusammenfassen).",
-        "Λάθος: die zusammenfassen → Σωστό: die Zusammenfassung (το ουσιαστικό πάντα με κεφαλαία)."
+        "zusammenfassen = apkopot/rezumēt (darbības vārds).",
+        "die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen).",
+        "Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1398,8 +1322,8 @@ const C1_WORDS = [
             "zusammenfassen"
           ],
           "purple": [
-            "apkopot",
-            "rezumēt"
+            "kokku võtma",
+            "resümeerima"
           ],
           "green": [
             "die Zusammenfassung"
@@ -1414,7 +1338,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apkopot"
+                "kokku võtta"
               ]
             }
           },
@@ -1427,7 +1351,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apkopoju"
+                "võtan kokku"
               ]
             }
           },
@@ -1439,7 +1363,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rezumēja"
+                "resümeeris"
               ]
             }
           },
@@ -1451,7 +1375,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apkopojot"
+                "kokkuvõttes"
               ]
             }
           },
@@ -1463,7 +1387,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kopsavilkumu"
+                "kokkuvõtet"
               ]
             }
           },
@@ -1475,7 +1399,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kopsavilkums"
+                "kokkuvõte"
               ]
             }
           }
@@ -1517,1076 +1441,1057 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenhängen",
-    "lv": "Να σχετίζεται με (κάτι)",
+    "lv": "Seotud olema (millegagi)",
     "level": "C1"
   },
   {
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "Προσοχή",
+    "lv": "Tähelepanu",
     "level": "C1"
   },
   {
     "de": "Fernsehsendung",
     "de_article": "die",
     "de_plural": "die Fernsehsendungen",
-    "lv": "Τηλεοπτική εκπομπή",
+    "lv": "Telesaade",
     "level": "C1"
   },
   {
     "de": "Landschaft",
     "de_article": "die",
     "de_plural": "die Landschaften",
-    "lv": "Τοπίο",
+    "lv": "Maastik",
     "level": "C1"
   },
   {
     "de": "Rechtschreibung",
     "de_article": "die",
     "de_plural": "die Rechtschreibungen",
-    "lv": "Ορθογραφία",
+    "lv": "Õigekiri",
     "level": "C1"
   },
   {
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "Διασταύρωση δρόμου",
+    "lv": "Tänavaristmik",
     "level": "C1"
   },
   {
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Επιλογή • Εκλογές",
+    "lv": "Valik • Valimised",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Επιλογή • Εκλογές",
+      "translation": "Valik • Valimised",
       "explanation": [
-        "Κύρια ιδέα: die Wahl σημαίνει επιλογή ανάμεσα σε δύο ή περισσότερες επιλογές.",
-        "Στο πλαίσιο της πολιτικής, die Wahl σημαίνει εκλογές ή ψηφοφορία.",
-        "Η έκφραση eine Wahl treffen σημαίνει να κάνεις μια επιλογή. zur Wahl gehen σημαίνει προσέλευση στις κάλπες.",
-        "Το πλαίσιο — προσωπική κρίση ή πολιτική — υπαγορεύει ποιο νόημα είναι σωστό."
+        "Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.",
+        "Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.",
+        "Väljend eine Wahl treffen tähendab valiku tegemist • Zur Wahl gehen tähendab valimistele minemist.",
+        "Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
       ],
       "examples": [
         {
           "de": "Du hast die Wahl.",
-          "lv": "Έχεις επιλογή."
+          "lv": "Sul on valik."
         },
         {
           "de": "Ich treffe meine Wahl morgen.",
-          "lv": "Θα κάνω την επιλογή μου αύριο."
+          "lv": "Ma teen oma valiku homme."
         },
         {
           "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Οι εκλογές θα διεξαχθούν την Κυριακή."
+          "lv": "Valimised toimuvad pühapäeval."
         },
         {
           "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Πολλοί πηγαίνουν στις κάλπες."
+          "lv": "Paljud inimesed lähevad valimistele."
         },
         {
           "de": "Die freie Wahl ist wichtig.",
-          "lv": "Η ελεύθερη επιλογή είναι σημαντική."
+          "lv": "Vaba valik on tähtis."
         },
         {
           "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Ψηφίζουμε στις εκλογές."
+          "lv": "Valimistel me hääletame."
         }
-      ],
-      "comparison": [
-        {
-          "word": "Die Wahl (Möglichkeit)",
-          "meaning": "Επιλογή (μεταξύ δύο ή περισσότερων επιλογών)",
-          "example": "Du hast die Wahl. = Έχετε μια επιλογή."
-        },
-        {
-          "word": "Die Wahl (Πολιτικός)",
-          "meaning": "Αρχαιρεσίες",
-          "example": "Die Wahl findet am Sonntag statt. = Οι εκλογές θα γίνουν την Κυριακή."
-        },
-        {
-          "word": "Die Auswahl",
-          "meaning": "Επιλογή, ποικιλία",
-          "example": "Es gibt eine große Auswahl. = Υπάρχουν πολλές επιλογές."
-        }
-      ],
-      "tip": "Eine Wahl treffen = να κάνω μια επιλογή· zur Wahl gehen = να πάω στην κάλπη.",
-      "important": "Μην συγχέετε το die Wahl (επιλογή / εκλογή) και το die Auswahl (επιλογή, π.χ. ποικιλία σε ένα κατάστημα)."
+      ]
     }
   },
   {
     "de": "Herausforderung",
     "de_article": "die",
     "de_plural": "die Herausforderungen",
-    "lv": "Μια πρόκληση",
+    "lv": "Väljakutse",
     "level": "C1"
   },
   {
     "de": "Abfallbeseitigung",
     "de_article": "die",
     "de_plural": "die Abfallbeseitigungen",
-    "lv": "Διάθεση απορριμμάτων",
+    "lv": "Jäätmete kõrvaldamine",
     "level": "C1"
   },
   {
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Αναπληρωτής • Αντιπρόσωπος • Αντιπρόσωπος",
+    "lv": "Saadik • Esindaja • Delegaat",
     "level": "C1"
   },
   {
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Συμφωνία",
+    "lv": "Kokkulepe",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Υπηρεσία εκκένωσης • Υπηρεσία ρυμούλκησης",
+    "lv": "Evakuatsiooniteenistus • Pukseerimisteenistus",
     "level": "C1"
   },
   {
     "de": "Abteilungsleiter",
     "de_article": "der",
     "de_plural": "die Abteilungsleiter",
-    "lv": "Προϊστάμενος τμήματος",
+    "lv": "Osakonnajuhataja",
     "level": "C1"
   },
   {
     "de": "antifaschistisch",
-    "lv": "Αντιφασίστας",
+    "lv": "Antifašistlik",
     "level": "C1"
   },
   {
     "de": "Aufenthaltsdauer",
     "de_article": "die",
     "de_plural": "die Aufenthaltsdauern",
-    "lv": "Διάρκεια παραμονής",
+    "lv": "Viibimise kestus",
     "level": "C1"
   },
   {
     "de": "augenscheinlich",
-    "lv": "Προφανώς",
+    "lv": "Sannsynligvis",
     "level": "C1"
   },
   {
     "de": "Güteraustausch",
     "de_article": "der",
     "de_plural": "die Güteraustausche",
-    "lv": "Εμπόριο",
+    "lv": "Kaubavahetus",
     "level": "C1"
   },
   {
     "de": "Flottenbasis",
     "de_article": "die",
     "de_plural": "die Flottenbasen",
-    "lv": "Βάση στόλου",
+    "lv": "Laevastikubaas",
     "level": "C1"
   },
   {
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "Βασική έρευνα",
+    "lv": "Põhiuuring",
     "level": "C1"
   },
   {
     "de": "beachtenswert",
-    "lv": "Αξιόλογη • Άξια εξέτασης",
+    "lv": "Tähelepanuväärne • Arvestamisväärne",
     "level": "C1"
   },
   {
     "de": "beanspruchen",
-    "lv": "Απαιτώ • Προσποιούμαι • Επιβαρύνομαι",
+    "lv": "Nõudma • Pretendeerima • Koormatud olema",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "Καταναλωτικών αγαθών",
+    "lv": "Laiatarbekaup",
     "level": "C1"
   },
   {
     "de": "bedingungslos",
-    "lv": "Άνευ όρων",
+    "lv": "Tingimusteta",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Πρόβλημα • Σύγχυση",
+    "lv": "Kimbatus • Segadus",
     "level": "C1"
   },
   {
     "de": "beglaubigen",
-    "lv": "Να επιβεβαιώσει επίσημα • Να επικυρώσει",
+    "lv": "Ametlikult kinnitama • Notariaalselt tõestama",
     "level": "C1"
   },
   {
     "de": "beglückwünschen",
-    "lv": "Να ευχηθώ τύχη • Να συγχαρώ",
+    "lv": "Õnne soovima • Õnnitlema",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "Διμερής • Αμοιβαία",
+    "lv": "Kahepoolne • Vastastikune",
     "level": "C1"
   },
   {
     "de": "Familienbeihilfe",
     "de_article": "die",
     "de_plural": "die Familienbeihilfen",
-    "lv": "Οικογενειακό επίδομα",
+    "lv": "Peretoetus",
     "level": "C1"
   },
   {
     "de": "beispielhaft",
-    "lv": "Παραδειγματικός",
+    "lv": "Eeskujulik",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "Λύπη • Θρηνώ • Θρηνώ • Παραπονιέμαι",
+    "lv": "Kahetsema • Kurvastama • Leinama • Kaebama",
     "level": "C1"
   },
   {
     "de": "Zahnbelag",
     "de_article": "der",
     "de_plural": "die Zahnbeläge",
-    "lv": "Οδοντική πλάκα",
+    "lv": "Hambakatt",
     "level": "C1"
   },
   {
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Συλλογικό • Προσωπικό",
+    "lv": "Kollektiiv • Personal",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Βλάπτω • Προκαλώ βλάβη",
+    "lv": "Kahjustama • Kahju tekitama",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "Σύμβουλος απασχόλησης",
+    "lv": "Tööalane nõustaja",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "Συμβουλεύομαι",
+    "lv": "Nõu pidama",
     "level": "C1"
   },
   {
     "de": "Einflussbereich",
     "de_article": "der",
     "de_plural": "die Einflussbereiche",
-    "lv": "Σφαίρα επιρροής",
+    "lv": "Mõjusfäär",
     "level": "C1"
   },
   {
     "de": "bereitwillig",
-    "lv": "Χρήσιμο • Έτοιμο για σερβίρισμα",
+    "lv": "Abivalmis • Teenistusvalmis",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Επαγγελματική συμβουλευτική",
+    "lv": "Kutsenõustamine",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Επαγγελματική εχεμύθεια",
+    "lv": "Ametisaladus",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Κλίση • Κλίση • Έφεση",
+    "lv": "Kutsumus • Kalduvus • Apellatsioon",
     "level": "C1"
   },
   {
     "de": "Besatzungsmacht",
     "de_article": "die",
     "de_plural": "die Besatzungsmächte",
-    "lv": "Κατοχική εξουσία",
+    "lv": "Okupatsioonivõim",
     "level": "C1"
   },
   {
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Ιδιοκτησία • Ουσία",
+    "lv": "Omadus • Olemus",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "Επιβεβαιώστε • Εκδώστε ένα πιστοποιητικό",
+    "lv": "Kinnitama • Tõendit väljastama",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Απόδειξη • Μαρτυρία • Επιβεβαίωση",
+    "lv": "Tõend • Tunnistus • Kinnitus",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Αρπάζω • Κατάσχω • Αλλοτριώνω",
+    "lv": "Arestima • Konfiskeerima • Võõrandama",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Να κατηγορήσει",
+    "lv": "Sørlendinger",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "Ιδιορρυθμία",
+    "lv": "Iseärasus",
     "level": "C1"
   },
   {
     "de": "beträchtlich",
-    "lv": "Σημαντική • Αρκετά μεγάλη",
+    "lv": "Märkimisväärne • Üsna suur",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "Λειτουργικό κόστος της εταιρείας • Κόστος παραγωγής",
+    "lv": "Ettevõtte ekspluatatsioonikulud • Tootmiskulud",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "Λειτουργικό σύστημα",
+    "lv": "Operatsioonisüsteem",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "Εξουσιοδοτώ",
+    "lv": "Volitama",
     "level": "C1"
   },
   {
     "de": "bevorstehend",
-    "lv": "Επερχόμενο • Επόμενο",
+    "lv": "Eesseisev • Järgmine",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "Να αποδείξει τον εαυτό του • Να δικαιωθεί",
+    "lv": "End tõestama • Õigustatuks osutuma",
     "level": "C1"
   },
   {
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "Υλικά στοιχεία",
+    "lv": "Materiaalsed tõendid",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "Να εφαρμόζουν • Να αγωνίζονται",
+    "lv": "Kandideerima • Püüdlema",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Πρόσωπο επικοινωνίας • Στενό πρόσωπο",
+    "lv": "Kontaktisik • Lähedane inimene",
     "level": "C1"
   },
   {
     "de": "Bildhauerkunst",
     "de_article": "die",
-    "lv": "Γλυπτική",
+    "lv": "Skulptuur",
     "level": "C1"
   },
   {
     "de": "Bilanz",
     "de_article": "die",
     "de_plural": "die Bilanzen",
-    "lv": "Ισολογισμού",
+    "lv": "Bilanss",
     "level": "C1"
   },
   {
     "de": "Finanzblockade",
     "de_article": "die",
     "de_plural": "die Finanzblockaden",
-    "lv": "Οικονομικός αποκλεισμός",
+    "lv": "Finantsblokaad",
     "level": "C1"
   },
   {
     "de": "Blutuntersuchung",
     "de_article": "die",
     "de_plural": "die Blutuntersuchungen",
-    "lv": "Εξέταση αίματος",
+    "lv": "Vereanalüüs",
     "level": "C1"
   },
   {
     "de": "Blutsverwandte",
     "de_article": "der",
     "de_plural": "die Blutsverwandten",
-    "lv": "Συγγενής εξ αίματος",
+    "lv": "Veresugulane",
     "level": "C1"
   },
   {
     "de": "Botschafter",
     "de_article": "der",
     "de_plural": "die Botschafter",
-    "lv": "Από",
+    "lv": "Saadik",
     "level": "C1"
   },
   {
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "Πολίτης της Ομοσπονδιακής Δημοκρατίας της Γερμανίας",
+    "lv": "Saksamaa Liitvabariigi kodanik",
     "level": "C1"
   },
   {
     "de": "Computersprache",
     "de_article": "die",
     "de_plural": "die Computersprachen",
-    "lv": "Γλώσσα προγραμματισμού",
+    "lv": "Programmeerimiskeel",
     "level": "C1"
   },
   {
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "Σχάρα οροφής",
+    "lv": "Katuse pagasiraam",
     "level": "C1"
   },
   {
     "de": "Datenübermittlung",
     "de_article": "die",
     "de_plural": "die Datenübermittlungen",
-    "lv": "Μετάδοση δεδομένων",
+    "lv": "Andmeedastus",
     "level": "C1"
   },
   {
     "de": "Datenübertragung",
     "de_article": "die",
     "de_plural": "die Datenübertragungen",
-    "lv": "Μετάδοση δεδομένων",
+    "lv": "Andmeedastus",
     "level": "C1"
   },
   {
     "de": "dauerhaft",
-    "lv": "Επίμονο • Μακροχρόνιο • Ανθεκτικό",
+    "lv": "Püsiv • Pikaajaline • Vastupidav",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "Να μπει • Επέμβει",
+    "lv": "Vahele tulema • Sekkuma",
     "level": "C1"
   },
   {
     "de": "Haushaltsdefizit",
     "de_article": "das",
     "de_plural": "die Haushaltsdefizite",
-    "lv": "Δημοσιονομικό έλλειμμα",
+    "lv": "Eelarvedefitsiit",
     "level": "C1"
   },
   {
     "de": "Zolldeklaration",
     "de_article": "die",
     "de_plural": "die Zolldeklarationen",
-    "lv": "Τελωνειακή διασάφηση",
+    "lv": "Tollideklaratsioon",
     "level": "C1"
   },
   {
     "de": "Delegation",
     "de_article": "die",
     "de_plural": "die Delegationen",
-    "lv": "Αντιπροσωπεία",
+    "lv": "Delegatsioon",
     "level": "C1"
   },
   {
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Παραβίαση δικαιωμάτων ιδιοκτησίας",
+    "lv": "Omandiõiguse rikkumine",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "Τροχαία παράβαση",
+    "lv": "Liiklusrikkumine",
     "level": "C1"
   },
   {
     "de": "dementsprechend",
-    "lv": "Επομένως",
+    "lv": "Vastavalt sellele",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "Ανευλαβής",
+    "lv": "Sellest hoolimata",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "Εθνική υπηρεσία πληροφοριών",
+    "lv": "Riiklik luureteenistus",
     "level": "C1"
   },
   {
     "de": "Rettungsdienst",
     "de_article": "der",
     "de_plural": "die Rettungsdienste",
-    "lv": "Υπηρεσία διάσωσης",
+    "lv": "Päästeteenistus",
     "level": "C1"
   },
   {
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Υπηρεσία κοινής ωφέλειας",
+    "lv": "Olmeteenus",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Κληρωτός",
+    "lv": "Sõjaväeteenistuskohuslane",
     "level": "C1"
   },
   {
     "de": "diensttauglich",
-    "lv": "Δικαιούται στρατιωτική θητεία",
+    "lv": "Sõjaväeteenistuskõlblik",
     "level": "C1"
   },
   {
     "de": "Dieseltreibstoff",
     "de_article": "der",
     "de_plural": "die Dieseltreibstoffe",
-    "lv": "Καύσιμο ντίζελ",
+    "lv": "Diislikütus",
     "level": "C1"
   },
   {
     "de": "Diplomatie",
     "de_article": "die",
-    "lv": "Διπλωματία",
+    "lv": "Diplomaatia",
     "level": "C1"
   },
   {
     "de": "diplomatisch",
-    "lv": "Διπλωματικός",
+    "lv": "Diplomaatiline",
     "level": "C1"
   },
   {
     "de": "Dirigentenstab",
     "de_article": "der",
     "de_plural": "die Dirigentenstäbe",
-    "lv": "Μαέστρος σκυτάλη",
+    "lv": "Dirigendikepp",
     "level": "C1"
   },
   {
     "de": "Diskettenlaufwerk",
     "de_article": "das",
     "de_plural": "die Diskettenlaufwerke",
-    "lv": "Μονάδα δισκέτας",
+    "lv": "Disketiseade",
     "level": "C1"
   },
   {
     "de": "disqualifizieren",
-    "lv": "Να αποκλειστεί",
+    "lv": "Diskvalifitseerima",
     "level": "C1"
   },
   {
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Χωρίς διέλευση",
+    "lv": "Läbisõidukeeld",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "lv": "Διαμετακομιστική κυκλοφορία",
+    "lv": "Transiitliiklus",
     "level": "C1"
   },
   {
     "de": "ehrenhaft",
-    "lv": "Τίμιος • Έντιμος • Αξιοσέβαστος",
+    "lv": "Aus • Auväärne • Lugupeetav",
     "level": "C1"
   },
   {
     "de": "Einflusssphäre",
     "de_article": "die",
     "de_plural": "die Einflusssphären",
-    "lv": "Σφαίρα επιρροής",
+    "lv": "Mõjusfäär",
     "level": "C1"
   },
   {
     "de": "eingeschrieben",
-    "lv": "Εγγεγραμμένος",
+    "lv": "Registreeritud",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Νομισματική μονάδα",
+    "lv": "Rahaühik",
     "level": "C1"
   },
   {
     "de": "Einkommensteuer",
     "de_article": "die",
     "de_plural": "die Einkommensteuern",
-    "lv": "Φόρο εισοδήματος",
+    "lv": "Tulumaks",
     "level": "C1"
   },
   {
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "Προκαταβολή • Κατάθεση • Συνημμένο επιστολής",
+    "lv": "Sissemakse • Hoius • Kirja lisa",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "Να ενσταλάξει • Να πείσει να προσπαθήσει",
+    "lv": "Sisendama • Veenda püüdma",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "Δελεάστε τον εαυτό σας",
+    "lv": "Meelitama end sisse",
     "level": "C1"
   },
   {
     "de": "Einschreibebrief",
     "de_article": "der",
     "de_plural": "die Einschreibebriefe",
-    "lv": "Κεφαλαίο γράμμα",
+    "lv": "Tähtkiri",
     "level": "C1"
   },
   {
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "Δικαίωμα αντίρρησης • Δικαίωμα βέτο",
+    "lv": "Vastuväiteõigus • Vetoõigus",
     "level": "C1"
   },
   {
     "de": "Einstandsgebühr",
     "de_article": "die",
     "de_plural": "die Einstandsgebühren",
-    "lv": "Συνδρομή",
+    "lv": "Liitumistasu",
     "level": "C1"
   },
   {
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "Συναίνεση • Συμφωνία • Συγκατάθεση",
+    "lv": "Üksmeel • Kokkulepe • Nõusolek",
     "level": "C1"
   },
   {
     "de": "Eisenbahnunglück",
     "de_article": "das",
     "de_plural": "die Eisenbahnunglücke",
-    "lv": "Σιδηροδρομικό δυστύχημα",
+    "lv": "Raudteeõnnetus",
     "level": "C1"
   },
   {
     "de": "Eisenbahnverkehr",
     "de_article": "der",
     "de_plural": "die Eisenbahnverkehre",
-    "lv": "Σιδηροδρομική κυκλοφορία",
+    "lv": "Raudteeliiklus",
     "level": "C1"
   },
   {
     "de": "Elektrizitätswerk",
     "de_article": "das",
     "de_plural": "die Elektrizitätswerke",
-    "lv": "Εργοστάσιο παραγωγής ενέργειας",
+    "lv": "Elektrijaam",
     "level": "C1"
   },
   {
     "de": "Elementarbegriff",
     "de_article": "der",
     "de_plural": "die Elementarbegriffe",
-    "lv": "Βασική έννοια",
+    "lv": "Põhimõiste",
     "level": "C1"
   },
   {
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Βασικός κανόνας",
+    "lv": "Põhireegel",
     "level": "C1"
   },
   {
     "de": "Energieerzeugung",
     "de_article": "die",
     "de_plural": "die Energieerzeugungen",
-    "lv": "Παραγωγή ενέργειας",
+    "lv": "Energiatootmine",
     "level": "C1"
   },
   {
     "de": "Energieversorgung",
     "de_article": "die",
     "de_plural": "die Energieversorgungen",
-    "lv": "Παροχή ενέργειας",
+    "lv": "Energiavarustus",
     "level": "C1"
   },
   {
     "de": "entgegensetzen",
-    "lv": "Να κάνει αντίθεση",
+    "lv": "Vastandama",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "Να αντισταθείς",
+    "lv": "Vastu seisma",
     "level": "C1"
   },
   {
     "de": "entschädigen",
-    "lv": "Αντισταθμίζω • Αντισταθμίζω",
+    "lv": "Hüvitama • Kompenseerima",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "Να αποφασίσει",
+    "lv": "Otsustama",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Αποφασιστικός • Αποφασιστικός",
+    "lv": "Otsustav • Kindlameelne",
     "level": "C1"
   },
   {
     "de": "entschlüsseln",
-    "lv": "Να αποκρυπτογραφήσει",
+    "lv": "Dešifreerima",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Σχέδιο νόμου",
+    "lv": "Seaduseelnõu",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Μάθημα απεξάρτησης",
+    "lv": "Võõrutusravi kuur",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Κληρονομική ασθένεια",
+    "lv": "Pärilik haigus",
     "level": "C1"
   },
   {
     "de": "Kriegserklärung",
     "de_article": "die",
     "de_plural": "die Kriegserklärungen",
-    "lv": "Κήρυξη πολέμου",
+    "lv": "Sõjakuulutus",
     "level": "C1"
   },
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Εργασίες συγκομιδής",
+    "lv": "Saagikoristustööd",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Εφεδρικός • Αποθεματικός παίκτης",
+    "lv": "Reservväelane • Reservmängija",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Πρεμιέρα",
+    "lv": "Esietendus",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
-    "lv": "Αποφασισμένος",
+    "lv": "Kindlaks määratud",
     "level": "C1"
   },
   {
     "de": "feuergefährlich",
-    "lv": "Εύφλεκτος",
+    "lv": "Tuleohtlik",
     "level": "C1"
   },
   {
     "de": "Feuerversicherung",
     "de_article": "die",
     "de_plural": "die Feuerversicherungen",
-    "lv": "Ασφάλιση πυρός",
+    "lv": "Tulekindlustus",
     "level": "C1"
   },
   {
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Πύραυλος πυροτεχνημάτων",
+    "lv": "Ilutulestikurakett",
     "level": "C1"
   },
   {
     "de": "Fleckenentferner",
     "de_article": "der",
     "de_plural": "die Fleckenentferner",
-    "lv": "Αφαίρεσης λεκέδων",
+    "lv": "Plekieemaldi",
     "level": "C1"
   },
   {
     "de": "Flüchtlingslager",
     "de_article": "das",
     "de_plural": "die Flüchtlingslager",
-    "lv": "Στρατόπεδο προσφύγων",
+    "lv": "Pagulaslaager",
     "level": "C1"
   },
   {
     "de": "Fortbildungskurse",
     "de_article": "die",
-    "lv": "Μαθήματα συνεχιζόμενης εκπαίδευσης",
+    "lv": "Täienduskoolituskursused",
     "level": "C1"
   },
   {
     "de": "fortgeschritten",
-    "lv": "Αρκετά αργά στην ανάπτυξη",
+    "lv": "Üsna hilises arengujärgus",
     "level": "C1"
   },
   {
     "de": "fortschrittlich",
-    "lv": "Προοδευτικός",
+    "lv": "Progressiivne",
     "level": "C1"
   },
   {
     "de": "Freilichtmuseum",
     "de_article": "das",
     "de_plural": "die Freilichtmuseen",
-    "lv": "Υπαίθριο μουσείο",
+    "lv": "Vabaõhumuuseum",
     "level": "C1"
   },
   {
     "de": "Friedensangebot",
     "de_article": "das",
     "de_plural": "die Friedensangebote",
-    "lv": "Προσφορά ειρήνης",
+    "lv": "Rahupakkumine",
     "level": "C1"
   },
   {
     "de": "Friedensvertrag",
     "de_article": "der",
     "de_plural": "die Friedensverträge",
-    "lv": "Συνθήκη ειρήνης",
+    "lv": "Rahuleping",
     "level": "C1"
   },
   {
     "de": "Friedenspolitik",
     "de_article": "die",
     "de_plural": "die Friedenspolitiken",
-    "lv": "Ειρηνευτική πολιτική",
+    "lv": "Rahupoliitika",
     "level": "C1"
   },
   {
     "de": "Führunternehmen",
     "de_article": "das",
     "de_plural": "die Führunternehmen",
-    "lv": "Μεταφορική εταιρεία",
+    "lv": "Kravas transporta uzņēmums",
     "level": "C1"
   },
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Κοινωνική πρόνοια",
+    "lv": "Sotsiaalhoolekanne",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Διορατικότητα",
+    "lv": "Taipamisvõime",
     "level": "C1"
   },
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "Μεταχειρισμένα πράγματα",
+    "lv": "Kasutatud asjad",
     "level": "C1"
   },
   {
     "de": "Geburtenrate",
     "de_article": "die",
     "de_plural": "die Geburtenraten",
-    "lv": "Ποσοστό γεννήσεων",
+    "lv": "Sündimuse tase",
     "level": "C1"
   },
   {
     "de": "Gefängniszelle",
     "de_article": "die",
     "de_plural": "die Gefängniszellen",
-    "lv": "Ένα κελί φυλακής",
+    "lv": "Vanglakamber",
     "level": "C1"
   },
   {
     "de": "Gefäßverengung",
     "de_article": "die",
     "de_plural": "die Gefäßverengungen",
-    "lv": "Στένωση των αιμοφόρων αγγείων",
+    "lv": "Veresoonte ahenemine",
     "level": "C1"
   },
   {
     "de": "Geflügelzucht",
     "de_article": "die",
     "de_plural": "die Geflügelzuchten",
-    "lv": "Πτηνοτροφία",
+    "lv": "Linnukasvatus",
     "level": "C1"
   },
   {
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "Σημείο πήξης • Σημείο μηδέν",
+    "lv": "Külmumispunkt • Nullpunkt",
     "level": "C1"
   },
   {
     "de": "Gehaltskürzung",
     "de_article": "die",
     "de_plural": "die Gehaltskürzungen",
-    "lv": "Περικοπή μισθού",
+    "lv": "Palgakärbe",
     "level": "C1"
   },
   {
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "Μυστικό πισινό",
+    "lv": "Pihisaladus",
     "level": "C1"
   },
   {
     "de": "Gehirnschlag",
     "de_article": "der",
     "de_plural": "die Gehirnschläge",
-    "lv": "Ένα εγκεφαλικό",
+    "lv": "Insult",
     "level": "C1"
   },
   {
     "de": "Geisterstunde",
     "de_article": "die",
     "de_plural": "die Geisterstunden",
-    "lv": "Ώρα φαντασμάτων",
+    "lv": "Kummituste tund",
     "level": "C1"
   },
   {
     "de": "geistesabwesend",
-    "lv": "Έξαλλος",
+    "lv": "Hajevil",
     "level": "C1"
   },
   {
     "de": "geisteskrank",
-    "lv": "Ψυχικά άρρωστος",
+    "lv": "Vaimuhaige",
     "level": "C1"
   },
   {
     "de": "geistesschwach",
-    "lv": "Με νοητικές αναπηρίες",
+    "lv": "Vaimupuudega",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Οδήγηση εκτός δρόμου",
+    "lv": "Maastikusõit",
     "level": "C1"
   },
   {
     "de": "Geldentwertung",
     "de_article": "die",
     "de_plural": "die Geldentwertungen",
-    "lv": "Πληθωρισμός",
+    "lv": "Inflatsioon",
     "level": "C1"
   },
   {
     "de": "gelegentlich",
-    "lv": "Περιστασιακά • Περιστασιακά • Σχετικά",
+    "lv": "Aeg-ajalt • Juhuslik • Seoses",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Περιστασιακά • Περιστασιακά • Σχετικά",
-      "explanation": "Κύρια ιδέα: το gelegentlich είναι μια λέξη με τρεις λειτουργίες. Επίθετο: περιστασιακό (ein gelegentlicher Besuch). Επίρρημα: περιστασιακά (Er kommt gelegentlich). Πρόθεση + γεν.: σε σύνδεση (gelegentlich des Festes).",
+      "translation": "Aeg-ajalt • Juhuslik • Seoses",
+      "explanation": "Põhiidee: gelegentlich on kolme funktsiooniga sõna. Omadussõna: juhuslik (ein gelegentlicher Besuch). Määrsõna: aeg-ajalt (Er kommt gelegentlich). Eessõna + genitiiv: seoses (gelegentlich des Festes).",
       "examples": [
         {
           "de": "Er kommt gelegentlich vorbei.",
-          "lv": "Σταματάει από καιρό σε καιρό."
+          "lv": "Ta astub aeg-ajalt läbi."
         },
         {
           "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Μια περιστασιακή επίσκεψη είναι αρκετή."
+          "lv": "Juhuslikust külastusest piisab."
         },
         {
           "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Πραγματοποιήθηκε ομιλία με αφορμή το πάρτι."
+          "lv": "Peo puhul peeti kõne."
         }
       ],
       "comparison": [
         {
           "word": "gelegentlich (Adv.)",
-          "meaning": "από καιρό σε καιρό",
-          "example": "Er kommt gelegentlich. = Έρχεται από καιρό σε καιρό."
+          "meaning": "Aeg-ajalt",
+          "example": "Er kommt gelegentlich. = Ta tuleb aeg-ajalt."
         },
         {
           "word": "gelegentlich (Adj.)",
-          "meaning": "περιστασιακό",
-          "example": "ein gelegentlicher Besuch = μια περιστασιακή επίσκεψη"
+          "meaning": "Juhuslik",
+          "example": "ein gelegentlicher Besuch = Juhuslik külaskäik"
         },
         {
           "word": "gelegentlich (+ Gen.)",
-          "meaning": "σε σχέση με",
-          "example": "gelegentlich des Festes = σε σχέση με τη γιορτή"
+          "meaning": "Seoses",
+          "example": "gelegentlich des Festes = Peo puhul"
         },
         {
           "word": "manchmal",
-          "meaning": "μερικές φορές",
-          "example": "Manchmal regnet es. = Μερικές φορές βρέχει."
+          "meaning": "Vahel",
+          "example": "Manchmal regnet es. = Vahel sajab."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Η θέση στην πρόταση βοηθά: πριν από ουσιαστικό = επίθετο • μετά το ρήμα = επίρρημα • + γεν. = πρόθεση."
+            "text": "Positsioon lauses aitab: enne nimisõna = omadussõna • Pärast tegusõna = määrsõna • + genitiiv = eessõna."
           }
         ]
       },
       "important": {
-        "text": "Επίθ.: περιστασιακό. Επίρρ.: περιστασιακά. Πρόθ. + γεν.: σε σχέση με. Το πλαίσιο καθορίζει τη σημασία."
+        "text": "Adj: juhuslik. Adv: aeg-ajalt. Prep. + Gen.: seoses. Kontekst määrab tähenduse."
       },
       "sectionAccents": {
         "explanation": {
@@ -2594,9 +2499,9 @@ const C1_WORDS = [
             "gelegentlich"
           ],
           "purple": [
-            "reizēm",
-            "gadījuma",
-            "sakarā ar"
+            "aeg-ajalt",
+            "juhuslik",
+            "seoses"
           ]
         },
         "examples": [
@@ -2608,7 +2513,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reizēm"
+                "aeg-ajalt"
               ]
             }
           },
@@ -2620,7 +2525,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gadījuma"
+                "juhuslik"
               ]
             }
           },
@@ -2632,7 +2537,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sakarā"
+                "puhul"
               ]
             }
           }
@@ -2644,1317 +2549,1317 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "Γκαλερί ζωγραφικής",
+    "lv": "Maaligalerii",
     "level": "C1"
   },
   {
     "de": "Gemäldesammlung",
     "de_article": "die",
     "de_plural": "die Gemäldesammlungen",
-    "lv": "Συλλογή ζωγραφικής",
+    "lv": "Maalikogu",
     "level": "C1"
   },
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "Κοινοτική περιουσία",
+    "lv": "Ühiskondlik omand",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Ένας ευγενικός και καλόκαρδος άνθρωπος",
+    "lv": "Lahke ja heasüdamlik inimene",
     "level": "C1"
   },
   {
     "de": "Genmanipulation",
     "de_article": "die",
     "de_plural": "die Genmanipulationen",
-    "lv": "Γενετική τροποποίηση",
+    "lv": "Geenimuundamine",
     "level": "C1"
   },
   {
     "de": "Generalprobe",
     "de_article": "die",
     "de_plural": "die Generalproben",
-    "lv": "Πρόβα",
+    "lv": "Peaproov",
     "level": "C1"
   },
   {
     "de": "Generalstreik",
     "de_article": "der",
     "de_plural": "die Generalstreiks",
-    "lv": "Γενική απεργία",
+    "lv": "Üldstreik",
     "level": "C1"
   },
   {
     "de": "genmanipuliert",
-    "lv": "Γενετικά τροποποιημένο",
+    "lv": "Geneetiliselt muundatud",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "Παραλαβή αποσκευών",
+    "lv": "Pagasitõend",
     "level": "C1"
   },
   {
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Συνήθεια • Έθιμο",
+    "lv": "Harjumus • Komme",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "Ισιώνω • Επιδιορθώνω",
+    "lv": "Sirgeks ajama • Parandama",
     "level": "C1"
   },
   {
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "Ένορκοι",
+    "lv": "Vandekohus",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Δικαστήριο • Δικαστήριο",
+    "lv": "Kohtukoda • Tribunal",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "Περιφρονητικός • Υποτιμητικός",
+    "lv": "Põlglik • Halvustav",
     "level": "C1"
   },
   {
     "de": "Gesamteindruck",
     "de_article": "der",
     "de_plural": "die Gesamteindrücke",
-    "lv": "Γενική εντύπωση",
+    "lv": "Üldmulje",
     "level": "C1"
   },
   {
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Το τελικό αποτέλεσμα",
+    "lv": "Lõpptulemus",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Πρεσβεία",
+    "lv": "Saatkond",
     "level": "C1"
   },
   {
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "Πολυκατάστημα",
+    "lv": "Kaubamaja",
     "level": "C1"
   },
   {
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Οικονομικό έτος",
+    "lv": "Majandusaasta",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Ωριμάσει σεξουαλικά",
+    "lv": "Suguküpseks saanud",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "Κώδικας δικαίου",
+    "lv": "Seadustik",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "Νομοθετικός",
+    "lv": "Seadusandlik",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Ενάντια στο νόμο",
+    "lv": "Seadusevastane",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Νόμιμος • Νόμιμος",
+    "lv": "Seaduslik • Seaduspärane",
     "level": "C1"
   },
   {
     "de": "gesetzwidrig",
-    "lv": "Ενάντια στο νόμο",
+    "lv": "Seadusevastane",
     "level": "C1"
   },
   {
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Ορίζοντας • Ορίζοντας",
+    "lv": "Silmaring • Horisont",
     "level": "C1"
   },
   {
     "de": "Gewinnanteil",
     "de_article": "der",
     "de_plural": "die Gewinnanteile",
-    "lv": "Μερίδιο κέρδους",
+    "lv": "Kasumiosa",
     "level": "C1"
   },
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "Πόνοι συνείδησης",
+    "lv": "Südametunnistuse piinad",
     "level": "C1"
   },
   {
     "de": "gewissermaßen",
-    "lv": "Ως ένα βαθμό • Με τον δικό του τρόπο • Ας πούμε",
+    "lv": "Teataval määral • Omal moel • Nii-öelda",
     "level": "C1"
   },
   {
     "de": "glaubhaft",
-    "lv": "Πιστευτός • Πειστικός",
+    "lv": "Usutav • Veenev",
     "level": "C1"
   },
   {
     "de": "gleichberechtigt",
-    "lv": "Ίσος",
+    "lv": "Võrdõiguslik",
     "level": "C1"
   },
   {
     "de": "Götzenverehrung",
     "de_article": "die",
     "de_plural": "die Götzenverehrungen",
-    "lv": "Ειδωλολατρεία",
+    "lv": "Ebajumalateenistus",
     "level": "C1"
   },
   {
     "de": "Grenzverletzung",
     "de_article": "die",
     "de_plural": "die Grenzverletzungen",
-    "lv": "Καταπατώντας",
+    "lv": "Piiririkkumine",
     "level": "C1"
   },
   {
     "de": "Grundgesetz",
     "de_article": "das",
     "de_plural": "die Grundgesetze",
-    "lv": "Το σύνταγμα",
+    "lv": "Põhiseadus",
     "level": "C1"
   },
   {
     "de": "Gütertransport",
     "de_article": "der",
     "de_plural": "die Gütertransporte",
-    "lv": "Εμπορευματικές μεταφορές",
+    "lv": "Kaubavedu",
     "level": "C1"
   },
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Υπό κράτηση • Σύλληψη",
+    "lv": "Vahi all olek • Arest",
     "level": "C1"
   },
   {
     "de": "Haftbefehl",
     "de_article": "der",
     "de_plural": "die Haftbefehle",
-    "lv": "Ένταλμα σύλληψης",
+    "lv": "Vahistamismäärus",
     "level": "C1"
   },
   {
     "de": "haften",
-    "lv": "Να κολλήσει • Να προσκολληθεί",
+    "lv": "Kinni jääma • Küljes olema",
     "level": "C1"
   },
   {
     "de": "Haftung",
     "de_article": "die",
     "de_plural": "die Haftungen",
-    "lv": "Ευθύνη",
+    "lv": "Vastutus",
     "level": "C1"
   },
   {
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Διάρκεια ζωής",
+    "lv": "Säilivusaeg",
     "level": "C1"
   },
   {
     "de": "Handelspartner",
     "de_article": "der",
     "de_plural": "die Handelspartner",
-    "lv": "Εμπορικός εταίρος",
+    "lv": "Kaubanduspartner",
     "level": "C1"
   },
   {
     "de": "Handelsvertretung",
     "de_article": "die",
     "de_plural": "die Handelsvertretungen",
-    "lv": "Εμπορικό γραφείο",
+    "lv": "Kaubandusesindus",
     "level": "C1"
   },
   {
     "de": "Hauptversammlung",
     "de_article": "die",
     "de_plural": "die Hauptversammlungen",
-    "lv": "Γενική συνέλευση",
+    "lv": "Üldkoosolek",
     "level": "C1"
   },
   {
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "Αστυνομική έρευνα",
+    "lv": "Politseiläbiotsimine",
     "level": "C1"
   },
   {
     "de": "Haushaltsartikel",
     "de_article": "der",
     "de_plural": "die Haushaltsartikel",
-    "lv": "Οικιακά είδη",
+    "lv": "Majapidamiskaup",
     "level": "C1"
   },
   {
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "Αμειβόμενη οικιακή βοηθό",
+    "lv": "Palgaline koduabiline",
     "level": "C1"
   },
   {
     "de": "Hautentzündung",
     "de_article": "die",
     "de_plural": "die Hautentzündungen",
-    "lv": "Φλεγμονή του δέρματος",
+    "lv": "Nahapõletik",
     "level": "C1"
   },
   {
     "de": "heldenhaft",
-    "lv": "Ηρωϊκός",
+    "lv": "Kangelaslik",
     "level": "C1"
   },
   {
     "de": "Herrschaft",
     "de_article": "die",
     "de_plural": "die Herrschaften",
-    "lv": "Διακυβέρνηση • Εξουσία",
+    "lv": "Valitsemine • Võim",
     "level": "C1"
   },
   {
     "de": "herunterkommen",
-    "lv": "Να κατέβει • Να είναι μίζερος",
+    "lv": "Alla käima • Viletsaks jääma",
     "level": "C1"
   },
   {
     "de": "herunterstürzen",
-    "lv": "Να πέσει κάτω",
+    "lv": "Alle kukkuma",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "Να παρασυρθεί",
+    "lv": "End kaasa haarata laskma",
     "level": "C1"
   },
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "lv": "Βιομηχανικά καυσαέρια",
+    "lv": "Tööstuslikud heitgaasid",
     "level": "C1"
   },
   {
     "de": "Industrieabwässer",
     "de_article": "die",
-    "lv": "Βιομηχανικά λύματα",
+    "lv": "Tööstuslikud reoveed",
     "level": "C1"
   },
   {
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "Βιομηχανικό συγκρότημα",
+    "lv": "Tööstuskompleks",
     "level": "C1"
   },
   {
     "de": "inhaftieren",
-    "lv": "Να συλλάβει",
+    "lv": "Vahistama",
     "level": "C1"
   },
   {
     "de": "Innenarchitekt",
     "de_article": "der",
     "de_plural": "die Innenarchitekten",
-    "lv": "Ένας αρχιτέκτονας εσωτερικού χώρου",
+    "lv": "Sisearhitekt",
     "level": "C1"
   },
   {
     "de": "Innenminister",
     "de_article": "der",
     "de_plural": "die Innenminister",
-    "lv": "Υπουργός Εσωτερικών",
+    "lv": "Siseminister",
     "level": "C1"
   },
   {
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "Μονάδα εντατικής θεραπείας του νοσοκομείου",
+    "lv": "Haigla intensiivravi osakond",
     "level": "C1"
   },
   {
     "de": "interpretieren",
-    "lv": "Ερμηνεύουν • Εξηγούν",
+    "lv": "Tõlgendama • Selgitama",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Απονομή της δικαιοσύνης • Δικαιοσύνη",
+    "lv": "Õigusemõistmine • Justiits",
     "level": "C1"
   },
   {
     "de": "Kabinettsitzung",
     "de_article": "die",
     "de_plural": "die Kabinettsitzungen",
-    "lv": "Συνεδρίαση του υπουργικού συμβουλίου",
+    "lv": "Kabinetiistung",
     "level": "C1"
   },
   {
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "Ένα ιδιαίτερα σοβαρό έγκλημα",
+    "lv": "Eriti raske kuritegu",
     "level": "C1"
   },
   {
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "Εγγύηση • Εγγύηση • Εγγύηση",
+    "lv": "Tagatis • Kautsjon • Garantii",
     "level": "C1"
   },
   {
     "de": "Koalition",
     "de_article": "die",
     "de_plural": "die Koalitionen",
-    "lv": "Συνασπισμός",
+    "lv": "Koalitsioon",
     "level": "C1"
   },
   {
     "de": "körperbehindert",
-    "lv": "Άτομο με σωματική αναπηρία",
+    "lv": "Füüsilise puudega inimene",
     "level": "C1"
   },
   {
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "Παθογόνο",
+    "lv": "Haigustekitaja",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Ανάπηρος πολέμου",
+    "lv": "Sõjainvaliid",
     "level": "C1"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Αιχμάλωτος πολέμου",
+    "lv": "Sõjavang",
     "level": "C1"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Κρίση του υπουργικού συμβουλίου",
+    "lv": "Kabinetikriis",
     "level": "C1"
   },
   {
     "de": "Lawinenwarnung",
     "de_article": "die",
     "de_plural": "die Lawinenwarnungen",
-    "lv": "Προειδοποίηση χιονοστιβάδας",
+    "lv": "Laviinihoiatus",
     "level": "C1"
   },
   {
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "Μέση διάρκεια ζωής",
+    "lv": "Keskmine eluiga",
     "level": "C1"
   },
   {
     "de": "lebensgefährlich",
-    "lv": "Απειλητικό για τη ζωή • Επικίνδυνο",
+    "lv": "Eluohtlik • Ohtlik",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Σύζυγος κοινού δικαίου",
+    "lv": "Vabaabikaasa",
     "level": "C1"
   },
   {
     "de": "Lebensstandard",
     "de_article": "der",
     "de_plural": "die Lebensstandards",
-    "lv": "Βιοτικό επίπεδο",
+    "lv": "Elatustase",
     "level": "C1"
   },
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Κορυφαίο άθλημα",
+    "lv": "Tippspord",
     "level": "C1"
   },
   {
     "de": "lichtempfindlich",
-    "lv": "Ευαίσθητο στο φως",
+    "lv": "Valgustundlik",
     "level": "C1"
   },
   {
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Μια ερωτική σχέση",
+    "lv": "Armusuhe",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "Δήλωση αγάπης",
+    "lv": "Armastusavaldus",
     "level": "C1"
   },
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "lv": "Αριστερός εξτρεμισμός",
+    "lv": "Vasakäärmuslus",
     "level": "C1"
   },
   {
     "de": "Machtergreifung",
     "de_article": "die",
     "de_plural": "die Machtergreifungen",
-    "lv": "Αρπαγή δύναμης",
+    "lv": "Võimuhaaramine",
     "level": "C1"
   },
   {
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Ανάληψη ισχύος",
+    "lv": "Võimuülevõtmine",
     "level": "C1"
   },
   {
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "Μαγνητική ταινία (σε πιστωτική κάρτα)",
+    "lv": "Magnetriba (krediitkaardil)",
     "level": "C1"
   },
   {
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Πύραυλο κρουζ",
+    "lv": "Tiibrakett",
     "level": "C1"
   },
   {
     "de": "Massenherstellung",
     "de_article": "die",
     "de_plural": "die Massenherstellungen",
-    "lv": "Μαζική παραγωγή",
+    "lv": "Masstootmine",
     "level": "C1"
   },
   {
     "de": "materialistisch",
-    "lv": "Υλιστικός",
+    "lv": "Materialistlik",
     "level": "C1"
   },
   {
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "Εσκεμμένη ψευδή δήλωση στο δικαστήριο",
+    "lv": "Tahtlik valeütlus kohtus",
     "level": "C1"
   },
   {
     "de": "menschenfeindlich",
-    "lv": "Αντιανθρώπινη",
+    "lv": "Inimestevaenulik",
     "level": "C1"
   },
   {
     "de": "militärpflichtig",
-    "lv": "Κληρωτός",
+    "lv": "Ajateenistuskohuslane",
     "level": "C1"
   },
   {
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Βιβλίο αναφοράς • Λεξικό • Εγκυκλοπαίδεια",
+    "lv": "Teatmeteos • Sõnaraamat • Entsüklopeedia",
     "level": "C1"
   },
   {
     "de": "namhaft",
-    "lv": "Διάσημος • Επιφανής",
+    "lv": "Kuulus • Silmapaistev",
     "level": "C1"
   },
   {
     "de": "Nichtangriffspakt",
     "de_article": "der",
     "de_plural": "die Nichtangriffspakte",
-    "lv": "Σύμφωνο μη επίθεσης",
+    "lv": "Mittekallaletungileping",
     "level": "C1"
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Καταθλιπτικός • Καταθλιπτικός",
+    "lv": "Masendunud • Depressioonis",
     "level": "C1"
   },
   {
     "de": "Ölembargo",
     "de_article": "das",
     "de_plural": "die Ölembargos",
-    "lv": "Εμπάργκο πετρελαίου",
+    "lv": "Naftaembargo",
     "level": "C1"
   },
   {
     "de": "Oppositionsführer",
     "de_article": "der",
     "de_plural": "die Oppositionsführer",
-    "lv": "Αρχηγός της αντιπολίτευσης",
+    "lv": "Opositsioonijuht",
     "level": "C1"
   },
   {
     "de": "Oppositionspartei",
     "de_article": "die",
     "de_plural": "die Oppositionsparteien",
-    "lv": "Κόμμα της αντιπολίτευσης",
+    "lv": "Opositsioonipartei",
     "level": "C1"
   },
   {
     "de": "Originalausgabe",
     "de_article": "die",
     "de_plural": "die Originalausgaben",
-    "lv": "Πρωτότυπη έκδοση",
+    "lv": "Originaalväljaanne",
     "level": "C1"
   },
   {
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "Αρχική έκδοση",
+    "lv": "Originaalversioon",
     "level": "C1"
   },
   {
     "de": "Originalgemälde",
     "de_article": "das",
     "de_plural": "die Originalgemälde",
-    "lv": "Πρωτότυπος πίνακας",
+    "lv": "Originaalmaal",
     "level": "C1"
   },
   {
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "Εργάτης του κόμματος",
+    "lv": "Parteitöötaja",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "Υποχρεωτική βιβλιογραφία",
+    "lv": "Kohustuslik kirjandus",
     "level": "C1"
   },
   {
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "Ερώτηση ανταγωνισμού",
+    "lv": "Konkursiküsimus",
     "level": "C1"
   },
   {
     "de": "Pressefreiheit",
     "de_article": "die",
     "de_plural": "die Pressefreiheiten",
-    "lv": "Ελευθερία του Τύπου",
+    "lv": "Ajakirjandusvabadus",
     "level": "C1"
   },
   {
     "de": "Pressevertreter",
     "de_article": "der",
     "de_plural": "die Pressevertreter",
-    "lv": "Εκπρόσωπος του Τύπου",
+    "lv": "Ajakirjanduse esindaja",
     "level": "C1"
   },
   {
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "Δελτίο τύπου",
+    "lv": "Pressiteade",
     "level": "C1"
   },
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "Κόστος παραγωγής",
+    "lv": "Tootmise omahind",
     "level": "C1"
   },
   {
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "Μέθοδο παραγωγής",
+    "lv": "Tootmisviis",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Σιδηροδρομικός σταθμός διαλογής",
+    "lv": "Raudtee sorteerimisjaam",
     "level": "C1"
   },
   {
     "de": "rätselhaft",
-    "lv": "Μυστηριώδης • Ακατανόητος",
+    "lv": "Salapärane • Arusaamatu",
     "level": "C1"
   },
   {
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "Ένας σχεδιαστής εσωτερικών χώρων",
+    "lv": "Sisekujundaja",
     "level": "C1"
   },
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Λογοδοσία • Ευθύνη",
+    "lv": "Aruandekohustus • Vastutus",
     "level": "C1"
   },
   {
     "de": "rechtswidrig",
-    "lv": "Παράνομα",
+    "lv": "Ebaseaduslikult",
     "level": "C1"
   },
   {
     "de": "Regenbogenpresse",
     "de_article": "die",
     "de_plural": "die Regenbogenpressen",
-    "lv": "Κίτρινος τύπος",
+    "lv": "Kollane ajakirjandus",
     "level": "C1"
   },
   {
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "Πρωθυπουργός • Αρχηγός κυβέρνησης",
+    "lv": "Peaminister • Valitsusjuht",
     "level": "C1"
   },
   {
     "de": "Regierungspartei",
     "de_article": "die",
     "de_plural": "die Regierungsparteien",
-    "lv": "Το κυβερνών κόμμα",
+    "lv": "Valitsuspartei",
     "level": "C1"
   },
   {
     "de": "Regierungswechsel",
     "de_article": "der",
     "de_plural": "die Regierungswechsel",
-    "lv": "Κυβερνητική αλλαγή",
+    "lv": "Valitsusvahetus",
     "level": "C1"
   },
   {
     "de": "Rentenanspruch",
     "de_article": "der",
     "de_plural": "die Rentenansprüche",
-    "lv": "Συνταξιοδοτικό δικαίωμα",
+    "lv": "Pensioniõigus",
     "level": "C1"
   },
   {
     "de": "Rentenempfänger",
     "de_article": "der",
     "de_plural": "die Rentenempfänger",
-    "lv": "Απόμαχος",
+    "lv": "Pensionisaaja",
     "level": "C1"
   },
   {
     "de": "republikanisch",
-    "lv": "Δημοκρατικός",
+    "lv": "Vabariiklik",
     "level": "C1"
   },
   {
     "de": "Sanktion",
     "de_article": "die",
     "de_plural": "die Sanktionen",
-    "lv": "Κύρωση",
+    "lv": "Sanktsioon",
     "level": "C1"
   },
   {
     "de": "sanktionieren",
-    "lv": "Υποστήριξη • Κύρωση",
+    "lv": "Toetama • Sanktsioneerima",
     "level": "C1"
   },
   {
     "de": "Lüftungsschacht",
     "de_article": "der",
     "de_plural": "die Lüftungsschächte",
-    "lv": "Άξονας εξαερισμού",
+    "lv": "Ventilatsioonišaht",
     "level": "C1"
   },
   {
     "de": "Scheidungsgrund",
     "de_article": "der",
     "de_plural": "die Scheidungsgründe",
-    "lv": "Λόγος διαζυγίου",
+    "lv": "Lahutuse põhjus",
     "level": "C1"
   },
   {
     "de": "Schicksalsschlag",
     "de_article": "der",
     "de_plural": "die Schicksalsschläge",
-    "lv": "Εγκεφαλικό επεισόδιο της μοίρας",
+    "lv": "Saatuselöök",
     "level": "C1"
   },
   {
     "de": "schmerzstillend",
-    "lv": "Αναλγητικό",
+    "lv": "Valuvaigistav",
     "level": "C1"
   },
   {
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "Κατηγορητήριο",
+    "lv": "Süüdistusakt",
     "level": "C1"
   },
   {
     "de": "Schwerindustrie",
     "de_article": "die",
     "de_plural": "die Schwerindustrien",
-    "lv": "Βαριά βιομηχανία",
+    "lv": "Rasketööstus",
     "level": "C1"
   },
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "Αθλητισμός ανεμόπτερου",
+    "lv": "Purilennusport",
     "level": "C1"
   },
   {
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Δήμος",
+    "lv": "Omavalitsus",
     "level": "C1"
   },
   {
     "de": "selbstzufrieden",
-    "lv": "Ικανοποιημένος",
+    "lv": "Enesega rahulolev",
     "level": "C1"
   },
   {
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Συγκλονιστική ανακοίνωση",
+    "lv": "Sensatsiooniline teade",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Τοπικός",
+    "lv": "Paikne",
     "level": "C1"
   },
   {
     "de": "Sinfonieorchester",
     "de_article": "das",
     "de_plural": "die Sinfonieorchester",
-    "lv": "Συμφωνική ορχήστρα",
+    "lv": "Sümfooniaorkester",
     "level": "C1"
   },
   {
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "Παραίσθηση",
+    "lv": "Hallutsinatsioon",
     "level": "C1"
   },
   {
     "de": "Konfliktsituation",
     "de_article": "die",
     "de_plural": "die Konfliktsituationen",
-    "lv": "Κατάσταση σύγκρουσης",
+    "lv": "Konfliktolukord",
     "level": "C1"
   },
   {
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "Κατάσταση κρίσης • Κρίση",
+    "lv": "Kriisiolukord • Kriis",
     "level": "C1"
   },
   {
     "de": "Sommersonnenwende",
     "de_article": "die",
     "de_plural": "die Sommersonnenwenden",
-    "lv": "Θερινό ηλιοστάσιο",
+    "lv": "Suvine pööripäev",
     "level": "C1"
   },
   {
     "de": "Sonnenfinsternis",
     "de_article": "die",
     "de_plural": "die Sonnenfinsternisse",
-    "lv": "Ηλιακή έκλειψη",
+    "lv": "Päikesevarjutus",
     "level": "C1"
   },
   {
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Ρεκόρ • Επίτευξη αιχμής • Μέγιστη ισχύς",
+    "lv": "Rekord • Tippsaavutus • Maksimaalne võimsus",
     "level": "C1"
   },
   {
     "de": "Staatsangehörige",
     "de_article": "der",
     "de_plural": "die Staatsangehörigen",
-    "lv": "Πολίτης",
+    "lv": "Kodanik",
     "level": "C1"
   },
   {
     "de": "Staatsanwalt",
     "de_article": "der",
     "de_plural": "die Staatsanwälte",
-    "lv": "Κατήγορος",
+    "lv": "Prokurör",
     "level": "C1"
   },
   {
     "de": "Staatsgeheimnis",
     "de_article": "das",
     "de_plural": "die Staatsgeheimnisse",
-    "lv": "Κρατικό μυστικό",
+    "lv": "Riigisaladus",
     "level": "C1"
   },
   {
     "de": "Steuereinnahmen",
     "de_article": "die",
-    "lv": "Φορολογικά έσοδα",
+    "lv": "Maksutulu",
     "level": "C1"
   },
   {
     "de": "stimmberechtigt",
-    "lv": "Δικαίωμα ψήφου",
+    "lv": "Hääleõiguslik",
     "level": "C1"
   },
   {
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "Φοιτητής πανεπιστημίου",
+    "lv": "Ülikooli sisseastuja",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "Για μεταγλώττιση της ταινίας",
+    "lv": "Filmi dubleerima",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "Ημερήσιο εισόδημα",
+    "lv": "Päevatulu",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Άμεση μετάγγιση αίματος από άτομο σε άτομο",
+    "lv": "Otsene vereülekanne inimeselt inimesele",
     "level": "C1"
   },
   {
     "de": "überanstrengen",
-    "lv": "Υπερφορτώνω • Υπερβάλλω τον εαυτό μου",
+    "lv": "Üle koormama • End üle pingutama",
     "level": "C1"
   },
   {
     "de": "Überbevölkerung",
     "de_article": "die",
     "de_plural": "die Überbevölkerungen",
-    "lv": "Συνωστισμός",
+    "lv": "Ülerahvastatus",
     "level": "C1"
   },
   {
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Λείψανα",
+    "lv": "Jäänused",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Ταιριάζω • Συμφωνώ με κάποιον",
+    "lv": "Kokku sobima • Kellegagi ühel meelel olema",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Υπόλοιπο • Πλεόνασμα",
+    "lv": "Jääk • Ülejääk",
     "level": "C1"
   },
   {
     "de": "Umgangssprache",
     "de_article": "die",
     "de_plural": "die Umgangssprachen",
-    "lv": "Προφορική γλώσσα",
+    "lv": "Kõnekeel",
     "level": "C1"
   },
   {
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Δυσαρέσκεια • Δυσάρεστο περιστατικό",
+    "lv": "Ebameeldivused • Ebameeldiv juhtum",
     "level": "C1"
   },
   {
     "de": "unausgeglichen",
-    "lv": "Ανισόρροπος",
+    "lv": "Tasakaalustamata",
     "level": "C1"
   },
   {
     "de": "unerschütterlich",
-    "lv": "Σταθερός",
+    "lv": "Vankumatu",
     "level": "C1"
   },
   {
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "Μια υποτίμηση",
+    "lv": "Alahindamine",
     "level": "C1"
   },
   {
     "de": "urteilen",
-    "lv": "Αποφασίζουν • Συζητούν",
+    "lv": "Otsustama • Arutlema",
     "level": "C1"
   },
   {
     "de": "verabschieden",
-    "lv": "Να απολύσει • Να συνταξιοδοτηθεί",
+    "lv": "Töölt vabastama • Pensionile saatma",
     "level": "C1"
   },
   {
     "de": "veränderlich",
-    "lv": "Μεταβλητός",
+    "lv": "Muutlik",
     "level": "C1"
   },
   {
     "de": "veranschlagen",
-    "lv": "Εξετάστε • Υπολογίστε • Ετοιμάστε έναν προϋπολογισμό",
+    "lv": "Arvestama • Kalkuleerima • Eelarvet koostama",
     "level": "C1"
   },
   {
     "de": "verdrießlich",
-    "lv": "Δυσάρεστος • Λυπημένος",
+    "lv": "Ebameeldiv • Tusane",
     "level": "C1"
   },
   {
     "de": "Verfallsdatum",
     "de_article": "das",
     "de_plural": "die Verfallsdaten",
-    "lv": "Ημερομηνία λήξης",
+    "lv": "Kõlblikkusaja lõpp",
     "level": "C1"
   },
   {
     "de": "Verfassung",
     "de_article": "die",
     "de_plural": "die Verfassungen",
-    "lv": "Το σύνταγμα",
+    "lv": "Põhiseadus",
     "level": "C1"
   },
   {
     "de": "vergewaltigen",
-    "lv": "Να βιάσει",
+    "lv": "Vägistama",
     "level": "C1"
   },
   {
     "de": "sich vergewissern",
-    "lv": "Για να βεβαιωθώ",
+    "lv": "Veenduma",
     "level": "C1"
   },
   {
     "de": "Vergünstigung",
     "de_article": "die",
     "de_plural": "die Vergünstigungen",
-    "lv": "Πλεονέκτημα • Προνόμιο • Όφελος",
+    "lv": "Eelis • Privileeg • Soodustus",
     "level": "C1"
   },
   {
     "de": "verhaften",
-    "lv": "Να συλλάβει",
+    "lv": "Vahistama",
     "level": "C1"
   },
   {
     "de": "verhältnismäßig",
-    "lv": "Σχετικά",
+    "lv": "Suhteliselt",
     "level": "C1"
   },
   {
     "de": "Verhandlungen",
     "de_article": "die",
     "de_plural": "die Verhandlungen",
-    "lv": "Διαπραγματεύσεις",
+    "lv": "Läbirääkimised",
     "level": "C1"
   },
   {
     "de": "verheimlichen",
-    "lv": "Να κρυφτεί • Να κρατήσει μυστικό",
+    "lv": "Varjama • Salajas hoidma",
     "level": "C1"
   },
   {
     "de": "Verkehrsdichte",
     "de_article": "die",
     "de_plural": "die Verkehrsdichten",
-    "lv": "Πυκνότητα κυκλοφορίας",
+    "lv": "Liiklustihedus",
     "level": "C1"
   },
   {
     "de": "Verkehrswesen",
     "de_article": "das",
-    "lv": "Μεταφορά",
+    "lv": "Transport",
     "level": "C1"
   },
   {
     "de": "Verpflichtung",
     "de_article": "die",
     "de_plural": "die Verpflichtungen",
-    "lv": "Υποχρέωση",
+    "lv": "Kuhus",
     "level": "C1"
   },
   {
     "de": "Verschwörung",
     "de_article": "die",
     "de_plural": "die Verschwörungen",
-    "lv": "Συνωμοσία",
+    "lv": "Vandenõu",
     "level": "C1"
   },
   {
     "de": "verklagen",
-    "lv": "Να μηνύσει",
+    "lv": "Kohtusse kaebama",
     "level": "C1"
   },
   {
     "de": "vernachlässigen",
-    "lv": "Να παραμελήσει",
+    "lv": "Hooletusse jätma",
     "level": "C1"
   },
   {
     "de": "verpflichten",
-    "lv": "Υποχρεώνω",
+    "lv": "Kohustama",
     "level": "C1"
   },
   {
     "de": "sich verpflichten",
-    "lv": "Να αναλάβει",
+    "lv": "Endale võtma",
     "level": "C1"
   },
   {
     "de": "sich verschließen",
-    "lv": "Αποσύρεται στον εαυτό του • Απομονώνεται",
+    "lv": "Endasse tõmbuma • End isoleerima",
     "level": "C1"
   },
   {
     "de": "verschlossen",
-    "lv": "Κλειδωμένο • Κλειστό • Αποσύρθηκε",
+    "lv": "Lukustatud • Suletud • Endassetõmbunud",
     "level": "C1"
   },
   {
     "de": "verschlüsseln",
-    "lv": "Για κρυπτογράφηση • Για κωδικοποίηση",
+    "lv": "Krüpteerima • Kodeerima",
     "level": "C1"
   },
   {
     "de": "verschreiben",
-    "lv": "Ιατρ. να γράψω έξω",
+    "lv": "Med. välja kirjutama",
     "level": "C1"
   },
   {
     "de": "verschweigen",
-    "lv": "Να σιωπά • Να μην αποκαλύπτει",
+    "lv": "Maha vaikima • Mitte avaldama",
     "level": "C1"
   },
   {
     "de": "verständigen",
-    "lv": "Να ενημερώνω • Να ενημερώνω",
+    "lv": "Informeerima • Teatama",
     "level": "C1"
   },
   {
     "de": "Versuchsanlage",
     "de_article": "die",
     "de_plural": "die Versuchsanlagen",
-    "lv": "Δοκιμαστική εγκατάσταση",
+    "lv": "Katserajatis",
     "level": "C1"
   },
   {
     "de": "Versuchsgelände",
     "de_article": "das",
     "de_plural": "die Versuchsgelände",
-    "lv": "Τοποθεσία δοκιμής",
+    "lv": "Katsepolügoon",
     "level": "C1"
   },
   {
     "de": "Versuchsreihe",
     "de_article": "die",
     "de_plural": "die Versuchsreihen",
-    "lv": "Σειρά δοκιμών",
+    "lv": "Katseseeria",
     "level": "C1"
   },
   {
     "de": "verunglücken",
-    "lv": "Πάθει ατύχημα",
+    "lv": "Õnnetusse sattuma",
     "level": "C1"
   },
   {
     "de": "verurteilen",
-    "lv": "Να καταδικάσει",
+    "lv": "Süüdi mõistma",
     "level": "C1"
   },
   {
     "de": "vervielfältigen",
-    "lv": "Να πολλαπλασιαστούν",
+    "lv": "Paljundama",
     "level": "C1"
   },
   {
     "de": "vervollkommnen",
-    "lv": "Συμπλήρωμα • Βελτίωση",
+    "lv": "Täiendama • Täiustama",
     "level": "C1"
   },
   {
     "de": "sich vervollkommnen",
-    "lv": "Για να βελτιώσετε τις γνώσεις σας",
+    "lv": "Oma teadmisi täiendama",
     "level": "C1"
   },
   {
     "de": "verwirklichen",
-    "lv": "Συνειδητοποιούν • Πραγματοποιούν",
+    "lv": "Realiseerima • Ellu viima",
     "level": "C1"
   },
   {
     "de": "Volksabstimmung",
     "de_article": "die",
     "de_plural": "die Volksabstimmungen",
-    "lv": "Δημοψήφισμα • Δημοψήφισμα",
+    "lv": "Rahvahääletus • Plebistsiit",
     "level": "C1"
   },
   {
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "Εθνική έρευνα • Δημοψήφισμα",
+    "lv": "Üleriigiline küsitlus • Referendum",
     "level": "C1"
   },
   {
     "de": "Vollversammlung",
     "de_article": "die",
     "de_plural": "die Vollversammlungen",
-    "lv": "Ολομέλεια • Γενική συνέλευση • Γενική συνέλευση",
+    "lv": "Pleenum • Üldkoosolek • Peaassamblee",
     "level": "C1"
   },
   {
     "de": "voreingenommen",
-    "lv": "Προκατειλημμένος • Προκατειλημμένος",
+    "lv": "Eelarvamuslik • Erapoolik",
     "level": "C1"
   },
   {
     "de": "waag[e]recht",
-    "lv": "Οριζόντιος",
+    "lv": "Horisontaalne",
     "level": "C1"
   },
   {
     "de": "Waffenruhe",
     "de_article": "die",
     "de_plural": "die Waffenruhen",
-    "lv": "Κατάπαυση του πυρός",
+    "lv": "Relvarahu",
     "level": "C1"
   },
   {
     "de": "Waffenschein",
     "de_article": "der",
     "de_plural": "die Waffenscheine",
-    "lv": "Άδεια όπλου",
+    "lv": "Relvaluba",
     "level": "C1"
   },
   {
     "de": "wahlberechtigt",
-    "lv": "Δικαίωμα ψήφου",
+    "lv": "Valimisõiguslik",
     "level": "C1",
     "study": {
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
-      "translation": "Δικαίωμα ψήφου",
-      "explanation": "Κύρια ιδέα: το wahlbrechtigt είναι ένα επίθετο που σημαίνει ότι ένα άτομο έχει το δικαίωμα να συμμετέχει στις εκλογές — να ψηφίσει ή να θέσει υποψηφιότητα. Σύνθετη λέξη: Wahl (εκλογή) + berechtig (με τίτλο).",
+      "translation": "Valimisõiguslik",
+      "explanation": "Põhiidee: wahlberechtigt on omadussõna, mis tähendab, et isikul on õigus valimistel osaleda — hääletada või kandideerida. Liitsõna: Wahl (valimised) + berechtigt (õigustatud).",
       "examples": [
         {
           "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Μπορούν να ψηφίσουν όλοι οι πολίτες που έχουν δικαίωμα ψήφου."
+          "lv": "Kõik valimisõiguslikud kodanikud võivad hääletada."
         },
         {
           "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "Από την ηλικία των 18 ετών δικαίωμα ψήφου."
+          "lv": "Alates 18. eluaastast on valimisõigus."
         },
         {
           "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Δεν έχουν όλοι οι κάτοικοι δικαίωμα ψήφου."
+          "lv": "Mitte kõigil elanikel pole valimisõigust."
         }
       ],
       "comparison": [
         {
           "word": "wahlberechtigt",
-          "meaning": "Δικαίωμα ψήφου",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "meaning": "Valimisõiguslik",
+          "example": "Er ist wahlberechtigt. = Tal on valimisõigus."
         },
         {
           "word": "wählen",
-          "meaning": "Επιλέξτε • Ψηφίστε",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "meaning": "Valima • Hääletama",
+          "example": "Ich wähle heute. = Ma hääletan täna."
         },
         {
           "word": "der Wähler",
-          "meaning": "Εκλέκτορας",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+          "meaning": "Valija",
+          "example": "Der Wähler geht zur Wahl. = Valija läheb valima."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Wahl = εκλογές, berechtigt = εξουσιοδοτημένος. Συχνά στην πρέσα και σε νομικά κείμενα."
+            "text": "Wahl = valimised, berechtigt = õigustatud. Sageli ajakirjanduses ja õigustekstides."
           }
         ]
       },
       "important": {
-        "text": "wahlberechtigt = με δικαίωμα ψήφου. Αντίθετο: nicht wahlberechtigt."
+        "text": "Wahlberechtigt = valimisõiguslik. Vastand: nicht wahlberechtigt."
       },
       "sectionAccents": {
         "explanation": {
@@ -3962,6 +3867,9 @@ const C1_WORDS = [
             "wahlberechtigt",
             "Wahl",
             "berechtigt"
+          ],
+          "purple": [
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -3973,7 +3881,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēlēšanu tiesībām"
+                "valimisõiguslikud"
               ]
             }
           },
@@ -3985,7 +3893,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēlēšanu tiesības"
+                "valimisõigus"
               ]
             }
           },
@@ -3997,7 +3905,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēlēšanu tiesības"
+                "valimisõigust"
               ]
             }
           }
@@ -4007,134 +3915,134 @@ const C1_WORDS = [
   },
   {
     "de": "wahrhaft",
-    "lv": "Πραγματικά • Πράγματι",
+    "lv": "Tõesti • Tõepoolest",
     "level": "C1"
   },
   {
     "de": "Wäscheschleuder",
     "de_article": "die",
     "de_plural": "die Wäscheschleudern",
-    "lv": "Φυγόκεντρος πλύσης",
+    "lv": "Pesutsentrifuug",
     "level": "C1"
   },
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "Υδροθεραπεία",
+    "lv": "Vesiravila",
     "level": "C1"
   },
   {
     "de": "Wasserkraftwerk",
     "de_article": "das",
     "de_plural": "die Wasserkraftwerke",
-    "lv": "Υδροηλεκτρικό εργοστάσιο",
+    "lv": "Hüdroelektrijaam",
     "level": "C1"
   },
   {
     "de": "Wasserversorgung",
     "de_article": "die",
     "de_plural": "die Wasserversorgungen",
-    "lv": "Ύδρευση",
+    "lv": "Veevarustus",
     "level": "C1"
   },
   {
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "Αμοιβαία σχέση",
+    "lv": "Vastastikune seos",
     "level": "C1"
   },
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "Υπηρεσία αντικατάστασης",
+    "lv": "Asendusteenistus",
     "level": "C1"
   },
   {
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Ιτιά πόλη",
+    "lv": "Pajuurb",
     "level": "C1"
   },
   {
     "de": "Weltanschauung",
     "de_article": "die",
     "de_plural": "die Weltanschauungen",
-    "lv": "Κοσμοθεωρία",
+    "lv": "Maailmavaade",
     "level": "C1"
   },
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "Λαμπερή αστραπή",
+    "lv": "Hõõguv välk",
     "level": "C1"
   },
   {
     "de": "widerrechtlich",
-    "lv": "Παράνομος",
+    "lv": "Õigusvastane",
     "level": "C1"
   },
   {
     "de": "wiederherstellen",
-    "lv": "Επαναφέρω • Επαναφέρω",
+    "lv": "Taastama • Restaureerima",
     "level": "C1"
   },
   {
     "de": "zusammenfallen",
-    "lv": "Να συμπίπτουν • Να συνέρχονται",
+    "lv": "Kokku langema • Kokku sattuma",
     "level": "C1"
   },
   {
     "de": "zusammenstellen",
-    "lv": "Να μεταγλωττίσει",
+    "lv": "Koostama",
     "level": "C1"
   },
   {
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "Επιβάρυνση • Επιβάρυνση τιμής",
+    "lv": "Lisatasu • Hinnalisa",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "Επιβάρυνση • Επιβάρυνση τιμής",
+      "translation": "Lisatasu • Hinnalisa",
       "explanation": [
-        "Κύρια ιδέα: der Zuschlag σημαίνει premium ή προσαύξηση — ένα επιπλέον ποσό που προστίθεται στη βασική τιμή.",
-        "Στο πλαίσιο του ταξιδιού/μεταφοράς, το der Zuschlag είναι ένα premium για ταχύτερο τρένο, καλύτερη θέση κ.λπ.",
-        "Μην μπερδεύεστε με το der Anhang/die Beilage — αυτή είναι μια διαφορετική λέξη.",
-        "Σε μια δημοπρασία, den Zuschlag erhalten σημαίνει νίκη στη δημοπρασία/λήψη της παραγγελίας."
+        "Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale.",
+        "Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest.",
+        "Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.",
+        "Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist."
       ],
       "examples": [
         {
           "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "Υπάρχει επιπλέον χρέωση για το τρένο ICE."
+          "lv": "ICE rongi eest tuleb maksta lisatasu."
         },
         {
           "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Η επιβάρυνση της νυχτερινής βάρδιας είναι 20%."
+          "lv": "Öövahetuse lisatasu on 20%."
         },
         {
           "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Πήρε την παραγγελία (στη δημοπρασία)."
+          "lv": "Ta sai tellimuse (enampakkumisel)."
         },
         {
           "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Υπάρχει επιπλέον χρέωση για επιπλέον αποσκευές."
+          "lv": "Liigpagasi eest on lisatasu."
         },
         {
           "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "Η τιμή είναι χωρίς προσαυξήσεις."
+          "lv": "Hind on ilma lisatasudeta."
         }
       ],
       "tip": [
-        "Der Zuschlag = προσαύξηση/επιβάρυνση (επιπλέον χρέωση), όχι προσθήκη στο έγγραφο.",
-        "Den Zuschlag erhalten (στη δημοπρασία) = για να κερδίσει τη δημοπρασία / να πάρει την παραγγελία."
+        "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
+        "den Zuschlag erhalten (izsolēs) = uzvarēt izsolē/saņemt pasūtījumu."
       ],
       "important": [
-        "Der Zuschlag = επιβάρυνση/συμπλήρωμα τιμής, όχι «προσθήκη» στο έγγραφο.",
-        "Το παράρτημα του εγγράφου είναι die Anlage/der Anhang στα γερμανικά."
+        "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
+        "Dokumenta pielikums vācu valodā ir die Anlage/der Anhang."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4142,8 +4050,8 @@ const C1_WORDS = [
             "der Zuschlag"
           ],
           "purple": [
-            "piemaksu",
-            "uzcenojumu"
+            "lisatasu",
+            "hinnalisa"
           ],
           "red": [
             "der Anhang",
@@ -4159,7 +4067,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "piemaksa"
+                "lisatasu"
               ]
             }
           },
@@ -4171,7 +4079,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "piemaksa"
+                "lisatasu"
               ]
             }
           },
@@ -4183,7 +4091,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pasūtījumu"
+                "tellimuse"
               ]
             }
           },
@@ -4195,7 +4103,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uzcenojums"
+                "lisatasu"
               ]
             }
           },
@@ -4207,7 +4115,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "piemaksām"
+                "lisatasudeta"
               ]
             }
           }
@@ -4215,8 +4123,8 @@ const C1_WORDS = [
         "tip": [
           {
             "blue": [
-              "piemaksa",
-              "uzcenojums"
+              "der",
+              "der"
             ]
           },
           {
@@ -4228,11 +4136,11 @@ const C1_WORDS = [
         "important": [
           {
             "purple": [
-              "piemaksa",
-              "uzcenojums"
+              "der",
+              "der"
             ],
             "red": [
-              "pielikums"
+              "der"
             ]
           },
           {
@@ -4247,54 +4155,69 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Συσχετίζω • Ασχολούμαι με κάτι",
+    "lv": "Seostama • Käima millegi kohta",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Συσχετίζω • Ασχολούμαι με κάτι",
+      "translation": "Seostama • Käima millegi kohta",
       "explanation": [
-        "Κύρια ιδέα: Επίσημο μητρώο: σχετίζονται με πηγή, λήψη κανονικής σύνταξης/μισθού ή μετακόμιση σε διαμέρισμα.",
-        "Αναζητήστε τυπική καθημερινή χρήση στα παραδείγματα.",
-        "Σε περίπτωση αμφιβολίας, ελέγξτε αν πρόκειται για κατάσταση ή δραστηριότητα.",
-        "Το πλαίσιο και η πορεία δράσης καθορίζουν τη σωστή επιλογή."
+        "Põhiidee: Formaalne register: seostada allikaga, regulaarse pensioni/palga saamisega või korterisse sisseelamisega.",
+        "Näidetes otsi tipipilist igadösstøns kurusesit.",
+        "Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest.",
+        "Kontekst ja kajnem suund maaravad utta valiku."
       ],
       "examples": [
         {
           "de": "beziehen / sich beziehen auf.",
-          "lv": "Παίρνει ήδη σύνταξη ενός έτους."
+          "lv": "Ta saab juba aasta pensioni."
         },
         {
           "de": "Der Bericht bezieht sich auf die Ereignisse des letzten Jahres.",
-          "lv": "Η έκθεση αφορά τα περσινά γεγονότα."
+          "lv": "Aruanne käib eelmise aasta sündmuste kohta."
         }
       ],
       "tip": [
-        "Επίσημο μητρώο: για να συνδέεστε με μια πηγή, να λαμβάνετε τακτική σύνταξη/μισθό ή να μένετε σε διαμέρισμα.",
-        "Χρησιμοποιήστε την έκφραση beziehen / sich beziehen auf όταν το περιεχόμενο αντιστοιχεί σε αυτό το νόημα."
+        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
+        "Izmanto beziehen / sich beziehen auf, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Επίσημο μητρώο: για να συνδέεστε με μια πηγή, να λαμβάνετε τακτική σύνταξη/μισθό ή να μένετε σε διαμέρισμα.",
-        "Beziehen / sich beziehen auf: Πριν χρησιμοποιήσετε, ελέγξτε το περιεχόμενο και συγκρίνετε με άλλες λέξεις στην κάρτα."
+        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
+        "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Põhiidee",
+            "Põhiidee"
+          ],
           "purple": [
-            "attiecināt"
+            "seostada",
+            "Põhiidee"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
             "lv": {
               "purple": [
-                "attiecināt",
-                "attiekties uz"
+                "saab"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht sich auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "käib"
               ]
             }
           }
@@ -4302,85 +4225,96 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "attiecināt"
+              "Formāls"
             ]
           },
-          {}
+          {
+            "purple": [
+              "Formāls"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Formāls"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "beabsichtigen",
-    "lv": "Να σκοπεύει • Να σχεδιάζει",
+    "lv": "Kavatsema • Plaanima",
     "level": "C1",
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "Να σκοπεύει • Να σχεδιάζει",
+      "translation": "Kavatsema • Plaanima",
       "explanation": [
-        "Κύρια ιδέα: Μια συνειδητή πρόθεση να εκτελέσετε μια ενέργεια στο μέλλον. Δεν είναι για τη σχέση, είναι για το σχέδιο.",
-        "Beabsichtigen σημαίνει κυρίως: συνειδητή πρόθεση.",
-        "Συχνά χαρακτηρίζεται από: σχέδιο / πρόθεση.",
-        "Beabsichtigen σημαίνει κυρίως: προγραμματίζω μια δραστηριότητα.",
-        "Συχνά χαρακτηρίζεται από: επίσημο μητρώο.",
-        "Beabsichtigen σημαίνει συνειδητά σκοπεύω ή σχεδιάζω μια ενέργεια — όχι μια σχέση, αλλά μια πρόθεση."
+        "Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta.",
+        "Beabsichtigen tähendab peamiselt: teadlik kavatsus.",
+        "Sageli iseloomustab: plaan / kavatsus.",
+        "Beabsichtigen tähendab peamiselt: tegevust plaanima.",
+        "Sageli iseloomustab: ametlik register.",
+        "Beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
       ],
       "examples": [
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Σκοπεύει να ολοκληρώσει το έργο."
+          "lv": "Ta kavatseb projekti lõpetada."
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Τι σκοπεύετε με αυτό το μέτρο • "
+          "lv": "Mida te selle meetmega kavatsete?"
         },
         {
           "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "Δεν σχεδιάζουμε αλλαγή."
+          "lv": "Me ei plaani muudatust."
         },
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Σχεδιάζει να ολοκληρώσει το έργο."
+          "lv": "Ta kavatseb projekti lõpetada."
         },
         {
           "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Σκοπεύω να κάνω κάτι."
+          "lv": "Kavatseda midagi teha."
         }
       ],
       "tip": [
-        "Εάν πρόκειται για μια σχέση, μια πηγή ή για τακτοποίηση - beziehen. Αν από συνειδητό σχέδιο — beabsichtigen.",
-        "Beabsichtigen = σκοπεύω"
+        "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
+        "beabsichtigen = nodomāt"
       ],
       "important": [
-        "Beabsichtigen + zu + αόριστος: Er beabsichtigt zu gehen.",
-        "Το beabsichtigen δεν μπορεί να αντικατασταθεί από το beziehen — είναι πρόθεση, όχι σχέση.",
-        "Beabsichtigen → πρόθεση, σχέδιο.",
-        "Μια συνειδητή πρόθεση να κάνετε μια ενέργεια στο μέλλον. Δεν είναι για τη σχέση, είναι για το σχέδιο."
+        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
+        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
+        "beabsichtigen → nodoms, plāns.",
+        "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
+            "beabsichtigen",
             "beabsichtigen"
           ],
           "purple": [
-            "nodomāt",
-            "plānot"
+            "kavatsus",
+            "plaanima"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
+                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "nodomājis"
+                "kavatseb",
+                "kavatseb"
               ]
             }
           },
@@ -4393,7 +4327,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nodomājat"
+                "kavatsete",
+                "mida"
               ]
             }
           },
@@ -4404,17 +4339,24 @@ const C1_WORDS = [
                 "beabsichtigen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "plaani",
+                "plaani"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "beabsichtigt",
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "nodomājis"
+                "kavatseb",
+                "kavatseb"
               ]
             }
           },
@@ -4427,7 +4369,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nodomāt"
+                "kavatseda",
+                "kavatseda"
               ]
             }
           }
@@ -4435,12 +4378,12 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "nodomāt"
+              "runa"
             ]
           },
           {
             "purple": [
-              "plānu"
+              "runa"
             ]
           }
         ],
@@ -4456,83 +4399,77 @@ const C1_WORDS = [
   },
   {
     "de": "unterstellen",
-    "lv": "Να κατακρίνει • Να αποδίδει άδικα",
+    "lv": "Ette heitma • Alusetult omistama",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "Να κατακρίνει • Να αποδίδει άδικα",
+      "translation": "Ette heitma • Alusetult omistama",
       "explanation": [
-        "Κύρια ιδέα: Να καταλογίσετε λανθασμένα την ευθύνη, το κίνητρο ή την πρόθεση σε κάποιον.",
-        "Unterstellen σημαίνει κυρίως: αποδίδω άδικα.",
-        "Συχνά χαρακτηρίζεται από: κατηγορία / υποψία.",
-        "Jemandem etwas unterstellen σημαίνει κατηγορώ ή αποδίδω άδικα."
+        "Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus.",
+        "Unterstellen tähendab peamiselt: alusetult omistama.",
+        "Sageli iseloomustab: süüdistus / kahtlustus.",
+        "Jemandem etwas unterstellen tähendab alusetult ette heita või omistada."
       ],
       "examples": [
         {
           "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Με κατηγορούν για κακή πρόθεση."
+          "lv": "Mulle heidetakse ette halba kavatsust."
         },
         {
           "de": "Unterstellen Sie mir nichts!",
-          "lv": "Μη με κατηγορείς!"
+          "lv": "Ärge heitke mulle midagi ette!"
         },
         {
           "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Κανείς δεν πρέπει να κατηγορηθεί άδικα για προδοσία."
+          "lv": "Kellelegi ei tohi alusetult ette heita reetmist."
         },
         {
           "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Κατηγορείται για απιστία."
+          "lv": "Talle heidetakse ette truudusetust."
         },
         {
           "de": "unterstellen",
-          "lv": "Κατηγορεί τον συνάδελφό του για τεμπελιά, χωρίς στοιχεία."
+          "lv": "Ta heidab oma kolleegile ette laiskust, ilma tõenditeta."
         }
       ],
       "tip": [
-        "Unterstellen = κατακρίνω",
-        "Χρησιμοποιήστε τη λέξη unterstellen όταν το περιεχόμενο ταιριάζει με αυτή τη σημασία."
+        "unterstellen = pārmest",
+        "Izmanto unterstellen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Το unterstellen είναι συναισθηματικά αρνητικό - μια αβάσιμη κατηγορία.",
-        "Λάθος: Wir unterstellen Grundkenntnisse. → Σωστά: Wir setzen Grundkenntnisse voraus.",
-        "Unterstellen → κατηγορώ, ιδιότητα."
+        "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
+        "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
+        "unterstellen → pārmest, piedēvēt."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "unterstellen",
             "unterstellen"
           ],
           "purple": [
-            "pārmest",
-            "piedēvēt bez pamata"
+            "ette heita",
+            "alusetult omistama"
           ],
           "red": [
-            "pārmest"
+            "ette heita"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "unterstellt",
                 "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "pārmet"
+                "Mulle",
+                "Mulle"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {}
           },
           {
             "de": {
@@ -4543,39 +4480,63 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pārmest"
+                "ärge",
+                "ärge"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "unterstellen",
+                "unterstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ette heita",
+                "kellelegi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "unterstellt",
                 "unterstellt"
               ]
             },
             "lv": {
               "purple": [
-                "pārmest"
+                "talle",
+                "talle"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
                 "unterstellen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "heidab"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "pārmest"
+              "unterstellen"
             ]
           },
-          {}
+          {
+            "purple": [
+              "unterstellen"
+            ]
+          }
         ],
         "important": [
           {
@@ -4589,36 +4550,36 @@ const C1_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "Να υποθέσει",
+    "lv": "Eeldama",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "Να υποθέσει",
+      "translation": "Eeldama",
       "explanation": [
-        "Κύρια ιδέα: Να εξετάσετε κάτι ήδη γνωστό ή υποκείμενο.",
-        "Voraussetzen σημαίνει κυρίως: θεωρώ ως βάση.",
-        "Συχνά χαρακτηρίζεται από: μια λογική υπόθεση.",
-        "Etwas voraussetzen σημαίνει να θεωρείς δεδομένο αυτό που ήδη υπάρχει."
+        "Põhiidee: Pidada millegi juba teadaolevaks või aluseks olevaks.",
+        "Voraussetzen tähendab peamiselt: pidada aluseks.",
+        "Sageli iseloomustab: loogiline eeldus.",
+        "Etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
       ],
       "examples": [
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Υποθέτουμε βασικές γνώσεις."
+          "lv": "Me eeldame põhiteadmisi."
         },
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Υποθέτουμε βασικές γνώσεις."
+          "lv": "Me eeldame põhiteadmisi."
         }
       ],
       "tip": [
-        "Voraussetzen = υποθέτω",
-        "Χρησιμοποιήστε τη λέξη voraussetzen όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "voraussetzen = pieņemt priekšnoteikumu",
+        "Izmanto voraussetzen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Το voraussetzen είναι ουδέτερο — προϋπόθεση.",
-        "Voraussetzen → παίρνω ως βάση.",
-        "Να εξετάσει κάτι ήδη γνωστό ή βασισμένο."
+        "voraussetzen ir neitrāls — priekšnosacījums.",
+        "voraussetzen → pieņemt kā pamatu.",
+        "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4627,21 +4588,43 @@ const C1_WORDS = [
             "voraus"
           ],
           "purple": [
-            "priekšnoteikumu"
+            "eeldus"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "green": [
+                "Wir",
+                "Wir"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eeldame"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "green": [
+                "Wir",
+                "Wir"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eeldame"
+              ]
+            }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "voraussetzen"
+            ]
+          }
         ],
         "important": [
           {
@@ -4655,52 +4638,53 @@ const C1_WORDS = [
   },
   {
     "de": "bewahren",
-    "lv": "Διατηρώ • Διατηρώ",
+    "lv": "Hoidma • Säilitama",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Διατηρώ • Διατηρώ",
+      "translation": "Hoidma • Säilitama",
       "explanation": [
-        "Κύρια ιδέα: Προστατέψτε από απώλεια, ζημιά ή καταστροφή — αξία, παράδοση, ειρήνη.",
-        "Bewahren σημαίνει κυρίως: προστατεύω από την απώλεια.",
-        "Συχνά χαρακτηρίζεται από: διατήρηση αξιών.",
-        "Bewahren σημαίνει προστασία από ζημιά, απώλεια ή αλλαγή."
+        "Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu.",
+        "Bewahren tähendab peamiselt: kaitsma kaotuse eest.",
+        "Sageli iseloomustab: väärtuste säilitamine.",
+        "Bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
       ],
       "examples": [
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Διατηρούμε τις παραδόσεις."
+          "lv": "Me säilitame traditsioone."
         },
         {
           "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "Διατηρούν την ψυχραιμία τους σε μια κρίση."
+          "lv": "Nad säilitavad rahu kriisis."
         },
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Διατηρούμε τις παραδόσεις."
+          "lv": "Me säilitame traditsioone."
         },
         {
           "de": "bewahren",
-          "lv": "Η φύση πρέπει να διατηρηθεί για την επόμενη γενιά."
+          "lv": "Loodust tuleb säilitada järgmise põlvkonna jaoks."
         }
       ],
       "tip": [
-        "Bewahren = κρατώ",
-        "Χρησιμοποιήστε τη λέξη bewahren όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "bewahren = pasargāt",
+        "Izmanto bewahren, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Bewahren: Wertvolles bewahren — κρατήστε το πολύτιμο.",
-        "Den Frieden bewahren = διατηρώ την ειρήνη (γενικά). den Frieden aufrechterhalten = διατηρώ την ειρήνη συνεχώς και με κόπο.",
-        "Bewahren → προστατεύω, διατηρώ."
+        "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
+        "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
+        "bewahren → aizsargāt, saglabāt."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "bewahren",
             "bewahren"
           ],
           "purple": [
-            "pasargāt"
+            "kaitsma"
           ]
         },
         "examples": [
@@ -4713,7 +4697,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saglabājam"
+                "säilitame",
+                "säilitame"
               ]
             }
           },
@@ -4726,7 +4711,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saglabā"
+                "nad",
+                "säilitavad"
               ]
             }
           },
@@ -4739,21 +4725,20 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saglabājam"
+                "säilitame",
+                "säilitame"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "pasargāt",
-                "saglabāt"
+                "säilitada"
               ]
             }
           }
@@ -4761,10 +4746,14 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "pasargāt"
+              "bewahren"
             ]
           },
-          {}
+          {
+            "purple": [
+              "bewahren"
+            ]
+          }
         ],
         "important": [
           {
@@ -4778,40 +4767,40 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Να διατηρηθεί σε ισχύ",
+    "lv": "Kehtivana hoidma",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Να διατηρηθεί σε ισχύ",
+      "translation": "Kehtivana hoidma",
       "explanation": [
-        "Κύρια ιδέα: Για να εξασφαλιστεί ότι μια κατάσταση, τάξη ή σχέση συνεχίζεται.",
-        "Aufrechterhalten σημαίνει κυρίως: εξασφάλιση συνέχισης.",
-        "Συχνά χαρακτηρίζεται από: διατήρηση της κατάστασης.",
-        "Aufrechterhalten σημαίνει να διατηρείς έγκυρη κάποια συνθήκη, σύστημα ή σχέση — να διασφαλίσεις τη συνέχιση."
+        "Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks.",
+        "Aufrechterhalten tähendab peamiselt: tagada jätkumine.",
+        "Sageli iseloomustab: seisundi säilitamine.",
+        "Aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
       ],
       "examples": [
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Το κράτος κρατά την εντολή σε ισχύ."
+          "lv": "Riik hoiab korda kehtivana."
         },
         {
           "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Η δραστηριότητα πρέπει να διατηρείται έγκυρη."
+          "lv": "Tegevus tuleb hoida kehtivana."
         },
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "Το κράτος κρατά την εντολή σε ισχύ."
+          "lv": "Riik hoiab korda kehtivana."
         }
       ],
       "tip": [
-        "Aufrechterhalten = διατηρώ έγκυρο",
-        "Χρησιμοποιήστε τη λέξη aufrechterhalten όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "aufrechterhalten = uzturēt spēkā",
+        "Izmanto aufrechterhalten, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "Aufrechterhalten → διατηρώ έγκυρο.",
-        "Για να διασφαλιστεί ότι μια συνθήκη, παραγγελία ή σχέση συνεχίζεται."
+        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
+        "aufrechterhalten → uzturēt spēkā.",
+        "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4819,12 +4808,27 @@ const C1_WORDS = [
             "aufrechterhalten",
             "erhält",
             "auf"
+          ],
+          "purple": [
+            "Põhiidee"
+          ],
+          "yellow": [
+            "Põhiidee"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "green": [
+                "Der",
+                "Der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kehtivana"
+              ]
+            }
           },
           {
             "de": {
@@ -4833,17 +4837,30 @@ const C1_WORDS = [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kehtivana"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "green": [
+                "Der",
+                "Der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kehtivana"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "uzturēt spēkā"
+              "aufrechterhalten"
             ]
           }
         ],
@@ -4861,49 +4878,49 @@ const C1_WORDS = [
     "de": "Hektar",
     "de_article": "der",
     "de_plural": "die Hektar",
-    "lv": "Εκτάριο",
+    "lv": "Hektar",
     "level": "C1"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Σε καρότσι",
+    "lv": "Kärutis",
     "level": "C1"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Σε καρότσι",
+    "lv": "Kärutis",
     "level": "C1"
   },
   {
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "Ανάπηρος",
+    "lv": "Sandistunu",
     "level": "C1"
   },
   {
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "Λάσπη • Λάσπη",
+    "lv": "Pori • Lörts",
     "level": "C1"
   },
   {
     "de": "Panter",
     "de_article": "der",
     "de_plural": "die Panter",
-    "lv": "Πανθήρ",
+    "lv": "Panter",
     "level": "C1"
   },
   {
     "de": "Panther",
     "de_article": "der",
     "de_plural": "die Panther",
-    "lv": "Πανθήρ",
+    "lv": "Panter",
     "level": "C1"
   }
 ];

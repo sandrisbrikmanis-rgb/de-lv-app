@@ -1,490 +1,474 @@
-// Turkish course training cards for TR-DE Kurss lessons 1-7.
+// Norwegian Bokmål course training cards for NB-DE Kurss lessons 1-7.
 
-window.lesson1TrainingCardsTr = [
+window.lesson1TrainingCardsNb = [
   {
-    "front": "Idziesz ze mną?",
+    "front": "Kas sina tuled?",
     "back": "Kommst du?"
   },
   {
-    "front": "Tak, przyjdę.",
+    "front": "Jah, mina tulen.",
     "back": "Ja, ich komme."
   },
   {
-    "front": "Kto śpiewa?",
+    "front": "Kes laulab?",
     "back": "Wer singt?"
   },
   {
-    "front": "Marta śpiewa.",
+    "front": "Marta laulab.",
     "back": "Marta singt."
   },
   {
-    "front": "Z kim idą?",
+    "front": "Kas nemad lähevad?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Tak, idą.",
+    "front": "Jah, nemad lähevad.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Z kim on stoi?",
+    "front": "Kas tema seisab?",
     "back": "Steht er?"
   },
   {
-    "front": "Tak, stoi.",
+    "front": "Jah, tema seisab.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Zmieniamy się.",
+    "front": "Meie läheme.",
     "back": "Wir gehen."
   },
   {
-    "front": "Czy chodzisz na randki?",
+    "front": "Kas teie lähete?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Zbliża się marzec Alberty.",
+    "front": "Albert ja Marta tulevad ja lähevad.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
 
-window.lesson2TrainingCardsTr = [
+window.lesson2TrainingCardsNb = [
   {
-    "front": "Kto słucha?",
+    "front": "Kes küsib?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paula słucha.",
+    "front": "Paul küsib.",
     "back": "Paul fragt."
   },
   {
-    "front": "Słuchali.",
+    "front": "Nemad küsivad.",
     "back": "Sie fragen."
   },
   {
-    "front": "Z odpowiedzią Paulasa?",
+    "front": "Kas Paul vastab?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Nie, nie odpowiada, słucha.",
+    "front": "Ei, tema ei vasta, tema küsib.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Czy Maria śpiewa z Paulasem?",
+    "front": "Kas Paul ja Maria laulavad?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Nie, oni nie śpiewają, oni się liczą.",
+    "front": "Ei, nemad ei laula, nemad arvutavad.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Ne yapıyorsun",
+    "front": "Mida sina teed?",
     "back": "Was tust du?"
   },
   {
-    "front": "Śpiewam.",
+    "front": "Mina seisan ja laulan.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "O czym ty mówisz?",
+    "front": "Kas teie joonistate?",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Tak, przychodzimy, ale Maria gra.",
+    "front": "Jah, meie joonistame, aga Maria mängib.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Co robisz?",
+    "front": "Mida teie teete?",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Nasz powrót jest odpowiedzialny.",
+    "front": "Meie tuleme ja vastame.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Co się dzieje?",
+    "front": "Kes läheb?",
     "back": "Wer geht?"
   },
   {
-    "front": "Zmieniamy się.",
+    "front": "Meie läheme.",
     "back": "Wir gehen."
   }
 ];
 
-window.lesson3TrainingCardsTr = [
+window.lesson3TrainingCardsNb = [
   {
-    "front": "Z kim liczyłeś?",
+    "front": "Kas sina arvutad?",
     "back": "Rechnest du?"
   },
   {
-    "front": "Nie, nie liczę, liczę.",
+    "front": "Ei, mina ei arvuta, mina joonistan.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Kto tam stoi?",
+    "front": "Mis seal seisab?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Są stoły.",
+    "front": "Seal seisab laud.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Kto tu śpi?",
+    "front": "Mis siin on?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Leży tu książka.",
+    "front": "Siin on raamat.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Z książką plona?",
+    "front": "Kas raamat on õhuke?",
     "back": "Ist das Buch dünn?"
   },
   {
-    "front": "Nie, książka jest gruba.",
+    "front": "Ei, raamat on paks.",
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Jakie plony?",
+    "front": "Mis on õhuke?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plona.",
+    "front": "Vihik on õhuke.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Drewniane ławki?",
+    "front": "Milline on pink?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Ławki niskie.",
+    "front": "Pink on madal.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Drewniane stoły?",
+    "front": "Milline on laud?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Stoły są wysokie.",
+    "front": "Laud on kõrge.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar dziesięć lat sąsiuvinis?",
+    "front": "Kas seal on vihik?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Tak, leży tam świnia.",
+    "front": "Jah, seal on vihik.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Z Ateiną Pauli?",
+    "front": "Kas Paul tuleb?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Nie, Paulas nie odpowiada, stoi.",
+    "front": "Ei, Paul ei tule, tema seisab.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Co tu jest?",
+    "front": "Mis siin ripub?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Oto zdjęcie.",
+    "front": "Siin ripub pilt.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Co tam jest?",
+    "front": "Mis seal ripub?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Tam wisi wstążka.",
+    "front": "Seal ripub tahvel.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
-window.lesson4TrainingCardsTr = [
+window.lesson4TrainingCardsNb = [
   {
-    "front": "Dziewczyna ma długopis.",
+    "front": "Tüdruk võtab sulepea.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Pióra nie są białe, są czarne.",
+    "front": "Sulepea ei ole valge, see on must.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulas ma pióro.",
+    "front": "Paul võtab sule.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Jakie pióro?",
+    "front": "Milline on sulg?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Z czubkiem pióra?",
+    "front": "Kas sulg on terav?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Czy on ma nóż?",
+    "front": "Kas tema võtab noa?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Nie, on ma pióro.",
+    "front": "Ei, tema võtab sule.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Kładzie pióro.",
+    "front": "Tema paneb sule maha.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Z nożem buka?",
+    "front": "Kas nuga on nüri?",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Nie, jest ostry.",
+    "front": "Ei, see on terav.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Co robi dziewczyna?",
+    "front": "Mida teeb tüdruk?",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Wyjście Ji to tirba.",
+    "front": "Tema läheb välja ja töötab.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Co pokazuje Olga?",
+    "front": "Mida näitab Olga?",
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga pokazuje książkę.",
+    "front": "Olga näitab raamatut.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Jaka książka?",
+    "front": "Milline on raamat?",
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Książka jest niewielka.",
+    "front": "Raamat on väike.",
     "back": "Das Buch ist klein."
   }
 ];
 
-window.lesson5TrainingCardsTr = [
+window.lesson5TrainingCardsNb = [
   {
-    "front": "Ką myli ojciec?",
+    "front": "Keda armastab isa?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja?",
+    "front": "Keda kiidab õpetajanna?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Co robisz?",
+    "front": "Mida sina võtad?",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Czego słuchasz?",
+    "front": "Keda sina küsid?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Keda laidab õpetaja?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Prześladowca słucha prześladowcy.",
+    "front": "Õpetaja küsib õpilaselt.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Jak odpowiada student?",
+    "front": "Kuidas vastab õpilane?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Mokinys odpowiada na blogu.",
+    "front": "Õpilane vastab halvasti.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Z mokinė odpowiada na blogu?",
+    "front": "Kas õpilane (naine) vastab halvasti?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Nie, mokinė nie odpowiada na blogu, odpowiada na dobrym.",
+    "front": "Ei, õpilane (naine) ei vasta halvasti, tema vastab hästi.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Dziewczyna ma długopis, pióro jest nożem.",
+    "front": "Tüdruk võtab sulepea, sule ja noa.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Ji wkłada nóż do pióra.",
+    "front": "Tema paneb noa ja sulepea maha.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Wygląd dziewczyny to tirba.",
+    "front": "Tüdruk läheb välja ja töötab.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Jaki dzieciak?",
+    "front": "Milline on laps?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Mandagus Wajki.",
+    "front": "Laps on sõnakuulelik.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Ojcowie to matki, które kochają swoje dzieci.",
+    "front": "Isa ja ema armastavad last.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
-window.lesson6TrainingCardsTr = [
+window.lesson6TrainingCardsNb = [
   {
-    "front": "Ołówek Pauli to ciasto.",
+    "front": "Paul võtab pliiatsi ja joonistab.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Co zrobił?",
+    "front": "Mida tema joonistab?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Wyciągnął wiadro.",
+    "front": "Tema joonistab ämbrit.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Kto napisał powóz?",
+    "front": "Kes joonistab vankrit?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Dziewczyna ma na sobie poroże.",
+    "front": "Tüdruk joonistab kelku.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Ile jest igieł?",
+    "front": "Kui palju nõelu on siin?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Jest tu sześć igieł.",
+    "front": "Siin on kuus nõela.",
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Ile talerzy?",
+    "front": "Kui palju taldrikuid?",
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Mam trzy igły.",
+    "front": "Mina võtan kolm nõela.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Dałem dwie igły.",
+    "front": "Mina panen kaks nõela maha.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Jakie są talerze kiħinja peilius?",
+    "front": "Kes loeb nuge ja taldrikuid?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Posiada pokrywkę.",
+    "front": "See on kaas.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Ta pokrywka.",
+    "front": "Need on kaaned.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Ma pióro.",
+    "front": "See on sulg.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Ma pióra.",
+    "front": "Need on suled.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Co robią mokytoja?",
+    "front": "Mida teeb õpetaja?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilė to bezpieczny ołówek.",
+    "front": "Õpetaja võtab noa ja teritab pliiatsit.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Bu nedir?",
+    "front": "Ser du på?",
     "back": "Was ist das?"
   },
   {
-    "front": "Ma pióra.",
+    "front": "See on sulepea.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Pierzaste drzewo?",
+    "front": "Milline on sulepea?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Pióra są czarne.",
+    "front": "Sulepea on must.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
 
-window.lesson7ExerciseCardsTr = [
+window.lesson7ExerciseCardsNb = [
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   },
   {
-    "front": "",
     "back": ""
   }
 ];

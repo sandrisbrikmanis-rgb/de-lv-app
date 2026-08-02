@@ -3,254 +3,254 @@ const B2_WORDS = [
     "de": "Verantwortung",
     "de_article": "die",
     "de_plural": "die Verantwortungen",
-    "lv": "Ευθύνη",
+    "lv": "Vastutus",
     "level": "B2"
   },
   {
     "de": "beeinflussen",
-    "lv": "Να επηρεάσει",
+    "lv": "Mõjutama",
     "level": "B2"
   },
   {
     "de": "Voraussetzung",
     "de_article": "die",
     "de_plural": "die Voraussetzungen",
-    "lv": "Προαπαιτούμενο",
+    "lv": "Eeltingimus",
     "level": "B2"
   },
   {
     "de": "nachhaltig",
-    "lv": "Ανεκτός",
+    "lv": "Jätkusuutlik",
     "level": "B2"
   },
   {
     "de": "zustimmen",
-    "lv": "Να συμφωνήσουν",
+    "lv": "Nõustuma",
     "level": "B2"
   },
   {
     "de": "widersprechen",
-    "lv": "Να επιχειρηματολογήσει κατά",
+    "lv": "Vastu vaidlema",
     "level": "B2"
   },
   {
     "de": "Entwicklung",
     "de_article": "die",
     "de_plural": "die Entwicklungen",
-    "lv": "Ανάπτυξη",
+    "lv": "Areng",
     "level": "B2"
   },
   {
     "de": "Akrobat",
     "de_article": "der",
     "de_plural": "die Akrobaten",
-    "lv": "Ένας ακροβάτης",
+    "lv": "Akrobaat",
     "level": "B2"
   },
   {
     "de": "Akrobatik",
     "de_article": "die",
     "de_plural": "die Akrobatiken",
-    "lv": "Ακροβασία",
+    "lv": "Akrobaatika",
     "level": "B2"
   },
   {
     "de": "Akt",
     "de_article": "der",
     "de_plural": "die Akte",
-    "lv": "Πράξη • Έγγραφο",
+    "lv": "Akt • Dokument",
     "level": "B2"
   },
   {
     "de": "akzeptabel",
-    "lv": "Δεκτός",
+    "lv": "Ansvar",
     "level": "B2"
   },
   {
     "de": "Alibi",
     "de_article": "das",
     "de_plural": "die Alibis",
-    "lv": "Άλλοθι",
+    "lv": "Alibi",
     "level": "B2"
   },
   {
     "de": "Alkoholismus",
     "de_article": "der",
-    "lv": "Αλκοολισμός",
+    "lv": "Alkoholism",
     "level": "B2"
   },
   {
     "de": "anbelangen",
-    "lv": "Αγγίξτε, μεταβείτε σε",
+    "lv": "Puudutama, käima kohta",
     "level": "B2"
   },
   {
     "de": "Analyse",
     "de_article": "die",
     "de_plural": "die Analysen",
-    "lv": "Ανάλυση",
+    "lv": "Analüüs",
     "level": "B2"
   },
   {
     "de": "Anbau",
     "de_article": "der",
-    "lv": "Επέκταση • Καλλιέργεια",
+    "lv": "Juurdeehitis • Kasvatamine",
     "level": "B2"
   },
   {
     "de": "anfertigen",
-    "lv": "Να προετοιμαστούν",
+    "lv": "Forbered dem",
     "level": "B2"
   },
   {
     "de": "anführen",
-    "lv": "Να αναφέρει • Να οδηγεί",
+    "lv": "Mainima • Juhtima",
     "level": "B2"
   },
   {
     "de": "angebracht",
-    "lv": "Κατάλληλος • Κατάλληλος",
+    "lv": "Sobiv • Kohane",
     "level": "B2"
   },
   {
     "de": "angehen",
-    "lv": "Άγγιγμα • Στρίψτε ενάντια",
+    "lv": "Puudutama • Pöörduma vastu",
     "level": "B2"
   },
   {
     "de": "angehören",
-    "lv": "Να ανήκει σε κάτι",
+    "lv": "Kuuluma millegi juurde",
     "level": "B2"
   },
   {
     "de": "Aktienkurs",
     "de_article": "der",
     "de_plural": "die Aktienkurse",
-    "lv": "Τιμή της μετοχής",
+    "lv": "Aktsia kurss",
     "level": "B2"
   },
   {
     "de": "allerhand",
-    "lv": "Διάφορα • Διαφορετικά",
+    "lv": "Mitmesugused • Erinevad",
     "level": "B2"
   },
   {
     "de": "andererseits",
-    "lv": "Από την άλλη",
+    "lv": "På den annen side",
     "level": "B2"
   },
   {
     "de": "andernfalls",
-    "lv": "Αλλιώς",
+    "lv": "Noe annet",
     "level": "B2"
   },
   {
     "de": "anbrechen",
-    "lv": "Για να ξεκινήσετε • Να ανοίξετε",
+    "lv": "Alguse saama • Lahti murdma",
     "level": "B2"
   },
   {
     "de": "anbremsen",
-    "lv": "Αρχίστε να φρενάρετε",
+    "lv": "Hakkama pidurdama",
     "level": "B2"
   },
   {
     "de": "anfreunden",
-    "lv": "Κάνε φίλους",
+    "lv": "Sõbrunema",
     "level": "B2"
   },
   {
     "de": "angeblich",
-    "lv": "Σαν • Προφανώς",
+    "lv": "Justkui • Näiliselt",
     "level": "B2"
   },
   {
     "de": "angeboren",
-    "lv": "Εκ γενετής",
+    "lv": "Kaasasündinud",
     "level": "B2"
   },
   {
     "de": "angelegt",
-    "lv": "Δημιουργήθηκε • Επένδυσε",
+    "lv": "Loodud • Investeeritud",
     "level": "B2"
   },
   {
     "de": "angeordnet",
-    "lv": "Καθορίζεται • Διατίθεται",
+    "lv": "Kindlaks määratud • Käsutatud",
     "level": "B2"
   },
   {
     "de": "angehoben",
-    "lv": "Υπερυψωμένο",
+    "lv": "Kõrgendatud",
     "level": "B2"
   },
   {
     "de": "angegriffen",
-    "lv": "Κουρασμένος • Επιτέθηκε",
+    "lv": "Väsinud • Rünnatud",
     "level": "B2"
   },
   {
     "de": "abberufen",
-    "lv": "Ανάκληση • Απόρριψη",
+    "lv": "Tagasi kutsuma • Ametist vabastama",
     "level": "B2"
   },
   {
     "de": "abblitzen",
-    "lv": "Απορρίπτω",
+    "lv": "Tagasi lückkama",
     "level": "B2"
   },
   {
     "de": "abbringen",
-    "lv": "Να πείσει • Να προειδοποιήσει • Να εκτρέψει",
+    "lv": "Ümber veenma • Hoiatama • Kõrvale juhtima",
     "level": "B2"
   },
   {
     "de": "Abendblatt",
     "de_article": "das",
     "de_plural": "die Abendblätter",
-    "lv": "Απογευματινή εφημερίδα",
+    "lv": "Õhtuleht",
     "level": "B2"
   },
   {
     "de": "Abendgebet",
     "de_article": "das",
     "de_plural": "die Abendgebete",
-    "lv": "Εσπερινός",
+    "lv": "Õhtupalve",
     "level": "B2"
   },
   {
     "de": "Abenteuerlust",
     "de_article": "die",
-    "lv": "Περιπέτεια",
+    "lv": "Seiklushimu",
     "level": "B2"
   },
   {
     "de": "Abfallprodukt",
     "de_article": "das",
     "de_plural": "die Abfallprodukte",
-    "lv": "Υπολειμματικό προϊόν",
+    "lv": "Jääkprodukt",
     "level": "B2"
   },
   {
     "de": "abfällig",
-    "lv": "Δυσμενής • Αρνητικός • Κακός • Απωθητικός",
+    "lv": "Ebasoodne • Negatiivne • Halb • Tõrjuv",
     "level": "B2"
   },
   {
     "de": "abfertigen",
-    "lv": "Στέλνω μακριά • Στέλνω μακριά • Σερβίρω • Φέρομαι με αγένεια",
+    "lv": "Ära saatma • Minema saatma • Teenindama • Ebaviisakalt kohtlema",
     "level": "B2"
   },
   {
     "de": "sich abfinden",
-    "lv": "Συμβιβαστείτε με κάτι",
+    "lv": "Leppima millegagi",
     "level": "B2",
     "study": {
       "id": "b2-sich-abfinden",
       "layout": "minimalStudy",
-      "translation": "Συμβιβαστείτε με κάτι",
+      "translation": "Leppima millegagi",
       "rektion": "mit + kellele?",
-      "explanation": "Sich abfinden απαιτεί την οριστική πρόθεση mit + σε ποιον • .",
+      "explanation": "Sich abfinden nõuab kindlat eessõna mit + kellele?.",
       "forms": "mit + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -259,7 +259,10 @@ const B2_WORDS = [
             "sich abfinden"
           ],
           "red": [
-            "mit + kam?"
+            "mit + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -267,203 +270,203 @@ const B2_WORDS = [
   },
   {
     "de": "abgesehen",
-    "lv": "Αν και • Επιπλέον",
+    "lv": "Kuigi • Pealegi",
     "level": "B2"
   },
   {
     "de": "abgespannt",
-    "lv": "Κουρασμένος • Εξαντλημένος",
+    "lv": "Väsinud • Läbi väsinud",
     "level": "B2"
   },
   {
     "de": "abgetan",
-    "lv": "Ολοκληρωμένη • Οργανωμένη",
+    "lv": "Lõpetatud • Korraldatud",
     "level": "B2"
   },
   {
     "de": "abgrenzen",
-    "lv": "Ξεχωριστή απόσταση",
+    "lv": "Eraldama • Distantseeruma",
     "level": "B2"
   },
   {
     "de": "Abgrund",
     "de_article": "der",
     "de_plural": "die Abgründe",
-    "lv": "Άβυσσος",
+    "lv": "Kuristik",
     "level": "B2"
   },
   {
     "de": "abhören",
-    "lv": "Να ακούει • Να κρυφακούει",
+    "lv": "Kuulama • Pealt kuulama",
     "level": "B2"
   },
   {
     "de": "ableiten",
-    "lv": "Μόλυβδος • Εκτροπής • Εξαγωγής",
+    "lv": "Juhtima • Kõrvale juhtima • Tuletama",
     "level": "B2"
   },
   {
     "de": "Abneigung",
     "de_article": "die",
     "de_plural": "die Abneigungen",
-    "lv": "Αποστροφή • Αντιπάθεια",
+    "lv": "Vastumeelsus • Antipaatia",
     "level": "B2"
   },
   {
     "de": "Abnutzung",
     "de_article": "die",
     "de_plural": "die Abnutzungen",
-    "lv": "Φθορές • Αποσβέσεις • Έξοδα",
+    "lv": "Kulumine • Amortiseerumine • Kulu",
     "level": "B2"
   },
   {
     "de": "Abonnent",
     "de_article": "der",
     "de_plural": "die Abonnenten",
-    "lv": "Συνδρομητής",
+    "lv": "Abonent",
     "level": "B2"
   },
   {
     "de": "abrichten",
-    "lv": "Να εκπαιδεύσει ένα ζώο",
+    "lv": "Looma dresseerima",
     "level": "B2"
   },
   {
     "de": "Abrüstung",
     "de_article": "die",
     "de_plural": "die Abrüstungen",
-    "lv": "Αφοπλισμός",
+    "lv": "Desarmeerumine",
     "level": "B2"
   },
   {
     "de": "Absatzmarkt",
     "de_article": "der",
     "de_plural": "die Absatzmärkte",
-    "lv": "Αγορά διανομής",
+    "lv": "Turustusturg",
     "level": "B2"
   },
   {
     "de": "abscheulich",
-    "lv": "Αηδιαστικός • Αηδία",
+    "lv": "Vastik • Jälk",
     "level": "B2"
   },
   {
     "de": "abschieben",
-    "lv": "Σπρώξτε μακριά • Στείλτε έξω",
+    "lv": "Eemale tõukama • Välja saatma",
     "level": "B2"
   },
   {
     "de": "abschlagen",
-    "lv": "Να περικόψει • Να χτυπήσει • Να απωθήσει • Να απορρίψει",
+    "lv": "Maha raiuma • Lööma • Tõrjuma • Tagasi lükkama",
     "level": "B2"
   },
   {
     "de": "abschleppen",
-    "lv": "Για να μετακινήσετε το αυτοκίνητο",
+    "lv": "Autot teisaldama",
     "level": "B2"
   },
   {
     "de": "abschrecken",
-    "lv": "Να τρομάξει • Να κρυώσει απότομα",
+    "lv": "Hirmutama • Järsult jahutama",
     "level": "B2"
   },
   {
     "de": "Abschrift",
     "de_article": "die",
     "de_plural": "die Abschriften",
-    "lv": "Μεταγραφή • Αντίγραφο",
+    "lv": "Ärakiri • Koopia",
     "level": "B2"
   },
   {
     "de": "absondern",
-    "lv": "Ξεχωριστό • Ξεχωριστό • Απομόνωση",
+    "lv": "Eraldama • Lahutama • Isoleerima",
     "level": "B2"
   },
   {
     "de": "Abstammung",
     "de_article": "die",
     "de_plural": "die Abstammungen",
-    "lv": "Προέλευση",
+    "lv": "Päritolu",
     "level": "B2"
   },
   {
     "de": "Abstecher",
     "de_article": "der",
     "de_plural": "die Abstecher",
-    "lv": "Απόκλιση • Σύντομο ταξίδι",
+    "lv": "Kõrvalekalle • Lühike väljasõit",
     "level": "B2"
   },
   {
     "de": "abstimmen",
-    "lv": "Ψηφοφορία • Συντονίζω",
+    "lv": "Hääletama • Kooskõlastama",
     "level": "B2"
   },
   {
     "de": "Abstimmung",
     "de_article": "die",
     "de_plural": "die Abstimmungen",
-    "lv": "Ψηφοφορία",
+    "lv": "Hääletamine",
     "level": "B2"
   },
   {
     "de": "abstoßend",
-    "lv": "Αποκρουστικός • Αποκρουστικός",
+    "lv": "Eemaletõukav • Vastik",
     "level": "B2"
   },
   {
     "de": "Absturz",
     "de_article": "der",
     "de_plural": "die Abstürze",
-    "lv": "Πέφτω • Πέφτω",
+    "lv": "Kukkumine • Langemine",
     "level": "B2"
   },
   {
     "de": "absurd",
-    "lv": "Παράλογος • Παράλογος",
+    "lv": "Absurdne • Mõttetu",
     "level": "B2"
   },
   {
     "de": "abtragen",
-    "lv": "Φθείρεται • Ξοδεύω (φορώντας) • Κατεδαφίζω",
+    "lv": "Ära kandma • Kulutama (kandes) • Lammutama",
     "level": "B2"
   },
   {
     "de": "abtreten",
-    "lv": "Αποσύρομαι • Εγκαταλείπω • Φεύγω",
+    "lv": "Taganema • Ära andma • Lahkuma",
     "level": "B2"
   },
   {
     "de": "abweichen",
-    "lv": "Διαφέρουν • Αποκλίνουν",
+    "lv": "Erinema • Kõrvale kalduma",
     "level": "B2"
   },
   {
     "de": "abweisen",
-    "lv": "Απόρριψη • Εγκατάλειψη",
+    "lv": "Tagasi lükkama • Hülgama",
     "level": "B2"
   },
   {
     "de": "abwenden",
-    "lv": "Για την πρόληψη",
+    "lv": "Ära hoidma",
     "level": "B2"
   },
   {
     "de": "Affäre",
     "de_article": "die",
     "de_plural": "die Affären",
-    "lv": "Σχέση • Ιστορία αγάπης",
+    "lv": "Afäär • Armastuslugu",
     "level": "B2"
   },
   {
     "de": "sich abwenden",
-    "lv": "Να απομακρύνομαι από κάτι",
+    "lv": "Pöörduma millestki ära",
     "level": "B2",
     "study": {
       "id": "b2-sich-abwenden",
       "layout": "minimalStudy",
-      "translation": "Να απομακρύνομαι από κάτι",
+      "translation": "Pöörduma millestki ära",
       "rektion": "von + kellele?",
-      "explanation": "Sich abwenden απαιτεί την οριστική πρόθεση von + σε ποιον • .",
+      "explanation": "Sich abwenden nõuab kindlat eessõna von + kellele?.",
       "forms": "von + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -472,7 +475,10 @@ const B2_WORDS = [
             "sich abwenden"
           ],
           "red": [
-            "von + kam?"
+            "von + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -481,443 +487,443 @@ const B2_WORDS = [
   {
     "de": "Abzweigung",
     "de_article": "die",
-    "lv": "Κλαδί • Πλαϊνό κλαδί",
+    "lv": "Haru • Kõrvalharu",
     "level": "B2"
   },
   {
     "de": "ächzen",
-    "lv": "Γκρίνια • Γκρίνια",
+    "lv": "Oigama • Ägama",
     "level": "B2"
   },
   {
     "de": "affig",
-    "lv": "Φανταχτερός • Επιδεικτικός",
+    "lv": "Silmatorkav • Edev",
     "level": "B2"
   },
   {
     "de": "alsogleich",
-    "lv": "Αμέσως",
+    "lv": "Koh",
     "level": "B2"
   },
   {
     "de": "analysieren",
-    "lv": "Να αναλύσει",
+    "lv": "Analüüsima",
     "level": "B2"
   },
   {
     "de": "Andeutung",
     "de_article": "die",
     "de_plural": "die Andeutungen",
-    "lv": "Υπόδειξη • Αναφορά",
+    "lv": "Vihje • Viide",
     "level": "B2"
   },
   {
     "de": "andeuten",
-    "lv": "Να δείχνει • Να υπαινίσσεται",
+    "lv": "Osutama • Vihjama",
     "level": "B2"
   },
   {
     "de": "Anmut",
     "de_article": "die",
-    "lv": "Έκκληση • Ομορφιά • Χάρη",
+    "lv": "Veetlus • Ilu • Graatsia",
     "level": "B2"
   },
   {
     "de": "annähernd",
-    "lv": "Κατά προσέγγιση • Περίπου",
+    "lv": "Ligikaudne • Umbes",
     "level": "B2"
   },
   {
     "de": "Anorak",
     "de_article": "der",
     "de_plural": "die Anoraks",
-    "lv": "Φούτερ με κουκούλα",
+    "lv": "Kapuutsiga dressijakk",
     "level": "B2"
   },
   {
     "de": "Anwärter",
     "de_article": "der",
     "de_plural": "die Anwärter",
-    "lv": "Υποψήφιος • Υποψήφιος",
+    "lv": "Pretendent • Kandidaat",
     "level": "B2"
   },
   {
     "de": "Areal",
     "de_article": "das",
     "de_plural": "die Areale",
-    "lv": "Έκταση",
+    "lv": "Areaal",
     "level": "B2"
   },
   {
     "de": "Arie",
     "de_article": "die",
     "de_plural": "die Arien",
-    "lv": "Αρία",
+    "lv": "Aaria",
     "level": "B2"
   },
   {
     "de": "Armsessel",
     "de_article": "der",
     "de_plural": "die Armsessel",
-    "lv": "Μια πολυθρόνα",
+    "lv": "Tugitool",
     "level": "B2"
   },
   {
     "de": "Aster",
     "de_article": "die",
     "de_plural": "die Astern",
-    "lv": "Αστήρ",
+    "lv": "Astra",
     "level": "B2"
   },
   {
     "de": "Atombombe",
     "de_article": "die",
     "de_plural": "die Atombomben",
-    "lv": "Ατομική βόμβα",
+    "lv": "Aatomipomm",
     "level": "B2"
   },
   {
     "de": "Atomenergie",
     "de_article": "die",
-    "lv": "Πυρηνική ενέργεια",
+    "lv": "Tuumaenergia",
     "level": "B2"
   },
   {
     "de": "ausbeuten",
-    "lv": "Να εκμεταλλευτεί",
+    "lv": "Ekspluateerima",
     "level": "B2"
   },
   {
     "de": "Ausbeutung",
     "de_article": "die",
     "de_plural": "die Ausbeutungen",
-    "lv": "Εκμετάλλευση",
+    "lv": "Ekspluatatsioon",
     "level": "B2"
   },
   {
     "de": "Auktion",
     "de_article": "die",
     "de_plural": "die Auktionen",
-    "lv": "Δημοπρασία",
+    "lv": "Oksjon",
     "level": "B2"
   },
   {
     "de": "sich aufdrängen",
-    "lv": "Να συμπεριφέρονται ενοχλητικά",
+    "lv": "Pealetükkivalt käituma",
     "level": "B2"
   },
   {
     "de": "Aufruf",
     "de_article": "der",
     "de_plural": "die Aufrufe",
-    "lv": "Μια πρόσκληση",
+    "lv": "Üleskutse",
     "level": "B2"
   },
   {
     "de": "Aufschluss",
     "de_article": "der",
     "de_plural": "die Aufschlüsse",
-    "lv": "Επεξήγηση • Πληροφορίες",
+    "lv": "Selgitus • Teave",
     "level": "B2"
   },
   {
     "de": "Augenleiden",
     "de_article": "das",
     "de_plural": "die Augenleiden",
-    "lv": "Ασθένεια των ματιών",
+    "lv": "Silmahaigus",
     "level": "B2"
   },
   {
     "de": "Augenmaß",
     "de_article": "das",
     "de_plural": "die Augenmaße",
-    "lv": "Μέγεθος ματιών",
+    "lv": "Silmamõõt",
     "level": "B2"
   },
   {
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "Εξωτερική λάμψη",
+    "lv": "Väline sära",
     "level": "B2"
   },
   {
     "de": "Äußerung",
     "de_article": "die",
     "de_plural": "die Äußerungen",
-    "lv": "Έκφραση • Εκδήλωση • Εκδήλωση",
+    "lv": "Väljendus • Avaldumine • Ilming",
     "level": "B2"
   },
   {
     "de": "aussetzen",
-    "lv": "Εκθέτω • Υποτάξω • Επιχειρηματολογώ • Βήμα",
+    "lv": "Eksponeerima • Allutama • Vastu vaidlema • Astuma",
     "level": "B2"
   },
   {
     "de": "aussichtslos",
-    "lv": "Απελπιστική • Χωρίς προοπτικές",
+    "lv": "Lootusetu • Väljavaadeteta",
     "level": "B2"
   },
   {
     "de": "ausspannen",
-    "lv": "Για να ξεκουραστεί • Να πάρει μαζί έναν σύντροφο • Να ξεκουραστεί",
+    "lv": "Lahti rakendama • Partnerit ära võtma • Puhkama",
     "level": "B2"
   },
   {
     "de": "ausstatten",
-    "lv": "Εξοπλίζω • Επισημοποιώ",
+    "lv": "Varustama • Vormistama",
     "level": "B2"
   },
   {
     "de": "aussterben",
-    "lv": "Να πεθάνει",
+    "lv": "Välja surema",
     "level": "B2"
   },
   {
     "de": "ausstopfen",
-    "lv": "Γεμίζω • Γεμίζω με μπετόν • Γεμίζω",
+    "lv": "Täitma • Betooniga täitma • Täis toppima",
     "level": "B2"
   },
   {
     "de": "ausströmen",
-    "lv": "Να ρέει έξω • Να χυθεί έξω • Να ακτινοβολεί",
+    "lv": "Välja voolama • Välja valguma • Kiirgama",
     "level": "B2"
   },
   {
     "de": "austragen",
-    "lv": "Μεταφέρω • Παραδίδω • Παλεύω",
+    "lv": "Kandma • Kohale toimetama • Välja võitlema",
     "level": "B2"
   },
   {
     "de": "austreiben",
-    "lv": "Διώχνω • Απογαλακτίζω",
+    "lv": "Välja ajama • Võõrutama",
     "level": "B2"
   },
   {
     "de": "austreten",
-    "lv": "Μπείτε • Βγείτε έξω • Βγείτε έξω",
+    "lv": "Sisse tallama • Maha tallama • Välja astuma",
     "level": "B2"
   },
   {
     "de": "auswärtig",
-    "lv": "Εξωτερικές • Εξωτερικές υποθέσεις",
+    "lv": "Välismaine • Välisasjade",
     "level": "B2"
   },
   {
     "de": "ausweichend",
-    "lv": "Υπεκφυγής • Ασαφής",
+    "lv": "Vältiv • Ebamäärane",
     "level": "B2"
   },
   {
     "de": "ausweisen",
-    "lv": "Στέλνω • Στέλνω • Επιβεβαιώνω • Αποδεικνύω",
+    "lv": "Välja saatma • Välja saatma • Kinnitama • Tõestama",
     "level": "B2"
   },
   {
     "de": "auswerfen",
-    "lv": "Να πετάξει έξω",
+    "lv": "Välja viskama",
     "level": "B2"
   },
   {
     "de": "auswerten",
-    "lv": "Να αξιολογήσει • Να δώσει μια αξιολόγηση",
+    "lv": "Hindama • Hinnangut andma",
     "level": "B2"
   },
   {
     "de": "auszeichnen",
-    "lv": "Να βραβεύει • Να δίνει • Να ξεχωρίζει",
+    "lv": "Autasustama • Andma • Silma paistma",
     "level": "B2"
   },
   {
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "Απονομή • Βραβείο • Τιμητικό σήμα",
+    "lv": "Autasustamine • Autasu • Aumärk",
     "level": "B2"
   },
   {
     "de": "autonom",
-    "lv": "Αυτονόμος",
+    "lv": "Autonoomne",
     "level": "B2"
   },
   {
     "de": "Schwebebalken",
     "de_article": "der",
     "de_plural": "die Schwebebalken",
-    "lv": "Ραβδί ισορροπίας",
+    "lv": "Tasakaalupulk",
     "level": "B2"
   },
   {
     "de": "bändigen",
-    "lv": "Να κρατάς υπό έλεγχο • Να συγκρατείς",
+    "lv": "Vaos hoidma • Ohjeldama",
     "level": "B2"
   },
   {
     "de": "Blutbank",
     "de_article": "die",
     "de_plural": "die Blutbanken",
-    "lv": "Παροχή αίματος",
+    "lv": "Verevaru",
     "level": "B2"
   },
   {
     "de": "Organbank",
     "de_article": "die",
     "de_plural": "die Organbanken",
-    "lv": "Τράπεζα οργάνων",
+    "lv": "Elundipank",
     "level": "B2"
   },
   {
     "de": "Bankgeheimnis",
     "de_article": "das",
     "de_plural": "die Bankgeheimnisse",
-    "lv": "Τραπεζικό απόρρητο",
+    "lv": "Pangasaladus",
     "level": "B2"
   },
   {
     "de": "Bankleitzahl",
     "de_article": "die",
     "de_plural": "die Bankleitzahlen",
-    "lv": "Τραπεζικός δείκτης",
+    "lv": "Pangaindeks",
     "level": "B2"
   },
   {
     "de": "Bankraub",
     "de_article": "der",
     "de_plural": "die Bankraube",
-    "lv": "Ληστεία τράπεζας",
+    "lv": "Pangaröövimine",
     "level": "B2"
   },
   {
     "de": "Bankscheck",
     "de_article": "der",
     "de_plural": "die Bankschecks",
-    "lv": "Τραπεζική επιταγή",
+    "lv": "Pangatšekk",
     "level": "B2"
   },
   {
     "de": "Banküberfall",
     "de_article": "der",
     "de_plural": "die Banküberfälle",
-    "lv": "Ληστεία τράπεζας",
+    "lv": "Pangaröövimine",
     "level": "B2"
   },
   {
     "de": "Bankrott",
     "de_article": "der",
     "de_plural": "die Bankrotte",
-    "lv": "Πτώχευση",
+    "lv": "Pankrot",
     "level": "B2"
   },
   {
     "de": "Barbarei",
     "de_article": "die",
     "de_plural": "die Barbareien",
-    "lv": "Βαρβαρισμός",
+    "lv": "Barbaarsus",
     "level": "B2"
   },
   {
     "de": "barhäuptig",
-    "lv": "Με γυμνό κεφάλι",
+    "lv": "Palja peaga",
     "level": "B2"
   },
   {
     "de": "barmherzig",
-    "lv": "Ελεήμων • Συμπονετικός",
+    "lv": "Halastav • Kaastundlik",
     "level": "B2"
   },
   {
     "de": "Barren",
     "de_article": "der",
     "de_plural": "die Barren",
-    "lv": "Σιδηροδρομικά δέντρα",
+    "lv": "Rööbaspuud",
     "level": "B2"
   },
   {
     "de": "Barrenturnen",
     "de_article": "das",
-    "lv": "Ασκήσεις σε ράγες",
+    "lv": "Harjutused rööbaspuudel",
     "level": "B2"
   },
   {
     "de": "Militärbasis",
     "de_article": "die",
     "de_plural": "die Militärbasen",
-    "lv": "Στρατιωτική βάση",
+    "lv": "Sõjaväebaas",
     "level": "B2"
   },
   {
     "de": "Baukredit",
     "de_article": "der",
     "de_plural": "die Baukredite",
-    "lv": "Δάνειο έναρξης κατασκευής",
+    "lv": "Ehituse alustamise laen",
     "level": "B2"
   },
   {
     "de": "Bauchhöhle",
     "de_article": "die",
     "de_plural": "die Bauchhöhlen",
-    "lv": "Κοιλιακή κοιλότητα",
+    "lv": "Kõhuõõs",
     "level": "B2"
   },
   {
     "de": "Baugelände",
     "de_article": "das",
     "de_plural": "die Baugelände",
-    "lv": "Οικόπεδο",
+    "lv": "Ehituskrunt",
     "level": "B2"
   },
   {
     "de": "Baugrube",
     "de_article": "die",
     "de_plural": "die Baugruben",
-    "lv": "Κατασκευή τάφρου",
+    "lv": "Ehituskraav",
     "level": "B2"
   },
   {
     "de": "Bauleiter",
     "de_article": "der",
     "de_plural": "die Bauleiter",
-    "lv": "Διευθυντής κατασκευής",
+    "lv": "Ehitusjuht",
     "level": "B2"
   },
   {
     "de": "Baumschule",
     "de_article": "die",
     "de_plural": "die Baumschulen",
-    "lv": "Νηπιαγωγείο",
+    "lv": "Puukool",
     "level": "B2"
   },
   {
     "de": "Bauwesen",
     "de_article": "das",
-    "lv": "Οικοδομική • Οικοδομική δραστηριότητα",
+    "lv": "Ehitamine • Ehitustegevus",
     "level": "B2"
   },
   {
     "de": "bebauen",
-    "lv": "Διαδικασία • Κατασκευή",
+    "lv": "Töötlema • Hoonestama",
     "level": "B2"
   },
   {
     "de": "bedürfen",
-    "lv": "Να χρειάζεται • Να είναι απαραίτητος",
+    "lv": "Vajama • Olema vajalik",
     "level": "B2"
   },
   {
     "de": "befallen",
-    "lv": "Να έρθει επάνω • Να επιτεθεί",
+    "lv": "Peale tulema • Ründama",
     "level": "B2"
   },
   {
     "de": "sich befassen",
-    "lv": "Να ασχοληθεί με κάτι",
+    "lv": "Tegelema millegaga",
     "level": "B2",
     "study": {
       "id": "b2-sich-befassen",
       "layout": "minimalStudy",
-      "translation": "Να ασχοληθεί με κάτι",
+      "translation": "Tegelema millegaga",
       "rektion": "mit + kellele?",
-      "explanation": "Sich befassen απαιτεί την οριστική πρόθεση mit + σε ποιον • .",
+      "explanation": "Sich befassen nõuab kindlat eessõna mit + kellele?.",
       "forms": "mit + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -926,7 +932,10 @@ const B2_WORDS = [
             "sich befassen"
           ],
           "red": [
-            "mit + kam?"
+            "mit + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -936,41 +945,41 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "Μοντάζ • Άμαξα • Προώθηση • Προώθηση",
+    "lv": "Toimetamine • Vedu • Ülendamine • Edutamine",
     "level": "B2"
   },
   {
     "de": "Befugnis",
     "de_article": "die",
     "de_plural": "die Befugnisse",
-    "lv": "Δικαίωμα • Εξουσία",
+    "lv": "Õigus • Volitus",
     "level": "B2"
   },
   {
     "de": "begehren",
-    "lv": "Απαίτηση • Ζητώ • Επιθυμία • Πόθος • Επιθυμία",
+    "lv": "Nõudma • Küsima • Ihaldama • Himustama • Soovima",
     "level": "B2"
   },
   {
     "de": "begierig",
-    "lv": "Λαγνεία",
+    "lv": "Himur",
     "level": "B2"
   },
   {
     "de": "begnadigen",
-    "lv": "Να δώσει χάρη",
+    "lv": "Armu andma",
     "level": "B2"
   },
   {
     "de": "sich begnügen",
-    "lv": "Συμβιβαστείτε με κάτι",
+    "lv": "Rahulduma millegaga",
     "level": "B2",
     "study": {
       "id": "b2-sich-begnuegen",
       "layout": "minimalStudy",
-      "translation": "Συμβιβαστείτε με κάτι",
+      "translation": "Rahulduma millegaga",
       "rektion": "mit + kellele?",
-      "explanation": "Sich begnügen απαιτεί την οριστική πρόθεση mit + σε ποιον • .",
+      "explanation": "Sich begnügen nõuab kindlat eessõna mit + kellele?.",
       "forms": "mit + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -979,7 +988,10 @@ const B2_WORDS = [
             "sich begnügen"
           ],
           "red": [
-            "mit + kam?"
+            "mit + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -987,174 +999,181 @@ const B2_WORDS = [
   },
   {
     "de": "begünstigen",
-    "lv": "Ενθαρρύνω • Βοηθάω • Ευνοώ • Υποστηρίζω",
+    "lv": "Soodustama • Kaasa aitama • Soosima • Toetama",
     "level": "B2"
   },
   {
     "de": "begutachten",
-    "lv": "Να δώσει μια εκτίμηση • Να αξιολογήσει",
+    "lv": "Hinnangut andma • Hindama",
     "level": "B2"
   },
   {
     "de": "beharren",
-    "lv": "Να μείνει • Μείνει",
+    "lv": "Püsima • Jääma",
     "level": "B2"
   },
   {
     "de": "beharrlich",
-    "lv": "Επίμονος • Επίμονος",
+    "lv": "Visa • Püsiv",
     "level": "B2"
   },
   {
     "de": "behüten",
-    "lv": "Να προστατεύει • Όχι να προστατεύει",
+    "lv": "Kaitsma • Ära kaitsma",
     "level": "B2"
   },
   {
     "de": "Beihilfe",
     "de_article": "die",
     "de_plural": "die Beihilfen",
-    "lv": "Κρατική υποστήριξη • Πριμ",
+    "lv": "Riiklik toetus • Lisatasu",
     "level": "B2"
   },
   {
     "de": "beiläufig",
-    "lv": "Περιστασιακά • Εν παρόδω",
+    "lv": "Juhuslik • Möödaminnes",
     "level": "B2"
   },
   {
     "de": "beispiellos",
-    "lv": "Πρωτοφανής • Αόρατος • Ασύγκριτος",
+    "lv": "Enneolematu • Nähtamatu • Võrreldamatu",
     "level": "B2"
   },
   {
     "de": "Beistand",
     "de_article": "der",
     "de_plural": "die Beistände",
-    "lv": "Βοήθεια",
+    "lv": "Abi",
     "level": "B2"
   },
   {
     "de": "beistehen",
-    "lv": "Να βοηθήσει",
+    "lv": "Aitama",
     "level": "B2"
   },
   {
     "de": "beistimmen",
-    "lv": "Ψηφίστε κατά • Υποστήριξη",
+    "lv": "Kaasa hääletama • Toetama",
     "level": "B2"
   },
   {
     "de": "beiwohnen",
-    "lv": "Να είναι παρόν • Να συμμετέχει",
+    "lv": "Kohal olema • Osalema",
     "level": "B2"
   },
   {
     "de": "beizen",
-    "lv": "Να λεκιάσει",
+    "lv": "Peitsima",
     "level": "B2"
   },
   {
     "de": "bejahen",
-    "lv": "Επιβεβαιώστε • Βεβαιώστε",
+    "lv": "Kinnitama • Väitma",
     "level": "B2"
   },
   {
     "de": "bejahrt",
-    "lv": "Αρκετά ηλικιωμένος",
+    "lv": "Üsna eakas",
     "level": "B2"
   },
   {
     "de": "bekennen",
-    "lv": "Να παραδεχτώ",
+    "lv": "Tunnistama",
     "level": "B2"
   },
   {
     "de": "bekräftigen",
-    "lv": "Επιβεβαιώστε • Αποδείξτε",
+    "lv": "Kinnitama • Tõendama",
     "level": "B2"
   },
   {
     "de": "Fußbodenbelag",
     "de_article": "der",
     "de_plural": "die Fußbodenbeläge",
-    "lv": "Επένδυση δαπέδου",
+    "lv": "Põrandakate",
     "level": "B2"
   },
   {
     "de": "Straßenbelag",
     "de_article": "der",
     "de_plural": "die Straßenbeläge",
-    "lv": "Κάλυψη δρόμου",
+    "lv": "Tänavakate",
     "level": "B2"
   },
   {
     "de": "belagern",
-    "lv": "Περιβάλλω • Περιβάλλω",
+    "lv": "Piirama • Ümber piirama",
     "level": "B2"
   },
   {
     "de": "belanglos",
-    "lv": "Ασήμαντο • Ασήμαντο",
+    "lv": "Ebaoluline • Tähtsusetu",
     "level": "B2"
   },
   {
     "de": "belästigen",
-    "lv": "Να επιβαρύνουν • Να ενεργούν παρεμβατικά • Να επιβάλλουν",
+    "lv": "Koormama • Pealetükkivalt käituma • Peale suruma",
     "level": "B2"
   },
   {
     "de": "belauschen",
-    "lv": "Να κρυφακούει",
+    "lv": "Salaja pealt kuulama",
     "level": "B2"
   },
   {
     "de": "beleben",
-    "lv": "Ανασταίνω",
+    "lv": "Elustama",
     "level": "B2"
   },
   {
     "de": "sich beleben",
-    "lv": "Να ζωντανέψει",
+    "lv": "Ellu ärkama",
     "level": "B2"
   },
   {
     "de": "beleibt",
-    "lv": "Παχουλό • Πιτσιλιστό • Πλήρες",
+    "lv": "Täidlane • Priske • Täielik",
     "level": "B2"
   },
   {
     "de": "belichten",
-    "lv": "Να φωτίζει • Να εκθέτει",
+    "lv": "Valgustama • Eksponeerima",
     "level": "B2"
   },
   {
     "de": "Belieben",
     "de_article": "das",
-    "lv": "Ευχαρίστηση • Συμπάθεια • Επιθυμία",
+    "lv": "Meeldivus • Meeldimine • Soov",
     "level": "B2"
   },
   {
     "de": "belustigen",
-    "lv": "Να διασκεδάζει",
+    "lv": "Lõbustama",
     "level": "B2"
   },
   {
     "de": "sich bemächtigen",
-    "lv": "Αρπάζω • Κατέχω",
+    "lv": "Haarama • Enda valdusesse võtma",
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
       "layout": "minimalStudy",
-      "translation": "Αρπάζω • Κατέχω",
+      "translation": "Haarama • Enda valdusesse võtma",
       "rektion": "+ omastavas käändes",
-      "explanation": "Το sich bemächtigen απαιτεί οριστική πρόθεση + στην κτητική πτώση.",
+      "explanation": "Sich bemächtigen nõuab kindlat eessõna + omastavas käändes.",
       "forms": "+ omastavas käändes",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich bemächtigen"
+          ],
+          "red": [
+            "+ omastavas käändes"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -1164,76 +1183,76 @@ const B2_WORDS = [
     "de": "Benennung",
     "de_article": "die",
     "de_plural": "die Benennungen",
-    "lv": "Ονομασία • Κλήση • Προσδιορισμός",
+    "lv": "Nimetamine • Kutsumine • Nimetus",
     "level": "B2"
   },
   {
     "de": "Steuerberater",
     "de_article": "der",
     "de_plural": "die Steuerberater",
-    "lv": "Φοροτεχνικός",
+    "lv": "Maksukonsultant",
     "level": "B2"
   },
   {
     "de": "berechtigen",
-    "lv": "Να δώσει το δικαίωμα",
+    "lv": "Õigust andma",
     "level": "B2"
   },
   {
     "de": "beredt",
-    "lv": "Ομιλητικός",
+    "lv": "Jutukas",
     "level": "B2"
   },
   {
     "de": "bereichern",
-    "lv": "Εμπλουτίζω",
+    "lv": "Rikastama",
     "level": "B2"
   },
   {
     "de": "Bergbau",
     "de_article": "der",
-    "lv": "Μεταλλευτική βιομηχανία",
+    "lv": "Mäetööstus",
     "level": "B2"
   },
   {
     "de": "bergen",
-    "lv": "Εξοικονομώ • Συγκομιδή",
+    "lv": "Päästma • Koristama saaki",
     "level": "B2"
   },
   {
     "de": "Bergmann",
     "de_article": "der",
     "de_plural": "die Bergmänner",
-    "lv": "Ανθρακωρύχος • Ανθρακωρύχος",
+    "lv": "Kaevur • Söekaevur",
     "level": "B2"
   },
   {
     "de": "Bergwerk",
     "de_article": "das",
     "de_plural": "die Bergwerke",
-    "lv": "Ορυχείο • Άξονας",
+    "lv": "Kaevandus • Šaht",
     "level": "B2"
   },
   {
     "de": "bersten",
-    "lv": "Ρωγμή • Ρωγμή • Σκάσιμο • Σκίσιμο",
+    "lv": "Lõhenema • Pragunema • Lõhkema • Rebenema",
     "level": "B2"
   },
   {
     "de": "berufen",
-    "lv": "Διορίζω • Προσκαλώ",
+    "lv": "Ametisse nimetama • Kutsuma",
     "level": "B2"
   },
   {
     "de": "sich berufen",
-    "lv": "Αναφέρομαι σε κάτι",
+    "lv": "Viitama millelegi",
     "level": "B2",
     "study": {
       "id": "b2-sich-berufen",
       "layout": "minimalStudy",
-      "translation": "Αναφέρομαι σε κάτι",
+      "translation": "Viitama millelegi",
       "rektion": "auf + mida?",
-      "explanation": "Sich berufen απαιτεί την οριστική πρόθεση auf + τι • .",
+      "explanation": "Sich berufen nõuab kindlat eessõna auf + mida?.",
       "forms": "auf + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -1242,7 +1261,10 @@ const B2_WORDS = [
             "sich berufen"
           ],
           "red": [
-            "auf + ko?"
+            "auf + mida?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -1250,46 +1272,46 @@ const B2_WORDS = [
   },
   {
     "de": "beruhen",
-    "lv": "Να ιδρύουν • Να βασίζονται",
+    "lv": "Asutatama • Põhinema",
     "level": "B2"
   },
   {
     "de": "besänftigen",
-    "lv": "Ηρεμώ • Ανακουφίζω • Δροσίζω • Σιωπή",
+    "lv": "Rahustama • Leevendama • Jahutama • Vaigistama",
     "level": "B2"
   },
   {
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "Ομάδα • Πλήρωμα • Προσωπικό • Δυνάμεις κατοχής",
+    "lv": "Meeskond • Ekipaaž • Personal • Okupatsiooniväed",
     "level": "B2"
   },
   {
     "de": "beschämen",
-    "lv": "Να ντροπιάζει",
+    "lv": "Häbistama",
     "level": "B2"
   },
   {
     "de": "beschatten",
-    "lv": "Επισκιάζω • Παρατηρώ",
+    "lv": "Varjutama • Jälgima",
     "level": "B2"
   },
   {
     "de": "beschimpfen",
-    "lv": "Ύβρις • Απαξίωση • Συκοφαντία",
+    "lv": "Sõimama • Halvustama • Laimama",
     "level": "B2"
   },
   {
     "de": "sich beschränken",
-    "lv": "Περιοριστείτε σε κάτι",
+    "lv": "Piirduma millegaga",
     "level": "B2",
     "study": {
       "id": "b2-sich-beschraenken",
       "layout": "minimalStudy",
-      "translation": "Περιοριστείτε σε κάτι",
+      "translation": "Piirduma millegaga",
       "rektion": "auf + mida?",
-      "explanation": "Sich beschränken απαιτεί την οριστική πρόθεση auf + τι • .",
+      "explanation": "Sich beschränken nõuab kindlat eessõna auf + mida?.",
       "forms": "auf + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -1298,7 +1320,10 @@ const B2_WORDS = [
             "sich beschränken"
           ],
           "red": [
-            "auf + ko?"
+            "auf + mida?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -1308,88 +1333,88 @@ const B2_WORDS = [
     "de": "Beschützer",
     "de_article": "der",
     "de_plural": "die Beschützer",
-    "lv": "Προστάτης • Φύλακας • Φύλακας",
+    "lv": "Kaitsja • Valvur • Eestkostja",
     "level": "B2"
   },
   {
     "de": "beschwören",
-    "lv": "Ορκίζομαι • Ορκίζομαι • Ικετεύω",
+    "lv": "Vanduma • Vandega kinnitama • Tungivalt paluma",
     "level": "B2"
   },
   {
     "de": "besessen",
-    "lv": "Εμμονικός • Κυριευμένος • Καταπιεσμένος",
+    "lv": "Kinnisideeks muutunud • Vaevatud • Haaratud",
     "level": "B2"
   },
   {
     "de": "besiedeln",
-    "lv": "Για την επανεγκατάσταση των κατοίκων",
+    "lv": "Elanikke ümber asustama",
     "level": "B2"
   },
   {
     "de": "Besinnung",
     "de_article": "die",
     "de_plural": "die Besinnungen",
-    "lv": "Συνείδηση",
+    "lv": "Teadvus",
     "level": "B2"
   },
   {
     "de": "bespielen",
-    "lv": "Για εγγραφή μουσικής σε κασέτα ή δισκέτα",
+    "lv": "Muusikat kassetile või disketile salvestama",
     "level": "B2"
   },
   {
     "de": "Bestand",
     "de_article": "der",
     "de_plural": "die Bestände",
-    "lv": "Σύνθεση • Απόθεμα • Απόθεμα",
+    "lv": "Koosseis • Inventar • Varu",
     "level": "B2"
   },
   {
     "de": "beständig",
-    "lv": "Μόνιμη • Αμετάβλητη",
+    "lv": "Püsiv • Muutumatu",
     "level": "B2"
   },
   {
     "de": "bestärken",
-    "lv": "Ενισχύουν • Επιβεβαιώνουν • Ενθαρρύνουν",
+    "lv": "Tugevdama • Kinnitama • Julgustama",
     "level": "B2"
   },
   {
     "de": "bestechen",
-    "lv": "Να δώσει δωροδοκία",
+    "lv": "Altkäemaksu andma",
     "level": "B2"
   },
   {
     "de": "bestechlich",
-    "lv": "Αγοραστή • Επηρεασμένος από δωροδοκία",
+    "lv": "Ostetav • Altkäemaksuga mõjutatav",
     "level": "B2"
   },
   {
     "de": "bestrahlen",
-    "lv": "Να ακτινοβολεί • Να φωτίζει",
+    "lv": "Kiiritama • Valgustama",
     "level": "B2"
   },
   {
     "de": "bestreiten",
-    "lv": "Αμφισβήτηση • Πληρωμή • Κάλυψη",
+    "lv": "Vaidlustama • Maksma • Katma",
     "level": "B2"
   },
   {
     "de": "bestürzt",
-    "lv": "Έκπληκτος • Μπερδεμένος • Μπερδεμένος",
+    "lv": "Üllatunud • Segaduses • Hämmingus",
     "level": "B2"
   },
   {
     "de": "sich betätigen",
-    "lv": "Ενεργώ • Συμμετέχω",
+    "lv": "Tegutsema • Osalema",
     "level": "B2",
     "study": {
       "id": "b2-sich-betaetigen",
       "layout": "minimalStudy",
-      "translation": "Ενεργώ • Συμμετέχω",
+      "translation": "Tegutsema • Osalema",
       "rektion": "in + kus?",
-      "explanation": "Το sich betätigen απαιτεί την οριστική πρόθεση στο + πού • .",
+      "explanation": "Sich betätigen nõuab kindlat eessõna in + kus?.",
       "forms": "in + kus?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -1398,7 +1423,11 @@ const B2_WORDS = [
             "sich betätigen"
           ],
           "red": [
-            "in + kur?"
+            "in + kus?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -1408,2143 +1437,2143 @@ const B2_WORDS = [
     "de": "Betäubung",
     "de_article": "die",
     "de_plural": "die Betäubungen",
-    "lv": "Εκπληκτική • Υπνηλία • Νάρκωση • Αναισθησία",
+    "lv": "Uimastamine • Uimasus • Narkoos • Anesteesia",
     "level": "B2"
   },
   {
     "de": "beteuern",
-    "lv": "Να αποδείξει",
+    "lv": "Tõendama",
     "level": "B2"
   },
   {
     "de": "Betracht",
     "de_article": "der",
-    "lv": "Αντιπαροχή • Αντιπαροχή",
+    "lv": "Arvestamine • Kaalumine",
     "level": "B2"
   },
   {
     "de": "sich betragen",
-    "lv": "Συμπεριφέρομαι",
+    "lv": "Käituma",
     "level": "B2"
   },
   {
     "de": "Betriebsrat",
     "de_article": "der",
     "de_plural": "die Betriebsräte",
-    "lv": "Εταιρικό συμβούλιο",
+    "lv": "Ettevõtte nõukogu",
     "level": "B2"
   },
   {
     "de": "Betrug",
     "de_article": "der",
     "de_plural": "die Betrüge",
-    "lv": "Απάτη • Μηχανορραφία • Πλαστογραφία • Απάτη",
+    "lv": "Pettus • Mahhineerimine • Võltsing • Kelmus",
     "level": "B2"
   },
   {
     "de": "beurlauben",
-    "lv": "Να δώσει άδεια • Να απολυθεί από την εργασία",
+    "lv": "Puhkust andma • Töölt vabastama",
     "level": "B2"
   },
   {
     "de": "Beute",
     "de_article": "die",
-    "lv": "Πιάσε • Νίκη • Τρόπαιο",
+    "lv": "Saak • Võit • Trofee",
     "level": "B2"
   },
   {
     "de": "Bewaffnung",
     "de_article": "die",
     "de_plural": "die Bewaffnungen",
-    "lv": "Οπλισμός • Οπλισμός",
+    "lv": "Relvastamine • Relvastus",
     "level": "B2"
   },
   {
     "de": "bewähren",
-    "lv": "Προστασία • Πρόληψη • Διατήρηση • Αποθήκευση",
+    "lv": "Kaitsma • Ära kaitsma • Hoidma • Päästma",
     "level": "B2"
   },
   {
     "de": "bewährt",
-    "lv": "Επαληθευμένο • Σίγουρο • Αξιόπιστο",
+    "lv": "Kontrollitud • Kindel • Usaldusväärne",
     "level": "B2"
   },
   {
     "de": "bewältigen",
-    "lv": "Ξεπερνάω • Διαχειρίζομαι",
+    "lv": "Ületama • Hakkama saama",
     "level": "B2"
   },
   {
     "de": "bewandert",
-    "lv": "Γνώστης • Ικανός",
+    "lv": "Asjatundlik • Kompetentne",
     "level": "B2"
   },
   {
     "de": "Bewässerung",
     "de_article": "die",
     "de_plural": "die Bewässerungen",
-    "lv": "Άρδευση • Σύστημα άρδευσης",
+    "lv": "Niisutamine • Niisutussüsteem",
     "level": "B2"
   },
   {
     "de": "Bewerbung",
     "de_article": "die",
     "de_plural": "die Bewerbungen",
-    "lv": "Αίτηση • Έντυπο αίτησης • Σύνολο υποβληθέντων εγγράφων",
+    "lv": "Avaldus • Avalduse vorm • Esitatud dokumentide kogum",
     "level": "B2"
   },
   {
     "de": "bewilligen",
-    "lv": "Να επιτρέψει • Να διαθέσει • Να δώσει",
+    "lv": "Lubama • Eraldama • Andma",
     "level": "B2"
   },
   {
     "de": "Bewusstsein",
     "de_article": "das",
     "de_plural": "die Bewusstseine",
-    "lv": "Συνείδηση",
+    "lv": "Teadvus",
     "level": "B2"
   },
   {
     "de": "bezähmen",
-    "lv": "Μαγεύω • Μαγεύω",
+    "lv": "Nõiduma • Lummama",
     "level": "B2"
   },
   {
     "de": "bezeugen",
-    "lv": "Να αποδείξει",
+    "lv": "Tõendama",
     "level": "B2"
   },
   {
     "de": "Bezug",
     "de_article": "der",
     "de_plural": "die Bezüge",
-    "lv": "Σχέση • Δεσμός • Κάλυψη",
+    "lv": "Suhe • Side • Kate",
     "level": "B2"
   },
   {
     "de": "bezüglich",
-    "lv": "Σε σχέση με κάτι",
+    "lv": "Seoses millegagi",
     "level": "B2"
   },
   {
     "de": "bezwingen",
-    "lv": "Υπερνικώ • Υποτάσσω • Κυριαρχώ",
+    "lv": "Ületama • Alistama • Valitsema",
     "level": "B2"
   },
   {
     "de": "biegsam",
-    "lv": "Εύκαμπτος",
+    "lv": "Painduv",
     "level": "B2"
   },
   {
     "de": "Biegung",
     "de_article": "die",
     "de_plural": "die Biegungen",
-    "lv": "Καμπυλότητα • Αψίδα",
+    "lv": "Kõverus • Kaardumine",
     "level": "B2"
   },
   {
     "de": "bisweilen",
-    "lv": "Μερικές φορές • Μερικές φορές",
+    "lv": "Mõnikord • Vahel",
     "level": "B2"
   },
   {
     "de": "Bildhauer",
     "de_article": "der",
     "de_plural": "die Bildhauer",
-    "lv": "Γλύπτης",
+    "lv": "Skulptor",
     "level": "B2"
   },
   {
     "de": "bildlich",
-    "lv": "Γραφικός • Μεταφορικός • Μεταφορικός",
+    "lv": "Maaliline • Kujundlik • Figuratiivne",
     "level": "B2"
   },
   {
     "de": "Bildnis",
     "de_article": "das",
     "de_plural": "die Bildnisse",
-    "lv": "Πορτραίτο • Εικόνα",
+    "lv": "Portree • Pilt",
     "level": "B2"
   },
   {
     "de": "billigen",
-    "lv": "Εγκρίνω • Συμφωνώ",
+    "lv": "Heaks kiitma • Nõustuma",
     "level": "B2"
   },
   {
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "Σύνδεση • Ένωση • Χημική ένωση • Δεσμός • Ιμάντες • Συναισθηματικός δεσμός",
+    "lv": "Seotus • Ühend • Keemiline ühend • Side • Rihmad • Emotsionaalne side",
     "level": "B2"
   },
   {
     "de": "binnen",
-    "lv": "Εντός • Εντός",
+    "lv": "Jooksul • Sees",
     "level": "B2"
   },
   {
     "de": "Binnenhandel",
     "de_article": "der",
-    "lv": "Εσωτερική αγορά",
+    "lv": "Siseturg",
     "level": "B2"
   },
   {
     "de": "Bienenwachs",
     "de_article": "das",
-    "lv": "Κηρήθρα",
+    "lv": "Meevaha",
     "level": "B2"
   },
   {
     "de": "Bienenstock",
     "de_article": "der",
     "de_plural": "die Bienenstöcke",
-    "lv": "Κυψέλη",
+    "lv": "Mesitaru",
     "level": "B2"
   },
   {
     "de": "Bienenzucht",
     "de_article": "die",
     "de_plural": "die Bienenzuchten",
-    "lv": "Μελισσοκομία",
+    "lv": "Mesindus",
     "level": "B2"
   },
   {
     "de": "Prüfer",
     "de_article": "der",
     "de_plural": "die Prüfer",
-    "lv": "Ελεγκτής",
+    "lv": "Audiitor",
     "level": "B2"
   },
   {
     "de": "Bildbericht",
     "de_article": "der",
     "de_plural": "die Bildberichte",
-    "lv": "Φωτορεπορτάζ",
+    "lv": "Fotoreportaaž",
     "level": "B2"
   },
   {
     "de": "bildend",
-    "lv": "Διαμορφωτικός • Εκπαιδευτικός",
+    "lv": "Kujundav • Harivat",
     "level": "B2"
   },
   {
     "de": "blähen",
-    "lv": "Ανατινάξω • Ανατινάξω • Ανατινάξω",
+    "lv": "Puhuma • Täis puhuma • Üles puhuma",
     "level": "B2"
   },
   {
     "de": "sich blähen",
-    "lv": "Να φουσκώσει • Να φουσκώσει",
+    "lv": "End täis puhuma • Paisuma",
     "level": "B2"
   },
   {
     "de": "Blasorchester",
     "de_article": "das",
     "de_plural": "die Blasorchester",
-    "lv": "Μπάντα πνευστών",
+    "lv": "Puhkpilliorkester",
     "level": "B2"
   },
   {
     "de": "Bleigehalt",
     "de_article": "der",
     "de_plural": "die Bleigehalte",
-    "lv": "Περιεχόμενο μολύβδου",
+    "lv": "Plii sisaldus",
     "level": "B2"
   },
   {
     "de": "bleihaltig",
-    "lv": "Που περιέχει μόλυβδο",
+    "lv": "Pliid sisaldav",
     "level": "B2"
   },
   {
     "de": "bleichen",
-    "lv": "Να ξεθωριάσει • Να ασπρίσει",
+    "lv": "Pleekima • Valgendama",
     "level": "B2"
   },
   {
     "de": "blenden",
-    "lv": "Θαμπώνουν • Μπερδεύουν • Παραπλανούν",
+    "lv": "Pimestama • Segadusse ajama • Eksitama",
     "level": "B2"
   },
   {
     "de": "Blindgänger",
     "de_article": "der",
     "de_plural": "die Blindgänger",
-    "lv": "Μη εκρηκτικό • Βλήμα",
+    "lv": "Lõhkemata lõhkekeha • Mürsk",
     "level": "B2"
   },
   {
     "de": "Blitzableiter",
     "de_article": "der",
     "de_plural": "die Blitzableiter",
-    "lv": "Αλεξικέραυνο",
+    "lv": "Piksevarras",
     "level": "B2"
   },
   {
     "de": "Blitzlicht",
     "de_article": "das",
     "de_plural": "die Blitzlichter",
-    "lv": "Φως φλας",
+    "lv": "Välklambi valgus",
     "level": "B2"
   },
   {
     "de": "Militärblock",
     "de_article": "der",
     "de_plural": "die Militärblöcke",
-    "lv": "Στρατιωτικό μπλοκ",
+    "lv": "Sõjaline blokk",
     "level": "B2"
   },
   {
     "de": "Blockade",
     "de_article": "die",
     "de_plural": "die Blockaden",
-    "lv": "Αποκλεισμός",
+    "lv": "Blokaad",
     "level": "B2"
   },
   {
     "de": "Blockhaus",
     "de_article": "das",
     "de_plural": "die Blockhäuser",
-    "lv": "Ξύλινο σπίτι",
+    "lv": "Palkmaja",
     "level": "B2"
   },
   {
     "de": "blödsinnig",
-    "lv": "Αδύναμος • Ανόητος • Ανόητος",
+    "lv": "Nõdrameelne • Rumal • Loll",
     "level": "B2"
   },
   {
     "de": "Blumenkranz",
     "de_article": "der",
     "de_plural": "die Blumenkränze",
-    "lv": "Λουλούδι στεφάνι",
+    "lv": "Lillepärg",
     "level": "B2"
   },
   {
     "de": "Blumenzucht",
     "de_article": "die",
-    "lv": "Ανθοκομία",
+    "lv": "Lillekasvatus",
     "level": "B2"
   },
   {
     "de": "Blutkonserve",
     "de_article": "die",
     "de_plural": "die Blutkonserven",
-    "lv": "Κονσερβοποιημένο αίμα",
+    "lv": "Konserveeritud veri",
     "level": "B2"
   },
   {
     "de": "Blutalkohol",
     "de_article": "der",
-    "lv": "Περιεκτικότητα σε αλκοόλ στο αίμα",
+    "lv": "Vere alkoholisisaldus",
     "level": "B2"
   },
   {
     "de": "blutarm",
-    "lv": "Αναιμικός",
+    "lv": "Aneemiline",
     "level": "B2"
   },
   {
     "de": "Blutarmut",
     "de_article": "die",
-    "lv": "Αναιμία",
+    "lv": "Aneemia",
     "level": "B2"
   },
   {
     "de": "Blutspender",
     "de_article": "der",
     "de_plural": "die Blutspender",
-    "lv": "Δότης",
+    "lv": "Doonor",
     "level": "B2"
   },
   {
     "de": "Blutsturz",
     "de_article": "der",
     "de_plural": "die Blutstürze",
-    "lv": "Ξαφνική αιμορραγία από το στόμα ή τη μύτη",
+    "lv": "Äkiline verejooks suust või ninast",
     "level": "B2"
   },
   {
     "de": "Bodensatz",
     "de_article": "der",
     "de_plural": "die Bodensätze",
-    "lv": "Ίζημα • Μαγιά",
+    "lv": "Sete • Pärme",
     "level": "B2"
   },
   {
     "de": "Bodenschätze",
     "de_article": "die",
-    "lv": "Ορυκτών πόρων",
+    "lv": "Maavarad",
     "level": "B2"
   },
   {
     "de": "bohnern",
-    "lv": "Να κερώσει το πάτωμα",
+    "lv": "Põrandat vahatama",
     "level": "B2"
   },
   {
     "de": "Bootsmann",
     "de_article": "der",
     "de_plural": "die Bootsleute",
-    "lv": "Βαρκάρης",
+    "lv": "Bootsman",
     "level": "B2"
   },
   {
     "de": "Bootssteg",
     "de_article": "der",
     "de_plural": "die Bootsstege",
-    "lv": "Γέφυρα σκαφών",
+    "lv": "Paadisild",
     "level": "B2"
   },
   {
     "de": "Bord",
     "de_article": "das",
     "de_plural": "die Borde",
-    "lv": "Γενειοφόρος",
+    "lv": "Parras",
     "level": "B2"
   },
   {
     "de": "Bordbuch",
     "de_article": "das",
     "de_plural": "die Bordbücher",
-    "lv": "Ημερολόγιο",
+    "lv": "Laevapäevik",
     "level": "B2"
   },
   {
     "de": "Börse",
     "de_article": "die",
     "de_plural": "die Börsen",
-    "lv": "Χρηματιστήριο",
+    "lv": "Börs",
     "level": "B2"
   },
   {
     "de": "Borte",
     "de_article": "die",
     "de_plural": "die Borten",
-    "lv": "Ακρόλιθος πεζοδρόμιου",
+    "lv": "Äärekivi",
     "level": "B2"
   },
   {
     "de": "Böschung",
     "de_article": "die",
     "de_plural": "die Böschungen",
-    "lv": "Πλαγιά • Πλαγιά • Ανάχωμα",
+    "lv": "Nõlv • Kalle • Vall",
     "level": "B2"
   },
   {
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "Αγγελιοφόρος • Αγγελιαφόρος • Απεσταλμένος",
+    "lv": "Sõnumitooja • Kuller • Saadik",
     "level": "B2"
   },
   {
     "de": "brach",
-    "lv": "Ακαλλιέργητη • Ζωοτροφή αριστερά",
+    "lv": "Harimata • Sööti jäetud",
     "level": "B2"
   },
   {
     "de": "Brandschaden",
     "de_article": "der",
     "de_plural": "die Brandschäden",
-    "lv": "Ζημιά από πυρκαγιά",
+    "lv": "Tulekahjukahju",
     "level": "B2"
   },
   {
     "de": "Brandstätte",
     "de_article": "die",
     "de_plural": "die Brandstätten",
-    "lv": "Ο τόπος της φωτιάς",
+    "lv": "Tulekahju koht",
     "level": "B2"
   },
   {
     "de": "Brandanschlag",
     "de_article": "der",
     "de_plural": "die Brandanschläge",
-    "lv": "Ανάφλεξη",
+    "lv": "Süütamine",
     "level": "B2"
   },
   {
     "de": "Brandmal",
     "de_article": "das",
     "de_plural": "die Brandmale",
-    "lv": "Έγκαυμα • Ουλή εγκαύματος",
+    "lv": "Põletus • Põletusarm",
     "level": "B2"
   },
   {
     "de": "Brandstifter",
     "de_article": "der",
     "de_plural": "die Brandstifter",
-    "lv": "Ένας εμπρηστής",
+    "lv": "Süütaja",
     "level": "B2"
   },
   {
     "de": "Brandwunde",
     "de_article": "die",
     "de_plural": "die Brandwunden",
-    "lv": "Ένα έγκαυμα",
+    "lv": "Põletushaav",
     "level": "B2"
   },
   {
     "de": "brauen",
-    "lv": "Να φτιάχνω μπύρα • Να παρασκευάζω",
+    "lv": "Õlut tegema • Pruulima",
     "level": "B2"
   },
   {
     "de": "Brauerei",
     "de_article": "die",
     "de_plural": "die Brauereien",
-    "lv": "Ζυθοποιείο",
+    "lv": "Õlletehas",
     "level": "B2"
   },
   {
     "de": "Braunkohle",
     "de_article": "die",
     "de_plural": "die Braunkohlen",
-    "lv": "Λιγνίτης",
+    "lv": "Pruunsüsi",
     "level": "B2"
   },
   {
     "de": "Brettsegeln",
     "de_article": "das",
-    "lv": "Σανίδα ιστιοσανίδας",
+    "lv": "Purjelaud",
     "level": "B2"
   },
   {
     "de": "Briefbombe",
     "de_article": "die",
     "de_plural": "die Briefbomben",
-    "lv": "Επιστολή βόμβα",
+    "lv": "Kirjapomm",
     "level": "B2"
   },
   {
     "de": "brillant",
-    "lv": "Εξαιρετική • Λαμπρό",
+    "lv": "Suurepärane • Hiilgav",
     "level": "B2"
   },
   {
     "de": "brüten",
-    "lv": "Γόνος • Σκέφτομαι συνέχεια κάτι",
+    "lv": "Haudlema • Pidevalt millegi peale mõtlema",
     "level": "B2"
   },
   {
     "de": "Buche",
     "de_article": "die",
     "de_plural": "die Buchen",
-    "lv": "Φηγός",
+    "lv": "Pöök",
     "level": "B2"
   },
   {
     "de": "Buchführer",
     "de_article": "der",
     "de_plural": "die Buchführer",
-    "lv": "Λογιστής",
+    "lv": "Raamatupidaja",
     "level": "B2"
   },
   {
     "de": "Buchführung",
     "de_article": "die",
     "de_plural": "die Buchführungen",
-    "lv": "Λογιστική",
+    "lv": "Raamatupidamine",
     "level": "B2"
   },
   {
     "de": "Buchhaltung",
     "de_article": "die",
     "de_plural": "die Buchhaltungen",
-    "lv": "Λογιστική",
+    "lv": "Raamatupidamine",
     "level": "B2"
   },
   {
     "de": "buchstäblich",
-    "lv": "Κατά γράμμα",
+    "lv": "Sõnasõnaline",
     "level": "B2"
   },
   {
     "de": "Buckel",
     "de_article": "der",
     "de_plural": "die Buckel",
-    "lv": "Καμπούρα • Καμπουριασμένος",
+    "lv": "Küür • Küürakas selg",
     "level": "B2"
   },
   {
     "de": "Bügel",
     "de_article": "der",
     "de_plural": "die Bügel",
-    "lv": "Λαβή • Φυτίλι • Κρεμάστρα • Πόδι",
+    "lv": "Käepide • Vits • Riidepuu • Jalus",
     "level": "B2"
   },
   {
     "de": "Bühnenbild",
     "de_article": "das",
     "de_plural": "die Bühnenbilder",
-    "lv": "Διακόσμηση",
+    "lv": "Dekoratsioon",
     "level": "B2"
   },
   {
     "de": "Bühnenbildner",
     "de_article": "der",
     "de_plural": "die Bühnenbildner",
-    "lv": "Διακοσμητής",
+    "lv": "Dekoraator",
     "level": "B2"
   },
   {
     "de": "Bundesland",
     "de_article": "das",
     "de_plural": "die Bundesländer",
-    "lv": "Ομοσπονδιακό κράτος",
+    "lv": "Liidumaa",
     "level": "B2"
   },
   {
     "de": "Bundesstaat",
     "de_article": "der",
     "de_plural": "die Bundesstaaten",
-    "lv": "Ομοσπονδία • Ομοσπονδιακό κράτος",
+    "lv": "Föderatsioon • Liitriik",
     "level": "B2"
   },
   {
     "de": "Bundeswehr",
     "de_article": "die",
-    "lv": "Γερμανικές ένοπλες δυνάμεις",
+    "lv": "Saksamaa relvajõud",
     "level": "B2"
   },
   {
     "de": "Bündnis",
     "de_article": "das",
     "de_plural": "die Bündnisse",
-    "lv": "Ένωση",
+    "lv": "Liit",
     "level": "B2"
   },
   {
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "Επιβάρυνση • Υποχρέωση",
+    "lv": "Koorem • Kohustus",
     "level": "B2"
   },
   {
     "de": "Bürge",
     "de_article": "der",
     "de_plural": "die Bürgen",
-    "lv": "Εγγυητής",
+    "lv": "Käendaja",
     "level": "B2"
   },
   {
     "de": "bürgen",
-    "lv": "Να εγγυηθεί",
+    "lv": "Käendama",
     "level": "B2"
   },
   {
     "de": "bürgerlich",
-    "lv": "Πολιτικοί • Πολίτες • Εμφ",
+    "lv": "Kodanlik • Kodanike • Kodanlik",
     "level": "B2"
   },
   {
     "de": "Chaot",
     "de_article": "der",
     "de_plural": "die Chaoten",
-    "lv": "Μπερδεμένο άτομο",
+    "lv": "Segane inimene",
     "level": "B2"
   },
   {
     "de": "chartern",
-    "lv": "Να παραγγείλετε ένα αεροπλάνο ή ένα πλοίο για ένα συγκεκριμένο ταξίδι",
+    "lv": "Lennukit või laeva konkreetseks reisiks tellima",
     "level": "B2"
   },
   {
     "de": "Chefarzt",
     "de_article": "der",
     "de_plural": "die Chefärzte",
-    "lv": "Αρχιατρός",
+    "lv": "Peaarst",
     "level": "B2"
   },
   {
     "de": "Chefingenieur",
     "de_article": "der",
     "de_plural": "die Chefingenieure",
-    "lv": "Αρχιμηχανικός",
+    "lv": "Peainsener",
     "level": "B2"
   },
   {
     "de": "Chefredakteur",
     "de_article": "der",
     "de_plural": "die Chefredakteure",
-    "lv": "Υπεύθυνος συντάκτης",
+    "lv": "Vastutav toimetaja",
     "level": "B2"
   },
   {
     "de": "Chemotherapie",
     "de_article": "die",
     "de_plural": "die Chemotherapien",
-    "lv": "Χημειοθεραπεία",
+    "lv": "Keemiaravi",
     "level": "B2"
   },
   {
     "de": "Chirurgie",
     "de_article": "die",
     "de_plural": "die Chirurgien",
-    "lv": "Χειρουργική",
+    "lv": "Kirurgia",
     "level": "B2"
   },
   {
     "de": "Cholera",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Χολέρα",
+    "lv": "Koolera",
     "level": "B2"
   },
   {
     "de": "Cholesterin",
     "de_article": "das",
-    "lv": "Χοληστερίνη",
+    "lv": "Kolesterool",
     "level": "B2"
   },
   {
     "de": "Chorleiter",
     "de_article": "der",
     "de_plural": "die Chorleiter",
-    "lv": "Χοράρχης",
+    "lv": "Koorijuht",
     "level": "B2"
   },
   {
     "de": "Chromosom",
     "de_article": "das",
     "de_plural": "die Chromosomen",
-    "lv": "Χρωμόσωμα",
+    "lv": "Kromosoom",
     "level": "B2"
   },
   {
     "de": "Chronik",
     "de_article": "die",
     "de_plural": "die Chroniken",
-    "lv": "Χρονικό",
+    "lv": "Kroonika",
     "level": "B2"
   },
   {
     "de": "chronisch",
-    "lv": "Χρόνιος",
+    "lv": "Krooniline",
     "level": "B2"
   },
   {
     "de": "Computervirus",
     "de_article": "der",
     "de_plural": "die Computerviren",
-    "lv": "Ιός υπολογιστή",
+    "lv": "Arvutiviirus",
     "level": "B2"
   },
   {
     "de": "Dachs",
     "de_article": "der",
     "de_plural": "die Dachse",
-    "lv": "Ασβός",
+    "lv": "Mäger",
     "level": "B2"
   },
   {
     "de": "Dachziegel",
     "de_article": "der",
     "de_plural": "die Dachziegel",
-    "lv": "Κεραμίδι στέγης",
+    "lv": "Katusekivi",
     "level": "B2"
   },
   {
     "de": "Dahlie",
     "de_article": "die",
     "de_plural": "die Dahlien",
-    "lv": "Ντάλια",
+    "lv": "Daalia",
     "level": "B2"
   },
   {
     "de": "damalig",
-    "lv": "Εκείνης της εποχής",
+    "lv": "Tolleaegne",
     "level": "B2"
   },
   {
     "de": "Damm",
     "de_article": "der",
     "de_plural": "die Dämme",
-    "lv": "Φράγμα • Φράγμα • Φράγμα σιδηροδρόμων",
+    "lv": "Tamm • Pais • Raudteetamm",
     "level": "B2"
   },
   {
     "de": "dämmern",
-    "lv": "Να θαμπώσει • Να σκοτεινιάσει • Να ξημερώσει",
+    "lv": "Hämarduma • Pimenema • Koitma",
     "level": "B2"
   },
   {
     "de": "Dämmerung",
     "de_article": "die",
     "de_plural": "die Dämmerungen",
-    "lv": "Λυκόφως • Αυγή",
+    "lv": "Hämarik • Koit",
     "level": "B2"
   },
   {
     "de": "dampfen",
-    "lv": "Καπνός • Ατμίζω",
+    "lv": "Suitsema • Auruma",
     "level": "B2"
   },
   {
     "de": "dämpfen",
-    "lv": "Να σιγήσει • Να φιμώσει • Να αχνίσει • Να βράσει",
+    "lv": "Vaigistama • Summutama • Aurutama • Hautama",
     "level": "B2"
   },
   {
     "de": "Dämpfer",
     "de_article": "der",
     "de_plural": "die Dämpfer",
-    "lv": "Κασκόλ",
+    "lv": "Summuti",
     "level": "B2"
   },
   {
     "de": "Dampfheizung",
     "de_article": "die",
     "de_plural": "die Dampfheizungen",
-    "lv": "Θέρμανση με ατμό",
+    "lv": "Auruküte",
     "level": "B2"
   },
   {
     "de": "darbieten",
-    "lv": "Παρών • Επεκτείνω",
+    "lv": "Esitama • Ulatama",
     "level": "B2"
   },
   {
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "Απόδοση • Παρουσίαση",
+    "lv": "Sooritus • Ettekanne",
     "level": "B2"
   },
   {
     "de": "darlegen",
-    "lv": "Παρουσιάζω • Εξηγώ",
+    "lv": "Esitama • Selgitama",
     "level": "B2"
   },
   {
     "de": "Darlehen",
     "de_article": "das",
     "de_plural": "die Darlehen",
-    "lv": "Δάνειο",
+    "lv": "Laen",
     "level": "B2"
   },
   {
     "de": "Darm",
     "de_article": "der",
     "de_plural": "die Därme",
-    "lv": "Άλας",
+    "lv": "Sol",
     "level": "B2"
   },
   {
     "de": "Darminfektion",
     "de_article": "die",
     "de_plural": "die Darminfektionen",
-    "lv": "Εντερική λοίμωξη",
+    "lv": "Sooleinfektsioon",
     "level": "B2"
   },
   {
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "Απεικόνιση • Παρουσίαση • Επισκόπηση",
+    "lv": "Kujutamine • Esitus • Ülevaade",
     "level": "B2"
   },
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Ύπαρξη • Ύπαρξη",
+    "lv": "Olemasolu • Eksistents",
     "level": "B2"
   },
   {
     "de": "dasjenige",
-    "lv": "Αυτό",
+    "lv": "Se",
     "level": "B2"
   },
   {
     "de": "Datei",
     "de_article": "die",
     "de_plural": "die Dateien",
-    "lv": "Κάρτα ευρετηρίου",
+    "lv": "Kartoteek",
     "level": "B2"
   },
   {
     "de": "Datenspeicher",
     "de_article": "der",
     "de_plural": "die Datenspeicher",
-    "lv": "Μνήμη υπολογιστή",
+    "lv": "Arvutimälu",
     "level": "B2"
   },
   {
     "de": "Datenträger",
     "de_article": "der",
     "de_plural": "die Datenträger",
-    "lv": "Δισκέτα",
+    "lv": "Diskett",
     "level": "B2"
   },
   {
     "de": "Dattel",
     "de_article": "die",
     "de_plural": "die Datteln",
-    "lv": "Ημερομηνία",
+    "lv": "Dattel",
     "level": "B2"
   },
   {
     "de": "Daune",
     "de_article": "die",
     "de_plural": "die Daunen",
-    "lv": "Πουπουλένιο φτερό",
+    "lv": "Udusulg",
     "level": "B2"
   },
   {
     "de": "Dealer",
     "de_article": "der",
     "de_plural": "die Dealer",
-    "lv": "Παράνομος έμπορος ναρκωτικών",
+    "lv": "Nartkootikumide illegaalne müüja",
     "level": "B2"
   },
   {
     "de": "Debatte",
     "de_article": "die",
     "de_plural": "die Debatten",
-    "lv": "Δημόσια συζήτηση",
+    "lv": "Debatt",
     "level": "B2"
   },
   {
     "de": "Deck",
     "de_article": "das",
     "de_plural": "die Decks",
-    "lv": "Κατάστρωμα του πλοίου",
+    "lv": "Laevatekk",
     "level": "B2"
   },
   {
     "de": "Defekt",
     "de_article": "der",
     "de_plural": "die Defekte",
-    "lv": "Τεχνική έλλειψη • Σφάλμα",
+    "lv": "Tehniline puudus • Viga",
     "level": "B2"
   },
   {
     "de": "Defizit",
     "de_article": "das",
     "de_plural": "die Defizite",
-    "lv": "Έλλειψη • Έλλειψη • Έλλειμμα",
+    "lv": "Puudus • Puudujääk • Defitsiit",
     "level": "B2"
   },
   {
     "de": "dehnbar",
-    "lv": "Τεντώσιμο • Ελαστικό",
+    "lv": "Venitatav • Elastne",
     "level": "B2"
   },
   {
     "de": "dehnen",
-    "lv": "Τεντώνω • Τεντώνω • Τεντώνω • Τεντώνω • Τεντώνω",
+    "lv": "Venitama • Sirutama • Venima • Sirutuma • Vinduma",
     "level": "B2"
   },
   {
     "de": "deinerseits",
-    "lv": "Από εσάς",
+    "lv": "Sinu poolt",
     "level": "B2"
   },
   {
     "de": "deinetwegen",
-    "lv": "Εξαιτίας σου",
+    "lv": "Sinu pärast",
     "level": "B2"
   },
   {
     "de": "Deklaration",
     "de_article": "die",
     "de_plural": "die Deklarationen",
-    "lv": "Δήλωση",
+    "lv": "Deklaratsioon",
     "level": "B2"
   },
   {
     "de": "Delegierte",
     "de_article": "der",
     "de_plural": "die Delegierten",
-    "lv": "Αντιπρόσωπος",
+    "lv": "Delegaat",
     "level": "B2"
   },
   {
     "de": "delikat",
-    "lv": "Ντελικάτο • Νόστιμο",
+    "lv": "Delikaatne • Maitsev",
     "level": "B2"
   },
   {
     "de": "Delikt",
     "de_article": "das",
     "de_plural": "die Delikte",
-    "lv": "Έγκλημα • Παραβίαση του νόμου",
+    "lv": "Kuritegu • Seaduserikkumine",
     "level": "B2"
   },
   {
     "de": "dementieren",
-    "lv": "Ανάκληση πληροφοριών",
+    "lv": "Teavet tagasi kutsuma",
     "level": "B2"
   },
   {
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "Παραίτηση • Παραίτηση",
+    "lv": "Ametist tagasiastumine • Demissioon",
     "level": "B2"
   },
   {
     "de": "demütigen",
-    "lv": "Να χαμηλώσει",
+    "lv": "Alandama",
     "level": "B2"
   },
   {
     "de": "denkbar",
-    "lv": "Υποτιθέμενο • Φανταστικό • Δυνατό",
+    "lv": "Arvatav • Kujuteldav • Võimalik",
     "level": "B2"
   },
   {
     "de": "deplaziert",
-    "lv": "Ακατάλληλο • Τη λάθος στιγμή",
+    "lv": "Sobimatu • Valel ajal",
     "level": "B2"
   },
   {
     "de": "deponieren",
-    "lv": "Να καταθέσω • Να καταθέσω",
+    "lv": "Deponeerima • Hoiustama",
     "level": "B2"
   },
   {
     "de": "derartig",
-    "lv": "Τέτοια • Τα ίδια",
+    "lv": "Selline • Samasugune",
     "level": "B2"
   },
   {
     "de": "derjenige",
-    "lv": "Αυτό",
+    "lv": "Se",
     "level": "B2"
   },
   {
     "de": "deuten",
-    "lv": "Εξηγώ • Ερμηνεύω • Επισημαίνω",
+    "lv": "Seletama • Tõlgendama • Osutama",
     "level": "B2"
   },
   {
     "de": "Deutung",
     "de_article": "die",
     "de_plural": "die Deutungen",
-    "lv": "Εξήγηση • Ερμηνεία • Εξήγηση • Ερμηνεία",
+    "lv": "Seletamine • Tõlgendamine • Seletus • Tõlgendus",
     "level": "B2"
   },
   {
     "de": "Devisen",
     "de_article": "die",
-    "lv": "Μέσα πληρωμής σε ξένο νόμισμα",
+    "lv": "Välisvaluutas maksevahendid",
     "level": "B2"
   },
   {
     "de": "Devisenbörse",
     "de_article": "die",
     "de_plural": "die Devisenbörsen",
-    "lv": "Συναλλάγματος",
+    "lv": "Valuutabörs",
     "level": "B2"
   },
   {
     "de": "Devisenkurs",
     "de_article": "der",
     "de_plural": "die Devisenkurse",
-    "lv": "Συναλλαγματική ισοτιμία",
+    "lv": "Valuutakurss",
     "level": "B2"
   },
   {
     "de": "Dezernat",
     "de_article": "das",
     "de_plural": "die Dezernate",
-    "lv": "Αστυνομικό τμήμα",
+    "lv": "Politseiosakond",
     "level": "B2"
   },
   {
     "de": "Morddezernat",
     "de_article": "das",
     "de_plural": "die Morddezernate",
-    "lv": "Ποινικό τμήμα",
+    "lv": "Kriminaalosakond",
     "level": "B2"
   },
   {
     "de": "Dia",
     "de_article": "das",
     "de_plural": "die Dias",
-    "lv": "Ολίσθηση",
+    "lv": "Diapositiiv",
     "level": "B2"
   },
   {
     "de": "Diagnose",
     "de_article": "die",
     "de_plural": "die Diagnosen",
-    "lv": "Διάγνωση",
+    "lv": "Diagnoos",
     "level": "B2"
   },
   {
     "de": "Dialekt",
     "de_article": "der",
     "de_plural": "die Dialekte",
-    "lv": "Διάλεκτος",
+    "lv": "Murre",
     "level": "B2"
   },
   {
     "de": "Diätkost",
     "de_article": "die",
-    "lv": "Διαίτης",
+    "lv": "Dieettoit",
     "level": "B2"
   },
   {
     "de": "dichten",
-    "lv": "Να γράψω ένα ποίημα",
+    "lv": "Luuletama",
     "level": "B2"
   },
   {
     "de": "Dichtung",
     "de_article": "die",
     "de_plural": "die Dichtungen",
-    "lv": "Ποίηση",
+    "lv": "Luule",
     "level": "B2"
   },
   {
     "de": "Dickicht",
     "de_article": "das",
     "de_plural": "die Dickichte",
-    "lv": "Λόχμη",
+    "lv": "Tihnik",
     "level": "B2"
   },
   {
     "de": "dickköpfig",
-    "lv": "Πεισματάρης",
+    "lv": "Kangekaelne",
     "level": "B2"
   },
   {
     "de": "diejenige",
-    "lv": "Τοιουτοτροπώς",
+    "lv": "Nõnda",
     "level": "B2"
   },
   {
     "de": "Diele",
     "de_article": "die",
     "de_plural": "die Dielen",
-    "lv": "Πάτωμα • Τραπέζι • Μπροστινό δωμάτιο",
+    "lv": "Põrand • Laud • Eesruum",
     "level": "B2"
   },
   {
     "de": "diensthabend",
-    "lv": "Αυτός που εφημερεύει",
+    "lv": "Valves olev",
     "level": "B2"
   },
   {
     "de": "dienstlich",
-    "lv": "Δουλοπρεπής • Επαγγελματίας",
+    "lv": "Teenistuslik • Ametialane",
     "level": "B2"
   },
   {
     "de": "diesseits",
-    "lv": "Σε αυτή την πλευρά",
+    "lv": "Sellel pool",
     "level": "B2"
   },
   {
     "de": "dingen",
-    "lv": "Να συνάψει συμφωνία",
+    "lv": "Sõlmima kokkulepet",
     "level": "B2"
   },
   {
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "Διοικητικό συμβούλιο",
+    "lv": "Juhatus",
     "level": "B2"
   },
   {
     "de": "Dirigent",
     "de_article": "der",
     "de_plural": "die Dirigenten",
-    "lv": "Αγωγός",
+    "lv": "Dirigent",
     "level": "B2"
   },
   {
     "de": "Diskette",
     "de_article": "die",
     "de_plural": "die Disketten",
-    "lv": "Δισκέτα",
+    "lv": "Diskett",
     "level": "B2"
   },
   {
     "de": "diskret",
-    "lv": "Διακριτικός",
+    "lv": "Diskreetne",
     "level": "B2"
   },
   {
     "de": "Diskuswerfen",
     "de_article": "das",
-    "lv": "Μονάδα δίσκου",
+    "lv": "Kettaheide",
     "level": "B2"
   },
   {
     "de": "Distel",
     "de_article": "die",
     "de_plural": "die Disteln",
-    "lv": "Το γαϊδουράγκαθο",
+    "lv": "Ohakas",
     "level": "B2"
   },
   {
     "de": "Dividende",
     "de_article": "die",
     "de_plural": "die Dividenden",
-    "lv": "Μέρισμα",
+    "lv": "Dividend",
     "level": "B2"
   },
   {
     "de": "Dock",
     "de_article": "das",
     "de_plural": "die Docks",
-    "lv": "Προκυμαία",
+    "lv": "Dokk",
     "level": "B2"
   },
   {
     "de": "Dohle",
     "de_article": "die",
     "de_plural": "die Dohlen",
-    "lv": "Τσιπ",
+    "lv": "Hakk",
     "level": "B2"
   },
   {
     "de": "Dom",
     "de_article": "der",
     "de_plural": "die Dome",
-    "lv": "Καθεδρικός ναός • Καθεδρικός ναός",
+    "lv": "Katedraal • Toomkirik",
     "level": "B2"
   },
   {
     "de": "donnern",
-    "lv": "Βροντή βουίζει • Βουητό • Βουητό",
+    "lv": "Kõu müristab • Mürisema • Kärgatama",
     "level": "B2"
   },
   {
     "de": "dopen",
-    "lv": "Να χρησιμοποιήσει ντόπινγκ",
+    "lv": "Dopingut tarvitama",
     "level": "B2"
   },
   {
     "de": "Doping",
     "de_article": "das",
     "de_plural": "die Dopinge",
-    "lv": "Ντοπάρισμα",
+    "lv": "Doping",
     "level": "B2"
   },
   {
     "de": "doppelsinnig",
-    "lv": "Ασαφής",
+    "lv": "Kahemõtteline",
     "level": "B2"
   },
   {
     "de": "Doppelzentner",
     "de_article": "der",
     "de_plural": "die Doppelzentner",
-    "lv": "Centner",
+    "lv": "Tsentner",
     "level": "B2"
   },
   {
     "de": "Dorn",
     "de_article": "der",
     "de_plural": "die Dornen",
-    "lv": "Αγκάθι • Αστελ",
+    "lv": "Oga • Astel",
     "level": "B2"
   },
   {
     "de": "dornig",
-    "lv": "Αγκαθωτός • Στύλος",
+    "lv": "Okkaline • Astlaline",
     "level": "B2"
   },
   {
     "de": "dörren",
-    "lv": "Να στεγνώσει",
+    "lv": "Kuivatama",
     "level": "B2"
   },
   {
     "de": "Dörrgemüse",
     "de_article": "das",
     "de_plural": "die Dörrgemüse",
-    "lv": "Αποξηραμένα λαχανικά",
+    "lv": "Kuivatatud juurviljad",
     "level": "B2"
   },
   {
     "de": "Dörrobst",
     "de_article": "das",
-    "lv": "Αποξηραμένα φρούτα",
+    "lv": "Kuivatatud puuviljad",
     "level": "B2"
   },
   {
     "de": "Dorsch",
     "de_article": "der",
     "de_plural": "die Dorsche",
-    "lv": "Γάδος",
+    "lv": "Tursk",
     "level": "B2"
   },
   {
     "de": "Dosenfleisch",
     "de_article": "das",
     "de_plural": "die Dosenfleische",
-    "lv": "Κονσερβοποιημένα κρέατα",
+    "lv": "Lihakonservid",
     "level": "B2"
   },
   {
     "de": "Dosenmilch",
     "de_article": "die",
     "de_plural": "die Dosenmilche",
-    "lv": "Συμπυκνωμένο γάλα σε κουτιά",
+    "lv": "Kondenspiim purkides",
     "level": "B2"
   },
   {
     "de": "Dosenöffner",
     "de_article": "der",
     "de_plural": "die Dosenöffner",
-    "lv": "Ανοιχτήρι κονσερβών",
+    "lv": "Konserviavaja",
     "level": "B2"
   },
   {
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "Δόση • Δοσολογία",
+    "lv": "Doos • Annus",
     "level": "B2"
   },
   {
     "de": "Dotterblume",
     "de_article": "die",
     "de_plural": "die Dotterblumen",
-    "lv": "Ήρθε",
+    "lv": "Tulikas",
     "level": "B2"
   },
   {
     "de": "Dragee",
     "de_article": "das",
     "de_plural": "die Dragees",
-    "lv": "Κουφέτα",
+    "lv": "Draažee",
     "level": "B2"
   },
   {
     "de": "drahtlos",
-    "lv": "Ασύρματος",
+    "lv": "Juhtmeta",
     "level": "B2"
   },
   {
     "de": "Drahtseilbahn",
     "de_article": "die",
     "de_plural": "die Drahtseilbahnen",
-    "lv": "Τελεφερίκ",
+    "lv": "Köisraudtee",
     "level": "B2"
   },
   {
     "de": "Dramatiker",
     "de_article": "der",
     "de_plural": "die Dramatiker",
-    "lv": "Θεατρικός συγγραφέας • Θεατρικός συγγραφέας",
+    "lv": "Dramaturg • Näitekirjanik",
     "level": "B2"
   },
   {
     "de": "Drang",
     "de_article": "der",
     "de_plural": "die Dränge",
-    "lv": "Ορμή • Κλίση",
+    "lv": "Tung • Kalduvus",
     "level": "B2"
   },
   {
     "de": "drängen",
-    "lv": "Να σπρώχνω • Να σπρώχνω • Να βιάζω • Να προτρέπω • Να υποκινώ",
+    "lv": "Lükkama • Suruma • Kiirustama • Õhutama • Ässitama",
     "level": "B2"
   },
   {
     "de": "Dreck",
     "de_article": "der",
     "de_plural": "die Drecke",
-    "lv": "Κοπριά • Βρωμιά • Βρωμιά • Λάσπη",
+    "lv": "Sõnnik • Mustus • Pori • Sopp",
     "level": "B2"
   },
   {
     "de": "Dreharbeiten",
     "de_article": "die",
-    "lv": "Γυρίσματα",
+    "lv": "Filmimine",
     "level": "B2"
   },
   {
     "de": "Drehbank",
     "de_article": "die",
     "de_plural": "die Drehbänke",
-    "lv": "Τόρνος",
+    "lv": "Treipink",
     "level": "B2"
   },
   {
     "de": "Drehbleistift",
     "de_article": "der",
     "de_plural": "die Drehbleistifte",
-    "lv": "Αυτόματο στυλό",
+    "lv": "Automaatpliiats",
     "level": "B2"
   },
   {
     "de": "Drehung",
     "de_article": "die",
     "de_plural": "die Drehungen",
-    "lv": "Περιστροφή • Περιστροφή",
+    "lv": "Pöörlemine • Pöörde",
     "level": "B2"
   },
   {
     "de": "Dreisprung",
     "de_article": "der",
     "de_plural": "die Dreisprünge",
-    "lv": "Άλμα εις τριπλούν",
+    "lv": "Kolmikhüpe",
     "level": "B2"
   },
   {
     "de": "dreschen",
-    "lv": "Χτυπάμε τα φρούτα • Χτυπάμε το ασπράδι",
+    "lv": "Vilja peksma • Munavalget vahustama",
     "level": "B2"
   },
   {
     "de": "Dressman",
     "de_article": "der",
     "de_plural": "die Dressmen",
-    "lv": "Επίδειξη μόδας",
+    "lv": "Moedemonstraator",
     "level": "B2"
   },
   {
     "de": "dringen",
-    "lv": "Ώθηση • Παρεισφρύω • Παρεισφρύω • Διάρρηξη • Ζήτηση",
+    "lv": "Trügima • Tungima • Sisse tungima • Sisse murdma • Nõudma",
     "level": "B2"
   },
   {
     "de": "Drogensucht",
     "de_article": "die",
     "de_plural": "die Drogensüchte",
-    "lv": "Εθισμός στα ναρκωτικά",
+    "lv": "Narkomaania",
     "level": "B2"
   },
   {
     "de": "Drohung",
     "de_article": "die",
     "de_plural": "die Drohungen",
-    "lv": "Μια απειλή",
+    "lv": "Ähvardus",
     "level": "B2"
   },
   {
     "de": "Drops",
     "de_article": "der",
     "de_plural": "die Drops",
-    "lv": "Καραμέλες ξινά φρούτων • Παστίλιες",
+    "lv": "Hapud puuviljakommid • Pastillid",
     "level": "B2"
   },
   {
     "de": "Drossel",
     "de_article": "die",
     "de_plural": "die Drosseln",
-    "lv": "Χρυσό ράμφος",
+    "lv": "Kuldnokk",
     "level": "B2"
   },
   {
     "de": "drosseln",
-    "lv": "Στραγγαλίζω • Ασφυκτιά",
+    "lv": "Kägistama • Lämmatama",
     "level": "B2"
   },
   {
     "de": "Nadeldrucker",
     "de_article": "der",
     "de_plural": "die Nadeldrucker",
-    "lv": "Εκτυπωτής dot matrix",
+    "lv": "Nõelprinter",
     "level": "B2"
   },
   {
     "de": "Druckerei",
     "de_article": "die",
     "de_plural": "die Druckereien",
-    "lv": "Τυπογραφείο",
+    "lv": "Trükikoda",
     "level": "B2"
   },
   {
     "de": "Druckfehler",
     "de_article": "der",
     "de_plural": "die Druckfehler",
-    "lv": "Τυπογραφικό λάθος",
+    "lv": "Trükiviga",
     "level": "B2"
   },
   {
     "de": "Druckmaschine",
     "de_article": "die",
     "de_plural": "die Druckmaschinen",
-    "lv": "Πιεστήριο",
+    "lv": "Trükimasin",
     "level": "B2"
   },
   {
     "de": "Druckpapier",
     "de_article": "das",
     "de_plural": "die Druckpapiere",
-    "lv": "Χαρτί εκτύπωσης",
+    "lv": "Trükipaber",
     "level": "B2"
   },
   {
     "de": "Drucksache",
     "de_article": "die",
     "de_plural": "die Drucksachen",
-    "lv": "Bandrool • Σε εκτύπωση ως αλληλογραφία",
+    "lv": "Bandrool • Trükis postisaadetisena",
     "level": "B2"
   },
   {
     "de": "Drüse",
     "de_article": "die",
     "de_plural": "die Drüsen",
-    "lv": "Αδένας",
+    "lv": "Nääre",
     "level": "B2"
   },
   {
     "de": "dulden",
-    "lv": "Υποφέρω • Υπομένω",
+    "lv": "Kannatama • Välja kannatama",
     "level": "B2"
   },
   {
     "de": "dumpf",
-    "lv": "Κούφιο • Φιμωμένο • Πνιγμένο • Αποπνικτικό • Βαρύ • Καταπιεσμένο • Καταπιεστικό",
+    "lv": "Õõnes • Summutatud • Läppunud • Lämbe • Raske • Rõhutud • Rõhuv",
     "level": "B2"
   },
   {
     "de": "Dumping",
     "de_article": "das",
     "de_plural": "die Dumpinge",
-    "lv": "Ντάμπινγκ",
+    "lv": "Dumping",
     "level": "B2"
   },
   {
     "de": "Dumpingpreis",
     "de_article": "der",
     "de_plural": "die Dumpingpreise",
-    "lv": "Τιμή ντάμπινγκ",
+    "lv": "Dumpinguhind",
     "level": "B2"
   },
   {
     "de": "Düne",
     "de_article": "die",
     "de_plural": "die Dünen",
-    "lv": "Αμμόλοφους",
+    "lv": "Luide",
     "level": "B2"
   },
   {
     "de": "Düngemittel",
     "de_article": "das",
     "de_plural": "die Düngemittel",
-    "lv": "Λίπασμα • Ορυκτό λίπασμα",
+    "lv": "Väetis • Mineraalväetis",
     "level": "B2"
   },
   {
     "de": "düngen",
-    "lv": "Να γονιμοποιήσει",
+    "lv": "Väetama",
     "level": "B2"
   },
   {
     "de": "Dünkel",
     "de_article": "der",
-    "lv": "Ματαιοδοξία • Αλαζονεία • Υπεροψία",
+    "lv": "Edevus • Ülbus • Kõrkus",
     "level": "B2"
   },
   {
     "de": "dunkeln",
-    "lv": "Να σκοτεινιάσει",
+    "lv": "Pimenema",
     "level": "B2"
   },
   {
     "de": "dünken",
-    "lv": "Φαίνονται • Εμφανίζονται",
+    "lv": "Tunduma • Näima",
     "level": "B2"
   },
   {
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "Ατμοί • Αναθυμιάσεις • Εκκένωση • Μπούκωμα • Ομίχλη • Αιθαλομίχλη",
+    "lv": "Aur • Aurud • Eritis • Ummehtus • Udu • Sudu",
     "level": "B2"
   },
   {
     "de": "durcharbeiten",
-    "lv": "Δουλέψτε • Διαβάστε προσεκτικά • Ζυμώστε προσεκτικά",
+    "lv": "Läbi töötama • Hoolikalt läbi lugema • Hoolikalt läbi sõtkuma",
     "level": "B2"
   },
   {
     "de": "durchaus",
-    "lv": "Εντελώς • Μάλλον • Εντελώς",
+    "lv": "Täiesti • Hoopis • Täielikult",
     "level": "B2"
   },
   {
     "de": "durchbrechen",
-    "lv": "Ξεσπούν • Ξεσπούν • Εμφανίζονται • Διακόπτουν",
+    "lv": "Murdma • Välja murdma • Ilmnema • Katkestama",
     "level": "B2"
   },
   {
     "de": "durchbrennen",
-    "lv": "Να καεί • Να καεί • Να καεί • Να καεί",
+    "lv": "Läbi põletama • Üle põletama • Läbi põlema • Üle põlema",
     "level": "B2"
   },
   {
     "de": "durchbringen",
-    "lv": "Πραγματοποιώ • Υπομένω • Επιτυγχάνω • Θεραπεύω • Σπαταλώ",
+    "lv": "Läbi viima • Välja kannatama • Saavutama • Välja ravima • Raiskama",
     "level": "B2"
   },
   {
     "de": "Durchbruch",
     "de_article": "der",
     "de_plural": "die Durchbrüche",
-    "lv": "Σημαντική ανακάλυψη • Θραύση φράγματος",
+    "lv": "Läbimurre • Tammi purunemine",
     "level": "B2"
   },
   {
     "de": "durchdringen",
-    "lv": "Πιέστε μέσα • Σπάστε μέσα • Να τυλιχθεί",
+    "lv": "Läbi pressima • Läbi murdma • Olema haaratud",
     "level": "B2"
   },
   {
     "de": "Durchfahrt",
     "de_article": "die",
     "de_plural": "die Durchfahrten",
-    "lv": "Οδός • Οδός",
+    "lv": "Läbisõit • Läbisõidutee",
     "level": "B2"
   },
   {
     "de": "Durchfuhr",
     "de_article": "die",
-    "lv": "Χιλιόμετρα • Διέλευσης",
+    "lv": "Läbisõit • Transiit",
     "level": "B2"
   },
   {
     "de": "Durchführung",
     "de_article": "die",
     "de_plural": "die Durchführungen",
-    "lv": "Διεκπεραίωση • Εκτέλεση • Εκτέλεση • Εκτέλεση • Υλοποίηση",
+    "lv": "Läbiviimine • Täitmine • Teostamine • Sooritamine • Realiseerimine",
     "level": "B2"
   },
   {
     "de": "durchgreifend",
-    "lv": "Ρίζα",
+    "lv": "Radikaalne",
     "level": "B2"
   },
   {
     "de": "durchlaufen",
-    "lv": "Διατρέχω • Διατρέχω",
+    "lv": "Läbi jooksma • Läbi voolama",
     "level": "B2"
   },
   {
     "de": "durchmachen",
-    "lv": "Επιβιώνω • Βγάζω • Τελειώνω",
+    "lv": "Üle elama • Välja võtma • Lõpetama",
     "level": "B2"
   },
   {
     "de": "Durchmesser",
     "de_article": "der",
     "de_plural": "die Durchmesser",
-    "lv": "Διάμετρος • Διάμετρος",
+    "lv": "Diameeter • Läbimõõt",
     "level": "B2"
   },
   {
     "de": "durchqueren",
-    "lv": "Να ξεπεραστεί",
+    "lv": "Ületama",
     "level": "B2"
   },
   {
     "de": "Durchreise",
     "de_article": "die",
     "de_plural": "die Durchreisen",
-    "lv": "Απόσταση σε μίλια",
+    "lv": "Läbisõit",
     "level": "B2"
   },
   {
     "de": "durchschauen",
-    "lv": "Δείτε μέσα • Ανακαλύψτε",
+    "lv": "Läbi nägema • Avastama",
     "level": "B2"
   },
   {
     "de": "durchschlagen",
-    "lv": "Στέλεχος • Περάστε από ένα κόσκινο • Σπάστε • Τρυπήστε μια τρύπα",
+    "lv": "Kurnama • Läbi sõela laskma • Läbi murdma • Auku lööma",
     "level": "B2"
   },
   {
     "de": "durchsehen",
-    "lv": "Αναθεώρηση • Έλεγχος • Ανάγνωση",
+    "lv": "Läbi vaatama • Kontrollima • Läbi lugema",
     "level": "B2"
   },
   {
     "de": "durchsetzen",
-    "lv": "Πραγματοποιώ • Επιτυγχάνω",
+    "lv": "Läbi viima • Saavutama",
     "level": "B2"
   },
   {
     "de": "durchstellen",
-    "lv": "Συνδέστε μια τηλεφωνική κλήση",
+    "lv": "Telefonikõnet ühendama",
     "level": "B2"
   },
   {
     "de": "dürr",
-    "lv": "Στεγνό • Αποξηραμένο • Άπαχο",
+    "lv": "Kuiv • Kuivanud • Kõhn",
     "level": "B2"
   },
   {
     "de": "Dürre",
     "de_article": "die",
     "de_plural": "die Dürren",
-    "lv": "Ξηρότητα",
+    "lv": "Kuivus",
     "level": "B2"
   },
   {
     "de": "dürsten",
-    "lv": "Διψάς • Διψάς • Επιθυμώ",
+    "lv": "Januma • Janu tundma • Ihaldama",
     "level": "B2"
   },
   {
     "de": "Düsenantrieb",
     "de_article": "der",
     "de_plural": "die Düsenantriebe",
-    "lv": "Κινητήρας τζετ",
+    "lv": "Reaktiivmootor",
     "level": "B2"
   },
   {
     "de": "Ebbe",
     "de_article": "die",
     "de_plural": "die Ebben",
-    "lv": "Παλίρροια",
+    "lv": "Mõõn",
     "level": "B2"
   },
   {
     "de": "ebenbürtig",
-    "lv": "Ισοδύναμος",
+    "lv": "Võrdväärne",
     "level": "B2"
   },
   {
     "de": "Eberesche",
     "de_article": "die",
     "de_plural": "die Ebereschen",
-    "lv": "Τέφρα του βουνού",
+    "lv": "Pihlakas",
     "level": "B2"
   },
   {
     "de": "ebnen",
-    "lv": "Επίπεδο • Ομαλή",
+    "lv": "Tasandama • Siluma",
     "level": "B2"
   },
   {
     "de": "Echse",
     "de_article": "die",
     "de_plural": "die Echsen",
-    "lv": "Σαύρα",
+    "lv": "Sisalik",
     "level": "B2"
   },
   {
     "de": "edel",
-    "lv": "Ευγενής • Ευγενής • Ευγενής",
+    "lv": "Õilis • Ülev • Aadlik",
     "level": "B2"
   },
   {
     "de": "Edelstein",
     "de_article": "der",
     "de_plural": "die Edelsteine",
-    "lv": "Πολύτιμος λίθος",
+    "lv": "Vääriskivi",
     "level": "B2"
   },
   {
     "de": "effektvoll",
-    "lv": "Αποτελεσματικός",
+    "lv": "Efektne",
     "level": "B2"
   },
   {
     "de": "Egge",
     "de_article": "die",
     "de_plural": "die Eggen",
-    "lv": "Μια σβάρνα",
+    "lv": "Äke",
     "level": "B2"
   },
   {
     "de": "Eheberatung",
     "de_article": "die",
     "de_plural": "die Eheberatungen",
-    "lv": "Συμβουλευτική βοήθεια για την οικογένεια",
+    "lv": "Pereabi nõustamine",
     "level": "B2"
   },
   {
     "de": "ehelich",
-    "lv": "Γάμος",
+    "lv": "Abielu-",
     "level": "B2"
   },
   {
     "de": "Ehescheidung",
     "de_article": "die",
     "de_plural": "die Ehescheidungen",
-    "lv": "Διαζύγιο",
+    "lv": "Abielulahutus",
     "level": "B2"
   },
   {
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "Γάμος • Τραγούδι",
+    "lv": "Abielu • Laulumine",
     "level": "B2"
   },
   {
     "de": "ehren",
-    "lv": "Να σεβαστεί • Να σεβαστεί • Να απονείμει",
+    "lv": "Austama • Lugu pidama • Auhindama",
     "level": "B2"
   },
   {
     "de": "Ehrenamt",
     "de_article": "das",
     "de_plural": "die Ehrenämter",
-    "lv": "Τιμητικό αξίωμα",
+    "lv": "Auamet",
     "level": "B2"
   },
   {
     "de": "ehrenamtlich",
-    "lv": "Δωρεάν • Εκτελώντας τιμητικό έργο",
+    "lv": "Tasuta • Auülesannet täites",
     "level": "B2"
   },
   {
     "de": "Ehrenmitglied",
     "de_article": "das",
     "de_plural": "die Ehrenmitglieder",
-    "lv": "Επίτιμο μέλος",
+    "lv": "Auliige",
     "level": "B2"
   },
   {
     "de": "Ehrenpflicht",
     "de_article": "die",
-    "lv": "Καθήκον τιμής",
+    "lv": "Auülesanne",
     "level": "B2"
   },
   {
     "de": "Ehrenplatz",
     "de_article": "der",
     "de_plural": "die Ehrenplätze",
-    "lv": "Τόπος τιμής",
+    "lv": "Aukoht",
     "level": "B2"
   },
   {
     "de": "Ehrensache",
     "de_article": "die",
     "de_plural": "die Ehrensachen",
-    "lv": "Τιμή",
+    "lv": "Auasi",
     "level": "B2"
   },
   {
     "de": "ehrenvoll",
-    "lv": "Αξιότιμος",
+    "lv": "Auväärne",
     "level": "B2"
   },
   {
     "de": "Ehrenwache",
     "de_article": "die",
     "de_plural": "die Ehrenwachen",
-    "lv": "Τιμητική φρουρά",
+    "lv": "Auvahtkond",
     "level": "B2"
   },
   {
     "de": "Ehrenwort",
     "de_article": "das",
     "de_plural": "die Ehrenworte",
-    "lv": "Λέξη τιμής",
+    "lv": "Ausõna",
     "level": "B2"
   },
   {
     "de": "ehrgeizig",
-    "lv": "Άπληστος",
+    "lv": "Auahne",
     "level": "B2"
   },
   {
     "de": "Ehrung",
     "de_article": "die",
     "de_plural": "die Ehrungen",
-    "lv": "Τιμητική • Τελετή τιμής",
+    "lv": "Austamine • Autseremoonia",
     "level": "B2"
   },
   {
     "de": "Eichel",
     "de_article": "die",
     "de_plural": "die Eicheln",
-    "lv": "Βελανίδι",
+    "lv": "Tammetõru",
     "level": "B2"
   },
   {
     "de": "Eid",
     "de_article": "der",
     "de_plural": "die Eide",
-    "lv": "Ορκίζομαι",
+    "lv": "Vanne",
     "level": "B2"
   },
   {
     "de": "Eidechse",
     "de_article": "die",
     "de_plural": "die Eidechsen",
-    "lv": "Σαύρα",
+    "lv": "Sisalik",
     "level": "B2"
   },
   {
     "de": "Eidotter",
     "de_article": "der",
     "de_plural": "die Eidotter",
-    "lv": "Κρόκος αυγού",
+    "lv": "Munakollane",
     "level": "B2"
   },
   {
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "Επιμέλεια • Εργατικότητα • Πάθος • Θέρμη • Ζήλος",
+    "lv": "Hoolsus • Usinus • Kirg • Õhin • Innukus",
     "level": "B2"
   },
   {
     "de": "eifrig",
-    "lv": "Επιμελής • Εργατικός • Φιλομαθής • Πρόθυμος",
+    "lv": "Hoolas • Usin • Püüdlik • Innukas",
     "level": "B2"
   },
   {
     "de": "Eigenart",
     "de_article": "die",
     "de_plural": "die Eigenarten",
-    "lv": "Ιδιομορφία • Ιδιομορφία",
+    "lv": "Iseärasus • Omapära",
     "level": "B2"
   },
   {
     "de": "eigenhändig",
-    "lv": "Σπιτικό",
+    "lv": "Isetehtud",
     "level": "B2"
   },
   {
     "de": "Eigenliebe",
     "de_article": "die",
-    "lv": "Αυτοαγάπη • Εγωισμός",
+    "lv": "Enesearmastus • Egoism",
     "level": "B2"
   },
   {
     "de": "eigensinnig",
-    "lv": "Επίμονος • Πεισματάρης",
+    "lv": "Jonnakas • Kangekaelne",
     "level": "B2"
   },
   {
     "de": "eigentümlich",
-    "lv": "Διακριτικό • Χαρακτηριστικό",
+    "lv": "Eripärane • Iseloomulik",
     "level": "B2"
   },
   {
     "de": "eigenwillig",
-    "lv": "Αυθαίρετος • Επίμονος • Πεισματάρης • Αυθαίρετος",
+    "lv": "Omavoliline • Jonnakas • Kangekaelne • Meelevaldne",
     "level": "B2"
   },
   {
     "de": "Eilbote",
     "de_article": "der",
     "de_plural": "die Eilboten",
-    "lv": "Messenger • Courier",
+    "lv": "Sõnumitooja • Kuller",
     "level": "B2"
   },
   {
     "de": "Eilbrief",
     "de_article": "der",
     "de_plural": "die Eilbriefe",
-    "lv": "Στενογραφία",
+    "lv": "Kiirkiri",
     "level": "B2"
   },
   {
     "de": "einäschern",
-    "lv": "Αποτεφρώνομαι • Καίγομαι σε φωτιά",
+    "lv": "Kremeerima • Tulekahjus põletama",
     "level": "B2"
   },
   {
     "de": "Einband",
     "de_article": "der",
     "de_plural": "die Einbände",
-    "lv": "Τόμος",
+    "lv": "Köide",
     "level": "B2"
   },
   {
     "de": "einberufen",
-    "lv": "Να καλέσει • Να στρατολογήσει",
+    "lv": "Kokku kutsuma • Ajateenistusse kutsuma",
     "level": "B2"
   },
   {
     "de": "Einbildung",
     "de_article": "die",
     "de_plural": "die Einbildungen",
-    "lv": "Φαντασία • Φαντασία • Φαντασία • Έπαρση • Αλαζονεία",
+    "lv": "Kujutlus • Ettekujutus • Fantaasia • Edevus • Ülbus",
     "level": "B2"
   },
   {
     "de": "einbürgern",
-    "lv": "Να χορηγήσει υπηκοότητα • Να εγκατασταθεί • Να ριζώσει",
+    "lv": "Kodakondsust andma • Sisse elama • Juurduma",
     "level": "B2"
   },
   {
     "de": "einbüßen",
-    "lv": "Υποστεί υλική απώλεια",
+    "lv": "Kandma materiaalset kahju",
     "level": "B2"
   },
   {
     "de": "eindringen",
-    "lv": "Διεισδύουν • Εισχωρούν • Διεισδύουν • Βαθαίνουν",
+    "lv": "Tungima • Sisse murdma • Imbuma • Süvenema",
     "level": "B2"
   },
   {
     "de": "eindringlich",
-    "lv": "Επίμονος • Πειστικός",
+    "lv": "Visa • Veenev",
     "level": "B2"
   },
   {
     "de": "einfältig",
-    "lv": "Ευκολόπιστος • Αφελής",
+    "lv": "Kergeusklik • Naiivne",
     "level": "B2"
   },
   {
     "de": "einfassen",
-    "lv": "Περιέχει • Πλαίσιο • Επιβεβαίωση",
+    "lv": "Sisaldama • Raamima • Kinnitama",
     "level": "B2"
   },
   {
     "de": "einflussreich",
-    "lv": "Επιδραστικός • Εντυπωσιακός",
+    "lv": "Mõjukas • Muljetavaldav",
     "level": "B2"
   },
   {
     "de": "einförmig",
-    "lv": "Ομοιόμορφη • Μονότονη",
+    "lv": "Ühetaoline • Üksluine",
     "level": "B2"
   },
   {
     "de": "einfrieren",
-    "lv": "Παγώνω • Παγώνω σε • Διακόπτω",
+    "lv": "Külmutama • Sisse külmutama • Katkestama",
     "level": "B2"
   },
   {
     "de": "Einfuhr",
     "de_article": "die",
     "de_plural": "die Einfuhren",
-    "lv": "Εισαγωγή • Εισαγωγή",
+    "lv": "Import • Sissevedu",
     "level": "B2"
   },
   {
     "de": "Einfuhrsperre",
     "de_article": "die",
     "de_plural": "die Einfuhrsperren",
-    "lv": "Αποκλεισμός εισαγωγών",
+    "lv": "Impordiblokaad",
     "level": "B2"
   },
   {
     "de": "Eingabe",
     "de_article": "die",
     "de_plural": "die Eingaben",
-    "lv": "Δήλωση • Εισαγωγή δεδομένων στον υπολογιστή",
+    "lv": "Avaldus • Andmete sisestamine arvutisse",
     "level": "B2"
   },
   {
     "de": "eingebildet",
-    "lv": "Αλαζονικός • Αλαζόνας",
+    "lv": "Edev • Ülbe",
     "level": "B2"
   },
   {
     "de": "Eingebung",
     "de_article": "die",
     "de_plural": "die Eingebungen",
-    "lv": "Έμπνευση • Μια ξαφνική σκέψη",
+    "lv": "Inspiratsioon • Äkiline mõte",
     "level": "B2"
   },
   {
     "de": "eingehen",
-    "lv": "Εισέλθετε • Φτάσετε • Εισέλθετε • Συμβόλαιο • Συμφωνώ • Ταιριάζει",
+    "lv": "Sisse minema • Saabuma • Sisenema • Kokku tõmbuma • Nõustuma • Sobima",
     "level": "B2"
   },
   {
     "de": "eingehend",
-    "lv": "Ολοκληρωμένη • Αναλυτική • Εισερχόμενη",
+    "lv": "Põhjalik • Pisiasjaline • Sissetulev",
     "level": "B2"
   },
   {
     "de": "Eingemachte",
     "de_article": "das",
     "de_plural": "die Eingemachte",
-    "lv": "Μαρμελάδα • Κονσέρβες φρούτων",
+    "lv": "Moos • Konserveeritud puuviljad",
     "level": "B2"
   },
   {
     "de": "eingerechnet",
-    "lv": "Θεωρείται • Περιλαμβάνεται",
+    "lv": "Arvestatud • Sisse arvatud",
     "level": "B2"
   },
   {
     "de": "Eingeständnis",
     "de_article": "das",
     "de_plural": "die Eingeständnisse",
-    "lv": "Ομολογία",
+    "lv": "Ülestunnistus",
     "level": "B2"
   },
   {
     "de": "eingestehen",
-    "lv": "Να παραδεχτώ",
+    "lv": "Tunnistama",
     "level": "B2"
   },
   {
     "de": "Eingeweide",
     "de_article": "die",
-    "lv": "Έντερα • Εσωτερικά όργανα",
+    "lv": "Sisikond • Siseorganid",
     "level": "B2"
   },
   {
     "de": "eingewurzelt",
-    "lv": "Ριζωμένος",
+    "lv": "Juurdunud",
     "level": "B2"
   },
   {
     "de": "eingleisig",
-    "lv": "Μονόγραμμος",
+    "lv": "Monorööpa-",
     "level": "B2"
   },
   {
     "de": "eingrenzen",
-    "lv": "Όριο • Ξεχωριστό",
+    "lv": "Piirama • Eraldama",
     "level": "B2"
   },
   {
     "de": "Eingriff",
     "de_article": "der",
     "de_plural": "die Eingriffe",
-    "lv": "Παρέμβαση • Χειρουργική επέμβαση",
+    "lv": "Sekkumine • Operatsioon",
     "level": "B2"
   },
   {
     "de": "einhüllen",
-    "lv": "Να τυλίξει • Να μαζέψει",
+    "lv": "Mähkima • Kokku pakkima",
     "level": "B2"
   },
   {
     "de": "Einigkeit",
     "de_article": "die",
     "de_plural": "die Einigkeiten",
-    "lv": "Μονάδα • Ενότητα • Ομοφωνία",
+    "lv": "Üksus • Ühtsus • Üksmeel",
     "level": "B2"
   },
   {
     "de": "einkassieren",
-    "lv": "Συλλέγω",
+    "lv": "Sisse nõudma",
     "level": "B2"
   },
   {
     "de": "Einklang",
     "de_article": "der",
     "de_plural": "die Einklänge",
-    "lv": "Αρμονία",
+    "lv": "Kooskõla",
     "level": "B2"
   },
   {
     "de": "einkleiden",
-    "lv": "Να ντυθώ",
+    "lv": "Riietama",
     "level": "B2"
   },
   {
     "de": "sich einlassen",
-    "lv": "Να μπω σε κάτι",
+    "lv": "Laskuma millessegi",
     "level": "B2",
     "study": {
       "id": "b2-sich-einlassen",
       "layout": "minimalStudy",
-      "translation": "Να μπω σε κάτι",
+      "translation": "Laskuma millessegi",
       "rektion": "auf + mida?",
-      "explanation": "Sich einlassen απαιτεί την οριστική πρόθεση auf + τι • .",
+      "explanation": "Sich einlassen nõuab kindlat eessõna auf + mida?.",
       "forms": "auf + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -3553,7 +3582,10 @@ const B2_WORDS = [
             "sich einlassen"
           ],
           "red": [
-            "auf + ko?"
+            "auf + mida?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -3561,39 +3593,39 @@ const B2_WORDS = [
   },
   {
     "de": "einleiten",
-    "lv": "Εισάγω",
+    "lv": "Sisestama",
     "level": "B2"
   },
   {
     "de": "einleuchten",
-    "lv": "Να γίνει κατανοητός • Να είναι σαφής",
+    "lv": "Olema arusaadav • Olema selge",
     "level": "B2"
   },
   {
     "de": "einliefern",
-    "lv": "Φέρτε • Παραδώστε",
+    "lv": "Sisse tooma • Kohale tooma",
     "level": "B2"
   },
   {
     "de": "einmachen",
-    "lv": "Συντηρώ • Μαρινάρετε • Μαγειρεύετε",
+    "lv": "Konserveerima • Marineerima • Keetma",
     "level": "B2"
   },
   {
     "de": "einmütig",
-    "lv": "Ομόφωνος",
+    "lv": "Üksmeelne",
     "level": "B2"
   },
   {
     "de": "sich einprägen",
-    "lv": "Να θυμάσαι",
+    "lv": "Meelde kjempe",
     "level": "B2",
     "study": {
       "id": "b2-sich-einpraegen",
       "layout": "minimalStudy",
-      "translation": "Να θυμάσαι",
+      "translation": "Meelde kjempe",
       "rektion": "in + mida?",
-      "explanation": "Το sich einprägen απαιτεί την οριστική πρόθεση σε + τι • .",
+      "explanation": "Sich einprägen nõuab kindlat eessõna in + mida?.",
       "forms": "in + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -3602,7 +3634,10 @@ const B2_WORDS = [
             "sich einprägen"
           ],
           "red": [
-            "in + ko?"
+            "in + mida?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -3610,24 +3645,24 @@ const B2_WORDS = [
   },
   {
     "de": "einrechnen",
-    "lv": "Να εξετάσει • Συμπεριλάβει",
+    "lv": "Arvestama • Sisse arvama",
     "level": "B2"
   },
   {
     "de": "einschläfern",
-    "lv": "Βάλε για ύπνο",
+    "lv": "Uinutama",
     "level": "B2"
   },
   {
     "de": "sich einschleichen",
-    "lv": "Εισχωρήσει κρυφά • Διείσδυσε",
+    "lv": "Sisse hiilima • Sisse imbuma",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
       "layout": "minimalStudy",
-      "translation": "Εισχωρήσει κρυφά • Διείσδυσε",
+      "translation": "Sisse hiilima • Sisse imbuma",
       "rektion": "in + mida?",
-      "explanation": "Sich einschleichen απαιτεί την οριστική πρόθεση σε + τι • .",
+      "explanation": "Sich einschleichen nõuab kindlat eessõna in + mida?.",
       "forms": "in + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -3636,7 +3671,11 @@ const B2_WORDS = [
             "sich einschleichen"
           ],
           "red": [
-            "in + ko?"
+            "in + mida?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -3646,19 +3685,19 @@ const B2_WORDS = [
     "de": "Einschnitt",
     "de_article": "der",
     "de_plural": "die Einschnitte",
-    "lv": "Τομή • Τομή • Τομή • Εγκοπή",
+    "lv": "Sisselõige • Lõige • Lõikamine • Sälk",
     "level": "B2"
   },
   {
     "de": "sich einschränken",
-    "lv": "Να περιορίσει",
+    "lv": "Piirduma",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschraenken",
       "layout": "minimalStudy",
-      "translation": "Να περιορίσει",
+      "translation": "Piirduma",
       "rektion": "auf + mida?",
-      "explanation": "Το sich einschränken απαιτεί την οριστική πρόθεση auf + τι • .",
+      "explanation": "Sich einschränken nõuab kindlat eessõna auf + mida?.",
       "forms": "auf + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -3667,7 +3706,10 @@ const B2_WORDS = [
             "sich einschränken"
           ],
           "red": [
-            "auf + ko?"
+            "auf + mida?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -3677,207 +3719,207 @@ const B2_WORDS = [
     "de": "Einschreiben",
     "de_article": "das",
     "de_plural": "die Einschreiben",
-    "lv": "Συστημένη επιστολή ή δέμα",
+    "lv": "Tähitud kiri või saadetis",
     "level": "B2"
   },
   {
     "de": "einschulen",
-    "lv": "Να εγγραφεί το παιδί στο σχολείο",
+    "lv": "Last kooli registreerima",
     "level": "B2"
   },
   {
     "de": "einsichtig",
-    "lv": "Λογικός • Ευφυής",
+    "lv": "Mõistlik • Arukas",
     "level": "B2"
   },
   {
     "de": "einspeichern",
-    "lv": "Εισαγωγή δεδομένων • Αποθήκευση",
+    "lv": "Andmeid sisestama • Salvestama",
     "level": "B2"
   },
   {
     "de": "Einspruch",
     "de_article": "der",
     "de_plural": "die Einsprüche",
-    "lv": "Αντίρρηση • Διαμαρτυρία",
+    "lv": "Vastuväide • Protest",
     "level": "B2"
   },
   {
     "de": "Einstandsgeld",
     "de_article": "das",
     "de_plural": "die Einstandsgelder",
-    "lv": "Εισιτήριο",
+    "lv": "Sisseastumismaks",
     "level": "B2"
   },
   {
     "de": "einstimmig",
-    "lv": "Ομόφωνος • Ομόφωνος",
+    "lv": "Ühehäälne • Üksmeelne",
     "level": "B2"
   },
   {
     "de": "einströmen",
-    "lv": "Να ρέει μέσα",
+    "lv": "Sisse voolama",
     "level": "B2"
   },
   {
     "de": "eintauchen",
-    "lv": "Βουτήξτε • Μουλιάστε • Βυθίστε",
+    "lv": "Kastma • Leotama • Sukelduma",
     "level": "B2"
   },
   {
     "de": "eintönig",
-    "lv": "Μονότονο • Μονότονο",
+    "lv": "Üksluine • Monotoonne",
     "level": "B2"
   },
   {
     "de": "Eintracht",
     "de_article": "die",
-    "lv": "Συμφωνία • Αρμονία • Καταλληλότητα",
+    "lv": "Üksmeel • Kooskõla • Sobivus",
     "level": "B2"
   },
   {
     "de": "einträglich",
-    "lv": "Κερδοφόρος • Κερδοφόρος",
+    "lv": "Tulus • Rentaabel",
     "level": "B2"
   },
   {
     "de": "einüben",
-    "lv": "Να μάθει • Να κατευθύνει",
+    "lv": "Õppima • Lavastama",
     "level": "B2"
   },
   {
     "de": "Einwand",
     "de_article": "der",
     "de_plural": "die Einwände",
-    "lv": "Ένσταση",
+    "lv": "Vastuväide",
     "level": "B2"
   },
   {
     "de": "einwandfrei",
-    "lv": "Άμεμπτος",
+    "lv": "Laitmatu",
     "level": "B2"
   },
   {
     "de": "einweichen",
-    "lv": "Στο νερό",
+    "lv": "Kastma",
     "level": "B2"
   },
   {
     "de": "einweihen",
-    "lv": "Να ανοίξει επίσημα • Να εκμυστηρευτεί ένα μυστικό",
+    "lv": "Pidulikult avama • Saladust usaldama",
     "level": "B2"
   },
   {
     "de": "einwenden",
-    "lv": "Να επιχειρηματολογήσει • Να εγείρει αντιρρήσεις",
+    "lv": "Vastu vaidlema • Vastuväiteid esitama",
     "level": "B2"
   },
   {
     "de": "einwilligen",
-    "lv": "Συμφωνώ • Συμφωνώ",
+    "lv": "Nõustuma • Nõus olema",
     "level": "B2"
   },
   {
     "de": "Eisblume",
     "de_article": "die",
     "de_plural": "die Eisblumen",
-    "lv": "Λουλούδι πάγου",
+    "lv": "Jäälill",
     "level": "B2"
   },
   {
     "de": "Eisbrecher",
     "de_article": "der",
     "de_plural": "die Eisbrecher",
-    "lv": "Παγοθραυστης",
+    "lv": "Jäämurdja",
     "level": "B2"
   },
   {
     "de": "Eisenbeton",
     "de_article": "der",
-    "lv": "Ενισχυμένο σκυρόδερμα",
+    "lv": "Raudbetoon",
     "level": "B2"
   },
   {
     "de": "Eisenerz",
     "de_article": "das",
     "de_plural": "die Eisenerze",
-    "lv": "Σιδηρομετάλλευμα",
+    "lv": "Rauamaak",
     "level": "B2"
   },
   {
     "de": "Eisengießerei",
     "de_article": "die",
     "de_plural": "die Eisengießereien",
-    "lv": "Χυτήριο σιδήρου",
+    "lv": "Malmivalukoda",
     "level": "B2"
   },
   {
     "de": "eisfrei",
-    "lv": "Χωρίς πάγο",
+    "lv": "Jäävaba",
     "level": "B2"
   },
   {
     "de": "Eisgang",
     "de_article": "der",
     "de_plural": "die Eisgänge",
-    "lv": "Μένοντας",
+    "lv": "Jääminek",
     "level": "B2"
   },
   {
     "de": "Eisschnelllauf",
     "de_article": "der",
     "de_plural": "die Eisschnellläufe",
-    "lv": "Πατινάζ ταχύτητας",
+    "lv": "Kiiruisutamine",
     "level": "B2"
   },
   {
     "de": "Eissegeln",
     "de_article": "das",
-    "lv": "Ιστιοπλοΐα στον πάγο",
+    "lv": "Jääpurjetamine",
     "level": "B2"
   },
   {
     "de": "eitel",
-    "lv": "Φιλάργυρος • Αγέρωχος • Αλαζονικός • Ρηχός • Μάταιος • Επιδεικτικός",
+    "lv": "Auahne • Ülbe • Edev • Pinnapealne • Tühine • Näidislik",
     "level": "B2"
   },
   {
     "de": "Ekel",
     "de_article": "der",
-    "lv": "Αηδία • Αηδία",
+    "lv": "Vastikus • Jälkus",
     "level": "B2"
   },
   {
     "de": "Elfenbein",
     "de_article": "das",
     "de_plural": "die Elfenbeine",
-    "lv": "Ελεφαντόδοντο",
+    "lv": "Elevandiluu",
     "level": "B2"
   },
   {
     "de": "Elster",
     "de_article": "die",
     "de_plural": "die Elstern",
-    "lv": "Καρακάξα",
+    "lv": "Harakas",
     "level": "B2"
   },
   {
     "de": "Empfangschef",
     "de_article": "der",
     "de_plural": "die Empfangschefs",
-    "lv": "Διαχειριστής ξενοδοχείου",
+    "lv": "Hotelli administraator",
     "level": "B2"
   },
   {
     "de": "sich empfehlen",
-    "lv": "Συνιστάται",
+    "lv": "Olema soovitatav",
     "level": "B2",
     "study": {
       "id": "b2-sich-empfehlen",
       "layout": "minimalStudy",
-      "translation": "Συνιστάται",
+      "translation": "Olema soovitatav",
       "rektion": "zu + kellele?",
-      "explanation": "Sich empfehlen απαιτεί την οριστική πρόθεση zu + σε ποιον • .",
+      "explanation": "Sich empfehlen nõuab kindlat eessõna zu + kellele?.",
       "forms": "zu + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -3886,7 +3928,10 @@ const B2_WORDS = [
             "sich empfehlen"
           ],
           "red": [
-            "zu + kam?"
+            "zu + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -3894,24 +3939,24 @@ const B2_WORDS = [
   },
   {
     "de": "empor",
-    "lv": "Επάνω • Προς τα πάνω",
+    "lv": "Üles • Ülespoole",
     "level": "B2"
   },
   {
     "de": "empören",
-    "lv": "Να προκαλέσει δυσαρέσκεια",
+    "lv": "Pahameelt tekitama",
     "level": "B2"
   },
   {
     "de": "sich empören",
-    "lv": "Να αγανακτήσει • Να επαναστατήσει",
+    "lv": "Nördima • Mässama",
     "level": "B2",
     "study": {
       "id": "b2-sich-empoeren",
       "layout": "minimalStudy",
-      "translation": "Να αγανακτήσει • Να επαναστατήσει",
+      "translation": "Nördima • Mässama",
       "rektion": "über + mida?",
-      "explanation": "Sich empören απαιτεί την οριστική πρόθεση über + τι • .",
+      "explanation": "Sich empören nõuab kindlat eessõna über + mida?.",
       "forms": "über + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -3920,7 +3965,11 @@ const B2_WORDS = [
             "sich empören"
           ],
           "red": [
-            "über + ko?"
+            "über + mida?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -3930,91 +3979,91 @@ const B2_WORDS = [
     "de": "Empörung",
     "de_article": "die",
     "de_plural": "die Empörungen",
-    "lv": "Αγανάκτηση • Ταραχή • Εξέγερση",
+    "lv": "Pahameel • Mäss • Ülestõus",
     "level": "B2"
   },
   {
     "de": "emsig",
-    "lv": "Βυθοκόρηση • Ενεργός • Απασχολημένος",
+    "lv": "Tragi • Toimekas • Tegus",
     "level": "B2"
   },
   {
     "de": "entbehren",
-    "lv": "Να περάσει • Να υποφέρει • Να λείπει",
+    "lv": "Läbi ajama • Kannatama • Puuduma",
     "level": "B2"
   },
   {
     "de": "entbinden",
-    "lv": "Απελευθέρωση • Γεννά",
+    "lv": "Vabastama • Sünnitama",
     "level": "B2"
   },
   {
     "de": "Entbindung",
     "de_article": "die",
     "de_plural": "die Entbindungen",
-    "lv": "Απελευθέρωση • Τοκετός",
+    "lv": "Vabastamine • Sünnitus",
     "level": "B2"
   },
   {
     "de": "entehren",
-    "lv": "Να κλέβουν την τιμή • Να ατιμάζουν",
+    "lv": "Au röövima • Häbistama",
     "level": "B2"
   },
   {
     "de": "enteignen",
-    "lv": "Αλλοτριώνω • Απαλλοτριώνω",
+    "lv": "Võõrandama • Eksproprieerima",
     "level": "B2"
   },
   {
     "de": "enterben",
-    "lv": "Να αποκληρονομήσει",
+    "lv": "Pärandit ära võtma",
     "level": "B2"
   },
   {
     "de": "entfallen",
-    "lv": "Πέφτουν έξω • Ξεχάστε",
+    "lv": "Välja kukkuma • Unustuma",
     "level": "B2"
   },
   {
     "de": "entfalten",
-    "lv": "Ξεδιπλώνω • Ξεδιπλώνω • Αναπτύσσω • Επεκτείνω",
+    "lv": "Lahti keerama • Lahti voltima • Arendama • Laiendama",
     "level": "B2"
   },
   {
     "de": "sich entfalten",
-    "lv": "Να ανοίξει • Να απελευθερώσει • Να αναπτύξει • Να επεκτείνει",
+    "lv": "Avanema • Vabanema • Arenema • Laienema",
     "level": "B2"
   },
   {
     "de": "entflammen",
-    "lv": "Να ανάψει • Να ενθουσιάσει • Να ανάψει",
+    "lv": "Süütama • Vaimustama • Süttima",
     "level": "B2"
   },
   {
     "de": "entführen",
-    "lv": "Να αφαιρέσει • Να ληστέψει",
+    "lv": "Ära viima • Röövima",
     "level": "B2"
   },
   {
     "de": "entgegnen",
-    "lv": "Να απαντήσει",
+    "lv": "Vastama",
     "level": "B2"
   },
   {
     "de": "entgleisen",
-    "lv": "Εκτροχιάζω",
+    "lv": "Rööbastelt maha jooksma",
     "level": "B2"
   },
   {
     "de": "sich enthalten",
-    "lv": "Απέχω από κάτι",
+    "lv": "Hoiduma millestki",
     "level": "B2",
     "study": {
       "id": "b2-sich-enthalten",
       "layout": "minimalStudy",
-      "translation": "Απέχω από κάτι",
+      "translation": "Hoiduma millestki",
       "rektion": "von + kellele?",
-      "explanation": "Sich enthalten απαιτεί την οριστική πρόθεση von + σε ποιον • .",
+      "explanation": "Sich enthalten nõuab kindlat eessõna von + kellele?.",
       "forms": "von + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -4023,7 +4072,10 @@ const B2_WORDS = [
             "sich enthalten"
           ],
           "red": [
-            "von + kam?"
+            "von + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -4031,45 +4083,52 @@ const B2_WORDS = [
   },
   {
     "de": "enthüllen",
-    "lv": "Ανακαλύψτε • Ανοίξτε",
+    "lv": "Avastama • Avama",
     "level": "B2"
   },
   {
     "de": "entkorken",
-    "lv": "Για να ανοίξετε το καπάκι",
+    "lv": "Korki lahti tegema",
     "level": "B2"
   },
   {
     "de": "entkräften",
-    "lv": "Καθιστώ ανίσχυρο • Αποδυναμώνω • Ανατρέπω",
+    "lv": "Jõuetuks tegema • Nõrgestama • Ümber lükkama",
     "level": "B2"
   },
   {
     "de": "entladen",
-    "lv": "Ξεφόρτωση • Ξεφόρτωση",
+    "lv": "Maha laadima • Tühjaks laadima",
     "level": "B2"
   },
   {
     "de": "entlarven",
-    "lv": "Να αποκαλύψει",
+    "lv": "Paljastama",
     "level": "B2"
   },
   {
     "de": "sich entledigen",
-    "lv": "Ξεφορτώνομαι • Ξεφορτώνομαι",
+    "lv": "Vabanema • Lahti saama",
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
       "layout": "minimalStudy",
-      "translation": "Ξεφορτώνομαι • Ξεφορτώνομαι",
+      "translation": "Vabanema • Lahti saama",
       "rektion": "+ omastavas käändes",
-      "explanation": "Το sich entledigen απαιτεί οριστική πρόθεση + στην κτητική πτώση.",
+      "explanation": "Sich entledigen nõuab kindlat eessõna + omastavas käändes.",
       "forms": "+ omastavas käändes",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich entledigen"
+          ],
+          "red": [
+            "+ omastavas käändes"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4077,29 +4136,29 @@ const B2_WORDS = [
   },
   {
     "de": "entlegen",
-    "lv": "Σε απόσταση • Απομακρυσμένη",
+    "lv": "Eemalseisev • Kauge",
     "level": "B2"
   },
   {
     "de": "entmutigen",
-    "lv": "Να πάρει κουράγιο",
+    "lv": "Julgust võtma",
     "level": "B2"
   },
   {
     "de": "entnehmen",
-    "lv": "Παίρνω • Παίρνω • Βγάζω • Καταλήγω",
+    "lv": "Võtma • Ära võtma • Välja võtma • Järeldama",
     "level": "B2"
   },
   {
     "de": "sich entrüsten",
-    "lv": "Θυμώνω • Ζεσταίνω",
+    "lv": "Nördima • Tuliseks minema",
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
       "layout": "minimalStudy",
-      "translation": "Θυμώνω • Ζεσταίνω",
+      "translation": "Nördima • Tuliseks minema",
       "rektion": "über + mida?",
-      "explanation": "Το sich entrüsten απαιτεί την οριστική πρόθεση über + τι • .",
+      "explanation": "Sich entrüsten nõuab kindlat eessõna über + mida?.",
       "forms": "über + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -4108,7 +4167,11 @@ const B2_WORDS = [
             "sich entrüsten"
           ],
           "red": [
-            "über + ko?"
+            "über + mida?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4116,30 +4179,37 @@ const B2_WORDS = [
   },
   {
     "de": "entsagen",
-    "lv": "Να αρνηθεί • Να παραιτηθεί",
+    "lv": "Keelduma • Loobuma",
     "level": "B2"
   },
   {
     "de": "entseuchen",
-    "lv": "Να απολυμάνετε",
+    "lv": "Desinfitseerima",
     "level": "B2"
   },
   {
     "de": "sich entsinnen",
-    "lv": "Να ανακαλεί • Να θυμάται",
+    "lv": "Meenutama • Meeles pidama",
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
       "layout": "minimalStudy",
-      "translation": "Να ανακαλεί • Να θυμάται",
+      "translation": "Meenutama • Meeles pidama",
       "rektion": "+ omastavas käändes",
-      "explanation": "Το sich entsinnen απαιτεί οριστική πρόθεση + στην κτητική πτώση.",
+      "explanation": "Sich entsinnen nõuab kindlat eessõna + omastavas käändes.",
       "forms": "+ omastavas käändes",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich entsinnen"
+          ],
+          "red": [
+            "+ omastavas käändes"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4149,117 +4219,117 @@ const B2_WORDS = [
     "de": "Entspannung",
     "de_article": "die",
     "de_plural": "die Entspannungen",
-    "lv": "Χαλάρωση • Χαλάρωση • Μείωση της έντασης",
+    "lv": "Lõdvestus • Lõdvestumine • Pinge vähenemine",
     "level": "B2"
   },
   {
     "de": "entstellen",
-    "lv": "Παραμόρφωση • Συστροφή",
+    "lv": "Moonutama • Väänama",
     "level": "B2"
   },
   {
     "de": "entweichen",
-    "lv": "Απομακρυνθείτε • Αποδράστε • Υποχωρήστε • Ρίξτε έξω",
+    "lv": "Eemalduma • Põgenema • Taganema • Välja voolama",
     "level": "B2"
   },
   {
     "de": "entwerfen",
-    "lv": "Να σκιαγραφήσει",
+    "lv": "Visandama",
     "level": "B2"
   },
   {
     "de": "Entwerter",
     "de_article": "der",
     "de_plural": "die Entwerter",
-    "lv": "Εισιτήριο templar",
+    "lv": "Pilettempler",
     "level": "B2"
   },
   {
     "de": "Entwertung",
     "de_article": "die",
     "de_plural": "die Entwertungen",
-    "lv": "Μείωση της αξίας • Υποτίμηση",
+    "lv": "Väärtuse langetamine • Devalveerimine",
     "level": "B2"
   },
   {
     "de": "Entwurf",
     "de_article": "der",
     "de_plural": "die Entwürfe",
-    "lv": "Σκίτσο • Σκίτσο • Έργο",
+    "lv": "Visand • Eskiis • Projekt",
     "level": "B2"
   },
   {
     "de": "entwurzeln",
-    "lv": "Ξεριζώνω • Καταστρέφω • Εξαλείφω τελείως",
+    "lv": "Juurtega välja kiskuma • Hävitama • Täielikult likvideerima",
     "level": "B2"
   },
   {
     "de": "entziehen",
-    "lv": "Να αφαιρέσει • Να σκίσει μακριά • Να αποφύγει • Να ξεσκίσει • Να δραπετεύσει",
+    "lv": "Ära võtma • Lahti rebima • Vältima • Lahti kiskuma • Põgenema",
     "level": "B2"
   },
   {
     "de": "entziffern",
-    "lv": "Να αποκρυπτογραφήσει",
+    "lv": "Dešifreerima",
     "level": "B2"
   },
   {
     "de": "entzückend",
-    "lv": "Υπέροχο • Μαγευτικό • Γοητευτικό",
+    "lv": "Imeline • Lummav • Võluv",
     "level": "B2"
   },
   {
     "de": "entzückt",
-    "lv": "Ενθουσιασμένος",
+    "lv": "Vaimustunud",
     "level": "B2"
   },
   {
     "de": "entzünden",
-    "lv": "Να ανάψει",
+    "lv": "Süütama",
     "level": "B2"
   },
   {
     "de": "sich entzünden",
-    "lv": "Να πάρει φωτιά • Να αρχίσει να καίγεται",
+    "lv": "Süttima • Põlema hakkama",
     "level": "B2"
   },
   {
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "Ανάφλεξη • Ανάφλεξη • Φλεγμονή",
+    "lv": "Süütamine • Süttimine • Põletik",
     "level": "B2"
   },
   {
     "de": "Epidemie",
     "de_article": "die",
     "de_plural": "die Epidemien",
-    "lv": "Μια επιδημία",
+    "lv": "Epideemia",
     "level": "B2"
   },
   {
     "de": "Epoche",
     "de_article": "die",
     "de_plural": "die Epochen",
-    "lv": "Εποχή",
+    "lv": "Ajastu",
     "level": "B2"
   },
   {
     "de": "Erachten",
     "de_article": "das",
-    "lv": "Σκέψεις • Κατανόηση",
+    "lv": "Mõtted • Arusaam",
     "level": "B2"
   },
   {
     "de": "sich erbarmen",
-    "lv": "Να λυπάται • Να συμπάσχει",
+    "lv": "Halastama • Kaasa tundma",
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
       "layout": "minimalStudy",
-      "translation": "Να λυπάται • Να συμπάσχει",
+      "translation": "Halastama • Kaasa tundma",
       "rektion": "über + mida?",
-      "explanation": "Sich erbarmen απαιτεί την οριστική πρόθεση über + τι • .",
+      "explanation": "Sich erbarmen nõuab kindlat eessõna über + mida?.",
       "forms": "über + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -4268,7 +4338,11 @@ const B2_WORDS = [
             "sich erbarmen"
           ],
           "red": [
-            "über + ko?"
+            "über + mida?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4278,81 +4352,81 @@ const B2_WORDS = [
     "de": "Erbauer",
     "de_article": "der",
     "de_plural": "die Erbauer",
-    "lv": "Γερανός",
+    "lv": "Kraana",
     "level": "B2"
   },
   {
     "de": "Erbanspruch",
     "de_article": "der",
     "de_plural": "die Erbansprüche",
-    "lv": "Δικαίωμα κληρονομιάς",
+    "lv": "Pärimisõigus",
     "level": "B2"
   },
   {
     "de": "erbrechen",
-    "lv": "Σπάζω • Σπάζω",
+    "lv": "Lahti murdma • Sisse murdma",
     "level": "B2"
   },
   {
     "de": "Erdgas",
     "de_article": "das",
     "de_plural": "die Erdgase",
-    "lv": "Φυσικό αέριο",
+    "lv": "Maagaas",
     "level": "B2"
   },
   {
     "de": "erdrücken",
-    "lv": "Να καταπιέζουν • Να καταπιέζουν",
+    "lv": "Alla suruma • Rõhuma",
     "level": "B2"
   },
   {
     "de": "Erdrutsch",
     "de_article": "der",
     "de_plural": "die Erdrutsche",
-    "lv": "Κατάρρευση",
+    "lv": "Varing",
     "level": "B2"
   },
   {
     "de": "Erdsatellit",
     "de_article": "der",
     "de_plural": "die Erdsatelliten",
-    "lv": "Ένας τεχνητός σύντροφος",
+    "lv": "Tehiskaaslane",
     "level": "B2"
   },
   {
     "de": "Erdtrabant",
     "de_article": "der",
     "de_plural": "die Erdtrabanten",
-    "lv": "Φεγγάρι (σύντροφος)",
+    "lv": "Kuu (kaaslane)",
     "level": "B2"
   },
   {
     "de": "erfassen",
-    "lv": "Περιλαμβάνουν • Κατανοούν",
+    "lv": "Hõlmama • Mõistma",
     "level": "B2"
   },
   {
     "de": "erforschen",
-    "lv": "Διερευνήστε • Ανακαλύψτε",
+    "lv": "Uurima • Välja selgitama",
     "level": "B2"
   },
   {
     "de": "Erfrierung",
     "de_article": "die",
     "de_plural": "die Erfrierungen",
-    "lv": "Κρυοπάγημα",
+    "lv": "Külmakahjustus",
     "level": "B2"
   },
   {
     "de": "sich ergeben",
-    "lv": "Να προκύψει • Να παραδοθεί",
+    "lv": "Tulenema • Alistuma",
     "level": "B2",
     "study": {
       "id": "b2-sich-ergeben",
       "layout": "minimalStudy",
-      "translation": "Να προκύψει • Να παραδοθεί",
+      "translation": "Tulenema • Alistuma",
       "rektion": "aus + kellele?",
-      "explanation": "Sich ergeben απαιτεί την οριστική πρόθεση aus + σε ποιον • .",
+      "explanation": "Sich ergeben nõuab kindlat eessõna aus + kellele?.",
       "forms": "aus + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -4361,7 +4435,11 @@ const B2_WORDS = [
             "sich ergeben"
           ],
           "red": [
-            "aus + kam?"
+            "aus + kellele?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4369,115 +4447,115 @@ const B2_WORDS = [
   },
   {
     "de": "ergiebig",
-    "lv": "Γόνιμος • Κερδοφόρος • Πλούσιος • Γενναιόδωρος • Γενναιόδωρος",
+    "lv": "Viljakas • Tulus • Rikas • Rikkalik • Saagirikas",
     "level": "B2"
   },
   {
     "de": "ergrauen",
-    "lv": "Γκρι",
+    "lv": "Halliks minema",
     "level": "B2"
   },
   {
     "de": "erhaben",
-    "lv": "Ανάγλυφο • Κυρτό • Μεγαλόπρεπο • Ψηλό • Προεξέχον",
+    "lv": "Reljeefne • Kumer • Suursugune • Ülev • Silmapaistev",
     "level": "B2"
   },
   {
     "de": "erheben",
-    "lv": "Σηκώνω • Σηκώνω • Διαμαρτύρομαι",
+    "lv": "Tõstma • Üles kergitama • Protestima",
     "level": "B2"
   },
   {
     "de": "sich erheben",
-    "lv": "Σηκωθείτε • Σηκωθείτε • Επαναστατήστε",
+    "lv": "Püsti tõusma • Tõusma • Mässama",
     "level": "B2"
   },
   {
     "de": "erheblich",
-    "lv": "Σημαντική • Σημαντική",
+    "lv": "Märkimisväärne • Tähtis",
     "level": "B2"
   },
   {
     "de": "erkämpfen",
-    "lv": "Να παλέψουν",
+    "lv": "Välja võitlema",
     "level": "B2"
   },
   {
     "de": "Erkenntnis",
     "de_article": "die",
     "de_plural": "die Erkenntnisse",
-    "lv": "Κατανόηση • Κατανόηση",
+    "lv": "Arusaam • Mõistmine",
     "level": "B2"
   },
   {
     "de": "erlangen",
-    "lv": "Να φτάσει • Να πετύχει • Να αποκτήσει",
+    "lv": "Ulatuma • Saavutama • Omandama",
     "level": "B2"
   },
   {
     "de": "Erlass",
     "de_article": "der",
     "de_plural": "die Erlasse",
-    "lv": "Διαταγή • Διαταγή • Διάταγμα • Απόλυση",
+    "lv": "Korraldus • Käsk • Dekreet • Vallandamine",
     "level": "B2"
   },
   {
     "de": "erlassen",
-    "lv": "Έκδοση • Απόλυση • Απελευθέρωση",
+    "lv": "Väljastama • Vallandama • Vabastama",
     "level": "B2"
   },
   {
     "de": "erläutern",
-    "lv": "Να εξηγήσει • Εξηγήσει",
+    "lv": "Seletama • Selgitama",
     "level": "B2"
   },
   {
     "de": "Erle",
     "de_article": "die",
     "de_plural": "die Erlen",
-    "lv": "Συμφωνία",
+    "lv": "Lepp",
     "level": "B2"
   },
   {
     "de": "erleiden",
-    "lv": "Υποφέρω • Επιβιώνεις • Νικιέμαι",
+    "lv": "Kannatama • Üle elama • Saama alistatud",
     "level": "B2"
   },
   {
     "de": "erlöschen",
-    "lv": "Να λήξει • Να λήξει • Να λήξει",
+    "lv": "Kustuma • Kehtivuse kaotama • Lõppema",
     "level": "B2"
   },
   {
     "de": "ermächtigen",
-    "lv": "Εξουσιοδοτώ",
+    "lv": "Volitama",
     "level": "B2"
   },
   {
     "de": "ermäßigen",
-    "lv": "Να χαμηλώσει",
+    "lv": "Alandama",
     "level": "B2"
   },
   {
     "de": "ermitteln",
-    "lv": "Ανακαλύπτω • Ανακαλύπτω",
+    "lv": "Teada saama • Välja selgitama",
     "level": "B2"
   },
   {
     "de": "erniedrigen",
-    "lv": "Να χαμηλώσει",
+    "lv": "Alandama",
     "level": "B2"
   },
   {
     "de": "sich erniedrigen",
-    "lv": "Να ταπεινώσει τον εαυτό του",
+    "lv": "End alandama",
     "level": "B2",
     "study": {
       "id": "b2-sich-erniedrigen",
       "layout": "minimalStudy",
-      "translation": "Να ταπεινώσει τον εαυτό του",
+      "translation": "End alandama",
       "rektion": "vor + kellele?",
-      "explanation": "Sich erniedrigen απαιτεί την οριστική πρόθεση vor + σε ποιον • .",
+      "explanation": "Sich erniedrigen nõuab kindlat eessõna vor + kellele?.",
       "forms": "vor + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -4486,7 +4564,10 @@ const B2_WORDS = [
             "sich erniedrigen"
           ],
           "red": [
-            "vor + kam?"
+            "vor + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -4496,41 +4577,41 @@ const B2_WORDS = [
     "de": "Ernteertrag",
     "de_article": "der",
     "de_plural": "die Ernteerträge",
-    "lv": "Σύλληψη",
+    "lv": "Saak",
     "level": "B2"
   },
   {
     "de": "Eröffnung",
     "de_article": "die",
     "de_plural": "die Eröffnungen",
-    "lv": "Άνοιγμα • Ανακάλυψη • Καρτ ποστάλ • Ανακοίνωση • Ανακάλυψη",
+    "lv": "Avamine • Avastamine • Postkaart • Teadaanne • Avastus",
     "level": "B2"
   },
   {
     "de": "erörtern",
-    "lv": "Συζητούν • Συζητούν",
+    "lv": "Arutlema • Arutama",
     "level": "B2"
   },
   {
     "de": "erpressen",
-    "lv": "Να εκβιάσει",
+    "lv": "Šantažeerima",
     "level": "B2"
   },
   {
     "de": "erregen",
-    "lv": "Διεγείρει • Διεγείρει • Προκαλεί • Προκαλεί • Ξεσηκώνει",
+    "lv": "Erutama • Ärritama • Tekitama • Põhjustama • Äratama",
     "level": "B2"
   },
   {
     "de": "sich erregen",
-    "lv": "Ενθουσιαστείτε με κάτι",
+    "lv": "Erutuma millegi pärast",
     "level": "B2",
     "study": {
       "id": "b2-sich-erregen",
       "layout": "minimalStudy",
-      "translation": "Ενθουσιαστείτε με κάτι",
+      "translation": "Erutuma millegi pärast",
       "rektion": "über + mida?",
-      "explanation": "Το sich erregen απαιτεί την οριστική πρόθεση über + τι • .",
+      "explanation": "Sich erregen nõuab kindlat eessõna über + mida?.",
       "forms": "über + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -4539,7 +4620,10 @@ const B2_WORDS = [
             "sich erregen"
           ],
           "red": [
-            "über + ko?"
+            "über + mida?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -4549,130 +4633,130 @@ const B2_WORDS = [
     "de": "Erreger",
     "de_article": "der",
     "de_plural": "die Erreger",
-    "lv": "Παθογόνο • Ιός",
+    "lv": "Haigustekitaja • Viirus",
     "level": "B2"
   },
   {
     "de": "erringen",
-    "lv": "Να παλέψουν",
+    "lv": "Välja võitlema",
     "level": "B2"
   },
   {
     "de": "erröten",
-    "lv": "Κοκκινίζω",
+    "lv": "Punastama",
     "level": "B2"
   },
   {
     "de": "Erscheinung",
     "de_article": "die",
     "de_plural": "die Erscheinungen",
-    "lv": "Φαινόμενο • Εμφάνιση • Εμφάνιση",
+    "lv": "Nähtus • Ilmumine • Välimus",
     "level": "B2"
   },
   {
     "de": "erschießen",
-    "lv": "Να καταρρίψουν",
+    "lv": "Maha laskma",
     "level": "B2"
   },
   {
     "de": "erschlagen",
-    "lv": "Να γκρεμίσει",
+    "lv": "Maha lööma",
     "level": "B2"
   },
   {
     "de": "erschöpfen",
-    "lv": "Εξάτμιση • Εξάτμιση",
+    "lv": "Ammendama • Kurnama",
     "level": "B2"
   },
   {
     "de": "erschüttern",
-    "lv": "Κουνήστε • Χτυπήστε • Κουνήστε",
+    "lv": "Raputama • Rabama • Kõigutama",
     "level": "B2"
   },
   {
     "de": "erschweren",
-    "lv": "Το κάνουν δύσκολο",
+    "lv": "Raskendama",
     "level": "B2"
   },
   {
     "de": "ersehen",
-    "lv": "Για να δείτε • Να παρατηρήσετε",
+    "lv": "Nägema • Märkama",
     "level": "B2"
   },
   {
     "de": "ersparen",
-    "lv": "Αποθηκεύω • Συσσωρεύω • Αποθηκεύω",
+    "lv": "Kokku hoidma • Koguma • Säästma",
     "level": "B2"
   },
   {
     "de": "Ersparnis",
     "de_article": "die",
     "de_plural": "die Ersparnisse",
-    "lv": "Αποταμίευση • Αποταμίευση",
+    "lv": "Sääst • Säästud",
     "level": "B2"
   },
   {
     "de": "erstarren",
-    "lv": "Πάγωμα",
+    "lv": "Tarduma",
     "level": "B2"
   },
   {
     "de": "ersticken",
-    "lv": "Πνίγω • Πνίγω • Καταπιέζω • Καταπιέζω • Πνίγω",
+    "lv": "Lämmatama • Summutama • Alla suruma • Rõhuma • Lämbuma",
     "level": "B2"
   },
   {
     "de": "sich erstrecken",
-    "lv": "Επεκτείνω • Επεκτείνω • Τεντώνω",
+    "lv": "Laienema • Ulatuma • Sirutuma",
     "level": "B2"
   },
   {
     "de": "ertappen",
-    "lv": "Να χτυπήσει",
+    "lv": "Tabama",
     "level": "B2"
   },
   {
     "de": "ertönen",
-    "lv": "Αρχίστε να ακούγεται",
+    "lv": "Kõlama hakkama",
     "level": "B2"
   },
   {
     "de": "ertragen",
-    "lv": "Υπομένω • Υποφέρω",
+    "lv": "Taluma • Kannatama",
     "level": "B2"
   },
   {
     "de": "erträglich",
-    "lv": "Ανεκτός",
+    "lv": "Talutav",
     "level": "B2"
   },
   {
     "de": "erwägen",
-    "lv": "Να εξετάσει",
+    "lv": "Kaaluma",
     "level": "B2"
   },
   {
     "de": "Erwägung",
     "de_article": "die",
     "de_plural": "die Erwägungen",
-    "lv": "Αντιπαροχή • Αντιπαροχή",
+    "lv": "Kaalumine • Kaalutlus",
     "level": "B2"
   },
   {
     "de": "erweisen",
-    "lv": "Δείχνω • Κάνω",
+    "lv": "Näitama • Tegema",
     "level": "B2"
   },
   {
     "de": "sich erweisen",
-    "lv": "Αποδεικνύεται τι",
+    "lv": "Osutuma milleks",
     "level": "B2",
     "study": {
       "id": "b2-sich-erweisen",
       "layout": "minimalStudy",
-      "translation": "Αποδεικνύεται τι",
+      "translation": "Osutuma milleks",
       "rektion": "als + mis?",
-      "explanation": "Το sich erweisen απαιτεί την οριστική πρόθεση als + τι • .",
+      "explanation": "Sich erweisen nõuab kindlat eessõna als + mis?.",
       "forms": "als + mis?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -4681,7 +4765,10 @@ const B2_WORDS = [
             "sich erweisen"
           ],
           "red": [
-            "als + kas?"
+            "als + mis?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -4691,294 +4778,294 @@ const B2_WORDS = [
     "de": "Erwerb",
     "de_article": "der",
     "de_plural": "die Erwerbe",
-    "lv": "Υπηρεσία • Κέρδος • Όφελος",
+    "lv": "Teenistus • Kasum • Kasu",
     "level": "B2"
   },
   {
     "de": "erwerben",
-    "lv": "Κερδίζω • Αποκτώ • Παίρνω",
+    "lv": "Teenima • Omandama • Saama",
     "level": "B2"
   },
   {
     "de": "Erz",
     "de_article": "das",
     "de_plural": "die Erze",
-    "lv": "Μετάλλευμα",
+    "lv": "Maak",
     "level": "B2"
   },
   {
     "de": "erzielen",
-    "lv": "Επιτυγχάνω • Παίρνω",
+    "lv": "Saavutama • Saama",
     "level": "B2"
   },
   {
     "de": "erzürnen",
-    "lv": "Να θυμώσει",
+    "lv": "Vihastama",
     "level": "B2"
   },
   {
     "de": "Esche",
     "de_article": "die",
     "de_plural": "die Eschen",
-    "lv": "Νησί (δέντρο)",
+    "lv": "Saar (puu)",
     "level": "B2"
   },
   {
     "de": "Espe",
     "de_article": "die",
     "de_plural": "die Espen",
-    "lv": "Τρομώδης",
+    "lv": "Haab",
     "level": "B2"
   },
   {
     "de": "Etat",
     "de_article": "der",
     "de_plural": "die Etats",
-    "lv": "Προϋπολογισμός",
+    "lv": "Eelarve",
     "level": "B2"
   },
   {
     "de": "europaweit",
-    "lv": "Πανευρωπαϊκά",
+    "lv": "Üle-euroopaline",
     "level": "B2"
   },
   {
     "de": "Euter",
     "de_article": "das",
     "de_plural": "die Euter",
-    "lv": "Μαστός ζώου",
+    "lv": "Udar",
     "level": "B2"
   },
   {
     "de": "exekutieren",
-    "lv": "Να εκτελέσει τη θανατική ποινή",
+    "lv": "Surmanuhtlust täide viima",
     "level": "B2"
   },
   {
     "de": "Exekutive",
     "de_article": "die",
     "de_plural": "die Exekutiven",
-    "lv": "Εκτελεστικό όργανο",
+    "lv": "Täitevorgan",
     "level": "B2"
   },
   {
     "de": "Exil",
     "de_article": "das",
     "de_plural": "die Exile",
-    "lv": "Εξορία • Εξορία",
+    "lv": "Pagulus • Väljasaatmine",
     "level": "B2"
   },
   {
     "de": "Existenz",
     "de_article": "die",
     "de_plural": "die Existenzen",
-    "lv": "Ύπαρξη",
+    "lv": "Eksistents",
     "level": "B2"
   },
   {
     "de": "exklusiv",
-    "lv": "Εκλεπτυσμένος • Αριστοκρατικός",
+    "lv": "Peen • Aristokraatlik",
     "level": "B2"
   },
   {
     "de": "Exot",
     "de_article": "der",
     "de_plural": "die Exoten",
-    "lv": "Εξωτικό πρόσωπο • Φυτό • Ζώο",
+    "lv": "Eksootiline inimene • Taim • Loom",
     "level": "B2"
   },
   {
     "de": "expandieren",
-    "lv": "Μεγαλώνουν γρήγορα • Επεκτείνονται",
+    "lv": "Kiiresti kasvama • Laienema",
     "level": "B2"
   },
   {
     "de": "Export",
     "de_article": "der",
     "de_plural": "die Exporte",
-    "lv": "Εξαγωγή",
+    "lv": "Eksport",
     "level": "B2"
   },
   {
     "de": "exportieren",
-    "lv": "Για εξαγωγή",
+    "lv": "Eksportima",
     "level": "B2"
   },
   {
     "de": "exquisit",
-    "lv": "Λεπτός",
+    "lv": "Peen",
     "level": "B2"
   },
   {
     "de": "Extremismus",
     "de_article": "der",
-    "lv": "Εξτρεμισμός",
+    "lv": "Ekstremism",
     "level": "B2"
   },
   {
     "de": "Fabel",
     "de_article": "die",
     "de_plural": "die Fabeln",
-    "lv": "Έτοιμος",
+    "lv": "Valm",
     "level": "B2"
   },
   {
     "de": "Fabrikat",
     "de_article": "das",
     "de_plural": "die Fabrikate",
-    "lv": "Βιομηχανική παραγωγή • Προϊόν",
+    "lv": "Tööstustoodang • Toode",
     "level": "B2"
   },
   {
     "de": "Fachabitur",
     "de_article": "das",
     "de_plural": "die Fachabiture",
-    "lv": "Ολοκλήρωσε την επαγγελματική κατάρτιση",
+    "lv": "Lõpetatud kutseõpe",
     "level": "B2"
   },
   {
     "de": "fachmännisch",
-    "lv": "Γνώστης",
+    "lv": "Asjatundlik",
     "level": "B2"
   },
   {
     "de": "Fackel",
     "de_article": "die",
     "de_plural": "die Fackeln",
-    "lv": "Δάδα",
+    "lv": "Tõrvik",
     "level": "B2"
   },
   {
     "de": "fahl",
-    "lv": "Θαμπό • Χλωμό",
+    "lv": "Tuhm • Kahvatu",
     "level": "B2"
   },
   {
     "de": "fahnden",
-    "lv": "Για εντατική αναζήτηση",
+    "lv": "Intensiivselt otsima",
     "level": "B2"
   },
   {
     "de": "Fahndungsliste",
     "de_article": "die",
     "de_plural": "die Fahndungslisten",
-    "lv": "Λίστα καταζητούμενων",
+    "lv": "Tagaotsitavate nimekiri",
     "level": "B2"
   },
   {
     "de": "Fahrdamm",
     "de_article": "der",
     "de_plural": "die Fahrdämme",
-    "lv": "Δρόμος • Πλακόστρωση",
+    "lv": "Sõidutee • Sillutis",
     "level": "B2"
   },
   {
     "de": "Fahrerflucht",
     "de_article": "die",
-    "lv": "Φυγαδεύοντας από τον τόπο του ατυχήματος",
+    "lv": "Õnnetuspaigalt põgenemine",
     "level": "B2"
   },
   {
     "de": "fahrlässig",
-    "lv": "Απρόσεκτος • Επιφανειακός",
+    "lv": "Hooletu • Pealiskaudne",
     "level": "B2"
   },
   {
     "de": "Falke",
     "de_article": "der",
     "de_plural": "die Falken",
-    "lv": "Γεράκι",
+    "lv": "Kull",
     "level": "B2"
   },
   {
     "de": "Fallschirmturm",
     "de_article": "der",
     "de_plural": "die Fallschirmtürme",
-    "lv": "Πύργος αλεξίπτωτου",
+    "lv": "Langevarjutorn",
     "level": "B2"
   },
   {
     "de": "Falltür",
     "de_article": "die",
     "de_plural": "die Falltüren",
-    "lv": "Καταπακτή • Πόρτα δαπέδου",
+    "lv": "Luuk • Põranda-uks",
     "level": "B2"
   },
   {
     "de": "fälschen",
-    "lv": "Να παραποιήσει",
+    "lv": "Võltsima",
     "level": "B2"
   },
   {
     "de": "fälschlich",
-    "lv": "Παραπλανητικά • Λανθασμένα",
+    "lv": "Eksitavalt • Ekslikult",
     "level": "B2"
   },
   {
     "de": "Farbstoff",
     "de_article": "der",
     "de_plural": "die Farbstoffe",
-    "lv": "Βαφή",
+    "lv": "Värvaine",
     "level": "B2"
   },
   {
     "de": "Farbige",
     "de_article": "der",
     "de_plural": "die Farbigen",
-    "lv": "Ένας μελαχρινός άνθρωπος",
+    "lv": "Tumedanahaline inimene",
     "level": "B2"
   },
   {
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
-    "lv": "Χρωματικός • Τόνος",
+    "lv": "Värvus • Toon",
     "level": "B2"
   },
   {
     "de": "Farn",
     "de_article": "der",
     "de_plural": "die Farne",
-    "lv": "Φτέρη",
+    "lv": "Sõnajalg",
     "level": "B2"
   },
   {
     "de": "Fasan",
     "de_article": "der",
     "de_plural": "die Fasane",
-    "lv": "Φασιανός",
+    "lv": "Faasan",
     "level": "B2"
   },
   {
     "de": "Fasanenjagd",
     "de_article": "die",
     "de_plural": "die Fasanenjagden",
-    "lv": "Κυνήγι φασιανού",
+    "lv": "Faasanijaht",
     "level": "B2"
   },
   {
     "de": "Faschismus",
     "de_article": "der",
-    "lv": "Φασισμός",
+    "lv": "Fašism",
     "level": "B2"
   },
   {
     "de": "Faser",
     "de_article": "die",
     "de_plural": "die Fasern",
-    "lv": "Ίνες",
+    "lv": "Kiud",
     "level": "B2"
   },
   {
     "de": "sich fassen",
-    "lv": "Αρπάζω • Μαζεύεις τον εαυτό σου • Κυβερνάς τον εαυτό σου",
+    "lv": "Haarama • End koguma • End valitsema",
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
       "layout": "minimalStudy",
-      "translation": "Αρπάζω • Μαζεύεις τον εαυτό σου • Κυβερνάς τον εαυτό σου",
+      "translation": "Haarama • End koguma • End valitsema",
       "rektion": "an + kellele?",
-      "explanation": "Sich fassen απαιτεί την οριστική πρόθεση an + σε ποιον • .",
+      "explanation": "Sich fassen nõuab kindlat eessõna an + kellele?.",
       "forms": "an + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -4987,7 +5074,12 @@ const B2_WORDS = [
             "sich fassen"
           ],
           "red": [
-            "an + kam?"
+            "an + kellele?"
+          ],
+          "purple": [
+            "sich",
+            "sich",
+            "sich"
           ]
         }
       }
@@ -4997,469 +5089,469 @@ const B2_WORDS = [
     "de": "Fassung",
     "de_article": "die",
     "de_plural": "die Fassungen",
-    "lv": "Πλαίσιο • Φάκελος • Διατύπωση",
+    "lv": "Raamistik • Ümbris • Sõnastus",
     "level": "B2"
   },
   {
     "de": "fassungslos",
-    "lv": "Έκπληκτος • Σοκαρισμένος",
+    "lv": "Üllatunud • Šokeeritud",
     "level": "B2"
   },
   {
     "de": "Faulbaum",
     "de_article": "der",
     "de_plural": "die Faulbäume",
-    "lv": "Υπερβολικός",
+    "lv": "Toomingas",
     "level": "B2"
   },
   {
     "de": "fechten",
-    "lv": "Να περιφράξεις",
+    "lv": "Vehklema",
     "level": "B2"
   },
   {
     "de": "Fehlalarm",
     "de_article": "der",
     "de_plural": "die Fehlalarme",
-    "lv": "Ψευδές σήμα συναγερμού",
+    "lv": "Valehäire",
     "level": "B2"
   },
   {
     "de": "feilen",
-    "lv": "Να αρχειοθετήσει",
+    "lv": "Viilima",
     "level": "B2"
   },
   {
     "de": "feindselig",
-    "lv": "Εχθρικός",
+    "lv": "Vaenulik",
     "level": "B2"
   },
   {
     "de": "Feingefühl",
     "de_article": "das",
-    "lv": "Λιχουδιά • Τακτ",
+    "lv": "Delikaatsus • Takt",
     "level": "B2"
   },
   {
     "de": "Feldmesser",
     "de_article": "der",
     "de_plural": "die Feldmesser",
-    "lv": "Τοπογράφος γης",
+    "lv": "Maamõõtja",
     "level": "B2"
   },
   {
     "de": "Ferkel",
     "de_article": "der",
     "de_plural": "die Ferkel",
-    "lv": "Χοιρίδιο",
+    "lv": "Põrsas",
     "level": "B2"
   },
   {
     "de": "fernstudieren",
-    "lv": "Για σπουδές στην εξ αποστάσεως εκπαίδευση",
+    "lv": "Kaugõppes õppima",
     "level": "B2"
   },
   {
     "de": "Fernstudium",
     "de_article": "das",
     "de_plural": "die Fernstudien",
-    "lv": "Εξ αποστάσεως εκπαίδευση",
+    "lv": "Kaugõpe",
     "level": "B2"
   },
   {
     "de": "Fessel",
     "de_article": "die",
     "de_plural": "die Fesseln",
-    "lv": "Αλυσίδα • Αλυσίδες",
+    "lv": "Kett • Ahelad",
     "level": "B2"
   },
   {
     "de": "festigen",
-    "lv": "Ενίσχυση • Επιβεβαίωση",
+    "lv": "Tugevdama • Kinnitama",
     "level": "B2"
   },
   {
     "de": "Festigkeit",
     "de_article": "die",
     "de_plural": "die Festigkeiten",
-    "lv": "Σκληρότητα",
+    "lv": "Kõvadus",
     "level": "B2"
   },
   {
     "de": "Festspiele",
     "de_article": "die",
-    "lv": "Φεστιβάλ",
+    "lv": "Festival",
     "level": "B2"
   },
   {
     "de": "Festung",
     "de_article": "die",
     "de_plural": "die Festungen",
-    "lv": "Φρούριο",
+    "lv": "Kindlus",
     "level": "B2"
   },
   {
     "de": "Fetzen",
     "de_article": "der",
     "de_plural": "die Fetzen",
-    "lv": "Κουρέλια",
+    "lv": "Räbalad",
     "level": "B2"
   },
   {
     "de": "feuerfest",
-    "lv": "Άφλεκτος",
+    "lv": "Tulekindel",
     "level": "B2"
   },
   {
     "de": "Filmfestspiele",
     "de_article": "die",
-    "lv": "Φεστιβάλ κινηματογράφου",
+    "lv": "Filmifestival",
     "level": "B2"
   },
   {
     "de": "Fink",
     "de_article": "der",
     "de_plural": "die Finken",
-    "lv": "Ξύλινος σπίνος",
+    "lv": "Metsvint",
     "level": "B2"
   },
   {
     "de": "Finsternis",
     "de_article": "die",
     "de_plural": "die Finsternisse",
-    "lv": "Σκοτάδι • Συσκότιση",
+    "lv": "Pimedus • Pimenemine",
     "level": "B2"
   },
   {
     "de": "Firmeninhaber",
     "de_article": "der",
     "de_plural": "die Firmeninhaber",
-    "lv": "Ιδιοκτήτης εταιρείας",
+    "lv": "Firmaomanik",
     "level": "B2"
   },
   {
     "de": "Firmenkapital",
     "de_article": "das",
-    "lv": "Εταιρικό κεφάλαιο",
+    "lv": "Firma kapital",
     "level": "B2"
   },
   {
     "de": "Handelsfirma",
     "de_article": "die",
     "de_plural": "die Handelsfirmen",
-    "lv": "Εμπορική εταιρεία",
+    "lv": "Kaubandusfirma",
     "level": "B2"
   },
   {
     "de": "Lieferfirma",
     "de_article": "die",
     "de_plural": "die Lieferfirmen",
-    "lv": "Προμηθευτής εταιρείας",
+    "lv": "Tarnijafirma",
     "level": "B2"
   },
   {
     "de": "Flachs",
     "de_article": "der",
     "de_plural": "die Flachse",
-    "lv": "Λινό",
+    "lv": "Lina",
     "level": "B2"
   },
   {
     "de": "Flaum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Κάτω • Χνούδι",
+    "lv": "Udusulg • Ebe",
     "level": "B2"
   },
   {
     "de": "flauschig",
-    "lv": "Απαλό • Αφράτο",
+    "lv": "Pehme • Kohev",
     "level": "B2"
   },
   {
     "de": "flechten",
-    "lv": "Να υφαίνει",
+    "lv": "Punuma",
     "level": "B2"
   },
   {
     "de": "fleckig",
-    "lv": "Στίγματα • Στίγματα • Ποικιλόχρωμα",
+    "lv": "Plekiline • Täpiline • Kirju",
     "level": "B2"
   },
   {
     "de": "fliederfarben",
-    "lv": "Μωβ χρώμα",
+    "lv": "Lilla värvi",
     "level": "B2"
   },
   {
     "de": "flimmern",
-    "lv": "Να αστράφτει • Να αναβοσβήνει • Να τρεμοπαίζει",
+    "lv": "Sädelema • Vilkuma • Virvendama",
     "level": "B2"
   },
   {
     "de": "Flinte",
     "de_article": "die",
     "de_plural": "die Flinten",
-    "lv": "Κυνηγετικό όπλο",
+    "lv": "Jahipüss",
     "level": "B2"
   },
   {
     "de": "Flosse",
     "de_article": "die",
     "de_plural": "die Flossen",
-    "lv": "Πτερύγιο",
+    "lv": "Uim",
     "level": "B2"
   },
   {
     "de": "Flotte",
     "de_article": "die",
     "de_plural": "die Flotten",
-    "lv": "Στόλος",
+    "lv": "Laevastik",
     "level": "B2"
   },
   {
     "de": "flüchtig",
-    "lv": "Φευγαλέα • Φευγαλέα • Στιγμιαία • Φευγαλέα • Βραχύβια",
+    "lv": "Lenduv • Põgus • Hetkeline • Kiiresti mööduv • Lühiajaline",
     "level": "B2"
   },
   {
     "de": "Flugfeld",
     "de_article": "das",
     "de_plural": "die Flugfelder",
-    "lv": "Αεροδρόμιο",
+    "lv": "Lennuväli",
     "level": "B2"
   },
   {
     "de": "Flugverkehr",
     "de_article": "der",
-    "lv": "Εναέρια κυκλοφορία",
+    "lv": "Õhuliiklus",
     "level": "B2"
   },
   {
     "de": "Flugwesen",
     "de_article": "das",
-    "lv": "Αεροπορία",
+    "lv": "Lennundus",
     "level": "B2"
   },
   {
     "de": "Flunder",
     "de_article": "die",
     "de_plural": "die Flundern",
-    "lv": "Καλκάνι (ψάρι)",
+    "lv": "Lest (kala)",
     "level": "B2"
   },
   {
     "de": "Flur",
     "de_article": "die",
     "de_plural": "die Fluren",
-    "lv": "Πεδίο • Εκκαθάριση",
+    "lv": "Põld • Lagendik",
     "level": "B2"
   },
   {
     "de": "Flussarm",
     "de_article": "der",
     "de_plural": "die Flussarme",
-    "lv": "Πιρούνι ποτάμι",
+    "lv": "Hargjõgi",
     "level": "B2"
   },
   {
     "de": "Flussbett",
     "de_article": "das",
     "de_plural": "die Flussbetten",
-    "lv": "Κοίτη (ποτάμι)",
+    "lv": "Sängi (jõe)",
     "level": "B2"
   },
   {
     "de": "folgern",
-    "lv": "Να καταλήξουμε",
+    "lv": "Järeldama",
     "level": "B2"
   },
   {
     "de": "Fonds",
     "de_article": "der",
     "de_plural": "die Fonds",
-    "lv": "Κεφάλαιο",
+    "lv": "Fond",
     "level": "B2"
   },
   {
     "de": "Hilfsfonds",
     "de_article": "der",
     "de_plural": "die Hilfsfonds",
-    "lv": "Ταμείο αρωγής",
+    "lv": "Abifond",
     "level": "B2"
   },
   {
     "de": "Studienfonds",
     "de_article": "der",
     "de_plural": "die Studienfonds",
-    "lv": "Ταμείο σπουδών",
+    "lv": "Õppefond",
     "level": "B2"
   },
   {
     "de": "formell",
-    "lv": "Σωστό • Ευγενικό • Τυπικό • Άκαμπτο",
+    "lv": "Korrektne • Viisakas • Formaalne • Jäik",
     "level": "B2"
   },
   {
     "de": "Formsache",
     "de_article": "die",
     "de_plural": "die Formsachen",
-    "lv": "Διατύπωση",
+    "lv": "Formaalsus",
     "level": "B2"
   },
   {
     "de": "Förster",
     "de_article": "der",
     "de_plural": "die Förster",
-    "lv": "Δασάρχης",
+    "lv": "Metsaülem",
     "level": "B2"
   },
   {
     "de": "sich fortpflanzen",
-    "lv": "Πολλαπλασιάζω • Απλώνω",
+    "lv": "Paljunema • Levima",
     "level": "B2"
   },
   {
     "de": "fortschaffen",
-    "lv": "Παραδίδω • Παίρνω μακριά • Μεταφέρω",
+    "lv": "Ära toimetama • Ära viima • Ära kandma",
     "level": "B2"
   },
   {
     "de": "fortschreiten",
-    "lv": "Να αναπτυχθεί περαιτέρω",
+    "lv": "Edasi arenema",
     "level": "B2"
   },
   {
     "de": "fortwährend",
-    "lv": "Συνεχής • Αδιάλειπτη",
+    "lv": "Pidev • Katkematu",
     "level": "B2"
   },
   {
     "de": "Fracht",
     "de_article": "die",
     "de_plural": "die Frachten",
-    "lv": "Φορτίο • Φορτίο (φορτίο)",
+    "lv": "Last • Last (veos)",
     "level": "B2"
   },
   {
     "de": "fraglich",
-    "lv": "Αμφίβολο • Συζητήσιμο",
+    "lv": "Kaheldav • Vaieldav",
     "level": "B2"
   },
   {
     "de": "fraglos",
-    "lv": "Αναμφίβολα • Αναμφισβήτητο",
+    "lv": "Kahtlemata • Vaieldamatu",
     "level": "B2"
   },
   {
     "de": "Fraktion",
     "de_article": "die",
     "de_plural": "die Fraktionen",
-    "lv": "Φατρία",
+    "lv": "Fraktsioon",
     "level": "B2"
   },
   {
     "de": "fräsen",
-    "lv": "Να αλέσει",
+    "lv": "Freesima",
     "level": "B2"
   },
   {
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "Μυλωνάς • Μυλωνάς",
+    "lv": "Freesija • Frees",
     "level": "B2"
   },
   {
     "de": "Freiheitskampf",
     "de_article": "der",
     "de_plural": "die Freiheitskämpfe",
-    "lv": "Αγώνας ελευθερίας",
+    "lv": "Vabadusvõitlus",
     "level": "B2"
   },
   {
     "de": "freilich",
-    "lv": "Φυσικά • Χωρίς αμφιβολία • Αλλά • Μόνο",
+    "lv": "Muidugi • Kahtlemata • Aga • Ainult",
     "level": "B2"
   },
   {
     "de": "Freilichtbühne",
     "de_article": "die",
     "de_plural": "die Freilichtbühnen",
-    "lv": "Υπαίθριο θέατρο",
+    "lv": "Vabaõhuteater",
     "level": "B2"
   },
   {
     "de": "freimütig",
-    "lv": "Ειλικρινής • Ανοιχτός",
+    "lv": "Avameelne • Avatud",
     "level": "B2"
   },
   {
     "de": "freisprechen",
-    "lv": "Δικαιολογώ",
+    "lv": "Õigustama",
     "level": "B2"
   },
   {
     "de": "Fremde",
     "de_article": "die",
-    "lv": "Όντας στο εξωτερικό",
+    "lv": "Võõrsil olek",
     "level": "B2"
   },
   {
     "de": "fremdgehen",
-    "lv": "Να γίνει άπιστος",
+    "lv": "Ebalojaalseks muutuma",
     "level": "B2"
   },
   {
     "de": "friedfertig",
-    "lv": "Ειρηνικός • Ανεκτικός",
+    "lv": "Rahumeelne • Sallija",
     "level": "B2"
   },
   {
     "de": "fristlos",
-    "lv": "Αόριστος",
+    "lv": "Tähtajatu",
     "level": "B2"
   },
   {
     "de": "fromm",
-    "lv": "Θεοσεβής",
+    "lv": "Jumalakartlik",
     "level": "B2"
   },
   {
     "de": "Frosteinbruch",
     "de_article": "der",
     "de_plural": "die Frosteinbrüche",
-    "lv": "Άφιξη του κρύου",
+    "lv": "Külma saabumine",
     "level": "B2"
   },
   {
     "de": "Frostschaden",
     "de_article": "der",
     "de_plural": "die Frostschäden",
-    "lv": "Κρυοπάγημα",
+    "lv": "Külmakahjustus",
     "level": "B2"
   },
   {
     "de": "fruchtlos",
-    "lv": "Άγονος",
+    "lv": "Viljatu",
     "level": "B2"
   },
   {
     "de": "Frust",
     "de_article": "der",
-    "lv": "Ματαίωση",
+    "lv": "Frustratsioon",
     "level": "B2"
   },
   {
     "de": "sich fügen",
-    "lv": "Προσαρμόζω • Υποβάλλω",
+    "lv": "Kohanema • Alluma",
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
       "layout": "minimalStudy",
-      "translation": "Προσαρμόζω • Υποβάλλω",
+      "translation": "Kohanema • Alluma",
       "rektion": "in + mida?",
-      "explanation": "Το sich fügen απαιτεί την οριστική πρόθεση σε + τι • .",
+      "explanation": "Sich fügen nõuab kindlat eessõna in + mida?.",
       "forms": "in + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -5468,7 +5560,11 @@ const B2_WORDS = [
             "sich fügen"
           ],
           "red": [
-            "in + ko?"
+            "in + mida?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -5478,551 +5574,551 @@ const B2_WORDS = [
     "de": "Fuhre",
     "de_article": "die",
     "de_plural": "die Fuhren",
-    "lv": "Φορτίο • Φορτίο",
+    "lv": "Koorem • Last",
     "level": "B2"
   },
   {
     "de": "Führerrolle",
     "de_article": "die",
     "de_plural": "die Führerrollen",
-    "lv": "Ηγετικό ρόλο",
+    "lv": "Juhtroll",
     "level": "B2"
   },
   {
     "de": "Führernatur",
     "de_article": "die",
-    "lv": "Τύπος ηγέτη • Ηγέτης",
+    "lv": "Liidritüüp • Liider",
     "level": "B2"
   },
   {
     "de": "funken",
-    "lv": "Μετάδοση μέσω ραδιοφώνου",
+    "lv": "Raadio kaudu edastama",
     "level": "B2"
   },
   {
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "Ραδιοτηλεγράφος • Ασυρματιστής",
+    "lv": "Raadiotelegrafist • Radist",
     "level": "B2"
   },
   {
     "de": "Funkspruch",
     "de_article": "der",
     "de_plural": "die Funksprüche",
-    "lv": "Ακτινογραφία",
+    "lv": "Raadiogramm",
     "level": "B2"
   },
   {
     "de": "Funkstation",
     "de_article": "die",
     "de_plural": "die Funkstationen",
-    "lv": "Ραδιοφωνικός σταθμός",
+    "lv": "Saatejaam",
     "level": "B2"
   },
   {
     "de": "Funkstörung",
     "de_article": "die",
     "de_plural": "die Funkstörungen",
-    "lv": "Διαταραχές μετάδοσης",
+    "lv": "Ülekandehäired",
     "level": "B2"
   },
   {
     "de": "Funkverbindung",
     "de_article": "die",
     "de_plural": "die Funkverbindungen",
-    "lv": "Ραδιοεπικοινωνία",
+    "lv": "Raadioside",
     "level": "B2"
   },
   {
     "de": "Funktionär",
     "de_article": "der",
     "de_plural": "die Funktionäre",
-    "lv": "Ακτιβιστής • Εργάτης",
+    "lv": "Aktivist • Töötaja",
     "level": "B2"
   },
   {
     "de": "Furche",
     "de_article": "die",
     "de_plural": "die Furchen",
-    "lv": "Αυλάκι • Γραμμή ρυτίδων",
+    "lv": "Vagu • Kortsujoon",
     "level": "B2"
   },
   {
     "de": "Fürsorge",
     "de_article": "die",
     "de_plural": "die Fürsorgen",
-    "lv": "Φροντίδα • Κηδεμονία",
+    "lv": "Hoolitsus • Eestkoste",
     "level": "B2"
   },
   {
     "de": "Fürsprache",
     "de_article": "die",
     "de_plural": "die Fürsprachen",
-    "lv": "Μεσολάβηση • Λέγοντας έναν καλό λόγο",
+    "lv": "Eestkõne • Hea sõna ütlemine",
     "level": "B2"
   },
   {
     "de": "Futtertrog",
     "de_article": "der",
     "de_plural": "die Futtertröge",
-    "lv": "Φάτνη ζωοτροφών",
+    "lv": "Söödasõim",
     "level": "B2"
   },
   {
     "de": "Futterpflanze",
     "de_article": "die",
     "de_plural": "die Futterpflanzen",
-    "lv": "Κτηνοτροφικό φυτό",
+    "lv": "Söödataim",
     "level": "B2"
   },
   {
     "de": "Gage",
     "de_article": "die",
     "de_plural": "die Gagen",
-    "lv": "Αμοιβή καλλιτέχνη",
+    "lv": "Kunstniku honorar",
     "level": "B2"
   },
   {
     "de": "Galle",
     "de_article": "die",
     "de_plural": "die Gallen",
-    "lv": "Χολή",
+    "lv": "Sapp",
     "level": "B2"
   },
   {
     "de": "gangbar",
-    "lv": "Περπατήσιμος",
+    "lv": "Käidav",
     "level": "B2"
   },
   {
     "de": "gängig",
-    "lv": "Σε εξέλιξη",
+    "lv": "Käiv",
     "level": "B2"
   },
   {
     "de": "Gangster",
     "de_article": "der",
     "de_plural": "die Gangster",
-    "lv": "Ένας γκάνγκστερ",
+    "lv": "Gangster",
     "level": "B2"
   },
   {
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "Μίσος • Δέσμη",
+    "lv": "Vihk • Kimp",
     "level": "B2"
   },
   {
     "de": "Garde",
     "de_article": "die",
     "de_plural": "die Garden",
-    "lv": "Δύναμη φρουράς",
+    "lv": "Kaardivägi",
     "level": "B2"
   },
   {
     "de": "gären",
-    "lv": "Να ζυμώσει",
+    "lv": "Käärima",
     "level": "B2"
   },
   {
     "de": "Garnknäuel",
     "de_article": "das",
     "de_plural": "die Garnknäuel",
-    "lv": "Σφαίρα",
+    "lv": "Kera",
     "level": "B2"
   },
   {
     "de": "Garnspule",
     "de_article": "die",
     "de_plural": "die Garnspulen",
-    "lv": "Μισός • Μισός",
+    "lv": "Pool • Poolike",
     "level": "B2"
   },
   {
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "Μετρητής αερίου",
+    "lv": "Gaasiarvesti",
     "level": "B2"
   },
   {
     "de": "Gastarbeiter",
     "de_article": "der",
     "de_plural": "die Gastarbeiter",
-    "lv": "Μετανάστης εργάτης",
+    "lv": "Võõrtöötaja",
     "level": "B2"
   },
   {
     "de": "Gatte",
     "de_article": "der",
     "de_plural": "die Gatten",
-    "lv": "Σύζυγος (άνδρας)",
+    "lv": "Abikaasa (mees)",
     "level": "B2"
   },
   {
     "de": "Gattin",
     "de_article": "die",
     "de_plural": "die Gattinnen",
-    "lv": "Σύζυγος (σύζυγος)",
+    "lv": "Abikaasa (naine)",
     "level": "B2"
   },
   {
     "de": "Gattung",
     "de_article": "die",
     "de_plural": "die Gattungen",
-    "lv": "Είδος • Φυλή",
+    "lv": "Liik • Tõug",
     "level": "B2"
   },
   {
     "de": "Gebärde",
     "de_article": "die",
     "de_plural": "die Gebärden",
-    "lv": "Χειρονομία • Έκφραση",
+    "lv": "Žest • Ilme",
     "level": "B2"
   },
   {
     "de": "Gebot",
     "de_article": "das",
     "de_plural": "die Gebote",
-    "lv": "Εντολή • Απαίτηση",
+    "lv": "Käsk • Nõue",
     "level": "B2"
   },
   {
     "de": "gebrechlich",
-    "lv": "Αδύναμος • Στάσιμος • Φτωχός • Ελαττωματικός • Ελαττωματικός",
+    "lv": "Nõrk • Kidur • Vilets • Vigane • Vigadega",
     "level": "B2"
   },
   {
     "de": "gedämpft",
-    "lv": "Κοκκινιστό • Πνιγμένο",
+    "lv": "Hautatud • Summutatud",
     "level": "B2"
   },
   {
     "de": "Gedeck",
     "de_article": "das",
     "de_plural": "die Gedecke",
-    "lv": "Ρύθμιση του τόπου",
+    "lv": "Kohaseade",
     "level": "B2"
   },
   {
     "de": "gedeihen",
-    "lv": "Να πετύχει • Να πετύχει • Να ευημερήσει",
+    "lv": "Hästi õnnestuma • Õnnestuma • Õitsema",
     "level": "B2"
   },
   {
     "de": "gedenken",
-    "lv": "Να σκοπεύει • Να ανακαλεί • Να αναφέρει",
+    "lv": "Kavatsema • Meenutama • Mainima",
     "level": "B2"
   },
   {
     "de": "Gedenktafel",
     "de_article": "die",
     "de_plural": "die Gedenktafeln",
-    "lv": "Αναμνηστική πλακέτα",
+    "lv": "Mälestustahvel",
     "level": "B2"
   },
   {
     "de": "Gedenktag",
     "de_article": "der",
     "de_plural": "die Gedenktage",
-    "lv": "Ημέρα μνήμης",
+    "lv": "Mälestuspäev",
     "level": "B2"
   },
   {
     "de": "Gefährte",
     "de_article": "der",
     "de_plural": "die Gefährten",
-    "lv": "Μέλος",
+    "lv": "Lige",
     "level": "B2"
   },
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "Τερπνότητα",
+    "lv": "Meeldivus",
     "level": "B2"
   },
   {
     "de": "gefällig",
-    "lv": "Ευχάριστο • Πρόθυμο να εξυπηρετήσει • Ευγενικό",
+    "lv": "Meeldiv • Teenistusvalmis • Lahke",
     "level": "B2"
   },
   {
     "de": "Gefäß",
     "de_article": "das",
     "de_plural": "die Gefäße",
-    "lv": "Αγγείο • Αιμοφόρο αγγείο",
+    "lv": "Anum • Veresoon",
     "level": "B2"
   },
   {
     "de": "Gefecht",
     "de_article": "das",
     "de_plural": "die Gefechte",
-    "lv": "Μάχη • Αγώνας",
+    "lv": "Lahing • Võitlus",
     "level": "B2"
   },
   {
     "de": "Gefolge",
     "de_article": "das",
     "de_plural": "die Gefolge",
-    "lv": "Συνοδεία",
+    "lv": "Saatjaskond",
     "level": "B2"
   },
   {
     "de": "Gefüge",
     "de_article": "das",
     "de_plural": "die Gefüge",
-    "lv": "Δομή • Κατασκευή • Σύνδεση • Διασταύρωση",
+    "lv": "Struktuur • Ehitus • Ühendus • Liide",
     "level": "B2"
   },
   {
     "de": "Gegengift",
     "de_article": "das",
     "de_plural": "die Gegengifte",
-    "lv": "Αντίδοτο",
+    "lv": "Vastumürk",
     "level": "B2"
   },
   {
     "de": "Gegenmittel",
     "de_article": "das",
     "de_plural": "die Gegenmittel",
-    "lv": "Αντίδοτο",
+    "lv": "Vastuvahend",
     "level": "B2"
   },
   {
     "de": "Gegenrede",
     "de_article": "die",
     "de_plural": "die Gegenreden",
-    "lv": "Ένσταση",
+    "lv": "Vastuväide",
     "level": "B2"
   },
   {
     "de": "Gegensatz",
     "de_article": "der",
     "de_plural": "die Gegensätze",
-    "lv": "Αντίθεση • Αντίθεση • Αντίφαση",
+    "lv": "Vastand • Kontrast • Vastuolu",
     "level": "B2"
   },
   {
     "de": "Amtsgeheimnis",
     "de_article": "das",
     "de_plural": "die Amtsgeheimnisse",
-    "lv": "Επαγγελματική εχεμύθεια",
+    "lv": "Ametisaladus",
     "level": "B2"
   },
   {
     "de": "gehörig",
-    "lv": "Που ανήκει • Κατάλληλος • Κατάλληλος",
+    "lv": "Kuuluv • Kohane • Sobiv",
     "level": "B2"
   },
   {
     "de": "Geiselnahme",
     "de_article": "die",
     "de_plural": "die Geiselnahmen",
-    "lv": "Ομηρία",
+    "lv": "Pantvangi võtmine",
     "level": "B2"
   },
   {
     "de": "Geistliche",
     "de_article": "der",
     "de_plural": "die Geistlichen",
-    "lv": "Κληρικός",
+    "lv": "Vaimulik",
     "level": "B2"
   },
   {
     "de": "gekünstelt",
-    "lv": "Τεχνητό • Αφύσικο",
+    "lv": "Kunstlik • Ebaloomulik",
     "level": "B2"
   },
   {
     "de": "Geländelauf",
     "de_article": "der",
     "de_plural": "die Geländeläufe",
-    "lv": "Cross country",
+    "lv": "Kross",
     "level": "B2"
   },
   {
     "de": "gelassen",
-    "lv": "Ήρεμος • Εγωκεντρικός",
+    "lv": "Rahulik • Enesevalitsev",
     "level": "B2"
   },
   {
     "de": "geläufig",
-    "lv": "Γνωστός • Γνωστός • Συνήθης • Άπταιτος • Ελεύθερος",
+    "lv": "Teadaolev • Tuntud • Harjumuspärane • Sujuv • Vaba",
     "level": "B2"
   },
   {
     "de": "gelaunt",
-    "lv": "Διάθεση",
+    "lv": "Meeleolu",
     "level": "B2"
   },
   {
     "de": "Geldbuße",
     "de_article": "die",
     "de_plural": "die Geldbußen",
-    "lv": "Πρόστιμο",
+    "lv": "Rahatrahv",
     "level": "B2"
   },
   {
     "de": "Geldspende",
     "de_article": "die",
     "de_plural": "die Geldspenden",
-    "lv": "Μια δωρεά",
+    "lv": "Annetus",
     "level": "B2"
   },
   {
     "de": "Geldeinlage",
     "de_article": "die",
     "de_plural": "die Geldeinlagen",
-    "lv": "Κατάθεση χρημάτων • Κατάθεση",
+    "lv": "Rahahoius • Deposiit",
     "level": "B2"
   },
   {
     "de": "Geldumlauf",
     "de_article": "der",
     "de_plural": "die Geldumläufe",
-    "lv": "Ταμειακή ροή",
+    "lv": "Rahakäive",
     "level": "B2"
   },
   {
     "de": "gelegen",
-    "lv": "Βολικό • Προσιτό • Εύχρηστο",
+    "lv": "Mugav • Soodne • Käepärane",
     "level": "B2"
   },
   {
     "de": "Gelehrte",
     "de_article": "der",
     "de_plural": "die Gelehrten",
-    "lv": "Ένας επιστήμονας",
+    "lv": "Teadlane",
     "level": "B2"
   },
   {
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "Αγαπητό • Αγαπημένο • Αγαπημένο",
+    "lv": "Kallis • Armastatud • Lemmik",
     "level": "B2"
   },
   {
     "de": "Gelöbnis",
     "de_article": "das",
     "de_plural": "die Gelöbnisse",
-    "lv": "Επίσημη υπόσχεση",
+    "lv": "Pidulik lubadus",
     "level": "B2"
   },
   {
     "de": "Geltung",
     "de_article": "die",
     "de_plural": "die Geltungen",
-    "lv": "Σημασία • Σημασία",
+    "lv": "Tähendus • Tähtsus",
     "level": "B2"
   },
   {
     "de": "Gemahl",
     "de_article": "der",
     "de_plural": "die Gemahle",
-    "lv": "Σύζυγος (άνδρας) • Σύντροφος ζωής",
+    "lv": "Abikaasa (mees) • Elukaaslane",
     "level": "B2"
   },
   {
     "de": "Gemahlin",
     "de_article": "die",
     "de_plural": "die Gemahlinnen",
-    "lv": "Σύζυγος (σύζυγος) • Σύντροφος ζωής",
+    "lv": "Abikaasa (naine) • Elukaaslane",
     "level": "B2"
   },
   {
     "de": "gemäß",
-    "lv": "Σύμφωνα με • Σύμφωνα με",
+    "lv": "Vastavalt • Kooskõlas",
     "level": "B2"
   },
   {
     "de": "gemessen",
-    "lv": "Ισορροπημένος • Στοχαστικός",
+    "lv": "Tasakaalukas • Läbimõeldud",
     "level": "B2"
   },
   {
     "de": "Gemetzel",
     "de_article": "das",
     "de_plural": "die Gemetzel",
-    "lv": "Σφαγή • Μαζική δολοφονία",
+    "lv": "Veresaun • Massimõrv",
     "level": "B2"
   },
   {
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "Μείγμα • Ανάμεικτο • Κοκτέιλ",
+    "lv": "Segu • Segamini • Kokteil",
     "level": "B2"
   },
   {
     "de": "Gemüsebau",
     "de_article": "der",
-    "lv": "Λαχανοκομία • Κηπουρική",
+    "lv": "Juurviljakasvatus • Aiandus",
     "level": "B2"
   },
   {
     "de": "Gemüt",
     "de_article": "das",
     "de_plural": "die Gemüter",
-    "lv": "Χαρακτήρας • Φύση • Σκέψεις",
+    "lv": "Iseloom • Loomus • Mõtted",
     "level": "B2"
   },
   {
     "de": "gemütvoll",
-    "lv": "Εγκάρδιος • Άνετος",
+    "lv": "Südamlik • Hubane",
     "level": "B2"
   },
   {
     "de": "Genforscher",
     "de_article": "der",
     "de_plural": "die Genforscher",
-    "lv": "Γενεσιολόγος",
+    "lv": "Geeniteadlane",
     "level": "B2"
   },
   {
     "de": "Genmaterial",
     "de_article": "das",
-    "lv": "Γενετικό υλικό",
+    "lv": "Geneetiline materjal",
     "level": "B2"
   },
   {
     "de": "Genmutation",
     "de_article": "die",
     "de_plural": "die Genmutationen",
-    "lv": "Γονιδιακή μετάλλαξη",
+    "lv": "Geenimutatsioon",
     "level": "B2"
   },
   {
     "de": "genesen",
-    "lv": "Γίνε καλύτερα • Γίνε καλά",
+    "lv": "Paranema • Terveks saama",
     "level": "B2"
   },
   {
     "de": "Genesung",
     "de_article": "die",
     "de_plural": "die Genesungen",
-    "lv": "Ανάκτηση • Ανάκτηση",
+    "lv": "Paranemine • Tervenemine",
     "level": "B2"
   },
   {
     "de": "Genick",
     "de_article": "das",
     "de_plural": "die Genicke",
-    "lv": "Στο πίσω μέρος του κεφαλιού",
+    "lv": "Kukal",
     "level": "B2"
   },
   {
     "de": "sich genieren",
-    "lv": "Να ντρέπεσαι",
+    "lv": "Häbenema",
     "level": "B2",
     "study": {
       "id": "b2-sich-genieren",
       "layout": "minimalStudy",
-      "translation": "Να ντρέπεσαι",
+      "translation": "Häbenema",
       "rektion": "vor + kellele?",
-      "explanation": "Sich genieren απαιτεί την οριστική πρόθεση vor + σε ποιον • .",
+      "explanation": "Sich genieren nõuab kindlat eessõna vor + kellele?.",
       "forms": "vor + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -6031,7 +6127,10 @@ const B2_WORDS = [
             "sich genieren"
           ],
           "red": [
-            "vor + kam?"
+            "vor + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -6041,186 +6140,186 @@ const B2_WORDS = [
     "de": "Genosse",
     "de_article": "der",
     "de_plural": "die Genossen",
-    "lv": "Μέλος",
+    "lv": "Lige",
     "level": "B2"
   },
   {
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "Μέλος (γυναίκα)",
+    "lv": "Liige (naine)",
     "level": "B2"
   },
   {
     "de": "genügsam",
-    "lv": "Μετριόφρων",
+    "lv": "Tagasihoidlik",
     "level": "B2"
   },
   {
     "de": "Genugtuung",
     "de_article": "die",
     "de_plural": "die Genugtuungen",
-    "lv": "Ικανοποίηση",
+    "lv": "Rahulolu",
     "level": "B2"
   },
   {
     "de": "Gepäcknetz",
     "de_article": "das",
     "de_plural": "die Gepäcknetze",
-    "lv": "Δίχτυ αποσκευών",
+    "lv": "Pagasivõrk",
     "level": "B2"
   },
   {
     "de": "Gepäckwagen",
     "de_article": "der",
     "de_plural": "die Gepäckwagen",
-    "lv": "Αυτοκίνητο αποσκευών",
+    "lv": "Pagasivagun",
     "level": "B2"
   },
   {
     "de": "geraten",
-    "lv": "Μπείτε σε • Φτάσετε • Υποκύψετε • Επιτύχετε • Παραιτηθείτε",
+    "lv": "Sattuma • Jõudma • Alistuma • Õnnestuma • Loobuma",
     "level": "B2"
   },
   {
     "de": "Geratewohl",
     "de_article": "das",
-    "lv": "Καλή τύχη",
+    "lv": "Hea õnn",
     "level": "B2"
   },
   {
     "de": "geräuschlos",
-    "lv": "Αθόρυβα • Αθόρυβα",
+    "lv": "Vaikselt • Hääletult",
     "level": "B2"
   },
   {
     "de": "Gerede",
     "de_article": "das",
     "de_plural": "die Gerede",
-    "lv": "Ομιλία • Ομιλίες • Φήμες",
+    "lv": "Jutt • Kõned • Kuulujutud",
     "level": "B2"
   },
   {
     "de": "gerinnen",
-    "lv": "Πήζει • Πήζει • Πήζει • Παγώνει",
+    "lv": "Kalgenduma • Kokku minema • Tarduma • Külmuma",
     "level": "B2"
   },
   {
     "de": "Gerippe",
     "de_article": "das",
     "de_plural": "die Gerippe",
-    "lv": "Σκελετός • Σφάγιο • Πλαίσιο",
+    "lv": "Luukere • Korjus • Karkass",
     "level": "B2"
   },
   {
     "de": "Gerüst",
     "de_article": "das",
     "de_plural": "die Gerüste",
-    "lv": "Σκαλωσιά",
+    "lv": "Tellingud",
     "level": "B2"
   },
   {
     "de": "Gesamtzahl",
     "de_article": "die",
     "de_plural": "die Gesamtzahlen",
-    "lv": "Το συνολικό ποσό",
+    "lv": "Kogusumma",
     "level": "B2"
   },
   {
     "de": "Gesandte",
     "de_article": "der",
     "de_plural": "die Gesandten",
-    "lv": "Από",
+    "lv": "Saadik",
     "level": "B2"
   },
   {
     "de": "geschäftig",
-    "lv": "Απασχολημένος • Ενεργός",
+    "lv": "Tegus • Toimekas",
     "level": "B2"
   },
   {
     "de": "Geschehnis",
     "de_article": "das",
     "de_plural": "die Geschehnisse",
-    "lv": "Συμβάν • Περιστατικό",
+    "lv": "Sündmus • Juhtum",
     "level": "B2"
   },
   {
     "de": "Geschiedene",
     "de_article": "der",
     "de_plural": "die Geschiedenen",
-    "lv": "Ένα χωρισμένο άτομο",
+    "lv": "Lahutatud inimene",
     "level": "B2"
   },
   {
     "de": "Geschöpf",
     "de_article": "das",
     "de_plural": "die Geschöpfe",
-    "lv": "Πλάσμα • Πλάσμα",
+    "lv": "Loodu • Olend",
     "level": "B2"
   },
   {
     "de": "Geschoss",
     "de_article": "das",
     "de_plural": "die Geschosse",
-    "lv": "Βλήμα",
+    "lv": "Mürsk",
     "level": "B2"
   },
   {
     "de": "Geschütz",
     "de_article": "das",
     "de_plural": "die Geschütze",
-    "lv": "Κανόνι",
+    "lv": "Kahur",
     "level": "B2"
   },
   {
     "de": "Geschwätz",
     "de_article": "das",
     "de_plural": "die Geschwätze",
-    "lv": "Κουτσομπολιό • Ψέμα • Κουτσομπολιό",
+    "lv": "Lobisemine • Valetamine • Lobajutt",
     "level": "B2"
   },
   {
     "de": "geschweige",
-    "lv": "Για να μην πω",
+    "lv": "Rääkimata",
     "level": "B2"
   },
   {
     "de": "geschwind",
-    "lv": "Γρήγορος • Εύστροφος • Επιδέξιος",
+    "lv": "Kiire • Virk • Osav",
     "level": "B2"
   },
   {
     "de": "Geschwulst",
     "de_article": "die",
     "de_plural": "die Geschwülste",
-    "lv": "Όγκος",
+    "lv": "Kasvaja",
     "level": "B2"
   },
   {
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "Οίδημα • Έλκος",
+    "lv": "Paise • Haavand",
     "level": "B2"
   },
   {
     "de": "Geselle",
     "de_article": "der",
     "de_plural": "die Gesellen",
-    "lv": "Τεχνίτης • Βοηθός • Αγόρι • Τεχνίτης που έχει περάσει τις επαγγελματικές εξετάσεις",
+    "lv": "Sell • Abiline • Poiss • Kutseeksami sooritanud käsitööline",
     "level": "B2"
   },
   {
     "de": "sich gesellen",
-    "lv": "Να ενταχθούν",
+    "lv": "Ühinema",
     "level": "B2",
     "study": {
       "id": "b2-sich-gesellen",
       "layout": "minimalStudy",
-      "translation": "Να ενταχθούν",
+      "translation": "Ühinema",
       "rektion": "zu + kellele?",
-      "explanation": "Sich gesellen απαιτεί την οριστική πρόθεση zu + σε ποιον • .",
+      "explanation": "Sich gesellen nõuab kindlat eessõna zu + kellele?.",
       "forms": "zu + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -6229,7 +6328,10 @@ const B2_WORDS = [
             "sich gesellen"
           ],
           "red": [
-            "zu + kam?"
+            "zu + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -6239,38 +6341,38 @@ const B2_WORDS = [
     "de": "Gesichtszug",
     "de_article": "der",
     "de_plural": "die Gesichtszüge",
-    "lv": "Χαρακτηριστικά του προσώπου",
+    "lv": "Näojoon",
     "level": "B2"
   },
   {
     "de": "Gesinnung",
     "de_article": "die",
     "de_plural": "die Gesinnungen",
-    "lv": "Απόψεις • Διάθεση",
+    "lv": "Vaated • Meeleolu",
     "level": "B2"
   },
   {
     "de": "Gespött",
     "de_article": "das",
-    "lv": "Πειράγματα",
+    "lv": "Narrimine",
     "level": "B2"
   },
   {
     "de": "Gespür",
     "de_article": "das",
-    "lv": "Διαίσθηση",
+    "lv": "Intuitsioon",
     "level": "B2"
   },
   {
     "de": "sich gestalten",
-    "lv": "Γίνε τι",
+    "lv": "Kujunema milleks",
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
       "layout": "minimalStudy",
-      "translation": "Γίνε τι",
+      "translation": "Kujunema milleks",
       "rektion": "zu + kellele?",
-      "explanation": "Sich gestalten απαιτεί την οριστική πρόθεση zu + σε ποιον • .",
+      "explanation": "Sich gestalten nõuab kindlat eessõna zu + kellele?.",
       "forms": "zu + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -6279,7 +6381,10 @@ const B2_WORDS = [
             "sich gestalten"
           ],
           "red": [
-            "zu + kam?"
+            "zu + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -6289,389 +6394,389 @@ const B2_WORDS = [
     "de": "Geständnis",
     "de_article": "das",
     "de_plural": "die Geständnisse",
-    "lv": "Ομολογία",
+    "lv": "Ülestunnistus",
     "level": "B2"
   },
   {
     "de": "gestehen",
-    "lv": "Να παραδεχτώ",
+    "lv": "Tunnistama",
     "level": "B2"
   },
   {
     "de": "Gestein",
     "de_article": "das",
     "de_plural": "die Gesteine",
-    "lv": "Ογκόλιθος",
+    "lv": "Kaljurahn",
     "level": "B2"
   },
   {
     "de": "Gestell",
     "de_article": "das",
     "de_plural": "die Gestelle",
-    "lv": "Τρίποδο • Πλαίσιο βάσης • Σασί",
+    "lv": "Statiiv • Alusraam • Šassii",
     "level": "B2"
   },
   {
     "de": "Gestrüpp",
     "de_article": "das",
     "de_plural": "die Gestrüppe",
-    "lv": "Θάμνοι",
+    "lv": "Põõsastik",
     "level": "B2"
   },
   {
     "de": "Gesuch",
     "de_article": "das",
     "de_plural": "die Gesuche",
-    "lv": "Προσευχή • Δήλωση",
+    "lv": "Palve • Avaldus",
     "level": "B2"
   },
   {
     "de": "Getriebe",
     "de_article": "das",
     "de_plural": "die Getriebe",
-    "lv": "Κιβώτιο ταχυτήτων",
+    "lv": "Käigukast",
     "level": "B2"
   },
   {
     "de": "getüpfelt",
-    "lv": "Διακεκομμένη γραμμή",
+    "lv": "Punktiirjooneline",
     "level": "B2"
   },
   {
     "de": "Gewähr",
     "de_article": "die",
-    "lv": "Εγγύηση • Εγγύηση • Εγγύηση",
+    "lv": "Kindlus • Käendus • Garantii",
     "level": "B2"
   },
   {
     "de": "gewähren",
-    "lv": "Δίνω • Κατανέμω",
+    "lv": "Andma • Eraldama",
     "level": "B2"
   },
   {
     "de": "gewaltsam",
-    "lv": "Με βία • Υπό πίεση",
+    "lv": "Jõuga • Sundkorras",
     "level": "B2"
   },
   {
     "de": "Gewalttat",
     "de_article": "die",
     "de_plural": "die Gewalttaten",
-    "lv": "Βία • Πράξη βίας",
+    "lv": "Vägivald • Vägivallaakt",
     "level": "B2"
   },
   {
     "de": "gewandt",
-    "lv": "Επιδέξιος • Επιδέξιος",
+    "lv": "Osav • Vilunud",
     "level": "B2"
   },
   {
     "de": "Gewässer",
     "de_article": "das",
     "de_plural": "die Gewässer",
-    "lv": "Νερά",
+    "lv": "Veed",
     "level": "B2"
   },
   {
     "de": "Gewebe",
     "de_article": "das",
     "de_plural": "die Gewebe",
-    "lv": "Πανί • Χαρτομάντιλο",
+    "lv": "Riie • Kude",
     "level": "B2"
   },
   {
     "de": "Gewerbe",
     "de_article": "das",
     "de_plural": "die Gewerbe",
-    "lv": "Επάγγελμα • Επάγγελμα • Μόνιμη εργασία σε εμπόριο ή βιοτεχνία ή υπηρεσία",
+    "lv": "Amet • Kutseala • Püsiv töö kaubanduses või käsitöös või teenindamises",
     "level": "B2"
   },
   {
     "de": "gewieft",
-    "lv": "Σκληραγωγημένος • Πονηρός",
+    "lv": "Karastunud • Kaval",
     "level": "B2"
   },
   {
     "de": "gewissenlos",
-    "lv": "Χωρίς συνείδηση ​​ • Ανέντιμος",
+    "lv": "Südametunnistuseta • Ebaaus",
     "level": "B2"
   },
   {
     "de": "Gewissheit",
     "de_article": "die",
     "de_plural": "die Gewissheiten",
-    "lv": "Σαφήνεια • Βεβαιότητα",
+    "lv": "Selgus • Kindlus",
     "level": "B2"
   },
   {
     "de": "Gezeiten",
     "de_article": "die",
-    "lv": "Άμπωτη και ροή",
+    "lv": "Tõus-mõõn",
     "level": "B2"
   },
   {
     "de": "gierig",
-    "lv": "Λαίμαργος • Άπληστος",
+    "lv": "Himur • Ahne",
     "level": "B2"
   },
   {
     "de": "geldgierig",
-    "lv": "Άπληστοι για χρήματα",
+    "lv": "Rahaahne",
     "level": "B2"
   },
   {
     "de": "machtgierig",
-    "lv": "Άπληστοι για εξουσία",
+    "lv": "Võimuahne",
     "level": "B2"
   },
   {
     "de": "rachgierig",
-    "lv": "Εκδικητικός",
+    "lv": "Kättemaksuhimuline",
     "level": "B2"
   },
   {
     "de": "raffgierig",
-    "lv": "Άπληστος",
+    "lv": "Ahne",
     "level": "B2"
   },
   {
     "de": "Giftmüll",
     "de_article": "der",
-    "lv": "Τοξικά απόβλητα",
+    "lv": "Mürgised jäätmed",
     "level": "B2"
   },
   {
     "de": "Gipsabdruck",
     "de_article": "der",
     "de_plural": "die Gipsabdrücke",
-    "lv": "Γύψος",
+    "lv": "Kipsjäljend",
     "level": "B2"
   },
   {
     "de": "Gipsverband",
     "de_article": "der",
     "de_plural": "die Gipsverbände",
-    "lv": "Γυψοσοβά",
+    "lv": "Gipsplaastr",
     "level": "B2"
   },
   {
     "de": "Glaser",
     "de_article": "der",
     "de_plural": "die Glaser",
-    "lv": "Τζαμάς",
+    "lv": "Klaasija",
     "level": "B2"
   },
   {
     "de": "gläsern",
-    "lv": "Από γυαλί • Γυάλινο",
+    "lv": "Klaasist • Klaasjas",
     "level": "B2"
   },
   {
     "de": "Glasfiber",
     "de_article": "die",
-    "lv": "Υαλοβάμβακα",
+    "lv": "Klaaskiud",
     "level": "B2"
   },
   {
     "de": "Glashütte",
     "de_article": "die",
     "de_plural": "die Glashütten",
-    "lv": "Εργοστάσιο γυαλιού",
+    "lv": "Klaasitehas",
     "level": "B2"
   },
   {
     "de": "Glasur",
     "de_article": "die",
     "de_plural": "die Glasuren",
-    "lv": "Στιλβώ",
+    "lv": "Glasuur",
     "level": "B2"
   },
   {
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "Γυμνό τριχωτό της κεφαλής",
+    "lv": "Paljas peanahk",
     "level": "B2"
   },
   {
     "de": "Stirnglatze",
     "de_article": "die",
     "de_plural": "die Stirnglatzen",
-    "lv": "Ανοιχτό μέτωπο",
+    "lv": "Avatud laup",
     "level": "B2"
   },
   {
     "de": "gleichmütig",
-    "lv": "Ισορροπημένος • Ήρεμος",
+    "lv": "Tasakaalukas • Rahulik",
     "level": "B2"
   },
   {
     "de": "Gleichnis",
     "de_article": "das",
     "de_plural": "die Gleichnisse",
-    "lv": "Ομοιότητα",
+    "lv": "Sarnasus",
     "level": "B2"
   },
   {
     "de": "gleiten",
-    "lv": "Να γλιστρήσει • Να σχεδιάσει",
+    "lv": "Libisema • Planeerima",
     "level": "B2"
   },
   {
     "de": "Glied",
     "de_article": "das",
     "de_plural": "die Glieder",
-    "lv": "Μέλος • Άκρο • Κρίκος της αλυσίδας",
+    "lv": "Liige • Jäse • Keti lüli",
     "level": "B2"
   },
   {
     "de": "gliedern",
-    "lv": "Να μοιραστείς",
+    "lv": "Jagama",
     "level": "B2"
   },
   {
     "de": "glimmen",
-    "lv": "Λάμψη • Λάμπει ζεστό",
+    "lv": "Hõõguma • Kuumalt hõõguma",
     "level": "B2"
   },
   {
     "de": "glotzen",
-    "lv": "Να κοιτάζει επίμονα",
+    "lv": "Jõllitama",
     "level": "B2"
   },
   {
     "de": "glühen",
-    "lv": "Να λάμπει • Να ζεσταίνεται • Να καίει",
+    "lv": "Hõõguma • Kuumenema • Põlema",
     "level": "B2"
   },
   {
     "de": "Glut",
     "de_article": "die",
     "de_plural": "die Gluten",
-    "lv": "Καυτή ζέστη • Λαμπερή",
+    "lv": "Kõrvetav kuumus • Hõõgumine",
     "level": "B2"
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
-    "lv": "Χάρη • Συγγνώμη",
+    "lv": "Arm • Armuandmine",
     "level": "B2"
   },
   {
     "de": "Gnadenbrot",
     "de_article": "das",
-    "lv": "Ψωμί της χάρης",
+    "lv": "Armuleib",
     "level": "B2"
   },
   {
     "de": "gnädig",
-    "lv": "Ευγενικός • Σεβαστός",
+    "lv": "Armulik • Austatud",
     "level": "B2"
   },
   {
     "de": "Goldader",
     "de_article": "die",
     "de_plural": "die Goldadern",
-    "lv": "Χρυσή φλέβα",
+    "lv": "Kullasoon",
     "level": "B2"
   },
   {
     "de": "Goldbarren",
     "de_article": "der",
     "de_plural": "die Goldbarren",
-    "lv": "Ράβδος χρυσού",
+    "lv": "Kullakang",
     "level": "B2"
   },
   {
     "de": "Goldlegierung",
     "de_article": "die",
     "de_plural": "die Goldlegierungen",
-    "lv": "Κράμα χρυσού",
+    "lv": "Kullasulam",
     "level": "B2"
   },
   {
     "de": "Goldmine",
     "de_article": "die",
     "de_plural": "die Goldminen",
-    "lv": "Χρυσωρυχείο",
+    "lv": "Kullakaevandus",
     "level": "B2"
   },
   {
     "de": "Goldwäscher",
     "de_article": "der",
     "de_plural": "die Goldwäscher",
-    "lv": "Χρυσό πλυντήριο",
+    "lv": "Kullapesija",
     "level": "B2"
   },
   {
     "de": "Goldschmied",
     "de_article": "der",
     "de_plural": "die Goldschmiede",
-    "lv": "Χρυσοχόος",
+    "lv": "Kullassepp",
     "level": "B2"
   },
   {
     "de": "Gondel",
     "de_article": "die",
     "de_plural": "die Gondeln",
-    "lv": "Γόνδολα • Καμπίνα τελεφερίκ",
+    "lv": "Gondel • Köisraudtee kabiin",
     "level": "B2"
   },
   {
     "de": "Gönner",
     "de_article": "der",
     "de_plural": "die Gönner",
-    "lv": "Ευεργέτης • Προστάτης",
+    "lv": "Heategija • Mesenaat",
     "level": "B2"
   },
   {
     "de": "Gottheit",
     "de_article": "die",
     "de_plural": "die Gottheiten",
-    "lv": "Θεότητα",
+    "lv": "Jumalus",
     "level": "B2"
   },
   {
     "de": "Götze",
     "de_article": "der",
     "de_plural": "die Götzen",
-    "lv": "Ένα είδωλο",
+    "lv": "Ebajumal",
     "level": "B2"
   },
   {
     "de": "Götzendienst",
     "de_article": "der",
-    "lv": "Ειδωλολατρεία",
+    "lv": "Ebajumalateenistus",
     "level": "B2"
   },
   {
     "de": "Grabung",
     "de_article": "die",
     "de_plural": "die Grabungen",
-    "lv": "Ανασκαφές",
+    "lv": "Väljakaevamised",
     "level": "B2"
   },
   {
     "de": "grässlich",
-    "lv": "Τρομερό • Φρικτό • Αποκρουστικό",
+    "lv": "Kohutav • Jube • Vastik",
     "level": "B2"
   },
   {
     "de": "grauen",
-    "lv": "Πλέκω",
+    "lv": "Kuduma",
     "level": "B2"
   },
   {
     "de": "sich grauen",
-    "lv": "Να μην φοβάσαι τίποτα",
+    "lv": "Kartma midagi",
     "level": "B2",
     "study": {
       "id": "b2-sich-grauen",
       "layout": "minimalStudy",
-      "translation": "Να μην φοβάσαι τίποτα",
+      "translation": "Kartma midagi",
       "rektion": "vor + kellele?",
-      "explanation": "Sich grauen απαιτεί την οριστική πρόθεση vor + σε ποιον • .",
+      "explanation": "Sich grauen nõuab kindlat eessõna vor + kellele?.",
       "forms": "vor + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -6680,7 +6785,10 @@ const B2_WORDS = [
             "sich grauen"
           ],
           "red": [
-            "vor + kam?"
+            "vor + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -6688,343 +6796,343 @@ const B2_WORDS = [
   },
   {
     "de": "grausam",
-    "lv": "Σκληρός • Σκληρός",
+    "lv": "Julm • Karm",
     "level": "B2"
   },
   {
     "de": "gravierend",
-    "lv": "Σπουδαίος",
+    "lv": "Tähtis",
     "level": "B2"
   },
   {
     "de": "Greis",
     "de_article": "der",
     "de_plural": "die Greise",
-    "lv": "Ένας ηλικιωμένος άνδρας",
+    "lv": "Kõrges eas mees",
     "level": "B2"
   },
   {
     "de": "grell",
-    "lv": "Φωτεινό • Εκθαμβωτικό",
+    "lv": "Särav • Pimestav",
     "level": "B2"
   },
   {
     "de": "Grenzbeamte",
     "de_article": "der",
     "de_plural": "die Grenzbeamten",
-    "lv": "Συνοριοφύλακας",
+    "lv": "Piirivalveametnik",
     "level": "B2"
   },
   {
     "de": "Grenzbezirk",
     "de_article": "der",
     "de_plural": "die Grenzbezirke",
-    "lv": "Συνοριακή περιοχή",
+    "lv": "Piiriäärne piirkond",
     "level": "B2"
   },
   {
     "de": "Grenzkonflikt",
     "de_article": "der",
     "de_plural": "die Grenzkonflikte",
-    "lv": "Συνοριακή σύγκρουση",
+    "lv": "Piirikonflikt",
     "level": "B2"
   },
   {
     "de": "Grenzverkehr",
     "de_article": "der",
-    "lv": "Διασυνοριακή κυκλοφορία",
+    "lv": "Piiriliiklus",
     "level": "B2"
   },
   {
     "de": "Grenzbereich",
     "de_article": "der",
     "de_plural": "die Grenzbereiche",
-    "lv": "Συνοριακή λωρίδα • Συνοριακή ζώνη",
+    "lv": "Piiririba • Piirivöönd",
     "level": "B2"
   },
   {
     "de": "Grimm",
     "de_article": "der",
-    "lv": "Μεγάλος θυμός • Οργή",
+    "lv": "Suur viha • Raev",
     "level": "B2"
   },
   {
     "de": "grinsen",
-    "lv": "Να χαμογελάσω",
+    "lv": "Muigama",
     "level": "B2"
   },
   {
     "de": "Großmacht",
     "de_article": "die",
     "de_plural": "die Großmächte",
-    "lv": "Υπερδύναμη",
+    "lv": "Suurriik",
     "level": "B2"
   },
   {
     "de": "Großmut",
     "de_article": "die",
-    "lv": "Γενναιοδωρία",
+    "lv": "Suuremeelsus",
     "level": "B2"
   },
   {
     "de": "großmütig",
-    "lv": "Γενναιόδωρος",
+    "lv": "Suuremeelne",
     "level": "B2"
   },
   {
     "de": "Gründonnerstag",
     "de_article": "der",
     "de_plural": "die Gründonnerstage",
-    "lv": "Μεγάλη Πέμπτη πριν το Πάσχα",
+    "lv": "Suur neljapäev enne lihavõtteid",
     "level": "B2"
   },
   {
     "de": "Grundrecht",
     "de_article": "das",
     "de_plural": "die Grundrechte",
-    "lv": "Θεμελιώδες δικαίωμα",
+    "lv": "Põhiõigus",
     "level": "B2"
   },
   {
     "de": "Grundriss",
     "de_article": "der",
     "de_plural": "die Grundrisse",
-    "lv": "Γενικό σχέδιο",
+    "lv": "Põhiplaan",
     "level": "B2"
   },
   {
     "de": "Grußwort",
     "de_article": "das",
     "de_plural": "die Grußworte",
-    "lv": "Μια σύντομη επίσημη ομιλία",
+    "lv": "Lühike ametlik kõne",
     "level": "B2"
   },
   {
     "de": "Gummizug",
     "de_article": "der",
     "de_plural": "die Gummizüge",
-    "lv": "Λαστιχάκι",
+    "lv": "Kummipael",
     "level": "B2"
   },
   {
     "de": "Gunst",
     "de_article": "die",
-    "lv": "Εύνοια",
+    "lv": "Soosing",
     "level": "B2"
   },
   {
     "de": "Günstling",
     "de_article": "der",
     "de_plural": "die Günstlinge",
-    "lv": "Αγαπημένο • Ευνοϊκό",
+    "lv": "Lemmik • Soositav",
     "level": "B2"
   },
   {
     "de": "gurgeln",
-    "lv": "Λαιμός • Ξεπλύνετε το στόμα",
+    "lv": "Kurku • Suud loputama",
     "level": "B2"
   },
   {
     "de": "Guss",
     "de_article": "der",
     "de_plural": "die Güsse",
-    "lv": "Νεροποντή • Νεροποντή",
+    "lv": "Valamine • Vihmahoog",
     "level": "B2"
   },
   {
     "de": "Gutachten",
     "de_article": "das",
     "de_plural": "die Gutachten",
-    "lv": "Γνώμη • Γνώμη εμπειρογνώμονα",
+    "lv": "Arvamus • Eksperdiarvamus",
     "level": "B2"
   },
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "Ευγένεια • Ποιότητα • Όφελος",
+    "lv": "Heasüdamlikkus • Kvaliteet • Kasu",
     "level": "B2"
   },
   {
     "de": "Güterversand",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Αποστολή των εμπορευμάτων",
+    "lv": "Kauba saatmine",
     "level": "B2"
   },
   {
     "de": "Gütezeichen",
     "de_article": "das",
     "de_plural": "die Gütezeichen",
-    "lv": "Σήμα ποιότητας",
+    "lv": "Kvaliteedimärk",
     "level": "B2"
   },
   {
     "de": "gutheißen",
-    "lv": "Εγκρίνω",
+    "lv": "Heaks kiitma",
     "level": "B2"
   },
   {
     "de": "gutmütig",
-    "lv": "Καλόκαρδος",
+    "lv": "Heasüdamlik",
     "level": "B2"
   },
   {
     "de": "haaren",
-    "lv": "Να φτερά (σε πουλιά)",
+    "lv": "Sulgima (lindudel)",
     "level": "B2"
   },
   {
     "de": "habsüchtig",
-    "lv": "Άπληστος",
+    "lv": "Ahne",
     "level": "B2"
   },
   {
     "de": "Hafenbecken",
     "de_article": "das",
     "de_plural": "die Hafenbecken",
-    "lv": "Λιμενικός ισημερινός",
+    "lv": "Sadamaakvatoorium",
     "level": "B2"
   },
   {
     "de": "Hafengebühr",
     "de_article": "die",
     "de_plural": "die Hafengebühren",
-    "lv": "Λιμενικός φόρος",
+    "lv": "Sadamamaks",
     "level": "B2"
   },
   {
     "de": "Hafengelände",
     "de_article": "das",
     "de_plural": "die Hafengelände",
-    "lv": "Περιοχή του λιμανιού",
+    "lv": "Sadamaala",
     "level": "B2"
   },
   {
     "de": "Hahnenkamm",
     "de_article": "der",
     "de_plural": "die Hahnenkämme",
-    "lv": "Κόκορας λάρακας",
+    "lv": "Kukelaul",
     "level": "B2"
   },
   {
     "de": "Haltung",
     "de_article": "die",
     "de_plural": "die Haltungen",
-    "lv": "Στάση • Συμπεριφορά",
+    "lv": "Kehahoiak • Käitumine",
     "level": "B2"
   },
   {
     "de": "Handelsflotte",
     "de_article": "die",
     "de_plural": "die Handelsflotten",
-    "lv": "Εμπορικό στόλο",
+    "lv": "Kaubalaevastik",
     "level": "B2"
   },
   {
     "de": "Handelsklasse",
     "de_article": "die",
     "de_plural": "die Handelsklassen",
-    "lv": "Κατηγορία εμπορευμάτων",
+    "lv": "Kaubaklass",
     "level": "B2"
   },
   {
     "de": "Hängebrücke",
     "de_article": "die",
     "de_plural": "die Hängebrücken",
-    "lv": "Κινητή γέφυρα",
+    "lv": "Vantsild",
     "level": "B2"
   },
   {
     "de": "Hängsel",
     "de_article": "das",
     "de_plural": "die Hängsel",
-    "lv": "Ραμμένη κρεμάστρα",
+    "lv": "Õmmeldud riidepuu",
     "level": "B2"
   },
   {
     "de": "hänseln",
-    "lv": "Πειράζω • Νταής",
+    "lv": "Narrima • Kiusama",
     "level": "B2"
   },
   {
     "de": "hantieren",
-    "lv": "Για να χειριστεί κάτι • Να ενεργήσει",
+    "lv": "Midagi käsitsema • Toimima",
     "level": "B2"
   },
   {
     "de": "Harn",
     "de_article": "der",
     "de_plural": "die Harne",
-    "lv": "Ούρο",
+    "lv": "Uriin",
     "level": "B2"
   },
   {
     "de": "Harsch",
     "de_article": "der",
     "de_plural": "die Harsche",
-    "lv": "Χανγκελούμ",
+    "lv": "Hangelumi",
     "level": "B2"
   },
   {
     "de": "härten",
-    "lv": "Να σκληρύνει",
+    "lv": "Karastama",
     "level": "B2"
   },
   {
     "de": "hartnäckig",
-    "lv": "Επίμονος • Επίμονος",
+    "lv": "Kangekaelne • Visa",
     "level": "B2"
   },
   {
     "de": "Haube",
     "de_article": "die",
     "de_plural": "die Hauben",
-    "lv": "Καπέλο • Καπό",
+    "lv": "Müts • Kapott",
     "level": "B2",
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "Καπέλο • Καπό",
+      "translation": "Müts • Kapott",
       "explanation": [
-        "Κύρια ιδέα: die Haube μπορεί να σημαίνει κάλυμμα κεφαλής/κουκούλα ή κάλυμμα/κάλυμμα — το περιεχόμενο καθορίζει το νόημα.",
-        "Στο κεφάλι: die Haube = καπέλο, κουκούλα ή συγκεκριμένο κάλυμμα κεφαλής (π.χ. Nonne mit Haube).",
-        "Στο αυτοκίνητο: die Motorhaube ή απλά die Haube = καπό κινητήρα.",
-        "Στην κουζίνα: die Dunsthaube = κουκούλα. Στην τεχνολογία: ένα κάλυμμα ή κάλυμμα πάνω από μια συσκευή."
+        "Peamine mõte: die Haube võib tähendada peakatet/kapuutsi või katet/kaant — kontekst määrab tähenduse.",
+        "Peas: die Haube = müts, kapuuts või konkreetne peakate (nt Nonne mit Haube).",
+        "Auto juures: die Motorhaube või lihtsalt die Haube = mootorikapott.",
+        "Köögis: die Dunsthaube = pliidi kubu. Tehnikas: kate või kaas seadme kohal."
       ],
       "examples": [
         {
           "de": "Sie trägt eine warme Haube.",
-          "lv": "Φοράει ένα ζεστό καπέλο."
+          "lv": "Ta kannab sooja mütsi."
         },
         {
           "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "Η καλόγρια φοράει μαύρη κουκούλα."
+          "lv": "Nunn kannab musta kapuutsi."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
-          "lv": "Ανοίγει το καπό του αυτοκινήτου."
+          "lv": "Ta avab auto mootorikapoti."
         },
         {
           "de": "Die Motorhaube ist kaputt.",
-          "lv": "Το καπό του κινητήρα είναι σπασμένο."
+          "lv": "Mootorikapott on katki."
         },
         {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "Μια κουκούλα κρέμεται πάνω από τη σόμπα."
+          "lv": "Pliidi kohal ripub kubu."
         },
         {
           "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Βάλτε το καπάκι στην κατσαρόλα ως κάλυμμα."
+          "lv": "Pane kaas pajale kattena."
         }
       ],
       "tip": [
-        "Μιλάμε για κεφάλι, καλόγρια, καπέλο → καπέλο / κουκούλα.",
-        "Μιλάμε για αυτοκίνητο, κινητήρας → καπό κινητήρα.",
-        "Μιλάμε για σόμπα, συσκευή → κουκούλα ή κάλυμμα."
+        "Runā par galvu, mūķeni, cepuri → cepurīte / kapuce.",
+        "Runā par auto, motoru → motora pārsegs.",
+        "Runā par plīti, iekārtu → nosūcējs vai pārsegs."
       ],
       "important": [
-        "Die Haube = καπέλο/κουκούλα Ή καπό Ή κουκούλα/κάλυμμα — ανάλογα με το πλαίσιο.",
-        "Οι σύνθετες λέξεις βοηθούν: Motorhaube (αυτοκίνητο), Dunsthaube (κουζίνα)."
+        "die Haube = cepurīte/kapuce VAI motora pārsegs VAI nosūcējs/pārsegs — atkarībā no konteksta.",
+        "Salikteņi palīdz: Motorhaube (auto), Dunsthaube (virtuve)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7032,10 +7140,10 @@ const B2_WORDS = [
             "die Haube"
           ],
           "purple": [
-            "cepurīte",
-            "pārsegs",
-            "kapuce",
-            "motora pārsegs"
+            "müts",
+            "kate",
+            "kapuuts",
+            "mootorikapott"
           ],
           "green": [
             "Motorhaube",
@@ -7051,7 +7159,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "cepurīti"
+                "mütsi"
               ]
             }
           },
@@ -7063,7 +7171,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "kapuci"
+                "kapuutsi"
               ]
             }
           },
@@ -7075,7 +7183,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pārsegu"
+                "mootorikapoti"
               ]
             }
           },
@@ -7087,7 +7195,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pārsegs"
+                "mootorikapott"
               ]
             }
           },
@@ -7099,7 +7207,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "nosūcējs"
+                "kubu"
               ]
             }
           },
@@ -7111,7 +7219,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pārsegu"
+                "kattena"
               ]
             }
           }
@@ -7123,181 +7231,181 @@ const B2_WORDS = [
     "de": "Haushaltung",
     "de_article": "die",
     "de_plural": "die Haushaltungen",
-    "lv": "Εκπαίδευση του νοικοκυριού",
+    "lv": "Majapidamisõpetus",
     "level": "B2"
   },
   {
     "de": "Hausherr",
     "de_article": "der",
     "de_plural": "die Hausherren",
-    "lv": "Κύριος (του σπιτιού)",
+    "lv": "Peremees (majas)",
     "level": "B2"
   },
   {
     "de": "Hausrat",
     "de_article": "der",
-    "lv": "Οικιακή περιουσία",
+    "lv": "Kodune vara",
     "level": "B2"
   },
   {
     "de": "Hautjucken",
     "de_article": "das",
-    "lv": "Φαγούρα στο δέρμα",
+    "lv": "Nahasügelus",
     "level": "B2"
   },
   {
     "de": "Hautrötung",
     "de_article": "die",
     "de_plural": "die Hautrötungen",
-    "lv": "Ερυθρότητα του δέρματος",
+    "lv": "Naha punetus",
     "level": "B2"
   },
   {
     "de": "hauteng",
-    "lv": "Στενά ρούχα",
+    "lv": "Liibuv riietus",
     "level": "B2"
   },
   {
     "de": "Heck",
     "de_article": "das",
     "de_plural": "die Hecke",
-    "lv": "Η πρύμνη του πλοίου",
+    "lv": "Laeva ahter",
     "level": "B2"
   },
   {
     "de": "Heckklappe",
     "de_article": "die",
     "de_plural": "die Heckklappen",
-    "lv": "Καταπακτή πορτμπαγκάζ αυτοκινήτου",
+    "lv": "Auto pagasiruumi luuk",
     "level": "B2"
   },
   {
     "de": "Heilige",
     "de_article": "der",
     "de_plural": "die Heiligen",
-    "lv": "Άγιος",
+    "lv": "Pühak",
     "level": "B2"
   },
   {
     "de": "Heiligtum",
     "de_article": "das",
     "de_plural": "die Heiligtümer",
-    "lv": "Ιερό • Ιερότητα",
+    "lv": "Pühamu • Pühadus",
     "level": "B2"
   },
   {
     "de": "Heilkunde",
     "de_article": "die",
-    "lv": "Θεραπεία • Ιατρική",
+    "lv": "Ravi • Meditsiin",
     "level": "B2"
   },
   {
     "de": "Heilquelle",
     "de_article": "die",
     "de_plural": "die Heilquellen",
-    "lv": "Πηγή θεραπείας",
+    "lv": "Raviallikas",
     "level": "B2"
   },
   {
     "de": "Heilstätte",
     "de_article": "die",
     "de_plural": "die Heilstätten",
-    "lv": "Σανατόριο",
+    "lv": "Sanatoorium",
     "level": "B2"
   },
   {
     "de": "Heilpraktiker",
     "de_article": "der",
     "de_plural": "die Heilpraktiker",
-    "lv": "Θεραπευτής",
+    "lv": "Ravitseja",
     "level": "B2"
   },
   {
     "de": "heimatlos",
-    "lv": "Πατρίδα",
+    "lv": "Kodumaata",
     "level": "B2"
   },
   {
     "de": "Heimkehr",
     "de_article": "die",
-    "lv": "Σπίτι • Επιστροφή στην πατρίδα",
+    "lv": "Koju • Kodumaale naasmine",
     "level": "B2"
   },
   {
     "de": "Heimwerker",
     "de_article": "der",
     "de_plural": "die Heimwerker",
-    "lv": "Οικιακός τεχνίτης",
+    "lv": "Kodune käsitööline",
     "level": "B2"
   },
   {
     "de": "Heizkraftwerk",
     "de_article": "das",
     "de_plural": "die Heizkraftwerke",
-    "lv": "Θερμοηλεκτρικός σταθμός",
+    "lv": "Soojuselektrijaam",
     "level": "B2"
   },
   {
     "de": "Heizöl",
     "de_article": "das",
     "de_plural": "die Heizöle",
-    "lv": "Υγρό καύσιμο • Μαζούτ",
+    "lv": "Vedelkütus • Masuut",
     "level": "B2"
   },
   {
     "de": "Heldentat",
     "de_article": "die",
     "de_plural": "die Heldentaten",
-    "lv": "Ηρωική πράξη",
+    "lv": "Kangelastegu",
     "level": "B2"
   },
   {
     "de": "hemmen",
-    "lv": "Αποτροπή • Αναβολή • Φρένο",
+    "lv": "Takistama • Edasi lükkama • Pidurdama",
     "level": "B2"
   },
   {
     "de": "Hemmung",
     "de_article": "die",
     "de_plural": "die Hemmungen",
-    "lv": "Εμπόδιο • Καθυστέρηση",
+    "lv": "Takistus • Viivitus",
     "level": "B2"
   },
   {
     "de": "henken",
-    "lv": "Κρεμάω • Κρεμάω άτομο",
+    "lv": "Riputama • Inimest üles pooma",
     "level": "B2"
   },
   {
     "de": "herabsetzen",
-    "lv": "Υποβαθμίζω • Υποτιμώ",
+    "lv": "Alandama • Halvustama",
     "level": "B2"
   },
   {
     "de": "herangehen",
-    "lv": "Να αρχίσει να δουλεύει",
+    "lv": "Tööle asuma",
     "level": "B2"
   },
   {
     "de": "herantreten",
-    "lv": "Προσέγγιση",
+    "lv": "Lähenema",
     "level": "B2"
   },
   {
     "de": "heraufkommen",
-    "lv": "Να ανέβει • Να σηκωθεί",
+    "lv": "Üles tulema • Üles saama",
     "level": "B2"
   },
   {
     "de": "sich herausbilden",
-    "lv": "Εξελιχθεί σε τι",
+    "lv": "Välja kujunema milleks",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausbilden",
       "layout": "minimalStudy",
-      "translation": "Εξελιχθεί σε τι",
+      "translation": "Välja kujunema milleks",
       "rektion": "zu + kellele?",
-      "explanation": "Sich herausbilden απαιτεί την οριστική πρόθεση zu + σε ποιον • .",
+      "explanation": "Sich herausbilden nõuab kindlat eessõna zu + kellele?.",
       "forms": "zu + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -7306,7 +7414,10 @@ const B2_WORDS = [
             "sich herausbilden"
           ],
           "red": [
-            "zu + kam?"
+            "zu + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -7314,19 +7425,19 @@ const B2_WORDS = [
   },
   {
     "de": "herausfordern",
-    "lv": "Πρόκληση",
+    "lv": "Väljakutset esitama",
     "level": "B2"
   },
   {
     "de": "sich heraushalten",
-    "lv": "Να κρατηθεί μακριά από κάτι",
+    "lv": "Eemale hoidma millestki",
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
       "layout": "minimalStudy",
-      "translation": "Να κρατηθεί μακριά από κάτι",
+      "translation": "Eemale hoidma millestki",
       "rektion": "aus + kellele?",
-      "explanation": "Sich heraushalten απαιτεί την οριστική πρόθεση aus + σε ποιον • .",
+      "explanation": "Sich heraushalten nõuab kindlat eessõna aus + kellele?.",
       "forms": "aus + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -7335,7 +7446,10 @@ const B2_WORDS = [
             "sich heraushalten"
           ],
           "red": [
-            "aus + kam?"
+            "aus + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -7343,19 +7457,19 @@ const B2_WORDS = [
   },
   {
     "de": "herausstellen",
-    "lv": "Να σβήσει",
+    "lv": "Välja panema",
     "level": "B2"
   },
   {
     "de": "sich herausstellen",
-    "lv": "Μάθετε γιατί",
+    "lv": "Selguma milleks",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausstellen",
       "layout": "minimalStudy",
-      "translation": "Μάθετε γιατί",
+      "translation": "Selguma milleks",
       "rektion": "als + mis?",
-      "explanation": "Sich herausstellen απαιτεί την οριστική πρόθεση als + τι • .",
+      "explanation": "Sich herausstellen nõuab kindlat eessõna als + mis?.",
       "forms": "als + mis?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -7364,7 +7478,10 @@ const B2_WORDS = [
             "sich herausstellen"
           ],
           "red": [
-            "als + kas?"
+            "als + mis?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -7372,34 +7489,34 @@ const B2_WORDS = [
   },
   {
     "de": "herb",
-    "lv": "Γλυκόπικρη • Τάρτα",
+    "lv": "Kibedavõitu • Hapukas",
     "level": "B2"
   },
   {
     "de": "herrschen",
-    "lv": "Να κυβερνήσει",
+    "lv": "Valitsema",
     "level": "B2"
   },
   {
     "de": "hervorheben",
-    "lv": "Τονίζουν • Τονίζουν",
+    "lv": "Esile tõstma • Rõhutama",
     "level": "B2"
   },
   {
     "de": "hervorrufen",
-    "lv": "Να προκαλέσει • Να προκαλέσει • Να προκαλέσει • Να διεγείρει",
+    "lv": "Esile kutsuma • Põhjustama • Tekitama • Äratama",
     "level": "B2"
   },
   {
     "de": "sich hervortun",
-    "lv": "Συνεχίζω να αντιστέκομαι",
+    "lv": "Silma paistma",
     "level": "B2",
     "study": {
       "id": "b2-sich-hervortun",
       "layout": "minimalStudy",
-      "translation": "Συνεχίζω να αντιστέκομαι",
+      "translation": "Silma paistma",
       "rektion": "in + kus?",
-      "explanation": "Sich hervortun απαιτεί την οριστική πρόθεση στο + πού • .",
+      "explanation": "Sich hervortun nõuab kindlat eessõna in + kus?.",
       "forms": "in + kus?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -7408,7 +7525,10 @@ const B2_WORDS = [
             "sich hervortun"
           ],
           "red": [
-            "in + kur?"
+            "in + kus?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -7417,79 +7537,79 @@ const B2_WORDS = [
   {
     "de": "Herzflattern",
     "de_article": "das",
-    "lv": "Αίσθημα παλμών",
+    "lv": "Südamepekslemine",
     "level": "B2"
   },
   {
     "de": "Herzschwäche",
     "de_article": "die",
     "de_plural": "die Herzschwächen",
-    "lv": "Συγκοπή",
+    "lv": "Südamenõrkus",
     "level": "B2"
   },
   {
     "de": "Herzversagen",
     "de_article": "das",
-    "lv": "Καρδιακή ανακοπή • Καρδιακή ανεπάρκεια",
+    "lv": "Südameseiskus • Südamepuudulikkus",
     "level": "B2"
   },
   {
     "de": "Hetze",
     "de_article": "die",
     "de_plural": "die Hetzen",
-    "lv": "Διέγερση • Υποκίνηση",
+    "lv": "Õhutamine • Kihutamine",
     "level": "B2"
   },
   {
     "de": "hetzen",
-    "lv": "Να βιάζεσαι • Να υποκινείς • Να επιδιώκεις • Να επιδιώκεις",
+    "lv": "Kihutama • Õhutama • Jälitama • Taga ajama",
     "level": "B2"
   },
   {
     "de": "heucheln",
-    "lv": "Να προσποιείται • Υποκριτής",
+    "lv": "Teesklema • Silmakirjatsema",
     "level": "B2"
   },
   {
     "de": "Heuschnupfen",
     "de_article": "der",
-    "lv": "Αλλεργικό πυρετό",
+    "lv": "Heinapalavik",
     "level": "B2"
   },
   {
     "de": "hierdurch",
-    "lv": "Δια του παρόντος • Δια του παρόντος",
+    "lv": "Sellega • Käesolevaga",
     "level": "B2"
   },
   {
     "de": "Hilfsaktion",
     "de_article": "die",
     "de_plural": "die Hilfsaktionen",
-    "lv": "Δράση βοήθειας",
+    "lv": "Abiaktsioon",
     "level": "B2"
   },
   {
     "de": "Hilfsdienst",
     "de_article": "der",
     "de_plural": "die Hilfsdienste",
-    "lv": "Γραφείο βοήθειας",
+    "lv": "Abiteenistus",
     "level": "B2"
   },
   {
     "de": "hingeben",
-    "lv": "Χαρίζω • Δανείζω",
+    "lv": "Ära andma • Laenuks andma",
     "level": "B2"
   },
   {
     "de": "sich hingeben",
-    "lv": "Να αφοσιωθεί • Να δώσει τον εαυτό του",
+    "lv": "End pühendama • End andma",
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
       "layout": "minimalStudy",
-      "translation": "Να αφοσιωθεί • Να δώσει τον εαυτό του",
+      "translation": "End pühendama • End andma",
       "rektion": "+ kellele?",
-      "explanation": "Το sich hingeben απαιτεί οριστική πρόθεση + σε ποιον • .",
+      "explanation": "Sich hingeben nõuab kindlat eessõna + kellele?.",
       "forms": "+ kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -7498,7 +7618,11 @@ const B2_WORDS = [
             "sich hingeben"
           ],
           "red": [
-            "+ kam?"
+            "+ kellele?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -7506,149 +7630,149 @@ const B2_WORDS = [
   },
   {
     "de": "hinreißen",
-    "lv": "Να αρπάξει • Να σύρει μαζί",
+    "lv": "Haarama • Kaasa kiskuma",
     "level": "B2"
   },
   {
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "Ανακοίνωση",
+    "lv": "Teade",
     "level": "B2"
   },
   {
     "de": "hinsichtlich",
-    "lv": "Σε σχέση με τι",
+    "lv": "Seoses millegaga",
     "level": "B2"
   },
   {
     "de": "hintergehen",
-    "lv": "Εξαπατώ • Απογοητεύω",
+    "lv": "Petma • Alt vedama",
     "level": "B2"
   },
   {
     "de": "Hinterhalt",
     "de_article": "der",
     "de_plural": "die Hinterhalte",
-    "lv": "Κρησφύγετο",
+    "lv": "Peidik",
     "level": "B2"
   },
   {
     "de": "hinterziehen",
-    "lv": "Υπεξαίρεση χρημάτων • Μην πληρώνει φόρους",
+    "lv": "Raha omastama • Makse mitte tasuma",
     "level": "B2"
   },
   {
     "de": "hinüberfahren",
-    "lv": "Να μεταφέρει • Να οδηγεί πάνω",
+    "lv": "Üle vedama • Üle sõitma",
     "level": "B2"
   },
   {
     "de": "Hirntumor",
     "de_article": "der",
     "de_plural": "die Hirntumoren",
-    "lv": "Έναν όγκο στον εγκέφαλο",
+    "lv": "Ajukasvaja",
     "level": "B2"
   },
   {
     "de": "Hirnzelle",
     "de_article": "die",
     "de_plural": "die Hirnzellen",
-    "lv": "Εγκεφαλικό κύτταρο",
+    "lv": "Ajurakk",
     "level": "B2"
   },
   {
     "de": "Hirschgeweih",
     "de_article": "das",
     "de_plural": "die Hirschgeweihe",
-    "lv": "Ελαφοκέρατα",
+    "lv": "Hirvesarved",
     "level": "B2"
   },
   {
     "de": "Hirschkuh",
     "de_article": "die",
     "de_plural": "die Hirschkühe",
-    "lv": "Αγελάδα ελαφιού",
+    "lv": "Hirvelehm",
     "level": "B2"
   },
   {
     "de": "hitzig",
-    "lv": "Ζεστό • Καυτό • Ξαφνικό • Γρήγορο στο θυμό",
+    "lv": "Kuum • Õhin • Järsk • Kiiresti vihastuv",
     "level": "B2"
   },
   {
     "de": "Hitzkopf",
     "de_article": "der",
     "de_plural": "die Hitzköpfe",
-    "lv": "Πυροσβεστική κεφαλή",
+    "lv": "Tulipea",
     "level": "B2"
   },
   {
     "de": "HIV",
     "de_article": "das",
     "de_plural": "die HIV",
-    "lv": "HIV (ιός ανθρώπινης ανοσοανεπάρκειας)",
+    "lv": "HIV (inimese immuunpuudulikkuse viirus)",
     "level": "B2"
   },
   {
     "de": "HIV-negativ",
-    "lv": "HIV αρνητικός",
+    "lv": "HIV-negatiivne",
     "level": "B2"
   },
   {
     "de": "HIV-positiv",
-    "lv": "HIV θετικός",
+    "lv": "HIV-positiivne",
     "level": "B2"
   },
   {
     "de": "Hobelbank",
     "de_article": "die",
     "de_plural": "die Hobelbänke",
-    "lv": "Πάγκος πλάνης",
+    "lv": "Höövlipink",
     "level": "B2"
   },
   {
     "de": "Hoch",
     "de_article": "das",
     "de_plural": "die Hochs",
-    "lv": "Τοστ \"ζήτω!\"",
+    "lv": "Toost „elagu!“",
     "level": "B2",
     "study": {
       "id": "b2-hoch-study",
       "layout": "standardStudy",
-      "translation": "Τοστ \"ζήτω!\"",
+      "translation": "Toost „elagu!“",
       "explanation": [
-        "Κύρια ιδέα: das Hoch με κεφαλαίο γράμμα και το άρθρο das είναι ουσιαστικό — εορταστική κραυγή/τοστ (Ein Hoch auf...! = Ζήτω...!) ή σε δελτίο καιρού — περιοχή υψηλής πίεσης.",
-        "Hoch με μικρό αρχικό γράμμα είναι επίθετο — υψηλό (der Berg ist hoch).",
-        "Στην έκφραση ein Hoch ausbringen σημαίνει τοστ.",
-        "Στο δελτίο καιρού, das Hoch σημαίνει αντικυκλώνας — περιοχή υψηλής πίεσης (απέναντι από: das Tief)."
+        "Peamine mõte: das Hoch suure algustähega ja artikliga das on nimisõna — pidulik hüüd/toost (Ein Hoch auf...! = Elagu...!) või ilmateates — kõrgrõhuala.",
+        "Hoch väikese algustähega on omadussõna — kõrge (der Berg ist hoch).",
+        "Väljendis ein Hoch ausbringen tähendab toosti ütlemist.",
+        "Ilmateates das Hoch tähendab antitsüklonit — kõrgrõhuala (vastand: das Tief)."
       ],
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "Φρυγανίζουμε τη νύφη και τον γαμπρό."
+          "lv": "Me ütleme toosti pruutpaarile."
         },
         {
           "de": "Ein Hoch auf dich!",
-          "lv": "Να ζήσεις!"
+          "lv": "Elagu sina!"
         },
         {
           "de": "Morgen kommt ein Hoch.",
-          "lv": "Αύριο θα γίνει αντικυκλώνας (υψηλή πίεση)."
+          "lv": "Homme tuleb antitsüklon (kõrgrõhk)."
         },
         {
           "de": "Der Berg ist sehr hoch.",
-          "lv": "Το βουνό είναι πολύ ψηλό."
+          "lv": "Mägi on väga kõrge."
         }
       ],
       "tip": [
-        "Das Hoch με κεφαλαίο γράμμα — μια εορταστική κραυγή ή ένας αντικυκλώνας στο δελτίο καιρού.",
-        "Hoch με πεζό — υψηλό (επίθετο)."
+        "das Hoch ar lielo burtu — svētku sauciens vai anticiklons laika ziņās.",
+        "hoch ar mazo burtu — augsts (īpašības vārds)."
       ],
       "important": [
-        "Das Hoch = τοστ («Χαίρε!») Ή αντικυκλώνας (δελτίο καιρού) — ουσιαστικό.",
-        "Hoch = υψηλό — επίθετο, χωρίς άρθρο.",
-        "Το αντίθετο στο δελτίο καιρού: das Hoch ↔ das Tief."
+        "das Hoch = tosts (“lai dzīvo!”) VAI anticiklons (laika ziņas) — lietvārds.",
+        "hoch = augsts — īpašības vārds, bez artikula.",
+        "Pretstats laika ziņās: das Hoch ↔ das Tief."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7656,8 +7780,8 @@ const B2_WORDS = [
             "das Hoch"
           ],
           "purple": [
-            "tosts",
-            "lai dzīvo"
+            "toost",
+            "elagu"
           ],
           "green": [
             "hoch"
@@ -7672,7 +7796,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tostu"
+                "toosti"
               ]
             }
           },
@@ -7684,7 +7808,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "lai dzīvo"
+                "elagu"
               ]
             }
           },
@@ -7696,7 +7820,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "anticiklons"
+                "antitsüklon"
               ]
             }
           },
@@ -7708,7 +7832,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsts"
+                "kõrge"
               ]
             }
           }
@@ -7749,99 +7873,99 @@ const B2_WORDS = [
     "de": "Hochachtung",
     "de_article": "die",
     "de_plural": "die Hochachtungen",
-    "lv": "Μεγάλο σεβασμό",
+    "lv": "Suur austus",
     "level": "B2"
   },
   {
     "de": "Hochmut",
     "de_article": "der",
-    "lv": "Αλαζονεία • Υπεροψία",
+    "lv": "Ülbus • Kõrkus",
     "level": "B2"
   },
   {
     "de": "hochmütig",
-    "lv": "Αλαζονικός • Αγέρωχος",
+    "lv": "Ülbe • Kõrk",
     "level": "B2"
   },
   {
     "de": "Hochspannung",
     "de_article": "die",
     "de_plural": "die Hochspannungen",
-    "lv": "Υψηλή τάση",
+    "lv": "Kõrgepinge",
     "level": "B2"
   },
   {
     "de": "Hochsprung",
     "de_article": "der",
     "de_plural": "die Hochsprünge",
-    "lv": "Άλμα εις ύψος",
+    "lv": "Kõrgushüpe",
     "level": "B2"
   },
   {
     "de": "Höchstleistung",
     "de_article": "die",
     "de_plural": "die Höchstleistungen",
-    "lv": "Κορυφαία βαθμολογία • Υψηλότερη ισχύς • Ρεκόρ",
+    "lv": "Tipptulemus • Suurim võimsus • Rekord",
     "level": "B2"
   },
   {
     "de": "Hochverrat",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Προδοσία",
+    "lv": "Riigireetmine",
     "level": "B2"
   },
   {
     "de": "Hochwasser",
     "de_article": "das",
     "de_plural": "die Hochwasser",
-    "lv": "Πλημμύρα • Υψηλή στάθμη νερού",
+    "lv": "Üleujutus • Kõrge veetase",
     "level": "B2",
     "study": {
       "id": "b2-hochwasser",
       "layout": "standardStudy",
-      "translation": "Πλημμύρα • Υψηλή στάθμη νερού",
-      "explanation": "Κύρια ιδέα: das Hochwasser σημαίνει πλημμύρα ή πολύ υψηλή στάθμη νερού σε ποτάμι, λίμνη ή θάλασσα. Πληθυντικός αριθμός: die Hochwasser. Συχνά χρησιμοποιείται στη δημοσιογραφία και στις προειδοποιήσεις.",
+      "translation": "Üleujutus • Kõrge veetase",
+      "explanation": "Peamine mõte: das Hochwasser tähendab üleujutust või väga kõrget veetaset jões, järves või meres. Mitmus: die Hochwasser. Sageli kasutatakse ajakirjanduses ja hoiatustes.",
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "Μετά τη βροχή υπάρχει πλημμύρα."
+          "lv": "Pärast vihma on üleujutus."
         },
         {
           "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "Η υψηλή στάθμη του νερού απειλεί την πόλη."
+          "lv": "Kõrge veetase ohustab linna."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "Οι υπηρεσίες προειδοποιούν για πλημμύρες."
+          "lv": "Ametid hoiatavad üleujutuse eest."
         }
       ],
       "comparison": [
         {
           "word": "das Hochwasser",
-          "meaning": "Πλημμύρα • Υψηλή στάθμη νερού",
-          "example": "Es gibt Hochwasser. = Ir plūdi."
+          "meaning": "Üleujutus • Kõrge veetase",
+          "example": "Es gibt Hochwasser. = On üleujutus."
         },
         {
           "word": "die Überschwemmung",
-          "meaning": "Πλημμύρα (μπετόν)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
+          "meaning": "Üleujutus (konkreetne)",
+          "example": "Die Überschwemmung zerstörte Häuser. = Üleujutus hävitas majad."
         },
         {
           "word": "der Pegel",
-          "meaning": "Στάθμη νερού",
-          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
+          "meaning": "Veetase",
+          "example": "Der Pegel steigt. = Veetase reiser seg."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Hoch = ψηλό, Wasser = νερό. Hochwasser = υψηλή στάθμη νερού, που συχνά σημαίνει πλημμύρα."
+            "text": "Hoch = kõrge, Wasser = vesi. Hochwasser = kõrge veetase, mis tähendab sageli üleujutust."
           }
         ]
       },
       "important": {
-        "text": "Das Hochwasser = πλημμύρα ή υψηλή στάθμη του νερού. Πληθυντικός αριθμός: die Hochwasser."
+        "text": "Das Hochwasser = üleujutus või kõrge veetase. Mitmus: die Hochwasser."
       },
       "sectionAccents": {
         "explanation": {
@@ -7849,8 +7973,8 @@ const B2_WORDS = [
             "das Hochwasser"
           ],
           "purple": [
-            "plūdu",
-            "augstu ūdens līmeni"
+            "üleujutus",
+            "kõrget veetaset"
           ]
         },
         "examples": [
@@ -7862,7 +7986,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "plūdi"
+                "üleujutus"
               ]
             }
           },
@@ -7874,7 +7998,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsts ūdens līmenis"
+                "kõrge veetase"
               ]
             }
           },
@@ -7886,7 +8010,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "plūdiem"
+                "üleujutuse"
               ]
             }
           }
@@ -7896,600 +8020,600 @@ const B2_WORDS = [
   },
   {
     "de": "hochwertig",
-    "lv": "Υψηλή αξία",
+    "lv": "Kõrgväärtuslik",
     "level": "B2"
   },
   {
     "de": "Hohlmaß",
     "de_article": "das",
     "de_plural": "die Hohlmaße",
-    "lv": "Ογκομετρικό μέτρο",
+    "lv": "Mahumõõt",
     "level": "B2"
   },
   {
     "de": "Hohn",
     "de_article": "der",
-    "lv": "Βλέμμα • Γελοιοποίηση",
+    "lv": "Pilge • Naeruvääristamine",
     "level": "B2"
   },
   {
     "de": "Hölle",
     "de_article": "die",
     "de_plural": "die Höllen",
-    "lv": "Κόλαση",
+    "lv": "Põrgu",
     "level": "B2"
   },
   {
     "de": "holpern",
-    "lv": "Τινάζω • Κουνώ",
+    "lv": "Raputama • Vappuma",
     "level": "B2"
   },
   {
     "de": "Honorar",
     "de_article": "das",
     "de_plural": "die Honorare",
-    "lv": "Προαιρετική αμοιβή",
+    "lv": "Honorar",
     "level": "B2"
   },
   {
     "de": "humanitär",
-    "lv": "Φιλάνθρωπος",
+    "lv": "Humanitaarne",
     "level": "B2"
   },
   {
     "de": "Hypnose",
     "de_article": "die",
     "de_plural": "die Hypnosen",
-    "lv": "Ύπνωση",
+    "lv": "Hüpnoos",
     "level": "B2"
   },
   {
     "de": "Hypothek",
     "de_article": "die",
     "de_plural": "die Hypotheken",
-    "lv": "Υποθήκη",
+    "lv": "Hüpoteek",
     "level": "B2"
   },
   {
     "de": "Immobilien",
     "de_article": "die",
-    "lv": "Ακίνητα",
+    "lv": "Kinnisvara",
     "level": "B2"
   },
   {
     "de": "Immunität",
     "de_article": "die",
     "de_plural": "die Immunitäten",
-    "lv": "Ασυδοσία",
+    "lv": "Immuunsus",
     "level": "B2"
   },
   {
     "de": "implantieren",
-    "lv": "Για εμφύτευση",
+    "lv": "Implanteerima",
     "level": "B2"
   },
   {
     "de": "in flagranti",
-    "lv": "Πιάστηκε στα χέρια",
+    "lv": "Tabama keelatud teo pealt",
     "level": "B2"
   },
   {
     "de": "inkompatibel",
-    "lv": "Ασυμβίβαστος",
+    "lv": "Kokkusobimatu",
     "level": "B2"
   },
   {
     "de": "Innenpolitik",
     "de_article": "die",
     "de_plural": "die Innenpolitiken",
-    "lv": "Εσωτερική πολιτική",
+    "lv": "Sisepoliitika",
     "level": "B2"
   },
   {
     "de": "innewohnen",
-    "lv": "Να είναι περίεργο",
+    "lv": "Olema omane",
     "level": "B2"
   },
   {
     "de": "inszenieren",
-    "lv": "Στη σκηνή",
+    "lv": "Lavastama",
     "level": "B2"
   },
   {
     "de": "Intervention",
     "de_article": "die",
     "de_plural": "die Interventionen",
-    "lv": "Παρέμβαση",
+    "lv": "Sekkumine",
     "level": "B2"
   },
   {
     "de": "Investition",
     "de_article": "die",
     "de_plural": "die Investitionen",
-    "lv": "Επενδύσεις • Επενδύσεις • Σχηματισμός κεφαλαίου",
+    "lv": "Investeering • Investeerimine • Kapitalimahutus",
     "level": "B2"
   },
   {
     "de": "irrsinnig",
-    "lv": "Τρελός • Αδύναμος",
+    "lv": "Hullumeelne • Nõdrameelne",
     "level": "B2"
   },
   {
     "de": "Junkie",
     "de_article": "der",
     "de_plural": "die Junkies",
-    "lv": "Ένας τοξικομανής",
+    "lv": "Narkomaan",
     "level": "B2"
   },
   {
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "Κρίση του υπουργικού συμβουλίου",
+    "lv": "Kabinetikriis",
     "level": "B2"
   },
   {
     "de": "Kapazität",
     "de_article": "die",
     "de_plural": "die Kapazitäten",
-    "lv": "Παραγωγικότητα • Χωρητικότητα • Όγκος",
+    "lv": "Tootlikkus • Võimsus • Maht",
     "level": "B2"
   },
   {
     "de": "Kapitalanlage",
     "de_article": "die",
     "de_plural": "die Kapitalanlagen",
-    "lv": "Σχηματισμός κεφαλαίου",
+    "lv": "Kapitalimahutus",
     "level": "B2"
   },
   {
     "de": "Kapitalismus",
     "de_article": "der",
-    "lv": "Καπιταλισμός",
+    "lv": "Kapitalism",
     "level": "B2"
   },
   {
     "de": "Kapitalist",
     "de_article": "der",
     "de_plural": "die Kapitalisten",
-    "lv": "Καπιταλιστής",
+    "lv": "Kapitalist",
     "level": "B2"
   },
   {
     "de": "kapitalistisch",
-    "lv": "Καπιταλιστής",
+    "lv": "Kapitalistlik",
     "level": "B2"
   },
   {
     "de": "Kapitulation",
     "de_article": "die",
     "de_plural": "die Kapitulationen",
-    "lv": "Συνθηκολόγηση",
+    "lv": "Kapitulatsioon",
     "level": "B2"
   },
   {
     "de": "Karrierefrau",
     "de_article": "die",
     "de_plural": "die Karrierefrauen",
-    "lv": "Γυναίκα καριέρας",
+    "lv": "Karjääri tegev naine",
     "level": "B2"
   },
   {
     "de": "Kaufkraft",
     "de_article": "die",
-    "lv": "Χρήματα • Επίσης η αγοραστική δύναμη ενός ατόμου",
+    "lv": "Raha • Ka isiku ostujõud",
     "level": "B2"
   },
   {
     "de": "Keuchhusten",
     "de_article": "der",
-    "lv": "Κοκκύτης",
+    "lv": "Läkaköha",
     "level": "B2"
   },
   {
     "de": "kidnappen",
-    "lv": "Να ληστέψει • Να πάρει όμηρο",
+    "lv": "Röövima • Pantvangi võtma",
     "level": "B2"
   },
   {
     "de": "killen",
-    "lv": "Να σκοτώσει",
+    "lv": "Tapma",
     "level": "B2"
   },
   {
     "de": "Klappe",
     "de_article": "die",
     "de_plural": "die Klappen",
-    "lv": "Βαλβίδα • Βαλβίδα",
+    "lv": "Klapp • Ventiil",
     "level": "B2"
   },
   {
     "de": "Klasse",
     "de_article": "die",
     "de_plural": "die Klassen",
-    "lv": "Κοινωνική τάξη • Τάξη • Κατηγορία",
+    "lv": "Ühiskonnaklass • Klass • Kategooria",
     "level": "B2"
   },
   {
     "de": "klassenlos",
-    "lv": "Χωρίς μαθήματα",
+    "lv": "Klassideta",
     "level": "B2"
   },
   {
     "de": "klassifizieren",
-    "lv": "Κατατάσσω",
+    "lv": "Klassifitseerima",
     "level": "B2"
   },
   {
     "de": "Klinik",
     "de_article": "die",
     "de_plural": "die Kliniken",
-    "lv": "Κλινική",
+    "lv": "Kliinik",
     "level": "B2"
   },
   {
     "de": "knifflig",
-    "lv": "Περίπλοκος",
+    "lv": "Keeruline",
     "level": "B2"
   },
   {
     "de": "Knochengewebe",
     "de_article": "das",
     "de_plural": "die Knochengewebe",
-    "lv": "Οστικό ιστό",
+    "lv": "Luukude",
     "level": "B2"
   },
   {
     "de": "Knochenmark",
     "de_article": "das",
     "de_plural": "die Knochenmarke",
-    "lv": "Μυελός των οστών",
+    "lv": "Luuüdi",
     "level": "B2"
   },
   {
     "de": "Kolben",
     "de_article": "der",
     "de_plural": "die Kolben",
-    "lv": "Έμβολο • Έμβολο",
+    "lv": "Kolb • Kolvik",
     "level": "B2"
   },
   {
     "de": "Kommunismus",
     "de_article": "der",
-    "lv": "Κομμουνισμός",
+    "lv": "Kommunism",
     "level": "B2"
   },
   {
     "de": "kompatibel",
-    "lv": "Σύμφωνος",
+    "lv": "Ühilduv",
     "level": "B2"
   },
   {
     "de": "kompetent",
-    "lv": "Ικανός • Γνώστης",
+    "lv": "Kompetentne • Asjatundlik",
     "level": "B2"
   },
   {
     "de": "Komplott",
     "de_article": "das",
     "de_plural": "die Komplotte",
-    "lv": "Συνωμοσία",
+    "lv": "Vandenõu",
     "level": "B2"
   },
   {
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "Ακολουθία • Σειρά • Συμπέρασμα • Συνέπεια",
+    "lv": "Järjekindlus • Järjekord • Järeldus • Tagajärg",
     "level": "B2"
   },
   {
     "de": "Konsulat",
     "de_article": "das",
     "de_plural": "die Konsulate",
-    "lv": "Προξενείο",
+    "lv": "Konsulaat",
     "level": "B2"
   },
   {
     "de": "Konsum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Κατανάλωση",
+    "lv": "Tarbimine",
     "level": "B2"
   },
   {
     "de": "Konsumgüter",
     "de_article": "die",
-    "lv": "Καταναλωτικών αγαθών",
+    "lv": "Tarbekaubad",
     "level": "B2"
   },
   {
     "de": "konvertieren",
-    "lv": "Για μετατροπή",
+    "lv": "Konverteerima",
     "level": "B2"
   },
   {
     "de": "Konzept",
     "de_article": "das",
     "de_plural": "die Konzepte",
-    "lv": "Έννοια • Σκίτσο • Σχέδιο",
+    "lv": "Kontseptsioon • Visand • Plaan",
     "level": "B2"
   },
   {
     "de": "Korps",
     "de_article": "das",
     "de_plural": "die Korps",
-    "lv": "Σώμα",
+    "lv": "Korpus",
     "level": "B2"
   },
   {
     "de": "korrumpieren",
-    "lv": "Να δώσει δωροδοκία",
+    "lv": "Altkäemaksu andma",
     "level": "B2"
   },
   {
     "de": "korrupt",
-    "lv": "Αγοραστή • Επηρεασμένος από δωροδοκία",
+    "lv": "Ostetav • Altkäemaksuga mõjutatav",
     "level": "B2"
   },
   {
     "de": "Kosmonaut",
     "de_article": "der",
     "de_plural": "die Kosmonauten",
-    "lv": "Ένας κοσμοναύτης",
+    "lv": "Kosmonaut",
     "level": "B2"
   },
   {
     "de": "Krebs",
     "de_article": "der",
     "de_plural": "die Krebse",
-    "lv": "Καρκίνος",
+    "lv": "Vähk",
     "level": "B2"
   },
   {
     "de": "Kriegszustand",
     "de_article": "der",
     "de_plural": "die Kriegszustände",
-    "lv": "Στρατιωτικός νόμος",
+    "lv": "Sõjaseisukord",
     "level": "B2"
   },
   {
     "de": "Lähmung",
     "de_article": "die",
     "de_plural": "die Lähmungen",
-    "lv": "Παράλυση",
+    "lv": "Halvatus",
     "level": "B2"
   },
   {
     "de": "Laie",
     "de_article": "der",
     "de_plural": "die Laien",
-    "lv": "Ένας ντιλετάντας",
+    "lv": "Diletant",
     "level": "B2"
   },
   {
     "de": "Laienkunst",
     "de_article": "die",
-    "lv": "Καλλιτεχνική αυτοδραστηριότητα",
+    "lv": "Kunstiline isetegevus",
     "level": "B2"
   },
   {
     "de": "Landarbeiter",
     "de_article": "der",
     "de_plural": "die Landarbeiter",
-    "lv": "Αγροτικός εργάτης",
+    "lv": "Põllutööline",
     "level": "B2"
   },
   {
     "de": "Landebahn",
     "de_article": "die",
     "de_plural": "die Landebahnen",
-    "lv": "Διάδρομος αεροδρομίου",
+    "lv": "Maandumisrada",
     "level": "B2"
   },
   {
     "de": "Landenge",
     "de_article": "die",
     "de_plural": "die Landengen",
-    "lv": "Ισθμός",
+    "lv": "Maakitsus",
     "level": "B2"
   },
   {
     "de": "Länderkunde",
     "de_article": "die",
-    "lv": "Περιφερειακή γεωγραφία",
+    "lv": "Regionaalgeograafia",
     "level": "B2"
   },
   {
     "de": "Landsmann",
     "de_article": "der",
     "de_plural": "die Landsleute",
-    "lv": "Συμπατριώτης",
+    "lv": "Kaasmaalane",
     "level": "B2"
   },
   {
     "de": "Landung",
     "de_article": "die",
     "de_plural": "die Landungen",
-    "lv": "Βγαίνοντας στη στεριά • Προσγείωση • Προσγείωση",
+    "lv": "Kaldale tulek • Dessant • Maandumine",
     "level": "B2"
   },
   {
     "de": "Landzunge",
     "de_article": "die",
     "de_plural": "die Landzungen",
-    "lv": "Ηπειρωτική χώρα (χερσόνησος)",
+    "lv": "Maakeel (poolsaar)",
     "level": "B2"
   },
   {
     "de": "langfristig",
-    "lv": "Μακροπρόθεσμα",
+    "lv": "Pikaajaline",
     "level": "B2"
   },
   {
     "de": "länglich",
-    "lv": "Επίμηκες",
+    "lv": "Piklik",
     "level": "B2"
   },
   {
     "de": "lästig",
-    "lv": "Επαχθής",
+    "lv": "Koormav",
     "level": "B2"
   },
   {
     "de": "latent",
-    "lv": "Κρυφό • Ανεπαίσθητο",
+    "lv": "Varjatud • Märkamatu",
     "level": "B2"
   },
   {
     "de": "lauern",
-    "lv": "Να περιμένεις",
+    "lv": "Varitsema",
     "level": "B2"
   },
   {
     "de": "Staffellauf",
     "de_article": "der",
     "de_plural": "die Staffelläufe",
-    "lv": "Σκυταλοδρομία",
+    "lv": "Teatejooks",
     "level": "B2"
   },
   {
     "de": "Laufmasche",
     "de_article": "die",
     "de_plural": "die Laufmaschen",
-    "lv": "Το μάτι της κάλτσας έχει τρέξει",
+    "lv": "Sukasilm on jooksnud",
     "level": "B2"
   },
   {
     "de": "Laufsteg",
     "de_article": "der",
     "de_plural": "die Laufstege",
-    "lv": "Πασαρέλα (επίδειξη μόδας)",
+    "lv": "Podium (moeetendus)",
     "level": "B2"
   },
   {
     "de": "Laufwerk",
     "de_article": "das",
     "de_plural": "die Laufwerke",
-    "lv": "Κινητήρας • Κινητήρια δύναμη",
+    "lv": "Mootor • Ajav jõud",
     "level": "B2"
   },
   {
     "de": "lauschen",
-    "lv": "Ακούστε προσεκτικά • Κρυφακούστε",
+    "lv": "Tähelepanelikult kuulama • Pealt kuulama",
     "level": "B2"
   },
   {
     "de": "Lawinengefahr",
     "de_article": "die",
     "de_plural": "die Lawinengefahren",
-    "lv": "Κίνδυνος χιονοστιβάδας",
+    "lv": "Laviinioht",
     "level": "B2"
   },
   {
     "de": "Lawinenopfer",
     "de_article": "das",
     "de_plural": "die Lawinenopfer",
-    "lv": "Θύμα χιονοστιβάδας",
+    "lv": "Laviiniohver",
     "level": "B2"
   },
   {
     "de": "Leader",
     "de_article": "der",
     "de_plural": "die Leader",
-    "lv": "Ο αρχηγός",
+    "lv": "Liider",
     "level": "B2"
   },
   {
     "de": "legalisieren",
-    "lv": "Να νομιμοποιήσει",
+    "lv": "Legaliseerima",
     "level": "B2"
   },
   {
     "de": "Lehrstuhl",
     "de_article": "der",
     "de_plural": "die Lehrstühle",
-    "lv": "Ο καθεδρικός ναός",
+    "lv": "Katedra",
     "level": "B2"
   },
   {
     "de": "leiblich",
-    "lv": "Φυσικός",
+    "lv": "Kehaline",
     "level": "B2"
   },
   {
     "de": "Leibwächter",
     "de_article": "der",
     "de_plural": "die Leibwächter",
-    "lv": "Σωματοφύλακας",
+    "lv": "Ihukaitsja",
     "level": "B2"
   },
   {
     "de": "Leichenhalle",
     "de_article": "die",
     "de_plural": "die Leichenhallen",
-    "lv": "Παρεκκλήσι στο νεκροταφείο",
+    "lv": "Kabel kalmistul",
     "level": "B2"
   },
   {
     "de": "Leichtgewicht",
     "de_article": "das",
     "de_plural": "die Leichtgewichte",
-    "lv": "Πυγμάχος ελαφρού βάρους",
+    "lv": "Kergekaal",
     "level": "B2"
   },
   {
     "de": "leichtgläubig",
-    "lv": "Εύπιστος",
+    "lv": "Kergeusklik",
     "level": "B2"
   },
   {
     "de": "leichtsinnig",
-    "lv": "Επιπόλαιος",
+    "lv": "Kergemeelne",
     "level": "B2"
   },
   {
     "de": "Leiden",
     "de_article": "das",
     "de_plural": "die Leiden",
-    "lv": "Μακροχρόνια και σοβαρή ασθένεια",
+    "lv": "Pikaajaline ja raske haigus",
     "level": "B2",
     "study": {
       "id": "b2-leiden-study",
       "layout": "standardStudy",
-      "translation": "Μακροχρόνια και σοβαρή ασθένεια",
+      "translation": "Pikaajaline ja raske haigus",
       "explanation": [
-        "Κύρια ιδέα: das Leiden με κεφαλαίο γράμμα και το άρθρο das είναι ουσιαστικό — ταλαιπωρία, μακρά/σοβαρή ασθένεια.",
-        "Το leiden με ένα μικρό αρχικό γράμμα είναι ρήμα — υποφέρω.",
-        "Το das Leiden χρησιμοποιείται συχνά σε ιατρικό ή λογοτεχνικό πλαίσιο (ein schweres Leiden = σοβαρή ασθένεια).",
-        "Πληθυντικός αριθμός: die Leiden."
+        "Peamine mõte: das Leiden suure algustähega ja artikliga das on nimisõna — kannatused, pikaajaline/raske haigus.",
+        "Leiden väikese algustähega on tegusõna — kannatama.",
+        "Das Leiden'it kasutatakse sageli meditsiinilises või kirjanduslikus kontekstis (ein schweres Leiden = raske haigus).",
+        "Mitmuses: die Leiden."
       ],
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "Έχει σοβαρή ασθένεια."
+          "lv": "Tal on raske haigus."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
-          "lv": "Η ταλαιπωρία των ασθενών ήταν μεγάλη."
+          "lv": "Patsientide kannatused olid suured."
         },
         {
           "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "Πάσχει από μια σπάνια ασθένεια."
+          "lv": "Ta põeb haruldast haigust."
         },
         {
           "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "Η ασθένειά του κράτησε χρόνια."
+          "lv": "Tema haigus kestis aastaid."
         }
       ],
       "tip": [
-        "Das Leiden με κεφαλαίο γράμμα — ουσιαστικό (βάσανο, σοβαρή ασθένεια).",
-        "Leiden με μικρό αρχικό γράμμα — ρήμα (πάσχω)."
+        "das Leiden ar lielo burtu — lietvārds (ciešanas, smaga slimība).",
+        "leiden ar mazo burtu — darbības vārds (ciest)."
       ],
       "important": [
-        "Das Leiden = ταλαιπωρία/βαριά ασθένεια (ουσ.).",
-        "Leiden = υποφέρω (ρήμα).",
-        "Πληθυντικός αριθμός: die Leiden."
+        "das Leiden = ciešanas/smaga slimība (lietvārds).",
+        "leiden = ciest (darbības vārds).",
+        "Daudzskaitlī: die Leiden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8497,8 +8621,8 @@ const B2_WORDS = [
             "das Leiden"
           ],
           "purple": [
-            "ciešanas",
-            "smaga slimība"
+            "kannatused",
+            "raske haigus"
           ],
           "green": [
             "leiden"
@@ -8513,7 +8637,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "slimība"
+                "haigus"
               ]
             }
           },
@@ -8525,7 +8649,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ciešanas"
+                "kannatused"
               ]
             }
           },
@@ -8537,7 +8661,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "cieš"
+                "põeb"
               ]
             }
           },
@@ -8549,7 +8673,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "slimība"
+                "haigus"
               ]
             }
           }
@@ -8588,636 +8712,636 @@ const B2_WORDS = [
   },
   {
     "de": "leidlich",
-    "lv": "Ανεκτό • Αρκετά καλά",
+    "lv": "Talutav • Üsna hästi",
     "level": "B2"
   },
   {
     "de": "Leistungslohn",
     "de_article": "der",
     "de_plural": "die Leistungslöhne",
-    "lv": "Αναλογία τεμαχίου",
+    "lv": "Tükitöötasu",
     "level": "B2"
   },
   {
     "de": "Leitartikel",
     "de_article": "der",
     "de_plural": "die Leitartikel",
-    "lv": "Σύνταξης",
+    "lv": "Juhtkiri",
     "level": "B2"
   },
   {
     "de": "Leitfaden",
     "de_article": "der",
     "de_plural": "die Leitfäden",
-    "lv": "Εγχειρίδιο",
+    "lv": "Käsiraamat",
     "level": "B2"
   },
   {
     "de": "Lektor",
     "de_article": "der",
     "de_plural": "die Lektoren",
-    "lv": "Λέκτορας πανεπιστημίου",
+    "lv": "Kõrgkooli lektor",
     "level": "B2"
   },
   {
     "de": "Lesbe",
     "de_article": "die",
     "de_plural": "die Lesben",
-    "lv": "Λεσβία",
+    "lv": "Lesbi",
     "level": "B2"
   },
   {
     "de": "lesegeschützt",
-    "lv": "Κείμενο που μπορεί να διαβαστεί μόνο μετά την εισαγωγή κωδικού πρόσβασης",
+    "lv": "Tekst, mida saab lugeda alles pärast parooli sisestamist",
     "level": "B2"
   },
   {
     "de": "Leuchtreklame",
     "de_article": "die",
     "de_plural": "die Leuchtreklamen",
-    "lv": "Ελαφριά διαφήμιση",
+    "lv": "Valgusreklaam",
     "level": "B2"
   },
   {
     "de": "leugnen",
-    "lv": "Να αρνηθείς",
+    "lv": "Eitama",
     "level": "B2"
   },
   {
     "de": "liberal",
-    "lv": "Φιλελεύθερος",
+    "lv": "Liberaalne",
     "level": "B2"
   },
   {
     "de": "Liebesaffäre",
     "de_article": "die",
     "de_plural": "die Liebesaffären",
-    "lv": "Οικεία σχέση",
+    "lv": "Intiimsuhe",
     "level": "B2"
   },
   {
     "de": "liebkosten",
-    "lv": "Χαϊδεύω • Χαϊδεύω",
+    "lv": "Paitama • Hellitama",
     "level": "B2"
   },
   {
     "de": "liederlich",
-    "lv": "Επιφανειακός • Απρόσεκτος",
+    "lv": "Pealiskaudne • Hooletu",
     "level": "B2"
   },
   {
     "de": "lindern",
-    "lv": "Ανακουφίσει τον πόνο",
+    "lv": "Leevendama valu",
     "level": "B2"
   },
   {
     "de": "lispeln",
-    "lv": "Ψίθυρος • Παφλασμός",
+    "lv": "Sosistama • Pudistama",
     "level": "B2"
   },
   {
     "de": "List",
     "de_article": "die",
     "de_plural": "die Listen",
-    "lv": "Πονηριά",
+    "lv": "Kavalus",
     "level": "B2"
   },
   {
     "de": "listig",
-    "lv": "Πονηριά",
+    "lv": "Kaval",
     "level": "B2"
   },
   {
     "de": "Litfaßsäule",
     "de_article": "die",
     "de_plural": "die Litfaßsäulen",
-    "lv": "Διαφημιστικό ταχυδρομείο",
+    "lv": "Reklaamipost",
     "level": "B2"
   },
   {
     "de": "Lochband",
     "de_article": "das",
     "de_plural": "die Lochbänder",
-    "lv": "Διάτρητη ταινία",
+    "lv": "Perfolint",
     "level": "B2"
   },
   {
     "de": "Lochkarte",
     "de_article": "die",
     "de_plural": "die Lochkarten",
-    "lv": "Κάρτα διάτρησης",
+    "lv": "Perfokaart",
     "level": "B2"
   },
   {
     "de": "Lohnabbau",
     "de_article": "der",
-    "lv": "Περικοπή μισθού",
+    "lv": "Palgakärbe",
     "level": "B2"
   },
   {
     "de": "Lohnerhöhung",
     "de_article": "die",
     "de_plural": "die Lohnerhöhungen",
-    "lv": "Αύξηση μισθού",
+    "lv": "Palgatõus",
     "level": "B2"
   },
   {
     "de": "Lösegeld",
     "de_article": "das",
     "de_plural": "die Lösegelder",
-    "lv": "Τέλος εξαγοράς",
+    "lv": "Lunastustasu",
     "level": "B2"
   },
   {
     "de": "Losung",
     "de_article": "die",
     "de_plural": "die Losungen",
-    "lv": "Σύνθημα • Κωδικός πρόσβασης",
+    "lv": "Loosung • Parool",
     "level": "B2"
   },
   {
     "de": "Löwenmähne",
     "de_article": "die",
     "de_plural": "die Löwenmähnen",
-    "lv": "Χαίτη του λιονταριού",
+    "lv": "Lõvi lakk",
     "level": "B2"
   },
   {
     "de": "Löwenpranke",
     "de_article": "die",
     "de_plural": "die Löwenpranken",
-    "lv": "Το πόδι του λιονταριού",
+    "lv": "Lõvi käpp",
     "level": "B2"
   },
   {
     "de": "Luftabwehr",
     "de_article": "die",
-    "lv": "Αεράμυνα",
+    "lv": "Õhutõrje",
     "level": "B2"
   },
   {
     "de": "Luftbad",
     "de_article": "das",
     "de_plural": "die Luftbäder",
-    "lv": "Αερόλουτρο",
+    "lv": "Õhuvann",
     "level": "B2"
   },
   {
     "de": "Luftaufnahme",
     "de_article": "die",
     "de_plural": "die Luftaufnahmen",
-    "lv": "Αεροφωτογραφία",
+    "lv": "Aerofoto",
     "level": "B2"
   },
   {
     "de": "luftdicht",
-    "lv": "Αεροστεγές • Ερμητικό",
+    "lv": "Õhukindel • Hermeetiline",
     "level": "B2"
   },
   {
     "de": "Luftfahrt",
     "de_article": "die",
-    "lv": "Αεροπορία",
+    "lv": "Lennundus",
     "level": "B2"
   },
   {
     "de": "Lufthafen",
     "de_article": "der",
     "de_plural": "die Lufthäfen",
-    "lv": "Αεροδρόμιο",
+    "lv": "Lennujaam",
     "level": "B2"
   },
   {
     "de": "Luftpost",
     "de_article": "die",
-    "lv": "Αεροπορικό ταχυδρομείο",
+    "lv": "Lennupost",
     "level": "B2"
   },
   {
     "de": "Luftgewehr",
     "de_article": "das",
     "de_plural": "die Luftgewehre",
-    "lv": "Πνευματικό πιστόλι",
+    "lv": "Pneumaatiline relv",
     "level": "B2"
   },
   {
     "de": "Luftpirat",
     "de_article": "der",
     "de_plural": "die Luftpiraten",
-    "lv": "Αεροπειρατής",
+    "lv": "Õhupiraat",
     "level": "B2"
   },
   {
     "de": "Lustspiel",
     "de_article": "das",
     "de_plural": "die Lustspiele",
-    "lv": "Κωμωδία • Ανέκδοτο",
+    "lv": "Komöödia • Naljamäng",
     "level": "B2"
   },
   {
     "de": "Machtantritt",
     "de_article": "der",
     "de_plural": "die Machtantritte",
-    "lv": "Έρχονται στην εξουσία",
+    "lv": "Võimuletulek",
     "level": "B2"
   },
   {
     "de": "Machtgier",
     "de_article": "die",
-    "lv": "Λαχτάρα για εξουσία",
+    "lv": "Võimuiha",
     "level": "B2"
   },
   {
     "de": "mächtig",
-    "lv": "Πανίσχυρος • Ισχυρός • Γιγαντιαίος",
+    "lv": "Vägev • Jõuline • Hiiglaslik",
     "level": "B2"
   },
   {
     "de": "Magensäure",
     "de_article": "die",
     "de_plural": "die Magensäuren",
-    "lv": "Οξύ του στομάχου",
+    "lv": "Maohape",
     "level": "B2"
   },
   {
     "de": "Magister",
     "de_article": "der",
     "de_plural": "die Magister",
-    "lv": "Μεταπτυχιακό",
+    "lv": "Magister",
     "level": "B2"
   },
   {
     "de": "Mahd",
     "de_article": "die",
     "de_plural": "die Mahden",
-    "lv": "Κούρεμα",
+    "lv": "Niitmine",
     "level": "B2"
   },
   {
     "de": "Mähdrescher",
     "de_article": "der",
     "de_plural": "die Mähdrescher",
-    "lv": "Θεριζοαλωνιστική μηχανή",
+    "lv": "Viljakombain",
     "level": "B2"
   },
   {
     "de": "Mahl",
     "de_article": "das",
     "de_plural": "die Mähler",
-    "lv": "Γεύμα • Γλέντι",
+    "lv": "Söögikord • Pidusöök",
     "level": "B2"
   },
   {
     "de": "mahnen",
-    "lv": "Να υπενθυμίσω",
+    "lv": "Meelde tuletama",
     "level": "B2"
   },
   {
     "de": "Mahnschreiben",
     "de_article": "das",
-    "lv": "Μια υπενθύμιση",
+    "lv": "Meeldetuletus",
     "level": "B2"
   },
   {
     "de": "Manifest",
     "de_article": "das",
     "de_plural": "die Manifeste",
-    "lv": "Προκήρυξη",
+    "lv": "Manifest",
     "level": "B2"
   },
   {
     "de": "manipulieren",
-    "lv": "Χειρίζομαι",
+    "lv": "Manipuleerima",
     "level": "B2"
   },
   {
     "de": "Manuskript",
     "de_article": "das",
     "de_plural": "die Manuskripte",
-    "lv": "Χειρόγραφο",
+    "lv": "Käsikiri",
     "level": "B2"
   },
   {
     "de": "Marine",
     "de_article": "die",
     "de_plural": "die Marinen",
-    "lv": "Ναυτικό • Θέα στη θάλασσα",
+    "lv": "Sõjalaevastik • Merevaade",
     "level": "B2"
   },
   {
     "de": "Mark",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Μυελός των οστών",
+    "lv": "Luuüdi",
     "level": "B2"
   },
   {
     "de": "Marketing",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Εμπορία",
+    "lv": "Turundus",
     "level": "B2"
   },
   {
     "de": "Marktlücke",
     "de_article": "die",
     "de_plural": "die Marktlücken",
-    "lv": "Εξειδικευμένη αγορά",
+    "lv": "Turunišš",
     "level": "B2"
   },
   {
     "de": "Marssonde",
     "de_article": "die",
     "de_plural": "die Marssonden",
-    "lv": "Ανιχνευτής Άρη",
+    "lv": "Marsi-sond",
     "level": "B2"
   },
   {
     "de": "Marschall",
     "de_article": "der",
     "de_plural": "die Marschälle",
-    "lv": "Διευθετώ",
+    "lv": "Marssal",
     "level": "B2"
   },
   {
     "de": "Marxismus",
     "de_article": "der",
-    "lv": "Μαρξισμός",
+    "lv": "Marksism",
     "level": "B2"
   },
   {
     "de": "Maschinenbau",
     "de_article": "der",
-    "lv": "Μηχανολογία",
+    "lv": "Masinaehitus",
     "level": "B2"
   },
   {
     "de": "Maskenbildner",
     "de_article": "der",
     "de_plural": "die Maskenbildner",
-    "lv": "Επαγγελματίας μακιγιέρ και κομμωτής για ηθοποιούς",
+    "lv": "Professionaalne näitlejate grimeerija ja juuksur",
     "level": "B2"
   },
   {
     "de": "Massaker",
     "de_article": "das",
     "de_plural": "die Massaker",
-    "lv": "Σφαγή",
+    "lv": "Veresaun",
     "level": "B2"
   },
   {
     "de": "Massenware",
     "de_article": "die",
-    "lv": "Καταναλωτικών αγαθών",
+    "lv": "Laiatarbekaup",
     "level": "B2"
   },
   {
     "de": "maßlos",
-    "lv": "Αμέτρητος • Ατελείωτος",
+    "lv": "Mõõtmatu • Lõputu",
     "level": "B2"
   },
   {
     "de": "Materialismus",
     "de_article": "der",
-    "lv": "Υλισμός",
+    "lv": "Materialism",
     "level": "B2"
   },
   {
     "de": "Matinée",
     "de_article": "die",
     "de_plural": "die Matinéen",
-    "lv": "Πρωινή εκπομπή",
+    "lv": "Hommikuetendus",
     "level": "B2"
   },
   {
     "de": "mechanisieren",
-    "lv": "Να μηχανοποιήσει",
+    "lv": "Mehhaniseerima",
     "level": "B2"
   },
   {
     "de": "Meerbusen",
     "de_article": "der",
     "de_plural": "die Meerbusen",
-    "lv": "Θαλάσσιο κόλπο",
+    "lv": "Merelaht",
     "level": "B2"
   },
   {
     "de": "Meerenge",
     "de_article": "die",
     "de_plural": "die Meerengen",
-    "lv": "Στενό",
+    "lv": "Merekitsus",
     "level": "B2"
   },
   {
     "de": "Meeresspiegel",
     "de_article": "der",
     "de_plural": "die Meeresspiegel",
-    "lv": "Επιφάνεια της θάλασσας",
+    "lv": "Merepind",
     "level": "B2"
   },
   {
     "de": "mehren",
-    "lv": "Να αυξηθεί",
+    "lv": "Suurendama",
     "level": "B2"
   },
   {
     "de": "meiden",
-    "lv": "Για αποφυγή",
+    "lv": "Vältima",
     "level": "B2"
   },
   {
     "de": "Meisterwerk",
     "de_article": "das",
     "de_plural": "die Meisterwerke",
-    "lv": "Ένα αριστούργημα",
+    "lv": "Meistriteos",
     "level": "B2"
   },
   {
     "de": "Meldefrist",
     "de_article": "die",
     "de_plural": "die Meldefristen",
-    "lv": "Προθεσμία εγγραφής",
+    "lv": "Registreerimistähtaeg",
     "level": "B2"
   },
   {
     "de": "menschenscheu",
-    "lv": "Αντικοινωνικός • Ντροπαλός",
+    "lv": "Ebasotsiaalne • Arg",
     "level": "B2"
   },
   {
     "de": "merklich",
-    "lv": "Αξιοπρόσεχτος",
+    "lv": "Märgatav",
     "level": "B2"
   },
   {
     "de": "meutern",
-    "lv": "Να επαναστατήσει",
+    "lv": "Mässama",
     "level": "B2"
   },
   {
     "de": "Mieder",
     "de_article": "das",
     "de_plural": "die Mieder",
-    "lv": "Κορσέ • Μπούστο",
+    "lv": "Korsett • Pihik",
     "level": "B2"
   },
   {
     "de": "Miederwaren",
     "de_article": "die",
-    "lv": "Κορσέδες • Σουτιέν",
+    "lv": "Korsetid • Rinnahoidjad",
     "level": "B2"
   },
   {
     "de": "Mikrofilm",
     "de_article": "der",
     "de_plural": "die Mikrofilme",
-    "lv": "Μικροφίλμ",
+    "lv": "Mikrofilm",
     "level": "B2"
   },
   {
     "de": "Milbe",
     "de_article": "die",
     "de_plural": "die Milben",
-    "lv": "Ένα τσιμπούρι",
+    "lv": "Puuk",
     "level": "B2"
   },
   {
     "de": "Hausstaubmilbe",
     "de_article": "die",
     "de_plural": "die Hausstaubmilben",
-    "lv": "Από τη σκόνη",
+    "lv": "Tolmulest",
     "level": "B2"
   },
   {
     "de": "mildern",
-    "lv": "Ανακουφίζω τον πόνο • Ανακουφίζω την τιμωρία",
+    "lv": "Valu leevendama • Karistust leevendama",
     "level": "B2"
   },
   {
     "de": "militant",
-    "lv": "Εμπόλεμος",
+    "lv": "Sõjakas",
     "level": "B2"
   },
   {
     "de": "Militär",
     "de_article": "das",
-    "lv": "Στρατιωτικός • Στρατός",
+    "lv": "Sõjavägi • Armee",
     "level": "B2"
   },
   {
     "de": "Militärdienst",
     "de_article": "der",
     "de_plural": "die Militärdienste",
-    "lv": "Στρατιωτική θητεία",
+    "lv": "Sõjaväeteenistus",
     "level": "B2"
   },
   {
     "de": "militärfrei",
-    "lv": "Ακατάλληλος για στρατιωτική θητεία",
+    "lv": "Ajateenistuskõlbmatu",
     "level": "B2"
   },
   {
     "de": "minder",
-    "lv": "Μείον",
+    "lv": "Vähem",
     "level": "B2"
   },
   {
     "de": "Minderung",
     "de_article": "die",
     "de_plural": "die Minderungen",
-    "lv": "Μείωση",
+    "lv": "Vähenemine",
     "level": "B2"
   },
   {
     "de": "minderwertig",
-    "lv": "Μικρής αξίας",
+    "lv": "Vähene väärtusega",
     "level": "B2"
   },
   {
     "de": "missachten",
-    "lv": "Να μην εξετάσει",
+    "lv": "Mitte arvestama",
     "level": "B2"
   },
   {
     "de": "missbilligen",
-    "lv": "Αποδοκιμάζω • Μομφή",
+    "lv": "Mitte heaks kiitma • Laitma",
     "level": "B2"
   },
   {
     "de": "missbrauchen",
-    "lv": "Κατάχρηση",
+    "lv": "Kuritarvitama",
     "level": "B2"
   },
   {
     "de": "missfallen",
-    "lv": "Να μην αρέσει",
+    "lv": "Mitte meeldima",
     "level": "B2"
   },
   {
     "de": "missglücken",
-    "lv": "Να αποτύχει",
+    "lv": "Ebaõnnestuma",
     "level": "B2"
   },
   {
     "de": "missgönnen",
-    "lv": "Να ζηλεύεις",
+    "lv": "Kadestama",
     "level": "B2"
   },
   {
     "de": "misstrauen",
-    "lv": "Να μην εμπιστεύεσαι",
+    "lv": "Mitte usaldama",
     "level": "B2"
   },
   {
     "de": "mitschuldig",
-    "lv": "Συνένοχος",
+    "lv": "Kaassüüdlane",
     "level": "B2"
   },
   {
     "de": "mittels",
-    "lv": "Μέσω κάτι",
+    "lv": "Millegi abil",
     "level": "B2"
   },
   {
     "de": "Mittelsmann",
     "de_article": "der",
     "de_plural": "die Mittelsmänner",
-    "lv": "Μεσολαβητής μεταξύ αντιπάλων ή εταίρων",
+    "lv": "Vahendaja vastaste või partnerite vahel",
     "level": "B2"
   },
   {
     "de": "mitwirken",
-    "lv": "Να συμμετέχει • Να λάβει μέρος",
+    "lv": "Osalema • Kaasa tegema",
     "level": "B2"
   },
   {
     "de": "Mitwisser",
     "de_article": "der",
     "de_plural": "die Mitwisser",
-    "lv": "Συνγνώστης",
+    "lv": "Kaasteadja",
     "level": "B2"
   },
   {
     "de": "mobilisieren",
-    "lv": "Να κινητοποιηθεί",
+    "lv": "Mobiliseerima",
     "level": "B2"
   },
   {
     "de": "moderieren",
-    "lv": "Προς μέτρια",
+    "lv": "Modereerima",
     "level": "B2"
   },
   {
     "de": "Moment",
     "de_article": "das",
     "de_plural": "die Momente",
-    "lv": "Καθοριστικός παράγοντας • Παράγοντας",
+    "lv": "Otsustav asjaolu • Tegur",
     "level": "B2"
   },
   {
     "de": "Monatsschrift",
     "de_article": "die",
-    "lv": "Περιοδικό (μηνιαίο)",
+    "lv": "Ajakiri (kuukiri)",
     "level": "B2",
     "de_plural": "die Monatsschriften"
   },
@@ -9225,124 +9349,124 @@ const B2_WORDS = [
     "de": "Müllentsorgung",
     "de_article": "die",
     "de_plural": "die Müllentsorgungen",
-    "lv": "Διάθεση απορριμμάτων",
+    "lv": "Jäätmete hävitamine",
     "level": "B2"
   },
   {
     "de": "Atommüll",
     "de_article": "der",
-    "lv": "Πυρηνικά απόβλητα",
+    "lv": "Radioaktiivsed jäätmed",
     "level": "B2"
   },
   {
     "de": "mulmig",
-    "lv": "Άβολος • Αβέβαιος • Φοβισμένος",
+    "lv": "Ebamugav • Ebakindel • Kartlik",
     "level": "B2"
   },
   {
     "de": "münden",
-    "lv": "Ροή μέσα • Εισέρχομαι • Βγαίνω • Τέλος",
+    "lv": "Sisse voolama • Sisenema • Välja minema • Lõppema",
     "level": "B2"
   },
   {
     "de": "Muße",
     "de_article": "die",
-    "lv": "Ελεύθερος χρόνος • Ελεύθερη στιγμή",
+    "lv": "Vaba aeg • Vaba hetk",
     "level": "B2"
   },
   {
     "de": "müßig",
-    "lv": "Ανενεργή • Αδράνεια",
+    "lv": "Tegevusetu • Jõude",
     "level": "B2"
   },
   {
     "de": "mutieren",
-    "lv": "Να μεταλλαχθεί",
+    "lv": "Muteeruma",
     "level": "B2"
   },
   {
     "de": "Mystik",
     "de_article": "die",
     "de_plural": "die Mystiken",
-    "lv": "Μυστικισμός",
+    "lv": "Müstika",
     "level": "B2"
   },
   {
     "de": "Nabelschnur",
     "de_article": "die",
     "de_plural": "die Nabelschnüre",
-    "lv": "Ομφάλιος λωρός",
+    "lv": "Nabanöör",
     "level": "B2"
   },
   {
     "de": "Nachbildung",
     "de_article": "die",
     "de_plural": "die Nachbildungen",
-    "lv": "Μίμηση • Μίμηση",
+    "lv": "Jäljendus • Imitatsioon",
     "level": "B2"
   },
   {
     "de": "Nachdruck",
     "de_article": "der",
     "de_plural": "die Nachdrucke",
-    "lv": "Έμφαση • Ανατύπωση",
+    "lv": "Rõhutus • Kordustrükk",
     "level": "B2",
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
-      "translation": "Έμφαση • Ανατύπωση",
+      "translation": "Rõhutus • Kordustrükk",
       "explanation": [
-        "Κύρια ιδέα: der Nachdruck μπορεί να σημαίνει μια έμφαση ή μια επανέκδοση ενός βιβλίου.",
-        "Nachdruck auf etwas legen = τονίζω κάτι, επιμένω σε κάτι.",
-        "Der Nachdruck eines Buches = ανατύπωση βιβλίου.",
-        "Το πλαίσιο (διαπραγμάτευση ή δημοσίευση) καθορίζει το σωστό νόημα."
+        "Peamine mõte: der Nachdruck võib tähendada rõhutust või raamatu kordustrükki.",
+        "Nachdruck auf etwas legen = panema rõhku millelegi, nõudma midagi.",
+        "Der Nachdruck eines Buches = raamatu kordustrükk (reprint).",
+        "Kontekst (läbirääkimised või kirjastus) määrab õige tähenduse."
       ],
       "examples": [
         {
           "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "Τονίζει την προθεσμία."
+          "lv": "Ta rõhutab tähtaega."
         },
         {
           "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "Ζήτησε απάντηση."
+          "lv": "Ta nõudis tungivalt vastust."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
-          "lv": "Μια ανατύπωση του μυθιστορήματος κυκλοφόρησε την άνοιξη."
+          "lv": "Romaani kordustrükk ilmus kevadel."
         },
         {
           "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "Αυτό το βιβλίο είναι ήδη σε επανέκδοση."
+          "lv": "See raamat on juba kordustrükis."
         },
         {
           "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "Ο εκδότης σχεδιάζει μια επανέκδοση."
+          "lv": "Kirjastus plaanib kordustrükki."
         }
       ],
       "comparison": [
         {
           "word": "Nachdruck legen auf",
-          "meaning": "Να τονίσω, να απαιτήσω",
-          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
+          "meaning": "Rõhutama, nõudma",
+          "example": "Er legt Nachdruck auf die Frist. = Ta rõhutab tähtaega."
         },
         {
           "word": "der Nachdruck (Buch)",
-          "meaning": "Ανατύπωση",
-          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
+          "meaning": "Kordustrükk",
+          "example": "Der Nachdruck erschien im Frühjahr. = Kordustrükk ilmus kevadel."
         },
         {
           "word": "der Druck",
-          "meaning": "Πίεση / εκτύπωση",
-          "example": "Unter Druck stehen = būt spiedienā."
+          "meaning": "Surve / trükk",
+          "example": "Unter Druck stehen = Olla surve all."
         }
       ],
       "tip": [
-        "Σε διαπραγματεύσεις και απαιτήσεις: Nachdruck = έμφαση.",
-        "Σε εκδόσεις και βιβλία: Nachdruck = ανατύπωση."
+        "Pārrunās un prasībās: Nachdruck = uzsvērums.",
+        "Izdevniecībā un grāmatās: Nachdruck = atkārtots izdevums."
       ],
       "important": [
-        "Nachdruck auf etwas legen = τονίζω.",
-        "Der Nachdruck eines Buches = ανατύπωση."
+        "Nachdruck auf etwas legen = likt uzsvērumu.",
+        "der Nachdruck eines Buches = atkārtots izdevums."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9350,8 +9474,8 @@ const B2_WORDS = [
             "der Nachdruck"
           ],
           "purple": [
-            "uzsvērumu",
-            "atkārtots izdevums"
+            "rõhutus",
+            "kordustrükk"
           ]
         },
         "examples": [
@@ -9363,7 +9487,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "uzsver"
+                "rõhutab"
               ]
             }
           },
@@ -9375,7 +9499,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "uzstājīgi"
+                "tungivalt"
               ]
             }
           },
@@ -9387,7 +9511,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "atkārtotais izdevums"
+                "kordustrükk"
               ]
             }
           },
@@ -9399,7 +9523,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "atkārtotā izdevumā"
+                "kordustrükis"
               ]
             }
           },
@@ -9411,7 +9535,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "atkārtotu izdevumu"
+                "kordustrükki"
               ]
             }
           }
@@ -9421,466 +9545,466 @@ const B2_WORDS = [
   },
   {
     "de": "nachdrücklich",
-    "lv": "Εμφατικός • Δυναμικός • Πειστικός",
+    "lv": "Rõhutatud • Jõuline • Veenev",
     "level": "B2"
   },
   {
     "de": "nachgehen",
-    "lv": "Να παρατηρήσει • Να ανακαλύψει",
+    "lv": "Jälgima • Välja selgitama",
     "level": "B2"
   },
   {
     "de": "nachgiebig",
-    "lv": "Επιεικής",
+    "lv": "Järeleandlik",
     "level": "B2"
   },
   {
     "de": "Nachlass",
     "de_article": "der",
     "de_plural": "die Nachlasse",
-    "lv": "Κληρονομία",
+    "lv": "Pärand",
     "level": "B2"
   },
   {
     "de": "Nachruf",
     "de_article": "der",
     "de_plural": "die Nachrufe",
-    "lv": "Νεκρολογία",
+    "lv": "Nekroloog",
     "level": "B2"
   },
   {
     "de": "Nachsicht",
     "de_article": "die",
-    "lv": "Ανοχή • Κατανόηση",
+    "lv": "Sallivus • Mõistmine",
     "level": "B2"
   },
   {
     "de": "nachsitzen",
-    "lv": "Παραμονή στο σχολείο μετά το μάθημα ως τιμωρία",
+    "lv": "Koolis pärast tunde karistuseks jääma",
     "level": "B2"
   },
   {
     "de": "nachträglich",
-    "lv": "Αργότερα • Επιπλέον • Αργότερα • Επιπλέον",
+    "lv": "Hilisem • Lisa- • Hiljem • Lisaks",
     "level": "B2"
   },
   {
     "de": "Nachweis",
     "de_article": "der",
     "de_plural": "die Nachweise",
-    "lv": "Απόδειξη",
+    "lv": "Tõend",
     "level": "B2"
   },
   {
     "de": "Nachwort",
     "de_article": "das",
     "de_plural": "die Nachworte",
-    "lv": "Επίλογος • Επίλογος",
+    "lv": "Järelsõna • Epiloog",
     "level": "B2"
   },
   {
     "de": "Nährboden",
     "de_article": "der",
     "de_plural": "die Nährböden",
-    "lv": "Μέσο τροφοδοσίας",
+    "lv": "Toitesööde",
     "level": "B2"
   },
   {
     "de": "namens",
-    "lv": "Όνομα • Επώνυμο",
+    "lv": "Eesnimeliselt • Perekonnanimeliselt",
     "level": "B2"
   },
   {
     "de": "Namensvetter",
     "de_article": "der",
     "de_plural": "die Namensvettern",
-    "lv": "Συνώνυμος",
+    "lv": "Nimekaim",
     "level": "B2"
   },
   {
     "de": "Narkosearzt",
     "de_article": "der",
     "de_plural": "die Narkoseärzte",
-    "lv": "Αναισθησιολόγος",
+    "lv": "Anestesioloog",
     "level": "B2"
   },
   {
     "de": "Teilnarkose",
     "de_article": "die",
     "de_plural": "die Teilnarkosen",
-    "lv": "Μερική αναισθησία",
+    "lv": "Osaline narkoos",
     "level": "B2"
   },
   {
     "de": "Vollnarkose",
     "de_article": "die",
     "de_plural": "die Vollnarkosen",
-    "lv": "Γενική αναισθησία",
+    "lv": "Täisnarkoos",
     "level": "B2"
   },
   {
     "de": "Naturgewalten",
     "de_article": "die",
-    "lv": "Δύναμη της φύσης",
+    "lv": "Loodusjõud",
     "level": "B2"
   },
   {
     "de": "Nebelschwaden",
     "de_article": "der",
     "de_plural": "die Nebelschwaden",
-    "lv": "Τράπεζα ομίχλης",
+    "lv": "Udupank",
     "level": "B2"
   },
   {
     "de": "Nebenprodukt",
     "de_article": "das",
     "de_plural": "die Nebenprodukte",
-    "lv": "Υποπροϊόν",
+    "lv": "Kõrvalprodukt",
     "level": "B2"
   },
   {
     "de": "Neger",
     "de_article": "der",
     "de_plural": "die Neger",
-    "lv": "Αράπης",
+    "lv": "Neeger",
     "level": "B2"
   },
   {
     "de": "Nenner",
     "de_article": "der",
     "de_plural": "die Nenner",
-    "lv": "Ο παρονομαστής",
+    "lv": "Nimetaja",
     "level": "B2"
   },
   {
     "de": "Nervenarzt",
     "de_article": "der",
     "de_plural": "die Nervenärzte",
-    "lv": "Νευρολόγος",
+    "lv": "Neuroloog",
     "level": "B2"
   },
   {
     "de": "Nesselfieber",
     "de_article": "das",
-    "lv": "Τσουκνίδα (ασθένεια)",
+    "lv": "Nõgesvõrk (haigus)",
     "level": "B2"
   },
   {
     "de": "Neuauflage",
     "de_article": "die",
     "de_plural": "die Neuauflagen",
-    "lv": "Ανατύπωση • Αναθεωρημένη έκδοση",
+    "lv": "Kordustrükk • Ümbertöötatud väljaanne",
     "level": "B2"
   },
   {
     "de": "neuerdings",
-    "lv": "Πρόσφατα • Αυτές τις μέρες • Πάλι",
+    "lv": "Hiljuti • Neil päevil • Uuesti",
     "level": "B2"
   },
   {
     "de": "Neuerer",
     "de_article": "der",
     "de_plural": "die Neuerer",
-    "lv": "Νεωτεριστής",
+    "lv": "Uuendaja",
     "level": "B2"
   },
   {
     "de": "Neuerscheinung",
     "de_article": "die",
     "de_plural": "die Neuerscheinungen",
-    "lv": "Νέα • Νέα έκδοση",
+    "lv": "Uudis • Uus väljaanne",
     "level": "B2"
   },
   {
     "de": "Neuerung",
     "de_article": "die",
     "de_plural": "die Neuerungen",
-    "lv": "Εκσυγχρονίζω",
+    "lv": "Uuendus",
     "level": "B2"
   },
   {
     "de": "Neutralität",
     "de_article": "die",
     "de_plural": "die Neutralitäten",
-    "lv": "Ουδετερότητα",
+    "lv": "Neutraalsus",
     "level": "B2"
   },
   {
     "de": "Nichtbeachtung",
     "de_article": "die",
     "de_plural": "die Nichtbeachtungen",
-    "lv": "Αμέλεια",
+    "lv": "Eiramine",
     "level": "B2"
   },
   {
     "de": "nichtig",
-    "lv": "Άκυρο • Ακυρώθηκε • Ασήμαντο",
+    "lv": "Kehtetu • Tühistatud • Tähtsusetu",
     "level": "B2"
   },
   {
     "de": "Niedergang",
     "de_article": "der",
     "de_plural": "die Niedergänge",
-    "lv": "Ηλιοβασίλεμα • Παρακμή",
+    "lv": "Loojang • Allakäik",
     "level": "B2"
   },
   {
     "de": "niederlegen",
-    "lv": "Βάλε κάτω • Σταμάτησε τη δουλειά • Κάνε απεργία",
+    "lv": "Maha panema • Tööd katkestama • Streikima hakkama",
     "level": "B2"
   },
   {
     "de": "Niederschlag",
     "de_article": "der",
     "de_plural": "die Niederschläge",
-    "lv": "Κατακρήμνιση",
+    "lv": "Sademed",
     "level": "B2"
   },
   {
     "de": "Niedertracht",
     "de_article": "die",
-    "lv": "Ευτέλεια",
+    "lv": "Alatus",
     "level": "B2"
   },
   {
     "de": "nimmermehr",
-    "lv": "Ποτέ ξανά",
+    "lv": "Mitte kunagi enam",
     "level": "B2"
   },
   {
     "de": "nominieren",
-    "lv": "Να προτείνει",
+    "lv": "Nomineerima",
     "level": "B2"
   },
   {
     "de": "normieren",
-    "lv": "Να ομαλοποιηθεί",
+    "lv": "Normima",
     "level": "B2"
   },
   {
     "de": "nötigenfalls",
-    "lv": "Αν χρειαστεί",
+    "lv": "Vajaduse korral",
     "level": "B2"
   },
   {
     "de": "Notstand",
     "de_article": "der",
     "de_plural": "die Notstände",
-    "lv": "Κατάσταση καταστροφής • Κατάσταση έκτακτης ανάγκης",
+    "lv": "Katastroofiolukord • Erakorraline seisukord",
     "level": "B2"
   },
   {
     "de": "Notwehr",
     "de_article": "die",
-    "lv": "Προστασία έκτακτης ανάγκης",
+    "lv": "Hädakaitse",
     "level": "B2"
   },
   {
     "de": "Nutzeffekt",
     "de_article": "der",
     "de_plural": "die Nutzeffekte",
-    "lv": "Συντελεστής απόδοσης",
+    "lv": "Kasuteguri koefitsient",
     "level": "B2"
   },
   {
     "de": "Nutzholz",
     "de_article": "das",
     "de_plural": "die Nutzhölzer",
-    "lv": "Χρησιμοποιήστε το δάσος",
+    "lv": "Kasutusmets",
     "level": "B2"
   },
   {
     "de": "Oberhand",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Υπεροχή",
+    "lv": "Ülemvõim",
     "level": "B2"
   },
   {
     "de": "Oberst",
     "de_article": "der",
     "de_plural": "die Oberste",
-    "lv": "Συνταγματάρχης",
+    "lv": "Kolonel",
     "level": "B2"
   },
   {
     "de": "obgleich",
-    "lv": "Αν και",
+    "lv": "Skjønt",
     "level": "B2"
   },
   {
     "de": "Obhut",
     "de_article": "die",
-    "lv": "Προστασία",
+    "lv": "Kaitse",
     "level": "B2"
   },
   {
     "de": "Oboe",
     "de_article": "die",
     "de_plural": "die Oboen",
-    "lv": "Όμποε",
+    "lv": "Oboe",
     "level": "B2"
   },
   {
     "de": "observieren",
-    "lv": "Να επιδιώξει • Να ακολουθήσει",
+    "lv": "Jälitama • Jälgima",
     "level": "B2"
   },
   {
     "de": "Obstbau",
     "de_article": "der",
-    "lv": "Καρποφορία",
+    "lv": "Puuviljakasvatus",
     "level": "B2"
   },
   {
     "de": "Offenbarung",
     "de_article": "die",
     "de_plural": "die Offenbarungen",
-    "lv": "Μια αποκάλυψη",
+    "lv": "Ilmutus",
     "level": "B2"
   },
   {
     "de": "offenherzig",
-    "lv": "Ειλικρινής",
+    "lv": "Avameelne",
     "level": "B2"
   },
   {
     "de": "Ökobauer",
     "de_article": "der",
     "de_plural": "die Ökobauern",
-    "lv": "Βιοκαλλιεργητής",
+    "lv": "Mahepõllumajandustootja",
     "level": "B2"
   },
   {
     "de": "Ökosystem",
     "de_article": "das",
     "de_plural": "die Ökosysteme",
-    "lv": "Οικοσύστημα",
+    "lv": "Ökosüsteem",
     "level": "B2"
   },
   {
     "de": "Ölbohrung",
     "de_article": "die",
     "de_plural": "die Ölbohrungen",
-    "lv": "Πετρελαιοπηγή",
+    "lv": "Naftapuurauk",
     "level": "B2"
   },
   {
     "de": "Ölgewinnung",
     "de_article": "die",
     "de_plural": "die Ölgewinnungen",
-    "lv": "Παραγωγή λαδιού",
+    "lv": "Naftatootmine",
     "level": "B2"
   },
   {
     "de": "Ölraffinerie",
     "de_article": "die",
     "de_plural": "die Ölraffinerien",
-    "lv": "Διυλιστήριο πετρελαίου",
+    "lv": "Naftatöötlemistehas",
     "level": "B2"
   },
   {
     "de": "Ölpest",
     "de_article": "die",
-    "lv": "Διαρροές νερού και παράκτιων πετρελαιοειδών",
+    "lv": "Vee ja ranniku naftareostus",
     "level": "B2"
   },
   {
     "de": "Ölpflanze",
     "de_article": "die",
     "de_plural": "die Ölpflanzen",
-    "lv": "Καλλιέργεια λαδιού",
+    "lv": "Õlikultuur",
     "level": "B2"
   },
   {
     "de": "Olympiasieger",
     "de_article": "der",
     "de_plural": "die Olympiasieger",
-    "lv": "Ολυμπιονίκης",
+    "lv": "Olümpiavõitja",
     "level": "B2"
   },
   {
     "de": "Operator",
     "de_article": "der",
     "de_plural": "die Operatoren",
-    "lv": "Ειδικός στη συντήρηση mainframe",
+    "lv": "Suurarvutite hooldusspetsialist",
     "level": "B2"
   },
   {
     "de": "Opposition",
     "de_article": "die",
     "de_plural": "die Oppositionen",
-    "lv": "Η αντιπολίτευση",
+    "lv": "Opositsioon",
     "level": "B2"
   },
   {
     "de": "Order",
     "de_article": "die",
     "de_plural": "die Orders",
-    "lv": "Διευθέτηση • Εντολή • Εργασία",
+    "lv": "Korraldus • Käsk • Ülesanne",
     "level": "B2"
   },
   {
     "de": "Organempfänger",
     "de_article": "der",
     "de_plural": "die Organempfänger",
-    "lv": "Λήπτης μεταμόσχευσης οργάνων",
+    "lv": "Elundisiirdamise saaja",
     "level": "B2"
   },
   {
     "de": "Organentnahme",
     "de_article": "die",
     "de_plural": "die Organentnahmen",
-    "lv": "Αφαίρεση οργάνων",
+    "lv": "Elundi eemaldamine",
     "level": "B2"
   },
   {
     "de": "Organspende",
     "de_article": "die",
     "de_plural": "die Organspenden",
-    "lv": "Δωρεά οργάνου για μεταμόσχευση",
+    "lv": "Elundi loovutamine siirdamiseks",
     "level": "B2"
   },
   {
     "de": "Organist",
     "de_article": "der",
     "de_plural": "die Organisten",
-    "lv": "Οργανοπαίκτης",
+    "lv": "Organist",
     "level": "B2"
   },
   {
     "de": "Orgasmus",
     "de_article": "der",
     "de_plural": "die Orgasmen",
-    "lv": "Οργασμός",
+    "lv": "Orgasm",
     "level": "B2"
   },
   {
     "de": "orientalisch",
-    "lv": "Ανατολίτικος • Ανατολίτικος",
+    "lv": "Orientaalne • Idamaine",
     "level": "B2"
   },
   {
     "de": "orten",
-    "lv": "Για εντοπισμό χρησιμοποιώντας όργανα",
+    "lv": "Instrumentide abil lokaliseerima",
     "level": "B2"
   },
   {
     "de": "Ortszeit",
     "de_article": "die",
-    "lv": "Τοπική ώρα",
+    "lv": "Kohalik aeg",
     "level": "B2"
   },
   {
     "de": "sich paaren",
-    "lv": "Ζευγαρω με κατι",
+    "lv": "Paarduma millegaga",
     "level": "B2",
     "study": {
       "id": "b2-sich-paaren",
       "layout": "minimalStudy",
-      "translation": "Ζευγαρω με κατι",
+      "translation": "Paarduma millegaga",
       "rektion": "mit + kellele?",
-      "explanation": "Sich paaren απαιτεί την οριστική πρόθεση mit + σε ποιον • .",
+      "explanation": "Sich paaren nõuab kindlat eessõna mit + kellele?.",
       "forms": "mit + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -9889,7 +10013,10 @@ const B2_WORDS = [
             "sich paaren"
           ],
           "red": [
-            "mit + kam?"
+            "mit + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -9899,641 +10026,642 @@ const B2_WORDS = [
     "de": "Pacht",
     "de_article": "die",
     "de_plural": "die Pachten",
-    "lv": "Ενοίκιο",
+    "lv": "Rent",
     "level": "B2"
   },
   {
     "de": "Pachtvertrag",
     "de_article": "der",
     "de_plural": "die Pachtverträge",
-    "lv": "Σύμβαση μίσθωσης",
+    "lv": "Üürileping",
     "level": "B2"
   },
   {
     "de": "pachten",
-    "lv": "Για ενοικίαση",
+    "lv": "Üürima",
     "level": "B2"
   },
   {
     "de": "Palmsonntag",
     "de_article": "der",
     "de_plural": "die Palmsonntage",
-    "lv": "Κυριακή των βαΐων",
+    "lv": "Palmipuudepüha",
     "level": "B2"
   },
   {
     "de": "Panzerglas",
     "de_article": "das",
     "de_plural": "die Panzergläser",
-    "lv": "Θωρακισμένο γυαλί",
+    "lv": "Soomusklaas",
     "level": "B2"
   },
   {
     "de": "Panzerschrank",
     "de_article": "der",
     "de_plural": "die Panzerschränke",
-    "lv": "Ασφαλές • Σιδερένιο ντουλάπι",
+    "lv": "Seif • Raudkapp",
     "level": "B2"
   },
   {
     "de": "Parole",
     "de_article": "die",
     "de_plural": "die Parolen",
-    "lv": "Κωδικός πρόσβασης • Σύνθημα",
+    "lv": "Parool • Loosung",
     "level": "B2"
   },
   {
     "de": "Parteibuch",
     "de_article": "das",
     "de_plural": "die Parteibücher",
-    "lv": "Εισιτήριο για πάρτι",
+    "lv": "Parteipilet",
     "level": "B2"
   },
   {
     "de": "parteiisch",
-    "lv": "Προκατειλημμένος",
+    "lv": "Erapoolik",
     "level": "B2"
   },
   {
     "de": "parteilich",
-    "lv": "Κομματικό • Κόμμα-",
+    "lv": "Parteiline • Partei-",
     "level": "B2"
   },
   {
     "de": "parteilos",
-    "lv": "Ακομμάτιστος",
+    "lv": "Parteitu",
     "level": "B2"
   },
   {
     "de": "Parteimitglied",
     "de_article": "das",
     "de_plural": "die Parteimitglieder",
-    "lv": "Μέλος του κόμματος",
+    "lv": "Parteiliige",
     "level": "B2"
   },
   {
     "de": "Parteitag",
     "de_article": "der",
     "de_plural": "die Parteitage",
-    "lv": "Συνέδριο του κόμματος",
+    "lv": "Parteikongress",
     "level": "B2"
   },
   {
     "de": "Partikel",
     "de_article": "das",
     "de_plural": "die Partikel",
-    "lv": "Σωματίδιο • Κόκκος",
+    "lv": "Osake • Terake",
     "level": "B2"
   },
   {
     "de": "Pater",
     "de_article": "der",
     "de_plural": "die Patres",
-    "lv": "Καθολικός ιερέας • Μέλος του τάγματος",
+    "lv": "Katoliku preester • Ordu liige",
     "level": "B2"
   },
   {
     "de": "Peepshow",
     "de_article": "die",
     "de_plural": "die Peepshows",
-    "lv": "Ένα ερωτικό πρόγραμμα που προβάλλεται χωριστά μέσα από ένα παράθυρο",
+    "lv": "Erootiline programm, mida vaadatakse eraldi läbi akna",
     "level": "B2"
   },
   {
     "de": "Pegel",
     "de_article": "der",
     "de_plural": "die Pegel",
-    "lv": "Στάθμη νερού",
+    "lv": "Veetase",
     "level": "B2"
   },
   {
     "de": "Pendelverkehr",
     "de_article": "der",
     "de_plural": "die Pendelverkehre",
-    "lv": "Τοπική προαστιακή κυκλοφορία",
+    "lv": "Kohalik eeslinnaliiklus",
     "level": "B2"
   },
   {
     "de": "penibel",
-    "lv": "Λεπτολόγος",
+    "lv": "Pedantne",
     "level": "B2"
   },
   {
     "de": "Penis",
     "de_article": "der",
     "de_plural": "die Penisse",
-    "lv": "Πέος",
+    "lv": "Peenis",
     "level": "B2"
   },
   {
     "de": "Personalakte",
     "de_article": "die",
     "de_plural": "die Personalakten",
-    "lv": "Προσωπικό αρχείο",
+    "lv": "Isikutoimik",
     "level": "B2"
   },
   {
     "de": "Pfahlbau",
     "de_article": "der",
-    "lv": "Σιωπηλό κτίριο",
+    "de_plural": "die Pfahlbauten",
+    "lv": "Vaiehitis",
     "level": "B2"
   },
   {
     "de": "pfänden",
-    "lv": "Κατάσχεση περιουσίας",
+    "lv": "Vara arestima",
     "level": "B2"
   },
   {
     "de": "Pfandschein",
     "de_article": "der",
     "de_plural": "die Pfandscheine",
-    "lv": "Συμβολικό ενεχύρου",
+    "lv": "Pandimärk",
     "level": "B2"
   },
   {
     "de": "Pflichtbesuch",
     "de_article": "der",
     "de_plural": "die Pflichtbesuche",
-    "lv": "Ευγενική κλήση",
+    "lv": "Viisakusvisiit",
     "level": "B2"
   },
   {
     "de": "pfuschen",
-    "lv": "Να δουλεύει άσχημα • Άτεχνα • Ατημέλητα",
+    "lv": "Halvasti • Oskamatult • Lohakalt töötama",
     "level": "B2"
   },
   {
     "de": "Philologie",
     "de_article": "die",
     "de_plural": "die Philologien",
-    "lv": "Φιλολογία",
+    "lv": "Filoloogia",
     "level": "B2"
   },
   {
     "de": "Philosophie",
     "de_article": "die",
     "de_plural": "die Philosophien",
-    "lv": "Φιλοσοφία",
+    "lv": "Filosoofia",
     "level": "B2"
   },
   {
     "de": "Pieper",
     "de_article": "der",
     "de_plural": "die Pieper",
-    "lv": "Καθρέπτης",
+    "lv": "Peiler",
     "level": "B2"
   },
   {
     "de": "pikiert",
-    "lv": "Προσβεβλημένος • Προσβεβλημένος • Αγανακτισμένος",
+    "lv": "Solvunud • Riivatud • Nördinud",
     "level": "B2"
   },
   {
     "de": "Pilotfilm",
     "de_article": "der",
     "de_plural": "die Pilotfilme",
-    "lv": "Το εναρκτήριο επεισόδιο της σειράς",
+    "lv": "Seriaali avaosa",
     "level": "B2"
   },
   {
     "de": "Pilotprojekt",
     "de_article": "das",
     "de_plural": "die Pilotprojekte",
-    "lv": "Πιλοτικό έργο",
+    "lv": "Pilootprojekt",
     "level": "B2"
   },
   {
     "de": "Pilotsendung",
     "de_article": "die",
     "de_plural": "die Pilotsendungen",
-    "lv": "Ανοιχτήρι σειράς",
+    "lv": "Sarja avasaade",
     "level": "B2"
   },
   {
     "de": "Pilotstudie",
     "de_article": "die",
     "de_plural": "die Pilotstudien",
-    "lv": "Εισαγωγή στη σειρά έρευνας",
+    "lv": "Uurimissarja sissejuhatus",
     "level": "B2"
   },
   {
     "de": "Plädoyer",
     "de_article": "das",
     "de_plural": "die Plädoyers",
-    "lv": "Ομιλία εισαγγελέα ή δικηγόρου στο δικαστήριο",
+    "lv": "Prokuröri või advokaadi kõne kohtus",
     "level": "B2"
   },
   {
     "de": "Plateau",
     "de_article": "das",
     "de_plural": "die Plateaus",
-    "lv": "Οροπέδιο",
+    "lv": "Platoo",
     "level": "B2"
   },
   {
     "de": "Poltergeist",
     "de_article": "der",
     "de_plural": "die Poltergeister",
-    "lv": "Ένας poltergeist",
+    "lv": "Poltergeist",
     "level": "B2"
   },
   {
     "de": "Porno",
     "de_article": "der",
-    "lv": "Έργο που περιέχει πορνογραφία",
+    "lv": "Pornograafiat sisaldav teos",
     "level": "B2"
   },
   {
     "de": "porös",
-    "lv": "Πορώδης",
+    "lv": "Poorne",
     "level": "B2"
   },
   {
     "de": "Posse",
     "de_article": "die",
     "de_plural": "die Possen",
-    "lv": "Φάρσα • Φάρσα • Χυδαίο αστείο",
+    "lv": "Farss • Naljamäng • Jäme nali",
     "level": "B2"
   },
   {
     "de": "Possen",
     "de_article": "der",
     "de_plural": "die Possen",
-    "lv": "Φάρσα • Φάρσα • Χυδαίο αστείο",
+    "lv": "Farss • Naljamäng • Jäme nali",
     "level": "B2"
   },
   {
     "de": "postlagernd",
-    "lv": "Κατ' απαίτηση",
+    "lv": "Nõudmisel",
     "level": "B2"
   },
   {
     "de": "prägen",
-    "lv": "Να κόψει χρήματα • Να πατήσει • Να επιβάλει • Να πλάθει • Να φτιάξει",
+    "lv": "Raha vermima • Pressima • Peale suruma • Vormima • Valmistama",
     "level": "B2"
   },
   {
     "de": "prägnant",
-    "lv": "Έντονα εκφρασμένη",
+    "lv": "Eredalt väljendunud",
     "level": "B2"
   },
   {
     "de": "prahlen",
-    "lv": "Να καυχηθεί",
+    "lv": "Kiitlema",
     "level": "B2"
   },
   {
     "de": "prämieren",
-    "lv": "Να αναγνωρίσει με ανταμοιβή",
+    "lv": "Preemiaga tunnustama",
     "level": "B2"
   },
   {
     "de": "Präsidium",
     "de_article": "das",
     "de_plural": "die Präsidien",
-    "lv": "Προεδρείο",
+    "lv": "Presiidium",
     "level": "B2"
   },
   {
     "de": "predigen",
-    "lv": "Να κηρύξουν",
+    "lv": "Jutlustama",
     "level": "B2"
   },
   {
     "de": "Preisträger",
     "de_article": "der",
     "de_plural": "die Preisträger",
-    "lv": "Βραβευμένος • Βραβευμένος",
+    "lv": "Auhinna võitja • Laureaat",
     "level": "B2"
   },
   {
     "de": "Presseagentur",
     "de_article": "die",
     "de_plural": "die Presseagenturen",
-    "lv": "Πρακτορείο τύπου",
+    "lv": "Pressiagentuur",
     "level": "B2"
   },
   {
     "de": "Pressesprecher",
     "de_article": "der",
     "de_plural": "die Pressesprecher",
-    "lv": "Εκπρόσωπος Τύπου",
+    "lv": "Pressiesindaja",
     "level": "B2"
   },
   {
     "de": "Propaganda",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Προπαγάνδα",
+    "lv": "Propaganda",
     "level": "B2"
   },
   {
     "de": "propagieren",
-    "lv": "Να προωθήσει",
+    "lv": "Propageerima",
     "level": "B2"
   },
   {
     "de": "Prostitution",
     "de_article": "die",
     "de_plural": "die Prostitutionen",
-    "lv": "Πορνεία",
+    "lv": "Prostitutsioon",
     "level": "B2"
   },
   {
     "de": "provisorisch",
-    "lv": "Προκαταρκτική • Προσωρινή",
+    "lv": "Esialgne • Ajutine",
     "level": "B2"
   },
   {
     "de": "PS",
     "de_article": "das",
     "de_plural": "die PS",
-    "lv": "Ιπποδύναμη",
+    "lv": "Hobujõud",
     "level": "B2"
   },
   {
     "de": "Psychoterror",
     "de_article": "der",
-    "lv": "Ψυχοτρόμος",
+    "lv": "Psühhoteror",
     "level": "B2"
   },
   {
     "de": "Putsch",
     "de_article": "der",
     "de_plural": "die Putsche",
-    "lv": "Πραξικόπημα",
+    "lv": "Putš",
     "level": "B2"
   },
   {
     "de": "qualifizieren",
-    "lv": "Να προκριθεί",
+    "lv": "Kvalifitseerima",
     "level": "B2"
   },
   {
     "de": "Quantität",
     "de_article": "die",
     "de_plural": "die Quantitäten",
-    "lv": "Ποσότητα • Ποσό",
+    "lv": "Kvantiteet • Hulk",
     "level": "B2"
   },
   {
     "de": "quellen",
-    "lv": "Ρέει έξω • Μουλιάζει μέσα • Μουλιάζει • Φουσκώνει",
+    "lv": "Välja voolama • Immituma • Läbi märgunuma • Paisuma",
     "level": "B2"
   },
   {
     "de": "querüber",
-    "lv": "Απάντησε",
+    "lv": "Vastas",
     "level": "B2"
   },
   {
     "de": "quittieren",
-    "lv": "Να υπογράψει αποδοχή",
+    "lv": "Vastuvõtmist allkirjastama",
     "level": "B2"
   },
   {
     "de": "Quote",
     "de_article": "die",
     "de_plural": "die Quoten",
-    "lv": "Ποσοστό",
+    "lv": "Kvoot",
     "level": "B2"
   },
   {
     "de": "Rabbiner",
     "de_article": "der",
     "de_plural": "die Rabbiner",
-    "lv": "Ραββίνος",
+    "lv": "Rabi",
     "level": "B2"
   },
   {
     "de": "Radierung",
     "de_article": "die",
     "de_plural": "die Radierungen",
-    "lv": "Χάραξη • Χάραξη",
+    "lv": "Söövitusgravüür • Ofort",
     "level": "B2"
   },
   {
     "de": "Radioaktivität",
     "de_article": "die",
-    "lv": "Ραδιοενέργεια",
+    "lv": "Radioaktiivsus",
     "level": "B2"
   },
   {
     "de": "Radiobastler",
     "de_article": "der",
     "de_plural": "die Radiobastler",
-    "lv": "Ραδιοερασιτέχνης",
+    "lv": "Raadioamatöör",
     "level": "B2"
   },
   {
     "de": "raffiniert",
-    "lv": "Εκλεπτυσμένος • Πονηρός",
+    "lv": "Rafineeritud • Kaval",
     "level": "B2"
   },
   {
     "de": "Rain",
     "de_article": "der",
     "de_plural": "die Raine",
-    "lv": "Ελατήριο του αγρού",
+    "lv": "Põlluveer",
     "level": "B2"
   },
   {
     "de": "ranzig",
-    "lv": "Με μουχλιασμένη γεύση • Πικρό βούτυρο (σε κρέμα, λίπος ή βούτυρο)",
+    "lv": "Hallitanud maitsega • Kibedavõitu (koore, rasva, või kohta)",
     "level": "B2"
   },
   {
     "de": "rau",
-    "lv": "Τραχύ • Τραχύ • Χοντροκομμένο • Βραχνά • Σκληρό • Εχθρικό • Τραχύ",
+    "lv": "Ebatasane • Kare • Jäme • Kähe • Karm • Ebasõbralik • Töötlemata",
     "level": "B2"
   },
   {
     "de": "Rauchwaren",
     "de_article": "die",
-    "lv": "Γούνες • Προϊόντα γούνας",
+    "lv": "Karusnahad • Karusnahatooted",
     "level": "B2"
   },
   {
     "de": "Raumflug",
     "de_article": "der",
     "de_plural": "die Raumflüge",
-    "lv": "Διαστημική πτήση • Κοσμική διαπλανητική πτήση",
+    "lv": "Kosmoselend • Kosmiline planeetidevaheline lend",
     "level": "B2"
   },
   {
     "de": "Rauminhalt",
     "de_article": "der",
     "de_plural": "die Rauminhalte",
-    "lv": "Τόμος",
+    "lv": "Maht",
     "level": "B2"
   },
   {
     "de": "Realismus",
     "de_article": "der",
-    "lv": "Ρεαλισμός",
+    "lv": "Realism",
     "level": "B2"
   },
   {
     "de": "rechtlos",
-    "lv": "Χωρίς δικαιώματα",
+    "lv": "Õigusteta",
     "level": "B2"
   },
   {
     "de": "rechtmäßig",
-    "lv": "Νομικός",
+    "lv": "Seaduslik",
     "level": "B2"
   },
   {
     "de": "Rechtsberater",
     "de_article": "der",
     "de_plural": "die Rechtsberater",
-    "lv": "Νομικός σύμβουλος",
+    "lv": "Juriskonsult",
     "level": "B2"
   },
   {
     "de": "rechtsfähig",
-    "lv": "Δικαιοπρακτική ικανότητα",
+    "lv": "Õigusvõimeline",
     "level": "B2"
   },
   {
     "de": "Rechtsstaat",
     "de_article": "der",
     "de_plural": "die Rechtsstaaten",
-    "lv": "Κράτος δικαίου",
+    "lv": "Õigusriik",
     "level": "B2"
   },
   {
     "de": "recken",
-    "lv": "Τεντώνω • Τεντώνω • Τεντώνω • Τεντώνω",
+    "lv": "Venitama • Sirutama • Venima • Sirutuma",
     "level": "B2"
   },
   {
     "de": "Redefreiheit",
     "de_article": "die",
     "de_plural": "die Redefreiheiten",
-    "lv": "Ελευθερία του λόγου",
+    "lv": "Sõnavabadus",
     "level": "B2"
   },
   {
     "de": "redigieren",
-    "lv": "Παραδίδω",
+    "lv": "Toimetama",
     "level": "B2"
   },
   {
     "de": "redselig",
-    "lv": "Φλύαρος • Φλύαρος",
+    "lv": "Jutukas • Lobisev",
     "level": "B2"
   },
   {
     "de": "Referenz",
     "de_article": "die",
     "de_plural": "die Referenzen",
-    "lv": "Συστάσεις",
+    "lv": "Soovitused",
     "level": "B2"
   },
   {
     "de": "rege",
-    "lv": "Ζωντανό • Ενεργό • Κινητό • Ενεργό",
+    "lv": "Elav • Toimekas • Liikuv • Tegus",
     "level": "B2"
   },
   {
     "de": "regellos",
-    "lv": "Ακανόνιστος",
+    "lv": "Ebaregulaarne",
     "level": "B2"
   },
   {
     "de": "Regelverstoß",
     "de_article": "der",
     "de_plural": "die Regelverstöße",
-    "lv": "Παραβιάζοντας τους κανόνες",
+    "lv": "Reeglirikkumine",
     "level": "B2"
   },
   {
     "de": "Regen",
     "de_article": "der",
     "de_plural": "die Regen",
-    "lv": "Η βροχή",
+    "lv": "Hmm",
     "level": "B2"
   },
   {
     "de": "Regenfront",
     "de_article": "die",
     "de_plural": "die Regenfronten",
-    "lv": "Ζώνη βροχής",
+    "lv": "Vihmavöönd",
     "level": "B2"
   },
   {
     "de": "Regung",
     "de_article": "die",
     "de_plural": "die Regungen",
-    "lv": "Κίνηση • Ξέσπασμα • Κλίση",
+    "lv": "Liikumine • Tundepuhang • Kalduvus",
     "level": "B2"
   },
   {
     "de": "regungslos",
-    "lv": "Ακίνητος",
+    "lv": "Liikumatu",
     "level": "B2"
   },
   {
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "Αυτοκρατορία • Χώρα",
+    "lv": "Impeerium • Riik",
     "level": "B2"
   },
   {
     "de": "Reifeprüfung",
     "de_article": "die",
     "de_plural": "die Reifeprüfungen",
-    "lv": "Προπαρασκευαστική εξέταση",
+    "lv": "Valmiduseksam",
     "level": "B2"
   },
   {
     "de": "Reifezeugnis",
     "de_article": "das",
     "de_plural": "die Reifezeugnisse",
-    "lv": "Πιστοποιητικό εγγραφής",
+    "lv": "Küpsustunnistus",
     "level": "B2"
   },
   {
     "de": "reizbar",
-    "lv": "Ερεθίζεται εύκολα",
+    "lv": "Kergesti ärrituv",
     "level": "B2"
   },
   {
     "de": "relevant",
-    "lv": "Σημαντική • Σημαντική",
+    "lv": "Märkimisväärne • Tähtis",
     "level": "B2"
   },
   {
     "de": "Relief",
     "de_article": "das",
     "de_plural": "die Reliefs",
-    "lv": "Ανακούφιση",
+    "lv": "Reljeef",
     "level": "B2"
   },
   {
     "de": "rentabel",
-    "lv": "Επικερδής",
+    "lv": "Rentaabel",
     "level": "B2"
   },
   {
     "de": "Resolution",
     "de_article": "die",
     "de_plural": "die Resolutionen",
-    "lv": "Ψήφισμα",
+    "lv": "Resolutsioon",
     "level": "B2"
   },
   {
     "de": "sich revanchieren",
-    "lv": "Να πληρώσει • Να εκδικηθεί",
+    "lv": "Tasuma • Kätte maksma",
     "level": "B2",
     "study": {
       "id": "b2-sich-revanchieren",
       "layout": "minimalStudy",
-      "translation": "Να πληρώσει • Να εκδικηθεί",
+      "translation": "Tasuma • Kätte maksma",
       "rektion": "bei + kellele?",
-      "explanation": "Sich revanchieren απαιτεί την οριστική πρόθεση bei + σε ποιον • .",
+      "explanation": "Sich revanchieren nõuab kindlat eessõna bei + kellele?.",
       "forms": "bei + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -10542,7 +10670,11 @@ const B2_WORDS = [
             "sich revanchieren"
           ],
           "red": [
-            "bei + kam?"
+            "bei + kellele?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -10552,326 +10684,326 @@ const B2_WORDS = [
     "de": "Richtfest",
     "de_article": "das",
     "de_plural": "die Richtfeste",
-    "lv": "Πάρτι σειράς",
+    "lv": "Sarikapidu",
     "level": "B2"
   },
   {
     "de": "Ringbahn",
     "de_article": "die",
     "de_plural": "die Ringbahnen",
-    "lv": "Κυκλικός σιδηρόδρομος",
+    "lv": "Ringraudtee",
     "level": "B2"
   },
   {
     "de": "Ringelnatter",
     "de_article": "die",
     "de_plural": "die Ringelnattern",
-    "lv": "Δυσάρεστο",
+    "lv": "Nastik",
     "level": "B2"
   },
   {
     "de": "Rivale",
     "de_article": "der",
     "de_plural": "die Rivalen",
-    "lv": "Ανταγωνιστής • Ανταγωνιστής",
+    "lv": "Rivaal • Konkurent",
     "level": "B2"
   },
   {
     "de": "rivalisieren",
-    "lv": "Να ανταγωνιστεί",
+    "lv": "Konkureerima",
     "level": "B2"
   },
   {
     "de": "Rückfall",
     "de_article": "der",
     "de_plural": "die Rückfälle",
-    "lv": "Υποτροπή",
+    "lv": "Retsidiiv",
     "level": "B2"
   },
   {
     "de": "Rückgang",
     "de_article": "der",
     "de_plural": "die Rückgänge",
-    "lv": "Παρακμή • Παρακμή • Μείωση",
+    "lv": "Taandumine • Allakäik • Vähenemine",
     "level": "B2"
   },
   {
     "de": "Rückhalt",
     "de_article": "der",
     "de_plural": "die Rückhalte",
-    "lv": "Υποστήριξη • Υποστήριξη",
+    "lv": "Tugi • Toetus",
     "level": "B2"
   },
   {
     "de": "rücksichtslos",
-    "lv": "Απρόσεκτος • Χοντροκομμένος • Ανελέητος",
+    "lv": "Hooletu • Jäme • Armutu",
     "level": "B2"
   },
   {
     "de": "rückständig",
-    "lv": "Καθυστερημένη • Καθυστέρηση πληρωμής",
+    "lv": "Hilinenud • Maksega viivituses",
     "level": "B2"
   },
   {
     "de": "Rücktritt",
     "de_article": "der",
     "de_plural": "die Rücktritte",
-    "lv": "Παραίτηση από το αξίωμα",
+    "lv": "Ametist tagasiastumine",
     "level": "B2"
   },
   {
     "de": "Rüge",
     "de_article": "die",
     "de_plural": "die Rügen",
-    "lv": "Μια επίπληξη",
+    "lv": "Noomitus",
     "level": "B2"
   },
   {
     "de": "rühmen",
-    "lv": "Επαινώ • Δοξάζω • Καυχιάζω • Καυχιέμαι για κάτι",
+    "lv": "Kiitma • Ülistama • Kiitlema • Uhkeldama millegagi",
     "level": "B2"
   },
   {
     "de": "rührselig",
-    "lv": "Αισθηματικός",
+    "lv": "Sentimentaalne",
     "level": "B2"
   },
   {
     "de": "runzeln",
-    "lv": "Συνοφρυώνομαι • Συνοφρυώνομαι",
+    "lv": "Kortsutama • Kulmu kortsutama",
     "level": "B2"
   },
   {
     "de": "Rüstung",
     "de_article": "die",
     "de_plural": "die Rüstungen",
-    "lv": "Οπλισμός • Οπλισμός",
+    "lv": "Relvastumine • Relvastus",
     "level": "B2"
   },
   {
     "de": "Sabotage",
     "de_article": "die",
     "de_plural": "die Sabotagen",
-    "lv": "Σαμποτάζ",
+    "lv": "Sabotaaž",
     "level": "B2"
   },
   {
     "de": "Sachkenntnis",
     "de_article": "die",
     "de_plural": "die Sachkenntnisse",
-    "lv": "Εμπειρογνωμοσύνη • Ικανότητα",
+    "lv": "Asjatundlikkus • Kompetents",
     "level": "B2"
   },
   {
     "de": "sachkundig",
-    "lv": "Γνώστης • Ικανός",
+    "lv": "Asjatundlik • Kompetentne",
     "level": "B2"
   },
   {
     "de": "Sachlage",
     "de_article": "die",
     "de_plural": "die Sachlagen",
-    "lv": "Κατάσταση • Περιστάσεις • Κατάσταση",
+    "lv": "Seisund • Asjaolud • Olukord",
     "level": "B2"
   },
   {
     "de": "sächlich",
-    "lv": "Γραμμάριο. ουδέτερο γένος",
+    "lv": "Gram. neutraalne sugu",
     "level": "B2"
   },
   {
     "de": "Sägewerk",
     "de_article": "das",
     "de_plural": "die Sägewerke",
-    "lv": "Πριονιστήρι",
+    "lv": "Saeveski",
     "level": "B2"
   },
   {
     "de": "Sämaschine",
     "de_article": "die",
     "de_plural": "die Sämaschinen",
-    "lv": "Σποροτρύπανο",
+    "lv": "Külvimasin",
     "level": "B2"
   },
   {
     "de": "sämtlich",
-    "lv": "Όλα ανεξαιρέτως • Σε πλήρη σύνθεση",
+    "lv": "Kõik erandita • Täies koosseisus",
     "level": "B2"
   },
   {
     "de": "Sandbank",
     "de_article": "die",
     "de_plural": "die Sandbänke",
-    "lv": "Αβαθής",
+    "lv": "Madalik",
     "level": "B2"
   },
   {
     "de": "sanieren",
-    "lv": "Επισκευή • Το καθιστούν οικονομικά κερδοφόρο",
+    "lv": "Remontima • Majanduslikult rentaabliks muutma",
     "level": "B2"
   },
   {
     "de": "Sanitätsstelle",
     "de_article": "die",
     "de_plural": "die Sanitätsstellen",
-    "lv": "Ιατρικό σημείο",
+    "lv": "Meditsiinipunkt",
     "level": "B2"
   },
   {
     "de": "Satellit",
     "de_article": "der",
     "de_plural": "die Satelliten",
-    "lv": "Πολιτικός δορυφόρος • Αστρ. σύντροφος",
+    "lv": "Poliitiline satelliit • Astr. kaaslane",
     "level": "B2"
   },
   {
     "de": "sättigen",
-    "lv": "Να ταΐζετε καλά • Περιποιηθείτε • Βράστε. διαβρέχω",
+    "lv": "Hästi toitma • Kostitama • Keem. küllastama",
     "level": "B2"
   },
   {
     "de": "Satzung",
     "de_article": "die",
     "de_plural": "die Satzungen",
-    "lv": "Νόμος",
+    "lv": "Põhikiri",
     "level": "B2"
   },
   {
     "de": "sausen",
-    "lv": "Να βρυχάται • Να σφυρίζει • Να ορμάει • Να ορμάει",
+    "lv": "Kohisema • Vilistama • Kihutama • Tormama",
     "level": "B2"
   },
   {
     "de": "Schädel",
     "de_article": "der",
     "de_plural": "die Schädel",
-    "lv": "Κρανίο",
+    "lv": "Kolju",
     "level": "B2"
   },
   {
     "de": "Schadenersatz",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Υλική αποζημίωση για ζημιές",
+    "lv": "Materiaalne hüvitis kahju eest",
     "level": "B2"
   },
   {
     "de": "schädigen",
-    "lv": "Να βλάψει",
+    "lv": "Kahjustama",
     "level": "B2"
   },
   {
     "de": "Schaffen",
     "de_article": "das",
-    "lv": "Δημιουργία • Εργασία • Δράση • Δημιουργία",
+    "lv": "Looming • Teos • Tegevus • Loomine",
     "level": "B2"
   },
   {
     "de": "Schalldämmung",
     "de_article": "die",
     "de_plural": "die Schalldämmungen",
-    "lv": "Καταστολή θορύβου",
+    "lv": "Müra summutamine",
     "level": "B2"
   },
   {
     "de": "Schalldämpfer",
     "de_article": "der",
     "de_plural": "die Schalldämpfer",
-    "lv": "Σιγαστήρας",
+    "lv": "Helisummuti",
     "level": "B2"
   },
   {
     "de": "Schallmauer",
     "de_article": "die",
     "de_plural": "die Schallmauern",
-    "lv": "Φράγμα ήχου",
+    "lv": "Helibarjäär",
     "level": "B2"
   },
   {
     "de": "schalldicht",
-    "lv": "Ηχομόνωση",
+    "lv": "Helipidav",
     "level": "B2"
   },
   {
     "de": "schärfsichtig",
-    "lv": "Αιχμηρός • Παρατηρητικός",
+    "lv": "Terava pilguga • Tähelepanelik",
     "level": "B2"
   },
   {
     "de": "schärfsinnig",
-    "lv": "Πνευματώδης • Οξυδερκής • Πολυμήχανος",
+    "lv": "Vaimukas • Terava mõistusega • Leidlik",
     "level": "B2"
   },
   {
     "de": "Schattierung",
     "de_article": "die",
     "de_plural": "die Schattierungen",
-    "lv": "Τόνος • Απόχρωση",
+    "lv": "Toon • Nüanss",
     "level": "B2"
   },
   {
     "de": "schaudern",
-    "lv": "Να νιώθει φρίκη • Τρέμει",
+    "lv": "Õudust tundma • Värisema",
     "level": "B2"
   },
   {
     "de": "Schauplatz",
     "de_article": "der",
     "de_plural": "die Schauplätze",
-    "lv": "Την αρένα",
+    "lv": "Areen",
     "level": "B2"
   },
   {
     "de": "Schaustück",
     "de_article": "das",
     "de_plural": "die Schaustücke",
-    "lv": "Ένα έκθεμα",
+    "lv": "Eksponaat",
     "level": "B2"
   },
   {
     "de": "scheiden",
-    "lv": "Να χωρίζει • Να χωρίζει • Να χωρίζει • Να χωρίζει",
+    "lv": "Eraldama • Lahutama • End lahutada laskma • Lahutuma",
     "level": "B2"
   },
   {
     "de": "Scheidewand",
     "de_article": "die",
     "de_plural": "die Scheidewände",
-    "lv": "Διάφραγμα",
+    "lv": "Vahesein",
     "level": "B2"
   },
   {
     "de": "Scheitel",
     "de_article": "der",
     "de_plural": "die Scheitel",
-    "lv": "Γραμμή μαλλιών • Οροφή (κεφάλι)",
+    "lv": "Juuksejoon • Lagi (pea)",
     "level": "B2"
   },
   {
     "de": "scheitern",
-    "lv": "Να αποτύχει • Να καταρρεύσει",
+    "lv": "Ebaõnnestuma • Lagunema",
     "level": "B2"
   },
   {
     "de": "schelmisch",
-    "lv": "Πονηρός",
+    "lv": "Kelmikas",
     "level": "B2"
   },
   {
     "de": "schelten",
-    "lv": "Να βρίζει • Να μαλώνει",
+    "lv": "Sõimama • Riidlema",
     "level": "B2"
   },
   {
     "de": "sich scheren",
-    "lv": "Να νοιάζεται για κάτι",
+    "lv": "Hoolima millestki",
     "level": "B2",
     "study": {
       "id": "b2-sich-scheren",
       "layout": "minimalStudy",
-      "translation": "Να νοιάζεται για κάτι",
+      "translation": "Hoolima millestki",
       "rektion": "um + mida?",
-      "explanation": "Το sich scheren απαιτεί την οριστική πρόθεση um + τι • .",
+      "explanation": "Sich scheren nõuab kindlat eessõna um + mida?.",
       "forms": "um + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -10880,7 +11012,10 @@ const B2_WORDS = [
             "sich scheren"
           ],
           "red": [
-            "um + ko?"
+            "um + mida?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -10890,382 +11025,382 @@ const B2_WORDS = [
     "de": "Schiebedach",
     "de_article": "das",
     "de_plural": "die Schiebedächer",
-    "lv": "Συρόμενη οροφή αυτοκινήτου",
+    "lv": "Auto lükandkatus",
     "level": "B2"
   },
   {
     "de": "Schieber",
     "de_article": "der",
     "de_plural": "die Schieber",
-    "lv": "Μάνδαλο • Μπουλόνι • Κερδοσκόπος",
+    "lv": "Riiv • Polt • Spekulant",
     "level": "B2"
   },
   {
     "de": "Schiffbau",
     "de_article": "der",
-    "lv": "Ναυπηγική",
+    "lv": "Laevaehitus",
     "level": "B2"
   },
   {
     "de": "Schiffbruch",
     "de_article": "der",
     "de_plural": "die Schiffbrüche",
-    "lv": "Ναυάγιο",
+    "lv": "Laevahukk",
     "level": "B2"
   },
   {
     "de": "Schiffsverkehr",
     "de_article": "der",
     "de_plural": "die Schiffsverkehre",
-    "lv": "Κυκλοφορία πλοίων",
+    "lv": "Laevaliiklus",
     "level": "B2"
   },
   {
     "de": "schillern",
-    "lv": "Λάμψη • Παιχνίδι σε διάφορα χρώματα",
+    "lv": "Sädelema • Eri värvides mängima",
     "level": "B2"
   },
   {
     "de": "Schlachtfeld",
     "de_article": "das",
     "de_plural": "die Schlachtfelder",
-    "lv": "Πεδίο μάχης",
+    "lv": "Lahinguväli",
     "level": "B2"
   },
   {
     "de": "schlafwandeln",
-    "lv": "Να είσαι υπνοβάτης",
+    "lv": "Olema unerändaja",
     "level": "B2"
   },
   {
     "de": "Schlaganfall",
     "de_article": "der",
     "de_plural": "die Schlaganfälle",
-    "lv": "Ένα εγκεφαλικό",
+    "lv": "Insult",
     "level": "B2"
   },
   {
     "de": "schlagfertig",
-    "lv": "Πολυμήχανος • Πνευματώδης",
+    "lv": "Leidlik • Vaimukas",
     "level": "B2"
   },
   {
     "de": "Schlagwort",
     "de_article": "das",
     "de_plural": "die Schlagwörter",
-    "lv": "Σύνθημα • Πιασάρικη λέξη",
+    "lv": "Loosung • Tabav sõna",
     "level": "B2"
   },
   {
     "de": "Schleudersitz",
     "de_article": "der",
     "de_plural": "die Schleudersitze",
-    "lv": "Καταπέλτες αεροσκαφών",
+    "lv": "Lennuki katapultiste",
     "level": "B2"
   },
   {
     "de": "schleunigst",
-    "lv": "Αμέσως • Το συντομότερο δυνατό",
+    "lv": "Viivitamatult • Niipea kui võimalik",
     "level": "B2"
   },
   {
     "de": "Schlusswort",
     "de_article": "das",
     "de_plural": "die Schlussworte",
-    "lv": "Τελευταία λέξη",
+    "lv": "Lõppsõna",
     "level": "B2"
   },
   {
     "de": "Schmach",
     "de_article": "die",
     "de_plural": null,
-    "lv": "Ντροπή • Ατιμία",
+    "lv": "Häbi • Ebaau",
     "level": "B2"
   },
   {
     "de": "Schmarotzer",
     "de_article": "der",
     "de_plural": "die Schmarotzer",
-    "lv": "Ένα παράσιτο",
+    "lv": "Parasiit",
     "level": "B2"
   },
   {
     "de": "schmeicheln",
-    "lv": "Προσελκύω",
+    "lv": "Meelitama",
     "level": "B2"
   },
   {
     "de": "Schmerzensgeld",
     "de_article": "das",
     "de_plural": "die Schmerzensgelder",
-    "lv": "Ο πόνος χρήματα",
+    "lv": "Valuraha",
     "level": "B2"
   },
   {
     "de": "schmerzlich",
-    "lv": "Οδυνηρός • Λυπημένος",
+    "lv": "Valus • Kurb",
     "level": "B2"
   },
   {
     "de": "schmollen",
-    "lv": "Να χυλώσει",
+    "lv": "Mossitama",
     "level": "B2"
   },
   {
     "de": "Schmuggel",
     "de_article": "der",
-    "lv": "Λαθρεμπόριο",
+    "lv": "Salakaup",
     "level": "B2"
   },
   {
     "de": "Schnappschuss",
     "de_article": "der",
     "de_plural": "die Schnappschüsse",
-    "lv": "Στιγμιότυπο σε φωτογραφία",
+    "lv": "Hetkevõte fotol",
     "level": "B2"
   },
   {
     "de": "schonungslos",
-    "lv": "Ανηλεής",
+    "lv": "Armutu",
     "level": "B2"
   },
   {
     "de": "schöpferisch",
-    "lv": "Δημιουργικός",
+    "lv": "Loov",
     "level": "B2"
   },
   {
     "de": "Schöpfung",
     "de_article": "die",
     "de_plural": "die Schöpfungen",
-    "lv": "Δημιουργία • Δημιουργία • Εργασία",
+    "lv": "Loomine • Looming • Töö",
     "level": "B2"
   },
   {
     "de": "schreiten",
-    "lv": "Να πατήσει • Να περπατήσει",
+    "lv": "Sammuma • Kõndima",
     "level": "B2"
   },
   {
     "de": "Bittschrift",
     "de_article": "die",
     "de_plural": "die Bittschriften",
-    "lv": "Προσευχή",
+    "lv": "Palve",
     "level": "B2"
   },
   {
     "de": "schrill",
-    "lv": "Kimeda • Κοπή",
+    "lv": "Kimeda • Lõikav",
     "level": "B2"
   },
   {
     "de": "schroff",
-    "lv": "Απότομος • Γκρεμός • Τραχύς • Απότομος • Εχθρικός",
+    "lv": "Järsk • Kalju • Karm • Terav • Ebasõbralik",
     "level": "B2"
   },
   {
     "de": "Schuhfabrik",
     "de_article": "die",
     "de_plural": "die Schuhfabriken",
-    "lv": "Εργοστάσιο υποδημάτων",
+    "lv": "Jalatsitehas",
     "level": "B2"
   },
   {
     "de": "Schuldschein",
     "de_article": "der",
     "de_plural": "die Schuldscheine",
-    "lv": "Δεσμός",
+    "lv": "Võlakiri",
     "level": "B2"
   },
   {
     "de": "Schusswaffe",
     "de_article": "die",
     "de_plural": "die Schusswaffen",
-    "lv": "Πυροβόλο όπλο",
+    "lv": "Tulirelv",
     "level": "B2"
   },
   {
     "de": "Schutzfarbe",
     "de_article": "die",
     "de_plural": "die Schutzfarben",
-    "lv": "Προστατευτική βαφή",
+    "lv": "Kaitsevärv",
     "level": "B2"
   },
   {
     "de": "Schutzimpfung",
     "de_article": "die",
     "de_plural": "die Schutzimpfungen",
-    "lv": "Ένεση προστασίας",
+    "lv": "Kaitsesüst",
     "level": "B2"
   },
   {
     "de": "schutzlos",
-    "lv": "Ανυπεράσπιστος",
+    "lv": "Kaitsetu",
     "level": "B2"
   },
   {
     "de": "Schwankung",
     "de_article": "die",
     "de_plural": "die Schwankungen",
-    "lv": "Διακύμανση",
+    "lv": "Kõikumine",
     "level": "B2"
   },
   {
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "Πάθος • Αρπαγή",
+    "lv": "Kirg • Vaimustus",
     "level": "B2"
   },
   {
     "de": "schwärmen",
-    "lv": "Να ασχοληθεί με πάθος • Να ενθουσιαστεί • Να ονειρευτεί",
+    "lv": "Kirglikult tegelema • Vaimustuma • Unistama",
     "level": "B2"
   },
   {
     "de": "Schwarzarbeit",
     "de_article": "die",
     "de_plural": "die Schwarzarbeiten",
-    "lv": "Βρώμικη δουλειά",
+    "lv": "Mustalt tehtav töö",
     "level": "B2"
   },
   {
     "de": "Schwarze",
     "de_article": "der",
     "de_plural": "die Schwarze",
-    "lv": "Ένας μελαχρινός άνθρωπος",
+    "lv": "Tumedanahaline inimene",
     "level": "B2"
   },
   {
     "de": "Schwarzmarkt",
     "de_article": "der",
     "de_plural": "die Schwarzmärkte",
-    "lv": "Μαύρη αγορά",
+    "lv": "Must turg",
     "level": "B2"
   },
   {
     "de": "Schwebebahn",
     "de_article": "die",
     "de_plural": "die Schwebebahnen",
-    "lv": "Σιδηρόδρομος ανάρτησης",
+    "lv": "Rippraudtee",
     "level": "B2"
   },
   {
     "de": "Schweinezucht",
     "de_article": "die",
     "de_plural": "die Schweinezuchten",
-    "lv": "Χοιροτροφία",
+    "lv": "Seakasvatus",
     "level": "B2"
   },
   {
     "de": "schwelen",
-    "lv": "Να λάμπει",
+    "lv": "Hõõguma",
     "level": "B2"
   },
   {
     "de": "Schwerathletik",
     "de_article": "die",
     "de_plural": "die Schwerathletiken",
-    "lv": "Sp. αθλήματα άρσης βαρών",
+    "lv": "Sp. tõstespordid",
     "level": "B2"
   },
   {
     "de": "schwerfällig",
-    "lv": "Δύσκολο • Αργό",
+    "lv": "Raskepärane • Aeglane",
     "level": "B2"
   },
   {
     "de": "Schwerpunkt",
     "de_article": "der",
     "de_plural": "die Schwerpunkte",
-    "lv": "Σημείο βάρους",
+    "lv": "Raskuspunkt",
     "level": "B2"
   },
   {
     "de": "schwinden",
-    "lv": "Μειώνεται • Εξαφανίζεται • Διαλύεται",
+    "lv": "Vähenema • Kaduma • Hajuma",
     "level": "B2"
   },
   {
     "de": "Seenot",
     "de_article": "die",
-    "lv": "Κατάσταση έκτακτης ανάγκης στη θάλασσα",
+    "lv": "Avariiolukord merel",
     "level": "B2"
   },
   {
     "de": "Seemacht",
     "de_article": "die",
     "de_plural": "die Seemächte",
-    "lv": "Θαλάσσια χώρα",
+    "lv": "Mereriik",
     "level": "B2"
   },
   {
     "de": "Segelflieger",
     "de_article": "der",
     "de_plural": "die Segelflieger",
-    "lv": "Ανεμοπλάνο",
+    "lv": "Purilendur",
     "level": "B2"
   },
   {
     "de": "Segelflugzeug",
     "de_article": "das",
     "de_plural": "die Segelflugzeuge",
-    "lv": "Ένα ανεμόπτερο",
+    "lv": "Purilennuk",
     "level": "B2"
   },
   {
     "de": "Sehkraft",
     "de_article": "die",
-    "lv": "Όραση • Ικανότητα όρασης",
+    "lv": "Nägemine • Nägemisvõime",
     "level": "B2"
   },
   {
     "de": "Naturseide",
     "de_article": "die",
-    "lv": "Φυσικό μετάξι",
+    "lv": "Loomulik siid",
     "level": "B2"
   },
   {
     "de": "Sein",
     "de_article": "das",
-    "lv": "Ύπαρξη",
+    "lv": "Olemine",
     "level": "B2",
     "study": {
       "id": "b2-sein-study",
       "layout": "standardStudy",
-      "translation": "Ύπαρξη",
+      "translation": "Olemine",
       "explanation": [
-        "Κύρια ιδέα: das Ένας τοίχος με κεφαλαίο γράμμα και το άρθρο das είναι ουσιαστικό — ον, ύπαρξη (φιλοσοφική έννοια).",
-        "Sein με μικρό αρχικό γράμμα είναι ρήμα — to be.",
-        "Το das Sein χρησιμοποιείται συχνά σε ένα φιλοσοφικό ή αφηρημένο πλαίσιο (das menschliche Sein).",
-        "Ουσιαστικά: sein → das Sein, ίδιο με το können → das Können."
+        "Peamine mõte: das Sein suure algustähega ja artikliga das on nimisõna — olemine, eksistents (filosoofiline mõiste).",
+        "Sein väikese algustähega on tegusõna — olema.",
+        "Das Sein't kasutatakse sageli filosoofilises või abstraktses kontekstis (das menschliche Sein).",
+        "Substantiveerimine: sein → das Sein, samamoodi nagu können → das Können."
       ],
       "examples": [
         {
           "de": "Das menschliche Sein ist komplex.",
-          "lv": "Το να είσαι άνθρωπος είναι περίπλοκο."
+          "lv": "Inimese olemine on keeruline."
         },
         {
           "de": "Sein oder Nichtsein, das ist die Frage.",
-          "lv": "Να είσαι ή να μην είσαι, αυτό είναι το ζητούμενο."
+          "lv": "Olla või mitte olla, selles on küsimus."
         },
         {
           "de": "Ich bin müde.",
-          "lv": "Είμαι κουρασμένος"
+          "lv": "Ma olen väsinud."
         },
         {
           "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "Το είναι καθορίζει τη συνείδηση."
+          "lv": "Olemine määrab teadvuse."
         }
       ],
       "tip": [
-        "Das Sein με κεφαλαίο γράμμα — ουσιαστικό (ον, με φιλοσοφική έννοια).",
-        "Τοίχος με μικρό αρχικό γράμμα — ρήμα (να είσαι)."
+        "das Sein ar lielo burtu — lietvārds (esamība, filozofiskā nozīmē).",
+        "sein ar mazo burtu — darbības vārds (būt)."
       ],
       "important": [
-        "Das Sein = ον (ουσιαστικό, αφηρημένο/φιλοσοφικό).",
-        "Τοίχος = να είμαι (ρήμα, καθημερινός).",
-        "Αυτή η λέξη είναι ένα ουσιαστικοποιημένο ρήμα, όπως το das Können."
+        "das Sein = esamība (lietvārds, abstrakts/filozofisks).",
+        "sein = būt (darbības vārds, ikdienā).",
+        "Šis vārds ir substantivizēts darbības vārds, tāpat kā das Können."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11273,8 +11408,8 @@ const B2_WORDS = [
             "das Sein"
           ],
           "purple": [
-            "esamība",
-            "eksistence"
+            "olemine",
+            "eksistents"
           ],
           "green": [
             "sein"
@@ -11289,7 +11424,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "esamība"
+                "olemine"
               ]
             }
           },
@@ -11301,7 +11436,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "būt"
+                "olla"
               ]
             }
           },
@@ -11313,7 +11448,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "esmu"
+                "olen"
               ]
             }
           },
@@ -11325,7 +11460,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "esamība"
+                "olemine"
               ]
             }
           }
@@ -11366,178 +11501,178 @@ const B2_WORDS = [
     "de": "Selbstgefühl",
     "de_article": "das",
     "de_plural": "die Selbstgefühle",
-    "lv": "Εμπιστοσύνη",
+    "lv": "Enesekindlus",
     "level": "B2"
   },
   {
     "de": "Selbstkosten",
     "de_article": "die",
-    "lv": "Τιμή κόστους",
+    "lv": "Omahind",
     "level": "B2"
   },
   {
     "de": "Selbstkritik",
     "de_article": "die",
     "de_plural": "die Selbstkritiken",
-    "lv": "Αυτοκριτική",
+    "lv": "Enesekriitika",
     "level": "B2"
   },
   {
     "de": "selbstlos",
-    "lv": "Ανιδιοτελής • Ανιδιοτελής",
+    "lv": "Omakasupüüdmatu • Ennastsalgav",
     "level": "B2"
   },
   {
     "de": "Selbstmord",
     "de_article": "der",
     "de_plural": "die Selbstmorde",
-    "lv": "Αυτοκτονία",
+    "lv": "Enesetapp",
     "level": "B2"
   },
   {
     "de": "selbsttätig",
-    "lv": "Αυτόματο",
+    "lv": "Automatisk",
     "level": "B2"
   },
   {
     "de": "Senat",
     "de_article": "der",
     "de_plural": "die Senate",
-    "lv": "Γερουσία • Ερευνητικό συμβούλιο",
+    "lv": "Senat • Teadusnõukogu",
     "level": "B2"
   },
   {
     "de": "Sensenblatt",
     "de_article": "das",
     "de_plural": "die Sensenblätter",
-    "lv": "Λεπίδα δρεπάνι",
+    "lv": "Vikatitera",
     "level": "B2"
   },
   {
     "de": "sensibel",
-    "lv": "Ευαίσθητη • Λεπτή",
+    "lv": "Tundlik • Delikaatne",
     "level": "B2"
   },
   {
     "de": "Separatismus",
     "de_article": "der",
-    "lv": "Χωριστικότητα",
+    "lv": "Separatism",
     "level": "B2"
   },
   {
     "de": "Seuche",
     "de_article": "die",
     "de_plural": "die Seuchen",
-    "lv": "Πανώλη • Επιδημία",
+    "lv": "Katk • Epideemia",
     "level": "B2"
   },
   {
     "de": "Seuchenherd",
     "de_article": "der",
     "de_plural": "die Seuchenherde",
-    "lv": "Την πηγή της επιδημίας",
+    "lv": "Epideemia allikas",
     "level": "B2"
   },
   {
     "de": "sickern",
-    "lv": "Στάζει • Διαρροή",
+    "lv": "Tilkuma • Imbuma",
     "level": "B2"
   },
   {
     "de": "siegreich",
-    "lv": "Στέφθηκε με νίκη",
+    "lv": "Võiduga kroonitud",
     "level": "B2"
   },
   {
     "de": "Silberschmied",
     "de_article": "der",
     "de_plural": "die Silberschmiede",
-    "lv": "Αργυροχόος",
+    "lv": "Hõbesepp",
     "level": "B2"
   },
   {
     "de": "Simulator",
     "de_article": "der",
     "de_plural": "die Simulatoren",
-    "lv": "Προσομοιωτής",
+    "lv": "Simulaator",
     "level": "B2"
   },
   {
     "de": "simulieren",
-    "lv": "Προσομοίωση • Μίμηση",
+    "lv": "Simuleerima • Imiteerima",
     "level": "B2"
   },
   {
     "de": "Sinnbild",
     "de_article": "das",
     "de_plural": "die Sinnbilder",
-    "lv": "Σύμβολο",
+    "lv": "Sümbol",
     "level": "B2"
   },
   {
     "de": "sittlich",
-    "lv": "Ηθικός",
+    "lv": "Kõlbeline",
     "level": "B2"
   },
   {
     "de": "Skalpell",
     "de_article": "das",
     "de_plural": "die Skalpelle",
-    "lv": "Χειρουργικό νυστέρι",
+    "lv": "Skalpell",
     "level": "B2"
   },
   {
     "de": "smart",
-    "lv": "Έξυπνος • Πονηρός",
+    "lv": "Tark • Kaval",
     "level": "B2"
   },
   {
     "de": "sofern",
-    "lv": "Εάν • Υπό τον όρο ότι",
+    "lv": "Kui • Tingimusel, et",
     "level": "B2",
     "study": {
       "id": "b2-sofern",
       "layout": "standardStudy",
-      "translation": "Εάν • Υπό τον όρο ότι",
+      "translation": "Kui • Tingimusel, et",
       "explanation": [
-        "Κύρια ιδέα: το sofè είναι σύνδεσμος υπό όρους — σημαίνει εάν/εφόσον αυτό.",
-        "Αν εισάγει μια ρήτρα υπό όρους, παρόμοια με την wenn, αλλά είναι πιο επίσημη και τυπική της γραπτής γλώσσας.",
-        "Soufen ΔΕΝ σημαίνει «επειδή» (σύνδεση του λόγου) — είναι da ή weil στα γερμανικά.",
-        "Συχνά χρησιμοποιείται σε νομικά/επίσημα κείμενα (sofern nicht anders beschreibt = εκτός εάν συμφωνηθεί διαφορετικά)."
+        "Peamine mõte: sofern on tingimuse sidesõna — tähendab kui/tingimusel, et.",
+        "Sofern sissejuhatab tingimuslause, sarnaselt wenn, kuid on formaalsem ja tüüpilisem kirjakeelele.",
+        "Sofern EI tähenda 'kuna' (põhjuse sidesõna) — see on saksa keeles da või weil.",
+        "Sageli kasutatakse juriidilistes/formaalsetes tekstides (sofern nicht anders vereinbart = kui ei ole kokku lepitud teisiti)."
       ],
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "Θα ερθω οταν εχω χρονο."
+          "lv": "Ma tulen, kui mul on aega."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
-          "lv": "Εκτός εάν συμφωνηθεί διαφορετικά, ισχύει η τυπική τιμή."
+          "lv": "Kui ei ole kokku lepitud teisiti, kehtib standardhind."
         },
         {
           "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "Εφόσον ο καιρός είναι καλός, θα κάνουμε το ταξίδι."
+          "lv": "Tingimusel, et ilm on hea, teeme väljasõidu."
         },
         {
           "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "Αν είναι δυνατόν να είστε συγκεκριμένοι."
+          "lv": "Kui võimalik, palun olge täpsed."
         },
         {
           "de": "Er hilft, sofern er kann.",
-          "lv": "Βοηθάει όταν μπορεί."
+          "lv": "Ta aitab, kui saab."
         },
         {
           "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "Επειδή βρέχει, μένουμε σπίτι."
+          "lv": "Kuna sajab, jääme koju."
         }
       ],
       "tip": [
-        "Εάν / υπό τον όρο ότι (προϋπόθεση) — μην συγχέετε με τον λόγο.",
-        "«γιατί» (αιτία) είναι da/weil στα γερμανικά, όχι soufen."
+        "sofern = ja/ar noteikumu, ka (nosacījums) — nejaukt ar cēloni.",
+        "'tā kā' (cēlonis) vācu valodā ir da/weil, ne sofern."
       ],
       "important": [
-        "Το sofé είναι ένας συνδυασμός κατάστασης, όχι αιτίας.",
-        "Λάθος: soifeg = επειδή → Σωστό: da/weil = επειδή."
+        "sofern ir nosacījuma, ne cēloņa savienojums.",
+        "Nepareizi: sofern = tā kā → Pareizi: da/weil = tā kā."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11545,8 +11680,8 @@ const B2_WORDS = [
             "sofern"
           ],
           "purple": [
-            "ja",
-            "ar noteikumu, ka"
+            "kui",
+            "tingimusel, et"
           ],
           "red": [
             "da",
@@ -11562,7 +11697,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ja"
+                "kui"
               ]
             }
           },
@@ -11574,7 +11709,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ja"
+                "kui"
               ]
             }
           },
@@ -11586,7 +11721,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ar noteikumu, ka"
+                "tingimusel, et"
               ]
             }
           },
@@ -11598,7 +11733,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ja"
+                "kui"
               ]
             }
           },
@@ -11610,7 +11745,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ja"
+                "kui"
               ]
             }
           },
@@ -11622,7 +11757,7 @@ const B2_WORDS = [
             },
             "lv": {
               "red": [
-                "tā kā"
+                "kuna"
               ]
             }
           }
@@ -11630,8 +11765,8 @@ const B2_WORDS = [
         "tip": [
           {
             "blue": [
-              "ja",
-              "ar noteikumu, ka"
+              "sofern",
+              "sofern"
             ]
           },
           {
@@ -11653,7 +11788,7 @@ const B2_WORDS = [
               "weil"
             ],
             "purple": [
-              "tā kā"
+              "Nepareizi"
             ]
           }
         ]
@@ -11664,1351 +11799,1351 @@ const B2_WORDS = [
     "de": "Söldner",
     "de_article": "der",
     "de_plural": "die Söldner",
-    "lv": "Μισθοφόρος",
+    "lv": "Palgasõdur",
     "level": "B2"
   },
   {
     "de": "solidarisch",
-    "lv": "Αλληλεγγύη",
+    "lv": "Solidaarne",
     "level": "B2"
   },
   {
     "de": "Sonde",
     "de_article": "die",
     "de_plural": "die Sonden",
-    "lv": "Καθετήρας",
+    "lv": "Sond",
     "level": "B2"
   },
   {
     "de": "Sonderausgabe",
     "de_article": "die",
     "de_plural": "die Sonderausgaben",
-    "lv": "Ειδική έκδοση βιβλίου • Ειδικό τεύχος εφημερίδας • Ειδική έκδοση γραμματοσήμου",
+    "lv": "Raamatu erilaadumine • Ajalehe erinumber • Margi eriväljalase",
     "level": "B2"
   },
   {
     "de": "Sonderfall",
     "de_article": "der",
     "de_plural": "die Sonderfälle",
-    "lv": "Εξαιρετική περίπτωση",
+    "lv": "Erandjuhtum",
     "level": "B2"
   },
   {
     "de": "Sonnenuhr",
     "de_article": "die",
     "de_plural": "die Sonnenuhren",
-    "lv": "Ηλιακό ωρολόγιο",
+    "lv": "Päikesekell",
     "level": "B2"
   },
   {
     "de": "Sonnenwende",
     "de_article": "die",
     "de_plural": "die Sonnenwenden",
-    "lv": "Ημέρα του ηλιοστασίου",
+    "lv": "Pööripäev",
     "level": "B2"
   },
   {
     "de": "Sorgenkind",
     "de_article": "das",
     "de_plural": "die Sorgenkinder",
-    "lv": "Εξαρτώμενο παιδί",
+    "lv": "Hoolealune laps",
     "level": "B2"
   },
   {
     "de": "Sorgepflicht",
     "de_article": "die",
-    "lv": "Καθήκον φροντίδας",
+    "lv": "Hoolduskohustus",
     "level": "B2"
   },
   {
     "de": "Sorgerecht",
     "de_article": "das",
     "de_plural": "die Sorgerechte",
-    "lv": "Δικαίωμα επιμέλειας",
+    "lv": "Hooldusõigus",
     "level": "B2"
   },
   {
     "de": "Sozialismus",
     "de_article": "der",
-    "lv": "Σολιαλισμός",
+    "lv": "Sotsialism",
     "level": "B2"
   },
   {
     "de": "sozialistisch",
-    "lv": "Σοσιαλιστής",
+    "lv": "Sotsialistlik",
     "level": "B2"
   },
   {
     "de": "Spaltung",
     "de_article": "die",
     "de_plural": "die Spaltungen",
-    "lv": "Σχίσιμο • Σχίσμα",
+    "lv": "Lõhestamine • Lõhenemine",
     "level": "B2"
   },
   {
     "de": "spärlich",
-    "lv": "Ασήμαντο • Τσιγκούνης • Σπάνιος",
+    "lv": "Tühine • Ihne • Harv",
     "level": "B2"
   },
   {
     "de": "Sperma",
     "de_article": "das",
     "de_plural": "die Spermen",
-    "lv": "Σπέρμα",
+    "lv": "Sperma",
     "level": "B2"
   },
   {
     "de": "spezifisch",
-    "lv": "Ειδικός",
+    "lv": "Spetsiifiline",
     "level": "B2"
   },
   {
     "de": "Sphäre",
     "de_article": "die",
     "de_plural": "die Sphären",
-    "lv": "Σφαίρα • Βασίλειο",
+    "lv": "Sfäär • Valdkond",
     "level": "B2"
   },
   {
     "de": "Spielgerät",
     "de_article": "das",
     "de_plural": "die Spielgeräte",
-    "lv": "Απογραφή αθλητικών παιχνιδιών",
+    "lv": "Sportmängude inventar",
     "level": "B2"
   },
   {
     "de": "Spießbürger",
     "de_article": "der",
     "de_plural": "die Spießbürger",
-    "lv": "Μικροαστός",
+    "lv": "Väikekodanlane",
     "level": "B2"
   },
   {
     "de": "spionieren",
-    "lv": "Να κατασκοπεύει",
+    "lv": "Luurama",
     "level": "B2"
   },
   {
     "de": "Spott",
     "de_article": "der",
-    "lv": "Κοίτα • Πειράγματα • Κακόγουστο αστείο",
+    "lv": "Pilge • Narrimine • Kuri nali",
     "level": "B2"
   },
   {
     "de": "spötteln",
-    "lv": "Να μιλήσω ειρωνικά",
+    "lv": "Irooniliselt sõna võtma",
     "level": "B2"
   },
   {
     "de": "spotten",
-    "lv": "Χλευάζω • Κοροϊδεύω",
+    "lv": "Naeruvääristama • Narrima",
     "level": "B2"
   },
   {
     "de": "spöttisch",
-    "lv": "Κοροϊδεύοντας • Πειράγματα",
+    "lv": "Pilkav • Narritav",
     "level": "B2"
   },
   {
     "de": "Sprechanlage",
     "de_article": "die",
     "de_plural": "die Sprechanlagen",
-    "lv": "Τηλέφωνο πόρτας σπιτιού",
+    "lv": "Kodune uksetelefon",
     "level": "B2"
   },
   {
     "de": "sprengen",
-    "lv": "Να φυσήξει • Να ραντίσει • Να ποτίσει",
+    "lv": "Õhku laskma • Piserdama • Kastma",
     "level": "B2"
   },
   {
     "de": "Sprengstoff",
     "de_article": "der",
     "de_plural": "die Sprengstoffe",
-    "lv": "Εκρηκτικός",
+    "lv": "Lõhkeaine",
     "level": "B2"
   },
   {
     "de": "Spross",
     "de_article": "der",
     "de_plural": "die Sprosse",
-    "lv": "Bot. φλοιό • Βλαστάρι • Υπερανάπτυξη. απόγονος",
+    "lv": "Bot. võsu • Idand • Ülek. järeltulija",
     "level": "B2"
   },
   {
     "de": "Spruch",
     "de_article": "der",
     "de_plural": "die Sprüche",
-    "lv": "Έκφραση • Αφορισμός • Jur. κρίση",
+    "lv": "Väljend • Aforism • Jur. kohtuotsus",
     "level": "B2"
   },
   {
     "de": "Spruchband",
     "de_article": "das",
     "de_plural": "die Spruchbande",
-    "lv": "Διαφανής • Αφίσα",
+    "lv": "Transparent • Plakat",
     "level": "B2"
   },
   {
     "de": "Spuk",
     "de_article": "der",
     "de_plural": "die Spuke",
-    "lv": "Φάντασμα • Πνεύμα • Φαινόμενο",
+    "lv": "Kummitus • Vaim • Nähtus",
     "level": "B2"
   },
   {
     "de": "spurlos",
-    "lv": "Χωρίς ίχνος • Να λείπει",
+    "lv": "Jäljetult • Teadmata kadunud",
     "level": "B2"
   },
   {
     "de": "Staatenlose",
     "de_article": "der",
     "de_plural": "die Staatenlosen",
-    "lv": "Ανιθαγενής",
+    "lv": "Kodakondsuseta isik",
     "level": "B2"
   },
   {
     "de": "Staatsbesuch",
     "de_article": "der",
     "de_plural": "die Staatsbesuche",
-    "lv": "Κρατική επίσκεψη",
+    "lv": "Riigivisiit",
     "level": "B2"
   },
   {
     "de": "Staatsexamen",
     "de_article": "das",
     "de_plural": "die Staatsexamen",
-    "lv": "Κρατική εξέταση",
+    "lv": "Riigieksam",
     "level": "B2"
   },
   {
     "de": "Staatshaushalt",
     "de_article": "der",
     "de_plural": "die Staatshaushalte",
-    "lv": "Κρατικού προϋπολογισμού",
+    "lv": "Riigieelarve",
     "level": "B2"
   },
   {
     "de": "Staatsmann",
     "de_article": "der",
     "de_plural": "die Staatsmänner",
-    "lv": "Πολιτικός άνδρας",
+    "lv": "Riigimees",
     "level": "B2"
   },
   {
     "de": "Staatsstreich",
     "de_article": "der",
     "de_plural": "die Staatsstreiche",
-    "lv": "Ένα πραξικόπημα",
+    "lv": "Riigipööre",
     "level": "B2"
   },
   {
     "de": "stabilisieren",
-    "lv": "Σταθεροποιώ",
+    "lv": "Stabiliseerima",
     "level": "B2"
   },
   {
     "de": "Stahlwerk",
     "de_article": "das",
     "de_plural": "die Stahlwerke",
-    "lv": "Χυτήριο χάλυβα",
+    "lv": "Terasevalukoda",
     "level": "B2"
   },
   {
     "de": "starr",
-    "lv": "Ακίνητος • Παγωμένος • Άκαμπτος",
+    "lv": "Liikumatu • Tardunud • Jäik",
     "level": "B2"
   },
   {
     "de": "starren",
-    "lv": "Να κοιτάζω επίμονα • Να κοιτάζω",
+    "lv": "Teraselt vaatama • Jõllitama",
     "level": "B2"
   },
   {
     "de": "starrköpfig",
-    "lv": "Επίμονος • Πεισματάρης",
+    "lv": "Kangekaelne • Jonnakas",
     "level": "B2"
   },
   {
     "de": "starrsinnig",
-    "lv": "Επίμονος • Πεισματάρης",
+    "lv": "Kangekaelne • Jonnakas",
     "level": "B2"
   },
   {
     "de": "Stätte",
     "de_article": "die",
     "de_plural": "die Stätten",
-    "lv": "Θέση",
+    "lv": "Koht",
     "level": "B2"
   },
   {
     "de": "Statut",
     "de_article": "das",
     "de_plural": "die Statuten",
-    "lv": "Νόμος",
+    "lv": "Põhikiri",
     "level": "B2"
   },
   {
     "de": "Steckbrief",
     "de_article": "der",
     "de_plural": "die Steckbriefe",
-    "lv": "Περιγραφή του καταζητούμενου στην αστυνομία",
+    "lv": "Tagaotsitava kirjeldus politseis",
     "level": "B2"
   },
   {
     "de": "steril",
-    "lv": "Στείρος",
+    "lv": "Steriilne",
     "level": "B2"
   },
   {
     "de": "Steuergelder",
     "de_article": "die",
-    "lv": "Συνολικά φορολογικά έσοδα της χώρας",
+    "lv": "Kogu riigi maksutulu",
     "level": "B2"
   },
   {
     "de": "Steuererhöhung",
     "de_article": "die",
     "de_plural": "die Steuererhöhungen",
-    "lv": "Αύξηση φόρου",
+    "lv": "Maksutõus",
     "level": "B2"
   },
   {
     "de": "Steuersenkung",
     "de_article": "die",
     "de_plural": "die Steuersenkungen",
-    "lv": "Φορολογική περικοπή",
+    "lv": "Maksukärbe",
     "level": "B2"
   },
   {
     "de": "Stoßverkehr",
     "de_article": "der",
-    "lv": "Ώρα αιχμής • Αυξημένη κίνηση σε μια συγκεκριμένη ώρα της ημέρας",
+    "lv": "Tipptund • Suurenenud liiklus kindlal kellaajal",
     "level": "B2"
   },
   {
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "Κίνηση ποινικής υπόθεσης εναντίον κάποιου",
+    "lv": "Kriminaalasja algatamine kellegi vastu",
     "level": "B2"
   },
   {
     "de": "stranden",
-    "lv": "Προσάραξε • Συντριβή",
+    "lv": "Madalikule jooksma • Avariisse sattuma",
     "level": "B2"
   },
   {
     "de": "streben",
-    "lv": "Να προσπαθείς για κάτι",
+    "lv": "Millegi poole püüdlema",
     "level": "B2"
   },
   {
     "de": "streitbar",
-    "lv": "Καβγατζής",
+    "lv": "Tülinorija",
     "level": "B2"
   },
   {
     "de": "Streitkräfte",
     "de_article": "die",
-    "lv": "Όλες οι στρατιωτικές οργανώσεις και δυνάμεις της χώρας",
+    "lv": "Riigi kõik sõjalised organisatsioonid ja väed",
     "level": "B2"
   },
   {
     "de": "strippen",
-    "lv": "Στριπτίζ",
+    "lv": "Striptiisi tegema",
     "level": "B2"
   },
   {
     "de": "Stripper",
     "de_article": "der",
     "de_plural": "die Stripper",
-    "lv": "Γυμνό",
+    "lv": "Striptiisitegija",
     "level": "B2"
   },
   {
     "de": "Stripperin",
     "de_article": "die",
     "de_plural": "die Stripperinnen",
-    "lv": "Μια χορεύτρια στριπτίζ",
+    "lv": "Striptiisitantsija",
     "level": "B2"
   },
   {
     "de": "Striptease",
     "de_article": "der",
-    "lv": "Στριπτίζ",
+    "lv": "Striptiis",
     "level": "B2"
   },
   {
     "de": "Strolch",
     "de_article": "der",
     "de_plural": "die Strolche",
-    "lv": "Αλήτης",
+    "lv": "Hulkur",
     "level": "B2"
   },
   {
     "de": "Stücklohn",
     "de_article": "der",
     "de_plural": "die Stücklöhne",
-    "lv": "Αναλογία τεμαχίου",
+    "lv": "Tükitöötasu",
     "level": "B2"
   },
   {
     "de": "Studiengebühr",
     "de_article": "die",
     "de_plural": "die Studiengebühren",
-    "lv": "Δίδακτρα πανεπιστημίου",
+    "lv": "Kõrgkooli õppemaks",
     "level": "B2"
   },
   {
     "de": "stur",
-    "lv": "Επίμονος • Πεισματάρης",
+    "lv": "Jonnakas • Kangekaelne",
     "level": "B2"
   },
   {
     "de": "Stützpunkt",
     "de_article": "der",
     "de_plural": "die Stützpunkte",
-    "lv": "Στρατιωτική βάση",
+    "lv": "Sõjaväebaas",
     "level": "B2"
   },
   {
     "de": "Suchaktion",
     "de_article": "die",
     "de_plural": "die Suchaktionen",
-    "lv": "Έρευνα της αστυνομίας",
+    "lv": "Politsei korraldatud otsing",
     "level": "B2"
   },
   {
     "de": "Täfelung",
     "de_article": "die",
     "de_plural": "die Täfelungen",
-    "lv": "Πάνελ τοίχου • Επένδυση",
+    "lv": "Seinapaneel • Vooder",
     "level": "B2"
   },
   {
     "de": "Tagebau",
     "de_article": "der",
     "de_plural": "die Tagebaue",
-    "lv": "Εξόρυξη ορυκτών πόρων με βάση το λατομείο",
+    "lv": "Maavarade karjääripõline kaevandamine",
     "level": "B2"
   },
   {
     "de": "Tagegeld",
     "de_article": "das",
     "de_plural": "die Tagegelder",
-    "lv": "Μεροκάματο για την ανάθεση",
+    "lv": "Lähetuse päevaraha",
     "level": "B2"
   },
   {
     "de": "Tagelohn",
     "de_article": "der",
     "de_plural": "die Tagelöhne",
-    "lv": "Ημερομίσθιο",
+    "lv": "Päevapalk",
     "level": "B2"
   },
   {
     "de": "Tagelöhner",
     "de_article": "der",
     "de_plural": "die Tagelöhner",
-    "lv": "Ημεροκαματιάρης",
+    "lv": "Päevatööline",
     "level": "B2"
   },
   {
     "de": "tagen",
-    "lv": "Να πραγματοποιήσει συνεδρία",
+    "lv": "Istungit pidama",
     "level": "B2"
   },
   {
     "de": "Tapferkeit",
     "de_article": "die",
     "de_plural": "die Tapferkeiten",
-    "lv": "Θάρρος • Γενναιότητα",
+    "lv": "Julgus • Vaprus",
     "level": "B2"
   },
   {
     "de": "Tatkraft",
     "de_article": "die",
-    "lv": "Ενέργεια • Ορμή",
+    "lv": "Energia • Hoog",
     "level": "B2"
   },
   {
     "de": "telegrafieren",
-    "lv": "Να τηλεγραφώ",
+    "lv": "Telegrafeerima",
     "level": "B2"
   },
   {
     "de": "Terrorismus",
     "de_article": "der",
-    "lv": "Τρομοκρατία",
+    "lv": "Terrorism",
     "level": "B2"
   },
   {
     "de": "Testperson",
     "de_article": "die",
     "de_plural": "die Testpersonen",
-    "lv": "Θέμα δοκιμής",
+    "lv": "Katseisik",
     "level": "B2"
   },
   {
     "de": "texten",
-    "lv": "Για να γράψετε ένα τραγούδι ή ένα διαφημιστικό κείμενο",
+    "lv": "Laulu- või reklaamiteksti kirjutama",
     "level": "B2"
   },
   {
     "de": "These",
     "de_article": "die",
     "de_plural": "die Thesen",
-    "lv": "Τσάι",
+    "lv": "Tees",
     "level": "B2"
   },
   {
     "de": "Tiefsinn",
     "de_article": "der",
-    "lv": "Προσοχή",
+    "lv": "Sügavamõttelisus",
     "level": "B2"
   },
   {
     "de": "Tollwut",
     "de_article": "die",
-    "lv": "Λύσσα",
+    "lv": "Marutõbi",
     "level": "B2"
   },
   {
     "de": "tönen",
-    "lv": "Να ακούγεται • Να τονίζει • Να σκιάζει",
+    "lv": "Kõlama • Toonima • Varjundit andma",
     "level": "B2"
   },
   {
     "de": "Töpferscheibe",
     "de_article": "die",
     "de_plural": "die Töpferscheiben",
-    "lv": "Τροχός του αγγειοπλάστη",
+    "lv": "Pottsepakäi",
     "level": "B2"
   },
   {
     "de": "Tor",
     "de_article": "der",
     "de_plural": "die Toren",
-    "lv": "Ηλίθιος • Ηλίθιος",
+    "lv": "Loll • Jobu",
     "level": "B2"
   },
   {
     "de": "Totalschaden",
     "de_article": "der",
     "de_plural": "die Totalschäden",
-    "lv": "Ζημιά από ατύχημα στο όχημα που δεν μπορεί να επισκευαστεί",
+    "lv": "Sõiduki avariikahjustus, mida ei saa enam parandada",
     "level": "B2"
   },
   {
     "de": "Totenschein",
     "de_article": "der",
     "de_plural": "die Totenscheine",
-    "lv": "Πιστοποιητικό θανάτου",
+    "lv": "Surmatunnistus",
     "level": "B2"
   },
   {
     "de": "totschießen",
-    "lv": "Να καταρρίψουν",
+    "lv": "Maha laskma",
     "level": "B2"
   },
   {
     "de": "totschlagen",
-    "lv": "Να γκρεμίσει",
+    "lv": "Maha lööma",
     "level": "B2"
   },
   {
     "de": "Trabant",
     "de_article": "der",
     "de_plural": "die Trabanten",
-    "lv": "Αστρ. σύντροφος",
+    "lv": "Astr. kaaslane",
     "level": "B2"
   },
   {
     "de": "Tragbahre",
     "de_article": "die",
     "de_plural": "die Tragbahren",
-    "lv": "Φορείο",
+    "lv": "Kanderaam",
     "level": "B2"
   },
   {
     "de": "Trägerrakete",
     "de_article": "die",
     "de_plural": "die Trägerraketen",
-    "lv": "Προωθητής",
+    "lv": "Kanderakett",
     "level": "B2"
   },
   {
     "de": "Transit",
     "de_article": "der",
     "de_plural": "die Transite",
-    "lv": "Διαμετακόμιση",
+    "lv": "Transiit",
     "level": "B2"
   },
   {
     "de": "Transvestit",
     "de_article": "der",
     "de_plural": "die Transvestiten",
-    "lv": "Ένας τραβεστί",
+    "lv": "Transvestiit",
     "level": "B2"
   },
   {
     "de": "Trauma",
     "de_article": "das",
     "de_plural": "die Traumen",
-    "lv": "Τραύμα",
+    "lv": "Trauma",
     "level": "B2"
   },
   {
     "de": "treffend",
-    "lv": "Εύστοχος • Εύγλωττος",
+    "lv": "Tabav • Kõnekas",
     "level": "B2"
   },
   {
     "de": "Tretmine",
     "de_article": "die",
     "de_plural": "die Tretminen",
-    "lv": "Νάρκη κατά προσωπικού",
+    "lv": "Jalaväemiin",
     "level": "B2"
   },
   {
     "de": "treuherzig",
-    "lv": "Εγκάρδιος",
+    "lv": "Sørlandsk dameaktig",
     "level": "B2"
   },
   {
     "de": "treulos",
-    "lv": "Άπιστος • Αναξιόπιστος",
+    "lv": "Ebalojaalne • Ebausaldusväärne",
     "level": "B2"
   },
   {
     "de": "Triebkraft",
     "de_article": "die",
-    "lv": "Κινητήρια δύναμη",
+    "lv": "Liikumapanev jõud",
     "level": "B2"
   },
   {
     "de": "Triumphbogen",
     "de_article": "der",
     "de_plural": "die Triumphbögen",
-    "lv": "Αψίδα του θριάμβου",
+    "lv": "Triumfikaar",
     "level": "B2"
   },
   {
     "de": "Triumphzug",
     "de_article": "der",
     "de_plural": "die Triumphzüge",
-    "lv": "Θριαμβευτική πομπή",
+    "lv": "Triumfirong",
     "level": "B2"
   },
   {
     "de": "Trockenlegung",
     "de_article": "die",
     "de_plural": "die Trockenlegungen",
-    "lv": "Αποχέτευση",
+    "lv": "Kuivendamine",
     "level": "B2"
   },
   {
     "de": "Trommelfell",
     "de_article": "das",
     "de_plural": "die Trommelfelle",
-    "lv": "Τύμπανο ρολό",
+    "lv": "Trummikile",
     "level": "B2"
   },
   {
     "de": "trügen",
-    "lv": "Απάτη",
+    "lv": "Petma",
     "level": "B2"
   },
   {
     "de": "trügerisch",
-    "lv": "Δόλιος",
+    "lv": "Petlik",
     "level": "B2"
   },
   {
     "de": "Tugend",
     "de_article": "die",
     "de_plural": "die Tugenden",
-    "lv": "Αρετή",
+    "lv": "Voorus",
     "level": "B2"
   },
   {
     "de": "Tusch",
     "de_article": "der",
     "de_plural": "die Tusche",
-    "lv": "Σαλπίσματα",
+    "lv": "Fanfaar",
     "level": "B2"
   },
   {
     "de": "überbringen",
-    "lv": "Για να στείλετε ένα μήνυμα • Ένα συγχαρητήριο • Ένα γράμμα • Ένα δώρο",
+    "lv": "Teadet • Õnnitlust • Kirja • Kingitust edastama",
     "level": "B2"
   },
   {
     "de": "Übereinkommen",
     "de_article": "das",
-    "lv": "Συμφωνία",
+    "lv": "Kokkulepe",
     "level": "B2"
   },
   {
     "de": "überfahren",
-    "lv": "Να τρέχει πάνω • Να βουρτσίζει ελαφρά",
+    "lv": "Üle sõitma • Kergelt pintsliga üle tõmbama",
     "level": "B2"
   },
   {
     "de": "überfallen",
-    "lv": "Να επιτεθεί ξαφνικά",
+    "lv": "Äkitselt ründama",
     "level": "B2"
   },
   {
     "de": "Überfluss",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Αφθονία",
+    "lv": "Üleküllus",
     "level": "B2"
   },
   {
     "de": "überfordern",
-    "lv": "Κάνουν υπερβολικές απαιτήσεις",
+    "lv": "Ülemääraseid nõudmisi esitama",
     "level": "B2"
   },
   {
     "de": "überführen",
-    "lv": "Για μεταφορά • Για παράδοση πέρα ​​από το ποτάμι",
+    "lv": "Üle vedama • Üle jõe toimetama",
     "level": "B2"
   },
   {
     "de": "übergehen",
-    "lv": "Να χάσει • Να αγνοήσει • Να παρακάμψει",
+    "lv": "Märkamata jätma • Ignoreerima • Vahele jätma",
     "level": "B2"
   },
   {
     "de": "überhören",
-    "lv": "Να μην ακούει από αμέλεια • Να προσποιείται ότι δεν ακούει",
+    "lv": "Hooletusest mitte kuulma • End mitte kuulvana teesklema",
     "level": "B2"
   },
   {
     "de": "überlassen",
-    "lv": "Αφήστε κάποιον να αποφασίσει • Αφήστε στη διάθεσή του • Επιτρέψτε την επιλογή",
+    "lv": "Jätma kellegi otsustada • Käsutusse jätma • Valikut lubama",
     "level": "B2"
   },
   {
     "de": "Überlastung",
     "de_article": "die",
     "de_plural": "die Überlastungen",
-    "lv": "Παραφορτώνω",
+    "lv": "Ülekoormus",
     "level": "B2"
   },
   {
     "de": "Überlegung",
     "de_article": "die",
     "de_plural": "die Überlegungen",
-    "lv": "Σύσκεψη • Εξέταση",
+    "lv": "Läbimõtlemine • Kaalumine",
     "level": "B2"
   },
   {
     "de": "übermitteln",
-    "lv": "Παραδώστε • Στείλτε ένα γράμμα",
+    "lv": "Üle andma • Kirja saatma",
     "level": "B2"
   },
   {
     "de": "Übermüdung",
     "de_article": "die",
     "de_plural": "die Übermüdungen",
-    "lv": "Εξάντληση",
+    "lv": "Ülekurnatus",
     "level": "B2"
   },
   {
     "de": "überschätzen",
-    "lv": "Εκτιμώ εκ νέου",
+    "lv": "Ümber hindama",
     "level": "B2"
   },
   {
     "de": "überschreiten",
-    "lv": "Να πάει πάνω • Να χαλάσει",
+    "lv": "Üle minema • Rikkuma",
     "level": "B2"
   },
   {
     "de": "übersichtlich",
-    "lv": "Περιεκτικός",
+    "lv": "Ülevaatlik",
     "level": "B2"
   },
   {
     "de": "übersiedeln",
-    "lv": "Μετακόμιση • Αλλαγή κατοικίας",
+    "lv": "Kolima • Elukohta vahetama",
     "level": "B2"
   },
   {
     "de": "überstehen",
-    "lv": "Για να επιβιώσει • Υπομείνετε δυσάρεστα",
+    "lv": "Üle elama • Ebameeldivusi taluma",
     "level": "B2"
   },
   {
     "de": "übertragen",
-    "lv": "Μετάδοση • Εξάπλωση λοιμώδους ασθένειας • Μετάδοση από το ραδιόφωνο • Μετάφραση",
+    "lv": "Üle kandma • Nakkushaigust levitama • Raadio kaudu edastama • Tõlkima",
     "level": "B2"
   },
   {
     "de": "übertreten",
-    "lv": "Να παραβαίνει το νόμο • Να παραβαίνει",
+    "lv": "Seadust rikkuma • Üle astuma",
     "level": "B2"
   },
   {
     "de": "überwältigen",
-    "lv": "Ξεπερνούν • Ατού πάνω",
+    "lv": "Ületama • Üle trumpama",
     "level": "B2"
   },
   {
     "de": "ultimativ",
-    "lv": "Τελικός",
+    "lv": "Ultimatiivne",
     "level": "B2"
   },
   {
     "de": "Ultraschall",
     "de_article": "der",
-    "lv": "Υπέρηχος",
+    "lv": "Ultraheli",
     "level": "B2"
   },
   {
     "de": "umarbeiten",
-    "lv": "Να ξαναδουλέψει • Να ξανακάνει",
+    "lv": "Ümber töötama • Ümber tegema",
     "level": "B2"
   },
   {
     "de": "Umbruch",
     "de_article": "der",
     "de_plural": "die Umbrüche",
-    "lv": "Σημαντικές αλλαγές στην πολιτική",
+    "lv": "Suured muutused poliitikas",
     "level": "B2"
   },
   {
     "de": "umdenken",
-    "lv": "Να αλλάζει κανείς τη γνώμη του ανάλογα με την κατάσταση",
+    "lv": "Arvamust olukorrast sõltuvalt muutma",
     "level": "B2"
   },
   {
     "de": "umfassen",
-    "lv": "Να περιβάλλει • Να πιάνει • Να αγκαλιάζει",
+    "lv": "Ümbritsema • Haarama • Kallistama",
     "level": "B2"
   },
   {
     "de": "Umfeld",
     "de_article": "das",
     "de_plural": "die Umfelder",
-    "lv": "Κοινωνικό • Πολιτικό περιβάλλον",
+    "lv": "Sotsiaalne • Poliitiline keskkond",
     "level": "B2"
   },
   {
     "de": "umgestalten",
-    "lv": "Να μεταμορφωθεί",
+    "lv": "Ümber kujundama",
     "level": "B2"
   },
   {
     "de": "umhören, sich",
-    "lv": "Να ακούσω",
+    "lv": "Kuulatlema",
     "level": "B2"
   },
   {
     "de": "Umkreis",
     "de_article": "der",
     "de_plural": "die Umkreise",
-    "lv": "Περίχωρα",
+    "lv": "Ümbruskond",
     "level": "B2"
   },
   {
     "de": "umkreisen",
-    "lv": "Περιβάλλω • Πετάω τριγύρω • Αιωρώ • Κυκλοφορώ",
+    "lv": "Ümber piirama • Ringi lendama • Hõljuma • Ringlema",
     "level": "B2"
   },
   {
     "de": "Umlauf",
     "de_article": "der",
     "de_plural": "die Umläufe",
-    "lv": "Κυκλοφορία • Κυκλοφορία",
+    "lv": "Ringlemine • Tsirkulatsioon",
     "level": "B2"
   },
   {
     "de": "Umlaufbahn",
     "de_article": "die",
     "de_plural": "die Umlaufbahnen",
-    "lv": "Τροχιά",
+    "lv": "Orbiit",
     "level": "B2"
   },
   {
     "de": "Umriss",
     "de_article": "der",
     "de_plural": "die Umrisse",
-    "lv": "Περίγραμμα",
+    "lv": "Kontuur",
     "level": "B2"
   },
   {
     "de": "umschließen",
-    "lv": "Να περιλαμβάνει • Να περικλείει • Να περιβάλλει",
+    "lv": "Sisse lülitama • Hõlmama • Ümbritsema",
     "level": "B2"
   },
   {
     "de": "umschreiben",
-    "lv": "Να περιγράψω",
+    "lv": "Kirjeldama",
     "level": "B2"
   },
   {
     "de": "umschulen",
-    "lv": "Για επανεκπαίδευση",
+    "lv": "Ümber õpetama",
     "level": "B2"
   },
   {
     "de": "Umschwung",
     "de_article": "der",
     "de_plural": "die Umschwünge",
-    "lv": "Στροφή • Σημείο καμπής • Απότομη αλλαγή • Στροφή",
+    "lv": "Pööre • Murdepunkt • Äkiline muutus • Pööre",
     "level": "B2"
   },
   {
     "de": "Umsicht",
     "de_article": "die",
-    "lv": "Σύνεση • Εκτίμηση",
+    "lv": "Ettevaatlikkus • Kaalutletus",
     "level": "B2"
   },
   {
     "de": "umsiedeln",
-    "lv": "Αναγκαστική επανεγκατάσταση",
+    "lv": "Sundkorras ümber asustama",
     "level": "B2"
   },
   {
     "de": "umständlich",
-    "lv": "Πολύ μικροσκοπικό • Πολύ εκτενές • Επαχθές • Περίπλοκο",
+    "lv": "Väga pisike • Liiga ulatuslik • Koormav • Keeruline",
     "level": "B2"
   },
   {
     "de": "Umsturz",
     "de_article": "der",
     "de_plural": "die Umstürze",
-    "lv": "Πραξικόπημα",
+    "lv": "Putš",
     "level": "B2"
   },
   {
     "de": "umwandeln",
-    "lv": "Αλλαγή • Αναμόρφωση",
+    "lv": "Muutma • Ümber kujundama",
     "level": "B2"
   },
   {
     "de": "umwickeln",
-    "lv": "Να τυλίξει",
+    "lv": "Mähkima",
     "level": "B2"
   },
   {
     "de": "unangebracht",
-    "lv": "Σε λάθος μέρος",
+    "lv": "Valel kohal",
     "level": "B2"
   },
   {
     "de": "unanständig",
-    "lv": "Αγενής • Χωρίς τρόπους",
+    "lv": "Ebaviisakas • Kombeteta",
     "level": "B2"
   },
   {
     "de": "unaufhörlich",
-    "lv": "Αδιάκοπη • Συνεχής",
+    "lv": "Katkematu • Pidev",
     "level": "B2"
   },
   {
     "de": "unbarmherzig",
-    "lv": "Σκληρός • Άκαρδος",
+    "lv": "Julm • Südametu",
     "level": "B2"
   },
   {
     "de": "unbebaut",
-    "lv": "Ακαλλιέργητο (ανά γη) • Μη ανεπτυγμένο",
+    "lv": "Harimata (maa kohta) • Hoonestamata",
     "level": "B2"
   },
   {
     "de": "unbedacht",
-    "lv": "Απερίσκεπτος • Βιαστικός • Απρόσεκτος",
+    "lv": "Läbimõtlemata • Rutakas • Ettevaatamatu",
     "level": "B2"
   },
   {
     "de": "unbegreiflich",
-    "lv": "Ανεξιχνίαστος • Ακατανόητος",
+    "lv": "Hoomamatu • Arusaamatu",
     "level": "B2"
   },
   {
     "de": "unbegründet",
-    "lv": "Αβάσιμος • Παράλογος",
+    "lv": "Alusetu • Põhjendamatu",
     "level": "B2"
   },
   {
     "de": "unbehaglich",
-    "lv": "Άβολος",
+    "lv": "Ebamugav",
     "level": "B2"
   },
   {
     "de": "unbekümmert",
-    "lv": "Ανέμελος",
+    "lv": "Muretu",
     "level": "B2"
   },
   {
     "de": "unbemerkbar",
-    "lv": "Απαρατήρητη",
+    "lv": "Märkamatu",
     "level": "B2"
   },
   {
     "de": "unberechenbar",
-    "lv": "Απρόβλεπτος",
+    "lv": "Ettearvamatu",
     "level": "B2"
   },
   {
     "de": "unbeschränkt",
-    "lv": "Απεριόριστος",
+    "lv": "Piiramatu",
     "level": "B2"
   },
   {
     "de": "unbestechlich",
-    "lv": "Ανεπηρέαστος από δωροδοκία",
+    "lv": "Altkäemaksuga mittemõjutatav",
     "level": "B2"
   },
   {
     "de": "unbewusst",
-    "lv": "Ασυνείδητο • Ενστικτώδες • Ακούσιο",
+    "lv": "Teadvustamata • Instinktiivne • Tahtmatu",
     "level": "B2"
   },
   {
     "de": "undenkbar",
-    "lv": "Αδιανόητος",
+    "lv": "Mõeldamatu",
     "level": "B2"
   },
   {
     "de": "unentbehrlich",
-    "lv": "Απαραίτητος",
+    "lv": "Vayalike",
     "level": "B2"
   },
   {
     "de": "unentgeltlich",
-    "lv": "Δωρεάν",
+    "lv": "Gratis",
     "level": "B2"
   },
   {
     "de": "unerhört",
-    "lv": "Ανήκουστο",
+    "lv": "Kuulmatu",
     "level": "B2"
   },
   {
     "de": "unerträglich",
-    "lv": "Ανυπόφορος",
+    "lv": "Talumatu",
     "level": "B2"
   },
   {
     "de": "Unfug",
     "de_article": "der",
     "de_plural": "die Unfuge",
-    "lv": "Πλημμέλημα • Πλημμέλημα • Ανάρμοστη συμπεριφορά",
+    "lv": "Üleastumine • Pahategu • Kohatu käitumine",
     "level": "B2"
   },
   {
     "de": "ungeachtet",
-    "lv": "Παρά το • Αν και",
+    "lv": "Hoolimata • Kuigi",
     "level": "B2"
   },
   {
     "de": "ungerade",
-    "lv": "Όχι αρκετά ευθύς • Στραβός • Περιττός αριθμός",
+    "lv": "Mitte päris sirge • Kõver • Paaritu arv",
     "level": "B2"
   },
   {
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "Σωματείο • Σωματείο",
+    "lv": "Liit • Unioon",
     "level": "B2"
   },
   {
     "de": "Unkosten",
     "de_article": "die",
-    "lv": "Έξοδα",
+    "lv": "Kulud",
     "level": "B2"
   },
   {
     "de": "unmenschlich",
-    "lv": "Αφιλάνθρωπος",
+    "lv": "Ebainimlik",
     "level": "B2"
   },
   {
     "de": "unnütz",
-    "lv": "Ακατάλληλος • Μάταιος • Άχρηστος",
+    "lv": "Kõlbmatu • Asjatu • Kasutu",
     "level": "B2"
   },
   {
     "de": "Unstimmigkeit",
     "de_article": "die",
     "de_plural": "die Unstimmigkeiten",
-    "lv": "Διαφωνίες",
+    "lv": "Erimeelsused",
     "level": "B2"
   },
   {
     "de": "unterbreiten",
-    "lv": "Εξηγώ • Παρουσιάζω",
+    "lv": "Selgitama • Esitama",
     "level": "B2"
   },
   {
     "de": "unterdrücken",
-    "lv": "Να καταπιέζουν • Να καταπιέζουν",
+    "lv": "Rõhuma • Alla suruma",
     "level": "B2"
   },
   {
     "de": "untereinander",
-    "lv": "Μεταξύ τους • Αμοιβαία",
+    "lv": "Omavahel • Vastastikku",
     "level": "B2"
   },
   {
     "de": "Untergang",
     "de_article": "der",
     "de_plural": "die Untergänge",
-    "lv": "Ηλιοβασίλεμα • Χαμός • Κατάρρευση",
+    "lv": "Loojang • Hukk • Kokkuvarisemine",
     "level": "B2"
   },
   {
     "de": "Untergrund",
     "de_article": "der",
     "de_plural": "die Untergründe",
-    "lv": "Υπόγειος",
+    "lv": "Põrandaalune",
     "level": "B2"
   },
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "Συντήρηση • Προμήθεια",
+    "lv": "Ülalpidamine • Varustamine",
     "level": "B2"
   },
   {
     "de": "unterirdisch",
-    "lv": "Υπόγειος",
+    "lv": "Maa-alune",
     "level": "B2"
   },
   {
     "de": "unterjochen",
-    "lv": "Να κατεβάσει τον ζυγό",
+    "lv": "Ikke alla panema",
     "level": "B2"
   },
   {
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "Βάση • Χαλί • Υποστήριξη • Δεδομένα • Τεκμηρίωση",
+    "lv": "Alus • Vaip • Toend • Andmed • Dokumentatsioon",
     "level": "B2"
   },
   {
     "de": "unterlassen",
-    "lv": "Να μην κάνεις τίποτα",
+    "lv": "Millegi tegemata jätma",
     "level": "B2"
   },
   {
     "de": "unterordnen",
-    "lv": "Να υποτάξει",
+    "lv": "Allutama",
     "level": "B2"
   },
   {
     "de": "unterschlagen",
-    "lv": "Να οικειοποιηθεί",
+    "lv": "Omastama",
     "level": "B2"
   },
   {
     "de": "Unterstellung",
     "de_article": "die",
     "de_plural": "die Unterstellungen",
-    "lv": "Συκοφαντία",
+    "lv": "Laim",
     "level": "B2"
   },
   {
     "de": "Untertan",
     "de_article": "der",
     "de_plural": "die Untertanen",
-    "lv": "Πολίτης",
+    "lv": "Kodanik",
     "level": "B2"
   },
   {
     "de": "untertauchen",
-    "lv": "Να βουτήξει • Να πάει κάτω από το νερό • Να βουτήξει",
+    "lv": "Sukelduma • Vee alla minema • Kastma",
     "level": "B2"
   },
   {
     "de": "unterweisen",
-    "lv": "Οδηγός • Διδάσκω",
+    "lv": "Juhendama • Õpetama",
     "level": "B2"
   },
   {
     "de": "unterwerfen",
-    "lv": "Να υποτάξει",
+    "lv": "Allutama",
     "level": "B2"
   },
   {
     "de": "sich unterwerfen",
-    "lv": "Παράδοση",
+    "lv": "Alistuma",
     "level": "B2"
   },
   {
     "de": "untragbar",
-    "lv": "Απαράδεκτος • Αφόρητος",
+    "lv": "Vastuvõetamatu • Talumatu",
     "level": "B2"
   },
   {
     "de": "unüberlegt",
-    "lv": "Απρόσεκτος • Απερίσκεπτος",
+    "lv": "Ettevaatamatu • Kergemeelne",
     "level": "B2"
   },
   {
     "de": "unvermeidlich",
-    "lv": "Αναπόφευκτος",
+    "lv": "Vältimatu",
     "level": "B2"
   },
   {
     "de": "unverzeihlich",
-    "lv": "Ασυγχώρητος",
+    "lv": "Andestamatu",
     "level": "B2"
   },
   {
     "de": "unwiderlegbar",
-    "lv": "Αδιάψευστος • Αναμφισβήτητος",
+    "lv": "Ümberlükkamatu • Vaieldamatu",
     "level": "B2"
   },
   {
     "de": "unwillkürlich",
-    "lv": "Ακούσιος • Αναίσθητος",
+    "lv": "Tahtmatu • Teadvustamata",
     "level": "B2"
   },
   {
     "de": "unzählig",
-    "lv": "Αμέτρητος",
+    "lv": "Loendamatu",
     "level": "B2"
   },
   {
     "de": "unzulässig",
-    "lv": "Απαράδεκτος",
+    "lv": "Lubamatu",
     "level": "B2"
   },
   {
     "de": "üppig",
-    "lv": "Πλούσιος • Χλιδάτος",
+    "lv": "Rikkalik • Lopsakas",
     "level": "B2"
   },
   {
     "de": "Urheber",
     "de_article": "der",
     "de_plural": "die Urheber",
-    "lv": "Δημιουργός • Συγγραφέας",
+    "lv": "Algataja • Autor",
     "level": "B2"
   },
   {
     "de": "Urheberrecht",
     "de_article": "das",
     "de_plural": "die Urheberrechte",
-    "lv": "Πνευματική ιδιοκτησία",
+    "lv": "Autoriõigus",
     "level": "B2"
   },
   {
     "de": "Urkunde",
     "de_article": "die",
     "de_plural": "die Urkunden",
-    "lv": "Εγγράφου • Σύνταξη",
+    "lv": "Dokument • Kirjutis",
     "level": "B2"
   },
   {
     "de": "Ursprung",
     "de_article": "der",
     "de_plural": "die Ursprünge",
-    "lv": "Προέλευση • Προέλευση",
+    "lv": "Päritolu • Algupära",
     "level": "B2"
   },
   {
     "de": "ursprünglich",
-    "lv": "Πρωτότυπο",
+    "lv": "Algne",
     "level": "B2"
   },
   {
     "de": "vage",
-    "lv": "Ασαφής • Ανακριβής",
+    "lv": "Ebaselge • Ebatäpne",
     "level": "B2"
   },
   {
     "de": "väterlich",
-    "lv": "Πατρικός",
+    "lv": "Isalik",
     "level": "B2"
   },
   {
     "de": "verachten",
-    "lv": "Περιφρονώ • Απαξιώνω",
+    "lv": "Põlgama • Halvustama",
     "level": "B2"
   },
   {
     "de": "veraltet",
-    "lv": "Απηρχαιωμένος",
+    "lv": "Vananenud",
     "level": "B2"
   },
   {
     "de": "Veranlagung",
     "de_article": "die",
     "de_plural": "die Veranlagungen",
-    "lv": "Ταλέντο • Ικανότητες",
+    "lv": "Andekus • Võimed",
     "level": "B2"
   },
   {
     "de": "veranlassen",
-    "lv": "Να προκαλέσουν • Να μυήσουν • Να υποκινήσουν",
+    "lv": "Esile kutsuma • Algatama • Õhutama",
     "level": "B2"
   },
   {
     "de": "verbittert",
-    "lv": "Απογοητευμένος",
+    "lv": "Pettunud",
     "level": "B2"
   },
   {
     "de": "verborgen",
-    "lv": "Κρυμμένο • Μυστικό",
+    "lv": "Peidetud • Salajane",
     "level": "B2"
   },
   {
     "de": "verdauen",
-    "lv": "Να χωνέψει",
+    "lv": "Seedima",
     "level": "B2"
   },
   {
     "de": "Verdienst",
     "de_article": "der",
     "de_plural": "die Verdienste",
-    "lv": "Εύνοια",
+    "lv": "Teene",
     "level": "B2"
   },
   {
     "de": "Verdruss",
     "de_article": "der",
     "de_plural": "die Verdrusse",
-    "lv": "Αηδία • Απογοήτευση • Αγωνία",
+    "lv": "Vastumeelsus • Pettumus • Tusk",
     "level": "B2"
   },
   {
     "de": "verdünnen",
-    "lv": "Για να κάνει πιο αραιό • Να βράσει. αραιώστε • Εξασθενήστε",
+    "lv": "Õhemaks tegema • Keem. lahjendama • Nõrgestama",
     "level": "B2"
   },
   {
     "de": "verehren",
-    "lv": "Να σέβομαι • Να σέβομαι • Να μιλάω να δίνω",
+    "lv": "Austama • Lugu pidama • Kõnek. kinkima",
     "level": "B2"
   },
   {
     "de": "vereinigen",
-    "lv": "Να συνδεθεί",
+    "lv": "Ühendama",
     "level": "B2"
   },
   {
     "de": "sich vereinigen",
-    "lv": "Να ενταχθεί σε κάτι",
+    "lv": "Ühinema millegaga",
     "level": "B2",
     "study": {
       "id": "b2-sich-vereinigen",
       "layout": "minimalStudy",
-      "translation": "Να ενταχθεί σε κάτι",
+      "translation": "Ühinema millegaga",
       "rektion": "mit + kellele?",
-      "explanation": "Sich vereinigen απαιτεί την οριστική πρόθεση mit + σε ποιον • .",
+      "explanation": "Sich vereinigen nõuab kindlat eessõna mit + kellele?.",
       "forms": "mit + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -13017,7 +13152,10 @@ const B2_WORDS = [
             "sich vereinigen"
           ],
           "red": [
-            "mit + kam?"
+            "mit + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -13027,316 +13165,316 @@ const B2_WORDS = [
     "de": "Vereinigung",
     "de_article": "die",
     "de_plural": "die Vereinigungen",
-    "lv": "Σωματείο • Σύλλογος • Συνένωση",
+    "lv": "Liit • Ühing • Ühendamine",
     "level": "B2"
   },
   {
     "de": "vererben",
-    "lv": "Άδεια • Κληροδοτώ",
+    "lv": "Jätma • Pärandama",
     "level": "B2"
   },
   {
     "de": "Verfahren",
     "de_article": "das",
     "de_plural": "die Verfahren",
-    "lv": "Δράση • Συμπεριφορά • Τεχνική • Μέθοδος • Jur. διαδικασία • Πράγμα",
+    "lv": "Tegevus • Käitumine • Võte • Meetod • Jur. protsess • Asi",
     "level": "B2"
   },
   {
     "de": "Verfall",
     "de_article": "der",
     "de_plural": "die Verfälle",
-    "lv": "Κατάρρευση • Παρακμή",
+    "lv": "Kokkuvarisemine • Allakäik",
     "level": "B2"
   },
   {
     "de": "verfallen",
-    "lv": "Κατάρρευση • Καταρρέει • Κατεβαίνει",
+    "lv": "Kokku varisema • Lagunema • Alla käima",
     "level": "B2"
   },
   {
     "de": "Verfasser",
     "de_article": "der",
     "de_plural": "die Verfasser",
-    "lv": "Μεταγλωττιστής • Συγγραφέας",
+    "lv": "Koostaja • Autor",
     "level": "B2"
   },
   {
     "de": "verfügen",
-    "lv": "Να καθορίσει • Να διατάξει • Να καθορίσει",
+    "lv": "Kindlaks määrama • Käskima • Määrama",
     "level": "B2"
   },
   {
     "de": "Verfügung",
     "de_article": "die",
     "de_plural": "die Verfügungen",
-    "lv": "Συμφωνία",
+    "lv": "Korraldus",
     "level": "B2"
   },
   {
     "de": "verführen",
-    "lv": "Δελεάζω • Αποπλανώ",
+    "lv": "Ahvatlema • Võrgutama",
     "level": "B2"
   },
   {
     "de": "vergeblich",
-    "lv": "Μάταια",
+    "lv": "Asjatu",
     "level": "B2"
   },
   {
     "de": "Vergehen",
     "de_article": "das",
     "de_plural": "die Vergehen",
-    "lv": "Παράβαση",
+    "lv": "Rikkumine",
     "level": "B2"
   },
   {
     "de": "vergeuden",
-    "lv": "Να σπαταλήσει",
+    "lv": "Raiskama",
     "level": "B2"
   },
   {
     "de": "vergiften",
-    "lv": "Να δηλητηριάσει",
+    "lv": "Mürgitama",
     "level": "B2"
   },
   {
     "de": "verhandeln",
-    "lv": "Συμβουλευτείτε • Διαπραγματευτείτε",
+    "lv": "Nõu pidama • Läbirääkimisi pidama",
     "level": "B2"
   },
   {
     "de": "verhasst",
-    "lv": "Μισητός",
+    "lv": "Vihatud",
     "level": "B2"
   },
   {
     "de": "verheeren",
-    "lv": "Να καταστρέψει",
+    "lv": "Hävitama",
     "level": "B2"
   },
   {
     "de": "verhöhnen",
-    "lv": "Να γελοιοποιούν",
+    "lv": "Naeruvääristama",
     "level": "B2"
   },
   {
     "de": "Verhör",
     "de_article": "das",
     "de_plural": "die Verhöre",
-    "lv": "Ερώτηση",
+    "lv": "Ülekuulamine",
     "level": "B2"
   },
   {
     "de": "verhören",
-    "lv": "Να ακούσω",
+    "lv": "Üle kuulama",
     "level": "B2"
   },
   {
     "de": "sich verhören",
-    "lv": "Ακούω (πρόβα)",
+    "lv": "Üle kuulama (proovi)",
     "level": "B2"
   },
   {
     "de": "verhüten",
-    "lv": "Πρόληψη • Αποχή",
+    "lv": "Ära hoidma • Hoiduma",
     "level": "B2"
   },
   {
     "de": "Verlauf",
     "de_article": "der",
     "de_plural": "die Verläufe",
-    "lv": "Πορεία • Πρόοδος",
+    "lv": "Käik • Kulg",
     "level": "B2"
   },
   {
     "de": "Verleger",
     "de_article": "der",
     "de_plural": "die Verleger",
-    "lv": "Εκδότης",
+    "lv": "Väljaandja",
     "level": "B2"
   },
   {
     "de": "Verleih",
     "de_article": "der",
     "de_plural": "die Verleihe",
-    "lv": "Ενοίκιο",
+    "lv": "Uur",
     "level": "B2"
   },
   {
     "de": "Vermächtnis",
     "de_article": "das",
     "de_plural": "die Vermächtnisse",
-    "lv": "Διαθήκη",
+    "lv": "Testament",
     "level": "B2"
   },
   {
     "de": "Vermerk",
     "de_article": "der",
     "de_plural": "die Vermerke",
-    "lv": "Σημείωση • Σημ",
+    "lv": "Märkus • Märge",
     "level": "B2"
   },
   {
     "de": "Vermögen",
     "de_article": "das",
     "de_plural": "die Vermögen",
-    "lv": "Ιδιοκτησία",
+    "lv": "Omand",
     "level": "B2"
   },
   {
     "de": "Vermutung",
     "de_article": "die",
     "de_plural": "die Vermutungen",
-    "lv": "Υπόθεση • Υπόθεση",
+    "lv": "Eeldus • Hüpotees",
     "level": "B2"
   },
   {
     "de": "Vernehmung",
     "de_article": "die",
     "de_plural": "die Vernehmungen",
-    "lv": "Ανάκριση από την αστυνομία",
+    "lv": "Ülekuulamine politseis",
     "level": "B2"
   },
   {
     "de": "Verrat",
     "de_article": "der",
-    "lv": "Προδοσία",
+    "lv": "Reetmine",
     "level": "B2"
   },
   {
     "de": "Vers",
     "de_article": "der",
     "de_plural": "die Verse",
-    "lv": "Στίχος",
+    "lv": "Salm",
     "level": "B2"
   },
   {
     "de": "Versager",
     "de_article": "der",
     "de_plural": "die Versager",
-    "lv": "Ηττημένος",
+    "lv": "Kaotaja",
     "level": "B2"
   },
   {
     "de": "Verschluss",
     "de_article": "der",
     "de_plural": "die Verschlüsse",
-    "lv": "Κλειδαριά • Μάνδαλο",
+    "lv": "Lukk • Riiv",
     "level": "B2"
   },
   {
     "de": "Versehen",
     "de_article": "das",
     "de_plural": "die Versehen",
-    "lv": "Σφάλμα • Λάθος",
+    "lv": "Viga • Eksitus",
     "level": "B2"
   },
   {
     "de": "verkommen",
-    "lv": "Να κατέβει • Να εξαφανιστεί",
+    "lv": "Alla käima • Kaduma",
     "level": "B2"
   },
   {
     "de": "verkörpern",
-    "lv": "Ενσωματώνω",
+    "lv": "Kehastama",
     "level": "B2"
   },
   {
     "de": "verkraften",
-    "lv": "Να διατηρήσει ηθική δύναμη για να ξεπεράσει κάτι δυσάρεστο",
+    "lv": "Moraalset jõudu säilitama, et millestki ebameeldivast üle saada",
     "level": "B2"
   },
   {
     "de": "verkümmern",
-    "lv": "Να κατέβει",
+    "lv": "Alla käima",
     "level": "B2"
   },
   {
     "de": "verkünden",
-    "lv": "Να ανακοινώσει • Να ανακοινώσει",
+    "lv": "Teatama • Kuulutama",
     "level": "B2"
   },
   {
     "de": "verleumden",
-    "lv": "Να συκοφαντούν",
+    "lv": "Laimama",
     "level": "B2"
   },
   {
     "de": "vermehren",
-    "lv": "Να αυξηθεί",
+    "lv": "Suurendama",
     "level": "B2"
   },
   {
     "de": "sich vermehren",
-    "lv": "Να πολλαπλασιαστούν",
+    "lv": "Paljunema",
     "level": "B2"
   },
   {
     "de": "vermessen",
-    "lv": "Μετρώ",
+    "lv": "Üles mõõtma",
     "level": "B2"
   },
   {
     "de": "vermindern",
-    "lv": "Να μειώσει",
+    "lv": "Vaëndama",
     "level": "B2"
   },
   {
     "de": "vermitteln",
-    "lv": "Μεσολαβώ • Αποκτώ • Διευκολύνω",
+    "lv": "Vahendama • Hankima • Soodustama",
     "level": "B2"
   },
   {
     "de": "vermögend",
-    "lv": "Επιτυχημένος",
+    "lv": "Jõukas",
     "level": "B2"
   },
   {
     "de": "verneinen",
-    "lv": "Να αρνηθείς",
+    "lv": "Eitama",
     "level": "B2"
   },
   {
     "de": "vernichten",
-    "lv": "Να καταστρέψει",
+    "lv": "Hävitama",
     "level": "B2"
   },
   {
     "de": "verordnen",
-    "lv": "Διορισμός • Παραγγελία • Ιατρ. να γράψω έξω",
+    "lv": "Määrama • Korraldust andma • Med. välja kirjutama",
     "level": "B2"
   },
   {
     "de": "verpfänden",
-    "lv": "Να δεσμεύσουν",
+    "lv": "Pantima",
     "level": "B2"
   },
   {
     "de": "verrechnen",
-    "lv": "Να υπολογίσει",
+    "lv": "Arvutama",
     "level": "B2"
   },
   {
     "de": "verrenken",
-    "lv": "Να εκτοπίσει",
+    "lv": "Nihestama",
     "level": "B2"
   },
   {
     "de": "versagen",
-    "lv": "Να αρνηθεί • Να απορρίψει • Να μην ακούσει • Να αρνηθεί να υπηρετήσει • Να είναι δειλός",
+    "lv": "Keelduma • Tagasi lükkama • Mitte kuulama • Teenimast keelduma • Argaks jääma",
     "level": "B2"
   },
   {
     "de": "sich versehen",
-    "lv": "Χάνομαι • Εξοπλίζω με κάτι",
+    "lv": "Eksima • Varustama millegaga",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
       "layout": "minimalStudy",
-      "translation": "Χάνομαι • Εξοπλίζω με κάτι",
+      "translation": "Eksima • Varustama millegaga",
       "rektion": "mit + kellele?",
-      "explanation": "Sich verzehn απαιτεί την οριστική πρόθεση mit + kele?.",
+      "explanation": "Sich versehen nõuab kindlat eessõna mit + kellele?.",
       "forms": "mit + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -13345,7 +13483,11 @@ const B2_WORDS = [
             "sich versehen"
           ],
           "red": [
-            "mit + kam?"
+            "mit + kellele?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -13353,39 +13495,39 @@ const B2_WORDS = [
   },
   {
     "de": "versetzen",
-    "lv": "Μετατοπίζω • Μετεγκαθιστώ",
+    "lv": "Ümber tõstma • Ümber paigutama",
     "level": "B2"
   },
   {
     "de": "verseuchen",
-    "lv": "Να μολύνει",
+    "lv": "Reostama",
     "level": "B2"
   },
   {
     "de": "versiegeln",
-    "lv": "Να σφραγίσει",
+    "lv": "Pitseerima",
     "level": "B2"
   },
   {
     "de": "versinken",
-    "lv": "Να βυθιστεί",
+    "lv": "Vajuma",
     "level": "B2"
   },
   {
     "de": "versöhnen",
-    "lv": "Να συμφιλιωθεί",
+    "lv": "Leppima panema",
     "level": "B2"
   },
   {
     "de": "sich versöhnen",
-    "lv": "Συμβιβαστείτε με κάτι",
+    "lv": "Leppima millegaga",
     "level": "B2",
     "study": {
       "id": "b2-sich-versoehnen",
       "layout": "minimalStudy",
-      "translation": "Συμβιβαστείτε με κάτι",
+      "translation": "Leppima millegaga",
       "rektion": "mit + kellele?",
-      "explanation": "Sich versöhnen απαιτεί την οριστική πρόθεση mit + σε ποιον • .",
+      "explanation": "Sich versöhnen nõuab kindlat eessõna mit + kellele?.",
       "forms": "mit + kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -13394,7 +13536,10 @@ const B2_WORDS = [
             "sich versöhnen"
           ],
           "red": [
-            "mit + kam?"
+            "mit + kellele?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -13402,39 +13547,39 @@ const B2_WORDS = [
   },
   {
     "de": "verspielen",
-    "lv": "Χάνω (σε ένα παιχνίδι)",
+    "lv": "Kaotama (mängus)",
     "level": "B2"
   },
   {
     "de": "verspotten",
-    "lv": "Πειράζω • Γελοιοποίηση",
+    "lv": "Narrima • Naeruvääristama",
     "level": "B2"
   },
   {
     "de": "verständig",
-    "lv": "Λογικός",
+    "lv": "Mõistlik",
     "level": "B2"
   },
   {
     "de": "verstauchen",
-    "lv": "Να εκτοπίσει",
+    "lv": "Nihestama",
     "level": "B2"
   },
   {
     "de": "versteigern",
-    "lv": "Να πουλήσει σε δημοπρασία",
+    "lv": "Oksjonil müüma",
     "level": "B2"
   },
   {
     "de": "sich verstellen",
-    "lv": "Προσποιηθείτε ποιος",
+    "lv": "Teesklema keda",
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
       "layout": "minimalStudy",
-      "translation": "Προσποιηθείτε ποιος",
+      "translation": "Teesklema keda",
       "rektion": "als + mida?",
-      "explanation": "Sich verstellen απαιτεί την οριστική πρόθεση als + τι • .",
+      "explanation": "Sich verstellen nõuab kindlat eessõna als + mida?.",
       "forms": "als + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -13443,7 +13588,10 @@ const B2_WORDS = [
             "sich verstellen"
           ],
           "red": [
-            "als + ko?"
+            "als + mida?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -13453,104 +13601,104 @@ const B2_WORDS = [
     "de": "Verstorbene",
     "de_article": "der",
     "de_plural": "die Verstorbenen",
-    "lv": "Πεθαμένος • Πεθαμένος",
+    "lv": "Lahkunu • Surnu",
     "level": "B2"
   },
   {
     "de": "Versuchung",
     "de_article": "die",
     "de_plural": "die Versuchungen",
-    "lv": "Πειρασμός",
+    "lv": "Kiusatus",
     "level": "B2"
   },
   {
     "de": "vertagen",
-    "lv": "Αναβάλλω • Βάζω στην άκρη",
+    "lv": "Edasi lükkama • Kõrvale panema",
     "level": "B2"
   },
   {
     "de": "vertiefen",
-    "lv": "Βαθύνω",
+    "lv": "Süvendama",
     "level": "B2"
   },
   {
     "de": "Vertretung",
     "de_article": "die",
     "de_plural": "die Vertretungen",
-    "lv": "Αντικατάσταση • Αναπαράσταση",
+    "lv": "Asendamine • Esindamine",
     "level": "B2"
   },
   {
     "de": "verwalten",
-    "lv": "Να κυβερνά • Να διαχειρίζεται",
+    "lv": "Valitsema • Haldama",
     "level": "B2"
   },
   {
     "de": "verwandeln",
-    "lv": "Να μεταμορφωθεί",
+    "lv": "Ümber kujundama",
     "level": "B2"
   },
   {
     "de": "verweigern",
-    "lv": "Απορρίμματα",
+    "lv": "Keelduma",
     "level": "B2"
   },
   {
     "de": "verweilen",
-    "lv": "Σταμάτα (στη σκέψη)",
+    "lv": "Peatuma (mõttes)",
     "level": "B2"
   },
   {
     "de": "Verweis",
     "de_article": "der",
     "de_plural": "die Verweise",
-    "lv": "Σημείωση • Επίπληξη",
+    "lv": "Märkus • Noomitus",
     "level": "B2"
   },
   {
     "de": "Verwendung",
     "de_article": "die",
     "de_plural": "die Verwendungen",
-    "lv": "Χρήση",
+    "lv": "Kasutamine",
     "level": "B2"
   },
   {
     "de": "verwickeln",
-    "lv": "Για να μπερδέψετε. εμπλέκουν σε • Ανακατεύω",
+    "lv": "Sassi ajama • Ülek. sisse kaasama • Segama",
     "level": "B2"
   },
   {
     "de": "verwirren",
-    "lv": "Μπερδεύω • Μπερδεύω • Μπερδεύω",
+    "lv": "Segi ajama • Sassi ajama • Segadusse viima",
     "level": "B2"
   },
   {
     "de": "Verwirrung",
     "de_article": "die",
     "de_plural": "die Verwirrungen",
-    "lv": "Σύγχυση • Σύγχυση",
+    "lv": "Segiajamine • Segadus",
     "level": "B2"
   },
   {
     "de": "verwöhnen",
-    "lv": "Περιποιηθείτε • Όχι περιποιηθείτε",
+    "lv": "Hellitama • Ära hellitama",
     "level": "B2"
   },
   {
     "de": "verwundern",
-    "lv": "Να προκαλέσει έκπληξη",
+    "lv": "Hämmastust tekitama",
     "level": "B2"
   },
   {
     "de": "sich verwundern",
-    "lv": "Να αναρωτιέμαι για κάτι",
+    "lv": "Imestama millegi üle",
     "level": "B2",
     "study": {
       "id": "b2-sich-verwundern",
       "layout": "minimalStudy",
-      "translation": "Να αναρωτιέμαι για κάτι",
+      "translation": "Imestama millegi üle",
       "rektion": "über + mida?",
-      "explanation": "Το sich verwundern απαιτεί την οριστική πρόθεση über + τι • .",
+      "explanation": "Sich verwundern nõuab kindlat eessõna über + mida?.",
       "forms": "über + mida?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -13559,7 +13707,10 @@ const B2_WORDS = [
             "sich verwundern"
           ],
           "red": [
-            "über + ko?"
+            "über + mida?"
+          ],
+          "purple": [
+            "sich"
           ]
         }
       }
@@ -13569,667 +13720,667 @@ const B2_WORDS = [
     "de": "Verwüstung",
     "de_article": "die",
     "de_plural": "die Verwüstungen",
-    "lv": "Καταστροφή",
+    "lv": "Hävitamine",
     "level": "B2"
   },
   {
     "de": "Verzeichnis",
     "de_article": "das",
     "de_plural": "die Verzeichnisse",
-    "lv": "Λίστα",
+    "lv": "Nimekiri",
     "level": "B2"
   },
   {
     "de": "verzögern",
-    "lv": "Να τεντωθεί",
+    "lv": "Venitama",
     "level": "B2"
   },
   {
     "de": "sich verzögern",
-    "lv": "Να αργήσει • Να αναβάλει",
+    "lv": "Hilinema • Venitama",
     "level": "B2"
   },
   {
     "de": "verzollen",
-    "lv": "Τελωνείο",
+    "lv": "Tolliima",
     "level": "B2"
   },
   {
     "de": "verzweifeln",
-    "lv": "Να παραιτηθεί",
+    "lv": "Meelt heitma",
     "level": "B2"
   },
   {
     "de": "verzweifelt",
-    "lv": "Απελπισμένος • Απελπισμένος",
+    "lv": "Meeleheitel • Meeleheitlik",
     "level": "B2"
   },
   {
     "de": "Viehbestand",
     "de_article": "der",
     "de_plural": "die Viehbestände",
-    "lv": "Συνολικός αριθμός ζώων",
+    "lv": "Loomade koguarv",
     "level": "B2"
   },
   {
     "de": "Viehzucht",
     "de_article": "die",
     "de_plural": "die Viehzuchten",
-    "lv": "Κτηνοτροφία",
+    "lv": "Loomakasvatus",
     "level": "B2"
   },
   {
     "de": "Vielfalt",
     "de_article": "die",
-    "lv": "Ποικιλία",
+    "lv": "Mitmekesisus",
     "level": "B2"
   },
   {
     "de": "vielseitig",
-    "lv": "Πολύπλευρος",
+    "lv": "Mitmekülgne",
     "level": "B2"
   },
   {
     "de": "visuell",
-    "lv": "Οπτικός",
+    "lv": "Visuaalne",
     "level": "B2"
   },
   {
     "de": "Volkszählung",
     "de_article": "die",
     "de_plural": "die Volkszählungen",
-    "lv": "Επίσημη απογραφή",
+    "lv": "Ametlik rahvaloendus",
     "level": "B2"
   },
   {
     "de": "vollbringen",
-    "lv": "Να εκτελέσει • Να κάνει",
+    "lv": "Sooritama • Tegema",
     "level": "B2"
   },
   {
     "de": "vollenden",
-    "lv": "Να σταματήσει",
+    "lv": "Lõpetama",
     "level": "B2"
   },
   {
     "de": "vollkommen",
-    "lv": "Πλήρη • Εντελώς • Αντί",
+    "lv": "Täielik • Täielikult • Hoopis",
     "level": "B2"
   },
   {
     "de": "Vollmacht",
     "de_article": "die",
     "de_plural": "die Vollmachten",
-    "lv": "Εξουσιοδότηση",
+    "lv": "Volitus",
     "level": "B2"
   },
   {
     "de": "vollzählig",
-    "lv": "Ακέραιος αριθμός",
+    "lv": "Täisarvuline",
     "level": "B2"
   },
   {
     "de": "vollziehen",
-    "lv": "Να εκπληρώσει",
+    "lv": "Täitma",
     "level": "B2"
   },
   {
     "de": "Volumen",
     "de_article": "das",
     "de_plural": "die Volumen",
-    "lv": "Τόμος",
+    "lv": "Maht",
     "level": "B2"
   },
   {
     "de": "Vorahnung",
     "de_article": "die",
     "de_plural": "die Vorahnungen",
-    "lv": "Ένα προαίσθημα",
+    "lv": "Aimdus",
     "level": "B2"
   },
   {
     "de": "voran",
-    "lv": "Μπροστά • Στο κεφάλι",
+    "lv": "Ees • Eesotsas",
     "level": "B2"
   },
   {
     "de": "voraussehen",
-    "lv": "Να προβλέψει",
+    "lv": "Ette nägema",
     "level": "B2"
   },
   {
     "de": "voraussetzen",
-    "lv": "Να απαιτεί • Να είναι προαπαιτούμενο",
+    "lv": "Nõudma • Eelduseks olema",
     "level": "B2"
   },
   {
     "de": "Vorbehalt",
     "de_article": "der",
     "de_plural": "die Vorbehalte",
-    "lv": "Κατάσταση",
+    "lv": "Tingimus",
     "level": "B2"
   },
   {
     "de": "vorbestraft",
-    "lv": "Με προηγούμενη καταδίκη",
+    "lv": "Varasema karistatusega",
     "level": "B2"
   },
   {
     "de": "vorbeugen",
-    "lv": "Για την πρόληψη",
+    "lv": "Ära hoidma",
     "level": "B2"
   },
   {
     "de": "Vorbildung",
     "de_article": "die",
     "de_plural": "die Vorbildungen",
-    "lv": "Προηγούμενη γνώση • Ετοιμότητα",
+    "lv": "Eelteadmised • Valmisolek",
     "level": "B2"
   },
   {
     "de": "vorder",
-    "lv": "Το μπροστινό μέρος",
+    "lv": "Eesmine",
     "level": "B2"
   },
   {
     "de": "Vordergrund",
     "de_article": "der",
     "de_plural": "die Vordergründe",
-    "lv": "Προσκήνιο",
+    "lv": "Esiplaan",
     "level": "B2"
   },
   {
     "de": "vordringen",
-    "lv": "Να διαπεράσει",
+    "lv": "Läbi murdma",
     "level": "B2"
   },
   {
     "de": "Vorfall",
     "de_article": "der",
     "de_plural": "die Vorfälle",
-    "lv": "Περίπτωση • Γεγονός",
+    "lv": "Juhtum • Sündmus",
     "level": "B2"
   },
   {
     "de": "vorfristig",
-    "lv": "Πρόωρος • Πρόωρος",
+    "lv": "Enneaegne • Tähtajaeelne",
     "level": "B2"
   },
   {
     "de": "Vorkehrung",
     "de_article": "die",
     "de_plural": "die Vorkehrungen",
-    "lv": "Προστατευτικά μέτρα",
+    "lv": "Kaitsemeetmed",
     "level": "B2"
   },
   {
     "de": "Vorliebe",
     "de_article": "die",
     "de_plural": "die Vorlieben",
-    "lv": "Προτίμηση",
+    "lv": "Eelistus",
     "level": "B2"
   },
   {
     "de": "vornehmen",
-    "lv": "Να κάνει • Να εκτελέσει • Να αναλάβει • Να κάνει κάτι",
+    "lv": "Tegema • Sooritama • Asuma • Midagi ette võtma",
     "level": "B2"
   },
   {
     "de": "vornherein",
-    "lv": "Μόλις στην αρχή",
+    "lv": "Just alguses",
     "level": "B2"
   },
   {
     "de": "Vorrecht",
     "de_article": "das",
     "de_plural": "die Vorrechte",
-    "lv": "Προνόμιο • Προνόμιο",
+    "lv": "Eesõigus • Privileeg",
     "level": "B2"
   },
   {
     "de": "vorsätzlich",
-    "lv": "Συνειδητή • Σκόπιμη",
+    "lv": "Teadlik • Tahtlik",
     "level": "B2"
   },
   {
     "de": "Vorspiel",
     "de_article": "das",
     "de_plural": "die Vorspiele",
-    "lv": "Πρόλογος • Πρελούδιο • Οβερτούρα",
+    "lv": "Proloog • Eelmäng • Uvertüür",
     "level": "B2"
   },
   {
     "de": "Vorsprung",
     "de_article": "der",
     "de_plural": "die Vorsprünge",
-    "lv": "Μεγαλείο • Ανωτερότητα • Υπεροχή",
+    "lv": "Ülevus • Paremus • Ülekaal",
     "level": "B2"
   },
   {
     "de": "Vorstand",
     "de_article": "der",
     "de_plural": "die Vorstände",
-    "lv": "Συμβούλιο • Διαχείριση • Αφεντικό",
+    "lv": "Juhatus • Juhtkond • Ülemus",
     "level": "B2"
   },
   {
     "de": "Vorstrafe",
     "de_article": "die",
     "de_plural": "die Vorstrafen",
-    "lv": "Προηγούμενη καταδίκη",
+    "lv": "Varasem karistatus",
     "level": "B2"
   },
   {
     "de": "vortragen",
-    "lv": "Για διάλεξη • Για εκτέλεση • Για απαγγελία • Για εκτέλεση (μουσική)",
+    "lv": "Loengut pidama • Esitama • Deklameerima • Esitama (muusikat)",
     "level": "B2"
   },
   {
     "de": "vortrefflich",
-    "lv": "Έξοχος",
+    "lv": "Glimrende",
     "level": "B2"
   },
   {
     "de": "Vorverkauf",
     "de_article": "der",
     "de_plural": "die Vorverkäufe",
-    "lv": "Προπώληση",
+    "lv": "Eelmüük",
     "level": "B2"
   },
   {
     "de": "Vorwahl",
     "de_article": "die",
     "de_plural": "die Vorwahlen",
-    "lv": "Κωδικός πόλης ή χώρας",
+    "lv": "Linna- või riigikood",
     "level": "B2"
   },
   {
     "de": "Vorwand",
     "de_article": "der",
     "de_plural": "die Vorwände",
-    "lv": "Πρόσχημα • Δικαιολογία",
+    "lv": "Ettekääne • Vabandus",
     "level": "B2"
   },
   {
     "de": "Vorwort",
     "de_article": "das",
     "de_plural": "die Vorworte",
-    "lv": "Πρόλογος",
+    "lv": "Eessõna",
     "level": "B2"
   },
   {
     "de": "Vorwurf",
     "de_article": "der",
     "de_plural": "die Vorwürfe",
-    "lv": "Όνειδος",
+    "lv": "Etteheide",
     "level": "B2"
   },
   {
     "de": "vorzeitig",
-    "lv": "Πρόωρος",
+    "lv": "Enneaegne",
     "level": "B2"
   },
   {
     "de": "vorzüglich",
-    "lv": "Έξοχος",
+    "lv": "Glimrende",
     "level": "B2"
   },
   {
     "de": "Wacholder",
     "de_article": "der",
     "de_plural": "die Wacholder",
-    "lv": "Άρκευθος",
+    "lv": "Kadakas",
     "level": "B2"
   },
   {
     "de": "Wachsamkeit",
     "de_article": "die",
     "de_plural": "die Wachsamkeiten",
-    "lv": "Επαγρύπνηση • Προσοχή",
+    "lv": "Valvsus • Tähelepanelikkus",
     "level": "B2"
   },
   {
     "de": "Wade",
     "de_article": "die",
     "de_plural": "die Waden",
-    "lv": "Κνήμη",
+    "lv": "Säär",
     "level": "B2"
   },
   {
     "de": "Wahlbezirk",
     "de_article": "der",
     "de_plural": "die Wahlbezirke",
-    "lv": "Εκλογική περιφέρεια",
+    "lv": "Valimisringkond",
     "level": "B2"
   },
   {
     "de": "Wahlfach",
     "de_article": "das",
     "de_plural": "die Wahlfächer",
-    "lv": "Προαιρετικό μάθημα στο σχολείο ή στο πανεπιστήμιο",
+    "lv": "Valikaine koolis või kõrgkoolis",
     "level": "B2"
   },
   {
     "de": "Wahlkampf",
     "de_article": "der",
     "de_plural": "die Wahlkämpfe",
-    "lv": "Προεκλογική εκστρατεία",
+    "lv": "Valimisvõitlus",
     "level": "B2"
   },
   {
     "de": "Wahlrecht",
     "de_article": "das",
     "de_plural": "die Wahlrechte",
-    "lv": "Ψηφοφορία",
+    "lv": "Valimisõigus",
     "level": "B2"
   },
   {
     "de": "Wählscheibe",
     "de_article": "die",
     "de_plural": "die Wählscheiben",
-    "lv": "Κλήση τηλεφώνου",
+    "lv": "Telefoni valikuketas",
     "level": "B2"
   },
   {
     "de": "wahren",
-    "lv": "Να διατηρηθεί",
+    "lv": "Säilitama",
     "level": "B2"
   },
   {
     "de": "wahrnehmen",
-    "lv": "Αντιλαμβάνομαι",
+    "lv": "Tajuma",
     "level": "B2"
   },
   {
     "de": "Waisenheim",
     "de_article": "das",
     "de_plural": "die Waisenheime",
-    "lv": "Ορφανοτροφείο",
+    "lv": "Orbudekodu",
     "level": "B2"
   },
   {
     "de": "Wall",
     "de_article": "der",
     "de_plural": "die Wälle",
-    "lv": "Προπύργιο",
+    "lv": "Vall",
     "level": "B2"
   },
   {
     "de": "wankelmütig",
-    "lv": "Κυμαινόμενη",
+    "lv": "Kõikuv",
     "level": "B2"
   },
   {
     "de": "wanken",
-    "lv": "Να αυξομειώνεται • Πάνω. διστάζω",
+    "lv": "Kõikuma • Ülek. kõhklema",
     "level": "B2"
   },
   {
     "de": "Warenausgabe",
     "de_article": "die",
     "de_plural": "die Warenausgaben",
-    "lv": "Έλεγχος και έκδοση αγορών",
+    "lv": "Ostude kontroll ja väljastamine",
     "level": "B2"
   },
   {
     "de": "Warnanlage",
     "de_article": "die",
     "de_plural": "die Warnanlagen",
-    "lv": "Συσκευή σηματοδότησης",
+    "lv": "Signalisatsiooniseade",
     "level": "B2"
   },
   {
     "de": "Wartung",
     "de_article": "die",
     "de_plural": "die Wartungen",
-    "lv": "Συντήρηση",
+    "lv": "Hooldus",
     "level": "B2"
   },
   {
     "de": "Wasserspiegel",
     "de_article": "der",
     "de_plural": "die Wasserspiegel",
-    "lv": "Στάθμη νερού • Επιφάνεια νερού",
+    "lv": "Veetase • Veepind",
     "level": "B2"
   },
   {
     "de": "Wasserstoff",
     "de_article": "der",
     "de_plural": "die Wasserstoffe",
-    "lv": "Υδρογόνο",
+    "lv": "Vesinik",
     "level": "B2"
   },
   {
     "de": "Wasserwerfer",
     "de_article": "der",
     "de_plural": "die Wasserwerfer",
-    "lv": "Κανόνι της αστυνομίας",
+    "lv": "Politsei veekahur",
     "level": "B2"
   },
   {
     "de": "weben",
-    "lv": "Πλέκω",
+    "lv": "Kuduma",
     "level": "B2"
   },
   {
     "de": "Weber",
     "de_article": "der",
     "de_plural": "die Weber",
-    "lv": "Καγκουρώ",
+    "lv": "Kangur",
     "level": "B2"
   },
   {
     "de": "Wegstrecke",
     "de_article": "die",
     "de_plural": "die Wegstrecken",
-    "lv": "Οδικό τμήμα • Τεμάχιο",
+    "lv": "Teelõik • Tükk",
     "level": "B2"
   },
   {
     "de": "Wegwerfware",
     "de_article": "die",
     "de_plural": "die Wegwerfwaren",
-    "lv": "Αντικείμενο μιας χρήσης",
+    "lv": "Ühekordse kasutuse ese",
     "level": "B2"
   },
   {
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "Αμμόλοφος • Κρέμομαι",
+    "lv": "Luide • Hang",
     "level": "B2"
   },
   {
     "de": "Wehrdienst",
     "de_article": "der",
     "de_plural": "die Wehrdienste",
-    "lv": "Στρατιωτική θητεία",
+    "lv": "Sõjaväeteenistus",
     "level": "B2"
   },
   {
     "de": "Wehrpflicht",
     "de_article": "die",
-    "lv": "Στρατιωτική θητεία",
+    "lv": "Ajateenistus",
     "level": "B2"
   },
   {
     "de": "Weib",
     "de_article": "das",
     "de_plural": "die Weiber",
-    "lv": "Καθομιλουμένη κακή. μια γυναίκα",
+    "lv": "Kõnek. halv. naine",
     "level": "B2"
   },
   {
     "de": "Weinbau",
     "de_article": "der",
-    "lv": "Οινοκαλλιέργεια",
+    "lv": "Veinikasvatus",
     "level": "B2"
   },
   {
     "de": "Weise",
     "de_article": "der",
     "de_plural": "die Weisen",
-    "lv": "Έξυπνος",
+    "lv": "Tark",
     "level": "B2"
   },
   {
     "de": "weitsichtig",
-    "lv": "Οξυδερκής",
+    "lv": "Kaugelenägev",
     "level": "B2"
   },
   {
     "de": "Welpe",
     "de_article": "der",
     "de_plural": "die Welpen",
-    "lv": "Ένα κουτάβι",
+    "lv": "Kutsikas",
     "level": "B2"
   },
   {
     "de": "Weltlage",
     "de_article": "die",
     "de_plural": "die Weltlagen",
-    "lv": "Διεθνής κατάσταση",
+    "lv": "Rahvusvaheline olukord",
     "level": "B2"
   },
   {
     "de": "Weltmacht",
     "de_article": "die",
     "de_plural": "die Weltmächte",
-    "lv": "Υπερδύναμη",
+    "lv": "Suurriik",
     "level": "B2"
   },
   {
     "de": "Weltraumfahrt",
     "de_article": "die",
-    "lv": "Διαστημική πτήση",
+    "lv": "Kosmoselend",
     "level": "B2"
   },
   {
     "de": "Wendepunkt",
     "de_article": "der",
     "de_plural": "die Wendepunkte",
-    "lv": "Σημείο καμπής",
+    "lv": "Pöördepunkt",
     "level": "B2"
   },
   {
     "de": "Werft",
     "de_article": "die",
     "de_plural": "die Werften",
-    "lv": "Ναυπηγείο",
+    "lv": "Laevatehas",
     "level": "B2"
   },
   {
     "de": "Werkbank",
     "de_article": "die",
     "de_plural": "die Werkbänke",
-    "lv": "Πάγκος εργασίας",
+    "lv": "Tööpink",
     "level": "B2"
   },
   {
     "de": "Werkhalle",
     "de_article": "die",
     "de_plural": "die Werkhallen",
-    "lv": "Τσέχος",
+    "lv": "Tsehh",
     "level": "B2"
   },
   {
     "de": "Werkstoff",
     "de_article": "der",
     "de_plural": "die Werkstoffe",
-    "lv": "Υλικό",
+    "lv": "Materiale",
     "level": "B2"
   },
   {
     "de": "Werktätige",
     "de_article": "der",
     "de_plural": "die Werktätigen",
-    "lv": "Υπάλληλος",
+    "lv": "Töötaja",
     "level": "B2"
   },
   {
     "de": "Werkteil",
     "de_article": "der",
     "de_plural": "die Werkteile",
-    "lv": "Λεπτομέρεια",
+    "lv": "Detail",
     "level": "B2"
   },
   {
     "de": "Wertpapier",
     "de_article": "das",
     "de_plural": "die Wertpapiere",
-    "lv": "Ασφάλεια",
+    "lv": "Väärtpaber",
     "level": "B2"
   },
   {
     "de": "Wesen",
     "de_article": "das",
     "de_plural": "die Wesen",
-    "lv": "Πλάσμα • Φύση • Φύση • Χαρακτήρας",
+    "lv": "Olend • Loodu • Olemus • Iseloom",
     "level": "B2"
   },
   {
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "Sp. αγώνας τρεξίματος • Τρέξιμο",
+    "lv": "Sp. jooksuvõistlus • Jooks",
     "level": "B2"
   },
   {
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "Αγώνας • Τρέξιμο",
+    "lv": "Võistlus • Jooks",
     "level": "B2"
   },
   {
     "de": "Wettrudern",
     "de_article": "das",
-    "lv": "Κωπηλασία",
+    "lv": "Aerutamisvõistlus",
     "level": "B2"
   },
   {
     "de": "Wettschwimmen",
     "de_article": "das",
-    "lv": "Κολυμβητικός αγώνας",
+    "lv": "Ujumisvõistlus",
     "level": "B2"
   },
   {
     "de": "wichsen",
-    "lv": "Να λάμψει",
+    "lv": "Läikima lööma",
     "level": "B2"
   },
   {
     "de": "wider",
-    "lv": "Κατά",
+    "lv": "Vastu",
     "level": "B2"
   },
   {
     "de": "widerlegen",
-    "lv": "Να ανατραπεί",
+    "lv": "Ümber lükkama",
     "level": "B2"
   },
   {
     "de": "widerlich",
-    "lv": "Αηδιαστικός • Αηδία",
+    "lv": "Vastik • Jälk",
     "level": "B2"
   },
   {
     "de": "Widerrede",
     "de_article": "die",
     "de_plural": "die Widerreden",
-    "lv": "Ένσταση",
+    "lv": "Vastuväide",
     "level": "B2"
   },
   {
     "de": "sich widersetzen",
-    "lv": "Αντιστέκομαι • Αντιστέκομαι",
+    "lv": "Vastu panema • Vastu seisma",
     "level": "B2",
     "study": {
       "id": "b2-sich-widersetzen",
       "layout": "minimalStudy",
-      "translation": "Αντιστέκομαι • Αντιστέκομαι",
+      "translation": "Vastu panema • Vastu seisma",
       "rektion": "+ kellele?",
-      "explanation": "Το sich widersetzen απαιτεί οριστική πρόθεση + σε ποιον • .",
+      "explanation": "Sich widersetzen nõuab kindlat eessõna + kellele?.",
       "forms": "+ kellele?",
       "formsLabel": "Rektsioon:",
       "sectionAccents": {
@@ -14238,7 +14389,11 @@ const B2_WORDS = [
             "sich widersetzen"
           ],
           "red": [
-            "+ kam?"
+            "+ kellele?"
+          ],
+          "purple": [
+            "sich",
+            "sich"
           ]
         }
       }
@@ -14248,217 +14403,217 @@ const B2_WORDS = [
     "de": "Widmung",
     "de_article": "die",
     "de_plural": "die Widmungen",
-    "lv": "Ευλάβεια",
+    "lv": "Pühendus",
     "level": "B2"
   },
   {
     "de": "Wiederaufbau",
     "de_article": "der",
-    "lv": "Αποκατάσταση • Ανακατασκευή",
+    "lv": "Taastamine • Rekonstrueerimine",
     "level": "B2"
   },
   {
     "de": "wiedergeben",
-    "lv": "Επιστρέφω • Αναπαράγω • Απεικονίζω",
+    "lv": "Tagastama • Reprodutseerima • Kujutama",
     "level": "B2"
   },
   {
     "de": "wildern",
-    "lv": "Ασχολούνται με λαθροθηρία",
+    "lv": "Salaküttimisega tegelema",
     "level": "B2"
   },
   {
     "de": "Willkür",
     "de_article": "die",
-    "lv": "Αυθαιρετώς",
+    "lv": "Omavoli",
     "level": "B2"
   },
   {
     "de": "Windbeutel",
     "de_article": "der",
     "de_plural": "die Windbeutel",
-    "lv": "Χαρταετός",
+    "lv": "Tuulelohe",
     "level": "B2"
   },
   {
     "de": "winden",
-    "lv": "Πλεξούδα • Κουλούρα",
+    "lv": "Punuma • Kerima",
     "level": "B2"
   },
   {
     "de": "zielbewusst",
-    "lv": "Σκόπιμος",
+    "lv": "Sihipärane",
     "level": "B2"
   },
   {
     "de": "Zivildienst",
     "de_article": "der",
     "de_plural": "die Zivildienste",
-    "lv": "Υπηρεσία αντικατάστασης",
+    "lv": "Asendusteenistus",
     "level": "B2"
   },
   {
     "de": "zollfrei",
-    "lv": "Αφορολόγητο",
+    "lv": "Tollivaba",
     "level": "B2"
   },
   {
     "de": "zollpflichtig",
-    "lv": "Υπόκειται σε τελωνεία",
+    "lv": "Tollile alluv",
     "level": "B2"
   },
   {
     "de": "Zucht",
     "de_article": "die",
     "de_plural": "die Zuchten",
-    "lv": "Καλλιέργεια",
+    "lv": "Kasvatamine",
     "level": "B2"
   },
   {
     "de": "Zuckerrübe",
     "de_article": "die",
     "de_plural": "die Zuckerrüben",
-    "lv": "Ζαχαρότευτλα",
+    "lv": "Suhkrupeet",
     "level": "B2"
   },
   {
     "de": "zuerkennen",
-    "lv": "Εκχωρώ • Δίνω",
+    "lv": "Määrama • Andma",
     "level": "B2"
   },
   {
     "de": "Zuflucht",
     "de_article": "die",
-    "lv": "Καταφύγιο",
+    "lv": "Varjupaik",
     "level": "B2"
   },
   {
     "de": "Zufluss",
     "de_article": "der",
     "de_plural": "die Zuflüsse",
-    "lv": "Ένας παραπόταμος",
+    "lv": "Lisajõgi",
     "level": "B2"
   },
   {
     "de": "zureden",
-    "lv": "Πείθω",
+    "lv": "Veenma",
     "level": "B2"
   },
   {
     "de": "zürnen",
-    "lv": "Να θυμώσει",
+    "lv": "Vihastama",
     "level": "B2"
   },
   {
     "de": "zurückprallen",
-    "lv": "Να αναπηδήσει πίσω",
+    "lv": "Tagasi põrkama",
     "level": "B2"
   },
   {
     "de": "zurückweisen",
-    "lv": "Απορρίπτω",
+    "lv": "Tagasi lückkama",
     "level": "B2"
   },
   {
     "de": "Zusage",
     "de_article": "die",
     "de_plural": "die Zusagen",
-    "lv": "Καταφατική απάντηση",
+    "lv": "Jaatav vastus",
     "level": "B2"
   },
   {
     "de": "zusammenfügen",
-    "lv": "Να συνδεθεί",
+    "lv": "Ühendama",
     "level": "B2"
   },
   {
     "de": "zusammenlegen",
-    "lv": "Βάζω • Βάζω μαζί",
+    "lv": "Panema • Kokku panema",
     "level": "B2"
   },
   {
     "de": "zuschneiden",
-    "lv": "Να κόψει",
+    "lv": "Lõikama (lõikeks)",
     "level": "B2"
   },
   {
     "de": "zuströmen",
-    "lv": "Να ρέει προς",
+    "lv": "Juurde voolama",
     "level": "B2"
   },
   {
     "de": "zuteilen",
-    "lv": "Κατανέμω • Δίνω",
+    "lv": "Eraldama • Andma",
     "level": "B2"
   },
   {
     "de": "zutrauen",
-    "lv": "Προσδοκώ • Θεωρώ ικανό",
+    "lv": "Ootama • Võimeliseks pidama",
     "level": "B2"
   },
   {
     "de": "Zuversicht",
     "de_article": "die",
     "de_plural": "die Zuversichten",
-    "lv": "Εμπιστοσύνη",
+    "lv": "Usaldus",
     "level": "B2"
   },
   {
     "de": "Zuwachs",
     "de_article": "der",
     "de_plural": "die Zuwächse",
-    "lv": "Ανάπτυξη",
+    "lv": "Kasv",
     "level": "B2"
   },
   {
     "de": "zuweisen",
-    "lv": "Καθορίζουν • Κατανέμουν",
+    "lv": "Määrama • Eraldama",
     "level": "B2",
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "Καθορίζουν • Κατανέμουν",
-      "explanation": "Κύρια ιδέα: zuweisen σημαίνει επίσημα ανάθεση ή κατανομή — μια εργασία, ένα ρόλο, έναν πόρο ή χρήματα σε ένα συγκεκριμένο άτομο ή τμήμα. Διαχωρίσιμο: weise ... zu.",
+      "translation": "Määrama • Eraldama",
+      "explanation": "Peamine mõte: zuweisen tähendab ametlikult määramist või eraldamist — ülesande, rolli, ressursi või raha konkreetsele isikule või osakonnale. Lahutatav: weise ... zu.",
       "examples": [
         {
           "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "Το αφεντικό του αναθέτει ένα νέο καθήκον."
+          "lv": "Ülemus määrab talle uue ülesande."
         },
         {
           "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "Διατέθηκαν κονδύλια για το έργο."
+          "lv": "Vahendid eraldati projektile."
         },
         {
           "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "Μετατέθηκε σε άλλο τμήμα."
+          "lv": "Ta suunati teise osakonda."
         }
       ],
       "comparison": [
         {
           "word": "zuweisen",
-          "meaning": "Καθορίζουν • Κατανέμουν",
-          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
+          "meaning": "Määrama • Eraldama",
+          "example": "Er weist die Aufgabe zu. = Ta määrab ülesande."
         },
         {
           "word": "geben",
-          "meaning": "Να δώσει",
-          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
+          "meaning": "Puste",
+          "example": "Er gibt mir die Arbeit. = Ta annab mulle töö."
         },
         {
           "word": "verteilen",
-          "meaning": "Διανέμω",
-          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
+          "meaning": "Jaotama",
+          "example": "Er verteilt die Aufgaben. = Ta jaotab ülesanded."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Το zuweisen δίνει έμφαση στον επίσημο χαρακτηρισμό — σε εργασία, διοίκηση, έργα."
+            "text": "Zuweisen rõhutab ametlikku määramist — töös, haldusalas, projektides."
           }
         ]
       },
       "important": {
-        "text": "Zuweisen = εκχωρώ ή εκχωρώ επίσημα. Τέλειο: ανατέθηκε. Διαχωρίσιμο: weise ... zu."
+        "text": "Zuweisen = ametlikult määrama või eraldama. Perfekt: zugewiesen. Lahutatav: weise ... zu."
       },
       "sectionAccents": {
         "explanation": {
@@ -14468,8 +14623,8 @@ const B2_WORDS = [
             "zu"
           ],
           "purple": [
-            "piešķirt",
-            "norīkot"
+            "Peamine",
+            "eraldamist"
           ]
         },
         "examples": [
@@ -14482,7 +14637,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "piešķir"
+                "määrab"
               ]
             }
           },
@@ -14494,7 +14649,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "piešķirti"
+                "eraldati"
               ]
             }
           },
@@ -14506,7 +14661,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "norīkoja"
+                "suunati"
               ]
             }
           }
@@ -14518,63 +14673,63 @@ const B2_WORDS = [
     "de": "Zuwendung",
     "de_article": "die",
     "de_plural": "die Zuwendungen",
-    "lv": "Υποστήριξη",
+    "lv": "Toetus",
     "level": "B2"
   },
   {
     "de": "zuwider",
-    "lv": "Κατά • Αντίθετα • Αντιπαθώ",
+    "lv": "Vastu • Vastupidi • Mitte meeldima",
     "level": "B2",
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "Κατά • Αντίθετα • Αντιπαθώ",
-      "explanation": "Κύρια ιδέα: το zuwider είναι μια λέξη πολλαπλών λειτουργιών. Ως σύνδεσμος + δοτική σημαίνει «εναντίον, αντίθετα»: mir zuwider. Ως μέρος της έκφρασης jemandem zuwider sein/laufen, σημαίνει «αντιπαθείς κάποιον, γίνεσαι δυσάρεστος». Δεν πρέπει να συγχέεται με το ευρύτερο.",
+      "translation": "Vastu • Vastupidi • Mitte meeldima",
+      "explanation": "Peamine mõte: zuwider on mitme funktsiooniga sõna. Kaassõnana + daativ tähendab see „vastu, vastupidi”: mir zuwider. Väljendi jemandem zuwider sein/laufen osana tähendab see „kellelegi mitte meeldida, muutuda ebameeldivaks”. Ei tohi segi ajada sõnaga wider (vastu).",
       "examples": [
         {
           "de": "Er handelte mir zuwider.",
-          "lv": "Ενήργησε παρά τη θέλησή μου."
+          "lv": "Ta tegutses minu tahte vastu."
         },
         {
           "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "Δεν μου αρέσει η συμπεριφορά του."
+          "lv": "Tema käitumine ei meeldi mulle."
         },
         {
           "de": "Das läuft mir zuwider.",
-          "lv": "Δεν μου αρέσει / με στεναχωρεί."
+          "lv": "See ei meeldi mulle / see kurvastab mind."
         }
       ],
       "comparison": [
         {
           "word": "zuwider (+ Dat.)",
-          "meaning": "Κατά • Αντίθετα",
-          "example": "mir zuwider = pret manu gribu"
+          "meaning": "Vastu • Vastupidi",
+          "example": "mir zuwider = mir zuwider = minu tahte vastu"
         },
         {
           "word": "jemandem zuwider sein",
-          "meaning": "Να μην αρέσει σε κανέναν",
-          "example": "Es ist mir zuwider. = Man tas nepatīk."
+          "meaning": "Kellelegi mitte meeldima",
+          "example": "Es ist mir zuwider. = Es ist mir zuwider. = Mulle see ei meeldi."
         },
         {
           "word": "wider",
-          "meaning": "Κατά (σύνδεση)",
-          "example": "wider den Willen = pret gribu"
+          "meaning": "Vastu (kaassõna)",
+          "example": "wider den Willen = wider den Willen = tahte vastu"
         },
         {
           "word": "widersprechen",
-          "meaning": "Διαφωνώ • Διαφωνώ",
-          "example": "Ich widerspreche. = Es iebilstu."
+          "meaning": "Vaidlema • Mitte nõustuma",
+          "example": "Ich widerspreche. = Ich widerspreche. = Ma vaidlen vastu."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Βασική έννοια: κατά / αντίθετα (mir zuwider). Ιδιωματικά: jemandem zuwider sein/laufen = να μην ευχαριστήσω κανέναν."
+            "text": "Põhitähendus: vastu / vastupidi (mir zuwider). Idiomaatiliselt: jemandem zuwider sein/laufen = kellelegi mitte meeldida."
           }
         ]
       },
       "important": {
-        "text": "Zuwider + δοτική = κατά, αντίθετα. zuwider sein = αντιπάθεια. Δεν είναι το ίδιο με το ευρύτερο."
+        "text": "Zuwider + daativ = vastu, vastupidi. zuwider sein = mitte meeldida. See ei ole sama, mis wider."
       },
       "sectionAccents": {
         "explanation": {
@@ -14582,8 +14737,8 @@ const B2_WORDS = [
             "zuwider"
           ],
           "purple": [
-            "pret",
-            "nepatikt"
+            "vastu",
+            "mitte meeldida"
           ],
           "green": [
             "wider"
@@ -14598,7 +14753,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pret"
+                "vastu"
               ]
             }
           },
@@ -14610,7 +14765,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "nepatīk"
+                "ei meeldi"
               ]
             }
           },
@@ -14622,7 +14777,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "nepatīk"
+                "ei meeldi"
               ]
             }
           }
@@ -14632,90 +14787,90 @@ const B2_WORDS = [
   },
   {
     "de": "zwanglos",
-    "lv": "Ελεύθερος • Αναγκαστικός",
+    "lv": "Vaba • Sundimatu",
     "level": "B2"
   },
   {
     "de": "zweckmäßig",
-    "lv": "Τέχνασμα",
+    "lv": "Otstarbekas",
     "level": "B2"
   },
   {
     "de": "zweifellos",
-    "lv": "Χωρίς αμφιβολία",
+    "lv": "Kahtlemata",
     "level": "B2"
   },
   {
     "de": "Zwielicht",
     "de_article": "das",
-    "lv": "Λυκόφως",
+    "lv": "Hämarik",
     "level": "B2"
   },
   {
     "de": "Zwirn",
     "de_article": "der",
     "de_plural": "die Zwirne",
-    "lv": "Νήμα",
+    "lv": "Nit",
     "level": "B2"
   },
   {
     "de": "Zwischenfall",
     "de_article": "der",
     "de_plural": "die Zwischenfälle",
-    "lv": "Ένα περιστατικό",
+    "lv": "Vahejuhtum",
     "level": "B2"
   },
   {
     "de": "Zwischenraum",
     "de_article": "der",
     "de_plural": "die Zwischenräume",
-    "lv": "Κενό • Κενό",
+    "lv": "Vahe • Vaheruum",
     "level": "B2"
   },
   {
     "de": "ändern",
-    "lv": "Αλλαγή • Βελτίωση",
+    "lv": "Muutma • Parandama",
     "level": "B2",
     "study": {
       "id": "b2-aendern",
       "layout": "standardStudy",
-      "translation": "Αλλαγή • Βελτίωση",
+      "translation": "Muutma • Parandama",
       "explanation": [
-        "Κύρια ιδέα: Για να αλλάξετε ένα συγκεκριμένο πράγμα ή πληροφορίες — σχέδιο, προθεσμία, διεύθυνση, απόφαση.",
-        "Ändern σημαίνει κυρίως: διορθώνω ή αλλάζω μια λεπτομέρεια.",
-        "Συχνά χαρακτηρίζει: ένα συγκεκριμένο πράγμα.",
-        "Το ändern χρησιμοποιείται όταν αλλάζει ένα σχέδιο, προθεσμία, διεύθυνση ή κάποια λεπτομέρεια."
+        "Peamine mõte: Muuta konkreetset asja või infot — plaani, tähtaega, aadressi, otsust.",
+        "Ändern tähendab peamiselt: parandama või muutma detaili.",
+        "Sageli iseloomustab: konkreetset asja.",
+        "Ändern't kasutatakse, kui muudetakse plaani, tähtaega, aadressi või mõnda detaili."
       ],
       "examples": [
         {
           "de": "Ich ändere den Termin.",
-          "lv": "Θα αλλάξω την προθεσμία."
+          "lv": "Ma muudan tähtaega."
         },
         {
           "de": "Kannst du die Adresse ändern?",
-          "lv": "Μπορείς να αλλάξεις διεύθυνση • "
+          "lv": "Kas sa saad aadressi muuta?"
         },
         {
           "de": "Wir ändern unseren Plan.",
-          "lv": "Θα αλλάξουμε το σχέδιο μας."
+          "lv": "Me muudame oma plaani."
         },
         {
           "de": "Ich ändere den Termin.",
-          "lv": "Θα αλλάξω την προθεσμία."
+          "lv": "Ma muudan tähtaega."
         },
         {
           "de": "ändern",
-          "lv": "Αλλάζω τον αριθμό τηλεφώνου μου, αλλά δεν αλλάζω χειριστή."
+          "lv": "Ma muudan oma telefoninumbrit, aga ma ei vaheta operaatorit."
         }
       ],
       "tip": [
-        "Αλλάξτε ένα συγκεκριμένο πράγμα ή μια πληροφορία — σχέδιο, προθεσμία, διεύθυνση, απόφαση.",
-        "Χρησιμοποιήστε το ändern όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
+        "Izmanto ändern, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Ändern = αλλαγή συγκεκριμένου πράγματος (Όρος, Διεύθυνση, Σχέδιο).",
-        "Σχέδιο, προθεσμία, διεύθυνση: ändern.",
-        "Αλλάξτε ένα συγκεκριμένο πράγμα ή μια πληροφορία — σχέδιο, προθεσμία, διεύθυνση, απόφαση."
+        "ändern = mainīt konkrētu lietu (Termin, Adresse, Plan).",
+        "Plāns, termiņš, adrese: ändern.",
+        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14723,20 +14878,22 @@ const B2_WORDS = [
             "ändern"
           ],
           "purple": [
-            "mainīt",
-            "labot"
+            "muutma",
+            "parandama"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ände"
+                "ändere",
+                "ändere"
               ]
             },
             "lv": {
               "purple": [
-                "mainu"
+                "muudan",
+                "muudan"
               ]
             }
           },
@@ -14749,7 +14906,8 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "mainīt"
+                "muuta",
+                "kas"
               ]
             }
           },
@@ -14762,32 +14920,40 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "mainām"
+                "muudame",
+                "muudame"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ände"
+                "ändere",
+                "ändere"
               ]
             },
             "lv": {
               "purple": [
-                "mainu"
+                "muudan",
+                "muudan"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ändern",
+                "ändern"
+              ],
+              "red": [
                 "ändern"
               ]
             },
             "lv": {
               "purple": [
-                "mainīt"
+                "muudan"
+              ],
+              "yellow": [
+                "vaheta"
               ]
             }
           }
@@ -14795,10 +14961,14 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "mainīt"
+              "Mainīt"
             ]
           },
-          {}
+          {
+            "purple": [
+              "Mainīt"
+            ]
+          }
         ],
         "important": [
           {
@@ -14812,44 +14982,44 @@ const B2_WORDS = [
   },
   {
     "de": "wechseln",
-    "lv": "Να αλλάξει",
+    "lv": "Vahetama",
     "level": "B2",
     "study": {
       "id": "b2-wechseln",
       "layout": "standardStudy",
-      "translation": "Να αλλάξει",
+      "translation": "Vahetama",
       "explanation": [
-        "Κύρια ιδέα: Ανταλλάξτε κάτι με κάτι άλλο — χρήματα, ρούχα, δουλειά, σχολείο, αντικείμενο.",
-        "Wechseln σημαίνει κυρίως: ανταλλάσσω με κάτι άλλο.",
-        "Συχνά χαρακτηρίζεται από: ανταλλαγή.",
-        "Το wechseln χρησιμοποιείται όταν κάτι ανταλλάσσεται με κάτι άλλο — χρήματα, ρούχα, δουλειά, σχολείο ή αντικείμενο."
+        "Peamine mõte: Vahetada midagi millegi teise vastu — raha, riideid, tööd, kooli, teemat.",
+        "Wechseln tähendab peamiselt: vahetama millegi teise vastu.",
+        "Sageli iseloomustab: vahetust.",
+        "Wechseln't kasutatakse, kui midagi vahetatakse millegi teise vastu — raha, riided, töö, kool või teema."
       ],
       "examples": [
         {
           "de": "Ich wechsle die Schule.",
-          "lv": "Αλλάζω σχολείο."
+          "lv": "Ma vahetan kooli."
         },
         {
           "de": "Ich muss Geld wechseln.",
-          "lv": "Πρέπει να αλλάξω χρήματα."
+          "lv": "Ma pean raha mittama."
         },
         {
           "de": "Wir wechseln das Thema.",
-          "lv": "Θα αλλάξουμε θέμα."
+          "lv": "Me mittame teamat."
         },
         {
           "de": "Ich wechsle die Schule.",
-          "lv": "Αλλάζω σχολείο."
+          "lv": "Ma vahetan kooli."
         }
       ],
       "tip": [
-        "Ανταλλάξτε κάτι με κάτι άλλο - χρήματα, ρούχα, δουλειά, σχολείο, αντικείμενο.",
-        "Χρησιμοποιήστε το wechseln όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
+        "Izmanto wechseln, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Wechseln = ανταλλάσσω με κάτι άλλο (Geld, Schule, Thema).",
-        "Χρήματα, σχολείο, δουλειά, θέμα: wechseln.",
-        "Ανταλλάξτε κάτι με κάτι άλλο - χρήματα, ρούχα, δουλειά, σχολείο, αντικείμενο."
+        "wechseln = samainīt vai nomainīt pret citu (Geld, Schule, Thema).",
+        "Nauda, skola, darbs, tēma: wechseln.",
+        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14857,18 +15027,24 @@ const B2_WORDS = [
             "wechseln"
           ],
           "purple": [
-            "samainīt",
-            "nomainīt"
+            "vahetama",
+            "Peamine"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
+                "wechsle",
                 "wechsle"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vahetan",
+                "vahetan"
+              ]
+            }
           },
           {
             "de": {
@@ -14877,7 +15053,12 @@ const B2_WORDS = [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "pean",
+                "pean"
+              ]
+            }
           },
           {
             "de": {
@@ -14886,26 +15067,37 @@ const B2_WORDS = [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mittame",
+                "mittame"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "wechsle",
                 "wechsle"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vahetan",
+                "vahetan"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "samainīt"
+              "Samainīt"
             ]
           },
           {
             "purple": [
-              "nomainīt"
+              "Samainīt"
             ]
           }
         ],
@@ -14921,49 +15113,49 @@ const B2_WORDS = [
   },
   {
     "de": "bieten",
-    "lv": "Να προσφέρει",
+    "lv": "Pakkuma",
     "level": "B2",
     "study": {
       "id": "b2-bieten",
       "layout": "standardStudy",
-      "translation": "Να προσφέρει",
+      "translation": "Pakkuma",
       "explanation": [
-        "Κύρια ιδέα: Να προσφέρουμε ευκαιρίες, μαθήματα, υπηρεσίες ή οφέλη — που παρέχει ο τόπος ή το πρόγραμμα.",
-        "Bieten σημαίνει κυρίως: δίνω ευκαιρία/όφελος.",
-        "Συχνά χαρακτηρίζεται από: τι παρέχει ο τόπος/πρόγραμμα.",
-        "Bieten σημαίνει κυρίως: να παρέχει μια ευκαιρία.",
-        "Συχνά χαρακτηρίζεται από: πιο επίσημο.",
-        "Το bieten συχνά περιγράφει τι προσφέρει ένα μέρος, πρόγραμμα ή υπηρεσία (Die Schule bietet viele Kurse)."
+        "Peamine mõte: Pakkuda võimalusi, kursusi, teenuseid või kasu — mida koht või programm annab.",
+        "Bieten tähendab peamiselt: võimalust/kasu andma.",
+        "Sageli iseloomustab: mida koht/programm annab.",
+        "Bieten tähendab peamiselt: võimalust tagama.",
+        "Sageli iseloomustab: formaalsemalt.",
+        "Bieten kirjeldab sageli, mida koht, programm või teenus pakub (Die Schule bietet viele Kurse)."
       ],
       "examples": [
         {
           "de": "Die Schule bietet viele Kurse.",
-          "lv": "Το σχολείο προσφέρει πολλά μαθήματα."
+          "lv": "Kool pakub palju kursusi."
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Μπορώ να σας προσφέρω κάτι"
+          "lv": "Kas tohin teile midagi pakkuda?"
         },
         {
           "de": "Die Schule bietet viele Kurse.",
-          "lv": "Το σχολείο προσφέρει πολλά μαθήματα."
+          "lv": "Kool pakub palju kursusi."
         },
         {
           "de": "Die App bietet Sicherheit.",
-          "lv": "Η εφαρμογή παρέχει ασφάλεια."
+          "lv": "Rakendus tagab turvalisuse."
         },
         {
           "de": "bieten",
-          "lv": "Το ξενοδοχείο προσφέρει όμορφη θέα στη θάλασσα."
+          "lv": "Hotell pakub ilusat vaadet merele."
         }
       ],
       "tip": [
-        "Προσφέρετε ευκαιρίες, μαθήματα, υπηρεσίες ή οφέλη — που παρέχει ο τόπος ή το πρόγραμμα.",
-        "Χρησιμοποιήστε το bieten όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz.",
+        "Izmanto bieten, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Bieten: Die Schule bietet Kurse. (αχώριστος)",
-        "Τι προσφέρει το μέρος/πρόγραμμα: bieten."
+        "bieten: Die Schule bietet Kurse. (nesadalāms)",
+        "Ko vieta/programma sniedz: bieten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14971,20 +15163,22 @@ const B2_WORDS = [
             "bieten"
           ],
           "purple": [
-            "piedāvāt",
-            "sniegt"
+            "Pakkuda",
+            "andma"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet",
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "piedāvā"
+                "Kool",
+                "Kool"
               ]
             }
           },
@@ -14997,40 +15191,48 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "piedāvāt"
+                "pakkuda",
+                "kas"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet",
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "piedāvā"
+                "kool",
+                "kool"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet",
+                "bietet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rakendus",
+                "rakendus"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "bieten",
                 "bieten"
               ]
             },
             "lv": {
               "purple": [
-                "sniedz"
+                "pakub"
               ]
             }
           }
@@ -15038,12 +15240,12 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "piedāvāt"
+              "Piedāvāt"
             ]
           },
           {
             "purple": [
-              "sniedz"
+              "Piedāvāt"
             ]
           }
         ],
@@ -15059,53 +15261,53 @@ const B2_WORDS = [
   },
   {
     "de": "anbieten",
-    "lv": "Να προσφέρει",
+    "lv": "Pakkuma",
     "level": "B2",
     "study": {
       "id": "b2-anbieten",
       "layout": "standardStudy",
-      "translation": "Να προσφέρει",
-      "explanation": "Κύρια ιδέα: anbieten σημαίνει ενεργά προσφορά σε κάποιον — βοήθεια, ένα ποτό, μια δουλειά ή μια υπηρεσία. Διαχωριζόμενο ρήμα: ich biete an, er bietet an. Δίνει έμφαση στην πρωτοβουλία του παρόχου.",
+      "translation": "Pakkuma",
+      "explanation": "Peamine mõte: anbieten tähendab aktiivselt kellelegi pakkumist — abi, jooki, tööd või teenust. Lahutatav tegusõna: ich biete an, er bietet an. Rõhutab pakkuja initsiatiivi.",
       "examples": [
         {
           "de": "Ich biete dir meine Hilfe an.",
-          "lv": "Σας προσφέρω τη βοήθειά μου."
+          "lv": "Ma pakun sulle oma abi."
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Μπορώ να σας προσφέρω κάτι"
+          "lv": "Kas tohin teile midagi pakkuda?"
         },
         {
           "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "Η εταιρεία προσφέρει νέες θέσεις εργασίας."
+          "lv": "Ettevõte pakub uusi töökohti."
         }
       ],
       "comparison": [
         {
           "word": "anbieten",
-          "meaning": "Να προσφέρει (ενεργά)",
-          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
+          "meaning": "Pakkuma (aktiivselt)",
+          "example": "Ich biete Hilfe an. = Ma pakun abi."
         },
         {
           "word": "bieten",
-          "meaning": "Να προσφέρει • Να δώσει",
-          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
+          "meaning": "Pakkuma • Andma",
+          "example": "Er bietet viel Geld. = Ta pakub palju raha."
         },
         {
           "word": "vorschlagen",
-          "meaning": "Να βάλει μπροστά",
-          "example": "Ich schlage vor. = Es ierosinu."
+          "meaning": "Et panema",
+          "example": "Ich schlage vor. = Ma panen ette."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Η anbieten τονίζει ότι κάποιος προσφέρει ενεργά κάτι σε ένα συγκεκριμένο άτομο: Ich biete dir ... an."
+            "text": "Anbieten rõhutab, et keegi aktiivselt pakub midagi konkreetsele inimesele: Ich biete dir ... an."
           }
         ]
       },
       "important": {
-        "text": "Anbieten = προσφέρω ενεργά. Αποσπώμενο: μπουκιά ... αν. Τέλειο: angeboten."
+        "text": "Anbieten = aktiivselt pakkuma. Lahutatav: biete ... an. Perfekt: angeboten."
       },
       "sectionAccents": {
         "explanation": {
@@ -15115,7 +15317,7 @@ const B2_WORDS = [
             "an"
           ],
           "purple": [
-            "piedāvāt"
+            "pakkuja"
           ]
         },
         "examples": [
@@ -15128,7 +15330,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "piedāvāju"
+                "pakun"
               ]
             }
           },
@@ -15140,7 +15342,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "piedāvāt"
+                "pakkuda"
               ]
             }
           },
@@ -15153,7 +15355,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "piedāvā"
+                "pakub"
               ]
             }
           }
@@ -15163,50 +15365,50 @@ const B2_WORDS = [
   },
   {
     "de": "fordern",
-    "lv": "Να απαιτήσει",
+    "lv": "Nõudma",
     "level": "B2",
     "study": {
       "id": "b2-fordern",
       "layout": "standardStudy",
-      "translation": "Να απαιτήσει",
+      "translation": "Nõudma",
       "explanation": [
-        "Κύρια ιδέα: Απαίτηση χρημάτων, δικαιωμάτων, αλλαγής ή υποχρέωσης — ενεργή ζήτηση.",
-        "Fordern σημαίνει κυρίως: απαιτώ.",
-        "Συχνά χαρακτηρίζεται από: ενεργή ζήτηση.",
-        "Fordern σημαίνει κυρίως: να απαιτείς ένα πρότυπο.",
-        "Συχνά χαρακτηρίζεται από: επίσημο.",
-        "Το fordern χρησιμοποιείται όταν κάποιος απαιτεί χρήματα, δικαιώματα, αλλαγές ή μια υποχρέωση (Sie førdern mehr Geld)."
+        "Peamine mõte: Nõuda raha, õigusi, muutusi või kohustust — aktiivne nõudmine.",
+        "Fordern tähendab peamiselt: nõudma.",
+        "Sageli iseloomustab: aktiivne nõudmine.",
+        "Fordern tähendab peamiselt: standardit nõudma.",
+        "Sageli iseloomustab: formaalselt.",
+        "Fordern't kasutatakse, kui keegi nõuab raha, õigusi, muutusi või kohustust (Sie fordert mehr Geld)."
       ],
       "examples": [
         {
           "de": "Sie fordert mehr Geld.",
-          "lv": "Ζητάει περισσότερα χρήματα."
+          "lv": "Ta nõuab rohkem raha."
         },
         {
           "de": "Wir fordern mehr Transparenz.",
-          "lv": "Απαιτούμε περισσότερη διαφάνεια."
+          "lv": "Me nõuame suuremat läbipaistvust."
         },
         {
           "de": "Sie fordert mehr Geld.",
-          "lv": "Ζητάει περισσότερα χρήματα."
+          "lv": "Ta nõuab rohkem raha."
         },
         {
           "de": "Wir fordern mehr Sicherheit.",
-          "lv": "Απαιτούμε μεγαλύτερη ασφάλεια."
+          "lv": "Me nõuame suuremat turvalisust."
         },
         {
           "de": "fordern",
-          "lv": "Το συνδικάτο απαιτεί υψηλότερους μισθούς, αλλά το κράτος στηρίζει μόνο τις μικρές επιχειρήσεις."
+          "lv": "Ametiühing nõuab kõrgemat palka, aga riik toetab ainult väikeettevõtteid."
         }
       ],
       "tip": [
-        "Ζητήστε χρήματα, δικαιώματα, αλλαγές ή υποχρεώσεις — ενεργή ζήτηση.",
-        "Χρησιμοποιήστε το fordern όταν το πλαίσιο αντιστοιχεί σε αυτό το νόημα."
+        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība.",
+        "Izmanto fordern, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Fordern = ζήτηση (χωρίς ö).",
-        "Ζήτηση: fordern (χωρίς ö).",
-        "Ζητήστε χρήματα, δικαιώματα, αλλαγές ή υποχρεώσεις — ενεργή ζήτηση."
+        "fordern = pieprasīt / prasīt (bez ö).",
+        "Prasība, pieprasījums: fordern (bez ö).",
+        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15214,20 +15416,22 @@ const B2_WORDS = [
             "fordern"
           ],
           "purple": [
-            "pieprasīt",
-            "prasīt"
+            "nõudma",
+            "Peamine"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "forde"
+                "fordert",
+                "fordert"
               ]
             },
             "lv": {
               "purple": [
-                "prasa"
+                "nõuab",
+                "nõuab"
               ]
             }
           },
@@ -15240,32 +15444,22 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pieprasām"
+                "nõuame",
+                "nõuame"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "forde"
+                "fordert",
+                "fordert"
               ]
             },
             "lv": {
               "purple": [
-                "prasa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fordern",
-                "fordern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pieprasām"
+                "nõuab",
+                "nõuab"
               ]
             }
           },
@@ -15278,7 +15472,26 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "prasīt"
+                "nõuame",
+                "nõuame"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordern"
+              ],
+              "red": [
+                "fordern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nõuab"
+              ],
+              "yellow": [
+                "toetab"
               ]
             }
           }
@@ -15286,12 +15499,12 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "pieprasīt"
+              "naudu"
             ]
           },
           {
             "purple": [
-              "prasīt"
+              "naudu"
             ]
           }
         ],
@@ -15307,48 +15520,48 @@ const B2_WORDS = [
   },
   {
     "de": "fördern",
-    "lv": "Ενθαρρύνουν την υποστήριξη",
+    "lv": "Soodustama • Toetama",
     "level": "B2",
     "study": {
       "id": "b2-foerdern",
       "layout": "standardStudy",
-      "translation": "Ενθαρρύνουν την υποστήριξη",
+      "translation": "Soodustama • Toetama",
       "explanation": [
-        "Κύρια ιδέα: Προώθηση της ανάπτυξης, υποστήριξη ενός ατόμου, έργου ή διαδικασίας.",
-        "Fördern σημαίνει κυρίως: προώθηση της ανάπτυξης.",
-        "Συχνά χαρακτηρίζεται από: υποστήριξη / επιτυχία.",
-        "Fördern σημαίνει κυρίως: εξαγωγή ορυκτών.",
-        "Συχνά χαρακτηρίζεται από: στη βιομηχανία.",
-        "Fördern σημαίνει κυρίως: να αναπτύξεις ένα ταλέντο.",
-        "Συχνά χαρακτηρίζεται από: στην εκπαίδευση.",
-        "Fördern σημαίνει προώθηση της ανάπτυξης, υποστήριξη ενός ατόμου ή ενός έργου (Sport fördern die Gesundheit)."
+        "Peamine mõte: Soodustada arengut, toetada inimest, projekti või protsessi.",
+        "Fördern tähendab peamiselt: arengut soodustama.",
+        "Sageli iseloomustab: tuge / edu.",
+        "Fördern tähendab peamiselt: maavarasid kaevandama.",
+        "Sageli iseloomustab: tööstuses.",
+        "Fördern tähendab peamiselt: annet arendama.",
+        "Sageli iseloomustab: hariduses.",
+        "Fördern tähendab arengu soodustamist, inimese või projekti toetamist (Sport fördert die Gesundheit)."
       ],
       "examples": [
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "Ο αθλητισμός προάγει την υγεία."
+          "lv": "Sport soodustab tervist."
         },
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "Ο αθλητισμός προάγει την υγεία."
+          "lv": "Sport soodustab tervist."
         },
         {
           "de": "In der Region wird Öl gefördert.",
-          "lv": "Πετρέλαιο εξορύσσεται στην περιοχή."
+          "lv": "Piirkonnas kaevandatakse naftat."
         },
         {
           "de": "Die Schule fördert begabte Kinder.",
-          "lv": "Το σχολείο υποστηρίζει ταλαντούχα παιδιά."
+          "lv": "Kool toetab andekaid lapsi."
         }
       ],
       "tip": [
-        "Προωθήστε την ανάπτυξη, υποστηρίξτε ένα άτομο, ένα έργο ή μια διαδικασία.",
-        "Χρησιμοποιήστε το förden όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu.",
+        "Izmanto fördern, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Förden = προωθώ / υποστηρίζω (με ö).",
-        "Προώθηση, υποστήριξη: fördern (με ö).",
-        "Προωθήστε την ανάπτυξη, υποστηρίξτε ένα άτομο, ένα έργο ή μια διαδικασία."
+        "fördern = veicināt / atbalstīt (ar ö).",
+        "Veicināšana, atbalsts: fördern (ar ö).",
+        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15356,52 +15569,64 @@ const B2_WORDS = [
             "fördern"
           ],
           "purple": [
-            "veicināt",
-            "atbalstīt"
+            "soodustama",
+            "toetada"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "förde"
+                "fördert",
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "veicina"
+                "soodustab",
+                "Sport"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "förde"
+                "fördert",
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "veicina"
+                "soodustab",
+                "sport"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "gefördert"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "förde"
+                "der",
+                "der"
               ]
             },
             "lv": {
               "purple": [
-                "atbalsta"
+                "piirkonnas",
+                "piirkonnas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "fördert",
+                "fördert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kool",
+                "toetab"
               ]
             }
           }
@@ -15409,12 +15634,12 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "veicināt"
+              "Veicināt"
             ]
           },
           {
             "purple": [
-              "atbalstīt"
+              "Veicināt"
             ]
           }
         ],
@@ -15430,20 +15655,20 @@ const B2_WORDS = [
   },
   {
     "de": "sich verlaufen",
-    "lv": "Μην χαθείτε",
+    "lv": "Ära eksima",
     "level": "B2",
     "study": {
       "id": "b2-sich-verlaufen",
       "layout": "minimalStudy",
-      "translation": "Μην χαθείτε",
-      "explanation": "Sich verlaufen σημαίνει χάνομαι. Δεν έχει οριστική πρόθεση. Δεν πρέπει να συγχέεται με το verlaufen (να τρέχω).",
+      "translation": "Ära eksima",
+      "explanation": "Sich verlaufen tähendab ära eksimist. Sellel puudub kindel eessõna. Ei tohi segamini ajada verlaufen'iga (kulgema).",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich verlaufen"
           ],
           "purple": [
-            "apmaldīties"
+            "ära eksimist"
           ],
           "red": [
             "verlaufen"
@@ -15454,21 +15679,21 @@ const B2_WORDS = [
   },
   {
     "de": "verlaufen",
-    "lv": "Να προχωρήσει • Να πραγματοποιηθεί",
+    "lv": "Kulgema • Toimuma",
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",
       "layout": "minimalStudy",
-      "translation": "Να προχωρήσει • Να πραγματοποιηθεί",
-      "explanation": "Verlaufen (χωρίς sich) σημαίνει πηγαίνω ή συμβαίνει. Δεν είναι συνώνυμο του sich verlaufen (μην χαθείτε).",
+      "translation": "Kulgema • Toimuma",
+      "explanation": "Verlaufen (ilma sich'ita) tähendab kulgemist või toimumist. Ei ole sünonüüm sõnaga sich verlaufen (ära eksima).",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "verlaufen"
           ],
           "purple": [
-            "norisināties",
-            "ritēt"
+            "kulgemist",
+            "toimumist"
           ],
           "red": [
             "sich verlaufen"

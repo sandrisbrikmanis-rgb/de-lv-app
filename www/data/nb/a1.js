@@ -3,81 +3,81 @@ const A1_WORDS = [
     "de": "Apfel",
     "de_article": "der",
     "de_plural": "die Äpfel",
-    "lv": "Ένα μήλο",
+    "lv": "Un",
     "level": "A1"
   },
   {
     "de": "Brot",
     "de_article": "das",
     "de_plural": "die Brote",
-    "lv": "Ψωμί",
+    "lv": "Leib",
     "level": "A1"
   },
   {
     "de": "Wasser",
     "de_article": "das",
-    "lv": "Νερό",
+    "lv": "Vesi",
     "level": "A1"
   },
   {
     "de": "Haus",
     "de_article": "das",
     "de_plural": "die Häuser",
-    "lv": "Σπίτι",
+    "lv": "Maya",
     "level": "A1"
   },
   {
     "de": "lernen",
-    "lv": "Να μάθεις",
+    "lv": "Õppima",
     "level": "A1"
   },
   {
     "de": "sprechen",
-    "lv": "Να μιλήσει",
+    "lv": "Pratsom",
     "level": "A1",
     "study": {
       "id": "a1-sprechen-study",
       "layout": "standardStudy",
-      "translation": "Να μιλήσει",
+      "translation": "Pratsom",
       "explanation": [
-        "Κύρια ιδέα: Για να μιλήσετε, να συνομιλήσετε ή να χρησιμοποιήσετε γλώσσα.",
-        "Sprechen σημαίνει κυρίως: μιλάω ή συνομιλώ.",
-        "Συχνά περιγράφει: γλώσσα/συνομιλία.",
-        "Το sprechen περιγράφει την ομιλία ή τη χρήση της γλώσσας."
+        "Põhiidee: Käläma, vestlema või keeltämä.",
+        "The sprechen gejättättättä: å snakke või vestlema.",
+        "Sagelie descriptab: kjelt/vestlust.",
+        "Sprechen descriptab rääkimist või keele käustät."
       ],
       "examples": [
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "Μιλάω γερμανικά."
+          "lv": "Jeg snakker saxa keelt."
         },
         {
           "de": "Wir sprechen über die Arbeit.",
-          "lv": "Μιλάμε για δουλειά."
+          "lv": "Me søleme töost."
         },
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "Μιλάω γερμανικά"
+          "lv": "Jeg snakker saxa keelt."
         }
       ],
       "comparison": [
         {
           "word": "sprechen",
-          "meaning": "Μιλάω (διαδικασία, γλώσσα)",
-          "example": "Wir sprechen über die Arbeit. – Μιλάμε για δουλειά."
+          "meaning": "Språk (protsess, kjøl)",
+          "example": "Wir sprechen über die Arbeit. – Me søleme töost."
         },
         {
           "word": "sagen",
-          "meaning": "Πω (συγκεκριμένο κείμενο)",
-          "example": "Sag mir die Wahrheit. – Πες μου την αλήθεια."
+          "meaning": "Ütlema (konkret tekst)",
+          "example": "Sag mir die Wahrheit. – Ütle multe raskt."
         }
       ],
       "tip": [
-        "Sprechen = μιλάω",
-        "Χρησιμοποιήστε τη λέξη sprechen όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "sprechen = runāt",
+        "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Sprechen = μιλάω.",
-        "Για να μιλήσετε, να συνομιλήσετε ή να χρησιμοποιήσετε γλώσσα."
+        "sprechen = runāt.",
+        "Runāt, sarunāties vai lietot valodu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -85,22 +85,23 @@ const A1_WORDS = [
             "sprechen"
           ],
           "purple": [
-            "runāt"
+            "Põhiidee"
           ],
           "orange": [
-            "runāt"
+            "Põhiidee"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
+                "spreche",
                 "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "runāju"
+                "Jeg"
               ]
             }
           },
@@ -111,17 +112,22 @@ const A1_WORDS = [
                 "sprechen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "søleme"
+              ]
+            }
           },
           {
             "de": {
               "green": [
+                "spreche",
                 "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "runāju"
+                "Jeg"
               ]
             }
           }
@@ -129,7 +135,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "runāt"
+              "sprechen"
             ]
           }
         ],
@@ -145,50 +151,50 @@ const A1_WORDS = [
   },
   {
     "de": "klein",
-    "lv": "Μικρό",
+    "lv": "Väike",
     "level": "A1",
     "study": {
       "id": "a1-klein-study",
       "layout": "standardStudy",
-      "translation": "Μικρό",
+      "translation": "Väike",
       "explanation": [
-        "Κύρια ιδέα: Μικρό σε μέγεθος ή όγκο.",
-        "Klein σημαίνει κυρίως: μικρό μέγεθος.",
-        "Συχνά περιγράφει: το μέγεθος ενός πράγματος/ατόμου.",
-        "Klein σημαίνει κυρίως: μικρός/νεαρός.",
-        "Συχνά περιγράφει: ένα παιδί.",
-        "Ο klein περιγράφει το μικρό μέγεθος."
+        "Põhiidee: Väike suureuse või mahu mälä.",
+        "Klein betyr liten størrelse: liten størrelse.",
+        "Sageli erpaketab: asja/isiku goorust.",
+        "Klein betyr liten/noor.",
+        "Sagelie speltab: last.",
+        "Klein despretab väikest göst."
       ],
       "examples": [
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Το δωμάτιο είναι μικρό."
+          "lv": "Tuba på liten."
         },
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Το δωμάτιο είναι μικρό."
+          "lv": "Tuba på liten."
         },
         {
           "de": "Das Kind ist noch klein.",
-          "lv": "Το παιδί είναι ακόμα μικρό."
+          "lv": "Runder på veel väike."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "Έχω μια μικρή τσάντα."
+          "lv": "Mul på väike kott."
         },
         {
           "de": "Das Kind ist klein.",
-          "lv": "Το παιδί είναι μικρό."
+          "lv": "Runder på små."
         }
       ],
       "tip": [
-        "Klein = μικρός",
-        "Χρησιμοποιήστε τη λέξη klein όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "klein = mazs",
+        "Izmanto klein, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Klein = μικρό σε μέγεθος.",
-        "Klein = μικρός.",
-        "Μικρό σε μέγεθος ή όγκο."
+        "klein = mazs izmērā.",
+        "klein = mazs.",
+        "Mazs izmērā vai apjomā."
       ],
       "sectionAccents": {
         "explanation": {
@@ -196,10 +202,10 @@ const A1_WORDS = [
             "klein"
           ],
           "purple": [
-            "mazs"
+            "väike"
           ],
           "green": [
-            "Mazs"
+            "Väike"
           ]
         },
         "examples": [
@@ -212,7 +218,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maza"
+                "Tuba"
               ]
             }
           },
@@ -225,7 +231,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maza"
+                "Tuba"
               ]
             }
           },
@@ -238,7 +244,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mazs"
+                "väike"
               ]
             }
           },
@@ -251,7 +257,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maza"
+                "väike"
               ]
             }
           },
@@ -264,7 +270,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mazs"
+                "Runder"
               ]
             }
           }
@@ -272,7 +278,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "mazs"
+              "klein"
             ]
           }
         ],
@@ -288,68 +294,68 @@ const A1_WORDS = [
   },
   {
     "de": "alle",
-    "lv": "Πάντα",
+    "lv": "Alt",
     "level": "A1"
   },
   {
     "de": "allein",
-    "lv": "Μόνος",
+    "lv": "Ja",
     "level": "A1"
   },
   {
     "de": "alles",
-    "lv": "Πάντα",
+    "lv": "Alt",
     "level": "A1"
   },
   {
     "de": "alt",
-    "lv": "Παλιός",
+    "lv": "Vane",
     "level": "A1"
   },
   {
     "de": "Alter",
     "de_article": "das",
-    "lv": "Ηλικία",
+    "lv": "Venus",
     "level": "A1"
   },
   {
     "de": "an",
-    "lv": "Στο • Στις • Κοντά",
+    "lv": "Juures • Peal • Ligi",
     "level": "A1",
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "Στο • Από την επιφάνεια • Από την άκρη",
-      "explanation": "Χρησιμοποιείται όταν κάτι βρίσκεται κοντά σε τοίχο, παράθυρο, πόρτα, ποτάμι, παραλία ή άλλη άκρη/επιφάνεια.",
+      "translation": "Juures • Pinna vääres • Server vääres",
+      "explanation": "Kasutatakse, kui miski asub seina, akna, ukse, gejeu, mereranna või akko muu ääure/pinna kureus.",
       "examples": [
         {
           "de": "an der Wand",
-          "lv": "Στον τοίχο / στον τοίχο"
+          "lv": "Seina dyllus / not"
         },
         {
           "de": "am Fenster",
-          "lv": "Δίπλα στο παράθυρο"
+          "lv": "Akne rot"
         },
         {
           "de": "am Meer",
-          "lv": "Δίπλα στη θάλασσα"
+          "lv": "Flere ääres"
         }
       ],
       "comparison": [
         {
           "word": "an",
-          "meaning": "Στην επιφάνεια ή στην άκρη",
-          "example": "an der Wand – Στον τοίχο"
+          "meaning": "Pinna või serva vueras",
+          "example": "an der Wand – Signal"
         },
         {
           "word": "auf",
-          "meaning": "Σε οριζόντια επιφάνεια",
-          "example": "auf dem Tisch – Στο τραπέζι"
+          "meaning": "Horisontal pinnal",
+          "example": "auf dem Tisch – Lovlig"
         },
         {
           "word": "bei",
-          "meaning": "Σε ένα άτομο ή μέρος",
-          "example": "beim Arzt – Στο γιατρο"
+          "meaning": "Isiku või koha kureus",
+          "example": "beim Arzt – Lege i medisin"
         }
       ],
       "sectionAccents": {
@@ -362,8 +368,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pie",
-                "uz"
+                "seina",
+                "seina"
               ]
             }
           },
@@ -375,7 +381,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pie"
+                "Akne"
               ]
             }
           },
@@ -387,7 +393,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pie"
+                "Flere"
               ]
             }
           }
@@ -404,7 +410,7 @@ const A1_WORDS = [
                 "an"
               ],
               "purple": [
-                "pie"
+                "der"
               ]
             }
           },
@@ -419,7 +425,7 @@ const A1_WORDS = [
                 "auf"
               ],
               "purple": [
-                "uz"
+                "auf"
               ]
             }
           },
@@ -434,7 +440,7 @@ const A1_WORDS = [
                 "beim"
               ],
               "purple": [
-                "pie"
+                "beim"
               ]
             }
           }
@@ -445,12 +451,12 @@ const A1_WORDS = [
               "an"
             ],
             "purple": [
-              "pie"
+              "Atceries"
             ],
             "green": [
-              "sienas",
-              "loga",
-              "malas"
+              "Atceries",
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -460,13 +466,13 @@ const A1_WORDS = [
               "an"
             ],
             "purple": [
-              "pie"
+              "nav"
             ],
             "green": [
-              "virsmas",
-              "sienas",
-              "loga",
-              "malas"
+              "nav",
+              "nav",
+              "nav",
+              "nav"
             ]
           },
           {
@@ -474,17 +480,17 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "uz horizontālas virsmas"
+              "horizontālas"
             ]
           }
         ]
       },
       "tip": {
-        "text": "Θυμηθείτε: από τον τοίχο/το παράθυρο/την άκρη → an."
+        "text": "Atceries: pie sienas/loga/malas → an."
       },
       "important": [
-        "Το an δεν είναι «στη ρίζα» κανενός είδους. Αυτό συχνά σημαίνει από μια επιφάνεια, τοίχο, παράθυρο ή άκρη.",
-        "Το Auf χρησιμοποιείται συνήθως σε οριζόντια επιφάνεια."
+        "an nav jebkurš “pie”. Tas bieži nozīmē pie virsmas, sienas, loga vai malas.",
+        "Uz horizontālas virsmas parasti lieto auf."
       ]
     }
   },
@@ -492,67 +498,67 @@ const A1_WORDS = [
     "de": "Anfang",
     "de_article": "der",
     "de_plural": "die Anfänge",
-    "lv": "Η αρχή",
+    "lv": "Algus",
     "level": "A1"
   },
   {
     "de": "anfangen",
-    "lv": "Για να ξεκινήσετε",
+    "lv": "Alustama",
     "level": "A1"
   },
   {
     "de": "anders",
-    "lv": "Αλλιώς",
+    "lv": "Teisiti",
     "level": "A1"
   },
   {
     "de": "anrufen",
-    "lv": "Να καλέσει",
+    "lv": "Helistama",
     "level": "A1"
   },
   {
     "de": "ab",
-    "lv": "Δηλ",
+    "lv": "-st",
     "level": "A1",
     "study": {
       "id": "a1-ab",
       "layout": "standardStudy",
-      "translation": "Δηλ",
-      "explanation": "Χρησιμοποιείται όταν κάτι ξεκινά σε συγκεκριμένο χρόνο, τόπο ή σημείο. Συχνά σημαίνει \"από\".",
+      "translation": "-st",
+      "explanation": "Kasutatakse, kui miski algab kindlast ajast, koestat või punkst. Betyr ofte \"alates\".",
       "examples": [
         {
           "de": "ab heute",
-          "lv": "Από σήμερα",
+          "lv": "Alates tänasest",
           "level": "A1"
         },
         {
           "de": "ab Montag",
-          "lv": "Από Δευτέρα"
+          "lv": "God påske"
         },
         {
           "de": "ab 8 Uhr",
-          "lv": "Από τις 8 η ώρα"
+          "lv": "Alates kjele 8 stk"
         },
         {
           "de": "ab Bahnhof",
-          "lv": "Από το σταθμό"
+          "lv": "Faktisk"
         }
       ],
       "comparison": [
         {
           "word": "ab",
-          "meaning": "Από σημείο/χρόνο",
-          "example": "ab Montag – Από Δευτέρα"
+          "meaning": "Alates punktlig/ajast",
+          "example": "ab Montag – God påske"
         },
         {
           "word": "von",
-          "meaning": "Από κάποιον/κάτι • Καταγωγή",
-          "example": "von mir – Από εμένα"
+          "meaning": "Kellestki/millestki • Päritolu",
+          "example": "von mir – Minutt"
         },
         {
           "word": "aus",
-          "meaning": "Μέσα έξω",
-          "example": "aus dem Haus – Έξω από το σπίτι / έξω από το σπίτι"
+          "meaning": "Seest velge",
+          "example": "aus dem Haus – Kanskje / kanskje velge"
         }
       ],
       "sectionAccents": {
@@ -565,7 +571,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no"
+                "alates"
               ]
             }
           },
@@ -577,7 +583,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no"
+                "God"
               ]
             }
           },
@@ -589,7 +595,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no"
+                "Alates"
               ]
             }
           },
@@ -601,7 +607,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no"
+                "Faktisk"
               ]
             }
           }
@@ -618,7 +624,7 @@ const A1_WORDS = [
                 "ab"
               ],
               "purple": [
-                "no"
+                "Montag"
               ]
             }
           },
@@ -633,7 +639,7 @@ const A1_WORDS = [
                 "von"
               ],
               "purple": [
-                "no"
+                "von"
               ]
             }
           },
@@ -648,7 +654,7 @@ const A1_WORDS = [
                 "aus"
               ],
               "purple": [
-                "no"
+                "aus"
               ]
             }
           }
@@ -659,11 +665,11 @@ const A1_WORDS = [
               "ab"
             ],
             "purple": [
-              "sākuma punkts"
+              "Atceries"
             ],
             "green": [
-              "laikā",
-              "vietā"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -673,11 +679,11 @@ const A1_WORDS = [
               "ab"
             ],
             "purple": [
-              "sākuma punktu"
+              "rāda"
             ],
             "green": [
-              "laikā",
-              "vietā"
+              "rāda",
+              "rāda"
             ]
           },
           {
@@ -688,18 +694,18 @@ const A1_WORDS = [
               "aus"
             ],
             "purple": [
-              "izcelsme",
-              "ārā no iekšienes"
+              "doma",
+              "doma"
             ]
           }
         ]
       },
       "tip": {
-        "text": "Θυμηθείτε: σημείο εκκίνησης σε χρόνο/τόπο → αβ."
+        "text": "Atceries: sākuma punkts laikā/vietā → ab."
       },
       "important": [
-        "Το ab υποδεικνύει ένα σημείο εκκίνησης σε χρόνο ή τόπο.",
-        "Όταν η σκέψη είναι προέλευσης ή κατεύθυνσης από μέσα προς τα έξω, χρησιμοποιείται πιο συχνά το von ή το aus."
+        "ab rāda sākuma punktu laikā vai vietā.",
+        "Ja doma ir izcelsme vai virziens ārā no iekšienes, biežāk lieto von vai aus."
       ]
     }
   },
@@ -707,63 +713,63 @@ const A1_WORDS = [
     "de": "Abend",
     "de_article": "der",
     "de_plural": "die Abende",
-    "lv": "Απόγευμα",
+    "lv": "Høyre",
     "level": "A1"
   },
   {
     "de": "Abendessen",
     "de_article": "das",
     "de_plural": "die Abendessen",
-    "lv": "Δείπνο",
+    "lv": "Õhtusöök",
     "level": "A1"
   },
   {
     "de": "abends",
-    "lv": "Το βράδυ",
+    "lv": "Õhtul",
     "level": "A1"
   },
   {
     "de": "aber",
-    "lv": "Ωστόσο",
+    "lv": "Aga",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "Ωστόσο",
-      "explanation": "Χρησιμοποιείται για να εισαγάγει μια αντίθεση ή να εκφράσει μια αντίρρηση. Συχνά σημαίνει \"αλλά\", \"ωστόσο\" ή \"παρόλα αυτά\".",
+      "translation": "Aga",
+      "explanation": "Kasutatakse vastanduse sissetoomiseks või vastuväite ekspretamiseks. Betyr ofte \"igjen\", \"siiski\" eller \"ometi\".",
       "examples": [
         {
           "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "Θέλω να έρθω, αλλά δεν έχω χρόνο."
+          "lv": "Ma tahan kaasa tulla, aga mul ei ole aega."
         },
         {
           "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "Το φαγητό ήταν νόστιμο αλλά πολύ ακριβό."
+          "lv": "Toit oli maitsev, aga liiga kallis."
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "Έχει δίκιο, αλλά εγώ πιστεύω διαφορετικά."
+          "lv": "Tal on égis, aga ma arvan teisiti."
         }
       ],
       "comparison": [
         {
           "word": "aber",
-          "meaning": "Αντίθετη • Αντίρρηση • Ωστόσο",
-          "example": "Ich komme, aber später. – Θα έρθω, αλλά αργότερα."
+          "meaning": "Vastand • Vastuväide • Sikkät",
+          "example": "Ich komme, aber später. – Ma tulen, aga laim."
         },
         {
           "word": "sondern",
-          "meaning": "Όχι • Αλλά",
-          "example": "Ich wollte Tee, sondern Kaffee. – Ήθελα τσάι, όχι καφέ."
+          "meaning": "Senter • Ugyldig",
+          "example": "Ich wollte Tee, sondern Kaffee. – Ma tahtsin teed, mitte kaffi."
         },
         {
           "word": "jedoch",
-          "meaning": "Ωστόσο",
-          "example": "Es ist kalt, jedoch sonnig. – Κάνει κρύο, αλλά ηλιόλουστο."
+          "meaning": "Imidlertid",
+          "example": "Es ist kalt, jedoch sonnig. – På kõr, säyää säääline."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: αντίθετο / αντίρρηση → aber."
+        "text": "Atceries: pretstats/iebilde → aber."
       },
       "sectionAccents": {
         "examples": [
@@ -775,7 +781,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "bet"
+                "aga"
               ]
             }
           },
@@ -787,7 +793,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "bet"
+                "aga"
               ]
             }
           },
@@ -799,7 +805,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "taču"
+                "tal"
               ]
             }
           }
@@ -816,7 +822,7 @@ const A1_WORDS = [
                 "aber"
               ],
               "purple": [
-                "bet"
+                "aga"
               ]
             }
           },
@@ -831,7 +837,7 @@ const A1_WORDS = [
                 "sondern"
               ],
               "purple": [
-                "nevis"
+                "mitte"
               ]
             }
           },
@@ -846,7 +852,7 @@ const A1_WORDS = [
                 "jedoch"
               ],
               "purple": [
-                "tomēr"
+                "ist"
               ]
             }
           }
@@ -857,8 +863,8 @@ const A1_WORDS = [
               "aber"
             ],
             "purple": [
-              "pretstats",
-              "iebilde"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -868,8 +874,8 @@ const A1_WORDS = [
               "aber"
             ],
             "purple": [
-              "pretstatu",
-              "iebildi"
+              "aber",
+              "aber"
             ]
           },
           {
@@ -877,86 +883,86 @@ const A1_WORDS = [
               "sondern"
             ],
             "purple": [
-              "nevis",
-              "bet gan"
+              "pretstats",
+              "pretstats"
             ]
           }
         ]
       },
       "important": [
-        "Το aber δείχνει αντίθετο ή αντίρρηση.",
-        "Όταν το αντίθετο είναι \"όχι..., αλλά...\", το sondern χρησιμοποιείται συνήθως στα γερμανικά."
+        "aber rāda pretstatu vai iebildi.",
+        "Ja pretstats ir “nevis..., bet gan...”, vāciski parasti lieto sondern."
       ]
     }
   },
   {
     "de": "achten",
-    "lv": "Να ακολουθήσει",
+    "lv": "Järgima",
     "level": "A1"
   },
   {
     "de": "Adresse",
     "de_article": "die",
     "de_plural": "die Adressen",
-    "lv": "Διεύθυνση",
+    "lv": "Adresse",
     "level": "A1"
   },
   {
     "de": "Affe",
     "de_article": "der",
     "de_plural": "die Affen",
-    "lv": "Μια μαϊμού",
+    "lv": "Oj",
     "level": "A1"
   },
   {
     "de": "Album",
     "de_article": "das",
     "de_plural": "die Alben",
-    "lv": "Άλμπουμ",
+    "lv": "Album",
     "level": "A1"
   },
   {
     "de": "also",
-    "lv": "Επομένως",
+    "lv": "Seega",
     "level": "A1",
     "study": {
       "id": "a1-also",
       "layout": "standardStudy",
-      "translation": "Επομένως",
-      "explanation": "Χρησιμοποιείται για την εξαγωγή συμπερασμάτων ή την εμφάνιση ενός αποτελέσματος. Σημαίνει «άρα», «άρα».",
+      "translation": "Seega",
+      "explanation": "Kasutatakse täätäse täätää või tunuse täämämiseks. Betyr \"seega\", \"järelikult\".",
       "examples": [
         {
           "de": "Es regnet, also bleibe ich zu Hause.",
-          "lv": "Βρέχει, γι' αυτό μένω σπίτι."
+          "lv": "Sajab wimhna, seepåråt jään ma koju."
         },
         {
           "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "Είσαι άρρωστος, γι' αυτό δεν πας στη δουλειά."
+          "lv": "Sa oled haige, seepårät sa ei ähä yobelle."
         },
         {
           "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-          "lv": "Έχω μάθει πολλά, οπότε καταλαβαίνω τώρα."
+          "lv": "Ma olen palju säytanud, seega saan nüüd aru."
         }
       ],
       "comparison": [
         {
           "word": "also",
-          "meaning": "Έτσι • Κατά συνέπεια",
-          "example": "Es regnet, also bleibe ich zu Hause. – Βρέχει, οπότε μένω σπίτι."
+          "meaning": "Seega • Järelikult",
+          "example": "Es regnet, also bleibe ich zu Hause. – Sajab wimhna, ösnikult jään koju."
         },
         {
           "word": "auch",
-          "meaning": "Πολύ",
-          "example": "Ich komme auch. – Θα έρθω κι εγώ."
+          "meaning": "Ka",
+          "example": "Ich komme auch. – Ma tulen ka."
         },
         {
           "word": "deshalb",
-          "meaning": "Επομένως",
-          "example": "Es regnet, deshalb bleibe ich zu Hause. – Βρέχει, οπότε μένω σπίτι."
+          "meaning": "Derfor",
+          "example": "Es regnet, deshalb bleibe ich zu Hause. – Sajab wimhna, seepåråt jään koju."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: συμπέρασμα → επίσης."
+        "text": "Atceries: secinājums → also."
       },
       "sectionAccents": {
         "examples": [
@@ -968,7 +974,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tāpēc"
+                "seepåråt"
               ]
             }
           },
@@ -980,7 +986,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tāpēc"
+                "seepårät"
               ]
             }
           },
@@ -992,7 +998,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tātad"
+                "seega"
               ]
             }
           }
@@ -1009,7 +1015,7 @@ const A1_WORDS = [
                 "also"
               ],
               "purple": [
-                "tātad"
+                "regnet"
               ]
             }
           },
@@ -1024,7 +1030,7 @@ const A1_WORDS = [
                 "auch"
               ],
               "purple": [
-                "arī"
+                "ka"
               ]
             }
           },
@@ -1039,7 +1045,7 @@ const A1_WORDS = [
                 "deshalb"
               ],
               "purple": [
-                "tāpēc"
+                "seepåråt"
               ]
             }
           }
@@ -1050,7 +1056,7 @@ const A1_WORDS = [
               "also"
             ],
             "purple": [
-              "secinājums"
+              "Atceries"
             ]
           }
         },
@@ -1060,7 +1066,7 @@ const A1_WORDS = [
               "also"
             ],
             "purple": [
-              "secinājumu"
+              "also"
             ]
           },
           {
@@ -1068,14 +1074,14 @@ const A1_WORDS = [
               "deshalb"
             ],
             "purple": [
-              "tāpēc"
+              "Latviešu"
             ]
           }
         ]
       },
       "important": [
-        "Δείχνει επίσης ένα συμπέρασμα: η ακόλουθη ιδέα προκύπτει από την προηγούμενη.",
-        "Το εσθονικό «άρα» μπορεί συχνά να είναι και deshalb στα γερμανικά."
+        "also rāda secinājumu: no iepriekš teiktā izriet nākamā doma.",
+        "Latviešu “tāpēc” bieži var būt arī deshalb."
       ]
     }
   },
@@ -1083,167 +1089,167 @@ const A1_WORDS = [
     "de": "Ameise",
     "de_article": "die",
     "de_plural": "die Ameisen",
-    "lv": "Το μυρμήγκι",
+    "lv": "Sive gass",
     "level": "A1"
   },
   {
     "de": "ankommen",
-    "lv": "Να φτάσει",
+    "lv": "Saabuma",
     "level": "A1"
   },
   {
     "de": "anschauen",
-    "lv": "Να δεις",
+    "lv": "Klokke",
     "level": "A1"
   },
   {
     "de": "anziehen",
-    "lv": "Να βάλεις",
+    "lv": "Selg panema",
     "level": "A1"
   },
   {
     "de": "anhalten",
-    "lv": "Να σταματήσει",
+    "lv": "Peatuma",
     "level": "A1"
   },
   {
     "de": "Angst",
     "de_article": "die",
     "de_plural": "die Ängste",
-    "lv": "Φόβος",
+    "lv": "Hirm",
     "level": "A1"
   },
   {
     "de": "angenehm",
-    "lv": "Ευχάριστος",
+    "lv": "Meeldiv",
     "level": "A1"
   },
   {
     "de": "Antenne",
     "de_article": "die",
     "de_plural": "die Antennen",
-    "lv": "Κεραία",
+    "lv": "Antenne",
     "level": "A1"
   },
   {
     "de": "Antwort",
     "de_article": "die",
     "de_plural": "die Antworten",
-    "lv": "Η απάντηση",
+    "lv": "Vastus",
     "level": "A1"
   },
   {
     "de": "antworten",
-    "lv": "Να απαντήσει",
+    "lv": "Vastama",
     "level": "A1"
   },
   {
     "de": "Anzug",
     "de_article": "der",
     "de_plural": "die Anzüge",
-    "lv": "Ένα κοστούμι",
+    "lv": "Ülikond",
     "level": "A1"
   },
   {
     "de": "Apfelbaum",
     "de_article": "der",
     "de_plural": "die Apfelbäume",
-    "lv": "Μηλιά",
+    "lv": "Õunapuu",
     "level": "A1"
   },
   {
     "de": "Apfelsine",
     "de_article": "die",
     "de_plural": "die Apfelsinen",
-    "lv": "Ένα πορτοκάλι",
+    "lv": "Oransje",
     "level": "A1"
   },
   {
     "de": "Aprikose",
     "de_article": "die",
     "de_plural": "die Aprikosen",
-    "lv": "Βερύκοκκο",
+    "lv": "Aprikos",
     "level": "A1"
   },
   {
     "de": "April",
     "de_article": "der",
-    "lv": "Απρίλιος",
+    "lv": "April",
     "level": "A1"
   },
   {
     "de": "Arbeit",
     "de_article": "die",
     "de_plural": "die Arbeiten",
-    "lv": "Εργασία",
+    "lv": "Også",
     "level": "A1"
   },
   {
     "de": "arbeiten",
-    "lv": "Να δουλέψεις",
+    "lv": "Töötama",
     "level": "A1"
   },
   {
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Χέρι",
+    "lv": "Käsi",
     "level": "A1"
   },
   {
     "de": "Armbanduhr",
     "de_article": "die",
     "de_plural": "die Armbanduhren",
-    "lv": "Ρολόι χεριού",
+    "lv": "Käekell",
     "level": "A1"
   },
   {
     "de": "Ärztin",
     "de_article": "die",
     "de_plural": "die Ärztinnen",
-    "lv": "Γυναίκα γιατρός",
+    "lv": "Naisarst",
     "level": "A1"
   },
   {
     "de": "atmen",
-    "lv": "Να αναπνεύσει",
+    "lv": "Hingama",
     "level": "A1"
   },
   {
     "de": "auch",
-    "lv": "Πολύ",
+    "lv": "Ka",
     "level": "A1",
     "study": {
       "id": "a1-auch-study",
       "layout": "standardStudy",
-      "translation": "Πολύ",
+      "translation": "Ka",
       "explanation": [
-        "Κύρια ιδέα: Το πιο συχνό και ουδέτερο «επίσης».",
-        "Auch σημαίνει κυρίως: απλό «επίσης».",
-        "Συχνά περιγράφει: προσθήκη.",
-        "Το auch είναι η πιο κοινή λέξη για το \"επίσης\"."
+        "Põhiidee: Välle sagegasem ja neutrausem \"ka\".",
+        "Auch gejätt säyttä: ääää \"ka\".",
+        "Sagelie speltab: keipendust.",
+        "Også på det vanligste ordet \"ka\"."
       ],
       "examples": [
         {
           "de": "Ich komme auch.",
-          "lv": "Θα έρθω κι εγώ."
+          "lv": "Ma tulen ka."
         },
         {
           "de": "Ich komme auch.",
-          "lv": "Έρχομαι κι εγώ."
+          "lv": "Ma tulen ka."
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "Δουλεύει και εδώ."
+          "lv": "Ta jobben ka siin."
         }
       ],
       "tip": [
-        "Αυχ = επίσης",
-        "Χρησιμοποιήστε τη λέξη auch όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "auch = arī",
+        "Izmanto auch, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Το Ich auch wünsche Ihnen δεν είναι η σωστή σειρά λέξεων.",
-        "Αυχ = επίσης."
+        "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
+        "auch = arī."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1252,10 +1258,10 @@ const A1_WORDS = [
             "auch"
           ],
           "purple": [
-            "arī"
+            "ka"
           ],
           "green": [
-            "Arī"
+            "Ka"
           ]
         },
         "examples": [
@@ -1268,7 +1274,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arī"
+                "ka"
               ]
             }
           },
@@ -1281,7 +1287,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arī"
+                "ka"
               ]
             }
           },
@@ -1294,7 +1300,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "arī"
+                "ka"
               ]
             }
           }
@@ -1302,7 +1308,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "arī"
+              "auch"
             ]
           }
         ],
@@ -1318,46 +1324,46 @@ const A1_WORDS = [
   },
   {
     "de": "auf",
-    "lv": "Επί",
+    "lv": "Peale",
     "level": "A1",
     "study": {
       "id": "a1-auf",
       "layout": "standardStudy",
-      "translation": "Επί",
-      "explanation": "Χρησιμοποιείται για να δείξει κατεύθυνση προς ένα μέρος ή επιφάνεια.",
+      "translation": "Peale",
+      "explanation": "Kasutatakse sūna sūna mikes mingi koha poole või pinna peale.",
       "examples": [
         {
           "de": "Ich stelle das Buch auf den Tisch.",
-          "lv": "Έβαλα το βιβλίο στο τραπέζι."
+          "lv": "Ma panen biibi lauale."
         },
         {
           "de": "Wir fahren auf den Berg.",
-          "lv": "Πάμε στο βουνό."
+          "lv": "Me säväme mäele."
         },
         {
           "de": "Die Katze springt auf das Sofa.",
-          "lv": "Η γάτα πηδά στον καναπέ."
+          "lv": "Kass hüppab diivanile."
         }
       ],
       "comparison": [
         {
           "word": "auf",
-          "meaning": "Επάνω (επιφάνεια ή προς τα πάνω)",
-          "example": "Ich stelle das Glas auf den Tisch. – Έβαλα το ποτήρι στο τραπέζι."
+          "meaning": "Peale (pinnale või ölspoole)",
+          "example": "Ich stelle das Glas auf den Tisch. – Ma panen klaasi lauale."
         },
         {
           "word": "an",
-          "meaning": "Σε (κάθετη επιφάνεια)",
-          "example": "Ich hänge das Bild an die Wand. – Θα κρεμάσω την εικόνα στον τοίχο."
+          "meaning": "Juures (vertikal pinne)",
+          "example": "Ich hänge das Bild an die Wand. – Ma riputan pildi seinela."
         },
         {
           "word": "in",
-          "meaning": "Μέσα",
-          "example": "Ich lege das Buch in die Tasche. – Έβαλα το βιβλίο στην τσάντα."
+          "meaning": "Vi ses",
+          "example": "Ich lege das Buch in die Tasche. – Ma panen kibi kotti."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: στην επιφάνεια → auf."
+        "text": "Atceries: uz virsmas/augšā → auf."
       },
       "sectionAccents": {
         "examples": [
@@ -1369,7 +1375,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz"
+                "panen"
               ]
             }
           },
@@ -1381,7 +1387,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz"
+                "säväme"
               ]
             }
           },
@@ -1393,7 +1399,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz"
+                "kass"
               ]
             }
           }
@@ -1410,7 +1416,7 @@ const A1_WORDS = [
                 "auf"
               ],
               "purple": [
-                "uz"
+                "Ich"
               ]
             }
           },
@@ -1423,7 +1429,7 @@ const A1_WORDS = [
             "example": {
               "green": [
                 "an",
-                "pie"
+                "Ich"
               ]
             }
           },
@@ -1446,11 +1452,11 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "uz"
+              "Atceries"
             ],
             "green": [
-              "virsmas",
-              "augšā"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -1460,11 +1466,11 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "uz"
+              "auf"
             ],
             "green": [
-              "virsmas",
-              "augšpusē"
+              "auf",
+              "auf"
             ]
           },
           {
@@ -1475,100 +1481,100 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "pie",
-              "iekšā"
+              "kaut",
+              "kaut"
             ]
           }
         ]
       },
       "important": [
-        "Το auf δεν είναι μια οποιαδήποτε «κορυφή». Συχνά σημαίνει ότι κινείστε ή βρίσκεστε πάνω/πάνω από την επιφάνεια.",
-        "Όταν κάτι βρίσκεται απέναντι από μια κατακόρυφη επιφάνεια, συχνά χρειάζεται ένα. εάν μέσα, χρειάζεται μέσα."
+        "auf nav vienkārši jebkurš “uz”. Tas bieži nozīmē kustību vai atrašanos uz virsmas/augšpusē.",
+        "Ja kaut kas ir pie vertikālas virsmas, bieži vajag an; ja iekšā, vajag in."
       ]
     }
   },
   {
     "de": "aufmachen",
-    "lv": "Να ανοίξει",
+    "lv": "Avama",
     "level": "A1"
   },
   {
     "de": "aufpassen",
-    "lv": "Να προσέχεις",
+    "lv": "Ettevaatlik olema",
     "level": "A1"
   },
   {
     "de": "aufstehen",
-    "lv": "Να σηκωθεί",
+    "lv": "Püsti nousma",
     "level": "A1"
   },
   {
     "de": "aufwärts",
-    "lv": "Προς τα πάνω",
+    "lv": "Ülespoole",
     "level": "A1"
   },
   {
     "de": "Auge",
     "de_article": "das",
     "de_plural": "die Augen",
-    "lv": "Το μάτι",
+    "lv": "Silm",
     "level": "A1"
   },
   {
     "de": "Augenblick",
     "de_article": "der",
     "de_plural": "die Augenblicke",
-    "lv": "Μια στιγμή",
+    "lv": "Varm",
     "level": "A1"
   },
   {
     "de": "August",
     "de_article": "der",
-    "lv": "Αύγουστος",
+    "lv": "August",
     "level": "A1"
   },
   {
     "de": "aus",
-    "lv": "Από • Έξω",
+    "lv": "-st • Velg",
     "level": "A1",
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "Από • Έξω",
-      "explanation": "Χρησιμοποιείται όταν κάτι έρχεται από μέσα, βγαίνει ή υποδηλώνει προέλευση.",
+      "translation": "-st • Velg",
+      "explanation": "Kasutatakse, kui miski tulb seestaamt, tulb velge või utstab pakurisile.",
       "examples": [
         {
           "de": "Ich komme aus Deutschland.",
-          "lv": "Ειμαι απο γερμανια."
+          "lv": "Ma olen Samsaalt."
         },
         {
           "de": "Er geht aus dem Haus.",
-          "lv": "Βγαίνει από το σπίτι."
+          "lv": "Ta majast majast velg."
         },
         {
           "de": "Ich nehme das Buch aus der Tasche.",
-          "lv": "Βγάζω το βιβλίο από την τσάντα."
+          "lv": "Ma vőn bőbő kotist velge."
         }
       ],
       "comparison": [
         {
           "word": "aus",
-          "meaning": "Μέσα, μέσα έξω",
-          "example": "aus dem Haus – Από το σπίτι"
+          "meaning": "Seest, seest velg",
+          "example": "aus dem Haus – Mest sannsynlig"
         },
         {
           "word": "von",
-          "meaning": "Από πρόσωπο, τόπο, επιφάνεια",
-          "example": "von meinem Freund – Από τον φίλο μου"
+          "meaning": "Iskald, kald kald, pinnekald",
+          "example": "von meinem Freund – Min venn"
         },
         {
           "word": "ab",
-          "meaning": "Από ένα σημείο ή χρόνο",
-          "example": "ab Montag – Από Δευτέρα"
+          "meaning": "Alates punkst või ajast",
+          "example": "ab Montag – God påske"
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: μέσα προς τα έξω → ειλικρινής."
+        "text": "Atceries: ārā no iekšienes → aus."
       },
       "sectionAccents": {
         "examples": [
@@ -1580,7 +1586,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no"
+                "olen"
               ]
             }
           },
@@ -1592,7 +1598,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no"
+                "majast"
               ]
             }
           },
@@ -1604,7 +1610,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no"
+                "vőn"
               ]
             }
           }
@@ -1621,7 +1627,7 @@ const A1_WORDS = [
                 "aus"
               ],
               "purple": [
-                "no"
+                "aus"
               ]
             }
           },
@@ -1636,7 +1642,7 @@ const A1_WORDS = [
                 "von"
               ],
               "purple": [
-                "no"
+                "von"
               ]
             }
           },
@@ -1651,7 +1657,7 @@ const A1_WORDS = [
                 "ab"
               ],
               "purple": [
-                "no"
+                "Montag"
               ]
             }
           }
@@ -1662,7 +1668,7 @@ const A1_WORDS = [
               "aus"
             ],
             "purple": [
-              "ārā no iekšienes"
+              "Atceries"
             ]
           }
         },
@@ -1672,8 +1678,8 @@ const A1_WORDS = [
               "aus"
             ],
             "purple": [
-              "ārā no iekšienes",
-              "izcelsmi"
+              "aus",
+              "aus"
             ]
           },
           {
@@ -1681,112 +1687,112 @@ const A1_WORDS = [
               "ab"
             ],
             "purple": [
-              "sākuma punktu"
+              "runa"
             ]
           }
         ]
       },
       "important": [
-        "Aus συνήθως υποδηλώνει κίνηση από μέσα προς τα έξω ή από την αρχή.",
-        "Εάν πρόκειται μόνο για ένα σημείο εκκίνησης σε χρόνο ή τόπο, χρησιμοποιείται συχνά το ab."
+        "aus parasti rāda kustību ārā no iekšienes vai izcelsmi.",
+        "Ja runa ir tikai par sākuma punktu laikā vai vietā, bieži lieto ab."
       ]
     }
   },
   {
     "de": "auf dem Boden",
-    "lv": "Στο πάτωμα",
+    "lv": "Põrandal",
     "level": "A1"
   },
   {
     "de": "auf dem Bahnhof",
-    "lv": "Στο σταθμό",
+    "lv": "James",
     "level": "A1"
   },
   {
     "de": "aufs",
-    "lv": "Στο • Τέλος • Πού • ",
+    "lv": "Peale • Otsa • Kuhu?",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "Στο • Τέλος • Πού • ",
+      "translation": "Peale • Otsa • Kuhu?",
       "explanation": [
-        "Το aufs είναι σύντομο για την πρόθεση auf και το άρθρο das.",
-        "Πλήρης μορφή: auf das (Κατηγορούμενο).",
-        "Χρησιμοποιείται όταν η δράση υποδεικνύει μια κατεύθυνση προς ένα συγκεκριμένο πράγμα ή επιφάνεια — απαντά στην ερώτηση πού • ",
-        "Συχνά χρησιμοποιείται με κίνηση: σκαρφαλώστε, καθίστε, τοποθετήστε, καβάλα σε κάτι.",
-        "Στην καθομιλουμένη και στην καθημερινή ζωή, το aufs χρησιμοποιείται σχεδόν πάντα αντί για την πλήρη μορφή auf das."
+        "Aufs on eessõna auf ja artikli das lühend.",
+        "Täisform: auf das (akkusativ).",
+        "Kasutatakse, kui taksi vejde suunda kindla asja või pinna poole — västät säusulele kuhu?",
+        "Ofte brukt til koos bevegelse: peale ronima, istuma, asetama, millegi peale judma.",
+        "Kõnekeeles ja igapäueelus brukes nesten alati aufs, mitte täisvormi auf das."
       ],
       "examples": [
         {
           "de": "Ich gehe aufs Dach.",
-          "lv": "Πάω στην ταράτσα."
+          "lv": "Ma þen katusele."
         },
         {
           "de": "Sie setzt sich aufs Sofa.",
-          "lv": "Κάθεται στον καναπέ."
+          "lv": "Ta istub diivanile."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "Πάμε στη χώρα."
+          "lv": "Me säwäme maale."
         },
         {
           "de": "Stell die Tasche aufs Bett.",
-          "lv": "Βάλε την τσάντα στο κρεβάτι."
+          "lv": "Panel kott voodile."
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Ανεβαίνει στο άλογο."
+          "lv": "Ta ronib hobuse selga."
         },
         {
           "de": "Leg das Buch aufs Regal.",
-          "lv": "Βάλτε το βιβλίο στο ράφι."
+          "lv": "Panel raamat riiulile."
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "Έλα γρήγορα στο καράβι!"
+          "lv": "Kom igjen snart!"
         },
         {
           "de": "Wir gehen aufs Fest.",
-          "lv": "Πάμε σε ένα πάρτι."
+          "lv": "Me ähme peole."
         }
       ],
       "comparison": [
         {
           "word": "aufs",
-          "meaning": "Σε ένα ορισμένο πράγμα (Ακκ.)",
-          "example": "aufs Dach – Στην οροφή"
+          "meaning": "Kindlale asjale (Akk.)",
+          "example": "aufs Dach – Kattesele"
         },
         {
           "word": "auf",
-          "meaning": "Προς την επιφάνεια ή προς τα πάνω",
-          "example": "auf den Tisch – Στο τραπέζι"
+          "meaning": "Pinnale või ölspoole",
+          "example": "auf den Tisch – Lovlig"
         },
         {
           "word": "an",
-          "meaning": "Στην κατακόρυφη επιφάνεια",
-          "example": "an die Wand – Στον τοίχο"
+          "meaning": "Vertikal rot",
+          "example": "an die Wand – Signal"
         },
         {
           "word": "ins",
-          "meaning": "Μέσα (στο δωμάτιο)",
-          "example": "ins Zimmer – Στο δωμάτιο"
+          "meaning": "Sissy (ruumi sisse)",
+          "example": "ins Zimmer – Hane"
         },
         {
           "word": "zum",
-          "meaning": "Προς / προς (Dative)",
-          "example": "zum Arzt – Στο γιατρο"
+          "meaning": "-sse / sse (dativ)",
+          "example": "zum Arzt – Lege i medisin"
         }
       ],
       "tip": [
-        "Θυμηθείτε: auf + das → aufs (Κατηγορητικό, πού • ).",
-        "Το πλήρες auf das δεν ομιλείται σχεδόν ποτέ στην καθομιλουμένη — χρησιμοποιείται aufs."
+        "Atceries: auf + das → aufs (kurp?, kurp?).",
+        "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
       ],
       "important": [
-        "Aufs = auf das, μόνο με ουδέτερο ουσιαστικό στο Κατηγορούμενο.",
-        "Απαντάει στην ερώτηση πού • — μετακίνηση σε συγκεκριμένο μέρος ή επιφάνεια.",
-        "Σε μια οριζόντια επιφάνεια, το auf den χρησιμοποιείται συχνά αντί για aufs.",
-        "Δεν πρέπει να συγχέεται με ένα (από τον τοίχο) ή μέσα (στο δωμάτιο)."
+        "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
+        "Atbild uz kurp? — kustība uz konkrētu vietu vai virsmu.",
+        "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
+        "Nesajauc ar an (pie sienas) vai ins (iekš telpas)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1795,13 +1801,13 @@ const A1_WORDS = [
             "auf das"
           ],
           "purple": [
-            "uz",
-            "virsmu",
-            "kurp?"
+            "peale",
+            "peale",
+            "kuhu?"
           ],
           "green": [
-            "kurp?",
-            "kustību"
+            "kuhu?",
+            "Aufs"
           ]
         },
         "examples": [
@@ -1813,7 +1819,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz jumta"
+                "katusele"
               ]
             }
           },
@@ -1825,7 +1831,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz dīvāna"
+                "diivanile"
               ]
             }
           },
@@ -1837,7 +1843,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz laukiem"
+                "maale"
               ]
             }
           },
@@ -1849,7 +1855,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz gultas"
+                "voodile"
               ]
             }
           },
@@ -1861,7 +1867,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz zirga"
+                "hobuse"
               ]
             }
           },
@@ -1873,7 +1879,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz plaukta"
+                "riiulile"
               ]
             }
           },
@@ -1885,7 +1891,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz laivas"
+                "Kom"
               ]
             }
           },
@@ -1897,7 +1903,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz svinībām"
+                "peole"
               ]
             }
           }
@@ -1911,7 +1917,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz konkrētu lietu"
+                "kindlale asjale"
               ]
             },
             "example": {
@@ -1928,7 +1934,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz virsmu"
+                "pinnale"
               ]
             },
             "example": {
@@ -1945,7 +1951,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "Vertikal"
               ]
             },
             "example": {
@@ -1962,7 +1968,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz iekšu"
+                "sisse"
               ]
             },
             "example": {
@@ -1979,8 +1985,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "sse",
+                "sse"
               ]
             },
             "example": {
@@ -1996,7 +2002,7 @@ const A1_WORDS = [
               "aufs"
             ],
             "purple": [
-              "kurp?"
+              "Atceries"
             ]
           },
           {
@@ -2014,15 +2020,15 @@ const A1_WORDS = [
               "auf das"
             ],
             "green": [
-              "kurp?"
+              "aufs"
             ]
           },
           {
             "purple": [
-              "kurp?"
+              "Atbild"
             ],
             "green": [
-              "kustība"
+              "Atbild"
             ]
           },
           {
@@ -2049,111 +2055,111 @@ const A1_WORDS = [
     "de": "Augenbraue",
     "de_article": "die",
     "de_plural": "die Augenbrauen",
-    "lv": "Φρύδι",
+    "lv": "Klimaks",
     "level": "A1"
   },
   {
     "de": "Augenfarbe",
     "de_article": "die",
     "de_plural": "die Augenfarben",
-    "lv": "Χρώμα ματιών",
+    "lv": "Silmed sving",
     "level": "A1"
   },
   {
     "de": "Auto",
     "de_article": "das",
     "de_plural": "die Autos",
-    "lv": "Αυτοκίνητο",
+    "lv": "Bil",
     "level": "A1"
   },
   {
     "de": "Bad",
     "de_article": "das",
     "de_plural": "die Bäder",
-    "lv": "Τουαλέτα",
+    "lv": "Badestamp",
     "level": "A1"
   },
   {
     "de": "Badezimmer",
     "de_article": "das",
     "de_plural": "die Badezimmer",
-    "lv": "Τουαλέτα",
+    "lv": "Badestamp",
     "level": "A1"
   },
   {
     "de": "Schwimmbad",
     "de_article": "das",
     "de_plural": "die Schwimmbäder",
-    "lv": "Πισίνα",
+    "lv": "Ujumis basseng",
     "level": "A1"
   },
   {
     "de": "Sauna",
     "de_article": "die",
     "de_plural": "die Saunen",
-    "lv": "Σάουνα",
+    "lv": "Badstue",
     "level": "A1"
   },
   {
     "de": "baden",
-    "lv": "Να κάνει μπάνιο",
+    "lv": "Kosttilskudd",
     "level": "A1",
     "study": {
       "id": "a1-baden",
       "layout": "standardStudy",
-      "translation": "Να κάνει μπάνιο",
+      "translation": "Kosttilskudd",
       "explanation": [
-        "Κύρια ιδέα: baden σημαίνει να λούζεσαι, να είσαι στο νερό ή να απολαμβάνεις το νερό.",
-        "Το baden χρησιμοποιείται όταν μιλάμε για διακοπές στο νερό, στη λίμνη, στη θάλασσα ή στην πισίνα.",
-        "Baden μπορεί επίσης να σημαίνει μπάνιο.",
-        "Όταν δίνεται έμφαση στις ίδιες τις κολυμβητικές κινήσεις ή στο άθλημα, το schwimmen χρησιμοποιείται συχνότερα στα γερμανικά."
+        "Hovedidé: bading betyr suplema, vees olema või vett nautima.",
+        "Bad brukes, kui jutt på vees, järves, meres või bainsinis.",
+        "Bade sämätätä ka vannis käimist.",
+        "Kui päväg på ujumisgekustel endil või spordil, säksa keeles keeles schwimmen oftere."
       ],
       "examples": [
         {
           "de": "Ich gehe baden.",
-          "lv": "Πάω να κολυμπήσω."
+          "lv": "Ma þen ujuma."
         },
         {
           "de": "Wir gehen im See baden.",
-          "lv": "Θα κολυμπήσουμε στη λίμνη."
+          "lv": "Me ähme järve ujuma."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Κολυμπάει πολύ καλά."
+          "lv": "Ta ujub vekt godt."
         },
         {
           "de": "Ich schwimme jeden Montag.",
-          "lv": "Πηγαίνω για μπάνιο κάθε Δευτέρα."
+          "lv": "Ma käin igal esmaspögel ujumas."
         }
       ],
       "comparison": [
         {
           "word": "baden",
-          "meaning": "Να λούζεσαι / να είσαι στο νερό / να πλυθείς",
+          "meaning": "Suplema / vees olema / end pesema",
           "example": "Ich gehe baden."
         },
         {
           "word": "schwimmen",
-          "meaning": "Κολύμπι ως άσκηση ή άθλημα",
+          "meaning": "Ujuma bevegelsene või spordina",
           "example": "Er schwimmt sehr gut."
         },
         {
           "word": "duschen",
-          "meaning": "Κάνε ένα ντους",
+          "meaning": "Duši all käima",
           "example": "Ich dusche am Morgen."
         },
         {
           "word": "schwimmen gehen",
-          "meaning": "Πηγαίνετε για κολύμπι",
+          "meaning": "Gå bort",
           "example": "Ich gehe heute schwimmen."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: διακοπές στο νερό → Baden • Κολυμβητική κίνηση → swimmen."
+        "text": "Atceries: atpūta ūdenī → baden; peldēšanas kustība → schwimmen."
       },
       "important": [
-        "Το baden και το schwimmen δεν είναι συνώνυμα.",
-        "Στα εσθονικά, συχνά λέτε απλώς \"να κολυμπήσετε\", αλλά στα γερμανικά πρέπει να επιλέξετε ανάλογα με την κατάσταση."
+        "baden un schwimmen nav sinonīmi.",
+        "Latviski bieži saka vienkārši “peldēt”, bet vācu valodā jāizvēlas pēc situācijas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2161,20 +2167,20 @@ const A1_WORDS = [
             "baden"
           ],
           "purple": [
-            "peldēties",
-            "atrasties ūdenī",
-            "baudīt ūdeni",
-            "mazgāties vannā"
+            "suplema",
+            "vees olema",
+            "vett nautima",
+            "vannis käimist"
           ],
           "green": [
-            "ezerā",
-            "jūrā",
-            "baseinā"
+            "järves",
+            "meres",
+            "bainsinis"
           ],
           "red": [
             "schwimmen",
-            "peldēšanas kustību",
-            "sportu"
+            "ujumisgekustel",
+            "spordil"
           ]
         },
         "examples": [
@@ -2186,7 +2192,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peldēties"
+                "þen"
               ]
             }
           },
@@ -2201,10 +2207,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peldēties"
+                "ähme"
               ],
               "green": [
-                "ezerā"
+                "järve"
               ]
             }
           },
@@ -2216,7 +2222,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "peld"
+                "ujub"
               ]
             }
           },
@@ -2228,7 +2234,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "eju peldēt"
+                "käin"
               ]
             }
           }
@@ -2242,9 +2248,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peldēties",
-                "atrasties ūdenī",
-                "mazgāties"
+                "suplema",
+                "vees olema",
+                "end pesema"
               ]
             },
             "example": {
@@ -2261,9 +2267,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peldēt",
-                "kustība",
-                "sports"
+                "ujuma",
+                "Ujuma",
+                "spordina"
               ]
             },
             "example": {
@@ -2280,7 +2286,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mazgāties dušā"
+                "duši all käima"
               ]
             },
             "example": {
@@ -2297,7 +2303,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iet peldēt"
+                "bort"
               ]
             },
             "example": {
@@ -2313,11 +2319,11 @@ const A1_WORDS = [
               "baden"
             ],
             "purple": [
-              "atpūta ūdenī"
+              "Atceries"
             ],
             "red": [
               "schwimmen",
-              "peldēšanas kustība"
+              "Atceries"
             ]
           }
         },
@@ -2332,13 +2338,13 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "peldēt"
+              "Latviski"
             ],
             "blue": [
-              "vācu valodā"
+              "Latviski"
             ],
             "red": [
-              "situācijas"
+              "Latviski"
             ]
           }
         ]
@@ -2347,103 +2353,103 @@ const A1_WORDS = [
   },
   {
     "de": "bald",
-    "lv": "Σύντομα",
+    "lv": "Skynd deg",
     "level": "A1"
   },
   {
     "de": "Balkon",
     "de_article": "der",
     "de_plural": "die Balkons",
-    "lv": "Μπαλκόνι",
+    "lv": "Rõdu",
     "level": "A1"
   },
   {
     "de": "Ball",
     "de_article": "der",
     "de_plural": "die Bälle",
-    "lv": "Η μπάλα",
+    "lv": "Krakk",
     "level": "A1"
   },
   {
     "de": "Banane",
     "de_article": "die",
     "de_plural": "die Bananen",
-    "lv": "Μπανάνα",
+    "lv": "Bananen",
     "level": "A1"
   },
   {
     "de": "Bauch",
     "de_article": "der",
     "de_plural": "die Bäuche",
-    "lv": "Στομάχι",
+    "lv": "Köht",
     "level": "A1"
   },
   {
     "de": "Baum",
     "de_article": "der",
     "de_plural": "die Bäume",
-    "lv": "Ένα δέντρο",
+    "lv": "Bæsj",
     "level": "A1"
   },
   {
     "de": "bedeuten",
-    "lv": "Να σημαίνει",
+    "lv": "Tähendama",
     "level": "A1"
   },
   {
     "de": "Erdbeere",
     "de_article": "die",
     "de_plural": "die Erdbeeren",
-    "lv": "Φράουλα",
+    "lv": "Maasika sin",
     "level": "A1"
   },
   {
     "de": "beginnen",
-    "lv": "Για να ξεκινήσετε",
+    "lv": "Alustama",
     "level": "A1"
   },
   {
     "de": "bei",
-    "lv": "Στο",
+    "lv": "Juures",
     "level": "A1",
     "study": {
       "id": "a1-bei",
       "layout": "standardStudy",
-      "translation": "Στο",
-      "explanation": "Χρησιμοποιείται όταν κάτι βρίσκεται σε ένα άτομο, οργανισμό ή μέρος ή συμβαίνει υπό ορισμένες συνθήκες.",
+      "translation": "Juures",
+      "explanation": "Kasutatakse, kui miski asub isiku, organizazione või koha kururus või svetka svet sõidite stipends.",
       "examples": [
         {
           "de": "Ich bin bei meinem Freund.",
-          "lv": "Είμαι με τον φίλο μου."
+          "lv": "Ma olen oma sälä kuräse."
         },
         {
           "de": "Sie arbeitet bei Siemens.",
-          "lv": "Εργάζεται στη Siemens."
+          "lv": "Ta verk Siemensis."
         },
         {
           "de": "Bei Regen bleiben wir zu Hause.",
-          "lv": "Αν βρέξει, μένουμε σπίτι."
+          "lv": "Vihma corral jääme koju."
         }
       ],
       "comparison": [
         {
           "word": "bei",
-          "meaning": "Με πρόσωπο, εταιρεία ή υπό ορισμένες προϋποθέσεις",
-          "example": "Ich bin bei meiner Schwester. – Είμαι με την αδερφή μου."
+          "meaning": "Isiku, i selskapets lokaler eller under visse betingelser",
+          "example": "Ich bin bei meiner Schwester. – Ma olen oma õe kures."
         },
         {
           "word": "an",
-          "meaning": "Από τον τοίχο, άκρη, ακτή, επιφάνεια",
-          "example": "Das Bild hängt an der Wand. – Η εικόνα κρέμεται στον τοίχο."
+          "meaning": "Seina, server, kald, pinna vääres",
+          "example": "Das Bild hängt an der Wand. – Pilt ripub not."
         },
         {
           "word": "zu",
-          "meaning": "Πηγαίνω σε κάποιον (κατεύθυνση)",
-          "example": "Ich gehe zu meinem Freund. – Πάω στον φίλο μου."
+          "meaning": "Kellegi tere minnakse (suund)",
+          "example": "Ich gehe zu meinem Freund. – Bring vennene dine nærmere."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: σε άτομο/τόπο/εταιρεία → bei."
+        "text": "Atceries: pie cilvēka/vietas/uzņēmuma → bei."
       },
       "sectionAccents": {
         "examples": [
@@ -2507,9 +2513,9 @@ const A1_WORDS = [
               "bei"
             ],
             "green": [
-              "cilvēka",
-              "vietas",
-              "uzņēmuma"
+              "Atceries",
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -2519,9 +2525,9 @@ const A1_WORDS = [
               "bei"
             ],
             "green": [
-              "cilvēka",
-              "vietas",
-              "uzņēmumā"
+              "bei",
+              "bei",
+              "bei"
             ]
           },
           {
@@ -2532,140 +2538,140 @@ const A1_WORDS = [
               "bei"
             ],
             "purple": [
-              "uz virsmu"
+              "runa"
             ]
           }
         ]
       },
       "important": [
-        "Bei σημαίνει συχνά σε ένα άτομο, σε ένα μέρος ή σε μια εταιρεία.",
-        "Όταν πρόκειται να μετακινηθείτε στην επιφάνεια, συνήθως χρειάζεστε auf, όχι bei."
+        "bei bieži nozīmē pie cilvēka, pie vietas vai uzņēmumā.",
+        "Ja runa ir par kustību uz virsmu, parasti vajag auf, nevis bei."
       ]
     }
   },
   {
     "de": "beide",
-    "lv": "Και οι δύο",
+    "lv": "Begge to",
     "level": "A1"
   },
   {
     "de": "Bein",
     "de_article": "das",
     "de_plural": "die Beine",
-    "lv": "Πόδι",
+    "lv": "Jakt",
     "level": "A1"
   },
   {
     "de": "Beispiel",
     "de_article": "das",
     "de_plural": "die Beispiele",
-    "lv": "Παράδειγμα",
+    "lv": "Nei",
     "level": "A1"
   },
   {
     "de": "bekommen",
-    "lv": "Να πάρει",
+    "lv": "Saama",
     "level": "A1"
   },
   {
     "de": "benutzen",
-    "lv": "Για χρήση",
+    "lv": "Kasutama",
     "level": "A1"
   },
   {
     "de": "Berg",
     "de_article": "der",
     "de_plural": "die Berge",
-    "lv": "Βουνό",
+    "lv": "Mägi",
     "level": "A1"
   },
   {
     "de": "besser",
-    "lv": "Καλύτερα",
+    "lv": "Parem",
     "level": "A1"
   },
   {
     "de": "beste",
-    "lv": "Το καλύτερο",
+    "lv": "Parim",
     "level": "A1"
   },
   {
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Μια επίσκεψη",
+    "lv": "Külaskaik",
     "level": "A1"
   },
   {
     "de": "Besucher",
     "de_article": "der",
     "de_plural": "die Besucher",
-    "lv": "Επισκέπτης",
+    "lv": "Külastaja",
     "level": "A1"
   },
   {
     "de": "besuchen",
-    "lv": "Να επισκεφθείτε • Να επισκεφθείτε",
+    "lv": "Külastama • Kulla minema",
     "level": "A1"
   },
   {
     "de": "Bett",
     "de_article": "das",
     "de_plural": "die Betten",
-    "lv": "Κρεβάτι",
+    "lv": "Woody",
     "level": "A1"
   },
   {
     "de": "bis",
-    "lv": "Μέχρι",
+    "lv": "Kuni",
     "level": "A1",
     "study": {
       "id": "a1-bis",
       "layout": "standardStudy",
-      "translation": "Μέχρι",
-      "explanation": "Υποδεικνύει ένα όριο, ένα χρονικό σημείο ή μια συνθήκη.",
+      "translation": "Kuni",
+      "explanation": "Osutab izile piirile, ajahetkele või sitiweele.",
       "examples": [
         {
           "de": "Ich warte bis zu deiner Ankunft.",
-          "lv": "Θα περιμένω την άφιξή σας."
+          "lv": "Ma ootan sinu saabumiseni."
         },
         {
           "de": "Bleib hier, bis ich zurückkomme.",
-          "lv": "Μείνε εδώ μέχρι να επιστρέψω."
+          "lv": "Jää siia, kuni ma takasi tulen."
         },
         {
           "de": "Ich lerne Deutsch bis zum Abend.",
-          "lv": "Μαθαίνω γερμανικά μέχρι το βράδυ."
+          "lv": "Ma õbin saksa keet oõhtuni."
         },
         {
           "de": "Bis jetzt habe ich nichts verstanden.",
-          "lv": "Μεχρι στιγμης δεν εχω καταλαβει τιποτα."
+          "lv": "Siiani pole ma magadi aru sääu."
         }
       ],
       "comparison": [
         {
           "word": "bis",
-          "meaning": "Μέχρι (φτάσετε στο χρονικό σημείο)",
-          "example": "Ich bleibe bis 18 Uhr. – Θα μείνω μέχρι τις 18:00."
+          "meaning": "Kuni",
+          "example": "Ich bleibe bis 18 Uhr. – Ma jään kuni kell 18:00."
         },
         {
           "word": "bis ... zu",
-          "meaning": "Μέχρι (μέχρι ορισμένο χρόνο)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – Δουλεύω από τις 9 το πρωί έως τις 5 το απόγευμα."
+          "meaning": "Kuni (kuni kindla ajani)",
+          "example": "Ich arbeite von 9 bis 17 Uhr. – Du."
         },
         {
           "word": "bis dass",
-          "meaning": "Μέχρι, μέχρι",
-          "example": "Ich warte, bis dass du kommst. – Σε περιμένω να έρθεις."
+          "meaning": "Seni, kuni",
+          "example": "Ich warte, bis dass du kommst. – Det er bare å gjøre det."
         },
         {
           "word": "bis jetzt",
-          "meaning": "Μέχρι τώρα, μέχρι σήμερα",
-          "example": "Bis jetzt ist alles gut. – Μέχρι εδώ καλά."
+          "meaning": "Siiani, tänase päusini",
+          "example": "Bis jetzt ist alles gut. – Siiani on käis hästä."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: όριο σε χρόνο/κατάσταση → bis."
+        "text": "Atceries: robeža laikā/nosacījumā → bis."
       },
       "sectionAccents": {
         "examples": [
@@ -2746,9 +2752,9 @@ const A1_WORDS = [
               "bis"
             ],
             "green": [
-              "robeža",
-              "laikā",
-              "nosacījumā"
+              "Atceries",
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -2758,8 +2764,8 @@ const A1_WORDS = [
               "bis"
             ],
             "green": [
-              "robežai",
-              "laika punktam"
+              "bis",
+              "bis"
             ]
           },
           {
@@ -2768,76 +2774,76 @@ const A1_WORDS = [
               "bis dass"
             ],
             "purple": [
-              "līdz šim",
-              "līdz tam, kamēr"
+              "bis",
+              "bis"
             ]
           }
         ]
       },
       "important": [
-        "Bis = σε ένα όριο ή χρονικό σημείο.",
-        "Bis jetzt = μέχρι τώρα • Bis dass = μέχρι την ώρα που."
+        "bis = līdz robežai vai laika punktam.",
+        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr."
       ]
     }
   },
   {
     "de": "bisschen",
-    "lv": "Λίγο",
+    "lv": "Natttid",
     "level": "A1"
   },
   {
     "de": "bitte",
-    "lv": "Παρακαλώ",
+    "lv": "Palun",
     "level": "A1",
     "study": {
       "id": "a1-bitte",
       "layout": "standardStudy",
-      "translation": "Παρακαλώ",
+      "translation": "Palun",
       "explanation": [
-        "Κύρια ιδέα: Μια ευγενική λέξη με μικρό αρχικό γράμμα. Χρησιμοποιείται για να εκφράσει ευγένεια — παρακαλώ.",
-        "Bitt σημαίνει κυρίως: ευγένεια.",
-        "Συχνά περιγράφει: μια ευγενική λέξη.",
-        "Bitt σημαίνει κυρίως: αίτημα/αίτηση.",
-        "Συχνά περιγράφει: ουσιαστικό (πεθάνει).",
-        "Bitte με πεζό γράμμα είναι μια ευγενική λέξη — σημαίνει παρακαλώ (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte με κεφαλαίο γράμμα και το άρθρο die είναι ουσιαστικό — σημαίνει αίτημα ή ευχή (Ich habe eine Bitte = έχω ένα αίτημα).",
-        "Πληθυντικός: die Bitten."
+        "Põhiidee: Viisakussõna knejse algustähega. Kasutatakse viisakuse ekspretamieks — palun.",
+        "Bitte gejättä säytä: viisakus.",
+        "Sägeli sägeliktab: viisakussõna.",
+        "Bitte jäätä ääää: palve/näudmine.",
+        "Sägeli ekpretab: nimisõna (dø).",
+        "Bitte knejse algustähega på viisakussõna — se jähä palun (Bite schön!, Eine Tasse Kaffee, bitte).",
+        "Die Bitte suure algustähega ja artikliga die on nimisõna — se gejnej palvet või søi (Ich habe eine Bitte = mul on üks palve).",
+        "Mitmuser: dø Bitten."
       ],
       "examples": [
         {
           "de": "Bitte schön!",
-          "lv": "Παρακαλώ!"
+          "lv": "Palun!"
         },
         {
           "de": "Bitte schön!",
-          "lv": "Παρακαλώ!"
+          "lv": "Palun!"
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Ένα φλιτζάνι καφέ, παρακαλώ."
+          "lv": "Üks tass kaffi, palun."
         },
         {
           "de": "Kann ich bitte fragen?",
-          "lv": "Μπορώ να ρωτήσω παρακαλώ"
+          "lv": "Hva skal du gjøre?"
         },
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Έχω ένα αίτημα."
+          "lv": "Mul på üks palve."
         },
         {
           "de": "Die Bitte ist wichtig.",
-          "lv": "Η προσευχή είναι σημαντική."
+          "lv": "Palve på viktig."
         }
       ],
       "tip": [
-        "Little bitte = παρακαλώ (Bitte schön!, Kaffee, bitte). die Bitte με κεφαλαίο = προσευχή (eine Bitte, meine Bitte).",
-        "Ευγενική παραχώρηση με μια μικρή αρχική επιστολή. Κάποτε ήταν ευγενικός — παρακαλώ."
+        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
+        "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu."
       ],
       "important": [
-        "Το bit γράφεται με πεζό γράμμα — είναι ευγενική λέξη, όχι ουσιαστικό.",
-        "Die Bitte με κεφαλαίο γράμμα και το άρθρο die είναι ουσιαστικό.",
-        "Πληθυντικός: die Bitten (προσευχές).",
-        "Λάθος: Die Bitte schön! → Σωστό: Bitte schön!"
+        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
+        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
+        "Daudzskaitlis: die Bitten (lūgumi).",
+        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -2845,7 +2851,7 @@ const A1_WORDS = [
             "bitte"
           ],
           "purple": [
-            "lūdzu"
+            "palun"
           ]
         },
         "examples": [
@@ -2858,7 +2864,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lūdzu"
+                "palun"
               ]
             }
           },
@@ -2871,7 +2877,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lūdzu"
+                "palun"
               ]
             }
           },
@@ -2884,7 +2890,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lūdzu"
+                "palun"
               ]
             }
           },
@@ -2897,7 +2903,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lūdzu"
+                "Hva"
               ]
             }
           },
@@ -2908,7 +2914,11 @@ const A1_WORDS = [
                 "bitte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "palve"
+              ]
+            }
           },
           {
             "de": {
@@ -2917,13 +2927,17 @@ const A1_WORDS = [
                 "bitte"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "palve"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "lūdzu"
+              "Mazais"
             ]
           }
         ],
@@ -2941,57 +2955,57 @@ const A1_WORDS = [
     "de": "Bitte",
     "de_article": "die",
     "de_plural": "die Bitten",
-    "lv": "Προσευχή",
+    "lv": "Palve",
     "level": "A1",
     "study": {
       "id": "a1-bitte-study",
       "layout": "standardStudy",
-      "translation": "Προσευχή",
+      "translation": "Palve",
       "explanation": [
-        "Κύρια ιδέα: Ένα ουσιαστικό με το άρθρο die και ένα κεφαλαίο γράμμα. Ένα συγκεκριμένο αίτημα ή αίτημα.",
-        "Die Bitte σημαίνει κυρίως: ευγένεια.",
-        "Συχνά περιγράφει: μια ευγενική λέξη.",
-        "Die Bitte σημαίνει κυρίως: αίτημα/ευχή.",
-        "Συχνά περιγράφει: ουσιαστικό (πεθάνει).",
-        "Bitte με πεζό γράμμα είναι μια ευγενική λέξη — σημαίνει παρακαλώ (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte με κεφαλαίο γράμμα και το άρθρο die είναι ουσιαστικό — σημαίνει αίτημα ή ευχή (Ich habe eine Bitte = έχω ένα αίτημα).",
-        "Πληθυντικός: die Bitten."
+        "Põhiidee: Nimisõna artikliga die ja suure algustähega. Konkreetne palve või tautlus.",
+        "Die Bitte geschäfte sichten: viisakus.",
+        "Sägeli sägeliktab: viisakussõna.",
+        "Die Bitte gejättättä: palve/soov.",
+        "Sägeli ekpretab: nimisõna (dø).",
+        "Bitte knejse algustähega på viisakussõna — se jähä palun (Bite schön!, Eine Tasse Kaffee, bitte).",
+        "Die Bitte suure algustähega ja artikliga die on nimisõna — se gejnej palvet või søi (Ich habe eine Bitte = mul on üks palve).",
+        "Mitmuser: dø Bitten."
       ],
       "examples": [
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Έχω ένα αίτημα."
+          "lv": "Mul på üks palve."
         },
         {
           "de": "Bitte schön!",
-          "lv": "Παρακαλώ!"
+          "lv": "Palun!"
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Ένα φλιτζάνι καφέ, παρακαλώ."
+          "lv": "Üks tass kaffi, palun."
         },
         {
           "de": "Kann ich bitte fragen?",
-          "lv": "Μπορώ να ρωτήσω παρακαλώ"
+          "lv": "Hva skal du gjøre?"
         },
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Έχω ένα αίτημα."
+          "lv": "Mul på üks palve."
         },
         {
           "de": "Die Bitte ist wichtig.",
-          "lv": "Η προσευχή είναι σημαντική."
+          "lv": "Palve på viktig."
         }
       ],
       "tip": [
-        "Little bitte = παρακαλώ (Bitte schön!, Kaffee, bitte). die Bitte με κεφαλαίο = προσευχή (eine Bitte, meine Bitte).",
-        "Ουσιαστικό με άρθρο πεθαίνουν και κεφαλαίο γράμμα. Ένα συγκεκριμένο αίτημα ή αίτημα."
+        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
+        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
       ],
       "important": [
-        "Το bit γράφεται με πεζό γράμμα — είναι ευγενική λέξη, όχι ουσιαστικό.",
-        "Die Bitte με κεφαλαίο γράμμα και το άρθρο die είναι ουσιαστικό.",
-        "Πληθυντικός: die Bitten (προσευχές).",
-        "Λάθος: Die Bitte schön! → Σωστό: Bitte schön!"
+        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
+        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
+        "Daudzskaitlis: die Bitten (lūgumi).",
+        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -3000,7 +3014,8 @@ const A1_WORDS = [
             "bitte"
           ],
           "purple": [
-            "lūgums"
+            "palve",
+            "palve"
           ],
           "yellow": [
             "Bitte",
@@ -3011,48 +3026,65 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "Ich",
                 "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "palve"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+                "Bitte",
                 "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "palun"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Eine",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "palun"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Kann",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Ich",
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "palve"
               ]
             }
           },
@@ -3065,7 +3097,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "palve"
               ]
             }
           }
@@ -3073,112 +3105,116 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "lūgums"
+              "Mazais"
             ]
           }
         ],
         "important": [
-          {}
+          {
+            "green": [
+              "bitte"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "billig",
-    "lv": "Φτηνός",
+    "lv": "Odav",
     "level": "A1"
   },
   {
     "de": "Bier",
     "de_article": "das",
     "de_plural": "die Biere",
-    "lv": "Μπύρα",
+    "lv": "Õlu",
     "level": "A1"
   },
   {
     "de": "Bild",
     "de_article": "das",
     "de_plural": "die Bilder",
-    "lv": "Εικόνα",
+    "lv": "Pil",
     "level": "A1"
   },
   {
     "de": "bitten",
-    "lv": "Να ρωτήσω",
+    "lv": "Paluma",
     "level": "A1"
   },
   {
     "de": "Blatt",
     "de_article": "das",
     "de_plural": "die Blätter",
-    "lv": "Σελίδα",
+    "lv": "Lys",
     "level": "A1"
   },
   {
     "de": "blau",
-    "lv": "Μπλε",
+    "lv": "Blå",
     "level": "A1"
   },
   {
     "de": "bleiben",
-    "lv": "Να μείνεις",
+    "lv": "Jääma",
     "level": "A1",
     "study": {
       "id": "a1-bleiben",
       "layout": "standardStudy",
-      "translation": "Να μείνεις",
+      "translation": "Jääma",
       "explanation": [
-        "Κύρια ιδέα: bleiben σημαίνει να μείνεις.",
-        "Το bleiben χρησιμοποιείται όταν ένα άτομο ή ένα πράγμα δεν φεύγει και παραμένει στο ίδιο μέρος ή κατάσταση.",
-        "Είναι το αντίθετο του gehen και του fahren όταν πρόκειται να φύγεις.",
-        "Μια πολύ συνηθισμένη φράση είναι η Ich bleibe zu Hause."
+        "Hovedidé: bleiben betyr jäämist.",
+        "Bleiben brukes, kui otsebe või asi ei ähä ära ja jaeb samasse kohta või olekusse.",
+        "Se på sönade gehen ja fahren vastand, kui jutt på ära minekust.",
+        "Väga sage fraas på Ich bleibe zu Hause."
       ],
       "examples": [
         {
           "de": "Ich bleibe zu Hause.",
-          "lv": "Μένω σπίτι"
+          "lv": "Ma jään koju."
         },
         {
           "de": "Bleib hier!",
-          "lv": "Μείνε εδώ!"
+          "lv": "Kom igjen!"
         },
         {
           "de": "Wir bleiben noch eine Stunde.",
-          "lv": "Θα μείνουμε άλλη μια ώρα."
+          "lv": "Me jääme veel niëts tunniks."
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "Πάω σπίτι"
+          "lv": "Ma þen koju."
         }
       ],
       "comparison": [
         {
           "word": "bleiben",
-          "meaning": "Να μείνεις",
+          "meaning": "Jääma",
           "example": "Ich bleibe hier."
         },
         {
           "word": "gehen",
-          "meaning": "Να φύγω / να φύγω",
+          "meaning": "Minema / பெர்பிய யார் மைம்",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "fahren",
-          "meaning": "Να οδηγεί / μετακινείται με όχημα",
+          "meaning": "Sõitma / sõikiga likuma",
           "example": "Ich fahre nach Hause."
         },
         {
           "word": "warten",
-          "meaning": "Να περιμένεις",
+          "meaning": "Ootama",
           "example": "Ich warte hier."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: δεν θα πάει μακριά → bleiben • Φεύγει με τα πόδια → gehen."
+        "text": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen."
       },
       "important": [
-        "Bleiben σημαίνει να μείνεις, όχι να περιμένεις.",
-        "Ich bleibe hier = μένω εδώ· Ich warte hier = εδώ περιμένω."
+        "bleiben nozīmē palikt, nevis gaidīt.",
+        "Ich bleibe hier = es palieku šeit; Ich warte hier = es gaidu šeit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3186,8 +3222,8 @@ const A1_WORDS = [
             "bleiben"
           ],
           "purple": [
-            "palikt",
-            "neiet prom"
+            "jäämist",
+            "Hovedidé"
           ],
           "red": [
             "gehen",
@@ -3203,7 +3239,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "palieku"
+                "jään"
               ]
             }
           },
@@ -3215,7 +3251,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "paliec"
+                "Kom"
               ]
             }
           },
@@ -3227,7 +3263,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "paliekam"
+                "jääme"
               ]
             }
           },
@@ -3239,7 +3275,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "eju"
+                "þen"
               ]
             }
           }
@@ -3253,7 +3289,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "palikt"
+                "jääma"
               ]
             },
             "example": {
@@ -3270,8 +3306,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iet",
-                "doties prom"
+                "minema",
+                "Minema"
               ]
             },
             "example": {
@@ -3288,8 +3324,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "braukt",
-                "transportu"
+                "sõitma",
+                "sõitma"
               ]
             },
             "example": {
@@ -3306,7 +3342,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "gaidīt"
+                "ootama"
               ]
             },
             "example": {
@@ -3322,7 +3358,7 @@ const A1_WORDS = [
               "bleiben"
             ],
             "purple": [
-              "neiet prom"
+              "Atceries"
             ],
             "red": [
               "gehen"
@@ -3335,10 +3371,11 @@ const A1_WORDS = [
               "bleiben"
             ],
             "purple": [
-              "palikt"
+              "bleiben"
             ],
             "green": [
-              "gaidīt"
+              "bleiben",
+              "bleiben"
             ]
           },
           {
@@ -3357,117 +3394,117 @@ const A1_WORDS = [
     "de": "Bleistift",
     "de_article": "der",
     "de_plural": "die Bleistifte",
-    "lv": "Στυλό",
+    "lv": "Blyanter",
     "level": "A1"
   },
   {
     "de": "blond",
-    "lv": "Ξανθιά",
+    "lv": "Blond",
     "level": "A1"
   },
   {
     "de": "Blume",
     "de_article": "die",
     "de_plural": "die Blumen",
-    "lv": "Ένα λουλούδι",
+    "lv": "Liten",
     "level": "A1"
   },
   {
     "de": "Boot",
     "de_article": "das",
     "de_plural": "die Boote",
-    "lv": "Μια βάρκα",
+    "lv": "Paat",
     "level": "A1"
   },
   {
     "de": "brauchen",
-    "lv": "Να χρειαστεί",
+    "lv": "Wajama",
     "level": "A1"
   },
   {
     "de": "braun",
-    "lv": "Καστανός",
+    "lv": "Beskjær",
     "level": "A1"
   },
   {
     "de": "breit",
-    "lv": "Ευρύς",
+    "lv": "Lai",
     "level": "A1"
   },
   {
     "de": "Brief",
     "de_article": "der",
     "de_plural": "die Briefe",
-    "lv": "Ένα γράμμα",
+    "lv": "Kiri",
     "level": "A1"
   },
   {
     "de": "Brille",
     "de_article": "die",
     "de_plural": "die Brillen",
-    "lv": "Γυαλιά",
+    "lv": "Prillid",
     "level": "A1"
   },
   {
     "de": "bringen",
-    "lv": "Φέρνω • Παίρνω",
+    "lv": "Tooma • Viima",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "Φέρνω • Παίρνω",
+      "translation": "Tooma • Viima",
       "explanation": [
-        "Κύρια ιδέα: bringen σημαίνει να φέρεις, να πάρεις ή να παραδώσεις κάτι σε κάποιον.",
-        "Το bringen χρησιμοποιείται όταν κάτι μεταφέρεται σε άλλο μέρος ή σε άλλο άτομο.",
-        "Δεν είναι το ίδιο με το nehmen, γιατί nehmen σημαίνει να παίρνεις πάνω σου.",
-        "Τρύπα σημαίνει να πηγαίνω μετά και να φέρω ή να παίρνω."
+        "Põhiidee: bringen gejättä magadi kellegi tooma, viima või domitama.",
+        "Bringen brukes, kui magadi veke teise kohta vei teise teise teise.",
+        "Se ei ole sama mis nehmen, sest nehmen geindet endele tämä.",
+        "Holen täytä yögä memne ja tooma või tämä."
       ],
       "examples": [
         {
           "de": "Bring mir bitte Wasser.",
-          "lv": "Φέρε μου νερό σε παρακαλώ"
+          "lv": "For mulle palun vidd."
         },
         {
           "de": "Ich bringe dich nach Hause.",
-          "lv": "Θα σε πάω σπίτι"
+          "lv": "Ma viin sind koju."
         },
         {
           "de": "Er bringt das Buch zur Schule.",
-          "lv": "Παίρνει το βιβλίο στο σχολείο."
+          "lv": "Ta viib bibi kooli."
         },
         {
           "de": "Ich nehme das Buch.",
-          "lv": "Θα πάρω το βιβλίο."
+          "lv": "Ma vőn bőbő."
         }
       ],
       "comparison": [
         {
           "word": "bringen",
-          "meaning": "Φέρνω / παίρνω / παραδίδω",
+          "meaning": "Tooma / viima / vukkile vaittama",
           "example": "Bring mir Wasser."
         },
         {
           "word": "nehmen",
-          "meaning": "Παίρνω / παραλαμβάνω",
+          "meaning": "Võtma / kète vämä",
           "example": "Ich nehme das Buch."
         },
         {
           "word": "holen",
-          "meaning": "Να παραλάβω / φέρω",
+          "meaning": "Järele minema / tooma",
           "example": "Ich hole Wasser."
         },
         {
           "word": "mitbringen",
-          "meaning": "Πάρτε και παραδώστε",
+          "meaning": "Kaasa tomaja ja vakkele tooma",
           "example": "Bringst du Brot mit?"
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: φέρνει σε κάποιον → bringen • Αναλαμβάνει → nehmen."
+        "text": "Atceries: pārvieto pie kāda → bringen; paņem sev → nehmen."
       },
       "important": [
-        "Το bringen δείχνει κατεύθυνση σε κάποιον ή ένα μέρος.",
-        "Nehmen σημαίνει παίρνω, αλλά όχι απαραίτητα παραδίδω σε κάποιον άλλο."
+        "bringen rāda virzienu pie kāda vai uz kādu vietu.",
+        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3475,9 +3512,9 @@ const A1_WORDS = [
             "bringen"
           ],
           "purple": [
-            "atnest",
-            "aiznest",
-            "nogādāt"
+            "tooma",
+            "viima",
+            "Põhiidee"
           ],
           "red": [
             "nehmen",
@@ -3496,10 +3533,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atnes"
+                "For"
               ],
               "yellow": [
-                "ūdeni"
+                "For"
               ]
             }
           },
@@ -3514,10 +3551,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aizvedīšu"
+                "viin"
               ],
               "green": [
-                "tevi"
+                "sind"
               ]
             }
           },
@@ -3532,10 +3569,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aiznes"
+                "viib"
               ],
               "yellow": [
-                "grāmatu"
+                "viib"
               ]
             }
           },
@@ -3550,10 +3587,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "paņemu"
+                "vőn"
               ],
               "yellow": [
-                "grāmatu"
+                "vőn"
               ]
             }
           }
@@ -3567,9 +3604,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atnest",
-                "aiznest",
-                "nogādāt"
+                "tooma",
+                "viima",
+                "Tooma"
               ]
             },
             "example": {
@@ -3586,8 +3623,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ņemt",
-                "paņemt"
+                "võtma",
+                "võtma"
               ]
             },
             "example": {
@@ -3604,8 +3641,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "aiziet pakaļ",
-                "atnest"
+                "järele minema",
+                "tooma"
               ]
             },
             "example": {
@@ -3622,8 +3659,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "paņemt līdzi",
-                "atnest"
+                "Kaasa",
+                "tooma"
               ]
             },
             "example": {
@@ -3639,11 +3676,11 @@ const A1_WORDS = [
               "bringen"
             ],
             "purple": [
-              "pārvieto pie kāda"
+              "Atceries"
             ],
             "red": [
               "nehmen",
-              "paņem sev"
+              "Atceries"
             ]
           }
         },
@@ -3653,11 +3690,14 @@ const A1_WORDS = [
               "bringen"
             ],
             "purple": [
-              "virzienu pie kāda"
+              "bringen"
             ]
           },
           {
             "red": [
+              "nehmen"
+            ],
+            "blue": [
               "nehmen"
             ]
           }
@@ -3669,69 +3709,69 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "Σάντουιτς",
+    "lv": "Voileib",
     "level": "A1"
   },
   {
     "de": "Brötchen",
     "de_article": "das",
     "de_plural": "die Brötchen",
-    "lv": "Ένα κουλούρι",
+    "lv": "Cuckold",
     "level": "A1"
   },
   {
     "de": "Brücke",
     "de_article": "die",
     "de_plural": "die Brücken",
-    "lv": "Γέφυρα",
+    "lv": "Sild",
     "level": "A1"
   },
   {
     "de": "Bruder",
     "de_article": "der",
     "de_plural": "die Brüder",
-    "lv": "Αδελφός",
+    "lv": "Vend",
     "level": "A1"
   },
   {
     "de": "Buch",
     "de_article": "das",
     "de_plural": "die Bücher",
-    "lv": "Βιβλίο",
+    "lv": "Raamat",
     "level": "A1"
   },
   {
     "de": "Buchstabe",
     "de_article": "der",
     "de_plural": "die Buchstaben",
-    "lv": "Αστέρι",
+    "lv": "Täht",
     "level": "A1"
   },
   {
     "de": "Büro",
     "de_article": "das",
     "de_plural": "die Büros",
-    "lv": "Γραφείο",
+    "lv": "Kontor",
     "level": "A1"
   },
   {
     "de": "Bus",
     "de_article": "der",
     "de_plural": "die Busse",
-    "lv": "Λεωφορείο",
+    "lv": "Buss",
     "level": "A1"
   },
   {
     "de": "Butter",
     "de_article": "die",
-    "lv": "Ή",
+    "lv": "Kanskje",
     "level": "A1"
   },
   {
     "de": "Café",
     "de_article": "das",
     "de_plural": "die Cafés",
-    "lv": "Καφενείο",
+    "lv": "Kohvik",
     "level": "A1"
   },
   {
@@ -3745,79 +3785,79 @@ const A1_WORDS = [
     "de": "Computer",
     "de_article": "der",
     "de_plural": "die Computer",
-    "lv": "Ηλεκτρονικός υπολογιστής",
+    "lv": "Arvuti",
     "level": "A1"
   },
   {
     "de": "Cousin",
     "de_article": "der",
     "de_plural": "die Cousins",
-    "lv": "Εξάδελφος",
+    "lv": "Nõbu",
     "level": "A1"
   },
   {
     "de": "Cousine",
     "de_article": "die",
     "de_plural": "die Cousinen",
-    "lv": "Εξάδελφος",
+    "lv": "Nõbu",
     "level": "A1"
   },
   {
     "de": "da",
-    "lv": "Εκεί",
+    "lv": "Forsegle",
     "level": "A1",
     "study": {
       "id": "a1-da",
       "layout": "standardStudy",
-      "translation": "Εκεί",
+      "translation": "Forsegle",
       "explanation": [
-        "Κύρια ιδέα: στο επίπεδο Α1, το da σημαίνει πιο συχνά εκεί.",
-        "Το da δείχνει σε ένα μέρος ή αναφέρεται σε κάτι που έχει ήδη αναφερθεί.",
-        "Ανάλογα με την κατάσταση, μπορεί επίσης να μεταφραστεί ως εδώ ή εκεί.",
-        "Στο επίπεδο Α1 μαθαίνουμε τη λέξη δα κυρίως ως γενικό επίρρημα του τόπου."
+        "Hovedidé: det betyr at på A1-nivå oftest forsegle.",
+        "Da utstab dukke või ikkem kumelgi juba mainitule.",
+        "Olenevalt tilstitusst säda seda terekada ka kui siin või segl.",
+        "På A1-nivå, Łúmime sőna da szőtő szőlő kohamäörsőnana."
       ],
       "examples": [
         {
           "de": "Da ist mein Auto.",
-          "lv": "Εκεί είναι το αυτοκίνητό μου."
+          "lv": "Forsegl på bilen min."
         },
         {
           "de": "Ich war da.",
-          "lv": "Ήμουν εκεί"
+          "lv": "Ma olin segl."
         },
         {
           "de": "Da kommt er.",
-          "lv": "Εδώ έρχεται."
+          "lv": "Siin ta tulb."
         },
         {
           "de": "Komm mal da her!",
-          "lv": "Έλα εδώ!"
+          "lv": "Kom hit!"
         }
       ],
       "comparison": [
         {
           "word": "da",
-          "meaning": "Εκεί • Εδώ • Ακριβώς εδώ (γενικά)",
+          "meaning": "Sel • Siin • Siinsamas (üldiselt)",
           "example": "Da ist mein Auto."
         },
         {
           "word": "hier",
-          "meaning": "Εδώ (σε ένα συγκεκριμένο μέρος)",
+          "meaning": "Siin (kindlas kois)",
           "example": "Hier ist mein Auto."
         },
         {
           "word": "dort",
-          "meaning": "Εκεί (περαιτέρω)",
+          "meaning": "Forsegle",
           "example": "Dort ist mein Auto."
         },
         {
           "word": "dann",
-          "meaning": "Τότε",
+          "meaning": "Sis",
           "example": "Dann gehen wir nach Hause."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: γενικά εκεί/εδώ → δα."
+        "text": "Atceries: vispārīgs tur/te → da."
       },
       "sectionAccents": {
         "explanation": {
@@ -3825,14 +3865,14 @@ const A1_WORDS = [
             "da"
           ],
           "purple": [
-            "tur"
+            "segl"
           ],
           "green": [
-            "te",
-            "šeit"
+            "siin",
+            "siin"
           ],
           "yellow": [
-            "vietu"
+            "koha"
           ]
         },
         "examples": [
@@ -3844,7 +3884,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tur"
+                "Forsegl"
               ]
             }
           },
@@ -3856,7 +3896,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tur"
+                "segl"
               ]
             }
           },
@@ -3868,7 +3908,7 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "Te"
+                "Siin"
               ]
             }
           },
@@ -3880,7 +3920,7 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "šeit"
+                "Kom"
               ]
             }
           }
@@ -3894,8 +3934,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "te",
-                "šeit"
+                "siin",
+                "siin"
               ]
             },
             "example": {
@@ -3912,7 +3952,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "šeit"
+                "siin"
               ]
             },
             "example": {
@@ -3929,7 +3969,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tur"
+                "Forsegle"
               ]
             },
             "example": {
@@ -3946,7 +3986,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tad"
+                "Sis"
               ]
             },
             "example": {
@@ -3962,10 +4002,10 @@ const A1_WORDS = [
               "da"
             ],
             "purple": [
-              "tur"
+              "Atceries"
             ],
             "green": [
-              "te"
+              "Atceries"
             ]
           }
         },
@@ -3975,7 +4015,7 @@ const A1_WORDS = [
               "da"
             ],
             "purple": [
-              "vietas"
+              "vispārīgs"
             ]
           },
           {
@@ -3986,10 +4026,10 @@ const A1_WORDS = [
               "dort"
             ],
             "green": [
-              "šeit"
+              "hier"
             ],
             "purple": [
-              "tur"
+              "hier"
             ]
           }
         ]
@@ -4017,63 +4057,63 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Da είναι γενικό επίρρημα.",
-        "Το hier είναι ένα συγκεκριμένο «εδώ», το dort είναι ένα πιο μακρινό «εκεί»."
+        "da ir vispārīgs vietas vārds.",
+        "hier ir konkrēti “šeit”, dort ir tālāks “tur”."
       ]
     }
   },
   {
     "de": "danken",
-    "lv": "Να ευχαριστήσω",
+    "lv": "Tänama",
     "level": "A1"
   },
   {
     "de": "dann",
-    "lv": "Τότε",
+    "lv": "Sis",
     "level": "A1"
   },
   {
     "de": "das",
-    "lv": "Οριστικό άρθρο ουδέτερου φύλου",
+    "lv": "Kesksoo skrev om artikkelen",
     "level": "A1",
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "Οριστικό άρθρο ουδέτερου φύλου",
-      "explanation": "Χρησιμοποιείται με ουδέτερα ουσιαστικά. Σε ορισμένες προτάσεις, το \"das\" μπορεί επίσης να λειτουργήσει ως αντωνυμία ή δεσμευτική αντωνυμία.",
+      "translation": "Kesksoo skrev om artikkelen",
+      "explanation": "Kasutatakse kesksoost nimisvärnte kureus. Noen lauser kan \"das\" toimida ka asesõnana või siduva asesõnana.",
       "examples": [
         {
           "de": "Das ist mein Auto.",
-          "lv": "Αυτό είναι το αυτοκίνητό μου."
+          "lv": "Se på bilen min."
         },
         {
           "de": "Das ist gut.",
-          "lv": "Αυτό είναι καλό."
+          "lv": "Se her."
         },
         {
           "de": "Das Buch, das ich lese, ist interessant.",
-          "lv": "Το βιβλίο που διαβάζω είναι ενδιαφέρον."
+          "lv": "Raamat, mida ma loen, på interesab."
         }
       ],
       "comparison": [
         {
           "word": "das",
-          "meaning": "Αυτό (άρθρο / αντωνυμία)",
-          "example": "Das ist mein Auto. – Αυτό είναι το αυτοκίνητό μου."
+          "meaning": "Se (artikkel / asesõna)",
+          "example": "Das ist mein Auto. – Se på bilen min."
         },
         {
           "word": "dies",
-          "meaning": "Αυτό",
-          "example": "Dies ist mein Auto. – Αυτό είναι το αυτοκίνητό μου."
+          "meaning": "Se",
+          "example": "Dies ist mein Auto. – Se på bilen min."
         },
         {
           "word": "welches",
-          "meaning": "Τι • Ποια • Τι",
-          "example": "Das ist das Buch, welches ich lese. – Αυτό είναι το βιβλίο που διαβάζω."
+          "meaning": "Mis • Mille • Mida",
+          "example": "Das ist das Buch, welches ich lese. – Se på raamat, mida ma loen."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: μεσαίο φύλο → das • Που → δας."
+        "text": "Atceries: vidus dzimte → das; ka → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -4146,7 +4186,7 @@ const A1_WORDS = [
               "das"
             ],
             "purple": [
-              "vidus dzimte"
+              "Atceries"
             ],
             "red": [
               "dass"
@@ -4159,7 +4199,7 @@ const A1_WORDS = [
               "das"
             ],
             "purple": [
-              "vidus dzimtes artikulu"
+              "līmenī"
             ]
           },
           {
@@ -4168,7 +4208,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "artikuls",
-              "vietniekvārds"
+              "das"
             ],
             "red": [
               "dass"
@@ -4177,58 +4217,58 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Σε επίπεδο Α1, πρώτα μελέτη ως άρθρο μεσαίου φύλου.",
-        "Το das δεν είναι το ίδιο με το dass — το das μπορεί να είναι ένα άρθρο ή μια αντωνυμία, το dass σημαίνει \"αυτό\"."
+        "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
+        "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
       ]
     }
   },
   {
     "de": "dass",
-    "lv": "Ότι",
+    "lv": "En",
     "level": "A1",
     "study": {
       "id": "a1-dass",
       "layout": "standardStudy",
-      "translation": "Ότι",
-      "explanation": "Εισάγει μια δευτερεύουσα πρόταση που εκφράζει ένα γεγονός, σκέψη ή δήλωση.",
+      "translation": "En",
+      "explanation": "Juhatab sisse bistillause, mis expressb fakti, mästt või öeldut.",
       "examples": [
         {
           "de": "Ich weiß, dass du müde bist.",
-          "lv": "Ξέρω ότι είσαι κουρασμένος."
+          "lv": "Ma tean, et sa oled väsinud."
         },
         {
           "de": "Er sagt, dass er kommt.",
-          "lv": "Λέει ότι θα έρθει."
+          "lv": "Ta ütleb, et ta tülb."
         },
         {
           "de": "Ich glaube, dass das stimmt.",
-          "lv": "Νομίζω ότι είναι σωστό."
+          "lv": "Ma arvan, et see on utta."
         }
       ],
       "comparison": [
         {
           "word": "dass",
-          "meaning": "Ότι",
-          "example": "Ich weiß, dass er kommt. – Ξέρω ότι θα το κάνει."
+          "meaning": "En",
+          "example": "Ich weiß, dass er kommt. – Ma tean, et ta tulb."
         },
         {
           "word": "weil",
-          "meaning": "Γιατί • Γιατί",
-          "example": "Ich bleibe zu Hause, weil es regnet. – Μένω σπίτι γιατί βρέχει."
+          "meaning": "Sest • Det er derfor et",
+          "example": "Ich bleibe zu Hause, weil es regnet. – Ma jään koju, sest sajab wimga."
         },
         {
           "word": "damit",
-          "meaning": "Ότι",
-          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Μαθαίνω γερμανικά για να μπορέσω να εργαστώ στη Γερμανία."
+          "meaning": "En",
+          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Ma õubin saksa keelt, et saaksin Sämääsal mitbättää."
         },
         {
           "word": "ob",
-          "meaning": "Είτε",
-          "example": "Ich weiß nicht, ob er kommt. – Δεν ξέρω αν θα έρθει."
+          "meaning": "Cas",
+          "example": "Ich weiß nicht, ob er kommt. – Ma ei te, kas ta tulb."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: ότι → dass."
+        "text": "Atceries: ka → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -4240,7 +4280,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "et"
               ]
             }
           },
@@ -4252,7 +4292,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "et"
               ]
             }
           },
@@ -4264,7 +4304,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ka"
+                "et"
               ]
             }
           }
@@ -4281,7 +4321,7 @@ const A1_WORDS = [
                 "dass"
               ],
               "purple": [
-                "ka"
+                "et"
               ]
             }
           },
@@ -4296,7 +4336,7 @@ const A1_WORDS = [
                 "weil"
               ],
               "purple": [
-                "jo"
+                "sest"
               ]
             }
           },
@@ -4311,7 +4351,7 @@ const A1_WORDS = [
                 "damit"
               ],
               "purple": [
-                "lai"
+                "et"
               ]
             }
           },
@@ -4326,7 +4366,7 @@ const A1_WORDS = [
                 "ob"
               ],
               "purple": [
-                "vai"
+                "kas"
               ]
             }
           }
@@ -4337,7 +4377,7 @@ const A1_WORDS = [
               "dass"
             ],
             "purple": [
-              "ka"
+              "Atceries"
             ]
           }
         },
@@ -4347,10 +4387,10 @@ const A1_WORDS = [
               "dass"
             ],
             "purple": [
-              "ka"
+              "dass"
             ],
             "green": [
-              "palīgteikumu"
+              "dass"
             ]
           },
           {
@@ -4361,14 +4401,14 @@ const A1_WORDS = [
               "artikuls"
             ],
             "purple": [
-              "tas"
+              "nejaukt"
             ]
           }
         ]
       },
       "important": [
-        "Dass σημαίνει \"αυτό\" και ξεκινά μια δευτερεύουσα πρόταση.",
-        "Μην το συγχέετε με τη λέξη das, που μπορεί να είναι ένα άρθρο ή «αυτό»."
+        "dass nozīmē “ka” un ievada palīgteikumu.",
+        "To nejaukt ar das, kas var būt artikuls vai “tas”."
       ]
     }
   },
@@ -4376,44 +4416,44 @@ const A1_WORDS = [
     "de": "Datum",
     "de_article": "das",
     "de_plural": "die Daten",
-    "lv": "Την ημερομηνία",
+    "lv": "Kuapäev",
     "level": "A1"
   },
   {
     "de": "dein",
-    "lv": "Δικό σου",
+    "lv": "Sinu",
     "level": "A1"
   },
   {
     "de": "denken",
-    "lv": "Να σκεφτεί",
+    "lv": "Mõtlema",
     "level": "A1"
   },
   {
     "de": "der",
-    "lv": "Αρσενικό άρθρο",
+    "lv": "Meessoo skrev artikkelen",
     "level": "A1",
     "study": {
       "id": "a1-der",
       "layout": "standardStudy",
-      "translation": "Αρσενικό άρθρο",
-      "explanation": "Χρησιμοποιείται με αρσενικά ουσιαστικά. Σε ορισμένες προτάσεις, το \"der\" μπορεί επίσης να λειτουργήσει ως αντωνυμία ή δεσμευτική αντωνυμία.",
+      "translation": "Meessoo skrev artikkelen",
+      "explanation": "Kasutatakse mestsoost nimisvärnte kures. Noen lauser kan \"der\" toimida ka asesõnana või siduva asesõnana.",
       "examples": [
         {
           "de": "Der Mann ist hier.",
-          "lv": "Ο άντρας είναι εδώ."
+          "lv": "Mees on siin."
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "Έρχεται το λεωφορείο."
+          "lv": "Bussen kommer."
         },
         {
           "de": "Der Lehrer spricht.",
-          "lv": "Μιλάει ο δάσκαλος."
+          "lv": "Õpetaja snakker."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: αρσενικό → der."
+        "text": "Atceries: vīriešu dzimte → der."
       },
       "sectionAccents": {
         "examples": [
@@ -4457,7 +4497,7 @@ const A1_WORDS = [
               "der"
             ],
             "purple": [
-              "vīriešu dzimte"
+              "Atceries"
             ]
           }
         },
@@ -4467,59 +4507,59 @@ const A1_WORDS = [
               "der"
             ],
             "purple": [
-              "vīriešu dzimtes artikulu"
+              "līmenī"
             ]
           },
           {
             "red": [
               "Vietniekvārda",
-              "relatīvā"
+              "Vietniekvārda"
             ]
           }
         ]
       },
       "important": [
-        "Σε επίπεδο Α1, μάθετε πρώτα το der ως αρσενικό άρθρο.",
-        "Η αντωνυμία και η αναφορική χρήση έρχονται αργότερα."
+        "A1 līmenī der vispirms mācies kā vīriešu dzimtes artikulu.",
+        "Vietniekvārda un relatīvā lietojumi nāk vēlāk."
       ]
     }
   },
   {
     "de": "deutsch",
-    "lv": "Γερμανός",
+    "lv": "Saksisk",
     "level": "A1"
   },
   {
     "de": "Dezember",
     "de_article": "der",
-    "lv": "Δεκέμβριος",
+    "lv": "Desember",
     "level": "A1"
   },
   {
     "de": "die",
-    "lv": "Θηλυκό οριστικό άρθρο",
+    "lv": "Naissoo skrev artikkelen",
     "level": "A1",
     "study": {
       "id": "a1-die",
       "layout": "standardStudy",
-      "translation": "Θηλυκό οριστικό άρθρο",
-      "explanation": "Χρησιμοποιείται με θηλυκά ουσιαστικά. Σε ορισμένες προτάσεις, το \"die\" μπορεί επίσης να λειτουργήσει ως αντωνυμία ή δεσμευτική αντωνυμία.",
+      "translation": "Naissoo skrev artikkelen",
+      "explanation": "Kasutatakse naissoost nimisvärnte kureus. Aixas lauses mai \"die\" toimida ka asesõnana või siduva asesõnana.",
       "examples": [
         {
           "de": "Die Frau ist hier.",
-          "lv": "Η γυναίκα είναι εδώ."
+          "lv": "Naine på siin."
         },
         {
           "de": "Die Katze schläft.",
-          "lv": "Η γάτα κοιμάται."
+          "lv": "Cass mage"
         },
         {
           "de": "Die Lehrerin erklärt.",
-          "lv": "Εξηγεί η δασκάλα."
+          "lv": "Naisöpetaja sällätb."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: θηλυκό → πεθάνω."
+        "text": "Atceries: sieviešu dzimte → die."
       },
       "sectionAccents": {
         "examples": [
@@ -4575,7 +4615,7 @@ const A1_WORDS = [
               "die"
             ],
             "purple": [
-              "sieviešu dzimte"
+              "Atceries"
             ]
           }
         },
@@ -4585,7 +4625,7 @@ const A1_WORDS = [
               "die"
             ],
             "purple": [
-              "sieviešu dzimtes artikulu"
+              "līmenī"
             ]
           },
           {
@@ -4596,14 +4636,14 @@ const A1_WORDS = [
               "Daudzskaitlī"
             ],
             "purple": [
-              "visām dzimtēm"
+              "Daudzskaitlī"
             ]
           }
         ]
       },
       "important": [
-        "Σε επίπεδο Α1, μάθετε πρώτα ως γυναικείο άρθρο.",
-        "Στον πληθυντικό, το die χρησιμοποιείται επίσης για όλα τα φύλα."
+        "A1 līmenī die vispirms mācies kā sieviešu dzimtes artikulu.",
+        "Daudzskaitlī die lieto arī visām dzimtēm."
       ]
     }
   },
@@ -4611,34 +4651,34 @@ const A1_WORDS = [
     "de": "Dienstag",
     "de_article": "der",
     "de_plural": "die Dienstage",
-    "lv": "Τρίτη",
+    "lv": "Tirsdag",
     "level": "A1"
   },
   {
     "de": "dieser",
-    "lv": "Αυτό",
+    "lv": "Se",
     "level": "A1",
     "study": {
       "id": "a1-dieser",
       "layout": "standardStudy",
-      "translation": "Αυτό",
-      "explanation": "Δείχνει ένα κοντινό άτομο, πράγμα ή ζώο. Χρησιμοποιείται με ουσιαστικό αρσενικό.",
+      "translation": "Se",
+      "explanation": "Osutab nël olevale svetsule, asjale või loomale. Kasutatakse koos meessoost nimisõnaga.",
       "examples": [
         {
           "de": "Dieser Mann ist nett.",
-          "lv": "Αυτός ο τύπος είναι ωραίος."
+          "lv": "Se mest på kena."
         },
         {
           "de": "Ich mag diesen Hund.",
-          "lv": "Μου αρέσει αυτό το σκυλί"
+          "lv": "Jeg liker å se kuer."
         },
         {
           "de": "Dieser Stift ist neu.",
-          "lv": "Αυτό το στυλό είναι καινούργιο."
+          "lv": "Se pastakas på uus."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: αυτό + αρσενικό → dieser."
+        "text": "Atceries: šis + vīriešu dzimte → dieser."
       },
       "sectionAccents": {
         "examples": [
@@ -4650,7 +4690,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "šis"
+                "Se"
               ]
             }
           },
@@ -4662,7 +4702,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "šis"
+                "se"
               ]
             }
           },
@@ -4674,7 +4714,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "šī"
+                "Se"
               ]
             }
           }
@@ -4703,10 +4743,10 @@ const A1_WORDS = [
               "dieser"
             ],
             "purple": [
-              "šis"
+              "Atceries"
             ],
             "green": [
-              "vīriešu dzimte"
+              "Atceries"
             ]
           }
         },
@@ -4722,7 +4762,7 @@ const A1_WORDS = [
               "dieses"
             ],
             "purple": [
-              "dzimtes"
+              "dieser"
             ]
           },
           {
@@ -4736,8 +4776,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Dieser, diese και dieser αλλάζουν ανάλογα με το φύλο.",
-        "Στον πληθυντικό, η μορφή είναι πάλι diese."
+        "dieser, diese un dieses mainās pēc dzimtes.",
+        "Daudzskaitlī forma atkal ir diese."
       ]
     }
   },
@@ -4745,107 +4785,107 @@ const A1_WORDS = [
     "de": "Ding",
     "de_article": "das",
     "de_plural": "die Dinge",
-    "lv": "Πράγμα",
+    "lv": "Asia",
     "level": "A1"
   },
   {
     "de": "Donnerstag",
     "de_article": "der",
     "de_plural": "die Donnerstage",
-    "lv": "Πέμπτη",
+    "lv": "Neljapäev",
     "level": "A1"
   },
   {
     "de": "dort",
-    "lv": "Εκεί",
+    "lv": "Forsegle",
     "level": "A1"
   },
   {
     "de": "drei",
-    "lv": "Τρία",
+    "lv": "Kolm",
     "level": "A1"
   },
   {
     "de": "dreihundert",
-    "lv": "Τριακόσια",
+    "lv": "Kolmsada",
     "level": "A1"
   },
   {
     "de": "dreimal",
-    "lv": "Τρεις φορές",
+    "lv": "Kolm Korda",
     "level": "A1"
   },
   {
     "de": "dreißig",
-    "lv": "Τριάντα",
+    "lv": "Førti",
     "level": "A1"
   },
   {
     "de": "dreizehn",
-    "lv": "Δεκατρείς",
+    "lv": "Kolmtheist",
     "level": "A1"
   },
   {
     "de": "dritte",
-    "lv": "Το τρίτο",
+    "lv": "Kolmas",
     "level": "A1"
   },
   {
     "de": "du",
-    "lv": "Εσείς",
+    "lv": "Deres",
     "level": "A1"
   },
   {
     "de": "dürfen",
-    "lv": "Να επιτρέπεται",
+    "lv": "Tohtima",
     "level": "A1"
   },
   {
     "de": "Dusche",
     "de_article": "die",
     "de_plural": "die Duschen",
-    "lv": "Ντους",
+    "lv": "Dusj",
     "level": "A1"
   },
   {
     "de": "Ecke",
     "de_article": "die",
     "de_plural": "die Ecken",
-    "lv": "Γωνία",
+    "lv": "Nurk",
     "level": "A1"
   },
   {
     "de": "Ei",
     "de_article": "das",
     "de_plural": "die Eier",
-    "lv": "Ένα αυγό",
+    "lv": "Munn",
     "level": "A1"
   },
   {
     "de": "ein",
-    "lv": "Αόριστο άρθρο • Ένα • Μερικά",
+    "lv": "Umbmäärane artikkel • Üks • Mingi",
     "level": "A1",
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "Αόριστο άρθρο • Ένα • Μερικά",
-      "explanation": "Χρησιμοποιείται με ουσιαστικό αρσενικό. Αναφέρεται σε ένα συγκεκριμένο πράγμα ή άτομο ανάμεσα σε πολλές δυνατότητες.",
+      "translation": "Umbmäärane artikkel • Üks • Mingi",
+      "explanation": "Kasutatakse koos meessoost nimisõnaga. Osutab özlele kindlale asjale või sävelele mitme svägää sägäst.",
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
-          "lv": "Ένας άντρας περιμένει έξω."
+          "lv": "Üks mees ootab er valgt."
         },
         {
           "de": "Ich habe ein Buch.",
-          "lv": "Έχω ένα βιβλίο."
+          "lv": "Mul on üks raamat."
         },
         {
           "de": "Er sucht einen Stift.",
-          "lv": "Ψάχνει για κάποιο είδος στυλό."
+          "lv": "Ta otsib litt pasta."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: αόριστος/κάποιος → ein."
+        "text": "Atceries: nekonkrēts viens/kāds → ein."
       },
       "sectionAccents": {
         "examples": [
@@ -4857,7 +4897,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kāds"
+                "üks"
               ]
             }
           },
@@ -4869,7 +4909,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viena"
+                "üks"
               ]
             }
           },
@@ -4881,7 +4921,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kādu"
+                "otsib"
               ]
             }
           }
@@ -4918,11 +4958,11 @@ const A1_WORDS = [
               "ein"
             ],
             "purple": [
-              "viens",
-              "kāds"
+              "Atceries",
+              "Atceries"
             ],
             "green": [
-              "nekonkrēts"
+              "Atceries"
             ]
           }
         },
@@ -4932,7 +4972,7 @@ const A1_WORDS = [
               "ein"
             ],
             "red": [
-              "noteiktais artikuls"
+              "ein"
             ]
           },
           {
@@ -4942,93 +4982,93 @@ const A1_WORDS = [
               "das"
             ],
             "green": [
-              "konkrēti zināma"
+              "lieta"
             ]
           }
         ]
       },
       "important": [
-        "Το ein δεν είναι οριστικό άρθρο.",
-        "Εάν το θέμα είναι ήδη γνωστό συγκεκριμένα, συχνά χρειάζονται der, die ή das."
+        "ein nav noteiktais artikuls.",
+        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das."
       ]
     }
   },
   {
     "de": "einfach",
-    "lv": "Απλός",
+    "lv": "Lett",
     "level": "A1"
   },
   {
     "de": "eins",
-    "lv": "Ένας",
+    "lv": "En",
     "level": "A1"
   },
   {
     "de": "Eis",
     "de_article": "das",
-    "lv": "Παγωτό • Παγωτό",
+    "lv": "Jää • Iskrem",
     "level": "A1",
     "study": {
       "id": "a1-eis",
       "layout": "standardStudy",
-      "translation": "Παγωτό • Παγωτό",
+      "translation": "Jää • Iskrem",
       "explanation": [
-        "Κύρια ιδέα: das Eis μπορεί να σημαίνει και παγωτό και παγωτό.",
-        "Όταν μιλάμε για κρύο, παγωμένο νερό, οι Εσθονοί συνήθως λένε πάγο.",
-        "Όταν πρόκειται για φαγητό ή επιδόρπιο, το das Eis πολύ συχνά σημαίνει παγωτό στην καθημερινή ζωή.",
-        "Το πλαίσιο συνήθως λέει αμέσως ποιο νόημα επιδιώκεται.",
-        "Σε επίπεδο Α1, οι πιο σημαντικές φράσεις είναι το ein Eis essen και το Eis im Glas."
+        "Põhiidee: das Eis mõik tätärada nii jääd kui ka jäätist.",
+        "Kui jutt på kërmast kërmunud veest, ættäkse eesti keeles käëtä jää.",
+        "Kui jutt på rödöst või magostoidust, gejää das Eis igapääielus väga sääli jäätis.",
+        "Kontekst ütleb köhe, milline sämäts on sämät.",
+        "A1-nivå på den viktigste frasen er ein essen ja Eis im Glas."
       ],
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "Τρώω παγωτό"
+          "lv": "Ma soen jäätist."
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "Θέλεις παγωτό"
+          "lv": "Hva er det?"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
-          "lv": "Το χειμώνα υπάρχει πάγος στη λίμνη."
+          "lv": "Talvel på järvel jää."
         },
         {
           "de": "Das Eis ist kalt.",
-          "lv": "Ο πάγος είναι κρύος."
+          "lv": "Jää på körm."
         },
         {
           "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "Θα πάρω παγωτό με σοκολάτα."
+          "lv": "Ma võan jäätist çokolaga."
         }
       ],
       "comparison": [
         {
           "word": "das Eis",
-          "meaning": "Παγωτό / παγωτό",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "meaning": "Jää / iskrem",
+          "example": "Ich esse ein Eis. = Ma soen jäätist."
         },
         {
           "word": "der Schnee",
-          "meaning": "Χιόνι",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "meaning": "Lumi",
+          "example": "Der Schnee ist weiß. = Lumi på valgt."
         },
         {
           "word": "kalt",
-          "meaning": "Κρύο",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "meaning": "Kjøle",
+          "example": "Das Wasser ist kalt. = Vesi on kër."
         },
         {
           "word": "das Dessert",
-          "meaning": "Επιδόρπιο",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "meaning": "Magustoit",
+          "example": "Eis ist ein Dessert. = Jäätis på magustoit."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: φαγητό → παγωτό. χειμώνας/νερό → πάγος."
+        "text": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus."
       },
       "important": [
-        "Στα εσθονικά, το παγωτό και το παγωτό είναι δύο διαφορετικές λέξεις, αλλά στα γερμανικά, το das Eis χρησιμοποιείται συχνά και για τα δύο.",
-        "Το πλαίσιο είναι το κλειδί: φαγητό σημαίνει παγωτό, κρύα επιφάνεια ή νερό σημαίνει πάγο."
+        "Latviski ledus un saldējums ir divi dažādi vārdi, bet vāciski abiem bieži lieto das Eis.",
+        "Konteksts ir galvenais: ēdiens nozīmē saldējumu, auksta virsma vai ūdens nozīmē ledu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5037,16 +5077,16 @@ const A1_WORDS = [
             "Eis"
           ],
           "purple": [
-            "ledu",
-            "ledus",
-            "saldējums"
+            "jääd",
+            "jää",
+            "jäätis"
           ],
           "green": [
-            "ēdienu",
-            "desertu"
+            "toidust",
+            "magostoidust"
           ],
           "yellow": [
-            "ūdeni"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -5058,7 +5098,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saldējumu"
+                "jäätist"
               ]
             }
           },
@@ -5070,7 +5110,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saldējumu"
+                "Hva"
               ]
             }
           },
@@ -5082,10 +5122,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ledus"
+                "jää"
               ],
               "green": [
-                "ezera"
+                "järvel"
               ]
             }
           },
@@ -5097,7 +5137,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ledus"
+                "jää"
               ]
             }
           },
@@ -5109,10 +5149,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saldējumu"
+                "jäätist"
               ],
               "yellow": [
-                "šokolādi"
+                "võan"
               ]
             }
           }
@@ -5126,8 +5166,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ledus",
-                "saldējums"
+                "jää",
+                "Jää"
               ]
             },
             "example": {
@@ -5135,7 +5175,7 @@ const A1_WORDS = [
                 "Eis"
               ],
               "purple": [
-                "saldējumu"
+                "jäätist"
               ]
             }
           },
@@ -5147,13 +5187,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sniegs"
+                "lumi"
               ]
             },
             "example": {
               "green": [
                 "Schnee",
-                "Sniegs"
+                "Lumi"
               ]
             }
           },
@@ -5165,13 +5205,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "auksts"
+                "Kjøle"
               ]
             },
             "example": {
               "yellow": [
                 "kalt",
-                "auksts"
+                "Das"
               ]
             }
           },
@@ -5183,7 +5223,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "deserts"
+                "magustoit"
               ]
             },
             "example": {
@@ -5191,21 +5231,24 @@ const A1_WORDS = [
                 "Eis"
               ],
               "red": [
-                "deserts"
+                "magustoit"
               ]
             }
           }
         ],
         "tip": {
           "left": {
+            "blue": [
+              "Atceries"
+            ],
             "purple": [
-              "saldējums",
-              "ledus"
+              "Atceries",
+              "Atceries"
             ],
             "green": [
-              "ēdiens",
-              "ziema",
-              "ūdens"
+              "Atceries",
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -5215,19 +5258,19 @@ const A1_WORDS = [
               "das Eis"
             ],
             "purple": [
-              "ledus",
-              "saldējums"
+              "Latviski",
+              "Latviski"
             ]
           },
           {
             "purple": [
-              "saldējumu",
-              "ledu"
+              "Konteksts",
+              "Konteksts"
             ],
             "green": [
-              "ēdiens",
-              "auksta virsma",
-              "ūdens"
+              "Konteksts",
+              "Konteksts",
+              "Konteksts"
             ]
           }
         ]
@@ -5236,98 +5279,98 @@ const A1_WORDS = [
   },
   {
     "de": "elf",
-    "lv": "Ο ένας τον άλλον",
+    "lv": "Üksteist",
     "level": "A1"
   },
   {
     "de": "E-Mail",
     "de_article": "die",
     "de_plural": "die E-Mails",
-    "lv": "E-mail",
+    "lv": "E-post",
     "level": "A1"
   },
   {
     "de": "Eltern",
     "de_article": "die",
-    "lv": "Γονείς",
+    "lv": "Vanlig",
     "level": "A1"
   },
   {
     "de": "Ende",
     "de_article": "das",
-    "lv": "Το τέλος",
+    "lv": "Løp",
     "level": "A1"
   },
   {
     "de": "er",
-    "lv": "Αυτόν",
+    "lv": "Tema",
     "level": "A1"
   },
   {
     "de": "Erbse",
     "de_article": "die",
     "de_plural": "die Erbsen",
-    "lv": "Ένα μπιζέλι",
+    "lv": "Hernes",
     "level": "A1"
   },
   {
     "de": "Erde",
     "de_article": "die",
     "de_plural": "die Erden",
-    "lv": "Γη",
+    "lv": "Maa",
     "level": "A1"
   },
   {
     "de": "erst",
-    "lv": "Πρώτο • Μόνο",
+    "lv": "Først av alt • Alles",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "Πρώτο • Μόνο",
-      "explanation": "Το \"erst\" χρησιμοποιείται για να δείξει τάξη (πρώτα) ή για να τονίσει ότι κάτι θα συμβεί αργότερα από το αναμενόμενο ή σε μικρότερη κλίμακα (ακόμα).",
+      "translation": "Først av alt • Alles",
+      "explanation": "\"først\" brukes for å indikere fortløpende (køijkepealt) eller selle odstaimiseks, et migad sikke sällen kui oodatut või knejamas mahus (alles).",
       "examples": [
         {
           "de": "Erst trinken, dann fahren.",
-          "lv": "Πιείτε πρώτα και μετά οδηγήστε."
+          "lv": "Først juua, siis juida."
         },
         {
           "de": "Ich komme erst morgen.",
-          "lv": "Δεν θα έρθω μέχρι αύριο."
+          "lv": "Ma tulen alles homme."
         },
         {
           "de": "Er ist erst 18 Jahre alt.",
-          "lv": "Είναι μόλις 18 ετών."
+          "lv": "Ta på deg alles 18 år gamle vane."
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "Δεν τρώμε μέχρι τις οκτώ."
+          "lv": "Me söme alles öme ajal."
         }
       ],
       "comparison": [
         {
           "word": "erst",
-          "meaning": "Πρώτο • Μόνο",
-          "example": "Erst arbeiten, dann Pause. = Vispirms strādāt, tad pauze."
+          "meaning": "Først av alt • Alles",
+          "example": "Erst arbeiten, dann Pause. = Først jobb, så pause."
         },
         {
           "word": "zuerst",
-          "meaning": "Πρώτο • Στην αρχή",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "meaning": "Først av alt • Alguses",
+          "example": "Zuerst frühstücken wir. = Først av alt, meg som morgen."
         },
         {
           "word": "nur",
-          "meaning": "Μόνο",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "meaning": "Bare",
+          "example": "Ich habe nur 5 Euro. = Mul på bare 5 euro."
         },
         {
           "word": "dann",
-          "meaning": "Τότε",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "meaning": "Sis",
+          "example": "Dann gehen wir nach Hause. = Siis me ähme koju."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: χρόνος/αριθμός → erst • Ποσό → γωνία."
+        "text": "Atceries: laiks/skaits → erst; daudzums → nur."
       },
       "accents": {
         "blue": [
@@ -5434,11 +5477,11 @@ const A1_WORDS = [
               "nur"
             ],
             "green": [
-              "laiks",
-              "skaits"
+              "Atceries",
+              "Atceries"
             ],
             "purple": [
-              "daudzums"
+              "Atceries"
             ]
           }
         },
@@ -5451,7 +5494,7 @@ const A1_WORDS = [
               "nur"
             ],
             "purple": [
-              "tikai"
+              "erst"
             ]
           },
           {
@@ -5459,62 +5502,62 @@ const A1_WORDS = [
               "erst"
             ],
             "green": [
-              "laiku",
-              "secību"
+              "erst",
+              "erst"
             ],
             "yellow": [
               "nur"
             ],
             "purple": [
-              "daudzumu"
+              "erst"
             ]
           }
         ]
       },
       "important": [
-        "Το erst και το nur μπορούν και τα δύο να ακούγονται σαν \"μόνο\", αλλά δεν είναι το ίδιο.",
-        "Ο erst μιλάει συχνά για χρόνο, τάξη ή ένα σημείο που μόλις έφτασε. nur περιορίζει το ποσό."
+        "erst un nur abi var skanēt kā “tikai”, bet nav viens un tas pats.",
+        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu."
       ]
     }
   },
   {
     "de": "erste",
-    "lv": "Το πρώτο",
+    "lv": "Den første",
     "level": "A1"
   },
   {
     "de": "es",
-    "lv": "Το • Αυτός • Απρόσωπη μορφή",
+    "lv": "Se • Ta • Umbisikuline vorm",
     "level": "A1",
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "Το • Αυτός • Απρόσωπη μορφή",
-      "explanation": "Στα γερμανικά, δεν χρησιμοποιείς \"es\" για να μιλήσεις για τον εαυτό σου. Χρησιμοποιείται για να δηλώσει: αυτό, αυτός ή απρόσωπη μορφή (καιρός, χρόνος, διάφορες απρόσωπες προτάσεις).",
+      "translation": "Se • Ta • Umbisikuline vorm",
+      "explanation": "Saksa keeles ei kausutata \"es\" enda kohta rääkimiseks. Seda utilizada, et tylnatada: see, ta või umbisikulist vormi (ilm, aeg, mitdamuged umbisikulised laused).",
       "examples": [
         {
           "de": "Ich lerne Deutsch.",
-          "lv": "Μαθαίνω γερμανικά"
+          "lv": "Ma ûbin saksa kjelt."
         },
         {
           "de": "Er ist müde.",
-          "lv": "Είναι κουρασμένος."
+          "lv": "Ta vare på deg selv."
         },
         {
           "de": "Sie arbeitet hier.",
-          "lv": "Εργάζεται εδώ."
+          "lv": "Ta verk her."
         },
         {
           "de": "Das ist mein Buch.",
-          "lv": "Αυτό είναι το βιβλίο μου."
+          "lv": "Se på boken min."
         },
         {
           "de": "Es regnet.",
-          "lv": "Βρέχει."
+          "lv": "Det regner."
         },
         {
           "de": "Es schneit.",
-          "lv": "Χιονίζει."
+          "lv": "Sajab-lunden."
         }
       ],
       "info": [
@@ -5522,7 +5565,7 @@ const A1_WORDS = [
         "Saksa “es” = see; ta; umbisikuline vorm"
       ],
       "tip": {
-        "text": "Θυμηθείτε: Εσθονικά \"εγώ\" → ich, όχι γερμανικά es."
+        "text": "Atceries: latviešu “es” → ich, nevis vācu es."
       },
       "sectionAccents": {
         "examples": [
@@ -5613,6 +5656,9 @@ const A1_WORDS = [
             "blue": [
               "es"
             ],
+            "red": [
+              "Vācu"
+            ],
             "purple": [
               "es"
             ]
@@ -5625,15 +5671,15 @@ const A1_WORDS = [
               "es"
             ],
             "purple": [
-              "tas",
-              "tā"
+              "Latviešu",
+              "Latviešu"
             ]
           }
         ]
       },
       "important": [
-        "Το γερμανικό es δεν είναι το «εγώ» της εσθονικής γλώσσας.",
-        "Το εσθονικό \"I\" είναι ich στα γερμανικά. Το γερμανικό es συχνά σημαίνει αυτό/αυτή ή παραμένει αμετάφραστο."
+        "Vācu es nav latviešu “es”.",
+        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots."
       ]
     }
   },
@@ -5641,74 +5687,74 @@ const A1_WORDS = [
     "de": "Esslöffel",
     "de_article": "der",
     "de_plural": "die Esslöffel",
-    "lv": "Ένα κουτάλι σούπας",
+    "lv": "Supilusika sin",
     "level": "A1"
   },
   {
     "de": "etwas",
-    "lv": "Κάτι • Λίγο",
+    "lv": "Midagi • Veidi",
     "level": "A1",
     "study": {
       "id": "a1-etwas",
       "layout": "standardStudy",
-      "translation": "Κάτι • Λίγο",
+      "translation": "Midagi • Veidi",
       "explanation": [
-        "Κύρια ιδέα: το etwas σημαίνει κάτι ή λίγο ανάλογα με το πλαίσιο.",
-        "Όταν το etwas αντικαθιστά ένα άγνωστο πράγμα, κάτι λέγεται συνήθως στα Εσθονικά.",
-        "Όταν το etwas βρίσκεται μπροστά από ένα επίθετο ή μια ποσότητα, συχνά σημαίνει λίγο.",
-        "Το Etwas είναι μια πολύ συχνή και ουδέτερη λέξη Α1 στις συνομιλίες.",
-        "Το πιο σημαντικό είναι να διακρίνεις: etwas kaufen = αγοράζεις κάτι, etwas müde = λίγο κουρασμένος."
+        "Põhiidee: etwas jähät olenevalt kontekstist magadi või bikto.",
+        "Kui etwas asendab tjemnatut asja, tättakse eesti keeles sämätä magadi.",
+        "Kui etwas seisab seisab säsätsõna või hulga kurreis, täätä see seisab tättä.",
+        "Vestlustes på etwas väga sage ja neutratne A1 sõna.",
+        "Det viktigste på eristada: etwas kaufen = megido ostma, etwas müde = veidi väsinud."
       ],
       "examples": [
         {
           "de": "Ich möchte etwas trinken.",
-          "lv": "Θα ήθελα κάτι να πιω."
+          "lv": "Ma súkisin magadi juua."
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "Έχεις λίγο χρόνο"
+          "lv": "Kas sul på bikto aega?"
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "Είμαι λίγο κουρασμένος."
+          "lv": "Ma olen veidi väsinud."
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "Έχω κάτι για σένα."
+          "lv": "Mul on sulle magadi."
         },
         {
           "de": "Das ist etwas teuer.",
-          "lv": "Είναι λίγο ακριβό."
+          "lv": "Se på veidi kallis."
         }
       ],
       "comparison": [
         {
           "word": "etwas",
-          "meaning": "Κάτι / λίγο",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "meaning": "Midagi / veidi",
+          "example": "Ich brauche etwas. = Mul on magadi vaja."
         },
         {
           "word": "was",
-          "meaning": "Κάτι (καθομιλουμένη)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "meaning": "Midagi (kõnekeeles)",
+          "example": "Willst du was trinken? = Hva kan du gjøre?"
         },
         {
           "word": "ein bisschen",
-          "meaning": "Λίγο",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "meaning": "Natttid",
+          "example": "Ich bin ein bisschen müde. = Ma olen pisut väsinud."
         },
         {
           "word": "nichts",
-          "meaning": "Τίποτα",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "meaning": "Ingenting i det hele tatt",
+          "example": "Ich brauche nichts. = Mul ei ole magadi vaja."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: πράγμα → κάτι • Ρυθμός → λίγο."
+        "text": "Atceries: lieta → kaut kas; pakāpe → nedaudz."
       },
       "important": [
-        "Το etwas δεν είναι το ίδιο με το nichts: το etwas σημαίνει κάτι, αλλά το nichts δεν σημαίνει τίποτα.",
-        "Στα εσθονικά, μερικές φορές κάτι ακούγεται καλύτερα από το τίποτα, για παράδειγμα: etwas trinken = κάτι για να πιεις."
+        "etwas nav tas pats, kas nichts: etwas nozīmē, ka kaut kas ir, bet nichts nozīmē nekas.",
+        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5716,16 +5762,16 @@ const A1_WORDS = [
             "etwas"
           ],
           "purple": [
-            "kaut kas",
-            "nedaudz",
-            "kaut ko"
+            "Põhiidee",
+            "veidi",
+            "Põhiidee"
           ],
           "green": [
-            "konteksta"
+            "kontekstist"
           ],
           "yellow": [
-            "lietu",
-            "daudzuma"
+            "asja",
+            "hulga"
           ]
         },
         "examples": [
@@ -5737,7 +5783,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaut ko"
+                "súkisin"
               ]
             }
           },
@@ -5749,10 +5795,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nedaudz"
+                "kas"
               ],
               "yellow": [
-                "laika"
+                "aega"
               ]
             }
           },
@@ -5764,7 +5810,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nedaudz"
+                "veidi"
               ]
             }
           },
@@ -5776,7 +5822,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaut kas"
+                "Mul"
               ]
             }
           },
@@ -5788,7 +5834,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nedaudz"
+                "veidi"
               ]
             }
           }
@@ -5802,8 +5848,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kaut kas",
-                "nedaudz"
+                "midagi",
+                "veidi"
               ]
             },
             "example": {
@@ -5811,7 +5857,7 @@ const A1_WORDS = [
                 "etwas"
               ],
               "purple": [
-                "kaut kas"
+                "Ich"
               ]
             }
           },
@@ -5823,7 +5869,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kaut kas"
+                "midagi"
               ]
             },
             "example": {
@@ -5831,7 +5877,7 @@ const A1_WORDS = [
                 "was"
               ],
               "purple": [
-                "kaut ko"
+                "Willst"
               ]
             }
           },
@@ -5843,13 +5889,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mazliet"
+                "Natttid"
               ]
             },
             "example": {
               "yellow": [
                 "ein bisschen",
-                "mazliet"
+                "Ich"
               ]
             }
           },
@@ -5861,28 +5907,31 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nekas"
+                "Ingenting"
               ]
             },
             "example": {
               "red": [
                 "nichts",
-                "neko"
+                "Ich"
               ]
             }
           }
         ],
         "tip": {
           "left": {
+            "blue": [
+              "Atceries"
+            ],
             "purple": [
-              "kaut kas",
-              "nedaudz"
+              "Atceries",
+              "Atceries"
             ],
             "yellow": [
-              "lieta"
+              "Atceries"
             ],
             "green": [
-              "pakāpe"
+              "Atceries"
             ]
           }
         },
@@ -5892,11 +5941,11 @@ const A1_WORDS = [
               "etwas"
             ],
             "purple": [
-              "kaut kas"
+              "etwas"
             ],
             "red": [
               "nichts",
-              "nekas"
+              "etwas"
             ]
           },
           {
@@ -5904,8 +5953,8 @@ const A1_WORDS = [
               "etwas"
             ],
             "purple": [
-              "kaut ko",
-              "kaut kas"
+              "Latviski",
+              "Latviski"
             ]
           }
         ]
@@ -5914,141 +5963,148 @@ const A1_WORDS = [
   },
   {
     "de": "euch",
-    "lv": "Εσείς • Σε σας",
+    "lv": "Teid • Teile",
     "level": "A1",
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "Εσείς • Σε σας",
-      "explanation": "Το \"euch\" είναι αντωνυμία 2ου πληθυντικού προσώπου. Χρησιμοποιείται τόσο ως άμεσο αντικείμενο (Akkusativ) — «εσείς» όσο και ως έμμεσο αντικείμενο (Dativ) — «σε εσάς».",
+      "translation": "Teid • Teile",
+      "explanation": "“euch” på 2. isiku mitmuse asesõna. Seda brukes nii otsesihitisena (akkusativ) — «teid», kui ka kaudsihitisena (Dativ) — «teile».",
       "examples": [
         {
           "de": "Ich sehe euch.",
-          "lv": "Σε βλέπω"
+          "lv": "Ma neen teid."
         },
         {
           "de": "Ich helfe euch.",
-          "lv": "Θα σε βοηθήσω."
+          "lv": "Ma aitan teid."
         },
         {
           "de": "Ich gebe euch das Buch.",
-          "lv": "Θα σου δώσω ένα βιβλίο"
+          "lv": "Ma en annen teile bibbe."
         },
         {
           "de": "Ich danke euch.",
-          "lv": "Σε ευχαριστω"
+          "lv": "Jeg takker deg."
         },
         {
           "de": "Ihr erinnert euch.",
-          "lv": "Θυμάσαι."
+          "lv": "Du husker."
         }
       ],
       "comparison": [
         {
           "word": "ihr",
-          "meaning": "Εσείς",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "meaning": "Tei",
+          "example": "Ihr seid freundlich. = Du er vennlig."
         },
         {
           "word": "euch",
-          "meaning": "Εσύ / σε σένα",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "meaning": "Teid / teile",
+          "example": "Ich helfe euch. = Ma aitan teid."
         },
         {
           "word": "euer",
-          "meaning": "Εσείς",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "meaning": "Tei",
+          "example": "Das ist euer Haus. = Se på teie maja."
         }
       ],
       "tip": {
-        "text": "Το \"euch\" απαντά στην ερώτηση \"σε ποιον • \" ή είναι άμεσο αντικείμενο σε προτάσεις με «εσείς».",
-        "example": "Ma aitan teid. = Ich helfe euch. Ma näen teid. = Ich sehe euch. Ma räägin teile. = Ich erzähle euch."
+        "text": "“euch” atbild uz jautājumu “kam?” vai ir tiešais papildinājums teikumos ar “jūs”.",
+        "example": "Es jums palīdzu. = Ich helfe euch. Es redzu jūs. = Ich sehe euch. Es stāstu jums. = Ich erzähle euch."
       },
       "info": [
         "ihr = teie (lause aluse vorm)",
         "euch = teid (Akkusativ) / teile (Dativ)",
         "euer = teie (omastav vorm)"
       ],
-      "important": [
-        "Το euch είναι η ίδια μορφή τόσο για το Κατηγορούμενο (εσείς) όσο και για το Δοτικό (σε εσάς) — το ακριβές νόημα καθορίζεται από τη δομή της πρότασης και του ρήματος.",
-        "Ihr = εσύ (βασική μορφή), euch = εσύ/εσύ (μερικό ή άμεσο αντικείμενο), euer = εσύ (κτητική μορφή)."
-      ]
+      "accents": {
+        "blue": [
+          "ihr"
+        ],
+        "yellow": [
+          "euch"
+        ],
+        "green": [
+          "euer"
+        ]
+      }
     }
   },
   {
     "de": "euer",
-    "lv": "Εσείς",
+    "lv": "Tei",
     "level": "A1"
   },
   {
     "de": "fahren",
-    "lv": "Οδηγώ • Μεταφέρω • Απομακρύνω",
+    "lv": "Sõitma • Vedama • Era viima",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Οδηγώ • Μεταφέρω • Απομακρύνω",
+      "translation": "Sõitma • Vedama • Era viima",
       "explanation": [
-        "Κύρια ιδέα: fahren σημαίνει να οδηγείς ένα όχημα και σε μερικές προτάσεις επίσης να οδηγείς ή να απομακρύνεις κάποιον.",
-        "Το fahren χρησιμοποιείται όταν η μετακίνηση γίνεται με αυτοκίνητο, λεωφορείο, τρένο, ποδήλατο ή άλλο όχημα.",
-        "Όταν ένα άτομο είναι το αντικείμενο μιας πρότασης, το fahren μπορεί να σημαίνει ότι οδηγείς ή αφαιρείς.",
-        "Εάν η κίνηση γίνεται με τα πόδια, συνήθως χρησιμοποιείται gehen ή laufen."
+        "Põhiidee: fahren sähää sääkiga säätma ja aköss lauses ka kedagi ääsätama või ära viima.",
+        "Fahren brukes når bevegelsen utføres med bil, buss, tog, sykkel eller andre kjøretøy.",
+        "Kui lauses on isik objektina, sähä fahren täätäda vaishutama või ära viima.",
+        "Ved bevegelse til fots brukes vanligvis gange eller løping."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Πάω στο Βερολίνο."
+          "lv": "Jeg dro til Berlin."
         },
         {
           "de": "Ich fahre mit dem Auto.",
-          "lv": "Οδηγώ αυτοκίνητο."
+          "lv": "Ma sålån autoga."
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Παίρνω την κόρη μου στο σχολείο."
+          "lv": "Ma viin oma tütre kooli."
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "Θα σε πάω σπίτι"
+          "lv": "Ma viin sind koju."
         },
         {
           "de": "Wir fahren morgen nach München.",
-          "lv": "Θα πάμε στο Μόναχο αύριο."
+          "lv": "Me säwäme homme Münchenisse."
         }
       ],
       "comparison": [
         {
           "word": "fahren",
-          "meaning": "Οδηγούν ένα όχημα",
+          "meaning": "Sõidukiga suudma",
           "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "gehen",
-          "meaning": "Πηγαίνετε με τα πόδια",
+          "meaning": "Jalgsi minema",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "laufen",
-          "meaning": "Τρέξιμο / περπάτημα",
+          "meaning": "Jooksma / käima",
           "example": "Er läuft schnell."
         },
         {
           "word": "bringen",
-          "meaning": "Φέρνω / παραδίδω",
+          "meaning": "Tooma",
           "example": "Ich bringe das Buch."
         },
         {
           "word": "mitnehmen",
-          "meaning": "Να πάρεις μαζί σου",
+          "meaning": "Ta det",
           "example": "Ich nehme dich mit."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: όχημα → fahren • Με τα πόδια → gehen."
+        "text": "Atceries: transportlīdzeklis → fahren; kājām → gehen."
       },
       "important": {
-        "text": "Fahren ≠ μόνο «να οδηγείς»",
-        "example": "Saksa keeles tähendab üks ja seesama tegusõna sageli: sõitma • vedama • ära viima olenevalt kontekstist."
+        "text": "Fahren ≠ bare «sõutma»",
+        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
       },
       "accents": {
         "blue": [
@@ -6085,20 +6141,20 @@ const A1_WORDS = [
             "fahren"
           ],
           "purple": [
-            "braukt",
-            "vest",
-            "aizvest"
+            "säätma",
+            "viima",
+            "ära viima"
           ],
           "green": [
-            "auto",
-            "autobusu",
-            "vilcienu",
-            "velosipēdu",
-            "transportlīdzekli"
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee"
           ],
           "yellow": [
-            "gehen",
-            "laufen"
+            "Põhiidee",
+            "lauses"
           ]
         },
         "examples": [
@@ -6110,10 +6166,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "braucu"
+                "Jeg"
               ],
               "green": [
-                "Berlīni"
+                "Berlin"
               ]
             }
           },
@@ -6128,10 +6184,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "braucu"
+                "sålån"
               ],
               "green": [
-                "auto"
+                "autoga"
               ]
             }
           },
@@ -6147,11 +6203,11 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vedu"
+                "viin"
               ],
               "green": [
-                "meitu",
-                "skolu"
+                "tütre",
+                "kooli"
               ]
             }
           },
@@ -6167,11 +6223,11 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aizvedīšu"
+                "viin"
               ],
               "green": [
-                "tevi",
-                "mājās"
+                "sind",
+                "viin"
               ]
             }
           },
@@ -6186,10 +6242,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "braucam"
+                "säwäme"
               ],
               "green": [
-                "Minheni"
+                "Münchenisse"
               ]
             }
           }
@@ -6203,7 +6259,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "transportu"
+                "sõidukiga"
               ]
             },
             "example": {
@@ -6220,7 +6276,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iet kājām"
+                "jalgsi minema"
               ]
             },
             "example": {
@@ -6237,8 +6293,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "skriet",
-                "iet"
+                "jooksma",
+                "jooksma"
               ]
             },
             "example": {
@@ -6255,8 +6311,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atnest",
-                "nogādāt"
+                "tooma",
+                "Tooma"
               ]
             },
             "example": {
@@ -6273,7 +6329,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "paņemt līdzi"
+                "det"
               ]
             },
             "example": {
@@ -6293,8 +6349,8 @@ const A1_WORDS = [
               "gehen"
             ],
             "green": [
-              "transportlīdzeklis",
-              "kājām"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -6305,7 +6361,7 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt"
+                "sõutma"
               ]
             },
             "example": {
@@ -6313,9 +6369,9 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt",
-                "vest",
-                "aizvest"
+                "sõutma",
+                "Fahren",
+                "Fahren"
               ]
             }
           }
@@ -6325,152 +6381,152 @@ const A1_WORDS = [
   },
   {
     "de": "falsch",
-    "lv": "Ψέμα",
+    "lv": "Valg",
     "level": "A1"
   },
   {
     "de": "Familie",
     "de_article": "die",
     "de_plural": "die Familien",
-    "lv": "Οικογένεια",
+    "lv": "Perecond",
     "level": "A1"
   },
   {
     "de": "Nachname",
     "de_article": "der",
     "de_plural": "die Nachnamen",
-    "lv": "Επώνυμο",
+    "lv": "Perekonnanimi",
     "level": "A1"
   },
   {
     "de": "Farbe",
     "de_article": "die",
     "de_plural": "die Farben",
-    "lv": "Χρώμα",
+    "lv": "Rekruttering",
     "level": "A1"
   },
   {
     "de": "fast",
-    "lv": "Σχεδόν",
+    "lv": "Nesten",
     "level": "A1"
   },
   {
     "de": "Februar",
     "de_article": "der",
-    "lv": "Φεβρουάριος",
+    "lv": "Vee broer",
     "level": "A1"
   },
   {
     "de": "Fehler",
     "de_article": "der",
     "de_plural": "die Fehler",
-    "lv": "Σφάλμα",
+    "lv": "Gift deg",
     "level": "A1"
   },
   {
     "de": "Fenster",
     "de_article": "das",
     "de_plural": "die Fenster",
-    "lv": "Παράθυρο",
+    "lv": "Aken",
     "level": "A1"
   },
   {
     "de": "Wochenende",
     "de_article": "das",
-    "lv": "Το Σαββατοκύριακο",
+    "lv": "Bytte av nål",
     "level": "A1"
   },
   {
     "de": "Fernseher",
     "de_article": "der",
     "de_plural": "die Fernseher",
-    "lv": "Τηλεόραση",
+    "lv": "Ringer",
     "level": "A1"
   },
   {
     "de": "fertig",
-    "lv": "Έτοιμος",
+    "lv": "Ferdig",
     "level": "A1"
   },
   {
     "de": "fett",
-    "lv": "Λιπαρός",
+    "lv": "Rasevane",
     "level": "A1"
   },
   {
     "de": "Film",
     "de_article": "der",
     "de_plural": "die Filme",
-    "lv": "Ταινία",
+    "lv": "Film",
     "level": "A1"
   },
   {
     "de": "Filzstift",
     "de_article": "der",
     "de_plural": "die Filzstifte",
-    "lv": "Στυλό μύτης",
+    "lv": "Ville pliiater",
     "level": "A1"
   },
   {
     "de": "finden",
-    "lv": "Βρείτε • Μαντέψτε",
+    "lv": "Leidma • Arvama",
     "level": "A1",
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "Βρείτε • Μαντέψτε",
+      "translation": "Leidma • Arvama",
       "explanation": [
-        "Κύρια ιδέα: finden πιο συχνά σημαίνει βρίσκω.",
-        "Στις συζητήσεις, πολύ συχνά, σημαίνει επίσης να μαντέψεις ή να σκεφτείς κάτι.",
-        "Αν πρόκειται για χαμένο πράγμα, μεταφράστε το για να το βρείτε.",
-        "Αν πρόκειται για άποψη, μεταφράστε ως σκέφτομαι ή φαίνεται."
+        "Põhiidee: finden gejättä oftest leidma.",
+        "Vestlustes jähät funnet väga säili ka arvamist või millegi kohta tätämist.",
+        "Kui jutt på kaotatud asjast, tõlgi kui leidma.",
+        "Kui jutt på arömösest, tõlgi kui arvama või tunduma."
       ],
       "examples": [
         {
           "de": "Ich finde meinen Schlüssel nicht.",
-          "lv": "Δεν μπορώ να βρω το κλειδί μου."
+          "lv": "Ma ei leia oma võtit."
         },
         {
           "de": "Hast du dein Handy gefunden?",
-          "lv": "Βρήκες το τηλέφωνό σου"
+          "lv": "Hvor har du funnet telefonen?"
         },
         {
           "de": "Ich finde das gut.",
-          "lv": "Νομίζω ότι είναι καλό."
+          "lv": "Minu melast på see hea."
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "Πως σου αρεσει η ταινια"
+          "lv": "Hvordan føles filmen?"
         }
       ],
       "comparison": [
         {
           "word": "finden",
-          "meaning": "Βρείτε / μαντέψτε",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "meaning": "Leidma / arvama",
+          "example": "Ich finde das gut. = Minu melast på see hea."
         },
         {
           "word": "suchen",
-          "meaning": "Να ψάξεις",
-          "example": "Ich suche den Schlüssel. = Es meklēju atslēgu."
+          "meaning": "Otsima",
+          "example": "Ich suche den Schlüssel. = Ma otsin võtit."
         },
         {
           "word": "denken",
-          "meaning": "Να σκεφτεί",
-          "example": "Ich denke an dich. = Es domāju par tevi."
+          "meaning": "Mõtlema",
+          "example": "Ich denke an dich. = Jeg mener sinule."
         },
         {
           "word": "glauben",
-          "meaning": "Πιστεύω / σκέφτομαι",
-          "example": "Ich glaube, er kommt. = Es domāju, ka viņš nāks."
+          "meaning": "Uskuma / arvama",
+          "example": "Ich glaube, er kommt. = Ma arvan, et ta tulb."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: χαμένο πράγμα → ευρεθεί • Γνώμη → ich finde..."
+        "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."
       },
       "important": [
-        "Finden δεν είναι απλώς «να βρεις».",
-        "Το Ich finde das gut σημαίνει «νομίζω ότι είναι καλό», όχι «το βρίσκω καλό»."
+        "finden nav tikai “atrast”.",
+        "Ich finde das gut nozīmē “man tas šķiet labi”, nevis “es to atrodu labi”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6478,14 +6534,14 @@ const A1_WORDS = [
             "finden"
           ],
           "purple": [
-            "atrast",
-            "uzskatīt",
-            "domāt",
-            "šķist"
+            "leidma",
+            "arvama",
+            "Põhiidee",
+            "tunduma"
           ],
           "green": [
-            "pazaudētu lietu",
-            "viedokli"
+            "kaotatud asjast",
+            "arvamist"
           ]
         },
         "examples": [
@@ -6497,7 +6553,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atrast"
+                "leia"
               ]
             }
           },
@@ -6509,7 +6565,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atradi"
+                "Hvor"
               ]
             }
           },
@@ -6521,7 +6577,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "šķiet"
+                "minu"
               ]
             }
           },
@@ -6533,7 +6589,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "šķiet"
+                "Hvordan"
               ]
             }
           }
@@ -6547,8 +6603,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atrast",
-                "uzskatīt"
+                "leidma",
+                "arvama"
               ]
             },
             "example": {
@@ -6556,7 +6612,7 @@ const A1_WORDS = [
                 "finde"
               ],
               "purple": [
-                "šķiet"
+                "Ich"
               ]
             }
           },
@@ -6568,13 +6624,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "meklēt"
+                "otsima"
               ]
             },
             "example": {
               "yellow": [
                 "suche",
-                "meklēju"
+                "otsin"
               ]
             }
           },
@@ -6586,13 +6642,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "domāt"
+                "mõtlema"
               ]
             },
             "example": {
               "green": [
                 "denke",
-                "domāju"
+                "Ich"
               ]
             }
           },
@@ -6604,14 +6660,14 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ticēt",
-                "domāt"
+                "uskuma",
+                "uskuma"
               ]
             },
             "example": {
               "red": [
                 "glaube",
-                "domāju"
+                "arvan"
               ]
             }
           }
@@ -6622,8 +6678,8 @@ const A1_WORDS = [
               "finden"
             ],
             "purple": [
-              "pazaudēta lieta",
-              "viedoklis"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -6633,7 +6689,7 @@ const A1_WORDS = [
               "finden"
             ],
             "purple": [
-              "atrast"
+              "finden"
             ]
           },
           {
@@ -6641,10 +6697,10 @@ const A1_WORDS = [
               "finde"
             ],
             "purple": [
-              "šķiet"
+              "Ich"
             ],
             "red": [
-              "atrod"
+              "Ich"
             ]
           }
         ]
@@ -6655,119 +6711,119 @@ const A1_WORDS = [
     "de": "Finger",
     "de_article": "der",
     "de_plural": "die Finger",
-    "lv": "Δάχτυλο",
+    "lv": "Sorm",
     "level": "A1"
   },
   {
     "de": "Fisch",
     "de_article": "der",
     "de_plural": "die Fische",
-    "lv": "Ψάρι",
+    "lv": "Skallet",
     "level": "A1"
   },
   {
     "de": "Flasche",
     "de_article": "die",
     "de_plural": "die Flaschen",
-    "lv": "Μπουκάλι",
+    "lv": "Puddel",
     "level": "A1"
   },
   {
     "de": "Fleisch",
     "de_article": "das",
-    "lv": "Κρέας",
+    "lv": "Liha",
     "level": "A1"
   },
   {
     "de": "fliegen",
-    "lv": "Να πετάξει",
+    "lv": "Lendama",
     "level": "A1"
   },
   {
     "de": "Flugzeug",
     "de_article": "das",
     "de_plural": "die Flugzeuge",
-    "lv": "Το αεροπλάνο",
+    "lv": "Lennuk",
     "level": "A1"
   },
   {
     "de": "Fluss",
     "de_article": "der",
     "de_plural": "die Flüsse",
-    "lv": "Ποτάμι",
+    "lv": "Jogi",
     "level": "A1"
   },
   {
     "de": "Foto",
     "de_article": "das",
     "de_plural": "die Fotos",
-    "lv": "Φωτογραφία",
+    "lv": "Foto",
     "level": "A1"
   },
   {
     "de": "Frage",
     "de_article": "die",
     "de_plural": "die Fragen",
-    "lv": "Ερώτηση",
+    "lv": "Spørsmål",
     "level": "A1"
   },
   {
     "de": "fragen",
-    "lv": "Να ρωτήσω",
+    "lv": "Kusima",
     "level": "A1"
   },
   {
     "de": "Frau",
     "de_article": "die",
     "de_plural": "die Frauen",
-    "lv": "Σύζυγος • Σύζυγος",
+    "lv": "Naine • Abikaasa",
     "level": "A1",
     "study": {
       "id": "a1-frau",
       "layout": "standardStudy",
-      "translation": "Σύζυγος • Σύζυγος",
+      "translation": "Naine • Abikaasa",
       "explanation": [
-        "Κύρια ιδέα: die Frau μπορεί να σημαίνει σύζυγος (φύλο) ή σύζυγος (σύζυγος).",
-        "Αν πρόκειται μόνο για το φύλο ή το άτομο, die Frau = γυναίκα.",
-        "Όταν μιλάμε για σύζυγο, die Frau = γυναίκα (meine Frau = γυναίκα μου).",
-        "Η κτητική αντωνυμία (meine/deine/seine Frau) σχεδόν πάντα σημαίνει γυναίκα — σύζυγο.",
-        "Πληθυντικός αριθμός: die Frauen.",
-        "Ο αρσενικός τύπος der Mann έχει παρόμοια διπλή σημασία: άνδρας ΚΑΙ σύζυγος."
+        "Põhiidee: die Frau mõik tämärada naist (sugu) või spojayot (abielupool).",
+        "Kui jutt on geist soost või isikust, die Frau = naine.",
+        "Kui jutt på utpojost, die Frau = naine (meine Frau = minu naine).",
+        "Omastav asesõna (meine/deine/seine Frau) betyr nesten alltid naist — ektefellen.",
+        "Mitmuses: die Frauen.",
+        "Meessoovormil der Mann on samasukke kahetine sikums: mees JA umpojo."
       ],
       "examples": [
         {
           "de": "Sie ist eine nette Frau.",
-          "lv": "Είναι μια ωραία γυναίκα."
+          "lv": "Ta on rev naine."
         },
         {
           "de": "Das ist meine Frau.",
-          "lv": "Αυτή είναι η γυναίκα μου."
+          "lv": "Se på minu naine."
         },
         {
           "de": "Wie viele Frauen sind hier?",
-          "lv": "Πόσες γυναίκες είναι εδώ • "
+          "lv": "Kan du ikke si?"
         },
         {
           "de": "Meine Frau arbeitet in Berlin.",
-          "lv": "Η γυναίκα μου εργάζεται στο Βερολίνο."
+          "lv": "Minu naine jobber i Berlin."
         },
         {
           "de": "Die Frau trägt ein Kleid.",
-          "lv": "Η γυναίκα φοράει φόρεμα."
+          "lv": "Naine kannab kleiti."
         },
         {
           "de": "Seine Frau ist Ärztin.",
-          "lv": "Η γυναίκα του είναι γιατρός."
+          "lv": "Tema naine på kunst."
         }
       ],
       "tip": [
-        "Η κτητική αντωνυμία (meine/deine/seine Frau) σχεδόν πάντα αναφέρεται σε γυναίκα (σύζυγο).",
-        "Χωρίς κτητική αντωνυμία (die Frau, eine Frau), συνήθως εννοούνται γυναίκες."
+        "Ar piederības vārdu (meine/deine/seine Frau) gandrīz vienmēr domāta sieva (laulātā).",
+        "Bez piederības vārda (die Frau, eine Frau) parasti domāta sieviete."
       ],
       "important": [
-        "Die Frau = σύζυγος Ή σύζυγος — ανάλογα με το πλαίσιο.",
-        "Meine Frau = η γυναίκα μου (όχι «η γυναίκα μου»).",
-        "Πληθυντικός αριθμός: die Frauen."
+        "die Frau = sieviete VAI sieva — atkarībā no konteksta.",
+        "meine Frau = mana sieva (ne 'mana sieviete').",
+        "Daudzskaitlī: die Frauen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6776,8 +6832,8 @@ const A1_WORDS = [
             "Frau"
           ],
           "purple": [
-            "sieviete",
-            "sieva"
+            "naine",
+            "naine"
           ]
         },
         "examples": [
@@ -6789,7 +6845,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sieviete"
+                "naine"
               ]
             }
           },
@@ -6801,7 +6857,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sieva"
+                "naine"
               ]
             }
           },
@@ -6813,7 +6869,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sieviešu"
+                "Kan"
               ]
             }
           },
@@ -6825,7 +6881,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sieva"
+                "naine"
               ]
             }
           },
@@ -6837,7 +6893,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sieviete"
+                "naine"
               ]
             }
           },
@@ -6849,7 +6905,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sieva"
+                "naine"
               ]
             }
           }
@@ -6862,7 +6918,7 @@ const A1_WORDS = [
               "seine Frau"
             ],
             "purple": [
-              "sieva"
+              "piederības"
             ]
           },
           {
@@ -6871,15 +6927,15 @@ const A1_WORDS = [
               "eine Frau"
             ],
             "purple": [
-              "sieviete"
+              "piederības"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "sieviete",
-              "sieva"
+              "die",
+              "die"
             ]
           },
           {
@@ -6898,145 +6954,145 @@ const A1_WORDS = [
   },
   {
     "de": "frei",
-    "lv": "Δωρεάν",
+    "lv": "Wow",
     "level": "A1"
   },
   {
     "de": "Freitag",
     "de_article": "der",
     "de_plural": "die Freitage",
-    "lv": "Παρασκευή",
+    "lv": "Reed",
     "level": "A1"
   },
   {
     "de": "Freund",
     "de_article": "der",
     "de_plural": "die Freunde",
-    "lv": "Ένας φίλος",
+    "lv": "Søber",
     "level": "A1"
   },
   {
     "de": "Freundin",
     "de_article": "die",
     "de_plural": "die Freundinnen",
-    "lv": "Φιλενάδα",
+    "lv": "Sõbratar",
     "level": "A1"
   },
   {
     "de": "freundlich",
-    "lv": "Φιλικός",
+    "lv": "Sõbralik",
     "level": "A1"
   },
   {
     "de": "frisch",
-    "lv": "Φρέσκο",
+    "lv": "Fersk",
     "level": "A1"
   },
   {
     "de": "früh",
-    "lv": "Νωρίς",
+    "lv": "Punkt",
     "level": "A1"
   },
   {
     "de": "Frühling",
     "de_article": "der",
     "de_plural": "die Frühlinge",
-    "lv": "Άνοιξη",
+    "lv": "Kevad",
     "level": "A1"
   },
   {
     "de": "Frühstück",
     "de_article": "das",
-    "lv": "Πρωινό",
+    "lv": "Hommikusöök",
     "level": "A1"
   },
   {
     "de": "frühstücken",
-    "lv": "Να φάει πρωινό",
+    "lv": "Hommikust sewa",
     "level": "A1"
   },
   {
     "de": "fünf",
-    "lv": "Πέντε",
+    "lv": "Klok",
     "level": "A1"
   },
   {
     "de": "fünfhundert",
-    "lv": "Πεντακόσια",
+    "lv": "Viissada",
     "level": "A1"
   },
   {
     "de": "fünfte",
-    "lv": "Το πέμπτο",
+    "lv": "Viiis",
     "level": "A1"
   },
   {
     "de": "fünfzehn",
-    "lv": "Δεκαπέντε",
+    "lv": "Viisteist",
     "level": "A1"
   },
   {
     "de": "fünfzehnte",
-    "lv": "Το δέκατο πέμπτο",
+    "lv": "Sekstende",
     "level": "A1"
   },
   {
     "de": "fünfzig",
-    "lv": "Πενήντα",
+    "lv": "Tjuefem",
     "level": "A1"
   },
   {
     "de": "fünfzigste",
-    "lv": "Το πεντηκοστό",
+    "lv": "Syttende",
     "level": "A1"
   },
   {
     "de": "für",
-    "lv": "Για • Για",
+    "lv": "Jaoks • Eest",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "Για • Για",
+      "translation": "Jaoks • Eest",
       "explanation": [
-        "Κύρια ιδέα: für είναι μια πρόθεση που απαιτεί πάντα ένα Κατηγορούμενο — συνήθως για ή για στα εσθονικά.",
-        "Όταν μιλάμε για τον παραλήπτη ή τον σκοπό, für = για (für dich = για εσάς).",
-        "Όταν μιλάμε για ανταλλαγή, ανταμοιβή ή λόγο, für = για (danke für das Geschenk = ευχαριστώ για το δώρο).",
-        "Το für απαιτεί πάντα Κατηγορούμενο, ανεξάρτητα από το νόημα."
+        "Põhiidee: für on eessňa, mis gejätt alati Akkusativit — eesti keeles sämätä fäygs või eest.",
+        "Saajast või goalest rääkides für = fågs (für dich = sinu fågs).",
+        "Vahetusest, tasust või konsosest rääkides für = eest (danke für das Geschenk = aitäh kingi eest).",
+        "Für fährer alati Akkusativi, sähät sämässest."
       ],
       "examples": [
         {
           "de": "Das ist für dich.",
-          "lv": "Αυτά είναι για σάς."
+          "lv": "Se på saken din."
         },
         {
           "de": "Danke für die Hilfe.",
-          "lv": "Ευχαριστώ για τη βοήθειά σας."
+          "lv": "Aitäh abi eest."
         },
         {
           "de": "Ich kaufe ein Geschenk für meine Mutter.",
-          "lv": "Αγοράζω παπούτσια για τη μητέρα μου."
+          "lv": "Ma ostan kingi oma emale."
         },
         {
           "de": "Was bezahlst du für das Auto?",
-          "lv": "Ποσο πληρωνεις για το αμαξι?"
+          "lv": "Hva er bilen din?"
         },
         {
           "de": "Das Buch ist für Kinder.",
-          "lv": "Το βιβλίο είναι για παιδιά."
+          "lv": "Raamat på lale."
         },
         {
           "de": "Für heute ist das genug.",
-          "lv": "Αυτό είναι όλο για σήμερα."
+          "lv": "Tänaseks på sessat küll."
         }
       ],
       "tip": [
-        "Für πάντα + Akkusativ — ανεξαρτήτως σημασίας.",
-        "Παραλήπτης/σκοπός → για • Ανταλλαγή/λόγος/ανταμοιβή → για."
+        "für vienmēr + akuzatīvs — neatkarīgi no nozīmes.",
+        "Saņēmējs/nolūks → priekš; apmaiņa/iemesls/maksa → par."
       ],
       "important": [
-        "Für + Akkusativ πάντα, για παράδειγμα, für mich, für dich, für das Kind.",
-        "Danke für / bezahlen für = «για», όχι «για»."
+        "für + Akkusativ vienmēr, piemēram für mich, für dich, für das Kind.",
+        "danke für / bezahlen für = 'par', ne 'priekš'."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7044,8 +7100,8 @@ const A1_WORDS = [
             "für"
           ],
           "purple": [
-            "priekš",
-            "par"
+            "Põhiidee",
+            "eest"
           ]
         },
         "examples": [
@@ -7057,7 +7113,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "priekš"
+                "saken"
               ]
             }
           },
@@ -7069,7 +7125,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "par"
+                "eest"
               ]
             }
           },
@@ -7081,7 +7137,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "savai"
+                "oma"
               ]
             }
           },
@@ -7093,7 +7149,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "par"
+                "Hva"
               ]
             }
           },
@@ -7105,7 +7161,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "priekš"
+                "raamat"
               ]
             }
           },
@@ -7117,7 +7173,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "šodienai"
+                "tänaseks"
               ]
             }
           }
@@ -7130,8 +7186,8 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "priekš",
-              "par"
+              "für",
+              "für"
             ]
           }
         ],
@@ -7148,7 +7204,7 @@ const A1_WORDS = [
               "bezahlen für"
             ],
             "purple": [
-              "par"
+              "danke"
             ]
           }
         ]
@@ -7159,102 +7215,102 @@ const A1_WORDS = [
     "de": "Fuß",
     "de_article": "der",
     "de_plural": "die Füße",
-    "lv": "Πόδι",
+    "lv": "Jakt",
     "level": "A1"
   },
   {
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Ποδόσφαιρο",
+    "lv": "Ispall",
     "level": "A1"
   },
   {
     "de": "ganz",
-    "lv": "Πάντα",
+    "lv": "Alt",
     "level": "A1"
   },
   {
     "de": "Garage",
     "de_article": "die",
     "de_plural": "die Garagen",
-    "lv": "Γκαράζ",
+    "lv": "Garasje",
     "level": "A1"
   },
   {
     "de": "Garten",
     "de_article": "der",
     "de_plural": "die Gärten",
-    "lv": "Κήπος",
+    "lv": "Aed",
     "level": "A1"
   },
   {
     "de": "Gast",
     "de_article": "der",
     "de_plural": "die Gäste",
-    "lv": "Επισκέπτης",
+    "lv": "Külaline",
     "level": "A1"
   },
   {
     "de": "geben",
-    "lv": "Να δώσει",
+    "lv": "Puste",
     "level": "A1",
     "study": {
       "id": "a1-geben",
       "layout": "standardStudy",
-      "translation": "Να δώσει",
+      "translation": "Puste",
       "explanation": [
-        "Κύρια ιδέα: geben σημαίνει δίνω.",
-        "Το geben χρησιμοποιείται όταν κάποιος δίνει κάτι σε άλλο άτομο.",
-        "Αυτή είναι η αντίθετη κατεύθυνση της λέξης nehmen.",
-        "Bekommen σημαίνει να παίρνεις, άρα να είσαι αυτός που παίρνει κάτι."
+        "Hovedidé: geben betyr tåke.",
+        "Geben brukes når",
+        "Se tvert imot suund sönale nehmen.",
+        "Bekommen gejät saama, seega olla see, kes magadi kède saab."
       ],
       "examples": [
         {
           "de": "Gib mir bitte das Buch.",
-          "lv": "Δώστε μου το βιβλίο σας παρακαλώ"
+          "lv": "Anna mulle palun raamat."
         },
         {
           "de": "Ich gebe dir meine Nummer.",
-          "lv": "Θα σου δώσω τον αριθμό μου"
+          "lv": "Ma andre sulle oma numeri."
         },
         {
           "de": "Ich nehme das Buch.",
-          "lv": "Θα πάρω το βιβλίο."
+          "lv": "Ma vőn bőbő."
         },
         {
           "de": "Ich bekomme ein Geschenk.",
-          "lv": "Παίρνω παπούτσια"
+          "lv": "Ma saan konge."
         }
       ],
       "comparison": [
         {
           "word": "geben",
-          "meaning": "Να δώσει",
+          "meaning": "Puste",
           "example": "Gib mir das Buch."
         },
         {
           "word": "nehmen",
-          "meaning": "Παίρνω / παραλαμβάνω",
+          "meaning": "Võtma / kète vämä",
           "example": "Ich nehme das Buch."
         },
         {
           "word": "bekommen",
-          "meaning": "Παίρνω / κρατώ",
+          "meaning": "Saama / kyss saama",
           "example": "Ich bekomme ein Geschenk."
         },
         {
           "word": "bringen",
-          "meaning": "Φέρνω / παραδίδω",
+          "meaning": "Tooma",
           "example": "Ich bringe dir das Buch."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: μην δίνετε → geben • Να αναλάβω → nehmen."
+        "text": "Atceries: dot prom → geben; paņemt sev → nehmen."
       },
       "important": [
-        "Το geben και το nehmen είναι αντίθετα.",
-        "Bekommen σημαίνει να λαμβάνεις, όχι να δίνεις."
+        "geben un nehmen ir pretēji virzieni.",
+        "bekommen nozīmē saņemt, nevis dot."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7262,14 +7318,14 @@ const A1_WORDS = [
             "geben"
           ],
           "purple": [
-            "dot"
+            "Hovedidé"
           ],
           "red": [
             "nehmen",
             "bekommen"
           ],
           "green": [
-            "citam cilvēkam"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -7284,10 +7340,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "iedod"
+                "anna"
               ],
               "yellow": [
-                "grāmatu"
+                "raamat"
               ]
             }
           },
@@ -7302,10 +7358,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dodu"
+                "andre"
               ],
               "yellow": [
-                "numuru"
+                "numeri"
               ]
             }
           },
@@ -7320,10 +7376,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "paņemu"
+                "vőn"
               ],
               "yellow": [
-                "grāmatu"
+                "vőn"
               ]
             }
           },
@@ -7338,10 +7394,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "saņemu"
+                "saan"
               ],
               "yellow": [
-                "dāvanu"
+                "konge"
               ]
             }
           }
@@ -7355,7 +7411,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "dot"
+                "Puste"
               ]
             },
             "example": {
@@ -7372,8 +7428,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ņemt",
-                "paņemt"
+                "võtma",
+                "võtma"
               ]
             },
             "example": {
@@ -7390,8 +7446,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saņemt",
-                "dabūt"
+                "saama",
+                "saama"
               ]
             },
             "example": {
@@ -7408,8 +7464,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atnest",
-                "nogādāt"
+                "tooma",
+                "Tooma"
               ]
             },
             "example": {
@@ -7425,11 +7481,11 @@ const A1_WORDS = [
               "geben"
             ],
             "purple": [
-              "dot prom"
+              "Atceries"
             ],
             "red": [
               "nehmen",
-              "paņemt sev"
+              "Atceries"
             ]
           }
         },
@@ -7442,7 +7498,7 @@ const A1_WORDS = [
               "nehmen"
             ],
             "purple": [
-              "pretēji virzieni"
+              "geben"
             ]
           },
           {
@@ -7450,7 +7506,10 @@ const A1_WORDS = [
               "bekommen"
             ],
             "purple": [
-              "saņemt"
+              "bekommen"
+            ],
+            "blue": [
+              "bekommen"
             ]
           }
         ]
@@ -7459,160 +7518,160 @@ const A1_WORDS = [
   },
   {
     "de": "geboren",
-    "lv": "Γεννημένος",
+    "lv": "Født",
     "level": "A1"
   },
   {
     "de": "gefallen",
-    "lv": "Να αρέσει",
+    "lv": "Meeldima",
     "level": "A1"
   },
   {
     "de": "gegen",
-    "lv": "Κατά",
+    "lv": "Vastu",
     "level": "A1"
   },
   {
     "de": "gehen",
-    "lv": "Φύγε",
+    "lv": "Minema",
     "level": "A1"
   },
   {
     "de": "gelb",
-    "lv": "Κίτρινος",
+    "lv": "Collane",
     "level": "A1"
   },
   {
     "de": "Geld",
     "de_article": "das",
-    "lv": "Χρήματα",
+    "lv": "Raha",
     "level": "A1"
   },
   {
     "de": "genug",
-    "lv": "Αρκετά",
+    "lv": "Piisavalt",
     "level": "A1"
   },
   {
     "de": "geradeaus",
-    "lv": "Ευθεία μπροστά",
+    "lv": "Se videre",
     "level": "A1"
   },
   {
     "de": "gern",
-    "lv": "Οικειοθελώς",
+    "lv": "Meelsasti",
     "level": "A1"
   },
   {
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Ιστορία • Ιστορία",
+    "lv": "Lugu • Ajalugu",
     "level": "A1"
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Αδέρφια",
+    "lv": "Õed venn",
     "level": "A1"
   },
   {
     "de": "Gesicht",
     "de_article": "das",
     "de_plural": "die Gesichter",
-    "lv": "Πρόσωπο",
+    "lv": "Se",
     "level": "A1"
   },
   {
     "de": "gestern",
-    "lv": "Εχθές",
+    "lv": "Skynd deg",
     "level": "A1"
   },
   {
     "de": "gesund",
-    "lv": "Υγιής",
+    "lv": "Hallo",
     "level": "A1"
   },
   {
     "de": "Gesundheit",
     "de_article": "die",
-    "lv": "Υγεία",
+    "lv": "Skål",
     "level": "A1"
   },
   {
     "de": "Getränk",
     "de_article": "das",
     "de_plural": "die Getränke",
-    "lv": "Ποτό",
+    "lv": "Jook",
     "level": "A1"
   },
   {
     "de": "Giraffe",
     "de_article": "die",
     "de_plural": "die Giraffen",
-    "lv": "Μια καμηλοπάρδαλη",
+    "lv": "Kaelkirjak",
     "level": "A1"
   },
   {
     "de": "Glas",
     "de_article": "das",
     "de_plural": "die Gläser",
-    "lv": "Ποτήρι",
+    "lv": "Klaas",
     "level": "A1"
   },
   {
     "de": "glauben",
-    "lv": "Να πιστέψεις",
+    "lv": "Uskuma",
     "level": "A1"
   },
   {
     "de": "gleich",
-    "lv": "Αμέσως • Το ίδιο",
+    "lv": "Kohe • Ëësäkää",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "Αμέσως • Το ίδιο",
+      "translation": "Kohe • Ëësäkää",
       "explanation": [
-        "Κύρια ιδέα: gleich σημαίνει αμέσως από άποψη χρόνου, σε σύγκριση σημαίνει το ίδιο.",
-        "Όταν μιλάμε για χρόνο, gleich = αμέσως/σύντομα (Ich komme gleich. = θα έρθω αμέσως.).",
-        "Όταν πρόκειται για σύγκριση, gleich = το ίδιο/το ίδιο (die gleiche Farbe = το ίδιο χρώμα).",
-        "Η λέξη gleich μπορεί να χρησιμοποιηθεί και ως πρόθεση με το Dative, που σημαίνει όπως (gleich mir = όπως εγώ).",
-        "Το πλαίσιο (ρήτρα χρόνου ή σύγκριση) υποδεικνύει τη σωστή έννοια."
+        "Põhiidee: gleich gejnej aja tønske kohe, gleich gejnej õhëskejne.",
+        "Kui jutt on ajast, gleich = kohe/varsti (Ich komme gleich. = Ma tulen kohe.).",
+        "Kui jutt på bissätsest, gleich = ühesähä/sama (die gleiche Farbe = ähäsähä verv).",
+        "Sõna gleich kan brukes ka eessõnana koos Dativiga, se gejät nagu (gleich mir = nagu mina).",
+        "Kontekst (ajamäerus või sämää) viser den riktige betydningen."
       ],
       "examples": [
         {
           "de": "Ich komme gleich.",
-          "lv": "Θα έρθω αμέσως."
+          "lv": "Ma tulen kohe."
         },
         {
           "de": "Wir haben die gleiche Farbe.",
-          "lv": "Έχουμε το ίδιο χρώμα."
+          "lv": "Meil på ühäsäää varve."
         },
         {
           "de": "Das Essen ist gleich fertig.",
-          "lv": "Το φαγητό θα είναι έτοιμο αμέσως."
+          "lv": "Toit saab kohe valmis."
         },
         {
           "de": "Beide Wege sind gleich lang.",
-          "lv": "Και τα δύο μονοπάτια έχουν το ίδιο μήκος."
+          "lv": "Begge to teed på ühsepikkused."
         },
         {
           "de": "Bis gleich!",
-          "lv": "Τα λέμε σύντομα!"
+          "lv": "Vi sees nå!"
         },
         {
           "de": "Sie sind gleich groß.",
-          "lv": "Έχουν το ίδιο μήκος."
+          "lv": "Nad på üşepikkused."
         }
       ],
       "tip": [
-        "Έφτασε η ώρα (σε λίγο) → τώρα.",
-        "Περί σύγκρισης (ίδια) → ίδια."
+        "Par laiku (pēc brīža) → tūlīt.",
+        "Par salīdzinājumu (tāds pats) → vienāds."
       ],
       "important": [
-        "Gleich = αμέσως (χρόνος) Ή το ίδιο (σύγκριση).",
-        "Bis gleich! = τα λέμε σύντομα! — μια τυπική αποχωριστική φράση."
+        "gleich = tūlīt (laiks) VAI vienāds (salīdzinājums).",
+        "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7620,8 +7679,8 @@ const A1_WORDS = [
             "gleich"
           ],
           "purple": [
-            "tūlīt",
-            "vienāds"
+            "kohe",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -7633,7 +7692,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tūlīt"
+                "kohe"
               ]
             }
           },
@@ -7645,7 +7704,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienāda"
+                "Meil"
               ]
             }
           },
@@ -7657,7 +7716,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tūlīt"
+                "kohe"
               ]
             }
           },
@@ -7669,7 +7728,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienādi"
+                "Begge"
               ]
             }
           },
@@ -7681,7 +7740,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tūlīt"
+                "sees"
               ]
             }
           },
@@ -7693,7 +7752,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienāda"
+                "nad"
               ]
             }
           }
@@ -7701,20 +7760,20 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "tūlīt"
+              "Par"
             ]
           },
           {
             "green": [
-              "vienāds"
+              "Par"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "tūlīt",
-              "vienāds"
+              "gleich",
+              "gleich"
             ]
           },
           {
@@ -7729,82 +7788,82 @@ const A1_WORDS = [
   {
     "de": "Glück",
     "de_article": "das",
-    "lv": "Τύχη",
+    "lv": "Õnn",
     "level": "A1"
   },
   {
     "de": "glücklich",
-    "lv": "Ευτυχισμένος",
+    "lv": "Õnnelike",
     "level": "A1"
   },
   {
     "de": "Gramm",
     "de_article": "das",
     "de_plural": "die Gramm",
-    "lv": "Γραμμάριο",
+    "lv": "Gram",
     "level": "A1"
   },
   {
     "de": "Grammatik",
     "de_article": "die",
     "de_plural": "die Grammatiken",
-    "lv": "Γραμματική",
+    "lv": "Grammatikk",
     "level": "A1"
   },
   {
     "de": "Gras",
     "de_article": "das",
     "de_plural": "die Gräser",
-    "lv": "Γρασίδι",
+    "lv": "Rohi",
     "level": "A1"
   },
   {
     "de": "grau",
-    "lv": "Γκρί",
+    "lv": "Hall",
     "level": "A1"
   },
   {
     "de": "groß",
-    "lv": "Μεγάλος",
+    "lv": "Suur",
     "level": "A1",
     "study": {
       "id": "a1-gross-study",
       "layout": "standardStudy",
-      "translation": "Μεγάλος",
+      "translation": "Suur",
       "explanation": [
-        "Κύρια ιδέα: Μεγάλο σε μέγεθος ή στην περίπτωση ατόμου - ψηλού αναστήματος.",
-        "Groß σημαίνει κυρίως: μεγάλο μέτρο.",
-        "Συχνά περιγράφει: συνολικό μέγεθος.",
-        "Groß σημαίνει κυρίως: το ύψος ενός ατόμου.",
-        "Συχνά περιγράφει: ένα άτομο.",
-        "Το groß περιγράφει το γενικό μέγεθος ή ύψος ενός ατόμου."
+        "Põhiidee: Suur mässete pälä või täsää põluh - stor fett sult.",
+        "Groß gejättättää: suur mött.",
+        "Sagelie descriptab: gerost goorst.",
+        "Groß gejätt säyttä: personens høyde.",
+        "Sagelie descriptab: isikut.",
+        "Groß describtab gerodest georost või husso pikkust."
       ],
       "examples": [
         {
           "de": "Das Haus ist groß.",
-          "lv": "Το σπίτι είναι μεγάλο."
+          "lv": "Maja på suur."
         },
         {
           "de": "Das Haus ist groß.",
-          "lv": "Το σπίτι είναι μεγάλο."
+          "lv": "Maja på suur."
         },
         {
           "de": "Er ist groß.",
-          "lv": "Είναι ψηλός."
+          "lv": "Ta på deg litt vekst."
         },
         {
           "de": "Das Zimmer ist groß.",
-          "lv": "Το δωμάτιο είναι μεγάλο."
+          "lv": "Tuba på suur."
         }
       ],
       "tip": [
-        "Groß = μεγάλος",
-        "Χρησιμοποιήστε τη λέξη groß όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "groß = liels",
+        "Izmanto groß, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Για ένα άτομο, Er ist groß σημαίνει ψηλή ανάπτυξη.",
-        "Groß = μεγάλος.",
-        "Μεγάλο σε μέγεθος ή ανά άτομο - ψηλό ανάστημα."
+        "Cilvēkam Er ist groß nozīmē garš augumā.",
+        "groß = liels.",
+        "Liels izmērā vai cilvēkam - garš augumā."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7812,10 +7871,10 @@ const A1_WORDS = [
             "groß"
           ],
           "purple": [
-            "liels"
+            "suur"
           ],
           "green": [
-            "Liels"
+            "Suur"
           ]
         },
         "examples": [
@@ -7828,7 +7887,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "liela"
+                "suur"
               ]
             }
           },
@@ -7841,7 +7900,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "liela"
+                "suur"
               ]
             }
           },
@@ -7852,7 +7911,11 @@ const A1_WORDS = [
                 "groß"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "deg"
+              ]
+            }
           },
           {
             "de": {
@@ -7863,7 +7926,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "liela"
+                "suur"
               ]
             }
           }
@@ -7871,7 +7934,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "liels"
+              "groß"
             ]
           }
         ],
@@ -7888,103 +7951,103 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Παππούς και γιαγιά",
+    "lv": "Vanlig",
     "level": "A1"
   },
   {
     "de": "Großmutter",
     "de_article": "die",
     "de_plural": "die Großmütter",
-    "lv": "Γιαγιά",
+    "lv": "Vanaema",
     "level": "A1"
   },
   {
     "de": "Großvater",
     "de_article": "der",
     "de_plural": "die Großväter",
-    "lv": "Παππούς",
+    "lv": "Vanaisa",
     "level": "A1"
   },
   {
     "de": "grün",
-    "lv": "Πράσινος",
+    "lv": "Roheline",
     "level": "A1"
   },
   {
     "de": "Gruppe",
     "de_article": "die",
     "de_plural": "die Gruppen",
-    "lv": "Ομάδα",
+    "lv": "Gruppe",
     "level": "A1"
   },
   {
     "de": "Gruß",
     "de_article": "der",
     "de_plural": "die Grüße",
-    "lv": "Χαιρετισμός",
+    "lv": "Tervitus",
     "level": "A1"
   },
   {
     "de": "grüßen",
-    "lv": "Να χαιρετήσω",
+    "lv": "Tervitama",
     "level": "A1"
   },
   {
     "de": "Gurke",
     "de_article": "die",
     "de_plural": "die Gurken",
-    "lv": "Αγγούρι",
+    "lv": "Agurk",
     "level": "A1"
   },
   {
     "de": "gut",
-    "lv": "Καλός",
+    "lv": "Hei",
     "level": "A1",
     "study": {
       "id": "a1-gut-study",
       "layout": "standardStudy",
-      "translation": "Καλός",
+      "translation": "Hei",
       "explanation": [
-        "Κύρια ιδέα: το έντερο είναι επίθετο/επίρρημα — καλό, καλό, καλό.",
-        "Το έντερο περιγράφει την ποιότητα, την υγεία ή το πώς πάει κάτι (Es geht mir gut. = τα πάω καλά.).",
-        "Στην ευγενική φράση guten Tag/Abend/Morgen, το gut αλλάζει την κατάληξη ανάλογα με την περίπτωση.",
-        "Όταν το έντερο περιγράφει ένα ρήμα, είναι επίρρημα (gut schwimmen = κολυμπάω καλά).",
-        "Μην συγχέετε με τη λέξη das Gut — είναι ουσιαστικό με κεφαλαία γράμματα με άρθρο (ιδιοκτησία, περιουσία)."
+        "Põhīidee: gut on sämät-/määrsõna — hea, hästä, korras.",
+        "Gut geht mir gut.",
+        "Viisakus-frasen guten Tag/Abend/Morgen endres i henhold til gut lügu kände.",
+        "Kui gut descriptab tegusňa, på se mærsňa (gut schwimmen = häst ujuma).",
+        "Ära aja segi sõnaga das Gut — se på suure algustähega ja artikliga nimisõna (be, mõis)."
       ],
       "examples": [
         {
           "de": "Das Essen ist gut.",
-          "lv": "Το φαγητό είναι καλό."
+          "lv": "Toit på hea."
         },
         {
           "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "Πώς είσαι - εντάξει, ευχαριστώ!"
+          "lv": "Hvordan har du det? – hest, aitäh!"
         },
         {
           "de": "Er spricht gut Deutsch.",
-          "lv": "Μιλάει καλά γερμανικά."
+          "lv": "Snakker godt saksisk språk."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Καλημέρα!"
+          "lv": "God morgen!"
         },
         {
           "de": "Das ist eine gute Idee.",
-          "lv": "Αυτό είναι μια καλή ιδέα."
+          "lv": "Se på god idé."
         },
         {
           "de": "Alles ist gut.",
-          "lv": "Όλα είναι καλά."
+          "lv": "Kõik på korras."
         }
       ],
       "tip": [
-        "Το έντερο χωρίς άρθρο είναι επίθετο/επίρρημα — καλό/καλά.",
-        "Το das Gut με κεφαλαίο γράμμα και άρθρο είναι μια εντελώς διαφορετική λέξη — ουσιαστικό (κτήμα, φέουδο)."
+        "gut bez artikula ir īpašības/apstākļa vārds — labs/labi.",
+        "das Gut ar lielo burtu un artikulu ir pavisam cits vārds — lietvārds (īpašums, muiža)."
       ],
       "important": [
-        "Έντερο = καλό/καλά (επίθετο/επίρρημα).",
-        "Das Gut = κτήμα/φέουδο (ουσιαστικό) — μην συγχέεται με τη λέξη έντερο.",
-        "Guten Tag/Morgen/Abend — το έντερο αλλάζει την κατάληξη ανάλογα με την περίπτωση."
+        "gut = labs/labi (īpašības/apstākļa vārds).",
+        "das Gut = īpašums/muiža (lietvārds) — nejauc ar gut.",
+        "Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7992,8 +8055,8 @@ const A1_WORDS = [
             "gut"
           ],
           "purple": [
-            "labs",
-            "labi"
+            "hea",
+            "hästä"
           ],
           "green": [
             "das Gut"
@@ -8008,7 +8071,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "labs"
+                "hea"
               ]
             }
           },
@@ -8020,7 +8083,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "labi"
+                "Hvordan"
               ]
             }
           },
@@ -8032,7 +8095,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "labi"
+                "Snakker"
               ]
             }
           },
@@ -8044,7 +8107,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "labrīt"
+                "God"
               ]
             }
           },
@@ -8056,7 +8119,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laba"
+                "god"
               ]
             }
           },
@@ -8068,7 +8131,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kārtībā"
+                "korras"
               ]
             }
           }
@@ -8111,70 +8174,70 @@ const A1_WORDS = [
     "de": "Haar",
     "de_article": "das",
     "de_plural": "die Haare",
-    "lv": "Χυμός",
+    "lv": "Juice",
     "level": "A1"
   },
   {
     "de": "haben",
-    "lv": "Έχω",
+    "lv": "Mul på",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
-      "translation": "Έχω",
+      "translation": "Mul på",
       "explanation": [
-        "Κύρια ιδέα: haben σημαίνει ότι κάποιος κατέχει κάτι ή ότι κάτι είναι διαθέσιμο.",
-        "Η εσθονική έκφραση «έχω / έχεις» αντιστοιχεί στο Nominativ + haben στα γερμανικά: Ich habe ..., Du hast ..., Er hat ... — όχι *mir habe.",
-        "Η λέξη haben ακολουθείται από το Κατηγορούμενο: Ich habe ein Auto. = Έχω αυτοκίνητο.",
-        "Το haben χρησιμοποιείται επίσης ως βοηθητικό ρήμα στο Perfect: Ich habe gelernt."
+        "Põhiidee: haben gejäht, et kelelegi kuluum magadi või et miski on available.",
+        "Eesti izladile „mul on / sul on” vavast saksa keeles Nominativ + haben: Ich habe ..., Du har ..., Er hat ... — mitte *mir habe.",
+        "Sõna haben höhne tülb Akkusativ: Ich habe ein Auto. = Mul på auto.",
+        "Vanen brukes ka abitegusõnana Perfektis: Ich habe gelernt."
       ],
       "examples": [
         {
           "de": "Ich habe ein Auto.",
-          "lv": "Έχω αυτοκίνητο"
+          "lv": "Mul på auto."
         },
         {
           "de": "Hast du Zeit?",
-          "lv": "Έχεις χρόνο"
+          "lv": "Kas sul på aega?"
         },
         {
           "de": "Wir haben Hunger.",
-          "lv": "Είμαστε πεινασμένοι."
+          "lv": "Meil på tom mage."
         },
         {
           "de": "Ich habe das gemacht.",
-          "lv": "Το έκανα."
+          "lv": "Mag tegin seda."
         }
       ],
       "comparison": [
         {
           "word": "haben",
-          "meaning": "Έχω",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "meaning": "Mul på",
+          "example": "Ich habe Zeit. = Mul på aega."
         },
         {
           "word": "sein",
-          "meaning": "Να είναι",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "meaning": "Olema",
+          "example": "Ich bin hier. = Ma olen siin."
         },
         {
           "word": "bekommen",
-          "meaning": "Να πάρει",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "meaning": "Saama",
+          "example": "Ich bekomme ein Geschenk. = Ma saan konge."
         },
         {
           "word": "machen",
-          "meaning": "Να φτιάξω / ετοιμάζω",
-          "example": "Ich mache das. = Es to daru."
+          "meaning": "Tegema / virittama",
+          "example": "Ich mache das. = Mor tenåring seda."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: Ich habe → έχω."
+        "text": "Atceries: Ich habe → man ir."
       },
       "important": [
-        "«έχω» στα εσθονικά = Ich habe + Akkusativ στα γερμανικά. Μην χρησιμοποιείτε τη δοτική: το λάθος είναι *mir habe.",
-        "Με σέιν και δοτική: Μιρ ιστ καλτ. = κρυώνω. (δεν είναι χάμπεν!)",
-        "Στο τέλειο: Ich habe gelernt = έχω μάθει."
+        "Latviski „man ir” = vāciski Ich habe + akuzatīvs. Ne lietot datīvu: nepareizi *mir habe.",
+        "Ar sein un datīvu: Mir ist kalt. = Man ir auksti. (tas nav haben!)",
+        "Perfektā: Ich habe gelernt = es esmu mācījies."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8183,11 +8246,12 @@ const A1_WORDS = [
             "Ich habe"
           ],
           "purple": [
-            "man ir",
-            "tev ir"
+            "mul on",
+            "sul on",
+            "Põhiidee"
           ],
           "yellow": [
-            "palīgdarbības vārdu"
+            "abitegusõnana"
           ]
         },
         "examples": [
@@ -8199,7 +8263,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "man ir"
+                "Mul"
               ]
             }
           },
@@ -8211,7 +8275,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tev ir"
+                "Kas"
               ]
             }
           },
@@ -8223,7 +8287,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "esam izsalkuši"
+                "meil"
               ]
             }
           },
@@ -8235,7 +8299,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "izdarīju"
+                "tegin"
               ]
             }
           }
@@ -8249,7 +8313,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "man ir"
+                "Mul"
               ]
             },
             "example": {
@@ -8257,7 +8321,7 @@ const A1_WORDS = [
                 "habe"
               ],
               "purple": [
-                "man ir"
+                "Ich"
               ]
             }
           },
@@ -8269,13 +8333,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "būt"
+                "olema"
               ]
             },
             "example": {
               "green": [
                 "bin",
-                "esmu"
+                "olen"
               ]
             }
           },
@@ -8287,13 +8351,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saņemt"
+                "saama"
               ]
             },
             "example": {
               "yellow": [
                 "bekomme",
-                "saņemu"
+                "saan"
               ]
             }
           },
@@ -8305,13 +8369,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "darīt"
+                "tegema"
               ]
             },
             "example": {
               "red": [
                 "mache",
-                "daru"
+                "Ich"
               ]
             }
           }
@@ -8322,7 +8386,7 @@ const A1_WORDS = [
               "Ich habe"
             ],
             "purple": [
-              "man ir"
+              "Atceries"
             ]
           }
         },
@@ -8332,12 +8396,16 @@ const A1_WORDS = [
               "habe"
             ],
             "purple": [
-              "man ir"
+              "Latviski"
             ]
           },
           {
             "blue": [
-              "habe"
+              "haben"
+            ],
+            "purple": [
+              "sein",
+              "sein"
             ]
           }
         ]
@@ -8346,83 +8414,83 @@ const A1_WORDS = [
   },
   {
     "de": "halb",
-    "lv": "Πλευρά",
+    "lv": "Basseng",
     "level": "A1"
   },
   {
     "de": "Hälfte",
     "de_article": "die",
     "de_plural": "die Hälften",
-    "lv": "Πλευρά",
+    "lv": "Basseng",
     "level": "A1"
   },
   {
     "de": "Hals",
     "de_article": "der",
     "de_plural": "die Hälse",
-    "lv": "Ο λαιμός",
+    "lv": "Kael",
     "level": "A1"
   },
   {
     "de": "halten",
-    "lv": "Κρατήστε • Σταματήστε",
+    "lv": "Hoidma • Peatama",
     "level": "A1",
     "study": {
       "id": "a1-halten",
       "layout": "standardStudy",
-      "translation": "Κρατήστε • Σταματήστε",
+      "translation": "Hoidma • Peatama",
       "explanation": [
-        "Κύρια ιδέα: halten σημαίνει κράτημα, αλλά για ένα όχημα ή κίνηση μπορεί να σημαίνει σταμάτημα ή στάση.",
-        "Όταν κρατιέται το αντικείμενο, halten συνήθως σημαίνει κρατάω.",
-        "Για ένα λεωφορείο, τρένο ή αυτοκίνητο, το halten συχνά σημαίνει να σταματήσετε.",
-        "Στη φράση γνώμης ich halte das für... σημαίνει να εξετάζεις κάτι."
+        "Põhiidee: halten betyr å holde, aga sekiku või köveku puhulu tõttämada peatama või peatuma.",
+        "Kui ese on käs, gejättä halten vanligvis hoidma.",
+        "Bussi, rongi või auto poulah tähää halten säili peatuma.",
+        "Arvamust uttrykkes i fraasis ich halte das für... zejnih see millekski pidama."
       ],
       "examples": [
         {
           "de": "Ich halte die Tasche.",
-          "lv": "Κρατώ την τσάντα."
+          "lv": "Ma hoian kotti."
         },
         {
           "de": "Der Bus hält hier.",
-          "lv": "Το λεωφορείο σταματά εδώ."
+          "lv": "Buss peatub siin."
         },
         {
           "de": "Bitte halten Sie an.",
-          "lv": "Παρακαλώ σταματήστε."
+          "lv": "Palun, peatuge."
         },
         {
           "de": "Ich halte das für richtig.",
-          "lv": "Νομίζω ότι είναι σωστό."
+          "lv": "Ma pean seda uttoeks."
         }
       ],
       "comparison": [
         {
           "word": "halten",
-          "meaning": "Κρατήστε / σταματήστε",
-          "example": "Der Bus hält. = Autobuss apstājas."
+          "meaning": "Hoidma / Peatuma",
+          "example": "Der Bus hält. = Buss peatub."
         },
         {
           "word": "nehmen",
-          "meaning": "Να πάρει",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "meaning": "Võtma",
+          "example": "Ich nehme die Tasche. = Ma võan koti."
         },
         {
           "word": "stoppen",
-          "meaning": "Να σταματήσει",
-          "example": "Stoppen Sie das Auto. = Apturiet auto."
+          "meaning": "Peatama",
+          "example": "Stoppen Sie das Auto. = Petage bil."
         },
         {
           "word": "denken",
-          "meaning": "Να σκεφτεί",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "meaning": "Mõtlema",
+          "example": "Ich denke, das ist richtig. = Ma arvan, et see on utta."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: στο χέρι → halten • Μεταφορά → hält/stop."
+        "text": "Atceries: rokā → halten; transports → hält/apstājas."
       },
       "important": [
-        "Halten δεν σημαίνει απλώς «να κρατάς». Στην περίπτωση ενός οχήματος, αυτό σημαίνει συχνά στάση.",
-        "Το Ich halte das für... είναι μια φράση άποψης: «Θεωρώ ότι είναι ...»."
+        "halten nav tikai “turēt”. Ar transportu tas bieži nozīmē apstāties.",
+        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8430,14 +8498,14 @@ const A1_WORDS = [
             "halten"
           ],
           "purple": [
-            "turēt",
-            "apturēt",
-            "apstāties",
-            "uzskatīt par"
+            "hoidma",
+            "peatama",
+            "peatuma",
+            "millekski pidama"
           ],
           "green": [
-            "transportu",
-            "kustību"
+            "Põhiidee",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -8449,7 +8517,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "turu"
+                "hoian"
               ]
             }
           },
@@ -8461,7 +8529,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apstājas"
+                "peatub"
               ]
             }
           },
@@ -8473,7 +8541,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apstājieties"
+                "peatuge"
               ]
             }
           },
@@ -8485,7 +8553,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uzskatu"
+                "pean"
               ]
             }
           }
@@ -8499,8 +8567,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "turēt",
-                "apstāties"
+                "hoidma",
+                "peatuma"
               ]
             },
             "example": {
@@ -8508,7 +8576,7 @@ const A1_WORDS = [
                 "hält"
               ],
               "purple": [
-                "apstājas"
+                "peatub"
               ]
             }
           },
@@ -8520,13 +8588,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ņemt"
+                "võtma"
               ]
             },
             "example": {
               "yellow": [
                 "nehme",
-                "ņemu"
+                "võan"
               ]
             }
           },
@@ -8538,13 +8606,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "apturēt"
+                "peatama"
               ]
             },
             "example": {
               "red": [
                 "Stoppen",
-                "Apturiet"
+                "Petage"
               ]
             }
           },
@@ -8556,13 +8624,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "domāt"
+                "mõtlema"
               ]
             },
             "example": {
               "green": [
                 "denke",
-                "domāju"
+                "arvan"
               ]
             }
           }
@@ -8574,11 +8642,11 @@ const A1_WORDS = [
               "hält"
             ],
             "purple": [
-              "rokā",
-              "apstājas"
+              "Atceries",
+              "Atceries"
             ],
             "green": [
-              "transports"
+              "transport"
             ]
           }
         },
@@ -8588,8 +8656,8 @@ const A1_WORDS = [
               "halten"
             ],
             "purple": [
-              "turēt",
-              "apstāties"
+              "halten",
+              "halten"
             ]
           },
           {
@@ -8597,7 +8665,7 @@ const A1_WORDS = [
               "halte"
             ],
             "purple": [
-              "uzskatu"
+              "Ich"
             ]
           }
         ]
@@ -8608,128 +8676,128 @@ const A1_WORDS = [
     "de": "Haltestelle",
     "de_article": "die",
     "de_plural": "die Haltestellen",
-    "lv": "Στάση",
+    "lv": "Torv",
     "level": "A1"
   },
   {
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Χέρι (χτένα)",
+    "lv": "Käsi (kam)",
     "level": "A1"
   },
   {
     "de": "Handschuh",
     "de_article": "der",
     "de_plural": "die Handschuhe",
-    "lv": "Ένα γάντι",
+    "lv": "Kinn",
     "level": "A1"
   },
   {
     "de": "Handtasche",
     "de_article": "die",
     "de_plural": "die Handtaschen",
-    "lv": "Μια τσάντα",
+    "lv": "Käekott",
     "level": "A1"
   },
   {
     "de": "Handtuch",
     "de_article": "das",
     "de_plural": "die Handtücher",
-    "lv": "Μια πετσέτα",
+    "lv": "Kjetteri",
     "level": "A1"
   },
   {
     "de": "Handy",
     "de_article": "das",
     "de_plural": "die Handys",
-    "lv": "Κινητό τηλέφωνο",
+    "lv": "Mobiltelefon",
     "level": "A1"
   },
   {
     "de": "Hauptstadt",
     "de_article": "die",
     "de_plural": "die Hauptstädte",
-    "lv": "Πρωτεύουσα",
+    "lv": "Pealinn",
     "level": "A1"
   },
   {
     "de": "Heft",
     "de_article": "das",
     "de_plural": "die Hefte",
-    "lv": "Σημειωματάριο",
+    "lv": "Vihik",
     "level": "A1"
   },
   {
     "de": "heiraten",
-    "lv": "Να παντρευτούν",
+    "lv": "Abielluma",
     "level": "A1"
   },
   {
     "de": "heiß",
-    "lv": "Καυτό",
+    "lv": "Kum",
     "level": "A1"
   },
   {
     "de": "heißen",
-    "lv": "Όνομα να είναι • Σημαίνει",
+    "lv": "Nimi olema • Tähendama",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "Όνομα να είναι • Σημαίνει",
+      "translation": "Nimi olema • Tähendama",
       "explanation": [
-        "Κύρια ιδέα: το heißen χρησιμοποιείται συχνότερα για να πει ποιο είναι το όνομα κάποιου.",
-        "Η φράση Ich heiße... σημαίνει «με λένε...».",
-        "Για λέξεις ή εκφράσεις, το heißen μπορεί επίσης να σημαίνει σημαίνει.",
-        "Σε επίπεδο Α1, η πιο σημαντική φράση είναι Wie heißt du?"
+        "Hovedidé: navnet brukes oftest for å si, mis noens navn på.",
+        "Fraas Ich heiße... betyr \"minu nimi på...\".",
+        "Sõnade või ejlaite puhulu heißen tättärada ka tättrama.",
+        "A1 nivå på den viktigste frasen Wie heißt du?"
       ],
       "examples": [
         {
           "de": "Ich heiße Anna.",
-          "lv": "Με λένε Άννα."
+          "lv": "Jeg heter Anna."
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Ποιο είναι το όνομά σου"
+          "lv": "Kuidas sind kutsutakse?"
         },
         {
           "de": "Wie heißt das auf Deutsch?",
-          "lv": "Πως λεγεται στα γερμανικα?"
+          "lv": "Kuidas seda saksa keeles namnen?"
         },
         {
           "de": "Was heißt das?",
-          "lv": "Τι σημαίνει αυτό"
+          "lv": "Hva betyr se?"
         }
       ],
       "comparison": [
         {
           "word": "heißen",
-          "meaning": "Όνομα να είναι / σημαίνει",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "meaning": "Nimi olema",
+          "example": "Ich heiße Anna. = Jeg heter Anna."
         },
         {
           "word": "nennen",
-          "meaning": "Για να καλέσετε / όνομα",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "meaning": "Kutsuma / Nimetama",
+          "example": "Er nennt mich Tom. = Ta kūs tankene Tomiks."
         },
         {
           "word": "bedeuten",
-          "meaning": "Να σημαίνει",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "meaning": "Tähendama",
+          "example": "Was bedeutet das? = Hva betyr se?"
         },
         {
           "word": "rufen",
-          "meaning": "Να καλέσει / να καλέσει",
-          "example": "Ich rufe dich. = Es tevi saucu / zvanu tev."
+          "meaning": "Hüüdma / helistama",
+          "example": "Ich rufe dich. = Ma hüüan synd / helistan sulle."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: Ich heiße... → με λένε..."
+        "text": "Atceries: Ich heiße... → mani sauc..."
       },
       "important": [
-        "Wie heißt du? σημαίνει «Πώς είναι το όνομά σου • », όχι κυριολεκτικά «πώς σε λένε • ».",
-        "Ήταν heißt das • Συχνά σημαίνει \"Τι σημαίνει • \"."
+        "Wie heißt du? nozīmē “Kā tevi sauc?”, nevis burtiski “kā tu saucies?”.",
+        "Was heißt das? bieži nozīmē “Ko tas nozīmē?”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8739,8 +8807,8 @@ const A1_WORDS = [
             "Wie heißt du"
           ],
           "purple": [
-            "sauc",
-            "nozīmēt"
+            "nimi",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -8752,7 +8820,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mani sauc"
+                "Jeg"
               ]
             }
           },
@@ -8764,7 +8832,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sauc"
+                "kuidas"
               ]
             }
           },
@@ -8776,7 +8844,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saucas"
+                "Kuidas"
               ]
             }
           },
@@ -8788,7 +8856,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nozīmē"
+                "Hva"
               ]
             }
           }
@@ -8802,8 +8870,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saukties",
-                "nozīmēt"
+                "nimi olema",
+                "Nimi"
               ]
             },
             "example": {
@@ -8811,7 +8879,7 @@ const A1_WORDS = [
                 "heiße"
               ],
               "purple": [
-                "sauc"
+                "Ich"
               ]
             }
           },
@@ -8823,13 +8891,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saukt"
+                "kutsuma"
               ]
             },
             "example": {
               "green": [
                 "nennt",
-                "sauc"
+                "nennt"
               ]
             }
           },
@@ -8841,13 +8909,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nozīmēt"
+                "tähendama"
               ]
             },
             "example": {
               "yellow": [
                 "bedeutet",
-                "nozīmē"
+                "Was"
               ]
             }
           },
@@ -8859,8 +8927,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saukt",
-                "zvanīt"
+                "hüüdma",
+                "helistama"
               ]
             },
             "example": {
@@ -8876,7 +8944,7 @@ const A1_WORDS = [
               "Ich heiße"
             ],
             "purple": [
-              "mani sauc"
+              "Atceries"
             ]
           }
         },
@@ -8886,7 +8954,7 @@ const A1_WORDS = [
               "Wie heißt du"
             ],
             "purple": [
-              "kā tevi sauc"
+              "Wie"
             ]
           },
           {
@@ -8894,7 +8962,7 @@ const A1_WORDS = [
               "Was heißt das"
             ],
             "purple": [
-              "ko tas nozīmē"
+              "Was"
             ]
           }
         ]
@@ -8903,98 +8971,98 @@ const A1_WORDS = [
   },
   {
     "de": "helfen",
-    "lv": "Να βοηθήσει",
+    "lv": "Aitama",
     "level": "A1"
   },
   {
     "de": "Hemd",
     "de_article": "das",
     "de_plural": "die Hemden",
-    "lv": "Ένα πουκάμισο",
+    "lv": "Svak",
     "level": "A1"
   },
   {
     "de": "Herbst",
     "de_article": "der",
     "de_plural": "die Herbste",
-    "lv": "Φθινόπωρο",
+    "lv": "Sügis",
     "level": "A1"
   },
   {
     "de": "Herr",
     "de_article": "der",
     "de_plural": "die Herren",
-    "lv": "Κύριε",
+    "lv": "Sir",
     "level": "A1"
   },
   {
     "de": "heute",
-    "lv": "Σήμερα",
+    "lv": "Takk",
     "level": "A1"
   },
   {
     "de": "hier",
-    "lv": "Εδώ",
+    "lv": "Siin",
     "level": "A1"
   },
   {
     "de": "Hilfe",
     "de_article": "die",
     "de_plural": "die Hilfen",
-    "lv": "Βοήθεια",
+    "lv": "Abi",
     "level": "A1"
   },
   {
     "de": "hinter",
-    "lv": "Πίσω",
+    "lv": "Ta",
     "level": "A1"
   },
   {
     "de": "hoch",
-    "lv": "Ψηλά",
+    "lv": "Høy",
     "level": "A1",
     "study": {
       "id": "a1-hoch-study",
       "layout": "standardStudy",
-      "translation": "Ψηλά",
+      "translation": "Høy",
       "explanation": [
-        "Κύρια ιδέα: Υψηλό κατακόρυφα, ως προς το επίπεδο ή το ύψος.",
-        "Χοχ σημαίνει κυρίως: μεγάλος σε ύψος.",
-        "Συχνά περιγράφει: κατακόρυφο ύψος.",
-        "Hoch σημαίνει κυρίως: υψηλό επίπεδο.",
-        "Συχνά περιγράφει: τιμές/τιμολόγιο.",
-        "Το hoch περιγράφει το ύψος, την κατακόρυφη κατεύθυνση ή το επίπεδο."
+        "Põhiidee: Kõrge vertikselt, kõi või hõusse pälä.",
+        "Hoch gejättättää: häusselt suur.",
+        "Sagelie speltab: vertikal høyde.",
+        "Hoch gejätt säytä: høy tase.",
+        "Sagelie speltab: Hindu/arv.",
+        "Hoch opretab husst, vertikset suunda või taset."
       ],
       "examples": [
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Το βουνό είναι ψηλό."
+          "lv": "Mägi på høykant."
         },
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Το βουνό είναι ψηλό."
+          "lv": "Mägi på høykant."
         },
         {
           "de": "Die Miete ist hoch.",
-          "lv": "Το ενοίκιο είναι υψηλό."
+          "lv": "Üür på høykant."
         },
         {
           "de": "Die Mauer ist hoch.",
-          "lv": "Ο τοίχος είναι ψηλός."
+          "lv": "Vegg på høy."
         },
         {
           "de": "Die Preise sind hoch.",
-          "lv": "Οι τιμές είναι υψηλές."
+          "lv": "Antydet høyt."
         }
       ],
       "tip": [
-        "Χοχ = ψηλός",
-        "Χρησιμοποιήστε τη λέξη hoch όταν το περιεχόμενο ταιριάζει με αυτή τη σημασία."
+        "hoch = augsts",
+        "Izmanto hoch, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Το Hoch χρησιμοποιείται συχνά για τιμές και επίπεδα.",
-        "Χοχ = ψηλός.",
-        "Ψηλά κατακόρυφα, σε επίπεδο ή ύψος."
+        "Cenām un līmenim bieži lieto hoch.",
+        "hoch = augsts.",
+        "Augsts vertikāli, līmenī vai augstumā."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9002,10 +9070,10 @@ const A1_WORDS = [
             "hoch"
           ],
           "purple": [
-            "augsts"
+            "kõrge"
           ],
           "orange": [
-            "augsts"
+            "kõrge"
           ]
         },
         "examples": [
@@ -9018,7 +9086,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsts"
+                "Mägi"
               ]
             }
           },
@@ -9031,7 +9099,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsts"
+                "Mägi"
               ]
             }
           },
@@ -9044,7 +9112,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsta"
+                "Üür"
               ]
             }
           },
@@ -9057,7 +9125,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsta"
+                "Vegg"
               ]
             }
           },
@@ -9070,7 +9138,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "augsta"
+                "Antydet"
               ]
             }
           }
@@ -9078,7 +9146,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "augsts"
+              "hoch"
             ]
           }
         ],
@@ -9094,44 +9162,44 @@ const A1_WORDS = [
   },
   {
     "de": "höflich",
-    "lv": "Ευγενικός",
+    "lv": "Viisakas",
     "level": "A1"
   },
   {
     "de": "hören",
-    "lv": "Να ακούσω • Να ακούσω",
+    "lv": "Kuulma • Kuulama",
     "level": "A1",
     "study": {
       "id": "a1-hoeren-study",
       "layout": "standardStudy",
-      "translation": "Να ακούσω • Να ακούσω",
+      "translation": "Kuulma • Kuulama",
       "explanation": [
-        "Κύρια ιδέα: Ακούστε ήχο ή ακούστε μουσική.",
-        "Hören σημαίνει κυρίως: αντιλαμβάνομαι τον ήχο.",
-        "Συχνά περιγράφει: ήχους.",
-        "Το hören χρησιμοποιείται για ήχους, μουσική και ό,τι ακούγεται."
+        "Hovedidé: Kuulda heli või kuulata muzikat.",
+        "Hören täjätä äääää: heli tajuma.",
+        "Sagelie speltab: helisid.",
+        "Hören brukes helide, muzika ja selle kohta, mida kuuldakse."
       ],
       "examples": [
         {
           "de": "Ich höre Musik.",
-          "lv": "Ακούω μουσική."
+          "lv": "Ma kuulan musikken."
         },
         {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "Τα παιδιά ακούν την ιστορία."
+          "lv": "Forfalt kuulavad lugu."
         },
         {
           "de": "Ich höre dich.",
-          "lv": "Σε ακούω"
+          "lv": "Ma kuulen synd."
         }
       ],
       "tip": [
-        "Ακούστε ήχο ή ακούστε μουσική.",
-        "Χρησιμοποιήστε τη λέξη hören όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "Dzirdēt skaņu vai klausīties mūziku.",
+        "Izmanto hören, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Hören = ακούω/ακούω τον ήχο.",
-        "Ακούστε ήχο ή ακούστε μουσική."
+        "hören = dzirdēt/klausīties skaņu.",
+        "Dzirdēt skaņu vai klausīties mūziku."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9139,22 +9207,29 @@ const A1_WORDS = [
             "hören"
           ],
           "purple": [
-            "klausīties",
-            "dzirdēt"
+            "Hovedidé",
+            "kuulata",
+            "Kuulda"
           ],
           "green": [
-            "klausīties",
-            "Dzirdēt"
+            "kuulata",
+            "Kuulda"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "höre",
                 "höre"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kuulan",
+                "kuulan"
+              ]
+            }
           },
           {
             "de": {
@@ -9163,17 +9238,24 @@ const A1_WORDS = [
                 "hören"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kuulavad",
+                "kuulavad"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
+                "höre",
                 "höre"
               ]
             },
             "lv": {
               "purple": [
-                "dzirdu"
+                "kuulen",
+                "kuulen"
               ]
             }
           }
@@ -9181,12 +9263,12 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "dzirdēt"
+              "Dzirdēt"
             ]
           },
           {
             "purple": [
-              "klausīties"
+              "Dzirdēt"
             ]
           }
         ],
@@ -9202,74 +9284,74 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Όμορφος • Ωραίος",
+    "lv": "Nägus • Kena",
     "level": "A1"
   },
   {
     "de": "hundert",
-    "lv": "Εκατό",
+    "lv": "Sada",
     "level": "A1"
   },
   {
     "de": "hungrig",
-    "lv": "Πεινασμένος",
+    "lv": "Nålen",
     "level": "A1"
   },
   {
     "de": "ich",
-    "lv": "Μου",
+    "lv": "Mine",
     "level": "A1"
   },
   {
     "de": "ihr",
-    "lv": "Σας • Σε αυτόν",
+    "lv": "Teie • Temale",
     "level": "A1",
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "Σας • Σε αυτόν",
+      "translation": "Teie • Temale",
       "explanation": [
-        "Κύρια ιδέα: το ihr είναι δύο διαφορετικές αντωνυμίες με την ίδια ορθογραφία — απευθύνονται σε πολλά άτομα (εσείς) και η δοτική μορφή της αντωνυμίας sie (αυτός/η).",
-        "Όταν απευθύνεσαι σε πολλά άτομα, το μικρό ihr μεταφράζεται ως εσύ (Kommt ihr mit? = Έρχεσαι • ).",
-        "Ihr ως κτητική αντωνυμία σημαίνει αυτός (ihr Buch = το βιβλίο του).",
-        "Ihr ως Δοτική μορφή (από το sie) σημαίνει γι' αυτόν (Ich gebe ihr das Buch. = του δίνω ένα βιβλίο.).",
-        "Η μορφή του ρήματος (kommt, habt) δείχνει ότι μιλάμε για τη λέξη you — απευθυνόμενος σε πολλά άτομα.",
-        "Η ευγενική διεύθυνση γράφεται πάντα με κεφαλαία Sie, όχι ihr."
+        "Põhiidee: ihr on kaks erättät õhädäule kirjapildiga asesõna — mitte tässä poole kötämine (teie) ja asesõna sie Dativi vorm (høy/tema).",
+        "Väikese ihr tõlgitakse mitte tõlese poole tävämisel sänaga teie (Kommt ihr mit? = Kas te tulete kaasa?).",
+        "Ihr omastava asesõnana tema tema (ihr Buch = tema raamat).",
+        "Ihr Dativi vormina (sõnast sie) gejnät tall (Ich gebe ihr das Buch. = Ma annan tall bibbe.).",
+        "Tegusňa vorm (commt, habt) vejdej, et jutt on sönast teie — mitte tössö poole köttmisest.",
+        "Viisakas hättämine on alati Sie suure algustähega, mitte ihr."
       ],
       "examples": [
         {
           "de": "Kommt ihr heute Abend?",
-          "lv": "Έρχεσαι απόψε"
+          "lv": "Kas te tulete täna atala?"
         },
         {
           "de": "Ich gebe ihr das Buch.",
-          "lv": "Θα του δώσω το βιβλίο."
+          "lv": "Min andre høye bok."
         },
         {
           "de": "Wo wohnt ihr?",
-          "lv": "Που μένετε"
+          "lv": "Er du glad?"
         },
         {
           "de": "Er schreibt ihr einen Brief.",
-          "lv": "Του γράφει ένα γράμμα."
+          "lv": "Ta sikritab tall kirja."
         },
         {
           "de": "Habt ihr Zeit?",
-          "lv": "Έχεις χρόνο"
+          "lv": "Kas teil on aega?"
         },
         {
           "de": "Das ist ihr Auto.",
-          "lv": "Αυτό είναι το αυτοκίνητό του."
+          "lv": "Se om emnet auto."
         }
       ],
       "tip": [
-        "Ihr με τον πληθυντικό του ρήματος (kommt, habt) = εσύ • Δίπλα στη λέξη ihr ως Δοτική ή με την έννοια του ανήκειν = αυτός/η.",
-        "Έλεγχος: Habt ihr...? / Kommt ihr... • = εσύ • Ich gebe ihr... / ihr Buch = σε αυτόν/την."
+        "ihr ar darbības vārda dsk. formu (kommt, habt) = jūs; ihr blakus vārdam kā datīvs vai piederība = viņai/viņas.",
+        "Pārbaudi: Habt ihr...? / Kommt ihr...? = jūs; Ich gebe ihr... / ihr Buch = viņai/viņas."
       ],
       "important": [
-        "Ihr = εσύ (πληθυντικός) Ή αυτός (Δοτική) Ή αυτός (εύπορος) — ανάλογα με τα συμφραζόμενα.",
-        "Η ευγενική διεύθυνση γράφει πάντα κεφαλαία Sie, όχι ihr.",
-        "Λάθος: Ihr (ευγενικά) → Σωστό: Sie."
+        "ihr = jūs (uzruna vairākiem) VAI viņai (datīvs) VAI viņas (piederība) — pēc konteksta.",
+        "Pieklājīgā uzruna vienmēr Sie ar lielo burtu, nevis ihr.",
+        "Nepareizi: Ihr (pieklājīgi) → Pareizi: Sie."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9277,9 +9359,9 @@ const A1_WORDS = [
             "ihr"
           ],
           "purple": [
-            "jūs",
-            "viņai",
-            "viņas"
+            "teie",
+            "tall",
+            "tema"
           ]
         },
         "examples": [
@@ -9291,7 +9373,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jūs"
+                "kas"
               ]
             }
           },
@@ -9303,7 +9385,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viņai"
+                "Min"
               ]
             }
           },
@@ -9315,7 +9397,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jūs"
+                "glad"
               ]
             }
           },
@@ -9327,7 +9409,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viņai"
+                "tall"
               ]
             }
           },
@@ -9339,7 +9421,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jums"
+                "teil"
               ]
             }
           },
@@ -9351,7 +9433,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viņas"
+                "emnet"
               ]
             }
           }
@@ -9371,9 +9453,9 @@ const A1_WORDS = [
         "important": [
           {
             "purple": [
-              "jūs",
-              "viņai",
-              "viņas"
+              "ihr",
+              "ihr",
+              "ihr"
             ]
           },
           {
@@ -9395,89 +9477,89 @@ const A1_WORDS = [
   },
   {
     "de": "im",
-    "lv": "Σε (-α) • Πού • ",
+    "lv": "Ser (-s) • Kus?",
     "level": "A1",
     "study": {
       "id": "a1-im",
       "layout": "standardStudy",
-      "translation": "Σε (-α) • Πού • ",
+      "translation": "Ser (-s) • Kus?",
       "explanation": [
-        "Το im είναι σύντομο για την πρόθεση in και το άρθρο dem.",
-        "Πλήρης μορφή: in dem (Dative).",
-        "Χρησιμοποιείται με αρσενικά και ουδέτερα ουσιαστικά όταν απαντά στην ερώτηση πού • — τοποθεσία.",
-        "Με το χρόνο και τις εποχές: im Januar, im Sommer, im Winter.",
-        "Στην πράξη, το im χρησιμοποιείται σχεδόν πάντα, όχι η πλήρης μορφή στο dem."
+        "Jeg er på eessõna i og artikli dem lühend.",
+        "Täisvorm: i dem (Dativ).",
+        "Kasutatakse mees- ja keskssoost nimisvåndega, kui vastatäke mäisulele kus? — plassering",
+        "Ajaga ja aasataegadega: im Januar, im Sommer, im Winter.",
+        "Praksis brukes nesten alltid im, mitte täisvormi in dem."
       ],
       "examples": [
         {
           "de": "Ich bin im Park.",
-          "lv": "Είμαι στο πάρκο"
+          "lv": "Ma olen pargis."
         },
         {
           "de": "Wir wohnen im Zentrum.",
-          "lv": "Μένουμε στο κέντρο της πόλης."
+          "lv": "Me élame sentrumpas."
         },
         {
           "de": "Im Sommer ist es warm.",
-          "lv": "Είναι ζεστό το καλοκαίρι."
+          "lv": "Suvel på soe."
         },
         {
           "de": "Er arbeitet im Büro.",
-          "lv": "Εργάζεται σε ένα γραφείο."
+          "lv": "Ta kontoristen."
         },
         {
           "de": "Das Kind spielt im Garten.",
-          "lv": "Το παιδί παίζει στον κήπο."
+          "lv": "Laps spiller aias."
         },
         {
           "de": "Im Januar fahre ich nach Wien.",
-          "lv": "Θα πάω στη Βιέννη τον Ιανουάριο."
+          "lv": "Jaanuaris sålån ma Viini."
         },
         {
           "de": "Sie ist im Kino.",
-          "lv": "Είναι στον κινηματογράφο."
+          "lv": "Ta på kino."
         },
         {
           "de": "Wir treffen uns im Restaurant.",
-          "lv": "Θα βρεθούμε στο εστιατόριο."
+          "lv": "Me kohtume restoranis."
         }
       ],
       "comparison": [
         {
           "word": "im",
-          "meaning": "Μέσα που • (Δοτική πτώση)",
-          "example": "im Park – Στο πάρκο"
+          "meaning": "Ses vi, baby? (Dativ)",
+          "example": "im Park – Pargis"
         },
         {
           "word": "ins",
-          "meaning": "Μέσα, που • (Συμφων.)",
-          "example": "ins Kino – Σινεμά"
+          "meaning": "Sissy, kuhu? (Ok.)",
+          "example": "ins Kino – Hake"
         },
         {
           "word": "in",
-          "meaning": "Ενεργό / ενεργό (χωρίς άρθρο)",
-          "example": "in Berlin – Στο Βερολίνο"
+          "meaning": "Ser / sisse (ilma artiklita)",
+          "example": "in Berlin – Berlin is"
         },
         {
           "word": "am",
-          "meaning": "Που • (Δοτική πτώση)",
-          "example": "am Fenster – Δίπλα στο παράθυρο"
+          "meaning": "Juures, for? (Dativ)",
+          "example": "am Fenster – Akne rot"
         },
         {
           "word": "auf",
-          "meaning": "Στην επιφάνεια",
-          "example": "auf dem Tisch – Στο τραπέζι"
+          "meaning": "Pinnal",
+          "example": "auf dem Tisch – Lovlig"
         }
       ],
       "tip": [
-        "Θυμηθείτε: in + dem → im (Dative, πού • ).",
-        "Οπου • → ins • Όπου • → im — μην μπερδεύετε τα δύο!"
+        "Atceries: in + dem → im (kam?, kur?).",
+        "Kurp? → ins; kur? → im — nesajauc šos divus!"
       ],
       "important": [
-        "Im = σε dem, μόνο με αρσενικό ή ουδέτερο ουσιαστικό στη δοτική.",
-        "Απαντά στην ερώτηση πού • , όχι πού • — τοποθεσία, όχι κίνηση.",
-        "Με μήνες και εποχές: im März, im Herbst.",
-        "Για το γυναικείο φύλο: in der Schule, όχι im Schule."
+        "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
+        "Atbild uz kur?, nevis kurp? — atrašanās vieta, nevis kustība.",
+        "Ar mēnešiem un gadalaikiem: im März, im Herbst.",
+        "Sieviešu dzimtei: in der Schule, nevis im Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9486,11 +9568,12 @@ const A1_WORDS = [
             "in dem"
           ],
           "purple": [
-            "kur?"
+            "mees",
+            "kus?"
           ],
           "green": [
-            "kam?",
-            "atrašanās vieta"
+            "eessõna",
+            "Jeg"
           ]
         },
         "examples": [
@@ -9502,7 +9585,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "parkā"
+                "pargis"
               ]
             }
           },
@@ -9514,7 +9597,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "centrā"
+                "elame"
               ]
             }
           },
@@ -9526,7 +9609,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vasarā"
+                "suvel"
               ]
             }
           },
@@ -9538,7 +9621,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "birojā"
+                "kontoris"
               ]
             }
           },
@@ -9550,7 +9633,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dārzā"
+                "aias"
               ]
             }
           },
@@ -9562,7 +9645,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "janvārī"
+                "jaanuaris"
               ]
             }
           },
@@ -9586,7 +9669,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "restorānā"
+                "restoranis"
               ]
             }
           }
@@ -9600,8 +9683,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iekšā",
-                "kur?"
+                "Ses",
+                "Ses"
               ]
             },
             "example": {
@@ -9618,8 +9701,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz iekšu",
-                "kurp?"
+                "Sissy",
+                "kuhu?"
               ]
             },
             "example": {
@@ -9636,7 +9719,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iekšā"
+                "Ser"
               ]
             },
             "example": {
@@ -9653,7 +9736,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "juures"
               ]
             },
             "example": {
@@ -9670,7 +9753,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz virsmas"
+                "pinnal"
               ]
             },
             "example": {
@@ -9686,13 +9769,14 @@ const A1_WORDS = [
               "im"
             ],
             "purple": [
-              "kur?"
+              "in + dem",
+              "Atceries"
             ]
           },
           {
             "red": [
               "ins",
-              "kurp?"
+              "Atceries"
             ]
           }
         ],
@@ -9705,15 +9789,15 @@ const A1_WORDS = [
               "in dem"
             ],
             "green": [
-              "kam?"
+              "dem"
             ]
           },
           {
             "purple": [
-              "kur?"
+              "Atbild"
             ],
             "green": [
-              "atrašanās vieta"
+              "Atbild"
             ]
           },
           {
@@ -9736,47 +9820,47 @@ const A1_WORDS = [
   },
   {
     "de": "immer",
-    "lv": "Πάντοτε",
+    "lv": "Alati",
     "level": "A1"
   },
   {
     "de": "in",
-    "lv": "Σε • Ενεργοποίηση",
+    "lv": "Sett • Sissy",
     "level": "A1",
     "study": {
       "id": "a1-in",
       "layout": "standardStudy",
-      "translation": "Σε • Ενεργοποίηση",
+      "translation": "Sett • Sissy",
       "explanation": [
-        "Κύρια ιδέα: το in συνήθως σημαίνει μέσα ή προς ένα μέρος όταν μιλάμε για δωμάτιο, χώρα, πόλη ή κτίριο.",
-        "Για τοποθεσία, το in μεταφράζεται συχνά ως σε ή τελειώνει σε -s: στο Βερολίνο = στο Βερολίνο.",
-        "Για κίνηση, σε σημαίνει προς τα μέσα: ins Kino = kinno.",
-        "Στα εσθονικά, η μετάφραση αλλάζει ανάλογα με το πλαίσιο."
+        "Põhiidee: i gejättä sämätä se või mingisse kohta, kui jutt på ruimast, parjst, linnast või hoonest.",
+        "Asukoha puluh tõlgitakse in sesili sõnaga ser või lupuga -s: i Berlin = Berlinis.",
+        "Liikumise puluh sistema in sissepoole: ins Kino = kinno.",
+        "I Eesti keeles tõlge olenelvalt kontekstist."
       ],
       "examples": [
         {
           "de": "Ich bin in Berlin.",
-          "lv": "Είμαι στο Βερολίνο."
+          "lv": "Ma olen Berlinis."
         },
         {
           "de": "Ich gehe in die Schule.",
-          "lv": "Πηγαίνω στο σχολείο"
+          "lv": "Ma þen kooli."
         },
         {
           "de": "Das Buch ist in der Tasche.",
-          "lv": "Το βιβλίο είναι στην τσάντα."
+          "lv": "Raamat på kotis."
         },
         {
           "de": "Wir gehen ins Kino.",
-          "lv": "Πάμε σινεμά."
+          "lv": "Me ähme kinno."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: in/in space → in."
+        "text": "Atceries: iekšā/telpā → in."
       },
       "important": [
-        "Το in δεν είναι πάντα κυριολεκτικά \"in\"? στα εσθονικά λέγεται συχνά στο Βερολίνο, στο σχολείο, στον κινηματογράφο.",
-        "Όταν μιλάμε για χώμα, συχνά χρειάζεστε auf αντί για in."
+        "in nav vienmēr burtiski “iekšā”; latviski bieži saka Berlīnē, skolā, uz kino.",
+        "Ja runa ir par virsmu, bieži vajag auf, nevis in."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9784,14 +9868,14 @@ const A1_WORDS = [
             "in"
           ],
           "purple": [
-            "iekšā",
-            "uz"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "green": [
-            "telpu",
-            "valsti",
-            "pilsētu",
-            "ēku"
+            "ruimast",
+            "Põhiidee",
+            "linnast",
+            "hoonest"
           ]
         },
         "examples": [
@@ -9803,7 +9887,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Berlīnē"
+                "Berlinis"
               ]
             }
           },
@@ -9815,7 +9899,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz skolu"
+                "kooli"
               ]
             }
           },
@@ -9827,7 +9911,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "somā"
+                "kotis"
               ]
             }
           },
@@ -9839,7 +9923,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz kino"
+                "kinno"
               ]
             }
           }
@@ -9872,8 +9956,8 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "iekšā",
-              "telpā"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -9883,9 +9967,9 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "Berlīnē",
-              "skolā",
-              "uz kino"
+              "nav",
+              "nav",
+              "kino"
             ]
           },
           {
@@ -9896,7 +9980,7 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "virsmu"
+              "runa"
             ]
           }
         ]
@@ -9905,89 +9989,89 @@ const A1_WORDS = [
   },
   {
     "de": "ins",
-    "lv": "Σε • Σε • Πού • ",
+    "lv": "Sisse • Sissepoole • Kuhu?",
     "level": "A1",
     "study": {
       "id": "a1-ins",
       "layout": "standardStudy",
-      "translation": "Σε • Σε • Πού • ",
+      "translation": "Sisse • Sissepoole • Kuhu?",
       "explanation": [
-        "Το ins είναι σύντομο για την πρόθεση in και το άρθρο das.",
-        "Πλήρης μορφή: σε das (Κατηγορούμενο).",
-        "Χρησιμοποιείται με ουδέτερα ουσιαστικά όταν απαντά στην ερώτηση πού • — κίνηση προς τα μέσα.",
-        "Συχνά με ρήματα: gehen, fahren, kommen, legen, stecken.",
-        "Στην πράξη, το ins χρησιμοποιείται σχεδόν πάντα, όχι η πλήρης μορφή στο das."
+        "Ins on eessõna in ja artikli das lühend.",
+        "Täisvorm: in das (akkusativ).",
+        "Kasutatakse keskssoost nimisvändega, kui vastatäke mäusulele kuhu? — sissepoole-bevegelse.",
+        "Sagelie koos teguvåndtega: gehen, fahren, kommen, legen, stecken.",
+        "Praksis brukes nesten alltid ins, mitte tësvormi in das."
       ],
       "examples": [
         {
           "de": "Ich gehe ins Kino.",
-          "lv": "Πάω σινεμά."
+          "lv": "Ma þen kinno."
         },
         {
           "de": "Sie geht ins Bett.",
-          "lv": "Πάει για ύπνο."
+          "lv": "Ta magen min."
         },
         {
           "de": "Wir fahren ins Ausland.",
-          "lv": "Πάμε στο εξωτερικό."
+          "lv": "Me savväme özöslele."
         },
         {
           "de": "Komm ins Haus!",
-          "lv": "Έλα σπίτι!"
+          "lv": "Kom mai!"
         },
         {
           "de": "Er steckt das Geld in den Geldbeutel.",
-          "lv": "Βάζει τα χρήματα στο πορτοφόλι."
+          "lv": "Ta paneb raha rahakotti."
         },
         {
           "de": "Wir gehen ins Museum.",
-          "lv": "Πάμε στο μουσείο."
+          "lv": "I nærheten av museet."
         },
         {
           "de": "Sie legt die Blumen ins Wasser.",
-          "lv": "Βάζει τα λουλούδια στο νερό."
+          "lv": "Ta paneb lilled vette."
         },
         {
           "de": "Fahr bitte ins Zentrum.",
-          "lv": "Παρακαλώ πηγαίνετε στο κέντρο της πόλης."
+          "lv": "Palun."
         }
       ],
       "comparison": [
         {
           "word": "ins",
-          "meaning": "Μέσα, που • (Συμφων.)",
-          "example": "ins Kino – Σινεμά"
+          "meaning": "Sissy, kuhu? (Ok.)",
+          "example": "ins Kino – Hake"
         },
         {
           "word": "im",
-          "meaning": "Μέσα που • (Δοτική πτώση)",
-          "example": "im Kino – Σινεμά"
+          "meaning": "Ses vi, baby? (Dativ)",
+          "example": "im Kino – Kino"
         },
         {
           "word": "in",
-          "meaning": "On / on (με ξεχωριστό άρθρο)",
-          "example": "in die Stadt – Την πόλη"
+          "meaning": "Sees / sisse (eraldi articleliga)",
+          "example": "in die Stadt – Linna"
         },
         {
           "word": "aufs",
-          "meaning": "Στην επιφάνεια (Συμφων.)",
-          "example": "aufs Dach – Στην οροφή"
+          "meaning": "Pinnale (Acc.)",
+          "example": "aufs Dach – Kattesele"
         },
         {
           "word": "zum",
-          "meaning": "Προς / προς (Dative)",
-          "example": "zum Arzt – Στο γιατρο"
+          "meaning": "-sse / sse (dativ)",
+          "example": "zum Arzt – Lege i medisin"
         }
       ],
       "tip": [
-        "Θυμηθείτε: σε + das → ins (Κατηγορητικό, πού • ).",
-        "Οπου • → ins • Όπου • → im — αυτή είναι η κύρια διαφορά!"
+        "Atceries: in + das → ins (kurp?, kurp?).",
+        "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
       ],
       "important": [
-        "Ins = σε das, μόνο με ουδέτερο ουσιαστικό στο Κατηγορούμενο.",
-        "Απαντά στην ερώτηση πού • , όχι πού • — κίνηση, όχι τοποθεσία.",
-        "Αρσενικά έντερα: στο den Wald • Γυναικεία έντερα: στο die Schule.",
-        "Μην μπερδεύεστε: ins Kino gehen (κινηματογράφος) εναντίον im Kino sein (να είσαι στον κινηματογράφο)."
+        "ins = in das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
+        "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
+        "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
+        "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9996,13 +10080,13 @@ const A1_WORDS = [
             "in das"
           ],
           "purple": [
-            "iekšu",
-            "uz iekšu",
-            "kurp?"
+            "ins",
+            "sissepoole",
+            "kuhu?"
           ],
           "green": [
-            "kurp?",
-            "kustība"
+            "kuhu?",
+            "Ins"
           ]
         },
         "examples": [
@@ -10014,7 +10098,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz kino"
+                "kinno"
               ]
             }
           },
@@ -10026,7 +10110,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gulēt"
+                "magen"
               ]
             }
           },
@@ -10038,7 +10122,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz ārzemēm"
+                "savväme"
               ]
             }
           },
@@ -10050,7 +10134,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mājā"
+                "Kom"
               ]
             }
           },
@@ -10062,9 +10146,9 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ieliek",
-                "naudu",
-                "makā"
+                "paneb",
+                "raha",
+                "rahakotti"
               ]
             }
           },
@@ -10076,7 +10160,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz muzeju"
+                "nærheten"
               ]
             }
           },
@@ -10088,7 +10172,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ūdenī"
+                "paneb"
               ]
             }
           },
@@ -10100,7 +10184,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz centru"
+                "Palun"
               ]
             }
           }
@@ -10114,8 +10198,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz iekšu",
-                "kurp?"
+                "Sissy",
+                "kuhu?"
               ]
             },
             "example": {
@@ -10132,8 +10216,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iekšā",
-                "kur?"
+                "Ses",
+                "Ses"
               ]
             },
             "example": {
@@ -10150,9 +10234,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iekšā",
-                "uz",
-                "patstāvīgu artikulu"
+                "sees",
+                "sees",
+                "sees"
               ]
             },
             "example": {
@@ -10169,7 +10253,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz virsmu"
+                "pinnale"
               ]
             },
             "example": {
@@ -10186,8 +10270,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "sse",
+                "sse"
               ]
             },
             "example": {
@@ -10203,13 +10287,14 @@ const A1_WORDS = [
               "ins"
             ],
             "purple": [
-              "kurp?"
+              "in + das",
+              "Atceries"
             ]
           },
           {
             "red": [
               "im",
-              "kur?"
+              "Atceries"
             ]
           }
         ],
@@ -10222,15 +10307,15 @@ const A1_WORDS = [
               "in das"
             ],
             "green": [
-              "kurp?"
+              "ins"
             ]
           },
           {
             "purple": [
-              "kurp?"
+              "Atbild"
             ],
             "green": [
-              "kustība"
+              "Atbild"
             ]
           },
           {
@@ -10255,95 +10340,95 @@ const A1_WORDS = [
   },
   {
     "de": "ja",
-    "lv": "Ναί",
+    "lv": "Ja",
     "level": "A1"
   },
   {
     "de": "Januar",
     "de_article": "der",
-    "lv": "Ιανουάριος",
+    "lv": "Januar",
     "level": "A1"
   },
   {
     "de": "jawohl",
-    "lv": "Ακριβώς έτσι",
+    "lv": "Akkurat slik",
     "level": "A1"
   },
   {
     "de": "jeder",
-    "lv": "Κάθε",
+    "lv": "Iga",
     "level": "A1"
   },
   {
     "de": "jemand",
-    "lv": "Κάποιος",
+    "lv": "Keegi",
     "level": "A1"
   },
   {
     "de": "jetzt",
-    "lv": "Τώρα • Τώρα",
+    "lv": "Nüüd • Nå",
     "level": "A1"
   },
   {
     "de": "Juli",
     "de_article": "der",
-    "lv": "Ιούλιος",
+    "lv": "Julie",
     "level": "A1"
   },
   {
     "de": "jung",
-    "lv": "Νέοι (σχετικά με τους ανθρώπους)",
+    "lv": "Noor (inimeste kohta)",
     "level": "A1",
     "study": {
       "id": "a1-jung",
       "layout": "standardStudy",
-      "translation": "Νέοι (σχετικά με τους ανθρώπους)",
+      "translation": "Noor (inimeste kohta)",
       "explanation": [
-        "Κύρια ιδέα: jung σημαίνει νέος με την έννοια της ηλικίας — χρησιμοποιείται για ανθρώπους και ζώα, όχι για πράγματα.",
-        "Ο Jung περιγράφει την ηλικία — το αντίθετο είναι το alt (παλιό).",
-        "Στα εσθονικά, αυτές οι δύο έννοιες είναι με διαφορετικές λέξεις: νέος για την ηλικία (jung) και νέος/πρόσφατα συμπληρωμένος (neu).",
-        "Για πράγματα που δημιουργήθηκαν ή αγοράστηκαν πρόσφατα, χρησιμοποιείται το neu και όχι το jung.",
-        "Το jung χρησιμοποιείται και με μεταφορική έννοια: νέα γενιά, νέο ζευγάρι, νέοι.",
-        "Υπάρχει και το ουσιαστικό die Jugend (νεότητα)."
+        "Põhiidee: jung jähät noor vanuse tønske — säätää käää ja ääää, mitte ääää kohta.",
+        "Jung beskriver vanust — vastand på alt (vane).",
+        "Eesti keeles on need kaks saimust eri såndega: noor vanuse kohta (ung) ja uus/hiljuti valminud asja kohta (neu).",
+        "Asjade kohta, mis on säytä säää või ostetud, säää neu, mitte jung.",
+        "Jung brukes ka ülekantud säumseses: noor kässät, noor paar, noors kötös.",
+        "På omlamas ka nimisõna die Jugend (noorsugu, noorus)."
       ],
       "examples": [
         {
           "de": "Sie ist noch jung.",
-          "lv": "Είναι ακόμα νέος."
+          "lv": "Ta on veel noor."
         },
         {
           "de": "Der Hund ist jung.",
-          "lv": "Ο σκύλος είναι νέος."
+          "lv": "Kyr på noor."
         },
         {
           "de": "Wir sind noch jung.",
-          "lv": "Είμαστε ακόμα νέοι."
+          "lv": "Me oleme mange nuodas."
         },
         {
           "de": "Er sieht sehr jung aus.",
-          "lv": "Φαίνεται πολύ νέα."
+          "lv": "Ta se noor väga noor velge."
         },
         {
           "de": "Das ist ein junges Paar.",
-          "lv": "Αυτό είναι ένα νεαρό ζευγάρι."
+          "lv": "Se på noor paar."
         },
         {
           "de": "Die junge Frau lächelt.",
-          "lv": "Η νεαρή γυναίκα χαμογελά."
+          "lv": "Noor naine naeratab."
         },
         {
           "de": "Mein Bruder ist jünger als ich.",
-          "lv": "Ο αδερφός μου είναι μικρότερος από εμένα."
+          "lv": "Minu vend on noorem kui mina."
         }
       ],
       "tip": [
-        "Το jung αναφέρεται στην ηλικία (άνθρωποι, ζώα) — όταν μιλάμε για πράγματα που έχουν ολοκληρωθεί πρόσφατα, χρησιμοποιείται το neu.",
-        "Απέναντι: jung ↔ alt (νέος ↔ μεγάλος)."
+        "jung ir par vecumu (cilvēki, dzīvnieki) — ja runā par lietām, kas nesen radītas, lieto neu.",
+        "Pretstats: jung ↔ alt (jauns ↔ vecs)."
       ],
       "important": [
-        "Ο Γιουνγκ περιγράφει την ηλικία, όχι τη νεωτερικότητα του πράγματος.",
-        "Για νέα πράγματα (τηλέφωνο, αυτοκίνητο, σπίτι) χρησιμοποιούμε neu, όχι jung.",
-        "Λάθος: Mein Handy ist jung. → Σωστό: Mein Handy ist neu."
+        "jung raksturo vecumu, ne lietas jaunumu.",
+        "Par jaunām lietām (telefonu, automašīnu, māju) lieto neu, nevis jung.",
+        "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10351,7 +10436,7 @@ const A1_WORDS = [
             "jung"
           ],
           "purple": [
-            "jauns"
+            "uus"
           ],
           "green": [
             "neu"
@@ -10366,7 +10451,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauna"
+                "noor"
               ]
             }
           },
@@ -10378,7 +10463,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauns"
+                "Kyr"
               ]
             }
           },
@@ -10390,7 +10475,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauni"
+                "oleme"
               ]
             }
           },
@@ -10402,7 +10487,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauns"
+                "noor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "junges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se"
               ]
             }
           },
@@ -10414,19 +10511,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauns"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "junge"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jaunā"
+                "noor"
               ]
             }
           },
@@ -10438,7 +10523,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaunāks"
+                "noorem"
               ]
             }
           }
@@ -10490,68 +10575,68 @@ const A1_WORDS = [
   {
     "de": "Juni",
     "de_article": "der",
-    "lv": "Ιούνιος",
+    "lv": "Juni",
     "level": "A1"
   },
   {
     "de": "Jeans",
     "de_article": "die",
-    "lv": "Τζην",
+    "lv": "Denimbukser",
     "level": "A1"
   },
   {
     "de": "kaufen",
-    "lv": "Να αγοράσουν",
+    "lv": "Ost",
     "level": "A1"
   },
   {
     "de": "kein",
-    "lv": "Όχι κανένα • Όχι κανένα",
+    "lv": "Mitte ükski • Mitte mingi",
     "level": "A1",
     "study": {
       "id": "a1-kein",
       "layout": "standardStudy",
-      "translation": "Όχι κανένα • Όχι κανένα",
+      "translation": "Mitte ükski • Mitte mingi",
       "explanation": [
-        "Κύρια ιδέα: το kein είναι ένα αρνητικό άρθρο που αναιρεί ένα ουσιαστικό — στα εσθονικά, ανάλογα με τα συμφραζόμενα, κανένα ή κανένα.",
-        "Το kein κλίνεται με τον ίδιο τρόπο όπως το ein (kein/keine/keinen...) και βρίσκεται πριν από ένα ουσιαστικό.",
-        "Με μετρήσιμα ουσιαστικά (άνθρωποι), το kein συχνά μεταφράζεται ως κανένα (kein Mensch = όχι ένα άτομο).",
-        "Με τα αμέτρητα ή αφηρημένα ουσιαστικά, το kein μεταφράζεται συχνά ως καθόλου/χωρίς χρήματα (kein Geld = χωρίς χρήματα/χωρίς χρήματα).",
-        "Το kein αναιρεί ολόκληρο το ουσιαστικό, όχι μόνο το ρήμα (σύγκριση nicht)."
+        "Põhiidee: kein on eitav artikkel, mis eitab nimisõna — eesti keeles olenevalt kontekstist mitte ükski või mitte mingi.",
+        "Kein käändub sämää nagu ein (kein/keine/keinen...) ja seisab nimisõna ees.",
+        "Loendatavate nimsvädtega (inimestega) tõlgitakse kein säveli kui mitte ükski (kein Mensch = mitte ükski ükski).",
+        "Loendamatute või abstraktsete nimisvåndega tõlgitakse kein säsili kui mitte mingi/ei ole omässä (kein Geld = mitte maidin raha/ei ole raha).",
+        "Kein eitab tervet nimisňa, mitte tegusňa tegusňa (söddle sönaga nicht)."
       ],
       "examples": [
         {
           "de": "Ich habe kein Geld.",
-          "lv": "Δεν έχω λεφτά."
+          "lv": "Mul ei ole raha."
         },
         {
           "de": "Es gibt keine Milch mehr.",
-          "lv": "Δεν υπάρχει άλλο γάλα."
+          "lv": "Piima ei ole enam alle omse."
         },
         {
           "de": "Kein Mensch war da.",
-          "lv": "Κανένα άτομο δεν ήταν εκεί."
+          "lv": "Bare én person har ikke blitt forseglet."
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Δεν έχω χρόνο."
+          "lv": "Mul ei ole aega."
         },
         {
           "de": "Das ist kein Problem.",
-          "lv": "Δεν είναι πρόβλημα."
+          "lv": "Se ei ole mingi problem."
         },
         {
           "de": "Wir haben keine Kinder.",
-          "lv": "Δεν έχουμε παιδιά."
+          "lv": "Meil ei ole lapsi."
         }
       ],
       "tip": [
-        "Το kein αναιρεί ένα ουσιαστικό (kein + ουσιαστικό), το nicht αναιρεί ένα ρήμα ή πρόταση.",
-        "Το kein κλίνεται όπως το ein: kein/keine/keinen/keiner."
+        "kein noliedz lietvārdu (kein + lietvārds), nicht noliedz darbības vārdu vai teikumu.",
+        "kein locījas kā ein: kein/keine/keinen/keiner."
       ],
       "important": [
-        "Kein + ουσιαστικό = 'δεν υπάρχει X', όχι 'nicht ein X'.",
-        "Λάθος: Ich habe nicht ein Geld. → Σωστό: Ich habe kein Geld."
+        "kein + lietvārds = 'nav nekāda/neviena X', ne 'nicht ein X'.",
+        "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10559,8 +10644,8 @@ const A1_WORDS = [
             "kein"
           ],
           "purple": [
-            "neviens",
-            "nekāds"
+            "Põhiidee",
+            "mitte mingi"
           ]
         },
         "examples": [
@@ -10572,7 +10657,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nav"
+                "ei ole"
               ]
             }
           },
@@ -10584,7 +10669,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nav nemaz"
+                "piima"
               ]
             }
           },
@@ -10596,7 +10681,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "neviens"
+                "Bare"
               ]
             }
           },
@@ -10608,7 +10693,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nav"
+                "ei ole"
               ]
             }
           },
@@ -10620,7 +10705,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nekāda"
+                "mingi"
               ]
             }
           },
@@ -10632,7 +10717,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nav"
+                "ei ole"
               ]
             }
           }
@@ -10674,66 +10759,66 @@ const A1_WORDS = [
     "de": "Keks",
     "de_article": "der",
     "de_plural": "die Kekse",
-    "lv": "Κουλουράκι",
+    "lv": "Informasjonskapsler",
     "level": "A1"
   },
   {
     "de": "kennen",
-    "lv": "Να νιώθεις",
+    "lv": "Tynning",
     "level": "A1",
     "id": "a1-kennen",
     "study": {
       "id": "a1-kennen-study",
       "layout": "standardStudy",
-      "translation": "Να νιώθεις",
+      "translation": "Tynning",
       "explanation": [
-        "Κύρια ιδέα: Να γνωρίσετε ένα άτομο, ένα μέρος ή ένα πράγμα με βάση την εμπειρία.",
-        "Kennen σημαίνει κυρίως: προσωπική γνωριμία.",
-        "Συχνά περιγράφει: ανθρώπους, μέρη.",
-        "Το kennen χρησιμοποιείται όταν γνωρίζετε ένα άτομο, μέρος ή πράγμα από προσωπική εμπειρία."
+        "Hovedidé: Tynne mennesker, kohta või asja kupusese basert på.",
+        "Kennen gejättättää: personlig tundmine.",
+        "Sägeli säkelitab: köhti, köhti.",
+        "Kennen brukes når du er tunned, kohta või asja ipsutsikest kupusest."
       ],
       "examples": [
         {
           "de": "Ich kenne ihn.",
-          "lv": "Τον ξέρω."
+          "lv": "Ma tun teda."
         },
         {
           "de": "Kennen Sie diese Frau?",
-          "lv": "Ξέρεις αυτή τη γυναίκα"
+          "lv": "Hva kan du gjøre?"
         },
         {
           "de": "Wo habt ihr euch kennengelernt?",
-          "lv": "Που γνωριστήκατε"
+          "lv": "Hva er tsuktusite?"
         },
         {
           "de": "Ich kenne ihn.",
-          "lv": "Τον ξέρω."
+          "lv": "Ma tun teda."
         },
         {
           "de": "kennen",
-          "lv": "Ξέρεις αυτή την πόλη • "
+          "lv": "Hva er tunned linna?"
         }
       ],
       "comparison": [
         {
           "word": "kennen",
-          "meaning": "Να γνωρίζω (άτομο, μέρος, πράγμα)",
-          "example": "Ich kenne ihn. – Τον ξέρω."
+          "meaning": "Tundma (inimest, kohta, asja)",
+          "example": "Ich kenne ihn. – Ma tun teda."
         },
         {
           "word": "wissen",
-          "meaning": "Γνωρίζω (γεγονός, πληροφορία)",
-          "example": "Ich weiß seinen Namen. – Ξέρω το όνομά του."
+          "meaning": "Teadma (fakta, informasjon)",
+          "example": "Ich weiß seinen Namen. – Ma tean tema nime."
         }
       ],
       "tip": [
-        "Kennen = γνωρίζω",
-        "Χρησιμοποιήστε τη λέξη kennen όταν το περιεχόμενο ταιριάζει με αυτή τη σημασία."
+        "kennen = pazīt",
+        "Izmanto kennen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Kennen = γνωρίζω πρόσωπο/τόπο.",
-        "Kennen = γνωρίζω.",
-        "Γνωρίστε ένα άτομο, ένα μέρος ή ένα πράγμα με βάση την εμπειρία."
+        "kennen = pazīt cilvēku/vietu.",
+        "kennen = pazīt.",
+        "Pazīt cilvēku, vietu vai lietu no pieredzes."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10742,49 +10827,20 @@ const A1_WORDS = [
             "kennen"
           ],
           "purple": [
-            "pazīt"
+            "tundmine"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "kenne",
                 "kenne"
               ]
             },
             "lv": {
               "purple": [
-                "pazīstu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "kennen",
-                "kennen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "kennen",
-                "kennen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "kenne"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pazīstu"
+                "tun"
               ]
             }
           },
@@ -10797,7 +10853,45 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pazīt"
+                "kan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kenne",
+                "kenne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tun"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tunned"
               ]
             }
           }
@@ -10805,7 +10899,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "pazīt"
+              "kennen"
             ]
           }
         ],
@@ -10821,53 +10915,53 @@ const A1_WORDS = [
   },
   {
     "de": "wissen",
-    "lv": "Να ξέρεις",
+    "lv": "Teadma",
     "level": "A1",
     "id": "a1-wissen",
     "study": {
       "id": "a1-wissen-study",
       "layout": "standardStudy",
-      "translation": "Να ξέρεις",
+      "translation": "Teadma",
       "explanation": [
-        "Κύρια ιδέα: Γνωρίστε ένα γεγονός, μια απάντηση ή μια πληροφορία.",
-        "Wissen σημαίνει κυρίως: πληροφορία/γεγονός.",
-        "Συχνά περιγράφει: απαντήσεις, δεδομένα.",
-        "Το wissen χρησιμοποιείται όταν γνωρίζετε ένα γεγονός, μια απάντηση ή μια πληροφορία."
+        "Põhiidee: Teada fakti, verskust või utsätä.",
+        "Wissen geschäfte sichte: teave/fakt.",
+        "Sagelie speltstab: sägelseiid, sätsät.",
+        "Wissen brukes når du kjenner fakta, svar eller informasjon."
       ],
       "examples": [
         {
           "de": "Ich weiß, wo er wohnt.",
-          "lv": "Ξέρω πού μένει."
+          "lv": "Mor tean, for ta elab."
         },
         {
           "de": "Woher wissen Sie das?",
-          "lv": "Πως το ξερεις αυτο"
+          "lv": "Kan du se tete?"
         },
         {
           "de": "Ich weiß die Antwort.",
-          "lv": "Ξέρω την απάντηση."
+          "lv": "Jeg vet svaret."
         }
       ],
       "comparison": [
         {
           "word": "wissen",
-          "meaning": "Γνωρίζω (γεγονός, πληροφορία)",
-          "example": "Ich weiß, wo er wohnt. – Ξέρω πού μένει."
+          "meaning": "Teadma (fakta, informasjon)",
+          "example": "Ich weiß, wo er wohnt. – Mor tean, for ta elab."
         },
         {
           "word": "kennen",
-          "meaning": "Να γνωρίζω (άτομο, μέρος, πράγμα)",
-          "example": "Ich kenne die Stadt. – Ξέρω την πόλη."
+          "meaning": "Tundma (inimest, kohta, asja)",
+          "example": "Ich kenne die Stadt. – Ma tun linna."
         }
       ],
       "tip": [
-        "Wissen = γνωρίζω",
-        "Χρησιμοποιήστε τη λέξη wissen όταν το περιεχόμενο ταιριάζει με αυτή τη σημασία."
+        "wissen = zināt",
+        "Izmanto wissen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Wissen = να γνωρίζω το γεγονός.",
-        "Wissen = γνωρίζω.",
-        "Για να μάθετε ένα γεγονός, απάντηση ή πληροφορίες."
+        "wissen = zināt faktu.",
+        "wissen = zināt.",
+        "Zināt faktu, atbildi vai informāciju."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10876,13 +10970,22 @@ const A1_WORDS = [
             "wissen"
           ],
           "purple": [
-            "zināt"
+            "Teada"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "green": [
+                "Ich",
+                "Ich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tean"
+              ]
+            }
           },
           {
             "de": {
@@ -10893,19 +10996,28 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "zināt"
+                "Kan"
               ]
             }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "green": [
+                "Ich",
+                "Ich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Jeg"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "zināt"
+              "wissen"
             ]
           }
         ],
@@ -10923,107 +11035,107 @@ const A1_WORDS = [
     "de": "Kilogramm",
     "de_article": "das",
     "de_plural": "die Kilogramm",
-    "lv": "Χιλιόγραμμο",
+    "lv": "Kilogram",
     "level": "A1"
   },
   {
     "de": "Kilometer",
     "de_article": "der",
     "de_plural": "die Kilometer",
-    "lv": "Χιλιόμετρο",
+    "lv": "Kilometer",
     "level": "A1"
   },
   {
     "de": "Kind",
     "de_article": "das",
     "de_plural": "die Kinder",
-    "lv": "Ένα παιδί",
+    "lv": "Runder",
     "level": "A1"
   },
   {
     "de": "Kindergarten",
     "de_article": "der",
     "de_plural": "die Kindergärten",
-    "lv": "Νηπιαγωγείο",
+    "lv": "Siste ed",
     "level": "A1"
   },
   {
     "de": "Kirche",
     "de_article": "die",
     "de_plural": "die Kirchen",
-    "lv": "Την εκκλησία",
+    "lv": "Kirke",
     "level": "A1"
   },
   {
     "de": "kochen",
-    "lv": "Να προετοιμαστούν",
+    "lv": "Forbered dem",
     "level": "A1"
   },
   {
     "de": "kommen",
-    "lv": "Να έρθει",
+    "lv": "Tulema",
     "level": "A1"
   },
   {
     "de": "können",
-    "lv": "Να είναι • Σε θέση να",
+    "lv": "Saama • Oskama",
     "level": "A1",
     "study": {
       "id": "a1-können",
       "layout": "standardStudy",
-      "translation": "Να είναι • Σε θέση να",
+      "translation": "Saama • Oskama",
       "explanation": [
-        "Κύρια ιδέα: könn σημαίνει να μπορείς ή να μπορείς να κάνεις κάτι.",
-        "Όταν πρόκειται για ικανότητα ή δεξιότητα, στα εσθονικά λέγεται συχνά ότι μπορείς.",
-        "Όταν πρόκειται για δυνατότητα, συχνά λέγεται ότι είναι σε θέση.",
-        "Το können είναι ένα τροπικό ρήμα, επομένως το δεύτερο ρήμα έρχεται συνήθως στο τέλος της πρότασης."
+        "Hovedidé: können geschäfte magida suutma või oskama teha.",
+        "Kui jutt på võiest või oskusest, diätakse eesti keeles saifili oskama.",
+        "Kui jutt på saggigest, diätakse säili saama.",
+        "Können på modaaltegusõna, seepåråt seisab teine ​​​​tegusõna sämälä lause tegusõna."
       ],
       "examples": [
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "Μπορώ να μιλήσω γερμανικά"
+          "lv": "Jeg kan ikke saksisk."
         },
         {
           "de": "Kannst du mir helfen?",
-          "lv": "Μπορείς να με βοηθήσεις"
+          "lv": "Kan du hjelpe deg?"
         },
         {
           "de": "Wir können heute kommen.",
-          "lv": "Μπορούμε να έρθουμε σήμερα."
+          "lv": "Me saame täna tulla."
         },
         {
           "de": "Er kann gut schwimmen.",
-          "lv": "Μπορεί να κολυμπήσει καλά."
+          "lv": "Ta oskab behste ujuda."
         }
       ],
       "comparison": [
         {
           "word": "können",
-          "meaning": "Παίρνω / μπορώ",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "meaning": "Saama / oskama",
+          "example": "Ich kann schwimmen. = Ma oskan ujuda."
         },
         {
           "word": "dürfen",
-          "meaning": "Να επιτρέπεται",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "meaning": "Tohtima",
+          "example": "Darf ich gehen? = Hva må du gjøre?"
         },
         {
           "word": "müssen",
-          "meaning": "Χρειάζομαι / έχω",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "meaning": "Vajama / pidama",
+          "example": "Ich muss lernen. = Lære"
         },
         {
           "word": "wissen",
-          "meaning": "Να ξέρεις",
-          "example": "Ich weiß das. = Es to zinu."
+          "meaning": "Teadma",
+          "example": "Ich weiß das. = Ma te seda."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: δεξιότητα/ικανότητα → können."
+        "text": "Atceries: prasme/iespēja → können."
       },
       "important": [
-        "Το können δεν είναι το ίδιο με το dürfen. können = να μπορώ, dürfen = να μπορώ.",
-        "Σε μια πρόταση με können, το δεύτερο ρήμα είναι συχνά στο τέλος: Ich kann schwimmen."
+        "können nav tas pats, kas dürfen. können = varēt/prast, dürfen = drīkstēt.",
+        "Teikumā ar können otrs darbības vārds bieži stāv beigās: Ich kann schwimmen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11031,13 +11143,13 @@ const A1_WORDS = [
             "können"
           ],
           "purple": [
-            "varēt",
-            "prast"
+            "saama",
+            "oskama"
           ],
           "green": [
-            "spēju",
-            "prasmi",
-            "iespēju"
+            "Hovedidé",
+            "oskusest",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -11049,7 +11161,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "protu"
+                "Jeg"
               ]
             }
           },
@@ -11061,7 +11173,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vari"
+                "Kan"
               ]
             }
           },
@@ -11073,7 +11185,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "varam"
+                "saame"
               ]
             }
           },
@@ -11085,7 +11197,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "prot"
+                "oskab"
               ]
             }
           }
@@ -11099,8 +11211,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "varēt",
-                "prast"
+                "saama",
+                "oskama"
               ]
             },
             "example": {
@@ -11108,7 +11220,7 @@ const A1_WORDS = [
                 "kann"
               ],
               "purple": [
-                "protu"
+                "oskan"
               ]
             }
           },
@@ -11120,13 +11232,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "drīkstēt"
+                "tohtima"
               ]
             },
             "example": {
               "red": [
                 "Darf",
-                "drīkstu"
+                "Darf"
               ]
             }
           },
@@ -11138,13 +11250,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vajadzēt"
+                "vajama"
               ]
             },
             "example": {
               "yellow": [
                 "muss",
-                "jāmācās"
+                "Ich"
               ]
             }
           },
@@ -11156,13 +11268,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zināt"
+                "teadma"
               ]
             },
             "example": {
               "green": [
                 "weiß",
-                "zinu"
+                "Ich"
               ]
             }
           }
@@ -11173,8 +11285,8 @@ const A1_WORDS = [
               "können"
             ],
             "purple": [
-              "prasme",
-              "iespēja"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -11187,9 +11299,9 @@ const A1_WORDS = [
               "dürfen"
             ],
             "purple": [
-              "varēt",
-              "prast",
-              "drīkstēt"
+              "können",
+              "können",
+              "können"
             ]
           },
           {
@@ -11206,82 +11318,82 @@ const A1_WORDS = [
   },
   {
     "de": "kosten",
-    "lv": "Να πληρώσει",
+    "lv": "Maksimum",
     "level": "A1",
     "study": {
       "id": "a1-kosten",
       "layout": "standardStudy",
-      "translation": "Να πληρώσει",
+      "translation": "Maksimum",
       "explanation": [
-        "Βασική ιδέα: kosten σημαίνει να πληρώνεις τόσα και τόσα — έχει να κάνει με την τιμή του πράγματος.",
-        "Αυτή η λέξη χρησιμοποιείται όταν ρωτάμε ή λέμε πόσο κοστίζει κάτι, όχι όταν ένα άτομο κάνει μια πληρωμή.",
-        "Μια ερώτηση τιμής στα γερμανικά ξεκινά συχνά με τις λέξεις Was kostet...?",
-        "Η εσθονική λέξη πληρωμή είναι σωστή σε αυτό το πλαίσιο: Das kostet 5 ευρώ. = Κοστίζει 5 ευρώ.",
-        "Όταν κάποιος δίνει χρήματα για ένα αγαθό ή υπηρεσία, στα γερμανικά χρησιμοποιείται bezahlen ή zahlen."
+        "Põhiidee: the kosten gejät maksima nii ja nii palju — jutt on asja hinnast.",
+        "Seda sõna brukes, kui öklistakse või ätätakse, kui palju miski masak, mitte siis, kui otsebe teeb makse.",
+        "Hinnakekises algab saksa keeles sasili sönadega Was kostet...?",
+        "Eesti sõna maksima on selles kontektis utta: Das kostet 5 Euro. = Se koster 5 euro.",
+        "Kui utsebe annab kauba või tsvetva eest raha, saksa keeles bezahlen või zahlen."
       ],
       "examples": [
         {
           "de": "Das kostet 5 Euro.",
-          "lv": "Κοστίζει 5 ευρώ."
+          "lv": "Se koster 5 euro."
         },
         {
           "de": "Was kostet das?",
-          "lv": "Πόσο κοστίζει"
+          "lv": "Kui palju see masak?"
         },
         {
           "de": "Wie viel kostet der Pullover?",
-          "lv": "Πόσο κοστίζει ένα πουλόβερ • "
+          "lv": "Kui palju kampsun masak?"
         },
         {
           "de": "Das Essen kostet nicht viel.",
-          "lv": "Το φαγητό δεν κοστίζει πολύ."
+          "lv": "Det kostet ikke mye."
         },
         {
           "de": "Ich bezahle die Rechnung.",
-          "lv": "Πληρώνω τον λογαριασμό."
+          "lv": "Ma max arv."
         },
         {
           "de": "Kann ich bar bezahlen?",
-          "lv": "Μπορώ να πληρώσω με μετρητά"
+          "lv": "Kas ma saan sularahas makta?"
         },
         {
           "de": "Er zahlt mit Karte.",
-          "lv": "Πληρώνει με κάρτα."
+          "lv": "Ta masak kardiga."
         },
         {
           "de": "Ich zahle gleich.",
-          "lv": "Θα πληρώσω τώρα."
+          "lv": "Ma max kohe."
         }
       ],
       "comparison": [
         {
           "word": "kosten",
-          "meaning": "Πληρώστε (τιμή) • Πόσο κοστίζει",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "meaning": "Maksma (hinda) • Kui palju masak",
+          "example": "Das kostet 5 Euro. = Se koster 5 euro."
         },
         {
           "word": "bezahlen",
-          "meaning": "Πληρώνω • Εξοφλώ (χρήματα)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "meaning": "Maksma • Hedre maksma (raha)",
+          "example": "Ich bezahle die Rechnung. = Ma max arv."
         },
         {
           "word": "zahlen",
-          "meaning": "Να πληρώσει • Να εξοφλήσει",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "meaning": "Maksma • Hedre maksma",
+          "example": "Kann ich bar zahlen? = Kas ma saan sularahas makta?"
         },
         {
           "word": "Was kostet...?",
-          "meaning": "Ποσο κοστιζει...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "meaning": "Kui palju masak...?",
+          "example": "Was kostet das Buch? = Hva kan du gjøre?"
         }
       ],
       "tip": [
-        "Θυμηθείτε: ερώτηση σχετικά με την τιμή → kosten (Ήταν kostet das • ).",
-        "Θυμηθείτε: πληρωμή → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+        "Atceries: jautājums par cenu → kosten (Was kostet das?).",
+        "Atceries: maksājuma veikšana → bezahlen / zahlen (Ich bezahle die Rechnung.)."
       ],
       "important": [
-        "Kosten και bezahlen δεν είναι συνώνυμα: kosten = πόσο κοστίζει • Μπέζαχλεν = πληρώνω χρήματα.",
-        "Στα εσθονικά, η λέξη αμοιβή χρησιμοποιείται συχνά και στις δύο περιπτώσεις, αλλά στα γερμανικά πρέπει να επιλέξετε ανάλογα με την κατάσταση."
+        "kosten un bezahlen nav sinonīmi: kosten = cik maksā; bezahlen = samaksāt naudu.",
+        "Latviski abos gadījumos bieži lieto maksāt, bet vācu valodā jāizvēlas pēc situācijas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11289,9 +11401,9 @@ const A1_WORDS = [
             "kosten"
           ],
           "purple": [
-            "maksāt",
-            "cenu",
-            "cik kaut kas maksā"
+            "maksima",
+            "Põhiidee",
+            "Põhiidee"
           ],
           "green": [
             "Was kostet"
@@ -11310,7 +11422,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksā"
+                "koster"
               ]
             }
           },
@@ -11322,7 +11434,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksā"
+                "masak"
               ]
             }
           },
@@ -11334,7 +11446,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksā"
+                "masak"
               ]
             }
           },
@@ -11346,7 +11458,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nemaksā"
+                "Det"
               ]
             }
           },
@@ -11358,7 +11470,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksāju"
+                "max"
               ]
             }
           },
@@ -11370,7 +11482,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksāt"
+                "makta"
               ]
             }
           },
@@ -11382,7 +11494,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maksā"
+                "masak"
               ]
             }
           },
@@ -11394,7 +11506,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "samaksāšu"
+                "max"
               ]
             }
           }
@@ -11408,9 +11520,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "maksāt",
-                "cenu",
-                "cik maksā"
+                "maksma",
+                "hinda",
+                "Maksma"
               ]
             },
             "example": {
@@ -11418,7 +11530,7 @@ const A1_WORDS = [
                 "kostet"
               ],
               "purple": [
-                "maksā"
+                "Das"
               ]
             }
           },
@@ -11430,8 +11542,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "maksāt",
-                "samaksāt"
+                "maksma",
+                "maksma"
               ]
             },
             "example": {
@@ -11439,7 +11551,7 @@ const A1_WORDS = [
                 "bezahle"
               ],
               "purple": [
-                "maksāju"
+                "Ich"
               ]
             }
           },
@@ -11451,8 +11563,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "maksāt",
-                "samaksāt"
+                "maksma",
+                "maksma"
               ]
             },
             "example": {
@@ -11460,7 +11572,7 @@ const A1_WORDS = [
                 "zahlen"
               ],
               "purple": [
-                "maksāt"
+                "makta"
               ]
             }
           },
@@ -11472,7 +11584,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "cik maksā"
+                "Kui palju masak"
               ]
             },
             "example": {
@@ -11480,7 +11592,7 @@ const A1_WORDS = [
                 "kostet"
               ],
               "purple": [
-                "maksā"
+                "Was"
               ]
             }
           }
@@ -11492,7 +11604,7 @@ const A1_WORDS = [
               "Was kostet"
             ],
             "purple": [
-              "cenu"
+              "Atceries"
             ]
           },
           {
@@ -11501,7 +11613,7 @@ const A1_WORDS = [
               "zahlen"
             ],
             "purple": [
-              "maksājuma veikšana"
+              "Atceries"
             ]
           }
         ],
@@ -11514,14 +11626,14 @@ const A1_WORDS = [
               "bezahlen"
             ],
             "purple": [
-              "cik maksā",
-              "samaksāt"
+              "kosten",
+              "maksā"
             ]
           },
           {
             "purple": [
               "maksāt",
-              "situācijas"
+              "Latviski"
             ]
           }
         ]
@@ -11530,233 +11642,233 @@ const A1_WORDS = [
   },
   {
     "de": "küssen",
-    "lv": "Να φιλήσει",
+    "lv": "Suudlema",
     "level": "A1"
   },
   {
     "de": "lächeln",
-    "lv": "Να χαμογελάς",
+    "lv": "Naeratama",
     "level": "A1"
   },
   {
     "de": "lachen",
-    "lv": "Να γελάσουμε",
+    "lv": "Nærmere",
     "level": "A1"
   },
   {
     "de": "Honig",
     "de_article": "der",
     "de_plural": "die Honige",
-    "lv": "Μέλι",
+    "lv": "Messias",
     "level": "A1"
   },
   {
     "de": "Hose",
     "de_article": "die",
     "de_plural": "die Hosen",
-    "lv": "Παντελόνι",
+    "lv": "Püksid",
     "level": "A1"
   },
   {
     "de": "Huhn",
     "de_article": "das",
     "de_plural": "die Hühner",
-    "lv": "Κοτόπουλο",
+    "lv": "Kana",
     "level": "A1"
   },
   {
     "de": "Hund",
     "de_article": "der",
     "de_plural": "die Hunde",
-    "lv": "Ένας σκύλος",
+    "lv": "Kyr",
     "level": "A1"
   },
   {
     "de": "Hut",
     "de_article": "der",
     "de_plural": "die Hüte",
-    "lv": "Καπέλο",
+    "lv": "Tupp",
     "level": "A1"
   },
   {
     "de": "Jahr",
     "de_article": "das",
     "de_plural": "die Jahre",
-    "lv": "Έτος",
+    "lv": "Aasta",
     "level": "A1"
   },
   {
     "de": "Kaffee",
     "de_article": "der",
-    "lv": "Καφές",
+    "lv": "Kohv",
     "level": "A1"
   },
   {
     "de": "Kalender",
     "de_article": "der",
     "de_plural": "die Kalender",
-    "lv": "Ημερολόγιο",
+    "lv": "Kalender",
     "level": "A1"
   },
   {
     "de": "Kamera",
     "de_article": "die",
     "de_plural": "die Kameras",
-    "lv": "Κάμερα",
+    "lv": "Kamera",
     "level": "A1"
   },
   {
     "de": "Karotte",
     "de_article": "die",
     "de_plural": "die Karotten",
-    "lv": "Καρότο",
+    "lv": "Gulrøtter",
     "level": "A1"
   },
   {
     "de": "Kartoffel",
     "de_article": "die",
     "de_plural": "die Kartoffeln",
-    "lv": "Πατάτες",
+    "lv": "Kart",
     "level": "A1"
   },
   {
     "de": "Käse",
     "de_article": "der",
-    "lv": "Τυρί",
+    "lv": "Just",
     "level": "A1"
   },
   {
     "de": "Katze",
     "de_article": "die",
     "de_plural": "die Katzen",
-    "lv": "Γάτα",
+    "lv": "Kasse",
     "level": "A1"
   },
   {
     "de": "Kleid",
     "de_article": "das",
     "de_plural": "die Kleider",
-    "lv": "Ένα φόρεμα",
+    "lv": "Kleit",
     "level": "A1"
   },
   {
     "de": "Kleidung",
     "de_article": "die",
-    "lv": "Ενδύματα",
+    "lv": "Riietus",
     "level": "A1"
   },
   {
     "de": "Knoblauch",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Σκόρδο",
+    "lv": "Küüslauk",
     "level": "A1"
   },
   {
     "de": "Koch",
     "de_article": "der",
     "de_plural": "die Köche",
-    "lv": "Μάγειρας",
+    "lv": "Kokk",
     "level": "A1"
   },
   {
     "de": "Köchin",
     "de_article": "die",
     "de_plural": "die Köchinnen",
-    "lv": "Μια γυναίκα μαγείρισσα",
+    "lv": "Kvinnelig kokk",
     "level": "A1"
   },
   {
     "de": "Kopf",
     "de_article": "der",
     "de_plural": "die Köpfe",
-    "lv": "Το κεφάλι",
+    "lv": "Ert",
     "level": "A1"
   },
   {
     "de": "Kraftwagen",
     "de_article": "der",
     "de_plural": "die Kraftwagen",
-    "lv": "Αυτοκίνητο",
+    "lv": "Bil",
     "level": "A1"
   },
   {
     "de": "Küche",
     "de_article": "die",
     "de_plural": "die Küchen",
-    "lv": "Την κουζίνα",
+    "lv": "Köök",
     "level": "A1"
   },
   {
     "de": "Kuchen",
     "de_article": "der",
     "de_plural": "die Kuchen",
-    "lv": "Κέικ",
+    "lv": "Kook",
     "level": "A1"
   },
   {
     "de": "Kuh",
     "de_article": "die",
     "de_plural": "die Kühe",
-    "lv": "Μια αγελάδα",
+    "lv": "Leire",
     "level": "A1"
   },
   {
     "de": "Kühlschrank",
     "de_article": "der",
     "de_plural": "die Kühlschränke",
-    "lv": "Ψυγείο",
+    "lv": "Külmkapp",
     "level": "A1"
   },
   {
     "de": "Kuss",
     "de_article": "der",
     "de_plural": "die Küsse",
-    "lv": "Ένα φιλί",
+    "lv": "Hodelus",
     "level": "A1"
   },
   {
     "de": "Laden",
     "de_article": "der",
     "de_plural": "die Läden",
-    "lv": "Κατάστημα",
+    "lv": "Pood",
     "level": "A1",
     "study": {
       "id": "a1-laden-study",
       "layout": "standardStudy",
-      "translation": "Κατάστημα",
+      "translation": "Pood",
       "explanation": [
-        "Κύρια ιδέα: der Laden με κεφαλαίο γράμμα και το άρθρο der είναι ουσιαστικό — ένα μικρό κατάστημα.",
-        "Φορτωμένο είναι ένα ρήμα με μικρό αρχικό γράμμα — φορτώνω ή φορτώνω.",
-        "Ο der Laden αναφέρεται συχνά σε ένα μικρό κατάστημα στην καθημερινή ζωή (im Laden einkaufen = ψωνίζω σε ένα κατάστημα).",
-        "Πληθυντικός αριθμός: die Läden."
+        "Põhiidee: der Laden suure algustähega ja artikliga der on nimisõna — väike pood.",
+        "Laden knejse algustähega on tegusõna — peale laadima või laadima.",
+        "Der Laden gejteit igapäueelus säili väikest poodi (im Laden einkaufen = poes sisseoste tekama).",
+        "Mitmuses: die Läden."
       ],
       "examples": [
         {
           "de": "Ich gehe in den Laden.",
-          "lv": "Πάω στο κατάστημα."
+          "lv": "Ma þen poodi."
         },
         {
           "de": "Der Laden ist geschlossen.",
-          "lv": "Το μαγαζί είναι κλειστό."
+          "lv": "Pood på lukket."
         },
         {
           "de": "Es gibt viele Läden hier.",
-          "lv": "Υπάρχουν πολλά καταστήματα εδώ."
+          "lv": "Siin på palju poode."
         },
         {
           "de": "Ich muss mein Handy laden.",
-          "lv": "Πρέπει να φορτίσω το τηλέφωνό μου."
+          "lv": "Ma pean telefoni laadima."
         }
       ],
       "tip": [
-        "Der Laden με κεφαλαίο γράμμα — ουσιαστικό (κατάστημα).",
-        "Φορτωμένο με ένα μικρό αρχικό γράμμα — ρήμα (φορτώνω/φορτώνω)."
+        "der Laden ar lielo burtu — lietvārds (veikals).",
+        "laden ar mazo burtu — darbības vārds (iekraut/uzlādēt)."
       ],
       "important": [
-        "Der Laden = κατάστημα (ουσ.).",
-        "Φορτωμένος = φορτώνω/φορτώνω (ρήμα).",
-        "Πληθυντικός αριθμός: die Läden."
+        "der Laden = veikals (lietvārds).",
+        "laden = iekraut/uzlādēt (darbības vārds).",
+        "Daudzskaitlī: die Läden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11764,7 +11876,7 @@ const A1_WORDS = [
             "der Laden"
           ],
           "purple": [
-            "veikals"
+            "pood"
           ],
           "green": [
             "laden"
@@ -11779,7 +11891,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veikalu"
+                "poodi"
               ]
             }
           },
@@ -11791,7 +11903,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veikals"
+                "pood"
               ]
             }
           },
@@ -11803,7 +11915,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veikalu"
+                "poode"
               ]
             }
           },
@@ -11815,7 +11927,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jāuzlādē"
+                "laadima"
               ]
             }
           }
@@ -11856,71 +11968,71 @@ const A1_WORDS = [
     "de": "Lampe",
     "de_article": "die",
     "de_plural": "die Lampen",
-    "lv": "Λυχνία",
+    "lv": "Lampe",
     "level": "A1"
   },
   {
     "de": "Land",
     "de_article": "das",
     "de_plural": "die Länder",
-    "lv": "Χώρα • Γη",
+    "lv": "Riik • Maa",
     "level": "A1",
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
-      "translation": "Χώρα • Γη",
+      "translation": "Riik • Maa",
       "explanation": [
-        "Κύρια ιδέα: das Land συνήθως σημαίνει τη χώρα ή γη έξω από την πόλη.",
-        "Αν μιλάμε για Γερμανία, Εσθονία ή κάποια άλλη περιοχή με σύνορα, μεταφραστείτε ως χώρα.",
-        "Αν μιλάμε για την ύπαιθρο ή τη χώρα σε αντίθεση με την πόλη, μεταφράζεται ως η χώρα ή η ύπαιθρος.",
-        "Το πλαίσιο καθορίζει αν εννοούμε χώρα, ύπαιθρο ή γη."
+        "Põhiidee: das Land betyr oftest riiki voi maad utenfor linna.",
+        "Kui jutt på Sämäsäst, Eestist või mäköst muust piiridega territorioumist, tõlgi kui riik.",
+        "Kui jutt på maakoestet või maast linna vastandina, tõlgitakse se kui maa või maakoht.",
+        "Konteksten tilsier, kas mättäme riiki, maakohta või maad."
       ],
       "examples": [
         {
           "de": "Deutschland ist ein schönes Land.",
-          "lv": "Η Γερμανία είναι μια όμορφη χώρα."
+          "lv": "Tyskland på ilus riik."
         },
         {
           "de": "Ich komme aus einem kleinen Land.",
-          "lv": "Κατάγομαι από μια μικρή χώρα."
+          "lv": "Ma olen er fra det beste landet."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "Πάμε στη χώρα."
+          "lv": "Me säwäme maale."
         },
         {
           "de": "Auf dem Land ist es ruhig.",
-          "lv": "Η χώρα είναι ήρεμη."
+          "lv": "Måltid i ro."
         }
       ],
       "comparison": [
         {
           "word": "das Land",
-          "meaning": "Χώρα / χώρα / αγροτική περιοχή",
+          "meaning": "Land / fylke",
           "example": "Deutschland ist ein Land."
         },
         {
           "word": "die Stadt",
-          "meaning": "Πόλη",
+          "meaning": "Sengetøy",
           "example": "Ich wohne in der Stadt."
         },
         {
           "word": "das Dorf",
-          "meaning": "Χωριό",
+          "meaning": "Kald",
           "example": "Er lebt in einem Dorf."
         },
         {
           "word": "die Erde",
-          "meaning": "Γη / πλανήτης",
+          "meaning": "Maa / planet",
           "example": "Die Erde ist rund."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: χώρα → das Land • Πόλη → die Stadt."
+        "text": "Atceries: valsts → das Land; pilsēta → die Stadt."
       },
       "important": [
-        "Aufs Land σημαίνει «γη», όχι «χώρα».",
-        "Το das Land δεν είναι το ίδιο με το die Stadt."
+        "aufs Land nozīmē “uz laukiem”, nevis “uz valsti”.",
+        "das Land nav tas pats, kas die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11929,15 +12041,15 @@ const A1_WORDS = [
             "Land"
           ],
           "purple": [
-            "valsti",
-            "zemi",
-            "lauki",
-            "valsts"
+            "Põhiidee",
+            "maad",
+            "maa",
+            "riik"
           ],
           "green": [
-            "Vāciju",
-            "Latviju",
-            "pilsētas"
+            "Põhiidee",
+            "Eestist",
+            "linna"
           ]
         },
         "examples": [
@@ -11952,10 +12064,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "valsts"
+                "riik"
               ],
               "green": [
-                "Vācija"
+                "Tyskland"
               ]
             }
           },
@@ -11967,7 +12079,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "valsts"
+                "olen"
               ]
             }
           },
@@ -11979,7 +12091,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laukiem"
+                "maale"
               ]
             }
           },
@@ -11991,7 +12103,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laukos"
+                "Måltid"
               ]
             }
           }
@@ -12005,9 +12117,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "valsts",
-                "zeme",
-                "lauki"
+                "Land",
+                "Land",
+                "Land"
               ]
             },
             "example": {
@@ -12024,7 +12136,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pilsēta"
+                "Sengetøy"
               ]
             },
             "example": {
@@ -12041,7 +12153,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ciems"
+                "Kald"
               ]
             },
             "example": {
@@ -12058,8 +12170,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zeme",
-                "planēta"
+                "maa",
+                "planet"
               ]
             },
             "example": {
@@ -12075,11 +12187,11 @@ const A1_WORDS = [
               "das Land"
             ],
             "purple": [
-              "valsts"
+              "Atceries"
             ],
             "yellow": [
               "die Stadt",
-              "pilsēta"
+              "Atceries"
             ]
           }
         },
@@ -12089,10 +12201,10 @@ const A1_WORDS = [
               "aufs Land"
             ],
             "purple": [
-              "uz laukiem"
+              "aufs"
             ],
             "red": [
-              "uz valsti"
+              "aufs"
             ]
           },
           {
@@ -12109,52 +12221,52 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Μεγάλης διάρκειας • Μεγάλης διάρκειας",
+    "lv": "Hane • Kauakestev",
     "level": "A1",
     "study": {
       "id": "a1-lang",
       "layout": "standardStudy",
-      "translation": "Μεγάλης διάρκειας • Μεγάλης διάρκειας",
+      "translation": "Hane • Kauakestev",
       "explanation": [
-        "Κύρια ιδέα: lang σημαίνει μακρύς στο χώρο, μακρύς από άποψη χρόνου ή διάρκειας.",
-        "Όταν μιλάμε για μέγεθος ή απόσταση, lang = μακρύ (ein langer Tisch = μακρύ τραπέζι).",
-        "Όταν πρόκειται για χρονική διάρκεια, lang = μακρά (ein langer Tag = μεγάλη μέρα).",
-        "Στη φράση den ganzen Tag lang σημαίνει όλη μέρα (σε τρέξιμο).",
-        "Στα Εσθονικά, λέτε και \"μακρύ τραπέζι\" και \"μακριά μέρα\", και το γερμανικό lang καλύπτει και τις δύο έννοιες με τον ίδιο τρόπο."
+        "Põhiidee: lang gejätt ruimailist pikk, aja konks pikk või kestev.",
+        "Kui jutt on suuresest või käussest, lang = pikk (ein langer Tisch = pikk laud).",
+        "Kui jutt på ajalisest kurtasest, lang = pikk (ein langer Tag = pikk päv).",
+        "Fraasis den ganzen Tag lang gejnde see kogu päusi (jooksul).",
+        "Eesti keeles dyätakse nii 'pikk laud' kui ka 'pikk päv' ning saksa lang katab sämkem kabais saimssed."
       ],
       "examples": [
         {
           "de": "Der Tisch ist sehr lang.",
-          "lv": "Το τραπέζι είναι πολύ μακρύ."
+          "lv": "Laud on väga pikk."
         },
         {
           "de": "Der Film war sehr lang.",
-          "lv": "Η ταινία ήταν πολύ μεγάλη."
+          "lv": "Film oli veie pikk."
         },
         {
           "de": "Wie lange dauert es?",
-          "lv": "Πόσο διαρκεί • "
+          "lv": "Kan du se taks?"
         },
         {
           "de": "Sie hat lange Haare.",
-          "lv": "Έχει μακριά μαλλιά."
+          "lv": "Snakk om piggete hår."
         },
         {
           "de": "Ich warte schon lange.",
-          "lv": "Περίμενα πολύ καιρό."
+          "lv": "Ma ootan juba kaua."
         },
         {
           "de": "Den ganzen Tag lang.",
-          "lv": "Όλη μέρα (τέλος)."
+          "lv": "Kogu päv (otsa)."
         }
       ],
       "tip": [
-        "Σχετικά με το μέγεθος ή την απόσταση (μαλλιά, δρόμος, τραπέζι) → μακρύ.",
-        "Σχετικά με την ώρα (ημέρα, αναμονή, ταινία) → μακράς διαρκείας."
+        "Par izmēru vai attālumu (mati, ceļš, galds) → garš.",
+        "Par laiku (diena, gaidīšana, filma) → ilgs."
       ],
       "important": [
-        "Lang = μεγάλη (μέτρο) Ή μεγάλη διάρκεια (χρόνος) — ανάλογα με το πλαίσιο.",
-        "Wie lange = πόσο καιρό (ένα ερώτημα σχετικά με το χρόνο, όχι το μέγεθος)."
+        "lang = garš (izmērs) VAI ilgs (laiks) — atkarībā no konteksta.",
+        "wie lange = cik ilgi (jautājums par laiku, ne izmēru)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12162,8 +12274,8 @@ const A1_WORDS = [
             "lang"
           ],
           "purple": [
-            "garš",
-            "ilgs"
+            "pikk",
+            "pikk"
           ]
         },
         "examples": [
@@ -12175,7 +12287,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "garš"
+                "pikk"
               ]
             }
           },
@@ -12187,7 +12299,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ilga"
+                "pikk"
               ]
             }
           },
@@ -12199,7 +12311,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ilgi"
+                "Kan"
               ]
             }
           },
@@ -12211,7 +12323,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gari"
+                "Snakk"
               ]
             }
           },
@@ -12223,7 +12335,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ilgi"
+                "kaua"
               ]
             }
           },
@@ -12235,7 +12347,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "garumā"
+                "kogu"
               ]
             }
           }
@@ -12243,20 +12355,20 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "garš"
+              "Par"
             ]
           },
           {
             "green": [
-              "ilgs"
+              "Par"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "garš",
-              "ilgs"
+              "lang",
+              "lang"
             ]
           },
           {
@@ -12270,79 +12382,79 @@ const A1_WORDS = [
   },
   {
     "de": "lange",
-    "lv": "Για πολύ καιρό",
+    "lv": "Kauai",
     "level": "A1"
   },
   {
     "de": "langsam",
-    "lv": "Αργός",
+    "lv": "Aeglane",
     "level": "A1"
   },
   {
     "de": "langweilig",
-    "lv": "Ανιαρός",
+    "lv": "I går",
     "level": "A1"
   },
   {
     "de": "lassen",
-    "lv": "Να φύγει • Να αφήσει",
+    "lv": "Kjempe • Laskma",
     "level": "A1",
     "study": {
       "id": "a1-lassen",
       "layout": "standardStudy",
-      "translation": "Να φύγει • Να αφήσει",
+      "translation": "Kjempe • Laskma",
       "explanation": [
-        "Κύρια ιδέα: lassen σημαίνει να αφήνεις κάτι ή να αφήνεις κάτι να συμβεί.",
-        "Όταν κάτι παραμένει στη θέση του, το lassen μεταφράζεται ως αποχώρηση.",
-        "Όταν σε κάποιον δίνεται άδεια, το lassen μεταφράζεται ως επιτρέπω.",
-        "Στις συζητήσεις η μορφή Lass mich είναι πολύ συνηθισμένη! = Άσε με ήσυχο! ή Άσε με!"
+        "Põhiidee: lassen jähät magadi jätma või laskma millelgi datätä.",
+        "Kui miski jäab paigale, tõlgitakse lassen kui jätma.",
+        "Kui kellegi antakse luba, tõlgitakse lassen kui lubama.",
+        "Vestlustes på vega sage vorm Lass mich! = Spis sinn rahule! või Laser sinn!"
       ],
       "examples": [
         {
           "de": "Ich lasse die Tasche hier.",
-          "lv": "Θα αφήσω την τσάντα εδώ."
+          "lv": "Ma jätan koti siia."
         },
         {
           "de": "Lass das bitte auf dem Tisch.",
-          "lv": "Παρακαλώ αφήστε το στο τραπέζι."
+          "lv": "Yeat se palun lauale."
         },
         {
           "de": "Meine Eltern lassen mich gehen.",
-          "lv": "Οι γονείς μου με άφησαν να φύγω."
+          "lv": "Vanemad lasevad mul minna."
         },
         {
           "de": "Lass mich in Ruhe!",
-          "lv": "Άσε με ήσυχο!"
+          "lv": "Spis tankene Rahul!"
         }
       ],
       "comparison": [
         {
           "word": "lassen",
-          "meaning": "Αφήνω / αφήνω",
+          "meaning": "Kjempe / laskma",
           "example": "Ich lasse das hier."
         },
         {
           "word": "bleiben",
-          "meaning": "Να μείνεις",
+          "meaning": "Jääma",
           "example": "Ich bleibe hier."
         },
         {
           "word": "erlauben",
-          "meaning": "Επιτρέπω",
+          "meaning": "Lubama",
           "example": "Sie erlaubt mir das."
         },
         {
           "word": "geben",
-          "meaning": "Να δώσει",
+          "meaning": "Puste",
           "example": "Gib mir das Buch."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: κάτι παραμένει → lassen • Κάποιος επιτρέπεται → lassen."
+        "text": "Atceries: kaut kas paliek → lassen; kādam atļauj → lassen."
       },
       "important": [
-        "Lassen δεν σημαίνει απλώς «να φύγω». Συχνά σημαίνει επίσης «να αφήνω».",
-        "Άσε με να ξεκουραστώ! είναι μια πολύ συνηθισμένη φράση: «Αφήστε με ήσυχο!»"
+        "lassen nav tikai “atstāt”. Tas bieži nozīmē arī “ļaut”.",
+        "Lass mich in Ruhe! ir ļoti bieža frāze: “Liec mani mierā!”"
       ],
       "sectionAccents": {
         "explanation": {
@@ -12351,13 +12463,13 @@ const A1_WORDS = [
             "Lass mich"
           ],
           "purple": [
-            "atstāt",
-            "ļaut",
-            "Liec mani mierā"
+            "jätma",
+            "laskma",
+            "Põhiidee"
           ],
           "green": [
-            "vietā",
-            "atļauju"
+            "Põhiidee",
+            "luba"
           ]
         },
         "examples": [
@@ -12369,10 +12481,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atstāju"
+                "jätan"
               ],
               "yellow": [
-                "somu"
+                "koti"
               ]
             }
           },
@@ -12384,7 +12496,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atstāj"
+                "Yeat"
               ]
             }
           },
@@ -12396,7 +12508,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ļauj"
+                "vanemad"
               ]
             }
           },
@@ -12408,7 +12520,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "liec mani mierā"
+                "Spis"
               ]
             }
           }
@@ -12422,8 +12534,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atstāt",
-                "ļaut"
+                "Kjempe",
+                "laskma"
               ]
             },
             "example": {
@@ -12440,7 +12552,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "palikt"
+                "jääma"
               ]
             },
             "example": {
@@ -12457,7 +12569,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atļaut"
+                "lubama"
               ]
             },
             "example": {
@@ -12474,7 +12586,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "dot"
+                "Puste"
               ]
             },
             "example": {
@@ -12490,8 +12602,8 @@ const A1_WORDS = [
               "lassen"
             ],
             "purple": [
-              "paliek",
-              "atļauj"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -12501,8 +12613,8 @@ const A1_WORDS = [
               "lassen"
             ],
             "purple": [
-              "atstāt",
-              "ļaut"
+              "lassen",
+              "lassen"
             ]
           },
           {
@@ -12510,7 +12622,7 @@ const A1_WORDS = [
               "Lass mich in Ruhe"
             ],
             "purple": [
-              "liec mani mierā"
+              "Lass"
             ]
           }
         ]
@@ -12519,64 +12631,64 @@ const A1_WORDS = [
   },
   {
     "de": "laufen",
-    "lv": "Να τρέχω • Στη δουλειά",
+    "lv": "Jooksma • Töötama",
     "level": "A1",
     "study": {
       "id": "a1-laufen",
       "layout": "standardStudy",
-      "translation": "Να τρέχω • Στη δουλειά",
+      "translation": "Jooksma • Töötama",
       "explanation": [
-        "Κύρια ιδέα: laufen σημαίνει τρέξιμο, αλλά για εξοπλισμό μπορεί να σημαίνει δουλειά.",
-        "Για ένα άτομο ή ένα ζώο, το laufen σημαίνει συχνά να τρέχεις ή να πηγαίνεις με γρήγορο ρυθμό.",
-        "Για μια ταινία, μηχανή ή πρόγραμμα, το laufen σημαίνει ότι τρέχει ή τρέχει.",
-        "Όταν πρόκειται για περπάτημα, οι λέξεις gehen και laufen συγκρίνονται συχνότερα σε επίπεδο Α1."
+        "Põhiidee: laufen betyr jooksma, aga erättät puhulu sämät see tätända öststama.",
+        "Inimese või looma kohta täää laufen saifile jooksma või kiires sammus minme.",
+        "Filmi, masina või programmi köhta äää laufen, et see kurvat või või.",
+        "Jogging sammenlignes med A1-nivået, oftest sövı gehen ja laufen."
       ],
       "examples": [
         {
           "de": "Er läuft sehr schnell.",
-          "lv": "Τρέχει πολύ γρήγορα."
+          "lv": "Ta jookseb väga geären."
         },
         {
           "de": "Die Kinder laufen im Park.",
-          "lv": "Τα παιδιά τρέχουν στο πάρκο."
+          "lv": "Forfalt jooksevad pargis."
         },
         {
           "de": "Der Film läuft schon.",
-          "lv": "Η ταινία προβάλλεται ήδη."
+          "lv": "Filmen kjører allerede."
         },
         {
           "de": "Die Maschine läuft gut.",
-          "lv": "Το μηχάνημα λειτουργεί καλά."
+          "lv": "Maskinen fungerer bra."
         }
       ],
       "comparison": [
         {
           "word": "laufen",
-          "meaning": "Τρέξιμο / δουλειά",
+          "meaning": "Jooksma / öststama",
           "example": "Er läuft schnell."
         },
         {
           "word": "gehen",
-          "meaning": "Πηγαίνετε με τα πόδια",
+          "meaning": "Jalgsi minema",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "fahren",
-          "meaning": "Οδηγούν ένα όχημα",
+          "meaning": "Sõidukiga suudma",
           "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "funktionieren",
-          "meaning": "Να λειτουργήσει",
+          "meaning": "Toimima",
           "example": "Das funktioniert gut."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: πόδια γρήγορα → laufen • Μεταφορά → fahren."
+        "text": "Atceries: kājas ātri → laufen; transports → fahren."
       },
       "important": [
-        "Το laufen δεν σημαίνει μόνο «τρέχω». Για μια ταινία ή μια συσκευή, μπορεί να σημαίνει \"τρέχω\" ή \"εργάζομαι\".",
-        "Ich laufe σημαίνει κίνηση με τα πόδια, όχι οδήγηση."
+        "laufen nav tikai “skriet”. Par filmu vai ierīci tas var nozīmēt “iet” vai “darboties”.",
+        "Ich laufe nozīmē kustību kājām, nevis braukšanu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12584,16 +12696,16 @@ const A1_WORDS = [
             "laufen"
           ],
           "purple": [
-            "skriet",
-            "darboties",
-            "iet"
+            "jooksma",
+            "Põhiidee",
+            "minme"
           ],
           "green": [
-            "cilvēku",
-            "dzīvnieku",
-            "filmu",
-            "mašīnu",
-            "programmu"
+            "Inimese",
+            "looma",
+            "filmi",
+            "masina",
+            "programmi"
           ]
         },
         "examples": [
@@ -12605,7 +12717,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skrien"
+                "jookseb"
               ]
             }
           },
@@ -12617,7 +12729,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skrien"
+                "jooksevad"
               ]
             }
           },
@@ -12629,7 +12741,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "iet"
+                "film"
               ]
             }
           },
@@ -12641,7 +12753,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "darbojas"
+                "Maskinen"
               ]
             }
           }
@@ -12655,8 +12767,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "skriet",
-                "darboties"
+                "jooksma",
+                "jooksma"
               ]
             },
             "example": {
@@ -12673,7 +12785,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iet"
+                "minema"
               ]
             },
             "example": {
@@ -12690,7 +12802,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "braukt"
+                "Sõidukiga"
               ]
             },
             "example": {
@@ -12707,7 +12819,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "darboties"
+                "toimima"
               ]
             },
             "example": {
@@ -12723,11 +12835,11 @@ const A1_WORDS = [
               "laufen"
             ],
             "purple": [
-              "kājas ātri"
+              "Atceries"
             ],
             "red": [
               "fahren",
-              "transports"
+              "transport"
             ]
           }
         },
@@ -12737,9 +12849,9 @@ const A1_WORDS = [
               "laufen"
             ],
             "purple": [
-              "skriet",
-              "iet",
-              "darboties"
+              "laufen",
+              "laufen",
+              "laufen"
             ]
           },
           {
@@ -12747,10 +12859,10 @@ const A1_WORDS = [
               "Ich laufe"
             ],
             "purple": [
-              "kustību kājām"
+              "Ich"
             ],
             "red": [
-              "braukšanu"
+              "Ich"
             ]
           }
         ]
@@ -12759,57 +12871,57 @@ const A1_WORDS = [
   },
   {
     "de": "laut",
-    "lv": "Επιλέγω",
+    "lv": "Velge",
     "level": "A1",
     "study": {
       "id": "a1-laut",
       "layout": "standardStudy",
-      "translation": "Επιλέγω",
+      "translation": "Velge",
       "explanation": [
-        "Κύρια ιδέα: Επίθετο με πεζό γράμμα. Περιγράφει την ένταση — πόσο δυνατός είναι ένας ήχος ή μια ομιλία.",
-        "Laut σημαίνει κυρίως: επιλογή ήχου.",
-        "Συχνά περιγράφει: ένα επίθετο.",
-        "Laut σημαίνει κυρίως: ηχητικό σήμα.",
-        "Συχνά περιγράφει: ουσιαστικό (der).",
-        "Το laut με πεζό γράμμα είναι επίθετο — περιγράφει πόσο δυνατός είναι ο ήχος (Die Musik ist laut = η μουσική είναι δυνατή).",
-        "Der Laut με κεφαλαίο γράμμα και το άρθρο der είναι ουσιαστικό — σημαίνει ήχος ως πράγμα ή σήμα (Der Laut ist schön = ο ήχος είναι όμορφος).",
-        "Πληθυντικός αριθμός: die Laute."
+        "Põhiidee: Omadussõna knejse algustähega. Kirjeldab intensivst — kui vali on heli või öpe.",
+        "Laut gejättä säää: vali heli.",
+        "Sägeli sälästab: sägelsõna.",
+        "Laut geschäfte sichten: helisignal.",
+        "Sägeli ekpretab: nimisõna (der).",
+        "Laut kjesne algustähega på sämätsõna — se ekretab, kui vali på heli (Die Musik ist laut = musiika på vali).",
+        "Der Laut suure algustähega ja artikliga der on nimisõna — se gejneh heli kui asja või signali (Der Laut ist schön = heli på ilus).",
+        "Mitmuser: die Laute."
       ],
       "examples": [
         {
           "de": "Die Musik ist laut.",
-          "lv": "Η μουσική είναι δυνατή."
+          "lv": "Muusika på vali."
         },
         {
           "de": "Die Musik ist laut.",
-          "lv": "Η μουσική είναι δυνατή."
+          "lv": "Muusika på vali."
         },
         {
           "de": "Sprich nicht so laut!",
-          "lv": "Μη μιλάς τόσο δυνατά!"
+          "lv": "Er sølë nii valjut!"
         },
         {
           "de": "Das ist sehr laut.",
-          "lv": "Είναι πολύ δυνατό."
+          "lv": "Se på väga vali."
         },
         {
           "de": "Der Laut ist schön.",
-          "lv": "Ο ήχος είναι όμορφος."
+          "lv": "Heli på illus."
         },
         {
           "de": "Ich höre einen Laut.",
-          "lv": "Ακούω κάποιο ήχο."
+          "lv": "Ma kuulen no heli."
         }
       ],
       "tip": [
-        "Väike laut = διαλέγω (επίθετο: ist laut). der Laut με κεφαλαίο = ήχος (ουσιαστικό: ein Laut, der Laut).",
-        "Αχυρώνας = ήχος"
+        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
+        "laut = skaņa"
       ],
       "important": [
-        "Το laut γράφεται με μικρό αρχικό γράμμα και χωρίς το άρθρο — είναι επίθετο.",
-        "Der Laut με κεφαλαίο γράμμα και το άρθρο der είναι ουσιαστικό.",
-        "Πληθυντικός αριθμός: die Laute (ήχοι της γλώσσας, ηχητικά σήματα).",
-        "Λάθος: Der Laut ist sehr. → Σωστό: Das ist sehr laut."
+        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
+        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
+        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12817,7 +12929,8 @@ const A1_WORDS = [
             "laut"
           ],
           "purple": [
-            "skaļa"
+            "vali",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -12830,7 +12943,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaļa"
+                "vali"
               ]
             }
           },
@@ -12843,7 +12956,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaļa"
+                "vali"
               ]
             }
           },
@@ -12856,7 +12969,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaļi"
+                "valjut"
               ]
             }
           },
@@ -12869,7 +12982,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaļi"
+                "vali"
               ]
             }
           },
@@ -12882,7 +12995,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaņa"
+                "heli"
               ]
             }
           },
@@ -12895,7 +13008,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaņu"
+                "kuulen"
               ]
             }
           }
@@ -12903,7 +13016,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "skaļš"
+              "Mazais"
             ]
           }
         ],
@@ -12921,57 +13034,57 @@ const A1_WORDS = [
     "de": "Laut",
     "de_article": "der",
     "de_plural": "die Laute",
-    "lv": "Ήχος",
+    "lv": "Heli",
     "level": "A1",
     "study": {
       "id": "a1-laut-study",
       "layout": "standardStudy",
-      "translation": "Ήχος",
+      "translation": "Heli",
       "explanation": [
-        "Κύρια ιδέα: Ουσιαστικό με το άρθρο der και κεφαλαίο γράμμα. Σημαίνει ήχος ως ο ήχος ενός πράγματος, σήματος ή γλώσσας.",
-        "Der Laut σημαίνει κυρίως: δυνατός ήχος.",
-        "Συχνά περιγράφει: ένα επίθετο.",
-        "Der Laut σημαίνει κυρίως: ηχητικό σήμα.",
-        "Συχνά περιγράφει: ουσιαστικό (der).",
-        "Το laut με πεζό γράμμα είναι επίθετο — περιγράφει πόσο δυνατός είναι ο ήχος (Die Musik ist laut = η μουσική είναι δυνατή).",
-        "Der Laut με κεφαλαίο γράμμα και το άρθρο der είναι ουσιαστικό — σημαίνει ήχος ως πράγμα ή σήμα (Der Laut ist schön = ο ήχος είναι όμορφος).",
-        "Πληθυντικός αριθμός: die Laute."
+        "Põhiidee: Nimisõna artikliga der ja suure algustähega. Det betyr heli kui asja, signali või keele võalikut.",
+        "Der Laut geschätzliche nicht: vali heli.",
+        "Sägeli sälästab: sägelsõna.",
+        "Der Laut geschichte geschichten: helisignal.",
+        "Sägeli ekpretab: nimisõna (der).",
+        "Laut kjesne algustähega på sämätsõna — se ekretab, kui vali på heli (Die Musik ist laut = musiika på vali).",
+        "Der Laut suure algustähega ja artikliga der on nimisõna — se gejneh heli kui asja või signali (Der Laut ist schön = heli på ilus).",
+        "Mitmuser: die Laute."
       ],
       "examples": [
         {
           "de": "Der Laut ist schön.",
-          "lv": "Ο ήχος είναι όμορφος."
+          "lv": "Heli på illus."
         },
         {
           "de": "Die Musik ist laut.",
-          "lv": "Η μουσική είναι δυνατή."
+          "lv": "Muusika på vali."
         },
         {
           "de": "Sprich nicht so laut!",
-          "lv": "Μη μιλάς τόσο δυνατά!"
+          "lv": "Er sølë nii valjut!"
         },
         {
           "de": "Das ist sehr laut.",
-          "lv": "Είναι πολύ δυνατό."
+          "lv": "Se på väga vali."
         },
         {
           "de": "Der Laut ist schön.",
-          "lv": "Ο ήχος είναι όμορφος."
+          "lv": "Heli på illus."
         },
         {
           "de": "Ich höre einen Laut.",
-          "lv": "Ακούω κάποιο ήχο."
+          "lv": "Ma kuulen no heli."
         }
       ],
       "tip": [
-        "Väike laut = διαλέγω (επίθετο: ist laut). der Laut με κεφαλαίο = ήχος (ουσιαστικό: ein Laut, der Laut).",
-        "Der Laut = ήχος"
+        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
+        "der Laut = skaņa"
       ],
       "important": [
-        "Το laut γράφεται με μικρό αρχικό γράμμα και χωρίς το άρθρο — είναι επίθετο.",
-        "Der Laut με κεφαλαίο γράμμα και το άρθρο der είναι ουσιαστικό.",
-        "Πληθυντικός αριθμός: die Laute (ήχοι της γλώσσας, ηχητικά σήματα).",
-        "Λάθος: Der Laut ist sehr. → Σωστό: Das ist sehr laut."
+        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
+        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
+        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12980,8 +13093,8 @@ const A1_WORDS = [
             "laut"
           ],
           "purple": [
-            "skaņa",
-            "skaņas"
+            "heli",
+            "heli"
           ],
           "yellow": [
             "Laut",
@@ -12998,43 +13111,46 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaņa"
+                "heli"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Die",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "skaļa"
+                "muusika"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Sprich",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "skaļi"
+                "sølë"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Das",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "skaļi"
+                "Se"
               ]
             }
           },
@@ -13047,19 +13163,20 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaņa"
+                "heli"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Ich",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "skaņu"
+                "heli"
               ]
             }
           }
@@ -13067,91 +13184,95 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "skaņa"
+              "Mazais"
             ]
           }
         ],
         "important": [
-          {}
+          {
+            "green": [
+              "laut"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "leben",
-    "lv": "Να ζεις",
+    "lv": "Elam",
     "level": "A1"
   },
   {
     "de": "lecker",
-    "lv": "Υπέροχος",
+    "lv": "Maitsev",
     "level": "A1"
   },
   {
     "de": "leer",
-    "lv": "Αδειάζω",
+    "lv": "Tühi",
     "level": "A1"
   },
   {
     "de": "legen",
-    "lv": "Να βάλεις",
+    "lv": "Panem",
     "level": "A1",
     "study": {
       "id": "a1-legen",
       "layout": "standardStudy",
-      "translation": "Να βάλεις",
+      "translation": "Panem",
       "explanation": [
-        "Κύρια ιδέα: Legen σημαίνει να στρώνετε κάτι κάτω ή οριζόντια.",
-        "Το legen χρησιμοποιείται όταν μετακινείτε μόνοι σας το αντικείμενο και το βάζετε σε τραπέζι, κρεβάτι ή κάποια άλλη επιφάνεια.",
-        "Διαφέρει από τη λέξη liegen, που σημαίνει ότι κάτι είναι ήδη ξαπλωμένο ή ξαπλωμένο.",
-        "Στο επίπεδο Α1, η πιο σημαντική διαφορά είναι: legen = τοποθετώ, liegen = ξαπλώνω."
+        "Põhiidee: legen gejätt magadi pikali või horisontal panema.",
+        "Legen brukes, kui sa ise pähäd asja ja paned selle lauale, voodile või caaele muule pinnale.",
+        "Se sähät sänast liegen, mis sähää, et miski juba asub või lamab.",
+        "A1 på den viktigste vahe: legen = asetama, liegen = lamama."
       ],
       "examples": [
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Έβαλα το βιβλίο στο τραπέζι."
+          "lv": "Ma panen biibi lauale."
         },
         {
           "de": "Leg den Schlüssel hierhin.",
-          "lv": "Βάλε το κλειδί εδώ."
+          "lv": "Panel võti siia."
         },
         {
           "de": "Sie legt das Kind ins Bett.",
-          "lv": "Βάζει το μωρό στο κρεβάτι."
+          "lv": "Ta paneb lapse voodisse."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Το βιβλίο είναι στο τραπέζι."
+          "lv": "Raamat på laual."
         }
       ],
       "comparison": [
         {
           "word": "legen",
-          "meaning": "Να βάλεις",
+          "meaning": "Panem",
           "example": "Ich lege das Buch auf den Tisch."
         },
         {
           "word": "liegen",
-          "meaning": "Τακτοποιώ / ξαπλώνω",
+          "meaning": "Asuma / lama",
           "example": "Das Buch liegt auf dem Tisch."
         },
         {
           "word": "stellen",
-          "meaning": "Να σηκωθεί",
+          "meaning": "Püsti panema",
           "example": "Ich stelle die Flasche auf den Tisch."
         },
         {
           "word": "setzen",
-          "meaning": "Να καθίσει / να καθίσει",
+          "meaning": "Istuma panema / maha istuma",
           "example": "Ich setze mich."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: εσείς τοποθετείτε → legen • Το πράγμα είναι ήδη στη θέση του → liegen."
+        "text": "Atceries: tu noliec → legen; lieta jau atrodas → liegen."
       },
       "important": [
-        "Legen και liegen δεν είναι το ίδιο.",
-        "Ich lege das Buch = τοποθετώ το βιβλίο. Das Buch liegt = το βιβλίο βρίσκεται."
+        "legen un liegen nav viens un tas pats.",
+        "Ich lege das Buch = es nolieku grāmatu. Das Buch liegt = grāmata atrodas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13160,15 +13281,15 @@ const A1_WORDS = [
             "liegen"
           ],
           "purple": [
-            "nolikt",
-            "atrodas",
-            "guļ"
+            "panema",
+            "asub",
+            "lamab"
           ],
           "yellow": [
-            "lietu",
-            "galda",
-            "gultas",
-            "virsmas"
+            "asja",
+            "lauale",
+            "voodile",
+            "pinnale"
           ]
         },
         "examples": [
@@ -13184,11 +13305,11 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nolieku"
+                "panen"
               ],
               "yellow": [
-                "grāmatu",
-                "galda"
+                "panen",
+                "lauale"
               ]
             }
           },
@@ -13203,10 +13324,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noliec"
+                "pane"
               ],
               "yellow": [
-                "atslēgu"
+                "võti"
               ]
             }
           },
@@ -13224,13 +13345,13 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noliek"
+                "paneb"
               ],
               "green": [
-                "bērnu"
+                "lapse"
               ],
               "yellow": [
-                "gultā"
+                "voodisse"
               ]
             }
           },
@@ -13246,11 +13367,11 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "atrodas"
+                "raamat"
               ],
               "yellow": [
-                "Grāmata",
-                "galda"
+                "Raamat",
+                "laual"
               ]
             }
           }
@@ -13264,7 +13385,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nolikt"
+                "Panem"
               ]
             },
             "example": {
@@ -13281,8 +13402,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atrasties",
-                "gulēt"
+                "asuma",
+                "Asuma"
               ]
             },
             "example": {
@@ -13299,7 +13420,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "stāvus"
+                "püsti"
               ]
             },
             "example": {
@@ -13316,7 +13437,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "apsēsties"
+                "istuma"
               ]
             },
             "example": {
@@ -13332,11 +13453,11 @@ const A1_WORDS = [
               "legen"
             ],
             "purple": [
-              "noliec"
+              "Atceries"
             ],
             "red": [
               "liegen",
-              "atrodas"
+              "Atceries"
             ]
           }
         },
@@ -13354,11 +13475,11 @@ const A1_WORDS = [
               "lege"
             ],
             "purple": [
-              "nolieku"
+              "Ich"
             ],
             "red": [
               "liegt",
-              "atrodas"
+              "Ich"
             ]
           }
         ]
@@ -13369,66 +13490,66 @@ const A1_WORDS = [
     "de": "Lehrer",
     "de_article": "der",
     "de_plural": "die Lehrer",
-    "lv": "Δάσκαλος",
+    "lv": "Õpetaja",
     "level": "A1"
   },
   {
     "de": "Lehrerin",
     "de_article": "die",
     "de_plural": "die Lehrerinnen",
-    "lv": "Μια δασκάλα",
+    "lv": "Naisöpetaja",
     "level": "A1"
   },
   {
     "de": "leicht",
-    "lv": "Εύκολος",
+    "lv": "Kerge",
     "level": "A1"
   },
   {
     "de": "leider",
-    "lv": "Δυστυχώς",
+    "lv": "Dessverre",
     "level": "A1"
   },
   {
     "de": "leise",
-    "lv": "Σιωπηλός",
+    "lv": "Våkn opp",
     "level": "A1",
     "study": {
       "id": "a1-leise-study",
       "layout": "standardStudy",
-      "translation": "Σιωπηλός",
+      "translation": "Våkn opp",
       "explanation": [
-        "Κύρια ιδέα: Αθόρυβο ή χαμηλή ένταση.",
-        "Leise σημαίνει κυρίως: χαμηλός όγκος.",
-        "Συχνά περιγράφει: ήχος/φωνή/μουσική.",
-        "Το quiet περιγράφει χαμηλή ένταση ή ήσυχη φωνή/ήχο."
+        "Põhiidee: Vaikne või kjesne helitugevusega.",
+        "Leise gejättä säää: vääki helitugevus.",
+        "Sagelie sägeltab: heli/häalt/musikat.",
+        "Leise speltab väikest heliteugevust või vaikset vælt/heli."
       ],
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "Παρακαλώ να είστε ήσυχοι."
+          "lv": "Palun, ole vaikne."
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "Παρακαλώ να είστε ήσυχοι."
+          "lv": "Palun, ole vaikne."
         },
         {
           "de": "Die Musik ist leise.",
-          "lv": "Η μουσική είναι ήσυχη."
+          "lv": "Muusika på vaikne."
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "Παρακαλώ μιλήστε ήσυχα."
+          "lv": "Palun, snakk stille."
         }
       ],
       "tip": [
-        "Leise = ησυχία",
-        "Χρησιμοποιήστε τη λέξη leise όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "leise = kluss",
+        "Izmanto leise, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Leise = με την έννοια ενός ήσυχου ήχου.",
-        "Χαμηλό = όγκος.",
-        "Αθόρυβο ή χαμηλή ένταση."
+        "leise = kluss skaņas ziņā.",
+        "leise = skaļums.",
+        "Kluss vai ar mazu skaļumu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13436,10 +13557,10 @@ const A1_WORDS = [
             "leise"
           ],
           "purple": [
-            "kluss"
+            "vaikne"
           ],
           "orange": [
-            "kluss"
+            "vaikne"
           ]
         },
         "examples": [
@@ -13452,7 +13573,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kluss"
+                "vaikne"
               ]
             }
           },
@@ -13465,7 +13586,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kluss"
+                "vaikne"
               ]
             }
           },
@@ -13478,7 +13599,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "klusa"
+                "vaikne"
               ]
             }
           },
@@ -13491,7 +13612,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "klusi"
+                "Palun"
               ]
             }
           }
@@ -13499,7 +13620,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kluss"
+              "leise"
             ]
           }
         ],
@@ -13515,110 +13636,110 @@ const A1_WORDS = [
   },
   {
     "de": "lesen",
-    "lv": "Για να διαβάσετε",
+    "lv": "Lugema",
     "level": "A1"
   },
   {
     "de": "letzte",
-    "lv": "Το τελευταίο",
+    "lv": "Viimane",
     "level": "A1"
   },
   {
     "de": "Leute",
     "de_article": "die",
-    "lv": "Άνθρωποι",
+    "lv": "Folket",
     "level": "A1"
   },
   {
     "de": "Licht",
     "de_article": "das",
     "de_plural": "die Lichter",
-    "lv": "Το φως",
+    "lv": "Valgus",
     "level": "A1"
   },
   {
     "de": "lieb",
-    "lv": "Αγαπητός",
+    "lv": "Callis",
     "level": "A1"
   },
   {
     "de": "Liebe",
     "de_article": "die",
-    "lv": "Αγάπη",
+    "lv": "Armastus",
     "level": "A1"
   },
   {
     "de": "lieben",
-    "lv": "Να αγαπάς",
+    "lv": "Armastama",
     "level": "A1"
   },
   {
     "de": "Lied",
     "de_article": "das",
     "de_plural": "die Lieder",
-    "lv": "Τραγούδι",
+    "lv": "Sang",
     "level": "A1"
   },
   {
     "de": "liegen",
-    "lv": "Να ηρεμήσει • Ξαπλώστε",
+    "lv": "Asuma • Lamama",
     "level": "A1",
     "study": {
       "id": "a1-liegen",
       "layout": "standardStudy",
-      "translation": "Να ηρεμήσει • Ξαπλώστε",
+      "translation": "Asuma • Lamama",
       "explanation": [
-        "Κύρια ιδέα: liegen σημαίνει να ξαπλώνεις ή να ξαπλώνεις οριζόντια.",
-        "Για ένα άτομο, liegen συχνά σημαίνει να ξαπλώνεις.",
-        "Για ένα πράγμα, liegen σημαίνει ότι βρίσκεται κάπου.",
-        "Διαφέρει από τη λέξη legen, που σημαίνει να στρώνω κάτι κάτω."
+        "Põhiidee: liegen geindet asuma või horisontal lamama.",
+        "Inimese kohta jähä liegen säili lamamist.",
+        "Asja kohta gejnat liegen, et see asub kuskil.",
+        "Se sähät sänast legen, mis sähää magadi pikali panema."
       ],
       "examples": [
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Το βιβλίο είναι στο τραπέζι."
+          "lv": "Raamat på laual."
         },
         {
           "de": "Mein Handy liegt im Auto.",
-          "lv": "Το τηλέφωνό μου είναι στο αυτοκίνητο."
+          "lv": "Telefonen min på biler."
         },
         {
           "de": "Er liegt im Bett.",
-          "lv": "Είναι ξαπλωμένος στο κρεβάτι."
+          "lv": "Ta lamab voodis."
         },
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Έβαλα το βιβλίο στο τραπέζι."
+          "lv": "Ma panen biibi lauale."
         }
       ],
       "comparison": [
         {
           "word": "liegen",
-          "meaning": "Τακτοποιώ / ξαπλώνω",
+          "meaning": "Asuma / lama",
           "example": "Das Buch liegt hier."
         },
         {
           "word": "legen",
-          "meaning": "Να βάλεις",
+          "meaning": "Panem",
           "example": "Ich lege das Buch hierhin."
         },
         {
           "word": "stehen",
-          "meaning": "Στέκομαι / είμαι όρθιος",
+          "meaning": "Seisma",
           "example": "Die Flasche steht auf dem Tisch."
         },
         {
           "word": "sein",
-          "meaning": "Να είναι",
+          "meaning": "Olema",
           "example": "Ich bin hier."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: το πράγμα είναι ήδη στη θέση του → liegen. το τοποθετείς → legen."
+        "text": "Atceries: lieta jau ir vietā → liegen; tu to noliec → legen."
       },
       "important": [
-        "Το liegen υποδηλώνει μια πολιτεία ή τοποθεσία.",
-        "Legen δείχνει μια δράση: κάποιος βάζει κάτι κάπου."
+        "liegen rāda stāvokli vai atrašanās vietu.",
+        "legen rāda darbību: kāds kaut ko noliek."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13627,12 +13748,12 @@ const A1_WORDS = [
             "legen"
           ],
           "purple": [
-            "atrasties",
-            "gulēt",
-            "nolikt"
+            "asuma",
+            "lamama",
+            "panema"
           ],
           "yellow": [
-            "lietu"
+            "asja"
           ]
         },
         "examples": [
@@ -13648,11 +13769,11 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atrodas"
+                "raamat"
               ],
               "yellow": [
-                "Grāmata",
-                "galda"
+                "Raamat",
+                "laual"
               ]
             }
           },
@@ -13668,11 +13789,11 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atrodas"
+                "min"
               ],
               "yellow": [
-                "telefons",
-                "automašīnā"
+                "telefon",
+                "Telefonen"
               ]
             }
           },
@@ -13687,10 +13808,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "guļ"
+                "lamab"
               ],
               "green": [
-                "gultā"
+                "voodis"
               ]
             }
           },
@@ -13706,11 +13827,11 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "nolieku"
+                "panen"
               ],
               "yellow": [
-                "grāmatu",
-                "galda"
+                "panen",
+                "lauale"
               ]
             }
           }
@@ -13724,8 +13845,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atrasties",
-                "gulēt"
+                "asuma",
+                "Asuma"
               ]
             },
             "example": {
@@ -13742,7 +13863,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nolikt"
+                "Panem"
               ]
             },
             "example": {
@@ -13759,7 +13880,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "stāvēt"
+                "seisma"
               ]
             },
             "example": {
@@ -13776,7 +13897,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "būt"
+                "olema"
               ]
             },
             "example": {
@@ -13792,11 +13913,11 @@ const A1_WORDS = [
               "liegen"
             ],
             "purple": [
-              "ir vietā"
+              "Atceries"
             ],
             "red": [
               "legen",
-              "noliec"
+              "Atceries"
             ]
           }
         },
@@ -13806,8 +13927,8 @@ const A1_WORDS = [
               "liegen"
             ],
             "purple": [
-              "stāvokli",
-              "atrašanās vietu"
+              "liegen",
+              "liegen"
             ]
           },
           {
@@ -13815,8 +13936,8 @@ const A1_WORDS = [
               "legen"
             ],
             "purple": [
-              "darbību",
-              "noliek"
+              "legen",
+              "legen"
             ]
           }
         ]
@@ -13827,80 +13948,77 @@ const A1_WORDS = [
     "de": "Limonade",
     "de_article": "die",
     "de_plural": "die Limonaden",
-    "lv": "Λεμονάδα",
+    "lv": "Lemonade",
     "level": "A1"
   },
   {
     "de": "Lineal",
     "de_article": "das",
     "de_plural": "die Lineale",
-    "lv": "Κυβερνήτης",
+    "lv": "Joonlaud",
     "level": "A1"
   },
   {
     "de": "links",
-    "lv": "Προς τα αριστερά • Αριστερά",
+    "lv": "Vasakule • Vasak",
     "level": "A1"
   },
   {
     "de": "Liste",
     "de_article": "die",
     "de_plural": "die Listen",
-    "lv": "Λίστα",
+    "lv": "Nimekiri",
     "level": "A1"
   },
   {
     "de": "Liter",
     "de_article": "der",
     "de_plural": "die Liter",
-    "lv": "Λίτρο",
+    "lv": "Liter",
     "level": "A1",
     "study": {
       "id": "a1-liter",
       "layout": "standardStudy",
-      "translation": "Λίτρο",
-      "explanation": "Κύρια ιδέα: το der Liter είναι μονάδα όγκου. Στη Γερμανία συνήθως λέγεται der Liter, αλλά στην Αυστρία και την Ελβετία μπορείτε επίσης να ακούσετε das Liter. Ο πληθυντικός είναι πάντα Die Liter — δεν αλλάζει.",
-      "examples": [
-        {
-          "de": "Ich brauche einen Liter Milch.",
-          "lv": "Χρειάζομαι ένα λίτρο γάλα."
-        },
-        {
-          "de": "Die Flasche fasst zwei Liter.",
-          "lv": "Το μπουκάλι χωράει δύο λίτρα."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "Der Liter",
-          "meaning": "Τυπική μορφή της Γερμανίας",
-          "example": "In Deutschland sagt man meist der Liter. = Στη Γερμανία λέγεται κυρίως der Liter."
-        },
-        {
-          "word": "Das Liter",
-          "meaning": "Αυστριακή/Ελβετική μορφή",
-          "example": "In Österreich hört man auch das Liter. = Στην Αυστρία ακούς και das Liter."
-        },
-        {
-          "word": "Die Liter",
-          "meaning": "Πληθυντικός (αμετάβλητο)",
-          "example": "Die Flasche fasst zwei Liter. = Το μπουκάλι χωράει δύο λίτρα."
-        }
-      ],
-      "tip": "Εάν έχετε αμφιβολίες για την επιλογή του άρθρου, χρησιμοποιήστε der Liter — αυτή είναι η πιο κοινή μορφή.",
-      "important": "Ο πληθυντικός είναι πάντα die Liter, ανεξάρτητα από το άρθρο του ενικού — η μορφή δεν αλλάζει (zwei Liter, όχι zwei Litere).",
+      "translation": "Liter",
+      "explanation": "Põhiidee: der Liter on mahu maärtühik. I Tyskland kalles det vanligvis Liter, men i Østerrike og Sveits kalles det Liter. Mitmuse vorm on alati die Liter — se ei muutuu.",
       "sectionAccents": {
         "explanation": {
           "green": [
             "der Liter"
           ],
           "blue": [
-            "das Liter"
+            "Põhiidee"
           ],
           "purple": [
             "die Liter"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {},
+            "lv": {}
+          },
+          {
+            "de": {},
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {},
+            "meaning": {}
+          },
+          {
+            "word": {},
+            "meaning": {}
+          },
+          {
+            "word": {},
+            "meaning": {}
+          }
+        ],
+        "tip": {},
+        "important": {}
       }
     }
   },
@@ -13908,59 +14026,59 @@ const A1_WORDS = [
     "de": "Löffel",
     "de_article": "der",
     "de_plural": "die Löffel",
-    "lv": "Κουτάλι",
+    "lv": "Lusika sin",
     "level": "A1"
   },
   {
     "de": "Luft",
     "de_article": "die",
     "de_plural": "die Lüfte",
-    "lv": "Αέρας",
+    "lv": "Õhk",
     "level": "A1"
   },
   {
     "de": "lustig",
-    "lv": "Διασκέδαση",
+    "lv": "Lõbus",
     "level": "A1"
   },
   {
     "de": "machen",
-    "lv": "Να κάνει • Να προετοιμάσει",
+    "lv": "Tegema • Forbered",
     "level": "A1",
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "Να κάνει • Να προετοιμάσει",
+      "translation": "Tegema • Forbered",
       "explanation": [
-        "Κύρια ιδέα: machen είναι μια πολύ κοινή λέξη που σημαίνει φτιάχνω ή φτιάχνω.",
-        "Όταν μιλάμε για δράση γενικά, μεταφράζεται ως να κάνω.",
-        "Όταν κάτι δημιουργείται ή γίνεται, μεταφράζεται ως φτιάχνω ή φτιάχνω.",
-        "Σε πολλές φράσεις, το machen μεταφράζεται φυσικά σύμφωνα με την εσθονική γλώσσα, όχι κυριολεκτικά."
+        "Põhiidee: machen on väga sage söna, mis gejätä tämä või pristama.",
+        "Kui jutt på tajjnest oglende, tõlgitakse se kui tämä.",
+        "Kui magadi luauakse või pristtakse, tõlgitakse see kui tämä või pristama.",
+        "Manyses fraasides tõlgitakse machen tautsättä eesti keele põtta, mitte sõna-sõnalt."
       ],
       "examples": [
         {
           "de": "Was machst du?",
-          "lv": "Τι κάνεις"
+          "lv": "Hva sa teed?"
         },
         {
           "de": "Ich mache Hausaufgaben.",
-          "lv": "Κάνω εργασίες για το σπίτι."
+          "lv": "Ma teen kotutöid."
         },
         {
           "de": "Wir machen Pizza.",
-          "lv": "Φτιάχνουμε πίτσα."
+          "lv": "Me teeme pizzat."
         },
         {
           "de": "Das macht Spaß.",
-          "lv": "Είναι διασκεδαστικό."
+          "lv": "Se på moro."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: Ήταν machst du • = Τι κάνεις • "
+        "text": "Atceries: Was machst du? = Ko tu dari?"
       },
       "important": [
-        "Machen είναι μια πολύ ευρεία λέξη, αλλά συχνά πρέπει να μεταφράζεται στα εσθονικά ανάλογα με την κατάσταση, φυσικά.",
-        "Das macht Spaß σημαίνει «είναι διασκεδαστικό», όχι κυριολεκτικά «είναι διασκεδαστικό»."
+        "machen ir ļoti plašs vārds, bet latviski bieži jātulko dabiski pēc situācijas.",
+        "Das macht Spaß nozīmē “tas ir jautri”, nevis burtiski “tas taisa prieku”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13968,13 +14086,13 @@ const A1_WORDS = [
             "machen"
           ],
           "purple": [
-            "darīt",
-            "taisīt",
-            "pagatavot"
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee"
           ],
           "green": [
-            "darbību",
-            "frāzēs"
+            "Põhiidee",
+            "fraasides"
           ]
         },
         "examples": [
@@ -13986,7 +14104,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dari"
+                "teed"
               ]
             }
           },
@@ -14001,10 +14119,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pildu"
+                "teen"
               ],
               "yellow": [
-                "mājasdarbus"
+                "kotutöid"
               ]
             }
           },
@@ -14019,10 +14137,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "taisām"
+                "teeme"
               ],
               "yellow": [
-                "picu"
+                "pizzat"
               ]
             }
           },
@@ -14034,7 +14152,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ir jautri"
+                "moro"
               ]
             }
           }
@@ -14067,7 +14185,7 @@ const A1_WORDS = [
               "Was machst du"
             ],
             "purple": [
-              "ko tu dari"
+              "Atceries"
             ]
           }
         },
@@ -14077,7 +14195,7 @@ const A1_WORDS = [
               "machen"
             ],
             "purple": [
-              "dabiski"
+              "machen"
             ]
           },
           {
@@ -14085,10 +14203,10 @@ const A1_WORDS = [
               "Das macht Spaß"
             ],
             "purple": [
-              "tas ir jautri"
+              "Das"
             ],
             "red": [
-              "taisa prieku"
+              "Das"
             ]
           }
         ]
@@ -14099,63 +14217,63 @@ const A1_WORDS = [
     "de": "Mädchen",
     "de_article": "das",
     "de_plural": "die Mädchen",
-    "lv": "Ένα κορίτσι",
+    "lv": "Pike",
     "level": "A1"
   },
   {
     "de": "Mahlzeit",
     "de_article": "die",
     "de_plural": "die Mahlzeiten",
-    "lv": "Ένα γεύμα",
+    "lv": "Søk etter akkorder",
     "level": "A1"
   },
   {
     "de": "Mai",
     "de_article": "der",
-    "lv": "Μάιος",
+    "lv": "Mai",
     "level": "A1"
   },
   {
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Φορά",
+    "lv": "Snor",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Φορά",
+      "translation": "Snor",
       "explanation": [
-        "Κύρια ιδέα: Das Mal σημαίνει τάξη ως γεγονός ή περιστατικό.",
-        "Συχνά χρησιμοποιείται με αριθμούς: ein Mal, zwei Mal, drei Mal.",
-        "Στη σειρά: das erste Mal, das zweite Mal.",
-        "Μην μπερδεύεστε με το καθομιλουμένο σωματίδιο mal (Komm mal her!) — έχει διαφορετική σημασία."
+        "Põhiidee: das Mal jähne korda kui otätäst või gäsmit.",
+        "Sagelig utsaka koos arvedega: ein Mal, zwei Mal, drei Mal.",
+        "Järgarvuga: das erste Mal, das zweite Mal.",
+        "Èra aja segi öpekeelse osakesega mal (Kom mal her!) — sejl på teine ​​​​sämäus."
       ],
       "examples": [
         {
           "de": "Das erste Mal war schwer.",
-          "lv": "Η πρώτη φορά ήταν δύσκολη."
+          "lv": "Esimest korda oli raske."
         },
         {
           "de": "Ich war schon zwei Mal in Berlin.",
-          "lv": "Έχω πάει ήδη δύο φορές στο Βερολίνο."
+          "lv": "Ma olen juba kaks korda Berlinis käinud."
         },
         {
           "de": "Ein Mal reicht.",
-          "lv": "Μια φορά είναι αρκετή."
+          "lv": "Ett ord er nok."
         },
         {
           "de": "Noch ein Mal, bitte!",
-          "lv": "Άλλη μια φορά παρακαλώ!"
+          "lv": "Mange üks kord, palun!"
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: das Mal = μια φορά (ουσιαστικό) • Μαλ χωρίς άρθρο = σωματίδιο καθομιλουμένης."
+        "text": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa."
       },
       "important": [
-        "Das Mal / die Male — ουσιαστικό με άρθρο.",
-        "Ein Mal, zwei Mal — μετράει φορές.",
-        "Το mal χωρίς το άρθρο (Komm mal her!) δεν είναι το ίδιο με το das Mal."
+        "das Mal / die Male — lietvārds ar artikulu.",
+        "ein Mal, zwei Mal — skaita reizes.",
+        "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14166,9 +14284,9 @@ const A1_WORDS = [
             "das erste Mal"
           ],
           "purple": [
-            "reizi",
-            "notikumu",
-            "gadījumu"
+            "korda",
+            "Põhiidee",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -14180,7 +14298,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pirmo reizi"
+                "esimest korda"
               ]
             }
           },
@@ -14192,7 +14310,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "divreiz"
+                "kaks korda"
               ]
             }
           },
@@ -14204,7 +14322,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienreiz"
+                "Ett"
               ]
             }
           },
@@ -14216,7 +14334,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reizi"
+                "kord"
               ]
             }
           }
@@ -14227,8 +14345,8 @@ const A1_WORDS = [
             "mal"
           ],
           "purple": [
-            "lietvārds",
-            "daļiņa"
+            "Atceries",
+            "Atceries"
           ]
         },
         "important": [
@@ -14244,7 +14362,7 @@ const A1_WORDS = [
               "zwei Mal"
             ],
             "purple": [
-              "reizes"
+              "ein"
             ]
           },
           {
@@ -14261,73 +14379,73 @@ const A1_WORDS = [
   },
   {
     "de": "malen",
-    "lv": "Ζωγραφίζω • Ζωγραφίζω",
+    "lv": "Maalima • Värvima",
     "level": "A1"
   },
   {
     "de": "manchmal",
-    "lv": "Μερικές φορές",
+    "lv": "Vahel",
     "level": "A1"
   },
   {
     "de": "Mandarine",
     "de_article": "die",
     "de_plural": "die Mandarinen",
-    "lv": "Μανταρίνι",
+    "lv": "Mandarin",
     "level": "A1"
   },
   {
     "de": "Mann",
     "de_article": "der",
     "de_plural": "die Männer",
-    "lv": "Άνδρας • Σύζυγος",
+    "lv": "Mees • Abikaasa",
     "level": "A1",
     "study": {
       "id": "a1-mann",
       "layout": "standardStudy",
-      "translation": "Άνδρας • Σύζυγος",
+      "translation": "Mees • Abikaasa",
       "explanation": [
-        "Κύρια ιδέα: der Mann μπορεί να σημαίνει άνδρας (φύλο) ή σύζυγος (σύζυγος).",
-        "Αν πρόκειται μόνο για το φύλο ή το πρόσωπο, der Mann = άνδρας.",
-        "Όταν μιλάμε για σύζυγο, der Mann = άντρας (mein Mann = άντρας μου).",
-        "Η κτητική αντωνυμία (mein/dein/ihr Mann) σχεδόν πάντα σημαίνει άνδρας — σύζυγος.",
-        "Πληθυντικός αριθμός: die Männer.",
-        "Η θηλυκή μορφή die Frau έχει παρόμοια διπλή σημασία: γυναίκα ΚΑΙ σύζυγος."
+        "Põhiidee: der Mann sämättädä meest (sugu) või svojjot (abielupool).",
+        "Kui jutt on geist soost või isikust, der Mann = mees.",
+        "Kui jutt på utjoost, der Mann = mees (mein Mann = minu mees).",
+        "Omastav asesõna (mein/dein/ihr Mann) betyr geämäs alati meest — mannen.",
+        "Mitmuser: die menn.",
+        "Naissoovormil die Frau på samasukke kahekordane siksoms: naine JA spoorto."
       ],
       "examples": [
         {
           "de": "Er ist ein netter Mann.",
-          "lv": "Είναι ωραίος άνθρωπος."
+          "lv": "Ta on tore mest."
         },
         {
           "de": "Das ist mein Mann.",
-          "lv": "Αυτός είναι ο άνθρωπός μου."
+          "lv": "Se på min mest."
         },
         {
           "de": "Wie viele Männer sind hier?",
-          "lv": "Πόσοι άντρες είναι εδώ • "
+          "lv": "Kui palju mehi on siin?"
         },
         {
           "de": "Mein Mann arbeitet in Berlin.",
-          "lv": "Ο άντρας μου εργάζεται στο Βερολίνο."
+          "lv": "Minu mees jobber i Berlin."
         },
         {
           "de": "Der Mann trägt einen Anzug.",
-          "lv": "Ο άντρας φοράει κοστούμι."
+          "lv": "Mees kannab ülikonda."
         },
         {
           "de": "Ihr Mann ist Arzt.",
-          "lv": "Ο άντρας της είναι γιατρός."
+          "lv": "Temameister på kunst."
         }
       ],
       "tip": [
-        "Η κτητική αντωνυμία (mein/dein/ihr Mann) σχεδόν πάντα αναφέρεται σε άνδρα (σύζυγο).",
-        "Χωρίς κτητική αντωνυμία (der Mann, ein Mann) συνήθως νοείται άνδρας."
+        "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
+        "Bez piederības vārda (der Mann, ein Mann) parasti domāts vīrietis."
       ],
       "important": [
-        "Der Mann = άνδρας Ή σύζυγος — ανάλογα με το πλαίσιο.",
-        "Mein Mann = ο άντρας μου (όχι «ο άντρας μου»).",
-        "Πληθυντικός αριθμός: die Männer."
+        "der Mann = vīrietis VAI vīrs — atkarībā no konteksta.",
+        "mein Mann = mans vīrs (ne 'mans vīrietis').",
+        "Daudzskaitlī: die Männer."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14336,8 +14454,8 @@ const A1_WORDS = [
             "Mann"
           ],
           "purple": [
-            "vīrietis",
-            "vīrs"
+            "mees",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -14349,7 +14467,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vīrietis"
+                "tore"
               ]
             }
           },
@@ -14361,7 +14479,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vīrs"
+                "Se"
               ]
             }
           },
@@ -14373,7 +14491,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vīriešu"
+                "kui"
               ]
             }
           },
@@ -14385,7 +14503,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vīrs"
+                "minu"
               ]
             }
           },
@@ -14397,7 +14515,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vīrietis"
+                "mees"
               ]
             }
           },
@@ -14409,7 +14527,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vīrs"
+                "tema"
               ]
             }
           }
@@ -14422,7 +14540,7 @@ const A1_WORDS = [
               "ihr Mann"
             ],
             "purple": [
-              "vīrs"
+              "piederības"
             ]
           },
           {
@@ -14431,15 +14549,15 @@ const A1_WORDS = [
               "ein Mann"
             ],
             "purple": [
-              "vīrietis"
+              "piederības"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "vīrietis",
-              "vīrs"
+              "der",
+              "der"
             ]
           },
           {
@@ -14460,147 +14578,147 @@ const A1_WORDS = [
     "de": "Marmelade",
     "de_article": "die",
     "de_plural": "die Marmeladen",
-    "lv": "Μαρμελάδα",
+    "lv": "Mose",
     "level": "A1"
   },
   {
     "de": "März",
     "de_article": "der",
-    "lv": "Πορεία",
+    "lv": "Mars",
     "level": "A1"
   },
   {
     "de": "Maus",
     "de_article": "die",
     "de_plural": "die Mäuse",
-    "lv": "Ποντίκι",
+    "lv": "Her",
     "level": "A1"
   },
   {
     "de": "Meer",
     "de_article": "das",
     "de_plural": "die Meere",
-    "lv": "Η θάλασσα",
+    "lv": "Mary",
     "level": "A1"
   },
   {
     "de": "Mehl",
     "de_article": "das",
     "de_plural": "die Mehle",
-    "lv": "Αλεύρι",
+    "lv": "Ja",
     "level": "A1"
   },
   {
     "de": "mehr",
-    "lv": "Περισσότερο",
+    "lv": "Flere",
     "level": "A1"
   },
   {
     "de": "mein",
-    "lv": "Ορυχείο",
+    "lv": "Min",
     "level": "A1"
   },
   {
     "de": "Mensch",
     "de_article": "der",
     "de_plural": "die Menschen",
-    "lv": "Ένα άτομο",
+    "lv": "Inimene",
     "level": "A1"
   },
   {
     "de": "Messer",
     "de_article": "das",
     "de_plural": "die Messer",
-    "lv": "Ένα μαχαίρι",
+    "lv": "Nougat",
     "level": "A1"
   },
   {
     "de": "Meter",
     "de_article": "der",
     "de_plural": "die Meter",
-    "lv": "Μέτρο",
+    "lv": "Møte",
     "level": "A1"
   },
   {
     "de": "Milch",
     "de_article": "die",
-    "lv": "Γάλα",
+    "lv": "Pim",
     "level": "A1"
   },
   {
     "de": "Million",
     "de_article": "die",
     "de_plural": "die Millionen",
-    "lv": "Εκατομμύριο",
+    "lv": "Million",
     "level": "A1"
   },
   {
     "de": "Minute",
     "de_article": "die",
     "de_plural": "die Minuten",
-    "lv": "Λεπτό",
+    "lv": "Minutt",
     "level": "A1"
   },
   {
     "de": "mit",
-    "lv": "Με",
+    "lv": "- gå",
     "level": "A1",
     "study": {
       "id": "a1-mit",
       "layout": "standardStudy",
-      "translation": "Με",
+      "translation": "- gå",
       "explanation": [
-        "Κύρια ιδέα: Τι σημαίνει συχνότερα με το .",
-        "Που χρησιμοποιείται όταν ένα άτομο είναι με κάποιον ή κάνει κάτι με κάτι.",
-        "Όταν πρόκειται για μεταφορές, το mit συχνά σημαίνει ταξίδι με λεωφορείο, τρένο ή αυτοκίνητο.",
-        "Σε επίπεδο Α1, πολύ συχνές φράσεις είναι mit dem Bus, mit dem Auto και mit dir."
+        "Põhiidee: mit tähää ääää äääää -ga.",
+        "Det brukes, kui otsebe på kulagi koos voi teeb magadi mingi asjaga.",
+        "Transpordi poulah mit sahili bussiga, rongiga või autoga zaudmist.",
+        "A1 nivå på väga sagegased fraaside mit dem Bus, mit dem Auto yes mit dir."
       ],
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "Θα έρθω μαζί σου"
+          "lv": "Ma tulen sinuga."
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "Πηγαίνω με το λεωφορείο"
+          "lv": "Ma sålån bussiga."
         },
         {
           "de": "Sie schreibt mit dem Stift.",
-          "lv": "Γράφει με στυλό."
+          "lv": "Ta sikretab pastakake."
         },
         {
           "de": "Kommst du mit?",
-          "lv": "Έρχεσαι μαζί • "
+          "lv": "Hva er det med ost?"
         }
       ],
       "comparison": [
         {
           "word": "mit",
-          "meaning": "Με / με",
+          "meaning": "-ga / koos",
           "example": "Ich komme mit dir."
         },
         {
           "word": "ohne",
-          "meaning": "Χωρίς",
+          "meaning": "Ilma",
           "example": "Ich komme ohne dich."
         },
         {
           "word": "bei",
-          "meaning": "Σε / σε κάποιου",
+          "meaning": "Juures",
           "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
-          "meaning": "Σε / προς",
+          "meaning": "-sse / å gå",
           "example": "Ich gehe zum Arzt."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: με κάποιον ή με μεταφορικό → τι."
+        "text": "Atceries: kopā ar kādu vai ar transportu → mit."
       },
       "important": [
-        "Το mit απαιτεί τη δοτική: mit dem Bus, mit der Mutter, mit dir.",
-        "Τι να κάνεις • Σημαίνει \"Έρχεσαι μαζί • \""
+        "mit prasa datīvu: mit dem Bus, mit der Mutter, mit dir.",
+        "Kommst du mit? nozīmē “Vai tu nāksi līdzi?”"
       ],
       "sectionAccents": {
         "explanation": {
@@ -14611,13 +14729,13 @@ const A1_WORDS = [
             "mit dir"
           ],
           "purple": [
-            "ar",
-            "kopā ar"
+            "-ga",
+            "koos"
           ],
           "green": [
-            "transportu",
-            "autobusu",
-            "vilcienu",
+            "Transpordi",
+            "bussiga",
+            "rongiga",
             "auto"
           ]
         },
@@ -14630,7 +14748,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ar tevi"
+                "sinuga"
               ]
             }
           },
@@ -14642,7 +14760,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ar autobusu"
+                "bussiga"
               ]
             }
           },
@@ -14654,7 +14772,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ar pildspalvu"
+                "pastakake"
               ]
             }
           },
@@ -14666,7 +14784,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "līdzi"
+                "Hva"
               ]
             }
           }
@@ -14680,8 +14798,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ar",
-                "kopā ar"
+                "-ga",
+                "koos"
               ]
             },
             "example": {
@@ -14698,7 +14816,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "bez"
+                "ilma"
               ]
             },
             "example": {
@@ -14715,7 +14833,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "juures"
               ]
             },
             "example": {
@@ -14732,8 +14850,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "sse",
+                "sse"
               ]
             },
             "example": {
@@ -14749,8 +14867,8 @@ const A1_WORDS = [
               "mit"
             ],
             "purple": [
-              "kopā ar",
-              "ar transportu"
+              "Atceries",
+              "transportu"
             ]
           }
         },
@@ -14760,7 +14878,7 @@ const A1_WORDS = [
               "mit"
             ],
             "purple": [
-              "datīvu"
+              "mit"
             ],
             "yellow": [
               "dem Bus",
@@ -14773,7 +14891,7 @@ const A1_WORDS = [
               "Kommst du mit"
             ],
             "purple": [
-              "nāksi līdzi"
+              "Kommst"
             ]
           }
         ]
@@ -14782,90 +14900,90 @@ const A1_WORDS = [
   },
   {
     "de": "mitnehmen",
-    "lv": "Να πάρεις μαζί σου",
+    "lv": "Ta det",
     "level": "A1"
   },
   {
     "de": "Mittag",
     "de_article": "der",
     "de_plural": "die Mittage",
-    "lv": "Μεσημέρι",
+    "lv": "Keskpäev",
     "level": "A1"
   },
   {
     "de": "Mittagessen",
     "de_article": "das",
     "de_plural": "die Mittagessen",
-    "lv": "Μεσημεριανό",
+    "lv": "Lõunasöök",
     "level": "A1"
   },
   {
     "de": "Mittwoch",
     "de_article": "der",
     "de_plural": "die Mittwoche",
-    "lv": "Τετάρτη",
+    "lv": "Kolmapäev",
     "level": "A1"
   },
   {
     "de": "mögen",
-    "lv": "Να αρέσει",
+    "lv": "Meeldima",
     "level": "A1",
     "study": {
       "id": "a1-mögen",
       "layout": "standardStudy",
-      "translation": "Να αρέσει",
+      "translation": "Meeldima",
       "explanation": [
-        "Κύρια ιδέα: Mögen τις περισσότερες φορές σημαίνει να σου αρέσει κάτι.",
-        "Το Ich mag... είναι συνήθως \"μου αρέσει...\" στα εσθονικά.",
-        "Το möchte είναι μια άλλη μορφή που χρησιμοποιείται για μια ευγενική ευχή: θα ήθελα.",
-        "Σε επίπεδο Α1, η πιο σημαντική φράση είναι το Ich mag das."
+        "Põhiidee: mögen gejättä äääää äääää, et miski äääää.",
+        "Ich mag.",
+        "Möchte on teine ​​​​vorm, mida utsaka viisaka søi tøys: ma søsiksin.",
+        "A1 nivå på den viktigste frasen Ich mag das."
       ],
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "Μου αρέσει η μουσική"
+          "lv": "Jeg liker musikk."
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "Σου αρέσει ο καφές"
+          "lv": "Kas sulle maissab kohv?"
         },
         {
           "de": "Sie mag Kinder.",
-          "lv": "Του αρέσουν τα παιδιά."
+          "lv": "Talle palavad bortfalt."
         },
         {
           "de": "Ich möchte einen Kaffee.",
-          "lv": "Θα ήθελα έναν καφέ."
+          "lv": "Jeg vil ha kaffe."
         }
       ],
       "comparison": [
         {
           "word": "mögen",
-          "meaning": "Να αρέσει",
+          "meaning": "Meeldima",
           "example": "Ich mag Musik."
         },
         {
           "word": "möchte",
-          "meaning": "Θα ήθελα",
+          "meaning": "Sooviksin",
           "example": "Ich möchte Kaffee."
         },
         {
           "word": "wollen",
-          "meaning": "Θέλουν να",
+          "meaning": "Tahtma",
           "example": "Ich will nach Hause."
         },
         {
           "word": "lieben",
-          "meaning": "Να αγαπάς",
+          "meaning": "Armastama",
           "example": "Ich liebe dich."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: Ich mag... = Μου αρέσει..."
+        "text": "Atceries: Ich mag... = man patīk..."
       },
       "important": [
-        "Το mögen δεν είναι η κύρια λέξη για το ευγενικό \"θα ήθελα\". Το Möchte χρησιμοποιείται συνήθως για αυτό.",
-        "Ich mag Kaffee σημαίνει «μου αρέσει ο καφές»."
+        "mögen nav galvenais vārds pieklājīgam “es gribētu”. Tam parasti lieto möchte.",
+        "Ich mag Kaffee nozīmē “man garšo/patīk kafija”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14875,9 +14993,9 @@ const A1_WORDS = [
             "möchte"
           ],
           "purple": [
-            "patīk",
-            "man patīk",
-            "es gribētu"
+            "Põhiidee",
+            "Põhiidee",
+            "ma søsiksin"
           ]
         },
         "examples": [
@@ -14889,10 +15007,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "patīk"
+                "Jeg"
               ],
               "yellow": [
-                "mūzika"
+                "musikk"
               ]
             }
           },
@@ -14904,10 +15022,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "garšo"
+                "maissab"
               ],
               "yellow": [
-                "kafija"
+                "kohv"
               ]
             }
           },
@@ -14919,10 +15037,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "patīk"
+                "Talle"
               ],
               "green": [
-                "bērni"
+                "Talle"
               ]
             }
           },
@@ -14934,10 +15052,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "gribētu"
+                "Jeg"
               ],
               "yellow": [
-                "kafiju"
+                "Jeg"
               ]
             }
           }
@@ -14951,7 +15069,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "patikt"
+                "meeldima"
               ]
             },
             "example": {
@@ -14968,7 +15086,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "gribētu"
+                "sooviksin"
               ]
             },
             "example": {
@@ -14985,7 +15103,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "gribēt"
+                "tahtma"
               ]
             },
             "example": {
@@ -15002,7 +15120,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mīlēt"
+                "armastama"
               ]
             },
             "example": {
@@ -15018,7 +15136,7 @@ const A1_WORDS = [
               "Ich mag"
             ],
             "purple": [
-              "man patīk"
+              "Atceries"
             ]
           }
         },
@@ -15031,7 +15149,8 @@ const A1_WORDS = [
               "möchte"
             ],
             "purple": [
-              "gribētu"
+              "mögen",
+              "mögen"
             ]
           },
           {
@@ -15039,8 +15158,8 @@ const A1_WORDS = [
               "mag"
             ],
             "purple": [
-              "garšo",
-              "patīk"
+              "Ich",
+              "Ich"
             ]
           }
         ]
@@ -15051,76 +15170,76 @@ const A1_WORDS = [
     "de": "Möhre",
     "de_article": "die",
     "de_plural": "die Möhren",
-    "lv": "Καρότο",
+    "lv": "Gulrøtter",
     "level": "A1"
   },
   {
     "de": "Monat",
     "de_article": "der",
     "de_plural": "die Monate",
-    "lv": "Μήνας",
+    "lv": "Kuu",
     "level": "A1"
   },
   {
     "de": "Montag",
     "de_article": "der",
     "de_plural": "die Montage",
-    "lv": "Δευτέρα",
+    "lv": "Esmaspäev",
     "level": "A1"
   },
   {
     "de": "morgen",
-    "lv": "Αύριο",
+    "lv": "Menn",
     "level": "A1",
     "study": {
       "id": "a1-morgen",
       "layout": "standardStudy",
-      "translation": "Αύριο",
+      "translation": "Menn",
       "explanation": [
-        "Κύρια ιδέα: Χρονική σειρά με μικρό αρχικό γράμμα. Σημαίνει την επόμενη μέρα — αύριο.",
-        "Morgen σημαίνει κυρίως: την επόμενη μέρα.",
-        "Συχνά περιγράφει: μια χρονική σειρά.",
-        "Morgen σημαίνει κυρίως: μέρος της ημέρας.",
-        "Συχνά περιγράφει: ουσιαστικό (der).",
-        "Morgen σημαίνει κυρίως: πολλά πρωινά.",
-        "Συχνά περιγράφει: ουσιαστικό (πληθ.).",
-        "Morgen με μικρό αρχικό γράμμα σημαίνει αύριο — την επόμενη μέρα (Ich komme morgen = θα έρθω αύριο, Bis morgen!"
+        "Põhiidee: Ajamäerus lille algustähega. Det betyr neste dag - homme.",
+        "Morgenen betyr neste dag: neste dag.",
+        "Sägeli sältetab: ajamäerus.",
+        "Morgen gejättä säätä: pää osa.",
+        "Sägeli ekpretab: nimisõna (der).",
+        "Morgen betyr morgen.",
+        "Sägeli ekpretab: nimisõna (pl.).",
+        "Morgen knejse algustähega gejske homme — jèsmeil täjäl (Ich komme morgen = ma tulen homme, Bis morgen!"
       ],
       "examples": [
         {
           "de": "Ich komme morgen.",
-          "lv": "Θα έρθω αύριο."
+          "lv": "Ma tulen homme."
         },
         {
           "de": "Bis morgen!",
-          "lv": "Μέχρι αύριο!"
+          "lv": "Homeseni!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Θα έρθω αύριο"
+          "lv": "Ma tulen homme."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Αύριο είναι Δευτέρα"
+          "lv": "Homme påskedag."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Καλημέρα!"
+          "lv": "God morgen!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "Το πρωί είναι όμορφο."
+          "lv": "Hommik på illus."
         }
       ],
       "tip": [
-        "Little morgen = αύριο (Ich komme morgen). der Morgen με κεφαλαίο = πρωί (Guten Morgen!, am Morgen).",
-        "Morgen = αύριο"
+        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
+        "morgen = rīt"
       ],
       "important": [
-        "Το morgen γράφεται με μικρό γράμμα — είναι επίρρημα χρόνου (αύριο).",
-        "Der Morgen με κεφαλαίο γράμμα και το άρθρο der είναι ουσιαστικό (πρωί).",
-        "Καλημέρα! — πάντα με κεφαλαίο Μ (πρωί, όχι αύριο).",
-        "Λάθος: Guten morgen! → Σωστό: Guten Morgen!"
+        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
+        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
+        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15128,7 +15247,8 @@ const A1_WORDS = [
             "morgen"
           ],
           "purple": [
-            "rīt"
+            "homme",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -15141,7 +15261,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rīt"
+                "homme"
               ]
             }
           },
@@ -15154,7 +15274,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rīt"
+                "Homeseni"
               ]
             }
           },
@@ -15167,7 +15287,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rīt"
+                "homme"
               ]
             }
           },
@@ -15180,7 +15300,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rīt"
+                "homme"
               ]
             }
           },
@@ -15193,7 +15313,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rīt"
+                "God"
               ]
             }
           },
@@ -15206,7 +15326,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rīt"
+                "hommik"
               ]
             }
           }
@@ -15214,7 +15334,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "rīt"
+              "komme"
             ]
           }
         ],
@@ -15231,57 +15351,57 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
-    "lv": "Το πρωί",
+    "lv": "Hommick",
     "level": "A1",
     "study": {
       "id": "a1-morgen-study",
       "layout": "standardStudy",
-      "translation": "Το πρωί",
+      "translation": "Hommick",
       "explanation": [
-        "Κύρια ιδέα: Ουσιαστικό με το άρθρο der και κεφαλαίο γράμμα. Μέρος ημέρας - πρωί.",
-        "Der Morgen σημαίνει κυρίως: την επόμενη μέρα.",
-        "Συχνά περιγράφει: μια χρονική σειρά.",
-        "Der Morgen σημαίνει κυρίως: μέρος της ημέρας.",
-        "Συχνά περιγράφει: ουσιαστικό (der).",
-        "Der Morgen σημαίνει κυρίως: πολλά πρωινά.",
-        "Συχνά περιγράφει: ουσιαστικό (πληθ.).",
-        "Morgen με μικρό αρχικό γράμμα σημαίνει αύριο — την επόμενη μέρα (Ich komme morgen = θα έρθω αύριο, Bis morgen!"
+        "Põhiidee: Nimisõna artikliga der ja suure algustähega. Päevaosa — hommik.",
+        "Der Morgen betyr dagen etter.",
+        "Sägeli sältetab: ajamäerus.",
+        "Der Morgen geschäfte geschichten: päivä osa.",
+        "Sägeli ekpretab: nimisõna (der).",
+        "\"Der Morgen\" betyr \"mitu morgen\".",
+        "Sägeli ekpretab: nimisõna (pl.).",
+        "Morgen knejse algustähega gejske homme — jèsmeil täjäl (Ich komme morgen = ma tulen homme, Bis morgen!"
       ],
       "examples": [
         {
           "de": "Guten Morgen!",
-          "lv": "Καλημέρα!"
+          "lv": "God morgen!"
         },
         {
           "de": "Bis morgen!",
-          "lv": "Μέχρι αύριο!"
+          "lv": "Homeseni!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Θα έρθω αύριο"
+          "lv": "Ma tulen homme."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Αύριο είναι Δευτέρα"
+          "lv": "Homme påskedag."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Καλημέρα!"
+          "lv": "God morgen!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "Το πρωί είναι όμορφο."
+          "lv": "Hommik på illus."
         }
       ],
       "tip": [
-        "Little morgen = αύριο (Ich komme morgen). der Morgen με κεφαλαίο = πρωί (Guten Morgen!, am Morgen).",
-        "Der Morgen = πρωί"
+        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
+        "der Morgen = rīt"
       ],
       "important": [
-        "Το morgen γράφεται με μικρό γράμμα — είναι επίρρημα χρόνου (αύριο).",
-        "Der Morgen με κεφαλαίο γράμμα και το άρθρο der είναι ουσιαστικό (πρωί).",
-        "Καλημέρα! — πάντα με κεφαλαίο Μ (πρωί, όχι αύριο).",
-        "Λάθος: Guten morgen! → Σωστό: Guten Morgen!"
+        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
+        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
+        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15290,8 +15410,8 @@ const A1_WORDS = [
             "morgen"
           ],
           "purple": [
-            "rīts",
-            "rīti"
+            "hommik",
+            "hommik"
           ],
           "yellow": [
             "Morgen"
@@ -15301,54 +15421,67 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+                "Guten",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīt"
+                "God"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Bis",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīt"
+                "Homeseni"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Ich",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīt"
+                "homme"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Morgen",
                 "morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "homme"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Guten",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "God"
+              ]
+            }
           },
           {
             "de": {
@@ -15359,7 +15492,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rīts"
+                "hommik"
               ]
             }
           }
@@ -15367,99 +15500,103 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "rīts"
+              "Mazais"
             ]
           }
         ],
         "important": [
-          {}
+          {
+            "green": [
+              "morgen"
+            ]
+          }
         ]
       }
     }
   },
   {
     "de": "morgens",
-    "lv": "Το πρωί",
+    "lv": "Moro hjemme",
     "level": "A1"
   },
   {
     "de": "müde",
-    "lv": "Κουρασμένος",
+    "lv": "Väsinud",
     "level": "A1"
   },
   {
     "de": "Mund",
     "de_article": "der",
     "de_plural": "die Münder",
-    "lv": "Στόμα",
+    "lv": "Suu",
     "level": "A1"
   },
   {
     "de": "Musik",
     "de_article": "die",
-    "lv": "Μουσική",
+    "lv": "Musikk",
     "level": "A1"
   },
   {
     "de": "müssen",
-    "lv": "Να κρατήσει",
+    "lv": "Pidama",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
       "layout": "standardStudy",
-      "translation": "Να κρατήσει",
+      "translation": "Pidama",
       "explanation": [
-        "Κύρια ιδέα: müssen σημαίνει να κάνεις κάτι.",
-        "Στα εσθονικά, το müssen μεταφράζεται συχνά ως \"πρέπει να...\", \"πρέπει να...\", \"πρέπει να...\".",
-        "Σε μια γερμανική πρόταση, το δεύτερο ρήμα είναι συνήθως στο τέλος.",
-        "Σε επίπεδο Α1, η πιο σημαντική φόρμα είναι ο Ich muss..."
+        "Hovedidé: müssen betyr, noe må gjøres.",
+        "I Eesti keeles tõlgitakse müssen saifili izlaitega “ma pean...”, “sa pead...”, “me peame...”.",
+        "Saksiske lauser om teine ​​​​tegusõna sämälä säläs.",
+        "A1-nivå på den viktigste formen Ich muss..."
       ],
       "examples": [
         {
           "de": "Ich muss gehen.",
-          "lv": "Πρέπει να πάω"
+          "lv": "Ma pean minema."
         },
         {
           "de": "Du musst warten.",
-          "lv": "Πρέπει να περιμένεις."
+          "lv": "Sa pead ootama."
         },
         {
           "de": "Wir müssen lernen.",
-          "lv": "Πρέπει να μάθουμε."
+          "lv": "Vi må lære."
         },
         {
           "de": "Ich muss heute arbeiten.",
-          "lv": "Πρέπει να δουλέψω σήμερα"
+          "lv": "Ma pean täna ogstama."
         }
       ],
       "comparison": [
         {
           "word": "müssen",
-          "meaning": "Να κρατήσει",
+          "meaning": "Pidama",
           "example": "Ich muss gehen."
         },
         {
           "word": "können",
-          "meaning": "Παίρνω / μπορώ",
+          "meaning": "Saama / oskama",
           "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
-          "meaning": "Θέλουν να",
+          "meaning": "Tahtma",
           "example": "Ich will nach Hause."
         },
         {
           "word": "dürfen",
-          "meaning": "Να επιτρέπεται",
+          "meaning": "Tohtima",
           "example": "Darf ich gehen?"
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: Ich muss... = Πρέπει να..."
+        "text": "Atceries: Ich muss... = man jā..."
       },
       "important": [
-        "Το müssen είναι ένα τροπικό ρήμα.",
-        "Το δεύτερο ρήμα συνήθως πηγαίνει στο τέλος της πρότασης: Ich muss heute arbeiten."
+        "müssen ir modālais darbības vārds.",
+        "Otrs darbības vārds parasti iet teikuma beigās: Ich muss heute arbeiten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15468,13 +15605,13 @@ const A1_WORDS = [
             "Ich muss"
           ],
           "purple": [
-            "jādara",
-            "man jā",
-            "tev jā",
-            "mums jā"
+            "Hovedidé",
+            "ma pean",
+            "sa pead",
+            "me peame"
           ],
           "green": [
-            "beigās"
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -15487,7 +15624,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jāiet"
+                "pean"
               ]
             }
           },
@@ -15500,7 +15637,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jāgaida"
+                "pead"
               ]
             }
           },
@@ -15513,7 +15650,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jāmācās"
+                "lære"
               ]
             }
           },
@@ -15526,7 +15663,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jāstrādā"
+                "pean"
               ]
             }
           }
@@ -15540,8 +15677,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vajadzēt",
-                "jādara"
+                "pidama",
+                "pidama"
               ]
             },
             "example": {
@@ -15558,8 +15695,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "varēt",
-                "prast"
+                "saama",
+                "oskama"
               ]
             },
             "example": {
@@ -15576,7 +15713,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "gribēt"
+                "tahtma"
               ]
             },
             "example": {
@@ -15593,7 +15730,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "drīkstēt"
+                "tohtima"
               ]
             },
             "example": {
@@ -15609,7 +15746,7 @@ const A1_WORDS = [
               "Ich muss"
             ],
             "purple": [
-              "man jā"
+              "Atceries"
             ]
           }
         },
@@ -15619,7 +15756,7 @@ const A1_WORDS = [
               "müssen"
             ],
             "purple": [
-              "modālais darbības vārds"
+              "müssen"
             ]
           },
           {
@@ -15628,7 +15765,7 @@ const A1_WORDS = [
               "arbeiten"
             ],
             "purple": [
-              "beigās"
+              "Otrs"
             ]
           }
         ]
@@ -15639,76 +15776,76 @@ const A1_WORDS = [
     "de": "Mutter",
     "de_article": "die",
     "de_plural": "die Mütter",
-    "lv": "Μητέρα",
+    "lv": "Emma",
     "level": "A1"
   },
   {
     "de": "Mütze",
     "de_article": "die",
     "de_plural": "die Mützen",
-    "lv": "Καπέλο",
+    "lv": "Tupp",
     "level": "A1"
   },
   {
     "de": "nach",
-    "lv": "Έως • Μετά",
+    "lv": "-sse • ​​etter",
     "level": "A1",
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "Έως • Μετά",
+      "translation": "-sse • ​​etter",
       "explanation": [
-        "Κύρια ιδέα: nach σημαίνει κάπου για μέρη και μετά για ώρα ή παραγγελία.",
-        "Για πόλεις και χώρες χωρίς το άρθρο, το nach συχνά σημαίνει ότι τελειώνει σε -kse.",
-        "Για το χρόνο, nach σημαίνει μετά.",
-        "Στη φράση nach Hause, σημαίνει σπίτι."
+        "Põhiidee: nach tähää köhät puhulu suunda kuhugi ja aja või zijëkorra puhulu päude.",
+        "Artiklita linnade ja riidas puluh nach nach saifili slugu -sse.",
+        "Aja poulah nach nach päcket.",
+        "Fraasis nach Hause betyr se koju."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Πάω στο Βερολίνο."
+          "lv": "Jeg dro til Berlin."
         },
         {
           "de": "Wir gehen nach Hause.",
-          "lv": "Πάμε σπίτι."
+          "lv": "Me ähme koju."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Μετά το φαγητό πάμε μια βόλτα."
+          "lv": "Etter sömmist ähme jalutama."
         },
         {
           "de": "Es ist zehn nach acht.",
-          "lv": "Είναι οκτώ δέκα λεπτά."
+          "lv": "Omtrent åtte minutter"
         }
       ],
       "comparison": [
         {
           "word": "nach",
-          "meaning": "Μέσα / μετά",
+          "meaning": "-sse",
           "example": "Ich fahre nach Berlin."
         },
         {
           "word": "zu",
-          "meaning": "Σε / προς",
+          "meaning": "-sse / å gå",
           "example": "Ich gehe zum Arzt."
         },
         {
           "word": "in",
-          "meaning": "Σε / σε κάποιο μέρος με το άρθρο",
+          "meaning": "Ser / mingisse kohta artikliga",
           "example": "Ich gehe in die Schule."
         },
         {
           "word": "vor",
-          "meaning": "Πριν / μπροστά από",
+          "meaning": "Enne / ees",
           "example": "Vor dem Essen wasche ich die Hände."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: nach Hause • Nach Berlin • Μετά το φαγητό."
+        "text": "Atceries: nach Hause; nach Berlin; pēc ēšanas."
       },
       "important": [
-        "Το nach δεν χρησιμοποιείται με όλα τα μέρη.",
-        "Η μετάβαση στο σχολείο εκφράζεται συνήθως με το in die Schule, όχι με το nach Schule."
+        "nach nelieto ar visām vietām.",
+        "Uz skolu parasti ir in die Schule, nevis nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15717,14 +15854,14 @@ const A1_WORDS = [
             "nach Hause"
           ],
           "purple": [
-            "uz",
-            "pēc",
-            "uz mājām"
+            "Põhiidee",
+            "Põhiidee",
+            "koju"
           ],
           "green": [
-            "pilsētām",
-            "valstīm",
-            "laiku"
+            "linnade",
+            "Põhiidee",
+            "aja"
           ]
         },
         "examples": [
@@ -15739,10 +15876,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz"
+                "Jeg"
               ],
               "green": [
-                "Berlīni"
+                "Berlin"
               ]
             }
           },
@@ -15754,7 +15891,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz mājām"
+                "koju"
               ]
             }
           },
@@ -15769,10 +15906,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pēc"
+                "Etter"
               ],
               "yellow": [
-                "ēšanas"
+                "sömmist"
               ]
             }
           },
@@ -15784,7 +15921,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pāri"
+                "Omtrent"
               ]
             }
           }
@@ -15798,8 +15935,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pēc"
+                "sse",
+                "sse"
               ]
             },
             "example": {
@@ -15816,8 +15953,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "sse",
+                "sse"
               ]
             },
             "example": {
@@ -15834,7 +15971,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iekšā"
+                "Ser"
               ]
             },
             "example": {
@@ -15851,8 +15988,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pirms",
-                "priekšā"
+                "enne",
+                "ees"
               ]
             },
             "example": {
@@ -15869,7 +16006,7 @@ const A1_WORDS = [
               "nach Berlin"
             ],
             "purple": [
-              "pēc ēšanas"
+              "Atceries"
             ]
           }
         },
@@ -15879,7 +16016,7 @@ const A1_WORDS = [
               "nach"
             ],
             "red": [
-              "visām vietām"
+              "nach"
             ]
           },
           {
@@ -15898,86 +16035,86 @@ const A1_WORDS = [
     "de": "Nachmittag",
     "de_article": "der",
     "de_plural": "die Nachmittage",
-    "lv": "Απόγευμα",
+    "lv": "Ettermiddag",
     "level": "A1"
   },
   {
     "de": "nachmittags",
-    "lv": "Το απόγευμα",
+    "lv": "Post-lúnal",
     "level": "A1"
   },
   {
     "de": "Nacht",
     "de_article": "die",
     "de_plural": "die Nächte",
-    "lv": "Νύχτα",
+    "lv": "Øy",
     "level": "A1"
   },
   {
     "de": "Nase",
     "de_article": "die",
     "de_plural": "die Nasen",
-    "lv": "Η μύτη",
+    "lv": "Nina",
     "level": "A1"
   },
   {
     "de": "nass",
-    "lv": "Υγρός",
+    "lv": "Marg",
     "level": "A1"
   },
   {
     "de": "Natur",
     "de_article": "die",
-    "lv": "Φύση",
+    "lv": "Loodus",
     "level": "A1"
   },
   {
     "de": "natürlich",
-    "lv": "Φυσικά • Φυσικός",
+    "lv": "Svezvoj • Loomulik",
     "level": "A1",
     "study": {
       "id": "a1-natuerlich",
       "layout": "standardStudy",
-      "translation": "Φυσικά • Φυσικός",
+      "translation": "Svezvoj • Loomulik",
       "explanation": [
-        "Κύρια ιδέα: natürlich ως επίρρημα σημαίνει φυσικά, ως επίθετο σημαίνει φυσικό.",
-        "Στη συνομιλία, επιβεβαιώνοντας κάτι, natürlich = φυσικά (Kommst du mit? – Natürlich! = Θα έρθετε • – Φυσικά!).",
-        "Όταν μιλάμε για φύση, καταγωγή ή ιδιότητες, natürlich = φυσικό (natürliche Schönheit = φυσική ομορφιά).",
-        "Τα συμφραζόμενα (απάντηση/επιβεβαίωση ή περιγραφή) υποδηλώνουν το σωστό νόημα."
+        "Põhiidee: natürlich geinde mærsõnana vehää, geinäsõnana geinde loomulik.",
+        "Vestluses, kas tuled kaasa?",
+        "Loodusest, rääkisest või kääääsest rääkides natürlich = loomulik (natürliche Schönheit = loomulik ilu).",
+        "Kontekst (vastus/või ikkeisar) viser riktig betydning."
       ],
       "examples": [
         {
           "de": "Kommst du mit? – Natürlich!",
-          "lv": "Έρχεσαι μαζί • – φυσικά!"
+          "lv": "Kas tuled kaasa? – selvfølgelig!"
         },
         {
           "de": "Das ist eine natürliche Reaktion.",
-          "lv": "Είναι μια φυσική αντίδραση."
+          "lv": "Se på loomulik-reaksjonen."
         },
         {
           "de": "Natürlich helfe ich dir.",
-          "lv": "Φυσικά θα σε βοηθήσω."
+          "lv": "Selvfølgelig, ma aitan sind."
         },
         {
           "de": "Sie hat natürliche rote Haare.",
-          "lv": "Έχει φυσικά κόκκινα μαλλιά."
+          "lv": "Snakk om naturlig rødt hår."
         },
         {
           "de": "Natürlich kann ich das machen.",
-          "lv": "Φυσικά και μπορώ να το κάνω."
+          "lv": "Svezvej, ma saan seda teha."
         },
         {
           "de": "Das ist ganz natürlich.",
-          "lv": "Αυτό είναι απολύτως φυσικό/φυσιολογικό."
+          "lv": "Se på helt loomulik/normal."
         }
       ],
       "tip": [
-        "Ως ξεχωριστή λέξη, επιβεβαίωση ή απάντηση → φυσικά.",
-        "Δίπλα σε ένα ουσιαστικό, που περιγράφει μια προέλευση ή μια ποιότητα → φυσική."
+        "Kā atsevišķs vārds, apstiprinot vai atbildot → protams.",
+        "Blakus lietvārdam, aprakstot izcelsmi vai īpašību → dabisks."
       ],
       "important": [
-        "Natürlich = φυσικά (επίρρημα, κατάφαση) Ή φυσικός (επίθετο).",
-        "Natürlich! ως αυτοτελές επιφώνημα είναι πάντα = φυσικά!"
+        "natürlich = protams (apstākļa vārds, apstiprinājums) VAI dabisks (īpašības vārds).",
+        "Natürlich! kā atsevišķs saucienis vienmēr = protams!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15985,8 +16122,8 @@ const A1_WORDS = [
             "natürlich"
           ],
           "purple": [
-            "protams",
-            "dabisks"
+            "Põhiidee",
+            "loomulik"
           ]
         },
         "examples": [
@@ -15998,7 +16135,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "protams"
+                "Kas"
               ]
             }
           },
@@ -16010,7 +16147,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dabiska"
+                "loomulik"
               ]
             }
           },
@@ -16022,7 +16159,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "protams"
+                "Selvfølgelig"
               ]
             }
           },
@@ -16034,7 +16171,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dabiski"
+                "Snakk"
               ]
             }
           },
@@ -16046,7 +16183,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "protams"
+                "Svezvej"
               ]
             }
           },
@@ -16058,7 +16195,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dabiski"
+                "loomulik"
               ]
             }
           }
@@ -16066,20 +16203,20 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "protams"
+              "atsevišķs"
             ]
           },
           {
             "green": [
-              "dabisks"
+              "atsevišķs"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "protams",
-              "dabisks"
+              "natürlich",
+              "natürlich"
             ]
           },
           {
@@ -16093,69 +16230,69 @@ const A1_WORDS = [
   },
   {
     "de": "neben",
-    "lv": "Δίπλα",
+    "lv": "Körval",
     "level": "A1"
   },
   {
     "de": "nehmen",
-    "lv": "Να πάρει • Να πάρει",
+    "lv": "Võtma • Kätte vämä",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "Να πάρει • Να πάρει",
+      "translation": "Võtma • Kätte vämä",
       "explanation": [
-        "Κύρια ιδέα: nehmen σημαίνει παίρνω ή πιάνω.",
-        "Το nehmen χρησιμοποιείται όταν παίρνετε κάτι για τον εαυτό σας ή επιλέγετε.",
-        "Δεν είναι το ίδιο με το bringen, γιατί το bringen σημαίνει φέρνω ή παίρνω σε κάποιον.",
-        "Τρύπα σημαίνει να πηγαίνω μετά και να φέρω/πάρω."
+        "Põhiidee: nehmen tähäm tämä või käte tämä.",
+        "Nehmen vehnakot, kui sa võhad magadi endale või gyldig.",
+        "Se ei ole sama mis bringen, sest bringen jähä kellegi tooma või viima.",
+        "Holen säytä yögä memne ja tooma/võtma."
       ],
       "examples": [
         {
           "de": "Ich nehme den Bus.",
-          "lv": "Πηγαίνω με το λεωφορείο"
+          "lv": "Ma sålån bussiga."
         },
         {
           "de": "Nimm das Buch!",
-          "lv": "Πάρε το βιβλίο!"
+          "lv": "Ta boken!"
         },
         {
           "de": "Ich bringe dir das Buch.",
-          "lv": "Θα σου φέρω ένα βιβλίο."
+          "lv": "Ma toon sulle bibbe."
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "Θα έρθω πίσω σου"
+          "lv": "Ma tulen sulle lög."
         }
       ],
       "comparison": [
         {
           "word": "nehmen",
-          "meaning": "Παίρνω / παραλαμβάνω",
+          "meaning": "Võtma / kète vämä",
           "example": "Nimm das Buch!"
         },
         {
           "word": "bringen",
-          "meaning": "Φέρνω / παίρνω / παραδίδω",
+          "meaning": "Tooma / viima / vukkile vaittama",
           "example": "Ich bringe dir das Buch."
         },
         {
           "word": "holen",
-          "meaning": "Να παραλάβω / φέρω",
+          "meaning": "Järele minema / tooma",
           "example": "Ich hole Wasser."
         },
         {
           "word": "mitnehmen",
-          "meaning": "Να πάρεις μαζί σου",
+          "meaning": "Ta det",
           "example": "Ich nehme dich mit."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: αναλαμβάνει → nehmen • Φέρνει κάποιον → φέρνει."
+        "text": "Atceries: paņem sev → nehmen; atnes kādam → bringen."
       },
       "important": [
-        "Ich nehme den Bus σημαίνει «οδηγώ το λεωφορείο» στα εσθονικά.",
-        "Το nehmen δεν είναι το ίδιο με το bringen."
+        "Ich nehme den Bus latviski nozīmē “es braucu ar autobusu”.",
+        "nehmen nav tas pats, kas bringen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16163,8 +16300,8 @@ const A1_WORDS = [
             "nehmen"
           ],
           "purple": [
-            "ņemt",
-            "paņemt"
+            "võtma",
+            "võtma"
           ],
           "red": [
             "bringen",
@@ -16183,10 +16320,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "braucu"
+                "sålån"
               ],
               "yellow": [
-                "autobusu"
+                "bussiga"
               ]
             }
           },
@@ -16201,10 +16338,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "paņem"
+                "boken"
               ],
               "yellow": [
-                "grāmatu"
+                "boken"
               ]
             }
           },
@@ -16219,10 +16356,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "atnesu"
+                "toon"
               ],
               "yellow": [
-                "grāmatu"
+                "toon"
               ]
             }
           },
@@ -16237,10 +16374,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "paņemšu"
+                "tulen"
               ],
               "green": [
-                "tevi"
+                "tulen"
               ]
             }
           }
@@ -16254,8 +16391,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ņemt",
-                "paņemt"
+                "võtma",
+                "võtma"
               ]
             },
             "example": {
@@ -16272,9 +16409,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atnest",
-                "aiznest",
-                "nogādāt"
+                "tooma",
+                "viima",
+                "Tooma"
               ]
             },
             "example": {
@@ -16291,8 +16428,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "aiziet pakaļ",
-                "atnest"
+                "järele minema",
+                "tooma"
               ]
             },
             "example": {
@@ -16309,7 +16446,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "paņemt līdzi"
+                "det"
               ]
             },
             "example": {
@@ -16326,11 +16463,11 @@ const A1_WORDS = [
               "nehmen"
             ],
             "purple": [
-              "paņem sev"
+              "Atceries"
             ],
             "red": [
               "bringen",
-              "atnes kādam"
+              "Atceries"
             ]
           }
         },
@@ -16340,7 +16477,7 @@ const A1_WORDS = [
               "nehme den Bus"
             ],
             "purple": [
-              "braucu ar autobusu"
+              "Ich"
             ]
           },
           {
@@ -16357,73 +16494,73 @@ const A1_WORDS = [
   },
   {
     "de": "nein",
-    "lv": "Όχι",
+    "lv": "Ingen",
     "level": "A1"
   },
   {
     "de": "nennen",
-    "lv": "Για να ονομάσουμε",
+    "lv": "Nimetama",
     "level": "A1"
   },
   {
     "de": "nett",
-    "lv": "Όμορφη",
+    "lv": "Kena",
     "level": "A1"
   },
   {
     "de": "neu",
-    "lv": "Νέο (για τα πράγματα)",
+    "lv": "Uus (asjade kohta)",
     "level": "A1",
     "study": {
       "id": "a1-neu",
       "layout": "standardStudy",
-      "translation": "Νέο (για τα πράγματα)",
+      "translation": "Uus (asjade kohta)",
       "explanation": [
-        "Κύρια ιδέα: neu κυριολεκτικά σημαίνει νέο — δημιουργήθηκε πρόσφατα, αποκτήθηκε ή χρησιμοποιήθηκε για πρώτη φορά.",
-        "Το neu περιγράφει πράγματα, εξοπλισμό, ρούχα, σπίτια, ιδέες κ.λπ. — όχι την ηλικία ενός ατόμου ή ενός ζώου.",
-        "Στα εσθονικά, αυτές οι δύο έννοιες είναι με διαφορετικές λέξεις: νέος για την ηλικία (jung) και νέος/πρόσφατα συμπληρωμένος (neu).",
-        "Για την ηλικία ενός ατόμου ή ζώου, χρησιμοποιείται το jung, όχι το neu.",
-        "Το neu χρησιμοποιείται και με μεταφορική έννοια: νέα δουλειά, νέα πληροφορία, νέα αρχή.",
-        "Το αντίθετο είναι το alt (παλιό). το ουσιαστικό das Neue σημαίνει κάτι νέο."
+        "Põhiidee: neu jähät uus asja tökäs — nylig opprettet, soetatud või esmest korda kontakt.",
+        "Neu descriptab asju, riideid, riideid, maja, idead jms — mitte svetso või looma vanust.",
+        "Eesti keeles on need kaks saimust eri såndega: noor vanuse kohta (ung) ja uus/hiljuti valminud asja kohta (neu).",
+        "Inimese või looma vanuse kohta brukes ung, mitte neu.",
+        "Neu kontakt ka ülekantud siimsuses: uus töö, uus info, uus algus.",
+        "Vastand på alt (vane) • Nimisõna das Neue gejättä magadi uut."
       ],
       "examples": [
         {
           "de": "Mein Handy ist neu.",
-          "lv": "Το τηλέφωνό μου είναι καινούργιο."
+          "lv": "Telefonen min er på uus."
         },
         {
           "de": "Wir haben ein neues Auto.",
-          "lv": "Έχουμε καινούργιο αυτοκίνητο."
+          "lv": "Meil på uus auto."
         },
         {
           "de": "Das ist meine neue Wohnung.",
-          "lv": "Αυτό είναι το νέο μου διαμέρισμα."
+          "lv": "Se på minu uus-kort."
         },
         {
           "de": "Ich habe neue Schuhe gekauft.",
-          "lv": "Αγόρασα καινούργια παπούτσια."
+          "lv": "Ma ostsin uued kingad."
         },
         {
           "de": "Das ist eine neue Idee.",
-          "lv": "Αυτή είναι μια νέα ιδέα."
+          "lv": "Se på uus idee."
         },
         {
           "de": "Er hat einen neuen Job.",
-          "lv": "Έχει νέα δουλειά."
+          "lv": "Tal på uus töö."
         },
         {
           "de": "Was gibt es Neues?",
-          "lv": "Τι νέο υπάρχει • "
+          "lv": "Mis uut?"
         }
       ],
       "tip": [
-        "Το neu αναφέρεται σε πράγματα, συσκευές και ειδήσεις — όταν μιλάμε για την ηλικία ενός ατόμου, χρησιμοποιείται το jung.",
-        "Απέναντι: neu ↔ alt (νέο ↔ παλιό)."
+        "neu ir par lietām, ierīcēm un jaunumiem — ja runā par cilvēka vecumu, lieto jung.",
+        "Pretstats: neu ↔ alt (jauns ↔ vecs)."
       ],
       "important": [
-        "Το neu περιγράφει πράγματα και ειδήσεις, όχι την ηλικία ενός ανθρώπου ή ενός ζώου.",
-        "Για την ηλικία ενός ατόμου ή ζώου, χρησιμοποιείται το jung, όχι το neu.",
-        "Λάθος: Meine Schwester ist neu. → Σωστό: Meine Schwester ist jung."
+        "neu raksturo lietas un jaunumus, ne cilvēka vai dzīvnieka vecumu.",
+        "Par cilvēka vai dzīvnieka vecumu lieto jung, nevis neu.",
+        "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16431,10 +16568,10 @@ const A1_WORDS = [
             "neu"
           ],
           "purple": [
-            "jauns"
+            "uus"
           ],
           "green": [
-            "jung"
+            "ung"
           ]
         },
         "examples": [
@@ -16446,7 +16583,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauns"
+                "uus"
               ]
             }
           },
@@ -16458,7 +16595,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauna"
+                "meil"
               ]
             }
           },
@@ -16470,7 +16607,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaunais"
+                "uus"
               ]
             }
           },
@@ -16482,7 +16619,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaunas"
+                "uued"
               ]
             }
           },
@@ -16494,7 +16631,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauna"
+                "Se"
               ]
             }
           },
@@ -16506,7 +16643,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauns"
+                "uus"
               ]
             }
           },
@@ -16518,7 +16655,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauns"
+                "uut"
               ]
             }
           }
@@ -16569,102 +16706,102 @@ const A1_WORDS = [
   },
   {
     "de": "neun",
-    "lv": "Εννέα",
+    "lv": "Sjekk det ut",
     "level": "A1"
   },
   {
     "de": "neunhundert",
-    "lv": "Εννιακόσια",
+    "lv": "Üheksasada",
     "level": "A1"
   },
   {
     "de": "neunte",
-    "lv": "Το ένατο",
+    "lv": "Üeksas",
     "level": "A1"
   },
   {
     "de": "neunzehn",
-    "lv": "Δεκαεννέα",
+    "lv": "Üheksateist",
     "level": "A1"
   },
   {
     "de": "neunzehnte",
-    "lv": "Το δέκατο ένατο",
+    "lv": "Üheksaçılış",
     "level": "A1"
   },
   {
     "de": "neunzig",
-    "lv": "Ενενήντα",
+    "lv": "Åtti",
     "level": "A1"
   },
   {
     "de": "neunzigste",
-    "lv": "Στην ενενηκοστή",
+    "lv": "Üheksagümces",
     "level": "A1"
   },
   {
     "de": "nicht",
-    "lv": "Όχι",
+    "lv": "Ingen",
     "level": "A1"
   },
   {
     "de": "nichts",
-    "lv": "Τίποτα",
+    "lv": "Ingenting i det hele tatt",
     "level": "A1"
   },
   {
     "de": "nie",
-    "lv": "Ποτέ",
+    "lv": "Aldri",
     "level": "A1"
   },
   {
     "de": "niemand",
-    "lv": "Κανένας",
+    "lv": "Mitte kaige",
     "level": "A1"
   },
   {
     "de": "noch",
-    "lv": "Ακόμη",
+    "lv": "Mye",
     "level": "A1",
     "study": {
       "id": "a1-noch-study",
       "layout": "standardStudy",
-      "translation": "Ακόμη",
+      "translation": "Mye",
       "explanation": [
-        "Κύρια ιδέα: Κάτι συνεχίζεται ακόμα ή δεν έχει τελειώσει ακόμα.",
-        "Νοχ σημαίνει κυρίως: κάτι τρέχει ακόμα.",
-        "Συχνά περιγράφει: συνέχεια ή ημιτελής κατάσταση.",
-        "Noch σημαίνει ακόμα: κάτι συνεχίζεται ή δεν έχει ακόμη τελειώσει."
+        "Põhiidee: Miski sõutab äsää või ei ole veel säänud.",
+        "Noch gejättä säätä: miski ikka veel ääätäb.",
+        "Sägeli sälästab: sälämist või säläämata olekut.",
+        "Noch veel veel: miski ikka veel søndab või ei ole veel veelenud."
       ],
       "examples": [
         {
           "de": "Ich bin noch zu Hause.",
-          "lv": "Είμαι ακόμα στο σπίτι."
+          "lv": "Ma olen mange kodus."
         },
         {
           "de": "Ich bin noch zu Hause.",
-          "lv": "Είμαι ακόμα στο σπίτι."
+          "lv": "Ma olen mange kodus."
         },
         {
           "de": "Bist du noch da?",
-          "lv": "Είσαι ακόμα εδώ"
+          "lv": "Hvor mye er det?"
         }
       ],
       "tip": [
-        "Κάτι συνεχίζεται ή δεν έχει τελειώσει ακόμα.",
-        "Χρησιμοποιήστε τη λέξη noch όταν το περιεχόμενο ταιριάζει με αυτή τη σημασία."
+        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
+        "Izmanto noch, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Νοχ = ακόμα.",
-        "Κάτι συνεχίζεται ή δεν έχει τελειώσει ακόμα."
+        "noch = vēl.",
+        "Kaut kas joprojām turpinās vai vēl nav beidzies."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
-            "Vēl"
+            "Veel"
           ],
           "purple": [
-            "vēl"
+            "veel"
           ]
         },
         "examples": [
@@ -16677,7 +16814,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēl"
+                "olen"
               ]
             }
           },
@@ -16690,7 +16827,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēl"
+                "olen"
               ]
             }
           },
@@ -16703,7 +16840,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēl"
+                "Hvor"
               ]
             }
           }
@@ -16711,7 +16848,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "vēl"
+              "Kaut"
             ]
           }
         ],
@@ -16727,72 +16864,72 @@ const A1_WORDS = [
   },
   {
     "de": "normal",
-    "lv": "Κανονικός",
+    "lv": "De normale",
     "level": "A1"
   },
   {
     "de": "November",
     "de_article": "der",
-    "lv": "Νοέμβριος",
+    "lv": "November",
     "level": "A1"
   },
   {
     "de": "Null",
     "de_article": "die",
     "de_plural": "die Nullen",
-    "lv": "Μηδέν",
+    "lv": "Null",
     "level": "A1"
   },
   {
     "de": "Nummer",
     "de_article": "die",
     "de_plural": "die Nummern",
-    "lv": "Αριθμός",
+    "lv": "Tall",
     "level": "A1"
   },
   {
     "de": "nur",
-    "lv": "Μόνο • Μόνο",
+    "lv": "Kun • Üksnes",
     "level": "A1",
     "study": {
       "id": "a1-nur-study",
       "layout": "standardStudy",
-      "translation": "Μόνο • Μόνο",
+      "translation": "Kun • Üksnes",
       "explanation": [
-        "Κύρια ιδέα: Περιορίζει την ποσότητα, τον αριθμό των ατόμων, την επιλογή ή τις επιλογές.",
-        "Nur σημαίνει κυρίως: περιορισμένη ποσότητα ή επιλογή.",
-        "Συχνά περιγράφει: πόσοι, τι ακριβώς, ή ποιος είναι ο μόνος.",
-        "Nur σημαίνει μόνο, αποκλειστικά, όχι περισσότερο: περιορίζει την ποσότητα ή την επιλογή."
+        "Põhiidee: Piirab követts, köytös arvu, võit või täsätä.",
+        "Nur gejättä säyätä: geäää kogus või valik.",
+        "Sägeli ekpretab: kui palju, mis täätä või kes ainuke.",
+        "Nur tämätä säää, äääää, mitte vammaä: se piirab követt või vaikät."
       ],
       "examples": [
         {
           "de": "Ich habe nur zehn Euro.",
-          "lv": "Έχω μόνο δέκα ευρώ."
+          "lv": "Mul på bare noen få euro."
         },
         {
           "de": "Ich habe nur zehn Euro.",
-          "lv": "Έχω μόνο δέκα ευρώ."
+          "lv": "Mul på bare noen få euro."
         },
         {
           "de": "Nur du kannst mir helfen.",
-          "lv": "Μόνο εσύ μπορείς να με βοηθήσεις."
+          "lv": "Tulu sina saad mind aida."
         },
         {
           "de": "Ich möchte nur Kaffee.",
-          "lv": "Θέλω μόνο καφέ"
+          "lv": "Ma tahan bare kaffe."
         },
         {
           "de": "Ich habe nur acht Euro.",
-          "lv": "Έχω μόνο οκτώ ευρώ."
+          "lv": "Mul på bare åtte euro."
         }
       ],
       "tip": [
-        "Περιορίζει την ποσότητα, τον αριθμό των ατόμων, την επιλογή ή τις επιλογές.",
-        "Χρησιμοποιήστε τη λέξη nur όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
+        "Izmanto nur, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Το εσθονικό \"μόνο\" δεν είναι πάντα nur στα γερμανικά.",
-        "Nur = μόνο / αποκλειστικά."
+        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
+        "nur = tikai / vienīgi."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16800,15 +16937,18 @@ const A1_WORDS = [
             "nur",
             "nur"
           ],
+          "purple": [
+            "Põhiidee"
+          ],
           "green": [
-            "vienīgi"
+            "Põhiidee"
           ],
           "red": [
-            "Tikai"
+            "ainuke"
           ],
           "yellow": [
-            "vienīgi",
-            "tikai"
+            "Põhiidee",
+            "ainuke"
           ]
         },
         "examples": [
@@ -16821,7 +16961,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai"
+                "Mul",
+                "Mul"
               ]
             }
           },
@@ -16834,7 +16975,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai"
+                "Mul",
+                "mul"
               ]
             }
           },
@@ -16847,7 +16989,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai"
+                "Tulu",
+                "Tulu"
               ]
             }
           },
@@ -16860,7 +17003,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai"
+                "tahan",
+                "tahan"
               ]
             }
           },
@@ -16873,14 +17017,23 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikai"
+                "Mul",
+                "mul"
               ]
             }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "Ierobežo"
+            ]
+          },
+          {
+            "purple": [
+              "Ierobežo"
+            ]
+          }
         ],
         "important": [
           {
@@ -16894,64 +17047,64 @@ const A1_WORDS = [
   },
   {
     "de": "ob",
-    "lv": "Είτε",
+    "lv": "Cas",
     "level": "A1",
     "study": {
       "id": "a1-ob",
       "layout": "standardStudy",
-      "translation": "Είτε",
+      "translation": "Cas",
       "explanation": [
-        "Κύρια ιδέα: το ob εισάγει μια έμμεση ερώτηση και πιο συχνά σημαίνει αν στα εσθονικά.",
-        "Το ob χρησιμοποιείται μετά από λέξεις όπως fragen, wissen, sehen, sagen, όταν δεν είναι άμεση ερώτηση.",
-        "Σε μια ευθεία ερώτηση, το ob δεν χρησιμοποιείται συνήθως στα γερμανικά.",
-        "Στο επίπεδο Α1 είναι σημαντικό να γίνεται διάκριση μεταξύ ob και oder."
+        "Põhiidee: ob juhatab sisse pärvejne sävää ja jainä eesti keeles äää äääää kas.",
+        "Hvis du bruker ord som fragen, wissen, sehen, sayn, kui gewieda ei ole zujesne müssega.",
+        "Otseses määuses ob saksa keeles sämää ei käusuta.",
+        "A1-nivå på essential eristada ob ja oder."
       ],
       "examples": [
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Δεν ξέρω αν θα έρθει."
+          "lv": "Ma ei te, kas ta tulb."
         },
         {
           "de": "Sie fragt, ob du Zeit hast.",
-          "lv": "Ρωτάει αν έχεις χρόνο."
+          "lv": "Ta öklisb, kas sul på aega."
         },
         {
           "de": "Sag mir, ob das stimmt.",
-          "lv": "Πες μου αν είναι αλήθεια."
+          "lv": "Ütle mulle, kas se på gül."
         },
         {
           "de": "Kommst du heute oder morgen?",
-          "lv": "Θα έρθεις σήμερα ή αύριο"
+          "lv": "Hva skal du gjøre?"
         }
       ],
       "comparison": [
         {
           "word": "ob",
-          "meaning": "Είτε σε έμμεση ερώτηση",
+          "meaning": "Kas ervägeves määuses",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
           "word": "oder",
-          "meaning": "Ή σε μια επιλογή μεταξύ παραλλαγών",
+          "meaning": "Või valikus variantide vähal",
           "example": "Kaffee oder Tee?"
         },
         {
           "word": "wenn",
-          "meaning": "Αν (συνθήκη) / αν (χρόνος)",
+          "meaning": "Kui (tingimus) / kui (aeg)",
           "example": "Wenn du Zeit hast..."
         },
         {
           "word": "dass",
-          "meaning": "Ότι",
+          "meaning": "En",
           "example": "Ich weiß, dass er kommt."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: Δεν ξέρω αν... → ob • Καφέ ή τσάι → κριθάρι."
+        "text": "Atceries: nezinu, vai... → ob; kafija vai tēja → oder."
       },
       "important": [
-        "Το ob δεν είναι το συνηθισμένο \"ή\" που εκφράζει μια επιλογή μεταξύ δύο πραγμάτων.",
-        "Καφές ή τσάι • Χρησιμοποιήστε oder, όχι ob."
+        "ob nav parasta izvēles “vai” forma starp divām lietām.",
+        "Kaffee oder Tee? lieto oder, nevis ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16960,15 +17113,15 @@ const A1_WORDS = [
             "oder"
           ],
           "purple": [
-            "vai",
-            "netiešu jautājumu",
-            "Tiešā jautājumā"
+            "kas",
+            "Põhiidee",
+            "Põhiidee"
           ],
           "green": [
             "fragen",
             "wissen",
             "sehen",
-            "sagen"
+            "fragen"
           ]
         },
         "examples": [
@@ -16980,7 +17133,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vai"
+                "kas"
               ]
             }
           },
@@ -16992,7 +17145,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vai"
+                "kas"
               ]
             }
           },
@@ -17004,7 +17157,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vai"
+                "kas"
               ]
             }
           },
@@ -17016,7 +17169,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "vai"
+                "Hva"
               ]
             }
           }
@@ -17030,8 +17183,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai",
-                "netiešā jautājumā"
+                "kas",
+                "Kas"
               ]
             },
             "example": {
@@ -17048,8 +17201,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai",
-                "izvēlē"
+                "või",
+                "valikus"
               ]
             },
             "example": {
@@ -17066,8 +17219,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ja",
-                "kad"
+                "kui",
+                "kui"
               ]
             },
             "example": {
@@ -17082,11 +17235,7 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "meaning": {
-              "purple": [
-                "ka"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "dass"
@@ -17100,11 +17249,11 @@ const A1_WORDS = [
               "ob"
             ],
             "purple": [
-              "nezinu, vai"
+              "Atceries"
             ],
             "red": [
               "oder",
-              "kafija vai tēja"
+              "Atceries"
             ]
           }
         },
@@ -17112,6 +17261,9 @@ const A1_WORDS = [
           {
             "blue": [
               "ob"
+            ],
+            "red": [
+              "nav"
             ]
           },
           {
@@ -17128,69 +17280,69 @@ const A1_WORDS = [
   },
   {
     "de": "oben",
-    "lv": "Πάνω από",
+    "lv": "Üleval",
     "level": "A1"
   },
   {
     "de": "oder",
-    "lv": "Ή • Ίσως",
+    "lv": "Eller • Ehk",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "Ή • Ίσως",
+      "translation": "Eller • Ehk",
       "explanation": [
-        "Κύρια ιδέα: Το κριθάρι χρησιμοποιείται όταν επιλέγουμε ανάμεσα σε δύο ή περισσότερες επιλογές.",
-        "Στα εσθονικά, oder σημαίνει πιο συχνά βούτυρο.",
-        "Αυτό δεν είναι το ίδιο με το ob, το οποίο εισάγει μια έμμεση ερώτηση.",
-        "Στις συνομιλίες, το oder μπορεί επίσης να βρίσκεται στο τέλος της πρότασης: Du kommst, oder?"
+        "Põhiidee: oder sämää, kui valime kahe või mitme kävää vähl.",
+        "I Eesti keeles betyr det oftest.",
+        "Se ei ole sama mis ob, mis juhatab sisse päivä sämää.",
+        "Vestlustes mågs oder olla ka lause geres: Du kommst, oder?"
       ],
       "examples": [
         {
           "de": "Kaffee oder Tee?",
-          "lv": "Καφέ ή τσάι • "
+          "lv": "Kohvi voi teed?"
         },
         {
           "de": "Heute oder morgen?",
-          "lv": "Σήμερα ή αύριο • "
+          "lv": "Täna voi homme?"
         },
         {
           "de": "Willst du Pizza oder Salat?",
-          "lv": "Θες πίτσα ή σαλάτα"
+          "lv": "Hva er det du vil ha?"
         },
         {
           "de": "Du kommst, oder?",
-          "lv": "Έρχεσαι, σωστά • "
+          "lv": "Sa tuled, ikke sant?"
         }
       ],
       "comparison": [
         {
           "word": "oder",
-          "meaning": "Ή στην επιλογή",
+          "meaning": "Või valikus",
           "example": "Kaffee oder Tee?"
         },
         {
           "word": "ob",
-          "meaning": "Είτε σε έμμεση ερώτηση",
+          "meaning": "Kas ervägeves määuses",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
           "word": "und",
-          "meaning": "Και",
+          "meaning": "Ja",
           "example": "Kaffee und Kuchen."
         },
         {
           "word": "aber",
-          "meaning": "Ωστόσο",
+          "meaning": "Aga",
           "example": "Ich komme, aber später."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: επιλογή μεταξύ επιλογών → κριθάρι."
+        "text": "Atceries: izvēle starp variantiem → oder."
       },
       "important": [
-        "Oder χρησιμοποιείται για την επιλογή: Kaffee oder Tea.",
-        "Σε μια έμμεση ερώτηση, το «αν» είναι συνήθως ob."
+        "oder lieto izvēlei: Kaffee oder Tee.",
+        "Netiešā jautājumā “vai” parasti ir ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17199,9 +17351,9 @@ const A1_WORDS = [
             "ob"
           ],
           "purple": [
-            "vai",
-            "izvēlamies",
-            "netiešu jautājumu"
+            "Põhiidee",
+            "valime",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -17217,11 +17369,11 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vai"
+                "kohvi"
               ],
               "yellow": [
-                "Kafiju",
-                "tēju"
+                "Kohvi",
+                "teed"
               ]
             }
           },
@@ -17233,7 +17385,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vai"
+                "täna"
               ]
             }
           },
@@ -17249,11 +17401,11 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vai"
+                "Hva"
               ],
               "yellow": [
-                "picu",
-                "salātus"
+                "Hva",
+                "Hva"
               ]
             }
           },
@@ -17265,7 +17417,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vai ne"
+                "tuled"
               ]
             }
           }
@@ -17279,8 +17431,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai",
-                "izvēlē"
+                "või",
+                "valikus"
               ]
             },
             "example": {
@@ -17297,8 +17449,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai",
-                "netiešā jautājumā"
+                "kas",
+                "Kas"
               ]
             },
             "example": {
@@ -17315,7 +17467,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "un"
+                "ja"
               ]
             },
             "example": {
@@ -17332,7 +17484,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "bet"
+                "aga"
               ]
             },
             "example": {
@@ -17348,7 +17500,7 @@ const A1_WORDS = [
               "oder"
             ],
             "purple": [
-              "izvēle",
+              "Atceries",
               "variantiem"
             ]
           }
@@ -17359,7 +17511,7 @@ const A1_WORDS = [
               "oder"
             ],
             "purple": [
-              "izvēlei"
+              "oder"
             ]
           },
           {
@@ -17367,7 +17519,7 @@ const A1_WORDS = [
               "ob"
             ],
             "purple": [
-              "netiešā jautājumā"
+              "Netiešā"
             ]
           }
         ]
@@ -17376,132 +17528,132 @@ const A1_WORDS = [
   },
   {
     "de": "öffnen",
-    "lv": "Να ανοίξει",
+    "lv": "Avama",
     "level": "A1"
   },
   {
     "de": "oft",
-    "lv": "Συχνά",
+    "lv": "Ofte",
     "level": "A1"
   },
   {
     "de": "ohne",
-    "lv": "Χωρίς",
+    "lv": "Ilma",
     "level": "A1"
   },
   {
     "de": "Ohr",
     "de_article": "das",
     "de_plural": "die Ohren",
-    "lv": "Αυτί",
+    "lv": "Kõrv",
     "level": "A1"
   },
   {
     "de": "Oktober",
     "de_article": "der",
-    "lv": "Οκτώβριος",
+    "lv": "Oktober",
     "level": "A1"
   },
   {
     "de": "Onkel",
     "de_article": "der",
     "de_plural": "die Onkel",
-    "lv": "Θείος",
+    "lv": "Unu",
     "level": "A1"
   },
   {
     "de": "Orange",
     "de_article": "die",
     "de_plural": "die Orangen",
-    "lv": "Ένα πορτοκάλι",
+    "lv": "Oransje",
     "level": "A1"
   },
   {
     "de": "Ostern",
-    "lv": "Πάσχα",
+    "lv": "Lihavögted",
     "level": "A1"
   },
   {
     "de": "Paar",
     "de_article": "das",
     "de_plural": "die Paare",
-    "lv": "Ένα ζευγάρι",
+    "lv": "Par",
     "level": "A1"
   },
   {
     "de": "Papier",
     "de_article": "das",
     "de_plural": "die Papiere",
-    "lv": "Χαρτί",
+    "lv": "Papir",
     "level": "A1"
   },
   {
     "de": "Park",
     "de_article": "der",
     "de_plural": "die Parks",
-    "lv": "Πάρκο",
+    "lv": "Parkere",
     "level": "A1"
   },
   {
     "de": "passen",
-    "lv": "Ταιριάζει • Ταιριάζει καλά",
+    "lv": "Sobima • Hest sobima",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "Ταιριάζει • Ταιριάζει καλά",
+      "translation": "Sobima • Hest sobima",
       "explanation": [
-        "Κύρια ιδέα: passen σημαίνει να ταιριάζει, να ταιριάζει καλά, ή να είναι σωστό.",
-        "Όσον αφορά τα ρούχα, η εφαρμογή συχνά σημαίνει ότι ταιριάζει στο μέγεθος.",
-        "Όσον αφορά τα χρώματα ή το στυλ, το passen σημαίνει να ταιριάζει καλά.",
-        "Μια πολύ συνηθισμένη φράση είναι Das past. = Ωραία."
+        "Põhiidee: passen jähä sobima, häst istuma või paras olema.",
+        "Riiete poulah tähä passen säili seureuse pohälä sobima.",
+        "Värvide või stiili kohta tähää passen häst sobima.",
+        "Väga sage fraas på Das passt. = Se passer."
       ],
       "examples": [
         {
           "de": "Die Jacke passt mir.",
-          "lv": "Το σακάκι μου ταιριάζει."
+          "lv": "Jakke passer til multe."
         },
         {
           "de": "Das Kleid passt gut.",
-          "lv": "Το φόρεμα ταιριάζει καλά."
+          "lv": "Kjolen sitter godt."
         },
         {
           "de": "Die Farbe passt zu dir.",
-          "lv": "Αυτό το χρώμα σου ταιριάζει."
+          "lv": "Se varve sobib sulle."
         },
         {
           "de": "Das passt.",
-          "lv": "Ταιριάζει."
+          "lv": "Se passe."
         }
       ],
       "comparison": [
         {
           "word": "passen",
-          "meaning": "Ταιριάζει / ταιριάζει καλά",
+          "meaning": "Sobima / hest sobima",
           "example": "Die Jacke passt mir."
         },
         {
           "word": "stehen",
-          "meaning": "Ταιριάζει / σταθεί",
+          "meaning": "Sobima / seisma",
           "example": "Rot steht dir gut."
         },
         {
           "word": "geeignet sein",
-          "meaning": "Να είναι κατάλληλος",
+          "meaning": "Sobiv olema",
           "example": "Das ist geeignet."
         },
         {
           "word": "funktionieren",
-          "meaning": "Να λειτουργήσει",
+          "meaning": "Toimima",
           "example": "Das funktioniert."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: Πέρασε. = Ωραία."
+        "text": "Atceries: Das passt. = Tas der."
       },
       "important": [
-        "Το passen δεν αφορά μόνο τα ρούχα.",
-        "Μπορεί επίσης να σημαίνει ότι ο χρόνος, το σχέδιο ή η λύση είναι σωστή."
+        "passen nav tikai par apģērbu.",
+        "Tas var nozīmēt arī, ka laiks, plāns vai risinājums der."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17510,14 +17662,14 @@ const A1_WORDS = [
             "Das passt"
           ],
           "purple": [
-            "derēt",
-            "piestāvēt",
-            "piemērotam"
+            "sobima",
+            "sobima",
+            "Põhiidee"
           ],
           "yellow": [
-            "apģērbu",
-            "krāsām",
-            "stilu"
+            "Riiete",
+            "Värvide",
+            "stiili"
           ]
         },
         "examples": [
@@ -17532,10 +17684,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "der"
+                "jakk"
               ],
               "yellow": [
-                "Jaka"
+                "Jakk"
               ]
             }
           },
@@ -17550,10 +17702,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "der"
+                "Kjolen"
               ],
               "yellow": [
-                "Kleita"
+                "Kjolen"
               ]
             }
           },
@@ -17568,10 +17720,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "piestāv"
+                "sobib"
               ],
               "yellow": [
-                "krāsa"
+                "värv"
               ]
             }
           },
@@ -17583,7 +17735,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tas der"
+                "passe"
               ]
             }
           }
@@ -17597,8 +17749,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "derēt",
-                "piestāvēt"
+                "sobima",
+                "sobima"
               ]
             },
             "example": {
@@ -17615,8 +17767,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "piestāvēt",
-                "stāvēt"
+                "sobima",
+                "seisma"
               ]
             },
             "example": {
@@ -17633,7 +17785,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "piemērotam"
+                "sobiv"
               ]
             },
             "example": {
@@ -17650,7 +17802,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "darboties"
+                "toimima"
               ]
             },
             "example": {
@@ -17666,7 +17818,7 @@ const A1_WORDS = [
               "Das passt"
             ],
             "purple": [
-              "tas der"
+              "Atceries"
             ]
           }
         },
@@ -17676,15 +17828,15 @@ const A1_WORDS = [
               "passen"
             ],
             "yellow": [
-              "apģērbu"
+              "passen"
             ]
           },
           {
             "purple": [
-              "laiks",
-              "plāns",
-              "risinājums",
-              "der"
+              "Tas",
+              "Tas",
+              "Tas",
+              "Tas"
             ]
           }
         ]
@@ -17695,158 +17847,159 @@ const A1_WORDS = [
     "de": "Pause",
     "de_article": "die",
     "de_plural": "die Pausen",
-    "lv": "Ώρα διαλείμματος",
+    "lv": "Vaheag",
     "level": "A1"
   },
   {
     "de": "Person",
     "de_article": "die",
     "de_plural": "die Personen",
-    "lv": "Πρόσωπο",
+    "lv": "Isik",
     "level": "A1"
   },
   {
     "de": "Pferd",
     "de_article": "das",
     "de_plural": "die Pferde",
-    "lv": "Ένα άλογο",
+    "lv": "Hobune",
     "level": "A1"
   },
   {
     "de": "Pflanze",
     "de_article": "die",
     "de_plural": "die Pflanzen",
-    "lv": "Φυτό",
+    "lv": "Taim",
     "level": "A1"
   },
   {
     "de": "Pizza",
     "de_article": "die",
     "de_plural": "die Pizzen",
-    "lv": "Πίτσα",
+    "lv": "Pizza",
     "level": "A1"
   },
   {
     "de": "Plan",
     "de_article": "der",
     "de_plural": "die Pläne",
-    "lv": "Το σχέδιο",
+    "lv": "Plan",
     "level": "A1"
   },
   {
     "de": "Platz",
     "de_article": "der",
     "de_plural": "die Plätze",
-    "lv": "Θέση",
+    "lv": "Koht",
     "level": "A1"
   },
   {
     "de": "Polizei",
     "de_article": "die",
-    "lv": "Η αστυνομία",
+    "lv": "Politiavdelingen",
     "level": "A1"
   },
   {
     "de": "Post",
     "de_article": "die",
-    "lv": "Ταχυδρομείο",
+    "lv": "Post",
     "level": "A1"
   },
   {
     "de": "Preis",
     "de_article": "der",
     "de_plural": "die Preise",
-    "lv": "Η τιμή",
+    "lv": "Hind",
     "level": "A1"
   },
   {
     "de": "probieren",
-    "lv": "Δοκιμάστε • Γευτείτε",
+    "lv": "Proovima • Maitsma",
     "level": "A1",
     "study": {
       "id": "a1-probieren",
       "layout": "standardStudy",
-      "translation": "Δοκιμάστε • Γευτείτε",
+      "translation": "Proovima • Maitsma",
       "explanation": [
-        "Κύρια ιδέα: probieren σημαίνει να δοκιμάσεις ή να δοκιμάσεις.",
-        "Όταν μιλάμε για φαγητό ή ποτό, το probieren συχνά σημαίνει γεύση.",
-        "Όταν μιλάμε για μια ενέργεια, μέθοδο ή πράγμα, το probieren σημαίνει να προσπαθείς.",
-        "Testen σημαίνει συστηματικό έλεγχο ή έλεγχο, όχι απλώς προσπάθεια.",
-        "Αυτό δεν είναι το ίδιο με το prüfen, που σημαίνει να ελέγχεις πιο διεξοδικά."
+        "Põhiidee: probieren jähät proovima või maitsma.",
+        "Kui jutt på rödöst või yogist, gejätt probieren säili maitsma.",
+        "Kui jutt på kajjast, metodost või asjast, jajnja probieren proovima.",
+        "Testen er systematilist testimist või kontrollimist, mitte geistät proovimist.",
+        "Se ei ole sama mis prüfen, mis geschäfte kontrollima."
       ],
       "examples": [
         {
           "de": "Probier mal die Suppe!",
-          "lv": "Γευτείτε τη σούπα!"
+          "lv": "Maitse suppe!"
         },
         {
           "de": "Ich möchte den Kuchen probieren.",
-          "lv": "Θέλω να δοκιμάσω το κέικ."
+          "lv": "Ma tahan kooki maitsta."
         },
         {
           "de": "Wir probieren eine neue Methode.",
-          "lv": "Θα δοκιμάσουμε μια νέα μέθοδο."
+          "lv": "Me provovime uut metodt."
         },
         {
           "de": "Kann ich die Jacke anprobieren?",
-          "lv": "Μπορώ να δοκιμάσω το σακάκι"
+          "lv": "Kas ma saan jakki prøve?"
         },
         {
           "de": "Wir testen die neue Software.",
-          "lv": "Δοκιμάζουμε νέο λογισμικό."
+          "lv": "Me testtime uut programvare."
         }
       ],
       "comparison": [
         {
           "word": "probieren",
-          "meaning": "Δοκιμάστε / δοκιμάστε",
+          "meaning": "Proovima / maitsma",
           "example": "Probier mal die Suppe!"
         },
         {
           "word": "versuchen",
-          "meaning": "Δοκιμή / έλεγχος",
-          "example": "Ich versuche es."
+          "meaning": "Testlim / kontrolllim",
+          "example": "Wir testen die Software."
         },
         {
           "word": "prüfen",
-          "meaning": "Να προσπαθήσω",
-          "example": "Ich prüfe die Rechnung."
+          "meaning": "Üritama",
+          "example": "Ich versuche es."
         },
         {
           "word": "anprobieren",
-          "meaning": "Για έλεγχο",
-          "example": "Ich probiere die Jacke an."
+          "meaning": "Kontrolllim",
+          "example": "Ich prüfe die Rechnung."
         },
         {
-          "word": "Anprobieren",
-          "meaning": "Να δοκιμάσω",
+          "word": "Testen",
+          "meaning": "Selg prøveversjoner",
           "example": "Ich probiere die Jacke an."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: φαγητό → probieren = για γεύση. λογισμικό → testen = δοκιμάζω."
+        "text": "Atceries: ēdiens → probieren = nogaršot."
       },
       "important": [
-        "Probieren δεν είναι η κύρια λέξη για την επίσημη επιθεώρηση.",
-        "Το testen είναι πιο συστηματικό από το probieren.",
-        "Ο έλεγχος ενός εγγράφου ή τιμολογίου είναι συνήθως έλεγχος."
+        "probieren nav galvenais vārds oficiālai pārbaudei.",
+        "Dokumentu vai rēķinu pārbaudīt parasti ir prüfen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "probieren",
-            "prüfen"
+            "prüfen",
+            "testen"
           ],
           "purple": [
-            "izmēģināt",
-            "nogaršot",
-            "pārbaudīt"
+            "proovima",
+            "maitsma",
+            "kontrollima",
+            "Põhiidee"
           ],
           "yellow": [
-            "ēdienu",
-            "dzērienu",
-            "metodi",
-            "lietu"
+            "Põhiidee",
+            "yogist",
+            "metodost",
+            "asjast"
           ]
         },
         "examples": [
@@ -17861,10 +18014,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pagaršo"
+                "maitse"
               ],
               "yellow": [
-                "zupu"
+                "suppe"
               ]
             }
           },
@@ -17879,10 +18032,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nogaršot"
+                "maitsta"
               ],
               "yellow": [
-                "kūku"
+                "kooki"
               ]
             }
           },
@@ -17897,10 +18050,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "izmēģinām"
+                "provovime"
               ],
               "yellow": [
-                "metodi"
+                "metodt"
               ]
             }
           },
@@ -17915,10 +18068,28 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "pielaikot"
+                "kas"
               ],
               "yellow": [
-                "jaku"
+                "jakki"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "testen"
+              ],
+              "yellow": [
+                "Software"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "testtime"
+              ],
+              "yellow": [
+                "testtime"
               ]
             }
           }
@@ -17932,8 +18103,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "izmēģināt",
-                "nogaršot"
+                "proovima",
+                "maitsma"
               ]
             },
             "example": {
@@ -17944,18 +18115,19 @@ const A1_WORDS = [
           },
           {
             "word": {
-              "green": [
+              "blue": [
                 "versuchen"
               ]
             },
             "meaning": {
               "purple": [
-                "mēģināt"
+                "Testlim",
+                "kontrolllim"
               ]
             },
             "example": {
-              "green": [
-                "versuche"
+              "blue": [
+                "testen"
               ]
             }
           },
@@ -17967,12 +18139,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pārbaudīt"
+                "üritama"
               ]
             },
             "example": {
-              "red": [
-                "prüfe"
+              "green": [
+                "versuche"
               ]
             }
           },
@@ -17984,7 +18156,24 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pielaikot"
+                "Kontrolllim"
+              ]
+            },
+            "example": {
+              "red": [
+                "prüfe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Testen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Selg"
               ]
             },
             "example": {
@@ -18001,10 +18190,10 @@ const A1_WORDS = [
               "probieren"
             ],
             "yellow": [
-              "ēdiens"
+              "Atceries"
             ],
             "purple": [
-              "nogaršot"
+              "Atceries"
             ]
           }
         },
@@ -18014,15 +18203,15 @@ const A1_WORDS = [
               "probieren"
             ],
             "red": [
-              "pārbaudei"
+              "probieren"
             ]
           },
           {
             "red": [
-              "prüfen"
+              "Dokumentu"
             ],
             "purple": [
-              "pārbaudīt"
+              "Dokumentu"
             ]
           }
         ]
@@ -18033,114 +18222,114 @@ const A1_WORDS = [
     "de": "Problem",
     "de_article": "das",
     "de_plural": "die Probleme",
-    "lv": "Πρόβλημα",
+    "lv": "Problem",
     "level": "A1"
   },
   {
     "de": "Programm",
     "de_article": "das",
     "de_plural": "die Programme",
-    "lv": "Πρόγραμμα",
+    "lv": "Program",
     "level": "A1"
   },
   {
     "de": "Pullover",
     "de_article": "der",
     "de_plural": "die Pullover",
-    "lv": "Ζακέτα",
+    "lv": "Kampsun",
     "level": "A1"
   },
   {
     "de": "Punkt",
     "de_article": "der",
     "de_plural": "die Punkte",
-    "lv": "Σημείο",
+    "lv": "Punkt",
     "level": "A1"
   },
   {
     "de": "putzen",
-    "lv": "Να καθαρίσει",
+    "lv": "Puh-stammen",
     "level": "A1"
   },
   {
     "de": "Rad fahren",
-    "lv": "Να κάνω ποδήλατο",
+    "lv": "Jalgrattaga juidma",
     "level": "A1"
   },
   {
     "de": "Radiergummi",
     "de_article": "der",
     "de_plural": "die Radiergummis",
-    "lv": "Γόμα",
+    "lv": "Kustutuskumm",
     "level": "A1"
   },
   {
     "de": "rauchen",
-    "lv": "Να καπνίζει",
+    "lv": "Drakten setter",
     "level": "A1"
   },
   {
     "de": "rechts",
-    "lv": "Προς τα δεξιά • Καλύτερα",
+    "lv": "Paremale • Parem",
     "level": "A1"
   },
   {
     "de": "reden",
-    "lv": "Να μιλήσει",
+    "lv": "Pratsom",
     "level": "A1"
   },
   {
     "de": "Regen",
     "de_article": "der",
-    "lv": "Η βροχή",
+    "lv": "Hmm",
     "level": "A1"
   },
   {
     "de": "Regenschirm",
     "de_article": "der",
     "de_plural": "die Regenschirme",
-    "lv": "Μια ομπρέλα",
+    "lv": "Vihmavari",
     "level": "A1"
   },
   {
     "de": "regnen",
-    "lv": "Να βρέξει",
+    "lv": "Vihma sadama",
     "level": "A1"
   },
   {
     "de": "Reis",
     "de_article": "der",
-    "lv": "Ρύζι",
+    "lv": "Ris",
     "level": "A1",
     "study": {
       "id": "a1-reis",
       "layout": "standardStudy",
-      "translation": "Ρύζι",
-      "explanation": "Στα γερμανικά, η λέξη \"der Reis\" χρησιμοποιείται μόνο στον ενικό αριθμό, επομένως το ρήμα στην πρόταση πρέπει να είναι στον ενικό τύπο (για παράδειγμα, \"ist\", όχι \"sind\"). Στα εσθονικά το ίδιο λέγεται και στον ενικό «ρύζι».",
+      "translation": "Ris",
+      "explanation": "I Saksa keeles brukes ordet \"der Reis\" bare ainsuses, seepärt peab tegusõna lauses olema ainsuse vormis (for eksempel \"ist\", mitte \"sind\"). I Eesti keeles dyätakse sämää ainsuses \"riis\".",
       "examples": [
         {
           "de": "Der Reis ist fertig.",
-          "lv": "Το ρύζι είναι έτοιμο."
+          "lv": "Risen er klar."
         },
         {
           "de": "Ich esse Reis.",
-          "lv": "Τρώω ρύζι"
+          "lv": "Ma soen riisi."
         },
         {
           "de": "Kochst du Reis?",
-          "lv": "Μαγειρεύεις ρύζι"
+          "lv": "Hva er det?"
         },
         {
           "de": "Der Reis schmeckt gut.",
-          "lv": "Το ρύζι έχει καλή γεύση."
+          "lv": "Riis maisab hest."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: der Reis είναι ενικός στα γερμανικά, στα εσθονικά είναι επίσης ρύζι."
+        "text": "Atceries: der Reis ir vienskaitlis vāciski, bet latviski parasti — rīsi."
       },
       "important": [
-        "Der Reis — στα γερμανικά μόνο ενικό (Der Reis ist..., nicht *sind).",
-        "Στα εσθονικά, ο ενικός χρησιμοποιείται στη μετάφραση: το ρύζι είναι έτοιμο."
+        "der Reis — vācu valodā tikai vienskaitlis (Der Reis ist..., nicht *sind).",
+        "Latviski tulkojumā bieži lieto daudzskaitli: rīsi ir gatavi."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18149,8 +18338,8 @@ const A1_WORDS = [
             "ist"
           ],
           "purple": [
-            "vienskaitlī",
-            "rīsi"
+            "ainsus",
+            "riis"
           ],
           "red": [
             "sind"
@@ -18166,7 +18355,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rīsi"
+                "Risen"
               ]
             }
           },
@@ -18178,7 +18367,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rīsus"
+                "riisi"
               ]
             }
           }
@@ -18188,8 +18377,8 @@ const A1_WORDS = [
             "der Reis"
           ],
           "purple": [
-            "vienskaitlis",
-            "rīsi"
+            "Atceries",
+            "Reis"
           ]
         }
       }
@@ -18197,112 +18386,121 @@ const A1_WORDS = [
   },
   {
     "de": "richtig",
-    "lv": "Σωστός",
+    "lv": "Høyre",
     "level": "A1"
   },
   {
     "de": "rosa",
-    "lv": "Ροζ",
+    "lv": "Rose",
     "level": "A1"
   },
   {
     "de": "rot",
-    "lv": "Κόκκινος",
+    "lv": "Punane",
     "level": "A1"
   },
   {
     "de": "rufen",
-    "lv": "Να φωνάζει",
+    "lv": "Hüüdma",
     "level": "A1"
   },
   {
     "de": "rund",
-    "lv": "Γύρω",
+    "lv": "Ümmargune",
     "level": "A1"
   },
   {
     "de": "Rose",
     "de_article": "die",
     "de_plural": "die Rosen",
-    "lv": "Τριαντάφυλλο",
+    "lv": "Rose",
     "level": "A1"
   },
   {
     "de": "Sache",
     "de_article": "die",
     "de_plural": "die Sachen",
-    "lv": "Πράγμα",
+    "lv": "Asia",
     "level": "A1"
   },
   {
     "de": "Saft",
     "de_article": "der",
     "de_plural": "die Säfte",
-    "lv": "Χυμός",
+    "lv": "Mat",
     "level": "A1"
   },
   {
     "de": "sagen",
-    "lv": "Να πεις",
+    "lv": "Ütlema",
     "level": "A1",
     "study": {
       "id": "a1-sagen-study",
       "layout": "standardStudy",
-      "translation": "Να πεις",
+      "translation": "Ütlema",
       "explanation": [
-        "Κύρια ιδέα: Για να πείτε μια συγκεκριμένη σκέψη, λέξη ή πρόταση.",
-        "Sagen σημαίνει κυρίως: να πεις μια συγκεκριμένη σκέψη.",
-        "Συχνά περιγράφει: λέξεις/προτάσεις.",
-        "Το sagen χρησιμοποιείται για ένα συγκεκριμένο προφορικό κείμενο."
+        "Põhiidee: Öelda konkreetne mätts, sõna või lause.",
+        "Ordtaket betyr: kontskeet määkt üttama.",
+        "Sägeli speltab: sõu/lauseid.",
+        "Ordet brukes spesielt öeldud teksi kohta."
       ],
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "Τι είπατε"
+          "lv": "Hva sa seaside?"
         }
       ],
       "comparison": [
         {
           "word": "sagen",
-          "meaning": "Πω (συγκεκριμένο κείμενο)",
-          "example": "Was hast du gesagt? – Τι είπατε"
+          "meaning": "Ütlema (konkret tekst)",
+          "example": "Was hast du gesagt? – Hva sa seaside?"
         },
         {
           "word": "sprechen",
-          "meaning": "Να μιλήσει (γλώσσα, συνομιλία)",
-          "example": "Ich spreche Deutsch. – Μιλάω γερμανικά."
+          "meaning": "Kallema (keelt, westlema)",
+          "example": "Ich spreche Deutsch. – Jeg snakker saxa keelt."
         }
       ],
       "tip": [
-        "Sagen = λέγω",
-        "Χρησιμοποιήστε τη λέξη sagen όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "sagen = teikt",
+        "Izmanto sagen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Sagen = λέγω.",
-        "Να πω μια συγκεκριμένη σκέψη, λέξη ή πρόταση."
+        "sagen = pateikt.",
+        "Pateikt konkrētu domu, vārdu vai teikumu."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sagen"
+            "Põhiidee"
           ],
           "purple": [
-            "teikt"
+            "üttama"
           ],
           "green": [
-            "Teikt"
+            "üttama"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "Was",
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hva"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "teikt"
+              "sagen"
             ]
           }
         ],
@@ -18320,75 +18518,75 @@ const A1_WORDS = [
     "de": "Salat",
     "de_article": "der",
     "de_plural": "die Salate",
-    "lv": "Σαλάτα",
+    "lv": "Salat",
     "level": "A1"
   },
   {
     "de": "Salz",
     "de_article": "das",
     "de_plural": "die Salze",
-    "lv": "Άλας",
+    "lv": "Sol",
     "level": "A1"
   },
   {
     "de": "sauber",
-    "lv": "Καθαρός",
+    "lv": "Brumm",
     "level": "A1"
   },
   {
     "de": "Schaf",
     "de_article": "das",
     "de_plural": "die Schafe",
-    "lv": "Ένα πρόβατο",
+    "lv": "Lam",
     "level": "A1"
   },
   {
     "de": "schauen",
-    "lv": "Να δεις",
+    "lv": "Klokke",
     "level": "A1",
     "study": {
       "id": "a1-schauen-study",
       "layout": "standardStudy",
-      "translation": "Να δεις",
+      "translation": "Klokke",
       "explanation": [
-        "Κύρια ιδέα: Να κοιτάς ή να κοιτάς ενεργά.",
-        "Schauen σημαίνει κυρίως: κοιτάζω ενεργά.",
-        "Συχνά περιγράφει: δράση.",
-        "Schauen σημαίνει ενεργή παρακολούθηση."
+        "Hovedidé: Se aktivt på või pilku heita.",
+        "Schauen gejättä vaatama: aktiv vaatama.",
+        "Sagelie speltab: aktivitet.",
+        "Showet betyr aktivt vaatamist."
       ],
       "examples": [
         {
           "de": "Ich schaue fern.",
-          "lv": "Βλέπω τηλεόραση."
+          "lv": "Ma vaatan telerit."
         },
         {
           "de": "Wir schauen aus dem Fenster.",
-          "lv": "Κοιτάμε έξω από το παράθυρο."
+          "lv": "Me vaatame akanst velge."
         },
         {
           "de": "Ich schaue fern.",
-          "lv": "Βλέπω τηλεόραση"
+          "lv": "Ma vaatan telerit."
         }
       ],
       "comparison": [
         {
           "word": "schauen",
-          "meaning": "Για παρακολούθηση (ενεργά)",
-          "example": "Ich schaue aus dem Fenster. – Κοιτάζω έξω από το παράθυρο."
+          "meaning": "Vaatama (aktivt)",
+          "example": "Ich schaue aus dem Fenster. – Ma vaatan akanst velge."
         },
         {
           "word": "sehen",
-          "meaning": "Για να δεις (χωρίς πρόθεση)",
-          "example": "Ich sehe dich. – Σε βλέπω."
+          "meaning": "Hensikt",
+          "example": "Ich sehe dich. – Ma näen synd."
         }
       ],
       "tip": [
-        "Schauen = βλέπω",
-        "Χρησιμοποιήστε τη λέξη schauen όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "schauen = skatīties",
+        "Izmanto schauen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Schauen = βλέπω.",
-        "Για να κοιτάξετε ή να κοιτάξετε ενεργά."
+        "schauen = skatīties.",
+        "Aktīvi skatīties vai palūkoties."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18396,20 +18594,25 @@ const A1_WORDS = [
             "schauen"
           ],
           "purple": [
-            "skatīties"
+            "vaatama"
           ],
           "orange": [
-            "skatīties"
+            "vaatama"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
+                "schaue",
                 "schaue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vaatan"
+              ]
+            }
           },
           {
             "de": {
@@ -18420,23 +18623,28 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skatāmies"
+                "vaatame"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "schaue",
                 "schaue"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vaatan"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "skatīties"
+              "schauen"
             ]
           }
         ],
@@ -18452,85 +18660,85 @@ const A1_WORDS = [
   },
   {
     "de": "schicken",
-    "lv": "Στέλνω",
+    "lv": "Saatma",
     "level": "A1"
   },
   {
     "de": "schlafen",
-    "lv": "Να κοιμηθώ",
+    "lv": "Mage",
     "level": "A1"
   },
   {
     "de": "schlecht",
-    "lv": "Κακός",
+    "lv": "Halb",
     "level": "A1"
   },
   {
     "de": "Schlüssel",
     "de_article": "der",
     "de_plural": "die Schlüssel",
-    "lv": "Το κλειδί",
+    "lv": "Võti",
     "level": "A1"
   },
   {
     "de": "schmecken",
-    "lv": "Για γεύση",
+    "lv": "Maitsma",
     "level": "A1"
   },
   {
     "de": "schmutzig",
-    "lv": "Μαύρος",
+    "lv": "Må",
     "level": "A1"
   },
   {
     "de": "Schnee",
     "de_article": "der",
-    "lv": "Χιόνι",
+    "lv": "Lumi",
     "level": "A1"
   },
   {
     "de": "schneien",
-    "lv": "Χιόνι στο λιμάνι",
+    "lv": "Lund sadama",
     "level": "A1"
   },
   {
     "de": "schnell",
-    "lv": "Γρήγορα",
+    "lv": "Rask",
     "level": "A1"
   },
   {
     "de": "Schokolade",
     "de_article": "die",
-    "lv": "Σοκολάτα",
+    "lv": "Sjokolade",
     "level": "A1"
   },
   {
     "de": "schon",
-    "lv": "Ήδη",
+    "lv": "Juba",
     "level": "A1",
     "study": {
       "id": "a1-schon-study",
       "layout": "standardStudy",
-      "translation": "Ήδη",
+      "translation": "Juba",
       "explanation": [
-        "Κύρια ιδέα: Κάτι έχει ήδη συμβεί ή συμβαίνει ήδη.",
-        "Schon σημαίνει κυρίως: κάτι έχει ήδη συμβεί ή ισχύει.",
-        "Συχνά περιγράφει: ένα γεγονός που συνέβη ή μια υπάρχουσα κατάσταση.",
-        "Schon σημαίνει ήδη: κάτι έχει ήδη συμβεί ή ισχύει ήδη."
+        "Põhiidee: Miski on juba juhtunud või juba vaheggi.",
+        "Det betyr ingenting: det betyr ikke at det allerede eksisterer.",
+        "Sägeli sälästab: sälää fakti või ääää olekut.",
+        "Schon gejnajju juba: magidai on juba sikkem või juba gegait."
       ],
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "Είμαι ήδη σπίτι"
+          "lv": "Ma olen juba kodus."
         }
       ],
       "tip": [
-        "Κάτι έχει ήδη συμβεί ή ισχύει ήδη.",
-        "Χρησιμοποιήστε τη λέξη schon όταν το περιεχόμενο ταιριάζει με αυτή τη σημασία."
+        "Kaut kas jau ir noticis vai jau ir spēkā.",
+        "Izmanto schon, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Schon = ήδη.",
-        "Κάτι έχει ήδη συμβεί ή ισχύει ήδη."
+        "schon = jau.",
+        "Kaut kas jau ir noticis vai jau ir spēkā."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18539,7 +18747,7 @@ const A1_WORDS = [
             "schon"
           ],
           "purple": [
-            "jau"
+            "juba"
           ]
         },
         "examples": [
@@ -18552,7 +18760,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jau"
+                "juba"
               ]
             }
           }
@@ -18560,7 +18768,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "jau"
+              "Kaut"
             ]
           }
         ],
@@ -18576,121 +18784,121 @@ const A1_WORDS = [
   },
   {
     "de": "schön",
-    "lv": "Όμορφος",
+    "lv": "Illusjon",
     "level": "A1"
   },
   {
     "de": "Schrank",
     "de_article": "der",
     "de_plural": "die Schränke",
-    "lv": "Ντουλάπι",
+    "lv": "Kappe",
     "level": "A1"
   },
   {
     "de": "schreiben",
-    "lv": "Να γράψω",
+    "lv": "Skriv dem",
     "level": "A1"
   },
   {
     "de": "Schuh",
     "de_article": "der",
     "de_plural": "die Schuhe",
-    "lv": "Ένα παπούτσι",
+    "lv": "Konge",
     "level": "A1"
   },
   {
     "de": "Schule",
     "de_article": "die",
     "de_plural": "die Schulen",
-    "lv": "Σχολείο",
+    "lv": "Kool",
     "level": "A1"
   },
   {
     "de": "Schüler",
     "de_article": "der",
     "de_plural": "die Schüler",
-    "lv": "Φοιτητής",
+    "lv": "Õpilane",
     "level": "A1"
   },
   {
     "de": "schwarz",
-    "lv": "Μαύρος",
+    "lv": "Må",
     "level": "A1"
   },
   {
     "de": "Schwein",
     "de_article": "das",
     "de_plural": "die Schweine",
-    "lv": "Ένα γουρούνι",
+    "lv": "Sukk",
     "level": "A1"
   },
   {
     "de": "Schwester",
     "de_article": "die",
     "de_plural": "die Schwestern",
-    "lv": "Αδελφή",
+    "lv": "Õde",
     "level": "A1"
   },
   {
     "de": "schwimmen",
-    "lv": "Να κολυμπήσετε",
+    "lv": "Ujuma",
     "level": "A1",
     "study": {
       "id": "a1-schwimmen",
       "layout": "standardStudy",
-      "translation": "Να κολυμπήσετε",
+      "translation": "Ujuma",
       "explanation": [
-        "Κύρια ιδέα: schwimmen σημαίνει κολύμπι ως κίνηση ή άθλημα.",
-        "Το schwimmen χρησιμοποιείται όταν ένα άτομο κολυμπά στο νερό με κολυμβητική κίνηση.",
-        "Όταν πρόκειται για ξεκούραση ή μπάνιο στο νερό, το baden χρησιμοποιείται συχνά.",
-        "Στο επίπεδο Α1 είναι σημαντικό να διακρίνουμε: schwimmen = κολυμπώ, baden = λούζομαι."
+        "Hovedidé: schwimmen betyr ujuma kui geekkeit või sporti.",
+        "Svømming brukes, kui uzub ujub vees ujumisgechustega.",
+        "Kui jutt på vees puhkamisest või suplemisest, säili säili baden.",
+        "A1-nivå på essensiell eristada: schwimmen = ujuma, baden = suplema."
       ],
       "examples": [
         {
           "de": "Ich schwimme gern.",
-          "lv": "Μου αρέσει να κολυμπάω."
+          "lv": "Jeg liker ujuda."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Κολυμπάει πολύ καλά."
+          "lv": "Ta ujub vekt godt."
         },
         {
           "de": "Wir schwimmen im Schwimmbad.",
-          "lv": "Κολυμπάμε στην πισίνα."
+          "lv": "Me ujume bainsinis."
         },
         {
           "de": "Ich gehe baden.",
-          "lv": "Πάω να κολυμπήσω."
+          "lv": "Ma þen ujuma."
         }
       ],
       "comparison": [
         {
           "word": "schwimmen",
-          "meaning": "Κολύμπι ως άσκηση ή άθλημα",
+          "meaning": "Ujuma bevegelsene või spordina",
           "example": "Er schwimmt sehr gut."
         },
         {
           "word": "baden",
-          "meaning": "Να λούζομαι / να είμαι στο νερό",
+          "meaning": "Suplema / vees olema",
           "example": "Ich gehe baden."
         },
         {
           "word": "schwimmen gehen",
-          "meaning": "Πηγαίνετε για κολύμπι",
+          "meaning": "Gå bort",
           "example": "Wir gehen schwimmen."
         },
         {
           "word": "duschen",
-          "meaning": "Κάνε ένα ντους",
+          "meaning": "Duši all käima",
           "example": "Ich dusche morgens."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: κίνηση κολύμβησης → schwimmen • Διακοπές στο νερό → baden."
+        "text": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden."
       },
       "important": [
-        "Το schwimmen και το Baden δεν είναι το ίδιο.",
-        "Στα εσθονικά λέτε συχνά «να κολυμπήσω», αλλά στα γερμανικά πρέπει να ελέγξετε αν μιλάτε για κίνηση ή για μπάνιο."
+        "schwimmen un baden nav viens un tas pats.",
+        "Latviski bieži saka “peldēt”, bet vāciski jāskatās, vai tā ir kustība vai peldēšanās."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18698,12 +18906,12 @@ const A1_WORDS = [
             "schwimmen"
           ],
           "purple": [
-            "peldēt",
-            "peldēšanas kustībām"
+            "ujuma",
+            "ujumisgechustega"
           ],
           "red": [
             "baden",
-            "peldēties"
+            "suplema"
           ]
         },
         "examples": [
@@ -18715,7 +18923,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peldēt"
+                "ujuda"
               ]
             }
           },
@@ -18727,7 +18935,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peld"
+                "ujub"
               ]
             }
           },
@@ -18742,10 +18950,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "peldam"
+                "ujume"
               ],
               "green": [
-                "baseinā"
+                "bainsinis"
               ]
             }
           },
@@ -18757,7 +18965,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "peldēties"
+                "þen"
               ]
             }
           }
@@ -18771,9 +18979,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peldēt",
-                "kustība",
-                "sports"
+                "ujuma",
+                "Ujuma",
+                "spordina"
               ]
             },
             "example": {
@@ -18790,8 +18998,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "peldēties",
-                "ūdenī"
+                "suplema",
+                "vees"
               ]
             },
             "example": {
@@ -18808,7 +19016,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iet peldēt"
+                "bort"
               ]
             },
             "example": {
@@ -18825,7 +19033,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mazgāties dušā"
+                "duši all käima"
               ]
             },
             "example": {
@@ -18841,11 +19049,11 @@ const A1_WORDS = [
               "schwimmen"
             ],
             "purple": [
-              "peldēšanas kustība"
+              "Atceries"
             ],
             "red": [
               "baden",
-              "atpūta ūdenī"
+              "Atceries"
             ]
           }
         },
@@ -18860,13 +19068,13 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "peldēt"
+              "Latviski"
             ],
             "blue": [
-              "kustība"
+              "Latviski"
             ],
             "red": [
-              "peldēšanās"
+              "Latviski"
             ]
           }
         ]
@@ -18875,99 +19083,99 @@ const A1_WORDS = [
   },
   {
     "de": "sechs",
-    "lv": "Έξι",
+    "lv": "Kuss",
     "level": "A1"
   },
   {
     "de": "sechshundert",
-    "lv": "Εξακόσια",
+    "lv": "Kuussada",
     "level": "A1"
   },
   {
     "de": "sechste",
-    "lv": "Το έκτο",
+    "lv": "Kues",
     "level": "A1"
   },
   {
     "de": "sechzehn",
-    "lv": "Δεκαέξι",
+    "lv": "Kuusteist",
     "level": "A1"
   },
   {
     "de": "sechzehnte",
-    "lv": "Το δέκατο έκτο",
+    "lv": "Seksten",
     "level": "A1"
   },
   {
     "de": "sechzig",
-    "lv": "Εξήντα",
+    "lv": "Kuusyükmen",
     "level": "A1"
   },
   {
     "de": "sechzigste",
-    "lv": "Στη δεκαετία του εξήντα",
+    "lv": "Kuuedükümes",
     "level": "A1"
   },
   {
     "de": "sehen",
-    "lv": "Να δεις",
+    "lv": "Nagema",
     "level": "A1",
     "study": {
       "id": "a1-sehen",
       "layout": "standardStudy",
-      "translation": "Να δεις",
+      "translation": "Nagema",
       "explanation": [
-        "Κύρια ιδέα: sehen σημαίνει να βλέπεις με τα μάτια.",
-        "Όταν μιλάμε για αυτό που αντιλαμβάνονται τα μάτια, χρησιμοποιείται το sehen.",
-        "Η συνειδητή ματιά είναι συχνά schauen ή ansehen.",
-        "Μια πολύ συνηθισμένη φράση είναι το Ich sehe dich. = Σε βλέπω."
+        "Põhiidee: sehen gejättä sämänega nämä.",
+        "Kui jutt på sessat, mida sluds tajuvad, utakas sehen.",
+        "Teadlik vaatamine på saifili schauen voi ansehen.",
+        "Väga sage fraas på Ich sehe dich. = Ma näen synd."
       ],
       "examples": [
         {
           "de": "Ich sehe dich.",
-          "lv": "Σε βλέπω"
+          "lv": "Ma näen synd."
         },
         {
           "de": "Siehst du das Auto?",
-          "lv": "Βλέπεις αυτό το αυτοκίνητο"
+          "lv": "Kas sa ser du bilen?"
         },
         {
           "de": "Ich sehe nichts.",
-          "lv": "Δεν μπορώ να δω τίποτα."
+          "lv": "Jeg ser ingenting."
         },
         {
           "de": "Wir schauen einen Film.",
-          "lv": "Βλέπουμε μια ταινία."
+          "lv": "Me vaatame filmi."
         }
       ],
       "comparison": [
         {
           "word": "sehen",
-          "meaning": "Να δεις",
+          "meaning": "Nagema",
           "example": "Ich sehe dich."
         },
         {
           "word": "schauen",
-          "meaning": "Να δεις",
+          "meaning": "Klokke",
           "example": "Ich schaue auf das Bild."
         },
         {
           "word": "ansehen",
-          "meaning": "Να κοιτάζω / παρατηρώ",
+          "meaning": "Vaatama / vaatlema",
           "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
-          "meaning": "Να ακούσω",
+          "meaning": "Kuulma",
           "example": "Ich höre Musik."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: τα μάτια αντιλαμβάνονται → sehen • Κοιτάζω συνειδητά → schauen/ansehen."
+        "text": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen."
       },
       "important": [
-        "Το sehen δεν είναι το ίδιο με το anschauen.",
-        "Ich sehe dich = σε βλέπω· Ich schaue den Film = Βλέπω ταινία."
+        "sehen nav tas pats, kas anschauen.",
+        "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18976,8 +19184,8 @@ const A1_WORDS = [
             "Ich sehe"
           ],
           "purple": [
-            "redzēt",
-            "acīm"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "red": [
             "schauen",
@@ -18993,7 +19201,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "redzu"
+                "näen"
               ]
             }
           },
@@ -19005,7 +19213,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "redzi"
+                "Kas"
               ]
             }
           },
@@ -19017,7 +19225,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "neredzu"
+                "Jeg"
               ]
             }
           },
@@ -19029,7 +19237,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "skatāmies"
+                "vaatame"
               ]
             }
           }
@@ -19043,7 +19251,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "redzēt"
+                "nägema"
               ]
             },
             "example": {
@@ -19060,7 +19268,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "skatīties"
+                "Klokke"
               ]
             },
             "example": {
@@ -19077,8 +19285,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "apskatīt",
-                "skatīties"
+                "vaatama",
+                "vaatama"
               ]
             },
             "example": {
@@ -19096,7 +19304,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "dzirdēt"
+                "kuulma"
               ]
             },
             "example": {
@@ -19112,7 +19320,7 @@ const A1_WORDS = [
               "sehen"
             ],
             "purple": [
-              "acis uztver"
+              "Atceries"
             ],
             "red": [
               "schauen",
@@ -19134,11 +19342,11 @@ const A1_WORDS = [
               "sehe"
             ],
             "purple": [
-              "redzu"
+              "Ich"
             ],
             "red": [
               "schaue",
-              "skatos"
+              "Ich"
             ]
           }
         ]
@@ -19147,76 +19355,76 @@ const A1_WORDS = [
   },
   {
     "de": "sehr",
-    "lv": "Πολύ",
+    "lv": "Veie",
     "level": "A1"
   },
   {
     "de": "Seife",
     "de_article": "die",
     "de_plural": "die Seifen",
-    "lv": "Σαπούνι",
+    "lv": "Sive",
     "level": "A1"
   },
   {
     "de": "sein",
-    "lv": "Να είναι",
+    "lv": "Olema",
     "level": "A1",
     "study": {
       "id": "a1-sein",
       "layout": "standardStudy",
-      "translation": "Να είναι",
+      "translation": "Olema",
       "explanation": [
-        "Κύρια ιδέα: Ένας τοίχος σημαίνει ύπαρξη.",
-        "Το wall είναι ένα από τα πιο σημαντικά γερμανικά ρήματα.",
-        "Σε επίπεδο Α1, οι μορφές ich bin, du bist, er ist και wir sind είναι ιδιαίτερα σημαντικές.",
-        "Ο τοίχος χρησιμοποιείται επίσης σε πολλές προτάσεις με τοποθεσία ή χαρακτηριστικό."
+        "Hovedidé: sein betyr olemist.",
+        "Sein on üks tegumemaid saksa tegusvõu.",
+        "A1 nadelen on eriti pohgarad vormid ich bin, du bist, er ist ja wir synd.",
+        "Det brukes på mange måter."
       ],
       "examples": [
         {
           "de": "Ich bin hier.",
-          "lv": "Είμαι εδώ"
+          "lv": "Ma olen siin."
         },
         {
           "de": "Du bist müde.",
-          "lv": "Είσαι κουρασμένος"
+          "lv": "Sa oled väsinud."
         },
         {
           "de": "Er ist Lehrer.",
-          "lv": "Είναι δάσκαλος."
+          "lv": "Ta på læreren."
         },
         {
           "de": "Wir sind zu Hause.",
-          "lv": "Είμαστε στο σπίτι."
+          "lv": "Me oleme kodus."
         }
       ],
       "comparison": [
         {
           "word": "sein",
-          "meaning": "Να είναι",
+          "meaning": "Olema",
           "example": "Ich bin hier."
         },
         {
           "word": "haben",
-          "meaning": "Έχω",
+          "meaning": "Mul på",
           "example": "Ich habe Zeit."
         },
         {
           "word": "werden",
-          "meaning": "Να πάρει",
+          "meaning": "Saama",
           "example": "Ich werde müde."
         },
         {
           "word": "bleiben",
-          "meaning": "Να μείνεις",
+          "meaning": "Jääma",
           "example": "Ich bleibe hier."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: ich bin = είμαι • Du bist = είσαι."
+        "text": "Atceries: ich bin = es esmu; du bist = tu esi."
       },
       "important": [
-        "Οι μορφές sein πρέπει να μαθαίνονται χωριστά: bin, bist, ist, sind.",
-        "Το Ich bin είναι «είμαι», όχι «θα είμαι»."
+        "sein formas jāiemācās atsevišķi: bin, bist, ist, sind.",
+        "Ich bin ir “es esmu”, nevis “es būt”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19225,12 +19433,12 @@ const A1_WORDS = [
             "ich bin",
             "du bist",
             "er ist",
-            "wir sind"
+            "wir synd"
           ],
           "purple": [
-            "būt",
-            "atrašanās vietu",
-            "īpašību"
+            "olemist",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -19242,7 +19450,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "esmu"
+                "olen"
               ]
             }
           },
@@ -19254,7 +19462,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "esi"
+                "oled"
               ]
             }
           },
@@ -19266,7 +19474,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ir"
+                "læreren"
               ]
             }
           },
@@ -19278,7 +19486,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "esam"
+                "oleme"
               ]
             }
           }
@@ -19292,7 +19500,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "būt"
+                "olema"
               ]
             },
             "example": {
@@ -19309,7 +19517,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "man ir"
+                "Mul"
               ]
             },
             "example": {
@@ -19326,7 +19534,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kļūt"
+                "saama"
               ]
             },
             "example": {
@@ -19343,7 +19551,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "palikt"
+                "jääma"
               ]
             },
             "example": {
@@ -19360,8 +19568,8 @@ const A1_WORDS = [
               "du bist"
             ],
             "purple": [
-              "es esmu",
-              "tu esi"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -19379,10 +19587,10 @@ const A1_WORDS = [
               "Ich bin"
             ],
             "purple": [
-              "es esmu"
+              "Ich"
             ],
             "red": [
-              "es būt"
+              "Ich"
             ]
           }
         ]
@@ -19391,60 +19599,60 @@ const A1_WORDS = [
   },
   {
     "de": "seit",
-    "lv": "Από",
+    "lv": "Alates",
     "level": "A1"
   },
   {
     "de": "Seite",
     "de_article": "die",
     "de_plural": "die Seiten",
-    "lv": "Σελίδα • Πλευρά",
+    "lv": "Lehekülg • Külg",
     "level": "A1",
     "study": {
       "id": "a1-seite",
       "layout": "standardStudy",
-      "translation": "Σελίδα • Πλευρά",
+      "translation": "Lehekülg • Külg",
       "explanation": [
-        "Κύρια ιδέα: die Seite μπορεί να σημαίνει μια σελίδα ενός βιβλίου/εγγράφου ή την πλευρά/την άκρη κάποιου άλλου.",
-        "Σε βιβλίο, περιοδικό ή ιστότοπο die Seite = σελίδα (Seite 5 = 5η σελίδα).",
-        "Με τη χωρική έννοια, die Seite = πλευρά (auf der linken Seite = αριστερή πλευρά).",
-        "Σε μεταφορική έννοια, το die Seite μπορεί επίσης να σημαίνει μια πλευρά σε σύγκρουση ή σκέψεις (auf meiner Seite = στο πλευρό μου).",
-        "Το πλαίσιο (βιβλίο/ανάγνωση ή θέση/σχέσεις) υποδηλώνει το σωστό νόημα.",
-        "Στον πληθυντικό και για τις δύο έννοιες: die Seiten."
+        "Põhiidee: die Seite sämättä täätädä käää/dokumenti säää/serva.",
+        "Raamatus, jahavijas või vebilehel die Seite = kekejing (Seite 5 = 5. kekejing).",
+        "Ruumilises siimsuses die Seite = side (auf der linken Seite = venstre basseng).",
+        "Ülekantud säimsuses ök die Seite mitärada ka poolt conflictis või määktes (auf meiner Seite = minu säulet).",
+        "Kontekst (raamat/lugemine või asend/suhted) viser den riktige betydningen.",
+        "Mitmuses to betydninger: die Seiten."
       ],
       "examples": [
         {
           "de": "Schlagt die Seite zwanzig auf.",
-          "lv": "Γυρίστε στη σελίδα είκοσι."
+          "lv": "Avage kahegükmes side."
         },
         {
           "de": "Auf der linken Seite ist ein Park.",
-          "lv": "Υπάρχει ένα πάρκο στα αριστερά."
+          "lv": "Vasakul basseng på park."
         },
         {
           "de": "Die Webseite lädt langsam.",
-          "lv": "Ο ιστότοπος φορτώνει αργά."
+          "lv": "Veebileht laadib sakte."
         },
         {
           "de": "Er steht auf meiner Seite.",
-          "lv": "Είναι με το μέρος μου."
+          "lv": "Ta på min side."
         },
         {
           "de": "Das Buch hat 200 Seiten.",
-          "lv": "Το βιβλίο έχει 200 ​​σελίδες."
+          "lv": "Bok totalt på 200 sider."
         },
         {
           "de": "Auf der anderen Seite der Straße.",
-          "lv": "Στην άλλη πλευρά του δρόμου."
+          "lv": "Teisel basseng terrassert."
         }
       ],
       "tip": [
-        "Πρόκειται για ένα βιβλίο ή για ανάγνωση → σελίδα. Πρόκειται για θέση, κατεύθυνση ή σχέσεις → πλευρά.",
-        "Το Seite X είναι πάντα μια σελίδα σε ένα βιβλίο, όχι μια σελίδα."
+        "Runā par grāmatu vai lasīšanu → lappuse. Runā par novietojumu, virzienu vai attiecībām → puse.",
+        "Seite X grāmatā vienmēr ir lappuse, ne puse."
       ],
       "important": [
-        "Die Seite = σελίδα Ή πλευρά — το πλαίσιο αποφασίζει.",
-        "Στον πληθυντικό και για τις δύο έννοιες: die Seiten."
+        "die Seite = lappuse VAI puse — konteksts izšķir.",
+        "Daudzskaitlī abām nozīmēm: die Seiten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19453,8 +19661,8 @@ const A1_WORDS = [
             "Seite"
           ],
           "purple": [
-            "lappuse",
-            "puse"
+            "Põhiidee",
+            "pool"
           ]
         },
         "examples": [
@@ -19466,7 +19674,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lappusi"
+                "Avage"
               ]
             }
           },
@@ -19478,7 +19686,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pusē"
+                "Vasakul"
               ]
             }
           },
@@ -19490,7 +19698,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lappuse"
+                "veebileht"
               ]
             }
           },
@@ -19502,7 +19710,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pusē"
+                "min"
               ]
             }
           },
@@ -19514,7 +19722,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lappuses"
+                "Bok"
               ]
             }
           },
@@ -19526,7 +19734,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pusē"
+                "Teisel"
               ]
             }
           }
@@ -19534,10 +19742,10 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "lappuse"
+              "Runā"
             ],
             "green": [
-              "puse"
+              "Runā"
             ]
           },
           {
@@ -19545,15 +19753,15 @@ const A1_WORDS = [
               "Seite"
             ],
             "purple": [
-              "lappuse"
+              "Runā"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "lappuse",
-              "puse"
+              "die",
+              "die"
             ]
           },
           {
@@ -19569,75 +19777,75 @@ const A1_WORDS = [
     "de": "Sekunde",
     "de_article": "die",
     "de_plural": "die Sekunden",
-    "lv": "Ένα δευτερόλεπτο",
+    "lv": "Sekund",
     "level": "A1"
   },
   {
     "de": "September",
     "de_article": "der",
-    "lv": "Σεπτέμβριος",
+    "lv": "September",
     "level": "A1"
   },
   {
     "de": "sich",
-    "lv": "Τον εαυτό σας • Στον εαυτό σας",
+    "lv": "Slutt • Endale",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Τον εαυτό σας • Στον εαυτό σας",
+      "translation": "Slutt • Endale",
       "explanation": [
-        "Κύρια ιδέα: το sich δείχνει ότι η δράση αφορά τον ίδιο τον πράττοντα.",
-        "Στα εσθονικά, συχνά μεταφράζεται ως ο εαυτός σας ή στον εαυτό σας.",
-        "Σε ορισμένα γερμανικά ρήματα, το sich είναι υποχρεωτικό μέρος, όπως το sich waschen.",
-        "Σε επίπεδο Α1 είναι σημαντικό να σημειωθεί: ich wasche mich, er wäscht sich."
+        "Hovedideen: sich gejätt, et käivät vährt tegija enda kohta.",
+        "Eesti keeles tõlgitakse seda sävili kui või või endele.",
+        "Noen saksa tegusõna poulah på sich sich sicht osa, for eksempel sich waschen.",
+        "A1 nadelen på sässätt lätt panna: ich wasche mich, er wäscht sich."
       ],
       "examples": [
         {
           "de": "Er wäscht sich.",
-          "lv": "Πλένεται."
+          "lv": "Ta peseb slutt."
         },
         {
           "de": "Ich setze mich.",
-          "lv": "Κάθομαι."
+          "lv": "Ma istun maha."
         },
         {
           "de": "Sie freut sich.",
-          "lv": "Χαίρεται."
+          "lv": "Ta glede-fanen."
         },
         {
           "de": "Ich wasche das Auto.",
-          "lv": "Πλένω το αυτοκίνητο"
+          "lv": "Ma pesen bilen."
         }
       ],
       "comparison": [
         {
           "word": "sich",
-          "meaning": "Τον εαυτό σου / στον εαυτό σου",
+          "meaning": "Slutt / i seg selv",
           "example": "Er wäscht sich."
         },
         {
           "word": "mich",
-          "meaning": "Εμένα / τον εαυτό μου για ich",
+          "meaning": "Mind / svägä ich puluh",
           "example": "Ich wasche mich."
         },
         {
           "word": "dich",
-          "meaning": "Εσύ / ο εαυτός σου για du",
+          "meaning": "Sind / mägä du pulu",
           "example": "Du wäschst dich."
         },
         {
           "word": "ihn",
-          "meaning": "Αυτόν",
+          "meaning": "Teda",
           "example": "Ich sehe ihn."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: δράση στον εαυτό σας → sich/mich/dich."
+        "text": "Atceries: darbība uz sevi → sich/mich/dich."
       },
       "important": [
-        "Το sich δεν είναι ανεξάρτητο ουσιαστικό.",
-        "Αλλάζει ανάλογα με το πρόσωπο: ich → mich, du → dich, er/sie/es → sich."
+        "sich nav patstāvīgs lietvārds.",
+        "Tas mainās pēc personas: ich → mich, du → dich, er/sie/es → sich."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19647,9 +19855,9 @@ const A1_WORDS = [
             "er wäscht sich"
           ],
           "purple": [
-            "sevi",
-            "sev",
-            "pašu darītāju"
+            "end",
+            "endele",
+            "Hovedideen"
           ]
         },
         "examples": [
@@ -19661,7 +19869,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mazgājas"
+                "peseb"
               ]
             }
           },
@@ -19673,7 +19881,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apsēžos"
+                "istun"
               ]
             }
           },
@@ -19685,7 +19893,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "priecājas"
+                "glede"
               ]
             }
           },
@@ -19700,10 +19908,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "mazgāju"
+                "pesen"
               ],
               "yellow": [
-                "auto"
+                "pesen"
               ]
             }
           }
@@ -19717,8 +19925,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sevi",
-                "sev"
+                "Slutt",
+                "Slutt"
               ]
             },
             "example": {
@@ -19735,8 +19943,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mani",
-                "sevi"
+                "mind",
+                "mind"
               ]
             },
             "example": {
@@ -19753,8 +19961,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tevi",
-                "sevi"
+                "sind",
+                "sind"
               ]
             },
             "example": {
@@ -19771,7 +19979,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "viņu"
+                "teda"
               ]
             },
             "example": {
@@ -19787,7 +19995,7 @@ const A1_WORDS = [
               "sich"
             ],
             "purple": [
-              "darbība uz sevi"
+              "Atceries"
             ]
           }
         },
@@ -19797,7 +20005,7 @@ const A1_WORDS = [
               "sich"
             ],
             "red": [
-              "lietvārds"
+              "sich"
             ]
           },
           {
@@ -19815,51 +20023,51 @@ const A1_WORDS = [
   },
   {
     "de": "sicher",
-    "lv": "Βέβαιο • Σίγουρα",
+    "lv": "Kindle • Definitivt",
     "level": "A1",
     "study": {
       "id": "a1-sicher",
       "layout": "standardStudy",
-      "translation": "Βέβαιο • Σίγουρα",
+      "translation": "Kindle • Definitivt",
       "explanation": [
-        "Κύρια ιδέα: ως επίθετο, sicher σημαίνει σίγουρος, ως επίρρημα σημαίνει σίγουρος/πιθανώς.",
-        "Όταν μιλάμε για ένα μέρος, μια κατάσταση ή ένα άτομο, sicher = ασφαλές (ein sicherer Ort = ασφαλές μέρος).",
-        "Ως επιβεβαίωση ή πεποίθηση στην πρόταση sicher = σίγουρα/ασφαλώς (Das ist sicher wahr. = Είναι σίγουρα αλήθεια.).",
-        "Σίγουρος! ως ξεχωριστή απάντηση σημαίνει φυσικά!/μάλλον!"
+        "Põhiidee: sicher sichernä säätätsõnana kindel, mærsõnana äsätä ääää/küllap.",
+        "Kohast, sichtätst või täsätäst rääkides sicher = turvaline (ein sicherer Ort = turvaline koht).",
+        "Kinnitusena või veendumusena lauses sicher = sicher/muidugi (Das ist sicher wahr. = Se på sicher sicher.).",
+        "Sicher! eraldi opistorsena szättä säää!/küllap!"
       ],
       "examples": [
         {
           "de": "Ist das Wasser sicher?",
-          "lv": "Είναι το νερό ασφαλές • "
+          "lv": "Kas vesi on hútu?"
         },
         {
           "de": "Kommst du morgen? – Sicher!",
-          "lv": "Θα έρθεις αύριο • – σίγουρα!"
+          "lv": "Hva skal du ha? - sikkert!"
         },
         {
           "de": "Er ist sicher zu Hause.",
-          "lv": "Μάλλον είναι στο σπίτι."
+          "lv": "Ta på arvatavasti kodus."
         },
         {
           "de": "Das ist eine sichere Lösung.",
-          "lv": "Είναι μια σίγουρη λύση."
+          "lv": "Se på kindel løsning."
         },
         {
           "de": "Ich bin mir sicher.",
-          "lv": "Είμαι σίγουρος."
+          "lv": "Ma olen kindel."
         },
         {
           "de": "Fahr sicher!",
-          "lv": "Οδηγήστε με ασφάλεια!"
+          "lv": "Sõida skinn!"
         }
       ],
       "tip": [
-        "Σχετικά με ένα μέρος ή μια κατάσταση (ασφάλεια) → ασφαλές.",
-        "Ως πεποίθηση ή επιβεβαίωση σε μια πρόταση → σίγουρα/πιθανότατα."
+        "Par vietu vai situāciju (drošība) → drošs.",
+        "Kā pārliecība vai apstiprinājums teikumā → noteikti/droši vien."
       ],
       "important": [
-        "Sicher = σίγουρος (επίθετο) Ή σίγουρα/πιθανώς (επίρρημα).",
-        "Sich sicher sein = για να είμαι σίγουρος."
+        "sicher = drošs (īpašības vārds) VAI noteikti/droši vien (apstākļa vārds).",
+        "sich sicher sein = būt pārliecinātam."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19867,8 +20075,8 @@ const A1_WORDS = [
             "sicher"
           ],
           "purple": [
-            "drošs",
-            "noteikti"
+            "kindel",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -19880,7 +20088,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "drošs"
+                "kas"
               ]
             }
           },
@@ -19892,7 +20100,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noteikti"
+                "Hva"
               ]
             }
           },
@@ -19904,7 +20112,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "droši vien"
+                "arvatavasti"
               ]
             }
           },
@@ -19916,7 +20124,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "drošs"
+                "kindel"
               ]
             }
           },
@@ -19928,7 +20136,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pārliecināts"
+                "olen"
               ]
             }
           },
@@ -19940,7 +20148,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "droši"
+                "sõida"
               ]
             }
           }
@@ -19948,22 +20156,22 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "drošs"
+              "Par"
             ]
           },
           {
             "green": [
-              "noteikti",
-              "droši vien"
+              "Par",
+              "Par"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "drošs",
-              "noteikti",
-              "droši vien"
+              "sicher",
+              "sicher",
+              "sicher"
             ]
           },
           {
@@ -19977,58 +20185,57 @@ const A1_WORDS = [
   },
   {
     "de": "sie",
-    "lv": "Αυτοί / αυτοί",
+    "lv": "Nemad / nad",
     "level": "A1",
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "Αυτοί / αυτοί",
+      "translation": "Nemad / nad",
       "explanation": [
-        "Κύρια ιδέα: Πληθυντικός αριθμός — μιλάμε για πολλά άτομα. Το ρήμα τελειώνει σε -en: kochen, essen, gehen.",
-        "Sie σημαίνει κυρίως: μία γυναίκα.",
-        "Συχνά περιγράφει: ενικό ρήμα (-t).",
-        "Sie σημαίνει κυρίως: πολλά άτομα.",
-        "Συχνά περιγράφει: ρήμα πληθυντικού (-en).",
-        "Sie σημαίνει κυρίως: ευγενική προσφώνηση.",
-        "Συχνά περιγράφει: με υποχρεωτικό κεφαλαίο S.",
-        "Small sie σημαίνει αυτή όταν το ρήμα είναι ενικό (Sie kocht = μαγειρεύει)."
+        "Põhiidee: Mitmuse vorm — jutt på mitmest mitsöst. Tegusõna ender på -en: kochen, essen, gehen.",
+        "Sie jäyttä ääää: äää naine.",
+        "Sägeli ekpretab: tegusõna ainsuses (-t).",
+        "Sie jäytä säytä: mange mennesker.",
+        "Sageli ompretab: tegusõna mitmuses (-en).",
+        "Sie gejättä säytä: viisakas hättämine.",
+        "Sageligt säligtäb: säligtkult suure S-tähega.",
+        "Väike sie teeb teda, kui tegusõna på ainsuses (Sie kocht = tema teeb tebua)."
       ],
       "examples": [
         {
           "de": "Sie kochen.",
-          "lv": "Η Άννα μαγειρεύει. Το κάνει κάθε μέρα."
+          "lv": "Anna tea for å spise. Ta teab seda iga päv."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Η Μαρία είναι γιατρός. Εργάζεται σε νοσοκομείο."
+          "lv": "Maria på lege. Ta arbeidssykehuset."
         },
         {
           "de": "Sie isst.",
-          "lv": "Η Άννα και ο Παύλος μαγειρεύουν. Το κάνουν μαζί."
+          "lv": "Anna og Paul lager mat. Nad yayam seda koos."
         },
         {
           "de": "Sie kochen.",
-          "lv": "Τα παιδιά παίζουν στον κήπο. Παίζουν ποδόσφαιρο."
+          "lv": "Forfalt gyalavad aias. Nad gyalevad jalgpalli."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "Κυρία Κέλερ, σας αρέσει να μαγειρεύετε • "
+          "lv": "Fru Keller, kas te teete meelsasti kukka?"
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Κύριε Müller, είστε νέος εδώ • "
+          "lv": "Mr Müller, kas te olete siin uus?"
         }
       ],
       "tip": [
-        "Πληθυντικός αριθμός — μιλάμε για πολλά άτομα. Το ρήμα τελειώνει σε -en: kochen, essen, gehen.",
-        "Χρησιμοποιήστε τη λέξη sie όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
+        "Izmanto sie, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Στην αρχή μιας πρότασης, το sie γράφεται πάντα με κεφαλαίο — Sie — ανεξάρτητα από το νόημα. Επομένως, το νόημα (αυτός, αυτοί ή σε ευγενικό) πρέπει να καθορίζεται από τα συμφραζόμενα και τη μορφή του ρήματος, όχι από τη χρήση κεφαλαίων.",
-        "Η ευγενική διεύθυνση είναι πάντα με κεφαλαίο S: Sie, όχι sie.",
-        "Αυτός: sie kocht (ενικός). Αυτοί: sie kochen (πληθυντικός, οικείος). Εσείς: Sie kochen (πληθυντικός, ευγενικός).",
-        "Λάθος: sie kocht → Σωστό: Sie kocht (στην αρχή μιας πρότασης)",
-        "Λάθος: Sie kocht (που σημαίνει αυτοί) → Σωστό: Sie kochen"
+        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
+        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20037,96 +20244,119 @@ const A1_WORDS = [
             "kochen"
           ],
           "purple": [
-            "viņu",
-            "viņa"
+            "Põhiidee",
+            "tema"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Viņi"
-              ]
-            }
-          },
-          {
-            "de": {
+              "orange": [
+                "Sie"
+              ],
               "blue": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "viņa"
+                "Ta"
               ]
             }
           },
           {
             "de": {
+              "orange": [
+                "Sie"
+              ],
               "blue": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "viņa"
+                "Ta"
               ]
             }
           },
           {
             "de": {
+              "orange": [
+                "Sie"
+              ],
               "green": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "viņi"
+                "Nad"
               ]
             }
           },
           {
             "de": {
+              "orange": [
+                "Sie"
+              ],
               "green": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "viņi"
+                "Nad"
               ]
             }
           },
           {
             "de": {
+              "orange": [
+                "Sie"
+              ],
               "yellow": [
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "jūs"
+                "te"
+              ]
+            }
+          },
+          {
+            "de": {
+              "orange": [
+                "Sie"
+              ],
+              "yellow": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "te"
               ]
             }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Daudzskaitļa"
+            ]
+          }
         ],
         "important": [
           {
+            "blue": [
+              "Sie"
+            ],
             "green": [
-              "sie"
+              "Sie"
+            ],
+            "yellow": [
+              "Sie"
             ]
           }
         ]
@@ -20135,57 +20365,57 @@ const A1_WORDS = [
   },
   {
     "de": "Sie",
-    "lv": "Εσείς",
+    "lv": "Tei",
     "level": "A1",
     "study": {
       "id": "a1-sie-study-2",
       "layout": "standardStudy",
-      "translation": "Εσείς",
+      "translation": "Tei",
       "explanation": [
-        "Κύρια ιδέα: Ευγενική διεύθυνση — πάντα με κεφαλαίο S. Στα εσθονικά: εσύ. Συχνά με ρήμα πληθυντικού.",
-        "Sie σημαίνει κυρίως: μία γυναίκα.",
-        "Συχνά περιγράφει: ενικό ρήμα (-t).",
-        "Sie σημαίνει κυρίως: πολλά άτομα.",
-        "Συχνά περιγράφει: ρήμα πληθυντικού (-en).",
-        "Sie σημαίνει κυρίως: ευγενική προσφώνηση.",
-        "Συχνά περιγράφει: με υποχρεωτικό κεφαλαίο S.",
-        "Small sie σημαίνει αυτή όταν το ρήμα είναι ενικό (Sie kocht = μαγειρεύει)."
+        "Põhiidee: Viisakas höttmine — alati suure S-iga. Eesti keeles: teie. Sageli tegusõnaga mitmuses.",
+        "Sie jäyttä ääää: äää naine.",
+        "Sägeli ekpretab: tegusõna ainsuses (-t).",
+        "Sie jäytä säytä: mange mennesker.",
+        "Sageli ompretab: tegusõna mitmuses (-en).",
+        "Sie gejättä säytä: viisakas hättämine.",
+        "Sageligt säligtäb: säligtkult suure S-tähega.",
+        "Väike sie teeb teda, kui tegusõna på ainsuses (Sie kocht = tema teeb tebua)."
       ],
       "examples": [
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Μαγειρέψτε, παρακαλώ."
+          "lv": "Teie teete kunja, palun."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Μαγειρεύει."
+          "lv": "Ta te å spise."
         },
         {
           "de": "Sie isst.",
-          "lv": "Τρώει."
+          "lv": "Ta en lur."
         },
         {
           "de": "Sie kochen.",
-          "lv": "Μαγειρεύουν."
+          "lv": "De lager mat."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "Παίζουν ποδόσφαιρο."
+          "lv": "Nad gyalevad jalgpalli."
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Μαγειρέψτε παρακαλώ"
+          "lv": "Teie teete kunja, palun."
         }
       ],
       "tip": [
-        "Ευγενική διεύθυνση — πάντα με κεφαλαίο S. Στα εσθονικά: εσύ. Συχνά με ρήμα πληθυντικού.",
-        "Χρησιμοποιήστε τη λέξη Sie όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
+        "Izmanto Sie, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Ευγενική προσφώνηση πάντα με κεφαλαίο S: Sie, not sie.",
-        "Αυτός: Sie kocht. Αυτοί: sie kochen. Εσύ: Sie Kochen.",
-        "Λάθος: sie kocht → Σωστό: Sie kocht",
-        "Λάθος: Sie kocht (αυτοί) → Σωστό: Sie kochen"
+        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
+        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20194,7 +20424,7 @@ const A1_WORDS = [
             "kocht"
           ],
           "purple": [
-            "jūs"
+            "teie"
           ]
         },
         "examples": [
@@ -20207,45 +20437,9 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jūs"
+                "teie"
               ]
             }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
           },
           {
             "de": {
@@ -20256,7 +20450,59 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jūs"
+                "spise"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lur"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lager"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "teie"
               ]
             }
           }
@@ -20264,7 +20510,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "jūs"
+              "Pieklājības"
             ]
           }
         ],
@@ -20280,99 +20526,99 @@ const A1_WORDS = [
   },
   {
     "de": "siebenhundert",
-    "lv": "Επτακόσια",
+    "lv": "Seitsesada",
     "level": "A1"
   },
   {
     "de": "siebente",
-    "lv": "Το έβδομο",
+    "lv": "Seitsmes",
     "level": "A1"
   },
   {
     "de": "siebzehn",
-    "lv": "Δεκαεπτά",
+    "lv": "Seitseteist",
     "level": "A1"
   },
   {
     "de": "siebzehnte",
-    "lv": "Το δέκατο έβδομο",
+    "lv": "Sekstende",
     "level": "A1"
   },
   {
     "de": "siebzig",
-    "lv": "Εβδομήντα",
+    "lv": "Sytti",
     "level": "A1"
   },
   {
     "de": "siebzigste",
-    "lv": "Στην εβδομήντα",
+    "lv": "Seitsmegyüms",
     "level": "A1"
   },
   {
     "de": "singen",
-    "lv": "Να τραγουδήσει",
+    "lv": "Laulma",
     "level": "A1"
   },
   {
     "de": "sitzen",
-    "lv": "Να καθίσει",
+    "lv": "Isthuma",
     "level": "A1",
     "study": {
       "id": "a1-sitzen",
       "layout": "standardStudy",
-      "translation": "Να καθίσει",
+      "translation": "Isthuma",
       "explanation": [
-        "Κύρια ιδέα: sitzen σημαίνει να κάθεσαι.",
-        "Το sitzen χρησιμοποιείται για άτομο ή ζώο που κάθεται.",
-        "Μερικές φορές sitzen σημαίνει επίσης να βρίσκεσαι σε ένα συγκεκριμένο μέρος, αλλά σε επίπεδο Α1 το κύριο νόημα είναι να κάθεσαι.",
-        "Είναι σημαντικό να διακρίνουμε: sitzen = κάθομαι, stehen = στέκομαι, liegen = ξαπλώνω."
+        "Põhiidee: sitzen gejätt istumit.",
+        "Setene brukes til personer eller mennesker, kes istub.",
+        "Vahel gejätt sitzen ka kindlas kohas asumist, aga A1 nadelen på pääämä sämäts istuma.",
+        "Viktig på eristada: sitzen = istuma, stehen = seisma, liegen = lamama/pikali olema."
       ],
       "examples": [
         {
           "de": "Ich sitze am Tisch.",
-          "lv": "Κάθομαι στο τραπέζι."
+          "lv": "Ma istun laua taga."
         },
         {
           "de": "Die Kinder sitzen im Bus.",
-          "lv": "Τα παιδιά κάθονται στο λεωφορείο."
+          "lv": "Bortfalt oppbevart buss."
         },
         {
           "de": "Er steht an der Tür.",
-          "lv": "Στέκεται δίπλα στην πόρτα."
+          "lv": "Ta seisab ukse kureis."
         },
         {
           "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "Η γάτα είναι ξαπλωμένη στον καναπέ."
+          "lv": "Kass lamab diivanil."
         }
       ],
       "comparison": [
         {
           "word": "sitzen",
-          "meaning": "Να καθίσει",
+          "meaning": "Isthuma",
           "example": "Ich sitze am Tisch."
         },
         {
           "word": "stehen",
-          "meaning": "Να σταθείς",
+          "meaning": "Seismisk",
           "example": "Er steht an der Tür."
         },
         {
           "word": "liegen",
-          "meaning": "Ξαπλώνω / ξαπλώνω",
+          "meaning": "Lamama / pikali olema",
           "example": "Die Katze liegt dort."
         },
         {
           "word": "setzen",
-          "meaning": "Να κάτσω / να κάτσω",
+          "meaning": "Istet umma / istuma panema",
           "example": "Ich setze mich."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: sitting → sitzen • Όρθιος → stehen • Ξαπλωμένος → liegen."
+        "text": "Atceries: sēdus → sitzen; stāvus → stehen; guļus → liegen."
       },
       "important": [
-        "Sitzen υποδηλώνει την κατάσταση του «κάθονται».",
-        "Το να πάρεις θέση είναι sich setzen, όχι sitzen."
+        "sitzen rāda stāvokli “sēdēt”.",
+        "Apsēsties ir sich setzen, nevis sitzen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20380,8 +20626,8 @@ const A1_WORDS = [
             "sitzen"
           ],
           "purple": [
-            "sēdēt",
-            "sēž"
+            "istuma",
+            "istub"
           ],
           "red": [
             "stehen",
@@ -20397,7 +20643,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sēžu"
+                "istun"
               ]
             }
           },
@@ -20412,10 +20658,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sēž"
+                "Bortfalt"
               ],
               "green": [
-                "Bērni"
+                "Bortfalt"
               ]
             }
           },
@@ -20427,7 +20673,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "stāv"
+                "seisab"
               ]
             }
           },
@@ -20439,7 +20685,7 @@ const A1_WORDS = [
             },
             "lv": {
               "yellow": [
-                "guļ"
+                "lamab"
               ]
             }
           }
@@ -20453,7 +20699,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sēdēt"
+                "Isthuma"
               ]
             },
             "example": {
@@ -20470,7 +20716,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "stāvēt"
+                "Seismisk"
               ]
             },
             "example": {
@@ -20487,8 +20733,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "gulēt",
-                "guļus"
+                "lamama",
+                "pikali"
               ]
             },
             "example": {
@@ -20505,7 +20751,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "apsēsties"
+                "Istet"
               ]
             },
             "example": {
@@ -20521,7 +20767,7 @@ const A1_WORDS = [
               "sitzen"
             ],
             "purple": [
-              "sēdus"
+              "Atceries"
             ],
             "red": [
               "stehen"
@@ -20537,7 +20783,7 @@ const A1_WORDS = [
               "sitzen"
             ],
             "purple": [
-              "sēdēt"
+              "sitzen"
             ]
           },
           {
@@ -20554,95 +20800,95 @@ const A1_WORDS = [
   },
   {
     "de": "so",
-    "lv": "Έτσι",
+    "lv": "Nei",
     "level": "A1"
   },
   {
     "de": "Socke",
     "de_article": "die",
     "de_plural": "die Socken",
-    "lv": "Μια κάλτσα",
+    "lv": "Sokk",
     "level": "A1"
   },
   {
     "de": "Sofa",
     "de_article": "das",
     "de_plural": "die Sofas",
-    "lv": "Καναπές",
+    "lv": "Divaen",
     "level": "A1"
   },
   {
     "de": "sofort",
-    "lv": "Αμέσως",
+    "lv": "Koh",
     "level": "A1"
   },
   {
     "de": "Sohn",
     "de_article": "der",
     "de_plural": "die Söhne",
-    "lv": "Υιός",
+    "lv": "Dikt",
     "level": "A1"
   },
   {
     "de": "sollen",
-    "lv": "Πρέπει",
+    "lv": "Topper",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "Πρέπει",
+      "translation": "Topper",
       "explanation": [
-        "Κύρια ιδέα: sollen σημαίνει ότι κάποιος πρέπει να κάνει κάτι ή πρέπει να κάνει κάτι σύμφωνα με τις οδηγίες.",
-        "Το sollen χρησιμοποιείται συχνά όταν κάποιος άλλος σας λέει τι να κάνετε.",
-        "Δεν είναι τόσο δυνατό όσο το müssen.",
-        "Μια πολύ συνηθισμένη φράση είναι το Was soll ich machen • = Τι να κάνω • "
+        "Põhiidee: sollen tämä, et kaige peaks magida takama või peab magida takama juhise pohta.",
+        "Solen brukes ofte, kui kaige teine ​​​​ütleb, mida teha.",
+        "Se ei ole nii sövn kui müssen.",
+        "Väga sage fraas on Was soll ich machen? = Mida ma peaksin tema?"
       ],
       "examples": [
         {
           "de": "Was soll ich machen?",
-          "lv": "Τι πρέπει να κάνω"
+          "lv": "Hva er et topp tema?"
         },
         {
           "de": "Du sollst kommen.",
-          "lv": "Πρέπει να έρθεις"
+          "lv": "Sa pead tumela."
         },
         {
           "de": "Ich soll zu Hause bleiben.",
-          "lv": "Πρέπει να μείνω σπίτι"
+          "lv": "Ma pean koju jääma."
         },
         {
           "de": "Ich muss jetzt gehen.",
-          "lv": "Πρέπει να πάω τώρα"
+          "lv": "Ma pean nüüd minme."
         }
       ],
       "comparison": [
         {
           "word": "sollen",
-          "meaning": "Πρέπει / κάνει σύμφωνα με τις οδηγίες",
+          "meaning": "Topper / juhise tämä täma",
           "example": "Was soll ich machen?"
         },
         {
           "word": "müssen",
-          "meaning": "Απολύτως απαραίτητο",
+          "meaning": "Tingimata vaja olema",
           "example": "Ich muss gehen."
         },
         {
           "word": "können",
-          "meaning": "Να πάρει",
+          "meaning": "Saama",
           "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
-          "meaning": "Θέλουν να",
+          "meaning": "Tahtma",
           "example": "Ich will bleiben."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: κάποιος λέει τι πρέπει να γίνει → sollen • Υποχρεωτικό να κάνουμε → müssen."
+        "text": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen."
       },
       "important": [
-        "Ήταν soll ich machen • Είναι μια πολύ συνηθισμένη φράση.",
-        "Sollen και müssen δεν είναι ακριβώς το ίδιο."
+        "Was soll ich machen? ir ļoti bieža frāze.",
+        "sollen un müssen nav pilnīgi vienādi."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20651,9 +20897,9 @@ const A1_WORDS = [
             "Was soll ich machen"
           ],
           "purple": [
-            "vajadzētu",
-            "jādara",
-            "norādes"
+            "peaks",
+            "Põhiidee",
+            "juhise"
           ],
           "red": [
             "müssen"
@@ -20669,7 +20915,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ko man darīt"
+                "Hva"
               ]
             }
           },
@@ -20682,7 +20928,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jāatnāk"
+                "pead"
               ]
             }
           },
@@ -20695,7 +20941,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jāpaliek"
+                "pean"
               ]
             }
           },
@@ -20708,7 +20954,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "jāiet"
+                "pean"
               ]
             }
           }
@@ -20722,8 +20968,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vajadzētu",
-                "norādes"
+                "Topper",
+                "juhise"
               ]
             },
             "example": {
@@ -20740,7 +20986,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "obligāti"
+                "tingimata"
               ]
             },
             "example": {
@@ -20757,7 +21003,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "varēt"
+                "saama"
               ]
             },
             "example": {
@@ -20774,7 +21020,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "gribēt"
+                "tahtma"
               ]
             },
             "example": {
@@ -20790,11 +21036,11 @@ const A1_WORDS = [
               "sollen"
             ],
             "purple": [
-              "kāds saka"
+              "Atceries"
             ],
             "red": [
               "müssen",
-              "obligāti"
+              "Atceries"
             ]
           }
         },
@@ -20802,6 +21048,9 @@ const A1_WORDS = [
           {
             "blue": [
               "Was soll ich machen"
+            ],
+            "purple": [
+              "Was"
             ]
           },
           {
@@ -20820,131 +21069,131 @@ const A1_WORDS = [
     "de": "Sommer",
     "de_article": "der",
     "de_plural": "die Sommer",
-    "lv": "Καλοκαίρι",
+    "lv": "Suvi",
     "level": "A1"
   },
   {
     "de": "Samstag",
     "de_article": "der",
     "de_plural": "die Samstage",
-    "lv": "Σάββατο",
+    "lv": "Laupaev",
     "level": "A1"
   },
   {
     "de": "Sonne",
     "de_article": "die",
     "de_plural": "die Sonnen",
-    "lv": "Ο ήλιος",
+    "lv": "Gjedde",
     "level": "A1"
   },
   {
     "de": "Sonntag",
     "de_article": "der",
     "de_plural": "die Sonntage",
-    "lv": "Κυριακή",
+    "lv": "Pühapäev",
     "level": "A1"
   },
   {
     "de": "spät",
-    "lv": "Αργά",
+    "lv": "Hiline",
     "level": "A1"
   },
   {
     "de": "spazieren gehen",
-    "lv": "Πήγαινε μια βόλτα",
+    "lv": "Gå bort",
     "level": "A1"
   },
   {
     "de": "Spiel",
     "de_article": "das",
     "de_plural": "die Spiele",
-    "lv": "Παιχνίδι",
+    "lv": "Beløp",
     "level": "A1"
   },
   {
     "de": "spielen",
-    "lv": "Να παίξει",
+    "lv": "Mangima",
     "level": "A1"
   },
   {
     "de": "Spielzeug",
     "de_article": "das",
     "de_plural": "die Spielzeuge",
-    "lv": "Ένα παιχνίδι",
+    "lv": "Mänguasi",
     "level": "A1"
   },
   {
     "de": "Sprache",
     "de_article": "die",
     "de_plural": "die Sprachen",
-    "lv": "Γλώσσα",
+    "lv": "Kjøl",
     "level": "A1"
   },
   {
     "de": "stark",
-    "lv": "Ισχυρός",
+    "lv": "Sterk",
     "level": "A1"
   },
   {
     "de": "stehen",
-    "lv": "Να σταθείς",
+    "lv": "Seismisk",
     "level": "A1",
     "study": {
       "id": "a1-stehen",
       "layout": "standardStudy",
-      "translation": "Να σταθείς",
+      "translation": "Seismisk",
       "explanation": [
-        "Κύρια ιδέα: stehen σημαίνει να στέκεσαι ή να είσαι σε όρθια θέση.",
-        "Ανά άτομο, stehen σημαίνει στέκομαι.",
-        "Για ένα αντικείμενο, stehen σημαίνει ότι βρίσκεται όρθιο ή σε ένα συγκεκριμένο σημείο.",
-        "Είναι σημαντικό να διακρίνουμε: stehen = στέκομαι, sitzen = κάθομαι, liegen = ξαπλώνω."
+        "Põhiidee: stehen jähä seisma või põhsises asendis olema.",
+        "Inimese kohta betyr stehen seismist.",
+        "Eseme kohta betyr bena, et se asub põhë või kindlas kohas.",
+        "Viktig på eristada: stehen = seisma, sitzen = istuma, liegen = lamama/pikali olema."
       ],
       "examples": [
         {
           "de": "Ich stehe an der Tür.",
-          "lv": "Στέκομαι στην πόρτα."
+          "lv": "Ma seisan ukse kureis."
         },
         {
           "de": "Der Stuhl steht in der Küche.",
-          "lv": "Η καρέκλα στέκεται στην κουζίνα."
+          "lv": "Verktøy seisab küðüs."
         },
         {
           "de": "Er sitzt am Tisch.",
-          "lv": "Κάθεται στο τραπέζι."
+          "lv": "Ta istub laua ääres."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Το βιβλίο είναι στο τραπέζι."
+          "lv": "Raamat på laual."
         }
       ],
       "comparison": [
         {
           "word": "stehen",
-          "meaning": "Στέκομαι / είμαι όρθιος",
+          "meaning": "Seisma",
           "example": "Ich stehe hier."
         },
         {
           "word": "sitzen",
-          "meaning": "Να καθίσει",
+          "meaning": "Isthuma",
           "example": "Er sitzt am Tisch."
         },
         {
           "word": "liegen",
-          "meaning": "Ξαπλώνω / ξαπλώνω",
+          "meaning": "Lamama / pikali olema",
           "example": "Das Buch liegt dort."
         },
         {
           "word": "stellen",
-          "meaning": "Να σηκωθεί",
+          "meaning": "Püsti panema",
           "example": "Ich stelle die Flasche hin."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: όρθιος → stehen • Καθιστός → sitzen • Ξαπλωμένος → liegen."
+        "text": "Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen."
       },
       "important": [
-        "Stehen δείχνει το κράτος, όχι τη δράση \"να βάλει\".",
-        "Η ρύθμιση ενός αντικειμένου είναι stellen, όχι stehen."
+        "stehen rāda stāvokli, nevis darbību “nolikt”.",
+        "Nolikt priekšmetu stāvus ir stellen, nevis stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20952,8 +21201,8 @@ const A1_WORDS = [
             "stehen"
           ],
           "purple": [
-            "stāvēt",
-            "stāvus"
+            "seisma",
+            "Põhiidee"
           ],
           "red": [
             "sitzen",
@@ -20969,7 +21218,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "stāvu"
+                "seisan"
               ]
             }
           },
@@ -20984,10 +21233,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "stāv"
+                "seisab"
               ],
               "yellow": [
-                "Krēsls"
+                "Verktøy"
               ]
             }
           },
@@ -20999,7 +21248,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "sēž"
+                "istub"
               ]
             }
           },
@@ -21011,7 +21260,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "atrodas"
+                "raamat"
               ]
             }
           }
@@ -21025,8 +21274,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "stāvēt",
-                "stāvus"
+                "seisma",
+                "Seisma"
               ]
             },
             "example": {
@@ -21043,7 +21292,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sēdēt"
+                "Isthuma"
               ]
             },
             "example": {
@@ -21060,8 +21309,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "gulēt",
-                "guļus"
+                "lamama",
+                "pikali"
               ]
             },
             "example": {
@@ -21078,7 +21327,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nolikt stāvus"
+                "püsti panema"
               ]
             },
             "example": {
@@ -21094,7 +21343,7 @@ const A1_WORDS = [
               "stehen"
             ],
             "purple": [
-              "stāvus"
+              "Atceries"
             ],
             "red": [
               "sitzen"
@@ -21110,7 +21359,7 @@ const A1_WORDS = [
               "stehen"
             ],
             "purple": [
-              "stāvokli"
+              "stehen"
             ],
             "green": [
               "stehen"
@@ -21132,265 +21381,265 @@ const A1_WORDS = [
     "de": "Stern",
     "de_article": "der",
     "de_plural": "die Sterne",
-    "lv": "Αστέρι",
+    "lv": "Täht",
     "level": "A1"
   },
   {
     "de": "Straße",
     "de_article": "die",
     "de_plural": "die Straßen",
-    "lv": "Δρόμος",
+    "lv": "Gate",
     "level": "A1"
   },
   {
     "de": "Straßenbahn",
     "de_article": "die",
     "de_plural": "die Straßenbahnen",
-    "lv": "Τραμ",
+    "lv": "Trikk",
     "level": "A1"
   },
   {
     "de": "Stück",
     "de_article": "das",
     "de_plural": "die Stücke",
-    "lv": "Κομμάτι",
+    "lv": "Tukk",
     "level": "A1"
   },
   {
     "de": "Student",
     "de_article": "der",
     "de_plural": "die Studenten",
-    "lv": "Φοιτητής",
+    "lv": "Üliõpilane",
     "level": "A1"
   },
   {
     "de": "Stuhl",
     "de_article": "der",
     "de_plural": "die Stühle",
-    "lv": "Μια καρέκλα",
+    "lv": "Verktøy",
     "level": "A1"
   },
   {
     "de": "Stunde",
     "de_article": "die",
     "de_plural": "die Stunden",
-    "lv": "Μια ώρα",
+    "lv": "Tynn",
     "level": "A1"
   },
   {
     "de": "suchen",
-    "lv": "Να ψάξεις",
+    "lv": "Otsima",
     "level": "A1"
   },
   {
     "de": "süß",
-    "lv": "Γλυκός",
+    "lv": "Magus",
     "level": "A1"
   },
   {
     "de": "Tag",
     "de_article": "der",
     "de_plural": "die Tage",
-    "lv": "Ημέρα",
+    "lv": "Pave",
     "level": "A1"
   },
   {
     "de": "Tante",
     "de_article": "die",
     "de_plural": "die Tanten",
-    "lv": "Θεία",
+    "lv": "Taddy",
     "level": "A1"
   },
   {
     "de": "tanzen",
-    "lv": "Να χορέψεις",
+    "lv": "Tantsima",
     "level": "A1"
   },
   {
     "de": "Tasche",
     "de_article": "die",
     "de_plural": "die Taschen",
-    "lv": "Τσάντα",
+    "lv": "Kjegle",
     "level": "A1"
   },
   {
     "de": "Tasse",
     "de_article": "die",
     "de_plural": "die Tassen",
-    "lv": "Ένα φλιτζάνι",
+    "lv": "Pote",
     "level": "A1"
   },
   {
     "de": "Taxi",
     "de_article": "das",
     "de_plural": "die Taxis",
-    "lv": "Ένα ταξί",
+    "lv": "Taxi",
     "level": "A1"
   },
   {
     "de": "Tee",
     "de_article": "der",
     "de_plural": "die Tees",
-    "lv": "Κάνω",
+    "lv": "T-skjorte",
     "level": "A1"
   },
   {
     "de": "Telefon",
     "de_article": "das",
     "de_plural": "die Telefone",
-    "lv": "Τηλέφωνο",
+    "lv": "Telefon",
     "level": "A1"
   },
   {
     "de": "telefonieren",
-    "lv": "Να καλέσει στο τηλέφωνο",
+    "lv": "Telefonsamtaler",
     "level": "A1"
   },
   {
     "de": "Teller",
     "de_article": "der",
     "de_plural": "die Teller",
-    "lv": "Πλάκα",
+    "lv": "Taldrik",
     "level": "A1"
   },
   {
     "de": "teuer",
-    "lv": "Αγαπητός",
+    "lv": "Callis",
     "level": "A1"
   },
   {
     "de": "Text",
     "de_article": "der",
     "de_plural": "die Texte",
-    "lv": "Κείμενο",
+    "lv": "Tekst",
     "level": "A1"
   },
   {
     "de": "Tier",
     "de_article": "das",
     "de_plural": "die Tiere",
-    "lv": "Ένα ζώο",
+    "lv": "Vevstol",
     "level": "A1"
   },
   {
     "de": "Tisch",
     "de_article": "der",
     "de_plural": "die Tische",
-    "lv": "Τραπέζι",
+    "lv": "Laud",
     "level": "A1"
   },
   {
     "de": "Tochter",
     "de_article": "die",
     "de_plural": "die Töchter",
-    "lv": "Κόρη",
+    "lv": "Hoots",
     "level": "A1"
   },
   {
     "de": "Toilette",
     "de_article": "die",
     "de_plural": "die Toiletten",
-    "lv": "Τουαλέτα",
+    "lv": "Toalett",
     "level": "A1"
   },
   {
     "de": "Tomate",
     "de_article": "die",
     "de_plural": "die Tomaten",
-    "lv": "Ντομάτα",
+    "lv": "Tomat",
     "level": "A1"
   },
   {
     "de": "Treppe",
     "de_article": "die",
     "de_plural": "die Treppen",
-    "lv": "Σκάλες",
+    "lv": "Trapp",
     "level": "A1"
   },
   {
     "de": "trinken",
-    "lv": "Να πιει",
+    "lv": "Jooma",
     "level": "A1"
   },
   {
     "de": "tun",
-    "lv": "Να κάνουμε",
+    "lv": "Tegema",
     "level": "A1"
   },
   {
     "de": "Tür",
     "de_article": "die",
     "de_plural": "die Türen",
-    "lv": "Την πόρτα",
+    "lv": "Oj",
     "level": "A1"
   },
   {
     "de": "U-Bahn",
     "de_article": "die",
     "de_plural": "die U-Bahnen",
-    "lv": "Υπόγεια διάβαση",
+    "lv": "T-bane",
     "level": "A1"
   },
   {
     "de": "über",
-    "lv": "Παρόν • Περίπου",
+    "lv": "Kohal • Kohta",
     "level": "A1",
     "study": {
       "id": "a1-über",
       "layout": "standardStudy",
-      "translation": "Παρόν • Περίπου",
+      "translation": "Kohal • Kohta",
       "explanation": [
-        "Κύρια ιδέα: über σημαίνει πάνω ή για κάτι, ανάλογα με το πλαίσιο.",
-        "Όταν πρόκειται για τοποθεσία, το über συχνά σημαίνει εκεί.",
-        "Όταν μιλάμε για μια συζήτηση, κείμενο ή θέμα, über σημαίνει για κάτι.",
-        "Όταν πρόκειται για κίνηση, το über μπορεί να σημαίνει πέρα."
+        "Põhiidee: über jähä olenevalt kontekstist millegi kohal või millegi kohta.",
+        "Kui jutt på sässäst, über sesili kohal.",
+        "Kui jutt on temast, tekstist või teemast, gejää über millegi kohta.",
+        "Liikumise puhulu søk über tädurada üle."
       ],
       "examples": [
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "Η λάμπα κρέμεται πάνω από το τραπέζι."
+          "lv": "Lampe ripub laua kohal."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Μιλάμε για τον καιρό."
+          "lv": "Me søleme ilmast."
         },
         {
           "de": "Das Kind läuft über die Straße.",
-          "lv": "Ένα παιδί τρέχει απέναντι."
+          "lv": "Laps jookseb üle tüni."
         },
         {
           "de": "Ich freue mich über das Geschenk.",
-          "lv": "Είμαι ευχαριστημένος με τα παπούτσια."
+          "lv": "Ma kurüstan kingi üle."
         }
       ],
       "comparison": [
         {
           "word": "über",
-          "meaning": "Παρόν / περίπου / πέρα",
+          "meaning": "Kohal / kohta / üle",
           "example": "Wir sprechen über das Wetter."
         },
         {
           "word": "auf",
-          "meaning": "Στην επιφάνεια",
+          "meaning": "Pinnal",
           "example": "Das Buch liegt auf dem Tisch."
         },
         {
           "word": "unter",
-          "meaning": "Παρακάτω",
+          "meaning": "Alle",
           "example": "Die Tasche ist unter dem Tisch."
         },
         {
           "word": "von",
-          "meaning": "Από / σχετικά με κάποια πηγή",
+          "meaning": "-st / kohta mingist målst",
           "example": "Ich höre von dir."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: θέμα στη συζήτηση → über • Πάνω από τον πίνακα → über."
+        "text": "Atceries: tēma sarunā → über; virs galda → über."
       },
       "important": [
-        "Το über δεν εκφράζει απλώς ένα μέρος.",
-        "Sprechen über σημαίνει «μιλώ για κάτι»."
+        "über nav tikai vietas vārds.",
+        "sprechen über nozīmē “runāt par”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21398,14 +21647,14 @@ const A1_WORDS = [
             "über"
           ],
           "purple": [
-            "virs",
-            "par",
-            "pāri"
+            "kohal",
+            "Põhiidee",
+            "üle"
           ],
           "green": [
-            "sarunu",
-            "tekstu",
-            "tēmu"
+            "Põhiidee",
+            "tekstist",
+            "teemast"
           ]
         },
         "examples": [
@@ -21420,10 +21669,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "virs"
+                "kohal"
               ],
               "yellow": [
-                "galda"
+                "laua"
               ]
             }
           },
@@ -21438,10 +21687,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "par"
+                "søleme"
               ],
               "green": [
-                "laiku"
+                "søleme"
               ]
             }
           },
@@ -21456,10 +21705,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pāri"
+                "üle"
               ],
               "yellow": [
-                "ielai"
+                "Laps"
               ]
             }
           },
@@ -21474,10 +21723,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "par"
+                "kurüstan"
               ],
               "yellow": [
-                "dāvanu"
+                "kingi"
               ]
             }
           }
@@ -21491,9 +21740,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "virs",
-                "par",
-                "pāri"
+                "kohal",
+                "kohal",
+                "üle"
               ]
             },
             "example": {
@@ -21510,7 +21759,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz virsmas"
+                "pinnal"
               ]
             },
             "example": {
@@ -21527,7 +21776,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zem"
+                "all"
               ]
             },
             "example": {
@@ -21544,7 +21793,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "no"
+                "-st"
               ]
             },
             "example": {
@@ -21560,8 +21809,8 @@ const A1_WORDS = [
               "über"
             ],
             "purple": [
-              "tēma",
-              "virs"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -21571,7 +21820,7 @@ const A1_WORDS = [
               "über"
             ],
             "purple": [
-              "vietas vārds"
+              "über"
             ]
           },
           {
@@ -21579,7 +21828,7 @@ const A1_WORDS = [
               "sprechen über"
             ],
             "purple": [
-              "runāt par"
+              "sprechen"
             ]
           }
         ]
@@ -21588,74 +21837,74 @@ const A1_WORDS = [
   },
   {
     "de": "überall",
-    "lv": "Παντού",
+    "lv": "Köjjal",
     "level": "A1"
   },
   {
     "de": "übermorgen",
-    "lv": "Μεθαύριο",
+    "lv": "Ülehomme",
     "level": "A1"
   },
   {
     "de": "um",
-    "lv": "Περίπου • Στο",
+    "lv": "Umbes • Kell",
     "level": "A1",
     "study": {
       "id": "a1-um",
       "layout": "standardStudy",
-      "translation": "Περίπου • Στο",
+      "translation": "Umbes • Kell",
       "explanation": [
-        "Κύρια ιδέα: χμ πολύ συχνά σημαίνει ώρα για την ώρα ή γύρω/γύρω για το μέρος.",
-        "Για την ακριβή ώρα, um σημαίνει ρολόι.",
-        "Για το μέρος, um σημαίνει γύρω ή γύρω.",
-        "Στη φράση um ... zu, βοηθά στην έκφραση του σκοπού: αυτό."
+        "Põhiidee: um gejää väga säili aja puhul kell või koha puhul umber/ring.",
+        "Täpse kellaaja poulah um kell.",
+        "Koha puhulu betyr um umber voi ringi.",
+        "Fraasis um ... zu aibad see ekspreszada zakoki: et."
       ],
       "examples": [
         {
           "de": "Ich komme um acht Uhr.",
-          "lv": "Θα έρθω στις οκτώ."
+          "lv": "Ma tulen kell omme."
         },
         {
           "de": "Wir sitzen um den Tisch.",
-          "lv": "Καθόμαστε γύρω από το τραπέζι."
+          "lv": "Me istume laua umer."
         },
         {
           "de": "Er geht um die Ecke.",
-          "lv": "Πηγαίνει στη γωνία."
+          "lv": "Ta hjørnet."
         },
         {
           "de": "Ich lerne, um Deutsch zu sprechen.",
-          "lv": "Μαθαίνω να μιλάω γερμανικά."
+          "lv": "Ma úbin, et saksa keelt keelbät."
         }
       ],
       "comparison": [
         {
           "word": "um",
-          "meaning": "Στο / περίπου / αυτό",
+          "meaning": "Kell / umbe / et",
           "example": "Ich komme um acht."
         },
         {
           "word": "am",
-          "meaning": "Στις / στις",
+          "meaning": "Päeval",
           "example": "Am Montag komme ich."
         },
         {
           "word": "gegen",
-          "meaning": "Γύρω / κατά",
+          "meaning": "Kella paiku / vastu",
           "example": "Ich komme gegen acht."
         },
         {
           "word": "für",
-          "meaning": "Υπέρ / υπέρ του",
+          "meaning": "Jaoks / kasuks",
           "example": "Das ist für dich."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: um acht = οκτώ η ώρα."
+        "text": "Atceries: um acht = pulksten astoņos."
       },
       "important": [
-        "Χμ με το χρόνο είναι συνήθως «ρολόι».",
-        "Um ... zu συχνά σημαίνει \"έτσι ώστε ...\"."
+        "um ar laiku parasti ir “pulksten”.",
+        "um ... zu bieži nozīmē “lai ...”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21664,14 +21913,14 @@ const A1_WORDS = [
             "um ... zu"
           ],
           "purple": [
-            "pulksten",
-            "ap",
-            "apkārt",
-            "lai"
+            "kell",
+            "ümber",
+            "ümber",
+            "et"
           ],
           "green": [
-            "laiku",
-            "vietu"
+            "aja",
+            "koha"
           ]
         },
         "examples": [
@@ -21686,7 +21935,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pulksten astoņos"
+                "tulen"
               ]
             }
           },
@@ -21701,10 +21950,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ap"
+                "istume"
               ],
               "yellow": [
-                "galdu"
+                "laua"
               ]
             }
           },
@@ -21719,10 +21968,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ap"
+                "hjørnet"
               ],
               "yellow": [
-                "stūri"
+                "hjørnet"
               ]
             }
           },
@@ -21735,7 +21984,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lai"
+                "et"
               ]
             }
           }
@@ -21749,9 +21998,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pulksten",
-                "ap",
-                "lai"
+                "kell",
+                "umbe",
+                "et"
               ]
             },
             "example": {
@@ -21768,8 +22017,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "dienā",
-                "pie"
+                "päeval",
+                "Päeval"
               ]
             },
             "example": {
@@ -21786,8 +22035,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ap laiku",
-                "pret"
+                "kella paiku",
+                "vastu"
               ]
             },
             "example": {
@@ -21804,7 +22053,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "priekš"
+                "jaoks"
               ]
             },
             "example": {
@@ -21820,7 +22069,7 @@ const A1_WORDS = [
               "um acht"
             ],
             "purple": [
-              "pulksten astoņos"
+              "Atceries"
             ]
           }
         },
@@ -21830,7 +22079,7 @@ const A1_WORDS = [
               "um"
             ],
             "purple": [
-              "pulksten"
+              "laiku"
             ]
           },
           {
@@ -21838,7 +22087,7 @@ const A1_WORDS = [
               "um ... zu"
             ],
             "purple": [
-              "lai"
+              "bieži"
             ]
           }
         ]
@@ -21847,79 +22096,79 @@ const A1_WORDS = [
   },
   {
     "de": "und",
-    "lv": "Και",
+    "lv": "Ja",
     "level": "A1"
   },
   {
     "de": "unser",
-    "lv": "Μας",
+    "lv": "Mee",
     "level": "A1"
   },
   {
     "de": "unten",
-    "lv": "Παρακάτω",
+    "lv": "Alle",
     "level": "A1"
   },
   {
     "de": "unter",
-    "lv": "Παρακάτω",
+    "lv": "Alle",
     "level": "A1",
     "study": {
       "id": "a1-unter",
       "layout": "standardStudy",
-      "translation": "Παρακάτω",
+      "translation": "Alle",
       "explanation": [
-        "Κύρια ιδέα: unter σημαίνει κάτω ή μεταξύ, ανάλογα με το πλαίσιο.",
-        "Το Unter χρησιμοποιείται όταν κάτι βρίσκεται κάτω από τραπέζι, καρέκλα ή άλλο αντικείμενο.",
-        "Όταν μιλάμε για μια ομάδα ανθρώπων, το unter μπορεί να σημαίνει μεταξύ.",
-        "Είναι το αντίθετο της λέξης über, όταν μιλάμε για την κατεύθυνση πάνω/κάτω."
+        "Põhiidee: unter jähä olenevalt kontekstist alle või hav.",
+        "Kui miski asub laua, tooli või akko muu eseme all, utaka unter.",
+        "Kui jutt på sludno grupoist, säs unter tättärada hav.",
+        "Se på söna über vastand, kui jutt på tehnäst öläs/all."
       ],
       "examples": [
         {
           "de": "Die Tasche ist unter dem Tisch.",
-          "lv": "Η τσάντα είναι κάτω από το τραπέζι."
+          "lv": "Kott på laua alle."
         },
         {
           "de": "Die Katze liegt unter dem Stuhl.",
-          "lv": "Η γάτα είναι ξαπλωμένη κάτω από την καρέκλα."
+          "lv": "Kass lamab verktøy alle sammen."
         },
         {
           "de": "Unter Freunden sagt man das so.",
-          "lv": "Αυτό λένε μεταξύ φίλων."
+          "lv": "Sõprade hav diätakse nii."
         },
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "Η λάμπα κρέμεται πάνω από το τραπέζι."
+          "lv": "Lampe ripub laua kohal."
         }
       ],
       "comparison": [
         {
           "word": "unter",
-          "meaning": "Κάτω από / μεταξύ",
+          "meaning": "Alle / hav",
           "example": "Die Tasche ist unter dem Tisch."
         },
         {
           "word": "über",
-          "meaning": "Παρόν / περίπου",
+          "meaning": "Kohal / kohta",
           "example": "Die Lampe hängt über dem Tisch."
         },
         {
           "word": "zwischen",
-          "meaning": "Ανάμεσα σε δύο πράγματα",
+          "meaning": "Kahe asja vahal",
           "example": "Zwischen den Häusern."
         },
         {
           "word": "auf",
-          "meaning": "Στην επιφάνεια",
+          "meaning": "Pinnal",
           "example": "Auf dem Tisch."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: κάτω από τον πίνακα → unter dem Tisch."
+        "text": "Atceries: zem galda → unter dem Tisch."
       },
       "important": [
-        "Unter μπορεί επίσης να σημαίνει \"μεταξύ\", ειδικά για άτομα ή ομάδες.",
-        "Το unter και το über είναι συχνά αντίθετα ως προς τον τόπο."
+        "unter var nozīmēt arī “starp”, īpaši ar cilvēkiem vai grupām.",
+        "unter un über bieži ir pretstati vietas nozīmē."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21928,11 +22177,11 @@ const A1_WORDS = [
             "über"
           ],
           "purple": [
-            "zem",
-            "starp"
+            "all",
+            "Põhiidee"
           ],
           "green": [
-            "cilvēku grupu"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -21947,10 +22196,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "zem"
+                "all"
               ],
               "yellow": [
-                "galda"
+                "laua"
               ]
             }
           },
@@ -21965,10 +22214,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "zem"
+                "all"
               ],
               "yellow": [
-                "krēsla"
+                "Kass"
               ]
             }
           },
@@ -21983,10 +22232,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "starpā"
+                "Sõprade"
               ],
               "green": [
-                "Draugu"
+                "Sõprade"
               ]
             }
           },
@@ -22001,10 +22250,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "virs"
+                "kohal"
               ],
               "yellow": [
-                "galda"
+                "laua"
               ]
             }
           }
@@ -22018,8 +22267,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zem",
-                "starp"
+                "all",
+                "all"
               ]
             },
             "example": {
@@ -22036,8 +22285,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "virs",
-                "par"
+                "kohal",
+                "kohal"
               ]
             },
             "example": {
@@ -22054,7 +22303,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "starp"
+                "vahal"
               ]
             },
             "example": {
@@ -22071,7 +22320,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz virsmas"
+                "pinnal"
               ]
             },
             "example": {
@@ -22087,7 +22336,7 @@ const A1_WORDS = [
               "unter dem Tisch"
             ],
             "purple": [
-              "zem galda"
+              "Atceries"
             ]
           }
         },
@@ -22097,7 +22346,7 @@ const A1_WORDS = [
               "unter"
             ],
             "purple": [
-              "starp"
+              "unter"
             ]
           },
           {
@@ -22116,91 +22365,91 @@ const A1_WORDS = [
     "de": "Vase",
     "de_article": "die",
     "de_plural": "die Vasen",
-    "lv": "Ένα βάζο",
+    "lv": "Wow",
     "level": "A1"
   },
   {
     "de": "Vater",
     "de_article": "der",
     "de_plural": "die Väter",
-    "lv": "Πατέρας",
+    "lv": "Isa",
     "level": "A1"
   },
   {
     "de": "verheiratet",
-    "lv": "Παντρεμένος",
+    "lv": "Abielus",
     "level": "A1"
   },
   {
     "de": "verkaufen",
-    "lv": "Να πουλήσει",
+    "lv": "Müüma",
     "level": "A1"
   },
   {
     "de": "verlieren",
-    "lv": "Να χάσει",
+    "lv": "Kaotama",
     "level": "A1"
   },
   {
     "de": "verstehen",
-    "lv": "Να καταλάβεις",
+    "lv": "Forstå",
     "level": "A1",
     "study": {
       "id": "a1-verstehen",
       "layout": "standardStudy",
-      "translation": "Να καταλάβεις",
+      "translation": "Forstå",
       "explanation": [
-        "Κύρια ιδέα: verstehen σημαίνει κατανόηση.",
-        "Χρησιμοποιείται όταν κατανοείτε μια γλώσσα, ένα άτομο, ένα κείμενο ή μια κατάσταση.",
-        "Στα εσθονικά, οι λέξεις \"να ξέρεις\" ή \"να μπορείς\" συνήθως δεν χρειάζονται εδώ. αντιστοιχούν συχνότερα στη λέξη können.",
-        "Μια πολύ συνηθισμένη φράση είναι η Ich verstehe. = καταλαβαίνω."
+        "Põhiidee: verstehen gejätt tähämmist.",
+        "Det brukes når du forstår språket, personene, teksten eller situasjonen.",
+        "I Eesti keeles ei ole siin vanligvis vaja sõu “oskama” või “suutma” • Trenger sävää sõnale können oftere.",
+        "Väga sage fraas på Ich verstehe. = Ma saan aru."
       ],
       "examples": [
         {
           "de": "Ich verstehe dich.",
-          "lv": "Σε καταλαβαίνω."
+          "lv": "Ma saan sinust aru."
         },
         {
           "de": "Verstehst du Deutsch?",
-          "lv": "Καταλαβαίνεις γερμανικά"
+          "lv": "Kas sa saad saksa keelest aru?"
         },
         {
           "de": "Ich verstehe das nicht.",
-          "lv": "Δεν το καταλαβαινω."
+          "lv": "Ma ei saa sesset aru."
         },
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "Μπορώ να μιλήσω γερμανικά"
+          "lv": "Jeg kan ikke saksisk."
         }
       ],
       "comparison": [
         {
           "word": "verstehen",
-          "meaning": "Να καταλάβεις",
+          "meaning": "Forstå",
           "example": "Ich verstehe dich."
         },
         {
           "word": "können",
-          "meaning": "Παίρνω / μπορώ",
+          "meaning": "Saama / oskama",
           "example": "Ich kann schwimmen."
         },
         {
           "word": "wissen",
-          "meaning": "Να γνωρίζουν το γεγονός",
+          "meaning": "Vet faktisk ikke",
           "example": "Ich weiß das."
         },
         {
           "word": "kennen",
-          "meaning": "Να νιώθεις",
+          "meaning": "Tynning",
           "example": "Ich kenne ihn."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: κατανοήστε το κείμενο/πρόσωπο → verstehen • Να ξέρεις να κάνεις κάτι → können."
+        "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
       },
       "important": [
-        "Το verstehen δεν είναι ριζική λέξη που σημαίνει \"να γνωρίζω\".",
-        "Ich verstehe Deutsch σημαίνει «καταλαβαίνω γερμανικά»."
+        "verstehen nav galvenais vārds nozīmei “prast”.",
+        "Ich verstehe Deutsch nozīmē “es saprotu vāciski”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22209,13 +22458,13 @@ const A1_WORDS = [
             "Ich verstehe"
           ],
           "purple": [
-            "saprast",
-            "saproti"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "red": [
             "können",
-            "prast",
-            "mācēt"
+            "oskama",
+            "oskama"
           ]
         },
         "examples": [
@@ -22227,7 +22476,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saprotu"
+                "saan"
               ]
             }
           },
@@ -22239,7 +22488,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saproti"
+                "kas"
               ]
             }
           },
@@ -22251,7 +22500,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nesaprotu"
+                "saa"
               ]
             }
           },
@@ -22263,7 +22512,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "protu"
+                "Jeg"
               ]
             }
           }
@@ -22277,7 +22526,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saprast"
+                "Forstå"
               ]
             },
             "example": {
@@ -22294,8 +22543,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "varēt",
-                "prast"
+                "saama",
+                "oskama"
               ]
             },
             "example": {
@@ -22312,7 +22561,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zināt"
+                "Vet"
               ]
             },
             "example": {
@@ -22329,7 +22578,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pazīt"
+                "Tynning"
               ]
             },
             "example": {
@@ -22345,11 +22594,11 @@ const A1_WORDS = [
               "verstehen"
             ],
             "purple": [
-              "saprast"
+              "Atceries"
             ],
             "red": [
               "können",
-              "prast"
+              "Atceries"
             ]
           }
         },
@@ -22359,7 +22608,7 @@ const A1_WORDS = [
               "verstehen"
             ],
             "red": [
-              "prast"
+              "verstehen"
             ]
           },
           {
@@ -22367,7 +22616,7 @@ const A1_WORDS = [
               "verstehe"
             ],
             "purple": [
-              "saprotu"
+              "Ich"
             ]
           }
         ]
@@ -22376,151 +22625,151 @@ const A1_WORDS = [
   },
   {
     "de": "versuchen",
-    "lv": "Να προσπαθήσω",
+    "lv": "Üritama",
     "level": "A1"
   },
   {
     "de": "viel",
-    "lv": "Πολλά",
+    "lv": "Palju",
     "level": "A1"
   },
   {
     "de": "vielleicht",
-    "lv": "Ίσως",
+    "lv": "Kanskje",
     "level": "A1"
   },
   {
     "de": "vier",
-    "lv": "Τέσσερις",
+    "lv": "Neli",
     "level": "A1"
   },
   {
     "de": "vierhundert",
-    "lv": "Τετρακόσια",
+    "lv": "Nelisada",
     "level": "A1"
   },
   {
     "de": "vierte",
-    "lv": "Το τέταρτο",
+    "lv": "Neljas",
     "level": "A1"
   },
   {
     "de": "vierzehn",
-    "lv": "Δεκατέσσερα",
+    "lv": "Neliteist",
     "level": "A1"
   },
   {
     "de": "vierzehnte",
-    "lv": "Το δέκατο τέταρτο",
+    "lv": "Nittende",
     "level": "A1"
   },
   {
     "de": "vierzig",
-    "lv": "Σαράντα",
+    "lv": "Nitti tusen",
     "level": "A1"
   },
   {
     "de": "vierzigste",
-    "lv": "Στο τεσσαρακοστό",
+    "lv": "Neljagyümce",
     "level": "A1"
   },
   {
     "de": "Vogel",
     "de_article": "der",
     "de_plural": "die Vögel",
-    "lv": "Ένα πουλί",
+    "lv": "Linden",
     "level": "A1"
   },
   {
     "de": "voll",
-    "lv": "Γεμάτος",
+    "lv": "Shit",
     "level": "A1"
   },
   {
     "de": "vom",
-    "lv": "Δηλ",
+    "lv": "-st",
     "level": "A1",
     "study": {
       "id": "a1-vom",
       "layout": "standardStudy",
-      "translation": "Δηλ",
+      "translation": "-st",
       "explanation": [
-        "Το vom είναι σύντομο για την πρόθεση von και το άρθρο dem.",
-        "Πλήρης μορφή: von dem (Dative).",
-        "Χρησιμοποιείται με αρσενικά και ουδέτερα ουσιαστικά για να δείξει την προέλευση ή την κατεύθυνση μακριά από κάτι.",
-        "Απαντάει σε ερωτήσεις από ποιον • Ή που • ",
-        "Στην πράξη, το vom χρησιμοποιείται σχεδόν πάντα, όχι η πλήρης μορφή von dem."
+        "Vom on eessõna von ja artikli dem lühend.",
+        "Täisform: von dem (Dativ).",
+        "Kasutatakse mees- ja keskssoost nimsvøndega, kui tättätkse ervetää või suunda määski hösle.",
+        "Svarte du på spørsmålene fyr? hvor kysten?",
+        "Praktikas svetke geäms alati vom, mitte täësvormi von dem."
       ],
       "examples": [
         {
           "de": "Ich komme vom Bahnhof.",
-          "lv": "Έρχομαι από το σταθμό."
+          "lv": "Ma tulen jaamast."
         },
         {
           "de": "Das Geschenk ist vom Vater.",
-          "lv": "Είναι δώρο από τον μπαμπά."
+          "lv": "Kingitus på issalt."
         },
         {
           "de": "Er kommt vom Arzt.",
-          "lv": "Έρχεται από το γιατρό."
+          "lv": "Ta tulb arsti kuerest."
         },
         {
           "de": "Sie fährt vom Flughafen.",
-          "lv": "Οδηγεί από το αεροδρόμιο."
+          "lv": "Ta bussen til flyplassen."
         },
         {
           "de": "Das ist vom Markt.",
-          "lv": "Είναι από την αγορά."
+          "lv": "Se på tur."
         },
         {
           "de": "Wir kommen vom Fest.",
-          "lv": "Ερχόμαστε από ένα πάρτι."
+          "lv": "Me tuleme peolt."
         },
         {
           "de": "Er holt Milch vom Bauern.",
-          "lv": "Παίρνει γάλα από τον αγρότη."
+          "lv": "Ta temen piima talunikult."
         },
         {
           "de": "Die Nachricht ist vom Chef.",
-          "lv": "Το μήνυμα είναι από το αφεντικό."
+          "lv": "Sõnum på ülemuselt."
         }
       ],
       "comparison": [
         {
           "word": "vom",
-          "meaning": "-st (συγκεκριμένο πράγμα, Dative)",
-          "example": "vom Bahnhof – Από το σταθμό"
+          "meaning": "-st (betong asi, dativ)",
+          "example": "vom Bahnhof – Faktisk"
         },
         {
           "word": "von",
-          "meaning": "Από (γενικά)",
-          "example": "von mir – Από εμένα"
+          "meaning": "-st (uldiselt)",
+          "example": "von mir – Minutt"
         },
         {
           "word": "aus",
-          "meaning": "Από / καταγωγή",
-          "example": "aus Deutschland – Από τη Γερμανία"
+          "meaning": "Seest / opprinnelse",
+          "example": "aus Deutschland – Opprinnelse i Tyskland"
         },
         {
           "word": "ab",
-          "meaning": "Από (χρόνος/τόπος)",
-          "example": "ab Montag – Από Δευτέρα"
+          "meaning": "Alates (aeg/koht)",
+          "example": "ab Montag – God påske"
         },
         {
           "word": "zu",
-          "meaning": "Προς / προς (αντίθετη κατεύθυνση)",
-          "example": "zum Arzt – Στο γιατρο"
+          "meaning": "-sse / tøre (vastupidine suund)",
+          "example": "zum Arzt – Lege i medisin"
         }
       ],
       "tip": [
-        "Θυμηθείτε: von + dem → vom (Dative).",
-        "Στην καθομιλουμένη σχεδόν ποτέ κανείς δεν λέει von dem — χρησιμοποιείται vom."
+        "Atceries: von + dem → vom (kam?).",
+        "Sarunvalodā gandrīz nekad nesaka von dem — lieto vom."
       ],
       "important": [
-        "Vom = von dem, μόνο με αρσενικό ή ουδέτερο ουσιαστικό στη δοτική.",
-        "Υποδεικνύει την προέλευση, την πηγή ή την κατεύθυνση κάποιου συγκεκριμένου στοιχείου.",
-        "Για το γυναικείο φύλο: von der Mutter, όχι vom Mutter.",
-        "Μην συγχέετε με το aus (χώρα προέλευσης) ή το ab (σημείο εκκίνησης)."
+        "vom = von dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
+        "Norāda izcelsmi, avotu vai virzienu no kā konkrēta.",
+        "Sieviešu dzimtei: von der Mutter, nevis vom Mutter.",
+        "Nesajauc ar aus (izcelsme no valsts) vai ab (sākuma punkts)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22529,11 +22778,11 @@ const A1_WORDS = [
             "von dem"
           ],
           "purple": [
-            "no"
+            "vom"
           ],
           "green": [
-            "kam?",
-            "izcelsmi"
+            "vom",
+            "Vom"
           ]
         },
         "examples": [
@@ -22545,7 +22794,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no stacijas"
+                "jaamast"
               ]
             }
           },
@@ -22557,7 +22806,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no tēva"
+                "issalt"
               ]
             }
           },
@@ -22569,7 +22818,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no ārsta"
+                "arsti kuerest"
               ]
             }
           },
@@ -22581,7 +22830,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no lidostas"
+                "bussen"
               ]
             }
           },
@@ -22593,7 +22842,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no tirgus"
+                "tur"
               ]
             }
           },
@@ -22605,7 +22854,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no svinībām"
+                "peolt"
               ]
             }
           },
@@ -22617,7 +22866,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no zemnieka"
+                "talunikult"
               ]
             }
           },
@@ -22629,7 +22878,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "no priekšnieka"
+                "ülemuselt"
               ]
             }
           }
@@ -22643,7 +22892,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "no"
+                "-st"
               ]
             },
             "example": {
@@ -22660,7 +22909,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "no"
+                "-st"
               ]
             },
             "example": {
@@ -22677,7 +22926,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "no iekšienes"
+                "seest"
               ]
             },
             "example": {
@@ -22694,7 +22943,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sākot no"
+                "alates"
               ]
             },
             "example": {
@@ -22711,8 +22960,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "sse",
+                "sse"
               ]
             },
             "example": {
@@ -22726,6 +22975,9 @@ const A1_WORDS = [
           {
             "blue": [
               "vom"
+            ],
+            "purple": [
+              "Atceries"
             ]
           },
           {
@@ -22743,12 +22995,13 @@ const A1_WORDS = [
               "von dem"
             ],
             "green": [
-              "kam?"
+              "vom"
             ]
           },
           {
             "purple": [
-              "no kā"
+              "Norāda",
+              "Norāda"
             ]
           },
           {
@@ -22773,84 +23026,84 @@ const A1_WORDS = [
   },
   {
     "de": "von",
-    "lv": "Δηλ",
+    "lv": "-st",
     "level": "A1"
   },
   {
     "de": "vor",
-    "lv": "Πριν • Μπροστά από",
+    "lv": "Enne • Ees",
     "level": "A1",
     "study": {
       "id": "a1-vor",
       "layout": "standardStudy",
-      "translation": "Πριν • Μπροστά από",
+      "translation": "Enne • Ees",
       "explanation": [
-        "Κύρια ιδέα: vor σημαίνει πριν από τον χρόνο ή μπροστά από τον τόπο.",
-        "Όταν μιλάμε για χρόνο, vor σημαίνει πριν.",
-        "Όταν μιλάμε για τόπο, vor σημαίνει μπροστά ή στο.",
-        "Στην ώρα της ημέρας, vor σημαίνει «μέχρι», για παράδειγμα fünf vor acht."
+        "Põhiidee: vor tähää aja puhul enne või koha puhul ees.",
+        "Kui jutt on ajast, jähä vor enne.",
+        "Kui jutt på követs, gejää vor ees või kuräus.",
+        "Kellaajas betyr \"kuni\", for eksempel fünf vor åtte."
       ],
       "examples": [
         {
           "de": "Vor dem Essen wasche ich die Hände.",
-          "lv": "Πλένω τα χέρια μου πριν φάω."
+          "lv": "Enne sömist ma pesen käsi."
         },
         {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "Το αυτοκίνητο στέκεται μπροστά από το σπίτι."
+          "lv": "Auto seisab maja ees."
         },
         {
           "de": "Es ist fünf vor acht.",
-          "lv": "Είναι οκτώ σε πέντε λεπτά."
+          "lv": "På viie minuti päcket omme."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Μετά το φαγητό πάμε μια βόλτα."
+          "lv": "Etter sömmist ähme jalutama."
         }
       ],
       "comparison": [
         {
           "word": "vor",
-          "meaning": "Πριν / μπροστά από",
+          "meaning": "Enne / ees",
           "example": "Vor dem Essen..."
         },
         {
           "word": "nach",
-          "meaning": "Μετά / προς",
+          "meaning": "Etter / basseng",
           "example": "Nach dem Essen..."
         },
         {
           "word": "neben",
-          "meaning": "Δίπλα",
+          "meaning": "Körval",
           "example": "Neben dem Haus."
         },
         {
           "word": "hinter",
-          "meaning": "Πίσω",
+          "meaning": "Ta",
           "example": "Hinter dem Haus."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: στο χρόνο πριν, στον τόπο πριν από → vor."
+        "text": "Atceries: pirms laikā, priekšā vietā → vor."
       },
       "important": [
-        "Vor μπορεί να είναι και χρόνος και τόπος.",
-        "Vor dem Essen = πριν από το φαγητό • Vor dem Haus = μπροστά στο σπίτι."
+        "vor var būt gan laiks, gan vieta.",
+        "vor dem Essen = pirms ēšanas; vor dem Haus = mājas priekšā."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "vor",
-            "fünf vor acht"
+            "Põhiidee"
           ],
           "purple": [
-            "pirms",
-            "priekšā",
-            "līdz"
+            "enne",
+            "ees",
+            "kuni"
           ],
           "green": [
-            "laiku",
-            "vietu"
+            "ajast",
+            "koha"
           ]
         },
         "examples": [
@@ -22865,10 +23118,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pirms"
+                "enne"
               ],
               "yellow": [
-                "ēšanas"
+                "sömist"
               ]
             }
           },
@@ -22883,10 +23136,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "priekšā"
+                "ees"
               ],
               "yellow": [
-                "mājas"
+                "maja"
               ]
             }
           },
@@ -22898,7 +23151,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "bez piecām"
+                "viie"
               ]
             }
           },
@@ -22913,10 +23166,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Pēc"
+                "Etter"
               ],
               "yellow": [
-                "ēšanas"
+                "sömmist"
               ]
             }
           }
@@ -22930,8 +23183,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pirms",
-                "priekšā"
+                "enne",
+                "ees"
               ]
             },
             "example": {
@@ -22948,8 +23201,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pēc",
-                "uz"
+                "Etter",
+                "Etter"
               ]
             },
             "example": {
@@ -22966,7 +23219,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "blakus"
+                "kõrval"
               ]
             },
             "example": {
@@ -22981,11 +23234,7 @@ const A1_WORDS = [
                 "hinter"
               ]
             },
-            "meaning": {
-              "purple": [
-                "aiz"
-              ]
-            },
+            "meaning": {},
             "example": {
               "yellow": [
                 "Hinter"
@@ -22999,8 +23248,8 @@ const A1_WORDS = [
               "vor"
             ],
             "purple": [
-              "pirms",
-              "priekšā"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -23010,8 +23259,8 @@ const A1_WORDS = [
               "vor"
             ],
             "purple": [
-              "laiks",
-              "vieta"
+              "vor",
+              "vor"
             ]
           },
           {
@@ -23020,8 +23269,8 @@ const A1_WORDS = [
               "vor dem Haus"
             ],
             "purple": [
-              "pirms ēšanas",
-              "mājas priekšā"
+              "vor",
+              "vor"
             ]
           }
         ]
@@ -23032,98 +23281,98 @@ const A1_WORDS = [
     "de": "Vorname",
     "de_article": "der",
     "de_plural": "die Vornamen",
-    "lv": "Όνομα",
+    "lv": "Eesnimi",
     "level": "A1"
   },
   {
     "de": "Wald",
     "de_article": "der",
     "de_plural": "die Wälder",
-    "lv": "Δάσος",
+    "lv": "Mets",
     "level": "A1"
   },
   {
     "de": "Wand",
     "de_article": "die",
     "de_plural": "die Wände",
-    "lv": "Τον τοίχο",
+    "lv": "Sent",
     "level": "A1"
   },
   {
     "de": "wann",
-    "lv": "Όταν",
+    "lv": "Millal",
     "level": "A1"
   },
   {
     "de": "warm",
-    "lv": "Ζεστός",
+    "lv": "Soe",
     "level": "A1"
   },
   {
     "de": "warten",
-    "lv": "Να περιμένεις",
+    "lv": "Ootama",
     "level": "A1"
   },
   {
     "de": "warum",
-    "lv": "Γιατί",
+    "lv": "Blande",
     "level": "A1"
   },
   {
     "de": "was",
-    "lv": "Τι • Τι",
+    "lv": "Mis • Mida",
     "level": "A1",
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Τι • Τι",
+      "translation": "Mis • Mida",
       "explanation": [
-        "Κύρια ιδέα: τι είναι μια ερωτηματική λέξη για πράγματα και γεγονότα — στα εσθονικά είναι τι ή τι, ανάλογα με το μέρος της πρότασης.",
-        "Τι ρωτά για πράγματα, γεγονότα και γεγονότα, όχι για πρόσωπα.",
-        "Στα γερμανικά, το ήταν δεν αλλάζει σε περίπτωση - πάντα μοιάζει να ήταν.",
-        "Αν ήταν η βάση της πρότασης (θέμα), μεταφράζεται στα εσθονικά με τη λέξη mis (Was ist das? = Τι είναι • ).",
-        "Αν ήταν ο στόχος (αντικείμενο) του ρήματος, μεταφράζεται στα εσθονικά ως mida (Was machst du? = Τι κάνεις • ).",
-        "Οι άνθρωποι ερωτώνται με τη λέξη wer (ποιος/ποιος), δεν ήταν."
+        "Põhiidee: var på öklissõna sätää ja eräää kohta — eesti keeles på see mis või mida, olenevalt lauseosast.",
+        "Var öklisb säytä, äääää ja faktide kohta, mitte kasätide kohta.",
+        "Saksa keeles var käenetes ei muutuu — se käena alati välja nagu was.",
+        "Kui var på lause alus (fag), tõlgitakse se eesti keeles sõnaga mis (Was ist das? = Mis see on?).",
+        "Kui var på tegusõna sihitis (objekt), tõlgitakse see eesti keeles sõnaga mida (Was machst du? = Mida sa teed?).",
+        "Isikute kohta ösıtakse sönaga wer (kes/milline), mitte var."
       ],
       "examples": [
         {
           "de": "Was ist das?",
-          "lv": "Τι είναι αυτό • "
+          "lv": "Ser du på?"
         },
         {
           "de": "Was ist passiert?",
-          "lv": "Τι συνέβη • "
+          "lv": "Skjedde et uhell?"
         },
         {
           "de": "Was machst du gerade?",
-          "lv": "Τι κάνεις τώρα"
+          "lv": "Hva sa du nå?"
         },
         {
           "de": "Was möchtest du trinken?",
-          "lv": "Τι θα θέλατε να πιείτε • "
+          "lv": "Hva sa du?"
         },
         {
           "de": "Was bedeutet dieses Wort?",
-          "lv": "Τι σημαίνει αυτή η λέξη • "
+          "lv": "Hva mener du?"
         },
         {
           "de": "Was ist dein Lieblingsessen?",
-          "lv": "Ποιο είναι το αγαπημένο σου φαγητό • "
+          "lv": "Mis on sinu petitetoit?"
         },
         {
           "de": "Was hast du gesagt?",
-          "lv": "Τι είπατε"
+          "lv": "Hva sa seaside?"
         }
       ],
       "tip": [
-        "Το ήταν από μόνο του δεν αλλάζει — στα γερμανικά ήταν πάντα ήταν. στα εσθονικά, επιλέξτε ποιο ή ποιο σύμφωνα με το μέρος της πρότασης.",
-        "Γρήγορη συμβουλή: εάν η ερώτηση μπορεί να απαντηθεί με \"Είναι ...\", χρησιμοποιήστε τι • Αν η απάντηση έρχεται ως στόχος μετά το ρήμα, χρησιμοποιήστε τι."
+        "was pats nemainās — vācu valodā tas vienmēr ir was; latviski izvēlies kas vai ko pēc teikuma daļas.",
+        "Ātrs triks: ja uz jautājumu var atbildēt ar 'Tas ir ...', lieto kas; ja atbilde nāk pēc darbības vārda kā papildinājums, lieto ko."
       ],
       "important": [
-        "Τι ρωτά για πράγματα, γεγονότα και γεγονότα — ποτέ για πρόσωπα.",
-        "Οι άνθρωποι ερωτώνται με τη λέξη wer (ποιος/ποιος), δεν ήταν.",
-        "Was für (ein/eine) σημαίνει ποιο/τι και ρωτά για μια ποιότητα ή είδος (Was für ein Film ist das? = Τι είδους ταινία είναι αυτή • ).",
-        "Λάθος: Wer ist passiert • → Σωστό: Ήταν παθητικό • "
+        "was jautā par lietām, notikumiem un faktiem — nekad par personām.",
+        "Par personām jautā ar wer (kas/kurš), nevis was.",
+        "was für (ein/eine) nozīmē kāds/kas par un jautā par īpašību vai veidu (Was für ein Film ist das? = Kāda tā ir filma?).",
+        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23131,8 +23380,8 @@ const A1_WORDS = [
             "was"
           ],
           "purple": [
-            "kas",
-            "ko"
+            "mis",
+            "mida"
           ]
         },
         "examples": [
@@ -23144,7 +23393,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "Ser"
               ]
             }
           },
@@ -23156,7 +23405,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "Skjedde"
               ]
             }
           },
@@ -23168,7 +23417,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ko"
+                "Hva"
               ]
             }
           },
@@ -23180,7 +23429,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ko"
+                "Hva"
               ]
             }
           },
@@ -23192,7 +23441,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ko"
+                "Hva"
               ]
             }
           },
@@ -23204,7 +23453,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "Mis"
               ]
             }
           },
@@ -23216,7 +23465,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ko"
+                "Hva"
               ]
             }
           }
@@ -23229,8 +23478,8 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "kas",
-              "ko"
+              "was",
+              "was"
             ]
           }
         ],
@@ -23261,120 +23510,120 @@ const A1_WORDS = [
   },
   {
     "de": "waschen",
-    "lv": "Να πλύνετε",
+    "lv": "Dikt",
     "level": "A1"
   },
   {
     "de": "sich waschen",
-    "lv": "Να πλυθεί",
+    "lv": "Slutt pesema",
     "level": "A1"
   },
   {
     "de": "Weg",
     "de_article": "der",
     "de_plural": "die Wege",
-    "lv": "Κάνω",
+    "lv": "T-skjorte",
     "level": "A1"
   },
   {
     "de": "Weihnachten",
-    "lv": "Χριστούγεννα",
+    "lv": "Jõulud",
     "level": "A1"
   },
   {
     "de": "Wein",
     "de_article": "der",
     "de_plural": "die Weine",
-    "lv": "Κρασί",
+    "lv": "Blodåre",
     "level": "A1"
   },
   {
     "de": "weinen",
-    "lv": "Να κλάψει",
+    "lv": "Nutma",
     "level": "A1"
   },
   {
     "de": "weiß",
-    "lv": "Λευκό",
+    "lv": "Valg",
     "level": "A1"
   },
   {
     "de": "welcher",
-    "lv": "Ποια",
+    "lv": "Millie",
     "level": "A1"
   },
   {
     "de": "Welt",
     "de_article": "die",
     "de_plural": "die Welten",
-    "lv": "Τον κόσμο",
+    "lv": "Maailm",
     "level": "A1"
   },
   {
     "de": "wenig",
-    "lv": "Λίγο",
+    "lv": "Litt",
     "level": "A1"
   },
   {
     "de": "wenn",
-    "lv": "Αν (συνθήκη) • Αν (χρόνος)",
+    "lv": "Kui (tingimus) • Kui (aeg)",
     "level": "A1",
     "study": {
       "id": "a1-wenn",
       "layout": "standardStudy",
-      "translation": "Αν (συνθήκη) • Αν (χρόνος)",
+      "translation": "Kui (tingimus) • Kui (aeg)",
       "explanation": [
-        "Κύρια ιδέα: ανάλογα με την κατάσταση, το wenn εκφράζει μια συνθήκη ή επαναλαμβανόμενο χρόνο και αντιστοιχεί στη λέξη παρά στα εσθονικά.",
-        "Εάν είναι συνθήκη, μεταφράστε το με τη λέξη παρά.",
-        "Εάν πρόκειται για επαναλαμβανόμενο ή γενικό χρόνο, μεταφράζεται ως.",
-        "Μετά το wenn, το ρήμα συνήθως τελειώνει σε γερμανική πρόταση."
+        "Põhiidee: wenn expressb olenewalt sönale kui",
+        "Kui jutt på siniest, tõlgi see sõnaga kui.",
+        "Kui jutt på sämätäst või geäääst ajast, tõlgitakse se sõnaga kui.",
+        "Etter wenn på tegusõna saksa lauses sämälä säläs."
       ],
       "examples": [
         {
           "de": "Wenn du Zeit hast, komm vorbei.",
-          "lv": "Αν έχετε χρόνο, περάστε."
+          "lv": "Kui sul on aega, astu põhva."
         },
         {
           "de": "Wenn es regnet, bleibe ich zu Hause.",
-          "lv": "Αν βρέχει μένω σπίτι."
+          "lv": "Kui sajab, jään ma koju."
         },
         {
           "de": "Wenn ich müde bin, trinke ich Kaffee.",
-          "lv": "Όταν είμαι κουρασμένη, πίνω καφέ."
+          "lv": "Kui olen väsinud, joon kafha."
         },
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Δεν ξέρω αν θα έρθει."
+          "lv": "Ma ei te, kas ta tulb."
         }
       ],
       "comparison": [
         {
           "word": "wenn",
-          "meaning": "Αν (συνθήκη) / αν (χρόνος)",
+          "meaning": "Kui (tingimus) / kui (aeg)",
           "example": "Wenn du Zeit hast..."
         },
         {
           "word": "ob",
-          "meaning": "Είτε σε έμμεση ερώτηση",
+          "meaning": "Kas ervägeves määuses",
           "example": "Ich weiß nicht, ob..."
         },
         {
           "word": "wann",
-          "meaning": "Όταν στην ερώτηση",
+          "meaning": "Millal blir spurt",
           "example": "Wann kommst du?"
         },
         {
           "word": "weil",
-          "meaning": "Επειδή",
+          "meaning": "Siste",
           "example": "Ich bleibe, weil ich krank bin."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: κατάσταση → wenn • Η ερώτηση \"πότε • \" → θέλω."
+        "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
       },
       "important": [
-        "Το wenn και το wann δεν είναι το ίδιο.",
-        "Πότε έρχεσαι • Είναι ένα ερώτημα. Το Wenn du kommst... είναι συνθήκη/τεταμένη."
+        "wenn un wann nav viens un tas pats.",
+        "Wann kommst du? ir jautājums. Wenn du kommst... ir nosacījums/laiks."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23382,12 +23631,12 @@ const A1_WORDS = [
             "wenn"
           ],
           "purple": [
-            "ja",
-            "kad",
-            "nosacījumu"
+            "Põhiidee",
+            "Põhiidee",
+            "Põhiidee"
           ],
           "green": [
-            "beigās"
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -23400,7 +23649,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ja"
+                "kui"
               ]
             }
           },
@@ -23413,7 +23662,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ja"
+                "kui"
               ]
             }
           },
@@ -23426,7 +23675,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kad"
+                "kui"
               ]
             }
           },
@@ -23438,7 +23687,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "vai"
+                "kas"
               ]
             }
           }
@@ -23452,8 +23701,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ja",
-                "kad"
+                "kui",
+                "kui"
               ]
             },
             "example": {
@@ -23470,7 +23719,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai"
+                "kas"
               ]
             },
             "example": {
@@ -23487,7 +23736,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kad"
+                "millal"
               ]
             },
             "example": {
@@ -23504,7 +23753,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jo"
+                "Siste"
               ]
             },
             "example": {
@@ -23520,11 +23769,11 @@ const A1_WORDS = [
               "wenn"
             ],
             "purple": [
-              "nosacījums"
+              "Atceries"
             ],
             "yellow": [
               "wann",
-              "kad?"
+              "Atceries"
             ]
           }
         },
@@ -23551,59 +23800,59 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "Ποιος • Ποιος",
+    "lv": "Kes • Cumb",
     "level": "A1",
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "Ποιος • Ποιος",
+      "translation": "Kes • Cumb",
       "explanation": [
-        "Κύρια ιδέα: wer είναι μια ερωτηματική λέξη για την ταυτότητα ενός ατόμου — στα εσθονικά είναι ποιος.",
-        "Ρωτά για ανθρώπους, όχι πράγματα ή γεγονότα.",
-        "Τα πράγματα και τα γεγονότα ερωτώνται για ήταν, όχι για.",
-        "Στα γερμανικά, το wer είναι συνήθως η βάση μιας πρότασης (στην Ονομαστική) — Wer ist das • = Ποιος είναι • ",
-        "Όταν ρωτάτε ποιος ακριβώς από πολλά άτομα, το wer χρησιμοποιείται συχνά με τον von (wer von euch = ποιος από εσάς).",
-        "Το wer αλλάζει τη μορφή ανάλογα με την περίπτωση: wen (Κατηγορητικό), wem (Οδοτική), wessen (Γενικό) — στο επίπεδο Α1 είναι η μορφή wer που εμφανίζεται πιο συχνά."
+        "Põhiidee: wer on öklissõna tösö identityedi kohta — eesti keeles on see kes.",
+        "Wer öklisb köhta dönnen, mitte räyen või köhätä kohta.",
+        "Asjade ja svetde kohta östilakse was, mitte wer.",
+        "Wer on saksa keeles aussima lause alus (Nominativis) — Wer ist das? = Kes se på?",
+        "Kui öklised, kes mitsätt mitmest tössöst, sättää wer säili koos von (wer von euch = kes teist).",
+        "Wer mändas vormi kände pågåde: wen (akkusativ), wem (dativ), wessen (genitiv) — A1 sögelen seneb oftest bare vorm wer."
       ],
       "examples": [
         {
           "de": "Wer ist das?",
-          "lv": "Τι είναι αυτό • "
+          "lv": "Ser du på?"
         },
         {
           "de": "Wer bist du?",
-          "lv": "Ποιος είσαι εσύ"
+          "lv": "Er du gammel?"
         },
         {
           "de": "Wer kommt heute?",
-          "lv": "Ποιος έρχεται σήμερα • "
+          "lv": "Kes täna tulb?"
         },
         {
           "de": "Wer ist deine Lehrerin?",
-          "lv": "Ποιος είναι ο δάσκαλός σας • "
+          "lv": "Kes på læreren din?"
         },
         {
           "de": "Wer von euch spricht Deutsch?",
-          "lv": "Ποιος από εσάς μιλάει γερμανικά • "
+          "lv": "Kes teist pohler saksa kjelt?"
         },
         {
           "de": "Wer hat das gesagt?",
-          "lv": "Ποιος το είπε αυτό • "
+          "lv": "Kan du se det?"
         },
         {
           "de": "Wer möchte Kaffee?",
-          "lv": "Ποιος θέλει καφέ • "
+          "lv": "Hvem vil ha kaffe?"
         }
       ],
       "tip": [
-        "Το wer ρωτά για πρόσωπα (ποιος/ποιος) — was χρησιμοποιείται για πράγματα και γεγονότα.",
-        "Για να ζητήσετε μια επιλογή μεταξύ πολλών ατόμων, χρησιμοποιήστε το wer von... (ποιο από αυτά...)."
+        "wer jautā par personām (kas/kurš) — par lietām un notikumiem lieto was.",
+        "Lai jautātu par izvēli starp vairākiem cilvēkiem, izmanto wer von... (kurš no...)."
       ],
       "important": [
-        "Ρωτούσαμε μόνο για πρόσωπα, ποτέ για πράγματα.",
-        "Τα πράγματα και τα γεγονότα ερωτώνται για ήταν, όχι για.",
-        "Το wer αλλάζει μορφή ανάλογα με την περίπτωση: wen, wem, wessen — αλλά η βασική μορφή είναι wer.",
-        "Λάθος: Wer ist passiert • → Σωστό: Ήταν παθητικό • "
+        "wer jautā tikai par personām, nekad par lietām.",
+        "Par lietām un notikumiem jautā ar was, nevis wer.",
+        "wer maina formu pēc locījuma: wen, wem, wessen — bet pamatforma ir wer.",
+        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23611,8 +23860,8 @@ const A1_WORDS = [
             "wer"
           ],
           "purple": [
-            "kas",
-            "kurš"
+            "Põhiidee",
+            "Põhiidee"
           ],
           "green": [
             "was"
@@ -23627,7 +23876,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "Ser"
               ]
             }
           },
@@ -23639,7 +23888,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "gammel"
               ]
             }
           },
@@ -23651,7 +23900,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "Kes"
               ]
             }
           },
@@ -23663,7 +23912,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "Kes"
               ]
             }
           },
@@ -23675,7 +23924,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kurš"
+                "Kes"
               ]
             }
           },
@@ -23687,7 +23936,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "Kan"
               ]
             }
           },
@@ -23699,7 +23948,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kurš"
+                "Hvem"
               ]
             }
           }
@@ -23718,7 +23967,7 @@ const A1_WORDS = [
               "wer von"
             ],
             "purple": [
-              "kurš no"
+              "wer"
             ]
           }
         ],
@@ -23755,64 +24004,64 @@ const A1_WORDS = [
   },
   {
     "de": "werden",
-    "lv": "Να πάρει",
+    "lv": "Saama",
     "level": "A1",
     "study": {
       "id": "a1-werden",
       "layout": "standardStudy",
-      "translation": "Να πάρει",
+      "translation": "Saama",
       "explanation": [
-        "Κύρια ιδέα: werden συνήθως σημαίνει να γίνεις σε επίπεδο Α1.",
-        "Χρησιμοποιείται όταν κάτι αλλάζει ή γίνεται διαφορετικό.",
-        "Αργότερα στα γερμανικά, το werden χρησιμοποιείται επίσης για μελλοντικό και παθητικό.",
-        "Σε επίπεδο Α1, η πιο σημαντική φράση είναι Ich werde müde. = κουράζομαι."
+        "Hovedidé: werden geschäften på A1-nivå oftest det samme.",
+        "Seda brukes, kui miski või või saab teistdualheks.",
+        "Hiljem brukes i saksa keeles werden ka svojemje ja passiivi fågs.",
+        "A1 nivå på den viktigste frasen Ich werde müde. = Ma jään väsinuks."
       ],
       "examples": [
         {
           "de": "Ich werde müde.",
-          "lv": "Κουράζομαι."
+          "lv": "Ma jään väsinuks."
         },
         {
           "de": "Es wird kalt.",
-          "lv": "Κρυώνει."
+          "lv": "Nærbilde."
         },
         {
           "de": "Sie wird Ärztin.",
-          "lv": "Θα γίνει γιατρός."
+          "lv": "Ta saab arstiks."
         },
         {
           "de": "Ich bin müde.",
-          "lv": "Είμαι κουρασμένος"
+          "lv": "Ma olen väsinud."
         }
       ],
       "comparison": [
         {
           "word": "werden",
-          "meaning": "Να πάρει",
+          "meaning": "Saama",
           "example": "Ich werde müde."
         },
         {
           "word": "sein",
-          "meaning": "Να είναι",
+          "meaning": "Olema",
           "example": "Ich bin müde."
         },
         {
           "word": "bleiben",
-          "meaning": "Να μείνεις",
+          "meaning": "Jääma",
           "example": "Ich bleibe hier."
         },
         {
           "word": "machen",
-          "meaning": "Να φτιάξω / ετοιμάζω",
+          "meaning": "Tegema / virittama",
           "example": "Ich mache das."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: η αλλαγή/κατάσταση γίνεται διαφορετική → werden."
+        "text": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden."
       },
       "important": [
-        "Το werden δεν είναι το ίδιο με τον τοίχο.",
-        "Ich werde müde = κουράζομαι· Ich bin müde = κουράζομαι."
+        "werden nav tas pats, kas sein.",
+        "Ich werde müde = es kļūstu noguris; Ich bin müde = es esmu noguris."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23821,9 +24070,9 @@ const A1_WORDS = [
             "Ich werde"
           ],
           "purple": [
-            "kļūt",
-            "mainās",
-            "kļūst"
+            "samme",
+            "Hovedidé",
+            "Hovedidé"
           ]
         },
         "examples": [
@@ -23835,7 +24084,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kļūstu"
+                "jään"
               ]
             }
           },
@@ -23847,7 +24096,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kļūst"
+                "Nærbilde"
               ]
             }
           },
@@ -23859,7 +24108,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kļūst"
+                "saab"
               ]
             }
           },
@@ -23871,7 +24120,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "esmu"
+                "olen"
               ]
             }
           }
@@ -23885,7 +24134,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "kļūt"
+                "saama"
               ]
             },
             "example": {
@@ -23902,7 +24151,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "būt"
+                "olema"
               ]
             },
             "example": {
@@ -23919,7 +24168,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "palikt"
+                "jääma"
               ]
             },
             "example": {
@@ -23936,8 +24185,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "darīt",
-                "taisīt"
+                "tegema",
+                "tegema"
               ]
             },
             "example": {
@@ -23953,8 +24202,8 @@ const A1_WORDS = [
               "werden"
             ],
             "purple": [
-              "izmaiņa",
-              "kļūst"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -23972,11 +24221,11 @@ const A1_WORDS = [
               "werde"
             ],
             "purple": [
-              "kļūstu"
+              "Ich"
             ],
             "red": [
               "bin",
-              "esmu"
+              "Ich"
             ]
           }
         ]
@@ -23986,74 +24235,74 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "lv": "Καιρός",
+    "lv": "Ilm (luftmastikk)",
     "level": "A1",
     "study": {
       "id": "a1-wetter",
       "layout": "standardStudy",
-      "translation": "Καιρός",
+      "translation": "Ilm (luftmastikk)",
       "explanation": [
-        "Κύρια ιδέα: das Wetter σημαίνει καιρός — ηλιόλουστος, βροχερός, κρύος ή ζεστός.",
-        "Η εσθονική λέξη \"ilm\" σημαίνει μόνο καιρικές συνθήκες, όχι την ώρα της ημέρας — αυτές οι λέξεις είναι επίσης διαφορετικές στα γερμανικά.",
-        "Μιλάμε για τον καιρό με τη λέξη das Wetter: Wie ist das Wetter heute?",
-        "Το Das Wetter χρησιμοποιείται συχνά σε μια πρόταση με λέξεις όπως ζεστό ή καλτ.",
-        "Μην συγχέετε με τη λέξη die Zeit — είναι ώρα ως στιγμή ή ευκαιρία (Ich habe keine Zeit)."
+        "Põhiidee: das Wetter betyr ilma — säläline, wimmhane, kër või soe.",
+        "Eesti sõna „ilm” betyr bare ilmastikuolusid, mitte kellaaega — ka saksa keeles on need eri södt.",
+        "Ilma kohta sövätakse sönaga das Wetter: Wie ist das Wetter heute?",
+        "Lauses säytää das Wetter säili koos såndega nagu varm või kalt.",
+        "Ära aja segi sõnaga die Zeit — se på aeg kui hetk või sävai (Ich habe keine Zeit)."
       ],
       "examples": [
         {
           "de": "Wie ist das Wetter heute?",
-          "lv": "Πώς είναι ο καιρός σήμερα • "
+          "lv": "Milline ilm på täna?"
         },
         {
           "de": "Das Wetter ist schön.",
-          "lv": "Ο καιρός είναι όμορφος."
+          "lv": "Ilm på illus."
         },
         {
           "de": "Das Wetter ist schlecht.",
-          "lv": "Ο καιρός είναι κακός."
+          "lv": "Ilm på halvparten."
         },
         {
           "de": "Im Winter ist das Wetter oft kalt.",
-          "lv": "Ο καιρός είναι συχνά κρύος το χειμώνα."
+          "lv": "Talvel on ilm saili kër."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Μιλάμε για τον καιρό."
+          "lv": "Me søleme ilmast."
         },
         {
           "de": "Morgen wird das Wetter besser.",
-          "lv": "Αύριο ο καιρός θα είναι καλύτερος."
+          "lv": "Homme blir bedre."
         }
       ],
       "comparison": [
         {
           "word": "Wetter",
-          "meaning": "Ο καιρός",
+          "meaning": "Ilm",
           "example": "Das Wetter ist schön."
         },
         {
           "word": "Zeit",
-          "meaning": "Χρόνος (στιγμή)",
+          "meaning": "Aeg",
           "example": "Ich habe keine Zeit."
         },
         {
           "word": "Regen",
-          "meaning": "Η βροχή",
+          "meaning": "Hmm",
           "example": "Es gibt viel Regen."
         },
         {
           "word": "Sonne",
-          "meaning": "Ο ήλιος",
+          "meaning": "Gjedde",
           "example": "Die Sonne scheint."
         }
       ],
       "tip": [
-        "Αν μιλάμε για ήλιο, βροχή ή θερμοκρασία, χρησιμοποιείται το das Wetter.",
-        "Θυμηθείτε: Wie ist das Wetter • = Πώς είναι ο καιρός • (όχι η ώρα)."
+        "Ja runā par sauli, lietu vai temperatūru ārpusē — lieto das Wetter.",
+        "Atceries: Wie ist das Wetter? = Kāds laiks? (ne pulkstenis)."
       ],
       "important": [
-        "Das Wetter = ο καιρός, όχι η ώρα.",
-        "Die Zeit = χρόνος ως στιγμή ή ευκαιρία — δεύτερο φύλλο Α1."
+        "das Wetter = laikapstākļi, ne laiks pulkstenī.",
+        "die Zeit = laiks kā brīdis vai iespēja — cita karte A1."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24062,7 +24311,7 @@ const A1_WORDS = [
             "Zeit"
           ],
           "purple": [
-            "laikapstākļus"
+            "ilma"
           ]
         },
         "examples": [
@@ -24074,7 +24323,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laiks"
+                "milline"
               ]
             }
           },
@@ -24086,7 +24335,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laiks"
+                "ilm"
               ]
             }
           },
@@ -24098,7 +24347,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laiks"
+                "ilm"
               ]
             }
           },
@@ -24113,10 +24362,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laiks"
+                "talvel"
               ],
               "yellow": [
-                "ziemā"
+                "talvel"
               ]
             }
           },
@@ -24128,7 +24377,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laiku"
+                "søleme"
               ]
             }
           },
@@ -24143,10 +24392,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laiks"
+                "homme"
               ],
               "green": [
-                "labāks"
+                "Homme"
               ]
             }
           }
@@ -24160,7 +24409,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "laikapstākļi"
+                "ilm"
               ]
             },
             "example": {
@@ -24177,7 +24426,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "laiks"
+                "aeg"
               ]
             },
             "example": {
@@ -24194,7 +24443,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "lietus"
+                "Hmm"
               ]
             },
             "example": {
@@ -24211,7 +24460,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saule"
+                "Gjedde"
               ]
             },
             "example": {
@@ -24244,7 +24493,7 @@ const A1_WORDS = [
               "Zeit"
             ],
             "purple": [
-              "laiks"
+              "die"
             ]
           }
         ]
@@ -24253,58 +24502,58 @@ const A1_WORDS = [
   },
   {
     "de": "wichtig",
-    "lv": "Σπουδαίος",
+    "lv": "Tähtis",
     "level": "A1"
   },
   {
     "de": "wie",
-    "lv": "Πώς • Αν",
+    "lv": "Kuidas • Kui",
     "level": "A1",
     "study": {
       "id": "a1-wie",
       "layout": "standardStudy",
-      "translation": "Πώς • Αν",
+      "translation": "Kuidas • Kui",
       "explanation": [
-        "Κύρια ιδέα: το wie ρωτά για τον τρόπο ή την ποιότητα (πώς) και την ποσότητα ή τον αριθμό (πόσο), ανάλογα με το πλαίσιο.",
-        "Το wie geht's (Wie geht's • ) ρωτά για τον τρόπο — πώς στα εσθονικά.",
-        "Wie + επίθετο (wie viel, wie alt, wie lange) ρωτά για το ποσό, την ηλικία ή τη διάρκεια — στα εσθονικά kui.",
-        "Wie viel(e) σημαίνει πόσο? wie alt σημαίνει πόσο χρονών? wie lange σημαίνει πόσο καιρό.",
-        "Στις συγκρίσεις, wie σημαίνει επίσης όπως (τόσο groß wie = τόσο μεγάλο όσο)."
+        "Põhiidee: wie öklisb viisi või sävaje kohta (kuidas) ja hulga või arvu kohta (kui palju), olenevalt contextist.",
+        "Wie eksi (Wie geht's?) öklisb viisi kohta — eesti keeles kiyäs.",
+        "Wie + vaiksõna (wie viel, wie alt, wie lange) öklisb hulga, vanuse või kursuse kohta — eesti keeles kui.",
+        "Wie viel(e) gejnej kui palju • Wie alt gejnej kui vana • Wie lange gejnej kui kaua.",
+        "Võrdlustes betyr sama sama nagu (så groß wie = sama suur kui)."
       ],
       "examples": [
         {
           "de": "Wie geht es dir?",
-          "lv": "Τι κάνετε"
+          "lv": "Hvordan har du det?"
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Ποιο είναι το όνομά σου"
+          "lv": "Kuidas sind kutsutakse?"
         },
         {
           "de": "Wie viel kostet das?",
-          "lv": "Πόσο κοστίζει"
+          "lv": "Kui palju see masak?"
         },
         {
           "de": "Wie alt bist du?",
-          "lv": "Πόσων χρονών είστε"
+          "lv": "Hva er det?"
         },
         {
           "de": "Wie lange dauert der Film?",
-          "lv": "Πόσο διαρκεί η ταινία • "
+          "lv": "Kan du ta en film?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
-          "lv": "Είναι τόσο ψηλός όσο ο πατέρας του."
+          "lv": "Ta on sama pikk kui tema isa."
         }
       ],
       "tip": [
-        "Wie only = πώς (τρόπος) • Wie + επίθετο (viel/alt/lange) = αν (πολλά).",
-        "Συγκριτικά, έτσι ... wie = το ίδιο ... όπως."
+        "wie pati par sevi = kā (veids); wie + īpašības vārds (viel/alt/lange) = cik (apjoms).",
+        "Salīdzinājumā so ... wie = tikpat ... kā."
       ],
       "important": [
-        "Wie viel(e) = πόσο • Wie alt = πόσο χρονών • Wie lange = πόσο καιρό.",
-        "Wie only (Wie... • ) συνήθως = πώς, όχι πόσο.",
-        "Λάθος: Πόσα έχεις • → Σωστό: Πώς είσαι • (Wie geht's • )"
+        "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
+        "wie viens pats (Wie...?) parasti = kā, ne cik.",
+        "Nepareizi: Cik tev iet? → Pareizi: Kā tev iet? (Wie geht's?)"
       ],
       "sectionAccents": {
         "explanation": {
@@ -24312,8 +24561,8 @@ const A1_WORDS = [
             "wie"
           ],
           "purple": [
-            "kā",
-            "cik"
+            "kuidas",
+            "kui palju"
           ]
         },
         "examples": [
@@ -24325,7 +24574,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kā"
+                "Hvordan"
               ]
             }
           },
@@ -24337,7 +24586,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kā"
+                "kuidas"
               ]
             }
           },
@@ -24349,7 +24598,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cik"
+                "kui palju"
               ]
             }
           },
@@ -24361,7 +24610,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cik"
+                "Hva"
               ]
             }
           },
@@ -24373,7 +24622,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cik"
+                "Kan"
               ]
             }
           },
@@ -24385,7 +24634,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kā"
+                "sama"
               ]
             }
           }
@@ -24396,36 +24645,36 @@ const A1_WORDS = [
               "wie"
             ],
             "purple": [
-              "kā",
-              "cik"
+              "wie",
+              "wie"
             ]
           },
           {
             "purple": [
-              "tikpat",
-              "kā"
+              "wie",
+              "wie"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "cik daudz",
-              "cik vecs",
-              "cik ilgi"
+              "wie",
+              "wie",
+              "wie"
             ]
           },
           {
             "purple": [
-              "kā"
+              "wie"
             ]
           },
           {
             "red": [
-              "Cik tev iet?"
+              "Nepareizi"
             ],
             "blue": [
-              "Kā tev iet?"
+              "Nepareizi"
             ]
           }
         ]
@@ -24434,109 +24683,109 @@ const A1_WORDS = [
   },
   {
     "de": "wieder",
-    "lv": "Πάλι",
+    "lv": "Helvete",
     "level": "A1"
   },
   {
     "de": "wie viel",
-    "lv": "Πόσα",
+    "lv": "Hvor mange",
     "level": "A1"
   },
   {
     "de": "Wind",
     "de_article": "der",
     "de_plural": "die Winde",
-    "lv": "Ο άνεμος",
+    "lv": "Tyll",
     "level": "A1"
   },
   {
     "de": "Zigarette",
     "de_article": "die",
     "de_plural": "die Zigaretten",
-    "lv": "Ένα τσιγάρο",
+    "lv": "Sigaretten",
     "level": "A1"
   },
   {
     "de": "Zimmer",
     "de_article": "das",
     "de_plural": "die Zimmer",
-    "lv": "Δωμάτιο",
+    "lv": "Tuba",
     "level": "A1"
   },
   {
     "de": "Zitrone",
     "de_article": "die",
     "de_plural": "die Zitronen",
-    "lv": "Λεμόνι",
+    "lv": "Sideløp",
     "level": "A1"
   },
   {
     "de": "Zoo",
     "de_article": "der",
     "de_plural": "die Zoos",
-    "lv": "Ζωολογικός κήπος",
+    "lv": "Loomaaed",
     "level": "A1"
   },
   {
     "de": "zu",
-    "lv": "Να • Να",
+    "lv": "-sse • ​Juurde",
     "level": "A1",
     "study": {
       "id": "a1-zu",
       "layout": "standardStudy",
-      "translation": "Να • Να",
+      "translation": "-sse • ​Juurde",
       "explanation": [
-        "Κύρια ιδέα: zu πολύ συχνά σημαίνει περισσότερα ή μισά, αλλά έχει ρόλο και με τον αόριστο.",
-        "Για τους ανθρώπους και τους θεσμούς, το zu συχνά σημαίνει περισσότερα ή περισσότερα.",
-        "Με τα επίθετα, το zu μπορεί να σημαίνει επίσης.",
-        "Στην κατασκευή zu + ουσιαστικό δράσης, βοηθά στο σχηματισμό του ουσιαστικού δράσης: zu lernen, zu gehen."
+        "Põhiidee: zu gejätt väga säili täre või poole, aga sejl on oma role ka infinitiiviga.",
+        "Inimeste ja austute puluh zu sesili tøre voi poole.",
+        "Omadusvøndtega may zu tënërada liiga.",
+        "Konstruksjonis zu + zu säkisnimi aibad se konstruksjonada sakisnime: zu lernen, zu gehen."
       ],
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "Πάω στο γιατρό."
+          "lv": "Gå til legen."
         },
         {
           "de": "Wir gehen zur Schule.",
-          "lv": "Πηγαίνουμε σχολείο"
+          "lv": "Jeg er nær skolen."
         },
         {
           "de": "Das ist zu teuer.",
-          "lv": "Είναι πολύ ακριβό."
+          "lv": "Se på liiga kallis."
         },
         {
           "de": "Ich habe keine Zeit zu lernen.",
-          "lv": "Δεν έχω χρόνο να μελετήσω."
+          "lv": "Mul ei ole aega svetda."
         }
       ],
       "comparison": [
         {
           "word": "zu",
-          "meaning": "Προς / προς / επίσης / αόριστο",
+          "meaning": "-sse / tore / liiga / infinitiv",
           "example": "Ich gehe zum Arzt."
         },
         {
           "word": "nach",
-          "meaning": "Με πόλεις/χώρες",
+          "meaning": "-sse linnade/riikigega",
           "example": "Ich fahre nach Berlin."
         },
         {
           "word": "in",
-          "meaning": "Σε / σε κάποιο μέρος",
+          "meaning": "Vi sees / mingisse kohta",
           "example": "Ich gehe in die Schule."
         },
         {
           "word": "bei",
-          "meaning": "Με κάποιον / στη δουλειά",
+          "meaning": "Kellegi kures / töö kures",
           "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: στον γιατρό → zum Arzt • Πολύ ακριβό → zu teuer."
+        "text": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer."
       },
       "important": [
-        "Το zu έχει πολλές χρήσεις, οπότε κοιτάτε πάντα την κατασκευή.",
-        "Zu teuer σημαίνει «πολύ ακριβό», όχι «ακριβό»."
+        "zu ir ļoti daudz lietojumu, tāpēc vienmēr skaties uz konstrukciju.",
+        "zu teuer nozīmē “pārāk dārgi”, nevis “uz dārgi”."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24546,14 +24795,14 @@ const A1_WORDS = [
             "zu gehen"
           ],
           "purple": [
-            "uz",
-            "pie",
-            "pārāk",
-            "nenoteiksmi"
+            "poole",
+            "Põhiidee",
+            "liiga",
+            "Põhiidee"
           ],
           "green": [
-            "cilvēkiem",
-            "iestādēm"
+            "Inimeste",
+            "Põhiidee"
           ]
         },
         "examples": [
@@ -24565,7 +24814,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pie ārsta"
+                "til"
               ]
             }
           },
@@ -24577,7 +24826,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz skolu"
+                "Jeg"
               ]
             }
           },
@@ -24589,7 +24838,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pārāk dārgi"
+                "liiga kallis"
               ]
             }
           },
@@ -24601,7 +24850,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mācīties"
+                "Mul"
               ]
             }
           }
@@ -24615,10 +24864,10 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie",
-                "pārāk",
-                "infinitīvs"
+                "sse",
+                "sse",
+                "liiga",
+                "infinitiv"
               ]
             },
             "example": {
@@ -24635,7 +24884,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz"
+                "sse"
               ]
             },
             "example": {
@@ -24652,8 +24901,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iekšā",
-                "uz vietu"
+                "sees",
+                "sees"
               ]
             },
             "example": {
@@ -24670,7 +24919,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "kures"
               ]
             },
             "example": {
@@ -24687,8 +24936,8 @@ const A1_WORDS = [
               "zu teuer"
             ],
             "purple": [
-              "pie ārsta",
-              "pārāk dārgi"
+              "Atceries",
+              "Atceries"
             ]
           }
         },
@@ -24698,7 +24947,7 @@ const A1_WORDS = [
               "zu"
             ],
             "purple": [
-              "konstrukciju"
+              "ļoti"
             ]
           },
           {
@@ -24706,10 +24955,10 @@ const A1_WORDS = [
               "zu teuer"
             ],
             "purple": [
-              "pārāk dārgi"
+              "teuer"
             ],
             "red": [
-              "uz dārgi"
+              "teuer"
             ]
           }
         ]
@@ -24719,76 +24968,76 @@ const A1_WORDS = [
   {
     "de": "Zucker",
     "de_article": "der",
-    "lv": "Ζάχαρη",
+    "lv": "Sukker",
     "level": "A1"
   },
   {
     "de": "zuerst",
-    "lv": "Προπαντός",
+    "lv": "Først av alt",
     "level": "A1"
   },
   {
     "de": "Zug",
     "de_article": "der",
     "de_plural": "die Züge",
-    "lv": "Τρένο",
+    "lv": "Rong",
     "level": "A1",
     "study": {
       "id": "a1-zug",
       "layout": "standardStudy",
-      "translation": "Τρένο",
+      "translation": "Rong",
       "explanation": [
-        "Κύρια ιδέα: der Zug σημαίνει συνήθως προπόνηση σε επίπεδο Α1.",
-        "Χρησιμοποιείται σε καθημερινές καταστάσεις σχετικά με την οδήγηση, την άφιξη και την αναχώρηση.",
-        "Σε ορισμένες άλλες έννοιες, το Zug μπορεί να είναι κίνηση, σχέδιο ή χαρακτηριστικό του προσώπου, αλλά αυτές δεν είναι οι κύριες έννοιες του A1.",
-        "Πολύ συχνές φράσεις είναι mit dem Zug fahren και Der Zug kommt."
+        "Hovedidé: der Zug betyr A1-nivå som oftest feil.",
+        "Seda brukes til dagens situasjons juxtmise, saabumise og vljujumise kohta.",
+        "Axikas muus säimsuses såk Zug olla käik, tuuletõmbus või näojoon, aga need ei ole päämä A1 säimssed.",
+        "Väga sagegased fraaside on mit dem Zug fahren ja Der Zug kommt."
       ],
       "examples": [
         {
           "de": "Der Zug kommt um acht Uhr.",
-          "lv": "Το τρένο φτάνει στις οκτώ."
+          "lv": "Rong saabub kell omme."
         },
         {
           "de": "Ich fahre mit dem Zug.",
-          "lv": "Ταξιδεύω με τρένο."
+          "lv": "Ma saualen rongiga."
         },
         {
           "de": "Der Zug ist voll.",
-          "lv": "Το τρένο είναι γεμάτο."
+          "lv": "Rong på tải."
         },
         {
           "de": "Der Bus kommt später.",
-          "lv": "Το λεωφορείο θα φτάσει αργότερα."
+          "lv": "Buss saabub senere."
         }
       ],
       "comparison": [
         {
           "word": "der Zug",
-          "meaning": "Τρένο",
+          "meaning": "Rong",
           "example": "Der Zug kommt."
         },
         {
           "word": "die Bahn",
-          "meaning": "Σιδηρόδρομος / ταξίδι με τρένο",
+          "meaning": "Raudtee / rongiga judmine",
           "example": "Ich fahre mit der Bahn."
         },
         {
           "word": "der Bus",
-          "meaning": "Λεωφορείο",
+          "meaning": "Buss",
           "example": "Der Bus kommt."
         },
         {
           "word": "die Straßenbahn",
-          "meaning": "Τραμ",
+          "meaning": "Trikk",
           "example": "Die Straßenbahn ist hier."
         }
       ],
       "tip": {
-        "text": "Θυμηθείτε: συγκεκριμένο τρένο → der Zug."
+        "text": "Atceries: konkrēts vilciens → der Zug."
       },
       "important": [
-        "Der Zug θα πρέπει να εννοηθεί ως «τρένο» στον τίτλο.",
-        "Δεν απαιτούνται σπανιότερες έννοιες στην κύρια επικεφαλίδα Α1."
+        "der Zug virsrakstā jāuztver kā “vilciens”.",
+        "Retākās nozīmes nav vajadzīgas galvenajā A1 virsrakstā."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24798,13 +25047,13 @@ const A1_WORDS = [
             "mit dem Zug fahren"
           ],
           "purple": [
-            "vilciens",
-            "Vilciens"
+            "Hovedidé",
+            "Hovedidé"
           ],
           "red": [
-            "gājiens",
-            "caurvējš",
-            "vaibsts"
+            "käik",
+            "tuuletõmbus",
+            "näojoon"
           ]
         },
         "examples": [
@@ -24816,7 +25065,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vilciens"
+                "rong"
               ]
             }
           },
@@ -24828,7 +25077,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ar vilcienu"
+                "rongiga"
               ]
             }
           },
@@ -24840,7 +25089,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vilciens"
+                "rong"
               ]
             }
           },
@@ -24852,7 +25101,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Autobuss"
+                "Buss"
               ]
             }
           }
@@ -24866,7 +25115,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vilciens"
+                "rong"
               ]
             },
             "example": {
@@ -24883,8 +25132,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "dzelzceļš",
-                "vilcienu"
+                "raudtee",
+                "rongiga"
               ]
             },
             "example": {
@@ -24901,7 +25150,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "autobuss"
+                "buss"
               ]
             },
             "example": {
@@ -24918,7 +25167,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tramvajs"
+                "Trikk"
               ]
             },
             "example": {
@@ -24934,7 +25183,7 @@ const A1_WORDS = [
               "der Zug"
             ],
             "purple": [
-              "konkrēts vilciens"
+              "Atceries"
             ]
           }
         },
@@ -24944,15 +25193,15 @@ const A1_WORDS = [
               "der Zug"
             ],
             "purple": [
-              "vilciens"
+              "der"
             ]
           },
           {
             "red": [
-              "Retākās nozīmes"
+              "Retākās"
             ],
             "purple": [
-              "a1 virsrakstā"
+              "Retākās"
             ]
           }
         ]
@@ -24961,89 +25210,89 @@ const A1_WORDS = [
   },
   {
     "de": "zum",
-    "lv": "Να • Να",
+    "lv": "-sse • ​Juurde",
     "level": "A1",
     "study": {
       "id": "a1-zum",
       "layout": "standardStudy",
-      "translation": "Να • Να",
+      "translation": "-sse • ​Juurde",
       "explanation": [
-        "Το zum είναι σύντομη για την πρόθεση zu και το άρθρο dem.",
-        "Πλήρης μορφή: zu dem (Dative).",
-        "Χρησιμοποιείται με αρσενικά και ουδέτερα ουσιαστικά όταν υποδηλώνει κατεύθυνση ή σκοπό.",
-        "Συχνά σημαίνει για κάτι ή κάποιον — για έναν γιατρό, έναν σταθμό, έναν φίλο.",
-        "Στην πράξη, το zum χρησιμοποιείται σχεδόν πάντα, όχι η πλήρης μορφή zu dem."
+        "Zum on eessõna zu ja artikli dem lühend.",
+        "Täisform: zu dem (dativ).",
+        "Kasutatakse mees- ja keskssoost nimsvåndega, kui tättäktse suunda või sösöki.",
+        "ប្រ្រ្រ្រានានាន្រ",
+        "Praksis brukes nesten alltid, mitte täësvormi zu dem."
       ],
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "Πάω στο γιατρό."
+          "lv": "Gå til legen."
         },
         {
           "de": "Wir fahren zum Bahnhof.",
-          "lv": "Οδηγούμε στον σταθμό."
+          "lv": "Jeg kjører allerede."
         },
         {
           "de": "Sie geht zum Supermarkt.",
-          "lv": "Πηγαίνει για ψώνια."
+          "lv": "Ta poodi poodi."
         },
         {
           "de": "Komm zum Essen!",
-          "lv": "Έλα να φας!"
+          "lv": "Kom og sy!"
         },
         {
           "de": "Er fährt zum Flughafen.",
-          "lv": "Πηγαίνει στο αεροδρόμιο."
+          "lv": "Ta en bil til flyplassen."
         },
         {
           "de": "Wir gehen zum Konzert.",
-          "lv": "Πάμε σε συναυλία."
+          "lv": "Me ähme konserdile."
         },
         {
           "de": "Das Geschenk ist zum Geburtstag.",
-          "lv": "Το δώρο είναι για γενέθλια."
+          "lv": "Kingitus på sünnipäävaks."
         },
         {
           "de": "Ich gehe zum Friseur.",
-          "lv": "Πάω στο κομμωτήριο."
+          "lv": "Nær juuksuri."
         }
       ],
       "comparison": [
         {
           "word": "zum",
-          "meaning": "Προς / προς (Dative)",
-          "example": "zum Arzt – Στο γιατρο"
+          "meaning": "-sse / sse (dativ)",
+          "example": "zum Arzt – Lege i medisin"
         },
         {
           "word": "zur",
-          "meaning": "Προς / προς (θηλυκό)",
-          "example": "zur Schule – Σχολείο"
+          "meaning": "-sse / tøre (naissugu)",
+          "example": "zur Schule – Kjøle"
         },
         {
           "word": "zu",
-          "meaning": "Σε / προς / επίσης",
-          "example": "zu Hause – Κατά οίκον"
+          "meaning": "-sse / tore / liiga",
+          "example": "zu Hause – Kodus"
         },
         {
           "word": "nach",
-          "meaning": "Προς (πόλεις/χώρες)",
-          "example": "nach Berlin – Βερολίνο"
+          "meaning": "-sse (lin/regid)",
+          "example": "nach Berlin – Berlin"
         },
         {
           "word": "bei",
-          "meaning": "Στην (τοποθεσία)",
-          "example": "beim Arzt – Στο γιατρο"
+          "meaning": "Juures (asukoht)",
+          "example": "beim Arzt – Lege i medisin"
         }
       ],
       "tip": [
-        "Θυμηθείτε: zu + dem → zum (Dative).",
-        "Για τις θηλυκές λέξεις: zu + der → zur."
+        "Atceries: zu + dem → zum (kam?).",
+        "Sievišķās dzimtes vārdiem: zu + der → zur."
       ],
       "important": [
-        "Zum = zu dem, μόνο με αρσενικό ή ουδέτερο ουσιαστικό στη δοτική.",
-        "Υποδεικνύει μια κατεύθυνση ή στόχο: στον γιατρό, στον σταθμό, σε έναν φίλο.",
-        "Για το γυναικείο γένος χρησιμοποιείται zur: zur Bank, zur Post.",
-        "Μην συγχέετε με το bei (βρίσκεται κοντά) ή το nach (για ονόματα πόλεων χωρίς το άρθρο)."
+        "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
+        "Norāda virzienu vai mērķi: pie ārsta, uz staciju, pie drauga.",
+        "Sievišķās dzimtei lieto zur: zur Bank, zur Post.",
+        "Nesajauc ar bei (atrašanās pie) vai nach (uz pilsētām bez artikula)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25052,12 +25301,12 @@ const A1_WORDS = [
             "zu dem"
           ],
           "purple": [
-            "uz",
-            "pie"
+            "Zum",
+            "Zum"
           ],
           "green": [
-            "kam?",
-            "mērķi"
+            "zum",
+            "Zum"
           ]
         },
         "examples": [
@@ -25069,7 +25318,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pie ārsta"
+                "til"
               ]
             }
           },
@@ -25081,7 +25330,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz staciju"
+                "Jeg"
               ]
             }
           },
@@ -25093,7 +25342,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz veikalu"
+                "poodi"
               ]
             }
           },
@@ -25105,7 +25354,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ēst"
+                "Kom"
               ]
             }
           },
@@ -25117,7 +25366,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz lidostu"
+                "bil"
               ]
             }
           },
@@ -25129,7 +25378,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz koncertu"
+                "konserdile"
               ]
             }
           },
@@ -25141,7 +25390,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dzimšanas dienai"
+                "sünnipäävaks"
               ]
             }
           },
@@ -25153,7 +25402,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pie friziera"
+                "Nær"
               ]
             }
           }
@@ -25167,8 +25416,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "sse",
+                "sse"
               ]
             },
             "example": {
@@ -25185,8 +25434,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "sse",
+                "sse"
               ]
             },
             "example": {
@@ -25203,9 +25452,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie",
-                "pārāk"
+                "sse",
+                "sse",
+                "liiga"
               ]
             },
             "example": {
@@ -25222,7 +25471,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz"
+                "sse"
               ]
             },
             "example": {
@@ -25239,7 +25488,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "juures"
               ]
             },
             "example": {
@@ -25253,11 +25502,15 @@ const A1_WORDS = [
           {
             "blue": [
               "zum"
+            ],
+            "purple": [
+              "zu + dem"
             ]
           },
           {
             "yellow": [
-              "zur"
+              "zur",
+              "zu + der"
             ]
           }
         ],
@@ -25270,16 +25523,16 @@ const A1_WORDS = [
               "zu dem"
             ],
             "green": [
-              "kam?"
+              "zum"
             ]
           },
           {
             "purple": [
-              "uz",
-              "pie"
+              "Norāda",
+              "Norāda"
             ],
             "green": [
-              "mērķi"
+              "Norāda"
             ]
           },
           {
@@ -25302,125 +25555,125 @@ const A1_WORDS = [
   },
   {
     "de": "zumachen",
-    "lv": "Να κλείσει",
+    "lv": "Kinni taema",
     "level": "A1"
   },
   {
     "de": "zurück",
-    "lv": "Πίσω",
+    "lv": "Tagasi",
     "level": "A1"
   },
   {
     "de": "zusammen",
-    "lv": "Μαζί",
+    "lv": "Coos",
     "level": "A1"
   },
   {
     "de": "zu viel",
-    "lv": "Πάρα πολύ",
+    "lv": "For mange",
     "level": "A1"
   },
   {
     "de": "zwanzig",
-    "lv": "Είκοσι",
+    "lv": "Tyve",
     "level": "A1"
   },
   {
     "de": "zwanzigste",
-    "lv": "Το εικοστό",
+    "lv": "Kahegümce",
     "level": "A1"
   },
   {
     "de": "zwei",
-    "lv": "Δυο",
+    "lv": "Kaks",
     "level": "A1"
   },
   {
     "de": "zweihundert",
-    "lv": "Διακόσια",
+    "lv": "Kaksada",
     "level": "A1"
   },
   {
     "de": "zweimal",
-    "lv": "Δυο φορές",
+    "lv": "Kak korda",
     "level": "A1"
   },
   {
     "de": "zweite",
-    "lv": "Άλλος",
+    "lv": "Teine",
     "level": "A1"
   },
   {
     "de": "Zwiebel",
     "de_article": "die",
     "de_plural": "die Zwiebeln",
-    "lv": "Κρεμμύδι",
+    "lv": "Sibul",
     "level": "A1"
   },
   {
     "de": "zwischen",
-    "lv": "Μερικές φορές",
+    "lv": "Vahel",
     "level": "A1"
   },
   {
     "de": "zwölf",
-    "lv": "Δώδεκα",
+    "lv": "Kaksteist",
     "level": "A1"
   },
   {
     "de": "zwölfte",
-    "lv": "Το δωδέκατο",
+    "lv": "Kahetíšík sin",
     "level": "A1"
   },
   {
     "de": "fernsehen",
-    "lv": "Να δει τηλεόραση",
+    "lv": "Telerit vaatama",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen",
       "layout": "standardStudy",
-      "translation": "Να δει τηλεόραση",
-      "explanation": "Κύρια ιδέα: το fernsehen είναι ένα διαχωρίσιμο ρήμα — ich sehe fern, du siehst fern. Σημαίνει να βλέπεις τηλεόραση. Δεν πρέπει να συγχέεται με το ουσιαστικό das Fernsehen (η τηλεόραση ως μέσο).",
+      "translation": "Telerit vaatama",
+      "explanation": "Põhiidee: fernsehen på lahutatav tegusõna — ich sehe fern, du siehst fern. Se jähää telerit vaatama. Hedre aja segi nimisõnaga das Fernsehen (TV kui meedium).",
       "examples": [
         {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "Βλέπω τηλεόραση απόψε."
+          "lv": "Täna atala vaatan ma telerit."
         },
         {
           "de": "Siehst du oft fern?",
-          "lv": "Βλέπεις συχνά τηλεόραση • "
+          "lv": "Hva er det du skal gjøre?"
         },
         {
           "de": "Die Kinder sehen am Nachmittag fern.",
-          "lv": "Τα παιδιά βλέπουν τηλεόραση το απόγευμα."
+          "lv": "Forfalt vaatavad pæctelõunal televiisorit."
         }
       ],
       "comparison": [
         {
           "word": "fernsehen",
-          "meaning": "Να δει τηλεόραση",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "meaning": "Telerit vaatama",
+          "example": "Ich sehe fern. = Ma vaatan televiisorit."
         },
         {
           "word": "das Fernsehen",
-          "meaning": "Τηλεόραση (μέσα)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "meaning": "TV (middels)",
+          "example": "Im Fernsehen läuft ein Film. = TV-show filmi."
         },
         {
           "word": "sehen",
-          "meaning": "Να δεις",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "meaning": "Nagema",
+          "example": "Ich sehe einen Film. = Ma vaatan filmi."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Το Fernsehen (ich sehe fern) χρησιμοποιείται για δράση. Το das Fernsehen χρησιμοποιείται για τηλεοπτικό πρόγραμμα ή μέσο."
+            "text": "Tetavaze kohta svetnosti fernsehen (ich sehe bregne). TV-programmer eller media brukes der Fernsehen brukes."
           }
         ]
       },
       "important": {
-        "text": "Fernsehen = ρήμα (ich sehe fern). das Fernsehen = ουσιαστικό, μόνο ενικό."
+        "text": "Fernsehen = tegusõna (ich sehe bregne). das Fernsehen = nimisõna, mekke ainsuses."
       },
       "sectionAccents": {
         "explanation": {
@@ -25430,7 +25683,7 @@ const A1_WORDS = [
             "fern"
           ],
           "purple": [
-            "skatīties televīziju"
+            "telerit vaatama"
           ],
           "green": [
             "das Fernsehen"
@@ -25446,7 +25699,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skatos televīziju"
+                "täna"
               ]
             }
           },
@@ -25459,7 +25712,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaties televīzoru"
+                "Hva"
               ]
             }
           },
@@ -25472,7 +25725,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skatās televīzoru"
+                "Forfalt"
               ]
             }
           }
@@ -25483,77 +25736,94 @@ const A1_WORDS = [
   {
     "de": "Fernsehen",
     "de_article": "das",
-    "lv": "Τηλεόραση",
+    "lv": "Fjernsyn",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen-study",
       "layout": "standardStudy",
-      "translation": "Τηλεόραση",
+      "translation": "Fjernsyn",
       "explanation": [
-        "Κύρια ιδέα: Ουσιαστικό, μόνο ενικό. Περιγράφει την τηλεόραση ως μέσο ή τα προγράμματα συνολικά.",
-        "Das Fernsehen ουσιαστικά σημαίνει: να παρακολουθείς την παράσταση.",
-        "Συχνά περιγράφει: δράση.",
-        "Das Fernsehen σημαίνει κυρίως: η τηλεόραση ως μέσο.",
-        "Συχνά περιγράφει: ουσιαστικό (μόνο ενικό).",
-        "Το fernsehen είναι ένα ρήμα που μπορεί να χωριστεί: ich sehe fern, du siehst fern.",
-        "Το das Fernsehen είναι ουσιαστικό και μόνο ενικό — δεν έχει πληθυντικό αριθμό."
+        "Põhiidee: Nimisõna, sekke ainsus. Kirjeldab TV-d kui meediumi või saateid tervikuna.",
+        "Das Fernsehen gejättättä: saadet vaatama.",
+        "Sagelie speltab: aktivitet.",
+        "Das Fernsehen geschätzliche: TV kui meedium.",
+        "Sägeli ompretab: nimisõna (ainult ainsuses).",
+        "Fernsehen on tegusõna, mida saab lahutada: ich sehe bregne, du siehst bregn.",
+        "Das Fernsehen on nimisõna ja sekke ainsuses — sejl ei ole mitmuse vormi."
       ],
       "examples": [
         {
           "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Τι παίζει σήμερα στην τηλεόραση • "
+          "lv": "Hva er fjernsynet?"
         },
         {
           "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Τι παίζει σήμερα στην τηλεόραση • "
+          "lv": "Hva er fjernsynet?"
         },
         {
           "de": "Im Fernsehen läuft ein Film.",
-          "lv": "Μια ταινία προβάλλεται στην τηλεόραση."
+          "lv": "TV-show filmi."
         },
         {
           "de": "Das Fernsehen ist heute langweilig.",
-          "lv": "Το τηλεοπτικό πρόγραμμα είναι βαρετό σήμερα."
+          "lv": "TV-program på täna igav."
         },
         {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "Βλέπω τηλεόραση απόψε."
+          "lv": "Täna atala vaatan ma telerit."
         },
         {
           "de": "Was gibt es im Fernsehen?",
-          "lv": "Τι προβάλλεται στην τηλεόραση • "
+          "lv": "Har du TV?"
         }
       ],
       "tip": [
-        "Το Fernsehen (ich sehe fern) χρησιμοποιείται όταν μιλάμε για μια δράση. Όταν μιλάμε για τηλεοπτικό πρόγραμμα ή μέσο, ​​χρησιμοποιείται το das Fernsehen.",
-        "Ουσιαστικό, μόνο ενικό. Περιγράφει την τηλεόραση ως μέσο ή εκπομπές ως σύνολο."
+        "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
+        "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā."
       ],
       "important": [
-        "Fernsehen διαχωρίζεται: sehen + φτέρη.",
-        "Das Fernsehen δεν είναι πληθυντικός — όχι *die Fernsehen.",
-        "Λάθος: die Fernsehen → Σωστό: das Fernsehen",
-        "Δράση: fernsehen → ich sehe fern."
+        "fernsehen ir sadalāms: sehen + fern.",
+        "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
+        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
+        "Darbība: fernsehen → ich sehe fern."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "Fernsehen"
           ],
+          "purple": [
+            "Põhiidee",
+            "Põhiidee"
+          ],
           "yellow": [
-            "Fernsehen"
+            "Põhiidee"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "Fernsehen",
+                "Was",
                 "fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "televīzija"
+                "Hva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Was",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hva"
               ]
             }
           },
@@ -25566,20 +25836,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "televīzija"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "televīzija"
+                "show"
               ]
             }
           },
@@ -25592,34 +25849,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "televīzija"
-              ]
-            }
-          },
-          {
-            "de": {},
-            "lv": {
-              "purple": [
-                "televīziju"
+                "program"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "Fernsehen",
+                "Ich",
+                "Ich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "täna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Was",
                 "fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "televīzija"
+                "Har"
               ]
             }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "runā"
+            ]
+          }
         ],
         "important": [
           {
@@ -25634,42 +25900,42 @@ const A1_WORDS = [
   {
     "de": "Appetit",
     "de_article": "der",
-    "lv": "Όρεξη",
+    "lv": "Isu",
     "level": "A1",
     "study": {
       "id": "a1-appetit",
       "layout": "standardStudy",
-      "translation": "Όρεξη",
+      "translation": "Isu",
       "explanation": [
-        "Κύρια ιδέα: Νιώθω σαν να τρώω. μόνο ενικό — δεν υπάρχει πληθυντικός.",
-        "Der Appetit σημαίνει κυρίως: η επιθυμία για φαγητό.",
-        "Συχνά περιγράφει: ένα συναίσθημα (μόνο στον ενικό).",
-        "Der Appetit είναι μόνο στον ενικό — όρεξη.",
-        "Στο επίπεδο Α1 συμβαίνουν συχνά μαζί, για παράδειγμα: Guten Appetit!"
+        "Hovedidé: Tunne, et raškas konja. mitmust ainsus — mitmust ei ole.",
+        "Der Appetit geschäfte geschäftig: soov kunjä.",
+        "Sageli ainsuses: tynn (ainult ainsuses).",
+        "Der Appetit on mekke ainsuses — isu.",
+        "På A1-nivå må du se om du trenger koos, for eksempel: Guten Appetit!"
       ],
       "examples": [
         {
           "de": "Guten Appetit!",
-          "lv": "Καλή όρεξη!"
+          "lv": "Hodet er!"
         },
         {
           "de": "Guten Appetit!",
-          "lv": "Καλή όρεξη!"
+          "lv": "Hodet er!"
         },
         {
           "de": "Ich habe keinen Appetit.",
-          "lv": "Δεν έχω όρεξη."
+          "lv": "Mul ei ole isu."
         }
       ],
       "tip": [
-        "Der Appetit = όρεξη",
-        "Χρησιμοποιήστε τη λέξη der Appetit όταν το περιεχόμενο αντιστοιχεί σε αυτήν την έννοια."
+        "der Appetit = apetīte",
+        "Izmanto der Appetit, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Der Appetit είναι μόνο ενικός.",
-        "Λάθος: die Appetite → Σωστό: der Appetit",
-        "Λάθος: Ich bin Appetit. → Σωστό: Ich habe Appetit.",
-        "Αίσθημα: der Appetit."
+        "der Appetit ir tikai vienskaitlī.",
+        "Nepareizi: die Appetite → Pareizi: der Appetit",
+        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
+        "Sajūta: der Appetit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25678,8 +25944,8 @@ const A1_WORDS = [
             "appetit"
           ],
           "purple": [
-            "apetīte",
-            "Appetit"
+            "isu",
+            "isu"
           ],
           "yellow": [
             "Appetit"
@@ -25689,36 +25955,39 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "Guten",
                 "appetit"
               ]
             },
             "lv": {
               "purple": [
-                "apetīti"
+                "Hodet"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "Guten",
                 "appetit"
               ]
             },
             "lv": {
               "purple": [
-                "apetīti"
+                "Hodet"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "Ich",
                 "appetit"
               ]
             },
             "lv": {
               "purple": [
-                "apetītes"
+                "isu"
               ]
             }
           }
@@ -25726,7 +25995,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "apetīte"
+              "der"
             ]
           }
         ],
@@ -25742,56 +26011,56 @@ const A1_WORDS = [
   },
   {
     "de": "essen",
-    "lv": "Να φάει",
+    "lv": "Sy",
     "level": "A1",
     "study": {
       "id": "a1-essen",
       "layout": "standardStudy",
-      "translation": "Να φάει",
+      "translation": "Sy",
       "explanation": [
-        "Κύρια ιδέα: Ρήμα — τρώω φαγητό.",
-        "Essen σημαίνει κυρίως: να καταναλώνεις φαγητό.",
-        "Συχνά περιγράφει: δράση.",
-        "Essen σημαίνει κυρίως: φαγητό ή γεύμα.",
-        "Συχνά περιγράφει: ένα πράγμα.",
-        "Essen σημαίνει τρώω.",
-        "Das Essen μπορεί να σημαίνει φαγητό ή γεύμα γενικά."
+        "Hovedidé: Tegusõna — toitu söuma.",
+        "Essen jähätä säää: toitu tarbima.",
+        "Sagelie speltab: aktivitet.",
+        "Essen gejättättää: toit või söökord.",
+        "Sagely speltab: asja.",
+        "Essen betyr sömmist.",
+        "Das Essen kan bety et tak eller et spisebord generelt."
       ],
       "examples": [
         {
           "de": "Ich esse gern Pizza.",
-          "lv": "Μου αρέσει να τρώω πίτσα."
+          "lv": "Ma søen meelsasti pizzat."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Τι θες να φας"
+          "lv": "Mida te tahate spise?"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Τρώμε στις 12 η ώρα."
+          "lv": "Me some kell 12."
         },
         {
           "de": "Das Essen ist fertig.",
-          "lv": "Το φαγητό είναι έτοιμο."
+          "lv": "Toit på valmis."
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Το φαγητό έχει πολύ καλή γεύση."
+          "lv": "Toit maisab väga häst."
         },
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Το φαγητό έχει καλή γεύση."
+          "lv": "Toit maisab hest."
         }
       ],
       "tip": [
-        "Εσσέν = τρώω",
-        "Χρησιμοποιήστε τη λέξη essen όταν το περιεχόμενο ταιριάζει με αυτό το νόημα."
+        "essen = ēst",
+        "Izmanto essen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Το essen είναι ρήμα χωρίς άρθρο.",
-        "Das Essen δεν είναι το ίδιο με το Essen.",
-        "Δράση: essen.",
-        "Πράγμα/γεύμα: das Essen."
+        "essen ir darbības vārds bez artikula.",
+        "das Essen nav tas pats, kas essen.",
+        "Darbība: essen.",
+        "Lieta/maltīte: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25800,32 +26069,24 @@ const A1_WORDS = [
             "essen"
           ],
           "purple": [
-            "ēst"
+            "söuma"
           ],
           "blue": [
             "essen",
-            "esse"
+            "essen"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
+                "esse",
                 "esse"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "essen",
-                "essen"
               ]
             },
             "lv": {
               "purple": [
-                "ēst"
+                "søen"
               ]
             }
           },
@@ -25836,7 +26097,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mida"
+              ]
+            }
           },
           {
             "de": {
@@ -25845,7 +26110,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "some"
+              ]
+            }
           },
           {
             "de": {
@@ -25854,7 +26123,11 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "toit"
+              ]
+            }
           },
           {
             "de": {
@@ -25863,13 +26136,30 @@ const A1_WORDS = [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "toit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "toit"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "ēst"
+              "essen"
             ]
           }
         ],
@@ -25886,56 +26176,56 @@ const A1_WORDS = [
   {
     "de": "Essen",
     "de_article": "das",
-    "lv": "Τροφή",
+    "lv": "Toalett",
     "level": "A1",
     "study": {
       "id": "a1-essen-study",
       "layout": "standardStudy",
-      "translation": "Τροφή",
+      "translation": "Toalett",
       "explanation": [
-        "Κύρια ιδέα: Ουσιαστικό — φαγητό ή πλήρες γεύμα.",
-        "Das Essen σημαίνει κυρίως: να καταναλώνεις φαγητό.",
-        "Συχνά περιγράφει: δράση.",
-        "Das Essen σημαίνει κυρίως: φαγητό ή γεύμα.",
-        "Συχνά περιγράφει: ένα πράγμα.",
-        "Essen σημαίνει τρώω.",
-        "Das Essen μπορεί να σημαίνει φαγητό ή γεύμα γενικά."
+        "Põhiidee: Nimisõna — toit või terve söökord.",
+        "Das Essen gejättättä: toitu tarbima.",
+        "Sagelie speltab: aktivitet.",
+        "Das Essen gejättättää: toit või söökord.",
+        "Sagely speltab: asja.",
+        "Essen betyr sömmist.",
+        "Das Essen kan bety et tak eller et spisebord generelt."
       ],
       "examples": [
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Το φαγητό έχει καλή γεύση."
+          "lv": "Toit maisab hest."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Τι θες να φας"
+          "lv": "Mida te tahate spise?"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Τρώμε στις 12 η ώρα."
+          "lv": "Me some kell 12."
         },
         {
           "de": "Das Essen ist fertig.",
-          "lv": "Το φαγητό είναι έτοιμο."
+          "lv": "Toit på valmis."
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Το φαγητό έχει πολύ καλή γεύση."
+          "lv": "Toit maisab väga häst."
         },
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Το φαγητό έχει καλή γεύση."
+          "lv": "Toit maisab hest."
         }
       ],
       "tip": [
-        "Das Essen = φαγητό • Γεύμα",
-        "Χρησιμοποιήστε τη λέξη das Essen όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "das Essen = ēst",
+        "Izmanto das Essen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Το essen είναι ρήμα χωρίς άρθρο — σημαίνει τρώω.",
-        "Das Essen δεν είναι το ίδιο με το Essen.",
-        "Δράση: essen.",
-        "Πράγμα/γεύμα: das Essen."
+        "essen ir darbības vārds bez artikula.",
+        "das Essen nav tas pats, kas essen.",
+        "Darbība: essen.",
+        "Lieta/maltīte: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25944,8 +26234,8 @@ const A1_WORDS = [
             "essen"
           ],
           "purple": [
-            "ēdiens",
-            "maltīte"
+            "toit",
+            "söökord"
           ],
           "green": [
             "Essen"
@@ -25961,49 +26251,36 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ēdiens"
+                "toit",
+                "Toit"
               ]
             }
           },
           {
             "de": {
               "yellow": [
-                "essen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "essen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
+                "Was",
                 "essen"
               ]
             },
             "lv": {
               "purple": [
-                "ēdiens"
+                "mida",
+                "mida"
               ]
             }
           },
           {
             "de": {
               "yellow": [
-                "das Essen",
+                "Wir",
                 "essen"
               ]
             },
             "lv": {
               "purple": [
-                "ēdiens"
+                "some",
+                "some"
               ]
             }
           },
@@ -26016,17 +26293,58 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ēdiens"
+                "toit",
+                "toit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "toit",
+                "toit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "toit",
+                "toit"
               ]
             }
           }
         ],
         "tip": [
-          {},
-          {}
+          {
+            "purple": [
+              "das"
+            ]
+          },
+          {
+            "purple": [
+              "das"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "yellow": [
+              "essen"
+            ]
+          }
         ]
       }
     }
@@ -26034,51 +26352,51 @@ const A1_WORDS = [
   {
     "de": "Gemüse",
     "de_article": "das",
-    "lv": "Λαχανικά",
+    "lv": "Kjøkken-elskende",
     "level": "A1",
     "study": {
       "id": "a1-gemuese",
       "layout": "standardStudy",
-      "translation": "Λαχανικά",
+      "translation": "Kjøkken-elskende",
       "explanation": [
-        "Κύρια ιδέα: Τα λαχανικά γενικά. Στα γερμανικά δεν υπάρχει πληθυντικός αριθμός *die Gemüse.",
-        "Das Gemüse σημαίνει κυρίως: λαχανικά γενικά.",
-        "Συχνά περιγράφει: μέση λύση (μόνο στον ενικό)."
+        "Põhiidee: Köögiviljad generelt. Saksa keeles ei ole mitmuse vormi *die Gemüse.",
+        "Das Gemüse geschäfte geschäfte: gemeuses generelt.",
+        "Sagely ekspetab: kesksoos (ainult ainsuses)."
       ],
       "examples": [
         {
           "de": "Ich esse gern Gemüse.",
-          "lv": "Μου αρέσει να τρώω λαχανικά."
+          "lv": "Ma söen meelsasti küdüvilju."
         },
         {
           "de": "Ich esse gern Gemüse.",
-          "lv": "Μου αρέσει να τρώω λαχανικά."
+          "lv": "Ma söen meelsasti küdüvilju."
         },
         {
           "de": "Das Gemüse ist frisch.",
-          "lv": "Τα λαχανικά είναι φρέσκα."
+          "lv": "Köögiviljad på fressed."
         },
         {
           "de": "Wir kaufen Gemüse auf dem Markt.",
-          "lv": "Αγοράζουμε λαχανικά από την αγορά."
+          "lv": "Me ostame turult kjøkken vil."
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "Μου αρέσουν τα φρούτα και τα λαχανικά."
+          "lv": "Mulle palavad frukt og grønnsaker."
         },
         {
           "de": "Ich esse Gemüse.",
-          "lv": "Τρώω λαχανικά."
+          "lv": "Ma søt kjøkken vil."
         }
       ],
       "tip": [
-        "Das Gemüse = λαχανικά",
-        "Χρησιμοποιήστε τη λέξη das Gemüse όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "das Gemüse = dārzeņi",
+        "Izmanto das Gemüse, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Δεν είναι σωστό: die Gemüse, die Obsts.",
-        "Λάθος: die Gemüse → Σωστό: das Gemüse",
-        "Das Gemüse = λαχανικά (γενικά)."
+        "Nav pareizi: die Gemüse, die Obsts.",
+        "Nepareizi: die Gemüse → Pareizi: das Gemüse",
+        "das Gemüse = dārzeņi (kopumā)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26087,7 +26405,7 @@ const A1_WORDS = [
             "gemüse"
           ],
           "purple": [
-            "dārzeņi"
+            "köögiviljad"
           ],
           "green": [
             "Gemüse"
@@ -26097,24 +26415,26 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "Ich",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "dārzeņu"
+                "söen"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "Ich",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "dārzeņu"
+                "söen"
               ]
             }
           },
@@ -26127,43 +26447,46 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dārzeņi"
+                "köögiviljad"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "Wir",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "dārzeņu"
+                "ostame"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "Ich",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "dārzeņi"
+                "Mulle"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "Ich",
                 "gemüse"
               ]
             },
             "lv": {
               "purple": [
-                "dārzeņu"
+                "søt"
               ]
             }
           }
@@ -26171,12 +26494,16 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "dārzeņi"
+              "das"
             ]
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Nav"
+            ]
+          }
         ]
       }
     }
@@ -26184,46 +26511,46 @@ const A1_WORDS = [
   {
     "de": "Obst",
     "de_article": "das",
-    "lv": "Φρούτα",
+    "lv": "Uvillig",
     "level": "A1",
     "study": {
       "id": "a1-obst",
       "layout": "standardStudy",
-      "translation": "Φρούτα",
+      "translation": "Uvillig",
       "explanation": [
-        "Κύρια ιδέα: Τα φρούτα γενικά. Στα γερμανικά δεν υπάρχει πληθυντικός αριθμός *die Obsts.",
-        "Das Obst σημαίνει κυρίως: φρούτα γενικά.",
-        "Συχνά περιγράφει: μέση λύση (μόνο στον ενικό)."
+        "Põhiidee: Puuwiljad generelt. Saksa keeles ei ole mitmuse vormi *die Obsts.",
+        "Das Obst betyr geschäfte: frukt generelt.",
+        "Sagely ekspetab: kesksoos (ainult ainsuses)."
       ],
       "examples": [
         {
           "de": "Wir essen viel Obst.",
-          "lv": "Τρώμε πολλά φρούτα."
+          "lv": "Me söme palju puuvilju."
         },
         {
           "de": "Wir essen viel Obst.",
-          "lv": "Τρώμε πολλά φρούτα."
+          "lv": "Me söme palju puuvilju."
         },
         {
           "de": "Obst ist gesund.",
-          "lv": "Τα φρούτα είναι υγιεινά."
+          "lv": "Usunn"
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "Μου αρέσουν τα φρούτα και τα λαχανικά."
+          "lv": "Mulle palavad frukt og grønnsaker."
         },
         {
           "de": "Wir essen Obst.",
-          "lv": "Τρώμε φρούτα."
+          "lv": "Me söme puuvilju."
         }
       ],
       "tip": [
-        "Das Obst = καρποί",
-        "Χρησιμοποιήστε τη λέξη das Obst όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "das Obst = augļi",
+        "Izmanto das Obst, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Λάθος: die Obsts → Σωστό: das Obst",
-        "Das Obst = φρούτα (γενικά)."
+        "Nepareizi: die Obsts → Pareizi: das Obst",
+        "das Obst = augļi (kopumā)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26232,7 +26559,7 @@ const A1_WORDS = [
             "obst"
           ],
           "purple": [
-            "augļi"
+            "Puuwiljad"
           ],
           "yellow": [
             "Obst"
@@ -26242,60 +26569,65 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "Wir",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "augļu"
+                "puuvilju"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Wir",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "augļu"
+                "puuvilju"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Obst",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "augļi"
+                "Usunn"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Ich",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "augļi"
+                "Mulle"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Wir",
                 "obst"
               ]
             },
             "lv": {
               "purple": [
-                "augļu"
+                "puuvilju"
               ]
             }
           }
@@ -26303,7 +26635,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "augļi"
+              "das"
             ]
           }
         ],
@@ -26320,65 +26652,65 @@ const A1_WORDS = [
   {
     "de": "Ferien",
     "de_article": "die",
-    "lv": "Διάλειμμα (σχολείο)",
+    "lv": "Vaheag (kul)",
     "level": "A1",
     "study": {
       "id": "a1-ferien",
       "layout": "standardStudy",
-      "translation": "Διάλειμμα (σχολείο)",
+      "translation": "Vaheag (kul)",
       "explanation": [
-        "Κύρια ιδέα: μόνο πληθυντικός. Σχολείο ή διάλειμμα σπουδών — πάντα στον πληθυντικό.",
-        "Die Ferien σημαίνει κυρίως: σχολικές διακοπές.",
-        "Συχνά περιγράφει: μόνο πληθυντικός.",
-        "Το die Ferien είναι μόνο πληθυντικός — πάντα πληθυντικός (in den Ferien)."
+        "Hovedidé: bare mitmus. Kooli- või päävaheag — alati mitmuses.",
+        "Die Ferien geschäfte geicht: koolivaheag.",
+        "Sagelie omprestab: sägele mitmus.",
+        "Die Ferien on mitke mitmuses — alati mitmuses (in den Ferien)."
       ],
       "examples": [
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Στο διάλειμμα οδηγούμε προς τη θάλασσα."
+          "lv": "Vaheajal sålaime me mere eärde."
         },
         {
           "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "Έχω πολύ χρόνο στο διάλειμμα."
+          "lv": "Vaheajal på mul palju aega."
         },
         {
           "de": "Was macht ihr in den Ferien?",
-          "lv": "Τι κάνεις στο διάλειμμά σου • "
+          "lv": "Mida te vaheajal teete?"
         },
         {
           "de": "Die Schule ist in den Ferien zu.",
-          "lv": "Το σχολείο είναι κλειστό στο διάλειμμα."
+          "lv": "Kool på vaehajal lukket."
         },
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Στο διάλειμμα οδηγούμε στη θάλασσα."
+          "lv": "Vaheajal sålaime me mere eärde."
         },
         {
           "de": "In den Ferien",
-          "lv": "Στο διάλειμμα (σχολείο)."
+          "lv": "Vahejal (kul)."
         }
       ],
       "comparison": [
         {
           "word": "die Ferien",
-          "meaning": "Σχολικό/πανεπιστημιακό διάλειμμα (μόνο πληθυντικός)",
-          "example": "In den Ferien fahren wir weg. – Στο διάλειμμα πάμε κάπου."
+          "meaning": "Kooli/ülikooli vaheaeg (ainult mitmuses)",
+          "example": "In den Ferien fahren wir weg. – Vaheajal savlaime meg kuhugi ære."
         },
         {
           "word": "der Urlaub",
-          "meaning": "Άδεια από την εργασία (μόνο ενικό)",
-          "example": "Ich habe zwei Wochen Urlaub. – Έχω δύο εβδομάδες άδεια."
+          "meaning": "Puhkus töolt (ainult ains.)",
+          "example": "Ich habe zwei Wochen Urlaub. – Mul on kaks veekt puhkust."
         }
       ],
       "tip": [
-        "Πληθυντικό μόνο. Σχολείο ή διάλειμμα σπουδών — πάντα στον πληθυντικό.",
-        "Χρησιμοποιήστε τη λέξη die Ferien όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
+        "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Ferien πάντα με Dative: στο den Ferien.",
-        "Λάθος: in der Ferien → Σωστό: in den Ferien",
-        "Σχολείο: die Ferien (μόνο πληθυντικός).",
-        "Πληθυντικό μόνο. Σχολείο ή διάλειμμα σπουδών — πάντα στον πληθυντικό."
+        "Ferien vienmēr ar datīvu: in den Ferien.",
+        "Nepareizi: in der Ferien → Pareizi: in den Ferien",
+        "Skola: die Ferien (tikai daudzskaitlī).",
+        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26387,7 +26719,8 @@ const A1_WORDS = [
             "ferien"
           ],
           "purple": [
-            "skola"
+            "Hovedidé",
+            "kool"
           ],
           "green": [
             "Ferien"
@@ -26397,61 +26730,95 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
+                "den",
                 "ferien"
               ]
             },
             "lv": {
               "purple": [
-                "brīvdienas (skola)"
+                "Vaheajal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "den",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vaheajal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mida"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Die",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kool"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "den",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vaheajal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "den",
+                "ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vahejal"
               ]
             }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "tikai"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "Ferien"
+            ]
+          }
         ]
       }
     }
@@ -26459,61 +26826,61 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
-    "lv": "Διακοπές",
+    "lv": "Puhkus",
     "level": "A1",
     "study": {
       "id": "a1-urlaub",
       "layout": "standardStudy",
-      "translation": "Διακοπές",
+      "translation": "Puhkus",
       "explanation": [
-        "Κύρια ιδέα: Μόνο ενικός αριθμός. Διακοπές από τη δουλειά — πάντα μοναδικές.",
-        "Der Urlaub ουσιαστικά σημαίνει: άδεια από τη δουλειά.",
-        "Συχνά περιγράφει: ενικό μόνο.",
-        "Der Urlaub είναι μόνο στον ενικό — διακοπές από την εργασία (im Urlaub)."
+        "Hovedidé: bare ainsus. Puhkus töolt — alati ainsuses.",
+        "Der Urlaub geichnätt geicht: vaba aeg töölt.",
+        "Sageli occertab: sagi ainsus.",
+        "Der Urlaub på bare ainsuses - puhkus töölt (im Urlaub)."
       ],
       "examples": [
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "Ο πατέρας μου κάνει διακοπές."
+          "lv": "Minu isa på ferie."
         },
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "Ο πατέρας μου κάνει διακοπές."
+          "lv": "Minu isa på ferie."
         },
         {
           "de": "Nächste Woche habe ich Urlaub.",
-          "lv": "Έχω διακοπές την επόμενη εβδομάδα."
+          "lv": "Siekel vekkus på mul puhkus."
         },
         {
           "de": "Wir machen Urlaub in Spanien.",
-          "lv": "Περνάμε τις διακοπές μας στην Ισπανία."
+          "lv": "Me veedame veidame Españas."
         },
         {
           "de": "im Urlaub",
-          "lv": "Σε διακοπές (εργασία)."
+          "lv": "Puhkusel (töö)."
         }
       ],
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "Άδεια από την εργασία (μόνο ενικό)",
-          "example": "Mein Vater ist im Urlaub. – Ο πατέρας μου κάνει διακοπές."
+          "meaning": "Puhkus töolt (ainult ains.)",
+          "example": "Mein Vater ist im Urlaub. – Minu isa på ferie."
         },
         {
           "word": "die Ferien",
-          "meaning": "Σχολικό/πανεπιστημιακό διάλειμμα (μόνο πληθυντικός)",
-          "example": "Die Kinder haben Ferien. – Τα παιδιά έχουν διάλειμμα."
+          "meaning": "Kooli/ülikooli vaheaeg (ainult mitmuses)",
+          "example": "Die Kinder haben Ferien. – Lastel på vaheheg."
         }
       ],
       "tip": [
-        "Ενικό μόνο. Διακοπές από τη δουλειά — πάντα μοναδικές.",
-        "Χρησιμοποιήστε τη λέξη der Urlaub όταν το περιεχόμενο αντιστοιχεί σε αυτήν την έννοια."
+        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+        "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Δεν είναι σωστό: die Ferie, der Urlabe (σε επίπεδο Α1).",
+        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Λάθος: die Urlabe → Σωστό: der Urlaub",
-        "Έργο: der Urlaub (μόνο στον ενικό)."
+        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
+        "Darbs: der Urlaub (tikai vienskaitlī)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26522,7 +26889,7 @@ const A1_WORDS = [
             "urlaub"
           ],
           "purple": [
-            "atvaļinājums"
+            "puhkus"
           ],
           "yellow": [
             "Urlaub"
@@ -26532,60 +26899,65 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "Mein",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "atvaļinājumā"
+                "Minu"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Mein",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "atvaļinājumā"
+                "Minu"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Nächste",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "atvaļinājums"
+                "puhkus"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Wir",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "atvaļinājumu"
+                "veedame"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Urlaub",
                 "urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "atvaļinājumā"
+                "puhkusel"
               ]
             }
           }
@@ -26593,14 +26965,14 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "atvaļinājums"
+              "tikai"
             ]
           }
         ],
         "important": [
           {
             "green": [
-              "der Urlaub"
+              "der Urlaube"
             ]
           }
         ]
@@ -26611,65 +26983,65 @@ const A1_WORDS = [
     "de": "Stadt",
     "de_article": "die",
     "de_plural": "die Städte",
-    "lv": "Πόλη",
+    "lv": "Sengetøy",
     "level": "A1"
   },
   {
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "Χώρα",
+    "lv": "Riik",
     "level": "A1"
   },
   {
     "de": "Uhr",
     "de_article": "die",
     "de_plural": "die Uhren",
-    "lv": "Στο",
+    "lv": "Kell",
     "level": "A1",
     "study": {
       "id": "a1-uhr",
       "layout": "standardStudy",
-      "translation": "Στο",
+      "translation": "Kell",
       "explanation": [
-        "Κύρια ιδέα: Ρολόι ή ρολόι. Επίσης η ώρα: Es ist acht Uhr.",
-        "Die Uhr σημαίνει κυρίως: ρύθμιση ή ώρα της ημέρας.",
-        "Συχνά περιγράφει: μια συγκεκριμένη ώρα της ημέρας.",
-        "Die Uhr σημαίνει ρολόι — συσκευή ή ώρα (Es ist acht Uhr, meine Uhr)."
+        "Hovedidé: Kell või käekell. Ka kellaaeg: Es ist acht Uhr.",
+        "The Uhr betyr hovedsakelig: seade või kellaaeg.",
+        "Sagelie ompretab: konkreetne kellaaeg.",
+        "Die Uhr jähät kella — erätt või kellaaega (Es ist acht Uhr, meine Uhr)."
       ],
       "examples": [
         {
           "de": "Es ist acht Uhr.",
-          "lv": "Είναι οκτώ (οχτώ η ώρα)."
+          "lv": "På ome (kell ome)."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "Είναι οκτώ (οχτώ η ώρα)."
+          "lv": "På ome (kell ome)."
         },
         {
           "de": "Meine Uhr ist kaputt.",
-          "lv": "Το ρολόι μου έχει σπάσει."
+          "lv": "Minu kell på katki."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "Είναι οκτώ."
+          "lv": "På åtte."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "Είναι οκτώ (η ώρα)."
+          "lv": "På ome (kell)."
         },
         {
           "de": "die Uhr",
-          "lv": "Το ρολόι δείχνει την ώρα."
+          "lv": "Kell viser aega."
         }
       ],
       "tip": [
-        "Ρολόι ή ρολόι. Επίσης η ώρα: Es ist acht Uhr.",
-        "Χρησιμοποιήστε τη λέξη die Uhr όταν το περιεχόμενο αντιστοιχεί σε αυτό το νόημα."
+        "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
+        "Izmanto die Uhr, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Die Uhr: ρύθμιση (meine Uhr) ή ώρα (acht Uhr).",
-        "Το die Uhr δεν είναι το ίδιο με το die Zeit: το die Uhr είναι μια συσκευή που δείχνει το die Zeit ή την ώρα."
+        "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
+        "die Uhr: pārbaudi kontekstu pirms lietošanas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26677,76 +27049,90 @@ const A1_WORDS = [
             "Uhr"
           ],
           "purple": [
-            "pulkstenis"
+            "kell"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "ist",
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "pulksten"
+                "kell"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "ist",
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "pulksten"
+                "kell"
               ]
             }
           },
           {
             "de": {
               "blue": [
+                "Meine",
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "pulkstenis"
+                "kell"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
+                "ist",
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "pulksten"
+                "åtte"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "die Uhr",
+                "ist",
                 "uhr"
               ]
             },
             "lv": {
               "purple": [
-                "pulkstenī"
+                "kell"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Uhr"
+              ],
+              "green": [
+                "die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kell"
+              ],
+              "yellow": [
+                "aega"
               ]
             }
           }
@@ -26754,7 +27140,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "pulkstenis"
+              "Pulkstenis"
             ]
           }
         ],
@@ -26772,43 +27158,43 @@ const A1_WORDS = [
     "de": "Zeit",
     "de_article": "die",
     "de_plural": "die Zeiten",
-    "lv": "Χρόνος (στιγμή / χρονική περίοδος)",
+    "lv": "Aeg",
     "level": "A1",
     "study": {
       "id": "a1-zeit",
       "layout": "standardStudy",
-      "translation": "Χρόνος (στιγμή / χρονική περίοδος)",
+      "translation": "Aeg",
       "explanation": [
-        "Κύρια ιδέα: Ο χρόνος ως έννοια — μια στιγμή, μια ευκαιρία, μια χρονική περίοδος.",
-        "Die Zeit σημαίνει κυρίως: στιγμή, ευκαιρία.",
-        "Συχνά περιγράφει: μια αφηρημένη έννοια.",
-        "Το die Zeit είναι μια αφηρημένη έννοια — χρόνος, στιγμή ή ευκαιρία (Ich habe keine Zeit)."
+        "Põhiidee: Aeg kui sämätä — hetk, säää, ajabääkät.",
+        "Die Zeit geschäfte geschäftig: varme, kraft.",
+        "Sagelie omprestab: abstraktne sämte.",
+        "Die Zeit on absträktne sämte — aeg, hetk või svett (Ich habe keine Zeit)."
       ],
       "examples": [
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Δεν έχω χρόνο."
+          "lv": "Mul ei ole aega."
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "Δεν έχω χρόνο."
+          "lv": "Mul ei ole aega."
         },
         {
           "de": "Hast du Zeit?",
-          "lv": "Έχεις χρόνο"
+          "lv": "Kas sul på aega?"
         },
         {
           "de": "Die Zeit vergeht schnell.",
-          "lv": "Ο χρόνος περνάει γρήγορα."
+          "lv": "Tiden gikk fort."
         }
       ],
       "tip": [
-        "Ο χρόνος ως έννοια — μια στιγμή, μια ευκαιρία, μια χρονική περίοδος.",
-        "Χρησιμοποιήστε τη λέξη die Zeit όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "Laiks kā jēdziens — brīdis, iespēja, laika posms.",
+        "Izmanto die Zeit, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Die Zeit: ελέγξτε το πλαίσιο πριν χρησιμοποιήσετε.",
-        "Die Zeit: ελέγξτε το πλαίσιο πριν χρησιμοποιήσετε."
+        "die Zeit: pārbaudi kontekstu pirms lietošanas.",
+        "die Zeit: pārbaudi kontekstu pirms lietošanas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26817,7 +27203,7 @@ const A1_WORDS = [
             "zeit"
           ],
           "purple": [
-            "laiks"
+            "aeg"
           ],
           "yellow": [
             "Zeit"
@@ -26827,36 +27213,39 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
+                "Ich",
                 "zeit"
               ]
             },
             "lv": {
               "purple": [
-                "laika"
+                "aega"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Ich",
                 "zeit"
               ]
             },
             "lv": {
               "purple": [
-                "laika"
+                "aega"
               ]
             }
           },
           {
             "de": {
               "green": [
+                "Hast",
                 "zeit"
               ]
             },
             "lv": {
               "purple": [
-                "laiks"
+                "aega"
               ]
             }
           },
@@ -26869,7 +27258,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laiks"
+                "Tiden"
               ]
             }
           }
@@ -26877,7 +27266,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "laiks"
+              "Laiks"
             ]
           }
         ],
@@ -26893,35 +27282,35 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "Μια φορά • Μια φορά",
+    "lv": "Üks kord • Kord",
     "level": "A1",
     "study": {
       "id": "a1-einmal",
       "layout": "standardStudy",
-      "translation": "Μια φορά • Μια φορά",
+      "translation": "Üks kord • Kord",
       "explanation": [
-        "Κύρια ιδέα: Αναφέρεται σε μια εποχή ή παρελθόν (κάποτε ήμουν...).",
-        "Einmal σημαίνει κυρίως: κάποτε / στο παρελθόν.",
-        "Συχνά περιγράφει: μια χρονική σειρά.",
-        "Το einmal αναφέρεται σε μια εποχή ή στο παρελθόν (κάποτε εγώ...)."
+        "Põhiidee: Osutab özlele korale või korrale (kord ma olin...).",
+        "Einmal jäytä säyätä: üks kord / körätäs.",
+        "Sagelie speltab: ajamärust.",
+        "Einmal yukta özlele korale või korrale (kord ma...)."
       ],
       "examples": [
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "Ήμουν κάποτε στο Βερολίνο."
+          "lv": "Ma olin kord Berlinis."
         },
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "Ήμουν κάποτε στο Βερολίνο."
+          "lv": "Ma olin kord Berlinis."
         }
       ],
       "tip": [
-        "Einmal = μια φορά",
-        "Χρησιμοποιήστε τη λέξη einmal όταν το περιεχόμενο ταιριάζει με αυτή τη σημασία."
+        "einmal = vienreiz",
+        "Izmanto einmal, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Einmal = μια φορά ή μια φορά στο παρελθόν.",
-        "Αναφέρεται σε μια εποχή ή παρελθόν (κάποτε ήμουν...)."
+        "einmal = vienreiz vai reiz pagātnē.",
+        "Norāda uz vienu reizi vai pagātni (reiz es biju...)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26929,7 +27318,8 @@ const A1_WORDS = [
             "einmal"
           ],
           "purple": [
-            "reiz"
+            "üks kord",
+            "kord"
           ]
         },
         "examples": [
@@ -26942,7 +27332,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reiz"
+                "olin",
+                "kord"
               ]
             }
           },
@@ -26955,7 +27346,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reiz"
+                "olin",
+                "kord"
               ]
             }
           }
@@ -26963,12 +27355,12 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "vienreiz"
+              "einmal"
             ]
           },
           {
             "purple": [
-              "reiz"
+              "einmal"
             ]
           }
         ],
@@ -26984,41 +27376,44 @@ const A1_WORDS = [
   },
   {
     "de": "noch mal",
-    "lv": "Άλλη μιά φορά",
+    "lv": "Mange ganger",
     "level": "A1",
     "study": {
       "id": "a1-noch-mal",
       "layout": "standardStudy",
-      "translation": "Άλλη μιά φορά",
+      "translation": "Mange ganger",
       "explanation": [
-        "Κύρια ιδέα: Σημαίνει για άλλη μια φορά — να επαναλάβετε μια ενέργεια ή να ζητήσετε να επαναληφθεί."
+        "Põhiidee: Περιστή veel kord — Αρχείτε korrata või paluda kordamist."
       ],
       "examples": [
         {
           "de": "Noch mal, bitte.",
-          "lv": "Για άλλη μια φορά, παρακαλώ."
+          "lv": "Mye kord, palun."
         },
         {
           "de": "Noch mal, bitte.",
-          "lv": "Άλλη μια φορά παρακαλώ."
+          "lv": "Mye kord, palun."
         },
         {
           "de": "Sag das noch mal.",
-          "lv": "Πες το ξανά"
+          "lv": "Ütle seda veel körd."
         }
       ],
       "tip": [
-        "Χρησιμοποιήστε τη λέξη noch mal όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία.",
-        "Χρησιμοποιήστε τη λέξη noch mal όταν το περιεχόμενο αντιστοιχεί σε αυτή τη σημασία."
+        "Izmanto noch mal, kad konteksts atbilst šai nozīmei.",
+        "Izmanto noch mal, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Σημαίνει για άλλη μια φορά — να επαναλάβετε τη δράση ή να ζητήσετε να επαναληφθεί.",
-        "Noch mal: ελέγξτε το πλαίσιο πριν από τη χρήση."
+        "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
+        "noch mal: pārbaudi kontekstu pirms lietošanas."
       ],
       "sectionAccents": {
         "explanation": {
+          "yellow": [
+            "Põhiidee"
+          ],
           "purple": [
-            "vēlreiz"
+            "veel kord"
           ]
         },
         "examples": [
@@ -27031,7 +27426,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēlreiz"
+                "Mye"
               ]
             }
           },
@@ -27044,7 +27439,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēlreiz"
+                "Mye"
               ]
             }
           },
@@ -27057,16 +27452,24 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vēlreiz"
+                "veel kord"
               ]
             }
           }
         ],
         "tip": [
-          {}
+          {
+            "purple": [
+              "Izmanto"
+            ]
+          }
         ],
         "important": [
-          {}
+          {
+            "yellow": [
+              "Nozīmē"
+            ]
+          }
         ]
       }
     }
