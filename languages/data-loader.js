@@ -187,7 +187,7 @@
       try {
         await loadScript(resolved.path);
         loadedDatasetScripts.add(resolved.path);
-        if ((nativeLanguage === "lt" || nativeLanguage === "uk" || nativeLanguage === "ru" || nativeLanguage === "sl" || nativeLanguage === "bs" || nativeLanguage === "sr" || nativeLanguage === "hr" || nativeLanguage === "sk" || nativeLanguage === "cs" || nativeLanguage === "fi" || nativeLanguage === "sv" || nativeLanguage === "nb" || nativeLanguage === "nn" || nativeLanguage === "da" || nativeLanguage === "nl" || nativeLanguage === "lb" || nativeLanguage === "fr" || nativeLanguage === "it" || nativeLanguage === "es") && dataset === "courseLessons") {
+        if ((nativeLanguage === "lt" || nativeLanguage === "uk" || nativeLanguage === "ru" || nativeLanguage === "sl" || nativeLanguage === "bs" || nativeLanguage === "sr" || nativeLanguage === "hr" || nativeLanguage === "sk" || nativeLanguage === "cs" || nativeLanguage === "fi" || nativeLanguage === "sv" || nativeLanguage === "nb" || nativeLanguage === "nn" || nativeLanguage === "da" || nativeLanguage === "nl" || nativeLanguage === "lb" || nativeLanguage === "fr" || nativeLanguage === "it" || nativeLanguage === "es" || nativeLanguage === "pt") && dataset === "courseLessons") {
           const trainingCardsPath = `./data/${nativeLanguage}/courseTrainingCards.js`;
           if (await pathExists(trainingCardsPath)) {
             await loadScript(trainingCardsPath);

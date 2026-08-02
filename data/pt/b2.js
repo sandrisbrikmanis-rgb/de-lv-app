@@ -1,0 +1,15482 @@
+const B2_WORDS = [
+  {
+    "de": "Verantwortung",
+    "de_article": "die",
+    "de_plural": "die Verantwortungen",
+    "lv": "Atbildiba",
+    "level": "B2"
+  },
+  {
+    "de": "beeinflussen",
+    "lv": "Ietekmēt",
+    "level": "B2"
+  },
+  {
+    "de": "Voraussetzung",
+    "de_article": "die",
+    "de_plural": "die Voraussetzungen",
+    "lv": "Priekšnoteikums",
+    "level": "B2"
+  },
+  {
+    "de": "nachhaltig",
+    "lv": "Ilgtspējīgs",
+    "level": "B2"
+  },
+  {
+    "de": "zustimmen",
+    "lv": "Picorista",
+    "level": "B2"
+  },
+  {
+    "de": "widersprechen",
+    "lv": "Iebilst",
+    "level": "B2"
+  },
+  {
+    "de": "Entwicklung",
+    "de_article": "die",
+    "de_plural": "die Entwicklungen",
+    "lv": "Attistiba",
+    "level": "B2"
+  },
+  {
+    "de": "Akrobat",
+    "de_article": "der",
+    "de_plural": "die Akrobaten",
+    "lv": "Acrobatas",
+    "level": "B2"
+  },
+  {
+    "de": "Akrobatik",
+    "de_article": "die",
+    "de_plural": "die Akrobatiken",
+    "lv": "Acrobático",
+    "level": "B2"
+  },
+  {
+    "de": "Akt",
+    "de_article": "der",
+    "de_plural": "die Akte",
+    "lv": "Atos • Documentos",
+    "level": "B2"
+  },
+  {
+    "de": "akzeptabel",
+    "lv": "Aceitável",
+    "level": "B2"
+  },
+  {
+    "de": "Alibi",
+    "de_article": "das",
+    "de_plural": "die Alibis",
+    "lv": "Álibi",
+    "level": "B2"
+  },
+  {
+    "de": "Alkoholismus",
+    "de_article": "der",
+    "lv": "Alcoolismo",
+    "level": "B2"
+  },
+  {
+    "de": "anbelangen",
+    "lv": "Attiekties uz",
+    "level": "B2"
+  },
+  {
+    "de": "Analyse",
+    "de_article": "die",
+    "de_plural": "die Analysen",
+    "lv": "Analisar",
+    "level": "B2"
+  },
+  {
+    "de": "Anbau",
+    "de_article": "der",
+    "lv": "Criação • Teelt",
+    "level": "B2"
+  },
+  {
+    "de": "anfertigen",
+    "lv": "Izgatavot",
+    "level": "B2"
+  },
+  {
+    "de": "anführen",
+    "lv": "Minēt • Vadīt",
+    "level": "B2"
+  },
+  {
+    "de": "angebracht",
+    "lv": "Piemērots • Iederīgs",
+    "level": "B2"
+  },
+  {
+    "de": "angehen",
+    "lv": "Attiekties • Vērsties pret",
+    "level": "B2"
+  },
+  {
+    "de": "angehören",
+    "lv": "Bolo piederet",
+    "level": "B2"
+  },
+  {
+    "de": "Aktienkurs",
+    "de_article": "der",
+    "de_plural": "die Aktienkurse",
+    "lv": "Akcijas Kurss",
+    "level": "B2"
+  },
+  {
+    "de": "allerhand",
+    "lv": "Visadi • Dažādi",
+    "level": "B2"
+  },
+  {
+    "de": "andererseits",
+    "lv": "Outras pausas",
+    "level": "B2"
+  },
+  {
+    "de": "andernfalls",
+    "lv": "Pretējā gadījumā",
+    "level": "B2"
+  },
+  {
+    "de": "anbrechen",
+    "lv": "Sākties • Uzlauzt",
+    "level": "B2"
+  },
+  {
+    "de": "anbremsen",
+    "lv": "Sākt Bremzēt",
+    "level": "B2"
+  },
+  {
+    "de": "anfreunden",
+    "lv": "Sadraudzēties",
+    "level": "B2"
+  },
+  {
+    "de": "angeblich",
+    "lv": "It kā • Šķietami",
+    "level": "B2"
+  },
+  {
+    "de": "angeboren",
+    "lv": "Iedzimts",
+    "level": "B2"
+  },
+  {
+    "de": "angelegt",
+    "lv": "Izveidots • Ieguldīts",
+    "level": "B2"
+  },
+  {
+    "de": "angeordnet",
+    "lv": "Notas • Pavēlēts",
+    "level": "B2"
+  },
+  {
+    "de": "angehoben",
+    "lv": "Paaugstinats",
+    "level": "B2"
+  },
+  {
+    "de": "angegriffen",
+    "lv": "Noguris • Uzbrukts",
+    "level": "B2"
+  },
+  {
+    "de": "abberufen",
+    "lv": "Atsaukt • Atbrīvot não amado",
+    "level": "B2"
+  },
+  {
+    "de": "abblitzen",
+    "lv": "Noraidit",
+    "level": "B2"
+  },
+  {
+    "de": "abbringen",
+    "lv": "Atrunāt • Atturēt • Novirzīt",
+    "level": "B2"
+  },
+  {
+    "de": "Abendblatt",
+    "de_article": "das",
+    "de_plural": "die Abendblätter",
+    "lv": "Laikraksts de Vakara",
+    "level": "B2"
+  },
+  {
+    "de": "Abendgebet",
+    "de_article": "das",
+    "de_plural": "die Abendgebete",
+    "lv": "Vakara lugšana",
+    "level": "B2"
+  },
+  {
+    "de": "Abenteuerlust",
+    "de_article": "die",
+    "lv": "Deku kare",
+    "level": "B2"
+  },
+  {
+    "de": "Abfallprodukt",
+    "de_article": "das",
+    "de_plural": "die Abfallprodukte",
+    "lv": "Atkritumpprodukts",
+    "level": "B2"
+  },
+  {
+    "de": "abfällig",
+    "lv": "Nelabvēlīgs • Negatīvs • Slikts • Noraidošs",
+    "level": "B2"
+  },
+  {
+    "de": "abfertigen",
+    "lv": "Nosūtīt • Aizsūtīt • Apkalpot • Izturēties nelaipni",
+    "level": "B2"
+  },
+  {
+    "de": "sich abfinden",
+    "lv": "Samierināties ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-abfinden",
+      "layout": "minimalStudy",
+      "translation": "Samierināties ar",
+      "rektion": "mit + kam?",
+      "explanation": "Sich abfinden nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich abfinden"
+          ],
+          "red": [
+            "mit + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "abgesehen",
+    "lv": "Lai gan • Turklat",
+    "level": "B2"
+  },
+  {
+    "de": "abgespannt",
+    "lv": "Noguris • Parguris",
+    "level": "B2"
+  },
+  {
+    "de": "abgetan",
+    "lv": "Izbeigts • Nokartots",
+    "level": "B2"
+  },
+  {
+    "de": "abgrenzen",
+    "lv": "Norobežot • Distâncias",
+    "level": "B2"
+  },
+  {
+    "de": "Abgrund",
+    "de_article": "der",
+    "de_plural": "die Abgründe",
+    "lv": "Bezdibenis",
+    "level": "B2"
+  },
+  {
+    "de": "abhören",
+    "lv": "Noklausīties • Slepeni noklausīties",
+    "level": "B2"
+  },
+  {
+    "de": "ableiten",
+    "lv": "Novadīt • Novirzīt • Atvasināt",
+    "level": "B2"
+  },
+  {
+    "de": "Abneigung",
+    "de_article": "die",
+    "de_plural": "die Abneigungen",
+    "lv": "Nepatika • Antipatia",
+    "level": "B2"
+  },
+  {
+    "de": "Abnutzung",
+    "de_article": "die",
+    "de_plural": "die Abnutzungen",
+    "lv": "Uitputtingsslag • Uitputtingsslag • Uitputtingsslag",
+    "level": "B2"
+  },
+  {
+    "de": "Abonnent",
+    "de_article": "der",
+    "de_plural": "die Abonnenten",
+    "lv": "Fertilizantes",
+    "level": "B2"
+  },
+  {
+    "de": "abrichten",
+    "lv": "Dresēt dzīvnieku",
+    "level": "B2"
+  },
+  {
+    "de": "Abrüstung",
+    "de_article": "die",
+    "de_plural": "die Abrüstungen",
+    "lv": "Atbruņošanas",
+    "level": "B2"
+  },
+  {
+    "de": "Absatzmarkt",
+    "de_article": "der",
+    "de_plural": "die Absatzmärkte",
+    "lv": "Noieta tirgus",
+    "level": "B2"
+  },
+  {
+    "de": "abscheulich",
+    "lv": "Riebīgs • Pretīgs",
+    "level": "B2"
+  },
+  {
+    "de": "abschieben",
+    "lv": "Aizstumt • Izraidīt",
+    "level": "B2"
+  },
+  {
+    "de": "abschlagen",
+    "lv": "Nocirst • Atsist • Atvairīt • Noraidīt",
+    "level": "B2"
+  },
+  {
+    "de": "abschleppen",
+    "lv": "Aizvākt automasīnu",
+    "level": "B2"
+  },
+  {
+    "de": "abschrecken",
+    "lv": "Iebiedēt • Strauji atdzesēt",
+    "level": "B2"
+  },
+  {
+    "de": "Abschrift",
+    "de_article": "die",
+    "de_plural": "die Abschriften",
+    "lv": "Noraksts • Kopija",
+    "level": "B2"
+  },
+  {
+    "de": "absondern",
+    "lv": "Izdalīt • Atdalīt • Izolēt",
+    "level": "B2"
+  },
+  {
+    "de": "Abstammung",
+    "de_article": "die",
+    "de_plural": "die Abstammungen",
+    "lv": "Izcelsme",
+    "level": "B2"
+  },
+  {
+    "de": "Abstecher",
+    "de_article": "der",
+    "de_plural": "die Abstecher",
+    "lv": "Novirzīšanās • Īss izbrauciens",
+    "level": "B2"
+  },
+  {
+    "de": "abstimmen",
+    "lv": "Nobalsot • Saskaņot",
+    "level": "B2"
+  },
+  {
+    "de": "Abstimmung",
+    "de_article": "die",
+    "de_plural": "die Abstimmungen",
+    "lv": "Balsošana",
+    "level": "B2"
+  },
+  {
+    "de": "abstoßend",
+    "lv": "Atbaidoss • Pretīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Absturz",
+    "de_article": "der",
+    "de_plural": "die Abstürze",
+    "lv": "Nogāšanas • Kritiens",
+    "level": "B2"
+  },
+  {
+    "de": "absurd",
+    "lv": "Absurdos • Bezjēdzīgs",
+    "level": "B2"
+  },
+  {
+    "de": "abtragen",
+    "lv": "Aiznest • Nonēsāt • Nojaukt",
+    "level": "B2"
+  },
+  {
+    "de": "abtreten",
+    "lv": "Atkāpties • Atdot • Aiziet",
+    "level": "B2"
+  },
+  {
+    "de": "abweichen",
+    "lv": "Atšķirties • Novirzīties",
+    "level": "B2"
+  },
+  {
+    "de": "abweisen",
+    "lv": "Noraidīt • Atraidīt",
+    "level": "B2"
+  },
+  {
+    "de": "abwenden",
+    "lv": "Novembro",
+    "level": "B2"
+  },
+  {
+    "de": "Affäre",
+    "de_article": "die",
+    "de_plural": "die Affären",
+    "lv": "Afera • Romanos",
+    "level": "B2"
+  },
+  {
+    "de": "sich abwenden",
+    "lv": "Novidades não",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-abwenden",
+      "layout": "minimalStudy",
+      "translation": "Novidades não",
+      "rektion": "von + kam?",
+      "explanation": "Sich abwenden nepieciešams noteikts prievārds von + kam?.",
+      "forms": "von + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich abwenden"
+          ],
+          "red": [
+            "von + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Abzweigung",
+    "de_article": "die",
+    "lv": "Nozarojums • Atzarojums",
+    "level": "B2"
+  },
+  {
+    "de": "ächzen",
+    "lv": "Vaidēt • Stenēt",
+    "level": "B2"
+  },
+  {
+    "de": "affig",
+    "lv": "Uzkritošs • Iedomigs",
+    "level": "B2"
+  },
+  {
+    "de": "alsogleich",
+    "lv": "Uzreiz",
+    "level": "B2"
+  },
+  {
+    "de": "analysieren",
+    "lv": "Analisar",
+    "level": "B2"
+  },
+  {
+    "de": "Andeutung",
+    "de_article": "die",
+    "de_plural": "die Andeutungen",
+    "lv": "Majiens • Norāde",
+    "level": "B2"
+  },
+  {
+    "de": "andeuten",
+    "lv": "Norādīt • Ponto mājienu",
+    "level": "B2"
+  },
+  {
+    "de": "Anmut",
+    "de_article": "die",
+    "lv": "Aantrekkelijkheid • Schoonheid • Obrigado",
+    "level": "B2"
+  },
+  {
+    "de": "annähernd",
+    "lv": "Aptuvens • Aptuveni",
+    "level": "B2"
+  },
+  {
+    "de": "Anorak",
+    "de_article": "der",
+    "de_plural": "die Anoraks",
+    "lv": "Sportiska jaka ar kapuci",
+    "level": "B2"
+  },
+  {
+    "de": "Anwärter",
+    "de_article": "der",
+    "de_plural": "die Anwärter",
+    "lv": "Pretendentes • Kandidats",
+    "level": "B2"
+  },
+  {
+    "de": "Areal",
+    "de_article": "das",
+    "de_plural": "die Areale",
+    "lv": "Áreas",
+    "level": "B2"
+  },
+  {
+    "de": "Arie",
+    "de_article": "die",
+    "de_plural": "die Arien",
+    "lv": "Arija",
+    "level": "B2"
+  },
+  {
+    "de": "Armsessel",
+    "de_article": "der",
+    "de_plural": "die Armsessel",
+    "lv": "Atzveltnes krēsls",
+    "level": "B2"
+  },
+  {
+    "de": "Aster",
+    "de_article": "die",
+    "de_plural": "die Astern",
+    "lv": "Áster",
+    "level": "B2"
+  },
+  {
+    "de": "Atombombe",
+    "de_article": "die",
+    "de_plural": "die Atombomben",
+    "lv": "Atombumba",
+    "level": "B2"
+  },
+  {
+    "de": "Atomenergie",
+    "de_article": "die",
+    "lv": "Atomenerija",
+    "level": "B2"
+  },
+  {
+    "de": "ausbeuten",
+    "lv": "Ekspluatēt",
+    "level": "B2"
+  },
+  {
+    "de": "Ausbeutung",
+    "de_article": "die",
+    "de_plural": "die Ausbeutungen",
+    "lv": "Ekspluatacija",
+    "level": "B2"
+  },
+  {
+    "de": "Auktion",
+    "de_article": "die",
+    "de_plural": "die Auktionen",
+    "lv": "Izsol",
+    "level": "B2"
+  },
+  {
+    "de": "sich aufdrängen",
+    "lv": "Uzmakties",
+    "level": "B2"
+  },
+  {
+    "de": "Aufruf",
+    "de_article": "der",
+    "de_plural": "die Aufrufe",
+    "lv": "Uzsaukums • Aicinajums",
+    "level": "B2"
+  },
+  {
+    "de": "Aufschluss",
+    "de_article": "der",
+    "de_plural": "die Aufschlüsse",
+    "lv": "Izskaidrojums • Informações",
+    "level": "B2"
+  },
+  {
+    "de": "Augenleiden",
+    "de_article": "das",
+    "de_plural": "die Augenleiden",
+    "lv": "Acu slimība",
+    "level": "B2"
+  },
+  {
+    "de": "Augenmaß",
+    "de_article": "das",
+    "de_plural": "die Augenmaße",
+    "lv": "Acumuladores",
+    "level": "B2"
+  },
+  {
+    "de": "Äußerlichkeit",
+    "de_article": "die",
+    "de_plural": "die Äußerlichkeiten",
+    "lv": "Arišķība",
+    "level": "B2"
+  },
+  {
+    "de": "Äußerung",
+    "de_article": "die",
+    "de_plural": "die Äußerungen",
+    "lv": "Uiting • Uitdrukking • Uitdrukking",
+    "level": "B2"
+  },
+  {
+    "de": "aussetzen",
+    "lv": "Izlikt • Pakļaut • Iebilst • Estados",
+    "level": "B2"
+  },
+  {
+    "de": "aussichtslos",
+    "lv": "Bezcerīgs • Bez izredzēm",
+    "level": "B2"
+  },
+  {
+    "de": "ausspannen",
+    "lv": "Izjūgt • Parceiros Atņemt • Atpūsties",
+    "level": "B2"
+  },
+  {
+    "de": "ausstatten",
+    "lv": "Apgādāt • Noformēt",
+    "level": "B2"
+  },
+  {
+    "de": "aussterben",
+    "lv": "Esmirna",
+    "level": "B2"
+  },
+  {
+    "de": "ausstopfen",
+    "lv": "Aizpildīt • Piepildīt • Izbāzt",
+    "level": "B2"
+  },
+  {
+    "de": "ausströmen",
+    "lv": "Iztecēt • Izplūst • Izstarot",
+    "level": "B2"
+  },
+  {
+    "de": "austragen",
+    "lv": "Iznēsāt • Piegādāt • Izcīnīt",
+    "level": "B2"
+  },
+  {
+    "de": "austreiben",
+    "lv": "Izdzīt • Atradinat",
+    "level": "B2"
+  },
+  {
+    "de": "austreten",
+    "lv": "Izmīt • Nomīt • Izstāties",
+    "level": "B2"
+  },
+  {
+    "de": "auswärtig",
+    "lv": "Ārzemju • Ārlietu",
+    "level": "B2"
+  },
+  {
+    "de": "ausweichend",
+    "lv": "Izvairīgs • Nenoteikts",
+    "level": "B2"
+  },
+  {
+    "de": "ausweisen",
+    "lv": "Izraidīt • Izsūtīt • Apstiprināt • Pierādīt",
+    "level": "B2"
+  },
+  {
+    "de": "auswerfen",
+    "lv": "Izmest • Izsviest",
+    "level": "B2"
+  },
+  {
+    "de": "auswerten",
+    "lv": "Novērtēt • Izvērtēt",
+    "level": "B2"
+  },
+  {
+    "de": "auszeichnen",
+    "lv": "Apbalvot • Piešķirt • Izcelties",
+    "level": "B2"
+  },
+  {
+    "de": "Auszeichnung",
+    "de_article": "die",
+    "de_plural": "die Auszeichnungen",
+    "lv": "Apbalvošana • Apbalvojums • Goda zīme",
+    "level": "B2"
+  },
+  {
+    "de": "autonom",
+    "lv": "Autônomo",
+    "level": "B2"
+  },
+  {
+    "de": "Schwebebalken",
+    "de_article": "der",
+    "de_plural": "die Schwebebalken",
+    "lv": "Līdzsvara baļķis",
+    "level": "B2"
+  },
+  {
+    "de": "bändigen",
+    "lv": "Savaldīt • Apvaldīt",
+    "level": "B2"
+  },
+  {
+    "de": "Blutbank",
+    "de_article": "die",
+    "de_plural": "die Blutbanken",
+    "lv": "Reservas asins",
+    "level": "B2"
+  },
+  {
+    "de": "Organbank",
+    "de_article": "die",
+    "de_plural": "die Organbanken",
+    "lv": "Entidade bancária",
+    "level": "B2"
+  },
+  {
+    "de": "Bankgeheimnis",
+    "de_article": "das",
+    "de_plural": "die Bankgeheimnisse",
+    "lv": "Bankgeheim",
+    "level": "B2"
+  },
+  {
+    "de": "Bankleitzahl",
+    "de_article": "die",
+    "de_plural": "die Bankleitzahlen",
+    "lv": "Índice Bankas",
+    "level": "B2"
+  },
+  {
+    "de": "Bankraub",
+    "de_article": "der",
+    "de_plural": "die Bankraube",
+    "lv": "Bankas aplaupīšana",
+    "level": "B2"
+  },
+  {
+    "de": "Bankscheck",
+    "de_article": "der",
+    "de_plural": "die Bankschecks",
+    "lv": "Bancos cheks",
+    "level": "B2"
+  },
+  {
+    "de": "Banküberfall",
+    "de_article": "der",
+    "de_plural": "die Banküberfälle",
+    "lv": "Bankas aplaupīšana",
+    "level": "B2"
+  },
+  {
+    "de": "Bankrott",
+    "de_article": "der",
+    "de_plural": "die Bankrotte",
+    "lv": "Bancos",
+    "level": "B2"
+  },
+  {
+    "de": "Barbarei",
+    "de_article": "die",
+    "de_plural": "die Barbareien",
+    "lv": "Barbáries",
+    "level": "B2"
+  },
+  {
+    "de": "barhäuptig",
+    "lv": "Ar Kailu Galvu",
+    "level": "B2"
+  },
+  {
+    "de": "barmherzig",
+    "lv": "Žēlsirdīgs • Līdzcietīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Barren",
+    "de_article": "der",
+    "de_plural": "die Barren",
+    "lv": "Lidztekas",
+    "level": "B2"
+  },
+  {
+    "de": "Barrenturnen",
+    "de_article": "das",
+    "lv": "Vingrošana uz līdztekām",
+    "level": "B2"
+  },
+  {
+    "de": "Militärbasis",
+    "de_article": "die",
+    "de_plural": "die Militärbasen",
+    "lv": "Bāze militar",
+    "level": "B2"
+  },
+  {
+    "de": "Baukredit",
+    "de_article": "der",
+    "de_plural": "die Baukredite",
+    "lv": "Créditos celtniecības uzsākšanai",
+    "level": "B2"
+  },
+  {
+    "de": "Bauchhöhle",
+    "de_article": "die",
+    "de_plural": "die Bauchhöhlen",
+    "lv": "Vēderdobums",
+    "level": "B2"
+  },
+  {
+    "de": "Baugelände",
+    "de_article": "das",
+    "de_plural": "die Baugelände",
+    "lv": "Apbūves gabals",
+    "level": "B2"
+  },
+  {
+    "de": "Baugrube",
+    "de_article": "die",
+    "de_plural": "die Baugruben",
+    "lv": "Būvbedre",
+    "level": "B2"
+  },
+  {
+    "de": "Bauleiter",
+    "de_article": "der",
+    "de_plural": "die Bauleiter",
+    "lv": "Būvdarbu vadītājs",
+    "level": "B2"
+  },
+  {
+    "de": "Baumschule",
+    "de_article": "die",
+    "de_plural": "die Baumschulen",
+    "lv": "Kokaudzetava",
+    "level": "B2"
+  },
+  {
+    "de": "Bauwesen",
+    "de_article": "das",
+    "lv": "Celtniecība • Būvniecība",
+    "level": "B2"
+  },
+  {
+    "de": "bebauen",
+    "lv": "Apstrādāt • Apbūvēt",
+    "level": "B2"
+  },
+  {
+    "de": "bedürfen",
+    "lv": "Vajadzēt • Mas nepieciešamam",
+    "level": "B2"
+  },
+  {
+    "de": "befallen",
+    "lv": "Uznākt • Uzbrukt",
+    "level": "B2"
+  },
+  {
+    "de": "sich befassen",
+    "lv": "Nodarbotes são",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-befassen",
+      "layout": "minimalStudy",
+      "translation": "Nodarbotes são",
+      "rektion": "mit + kam?",
+      "explanation": "Sich befassen nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich befassen"
+          ],
+          "red": [
+            "mit + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Beförderung",
+    "de_article": "die",
+    "de_plural": "die Beförderungen",
+    "lv": "Nogādāšana • Pārvadāšana • Paaugstināšana • Paaugstinājums",
+    "level": "B2"
+  },
+  {
+    "de": "Befugnis",
+    "de_article": "die",
+    "de_plural": "die Befugnisse",
+    "lv": "Tiesibas • Pilnvara",
+    "level": "B2"
+  },
+  {
+    "de": "begehren",
+    "lv": "Prasīt • Pieprasīt • Tīkot • Iekārot • Kārot",
+    "level": "B2"
+  },
+  {
+    "de": "begierig",
+    "lv": "Kars",
+    "level": "B2"
+  },
+  {
+    "de": "begnadigen",
+    "lv": "Apžēlot",
+    "level": "B2"
+  },
+  {
+    "de": "sich begnügen",
+    "lv": "Amierinaties ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-begnuegen",
+      "layout": "minimalStudy",
+      "translation": "Amierinaties ar",
+      "rektion": "mit + kam?",
+      "explanation": "Satisfação nepieciešams noteikts prievārds com + vinho?.",
+      "forms": "mit + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Satisfação"
+          ],
+          "red": [
+            "Satisfação"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "begünstigen",
+    "lv": "Veicināt • Sekmēt • Protežēt • Atbalstīt",
+    "level": "B2"
+  },
+  {
+    "de": "begutachten",
+    "lv": "Point atsauksmi • Novērtēt",
+    "level": "B2"
+  },
+  {
+    "de": "beharren",
+    "lv": "Pastāvēt • Palikt",
+    "level": "B2"
+  },
+  {
+    "de": "beharrlich",
+    "lv": "Neatlaidīgs • Pastāvīgs",
+    "level": "B2"
+  },
+  {
+    "de": "behüten",
+    "lv": "Pasargat • Nosargat",
+    "level": "B2"
+  },
+  {
+    "de": "Beihilfe",
+    "de_article": "die",
+    "de_plural": "die Beihilfen",
+    "lv": "Valsts pabalsts • Piemaksa",
+    "level": "B2"
+  },
+  {
+    "de": "beiläufig",
+    "lv": "Nejaušs • Gadījuma • Starp citu • Garām ejot",
+    "level": "B2"
+  },
+  {
+    "de": "beispiellos",
+    "lv": "Nebijis • Neredzēts • Tāds, kas nav ne ar ko salīdzināms",
+    "level": "B2"
+  },
+  {
+    "de": "Beistand",
+    "de_article": "der",
+    "de_plural": "die Beistände",
+    "lv": "Funcionários",
+    "level": "B2"
+  },
+  {
+    "de": "beistehen",
+    "lv": "Palidzet",
+    "level": "B2"
+  },
+  {
+    "de": "beistimmen",
+    "lv": "Piebalsot • Atbalstīt",
+    "level": "B2"
+  },
+  {
+    "de": "beiwohnen",
+    "lv": "Mas klāt • Piedalidades",
+    "level": "B2"
+  },
+  {
+    "de": "beizen",
+    "lv": "Kodinat • Beicet",
+    "level": "B2"
+  },
+  {
+    "de": "bejahen",
+    "lv": "Bevestigen • Beweren",
+    "level": "B2"
+  },
+  {
+    "de": "bejahrt",
+    "lv": "Krietni gados",
+    "level": "B2"
+  },
+  {
+    "de": "bekennen",
+    "lv": "Atzit",
+    "level": "B2"
+  },
+  {
+    "de": "bekräftigen",
+    "lv": "Apstiprināt • Apliecinat",
+    "level": "B2"
+  },
+  {
+    "de": "Fußbodenbelag",
+    "de_article": "der",
+    "de_plural": "die Fußbodenbeläge",
+    "lv": "Segums grīdas",
+    "level": "B2"
+  },
+  {
+    "de": "Straßenbelag",
+    "de_article": "der",
+    "de_plural": "die Straßenbeläge",
+    "lv": "Ielas klātne",
+    "level": "B2"
+  },
+  {
+    "de": "belagern",
+    "lv": "Aplenkt • Ielenkt",
+    "level": "B2"
+  },
+  {
+    "de": "belanglos",
+    "lv": "Nenozīmīgs • Nesvarīgs",
+    "level": "B2"
+  },
+  {
+    "de": "belästigen",
+    "lv": "Apgrūtināt • Uzmākties • Uzbāzties",
+    "level": "B2"
+  },
+  {
+    "de": "belauschen",
+    "lv": "Slepeni noklausīties",
+    "level": "B2"
+  },
+  {
+    "de": "beleben",
+    "lv": "Atdzivinat",
+    "level": "B2"
+  },
+  {
+    "de": "sich beleben",
+    "lv": "Atdzīvoties",
+    "level": "B2"
+  },
+  {
+    "de": "beleibt",
+    "lv": "Tukls • Brangs • Pilnigs",
+    "level": "B2"
+  },
+  {
+    "de": "belichten",
+    "lv": "Izgaismot • Eksponēt",
+    "level": "B2"
+  },
+  {
+    "de": "Belieben",
+    "de_article": "das",
+    "lv": "Patika • Patikšana • Vēlēšanās",
+    "level": "B2"
+  },
+  {
+    "de": "belustigen",
+    "lv": "Uzjautrinato",
+    "level": "B2"
+  },
+  {
+    "de": "sich bemächtigen",
+    "lv": "Sagrābt • Saņemt savā varā",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-bemaechtigen",
+      "layout": "minimalStudy",
+      "translation": "Sagrābt • Saņemt savā varā",
+      "rektion": "+ piederības forma",
+      "explanation": "Sich bemächtigen mūsdienu vāciski delight ar pierības formu prievārda.",
+      "forms": "+ piederības forma",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich bemächtigen"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Benennung",
+    "de_article": "die",
+    "de_plural": "die Benennungen",
+    "lv": "Nosaukšana • Dēvēšana • Nosaukums",
+    "level": "B2"
+  },
+  {
+    "de": "Steuerberater",
+    "de_article": "der",
+    "de_plural": "die Steuerberater",
+    "lv": "Consultores Nodokļu",
+    "level": "B2"
+  },
+  {
+    "de": "berechtigen",
+    "lv": "Ponto de tiebas",
+    "level": "B2"
+  },
+  {
+    "de": "beredt",
+    "lv": "Runigs",
+    "level": "B2"
+  },
+  {
+    "de": "bereichern",
+    "lv": "Bagatinat",
+    "level": "B2"
+  },
+  {
+    "de": "Bergbau",
+    "de_article": "der",
+    "lv": "Mijnbouw",
+    "level": "B2"
+  },
+  {
+    "de": "bergen",
+    "lv": "Glābt • Izglābt • Novākt ražu",
+    "level": "B2"
+  },
+  {
+    "de": "Bergmann",
+    "de_article": "der",
+    "de_plural": "die Bergmänner",
+    "lv": "Kalnracis • Ogļracis",
+    "level": "B2"
+  },
+  {
+    "de": "Bergwerk",
+    "de_article": "das",
+    "de_plural": "die Bergwerke",
+    "lv": "Raktuves • Šahta",
+    "level": "B2"
+  },
+  {
+    "de": "bersten",
+    "lv": "Plaisāt • Saplaisāt • Sasprāgt • Plīst",
+    "level": "B2"
+  },
+  {
+    "de": "berufen",
+    "lv": "Iecelt • Aicinato",
+    "level": "B2"
+  },
+  {
+    "de": "sich berufen",
+    "lv": "Atsaukties uz",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-berufen",
+      "layout": "minimalStudy",
+      "translation": "Atsaukties uz",
+      "rektion": "auf + ko?",
+      "explanation": "Sich berufen nepieciešams noteikts prievārds auf + ko?.",
+      "forms": "auf + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich berufen"
+          ],
+          "red": [
+            "auf + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "beruhen",
+    "lv": "Dibinaties • Pamatoties",
+    "level": "B2"
+  },
+  {
+    "de": "besänftigen",
+    "lv": "Nomierināt • Remdēt • Remdināt • Apklusināt",
+    "level": "B2"
+  },
+  {
+    "de": "Besatzung",
+    "de_article": "die",
+    "de_plural": "die Besatzungen",
+    "lv": "Komanda • Ekipāža • Apkalpe • Okupācijas militārās vienības",
+    "level": "B2"
+  },
+  {
+    "de": "beschämen",
+    "lv": "Apkaunot",
+    "level": "B2"
+  },
+  {
+    "de": "beschatten",
+    "lv": "Apēnot • Izsekot",
+    "level": "B2"
+  },
+  {
+    "de": "beschimpfen",
+    "lv": "Nolamāt • Nozākāt • Noķengāt",
+    "level": "B2"
+  },
+  {
+    "de": "sich beschränken",
+    "lv": "Ierobežoties ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-beschraenken",
+      "layout": "minimalStudy",
+      "translation": "Ierobežoties ar",
+      "rektion": "auf + ko?",
+      "explanation": "Sich beschränken nepieciešams noteikts prievārds auf + ko?.",
+      "forms": "auf + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich beschränken"
+          ],
+          "red": [
+            "auf + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Beschützer",
+    "de_article": "der",
+    "de_plural": "die Beschützer",
+    "lv": "Sargātājs • Sargs • Aizstāvis",
+    "level": "B2"
+  },
+  {
+    "de": "beschwören",
+    "lv": "Zvērēt • Appliecināt ar zvērestu • Ļoti lūgt",
+    "level": "B2"
+  },
+  {
+    "de": "besessen",
+    "lv": "Apsēsts • Apmāts • Pārņemts",
+    "level": "B2"
+  },
+  {
+    "de": "besiedeln",
+    "lv": "Nometināt iedzīvotājus",
+    "level": "B2"
+  },
+  {
+    "de": "Besinnung",
+    "de_article": "die",
+    "de_plural": "die Besinnungen",
+    "lv": "Samana • Apziņa",
+    "level": "B2"
+  },
+  {
+    "de": "bespielen",
+    "lv": "Ierakstīt mūziku kasetē vai disquete",
+    "level": "B2"
+  },
+  {
+    "de": "Bestand",
+    "de_article": "der",
+    "de_plural": "die Bestände",
+    "lv": "Sastāvs • Inventārs • Krājums",
+    "level": "B2"
+  },
+  {
+    "de": "beständig",
+    "lv": "Pastāvīgs • Nemainīgs",
+    "level": "B2"
+  },
+  {
+    "de": "bestärken",
+    "lv": "Stiprināt • Pastiprināt • Uzmundrināt",
+    "level": "B2"
+  },
+  {
+    "de": "bestechen",
+    "lv": "Piekukuļot",
+    "level": "B2"
+  },
+  {
+    "de": "bestechlich",
+    "lv": "Koopbaar • Omkoopbaar",
+    "level": "B2"
+  },
+  {
+    "de": "bestrahlen",
+    "lv": "Apstarot • Apspīdēt",
+    "level": "B2"
+  },
+  {
+    "de": "bestreiten",
+    "lv": "Apstrīdēt • Samaksāt • Segt",
+    "level": "B2"
+  },
+  {
+    "de": "bestürzt",
+    "lv": "Pārsteigts • Samulse • Apmulse • Apjucis",
+    "level": "B2"
+  },
+  {
+    "de": "sich betätigen",
+    "lv": "Darboties • Pietalidades",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-betaetigen",
+      "layout": "minimalStudy",
+      "translation": "Darboties • Pietalidades",
+      "rektion": "in + kur?",
+      "explanation": "Sich betätigen nepieciešams noteikts prievārds em + kur?.",
+      "forms": "in + kur?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich betätigen"
+          ],
+          "red": [
+            "Sich"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Betäubung",
+    "de_article": "die",
+    "de_plural": "die Betäubungen",
+    "lv": "Apdullināšana • Apdullums • Narkoze • Anestēzija",
+    "level": "B2"
+  },
+  {
+    "de": "beteuern",
+    "lv": "Aplicativo",
+    "level": "B2"
+  },
+  {
+    "de": "Betracht",
+    "de_article": "der",
+    "lv": "Vērā ņemšana • Apsvēršana",
+    "level": "B2"
+  },
+  {
+    "de": "sich betragen",
+    "lv": "Uzvesties • Izturēties",
+    "level": "B2"
+  },
+  {
+    "de": "Betriebsrat",
+    "de_article": "der",
+    "de_plural": "die Betriebsräte",
+    "lv": "Uzņēmuma padome",
+    "level": "B2"
+  },
+  {
+    "de": "Betrug",
+    "de_article": "der",
+    "de_plural": "die Betrüge",
+    "lv": "Krāpšana • Mānīšana • Viltus • Blēdība",
+    "level": "B2"
+  },
+  {
+    "de": "beurlauben",
+    "lv": "Piešķirt atvaļinājumu • Atbrīvot no darba",
+    "level": "B2"
+  },
+  {
+    "de": "Beute",
+    "de_article": "die",
+    "lv": "Laupījums • Guvums • Trofeja",
+    "level": "B2"
+  },
+  {
+    "de": "Bewaffnung",
+    "de_article": "die",
+    "de_plural": "die Bewaffnungen",
+    "lv": "Apbruņošana • Apbruņojums",
+    "level": "B2"
+  },
+  {
+    "de": "bewähren",
+    "lv": "Sargāt • Nosargāt • Pasargāt • Glābāt",
+    "level": "B2"
+  },
+  {
+    "de": "bewährt",
+    "lv": "Pārbaudīts • Dross • Uzticams",
+    "level": "B2"
+  },
+  {
+    "de": "bewältigen",
+    "lv": "Superação • Omgaan conheceu",
+    "level": "B2"
+  },
+  {
+    "de": "bewandert",
+    "lv": "Lietpratīgs • Competentes",
+    "level": "B2"
+  },
+  {
+    "de": "Bewässerung",
+    "de_article": "die",
+    "de_plural": "die Bewässerungen",
+    "lv": "Apūdeņošana • Sistema Apūdeņošanas",
+    "level": "B2"
+  },
+  {
+    "de": "Bewerbung",
+    "de_article": "die",
+    "de_plural": "die Bewerbungen",
+    "lv": "Iesniegums • Iesnieguma veidlapa • Iesniegto dokumentu kopums",
+    "level": "B2"
+  },
+  {
+    "de": "bewilligen",
+    "lv": "Atļaut • Atvēlēt • Piešķirt",
+    "level": "B2"
+  },
+  {
+    "de": "Bewusstsein",
+    "de_article": "das",
+    "de_plural": "die Bewusstseine",
+    "lv": "Samana • Apziņa",
+    "level": "B2"
+  },
+  {
+    "de": "bezähmen",
+    "lv": "Abburt • Valdzināt",
+    "level": "B2"
+  },
+  {
+    "de": "bezeugen",
+    "lv": "Aplicativo",
+    "level": "B2"
+  },
+  {
+    "de": "Bezug",
+    "de_article": "der",
+    "de_plural": "die Bezüge",
+    "lv": "Attiecība • Sakars • Pārvalks",
+    "level": "B2"
+  },
+  {
+    "de": "bezüglich",
+    "lv": "Attiecibā uz",
+    "level": "B2"
+  },
+  {
+    "de": "bezwingen",
+    "lv": "Pārvarēt • Uzveikt • Savaldīt",
+    "level": "B2"
+  },
+  {
+    "de": "biegsam",
+    "lv": "Lokans",
+    "level": "B2"
+  },
+  {
+    "de": "Biegung",
+    "de_article": "die",
+    "de_plural": "die Biegungen",
+    "lv": "Likums • Izliekums",
+    "level": "B2"
+  },
+  {
+    "de": "bisweilen",
+    "lv": "Reizēm • Dažreiz • Brīžiem",
+    "level": "B2"
+  },
+  {
+    "de": "Bildhauer",
+    "de_article": "der",
+    "de_plural": "die Bildhauer",
+    "lv": "Tēlnieks • Escultores",
+    "level": "B2"
+  },
+  {
+    "de": "bildlich",
+    "lv": "Gleznains • Tēlains • Figurais",
+    "level": "B2"
+  },
+  {
+    "de": "Bildnis",
+    "de_article": "das",
+    "de_plural": "die Bildnisse",
+    "lv": "Ģīmetne • Portrets • Attēls",
+    "level": "B2"
+  },
+  {
+    "de": "billigen",
+    "lv": "Atzīt par labu • Piekrist",
+    "level": "B2"
+  },
+  {
+    "de": "Bindung",
+    "de_article": "die",
+    "de_plural": "die Bindungen",
+    "lv": "Saistījums • Savienojums • Ķīmisks savienojums • Saite • Siksnas • Emocionālā saikne",
+    "level": "B2"
+  },
+  {
+    "de": "binnen",
+    "lv": "Laika • Iekšpusē",
+    "level": "B2"
+  },
+  {
+    "de": "Binnenhandel",
+    "de_article": "der",
+    "lv": "Iekšējā tirdzniecība",
+    "level": "B2"
+  },
+  {
+    "de": "Bienenwachs",
+    "de_article": "das",
+    "lv": "Bijenwas",
+    "level": "B2"
+  },
+  {
+    "de": "Bienenstock",
+    "de_article": "der",
+    "de_plural": "die Bienenstöcke",
+    "lv": "Esfregões Bišu",
+    "level": "B2"
+  },
+  {
+    "de": "Bienenzucht",
+    "de_article": "die",
+    "de_plural": "die Bienenzuchten",
+    "lv": "Biskopiba",
+    "level": "B2"
+  },
+  {
+    "de": "Prüfer",
+    "de_article": "der",
+    "de_plural": "die Prüfer",
+    "lv": "Auditores",
+    "level": "B2"
+  },
+  {
+    "de": "Bildbericht",
+    "de_article": "der",
+    "de_plural": "die Bildberichte",
+    "lv": "Fotorreportagem",
+    "level": "B2"
+  },
+  {
+    "de": "bildend",
+    "lv": "Tēlojošs • Izglītojošs",
+    "level": "B2"
+  },
+  {
+    "de": "blähen",
+    "lv": "Pūst • Piepūst • Uzpūst",
+    "level": "B2"
+  },
+  {
+    "de": "sich blähen",
+    "lv": "Piepūsties • Uzpūsties",
+    "level": "B2"
+  },
+  {
+    "de": "Blasorchester",
+    "de_article": "das",
+    "de_plural": "die Blasorchester",
+    "lv": "Pūtēju orķestris",
+    "level": "B2"
+  },
+  {
+    "de": "Bleigehalt",
+    "de_article": "der",
+    "de_plural": "die Bleigehalte",
+    "lv": "Svina saturs",
+    "level": "B2"
+  },
+  {
+    "de": "bleihaltig",
+    "lv": "Svinu saturošs",
+    "level": "B2"
+  },
+  {
+    "de": "bleichen",
+    "lv": "Balēt • Balot • Balināt",
+    "level": "B2"
+  },
+  {
+    "de": "blenden",
+    "lv": "Žilbināt • Apžilbināt • Apmulsināt • Maldināt",
+    "level": "B2"
+  },
+  {
+    "de": "Blindgänger",
+    "de_article": "der",
+    "de_plural": "die Blindgänger",
+    "lv": "Niet-geëexplodeerde bom • Projétil",
+    "level": "B2"
+  },
+  {
+    "de": "Blitzableiter",
+    "de_article": "der",
+    "de_plural": "die Blitzableiter",
+    "lv": "Zibensnovedējs",
+    "level": "B2"
+  },
+  {
+    "de": "Blitzlicht",
+    "de_article": "das",
+    "de_plural": "die Blitzlichter",
+    "lv": "Zibspuldzes gaisma",
+    "level": "B2"
+  },
+  {
+    "de": "Militärblock",
+    "de_article": "der",
+    "de_plural": "die Militärblöcke",
+    "lv": "Blocos militares",
+    "level": "B2"
+  },
+  {
+    "de": "Blockade",
+    "de_article": "die",
+    "de_plural": "die Blockaden",
+    "lv": "Bloqueio",
+    "level": "B2"
+  },
+  {
+    "de": "Blockhaus",
+    "de_article": "das",
+    "de_plural": "die Blockhäuser",
+    "lv": "Guļbūves māja",
+    "level": "B2"
+  },
+  {
+    "de": "blödsinnig",
+    "lv": "Vājprātīgs • Planprātīgs • Muļķīgs • Stulbs",
+    "level": "B2"
+  },
+  {
+    "de": "Blumenkranz",
+    "de_article": "der",
+    "de_plural": "die Blumenkränze",
+    "lv": "Ziedu vaiags",
+    "level": "B2"
+  },
+  {
+    "de": "Blumenzucht",
+    "de_article": "die",
+    "lv": "Puķkopiba",
+    "level": "B2"
+  },
+  {
+    "de": "Blutkonserve",
+    "de_article": "die",
+    "de_plural": "die Blutkonserven",
+    "lv": "Konservētas asinis",
+    "level": "B2"
+  },
+  {
+    "de": "Blutalkohol",
+    "de_article": "der",
+    "lv": "Alkohola daudzums asinīs",
+    "level": "B2"
+  },
+  {
+    "de": "blutarm",
+    "lv": "Mazasinigs",
+    "level": "B2"
+  },
+  {
+    "de": "Blutarmut",
+    "de_article": "die",
+    "lv": "Mazasiniba",
+    "level": "B2"
+  },
+  {
+    "de": "Blutspender",
+    "de_article": "der",
+    "de_plural": "die Blutspender",
+    "lv": "Doadores",
+    "level": "B2"
+  },
+  {
+    "de": "Blutsturz",
+    "de_article": "der",
+    "de_plural": "die Blutstürze",
+    "lv": "Pēkšņa asiņošana não silencia vai deguna",
+    "level": "B2"
+  },
+  {
+    "de": "Bodensatz",
+    "de_article": "der",
+    "de_plural": "die Bodensätze",
+    "lv": "Nogulsnes • Padibenes • Méis",
+    "level": "B2"
+  },
+  {
+    "de": "Bodenschätze",
+    "de_article": "die",
+    "lv": "Derīgie izrakteņi",
+    "level": "B2"
+  },
+  {
+    "de": "bohnern",
+    "lv": "Vaskot grīdu",
+    "level": "B2"
+  },
+  {
+    "de": "Bootsmann",
+    "de_article": "der",
+    "de_plural": "die Bootsleute",
+    "lv": "Bocmanis",
+    "level": "B2"
+  },
+  {
+    "de": "Bootssteg",
+    "de_article": "der",
+    "de_plural": "die Bootsstege",
+    "lv": "Laivu piestātne",
+    "level": "B2"
+  },
+  {
+    "de": "Bord",
+    "de_article": "das",
+    "de_plural": "die Borde",
+    "lv": "Bortos",
+    "level": "B2"
+  },
+  {
+    "de": "Bordbuch",
+    "de_article": "das",
+    "de_plural": "die Bordbücher",
+    "lv": "Kuģa žurnāls",
+    "level": "B2"
+  },
+  {
+    "de": "Börse",
+    "de_article": "die",
+    "de_plural": "die Börsen",
+    "lv": "Birza",
+    "level": "B2"
+  },
+  {
+    "de": "Borte",
+    "de_article": "die",
+    "de_plural": "die Borten",
+    "lv": "Macho",
+    "level": "B2"
+  },
+  {
+    "de": "Böschung",
+    "de_article": "die",
+    "de_plural": "die Böschungen",
+    "lv": "Nogāze • Nokalne • Uzbērums",
+    "level": "B2"
+  },
+  {
+    "de": "Bote",
+    "de_article": "der",
+    "de_plural": "die Boten",
+    "lv": "Vēstnesis • Ziņnesis • Sūtnis",
+    "level": "B2"
+  },
+  {
+    "de": "brach",
+    "lv": "Neapstrādāts • Atstāts atmatā",
+    "level": "B2"
+  },
+  {
+    "de": "Brandschaden",
+    "de_article": "der",
+    "de_plural": "die Brandschäden",
+    "lv": "Ugunsgrēka nodarītais zaudējums",
+    "level": "B2"
+  },
+  {
+    "de": "Brandstätte",
+    "de_article": "die",
+    "de_plural": "die Brandstätten",
+    "lv": "Ugunsgreka proíbe",
+    "level": "B2"
+  },
+  {
+    "de": "Brandanschlag",
+    "de_article": "der",
+    "de_plural": "die Brandanschläge",
+    "lv": "Ļaunprātīga dedzināšana",
+    "level": "B2"
+  },
+  {
+    "de": "Brandmal",
+    "de_article": "das",
+    "de_plural": "die Brandmale",
+    "lv": "Apdegumas • Apdeguma rēta",
+    "level": "B2"
+  },
+  {
+    "de": "Brandstifter",
+    "de_article": "der",
+    "de_plural": "die Brandstifter",
+    "lv": "Ļaunprātīgs dedzinātājs",
+    "level": "B2"
+  },
+  {
+    "de": "Brandwunde",
+    "de_article": "die",
+    "de_plural": "die Brandwunden",
+    "lv": "Apdeguma bruce",
+    "level": "B2"
+  },
+  {
+    "de": "brauen",
+    "lv": "Cerveja fabricada • Brouwen",
+    "level": "B2"
+  },
+  {
+    "de": "Brauerei",
+    "de_article": "die",
+    "de_plural": "die Brauereien",
+    "lv": "Alus darītava",
+    "level": "B2"
+  },
+  {
+    "de": "Braunkohle",
+    "de_article": "die",
+    "de_plural": "die Braunkohlen",
+    "lv": "Brunogles",
+    "level": "B2"
+  },
+  {
+    "de": "Brettsegeln",
+    "de_article": "das",
+    "lv": "Vindsērfings",
+    "level": "B2"
+  },
+  {
+    "de": "Briefbombe",
+    "de_article": "die",
+    "de_plural": "die Briefbomben",
+    "lv": "Vestuļbumba",
+    "level": "B2"
+  },
+  {
+    "de": "brillant",
+    "lv": "Lielisks • Teicams",
+    "level": "B2"
+  },
+  {
+    "de": "brüten",
+    "lv": "Perēt • Nemitīgi domāt par kaut ko",
+    "level": "B2"
+  },
+  {
+    "de": "Buche",
+    "de_article": "die",
+    "de_plural": "die Buchen",
+    "lv": "Dižskābardis • Skābardis",
+    "level": "B2"
+  },
+  {
+    "de": "Buchführer",
+    "de_article": "der",
+    "de_plural": "die Buchführer",
+    "lv": "Gramatvedis",
+    "level": "B2"
+  },
+  {
+    "de": "Buchführung",
+    "de_article": "die",
+    "de_plural": "die Buchführungen",
+    "lv": "Gramatvediba",
+    "level": "B2"
+  },
+  {
+    "de": "Buchhaltung",
+    "de_article": "die",
+    "de_plural": "die Buchhaltungen",
+    "lv": "Gramatvediba",
+    "level": "B2"
+  },
+  {
+    "de": "buchstäblich",
+    "lv": "Burtisk",
+    "level": "B2"
+  },
+  {
+    "de": "Buckel",
+    "de_article": "der",
+    "de_plural": "die Buckel",
+    "lv": "Kupris • Kukums • Mugura",
+    "level": "B2"
+  },
+  {
+    "de": "Bügel",
+    "de_article": "der",
+    "de_plural": "die Bügel",
+    "lv": "Rokturis • Stīpa • Drēbju pakaramais • Kāpslis",
+    "level": "B2"
+  },
+  {
+    "de": "Bühnenbild",
+    "de_article": "das",
+    "de_plural": "die Bühnenbilder",
+    "lv": "Decoração",
+    "level": "B2"
+  },
+  {
+    "de": "Bühnenbildner",
+    "de_article": "der",
+    "de_plural": "die Bühnenbildner",
+    "lv": "Decoradores",
+    "level": "B2"
+  },
+  {
+    "de": "Bundesland",
+    "de_article": "das",
+    "de_plural": "die Bundesländer",
+    "lv": "Federal zeme",
+    "level": "B2"
+  },
+  {
+    "de": "Bundesstaat",
+    "de_article": "der",
+    "de_plural": "die Bundesstaaten",
+    "lv": "Federācija • Federātīva walsts",
+    "level": "B2"
+  },
+  {
+    "de": "Bundeswehr",
+    "de_article": "die",
+    "lv": "Vacijas bruņotie spēki",
+    "level": "B2"
+  },
+  {
+    "de": "Bündnis",
+    "de_article": "das",
+    "de_plural": "die Bündnisse",
+    "lv": "Savieniba",
+    "level": "B2"
+  },
+  {
+    "de": "Bürde",
+    "de_article": "die",
+    "de_plural": "die Bürden",
+    "lv": "Último • Último",
+    "level": "B2"
+  },
+  {
+    "de": "Bürge",
+    "de_article": "der",
+    "de_plural": "die Bürgen",
+    "lv": "Galvotājs • Galvinieks",
+    "level": "B2"
+  },
+  {
+    "de": "bürgen",
+    "lv": "Galvot",
+    "level": "B2"
+  },
+  {
+    "de": "bürgerlich",
+    "lv": "Pilsonisk • Pilsoņu • Buržuāzisks • Buržuāzijas",
+    "level": "B2"
+  },
+  {
+    "de": "Chaot",
+    "de_article": "der",
+    "de_plural": "die Chaoten",
+    "lv": "Juceklīgs cilvēks",
+    "level": "B2"
+  },
+  {
+    "de": "chartern",
+    "lv": "Observe o braucienam",
+    "level": "B2"
+  },
+  {
+    "de": "Chefarzt",
+    "de_article": "der",
+    "de_plural": "die Chefärzte",
+    "lv": "Arte galvenais",
+    "level": "B2"
+  },
+  {
+    "de": "Chefingenieur",
+    "de_article": "der",
+    "de_plural": "die Chefingenieure",
+    "lv": "Galvenais inzenieris",
+    "level": "B2"
+  },
+  {
+    "de": "Chefredakteur",
+    "de_article": "der",
+    "de_plural": "die Chefredakteure",
+    "lv": "Editores Atbildīgais",
+    "level": "B2"
+  },
+  {
+    "de": "Chemotherapie",
+    "de_article": "die",
+    "de_plural": "die Chemotherapien",
+    "lv": "Ķīmijterapia",
+    "level": "B2"
+  },
+  {
+    "de": "Chirurgie",
+    "de_article": "die",
+    "de_plural": "die Chirurgien",
+    "lv": "Ķirurģija",
+    "level": "B2"
+  },
+  {
+    "de": "Cholera",
+    "de_article": "die",
+    "de_plural": null,
+    "lv": "Holera",
+    "level": "B2"
+  },
+  {
+    "de": "Cholesterin",
+    "de_article": "das",
+    "lv": "Holesterinas",
+    "level": "B2"
+  },
+  {
+    "de": "Chorleiter",
+    "de_article": "der",
+    "de_plural": "die Chorleiter",
+    "lv": "Kormestars",
+    "level": "B2"
+  },
+  {
+    "de": "Chromosom",
+    "de_article": "das",
+    "de_plural": "die Chromosomen",
+    "lv": "Cromossoma",
+    "level": "B2"
+  },
+  {
+    "de": "Chronik",
+    "de_article": "die",
+    "de_plural": "die Chroniken",
+    "lv": "Hronika",
+    "level": "B2"
+  },
+  {
+    "de": "chronisch",
+    "lv": "Crônicas",
+    "level": "B2"
+  },
+  {
+    "de": "Computervirus",
+    "de_article": "der",
+    "de_plural": "die Computerviren",
+    "lv": "Datorvírus",
+    "level": "B2"
+  },
+  {
+    "de": "Dachs",
+    "de_article": "der",
+    "de_plural": "die Dachse",
+    "lv": "Absis",
+    "level": "B2"
+  },
+  {
+    "de": "Dachziegel",
+    "de_article": "der",
+    "de_plural": "die Dachziegel",
+    "lv": "Dakstiņš",
+    "level": "B2"
+  },
+  {
+    "de": "Dahlie",
+    "de_article": "die",
+    "de_plural": "die Dahlien",
+    "lv": "Dalija",
+    "level": "B2"
+  },
+  {
+    "de": "damalig",
+    "lv": "Toreizējs • Tā laika",
+    "level": "B2"
+  },
+  {
+    "de": "Damm",
+    "de_article": "der",
+    "de_plural": "die Dämme",
+    "lv": "Dambis • Aizsprosts • Dzelzceļa uzbērums",
+    "level": "B2"
+  },
+  {
+    "de": "dämmern",
+    "lv": "Krēslot • Satumst • Aust • Svīst gaisma",
+    "level": "B2"
+  },
+  {
+    "de": "Dämmerung",
+    "de_article": "die",
+    "de_plural": "die Dämmerungen",
+    "lv": "Krēsla • Mijkrēslis • Ausma • Rītausma",
+    "level": "B2"
+  },
+  {
+    "de": "dampfen",
+    "lv": "Kūpēt • Izgarot",
+    "level": "B2"
+  },
+  {
+    "de": "dämpfen",
+    "lv": "Klusināt • Apslāpēt • Tvaicēt • Sautēt • Sutināt",
+    "level": "B2"
+  },
+  {
+    "de": "Dämpfer",
+    "de_article": "der",
+    "de_plural": "die Dämpfer",
+    "lv": "Verzwakker",
+    "level": "B2"
+  },
+  {
+    "de": "Dampfheizung",
+    "de_article": "die",
+    "de_plural": "die Dampfheizungen",
+    "lv": "Tvaika apkure",
+    "level": "B2"
+  },
+  {
+    "de": "darbieten",
+    "lv": "Sniegt • Pasniegt",
+    "level": "B2"
+  },
+  {
+    "de": "Darbietung",
+    "de_article": "die",
+    "de_plural": "die Darbietungen",
+    "lv": "Sniegums • Priekšnesums",
+    "level": "B2"
+  },
+  {
+    "de": "darlegen",
+    "lv": "Izklāstīt • Izskaidrot",
+    "level": "B2"
+  },
+  {
+    "de": "Darlehen",
+    "de_article": "das",
+    "de_plural": "die Darlehen",
+    "lv": "Aizdevums • Aizņēmums",
+    "level": "B2"
+  },
+  {
+    "de": "Darm",
+    "de_article": "der",
+    "de_plural": "die Därme",
+    "lv": "Zarna",
+    "level": "B2"
+  },
+  {
+    "de": "Darminfektion",
+    "de_article": "die",
+    "de_plural": "die Darminfektionen",
+    "lv": "Infecção por Zarnu",
+    "level": "B2"
+  },
+  {
+    "de": "Darstellung",
+    "de_article": "die",
+    "de_plural": "die Darstellungen",
+    "lv": "Tēlojums • Attēlojums • Izklāsts",
+    "level": "B2"
+  },
+  {
+    "de": "Dasein",
+    "de_article": "das",
+    "lv": "Esamiba • Existência",
+    "level": "B2"
+  },
+  {
+    "de": "dasjenige",
+    "lv": "Saco",
+    "level": "B2"
+  },
+  {
+    "de": "Datei",
+    "de_article": "die",
+    "de_plural": "die Dateien",
+    "lv": "Kartoteka",
+    "level": "B2"
+  },
+  {
+    "de": "Datenspeicher",
+    "de_article": "der",
+    "de_plural": "die Datenspeicher",
+    "lv": "Datoratmiņa",
+    "level": "B2"
+  },
+  {
+    "de": "Datenträger",
+    "de_article": "der",
+    "de_plural": "die Datenträger",
+    "lv": "Discreto",
+    "level": "B2"
+  },
+  {
+    "de": "Dattel",
+    "de_article": "die",
+    "de_plural": "die Datteln",
+    "lv": "Dê a eles",
+    "level": "B2"
+  },
+  {
+    "de": "Daune",
+    "de_article": "die",
+    "de_plural": "die Daunen",
+    "lv": "Duna",
+    "level": "B2"
+  },
+  {
+    "de": "Dealer",
+    "de_article": "der",
+    "de_plural": "die Dealer",
+    "lv": "Nelegals narkotiku tirgotājs",
+    "level": "B2"
+  },
+  {
+    "de": "Debatte",
+    "de_article": "die",
+    "de_plural": "die Debatten",
+    "lv": "Debates",
+    "level": "B2"
+  },
+  {
+    "de": "Deck",
+    "de_article": "das",
+    "de_plural": "die Decks",
+    "lv": "Kuģa klājs",
+    "level": "B2"
+  },
+  {
+    "de": "Defekt",
+    "de_article": "der",
+    "de_plural": "die Defekte",
+    "lv": "Técnicas de trukums • Kļūme",
+    "level": "B2"
+  },
+  {
+    "de": "Defizit",
+    "de_article": "das",
+    "de_plural": "die Defizite",
+    "lv": "Trūkums • Iztrūkums • Déficits",
+    "level": "B2"
+  },
+  {
+    "de": "dehnbar",
+    "lv": "Stiepjams • Staipāms • Staipīgs",
+    "level": "B2"
+  },
+  {
+    "de": "dehnen",
+    "lv": "Stiept • Staipīt • Stiepties • Staipīties • Vilkties",
+    "level": "B2"
+  },
+  {
+    "de": "deinerseits",
+    "lv": "Sem tavas você coloca",
+    "level": "B2"
+  },
+  {
+    "de": "deinetwegen",
+    "lv": "Tevis dēļ",
+    "level": "B2"
+  },
+  {
+    "de": "Deklaration",
+    "de_article": "die",
+    "de_plural": "die Deklarationen",
+    "lv": "Declarācija",
+    "level": "B2"
+  },
+  {
+    "de": "Delegierte",
+    "de_article": "der",
+    "de_plural": "die Delegierten",
+    "lv": "Delegados",
+    "level": "B2"
+  },
+  {
+    "de": "delikat",
+    "lv": "Delikats • Guardas",
+    "level": "B2"
+  },
+  {
+    "de": "Delikt",
+    "de_article": "das",
+    "de_plural": "die Delikte",
+    "lv": "Noziegums • Likuma pārkāpums",
+    "level": "B2"
+  },
+  {
+    "de": "dementieren",
+    "lv": "Informações importantes",
+    "level": "B2"
+  },
+  {
+    "de": "Demission",
+    "de_article": "die",
+    "de_plural": "die Demissionen",
+    "lv": "Atkāpšanās não amados • Demisija",
+    "level": "B2"
+  },
+  {
+    "de": "demütigen",
+    "lv": "Pazemot",
+    "level": "B2"
+  },
+  {
+    "de": "denkbar",
+    "lv": "Domājams • Iedomājams • Iespējams",
+    "level": "B2"
+  },
+  {
+    "de": "deplaziert",
+    "lv": "Nepiemērots • Nevietā • Nelaikā",
+    "level": "B2"
+  },
+  {
+    "de": "deponieren",
+    "lv": "Deponēt • Noguldīt",
+    "level": "B2"
+  },
+  {
+    "de": "derartig",
+    "lv": "Tāds • Šāds • Tamlīdzīgi",
+    "level": "B2"
+  },
+  {
+    "de": "derjenige",
+    "lv": "Saco",
+    "level": "B2"
+  },
+  {
+    "de": "deuten",
+    "lv": "Izskadrot • Iztulkot • Norādīt",
+    "level": "B2"
+  },
+  {
+    "de": "Deutung",
+    "de_article": "die",
+    "de_plural": "die Deutungen",
+    "lv": "Izskaidrošana • Iztulkošana • Izskaidrojums • Iztulkojums",
+    "level": "B2"
+  },
+  {
+    "de": "Devisen",
+    "de_article": "die",
+    "lv": "Betaalmiddel em moeda vreemde",
+    "level": "B2"
+  },
+  {
+    "de": "Devisenbörse",
+    "de_article": "die",
+    "de_plural": "die Devisenbörsen",
+    "lv": "Valūtas birža",
+    "level": "B2"
+  },
+  {
+    "de": "Devisenkurs",
+    "de_article": "der",
+    "de_plural": "die Devisenkurse",
+    "lv": "Curso de valores",
+    "level": "B2"
+  },
+  {
+    "de": "Dezernat",
+    "de_article": "das",
+    "de_plural": "die Dezernate",
+    "lv": "Nodaļa policia",
+    "level": "B2"
+  },
+  {
+    "de": "Morddezernat",
+    "de_article": "das",
+    "de_plural": "die Morddezernate",
+    "lv": "Criminālnodaļa",
+    "level": "B2"
+  },
+  {
+    "de": "Dia",
+    "de_article": "das",
+    "de_plural": "die Dias",
+    "lv": "Apresentações",
+    "level": "B2"
+  },
+  {
+    "de": "Diagnose",
+    "de_article": "die",
+    "de_plural": "die Diagnosen",
+    "lv": "Diagnosticar",
+    "level": "B2"
+  },
+  {
+    "de": "Dialekt",
+    "de_article": "der",
+    "de_plural": "die Dialekte",
+    "lv": "Dialetos",
+    "level": "B2"
+  },
+  {
+    "de": "Diätkost",
+    "de_article": "die",
+    "lv": "Dietéticas uzturs",
+    "level": "B2"
+  },
+  {
+    "de": "dichten",
+    "lv": "Dzejot • Sadzejot",
+    "level": "B2"
+  },
+  {
+    "de": "Dichtung",
+    "de_article": "die",
+    "de_plural": "die Dichtungen",
+    "lv": "Dzeja",
+    "level": "B2"
+  },
+  {
+    "de": "Dickicht",
+    "de_article": "das",
+    "de_plural": "die Dickichte",
+    "lv": "Biezoknis",
+    "level": "B2"
+  },
+  {
+    "de": "dickköpfig",
+    "lv": "Sturgivigs",
+    "level": "B2"
+  },
+  {
+    "de": "diejenige",
+    "lv": "Exército de reserva",
+    "level": "B2"
+  },
+  {
+    "de": "Diele",
+    "de_article": "die",
+    "de_plural": "die Dielen",
+    "lv": "Grīda • Dēlis • Priekštelpa",
+    "level": "B2"
+  },
+  {
+    "de": "diensthabend",
+    "lv": "Dežurējošs",
+    "level": "B2"
+  },
+  {
+    "de": "dienstlich",
+    "lv": "Dienesta • Amada",
+    "level": "B2"
+  },
+  {
+    "de": "diesseits",
+    "lv": "Shaipus",
+    "level": "B2"
+  },
+  {
+    "de": "dingen",
+    "lv": "Ligt • Salīgt",
+    "level": "B2"
+  },
+  {
+    "de": "Direktion",
+    "de_article": "die",
+    "de_plural": "die Direktionen",
+    "lv": "Controle sobre voorzetsels",
+    "level": "B2"
+  },
+  {
+    "de": "Dirigent",
+    "de_article": "der",
+    "de_plural": "die Dirigenten",
+    "lv": "Diretores",
+    "level": "B2"
+  },
+  {
+    "de": "Diskette",
+    "de_article": "die",
+    "de_plural": "die Disketten",
+    "lv": "Discreto",
+    "level": "B2"
+  },
+  {
+    "de": "diskret",
+    "lv": "Disquetes",
+    "level": "B2"
+  },
+  {
+    "de": "Diskuswerfen",
+    "de_article": "das",
+    "lv": "Disco mezena",
+    "level": "B2"
+  },
+  {
+    "de": "Distel",
+    "de_article": "die",
+    "de_plural": "die Disteln",
+    "lv": "Batatas",
+    "level": "B2"
+  },
+  {
+    "de": "Dividende",
+    "de_article": "die",
+    "de_plural": "die Dividenden",
+    "lv": "Dividendos",
+    "level": "B2"
+  },
+  {
+    "de": "Dock",
+    "de_article": "das",
+    "de_plural": "die Docks",
+    "lv": "Ok",
+    "level": "B2"
+  },
+  {
+    "de": "Dohle",
+    "de_article": "die",
+    "de_plural": "die Dohlen",
+    "lv": "Kovarnis",
+    "level": "B2"
+  },
+  {
+    "de": "Dom",
+    "de_article": "der",
+    "de_plural": "die Dome",
+    "lv": "Katedrale • Doms",
+    "level": "B2"
+  },
+  {
+    "de": "donnern",
+    "lv": "Pērkons rūc • Rībēt • Dārdēt",
+    "level": "B2"
+  },
+  {
+    "de": "dopen",
+    "lv": "Lietot dopinga līdzekļus",
+    "level": "B2"
+  },
+  {
+    "de": "Doping",
+    "de_article": "das",
+    "de_plural": "die Dopinge",
+    "lv": "Dopinga lidzeklis",
+    "level": "B2"
+  },
+  {
+    "de": "doppelsinnig",
+    "lv": "Divdomīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Doppelzentner",
+    "de_article": "der",
+    "de_plural": "die Doppelzentner",
+    "lv": "Centavos",
+    "level": "B2"
+  },
+  {
+    "de": "Dorn",
+    "de_article": "der",
+    "de_plural": "die Dornen",
+    "lv": "Ērkšķis • Dzelonis",
+    "level": "B2"
+  },
+  {
+    "de": "dornig",
+    "lv": "Ērkšķains • Dzeloņains",
+    "level": "B2"
+  },
+  {
+    "de": "dörren",
+    "lv": "Kaltēt • Žāvēt",
+    "level": "B2"
+  },
+  {
+    "de": "Dörrgemüse",
+    "de_article": "das",
+    "de_plural": "die Dörrgemüse",
+    "lv": "Kaltēti darzeņi",
+    "level": "B2"
+  },
+  {
+    "de": "Dörrobst",
+    "de_article": "das",
+    "lv": "Kaltēti agosto",
+    "level": "B2"
+  },
+  {
+    "de": "Dorsch",
+    "de_article": "der",
+    "de_plural": "die Dorsche",
+    "lv": "Menca",
+    "level": "B2"
+  },
+  {
+    "de": "Dosenfleisch",
+    "de_article": "das",
+    "de_plural": "die Dosenfleische",
+    "lv": "Gaļas konservi",
+    "level": "B2"
+  },
+  {
+    "de": "Dosenmilch",
+    "de_article": "die",
+    "de_plural": "die Dosenmilche",
+    "lv": "Iebiezinātais piens kārbās",
+    "level": "B2"
+  },
+  {
+    "de": "Dosenöffner",
+    "de_article": "der",
+    "de_plural": "die Dosenöffner",
+    "lv": "Konservu griežamais",
+    "level": "B2"
+  },
+  {
+    "de": "Dosis",
+    "de_article": "die",
+    "de_plural": "die Dosen",
+    "lv": "Doza • Deva",
+    "level": "B2"
+  },
+  {
+    "de": "Dotterblume",
+    "de_article": "die",
+    "de_plural": "die Dotterblumen",
+    "lv": "Purê",
+    "level": "B2"
+  },
+  {
+    "de": "Dragee",
+    "de_article": "das",
+    "de_plural": "die Dragees",
+    "lv": "Dražeja",
+    "level": "B2"
+  },
+  {
+    "de": "drahtlos",
+    "lv": "Bezdrats",
+    "level": "B2"
+  },
+  {
+    "de": "Drahtseilbahn",
+    "de_article": "die",
+    "de_plural": "die Drahtseilbahnen",
+    "lv": "Trošu dzelzceļš",
+    "level": "B2"
+  },
+  {
+    "de": "Dramatiker",
+    "de_article": "der",
+    "de_plural": "die Dramatiker",
+    "lv": "Dramaturgos • Lugu rakstnieks",
+    "level": "B2"
+  },
+  {
+    "de": "Drang",
+    "de_article": "der",
+    "de_plural": "die Dränge",
+    "lv": "Dziņa • Tieksme",
+    "level": "B2"
+  },
+  {
+    "de": "drängen",
+    "lv": "Duwen • Duwen • Haast • Haast • Aanmoedigen",
+    "level": "B2"
+  },
+  {
+    "de": "Dreck",
+    "de_article": "der",
+    "de_plural": "die Drecke",
+    "lv": "Mēsli • Netīrumi • Dubļi • Draņķis",
+    "level": "B2"
+  },
+  {
+    "de": "Dreharbeiten",
+    "de_article": "die",
+    "lv": "Filmēšana",
+    "level": "B2"
+  },
+  {
+    "de": "Drehbank",
+    "de_article": "die",
+    "de_plural": "die Drehbänke",
+    "lv": "Virpa",
+    "level": "B2"
+  },
+  {
+    "de": "Drehbleistift",
+    "de_article": "der",
+    "de_plural": "die Drehbleistifte",
+    "lv": "Zimulis automáticos",
+    "level": "B2"
+  },
+  {
+    "de": "Drehung",
+    "de_article": "die",
+    "de_plural": "die Drehungen",
+    "lv": "Griešanas • Apgrieziens",
+    "level": "B2"
+  },
+  {
+    "de": "Dreisprung",
+    "de_article": "der",
+    "de_plural": "die Dreisprünge",
+    "lv": "Trissoļlēkšana",
+    "level": "B2"
+  },
+  {
+    "de": "dreschen",
+    "lv": "Kult labību • Culto ondas baltumu",
+    "level": "B2"
+  },
+  {
+    "de": "Dressman",
+    "de_article": "der",
+    "de_plural": "die Dressmen",
+    "lv": "Modeļu demonstrētājs modos patins",
+    "level": "B2"
+  },
+  {
+    "de": "dringen",
+    "lv": "Spiesties • Lauzties • Iespiesties • Ielauzties • Prasīt • Pieprasīt",
+    "level": "B2"
+  },
+  {
+    "de": "Drogensucht",
+    "de_article": "die",
+    "de_plural": "die Drogensüchte",
+    "lv": "Narkomanija",
+    "level": "B2"
+  },
+  {
+    "de": "Drohung",
+    "de_article": "die",
+    "de_plural": "die Drohungen",
+    "lv": "Draudi",
+    "level": "B2"
+  },
+  {
+    "de": "Drops",
+    "de_article": "der",
+    "de_plural": "die Drops",
+    "lv": "Skābas augļu karameles • Ledenes",
+    "level": "B2"
+  },
+  {
+    "de": "Drossel",
+    "de_article": "die",
+    "de_plural": "die Drosseln",
+    "lv": "Strazds",
+    "level": "B2"
+  },
+  {
+    "de": "drosseln",
+    "lv": "Agosto • Apslāpēt",
+    "level": "B2"
+  },
+  {
+    "de": "Nadeldrucker",
+    "de_article": "der",
+    "de_plural": "die Nadeldrucker",
+    "lv": "Adatprinteris",
+    "level": "B2"
+  },
+  {
+    "de": "Druckerei",
+    "de_article": "die",
+    "de_plural": "die Druckereien",
+    "lv": "Tipografia",
+    "level": "B2"
+  },
+  {
+    "de": "Druckfehler",
+    "de_article": "der",
+    "de_plural": "die Druckfehler",
+    "lv": "Iespiedkļūda",
+    "level": "B2"
+  },
+  {
+    "de": "Druckmaschine",
+    "de_article": "die",
+    "de_plural": "die Druckmaschinen",
+    "lv": "Iespiedmasina",
+    "level": "B2"
+  },
+  {
+    "de": "Druckpapier",
+    "de_article": "das",
+    "de_plural": "die Druckpapiere",
+    "lv": "Iespiedpapirs",
+    "level": "B2"
+  },
+  {
+    "de": "Drucksache",
+    "de_article": "die",
+    "de_plural": "die Drucksachen",
+    "lv": "Bandrole • Iespieddarbs macarrão sūtījumos",
+    "level": "B2"
+  },
+  {
+    "de": "Drüse",
+    "de_article": "die",
+    "de_plural": "die Drüsen",
+    "lv": "Dziedzeris",
+    "level": "B2"
+  },
+  {
+    "de": "dulden",
+    "lv": "Mais calmo • Mais calmo",
+    "level": "B2"
+  },
+  {
+    "de": "dumpf",
+    "lv": "Dobjš • Apslāpēts • Sasmacis • Smacīgs • Smags • Nospiests • Nomācošs",
+    "level": "B2"
+  },
+  {
+    "de": "Dumping",
+    "de_article": "das",
+    "de_plural": "die Dumpinge",
+    "lv": "Dempings",
+    "level": "B2"
+  },
+  {
+    "de": "Dumpingpreis",
+    "de_article": "der",
+    "de_plural": "die Dumpingpreise",
+    "lv": "Jantar Dempinga",
+    "level": "B2"
+  },
+  {
+    "de": "Düne",
+    "de_article": "die",
+    "de_plural": "die Dünen",
+    "lv": "Capa",
+    "level": "B2"
+  },
+  {
+    "de": "Düngemittel",
+    "de_article": "das",
+    "de_plural": "die Düngemittel",
+    "lv": "Mēslošanas līdzeklis • Minerālmēsli",
+    "level": "B2"
+  },
+  {
+    "de": "düngen",
+    "lv": "Meslot",
+    "level": "B2"
+  },
+  {
+    "de": "Dünkel",
+    "de_article": "der",
+    "lv": "Iedomiba • Uzpūtība • Augstprātība",
+    "level": "B2"
+  },
+  {
+    "de": "dunkeln",
+    "lv": "Tumst • Sábado",
+    "level": "B2"
+  },
+  {
+    "de": "dünken",
+    "lv": "Likties • Šķist",
+    "level": "B2"
+  },
+  {
+    "de": "Dunst",
+    "de_article": "der",
+    "de_plural": "die Dünste",
+    "lv": "Tvaiks • Garaiņi • Izgarojumi • Tvans • Migla • Dūmaka",
+    "level": "B2"
+  },
+  {
+    "de": "durcharbeiten",
+    "lv": "Izstrādāt • Rūpīgi izlasīt • Rūpīgi izmīcīt",
+    "level": "B2"
+  },
+  {
+    "de": "durchaus",
+    "lv": "Gluži • Pavisam • Pilnīgi",
+    "level": "B2"
+  },
+  {
+    "de": "durchbrechen",
+    "lv": "Abridor de porta • Abridor de porta • Verschijnen • Abridor de porta",
+    "level": "B2"
+  },
+  {
+    "de": "durchbrennen",
+    "lv": "Cowrie Izdedzināt • Pārddedzināt • Izdegt • Pārdegt",
+    "level": "B2"
+  },
+  {
+    "de": "durchbringen",
+    "lv": "Cowrie Izdabūt • Cowrie Iznest • Panākt • Izārstēt • Izšķērdēt",
+    "level": "B2"
+  },
+  {
+    "de": "Durchbruch",
+    "de_article": "der",
+    "de_plural": "die Durchbrüche",
+    "lv": "Izlaušanās • Pārrāvums dambī",
+    "level": "B2"
+  },
+  {
+    "de": "durchdringen",
+    "lv": "Izspiesties • Izlauzties cowri • Būt pārņemtam",
+    "level": "B2"
+  },
+  {
+    "de": "Durchfahrt",
+    "de_article": "die",
+    "de_plural": "die Durchfahrten",
+    "lv": "Caurbraukšana • Caurbrauktuve",
+    "level": "B2"
+  },
+  {
+    "de": "Durchfuhr",
+    "de_article": "die",
+    "lv": "Caurbraukšana • Tranzīts",
+    "level": "B2"
+  },
+  {
+    "de": "Durchführung",
+    "de_article": "die",
+    "de_plural": "die Durchführungen",
+    "lv": "Izvadīšana cauri kaut kam • Izpildīšana • Izdarīšana • Veikšana • Realizēšana",
+    "level": "B2"
+  },
+  {
+    "de": "durchgreifend",
+    "lv": "Radicais",
+    "level": "B2"
+  },
+  {
+    "de": "durchlaufen",
+    "lv": "Búzio Izskriet • Búzio Iztecēt",
+    "level": "B2"
+  },
+  {
+    "de": "durchmachen",
+    "lv": "Pārdzīvot • Izņemt • Pabeigt",
+    "level": "B2"
+  },
+  {
+    "de": "Durchmesser",
+    "de_article": "der",
+    "de_plural": "die Durchmesser",
+    "lv": "Diâmetros • Caurmērs",
+    "level": "B2"
+  },
+  {
+    "de": "durchqueren",
+    "lv": "Superestimar",
+    "level": "B2"
+  },
+  {
+    "de": "Durchreise",
+    "de_article": "die",
+    "de_plural": "die Durchreisen",
+    "lv": "Passageiros",
+    "level": "B2"
+  },
+  {
+    "de": "durchschauen",
+    "lv": "Cowrie Redzēt • Atklāt",
+    "level": "B2"
+  },
+  {
+    "de": "durchschlagen",
+    "lv": "Izkāst • Izlaist caur sietu • Izsisties cauri • Izsist caurumu",
+    "level": "B2"
+  },
+  {
+    "de": "durchsehen",
+    "lv": "Izskatīt • Pārbaudīt • Skatīties cowrie",
+    "level": "B2"
+  },
+  {
+    "de": "durchsetzen",
+    "lv": "Cauri de Izdabut • Panākt",
+    "level": "B2"
+  },
+  {
+    "de": "durchstellen",
+    "lv": "Savienot talruņa sarunu",
+    "level": "B2"
+  },
+  {
+    "de": "dürr",
+    "lv": "Salsicha • Izkaltis • Nokaltis • Kalsns",
+    "level": "B2"
+  },
+  {
+    "de": "Dürre",
+    "de_article": "die",
+    "de_plural": "die Dürren",
+    "lv": "Salsichas",
+    "level": "B2"
+  },
+  {
+    "de": "dürsten",
+    "lv": "Slāpt • Būt izslāpušam • Alkt",
+    "level": "B2"
+  },
+  {
+    "de": "Düsenantrieb",
+    "de_article": "der",
+    "de_plural": "die Düsenantriebe",
+    "lv": "Reaktīvais dzinējs",
+    "level": "B2"
+  },
+  {
+    "de": "Ebbe",
+    "de_article": "die",
+    "de_plural": "die Ebben",
+    "lv": "Bēgums",
+    "level": "B2"
+  },
+  {
+    "de": "ebenbürtig",
+    "lv": "Līdzvērtīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Eberesche",
+    "de_article": "die",
+    "de_plural": "die Ebereschen",
+    "lv": "Sērmūkslis • Pīlādzis",
+    "level": "B2"
+  },
+  {
+    "de": "ebnen",
+    "lv": "Nolidzināt • Nogludināt",
+    "level": "B2"
+  },
+  {
+    "de": "Echse",
+    "de_article": "die",
+    "de_plural": "die Echsen",
+    "lv": "Ķirzaka",
+    "level": "B2"
+  },
+  {
+    "de": "edel",
+    "lv": "Cēls • Cildens • Dižciltīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Edelstein",
+    "de_article": "der",
+    "de_plural": "die Edelsteine",
+    "lv": "Dargakmens",
+    "level": "B2"
+  },
+  {
+    "de": "effektvoll",
+    "lv": "Efeitos",
+    "level": "B2"
+  },
+  {
+    "de": "Egge",
+    "de_article": "die",
+    "de_plural": "die Eggen",
+    "lv": "Ecēšas",
+    "level": "B2"
+  },
+  {
+    "de": "Eheberatung",
+    "de_article": "die",
+    "de_plural": "die Eheberatungen",
+    "lv": "Consulta de Ģimenes",
+    "level": "B2"
+  },
+  {
+    "de": "ehelich",
+    "lv": "Laulības-",
+    "level": "B2"
+  },
+  {
+    "de": "Ehescheidung",
+    "de_article": "die",
+    "de_plural": "die Ehescheidungen",
+    "lv": "Laulības šķiršana",
+    "level": "B2"
+  },
+  {
+    "de": "Eheschließung",
+    "de_article": "die",
+    "de_plural": "die Eheschließungen",
+    "lv": "Laulības • Salaulāšanas",
+    "level": "B2"
+  },
+  {
+    "de": "ehren",
+    "lv": "Godāt • Cienīt • Godināt",
+    "level": "B2"
+  },
+  {
+    "de": "Ehrenamt",
+    "de_article": "das",
+    "de_plural": "die Ehrenämter",
+    "lv": "Aproveite os amantes",
+    "level": "B2"
+  },
+  {
+    "de": "ehrenamtlich",
+    "lv": "Bez maksas • Goda pienākumu izpildot",
+    "level": "B2"
+  },
+  {
+    "de": "Ehrenmitglied",
+    "de_article": "das",
+    "de_plural": "die Ehrenmitglieder",
+    "lv": "Erélida",
+    "level": "B2"
+  },
+  {
+    "de": "Ehrenpflicht",
+    "de_article": "die",
+    "lv": "Aproveite a plenitude",
+    "level": "B2"
+  },
+  {
+    "de": "Ehrenplatz",
+    "de_article": "der",
+    "de_plural": "die Ehrenplätze",
+    "lv": "Deus me livre",
+    "level": "B2"
+  },
+  {
+    "de": "Ehrensache",
+    "de_article": "die",
+    "de_plural": "die Ehrensachen",
+    "lv": "Aproveite felizmente",
+    "level": "B2"
+  },
+  {
+    "de": "ehrenvoll",
+    "lv": "Goda pilns • Goda pilns",
+    "level": "B2"
+  },
+  {
+    "de": "Ehrenwache",
+    "de_article": "die",
+    "de_plural": "die Ehrenwachen",
+    "lv": "Godasardze",
+    "level": "B2"
+  },
+  {
+    "de": "Ehrenwort",
+    "de_article": "das",
+    "de_plural": "die Ehrenworte",
+    "lv": "Godavards",
+    "level": "B2"
+  },
+  {
+    "de": "ehrgeizig",
+    "lv": "Godkarīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Ehrung",
+    "de_article": "die",
+    "de_plural": "die Ehrungen",
+    "lv": "Godināšana • Cerimônia Godināšanas",
+    "level": "B2"
+  },
+  {
+    "de": "Eichel",
+    "de_article": "die",
+    "de_plural": "die Eicheln",
+    "lv": "Ozolzila",
+    "level": "B2"
+  },
+  {
+    "de": "Eid",
+    "de_article": "der",
+    "de_plural": "die Eide",
+    "lv": "Zvērests",
+    "level": "B2"
+  },
+  {
+    "de": "Eidechse",
+    "de_article": "die",
+    "de_plural": "die Eidechsen",
+    "lv": "Ķirzaka",
+    "level": "B2"
+  },
+  {
+    "de": "Eidotter",
+    "de_article": "der",
+    "de_plural": "die Eidotter",
+    "lv": "Ondas Dzeltenum",
+    "level": "B2"
+  },
+  {
+    "de": "Eifer",
+    "de_article": "der",
+    "de_plural": "die Eifer",
+    "lv": "Centiba • Cītība • Aizrautība • Degsme • Dedzība",
+    "level": "B2"
+  },
+  {
+    "de": "eifrig",
+    "lv": "Centīgs • Cītīgs • Uzcītīgs • Dedzīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Eigenart",
+    "de_article": "die",
+    "de_plural": "die Eigenarten",
+    "lv": "Īpatnība • Savdabīgums",
+    "level": "B2"
+  },
+  {
+    "de": "eigenhändig",
+    "lv": "Pašrocīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Eigenliebe",
+    "de_article": "die",
+    "lv": "Patmīlība • Egoísmos",
+    "level": "B2"
+  },
+  {
+    "de": "eigensinnig",
+    "lv": "Ietiepigs • Stūrgalvigs",
+    "level": "B2"
+  },
+  {
+    "de": "eigentümlich",
+    "lv": "Īpatnējs • Raksturīgs",
+    "level": "B2"
+  },
+  {
+    "de": "eigenwillig",
+    "lv": "Patvaļīgs • Ietiepīgs • Stūrgalvīgs • Patvarīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Eilbote",
+    "de_article": "der",
+    "de_plural": "die Eilboten",
+    "lv": "Ziņnesis • Kurjers",
+    "level": "B2"
+  },
+  {
+    "de": "Eilbrief",
+    "de_article": "der",
+    "de_plural": "die Eilbriefe",
+    "lv": "Vestula Steidzama",
+    "level": "B2"
+  },
+  {
+    "de": "einäschern",
+    "lv": "Kremēt • Sadedzināt ugunsgrēkā",
+    "level": "B2"
+  },
+  {
+    "de": "Einband",
+    "de_article": "der",
+    "de_plural": "die Einbände",
+    "lv": "Iesējums",
+    "level": "B2"
+  },
+  {
+    "de": "einberufen",
+    "lv": "Sasaukt • Iesaukt karadienestā",
+    "level": "B2"
+  },
+  {
+    "de": "Einbildung",
+    "de_article": "die",
+    "de_plural": "die Einbildungen",
+    "lv": "Iedoma • Iztēle • Fantāzija • Iedomība • Uzpūtība",
+    "level": "B2"
+  },
+  {
+    "de": "einbürgern",
+    "lv": "Piešķirt pilsoņa tieības • Ieviesties • Iesakņoties",
+    "level": "B2"
+  },
+  {
+    "de": "einbüßen",
+    "lv": "Ciest materiālus zaudējumus",
+    "level": "B2"
+  },
+  {
+    "de": "eindringen",
+    "lv": "Iespiesties • Ielauzties • Iesūkties • Iedziļināties",
+    "level": "B2"
+  },
+  {
+    "de": "eindringlich",
+    "lv": "Neatlaidīgs • Pārliecinošs",
+    "level": "B2"
+  },
+  {
+    "de": "einfältig",
+    "lv": "Vientiesīgs • Ingênuo",
+    "level": "B2"
+  },
+  {
+    "de": "einfassen",
+    "lv": "Ietvert • Ierāmēt • Iedarināt akalumā",
+    "level": "B2"
+  },
+  {
+    "de": "einflussreich",
+    "lv": "Ietekmīgs • Iespaidīgs",
+    "level": "B2"
+  },
+  {
+    "de": "einförmig",
+    "lv": "Vienveidīgs • Vienmuļš",
+    "level": "B2"
+  },
+  {
+    "de": "einfrieren",
+    "lv": "Sasaldēt • Iesaldēt • Pārtraukt",
+    "level": "B2"
+  },
+  {
+    "de": "Einfuhr",
+    "de_article": "die",
+    "de_plural": "die Einfuhren",
+    "lv": "Introdução • Importação • Binnenenhalen • Importadores",
+    "level": "B2"
+  },
+  {
+    "de": "Einfuhrsperre",
+    "de_article": "die",
+    "de_plural": "die Einfuhrsperren",
+    "lv": "Bloqueio de importação",
+    "level": "B2"
+  },
+  {
+    "de": "Eingabe",
+    "de_article": "die",
+    "de_plural": "die Eingaben",
+    "lv": "Iesniegums • Datu ievadīšana datorā",
+    "level": "B2"
+  },
+  {
+    "de": "eingebildet",
+    "lv": "Iedomigs • Uzpūtīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Eingebung",
+    "de_article": "die",
+    "de_plural": "die Eingebungen",
+    "lv": "Iedvesma • Ideia Pēkšņa",
+    "level": "B2"
+  },
+  {
+    "de": "eingehen",
+    "lv": "Ieiet • Pienākt • Ienākt • Ierauties • Sarauties • Piekrist • Saderēt",
+    "level": "B2"
+  },
+  {
+    "de": "eingehend",
+    "lv": "Pamatīgs • Sīks • Ienākošs",
+    "level": "B2"
+  },
+  {
+    "de": "Eingemachte",
+    "de_article": "das",
+    "de_plural": "die Eingemachte",
+    "lv": "Ievārījums • Konservēti augļi",
+    "level": "B2"
+  },
+  {
+    "de": "eingerechnet",
+    "lv": "Ierēķināts • Ieskaitīts • Pieskaitīts",
+    "level": "B2"
+  },
+  {
+    "de": "Eingeständnis",
+    "de_article": "das",
+    "de_plural": "die Eingeständnisse",
+    "lv": "Atzīšanas",
+    "level": "B2"
+  },
+  {
+    "de": "eingestehen",
+    "lv": "Atzit",
+    "level": "B2"
+  },
+  {
+    "de": "Eingeweide",
+    "de_article": "die",
+    "lv": "Iekšas • Iekšējie organi",
+    "level": "B2"
+  },
+  {
+    "de": "eingewurzelt",
+    "lv": "Iesakņojies",
+    "level": "B2"
+  },
+  {
+    "de": "eingleisig",
+    "lv": "Viensliežu-",
+    "level": "B2"
+  },
+  {
+    "de": "eingrenzen",
+    "lv": "Ierobežot • Norobežot",
+    "level": "B2"
+  },
+  {
+    "de": "Eingriff",
+    "de_article": "der",
+    "de_plural": "die Eingriffe",
+    "lv": "Iejaukšanās • Operação",
+    "level": "B2"
+  },
+  {
+    "de": "einhüllen",
+    "lv": "Ietīt • Satīt • Ievīstīt",
+    "level": "B2"
+  },
+  {
+    "de": "Einigkeit",
+    "de_article": "die",
+    "de_plural": "die Einigkeiten",
+    "lv": "Vienība • Vienotība • Vienprātība",
+    "level": "B2"
+  },
+  {
+    "de": "einkassieren",
+    "lv": "Jekaset",
+    "level": "B2"
+  },
+  {
+    "de": "Einklang",
+    "de_article": "der",
+    "de_plural": "die Einklänge",
+    "lv": "Saskana",
+    "level": "B2"
+  },
+  {
+    "de": "einkleiden",
+    "lv": "Ieģērbt • Ietērpt",
+    "level": "B2"
+  },
+  {
+    "de": "sich einlassen",
+    "lv": "Ielaistias",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-einlassen",
+      "layout": "minimalStudy",
+      "translation": "Ielaistias",
+      "rektion": "auf + ko?",
+      "explanation": "Sich einlassen nepieciešams noteikts prievārds auf + ko?.",
+      "forms": "auf + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich einlassen"
+          ],
+          "red": [
+            "auf + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "einleiten",
+    "lv": "Ievadita",
+    "level": "B2"
+  },
+  {
+    "de": "einleuchten",
+    "lv": "Mas saprotamam • Mas skaidram",
+    "level": "B2"
+  },
+  {
+    "de": "einliefern",
+    "lv": "Ievest • Atvest",
+    "level": "B2"
+  },
+  {
+    "de": "einmachen",
+    "lv": "Iekonservēt • Iemarinēt • Ievārīt",
+    "level": "B2"
+  },
+  {
+    "de": "einmütig",
+    "lv": "Vienprātīgs",
+    "level": "B2"
+  },
+  {
+    "de": "sich einprägen",
+    "lv": "Iegaumēt",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-einpraegen",
+      "layout": "minimalStudy",
+      "translation": "Iegaumēt",
+      "rektion": "in + ko?",
+      "explanation": "Sich einprägen nepieciešams noteikts prievārds em + ko?.",
+      "forms": "in + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich einprägen"
+          ],
+          "red": [
+            "Sich"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "einrechnen",
+    "lv": "Ierēķināt • Ieskaitīt",
+    "level": "B2"
+  },
+  {
+    "de": "einschläfern",
+    "lv": "Iemidzinat",
+    "level": "B2"
+  },
+  {
+    "de": "sich einschleichen",
+    "lv": "Ielavīties • Iezagties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-einschleichen",
+      "layout": "minimalStudy",
+      "translation": "Ielavīties • Iezagties",
+      "rektion": "in + ko?",
+      "explanation": "Sich einschleichen nepieciešams noteikts prievārds em + ko?.",
+      "forms": "in + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich einschleichen"
+          ],
+          "red": [
+            "Sich"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Einschnitt",
+    "de_article": "der",
+    "de_plural": "die Einschnitte",
+    "lv": "Iegriezums • Griezums • Grieziens • Robs",
+    "level": "B2"
+  },
+  {
+    "de": "sich einschränken",
+    "lv": "Ierobežoties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-einschraenken",
+      "layout": "minimalStudy",
+      "translation": "Ierobežoties",
+      "rektion": "auf + ko?",
+      "explanation": "Sich einschränken nepieciešams noteikts prievārds auf + ko?.",
+      "forms": "auf + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich einschränken"
+          ],
+          "red": [
+            "auf + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Einschreiben",
+    "de_article": "das",
+    "de_plural": "die Einschreiben",
+    "lv": "Ierakstīta vēstule vai sūtījums",
+    "level": "B2"
+  },
+  {
+    "de": "einschulen",
+    "lv": "Escola Bērnu pieakstīt",
+    "level": "B2"
+  },
+  {
+    "de": "einsichtig",
+    "lv": "Saprātīgs • Pratīgs",
+    "level": "B2"
+  },
+  {
+    "de": "einspeichern",
+    "lv": "Dados Ievadīt • Saglabat",
+    "level": "B2"
+  },
+  {
+    "de": "Einspruch",
+    "de_article": "der",
+    "de_plural": "die Einsprüche",
+    "lv": "Iebildums • Ieruna • Protestos",
+    "level": "B2"
+  },
+  {
+    "de": "Einstandsgeld",
+    "de_article": "das",
+    "de_plural": "die Einstandsgelder",
+    "lv": "Iestāšanās nauda",
+    "level": "B2"
+  },
+  {
+    "de": "einstimmig",
+    "lv": "Vienbalsīgs • Vienprātīgs",
+    "level": "B2"
+  },
+  {
+    "de": "einströmen",
+    "lv": "Ieplūst",
+    "level": "B2"
+  },
+  {
+    "de": "eintauchen",
+    "lv": "Iemērkt • Iemērcēt • Iegremdēt • Ienirt",
+    "level": "B2"
+  },
+  {
+    "de": "eintönig",
+    "lv": "Vienmuļš • Vienmuļīgs • Monótono",
+    "level": "B2"
+  },
+  {
+    "de": "Eintracht",
+    "de_article": "die",
+    "lv": "Vienprātība • Saskaņa • Saticība • Saderība",
+    "level": "B2"
+  },
+  {
+    "de": "einträglich",
+    "lv": "Ienesīgs • Aluguáveis",
+    "level": "B2"
+  },
+  {
+    "de": "einüben",
+    "lv": "Iemācīties • Iestudēt",
+    "level": "B2"
+  },
+  {
+    "de": "Einwand",
+    "de_article": "der",
+    "de_plural": "die Einwände",
+    "lv": "Iebildums",
+    "level": "B2"
+  },
+  {
+    "de": "einwandfrei",
+    "lv": "Nevainojams",
+    "level": "B2"
+  },
+  {
+    "de": "einweichen",
+    "lv": "Iemērkt",
+    "level": "B2"
+  },
+  {
+    "de": "einweihen",
+    "lv": "Svinīgi atklāt • Uzticēt noslēpumu",
+    "level": "B2"
+  },
+  {
+    "de": "einwenden",
+    "lv": "Iebilst • Iebildumus celta",
+    "level": "B2"
+  },
+  {
+    "de": "einwilligen",
+    "lv": "Piekrist • Mas ar mieru",
+    "level": "B2"
+  },
+  {
+    "de": "Eisblume",
+    "de_article": "die",
+    "de_plural": "die Eisblumen",
+    "lv": "Leduspuķe",
+    "level": "B2"
+  },
+  {
+    "de": "Eisbrecher",
+    "de_article": "der",
+    "de_plural": "die Eisbrecher",
+    "lv": "Ledlauzis",
+    "level": "B2"
+  },
+  {
+    "de": "Eisenbeton",
+    "de_article": "der",
+    "lv": "Dzelzsbetons",
+    "level": "B2"
+  },
+  {
+    "de": "Eisenerz",
+    "de_article": "das",
+    "de_plural": "die Eisenerze",
+    "lv": "Dzelzsrūda",
+    "level": "B2"
+  },
+  {
+    "de": "Eisengießerei",
+    "de_article": "die",
+    "de_plural": "die Eisengießereien",
+    "lv": "Čuguna lietuve",
+    "level": "B2"
+  },
+  {
+    "de": "eisfrei",
+    "lv": "Brīvs no ledus • Bez ledus",
+    "level": "B2"
+  },
+  {
+    "de": "Eisgang",
+    "de_article": "der",
+    "de_plural": "die Eisgänge",
+    "lv": "Ledus iesana",
+    "level": "B2"
+  },
+  {
+    "de": "Eisschnelllauf",
+    "de_article": "der",
+    "de_plural": "die Eisschnellläufe",
+    "lv": "Ātrslidošana",
+    "level": "B2"
+  },
+  {
+    "de": "Eissegeln",
+    "de_article": "das",
+    "lv": "Burāšana ar ledusjahtām",
+    "level": "B2"
+  },
+  {
+    "de": "eitel",
+    "lv": "Godkārīgs • Uzpūtīgs • Iedomīgs • Sekls • Tukšs • Ārišķīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Ekel",
+    "de_article": "der",
+    "lv": "Riebums • Pretīgums",
+    "level": "B2"
+  },
+  {
+    "de": "Elfenbein",
+    "de_article": "das",
+    "de_plural": "die Elfenbeine",
+    "lv": "Ziloņkauls",
+    "level": "B2"
+  },
+  {
+    "de": "Elster",
+    "de_article": "die",
+    "de_plural": "die Elstern",
+    "lv": "Caminhada",
+    "level": "B2"
+  },
+  {
+    "de": "Empfangschef",
+    "de_article": "der",
+    "de_plural": "die Empfangschefs",
+    "lv": "Administradores viesnīcā",
+    "level": "B2"
+  },
+  {
+    "de": "sich empfehlen",
+    "lv": "Mas ieteicamam",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-empfehlen",
+      "layout": "minimalStudy",
+      "translation": "Mas ieteicamam",
+      "rektion": "zu + kam?",
+      "explanation": "Sich empfehlen nepieciešams noteikts prievārds zu + kam?.",
+      "forms": "zu + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich empfehlen"
+          ],
+          "red": [
+            "zu + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "empor",
+    "lv": "Uz augšu • Augšup",
+    "level": "B2"
+  },
+  {
+    "de": "empören",
+    "lv": "Izraisīt sašutumu",
+    "level": "B2"
+  },
+  {
+    "de": "sich empören",
+    "lv": "Sašust • Sacelties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-empoeren",
+      "layout": "minimalStudy",
+      "translation": "Sašust • Sacelties",
+      "rektion": "über + ko?",
+      "explanation": "Sich empören nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich empören"
+          ],
+          "red": [
+            "über + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Empörung",
+    "de_article": "die",
+    "de_plural": "die Empörungen",
+    "lv": "Sašutums • Sacelšanās • Dumpis",
+    "level": "B2"
+  },
+  {
+    "de": "emsig",
+    "lv": "Čakls • Rosīgs • Darbīgs",
+    "level": "B2"
+  },
+  {
+    "de": "entbehren",
+    "lv": "Doe zonder • Verdraag • Gebrek",
+    "level": "B2"
+  },
+  {
+    "de": "entbinden",
+    "lv": "Atbrīvot • Atsvabināt • Dzemdēt",
+    "level": "B2"
+  },
+  {
+    "de": "Entbindung",
+    "de_article": "die",
+    "de_plural": "die Entbindungen",
+    "lv": "Atbrīvošana • Atsvabināšana • Dzemdības",
+    "level": "B2"
+  },
+  {
+    "de": "entehren",
+    "lv": "Laupīt godu • Apkaunot",
+    "level": "B2"
+  },
+  {
+    "de": "enteignen",
+    "lv": "Atsavināt • Expropriēt",
+    "level": "B2"
+  },
+  {
+    "de": "enterben",
+    "lv": "Atņemt mantojumu",
+    "level": "B2"
+  },
+  {
+    "de": "entfallen",
+    "lv": "Izkrist • Aizmirsties",
+    "level": "B2"
+  },
+  {
+    "de": "entfalten",
+    "lv": "Attīt • Atlocīt • Attīstīt • Izvērst",
+    "level": "B2"
+  },
+  {
+    "de": "sich entfalten",
+    "lv": "Atvērties • Atraisīties • Attīstīties • Izvērsties",
+    "level": "B2"
+  },
+  {
+    "de": "entflammen",
+    "lv": "Aizdedzināt • Iededzināt • Sajūsmināt • Aizdegties",
+    "level": "B2"
+  },
+  {
+    "de": "entführen",
+    "lv": "Aizvest • Nolaupīt",
+    "level": "B2"
+  },
+  {
+    "de": "entgegnen",
+    "lv": "Atbildet",
+    "level": "B2"
+  },
+  {
+    "de": "entgleisen",
+    "lv": "Izlekt sem slidem",
+    "level": "B2"
+  },
+  {
+    "de": "sich enthalten",
+    "lv": "Atrēties não",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-enthalten",
+      "layout": "minimalStudy",
+      "translation": "Atrēties não",
+      "rektion": "von + kam?",
+      "explanation": "Sich enthalten nepieciešams noteikts prievārds von + kam?.",
+      "forms": "von + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich enthalten"
+          ],
+          "red": [
+            "von + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "enthüllen",
+    "lv": "Atklāt • Atsegt",
+    "level": "B2"
+  },
+  {
+    "de": "entkorken",
+    "lv": "Ontkurken",
+    "level": "B2"
+  },
+  {
+    "de": "entkräften",
+    "lv": "Atņemt spēku • Novājināt • Atspēkot • Apgāzt",
+    "level": "B2"
+  },
+  {
+    "de": "entladen",
+    "lv": "Izkraut • Izlādēt",
+    "level": "B2"
+  },
+  {
+    "de": "entlarven",
+    "lv": "Atmaskot",
+    "level": "B2"
+  },
+  {
+    "de": "sich entledigen",
+    "lv": "Atributos • Tikt vaļā",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-entledigen",
+      "layout": "minimalStudy",
+      "translation": "Atributos • Tikt vaļā",
+      "rektion": "+ piederības forma",
+      "explanation": "Sich entreledigen mūsdienu vaciski happy ar pierības formu bez prievārda.",
+      "forms": "+ piederības forma",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Sich entreledigen"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "entlegen",
+    "lv": "Nomaļš • Atstats • Attāls",
+    "level": "B2"
+  },
+  {
+    "de": "entmutigen",
+    "lv": "Atņemt drosmi",
+    "level": "B2"
+  },
+  {
+    "de": "entnehmen",
+    "lv": "Ņemt • Paņemt • Izņemt • Secināt",
+    "level": "B2"
+  },
+  {
+    "de": "sich entrüsten",
+    "lv": "Sašust • Sadumpoties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-entruesten",
+      "layout": "minimalStudy",
+      "translation": "Sašust • Sadumpoties",
+      "rektion": "über + ko?",
+      "explanation": "Sich entrüsten nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich entrüsten"
+          ],
+          "red": [
+            "über + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "entsagen",
+    "lv": "Atsacīties • Atteikties",
+    "level": "B2"
+  },
+  {
+    "de": "entseuchen",
+    "lv": "Dezinficēt",
+    "level": "B2"
+  },
+  {
+    "de": "sich entsinnen",
+    "lv": "Atminēties • Atcerēties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-entsinnen",
+      "layout": "minimalStudy",
+      "translation": "Atminēties • Atcerēties",
+      "rektion": "+ piederības forma",
+      "explanation": "Se você é um homem feliz e feliz com a forma sem prievārda, lembre-se: Ich entsinne mich eines Fehlers.",
+      "forms": "+ piederības forma",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Ich entsinne"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Entspannung",
+    "de_article": "die",
+    "de_plural": "die Entspannungen",
+    "lv": "Atslābums • Atslābšana • Saspīlējuma mazināšanās",
+    "level": "B2"
+  },
+  {
+    "de": "entstellen",
+    "lv": "Izkropļot • Izķēmot • Sagrozīt",
+    "level": "B2"
+  },
+  {
+    "de": "entweichen",
+    "lv": "Attālināties • Izbēgt • Atkāpties • Izplūst",
+    "level": "B2"
+  },
+  {
+    "de": "entwerfen",
+    "lv": "Uzmest • Uzskicet",
+    "level": "B2"
+  },
+  {
+    "de": "Entwerter",
+    "de_article": "der",
+    "de_plural": "die Entwerter",
+    "lv": "Kompostrs",
+    "level": "B2"
+  },
+  {
+    "de": "Entwertung",
+    "de_article": "die",
+    "de_plural": "die Entwertungen",
+    "lv": "Vērtības pazemināšana • Devalvācija",
+    "level": "B2"
+  },
+  {
+    "de": "Entwurf",
+    "de_article": "der",
+    "de_plural": "die Entwürfe",
+    "lv": "Onwerp • Esquemas • Projeto",
+    "level": "B2"
+  },
+  {
+    "de": "entwurzeln",
+    "lv": "Izraut ar visām saknēm • Iznīdēt • Galīgi izskaust",
+    "level": "B2"
+  },
+  {
+    "de": "entziehen",
+    "lv": "Atņemt • Atraut • Izvairīties • Atrauties • Izbēgt",
+    "level": "B2"
+  },
+  {
+    "de": "entziffern",
+    "lv": "Atšifrēt",
+    "level": "B2"
+  },
+  {
+    "de": "entzückend",
+    "lv": "Brīnišķīgs • Apburošs • Burvīgs",
+    "level": "B2"
+  },
+  {
+    "de": "entzückt",
+    "lv": "Sajusmināts",
+    "level": "B2"
+  },
+  {
+    "de": "entzünden",
+    "lv": "Aizdedzināt • Iededzināt • Iedegt",
+    "level": "B2"
+  },
+  {
+    "de": "sich entzünden",
+    "lv": "Aizdegties • Iedegties • Iekaist",
+    "level": "B2"
+  },
+  {
+    "de": "Entzündung",
+    "de_article": "die",
+    "de_plural": "die Entzündungen",
+    "lv": "Aizdedzināšana • Aizdegšana • Iekaisums",
+    "level": "B2"
+  },
+  {
+    "de": "Epidemie",
+    "de_article": "die",
+    "de_plural": "die Epidemien",
+    "lv": "Epidemia",
+    "level": "B2"
+  },
+  {
+    "de": "Epoche",
+    "de_article": "die",
+    "de_plural": "die Epochen",
+    "lv": "Laikmets",
+    "level": "B2"
+  },
+  {
+    "de": "Erachten",
+    "de_article": "das",
+    "lv": "Adestramentos • Ieskats",
+    "level": "B2"
+  },
+  {
+    "de": "sich erbarmen",
+    "lv": "Apžēloties • Iežēloties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-erbarmen",
+      "layout": "minimalStudy",
+      "translation": "Apžēloties • Iežēloties",
+      "rektion": "über + ko?",
+      "explanation": "Seus herbalistas nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Seus"
+          ],
+          "red": [
+            "über + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Erbauer",
+    "de_article": "der",
+    "de_plural": "die Erbauer",
+    "lv": "Celajs",
+    "level": "B2"
+  },
+  {
+    "de": "Erbanspruch",
+    "de_article": "der",
+    "de_plural": "die Erbansprüche",
+    "lv": "Tiebas de Mantojuma",
+    "level": "B2"
+  },
+  {
+    "de": "erbrechen",
+    "lv": "Atlauzt • Uzlauzt",
+    "level": "B2"
+  },
+  {
+    "de": "Erdgas",
+    "de_article": "das",
+    "de_plural": "die Erdgase",
+    "lv": "Dabasgāze",
+    "level": "B2"
+  },
+  {
+    "de": "erdrücken",
+    "lv": "Nospiest • Nomākt",
+    "level": "B2"
+  },
+  {
+    "de": "Erdrutsch",
+    "de_article": "der",
+    "de_plural": "die Erdrutsche",
+    "lv": "Nogruvums",
+    "level": "B2"
+  },
+  {
+    "de": "Erdsatellit",
+    "de_article": "der",
+    "de_plural": "die Erdsatelliten",
+    "lv": "Maksligais Zemes pavadonis",
+    "level": "B2"
+  },
+  {
+    "de": "Erdtrabant",
+    "de_article": "der",
+    "de_plural": "die Erdtrabanten",
+    "lv": "Zemes pavadonis",
+    "level": "B2"
+  },
+  {
+    "de": "erfassen",
+    "lv": "Aptovert • Saprast",
+    "level": "B2"
+  },
+  {
+    "de": "erforschen",
+    "lv": "Izpētīt • Izdibināt",
+    "level": "B2"
+  },
+  {
+    "de": "Erfrierung",
+    "de_article": "die",
+    "de_plural": "die Erfrierungen",
+    "lv": "Apsaldejums",
+    "level": "B2"
+  },
+  {
+    "de": "sich ergeben",
+    "lv": "Izrietēt • Padoties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-ergeben",
+      "layout": "minimalStudy",
+      "translation": "Izrietēt • Padoties",
+      "rektion": "aus + kam?",
+      "explanation": "Sich ergeben nepieciešams noteikts prievārds aus + kam?.",
+      "forms": "aus + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich ergeben"
+          ],
+          "red": [
+            "aus + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "ergiebig",
+    "lv": "Auglīgs • Ienesīgs • Bagāts • Bagātīgs • Ražīgs",
+    "level": "B2"
+  },
+  {
+    "de": "ergrauen",
+    "lv": "Nosirmot",
+    "level": "B2"
+  },
+  {
+    "de": "erhaben",
+    "lv": "Reljefs • Izliekts • Dižs • Dižens • Cēls • Cildens • Izcils",
+    "level": "B2"
+  },
+  {
+    "de": "erheben",
+    "lv": "Pacelt • Celta • Sacelt • Protestēt",
+    "level": "B2"
+  },
+  {
+    "de": "sich erheben",
+    "lv": "Opstaan ​​​​​​​​ • Opstaan ​​​​​​​​ • Opstaan ​​​​​​​​",
+    "level": "B2"
+  },
+  {
+    "de": "erheblich",
+    "lv": "Ievērojams • Svarīgs",
+    "level": "B2"
+  },
+  {
+    "de": "erkämpfen",
+    "lv": "Izcinit",
+    "level": "B2"
+  },
+  {
+    "de": "Erkenntnis",
+    "de_article": "die",
+    "de_plural": "die Erkenntnisse",
+    "lv": "Atziña • Izpratne",
+    "level": "B2"
+  },
+  {
+    "de": "erlangen",
+    "lv": "Aizsniegt • Sasniegt • Gūt • Iegūt",
+    "level": "B2"
+  },
+  {
+    "de": "Erlass",
+    "de_article": "der",
+    "de_plural": "die Erlasse",
+    "lv": "Rīkojums • Pavēle ​​​​​​​​ • Dekrēts • Atlaišana",
+    "level": "B2"
+  },
+  {
+    "de": "erlassen",
+    "lv": "Izdot • Atlaist • Atbrīvot",
+    "level": "B2"
+  },
+  {
+    "de": "erläutern",
+    "lv": "Izskaidrot • Paskaidrot",
+    "level": "B2"
+  },
+  {
+    "de": "Erle",
+    "de_article": "die",
+    "de_plural": "die Erlen",
+    "lv": "Alksnis",
+    "level": "B2"
+  },
+  {
+    "de": "erleiden",
+    "lv": "Ciest • Izciest • Pārciest • Tikt sakautam",
+    "level": "B2"
+  },
+  {
+    "de": "erlöschen",
+    "lv": "Izdzist • Nodzist • Nebūt vairs spēkā • Izbeigties",
+    "level": "B2"
+  },
+  {
+    "de": "ermächtigen",
+    "lv": "Pilnvarot",
+    "level": "B2"
+  },
+  {
+    "de": "ermäßigen",
+    "lv": "Pazeminat",
+    "level": "B2"
+  },
+  {
+    "de": "ermitteln",
+    "lv": "Izzinat • Izdibinat",
+    "level": "B2"
+  },
+  {
+    "de": "erniedrigen",
+    "lv": "Pazemināt • Pazemot",
+    "level": "B2"
+  },
+  {
+    "de": "sich erniedrigen",
+    "lv": "Pazemotias",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-erniedrigen",
+      "layout": "minimalStudy",
+      "translation": "Pazemotias",
+      "rektion": "vor + kam?",
+      "explanation": "Sich erniedrigen nepieciešams noteikts prievārds vor + kam?.",
+      "forms": "vor + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich erniedrigen"
+          ],
+          "red": [
+            "vor + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Ernteertrag",
+    "de_article": "der",
+    "de_plural": "die Ernteerträge",
+    "lv": "Corrida",
+    "level": "B2"
+  },
+  {
+    "de": "Eröffnung",
+    "de_article": "die",
+    "de_plural": "die Eröffnungen",
+    "lv": "Abertura • Ontdekking • Ansichtkaart • Aankondiging • Ontdekking",
+    "level": "B2"
+  },
+  {
+    "de": "erörtern",
+    "lv": "Iztirzāt • Apspriest",
+    "level": "B2"
+  },
+  {
+    "de": "erpressen",
+    "lv": "Šantažēt",
+    "level": "B2"
+  },
+  {
+    "de": "erregen",
+    "lv": "Uztraukt • Satraukt • Radit • Izraisīt • Modināt",
+    "level": "B2"
+  },
+  {
+    "de": "sich erregen",
+    "lv": "Par Uztraukties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-erregen",
+      "layout": "minimalStudy",
+      "translation": "Par Uztraukties",
+      "rektion": "über + ko?",
+      "explanation": "Sich erregen nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich erregen"
+          ],
+          "red": [
+            "über + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Erreger",
+    "de_article": "der",
+    "de_plural": "die Erreger",
+    "lv": "Slimības ierosinātājs • Vīruss",
+    "level": "B2"
+  },
+  {
+    "de": "erringen",
+    "lv": "Izcinit",
+    "level": "B2"
+  },
+  {
+    "de": "erröten",
+    "lv": "Nosarkt",
+    "level": "B2"
+  },
+  {
+    "de": "Erscheinung",
+    "de_article": "die",
+    "de_plural": "die Erscheinungen",
+    "lv": "Parādība • Parādīšanās • Āriene • Izskats",
+    "level": "B2"
+  },
+  {
+    "de": "erschießen",
+    "lv": "Nošaut",
+    "level": "B2"
+  },
+  {
+    "de": "erschlagen",
+    "lv": "Nosista",
+    "level": "B2"
+  },
+  {
+    "de": "erschöpfen",
+    "lv": "Izsmelt • Nogurdinat",
+    "level": "B2"
+  },
+  {
+    "de": "erschüttern",
+    "lv": "Satricināt • Satriekt • Iedragāt",
+    "level": "B2"
+  },
+  {
+    "de": "erschweren",
+    "lv": "Apgrūtināt • Padarīt grūtāku",
+    "level": "B2"
+  },
+  {
+    "de": "ersehen",
+    "lv": "Redzēt • Saskatīt",
+    "level": "B2"
+  },
+  {
+    "de": "ersparen",
+    "lv": "Ietaupīt • Iekrāt • Atlicināt • Aiztaupīt",
+    "level": "B2"
+  },
+  {
+    "de": "Ersparnis",
+    "de_article": "die",
+    "de_plural": "die Ersparnisse",
+    "lv": "Ietaupījums • Ietaupījumi",
+    "level": "B2"
+  },
+  {
+    "de": "erstarren",
+    "lv": "Sastingt",
+    "level": "B2"
+  },
+  {
+    "de": "ersticken",
+    "lv": "Noslāpēt • Nosmacēt • Apslāpēt • Apspiest • Nomākt • Noslāpt • Nosmakt",
+    "level": "B2"
+  },
+  {
+    "de": "sich erstrecken",
+    "lv": "Izplesties • Sniegties • Izstiepties",
+    "level": "B2"
+  },
+  {
+    "de": "ertappen",
+    "lv": "Pieķert",
+    "level": "B2"
+  },
+  {
+    "de": "ertönen",
+    "lv": "Atskanēt • Ieskanēties",
+    "level": "B2"
+  },
+  {
+    "de": "ertragen",
+    "lv": "Le plus paisible • Panique",
+    "level": "B2"
+  },
+  {
+    "de": "erträglich",
+    "lv": "Paciešams • Panesams",
+    "level": "B2"
+  },
+  {
+    "de": "erwägen",
+    "lv": "Apsvērt",
+    "level": "B2"
+  },
+  {
+    "de": "Erwägung",
+    "de_article": "die",
+    "de_plural": "die Erwägungen",
+    "lv": "Apsvēršana • Apsvērums",
+    "level": "B2"
+  },
+  {
+    "de": "erweisen",
+    "lv": "Izradīt • Paradīt • Izdarīt",
+    "level": "B2"
+  },
+  {
+    "de": "sich erweisen",
+    "lv": "Izrādīties par",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-erweisen",
+      "layout": "minimalStudy",
+      "translation": "Izrādīties par",
+      "rektion": "als + kas?",
+      "explanation": "Sich erweisen nepieciešams noteikts prievārds als + kas?.",
+      "forms": "als + kas?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich erweisen"
+          ],
+          "red": [
+            "als + kas?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Erwerb",
+    "de_article": "der",
+    "de_plural": "die Erwerbe",
+    "lv": "Izpeņa • Peļņa • Ieguvums",
+    "level": "B2"
+  },
+  {
+    "de": "erwerben",
+    "lv": "Nopelnīt • Iegūt • Iemantot",
+    "level": "B2"
+  },
+  {
+    "de": "Erz",
+    "de_article": "das",
+    "de_plural": "die Erze",
+    "lv": "Rua",
+    "level": "B2"
+  },
+  {
+    "de": "erzielen",
+    "lv": "Gūt • Sasniegt • Panākt",
+    "level": "B2"
+  },
+  {
+    "de": "erzürnen",
+    "lv": "Sadusmot",
+    "level": "B2"
+  },
+  {
+    "de": "Esche",
+    "de_article": "die",
+    "de_plural": "die Eschen",
+    "lv": "Osis",
+    "level": "B2"
+  },
+  {
+    "de": "Espe",
+    "de_article": "die",
+    "de_plural": "die Espen",
+    "lv": "Abside",
+    "level": "B2"
+  },
+  {
+    "de": "Etat",
+    "de_article": "der",
+    "de_plural": "die Etats",
+    "lv": "Engendrar",
+    "level": "B2"
+  },
+  {
+    "de": "europaweit",
+    "lv": "Vistos Eiropas mērogā",
+    "level": "B2"
+  },
+  {
+    "de": "Euter",
+    "de_article": "das",
+    "de_plural": "die Euter",
+    "lv": "Tesmênis",
+    "level": "B2"
+  },
+  {
+    "de": "exekutieren",
+    "lv": "Izpildīt navessodu",
+    "level": "B2"
+  },
+  {
+    "de": "Exekutive",
+    "de_article": "die",
+    "de_plural": "die Exekutiven",
+    "lv": "Instituto Izpildin",
+    "level": "B2"
+  },
+  {
+    "de": "Exil",
+    "de_article": "das",
+    "de_plural": "die Exile",
+    "lv": "Trimda • Izsūtījums",
+    "level": "B2"
+  },
+  {
+    "de": "Existenz",
+    "de_article": "die",
+    "de_plural": "die Existenzen",
+    "lv": "Existência",
+    "level": "B2"
+  },
+  {
+    "de": "exklusiv",
+    "lv": "Izmeklēts • Smalks • Aristokrātisks",
+    "level": "B2"
+  },
+  {
+    "de": "Exot",
+    "de_article": "der",
+    "de_plural": "die Exoten",
+    "lv": "Exóticos cilvēks • Agosto • Dzīvnieks",
+    "level": "B2"
+  },
+  {
+    "de": "expandieren",
+    "lv": "Strauji agosto • Izplesties",
+    "level": "B2"
+  },
+  {
+    "de": "Export",
+    "de_article": "der",
+    "de_plural": "die Exporte",
+    "lv": "Esportes eletrônicos • Izvedums",
+    "level": "B2"
+  },
+  {
+    "de": "exportieren",
+    "lv": "Esportes esportivos • Izvest",
+    "level": "B2"
+  },
+  {
+    "de": "exquisit",
+    "lv": "Izmeklēts • Smalks",
+    "level": "B2"
+  },
+  {
+    "de": "Extremismus",
+    "de_article": "der",
+    "lv": "Ektremismos",
+    "level": "B2"
+  },
+  {
+    "de": "Fabel",
+    "de_article": "die",
+    "de_plural": "die Fabeln",
+    "lv": "Fábula",
+    "level": "B2"
+  },
+  {
+    "de": "Fabrikat",
+    "de_article": "das",
+    "de_plural": "die Fabrikate",
+    "lv": "Rūpnieciska produkcija • Ražojums",
+    "level": "B2"
+  },
+  {
+    "de": "Fachabitur",
+    "de_article": "das",
+    "de_plural": "die Fachabiture",
+    "lv": "Pabeigta apmācība arodskolā",
+    "level": "B2"
+  },
+  {
+    "de": "fachmännisch",
+    "lv": "Lietpratigs",
+    "level": "B2"
+  },
+  {
+    "de": "Fackel",
+    "de_article": "die",
+    "de_plural": "die Fackeln",
+    "lv": "Lapa",
+    "level": "B2"
+  },
+  {
+    "de": "fahl",
+    "lv": "Blāvs • Bāls",
+    "level": "B2"
+  },
+  {
+    "de": "fahnden",
+    "lv": "Intensīvi meklet",
+    "level": "B2"
+  },
+  {
+    "de": "Fahndungsliste",
+    "de_article": "die",
+    "de_plural": "die Fahndungslisten",
+    "lv": "Meklējamo personu saraksts",
+    "level": "B2"
+  },
+  {
+    "de": "Fahrdamm",
+    "de_article": "der",
+    "de_plural": "die Fahrdämme",
+    "lv": "Ielas braucamā daļa • Bruģis",
+    "level": "B2"
+  },
+  {
+    "de": "Fahrerflucht",
+    "de_article": "die",
+    "lv": "Aizbraukšana no negadījuma proíbe",
+    "level": "B2"
+  },
+  {
+    "de": "fahrlässig",
+    "lv": "Neuzmanīgs • Paviršs",
+    "level": "B2"
+  },
+  {
+    "de": "Falke",
+    "de_article": "der",
+    "de_plural": "die Falken",
+    "lv": "Vanags",
+    "level": "B2"
+  },
+  {
+    "de": "Fallschirmturm",
+    "de_article": "der",
+    "de_plural": "die Fallschirmtürme",
+    "lv": "Torre de pára-quedas",
+    "level": "B2"
+  },
+  {
+    "de": "Falltür",
+    "de_article": "die",
+    "de_plural": "die Falltüren",
+    "lv": "Lūka • Grīdā iebūvētas durvis",
+    "level": "B2"
+  },
+  {
+    "de": "fälschen",
+    "lv": "Viltot",
+    "level": "B2"
+  },
+  {
+    "de": "fälschlich",
+    "lv": "Maldīgi • Kļūdaini",
+    "level": "B2"
+  },
+  {
+    "de": "Farbstoff",
+    "de_article": "der",
+    "de_plural": "die Farbstoffe",
+    "lv": "Krasviela",
+    "level": "B2"
+  },
+  {
+    "de": "Farbige",
+    "de_article": "der",
+    "de_plural": "die Farbigen",
+    "lv": "Krāsainais cilvēks",
+    "level": "B2"
+  },
+  {
+    "de": "Färbung",
+    "de_article": "die",
+    "de_plural": "die Färbungen",
+    "lv": "Krasojums • Nokrasa",
+    "level": "B2"
+  },
+  {
+    "de": "Farn",
+    "de_article": "der",
+    "de_plural": "die Farne",
+    "lv": "Paparde",
+    "level": "B2"
+  },
+  {
+    "de": "Fasan",
+    "de_article": "der",
+    "de_plural": "die Fasane",
+    "lv": "Fazans",
+    "level": "B2"
+  },
+  {
+    "de": "Fasanenjagd",
+    "de_article": "die",
+    "de_plural": "die Fasanenjagden",
+    "lv": "Medibas Fazānu",
+    "level": "B2"
+  },
+  {
+    "de": "Faschismus",
+    "de_article": "der",
+    "lv": "Fascismo",
+    "level": "B2"
+  },
+  {
+    "de": "Faser",
+    "de_article": "die",
+    "de_plural": "die Fasern",
+    "lv": "Šķiedra",
+    "level": "B2"
+  },
+  {
+    "de": "sich fassen",
+    "lv": "Sagrābt • Saņemties • Savaldīties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-fassen",
+      "layout": "minimalStudy",
+      "translation": "Sagrābt • Saņemties • Savaldīties",
+      "rektion": "an + kam?",
+      "explanation": "Sich fassen nepieciešams noteikts prievārds an + kam?.",
+      "forms": "an + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich fassen"
+          ],
+          "red": [
+            "an + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Fassung",
+    "de_article": "die",
+    "de_plural": "die Fassungen",
+    "lv": "Ietvars • Apvalums • Formulējums",
+    "level": "B2"
+  },
+  {
+    "de": "fassungslos",
+    "lv": "Pārsteigts • Šokēts",
+    "level": "B2"
+  },
+  {
+    "de": "Faulbaum",
+    "de_article": "der",
+    "de_plural": "die Faulbäume",
+    "lv": "Ieva",
+    "level": "B2"
+  },
+  {
+    "de": "fechten",
+    "lv": "Paukot",
+    "level": "B2"
+  },
+  {
+    "de": "Fehlalarm",
+    "de_article": "der",
+    "de_plural": "die Fehlalarme",
+    "lv": "Viltus trauksme",
+    "level": "B2"
+  },
+  {
+    "de": "feilen",
+    "lv": "Vilet",
+    "level": "B2"
+  },
+  {
+    "de": "feindselig",
+    "lv": "Naidīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Feingefühl",
+    "de_article": "das",
+    "lv": "Smalkjūtība • Takts",
+    "level": "B2"
+  },
+  {
+    "de": "Feldmesser",
+    "de_article": "der",
+    "de_plural": "die Feldmesser",
+    "lv": "Mērniek",
+    "level": "B2"
+  },
+  {
+    "de": "Ferkel",
+    "de_article": "der",
+    "de_plural": "die Ferkel",
+    "lv": "Sivens",
+    "level": "B2"
+  },
+  {
+    "de": "fernstudieren",
+    "lv": "Studēt neklātienē",
+    "level": "B2"
+  },
+  {
+    "de": "Fernstudium",
+    "de_article": "das",
+    "de_plural": "die Fernstudien",
+    "lv": "Talmaciba",
+    "level": "B2"
+  },
+  {
+    "de": "Fessel",
+    "de_article": "die",
+    "de_plural": "die Fesseln",
+    "lv": "Ķēde • Važas",
+    "level": "B2"
+  },
+  {
+    "de": "festigen",
+    "lv": "Stiprināt • Nostiprināt",
+    "level": "B2"
+  },
+  {
+    "de": "Festigkeit",
+    "de_article": "die",
+    "de_plural": "die Festigkeiten",
+    "lv": "Cietiba",
+    "level": "B2"
+  },
+  {
+    "de": "Festspiele",
+    "de_article": "die",
+    "lv": "Festivais",
+    "level": "B2"
+  },
+  {
+    "de": "Festung",
+    "de_article": "die",
+    "de_plural": "die Festungen",
+    "lv": "Aquisição de direitos",
+    "level": "B2"
+  },
+  {
+    "de": "Fetzen",
+    "de_article": "der",
+    "de_plural": "die Fetzen",
+    "lv": "Skrandas • Driska",
+    "level": "B2"
+  },
+  {
+    "de": "feuerfest",
+    "lv": "Ugunsdrošs",
+    "level": "B2"
+  },
+  {
+    "de": "Filmfestspiele",
+    "de_article": "die",
+    "lv": "Festivais de cinema",
+    "level": "B2"
+  },
+  {
+    "de": "Fink",
+    "de_article": "der",
+    "de_plural": "die Finken",
+    "lv": "Zubite",
+    "level": "B2"
+  },
+  {
+    "de": "Finsternis",
+    "de_article": "die",
+    "de_plural": "die Finsternisse",
+    "lv": "Tumsa • Tumsība • Aptumsums",
+    "level": "B2"
+  },
+  {
+    "de": "Firmeninhaber",
+    "de_article": "der",
+    "de_plural": "die Firmeninhaber",
+    "lv": "Empresas de īpašnieks",
+    "level": "B2"
+  },
+  {
+    "de": "Firmenkapital",
+    "de_article": "das",
+    "lv": "Sociedades de capital",
+    "level": "B2"
+  },
+  {
+    "de": "Handelsfirma",
+    "de_article": "die",
+    "de_plural": "die Handelsfirmen",
+    "lv": "Sinais de Tirdzniecības",
+    "level": "B2"
+  },
+  {
+    "de": "Lieferfirma",
+    "de_article": "die",
+    "de_plural": "die Lieferfirmen",
+    "lv": "Assinatura Piegādātāj",
+    "level": "B2"
+  },
+  {
+    "de": "Flachs",
+    "de_article": "der",
+    "de_plural": "die Flachse",
+    "lv": "Lini",
+    "level": "B2"
+  },
+  {
+    "de": "Flaum",
+    "de_article": "der",
+    "de_plural": null,
+    "lv": "Duna • Pūka",
+    "level": "B2"
+  },
+  {
+    "de": "flauschig",
+    "lv": "Pukains",
+    "level": "B2"
+  },
+  {
+    "de": "flechten",
+    "lv": "Vīt · Pit",
+    "level": "B2"
+  },
+  {
+    "de": "fleckig",
+    "lv": "Traipains • Notraipīts • Plankumains • Lasains • Raibs",
+    "level": "B2"
+  },
+  {
+    "de": "fliederfarben",
+    "lv": "Ceriņu krāsā",
+    "level": "B2"
+  },
+  {
+    "de": "flimmern",
+    "lv": "Mirgot • Vizēt • Vizuļot • Zvīļot • Ņirbēt",
+    "level": "B2"
+  },
+  {
+    "de": "Flinte",
+    "de_article": "die",
+    "de_plural": "die Flinten",
+    "lv": "[jacht] jachtgeweer",
+    "level": "B2"
+  },
+  {
+    "de": "Flosse",
+    "de_article": "die",
+    "de_plural": "die Flossen",
+    "lv": "Plezna",
+    "level": "B2"
+  },
+  {
+    "de": "Flotte",
+    "de_article": "die",
+    "de_plural": "die Flotten",
+    "lv": "Flutuador",
+    "level": "B2"
+  },
+  {
+    "de": "flüchtig",
+    "lv": "Gaistošs • Paviršs • Acumirklīgs • Ātri pārejošs • Īslaicīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Flugfeld",
+    "de_article": "das",
+    "de_plural": "die Flugfelder",
+    "lv": "Lidlauks",
+    "level": "B2"
+  },
+  {
+    "de": "Flugverkehr",
+    "de_article": "der",
+    "lv": "Gaisa satiksme",
+    "level": "B2"
+  },
+  {
+    "de": "Flugwesen",
+    "de_article": "das",
+    "lv": "Aviação",
+    "level": "B2"
+  },
+  {
+    "de": "Flunder",
+    "de_article": "die",
+    "de_plural": "die Flundern",
+    "lv": "Mas",
+    "level": "B2"
+  },
+  {
+    "de": "Flur",
+    "de_article": "die",
+    "de_plural": "die Fluren",
+    "lv": "Lauks • Klajums",
+    "level": "B2"
+  },
+  {
+    "de": "Flussarm",
+    "de_article": "der",
+    "de_plural": "die Flussarme",
+    "lv": "Atteca",
+    "level": "B2"
+  },
+  {
+    "de": "Flussbett",
+    "de_article": "das",
+    "de_plural": "die Flussbetten",
+    "lv": "Gültne",
+    "level": "B2"
+  },
+  {
+    "de": "folgern",
+    "lv": "Sécinat",
+    "level": "B2"
+  },
+  {
+    "de": "Fonds",
+    "de_article": "der",
+    "de_plural": "die Fonds",
+    "lv": "Fundos",
+    "level": "B2"
+  },
+  {
+    "de": "Hilfsfonds",
+    "de_article": "der",
+    "de_plural": "die Hilfsfonds",
+    "lv": "Fundo Palīdzības",
+    "level": "B2"
+  },
+  {
+    "de": "Studienfonds",
+    "de_article": "der",
+    "de_plural": "die Studienfonds",
+    "lv": "Fundo Studiju",
+    "level": "B2"
+  },
+  {
+    "de": "formell",
+    "lv": "Korekts • Pieklājīgs • Formals • Stīvs",
+    "level": "B2"
+  },
+  {
+    "de": "Formsache",
+    "de_article": "die",
+    "de_plural": "die Formsachen",
+    "lv": "Formalidade",
+    "level": "B2"
+  },
+  {
+    "de": "Förster",
+    "de_article": "der",
+    "de_plural": "die Förster",
+    "lv": "Boswatcher",
+    "level": "B2"
+  },
+  {
+    "de": "sich fortpflanzen",
+    "lv": "Vairoties • Izplatīties",
+    "level": "B2"
+  },
+  {
+    "de": "fortschaffen",
+    "lv": "Projeto Aizgādāt • Projeto Aizvest • Projeto Aiznest",
+    "level": "B2"
+  },
+  {
+    "de": "fortschreiten",
+    "lv": "Attīstīties talak",
+    "level": "B2"
+  },
+  {
+    "de": "fortwährend",
+    "lv": "Pastāvīgs • Nepārtraukts",
+    "level": "B2"
+  },
+  {
+    "de": "Fracht",
+    "de_article": "die",
+    "de_plural": "die Frachten",
+    "lv": "Krava • Frakts",
+    "level": "B2"
+  },
+  {
+    "de": "fraglich",
+    "lv": "Apšaubāms • Apstrīdams",
+    "level": "B2"
+  },
+  {
+    "de": "fraglos",
+    "lv": "Neapšaubāms • Neapstrīdams",
+    "level": "B2"
+  },
+  {
+    "de": "Fraktion",
+    "de_article": "die",
+    "de_plural": "die Fraktionen",
+    "lv": "Frácia",
+    "level": "B2"
+  },
+  {
+    "de": "fräsen",
+    "lv": "Frezet",
+    "level": "B2"
+  },
+  {
+    "de": "Fräser",
+    "de_article": "der",
+    "de_plural": "die Fräser",
+    "lv": "Frēzētājs • Frēze",
+    "level": "B2"
+  },
+  {
+    "de": "Freiheitskampf",
+    "de_article": "der",
+    "de_plural": "die Freiheitskämpfe",
+    "lv": "Brīvības cīņa",
+    "level": "B2"
+  },
+  {
+    "de": "freilich",
+    "lv": "Protams • Bez šaubām • Bet • Tikai",
+    "level": "B2"
+  },
+  {
+    "de": "Freilichtbühne",
+    "de_article": "die",
+    "de_plural": "die Freilichtbühnen",
+    "lv": "Brīvdabas teatris",
+    "level": "B2"
+  },
+  {
+    "de": "freimütig",
+    "lv": "Vaļsirdīgs • Atklāts",
+    "level": "B2"
+  },
+  {
+    "de": "freisprechen",
+    "lv": "Attaisnot",
+    "level": "B2"
+  },
+  {
+    "de": "Fremde",
+    "de_article": "die",
+    "lv": "Svešums • Svešatne",
+    "level": "B2"
+  },
+  {
+    "de": "fremdgehen",
+    "lv": "Kļūt neuzticīgam",
+    "level": "B2"
+  },
+  {
+    "de": "friedfertig",
+    "lv": "Miermīlīgs • Saticīgs",
+    "level": "B2"
+  },
+  {
+    "de": "fristlos",
+    "lv": "Beztermina",
+    "level": "B2"
+  },
+  {
+    "de": "fromm",
+    "lv": "Dievbijigs",
+    "level": "B2"
+  },
+  {
+    "de": "Frosteinbruch",
+    "de_article": "der",
+    "de_plural": "die Frosteinbrüche",
+    "lv": "Quarto istāšanās",
+    "level": "B2"
+  },
+  {
+    "de": "Frostschaden",
+    "de_article": "der",
+    "de_plural": "die Frostschäden",
+    "lv": "Quarto Nodarītie zaudējumi",
+    "level": "B2"
+  },
+  {
+    "de": "fruchtlos",
+    "lv": "Neaugligs",
+    "level": "B2"
+  },
+  {
+    "de": "Frust",
+    "de_article": "der",
+    "lv": "Frustração",
+    "level": "B2"
+  },
+  {
+    "de": "sich fügen",
+    "lv": "Pielāgoties • Pakļauties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-fuegen",
+      "layout": "minimalStudy",
+      "translation": "Pielāgoties • Pakļauties",
+      "rektion": "in + ko?",
+      "explanation": "Sich fügen nepieciešams noteikts prievārds em + ko?.",
+      "forms": "in + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich fügen"
+          ],
+          "red": [
+            "Sich"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Fuhre",
+    "de_article": "die",
+    "de_plural": "die Fuhren",
+    "lv": "Vezums • Krava",
+    "level": "B2"
+  },
+  {
+    "de": "Führerrolle",
+    "de_article": "die",
+    "de_plural": "die Führerrollen",
+    "lv": "Loma vadoša",
+    "level": "B2"
+  },
+  {
+    "de": "Führernatur",
+    "de_article": "die",
+    "lv": "Dicas para líderes • Líderes",
+    "level": "B2"
+  },
+  {
+    "de": "funken",
+    "lv": "Pārraidīt para rádio",
+    "level": "B2"
+  },
+  {
+    "de": "Funker",
+    "de_article": "der",
+    "de_plural": "die Funker",
+    "lv": "Operador de rádio • Operador de rádio",
+    "level": "B2"
+  },
+  {
+    "de": "Funkspruch",
+    "de_article": "der",
+    "de_plural": "die Funksprüche",
+    "lv": "Radiograma",
+    "level": "B2"
+  },
+  {
+    "de": "Funkstation",
+    "de_article": "die",
+    "de_plural": "die Funkstationen",
+    "lv": "Raidstacija",
+    "level": "B2"
+  },
+  {
+    "de": "Funkstörung",
+    "de_article": "die",
+    "de_plural": "die Funkstörungen",
+    "lv": "Traucējumi pārraidē",
+    "level": "B2"
+  },
+  {
+    "de": "Funkverbindung",
+    "de_article": "die",
+    "de_plural": "die Funkverbindungen",
+    "lv": "Rádiosakari",
+    "level": "B2"
+  },
+  {
+    "de": "Funktionär",
+    "de_article": "der",
+    "de_plural": "die Funktionäre",
+    "lv": "Ativistas • Darbinieks",
+    "level": "B2"
+  },
+  {
+    "de": "Furche",
+    "de_article": "die",
+    "de_plural": "die Furchen",
+    "lv": "Vaga • Krunka • Grumba",
+    "level": "B2"
+  },
+  {
+    "de": "Fürsorge",
+    "de_article": "die",
+    "de_plural": "die Fürsorgen",
+    "lv": "Gādība • Aizgādība",
+    "level": "B2"
+  },
+  {
+    "de": "Fürsprache",
+    "de_article": "die",
+    "de_plural": "die Fürsprachen",
+    "lv": "Aizrunāšana • Laboratórios Aizbilstams",
+    "level": "B2"
+  },
+  {
+    "de": "Futtertrog",
+    "de_article": "der",
+    "de_plural": "die Futtertröge",
+    "lv": "Sile Baribas",
+    "level": "B2"
+  },
+  {
+    "de": "Futterpflanze",
+    "de_article": "die",
+    "de_plural": "die Futterpflanzen",
+    "lv": "Lopbaribas agosto",
+    "level": "B2"
+  },
+  {
+    "de": "Gage",
+    "de_article": "die",
+    "de_plural": "die Gagen",
+    "lv": "Honorários Makslinieka",
+    "level": "B2"
+  },
+  {
+    "de": "Galle",
+    "de_article": "die",
+    "de_plural": "die Gallen",
+    "lv": "Resultados",
+    "level": "B2"
+  },
+  {
+    "de": "gangbar",
+    "lv": "Ejams",
+    "level": "B2"
+  },
+  {
+    "de": "gängig",
+    "lv": "Ejoss",
+    "level": "B2"
+  },
+  {
+    "de": "Gangster",
+    "de_article": "der",
+    "de_plural": "die Gangster",
+    "lv": "Bandidos",
+    "level": "B2"
+  },
+  {
+    "de": "Garbe",
+    "de_article": "die",
+    "de_plural": "die Garben",
+    "lv": "Kūlis • Kūlītis",
+    "level": "B2"
+  },
+  {
+    "de": "Garde",
+    "de_article": "die",
+    "de_plural": "die Garden",
+    "lv": "Gvarde",
+    "level": "B2"
+  },
+  {
+    "de": "gären",
+    "lv": "Rūgt",
+    "level": "B2"
+  },
+  {
+    "de": "Garnknäuel",
+    "de_article": "das",
+    "de_plural": "die Garnknäuel",
+    "lv": "Kamóis",
+    "level": "B2"
+  },
+  {
+    "de": "Garnspule",
+    "de_article": "die",
+    "de_plural": "die Garnspulen",
+    "lv": "Espólio • Espólio",
+    "level": "B2"
+  },
+  {
+    "de": "Gasableser",
+    "de_article": "der",
+    "de_plural": "die Gasableser",
+    "lv": "Aparência de skaitītājs",
+    "level": "B2"
+  },
+  {
+    "de": "Gastarbeiter",
+    "de_article": "der",
+    "de_plural": "die Gastarbeiter",
+    "lv": "Gastarbeider",
+    "level": "B2"
+  },
+  {
+    "de": "Gatte",
+    "de_article": "der",
+    "de_plural": "die Gatten",
+    "lv": "Virs",
+    "level": "B2"
+  },
+  {
+    "de": "Gattin",
+    "de_article": "die",
+    "de_plural": "die Gattinnen",
+    "lv": "Sieva",
+    "level": "B2"
+  },
+  {
+    "de": "Gattung",
+    "de_article": "die",
+    "de_plural": "die Gattungen",
+    "lv": "Suga • Šķirne",
+    "level": "B2"
+  },
+  {
+    "de": "Gebärde",
+    "de_article": "die",
+    "de_plural": "die Gebärden",
+    "lv": "Žests • Vaibsts",
+    "level": "B2"
+  },
+  {
+    "de": "Gebot",
+    "de_article": "das",
+    "de_plural": "die Gebote",
+    "lv": "Pavēle ​​​​​​​​ • Prasība • Bauslis",
+    "level": "B2"
+  },
+  {
+    "de": "gebrechlich",
+    "lv": "Vargs • Sanīcis • Gaudens • Kroplīgs • Pilns vainām",
+    "level": "B2"
+  },
+  {
+    "de": "gedämpft",
+    "lv": "Sutināts • Klusināts • Apslāpēts",
+    "level": "B2"
+  },
+  {
+    "de": "Gedeck",
+    "de_article": "das",
+    "de_plural": "die Gedecke",
+    "lv": "Galda pierumi venha pessoalmente",
+    "level": "B2"
+  },
+  {
+    "de": "gedeihen",
+    "lv": "Labi padoties • Izdoties • Zelt • Plaukt",
+    "level": "B2"
+  },
+  {
+    "de": "gedenken",
+    "lv": "Mas nodomājušam • Atcerēties • Atminēties • Pieminēt",
+    "level": "B2"
+  },
+  {
+    "de": "Gedenktafel",
+    "de_article": "die",
+    "de_plural": "die Gedenktafeln",
+    "lv": "Pieminas plaksne",
+    "level": "B2"
+  },
+  {
+    "de": "Gedenktag",
+    "de_article": "der",
+    "de_plural": "die Gedenktage",
+    "lv": "Pieminas diena",
+    "level": "B2"
+  },
+  {
+    "de": "Gefährte",
+    "de_article": "der",
+    "de_plural": "die Gefährten",
+    "lv": "Ofertas",
+    "level": "B2"
+  },
+  {
+    "de": "Gefallen",
+    "de_article": "das",
+    "lv": "Patikšana • Patika",
+    "level": "B2"
+  },
+  {
+    "de": "gefällig",
+    "lv": "Patikams • Pakalpīgs • Iztapīgs • Laipns",
+    "level": "B2"
+  },
+  {
+    "de": "Gefäß",
+    "de_article": "das",
+    "de_plural": "die Gefäße",
+    "lv": "Trauks • Asinsvads",
+    "level": "B2"
+  },
+  {
+    "de": "Gefecht",
+    "de_article": "das",
+    "de_plural": "die Gefechte",
+    "lv": "Kauja • Cīņa",
+    "level": "B2"
+  },
+  {
+    "de": "Gefolge",
+    "de_article": "das",
+    "de_plural": "die Gefolge",
+    "lv": "Svita • Pavadoņi",
+    "level": "B2"
+  },
+  {
+    "de": "Gefüge",
+    "de_article": "das",
+    "de_plural": "die Gefüge",
+    "lv": "Struktūra • Uzbūve • Savienojums • Salaidums",
+    "level": "B2"
+  },
+  {
+    "de": "Gegengift",
+    "de_article": "das",
+    "de_plural": "die Gegengifte",
+    "lv": "Pretinde",
+    "level": "B2"
+  },
+  {
+    "de": "Gegenmittel",
+    "de_article": "das",
+    "de_plural": "die Gegenmittel",
+    "lv": "Pretlīdzeklis",
+    "level": "B2"
+  },
+  {
+    "de": "Gegenrede",
+    "de_article": "die",
+    "de_plural": "die Gegenreden",
+    "lv": "Ieruna • Iebildums",
+    "level": "B2"
+  },
+  {
+    "de": "Gegensatz",
+    "de_article": "der",
+    "de_plural": "die Gegensätze",
+    "lv": "Pretstats • Contrastes • Pretruna",
+    "level": "B2"
+  },
+  {
+    "de": "Amtsgeheimnis",
+    "de_article": "das",
+    "de_plural": "die Amtsgeheimnisse",
+    "lv": "Amados noslēpums",
+    "level": "B2"
+  },
+  {
+    "de": "gehörig",
+    "lv": "Piederīgs • Piedeross • Pienācīgs • Piedienīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Geiselnahme",
+    "de_article": "die",
+    "de_plural": "die Geiselnahmen",
+    "lv": "Ķīlnieku saņemšana",
+    "level": "B2"
+  },
+  {
+    "de": "Geistliche",
+    "de_article": "der",
+    "de_plural": "die Geistlichen",
+    "lv": "Garidznieks",
+    "level": "B2"
+  },
+  {
+    "de": "gekünstelt",
+    "lv": "Samākslots • Nedabissks",
+    "level": "B2"
+  },
+  {
+    "de": "Geländelauf",
+    "de_article": "der",
+    "de_plural": "die Geländeläufe",
+    "lv": "Cros",
+    "level": "B2"
+  },
+  {
+    "de": "gelassen",
+    "lv": "Mierīgs • Savaldīgs",
+    "level": "B2"
+  },
+  {
+    "de": "geläufig",
+    "lv": "Zināms • Pazīstams • Ierasts • Tekošs • Brīvs",
+    "level": "B2"
+  },
+  {
+    "de": "gelaunt",
+    "lv": "Oma",
+    "level": "B2"
+  },
+  {
+    "de": "Geldbuße",
+    "de_article": "die",
+    "de_plural": "die Geldbußen",
+    "lv": "Céspedes Naudas",
+    "level": "B2"
+  },
+  {
+    "de": "Geldspende",
+    "de_article": "die",
+    "de_plural": "die Geldspenden",
+    "lv": "Ziedojums",
+    "level": "B2"
+  },
+  {
+    "de": "Geldeinlage",
+    "de_article": "die",
+    "de_plural": "die Geldeinlagen",
+    "lv": "Naudas noguldījums • Depozīts",
+    "level": "B2"
+  },
+  {
+    "de": "Geldumlauf",
+    "de_article": "der",
+    "de_plural": "die Geldumläufe",
+    "lv": "Naudas apgrozījums",
+    "level": "B2"
+  },
+  {
+    "de": "gelegen",
+    "lv": "Ērts • Izdevīgs • Parocīgs • Nomaļš",
+    "level": "B2"
+  },
+  {
+    "de": "Gelehrte",
+    "de_article": "der",
+    "de_plural": "die Gelehrten",
+    "lv": "Zinatnieks",
+    "level": "B2"
+  },
+  {
+    "de": "Geliebte",
+    "de_article": "der",
+    "de_plural": "die Geliebten",
+    "lv": "Mīļais • Mīļotais • Mīļākais",
+    "level": "B2"
+  },
+  {
+    "de": "Gelöbnis",
+    "de_article": "das",
+    "de_plural": "die Gelöbnisse",
+    "lv": "Svinīgs solījums",
+    "level": "B2"
+  },
+  {
+    "de": "Geltung",
+    "de_article": "die",
+    "de_plural": "die Geltungen",
+    "lv": "Nozīme • Nozīmība",
+    "level": "B2"
+  },
+  {
+    "de": "Gemahl",
+    "de_article": "der",
+    "de_plural": "die Gemahle",
+    "lv": "Vīrs • Dzīvesbiedrs",
+    "level": "B2"
+  },
+  {
+    "de": "Gemahlin",
+    "de_article": "die",
+    "de_plural": "die Gemahlinnen",
+    "lv": "Sieva • Dzīvesbiedre",
+    "level": "B2"
+  },
+  {
+    "de": "gemäß",
+    "lv": "Pēc • Saskaņā ar • Atbilstoši",
+    "level": "B2"
+  },
+  {
+    "de": "gemessen",
+    "lv": "Evenwichtig • Sobrecarga",
+    "level": "B2"
+  },
+  {
+    "de": "Gemetzel",
+    "de_article": "das",
+    "de_plural": "die Gemetzel",
+    "lv": "Asinspirações • Masveida nogalināšana",
+    "level": "B2"
+  },
+  {
+    "de": "Gemisch",
+    "de_article": "das",
+    "de_plural": "die Gemische",
+    "lv": "Maisījums • Sajaukums • Mistrojums",
+    "level": "B2"
+  },
+  {
+    "de": "Gemüsebau",
+    "de_article": "der",
+    "lv": "Sakņkopība • Darzeņkopība",
+    "level": "B2"
+  },
+  {
+    "de": "Gemüt",
+    "de_article": "das",
+    "de_plural": "die Gemüter",
+    "lv": "Raksturs • Daba • Domas • Prati",
+    "level": "B2"
+  },
+  {
+    "de": "gemütvoll",
+    "lv": "Sirsnīgs • Omulīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Genforscher",
+    "de_article": "der",
+    "de_plural": "die Genforscher",
+    "lv": "Gēnu petnieks",
+    "level": "B2"
+  },
+  {
+    "de": "Genmaterial",
+    "de_article": "das",
+    "lv": "Materiais Ģenētiskais",
+    "level": "B2"
+  },
+  {
+    "de": "Genmutation",
+    "de_article": "die",
+    "de_plural": "die Genmutationen",
+    "lv": "Gênu mutacija",
+    "level": "B2"
+  },
+  {
+    "de": "genesen",
+    "lv": "Izveseļoties • Atveseļoties",
+    "level": "B2"
+  },
+  {
+    "de": "Genesung",
+    "de_article": "die",
+    "de_plural": "die Genesungen",
+    "lv": "Izveseļošanās • Atveseļošanās",
+    "level": "B2"
+  },
+  {
+    "de": "Genick",
+    "de_article": "das",
+    "de_plural": "die Genicke",
+    "lv": "Pakausis",
+    "level": "B2"
+  },
+  {
+    "de": "sich genieren",
+    "lv": "Kauneties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-genieren",
+      "layout": "minimalStudy",
+      "translation": "Kauneties",
+      "rektion": "vor + kam?",
+      "explanation": "Este constrangimento requer a preposição definida VOR + peigne?",
+      "forms": "vor + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Este"
+          ],
+          "red": [
+            "Este"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Genosse",
+    "de_article": "der",
+    "de_plural": "die Genossen",
+    "lv": "Ofertas",
+    "level": "B2"
+  },
+  {
+    "de": "Genossin",
+    "de_article": "die",
+    "de_plural": "die Genossinnen",
+    "lv": "Biedre • Biedreno",
+    "level": "B2"
+  },
+  {
+    "de": "genügsam",
+    "lv": "Pieticigs",
+    "level": "B2"
+  },
+  {
+    "de": "Genugtuung",
+    "de_article": "die",
+    "de_plural": "die Genugtuungen",
+    "lv": "Gandarijums",
+    "level": "B2"
+  },
+  {
+    "de": "Gepäcknetz",
+    "de_article": "das",
+    "de_plural": "die Gepäcknetze",
+    "lv": "Tikls de Bagāžas",
+    "level": "B2"
+  },
+  {
+    "de": "Gepäckwagen",
+    "de_article": "der",
+    "de_plural": "die Gepäckwagen",
+    "lv": "Vagões Bagāžas",
+    "level": "B2"
+  },
+  {
+    "de": "geraten",
+    "lv": "Nonākt • Nokļūt • Padoties • Izdoties • Atsisties",
+    "level": "B2"
+  },
+  {
+    "de": "Geratewohl",
+    "de_article": "das",
+    "lv": "Laba Laime",
+    "level": "B2"
+  },
+  {
+    "de": "geräuschlos",
+    "lv": "Klusi • Klusām • Bez trokšņa",
+    "level": "B2"
+  },
+  {
+    "de": "Gerede",
+    "de_article": "das",
+    "de_plural": "die Gerede",
+    "lv": "Runāšana • Runas • Ļaužu valodas • Tenkas",
+    "level": "B2"
+  },
+  {
+    "de": "gerinnen",
+    "lv": "Sarecēt • Saiet • Sakupt • Sastingt • Sasalt",
+    "level": "B2"
+  },
+  {
+    "de": "Gerippe",
+    "de_article": "das",
+    "de_plural": "die Gerippe",
+    "lv": "Esqueletos • Ģindenis • Karkass",
+    "level": "B2"
+  },
+  {
+    "de": "Gerüst",
+    "de_article": "das",
+    "de_plural": "die Gerüste",
+    "lv": "Sastatnes",
+    "level": "B2"
+  },
+  {
+    "de": "Gesamtzahl",
+    "de_article": "die",
+    "de_plural": "die Gesamtzahlen",
+    "lv": "Kopskaits",
+    "level": "B2"
+  },
+  {
+    "de": "Gesandte",
+    "de_article": "der",
+    "de_plural": "die Gesandten",
+    "lv": "Sutitas",
+    "level": "B2"
+  },
+  {
+    "de": "geschäftig",
+    "lv": "Darbigs • Rosīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Geschehnis",
+    "de_article": "das",
+    "de_plural": "die Geschehnisse",
+    "lv": "Notikums • Gadījums • Atgadījums",
+    "level": "B2"
+  },
+  {
+    "de": "Geschiedene",
+    "de_article": "der",
+    "de_plural": "die Geschiedenen",
+    "lv": "Šķirtenis",
+    "level": "B2"
+  },
+  {
+    "de": "Geschöpf",
+    "de_article": "das",
+    "de_plural": "die Geschöpfe",
+    "lv": "Radijums • Radiba • Būtne",
+    "level": "B2"
+  },
+  {
+    "de": "Geschoss",
+    "de_article": "das",
+    "de_plural": "die Geschosse",
+    "lv": "Projétil",
+    "level": "B2"
+  },
+  {
+    "de": "Geschütz",
+    "de_article": "das",
+    "de_plural": "die Geschütze",
+    "lv": "Lielgabals",
+    "level": "B2"
+  },
+  {
+    "de": "Geschwätz",
+    "de_article": "das",
+    "de_plural": "die Geschwätze",
+    "lv": "Pļāpāšana • Melošana • Pļāpas",
+    "level": "B2"
+  },
+  {
+    "de": "geschweige",
+    "lv": "Nemaz nerunajot",
+    "level": "B2"
+  },
+  {
+    "de": "geschwind",
+    "lv": "Atrás • Žigls • Veikls",
+    "level": "B2"
+  },
+  {
+    "de": "Geschwulst",
+    "de_article": "die",
+    "de_plural": "die Geschwülste",
+    "lv": "Audzējs",
+    "level": "B2"
+  },
+  {
+    "de": "Geschwür",
+    "de_article": "das",
+    "de_plural": "die Geschwüre",
+    "lv": "Augonis • Čūla",
+    "level": "B2"
+  },
+  {
+    "de": "Geselle",
+    "de_article": "der",
+    "de_plural": "die Gesellen",
+    "lv": "Zellis • Palīgs • Puisis • Amatnieks, kas pēc mācību laika nokārtojis eksāmenu",
+    "level": "B2"
+  },
+  {
+    "de": "sich gesellen",
+    "lv": "Pievienotias",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-gesellen",
+      "layout": "minimalStudy",
+      "translation": "Pievienotias",
+      "rektion": "zu + kam?",
+      "explanation": "Sich gesellen nepieciešams noteikts prievārds zu + kam?.",
+      "forms": "zu + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich gesellen"
+          ],
+          "red": [
+            "zu + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Gesichtszug",
+    "de_article": "der",
+    "de_plural": "die Gesichtszüge",
+    "lv": "Vaibsts",
+    "level": "B2"
+  },
+  {
+    "de": "Gesinnung",
+    "de_article": "die",
+    "de_plural": "die Gesinnungen",
+    "lv": "Uzskati • Noskaņojums",
+    "level": "B2"
+  },
+  {
+    "de": "Gespött",
+    "de_article": "das",
+    "lv": "Zobošanas",
+    "level": "B2"
+  },
+  {
+    "de": "Gespür",
+    "de_article": "das",
+    "lv": "Intuição",
+    "level": "B2"
+  },
+  {
+    "de": "sich gestalten",
+    "lv": "Om em você, vormen",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-gestalten",
+      "layout": "minimalStudy",
+      "translation": "Om em você, vormen",
+      "rektion": "zu + kam?",
+      "explanation": "Sich gestalten nepieciešams noteikts prievārds zu + kam?.",
+      "forms": "zu + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich gestalten"
+          ],
+          "red": [
+            "zu + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Geständnis",
+    "de_article": "das",
+    "de_plural": "die Geständnisse",
+    "lv": "Atzīšanas",
+    "level": "B2"
+  },
+  {
+    "de": "gestehen",
+    "lv": "Atzīt • Atzīties",
+    "level": "B2"
+  },
+  {
+    "de": "Gestein",
+    "de_article": "das",
+    "de_plural": "die Gesteine",
+    "lv": "Iezis",
+    "level": "B2"
+  },
+  {
+    "de": "Gestell",
+    "de_article": "das",
+    "de_plural": "die Gestelle",
+    "lv": "Statīvs • Statnis • Šasija",
+    "level": "B2"
+  },
+  {
+    "de": "Gestrüpp",
+    "de_article": "das",
+    "de_plural": "die Gestrüppe",
+    "lv": "Krumajs",
+    "level": "B2"
+  },
+  {
+    "de": "Gesuch",
+    "de_article": "das",
+    "de_plural": "die Gesuche",
+    "lv": "Lūgums • Iesniegums",
+    "level": "B2"
+  },
+  {
+    "de": "Getriebe",
+    "de_article": "das",
+    "de_plural": "die Getriebe",
+    "lv": "Dzinejs",
+    "level": "B2"
+  },
+  {
+    "de": "getüpfelt",
+    "lv": "Pontos",
+    "level": "B2"
+  },
+  {
+    "de": "Gewähr",
+    "de_article": "die",
+    "lv": "Drošība • Galvojums • Garantia",
+    "level": "B2"
+  },
+  {
+    "de": "gewähren",
+    "lv": "Ponto • Piešķirt",
+    "level": "B2"
+  },
+  {
+    "de": "gewaltsam",
+    "lv": "Ar varu • Piespiedu kartā",
+    "level": "B2"
+  },
+  {
+    "de": "Gewalttat",
+    "de_article": "die",
+    "de_plural": "die Gewalttaten",
+    "lv": "Vardarbība • Ações de Vardarbības",
+    "level": "B2"
+  },
+  {
+    "de": "gewandt",
+    "lv": "Veikls • Izveicīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Gewässer",
+    "de_article": "das",
+    "de_plural": "die Gewässer",
+    "lv": "Ūdeņi",
+    "level": "B2"
+  },
+  {
+    "de": "Gewebe",
+    "de_article": "das",
+    "de_plural": "die Gewebe",
+    "lv": "Auditórios • Audi",
+    "level": "B2"
+  },
+  {
+    "de": "Gewerbe",
+    "de_article": "das",
+    "de_plural": "die Gewerbe",
+    "lv": "Amats • Arods • Pastāvīgs darbs tirdzniecības vai amatniecības jomā vai pakalpojumu sniegšana",
+    "level": "B2"
+  },
+  {
+    "de": "gewieft",
+    "lv": "Rūdīts • Izmanīgs",
+    "level": "B2"
+  },
+  {
+    "de": "gewissenlos",
+    "lv": "Bez sirdsapziņas • Negodīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Gewissheit",
+    "de_article": "die",
+    "de_plural": "die Gewissheiten",
+    "lv": "Skaidriba • Drošība • Noteiktība",
+    "level": "B2"
+  },
+  {
+    "de": "Gezeiten",
+    "de_article": "die",
+    "lv": "Plūdmaiņas",
+    "level": "B2"
+  },
+  {
+    "de": "gierig",
+    "lv": "Kārs • Kārīgs • Alkatīgs",
+    "level": "B2"
+  },
+  {
+    "de": "geldgierig",
+    "lv": "Naudaskars",
+    "level": "B2"
+  },
+  {
+    "de": "machtgierig",
+    "lv": "Varaskars",
+    "level": "B2"
+  },
+  {
+    "de": "rachgierig",
+    "lv": "Atriebības kars",
+    "level": "B2"
+  },
+  {
+    "de": "raffgierig",
+    "lv": "Mantrausīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Giftmüll",
+    "de_article": "der",
+    "lv": "Indīgās atkritumvielas",
+    "level": "B2"
+  },
+  {
+    "de": "Gipsabdruck",
+    "de_article": "der",
+    "de_plural": "die Gipsabdrücke",
+    "lv": "Ģipša nospiedums",
+    "level": "B2"
+  },
+  {
+    "de": "Gipsverband",
+    "de_article": "der",
+    "de_plural": "die Gipsverbände",
+    "lv": "Ģipša parsējs",
+    "level": "B2"
+  },
+  {
+    "de": "Glaser",
+    "de_article": "der",
+    "de_plural": "die Glaser",
+    "lv": "Stikliniek",
+    "level": "B2"
+  },
+  {
+    "de": "gläsern",
+    "lv": "Stikla • Stiklains",
+    "level": "B2"
+  },
+  {
+    "de": "Glasfiber",
+    "de_article": "die",
+    "lv": "Stikla šķiedra",
+    "level": "B2"
+  },
+  {
+    "de": "Glashütte",
+    "de_article": "die",
+    "de_plural": "die Glashütten",
+    "lv": "Fábrica de vidro",
+    "level": "B2"
+  },
+  {
+    "de": "Glasur",
+    "de_article": "die",
+    "de_plural": "die Glasuren",
+    "lv": "Glazūra • Glazējums",
+    "level": "B2"
+  },
+  {
+    "de": "Glatze",
+    "de_article": "die",
+    "de_plural": "die Glatzen",
+    "lv": "Kails galvvidus",
+    "level": "B2"
+  },
+  {
+    "de": "Stirnglatze",
+    "de_article": "die",
+    "de_plural": "die Stirnglatzen",
+    "lv": "Piere Atsegta",
+    "level": "B2"
+  },
+  {
+    "de": "gleichmütig",
+    "lv": "Nosvērts • Aukstasinīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Gleichnis",
+    "de_article": "das",
+    "de_plural": "die Gleichnisse",
+    "lv": "Lidziba",
+    "level": "B2"
+  },
+  {
+    "de": "gleiten",
+    "lv": "Slīdēt • Planetēt",
+    "level": "B2"
+  },
+  {
+    "de": "Glied",
+    "de_article": "das",
+    "de_plural": "die Glieder",
+    "lv": "Loceklis • Ekstremitāte • Ēēdes loceklis • Posmos",
+    "level": "B2"
+  },
+  {
+    "de": "gliedern",
+    "lv": "Sadalita",
+    "level": "B2"
+  },
+  {
+    "de": "glimmen",
+    "lv": "Gailēt • Kvēlot • Gruzdēt",
+    "level": "B2"
+  },
+  {
+    "de": "glotzen",
+    "lv": "Blenzt",
+    "level": "B2"
+  },
+  {
+    "de": "glühen",
+    "lv": "Kvēlot • Kaist • Gailēt • Degt",
+    "level": "B2"
+  },
+  {
+    "de": "Glut",
+    "de_article": "die",
+    "de_plural": "die Gluten",
+    "lv": "Svelme • Kvēle • Liels karstums",
+    "level": "B2"
+  },
+  {
+    "de": "Gnade",
+    "de_article": "die",
+    "de_plural": "die Gnaden",
+    "lv": "Žēlastība • Apžēlošana",
+    "level": "B2"
+  },
+  {
+    "de": "Gnadenbrot",
+    "de_article": "das",
+    "lv": "Milho Žēlastības",
+    "level": "B2"
+  },
+  {
+    "de": "gnädig",
+    "lv": "Žēlīgs • Cientistas",
+    "level": "B2"
+  },
+  {
+    "de": "Goldader",
+    "de_article": "die",
+    "de_plural": "die Goldadern",
+    "lv": "Zelta dzisla",
+    "level": "B2"
+  },
+  {
+    "de": "Goldbarren",
+    "de_article": "der",
+    "de_plural": "die Goldbarren",
+    "lv": "Zelta Stienis",
+    "level": "B2"
+  },
+  {
+    "de": "Goldlegierung",
+    "de_article": "die",
+    "de_plural": "die Goldlegierungen",
+    "lv": "Zelta sakausējums",
+    "level": "B2"
+  },
+  {
+    "de": "Goldmine",
+    "de_article": "die",
+    "de_plural": "die Goldminen",
+    "lv": "Zeltraktuve",
+    "level": "B2"
+  },
+  {
+    "de": "Goldwäscher",
+    "de_article": "der",
+    "de_plural": "die Goldwäscher",
+    "lv": "Zelta Skalotajs",
+    "level": "B2"
+  },
+  {
+    "de": "Goldschmied",
+    "de_article": "der",
+    "de_plural": "die Goldschmiede",
+    "lv": "Zeltkalis",
+    "level": "B2"
+  },
+  {
+    "de": "Gondel",
+    "de_article": "die",
+    "de_plural": "die Gondeln",
+    "lv": "Gôndola • Trošu dzelzceļa kabīne",
+    "level": "B2"
+  },
+  {
+    "de": "Gönner",
+    "de_article": "der",
+    "de_plural": "die Gönner",
+    "lv": "Labvēlis • Patronos",
+    "level": "B2"
+  },
+  {
+    "de": "Gottheit",
+    "de_article": "die",
+    "de_plural": "die Gottheiten",
+    "lv": "Deus",
+    "level": "B2"
+  },
+  {
+    "de": "Götze",
+    "de_article": "der",
+    "de_plural": "die Götzen",
+    "lv": "Alce",
+    "level": "B2"
+  },
+  {
+    "de": "Götzendienst",
+    "de_article": "der",
+    "lv": "Kalpošana elkam",
+    "level": "B2"
+  },
+  {
+    "de": "Grabung",
+    "de_article": "die",
+    "de_plural": "die Grabungen",
+    "lv": "Izrakumi",
+    "level": "B2"
+  },
+  {
+    "de": "grässlich",
+    "lv": "Drausmīgs • Briesmīgs • Riebīgs • Nejauks",
+    "level": "B2"
+  },
+  {
+    "de": "grauen",
+    "lv": "Agosto",
+    "level": "B2"
+  },
+  {
+    "de": "sich grauen",
+    "lv": "Biedēties não",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-grauen",
+      "layout": "minimalStudy",
+      "translation": "Biedēties não",
+      "rektion": "vor + kam?",
+      "explanation": "Sich grauen nepieciešams noteikts prievārds vor + kam?.",
+      "forms": "vor + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich grauen"
+          ],
+          "red": [
+            "vor + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "grausam",
+    "lv": "Nežēlīgs • Bargs",
+    "level": "B2"
+  },
+  {
+    "de": "gravierend",
+    "lv": "Nozimigs",
+    "level": "B2"
+  },
+  {
+    "de": "Greis",
+    "de_article": "der",
+    "de_plural": "die Greise",
+    "lv": "Sirgalvis",
+    "level": "B2"
+  },
+  {
+    "de": "grell",
+    "lv": "Spožs • Žilbinošs",
+    "level": "B2"
+  },
+  {
+    "de": "Grenzbeamte",
+    "de_article": "der",
+    "de_plural": "die Grenzbeamten",
+    "lv": "Robežapsardzes ierēdnis",
+    "level": "B2"
+  },
+  {
+    "de": "Grenzbezirk",
+    "de_article": "der",
+    "de_plural": "die Grenzbezirke",
+    "lv": "Pierobežas apgabals",
+    "level": "B2"
+  },
+  {
+    "de": "Grenzkonflikt",
+    "de_article": "der",
+    "de_plural": "die Grenzkonflikte",
+    "lv": "Robežkonflikts",
+    "level": "B2"
+  },
+  {
+    "de": "Grenzverkehr",
+    "de_article": "der",
+    "lv": "Pierobežas satiksme",
+    "level": "B2"
+  },
+  {
+    "de": "Grenzbereich",
+    "de_article": "der",
+    "de_plural": "die Grenzbereiche",
+    "lv": "Robežjosla • Robežzona • Teritorija abpus robežai",
+    "level": "B2"
+  },
+  {
+    "de": "Grimm",
+    "de_article": "der",
+    "lv": "Lielas dusmas • Niknums • Piktums",
+    "level": "B2"
+  },
+  {
+    "de": "grinsen",
+    "lv": "Sminet",
+    "level": "B2"
+  },
+  {
+    "de": "Großmacht",
+    "de_article": "die",
+    "de_plural": "die Großmächte",
+    "lv": "Lielvalstas",
+    "level": "B2"
+  },
+  {
+    "de": "Großmut",
+    "de_article": "die",
+    "lv": "Augstsirdiba",
+    "level": "B2"
+  },
+  {
+    "de": "großmütig",
+    "lv": "Agosto",
+    "level": "B2"
+  },
+  {
+    "de": "Gründonnerstag",
+    "de_article": "der",
+    "de_plural": "die Gründonnerstage",
+    "lv": "Zaļā Ceturtdiena pirms Lieldienām",
+    "level": "B2"
+  },
+  {
+    "de": "Grundrecht",
+    "de_article": "das",
+    "de_plural": "die Grundrechte",
+    "lv": "Pamattiesibas",
+    "level": "B2"
+  },
+  {
+    "de": "Grundriss",
+    "de_article": "der",
+    "de_plural": "die Grundrisse",
+    "lv": "Pacotes",
+    "level": "B2"
+  },
+  {
+    "de": "Grußwort",
+    "de_article": "das",
+    "de_plural": "die Grußworte",
+    "lv": "Aquela uzruna oficial",
+    "level": "B2"
+  },
+  {
+    "de": "Gummizug",
+    "de_article": "der",
+    "de_plural": "die Gummizüge",
+    "lv": "Ieverama gumija",
+    "level": "B2"
+  },
+  {
+    "de": "Gunst",
+    "de_article": "die",
+    "lv": "Labveliba",
+    "level": "B2"
+  },
+  {
+    "de": "Günstling",
+    "de_article": "der",
+    "de_plural": "die Günstlinge",
+    "lv": "Favoritos • Protežējamais",
+    "level": "B2"
+  },
+  {
+    "de": "gurgeln",
+    "lv": "Skalot rīkli • Muti",
+    "level": "B2"
+  },
+  {
+    "de": "Guss",
+    "de_article": "der",
+    "de_plural": "die Güsse",
+    "lv": "Gieten • Gieten • Stortbui",
+    "level": "B2"
+  },
+  {
+    "de": "Gutachten",
+    "de_article": "das",
+    "de_plural": "die Gutachten",
+    "lv": "Atsauksme • Lietpratēja atzinums",
+    "level": "B2"
+  },
+  {
+    "de": "Güte",
+    "de_article": "die",
+    "lv": "Labsirdība • Kvalitāte • Labums",
+    "level": "B2"
+  },
+  {
+    "de": "Güterversand",
+    "de_article": "der",
+    "de_plural": null,
+    "lv": "Preču nosūtīšana",
+    "level": "B2"
+  },
+  {
+    "de": "Gütezeichen",
+    "de_article": "das",
+    "de_plural": "die Gütezeichen",
+    "lv": "Qualidade de vida",
+    "level": "B2"
+  },
+  {
+    "de": "gutheißen",
+    "lv": "Atzīt par labu",
+    "level": "B2"
+  },
+  {
+    "de": "gutmütig",
+    "lv": "Laboratórios",
+    "level": "B2"
+  },
+  {
+    "de": "haaren",
+    "lv": "Mais arrogante",
+    "level": "B2"
+  },
+  {
+    "de": "habsüchtig",
+    "lv": "Mantkārīgs • Mantrausīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Hafenbecken",
+    "de_article": "das",
+    "de_plural": "die Hafenbecken",
+    "lv": "Ostas Akvatorija",
+    "level": "B2"
+  },
+  {
+    "de": "Hafengebühr",
+    "de_article": "die",
+    "de_plural": "die Hafengebühren",
+    "lv": "Ostas nodeva",
+    "level": "B2"
+  },
+  {
+    "de": "Hafengelände",
+    "de_article": "das",
+    "de_plural": "die Hafengelände",
+    "lv": "Ostas território",
+    "level": "B2"
+  },
+  {
+    "de": "Hahnenkamm",
+    "de_article": "der",
+    "de_plural": "die Hahnenkämme",
+    "lv": "Gaia sexste",
+    "level": "B2"
+  },
+  {
+    "de": "Haltung",
+    "de_article": "die",
+    "de_plural": "die Haltungen",
+    "lv": "Stāja • Izturēšanās",
+    "level": "B2"
+  },
+  {
+    "de": "Handelsflotte",
+    "de_article": "die",
+    "de_plural": "die Handelsflotten",
+    "lv": "Frota Tirdzniecības",
+    "level": "B2"
+  },
+  {
+    "de": "Handelsklasse",
+    "de_article": "die",
+    "de_plural": "die Handelsklassen",
+    "lv": "Orações šķira",
+    "level": "B2"
+  },
+  {
+    "de": "Hängebrücke",
+    "de_article": "die",
+    "de_plural": "die Hängebrücken",
+    "lv": "Vanšu se curva",
+    "level": "B2"
+  },
+  {
+    "de": "Hängsel",
+    "de_article": "das",
+    "de_plural": "die Hängsel",
+    "lv": "Piešūtais drēbju pakaramais",
+    "level": "B2"
+  },
+  {
+    "de": "hänseln",
+    "lv": "Nerrot • Kircinat",
+    "level": "B2"
+  },
+  {
+    "de": "hantieren",
+    "lv": "Rīkoties • Darboties ar ko",
+    "level": "B2"
+  },
+  {
+    "de": "Harn",
+    "de_article": "der",
+    "de_plural": "die Harne",
+    "lv": "Urina",
+    "level": "B2"
+  },
+  {
+    "de": "Harsch",
+    "de_article": "der",
+    "de_plural": "die Harsche",
+    "lv": "Sērsna • Apledojis sniegs",
+    "level": "B2"
+  },
+  {
+    "de": "härten",
+    "lv": "Verharden",
+    "level": "B2"
+  },
+  {
+    "de": "hartnäckig",
+    "lv": "Stūrgalvigs • Neatlaidīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Haube",
+    "de_article": "die",
+    "de_plural": "die Hauben",
+    "lv": "Cepurita • Parsegs",
+    "level": "B2",
+    "study": {
+      "id": "b2-haube",
+      "layout": "standardStudy",
+      "translation": "Cepurita • Parsegs",
+      "explanation": [
+        "Galvenā doma: die Haube var nozīmēt galvas cepurīti/kapuci vai pārsegu/vāku — konteksts nosaka nozīmi.",
+        "Uz galvas: die Haube = cepurīte, kapuce vai autortehnika konkrētā kontekstā (z. B. Nonne mit Haube).",
+        "Foot automašīnas: die Motorhaube go einfach die Haube = motora parsegs.",
+        "Virtuvē: die Dunsthaube = nosūcējs virs plīts. Técnica: a análise vai para os iekārtas."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt eine warme Haube.",
+          "lv": "Viņa valkā siltu cepurīti."
+        },
+        {
+          "de": "Die Nonne trägt eine schwarze Haube.",
+          "lv": "Mūķene valkā melnu kapuci."
+        },
+        {
+          "de": "Er öffnet die Haube des Autos.",
+          "lv": "Viņš atver automašīnas motora pārsegu."
+        },
+        {
+          "de": "Die Motorhaube ist kaputt.",
+          "lv": "Os analisadores motores vão para salauzts."
+        },
+        {
+          "de": "Über dem Herd hängt eine Dunsthaube.",
+          "lv": "Virs plīts ir piestiprināts nosūcējs."
+        },
+        {
+          "de": "Setz den Deckel als Haube auf den Topf.",
+          "lv": "Uzliec vāku kā parsegu uz katla."
+        }
+      ],
+      "tip": [
+        "Runā par galvu, mūķeni, cepuri → cepurīte / kapuce.",
+        "Runā par auto, motoru → motora pārsegs.",
+        "Runā par plīti, iekārtu → nosūcējs vai pārsegs."
+      ],
+      "important": [
+        "die Haube = cepurīte/kapuce VAI motora pārsegs VAI nosūcējs/pārsegs — atkarībā no konteksta.",
+        "Salikteņi palīdz: Motorhaube (auto), Dunsthaube (virtuve)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Haube"
+          ],
+          "purple": [
+            "cepurīte",
+            "pārsegs",
+            "kapuce",
+            "motora pārsegs"
+          ],
+          "green": [
+            "Motorhaube",
+            "Dunsthaube"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cepurīti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kapuci"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārsegu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Motorhaube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "analisadores"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Dunsthaube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nosūcējs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārsegu"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Haushaltung",
+    "de_article": "die",
+    "de_plural": "die Haushaltungen",
+    "lv": "Majturiba",
+    "level": "B2"
+  },
+  {
+    "de": "Hausherr",
+    "de_article": "der",
+    "de_plural": "die Hausherren",
+    "lv": "Mājastēvs • Namatēvs",
+    "level": "B2"
+  },
+  {
+    "de": "Hausrat",
+    "de_article": "der",
+    "lv": "Iedzīve",
+    "level": "B2"
+  },
+  {
+    "de": "Hautjucken",
+    "de_article": "das",
+    "lv": "Adas niezé",
+    "level": "B2"
+  },
+  {
+    "de": "Hautrötung",
+    "de_article": "die",
+    "de_plural": "die Hautrötungen",
+    "lv": "Ādas Apsarkums",
+    "level": "B2"
+  },
+  {
+    "de": "hauteng",
+    "lv": "Piegulošs aperitivos",
+    "level": "B2"
+  },
+  {
+    "de": "Heck",
+    "de_article": "das",
+    "de_plural": "die Hecke",
+    "lv": "Kuģa pakaļgals",
+    "level": "B2"
+  },
+  {
+    "de": "Heckklappe",
+    "de_article": "die",
+    "de_plural": "die Heckklappen",
+    "lv": "Automašīnas aizmugures bagāžnieka durvis",
+    "level": "B2"
+  },
+  {
+    "de": "Heilige",
+    "de_article": "der",
+    "de_plural": "die Heiligen",
+    "lv": "Svetais",
+    "level": "B2"
+  },
+  {
+    "de": "Heiligtum",
+    "de_article": "das",
+    "de_plural": "die Heiligtümer",
+    "lv": "Svētvieta • Svētums",
+    "level": "B2"
+  },
+  {
+    "de": "Heilkunde",
+    "de_article": "die",
+    "lv": "Ārstniecība • Medicina",
+    "level": "B2"
+  },
+  {
+    "de": "Heilquelle",
+    "de_article": "die",
+    "de_plural": "die Heilquellen",
+    "lv": "Ārstniecības avots",
+    "level": "B2"
+  },
+  {
+    "de": "Heilstätte",
+    "de_article": "die",
+    "de_plural": "die Heilstätten",
+    "lv": "Sanatório",
+    "level": "B2"
+  },
+  {
+    "de": "Heilpraktiker",
+    "de_article": "der",
+    "de_plural": "die Heilpraktiker",
+    "lv": "Dziedniek",
+    "level": "B2"
+  },
+  {
+    "de": "heimatlos",
+    "lv": "Bez dzimtenes",
+    "level": "B2"
+  },
+  {
+    "de": "Heimkehr",
+    "de_article": "die",
+    "lv": "Atgriešanās mājās • Dzimtenē",
+    "level": "B2"
+  },
+  {
+    "de": "Heimwerker",
+    "de_article": "der",
+    "de_plural": "die Heimwerker",
+    "lv": "Mājamatnieks • Mājmeestars",
+    "level": "B2"
+  },
+  {
+    "de": "Heizkraftwerk",
+    "de_article": "das",
+    "de_plural": "die Heizkraftwerke",
+    "lv": "Termoeletrostacia",
+    "level": "B2"
+  },
+  {
+    "de": "Heizöl",
+    "de_article": "das",
+    "de_plural": "die Heizöle",
+    "lv": "Šķidrais kurināmais • Mazuts",
+    "level": "B2"
+  },
+  {
+    "de": "Heldentat",
+    "de_article": "die",
+    "de_plural": "die Heldentaten",
+    "lv": "Varonadarbes",
+    "level": "B2"
+  },
+  {
+    "de": "hemmen",
+    "lv": "Kavēt • Aizkavēt • Bremzēt",
+    "level": "B2"
+  },
+  {
+    "de": "Hemmung",
+    "de_article": "die",
+    "de_plural": "die Hemmungen",
+    "lv": "Kavēklis • Šķērslis • Aizture",
+    "level": "B2"
+  },
+  {
+    "de": "henken",
+    "lv": "Kart • Pakārt cilvēku",
+    "level": "B2"
+  },
+  {
+    "de": "herabsetzen",
+    "lv": "Pazemināt • Noniecinat",
+    "level": "B2"
+  },
+  {
+    "de": "herangehen",
+    "lv": "Ķerties pastel darba",
+    "level": "B2"
+  },
+  {
+    "de": "herantreten",
+    "lv": "Pieiet",
+    "level": "B2"
+  },
+  {
+    "de": "heraufkommen",
+    "lv": "Uznākt augšā • Tikt uz augšu",
+    "level": "B2"
+  },
+  {
+    "de": "sich herausbilden",
+    "lv": "Par Izveidoties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-herausbilden",
+      "layout": "minimalStudy",
+      "translation": "Par Izveidoties",
+      "rektion": "zu + kam?",
+      "explanation": "Sich herausbilden nepieciešams noteikts prievārds zu + kam?.",
+      "forms": "zu + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich herausbilden"
+          ],
+          "red": [
+            "zu + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "herausfordern",
+    "lv": "Izaicinat",
+    "level": "B2"
+  },
+  {
+    "de": "sich heraushalten",
+    "lv": "Turēties não não",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-heraushalten",
+      "layout": "minimalStudy",
+      "translation": "Turēties não não",
+      "rektion": "aus + kam?",
+      "explanation": "Sich heraushalten nepieciešams noteikts prievārds aus + kam?.",
+      "forms": "aus + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich heraushalten"
+          ],
+          "red": [
+            "aus + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "herausstellen",
+    "lv": "Izliktara",
+    "level": "B2"
+  },
+  {
+    "de": "sich herausstellen",
+    "lv": "Izrādīties par",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-herausstellen",
+      "layout": "minimalStudy",
+      "translation": "Izrādīties par",
+      "rektion": "als + kas?",
+      "explanation": "Sich herausstellen nepieciešams noteikts prievārds als + kas?.",
+      "forms": "als + kas?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich herausstellen"
+          ],
+          "red": [
+            "als + kas?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "herb",
+    "lv": "Rūgtens • Surs • Skābs",
+    "level": "B2"
+  },
+  {
+    "de": "herrschen",
+    "lv": "Valdit",
+    "level": "B2"
+  },
+  {
+    "de": "hervorheben",
+    "lv": "Izcelt • Uzsvērt",
+    "level": "B2"
+  },
+  {
+    "de": "hervorrufen",
+    "lv": "Izsaukt • Izraisīt • Radit • Modināt",
+    "level": "B2"
+  },
+  {
+    "de": "sich hervortun",
+    "lv": "Opvallen",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-hervortun",
+      "layout": "minimalStudy",
+      "translation": "Opvallen",
+      "rektion": "in + kur?",
+      "explanation": "Sich hervortun nepieciešams noteikts prievārds em + kur?.",
+      "forms": "in + kur?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich hervortun"
+          ],
+          "red": [
+            "Sich"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Herzflattern",
+    "de_article": "das",
+    "lv": "Sirdsklauves",
+    "level": "B2"
+  },
+  {
+    "de": "Herzschwäche",
+    "de_article": "die",
+    "de_plural": "die Herzschwächen",
+    "lv": "Senhores vajums",
+    "level": "B2"
+  },
+  {
+    "de": "Herzversagen",
+    "de_article": "das",
+    "lv": "Sirds apstāšanās • Nepietiekamība",
+    "level": "B2"
+  },
+  {
+    "de": "Hetze",
+    "de_article": "die",
+    "de_plural": "die Hetzen",
+    "lv": "Kūdīšana • Rīdīšana",
+    "level": "B2"
+  },
+  {
+    "de": "hetzen",
+    "lv": "Rīdīt • Kūdīt • Vajāt • Trenkāt",
+    "level": "B2"
+  },
+  {
+    "de": "heucheln",
+    "lv": "Izlikties • Liekuļot",
+    "level": "B2"
+  },
+  {
+    "de": "Heuschnupfen",
+    "de_article": "der",
+    "lv": "Allerģiskas não são putekšņiem",
+    "level": "B2"
+  },
+  {
+    "de": "hierdurch",
+    "lv": "Ar a • Ar šo",
+    "level": "B2"
+  },
+  {
+    "de": "Hilfsaktion",
+    "de_article": "die",
+    "de_plural": "die Hilfsaktionen",
+    "lv": "Palīdzības Akcija",
+    "level": "B2"
+  },
+  {
+    "de": "Hilfsdienst",
+    "de_article": "der",
+    "de_plural": "die Hilfsdienste",
+    "lv": "Dienests Palīdzības",
+    "level": "B2"
+  },
+  {
+    "de": "hingeben",
+    "lv": "Atdot • Projeto Aizdot",
+    "level": "B2"
+  },
+  {
+    "de": "sich hingeben",
+    "lv": "Adoties • Nodoties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-hingeben",
+      "layout": "minimalStudy",
+      "translation": "Adoties • Nodoties",
+      "rektion": "+ kam?",
+      "explanation": "Sich dobradiçaben prasa + kam?.",
+      "forms": "+ kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Sich"
+          ],
+          "red": [
+            "+ kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "hinreißen",
+    "lv": "Aizgrābt • Aizraut",
+    "level": "B2"
+  },
+  {
+    "de": "Hinsicht",
+    "de_article": "die",
+    "de_plural": "die Hinsichten",
+    "lv": "Mensagem",
+    "level": "B2"
+  },
+  {
+    "de": "hinsichtlich",
+    "lv": "Attiecībā uz • Sakara ar",
+    "level": "B2"
+  },
+  {
+    "de": "hintergehen",
+    "lv": "Piekrapt • Pievilt",
+    "level": "B2"
+  },
+  {
+    "de": "Hinterhalt",
+    "de_article": "der",
+    "de_plural": "die Hinterhalte",
+    "lv": "Slēpnis",
+    "level": "B2"
+  },
+  {
+    "de": "hinterziehen",
+    "lv": "Piesavināties naudu • Nenomaksāt nodokļus",
+    "level": "B2"
+  },
+  {
+    "de": "hinüberfahren",
+    "lv": "Pārvest pari • Pārbraukt pari",
+    "level": "B2"
+  },
+  {
+    "de": "Hirntumor",
+    "de_article": "der",
+    "de_plural": "die Hirntumoren",
+    "lv": "Smadzeņu audzējs",
+    "level": "B2"
+  },
+  {
+    "de": "Hirnzelle",
+    "de_article": "die",
+    "de_plural": "die Hirnzellen",
+    "lv": "Smadzeņu šūna",
+    "level": "B2"
+  },
+  {
+    "de": "Hirschgeweih",
+    "de_article": "das",
+    "de_plural": "die Hirschgeweihe",
+    "lv": "Brieza ragi",
+    "level": "B2"
+  },
+  {
+    "de": "Hirschkuh",
+    "de_article": "die",
+    "de_plural": "die Hirschkühe",
+    "lv": "Briežumate",
+    "level": "B2"
+  },
+  {
+    "de": "hitzig",
+    "lv": "Karsts • Dedzīgs • Straujš • Ātrs dusmās",
+    "level": "B2"
+  },
+  {
+    "de": "Hitzkopf",
+    "de_article": "der",
+    "de_plural": "die Hitzköpfe",
+    "lv": "Karstgalvis",
+    "level": "B2"
+  },
+  {
+    "de": "HIV",
+    "de_article": "das",
+    "de_plural": "die HIV",
+    "lv": "HIV (cilvēka imūndeficīta vīruss)",
+    "level": "B2"
+  },
+  {
+    "de": "HIV-negativ",
+    "lv": "HIV negativo",
+    "level": "B2"
+  },
+  {
+    "de": "HIV-positiv",
+    "lv": "HIV positivo",
+    "level": "B2"
+  },
+  {
+    "de": "Hobelbank",
+    "de_article": "die",
+    "de_plural": "die Hobelbänke",
+    "lv": "Ēvelsols",
+    "level": "B2"
+  },
+  {
+    "de": "Hoch",
+    "de_article": "das",
+    "de_plural": "die Hochs",
+    "lv": "Brindes “lai dzīvo!”",
+    "level": "B2",
+    "study": {
+      "id": "b2-hoch-study",
+      "layout": "standardStudy",
+      "translation": "Brindes “lai dzīvo!”",
+      "explanation": [
+        "Galvenā doma: das Hoch ar lielo burtu un artikulu das ir lietvārds — svētku sauciens/tosts (Ein Hoch auf...! = Lai dzīvo...!) vai laika ziņās — augsta spiediena apgabals.",
+        "Hoch ar mercado burtu ir īpašības vārds — agosto (der Berg ist hoch).",
+        "Frāzē ein Hoch ausbringen nozīmē uzsaukt tostu.",
+        "Laika ziņās das Hoch nozīmē anticiklonu — augsta gaisa spiediena apgabalu (pretstats: das Tief)."
+      ],
+      "examples": [
+        {
+          "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
+          "lv": "Mēs uzsaucam tostu jaunlaulātajiem."
+        },
+        {
+          "de": "Ein Hoch auf dich!",
+          "lv": "Lai dzīvo você!"
+        },
+        {
+          "de": "Morgen kommt ein Hoch.",
+          "lv": "Rīt gaidāms anticiklons (augsts spiediens)."
+        },
+        {
+          "de": "Der Berg ist sehr hoch.",
+          "lv": "Kalns ir ļoti agosto."
+        }
+      ],
+      "tip": [
+        "das Hoch ar lielo burtu — svētku sauciens vai anticiklons laika ziņās.",
+        "hoch ar mazo burtu — augsts (īpašības vārds)."
+      ],
+      "important": [
+        "das Hoch = tosts (“lai dzīvo!”) VAI anticiklons (laika ziņas) — lietvārds.",
+        "hoch = augsts — īpašības vārds, bez artikula.",
+        "Pretstats laika ziņās: das Hoch ↔ das Tief."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Hoch"
+          ],
+          "purple": [
+            "tosts",
+            "lai dzīvo"
+          ],
+          "green": [
+            "hoch"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tostu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lai dzīvo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anticiklons"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kalns"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "das Hoch"
+            ]
+          },
+          {
+            "green": [
+              "hoch"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Hoch"
+            ]
+          },
+          {
+            "green": [
+              "hoch"
+            ]
+          },
+          {
+            "blue": [
+              "das Tief"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Hochachtung",
+    "de_article": "die",
+    "de_plural": "die Hochachtungen",
+    "lv": "Liela ciņa",
+    "level": "B2"
+  },
+  {
+    "de": "Hochmut",
+    "de_article": "der",
+    "lv": "Augstprātība • Uzputiba",
+    "level": "B2"
+  },
+  {
+    "de": "hochmütig",
+    "lv": "Augstprātīgs • Uzpūtīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Hochspannung",
+    "de_article": "die",
+    "de_plural": "die Hochspannungen",
+    "lv": "Augstspriegums",
+    "level": "B2"
+  },
+  {
+    "de": "Hochsprung",
+    "de_article": "der",
+    "de_plural": "die Hochsprünge",
+    "lv": "Augstlēkšana",
+    "level": "B2"
+  },
+  {
+    "de": "Höchstleistung",
+    "de_article": "die",
+    "de_plural": "die Höchstleistungen",
+    "lv": "Augstākais sasniegums • Vislielākā jauda • Rekords",
+    "level": "B2"
+  },
+  {
+    "de": "Hochverrat",
+    "de_article": "der",
+    "de_plural": null,
+    "lv": "Valsts nodevība",
+    "level": "B2"
+  },
+  {
+    "de": "Hochwasser",
+    "de_article": "das",
+    "de_plural": "die Hochwasser",
+    "lv": "Plūdi • Augsts ūdens līmenis",
+    "level": "B2",
+    "study": {
+      "id": "b2-hochwasser",
+      "layout": "standardStudy",
+      "translation": "Plūdi • Augsts ūdens līmenis",
+      "explanation": "Adestramento Galvenā: das Hochwasser nozīmē plūdus vai ļoti augstu ūdens līmeni upē, ezerā vai jūrā. Daudzskaitlis: die Hochwasser. Bieži felizmente pegou um brīdinajumos.",
+      "examples": [
+        {
+          "de": "Nach dem Regen gibt es Hochwasser.",
+          "lv": "Pēc lietus ir plūdi."
+        },
+        {
+          "de": "Das Hochwasser bedroht die Stadt.",
+          "lv": "Augsts ūdens līmenis apdraud pilsētu."
+        },
+        {
+          "de": "Die Behörden warnen vor Hochwasser.",
+          "lv": "Iestādes bridina par plūdiem."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Hochwasser",
+          "meaning": "Plūdi • Augsts ūdens līmenis",
+          "example": "Es gibt Hochwasser. = Er está matando isso."
+        },
+        {
+          "word": "die Überschwemmung",
+          "meaning": "Plūdi (konkrēti)",
+          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
+        },
+        {
+          "word": "der Pegel",
+          "meaning": "Уdens limenis",
+          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Hoch = agosto, Wasser = ūdens. Hochwasser = augsts ūdens līmenis, kas bieži nozīmē plūdus."
+          }
+        ]
+      },
+      "important": {
+        "text": "Das Hochwasser = plūdi vai augsts ūdens līmenis. Daudzskaitlis: die Hochwasser."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Hochwasser"
+          ],
+          "purple": [
+            "plūdu",
+            "augstu ūdens līmeni"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plūdi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts ūdens līmenis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plūdiem"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "hochwertig",
+    "lv": "Augstvērtīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Hohlmaß",
+    "de_article": "das",
+    "de_plural": "die Hohlmaße",
+    "lv": "Tilpuma mērs",
+    "level": "B2"
+  },
+  {
+    "de": "Hohn",
+    "de_article": "der",
+    "lv": "Izsmiekls • Apsmieklis",
+    "level": "B2"
+  },
+  {
+    "de": "Hölle",
+    "de_article": "die",
+    "de_plural": "die Höllen",
+    "lv": "Ela",
+    "level": "B2"
+  },
+  {
+    "de": "holpern",
+    "lv": "Kratīties • Raustīties",
+    "level": "B2"
+  },
+  {
+    "de": "Honorar",
+    "de_article": "das",
+    "de_plural": "die Honorare",
+    "lv": "Taxa",
+    "level": "B2"
+  },
+  {
+    "de": "humanitär",
+    "lv": "Humanitários",
+    "level": "B2"
+  },
+  {
+    "de": "Hypnose",
+    "de_article": "die",
+    "de_plural": "die Hypnosen",
+    "lv": "Hipnose",
+    "level": "B2"
+  },
+  {
+    "de": "Hypothek",
+    "de_article": "die",
+    "de_plural": "die Hypotheken",
+    "lv": "Hipoteca",
+    "level": "B2"
+  },
+  {
+    "de": "Immobilien",
+    "de_article": "die",
+    "lv": "Nekustamais īpašums",
+    "level": "B2"
+  },
+  {
+    "de": "Immunität",
+    "de_article": "die",
+    "de_plural": "die Immunitäten",
+    "lv": "Imunidade",
+    "level": "B2"
+  },
+  {
+    "de": "implantieren",
+    "lv": "Implantar",
+    "level": "B2"
+  },
+  {
+    "de": "in flagranti",
+    "lv": "Pieķert • Darot kaut ko aizliegtu",
+    "level": "B2"
+  },
+  {
+    "de": "inkompatibel",
+    "lv": "Nesavienojams",
+    "level": "B2"
+  },
+  {
+    "de": "Innenpolitik",
+    "de_article": "die",
+    "de_plural": "die Innenpolitiken",
+    "lv": "Iekšpolitika",
+    "level": "B2"
+  },
+  {
+    "de": "innewohnen",
+    "lv": "Piemista",
+    "level": "B2"
+  },
+  {
+    "de": "inszenieren",
+    "lv": "Incentivo",
+    "level": "B2"
+  },
+  {
+    "de": "Intervention",
+    "de_article": "die",
+    "de_plural": "die Interventionen",
+    "lv": "Intervenção",
+    "level": "B2"
+  },
+  {
+    "de": "Investition",
+    "de_article": "die",
+    "de_plural": "die Investitionen",
+    "lv": "Investidores • Investidores • Kapitaalinvesteringen • Investidores",
+    "level": "B2"
+  },
+  {
+    "de": "irrsinnig",
+    "lv": "Ārprātīgs • Vājprātīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Junkie",
+    "de_article": "der",
+    "de_plural": "die Junkies",
+    "lv": "Narkomans",
+    "level": "B2"
+  },
+  {
+    "de": "Kabinettskrise",
+    "de_article": "die",
+    "de_plural": "die Kabinettskrisen",
+    "lv": "Gabinete krīze",
+    "level": "B2"
+  },
+  {
+    "de": "Kapazität",
+    "de_article": "die",
+    "de_plural": "die Kapazitäten",
+    "lv": "Ražotspēja • Jauda • Tilpums • Ietilpība",
+    "level": "B2"
+  },
+  {
+    "de": "Kapitalanlage",
+    "de_article": "die",
+    "de_plural": "die Kapitalanlagen",
+    "lv": "Kapitālieguldījums",
+    "level": "B2"
+  },
+  {
+    "de": "Kapitalismus",
+    "de_article": "der",
+    "lv": "Capitalismos",
+    "level": "B2"
+  },
+  {
+    "de": "Kapitalist",
+    "de_article": "der",
+    "de_plural": "die Kapitalisten",
+    "lv": "Capitalistas",
+    "level": "B2"
+  },
+  {
+    "de": "kapitalistisch",
+    "lv": "Capitalistas",
+    "level": "B2"
+  },
+  {
+    "de": "Kapitulation",
+    "de_article": "die",
+    "de_plural": "die Kapitulationen",
+    "lv": "Kapitulacija",
+    "level": "B2"
+  },
+  {
+    "de": "Karrierefrau",
+    "de_article": "die",
+    "de_plural": "die Karrierefrauen",
+    "lv": "Sieviete, kas taisa karjeru",
+    "level": "B2"
+  },
+  {
+    "de": "Kaufkraft",
+    "de_article": "die",
+    "lv": "Naudas • Arī pessoas pirktspēja",
+    "level": "B2"
+  },
+  {
+    "de": "Keuchhusten",
+    "de_article": "der",
+    "lv": "Klepus garais",
+    "level": "B2"
+  },
+  {
+    "de": "kidnappen",
+    "lv": "Nolaupīt • Saņemt par ķīlnieku",
+    "level": "B2"
+  },
+  {
+    "de": "killen",
+    "lv": "Nogalinat",
+    "level": "B2"
+  },
+  {
+    "de": "Klappe",
+    "de_article": "die",
+    "de_plural": "die Klappen",
+    "lv": "Vārstulis • Vārsts",
+    "level": "B2"
+  },
+  {
+    "de": "Klasse",
+    "de_article": "die",
+    "de_plural": "die Klassen",
+    "lv": "Sabiedrības šķira • Classe • ​​Categoria",
+    "level": "B2"
+  },
+  {
+    "de": "klassenlos",
+    "lv": "Bezšķiru",
+    "level": "B2"
+  },
+  {
+    "de": "klassifizieren",
+    "lv": "Clássico",
+    "level": "B2"
+  },
+  {
+    "de": "Klinik",
+    "de_article": "die",
+    "de_plural": "die Kliniken",
+    "lv": "Clínica",
+    "level": "B2"
+  },
+  {
+    "de": "knifflig",
+    "lv": "Sarezģīts",
+    "level": "B2"
+  },
+  {
+    "de": "Knochengewebe",
+    "de_article": "das",
+    "de_plural": "die Knochengewebe",
+    "lv": "Kaulaudi",
+    "level": "B2"
+  },
+  {
+    "de": "Knochenmark",
+    "de_article": "das",
+    "de_plural": "die Knochenmarke",
+    "lv": "Estado mesclado",
+    "level": "B2"
+  },
+  {
+    "de": "Kolben",
+    "de_article": "der",
+    "de_plural": "die Kolben",
+    "lv": "Kolba • Virzulis",
+    "level": "B2"
+  },
+  {
+    "de": "Kommunismus",
+    "de_article": "der",
+    "lv": "Komunismos",
+    "level": "B2"
+  },
+  {
+    "de": "kompatibel",
+    "lv": "Savienojams",
+    "level": "B2"
+  },
+  {
+    "de": "kompetent",
+    "lv": "Competentes • Lietpratīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Komplott",
+    "de_article": "das",
+    "de_plural": "die Komplotte",
+    "lv": "Sazvērestība",
+    "level": "B2"
+  },
+  {
+    "de": "Konsequenz",
+    "de_article": "die",
+    "de_plural": "die Konsequenzen",
+    "lv": "Konsekvence • Secība • Secinājums • Sekas",
+    "level": "B2"
+  },
+  {
+    "de": "Konsulat",
+    "de_article": "das",
+    "de_plural": "die Konsulate",
+    "lv": "Consultas",
+    "level": "B2"
+  },
+  {
+    "de": "Konsum",
+    "de_article": "der",
+    "de_plural": null,
+    "lv": "Patēriņš",
+    "level": "B2"
+  },
+  {
+    "de": "Konsumgüter",
+    "de_article": "die",
+    "lv": "Patēriņa preces",
+    "level": "B2"
+  },
+  {
+    "de": "konvertieren",
+    "lv": "Converter",
+    "level": "B2"
+  },
+  {
+    "de": "Konzept",
+    "de_article": "das",
+    "de_plural": "die Konzepte",
+    "lv": "Konceccija • Uzmetums • Planos",
+    "level": "B2"
+  },
+  {
+    "de": "Korps",
+    "de_article": "das",
+    "de_plural": "die Korps",
+    "lv": "Korpuss",
+    "level": "B2"
+  },
+  {
+    "de": "korrumpieren",
+    "lv": "Piekukuļot",
+    "level": "B2"
+  },
+  {
+    "de": "korrupt",
+    "lv": "Koopbaar • Omkoopbaar",
+    "level": "B2"
+  },
+  {
+    "de": "Kosmonaut",
+    "de_article": "der",
+    "de_plural": "die Kosmonauten",
+    "lv": "Cosmonautas",
+    "level": "B2"
+  },
+  {
+    "de": "Krebs",
+    "de_article": "der",
+    "de_plural": "die Krebse",
+    "lv": "Vēzis",
+    "level": "B2"
+  },
+  {
+    "de": "Kriegszustand",
+    "de_article": "der",
+    "de_plural": "die Kriegszustände",
+    "lv": "Karastavoklis",
+    "level": "B2"
+  },
+  {
+    "de": "Lähmung",
+    "de_article": "die",
+    "de_plural": "die Lähmungen",
+    "lv": "Paralisar",
+    "level": "B2"
+  },
+  {
+    "de": "Laie",
+    "de_article": "der",
+    "de_plural": "die Laien",
+    "lv": "Fãs",
+    "level": "B2"
+  },
+  {
+    "de": "Laienkunst",
+    "de_article": "die",
+    "lv": "Makslinieciskā pašdarbība",
+    "level": "B2"
+  },
+  {
+    "de": "Landarbeiter",
+    "de_article": "der",
+    "de_plural": "die Landarbeiter",
+    "lv": "Laukstradnieks",
+    "level": "B2"
+  },
+  {
+    "de": "Landebahn",
+    "de_article": "die",
+    "de_plural": "die Landebahnen",
+    "lv": "Nolaišanās josla",
+    "level": "B2"
+  },
+  {
+    "de": "Landenge",
+    "de_article": "die",
+    "de_plural": "die Landengen",
+    "lv": "Zemes šaurums",
+    "level": "B2"
+  },
+  {
+    "de": "Länderkunde",
+    "de_article": "die",
+    "lv": "Região Geográfica",
+    "level": "B2"
+  },
+  {
+    "de": "Landsmann",
+    "de_article": "der",
+    "de_plural": "die Landsleute",
+    "lv": "Tautietis • Novadnieks",
+    "level": "B2"
+  },
+  {
+    "de": "Landung",
+    "de_article": "die",
+    "de_plural": "die Landungen",
+    "lv": "Izcelšanās malā • Desants • Nosēšanās",
+    "level": "B2"
+  },
+  {
+    "de": "Landzunge",
+    "de_article": "die",
+    "de_plural": "die Landzungen",
+    "lv": "Zemes mele",
+    "level": "B2"
+  },
+  {
+    "de": "langfristig",
+    "lv": "Ilgtermiņa • Ilgstošs",
+    "level": "B2"
+  },
+  {
+    "de": "länglich",
+    "lv": "Iegarens",
+    "level": "B2"
+  },
+  {
+    "de": "lästig",
+    "lv": "Apgrutinos",
+    "level": "B2"
+  },
+  {
+    "de": "latent",
+    "lv": "Dormindo • Nemanams",
+    "level": "B2"
+  },
+  {
+    "de": "lauern",
+    "lv": "Uzglunet",
+    "level": "B2"
+  },
+  {
+    "de": "Staffellauf",
+    "de_article": "der",
+    "de_plural": "die Staffelläufe",
+    "lv": "Stafetes Skrējiens",
+    "level": "B2"
+  },
+  {
+    "de": "Laufmasche",
+    "de_article": "die",
+    "de_plural": "die Laufmaschen",
+    "lv": "Zeķei noiris valdziņš",
+    "level": "B2"
+  },
+  {
+    "de": "Laufsteg",
+    "de_article": "der",
+    "de_plural": "die Laufstege",
+    "lv": "Modos de skate Mēle",
+    "level": "B2"
+  },
+  {
+    "de": "Laufwerk",
+    "de_article": "das",
+    "de_plural": "die Laufwerke",
+    "lv": "Dzinējs • Dzinis",
+    "level": "B2"
+  },
+  {
+    "de": "lauschen",
+    "lv": "Vērīgi klausīties • Slepeni noklausīties",
+    "level": "B2"
+  },
+  {
+    "de": "Lawinengefahr",
+    "de_article": "die",
+    "de_plural": "die Lawinengefahren",
+    "lv": "Lavinas draudi",
+    "level": "B2"
+  },
+  {
+    "de": "Lawinenopfer",
+    "de_article": "das",
+    "de_plural": "die Lawinenopfer",
+    "lv": "Lavinas upuris",
+    "level": "B2"
+  },
+  {
+    "de": "Leader",
+    "de_article": "der",
+    "de_plural": "die Leader",
+    "lv": "Líderes",
+    "level": "B2"
+  },
+  {
+    "de": "legalisieren",
+    "lv": "Legalizar",
+    "level": "B2"
+  },
+  {
+    "de": "Lehrstuhl",
+    "de_article": "der",
+    "de_plural": "die Lehrstühle",
+    "lv": "Katedra",
+    "level": "B2"
+  },
+  {
+    "de": "leiblich",
+    "lv": "Miesigs",
+    "level": "B2"
+  },
+  {
+    "de": "Leibwächter",
+    "de_article": "der",
+    "de_plural": "die Leibwächter",
+    "lv": "Miesassargs",
+    "level": "B2"
+  },
+  {
+    "de": "Leichenhalle",
+    "de_article": "die",
+    "de_plural": "die Leichenhallen",
+    "lv": "Kapliča kapos",
+    "level": "B2"
+  },
+  {
+    "de": "Leichtgewicht",
+    "de_article": "das",
+    "de_plural": "die Leichtgewichte",
+    "lv": "Svars viglais",
+    "level": "B2"
+  },
+  {
+    "de": "leichtgläubig",
+    "lv": "Letticigs",
+    "level": "B2"
+  },
+  {
+    "de": "leichtsinnig",
+    "lv": "Vieglprātīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Leiden",
+    "de_article": "das",
+    "de_plural": "die Leiden",
+    "lv": "Langdurige e ernstige ziekte",
+    "level": "B2",
+    "study": {
+      "id": "b2-leiden-study",
+      "layout": "standardStudy",
+      "translation": "Langdurige e ernstige ziekte",
+      "explanation": [
+        "Galvenā doma: das Leiden ar lielo burtu un artikulu das ir lietvārds — ciešanas, ilga/smaga slimība.",
+        "Leiden ar mallet burtu ir darbības vārds—ciest.",
+        "Das Leiden bieži happy medicīniskā vai literārā kontekstā (ein schweres Leiden = smaga slimība).",
+        "Daudzskaitlī: morrer Leiden."
+      ],
+      "examples": [
+        {
+          "de": "Er hat ein schweres Leiden.",
+          "lv": "Viņam ir smaga slimība."
+        },
+        {
+          "de": "Das Leiden der Patienten war groß.",
+          "lv": "Paciente cišanas bija lielas."
+        },
+        {
+          "de": "Er leidet an einer seltenen Krankheit.",
+          "lv": "Não vejo comentários escassos."
+        },
+        {
+          "de": "Ihr Leiden dauerte Jahre.",
+          "lv": "Viņas slimība ilga gadiem."
+        }
+      ],
+      "tip": [
+        "das Leiden ar lielo burtu — lietvārds (ciešanas, smaga slimība).",
+        "leiden ar mazo burtu — darbības vārds (ciest)."
+      ],
+      "important": [
+        "das Leiden = ciešanas/smaga slimība (lietvārds).",
+        "leiden = ciest (darbības vārds).",
+        "Daudzskaitlī: die Leiden."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Leiden"
+          ],
+          "purple": [
+            "ciešanas",
+            "smaga slimība"
+          ],
+          "green": [
+            "leiden"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Leiden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slimība"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Leiden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cišanas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leidet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Não"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Leiden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slimība"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "das Leiden"
+            ]
+          },
+          {
+            "green": [
+              "leiden"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Leiden"
+            ]
+          },
+          {
+            "green": [
+              "leiden"
+            ]
+          },
+          {
+            "blue": [
+              "die Leiden"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "leidlich",
+    "lv": "Paciešams • Ciešami • Puslīdz labi",
+    "level": "B2"
+  },
+  {
+    "de": "Leistungslohn",
+    "de_article": "der",
+    "de_plural": "die Leistungslöhne",
+    "lv": "Gabaldarba samaksa",
+    "level": "B2"
+  },
+  {
+    "de": "Leitartikel",
+    "de_article": "der",
+    "de_plural": "die Leitartikel",
+    "lv": "Ievadraksts",
+    "level": "B2"
+  },
+  {
+    "de": "Leitfaden",
+    "de_article": "der",
+    "de_plural": "die Leitfäden",
+    "lv": "Rokasgramata",
+    "level": "B2"
+  },
+  {
+    "de": "Lektor",
+    "de_article": "der",
+    "de_plural": "die Lektoren",
+    "lv": "Leitores de Augstskola",
+    "level": "B2"
+  },
+  {
+    "de": "Lesbe",
+    "de_article": "die",
+    "de_plural": "die Lesben",
+    "lv": "Lésbica",
+    "level": "B2"
+  },
+  {
+    "de": "lesegeschützt",
+    "lv": "Textos, ko var nolasīt tikai pēc paroles ievadīšanas",
+    "level": "B2"
+  },
+  {
+    "de": "Leuchtreklame",
+    "de_article": "die",
+    "de_plural": "die Leuchtreklamen",
+    "lv": "Gaismas reklāma",
+    "level": "B2"
+  },
+  {
+    "de": "leugnen",
+    "lv": "Noliegt",
+    "level": "B2"
+  },
+  {
+    "de": "liberal",
+    "lv": "Liberais",
+    "level": "B2"
+  },
+  {
+    "de": "Liebesaffäre",
+    "de_article": "die",
+    "de_plural": "die Liebesaffären",
+    "lv": "Sakars íntimos",
+    "level": "B2"
+  },
+  {
+    "de": "liebkosten",
+    "lv": "Glāstīt • Apmiļot",
+    "level": "B2"
+  },
+  {
+    "de": "liederlich",
+    "lv": "Paviršs • Nevīžīgs",
+    "level": "B2"
+  },
+  {
+    "de": "lindern",
+    "lv": "Remdēt • Atvieglināt sāpes",
+    "level": "B2"
+  },
+  {
+    "de": "lispeln",
+    "lv": "Šļupstet",
+    "level": "B2"
+  },
+  {
+    "de": "List",
+    "de_article": "die",
+    "de_plural": "die Listen",
+    "lv": "Viltiba",
+    "level": "B2"
+  },
+  {
+    "de": "listig",
+    "lv": "Viltigs",
+    "level": "B2"
+  },
+  {
+    "de": "Litfaßsäule",
+    "de_article": "die",
+    "de_plural": "die Litfaßsäulen",
+    "lv": "Afišu esfaqueadas",
+    "level": "B2"
+  },
+  {
+    "de": "Lochband",
+    "de_article": "das",
+    "de_plural": "die Lochbänder",
+    "lv": "Perfoliante",
+    "level": "B2"
+  },
+  {
+    "de": "Lochkarte",
+    "de_article": "die",
+    "de_plural": "die Lochkarten",
+    "lv": "Perfocarte",
+    "level": "B2"
+  },
+  {
+    "de": "Lohnabbau",
+    "de_article": "der",
+    "lv": "Algas Darba pazeminajums",
+    "level": "B2"
+  },
+  {
+    "de": "Lohnerhöhung",
+    "de_article": "die",
+    "de_plural": "die Lohnerhöhungen",
+    "lv": "Algas Darba paaugstinājums",
+    "level": "B2"
+  },
+  {
+    "de": "Lösegeld",
+    "de_article": "das",
+    "de_plural": "die Lösegelder",
+    "lv": "Izpirkuma maksa",
+    "level": "B2"
+  },
+  {
+    "de": "Losung",
+    "de_article": "die",
+    "de_plural": "die Losungen",
+    "lv": "Lozungs • Palavras",
+    "level": "B2"
+  },
+  {
+    "de": "Löwenmähne",
+    "de_article": "die",
+    "de_plural": "die Löwenmähnen",
+    "lv": "Lauvas krēpes",
+    "level": "B2"
+  },
+  {
+    "de": "Löwenpranke",
+    "de_article": "die",
+    "de_plural": "die Löwenpranken",
+    "lv": "Lauvas ķetna",
+    "level": "B2"
+  },
+  {
+    "de": "Luftabwehr",
+    "de_article": "die",
+    "lv": "Pretgaisa aizsardziba",
+    "level": "B2"
+  },
+  {
+    "de": "Luftbad",
+    "de_article": "das",
+    "de_plural": "die Luftbäder",
+    "lv": "Gaisa Pelde",
+    "level": "B2"
+  },
+  {
+    "de": "Luftaufnahme",
+    "de_article": "die",
+    "de_plural": "die Luftaufnahmen",
+    "lv": "Fotogaisa • Aerofotoattēls",
+    "level": "B2"
+  },
+  {
+    "de": "luftdicht",
+    "lv": "Gaisnecaurlaidīgs • Hermetiscos",
+    "level": "B2"
+  },
+  {
+    "de": "Luftfahrt",
+    "de_article": "die",
+    "lv": "Aviação",
+    "level": "B2"
+  },
+  {
+    "de": "Lufthafen",
+    "de_article": "der",
+    "de_plural": "die Lufthäfen",
+    "lv": "Lidosta",
+    "level": "B2"
+  },
+  {
+    "de": "Luftpost",
+    "de_article": "die",
+    "lv": "Refeições Gaisa",
+    "level": "B2"
+  },
+  {
+    "de": "Luftgewehr",
+    "de_article": "das",
+    "de_plural": "die Luftgewehre",
+    "lv": "Pneimatiskais irocis",
+    "level": "B2"
+  },
+  {
+    "de": "Luftpirat",
+    "de_article": "der",
+    "de_plural": "die Luftpiraten",
+    "lv": "Vôo pirata",
+    "level": "B2"
+  },
+  {
+    "de": "Lustspiel",
+    "de_article": "das",
+    "de_plural": "die Lustspiele",
+    "lv": "Komédija • Joku luga",
+    "level": "B2"
+  },
+  {
+    "de": "Machtantritt",
+    "de_article": "der",
+    "de_plural": "die Machtantritte",
+    "lv": "Hastes de pé Stāšanās",
+    "level": "B2"
+  },
+  {
+    "de": "Machtgier",
+    "de_article": "die",
+    "lv": "Varaskare",
+    "level": "B2"
+  },
+  {
+    "de": "mächtig",
+    "lv": "Varens • Specēcīgs • Milzīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Magensäure",
+    "de_article": "die",
+    "de_plural": "die Magensäuren",
+    "lv": "Kuņģa skābe",
+    "level": "B2"
+  },
+  {
+    "de": "Magister",
+    "de_article": "der",
+    "de_plural": "die Magister",
+    "lv": "Professores",
+    "level": "B2"
+  },
+  {
+    "de": "Mahd",
+    "de_article": "die",
+    "de_plural": "die Mahden",
+    "lv": "Pļauja",
+    "level": "B2"
+  },
+  {
+    "de": "Mähdrescher",
+    "de_article": "der",
+    "de_plural": "die Mähdrescher",
+    "lv": "Labības kombains",
+    "level": "B2"
+  },
+  {
+    "de": "Mahl",
+    "de_article": "das",
+    "de_plural": "die Mähler",
+    "lv": "Maltite • Mielasts",
+    "level": "B2"
+  },
+  {
+    "de": "mahnen",
+    "lv": "Atgadinat",
+    "level": "B2"
+  },
+  {
+    "de": "Mahnschreiben",
+    "de_article": "das",
+    "lv": "Atgadinajums",
+    "level": "B2"
+  },
+  {
+    "de": "Manifest",
+    "de_article": "das",
+    "de_plural": "die Manifeste",
+    "lv": "Manifestos",
+    "level": "B2"
+  },
+  {
+    "de": "manipulieren",
+    "lv": "Manipular",
+    "level": "B2"
+  },
+  {
+    "de": "Manuskript",
+    "de_article": "das",
+    "de_plural": "die Manuskripte",
+    "lv": "Manuscritos",
+    "level": "B2"
+  },
+  {
+    "de": "Marine",
+    "de_article": "die",
+    "de_plural": "die Marinen",
+    "lv": "Flutuador Jūras kara • Jūras ainava",
+    "level": "B2"
+  },
+  {
+    "de": "Mark",
+    "de_article": "das",
+    "de_plural": null,
+    "lv": "Kaulu smadzenes",
+    "level": "B2"
+  },
+  {
+    "de": "Marketing",
+    "de_article": "das",
+    "de_plural": null,
+    "lv": "Marketing • Tirgzinība",
+    "level": "B2"
+  },
+  {
+    "de": "Marktlücke",
+    "de_article": "die",
+    "de_plural": "die Marktlücken",
+    "lv": "Tirgus niša",
+    "level": "B2"
+  },
+  {
+    "de": "Marssonde",
+    "de_article": "die",
+    "de_plural": "die Marssonden",
+    "lv": "Sondas para Marte",
+    "level": "B2"
+  },
+  {
+    "de": "Marschall",
+    "de_article": "der",
+    "de_plural": "die Marschälle",
+    "lv": "Marechais",
+    "level": "B2"
+  },
+  {
+    "de": "Marxismus",
+    "de_article": "der",
+    "lv": "Marcasmos",
+    "level": "B2"
+  },
+  {
+    "de": "Maschinenbau",
+    "de_article": "der",
+    "lv": "Mašīnbūvniecība",
+    "level": "B2"
+  },
+  {
+    "de": "Maskenbildner",
+    "de_article": "der",
+    "de_plural": "die Maskenbildner",
+    "lv": "Profissionais ativos grimētājs a frizieris",
+    "level": "B2"
+  },
+  {
+    "de": "Massaker",
+    "de_article": "das",
+    "de_plural": "die Massaker",
+    "lv": "Aspirações",
+    "level": "B2"
+  },
+  {
+    "de": "Massenware",
+    "de_article": "die",
+    "lv": "Plaša patēriņa prece",
+    "level": "B2"
+  },
+  {
+    "de": "maßlos",
+    "lv": "Neizmērojams • Bezgalīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Materialismus",
+    "de_article": "der",
+    "lv": "Materialismos",
+    "level": "B2"
+  },
+  {
+    "de": "Matinée",
+    "de_article": "die",
+    "de_plural": "die Matinéen",
+    "lv": "Priekšpusdienas izrāde",
+    "level": "B2"
+  },
+  {
+    "de": "mechanisieren",
+    "lv": "Mehanizet",
+    "level": "B2"
+  },
+  {
+    "de": "Meerbusen",
+    "de_article": "der",
+    "de_plural": "die Meerbusen",
+    "lv": "Juras licis",
+    "level": "B2"
+  },
+  {
+    "de": "Meerenge",
+    "de_article": "die",
+    "de_plural": "die Meerengen",
+    "lv": "Juras šaurums",
+    "level": "B2"
+  },
+  {
+    "de": "Meeresspiegel",
+    "de_article": "der",
+    "de_plural": "die Meeresspiegel",
+    "lv": "Juras limenis",
+    "level": "B2"
+  },
+  {
+    "de": "mehren",
+    "lv": "Vairot",
+    "level": "B2"
+  },
+  {
+    "de": "meiden",
+    "lv": "Voorkomen",
+    "level": "B2"
+  },
+  {
+    "de": "Meisterwerk",
+    "de_article": "das",
+    "de_plural": "die Meisterwerke",
+    "lv": "Meistadarbos",
+    "level": "B2"
+  },
+  {
+    "de": "Meldefrist",
+    "de_article": "die",
+    "de_plural": "die Meldefristen",
+    "lv": "Termiņš de Pieteikšanās",
+    "level": "B2"
+  },
+  {
+    "de": "menschenscheu",
+    "lv": "Riscos imprudentes • Bikls",
+    "level": "B2"
+  },
+  {
+    "de": "merklich",
+    "lv": "Manams",
+    "level": "B2"
+  },
+  {
+    "de": "meutern",
+    "lv": "Dumpotes • Sacelties",
+    "level": "B2"
+  },
+  {
+    "de": "Mieder",
+    "de_article": "das",
+    "de_plural": "die Mieder",
+    "lv": "Stīvdrēbes josta • Ņieburs",
+    "level": "B2"
+  },
+  {
+    "de": "Miederwaren",
+    "de_article": "die",
+    "lv": "Korsetes • Krūšturi",
+    "level": "B2"
+  },
+  {
+    "de": "Mikrofilm",
+    "de_article": "der",
+    "de_plural": "die Mikrofilme",
+    "lv": "Microfilme",
+    "level": "B2"
+  },
+  {
+    "de": "Milbe",
+    "de_article": "die",
+    "de_plural": "die Milben",
+    "lv": "Ērce",
+    "level": "B2"
+  },
+  {
+    "de": "Hausstaubmilbe",
+    "de_article": "die",
+    "de_plural": "die Hausstaubmilben",
+    "lv": "Putekļu ērcīte",
+    "level": "B2"
+  },
+  {
+    "de": "mildern",
+    "lv": "Remdinat sapes • Mīkstināt spriedumu",
+    "level": "B2"
+  },
+  {
+    "de": "militant",
+    "lv": "Kareivīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Militär",
+    "de_article": "das",
+    "lv": "Karaspeks • Armija",
+    "level": "B2"
+  },
+  {
+    "de": "Militärdienst",
+    "de_article": "der",
+    "de_plural": "die Militärdienste",
+    "lv": "Karadienestos",
+    "level": "B2"
+  },
+  {
+    "de": "militärfrei",
+    "lv": "Não se preocupe com dienstplicht",
+    "level": "B2"
+  },
+  {
+    "de": "minder",
+    "lv": "Mazaks • Mazaks",
+    "level": "B2"
+  },
+  {
+    "de": "Minderung",
+    "de_article": "die",
+    "de_plural": "die Minderungen",
+    "lv": "Mazināšanas",
+    "level": "B2"
+  },
+  {
+    "de": "minderwertig",
+    "lv": "Mazvērtīgs",
+    "level": "B2"
+  },
+  {
+    "de": "missachten",
+    "lv": "Neievērot",
+    "level": "B2"
+  },
+  {
+    "de": "missbilligen",
+    "lv": "Puro por labu • Nopelt",
+    "level": "B2"
+  },
+  {
+    "de": "missbrauchen",
+    "lv": "Ļaunprātīgi izmantot",
+    "level": "B2"
+  },
+  {
+    "de": "missfallen",
+    "lv": "Nepalês",
+    "level": "B2"
+  },
+  {
+    "de": "missglücken",
+    "lv": "Neveikties • Neizdoties",
+    "level": "B2"
+  },
+  {
+    "de": "missgönnen",
+    "lv": "Nenovēlēt • Skaust",
+    "level": "B2"
+  },
+  {
+    "de": "misstrauen",
+    "lv": "Neuzticēties",
+    "level": "B2"
+  },
+  {
+    "de": "mitschuldig",
+    "lv": "Līdzvainīgs",
+    "level": "B2"
+  },
+  {
+    "de": "mittels",
+    "lv": "Ar kaut kā palīdzību",
+    "level": "B2"
+  },
+  {
+    "de": "Mittelsmann",
+    "de_article": "der",
+    "de_plural": "die Mittelsmänner",
+    "lv": "Starpnieks starp pretiniekiem vão como casal",
+    "level": "B2"
+  },
+  {
+    "de": "mitwirken",
+    "lv": "Meedoen • Mesmo optreden",
+    "level": "B2"
+  },
+  {
+    "de": "Mitwisser",
+    "de_article": "der",
+    "de_plural": "die Mitwisser",
+    "lv": "Līdzinātājs",
+    "level": "B2"
+  },
+  {
+    "de": "mobilisieren",
+    "lv": "Mobilizar",
+    "level": "B2"
+  },
+  {
+    "de": "moderieren",
+    "lv": "Moderado",
+    "level": "B2"
+  },
+  {
+    "de": "Moment",
+    "de_article": "das",
+    "de_plural": "die Momente",
+    "lv": "Izšķirošais apstāklis ​​​​​​​​ • Fatores",
+    "level": "B2"
+  },
+  {
+    "de": "Monatsschrift",
+    "de_article": "die",
+    "lv": "Mēnešraksts",
+    "level": "B2",
+    "de_plural": "die Monatsschriften"
+  },
+  {
+    "de": "Müllentsorgung",
+    "de_article": "die",
+    "de_plural": "die Müllentsorgungen",
+    "lv": "Atkritumu iznīcināšana",
+    "level": "B2"
+  },
+  {
+    "de": "Atommüll",
+    "de_article": "der",
+    "lv": "Radioaktīvie atkritumi",
+    "level": "B2"
+  },
+  {
+    "de": "mulmig",
+    "lv": "Neomulīgs • Nedrošs • Bailīgs",
+    "level": "B2"
+  },
+  {
+    "de": "münden",
+    "lv": "Ietecēt • Ieplūst • Iziet • Izbeigties",
+    "level": "B2"
+  },
+  {
+    "de": "Muße",
+    "de_article": "die",
+    "lv": "Brīvs laiks • Vaļas brīdis",
+    "level": "B2"
+  },
+  {
+    "de": "müßig",
+    "lv": "Bezdarbīgs • Diks",
+    "level": "B2"
+  },
+  {
+    "de": "mutieren",
+    "lv": "Falado",
+    "level": "B2"
+  },
+  {
+    "de": "Mystik",
+    "de_article": "die",
+    "de_plural": "die Mystiken",
+    "lv": "Misticismo",
+    "level": "B2"
+  },
+  {
+    "de": "Nabelschnur",
+    "de_article": "die",
+    "de_plural": "die Nabelschnüre",
+    "lv": "Nabas saite",
+    "level": "B2"
+  },
+  {
+    "de": "Nachbildung",
+    "de_article": "die",
+    "de_plural": "die Nachbildungen",
+    "lv": "Atdarinajums • Imitācija",
+    "level": "B2"
+  },
+  {
+    "de": "Nachdruck",
+    "de_article": "der",
+    "de_plural": "die Nachdrucke",
+    "lv": "Uzsvērums",
+    "level": "B2",
+    "study": {
+      "id": "b2-nachdruck",
+      "layout": "standardStudy",
+      "translation": "Uzsvērums • Atkārtots izdevums",
+      "explanation": [
+        "Adestramento Galvenā: der Nachdruck var nozīmēt uzsvērumu vai gāmatas atkārtotu izdevumu.",
+        "Nachdruck auf etwas legen = likt uzsvērumu uz kaut ko, uzstāt uz kaut ko.",
+        "Der Nachdruck eines Buches = grāmatas atkārtots izdevums (reimpressão).",
+        "Konteksts (darījumi/pārrunas vai izdevniecība) nosaka pareizo nozīmi."
+      ],
+      "examples": [
+        {
+          "de": "Er legt Nachdruck auf die Frist.",
+          "lv": "Viņš uzsver termiņu."
+        },
+        {
+          "de": "Mit Nachdruck forderte sie eine Antwort.",
+          "lv": "Viņa uzstājīgi pieprasīja atbildi."
+        },
+        {
+          "de": "Der Nachdruck des Romans erschien im Frühjahr.",
+          "lv": "Romana atkārtotais izdevums iznāca pavasarī."
+        },
+        {
+          "de": "Dieses Buch ist bereits im Nachdruck.",
+          "lv": "Šī gramata jau ir atkārtotā izdevumā."
+        },
+        {
+          "de": "Der Verlag plant einen Nachdruck.",
+          "lv": "Izdevējs plano atkārtotu izdevumu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Nachdruck legen auf",
+          "meaning": "Uzsvērt, uzstat",
+          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
+        },
+        {
+          "word": "der Nachdruck (Buch)",
+          "meaning": "Atkartots izdevums",
+          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
+        },
+        {
+          "word": "der Druck",
+          "meaning": "Spiediens/druka",
+          "example": "Unter Druck stehen = Mas espiedienā."
+        }
+      ],
+      "tip": [
+        "Pārrunās un prasībās: Nachdruck = uzsvērums.",
+        "Izdevniecībā un grāmatās: Nachdruck = atkārtots izdevums."
+      ],
+      "important": [
+        "Nachdruck auf etwas legen = likt uzsvērumu.",
+        "der Nachdruck eines Buches = atkārtots izdevums."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Nachdruck"
+          ],
+          "purple": [
+            "uzsvērumu",
+            "atkārtots izdevums"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzsver"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzstājīgi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atkārtotais izdevums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atkārtotā izdevumā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Nachdruck"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atkārtotu izdevumu"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "nachdrücklich",
+    "lv": "Uzsvērts • Sparīgs • Pārliecinošs • Sparīgi • Pārliecinoši",
+    "level": "B2"
+  },
+  {
+    "de": "nachgehen",
+    "lv": "Sekot • Noskaidrot",
+    "level": "B2"
+  },
+  {
+    "de": "nachgiebig",
+    "lv": "Piekapigs",
+    "level": "B2"
+  },
+  {
+    "de": "Nachlass",
+    "de_article": "der",
+    "de_plural": "die Nachlasse",
+    "lv": "Mantojums",
+    "level": "B2"
+  },
+  {
+    "de": "Nachruf",
+    "de_article": "der",
+    "de_plural": "die Nachrufe",
+    "lv": "Obituários",
+    "level": "B2"
+  },
+  {
+    "de": "Nachsicht",
+    "de_article": "die",
+    "lv": "Iecietība • Sapratne",
+    "level": "B2"
+  },
+  {
+    "de": "nachsitzen",
+    "lv": "Skolā palikt pēc stundām par sodu",
+    "level": "B2"
+  },
+  {
+    "de": "nachträglich",
+    "lv": "Vēlāks • Papildu • Vēlāk • Piedevām",
+    "level": "B2"
+  },
+  {
+    "de": "Nachweis",
+    "de_article": "der",
+    "de_plural": "die Nachweise",
+    "lv": "Pierādījums",
+    "level": "B2"
+  },
+  {
+    "de": "Nachwort",
+    "de_article": "das",
+    "de_plural": "die Nachworte",
+    "lv": "Nawoord • Epílogo",
+    "level": "B2"
+  },
+  {
+    "de": "Nährboden",
+    "de_article": "der",
+    "de_plural": "die Nährböden",
+    "lv": "Baroto",
+    "level": "B2"
+  },
+  {
+    "de": "namens",
+    "lv": "Varda • Uzvarda",
+    "level": "B2"
+  },
+  {
+    "de": "Namensvetter",
+    "de_article": "der",
+    "de_plural": "die Namensvettern",
+    "lv": "Vardabrālis",
+    "level": "B2"
+  },
+  {
+    "de": "Narkosearzt",
+    "de_article": "der",
+    "de_plural": "die Narkoseärzte",
+    "lv": "Primeiros anestesiologistas",
+    "level": "B2"
+  },
+  {
+    "de": "Teilnarkose",
+    "de_article": "die",
+    "de_plural": "die Teilnarkosen",
+    "lv": "Daļēja narkoze",
+    "level": "B2"
+  },
+  {
+    "de": "Vollnarkose",
+    "de_article": "die",
+    "de_plural": "die Vollnarkosen",
+    "lv": "Pilna Narkoze",
+    "level": "B2"
+  },
+  {
+    "de": "Naturgewalten",
+    "de_article": "die",
+    "lv": "Dabas spēki",
+    "level": "B2"
+  },
+  {
+    "de": "Nebelschwaden",
+    "de_article": "der",
+    "de_plural": "die Nebelschwaden",
+    "lv": "Miglas vals",
+    "level": "B2"
+  },
+  {
+    "de": "Nebenprodukt",
+    "de_article": "das",
+    "de_plural": "die Nebenprodukte",
+    "lv": "Produtos Blakus",
+    "level": "B2"
+  },
+  {
+    "de": "Neger",
+    "de_article": "der",
+    "de_plural": "die Neger",
+    "lv": "Néris",
+    "level": "B2"
+  },
+  {
+    "de": "Nenner",
+    "de_article": "der",
+    "de_plural": "die Nenner",
+    "lv": "Molhos",
+    "level": "B2"
+  },
+  {
+    "de": "Nervenarzt",
+    "de_article": "der",
+    "de_plural": "die Nervenärzte",
+    "lv": "Primeiros nervos slimībās",
+    "level": "B2"
+  },
+  {
+    "de": "Nesselfieber",
+    "de_article": "das",
+    "lv": "Natreno",
+    "level": "B2"
+  },
+  {
+    "de": "Neuauflage",
+    "de_article": "die",
+    "de_plural": "die Neuauflagen",
+    "lv": "Atkārtots • Pārstrādāts izdevums",
+    "level": "B2"
+  },
+  {
+    "de": "neuerdings",
+    "lv": "Nesen • Šais dienās • No jauna • Atkal",
+    "level": "B2"
+  },
+  {
+    "de": "Neuerer",
+    "de_article": "der",
+    "de_plural": "die Neuerer",
+    "lv": "Inovadores",
+    "level": "B2"
+  },
+  {
+    "de": "Neuerscheinung",
+    "de_article": "die",
+    "de_plural": "die Neuerscheinungen",
+    "lv": "Jaunums • Jauns izdevums",
+    "level": "B2"
+  },
+  {
+    "de": "Neuerung",
+    "de_article": "die",
+    "de_plural": "die Neuerungen",
+    "lv": "Jauninājums",
+    "level": "B2"
+  },
+  {
+    "de": "Neutralität",
+    "de_article": "die",
+    "de_plural": "die Neutralitäten",
+    "lv": "Negar",
+    "level": "B2"
+  },
+  {
+    "de": "Nichtbeachtung",
+    "de_article": "die",
+    "de_plural": "die Nichtbeachtungen",
+    "lv": "Neievērošana • Ignorēšana",
+    "level": "B2"
+  },
+  {
+    "de": "nichtig",
+    "lv": "Nederīgs • Anulēts • Niecīgs • Nenozīmīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Niedergang",
+    "de_article": "der",
+    "de_plural": "die Niedergänge",
+    "lv": "Riets • Pagrimums • Pagrimšana",
+    "level": "B2"
+  },
+  {
+    "de": "niederlegen",
+    "lv": "Nolikt • Pārtraukt darbu • Sākt streikot",
+    "level": "B2"
+  },
+  {
+    "de": "Niederschlag",
+    "de_article": "der",
+    "de_plural": "die Niederschläge",
+    "lv": "Nogulsnes • Nokrišņi",
+    "level": "B2"
+  },
+  {
+    "de": "Niedertracht",
+    "de_article": "die",
+    "lv": "Zemiskums",
+    "level": "B2"
+  },
+  {
+    "de": "nimmermehr",
+    "lv": "Nekad vairs",
+    "level": "B2"
+  },
+  {
+    "de": "nominieren",
+    "lv": "Nomeado",
+    "level": "B2"
+  },
+  {
+    "de": "normieren",
+    "lv": "Regra",
+    "level": "B2"
+  },
+  {
+    "de": "nötigenfalls",
+    "lv": "Vajadzības gadījumā",
+    "level": "B2"
+  },
+  {
+    "de": "Notstand",
+    "de_article": "der",
+    "de_plural": "die Notstände",
+    "lv": "Katastrofāls stāvoklis • Izņēmuma stāvoklis",
+    "level": "B2"
+  },
+  {
+    "de": "Notwehr",
+    "de_article": "die",
+    "lv": "Nepieciešamā aizsargāšanas",
+    "level": "B2"
+  },
+  {
+    "de": "Nutzeffekt",
+    "de_article": "der",
+    "de_plural": "die Nutzeffekte",
+    "lv": "Coeficientes de Lietderibas",
+    "level": "B2"
+  },
+  {
+    "de": "Nutzholz",
+    "de_article": "das",
+    "de_plural": "die Nutzhölzer",
+    "lv": "Lietaskoki",
+    "level": "B2"
+  },
+  {
+    "de": "Oberhand",
+    "de_article": "die",
+    "de_plural": null,
+    "lv": "Virsroka",
+    "level": "B2"
+  },
+  {
+    "de": "Oberst",
+    "de_article": "der",
+    "de_plural": "die Oberste",
+    "lv": "Pulkvedis",
+    "level": "B2"
+  },
+  {
+    "de": "obgleich",
+    "lv": "Kaut gan, lai gan",
+    "level": "B2"
+  },
+  {
+    "de": "Obhut",
+    "de_article": "die",
+    "lv": "Aizsardziba",
+    "level": "B2"
+  },
+  {
+    "de": "Oboe",
+    "de_article": "die",
+    "de_plural": "die Oboen",
+    "lv": "Oboja",
+    "level": "B2"
+  },
+  {
+    "de": "observieren",
+    "lv": "Izsekot • Novērot",
+    "level": "B2"
+  },
+  {
+    "de": "Obstbau",
+    "de_article": "der",
+    "lv": "Frutado",
+    "level": "B2"
+  },
+  {
+    "de": "Offenbarung",
+    "de_article": "die",
+    "de_plural": "die Offenbarungen",
+    "lv": "Atklasme",
+    "level": "B2"
+  },
+  {
+    "de": "offenherzig",
+    "lv": "Vaļsirdīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Ökobauer",
+    "de_article": "der",
+    "de_plural": "die Ökobauern",
+    "lv": "Zemnieks, kas ražo ekoloģiski tīru lauksaimniecības produkciju",
+    "level": "B2"
+  },
+  {
+    "de": "Ökosystem",
+    "de_article": "das",
+    "de_plural": "die Ökosysteme",
+    "lv": "Ecossistema",
+    "level": "B2"
+  },
+  {
+    "de": "Ölbohrung",
+    "de_article": "die",
+    "de_plural": "die Ölbohrungen",
+    "lv": "Cidades Urbanas do NAFTA",
+    "level": "B2"
+  },
+  {
+    "de": "Ölgewinnung",
+    "de_article": "die",
+    "de_plural": "die Ölgewinnungen",
+    "lv": "Igual do NAFTA",
+    "level": "B2"
+  },
+  {
+    "de": "Ölraffinerie",
+    "de_article": "die",
+    "de_plural": "die Ölraffinerien",
+    "lv": "Naftas Rafinērija",
+    "level": "B2"
+  },
+  {
+    "de": "Ölpest",
+    "de_article": "die",
+    "lv": "Ūdens a piekrastes piesārņojums ar naftu",
+    "level": "B2"
+  },
+  {
+    "de": "Ölpflanze",
+    "de_article": "die",
+    "de_plural": "die Ölpflanzen",
+    "lv": "Eļļas agosto",
+    "level": "B2"
+  },
+  {
+    "de": "Olympiasieger",
+    "de_article": "der",
+    "de_plural": "die Olympiasieger",
+    "lv": "Jogos Olímpicos Uzvarētājs",
+    "level": "B2"
+  },
+  {
+    "de": "Operator",
+    "de_article": "der",
+    "de_plural": "die Operatoren",
+    "lv": "Especialistas em apkalpes Lieludatoru",
+    "level": "B2"
+  },
+  {
+    "de": "Opposition",
+    "de_article": "die",
+    "de_plural": "die Oppositionen",
+    "lv": "Opozīcija",
+    "level": "B2"
+  },
+  {
+    "de": "Order",
+    "de_article": "die",
+    "de_plural": "die Orders",
+    "lv": "Rīkojums • Pavēle ​​​​​​​​ • Uzdevums",
+    "level": "B2"
+  },
+  {
+    "de": "Organempfänger",
+    "de_article": "der",
+    "de_plural": "die Organempfänger",
+    "lv": "Transplante de órgãos Saņēmējs",
+    "level": "B2"
+  },
+  {
+    "de": "Organentnahme",
+    "de_article": "die",
+    "de_plural": "die Organentnahmen",
+    "lv": "Organa izņemšana",
+    "level": "B2"
+  },
+  {
+    "de": "Organspende",
+    "de_article": "die",
+    "de_plural": "die Organspenden",
+    "lv": "Organa dosana transplantācijai",
+    "level": "B2"
+  },
+  {
+    "de": "Organist",
+    "de_article": "der",
+    "de_plural": "die Organisten",
+    "lv": "Ērģelnieks",
+    "level": "B2"
+  },
+  {
+    "de": "Orgasmus",
+    "de_article": "der",
+    "de_plural": "die Orgasmen",
+    "lv": "Orgasmos",
+    "level": "B2"
+  },
+  {
+    "de": "orientalisch",
+    "lv": "Oriental • Austrumniecisk • Austrumu",
+    "level": "B2"
+  },
+  {
+    "de": "orten",
+    "lv": "Localize o instrumento palīdzību",
+    "level": "B2"
+  },
+  {
+    "de": "Ortszeit",
+    "de_article": "die",
+    "lv": "Laiks vietnamitas",
+    "level": "B2"
+  },
+  {
+    "de": "sich paaren",
+    "lv": "Paródias são",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-paaren",
+      "layout": "minimalStudy",
+      "translation": "Paródias são",
+      "rektion": "mit + kam?",
+      "explanation": "Sich paaren nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich paaren"
+          ],
+          "red": [
+            "mit + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Pacht",
+    "de_article": "die",
+    "de_plural": "die Pachten",
+    "lv": "Nome",
+    "level": "B2"
+  },
+  {
+    "de": "Pachtvertrag",
+    "de_article": "der",
+    "de_plural": "die Pachtverträge",
+    "lv": "Nomas ligums",
+    "level": "B2"
+  },
+  {
+    "de": "pachten",
+    "lv": "Nomat",
+    "level": "B2"
+  },
+  {
+    "de": "Palmsonntag",
+    "de_article": "der",
+    "de_plural": "die Palmsonntage",
+    "lv": "Svētdiena pirms Lieldienām • Pūpolsvētdiena",
+    "level": "B2"
+  },
+  {
+    "de": "Panzerglas",
+    "de_article": "das",
+    "de_plural": "die Panzergläser",
+    "lv": "Bruņustikls",
+    "level": "B2"
+  },
+  {
+    "de": "Panzerschrank",
+    "de_article": "der",
+    "de_plural": "die Panzerschränke",
+    "lv": "Seifs • Dzelzs skapis",
+    "level": "B2"
+  },
+  {
+    "de": "Parole",
+    "de_article": "die",
+    "de_plural": "die Parolen",
+    "lv": "Palavras • Lozungs",
+    "level": "B2"
+  },
+  {
+    "de": "Parteibuch",
+    "de_article": "das",
+    "de_plural": "die Parteibücher",
+    "lv": "Carde Biedra Partijas",
+    "level": "B2"
+  },
+  {
+    "de": "parteiisch",
+    "lv": "Neometas",
+    "level": "B2"
+  },
+  {
+    "de": "parteilich",
+    "lv": "Partijiscos • Partijas",
+    "level": "B2"
+  },
+  {
+    "de": "parteilos",
+    "lv": "Bezpartijisks",
+    "level": "B2"
+  },
+  {
+    "de": "Parteimitglied",
+    "de_article": "das",
+    "de_plural": "die Parteimitglieder",
+    "lv": "Peças biedr",
+    "level": "B2"
+  },
+  {
+    "de": "Parteitag",
+    "de_article": "der",
+    "de_plural": "die Parteitage",
+    "lv": "Conferência do partido",
+    "level": "B2"
+  },
+  {
+    "de": "Partikel",
+    "de_article": "das",
+    "de_plural": "die Partikel",
+    "lv": "Deeltje • Granan",
+    "level": "B2"
+  },
+  {
+    "de": "Pater",
+    "de_article": "der",
+    "de_plural": "die Patres",
+    "lv": "Katoļu sacerdotis • Piederīgs kādam Ordenim",
+    "level": "B2"
+  },
+  {
+    "de": "Peepshow",
+    "de_article": "die",
+    "de_plural": "die Peepshows",
+    "lv": "Programa erótico, sem skatās atsevišķi caur lodziņu",
+    "level": "B2"
+  },
+  {
+    "de": "Pegel",
+    "de_article": "der",
+    "de_plural": "die Pegel",
+    "lv": "Уdens limenis",
+    "level": "B2"
+  },
+  {
+    "de": "Pendelverkehr",
+    "de_article": "der",
+    "de_plural": "die Pendelverkehre",
+    "lv": "Vietējā piepilsētas satiksme",
+    "level": "B2"
+  },
+  {
+    "de": "penibel",
+    "lv": "Pedântica",
+    "level": "B2"
+  },
+  {
+    "de": "Penis",
+    "de_article": "der",
+    "de_plural": "die Penisse",
+    "lv": "Pênis",
+    "level": "B2"
+  },
+  {
+    "de": "Personalakte",
+    "de_article": "die",
+    "de_plural": "die Personalakten",
+    "lv": "Pessoas felizes",
+    "level": "B2"
+  },
+  {
+    "de": "Pfahlbau",
+    "de_article": "der",
+    "lv": "Pāļu būve",
+    "level": "B2"
+  },
+  {
+    "de": "pfänden",
+    "lv": "Aprakstīt mantu • Apķīlāt",
+    "level": "B2"
+  },
+  {
+    "de": "Pfandschein",
+    "de_article": "der",
+    "de_plural": "die Pfandscheine",
+    "lv": "Ķīlu zīme",
+    "level": "B2"
+  },
+  {
+    "de": "Pflichtbesuch",
+    "de_article": "der",
+    "de_plural": "die Pflichtbesuche",
+    "lv": "Pieklājības vizīte",
+    "level": "B2"
+  },
+  {
+    "de": "pfuschen",
+    "lv": "Slikti • Neprasmīgi • Pavirši strādāt",
+    "level": "B2"
+  },
+  {
+    "de": "Philologie",
+    "de_article": "die",
+    "de_plural": "die Philologien",
+    "lv": "Filologia",
+    "level": "B2"
+  },
+  {
+    "de": "Philosophie",
+    "de_article": "die",
+    "de_plural": "die Philosophien",
+    "lv": "Filozofija",
+    "level": "B2"
+  },
+  {
+    "de": "Pieper",
+    "de_article": "der",
+    "de_plural": "die Pieper",
+    "lv": "Peidžeris",
+    "level": "B2"
+  },
+  {
+    "de": "pikiert",
+    "lv": "Aizvainots • Aizskarts • Sašutis",
+    "level": "B2"
+  },
+  {
+    "de": "Pilotfilm",
+    "de_article": "der",
+    "de_plural": "die Pilotfilme",
+    "lv": "Seriala Ievadfilma",
+    "level": "B2"
+  },
+  {
+    "de": "Pilotprojekt",
+    "de_article": "das",
+    "de_plural": "die Pilotprojekte",
+    "lv": "Projetos piloto",
+    "level": "B2"
+  },
+  {
+    "de": "Pilotsendung",
+    "de_article": "die",
+    "de_plural": "die Pilotsendungen",
+    "lv": "Sērijas ievadraidījums",
+    "level": "B2"
+  },
+  {
+    "de": "Pilotstudie",
+    "de_article": "die",
+    "de_plural": "die Pilotstudien",
+    "lv": "Pētījumu serijas ievads",
+    "level": "B2"
+  },
+  {
+    "de": "Plädoyer",
+    "de_article": "das",
+    "de_plural": "die Plädoyers",
+    "lv": "Prokurora vai advokāta runa tiesā",
+    "level": "B2"
+  },
+  {
+    "de": "Plateau",
+    "de_article": "das",
+    "de_plural": "die Plateaus",
+    "lv": "Vlakke Heuvel",
+    "level": "B2"
+  },
+  {
+    "de": "Poltergeist",
+    "de_article": "der",
+    "de_plural": "die Poltergeister",
+    "lv": "Duendes",
+    "level": "B2"
+  },
+  {
+    "de": "Porno",
+    "de_article": "der",
+    "lv": "Pornografia saturos darbs",
+    "level": "B2"
+  },
+  {
+    "de": "porös",
+    "lv": "Porões",
+    "level": "B2"
+  },
+  {
+    "de": "Posse",
+    "de_article": "die",
+    "de_plural": "die Possen",
+    "lv": "Farss • Joku luga • Piadas de Rupjš",
+    "level": "B2"
+  },
+  {
+    "de": "Possen",
+    "de_article": "der",
+    "de_plural": "die Possen",
+    "lv": "Farss • Joku luga • Piadas de Rupjš",
+    "level": "B2"
+  },
+  {
+    "de": "postlagernd",
+    "lv": "Pēc pieprasījuma",
+    "level": "B2"
+  },
+  {
+    "de": "prägen",
+    "lv": "Kalt naudu • Iespiest • Uzspiest • Veidot • Darinat",
+    "level": "B2"
+  },
+  {
+    "de": "prägnant",
+    "lv": "Dicas de Spilgti",
+    "level": "B2"
+  },
+  {
+    "de": "prahlen",
+    "lv": "Mentiras",
+    "level": "B2"
+  },
+  {
+    "de": "prämieren",
+    "lv": "Premēt",
+    "level": "B2"
+  },
+  {
+    "de": "Präsidium",
+    "de_article": "das",
+    "de_plural": "die Präsidien",
+    "lv": "Prezidijs",
+    "level": "B2"
+  },
+  {
+    "de": "predigen",
+    "lv": "Prever",
+    "level": "B2"
+  },
+  {
+    "de": "Preisträger",
+    "de_article": "der",
+    "de_plural": "die Preisträger",
+    "lv": "Godalgas ieguvējs • Laureāts",
+    "level": "B2"
+  },
+  {
+    "de": "Presseagentur",
+    "de_article": "die",
+    "de_plural": "die Presseagenturen",
+    "lv": "Preses aģentūra",
+    "level": "B2"
+  },
+  {
+    "de": "Pressesprecher",
+    "de_article": "der",
+    "de_plural": "die Pressesprecher",
+    "lv": "Prensas secretas",
+    "level": "B2"
+  },
+  {
+    "de": "Propaganda",
+    "de_article": "die",
+    "de_plural": null,
+    "lv": "Propaganda",
+    "level": "B2"
+  },
+  {
+    "de": "propagieren",
+    "lv": "Propaganda",
+    "level": "B2"
+  },
+  {
+    "de": "Prostitution",
+    "de_article": "die",
+    "de_plural": "die Prostitutionen",
+    "lv": "Prostituta",
+    "level": "B2"
+  },
+  {
+    "de": "provisorisch",
+    "lv": "Provizoriscos • Pagaidu • Uz laiku",
+    "level": "B2"
+  },
+  {
+    "de": "PS",
+    "de_article": "das",
+    "de_plural": "die PS",
+    "lv": "Zirgspēks",
+    "level": "B2"
+  },
+  {
+    "de": "Psychoterror",
+    "de_article": "der",
+    "lv": "Psicoterres",
+    "level": "B2"
+  },
+  {
+    "de": "Putsch",
+    "de_article": "der",
+    "de_plural": "die Putsche",
+    "lv": "Pučs",
+    "level": "B2"
+  },
+  {
+    "de": "qualifizieren",
+    "lv": "Qualificado",
+    "level": "B2"
+  },
+  {
+    "de": "Quantität",
+    "de_article": "die",
+    "de_plural": "die Quantitäten",
+    "lv": "Kvantitate • Daudzums",
+    "level": "B2"
+  },
+  {
+    "de": "quellen",
+    "lv": "Izplūst • Iztecēt • Izmirkt • Piemirkt • Piebriest",
+    "level": "B2"
+  },
+  {
+    "de": "querüber",
+    "lv": "Tegenovergestelde",
+    "level": "B2"
+  },
+  {
+    "de": "quittieren",
+    "lv": "Parakstīties par saņemšanu",
+    "level": "B2"
+  },
+  {
+    "de": "Quote",
+    "de_article": "die",
+    "de_plural": "die Quoten",
+    "lv": "Voto",
+    "level": "B2"
+  },
+  {
+    "de": "Rabbiner",
+    "de_article": "der",
+    "de_plural": "die Rabbiner",
+    "lv": "Rabinos",
+    "level": "B2"
+  },
+  {
+    "de": "Radierung",
+    "de_article": "die",
+    "de_plural": "die Radierungen",
+    "lv": "Asējums • Oportunidades",
+    "level": "B2"
+  },
+  {
+    "de": "Radioaktivität",
+    "de_article": "die",
+    "lv": "Radioatividade",
+    "level": "B2"
+  },
+  {
+    "de": "Radiobastler",
+    "de_article": "der",
+    "de_plural": "die Radiobastler",
+    "lv": "Radioamadores",
+    "level": "B2"
+  },
+  {
+    "de": "raffiniert",
+    "lv": "Rafinēts • Viltīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Rain",
+    "de_article": "der",
+    "de_plural": "die Raine",
+    "lv": "Eza",
+    "level": "B2"
+  },
+  {
+    "de": "ranzig",
+    "lv": "Sasmacis • Rūgtens par krējumu • Taukiem • Sviestu",
+    "level": "B2"
+  },
+  {
+    "de": "rau",
+    "lv": "Nelīdzens • Raupjš • Rupjš • Aizsmacis • Skarbs • Nelaipns • Neapstrādāts",
+    "level": "B2"
+  },
+  {
+    "de": "Rauchwaren",
+    "de_article": "die",
+    "lv": "Kažokādas • Kažokādu izstrādājumi",
+    "level": "B2"
+  },
+  {
+    "de": "Raumflug",
+    "de_article": "der",
+    "de_plural": "die Raumflüge",
+    "lv": "Lidojums kosmosā • Kosmiskais starpplanētu lidojums",
+    "level": "B2"
+  },
+  {
+    "de": "Rauminhalt",
+    "de_article": "der",
+    "de_plural": "die Rauminhalte",
+    "lv": "Volume",
+    "level": "B2"
+  },
+  {
+    "de": "Realismus",
+    "de_article": "der",
+    "lv": "Realismos",
+    "level": "B2"
+  },
+  {
+    "de": "rechtlos",
+    "lv": "Beztiesīgs",
+    "level": "B2"
+  },
+  {
+    "de": "rechtmäßig",
+    "lv": "Likumigs",
+    "level": "B2"
+  },
+  {
+    "de": "Rechtsberater",
+    "de_article": "der",
+    "de_plural": "die Rechtsberater",
+    "lv": "Consultas Jurídicas",
+    "level": "B2"
+  },
+  {
+    "de": "rechtsfähig",
+    "lv": "Tiesībspējīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Rechtsstaat",
+    "de_article": "der",
+    "de_plural": "die Rechtsstaaten",
+    "lv": "Valsa Tiesiska",
+    "level": "B2"
+  },
+  {
+    "de": "recken",
+    "lv": "Stiept • Staipīt • Stiepties • Staipītities",
+    "level": "B2"
+  },
+  {
+    "de": "Redefreiheit",
+    "de_article": "die",
+    "de_plural": "die Redefreiheiten",
+    "lv": "Varda brīvība",
+    "level": "B2"
+  },
+  {
+    "de": "redigieren",
+    "lv": "Rediģēt",
+    "level": "B2"
+  },
+  {
+    "de": "redselig",
+    "lv": "Runīgs • Pļāpīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Referenz",
+    "de_article": "die",
+    "de_plural": "die Referenzen",
+    "lv": "Recomendações",
+    "level": "B2"
+  },
+  {
+    "de": "rege",
+    "lv": "Dzīvs • Rosīgs • Kustīgs • Darbīgs",
+    "level": "B2"
+  },
+  {
+    "de": "regellos",
+    "lv": "Neregulares",
+    "level": "B2"
+  },
+  {
+    "de": "Regelverstoß",
+    "de_article": "der",
+    "de_plural": "die Regelverstöße",
+    "lv": "Parkapums Noteikumu",
+    "level": "B2"
+  },
+  {
+    "de": "Regen",
+    "de_article": "der",
+    "de_plural": "die Regen",
+    "lv": "Nos deixa",
+    "level": "B2"
+  },
+  {
+    "de": "Regenfront",
+    "de_article": "die",
+    "de_plural": "die Regenfronten",
+    "lv": "Josla feliz",
+    "level": "B2"
+  },
+  {
+    "de": "Regung",
+    "de_article": "die",
+    "de_plural": "die Regungen",
+    "lv": "Kustība • Jūtu uzplūdums • Tieksme",
+    "level": "B2"
+  },
+  {
+    "de": "regungslos",
+    "lv": "Nekustigs",
+    "level": "B2"
+  },
+  {
+    "de": "Reich",
+    "de_article": "das",
+    "de_plural": "die Reiche",
+    "lv": "Impērija • Valsts",
+    "level": "B2"
+  },
+  {
+    "de": "Reifeprüfung",
+    "de_article": "die",
+    "de_plural": "die Reifeprüfungen",
+    "lv": "Gatavības parbaudījums",
+    "level": "B2"
+  },
+  {
+    "de": "Reifezeugnis",
+    "de_article": "das",
+    "de_plural": "die Reifezeugnisse",
+    "lv": "Gatavības apliecība",
+    "level": "B2"
+  },
+  {
+    "de": "reizbar",
+    "lv": "Ātri viegli aizkaitināms",
+    "level": "B2"
+  },
+  {
+    "de": "relevant",
+    "lv": "Nozīmīgs • Svarīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Relief",
+    "de_article": "das",
+    "de_plural": "die Reliefs",
+    "lv": "Reljefs",
+    "level": "B2"
+  },
+  {
+    "de": "rentabel",
+    "lv": "Aluguéis",
+    "level": "B2"
+  },
+  {
+    "de": "Resolution",
+    "de_article": "die",
+    "de_plural": "die Resolutionen",
+    "lv": "Rezolūcija",
+    "level": "B2"
+  },
+  {
+    "de": "sich revanchieren",
+    "lv": "Atmaksāt • Atributos",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-revanchieren",
+      "layout": "minimalStudy",
+      "translation": "Atmaksāt • Atributos",
+      "rektion": "bei + kam?",
+      "explanation": "Sich revanchieren veroist het bepaalde voorzetsel bei + kam?.",
+      "forms": "bei + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich revanchieren"
+          ],
+          "red": [
+            "bei + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Richtfest",
+    "de_article": "das",
+    "de_plural": "die Richtfeste",
+    "lv": "Spāru svētki",
+    "level": "B2"
+  },
+  {
+    "de": "Ringbahn",
+    "de_article": "die",
+    "de_plural": "die Ringbahnen",
+    "lv": "Loka dzelzceļš",
+    "level": "B2"
+  },
+  {
+    "de": "Ringelnatter",
+    "de_article": "die",
+    "de_plural": "die Ringelnattern",
+    "lv": "Zalktis",
+    "level": "B2"
+  },
+  {
+    "de": "Rivale",
+    "de_article": "der",
+    "de_plural": "die Rivalen",
+    "lv": "Sāncensis • Konkurents",
+    "level": "B2"
+  },
+  {
+    "de": "rivalisieren",
+    "lv": "Konkuret",
+    "level": "B2"
+  },
+  {
+    "de": "Rückfall",
+    "de_article": "der",
+    "de_plural": "die Rückfälle",
+    "lv": "Ofensores reincidentes",
+    "level": "B2"
+  },
+  {
+    "de": "Rückgang",
+    "de_article": "der",
+    "de_plural": "die Rückgänge",
+    "lv": "Panīkums • Atpakaļiešana • Samazināšanās",
+    "level": "B2"
+  },
+  {
+    "de": "Rückhalt",
+    "de_article": "der",
+    "de_plural": "die Rückhalte",
+    "lv": "Bálsamos • Atbalstos",
+    "level": "B2"
+  },
+  {
+    "de": "rücksichtslos",
+    "lv": "Neuzmanīgs • Rupjš • Nesaudzīgs",
+    "level": "B2"
+  },
+  {
+    "de": "rückständig",
+    "lv": "Atpalicis • Nokavēts par maksājumu",
+    "level": "B2"
+  },
+  {
+    "de": "Rücktritt",
+    "de_article": "der",
+    "de_plural": "die Rücktritte",
+    "lv": "Atkapšanas não amados",
+    "level": "B2"
+  },
+  {
+    "de": "Rüge",
+    "de_article": "die",
+    "de_plural": "die Rügen",
+    "lv": "Bariens • Rajiens",
+    "level": "B2"
+  },
+  {
+    "de": "rühmen",
+    "lv": "Slavēt • Slavināt • Lielīties • Dižoties ar kaut ko",
+    "level": "B2"
+  },
+  {
+    "de": "rührselig",
+    "lv": "Sentimental",
+    "level": "B2"
+  },
+  {
+    "de": "runzeln",
+    "lv": "Savilkt Grumbās • Saraukt Pieri",
+    "level": "B2"
+  },
+  {
+    "de": "Rüstung",
+    "de_article": "die",
+    "de_plural": "die Rüstungen",
+    "lv": "Bruņošanās • Bruņojums",
+    "level": "B2"
+  },
+  {
+    "de": "Sabotage",
+    "de_article": "die",
+    "de_plural": "die Sabotagen",
+    "lv": "Sabotaža",
+    "level": "B2"
+  },
+  {
+    "de": "Sachkenntnis",
+    "de_article": "die",
+    "de_plural": "die Sachkenntnisse",
+    "lv": "Lietpratība • Competição",
+    "level": "B2"
+  },
+  {
+    "de": "sachkundig",
+    "lv": "Lietpratīgs • Competentes",
+    "level": "B2"
+  },
+  {
+    "de": "Sachlage",
+    "de_article": "die",
+    "de_plural": "die Sachlagen",
+    "lv": "Stāvoklis • Apstākļi • Situācija",
+    "level": "B2"
+  },
+  {
+    "de": "sächlich",
+    "lv": "~es Geschlecht grama. • Nekatra dzimte",
+    "level": "B2"
+  },
+  {
+    "de": "Sägewerk",
+    "de_article": "das",
+    "de_plural": "die Sägewerke",
+    "lv": "Ciência",
+    "level": "B2"
+  },
+  {
+    "de": "Sämaschine",
+    "de_article": "die",
+    "de_plural": "die Sämaschinen",
+    "lv": "Sējmašīna",
+    "level": "B2"
+  },
+  {
+    "de": "sämtlich",
+    "lv": "Rostos [bez izņēmuma] • Pilnā sastāvā",
+    "level": "B2"
+  },
+  {
+    "de": "Sandbank",
+    "de_article": "die",
+    "de_plural": "die Sandbänke",
+    "lv": "Seklis",
+    "level": "B2"
+  },
+  {
+    "de": "sanieren",
+    "lv": "Izremontēt • Ek. aluguel rentável",
+    "level": "B2"
+  },
+  {
+    "de": "Sanitätsstelle",
+    "de_article": "die",
+    "de_plural": "die Sanitätsstellen",
+    "lv": "Pontos médicos",
+    "level": "B2"
+  },
+  {
+    "de": "Satellit",
+    "de_article": "der",
+    "de_plural": "die Satelliten",
+    "lv": "Pol Satélite. • Astr. pavadonis",
+    "level": "B2"
+  },
+  {
+    "de": "sättigen",
+    "lv": "[labi] paēdināt • Mielot • Ķīm. piesatinat",
+    "level": "B2"
+  },
+  {
+    "de": "Satzung",
+    "de_article": "die",
+    "de_plural": "die Satzungen",
+    "lv": "Estatutos",
+    "level": "B2"
+  },
+  {
+    "de": "sausen",
+    "lv": "Šalkt • Svilpt • Drāzties • Brāzties",
+    "level": "B2"
+  },
+  {
+    "de": "Schädel",
+    "de_article": "der",
+    "de_plural": "die Schädel",
+    "lv": "Galvaskauss",
+    "level": "B2"
+  },
+  {
+    "de": "Schadenersatz",
+    "de_article": "der",
+    "de_plural": null,
+    "lv": "Materiais de compensação para zaudējumiem",
+    "level": "B2"
+  },
+  {
+    "de": "schädigen",
+    "lv": "Kaitēt • Nodarīt zaudējumus",
+    "level": "B2"
+  },
+  {
+    "de": "Schaffen",
+    "de_article": "das",
+    "lv": "Jaunrade • Daiļrade • Darbs • Darbība • Radīšana",
+    "level": "B2"
+  },
+  {
+    "de": "Schalldämmung",
+    "de_article": "die",
+    "de_plural": "die Schalldämmungen",
+    "lv": "Trokšņa slāpēšana",
+    "level": "B2"
+  },
+  {
+    "de": "Schalldämpfer",
+    "de_article": "der",
+    "de_plural": "die Schalldämpfer",
+    "lv": "Skaņas slāpētājs",
+    "level": "B2"
+  },
+  {
+    "de": "Schallmauer",
+    "de_article": "die",
+    "de_plural": "die Schallmauern",
+    "lv": "Skañas barjera",
+    "level": "B2"
+  },
+  {
+    "de": "schalldicht",
+    "lv": "Skanecaurlaidīgs",
+    "level": "B2"
+  },
+  {
+    "de": "schärfsichtig",
+    "lv": "Ar asu skatienu • Vērīgs",
+    "level": "B2"
+  },
+  {
+    "de": "schärfsinnig",
+    "lv": "Asprātīgs • Ar asu prātu • Attapīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Schattierung",
+    "de_article": "die",
+    "de_plural": "die Schattierungen",
+    "lv": "Nokrasa • Nianse",
+    "level": "B2"
+  },
+  {
+    "de": "schaudern",
+    "lv": "Šausmināties • [no]drebēt",
+    "level": "B2"
+  },
+  {
+    "de": "Schauplatz",
+    "de_article": "der",
+    "de_plural": "die Schauplätze",
+    "lv": "Areia",
+    "level": "B2"
+  },
+  {
+    "de": "Schaustück",
+    "de_article": "das",
+    "de_plural": "die Schaustücke",
+    "lv": "Esponats",
+    "level": "B2"
+  },
+  {
+    "de": "scheiden",
+    "lv": "[at]šķirt • Atdalīt • Šķirt • Sich sch. lassen • Šķirties • Izšķirties",
+    "level": "B2"
+  },
+  {
+    "de": "Scheidewand",
+    "de_article": "die",
+    "de_plural": "die Scheidewände",
+    "lv": "Starpsiena",
+    "level": "B2"
+  },
+  {
+    "de": "Scheitel",
+    "de_article": "der",
+    "de_plural": "die Scheitel",
+    "lv": "Galvvidus • Pauris • Celiņš",
+    "level": "B2"
+  },
+  {
+    "de": "scheitern",
+    "lv": "Piedzīvot neveiksmi • Izjukt",
+    "level": "B2"
+  },
+  {
+    "de": "schelmisch",
+    "lv": "Verdeeldheid zaaiend",
+    "level": "B2"
+  },
+  {
+    "de": "schelten",
+    "lv": "Bart • Barties",
+    "level": "B2"
+  },
+  {
+    "de": "sich scheren",
+    "lv": "Par de Rūpēties",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-scheren",
+      "layout": "minimalStudy",
+      "translation": "Par de Rūpēties",
+      "rektion": "um + ko?",
+      "explanation": "Sich scheren nepieciešams noteikts prievārds um + ko?.",
+      "forms": "um + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich scheren"
+          ],
+          "red": [
+            "um + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Schiebedach",
+    "de_article": "das",
+    "de_plural": "die Schiebedächer",
+    "lv": "Automašīnas atbīdāmais salta",
+    "level": "B2"
+  },
+  {
+    "de": "Schieber",
+    "de_article": "der",
+    "de_plural": "die Schieber",
+    "lv": "Aizbīdnis • Bulta • Spekulants",
+    "level": "B2"
+  },
+  {
+    "de": "Schiffbau",
+    "de_article": "der",
+    "lv": "Kuģu būvniecība",
+    "level": "B2"
+  },
+  {
+    "de": "Schiffbruch",
+    "de_article": "der",
+    "de_plural": "die Schiffbrüche",
+    "lv": "Kuģa bojāeja catastrofa",
+    "level": "B2"
+  },
+  {
+    "de": "Schiffsverkehr",
+    "de_article": "der",
+    "de_plural": "die Schiffsverkehre",
+    "lv": "Kuģu satiksme",
+    "level": "B2"
+  },
+  {
+    "de": "schillern",
+    "lv": "Zaigot • Laistīties dažādās krāsās",
+    "level": "B2"
+  },
+  {
+    "de": "Schlachtfeld",
+    "de_article": "das",
+    "de_plural": "die Schlachtfelder",
+    "lv": "Kaujas lauks",
+    "level": "B2"
+  },
+  {
+    "de": "schlafwandeln",
+    "lv": "Mas mēnessērdzīgam",
+    "level": "B2"
+  },
+  {
+    "de": "Schlaganfall",
+    "de_article": "der",
+    "de_plural": "die Schlaganfälle",
+    "lv": "Trieka",
+    "level": "B2"
+  },
+  {
+    "de": "schlagfertig",
+    "lv": "Atjautīgs • Asprātīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Schlagwort",
+    "de_article": "das",
+    "de_plural": "die Schlagwörter",
+    "lv": "Lozungs • Trapīgs vārds",
+    "level": "B2"
+  },
+  {
+    "de": "Schleudersitz",
+    "de_article": "der",
+    "de_plural": "die Schleudersitze",
+    "lv": "Lidmašīnas catapultas sēdeklis",
+    "level": "B2"
+  },
+  {
+    "de": "schleunigst",
+    "lv": "Nekavējoties • Cik iespējams ātri",
+    "level": "B2"
+  },
+  {
+    "de": "Schlusswort",
+    "de_article": "das",
+    "de_plural": "die Schlussworte",
+    "lv": "Galavards",
+    "level": "B2"
+  },
+  {
+    "de": "Schmach",
+    "de_article": "die",
+    "de_plural": null,
+    "lv": "Kauns • Negods",
+    "level": "B2"
+  },
+  {
+    "de": "Schmarotzer",
+    "de_article": "der",
+    "de_plural": "die Schmarotzer",
+    "lv": "Liekēdis • Parazīts",
+    "level": "B2"
+  },
+  {
+    "de": "schmeicheln",
+    "lv": "Glaimote",
+    "level": "B2"
+  },
+  {
+    "de": "Schmerzensgeld",
+    "de_article": "das",
+    "de_plural": "die Schmerzensgelder",
+    "lv": "Sapju nauda",
+    "level": "B2"
+  },
+  {
+    "de": "schmerzlich",
+    "lv": "Sapīgs • Bēdīgs",
+    "level": "B2"
+  },
+  {
+    "de": "schmollen",
+    "lv": "Gražoties",
+    "level": "B2"
+  },
+  {
+    "de": "Schmuggel",
+    "de_article": "der",
+    "lv": "Contrabando",
+    "level": "B2"
+  },
+  {
+    "de": "Schnappschuss",
+    "de_article": "der",
+    "de_plural": "die Schnappschüsse",
+    "lv": "Fotografias de Momentuzņēmums",
+    "level": "B2"
+  },
+  {
+    "de": "schonungslos",
+    "lv": "Nesaudzigs",
+    "level": "B2"
+  },
+  {
+    "de": "schöpferisch",
+    "lv": "Radoss",
+    "level": "B2"
+  },
+  {
+    "de": "Schöpfung",
+    "de_article": "die",
+    "de_plural": "die Schöpfungen",
+    "lv": "Radīšana • Darinājums • Darbs",
+    "level": "B2"
+  },
+  {
+    "de": "schreiten",
+    "lv": "Soļot • Iet",
+    "level": "B2"
+  },
+  {
+    "de": "Bittschrift",
+    "de_article": "die",
+    "de_plural": "die Bittschriften",
+    "lv": "Lugums",
+    "level": "B2"
+  },
+  {
+    "de": "schrill",
+    "lv": "Spalgs • Griezigs",
+    "level": "B2"
+  },
+  {
+    "de": "schroff",
+    "lv": "Stāvs • Kraujš • Skarbs • Ass • Nelaipns",
+    "level": "B2"
+  },
+  {
+    "de": "Schuhfabrik",
+    "de_article": "die",
+    "de_plural": "die Schuhfabriken",
+    "lv": "Fábrica de apavu",
+    "level": "B2"
+  },
+  {
+    "de": "Schuldschein",
+    "de_article": "der",
+    "de_plural": "die Schuldscheine",
+    "lv": "Paradzime",
+    "level": "B2"
+  },
+  {
+    "de": "Schusswaffe",
+    "de_article": "die",
+    "de_plural": "die Schusswaffen",
+    "lv": "Šaujamierocis",
+    "level": "B2"
+  },
+  {
+    "de": "Schutzfarbe",
+    "de_article": "die",
+    "de_plural": "die Schutzfarben",
+    "lv": "Aizsargkrasa",
+    "level": "B2"
+  },
+  {
+    "de": "Schutzimpfung",
+    "de_article": "die",
+    "de_plural": "die Schutzimpfungen",
+    "lv": "Aizsargpotēšana",
+    "level": "B2"
+  },
+  {
+    "de": "schutzlos",
+    "lv": "Neaizsargāts",
+    "level": "B2"
+  },
+  {
+    "de": "Schwankung",
+    "de_article": "die",
+    "de_plural": "die Schwankungen",
+    "lv": "Svarstiba",
+    "level": "B2"
+  },
+  {
+    "de": "Schwarm",
+    "de_article": "der",
+    "de_plural": "die Schwärme",
+    "lv": "Aizraušanas • Jūsma",
+    "level": "B2"
+  },
+  {
+    "de": "schwärmen",
+    "lv": "Aizrauties • Jūsmot • Sapņot",
+    "level": "B2"
+  },
+  {
+    "de": "Schwarzarbeit",
+    "de_article": "die",
+    "de_plural": "die Schwarzarbeiten",
+    "lv": "Nelegals darbs, par ko nemaksā nodokļus",
+    "level": "B2"
+  },
+  {
+    "de": "Schwarze",
+    "de_article": "der",
+    "de_plural": "die Schwarze",
+    "lv": "Cilvēks ar melnuādas krasu",
+    "level": "B2"
+  },
+  {
+    "de": "Schwarzmarkt",
+    "de_article": "der",
+    "de_plural": "die Schwarzmärkte",
+    "lv": "Mercado negro",
+    "level": "B2"
+  },
+  {
+    "de": "Schwebebahn",
+    "de_article": "die",
+    "de_plural": "die Schwebebahnen",
+    "lv": "Piekaru [dzelz]ceļš",
+    "level": "B2"
+  },
+  {
+    "de": "Schweinezucht",
+    "de_article": "die",
+    "de_plural": "die Schweinezuchten",
+    "lv": "Cukkopiba",
+    "level": "B2"
+  },
+  {
+    "de": "schwelen",
+    "lv": "Kvelot",
+    "level": "B2"
+  },
+  {
+    "de": "Schwerathletik",
+    "de_article": "die",
+    "de_plural": "die Schwerathletiken",
+    "lv": "Sp. esmagatletika",
+    "level": "B2"
+  },
+  {
+    "de": "schwerfällig",
+    "lv": "Smagnējs • Tūļīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Schwerpunkt",
+    "de_article": "der",
+    "de_plural": "die Schwerpunkte",
+    "lv": "Pontos Smaguma",
+    "level": "B2"
+  },
+  {
+    "de": "schwinden",
+    "lv": "[sa]mazināties • [iz]zust • Izgaist",
+    "level": "B2"
+  },
+  {
+    "de": "Seenot",
+    "de_article": "die",
+    "lv": "Situação Avārijas em Juras",
+    "level": "B2"
+  },
+  {
+    "de": "Seemacht",
+    "de_article": "die",
+    "de_plural": "die Seemächte",
+    "lv": "Jūras [liel]walsts",
+    "level": "B2"
+  },
+  {
+    "de": "Segelflieger",
+    "de_article": "der",
+    "de_plural": "die Segelflieger",
+    "lv": "Planejadores",
+    "level": "B2"
+  },
+  {
+    "de": "Segelflugzeug",
+    "de_article": "das",
+    "de_plural": "die Segelflugzeuge",
+    "lv": "Planieris",
+    "level": "B2"
+  },
+  {
+    "de": "Sehkraft",
+    "de_article": "die",
+    "lv": "Redze • Redzes spēja",
+    "level": "B2"
+  },
+  {
+    "de": "Naturseide",
+    "de_article": "die",
+    "lv": "Dabiskais zīds",
+    "level": "B2"
+  },
+  {
+    "de": "Sein",
+    "de_article": "das",
+    "lv": "Eu examinei",
+    "level": "B2",
+    "study": {
+      "id": "b2-sein-study",
+      "layout": "standardStudy",
+      "translation": "Eu examinei",
+      "explanation": [
+        "Galvenā doma: das Sein ar lielo burtu un artikulu das ir lietvārds — esamība, existência (filozofisks jēdziens).",
+        "Sein ar mercado burtu ir darbības vārds—būt.",
+        "Das Sein bieži agradou filozofiskā vai abstraktā kontekstā (das menschliche Sein).",
+        "Substantivizācija: sein → das Sein, tāpat kā können → das Können."
+      ],
+      "examples": [
+        {
+          "de": "Das menschliche Sein ist komplex.",
+          "lv": "Cilvēka esamība ir sarežģīta."
+        },
+        {
+          "de": "Sein oder Nichtsein, das ist die Frage.",
+          "lv": "Mas vai nebūt, tāds ir jautājums."
+        },
+        {
+          "de": "Ich bin müde.",
+          "lv": "Ele é um noguris."
+        },
+        {
+          "de": "Das Sein bestimmt das Bewusstsein.",
+          "lv": "Esamība nosaka apziņu."
+        }
+      ],
+      "tip": [
+        "das Sein ar lielo burtu — lietvārds (esamība, filozofiskā nozīmē).",
+        "sein ar mazo burtu — darbības vārds (būt)."
+      ],
+      "important": [
+        "das Sein = esamība (lietvārds, abstrakts/filozofisks).",
+        "sein = būt (darbības vārds, ikdienā).",
+        "Šis vārds ir substantivizēts darbības vārds, tāpat kā das Können."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Sein"
+          ],
+          "purple": [
+            "esamība",
+            "Galvenā"
+          ],
+          "green": [
+            "sein"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esamība"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "būt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "bin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noguris"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esamība"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "das Sein"
+            ]
+          },
+          {
+            "green": [
+              "sein"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Sein"
+            ]
+          },
+          {
+            "green": [
+              "sein"
+            ]
+          },
+          {
+            "blue": [
+              "das Können"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Selbstgefühl",
+    "de_article": "das",
+    "de_plural": "die Selbstgefühle",
+    "lv": "Pašapziņīgums • Pašapziņa",
+    "level": "B2"
+  },
+  {
+    "de": "Selbstkosten",
+    "de_article": "die",
+    "lv": "Pašizmaksa",
+    "level": "B2"
+  },
+  {
+    "de": "Selbstkritik",
+    "de_article": "die",
+    "de_plural": "die Selbstkritiken",
+    "lv": "Pashkríticos",
+    "level": "B2"
+  },
+  {
+    "de": "selbstlos",
+    "lv": "Nesavtīgs • Pasaizliedzīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Selbstmord",
+    "de_article": "der",
+    "de_plural": "die Selbstmorde",
+    "lv": "Zelfmoord",
+    "level": "B2"
+  },
+  {
+    "de": "selbsttätig",
+    "lv": "Automático",
+    "level": "B2"
+  },
+  {
+    "de": "Senat",
+    "de_article": "der",
+    "de_plural": "die Senate",
+    "lv": "Senaat • Wetenschappelijke raad",
+    "level": "B2"
+  },
+  {
+    "de": "Sensenblatt",
+    "de_article": "das",
+    "de_plural": "die Sensenblätter",
+    "lv": "Izkapts asmens",
+    "level": "B2"
+  },
+  {
+    "de": "sensibel",
+    "lv": "Jūtīgs • Smalkjūtīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Separatismus",
+    "de_article": "der",
+    "lv": "Separatismos",
+    "level": "B2"
+  },
+  {
+    "de": "Seuche",
+    "de_article": "die",
+    "de_plural": "die Seuchen",
+    "lv": "Serga • Epidemia",
+    "level": "B2"
+  },
+  {
+    "de": "Seuchenherd",
+    "de_article": "der",
+    "de_plural": "die Seuchenherde",
+    "lv": "Epidemias avots",
+    "level": "B2"
+  },
+  {
+    "de": "sickern",
+    "lv": "Pilēt • Sukties",
+    "level": "B2"
+  },
+  {
+    "de": "siegreich",
+    "lv": "Vainagots de Uzvarām",
+    "level": "B2"
+  },
+  {
+    "de": "Silberschmied",
+    "de_article": "der",
+    "de_plural": "die Silberschmiede",
+    "lv": "Sudrabkalis",
+    "level": "B2"
+  },
+  {
+    "de": "Simulator",
+    "de_article": "der",
+    "de_plural": "die Simulatoren",
+    "lv": "Simuladores",
+    "level": "B2"
+  },
+  {
+    "de": "simulieren",
+    "lv": "Simulēt • Imitēt",
+    "level": "B2"
+  },
+  {
+    "de": "Sinnbild",
+    "de_article": "das",
+    "de_plural": "die Sinnbilder",
+    "lv": "Símbolo",
+    "level": "B2"
+  },
+  {
+    "de": "sittlich",
+    "lv": "Tikumigs",
+    "level": "B2"
+  },
+  {
+    "de": "Skalpell",
+    "de_article": "das",
+    "de_plural": "die Skalpelle",
+    "lv": "Skálpelis",
+    "level": "B2"
+  },
+  {
+    "de": "smart",
+    "lv": "Gudrs • Viltīgs",
+    "level": "B2"
+  },
+  {
+    "de": "sofern",
+    "lv": "Ha • Ar noteikumu, ka",
+    "level": "B2",
+    "study": {
+      "id": "b2-sofern",
+      "layout": "standardStudy",
+      "translation": "Ha • Ar noteikumu, ka",
+      "explanation": [
+        "Galvenā doma: sofern ir nosacījuma savienojums—nozīmē ja/ar noteikumu, ka.",
+        "Sofern ievieš nosacījuma palīgteikumu, līdzīgi kā wenn, bet ir formalāks un tipiskāks rakstveida stilam.",
+        "Sofern NEnozīmē 'tā kā' (cēloņa savienojums) — tas vācu valodā ir da vai weil.",
+        "Por favor, seja feliz juridiskos/formālos tekstos (sauf Accord contraire = oui nav norunāts citādi)."
+      ],
+      "examples": [
+        {
+          "de": "Ich komme, sofern ich Zeit habe.",
+          "lv": "É nāku, ja man ir laiks."
+        },
+        {
+          "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
+          "lv": "Tenzij anders overeengekomen geldt of standardprijs."
+        },
+        {
+          "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
+          "lv": "Ar noteikumu, ka laiks būs labs, mēs dosimies ekskursijā."
+        },
+        {
+          "de": "Sofern möglich, bitte pünktlich sein.",
+          "lv": "Ja iespējams, lūdzu, esiet precīzi."
+        },
+        {
+          "de": "Er hilft, sofern er kann.",
+          "lv": "Viņš palīdz, ja viņš var."
+        },
+        {
+          "de": "Da es regnet, bleiben wir zu Hause.",
+          "lv": "Tā kā līst, mēs paliekam mājās."
+        }
+      ],
+      "tip": [
+        "sofern = ja/ar noteikumu, ka (nosacījums) — nejaukt ar cēloni.",
+        "'tā kā' (cēlonis) vācu valodā ir da/weil, ne sofern."
+      ],
+      "important": [
+        "sofern ir nosacījuma, ne cēloņa savienojums.",
+        "Nepareizi: sofern = tā kā → Pareizi: da/weil = tā kā."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sofern"
+          ],
+          "purple": [
+            "ja",
+            "ar noteikumu, ka"
+          ],
+          "red": [
+            "da",
+            "weil"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tenzij"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ar noteikumu, ka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "Da"
+              ]
+            },
+            "lv": {
+              "red": [
+                "tā kā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "ja",
+              "ar noteikumu, ka"
+            ]
+          },
+          {
+            "red": [
+              "da",
+              "weil"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sofern"
+            ]
+          },
+          {
+            "red": [
+              "da",
+              "weil"
+            ],
+            "purple": [
+              "tā kā"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Söldner",
+    "de_article": "der",
+    "de_plural": "die Söldner",
+    "lv": "Algotnis",
+    "level": "B2"
+  },
+  {
+    "de": "solidarisch",
+    "lv": "Solidariedade",
+    "level": "B2"
+  },
+  {
+    "de": "Sonde",
+    "de_article": "die",
+    "de_plural": "die Sonden",
+    "lv": "Zona",
+    "level": "B2"
+  },
+  {
+    "de": "Sonderausgabe",
+    "de_article": "die",
+    "de_plural": "die Sonderausgaben",
+    "lv": "Grāmatas specializdevums • Laikraksta números especiais • Marku specializlaidums",
+    "level": "B2"
+  },
+  {
+    "de": "Sonderfall",
+    "de_article": "der",
+    "de_plural": "die Sonderfälle",
+    "lv": "Izņēmuma gadījums",
+    "level": "B2"
+  },
+  {
+    "de": "Sonnenuhr",
+    "de_article": "die",
+    "de_plural": "die Sonnenuhren",
+    "lv": "Saules pulkstenis",
+    "level": "B2"
+  },
+  {
+    "de": "Sonnenwende",
+    "de_article": "die",
+    "de_plural": "die Sonnenwenden",
+    "lv": "Saulgriezi",
+    "level": "B2"
+  },
+  {
+    "de": "Sorgenkind",
+    "de_article": "das",
+    "de_plural": "die Sorgenkinder",
+    "lv": "Rūpju berns",
+    "level": "B2"
+  },
+  {
+    "de": "Sorgepflicht",
+    "de_article": "die",
+    "lv": "Rupēties de Pienākums",
+    "level": "B2"
+  },
+  {
+    "de": "Sorgerecht",
+    "de_article": "das",
+    "de_plural": "die Sorgerechte",
+    "lv": "Rupēties de Tiesības",
+    "level": "B2"
+  },
+  {
+    "de": "Sozialismus",
+    "de_article": "der",
+    "lv": "Socialismos",
+    "level": "B2"
+  },
+  {
+    "de": "sozialistisch",
+    "lv": "Socialistas",
+    "level": "B2"
+  },
+  {
+    "de": "Spaltung",
+    "de_article": "die",
+    "de_plural": "die Spaltungen",
+    "lv": "Splitsen • [sa]splitsen • [sa]splitsen",
+    "level": "B2"
+  },
+  {
+    "de": "spärlich",
+    "lv": "Niecīgs • Skops • Rets",
+    "level": "B2"
+  },
+  {
+    "de": "Sperma",
+    "de_article": "das",
+    "de_plural": "die Spermen",
+    "lv": "Sêmen",
+    "level": "B2"
+  },
+  {
+    "de": "spezifisch",
+    "lv": "Orçamento",
+    "level": "B2"
+  },
+  {
+    "de": "Sphäre",
+    "de_article": "die",
+    "de_plural": "die Sphären",
+    "lv": "Esfera • Joma",
+    "level": "B2"
+  },
+  {
+    "de": "Spielgerät",
+    "de_article": "das",
+    "de_plural": "die Spielgeräte",
+    "lv": "Sporta spēļu inventārs",
+    "level": "B2"
+  },
+  {
+    "de": "Spießbürger",
+    "de_article": "der",
+    "de_plural": "die Spießbürger",
+    "lv": "Mietpilsonis",
+    "level": "B2"
+  },
+  {
+    "de": "spionieren",
+    "lv": "Spiegot • Izspiegot",
+    "level": "B2"
+  },
+  {
+    "de": "Spott",
+    "de_article": "der",
+    "lv": "Izsmiekls • Zobošanās • Piadas de Ļauns",
+    "level": "B2"
+  },
+  {
+    "de": "spötteln",
+    "lv": "Ironizēt",
+    "level": "B2"
+  },
+  {
+    "de": "spotten",
+    "lv": "Izsmiet • Zoboties",
+    "level": "B2"
+  },
+  {
+    "de": "spöttisch",
+    "lv": "Izsmejošs • Zobgalīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Sprechanlage",
+    "de_article": "die",
+    "de_plural": "die Sprechanlagen",
+    "lv": "Interkoma iekārta mājās",
+    "level": "B2"
+  },
+  {
+    "de": "sprengen",
+    "lv": "[uz]spridzināt • Apslacīt • Laistīt",
+    "level": "B2"
+  },
+  {
+    "de": "Sprengstoff",
+    "de_article": "der",
+    "de_plural": "die Sprengstoffe",
+    "lv": "Sprāgstviela",
+    "level": "B2"
+  },
+  {
+    "de": "Spross",
+    "de_article": "der",
+    "de_plural": "die Sprosse",
+    "lv": "Robôs. atvase • Dzinums • Pārn. pēcnācējs • Atvase",
+    "level": "B2"
+  },
+  {
+    "de": "Spruch",
+    "de_article": "der",
+    "de_plural": "die Sprüche",
+    "lv": "Izteiciens • Aforismos • Jur. espíritos",
+    "level": "B2"
+  },
+  {
+    "de": "Spruchband",
+    "de_article": "das",
+    "de_plural": "die Spruchbande",
+    "lv": "Transparente • Plakāts",
+    "level": "B2"
+  },
+  {
+    "de": "Spuk",
+    "de_article": "der",
+    "de_plural": "die Spuke",
+    "lv": "Regs • Spoks • Paradība",
+    "level": "B2"
+  },
+  {
+    "de": "spurlos",
+    "lv": "Bez pēdām • Coletes Bez",
+    "level": "B2"
+  },
+  {
+    "de": "Staatenlose",
+    "de_article": "der",
+    "de_plural": "die Staatenlosen",
+    "lv": "Bezpavalstnieks",
+    "level": "B2"
+  },
+  {
+    "de": "Staatsbesuch",
+    "de_article": "der",
+    "de_plural": "die Staatsbesuche",
+    "lv": "Valsts vizīte",
+    "level": "B2"
+  },
+  {
+    "de": "Staatsexamen",
+    "de_article": "das",
+    "de_plural": "die Staatsexamen",
+    "lv": "Valsts eksāmens",
+    "level": "B2"
+  },
+  {
+    "de": "Staatshaushalt",
+    "de_article": "der",
+    "de_plural": "die Staatshaushalte",
+    "lv": "Orçamentos valiosos",
+    "level": "B2"
+  },
+  {
+    "de": "Staatsmann",
+    "de_article": "der",
+    "de_plural": "die Staatsmänner",
+    "lv": "Valstsvirs",
+    "level": "B2"
+  },
+  {
+    "de": "Staatsstreich",
+    "de_article": "der",
+    "de_plural": "die Staatsstreiche",
+    "lv": "Valsts apvērsums",
+    "level": "B2"
+  },
+  {
+    "de": "stabilisieren",
+    "lv": "Estabilizar",
+    "level": "B2"
+  },
+  {
+    "de": "Stahlwerk",
+    "de_article": "das",
+    "de_plural": "die Stahlwerke",
+    "lv": "Tēraudlietuve",
+    "level": "B2"
+  },
+  {
+    "de": "starr",
+    "lv": "Nekustīgs • Sastindzis • Stīvs",
+    "level": "B2"
+  },
+  {
+    "de": "starren",
+    "lv": "Cieši skatīties • Blenzt",
+    "level": "B2"
+  },
+  {
+    "de": "starrköpfig",
+    "lv": "Stūrgalvigs • Ietiepīgs",
+    "level": "B2"
+  },
+  {
+    "de": "starrsinnig",
+    "lv": "Stūrgalvigs • Ietiepīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Stätte",
+    "de_article": "die",
+    "de_plural": "die Stätten",
+    "lv": "Proibir",
+    "level": "B2"
+  },
+  {
+    "de": "Statut",
+    "de_article": "das",
+    "de_plural": "die Statuten",
+    "lv": "Estatutos",
+    "level": "B2"
+  },
+  {
+    "de": "Steckbrief",
+    "de_article": "der",
+    "de_plural": "die Steckbriefe",
+    "lv": "Meklējamās pessoas apraksts policijā",
+    "level": "B2"
+  },
+  {
+    "de": "steril",
+    "lv": "Estéril",
+    "level": "B2"
+  },
+  {
+    "de": "Steuergelder",
+    "de_article": "die",
+    "lv": "Veja nauda, ​​​​ko valsts saņem nodokļos",
+    "level": "B2"
+  },
+  {
+    "de": "Steuererhöhung",
+    "de_article": "die",
+    "de_plural": "die Steuererhöhungen",
+    "lv": "Nodokļu paaugstināšana",
+    "level": "B2"
+  },
+  {
+    "de": "Steuersenkung",
+    "de_article": "die",
+    "de_plural": "die Steuersenkungen",
+    "lv": "Nodokļu pazeminašana",
+    "level": "B2"
+  },
+  {
+    "de": "Stoßverkehr",
+    "de_article": "der",
+    "lv": "Spitsuur • Mais útil em um dia útil do dia",
+    "level": "B2"
+  },
+  {
+    "de": "Strafanzeige",
+    "de_article": "die",
+    "de_plural": "die Strafanzeigen",
+    "lv": "Krimināllietas ierosināšana pret kādu",
+    "level": "B2"
+  },
+  {
+    "de": "stranden",
+    "lv": "Uzskriet uz sēkļa • Ciest avāriju",
+    "level": "B2"
+  },
+  {
+    "de": "streben",
+    "lv": "Tiekties pēc kaut kā",
+    "level": "B2"
+  },
+  {
+    "de": "streitbar",
+    "lv": "Ķildīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Streitkräfte",
+    "de_article": "die",
+    "lv": "Valsts visas militārās organizam uma missão militar",
+    "level": "B2"
+  },
+  {
+    "de": "strippen",
+    "lv": "Taisīt striptīzu",
+    "level": "B2"
+  },
+  {
+    "de": "Stripper",
+    "de_article": "der",
+    "de_plural": "die Stripper",
+    "lv": "Striptīza izpildītājs",
+    "level": "B2"
+  },
+  {
+    "de": "Stripperin",
+    "de_article": "die",
+    "de_plural": "die Stripperinnen",
+    "lv": "Striptīza dejotāja",
+    "level": "B2"
+  },
+  {
+    "de": "Striptease",
+    "de_article": "der",
+    "lv": "Striptizs",
+    "level": "B2"
+  },
+  {
+    "de": "Strolch",
+    "de_article": "der",
+    "de_plural": "die Strolche",
+    "lv": "Claidonis",
+    "level": "B2"
+  },
+  {
+    "de": "Stücklohn",
+    "de_article": "der",
+    "de_plural": "die Stücklöhne",
+    "lv": "Samaksa par gabaldarbu",
+    "level": "B2"
+  },
+  {
+    "de": "Studiengebühr",
+    "de_article": "die",
+    "de_plural": "die Studiengebühren",
+    "lv": "Macību maksa augstskolā",
+    "level": "B2"
+  },
+  {
+    "de": "stur",
+    "lv": "Ietiepigs • Stūrgalvigs",
+    "level": "B2"
+  },
+  {
+    "de": "Stützpunkt",
+    "de_article": "der",
+    "de_plural": "die Stützpunkte",
+    "lv": "Bāze militar",
+    "level": "B2"
+  },
+  {
+    "de": "Suchaktion",
+    "de_article": "die",
+    "de_plural": "die Suchaktionen",
+    "lv": "Política organizada meklēšana",
+    "level": "B2"
+  },
+  {
+    "de": "Täfelung",
+    "de_article": "die",
+    "de_plural": "die Täfelungen",
+    "lv": "Panelis de Siena • Apšuvums",
+    "level": "B2"
+  },
+  {
+    "de": "Tagebau",
+    "de_article": "der",
+    "de_plural": "die Tagebaue",
+    "lv": "Derīgo izrakteņu atklātā ieguve",
+    "level": "B2"
+  },
+  {
+    "de": "Tagegeld",
+    "de_article": "das",
+    "de_plural": "die Tagegelder",
+    "lv": "Komandējuma dienasnauda",
+    "level": "B2"
+  },
+  {
+    "de": "Tagelohn",
+    "de_article": "der",
+    "de_plural": "die Tagelöhne",
+    "lv": "Algas diena",
+    "level": "B2"
+  },
+  {
+    "de": "Tagelöhner",
+    "de_article": "der",
+    "de_plural": "die Tagelöhner",
+    "lv": "Dienas Stradnieks",
+    "level": "B2"
+  },
+  {
+    "de": "tagen",
+    "lv": "Um lugar • Sessie houden",
+    "level": "B2"
+  },
+  {
+    "de": "Tapferkeit",
+    "de_article": "die",
+    "de_plural": "die Tapferkeiten",
+    "lv": "Drosme • Drossirdība",
+    "level": "B2"
+  },
+  {
+    "de": "Tatkraft",
+    "de_article": "die",
+    "lv": "Energia • Longarinas",
+    "level": "B2"
+  },
+  {
+    "de": "telegrafieren",
+    "lv": "Telégrafo",
+    "level": "B2"
+  },
+  {
+    "de": "Terrorismus",
+    "de_article": "der",
+    "lv": "Terrorismos",
+    "level": "B2"
+  },
+  {
+    "de": "Testperson",
+    "de_article": "die",
+    "de_plural": "die Testpersonen",
+    "lv": "Pessoa Izmēģinājuma",
+    "level": "B2"
+  },
+  {
+    "de": "texten",
+    "lv": "Rakstīt texto dziesmai vai reklāmai",
+    "level": "B2"
+  },
+  {
+    "de": "These",
+    "de_article": "die",
+    "de_plural": "die Thesen",
+    "lv": "Tezé",
+    "level": "B2"
+  },
+  {
+    "de": "Tiefsinn",
+    "de_article": "der",
+    "lv": "Dziļdomīgums",
+    "level": "B2"
+  },
+  {
+    "de": "Tollwut",
+    "de_article": "die",
+    "lv": "Trakumsērga",
+    "level": "B2"
+  },
+  {
+    "de": "tönen",
+    "lv": "Skanēt • Ietonēt • Piešķirt nokrāsu",
+    "level": "B2"
+  },
+  {
+    "de": "Töpferscheibe",
+    "de_article": "die",
+    "de_plural": "die Töpferscheiben",
+    "lv": "Podnieka ripa",
+    "level": "B2"
+  },
+  {
+    "de": "Tor",
+    "de_article": "der",
+    "de_plural": "die Toren",
+    "lv": "Muļķis • Nelga",
+    "level": "B2"
+  },
+  {
+    "de": "Totalschaden",
+    "de_article": "der",
+    "de_plural": "die Totalschäden",
+    "lv": "Transporte as roupas do seu filho, para que possam ser transportadas até a fábrica.",
+    "level": "B2"
+  },
+  {
+    "de": "Totenschein",
+    "de_article": "der",
+    "de_plural": "die Totenscheine",
+    "lv": "Miršanas aplieciba",
+    "level": "B2"
+  },
+  {
+    "de": "totschießen",
+    "lv": "Nošaut",
+    "level": "B2"
+  },
+  {
+    "de": "totschlagen",
+    "lv": "Nosista",
+    "level": "B2"
+  },
+  {
+    "de": "Trabant",
+    "de_article": "der",
+    "de_plural": "die Trabanten",
+    "lv": "Estrela. pavadonis",
+    "level": "B2"
+  },
+  {
+    "de": "Tragbahre",
+    "de_article": "die",
+    "de_plural": "die Tragbahren",
+    "lv": "Nestuves",
+    "level": "B2"
+  },
+  {
+    "de": "Trägerrakete",
+    "de_article": "die",
+    "de_plural": "die Trägerraketen",
+    "lv": "Nesējraķete",
+    "level": "B2"
+  },
+  {
+    "de": "Transit",
+    "de_article": "der",
+    "de_plural": "die Transite",
+    "lv": "Tranzits",
+    "level": "B2"
+  },
+  {
+    "de": "Transvestit",
+    "de_article": "der",
+    "de_plural": "die Transvestiten",
+    "lv": "Travestis",
+    "level": "B2"
+  },
+  {
+    "de": "Trauma",
+    "de_article": "das",
+    "de_plural": "die Traumen",
+    "lv": "Trauma",
+    "level": "B2"
+  },
+  {
+    "de": "treffend",
+    "lv": "Trāpīgs • Zīmīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Tretmine",
+    "de_article": "die",
+    "de_plural": "die Tretminen",
+    "lv": "Mina Kājnieku",
+    "level": "B2"
+  },
+  {
+    "de": "treuherzig",
+    "lv": "Valsirdīgs • Sirsnīgs",
+    "level": "B2"
+  },
+  {
+    "de": "treulos",
+    "lv": "Neuzticīgs • Neuzticams",
+    "level": "B2"
+  },
+  {
+    "de": "Triebkraft",
+    "de_article": "die",
+    "lv": "Dzinējspeks",
+    "level": "B2"
+  },
+  {
+    "de": "Triumphbogen",
+    "de_article": "der",
+    "de_plural": "die Triumphbögen",
+    "lv": "Arca do triunfo",
+    "level": "B2"
+  },
+  {
+    "de": "Triumphzug",
+    "de_article": "der",
+    "de_plural": "die Triumphzüge",
+    "lv": "Triumfa gajiens",
+    "level": "B2"
+  },
+  {
+    "de": "Trockenlegung",
+    "de_article": "die",
+    "de_plural": "die Trockenlegungen",
+    "lv": "Depois de aparecer",
+    "level": "B2"
+  },
+  {
+    "de": "Trommelfell",
+    "de_article": "das",
+    "de_plural": "die Trommelfelle",
+    "lv": "Bungadiņa",
+    "level": "B2"
+  },
+  {
+    "de": "trügen",
+    "lv": "Vilt • Mānīt",
+    "level": "B2"
+  },
+  {
+    "de": "trügerisch",
+    "lv": "Mānīgs • Māņu",
+    "level": "B2"
+  },
+  {
+    "de": "Tugend",
+    "de_article": "die",
+    "de_plural": "die Tugenden",
+    "lv": "Tikums",
+    "level": "B2"
+  },
+  {
+    "de": "Tusch",
+    "de_article": "der",
+    "de_plural": "die Tusche",
+    "lv": "Fanfarra",
+    "level": "B2"
+  },
+  {
+    "de": "überbringen",
+    "lv": "Nodot ziņu • Apsveikumu • Vēstuli • Dāvanu",
+    "level": "B2"
+  },
+  {
+    "de": "Übereinkommen",
+    "de_article": "das",
+    "lv": "Viena • Noruna",
+    "level": "B2"
+  },
+  {
+    "de": "überfahren",
+    "lv": "Sabraukt • Pārvilkt viegli pāri ar otu",
+    "level": "B2"
+  },
+  {
+    "de": "überfallen",
+    "lv": "Pēkšņi uzbrukt",
+    "level": "B2"
+  },
+  {
+    "de": "Überfluss",
+    "de_article": "der",
+    "de_plural": null,
+    "lv": "Parpilniba",
+    "level": "B2"
+  },
+  {
+    "de": "überfordern",
+    "lv": "Izvirzīt pārmērīgas prasības",
+    "level": "B2"
+  },
+  {
+    "de": "überführen",
+    "lv": "Pārvest pari • Parcelt pari upei",
+    "level": "B2"
+  },
+  {
+    "de": "übergehen",
+    "lv": "Nepamanīt • Ignorēt • Izlaist",
+    "level": "B2"
+  },
+  {
+    "de": "überhören",
+    "lv": "Ne[sa]dzirdēt aiz neuzmanības • Izlikties nedzirdam",
+    "level": "B2"
+  },
+  {
+    "de": "überlassen",
+    "lv": "Atstāt kāda ziņā • Rīcībā • Atļaut izvēlēties",
+    "level": "B2"
+  },
+  {
+    "de": "Überlastung",
+    "de_article": "die",
+    "de_plural": "die Überlastungen",
+    "lv": "Parslódze",
+    "level": "B2"
+  },
+  {
+    "de": "Überlegung",
+    "de_article": "die",
+    "de_plural": "die Überlegungen",
+    "lv": "Pārdomāšana • Apsvēršana • Apdoms",
+    "level": "B2"
+  },
+  {
+    "de": "übermitteln",
+    "lv": "Nodot • Nosūtīt vēstuli",
+    "level": "B2"
+  },
+  {
+    "de": "Übermüdung",
+    "de_article": "die",
+    "de_plural": "die Übermüdungen",
+    "lv": "Pargurus",
+    "level": "B2"
+  },
+  {
+    "de": "überschätzen",
+    "lv": "Pārvērtēt",
+    "level": "B2"
+  },
+  {
+    "de": "überschreiten",
+    "lv": "Pāriet • Parque",
+    "level": "B2"
+  },
+  {
+    "de": "übersichtlich",
+    "lv": "Parskatams",
+    "level": "B2"
+  },
+  {
+    "de": "übersiedeln",
+    "lv": "Parcelties uz dzīvi citur • Mainīt dzīvesvietu",
+    "level": "B2"
+  },
+  {
+    "de": "überstehen",
+    "lv": "Verdragen • Problemas de Verdragen",
+    "level": "B2"
+  },
+  {
+    "de": "übertragen",
+    "lv": "Pārnest • Pārnēsāt lipīgās slimības • Pārraidīt pa radio • [pār]tulkot",
+    "level": "B2"
+  },
+  {
+    "de": "übertreten",
+    "lv": "Pārkāpt likumu • Pārkāpt kaut kam pāri",
+    "level": "B2"
+  },
+  {
+    "de": "überwältigen",
+    "lv": "Pārvarēt • Pārspet",
+    "level": "B2"
+  },
+  {
+    "de": "ultimativ",
+    "lv": "Mais recente",
+    "level": "B2"
+  },
+  {
+    "de": "Ultraschall",
+    "de_article": "der",
+    "lv": "Ultraskaņa",
+    "level": "B2"
+  },
+  {
+    "de": "umarbeiten",
+    "lv": "Pārstrādāt • Pārtaisīt",
+    "level": "B2"
+  },
+  {
+    "de": "Umbruch",
+    "de_article": "der",
+    "de_plural": "die Umbrüche",
+    "lv": "Lielas pārmaiņas politika",
+    "level": "B2"
+  },
+  {
+    "de": "umdenken",
+    "lv": "Mainīt viedokli atkarībā no situācijas",
+    "level": "B2"
+  },
+  {
+    "de": "umfassen",
+    "lv": "Apņemt • Aptvert • Apskaut",
+    "level": "B2"
+  },
+  {
+    "de": "Umfeld",
+    "de_article": "das",
+    "de_plural": "die Umfelder",
+    "lv": "Vide socialā • Política",
+    "level": "B2"
+  },
+  {
+    "de": "umgestalten",
+    "lv": "Parveidot",
+    "level": "B2"
+  },
+  {
+    "de": "umhören, sich",
+    "lv": "Apklausidades",
+    "level": "B2"
+  },
+  {
+    "de": "Umkreis",
+    "de_article": "der",
+    "de_plural": "die Umkreise",
+    "lv": "Apkartne",
+    "level": "B2"
+  },
+  {
+    "de": "umkreisen",
+    "lv": "Ielenkt • Aplenkt • Lidināties • Laisties • Riņķot",
+    "level": "B2"
+  },
+  {
+    "de": "Umlauf",
+    "de_article": "der",
+    "de_plural": "die Umläufe",
+    "lv": "Riņķošana • Cirkulácija",
+    "level": "B2"
+  },
+  {
+    "de": "Umlaufbahn",
+    "de_article": "die",
+    "de_plural": "die Umlaufbahnen",
+    "lv": "Órbita",
+    "level": "B2"
+  },
+  {
+    "de": "Umriss",
+    "de_article": "der",
+    "de_plural": "die Umrisse",
+    "lv": "Kontura",
+    "level": "B2"
+  },
+  {
+    "de": "umschließen",
+    "lv": "Ieslēgt • Aptvert • Apņemt",
+    "level": "B2"
+  },
+  {
+    "de": "umschreiben",
+    "lv": "Aprakstit",
+    "level": "B2"
+  },
+  {
+    "de": "umschulen",
+    "lv": "Cilvēkiem ar kādu amatu iemācīt citu amatu • Pārskolot",
+    "level": "B2"
+  },
+  {
+    "de": "Umschwung",
+    "de_article": "der",
+    "de_plural": "die Umschwünge",
+    "lv": "Apgrieziens • Lūzums • Pēkšņa pārmaiņa • Apvērsums • Pagrieziens",
+    "level": "B2"
+  },
+  {
+    "de": "Umsicht",
+    "de_article": "die",
+    "lv": "Piesardziba • Apdomība",
+    "level": "B2"
+  },
+  {
+    "de": "umsiedeln",
+    "lv": "Pārvietot uz citu dzīvesvietu piespiedu kartā",
+    "level": "B2"
+  },
+  {
+    "de": "umständlich",
+    "lv": "Ļoti sīks • Pārāk plašs • Apgrūtinošs • Sarežģīts",
+    "level": "B2"
+  },
+  {
+    "de": "Umsturz",
+    "de_article": "der",
+    "de_plural": "die Umstürze",
+    "lv": "Pučs",
+    "level": "B2"
+  },
+  {
+    "de": "umwandeln",
+    "lv": "Pārvērst • Pārgrozīt",
+    "level": "B2"
+  },
+  {
+    "de": "umwickeln",
+    "lv": "Omwikkelen • Omwikkelen",
+    "level": "B2"
+  },
+  {
+    "de": "unangebracht",
+    "lv": "Nevieta",
+    "level": "B2"
+  },
+  {
+    "de": "unanständig",
+    "lv": "Nepieklājīgs • Neuzvedīgs",
+    "level": "B2"
+  },
+  {
+    "de": "unaufhörlich",
+    "lv": "Nepārtraukts • Nemitīgs",
+    "level": "B2"
+  },
+  {
+    "de": "unbarmherzig",
+    "lv": "Nežēlīgs • Bezsirdīgs",
+    "level": "B2"
+  },
+  {
+    "de": "unbebaut",
+    "lv": "Neapstrādāts por zemi • Neapbūvēts",
+    "level": "B2"
+  },
+  {
+    "de": "unbedacht",
+    "lv": "Neapdomāts • Pārsteidzīgs • Neapdomīgs",
+    "level": "B2"
+  },
+  {
+    "de": "unbegreiflich",
+    "lv": "Neaptverams • Nesaprotams",
+    "level": "B2"
+  },
+  {
+    "de": "unbegründet",
+    "lv": "Nedibināts • Nepamatots",
+    "level": "B2"
+  },
+  {
+    "de": "unbehaglich",
+    "lv": "Neomuligs",
+    "level": "B2"
+  },
+  {
+    "de": "unbekümmert",
+    "lv": "Bezrupigs",
+    "level": "B2"
+  },
+  {
+    "de": "unbemerkbar",
+    "lv": "Nepamanams",
+    "level": "B2"
+  },
+  {
+    "de": "unberechenbar",
+    "lv": "Neaprēķināms",
+    "level": "B2"
+  },
+  {
+    "de": "unbeschränkt",
+    "lv": "Neierobezots",
+    "level": "B2"
+  },
+  {
+    "de": "unbestechlich",
+    "lv": "Nepiekukuļojams",
+    "level": "B2"
+  },
+  {
+    "de": "unbewusst",
+    "lv": "Neapzināts • Instinktīvs • Nevilšs • Netīšs",
+    "level": "B2"
+  },
+  {
+    "de": "undenkbar",
+    "lv": "Neiedomājams",
+    "level": "B2"
+  },
+  {
+    "de": "unentbehrlich",
+    "lv": "Nepieciešams",
+    "level": "B2"
+  },
+  {
+    "de": "unentgeltlich",
+    "lv": "Bez atlīdzības • Bezmaksas • Par velti",
+    "level": "B2"
+  },
+  {
+    "de": "unerhört",
+    "lv": "Nedzirdēts",
+    "level": "B2"
+  },
+  {
+    "de": "unerträglich",
+    "lv": "Nepanesams • Neciešams",
+    "level": "B2"
+  },
+  {
+    "de": "Unfug",
+    "de_article": "der",
+    "de_plural": "die Unfuge",
+    "lv": "Nedarbs • Nebūšana • Piedauzīga rīcība",
+    "level": "B2"
+  },
+  {
+    "de": "ungeachtet",
+    "lv": "Neraugoties uz • Lai gan",
+    "level": "B2"
+  },
+  {
+    "de": "ungerade",
+    "lv": "Ne visai taisns • Līks • Neparskaitlis",
+    "level": "B2"
+  },
+  {
+    "de": "Union",
+    "de_article": "die",
+    "de_plural": "die Unionen",
+    "lv": "Savienība • Ūnija",
+    "level": "B2"
+  },
+  {
+    "de": "Unkosten",
+    "de_article": "die",
+    "lv": "Uitgaven",
+    "level": "B2"
+  },
+  {
+    "de": "unmenschlich",
+    "lv": "Necilvēcisks • Necilvēcīgs",
+    "level": "B2"
+  },
+  {
+    "de": "unnütz",
+    "lv": "Nederīgs • Nevajadzīgs • Veltīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Unstimmigkeit",
+    "de_article": "die",
+    "de_plural": "die Unstimmigkeiten",
+    "lv": "Nesaskaņas",
+    "level": "B2"
+  },
+  {
+    "de": "unterbreiten",
+    "lv": "Paskaidrot • Iesniegt",
+    "level": "B2"
+  },
+  {
+    "de": "unterdrücken",
+    "lv": "Apspies • Nomākt",
+    "level": "B2"
+  },
+  {
+    "de": "untereinander",
+    "lv": "Savā starpā • Savstarpēji",
+    "level": "B2"
+  },
+  {
+    "de": "Untergang",
+    "de_article": "der",
+    "de_plural": "die Untergänge",
+    "lv": "Riets • Norietēšana • Bojāeja • Sabrukums",
+    "level": "B2"
+  },
+  {
+    "de": "Untergrund",
+    "de_article": "der",
+    "de_plural": "die Untergründe",
+    "lv": "Pagride",
+    "level": "B2"
+  },
+  {
+    "de": "Unterhalt",
+    "de_article": "der",
+    "lv": "Apgādība • Apgāde • Apgādāšana",
+    "level": "B2"
+  },
+  {
+    "de": "unterirdisch",
+    "lv": "Apakšzemes-",
+    "level": "B2"
+  },
+  {
+    "de": "unterjochen",
+    "lv": "Enderwerpen",
+    "level": "B2"
+  },
+  {
+    "de": "Unterlage",
+    "de_article": "die",
+    "de_plural": "die Unterlagen",
+    "lv": "Paliekamais • Paklājs • Paliktnis • Balsts • Dados • Documentācija",
+    "level": "B2"
+  },
+  {
+    "de": "unterlassen",
+    "lv": "Kaut ko vairs nedarīt • Neizdarīt",
+    "level": "B2"
+  },
+  {
+    "de": "unterordnen",
+    "lv": "Pakārtot • Pakļaut",
+    "level": "B2"
+  },
+  {
+    "de": "unterschlagen",
+    "lv": "Piesavināties",
+    "level": "B2"
+  },
+  {
+    "de": "Unterstellung",
+    "de_article": "die",
+    "de_plural": "die Unterstellungen",
+    "lv": "Apmelójums",
+    "level": "B2"
+  },
+  {
+    "de": "Untertan",
+    "de_article": "der",
+    "de_plural": "die Untertanen",
+    "lv": "Pavalstniek",
+    "level": "B2"
+  },
+  {
+    "de": "untertauchen",
+    "lv": "Ienirt • Palīst zem ūdens • Iemērkt • Iegremdēt",
+    "level": "B2"
+  },
+  {
+    "de": "unterweisen",
+    "lv": "Ierādīt • Pamācīt",
+    "level": "B2"
+  },
+  {
+    "de": "unterwerfen",
+    "lv": "Pakļaut",
+    "level": "B2"
+  },
+  {
+    "de": "sich unterwerfen",
+    "lv": "Pakļauties",
+    "level": "B2"
+  },
+  {
+    "de": "untragbar",
+    "lv": "Nepieņemams • Neizturams",
+    "level": "B2"
+  },
+  {
+    "de": "unüberlegt",
+    "lv": "Neapdomīgs • Vieglprātīgs",
+    "level": "B2"
+  },
+  {
+    "de": "unvermeidlich",
+    "lv": "Nenovēršams • Neizbēgams",
+    "level": "B2"
+  },
+  {
+    "de": "unverzeihlich",
+    "lv": "Nepiedodams",
+    "level": "B2"
+  },
+  {
+    "de": "unwiderlegbar",
+    "lv": "Neapgāžams • Neapstrīdams",
+    "level": "B2"
+  },
+  {
+    "de": "unwillkürlich",
+    "lv": "Nevilšs • Netīšs • Neapzināts",
+    "level": "B2"
+  },
+  {
+    "de": "unzählig",
+    "lv": "Neskaitams",
+    "level": "B2"
+  },
+  {
+    "de": "unzulässig",
+    "lv": "Nepieļaujams",
+    "level": "B2"
+  },
+  {
+    "de": "üppig",
+    "lv": "Bagātīgs • Kupls",
+    "level": "B2"
+  },
+  {
+    "de": "Urheber",
+    "de_article": "der",
+    "de_plural": "die Urheber",
+    "lv": "Ierosinātājs • Iniciadores • Autores",
+    "level": "B2"
+  },
+  {
+    "de": "Urheberrecht",
+    "de_article": "das",
+    "de_plural": "die Urheberrechte",
+    "lv": "Autoridades",
+    "level": "B2"
+  },
+  {
+    "de": "Urkunde",
+    "de_article": "die",
+    "de_plural": "die Urkunden",
+    "lv": "Documentos • Raksts",
+    "level": "B2"
+  },
+  {
+    "de": "Ursprung",
+    "de_article": "der",
+    "de_plural": "die Ursprünge",
+    "lv": "Izcelšanās • Cilme • [pirm]sākums",
+    "level": "B2"
+  },
+  {
+    "de": "ursprünglich",
+    "lv": "Sākotnējs",
+    "level": "B2"
+  },
+  {
+    "de": "vage",
+    "lv": "Neskaidrs • Neprecīzs",
+    "level": "B2"
+  },
+  {
+    "de": "väterlich",
+    "lv": "Tēva- • Tēvišķīgs",
+    "level": "B2"
+  },
+  {
+    "de": "verachten",
+    "lv": "Verachten • Ameaçador",
+    "level": "B2"
+  },
+  {
+    "de": "veraltet",
+    "lv": "Novecojis",
+    "level": "B2"
+  },
+  {
+    "de": "Veranlagung",
+    "de_article": "die",
+    "de_plural": "die Veranlagungen",
+    "lv": "Dotības • Spējas",
+    "level": "B2"
+  },
+  {
+    "de": "veranlassen",
+    "lv": "Izraisīt • Ierosināt • Mudināt",
+    "level": "B2"
+  },
+  {
+    "de": "verbittert",
+    "lv": "Sarūgtinats",
+    "level": "B2"
+  },
+  {
+    "de": "verborgen",
+    "lv": "Apslēpts • Dormir",
+    "level": "B2"
+  },
+  {
+    "de": "verdauen",
+    "lv": "Sagremota",
+    "level": "B2"
+  },
+  {
+    "de": "Verdienst",
+    "de_article": "der",
+    "de_plural": "die Verdienste",
+    "lv": "Nopelns",
+    "level": "B2"
+  },
+  {
+    "de": "Verdruss",
+    "de_article": "der",
+    "de_plural": "die Verdrusse",
+    "lv": "Nepatika • Sarūgtinajums • Īgnums",
+    "level": "B2"
+  },
+  {
+    "de": "verdünnen",
+    "lv": "Padarīt tievāku • Ķīm. atšķaidīt • Vājināt",
+    "level": "B2"
+  },
+  {
+    "de": "verehren",
+    "lv": "Godāt • Cienīt • Sar. [uz]dāvināt",
+    "level": "B2"
+  },
+  {
+    "de": "vereinigen",
+    "lv": "Apvienot • Savienot",
+    "level": "B2"
+  },
+  {
+    "de": "sich vereinigen",
+    "lv": "Informações sobre",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-vereinigen",
+      "layout": "minimalStudy",
+      "translation": "Informações sobre",
+      "rektion": "mit + kam?",
+      "explanation": "Sich nereinigen nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Sich nereinigen"
+          ],
+          "red": [
+            "mit + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Vereinigung",
+    "de_article": "die",
+    "de_plural": "die Vereinigungen",
+    "lv": "Savienība • Sabiedrība • Savienošana",
+    "level": "B2"
+  },
+  {
+    "de": "vererben",
+    "lv": "Atstat Nodot mantojuma",
+    "level": "B2"
+  },
+  {
+    "de": "Verfahren",
+    "de_article": "das",
+    "de_plural": "die Verfahren",
+    "lv": "Rīcība • Izturēšanās • Paņēmiens • Methode • Jur. processo • Lieta",
+    "level": "B2"
+  },
+  {
+    "de": "Verfall",
+    "de_article": "der",
+    "de_plural": "die Verfälle",
+    "lv": "Sabrukums • Panīkums • Pagrimums",
+    "level": "B2"
+  },
+  {
+    "de": "verfallen",
+    "lv": "Sabrukt • Sagrūt • Panīkt • Pagrimt",
+    "level": "B2"
+  },
+  {
+    "de": "Verfasser",
+    "de_article": "der",
+    "de_plural": "die Verfasser",
+    "lv": "Sacerētājs • Autores",
+    "level": "B2"
+  },
+  {
+    "de": "verfügen",
+    "lv": "Nota • Pavēlēt • Norīkot",
+    "level": "B2"
+  },
+  {
+    "de": "Verfügung",
+    "de_article": "die",
+    "de_plural": "die Verfügungen",
+    "lv": "Rikojums",
+    "level": "B2"
+  },
+  {
+    "de": "verführen",
+    "lv": "Alemanha • Alemanha",
+    "level": "B2"
+  },
+  {
+    "de": "vergeblich",
+    "lv": "Velts • Veltīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Vergehen",
+    "de_article": "das",
+    "de_plural": "die Vergehen",
+    "lv": "Parkapums",
+    "level": "B2"
+  },
+  {
+    "de": "vergeuden",
+    "lv": "Izšķiest • Izšķērdēt",
+    "level": "B2"
+  },
+  {
+    "de": "vergiften",
+    "lv": "Saindēt • Noindēt",
+    "level": "B2"
+  },
+  {
+    "de": "verhandeln",
+    "lv": "Appriesties • Colete Sarunas",
+    "level": "B2"
+  },
+  {
+    "de": "verhasst",
+    "lv": "Ienistas • Neieredzēts",
+    "level": "B2"
+  },
+  {
+    "de": "verheeren",
+    "lv": "Izpostit",
+    "level": "B2"
+  },
+  {
+    "de": "verhöhnen",
+    "lv": "Izsmiet • Izzobot",
+    "level": "B2"
+  },
+  {
+    "de": "Verhör",
+    "de_article": "das",
+    "de_plural": "die Verhöre",
+    "lv": "[não] pratināšana",
+    "level": "B2"
+  },
+  {
+    "de": "verhören",
+    "lv": "[não] pratinat",
+    "level": "B2"
+  },
+  {
+    "de": "sich verhören",
+    "lv": "Parques",
+    "level": "B2"
+  },
+  {
+    "de": "verhüten",
+    "lv": "Novembro • Izsargāties",
+    "level": "B2"
+  },
+  {
+    "de": "Verlauf",
+    "de_article": "der",
+    "de_plural": "die Verläufe",
+    "lv": "Gaita de foles • Norise",
+    "level": "B2"
+  },
+  {
+    "de": "Verleger",
+    "de_article": "der",
+    "de_plural": "die Verleger",
+    "lv": "Izdevējs",
+    "level": "B2"
+  },
+  {
+    "de": "Verleih",
+    "de_article": "der",
+    "de_plural": "die Verleihe",
+    "lv": "Nome",
+    "level": "B2"
+  },
+  {
+    "de": "Vermächtnis",
+    "de_article": "das",
+    "de_plural": "die Vermächtnisse",
+    "lv": "Testamentos",
+    "level": "B2"
+  },
+  {
+    "de": "Vermerk",
+    "de_article": "der",
+    "de_plural": "die Vermerke",
+    "lv": "Piezīme • Atzīme",
+    "level": "B2"
+  },
+  {
+    "de": "Vermögen",
+    "de_article": "das",
+    "de_plural": "die Vermögen",
+    "lv": "Īpašums",
+    "level": "B2"
+  },
+  {
+    "de": "Vermutung",
+    "de_article": "die",
+    "de_plural": "die Vermutungen",
+    "lv": "Pieņēmums • Hipoteze",
+    "level": "B2"
+  },
+  {
+    "de": "Vernehmung",
+    "de_article": "die",
+    "de_plural": "die Vernehmungen",
+    "lv": "Política nopratināšana",
+    "level": "B2"
+  },
+  {
+    "de": "Verrat",
+    "de_article": "der",
+    "lv": "Nodeviba",
+    "level": "B2"
+  },
+  {
+    "de": "Vers",
+    "de_article": "der",
+    "de_plural": "die Verse",
+    "lv": "Calça",
+    "level": "B2"
+  },
+  {
+    "de": "Versager",
+    "de_article": "der",
+    "de_plural": "die Versager",
+    "lv": "Zaudētājs • Neveiksminieks",
+    "level": "B2"
+  },
+  {
+    "de": "Verschluss",
+    "de_article": "der",
+    "de_plural": "die Verschlüsse",
+    "lv": "Aiztaisāmais • Aizslēgs",
+    "level": "B2"
+  },
+  {
+    "de": "Versehen",
+    "de_article": "das",
+    "de_plural": "die Versehen",
+    "lv": "Kļūda • Pārskatīšanas",
+    "level": "B2"
+  },
+  {
+    "de": "verkommen",
+    "lv": "Panīkt • Pagrimt • Paklīst",
+    "level": "B2"
+  },
+  {
+    "de": "verkörpern",
+    "lv": "Iemiesot",
+    "level": "B2"
+  },
+  {
+    "de": "verkraften",
+    "lv": "Morele kracht behouden om iets onaangenaams te overwinnen",
+    "level": "B2"
+  },
+  {
+    "de": "verkümmern",
+    "lv": "Pânica",
+    "level": "B2"
+  },
+  {
+    "de": "verkünden",
+    "lv": "Paziņot • Pasludināt",
+    "level": "B2"
+  },
+  {
+    "de": "verleumden",
+    "lv": "Apmelot • Nomelnot",
+    "level": "B2"
+  },
+  {
+    "de": "vermehren",
+    "lv": "Vairot • Pavairot",
+    "level": "B2"
+  },
+  {
+    "de": "sich vermehren",
+    "lv": "Vairoties",
+    "level": "B2"
+  },
+  {
+    "de": "vermessen",
+    "lv": "Uzmérito",
+    "level": "B2"
+  },
+  {
+    "de": "vermindern",
+    "lv": "[pa]mazinat",
+    "level": "B2"
+  },
+  {
+    "de": "vermitteln",
+    "lv": "Mas por starpnieku • Sagādāt • Veicināt",
+    "level": "B2"
+  },
+  {
+    "de": "vermögend",
+    "lv": "Turīgs • Particis",
+    "level": "B2"
+  },
+  {
+    "de": "verneinen",
+    "lv": "Noliegt",
+    "level": "B2"
+  },
+  {
+    "de": "vernichten",
+    "lv": "Iznīcināt • Izpostīt",
+    "level": "B2"
+  },
+  {
+    "de": "verordnen",
+    "lv": "Nota • Dot rīkojumu • Med. parakstīt",
+    "level": "B2"
+  },
+  {
+    "de": "verpfänden",
+    "lv": "Ieķīlāt",
+    "level": "B2"
+  },
+  {
+    "de": "verrechnen",
+    "lv": "Aprēķināt",
+    "level": "B2"
+  },
+  {
+    "de": "verrenken",
+    "lv": "Izmežģīt",
+    "level": "B2"
+  },
+  {
+    "de": "versagen",
+    "lv": "Liegt • Atteikt • Noraidīt • Neklausīt • Atteikties kalpot • Izrādīties gļēvam un nevarīgam",
+    "level": "B2"
+  },
+  {
+    "de": "sich versehen",
+    "lv": "Aizmirst • Aprikot ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-versehen",
+      "layout": "minimalStudy",
+      "translation": "Aizmirst • Aprikot ar",
+      "rektion": "mit + kam?",
+      "explanation": "Sich vershen nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Sich vershen"
+          ],
+          "red": [
+            "mit + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "versetzen",
+    "lv": "Pārvietot • Parcelt",
+    "level": "B2"
+  },
+  {
+    "de": "verseuchen",
+    "lv": "Piesarņot",
+    "level": "B2"
+  },
+  {
+    "de": "versiegeln",
+    "lv": "Aizzīmogot",
+    "level": "B2"
+  },
+  {
+    "de": "versinken",
+    "lv": "Nogrimt",
+    "level": "B2"
+  },
+  {
+    "de": "versöhnen",
+    "lv": "Samierinat",
+    "level": "B2"
+  },
+  {
+    "de": "sich versöhnen",
+    "lv": "Samierināties ar",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-versoehnen",
+      "layout": "minimalStudy",
+      "translation": "Samierināties ar",
+      "rektion": "mit + kam?",
+      "explanation": "Sich versöhnen nepieciešams noteikts prievārds mit + kam?.",
+      "forms": "mit + kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich versöhnen"
+          ],
+          "red": [
+            "mit + kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "verspielen",
+    "lv": "Paspēlēt • Pazaudēt",
+    "level": "B2"
+  },
+  {
+    "de": "verspotten",
+    "lv": "Izzobot • Izsmiet",
+    "level": "B2"
+  },
+  {
+    "de": "verständig",
+    "lv": "Pratīgs • Saprātīgs",
+    "level": "B2"
+  },
+  {
+    "de": "verstauchen",
+    "lv": "Izmežģīt",
+    "level": "B2"
+  },
+  {
+    "de": "versteigern",
+    "lv": "Pardot issolē",
+    "level": "B2"
+  },
+  {
+    "de": "sich verstellen",
+    "lv": "Par de Uzdotíes",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-verstellen",
+      "layout": "minimalStudy",
+      "translation": "Par de Uzdotíes",
+      "rektion": "als + ko?",
+      "explanation": "Sich verstellen nepieciešams noteikts prievārds als + ko?.",
+      "forms": "als + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verstellen"
+          ],
+          "red": [
+            "als + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Verstorbene",
+    "de_article": "der",
+    "de_plural": "die Verstorbenen",
+    "lv": "Aizgājējs • Mirušais",
+    "level": "B2"
+  },
+  {
+    "de": "Versuchung",
+    "de_article": "die",
+    "de_plural": "die Versuchungen",
+    "lv": "Kardinajums",
+    "level": "B2"
+  },
+  {
+    "de": "vertagen",
+    "lv": "Atlikt • Nolikt",
+    "level": "B2"
+  },
+  {
+    "de": "vertiefen",
+    "lv": "Padziļinat",
+    "level": "B2"
+  },
+  {
+    "de": "Vertretung",
+    "de_article": "die",
+    "de_plural": "die Vertretungen",
+    "lv": "Aizvietošana • Aizstāšana • Pārstāvība • Pārstāvēšana",
+    "level": "B2"
+  },
+  {
+    "de": "verwalten",
+    "lv": "Pārvaldīt",
+    "level": "B2"
+  },
+  {
+    "de": "verwandeln",
+    "lv": "Parveidot",
+    "level": "B2"
+  },
+  {
+    "de": "verweigern",
+    "lv": "Ligidades • Ateikties",
+    "level": "B2"
+  },
+  {
+    "de": "verweilen",
+    "lv": "Pakavēties",
+    "level": "B2"
+  },
+  {
+    "de": "Verweis",
+    "de_article": "der",
+    "de_plural": "die Verweise",
+    "lv": "Aizrādījums • Rājiens",
+    "level": "B2"
+  },
+  {
+    "de": "Verwendung",
+    "de_article": "die",
+    "de_plural": "die Verwendungen",
+    "lv": "Izlietošana",
+    "level": "B2"
+  },
+  {
+    "de": "verwickeln",
+    "lv": "Samudžināt • Pārn. iepīt • Iejaukt",
+    "level": "B2"
+  },
+  {
+    "de": "verwirren",
+    "lv": "Sajaukt • Samudžināt • Samulsināt",
+    "level": "B2"
+  },
+  {
+    "de": "Verwirrung",
+    "de_article": "die",
+    "de_plural": "die Verwirrungen",
+    "lv": "Sajaukšana • Samulsums",
+    "level": "B2"
+  },
+  {
+    "de": "verwöhnen",
+    "lv": "Lutinat • Izlutinat",
+    "level": "B2"
+  },
+  {
+    "de": "verwundern",
+    "lv": "Radit izbrīnu",
+    "level": "B2"
+  },
+  {
+    "de": "sich verwundern",
+    "lv": "Par de Brinidades",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-verwundern",
+      "layout": "minimalStudy",
+      "translation": "Par de Brinidades",
+      "rektion": "über + ko?",
+      "explanation": "Sich verwundern nepieciešams noteikts prievārds über + ko?.",
+      "forms": "über + ko?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verwundern"
+          ],
+          "red": [
+            "über + ko?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Verwüstung",
+    "de_article": "die",
+    "de_plural": "die Verwüstungen",
+    "lv": "Verwoesting",
+    "level": "B2"
+  },
+  {
+    "de": "Verzeichnis",
+    "de_article": "das",
+    "de_plural": "die Verzeichnisse",
+    "lv": "Sarakstes",
+    "level": "B2"
+  },
+  {
+    "de": "verzögern",
+    "lv": "Novilcinato",
+    "level": "B2"
+  },
+  {
+    "de": "sich verzögern",
+    "lv": "Aizkavēties • Novilcināties",
+    "level": "B2"
+  },
+  {
+    "de": "verzollen",
+    "lv": "Muito",
+    "level": "B2"
+  },
+  {
+    "de": "verzweifeln",
+    "lv": "Izmista",
+    "level": "B2"
+  },
+  {
+    "de": "verzweifelt",
+    "lv": "Izmisies • Izmisīgs • Izmisuma pilns",
+    "level": "B2"
+  },
+  {
+    "de": "Viehbestand",
+    "de_article": "der",
+    "de_plural": "die Viehbestände",
+    "lv": "Lopu [kop]skaits",
+    "level": "B2"
+  },
+  {
+    "de": "Viehzucht",
+    "de_article": "die",
+    "de_plural": "die Viehzuchten",
+    "lv": "Lopkopiba",
+    "level": "B2"
+  },
+  {
+    "de": "Vielfalt",
+    "de_article": "die",
+    "lv": "Diversidade",
+    "level": "B2"
+  },
+  {
+    "de": "vielseitig",
+    "lv": "Daudzpusīgs",
+    "level": "B2"
+  },
+  {
+    "de": "visuell",
+    "lv": "Visuais",
+    "level": "B2"
+  },
+  {
+    "de": "Volkszählung",
+    "de_article": "die",
+    "de_plural": "die Volkszählungen",
+    "lv": "Oficial tautas skaitīšana",
+    "level": "B2"
+  },
+  {
+    "de": "vollbringen",
+    "lv": "Paveikt • Izdarīt",
+    "level": "B2"
+  },
+  {
+    "de": "vollenden",
+    "lv": "Pabeigt",
+    "level": "B2"
+  },
+  {
+    "de": "vollkommen",
+    "lv": "Pilnīgs • Pilnīgi • Pavisam",
+    "level": "B2"
+  },
+  {
+    "de": "Vollmacht",
+    "de_article": "die",
+    "de_plural": "die Vollmachten",
+    "lv": "Pilnvara",
+    "level": "B2"
+  },
+  {
+    "de": "vollzählig",
+    "lv": "Pilnā skaitā esošs",
+    "level": "B2"
+  },
+  {
+    "de": "vollziehen",
+    "lv": "Izpildit",
+    "level": "B2"
+  },
+  {
+    "de": "Volumen",
+    "de_article": "das",
+    "de_plural": "die Volumen",
+    "lv": "Apjoms • Tilpums",
+    "level": "B2"
+  },
+  {
+    "de": "Vorahnung",
+    "de_article": "die",
+    "de_plural": "die Vorahnungen",
+    "lv": "Priekšnojauta",
+    "level": "B2"
+  },
+  {
+    "de": "voran",
+    "lv": "Pa priekšu • Priekšā • Priekšgalā",
+    "level": "B2"
+  },
+  {
+    "de": "voraussehen",
+    "lv": "Paredzet",
+    "level": "B2"
+  },
+  {
+    "de": "voraussetzen",
+    "lv": "Prasīt • Mas por priekšnoteikumu",
+    "level": "B2"
+  },
+  {
+    "de": "Vorbehalt",
+    "de_article": "der",
+    "de_plural": "die Vorbehalte",
+    "lv": "Nosacījums",
+    "level": "B2"
+  },
+  {
+    "de": "vorbestraft",
+    "lv": "Ar iepriekšēju sodāmību",
+    "level": "B2"
+  },
+  {
+    "de": "vorbeugen",
+    "lv": "Novembro",
+    "level": "B2"
+  },
+  {
+    "de": "Vorbildung",
+    "de_article": "die",
+    "de_plural": "die Vorbildungen",
+    "lv": "Priekšzināšanas • Sagatavotība",
+    "level": "B2"
+  },
+  {
+    "de": "vorder",
+    "lv": "Priekšējs",
+    "level": "B2"
+  },
+  {
+    "de": "Vordergrund",
+    "de_article": "der",
+    "de_plural": "die Vordergründe",
+    "lv": "Planos Prieks",
+    "level": "B2"
+  },
+  {
+    "de": "vordringen",
+    "lv": "Izlauzties uz priekšu",
+    "level": "B2"
+  },
+  {
+    "de": "Vorfall",
+    "de_article": "der",
+    "de_plural": "die Vorfälle",
+    "lv": "Atgadījums • Notikums",
+    "level": "B2"
+  },
+  {
+    "de": "vorfristig",
+    "lv": "Pirmstermiņa • Pirms termiņa",
+    "level": "B2"
+  },
+  {
+    "de": "Vorkehrung",
+    "de_article": "die",
+    "de_plural": "die Vorkehrungen",
+    "lv": "Aizsardzibas Pasakumi",
+    "level": "B2"
+  },
+  {
+    "de": "Vorliebe",
+    "de_article": "die",
+    "de_plural": "die Vorlieben",
+    "lv": "Sevišķa patika",
+    "level": "B2"
+  },
+  {
+    "de": "vornehmen",
+    "lv": "Izdarīt • Veikt • Ķerties • Kaut ko apņemties",
+    "level": "B2"
+  },
+  {
+    "de": "vornherein",
+    "lv": "Pašā sākuma",
+    "level": "B2"
+  },
+  {
+    "de": "Vorrecht",
+    "de_article": "das",
+    "de_plural": "die Vorrechte",
+    "lv": "Voorrecht • Voorrecht",
+    "level": "B2"
+  },
+  {
+    "de": "vorsätzlich",
+    "lv": "Apzināts • Ar nolūku",
+    "level": "B2"
+  },
+  {
+    "de": "Vorspiel",
+    "de_article": "das",
+    "de_plural": "die Vorspiele",
+    "lv": "Prólogos • Priekšspele • Uvertīra",
+    "level": "B2"
+  },
+  {
+    "de": "Vorsprung",
+    "de_article": "der",
+    "de_plural": "die Vorsprünge",
+    "lv": "Izcilnis • Pārākums • Pārsvars",
+    "level": "B2"
+  },
+  {
+    "de": "Vorstand",
+    "de_article": "der",
+    "de_plural": "die Vorstände",
+    "lv": "Valde • Priekšniecība • Vadība • Priekšnieks",
+    "level": "B2"
+  },
+  {
+    "de": "Vorstrafe",
+    "de_article": "die",
+    "de_plural": "die Vorstrafen",
+    "lv": "Iepriekšēja sodāmība",
+    "level": "B2"
+  },
+  {
+    "de": "vortragen",
+    "lv": "Lasīt lekciju • Izpildīt • Deklamēt • Atskaņot",
+    "level": "B2"
+  },
+  {
+    "de": "vortrefflich",
+    "lv": "Teicams • Lieliscos",
+    "level": "B2"
+  },
+  {
+    "de": "Vorverkauf",
+    "de_article": "der",
+    "de_plural": "die Vorverkäufe",
+    "lv": "Iepriekšpardosana",
+    "level": "B2"
+  },
+  {
+    "de": "Vorwahl",
+    "de_article": "die",
+    "de_plural": "die Vorwahlen",
+    "lv": "Tālruņa sarunā cita pilsētas vai valsts kods",
+    "level": "B2"
+  },
+  {
+    "de": "Vorwand",
+    "de_article": "der",
+    "de_plural": "die Vorwände",
+    "lv": "Iegansts • Aizbildināšanas",
+    "level": "B2"
+  },
+  {
+    "de": "Vorwort",
+    "de_article": "das",
+    "de_plural": "die Vorworte",
+    "lv": "Prieksvards",
+    "level": "B2"
+  },
+  {
+    "de": "Vorwurf",
+    "de_article": "der",
+    "de_plural": "die Vorwürfe",
+    "lv": "Parmetum",
+    "level": "B2"
+  },
+  {
+    "de": "vorzeitig",
+    "lv": "Priekšlaicīgs • Paragrs",
+    "level": "B2"
+  },
+  {
+    "de": "vorzüglich",
+    "lv": "Teicams • Lieliscos",
+    "level": "B2"
+  },
+  {
+    "de": "Wacholder",
+    "de_article": "der",
+    "de_plural": "die Wacholder",
+    "lv": "Paeglis • Kadiķis",
+    "level": "B2"
+  },
+  {
+    "de": "Wachsamkeit",
+    "de_article": "die",
+    "de_plural": "die Wachsamkeiten",
+    "lv": "Modrība • Vērīgums",
+    "level": "B2"
+  },
+  {
+    "de": "Wade",
+    "de_article": "die",
+    "de_plural": "die Waden",
+    "lv": "Ikri",
+    "level": "B2"
+  },
+  {
+    "de": "Wahlbezirk",
+    "de_article": "der",
+    "de_plural": "die Wahlbezirke",
+    "lv": "Vēlēšanu apgabals",
+    "level": "B2"
+  },
+  {
+    "de": "Wahlfach",
+    "de_article": "das",
+    "de_plural": "die Wahlfächer",
+    "lv": "Fakultatīvs priekšmets skolā vai augstskolā",
+    "level": "B2"
+  },
+  {
+    "de": "Wahlkampf",
+    "de_article": "der",
+    "de_plural": "die Wahlkämpfe",
+    "lv": "Vēlēšanu cīņa",
+    "level": "B2"
+  },
+  {
+    "de": "Wahlrecht",
+    "de_article": "das",
+    "de_plural": "die Wahlrechte",
+    "lv": "Kiesrecht",
+    "level": "B2"
+  },
+  {
+    "de": "Wählscheibe",
+    "de_article": "die",
+    "de_plural": "die Wählscheiben",
+    "lv": "Talruņa ciparu ripa",
+    "level": "B2"
+  },
+  {
+    "de": "wahren",
+    "lv": "Saglabat",
+    "level": "B2"
+  },
+  {
+    "de": "wahrnehmen",
+    "lv": "Uztvert",
+    "level": "B2"
+  },
+  {
+    "de": "Waisenheim",
+    "de_article": "das",
+    "de_plural": "die Waisenheime",
+    "lv": "Bāreņu patversme",
+    "level": "B2"
+  },
+  {
+    "de": "Wall",
+    "de_article": "der",
+    "de_plural": "die Wälle",
+    "lv": "Valnis • Uzbeuros",
+    "level": "B2"
+  },
+  {
+    "de": "wankelmütig",
+    "lv": "Svārstīgs",
+    "level": "B2"
+  },
+  {
+    "de": "wanken",
+    "lv": "Grīļoties • Pārn. svārstīties",
+    "level": "B2"
+  },
+  {
+    "de": "Warenausgabe",
+    "de_article": "die",
+    "de_plural": "die Warenausgaben",
+    "lv": "Pirkumu controla um izsniegšana",
+    "level": "B2"
+  },
+  {
+    "de": "Warnanlage",
+    "de_article": "die",
+    "de_plural": "die Warnanlagen",
+    "lv": "Sinalização ontem",
+    "level": "B2"
+  },
+  {
+    "de": "Wartung",
+    "de_article": "die",
+    "de_plural": "die Wartungen",
+    "lv": "Apkope",
+    "level": "B2"
+  },
+  {
+    "de": "Wasserspiegel",
+    "de_article": "der",
+    "de_plural": "die Wasserspiegel",
+    "lv": "Ūdens līmenis • Ūdens virsma",
+    "level": "B2"
+  },
+  {
+    "de": "Wasserstoff",
+    "de_article": "der",
+    "de_plural": "die Wasserstoffe",
+    "lv": "Ūdeņradis",
+    "level": "B2"
+  },
+  {
+    "de": "Wasserwerfer",
+    "de_article": "der",
+    "de_plural": "die Wasserwerfer",
+    "lv": "Polícia Automática – ūdensmetējs",
+    "level": "B2"
+  },
+  {
+    "de": "weben",
+    "lv": "Agosto",
+    "level": "B2"
+  },
+  {
+    "de": "Weber",
+    "de_article": "der",
+    "de_plural": "die Weber",
+    "lv": "Audejs",
+    "level": "B2"
+  },
+  {
+    "de": "Wegstrecke",
+    "de_article": "die",
+    "de_plural": "die Wegstrecken",
+    "lv": "Posmos de Ceļa • Gabals",
+    "level": "B2"
+  },
+  {
+    "de": "Wegwerfware",
+    "de_article": "die",
+    "de_plural": "die Wegwerfwaren",
+    "lv": "Temos o prazer de recebê-lo",
+    "level": "B2"
+  },
+  {
+    "de": "Wehe",
+    "de_article": "die",
+    "de_plural": "die Wehen",
+    "lv": "Kapa • Kupena",
+    "level": "B2"
+  },
+  {
+    "de": "Wehrdienst",
+    "de_article": "der",
+    "de_plural": "die Wehrdienste",
+    "lv": "Karadienestos",
+    "level": "B2"
+  },
+  {
+    "de": "Wehrpflicht",
+    "de_article": "die",
+    "lv": "Karaklausiba",
+    "level": "B2"
+  },
+  {
+    "de": "Weib",
+    "de_article": "das",
+    "de_plural": "die Weiber",
+    "lv": "ELE. neve. Sim",
+    "level": "B2"
+  },
+  {
+    "de": "Weinbau",
+    "de_article": "der",
+    "lv": "Vinkopiba",
+    "level": "B2"
+  },
+  {
+    "de": "Weise",
+    "de_article": "der",
+    "de_plural": "die Weisen",
+    "lv": "O homem esperto",
+    "level": "B2"
+  },
+  {
+    "de": "weitsichtig",
+    "lv": "Talredzigs",
+    "level": "B2"
+  },
+  {
+    "de": "Welpe",
+    "de_article": "der",
+    "de_plural": "die Welpen",
+    "lv": "Kucens",
+    "level": "B2"
+  },
+  {
+    "de": "Weltlage",
+    "de_article": "die",
+    "de_plural": "die Weltlagen",
+    "lv": "Starptautiskais stavoklis",
+    "level": "B2"
+  },
+  {
+    "de": "Weltmacht",
+    "de_article": "die",
+    "de_plural": "die Weltmächte",
+    "lv": "Lielvalstas",
+    "level": "B2"
+  },
+  {
+    "de": "Weltraumfahrt",
+    "de_article": "die",
+    "lv": "Kosmiskais lidojums",
+    "level": "B2"
+  },
+  {
+    "de": "Wendepunkt",
+    "de_article": "der",
+    "de_plural": "die Wendepunkte",
+    "lv": "Pontos Paversiena",
+    "level": "B2"
+  },
+  {
+    "de": "Werft",
+    "de_article": "die",
+    "de_plural": "die Werften",
+    "lv": "Kuģu būvetava",
+    "level": "B2"
+  },
+  {
+    "de": "Werkbank",
+    "de_article": "die",
+    "de_plural": "die Werkbänke",
+    "lv": "Darbgalda",
+    "level": "B2"
+  },
+  {
+    "de": "Werkhalle",
+    "de_article": "die",
+    "de_plural": "die Werkhallen",
+    "lv": "Chehs",
+    "level": "B2"
+  },
+  {
+    "de": "Werkstoff",
+    "de_article": "der",
+    "de_plural": "die Werkstoffe",
+    "lv": "Materiais",
+    "level": "B2"
+  },
+  {
+    "de": "Werktätige",
+    "de_article": "der",
+    "de_plural": "die Werktätigen",
+    "lv": "Stradājošais",
+    "level": "B2"
+  },
+  {
+    "de": "Werkteil",
+    "de_article": "der",
+    "de_plural": "die Werkteile",
+    "lv": "Detalhes",
+    "level": "B2"
+  },
+  {
+    "de": "Wertpapier",
+    "de_article": "das",
+    "de_plural": "die Wertpapiere",
+    "lv": "Vērtspapirs",
+    "level": "B2"
+  },
+  {
+    "de": "Wesen",
+    "de_article": "das",
+    "de_plural": "die Wesen",
+    "lv": "Būtne • Radijums • Būtība • Raksturs",
+    "level": "B2"
+  },
+  {
+    "de": "Wettlauf",
+    "de_article": "der",
+    "de_plural": "die Wettläufe",
+    "lv": "Sp. skriešanās sacīkstes • Skriešanās",
+    "level": "B2"
+  },
+  {
+    "de": "Wettrennen",
+    "de_article": "das",
+    "de_plural": "die Wettrennen",
+    "lv": "Sacīkstes • Skrējiens",
+    "level": "B2"
+  },
+  {
+    "de": "Wettrudern",
+    "de_article": "das",
+    "lv": "Airēšanas sacīkstes",
+    "level": "B2"
+  },
+  {
+    "de": "Wettschwimmen",
+    "de_article": "das",
+    "lv": "Peldēšanas sacīkstes",
+    "level": "B2"
+  },
+  {
+    "de": "wichsen",
+    "lv": "Spodrinato",
+    "level": "B2"
+  },
+  {
+    "de": "wider",
+    "lv": "Você também é engenhoso.",
+    "level": "B2"
+  },
+  {
+    "de": "widerlegen",
+    "lv": "Atspekot",
+    "level": "B2"
+  },
+  {
+    "de": "widerlich",
+    "lv": "Pretīgs • Riebīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Widerrede",
+    "de_article": "die",
+    "de_plural": "die Widerreden",
+    "lv": "Iebildums",
+    "level": "B2"
+  },
+  {
+    "de": "sich widersetzen",
+    "lv": "Pretoties • Stāties pretī",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-widersetzen",
+      "layout": "minimalStudy",
+      "translation": "Pretoties • Stāties pretī",
+      "rektion": "+ kam?",
+      "explanation": "Sich broadsetzen prasa + kam?.",
+      "forms": "+ kam?",
+      "formsLabel": "Vadība:",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Sich"
+          ],
+          "red": [
+            "+ kam?"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "Widmung",
+    "de_article": "die",
+    "de_plural": "die Widmungen",
+    "lv": "Veltījums",
+    "level": "B2"
+  },
+  {
+    "de": "Wiederaufbau",
+    "de_article": "der",
+    "lv": "Restauração • Wederopbouw",
+    "level": "B2"
+  },
+  {
+    "de": "wiedergeben",
+    "lv": "Atdot • Reproduzir • Atveidot",
+    "level": "B2"
+  },
+  {
+    "de": "wildern",
+    "lv": "Nodarboties ar malumedniecību",
+    "level": "B2"
+  },
+  {
+    "de": "Willkür",
+    "de_article": "die",
+    "lv": "Patvaļa",
+    "level": "B2"
+  },
+  {
+    "de": "Windbeutel",
+    "de_article": "der",
+    "de_plural": "die Windbeutel",
+    "lv": "Veja kūka",
+    "level": "B2"
+  },
+  {
+    "de": "winden",
+    "lv": "Vīt · Tīt · Pīt",
+    "level": "B2"
+  },
+  {
+    "de": "zielbewusst",
+    "lv": "Mērķtiecīgs",
+    "level": "B2"
+  },
+  {
+    "de": "Zivildienst",
+    "de_article": "der",
+    "de_plural": "die Zivildienste",
+    "lv": "Civildienests karadienesta vietā",
+    "level": "B2"
+  },
+  {
+    "de": "zollfrei",
+    "lv": "Brivs não muitas",
+    "level": "B2"
+  },
+  {
+    "de": "zollpflichtig",
+    "lv": "Pacotes Muitai",
+    "level": "B2"
+  },
+  {
+    "de": "Zucht",
+    "de_article": "die",
+    "de_plural": "die Zuchten",
+    "lv": "Audzināšana • Audzēšana",
+    "level": "B2"
+  },
+  {
+    "de": "Zuckerrübe",
+    "de_article": "die",
+    "de_plural": "die Zuckerrüben",
+    "lv": "Cukurbiete",
+    "level": "B2"
+  },
+  {
+    "de": "zuerkennen",
+    "lv": "Piepriest • Piešķirt",
+    "level": "B2"
+  },
+  {
+    "de": "Zuflucht",
+    "de_article": "die",
+    "lv": "Patvērums",
+    "level": "B2"
+  },
+  {
+    "de": "Zufluss",
+    "de_article": "der",
+    "de_plural": "die Zuflüsse",
+    "lv": "Pieteka",
+    "level": "B2"
+  },
+  {
+    "de": "zureden",
+    "lv": "Pierunat",
+    "level": "B2"
+  },
+  {
+    "de": "zürnen",
+    "lv": "Dusmoties",
+    "level": "B2"
+  },
+  {
+    "de": "zurückprallen",
+    "lv": "Atlēkt atpakaļ",
+    "level": "B2"
+  },
+  {
+    "de": "zurückweisen",
+    "lv": "Noraidit",
+    "level": "B2"
+  },
+  {
+    "de": "Zusage",
+    "de_article": "die",
+    "de_plural": "die Zusagen",
+    "lv": "Piekritoša atbilde",
+    "level": "B2"
+  },
+  {
+    "de": "zusammenfügen",
+    "lv": "Savienot",
+    "level": "B2"
+  },
+  {
+    "de": "zusammenlegen",
+    "lv": "Likt • Salikt [kopā]",
+    "level": "B2"
+  },
+  {
+    "de": "zuschneiden",
+    "lv": "Piegriezt",
+    "level": "B2"
+  },
+  {
+    "de": "zuströmen",
+    "lv": "Pieplūst",
+    "level": "B2"
+  },
+  {
+    "de": "zuteilen",
+    "lv": "Iedalīt • Piešķirt",
+    "level": "B2"
+  },
+  {
+    "de": "zutrauen",
+    "lv": "Gaidīt • Domāt spējīgu",
+    "level": "B2"
+  },
+  {
+    "de": "Zuversicht",
+    "de_article": "die",
+    "de_plural": "die Zuversichten",
+    "lv": "Paļāvība",
+    "level": "B2"
+  },
+  {
+    "de": "Zuwachs",
+    "de_article": "der",
+    "de_plural": "die Zuwächse",
+    "lv": "Pieugums",
+    "level": "B2"
+  },
+  {
+    "de": "zuweisen",
+    "lv": "Piešķirt • Norīkot",
+    "level": "B2",
+    "study": {
+      "id": "b2-zuweisen",
+      "layout": "standardStudy",
+      "translation": "Piešķirt • Norīkot",
+      "explanation": "Galvenā doma: zuweisen nozīmē oficiāli piešķirt vai norīkot — uzdevumu, lomu, resursu vai naudu konkrētai personai vai nodaļai. Sadalāms: weise... zu.",
+      "examples": [
+        {
+          "de": "Der Chef weist ihm eine neue Aufgabe zu.",
+          "lv": "Priekšnieks viņam piešķir jaunu uzdevumu."
+        },
+        {
+          "de": "Die Mittel wurden dem Projekt zugewiesen.",
+          "lv": "Projetos Līdzekļi tika piešķirti."
+        },
+        {
+          "de": "Sie wurde einer anderen Abteilung zugewiesen.",
+          "lv": "Viņu norīkoja uz citu nodaļu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zuweisen",
+          "meaning": "Piešķirt • Norīkot",
+          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
+        },
+        {
+          "word": "geben",
+          "meaning": "Ver",
+          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
+        },
+        {
+          "word": "verteilen",
+          "meaning": "Sadalita",
+          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Zuweisen uzsver oficiālu piešķiršanu — darbā, administraācijā, projetos."
+          }
+        ]
+      },
+      "important": {
+        "text": "Zuweisen = oficiāli piešķirt vai norīkot. Perfeito: zugewiesen. Sadalāms: weise... zu."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "zuweisen",
+            "weise",
+            "zu"
+          ],
+          "purple": [
+            "piešķirt",
+            "norīkot"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "weist",
+                "zu"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piešķir"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zugewiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piešķirti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zugewiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "norīkoja"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Zuwendung",
+    "de_article": "die",
+    "de_plural": "die Zuwendungen",
+    "lv": "Pabalstos",
+    "level": "B2"
+  },
+  {
+    "de": "zuwider",
+    "lv": "Pret • Pretēji • Nepatikt",
+    "level": "B2",
+    "study": {
+      "id": "b2-zuwider",
+      "layout": "standardStudy",
+      "translation": "Pret • Pretēji • Nepatikt",
+      "explanation": "Adestramento Galvenā: zuwider ir vārds ar vairākām funkcijām. Kā prievārds + datīvs tas nozīmē “pret, pretēji”: mir zuwider. Kā daļa no izteiciena jemandem zuwider sein/laufen nozīmē „kādam nepatikt, kļūt nepatīkams”. Ne jaukt ar mais largo (pret).",
+      "examples": [
+        {
+          "de": "Er handelte mir zuwider.",
+          "lv": "Hij handelde tegen mijn wil."
+        },
+        {
+          "de": "Sein Benehmen ist mir zuwider.",
+          "lv": "Viņa uzvedība man nepatik."
+        },
+        {
+          "de": "Das läuft mir zuwider.",
+          "lv": "Tas man nepatīk / tas mani apbēdina."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zuwider (+ Dat.)",
+          "meaning": "Pret • Pretēji",
+          "example": "mir zuwider = Pret manu gribu"
+        },
+        {
+          "word": "jemandem zuwider sein",
+          "meaning": "Kādam nepatikt",
+          "example": "Es ist mir zuwider. = Man tas nepatik."
+        },
+        {
+          "word": "wider",
+          "meaning": "Pret (Prievārds)",
+          "example": "wider den Willen = Pret gribu"
+        },
+        {
+          "word": "widersprechen",
+          "meaning": "Iebilst • Nepiekrist",
+          "example": "Ich widerspreche. = É iebilstu."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Pamatnozīme: pret / pretēji (mir zuwider). Idiomas: jemandem zuwider sein/laufen = kādam nepatikt."
+          }
+        ]
+      },
+      "important": {
+        "text": "Zuwider + datīvs = pret, pretēji. zuwider sein = nepatikt. Tas nav tas taps, kas wide."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "zuwider"
+          ],
+          "purple": [
+            "pret",
+            "nepatikt"
+          ],
+          "green": [
+            "wider"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hij"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nepatīk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nepatīk"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "zwanglos",
+    "lv": "Brīvs • Nepiespiests",
+    "level": "B2"
+  },
+  {
+    "de": "zweckmäßig",
+    "lv": "Lietderīgs",
+    "level": "B2"
+  },
+  {
+    "de": "zweifellos",
+    "lv": "Neapšaubāms",
+    "level": "B2"
+  },
+  {
+    "de": "Zwielicht",
+    "de_article": "das",
+    "lv": "Kresla",
+    "level": "B2"
+  },
+  {
+    "de": "Zwirn",
+    "de_article": "der",
+    "de_plural": "die Zwirne",
+    "lv": "Morrer",
+    "level": "B2"
+  },
+  {
+    "de": "Zwischenfall",
+    "de_article": "der",
+    "de_plural": "die Zwischenfälle",
+    "lv": "Starpgadījums",
+    "level": "B2"
+  },
+  {
+    "de": "Zwischenraum",
+    "de_article": "der",
+    "de_plural": "die Zwischenräume",
+    "lv": "Atstarpe • Starptelpa",
+    "level": "B2"
+  },
+  {
+    "de": "ändern",
+    "lv": "Manutenção • Labot",
+    "level": "B2",
+    "study": {
+      "id": "b2-aendern",
+      "layout": "standardStudy",
+      "translation": "Manutenção • Labot",
+      "explanation": [
+        "Galvenā doma: Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
+        "Ändern galvenokārt nozīmē: labot vai mainīt detaļu.",
+        "Bieži raksturo: konkrētu lietu.",
+        "Ändern happy, kad maina planu, termiņu, adresi vai kādu detaļu."
+      ],
+      "examples": [
+        {
+          "de": "Ich ändere den Termin.",
+          "lv": "É o terminal principal."
+        },
+        {
+          "de": "Kannst du die Adresse ändern?",
+          "lv": "Você vai a vários endereços principais?"
+        },
+        {
+          "de": "Wir ändern unseren Plan.",
+          "lv": "Mēs mainām savu planu."
+        },
+        {
+          "de": "Ich ändere den Termin.",
+          "lv": "É o terminal principal."
+        },
+        {
+          "de": "ändern",
+          "lv": "Detalhes principais • Wechseln"
+        }
+      ],
+      "tip": [
+        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
+        "Izmanto ändern, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "ändern = mainīt konkrētu lietu (Termin, Adresse, Plan).",
+        "Plāns, termiņš, adrese: ändern.",
+        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ändern"
+          ],
+          "purple": [
+            "mainīt",
+            "labot"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ände"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "terminal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändern",
+                "ändern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Você"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändern",
+                "ändern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mainām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ände"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "terminal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändern",
+                "ändern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Detalhes"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "mainīt"
+            ]
+          },
+          {}
+        ],
+        "important": [
+          {
+            "blue": [
+              "ändern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "wechseln",
+    "lv": "Samainīt • Nomainīt",
+    "level": "B2",
+    "study": {
+      "id": "b2-wechseln",
+      "layout": "standardStudy",
+      "translation": "Samainīt • Nomainīt",
+      "explanation": [
+        "Galvenā doma: Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
+        "Wechseln galvenokārt nozīmē: nomainīt pret citu.",
+        "Bieži raksturo: apmaiņu / maiņu.",
+        "Wechseln happy, kad kaut ko samaina vai nomaina pret citu — naudu, drēbes, darbu, skolu vai tēmu."
+      ],
+      "examples": [
+        {
+          "de": "Ich wechsle die Schule.",
+          "lv": "É a escola principal."
+        },
+        {
+          "de": "Ich muss Geld wechseln.",
+          "lv": "Man jasamaina nauda."
+        },
+        {
+          "de": "Wir wechseln das Thema.",
+          "lv": "Mēs mainām tēmu."
+        },
+        {
+          "de": "Ich wechsle die Schule.",
+          "lv": "É a escola principal."
+        }
+      ],
+      "tip": [
+        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu.",
+        "Izmanto wechseln, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "wechseln = samainīt vai nomainīt pret citu (Geld, Schule, Thema).",
+        "Nauda, skola, darbs, tēma: wechseln.",
+        "Samainīt vai nomainīt kaut ko pret citu — naudu, drēbes, darbu, skolu, tēmu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "wechseln"
+          ],
+          "purple": [
+            "samainīt",
+            "nomainīt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "wechsle"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "wechseln",
+                "wechseln"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "wechseln",
+                "wechseln"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "wechsle"
+              ]
+            },
+            "lv": {}
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "samainīt"
+            ]
+          },
+          {
+            "purple": [
+              "nomainīt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "wechseln"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "bieten",
+    "lv": "Piedavāt • Sniegt",
+    "level": "B2",
+    "study": {
+      "id": "b2-bieten",
+      "layout": "standardStudy",
+      "translation": "Piedavāt • Sniegt",
+      "explanation": [
+        "Galvenā doma: Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko proíbe vai programa sniedz.",
+        "Bieten galvenokārt nozīmē: sniegt iespēju / labumu.",
+        "Bieži raksturo: ko proibir/agendar dod.",
+        "Bieten galvenokārt nozīmē: nodrošināt iespēju.",
+        "Bieži raksturo: formalālāk.",
+        "Bieten bieži apraksta, ko proibir, programa vai pakalpojums sniedz (Die Schule bietet viele Kurse)."
+      ],
+      "examples": [
+        {
+          "de": "Die Schule bietet viele Kurse.",
+          "lv": "Skola piedava daudz kursu."
+        },
+        {
+          "de": "Darf ich Ihnen etwas anbieten?",
+          "lv": "Vai drīkstu jums kaut ko piedāvāt?"
+        },
+        {
+          "de": "Die Schule bietet viele Kurse.",
+          "lv": "Skola piedava daudz kursu."
+        },
+        {
+          "de": "Die App bietet Sicherheit.",
+          "lv": "Lietotne nodrošina drošību."
+        },
+        {
+          "de": "bieten",
+          "lv": "Ko kaut kas sniedz • Anbieten"
+        }
+      ],
+      "tip": [
+        "Piedāvāt iespējas, kursus, pakalpojumus vai labumu — ko vieta vai programma sniedz.",
+        "Izmanto bieten, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "bieten: Die Schule bietet Kurse. (nesadalāms)",
+        "Ko vieta/programma sniedz: bieten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bieten"
+          ],
+          "purple": [
+            "piedāvāt",
+            "sniegt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "biete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bieten",
+                "bieten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "biete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "biete"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "bieten",
+                "bieten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sniedz"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "piedāvāt"
+            ]
+          },
+          {
+            "purple": [
+              "sniedz"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "bieten"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "anbieten",
+    "lv": "Piedavat",
+    "level": "B2",
+    "study": {
+      "id": "b2-anbieten",
+      "layout": "standardStudy",
+      "translation": "Piedavat",
+      "explanation": "Galvenā doma: anbieten nozīmē aktīvi piedāvāt kādam—palīdzību, dzērienu, darbu vai pakalpojumu. Sadalāms darbības vārds: ich biete an, er bietet an. Uzsver initiatīvu no piedāvātāja que você colocou.",
+      "examples": [
+        {
+          "de": "Ich biete dir meine Hilfe an.",
+          "lv": "É tev piedāvāju savu palīdzību."
+        },
+        {
+          "de": "Darf ich Ihnen etwas anbieten?",
+          "lv": "Vai drīkstu jums kaut ko piedāvāt?"
+        },
+        {
+          "de": "Das Unternehmen bietet neue Stellen an.",
+          "lv": "Uzņēmums piedāvā jaunas darba proíbe."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anbieten",
+          "meaning": "Piedavāt (aktīvi)",
+          "example": "Ich biete Hilfe an. = É piedāvāju palīdzību."
+        },
+        {
+          "word": "bieten",
+          "meaning": "Piedavāt • Ponto",
+          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
+        },
+        {
+          "word": "vorschlagen",
+          "meaning": "Ierosinato",
+          "example": "Ich schlage vor. = É erosinu."
+        }
+      ],
+      "tip": {
+        "leftBlocks": [
+          {
+            "text": "Anbieten uzsver, ka kāds aktīvi piedāvā kaut ko konkrētai personai: Ich biete dir... an."
+          }
+        ]
+      },
+      "important": {
+        "text": "Anbieten = piedāvāt aktīvi. Sadalāms: beterraba... um. Perfeito: angeboten."
+      },
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "anbieten",
+            "biete",
+            "an"
+          ],
+          "purple": [
+            "piedāvāt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "biete",
+                "an"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvāju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "bietet",
+                "an"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedāvā"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "fordern",
+    "lv": "Pieprasīt • Prasīt",
+    "level": "B2",
+    "study": {
+      "id": "b2-fordern",
+      "layout": "standardStudy",
+      "translation": "Pieprasīt • Prasīt",
+      "explanation": [
+        "Galvenā doma: Pieprasīt naudu, tiesības, izmaiņas vai pienākumu—aktīva prasība.",
+        "Fordern galvenokārt nozīmē: prasīt / pieprasīt.",
+        "Bieži raksturo: ativo prasība.",
+        "Fordern galvenokārt nozīmē: pieprasīt standartu.",
+        "Bieži raksturo: formal.",
+        "Fordern feliz, kad kāds prasa naudu, tiesības, izmaiņas vai pienākumu (Sie fordert mehr Geld)."
+      ],
+      "examples": [
+        {
+          "de": "Sie fordert mehr Geld.",
+          "lv": "Viņa prasa vairāk naudas."
+        },
+        {
+          "de": "Wir fordern mehr Transparenz.",
+          "lv": "Mēs pieprasām lielāku caurskatāmību."
+        },
+        {
+          "de": "Sie fordert mehr Geld.",
+          "lv": "Viņa prasa vairāk naudas."
+        },
+        {
+          "de": "Wir fordern mehr Sicherheit.",
+          "lv": "Mēs pieprasām lielāku drošību."
+        },
+        {
+          "de": "fordern",
+          "lv": "Prasīt • Fördern"
+        }
+      ],
+      "tip": [
+        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība.",
+        "Izmanto fordern, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "fordern = pieprasīt / prasīt (bez ö).",
+        "Prasība, pieprasījums: fordern (bez ö).",
+        "Pieprasīt naudu, tiesības, izmaiņas vai pienākumu — aktīva prasība."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fordern"
+          ],
+          "purple": [
+            "pieprasīt",
+            "prasīt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "forde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prasa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordern",
+                "fordern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieprasām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "forde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prasa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordern",
+                "fordern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieprasām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordern",
+                "fordern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prasīt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "pieprasīt"
+            ]
+          },
+          {
+            "purple": [
+              "prasīt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "fordern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "fördern",
+    "lv": "Veicināt • Atbalstīt",
+    "level": "B2",
+    "study": {
+      "id": "b2-foerdern",
+      "layout": "standardStudy",
+      "translation": "Veicināt • Atbalstīt",
+      "explanation": [
+        "Galvenā doma: Veicināt attīstību, atbalstīt cilvēku, projeto vai processu.",
+        "Fördern galvenokārt nozīmē: veicināt attīstību.",
+        "Bieži raksturo: atbalsts / progresso.",
+        "Fördern galvenokārt nozīmē: iegūt derīgos izrakteņus.",
+        "Bieži raksturo: rūpniecībā.",
+        "Fördern galvenokārt nozīmē: attīstīt talantu.",
+        "Bieži raksturo: izglītībā.",
+        "Fördern nozīmē veicināt attīstību, atbalstīt cilvēku vai project (Sport fördert die Gesundheit)."
+      ],
+      "examples": [
+        {
+          "de": "Sport fördert die Gesundheit.",
+          "lv": "Veicina veselību esportes."
+        },
+        {
+          "de": "Sport fördert die Gesundheit.",
+          "lv": "Veicina veselību esportes."
+        },
+        {
+          "de": "In der Region wird Öl gefördert.",
+          "lv": "Reģionā iegūst naftu."
+        },
+        {
+          "de": "Die Schule fördert begabte Kinder.",
+          "lv": "Skola atbalsta apdāvinātus bērnus."
+        }
+      ],
+      "tip": [
+        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu.",
+        "Izmanto fördern, kad konteksts atbilst šai nozīmei."
+      ],
+      "important": [
+        "fördern = veicināt / atbalstīt (ar ö).",
+        "Veicināšana, atbalsts: fördern (ar ö).",
+        "Veicināt attīstību, atbalstīt cilvēku, projektu vai procesu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "green": [
+            "fördern"
+          ],
+          "purple": [
+            "veicināt",
+            "atbalstīt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "förde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veicina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "förde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "veicina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gefördert"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "förde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atbalsta"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "veicināt"
+            ]
+          },
+          {
+            "purple": [
+              "atbalstīt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "fördern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "sich verlaufen",
+    "lv": "Amaldidades",
+    "level": "B2",
+    "study": {
+      "id": "b2-sich-verlaufen",
+      "layout": "minimalStudy",
+      "translation": "Amaldidades",
+      "explanation": "Sich velaufen nozīmē apmaldīties. Tam nav fiksēta prievārda. Nav jaucams ar velaufen (norisināties).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Sich velaufen"
+          ],
+          "purple": [
+            "apmaldīties"
+          ],
+          "red": [
+            "velaufen"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "de": "verlaufen",
+    "lv": "Norisināties • Ritēt",
+    "level": "B2",
+    "study": {
+      "id": "b2-verlaufen",
+      "layout": "minimalStudy",
+      "translation": "Norisināties • Ritēt",
+      "explanation": "Verlaufen (bez sich) nozīmē norisināties vai ritēt. Nav sinônimos ar sich velaufen (apmaldīties).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verlaufen"
+          ],
+          "purple": [
+            "norisināties",
+            "ritēt"
+          ],
+          "red": [
+            "Verlaufen"
+          ]
+        }
+      }
+    }
+  }
+];
+
+window.B2_WORDS = B2_WORDS;
