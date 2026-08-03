@@ -16,26 +16,26 @@ window.LANGUAGE_UI_STRINGS = {
   "menu": {
     "mainNav": "Glavni meni",
     "course": "Tečaj",
-    "sentences": "Stavki",
+    "sentences": "Rečenice",
     "verbs": "Glagoli",
-    "chooseGroup": "Izberite skupino"
+    "chooseGroup": "Odaberite grupu"
   },
   "groups": {
-    "sentences": "Stavki"
+    "sentences": "Rečenice"
   },
   "nav": {
-    "backHome": "Vrnite se v glavni meni",
-    "changeLanguage": "Spremenite svoj materni jezik",
+    "backHome": "Povratak na glavni meni",
+    "changeLanguage": "Promijenite maternji jezik",
     "howItWorks": "kako deluje",
     "quickTools": "Hitra orodja"
   },
   "buttons": {
-    "known": "Točno vem",
+    "known": "Znam",
     "unknown": "ne vem",
     "next": "naslednjo besedo",
-    "check": "Preverite",
+    "check": "Provjerite",
     "continue": "Nadaljuj",
-    "close": "skoraj",
+    "close": "Zatvori",
     "delete": "Izbriši",
     "cancel": "Zavrnitev",
     "restore": "Okrevanje",
