@@ -3,14 +3,14 @@ const A1_WORDS = [
     "de": "Apfel",
     "de_article": "der",
     "de_plural": "die Äpfel",
-    "lv": "Jabolko.",
+    "lv": "jabuka",
     "level": "A1"
   },
   {
     "de": "Brot",
     "de_article": "das",
     "de_plural": "die Brote",
-    "lv": "Sveže.",
+    "lv": "kruh",
     "level": "A1"
   },
   {
@@ -28,7 +28,7 @@ const A1_WORDS = [
   },
   {
     "de": "lernen",
-    "lv": "Raziskave",
+    "lv": "učiti",
     "level": "A1"
   },
   {
@@ -252,7 +252,7 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "V • Da • Predstavitev",
+    "lv": "Na • Na površini • Na ivici",
     "level": "A1",
     "study": {
       "id": "a1-an",
