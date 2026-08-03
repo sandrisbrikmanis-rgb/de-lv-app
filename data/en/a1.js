@@ -433,12 +433,12 @@ const A1_WORDS = [
               "an"
             ],
             "purple": [
-              "pie"
+              "by"
             ],
             "green": [
-              "sienas",
-              "loga",
-              "malas"
+              "wall",
+              "window",
+              "edge"
             ]
           }
         },
@@ -451,7 +451,7 @@ const A1_WORDS = [
         ]
       },
       "tip": {
-        "text": "Atceries: pie sienas/loga/malas → an."
+        "text": "Remember: by the wall/window/edge → an."
       },
       "important": [
         "an is not just any 'at'. This often means next to a surface, wall, window or edge.",
@@ -715,7 +715,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: pretstats/iebilde → aber."
+        "text": "Remember: contrast/objection → aber."
       },
       "sectionAccents": {
         "examples": [
@@ -809,8 +809,8 @@ const A1_WORDS = [
               "aber"
             ],
             "purple": [
-              "pretstats",
-              "iebilde"
+              "contrast",
+              "objection"
             ]
           }
         },
@@ -1675,7 +1675,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: auf + das → aufs (kurp?, kurp?).",
+        "Remember: auf + das → aufs (where to?).",
         "The full auf das is almost never spoken colloquially - aufs is used."
       ],
       "important": [
@@ -1881,7 +1881,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kurp?",
+              "where to?",
               "auf das"
             ]
           }
@@ -3779,7 +3779,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: vidus dzimte → das; ka → dass."
+        "text": "Remember: neuter gender → das; that → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -3852,7 +3852,7 @@ const A1_WORDS = [
               "das"
             ],
             "purple": [
-              "vidus dzimte"
+              "neuter gender"
             ],
             "red": [
               "dass"
@@ -3919,7 +3919,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: ka → dass."
+        "text": "Remember: that → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -4028,7 +4028,7 @@ const A1_WORDS = [
               "dass"
             ],
             "purple": [
-              "ka"
+              "that"
             ]
           }
         },
@@ -4930,7 +4930,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: laiks/skaits → erst; daudzums → nur."
+        "text": "Remember: time/count → erst; amount → nur."
       },
       "accents": {
         "blue": [
@@ -5037,11 +5037,11 @@ const A1_WORDS = [
               "nur"
             ],
             "green": [
-              "laiks",
-              "skaits"
+              "time",
+              "count"
             ],
             "purple": [
-              "daudzums"
+              "amount"
             ]
           }
         },
@@ -7567,7 +7567,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: Ich habe → man ir."
+        "text": "Remember: Ich habe → I have."
       },
       "important": [
         "Latvian \"I have\" = German Ich habe + accusative. Do not use the dative case: wrong *mir habe.",
@@ -7709,7 +7709,7 @@ const A1_WORDS = [
               "Ich habe"
             ],
             "purple": [
-              "man ir"
+              "I have"
             ]
           }
         },
@@ -8085,7 +8085,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: Ich heiße... → mani sauc..."
+        "text": "Remember: Ich heiße... → my name is..."
       },
       "important": [
         "Wie heißt du? means \"What's your name?\", not literally \"what's your name?\".",
@@ -8230,7 +8230,7 @@ const A1_WORDS = [
               "Ich heiße"
             ],
             "purple": [
-              "mani sauc"
+              "my name is"
             ]
           }
         },
@@ -8777,7 +8777,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + dem → im (kam?, kur?).",
+        "Remember: in + dem → im (to whom?, where?).",
         "Where? → ins; where? → im - don't confuse these two!"
       ],
       "important": [
@@ -8982,7 +8982,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kur?"
+              "where?"
             ]
           }
         ],
@@ -9218,7 +9218,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + das → ins (kurp?, kurp?).",
+        "Remember: in + das → ins (where to?).",
         "Where? → ins; where? → im - this is the main point of difference!"
       ],
       "important": [
@@ -9430,7 +9430,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kurp?"
+              "where to?"
             ]
           }
         ],
@@ -12150,7 +12150,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: tu noliec → legen; lieta jau atrodas → liegen."
+        "text": "Remember: you lay down → legen; object already lies → liegen."
       },
       "important": [
         "legen un liegen nav viens un tas pats.",
@@ -12312,11 +12312,11 @@ const A1_WORDS = [
               "legen"
             ],
             "purple": [
-              "noliec"
+              "lay down"
             ],
             "red": [
               "liegen",
-              "atrodas"
+              "lies"
             ]
           }
         },
@@ -12776,7 +12776,7 @@ const A1_WORDS = [
   {
     "de": "Liter",
     "de_article": "der",
-    "de_plural": "die litre",
+    "de_plural": "die Liter",
     "lv": "litre",
     "level": "A1",
     "study": {
@@ -12845,7 +12845,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: Was machst du? = Ko tu dari?"
+        "text": "Remember: Was machst du? = What are you doing?"
       },
       "important": [
         "machen is a very broad word, but Latvian often has to be translated naturally according to the situation.",
@@ -12942,7 +12942,7 @@ const A1_WORDS = [
               "Was machst du"
             ],
             "purple": [
-              "ko tu dari"
+              "what are you doing"
             ]
           }
         },
@@ -13324,7 +13324,7 @@ const A1_WORDS = [
   {
     "de": "Meter",
     "de_article": "der",
-    "de_plural": "die metre",
+    "de_plural": "die Meter",
     "lv": "metre",
     "level": "A1"
   },
@@ -16105,7 +16105,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: Das passt. = Tas der."
+        "text": "Remember: Das passt. = That fits."
       },
       "important": [
         "passen is not just about clothing.",
@@ -16254,7 +16254,7 @@ const A1_WORDS = [
               "Das passt"
             ],
             "purple": [
-              "tas der"
+              "that fits"
             ]
           }
         },
@@ -17673,7 +17673,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: ich bin = es esmu; du bist = tu esi."
+        "text": "Remember: ich bin = I am; du bist = you are."
       },
       "important": [
         "sein forms must be learned separately: bin, bist, ist, sind.",
@@ -17809,8 +17809,8 @@ const A1_WORDS = [
               "du bist"
             ],
             "purple": [
-              "es esmu",
-              "tu esi"
+              "I am",
+              "you are"
             ]
           }
         },
@@ -20191,7 +20191,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: zem galda → unter dem Tisch."
+        "text": "Remember: under the table → unter dem Tisch."
       },
       "important": [
         "unter can also mean \"between\", especially with people or groups.",
@@ -20347,7 +20347,7 @@ const A1_WORDS = [
               "unter dem Tisch"
             ],
             "purple": [
-              "zem galda"
+              "under the table"
             ]
           }
         },
@@ -20742,7 +20742,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: von + dem → vom (kam?).",
+        "Remember: von + dem → vom (from whom?).",
         "In colloquial speech, you almost never say von dem - use vom."
       ],
       "important": [
@@ -23049,7 +23049,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: zu + dem → zum (kam?).",
+        "Remember: zu + dem → zum (to whom?).",
         "For feminine words: zu + der → zur."
       ],
       "important": [

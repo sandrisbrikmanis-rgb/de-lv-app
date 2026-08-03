@@ -3375,7 +3375,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Gehen wir ins theatre?",
+    "de": "Gehen wir ins Theater?",
     "lv": "Shall we go to the theatre?",
     "level": "Sätze"
   },
@@ -3705,7 +3705,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Was kostet das metre?",
+    "de": "Was kostet das Meter?",
     "lv": "How much does a metre cost?",
     "level": "Sätze"
   },
@@ -3715,7 +3715,7 @@ const SENTENCE_ENTRIES = [
     "level": "Sätze"
   },
   {
-    "de": "Schneiden Sie mir bitte drei metre ab.",
+    "de": "Schneiden Sie mir bitte drei Meter ab.",
     "lv": "Please cut three meters.",
     "level": "Sätze"
   },
