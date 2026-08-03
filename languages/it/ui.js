@@ -79,7 +79,7 @@ window.LANGUAGE_UI_STRINGS = {
     "intense": "Intensiivne"
   },
   "direction": {
-    "deToNative": "Le code :",
+    "deToNative": "🔄 DE ➔ {code}",
     "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {

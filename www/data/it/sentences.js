@@ -1321,7 +1321,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist kein Freund von...",
-    "lv": "Hij houdt niet van...",
+    "lv": "Non è un amante di...",
     "level": "Sätze"
   },
   {
