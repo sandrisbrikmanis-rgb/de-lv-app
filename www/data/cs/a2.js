@@ -141,9 +141,9 @@ const A2_WORDS = [
           },
           {
             "purple": [
-              "češtiněě",
-              "češtiněě",
-              "češtiněě"
+              "češtině",
+              "češtině",
+              "češtině"
             ]
           }
         ]
@@ -153,7 +153,7 @@ const A2_WORDS = [
       },
       "important": [
         "Ab und zu znamená příležitostně, ne často nebo každý den.",
-        "V češtiněě jsou nejpřirozenější překlady tu a tam, někdy nebo čas od času."
+        "V češtině jsou nejpřirozenější překlady tu a tam, někdy nebo čas od času."
       ]
     }
   },
@@ -1328,7 +1328,7 @@ const A2_WORDS = [
       "id": "a2-absagen",
       "layout": "standardStudy",
       "translation": "Zrušit",
-      "explanation": "Hlavní myšlenka: absagen znamená zrušit schůzku nebo událost nebo odmítnout účast. absagen znamená zrušit domluvenou schůzku, událost nebo plán. Může to také znamenat odmítnutí účasti nebo prohlášení, že nemůžete přijít. U Termin, Treffen, Konzert nebo Einladung je často význam „zrušit“ nebo „odmítnout“. Není to totéž jako nein sagen, protože absagen obvykle označuje předem uspořádanou záležitost. V češtiněě byste měli vidět, zda je událost zrušena nebo zda se odmítáte zúčastnit.",
+      "explanation": "Hlavní myšlenka: absagen znamená zrušit schůzku nebo událost nebo odmítnout účast. absagen znamená zrušit domluvenou schůzku, událost nebo plán. Může to také znamenat odmítnutí účasti nebo prohlášení, že nemůžete přijít. U Termin, Treffen, Konzert nebo Einladung je často význam „zrušit“ nebo „odmítnout“. Není to totéž jako nein sagen, protože absagen obvykle označuje předem uspořádanou záležitost. V češtině byste měli vidět, zda je událost zrušena nebo zda se odmítáte zúčastnit.",
       "examples": [
         {
           "de": "Ich muss den Termin absagen.",
@@ -2766,7 +2766,7 @@ const A2_WORDS = [
       "id": "a2-angewandt",
       "layout": "standardStudy",
       "translation": "Aplikovaný • Aplikovaný • Praktický",
-      "explanation": "Hlavní myšlenka: angewandt znamená prakticky aplikovaný nebo aplikovaný. Používá se při uvádění teorie, vědy nebo metody do praxe. Na univerzitách a ve vědě angewandt často znamená aplikovaný, například angewandte Mathematik. Aplikovanou metodou nebo zákonem. To není totéž jako einfach nur praktisk, protože angewandt klade důraz na použití v praxi.",
+      "explanation": "Hlavní myšlenka: angewandt znamená prakticky aplikovaný nebo aplikovaný. Používá se při uvádění teorie, vědy nebo metody do praxe. Na univerzitách a ve vědě angewandt často znamená aplikovaný, například angewandte Mathematik. Aplikovanou metodou nebo zákonem. To není totéž jako einfach nur praktisch, protože angewandt klade důraz na použití v praxi.",
       "examples": [
         {
           "de": "Angewandte Mathematik ist sehr praktisch.",
@@ -8762,7 +8762,7 @@ const A2_WORDS = [
       "id": "a2-aufwenden",
       "layout": "standardStudy",
       "translation": "Věnovat",
-      "explanation": "Hlavní myšlenka: aufwenden znamená věnovat nebo investovat čas, energii nebo peníze na věc. Často se používá u Zeit, Mühe, Kraft nebo Geld. V češtiněě to není obyčejná „výdajová“ karta, protože často jde o vědomou investici. S penězi je prostě \"utrácení\" častěji ausgeben. S časem je \"utratit\" často verbinen.",
+      "explanation": "Hlavní myšlenka: aufwenden znamená věnovat nebo investovat čas, energii nebo peníze na věc. Často se používá u Zeit, Mühe, Kraft nebo Geld. V češtině to není obyčejná „výdajová“ karta, protože často jde o vědomou investici. S penězi je prostě \"utrácení\" častěji ausgeben. S časem je \"utratit\" často verbinen.",
       "examples": [
         {
           "de": "Wir müssen viel Zeit aufwenden.",
@@ -9695,7 +9695,7 @@ const A2_WORDS = [
       "id": "a2-auswählen",
       "layout": "standardStudy",
       "translation": "Vybrat si",
-      "explanation": "Hlavní myšlenka: auschällen znamená vybrat si nebo vybrat z několika možností. To často znamená záměrný výběr nejvhodnější možnosti. Používá se v nabídkách, seznamech, dotaznících a výběru kandidátů. auschällen je specifičtější než wählen, protože klade důraz na výběr z dané skupiny. V češtiněě je vhodné vybrat, vybrat nebo vybrat v závislosti na kontextu.",
+      "explanation": "Hlavní myšlenka: auswählen znamená vybrat si nebo vybrat z několika možností. To často znamená záměrný výběr nejvhodnější možnosti. Používá se v nabídkách, seznamech, dotaznících a výběru kandidátů. auswählen je specifičtější než wählen, protože klade důraz na výběr z dané skupiny. V češtině je vhodné vybrat, vybrat nebo vybrat v závislosti na kontextu.",
       "examples": [
         {
           "de": "Wählen Sie bitte eine Sprache aus.",
@@ -9752,7 +9752,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud vybíráte ze seznamu nebo nabídky, auschällen je velmi vhodné slovo."
+            "text": "Pokud vybíráte ze seznamu nebo nabídky, auswählen je velmi vhodné slovo."
           },
           {
             "text": "Wählen může také znamenat volit, takže v politickém kontextu to není totéž jako vählen."
@@ -16020,7 +16020,7 @@ const A2_WORDS = [
       "id": "a2-bitter",
       "layout": "standardStudy",
       "translation": "Hořký",
-      "explanation": "Hlavní myšlenka: hořký znamená hořkou chuť nebo drsný/bolestivý v přeneseném smyslu. hořký nejčastěji znamená hořký v chuti. Může to také znamenat prudký, ostrý nebo drsný pocit, zkušenost nebo slova. U kávy, bylinek a čokolády je obvykle hořká chuť. Pro ztrátu nebo pravdu, hořký znamená drsný nebo bolestivý. V češtiněě se ne vždy hodí pouze „hořký“.",
+      "explanation": "Hlavní myšlenka: hořký znamená hořkou chuť nebo drsný/bolestivý v přeneseném smyslu. hořký nejčastěji znamená hořký v chuti. Může to také znamenat prudký, ostrý nebo drsný pocit, zkušenost nebo slova. U kávy, bylinek a čokolády je obvykle hořká chuť. Pro ztrátu nebo pravdu, hořký znamená drsný nebo bolestivý. V češtině se ne vždy hodí pouze „hořký“.",
       "examples": [
         {
           "de": "Der Kaffee schmeckt bitter.",
@@ -16956,7 +16956,7 @@ const A2_WORDS = [
       "id": "a2-borgen",
       "layout": "standardStudy",
       "translation": "Půjčovat • Půjčovat",
-      "explanation": "Hlavní myšlenka: borgen může znamenat půjčit i půjčit a směr určuje věta. borgen může znamenat jak půjčovat, tak půjčovat. Směr je jasný podle osoby a dativu. Když něco vezmu od druhého, v češtiněě je to půjčit si. Pokud dám čas někomu jinému, v češtiněě je to půjčit. V každodenním životě se leihen také často používá s velmi podobným významem. Proto je třeba borgen číst v kontextu.",
+      "explanation": "Hlavní myšlenka: borgen může znamenat půjčit i půjčit a směr určuje věta. borgen může znamenat jak půjčovat, tak půjčovat. Směr je jasný podle osoby a dativu. Když něco vezmu od druhého, v češtině je to půjčit si. Pokud dám čas někomu jinému, v češtině je to půjčit. V každodenním životě se leihen také často používá s velmi podobným významem. Proto je třeba borgen číst v kontextu.",
       "examples": [
         {
           "de": "Kann ich mir dein Fahrrad borgen?",
@@ -19458,7 +19458,7 @@ const A2_WORDS = [
         "Hlavní myšlenka: damit znamená s, když odkazuje na věc, nebo nechat, když odkazuje na cíl.",
         "Pokud damit nahradí výše zmíněnou věc, překládá se to jako s tím.",
         "Když damit představí pomocnou branku, často se to překládá jako k.",
-        "Damit není totéž jako mit dem, i když obojí může v češtiněě vypadat podobně.",
+        "Damit není totéž jako mit dem, i když obojí může v češtině vypadat podobně.",
         "Pokud je „proto“ důvodem myšlenka, obvykle se místo slova damit používá deshalb."
       ],
       "examples": [
@@ -19939,7 +19939,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Der Dank je podstatné jméno • Danke je odpověď • Danken je sloveso.",
-        "example": "Vielen Dank! = Liels paldies! Ich danke dir. = Es tev pateicos. Danke! = Paldies!"
+        "example": "Vielen Dank! = Moc děkuji! Ich danke dir. = Děkuji ti. Danke! = Děkuji!"
       },
       "sectionAccents": {
         "explanation": {
@@ -20189,7 +20189,7 @@ const A2_WORDS = [
                 ],
                 "purple": [
                   "atbildei",
-                  "paldies"
+                  "děkuji"
                 ]
               }
             },
@@ -20232,9 +20232,9 @@ const A2_WORDS = [
                 "dir"
               ],
               "purple": [
-                "liels paldies",
-                "pateicos",
-                "paldies"
+                "Moc děkuji",
+                "Děkuji ti",
+                "děkuji"
               ]
             }
           }
@@ -25434,7 +25434,7 @@ const A2_WORDS = [
             "text": "Když eben doprovází čas, často to znamená „právě teď“ nebo „právě teď“."
           },
           {
-            "text": "Pokud eben zní jako postoj, v češtiněě je to často „jednoduše“, „no je to tak“ nebo „ale“."
+            "text": "Pokud eben zní jako postoj, v češtině je to často „jednoduše“, „no je to tak“ nebo „ale“."
           }
         ]
       },
@@ -27301,7 +27301,7 @@ const A2_WORDS = [
       "id": "a2-einschlafen",
       "layout": "standardStudy",
       "translation": "Usnout • Otupělý",
-      "explanation": "Hlavní myšlenka: einschlafen znamená usnout • Pro ruku nebo nohu to znamená znecitlivění. U člověka to obvykle znamená, že někdo usne. S částí těla einschlafen znamená, že se stává znecitlivělá. V češtiněě je „spát“ synonymem, ale hlavní význam A2 je „usnout“. Kontext vám napoví, zda jde o spánek nebo mravenčení.",
+      "explanation": "Hlavní myšlenka: einschlafen znamená usnout • Pro ruku nebo nohu to znamená znecitlivění. U člověka to obvykle znamená, že někdo usne. S částí těla einschlafen znamená, že se stává znecitlivělá. V češtině je „spát“ synonymem, ale hlavní význam A2 je „usnout“. Kontext vám napoví, zda jde o spánek nebo mravenčení.",
       "examples": [
         {
           "de": "Ich schlafe schnell ein.",
@@ -27352,7 +27352,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pokud jde o lidi a spánek, einschlafen se překládá jako usínání.",
-        "Pokud jde o ruku nebo nohu, eingeschlafen je v češtiněě obvykle otupělý."
+        "Pokud jde o ruku nebo nohu, eingeschlafen je v češtině obvykle otupělý."
       ],
       "important": [
         "Einschlafen není totéž co schlafen.",
@@ -28921,7 +28921,7 @@ const A2_WORDS = [
         "Sich erinnern se používá, když si člověk něco sám pamatuje.",
         "Tvar sich erinnern obvykle potřebuje zvratné zájmeno: ich erinnere mich, du erinnerst dich.",
         "Je proto důležité na úrovni A2 nezaměňovat erinnern se sich erinnern.",
-        "V češtiněě jsou obě slova podobná, ale v němčině se význam mění na sich."
+        "V češtině jsou obě slova podobná, ale v němčině se význam mění na sich."
       ],
       "examples": [
         {
@@ -29457,7 +29457,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pokud etwa stojí s číslem, nejprve přemýšlejte „o“.",
-        "Pokud se jedná o etwa, zkontrolujte, zda „nebo pak“ nebo „opravdu“ zní v češtiněě přirozeněji."
+        "Pokud se jedná o etwa, zkontrolujte, zda „nebo pak“ nebo „opravdu“ zní v češtině přirozeněji."
       ],
       "important": [
         "Etwa + číslo = asi.",
@@ -30969,7 +30969,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pokud v češtiněě řeknete „chybím“, němčina často používá mir fehlt.",
+        "Pokud v češtině řeknete „chybím“, němčina často používá mir fehlt.",
         "Pokud je myšlenka „potřebuji“, pak se častěji používá brauchen než fehlen."
       ],
       "important": [
@@ -33341,7 +33341,7 @@ const A2_WORDS = [
         "Pokud jde o lidský pohyb, Gang znamená chůze.",
         "V restauraci nebo na jídelním lístku může Gang znamenat chod jídla.",
         "V technickém kontextu může Gang znamenat zařízení, ale to není hlavní použití A2.",
-        "Českýé „tah“ obvykle není nejlepší první překlad pro tuto kartu."
+        "České „tah“ obvykle není nejlepší první překlad pro tuto kartu."
       ],
       "examples": [
         {
@@ -35390,7 +35390,7 @@ const A2_WORDS = [
         "S cenou, penězi nebo loterií znamená gewinnen vyhrát.",
         "Se zkušenostmi, časem nebo důvěrou může gewinnen znamenat zisk.",
         "Gewinnen není totéž co bekommen, protože bekommen znamená přijímat.",
-        "V češtiněě se musíte podívat na to, co přesně je gewonnen: hra, peníze, zkušenost nebo lidská důvěra."
+        "V češtině se musíte podívat na to, co přesně je gewonnen: hra, peníze, zkušenost nebo lidská důvěra."
       ],
       "examples": [
         {
@@ -35442,7 +35442,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pokud jde o hru, soutěž nebo soutěž, gewinnen často znamená vyhrát.",
-        "Pokud je předmětem cena nebo peníze, je přirozené vyhrát v češtiněě."
+        "Pokud je předmětem cena nebo peníze, je přirozené vyhrát v češtině."
       ],
       "important": [
         "Spiel gewinnen = vyhrát hru.",
@@ -35785,7 +35785,7 @@ const A2_WORDS = [
         "S vodou, čajem nebo jinou tekutinou může gießen znamenat nalít.",
         "Pokud velmi silně prší, německy se řekne Es gießt, ale je to hovorovější.",
         "Gießen není totéž co regnen, protože regnen je běžné slovo pro déšť.",
-        "V češtiněě se musíte podívat na předmět: květiny se zalévají, voda se nalévá."
+        "V češtině se musíte podívat na předmět: květiny se zalévají, voda se nalévá."
       ],
       "examples": [
         {
@@ -36848,7 +36848,7 @@ const A2_WORDS = [
       "translation": "Pověsit • Rozkaz",
       "explanation": [
         "Hlavní myšlenka: hängen znamená pověsit nebo pověsit něco na zeď, dveře nebo jiné místo.",
-        "Pokud je věc samotná na zdi nebo na háku, v češtiněě se obvykle říká, že visí.",
+        "Pokud je věc samotná na zdi nebo na háku, v češtině se obvykle říká, že visí.",
         "Pokud člověk něco položí na zeď, na háček nebo do skříně, hängen znamená pověsit nebo pověsit.",
         "V němčině může jediná forma popisovat stav i akci.",
         "Kontext ukazuje, zda obraz visí na zdi, nebo ho tam někdo visí."
@@ -38057,7 +38057,7 @@ const A2_WORDS = [
       "translation": "Dělá",
       "explanation": [
         "Hlavní myšlenka: Indem vysvětluje, jak se něco dělá.",
-        "V češtiněě se to často překládá jako něco dělat.",
+        "V češtině se to často překládá jako něco dělat.",
         "Indem není běžný význam slova zatímco.",
         "Pokud je myšlenka simultánní akcí, častěji se používá während.",
         "Na úrovni A2 je nejdůležitější pochopit vzorec: hlavní akce + jak se to děje."
@@ -38105,7 +38105,7 @@ const A2_WORDS = [
       "tip": [
         "Pokud můžete česky říci „...dělat něco“, indem se často používá v němčině.",
         "Pokud se chcete zeptat jakým způsobem?, hledejte stavbu s indem.",
-        "Pokud je v češtiněě myšlenka while, zkontrolujte, zda nepotřebujete während v němčině."
+        "Pokud je v češtině myšlenka while, zkontrolujte, zda nepotřebujete während v němčině."
       ],
       "important": [
         "Indem obvykle neříká jednoduše zatímco.",
@@ -44605,7 +44605,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Meinen často označuje názor nebo konkrétní myšlenku.",
-        "example": "Ich meine dich = es domāju tevi. Ich meine, dass ... = es uzskatu, ka ..."
+        "example": "Ich meine dich = Myslím tebe. Ich meine, dass ... = Myslím, že ..."
       },
       "sectionAccents": {
         "examples": [
@@ -44745,7 +44745,7 @@ const A2_WORDS = [
               "red": [
                 "konkrétní",
                 "Meinen",
-                "domāju",
+                "myšlenku",
                 "meinen",
                 "Meinen",
                 "Meinen"
@@ -44753,11 +44753,11 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "uzskatu",
-                "domāju",
+                "že",
+                "Myslím",
                 "dass",
                 "dich",
-                "tevi"
+                "tebe"
               ]
             }
           }
@@ -54015,7 +54015,7 @@ const A2_WORDS = [
       "id": "a2-schuld",
       "layout": "standardStudy",
       "translation": "Vina • Dluh • Odpovědnost",
-      "explanation": "Die Schuld nejčastěji znamená vinu nebo odpovědnost za to, co se stalo. Fráze Schuld haben znamená být vinen. jemandem die Schuld geben znamená vinit někoho. V množném čísle Schulden znamená dluhy. Schuld a Schulden je tedy třeba konkrétně rozlišovat. V češtiněě mají „vina“ a „dluh“ velmi odlišné významy.",
+      "explanation": "Die Schuld nejčastěji znamená vinu nebo odpovědnost za to, co se stalo. Fráze Schuld haben znamená být vinen. jemandem die Schuld geben znamená vinit někoho. V množném čísle Schulden znamená dluhy. Schuld a Schulden je tedy třeba konkrétně rozlišovat. V češtině mají „vina“ a „dluh“ velmi odlišné významy.",
       "examples": [
         {
           "de": "Das ist nicht meine Schuld.",
@@ -64836,7 +64836,7 @@ const A2_WORDS = [
             "text": "Když je vorstellen se sich and person, často to znamená stát před."
           },
           {
-            "text": "Pokud existuje sich etwas vorstellen, v češtiněě to bude téměř vždy „představit si“."
+            "text": "Pokud existuje sich etwas vorstellen, v češtině to bude téměř vždy „představit si“."
           }
         ]
       },
@@ -65752,7 +65752,7 @@ const A2_WORDS = [
       "id": "a2-während",
       "layout": "standardStudy",
       "translation": "Zatímco",
-      "explanation": "Während může být předložka s významem 'během'. Potom často následuje genitiv: während des Tages. Může to být také spojení s významem „zatímco“. Jako spojka zavádí pomocnou větu a sloveso v němčině je obvykle na konci věty. Proto je velmi důležité rozlišovat mezi předložkou a spojkou. Obojí v češtiněě často zní podobně.",
+      "explanation": "Während může být předložka s významem 'během'. Potom často následuje genitiv: während des Tages. Může to být také spojení s významem „zatímco“. Jako spojka zavádí pomocnou větu a sloveso v němčině je obvykle na konci věty. Proto je velmi důležité rozlišovat mezi předložkou a spojkou. Obojí v češtině často zní podobně.",
       "examples": [
         {
           "de": "Während des Tages arbeite ich.",

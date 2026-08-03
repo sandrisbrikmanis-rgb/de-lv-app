@@ -1064,14 +1064,14 @@ const A1_WORDS = [
               "deshalb"
             ],
             "purple": [
-              "Českýé"
+              "České"
             ]
           }
         ]
       },
       "important": [
         "Také ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
-        "Českýé „tak“ může být často také deshalb."
+        "České „tak“ může být často také deshalb."
       ]
     }
   },
@@ -2200,7 +2200,7 @@ const A1_WORDS = [
                 "Jdeme"
               ],
               "green": [
-                "ezerā"
+                "jezera"
               ]
             }
           },
@@ -5023,7 +5023,7 @@ const A1_WORDS = [
         "text": "Pamatujte: jídlo → zmrzlina • Zima/voda → led."
       },
       "important": [
-        "V češtiněě jsou zmrzlina a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
+        "V češtině jsou zmrzlina a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
         "Klíčový je kontext: jídlo znamená zmrzlinu, studený povrch nebo voda led."
       ],
       "sectionAccents": {
@@ -5211,8 +5211,8 @@ const A1_WORDS = [
               "das Eis"
             ],
             "purple": [
-              "češtiněě",
-              "češtiněě"
+              "češtině",
+              "češtině"
             ]
           },
           {
@@ -5621,15 +5621,15 @@ const A1_WORDS = [
               "es"
             ],
             "purple": [
-              "Českýé",
-              "Českýé"
+              "České",
+              "České"
             ]
           }
         ]
       },
       "important": [
         "Německé já není českýé já.",
-        "Českýé „já“ je v němčině ich • Německé es často znamená to/to nebo se nepřekládá."
+        "České „já“ je v němčině ich • Německé es často znamená to/to nebo se nepřekládá."
       ]
     }
   },
@@ -5704,7 +5704,7 @@ const A1_WORDS = [
       },
       "important": [
         "Etwas není totéž co nichts: etwas znamená něco, ale nichts neznamená nic.",
-        "V češtiněě něco zní lépe než něco, například: etwas trinken = něco pít."
+        "V češtině něco zní lépe než něco, například: etwas trinken = něco pít."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5900,8 +5900,8 @@ const A1_WORDS = [
               "etwas"
             ],
             "purple": [
-              "češtiněě",
-              "češtiněě"
+              "češtině",
+              "češtině"
             ]
           }
         ]
@@ -5957,13 +5957,13 @@ const A1_WORDS = [
         }
       ],
       "info": [
-        "Ihr = jūs (teikuma priekšmeta forma)",
-        "Euch = jūs (kurp? forma) / jums (kam? forma)",
-        "Euer = jūsu (piederības forma)"
+        "Ihr = vy (podmětová forma)",
+        "Euch = vás (přímý doplněk) / vám (dativ)",
+        "Euer = váš (přivlastňovací forma)"
       ],
       "tip": {
         "text": "\"euch\" odpovídá na otázku \"komu?\" nebo je přímým doplňkem ve větách s \"vy\".",
-        "example": "Es jums palīdzu. = Ich helfe euch. Es redzu jūs. = Ich sehe euch. Es stāstu jums. = Ich erzähle euch."
+        "example": "Pomáhám vám. = Ich helfe euch. Vidím vás. = Ich sehe euch. Vyprávím vám. = Ich erzähle euch."
       },
       "accents": {
         "blue": [
@@ -7002,7 +7002,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Pro • Pro",
       "explanation": [
-        "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ – obvykle pro nebo pro v češtiněě.",
+        "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ – obvykle pro nebo pro v češtině.",
         "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
         "Když mluvíme o výměně, poplatku nebo důvodu, für = pro (danke für das Geschenk = děkuji za dar).",
         "Für vždy vyžaduje akuzativ, bez ohledu na význam."
@@ -8127,7 +8127,7 @@ const A1_WORDS = [
       "translation": "Mám",
       "explanation": [
         "Hlavní myšlenka: haben znamená, že někdo má nebo má k něčemu přístup.",
-        "Českýá dativní konstrukce „I have / you have“ v němčině je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
+        "Česká dativní konstrukce „I have / you have“ v němčině je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
         "Po Habenovi následuje akuzativ: Ich habe ein Auto. = Mám auto.",
         "Haben se také používá jako pomocné sloveso v perfektu: Ich habe gelernt."
       ],
@@ -8175,7 +8175,7 @@ const A1_WORDS = [
         "text": "Pamatujte: Ich habe → Mám."
       },
       "important": [
-        "Českýé „mám“ = německé Ich habe + akuzativ. Nepoužívejte dativ: špatně *mir habe.",
+        "České „mám“ = německé Ich habe + akuzativ. Nepoužívejte dativ: špatně *mir habe.",
         "Se seinem a dativem: Mir ist kalt. = Je mi zima. (není to haben!)",
         "Dokonalé: Ich habe gelernt = naučil jsem se."
       ],
@@ -8335,7 +8335,7 @@ const A1_WORDS = [
               "habe"
             ],
             "purple": [
-              "Českýé"
+              "České"
             ]
           },
           {
@@ -10304,7 +10304,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: jung znamená mladý věk – používá se pro lidi a zvířata, ne pro věci.",
         "Jung popisuje věk – opak je alt (starý).",
-        "V češtiněě má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
+        "V češtině má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
         "Pro věci nedávno vytvořené nebo získané použijte neu, ne jung.",
         "Jung se používá i v přeneseném smyslu: nová generace, mladý pár, mladí lidé.",
         "Existuje také podstatné jméno die Jugend (mládí)."
@@ -11219,7 +11219,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: kosten znamená platit tak a tak - mluví o ceně věci.",
         "Toto slovo se používá, když se ptáte nebo říkáte, kolik něco stojí, ne když člověk platí.",
         "Otázka na cenu v němčině často začíná na Was kostet...?",
-        "Českýé slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
+        "České slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
         "Když člověk dá peníze za zboží nebo službu, němčina používá bezahlen nebo zahlen."
       ],
       "examples": [
@@ -11284,7 +11284,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Kosten a bezahlen nejsou synonyma: kosten = kolik to stojí • Bezahlen = platit peníze.",
-        "V češtiněě se v obou případech často používá plat, ale v němčině je třeba vybrat podle situace."
+        "V češtině se v obou případech často používá plat, ale v němčině je třeba vybrat podle situace."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11523,8 +11523,8 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "češtiněě",
-              "češtiněě"
+              "češtině",
+              "češtině"
             ]
           }
         ]
@@ -12123,7 +12123,7 @@ const A1_WORDS = [
         "Pokud jde o velikost nebo vzdálenost, lang = dlouhý (ein langer Tisch = dlouhý stůl).",
         "Pokud jde o délku času, lang = dlouhý (ein langer Tag = dlouhý den).",
         "Ve frázi den ganzen Tag lang to znamená celý den (na délku).",
-        "Českýé „garš“ a „ilgs“ jsou dvě různá slova, ale německý jazyk zahrnuje oba významy."
+        "České „dlouhý“ a „dlouhý“ jsou dvě různá slova, ale německý jazyk zahrnuje oba významy."
       ],
       "examples": [
         {
@@ -12165,8 +12165,8 @@ const A1_WORDS = [
             "lang"
           ],
           "purple": [
-            "garš",
-            "ilgs"
+            "dlouhý",
+            "dlouhý"
           ]
         },
         "examples": [
@@ -14785,7 +14785,7 @@ const A1_WORDS = [
       "translation": "Mít rád",
       "explanation": [
         "Hlavní myšlenka: mögen nejčastěji znamená mít něco rád.",
-        "Ich mag... je v češtiněě obvykle „Líbí se mi...“.",
+        "Ich mag... je v češtině obvykle „Líbí se mi...“.",
         "Möchte je další forma používaná pro zdvořilou touhu: chtěl bych.",
         "Na úrovni A1 je nejdůležitější fráze Ich mag das."
       ],
@@ -15379,7 +15379,7 @@ const A1_WORDS = [
       "translation": "Potřebovat",
       "explanation": [
         "Hlavní myšlenka: müssen znamená něco dělat.",
-        "V češtiněě se müssen často překládá jako „já ano...“, „ty ano...“, „my ano...“.",
+        "V češtině se müssen často překládá jako „já ano...“, „ty ano...“, „my ano...“.",
         "V německé větě je druhé sloveso obvykle na konci.",
         "Na úrovni A1 je nejdůležitější formou Ich muss..."
       ],
@@ -15424,7 +15424,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: Ich musis... = musím..."
+        "text": "Pamatujte: Ich muss... = musím..."
       },
       "important": [
         "Müssen je modální sloveso.",
@@ -15575,7 +15575,7 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "Ich musis"
+              "Ich muss"
             ],
             "purple": [
               "Pamatujte"
@@ -16113,7 +16113,7 @@ const A1_WORDS = [
         "text": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést."
       },
       "important": [
-        "Ich nehme den Bus znamená v češtiněě „řídím autobus“.",
+        "Ich nehme den Bus znamená v češtině „řídím autobus“.",
         "Nehmen není totéž jako přinést."
       ],
       "sectionAccents": {
@@ -16340,7 +16340,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: neu znamená nové z hlediska věci – nedávno vytvořené, zakoupené nebo poprvé použité.",
         "Neu popisuje věci, zařízení, oblečení, domy, nápady atd. — ne lidský nebo zvířecí věk.",
-        "V češtiněě má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
+        "V češtině má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
         "Pro věk člověka nebo zvířete se používá jung, nikoli neu.",
         "Neu se používá i přeneseně: nová práce, nová informace, nový začátek.",
         "Opakem je alt (starý) • Podstatné jméno das Neue znamená nový."
@@ -16860,7 +16860,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Nebo",
       "explanation": [
-        "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtiněě nejčastěji znamená popř.",
+        "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená popř.",
         "Ob se používá po slovech jako fragen, wissen, sehen, sagen, když neexistuje přímá otázka.",
         "Ob se obvykle nepoužívá v přímé otázce v němčině.",
         "Na úrovni A1 je důležité odlišit ob od oder."
@@ -17096,7 +17096,7 @@ const A1_WORDS = [
       "translation": "Nebo • Nebo",
       "explanation": [
         "Hlavní myšlenka: oder se používá, když volíme mezi dvěma nebo více možnostmi.",
-        "V češtiněě oder nejčastěji znamená popř.",
+        "V češtině oder nejčastěji znamená popř.",
         "Není to totéž jako ob, které zavádí nepřímou otázku.",
         "V rozhovorech může být oder i na konci věty: Du kommst, oder?"
       ],
@@ -18076,7 +18076,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: der Reis je jednotné číslo v němčině, ale obvykle rýže v češtiněě."
+        "text": "Pamatujte: der Reis je jednotné číslo v němčině, ale obvykle rýže v češtině."
       },
       "important": [
         "Der Reis - v němčině pouze jednotné číslo (Der Reis ist..., nicht *sind).",
@@ -19528,7 +19528,7 @@ const A1_WORDS = [
       "translation": "Sebe • Pro sebe",
       "explanation": [
         "Hlavní myšlenka: sich ukazuje, že akce se vztahuje k samotnému konateli.",
-        "V češtiněě se často překládá jako já nebo já.",
+        "V češtině se často překládá jako já nebo já.",
         "U některých německých sloves je sich povinnou součástí, jako je sich waschen.",
         "Důležité upozornění na úrovni A1: ich wasche mich, er wäscht sich."
       ],
@@ -22999,7 +22999,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Kdo • Co",
       "explanation": [
-        "Hlavní myšlenka: co je tázací slovo o věcech a událostech - v češtiněě je to co nebo co, v závislosti na části věty.",
+        "Hlavní myšlenka: co je tázací slovo o věcech a událostech - v češtině je to co nebo co, v závislosti na části věty.",
         "Byl dotazován na věci, události a fakta, nikoli na osoby.",
         "V němčině se was nemění po skloňování - vždy to vypadá jako bylo.",
         "Pokud je předmětem věty was, překládá se do češtině jako kas (Was ist das? = Co to je?).",
@@ -23037,7 +23037,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Was samo o sobě se nemění - v němčině je to vždy bylo • V češtiněě vyberte koho nebo co podle části věty.",
+        "Was samo o sobě se nemění - v němčině je to vždy bylo • V češtině vyberte koho nebo co podle části věty.",
         "Rychlý trik: pokud lze na otázku odpovědět „Je to...“, použijte kdo • Pokud je odpověď za slovesem jako doplněk, použijte ko."
       ],
       "important": [
@@ -23217,7 +23217,7 @@ const A1_WORDS = [
   },
   {
     "de": "welcher",
-    "lv": "SZO",
+    "lv": "Který",
     "level": "A1"
   },
   {
@@ -23475,7 +23475,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Kdo • Kdo",
       "explanation": [
-        "Hlavní myšlenka: wer je dotazovací slovo o identitě osoby – v češtiněě je to kdo nebo kdo.",
+        "Hlavní myšlenka: wer je dotazovací slovo o identitě osoby – v češtině je to kdo nebo kdo.",
         "Ptali se na lidi, ne na věci nebo události.",
         "Věci a události jsou žádány s was, ne wer.",
         "Wer je v němčině obvykle předmětem věty (nominativu) — Wer ist das? = co je to?",
@@ -23907,7 +23907,7 @@ const A1_WORDS = [
       "translation": "Čas (počasí)",
       "explanation": [
         "Hlavní myšlenka: das Wetter znamená počasí – slunečno, deštivo, chladno nebo teplo.",
-        "Českýé slovo „laiks“ může znamenat jak počasí, tak čas na hodinách – v němčině je to jinak.",
+        "České slovo „čas“ může znamenat jak počasí, tak čas na hodinách – v němčině je to jinak.",
         "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
         "Das Wetter se často používá ve větě spolu se slovy jako teplý nebo kalt.",
         "Nezaměňovat s die Zeit – je to čas jako okamžik nebo příležitost (Ich habe keine Zeit)."
@@ -24179,8 +24179,8 @@ const A1_WORDS = [
       "translation": "Jak • Kolik",
       "explanation": [
         "Hlavní myšlenka: wie se ptá na druh nebo kvalitu (jak) a na množství nebo počet (kolik), v závislosti na kontextu.",
-        "Wie alone (Wie geht's?) se ptá na cestu - v češtiněě jak.",
-        "Wie + přídavné jméno (wie viel, wie alt, wie lange) se ptá na množství, věk nebo trvání – kolik v češtiněě.",
+        "Wie alone (Wie geht's?) se ptá na cestu - v češtině jak.",
+        "Wie + přídavné jméno (wie viel, wie alt, wie lange) se ptá na množství, věk nebo trvání – kolik v češtině.",
         "Wie viel(e) znamená kolik • Wie alt znamená jak starý • Wie lange znamená jak dlouho.",
         "V přirovnání wie znamená jako (so groß wie = tak velký jako)."
       ],

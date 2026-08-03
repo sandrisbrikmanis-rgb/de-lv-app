@@ -2021,7 +2021,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für ein...?",
-    "lv": "SZO...? • A co...?",
+    "lv": "Jaký...? • Co za...?",
     "level": "Sätze"
   },
   {

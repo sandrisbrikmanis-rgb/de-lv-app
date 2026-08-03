@@ -1455,7 +1455,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Abhängen von je stabilní konstrukce • V češtiněě se to nepřekládá doslovně jako „věsit“."
+        "text": "Abhängen von je stabilní konstrukce • V češtině se to nepřekládá doslovně jako „věsit“."
       },
       "sectionAccents": {
         "explanation": {
@@ -2339,7 +2339,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "V češtiněě „fragment“ ne vždy sedí • Der Abschnitt je častěji oddíl nebo oddíl."
+        "text": "V češtině „fragment“ ne vždy sedí • Der Abschnitt je častěji oddíl nebo oddíl."
       },
       "sectionAccents": {
         "explanation": {
@@ -11140,7 +11140,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Na chodidle je Blase v češtiněě obvykle „puchýř“, nikoli „močový měchýř“. V lékařství může být Blase také močový měchýř."
+        "text": "Na chodidle je Blase v češtině obvykle „puchýř“, nikoli „močový měchýř“. V lékařství může být Blase také močový měchýř."
       },
       "sectionAccents": {
         "examples": [
@@ -13638,7 +13638,7 @@ const B1_WORDS = [
       },
       "important": {
         "text": "Der Dank je podstatné jméno • Danke je odpověď • Danken je sloveso.",
-        "example": "Vielen Dank! = Liels paldies! Ich danke dir. = Es tev pateicos. Danke! = Paldies!"
+        "example": "Vielen Dank! = Moc děkuji! Ich danke dir. = Děkuji ti. Danke! = Děkuji!"
       },
       "sectionAccents": {
         "explanation": {
@@ -13888,7 +13888,7 @@ const B1_WORDS = [
                 ],
                 "purple": [
                   "atbildei",
-                  "paldies"
+                  "děkuji"
                 ]
               }
             },
@@ -13931,9 +13931,9 @@ const B1_WORDS = [
                 "dir"
               ],
               "purple": [
-                "liels paldies",
-                "pateicos",
-                "paldies"
+                "Moc děkuji",
+                "Děkuji ti",
+                "děkuji"
               ]
             }
           }
@@ -21674,12 +21674,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt – vyberte podle místa v češtiněě."
+            "text": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt – vyberte podle místa v češtině."
           }
         ]
       },
       "important": {
-        "text": "Z nemocnice je entlassen v češtiněě obvykle „propuštění“, nikoli „propustit“."
+        "text": "Z nemocnice je entlassen v češtině obvykle „propuštění“, nikoli „propustit“."
       },
       "sectionAccents": {
         "examples": [
@@ -32449,7 +32449,7 @@ const B1_WORDS = [
         "Hlavní myšlenka: der Hort (také Schulhort/Kinderhort) je zařízení mimoškolní péče pro děti školního věku.",
         "V Německu se der Hort stará o děti po škole, zatímco rodiče jsou v práci.",
         "Nezaměňovat s der Kindergarten - jedná se o zařízení pro předškolní děti (do 6 let).",
-        "V češtiněě je nejbližší zápas rozšířená denní skupina nebo dětské denní centrum."
+        "V češtině je nejbližší zápas rozšířená denní skupina nebo dětské denní centrum."
       ],
       "examples": [
         {
@@ -35237,7 +35237,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Kern se v češtiněě někdy překládá jako semeno nebo pecka pro ovoce • Kontext určuje překlad."
+        "text": "Kern se v češtině někdy překládá jako semeno nebo pecka pro ovoce • Kontext určuje překlad."
       },
       "sectionAccents": {
         "examples": [
@@ -38254,7 +38254,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Školení, směr lodi nebo cena výměny → der Course.",
-      "important": "V češtiněě může mít „kurz“ několik významů, ale v němčině kontext určuje, zda jde o lekce, směr nebo cenu.",
+      "important": "V češtině může mít „kurz“ několik významů, ale v němčině kontext určuje, zda jde o lekce, směr nebo cenu.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Kurs",
@@ -38345,8 +38345,8 @@ const B1_WORDS = [
         "important": {
           "purple": "konteksts",
           "yellow": [
-            "češtiněě",
-            "češtiněě",
+            "češtině",
+            "češtině",
             "cenu"
           ]
         }
@@ -39397,7 +39397,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Strom nebo ovoce? Podívejte se na kontext kolem die Kastanie.",
-      "important": "V češtiněě je často nutné rozlišovat kaštan jako strom a kaštan jako ovoce.",
+      "important": "V češtině je často nutné rozlišovat kaštan jako strom a kaštan jako ovoce.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Kastanie",
@@ -39487,8 +39487,8 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "češtiněě",
-            "češtiněě"
+            "češtině",
+            "češtině"
           ]
         }
       }
@@ -50388,7 +50388,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Náhlá rána: platí Schlag.",
-      "important": "Schlag je vysoce kontextový • Blesk v češtiněě často znamená kop.",
+      "important": "Schlag je vysoce kontextový • Blesk v češtině často znamená kop.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Schlag",
@@ -63842,7 +63842,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Weder ... noch již tvoří negaci • Nepřidává jicht zbytečně."
+        "text": "Weder ... noch již tvoří negaci • Nepřidává ich zbytečně."
       },
       "sectionAccents": {
         "explanation": {
@@ -64852,7 +64852,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Ärztliches Zeugnis je v češtiněě často potvrzení lékaře, nikoli potvrzení školy."
+        "text": "Ärztliches Zeugnis je v češtině často potvrzení lékaře, nikoli potvrzení školy."
       },
       "sectionAccents": {
         "explanation": {
@@ -66552,7 +66552,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Obwohl zavádí pomocnou větu — sloveso na konci.",
-        "Nesprávně: Howell ich bin müde, ... → Správně: Howell ich bin bin, ...",
+        "Nesprávně: Weil ich bin müde, ... → Správně: Weil ich bin bin, ...",
         "Obwohl = ačkoli (pomocná věta).",
         "Zavádí opačný důvod v pomocné větě. Sloveso je na konci věty."
       ],
@@ -66833,11 +66833,11 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Zatans ... zu = místo toho",
+        "Statt ... zu = místo toho",
         "Používá se místo ... zu, pokud kontext vyhovuje tomuto významu."
       ],
       "important": [
-        "Zatans ... zu = místo toho.",
+        "Statt ... zu = místo toho.",
         "Jedna akce se odehrává místo druhé. spíše než + zu + nepravidelnost."
       ],
       "sectionAccents": {
@@ -66860,14 +66860,14 @@ const B1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Zatans"
+              "Statt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "Zatans"
+              "Statt"
             ]
           }
         ]

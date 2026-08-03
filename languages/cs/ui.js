@@ -35,7 +35,7 @@ window.LANGUAGE_UI_STRINGS = {
     "next": "Další slovo",
     "check": "Kontrola",
     "continue": "Pokračovat",
-    "close": "Blízko",
+    "close": "Zavřít",
     "delete": "Vymazat",
     "cancel": "Zrušit",
     "restore": "Návrat",
@@ -46,7 +46,7 @@ window.LANGUAGE_UI_STRINGS = {
     "weeklyReview": "Týdenní přehled",
     "monthlyReview": "Měsíční přehled",
     "unwantedWords": "Zbytečná slova",
-    "knownWords": "Samozřejmě",
+    "knownWords": "Známá slova",
     "knownWithCount": "Známý ({count})",
     "markMastered": "Vím na 100%",
     "shuffleVerbs": "Smíchejte slovesa",
@@ -80,7 +80,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "direction": {
     "deToNative": "🔄 DE ➔ {code}",
-    "nativeToDe": "🔄 {kód} ➔ DE"
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Kliknutím na kartu zobrazíte překlad.",
@@ -89,7 +89,7 @@ window.LANGUAGE_UI_STRINGS = {
     "trainingCard": "{title} cvičební karta"
   },
   "card": {
-    "pluralLabel": "Mnozí vidí",
+    "pluralLabel": "Množné č.",
     "spelling": "Pravopis",
     "spellingVerbs": "Pravopis · Slovesa",
     "verbsShuffleTraining": "Slovesa · Smíšený trénink",
@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Překlad:",
     "hintTapAnswer": "Kliknutím na kartu zobrazíte odpověď.",
     "hintTapSwitch": "Kliknutím na kartu změníte tvar.",
-    "hintSessionProgress": "{label}: {current} / {total}. {stát}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Toto sloveso nemá dostatek tvarů k smíchání."
   },
   "notices": {
@@ -136,8 +136,8 @@ window.LANGUAGE_UI_STRINGS = {
     "showingProblems": "Ukazujeme problematická slova.",
     "noProblems": "Žádná problémová slova.",
     "errorLevelReduced": "Snížená chybovost.",
-    "movedToKnown": "Jméno bylo přesunuto na Známé!",
-    "problemsFinishedMoved": "Naučená problémová slova. Jméno bylo přesunuto na Známé!",
+    "movedToKnown": "Slovo bylo přesunuto na Známé!",
+    "problemsFinishedMoved": "Naučená problémová slova. Slovo bylo přesunuto na Známé!",
     "lastSessionDone": "Kontrola posledního sezení dokončena.",
     "continueLastSession": "Pokračujeme v hodnocení posledního sezení.",
     "knownReviewDone": "Přehled známých slov dokončen.",
@@ -147,7 +147,7 @@ window.LANGUAGE_UI_STRINGS = {
     "noCardToMark": "Nejsou zde žádné karty k označení.",
     "markedKnown": "Označeno jako známé.",
     "noCard": "Nejsou zde žádné karty k označení.",
-    "answerRevealed": "Odpověď je odhalena. Jméno zůstává v relaci.",
+    "answerRevealed": "Odpověď je odhalena. Slovo zůstává v relaci.",
     "returnedToStudy": "Návrat do režimu učení.",
     "leftInProblems": "Vlevo v problematické skupině.",
     "leftForReview": "Necháno k revizi.",
@@ -155,8 +155,8 @@ window.LANGUAGE_UI_STRINGS = {
     "continueTimeReview": "Pokračování: {label}.",
     "enterAnswerFirst": "Nejprve zadejte správnou odpověď a stiskněte Check.",
     "noCardForMastered": "Neexistuje žádná karta, kterou by bylo možné přidat ke 100% známosti.",
-    "addedMastered": "Jméno přidáno ke 100% známému.",
-    "alreadyMastered": "Jméno je již ve 100% známém seznamu.",
+    "addedMastered": "Slovo přidáno ke 100% známému.",
+    "alreadyMastered": "Slovo je již ve 100% známém seznamu.",
     "noCardForUnwanted": "Neexistuje žádná karta, kterou by bylo možné označit jako nepotřebnou.",
     "markedUnwanted": "Slovo označeno jako nepotřebné.",
     "loadFailed": "Karty se nepodařilo načíst. Znovu načte stránku nebo zkontroluje dostupnost všech datových souborů.",
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Dlouhé a krátké samohlásky s příklady.",
     "consonantsTitle": "Souhlásky a kombinace písmen",
     "consonantsDesc": "Nejdůležitější zvuky souhlásek pro začátečníky.",
-    "lessonProgress": "Přednáška {lekce} · Přeložil: {current} / {total}",
-    "exerciseProgress": "Přednáška {lekce} · Cvičení",
+    "lessonProgress": "Přednáška {lesson} · Přeložil: {current} / {total}",
+    "exerciseProgress": "Přednáška {lesson} · Cvičení",
     "sections": {
       "grammar": "Gramatika",
       "exercise": "Cvičení",
@@ -370,9 +370,9 @@ window.LANGUAGE_UI_STRINGS = {
   "spelling": {
     "writeNative": "Pište česky",
     "writeGerman": "Pište německy",
-    "correct": "Opravit!",
+    "correct": "Správně!",
     "incorrect": "Špatně",
-    "expectedLabel": "Opravit:",
+    "expectedLabel": "Správně:",
     "noVerbTask": "Pro toto sloveso neexistuje žádný pravopisný úkol.",
     "writeAnswer": "Napište odpověď",
     "missingChar": "Chybí: {char}"
@@ -399,7 +399,7 @@ window.LANGUAGE_UI_STRINGS = {
       "comparisonBadge": "SROVNÁVACÍ KARTA"
     },
     "table": {
-      "word": "Jméno",
+      "word": "Slovo",
       "meaning": "Význam",
       "example": "Příklad",
       "native": "CS",
