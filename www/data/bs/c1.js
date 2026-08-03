@@ -4336,7 +4336,7 @@ const C1_WORDS = [
           },
           {
             "purple": [
-              "plānu"
+              "planu"
             ]
           }
         ],
