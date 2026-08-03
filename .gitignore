@@ -80,6 +80,9 @@ scripts/.lb-ui-translation-cache.json
 scripts/.lb-lv-translation-cache.json
 scripts/.fr-nl-translation-cache.json
 scripts/.fr-nl-ui-translation-cache.json
+scripts/.fr-en-translation-cache.json
+scripts/.fr-ui-en-translation-cache.json
+scripts/.fr-course-cards-fix-cache.json
 scripts/.it-fr-translation-cache.json
 scripts/.it-fr-ui-translation-cache.json
 scripts/.es-it-translation-cache.json

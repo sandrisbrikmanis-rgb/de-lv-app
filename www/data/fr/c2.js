@@ -3,197 +3,197 @@ const C2_WORDS = [
     "de": "Unvoreingenommenheit",
     "de_article": "die",
     "de_plural": "die Unvoreingenommenheiten",
-    "lv": "Objektivitāte • Neitralitāte",
+    "lv": "Objectivité • Neutralité",
     "level": "C2"
   },
   {
     "de": "konterkarieren",
-    "lv": "Izjaukt",
+    "lv": "Pour perturber",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Pamatotība",
+    "lv": "Caractère raisonnable",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "Nepārprotams",
+    "lv": "Indubitable",
     "level": "C2"
   },
   {
     "de": "Wechselwirkung",
     "de_article": "die",
     "de_plural": "die Wechselwirkungen",
-    "lv": "Mijiedarbība",
+    "lv": "Interaction",
     "level": "C2"
   },
   {
     "de": "veranschaulichen",
-    "lv": "Uzskatāmi parādīt",
+    "lv": "Pour montrer de manière démontrable",
     "level": "C2"
   },
   {
     "de": "Schlussfolgerung",
     "de_article": "die",
     "de_plural": "die Schlussfolgerungen",
-    "lv": "Secinājums",
+    "lv": "Conclusion",
     "level": "C2"
   },
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "Rūpības pienākums",
+    "lv": "Devoir de diligence",
     "level": "C2"
   },
   {
     "de": "Anfangsbuchstabe",
     "de_article": "der",
     "de_plural": "die Anfangsbuchstaben",
-    "lv": "Sākuma éclate",
+    "lv": "Lettre initiale",
     "level": "C2"
   },
   {
     "de": "Anführungszeichen",
     "de_article": "das",
     "de_plural": "die Anführungszeichen",
-    "lv": "Pēdiņas",
+    "lv": "Guillemets",
     "level": "C2"
   },
   {
     "de": "Abschlussprüfung",
     "de_article": "die",
     "de_plural": "die Abschlussprüfungen",
-    "lv": "Gala pārbaudījums",
+    "lv": "Examen final",
     "level": "C2"
   },
   {
     "de": "Arbeitserlaubnis",
     "de_article": "die",
     "de_plural": "die Arbeitserlaubnisse",
-    "lv": "Darba atļauja",
+    "lv": "Permis de travail",
     "level": "C2"
   },
   {
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Dalībnieka apliecība",
+    "lv": "Carte de membre",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "Darbināms ar bateriju",
+    "lv": "Fonctionne sur batterie",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Uzraudzīt",
+    "lv": "Moniteur",
     "level": "C2"
   },
   {
     "de": "Lebensbedingungen",
     "de_article": "die",
     "de_plural": "die Lebensbedingungen",
-    "lv": "Dzīves apstākļi",
+    "lv": "Conditions de vie",
     "level": "C2"
   },
   {
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Ārsta kabinets",
+    "lv": "Cabinet du médecin",
     "level": "C2"
   },
   {
     "de": "beispielsweise",
-    "lv": "Piemēram",
+    "lv": "Par exemple",
     "level": "C2"
   },
   {
     "de": "Mitgliedsbeitrag",
     "de_article": "der",
     "de_plural": "die Mitgliedsbeiträge",
-    "lv": "Biedru maksa",
+    "lv": "Frais d'adhésion",
     "level": "C2"
   },
   {
     "de": "benachrichtigen",
-    "lv": "Pazinot",
+    "lv": "Pour annoncer",
     "level": "C2"
   },
   {
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "Benzine kortingsbon",
+    "lv": "Coupon d'essence",
     "level": "C2"
   },
   {
     "de": "Benzinkanister",
     "de_article": "der",
     "de_plural": "die Benzinkanister",
-    "lv": "Benzīna kanna",
+    "lv": "Bidon d'essence",
     "level": "C2"
   },
   {
     "de": "Benzinverbrauch",
     "de_article": "der",
     "de_plural": "die Benzinverbräuche",
-    "lv": "Benzīna patēriņš",
+    "lv": "Consommation d'essence",
     "level": "C2"
   },
   {
     "de": "Bequemlichkeit",
     "de_article": "die",
     "de_plural": "die Bequemlichkeiten",
-    "lv": "Ērtība",
+    "lv": "Commodité",
     "level": "C2"
   },
   {
     "de": "berücksichtigen",
-    "lv": "Ņemt vērā",
+    "lv": "A prendre en compte",
     "level": "C2"
   },
   {
     "de": "Berufsausbildung",
     "de_article": "die",
     "de_plural": "die Berufsausbildungen",
-    "lv": "Profesionālā izglītība",
+    "lv": "Formation professionnelle",
     "level": "C2"
   },
   {
     "de": "Tintenstrahldrucker",
     "de_article": "der",
     "de_plural": "die Tintenstrahldrucker",
-    "lv": "Tintes printeris",
+    "lv": "Imprimante à jet d'encre",
     "level": "C2"
   },
   {
     "de": "Gewichtseinheit",
     "de_article": "die",
     "de_plural": "die Gewichtseinheiten",
-    "lv": "Svara mērvienība",
+    "lv": "Unité de poids",
     "level": "C2",
     "study": {
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
-      "translation": "Svara mērvienība",
-      "explanation": "Galvenā doma: die Gewichtseinheit nozīmē svara mērvienību. To lieto, runājot par kilogramiem, gramiem, tonnām un citām svara/massas vienībām.",
+      "translation": "Unité de poids",
+      "explanation": "Idée principale : die Gewichtseinheit signifie unité de poids. Il est utilisé pour parler de kilogrammes, de grammes, de tonnes et d’autres unités de poids/masse.",
       "examples": [
         {
           "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "Kilograms ir svara mērvienība."
+          "lv": "Le kilogramme est une unité de poids."
         },
         {
           "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Kuru svara mērvienību man lietot?"
+          "lv": "Quelle unité de poids dois-je utiliser ?"
         },
         {
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Grams un tonna ir svara mērvienības."
+          "lv": "Le gramme et la tonne sont des unités de poids."
         }
       ]
     }
@@ -201,1285 +201,1285 @@ const C2_WORDS = [
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",
-    "lv": "Pamatzināšanas",
+    "lv": "Connaissances de base",
     "level": "C2"
   },
   {
     "de": "entgegenkommen",
-    "lv": "Tegenkomen",
+    "lv": "Rencontrer",
     "level": "C2"
   },
   {
     "de": "Gebrauchtwagen",
     "de_article": "der",
     "de_plural": "die Gebrauchtwagen",
-    "lv": "Lietota automašīna",
+    "lv": "Voiture d'occasion",
     "level": "C2"
   },
   {
     "de": "Geburtsurkunde",
     "de_article": "die",
     "de_plural": "die Geburtsurkunden",
-    "lv": "Dzimšanas apliecība",
+    "lv": "Acte de naissance",
     "level": "C2"
   },
   {
     "de": "Gehaltsabrechnung",
     "de_article": "die",
     "de_plural": "die Gehaltsabrechnungen",
-    "lv": "Salarisberekening",
+    "lv": "Calcul du salaire",
     "level": "C2"
   },
   {
     "de": "Gehaltserhöhung",
     "de_article": "die",
     "de_plural": "die Gehaltserhöhungen",
-    "lv": "Algas paaugstinājums",
+    "lv": "Augmentation de salaire",
     "level": "C2"
   },
   {
     "de": "Gehirnerschütterung",
     "de_article": "die",
     "de_plural": "die Gehirnerschütterungen",
-    "lv": "Smadzeņu satricinājums",
+    "lv": "Commotion cérébrale",
     "level": "C2"
   },
   {
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "Bagāžas glabātava",
+    "lv": "Consigne à bagages",
     "level": "C2"
   },
   {
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "Uzņēmuma vadītājs",
+    "lv": "Chef d'entreprise",
     "level": "C2"
   },
   {
     "de": "Geschäftspartner",
     "de_article": "der",
     "de_plural": "die Geschäftspartner",
-    "lv": "Darījumu partneris",
+    "lv": "Partenaire commercial",
     "level": "C2"
   },
   {
     "de": "Geschenkgutschein",
     "de_article": "der",
     "de_plural": "die Geschenkgutscheine",
-    "lv": "Dāvanu karte",
+    "lv": "Carte cadeau",
     "level": "C2"
   },
   {
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "Dāvanas iesaiņojums",
+    "lv": "Emballage cadeau",
     "level": "C2"
   },
   {
     "de": "Gleichheitszeichen",
     "de_article": "das",
     "de_plural": "die Gleichheitszeichen",
-    "lv": "Vienlīdzības zīme",
+    "lv": "Signe égal",
     "level": "C2"
   },
   {
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
-    "lv": "Satura rādītājs",
+    "lv": "Table des matières",
     "level": "C2"
   },
   {
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "Stīgu instruments",
+    "lv": "Instrument à cordes",
     "level": "C2"
   },
   {
     "de": "Kassettenrecorder",
     "de_article": "der",
     "de_plural": "die Kassettenrecorder",
-    "lv": "Kasešu magnetofons",
+    "lv": "Magnétophone à cassettes",
     "level": "C2"
   },
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "Katastrofu dienests",
+    "lv": "Service en cas de catastrophe",
     "level": "C2"
   },
   {
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "Izmaksu atmaksāšana",
+    "lv": "Remboursement des frais",
     "level": "C2"
   },
   {
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "Izmaksu paaugstināšana",
+    "lv": "Des coûts croissants",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Apdrošinājums slimības gadījumā",
+    "lv": "Assurance en cas de maladie",
     "level": "C2"
   },
   {
     "de": "Krankheitssymptom",
     "de_article": "das",
     "de_plural": "die Krankheitssymptome",
-    "lv": "Slimības simptoms",
+    "lv": "Symptôme de maladie",
     "level": "C2"
   },
   {
     "de": "Krankheitsüberträger",
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
-    "lv": "Slimības pārnēsātājs",
+    "lv": "Porteur de maladie",
     "level": "C2"
   },
   {
     "de": "Liebenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Liebenswürdigkeiten",
-    "lv": "Laipnība",
+    "lv": "Gentillesse",
     "level": "C2"
   },
   {
     "de": "Luftverschmutzung",
     "de_article": "die",
     "de_plural": "die Luftverschmutzungen",
-    "lv": "Gaisa piesārņojums",
+    "lv": "Pollution atmosphérique",
     "level": "C2"
   },
   {
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Plaušu karsonis",
+    "lv": "Cancer du poumon",
     "level": "C2"
   },
   {
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "Miglas lukturis automašīnām",
+    "lv": "Feu antibrouillard pour voitures",
     "level": "C2"
   },
   {
     "de": "Personenkraftwagen",
     "de_article": "der",
     "de_plural": "die Personenkraftwagen",
-    "lv": "Vieglā automašīna",
+    "lv": "Voiture de tourisme",
     "level": "C2"
   },
   {
     "de": "Reisebeschreibung",
     "de_article": "die",
     "de_plural": "die Reisebeschreibungen",
-    "lv": "Ceļojuma apraksts",
+    "lv": "Description du voyage",
     "level": "C2"
   },
   {
     "de": "Reparaturwerkstatt",
     "de_article": "die",
     "de_plural": "die Reparaturwerkstätten",
-    "lv": "Remontdarbnīca",
+    "lv": "Atelier de réparation",
     "level": "C2"
   },
   {
     "de": "Rundfunkempfänger",
     "de_article": "der",
     "de_plural": "die Rundfunkempfänger",
-    "lv": "Radiouztvērējs",
+    "lv": "Récepteur de radio",
     "level": "C2"
   },
   {
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Guļamistaba",
+    "lv": "Chambre à coucher",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Ragavu sliece",
+    "lv": "Inclinaison du traîneau",
     "level": "C2"
   },
   {
     "de": "Schornsteinfeger",
     "de_article": "der",
     "de_plural": "die Schornsteinfeger",
-    "lv": "Skursteņslaucītājs",
+    "lv": "Ramoneur",
     "level": "C2"
   },
   {
     "de": "selbstverständlich",
-    "lv": "Pats par sevi saprotams",
+    "lv": "Explicite",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "Drošības labad",
+    "lv": "Pour la sécurité",
     "level": "C2"
   },
   {
     "de": "Sozialversicherung",
     "de_article": "die",
     "de_plural": "die Sozialversicherungen",
-    "lv": "Sociale verzekeringen",
+    "lv": "Assurance sociale",
     "level": "C2"
   },
   {
     "de": "Straßenbahnführer",
     "de_article": "der",
     "de_plural": "die Straßenbahnführer",
-    "lv": "Tramvaja vadītājs",
+    "lv": "Conducteur de tramway",
     "level": "C2"
   },
   {
     "de": "Straßenbahnstrecke",
     "de_article": "die",
     "de_plural": "die Straßenbahnstrecken",
-    "lv": "Tramvaja līnija",
+    "lv": "Ligne de tramway",
     "level": "C2"
   },
   {
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "Ceļa pārvads",
+    "lv": "Passage supérieur routier",
     "level": "C2"
   },
   {
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Gājēju tunelis",
+    "lv": "Tunnel piéton",
     "level": "C2"
   },
   {
     "de": "verantwortlich",
-    "lv": "Atbildīgs",
+    "lv": "Responsable",
     "level": "C2"
   },
   {
     "de": "Verkehrsunfall",
     "de_article": "der",
     "de_plural": "die Verkehrsunfälle",
-    "lv": "Satiksmes negadījums",
+    "lv": "Accident de la route",
     "level": "C2"
   },
   {
     "de": "veröffentlichen",
-    "lv": "Publicēt",
+    "lv": "Pour publier",
     "level": "C2"
   },
   {
     "de": "verschlechtern",
-    "lv": "Pasliktināt",
+    "lv": "Empirer",
     "level": "C2"
   },
   {
     "de": "sich verschlechtern",
-    "lv": "Pasliktināties",
+    "lv": "Pire",
     "level": "C2"
   },
   {
     "de": "Vorstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Vorstellungsgespräche",
-    "lv": "Darba intervija",
+    "lv": "Entretien d'embauche",
     "level": "C2"
   },
   {
     "de": "Wettervorhersage",
     "de_article": "die",
     "de_plural": "die Wettervorhersagen",
-    "lv": "Laika prognoze",
+    "lv": "Prévisions météorologiques",
     "level": "C2"
   },
   {
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "Automašīnas priekšējais stikls",
+    "lv": "Pare-brise de voiture",
     "level": "C2"
   },
   {
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "Ievērojama vieta",
+    "lv": "Un lieu de premier plan",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "Dēku stāsts",
+    "lv": "Histoire d'une liaison",
     "level": "C2"
   },
   {
     "de": "Abgeordnetenhaus",
     "de_article": "das",
     "de_plural": "die Abgeordnetenhäuser",
-    "lv": "Parlaments",
+    "lv": "Parlement",
     "level": "C2"
   },
   {
     "de": "Aufenthaltsgenehmigung",
     "de_article": "die",
     "de_plural": "die Aufenthaltsgenehmigungen",
-    "lv": "Uzturēšanās atļauja",
+    "lv": "Permis de séjour",
     "level": "C2"
   },
   {
     "de": "Gedankenaustausch",
     "de_article": "der",
     "de_plural": "die Gedankenaustausche",
-    "lv": "Domu apmaiņa",
+    "lv": "Échange d'idées",
     "level": "C2"
   },
   {
     "de": "Behindertenausweis",
     "de_article": "der",
     "de_plural": "die Behindertenausweise",
-    "lv": "Invalīda apliecība",
+    "lv": "Certificat d'invalidité",
     "level": "C2"
   },
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "Dzīvokļu celtniecības kooperatīvs",
+    "lv": "Coopérative d'immeuble à appartements",
     "level": "C2"
   },
   {
     "de": "Arbeitslosenbeihilfe",
     "de_article": "die",
     "de_plural": "die Arbeitslosenbeihilfen",
-    "lv": "Bezdarbnieka pabalsts",
+    "lv": "Allocation de chômage",
     "level": "C2"
   },
   {
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Mācību pabalsts",
+    "lv": "Allocation de scolarité",
     "level": "C2"
   },
   {
     "de": "Unternehmensberater",
     "de_article": "der",
     "de_plural": "die Unternehmensberater",
-    "lv": "Uzņēmuma konsultants",
+    "lv": "Consultant en entreprise",
     "level": "C2"
   },
   {
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Referents • Ziņotājs • Korespondents • Reportieris",
+    "lv": "Reporter • Reporter • Correspondant • Reporter",
     "level": "C2"
   },
   {
     "de": "Berufsbezeichnung",
     "de_article": "die",
     "de_plural": "die Berufsbezeichnungen",
-    "lv": "Amata nosaukums",
+    "lv": "Titre d'emploi",
     "level": "C2"
   },
   {
     "de": "Besatzungsregime",
     "de_article": "das",
     "de_plural": "die Besatzungsregime",
-    "lv": "Okupācijas režīms",
+    "lv": "Régime d'occupation",
     "level": "C2"
   },
   {
     "de": "Besatzungstruppen",
     "de_article": "die",
     "de_plural": "die Besatzungstruppen",
-    "lv": "Bezettingstroepen",
+    "lv": "Troupes d'occupation",
     "level": "C2"
   },
   {
     "de": "Bevölkerungsdichte",
     "de_article": "die",
     "de_plural": "die Bevölkerungsdichten",
-    "lv": "Iedzīvotāju blīvums",
+    "lv": "Densité de population",
     "level": "C2"
   },
   {
     "de": "Bildberichterstatter",
     "de_article": "der",
     "de_plural": "die Bildberichterstatter",
-    "lv": "Fotokorespondents",
+    "lv": "Correspondant photo",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblock",
     "de_article": "der",
     "de_plural": "die Wirtschaftsblöcke",
-    "lv": "Ekonomiskais bloks",
+    "lv": "Bloc économique",
     "level": "C2"
   },
   {
     "de": "Wirtschaftsblockade",
     "de_article": "die",
     "de_plural": "die Wirtschaftsblockaden",
-    "lv": "Ekonomiskā blokāde",
+    "lv": "Blocus économique",
     "level": "C2"
   },
   {
     "de": "Bluttransfusion",
     "de_article": "die",
     "de_plural": "die Bluttransfusionen",
-    "lv": "Asins pārliešana",
+    "lv": "Transfusion sanguine",
     "level": "C2"
   },
   {
     "de": "Computersimulation",
     "de_article": "die",
     "de_plural": "die Computersimulationen",
-    "lv": "Datorsimulācija",
+    "lv": "Simulation informatique",
     "level": "C2"
   },
   {
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "Datorzinātne • Informātika",
+    "lv": "Informatique • Informatique",
     "level": "C2"
   },
   {
     "de": "Informationsdefizit",
     "de_article": "das",
-    "lv": "Informācijas deficīts",
+    "lv": "Déficit d'information",
     "level": "C2"
   },
   {
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "Tikumības normu pārkāpums",
+    "lv": "Violation des normes morales",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "Narkotiku apkarošanas nodaļa",
+    "lv": "Division des stupéfiants",
     "level": "C2"
   },
   {
     "de": "Dialektik",
     "de_article": "die",
     "de_plural": "die Dialektiken",
-    "lv": "Dialektika",
+    "lv": "Dialectique",
     "level": "C2"
   },
   {
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Operatīvais dienests",
+    "lv": "Service opérationnel",
     "level": "C2"
   },
   {
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
     "de_plural": "die Durchfuhrerlaubnisse",
-    "lv": "Caurbraukšanas atļauja",
+    "lv": "Permis de transit",
     "level": "C2"
   },
   {
     "de": "durchkreuzen",
-    "lv": "Pārsvītrot • Pārvilkt krustu • Šķērsot • Izjaukt",
+    "lv": "Rayer • Traverser • Traverser • Perturber",
     "level": "C2"
   },
   {
     "de": "Durchschnittsalter",
     "de_article": "das",
     "de_plural": "die Durchschnittsalter",
-    "lv": "Vidējais vecums",
+    "lv": "Âge moyen",
     "level": "C2"
   },
   {
     "de": "Durchschnittsverdienst",
     "de_article": "der",
     "de_plural": "die Durchschnittsverdienste",
-    "lv": "Vidējā izpeļņa",
+    "lv": "Gains moyens",
     "level": "C2"
   },
   {
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Viduvējs sniegums • Caurmēra sniegums",
+    "lv": "Performance moyenne • Performance moyenne",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "Vidusmēra cilvēks",
+    "lv": "Une personne moyenne",
     "level": "C2"
   },
   {
     "de": "Einfuhrbeschränkung",
     "de_article": "die",
     "de_plural": "die Einfuhrbeschränkungen",
-    "lv": "Importa ierobežojums",
+    "lv": "Restriction à l'importation",
     "level": "C2"
   },
   {
     "de": "Einstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Einstellungsgespräche",
-    "lv": "Darba intervija",
+    "lv": "Entretien d'embauche",
     "level": "C2"
   },
   {
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Rakstisks ieteikums",
+    "lv": "Recommandation écrite",
     "level": "C2"
   },
   {
     "de": "Entbindungsanstalt",
     "de_article": "die",
     "de_plural": "die Entbindungsanstalten",
-    "lv": "Kraamkliniek",
+    "lv": "Maternité",
     "level": "C2"
   },
   {
     "de": "entgegengesetzt",
-    "lv": "Pretējs",
+    "lv": "Le contraire",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Noteiktība • Apņēmība • Nešaubīgums",
+    "lv": "Certitude • Détermination • Incontestable",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "Attīstības zeme",
+    "lv": "Terre de développement",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "Bufete",
+    "lv": "Buffet",
     "level": "C2"
   },
   {
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "Valdības paziņojums",
+    "lv": "Annonce du gouvernement",
     "level": "C2"
   },
   {
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "Sasniegums • Ieguvums • Guvums",
+    "lv": "Réalisation • Bénéfice • Gain",
     "level": "C2"
   },
   {
     "de": "Erwachsenenbildung",
     "de_article": "die",
     "de_plural": "die Erwachsenenbildungen",
-    "lv": "Pieaugušo izglītība",
+    "lv": "Éducation des adultes",
     "level": "C2"
   },
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "Parachutespringen",
+    "lv": "Parachutisme",
     "level": "C2"
   },
   {
     "de": "Friedensbedingungen",
     "de_article": "die",
     "de_plural": "die Friedensbedingungen",
-    "lv": "Miera nosacījumi",
+    "lv": "Conditions de paix",
     "level": "C2"
   },
   {
     "de": "Friedensverhandlungen",
     "de_article": "die",
     "de_plural": "die Friedensverhandlungen",
-    "lv": "Miera sarunas",
+    "lv": "Pourparlers de paix",
     "level": "C2"
   },
   {
     "de": "Führereigenschaften",
     "de_article": "die",
     "de_plural": "die Führereigenschaften",
-    "lv": "Līdera īpašības",
+    "lv": "Qualités de leadership",
     "level": "C2"
   },
   {
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "Līdera personība",
+    "lv": "Personnalité de leadership",
     "level": "C2"
   },
   {
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "Pasaules meistarsacīkstes futbolā",
+    "lv": "Championnat du monde de football",
     "level": "C2"
   },
   {
     "de": "Geburtenkontrolle",
     "de_article": "die",
     "de_plural": "die Geburtenkontrollen",
-    "lv": "Dzimstības kontrole",
+    "lv": "Contrôle des naissances",
     "level": "C2"
   },
   {
     "de": "Gedächtnisschwäche",
     "de_article": "die",
     "de_plural": "die Gedächtnisschwächen",
-    "lv": "Slikta atmiņa",
+    "lv": "Mauvais souvenir",
     "level": "C2"
   },
   {
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "Atmiņas traucējumi",
+    "lv": "Troubles de la mémoire",
     "level": "C2"
   },
   {
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "Cietuma uzraugs",
+    "lv": "Directeur de prison",
     "level": "C2"
   },
   {
     "de": "Gefängnisinsasse",
     "de_article": "der",
     "de_plural": "die Gefängnisinsassen",
-    "lv": "Cietumnieks",
+    "lv": "Un prisonnier",
     "level": "C2"
   },
   {
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "Asinsvadu paplašināšanās",
+    "lv": "Dilatation des vaisseaux sanguins",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Attapība",
+    "lv": "Ingéniosité",
     "level": "C2"
   },
   {
     "de": "geistige Getränke",
-    "lv": "Alkoholiskie dzērieni",
+    "lv": "Boissons alcoolisées",
     "level": "C2"
   },
   {
     "de": "Gelegenheitsarbeiter",
     "de_article": "der",
     "de_plural": "die Gelegenheitsarbeiter",
-    "lv": "Gadījuma darbu strādnieks",
+    "lv": "Ouvrier occasionnel",
     "level": "C2"
   },
   {
     "de": "Gemäldeausstellung",
     "de_article": "die",
     "de_plural": "die Gemäldeausstellungen",
-    "lv": "Gleznu izstāde",
+    "lv": "Exposition de peintures",
     "level": "C2"
   },
   {
     "de": "Arbeitsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Arbeitsgemeinschaften",
-    "lv": "Darba grupa",
+    "lv": "Groupe de travail",
     "level": "C2"
   },
   {
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "Ciema iedzīvotāji",
+    "lv": "Les villageois",
     "level": "C2"
   },
   {
     "de": "Forschungsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Forschungsgemeinschaften",
-    "lv": "Pētniecības grupa",
+    "lv": "Groupe de recherche",
     "level": "C2"
   },
   {
     "de": "Generalreparatur",
     "de_article": "die",
     "de_plural": "die Generalreparaturen",
-    "lv": "Kapitālremonts",
+    "lv": "Révision",
     "level": "C2"
   },
   {
     "de": "Generalversammlung",
     "de_article": "die",
     "de_plural": "die Generalversammlungen",
-    "lv": "Pilnsapulce",
+    "lv": "Assemblée générale",
     "level": "C2"
   },
   {
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Kooperatīvs • Artelis",
+    "lv": "Coopérative • Artel",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Taisnīgums • Taisnības izjūta",
+    "lv": "Justice • Sens de la justice",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Šķīrējtiesa",
+    "lv": "Arbitrage",
     "level": "C2"
   },
   {
     "de": "Gerichtsverfahren",
     "de_article": "das",
     "de_plural": "die Gerichtsverfahren",
-    "lv": "Tiesas process",
+    "lv": "Procédures judiciaires",
     "level": "C2"
   },
   {
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Nolikums • Reglaments",
+    "lv": "Règlement • Règlements",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "Dzimumakts",
+    "lv": "Rapports",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsbegrenzung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsbegrenzungen",
-    "lv": "Ātruma ierobežojums",
+    "lv": "Limitation de vitesse",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitskontrolle",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitskontrollen",
-    "lv": "Ātruma kontrole",
+    "lv": "Contrôle de vitesse",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsmessung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsmessungen",
-    "lv": "Ātruma mērījums",
+    "lv": "Mesure de vitesse",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Noteiktā ātruma neievērošana • Pārkāpšana",
+    "lv": "Non-respect de la vitesse prescrite • Infraction",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Sabiedrisks • Sabiedrības",
+    "lv": "Public • Sociétés",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Sabiedriskā iekārta",
+    "lv": "Établissement public",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "Likumprojekts",
+    "lv": "Facture",
     "level": "C2"
   },
   {
     "de": "gesetzgebende Gewalt",
     "de_article": "die",
     "de_plural": "die gesetzgebenden Gewalten",
-    "lv": "Likumdevēja vara",
+    "lv": "Pouvoir législatif",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "Arodbiedrības biedru maksa",
+    "lv": "Cotisations syndicales",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsmitglied",
     "de_article": "das",
     "de_plural": "die Gewerkschaftsmitglieder",
-    "lv": "Lid van een vakbond",
+    "lv": "Membre du syndicat",
     "level": "C2"
   },
   {
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Loterijas laimesta izmaksa",
+    "lv": "Paiement des gains de loterie",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "Konference augstākajā līmenī",
+    "lv": "Conférence au plus haut niveau",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Līdztiesība",
+    "lv": "Égalité",
     "level": "C2"
   },
   {
     "de": "Grundnahrungsmittel",
     "de_article": "das",
     "de_plural": "die Grundnahrungsmittel",
-    "lv": "Pārtikas pamatprodukts",
+    "lv": "Aliment de base",
     "level": "C2"
   },
   {
     "de": "Handelsabkommen",
     "de_article": "das",
     "de_plural": "die Handelsabkommen",
-    "lv": "Tirdzniecības līgums",
+    "lv": "Accord commercial",
     "level": "C2"
   },
   {
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Ģimenes locekļi • Mājas iedzīvotāji",
+    "lv": "Membres de la famille • Résidents de la maison",
     "level": "C2"
   },
   {
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "Budžeta komisija",
+    "lv": "Commission budgétaire",
     "level": "C2"
   },
   {
     "de": "Herztransplantation",
     "de_article": "die",
     "de_plural": "die Herztransplantationen",
-    "lv": "Sirds transplantācija",
+    "lv": "Transplantation cardiaque",
     "level": "C2"
   },
   {
     "de": "Hinterlassenschaft",
     "de_article": "die",
     "de_plural": "die Hinterlassenschaften",
-    "lv": "Mantojums",
+    "lv": "Héritage",
     "level": "C2"
   },
   {
     "de": "Kabinettsbeschluss",
     "de_article": "der",
     "de_plural": "die Kabinettsbeschlüsse",
-    "lv": "Kabineta lēmums",
+    "lv": "Décision du Cabinet",
     "level": "C2"
   },
   {
     "de": "Kabinettsmitglied",
     "de_article": "das",
     "de_plural": "die Kabinettsmitglieder",
-    "lv": "Kabineta loceklis • Ministrs",
+    "lv": "Membre du Cabinet • Ministre",
     "level": "C2"
   },
   {
     "de": "Koalitionspartner",
     "de_article": "der",
     "de_plural": "die Koalitionspartner",
-    "lv": "Koalīcijas partneris",
+    "lv": "Partenaire de la coalition",
     "level": "C2"
   },
   {
     "de": "Koalitionsregierung",
     "de_article": "die",
     "de_plural": "die Koalitionsregierungen",
-    "lv": "Koalīcijas valdība",
+    "lv": "Gouvernement de coalition",
     "level": "C2"
   },
   {
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "Atlīdzinājums par zaudējumiem karā • Reparācijas",
+    "lv": "Compensation des pertes de guerre • Réparations",
     "level": "C2"
   },
   {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "Dzīvības dziņa",
+    "lv": "Le moteur de la vie",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Iztikai nepieciešamie līdzekļi • Izmaksas",
+    "lv": "Moyens de subsistance • Coûts",
     "level": "C2"
   },
   {
     "de": "Lebensversicherung",
     "de_article": "die",
     "de_plural": "die Lebensversicherungen",
-    "lv": "Dzīvības apdrošināšana",
+    "lv": "Assurance vie",
     "level": "C2"
   },
   {
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "Darbaspējas • Ražīgums • Jauda",
+    "lv": "Capacité de travail • Productivité • Capacité",
     "level": "C2"
   },
   {
     "de": "Mannschaftskampf",
     "de_article": "der",
     "de_plural": "die Mannschaftskämpfe",
-    "lv": "Teamcompetitie",
+    "lv": "Compétition par équipe",
     "level": "C2"
   },
   {
     "de": "Marktwirtschaft",
     "de_article": "die",
     "de_plural": "die Marktwirtschaften",
-    "lv": "Tirgus ekonomika",
+    "lv": "Économie de marché",
     "level": "C2"
   },
   {
     "de": "Meinungsverschiedenheiten",
     "de_article": "die",
     "de_plural": "die Meinungsverschiedenheiten",
-    "lv": "Domstarpības",
+    "lv": "Désaccords",
     "level": "C2"
   },
   {
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Meistarsacīkstes",
+    "lv": "Course de maître",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humāns • Cilvēcīgs",
+    "lv": "Humain • Humain",
     "level": "C2"
   },
   {
     "de": "Minderheitsregierung",
     "de_article": "die",
     "de_plural": "die Minderheitsregierungen",
-    "lv": "Mazākuma valdība",
+    "lv": "Gouvernement minoritaire",
     "level": "C2"
   },
   {
     "de": "Mutterschaftsurlaub",
     "de_article": "der",
     "de_plural": "die Mutterschaftsurlaube",
-    "lv": "Grūtniecības un dzemdību atvaļinājums",
+    "lv": "Congé de maternité",
     "level": "C2"
   },
   {
     "de": "Nebenbeschäftigung",
     "de_article": "die",
     "de_plural": "die Nebenbeschäftigungen",
-    "lv": "Blakus darbs",
+    "lv": "Travail secondaire",
     "level": "C2"
   },
   {
     "de": "Nervenzusammenbruch",
     "de_article": "der",
     "de_plural": "die Nervenzusammenbrüche",
-    "lv": "Nervu sabrukums",
+    "lv": "Dépression nerveuse",
     "level": "C2"
   },
   {
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "Parlamenta deputāts • Parlamentārietis",
+    "lv": "Député • Parlementaire",
     "level": "C2"
   },
   {
     "de": "Pflichtversicherung",
     "de_article": "die",
     "de_plural": "die Pflichtversicherungen",
-    "lv": "Obligātā apdrošināšana",
+    "lv": "Assurance obligatoire",
     "level": "C2"
   },
   {
     "de": "politische Ökonomie",
     "de_article": "die",
-    "lv": "Politiskā ekonomija",
+    "lv": "Économie politique",
     "level": "C2"
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Populārzinātnisks",
+    "lv": "Science populaire",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Konkurss",
+    "lv": "Concours",
     "level": "C2"
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "Labēji ekstrēmistisks",
+    "lv": "Extrême droite",
     "level": "C2"
   },
   {
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Satelīttelevīzijas pārraide",
+    "lv": "Transmission de télévision par satellite",
     "level": "C2"
   },
   {
     "de": "Scheidungsprozess",
     "de_article": "der",
     "de_plural": "die Scheidungsprozesse",
-    "lv": "Šķiršanās prāva",
+    "lv": "Procédure de divorce",
     "level": "C2"
   },
   {
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Sūdzība",
+    "lv": "Plainte",
     "level": "C2"
   },
   {
     "de": "Schwangerschaftsabbruch",
     "de_article": "der",
     "de_plural": "die Schwangerschaftsabbrüche",
-    "lv": "Grūtniecības pārtraukšana",
+    "lv": "Interruption de grossesse",
     "level": "C2"
   },
   {
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "Pašnoteikšanās tiesības",
+    "lv": "Le droit à l'autodétermination",
     "level": "C2"
   },
   {
     "de": "Selbsterhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Selbsterhaltungstriebe",
-    "lv": "Pašsaglabāšanās instinkts",
+    "lv": "L’instinct de conservation",
     "level": "C2"
   },
   {
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "Pašaizsardzības paņēmienu kopums",
+    "lv": "Un ensemble de techniques d'auto-défense",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Pavalstniecība",
+    "lv": "Indépendance",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Nodokļu atvieglojumi",
+    "lv": "Avantages fiscaux",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Jur. kriminālkodekss",
+    "lv": "Code pénal juridique",
     "level": "C2"
   },
   {
     "de": "Tochtergesellschaft",
     "de_article": "die",
     "de_plural": "die Tochtergesellschaften",
-    "lv": "Meitasuzņēmums",
+    "lv": "Société filiale",
     "level": "C2"
   },
   {
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "Sūdzība tiesā paternitātes noteikšanai",
+    "lv": "Un procès pour établir la paternité",
     "level": "C2"
   },
   {
     "de": "verallgemeinern",
-    "lv": "Vispārināt",
+    "lv": "Pour généraliser",
     "level": "C2"
   },
   {
     "de": "Verhütungsmittel",
     "de_article": "das",
     "de_plural": "die Verhütungsmittel",
-    "lv": "Pretapaugļošanās līdzeklis",
+    "lv": "Contraceptif",
     "level": "C2"
   },
   {
     "de": "Waffenstillstand",
     "de_article": "der",
     "de_plural": "die Waffenstillstände",
-    "lv": "Pamiers",
+    "lv": "Trêve",
     "level": "C2"
   },
   {
     "de": "Widerstandsbewegung",
     "de_article": "die",
     "de_plural": "die Widerstandsbewegungen",
-    "lv": "Pretošanās kustība",
+    "lv": "Mouvement de résistance",
     "level": "C2"
   },
   {
     "de": "Widerstandskämpfer",
     "de_article": "der",
     "de_plural": "die Widerstandskämpfer",
-    "lv": "Lid van de verzetsbeweging",
+    "lv": "Membre du mouvement de résistance",
     "level": "C2"
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "Pamatā",
+    "lv": "Essentiellement",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "Labā • Par labu",
+    "lv": "Pour le bien • Pour le bien",
     "level": "C2"
   },
   {
     "de": "imstande",
-    "lv": "Spējīgs",
+    "lv": "Capable",
     "level": "C2"
   },
   {
     "de": "im Stande",
-    "lv": "Spējīgs",
+    "lv": "Capable",
     "level": "C2"
   },
   {
     "de": "instand",
-    "lv": "Kārtībā",
+    "lv": "En ordre",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "Kārtībā",
+    "lv": "En ordre",
     "level": "C2"
   },
   {
     "de": "inwiefern",
-    "lv": "Cik lielā mērā",
+    "lv": "Dans quelle mesure",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "Cik lielā mērā",
+    "lv": "Dans quelle mesure",
     "level": "C2"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Kruiwagen",
+    "lv": "Brouette",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Kruiwagen",
+    "lv": "Brouette",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Een oorlog ongeldig",
+    "lv": "Une guerre invalide",
     "level": "C2"
   },
   {
     "de": "Kriegsgefangene",
     "de_article": "der",
     "de_plural": "die Kriegsgefangenen",
-    "lv": "Karagūsteknis",
+    "lv": "Un prisonnier de guerre",
     "level": "C2"
   },
   {
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Lietpratējs • Eksperts",
+    "lv": "Compétent • Expert",
     "level": "C2"
   }
 ];
