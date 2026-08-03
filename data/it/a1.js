@@ -23,17 +23,17 @@ const A1_WORDS = [
     "de": "Haus",
     "de_article": "das",
     "de_plural": "die Häuser",
-    "lv": ")sa",
+    "lv": "casa",
     "level": "A1"
   },
   {
     "de": "lernen",
-    "lv": "Macite",
+    "lv": "imparare",
     "level": "A1"
   },
   {
     "de": "sprechen",
-    "lv": "Runat",
+    "lv": "parlare",
     "level": "A1",
     "study": {
       "id": "a1-sprechen-study",
@@ -1098,7 +1098,7 @@ const A1_WORDS = [
   },
   {
     "de": "anziehen",
-    "lv": "Per assegnare",
+    "lv": "indossare",
     "level": "A1"
   },
   {
@@ -8123,7 +8123,7 @@ const A1_WORDS = [
   },
   {
     "de": "haben",
-    "lv": "J",
+    "lv": "avere",
     "level": "A1",
     "study": {
       "id": "a1-haben",
