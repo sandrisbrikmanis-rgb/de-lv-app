@@ -20362,7 +20362,7 @@ const B1_WORDS = [
       "id": "b1-entlassen",
       "layout": "standardStudy",
       "translation": "Lâcher",
-      "explanation": "Idée principale : entlassen signifie renvoyer ou libérer d'une institution. La traduction lettone change selon les lieux : l'entreprise licencie, les sorties d'hôpital, les sorties de prison.",
+      "explanation": "Idée principale : entlassen signifie renvoyer ou libérer d'une institution. La traduction française change selon les lieux : l'entreprise licencie, les sorties d'hôpital, les sorties de prison.",
       "examples": [
         {
           "de": "Die Firma entlässt viele Mitarbeiter.",

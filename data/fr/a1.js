@@ -68,7 +68,7 @@ const A1_WORDS = [
         {
           "word": "sagen",
           "meaning": "Raconter (un texte spécifique)",
-          "example": "Sag mir die Wahrheit. – moi la vérité."
+          "example": "Sag mir die Wahrheit. – Dis-moi la vérité."
         }
       ],
       "tip": [
@@ -7522,7 +7522,7 @@ const A1_WORDS = [
       "translation": "J'ai",
       "explanation": [
         "Idée principale : haben signifie que quelqu'un a ou a accès à quelque chose.",
-        "La construction dative lettone « J'ai / tu as » en allemand est nominative + haben : Ich habe..., Du hast..., Er hat... — pas *mir habe.",
+        "La construction française « J'ai / tu as » en allemand est nominative + haben : Ich habe..., Du hast..., Er hat... — pas *mir habe.",
         "Haben est suivi de l'accusatif : Ich habe ein Auto. = J'ai une voiture.",
         "Haben est également utilisé comme verbe auxiliaire au parfait : Ich habe gelernt."
       ],
@@ -9013,7 +9013,7 @@ const A1_WORDS = [
         "Idée principale : in signifie généralement dans ou vers un lieu, lorsqu'il s'agit d'un espace, d'un pays, d'une ville ou d'un bâtiment.",
         "Avec localisation, in est souvent traduit par dans ou dans : à Berlin = à Berlin.",
         "Avec le mouvement in signifie vers l'intérieur : ins Kino = au cinéma.",
-        "La traduction lettone change en fonction du contexte."
+        "La traduction française change en fonction du contexte."
       ],
       "examples": [
         {
@@ -16672,7 +16672,7 @@ const A1_WORDS = [
       },
       "important": [
         "Der Reis - en allemand uniquement au singulier (Der Reis ist..., nicht *sind).",
-        "Dans la traduction lettone, le pluriel est souvent utilisé : le riz est prêt."
+        "Dans la traduction française, le pluriel est souvent utilisé : le riz est prêt."
       ],
       "sectionAccents": {
         "explanation": {

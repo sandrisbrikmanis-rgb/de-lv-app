@@ -55,7 +55,7 @@ window.LANGUAGE_UI_STRINGS = {
     "chooseAnotherGroup": "Choisissez un autre groupe",
     "listen": "Écouter",
     "listenPlural": "Écoutez le pluriel",
-    "listenWithWord": "Écoutez : {mot}",
+    "listenWithWord": "Écoutez : {word}",
     "autoplayOn": "Prononciation automatique activée",
     "autoplayOff": "Prononciation automatique désactivée",
     "autoplayLabel": "Prononciation automatique",
@@ -76,17 +76,17 @@ window.LANGUAGE_UI_STRINGS = {
   "modes": {
     "easy": "Facile",
     "normal": "Normale",
-    "intense": "L’Intense"
+    "intense": "Intense"
   },
   "direction": {
     "deToNative": "🔄DE ➔ {code}",
-    "nativeToDe": "Code of"
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Cliquez sur la carte pour voir la traduction.",
     "chooseNextStep": "Choisissez quoi faire ensuite.",
     "chooseModeOrReturn": "Choisissez un autre mode ou revenez plus tard pour vérifier.",
-    "trainingCard": "{titre} carte d'exercice"
+    "trainingCard": "{title} carte d'exercice"
   },
   "card": {
     "pluralLabel": "Pl.",
@@ -120,16 +120,16 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Traduction:",
     "hintTapAnswer": "Cliquez sur la carte pour voir la réponse.",
     "hintTapSwitch": "Cliquez sur la carte pour changer de forme.",
-    "hintSessionProgress": "{étiquette} : {actuel} / {total}. {robinet}",
+    "hintSessionProgress": "{label} : {current} / {total}. {tap}",
     "noShuffleForms": "Ce verbe n'a pas assez de formes pour se mélanger."
   },
   "notices": {
     "chooseNextGroup": "Sélectionnez le groupe suivant dans le menu principal.",
     "sessionReloaded": "Session rechargée avec ordre mixte.",
     "sessionMovedToKnown": "Les mots de la session sont devenus connus.",
-    "verbShuffleOn": "Verbe mélanger.",
+    "verbShuffleOn": "Mélange des verbes activé.",
     "verbShuffleOff": "Conjugaison des verbes désactivée.",
-    "spellingOn": "Mode sort activé.",
+    "spellingOn": "Mode orthographe activé.",
     "spellingOff": "Mode sort désactivé.",
     "showingKnown": "Nous montrons les cartes connues.",
     "problemModeOff": "Mode mot problématique désactivé.",
@@ -151,7 +151,7 @@ window.LANGUAGE_UI_STRINGS = {
     "returnedToStudy": "Revenu en mode apprentissage.",
     "leftInProblems": "Laissé dans le groupe à problèmes.",
     "leftForReview": "Laissé pour révision.",
-    "showingTimeReview": "Affichage : {étiquette}.",
+    "showingTimeReview": "Affichage : {label}.",
     "continueTimeReview": "Suite : {label}.",
     "enterAnswerFirst": "Tout d’abord, entrez la bonne réponse et appuyez sur Vérifier.",
     "noCardForMastered": "Il n'y a aucune carte à ajouter à 100% connue.",
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Voyelles longues et courtes avec exemples.",
     "consonantsTitle": "Consonnes et combinaisons de lettres",
     "consonantsDesc": "Les consonnes les plus importantes pour le débutant.",
-    "lessonProgress": "Leçon {leçon} · Traduction : {current} / {total}",
-    "exerciseProgress": "Leçon {leçon} · Exercice",
+    "lessonProgress": "Leçon {lesson} · Traduction : {current} / {total}",
+    "exerciseProgress": "Leçon {lesson} · Exercice",
     "sections": {
       "grammar": "Grammaire",
       "exercise": "Exercice",
@@ -256,7 +256,7 @@ window.LANGUAGE_UI_STRINGS = {
       "tapToContinue": "Appuyez sur la carte pour continuer.",
       "tapToRevealGerman": "Appuyez sur la carte pour voir la traduction allemande.",
       "tapNextStep": "Appuyez sur la carte pour passer à l'étape suivante.",
-      "exerciseCardAria": "{titre} carte d'exercice"
+      "exerciseCardAria": "{title} carte d'exercice"
     },
     "cta": {
       "tapNextCard": "Appuyez sur la carte suivante",
@@ -375,7 +375,7 @@ window.LANGUAGE_UI_STRINGS = {
     "expectedLabel": "Correct :",
     "noVerbTask": "Il n'y a pas de tâche d'orthographe pour ce verbe.",
     "writeAnswer": "Écrivez la réponse",
-    "missingChar": "manquant : {caractère}"
+    "missingChar": "manquant : {char}"
   },
   "progress": {
     "verbsHeading": "Verbes",

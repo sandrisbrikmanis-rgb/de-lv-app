@@ -728,7 +728,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Lauzt"
+      "lv": "Casser"
     },
     "praesens": {
       "de": "er bricht",
@@ -744,7 +744,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Lauzts / salauzts"
+      "lv": "Cassé"
     }
   },
   {
@@ -2064,17 +2064,17 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Osts"
+      "lv": "Senti"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Lauzties"
+      "lv": "Se débattre / S'efforcer"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "Il casse"
+      "lv": "Il se bat"
     },
     "imperfektIndikativ": {
       "de": "er rang",

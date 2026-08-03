@@ -6001,7 +6001,7 @@ const A2_WORDS = [
     "de": "Ast",
     "de_article": "der",
     "de_plural": "die Äste",
-    "lv": "Une succursale",
+    "lv": "Une branche",
     "level": "A2"
   },
   {
@@ -67160,7 +67160,7 @@ const A2_WORDS = [
         {
           "word": "sagen",
           "meaning": "Raconter (un texte spécifique)",
-          "example": "Sag mir die Wahrheit. – moi la vérité."
+          "example": "Sag mir die Wahrheit. – Dis-moi la vérité."
         }
       ],
       "tip": [
