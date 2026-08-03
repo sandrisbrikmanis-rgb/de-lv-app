@@ -1455,7 +1455,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Abhängen von je stabilna konstrukcija • Na letonskom se ne prevodi doslovno kao \"visiti\"."
+        "text": "Abhängen von je stabilna konstrukcija • Na bosanskom se ne prevodi doslovno kao \"visiti\"."
       },
       "sectionAccents": {
         "explanation": {
@@ -2339,7 +2339,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Na letonskom, \"fragment\" ne odgovara uvek • Der Abschnitt je češće sekcija ili sekcija."
+        "text": "Na bosanskom, \"fragment\" ne odgovara uvek • Der Abschnitt je češće sekcija ili sekcija."
       },
       "sectionAccents": {
         "explanation": {
@@ -3600,7 +3600,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "reputācija",
+                "Reputacija",
                 "Njegova"
               ]
             }
@@ -3629,7 +3629,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "reputācija"
+                "reputacija"
               ]
             }
           },
@@ -4797,8 +4797,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "uzturēties",
-                  "aizkavēt"
+                  "održavati",
+                  "odgoditi"
                 ]
               }
             }
@@ -5220,7 +5220,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "izruna",
-                  "domu apmaiņa"
+                  "razmjena misli"
                 ]
               }
             }
@@ -5384,8 +5384,8 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "izsniegt",
-                  "izrakstīt",
-                  "izstādīt"
+                  "izdati",
+                  "izložiti"
                 ]
               }
             }
@@ -5714,7 +5714,7 @@ const B1_WORDS = [
                 "Treba"
               ],
               "yellow": [
-                "reģistra"
+                "registra"
               ]
             }
           },
@@ -5813,7 +5813,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "izraksts",
-                  "izvākšanās"
+                  "iseljenje"
                 ]
               }
             }
@@ -6126,7 +6126,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "būvniecība",
+                  "gradnja",
                   "celtne",
                   "būvlaukumā"
                 ]
@@ -6375,10 +6375,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "baseinā",
+                  "bazenu",
                   "iegurnis",
                   "tvertne",
-                  "bļoda"
+                  "posuda"
                 ]
               }
             }
@@ -6575,8 +6575,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "nozīmīgs",
-                  "ievērojams",
+                  "značajan",
+                  "značajan",
                   "ievērojami"
                 ]
               }
@@ -7116,7 +7116,7 @@ const B1_WORDS = [
             "Glavna"
           ],
           "yellow": [
-            "tēma"
+            "tema"
           ],
           "green": [
             "pacijenta",
@@ -7166,8 +7166,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ārstēt",
-                  "izturēties",
+                  "liječiti",
+                  "ponašati",
                   "apspriest"
                 ]
               }
@@ -8038,7 +8038,7 @@ const B1_WORDS = [
                 "Razgovaramo"
               ],
               "yellow": [
-                "plānu"
+                "planu"
               ]
             }
           },
@@ -8705,7 +8705,7 @@ const B1_WORDS = [
                 "Situacija"
               ],
               "yellow": [
-                "Situācija"
+                "Situacija"
               ]
             }
           }
@@ -11140,7 +11140,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Na stopalu, Blase je obično \"blister\" na letonskom, a ne \"mjehur\". U medicini Blase može biti i bešika."
+        "text": "Na stopalu, Blase je obično \"blister\" na bosanskom, a ne \"mjehur\". U medicini Blase može biti i bešika."
       },
       "sectionAccents": {
         "examples": [
@@ -12609,7 +12609,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "federācija"
+                "federacija"
               ],
               "green": [
                 "Federacija"
@@ -12710,7 +12710,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "federācija",
+                  "federacija",
                   "saišķis"
                 ]
               }
@@ -18284,7 +18284,7 @@ const B1_WORDS = [
                 "purple": [
                   "teksts",
                   "kurss",
-                  "sistēma",
+                  "sistema",
                   "noteikumi"
                 ]
               }
@@ -21635,7 +21635,7 @@ const B1_WORDS = [
       "id": "b1-entlassen",
       "layout": "standardStudy",
       "translation": "Pusti",
-      "explanation": "Glavna ideja: entlassen znači otpustiti ili otpustiti iz institucije. Letonski prevod se menja u zavisnosti od mesta: kompanija otpušta, bolnica otpušta, zatvor pušta.",
+      "explanation": "Glavna ideja: entlassen znači otpustiti ili otpustiti iz institucije. Bosanski prevod se menja u zavisnosti od mesta: kompanija otpušta, bolnica otpušta, zatvor pušta.",
       "examples": [
         {
           "de": "Die Firma entlässt viele Mitarbeiter.",
@@ -21675,7 +21675,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Iz bolnice, entlassen je obično \"otpuštanje\" na letonskom, a ne \"otpuštanje\"."
+        "text": "Iz bolnice, entlassen je obično \"otpuštanje\" na bosanskom, a ne \"otpuštanje\"."
       },
       "sectionAccents": {
         "examples": [
@@ -23170,7 +23170,7 @@ const B1_WORDS = [
                 "Mašina"
               ],
               "yellow": [
-                "Mašīna"
+                "Mašina"
               ],
               "green": [
                 "Mašina"
@@ -24973,7 +24973,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "sekas",
-                  "sērija"
+                  "serija"
                 ]
               }
             }
@@ -24982,7 +24982,7 @@ const B1_WORDS = [
         "important": {
           "purple": [
             "Folge",
-            "sērija"
+            "serija"
           ]
         }
       }
@@ -27980,7 +27980,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "Glavna",
-            "kompāniju"
+            "kompaniju"
           ],
           "yellow": [
             "Glavna",
@@ -30097,7 +30097,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "tēmu"
+            "temu"
           ]
         }
       }
@@ -31760,7 +31760,7 @@ const B1_WORDS = [
             "Glavna"
           ],
           "yellow": [
-            "informācija"
+            "informacija"
           ]
         },
         "comparison": [
@@ -33813,7 +33813,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nije svaki letonski \"pogon\" jagen • Izbor je određen kontekstom."
+        "text": "Nije svaki bosanski \"pogon\" jagen • Izbor je određen kontekstom."
       },
       "sectionAccents": {
         "examples": [
@@ -34522,7 +34522,7 @@ const B1_WORDS = [
         "Glavna ideja: der Kader znači (kvalifikovani) kadar ili nukleus—grupu ljudi sa specifičnom ulogom ili kvalifikacijom.",
         "U sportu, der Kader znači sastav tima (der Kader der Nationalmannschaft = sastav reprezentacije).",
         "U politici ili organizacijama, der Kader znači vodeće/obučeno jezgro osoblja.",
-        "Ne treba se brkati sa letonskim 'kadr' (filmski okvir) - na njemačkom je das Bild ili die Einstellung, ne der Kader."
+        "Ne treba se brkati sa bosanskim 'kadr' (filmski okvir) - na njemačkom je das Bild ili die Einstellung, ne der Kader."
       ],
       "examples": [
         {
@@ -34548,7 +34548,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Der Kader = odred/jezgro (grupa ljudi) - u sportu, politici, organizacijama.",
-        "Letonski 'frame' (filmovi) ≠ der Kader - filmski okvir na njemačkom je das Bild/die Einstellung."
+        "Bosanski 'frame' (filmovi) ≠ der Kader - filmski okvir na njemačkom je das Bild/die Einstellung."
       ],
       "important": [
         "Der Kader = kompozicija/jezgro, a ne filmski okvir.",
@@ -35761,7 +35761,7 @@ const B1_WORDS = [
                 "purple": [
                   "glāze",
                   "krēsls",
-                  "situācija"
+                  "situacija"
                 ]
               }
             }
@@ -39202,7 +39202,7 @@ const B1_WORDS = [
           "blue": "der Inhalt",
           "purple": "iekšā",
           "yellow": [
-            "tekstā",
+            "teksta",
             "Šta",
             "Šta"
           ]
@@ -39397,7 +39397,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Drvo ili voće? Pogledajte kontekst oko die Kastanie.",
-      "important": "U letonskom jeziku često je potrebno razlikovati kesten kao drvo i kesten kao voće.",
+      "important": "U bosanskom jeziku često je potrebno razlikovati kesten kao drvo i kesten kao voće.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Kastanie",
@@ -39487,8 +39487,8 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "letonskom",
-            "letonskom"
+            "bosanskom",
+            "bosanskom"
           ]
         }
       }
@@ -48991,7 +48991,7 @@ const B1_WORDS = [
               "green": "Firma"
             },
             "lv": {
-              "red": "reputācija"
+              "red": "reputacija"
             }
           }
         ],
@@ -49032,7 +49032,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "der Ruf",
-          "purple": "reputācija"
+          "purple": "reputacija"
         },
         "important": {
           "blue": "Ruf",
@@ -50388,7 +50388,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Iznenadni udarac: Schlag se primjenjuje.",
-      "important": "Schlag je vrlo kontekstualan • Munja na letonskom često znači udarac.",
+      "important": "Schlag je vrlo kontekstualan • Munja na bosanskom često znači udarac.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Schlag",
@@ -53383,8 +53383,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "sowie",
-          "purple": "kā arī",
-          "red": "tiklīdz"
+          "purple": "kao i",
+          "red": "čim"
         },
         "examples": [
           {
@@ -53393,7 +53393,7 @@ const B1_WORDS = [
               "yellow": "Brot"
             },
             "lv": {
-              "purple": "kā arī"
+              "purple": "kao i"
             }
           },
           {
@@ -53402,7 +53402,7 @@ const B1_WORDS = [
               "green": "Kinder"
             },
             "lv": {
-              "purple": "kā arī"
+              "purple": "kao i"
             }
           },
           {
@@ -53411,7 +53411,7 @@ const B1_WORDS = [
               "yellow": "Zeit"
             },
             "lv": {
-              "red": "Tiklīdz"
+              "red": "Čim"
             }
           }
         ],
@@ -53421,7 +53421,7 @@ const B1_WORDS = [
               "green": "sowie"
             },
             "meaning": {
-              "purple": "kā arī"
+              "purple": "kao i"
             },
             "example": {
               "blue": "sowie"
@@ -53443,7 +53443,7 @@ const B1_WORDS = [
               "green": "sobald"
             },
             "meaning": {
-              "purple": "tiklīdz"
+              "purple": "čim"
             },
             "example": {
               "red": "Sobald"
@@ -53452,12 +53452,12 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "sowie",
-          "purple": "kā arī",
-          "red": "tiklīdz"
+          "purple": "kao i",
+          "red": "čim"
         },
         "important": {
           "blue": "sowie",
-          "red": "tiklīdz"
+          "red": "čim"
         }
       }
     }
@@ -56563,7 +56563,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Letonski tenk na njemačkom je obično der Panzer, a ne der Tank."
+        "text": "Bosanski tenk na njemačkom je obično der Panzer, a ne der Tank."
       },
       "sectionAccents": {
         "explanation": {

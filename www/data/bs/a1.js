@@ -1064,14 +1064,14 @@ const A1_WORDS = [
               "deshalb"
             ],
             "purple": [
-              "Letonsko"
+              "Bosansko"
             ]
           }
         ]
       },
       "important": [
         "Takođe pokazuje zaključak: sljedeća misao proizlazi iz gore rečenog.",
-        "Letonsko \"so\" često može biti i deshalb."
+        "Bosansko \"so\" često može biti i deshalb."
       ]
     }
   },
@@ -2149,7 +2149,7 @@ const A1_WORDS = [
       },
       "important": [
         "Baden i schwimmen nisu sinonimi.",
-        "Letonski često kaže jednostavno \"plivati\", ali na njemačkom morate birati u skladu sa situacijom."
+        "Bosanski često kaže jednostavno \"plivati\", ali na njemačkom morate birati u skladu sa situacijom."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2328,10 +2328,10 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "Letonski"
+              "Bosanski"
             ],
             "blue": [
-              "Letonski"
+              "Bosanski"
             ],
             "red": [
               "situacijom"
@@ -4970,7 +4970,7 @@ const A1_WORDS = [
       "translation": "Led • Sladoled",
       "explanation": [
         "Glavna ideja: das Eis može značiti i sladoled i sladoled.",
-        "Kada je u pitanju hladna smrznuta voda, letonski obično kaže led.",
+        "Kada je u pitanju hladna smrznuta voda, bosanski obično kaže led.",
         "Kada je u pitanju hrana ili desert, das Eis vrlo često znači sladoled u svakodnevnom životu.",
         "Kontekst vam obično odmah kaže koje je značenje namijenjeno.",
         "Na nivou A1 najvažnije fraze su ein Eis essen i Eis im Glas."
@@ -5009,7 +5009,7 @@ const A1_WORDS = [
           "example": "Der Schnee ist weiß. = Snijeg je bijeli."
         },
         {
-          "word": "Kovati",
+          "word": "kalt",
           "meaning": "Hladno",
           "example": "Das Wasser ist kalt. = Voda je hladna."
         },
@@ -5023,7 +5023,7 @@ const A1_WORDS = [
         "text": "Zapamtite: hrana → sladoled • Zima/voda → led."
       },
       "important": [
-        "Na letonskom, led i sladoled su dve različite reči, ali na nemačkom se das Eis često koristi za obe.",
+        "Na bosanskom, led i sladoled su dve različite reči, ali na nemačkom se das Eis često koristi za obe.",
         "Kontekst je ključan: hrana znači sladoled, hladna površina ili voda znači led."
       ],
       "sectionAccents": {
@@ -5156,7 +5156,7 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Kovati"
+                "kalt"
               ]
             },
             "meaning": {
@@ -5211,8 +5211,8 @@ const A1_WORDS = [
               "das Eis"
             ],
             "purple": [
-              "letonskom",
-              "letonskom"
+              "bosanskom",
+              "bosanskom"
             ]
           },
           {
@@ -5514,11 +5514,11 @@ const A1_WORDS = [
         }
       ],
       "info": [
-        "Letonski \"es\" = njemački \"ich\"",
+        "Bosanski \"es\" = njemački \"ich\"",
         "Njemački \"ja\" = to • So • Bezličan oblik"
       ],
       "tip": {
-        "text": "Zapamtite: letonski \"es\" → ich, a ne njemački es."
+        "text": "Zapamtite: bosanski \"es\" → ich, a ne njemački es."
       },
       "sectionAccents": {
         "examples": [
@@ -5621,15 +5621,15 @@ const A1_WORDS = [
               "es"
             ],
             "purple": [
-              "Letonsko",
-              "Letonsko"
+              "Bosansko",
+              "Bosansko"
             ]
           }
         ]
       },
       "important": [
-        "Nemačko ja nije letonsko ja.",
-        "Letonsko \"I\" je ich na njemačkom • Nemački es često znači to/to ili nije preveden."
+        "Nemačko ja nije bosansko ja.",
+        "Bosansko \"I\" je ich na njemačkom • Nemački es često znači to/to ili nije preveden."
       ]
     }
   },
@@ -8127,7 +8127,7 @@ const A1_WORDS = [
       "translation": "Imam",
       "explanation": [
         "Glavna ideja: haben znači da neko ima ili ima pristup nečemu.",
-        "Letonska dativna konstrukcija \"imam / imaš\" u njemačkom je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
+        "Bosanska dativna konstrukcija \"imam / imaš\" u njemačkom je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ne *mir habe.",
         "Haben slijedi akuzativ: Ich habe ein Auto. = Imam auto.",
         "Haben se također koristi kao pomoćni glagol u perfektu: Ich habe gelernt."
       ],
@@ -8175,7 +8175,7 @@ const A1_WORDS = [
         "text": "Zapamtite: Ich habe → Imam."
       },
       "important": [
-        "Letonski \"imam\" = njemački Ich habe + akuzativ. Nemojte koristiti dativ: pogrešno *mir habe.",
+        "Bosanski \"imam\" = njemački Ich habe + akuzativ. Nemojte koristiti dativ: pogrešno *mir habe.",
         "Sa seinom i dativom: Mir ist kalt. = Hladno mi je. (nije haben!)",
         "Savršeno: Ich habe gelernt = Naučio sam."
       ],
@@ -8335,7 +8335,7 @@ const A1_WORDS = [
               "habe"
             ],
             "purple": [
-              "Letonski"
+              "Bosanski"
             ]
           },
           {
@@ -9778,7 +9778,7 @@ const A1_WORDS = [
         "text": "Zapamtite: in/in → in."
       },
       "important": [
-        "In nije uvijek doslovno „unutar“ • Letonski se često govori u Berlinu, u školi, u bioskopu.",
+        "In nije uvijek doslovno „unutar“ • Bosanski se često govori u Berlinu, u školi, u bioskopu.",
         "Kada je u pitanju površina, često vam je potreban auf umjesto in."
       ],
       "sectionAccents": {
@@ -10304,7 +10304,7 @@ const A1_WORDS = [
       "explanation": [
         "Glavna ideja: jung znači mlad u godinama - koristi se za ljude i životinje, a ne za stvari.",
         "Jung opisuje starost - suprotno je alt (starost).",
-        "Na letonskom, reč mlad ima dva značenja: mlad (jung) i mlad/skoro stvoren (neu).",
+        "Na bosanskom, reč mlad ima dva značenja: mlad (jung) i mlad/skoro stvoren (neu).",
         "Za stvari koje ste nedavno kreirali ili stekli, koristite neu, ne jung.",
         "Jung se također koristi u prenesenom značenju: nova generacija, mladi par, mladi ljudi.",
         "Tu je i imenica die Jugend (mladost)."
@@ -12062,7 +12062,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Zemlja",
-                "planēta"
+                "planeta"
               ]
             },
             "example": {
@@ -12123,7 +12123,7 @@ const A1_WORDS = [
         "Kada je u pitanju veličina ili udaljenost, lang = dugačak (ein langer Tisch = dugačak stol).",
         "Kada je u pitanju dužina vremena, lang = dug (ein langer Tag = dug dan).",
         "U frazi den ganzen Tag lang to znači cijeli dan (po dužini).",
-        "Letonski 'garš' i 'ilgs' su dvije različite riječi, ali njemački jezik pokriva oba značenja."
+        "Bosanski 'garš' i 'ilgs' su dvije različite riječi, ali njemački jezik pokriva oba značenja."
       ],
       "examples": [
         {
@@ -12595,7 +12595,7 @@ const A1_WORDS = [
             "Glavna",
             "Glavna",
             "film",
-            "mašīnu",
+            "mašinu",
             "program"
           ]
         },
@@ -14785,7 +14785,7 @@ const A1_WORDS = [
       "translation": "To like",
       "explanation": [
         "Glavna ideja: mögen najčešće znači nešto voljeti.",
-        "Ich mag... je obično \"volim...\" na letonskom.",
+        "Ich mag... je obično \"volim...\" na bosanskom.",
         "Möchte je drugi oblik koji se koristi za uljudnu želju: želio bih.",
         "Na nivou A1, najvažnija fraza je Ich mag das."
       ],
@@ -15379,7 +15379,7 @@ const A1_WORDS = [
       "translation": "Da treba",
       "explanation": [
         "Glavna ideja: müssen znači učiniti nešto.",
-        "Na letonskom se müssen često prevodi kao \"ja da...\", \"ti da...\", \"mi da...\".",
+        "Na bosanskom se müssen često prevodi kao \"ja da...\", \"ti da...\", \"mi da...\".",
         "U njemačkoj rečenici drugi glagol obično dolazi na kraju.",
         "Na nivou A1, najvažnija forma je Ich muss..."
       ],
@@ -16345,7 +16345,7 @@ const A1_WORDS = [
       "explanation": [
         "Glavna ideja: neu znači novo u smislu stvari—nedavno stvoreno, kupljeno ili korišteno po prvi put.",
         "Neu opisuje stvari, uređaje, odjeću, kuće, ideje, itd. - ne ljudsko ili životinjsko doba.",
-        "Na letonskom, reč mlad ima dva značenja: mlad (jung) i mlad/skoro stvoren (neu).",
+        "Na bosanskom, reč mlad ima dva značenja: mlad (jung) i mlad/skoro stvoren (neu).",
         "Za starost osobe ili životinje koristi se jung, a ne neu.",
         "Neu se također koristi u figurativnom smislu: novi posao, nova informacija, novi početak.",
         "Suprotnost je alt (staro) • Imenica das Neue znači novi."
@@ -16755,7 +16755,7 @@ const A1_WORDS = [
         "Koristi se samo kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Letonski \"samo\" na njemačkom nije uvijek nur.",
+        "Bosanski \"samo\" na njemačkom nije uvijek nur.",
         "Nur = samo / isključivo."
       ],
       "sectionAccents": {
@@ -18635,7 +18635,7 @@ const A1_WORDS = [
       },
       "important": [
         "Schwimmen i baden nisu isto.",
-        "Letonski često kaže \"plivati\", ali na njemačkom morate provjeriti je li to kretanje ili kupanje."
+        "Bosanski često kaže \"plivati\", ali na njemačkom morate provjeriti je li to kretanje ili kupanje."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18805,13 +18805,13 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "Letonski"
+              "Bosanski"
             ],
             "blue": [
-              "Letonski"
+              "Bosanski"
             ],
             "red": [
-              "Letonski"
+              "Bosanski"
             ]
           }
         ]
@@ -19533,7 +19533,7 @@ const A1_WORDS = [
       "translation": "Sebe • Za sebe",
       "explanation": [
         "Glavna ideja: sich pokazuje da se radnja odnosi na samog izvršioca.",
-        "Na letonski se često prevodi kao ja ili ja.",
+        "Na bosanski se često prevodi kao ja ili ja.",
         "U nekim njemačkim glagolima sich je obavezan dio, kao što je sich waschen.",
         "Važno je primijetiti na nivou A1: ich wasche mich, er wäscht sich."
       ],
@@ -20081,7 +20081,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ti",
       "explanation": [
-        "Glavna ideja: ljubazno obraćanje - uvijek s velikim S. Latviski: vi. Često sa glagolom u množini.",
+        "Glavna ideja: ljubazno obraćanje - uvijek s velikim S. Bosanski: vi. Često sa glagolom u množini.",
         "Sie u osnovi znači: jedna žena.",
         "Često karakterizira: glagol u jednini (-t).",
         "Sie uglavnom znači: nekoliko ljudi.",
@@ -20117,7 +20117,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Adresa ljubaznosti - uvijek s velikim S. Latviski: vi. Često sa glagolom u množini.",
+        "Adresa ljubaznosti - uvijek s velikim S. Bosanski: vi. Često sa glagolom u množini.",
         "Koristite Sie kada je kontekst prikladan za ovo značenje."
       ],
       "important": [
@@ -21499,7 +21499,7 @@ const A1_WORDS = [
               "über"
             ],
             "purple": [
-              "tēma",
+              "tema",
               "Zapamtite"
             ]
           }
@@ -23021,7 +23021,7 @@ const A1_WORDS = [
         "Bila je pitanja o stvarima, događajima i činjenicama, a ne o osobama.",
         "Na njemačkom, was se ne mijenja nakon fleksije - uvijek izgleda kao bio.",
         "Ako je bio predmet rečenice, na latvijskom se prevodi kao kas (Was ist das? = Šta je to?).",
-        "Ako je bio dopuna (objekat) glagola, na letonski se prevodi kao ko (Was machst du? = Šta radiš?).",
+        "Ako je bio dopuna (objekat) glagola, na bosanski se prevodi kao ko (Was machst du? = Šta radiš?).",
         "Ljudi se pitaju sa wer (ko/ko), nije bio."
       ],
       "examples": [
@@ -25040,7 +25040,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ēst"
+                "est"
               ]
             }
           },
@@ -25735,7 +25735,7 @@ const A1_WORDS = [
             "essen"
           ],
           "purple": [
-            "ēst"
+            "esti"
           ],
           "blue": [
             "essen",
@@ -25804,7 +25804,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "ēst"
+              "esti"
             ]
           }
         ],

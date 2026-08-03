@@ -1565,14 +1565,14 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "Otkazati",
-                "rezervāciju",
+                "rezervaciju",
                 "Otkazati",
                 "Otkazati"
               ]
             },
             "example": {
               "red": [
-                "rezervāciju",
+                "rezervaciju",
                 "storniere",
                 "Buchung",
                 "Ich"
@@ -5463,7 +5463,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "problēma",
+                "problema",
                 "druga",
                 "druga"
               ]
@@ -6870,7 +6870,7 @@ const A2_WORDS = [
                 "Auflage"
               ],
               "purple": [
-                "tirāža",
+                "tiraža",
                 "Die",
                 "Die"
               ]
@@ -7011,7 +7011,7 @@ const A2_WORDS = [
                   "Aufnahme"
                 ],
                 "purple": [
-                  "fotogrāfiju",
+                  "fotografiju",
                   "videoierakstu"
                 ],
                 "yellow": [
@@ -7045,7 +7045,7 @@ const A2_WORDS = [
                 "Aufnahme"
               ],
               "red": [
-                "fotogrāfija"
+                "Fotografija"
               ],
               "purple": [
                 "Die",
@@ -8093,7 +8093,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "Nanosi",
-                "krēmu",
+                "kremu",
                 "Nanosi"
               ]
             }
@@ -9605,7 +9605,7 @@ const A2_WORDS = [
                 "aussteigen",
                 "einsteigen",
                 "autobusa",
-                "autobusā",
+                "autobusa",
                 "Suprotno",
                 "Suprotno"
               ]
@@ -9845,7 +9845,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "Možete",
-                "tēmu",
+                "temu",
                 "Možete"
               ]
             }
@@ -10345,7 +10345,7 @@ const A2_WORDS = [
                 "ziehen",
                 "nach",
                 "Riga",
-                "Rīgu"
+                "Rigu"
               ]
             }
           },
@@ -12304,7 +12304,7 @@ const A2_WORDS = [
                 "Figur"
               ],
               "purple": [
-                "figūra"
+                "figura"
               ]
             }
           },
@@ -13753,7 +13753,7 @@ const A2_WORDS = [
                   "paturēt"
                 ],
                 "yellow": [
-                  "informāciju",
+                  "informaciju",
                   "skaitļiem",
                   "behalten",
                   "vārdiem",
@@ -13860,7 +13860,7 @@ const A2_WORDS = [
       "id": "a2-beinahe",
       "layout": "standardStudy",
       "translation": "Skoro",
-      "explanation": "Glavna ideja: beinahe znači skoro ili jedva, kada je nešto bilo vrlo blizu da se dogodi. beinahe znači skoro. Naglašava da se nešto skoro dogodilo, ali se nije dogodilo, ili je bilo vrlo blizu. U nekim kontekstima, letonski se jedva uklapa. beinahe je vrlo blizu brzom. Obično beinahe zvuči malo naglašenije nego brzo.",
+      "explanation": "Glavna ideja: beinahe znači skoro ili jedva, kada je nešto bilo vrlo blizu da se dogodi. beinahe znači skoro. Naglašava da se nešto skoro dogodilo, ali se nije dogodilo, ili je bilo vrlo blizu. U nekim kontekstima, bosanski se jedva uklapa. beinahe je vrlo blizu brzom. Obično beinahe zvuči malo naglašenije nego brzo.",
       "examples": [
         {
           "de": "Ich hätte beinahe den Bus verpasst.",
@@ -14141,7 +14141,6 @@ const A2_WORDS = [
                 "blue": [
                   "beinahe"
                 ],
-                "orange": [],
                 "yellow": [
                   "nenotika",
                   "beinahe",
@@ -14158,7 +14157,6 @@ const A2_WORDS = [
                 "green": [
                   "fast"
                 ],
-                "orange": [],
                 "yellow": [
                   "vispārīgāks",
                   "beinahe",
@@ -14215,7 +14213,7 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "kontekstos",
-          "latviski",
+          "bosanski",
           "nenotika",
           "beinahe",
           "notika",
@@ -14558,7 +14556,7 @@ const A2_WORDS = [
                   "zināms"
                 ],
                 "yellow": [
-                  "informāciju",
+                  "informaciju",
                   "bekannt",
                   "faktiem",
                   "zināms"
@@ -17280,7 +17278,7 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "Pozajmiti",
-          "latviski",
+          "bosanski",
           "personas",
           "Virziens",
           "Znači",
@@ -18805,7 +18803,7 @@ const A2_WORDS = [
               "purple": [
                 "Ponekad",
                 "Ponekad",
-                "mūziku",
+                "muziku",
                 "Ponekad"
               ]
             }
@@ -20315,7 +20313,7 @@ const A2_WORDS = [
             "text": "Pogledajte glagol: warten auf → darauf warten."
           },
           {
-            "text": "Ako Letonac mora \"za to\", njemački će često imati darauf."
+            "text": "Ako Bosanac mora \"za to\", njemački će često imati darauf."
           }
         ]
       },
@@ -22034,7 +22032,7 @@ const A2_WORDS = [
         "Ako tražite mišljenje, Was sagst du dazu? znači \"Šta kažeš na to?\""
       ],
       "important": [
-        "Ne postoji nijedna letonska reč za to.",
+        "Ne postoji nijedna bosanska reč za to.",
         "Prijevod treba odabrati prema situaciji: na to, na ono, sadašnje ili dodatno."
       ],
       "sectionAccents": {
@@ -22687,7 +22685,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "U afirmativnoj rečenici, denn se često prevodi kao jo.",
-        "U pitanjima, denn je tada često Letonac: Was denn? = Šta onda?"
+        "U pitanjima, denn je tada često Bosanac: Was denn? = Šta onda?"
       ],
       "important": [
         "Denn i dann nisu isto.",
@@ -23657,11 +23655,7 @@ const A2_WORDS = [
             }
           },
           {
-            "word": {
-              "green": [
-                "Ako"
-              ]
-            },
+            "word": {},
             "meaning": {
               "purple": [
                 "Već",
@@ -25101,7 +25095,7 @@ const A2_WORDS = [
       "explanation": [
         "Glavna ideja: durch može značiti kretanje kroz nešto, smjer duž nečega ili znači/uzrok „sa/zbog“.",
         "Sa mjestom durch često znači kroz.",
-        "Uz grad ili park, Letonac često kaže pa.",
+        "Uz grad ili park, Bosanac često kaže pa.",
         "Pod sredstvom ili razlogom, durch može značiti sa ili zbog.",
         "Durch nije isto što i mit."
       ],
@@ -25430,7 +25424,7 @@ const A2_WORDS = [
             "text": "Kada je eben popraćeno vremenom, to često znači 'baš sada' ili 'samo sada'."
           },
           {
-            "text": "Ako eben zvuči kao stav, na letonskom je to često \"jednostavno\", \"pa to je tako\" ili \"ali\"."
+            "text": "Ako eben zvuči kao stav, na bosanskom je to često \"jednostavno\", \"pa to je tako\" ili \"ali\"."
           }
         ]
       },
@@ -27348,7 +27342,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Kada su u pitanju ljudi i san, einschlafen se prevodi kao zaspati.",
-        "Kada je u pitanju ruka ili noga, eingeschlafen je obično otupio na letonskom."
+        "Kada je u pitanju ruka ili noga, eingeschlafen je obično otupio na bosanskom."
       ],
       "important": [
         "Einschlafen nije isto što i schlafen.",
@@ -27942,7 +27936,7 @@ const A2_WORDS = [
                 "aussteigen",
                 "einsteigen",
                 "autobusa",
-                "autobusā",
+                "autobusa",
                 "Einsteigen",
                 "Einsteigen"
               ]
@@ -29053,7 +29047,7 @@ const A2_WORDS = [
                 "Fotografija"
               ],
               "yellow": [
-                "Fotogrāfija"
+                "Fotografija"
               ]
             }
           },
@@ -29919,7 +29913,7 @@ const A2_WORDS = [
                 "Matematika"
               ],
               "purple": [
-                "matemātika",
+                "Matematika",
                 "Matematika",
                 "Matematika",
                 "Matematika"
@@ -30048,7 +30042,7 @@ const A2_WORDS = [
             "example": {
               "green": [
                 "Biologie",
-                "Bioloģija",
+                "Biologija",
                 "Schulfach",
                 "Biologie",
                 "Biologie"
@@ -30633,11 +30627,11 @@ const A2_WORDS = [
                 "die Situation",
                 "schwierig",
                 "Situation",
-                "Situācija",
+                "Situacija",
                 "Die"
               ],
               "purple": [
-                "situācija"
+                "Situacija"
               ]
             }
           },
@@ -30720,7 +30714,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Gramatikas",
-                  "kontekstā",
+                  "konteksta",
                   "locījums",
                   "Fall"
                 ]
@@ -30735,11 +30729,11 @@ const A2_WORDS = [
                 "Fall"
               ],
               "purple": [
-                "situācija"
+                "Situacija"
               ],
               "red": [
                 "gramatički",
-                "situācija",
+                "Situacija",
                 "Pad",
                 "Pad",
                 "Fall"
@@ -30915,7 +30909,7 @@ const A2_WORDS = [
       "id": "a2-fehlen",
       "layout": "standardStudy",
       "translation": "Nedostaje",
-      "explanation": "Glavna ideja: fehlen znači nedostajati, nedostajati ili biti odsutan. Ako postoji nedostatak predmeta ili novca, fehlen se prevodi kao nedostatak ili nedostatak. Ako je osoba odsutna iz škole ili posla, fehlen znači biti odsutan. U konstrukciji mir fehlt etwas, letonski često kaže \"nešto mi nedostaje\". To nije isto što i brauchen, jer brauchen znači trebati.",
+      "explanation": "Glavna ideja: fehlen znači nedostajati, nedostajati ili biti odsutan. Ako postoji nedostatak predmeta ili novca, fehlen se prevodi kao nedostatak ili nedostatak. Ako je osoba odsutna iz škole ili posla, fehlen znači biti odsutan. U konstrukciji mir fehlt etwas, bosanski često kaže \"nešto mi nedostaje\". To nije isto što i brauchen, jer brauchen znači trebati.",
       "examples": [
         {
           "de": "Mir fehlt Geld.",
@@ -33142,7 +33136,7 @@ const A2_WORDS = [
                 "yellow": [
                   "führen",
                   "bieži",
-                  "ceļu",
+                  "čelu",
                   "runa",
                   "vest"
                 ]
@@ -33337,7 +33331,7 @@ const A2_WORDS = [
         "Kada je u pitanju ljudsko kretanje, Gang znači hod.",
         "U restoranu ili na meniju, Gang može značiti jelo.",
         "U tehničkom kontekstu, Gang može značiti opremu, ali to nije glavna upotreba A2.",
-        "Letonski \"move\" obično nije najbolji prvi prijevod za ovu karticu."
+        "Bosanski \"move\" obično nije najbolji prvi prijevod za ovu karticu."
       ],
       "examples": [
         {
@@ -34639,7 +34633,7 @@ const A2_WORDS = [
             "genau"
           ],
           "yellow": [
-            "līniju",
+            "liniju",
             "Glavna",
             "Glavna"
           ]
@@ -34838,7 +34832,7 @@ const A2_WORDS = [
               ],
               "yellow": [
                 "Kada",
-                "līniju",
+                "liniju",
                 "Kada"
               ]
             }
@@ -35242,7 +35236,7 @@ const A2_WORDS = [
                 "Geschäft"
               ],
               "red": [
-                "organizācija",
+                "organizacija",
                 "Geschäft",
                 "Geschäft",
                 "Geschäft"
@@ -36844,7 +36838,7 @@ const A2_WORDS = [
       "translation": "Objesiti • Red",
       "explanation": [
         "Glavna ideja: hängen znači objesiti ili objesiti nešto na zid, vrata ili drugo mjesto.",
-        "Ako je sama stvar na zidu ili na udici, na letonskom se obično kaže da visi.",
+        "Ako je sama stvar na zidu ili na udici, na bosanskom se obično kaže da visi.",
         "Ako osoba stavi nešto na zid, na kuku ili u ormar, hängen znači objesiti ili objesiti.",
         "U njemačkom, jedan oblik može opisati i stanje i radnju.",
         "Kontekst pokazuje da li slika visi na zidu ili je neko tamo okači."
@@ -37833,10 +37827,10 @@ const A2_WORDS = [
                 "Koks"
               ],
               "purple": [
-                "dzīvs koks"
+                "Dzīvs"
               ],
               "red": [
-                "dzīvs",
+                "Dzīvs",
                 "Holz",
                 "koks"
               ]
@@ -37853,7 +37847,7 @@ const A2_WORDS = [
                 "Koks"
               ],
               "purple": [
-                "dzīvs koks"
+                "Dzīvs"
               ],
               "red": [
                 "Holz",
@@ -38053,7 +38047,7 @@ const A2_WORDS = [
       "translation": "Doing",
       "explanation": [
         "Glavna ideja: Indem objašnjava način na koji se nešto radi.",
-        "Na letonskom se to često prevodi kao nešto raditi.",
+        "Na bosanskom se to često prevodi kao nešto raditi.",
         "Indem nije uobičajena riječ koja znači dok.",
         "Ako je misao simultana radnja, češće se koristi während.",
         "Na nivou A2, najvažnije je razumjeti obrazac: glavna radnja + kako se to događa."
@@ -39290,7 +39284,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ako jedva govorite letonski, nemački je često dobar za neke.",
+        "Ako jedva govorite bosanski, nemački je često dobar za neke.",
         "Ako je misao jednostavno skoro, uobičajenije je koristiti brzo umjesto kauma."
       ],
       "important": [
@@ -39526,7 +39520,7 @@ const A2_WORDS = [
             ],
             "red": [
               "Kaum",
-              "sinonīmi"
+              "sinonimi"
             ]
           },
           {
@@ -40497,7 +40491,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "fotogrāfiju",
+                "fotografiju",
                 "Zalijepio",
                 "Zalijepio"
               ]
@@ -41745,7 +41739,7 @@ const A2_WORDS = [
                   "izteicienu",
                   "atsevišķu",
                   "mācies",
-                  "Frāzi",
+                  "frazi",
                   "Kraft"
                 ]
               }
@@ -42349,7 +42343,7 @@ const A2_WORDS = [
             "die Lage"
           ],
           "purple": [
-            "situāciju",
+            "situaciju",
             "Glavna",
             "Glavna",
             "Glavna",
@@ -42377,7 +42371,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "situācija"
+                "situacija"
               ],
               "red": [
                 "Situacija"
@@ -42446,7 +42440,7 @@ const A2_WORDS = [
                 "stolu"
               ],
               "yellow": [
-                "papīra"
+                "papira"
               ]
             }
           }
@@ -42461,7 +42455,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "situācija",
+                "situacija",
                 "Situacija"
               ]
             },
@@ -42470,7 +42464,7 @@ const A2_WORDS = [
                 "Lage"
               ],
               "purple": [
-                "situācija"
+                "situacija"
               ]
             }
           },
@@ -42491,7 +42485,7 @@ const A2_WORDS = [
                 "Situation"
               ],
               "purple": [
-                "situācija"
+                "situacija"
               ]
             }
           },
@@ -42545,7 +42539,7 @@ const A2_WORDS = [
               "die Lage"
             ],
             "purple": [
-              "situāciju",
+              "situaciju",
               "Kada"
             ],
             "red": [
@@ -42583,7 +42577,7 @@ const A2_WORDS = [
               "schwierige Lage"
             ],
             "purple": [
-              "situāciju",
+              "situaciju",
               "Politische"
             ]
           }
@@ -43720,13 +43714,13 @@ const A2_WORDS = [
             },
             "lv": {
               "green": [
-                "līnija"
+                "linija"
               ],
               "purple": [
                 "Telefonska linija",
                 "Telefonska",
                 "Telefonska",
-                "līnija"
+                "linija"
               ]
             }
           },
@@ -43791,10 +43785,10 @@ const A2_WORDS = [
                 "Leitung",
                 "Die",
                 "kaputt",
-                "Līnija"
+                "linija"
               ],
               "green": [
-                "līnija"
+                "linija"
               ]
             }
           },
@@ -43858,12 +43852,12 @@ const A2_WORDS = [
               "purple": [
                 "Telefonska linija",
                 "Telefonska",
-                "līnija"
+                "linija"
               ]
             },
             "example": {
               "green": [
-                "līnija"
+                "linija"
               ],
               "purple": [
                 "Telefonska linija"
@@ -43872,7 +43866,7 @@ const A2_WORDS = [
                 "die Telefonleitung",
                 "Telefonleitung",
                 "Telefonska",
-                "līnija",
+                "linija",
                 "Die",
                 "frei"
               ]
@@ -43943,7 +43937,7 @@ const A2_WORDS = [
                 "Leitung"
               ],
               "green": [
-                "līnija"
+                "linija"
               ],
               "orange": [
                 "Leitung"
@@ -43952,7 +43946,7 @@ const A2_WORDS = [
                 "tehnička",
                 "Leitung",
                 "Leitung",
-                "līnija",
+                "linija",
                 "Leitung"
               ]
             },
@@ -43961,7 +43955,7 @@ const A2_WORDS = [
                 "Leitung"
               ],
               "green": [
-                "līnija"
+                "linija"
               ],
               "yellow": [
                 "Leitung"
@@ -50232,7 +50226,7 @@ const A2_WORDS = [
               "Ako"
             ],
             "purple": [
-              "ostīt"
+              "ostit"
             ],
             "green": [
               "Ako",
@@ -50450,7 +50444,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "papīra",
+                "papira",
                 "Treba"
               ]
             }
@@ -50554,14 +50548,14 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "Rolna",
-                "papīra",
+                "papira",
                 "Rolna"
               ]
             },
             "example": {
               "yellow": [
                 "Papierrolle",
-                "papīra",
+                "papira",
                 "kaufe",
                 "Ich",
                 "Ich"
@@ -51569,7 +51563,7 @@ const A2_WORDS = [
                   "teikums"
                 ],
                 "yellow": [
-                  "kontekstā",
+                  "konteksta",
                   "Valodas",
                   "Satz"
                 ]
@@ -52933,7 +52927,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "dzīvnieku",
-                  "kontekstā",
+                  "konteksta",
                   "Schlange",
                   "čūska",
                   "Dabas"
@@ -54011,7 +54005,7 @@ const A2_WORDS = [
       "id": "a2-schuld",
       "layout": "standardStudy",
       "translation": "Krivica • Dug • Odgovornost",
-      "explanation": "Die Schuld najčešće znači krivicu ili odgovornost za ono što se dogodilo. Izraz Schuld haben znači biti kriv. jemandem die Schuld geben znači okriviti nekoga. U množini Schulden znači dugovi. Stoga se Schuld i Schulden moraju posebno razlikovati. Na letonskom, \"krivica\" i \"dug\" imaju veoma različita značenja.",
+      "explanation": "Die Schuld najčešće znači krivicu ili odgovornost za ono što se dogodilo. Izraz Schuld haben znači biti kriv. jemandem die Schuld geben znači okriviti nekoga. U množini Schulden znači dugovi. Stoga se Schuld i Schulden moraju posebno razlikovati. Na bosanskom, \"krivica\" i \"dug\" imaju veoma različita značenja.",
       "examples": [
         {
           "de": "Das ist nicht meine Schuld.",
@@ -55880,7 +55874,7 @@ const A2_WORDS = [
       "id": "a2-sobald",
       "layout": "standardStudy",
       "translation": "Čim • Čim",
-      "explanation": "Čim ili čim. Uvodi pomoćnu klauzulu i na njemačkom glagol u ovoj pomoćnoj klauzuli obično dolazi na kraju. čim pokazuje da se jedna radnja dešava odmah za drugom. To nije isto što i wenn, jer wenn može značiti 'kada' ili 'ako'. Letonski često zvuči prirodno kao \"čim\".",
+      "explanation": "Čim ili čim. Uvodi pomoćnu klauzulu i na njemačkom glagol u ovoj pomoćnoj klauzuli obično dolazi na kraju. čim pokazuje da se jedna radnja dešava odmah za drugom. To nije isto što i wenn, jer wenn može značiti 'kada' ili 'ako'. Bosanski često zvuči prirodno kao \"čim\".",
       "examples": [
         {
           "de": "Sobald ich Zeit habe, rufe ich dich an.",
@@ -56200,11 +56194,11 @@ const A2_WORDS = [
                   "sobald"
                 ],
                 "yellow": [
-                  "palīgteikumā",
+                  "palīgteikuma",
                   "darbības",
                   "sobald",
                   "bieži",
-                  "vārds",
+                  "Vārds",
                   "vācu"
                 ]
               }
@@ -56682,7 +56676,6 @@ const A2_WORDS = [
                 "orange": [
                   "citādi"
                 ],
-                "red": [],
                 "yellow": [
                   "brīdinājums",
                   "teikumā",
@@ -56696,7 +56689,6 @@ const A2_WORDS = [
                 "blue": [
                   "sonst"
                 ],
-                "red": [],
                 "yellow": [
                   "ieradumu",
                   "nozīmēt",
@@ -57408,7 +57400,7 @@ const A2_WORDS = [
                 "Temperatura"
               ],
               "yellow": [
-                "Temperatūra"
+                "Temperatura"
               ]
             }
           },
@@ -57588,7 +57580,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "cenas",
-                  "temperatūra",
+                  "Temperatura",
                   "ūdens līmenis"
                 ]
               }
@@ -57600,7 +57592,7 @@ const A2_WORDS = [
                   "aussteigen"
                 ],
                 "purple": [
-                  "transportā"
+                  "transporta"
                 ]
               }
             }
@@ -58326,7 +58318,7 @@ const A2_WORDS = [
                 "Muzičar"
               ],
               "yellow": [
-                "ģitāru"
+                "gitaru"
               ]
             }
           },
@@ -60629,7 +60621,7 @@ const A2_WORDS = [
                 "Temperatura"
               ],
               "yellow": [
-                "Temperatūra"
+                "Temperatura"
               ]
             }
           },
@@ -64832,7 +64824,7 @@ const A2_WORDS = [
             "text": "Kada je vorstellen sa sichom i personom, to često znači stajati ispred."
           },
           {
-            "text": "Ako postoji sich etwas vorstellen, na letonskom će to skoro uvek biti \"zamisliti\"."
+            "text": "Ako postoji sich etwas vorstellen, na bosanskom će to skoro uvek biti \"zamisliti\"."
           }
         ]
       },
@@ -65748,7 +65740,7 @@ const A2_WORDS = [
       "id": "a2-während",
       "layout": "standardStudy",
       "translation": "Dok",
-      "explanation": "Während može biti prijedlog koji znači 'tokom'. Zatim ga često prati genitiv: während des Tages. Može biti i veznik koji znači 'dok'. Kao veznik uvodi pomoćnu klauzulu, a glagol na njemačkom obično ide na kraj rečenice. Stoga je vrlo važno razlikovati prijedlog i veznik. Oboje često zvuče slično na letonskom.",
+      "explanation": "Während može biti prijedlog koji znači 'tokom'. Zatim ga često prati genitiv: während des Tages. Može biti i veznik koji znači 'dok'. Kao veznik uvodi pomoćnu klauzulu, a glagol na njemačkom obično ide na kraj rečenice. Stoga je vrlo važno razlikovati prijedlog i veznik. Oboje često zvuče slično na bosanskom.",
       "examples": [
         {
           "de": "Während des Tages arbeite ich.",
@@ -65869,7 +65861,7 @@ const A2_WORDS = [
               "purple": [
                 "Dok",
                 "Dok",
-                "mūziku",
+                "muziku",
                 "Dok"
               ]
             }
@@ -66086,7 +66078,7 @@ const A2_WORDS = [
                 "während"
               ],
               "red": [
-                "struktūru",
+                "strukturu",
                 "Während",
                 "während",
                 "Während"
@@ -66176,7 +66168,7 @@ const A2_WORDS = [
       "id": "a2-wahrscheinlich",
       "layout": "standardStudy",
       "translation": "Vjerovatno",
-      "explanation": "Glavna ideja: wahrscheinlich znači vjerovatno ili najvjerovatnije. To pokazuje da je nešto vrlo moguće, ali ne i sasvim sigurno. Letonski \"možda\" je često slabiji i bliži njemačkom vielleichtu. sicher može značiti siguran ili siguran, ali je jači od wahrscheinlich.",
+      "explanation": "Glavna ideja: wahrscheinlich znači vjerovatno ili najvjerovatnije. To pokazuje da je nešto vrlo moguće, ali ne i sasvim sigurno. Bosanski \"možda\" je često slabiji i bliži njemačkom vielleichtu. sicher može značiti siguran ili siguran, ali je jači od wahrscheinlich.",
       "examples": [
         {
           "de": "Er kommt wahrscheinlich später.",
@@ -66723,7 +66715,7 @@ const A2_WORDS = [
                 "Menjamo"
               ],
               "yellow": [
-                "tēmu"
+                "temu"
               ]
             }
           },
@@ -67867,7 +67859,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mērīt"
+                "Meriti"
               ]
             },
             "example": {
@@ -69305,7 +69297,7 @@ const A2_WORDS = [
                 "yellow": [
                   "pašreizējā",
                   "īslaicīga",
-                  "situācija",
+                  "situacija",
                   "zurzeit",
                   "lieto"
                 ]
@@ -70875,7 +70867,7 @@ const A2_WORDS = [
         "Koristi se samo kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Letonski \"samo\" na njemačkom nije uvijek nur.",
+        "Bosanski \"samo\" na njemačkom nije uvijek nur.",
         "Nur = samo / isključivo."
       ],
       "sectionAccents": {
@@ -71259,7 +71251,7 @@ const A2_WORDS = [
             "gleich"
           ],
           "red": [
-            "Tūlīt"
+            "tūlīt"
           ],
           "orange": [
             "vienāds",
