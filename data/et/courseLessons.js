@@ -1282,8 +1282,8 @@ const COURSE_LESSON_DATA = {
           {
             "heading": "Võrdlus teiste keeltega",
             "examples": [
-              "vene keeles: я имею тетрадь; отец имеет книгу.",
-              "inglise keeles: I have a book; the father has a pencil."
+              "vene keeles: я имею тетрадь; отец имеет книгу. — eesti keeles: mul on vihik; isal on raamat.",
+              "inglise keeles: I have a book; the father has a pencil. — eesti keeles: mul on raamat; isal on pliiats."
             ]
           },
           {

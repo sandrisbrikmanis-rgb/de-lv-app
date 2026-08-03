@@ -405,9 +405,7 @@ const C1_WORDS = [
           "blue": [
             "Einfamilienhaus"
           ],
-          "purple": [
-            "Põhiidee"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -787,7 +785,7 @@ const C1_WORDS = [
   {
     "de": "Leichtathletik",
     "de_article": "die",
-    "de_plural": null,
+    "de_plural": "die Leichtathletiken",
     "lv": "kergejõustik",
     "level": "C1"
   },
@@ -842,7 +840,7 @@ const C1_WORDS = [
   {
     "de": "Morgengymnastik",
     "de_article": "die",
-    "de_plural": null,
+    "de_plural": "die Morgengymnastiken",
     "lv": "hommikvõimlemine",
     "level": "C1"
   },
@@ -1447,7 +1445,7 @@ const C1_WORDS = [
   {
     "de": "Schneewittchen",
     "de_article": "das",
-    "de_plural": null,
+    "de_plural": "die Schneewittchen",
     "lv": "muinasjututegelane Lumivalgeke",
     "level": "C1"
   },
@@ -2868,7 +2866,7 @@ const C1_WORDS = [
   {
     "de": "Eisenbahnverkehr",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Eisenbahnverkehre",
     "lv": "raudteeliiklus",
     "level": "C1"
   },
@@ -3063,14 +3061,14 @@ const C1_WORDS = [
   {
     "de": "Friedenspolitik",
     "de_article": "die",
-    "de_plural": null,
+    "de_plural": "die Friedenspolitiken",
     "lv": "rahupoliitika",
     "level": "C1"
   },
   {
-    "de": "Fuhrunternehmen",
+    "de": "Führunternehmen",
     "de_article": "das",
-    "de_plural": "die Fuhrunternehmen",
+    "de_plural": "die Führunternehmen",
     "lv": "veoettevõte",
     "level": "C1"
   },
@@ -4599,9 +4597,7 @@ const C1_WORDS = [
             "Wahl",
             "berechtigt"
           ],
-          "purple": [
-            "Põhiidee"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -4918,13 +4914,9 @@ const C1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "Põhiidee",
-            "Põhiidee"
-          ],
+          "blue": [],
           "purple": [
-            "seostada",
-            "Põhiidee"
+            "Formaalne"
           ]
         },
         "examples": [
@@ -5540,12 +5532,8 @@ const C1_WORDS = [
             "erhält",
             "auf"
           ],
-          "purple": [
-            "Põhiidee"
-          ],
-          "yellow": [
-            "Põhiidee"
-          ]
+          "purple": [],
+          "yellow": []
         },
         "examples": [
           {
@@ -5636,7 +5624,7 @@ const C1_WORDS = [
   {
     "de": "Matsch",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Matsche",
     "lv": "pori • lörts",
     "level": "C1"
   },

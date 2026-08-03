@@ -4742,12 +4742,10 @@ const B1_WORDS = [
             "aufhalten"
           ],
           "purple": [
-            "Põhiidee",
+            "viibimist",
             "takistamist"
           ],
-          "green": [
-            "Põhiidee"
-          ]
+          "green": []
         },
         "comparison": [
           {
@@ -5350,13 +5348,12 @@ const B1_WORDS = [
             "ausstellen"
           ],
           "purple": [
-            "väljastab",
-            "Põhiidee"
+            "väljastamist",
+            "millegi"
           ],
           "yellow": [
             "dokumendi",
-            "kunsti",
-            "Põhiidee"
+            "kunsti"
           ]
         },
         "comparison": [
@@ -5536,8 +5533,8 @@ const B1_WORDS = [
             "ausüben"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee"
+            "tegevuse",
+            "elukutse"
           ],
           "yellow": [
             "elukutse",
@@ -6699,7 +6696,6 @@ const B1_WORDS = [
             "bedienen"
           ],
           "purple": [
-            "Põhiidee",
             "end teenindamist",
             "kasutamist",
             "teenindamist"
@@ -7105,9 +7101,9 @@ const B1_WORDS = [
             "behandeln"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee",
-            "Põhiidee"
+            "ravimist",
+            "inimesega",
+            "käitumist"
           ],
           "yellow": [
             "teema"
@@ -7439,9 +7435,9 @@ const B1_WORDS = [
             "belegen"
           ],
           "purple": [
-            "Põhiidee",
-            "registreerumist",
-            "tõestamist"
+            "hõivamist",
+            "kursusele",
+            "registreerumist"
           ],
           "yellow": [
             "koht",
@@ -7660,8 +7656,8 @@ const B1_WORDS = [
             "bemerken"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee"
+            "silmade",
+            "kuulmise"
           ],
           "yellow": [
             "silmade",
@@ -8064,7 +8060,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "nõustamist",
-            "Põhiidee"
+            "arutamist"
           ]
         },
         "comparison": [
@@ -8512,7 +8508,7 @@ const B1_WORDS = [
             "berichten"
           ],
           "purple": [
-            "Põhiidee",
+            "teatamist",
             "jutustamist"
           ]
         },
@@ -9096,8 +9092,8 @@ const B1_WORDS = [
           ],
           "purple": [
             "otsustamist",
-            "Põhiidee",
-            "lõpetamist"
+            "ametlikult",
+            "otsuse"
           ]
         },
         "comparison": [
@@ -9488,9 +9484,9 @@ const B1_WORDS = [
             "besorgen"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee",
-            "Põhiidee"
+            "hankimist",
+            "ostmist",
+            "leidmist"
           ]
         },
         "comparison": [
@@ -9701,9 +9697,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "blue": [
-            "bestehen",
-            "Põhiidee",
-            "Põhiidee"
+            "bestehen"
           ],
           "purple": [
             "püsib",
@@ -10371,7 +10365,8 @@ const B1_WORDS = [
           ],
           "purple": [
             "liigutama",
-            "Põhiidee"
+            "liigutamist",
+            "liikumist"
           ]
         },
         "comparison": [
@@ -10600,9 +10595,8 @@ const B1_WORDS = [
             "sich beziehen auf"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee",
-            "Põhiidee"
+            "saamist",
+            "käimist"
           ]
         },
         "comparison": [
@@ -10985,8 +10979,8 @@ const B1_WORDS = [
             "anbieten"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee"
+            "pakkumist",
+            "andmist"
           ],
           "yellow": [
             "võimaluse",
@@ -14052,8 +14046,8 @@ const B1_WORDS = [
             "sich erinnern an"
           ],
           "purple": [
-            "Põhiidee",
-            "selle juures"
+            "selle kohta",
+            "kohta"
           ]
         },
         "comparison": [
@@ -14247,10 +14241,10 @@ const B1_WORDS = [
           ],
           "purple": [
             "kujutama",
-            "Põhiidee",
-            "Põhiidee",
-            "ette kujutama",
-            "end tutvustama"
+            "kujutamist",
+            "näitamist",
+            "mängimist",
+            "nii"
           ]
         },
         "comparison": [
@@ -16993,8 +16987,7 @@ const B1_WORDS = [
             "andererseits"
           ],
           "purple": [
-            "ühest küljest",
-            "Põhiidee"
+            "ühest küljest"
           ],
           "red": [
             "vastandlikku poolt"
@@ -17869,7 +17862,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "sisestamist",
-            "Põhiidee"
+            "lisamist"
           ],
           "yellow": [
             "teksti",
@@ -18046,14 +18039,13 @@ const B1_WORDS = [
             "einführen"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee"
+            "süsteemi",
+            "reegli"
           ],
           "yellow": [
             "süsteemi",
             "reegli",
-            "meetodi",
-            "Põhiidee"
+            "meetodi"
           ]
         },
         "comparison": [
@@ -18601,8 +18593,7 @@ const B1_WORDS = [
             "einhalten"
           ],
           "purple": [
-            "Põhiidee",
-            "täpselt täita"
+            "reegli"
           ],
           "yellow": [
             "reegli",
@@ -19330,8 +19321,7 @@ const B1_WORDS = [
           "yellow": [
             "reeglite",
             "stiili",
-            "värvi",
-            "Põhiidee"
+            "värvi"
           ]
         },
         "comparison": [
@@ -19489,9 +19479,9 @@ const B1_WORDS = [
             "einholen"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee",
-            "Põhiidee"
+            "hankimist",
+            "saamist",
+            "informatsiooni"
           ],
           "yellow": [
             "informatsiooni",
@@ -19999,8 +19989,8 @@ const B1_WORDS = [
           ],
           "purple": [
             "kasutamist",
-            "Põhiidee",
-            "alata"
+            "kaasamist",
+            "eesmärgi"
           ],
           "yellow": [
             "tehnikat",
@@ -20206,9 +20196,9 @@ const B1_WORDS = [
           ],
           "purple": [
             "seadistamist",
-            "reguleerimist",
-            "Põhiidee",
-            "lõpetamist"
+            "võtmist",
+            "aga",
+            "ajalehe"
           ],
           "green": [
             "töötajate"
@@ -20631,9 +20621,9 @@ const B1_WORDS = [
             "einziehen"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee",
-            "Põhiidee"
+            "sissenõudmist",
+            "millegi",
+            "sissetõmbamist"
           ],
           "yellow": [
             "elukohta",
@@ -20916,7 +20906,9 @@ const B1_WORDS = [
             "bekommen"
           ],
           "purple": [
-            "Põhiidee"
+            "formaalsemas",
+            "tehnilises",
+            "olukorras"
           ],
           "yellow": [
             "signaali"
@@ -21160,8 +21152,8 @@ const B1_WORDS = [
           "purple": [
             "eemaldamist",
             "kustutamist",
-            "Põhiidee",
-            "eemaldumist"
+            "kohast",
+            "inimesest"
           ],
           "yellow": [
             "kohalt"
@@ -21554,7 +21546,8 @@ const B1_WORDS = [
             "entkommen"
           ],
           "purple": [
-            "Põhiidee"
+            "pääsemist",
+            "vabanemist"
           ],
           "red": [
             "daativiga"
@@ -22152,8 +22145,10 @@ const B1_WORDS = [
             "entstehen"
           ],
           "purple": [
-            "Põhiidee",
-            "valmib"
+            "tegijat",
+            "vaid",
+            "tekkimist",
+            "probleem"
           ],
           "yellow": [
             "probleem",
@@ -22476,9 +22471,9 @@ const B1_WORDS = [
             "erhalten"
           ],
           "purple": [
-            "Põhiidee",
-            "säilitamine",
-            "Põhiidee"
+            "kirja",
+            "sõnumi",
+            "raha"
           ],
           "yellow": [
             "kirja",
@@ -22791,8 +22786,9 @@ const B1_WORDS = [
             "eröffnen"
           ],
           "purple": [
-            "Põhiidee",
-            "alustamist"
+            "avamist",
+            "väljakuulutamist",
+            "millegi"
           ],
           "yellow": [
             "kontot",
@@ -22998,8 +22994,9 @@ const B1_WORDS = [
             "erscheinen"
           ],
           "purple": [
-            "ilmub",
-            "Põhiidee"
+            "ilmumist",
+            "saabumist",
+            "avaldatuna"
           ],
           "yellow": [
             "raamat",
@@ -23663,9 +23660,9 @@ const B1_WORDS = [
             "fassen"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee",
-            "mahutamist"
+            "haaramist",
+            "inimeste",
+            "asjade"
           ],
           "yellow": [
             "ruumide",
@@ -24308,7 +24305,7 @@ const B1_WORDS = [
             "festlegen"
           ],
           "purple": [
-            "Põhiidee"
+            "tähtaja"
           ],
           "yellow": [
             "tähtaja",
@@ -25116,8 +25113,8 @@ const B1_WORDS = [
           ],
           "purple": [
             "edendamist",
-            "Põhiidee",
-            "kaevandamist"
+            "inimese",
+            "projekti"
           ],
           "green": [
             "inimese"
@@ -25125,8 +25122,7 @@ const B1_WORDS = [
           "yellow": [
             "projekti",
             "protsessi",
-            "nafta",
-            "Põhiidee"
+            "nafta"
           ]
         },
         "comparison": [
@@ -25320,8 +25316,8 @@ const B1_WORDS = [
             "fortfahren"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee"
+            "jätkamist",
+            "eriti"
           ],
           "yellow": [
             "tegevuse",
@@ -25591,9 +25587,9 @@ const B1_WORDS = [
             "fressen"
           ],
           "purple": [
-            "sööb",
-            "Põhiidee",
-            "ahmima"
+            "õgima",
+            "fressen",
+            "kasutatakse"
           ],
           "green": [
             "loom",
@@ -26052,10 +26048,7 @@ const B1_WORDS = [
           "blue": [
             "ganztägig"
           ],
-          "purple": [
-            "Põhiidee",
-            "Põhiidee"
-          ],
+          "purple": [],
           "red": [
             "rund um die Uhr"
           ]
@@ -28256,7 +28249,6 @@ const B1_WORDS = [
             "võitu"
           ],
           "yellow": [
-            "Põhiidee",
             "Mängudes",
             "võistlustes",
             "loteriides"
@@ -30541,7 +30533,7 @@ const B1_WORDS = [
   {
     "de": "Hass",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Hasse",
     "lv": "vihkamine",
     "level": "B1"
   },
@@ -30672,8 +30664,8 @@ const B1_WORDS = [
             "schlagen"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee",
+            "löömist",
+            "raiumist",
             "hoobi"
           ],
           "red": [
@@ -31387,9 +31379,9 @@ const B1_WORDS = [
             "herausgeben"
           ],
           "purple": [
-            "avaldamist",
-            "väljastamist",
-            "Põhiidee"
+            "raamatu",
+            "ajalehe",
+            "teabe"
           ],
           "yellow": [
             "raamatu",
@@ -31695,9 +31687,7 @@ const B1_WORDS = [
             "siia tulemist",
             "kust sa pärit oled"
           ],
-          "red": [
-            "Põhiidee"
-          ]
+          "red": []
         },
         "comparison": [
           {
@@ -32463,9 +32453,9 @@ const B1_WORDS = [
             "abholen"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee",
-            "Põhiidee"
+            "toomist",
+            "vedu",
+            "kaasa"
           ],
           "yellow": [
             "millegi"
@@ -33318,10 +33308,10 @@ const B1_WORDS = [
             "sich hüten"
           ],
           "purple": [
-            "hoiduma",
-            "Põhiidee",
-            "karjatamist",
-            "hoiduma"
+            "hoidmist",
+            "valvamist",
+            "loomadega",
+            "karjatamist"
           ],
           "green": [
             "lastega"
@@ -34280,12 +34270,10 @@ const B1_WORDS = [
           ],
           "purple": [
             "jahtimist",
-            "Põhiidee",
-            "kiirustamist"
+            "kellelegi",
+            "järele"
           ],
-          "yellow": [
-            "Põhiidee"
-          ],
+          "yellow": [],
           "green": [
             "kellelegi"
           ]
@@ -36099,10 +36087,10 @@ const B1_WORDS = [
             "kippen"
           ],
           "purple": [
-            "Põhiidee",
+            "ümberkukkumist",
             "kallutamist",
-            "kaldu vajumist",
-            "Põhiidee"
+            "kaldu",
+            "vajumist"
           ],
           "yellow": [
             "tasakaalu",
@@ -36403,7 +36391,7 @@ const B1_WORDS = [
   {
     "de": "Klatsch",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Klatsche",
     "lv": "kuulujutud",
     "level": "B1"
   },
@@ -36661,9 +36649,9 @@ const B1_WORDS = [
             "knapp"
           ],
           "purple": [
-            "napilt",
-            "Põhiidee",
-            "väikest ülekaalu"
+            "napp",
+            "millestki",
+            "vähe"
           ],
           "yellow": [
             "aega",
@@ -37334,7 +37322,7 @@ const B1_WORDS = [
   {
     "de": "Kosmos",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Kosmose",
     "lv": "universum",
     "level": "B1"
   },
@@ -37696,8 +37684,8 @@ const B1_WORDS = [
             "sich kreuzen"
           ],
           "purple": [
-            "Põhiidee",
-            "ristuda"
+            "ületamist",
+            "ristumist"
           ],
           "yellow": [
             "Teed",
@@ -37938,7 +37926,7 @@ const B1_WORDS = [
   {
     "de": "Kummer",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Kummer",
     "lv": "mure",
     "level": "B1"
   },
@@ -40585,7 +40573,7 @@ const B1_WORDS = [
   {
     "de": "Leid",
     "de_article": "das",
-    "de_plural": null,
+    "de_plural": "die Leide",
     "lv": "kannatused",
     "level": "B1"
   },
@@ -40669,8 +40657,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "leisten",
-            "Põhiidee"
+            "leisten"
           ],
           "purple": [
             "sooritamist",
@@ -41105,7 +41092,7 @@ const B1_WORDS = [
   {
     "de": "Lob",
     "de_article": "das",
-    "de_plural": null,
+    "de_plural": "die Lobe",
     "lv": "kiitus",
     "level": "B1"
   },
@@ -42180,7 +42167,7 @@ const B1_WORDS = [
   {
     "de": "Mars",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Marse",
     "lv": "Marss",
     "level": "B1"
   },
@@ -42715,7 +42702,7 @@ const B1_WORDS = [
   {
     "de": "Mitleid",
     "de_article": "das",
-    "de_plural": null,
+    "de_plural": "die Mitleide",
     "lv": "kaastunne",
     "level": "B1"
   },
@@ -42750,7 +42737,7 @@ const B1_WORDS = [
   {
     "de": "Mobbing",
     "de_article": "das",
-    "de_plural": null,
+    "de_plural": "die Mobbinge",
     "lv": "kiusamine",
     "level": "B1"
   },
@@ -42762,7 +42749,7 @@ const B1_WORDS = [
   {
     "de": "Mobilfunk",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Mobilfunke",
     "lv": "mobiilsidevõrk",
     "level": "B1"
   },
@@ -42975,7 +42962,7 @@ const B1_WORDS = [
   {
     "de": "Mumps",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Mumpse",
     "lv": "mumps",
     "level": "B1"
   },
@@ -43502,7 +43489,7 @@ const B1_WORDS = [
   {
     "de": "Nachwuchs",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Nachwuchse",
     "lv": "järelkasv",
     "level": "B1"
   },
@@ -46306,7 +46293,7 @@ const B1_WORDS = [
   {
     "de": "Plunder",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Plundern",
     "lv": "kolu",
     "level": "B1"
   },
@@ -47057,7 +47044,7 @@ const B1_WORDS = [
   {
     "de": "Putz",
     "de_article": "der",
-    "de_plural": null,
+    "de_plural": "die Putze",
     "lv": "krohv",
     "level": "B1"
   },
@@ -53731,7 +53718,7 @@ const B1_WORDS = [
   {
     "de": "Skispringen",
     "de_article": "das",
-    "de_plural": null,
+    "de_plural": "die Skispringen",
     "lv": "suusahüpped",
     "level": "B1"
   },
@@ -63326,8 +63313,7 @@ const B1_WORDS = [
             "die Verwandte"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee"
+            "Verwandten"
           ]
         },
         "examples": [
@@ -63429,7 +63415,7 @@ const B1_WORDS = [
             "die Verwandte"
           ],
           "purple": [
-            "Põhiidee"
+            "Verwandten"
           ],
           "blue": [
             "der Verwandte"

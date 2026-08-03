@@ -3514,7 +3514,7 @@ const A1_WORDS = [
           "purple": [
             "tooma",
             "viima",
-            "Põhiidee"
+            "toimetama"
           ],
           "red": [
             "nehmen",
@@ -5085,9 +5085,7 @@ const A1_WORDS = [
             "toidust",
             "magustoidust"
           ],
-          "yellow": [
-            "Põhiidee"
-          ]
+          "yellow": []
         },
         "examples": [
           {
@@ -6267,8 +6265,7 @@ const A1_WORDS = [
             "autoga",
             "bussiga",
             "rongiga",
-            "jalgrattaga",
-            "Põhiidee"
+            "jalgrattaga"
           ],
           "yellow": [
             "gehen",
@@ -8365,8 +8362,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "mul on",
-            "sul on",
-            "Põhiidee"
+            "kellelegi"
           ],
           "yellow": [
             "abitegusõnana"
@@ -8622,7 +8618,6 @@ const A1_WORDS = [
             "millekski pidama"
           ],
           "green": [
-            "Põhiidee",
             "liikumise"
           ]
         },
@@ -9325,9 +9320,8 @@ const A1_WORDS = [
             "hören"
           ],
           "purple": [
-            "Põhiidee",
-            "kuulata",
-            "Kuulda"
+            "Kuulda",
+            "heli"
           ],
           "green": [
             "kuulata",
@@ -9987,7 +9981,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "sees",
-            "Põhiidee"
+            "sisse"
           ],
           "green": [
             "ruumist",
@@ -10762,7 +10756,7 @@ const A1_WORDS = [
             "kein"
           ],
           "purple": [
-            "Põhiidee",
+            "mitte ükski",
             "mitte mingi"
           ]
         },
@@ -11265,7 +11259,6 @@ const A1_WORDS = [
             "oskama"
           ],
           "green": [
-            "Põhiidee",
             "oskusest",
             "võimalusest"
           ]
@@ -11520,8 +11513,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "maksma",
-            "Põhiidee",
-            "Põhiidee"
+            "hinnast"
           ],
           "green": [
             "Was kostet"
@@ -12159,10 +12151,10 @@ const A1_WORDS = [
             "Land"
           ],
           "purple": [
-            "Põhiidee",
-            "maad",
+            "riik",
             "maa",
-            "riik"
+            "riiki",
+            "maad"
           ],
           "green": [
             "Saksamaast",
@@ -12586,7 +12578,6 @@ const A1_WORDS = [
             "Jäta mind rahule"
           ],
           "green": [
-            "Põhiidee",
             "luba"
           ]
         },
@@ -12815,8 +12806,8 @@ const A1_WORDS = [
           ],
           "purple": [
             "jooksma",
-            "Põhiidee",
-            "minema"
+            "töötama",
+            "aga"
           ],
           "green": [
             "Inimese",
@@ -13047,8 +13038,7 @@ const A1_WORDS = [
             "laut"
           ],
           "purple": [
-            "vali",
-            "Põhiidee"
+            "vali"
           ]
         },
         "examples": [
@@ -15442,8 +15432,7 @@ const A1_WORDS = [
             "morgen"
           ],
           "purple": [
-            "homme",
-            "Põhiidee"
+            "homme"
           ]
         },
         "examples": [
@@ -16049,9 +16038,9 @@ const A1_WORDS = [
             "nach Hause"
           ],
           "purple": [
-            "Põhiidee",
+            "-sse",
             "pärast",
-            "koju"
+            "aja"
           ],
           "green": [
             "linnade",
@@ -17862,8 +17851,8 @@ const A1_WORDS = [
           ],
           "purple": [
             "sobima",
-            "sobima",
-            "Põhiidee"
+            "hästi sobima",
+            "hästi"
           ],
           "yellow": [
             "Riiete",
@@ -18192,8 +18181,7 @@ const A1_WORDS = [
           "purple": [
             "proovima",
             "maitsma",
-            "kontrollima",
-            "Põhiidee"
+            "kontrollima"
           ],
           "yellow": [
             "toidust",
@@ -20057,7 +20045,7 @@ const A1_WORDS = [
           "purple": [
             "end",
             "endale",
-            "Põhiidee"
+            "sich"
           ]
         },
         "examples": [
@@ -20445,8 +20433,8 @@ const A1_WORDS = [
             "kochen"
           ],
           "purple": [
-            "Põhiidee",
-            "tema"
+            "Mitmuse",
+            "vorm"
           ]
         },
         "examples": [
@@ -21099,8 +21087,8 @@ const A1_WORDS = [
           ],
           "purple": [
             "peaks",
-            "Põhiidee",
-            "juhise"
+            "keegi",
+            "midagi"
           ],
           "red": [
             "müssen"
@@ -21849,8 +21837,8 @@ const A1_WORDS = [
           ],
           "purple": [
             "kohal",
-            "Põhiidee",
-            "üle"
+            "kohta",
+            "millegi"
           ],
           "green": [
             "vestlusest",
@@ -22379,7 +22367,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "all",
-            "Põhiidee"
+            "seas"
           ],
           "green": [
             "inimeste rühmast"
@@ -23836,9 +23824,9 @@ const A1_WORDS = [
             "wenn"
           ],
           "purple": [
-            "ja",
-            "Põhiidee",
-            "tingimust"
+            "wenn",
+            "väljendab",
+            "olenevalt"
           ],
           "green": [
             "lõpus"
@@ -24065,8 +24053,8 @@ const A1_WORDS = [
             "wer"
           ],
           "purple": [
-            "Põhiidee",
-            "Põhiidee"
+            "kes",
+            "wer"
           ],
           "green": [
             "was"
@@ -25998,12 +25986,9 @@ const A1_WORDS = [
             "Fernsehen"
           ],
           "purple": [
-            "televisioon",
-            "Põhiidee"
+            "televisioon"
           ],
-          "yellow": [
-            "Põhiidee"
-          ]
+          "yellow": []
         },
         "examples": [
           {
@@ -27614,9 +27599,7 @@ const A1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "yellow": [
-            "Põhiidee"
-          ],
+          "yellow": [],
           "purple": [
             "veel kord"
           ]
