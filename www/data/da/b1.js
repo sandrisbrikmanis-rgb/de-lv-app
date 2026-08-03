@@ -1451,7 +1451,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Abhængen von er en stabil konstruktion • På letisk er det ikke oversat bogstaveligt som \"at hænge\"."
+        "text": "Abhængen von er en stabil konstruktion • På dansk er det ikke oversat bogstaveligt som \"at hænge\"."
       },
       "sectionAccents": {
         "explanation": {
@@ -16486,7 +16486,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nesaki \"ich falle eine Idee ein\". Korrekt: Mir fällt eine Idee ein."
+        "text": "Sig ikke \"ich falle eine Idee ein\". Korrekt: Mir fällt eine Idee ein."
       },
       "sectionAccents": {
         "examples": [
@@ -20374,7 +20374,7 @@ const B1_WORDS = [
       "id": "b1-entlassen",
       "layout": "standardStudy",
       "translation": "Giv slip",
-      "explanation": "Hovedidé: enlassen betyder at afskedige eller frigive fra en institution. Den lettiske oversættelse ændrer sig afhængigt af stedet: virksomheden fyrer, hospitalet udskrives, fængslet løslades.",
+      "explanation": "Hovedidé: enlassen betyder at afskedige eller frigive fra en institution. Den danske oversættelse ændrer sig afhængigt af stedet: virksomheden fyrer, hospitalet udskrives, fængslet løslades.",
       "examples": [
         {
           "de": "Die Firma entlässt viele Mitarbeiter.",
@@ -20409,7 +20409,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - vælg efter lokation på letisk."
+            "text": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - vælg efter lokation på dansk."
           }
         ]
       },
@@ -24443,7 +24443,7 @@ const B1_WORDS = [
       ],
       "important": [
         "ganztägig = hele dagen lang (en dag), ikke en 24-timers arbejdsplan.",
-        "Forkert: ganztägig = 24 stundas → Korrekt: rund um die Uhr = 24 stundas/diennakts."
+        "Forkert: ganztägig = 24 stundas → Korrekt: rund um die Uhr = 24 timer i døgnet."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25153,7 +25153,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Gehalt = saturs (die Gehalte). das Gehalt = alge (die Gehälter). Forkert: die Gehälter par saturu — pareizi: die Gehalte."
+        "text": "Der Gehalt = saturs (die Gehalte). das Gehalt = alge (die Gehälter). Forkert: die Gehälter om indholdet — korrekt: die Gehalte."
       },
       "sectionAccents": {
         "explanation": {
@@ -36841,7 +36841,7 @@ const B1_WORDS = [
               "green": "der Inhalt"
             },
             "meaning": {
-              "purple": "saturs"
+              "purple": "indhold"
             },
             "example": {
               "blue": "Inhalt",
@@ -54450,7 +54450,7 @@ const B1_WORDS = [
               "green": "die Bühne"
             },
             "meaning": {
-              "purple": "skatuve"
+              "purple": "scene"
             },
             "example": {
               "red": "Bühne"
@@ -63179,7 +63179,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Erztliches Zeugnis er ofte en lægeerklæring på letisk, ikke en skoleattest."
+        "text": "Erztliches Zeugnis er ofte en lægeerklæring på dansk, ikke en skoleattest."
       },
       "sectionAccents": {
         "explanation": {
@@ -64645,7 +64645,7 @@ const B1_WORDS = [
         "Brug weil, når konteksten passer til denne betydning."
       ],
       "important": [
-        "weil ich bin krank — nepareizi; pareizi: weil ich krank bin.",
+        "weil ich bin krank — forkert; korrekt: weil ich krank bin.",
         "Forkert: weil ich bin krank → Korrekt: weil ich krank bin",
         "weil = den hyppigste årsagssammenhæng."
       ],
@@ -65171,11 +65171,11 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "zatans ... zu = i stedet for",
-        "Brug antehan ... zu når konteksten passer til denne betydning."
+        "anstatt ... zu = i stedet for",
+        "Brug anstatt ... zu når konteksten passer til denne betydning."
       ],
       "important": [
-        "zatans ... zu = i stedet for.",
+        "anstatt ... zu = i stedet for.",
         "En handling sker i stedet for en anden. snarere end + zu + uregelmæssighed."
       ],
       "sectionAccents": {
@@ -65198,14 +65198,14 @@ const B1_WORDS = [
         "tip": [
           {
             "purple": [
-              "zatans"
+              "anstatt"
             ]
           }
         ],
         "important": [
           {
             "blue": [
-              "zatans"
+              "anstatt"
             ]
           }
         ]
@@ -65237,7 +65237,7 @@ const B1_WORDS = [
         "Brug ohne ... zu når konteksten passer til denne betydning."
       ],
       "important": [
-        "ohne + ko? (bez siera) ≠ ohne ... zu (neko nedara).",
+        "ohne + substantiv (uden ost) ≠ ohne ... zu (uden at gøre noget).",
         "ohne ... zu = uden (ingen handling).",
         "Der er ingen handling. ohne + zu + uregelmæssighed."
       ],
@@ -66615,7 +66615,7 @@ const B1_WORDS = [
       "important": [
         "der Trotz = navneord (på trods).",
         "trotz = præposition (på trods af) + besiddende form.",
-        "trotz dem Regen — nepareizi; pareizi: trotz des Regens.",
+        "trotz dem Regen — forkert; korrekt: trotz des Regens.",
         "Forkert: Trotz dem Regen gehen wir. → Korrekt: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
@@ -66754,7 +66754,7 @@ const B1_WORDS = [
       "important": [
         "der Trotz = navneord (på trods).",
         "trotz = præposition (på trods af) + besiddende form.",
-        "trotz dem Regen — nepareizi; pareizi: trotz des Regens.",
+        "trotz dem Regen — forkert; korrekt: trotz des Regens.",
         "Forkert: Trotz dem Regen gehen wir. → Korrekt: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {

@@ -53,10 +53,6 @@ const A1_WORDS = [
         {
           "de": "Wir sprechen über die Arbeit.",
           "lv": "Vi taler om arbejde."
-        },
-        {
-          "de": "Ich spreche Deutsch.",
-          "lv": "Jeg taler tysk"
         }
       ],
       "comparison": [
@@ -106,18 +102,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "spreche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
           }
         ],
         "tip": [
@@ -4606,7 +4590,7 @@ const A1_WORDS = [
       "translation": "Is • Is",
       "explanation": [
         "Hovedidé: das Eis kan betyde både is og is.",
-        "Når det kommer til koldt frosset vand, siger lettisk normalt is.",
+        "Når det kommer til koldt frosset vand, siger dansk normalt is.",
         "Når det kommer til mad eller dessert, betyder das Eis meget ofte is i hverdagen.",
         "Konteksten fortæller dig som regel med det samme, hvilken betydning der er tilsigtet.",
         "På A1-niveau er de vigtigste sætninger ein Eis essen og Eis im Glas."
@@ -5096,7 +5080,7 @@ const A1_WORDS = [
         "German \"I\" = it; so; impersonal form"
       ],
       "tip": {
-        "text": "Husk: lettisk \"es\" → ich, ikke tysk es."
+        "text": "Husk: dansk \"det\" → ich, ikke tysk es."
       },
       "sectionAccents": {
         "examples": [
@@ -5191,7 +5175,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Det tyske jeg er ikke det lettiske jeg.",
+        "Det tyske jeg er ikke det danske jeg.",
         "Dansk \"I\" på tysk is ich; Tysk es betyder ofte det/det eller er ikke oversat."
       ]
     }
@@ -5213,7 +5197,7 @@ const A1_WORDS = [
       "translation": "Noget • Lidt",
       "explanation": [
         "Hovedidé: etwas betyder noget eller lidt afhængigt af konteksten.",
-        "Hvis etwas erstatter en ukendt ting, siger lettisk normalt noget.",
+        "Hvis etwas erstatter en ukendt ting, siger dansk normalt noget.",
         "Når etwas står foran et adjektiv eller mængde, betyder det ofte lidt.",
         "Etwas er et meget almindeligt og neutralt A1-ord i samtale.",
         "Det vigtigste er at skelne: etwas kaufen = at købe noget, etwas müde = lidt træt."
@@ -6457,7 +6441,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "For • For",
       "explanation": [
-        "Hovedidé: für er en præposition, der altid styrer akkusativ kasus - normalt for eller for på letisk.",
+        "Hovedidé: für er en præposition, der altid styrer akkusativ kasus - normalt for eller for på dansk.",
         "Når man taler om modtager eller hensigt, für = for (für dich = for dig).",
         "Når man taler om bytte, gebyr eller årsag, für = for (danke für das Geschenk = tak for gaven).",
         "Für kræver altid akkusativ, uanset betydning."
@@ -7513,7 +7497,7 @@ const A1_WORDS = [
       "translation": "Jeg har",
       "explanation": [
         "Hovedidé: haben betyder, at nogen har eller har adgang til noget.",
-        "Den lettiske dativkonstruktion \"jeg har / du har\" på tysk er nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ikke *mir habe.",
+        "Den danske dativkonstruktion \"jeg har / du har\" på tysk er nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — ikke *mir habe.",
         "Haben efterfølges af akkusativ: Ich habe ein Auto. = Jeg har en bil.",
         "Haben bruges også som hjælpeverbum i Perfektum: Ich habe gelernt."
       ],
@@ -8076,7 +8060,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Husk: Ich heiße... → mani sauc..."
+        "text": "Husk: Ich heiße... → mit navn er..."
       },
       "important": [
         "Wie heißt du? betyder \"Hvad hedder du?\", ikke bogstaveligt \"hvad hedder du?\".",
@@ -8221,7 +8205,7 @@ const A1_WORDS = [
               "Ich heiße"
             ],
             "purple": [
-              "mani sauc"
+              "mit navn er"
             ]
           }
         },
@@ -9004,7 +8988,7 @@ const A1_WORDS = [
         "Hovedidé: betyder normalt i eller til et sted, når der henvises til et rum, land, by eller bygning.",
         "Med placering oversættes in ofte som i eller i: i Berlin = i Berlin.",
         "Med bevægelsen i betyder indad: ins Kino = til biografen.",
-        "Den lettiske oversættelse ændres afhængigt af konteksten."
+        "Den danske oversættelse ændres afhængigt af konteksten."
       ],
       "examples": [
         {
@@ -9678,7 +9662,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ingen • Intet",
       "explanation": [
-        "Hovedidé: kein er en negationsartikel, der negerer et substantiv - lettisk, afhængigt af konteksten, ingen eller intet.",
+        "Hovedidé: kein er en negationsartikel, der negerer et substantiv - dansk, afhængigt af konteksten, ingen eller intet.",
         "Kein bøjes som ein (kein/keine/keinen...) og står foran et substantiv.",
         "Med tællelige navneord (mennesker) oversættes kein ofte med ingen (kein Mensch = intet menneske).",
         "Med uforpligtende eller abstrakte navneord oversættes kein ofte med ingenting/slet ikke (kein Geld = ingen penge/ingen penge).",
@@ -10128,7 +10112,7 @@ const A1_WORDS = [
       "translation": "Kunne • Kende",
       "explanation": [
         "Hovedidé: können betyder at kunne eller vide, hvordan man gør noget.",
-        "Når det kommer til evner eller færdigheder, siger lettiske ofte at vide.",
+        "Når det kommer til evner eller færdigheder, siger danske ofte at vide.",
         "Når det kommer til mulighed, siges det ofte at kunne.",
         "Können er et modalt verbum, så det andet verbum kommer normalt til sidst."
       ],
@@ -10346,7 +10330,7 @@ const A1_WORDS = [
         "Hovedidé: kosten betyder at betale sådan og sådan - taler om prisen på en ting.",
         "Dette ord bruges, når man spørger eller siger, hvor meget noget koster, ikke når en person foretager en betaling.",
         "Et prisspørgsmål på tysk begynder ofte med Var kostet...?",
-        "Det lettiske ord at betale er korrekt i denne sammenhæng: Das kostet 5 Euro. = Det koster 5 euro.",
+        "Det danske ord at betale er korrekt i denne sammenhæng: Das kostet 5 Euro. = Det koster 5 euro.",
         "Når en person giver penge for en vare eller tjeneste, bruger tysk bezahlen eller zahlen."
       ],
       "examples": [
@@ -12811,7 +12795,7 @@ const A1_WORDS = [
         "Hovedidé: machen er et meget almindeligt ord, der betyder at lave eller at lave.",
         "Hvis det handler om handling generelt, oversættes det til, hvordan man gør.",
         "Hvis noget er lavet eller tilberedt, oversættes det til at lave eller lave mad.",
-        "I mange sætninger oversættes machen naturligt til lettisk, ikke bogstaveligt."
+        "I mange sætninger oversættes machen naturligt til dansk, ikke bogstaveligt."
       ],
       "examples": [
         {
@@ -14131,7 +14115,7 @@ const A1_WORDS = [
       "translation": "At have brug for",
       "explanation": [
         "Hovedidé: müssen betyder at gøre noget.",
-        "På letisk oversættes müssen ofte med \"mig ja...\", \"du ja...\", \"vi ja...\".",
+        "På dansk oversættes müssen ofte med \"mig ja...\", \"du ja...\", \"vi ja...\".",
         "I en tysk sætning kommer det andet udsagnsord normalt til sidst.",
         "På A1-niveau er den vigtigste form Ich muss..."
       ],
@@ -17430,7 +17414,7 @@ const A1_WORDS = [
       },
       "important": [
         "sehen er ikke det samme som anschauen.",
-        "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
+        "Ich sehe dich = Jeg ser dig; Ich schaue den Film = Jeg ser filmen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20376,7 +20360,7 @@ const A1_WORDS = [
       "explanation": [
         "Hovedidé: verstehen betyder at forstå.",
         "Det bruges, når du forstår et sprog, person, tekst eller situation.",
-        "Du normalt behøver ikke at \"kende\" eller \"undervise\" letisk her • De er oftere können.",
+        "Du normalt behøver ikke at \"kende\" eller \"undervise\" dansk her • De er oftere können.",
         "En meget almindelig sætning er Ich verstehe. = Jeg forstår."
       ],
       "examples": [
@@ -22071,7 +22055,7 @@ const A1_WORDS = [
       "translation": "Tid (vejr)",
       "explanation": [
         "Hovedidé: das Wetter betyder vejret - solrigt, regnfuldt, koldt eller varmt.",
-        "Det lettiske ord \"laiks\" kan betyde både vejret og tiden på uret - på tysk er det anderledes.",
+        "Det danske ord \"laiks\" kan betyde både vejret og tiden på uret - på tysk er det anderledes.",
         "Tal om vejret i naturen med das Wetter: Wie ist das Wetter heute?",
         "Das Wetter bruges ofte i en sætning sammen med ord som varm eller kalt.",
         "Ikke at forveksle med die Zeit - det er tid som et øjeblik eller mulighed (Ich habe keine Zeit)."
@@ -23997,7 +23981,7 @@ const A1_WORDS = [
         "Brug das Gemüse, når konteksten passer til denne betydning."
       ],
       "important": [
-        "Nav pareizi: die Gemüse, die Obsts.",
+        "Forkert: die Gemüse, die Obsts.",
         "Forkert: die Gemüse → Korrekt: das Gemüse",
         "das Gemüse = grøntsager (generelt)."
       ],

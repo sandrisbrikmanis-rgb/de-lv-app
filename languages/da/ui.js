@@ -63,7 +63,7 @@ window.LANGUAGE_UI_STRINGS = {
     "autoplayAriaOff": "{label} (automatisk fra)",
     "disableAutoplay": "Slå automatisk udtale fra",
     "enableAutoplay": "Slå automatisk udtale til",
-    "markUnwanted": "Markér som unødvendig",
+    "markUnwanted": "Markér som uønsket",
     "masteredWords": "100% kendt"
   },
   "tools": {

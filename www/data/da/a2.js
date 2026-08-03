@@ -8558,7 +8558,7 @@ const A2_WORDS = [
       "id": "a2-aufwenden",
       "layout": "standardStudy",
       "translation": "Vie",
-      "explanation": "Hovedidé: aufwenden betyder at afsætte eller investere tid, energi eller penge til en sag. Det bruges ofte sammen med Zeit, Mühe, Kraft eller Geld. På letisk er det ikke et almindeligt \"spend\"-kort, for ofte handler ideen om en bevidst investering. Med penge, simpelthen \"udgifter\" er oftere end ikke ausgeben. Med tiden er \"at bruge\" ofte verbinen.",
+      "explanation": "Hovedidé: aufwenden betyder at afsætte eller investere tid, energi eller penge til en sag. Det bruges ofte sammen med Zeit, Mühe, Kraft eller Geld. På dansk er det ikke et almindeligt \"spend\"-kort, for ofte handler ideen om en bevidst investering. Med penge, simpelthen \"udgifter\" er oftere end ikke ausgeben. Med tiden er \"at bruge\" ofte verbinen.",
       "examples": [
         {
           "de": "Wir müssen viel Zeit aufwenden.",
@@ -9481,7 +9481,7 @@ const A2_WORDS = [
       "id": "a2-auswählen",
       "layout": "standardStudy",
       "translation": "At vælge",
-      "explanation": "Hovedidé: auschällen betyder at vælge eller vælge mellem flere muligheder. Dette betyder ofte, at man bevidst vælger den mest passende mulighed. Det bruges i menuer, lister, spørgeskemaer og kandidatudvælgelse. auschällen er mere specifik end wählen, fordi den lægger vægt på et valg fra en given gruppe. På letisk er det passende at vælge, at vælge eller at vælge, afhængigt af konteksten.",
+      "explanation": "Hovedidé: auschällen betyder at vælge eller vælge mellem flere muligheder. Dette betyder ofte, at man bevidst vælger den mest passende mulighed. Det bruges i menuer, lister, spørgeskemaer og kandidatudvælgelse. auschällen er mere specifik end wählen, fordi den lægger vægt på et valg fra en given gruppe. På dansk er det passende at vælge, at vælge eller at vælge, afhængigt af konteksten.",
       "examples": [
         {
           "de": "Wählen Sie bitte eine Sprache aus.",
@@ -18713,7 +18713,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Det er ikke det samme som damit.",
-        "example": "dafür = par til / tam. damit = ar to vai lai. Ich bin dafür = Es esmu par to."
+        "example": "dafür = for det. damit = så at / for at. Ich bin dafür = Jeg er for det."
       },
       "sectionAccents": {
         "examples": [
@@ -18903,7 +18903,7 @@ const A2_WORDS = [
                   "dafür"
                 ],
                 "orange": [
-                  "par to"
+                  "for det"
                 ],
                 "yellow": [
                   "dansk",
@@ -18951,20 +18951,20 @@ const A2_WORDS = [
                 "dafür"
               ],
               "green": [
-                "lai",
-                "tam"
+                "for det",
+                "så at"
               ],
               "yellow": [
                 "damit"
               ],
               "orange": [
-                "par to",
-                "ar to"
+                "for det",
+                "for det"
               ],
               "red": [
                 "dafür",
                 "damit",
-                "esmu"
+                "for"
               ]
             }
           }
@@ -18999,12 +18999,12 @@ const A2_WORDS = [
           "damit"
         ],
         "orange": [
-          "par to",
-          "ar to"
+          "for det",
+          "for det"
         ],
         "purple": [
           "for that • that • however • therefore",
-          "par to / tam / toties",
+          "for det",
           "ar to / lai",
           "pret to"
         ],
@@ -19106,7 +19106,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Damit som \"til\" ændrer ordrækkefølgen i hjælpesætningen.",
-        "example": "Sprich langsam, damit ich dich verstehe. Nejaukt damit ar dafür. dafür = par to; damit = ar til / lai."
+        "example": "Sprich langsam, damit ich dich verstehe. Bland ikke damit med dafür. dafür = for det; damit = så at / for at."
       },
       "sectionAccents": {
         "examples": [
@@ -19318,7 +19318,7 @@ const A2_WORDS = [
                 "damit"
               ],
               "green": [
-                "lai"
+                "så at"
               ],
               "red": [
                 "Damit",
@@ -19334,11 +19334,11 @@ const A2_WORDS = [
               ],
               "green": [
                 "dafür",
-                "lai"
+                "så at"
               ],
               "orange": [
-                "par to",
-                "ar to"
+                "for det",
+                "for det"
               ],
               "purple": [
                 "Damit"
@@ -19346,7 +19346,7 @@ const A2_WORDS = [
               "red": [
                 "verstehe",
                 "langsam",
-                "Nejaukt",
+                "Bland ikke",
                 "Sprich",
                 "damit",
                 "dich"
@@ -19383,11 +19383,11 @@ const A2_WORDS = [
           "weil"
         ],
         "orange": [
-          "par to",
-          "ar to"
+          "for det",
+          "for det"
         ],
         "purple": [
-          "par to / tam",
+          "for det",
           "ar to / lai",
           "ar to • lai",
           "because"
@@ -20117,7 +20117,7 @@ const A2_WORDS = [
           "runa"
         ],
         "green": [
-          "par to",
+          "for det",
           "daran",
           "from it",
           "on it"
@@ -20491,7 +20491,7 @@ const A2_WORDS = [
           "daran"
         ],
         "orange": [
-          "par to",
+          "for det",
           "uz to",
           "virs"
         ],
@@ -20798,7 +20798,7 @@ const A2_WORDS = [
                   "darum"
                 ],
                 "orange": [
-                  "par to"
+                  "for det"
                 ],
                 "yellow": [
                   "Izteiciens",
@@ -20873,7 +20873,7 @@ const A2_WORDS = [
           "ap to"
         ],
         "orange": [
-          "par to",
+          "for det",
           "therefore"
         ],
         "purple": [
@@ -21125,7 +21125,7 @@ const A2_WORDS = [
       "accents": {
         "davon": "#24A8FF",
         "from it": "#B565FF",
-        "par to": "#B565FF",
+        "for det": "#B565FF",
         "darüber": "#35D46A",
         "daraus": "#FFD21F",
         "weg davon": "#FF4D4D",
@@ -21735,7 +21735,7 @@ const A2_WORDS = [
         "next to it": "#B565FF",
         "present": "#B565FF",
         "moreover": "#B565FF",
-        "par to": "#B565FF",
+        "for det": "#B565FF",
         "dafür": "#35D46A",
         "dabei": "#FFD21F",
         "außerdem": "#FF4D4D"
@@ -22109,7 +22109,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Fordi",
       "explanation": [
-        "Hovedidé: denn kan betyde \"fordi\" eller styrke betydningen i spørgsmål som det lettiske \"dengang\".",
+        "Hovedidé: denn kan betyde \"fordi\" eller styrke betydningen i spørgsmål som det danske \"dengang\".",
         "Når denn forbinder to tanker, betyder det ofte fordi.",
         "I spørgsmål gør denn ofte spørgsmålet mere naturligt eller udtrykker interesse.",
         "For behøver ikke at fremhæves som en særskilt hovedbetydning, fordi praktisk talt overlapper med fordi.",
@@ -23244,7 +23244,7 @@ const A2_WORDS = [
           "German"
         ],
         "green": [
-          "neskatoties uz to",
+          "på trods af det",
           "aber",
           "however"
         ],
@@ -24544,7 +24544,7 @@ const A2_WORDS = [
       "explanation": [
         "Hovedidé: durch kan betyde bevægelse gennem noget, retning langs noget eller midler/årsag \"med / på grund af\".",
         "Med stedet durch ofte betyder igennem.",
-        "Med en by eller en park siger lettisk ofte pa.",
+        "Med en by eller en park siger dansk ofte pa.",
         "Med midler eller grund kan durch betyde med eller på grund af.",
         "Durch er ikke det samme som mit."
       ],
@@ -30125,7 +30125,7 @@ const A2_WORDS = [
       "id": "a2-fehlen",
       "layout": "standardStudy",
       "translation": "Manglende",
-      "explanation": "Hovedidé: fehlen betyder at mangle, at mangle eller at være fraværende. Hvis der mangler en vare eller penge, oversættes fehlen som mangler eller mangler. Hvis en person er fraværende fra skole eller arbejde, betyder fehlen at være fraværende. I konstruktionen mir fehlt etwas siger lettisk ofte \"jeg mangler noget\". Det er ikke det samme som brauchen, fordi brauchen betyder at have behov.",
+      "explanation": "Hovedidé: fehlen betyder at mangle, at mangle eller at være fraværende. Hvis der mangler en vare eller penge, oversættes fehlen som mangler eller mangler. Hvis en person er fraværende fra skole eller arbejde, betyder fehlen at være fraværende. I konstruktionen mir fehlt etwas siger dansk ofte \"jeg mangler noget\". Det er ikke det samme som brauchen, fordi brauchen betyder at have behov.",
       "examples": [
         {
           "de": "Mir fehlt Geld.",
@@ -46129,7 +46129,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Patient = pacients. die Patientin = paciente. Daudzskaitlis: die Patienten."
+        "text": "Der Patient = patient. die Patientin = patient. Flertal: die Patienten."
       },
       "sectionAccents": {
         "explanation": {
@@ -56088,7 +56088,7 @@ const A2_WORDS = [
                 ],
                 "purple": [
                   "it is",
-                  "pareizi"
+                  "korrekt"
                 ]
               }
             },
@@ -56145,7 +56145,7 @@ const A2_WORDS = [
           "Agree",
           "To be correct",
           "Balsot",
-          "pareizi",
+          "korrekt",
           "balsojam",
           "I agree"
         ],
@@ -61965,16 +61965,16 @@ const A2_WORDS = [
                   "Viertel"
                 ],
                 "green": [
-                  "stundas ceturksnis",
-                  "ceturksnis",
+                  "et kvarter",
+                  "kvarter",
                   "rajons"
                 ],
                 "yellow": [
-                  "ceturksnis",
+                  "kvarter",
                   "pulksteni",
                   "quarter",
                   "city",
-                  "stundas",
+                  "timer",
                   "Viertel"
                 ]
               }
@@ -62019,7 +62019,7 @@ const A2_WORDS = [
           "standardStudy",
           "das Viertel",
           "izteicienos",
-          "ceturksnis",
+          "kvarter",
           "a quarter",
           "a quarter",
           "ceturksni",
@@ -62029,15 +62029,15 @@ const A2_WORDS = [
           "for example",
           "Cities",
           "veseluma",
-          "stundas",
+          "timer",
           "Viertel",
           "rajonu",
           "Laika",
           "acht"
         ],
         "green": [
-          "stundas ceturksnis",
-          "ceturksnis",
+          "et kvarter",
+          "kvarter",
           "die Hälfte",
           "apkaime",
           "Hälfte",
@@ -63140,7 +63140,7 @@ const A2_WORDS = [
       "id": "a2-während",
       "layout": "standardStudy",
       "translation": "Mens",
-      "explanation": "Mens kan være en præposition, betyder der 'under'. Så efterfølges det ofte af genitiv: während des Tages. Det kan også være en konjunktion, der betyder 'mens'. Som ledsætning introducerer det en hjælpesætning, og verbet på tysk går normalt i slutningen af ​​sætningen. Derfor er det meget vigtigt at skelne mellem en præposition og en ledsætning. Begge lyder ofte ens på letisk.",
+      "explanation": "Mens kan være en præposition, betyder der 'under'. Så efterfølges det ofte af genitiv: während des Tages. Det kan også være en konjunktion, der betyder 'mens'. Som ledsætning introducerer det en hjælpesætning, og verbet på tysk går normalt i slutningen af ​​sætningen. Derfor er det meget vigtigt at skelne mellem en præposition og en ledsætning. Begge lyder ofte ens på dansk.",
       "examples": [
         {
           "de": "Während des Tages arbeite ich.",
