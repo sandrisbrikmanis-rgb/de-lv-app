@@ -1,7 +1,7 @@
 const DIALOGUE_ID_MAP = {
   "diag_001": {
     "de": "Gute Besserung!",
-    "lv": "Veseļojieties! • Atveseļojies!"
+    "lv": "¡Que te mejores! • ¡Recupérate!"
   },
   "diag_002": {
     "de": "Frohes neues Jahr!",
@@ -17,7 +17,7 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_005": {
     "de": "Es freut mich, Sie kennenzulernen.",
-    "lv": "Priecājos ar Jums iepazīties."
+    "lv": "Encantado de conocerle."
   },
   "diag_006": {
     "de": "Wären Sie bitte so nett?",
@@ -49,7 +49,7 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_013": {
     "de": "Schläfst du noch?",
-    "lv": "¿Vas vēl guļi?"
+    "lv": "¿Sigues durmiendo?"
   },
   "diag_014": {
     "de": "Schlafen Sie noch?",
@@ -57,11 +57,11 @@ const DIALOGUE_ID_MAP = {
   },
   "diag_015": {
     "de": "Er ist fest eingeschlafen.",
-    "lv": "Hij slaapt snel."
+    "lv": "Se ha quedado profundamente dormido."
   },
   "diag_016": {
     "de": "Wecke ihn bitte auf, es ist schon spät!",
-    "lv": "Lūdzu, pamodini viņu, jau ir vēls!"
+    "lv": "Por favor, despiértalo, ¡ya es tarde!"
   },
   "diag_017": {
     "de": "Guten Morgen!",

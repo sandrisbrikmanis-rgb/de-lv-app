@@ -1447,7 +1447,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "abhängen von es una construcción estable; En letón no se traduce literalmente como \"colgar\"."
+        "text": "abhängen von es una construcción estable; En español no se traduce literalmente como \"colgar\"."
       },
       "sectionAccents": {
         "explanation": {
@@ -2326,7 +2326,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "En letón, la palabra \"fragmento\" no siempre encaja; der Abschnitt es más a menudo una sección o sección."
+        "text": "En español, la palabra \"fragmento\" no siempre encaja; der Abschnitt es más a menudo una sección o sección."
       },
       "sectionAccents": {
         "explanation": {
@@ -10677,7 +10677,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "En el pie, Blase suele ser \"ampolla\" en letón, no \"vejiga\". En medicina Blase también puede ser vejiga."
+        "text": "En el pie, Blase suele ser \"ampolla\" en español, no \"vejiga\". En medicina Blase también puede ser vejiga."
       },
       "sectionAccents": {
         "examples": [
@@ -20429,7 +20429,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Del hospital, entlassen suele significar \"alta\" en letón, no \"despedir\"."
+        "text": "Del hospital, entlassen suele significar \"alta\" en español, no \"despedir\"."
       },
       "sectionAccents": {
         "examples": [
@@ -33069,7 +33069,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Kern a veces se traduce como semilla o hueso en letón para frutas; el contexto determina la traducción."
+        "text": "Kern a veces se traduce como semilla o hueso en español para frutas; el contexto determina la traducción."
       },
       "sectionAccents": {
         "examples": [
@@ -35958,7 +35958,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Formación, dirección del barco o precio de cambio → der Course.",
-      "important": "En letón, \"curso\" puede tener varios significados, pero en alemán, el contexto determina si se trata de lecciones, dirección o precio.",
+      "important": "En español, \"curso\" puede tener varios significados, pero en alemán, el contexto determina si se trata de lecciones, dirección o precio.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -36044,7 +36044,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "letón"
+            "español"
           ]
         }
       }
@@ -37072,7 +37072,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Koks vai auglis? Skaties kontekstu ap die Kastanie.",
-      "important": "En letón, a menudo es necesario distinguir el castaño como árbol y el castaño como fruta.",
+      "important": "En español, a menudo es necesario distinguir el castaño como árbol y el castaño como fruta.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -63186,7 +63186,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "ärztliches Zeugnis suele ser un certificado médico en letón, no un certificado escolar."
+        "text": "ärztliches Zeugnis suele ser un certificado médico en español, no un certificado escolar."
       },
       "sectionAccents": {
         "explanation": {

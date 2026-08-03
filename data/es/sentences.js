@@ -1286,7 +1286,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "¿Cómo estás? ¿Cómo estás?",
+    "lv": "¿Cómo está usted?",
     "level": "Sätze"
   },
   {
@@ -2021,7 +2021,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für ein...?",
-    "lv": "OMS...? • ¿Qué pasa con...?",
+    "lv": "¿Qué clase de...? • ¿Qué tipo de...?",
     "level": "Sätze"
   },
   {

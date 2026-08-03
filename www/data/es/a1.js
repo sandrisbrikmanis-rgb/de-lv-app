@@ -2003,7 +2003,7 @@ const A1_WORDS = [
       },
       "important": [
         "baden y schwimmen no son sinónimos.",
-        "En letón a menudo se dice simplemente \"nadar\", pero en alemán hay que elegir según la situación."
+        "En español a menudo se dice simplemente \"nadar\", pero en alemán hay que elegir según la situación."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4610,7 +4610,7 @@ const A1_WORDS = [
       "translation": "hielo • helado",
       "explanation": [
         "Idea principal: das Eis puede significar tanto helado como helado.",
-        "Cuando se trata de agua fría y congelada, en letón se suele decir hielo.",
+        "Cuando se trata de agua fría y congelada, en español se suele decir hielo.",
         "Cuando se trata de comida o postre, das Eis suele significar helado en la vida cotidiana.",
         "El contexto suele indicar inmediatamente qué significado se pretende.",
         "En el nivel A1, las frases más importantes son ein Eis essen y Eis im Glas."
@@ -4663,7 +4663,7 @@ const A1_WORDS = [
         "text": "Recuerde: comida → helado; invierno/agua → hielo."
       },
       "important": [
-        "En letón, hielo y helado son dos palabras diferentes, pero en alemán, das Eis suele usarse para ambas.",
+        "En español, hielo y helado son dos palabras diferentes, pero en alemán, das Eis suele usarse para ambas.",
         "El contexto es clave: comida significa helado, superficie fría o agua significa hielo."
       ],
       "sectionAccents": {
@@ -5221,7 +5221,7 @@ const A1_WORDS = [
       "translation": "algo • un poco",
       "explanation": [
         "Idea principal: etwas significa algo o un poco según el contexto.",
-        "Si etwas reemplaza algo desconocido, el letón suele decir algo.",
+        "Si etwas reemplaza algo desconocido, el español suele decir algo.",
         "Cuando etwas está delante de un adjetivo o cantidad, a menudo significa un poco.",
         "Etwas es una palabra A1 muy común y neutral en la conversación.",
         "Lo más importante es distinguir: etwas kaufen = comprar algo, etwas müde = un poco cansado."
@@ -5275,7 +5275,7 @@ const A1_WORDS = [
       },
       "important": [
         "etwas no es lo mismo que nichts: etwas significa algo, pero nichts no significa nada.",
-        "En letón, algo suena mejor que algo, por ejemplo: etwas trinken = beber algo."
+        "En español, algo suena mejor que algo, por ejemplo: etwas trinken = beber algo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9493,7 +9493,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: jung significa joven en edad; se usa para personas y animales, no para cosas.",
         "jung describe vecumu — pretstats ir alt (vecs).",
-        "En letón, la palabra joven tiene dos significados: joven de edad (jung) y joven/de reciente creación (neu).",
+        "En español, la palabra joven tiene dos significados: joven de edad (jung) y joven/de reciente creación (neu).",
         "Para cosas creadas o adquiridas recientemente, utilice neu, ne jung.",
         "jung también se usa en sentido figurado: una nueva generación, una pareja joven, gente joven.",
         "También está el sustantivo die Jugend (juventud)."
@@ -10137,7 +10137,7 @@ const A1_WORDS = [
       "translation": "ser capaz de • saber",
       "explanation": [
         "Idea principal: können significa poder o saber hacer algo.",
-        "Cuando se trata de habilidad o destreza, el letón suele decir saber.",
+        "Cuando se trata de habilidad o destreza, el español suele decir saber.",
         "Cuando se trata de posibilidades, se suele decir que se puede.",
         "können es un verbo modal, por lo que el segundo verbo suele ir al final."
       ],
@@ -10419,7 +10419,7 @@ const A1_WORDS = [
       ],
       "important": [
         "kosten y bezahlen no son sinónimos: kosten = cuánto cuesta; bezahlen = pagar dinero.",
-        "En letón se suele utilizar la remuneración en ambos casos, pero en alemán la elección debe hacerse en función de la situación."
+        "En español se suele utilizar la remuneración en ambos casos, pero en alemán la elección debe hacerse en función de la situación."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11188,7 +11188,7 @@ const A1_WORDS = [
         "Cuando se trata de tamaño o distancia, lang = largo (ein langer Tisch = mesa larga).",
         "Ja runa ir par laika ilgumu, lang = ilgs (ein langer Tag = ilga diena).",
         "En la frase den ganzen Tag lang significa todo el día (en longitud).",
-        "El letón 'garš' e 'ilgs' son dos palabras diferentes, pero el idioma alemán cubre ambos significados."
+        "El español 'garš' e 'ilgs' son dos palabras diferentes, pero el idioma alemán cubre ambos significados."
       ],
       "examples": [
         {
@@ -12821,7 +12821,7 @@ const A1_WORDS = [
         "Idea principal: machen es una palabra muy común que significa hacer o hacer.",
         "Si se trata de acción en general, se traduce en cómo hacer.",
         "Si se hace o prepara algo se traduce como hacer o cocinar.",
-        "En muchas frases, machen se traduce de forma natural en letón, no literalmente."
+        "En muchas frases, machen se traduce de forma natural en español, no literalmente."
       ],
       "examples": [
         {
@@ -12845,7 +12845,7 @@ const A1_WORDS = [
         "text": "Recuerda: Was machst du? = Ko tu dari?"
       },
       "important": [
-        "machen es una palabra muy amplia, pero el letón a menudo debe traducirse de forma natural según la situación.",
+        "machen es una palabra muy amplia, pero el español a menudo debe traducirse de forma natural según la situación.",
         "Das macht Spaß significa \"es divertido\", no literalmente \"es divertido\"."
       ],
       "sectionAccents": {
@@ -14146,7 +14146,7 @@ const A1_WORDS = [
       "translation": "necesitar",
       "explanation": [
         "Idea principal: müssen significa hacer algo.",
-        "En letón, müssen a menudo se traduce como \"yo sí...\", \"tú sí...\", \"nosotros sí...\".",
+        "En español, müssen a menudo se traduce como \"yo sí...\", \"tú sí...\", \"nosotros sí...\".",
         "En una frase alemana, el segundo verbo suele ir al final.",
         "En el nivel A1, la forma más importante es Ich muss..."
       ],
@@ -15048,7 +15048,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: neu significa nuevo en términos de algo: creado recientemente, comprado o usado por primera vez.",
         "neu describe cosas, dispositivos, ropa, casas, ideas, etc., no la edad humana o animal.",
-        "En letón, la palabra joven tiene dos significados: joven de edad (jung) y joven/de reciente creación (neu).",
+        "En español, la palabra joven tiene dos significados: joven de edad (jung) y joven/de reciente creación (neu).",
         "Para la edad de una persona o de un animal se utiliza jung, no neu.",
         "neu también se usa en sentido figurado: nuevo trabajo, nueva información, nuevo comienzo.",
         "Lo opuesto es alt (viejo); el sustantivo das Neue significa nuevo."
@@ -15548,7 +15548,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "o",
       "explanation": [
-        "Idea principal: ob introduce una pregunta indirecta y en letón suele significar o.",
+        "Idea principal: ob introduce una pregunta indirecta y en español suele significar o.",
         "ob se usa después de palabras como fragen, wissen, sehen, sagen cuando no hay una pregunta directa.",
         "Ob no suele utilizarse en una pregunta directa en alemán.",
         "En el nivel A1 es importante distinguir ob de oder."
@@ -15778,7 +15778,7 @@ const A1_WORDS = [
       "translation": "o • o",
       "explanation": [
         "Idea principal: oder se utiliza cuando elegimos entre dos o más opciones.",
-        "En letón, oder suele significar o.",
+        "En español, oder suele significar o.",
         "No es lo mismo que ob, que introduce una pregunta indirecta.",
         "En las conversaciones, oder también puede estar al final de la frase: Du kommst, oder?"
       ],
@@ -17205,7 +17205,7 @@ const A1_WORDS = [
       },
       "important": [
         "schwimmen un baden nav viens un tas pats.",
-        "En letón se suele decir \"nadar\", pero en alemán hay que comprobar si se trata de movimiento o de baño."
+        "En español se suele decir \"nadar\", pero en alemán hay que comprobar si se trata de movimiento o de baño."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18011,7 +18011,7 @@ const A1_WORDS = [
       "translation": "usted mismo • para usted mismo",
       "explanation": [
         "Idea principal: esto muestra que la acción se refiere al propio hacedor.",
-        "En letón, a menudo se traduce como uno mismo o uno mismo.",
+        "En español, a menudo se traduce como uno mismo o uno mismo.",
         "En algunos verbos alemanes, sich es una parte obligatoria, como por ejemplo sich waschen.",
         "Importante tener en cuenta en el nivel A1: ich wasche mich, er wäscht sich."
       ],
@@ -21247,7 +21247,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "quién • qué",
       "explanation": [
-        "Idea principal: qué es una palabra interrogativa sobre cosas y eventos; en letón es qué o qué, según la parte de la oración.",
+        "Idea principal: qué es una palabra interrogativa sobre cosas y eventos; en español es qué o qué, según la parte de la oración.",
         "Se pregunta sobre cosas, acontecimientos y hechos, no sobre personas.",
         "En alemán, was no cambia después de la inflexión: siempre parece was.",
         "Si was es el sujeto de la oración, se traduce como kas (Was ist das? = ¿Qué es?) en letón.",
@@ -21285,7 +21285,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "El fue en sí mismo no cambia; en alemán siempre fue; En letón, elige quién o qué según la parte de la frase.",
+        "El fue en sí mismo no cambia; en alemán siempre fue; En español, elige quién o qué según la parte de la frase.",
         "Truco rápido: si la pregunta se puede responder con 'Es...', utiliza quién; si la respuesta viene después del verbo como complemento, use ko."
       ],
       "important": [
@@ -21712,7 +21712,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "quién • quién",
       "explanation": [
-        "Idea principal: wer es una palabra interrogativa sobre la identidad de una persona; en letón es quién o quién.",
+        "Idea principal: wer es una palabra interrogativa sobre la identidad de una persona; en español es quién o quién.",
         "Estamos preguntando por personas, no por cosas o acontecimientos.",
         "Las cosas y los acontecimientos se preguntan con fue, no con wer.",
         "wer en alemán suele ser el sujeto de una oración (nominativo): Wer ist das? = ¿Qué es?",
@@ -22366,7 +22366,7 @@ const A1_WORDS = [
       "translation": "cómo • cuánto",
       "explanation": [
         "Idea principal: wie pregunta sobre tipo o calidad (cómo) y sobre cantidad o número (cuánto), según el contexto.",
-        "wie alone (¿Wie geht's?) pregunta sobre el camino - en letón cómo.",
+        "wie alone (¿Wie geht's?) pregunta sobre el camino - en español cómo.",
         "wie + adjetivo (wie viel, wie alt, wie lange) pregunta sobre la cantidad, edad o duración - cuánto en letón.",
         "wie viel(e) significa cuánto; wie alt significa cuántos años tiene; wie lange significa cuánto tiempo.",
         "En comparaciones, wie significa como (así que groß wie = tan grande como)."
