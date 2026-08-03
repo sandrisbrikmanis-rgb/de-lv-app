@@ -140,7 +140,7 @@ const A2_WORDS = [
       },
       "important": [
         "ab und zu significa ocasionalmente, no con frecuencia o todos los días.",
-        "En letón, las traducciones más naturales son de vez en cuando, a veces o de vez en cuando."
+        "En español, las traducciones más naturales son de vez en cuando, a veces o de vez en cuando."
       ]
     }
   },
@@ -1282,7 +1282,7 @@ const A2_WORDS = [
       "id": "a2-absagen",
       "layout": "standardStudy",
       "translation": "Cancelar",
-      "explanation": "Idea principal: absagen significa cancelar una cita o evento o rechazar la participación. absagen significa cancelar una reunión, evento o plan acordado. También puede significar negarse a participar o decir que no puedes venir. En Termin, Treffen, Konzert o Einladung el significado suele ser \"cancelar\" o \"rechazar\". No es lo mismo que nein sagen, porque absagen suele referirse a un asunto preestablecido. En letón, deberías ver si el evento se cancela o si te niegas a participar.",
+      "explanation": "Idea principal: absagen significa cancelar una cita o evento o rechazar la participación. absagen significa cancelar una reunión, evento o plan acordado. También puede significar negarse a participar o decir que no puedes venir. En Termin, Treffen, Konzert o Einladung el significado suele ser \"cancelar\" o \"rechazar\". No es lo mismo que nein sagen, porque absagen suele referirse a un asunto preestablecido. En español, deberías ver si el evento se cancela o si te niegas a participar.",
       "examples": [
         {
           "de": "Ich muss den Termin absagen.",
@@ -8568,7 +8568,7 @@ const A2_WORDS = [
       "id": "a2-aufwenden",
       "layout": "standardStudy",
       "translation": "dedicar",
-      "explanation": "Idea principal: aufwenden significa dedicar o invertir tiempo, energía o dinero a una causa. Se utiliza frecuentemente con Zeit, Mühe, Kraft o Geld. En letón, no es una tarjeta de \"gasto\" cualquiera, porque a menudo la idea es una inversión consciente. Con el dinero, la mayoría de las veces simplemente \"gastar\" es ausgeben. Con el tiempo, \"gastar\" suele decirse.",
+      "explanation": "Idea principal: aufwenden significa dedicar o invertir tiempo, energía o dinero a una causa. Se utiliza frecuentemente con Zeit, Mühe, Kraft o Geld. En español, no es una tarjeta de \"gasto\" cualquiera, porque a menudo la idea es una inversión consciente. Con el dinero, la mayoría de las veces simplemente \"gastar\" es ausgeben. Con el tiempo, \"gastar\" suele decirse.",
       "examples": [
         {
           "de": "Wir müssen viel Zeit aufwenden.",
@@ -9494,7 +9494,7 @@ const A2_WORDS = [
       "id": "a2-auswählen",
       "layout": "standardStudy",
       "translation": "elegir",
-      "explanation": "Idea principal: auschällen significa elegir o seleccionar entre varias opciones. A menudo, esto significa seleccionar deliberadamente la opción más adecuada. Se utiliza en menús, listas, cuestionarios y selección de candidatos. auschällen es más específico que wählen porque enfatiza una elección de un grupo determinado. En letón corresponde elegir, seleccionar o seleccionar, según el contexto.",
+      "explanation": "Idea principal: auschällen significa elegir o seleccionar entre varias opciones. A menudo, esto significa seleccionar deliberadamente la opción más adecuada. Se utiliza en menús, listas, cuestionarios y selección de candidatos. auschällen es más específico que wählen porque enfatiza una elección de un grupo determinado. En español corresponde elegir, seleccionar o seleccionar, según el contexto.",
       "examples": [
         {
           "de": "Wählen Sie bitte eine Sprache aus.",
@@ -13578,7 +13578,7 @@ const A2_WORDS = [
       "id": "a2-beinahe",
       "layout": "standardStudy",
       "translation": "casi",
-      "explanation": "Idea principal: beinahe significa casi o apenas, cuando algo estuvo muy cerca de suceder. beinahe significa casi. Destaca que algo casi pasó, pero no pasó, o estuvo muy cerca. En algunos contextos, el letón apenas encaja. beinahe está muy cerca de ser rápido. Por lo general, beinahe suena un poco más enfático que rápido.",
+      "explanation": "Idea principal: beinahe significa casi o apenas, cuando algo estuvo muy cerca de suceder. beinahe significa casi. Destaca que algo casi pasó, pero no pasó, o estuvo muy cerca. En algunos contextos, el español apenas encaja. beinahe está muy cerca de ser rápido. Por lo general, beinahe suena un poco más enfático que rápido.",
       "examples": [
         {
           "de": "Ich hätte beinahe den Bus verpasst.",
@@ -15711,7 +15711,7 @@ const A2_WORDS = [
       "id": "a2-bitter",
       "layout": "standardStudy",
       "translation": "amargo",
-      "explanation": "Idea principal: amargo significa sabor amargo o áspero/doloroso en sentido figurado. amargo suele significar sabor amargo. También puede significar feroz, agudo o duro con respecto a sentimientos, experiencias o palabras. En el caso del café, las hierbas y el chocolate, el sabor suele ser amargo. Para pérdida o verdad, amargo significa duro o doloroso. En letón, no siempre es apropiado utilizar sólo \"amargo\".",
+      "explanation": "Idea principal: amargo significa sabor amargo o áspero/doloroso en sentido figurado. amargo suele significar sabor amargo. También puede significar feroz, agudo o duro con respecto a sentimientos, experiencias o palabras. En el caso del café, las hierbas y el chocolate, el sabor suele ser amargo. Para pérdida o verdad, amargo significa duro o doloroso. En español, no siempre es apropiado utilizar sólo \"amargo\".",
       "examples": [
         {
           "de": "Der Kaffee schmeckt bitter.",
@@ -16625,7 +16625,7 @@ const A2_WORDS = [
       "id": "a2-borgen",
       "layout": "standardStudy",
       "translation": "pedir prestado • prestar",
-      "explanation": "Idea principal: borgen puede significar tanto pedir prestado como prestar, y la dirección la determina la oración. Borgen puede significar tanto pedir prestado como prestar. La dirección se vuelve clara por persona y dativo. Si tomo algo de otro, en letón es pedir prestado. Si le doy tiempo a otra persona, en letón es para prestar. En la vida cotidiana, leihen también se utiliza a menudo con un significado muy similar. Por tanto, Borgen debe leerse en contexto.",
+      "explanation": "Idea principal: borgen puede significar tanto pedir prestado como prestar, y la dirección la determina la oración. Borgen puede significar tanto pedir prestado como prestar. La dirección se vuelve clara por persona y dativo. Si tomo algo de otro, en español es pedir prestado. Si le doy tiempo a otra persona, en español es para prestar. En la vida cotidiana, leihen también se utiliza a menudo con un significado muy similar. Por tanto, Borgen debe leerse en contexto.",
       "examples": [
         {
           "de": "Kann ich mir dein Fahrrad borgen?",
@@ -17758,9 +17758,9 @@ const A2_WORDS = [
       },
       "accents": {
         "brav": "#24A8FF",
-        "paklausīgs": "#B565FF",
-        "kārtīgs": "#B565FF",
-        "labi audzināts": "#B565FF",
+        "obediente": "#B565FF",
+        "ordenado": "#B565FF",
+        "educado": "#B565FF",
         "gut": "#FFD21F",
         "guter Mensch": "#FFD21F",
         "nett": "#FF4D4D",
@@ -18093,8 +18093,8 @@ const A2_WORDS = [
       "accents": {
         "brennen": "#24A8FF",
         "deg": "#35D46A",
-        "dedzinoši sāp": "#FF4D4D",
-        "ierakstīt": "#FFD21F",
+        "ardor": "#FF4D4D",
+        "grabar": "#FFD21F",
         "anzünden": "#35D46A",
         "verbrennen": "#FF4D4D"
       }
@@ -18340,7 +18340,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si puedes decir \"Estoy contigo\" en letón, el alemán suele resultar útil."
+            "text": "Si puedes decir \"Estoy contigo\" en español, el alemán suele resultar útil."
           },
           {
             "text": "Si el pensamiento es \"además\", dabei se utiliza para añadir otro pensamiento sobre la misma situación."
@@ -18728,7 +18728,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si puedes decir \"para ello\" en letón, el alemán suele ser bueno."
+            "text": "Si puedes decir \"para ello\" en español, el alemán suele ser bueno."
           },
           {
             "text": "Cuando hay un opuesto en una oración, dafar suele significar \"sin embargo\"."
@@ -19886,7 +19886,7 @@ const A2_WORDS = [
             "text": "Mira el verbo: warten auf → darauf warten."
           },
           {
-            "text": "Si el letón tiene \"to it\", el alemán a menudo tendrá darauf."
+            "text": "Si el español tiene \"to it\", el alemán a menudo tendrá darauf."
           }
         ]
       },
@@ -20955,7 +20955,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Si puedes decir \"Me enteré / Lo sé\" en letón, Davon suele trabajar en alemán.",
+        "Si puedes decir \"Me enteré / Lo sé\" en español, Davon suele trabajar en alemán.",
         "Cuando se habla del tema de conversación, se suele utilizar déberer."
       ],
       "important": [
@@ -21146,7 +21146,7 @@ const A2_WORDS = [
       },
       "accents": {
         "davon": "#24A8FF",
-        "no tā": "#B565FF",
+        "de eso": "#B565FF",
         "par to": "#B565FF",
         "darüber": "#35D46A",
         "daraus": "#FFD21F",
@@ -21457,9 +21457,9 @@ const A2_WORDS = [
       },
       "accents": {
         "davor": "#24A8FF",
-        "priekšā": "#B565FF",
-        "pirms tam": "#B565FF",
-        "no tā": "#B565FF",
+        "delante": "#B565FF",
+        "antes": "#B565FF",
+        "de eso": "#B565FF",
         "vor dem": "#35D46A",
         "danach": "#FFD21F",
         "darauf": "#FF4D4D"
@@ -21754,9 +21754,9 @@ const A2_WORDS = [
       "accents": {
         "dazu": "#24A8FF",
         "tam": "#B565FF",
-        "pie tā": "#B565FF",
-        "klāt": "#B565FF",
-        "turklāt": "#B565FF",
+        "además": "#B565FF",
+        "presente": "#B565FF",
+        "sobre eso": "#B565FF",
         "par to": "#B565FF",
         "dafür": "#35D46A",
         "dabei": "#FFD21F",
@@ -22131,7 +22131,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "porque",
       "explanation": [
-        "Idea principal: denn puede significar \"porque\" o reforzar el significado en preguntas como el letón \"entonces\".",
+        "Idea principal: denn puede significar \"porque\" o reforzar el significado en preguntas como el español \"entonces\".",
         "Cuando Denn conecta dos pensamientos, a menudo significa porque.",
         "En las preguntas, Denn a menudo hace que la pregunta sea más natural o expresa interés.",
         "Porque no es necesario resaltarlo como un significado principal separado, porque prácticamente se superpone con porque.",
@@ -22430,7 +22430,7 @@ const A2_WORDS = [
         "jo": "#B565FF",
         "tad": "#B565FF",
         "weil": "#35D46A",
-        "jautājumos": "#35D46A",
+        "pregunta": "#35D46A",
         "dann": "#FFD21F",
         "deshalb": "#FF4D4D"
       }
@@ -22813,18 +22813,18 @@ const A2_WORDS = [
       "accents": {
         "dick": "#24A8FF",
         "dicke": "#24A8FF",
-        "resns": "#B565FF",
-        "biezs": "#B565FF",
-        "bieza": "#B565FF",
+        "grueso": "#B565FF",
+        "gordo": "#B565FF",
+        "grasa": "#B565FF",
         "fett": "#35D46A",
-        "trekns": "#35D46A",
+        "graso": "#35D46A",
         "dünn": "#FF4D4D",
-        "plāns": "#FF4D4D",
-        "tievs": "#FF4D4D",
+        "delgado": "#FF4D4D",
+        "fino": "#FF4D4D",
         "breit": "#FFB020",
-        "plats": "#FFB020",
+        "ancho": "#FFB020",
         "stark": "#FFD21F",
-        "stiprs": "#FFD21F"
+        "fuerte": "#FFD21F"
       }
     }
   },
@@ -22924,7 +22924,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si doch suena como una emoción o énfasis en una oración alemana, el letón suele usar \"taču\"."
+            "text": "Si doch suena como una emoción o énfasis en una oración alemana, el español suele usar \"taču\"."
           },
           {
             "text": "Cuando la pregunta es negativa y la respuesta es afirmativa, el alemán suele utilizar doch."
@@ -23626,17 +23626,17 @@ const A2_WORDS = [
       "accents": {
         "der Doktor": "#24A8FF",
         "Doktor": "#24A8FF",
-        "doktors": "#B565FF",
-        "ārsts": "#B565FF",
-        "ārsta": "#B565FF",
+        "doctor": "#B565FF",
+        "médico": "#B565FF",
+        "médico": "#B565FF",
         "der Arzt": "#35D46A",
         "Arzt": "#35D46A",
         "die Ärztin": "#FFD21F",
         "Ärztin": "#FFD21F",
         "Titel": "#FF4D4D",
-        "tituls": "#FF4D4D",
+        "título": "#FF4D4D",
         "Praxis": "#FFB020",
-        "ārsta prakse": "#FFB020"
+        "practica medica": "#FFB020"
       }
     }
   },
@@ -23906,9 +23906,7 @@ const A2_WORDS = [
         "drehen": "#24A8FF",
         "Dreh": "#24A8FF",
         "dreht": "#24A8FF",
-        "griezt": "#B565FF",
-        "grozīt": "#B565FF",
-        "pagriezt": "#B565FF",
+        "girar": "#B565FF",
         "schneiden": "#FFD21F",
         "schneide": "#FFD21F",
         "wenden": "#35D46A",
@@ -24187,13 +24185,12 @@ const A2_WORDS = [
         "drücken": "#24A8FF",
         "Drück": "#24A8FF",
         "drückt": "#24A8FF",
-        "spiest": "#B565FF",
-        "nospiest": "#B565FF",
-        "piespiest": "#B565FF",
+        "presionar": "#B565FF",
+        "pulsar": "#B565FF",
+        "empujar": "#B565FF",
         "drucken": "#FFD21F",
         "drucke": "#FFD21F",
-        "drukāt": "#FF4D4D",
-        "drukāju": "#FF4D4D",
+        "imprimir": "#FF4D4D",
         "ziehen": "#FF4D4D",
         "schieben": "#35D46A",
         "anklicken": "#FFB020",
@@ -24547,10 +24544,10 @@ const A2_WORDS = [
       "accents": {
         "dünn": "#24A8FF",
         "dünnes": "#24A8FF",
-        "plāns": "#B565FF",
-        "tievs": "#B565FF",
-        "rets": "#B565FF",
-        "šķidrs": "#B565FF",
+        "fino": "#B565FF",
+        "delgado": "#B565FF",
+        "ralo": "#B565FF",
+        "líquido": "#B565FF",
         "dick": "#FFD21F",
         "schmal": "#FF4D4D",
         "mager": "#35D46A",
@@ -24569,7 +24566,7 @@ const A2_WORDS = [
       "explanation": [
         "Idea principal: durch puede significar movimiento a través de algo, dirección a lo largo de algo o significa/causa “con/a causa de”.",
         "Con el lugar durch a menudo significa a través.",
-        "Con una ciudad o un parque, el letón suele decir pa.",
+        "Con una ciudad o un parque, el español suele decir pa.",
         "Por medio o razón, durch puede significar con o a causa de.",
         "durch nav tas pats, kas mit."
       ],
@@ -24807,7 +24804,7 @@ const A2_WORDS = [
         "mit dem Bus": "#FFD21F",
         "wegen": "#FF4D4D",
         "Wegen": "#FF4D4D",
-        "dēļ": "#FF4D4D"
+        "por": "#FF4D4D"
       }
     }
   },
@@ -24898,7 +24895,7 @@ const A2_WORDS = [
             "text": "Cuando eben va acompañado de un tiempo, a menudo significa \"justo ahora\" o \"justo ahora\"."
           },
           {
-            "text": "Si eben suena como una actitud, en letón suele ser \"simplemente\", \"bueno, así es\" o \"pero\"."
+            "text": "Si eben suena como una actitud, en español suele ser \"simplemente\", \"bueno, así es\" o \"pero\"."
           }
         ]
       },
@@ -25586,10 +25583,10 @@ const A2_WORDS = [
       "accents": {
         "ehrlich": "#24A8FF",
         "ehrliche": "#24A8FF",
-        "godīgs": "#B565FF",
-        "atklāts": "#B565FF",
-        "atklāta": "#B565FF",
-        "atklāti": "#B565FF",
+        "honesto": "#B565FF",
+        "franco": "#B565FF",
+        "franca": "#B565FF",
+        "francos": "#B565FF",
         "aufrichtig": "#FFD21F",
         "aufrichtige": "#FFD21F",
         "nett": "#FF4D4D",
@@ -25907,10 +25904,10 @@ const A2_WORDS = [
         "eigentlich": "#24A8FF",
         "Eigentlich": "#24A8FF",
         "eigentliche": "#24A8FF",
-        "patiesībā": "#B565FF",
-        "Patiesībā": "#B565FF",
-        "īstenībā": "#B565FF",
-        "īstais": "#B565FF",
+        "en realidad": "#B565FF",
+        "En realidad": "#B565FF",
+        "realmente": "#B565FF",
+        "verdadero": "#B565FF",
         "echt": "#FF4D4D",
         "wahr": "#FFD21F",
         "wirklich": "#35D46A"
@@ -26737,7 +26734,7 @@ const A2_WORDS = [
       "id": "a2-einschlafen",
       "layout": "standardStudy",
       "translation": "quedarse dormido • entumecido",
-      "explanation": "Idea principal: einschlafen significa quedarse dormido; para un brazo o una pierna significa entumecerse. En el caso de un humano, normalmente significa que alguien se queda dormido. Con una parte del cuerpo, einschlafen significa que se adormece. En letón, \"dormir\" es sinónimo, pero el significado principal de A2 es \"quedarse dormido\". El contexto te dice si es sueño u hormigueo.",
+      "explanation": "Idea principal: einschlafen significa quedarse dormido; para un brazo o una pierna significa entumecerse. En el caso de un humano, normalmente significa que alguien se queda dormido. Con una parte del cuerpo, einschlafen significa que se adormece. En español, \"dormir\" es sinónimo, pero el significado principal de A2 es \"quedarse dormido\". El contexto te dice si es sueño u hormigueo.",
       "examples": [
         {
           "de": "Ich schlafe schnell ein.",
@@ -28279,7 +28276,7 @@ const A2_WORDS = [
         "sich erinnern se utiliza cuando una persona recuerda algo por sí misma.",
         "La forma sich erinnern suele necesitar un pronombre reflexivo: ich erinnere mich, du erinnerst dich.",
         "Por tanto, en el nivel A2 es importante no confundir erinnern con sich erinnern.",
-        "En letón ambas palabras son similares, pero en alemán el significado cambia con sich."
+        "En español ambas palabras son similares, pero en alemán el significado cambia con sich."
       ],
       "examples": [
         {
@@ -30143,7 +30140,7 @@ const A2_WORDS = [
       "id": "a2-fehlen",
       "layout": "standardStudy",
       "translation": "desaparecido",
-      "explanation": "Idea principal: fehlen significa faltar, faltar o estar ausente. Si falta un artículo o dinero, fehlen se traduce como falta o falta. Si una persona está ausente de la escuela o del trabajo, fehlen significa estar ausente. En la construcción mir fehlt etwas, el letón suele decir \"Me falta algo\". No es lo mismo que brauchen, porque brauchen significa necesitar.",
+      "explanation": "Idea principal: fehlen significa faltar, faltar o estar ausente. Si falta un artículo o dinero, fehlen se traduce como falta o falta. Si una persona está ausente de la escuela o del trabajo, fehlen significa estar ausente. En la construcción mir fehlt etwas, el español suele decir \"Me falta algo\". No es lo mismo que brauchen, porque brauchen significa necesitar.",
       "examples": [
         {
           "de": "Mir fehlt Geld.",
@@ -30193,7 +30190,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Si dices \"Me falta\" en letón, el alemán suele utilizar mir fehlt.",
+        "Si dices \"Me falta\" en español, el alemán suele utilizar mir fehlt.",
         "Si el pensamiento es \"Necesito\", entonces se usa más a menudo brauchen que fehlen."
       ],
       "important": [
@@ -32477,7 +32474,7 @@ const A2_WORDS = [
         "Cuando se trata de movimiento humano, Gang significa marcha.",
         "En un restaurante o en un menú, Gang puede significar un plato de comida.",
         "En un contexto técnico, Gang puede significar equipo, pero ese no es el uso principal de A2.",
-        "\"Mover\" en letón no suele ser la mejor primera traducción para esta tarjeta."
+        "\"Mover\" en español no suele ser la mejor primera traducción para esta tarjeta."
       ],
       "examples": [
         {
@@ -33461,7 +33458,7 @@ const A2_WORDS = [
       "id": "a2-genau",
       "layout": "standardStudy",
       "translation": "exacto • exactamente • precisamente",
-      "explanation": "Idea principal: genau significa preciso o directo, según describa una cosa, un número, un lugar o una acción. Como adjetivo, significa preciso. Como adverbio, a menudo significa directa o precisamente. En una conversación, genau puede significar \"así como así\". No es lo mismo que gerade o eben, aunque a veces el letón se traduce de manera similar.",
+      "explanation": "Idea principal: genau significa preciso o directo, según describa una cosa, un número, un lugar o una acción. Como adjetivo, significa preciso. Como adverbio, a menudo significa directa o precisamente. En una conversación, genau puede significar \"así como así\". No es lo mismo que gerade o eben, aunque a veces el español se traduce de manera similar.",
       "examples": [
         {
           "de": "Die Uhr ist sehr genau.",
@@ -34440,7 +34437,7 @@ const A2_WORDS = [
         "Con un premio, dinero o lotería, gewinnen significa ganar.",
         "Con experiencia, tiempo o confianza, gewinnen puede significar ganar.",
         "gewinnen no es lo mismo que bekommen, porque bekommen significa recibir.",
-        "En letón hay que fijarse en qué es exactamente gewonnen: juego, dinero, experiencia o confianza humana."
+        "En español hay que fijarse en qué es exactamente gewonnen: juego, dinero, experiencia o confianza humana."
       ],
       "examples": [
         {
@@ -34805,7 +34802,7 @@ const A2_WORDS = [
         "Con agua, té u otro líquido, gießen puede significar verter.",
         "Si llueve mucho, en alemán se puede decir Es gießt, pero es más coloquial.",
         "gießen no es lo mismo que regnen, porque regnen es una palabra común para lluvia.",
-        "En letón hay que mirar el objeto: se riegan las flores, se vierte agua."
+        "En español hay que mirar el objeto: se riegan las flores, se vierte agua."
       ],
       "examples": [
         {
@@ -35823,7 +35820,7 @@ const A2_WORDS = [
       "translation": "colgar • ordenar",
       "explanation": [
         "Idea principal: hängen significa colgar o colgar algo en una pared, puerta u otro lugar.",
-        "Si el objeto en sí está colgado en la pared o colgado de un gancho, en letón se suele decir que está colgado.",
+        "Si el objeto en sí está colgado en la pared o colgado de un gancho, en español se suele decir que está colgado.",
         "Si una persona pone algo en una pared, en un gancho o en un armario, hängen significa colgar o colgar.",
         "En alemán, una sola forma puede describir tanto un estado como una acción.",
         "El contexto muestra si el cuadro está colgado en la pared o si alguien lo está colgando allí."
@@ -36953,7 +36950,7 @@ const A2_WORDS = [
       "translation": "haciendo",
       "explanation": [
         "Idea principal: Indem explica la forma en que se hace algo.",
-        "En letón, a menudo se traduce como hacer algo.",
+        "En español, a menudo se traduce como hacer algo.",
         "indem no es una palabra común que signifique mientras.",
         "Si el pensamiento es una acción simultánea, se utiliza más a menudo während.",
         "En el nivel A2, lo más importante es entender el patrón: la acción principal + cómo sucede."
@@ -36999,9 +36996,9 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Si puedes decir \"...haciendo algo\" en letón, indem se usa a menudo en alemán.",
+        "Si puedes decir \"...haciendo algo\" en español, indem se usa a menudo en alemán.",
         "Si quieres preguntar ¿de qué manera?, busca la construcción con indem.",
-        "Si en letón la idea es while, comprueba si no necesitas während en alemán."
+        "Si en español la idea es while, comprueba si no necesitas während en alemán."
       ],
       "important": [
         "indem no suele decir simplemente mientras.",
@@ -51785,7 +51782,7 @@ const A2_WORDS = [
       "id": "a2-schuld",
       "layout": "standardStudy",
       "translation": "culpa • deuda • responsabilidad",
-      "explanation": "die Schuld suele significar culpa o responsabilidad por lo sucedido. La frase Schuld haben significa ser culpable. jemandem die Schuld geben significa culpar a alguien. En plural, Schulden significa deudas. Por tanto, es necesario distinguir específicamente entre Schuld y Schulden. En letón, \"culpa\" y \"deuda\" tienen significados muy diferentes.",
+      "explanation": "die Schuld suele significar culpa o responsabilidad por lo sucedido. La frase Schuld haben significa ser culpable. jemandem die Schuld geben significa culpar a alguien. En plural, Schulden significa deudas. Por tanto, es necesario distinguir específicamente entre Schuld y Schulden. En español, \"culpa\" y \"deuda\" tienen significados muy diferentes.",
       "examples": [
         {
           "de": "Das ist nicht meine Schuld.",
@@ -53627,7 +53624,7 @@ const A2_WORDS = [
       "id": "a2-sobald",
       "layout": "standardStudy",
       "translation": "tan pronto como • tan pronto como",
-      "explanation": "tan pronto como o tan pronto como. Introduce una cláusula auxiliar y en alemán el verbo en esta cláusula auxiliar suele ir al final. tan pronto como muestra que una acción ocurre inmediatamente después de otra. No es lo mismo que wenn, porque wenn puede significar 'cuando' o 'si'. El letón a menudo suena naturalmente como \"tan pronto como\".",
+      "explanation": "tan pronto como o tan pronto como. Introduce una cláusula auxiliar y en alemán el verbo en esta cláusula auxiliar suele ir al final. tan pronto como muestra que una acción ocurre inmediatamente después de otra. No es lo mismo que wenn, porque wenn puede significar 'cuando' o 'si'. El español a menudo suena naturalmente como \"tan pronto como\".",
       "examples": [
         {
           "de": "Sobald ich Zeit habe, rufe ich dich an.",
@@ -62267,7 +62264,7 @@ const A2_WORDS = [
             "text": "Cuando vorstellen está con sich y persona, a menudo significa estar delante de."
           },
           {
-            "text": "Si hay sich etwas vorstellen, en letón casi siempre será \"imaginar\"."
+            "text": "Si hay sich etwas vorstellen, en español casi siempre será \"imaginar\"."
           }
         ]
       },
