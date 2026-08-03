@@ -4452,7 +4452,7 @@ const B1_WORDS = [
       "explanation": "Main idea: aufführen means to put on a show or list something. The meaning is determined by the situation: theatre or list.",
       "examples": [
         {
-          "de": "Das theatre führt ein neues Stück auf.",
+          "de": "Das Theater führt ein neues Stück auf.",
           "lv": "The theatre is performing a new play."
         },
         {
@@ -4468,7 +4468,7 @@ const B1_WORDS = [
         {
           "word": "aufführen",
           "meaning": "To show / indicate",
-          "example": "Das theatre führt ein Stück auf. = The theatre performs a play."
+          "example": "Das Theater führt ein Stück auf. = The theatre performs a play."
         },
         {
           "word": "vorführen",
@@ -4496,7 +4496,7 @@ const B1_WORDS = [
           {
             "de": {
               "blue": [
-                "theatre",
+                "Theater",
                 "führt",
                 "Stück",
                 "auf"
@@ -16796,7 +16796,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Atceries konstrukciju: Einfluss auf + ko?."
+            "text": "Remember the construction: Einfluss auf + what?."
           }
         ]
       },
@@ -16903,7 +16903,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kurp?"
+                  "where to?"
                 ]
               }
             }
@@ -17896,7 +17896,7 @@ const B1_WORDS = [
           "lv": "The next study unit starts tomorrow."
         },
         {
-          "de": "metre ist eine Einheit für Länge.",
+          "de": "Meter ist eine Einheit für Länge.",
           "lv": "metre is a unit of length."
         },
         {
@@ -17954,7 +17954,7 @@ const B1_WORDS = [
                 "Einheit"
               ],
               "yellow": [
-                "metre",
+                "Meter",
                 "Länge"
               ]
             },
@@ -18058,7 +18058,7 @@ const B1_WORDS = [
       "explanation": "Main idea: die Längeneinheit means unit of length. It is used when talking about meters, centimeters, kilometers and other units of length.",
       "examples": [
         {
-          "de": "metre ist eine Längeneinheit.",
+          "de": "Meter ist eine Längeneinheit.",
           "lv": "metre is a unit of length."
         },
         {
@@ -18074,7 +18074,7 @@ const B1_WORDS = [
         {
           "word": "die Längeneinheit",
           "meaning": "Unit of length",
-          "example": "metre ist eine Längeneinheit. = A metre is a unit of length."
+          "example": "Meter ist eine Längeneinheit. = A metre is a unit of length."
         },
         {
           "word": "die Gewichtseinheit",
@@ -18105,7 +18105,7 @@ const B1_WORDS = [
                 "Längeneinheit"
               ],
               "yellow": [
-                "metre"
+                "Meter"
               ]
             },
             "lv": {
@@ -25263,7 +25263,7 @@ const B1_WORDS = [
   {
     "de": "Geiz",
     "de_article": "der",
-    "de_plural": "die Geise",
+    "de_plural": "die Geize",
     "lv": "Stinginess",
     "level": "B1"
   },
@@ -27116,7 +27116,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "loga",
+                  "window",
                   "the door",
                   "the cage"
                 ]
@@ -36778,7 +36778,7 @@ const B1_WORDS = [
           "lv": "Please check the contents of the bag."
         },
         {
-          "de": "Die Flasche hat einen Inhalt von einem litre.",
+          "de": "Die Flasche hat einen Inhalt von einem Liter.",
           "lv": "The volume of the bottle is one litre."
         }
       ],

@@ -3348,7 +3348,7 @@ const A2_WORDS = [
         {
           "word": "anheizen",
           "meaning": "Kindle / kindle",
-          "example": "Ich heise den Ofen an. = I light the oven."
+          "example": "Ich heize den Ofen an. = I light the oven."
         },
         {
           "word": "heizen",
@@ -8238,7 +8238,7 @@ const A2_WORDS = [
         {
           "word": "spielen",
           "meaning": "Play / perform a role",
-          "example": "Sie spielt im theatre. = She plays in the theatre."
+          "example": "Sie spielt im Theater. = She plays in the theatre."
         },
         {
           "word": "sich verhalten",
@@ -18921,7 +18921,7 @@ const A2_WORDS = [
                   "dafür"
                 ],
                 "yellow": [
-                  "pretstats",
+                  "contrast",
                   "in a sentence",
                   "toties",
                   "often",
@@ -23972,7 +23972,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "With buttons and screens, drücken is often pressed.",
-        "Atceries umlautu: drücken ar ü nav tas pats, kas drucken bez ü."
+        "Remember the umlaut: drücken with ü is not the same as drucken without ü."
       ],
       "important": [
         "drücken = spiest.",
@@ -24126,7 +24126,7 @@ const A2_WORDS = [
                 "drucken"
               ],
               "green": [
-                "umlautu",
+                "umlaut",
                 "ü"
               ]
             }
@@ -33488,7 +33488,7 @@ const A2_WORDS = [
         {
           "word": "exakt",
           "meaning": "Precise / exact",
-          "example": "Das ist exakt ein metre. = It is exactly one metre."
+          "example": "Das ist exakt ein Meter. = It is exactly one metre."
         },
         {
           "word": "gerade",
@@ -58023,7 +58023,7 @@ const A2_WORDS = [
   {
     "de": "Theater",
     "de_article": "das",
-    "de_plural": "die theatre",
+    "de_plural": "die Theater",
     "lv": "theatre",
     "level": "A2"
   },
@@ -61667,7 +61667,7 @@ const A2_WORDS = [
           "lv": "Still have a quarter of a pizza."
         },
         {
-          "de": "Ich brauche ein Viertel litre Milch.",
+          "de": "Ich brauche ein Viertel Liter Milch.",
           "lv": "I need a quarter litre of milk."
         },
         {
@@ -61747,7 +61747,7 @@ const A2_WORDS = [
             "de": {
               "blue": [
                 "Viertel",
-                "litre",
+                "Liter",
                 "Milch"
               ]
             },
