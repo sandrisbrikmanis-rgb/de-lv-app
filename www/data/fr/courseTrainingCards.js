@@ -2,422 +2,422 @@
 
 window.lesson1TrainingCardsFr = [
   {
-    "front": "Ar tu ateini?",
+    "front": "Tu viens",
     "back": "Kommst du?"
   },
   {
-    "front": "Taip, aš ateinu.",
+    "front": "Oui, j'arrive.",
     "back": "Ja, ich komme."
   },
   {
-    "front": "Kas dainuoja?",
+    "front": "Qui chante ?",
     "back": "Wer singt?"
   },
   {
-    "front": "Marta dainuoja.",
-    "back": "Marta singt."
+    "front": "Martha chante.",
+    "back": "Martha singt."
   },
   {
-    "front": "Ar jie eina?",
+    "front": "Est-ce qu'ils y vont ?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Taip, jie eina.",
+    "front": "Oui, ils y vont.",
     "back": "Ja, sie gehen."
   },
   {
-    "front": "Ar jis stovi?",
+    "front": "Est-il debout ?",
     "back": "Steht er?"
   },
   {
-    "front": "Taip, jis stovi.",
+    "front": "Oui, il est debout.",
     "back": "Ja, er steht."
   },
   {
-    "front": "Mes einame.",
+    "front": "Nous y allons.",
     "back": "Wir gehen."
   },
   {
-    "front": "Ar jūs einate?",
+    "front": "Y allez-vous",
     "back": "Geht ihr?"
   },
   {
-    "front": "De Mars van Alberta komt eraan.",
-    "back": "Albert und Marta kommen und gehen."
+    "front": "Albert et Martha vont et viennent.",
+    "back": "Albert und Martha kommen und gehen."
   }
 ];
 
 window.lesson2TrainingCardsFr = [
   {
-    "front": "Kas klausia?",
+    "front": "Qui demande ?",
     "back": "Wer fragt?"
   },
   {
-    "front": "Paulas klausia.",
+    "front": "Demande Paul.",
     "back": "Paul fragt."
   },
   {
-    "front": "Jie klausia.",
+    "front": "Ils demandent.",
     "back": "Sie fragen."
   },
   {
-    "front": "Ar Paulas atsako?",
+    "front": "Répondre Paul?",
     "back": "Antwortet Paul?"
   },
   {
-    "front": "Ne, jis neatsako, jis klausia.",
+    "front": "Non, il ne répond pas, il demande.",
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Ar Paulas ir Marija dainuoja?",
+    "front": "Est-ce que Paul et Maria chantent ?",
     "back": "Singen Paul und Marie?"
   },
   {
-    "front": "Ne, jie nedainuoja, jie skaičiuoja.",
+    "front": "Non, ils ne chantent pas, ils comptent.",
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Ką tu darai?",
+    "front": "Was tust du ?",
     "back": "Was tust du?"
   },
   {
-    "front": "Aš stoviu ir dainuoju.",
+    "front": "Je me lève et je chante.",
     "back": "Ich stehe und singe."
   },
   {
-    "front": "Ar jūs piešiate?",
+    "front": "Est-ce que tu dessines",
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Taip, mes piešiame, bet Marija žaidžia.",
+    "front": "Oui, nous dessinons, mais Maria joue.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "Ką jūs darote?",
+    "front": "Que fais-tu",
     "back": "Was tut ihr?"
   },
   {
-    "front": "Mes ateiname ir atsakome.",
+    "front": "Nous venons répondre.",
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Kas eina?",
+    "front": "Qui part ?",
     "back": "Wer geht?"
   },
   {
-    "front": "Mes einame.",
+    "front": "Nous y allons.",
     "back": "Wir gehen."
   }
 ];
 
 window.lesson3TrainingCardsFr = [
   {
-    "front": "Ar tu skaičiuoji?",
+    "front": "Comptez-vous",
     "back": "Rechnest du?"
   },
   {
-    "front": "Ne, aš nesiskaičiuoju, aš piešiu.",
+    "front": "Non, je ne compte pas, je dessine.",
     "back": "Nein, ich rechne nicht, ich zeichne."
   },
   {
-    "front": "Kas ten stovi?",
+    "front": "Qui est là ?",
     "back": "Was steht dort?"
   },
   {
-    "front": "Ten stovi stalas.",
+    "front": "Il y a un tableau.",
     "back": "Dort steht ein Tisch."
   },
   {
-    "front": "Kas čia guli?",
+    "front": "Qui est ici ?",
     "back": "Was liegt hier?"
   },
   {
-    "front": "Čia guli knyga.",
+    "front": "Voici le livre.",
     "back": "Hier liegt ein Buch."
   },
   {
-    "front": "Ar knyga plona?",
+    "front": "Le livre est-il fin ?",
     "back": "Ist das Buch dünn?"
   },
   {
-    "front": "Ne, knyga stora.",
+    "front": "Non, le livre est épais.",
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "Welke plonsen?",
+    "front": "Quel est le plan ?",
     "back": "Was ist dünn?"
   },
   {
-    "front": "Sąsiuvinis plonas.",
+    "front": "La boîte aux lettres est fine.",
     "back": "Das Heft ist dünn."
   },
   {
-    "front": "Koks suolas?",
+    "front": "Comment est le banc ?",
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Suolas žemas.",
+    "front": "Le banc est bas.",
     "back": "Die Bank ist niedrig."
   },
   {
-    "front": "Koks stalas?",
+    "front": "Comment est le tableau ?",
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Stalas aukštas.",
+    "front": "La table est haute.",
     "back": "Der Tisch ist hoch."
   },
   {
-    "front": "Ar ten yra sąsiuvinis?",
+    "front": "Y a-t-il/y a-t-il un cahier ?",
     "back": "Liegt dort ein Heft?"
   },
   {
-    "front": "Taip, ten guli sąsiuvinis.",
+    "front": "Oui, il y a un cahier.",
     "back": "Ja, dort liegt ein Heft."
   },
   {
-    "front": "Ar Paulas ateina?",
+    "front": "Est-ce que Paul vient ?",
     "back": "Kommt Paul?"
   },
   {
-    "front": "Ne, Paulas neateina, jis stovi.",
+    "front": "Non, Paul ne vient pas, il est debout.",
     "back": "Nein, Paul kommt nicht, er steht."
   },
   {
-    "front": "Kas čia kabo?",
+    "front": "Qu'est-ce qui traîne ici ?",
     "back": "Was hängt hier?"
   },
   {
-    "front": "Čia kabo paveikslas.",
+    "front": "Il y a une photo accrochée ici.",
     "back": "Hier hängt ein Bild."
   },
   {
-    "front": "Kas ten kabo?",
+    "front": "Qu'est-ce qui traîne là ?",
     "back": "Was hängt dort?"
   },
   {
-    "front": "Ten kabo lenta.",
+    "front": "Il y a un tableau noir accroché là.",
     "back": "Dort hängt eine Tafel."
   }
 ];
 
 window.lesson4TrainingCardsFr = [
   {
-    "front": "Mergaitė ima plunksnakot.",
+    "front": "La fille prend une tige de plume.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Plunksnakotis ne baltas, jis juodas.",
+    "front": "La plume n'est pas blanche, elle est noire.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
-    "front": "Paulas heeft een veer.",
+    "front": "Paul prend la plume.",
     "back": "Paul nimmt eine Feder."
   },
   {
-    "front": "Kokia plunksna?",
+    "front": "Qu'est-ce qu'une plume ?",
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Ar plunksna smaili?",
+    "front": "La plume est-elle pointue ?",
     "back": "Ist die Feder spitz?"
   },
   {
-    "front": "Ar jis ima peilį?",
+    "front": "Est-ce qu'il prend un couteau ?",
     "back": "Nimmt er ein Messer?"
   },
   {
-    "front": "Ne, jis ima plunksną.",
+    "front": "Non, il prend une plume.",
     "back": "Nein, er nimmt eine Feder."
   },
   {
-    "front": "Jis padeda plunksną.",
+    "front": "Il dépose la plume.",
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Ar peilis bukas?",
+    "front": "Ist das Messer stumpf ?",
     "back": "Ist das Messer stumpf?"
   },
   {
-    "front": "Ne, jis aštrus.",
+    "front": "Non, c'est pointu.",
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Ką daro mergaitė?",
+    "front": "Que fait la jeune fille ?",
     "back": "Was tut das Mädchen?"
   },
   {
-    "front": "Ji išeina ir dirba.",
+    "front": "Elle sort et travaille.",
     "back": "Es geht hinaus und arbeitet."
   },
   {
-    "front": "Ką rodo Olga?",
+    "front": "Que montre Olga ?",
     "back": "Was zeigt Olga?"
   },
   {
-    "front": "Olga rodo knygą.",
+    "front": "Olga montre le livre.",
     "back": "Olga zeigt ein Buch."
   },
   {
-    "front": "Kokia knyga?",
+    "front": "Quel est le livre",
     "back": "Wie ist das Buch?"
   },
   {
-    "front": "Knyga maža.",
+    "front": "Le livre est petit.",
     "back": "Das Buch ist klein."
   }
 ];
 
 window.lesson5TrainingCardsFr = [
   {
-    "front": "Ką myli tėvas?",
+    "front": "Qu'est-ce que papa aime ?",
     "back": "Wen liebt der Vater?"
   },
   {
-    "front": "Ką giria mokytoja?",
+    "front": "Que loue le professeur ?",
     "back": "Wen lobt die Lehrerin?"
   },
   {
-    "front": "Ką tu imi?",
+    "front": "Que prends-tu",
     "back": "Was nimmst du?"
   },
   {
-    "front": "Ką tu klausi?",
+    "front": "À qui demandez-vous ?",
     "back": "Wen fragst du?"
   },
   {
-    "front": "Ką bara mokytojas?",
+    "front": "Que gagne un enseignant ?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
-    "front": "Mokytojas klausia mokinio.",
+    "front": "Le professeur demande à l'élève.",
     "back": "Der Lehrer fragt den Schüler."
   },
   {
-    "front": "Kaip mokinys atsako?",
+    "front": "Comment l’élève répond-il ?",
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Mokinys atsako blogai.",
+    "front": "L'élève répond mal.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Ar mokinė atsako blogai?",
+    "front": "L'élève répond-elle mal ?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
-    "front": "Ne, mokinė neatsako blogai, ji atsako gerai.",
+    "front": "Non, l'élève ne répond pas mal, elle répond bien.",
     "back": "Nein, die Schülerin antwortet nicht schlecht, sie antwortet gut."
   },
   {
-    "front": "Mergaitė ima plunksnakotį, plunksną ir peilį.",
+    "front": "La jeune fille prend une plume, une plume et un couteau.",
     "back": "Das Mädchen nimmt den Federhalter, die Feder und das Messer."
   },
   {
-    "front": "Ji padeda peilį ir plunksnakotį.",
+    "front": "Elle pose le couteau et la plume.",
     "back": "Sie legt das Messer und den Federhalter hin."
   },
   {
-    "front": "Mergaitė išeina ir dirba.",
+    "front": "La fille sort et travaille.",
     "back": "Das Mädchen geht hinaus und arbeitet."
   },
   {
-    "front": "Koks vaikas?",
+    "front": "Comment est l'enfant ?",
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "Vaikas mandagus.",
+    "front": "L'enfant est bavard.",
     "back": "Das Kind ist artig."
   },
   {
-    "front": "Tėvas ir motina myli vaiką.",
+    "front": "Le père et la mère aiment l'enfant.",
     "back": "Der Vater und die Mutter lieben das Kind."
   }
 ];
 
 window.lesson6TrainingCardsFr = [
   {
-    "front": "Paulas ima pieštuką ir piešia.",
+    "front": "Paul prend un crayon et dessine.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
-    "front": "Ką jis piešia?",
+    "front": "Que dessine-t-il ?",
     "back": "Was zeichnet er?"
   },
   {
-    "front": "Jis piešia kibirą.",
+    "front": "Il dessine un seau.",
     "back": "Er zeichnet einen Eimer."
   },
   {
-    "front": "Kas piešia vežimą?",
+    "front": "Qui tire la charrette ?",
     "back": "Wer zeichnet einen Wagen?"
   },
   {
-    "front": "Mergaitė piešia roges.",
+    "front": "La jeune fille dessine un traîneau.",
     "back": "Das Mädchen zeichnet einen Schlitten."
   },
   {
-    "front": "Kiek adatų čia?",
+    "front": "Combien y a-t-il d'aiguilles ?",
     "back": "Wieviel Nadeln sind hier?"
   },
   {
-    "front": "Čia yra šešios adatos.",
+    "front": "Il y a six aiguilles ici.",
     "back": "Hier sind sechs Nadeln."
   },
   {
-    "front": "Hoeveel borden?",
+    "front": "Combien d'assiettes ?",
     "back": "Wieviel Teller?"
   },
   {
-    "front": "Aš imu tris adatas.",
+    "front": "Je prends trois aiguilles.",
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Aš padedu dvi adatas.",
+    "front": "Je pose deux aiguilles.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
-    "front": "Kas skaičiuoja peilius ir lėkštes?",
+    "front": "Qui compte les couteaux et les assiettes ?",
     "back": "Wer zählt die Messer und die Teller?"
   },
   {
-    "front": "Tai dangtis.",
+    "front": "C'est une couverture.",
     "back": "Das ist ein Deckel."
   },
   {
-    "front": "Tai dangčiai.",
+    "front": "Ce sont les couvertures.",
     "back": "Das sind Deckel."
   },
   {
-    "front": "Tai plunksna.",
+    "front": "C'est une plume.",
     "back": "Das ist eine Feder."
   },
   {
-    "front": "Tai plunksnos.",
+    "front": "Ce sont des plumes.",
     "back": "Das sind Federn."
   },
   {
-    "front": "Ką daro mokytojas?",
+    "front": "Que fait le professeur ?",
     "back": "Was tut der Lehrer?"
   },
   {
-    "front": "Mokytojas ima peilį ir drožia pieštuką.",
+    "front": "Le professeur prend un couteau et taille un crayon.",
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Kas tai yra?",
+    "front": "Qu'est-ce que c'est ?",
     "back": "Was ist das?"
   },
   {
-    "front": "Tai plunksnakotis.",
+    "front": "Il est à plumes.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Koks plunksnakotis?",
+    "front": "Qu'est-ce qui est à plumes ?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Plunksnakotis juodas.",
+    "front": "La plume est noire.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
