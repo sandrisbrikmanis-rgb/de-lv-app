@@ -48,7 +48,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "DAHA ÇOK İYİ."
+          "lv": "Ech schwätze Däitsch."
         },
         {
           "de": "Wir sprechen über die Arbeit.",
@@ -56,7 +56,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "DAHA ÇOK İYİ."
+          "lv": "Ech schwätze Däitsch."
         }
       ],
       "comparison": [
@@ -100,7 +100,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "DAHA"
+                "schwätze"
               ]
             }
           },
@@ -121,7 +121,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "DAHA"
+                "schwätze"
               ]
             }
           }
@@ -162,11 +162,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Istaba ir Maza."
+          "lv": "D'Zëmmer ass kleng."
         },
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Istaba ir Maza."
+          "lv": "D'Zëmmer ass kleng."
         },
         {
           "de": "Das Kind ist noch klein.",
@@ -212,7 +212,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maza"
+                "kleng"
               ]
             }
           },
@@ -225,7 +225,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maza"
+                "kleng"
               ]
             }
           },
@@ -18237,7 +18237,7 @@ const A1_WORDS = [
         {
           "word": "sprechen",
           "meaning": "Runāt (valodu, sarunāties)",
-          "example": "Ich spreche Deutsch. – DAHA ÇOK İYİ."
+          "example": "Ich spreche Deutsch. – Ech schwätze Däitsch."
         }
       ],
       "tip": [
