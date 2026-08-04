@@ -287,8 +287,8 @@
       nativeCode: "LB",
       active: true,
       uiAvailable: true,
-      dataStatus: "complete",
-      hasStudyData: true,
+      dataStatus: "fallback",
+      hasStudyData: false,
       uiPath: "./languages/lb/ui.js",
       dataManifestPath: "./languages/lb/data/manifest.js"
     },

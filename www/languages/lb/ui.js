@@ -370,9 +370,9 @@ window.LANGUAGE_UI_STRINGS = {
   "spelling": {
     "writeNative": "Schreift op Lëtzebuergesch",
     "writeGerman": "Schreift op Däitsch",
-    "correct": "Pareizi!",
-    "incorrect": "Nepareizi",
-    "expectedLabel": "Pareizi:",
+    "correct": "Richteg!",
+    "incorrect": "Falsch",
+    "expectedLabel": "Richteg:",
     "noVerbTask": "Šim darbības vārdam nav pareizrakstības uzdevuma.",
     "writeAnswer": "Ieraksti atbildi",
     "missingChar": "trūkst: {char}"
