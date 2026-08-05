@@ -5683,17 +5683,23 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "vispirms • tikai",
+    "lv": "tikai",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "vispirms • tikai",
-      "explanation": "“erst” lieto, lai norādītu secību (vispirms) vai uzsvērtu, ka kaut kas notiek vēlāk, nekā gaidīts, vai mazākā apjomā (tikai).",
+      "translation": "tikai",
+      "explanation": [
+        "Galvenā doma: erst visbiežāk nozīmē tikai. Taču noteiktā kontekstā tas var nozīmēt arī vispirms.",
+        "erst bieži norāda, ka kaut kas notiek vēlāk, nekā gaidīts.",
+        "Ich bin erst 18. — Man ir tikai 18 gadi.",
+        "Es ist erst Montag. — Ir tikai pirmdiena.",
+        "Erst lernen, dann spielen. — Vispirms mācies, pēc tam spēlējies."
+      ],
       "examples": [
         {
-          "de": "Erst trinken, dann fahren.",
-          "lv": "vispirms dzert, tad braukt."
+          "de": "Erst lernen, dann spielen.",
+          "lv": "Vispirms mācies, pēc tam spēlējies."
         },
         {
           "de": "Ich komme erst morgen.",
@@ -5712,7 +5718,7 @@ const A1_WORDS = [
         {
           "word": "erst",
           "meaning": "vispirms • tikai",
-          "example": "Erst arbeiten, dann Pause. = Vispirms strādāt, tad pauze."
+          "example": "Erst lernen, dann spielen. – Vispirms mācies, pēc tam spēlējies."
         },
         {
           "word": "zuerst",
@@ -5876,8 +5882,9 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "erst un nur abi var skanēt kā “tikai”, bet nav viens un tas pats.",
-        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu."
+        "erst un zuerst nav pilnīgi sinonīmi.",
+        "erst bieži nozīmē: tikai.",
+        "zuerst biežāk nozīmē: vispirms."
       ]
     }
   },
@@ -5888,37 +5895,44 @@ const A1_WORDS = [
   },
   {
     "de": "es",
-    "lv": "tas • tā • bezpersoniska forma",
+    "lv": "tas",
     "level": "A1",
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "tas • tā • bezpersoniska forma",
-      "explanation": "Vācu “es” nelieto, lai runātu par sevi. To lieto, lai apzīmētu: tas, tā vai bezpersonisku formu (laikapstākļi, laiks, dažādi bezpersoniski teikumi).",
+      "translation": "tas",
+      "explanation": [
+        "Galvenā doma: es ir vietniekvārds.",
+        "To lieto: tas, bezpersoniskās konstrukcijās."
+      ],
       "examples": [
         {
-          "de": "Ich lerne Deutsch.",
-          "lv": "es mācos vācu valodu."
-        },
-        {
-          "de": "Er ist müde.",
-          "lv": "viņš ir noguris."
-        },
-        {
-          "de": "Sie arbeitet hier.",
-          "lv": "viņa strādā šeit."
-        },
-        {
-          "de": "Das ist mein Buch.",
-          "lv": "tā ir mana grāmata."
-        },
-        {
           "de": "Es regnet.",
-          "lv": "līst."
+          "lv": "Līst."
         },
         {
-          "de": "Es schneit.",
-          "lv": "snieg."
+          "de": "Es ist kalt.",
+          "lv": "Ir auksts."
+        },
+        {
+          "de": "Das Kind schläft.",
+          "lv": "Bērns guļ."
+        },
+        {
+          "de": "Es ist müde.",
+          "lv": "Tas ir noguris."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "es",
+          "meaning": "tas • bezpersoniska forma",
+          "example": "Es regnet. – Līst."
+        },
+        {
+          "word": "ich",
+          "meaning": "es (persona)",
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
         }
       ],
       "info": [
@@ -6036,8 +6050,9 @@ const A1_WORDS = [
         ]
       },
       "important": [
+        "ich un es nav viens un tas pats.",
         "Vācu es nav latviešu “es”.",
-        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots."
+        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas vai netiek tulkots."
       ]
     }
   },
@@ -6050,18 +6065,16 @@ const A1_WORDS = [
   },
   {
     "de": "etwas",
-    "lv": "kaut kas • nedaudz",
+    "lv": "kaut kas",
     "level": "A1",
     "study": {
       "id": "a1-etwas",
       "layout": "standardStudy",
-      "translation": "kaut kas • nedaudz",
+      "translation": "kaut kas",
       "explanation": [
-        "Galvenā doma: etwas nozīmē kaut kas vai nedaudz atkarībā no konteksta.",
-        "Ja etwas aizstāj nezināmu lietu, latviski parasti saka kaut kas.",
-        "Ja etwas stāv pie īpašības vārda vai daudzuma, tas bieži nozīmē nedaudz.",
-        "Sarunās etwas ir ļoti biežs un neitrāls A1 vārds.",
-        "Svarīgākais ir atšķirt: etwas kaufen = kaut ko nopirkt, etwas müde = nedaudz noguris."
+        "Galvenā doma: etwas galvenokārt nozīmē kaut kas. Pie īpašības vārdiem tas var nozīmēt nedaudz.",
+        "Ich habe etwas gesehen. — Es kaut ko redzēju.",
+        "Das ist etwas teuer. — Tas ir mazliet par dārgu."
       ],
       "examples": [
         {
@@ -6082,7 +6095,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist etwas teuer.",
-          "lv": "tas ir nedaudz dārgi."
+          "lv": "Tas ir mazliet par dārgu."
         }
       ],
       "comparison": [
@@ -6111,6 +6124,7 @@ const A1_WORDS = [
         "text": "Atceries: lieta → kaut kas; pakāpe → nedaudz."
       },
       "important": [
+        "Pie īpašības vārdiem etwas bieži nozīmē nedaudz.",
         "etwas nav tas pats, kas nichts: etwas nozīmē, ka kaut kas ir, bet nichts nozīmē nekas.",
         "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert."
       ],
