@@ -52,11 +52,11 @@ const A1_WORDS = [
         },
         {
           "de": "Wir sprechen über die Arbeit.",
-          "lv": "mēs runājam par darbu."
+          "lv": "Mēs runājam par darbu."
         },
         {
-          "de": "Ich spreche Deutsch.",
-          "lv": "es runāju vāciski."
+          "de": "Sie spricht mit ihrer Lehrerin.",
+          "lv": "Viņa runā ar savu skolotāju."
         }
       ],
       "comparison": [
@@ -107,21 +107,24 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "sprechen",
                 "sprechen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "spreche"
               ]
             },
             "lv": {
               "purple": [
-                "runāju"
+                "runājam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "spricht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runā"
               ]
             }
           }
@@ -152,12 +155,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "mazs",
       "explanation": [
-        "Galvenā doma: Mazs izmērā vai apjomā.",
-        "klein galvenokārt nozīmē: mazs izmērs.",
-        "Bieži raksturo: lietas/personas izmēru.",
-        "klein galvenokārt nozīmē: mazs/jauns.",
-        "Bieži raksturo: bērnu.",
-        "klein raksturo mazu izmēru."
+        "Galvenā doma: klein nozīmē mazs izmērā, apjomā vai vecumā.",
+        "klein var raksturot priekšmetu, telpu, daudzumu vai bērnu.",
+        "Precīzā nozīme ir atkarīga no lietvārda un konteksta."
       ],
       "examples": [
         {
@@ -165,20 +165,12 @@ const A1_WORDS = [
           "lv": "Istaba ir maza."
         },
         {
-          "de": "Das Zimmer ist klein.",
-          "lv": "istaba ir maza."
-        },
-        {
           "de": "Das Kind ist noch klein.",
-          "lv": "bērns vēl ir mazs."
+          "lv": "Bērns vēl ir mazs."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "man ir maza soma."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "bērns ir mazs."
+          "lv": "Man ir maza soma."
         }
       ],
       "tip": [
@@ -186,9 +178,8 @@ const A1_WORDS = [
         "Izmanto klein, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "klein = mazs izmērā.",
-        "klein = mazs.",
-        "Mazs izmērā vai apjomā."
+        "klein visbiežāk nozīmē mazs.",
+        "Runājot par bērnu, klein var norādīt arī uz mazu vecumu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -206,7 +197,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -219,20 +209,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "maza"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -245,26 +221,12 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
-                "klein"
+                "kleine"
               ]
             },
             "lv": {
               "purple": [
                 "maza"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mazs"
               ]
             }
           }
@@ -314,12 +276,12 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "pie • uz • klāt",
+    "lv": "pie",
     "level": "A1",
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "pie • pie virsmas • pie malas",
+      "translation": "pie",
       "explanation": "Lieto, kad kaut kas atrodas pie sienas, loga, durvīm, upes, jūras krasta vai citas malas/virsmas.",
       "examples": [
         {
@@ -1229,12 +1191,12 @@ const A1_WORDS = [
           "lv": "Es arī nāku."
         },
         {
-          "de": "Ich komme auch.",
-          "lv": "es arī nāku."
+          "de": "Sie arbeitet auch hier.",
+          "lv": "Viņa arī strādā šeit."
         },
         {
-          "de": "Sie arbeitet auch hier.",
-          "lv": "viņa arī strādā šeit."
+          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+          "lv": "Es arī novēlu jums jauku dienu."
         }
       ],
       "tip": [
@@ -1242,8 +1204,9 @@ const A1_WORDS = [
         "Izmanto auch, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
-        "auch = arī."
+        "auch ir visbiežākais neitrālais vārds ar nozīmi arī.",
+        "Pareizi: Ich wünsche Ihnen auch einen schönen Tag.",
+        "Nepareizi: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1262,7 +1225,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1275,7 +1237,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1288,7 +1249,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1529,12 +1489,12 @@ const A1_WORDS = [
   },
   {
     "de": "aus",
-    "lv": "no • ārā",
+    "lv": "no",
     "level": "A1",
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "no • ārā",
+      "translation": "no",
       "explanation": "Lieto, kad kaut kas nāk no iekšienes, iznāk ārā vai norāda izcelsmi.",
       "examples": [
         {
@@ -1704,23 +1664,23 @@ const A1_WORDS = [
   },
   {
     "de": "aufs",
-    "lv": "uz • virsū • kurp?",
+    "lv": "uz",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "uz • virsū • kurp?",
+      "translation": "uz",
       "explanation": [
         "aufs ir prievārda auf un artikula das saīsinājums.",
         "Pilnā forma: auf das (kurp?).",
         "Lieto, kad darbība norāda virzienu uz konkrētu lietu vai virsmu — atbild uz jautājumu kurp?",
         "Bieži lieto ar kustību: uzkāpt, apsēsties, nolikt, braukt uz kaut ko.",
-        "Sarunvalodā un ikdienā gandrīz vienmēr lieto aufs, nevis pilno auf das."
+        "Neitrālā ikdienas valodā auf das bieži saīsina par aufs; pilnā forma arī ir gramatiski pareiza."
       ],
       "examples": [
         {
           "de": "Ich gehe aufs Dach.",
-          "lv": "Es eju uz jumtu."
+          "lv": "Es eju uz jumta."
         },
         {
           "de": "Sie setzt sich aufs Sofa.",
@@ -1736,15 +1696,15 @@ const A1_WORDS = [
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "viņš uzkāpj uz zirga."
+          "lv": "Viņš uzlec zirgam mugurā."
         },
         {
           "de": "Leg das Buch aufs Regal.",
-          "lv": "ieliec grāmatu uz plaukta."
+          "lv": "Noliec grāmatu uz plaukta."
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "nāc ātri uz laivas!"
+          "lv": "Kāp ātri laivā!"
         },
         {
           "de": "Wir gehen aufs Fest.",
@@ -1780,7 +1740,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Atceries: auf + das → aufs (kurp?, kurp?).",
-        "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
+        "Ikdienas valodā auf das bieži saīsina par aufs."
       ],
       "important": [
         "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
@@ -1813,7 +1773,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz jumtu"
+                "uz jumta"
               ]
             }
           },
@@ -1861,7 +1821,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz zirga"
+                "uzlec zirgam mugurā"
               ]
             }
           },
@@ -1885,7 +1845,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz laivas"
+                "laivā"
               ]
             }
           },
@@ -2123,7 +2083,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich schwimme jeden Montag.",
-          "lv": "es katru pirmdienu eju peldēt."
+          "lv": "Es peldu katru pirmdienu."
         }
       ],
       "comparison": [
@@ -2152,8 +2112,8 @@ const A1_WORDS = [
         "text": "Atceries: atpūta ūdenī → baden; peldēšanas kustība → schwimmen."
       },
       "important": [
-        "baden un schwimmen nav sinonīmi.",
-        "Latviski bieži saka vienkārši “peldēt”, bet vācu valodā jāizvēlas pēc situācijas."
+        "baden un schwimmen nav pilnīgi sinonīmi.",
+        "baden biežāk uzsver atrašanos vai atpūtu ūdenī, bet schwimmen — peldēšanas kustību."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2227,8 +2187,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "red": [
-                "eju peldēt"
+              "purple": [
+                "peldu"
               ]
             }
           }
@@ -2418,7 +2378,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie arbeitet bei Siemens.",
-          "lv": "viņa strādā Siemens."
+          "lv": "Viņa strādā uzņēmumā Siemens."
         },
         {
           "de": "Bei Regen bleiben wir zu Hause.",
@@ -2448,19 +2408,40 @@ const A1_WORDS = [
       "sectionAccents": {
         "examples": [
           {
-            "blue": [
-              "bei"
-            ]
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pie"
+              ]
+            }
           },
           {
-            "blue": [
-              "bei"
-            ]
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzņēmumā"
+              ]
+            }
           },
           {
-            "blue": [
-              "Bei"
-            ]
+            "de": {
+              "blue": [
+                "Bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laikā"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -2593,8 +2574,192 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "apciemojums",
-    "level": "A1"
+    "lv": "apmeklējums",
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "apmeklējums",
+      "explanation": [
+        "Galvenā doma: der Besuch nozīmē apmeklējumu, vizīti vai apciemojumu.",
+        "Ja runa ir par vietu vai pasākumu, latviski piemērots ir apmeklējums.",
+        "Ja runa ir par cilvēka apmeklēšanu, latviski var teikt apciemojums vai vizīte.",
+        "Daudzskaitlis ir die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Muzeja apmeklējums bija interesants."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Paldies par tavu apciemojumu."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Ārsts dodas vizītē."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "apmeklējums • apciemojums • vizīte",
+          "example": "Danke für deinen Besuch. – Paldies par tavu apciemojumu."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "apmeklētājs",
+          "example": "Der Besucher wartet draußen. – Apmeklētājs gaida ārā."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "apmeklēt • apciemot",
+          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch nav tikai apciemojums; tas var būt arī apmeklējums vai vizīte.",
+        "Daudzskaitlis: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2612,8 +2777,8 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "apmeklēt",
       "explanation": [
-        "Galvenā doma: besuchen nozīmē apmeklēt kādu vietu, pasākumu vai personu.",
-        "Par vietu vai pasākumu latviski parasti saka apmeklēt.",
+        "Galvenā doma: besuchen lieto, apmeklējot vietu, pasākumu vai personu.",
+        "Vietu, pasākumu vai kursu latviski parasti apmeklē.",
         "Ja besuchen attiecas uz cilvēku, latviski bieži dabiskāk ir apciemot.",
         "Vācu valodā besuchen lieto bez prievārda un ar akuzatīvu."
       ],
@@ -2638,18 +2803,18 @@ const A1_WORDS = [
           "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
         },
         {
-          "word": "gehen zu",
-          "meaning": "iet pie kāda vai uz kādu vietu",
-          "example": "Ich gehe zum Arzt. – Es eju pie ārsta."
-        },
-        {
           "word": "treffen",
           "meaning": "satikt",
           "example": "Ich treffe meinen Freund. – Es satieku savu draugu."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "iet pie kāda",
+          "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
         }
       ],
       "tip": {
-        "text": "Atceries: vietu vai pasākumu apmeklē, bet cilvēku bieži apciemo."
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
       },
       "important": [
         "besuchen lieto bez prievārda: Ich besuche meine Freundin.",
@@ -2751,24 +2916,6 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "gehen zu"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "iet pie",
-                "iet uz"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gehe zum Arzt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "treffen"
               ]
             },
@@ -2780,6 +2927,23 @@ const A1_WORDS = [
             "example": {
               "yellow": [
                 "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
               ]
             }
           }
@@ -2837,7 +3001,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich warte bis zu deiner Ankunft.",
-          "lv": "es gaidu līdz tavai ierašanās."
+          "lv": "Es gaidu tavu ierašanos."
         },
         {
           "de": "Bleib hier, bis ich zurückkomme.",
@@ -2855,23 +3019,18 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bis",
-          "meaning": "līdz (laika punkta sasniegšanai)",
-          "example": "Ich bleibe bis 18 Uhr. – Es palikšu līdz 18:00."
+          "meaning": "līdz robežai vai laika punktam",
+          "example": "Ich bleibe bis morgen. – Es palieku līdz rītdienai."
         },
         {
-          "word": "bis ... zu",
-          "meaning": "līdz (līdz noteiktam laikam)",
-          "example": "Ich arbeite von 9 bis 17 Uhr. – Es strādāju no 9 līdz 17."
-        },
-        {
-          "word": "bis dass",
-          "meaning": "līdz tam, kamēr",
-          "example": "Ich warte, bis dass du kommst. – Es gaidu, līdz tu atnāksi."
+          "word": "bis zu",
+          "meaning": "līdz konkrētai robežai",
+          "example": "bis zum Bahnhof – līdz stacijai"
         },
         {
           "word": "bis jetzt",
-          "meaning": "līdz šim, līdz šai dienai",
-          "example": "Bis jetzt ist alles gut. – Līdz šim viss ir labi."
+          "meaning": "līdz šim",
+          "example": "Bis jetzt habe ich nichts verstanden. – Līdz šim es neko neesmu sapratis."
         }
       ],
       "tip": {
@@ -2916,24 +3075,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bis ... zu"
+                "bis zu"
               ]
             },
             "example": {
               "green": [
-                "bis"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bis dass"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "bis dass"
+                "bis zum"
               ]
             }
           },
@@ -2971,22 +3118,13 @@ const A1_WORDS = [
               "robežai",
               "laika punktam"
             ]
-          },
-          {
-            "blue": [
-              "bis jetzt",
-              "bis dass"
-            ],
-            "purple": [
-              "līdz šim",
-              "līdz tam, kamēr"
-            ]
           }
         ]
       },
       "important": [
-        "bis = līdz robežai vai laika punktam.",
-        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr."
+        "bis norāda robežu vai laika punktu.",
+        "bis zu lieto pirms konkrētas robežas: bis zum Bahnhof.",
+        "bis jetzt nozīmē līdz šim."
       ]
     }
   },
@@ -3004,50 +3142,43 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "lūdzu",
       "explanation": [
-        "Galvenā doma: Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu.",
-        "bitte galvenokārt nozīmē: pieklājība.",
-        "Bieži raksturo: pieklājības vārds.",
-        "bitte galvenokārt nozīmē: lūgums/pieprasījums.",
-        "Bieži raksturo: lietvārds (die).",
-        "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums).",
-        "Daudzskaitlī: die Bitten."
+        "Galvenā doma: bitte ar mazo sākumburtu ir pieklājības vārds ar nozīmi lūdzu.",
+        "To lieto lūgumos, pasūtījumos un pieklājīgās atbildēs.",
+        "Lietvārds die Bitte ar lielo sākumburtu nozīmē lūgums."
       ],
       "examples": [
         {
+          "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "Vienu tasi kafijas, lūdzu."
+        },
+        {
+          "de": "Komm bitte herein.",
+          "lv": "Lūdzu, nāc iekšā."
+        },
+        {
           "de": "Bitte schön!",
           "lv": "Lūdzu!"
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "lūdzu!"
-        },
-        {
-          "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "vienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "man ir viens lūgums."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "lūgums ir svarīgs."
         }
       ],
-      "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu."
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        }
       ],
+      "tip": {
+        "text": "Atceries: bitte ar mazo burtu nozīmē lūdzu; die Bitte ar lielo burtu nozīmē lūgums."
+      },
       "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "bitte ir pieklājības vārds.",
+        "die Bitte ir lietvārds ar artikulu die.",
+        "Nepareizi: Die Bitte schön! Pareizi: Bitte schön!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -3056,13 +3187,15 @@ const A1_WORDS = [
           ],
           "purple": [
             "lūdzu"
+          ],
+          "green": [
+            "die Bitte"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bitte",
                 "bitte"
               ]
             },
@@ -3075,72 +3208,83 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
                 "bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūdzu"
+                "Lūdzu"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bitte",
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūdzu"
+                "Lūdzu"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "lūdzu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {}
           }
         ],
-        "tip": [
+        "comparison": [
           {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lūdzu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "bitte"
+            ],
             "purple": [
               "lūdzu"
+            ],
+            "green": [
+              "die Bitte",
+              "lūgums"
             ]
           }
-        ],
+        },
         "important": [
           {
             "blue": [
               "bitte"
+            ],
+            "purple": [
+              "pieklājības vārds"
+            ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
             ]
           }
         ]
@@ -3158,70 +3302,63 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "lūgums",
       "explanation": [
-        "Galvenā doma: Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums.",
-        "die Bitte galvenokārt nozīmē: pieklājība.",
-        "Bieži raksturo: pieklājības vārds.",
-        "die Bitte galvenokārt nozīmē: lūgums/pieprasījums.",
-        "Bieži raksturo: lietvārds (die).",
-        "bitte ar mazo sākumburtu ir pieklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds — tas nozīmē lūgumu vai pieprasījumu (Ich habe eine Bitte = man ir lūgums).",
-        "Daudzskaitlī: die Bitten."
+        "Galvenā doma: die Bitte ir lietvārds ar nozīmi lūgums.",
+        "Vārdu raksta ar lielo sākumburtu un lieto ar artikulu die.",
+        "Daudzskaitlis ir die Bitten.",
+        "Pieklājības vārds bitte ar mazo sākumburtu nozīmē lūdzu."
       ],
       "examples": [
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Man ir viens lūgums."
+          "lv": "Man ir lūgums."
         },
         {
-          "de": "Bitte schön!",
-          "lv": "lūdzu!"
+          "de": "Er erfüllt meine Bitte.",
+          "lv": "Viņš izpilda manu lūgumu."
         },
         {
-          "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "vienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "man ir viens lūgums."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "lūgums ir svarīgs."
+          "de": "Sie hat zwei Bitten.",
+          "lv": "Viņai ir divi lūgumi."
         }
       ],
-      "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "lūgums",
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
+        },
+        {
+          "word": "bitte",
+          "meaning": "lūdzu",
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+        }
       ],
+      "tip": {
+        "text": "Atceries: die Bitte ir lietvārds, bet bitte ir pieklājības vārds."
+      },
       "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Artikuls: die Bitte.",
+        "Daudzskaitlis: die Bitten.",
+        "Lietvārdu raksta ar lielo sākumburtu."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "die Bitte",
-            "bitte"
+            "die Bitten"
           ],
           "purple": [
             "lūgums"
           ],
-          "yellow": [
-            "Bitte",
-            "Bitten"
+          "blue": [
+            "bitte"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -3233,62 +3370,81 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "lūgumu"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "die Bitte",
-                "bitte"
+                "Bitten"
               ]
             },
             "lv": {
               "purple": [
-                "lūgums"
+                "lūgumi"
               ]
             }
           }
         ],
-        "tip": [
+        "comparison": [
           {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lūdzu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "green": [
+              "die Bitte"
+            ],
             "purple": [
               "lūgums"
+            ],
+            "blue": [
+              "bitte",
+              "lūdzu"
             ]
           }
-        ],
+        },
         "important": [
-          {}
+          {
+            "green": [
+              "die Bitte",
+              "die Bitten"
+            ]
+          },
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
         ]
       }
     }
