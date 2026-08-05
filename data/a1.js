@@ -7126,12 +7126,12 @@ const A1_WORDS = [
     "de": "Frau",
     "de_article": "die",
     "de_plural": "die Frauen",
-    "lv": "sieviete • sieva",
+    "lv": "sieviete",
     "level": "A1",
     "study": {
       "id": "a1-frau",
       "layout": "standardStudy",
-      "translation": "sieviete • sieva",
+      "translation": "sieviete",
       "explanation": [
         "Galvenā doma: die Frau var nozīmēt sievieti (dzimums) vai sievu (laulātā).",
         "Ja runa ir vienkārši par dzimumu vai personu, die Frau = sieviete.",
@@ -7147,7 +7147,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist meine Frau.",
-          "lv": "tas ir mana sieva."
+          "lv": "Tā ir mana sieva."
         },
         {
           "de": "Wie viele Frauen sind hier?",
@@ -8154,17 +8154,16 @@ const A1_WORDS = [
   },
   {
     "de": "gleich",
-    "lv": "tūlīt • vienāds",
+    "lv": "tūlīt",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "tūlīt • vienāds",
+      "translation": "tūlīt",
       "explanation": [
         "Galvenā doma: gleich laika ziņā nozīmē tūlīt, salīdzinājumā nozīmē vienāds.",
         "Ja runa ir par laiku, gleich = tūlīt/pēc brīža (Ich komme gleich. = Es tūlīt nāku.).",
         "Ja runa ir par salīdzinājumu, gleich = vienāds/tāds pats (die gleiche Farbe = vienāda krāsa).",
-        "gleich var lietot arī kā prievārdu ar datīvu, nozīmē tāpat kā (gleich mir = tāpat kā man).",
         "Konteksts (laika norāde vai salīdzinājums) parāda pareizo nozīmi."
       ],
       "examples": [
@@ -8186,7 +8185,7 @@ const A1_WORDS = [
         },
         {
           "de": "Bis gleich!",
-          "lv": "līdz tūlīt!"
+          "lv": "Uz drīzu tikšanos!"
         },
         {
           "de": "Sie sind gleich groß.",
