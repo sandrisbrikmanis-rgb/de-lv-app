@@ -754,7 +754,7 @@ const A1_WORDS = [
         {
           "word": "sondern",
           "meaning": "nevis • bet gan",
-          "example": "Ich wollte Tee, sondern Kaffee. – Es gribēju tēju, nevis kafiju."
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Es gribēju nevis tēju, bet gan kafiju."
         },
         {
           "word": "jedoch",
@@ -1720,7 +1720,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe aufs Dach.",
-          "lv": "es eju uz jumta."
+          "lv": "Es eju uz jumtu."
         },
         {
           "de": "Sie setzt sich aufs Sofa.",
@@ -1813,7 +1813,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz jumta"
+                "uz jumtu"
               ]
             }
           },
@@ -2605,8 +2605,218 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "apmeklēt • apciemot",
-    "level": "A1"
+    "lv": "apmeklēt",
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "apmeklēt",
+      "explanation": [
+        "Galvenā doma: besuchen nozīmē apmeklēt kādu vietu, pasākumu vai personu.",
+        "Par vietu vai pasākumu latviski parasti saka apmeklēt.",
+        "Ja besuchen attiecas uz cilvēku, latviski bieži dabiskāk ir apciemot.",
+        "Vācu valodā besuchen lieto bez prievārda un ar akuzatīvu."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Es apmeklēju muzeju."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Mēs apmeklējam vācu valodas kursu."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Es apciemoju savus vecvecākus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "apmeklēt vietu vai pasākumu • apciemot personu",
+          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
+        },
+        {
+          "word": "gehen zu",
+          "meaning": "iet pie kāda vai uz kādu vietu",
+          "example": "Ich gehe zum Arzt. – Es eju pie ārsta."
+        },
+        {
+          "word": "treffen",
+          "meaning": "satikt",
+          "example": "Ich treffe meinen Freund. – Es satieku savu draugu."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu vai pasākumu apmeklē, bet cilvēku bieži apciemo."
+      },
+      "important": [
+        "besuchen lieto bez prievārda: Ich besuche meine Freundin.",
+        "Latviešu tulkojums ir atkarīgs no objekta: apmeklēt vietu, apciemot personu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehen zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie",
+                "iet uz"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zum Arzt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7514,8 +7724,189 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "stāsts • vēsture",
-    "level": "A1"
+    "lv": "stāsts",
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte",
+      "layout": "standardStudy",
+      "translation": "stāsts",
+      "explanation": [
+        "Galvenā doma: die Geschichte visbiežāk nozīmē stāsts vai vēsture.",
+        "Ja runa ir par izstāstītu notikumu, pasaku vai stāstījumu, latviski lieto stāsts.",
+        "Ja runa ir par pagātnes notikumiem vai mācību priekšmetu, latviski lieto vēsture.",
+        "Daudzskaitlis die Geschichten parasti attiecas uz vairākiem stāstiem."
+      ],
+      "examples": [
+        {
+          "de": "Die Geschichte ist interessant.",
+          "lv": "Stāsts ir interesants."
+        },
+        {
+          "de": "Die Kinder hören eine Geschichte.",
+          "lv": "Bērni klausās stāstu."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Es mācos vēsturi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Geschichte",
+          "meaning": "stāsts • vēsture",
+          "example": "Ich lerne Geschichte. – Es mācos vēsturi."
+        },
+        {
+          "word": "die Erzählung",
+          "meaning": "stāstījums • novele",
+          "example": "Die Erzählung ist kurz. – Stāstījums ir īss."
+        },
+        {
+          "word": "die Vergangenheit",
+          "meaning": "pagātne",
+          "example": "Das gehört der Vergangenheit an. – Tas pieder pagātnei."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: izstāstīts notikums ir stāsts, bet pagātnes notikumu kopums ir vēsture."
+      },
+      "important": [
+        "die Geschichte var nozīmēt gan stāstu, gan vēsturi.",
+        "Daudzskaitlis die Geschichten parasti nozīmē vairāki stāsti."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Geschichte",
+            "die Geschichten"
+          ],
+          "purple": [
+            "stāsts",
+            "vēsture"
+          ],
+          "green": [
+            "pagātnes notikumiem",
+            "mācību priekšmetu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Stāsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāstu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēsturi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Geschichte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stāsts",
+                "vēsture"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Geschichte"
+              ],
+              "purple": [
+                "vēsturi"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Erzählung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stāstījums",
+                "novele"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Vergangenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pagātne"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Geschichte"
+            ],
+            "purple": [
+              "stāsts",
+              "vēsture"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "die Geschichte"
+            ],
+            "purple": [
+              "stāsts",
+              "vēsture"
+            ]
+          },
+          {
+            "blue": [
+              "die Geschichten"
+            ],
+            "purple": [
+              "vairāki stāsti"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Geschwister",
@@ -9209,8 +9600,203 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "glīts • jauks",
-    "level": "A1"
+    "lv": "glīts",
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "glīts",
+      "explanation": [
+        "Galvenā doma: hübsch nozīmē glīts, pievilcīgs vai simpātisks pēc izskata.",
+        "hübsch bieži raksturo cilvēka, apģērba, telpas vai priekšmeta izskatu.",
+        "Latviešu jauks dažos kontekstos ir iespējams, bet tas ir pārāk plašs kā galvenais tulkojums.",
+        "Raksturu vai laipnu izturēšanos vācu valodā biežāk raksturo ar nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Viņai ir glīta kleita."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Istaba ir glīta."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Tā ir glīta bilde."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "glīts • pievilcīgs pēc izskata",
+          "example": "Das ist ein hübsches Kleid. – Tā ir glīta kleita."
+        },
+        {
+          "word": "schön",
+          "meaning": "skaists • patīkams",
+          "example": "Der Garten ist schön. – Dārzs ir skaists."
+        },
+        {
+          "word": "nett",
+          "meaning": "jauks • laipns",
+          "example": "Sie ist sehr nett. – Viņa ir ļoti jauka."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch nav universāls tulkojums vārdam jauks.",
+        "Cilvēka raksturam vai laipnai izturēšanās formai parasti piemērotāks ir nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",
