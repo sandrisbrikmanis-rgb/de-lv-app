@@ -3786,8 +3786,8 @@ const A1_WORDS = [
         "Galvenā doma: bringen galvenokārt nozīmē kaut ko nogādāt pie citas personas vai uz noteiktu vietu.",
         "Latviešu valodā bringen var tulkot dažādi.",
         "Visbiežāk: atnest.",
-        "Atkarībā no situācijas iespējams arī: aiznest, aizvest, nogādāt.",
-        "Tulkojumu nosaka kustības virziens un konteksts."
+        "Atkarībā no situācijas: aiznest, aizvest, nogādāt.",
+        "Tulkojumu nosaka konteksts."
       ],
       "examples": [
         {
@@ -3836,7 +3836,7 @@ const A1_WORDS = [
       "important": [
         "nehmen nozīmē ņemt.",
         "bringen nozīmē nogādāt.",
-        "Tulkojums latviešu valodā ir atkarīgs no situācijas."
+        "Latviešu tulkojums ir atkarīgs no konteksta."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6838,12 +6838,12 @@ const A1_WORDS = [
   },
   {
     "de": "finden",
-    "lv": "atrast • uzskatīt",
+    "lv": "atrast",
     "level": "A1",
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "atrast • uzskatīt",
+      "translation": "atrast",
       "explanation": [
         "Galvenā doma: finden visbiežāk nozīmē atrast.",
         "Sarunās finden ļoti bieži nozīmē arī uzskatīt vai domāt par kaut ko.",
@@ -6852,20 +6852,16 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel nicht.",
-          "lv": "es nevaru atrast savu atslēgu."
-        },
-        {
-          "de": "Hast du dein Handy gefunden?",
-          "lv": "vai tu atradi savu telefonu?"
+          "de": "Ich finde meinen Schlüssel.",
+          "lv": "Es atrodu savu atslēgu."
         },
         {
           "de": "Ich finde das gut.",
-          "lv": "man tas šķiet labi."
+          "lv": "Man tas šķiet labi."
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "kā tev šķiet filma?"
+          "lv": "Kā tev patīk filma?"
         }
       ],
       "comparison": [
@@ -6873,21 +6869,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "atrast / uzskatīt",
           "example": "Ich finde das gut. = Man tas šķiet labi."
-        },
-        {
-          "word": "suchen",
-          "meaning": "meklēt",
-          "example": "Ich suche den Schlüssel. = Es meklēju atslēgu."
-        },
-        {
-          "word": "denken",
-          "meaning": "domāt",
-          "example": "Ich denke an dich. = Es domāju par tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "ticēt / domāt",
-          "example": "Ich glaube, er kommt. = Es domāju, ka viņš nāks."
         }
       ],
       "tip": {
