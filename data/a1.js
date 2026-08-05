@@ -3776,64 +3776,67 @@ const A1_WORDS = [
   },
   {
     "de": "bringen",
-    "lv": "atnest • aiznest",
+    "lv": "atnest",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "atnest • aiznest",
+      "translation": "atnest",
       "explanation": [
-        "Galvenā doma: bringen nozīmē atnest, aiznest vai nogādāt kaut ko kādam.",
-        "bringen lieto, ja kaut kas tiek pārvietots uz citu vietu vai pie cita cilvēka.",
-        "Tas nav tas pats, kas nehmen, jo nehmen nozīmē paņemt sev.",
-        "holen nozīmē aiziet pakaļ un atnest vai paņemt."
+        "Galvenā doma: bringen galvenokārt nozīmē kaut ko nogādāt pie citas personas vai uz noteiktu vietu.",
+        "Latviešu valodā bringen var tulkot dažādi.",
+        "Visbiežāk: atnest.",
+        "Atkarībā no situācijas iespējams arī: aiznest, aizvest, nogādāt.",
+        "Tulkojumu nosaka kustības virziens un konteksts."
       ],
       "examples": [
         {
-          "de": "Bring mir bitte Wasser.",
-          "lv": "atnes man, lūdzu, ūdeni."
+          "de": "Ich bringe dir ein Buch.",
+          "lv": "Es tev atnesu grāmatu."
         },
         {
-          "de": "Ich bringe dich nach Hause.",
-          "lv": "es tevi aizvedīšu mājās."
+          "de": "Ich bringe das Paket zur Post.",
+          "lv": "Es aiznesu paku uz pastu."
         },
         {
-          "de": "Er bringt das Buch zur Schule.",
-          "lv": "viņš aiznes grāmatu uz skolu."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "es paņemu grāmatu."
+          "de": "Ich bringe die Kinder zur Schule.",
+          "lv": "Es aizvedu bērnus uz skolu."
         }
       ],
       "comparison": [
         {
           "word": "bringen",
-          "meaning": "atnest / aiznest / nogādāt",
-          "example": "Bring mir Wasser."
+          "meaning": "atnest",
+          "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
+        },
+        {
+          "word": "bringen",
+          "meaning": "aiznest",
+          "example": "Ich bringe das Paket zur Post. – Es aiznesu paku uz pastu."
+        },
+        {
+          "word": "bringen",
+          "meaning": "aizvest",
+          "example": "Ich bringe die Kinder zur Schule. – Es aizvedu bērnus uz skolu."
+        },
+        {
+          "word": "bringen",
+          "meaning": "nogādāt",
+          "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
         },
         {
           "word": "nehmen",
-          "meaning": "ņemt / paņemt",
-          "example": "Ich nehme das Buch."
-        },
-        {
-          "word": "holen",
-          "meaning": "aiziet pakaļ / atnest",
-          "example": "Ich hole Wasser."
-        },
-        {
-          "word": "mitbringen",
-          "meaning": "paņemt līdzi un atnest",
-          "example": "Bringst du Brot mit?"
+          "meaning": "paņemt",
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
-        "text": "Atceries: pārvieto pie kāda → bringen; paņem sev → nehmen."
+        "text": "Ja priekšmets nonāk pie citas personas vai citā vietā, vācu valodā ļoti bieži lieto bringen."
       },
       "important": [
-        "bringen rāda virzienu pie kāda vai uz kādu vietu.",
-        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam."
+        "nehmen nozīmē ņemt.",
+        "bringen nozīmē nogādāt.",
+        "Tulkojums latviešu valodā ir atkarīgs no situācijas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4042,7 +4045,7 @@ const A1_WORDS = [
     "de": "Brötchen",
     "de_article": "das",
     "de_plural": "die Brötchen",
-    "lv": "bulciņa",
+    "lv": "maizīte",
     "level": "A1"
   },
   {
@@ -4988,15 +4991,15 @@ const A1_WORDS = [
       "id": "a1-dieser",
       "layout": "standardStudy",
       "translation": "šis",
-      "explanation": "Rāda uz tuvumā esošu cilvēku, lietu vai dzīvnieku. Lieto kopā ar lietvārdu vīriešu dzimtē.",
+      "explanation": "Norāda uz konkrētu vai īpaši izceltu vīriešu dzimtes personu vai lietu. Lieto kopā ar lietvārdu vīriešu dzimtē.",
       "examples": [
         {
           "de": "Dieser Mann ist nett.",
           "lv": "šis vīrietis ir jauks."
         },
         {
-          "de": "Ich mag diesen Hund.",
-          "lv": "man patīk šis suns."
+          "de": "Ich sehe diesen Hund.",
+          "lv": "Es redzu šo suni."
         },
         {
           "de": "Dieser Stift ist neu.",
@@ -5028,7 +5031,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "šis"
+                "šo suni"
               ]
             }
           },
@@ -5189,13 +5192,20 @@ const A1_WORDS = [
   },
   {
     "de": "ein",
-    "lv": "nenoteiktais artikuls • viens • kāds",
+    "lv": "nenoteiktais artikuls",
     "level": "A1",
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "nenoteiktais artikuls • viens • kāds",
-      "explanation": "Lieto kopā ar lietvārdu vīriešu dzimtē. Rāda uz kādu vienu lietu vai cilvēku no vairākām iespējām.",
+      "translation": "nenoteiktais artikuls",
+      "explanation": [
+        "Galvenā doma: ein ir nenoteiktais artikuls.",
+        "ein ir nenoteiktais artikuls vīriešu un vidus dzimtes lietvārdiem nominatīvā.",
+        "ein lieto vīriešu dzimtē: ein Mann.",
+        "ein lieto vidus dzimtē: ein Buch.",
+        "Sieviešu dzimtē lieto: eine.",
+        "Akuzatīvā vīriešu dzimtē: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -5208,10 +5218,36 @@ const A1_WORDS = [
         {
           "de": "Er sucht einen Stift.",
           "lv": "viņš meklē kādu pildspalvu."
+        },
+        {
+          "de": "Ein Kind spielt.",
+          "lv": "Bērns spēlējas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "vīriešu dzimte",
+          "example": "Ein Mann wartet draußen."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "sieviešu dzimte",
+          "example": "eine Frau"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "vidus dzimte",
+          "example": "Ich habe ein Buch."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "akuzatīvs",
+          "example": "einen Mann"
         }
       ],
       "tip": {
-        "text": "Atceries: nekonkrēts viens/kāds → ein."
+        "text": "Atceries: ein nav tikai \"viens\". Bieži tas ir tikai nenoteiktais artikuls."
       },
       "sectionAccents": {
         "examples": [
@@ -5314,8 +5350,10 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "ein nav noteiktais artikuls.",
-        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das."
+        "ein — vīriešu dzimte.",
+        "ein — vidus dzimte.",
+        "eine — sieviešu dzimte.",
+        "einen — akuzatīvs."
       ]
     }
   },
