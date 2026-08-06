@@ -25,6 +25,7 @@
     "@capacitor/core": "^8.4.1",
     "@capacitor/ios": "^8.4.1",
     "canvas-confetti": "^1.9.4",
+    "dotenv": "^17.4.2",
     "openai": "^6.45.0"
   },
   "devDependencies": {
