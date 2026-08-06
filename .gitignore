@@ -57,6 +57,7 @@ scripts/.sl-ui-translation-cache.json
 scripts/.sl-ui-hr-cache.json
 scripts/.bs-translation-cache.json
 scripts/.bs-a1-openai-translation-cache.json
+scripts/.bs-a1-quality-fix-report.json
 scripts/.bs-ui-translation-cache.json
 scripts/.sr-translation-cache.json
 scripts/.sr-ui-translation-cache.json

@@ -3,42 +3,42 @@ const A1_WORDS = [
     "de": "Apfel",
     "de_article": "der",
     "de_plural": "die Äpfel",
-    "lv": "Jabuku",
+    "lv": "jabuka",
     "level": "A1"
   },
   {
     "de": "Brot",
     "de_article": "das",
     "de_plural": "die Brote",
-    "lv": "Hljeb",
+    "lv": "hljeb",
     "level": "A1"
   },
   {
     "de": "Wasser",
     "de_article": "das",
-    "lv": "Vode",
+    "lv": "voda",
     "level": "A1"
   },
   {
     "de": "Haus",
     "de_article": "das",
     "de_plural": "die Häuser",
-    "lv": "Kuća",
+    "lv": "kuća",
     "level": "A1"
   },
   {
     "de": "lernen",
-    "lv": "Učiti se",
+    "lv": "učiti",
     "level": "A1"
   },
   {
     "de": "sprechen",
-    "lv": "Govoriti",
+    "lv": "govoriti",
     "level": "A1",
     "study": {
       "id": "a1-sprechen-study",
       "layout": "standardStudy",
-      "translation": "Govoriti",
+      "translation": "govoriti",
       "explanation": [
         "Glavna ideja: Govoriti, razgovarati ili koristiti jezik.",
         "Sprechen uglavnom znači: govoriti ili razgovarati.",
@@ -148,12 +148,12 @@ const A1_WORDS = [
   },
   {
     "de": "klein",
-    "lv": "Mala",
+    "lv": "mali",
     "level": "A1",
     "study": {
       "id": "a1-klein-study",
       "layout": "standardStudy",
-      "translation": "Mala",
+      "translation": "mali",
       "explanation": [
         "Glavna ideja: klein znači mali po veličini, obimu ili dobi.",
         "Klein može opisivati predmet, prostor, količinu ili dijete.",
@@ -250,38 +250,38 @@ const A1_WORDS = [
   },
   {
     "de": "alle",
-    "lv": "Svima",
+    "lv": "svi",
     "level": "A1"
   },
   {
     "de": "allein",
-    "lv": "Sama",
+    "lv": "sam",
     "level": "A1"
   },
   {
     "de": "alles",
-    "lv": "Sve",
+    "lv": "sve",
     "level": "A1"
   },
   {
     "de": "alt",
-    "lv": "Star",
+    "lv": "star",
     "level": "A1"
   },
   {
     "de": "Alter",
     "de_article": "das",
-    "lv": "Godine",
+    "lv": "starost",
     "level": "A1"
   },
   {
     "de": "an",
-    "lv": "At",
+    "lv": "na",
     "level": "A1",
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "At",
+      "translation": "na",
       "explanation": "Koristi se kada se nešto nalazi uz zid, prozor, vrata, rijeku, morsku obalu ili neki drugi rub/površinu.",
       "examples": [
         {
@@ -454,32 +454,32 @@ const A1_WORDS = [
     "de": "Anfang",
     "de_article": "der",
     "de_plural": "die Anfänge",
-    "lv": "Početak",
+    "lv": "početak",
     "level": "A1"
   },
   {
     "de": "anfangen",
-    "lv": "Početi",
+    "lv": "početi",
     "level": "A1"
   },
   {
     "de": "anders",
-    "lv": "Drugačije",
+    "lv": "drugačije",
     "level": "A1"
   },
   {
     "de": "anrufen",
-    "lv": "Nazvati",
+    "lv": "nazvati",
     "level": "A1"
   },
   {
     "de": "ab",
-    "lv": "Od",
+    "lv": "od",
     "level": "A1",
     "study": {
       "id": "a1-ab",
       "layout": "standardStudy",
-      "translation": "Od",
+      "translation": "od",
       "explanation": "Koristi se kada nešto počinje od određenog vremena, mjesta ili tačke. Često znači „počevši od“.",
       "examples": [
         {
@@ -669,29 +669,29 @@ const A1_WORDS = [
     "de": "Abend",
     "de_article": "der",
     "de_plural": "die Abende",
-    "lv": "Večer",
+    "lv": "večer",
     "level": "A1"
   },
   {
     "de": "Abendessen",
     "de_article": "das",
     "de_plural": "die Abendessen",
-    "lv": "Večera",
+    "lv": "večera",
     "level": "A1"
   },
   {
     "de": "abends",
-    "lv": "Uvečer",
+    "lv": "uvečer",
     "level": "A1"
   },
   {
     "de": "aber",
-    "lv": "Ali",
+    "lv": "ali",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "Ali",
+      "translation": "ali",
       "explanation": "Koristi se za uvođenje suprotnosti ili izražavanje prigovora. Često znači “ali”, “međutim” ili “ipak”.",
       "examples": [
         {
@@ -853,38 +853,38 @@ const A1_WORDS = [
   },
   {
     "de": "achten",
-    "lv": "Posmatrati",
+    "lv": "paziti",
     "level": "A1"
   },
   {
     "de": "Adresse",
     "de_article": "die",
     "de_plural": "die Adressen",
-    "lv": "Adresa",
+    "lv": "adresa",
     "level": "A1"
   },
   {
     "de": "Affe",
     "de_article": "der",
     "de_plural": "die Affen",
-    "lv": "Majmun",
+    "lv": "majmun",
     "level": "A1"
   },
   {
     "de": "Album",
     "de_article": "das",
     "de_plural": "die Alben",
-    "lv": "Album",
+    "lv": "album",
     "level": "A1"
   },
   {
     "de": "also",
-    "lv": "Dakle",
+    "lv": "dakle",
     "level": "A1",
     "study": {
       "id": "a1-also",
       "layout": "standardStudy",
-      "translation": "Dakle",
+      "translation": "dakle",
       "explanation": "Koristi se za izvođenje zaključka ili prikazivanje rezultata. Znači „dakle“, „stoga“.",
       "examples": [
         {
@@ -1037,7 +1037,7 @@ const A1_WORDS = [
       },
       "important": [
         "Also ukazuje na zaključak: iz prethodno rečenog proizlazi sljedeća misao.",
-        "Latvijsko „tāpēc“ često može biti i deshalb."
+        "Bosansko „zato“ često može biti i deshalb."
       ]
     }
   },
@@ -1045,140 +1045,140 @@ const A1_WORDS = [
     "de": "Ameise",
     "de_article": "die",
     "de_plural": "die Ameisen",
-    "lv": "Ant",
+    "lv": "mrav",
     "level": "A1"
   },
   {
     "de": "ankommen",
-    "lv": "Stići",
+    "lv": "stići",
     "level": "A1"
   },
   {
     "de": "anschauen",
-    "lv": "Pogledajte",
+    "lv": "pogledati",
     "level": "A1"
   },
   {
     "de": "anziehen",
-    "lv": "Staviti na",
+    "lv": "obući",
     "level": "A1"
   },
   {
     "de": "anhalten",
-    "lv": "Prestati",
+    "lv": "zaustaviti se",
     "level": "A1"
   },
   {
     "de": "Angst",
     "de_article": "die",
     "de_plural": "die Ängste",
-    "lv": "Strah",
+    "lv": "strah",
     "level": "A1"
   },
   {
     "de": "angenehm",
-    "lv": "Prijatno",
+    "lv": "prijatan",
     "level": "A1"
   },
   {
     "de": "Antenne",
     "de_article": "die",
     "de_plural": "die Antennen",
-    "lv": "Antena",
+    "lv": "antena",
     "level": "A1"
   },
   {
     "de": "Antwort",
     "de_article": "die",
     "de_plural": "die Antworten",
-    "lv": "Odgovor",
+    "lv": "odgovor",
     "level": "A1"
   },
   {
     "de": "antworten",
-    "lv": "Odgovoriti",
+    "lv": "odgovoriti",
     "level": "A1"
   },
   {
     "de": "Anzug",
     "de_article": "der",
     "de_plural": "die Anzüge",
-    "lv": "Odijelo",
+    "lv": "odijelo",
     "level": "A1"
   },
   {
     "de": "Apfelbaum",
     "de_article": "der",
     "de_plural": "die Apfelbäume",
-    "lv": "Jabuka",
+    "lv": "stablo jabuke",
     "level": "A1"
   },
   {
     "de": "Apfelsine",
     "de_article": "die",
     "de_plural": "die Apfelsinen",
-    "lv": "Narandža",
+    "lv": "narandža",
     "level": "A1"
   },
   {
     "de": "Aprikose",
     "de_article": "die",
     "de_plural": "die Aprikosen",
-    "lv": "Marelica",
+    "lv": "kajsija",
     "level": "A1"
   },
   {
     "de": "April",
     "de_article": "der",
-    "lv": "April",
+    "lv": "april",
     "level": "A1"
   },
   {
     "de": "Arbeit",
     "de_article": "die",
     "de_plural": "die Arbeiten",
-    "lv": "Rad",
+    "lv": "rad",
     "level": "A1"
   },
   {
     "de": "arbeiten",
-    "lv": "Na posao",
+    "lv": "raditi",
     "level": "A1"
   },
   {
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Ruku",
+    "lv": "ruka",
     "level": "A1"
   },
   {
     "de": "Armbanduhr",
     "de_article": "die",
     "de_plural": "die Armbanduhren",
-    "lv": "Ručni sat",
+    "lv": "ručni sat",
     "level": "A1"
   },
   {
     "de": "Ärztin",
     "de_article": "die",
     "de_plural": "die Ärztinnen",
-    "lv": "Doktor",
+    "lv": "ljekarka",
     "level": "A1"
   },
   {
     "de": "atmen",
-    "lv": "Disati",
+    "lv": "disati",
     "level": "A1"
   },
   {
     "de": "auch",
-    "lv": "Takođe",
+    "lv": "također",
     "level": "A1",
     "study": {
       "id": "a1-auch-study",
       "layout": "standardStudy",
-      "translation": "Takođe",
+      "translation": "također",
       "explanation": [
         "Glavna ideja: Najčešće i najneutralnije „također”.",
         "Auch uglavnom znači: jednostavno „također“.",
@@ -1278,12 +1278,12 @@ const A1_WORDS = [
   },
   {
     "de": "auf",
-    "lv": "To",
+    "lv": "na",
     "level": "A1",
     "study": {
       "id": "a1-auf",
       "layout": "standardStudy",
-      "translation": "To",
+      "translation": "na",
       "explanation": "Koristi se za označavanje smjera prema nekom mjestu ili prema gornjoj strani površine.",
       "examples": [
         {
@@ -1449,52 +1449,52 @@ const A1_WORDS = [
   },
   {
     "de": "aufmachen",
-    "lv": "Otvoriti",
+    "lv": "otvoriti",
     "level": "A1"
   },
   {
     "de": "aufpassen",
-    "lv": "Budi oprezan",
+    "lv": "paziti",
     "level": "A1"
   },
   {
     "de": "aufstehen",
-    "lv": "Ustani",
+    "lv": "ustati",
     "level": "A1"
   },
   {
     "de": "aufwärts",
-    "lv": "Gore",
+    "lv": "naviše",
     "level": "A1"
   },
   {
     "de": "Auge",
     "de_article": "das",
     "de_plural": "die Augen",
-    "lv": "Oko",
+    "lv": "oko",
     "level": "A1"
   },
   {
     "de": "Augenblick",
     "de_article": "der",
     "de_plural": "die Augenblicke",
-    "lv": "Trenutak",
+    "lv": "trenutak",
     "level": "A1"
   },
   {
     "de": "August",
     "de_article": "der",
-    "lv": "Avgust",
+    "lv": "august",
     "level": "A1"
   },
   {
     "de": "aus",
-    "lv": "Od",
+    "lv": "iz",
     "level": "A1",
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "Od",
+      "translation": "iz",
       "explanation": "Koristi se kada nešto dolazi iznutra, izlazi van ili označava porijeklo.",
       "examples": [
         {
@@ -1654,22 +1654,22 @@ const A1_WORDS = [
   },
   {
     "de": "auf dem Boden",
-    "lv": "Na podu",
+    "lv": "na podu",
     "level": "A1"
   },
   {
     "de": "auf dem Bahnhof",
-    "lv": "Na stanici",
+    "lv": "na stanici",
     "level": "A1"
   },
   {
     "de": "aufs",
-    "lv": "To",
+    "lv": "na",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "To",
+      "translation": "na",
       "explanation": [
         "Aufs je skraćenica prijedloga auf i člana das.",
         "Puni oblik: auf das (gdje?).",
@@ -2009,59 +2009,59 @@ const A1_WORDS = [
     "de": "Augenbraue",
     "de_article": "die",
     "de_plural": "die Augenbrauen",
-    "lv": "Obrva",
+    "lv": "obrva",
     "level": "A1"
   },
   {
     "de": "Augenfarbe",
     "de_article": "die",
     "de_plural": "die Augenfarben",
-    "lv": "Boja očiju",
+    "lv": "boja očiju",
     "level": "A1"
   },
   {
     "de": "Auto",
     "de_article": "das",
     "de_plural": "die Autos",
-    "lv": "Auto",
+    "lv": "auto",
     "level": "A1"
   },
   {
     "de": "Bad",
     "de_article": "das",
     "de_plural": "die Bäder",
-    "lv": "Kupatilo",
+    "lv": "kupatilo",
     "level": "A1"
   },
   {
     "de": "Badezimmer",
     "de_article": "das",
     "de_plural": "die Badezimmer",
-    "lv": "Kupatilo",
+    "lv": "kupatilo",
     "level": "A1"
   },
   {
     "de": "Schwimmbad",
     "de_article": "das",
     "de_plural": "die Schwimmbäder",
-    "lv": "Bazen",
+    "lv": "bazen",
     "level": "A1"
   },
   {
     "de": "Sauna",
     "de_article": "die",
     "de_plural": "die Saunen",
-    "lv": "Sauna",
+    "lv": "sauna",
     "level": "A1"
   },
   {
     "de": "baden",
-    "lv": "Plivati",
+    "lv": "kupati se",
     "level": "A1",
     "study": {
       "id": "a1-baden",
       "layout": "standardStudy",
-      "translation": "Plivati",
+      "translation": "kupati se",
       "explanation": [
         "Glavna ideja: baden znači kupati se, biti u vodi ili uživati u vodi.",
         "Baden se koristi kada je u pitanju rekreacija na vodi, jezeru, moru ili bazenu.",
@@ -2307,69 +2307,69 @@ const A1_WORDS = [
   },
   {
     "de": "bald",
-    "lv": "Uskoro",
+    "lv": "uskoro",
     "level": "A1"
   },
   {
     "de": "Balkon",
     "de_article": "der",
     "de_plural": "die Balkons",
-    "lv": "Balkon",
+    "lv": "balkon",
     "level": "A1"
   },
   {
     "de": "Ball",
     "de_article": "der",
     "de_plural": "die Bälle",
-    "lv": "Lopta",
+    "lv": "lopta",
     "level": "A1"
   },
   {
     "de": "Banane",
     "de_article": "die",
     "de_plural": "die Bananen",
-    "lv": "Banana",
+    "lv": "banana",
     "level": "A1"
   },
   {
     "de": "Bauch",
     "de_article": "der",
     "de_plural": "die Bäuche",
-    "lv": "Stomak",
+    "lv": "stomak",
     "level": "A1"
   },
   {
     "de": "Baum",
     "de_article": "der",
     "de_plural": "die Bäume",
-    "lv": "Drvo",
+    "lv": "drvo",
     "level": "A1"
   },
   {
     "de": "bedeuten",
-    "lv": "Glavna",
+    "lv": "značiti",
     "level": "A1"
   },
   {
     "de": "Erdbeere",
     "de_article": "die",
     "de_plural": "die Erdbeeren",
-    "lv": "Jagoda",
+    "lv": "jagoda",
     "level": "A1"
   },
   {
     "de": "beginnen",
-    "lv": "Početi",
+    "lv": "početi",
     "level": "A1"
   },
   {
     "de": "bei",
-    "lv": "At",
+    "lv": "kod",
     "level": "A1",
     "study": {
       "id": "a1-bei",
       "layout": "standardStudy",
-      "translation": "At",
+      "translation": "kod",
       "explanation": "Koristi se kada se nešto nalazi kod osobe, organizacije, mjesta ili se dešava u nekim okolnostima.",
       "examples": [
         {
@@ -2526,64 +2526,64 @@ const A1_WORDS = [
   },
   {
     "de": "beide",
-    "lv": "Oboje",
+    "lv": "oba",
     "level": "A1"
   },
   {
     "de": "Bein",
     "de_article": "das",
     "de_plural": "die Beine",
-    "lv": "Nogu",
+    "lv": "noga",
     "level": "A1"
   },
   {
     "de": "Beispiel",
     "de_article": "das",
     "de_plural": "die Beispiele",
-    "lv": "Primjer",
+    "lv": "primjer",
     "level": "A1"
   },
   {
     "de": "bekommen",
-    "lv": "Primiti",
+    "lv": "dobiti",
     "level": "A1"
   },
   {
     "de": "benutzen",
-    "lv": "Koristiti",
+    "lv": "koristiti",
     "level": "A1"
   },
   {
     "de": "Berg",
     "de_article": "der",
     "de_plural": "die Berge",
-    "lv": "Planina",
+    "lv": "planina",
     "level": "A1"
   },
   {
     "de": "besser",
-    "lv": "Bolje",
+    "lv": "bolji",
     "level": "A1"
   },
   {
     "de": "beste",
-    "lv": "Najbolji",
+    "lv": "najbolji",
     "level": "A1"
   },
   {
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Posjetu",
+    "lv": "posjeta",
     "level": "A1",
     "study": {
       "id": "a1-besuch",
       "layout": "standardStudy",
-      "translation": "Posjetu",
+      "translation": "posjeta",
       "explanation": [
         "Glavna ideja: der Besuch znači posjetu, vizitu ili odlazak u posjetu.",
-        "Ako je riječ o mjestu ili događaju, na latvijskom je prikladan izraz apmeklējums.",
-        "Ako je riječ o posjećivanju neke osobe, na latvijskom se može reći apciemojums ili vizīte.",
+        "Ako je riječ o mjestu ili događaju, na bosanskom je prikladan izraz posjeta.",
+        "Ako je riječ o posjećivanju neke osobe, na bosanskom se može reći posjeta ili vizita.",
         "Množina je die Besuche."
       ],
       "examples": [
@@ -2632,7 +2632,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "Posjetu",
-            "apciemojums",
+            "posjeta",
             "Posjeta"
           ]
         },
@@ -2696,7 +2696,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Posjetu",
-                "apciemojums",
+                "posjeta",
                 "Posjeta"
               ]
             }
@@ -2748,7 +2748,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "Posjetu",
-              "apciemojums",
+              "posjeta",
               "Posjeta"
             ]
           },
@@ -2765,21 +2765,21 @@ const A1_WORDS = [
     "de": "Besucher",
     "de_article": "der",
     "de_plural": "die Besucher",
-    "lv": "Posjetitelj",
+    "lv": "posjetilac",
     "level": "A1"
   },
   {
     "de": "besuchen",
-    "lv": "Posjetiti",
+    "lv": "posjetiti",
     "level": "A1",
     "study": {
       "id": "a1-besuchen",
       "layout": "standardStudy",
-      "translation": "Posjetiti",
+      "translation": "posjetiti",
       "explanation": [
         "Glavna ideja: besuchen se koristi kada se posjećuje neko mjesto, događaj ili osoba.",
-        "Na latvijskom se mjesto, događaj ili kurs obično posjećuje.",
-        "Ako se besuchen odnosi na osobu, na latvijskom je često prirodnije reći apciemot.",
+        "Na bosanskom se mjesto, događaj ili kurs obično posjećuje.",
+        "Ako se besuchen odnosi na osobu, na bosanskom je često prirodnije reći posjetiti.",
         "U njemačkom jeziku besuchen se koristi bez prijedloga i s akuzativom."
       ],
       "examples": [
@@ -2814,11 +2814,11 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Zapamti: mjesto se posjećuje, ali se osoba na latvijskom često obilazi."
+        "text": "Zapamti: mjesto se posjećuje, ali se osoba na bosanskom često obilazi."
       },
       "important": [
         "Besuchen se koristi bez prijedloga: Ich besuche meine Freundin.",
-        "Latvijski prijevod zavisi od objekta: obići mjesto, posjetiti osobu."
+        "Bosanski prijevod zavisi od objekta: obići mjesto, posjetiti osobu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2986,17 +2986,17 @@ const A1_WORDS = [
     "de": "Bett",
     "de_article": "das",
     "de_plural": "die Betten",
-    "lv": "Krevet",
+    "lv": "krevet",
     "level": "A1"
   },
   {
     "de": "bis",
-    "lv": "Do",
+    "lv": "do",
     "level": "A1",
     "study": {
       "id": "a1-bis",
       "layout": "standardStudy",
-      "translation": "Do",
+      "translation": "do",
       "explanation": "Označava neku granicu, vremensku tačku ili uslov.",
       "examples": [
         {
@@ -3130,17 +3130,17 @@ const A1_WORDS = [
   },
   {
     "de": "bisschen",
-    "lv": "Malo",
+    "lv": "malo",
     "level": "A1"
   },
   {
     "de": "bitte",
-    "lv": "Molim te",
+    "lv": "molim",
     "level": "A1",
     "study": {
       "id": "a1-bitte",
       "layout": "standardStudy",
-      "translation": "Molim te",
+      "translation": "molim",
       "explanation": [
         "Glavna ideja: bitte pisano malim početnim slovom je riječ učtivosti sa značenjem molim.",
         "Koristi se u molbama, narudžbama i ljubaznim odgovorima.",
@@ -3295,12 +3295,12 @@ const A1_WORDS = [
     "de": "Bitte",
     "de_article": "die",
     "de_plural": "die Bitten",
-    "lv": "Zahtjev",
+    "lv": "molba",
     "level": "A1",
     "study": {
       "id": "a1-bitte-study",
       "layout": "standardStudy",
-      "translation": "Zahtjev",
+      "translation": "molba",
       "explanation": [
         "Glavna ideja: die Bitte je imenica sa značenjem molba.",
         "Riječ se piše velikim početnim slovom i koristi se s članom die.",
@@ -3451,48 +3451,48 @@ const A1_WORDS = [
   },
   {
     "de": "billig",
-    "lv": "Jeftino",
+    "lv": "jeftin",
     "level": "A1"
   },
   {
     "de": "Bier",
     "de_article": "das",
     "de_plural": "die Biere",
-    "lv": "Pivo",
+    "lv": "pivo",
     "level": "A1"
   },
   {
     "de": "Bild",
     "de_article": "das",
     "de_plural": "die Bilder",
-    "lv": "Slika",
+    "lv": "slika",
     "level": "A1"
   },
   {
     "de": "bitten",
-    "lv": "Pitati",
+    "lv": "moliti",
     "level": "A1"
   },
   {
     "de": "Blatt",
     "de_article": "das",
     "de_plural": "die Blätter",
-    "lv": "Stranica",
+    "lv": "list",
     "level": "A1"
   },
   {
     "de": "blau",
-    "lv": "Plava",
+    "lv": "plav",
     "level": "A1"
   },
   {
     "de": "bleiben",
-    "lv": "Ostani",
+    "lv": "ostati",
     "level": "A1",
     "study": {
       "id": "a1-bleiben",
       "layout": "standardStudy",
-      "translation": "Ostani",
+      "translation": "ostati",
       "explanation": [
         "Glavna ideja: bleiben znači ostati.",
         "Bleiben se koristi kada osoba ili stvar ne nestane i ostane na istom mjestu ili stanju.",
@@ -3654,7 +3654,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "braukt",
+                "voziti se",
                 "transportu"
               ]
             },
@@ -3723,68 +3723,68 @@ const A1_WORDS = [
     "de": "Bleistift",
     "de_article": "der",
     "de_plural": "die Bleistifte",
-    "lv": "Olovka",
+    "lv": "olovka",
     "level": "A1"
   },
   {
     "de": "blond",
-    "lv": "Plav",
+    "lv": "plavokos",
     "level": "A1"
   },
   {
     "de": "Blume",
     "de_article": "die",
     "de_plural": "die Blumen",
-    "lv": "Cvijet",
+    "lv": "cvijet",
     "level": "A1"
   },
   {
     "de": "Boot",
     "de_article": "das",
     "de_plural": "die Boote",
-    "lv": "Čamac",
+    "lv": "čamac",
     "level": "A1"
   },
   {
     "de": "brauchen",
-    "lv": "Da treba",
+    "lv": "trebati",
     "level": "A1"
   },
   {
     "de": "braun",
-    "lv": "Braon",
+    "lv": "smeđ",
     "level": "A1"
   },
   {
     "de": "breit",
-    "lv": "Širok",
+    "lv": "širok",
     "level": "A1"
   },
   {
     "de": "Brief",
     "de_article": "der",
     "de_plural": "die Briefe",
-    "lv": "Pismo",
+    "lv": "pismo",
     "level": "A1"
   },
   {
     "de": "Brille",
     "de_article": "die",
     "de_plural": "die Brillen",
-    "lv": "Naočale",
+    "lv": "naočale",
     "level": "A1"
   },
   {
     "de": "bringen",
-    "lv": "Donijeti",
+    "lv": "donijeti",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "Donijeti",
+      "translation": "donijeti",
       "explanation": [
         "Glavna ideja: bringen uglavnom znači odnijeti nešto drugoj osobi ili na određeno mjesto.",
-        "Na latvijskom jeziku bringen se može prevesti na različite načine.",
+        "Na bosanskom jeziku bringen se može prevesti na različite načine.",
         "Najčešće: donijeti.",
         "Ovisno o situaciji: odnijeti, odvesti, dostaviti.",
         "Prijevod određuje kontekst."
@@ -4038,107 +4038,107 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "Sendvič",
+    "lv": "sendvič",
     "level": "A1"
   },
   {
     "de": "Brötchen",
     "de_article": "das",
     "de_plural": "die Brötchen",
-    "lv": "Lepinja",
+    "lv": "zemička",
     "level": "A1"
   },
   {
     "de": "Brücke",
     "de_article": "die",
     "de_plural": "die Brücken",
-    "lv": "Most",
+    "lv": "most",
     "level": "A1"
   },
   {
     "de": "Bruder",
     "de_article": "der",
     "de_plural": "die Brüder",
-    "lv": "Brate",
+    "lv": "brat",
     "level": "A1"
   },
   {
     "de": "Buch",
     "de_article": "das",
     "de_plural": "die Bücher",
-    "lv": "Knjiga",
+    "lv": "knjiga",
     "level": "A1"
   },
   {
     "de": "Buchstabe",
     "de_article": "der",
     "de_plural": "die Buchstaben",
-    "lv": "Pismo",
+    "lv": "slovo",
     "level": "A1"
   },
   {
     "de": "Büro",
     "de_article": "das",
     "de_plural": "die Büros",
-    "lv": "Ured",
+    "lv": "ured",
     "level": "A1"
   },
   {
     "de": "Bus",
     "de_article": "der",
     "de_plural": "die Busse",
-    "lv": "Bus",
+    "lv": "autobus",
     "level": "A1"
   },
   {
     "de": "Butter",
     "de_article": "die",
-    "lv": "Puter",
+    "lv": "maslac",
     "level": "A1"
   },
   {
     "de": "Café",
     "de_article": "das",
     "de_plural": "die Cafés",
-    "lv": "Cafe",
+    "lv": "kafić",
     "level": "A1"
   },
   {
     "de": "CD",
     "de_article": "die",
     "de_plural": "die CDs",
-    "lv": "CD",
+    "lv": "cd",
     "level": "A1"
   },
   {
     "de": "Computer",
     "de_article": "der",
     "de_plural": "die Computer",
-    "lv": "Kompjuter",
+    "lv": "kompjuter",
     "level": "A1"
   },
   {
     "de": "Cousin",
     "de_article": "der",
     "de_plural": "die Cousins",
-    "lv": "Rođak",
+    "lv": "rođak",
     "level": "A1"
   },
   {
     "de": "Cousine",
     "de_article": "die",
     "de_plural": "die Cousinen",
-    "lv": "Rođak",
+    "lv": "rodica",
     "level": "A1"
   },
   {
     "de": "da",
-    "lv": "Tamo",
+    "lv": "tamo",
     "level": "A1",
     "study": {
       "id": "a1-da",
       "layout": "standardStudy",
-      "translation": "Tamo",
+      "translation": "tamo",
       "explanation": [
         "Glavna ideja: da na nivou A1 najčešće znači tamo.",
         "Da označava mjesto ili se odnosi na nešto već spomenuto.",
@@ -4393,22 +4393,22 @@ const A1_WORDS = [
   },
   {
     "de": "danken",
-    "lv": "Zahvaliti",
+    "lv": "zahvaliti",
     "level": "A1"
   },
   {
     "de": "dann",
-    "lv": "Onda",
+    "lv": "onda",
     "level": "A1"
   },
   {
     "de": "das",
-    "lv": "Određeni član srednjeg roda",
+    "lv": "određeni član srednjeg roda",
     "level": "A1",
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "Određeni član srednjeg roda",
+      "translation": "određeni član srednjeg roda",
       "explanation": "Upotrebljava se uz imenice srednjeg roda. U nekim rečenicama “das” može funkcionirati i kao zamjenica ili odnosna zamjenica.",
       "examples": [
         {
@@ -4553,12 +4553,12 @@ const A1_WORDS = [
   },
   {
     "de": "dass",
-    "lv": "To",
+    "lv": "da",
     "level": "A1",
     "study": {
       "id": "a1-dass",
       "layout": "standardStudy",
-      "translation": "To",
+      "translation": "da",
       "explanation": "Uvodi zavisnu rečenicu koja izražava činjenicu, misao ili ono što je rečeno.",
       "examples": [
         {
@@ -4745,27 +4745,27 @@ const A1_WORDS = [
     "de": "Datum",
     "de_article": "das",
     "de_plural": "die Daten",
-    "lv": "Datum",
+    "lv": "datum",
     "level": "A1"
   },
   {
     "de": "dein",
-    "lv": "Tvoj",
+    "lv": "tvoj",
     "level": "A1"
   },
   {
     "de": "denken",
-    "lv": "Misliti",
+    "lv": "misliti",
     "level": "A1"
   },
   {
     "de": "der",
-    "lv": "Određeni član muškog roda",
+    "lv": "određeni član muškog roda",
     "level": "A1",
     "study": {
       "id": "a1-der",
       "layout": "standardStudy",
-      "translation": "Određeni član muškog roda",
+      "translation": "određeni član muškog roda",
       "explanation": "Koristi se uz imenice muškog roda. U nekim rečenicama “der” može funkcionirati i kao zamjenica ili odnosna zamjenica.",
       "examples": [
         {
@@ -4855,23 +4855,23 @@ const A1_WORDS = [
   },
   {
     "de": "deutsch",
-    "lv": "Njemački",
+    "lv": "njemački",
     "level": "A1"
   },
   {
     "de": "Dezember",
     "de_article": "der",
-    "lv": "Decembar",
+    "lv": "decembar",
     "level": "A1"
   },
   {
     "de": "die",
-    "lv": "Određeni član ženskog roda",
+    "lv": "određeni član ženskog roda",
     "level": "A1",
     "study": {
       "id": "a1-die",
       "layout": "standardStudy",
-      "translation": "Određeni član ženskog roda",
+      "translation": "određeni član ženskog roda",
       "explanation": "Koristi se uz imenice ženskog roda. U nekim rečenicama “die” može funkcionisati i kao zamjenica ili odnosna zamjenica.",
       "examples": [
         {
@@ -4980,17 +4980,17 @@ const A1_WORDS = [
     "de": "Dienstag",
     "de_article": "der",
     "de_plural": "die Dienstage",
-    "lv": "Utorak",
+    "lv": "utorak",
     "level": "A1"
   },
   {
     "de": "dieser",
-    "lv": "Ovaj",
+    "lv": "ovaj",
     "level": "A1",
     "study": {
       "id": "a1-dieser",
       "layout": "standardStudy",
-      "translation": "Ovaj",
+      "translation": "ovaj",
       "explanation": "Označava konkretnu ili posebno istaknutu osobu ili stvar muškog roda. Koristi se uz imenicu muškog roda.",
       "examples": [
         {
@@ -5114,90 +5114,90 @@ const A1_WORDS = [
     "de": "Ding",
     "de_article": "das",
     "de_plural": "die Dinge",
-    "lv": "Stvar",
+    "lv": "stvar",
     "level": "A1"
   },
   {
     "de": "Donnerstag",
     "de_article": "der",
     "de_plural": "die Donnerstage",
-    "lv": "Četvrtak",
+    "lv": "četvrtak",
     "level": "A1"
   },
   {
     "de": "dort",
-    "lv": "Tamo",
+    "lv": "tamo",
     "level": "A1"
   },
   {
     "de": "drei",
-    "lv": "Tri",
+    "lv": "tri",
     "level": "A1"
   },
   {
     "de": "dreihundert",
-    "lv": "Tri stotine",
+    "lv": "tristo",
     "level": "A1"
   },
   {
     "de": "dreimal",
-    "lv": "Tri puta",
+    "lv": "triput",
     "level": "A1"
   },
   {
     "de": "dreißig",
-    "lv": "Trideset",
+    "lv": "trideset",
     "level": "A1"
   },
   {
     "de": "dreizehn",
-    "lv": "Trinaest",
+    "lv": "trinaest",
     "level": "A1"
   },
   {
     "de": "dritte",
-    "lv": "Treći",
+    "lv": "treći",
     "level": "A1"
   },
   {
     "de": "du",
-    "lv": "Ti",
+    "lv": "ti",
     "level": "A1"
   },
   {
     "de": "dürfen",
-    "lv": "Biti dozvoljeno",
+    "lv": "smjeti",
     "level": "A1"
   },
   {
     "de": "Dusche",
     "de_article": "die",
     "de_plural": "die Duschen",
-    "lv": "Tuš",
+    "lv": "tuš",
     "level": "A1"
   },
   {
     "de": "Ecke",
     "de_article": "die",
     "de_plural": "die Ecken",
-    "lv": "Ugao",
+    "lv": "ugao",
     "level": "A1"
   },
   {
     "de": "Ei",
     "de_article": "das",
     "de_plural": "die Eier",
-    "lv": "Jaje",
+    "lv": "jaje",
     "level": "A1"
   },
   {
     "de": "ein",
-    "lv": "Neodređeni član",
+    "lv": "neodređeni član",
     "level": "A1",
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "Neodređeni član",
+      "translation": "neodređeni član",
       "explanation": [
         "Glavna ideja: ein je neodređeni član.",
         "Ein je neodređeni član za imenice muškog i srednjeg roda u nominativu.",
@@ -5359,26 +5359,26 @@ const A1_WORDS = [
   },
   {
     "de": "einfach",
-    "lv": "Jednostavno",
+    "lv": "jednostavan",
     "level": "A1"
   },
   {
     "de": "eins",
-    "lv": "Jedan",
+    "lv": "jedan",
     "level": "A1"
   },
   {
     "de": "Eis",
     "de_article": "das",
-    "lv": "Led • Sladoled",
+    "lv": "led",
     "level": "A1",
     "study": {
       "id": "a1-eis",
       "layout": "standardStudy",
-      "translation": "Led • Sladoled",
+      "translation": "led",
       "explanation": [
         "Glavna ideja: das Eis može značiti i led i sladoled.",
-        "Ako je riječ o hladnoj zaleđenoj vodi, na latvijskom se obično kaže ledus.",
+        "Ako je riječ o hladnoj zaleđenoj vodi, na bosanskom se obično kaže led.",
         "Ako je riječ o hrani ili desertu, das Eis u svakodnevnom govoru vrlo često znači sladoled.",
         "Kontekst obično odmah pokazuje koje je značenje mišljeno.",
         "Na nivou A1 najvažnije fraze su ein Eis essen i Eis im Glas."
@@ -5431,7 +5431,7 @@ const A1_WORDS = [
         "text": "Zapamtite: hrana → sladoled • Zima/voda → led."
       },
       "important": [
-        "U latvijskom su led i sladoled dvije različite riječi, ali se u njemačkom za oboje često koristi das Eis.",
+        "U bosanskom su led i sladoled dvije različite riječi, ali se u njemačkom za oboje često koristi das Eis.",
         "Kontekst je ključan: hrana znači sladoled, hladna površina ili voda znači led."
       ],
       "sectionAccents": {
@@ -5640,55 +5640,55 @@ const A1_WORDS = [
   },
   {
     "de": "elf",
-    "lv": "Jedanaest",
+    "lv": "jedanaest",
     "level": "A1"
   },
   {
     "de": "E-Mail",
     "de_article": "die",
     "de_plural": "die E-Mails",
-    "lv": "E-mail",
+    "lv": "e-mail",
     "level": "A1"
   },
   {
     "de": "Eltern",
     "de_article": "die",
-    "lv": "Roditeljima",
+    "lv": "roditelji",
     "level": "A1"
   },
   {
     "de": "Ende",
     "de_article": "das",
-    "lv": "Kraj",
+    "lv": "kraj",
     "level": "A1"
   },
   {
     "de": "er",
-    "lv": "On",
+    "lv": "on",
     "level": "A1"
   },
   {
     "de": "Erbse",
     "de_article": "die",
     "de_plural": "die Erbsen",
-    "lv": "Grašak",
+    "lv": "grašak",
     "level": "A1"
   },
   {
     "de": "Erde",
     "de_article": "die",
     "de_plural": "die Erden",
-    "lv": "Zemlja",
+    "lv": "zemlja",
     "level": "A1"
   },
   {
     "de": "erst",
-    "lv": "Samo",
+    "lv": "tek",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "Samo",
+      "translation": "tek",
       "explanation": [
         "Glavna ideja: erst najčešće znači samo. Međutim, u određenom kontekstu može značiti i najprije.",
         "Erst često označava da se nešto dešava kasnije nego što se očekivalo.",
@@ -5890,17 +5890,17 @@ const A1_WORDS = [
   },
   {
     "de": "erste",
-    "lv": "Prvi",
+    "lv": "prvi",
     "level": "A1"
   },
   {
     "de": "es",
-    "lv": "To",
+    "lv": "ono",
     "level": "A1",
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "To",
+      "translation": "ono",
       "explanation": [
         "Glavna ideja: es je zamjenica.",
         "Upotrebljava se: to, u bezličnim konstrukcijama."
@@ -5936,11 +5936,11 @@ const A1_WORDS = [
         }
       ],
       "info": [
-        "Latvijsko “es” = njemačko “ich”",
+        "Bosansko “ja” = njemačko “ich”",
         "Njemačko “es” = to; ono; bezlični oblik"
       ],
       "tip": {
-        "text": "Zapamti: latvijsko “es” → ich, a ne njemačko es."
+        "text": "Zapamti: bosansko “ja” → ich, a ne njemačko es."
       },
       "sectionAccents": {
         "examples": [
@@ -6051,7 +6051,7 @@ const A1_WORDS = [
       },
       "important": [
         "Ich i es nisu jedno te isto.",
-        "Njemačko es nije latvijsko “ja”.",
+        "Njemačko es nije bosansko „ja“.",
         "Bosansko „ja” na njemačkom je ich • Njemačko es često znači to ili se ne prevodi."
       ]
     }
@@ -6060,17 +6060,17 @@ const A1_WORDS = [
     "de": "Esslöffel",
     "de_article": "der",
     "de_plural": "die Esslöffel",
-    "lv": "Supena kašika",
+    "lv": "supena kašika",
     "level": "A1"
   },
   {
     "de": "etwas",
-    "lv": "Glavna",
+    "lv": "nešto",
     "level": "A1",
     "study": {
       "id": "a1-etwas",
       "layout": "standardStudy",
-      "translation": "Glavna",
+      "translation": "nešto",
       "explanation": [
         "Glavna ideja: etwas uglavnom znači nešto. Kod pridjeva može značiti pomalo.",
         "Ich habe etwas gesehen. — Vidio sam nešto.",
@@ -6126,7 +6126,7 @@ const A1_WORDS = [
       "important": [
         "Uz pridjeve etwas često znači malo.",
         "Etwas nije isto što i nichts: etwas znači da nešto postoji, a nichts znači ništa.",
-        "Na latvijskom ponekad bolje zvuči kaut ko, a ne kaut kas, na primjer: etwas trinken = kaut ko dzert."
+        "Na bosanskom ponekad bolje zvuči nešto, a ne nešto, na primjer: etwas trinken = piti nešto."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6332,12 +6332,12 @@ const A1_WORDS = [
   },
   {
     "de": "euch",
-    "lv": "Vi • Vi",
+    "lv": "vi",
     "level": "A1",
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "Vi • Vi",
+      "translation": "vi",
       "explanation": "“euch” je zamjenica u 2. licu množine. Koristi se i kao direktni objekt (kuda?) — “vas”, i kao indirektni objekt (kome?) — “vama”.",
       "examples": [
         {
@@ -6385,7 +6385,7 @@ const A1_WORDS = [
       ],
       "tip": {
         "text": "„euch” odgovara na pitanje „kome?” ili je direktni objekat u rečenicama sa „vi”.",
-        "example": "Es jums palīdzu. = Ich helfe euch. Es redzu jūs. = Ich sehe euch. Es stāstu jums. = Ich erzähle euch."
+        "example": "Ja vam pomažem. = Ich helfe euch. Vidim vas. = Ich sehe euch. Pričam vam. = Ich erzähle euch."
       },
       "accents": {
         "blue": [
@@ -6402,17 +6402,17 @@ const A1_WORDS = [
   },
   {
     "de": "euer",
-    "lv": "Tvoj",
+    "lv": "vaš",
     "level": "A1"
   },
   {
     "de": "fahren",
-    "lv": "Voziti",
+    "lv": "voziti",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Voziti",
+      "translation": "voziti",
       "explanation": [
         "Glavna ideja: fahren znači voziti se prevoznim sredstvom, a u nekim rečenicama i voziti ili odvesti nekoga.",
         "Fahren se koristi kada se putuje automobilom, autobusom, vozom, biciklom ili drugim vozilom.",
@@ -6473,7 +6473,7 @@ const A1_WORDS = [
       },
       "important": {
         "text": "Fahren ≠ samo \"vozi\"",
-        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
+        "example": "U njemačkom jeziku jedan te isti glagol često znači: voziti se • voziti • odvesti, zavisno od konteksta."
       },
       "accents": {
         "blue": [
@@ -6481,11 +6481,11 @@ const A1_WORDS = [
           "fahre"
         ],
         "purple": [
-          "braukt",
+          "voziti se",
           "braucu",
-          "vest",
+          "voditi",
           "vedu",
-          "aizvest"
+          "odvesti"
         ],
         "green": [
           "transportu",
@@ -6510,9 +6510,9 @@ const A1_WORDS = [
             "fahren"
           ],
           "purple": [
-            "braukt",
-            "vest",
-            "aizvest"
+            "voziti se",
+            "voditi",
+            "odvesti"
           ],
           "green": [
             "auto",
@@ -6730,7 +6730,7 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt"
+                "voziti se"
               ]
             },
             "example": {
@@ -6738,9 +6738,9 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt",
-                "vest",
-                "aizvest"
+                "voziti se",
+                "voditi",
+                "odvesti"
               ]
             }
           }
@@ -6750,101 +6750,101 @@ const A1_WORDS = [
   },
   {
     "de": "falsch",
-    "lv": "Pogrešan",
+    "lv": "pogrešan",
     "level": "A1"
   },
   {
     "de": "Familie",
     "de_article": "die",
     "de_plural": "die Familien",
-    "lv": "Porodica",
+    "lv": "porodica",
     "level": "A1"
   },
   {
     "de": "Nachname",
     "de_article": "der",
     "de_plural": "die Nachnamen",
-    "lv": "Prezime",
+    "lv": "prezime",
     "level": "A1"
   },
   {
     "de": "Farbe",
     "de_article": "die",
     "de_plural": "die Farben",
-    "lv": "Boja",
+    "lv": "boja",
     "level": "A1"
   },
   {
     "de": "fast",
-    "lv": "Skoro",
+    "lv": "skoro",
     "level": "A1"
   },
   {
     "de": "Februar",
     "de_article": "der",
-    "lv": "Februar",
+    "lv": "februar",
     "level": "A1"
   },
   {
     "de": "Fehler",
     "de_article": "der",
     "de_plural": "die Fehler",
-    "lv": "Greška",
+    "lv": "greška",
     "level": "A1"
   },
   {
     "de": "Fenster",
     "de_article": "das",
     "de_plural": "die Fenster",
-    "lv": "Prozor",
+    "lv": "prozor",
     "level": "A1"
   },
   {
     "de": "Wochenende",
     "de_article": "das",
     "de_plural": "die Wochenenden",
-    "lv": "Vikend",
+    "lv": "vikend",
     "level": "A1"
   },
   {
     "de": "Fernseher",
     "de_article": "der",
     "de_plural": "die Fernseher",
-    "lv": "Televizija",
+    "lv": "televizor",
     "level": "A1"
   },
   {
     "de": "fertig",
-    "lv": "Spreman",
+    "lv": "gotov",
     "level": "A1"
   },
   {
     "de": "fett",
-    "lv": "Mast",
+    "lv": "mastan",
     "level": "A1"
   },
   {
     "de": "Film",
     "de_article": "der",
     "de_plural": "die Filme",
-    "lv": "Film",
+    "lv": "film",
     "level": "A1"
   },
   {
     "de": "Filzstift",
     "de_article": "der",
     "de_plural": "die Filzstifte",
-    "lv": "Flomaster",
+    "lv": "flomaster",
     "level": "A1"
   },
   {
     "de": "finden",
-    "lv": "Pronaći",
+    "lv": "naći",
     "level": "A1",
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "Pronaći",
+      "translation": "naći",
       "explanation": [
         "Glavna ideja: finden najčešće znači pronaći.",
         "U razgovorima finden vrlo često znači i smatrati ili misliti o nečemu.",
@@ -7062,77 +7062,77 @@ const A1_WORDS = [
     "de": "Finger",
     "de_article": "der",
     "de_plural": "die Finger",
-    "lv": "Prst",
+    "lv": "prst",
     "level": "A1"
   },
   {
     "de": "Fisch",
     "de_article": "der",
     "de_plural": "die Fische",
-    "lv": "Riba",
+    "lv": "riba",
     "level": "A1"
   },
   {
     "de": "Flasche",
     "de_article": "die",
     "de_plural": "die Flaschen",
-    "lv": "Boca",
+    "lv": "boca",
     "level": "A1"
   },
   {
     "de": "Fleisch",
     "de_article": "das",
-    "lv": "Meso",
+    "lv": "meso",
     "level": "A1"
   },
   {
     "de": "fliegen",
-    "lv": "Letjeti",
+    "lv": "letjeti",
     "level": "A1"
   },
   {
     "de": "Flugzeug",
     "de_article": "das",
     "de_plural": "die Flugzeuge",
-    "lv": "Avion",
+    "lv": "avion",
     "level": "A1"
   },
   {
     "de": "Fluss",
     "de_article": "der",
     "de_plural": "die Flüsse",
-    "lv": "Rijeka",
+    "lv": "rijeka",
     "level": "A1"
   },
   {
     "de": "Foto",
     "de_article": "das",
     "de_plural": "die Fotos",
-    "lv": "Fotografija",
+    "lv": "fotografija",
     "level": "A1"
   },
   {
     "de": "Frage",
     "de_article": "die",
     "de_plural": "die Fragen",
-    "lv": "Pitanje",
+    "lv": "pitanje",
     "level": "A1"
   },
   {
     "de": "fragen",
-    "lv": "Pitati",
+    "lv": "pitati",
     "level": "A1"
   },
   {
     "de": "Frau",
     "de_article": "die",
     "de_plural": "die Frauen",
-    "lv": "Glavna",
+    "lv": "žena",
     "level": "A1",
     "study": {
       "id": "a1-frau",
       "layout": "standardStudy",
-      "translation": "Glavna",
+      "translation": "žena",
       "explanation": [
         "Glavna ideja: die Frau može značiti ženu (spol) ili suprugu (bračna partnerica).",
         "Ako je riječ jednostavno o spolu ili osobi, die Frau = žena.",
@@ -7305,109 +7305,109 @@ const A1_WORDS = [
   },
   {
     "de": "frei",
-    "lv": "Besplatno",
+    "lv": "slobodan",
     "level": "A1"
   },
   {
     "de": "Freitag",
     "de_article": "der",
     "de_plural": "die Freitage",
-    "lv": "Petak",
+    "lv": "petak",
     "level": "A1"
   },
   {
     "de": "Freund",
     "de_article": "der",
     "de_plural": "die Freunde",
-    "lv": "Prijatelj",
+    "lv": "prijatelj",
     "level": "A1"
   },
   {
     "de": "Freundin",
     "de_article": "die",
     "de_plural": "die Freundinnen",
-    "lv": "Djevojka",
+    "lv": "prijateljica",
     "level": "A1"
   },
   {
     "de": "freundlich",
-    "lv": "Vrsta",
+    "lv": "ljubazan",
     "level": "A1"
   },
   {
     "de": "frisch",
-    "lv": "Svjež",
+    "lv": "svjež",
     "level": "A1"
   },
   {
     "de": "früh",
-    "lv": "Rano",
+    "lv": "rano",
     "level": "A1"
   },
   {
     "de": "Frühling",
     "de_article": "der",
     "de_plural": "die Frühlinge",
-    "lv": "Proljeće",
+    "lv": "proljeće",
     "level": "A1"
   },
   {
     "de": "Frühstück",
     "de_article": "das",
     "de_plural": "die Frühstücke",
-    "lv": "Doručak",
+    "lv": "doručak",
     "level": "A1"
   },
   {
     "de": "frühstücken",
-    "lv": "Doručkovati",
+    "lv": "doručkovati",
     "level": "A1"
   },
   {
     "de": "fünf",
-    "lv": "Pet",
+    "lv": "pet",
     "level": "A1"
   },
   {
     "de": "fünfhundert",
-    "lv": "Pet stotina",
+    "lv": "petsto",
     "level": "A1"
   },
   {
     "de": "fünfte",
-    "lv": "Peti",
+    "lv": "peti",
     "level": "A1"
   },
   {
     "de": "fünfzehn",
-    "lv": "Petnaest",
+    "lv": "petnaest",
     "level": "A1"
   },
   {
     "de": "fünfzehnte",
-    "lv": "Petnaesti",
+    "lv": "petnaesti",
     "level": "A1"
   },
   {
     "de": "fünfzig",
-    "lv": "Pedeset",
+    "lv": "pedeset",
     "level": "A1"
   },
   {
     "de": "fünfzigste",
-    "lv": "Pedeseti",
+    "lv": "pedeseti",
     "level": "A1"
   },
   {
     "de": "für",
-    "lv": "Za • Za",
+    "lv": "za",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "Za • Za",
+      "translation": "za",
       "explanation": [
-        "Glavna ideja: für je prijedlog koji uvijek traži akuzativ — na latvijskom obično priekš ili par.",
+        "Glavna ideja: für je prijedlog koji uvijek traži akuzativ — na bosanskom obično za ili o.",
         "Kada govorimo o primaocu ili namjeri, für = za (für dich = za vas).",
         "Kada govorimo o zamjeni, naknadi ili razlogu, für = za (danke für das Geschenk = hvala na poklonu).",
         "Für uvijek zahtijeva akuzativ bez obzira na značenje."
@@ -7567,19 +7567,19 @@ const A1_WORDS = [
     "de": "Fuß",
     "de_article": "der",
     "de_plural": "die Füße",
-    "lv": "Stopalo",
+    "lv": "stopalo",
     "level": "A1"
   },
   {
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Fudbal",
+    "lv": "fudbal",
     "level": "A1",
     "study": {
       "id": "a1-fussball-study",
       "layout": "standardStudy",
-      "translation": "Fudbal",
+      "translation": "fudbal",
       "explanation": [
         "Glavna ideja: Fußball najčešće znači fudbal kao sport.",
         "S članom i u brojivom značenju der Fußball može značiti i fudbalsku loptu.",
@@ -7623,12 +7623,12 @@ const A1_WORDS = [
   },
   {
     "de": "ganz",
-    "lv": "Zdravo",
+    "lv": "cijeli",
     "level": "A1",
     "study": {
       "id": "a1-ganz-study",
       "layout": "standardStudy",
-      "translation": "Zdravo",
+      "translation": "cijeli",
       "explanation": [
         "Glavna ideja: ganz zajedno s imenicom znači cijeli ili sav u cjelini.",
         "Ispred pridjeva ili priloga ganz može značiti potpuno, sasvim ili prilično.",
@@ -7678,31 +7678,31 @@ const A1_WORDS = [
     "de": "Garage",
     "de_article": "die",
     "de_plural": "die Garagen",
-    "lv": "Garaža",
+    "lv": "garaža",
     "level": "A1"
   },
   {
     "de": "Garten",
     "de_article": "der",
     "de_plural": "die Gärten",
-    "lv": "Vrt",
+    "lv": "vrt",
     "level": "A1"
   },
   {
     "de": "Gast",
     "de_article": "der",
     "de_plural": "die Gäste",
-    "lv": "Gost",
+    "lv": "gost",
     "level": "A1"
   },
   {
     "de": "geben",
-    "lv": "Dati",
+    "lv": "dati",
     "level": "A1",
     "study": {
       "id": "a1-geben",
       "layout": "standardStudy",
-      "translation": "Dati",
+      "translation": "dati",
       "explanation": [
         "Glavna ideja: geben znači dati.",
         "Geben se koristi kada neko nešto daje drugoj osobi.",
@@ -7959,17 +7959,17 @@ const A1_WORDS = [
   },
   {
     "de": "geboren",
-    "lv": "Je rođen",
+    "lv": "rođen",
     "level": "A1"
   },
   {
     "de": "gefallen",
-    "lv": "To like",
+    "lv": "sviđati se",
     "level": "A1",
     "study": {
       "id": "a1-gefallen-study",
       "layout": "standardStudy",
-      "translation": "To like",
+      "translation": "sviđati se",
       "explanation": [
         "Glavna ideja: gefallen znači sviđati se, ali se struktura njemačke rečenice razlikuje od one u letonskom jeziku.",
         "Stvar koja se sviđa u njemačkom je subjekat rečenice.",
@@ -8003,7 +8003,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Zapamti konstrukciju: Das gefällt mir.",
-        "Ne koristi doslovni latvijski redoslijed riječi."
+        "Ne koristi doslovni bosanski redoslijed riječi."
       ],
       "important": [
         "Gefallen se koristi s dativom: mir, dir, ihm, ihr.",
@@ -8013,50 +8013,50 @@ const A1_WORDS = [
   },
   {
     "de": "gegen",
-    "lv": "Vs",
+    "lv": "protiv",
     "level": "A1"
   },
   {
     "de": "gehen",
-    "lv": "Idi",
+    "lv": "ići",
     "level": "A1"
   },
   {
     "de": "gelb",
-    "lv": "Žut",
+    "lv": "žut",
     "level": "A1"
   },
   {
     "de": "Geld",
     "de_article": "das",
-    "lv": "Novac",
+    "lv": "novac",
     "level": "A1"
   },
   {
     "de": "genug",
-    "lv": "Dovoljno",
+    "lv": "dovoljno",
     "level": "A1"
   },
   {
     "de": "geradeaus",
-    "lv": "Pravo naprijed",
+    "lv": "pravo",
     "level": "A1"
   },
   {
     "de": "gern",
-    "lv": "Voljno",
+    "lv": "rado",
     "level": "A1"
   },
   {
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Priča",
+    "lv": "priča",
     "level": "A1",
     "study": {
       "id": "a1-geschichte-study",
       "layout": "standardStudy",
-      "translation": "Priča",
+      "translation": "priča",
       "explanation": [
         "Glavna ideja: Geschichte može značiti priču ili historiju.",
         "Množina die Geschichten obično znači priče.",
@@ -8101,12 +8101,12 @@ const A1_WORDS = [
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Braćo i sestre",
+    "lv": "braća i sestre",
     "level": "A1",
     "study": {
       "id": "a1-geschwister-study",
       "layout": "standardStudy",
-      "translation": "Braćo i sestre",
+      "translation": "braća i sestre",
       "explanation": [
         "Glavna ideja: Geschwister znači braću i sestre zajedno.",
         "Ova riječ se obično koristi samo u množini.",
@@ -8152,59 +8152,59 @@ const A1_WORDS = [
     "de": "Gesicht",
     "de_article": "das",
     "de_plural": "die Gesichter",
-    "lv": "Lice",
+    "lv": "lice",
     "level": "A1"
   },
   {
     "de": "gestern",
-    "lv": "Jučer",
+    "lv": "jučer",
     "level": "A1"
   },
   {
     "de": "gesund",
-    "lv": "Zdravo",
+    "lv": "zdrav",
     "level": "A1"
   },
   {
     "de": "Gesundheit",
     "de_article": "die",
-    "lv": "Zdravlje",
+    "lv": "zdravlje",
     "level": "A1"
   },
   {
     "de": "Getränk",
     "de_article": "das",
     "de_plural": "die Getränke",
-    "lv": "Piće",
+    "lv": "piće",
     "level": "A1"
   },
   {
     "de": "Giraffe",
     "de_article": "die",
     "de_plural": "die Giraffen",
-    "lv": "Žirafa",
+    "lv": "žirafa",
     "level": "A1"
   },
   {
     "de": "Glas",
     "de_article": "das",
     "de_plural": "die Gläser",
-    "lv": "Čaša",
+    "lv": "čaša",
     "level": "A1"
   },
   {
     "de": "glauben",
-    "lv": "Vjerovati",
+    "lv": "vjerovati",
     "level": "A1"
   },
   {
     "de": "gleich",
-    "lv": "Odmah",
+    "lv": "odmah",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "Odmah",
+      "translation": "odmah",
       "explanation": [
         "Glavna ideja: gleich u vremenskom smislu znači odmah, u poređenju znači jednak.",
         "Kada je u pitanju vrijeme, gleich = odmah/u trenutku (Ich komme gleich. = Dolazim odmah.).",
@@ -8360,48 +8360,48 @@ const A1_WORDS = [
   {
     "de": "Glück",
     "de_article": "das",
-    "lv": "Sreća",
+    "lv": "sreća",
     "level": "A1"
   },
   {
     "de": "glücklich",
-    "lv": "Sretan",
+    "lv": "sretan",
     "level": "A1"
   },
   {
     "de": "Gramm",
     "de_article": "das",
     "de_plural": "die Gramm",
-    "lv": "Gram",
+    "lv": "gram",
     "level": "A1"
   },
   {
     "de": "Grammatik",
     "de_article": "die",
     "de_plural": "die Grammatiken",
-    "lv": "Gramatika",
+    "lv": "gramatika",
     "level": "A1"
   },
   {
     "de": "Gras",
     "de_article": "das",
     "de_plural": "die Gräser",
-    "lv": "Trava",
+    "lv": "trava",
     "level": "A1"
   },
   {
     "de": "grau",
-    "lv": "Siva",
+    "lv": "siv",
     "level": "A1"
   },
   {
     "de": "groß",
-    "lv": "Veliki",
+    "lv": "velik",
     "level": "A1",
     "study": {
       "id": "a1-gross-study",
       "layout": "standardStudy",
-      "translation": "Veliki",
+      "translation": "velik",
       "explanation": [
         "Glavna ideja: groß znači velik, ali za osobu obično znači visok ili visokog rasta.",
         "Groß opisuje stvari, mjesta i ukupnu veličinu.",
@@ -8511,12 +8511,12 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Baka i djed",
+    "lv": "baka i djed",
     "level": "A1",
     "study": {
       "id": "a1-grosseltern-study",
       "layout": "standardStudy",
-      "translation": "Baka i djed",
+      "translation": "baka i djed",
       "explanation": [
         "Glavna ideja: Großeltern označava baku i djeda zajedno.",
         "Ova riječ se koristi u množini.",
@@ -8562,55 +8562,55 @@ const A1_WORDS = [
     "de": "Großmutter",
     "de_article": "die",
     "de_plural": "die Großmütter",
-    "lv": "Baka",
+    "lv": "baka",
     "level": "A1"
   },
   {
     "de": "Großvater",
     "de_article": "der",
     "de_plural": "die Großväter",
-    "lv": "Deda",
+    "lv": "djed",
     "level": "A1"
   },
   {
     "de": "grün",
-    "lv": "Zeleno",
+    "lv": "zelen",
     "level": "A1"
   },
   {
     "de": "Gruppe",
     "de_article": "die",
     "de_plural": "die Gruppen",
-    "lv": "Grupa",
+    "lv": "grupa",
     "level": "A1"
   },
   {
     "de": "Gruß",
     "de_article": "der",
     "de_plural": "die Grüße",
-    "lv": "Pozdrav",
+    "lv": "pozdrav",
     "level": "A1"
   },
   {
     "de": "grüßen",
-    "lv": "Pozdraviti",
+    "lv": "pozdraviti",
     "level": "A1"
   },
   {
     "de": "Gurke",
     "de_article": "die",
     "de_plural": "die Gurken",
-    "lv": "Krastavac",
+    "lv": "krastavac",
     "level": "A1"
   },
   {
     "de": "gut",
-    "lv": "Dobro",
+    "lv": "dobar",
     "level": "A1",
     "study": {
       "id": "a1-gut-study",
       "layout": "standardStudy",
-      "translation": "Dobro",
+      "translation": "dobar",
       "explanation": [
         "Glavna ideja: gut je pridjev/prilog — dobar, uspješno, u redu.",
         "Gut opisuje kvalitet, zdravlje ili to kako se nešto odvija (Es geht mir gut. = Dobro sam.).",
@@ -8778,20 +8778,20 @@ const A1_WORDS = [
     "de": "Haar",
     "de_article": "das",
     "de_plural": "die Haare",
-    "lv": "Kosa",
+    "lv": "kosa",
     "level": "A1"
   },
   {
     "de": "haben",
-    "lv": "Imam",
+    "lv": "imati",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
-      "translation": "Imam",
+      "translation": "imati",
       "explanation": [
-        "Glavna ideja: haben je glagol koji se na latvijskom obično izražava konstrukcijama “man ir”, “tev ir” ili “viņam ir”.",
-        "Latvijska dativna konstrukcija „man ir / tev ir” na njemačkom je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — a ne *mir habe.",
+        "Glavna ideja: haben je glagol koji se na bosanskom obično izražava konstrukcijama “ja imam”, “ti imaš” ili “on ima”.",
+        "Bosanska konstrukcija „ja imam / ti imaš” na njemačkom je nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — a ne *mir habe.",
         "Haben slijedi akuzativ: Ich habe ein Auto. = Imam auto.",
         "Haben se također koristi kao pomoćni glagol u perfektu: Ich habe gelernt."
       ],
@@ -9013,31 +9013,31 @@ const A1_WORDS = [
   },
   {
     "de": "halb",
-    "lv": "Strana",
+    "lv": "pola",
     "level": "A1"
   },
   {
     "de": "Hälfte",
     "de_article": "die",
     "de_plural": "die Hälften",
-    "lv": "Strana",
+    "lv": "polovina",
     "level": "A1"
   },
   {
     "de": "Hals",
     "de_article": "der",
     "de_plural": "die Hälse",
-    "lv": "Vrat",
+    "lv": "vrat",
     "level": "A1"
   },
   {
     "de": "halten",
-    "lv": "Glavna",
+    "lv": "držati",
     "level": "A1",
     "study": {
       "id": "a1-halten",
       "layout": "standardStudy",
-      "translation": "Glavna",
+      "translation": "držati",
       "explanation": [
         "Glavna ideja: halten najčešće znači držati.",
         "Za autobus, voz ili drugi prijevoz halten može značiti zaustaviti se ili stati.",
@@ -9287,23 +9287,23 @@ const A1_WORDS = [
     "de": "Haltestelle",
     "de_article": "die",
     "de_plural": "die Haltestellen",
-    "lv": "Stani",
+    "lv": "stajalište",
     "level": "A1"
   },
   {
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Ruka (dlan)",
+    "lv": "ruka",
     "level": "A1",
     "study": {
       "id": "a1-hand-study",
       "layout": "standardStudy",
-      "translation": "Ruka (dlan)",
+      "translation": "ruka",
       "explanation": [
         "Glavna misao: die Hand znači šaka.",
         "U njemačkom jeziku Arm i Hand su dvije odvojene riječi.",
-        "U latvijskom svakodnevnom jeziku riječ roka često može označavati i Arm i Hand."
+        "U bosanskom svakodnevnom jeziku riječ ruka često može označavati i Arm i Hand."
       ],
       "examples": [
         {
@@ -9344,62 +9344,62 @@ const A1_WORDS = [
     "de": "Handschuh",
     "de_article": "der",
     "de_plural": "die Handschuhe",
-    "lv": "Rukavicu",
+    "lv": "rukavica",
     "level": "A1"
   },
   {
     "de": "Handtasche",
     "de_article": "die",
     "de_plural": "die Handtaschen",
-    "lv": "Torbica",
+    "lv": "torbica",
     "level": "A1"
   },
   {
     "de": "Handtuch",
     "de_article": "das",
     "de_plural": "die Handtücher",
-    "lv": "Peškir",
+    "lv": "peškir",
     "level": "A1"
   },
   {
     "de": "Handy",
     "de_article": "das",
     "de_plural": "die Handys",
-    "lv": "Mobilni telefon",
+    "lv": "mobilni telefon",
     "level": "A1"
   },
   {
     "de": "Hauptstadt",
     "de_article": "die",
     "de_plural": "die Hauptstädte",
-    "lv": "Glavni grad",
+    "lv": "glavni grad",
     "level": "A1"
   },
   {
     "de": "Heft",
     "de_article": "das",
     "de_plural": "die Hefte",
-    "lv": "Notebook",
+    "lv": "sveska",
     "level": "A1"
   },
   {
     "de": "heiraten",
-    "lv": "Udati se",
+    "lv": "vjenčati se",
     "level": "A1"
   },
   {
     "de": "heiß",
-    "lv": "Vruće",
+    "lv": "vruć",
     "level": "A1"
   },
   {
     "de": "heißen",
-    "lv": "Zvati se • Srednjim",
+    "lv": "zvati se",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "Zvati se • Srednjim",
+      "translation": "zvati se",
       "explanation": [
         "Glavna ideja: heißen se najčešće koristi da se kaže kako se neko zove.",
         "Fraza Ich heiße... znači „zovem se...”.",
@@ -9650,60 +9650,60 @@ const A1_WORDS = [
   },
   {
     "de": "helfen",
-    "lv": "Pomoći",
+    "lv": "pomoći",
     "level": "A1"
   },
   {
     "de": "Hemd",
     "de_article": "das",
     "de_plural": "die Hemden",
-    "lv": "Košulja",
+    "lv": "košulja",
     "level": "A1"
   },
   {
     "de": "Herbst",
     "de_article": "der",
     "de_plural": "die Herbste",
-    "lv": "Jesen",
+    "lv": "jesen",
     "level": "A1"
   },
   {
     "de": "Herr",
     "de_article": "der",
     "de_plural": "die Herren",
-    "lv": "G",
+    "lv": "gospodin",
     "level": "A1"
   },
   {
     "de": "heute",
-    "lv": "Danas",
+    "lv": "danas",
     "level": "A1"
   },
   {
     "de": "hier",
-    "lv": "Ovdje",
+    "lv": "ovdje",
     "level": "A1"
   },
   {
     "de": "Hilfe",
     "de_article": "die",
     "de_plural": "die Hilfen",
-    "lv": "Pomoć",
+    "lv": "pomoć",
     "level": "A1"
   },
   {
     "de": "hinter",
-    "lv": "Iza",
+    "lv": "iza",
     "level": "A1"
   },
   {
     "de": "hoch",
-    "lv": "Visoko",
+    "lv": "visok",
     "level": "A1",
     "study": {
       "id": "a1-hoch-study",
       "layout": "standardStudy",
-      "translation": "Visoko",
+      "translation": "visok",
       "explanation": [
         "Glavna ideja: Visoko vertikalno, nivo ili visina.",
         "Hoch opisuje vertikalnu visinu ili visok nivo.",
@@ -9847,17 +9847,17 @@ const A1_WORDS = [
   },
   {
     "de": "höflich",
-    "lv": "Pristojan",
+    "lv": "pristojan",
     "level": "A1"
   },
   {
     "de": "hören",
-    "lv": "Čuti • Slušati",
+    "lv": "čuti",
     "level": "A1",
     "study": {
       "id": "a1-hoeren-study",
       "layout": "standardStudy",
-      "translation": "Čuti • Slušati",
+      "translation": "čuti",
       "explanation": [
         "Glavna ideja: Čuti zvuk ili slušati muziku.",
         "Hören uglavnom znači: percipirati zvuk.",
@@ -9955,16 +9955,16 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Uredno • Lijepo",
+    "lv": "lijep",
     "level": "A1",
     "study": {
       "id": "a1-huebsch",
       "layout": "standardStudy",
-      "translation": "Uredno • Lijepo",
+      "translation": "lijep",
       "explanation": [
         "Glavna ideja: hübsch znači lijep, privlačan ili simpatičan po izgledu.",
         "Hübsch često opisuje izgled osobe, odjeće, prostorije ili predmeta.",
-        "Latvijsko jauks je moguće u nekim kontekstima, ali je preširoko kao glavni prijevod.",
+        "Bosansko „lijep“ je moguće u nekim kontekstima, ali je preširoko kao glavni prijevod.",
         "Karakter ili ljubazno ponašanje na njemačkom se češće opisuje riječju nett."
       ],
       "examples": [
@@ -10155,27 +10155,27 @@ const A1_WORDS = [
   },
   {
     "de": "hundert",
-    "lv": "Stotinu",
+    "lv": "sto",
     "level": "A1"
   },
   {
     "de": "hungrig",
-    "lv": "Gladan",
+    "lv": "gladan",
     "level": "A1"
   },
   {
     "de": "ich",
-    "lv": "Ja",
+    "lv": "ja",
     "level": "A1"
   },
   {
     "de": "ihr",
-    "lv": "Vi • Ona",
+    "lv": "vi",
     "level": "A1",
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "Vi • Ona",
+      "translation": "vi",
       "explanation": [
         "Glavna ideja: ihr su dvije različite zamjenice s istim pisanim oblikom — obraćanje većem broju ljudi (vi) i dativni oblik zamjenice sie (njoj/njezin).",
         "Sa malim slovima ihr kao adresa za nekoliko ljudi prevodi se kao vi (Kommt ihr mit? = Idete li?).",
@@ -10343,12 +10343,12 @@ const A1_WORDS = [
   },
   {
     "de": "im",
-    "lv": "U • Gdje?",
+    "lv": "u",
     "level": "A1",
     "study": {
       "id": "a1-im",
       "layout": "standardStudy",
-      "translation": "U • Gdje?",
+      "translation": "u",
       "explanation": [
         "Im je skraćenica prijedloga in i člana dem.",
         "Puni oblik: in dem (kome?).",
@@ -10684,22 +10684,22 @@ const A1_WORDS = [
   },
   {
     "de": "immer",
-    "lv": "Uvijek",
+    "lv": "uvijek",
     "level": "A1"
   },
   {
     "de": "in",
-    "lv": "U • Do",
+    "lv": "u",
     "level": "A1",
     "study": {
       "id": "a1-in",
       "layout": "standardStudy",
-      "translation": "U • Do",
+      "translation": "u",
       "explanation": [
         "Glavna ideja: in obično znači unutra ili u neko mjesto kada je riječ o prostoru, državi, gradu ili zgradi.",
         "Kod označavanja lokacije, in se često prevodi kao unutra ili u/-u: in Berlin = u Berlinu.",
         "Kod kretanja in znači prema unutra: ins Kino = u kino.",
-        "Prijevod na latvijski se mijenja ovisno o kontekstu."
+        "Prijevod na bosanski se mijenja ovisno o kontekstu."
       ],
       "examples": [
         {
@@ -10723,7 +10723,7 @@ const A1_WORDS = [
         "text": "Zapamtite: in/in → in."
       },
       "important": [
-        "In nije uvijek doslovno „unutra” • Na latvijskom se često kaže Berlīnē, skolā, uz kino.",
+        "In nije uvijek doslovno „unutra” • Na bosanskom se često kaže u Berlinu, u školi, u kino.",
         "Ako je riječ o površini, često treba auf, a ne in."
       ],
       "sectionAccents": {
@@ -10853,12 +10853,12 @@ const A1_WORDS = [
   },
   {
     "de": "ins",
-    "lv": "U • U • Gdje?",
+    "lv": "u",
     "level": "A1",
     "study": {
       "id": "a1-ins",
       "layout": "standardStudy",
-      "translation": "U • U • Gdje?",
+      "translation": "u",
       "explanation": [
         "Ins je skraćenica od prijedloga in i člana das.",
         "Puni oblik: u das (gdje?).",
@@ -11203,53 +11203,53 @@ const A1_WORDS = [
   },
   {
     "de": "ja",
-    "lv": "Da",
+    "lv": "da",
     "level": "A1"
   },
   {
     "de": "Januar",
     "de_article": "der",
-    "lv": "Januara",
+    "lv": "januar",
     "level": "A1"
   },
   {
     "de": "jawohl",
-    "lv": "Upravo tako",
+    "lv": "svakako",
     "level": "A1"
   },
   {
     "de": "jeder",
-    "lv": "Svaki",
+    "lv": "svaki",
     "level": "A1"
   },
   {
     "de": "jemand",
-    "lv": "Nekoga",
+    "lv": "neko",
     "level": "A1"
   },
   {
     "de": "jetzt",
-    "lv": "Sada • Trenutno",
+    "lv": "sada",
     "level": "A1"
   },
   {
     "de": "Juli",
     "de_article": "der",
-    "lv": "Jula",
+    "lv": "juli",
     "level": "A1"
   },
   {
     "de": "jung",
-    "lv": "Mladi (o ljudima)",
+    "lv": "mlad",
     "level": "A1",
     "study": {
       "id": "a1-jung",
       "layout": "standardStudy",
-      "translation": "Mladi (o ljudima)",
+      "translation": "mlad",
       "explanation": [
         "Glavna ideja: jung znači mlad po godinama — koristi se za ljude i životinje, ne za stvari.",
         "Jung opisuje starost - suprotno je alt (starost).",
-        "U latvijskom jeziku riječ jauns ima dva značenja: mlad po godinama (jung) i nov/nedavno stvoren (neu).",
+        "U bosanskom jeziku postoje dvije riječi: mlad po godinama (jung) i nov/nedavno stvoren (neu).",
         "Za stvari koje ste nedavno kreirali ili stekli, koristite neu, ne jung.",
         "Jung se također koristi i u prenesenom značenju: mlada generacija, mladi par, mladi ljudi.",
         "Tu je i imenica die Jugend (mladost)."
@@ -11438,28 +11438,28 @@ const A1_WORDS = [
   {
     "de": "Juni",
     "de_article": "der",
-    "lv": "Juna",
+    "lv": "juni",
     "level": "A1"
   },
   {
     "de": "Jeans",
     "de_article": "die",
-    "lv": "Farmerke",
+    "lv": "farmerke",
     "level": "A1"
   },
   {
     "de": "kaufen",
-    "lv": "Kupiti",
+    "lv": "kupiti",
     "level": "A1"
   },
   {
     "de": "kein",
-    "lv": "Niko • Nikakav",
+    "lv": "nijedan",
     "level": "A1",
     "study": {
       "id": "a1-kein",
       "layout": "standardStudy",
-      "translation": "Niko • Nikakav",
+      "translation": "nijedan",
       "explanation": [
         "Glavna ideja: kein je negacijski član koji negira imenicu — na bosanskom, ovisno o kontekstu, nijedan ili nikakav.",
         "Kein se sklanja kao ein (kein/keine/keinen...) i stoji ispred imenice.",
@@ -11622,18 +11622,18 @@ const A1_WORDS = [
     "de": "Keks",
     "de_article": "der",
     "de_plural": "die Kekse",
-    "lv": "Keks",
+    "lv": "keks",
     "level": "A1"
   },
   {
     "de": "kennen",
-    "lv": "Znati",
+    "lv": "poznavati",
     "level": "A1",
     "id": "a1-kennen",
     "study": {
       "id": "a1-kennen-study",
       "layout": "standardStudy",
-      "translation": "Znati",
+      "translation": "poznavati",
       "explanation": [
         "Glavna ideja: poznavati osobu, mjesto ili stvar iz iskustva.",
         "Kennen uglavnom znači: lično poznavanje.",
@@ -11769,13 +11769,13 @@ const A1_WORDS = [
   },
   {
     "de": "wissen",
-    "lv": "Znati",
+    "lv": "znati",
     "level": "A1",
     "id": "a1-wissen",
     "study": {
       "id": "a1-wissen-study",
       "layout": "standardStudy",
-      "translation": "Znati",
+      "translation": "znati",
       "explanation": [
         "Glavna ideja: Znati činjenicu, odgovor ili informaciju.",
         "Wissen uglavnom znači: informacija/činjenica.",
@@ -11871,58 +11871,58 @@ const A1_WORDS = [
     "de": "Kilogramm",
     "de_article": "das",
     "de_plural": "die Kilogramm",
-    "lv": "Kilogram",
+    "lv": "kilogram",
     "level": "A1"
   },
   {
     "de": "Kilometer",
     "de_article": "der",
     "de_plural": "die Kilometer",
-    "lv": "Kilometar",
+    "lv": "kilometar",
     "level": "A1"
   },
   {
     "de": "Kind",
     "de_article": "das",
     "de_plural": "die Kinder",
-    "lv": "Dijete",
+    "lv": "dijete",
     "level": "A1"
   },
   {
     "de": "Kindergarten",
     "de_article": "der",
     "de_plural": "die Kindergärten",
-    "lv": "Vrtić",
+    "lv": "vrtić",
     "level": "A1"
   },
   {
     "de": "Kirche",
     "de_article": "die",
     "de_plural": "die Kirchen",
-    "lv": "Crkva",
+    "lv": "crkva",
     "level": "A1"
   },
   {
     "de": "kochen",
-    "lv": "Kuhati",
+    "lv": "kuhati",
     "level": "A1"
   },
   {
     "de": "kommen",
-    "lv": "Doći",
+    "lv": "doći",
     "level": "A1"
   },
   {
     "de": "können",
-    "lv": "Biti u stanju da • Zna",
+    "lv": "moći",
     "level": "A1",
     "study": {
       "id": "a1-können",
       "layout": "standardStudy",
-      "translation": "Biti u stanju da • Zna",
+      "translation": "moći",
       "explanation": [
         "Glavna ideja: können znači moći ili znati uraditi nešto.",
-        "Ako je riječ o sposobnosti ili vještini, na latvijskom se često kaže prast.",
+        "Ako je riječ o sposobnosti ili vještini, na bosanskom se često kaže znati.",
         "Ako je riječ o mogućnosti, često se kaže moći.",
         "Können je modalni glagol, zato drugi glagol obično stoji na kraju."
       ],
@@ -11980,7 +11980,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "Biti u mogućnosti",
-            "prast"
+            "umjeti"
           ],
           "green": [
             "Glavna",
@@ -12048,7 +12048,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Biti u mogućnosti",
-                "prast"
+                "umjeti"
               ]
             },
             "example": {
@@ -12136,7 +12136,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "Biti u mogućnosti",
-              "prast",
+              "umjeti",
               "Biti dozvoljeno"
             ]
           },
@@ -12154,17 +12154,17 @@ const A1_WORDS = [
   },
   {
     "de": "kosten",
-    "lv": "Platiti",
+    "lv": "koštati",
     "level": "A1",
     "study": {
       "id": "a1-kosten",
       "layout": "standardStudy",
-      "translation": "Platiti",
+      "translation": "koštati",
       "explanation": [
         "Glavna ideja: kosten znači koštati toliko i toliko — govori se o cijeni stvari.",
         "Ova riječ se koristi kada se pita ili kaže koliko nešto košta, a ne kada osoba vrši plaćanje.",
         "Pitanje o cijeni na njemačkom često počinje sa Was kostet...?",
-        "Latvijska riječ maksāt je u ovom kontekstu ispravna: Das kostet 5 Euro. = To košta 5 eura.",
+        "Bosanska riječ koštati je u ovom kontekstu ispravna: Das kostet 5 Euro. = To košta 5 eura.",
         "Kada osoba daje novac za robu ili uslugu, Nijemac koristi bezahlen ili zahlen."
       ],
       "examples": [
@@ -12229,7 +12229,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Kosten i bezahlen nisu sinonimi: kosten = koliko košta • Bezahlen = platiti novac.",
-        "U latvijskom se u oba slučaja često koristi maksāt, ali u njemačkom treba izabrati prema situaciji."
+        "U bosanskom se u oba slučaja često koristi koštati/platiti, ali u njemačkom treba izabrati prema situaciji."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12478,201 +12478,201 @@ const A1_WORDS = [
   },
   {
     "de": "küssen",
-    "lv": "Poljubiti",
+    "lv": "ljubiti",
     "level": "A1"
   },
   {
     "de": "lächeln",
-    "lv": "Nasmejati se",
+    "lv": "smiješiti se",
     "level": "A1"
   },
   {
     "de": "lachen",
-    "lv": "Smejati se",
+    "lv": "smijati se",
     "level": "A1"
   },
   {
     "de": "Honig",
     "de_article": "der",
     "de_plural": "die Honige",
-    "lv": "Med",
+    "lv": "med",
     "level": "A1"
   },
   {
     "de": "Hose",
     "de_article": "die",
     "de_plural": "die Hosen",
-    "lv": "Pantalone",
+    "lv": "pantalone",
     "level": "A1"
   },
   {
     "de": "Huhn",
     "de_article": "das",
     "de_plural": "die Hühner",
-    "lv": "Piletina",
+    "lv": "kokoš",
     "level": "A1"
   },
   {
     "de": "Hund",
     "de_article": "der",
     "de_plural": "die Hunde",
-    "lv": "Pas",
+    "lv": "pas",
     "level": "A1"
   },
   {
     "de": "Hut",
     "de_article": "der",
     "de_plural": "die Hüte",
-    "lv": "Kapa",
+    "lv": "šešir",
     "level": "A1"
   },
   {
     "de": "Jahr",
     "de_article": "das",
     "de_plural": "die Jahre",
-    "lv": "Godine",
+    "lv": "godina",
     "level": "A1"
   },
   {
     "de": "Kaffee",
     "de_article": "der",
-    "lv": "Kafa",
+    "lv": "kafa",
     "level": "A1"
   },
   {
     "de": "Kalender",
     "de_article": "der",
     "de_plural": "die Kalender",
-    "lv": "Kalendar",
+    "lv": "kalendar",
     "level": "A1"
   },
   {
     "de": "Kamera",
     "de_article": "die",
     "de_plural": "die Kameras",
-    "lv": "Kamera",
+    "lv": "kamera",
     "level": "A1"
   },
   {
     "de": "Karotte",
     "de_article": "die",
     "de_plural": "die Karotten",
-    "lv": "Mrkva",
+    "lv": "mrkva",
     "level": "A1"
   },
   {
     "de": "Kartoffel",
     "de_article": "die",
     "de_plural": "die Kartoffeln",
-    "lv": "Krompir",
+    "lv": "krompir",
     "level": "A1"
   },
   {
     "de": "Käse",
     "de_article": "der",
-    "lv": "Sir",
+    "lv": "sir",
     "level": "A1"
   },
   {
     "de": "Katze",
     "de_article": "die",
     "de_plural": "die Katzen",
-    "lv": "Mačka",
+    "lv": "mačka",
     "level": "A1"
   },
   {
     "de": "Kleid",
     "de_article": "das",
     "de_plural": "die Kleider",
-    "lv": "Haljina",
+    "lv": "haljina",
     "level": "A1"
   },
   {
     "de": "Kleidung",
     "de_article": "die",
-    "lv": "Odjeća",
+    "lv": "odjeća",
     "level": "A1"
   },
   {
     "de": "Knoblauch",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Beli luk",
+    "lv": "bijeli luk",
     "level": "A1"
   },
   {
     "de": "Koch",
     "de_article": "der",
     "de_plural": "die Köche",
-    "lv": "Kuvati",
+    "lv": "kuhar",
     "level": "A1"
   },
   {
     "de": "Köchin",
     "de_article": "die",
     "de_plural": "die Köchinnen",
-    "lv": "Kuvati",
+    "lv": "kuharica",
     "level": "A1"
   },
   {
     "de": "Kopf",
     "de_article": "der",
     "de_plural": "die Köpfe",
-    "lv": "Glava",
+    "lv": "glava",
     "level": "A1"
   },
   {
     "de": "Kraftwagen",
     "de_article": "der",
     "de_plural": "die Kraftwagen",
-    "lv": "Auto",
+    "lv": "automobil",
     "level": "A1"
   },
   {
     "de": "Küche",
     "de_article": "die",
     "de_plural": "die Küchen",
-    "lv": "Kuhinja",
+    "lv": "kuhinja",
     "level": "A1"
   },
   {
     "de": "Kuchen",
     "de_article": "der",
     "de_plural": "die Kuchen",
-    "lv": "Cake",
+    "lv": "kolač",
     "level": "A1"
   },
   {
     "de": "Kuh",
     "de_article": "die",
     "de_plural": "die Kühe",
-    "lv": "Krava",
+    "lv": "krava",
     "level": "A1"
   },
   {
     "de": "Kühlschrank",
     "de_article": "der",
     "de_plural": "die Kühlschränke",
-    "lv": "Frižider",
+    "lv": "frižider",
     "level": "A1"
   },
   {
     "de": "Kuss",
     "de_article": "der",
     "de_plural": "die Küsse",
-    "lv": "Poljubac",
+    "lv": "poljubac",
     "level": "A1"
   },
   {
     "de": "Laden",
     "de_article": "der",
     "de_plural": "die Läden",
-    "lv": "Shop",
+    "lv": "prodavnica",
     "level": "A1",
     "study": {
       "id": "a1-laden-study",
       "layout": "standardStudy",
-      "translation": "Shop",
+      "translation": "prodavnica",
       "explanation": [
         "Glavna poenta: der Laden s velikim početnim slovom i članom der je imenica — mala prodavnica.",
         "Natovaren je mali slovni glagol - tovariti ili puniti.",
@@ -12804,19 +12804,19 @@ const A1_WORDS = [
     "de": "Lampe",
     "de_article": "die",
     "de_plural": "die Lampen",
-    "lv": "Lampa",
+    "lv": "lampa",
     "level": "A1"
   },
   {
     "de": "Land",
     "de_article": "das",
     "de_plural": "die Länder",
-    "lv": "Država • Zemlja",
+    "lv": "zemlja",
     "level": "A1",
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
-      "translation": "Država • Zemlja",
+      "translation": "zemlja",
       "explanation": [
         "Glavna ideja: das Land najčešće znači državu ili područje izvan grada.",
         "Ako je riječ o Njemačkoj, Latviji ili drugoj teritoriji s granicama, prevedi kao država.",
@@ -13057,18 +13057,18 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Dugo • Dugo",
+    "lv": "dug",
     "level": "A1",
     "study": {
       "id": "a1-lang",
       "layout": "standardStudy",
-      "translation": "Dugo • Dugo",
+      "translation": "dug",
       "explanation": [
         "Glavna ideja: lang u prostornom smislu znači dug, u vremenskom smislu znači dugotrajan.",
         "Ako je riječ o veličini ili udaljenosti, lang = dugačak (ein langer Tisch = dugačak sto).",
         "Kada je riječ o trajanju vremena, lang = dug (ein langer Tag = dug dan).",
         "U frazi den ganzen Tag lang to znači cijeli dan (tokom cijelog dana).",
-        "Na latvijskom su 'garš' i 'ilgs' dvije različite riječi, ali njemačko lang obuhvata oba značenja."
+        "U bosanskom su 'dug' i 'dugotrajan' dvije različite riječi, ali njemačko lang obuhvata oba značenja."
       ],
       "examples": [
         {
@@ -13218,27 +13218,27 @@ const A1_WORDS = [
   },
   {
     "de": "lange",
-    "lv": "Dugo vremena",
+    "lv": "dugo",
     "level": "A1"
   },
   {
     "de": "langsam",
-    "lv": "Sporo",
+    "lv": "spor",
     "level": "A1"
   },
   {
     "de": "langweilig",
-    "lv": "Dosadno",
+    "lv": "dosadan",
     "level": "A1"
   },
   {
     "de": "lassen",
-    "lv": "Ostaviti • Neka",
+    "lv": "pustiti",
     "level": "A1",
     "study": {
       "id": "a1-lassen",
       "layout": "standardStudy",
-      "translation": "Ostaviti • Neka",
+      "translation": "pustiti",
       "explanation": [
         "Glavna ideja: lassen znači ostaviti nešto ili dopustiti da se nešto dogodi.",
         "Ako nešto ostaje na mjestu, lassen se prevodi kao ostaviti.",
@@ -13467,12 +13467,12 @@ const A1_WORDS = [
   },
   {
     "de": "laufen",
-    "lv": "Pokrenuti • Raditi",
+    "lv": "trčati",
     "level": "A1",
     "study": {
       "id": "a1-laufen",
       "layout": "standardStudy",
-      "translation": "Pokrenuti • Raditi",
+      "translation": "trčati",
       "explanation": [
         "Glavna ideja: laufen znači trčati, ali s uređajima može značiti raditi.",
         "Kada se odnosi na čovjeka ili životinju, laufen često znači trčati ili hodati brzim korakom.",
@@ -13638,7 +13638,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "braukt"
+                "voziti se"
               ]
             },
             "example": {
@@ -13707,12 +13707,12 @@ const A1_WORDS = [
   },
   {
     "de": "laut",
-    "lv": "Glasno",
+    "lv": "glasan",
     "level": "A1",
     "study": {
       "id": "a1-laut",
       "layout": "standardStudy",
-      "translation": "Glasno",
+      "translation": "glasan",
       "explanation": [
         "Glavna ideja: Pridjev u malom slovu. Opisuje glasnoću - koliko je glasan zvuk ili govor.",
         "Laut uglavnom znači: glasan zvuk.",
@@ -13869,12 +13869,12 @@ const A1_WORDS = [
     "de": "Laut",
     "de_article": "der",
     "de_plural": "die Laute",
-    "lv": "Zvuk",
+    "lv": "glas",
     "level": "A1",
     "study": {
       "id": "a1-laut-study",
       "layout": "standardStudy",
-      "translation": "Zvuk",
+      "translation": "glas",
       "explanation": [
         "Glavna ideja: Imenica s članom der i velikim slovom. Označava zvuk kao stvar, signal ili glas u jeziku.",
         "Der Laut uglavnom znači: glasan zvuk.",
@@ -14027,27 +14027,27 @@ const A1_WORDS = [
   },
   {
     "de": "leben",
-    "lv": "Živjeti",
+    "lv": "živjeti",
     "level": "A1"
   },
   {
     "de": "lecker",
-    "lv": "Ukusno",
+    "lv": "ukusan",
     "level": "A1"
   },
   {
     "de": "leer",
-    "lv": "Prazan",
+    "lv": "prazan",
     "level": "A1"
   },
   {
     "de": "legen",
-    "lv": "Spusti",
+    "lv": "položiti",
     "level": "A1",
     "study": {
       "id": "a1-legen",
       "layout": "standardStudy",
-      "translation": "Spusti",
+      "translation": "položiti",
       "explanation": [
         "Glavna ideja: legen znači staviti nešto u ležeći ili horizontalni položaj.",
         "Legen se koristi kada ti sam premještaš stvar i stavljaš je na sto, krevet ili neku drugu površinu.",
@@ -14317,34 +14317,34 @@ const A1_WORDS = [
     "de": "Lehrer",
     "de_article": "der",
     "de_plural": "die Lehrer",
-    "lv": "Nastavnik",
+    "lv": "nastavnik",
     "level": "A1"
   },
   {
     "de": "Lehrerin",
     "de_article": "die",
     "de_plural": "die Lehrerinnen",
-    "lv": "Nastavnik",
+    "lv": "nastavnica",
     "level": "A1"
   },
   {
     "de": "leicht",
-    "lv": "Lako",
+    "lv": "lak",
     "level": "A1"
   },
   {
     "de": "leider",
-    "lv": "Nažalost",
+    "lv": "nažalost",
     "level": "A1"
   },
   {
     "de": "leise",
-    "lv": "Tiho",
+    "lv": "tih",
     "level": "A1",
     "study": {
       "id": "a1-leise-study",
       "layout": "standardStudy",
-      "translation": "Tiho",
+      "translation": "tih",
       "explanation": [
         "Glavna ideja: Tiha ili mala glasnoća.",
         "Leise uglavnom znači: mala jačina zvuka.",
@@ -14463,58 +14463,58 @@ const A1_WORDS = [
   },
   {
     "de": "lesen",
-    "lv": "Čitati",
+    "lv": "čitati",
     "level": "A1"
   },
   {
     "de": "letzte",
-    "lv": "Poslednji",
+    "lv": "posljednji",
     "level": "A1"
   },
   {
     "de": "Leute",
     "de_article": "die",
-    "lv": "Ljudi",
+    "lv": "ljudi",
     "level": "A1"
   },
   {
     "de": "Licht",
     "de_article": "das",
     "de_plural": "die Lichter",
-    "lv": "Svjetlo",
+    "lv": "svjetlo",
     "level": "A1"
   },
   {
     "de": "lieb",
-    "lv": "Dragi",
+    "lv": "drag",
     "level": "A1"
   },
   {
     "de": "Liebe",
     "de_article": "die",
-    "lv": "Ljubav",
+    "lv": "ljubav",
     "level": "A1"
   },
   {
     "de": "lieben",
-    "lv": "Voljeti",
+    "lv": "voljeti",
     "level": "A1"
   },
   {
     "de": "Lied",
     "de_article": "das",
     "de_plural": "die Lieder",
-    "lv": "Pjesma",
+    "lv": "pjesma",
     "level": "A1"
   },
   {
     "de": "liegen",
-    "lv": "Biti • Spavati",
+    "lv": "ležati",
     "level": "A1",
     "study": {
       "id": "a1-liegen",
       "layout": "standardStudy",
-      "translation": "Biti • Spavati",
+      "translation": "ležati",
       "explanation": [
         "Glavna ideja: liegen znači nalaziti se ili ležati horizontalno.",
         "Kada se govori o osobi, liegen često znači ležati.",
@@ -14775,38 +14775,38 @@ const A1_WORDS = [
     "de": "Limonade",
     "de_article": "die",
     "de_plural": "die Limonaden",
-    "lv": "Limunada",
+    "lv": "limunada",
     "level": "A1"
   },
   {
     "de": "Lineal",
     "de_article": "das",
     "de_plural": "die Lineale",
-    "lv": "Vladar",
+    "lv": "lenjir",
     "level": "A1"
   },
   {
     "de": "links",
-    "lv": "Lijevo • Lijevo",
+    "lv": "lijevo",
     "level": "A1"
   },
   {
     "de": "Liste",
     "de_article": "die",
     "de_plural": "die Listen",
-    "lv": "Lista",
+    "lv": "lista",
     "level": "A1"
   },
   {
     "de": "Liter",
     "de_article": "der",
     "de_plural": "die Liter",
-    "lv": "Litar",
+    "lv": "litar",
     "level": "A1",
     "study": {
       "id": "a1-liter",
       "layout": "standardStudy",
-      "translation": "Litar",
+      "translation": "litar",
       "explanation": "U Njemačkoj se obično kaže 'der Liter', ali u Austriji i Švicarskoj može se čuti i 'das Liter'. Oblik množine ostaje nepromijenjen: 'die Liter'.",
       "sectionAccents": {
         "explanation": {
@@ -14827,34 +14827,34 @@ const A1_WORDS = [
     "de": "Löffel",
     "de_article": "der",
     "de_plural": "die Löffel",
-    "lv": "Kašika",
+    "lv": "kašika",
     "level": "A1"
   },
   {
     "de": "Luft",
     "de_article": "die",
     "de_plural": "die Lüfte",
-    "lv": "Zrak",
+    "lv": "zrak",
     "level": "A1"
   },
   {
     "de": "lustig",
-    "lv": "Zabavno",
+    "lv": "veseo",
     "level": "A1"
   },
   {
     "de": "machen",
-    "lv": "Raditi • Praviti",
+    "lv": "raditi",
     "level": "A1",
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "Raditi • Praviti",
+      "translation": "raditi",
       "explanation": [
         "Glavna ideja: machen je vrlo česta riječ koja znači raditi ili praviti.",
         "Ako je riječ o radnji općenito, prevodi kao raditi.",
         "Ako se nešto pravi ili priprema, prevedi kao praviti ili pripremiti.",
-        "U mnogim frazama, machen se prevodi prirodno na latvijski, a ne doslovno."
+        "U mnogim frazama, machen se prirodno prevodi na bosanski, a ne doslovno."
       ],
       "examples": [
         {
@@ -15018,32 +15018,32 @@ const A1_WORDS = [
     "de": "Mädchen",
     "de_article": "das",
     "de_plural": "die Mädchen",
-    "lv": "Devojka",
+    "lv": "djevojčica",
     "level": "A1"
   },
   {
     "de": "Mahlzeit",
     "de_article": "die",
     "de_plural": "die Mahlzeiten",
-    "lv": "Obrok",
+    "lv": "obrok",
     "level": "A1"
   },
   {
     "de": "Mai",
     "de_article": "der",
-    "lv": "Maja",
+    "lv": "maj",
     "level": "A1"
   },
   {
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Vrijeme",
+    "lv": "put",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Vrijeme",
+      "translation": "put",
       "explanation": [
         "Glavna ideja: das Mal znači put kao događaj ili priliku.",
         "Često se koristi s brojevima: ein Mal, zwei Mal, drei Mal.",
@@ -15180,31 +15180,31 @@ const A1_WORDS = [
   },
   {
     "de": "malen",
-    "lv": "Farbati • Farbati",
+    "lv": "slikati",
     "level": "A1"
   },
   {
     "de": "manchmal",
-    "lv": "Ponekad",
+    "lv": "ponekad",
     "level": "A1"
   },
   {
     "de": "Mandarine",
     "de_article": "die",
     "de_plural": "die Mandarinen",
-    "lv": "Mandarina",
+    "lv": "mandarina",
     "level": "A1"
   },
   {
     "de": "Mann",
     "de_article": "der",
     "de_plural": "die Männer",
-    "lv": "Muškarac • Muž",
+    "lv": "muškarac",
     "level": "A1",
     "study": {
       "id": "a1-mann",
       "layout": "standardStudy",
-      "translation": "Muškarac • Muž",
+      "translation": "muškarac",
       "explanation": [
         "Glavna ideja: der Mann može značiti muškarca (spol) ili muža (supružnik).",
         "Ako je riječ jednostavno o spolu ili osobi, der Mann = muškarac.",
@@ -15379,95 +15379,95 @@ const A1_WORDS = [
     "de": "Marmelade",
     "de_article": "die",
     "de_plural": "die Marmeladen",
-    "lv": "Džem",
+    "lv": "marmelada",
     "level": "A1"
   },
   {
     "de": "März",
     "de_article": "der",
-    "lv": "Mart",
+    "lv": "mart",
     "level": "A1"
   },
   {
     "de": "Maus",
     "de_article": "die",
     "de_plural": "die Mäuse",
-    "lv": "Miš",
+    "lv": "miš",
     "level": "A1"
   },
   {
     "de": "Meer",
     "de_article": "das",
     "de_plural": "die Meere",
-    "lv": "More",
+    "lv": "more",
     "level": "A1"
   },
   {
     "de": "Mehl",
     "de_article": "das",
     "de_plural": "die Mehle",
-    "lv": "Brašno",
+    "lv": "brašno",
     "level": "A1"
   },
   {
     "de": "mehr",
-    "lv": "Više",
+    "lv": "više",
     "level": "A1"
   },
   {
     "de": "mein",
-    "lv": "Moj",
+    "lv": "moj",
     "level": "A1"
   },
   {
     "de": "Mensch",
     "de_article": "der",
     "de_plural": "die Menschen",
-    "lv": "Osobu",
+    "lv": "čovjek",
     "level": "A1"
   },
   {
     "de": "Messer",
     "de_article": "das",
     "de_plural": "die Messer",
-    "lv": "Nož",
+    "lv": "nož",
     "level": "A1"
   },
   {
     "de": "Meter",
     "de_article": "der",
     "de_plural": "die Meter",
-    "lv": "Metar",
+    "lv": "metar",
     "level": "A1"
   },
   {
     "de": "Milch",
     "de_article": "die",
-    "lv": "Mlijeko",
+    "lv": "mlijeko",
     "level": "A1"
   },
   {
     "de": "Million",
     "de_article": "die",
     "de_plural": "die Millionen",
-    "lv": "Miliona",
+    "lv": "milion",
     "level": "A1"
   },
   {
     "de": "Minute",
     "de_article": "die",
     "de_plural": "die Minuten",
-    "lv": "Minut",
+    "lv": "minuta",
     "level": "A1"
   },
   {
     "de": "mit",
-    "lv": "Sa",
+    "lv": "sa",
     "level": "A1",
     "study": {
       "id": "a1-mit",
       "layout": "standardStudy",
-      "translation": "Sa",
+      "translation": "sa",
       "explanation": [
         "Glavna ideja: mit najčešće znači sa.",
         "Mit se koristi kada je osoba s nekim ili nešto radi s nekom stvari.",
@@ -15701,38 +15701,38 @@ const A1_WORDS = [
   },
   {
     "de": "mitnehmen",
-    "lv": "Ponesite sa sobom",
+    "lv": "ponijeti",
     "level": "A1"
   },
   {
     "de": "Mittag",
     "de_article": "der",
     "de_plural": "die Mittage",
-    "lv": "Ručak",
+    "lv": "podne",
     "level": "A1"
   },
   {
     "de": "Mittagessen",
     "de_article": "das",
     "de_plural": "die Mittagessen",
-    "lv": "Ručak",
+    "lv": "ručak",
     "level": "A1"
   },
   {
     "de": "Mittwoch",
     "de_article": "der",
     "de_plural": "die Mittwoche",
-    "lv": "Srijeda",
+    "lv": "srijeda",
     "level": "A1"
   },
   {
     "de": "mögen",
-    "lv": "To like",
+    "lv": "voljeti",
     "level": "A1",
     "study": {
       "id": "a1-mögen",
       "layout": "standardStudy",
-      "translation": "To like",
+      "translation": "voljeti",
       "explanation": [
         "Glavna ideja: mögen najčešće znači da se nešto sviđa.",
         "Ich mag... na bosanskom je obično “sviđa mi se...”.",
@@ -15970,31 +15970,31 @@ const A1_WORDS = [
     "de": "Möhre",
     "de_article": "die",
     "de_plural": "die Möhren",
-    "lv": "Mrkva",
+    "lv": "mrkva",
     "level": "A1"
   },
   {
     "de": "Monat",
     "de_article": "der",
     "de_plural": "die Monate",
-    "lv": "Mjesec",
+    "lv": "mjesec",
     "level": "A1"
   },
   {
     "de": "Montag",
     "de_article": "der",
     "de_plural": "die Montage",
-    "lv": "Ponedjeljak",
+    "lv": "ponedjeljak",
     "level": "A1"
   },
   {
     "de": "morgen",
-    "lv": "Sutra",
+    "lv": "sutra",
     "level": "A1",
     "study": {
       "id": "a1-morgen",
       "layout": "standardStudy",
-      "translation": "Sutra",
+      "translation": "sutra",
       "explanation": [
         "Glavna ideja: Vremenski prilog piše se malim slovom. Označava sljedeći dan — sutra.",
         "Morgen uglavnom znači: sljedećeg dana.",
@@ -16150,12 +16150,12 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
-    "lv": "Jutro",
+    "lv": "jutro",
     "level": "A1",
     "study": {
       "id": "a1-morgen-study",
       "layout": "standardStudy",
-      "translation": "Jutro",
+      "translation": "jutro",
       "explanation": [
         "Glavna ideja: Imenica s članom der i velikim početnim slovom. Dio dana — jutro.",
         "Der Morgen uglavnom znači: sljedećeg dana.",
@@ -16298,38 +16298,38 @@ const A1_WORDS = [
   },
   {
     "de": "morgens",
-    "lv": "Ujutro",
+    "lv": "ujutro",
     "level": "A1"
   },
   {
     "de": "müde",
-    "lv": "Umoran",
+    "lv": "umoran",
     "level": "A1"
   },
   {
     "de": "Mund",
     "de_article": "der",
     "de_plural": "die Münder",
-    "lv": "Usta",
+    "lv": "usta",
     "level": "A1"
   },
   {
     "de": "Musik",
     "de_article": "die",
-    "lv": "Muzika",
+    "lv": "muzika",
     "level": "A1"
   },
   {
     "de": "müssen",
-    "lv": "Da treba",
+    "lv": "morati",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
       "layout": "standardStudy",
-      "translation": "Da treba",
+      "translation": "morati",
       "explanation": [
         "Glavna ideja: müssen znači da se nešto mora uraditi.",
-        "Na latvijskom se müssen često prevodi kao “man jā...”, “tev jā...”, “mums jā...”.",
+        "Na bosanskom se müssen često prevodi kao “ja moram...”, “ti moraš...”, “mi moramo...”.",
         "U njemačkoj rečenici drugi glagol obično stoji na kraju.",
         "Na nivou A1 najvažniji oblik je Ich muss..."
       ],
@@ -16478,7 +16478,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Biti u mogućnosti",
-                "prast"
+                "umjeti"
               ]
             },
             "example": {
@@ -16558,24 +16558,24 @@ const A1_WORDS = [
     "de": "Mutter",
     "de_article": "die",
     "de_plural": "die Mütter",
-    "lv": "Majka",
+    "lv": "majka",
     "level": "A1"
   },
   {
     "de": "Mütze",
     "de_article": "die",
     "de_plural": "die Mützen",
-    "lv": "Kapa",
+    "lv": "kapa",
     "level": "A1"
   },
   {
     "de": "nach",
-    "lv": "Do • Nakon",
+    "lv": "nakon",
     "level": "A1",
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "Do • Nakon",
+      "translation": "nakon",
       "explanation": [
         "Glavna ideja: nach znači u/ka uz mjesta i nakon uz vrijeme ili redoslijed.",
         "Uz gradove i države bez člana, nach često znači u.",
@@ -16817,47 +16817,47 @@ const A1_WORDS = [
     "de": "Nachmittag",
     "de_article": "der",
     "de_plural": "die Nachmittage",
-    "lv": "Popodne",
+    "lv": "poslijepodne",
     "level": "A1"
   },
   {
     "de": "nachmittags",
-    "lv": "Popodne",
+    "lv": "poslijepodne",
     "level": "A1"
   },
   {
     "de": "Nacht",
     "de_article": "die",
     "de_plural": "die Nächte",
-    "lv": "Noć",
+    "lv": "noć",
     "level": "A1"
   },
   {
     "de": "Nase",
     "de_article": "die",
     "de_plural": "die Nasen",
-    "lv": "Nos",
+    "lv": "nos",
     "level": "A1"
   },
   {
     "de": "nass",
-    "lv": "Mokro",
+    "lv": "mokar",
     "level": "A1"
   },
   {
     "de": "Natur",
     "de_article": "die",
-    "lv": "Priroda",
+    "lv": "priroda",
     "level": "A1"
   },
   {
     "de": "natürlich",
-    "lv": "Naravno • Prirodno",
+    "lv": "naravno",
     "level": "A1",
     "study": {
       "id": "a1-natuerlich",
       "layout": "standardStudy",
-      "translation": "Naravno • Prirodno",
+      "translation": "naravno",
       "explanation": [
         "Glavna ideja: natürlich kao prilog znači naravno, kao pridjev znači prirodan.",
         "U razgovoru, kada se nešto potvrđuje, natürlich = naravno (Kommst du mit? – Natürlich! = Ideš li s nama? – Naravno!).",
@@ -17012,17 +17012,17 @@ const A1_WORDS = [
   },
   {
     "de": "neben",
-    "lv": "Pored",
+    "lv": "pored",
     "level": "A1"
   },
   {
     "de": "nehmen",
-    "lv": "Uzeti • Uzeti",
+    "lv": "uzeti",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "Uzeti • Uzeti",
+      "translation": "uzeti",
       "explanation": [
         "Glavna ideja: nehmen znači uzimati ili uzeti.",
         "Nehmen se koristi kada nešto uzmeš za sebe ili odabereš.",
@@ -17073,7 +17073,7 @@ const A1_WORDS = [
         "text": "Zapamtite: uzmite za sebe → nehmen • Dovesti nekoga → doveden."
       },
       "important": [
-        "Ich nehme den Bus na latvijskom znači “idem autobusom”.",
+        "Ich nehme den Bus na bosanskom znači “idem autobusom”.",
         "Nehmen nije isto što i bringen."
       ],
       "sectionAccents": {
@@ -17276,31 +17276,31 @@ const A1_WORDS = [
   },
   {
     "de": "nein",
-    "lv": "Br",
+    "lv": "ne",
     "level": "A1"
   },
   {
     "de": "nennen",
-    "lv": "Imenovati",
+    "lv": "nazvati",
     "level": "A1"
   },
   {
     "de": "nett",
-    "lv": "Lijepo",
+    "lv": "ljubazan",
     "level": "A1"
   },
   {
     "de": "neu",
-    "lv": "Novo (o stvarima)",
+    "lv": "nov",
     "level": "A1",
     "study": {
       "id": "a1-neu",
       "layout": "standardStudy",
-      "translation": "Novo (o stvarima)",
+      "translation": "nov",
       "explanation": [
         "Glavna ideja: neu znači nov u smislu stvari — nedavno napravljen, kupljen ili prvi put korišten.",
         "Neu opisuje stvari, uređaje, odjeću, kuću, ideju itd. — ne starost osobe ili životinje.",
-        "U latvijskom jeziku riječ jauns ima dva značenja: mlad po godinama (jung) i nov/nedavno stvoren (neu).",
+        "U bosanskom jeziku postoje dvije riječi: mlad po godinama (jung) i nov/nedavno stvoren (neu).",
         "Za dob osobe ili životinje koristi se jung, a ne neu.",
         "Neu se koristi i u prenesenom značenju: novi posao, nova informacija, novi početak.",
         "Suprotnost je alt (star) • Imenica das Neue znači novost."
@@ -17488,67 +17488,67 @@ const A1_WORDS = [
   },
   {
     "de": "neun",
-    "lv": "Devet",
+    "lv": "devet",
     "level": "A1"
   },
   {
     "de": "neunhundert",
-    "lv": "Devet stotina",
+    "lv": "devetsto",
     "level": "A1"
   },
   {
     "de": "neunte",
-    "lv": "Deveti",
+    "lv": "deveti",
     "level": "A1"
   },
   {
     "de": "neunzehn",
-    "lv": "Devetnaest",
+    "lv": "devetnaest",
     "level": "A1"
   },
   {
     "de": "neunzehnte",
-    "lv": "Devetnaestog",
+    "lv": "devetnaesti",
     "level": "A1"
   },
   {
     "de": "neunzig",
-    "lv": "Devedeset",
+    "lv": "devedeset",
     "level": "A1"
   },
   {
     "de": "neunzigste",
-    "lv": "Devedesete",
+    "lv": "devedeseti",
     "level": "A1"
   },
   {
     "de": "nicht",
-    "lv": "Br",
+    "lv": "ne",
     "level": "A1"
   },
   {
     "de": "nichts",
-    "lv": "Etwas",
+    "lv": "ništa",
     "level": "A1"
   },
   {
     "de": "nie",
-    "lv": "Nikad",
+    "lv": "nikad",
     "level": "A1"
   },
   {
     "de": "niemand",
-    "lv": "Niko",
+    "lv": "niko",
     "level": "A1"
   },
   {
     "de": "noch",
-    "lv": "Glavna",
+    "lv": "još",
     "level": "A1",
     "study": {
       "id": "a1-noch-study",
       "layout": "standardStudy",
-      "translation": "Glavna",
+      "translation": "još",
       "explanation": [
         "Glavna ideja: Nešto još uvijek traje ili još nije završeno.",
         "Noch uglavnom znači: nešto još uvijek traje.",
@@ -17646,37 +17646,37 @@ const A1_WORDS = [
   },
   {
     "de": "normal",
-    "lv": "Normalno",
+    "lv": "normalan",
     "level": "A1"
   },
   {
     "de": "November",
     "de_article": "der",
-    "lv": "Novembar",
+    "lv": "novembar",
     "level": "A1"
   },
   {
     "de": "Null",
     "de_article": "die",
     "de_plural": "die Nullen",
-    "lv": "Nula",
+    "lv": "nula",
     "level": "A1"
   },
   {
     "de": "Nummer",
     "de_article": "die",
     "de_plural": "die Nummern",
-    "lv": "Broj",
+    "lv": "broj",
     "level": "A1"
   },
   {
     "de": "nur",
-    "lv": "Samo • Samo",
+    "lv": "samo",
     "level": "A1",
     "study": {
       "id": "a1-nur-study",
       "layout": "standardStudy",
-      "translation": "Samo • Samo",
+      "translation": "samo",
       "explanation": [
         "Glavna ideja: Ograničava količinu, broj ljudi, izbor ili mogućnosti.",
         "Nur uglavnom znači: ograničena količina ili izbor.",
@@ -17710,7 +17710,7 @@ const A1_WORDS = [
         "Koristi nur kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Latvijsko “tikai” u njemačkom jeziku nije uvijek nur.",
+        "Bosansko “samo” u njemačkom jeziku nije uvijek nur.",
         "Nur = samo / jedino."
       ],
       "sectionAccents": {
@@ -17813,12 +17813,12 @@ const A1_WORDS = [
   },
   {
     "de": "ob",
-    "lv": "Ili",
+    "lv": "da li",
     "level": "A1",
     "study": {
       "id": "a1-ob",
       "layout": "standardStudy",
-      "translation": "Ili",
+      "translation": "da li",
       "explanation": [
         "Glavna ideja: ob uvodi indirektno pitanje i na bosanskom najčešće znači da li.",
         "Ob se koristi poslije riječi kao što su fragen, wissen, sehen, sagen, ako nema direktnog pitanja.",
@@ -18047,17 +18047,17 @@ const A1_WORDS = [
   },
   {
     "de": "oben",
-    "lv": "Gore",
+    "lv": "gore",
     "level": "A1"
   },
   {
     "de": "oder",
-    "lv": "Ili • Ili",
+    "lv": "ili",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "Ili • Ili",
+      "translation": "ili",
       "explanation": [
         "Glavna ideja: oder se koristi kada biramo između dvije ili više mogućnosti.",
         "Na bosanskom oder najčešće znači ili.",
@@ -18295,80 +18295,80 @@ const A1_WORDS = [
   },
   {
     "de": "öffnen",
-    "lv": "Otvoriti",
+    "lv": "otvoriti",
     "level": "A1"
   },
   {
     "de": "oft",
-    "lv": "Često",
+    "lv": "često",
     "level": "A1"
   },
   {
     "de": "ohne",
-    "lv": "Bez",
+    "lv": "bez",
     "level": "A1"
   },
   {
     "de": "Ohr",
     "de_article": "das",
     "de_plural": "die Ohren",
-    "lv": "Uho",
+    "lv": "uho",
     "level": "A1"
   },
   {
     "de": "Oktober",
     "de_article": "der",
-    "lv": "Oktobar",
+    "lv": "oktobar",
     "level": "A1"
   },
   {
     "de": "Onkel",
     "de_article": "der",
     "de_plural": "die Onkel",
-    "lv": "Ujak",
+    "lv": "ujak",
     "level": "A1"
   },
   {
     "de": "Orange",
     "de_article": "die",
     "de_plural": "die Orangen",
-    "lv": "Narandža",
+    "lv": "narandža",
     "level": "A1"
   },
   {
     "de": "Ostern",
-    "lv": "Uskrs",
+    "lv": "uskrs",
     "level": "A1"
   },
   {
     "de": "Paar",
     "de_article": "das",
     "de_plural": "die Paare",
-    "lv": "Par",
+    "lv": "par",
     "level": "A1"
   },
   {
     "de": "Papier",
     "de_article": "das",
     "de_plural": "die Papiere",
-    "lv": "Papir",
+    "lv": "papir",
     "level": "A1"
   },
   {
     "de": "Park",
     "de_article": "der",
     "de_plural": "die Parks",
-    "lv": "Park",
+    "lv": "park",
     "level": "A1"
   },
   {
     "de": "passen",
-    "lv": "Fit • Fit",
+    "lv": "odgovarati",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "Fit • Fit",
+      "translation": "odgovarati",
       "explanation": [
         "Glavna ideja: passen znači odgovarati, pristajati ili biti prikladan.",
         "Kada je riječ o odjeći, passen često znači odgovarati po veličini.",
@@ -18614,78 +18614,78 @@ const A1_WORDS = [
     "de": "Pause",
     "de_article": "die",
     "de_plural": "die Pausen",
-    "lv": "Pauza",
+    "lv": "pauza",
     "level": "A1"
   },
   {
     "de": "Person",
     "de_article": "die",
     "de_plural": "die Personen",
-    "lv": "Osoba",
+    "lv": "osoba",
     "level": "A1"
   },
   {
     "de": "Pferd",
     "de_article": "das",
     "de_plural": "die Pferde",
-    "lv": "Konj",
+    "lv": "konj",
     "level": "A1"
   },
   {
     "de": "Pflanze",
     "de_article": "die",
     "de_plural": "die Pflanzen",
-    "lv": "Biljka",
+    "lv": "biljka",
     "level": "A1"
   },
   {
     "de": "Pizza",
     "de_article": "die",
     "de_plural": "die Pizzen",
-    "lv": "Pizza",
+    "lv": "pica",
     "level": "A1"
   },
   {
     "de": "Plan",
     "de_article": "der",
     "de_plural": "die Pläne",
-    "lv": "Plan",
+    "lv": "plan",
     "level": "A1"
   },
   {
     "de": "Platz",
     "de_article": "der",
     "de_plural": "die Plätze",
-    "lv": "Mjesto",
+    "lv": "mjesto",
     "level": "A1"
   },
   {
     "de": "Polizei",
     "de_article": "die",
-    "lv": "Policiju",
+    "lv": "policija",
     "level": "A1"
   },
   {
     "de": "Post",
     "de_article": "die",
-    "lv": "Mail",
+    "lv": "pošta",
     "level": "A1"
   },
   {
     "de": "Preis",
     "de_article": "der",
     "de_plural": "die Preise",
-    "lv": "Cijena",
+    "lv": "cijena",
     "level": "A1"
   },
   {
     "de": "probieren",
-    "lv": "Probati • Po ukusu",
+    "lv": "probati",
     "level": "A1",
     "study": {
       "id": "a1-probieren",
       "layout": "standardStudy",
-      "translation": "Probati • Po ukusu",
+      "translation": "probati",
       "explanation": [
         "Glavna ideja: probieren znači isprobati ili okusiti.",
         "Ako je riječ o hrani ili piću, probieren često znači kušati.",
@@ -18941,90 +18941,90 @@ const A1_WORDS = [
     "de": "Problem",
     "de_article": "das",
     "de_plural": "die Probleme",
-    "lv": "Problem",
+    "lv": "problem",
     "level": "A1"
   },
   {
     "de": "Programm",
     "de_article": "das",
     "de_plural": "die Programme",
-    "lv": "Program",
+    "lv": "program",
     "level": "A1"
   },
   {
     "de": "Pullover",
     "de_article": "der",
     "de_plural": "die Pullover",
-    "lv": "Džemper",
+    "lv": "džemper",
     "level": "A1"
   },
   {
     "de": "Punkt",
     "de_article": "der",
     "de_plural": "die Punkte",
-    "lv": "Tačka",
+    "lv": "tačka",
     "level": "A1"
   },
   {
     "de": "putzen",
-    "lv": "Čistiti",
+    "lv": "čistiti",
     "level": "A1"
   },
   {
     "de": "Rad fahren",
-    "lv": "Voziti bicikl",
+    "lv": "voziti bicikl",
     "level": "A1"
   },
   {
     "de": "Radiergummi",
     "de_article": "der",
     "de_plural": "die Radiergummis",
-    "lv": "Gumica",
+    "lv": "gumica",
     "level": "A1"
   },
   {
     "de": "rauchen",
-    "lv": "Pušiti",
+    "lv": "pušiti",
     "level": "A1"
   },
   {
     "de": "rechts",
-    "lv": "Desno • Desno",
+    "lv": "desno",
     "level": "A1"
   },
   {
     "de": "reden",
-    "lv": "Govoriti",
+    "lv": "govoriti",
     "level": "A1"
   },
   {
     "de": "Regen",
     "de_article": "der",
-    "lv": "Kiša",
+    "lv": "kiša",
     "level": "A1"
   },
   {
     "de": "Regenschirm",
     "de_article": "der",
     "de_plural": "die Regenschirme",
-    "lv": "Kišobran",
+    "lv": "kišobran",
     "level": "A1"
   },
   {
     "de": "regnen",
-    "lv": "Kišiti",
+    "lv": "kišiti",
     "level": "A1"
   },
   {
     "de": "Reis",
     "de_article": "der",
-    "lv": "Zapamtite",
+    "lv": "riža",
     "level": "A1",
     "study": {
       "id": "a1-reis",
       "layout": "standardStudy",
-      "translation": "Zapamtite",
-      "explanation": "U njemačkom jeziku riječ „der Reis” koristi se samo u jednini, zato u rečenici glagol mora biti u obliku jednine (na primjer, „ist”, a ne „sind”). Na latvijskom se, međutim, često kaže „rīsi”.",
+      "translation": "riža",
+      "explanation": "U njemačkom jeziku riječ „der Reis” koristi se samo u jednini, zato u rečenici glagol mora biti u obliku jednine (na primjer, „ist”, a ne „sind”). Na bosanskom se, međutim, često kaže „riža”.",
       "examples": [
         {
           "de": "Der Reis ist fertig.",
@@ -19044,11 +19044,11 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Zapamti: der Reis je jednina u njemačkom, ali na latvijskom obično — rīsi."
+        "text": "Zapamti: der Reis je jednina na njemačkom, ali na bosanskom obično — riža."
       },
       "important": [
         "Der Reis — u njemačkom jeziku samo jednina (Der Reis ist..., nicht *sind).",
-        "U latvijskom prijevodu često se koristi množina: riža je gotova."
+        "U bosanskom prijevodu često se koristi množina: riža je gotova."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19105,58 +19105,58 @@ const A1_WORDS = [
   },
   {
     "de": "richtig",
-    "lv": "Ispravan",
+    "lv": "tačan",
     "level": "A1"
   },
   {
     "de": "rosa",
-    "lv": "Roze",
+    "lv": "roze",
     "level": "A1"
   },
   {
     "de": "rot",
-    "lv": "Crvena",
+    "lv": "crven",
     "level": "A1"
   },
   {
     "de": "rufen",
-    "lv": "Nazvati",
+    "lv": "zvati",
     "level": "A1"
   },
   {
     "de": "rund",
-    "lv": "Round",
+    "lv": "okrugao",
     "level": "A1"
   },
   {
     "de": "Rose",
     "de_article": "die",
     "de_plural": "die Rosen",
-    "lv": "Ruža",
+    "lv": "ruža",
     "level": "A1"
   },
   {
     "de": "Sache",
     "de_article": "die",
     "de_plural": "die Sachen",
-    "lv": "Stvar",
+    "lv": "stvar",
     "level": "A1"
   },
   {
     "de": "Saft",
     "de_article": "der",
     "de_plural": "die Säfte",
-    "lv": "Sok",
+    "lv": "sok",
     "level": "A1"
   },
   {
     "de": "sagen",
-    "lv": "Reći",
+    "lv": "reći",
     "level": "A1",
     "study": {
       "id": "a1-sagen-study",
       "layout": "standardStudy",
-      "translation": "Reći",
+      "translation": "reći",
       "explanation": [
         "Glavna ideja: Izreći konkretnu misao, riječ ili rečenicu.",
         "Sagen uglavnom znači: izreći konkretnu misao.",
@@ -19228,36 +19228,36 @@ const A1_WORDS = [
     "de": "Salat",
     "de_article": "der",
     "de_plural": "die Salate",
-    "lv": "Salata",
+    "lv": "salata",
     "level": "A1"
   },
   {
     "de": "Salz",
     "de_article": "das",
     "de_plural": "die Salze",
-    "lv": "Sol",
+    "lv": "so",
     "level": "A1"
   },
   {
     "de": "sauber",
-    "lv": "Čist",
+    "lv": "čist",
     "level": "A1"
   },
   {
     "de": "Schaf",
     "de_article": "das",
     "de_plural": "die Schafe",
-    "lv": "Ovca",
+    "lv": "ovca",
     "level": "A1"
   },
   {
     "de": "schauen",
-    "lv": "Gledati",
+    "lv": "gledati",
     "level": "A1",
     "study": {
       "id": "a1-schauen-study",
       "layout": "standardStudy",
-      "translation": "Gledati",
+      "translation": "gledati",
       "explanation": [
         "Glavna ideja: Gledati ili gledati aktivno.",
         "Schauen uglavnom znači: aktivno gledati.",
@@ -19360,66 +19360,66 @@ const A1_WORDS = [
   },
   {
     "de": "schicken",
-    "lv": "Poslati",
+    "lv": "poslati",
     "level": "A1"
   },
   {
     "de": "schlafen",
-    "lv": "Spavati",
+    "lv": "spavati",
     "level": "A1"
   },
   {
     "de": "schlecht",
-    "lv": "Loš",
+    "lv": "loš",
     "level": "A1"
   },
   {
     "de": "Schlüssel",
     "de_article": "der",
     "de_plural": "die Schlüssel",
-    "lv": "Ključ",
+    "lv": "ključ",
     "level": "A1"
   },
   {
     "de": "schmecken",
-    "lv": "Po ukusu",
+    "lv": "imati okus",
     "level": "A1"
   },
   {
     "de": "schmutzig",
-    "lv": "Prljavo",
+    "lv": "prljav",
     "level": "A1"
   },
   {
     "de": "Schnee",
     "de_article": "der",
-    "lv": "Padaće sneg",
+    "lv": "snijeg",
     "level": "A1"
   },
   {
     "de": "schneien",
-    "lv": "Pada snijeg",
+    "lv": "sniježiti",
     "level": "A1"
   },
   {
     "de": "schnell",
-    "lv": "Brzo",
+    "lv": "brz",
     "level": "A1"
   },
   {
     "de": "Schokolade",
     "de_article": "die",
-    "lv": "Cokolada",
+    "lv": "čokolada",
     "level": "A1"
   },
   {
     "de": "schon",
-    "lv": "Već",
+    "lv": "već",
     "level": "A1",
     "study": {
       "id": "a1-schon-study",
       "layout": "standardStudy",
-      "translation": "Već",
+      "translation": "već",
       "explanation": [
         "Glavna ideja: Nešto se već dogodilo ili je već na snazi.",
         "Schon uglavnom znači: nešto se već dogodilo ili je na snazi.",
@@ -19484,69 +19484,69 @@ const A1_WORDS = [
   },
   {
     "de": "schön",
-    "lv": "Predivno",
+    "lv": "lijep",
     "level": "A1"
   },
   {
     "de": "Schrank",
     "de_article": "der",
     "de_plural": "die Schränke",
-    "lv": "Ormar",
+    "lv": "ormar",
     "level": "A1"
   },
   {
     "de": "schreiben",
-    "lv": "Pisati",
+    "lv": "pisati",
     "level": "A1"
   },
   {
     "de": "Schuh",
     "de_article": "der",
     "de_plural": "die Schuhe",
-    "lv": "Cipela",
+    "lv": "cipela",
     "level": "A1"
   },
   {
     "de": "Schule",
     "de_article": "die",
     "de_plural": "die Schulen",
-    "lv": "Glavna",
+    "lv": "škola",
     "level": "A1"
   },
   {
     "de": "Schüler",
     "de_article": "der",
     "de_plural": "die Schüler",
-    "lv": "Student",
+    "lv": "učenik",
     "level": "A1"
   },
   {
     "de": "schwarz",
-    "lv": "Crna",
+    "lv": "crn",
     "level": "A1"
   },
   {
     "de": "Schwein",
     "de_article": "das",
     "de_plural": "die Schweine",
-    "lv": "Svinja",
+    "lv": "svinja",
     "level": "A1"
   },
   {
     "de": "Schwester",
     "de_article": "die",
     "de_plural": "die Schwestern",
-    "lv": "Sestro",
+    "lv": "sestra",
     "level": "A1"
   },
   {
     "de": "schwimmen",
-    "lv": "Plivati",
+    "lv": "plivati",
     "level": "A1",
     "study": {
       "id": "a1-schwimmen",
       "layout": "standardStudy",
-      "translation": "Plivati",
+      "translation": "plivati",
       "explanation": [
         "Glavna ideja: schwimmen znači plivati kao kretanje ili sport.",
         "Schwimmen se koristi kada osoba pliva u vodi plivajućim pokretima.",
@@ -19598,7 +19598,7 @@ const A1_WORDS = [
       },
       "important": [
         "Schwimmen i baden nisu isto.",
-        "Na latvijskom se često kaže “peldēt”, ali na njemačkom treba gledati da li je riječ o kretanju ili kupanju."
+        "Na bosanskom se često kaže “plivati”, ali na njemačkom treba gledati da li je riječ o kretanju ili kupanju."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19783,47 +19783,47 @@ const A1_WORDS = [
   },
   {
     "de": "sechs",
-    "lv": "Šest",
+    "lv": "šest",
     "level": "A1"
   },
   {
     "de": "sechshundert",
-    "lv": "Šest stotina",
+    "lv": "šest stotina",
     "level": "A1"
   },
   {
     "de": "sechste",
-    "lv": "Šesti",
+    "lv": "šesti",
     "level": "A1"
   },
   {
     "de": "sechzehn",
-    "lv": "Šesnaest",
+    "lv": "šesnaest",
     "level": "A1"
   },
   {
     "de": "sechzehnte",
-    "lv": "Šesnaesti",
+    "lv": "šesnaesti",
     "level": "A1"
   },
   {
     "de": "sechzig",
-    "lv": "Šezdeset",
+    "lv": "šezdeset",
     "level": "A1"
   },
   {
     "de": "sechzigste",
-    "lv": "Šezdeseti",
+    "lv": "šezdeseti",
     "level": "A1"
   },
   {
     "de": "sehen",
-    "lv": "Vidjeti",
+    "lv": "vidjeti",
     "level": "A1",
     "study": {
       "id": "a1-sehen",
       "layout": "standardStudy",
-      "translation": "Vidjeti",
+      "translation": "vidjeti",
       "explanation": [
         "Glavna ideja: sehen znači vidjeti očima.",
         "Ako je riječ o tome šta oči opažaju, koristi se sehen.",
@@ -20042,7 +20042,7 @@ const A1_WORDS = [
               "sehe"
             ],
             "purple": [
-              "redzu"
+              "vidim"
             ],
             "red": [
               "schaue",
@@ -20055,24 +20055,24 @@ const A1_WORDS = [
   },
   {
     "de": "sehr",
-    "lv": "Vrlo",
+    "lv": "vrlo",
     "level": "A1"
   },
   {
     "de": "Seife",
     "de_article": "die",
     "de_plural": "die Seifen",
-    "lv": "Sapun",
+    "lv": "sapun",
     "level": "A1"
   },
   {
     "de": "sein",
-    "lv": "Biti",
+    "lv": "biti",
     "level": "A1",
     "study": {
       "id": "a1-sein",
       "layout": "standardStudy",
-      "translation": "Biti",
+      "translation": "biti",
       "explanation": [
         "Glavna ideja: sein znači biti.",
         "Sein je jedan od najvažnijih njemačkih glagola.",
@@ -20299,19 +20299,19 @@ const A1_WORDS = [
   },
   {
     "de": "seit",
-    "lv": "Od",
+    "lv": "od",
     "level": "A1"
   },
   {
     "de": "Seite",
     "de_article": "die",
     "de_plural": "die Seiten",
-    "lv": "Strana • Strana",
+    "lv": "strana",
     "level": "A1",
     "study": {
       "id": "a1-seite",
       "layout": "standardStudy",
-      "translation": "Strana • Strana",
+      "translation": "strana",
       "explanation": [
         "Glavna ideja: die Seite može značiti stranicu knjige/dokumenta ili stranu/rub neke stvari.",
         "U knjizi, časopisu ili na web-stranici die Seite = stranica (Seite 5 = 5. stranica).",
@@ -20477,23 +20477,23 @@ const A1_WORDS = [
     "de": "Sekunde",
     "de_article": "die",
     "de_plural": "die Sekunden",
-    "lv": "Sekundu",
+    "lv": "sekunda",
     "level": "A1"
   },
   {
     "de": "September",
     "de_article": "der",
-    "lv": "Septembra",
+    "lv": "septembar",
     "level": "A1"
   },
   {
     "de": "sich",
-    "lv": "Sebe • Za sebe",
+    "lv": "se",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Sebe • Za sebe",
+      "translation": "se",
       "explanation": [
         "Glavna ideja: sich pokazuje da se radnja odnosi na samog vršioca radnje.",
         "Na bosanskom se to često prevodi kao sebe ili sebi.",
@@ -20723,12 +20723,12 @@ const A1_WORDS = [
   },
   {
     "de": "sicher",
-    "lv": "Sigurno • Svakako",
+    "lv": "siguran",
     "level": "A1",
     "study": {
       "id": "a1-sicher",
       "layout": "standardStudy",
-      "translation": "Sigurno • Svakako",
+      "translation": "siguran",
       "explanation": [
         "Glavna ideja: sicher kao pridjev znači siguran, kao prilog znači sigurno/vjerovatno.",
         "Kada se govori o mjestu, situaciji ili osobi, sicher = sigurno (ein sicherer Ort = sigurno mjesto).",
@@ -20885,12 +20885,12 @@ const A1_WORDS = [
   },
   {
     "de": "sie",
-    "lv": "Oni / ona",
+    "lv": "oni",
     "level": "A1",
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "Oni / ona",
+      "translation": "oni",
       "explanation": [
         "Glavna ideja: Oblik množine — govori se o više osoba. Glagol se završava na -en: kochen, essen, gehen.",
         "Sie uglavnom znači: jedna žena.",
@@ -21042,14 +21042,14 @@ const A1_WORDS = [
   },
   {
     "de": "Sie",
-    "lv": "Ti",
+    "lv": "vi",
     "level": "A1",
     "study": {
       "id": "a1-sie-study-2",
       "layout": "standardStudy",
-      "translation": "Ti",
+      "translation": "vi",
       "explanation": [
-        "Glavna ideja: Učtivo obraćanje — uvijek s velikim S. Na latvijskom: jūs. Često s glagolom u množini.",
+        "Glavna ideja: Učtivo obraćanje — uvijek s velikim S. Na bosanskom: Vi. Često s glagolom u množini.",
         "Sie uglavnom znači: jedna žena.",
         "Često karakterizira: glagol u jednini (-t).",
         "Sie uglavnom znači: više ljudi.",
@@ -21085,7 +21085,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Oblik učtivog obraćanja — uvijek s velikim S. Na latvijskom: jūs. Često s glagolom u množini.",
+        "Oblik učtivog obraćanja — uvijek s velikim S. Na bosanskom: Vi. Često s glagolom u množini.",
         "Koristi Sie kada kontekst odgovara ovom značenju."
       ],
       "important": [
@@ -21187,47 +21187,47 @@ const A1_WORDS = [
   },
   {
     "de": "siebenhundert",
-    "lv": "Sedam stotina",
+    "lv": "sedamsto",
     "level": "A1"
   },
   {
     "de": "siebente",
-    "lv": "Sedmi",
+    "lv": "sedmi",
     "level": "A1"
   },
   {
     "de": "siebzehn",
-    "lv": "Sedamnaest",
+    "lv": "sedamnaest",
     "level": "A1"
   },
   {
     "de": "siebzehnte",
-    "lv": "Sedamnaestog",
+    "lv": "sedamnaesti",
     "level": "A1"
   },
   {
     "de": "siebzig",
-    "lv": "Sedamdeset",
+    "lv": "sedamdeset",
     "level": "A1"
   },
   {
     "de": "siebzigste",
-    "lv": "Sedamdesetog",
+    "lv": "sedamdeseti",
     "level": "A1"
   },
   {
     "de": "singen",
-    "lv": "Da pevam",
+    "lv": "pjevati",
     "level": "A1"
   },
   {
     "de": "sitzen",
-    "lv": "Sjediti",
+    "lv": "sjediti",
     "level": "A1",
     "study": {
       "id": "a1-sitzen",
       "layout": "standardStudy",
-      "translation": "Sjediti",
+      "translation": "sjediti",
       "explanation": [
         "Glavna ideja: sitzen znači sjediti.",
         "Sitzen se koristi za osobu ili životinju koja sjedi.",
@@ -21461,43 +21461,43 @@ const A1_WORDS = [
   },
   {
     "de": "so",
-    "lv": "Tako",
+    "lv": "tako",
     "level": "A1"
   },
   {
     "de": "Socke",
     "de_article": "die",
     "de_plural": "die Socken",
-    "lv": "Čarapa",
+    "lv": "čarapa",
     "level": "A1"
   },
   {
     "de": "Sofa",
     "de_article": "das",
     "de_plural": "die Sofas",
-    "lv": "Sofa",
+    "lv": "sofa",
     "level": "A1"
   },
   {
     "de": "sofort",
-    "lv": "Odmah",
+    "lv": "odmah",
     "level": "A1"
   },
   {
     "de": "Sohn",
     "de_article": "der",
     "de_plural": "die Söhne",
-    "lv": "Sin",
+    "lv": "sin",
     "level": "A1"
   },
   {
     "de": "sollen",
-    "lv": "Trebalo bi",
+    "lv": "trebati",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "Trebalo bi",
+      "translation": "trebati",
       "explanation": [
         "Glavna ideja: sollen znači da neko treba ili mora nešto uraditi prema uputi.",
         "Sollen se često koristi kada neko drugi kaže šta treba raditi.",
@@ -21727,79 +21727,79 @@ const A1_WORDS = [
     "de": "Sommer",
     "de_article": "der",
     "de_plural": "die Sommer",
-    "lv": "Ljeto",
+    "lv": "ljeto",
     "level": "A1"
   },
   {
     "de": "Samstag",
     "de_article": "der",
     "de_plural": "die Samstage",
-    "lv": "Subota",
+    "lv": "subota",
     "level": "A1"
   },
   {
     "de": "Sonne",
     "de_article": "die",
     "de_plural": "die Sonnen",
-    "lv": "Sunce",
+    "lv": "sunce",
     "level": "A1"
   },
   {
     "de": "Sonntag",
     "de_article": "der",
     "de_plural": "die Sonntage",
-    "lv": "Nedjelja",
+    "lv": "nedjelja",
     "level": "A1"
   },
   {
     "de": "spät",
-    "lv": "Kasno",
+    "lv": "kasno",
     "level": "A1"
   },
   {
     "de": "spazieren gehen",
-    "lv": "Ići u šetnju",
+    "lv": "ići u šetnju",
     "level": "A1"
   },
   {
     "de": "Spiel",
     "de_article": "das",
     "de_plural": "die Spiele",
-    "lv": "Igra",
+    "lv": "igra",
     "level": "A1"
   },
   {
     "de": "spielen",
-    "lv": "Igrati",
+    "lv": "igrati",
     "level": "A1"
   },
   {
     "de": "Spielzeug",
     "de_article": "das",
     "de_plural": "die Spielzeuge",
-    "lv": "Igračka",
+    "lv": "igračka",
     "level": "A1"
   },
   {
     "de": "Sprache",
     "de_article": "die",
     "de_plural": "die Sprachen",
-    "lv": "Jezik",
+    "lv": "jezik",
     "level": "A1"
   },
   {
     "de": "stark",
-    "lv": "Jaka",
+    "lv": "jak",
     "level": "A1"
   },
   {
     "de": "stehen",
-    "lv": "Stajati",
+    "lv": "stajati",
     "level": "A1",
     "study": {
       "id": "a1-stehen",
       "layout": "standardStudy",
-      "translation": "Stajati",
+      "translation": "stajati",
       "explanation": [
         "Glavna ideja: stehen znači stajati ili biti u stojećem položaju.",
         "Za osobu stehen znači stajati.",
@@ -22039,213 +22039,213 @@ const A1_WORDS = [
     "de": "Stern",
     "de_article": "der",
     "de_plural": "die Sterne",
-    "lv": "Zvijezda",
+    "lv": "zvijezda",
     "level": "A1"
   },
   {
     "de": "Straße",
     "de_article": "die",
     "de_plural": "die Straßen",
-    "lv": "Ulica",
+    "lv": "ulica",
     "level": "A1"
   },
   {
     "de": "Straßenbahn",
     "de_article": "die",
     "de_plural": "die Straßenbahnen",
-    "lv": "Tramvaj",
+    "lv": "tramvaj",
     "level": "A1"
   },
   {
     "de": "Stück",
     "de_article": "das",
     "de_plural": "die Stücke",
-    "lv": "Komad",
+    "lv": "komad",
     "level": "A1"
   },
   {
     "de": "Student",
     "de_article": "der",
     "de_plural": "die Studenten",
-    "lv": "Student",
+    "lv": "student",
     "level": "A1"
   },
   {
     "de": "Stuhl",
     "de_article": "der",
     "de_plural": "die Stühle",
-    "lv": "Stolica",
+    "lv": "stolica",
     "level": "A1"
   },
   {
     "de": "Stunde",
     "de_article": "die",
     "de_plural": "die Stunden",
-    "lv": "Sat vremena",
+    "lv": "sat",
     "level": "A1"
   },
   {
     "de": "suchen",
-    "lv": "Tražiti",
+    "lv": "tražiti",
     "level": "A1"
   },
   {
     "de": "süß",
-    "lv": "Slatko",
+    "lv": "sladak",
     "level": "A1"
   },
   {
     "de": "Tag",
     "de_article": "der",
     "de_plural": "die Tage",
-    "lv": "Dan",
+    "lv": "dan",
     "level": "A1"
   },
   {
     "de": "Tante",
     "de_article": "die",
     "de_plural": "die Tanten",
-    "lv": "Tetka",
+    "lv": "tetka",
     "level": "A1"
   },
   {
     "de": "tanzen",
-    "lv": "Plesati",
+    "lv": "plesati",
     "level": "A1"
   },
   {
     "de": "Tasche",
     "de_article": "die",
     "de_plural": "die Taschen",
-    "lv": "Torba",
+    "lv": "torba",
     "level": "A1"
   },
   {
     "de": "Tasse",
     "de_article": "die",
     "de_plural": "die Tassen",
-    "lv": "Šolja",
+    "lv": "šolja",
     "level": "A1"
   },
   {
     "de": "Taxi",
     "de_article": "das",
     "de_plural": "die Taxis",
-    "lv": "Taksi",
+    "lv": "taksi",
     "level": "A1"
   },
   {
     "de": "Tee",
     "de_article": "der",
     "de_plural": "die Tees",
-    "lv": "Čaj",
+    "lv": "čaj",
     "level": "A1"
   },
   {
     "de": "Telefon",
     "de_article": "das",
     "de_plural": "die Telefone",
-    "lv": "Telefon",
+    "lv": "telefon",
     "level": "A1"
   },
   {
     "de": "telefonieren",
-    "lv": "Nazovite telefonom",
+    "lv": "telefonirati",
     "level": "A1"
   },
   {
     "de": "Teller",
     "de_article": "der",
     "de_plural": "die Teller",
-    "lv": "Tanjir",
+    "lv": "tanjir",
     "level": "A1"
   },
   {
     "de": "teuer",
-    "lv": "Skupo",
+    "lv": "skup",
     "level": "A1"
   },
   {
     "de": "Text",
     "de_article": "der",
     "de_plural": "die Texte",
-    "lv": "Tekst",
+    "lv": "tekst",
     "level": "A1"
   },
   {
     "de": "Tier",
     "de_article": "das",
     "de_plural": "die Tiere",
-    "lv": "Životinja",
+    "lv": "životinja",
     "level": "A1"
   },
   {
     "de": "Tisch",
     "de_article": "der",
     "de_plural": "die Tische",
-    "lv": "Sto",
+    "lv": "sto",
     "level": "A1"
   },
   {
     "de": "Tochter",
     "de_article": "die",
     "de_plural": "die Töchter",
-    "lv": "Kćer",
+    "lv": "kćerka",
     "level": "A1"
   },
   {
     "de": "Toilette",
     "de_article": "die",
     "de_plural": "die Toiletten",
-    "lv": "Toalet",
+    "lv": "toalet",
     "level": "A1"
   },
   {
     "de": "Tomate",
     "de_article": "die",
     "de_plural": "die Tomaten",
-    "lv": "Paradajz",
+    "lv": "paradajz",
     "level": "A1"
   },
   {
     "de": "Treppe",
     "de_article": "die",
     "de_plural": "die Treppen",
-    "lv": "Stepenice",
+    "lv": "stepenice",
     "level": "A1"
   },
   {
     "de": "trinken",
-    "lv": "Piti",
+    "lv": "piti",
     "level": "A1"
   },
   {
     "de": "tun",
-    "lv": "Uraditi",
+    "lv": "raditi",
     "level": "A1"
   },
   {
     "de": "Tür",
     "de_article": "die",
     "de_plural": "die Türen",
-    "lv": "Vrata",
+    "lv": "vrata",
     "level": "A1"
   },
   {
     "de": "U-Bahn",
     "de_article": "die",
     "de_plural": "die U-Bahnen",
-    "lv": "Metro",
+    "lv": "metro",
     "level": "A1"
   },
   {
     "de": "über",
-    "lv": "Preko • Za",
+    "lv": "iznad",
     "level": "A1",
     "study": {
       "id": "a1-über",
       "layout": "standardStudy",
-      "translation": "Preko • Za",
+      "translation": "iznad",
       "explanation": [
         "Glavna ideja: über znači iznad ili o, zavisno od konteksta.",
         "Kada je riječ o lokaciji, über često znači iznad.",
@@ -22495,22 +22495,22 @@ const A1_WORDS = [
   },
   {
     "de": "überall",
-    "lv": "Svuda",
+    "lv": "svuda",
     "level": "A1"
   },
   {
     "de": "übermorgen",
-    "lv": "Prekosutra",
+    "lv": "prekosutra",
     "level": "A1"
   },
   {
     "de": "um",
-    "lv": "Oko • Sati",
+    "lv": "oko",
     "level": "A1",
     "study": {
       "id": "a1-um",
       "layout": "standardStudy",
-      "translation": "Oko • Sati",
+      "translation": "oko",
       "explanation": [
         "Glavna ideja: um vrlo često znači u (s vremenom) ili oko/okolo (s mjestom).",
         "Uz tačno vrijeme um znači u.",
@@ -22754,27 +22754,27 @@ const A1_WORDS = [
   },
   {
     "de": "und",
-    "lv": "I",
+    "lv": "i",
     "level": "A1"
   },
   {
     "de": "unser",
-    "lv": "Naš",
+    "lv": "naš",
     "level": "A1"
   },
   {
     "de": "unten",
-    "lv": "Na dnu",
+    "lv": "dolje",
     "level": "A1"
   },
   {
     "de": "unter",
-    "lv": "Ispod",
+    "lv": "ispod",
     "level": "A1",
     "study": {
       "id": "a1-unter",
       "layout": "standardStudy",
-      "translation": "Ispod",
+      "translation": "ispod",
       "explanation": [
         "Glavna ideja: unter znači ispod ili među, ovisno o kontekstu.",
         "Ako se nešto nalazi ispod stola, stolice ili nekog drugog predmeta, koristi se unter.",
@@ -23023,43 +23023,43 @@ const A1_WORDS = [
     "de": "Vase",
     "de_article": "die",
     "de_plural": "die Vasen",
-    "lv": "Vaza",
+    "lv": "vaza",
     "level": "A1"
   },
   {
     "de": "Vater",
     "de_article": "der",
     "de_plural": "die Väter",
-    "lv": "Otac",
+    "lv": "otac",
     "level": "A1"
   },
   {
     "de": "verheiratet",
-    "lv": "Oženjen",
+    "lv": "oženjen",
     "level": "A1"
   },
   {
     "de": "verkaufen",
-    "lv": "Prodati",
+    "lv": "prodati",
     "level": "A1"
   },
   {
     "de": "verlieren",
-    "lv": "Izgubiti",
+    "lv": "izgubiti",
     "level": "A1"
   },
   {
     "de": "verstehen",
-    "lv": "Razumjeti",
+    "lv": "razumjeti",
     "level": "A1",
     "study": {
       "id": "a1-verstehen",
       "layout": "standardStudy",
-      "translation": "Razumjeti",
+      "translation": "razumjeti",
       "explanation": [
         "Glavna ideja: verstehen znači razumjeti.",
         "Koristi se kada razumete jezik, osobu, tekst ili situaciju.",
-        "U latvijskom ovdje obično ne treba “prast” ili “mācēt” • Oni su češće können.",
+        "U bosanskom ovdje obično ne treba “znati” ili “umjeti” • Oni češće odgovaraju glagolu können.",
         "Vrlo česta fraza je Ich verstehe. = Razumijem."
       ],
       "examples": [
@@ -23121,7 +23121,7 @@ const A1_WORDS = [
           ],
           "red": [
             "können",
-            "prast",
+            "umjeti",
             "Glavna"
           ]
         },
@@ -23202,7 +23202,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Biti u mogućnosti",
-                "prast"
+                "umjeti"
               ]
             },
             "example": {
@@ -23256,7 +23256,7 @@ const A1_WORDS = [
             ],
             "red": [
               "können",
-              "prast"
+              "umjeti"
             ]
           }
         },
@@ -23266,7 +23266,7 @@ const A1_WORDS = [
               "verstehen"
             ],
             "red": [
-              "prast"
+              "umjeti"
             ]
           },
           {
@@ -23283,74 +23283,74 @@ const A1_WORDS = [
   },
   {
     "de": "versuchen",
-    "lv": "Pokušati",
+    "lv": "pokušati",
     "level": "A1"
   },
   {
     "de": "viel",
-    "lv": "Puno",
+    "lv": "mnogo",
     "level": "A1"
   },
   {
     "de": "vielleicht",
-    "lv": "Mozda",
+    "lv": "možda",
     "level": "A1"
   },
   {
     "de": "vier",
-    "lv": "Četiri",
+    "lv": "četiri",
     "level": "A1"
   },
   {
     "de": "vierhundert",
-    "lv": "Četiri stotine",
+    "lv": "četiristo",
     "level": "A1"
   },
   {
     "de": "vierte",
-    "lv": "Četvrti",
+    "lv": "četvrti",
     "level": "A1"
   },
   {
     "de": "vierzehn",
-    "lv": "Četrnaest",
+    "lv": "četrnaest",
     "level": "A1"
   },
   {
     "de": "vierzehnte",
-    "lv": "Četrnaesti",
+    "lv": "četrnaesti",
     "level": "A1"
   },
   {
     "de": "vierzig",
-    "lv": "Četrdeset",
+    "lv": "četrdeset",
     "level": "A1"
   },
   {
     "de": "vierzigste",
-    "lv": "Četrdeseti",
+    "lv": "četrdeseti",
     "level": "A1"
   },
   {
     "de": "Vogel",
     "de_article": "der",
     "de_plural": "die Vögel",
-    "lv": "Ptica",
+    "lv": "ptica",
     "level": "A1"
   },
   {
     "de": "voll",
-    "lv": "Puna",
+    "lv": "pun",
     "level": "A1"
   },
   {
     "de": "vom",
-    "lv": "Od",
+    "lv": "od",
     "level": "A1",
     "study": {
       "id": "a1-vom",
       "layout": "standardStudy",
-      "translation": "Od",
+      "translation": "od",
       "explanation": [
         "Vom je skraćenica za prijedlog von i član dem.",
         "Puni oblik: von dem (kome?).",
@@ -23680,17 +23680,17 @@ const A1_WORDS = [
   },
   {
     "de": "von",
-    "lv": "Od",
+    "lv": "od",
     "level": "A1"
   },
   {
     "de": "vor",
-    "lv": "Prije • Ispred",
+    "lv": "pred",
     "level": "A1",
     "study": {
       "id": "a1-vor",
       "layout": "standardStudy",
-      "translation": "Prije • Ispred",
+      "translation": "pred",
       "explanation": [
         "Glavna ideja: vor znači prije u vremenu ili ispred u prostoru.",
         "Kada je riječ o vremenu, vor znači prije.",
@@ -23939,53 +23939,53 @@ const A1_WORDS = [
     "de": "Vorname",
     "de_article": "der",
     "de_plural": "die Vornamen",
-    "lv": "Riječ",
+    "lv": "ime",
     "level": "A1"
   },
   {
     "de": "Wald",
     "de_article": "der",
     "de_plural": "die Wälder",
-    "lv": "Šuma",
+    "lv": "šuma",
     "level": "A1"
   },
   {
     "de": "Wand",
     "de_article": "die",
     "de_plural": "die Wände",
-    "lv": "Zid",
+    "lv": "zid",
     "level": "A1"
   },
   {
     "de": "wann",
-    "lv": "Kada",
+    "lv": "kada",
     "level": "A1"
   },
   {
     "de": "warm",
-    "lv": "Toplo",
+    "lv": "topao",
     "level": "A1"
   },
   {
     "de": "warten",
-    "lv": "Bleiben",
+    "lv": "čekati",
     "level": "A1"
   },
   {
     "de": "warum",
-    "lv": "Zašto",
+    "lv": "zašto",
     "level": "A1"
   },
   {
     "de": "was",
-    "lv": "Ko/šta • Koga/šta",
+    "lv": "šta",
     "level": "A1",
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Ko/šta • Koga/šta",
+      "translation": "šta",
       "explanation": [
-        "Glavna ideja: was je upitna riječ za stvari i događaje — na latvijskom je to kas ili ko, zavisno od dijela rečenice.",
+        "Glavna ideja: was je upitna riječ za stvari i događaje — na bosanskom je to šta ili što, zavisno od dijela rečenice.",
         "Was pita za stvari, događaje i činjenice, a ne za osobe.",
         "U njemačkom jeziku was se ne mijenja po padežu — uvijek izgleda kao was.",
         "Ako je was subjekt rečenice, na bosanski se prevodi kao šta (Was ist das? = Šta je to?).",
@@ -24023,7 +24023,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Samo was se ne mijenja — u njemačkom je to uvijek was • Na latvijskom biraj kas ili ko prema dijelu rečenice.",
+        "Samo was se ne mijenja — u njemačkom je to uvijek was • Na bosanskom biraj ko ili koga prema dijelu rečenice.",
         "Brzi trik: ako se na pitanje može odgovoriti sa 'To je ...', koristi kas • Ako odgovor dolazi poslije glagola kao dopuna, koristi ko."
       ],
       "important": [
@@ -24168,19 +24168,19 @@ const A1_WORDS = [
   },
   {
     "de": "waschen",
-    "lv": "Oprati",
+    "lv": "prati",
     "level": "A1"
   },
   {
     "de": "sich waschen",
-    "lv": "Oprati",
+    "lv": "prati se",
     "level": "A1"
   },
   {
     "de": "Weg",
     "de_article": "der",
     "de_plural": "die Wege",
-    "lv": "Put",
+    "lv": "put",
     "level": "A1"
   },
   {
@@ -24192,44 +24192,44 @@ const A1_WORDS = [
     "de": "Wein",
     "de_article": "der",
     "de_plural": "die Weine",
-    "lv": "Vino",
+    "lv": "vino",
     "level": "A1"
   },
   {
     "de": "weinen",
-    "lv": "Plakati",
+    "lv": "plakati",
     "level": "A1"
   },
   {
     "de": "weiß",
-    "lv": "Bijela",
+    "lv": "bijel",
     "level": "A1"
   },
   {
     "de": "welcher",
-    "lv": "SZO",
+    "lv": "koji",
     "level": "A1"
   },
   {
     "de": "Welt",
     "de_article": "die",
     "de_plural": "die Welten",
-    "lv": "Svijet",
+    "lv": "svijet",
     "level": "A1"
   },
   {
     "de": "wenig",
-    "lv": "Ne puno",
+    "lv": "malo",
     "level": "A1"
   },
   {
     "de": "wenn",
-    "lv": "Ako • Kada",
+    "lv": "ako",
     "level": "A1",
     "study": {
       "id": "a1-wenn",
       "layout": "standardStudy",
-      "translation": "Ako • Kada",
+      "translation": "ako",
       "explanation": [
         "Glavna ideja: wenn znači ako ili kada, zavisno od situacije.",
         "Ako je to uslov, prevedite kao da.",
@@ -24458,14 +24458,14 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "Ko • Ko",
+    "lv": "ko",
     "level": "A1",
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "Ko • Ko",
+      "translation": "ko",
       "explanation": [
-        "Glavna ideja: wer je upitna riječ za identitet osobe — na latvijskom je to kas ili kurš.",
+        "Glavna ideja: wer je upitna riječ za identitet osobe — na bosanskom je to ko ili koji.",
         "Pitali smo o ljudima, a ne o stvarima ili događajima.",
         "Stvari i događaji se pitaju sa bio, a ne bio.",
         "Wer u njemačkom jeziku obično je subjekat rečenice (u nominativu) — Wer ist das? = Ko je to?",
@@ -24662,12 +24662,12 @@ const A1_WORDS = [
   },
   {
     "de": "werden",
-    "lv": "Postati",
+    "lv": "postati",
     "level": "A1",
     "study": {
       "id": "a1-werden",
       "layout": "standardStudy",
-      "translation": "Postati",
+      "translation": "postati",
       "explanation": [
         "Glavna ideja: werden na nivou A1 najčešće znači postati.",
         "To se koristi kada se nešto mijenja ili postaje drugačije.",
@@ -24893,15 +24893,15 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "lv": "Vrijeme (vrijeme)",
+    "lv": "vrijeme",
     "level": "A1",
     "study": {
       "id": "a1-wetter",
       "layout": "standardStudy",
-      "translation": "Vrijeme (vrijeme)",
+      "translation": "vrijeme",
       "explanation": [
         "Glavna ideja: das Wetter znači vremenske prilike — sunčano, kišovito, hladno ili toplo.",
-        "Latvijska riječ „laiks” može značiti i vremenske prilike i vrijeme na satu — na njemačkom se to razlikuje.",
+        "Bosanska riječ „vrijeme” može značiti i vremenske prilike i vrijeme na satu — na njemačkom se to razlikuje.",
         "Razgovarajte o vremenu u prirodi sa das Wetter: Wie ist das Wetter heute?",
         "U rečenici se das Wetter često koristi zajedno s riječima kao što su warm ili kalt.",
         "Ne treba ga brkati sa die Zeit - vrijeme je kao trenutak ili prilika (Ich habe keine Zeit)."
@@ -25160,21 +25160,21 @@ const A1_WORDS = [
   },
   {
     "de": "wichtig",
-    "lv": "Važan",
+    "lv": "važan",
     "level": "A1"
   },
   {
     "de": "wie",
-    "lv": "Kako • Koliko",
+    "lv": "kako",
     "level": "A1",
     "study": {
       "id": "a1-wie",
       "layout": "standardStudy",
-      "translation": "Kako • Koliko",
+      "translation": "kako",
       "explanation": [
         "Glavna ideja: wie pita za način ili osobinu (kako) i za obim ili broj (koliko), ovisno o kontekstu.",
         "Wie samo po sebi (Wie geht's?) pita za način — na bosanskom kako.",
-        "Wie + pridjev (wie viel, wie alt, wie lange) pita za količinu, dob ili trajanje — na latvijskom cik.",
+        "Wie + pridjev (wie viel, wie alt, wie lange) pita za količinu, dob ili trajanje — na bosanskom koliko.",
         "Wie viel(e) znači koliko • Wie alt znači koliko star • Wie lange znači koliko dugo.",
         "U poređenjima wie znači isto kao (so groß wie = jednako velik kao)."
       ],
@@ -25341,57 +25341,57 @@ const A1_WORDS = [
   },
   {
     "de": "wieder",
-    "lv": "Opet",
+    "lv": "opet",
     "level": "A1"
   },
   {
     "de": "wie viel",
-    "lv": "Koliko",
+    "lv": "koliko",
     "level": "A1"
   },
   {
     "de": "Wind",
     "de_article": "der",
     "de_plural": "die Winde",
-    "lv": "Vetar",
+    "lv": "vjetar",
     "level": "A1"
   },
   {
     "de": "Zigarette",
     "de_article": "die",
     "de_plural": "die Zigaretten",
-    "lv": "Cigaretu",
+    "lv": "cigareta",
     "level": "A1"
   },
   {
     "de": "Zimmer",
     "de_article": "das",
     "de_plural": "die Zimmer",
-    "lv": "Soba",
+    "lv": "soba",
     "level": "A1"
   },
   {
     "de": "Zitrone",
     "de_article": "die",
     "de_plural": "die Zitronen",
-    "lv": "Limun",
+    "lv": "limun",
     "level": "A1"
   },
   {
     "de": "Zoo",
     "de_article": "der",
     "de_plural": "die Zoos",
-    "lv": "Zoološki vrt",
+    "lv": "zoološki vrt",
     "level": "A1"
   },
   {
     "de": "zu",
-    "lv": "Do • U",
+    "lv": "do",
     "level": "A1",
     "study": {
       "id": "a1-zu",
       "layout": "standardStudy",
-      "translation": "Do • U",
+      "translation": "do",
       "explanation": [
         "Glavna ideja: zu vrlo često znači na ili kod, ali ima i ulogu uz infinitiv.",
         "Kod ljudi i ustanova zu često znači kod ili na.",
@@ -25626,24 +25626,24 @@ const A1_WORDS = [
   {
     "de": "Zucker",
     "de_article": "der",
-    "lv": "Šećer",
+    "lv": "šećer",
     "level": "A1"
   },
   {
     "de": "zuerst",
-    "lv": "Prije svega",
+    "lv": "prvo",
     "level": "A1"
   },
   {
     "de": "Zug",
     "de_article": "der",
     "de_plural": "die Züge",
-    "lv": "Voz",
+    "lv": "voz",
     "level": "A1",
     "study": {
       "id": "a1-zug",
       "layout": "standardStudy",
-      "translation": "Voz",
+      "translation": "voz",
       "explanation": [
         "Glavna ideja: der Zug na nivou A1 najčešće znači voz.",
         "Koristi se u svakodnevnim situacijama za vožnju, dolazak i odlazak.",
@@ -25868,12 +25868,12 @@ const A1_WORDS = [
   },
   {
     "de": "zum",
-    "lv": "Do • U",
+    "lv": "do",
     "level": "A1",
     "study": {
       "id": "a1-zum",
       "layout": "standardStudy",
-      "translation": "Do • U",
+      "translation": "do",
       "explanation": [
         "Zum je skraćeni oblik prijedloga zu i člana dem.",
         "Puni oblik: zu dem (kome?).",
@@ -26209,84 +26209,84 @@ const A1_WORDS = [
   },
   {
     "de": "zumachen",
-    "lv": "Close up",
+    "lv": "zatvoriti",
     "level": "A1"
   },
   {
     "de": "zurück",
-    "lv": "Nazad",
+    "lv": "nazad",
     "level": "A1"
   },
   {
     "de": "zusammen",
-    "lv": "Zajedno",
+    "lv": "zajedno",
     "level": "A1"
   },
   {
     "de": "zu viel",
-    "lv": "Previše",
+    "lv": "previše",
     "level": "A1"
   },
   {
     "de": "zwanzig",
-    "lv": "Dvadeset",
+    "lv": "dvadeset",
     "level": "A1"
   },
   {
     "de": "zwanzigste",
-    "lv": "Dvadesetog",
+    "lv": "dvadeseti",
     "level": "A1"
   },
   {
     "de": "zwei",
-    "lv": "Dva",
+    "lv": "dva",
     "level": "A1"
   },
   {
     "de": "zweihundert",
-    "lv": "Dvije stotine",
+    "lv": "dvjesto",
     "level": "A1"
   },
   {
     "de": "zweimal",
-    "lv": "Dvaput",
+    "lv": "dvaput",
     "level": "A1"
   },
   {
     "de": "zweite",
-    "lv": "Drugi",
+    "lv": "drugi",
     "level": "A1"
   },
   {
     "de": "Zwiebel",
     "de_article": "die",
     "de_plural": "die Zwiebeln",
-    "lv": "Luk",
+    "lv": "luk",
     "level": "A1"
   },
   {
     "de": "zwischen",
-    "lv": "Između",
+    "lv": "između",
     "level": "A1"
   },
   {
     "de": "zwölf",
-    "lv": "Dvanaest",
+    "lv": "dvanaest",
     "level": "A1"
   },
   {
     "de": "zwölfte",
-    "lv": "Dvanaesti",
+    "lv": "dvanaesti",
     "level": "A1"
   },
   {
     "de": "fernsehen",
-    "lv": "Gledati TV",
+    "lv": "gledati televiziju",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen",
       "layout": "standardStudy",
-      "translation": "Gledati TV",
+      "translation": "gledati televiziju",
       "explanation": "Glavna ideja: fernsehen je razdvojivi glagol — ich sehe fern, du siehst fern. To znači gledati televiziju. Ne miješati s imenicom das Fernsehen (televizija kao medij).",
       "examples": [
         {
@@ -26390,12 +26390,12 @@ const A1_WORDS = [
   {
     "de": "Fernsehen",
     "de_article": "das",
-    "lv": "Televizija",
+    "lv": "televizija",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen-study",
       "layout": "standardStudy",
-      "translation": "Televizija",
+      "translation": "televizija",
       "explanation": [
         "Glavna ideja: Imenica, samo u jednini. Opisuje TV kao medij ili emitiranje općenito.",
         "Das Fernsehen uglavnom znači: gledati emisiju.",
@@ -26541,12 +26541,12 @@ const A1_WORDS = [
   {
     "de": "Appetit",
     "de_article": "der",
-    "lv": "Apetit",
+    "lv": "apetit",
     "level": "A1",
     "study": {
       "id": "a1-appetit",
       "layout": "standardStudy",
-      "translation": "Apetit",
+      "translation": "apetit",
       "explanation": [
         "Glavna ideja: Osjećaj da ti se jede. samo jednina — nema množine.",
         "Der Appetit uglavnom znači: želja za jelom.",
@@ -26649,12 +26649,12 @@ const A1_WORDS = [
   },
   {
     "de": "essen",
-    "lv": "Jesti",
+    "lv": "jesti",
     "level": "A1",
     "study": {
       "id": "a1-essen",
       "layout": "standardStudy",
-      "translation": "Jesti",
+      "translation": "jesti",
       "explanation": [
         "Glavna ideja: Glagol - jesti hranu.",
         "Essen uglavnom znači: konzumirati hranu.",
@@ -26793,12 +26793,12 @@ const A1_WORDS = [
   {
     "de": "Essen",
     "de_article": "das",
-    "lv": "Hrana • Obrok",
+    "lv": "hrana",
     "level": "A1",
     "study": {
       "id": "a1-essen-study",
       "layout": "standardStudy",
-      "translation": "Hrana • Obrok",
+      "translation": "hrana",
       "explanation": [
         "Glavna ideja: Imenica - hrana ili cijeli obrok.",
         "Das Essen uglavnom znači: konzumirati hranu.",
@@ -26941,12 +26941,12 @@ const A1_WORDS = [
   {
     "de": "Gemüse",
     "de_article": "das",
-    "lv": "Povrće",
+    "lv": "povrće",
     "level": "A1",
     "study": {
       "id": "a1-gemuese",
       "layout": "standardStudy",
-      "translation": "Povrće",
+      "translation": "povrće",
       "explanation": [
         "Glavna ideja: Povrće općenito. U njemačkom jeziku ne postoji oblik množine *die Gemüse.",
         "Das Gemüse uglavnom znači: povrće općenito.",
@@ -27091,12 +27091,12 @@ const A1_WORDS = [
   {
     "de": "Obst",
     "de_article": "das",
-    "lv": "Voće",
+    "lv": "voće",
     "level": "A1",
     "study": {
       "id": "a1-obst",
       "layout": "standardStudy",
-      "translation": "Voće",
+      "translation": "voće",
       "explanation": [
         "Glavna ideja: Voće općenito. U njemačkom jeziku ne postoji oblik množine *die Obsts.",
         "Das Obst uglavnom znači: voće općenito.",
@@ -27227,12 +27227,12 @@ const A1_WORDS = [
   {
     "de": "Ferien",
     "de_article": "die",
-    "lv": "praznicima",
+    "lv": "raspust",
     "level": "A1",
     "study": {
       "id": "a1-ferien",
       "layout": "standardStudy",
-      "translation": "praznicima",
+      "translation": "raspust",
       "explanation": [
         "Glavna ideja: samo množina. Školski ili studentski raspust — uvijek u množini.",
         "Die Ferien uglavnom znači: školski raspust.",
@@ -27366,12 +27366,12 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
-    "lv": "Odmor",
+    "lv": "godišnji odmor",
     "level": "A1",
     "study": {
       "id": "a1-urlaub",
       "layout": "standardStudy",
-      "translation": "Odmor",
+      "translation": "godišnji odmor",
       "explanation": [
         "Glavna ideja: samo jednina. Odlazak s posla - uvijek u jednini.",
         "Der Urlaub prvenstveno znači: slobodno vrijeme od posla.",
@@ -27518,26 +27518,26 @@ const A1_WORDS = [
     "de": "Stadt",
     "de_article": "die",
     "de_plural": "die Städte",
-    "lv": "Grad",
+    "lv": "grad",
     "level": "A1"
   },
   {
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "Zemlja",
+    "lv": "država",
     "level": "A1"
   },
   {
     "de": "Uhr",
     "de_article": "die",
     "de_plural": "die Uhren",
-    "lv": "Sat",
+    "lv": "sat",
     "level": "A1",
     "study": {
       "id": "a1-uhr",
       "layout": "standardStudy",
-      "translation": "Sat",
+      "translation": "sat",
       "explanation": [
         "Glavna ideja: sat ili ručni sat. Također vrijeme na satu: Es ist acht Uhr.",
         "Die Uhr uglavnom znači: uređaj ili vrijeme na satu.",
@@ -27679,12 +27679,12 @@ const A1_WORDS = [
     "de": "Zeit",
     "de_article": "die",
     "de_plural": "die Zeiten",
-    "lv": "Vrijeme (trenutak / vremenski period)",
+    "lv": "vrijeme",
     "level": "A1",
     "study": {
       "id": "a1-zeit",
       "layout": "standardStudy",
-      "translation": "Vrijeme (trenutak / vremenski period)",
+      "translation": "vrijeme",
       "explanation": [
         "Glavna ideja: Vrijeme kao pojam - trenutak, prilika, vremenski period.",
         "Die Zeit uglavnom znači: trenutak, prilika.",
@@ -27800,12 +27800,12 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "Jednom • Jednom",
+    "lv": "jednom",
     "level": "A1",
     "study": {
       "id": "a1-einmal",
       "layout": "standardStudy",
-      "translation": "Jednom • Jednom",
+      "translation": "jednom",
       "explanation": [
         "Glavna ideja: Ukazuje na jedanput ili prošlost (jednom sam bio/bila...).",
         "Einmal uglavnom znači: jednom / u prošlosti.",
@@ -27891,12 +27891,12 @@ const A1_WORDS = [
   },
   {
     "de": "noch mal",
-    "lv": "Opet",
+    "lv": "još jednom",
     "level": "A1",
     "study": {
       "id": "a1-noch-mal",
       "layout": "standardStudy",
-      "translation": "Opet",
+      "translation": "još jednom",
       "explanation": [
         "Glavna ideja: Znači ponovo — ponoviti radnju ili zatražiti ponavljanje."
       ],
