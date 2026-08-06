@@ -6407,12 +6407,12 @@ const A1_WORDS = [
   },
   {
     "de": "fahren",
-    "lv": "braukt • vest • aizvest",
+    "lv": "braukt",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "braukt • vest • aizvest",
+      "translation": "braukt",
       "explanation": [
         "Galvenā doma: fahren nozīmē braukt ar transportu un dažos teikumos arī vest vai aizvest kādu.",
         "fahren lieto, ja pārvietošanās notiek ar auto, autobusu, vilcienu, velosipēdu vai citu transportlīdzekli.",
@@ -6434,7 +6434,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "es tevi aizvedīšu mājās."
+          "lv": "es tevi aizvedu mājās."
         },
         {
           "de": "Wir fahren morgen nach München.",
@@ -6592,7 +6592,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "aizvedīšu"
+                "aizvedu"
               ],
               "green": [
                 "tevi",
@@ -6802,6 +6802,7 @@ const A1_WORDS = [
   {
     "de": "Wochenende",
     "de_article": "das",
+    "de_plural": "die Wochenenden",
     "lv": "nedēļas nogale",
     "level": "A1"
   },
@@ -6861,7 +6862,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "Kā tev patīk filma?"
+          "lv": "ko tu domā par filmu?"
         }
       ],
       "comparison": [
@@ -6939,7 +6940,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "šķiet"
+                "domā"
               ]
             }
           }
@@ -7147,7 +7148,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist meine Frau.",
-          "lv": "Tā ir mana sieva."
+          "lv": "šī ir mana sieva."
         },
         {
           "de": "Wie viele Frauen sind hier?",
@@ -7353,12 +7354,13 @@ const A1_WORDS = [
   {
     "de": "Frühstück",
     "de_article": "das",
+    "de_plural": "die Frühstücke",
     "lv": "brokastis",
     "level": "A1"
   },
   {
     "de": "frühstücken",
-    "lv": "brokastot",
+    "lv": "ēst brokastis",
     "level": "A1"
   },
   {
@@ -7398,12 +7400,12 @@ const A1_WORDS = [
   },
   {
     "de": "für",
-    "lv": "priekš • par",
+    "lv": "priekš",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "priekš • par",
+      "translation": "priekš",
       "explanation": [
         "Galvenā doma: für ir prievārds, kas vienmēr pārvalda akuzatīvu — latviski parasti priekš vai par.",
         "Runājot par saņēmēju vai nolūku, für = priekš (für dich = priekš tevis).",
@@ -7573,12 +7575,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "futbols",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "futbols",
+      "explanation": [
+        "Galvenā doma: Fußball visbiežāk nozīmē futbolu kā sporta veidu.",
+        "Ar artikulu un skaitāmā nozīmē der Fußball var nozīmēt arī futbola bumbu.",
+        "Daudzskaitlis die Fußbälle nozīmē futbola bumbas, nevis vairākus sporta veidus."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "es spēlēju futbolu."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "futbola bumba atrodas dārzā."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "mēs pērkam divas futbola bumbas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "futbols kā sporta veids",
+          "example": "Ich spiele Fußball. – Es spēlēju futbolu."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "futbola bumba",
+          "example": "Der Fußball ist neu. – Futbola bumba ir jauna."
+        }
+      ],
+      "tip": [
+        "Bez artikula spielen Fußball parasti nozīmē spēlēt futbolu.",
+        "Skaitāmā nozīmē ein Fußball un die Fußbälle ir futbola bumba un futbola bumbas."
+      ],
+      "important": [
+        "die Fußbälle nozīmē futbola bumbas.",
+        "Sporta veidu Fußball parasti lieto vienskaitlī."
+      ]
+    }
   },
   {
     "de": "ganz",
-    "lv": "viss",
-    "level": "A1"
+    "lv": "vesels",
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "vesels",
+      "explanation": [
+        "Galvenā doma: ganz kopā ar lietvārdu nozīmē vesels vai viss kopumā.",
+        "Pirms īpašības vārda vai apstākļa vārda ganz var nozīmēt pilnīgi, pavisam vai diezgan.",
+        "ganz nav tas pats, kas vietniekvārds alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "es strādāju visu dienu."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "visa māja ir tīra."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "tas ir pilnīgi droši."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "ēdiens ir diezgan labs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "vesels • viss kopumā • pilnīgi",
+          "example": "der ganze Tag – visa diena"
+        },
+        {
+          "word": "alles",
+          "meaning": "viss",
+          "example": "Alles ist gut. – Viss ir kārtībā."
+        }
+      ],
+      "tip": [
+        "Lietvārda priekšā ganz bieži nozīmē viss vai vesels.",
+        "Īpašības vārda priekšā ganz bieži nozīmē pilnīgi vai diezgan."
+      ],
+      "important": [
+        "der ganze Tag = visa diena.",
+        "alles = viss kā vietniekvārds."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7871,7 +7965,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "patikt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "patikt",
+      "explanation": [
+        "Galvenā doma: gefallen nozīmē patikt, bet vācu teikuma uzbūve atšķiras no latviešu valodas.",
+        "Lieta, kas patīk, vāciski ir teikuma priekšmets.",
+        "Persona, kurai kaut kas patīk, ir datīvā: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "man tas patīk."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "vai tev patīk kleita?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "mums patīk filma."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "patikt • persona datīvā",
+          "example": "Das gefällt mir. – Man tas patīk."
+        },
+        {
+          "word": "mögen",
+          "meaning": "patikt • labprāt izvēlēties",
+          "example": "Ich mag das. – Man tas patīk."
+        }
+      ],
+      "tip": [
+        "Atceries konstrukciju: Das gefällt mir.",
+        "Neveido burtisku latviešu vārdu secību."
+      ],
+      "important": [
+        "gefallen lieto ar datīvu: mir, dir, ihm, ihr.",
+        "Das gefällt mir = man tas patīk."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7916,192 +8054,99 @@ const A1_WORDS = [
     "lv": "stāsts",
     "level": "A1",
     "study": {
-      "id": "a1-geschichte",
+      "id": "a1-geschichte-study",
       "layout": "standardStudy",
       "translation": "stāsts",
       "explanation": [
-        "Galvenā doma: die Geschichte visbiežāk nozīmē stāsts vai vēsture.",
-        "Ja runa ir par izstāstītu notikumu, pasaku vai stāstījumu, latviski lieto stāsts.",
-        "Ja runa ir par pagātnes notikumiem vai mācību priekšmetu, latviski lieto vēsture.",
-        "Daudzskaitlis die Geschichten parasti attiecas uz vairākiem stāstiem."
+        "Galvenā doma: Geschichte var nozīmēt stāstu vai vēsturi.",
+        "Daudzskaitlis die Geschichten parasti nozīmē stāstus.",
+        "Nozīmē vēsture vārdu Geschichte parasti lieto vienskaitlī."
       ],
       "examples": [
         {
-          "de": "Die Geschichte ist interessant.",
-          "lv": "Stāsts ir interesants."
-        },
-        {
-          "de": "Die Kinder hören eine Geschichte.",
-          "lv": "Bērni klausās stāstu."
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "viņš stāsta stāstu."
         },
         {
           "de": "Ich lerne Geschichte.",
-          "lv": "Es mācos vēsturi."
+          "lv": "es mācos vēsturi."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "tā ir Vācijas vēsture."
         }
       ],
       "comparison": [
         {
-          "word": "die Geschichte",
-          "meaning": "stāsts • vēsture",
-          "example": "Ich lerne Geschichte. – Es mācos vēsturi."
+          "word": "eine Geschichte",
+          "meaning": "stāsts",
+          "example": "eine interessante Geschichte – interesants stāsts"
         },
         {
-          "word": "die Erzählung",
-          "meaning": "stāstījums • novele",
-          "example": "Die Erzählung ist kurz. – Stāstījums ir īss."
-        },
-        {
-          "word": "die Vergangenheit",
-          "meaning": "pagātne",
-          "example": "Das gehört der Vergangenheit an. – Tas pieder pagātnei."
+          "word": "Geschichte",
+          "meaning": "vēsture",
+          "example": "Geschichte lernen – mācīties vēsturi"
         }
       ],
-      "tip": {
-        "text": "Atceries: izstāstīts notikums ir stāsts, bet pagātnes notikumu kopums ir vēsture."
-      },
-      "important": [
-        "die Geschichte var nozīmēt gan stāstu, gan vēsturi.",
-        "Daudzskaitlis die Geschichten parasti nozīmē vairāki stāsti."
+      "tip": [
+        "Ar eine un daudzskaitlī parasti runa ir par stāstu.",
+        "Kā mācību priekšmets Geschichte nozīmē vēsturi."
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "die Geschichte",
-            "die Geschichten"
-          ],
-          "purple": [
-            "stāsts",
-            "vēsture"
-          ],
-          "green": [
-            "pagātnes notikumiem",
-            "mācību priekšmetu"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Geschichte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Stāsts"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Geschichte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "stāstu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Geschichte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēsturi"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "die Geschichte"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "stāsts",
-                "vēsture"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Geschichte"
-              ],
-              "purple": [
-                "vēsturi"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Erzählung"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "stāstījums",
-                "novele"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Vergangenheit"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pagātne"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Geschichte"
-            ],
-            "purple": [
-              "stāsts",
-              "vēsture"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "die Geschichte"
-            ],
-            "purple": [
-              "stāsts",
-              "vēsture"
-            ]
-          },
-          {
-            "blue": [
-              "die Geschichten"
-            ],
-            "purple": [
-              "vairāki stāsti"
-            ]
-          }
-        ]
-      }
+      "important": [
+        "die Geschichten = stāsti.",
+        "Geschichte kā vēsture parasti ir vienskaitlī."
+      ]
     }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "brāļi un māsas",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "brāļi un māsas",
+      "explanation": [
+        "Galvenā doma: Geschwister nozīmē brāļus un māsas kopā.",
+        "Šo vārdu parasti lieto tikai daudzskaitlī.",
+        "Par vienu personu lieto Bruder vai Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "man ir divi brāļi vai māsas."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "mani brāļi un māsas dzīvo Berlīnē."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "brāļi un māsas",
+          "example": "Meine Geschwister – mani brāļi un māsas"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "brālis",
+          "example": "mein Bruder – mans brālis"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "māsa",
+          "example": "meine Schwester – mana māsa"
+        }
+      ],
+      "tip": [
+        "Geschwister parasti lieto daudzskaitlī.",
+        "Vienai personai izvēlies Bruder vai Schwester."
+      ],
+      "important": [
+        "Neizmanto ein Geschwister kā parastu A1 vienskaitļa formu."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -8185,7 +8230,7 @@ const A1_WORDS = [
         },
         {
           "de": "Bis gleich!",
-          "lv": "Uz drīzu tikšanos!"
+          "lv": "tiekamies pēc brīža!"
         },
         {
           "de": "Sie sind gleich groß.",
@@ -8198,7 +8243,7 @@ const A1_WORDS = [
       ],
       "important": [
         "gleich = tūlīt (laiks) VAI vienāds (salīdzinājums).",
-        "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
+        "Bis gleich! = tiekamies pēc brīža! — ierasta atvadu frāze."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8267,7 +8312,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tūlīt"
+                "pēc brīža"
               ]
             }
           },
@@ -8358,21 +8403,18 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "liels",
       "explanation": [
-        "Galvenā doma: Liels izmērā vai cilvēkam - garš augumā.",
-        "groß galvenokārt nozīmē: liels izmērs.",
-        "Bieži raksturo: kopējo izmēru.",
-        "groß galvenokārt nozīmē: cilvēka augums.",
-        "Bieži raksturo: personu.",
-        "groß raksturo izmēru kopumā vai cilvēka augumu."
+        "Galvenā doma: groß nozīmē liels, bet par cilvēku tas parasti nozīmē garš vai gara auguma.",
+        "groß raksturo lietas, vietas un kopējo izmēru.",
+        "Par cilvēka augumu groß nozīmē garš, nevis plats vai resns."
       ],
       "examples": [
         {
           "de": "Das Haus ist groß.",
-          "lv": "Māja ir liela."
+          "lv": "māja ir liela."
         },
         {
-          "de": "Das Haus ist groß.",
-          "lv": "māja ir liela."
+          "de": "Berlin ist eine große Stadt.",
+          "lv": "Berlīne ir liela pilsēta."
         },
         {
           "de": "Er ist groß.",
@@ -8384,13 +8426,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "groß = liels",
-        "Izmanto groß, kad konteksts atbilst šai nozīmei."
+        "Lietai vai vietai groß = liels.",
+        "Cilvēkam groß = garš vai gara auguma."
       ],
       "important": [
-        "Cilvēkam Er ist groß nozīmē garš augumā.",
-        "groß = liels.",
-        "Liels izmērā vai cilvēkam - garš augumā."
+        "Par cilvēku Er ist groß nozīmē: viņš ir garš.",
+        "Par lietu vai vietu groß parasti nozīmē liels."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8408,7 +8449,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -8421,8 +8461,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
-                "groß"
+                "große"
               ]
             },
             "lv": {
@@ -8434,7 +8473,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -8443,7 +8481,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -8475,7 +8512,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "vecvecāki",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "vecvecāki",
+      "explanation": [
+        "Galvenā doma: Großeltern nozīmē vecmāmiņu un vectētiņu kopā.",
+        "Šo vārdu lieto daudzskaitlī.",
+        "Vienskaitlī lieto Großmutter vai Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "mani vecvecāki dzīvo laukos."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "es apciemoju savus vecvecākus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "vecvecāki",
+          "example": "meine Großeltern – mani vecvecāki"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "vecmāmiņa",
+          "example": "meine Großmutter – mana vecmāmiņa"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "vectētiņš",
+          "example": "mein Großvater – mans vectētiņš"
+        }
+      ],
+      "tip": [
+        "Großeltern ir daudzskaitlis.",
+        "Vienai personai lieto Großmutter vai Großvater."
+      ],
+      "important": [
+        "die Großeltern = vecvecāki."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8533,7 +8614,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā doma: gut ir īpašības/apstākļa vārds — labs, veiksmīgi, kārtībā.",
         "gut raksturo kvalitāti, veselību vai to, kā kaut kas noris (Es geht mir gut. = Man klājas labi.).",
-        "Pieklājības frāzē guten Tag/Abend/Morgen gut maina galotni pēc locījuma.",
+        "Sveicienos Guten Morgen!, Guten Tag! un Guten Abend! īpašības vārdam gut ir galotne -en.",
         "Ja gut raksturo darbības vārdu, tas ir apstākļa vārds (gut schwimmen = labi peldēt).",
         "Nejauc ar das Gut — tas ar lielo burtu un artikulu ir lietvārds (īpašums, muiža)."
       ],
@@ -8570,7 +8651,7 @@ const A1_WORDS = [
       "important": [
         "gut = labs/labi (īpašības/apstākļa vārds).",
         "das Gut = īpašums/muiža (lietvārds) — nejauc ar gut.",
-        "Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma."
+        "Guten Morgen / Guten Tag / Guten Abend — īpašības vārdam gut ir galotne -en."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8709,7 +8790,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "man ir",
       "explanation": [
-        "Galvenā doma: haben nozīmē, ka kādam kaut kas pieder vai ir pieejams.",
+        "Galvenā doma: haben ir darbības vārds, ko latviski parasti izsaka ar konstrukcijām “man ir”, “tev ir” vai “viņam ir”.",
         "Latviešu datīva konstrukcija „man ir / tev ir” vāciski ir nominatīvs + haben: Ich habe ..., Du hast ..., Er hat ... — nevis *mir habe.",
         "Pēc haben seko akuzatīvs: Ich habe ein Auto. = Man ir automašīna.",
         "haben lieto arī kā palīgdarbības vārdu Perfektā: Ich habe gelernt."
@@ -8932,7 +9013,7 @@ const A1_WORDS = [
   },
   {
     "de": "halb",
-    "lv": "puse",
+    "lv": "pus",
     "level": "A1"
   },
   {
@@ -8951,17 +9032,17 @@ const A1_WORDS = [
   },
   {
     "de": "halten",
-    "lv": "turēt • apturēt",
+    "lv": "turēt",
     "level": "A1",
     "study": {
       "id": "a1-halten",
       "layout": "standardStudy",
-      "translation": "turēt • apturēt",
+      "translation": "turēt",
       "explanation": [
-        "Galvenā doma: halten nozīmē turēt, bet ar transportu vai kustību var nozīmēt apturēt vai apstāties.",
-        "Ar priekšmetu rokās halten parasti ir turēt.",
-        "Ar autobusu, vilcienu vai auto halten bieži nozīmē apstāties.",
-        "Viedokļa frāzē ich halte das für... tas nozīmē uzskatīt par."
+        "Galvenā doma: halten visbiežāk nozīmē turēt.",
+        "Par autobusu, vilcienu vai citu transportu halten var nozīmēt pieturēt vai apstāties.",
+        "Atdalāmais darbības vārds anhalten nozīmē apstāties vai apturēt.",
+        "Konstrukcija etwas für ... halten nozīmē uzskatīt kaut ko par kaut ko."
       ],
       "examples": [
         {
@@ -8970,7 +9051,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Bus hält hier.",
-          "lv": "autobuss šeit apstājas."
+          "lv": "autobuss šeit pietur."
         },
         {
           "de": "Bitte halten Sie an.",
@@ -8984,8 +9065,8 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "halten",
-          "meaning": "turēt / apstāties",
-          "example": "Der Bus hält. = Autobuss apstājas."
+          "meaning": "turēt • transportam arī pieturēt",
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
@@ -8993,9 +9074,9 @@ const A1_WORDS = [
           "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
-          "word": "stoppen",
-          "meaning": "apturēt",
-          "example": "Stoppen Sie das Auto. = Apturiet auto."
+          "word": "anhalten",
+          "meaning": "apstāties • apturēt",
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
@@ -9004,11 +9085,12 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Atceries: rokā → halten; transports → hält/apstājas."
+        "text": "Atceries: priekšmetu turēt → halten; apstāties → anhalten; transports pietur → hält."
       },
       "important": [
-        "halten nav tikai “turēt”. Ar transportu tas bieži nozīmē apstāties.",
-        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”."
+        "halten visbiežāk nozīmē turēt.",
+        "Der Bus hält nozīmē: autobuss pietur.",
+        "Bitte halten Sie an lietots atdalāmais darbības vārds anhalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9017,13 +9099,13 @@ const A1_WORDS = [
           ],
           "purple": [
             "turēt",
-            "apturēt",
+            "pieturēt",
             "apstāties",
-            "uzskatīt par"
+            "uzskatīt"
           ],
           "green": [
-            "transportu",
-            "kustību"
+            "anhalten",
+            "transportu"
           ]
         },
         "examples": [
@@ -9047,7 +9129,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apstājas"
+                "pietur"
               ]
             }
           },
@@ -9086,7 +9168,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "turēt",
-                "apstāties"
+                "pieturēt"
               ]
             },
             "example": {
@@ -9094,7 +9176,7 @@ const A1_WORDS = [
                 "hält"
               ],
               "purple": [
-                "apstājas"
+                "pietur"
               ]
             }
           },
@@ -9119,18 +9201,22 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "stoppen"
+                "anhalten"
               ]
             },
             "meaning": {
               "purple": [
+                "apstāties",
                 "apturēt"
               ]
             },
             "example": {
-              "red": [
-                "Stoppen",
-                "Apturiet"
+              "blue": [
+                "halten",
+                "an"
+              ],
+              "purple": [
+                "apstājieties"
               ]
             }
           },
@@ -9157,14 +9243,13 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "halten",
+              "anhalten",
               "hält"
             ],
             "purple": [
-              "rokā",
-              "apstājas"
-            ],
-            "green": [
-              "transports"
+              "turēt",
+              "apstāties",
+              "pietur"
             ]
           }
         },
@@ -9174,16 +9259,24 @@ const A1_WORDS = [
               "halten"
             ],
             "purple": [
-              "turēt",
-              "apstāties"
+              "turēt"
             ]
           },
           {
             "blue": [
-              "halte"
+              "hält"
             ],
             "purple": [
-              "uzskatu"
+              "pietur"
+            ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
             ]
           }
         ]
@@ -9201,8 +9294,51 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "roka (plauksta)",
-    "level": "A1"
+    "lv": "plauksta",
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "plauksta",
+      "explanation": [
+        "Galvenā doma: die Hand nozīmē plaukstu.",
+        "Vācu valodā Arm un Hand ir divi atsevišķi vārdi.",
+        "Latviešu ikdienas valodā vārds roka bieži var apzīmēt gan Arm, gan Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "es mazgāju rokas."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "viņa tur glāzi plaukstā."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "man sāp roka."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "plauksta",
+          "example": "in der Hand – plaukstā"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "roka",
+          "example": "Mein Arm tut weh. – Man sāp roka."
+        }
+      ],
+      "tip": [
+        "Hand = plauksta.",
+        "Arm = roka no pleca līdz plaukstai."
+      ],
+      "important": [
+        "Vācu valodā Hand un Arm nav viens un tas pats vārds."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9258,12 +9394,12 @@ const A1_WORDS = [
   },
   {
     "de": "heißen",
-    "lv": "saukties • nozīmēt",
+    "lv": "saukties",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "saukties • nozīmēt",
+      "translation": "saukties",
       "explanation": [
         "Galvenā doma: heißen visbiežāk lieto, lai pateiktu, kā kādu sauc.",
         "Frāze Ich heiße... nozīmē “mani sauc...”.",
@@ -9306,8 +9442,13 @@ const A1_WORDS = [
         },
         {
           "word": "rufen",
-          "meaning": "saukt / zvanīt",
-          "example": "Ich rufe dich. = Es tevi saucu / zvanu tev."
+          "meaning": "saukt • pasaukt",
+          "example": "Ich rufe dich. = Es tevi pasaucu."
+        },
+        {
+          "word": "anrufen",
+          "meaning": "zvanīt",
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -9446,12 +9587,32 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "saukt",
+                "pasaukt"
+              ]
+            },
+            "example": {
+              "red": [
+                "rufe",
+                "pasaucu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anrufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
                 "zvanīt"
               ]
             },
             "example": {
               "red": [
-                "rufe"
+                "rufe",
+                "an",
+                "piezvanu"
               ]
             }
           }
@@ -9544,21 +9705,18 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "augsts",
       "explanation": [
-        "Galvenā doma: Augsts vertikāli, līmenī vai augstumā.",
-        "hoch galvenokārt nozīmē: liels augstumā.",
-        "Bieži raksturo: vertikālu augstumu.",
-        "hoch galvenokārt nozīmē: augsts līmenis.",
-        "Bieži raksturo: cenas/skaitļus.",
-        "hoch raksturo augstumu, vertikālu virzienu vai līmeni."
+        "Galvenā doma: hoch nozīmē augsts vai augstu.",
+        "hoch raksturo vertikālu augstumu vai augstu līmeni.",
+        "To lieto, piemēram, par kalnu, sienu, cenu, temperatūru vai skaitli."
       ],
       "examples": [
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Kalns ir augsts."
+          "lv": "kalns ir augsts."
         },
         {
-          "de": "Der Berg ist hoch.",
-          "lv": "kalns ir augsts."
+          "de": "Das Regal ist zwei Meter hoch.",
+          "lv": "plaukts ir divus metrus augsts."
         },
         {
           "de": "Die Miete ist hoch.",
@@ -9574,13 +9732,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "hoch = augsts",
-        "Izmanto hoch, kad konteksts atbilst šai nozīmei."
+        "Vertikāls augstums vai augsts līmenis → hoch.",
+        "Par cilvēka augumu parasti lieto groß."
       ],
       "important": [
-        "Cenām un līmenim bieži lieto hoch.",
-        "hoch = augsts.",
-        "Augsts vertikāli, līmenī vai augstumā."
+        "Der Berg ist hoch = kalns ir augsts.",
+        "Er ist groß = viņš ir garš.",
+        "Par cilvēka augumu parasti nelieto hoch."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9588,17 +9746,14 @@ const A1_WORDS = [
             "hoch"
           ],
           "purple": [
-            "augsts"
-          ],
-          "orange": [
-            "augsts"
+            "augsts",
+            "augstu"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9611,7 +9766,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9624,7 +9778,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9637,7 +9790,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -9650,13 +9802,12 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
             "lv": {
               "purple": [
-                "augsta"
+                "augstas"
               ]
             }
           }
@@ -9666,12 +9817,28 @@ const A1_WORDS = [
             "purple": [
               "augsts"
             ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
           }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ],
+            "purple": [
+              "augsts"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]
