@@ -112,7 +112,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Govorimo"
+                "o"
               ]
             }
           },
@@ -124,7 +124,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Govori"
+                "razgovara"
               ]
             }
           }
@@ -187,10 +187,10 @@ const A1_WORDS = [
             "klein"
           ],
           "purple": [
-            "mazs"
+            "klein"
           ],
           "green": [
-            "Mazs"
+            "klein"
           ]
         },
         "examples": [
@@ -214,7 +214,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mala"
+                "malo"
               ]
             }
           },
@@ -226,7 +226,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mala"
+                "torbu"
               ]
             }
           }
@@ -234,7 +234,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "mazs"
+              "mali"
             ]
           }
         ],
@@ -324,8 +324,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "At",
-                "To"
+                "Na",
+                "na"
               ]
             }
           },
@@ -337,7 +337,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "At"
+                "Na"
               ]
             }
           },
@@ -349,7 +349,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "At"
+                "Uz"
               ]
             }
           }
@@ -366,7 +366,7 @@ const A1_WORDS = [
                 "an"
               ],
               "purple": [
-                "pie"
+                "Kod"
               ]
             }
           },
@@ -381,7 +381,7 @@ const A1_WORDS = [
                 "auf"
               ],
               "purple": [
-                "uz"
+                "Na"
               ]
             }
           },
@@ -396,7 +396,7 @@ const A1_WORDS = [
                 "beim"
               ],
               "purple": [
-                "pie"
+                "Kod"
               ]
             }
           }
@@ -407,12 +407,12 @@ const A1_WORDS = [
               "an"
             ],
             "purple": [
-              "pie"
+              "zidu"
             ],
             "green": [
-              "sienas",
-              "loga",
-              "malas"
+              "zidu",
+              "prozoru",
+              "ivici"
             ]
           }
         },
@@ -422,13 +422,13 @@ const A1_WORDS = [
               "an"
             ],
             "purple": [
-              "pie"
+              "uz"
             ],
             "green": [
-              "virsmas",
-              "sienas",
-              "loga",
-              "malas"
+              "uz",
+              "zid",
+              "prozor",
+              "rub"
             ]
           },
           {
@@ -436,7 +436,7 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "Na horizontalnoj površini"
+              "Za"
             ]
           }
         ]
@@ -563,7 +563,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Od"
+                "Sa"
               ]
             }
           }
@@ -580,7 +580,7 @@ const A1_WORDS = [
                 "ab"
               ],
               "purple": [
-                "no"
+                "Od"
               ]
             }
           },
@@ -595,7 +595,7 @@ const A1_WORDS = [
                 "von"
               ],
               "purple": [
-                "no"
+                "Od"
               ]
             }
           },
@@ -610,7 +610,7 @@ const A1_WORDS = [
                 "aus"
               ],
               "purple": [
-                "no"
+                "Od"
               ]
             }
           }
@@ -624,8 +624,8 @@ const A1_WORDS = [
               "Početna tačka"
             ],
             "green": [
-              "Tokom",
-              "Umjesto"
+              "vremenu",
+              "mjestu"
             ]
           }
         },
@@ -638,8 +638,8 @@ const A1_WORDS = [
               "Početnu tačku"
             ],
             "green": [
-              "Tokom",
-              "Umjesto"
+              "početnu",
+              "mjestu"
             ]
           },
           {
@@ -650,8 +650,8 @@ const A1_WORDS = [
               "aus"
             ],
             "purple": [
-              "izcelsme",
-              "Iznutra"
+              "Ako",
+              "smjer"
             ]
           }
         ]
@@ -761,7 +761,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Međutim"
+                "pravu"
               ]
             }
           }
@@ -778,7 +778,7 @@ const A1_WORDS = [
                 "aber"
               ],
               "purple": [
-                "bet"
+                "Doći"
               ]
             }
           },
@@ -793,7 +793,7 @@ const A1_WORDS = [
                 "sondern"
               ],
               "purple": [
-                "nevis"
+                "Nisam"
               ]
             }
           },
@@ -808,7 +808,7 @@ const A1_WORDS = [
                 "jedoch"
               ],
               "purple": [
-                "Međutim"
+                "Hladno"
               ]
             }
           }
@@ -819,8 +819,8 @@ const A1_WORDS = [
               "aber"
             ],
             "purple": [
-              "pretstats",
-              "iebilde"
+              "suprotno",
+              "opozicija"
             ]
           }
         },
@@ -830,8 +830,8 @@ const A1_WORDS = [
               "aber"
             ],
             "purple": [
-              "pretstatu",
-              "iebildi"
+              "suprotnost",
+              "opoziciju"
             ]
           },
           {
@@ -839,8 +839,7 @@ const A1_WORDS = [
               "sondern"
             ],
             "purple": [
-              "nevis",
-              "bet gan"
+              "Ako"
             ]
           }
         ]
@@ -930,7 +929,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dakle"
+                "zato"
               ]
             }
           },
@@ -942,7 +941,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dakle"
+                "ne"
               ]
             }
           },
@@ -986,7 +985,7 @@ const A1_WORDS = [
                 "auch"
               ],
               "purple": [
-                "Takođe"
+                "Dolazim"
               ]
             }
           },
@@ -1001,7 +1000,7 @@ const A1_WORDS = [
                 "deshalb"
               ],
               "purple": [
-                "Dakle"
+                "Pada"
               ]
             }
           }
@@ -1030,7 +1029,7 @@ const A1_WORDS = [
               "deshalb"
             ],
             "purple": [
-              "Dakle"
+              "Bosansko"
             ]
           }
         ]
@@ -1230,7 +1229,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Takođe"
+                "i"
               ]
             }
           },
@@ -1254,7 +1253,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Takođe"
+                "ja"
               ]
             }
           }
@@ -1329,7 +1328,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "To"
+                "na"
               ]
             }
           },
@@ -1341,7 +1340,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "To"
+                "planinu"
               ]
             }
           },
@@ -1353,7 +1352,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "To"
+                "na"
               ]
             }
           }
@@ -1370,7 +1369,7 @@ const A1_WORDS = [
                 "auf"
               ],
               "purple": [
-                "uz"
+                "Stavljam"
               ]
             }
           },
@@ -1383,7 +1382,7 @@ const A1_WORDS = [
             "example": {
               "green": [
                 "an",
-                "pie"
+                "Vješam"
               ]
             }
           },
@@ -1395,7 +1394,7 @@ const A1_WORDS = [
             },
             "example": {
               "yellow": [
-                "in"
+                "Stavio"
               ]
             }
           }
@@ -1406,10 +1405,10 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "uz"
+              "površini"
             ],
             "green": [
-              "virsmas",
+              "površini",
               "Gore"
             ]
           }
@@ -1420,10 +1419,10 @@ const A1_WORDS = [
               "auf"
             ],
             "purple": [
-              "uz"
+              "kretanje"
             ],
             "green": [
-              "virsmas",
+              "kretanje",
               "Na vrhu"
             ]
           },
@@ -1432,10 +1431,10 @@ const A1_WORDS = [
               "an"
             ],
             "yellow": [
-              "in"
+              "Ako"
             ],
             "purple": [
-              "pie",
+              "Ako",
               "Unutra"
             ]
           }
@@ -1540,7 +1539,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Od"
+                "iz"
               ]
             }
           },
@@ -1552,7 +1551,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Od"
+                "iz"
               ]
             }
           },
@@ -1564,7 +1563,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Od"
+                "torbe"
               ]
             }
           }
@@ -1581,7 +1580,7 @@ const A1_WORDS = [
                 "aus"
               ],
               "purple": [
-                "no"
+                "Od"
               ]
             }
           },
@@ -1596,7 +1595,7 @@ const A1_WORDS = [
                 "von"
               ],
               "purple": [
-                "no"
+                "Od"
               ]
             }
           },
@@ -1611,7 +1610,7 @@ const A1_WORDS = [
                 "ab"
               ],
               "purple": [
-                "no"
+                "Od"
               ]
             }
           }
@@ -1632,8 +1631,8 @@ const A1_WORDS = [
               "aus"
             ],
             "purple": [
-              "Iznutra",
-              "izcelsmi"
+              "kretanje",
+              "porijeklo"
             ]
           },
           {
@@ -1641,7 +1640,7 @@ const A1_WORDS = [
               "ab"
             ],
             "purple": [
-              "Početnu tačku"
+              "Ako"
             ]
           }
         ]
@@ -1755,13 +1754,13 @@ const A1_WORDS = [
             "auf das"
           ],
           "purple": [
-            "uz",
-            "virsmu",
-            "kurp?"
+            "auf",
+            "popeti",
+            "gdje?"
           ],
           "green": [
-            "kurp?",
-            "Pokret"
+            "gdje?",
+            "popeti"
           ]
         },
         "examples": [
@@ -1773,7 +1772,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Na krovu"
+                "Idem"
               ]
             }
           },
@@ -1821,7 +1820,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Skoči konju na leđa"
+                "On"
               ]
             }
           },
@@ -1869,11 +1868,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "meaning": {
-              "purple": [
-                "određeni"
-              ]
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "aufs Dach"
@@ -1886,11 +1881,7 @@ const A1_WORDS = [
                 "auf"
               ]
             },
-            "meaning": {
-              "purple": [
-                "uz virsmu"
-              ]
-            },
+            "meaning": {},
             "example": {
               "yellow": [
                 "auf den Tisch"
@@ -1905,7 +1896,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "Na"
               ]
             },
             "example": {
@@ -1939,8 +1930,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "Na",
+                "kod"
               ]
             },
             "example": {
@@ -1956,7 +1947,7 @@ const A1_WORDS = [
               "aufs"
             ],
             "purple": [
-              "kurp?"
+              "gdje?"
             ]
           },
           {
@@ -1974,15 +1965,15 @@ const A1_WORDS = [
               "auf das"
             ],
             "green": [
-              "kurp?"
+              "gdje?"
             ]
           },
           {
             "purple": [
-              "kurp?"
+              "Odgovara"
             ],
             "green": [
-              "Pokret"
+              "Odgovara"
             ]
           },
           {
@@ -2121,7 +2112,7 @@ const A1_WORDS = [
             "baden"
           ],
           "purple": [
-            "Plivati",
+            "baden",
             "Glavna",
             "Glavna",
             "Glavna"
@@ -2146,7 +2137,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Plivati"
+                "plivanje"
               ]
             }
           },
@@ -2161,10 +2152,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Plivati"
+                "kupanje"
               ],
               "green": [
-                "jezeru"
+                "u"
               ]
             }
           },
@@ -2188,7 +2179,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Plivam"
+                "na"
               ]
             }
           }
@@ -2203,7 +2194,6 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Plivati",
-                "Glavna",
                 "Oprati"
               ]
             },
@@ -2223,7 +2213,7 @@ const A1_WORDS = [
               "purple": [
                 "Plivati",
                 "Pokret",
-                "sports"
+                "sport"
               ]
             },
             "example": {
@@ -2273,11 +2263,11 @@ const A1_WORDS = [
               "baden"
             ],
             "purple": [
-              "Zapamtite"
+              "vodi"
             ],
             "red": [
               "schwimmen",
-              "Zapamtite"
+              "Zapamti"
             ]
           }
         },
@@ -2292,13 +2282,13 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "Plivati"
+              "Baden"
             ],
             "blue": [
-              "Bosanski"
+              "Baden"
             ],
             "red": [
-              "situacijom"
+              "Baden"
             ]
           }
         ]
@@ -2415,7 +2405,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "At"
+                "kod"
               ]
             }
           },
@@ -2427,7 +2417,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Bei"
+                "Siemens"
               ]
             }
           },
@@ -2488,8 +2478,8 @@ const A1_WORDS = [
               "bei"
             ],
             "green": [
-              "Ljudski",
-              "vietas",
+              "osobe",
+              "mjesta",
               "Zapamtite"
             ]
           }
@@ -2500,8 +2490,8 @@ const A1_WORDS = [
               "bei"
             ],
             "green": [
-              "Ljudski",
-              "vietas",
+              "kod",
+              "na",
               "Bei"
             ]
           },
@@ -2513,7 +2503,7 @@ const A1_WORDS = [
               "bei"
             ],
             "purple": [
-              "uz virsmu"
+              "Ako"
             ]
           }
         ]
@@ -2648,10 +2638,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Posjetu"
+                "muzeju"
               ],
               "green": [
-                "Muzeja"
+                "Posjeta"
               ]
             }
           },
@@ -2663,7 +2653,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Posjetu"
+                "posjeti"
               ]
             }
           },
@@ -2678,7 +2668,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "U posjeti"
+                "u"
               ],
               "green": [
                 "Ljekar"
@@ -2695,7 +2685,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Posjetu",
+                "Posjeta",
                 "posjeta",
                 "Posjeta"
               ]
@@ -2722,7 +2712,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Posjetiti",
-                "apciemot"
+                "Posjetiti"
               ]
             }
           }
@@ -2733,7 +2723,7 @@ const A1_WORDS = [
               "Besuch"
             ],
             "purple": [
-              "notikums",
+              "osoba",
               "Posjeta"
             ],
             "green": [
@@ -2747,7 +2737,7 @@ const A1_WORDS = [
               "der Besuch"
             ],
             "purple": [
-              "Posjetu",
+              "Der",
               "posjeta",
               "Posjeta"
             ]
@@ -2827,12 +2817,12 @@ const A1_WORDS = [
           ],
           "purple": [
             "Posjetiti",
-            "apciemot"
+            "odnosi"
           ],
           "green": [
-            "vietu",
+            "besuchen",
             "Događaj",
-            "personu"
+            "neko"
           ]
         },
         "examples": [
@@ -2865,7 +2855,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Posjećujemo"
+                "kurs"
               ],
               "green": [
                 "Kurs njemačkog jezika"
@@ -2886,7 +2876,7 @@ const A1_WORDS = [
                 "Posjećujem"
               ],
               "green": [
-                "Djedove i bake"
+                "i"
               ]
             }
           }
@@ -2901,7 +2891,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Posjetiti",
-                "apciemot"
+                "Posjetiti"
               ]
             },
             "example": {
@@ -2909,7 +2899,7 @@ const A1_WORDS = [
                 "besuche"
               ],
               "purple": [
-                "apciemoju"
+                "Posjećujem"
               ]
             }
           },
@@ -2921,7 +2911,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "satikt"
+                "Da"
               ]
             },
             "example": {
@@ -2951,11 +2941,10 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "besuchen"
+              "obilazi"
             ],
             "purple": [
-              "Posjetiti",
-              "apciemot"
+              "obilazi"
             ]
           }
         },
@@ -2970,12 +2959,12 @@ const A1_WORDS = [
           },
           {
             "green": [
-              "vietu",
-              "personu"
+              "Bosanski",
+              "posjetiti"
             ],
             "purple": [
               "Posjetiti",
-              "apciemot"
+              "posjetiti"
             ]
           }
         ]
@@ -3104,7 +3093,7 @@ const A1_WORDS = [
             ],
             "green": [
               "Granica",
-              "Tokom",
+              "uslovu",
               "Zapamtite"
             ]
           }
@@ -3116,7 +3105,7 @@ const A1_WORDS = [
             ],
             "green": [
               "Bis",
-              "laika punktam"
+              "vremensku"
             ]
           }
         ]
@@ -3186,7 +3175,7 @@ const A1_WORDS = [
             "bitte"
           ],
           "purple": [
-            "Molim te"
+            "bitte"
           ],
           "green": [
             "die Bitte"
@@ -3262,11 +3251,11 @@ const A1_WORDS = [
               "bitte"
             ],
             "purple": [
-              "Molim te"
+              "molba"
             ],
             "green": [
               "die Bitte",
-              "Zahtjev"
+              "početnim"
             ]
           }
         },
@@ -3284,7 +3273,7 @@ const A1_WORDS = [
               "die Bitte"
             ],
             "purple": [
-              "Zapamtite"
+              "Die"
             ]
           }
         ]
@@ -3348,7 +3337,7 @@ const A1_WORDS = [
             "die Bitten"
           ],
           "purple": [
-            "Zahtjev"
+            "die"
           ],
           "blue": [
             "bitte"
@@ -3363,7 +3352,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zahtjev"
+                "molbu"
               ]
             }
           },
@@ -3375,7 +3364,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Molbu"
+                "Molim"
               ]
             }
           },
@@ -3424,25 +3413,22 @@ const A1_WORDS = [
               "die Bitte"
             ],
             "purple": [
-              "Zahtjev"
+              "riječ"
             ],
             "blue": [
-              "bitte",
-              "Molim te"
+              "bitte"
             ]
           }
         },
         "important": [
           {
             "green": [
-              "die Bitte",
-              "die Bitten"
+              "die Bitte"
             ]
           },
           {
             "purple": [
-              "Zapamtite",
-              "Veliko početno slovo"
+              "Množina"
             ]
           }
         ]
@@ -3552,8 +3538,7 @@ const A1_WORDS = [
             "bleiben"
           ],
           "purple": [
-            "palikt",
-            "neiet prom"
+            "bleiben"
           ],
           "red": [
             "gehen",
@@ -3619,7 +3604,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "palikt"
+                "Ostani"
               ]
             },
             "example": {
@@ -3636,8 +3621,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iet",
-                "doties prom"
+                "Ići"
               ]
             },
             "example": {
@@ -3654,8 +3638,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "voziti se",
-                "transportu"
+                "Voziti",
+                "transportom"
               ]
             },
             "example": {
@@ -3688,7 +3672,7 @@ const A1_WORDS = [
               "bleiben"
             ],
             "purple": [
-              "neiet prom"
+              "odlaziti"
             ],
             "red": [
               "gehen"
@@ -3701,7 +3685,7 @@ const A1_WORDS = [
               "bleiben"
             ],
             "purple": [
-              "palikt"
+              "ostati"
             ],
             "green": [
               "Bleiben"
@@ -3844,13 +3828,13 @@ const A1_WORDS = [
             "bringen"
           ],
           "purple": [
-            "atnest",
-            "aiznest",
-            "Odneti i doneti"
+            "na",
+            "donijeti",
+            "donijeti"
           ],
           "red": [
-            "nehmen",
-            "holen"
+            "bringen",
+            "na"
           ]
         },
         "examples": [
@@ -3858,17 +3842,14 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Bring"
-              ],
-              "yellow": [
-                "Wasser"
               ]
             },
             "lv": {
               "purple": [
-                "Donesi"
+                "Donela"
               ],
               "yellow": [
-                "Vode"
+                "Donela"
               ]
             }
           },
@@ -3878,51 +3859,30 @@ const A1_WORDS = [
                 "bringe"
               ],
               "green": [
-                "dich"
+                "Ich"
               ]
             },
             "lv": {
               "purple": [
-                "Odvest ću"
+                "Odnio"
               ],
               "green": [
-                "odvesti"
+                "Odnio"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bringt"
-              ],
-              "yellow": [
-                "Buch"
+                "bringe"
               ]
             },
             "lv": {
               "purple": [
-                "Nosi"
+                "Odveo"
               ],
               "yellow": [
-                "Nosi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Uzimam"
-              ],
-              "yellow": [
-                "Nosi"
+                "Odveo"
               ]
             }
           }
@@ -3936,9 +3896,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atnest",
-                "aiznest",
-                "Odneti i doneti"
+                "Donijeti"
               ]
             },
             "example": {
@@ -3948,11 +3906,7 @@ const A1_WORDS = [
             }
           },
           {
-            "word": {
-              "green": [
-                "nehmen"
-              ]
-            },
+            "word": {},
             "meaning": {
               "purple": [
                 "Uzeti",
@@ -3961,43 +3915,29 @@ const A1_WORDS = [
             },
             "example": {
               "red": [
-                "nehme"
+                "Odnio"
               ]
             }
           },
           {
-            "word": {
-              "green": [
-                "holen"
-              ]
-            },
+            "word": {},
             "meaning": {
               "purple": [
-                "Idi",
-                "atnest"
+                "Idi"
               ]
             },
             "example": {
               "yellow": [
-                "hole"
+                "Odveo"
               ]
             }
           },
           {
-            "word": {
-              "green": [
-                "mitbringen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Ponesite sa sobom",
-                "atnest"
-              ]
-            },
+            "word": {},
+            "meaning": {},
             "example": {
               "green": [
-                "mit"
+                "Donela"
               ]
             }
           }
@@ -4005,7 +3945,7 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "bringen"
+              "nekoga"
             ],
             "purple": [
               "Zapamtite"
@@ -4019,7 +3959,7 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "bringen"
+              "smjer"
             ],
             "purple": [
               "Donesen"
@@ -4027,7 +3967,7 @@ const A1_WORDS = [
           },
           {
             "red": [
-              "nehmen"
+              "dostaviti"
             ]
           }
         ]
@@ -4194,14 +4134,14 @@ const A1_WORDS = [
             "da"
           ],
           "purple": [
-            "tur"
+            "da"
           ],
           "green": [
-            "te",
+            "da",
             "Ovdje"
           ],
           "yellow": [
-            "vietu"
+            "da"
           ]
         },
         "examples": [
@@ -4213,7 +4153,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tamo"
+                "Tu"
               ]
             }
           },
@@ -4249,7 +4189,7 @@ const A1_WORDS = [
             },
             "lv": {
               "green": [
-                "Ovdje"
+                "ovamo"
               ]
             }
           }
@@ -4263,7 +4203,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "te",
+                "Ovdje",
                 "Ovdje"
               ]
             },
@@ -4298,7 +4238,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tur"
+                "Tamo"
               ]
             },
             "example": {
@@ -4315,7 +4255,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tad"
+                "Onda"
               ]
             },
             "example": {
@@ -4331,7 +4271,7 @@ const A1_WORDS = [
               "da"
             ],
             "purple": [
-              "tur"
+              "there"
             ],
             "green": [
               "te"
@@ -4344,7 +4284,7 @@ const A1_WORDS = [
               "da"
             ],
             "purple": [
-              "vietas"
+              "Da"
             ]
           },
           {
@@ -4358,7 +4298,7 @@ const A1_WORDS = [
               "Ovdje"
             ],
             "purple": [
-              "tur"
+              "Hier"
             ]
           }
         ]
@@ -4515,7 +4455,7 @@ const A1_WORDS = [
               "das"
             ],
             "purple": [
-              "vidus dzimte"
+              "genitiv"
             ],
             "red": [
               "dass"
@@ -4528,7 +4468,7 @@ const A1_WORDS = [
               "das"
             ],
             "purple": [
-              "vidus dzimtes artikulu"
+              "Na"
             ]
           },
           {
@@ -4536,7 +4476,7 @@ const A1_WORDS = [
               "das"
             ],
             "purple": [
-              "artikuls",
+              "da",
               "Das"
             ],
             "red": [
@@ -4609,7 +4549,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "To"
+                "si"
               ]
             }
           },
@@ -4621,7 +4561,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "To"
+                "da"
               ]
             }
           },
@@ -4633,7 +4573,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "To"
+                "je"
               ]
             }
           }
@@ -4650,7 +4590,7 @@ const A1_WORDS = [
                 "dass"
               ],
               "purple": [
-                "ka"
+                "Znam"
               ]
             }
           },
@@ -4665,7 +4605,7 @@ const A1_WORDS = [
                 "weil"
               ],
               "purple": [
-                "jo"
+                "Ostajem"
               ]
             }
           },
@@ -4680,7 +4620,7 @@ const A1_WORDS = [
                 "damit"
               ],
               "purple": [
-                "lai"
+                "Učim"
               ]
             }
           },
@@ -4695,7 +4635,7 @@ const A1_WORDS = [
                 "ob"
               ],
               "purple": [
-                "vai"
+                "Ne"
               ]
             }
           }
@@ -4706,7 +4646,7 @@ const A1_WORDS = [
               "dass"
             ],
             "purple": [
-              "ka"
+              "to"
             ]
           }
         },
@@ -4716,10 +4656,10 @@ const A1_WORDS = [
               "dass"
             ],
             "purple": [
-              "ka"
+              "da"
             ],
             "green": [
-              "Pomoćna klauzula"
+              "da"
             ]
           },
           {
@@ -4727,10 +4667,10 @@ const A1_WORDS = [
               "das"
             ],
             "yellow": [
-              "artikuls"
+              "Nemojte"
             ],
             "purple": [
-              "tas"
+              "to"
             ]
           }
         ]
@@ -4826,7 +4766,7 @@ const A1_WORDS = [
               "der"
             ],
             "purple": [
-              "Zapamtite"
+              "rod"
             ]
           }
         },
@@ -4944,7 +4884,7 @@ const A1_WORDS = [
               "die"
             ],
             "purple": [
-              "Zapamtite"
+              "rod"
             ]
           }
         },
@@ -4962,10 +4902,7 @@ const A1_WORDS = [
               "die"
             ],
             "green": [
-              "Oblik"
-            ],
-            "purple": [
-              "Svim rodovima"
+              "U"
             ]
           }
         ]
@@ -5075,7 +5012,7 @@ const A1_WORDS = [
               "Ovaj"
             ],
             "green": [
-              "Zapamtite"
+              "rod"
             ]
           }
         },
@@ -5091,7 +5028,7 @@ const A1_WORDS = [
               "dieses"
             ],
             "purple": [
-              "dzimtes"
+              "Dieser"
             ]
           },
           {
@@ -5259,7 +5196,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nekoga"
+                "Neki"
               ]
             }
           },
@@ -5283,20 +5220,12 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nekoga"
+                "neku"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -5320,11 +5249,10 @@ const A1_WORDS = [
               "ein"
             ],
             "purple": [
-              "viens",
-              "Nekoga"
+              "jedan"
             ],
             "green": [
-              "Zapamtite"
+              "jedan"
             ]
           }
         },
@@ -5334,17 +5262,15 @@ const A1_WORDS = [
               "ein"
             ],
             "red": [
-              "noteiktais artikuls"
+              "Ein"
             ]
           },
           {
             "blue": [
-              "der",
-              "die",
-              "das"
+              "Ein"
             ],
             "green": [
-              "Ako"
+              "Ein"
             ]
           }
         ]
@@ -5441,8 +5367,8 @@ const A1_WORDS = [
             "Eis"
           ],
           "purple": [
-            "ledu",
-            "ledus",
+            "das",
+            "obično",
             "Sladoled"
           ],
           "green": [
@@ -5450,7 +5376,7 @@ const A1_WORDS = [
             "desertu"
           ],
           "yellow": [
-            "Vode"
+            "das"
           ]
         },
         "examples": [
@@ -5474,7 +5400,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jedem"
+                "Želiš"
               ]
             }
           },
@@ -5486,7 +5412,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "leda"
               ],
               "green": [
                 "jezeru"
@@ -5501,7 +5427,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Led"
               ]
             }
           },
@@ -5513,10 +5439,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jedem"
+                "sladoled"
               ],
               "yellow": [
-                "Cokolada"
+                "čokoladom"
               ]
             }
           }
@@ -5530,7 +5456,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ledus",
+                "Led",
                 "Sladoled"
               ]
             },
@@ -5551,13 +5477,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sniegs"
+                "Padaće"
               ]
             },
             "example": {
               "green": [
                 "Schnee",
-                "Sniegs"
+                "Der"
               ]
             }
           },
@@ -5569,13 +5495,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "auksts"
+                "Hladno"
               ]
             },
             "example": {
               "yellow": [
                 "kalt",
-                "auksts"
+                "Das"
               ]
             }
           },
@@ -5587,7 +5513,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "deserts"
+                "Desert"
               ]
             },
             "example": {
@@ -5595,7 +5521,7 @@ const A1_WORDS = [
                 "Eis"
               ],
               "red": [
-                "deserts"
+                "Eis"
               ]
             }
           }
@@ -5604,12 +5530,12 @@ const A1_WORDS = [
           "left": {
             "purple": [
               "Sladoled",
-              "ledus"
+              "→"
             ],
             "green": [
               "Hrana",
-              "ziema",
-              "Vode"
+              "•",
+              "Zima"
             ]
           }
         },
@@ -5619,19 +5545,19 @@ const A1_WORDS = [
               "das Eis"
             ],
             "purple": [
-              "ledus",
+              "ali",
               "Sladoled"
             ]
           },
           {
             "purple": [
-              "Jedem",
-              "ledu"
+              "sladoled",
+              "hladna"
             ],
             "green": [
               "Hrana",
-              "auksta virsma",
-              "Vode"
+              "hladna",
+              "voda"
             ]
           }
         ]
@@ -5844,11 +5770,11 @@ const A1_WORDS = [
               "nur"
             ],
             "green": [
-              "laiks",
-              "skaits"
+              "vrijeme",
+              "broj"
             ],
             "purple": [
-              "daudzums"
+              "vrijeme"
             ]
           }
         },
@@ -5858,10 +5784,10 @@ const A1_WORDS = [
               "erst"
             ],
             "yellow": [
-              "nur"
+              "Erst"
             ],
             "purple": [
-              "tikai"
+              "Erst"
             ]
           },
           {
@@ -5869,14 +5795,13 @@ const A1_WORDS = [
               "erst"
             ],
             "green": [
-              "laiku",
-              "Najprije"
+              "samo"
             ],
             "yellow": [
-              "nur"
+              "samo"
             ],
             "purple": [
-              "daudzumu"
+              "samo"
             ]
           }
         ]
@@ -5944,54 +5869,12 @@ const A1_WORDS = [
       },
       "sectionAccents": {
         "examples": [
-          {
-            "blue": [
-              "Ich"
-            ]
-          },
-          {
-            "blue": [
-              "Er"
-            ]
-          },
-          {
-            "red": [
-              "Sie"
-            ]
-          },
-          {
-            "yellow": [
-              "Das"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          }
+          {},
+          {},
+          {},
+          {}
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -6037,14 +5920,13 @@ const A1_WORDS = [
           },
           {
             "red": [
-              "ich"
+              "Njemačko"
             ],
             "blue": [
               "es"
             ],
             "purple": [
-              "tas",
-              "Tako"
+              "Njemačko"
             ]
           }
         ]
@@ -6134,16 +6016,14 @@ const A1_WORDS = [
             "etwas"
           ],
           "purple": [
-            "kaut kas",
-            "nedaudz",
-            "kaut ko"
+            "etwas",
+            "etwas"
           ],
           "green": [
-            "konteksta"
+            "etwas"
           ],
           "yellow": [
-            "lietu",
-            "daudzuma"
+            "etwas"
           ]
         },
         "examples": [
@@ -6155,7 +6035,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Ja"
               ]
             }
           },
@@ -6167,7 +6047,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Imate"
               ],
               "yellow": [
                 "Imate"
@@ -6182,7 +6062,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "umoran"
               ]
             }
           },
@@ -6194,7 +6074,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Imam"
               ]
             }
           },
@@ -6206,7 +6086,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Malo"
               ]
             }
           }
@@ -6218,18 +6098,13 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "meaning": {
-              "purple": [
-                "kaut kas",
-                "nedaudz"
-              ]
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "etwas"
               ],
               "purple": [
-                "kaut kas"
+                "Ich"
               ]
             }
           },
@@ -6239,17 +6114,13 @@ const A1_WORDS = [
                 "was"
               ]
             },
-            "meaning": {
-              "purple": [
-                "kaut kas"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "was"
               ],
               "purple": [
-                "kaut ko"
+                "Willst"
               ]
             }
           },
@@ -6261,13 +6132,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mazliet"
+                "Malo"
               ]
             },
             "example": {
               "yellow": [
                 "ein bisschen",
-                "mazliet"
+                "Ich"
               ]
             }
           },
@@ -6279,13 +6150,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nekas"
+                "Etwas"
               ]
             },
             "example": {
               "red": [
                 "nichts",
-                "neko"
+                "Ich"
               ]
             }
           }
@@ -6293,14 +6164,14 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "purple": [
-              "kaut kas",
-              "nedaudz"
+              "stvar",
+              "pomalo"
             ],
             "yellow": [
-              "lieta"
+              "stvar"
             ],
             "green": [
-              "Zapamtite"
+              "stvar"
             ]
           }
         },
@@ -6310,11 +6181,10 @@ const A1_WORDS = [
               "etwas"
             ],
             "purple": [
-              "kaut kas"
+              "malo"
             ],
             "red": [
-              "nichts",
-              "nekas"
+              "malo"
             ]
           },
           {
@@ -6322,8 +6192,7 @@ const A1_WORDS = [
               "etwas"
             ],
             "purple": [
-              "kaut ko",
-              "kaut kas"
+              "da"
             ]
           }
         ]
@@ -6511,13 +6380,13 @@ const A1_WORDS = [
           ],
           "purple": [
             "voziti se",
-            "voditi",
+            "rečenicama",
             "odvesti"
           ],
           "green": [
             "auto",
-            "autobusu",
-            "vilcienu",
+            "putuje",
+            "automobilom",
             "Bicikl",
             "Vozilo"
           ],
@@ -6553,7 +6422,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Idem"
+                "vozim"
               ],
               "green": [
                 "Auto"
@@ -6592,11 +6461,11 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Odvedem"
+                "te"
               ],
               "green": [
-                "odvesti",
-                "Kod kuće"
+                "ću",
+                "kući"
               ]
             }
           },
@@ -6628,7 +6497,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "transportu"
+                "transportom"
               ]
             },
             "example": {
@@ -6662,8 +6531,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "skriet",
-                "iet"
+                "Trčati",
+                "ići"
               ]
             },
             "example": {
@@ -6680,8 +6549,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atnest",
-                "Odneti i doneti"
+                "Doneti",
+                "dostaviti"
               ]
             },
             "example": {
@@ -6718,8 +6587,8 @@ const A1_WORDS = [
               "gehen"
             ],
             "green": [
-              "Vozilo",
-              "Zapamtite"
+              "sredstvo",
+              "fahren"
             ]
           }
         },
@@ -6739,7 +6608,7 @@ const A1_WORDS = [
               ],
               "purple": [
                 "voziti se",
-                "voditi",
+                "zavisno",
                 "odvesti"
               ]
             }
@@ -6885,14 +6754,14 @@ const A1_WORDS = [
             "finden"
           ],
           "purple": [
-            "atrast",
-            "Razmotriti",
+            "finden",
+            "i",
             "Misliti",
-            "Izgleda"
+            "smatrati"
           ],
           "green": [
             "Glavna",
-            "viedokli"
+            "riječ"
           ]
         },
         "examples": [
@@ -6904,19 +6773,15 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pronaći"
+                "Nalazim"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "gefunden"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
-                "Jeste"
+                "To"
               ]
             }
           },
@@ -6928,19 +6793,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Izgleda"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Razmisli"
+                "Šta"
               ]
             }
           }
@@ -6954,7 +6807,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atrast",
+                "Pronaći",
                 "Razmotriti"
               ]
             },
@@ -6963,61 +6816,6 @@ const A1_WORDS = [
                 "finde"
               ],
               "purple": [
-                "Izgleda"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Tražiti"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Misliti"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vjerovati",
-                "Misliti"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
                 "Ich"
               ]
             }
@@ -7029,8 +6827,8 @@ const A1_WORDS = [
               "finden"
             ],
             "purple": [
-              "Zapamtite",
-              "viedoklis"
+              "stvar",
+              "•"
             ]
           }
         },
@@ -7040,7 +6838,7 @@ const A1_WORDS = [
               "finden"
             ],
             "purple": [
-              "atrast"
+              "Finden"
             ]
           },
           {
@@ -7048,10 +6846,10 @@ const A1_WORDS = [
               "finde"
             ],
             "purple": [
-              "Izgleda"
+              "mislim"
             ],
             "red": [
-              "atrod"
+              "mislim"
             ]
           }
         ]
@@ -7183,8 +6981,8 @@ const A1_WORDS = [
             "Frau"
           ],
           "purple": [
-            "sieviete",
-            "sieva"
+            "die",
+            "suprugu"
           ]
         },
         "examples": [
@@ -7196,7 +6994,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "žena"
               ]
             }
           },
@@ -7208,7 +7006,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Supruga"
+                "žena"
               ]
             }
           },
@@ -7244,7 +7042,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Žena"
               ]
             }
           },
@@ -7256,7 +7054,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Supruga"
+                "žena"
               ]
             }
           }
@@ -7269,7 +7067,7 @@ const A1_WORDS = [
               "seine Frau"
             ],
             "purple": [
-              "sieva"
+              "misli"
             ]
           },
           {
@@ -7278,15 +7076,15 @@ const A1_WORDS = [
               "eine Frau"
             ],
             "purple": [
-              "sieviete"
+              "misli"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "sieviete",
-              "sieva"
+              "Die",
+              "supruga"
             ]
           },
           {
@@ -7452,8 +7250,8 @@ const A1_WORDS = [
             "für"
           ],
           "purple": [
-            "Za • Za",
-            "par"
+            "für",
+            "o"
           ]
         },
         "examples": [
@@ -7465,7 +7263,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Za • Za"
+                "je"
               ]
             }
           },
@@ -7477,7 +7275,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Za"
+                "na"
               ]
             }
           },
@@ -7513,7 +7311,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Za • Za"
+                "za"
               ]
             }
           },
@@ -7539,7 +7337,7 @@ const A1_WORDS = [
           {
             "purple": [
               "Za • Za",
-              "par"
+              "→"
             ]
           }
         ],
@@ -7556,7 +7354,7 @@ const A1_WORDS = [
               "bezahlen für"
             ],
             "purple": [
-              "par"
+              "Danke"
             ]
           }
         ]
@@ -7762,7 +7560,7 @@ const A1_WORDS = [
             "geben"
           ],
           "purple": [
-            "dot"
+            "geben"
           ],
           "red": [
             "nehmen",
@@ -7787,7 +7585,7 @@ const A1_WORDS = [
                 "Daj"
               ],
               "yellow": [
-                "Nosi"
+                "molim"
               ]
             }
           },
@@ -7823,7 +7621,7 @@ const A1_WORDS = [
                 "Uzimam"
               ],
               "yellow": [
-                "Nosi"
+                "Uzimam"
               ]
             }
           },
@@ -7855,7 +7653,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "dot"
+                "Dati"
               ]
             },
             "example": {
@@ -7908,8 +7706,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atnest",
-                "Odneti i doneti"
+                "Doneti",
+                "dostaviti"
               ]
             },
             "example": {
@@ -7925,7 +7723,7 @@ const A1_WORDS = [
               "geben"
             ],
             "purple": [
-              "dot prom"
+              "pokloni"
             ],
             "red": [
               "nehmen",
@@ -8288,7 +8086,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Odmah"
+                "će"
               ]
             }
           },
@@ -8324,7 +8122,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Imamo"
+                "visine"
               ]
             }
           }
@@ -8332,20 +8130,16 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "Odmah"
+              "→"
             ]
           },
-          {
-            "green": [
-              "Glavna"
-            ]
-          }
+          {}
         ],
         "important": [
           {
             "purple": [
               "Odmah",
-              "Glavna"
+              "jednako"
             ]
           },
           {
@@ -8439,10 +8233,10 @@ const A1_WORDS = [
             "groß"
           ],
           "purple": [
-            "liels"
+            "groß"
           ],
           "green": [
-            "Liels"
+            "groß"
           ]
         },
         "examples": [
@@ -8486,17 +8280,13 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kuća"
+                "velika"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "liels"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -8659,8 +8449,8 @@ const A1_WORDS = [
             "gut"
           ],
           "purple": [
-            "labs",
-            "labi"
+            "gut",
+            "U"
           ],
           "green": [
             "das Gut"
@@ -8675,7 +8465,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dobro"
+                "dobra"
               ]
             }
           },
@@ -8687,7 +8477,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dobro"
+                "hvala"
               ]
             }
           },
@@ -8735,7 +8525,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Po redu"
+                "u"
               ]
             }
           }
@@ -8850,8 +8640,8 @@ const A1_WORDS = [
             "Ich habe"
           ],
           "purple": [
-            "man ir",
-            "tev ir"
+            "haben",
+            "Ich"
           ],
           "yellow": [
             "Glavna"
@@ -8878,7 +8668,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Imate"
               ]
             }
           },
@@ -8914,17 +8704,13 @@ const A1_WORDS = [
                 "haben"
               ]
             },
-            "meaning": {
-              "purple": [
-                "man ir"
-              ]
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "habe"
               ],
               "purple": [
-                "man ir"
+                "Ich"
               ]
             }
           },
@@ -8942,7 +8728,7 @@ const A1_WORDS = [
             "example": {
               "green": [
                 "bin",
-                "esmu"
+                "Ich"
               ]
             }
           },
@@ -8960,7 +8746,7 @@ const A1_WORDS = [
             "example": {
               "yellow": [
                 "bekomme",
-                "Dobijam"
+                "Ich"
               ]
             }
           },
@@ -8972,13 +8758,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Uraditi"
+                "Raditi"
               ]
             },
             "example": {
               "red": [
                 "mache",
-                "daru"
+                "Ich"
               ]
             }
           }
@@ -8989,7 +8775,7 @@ const A1_WORDS = [
               "Ich habe"
             ],
             "purple": [
-              "man ir"
+              "habe"
             ]
           }
         },
@@ -8999,7 +8785,7 @@ const A1_WORDS = [
               "habe"
             ],
             "purple": [
-              "man ir"
+              "Na"
             ]
           },
           {
@@ -9100,12 +8886,12 @@ const A1_WORDS = [
           "purple": [
             "Glavna",
             "Glavna",
-            "Prestati",
-            "Razmotriti"
+            "ili",
+            "smatrati"
           ],
           "green": [
             "anhalten",
-            "transportu"
+            "prijevoz"
           ]
         },
         "examples": [
@@ -9167,8 +8953,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Glavna",
-                "Glavna"
+                "Držati",
+                "sredstva"
               ]
             },
             "example": {
@@ -9176,7 +8962,7 @@ const A1_WORDS = [
                 "hält"
               ],
               "purple": [
-                "pietur"
+                "Der"
               ]
             }
           },
@@ -9194,7 +8980,7 @@ const A1_WORDS = [
             "example": {
               "yellow": [
                 "nehme",
-                "Ja uzimam"
+                "Ich"
               ]
             }
           },
@@ -9243,13 +9029,13 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "halten",
-              "anhalten",
+              "→",
               "hält"
             ],
             "purple": [
-              "Glavna",
-              "Prestati",
-              "pietur"
+              "ruci",
+              "•",
+              "stop"
             ]
           }
         },
@@ -9259,7 +9045,7 @@ const A1_WORDS = [
               "halten"
             ],
             "purple": [
-              "Glavna"
+              "držati"
             ]
           },
           {
@@ -9267,7 +9053,7 @@ const A1_WORDS = [
               "hält"
             ],
             "purple": [
-              "pietur"
+              "autobus"
             ]
           },
           {
@@ -9466,7 +9252,7 @@ const A1_WORDS = [
             "Wie heißt du"
           ],
           "purple": [
-            "sauc",
+            "heißen",
             "Glavna"
           ]
         },
@@ -9491,7 +9277,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "zoveš"
               ]
             }
           },
@@ -9515,7 +9301,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Was"
+                "znači"
               ]
             }
           }
@@ -9529,8 +9315,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saukties",
-                "Glavna"
+                "Zvati",
+                "se"
               ]
             },
             "example": {
@@ -9538,7 +9324,7 @@ const A1_WORDS = [
                 "heiße"
               ],
               "purple": [
-                "sauc"
+                "Ich"
               ]
             }
           },
@@ -9550,13 +9336,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saukt"
+                "Nazvati"
               ]
             },
             "example": {
               "green": [
                 "nennt",
-                "sauc"
+                "Er"
               ]
             }
           },
@@ -9586,14 +9372,13 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saukt",
-                "pasaukt"
+                "Poziv"
               ]
             },
             "example": {
               "red": [
                 "rufe",
-                "pasaucu"
+                "Ich"
               ]
             }
           },
@@ -9612,7 +9397,7 @@ const A1_WORDS = [
               "red": [
                 "rufe",
                 "an",
-                "piezvanu"
+                "Ich"
               ]
             }
           }
@@ -9623,7 +9408,7 @@ const A1_WORDS = [
               "Ich heiße"
             ],
             "purple": [
-              "mani sauc"
+              "heiße"
             ]
           }
         },
@@ -9746,8 +9531,8 @@ const A1_WORDS = [
             "hoch"
           ],
           "purple": [
-            "augsts",
-            "augstu"
+            "Visoko",
+            "visina"
           ]
         },
         "examples": [
@@ -9759,7 +9544,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Visoko"
+                "visoka"
               ]
             }
           },
@@ -9771,19 +9556,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Visoko"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "hoch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Renta"
+                "Planina"
               ]
             }
           },
@@ -9796,6 +9569,18 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "Renta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visok"
               ]
             }
           },
@@ -9813,11 +9598,7 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "augsts"
-            ]
-          },
+          {},
           {
             "green": [
               "groß"
@@ -9830,15 +9611,15 @@ const A1_WORDS = [
               "hoch"
             ],
             "purple": [
-              "augsts"
+              "Der"
             ]
           },
           {
             "green": [
-              "groß"
+              "Hoch"
             ],
             "purple": [
-              "Sto"
+              "Hoch"
             ]
           }
         ]
@@ -9934,14 +9715,10 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Glavna"
+              "Čuti"
             ]
           },
-          {
-            "purple": [
-              "Glavna"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -10011,12 +9788,12 @@ const A1_WORDS = [
             "hübsch"
           ],
           "purple": [
-            "Uredno • Lijepo",
-            "Atraktivno",
+            "hübsch",
+            "privlačan",
             "Simpatičan"
           ],
           "green": [
-            "izskatu"
+            "hübsch"
           ],
           "yellow": [
             "nett"
@@ -10034,10 +9811,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Lijepa"
+                "lijepu"
               ],
               "green": [
-                "Haljina"
+                "haljinu"
               ]
             }
           },
@@ -10075,8 +9852,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Uredno • Lijepo",
-                "Atraktivno"
+                "Lijep",
+                "Privlačan"
               ]
             },
             "example": {
@@ -10096,8 +9873,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "skaists",
-                "Prijatno"
+                "Lijep",
+                "Prijatan"
               ]
             }
           },
@@ -10109,8 +9886,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jauks",
-                "laipns"
+                "Fin",
+                "Ljubazan"
               ]
             }
           }
@@ -10127,7 +9904,7 @@ const A1_WORDS = [
               "nett"
             ],
             "green": [
-              "Fina osoba"
+              "ponašanje"
             ]
           }
         },
@@ -10137,7 +9914,7 @@ const A1_WORDS = [
               "hübsch"
             ],
             "purple": [
-              "Uredno • Lijepo"
+              "Hübsch"
             ]
           },
           {
@@ -10145,8 +9922,8 @@ const A1_WORDS = [
               "nett"
             ],
             "purple": [
-              "jauks",
-              "laipns"
+              "Za",
+              "ljubazan"
             ]
           }
         ]
@@ -10225,7 +10002,7 @@ const A1_WORDS = [
             "ihr"
           ],
           "purple": [
-            "Ti",
+            "ihr",
             "Glavna",
             "Glavna"
           ]
@@ -10239,7 +10016,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ti"
+                "li"
               ]
             }
           },
@@ -10251,7 +10028,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "knjigu"
               ]
             }
           },
@@ -10263,7 +10040,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ti"
+                "živite"
               ]
             }
           },
@@ -10275,7 +10052,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "piše"
               ]
             }
           },
@@ -10299,7 +10076,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "njen"
               ]
             }
           }
@@ -10320,8 +10097,8 @@ const A1_WORDS = [
           {
             "purple": [
               "Ti",
-              "Glavna",
-              "Glavna"
+              "ILI",
+              "ILI"
             ]
           },
           {
@@ -10434,11 +10211,11 @@ const A1_WORDS = [
             "in dem"
           ],
           "purple": [
-            "kur?"
+            "gdje?"
           ],
           "green": [
-            "kam?",
-            "Lokacija"
+            "in",
+            "im"
           ]
         },
         "examples": [
@@ -10548,8 +10325,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Unutra",
-                "kur?"
+                "Unutra"
               ]
             },
             "example": {
@@ -10566,8 +10342,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Unutra",
-                "kurp?"
+                "Unutra"
               ]
             },
             "example": {
@@ -10601,7 +10376,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "U"
               ]
             },
             "example": {
@@ -10616,11 +10391,7 @@ const A1_WORDS = [
                 "auf"
               ]
             },
-            "meaning": {
-              "purple": [
-                "uz virsmas"
-              ]
-            },
+            "meaning": {},
             "example": {
               "red": [
                 "auf dem Tisch"
@@ -10634,13 +10405,13 @@ const A1_WORDS = [
               "im"
             ],
             "purple": [
-              "kur?"
+              "gdje?"
             ]
           },
           {
             "red": [
               "ins",
-              "kurp?"
+              "Gdje?"
             ]
           }
         ],
@@ -10653,12 +10424,12 @@ const A1_WORDS = [
               "in dem"
             ],
             "green": [
-              "kam?"
+              "Im"
             ]
           },
           {
             "purple": [
-              "kur?"
+              "gdje?"
             ],
             "green": [
               "Lokacija"
@@ -10733,11 +10504,11 @@ const A1_WORDS = [
           ],
           "purple": [
             "Unutra",
-            "uz"
+            "u"
           ],
           "green": [
-            "telpu",
-            "valsti",
+            "in",
+            "u",
             "Glavna",
             "Glavna"
           ]
@@ -10820,20 +10591,19 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "Unutra",
-              "U sobi"
+              "in",
+              "in"
             ]
           }
         },
         "important": [
           {
             "blue": [
-              "in"
+              "In"
             ],
             "purple": [
               "U Berlinu",
-              "U školi",
-              "uz kino"
+              "U školi"
             ]
           },
           {
@@ -10841,10 +10611,10 @@ const A1_WORDS = [
               "auf"
             ],
             "red": [
-              "in"
+              "Ako"
             ],
             "purple": [
-              "virsmu"
+              "Ako"
             ]
           }
         ]
@@ -10941,16 +10711,16 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "ins",
-            "in das"
+            "gehen"
           ],
           "purple": [
             "Ins",
             "Unutra",
-            "kurp?"
+            "gdje?"
           ],
           "green": [
-            "kurp?",
-            "Pokret"
+            "gdje?",
+            "gehen"
           ]
         },
         "examples": [
@@ -10974,7 +10744,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Spavati"
+                "na"
               ]
             }
           },
@@ -11062,8 +10832,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Unutra",
-                "kurp?"
+                "Unutra"
               ]
             },
             "example": {
@@ -11080,8 +10849,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Unutra",
-                "kur?"
+                "Unutra"
               ]
             },
             "example": {
@@ -11099,8 +10867,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Unutra",
-                "uz",
-                "nezavisnim"
+                "na"
               ]
             },
             "example": {
@@ -11115,11 +10882,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "meaning": {
-              "purple": [
-                "uz virsmu"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "aufs Dach"
@@ -11134,8 +10897,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "Na",
+                "kod"
               ]
             },
             "example": {
@@ -11151,13 +10914,13 @@ const A1_WORDS = [
               "ins"
             ],
             "purple": [
-              "kurp?"
+              "gdje?"
             ]
           },
           {
             "red": [
               "im",
-              "kur?"
+              "Gdje?"
             ]
           }
         ],
@@ -11167,18 +10930,18 @@ const A1_WORDS = [
               "ins"
             ],
             "purple": [
-              "in das"
+              "Ins"
             ],
             "green": [
-              "kurp?"
+              "gdje?"
             ]
           },
           {
             "purple": [
-              "kurp?"
+              "gdje?"
             ],
             "green": [
-              "Pokret"
+              "Odgovori"
             ]
           },
           {
@@ -11299,7 +11062,7 @@ const A1_WORDS = [
             "jung"
           ],
           "purple": [
-            "jauns"
+            "mlad"
           ],
           "green": [
             "neu"
@@ -11314,7 +11077,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Imamo"
+                "mlada"
               ]
             }
           },
@@ -11326,7 +11089,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "mlad"
               ]
             }
           },
@@ -11338,7 +11101,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Novi"
+                "mladi"
               ]
             }
           },
@@ -11350,7 +11113,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Izgleda"
               ]
             }
           },
@@ -11362,7 +11125,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "novi"
               ]
             }
           },
@@ -11507,7 +11270,7 @@ const A1_WORDS = [
             "kein"
           ],
           "purple": [
-            "neviens",
+            "kein",
             "Glavna"
           ]
         },
@@ -11690,7 +11453,7 @@ const A1_WORDS = [
             "kennen"
           ],
           "purple": [
-            "Znati"
+            "poznavati"
           ]
         },
         "examples": [
@@ -11841,7 +11604,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Znati"
+                "Otkud"
               ]
             }
           },
@@ -11979,12 +11742,12 @@ const A1_WORDS = [
             "können"
           ],
           "purple": [
-            "Biti u mogućnosti",
-            "umjeti"
+            "können",
+            "znati"
           ],
           "green": [
             "Glavna",
-            "prasmi",
+            "znati",
             "Glavna"
           ]
         },
@@ -12047,8 +11810,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Biti u mogućnosti",
-                "umjeti"
+                "Biti",
+                "u"
               ]
             },
             "example": {
@@ -12056,7 +11819,7 @@ const A1_WORDS = [
                 "kann"
               ],
               "purple": [
-                "protu"
+                "Ich"
               ]
             }
           },
@@ -12086,7 +11849,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Da treba"
+                "Treba"
               ]
             },
             "example": {
@@ -12110,7 +11873,7 @@ const A1_WORDS = [
             "example": {
               "green": [
                 "weiß",
-                "zinu"
+                "Ich"
               ]
             }
           }
@@ -12121,8 +11884,8 @@ const A1_WORDS = [
               "können"
             ],
             "purple": [
-              "prasme",
-              "Priliku"
+              "sposobnost",
+              "mogućnost"
             ]
           }
         },
@@ -12135,9 +11898,9 @@ const A1_WORDS = [
               "dürfen"
             ],
             "purple": [
-              "Biti u mogućnosti",
-              "umjeti",
-              "Biti dozvoljeno"
+              "Können",
+              "znati",
+              "smjeti"
             ]
           },
           {
@@ -12237,9 +12000,8 @@ const A1_WORDS = [
             "kosten"
           ],
           "purple": [
-            "Platiti",
-            "cenu",
-            "Osnovna"
+            "kosten",
+            "Das"
           ],
           "green": [
             "Was kostet"
@@ -12258,7 +12020,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Koliko"
+                "košta"
               ]
             }
           },
@@ -12330,7 +12092,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Koliko"
+                "karticom"
               ]
             }
           },
@@ -12357,7 +12119,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Platiti",
-                "cenu",
+                "cijenu",
                 "Platiti"
               ]
             },
@@ -12366,7 +12128,7 @@ const A1_WORDS = [
                 "kostet"
               ],
               "purple": [
-                "Koliko"
+                "Das"
               ]
             }
           },
@@ -12418,11 +12180,7 @@ const A1_WORDS = [
                 "Was kostet"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Platiti"
-              ]
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "kostet"
@@ -12436,11 +12194,10 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "kosten",
-              "Was kostet"
+              "kosten"
             ],
             "purple": [
-              "cenu"
+              "cijeni"
             ]
           },
           {
@@ -12469,7 +12226,7 @@ const A1_WORDS = [
           {
             "purple": [
               "Platiti",
-              "situacijom"
+              "u"
             ]
           }
         ]
@@ -12712,7 +12469,7 @@ const A1_WORDS = [
             "der Laden"
           ],
           "purple": [
-            "veikals"
+            "der"
           ],
           "green": [
             "laden"
@@ -12739,7 +12496,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Shop"
+                "Radnja"
               ]
             }
           },
@@ -12751,7 +12508,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Idem"
+                "prodavnica"
               ]
             }
           },
@@ -12788,7 +12545,7 @@ const A1_WORDS = [
           },
           {
             "green": [
-              "laden"
+              "Natovaren"
             ]
           },
           {
@@ -12877,14 +12634,14 @@ const A1_WORDS = [
             "Land"
           ],
           "purple": [
-            "valsti",
-            "zemi",
-            "lauki",
-            "valsts"
+            "das",
+            "područje",
+            "prevedite",
+            "država"
           ],
           "green": [
             "Glavna",
-            "Latviju",
+            "područje",
             "Glavna"
           ]
         },
@@ -12915,7 +12672,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zemlja"
+                "Dolazim"
               ]
             }
           },
@@ -12953,9 +12710,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "valsts",
-                "zeme",
-                "lauki"
+                "Zemlja",
+                "Zemlja",
+                "selo"
               ]
             },
             "example": {
@@ -12989,7 +12746,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ciems"
+                "Selo"
               ]
             },
             "example": {
@@ -13006,7 +12763,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zeme",
+                "Zemlja",
                 "Planeta"
               ]
             },
@@ -13023,7 +12780,7 @@ const A1_WORDS = [
               "das Land"
             ],
             "purple": [
-              "valsts"
+              "zemlja"
             ],
             "yellow": [
               "die Stadt",
@@ -13037,10 +12794,10 @@ const A1_WORDS = [
               "aufs Land"
             ],
             "purple": [
-              "uz laukiem"
+              "na"
             ],
             "red": [
-              "uz valsti"
+              "na"
             ]
           },
           {
@@ -13111,7 +12868,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "Sto",
-            "ilgs"
+            "vremenskom"
           ]
         },
         "examples": [
@@ -13147,7 +12904,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dugo vremena"
+                "traje"
               ]
             }
           },
@@ -13171,7 +12928,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dugo vremena"
+                "Čekam"
               ]
             }
           },
@@ -13196,15 +12953,15 @@ const A1_WORDS = [
           },
           {
             "green": [
-              "ilgs"
+              "dug"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "Sto",
-              "ilgs"
+              "Lang",
+              "dugotrajan"
             ]
           },
           {
@@ -13299,12 +13056,12 @@ const A1_WORDS = [
             "Lass mich"
           ],
           "purple": [
-            "Otići",
+            "lassen",
             "Glavna",
             "Glavna"
           ],
           "green": [
-            "Umjesto",
+            "lassen",
             "Glavna"
           ]
         },
@@ -13370,8 +13127,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Otići",
-                "Glavna"
+                "Ostavi",
+                "pusti"
               ]
             },
             "example": {
@@ -13388,7 +13145,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "palikt"
+                "Ostani"
               ]
             },
             "example": {
@@ -13422,7 +13179,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "dot"
+                "Dati"
               ]
             },
             "example": {
@@ -13438,8 +13195,8 @@ const A1_WORDS = [
               "lassen"
             ],
             "purple": [
-              "paliek",
-              "Zapamtite"
+              "ostaje",
+              "se"
             ]
           }
         },
@@ -13449,8 +13206,7 @@ const A1_WORDS = [
               "lassen"
             ],
             "purple": [
-              "Otići",
-              "Glavna"
+              "ostaviti"
             ]
           },
           {
@@ -13532,16 +13288,16 @@ const A1_WORDS = [
             "laufen"
           ],
           "purple": [
-            "skriet",
-            "darboties",
-            "iet"
+            "laufen",
+            "Kada",
+            "trčati"
           ],
           "green": [
-            "Ljudi",
+            "laufen",
             "Glavna",
-            "filmu",
+            "korakom",
             "Mašinu",
-            "programmu"
+            "mašinu"
           ]
         },
         "examples": [
@@ -13553,7 +13309,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Djeca"
+                "trči"
               ]
             }
           },
@@ -13577,7 +13333,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Idi"
+                "već"
               ]
             }
           },
@@ -13603,8 +13359,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "skriet",
-                "darboties"
+                "Pokrenuti",
+                "raditi"
               ]
             },
             "example": {
@@ -13621,7 +13377,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iet"
+                "Idi"
               ]
             },
             "example": {
@@ -13655,7 +13411,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "darboties"
+                "Operirati"
               ]
             },
             "example": {
@@ -13675,7 +13431,7 @@ const A1_WORDS = [
             ],
             "red": [
               "fahren",
-              "transports"
+              "•"
             ]
           }
         },
@@ -13685,9 +13441,9 @@ const A1_WORDS = [
               "laufen"
             ],
             "purple": [
-              "skriet",
-              "iet",
-              "darboties"
+              "trčati",
+              "može",
+              "samo"
             ]
           },
           {
@@ -13778,7 +13534,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "glasna"
               ]
             }
           },
@@ -13791,20 +13547,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "govori"
+                "glasna"
               ]
             }
           },
@@ -13818,6 +13561,19 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "govori"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Veoma"
               ]
             }
           },
@@ -13851,7 +13607,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Glasno"
+              "glasan"
             ]
           }
         ],
@@ -13958,7 +13714,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "glasna"
               ]
             }
           },
@@ -13982,7 +13738,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "govori"
+                "Veoma"
               ]
             }
           },
@@ -14108,15 +13864,15 @@ const A1_WORDS = [
             "liegen"
           ],
           "purple": [
-            "nolikt",
-            "atrodas",
+            "legen",
+            "horizontalni",
             "Glavna"
           ],
           "yellow": [
-            "lietu",
-            "galda",
-            "gultas",
-            "virsmas"
+            "legen",
+            "horizontalni",
+            "legen",
+            "ili"
           ]
         },
         "examples": [
@@ -14135,8 +13891,8 @@ const A1_WORDS = [
                 "Stavio"
               ],
               "yellow": [
-                "Nosi",
-                "Glavna"
+                "knjigu",
+                "sto"
               ]
             }
           },
@@ -14194,11 +13950,11 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Glavna"
+                "je"
               ],
               "yellow": [
                 "Knjiga",
-                "Glavna"
+                "stolu"
               ]
             }
           }
@@ -14212,7 +13968,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nolikt"
+                "Spusti"
               ]
             },
             "example": {
@@ -14229,7 +13985,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atrasties",
+                "Biti",
                 "Spavati"
               ]
             },
@@ -14280,11 +14036,11 @@ const A1_WORDS = [
               "legen"
             ],
             "purple": [
-              "noliec"
+              "legnete"
             ],
             "red": [
               "liegen",
-              "atrodas"
+              "već"
             ]
           }
         },
@@ -14302,11 +14058,11 @@ const A1_WORDS = [
               "lege"
             ],
             "purple": [
-              "nolieku"
+              "Ich"
             ],
             "red": [
               "liegt",
-              "atrodas"
+              "se"
             ]
           }
         ]
@@ -14384,10 +14140,10 @@ const A1_WORDS = [
             "leise"
           ],
           "purple": [
-            "kluss"
+            "Tiha"
           ],
           "orange": [
-            "kluss"
+            "Tiha"
           ]
         },
         "examples": [
@@ -14400,7 +14156,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tiho"
+                "budite"
               ]
             }
           },
@@ -14413,7 +14169,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tiho"
+                "budi"
               ]
             }
           },
@@ -14447,7 +14203,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "kluss"
+              "tiho"
             ]
           }
         ],
@@ -14575,12 +14331,12 @@ const A1_WORDS = [
             "legen"
           ],
           "purple": [
-            "atrasties",
-            "Spavati",
-            "nolikt"
+            "liegen",
+            "ležati",
+            "razlikuje"
           ],
           "yellow": [
-            "lietu"
+            "liegen"
           ]
         },
         "examples": [
@@ -14596,11 +14352,11 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "je"
               ],
               "yellow": [
                 "Knjiga",
-                "Glavna"
+                "stolu"
               ]
             }
           },
@@ -14616,7 +14372,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "je"
               ],
               "yellow": [
                 "Telefon",
@@ -14635,10 +14391,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "spava"
               ],
               "green": [
-                "Ona"
+                "u"
               ]
             }
           },
@@ -14657,8 +14413,8 @@ const A1_WORDS = [
                 "Stavio"
               ],
               "yellow": [
-                "Nosi",
-                "Glavna"
+                "knjigu",
+                "sto"
               ]
             }
           }
@@ -14672,7 +14428,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atrasties",
+                "Biti",
                 "Spavati"
               ]
             },
@@ -14690,7 +14446,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nolikt"
+                "Spusti"
               ]
             },
             "example": {
@@ -14740,11 +14496,11 @@ const A1_WORDS = [
               "liegen"
             ],
             "purple": [
-              "Zapamtite"
+              "mjestu"
             ],
             "red": [
               "legen",
-              "noliec"
+              "Ti"
             ]
           }
         },
@@ -14763,8 +14519,7 @@ const A1_WORDS = [
               "legen"
             ],
             "purple": [
-              "Aktivnost",
-              "noliek"
+              "radnju"
             ]
           }
         ]
@@ -14887,13 +14642,13 @@ const A1_WORDS = [
             "machen"
           ],
           "purple": [
-            "Uraditi",
-            "Napraviti",
-            "pagatavot"
+            "machen",
+            "praviti",
+            "ili"
           ],
           "green": [
-            "Aktivnost",
-            "U frazama"
+            "machen",
+            "praviti"
           ]
         },
         "examples": [
@@ -14986,7 +14741,7 @@ const A1_WORDS = [
               "Was machst du"
             ],
             "purple": [
-              "ko tu dari"
+              "radiš"
             ]
           }
         },
@@ -14996,7 +14751,7 @@ const A1_WORDS = [
               "machen"
             ],
             "purple": [
-              "dabiski"
+              "Machen"
             ]
           },
           {
@@ -15004,10 +14759,10 @@ const A1_WORDS = [
               "Das macht Spaß"
             ],
             "purple": [
-              "tas ir jautri"
+              "to"
             ],
             "red": [
-              "taisa prieku"
+              "to"
             ]
           }
         ]
@@ -15085,8 +14840,8 @@ const A1_WORDS = [
             "das erste Mal"
           ],
           "purple": [
-            "reizi",
-            "notikumu",
+            "das",
+            "priliku",
             "Glavna"
           ]
         },
@@ -15111,7 +14866,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dvaput"
+                "dva"
               ]
             }
           },
@@ -15135,7 +14890,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "molim"
               ]
             }
           }
@@ -15146,8 +14901,8 @@ const A1_WORDS = [
             "mal"
           ],
           "purple": [
-            "Zapamtite",
-            "Zapamtite"
+            "imenica",
+            "razgovorna"
           ]
         },
         "important": [
@@ -15163,7 +14918,7 @@ const A1_WORDS = [
               "zwei Mal"
             ],
             "purple": [
-              "reizes"
+              "Ein"
             ]
           },
           {
@@ -15268,7 +15023,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "muškarac"
               ]
             }
           },
@@ -15280,7 +15035,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "muž"
               ]
             }
           },
@@ -15304,7 +15059,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "muž"
               ]
             }
           },
@@ -15316,7 +15071,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Covek"
               ]
             }
           },
@@ -15328,7 +15083,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "muž"
               ]
             }
           }
@@ -15341,7 +15096,7 @@ const A1_WORDS = [
               "ihr Mann"
             ],
             "purple": [
-              "Glavna"
+              "misli"
             ]
           },
           {
@@ -15350,15 +15105,15 @@ const A1_WORDS = [
               "ein Mann"
             ],
             "purple": [
-              "Glavna"
+              "misli"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "Glavna",
-              "Glavna"
+              "Der",
+              "muž"
             ]
           },
           {
@@ -15530,13 +15285,12 @@ const A1_WORDS = [
             "mit dir"
           ],
           "purple": [
-            "ar",
-            "Zajedno sa"
+            "mit"
           ],
           "green": [
-            "transportu",
-            "autobusu",
-            "vilcienu",
+            "mit",
+            "ili",
+            "autom",
             "auto"
           ]
         },
@@ -15585,7 +15339,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zajedno sa"
+                "sa"
               ]
             }
           }
@@ -15599,7 +15353,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ar",
+                "Sa",
                 "Zajedno sa"
               ]
             },
@@ -15634,7 +15388,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "Kod"
               ]
             },
             "example": {
@@ -15651,8 +15405,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "To",
+                "at"
               ]
             },
             "example": {
@@ -15668,8 +15422,7 @@ const A1_WORDS = [
               "mit"
             ],
             "purple": [
-              "Zajedno sa",
-              "ar transportu"
+              "prijevozom"
             ]
           }
         },
@@ -15692,7 +15445,7 @@ const A1_WORDS = [
               "Kommst du mit"
             ],
             "purple": [
-              "Gdje"
+              "Hoćeš"
             ]
           }
         ]
@@ -15808,10 +15561,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "muziku"
               ],
               "yellow": [
-                "Muzika"
+                "Volim"
               ]
             }
           },
@@ -15823,10 +15576,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ich"
+                "kafu"
               ],
               "yellow": [
-                "Kafa"
+                "Voliš"
               ]
             }
           },
@@ -15838,7 +15591,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "voli"
               ],
               "green": [
                 "Ona"
@@ -15870,7 +15623,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "patikt"
+                "To"
               ]
             },
             "example": {
@@ -15937,7 +15690,7 @@ const A1_WORDS = [
               "Ich mag"
             ],
             "purple": [
-              "Glavna"
+              "mag"
             ]
           }
         },
@@ -15959,7 +15712,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "Ich",
-              "Glavna"
+              "mi"
             ]
           }
         ]
@@ -16112,7 +15865,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sutra"
+                "Dobro"
               ]
             }
           },
@@ -16125,7 +15878,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sutra"
+                "Jutro"
               ]
             }
           }
@@ -16419,7 +16172,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Morate"
+                "čekati"
               ]
             }
           },
@@ -16432,7 +16185,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ich"
+                "učiti"
               ]
             }
           },
@@ -16459,8 +16212,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Da treba",
-                "Glavna"
+                "Treba",
+                "uraditi"
               ]
             },
             "example": {
@@ -16477,8 +16230,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Biti u mogućnosti",
-                "umjeti"
+                "Biti",
+                "u"
               ]
             },
             "example": {
@@ -16528,7 +16281,7 @@ const A1_WORDS = [
               "Ich muss"
             ],
             "purple": [
-              "Glavna"
+              "muss"
             ]
           }
         },
@@ -16547,7 +16300,7 @@ const A1_WORDS = [
               "arbeiten"
             ],
             "purple": [
-              "Na kraju"
+              "Drugi"
             ]
           }
         ]
@@ -16643,7 +16396,7 @@ const A1_WORDS = [
           "green": [
             "Glavna",
             "Glavna",
-            "laiku"
+            "uz"
           ]
         },
         "examples": [
@@ -16658,7 +16411,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "To"
+                "Berlin"
               ],
               "green": [
                 "Berlin"
@@ -16673,7 +16426,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Idemo"
               ]
             }
           },
@@ -16688,7 +16441,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Nakon"
               ],
               "yellow": [
                 "Nakon"
@@ -16703,7 +16456,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Gotovo"
+                "osam"
               ]
             }
           }
@@ -16717,8 +16470,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "Glavna"
+                "Do",
+                "poslije"
               ]
             },
             "example": {
@@ -16735,8 +16488,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "To",
+                "at"
               ]
             },
             "example": {
@@ -16770,7 +16523,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pirms",
+                "Prije",
                 "Ispred"
               ]
             },
@@ -16904,8 +16657,8 @@ const A1_WORDS = [
             "natürlich"
           ],
           "purple": [
-            "protams",
-            "dabisks"
+            "natürlich",
+            "razgovoru"
           ]
         },
         "examples": [
@@ -16917,7 +16670,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "nama"
               ]
             }
           },
@@ -16941,7 +16694,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Naravno"
               ]
             }
           },
@@ -16953,7 +16706,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Machen"
+                "crvenu"
               ]
             }
           },
@@ -16965,7 +16718,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Naravno"
               ]
             }
           },
@@ -16977,7 +16730,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Machen"
+                "prirodno"
               ]
             }
           }
@@ -16985,25 +16738,25 @@ const A1_WORDS = [
         "tip": [
           {
             "blue": [
-              "protams"
+              "→"
             ]
           },
           {
             "green": [
-              "dabisks"
+              "→"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "protams",
-              "dabisks"
+              "Natürlich",
+              "afirmacija"
             ]
           },
           {
             "blue": [
-              "Natürlich!"
+              "Naravno"
             ]
           }
         ]
@@ -17123,7 +16876,7 @@ const A1_WORDS = [
                 "Uzmi"
               ],
               "yellow": [
-                "Nosi"
+                "knjigu"
               ]
             }
           },
@@ -17141,7 +16894,7 @@ const A1_WORDS = [
                 "Doneo"
               ],
               "yellow": [
-                "Nosi"
+                "knjigu"
               ]
             }
           },
@@ -17191,9 +16944,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "atnest",
-                "aiznest",
-                "Odneti i doneti"
+                "Donijeti",
+                "uzeti",
+                "dostaviti"
               ]
             },
             "example": {
@@ -17211,7 +16964,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Idi",
-                "atnest"
+                "dohvati"
               ]
             },
             "example": {
@@ -17248,7 +17001,7 @@ const A1_WORDS = [
               "Zapamtite"
             ],
             "red": [
-              "bringen",
+              "sebe",
               "Zapamtite"
             ]
           }
@@ -17259,7 +17012,7 @@ const A1_WORDS = [
               "nehme den Bus"
             ],
             "purple": [
-              "braucu ar autobusu"
+              "idem"
             ]
           },
           {
@@ -17350,7 +17103,7 @@ const A1_WORDS = [
             "neu"
           ],
           "purple": [
-            "jauns"
+            "mlad"
           ],
           "green": [
             "jung"
@@ -17365,7 +17118,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "nov"
               ]
             }
           },
@@ -17413,7 +17166,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Imamo"
+                "nova"
               ]
             }
           },
@@ -17425,7 +17178,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "posao"
               ]
             }
           },
@@ -17437,7 +17190,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "ima"
               ]
             }
           }
@@ -17596,7 +17349,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "sam"
               ]
             }
           },
@@ -17609,7 +17362,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "sam"
               ]
             }
           },
@@ -17622,7 +17375,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "još"
               ]
             }
           }
@@ -17630,7 +17383,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Glavna"
+              "ili"
             ]
           }
         ],
@@ -17723,11 +17476,11 @@ const A1_WORDS = [
             "Glavna"
           ],
           "red": [
-            "Tikai"
+            "Ograničava"
           ],
           "yellow": [
             "Glavna",
-            "tikai"
+            "ograničena"
           ]
         },
         "examples": [
@@ -17879,7 +17632,7 @@ const A1_WORDS = [
             "oder"
           ],
           "purple": [
-            "vai",
+            "ob",
             "Glavna",
             "Glavna"
           ],
@@ -17899,7 +17652,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ili"
+                "da"
               ]
             }
           },
@@ -17911,7 +17664,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ili"
+                "da"
               ]
             }
           },
@@ -17923,7 +17676,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ili"
+                "da"
               ]
             }
           },
@@ -17949,7 +17702,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai",
+                "Ili",
                 "Ili"
               ]
             },
@@ -17967,7 +17720,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai",
+                "Ili",
                 "Ili"
               ]
             },
@@ -17985,7 +17738,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ja",
+                "Ako",
                 "kad"
               ]
             },
@@ -18003,7 +17756,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ka"
+                "To"
               ]
             },
             "example": {
@@ -18019,11 +17772,11 @@ const A1_WORDS = [
               "ob"
             ],
             "purple": [
-              "nezinu, vai"
+              "li"
             ],
             "red": [
               "oder",
-              "Zapamtite"
+              "Zapamti"
             ]
           }
         },
@@ -18118,7 +17871,7 @@ const A1_WORDS = [
             "ob"
           ],
           "purple": [
-            "vai",
+            "oder",
             "Glavna",
             "Glavna"
           ]
@@ -18139,8 +17892,8 @@ const A1_WORDS = [
                 "Ili"
               ],
               "yellow": [
-                "Kafa",
-                "Kafa"
+                "Kafu",
+                "čaj"
               ]
             }
           },
@@ -18171,7 +17924,7 @@ const A1_WORDS = [
                 "Ili"
               ],
               "yellow": [
-                "Pravimo",
+                "ili",
                 "salatu"
               ]
             }
@@ -18198,7 +17951,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai",
+                "Ili",
                 "Ili"
               ]
             },
@@ -18216,7 +17969,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai",
+                "Ili",
                 "Ili"
               ]
             },
@@ -18234,7 +17987,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "un"
+                "I"
               ]
             },
             "example": {
@@ -18251,7 +18004,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "bet"
+                "Ali"
               ]
             },
             "example": {
@@ -18264,11 +18017,11 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "oder"
+              "opcija"
             ],
             "purple": [
               "Zapamtite",
-              "variantiem"
+              "opcija"
             ]
           }
         },
@@ -18286,7 +18039,7 @@ const A1_WORDS = [
               "ob"
             ],
             "purple": [
-              "Ili"
+              "li"
             ]
           }
         ]
@@ -18429,12 +18182,12 @@ const A1_WORDS = [
             "Das passt"
           ],
           "purple": [
-            "Kladiti se",
-            "Odijevati",
+            "passen",
+            "pristajati",
             "Glavna"
           ],
           "yellow": [
-            "Odjeća",
+            "passen",
             "Glavna",
             "stilu"
           ]
@@ -18451,7 +18204,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zapamtite"
+                "pristaje"
               ],
               "yellow": [
                 "Jakna"
@@ -18469,7 +18222,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zapamtite"
+                "stoji"
               ],
               "yellow": [
                 "Haljina"
@@ -18516,8 +18269,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Kladiti se",
-                "Odijevati"
+                "Fit",
+                "Fit"
               ]
             },
             "example": {
@@ -18534,7 +18287,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Odijevati",
+                "Stajati",
                 "Stajati"
               ]
             },
@@ -18552,7 +18305,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Glavna"
+                "prikladan"
               ]
             },
             "example": {
@@ -18569,7 +18322,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "darboties"
+                "Operirati"
               ]
             },
             "example": {
@@ -18582,10 +18335,10 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "Das passt"
+              "past"
             ],
             "purple": [
-              "tas der"
+              "past"
             ]
           }
         },
@@ -18595,15 +18348,15 @@ const A1_WORDS = [
               "passen"
             ],
             "yellow": [
-              "Odjeća"
+              "Passen"
             ]
           },
           {
             "purple": [
-              "laiks",
+              "vrijeme",
               "Plan",
               "također",
-              "der"
+              "odgovara"
             ]
           }
         ]
@@ -18754,7 +18507,7 @@ const A1_WORDS = [
             "Glavna",
             "Glavna",
             "metodi",
-            "lietu"
+            "stvari"
           ]
         },
         "examples": [
@@ -18787,7 +18540,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "tortu"
               ],
               "yellow": [
                 "Tortu"
@@ -18808,7 +18561,7 @@ const A1_WORDS = [
                 "Isprobavamo"
               ],
               "yellow": [
-                "metoda"
+                "Isprobavamo"
               ]
             }
           },
@@ -18840,8 +18593,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Glavna",
-                "Glavna"
+                "Probaj",
+                "Probaj"
               ]
             },
             "example": {
@@ -18892,7 +18645,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pielaikot"
+                "Probati"
               ]
             },
             "example": {
@@ -18912,7 +18665,7 @@ const A1_WORDS = [
               "Hrana"
             ],
             "purple": [
-              "Glavna"
+              "hrana"
             ]
           }
         },
@@ -19058,7 +18811,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "U jednini",
-            "Zapamtite"
+            "a"
           ],
           "red": [
             "sind"
@@ -19074,7 +18827,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zapamtite"
+                "Riža"
               ]
             }
           },
@@ -19096,8 +18849,8 @@ const A1_WORDS = [
             "der Reis"
           ],
           "purple": [
-            "vienskaitlis",
-            "Zapamtite"
+            "jednina",
+            "bosanskom"
           ]
         }
       }
@@ -19195,10 +18948,10 @@ const A1_WORDS = [
             "sagen"
           ],
           "purple": [
-            "teikt"
+            "Izreći"
           ],
           "green": [
-            "Teikt"
+            "Izreći"
           ]
         },
         "examples": [
@@ -19210,7 +18963,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "teikt"
+              "reći"
             ]
           }
         ],
@@ -19447,7 +19200,7 @@ const A1_WORDS = [
             "schon"
           ],
           "purple": [
-            "jau"
+            "Nešto"
           ]
         },
         "examples": [
@@ -19468,7 +19221,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "jau"
+              "već"
             ]
           }
         ],
@@ -19623,7 +19376,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Plivati"
+                "Volim"
               ]
             }
           },
@@ -19653,7 +19406,7 @@ const A1_WORDS = [
                 "Plivamo"
               ],
               "green": [
-                "Glavna"
+                "bazenu"
               ]
             }
           },
@@ -19665,7 +19418,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Plivati"
+                "plivanje"
               ]
             }
           }
@@ -19681,7 +19434,7 @@ const A1_WORDS = [
               "purple": [
                 "Plivati",
                 "Pokret",
-                "sports"
+                "sport"
               ]
             },
             "example": {
@@ -19699,7 +19452,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Plivati",
-                "Ona"
+                "biti"
               ]
             },
             "example": {
@@ -19749,11 +19502,11 @@ const A1_WORDS = [
               "schwimmen"
             ],
             "purple": [
-              "Zapamtite"
+              "plivanju"
             ],
             "red": [
               "baden",
-              "Zapamtite"
+              "Zapamti"
             ]
           }
         },
@@ -19771,10 +19524,10 @@ const A1_WORDS = [
               "Plivati"
             ],
             "blue": [
-              "Pokret"
+              "Na"
             ],
             "red": [
-              "Bosanski"
+              "li"
             ]
           }
         ]
@@ -19985,8 +19738,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pogledajte",
-                "Gledati"
+                "Pogled",
+                "Pogled"
               ]
             },
             "example": {
@@ -20020,7 +19773,7 @@ const A1_WORDS = [
               "sehen"
             ],
             "purple": [
-              "acis uztver"
+              "opažaju"
             ],
             "red": [
               "schauen",
@@ -20046,7 +19799,7 @@ const A1_WORDS = [
             ],
             "red": [
               "schaue",
-              "skatos"
+              "Film"
             ]
           }
         ]
@@ -20137,7 +19890,6 @@ const A1_WORDS = [
           ],
           "purple": [
             "Biti",
-            "Liegen",
             "Glavna"
           ]
         },
@@ -20150,7 +19902,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ich"
+                "sam"
               ]
             }
           },
@@ -20215,11 +19967,7 @@ const A1_WORDS = [
                 "haben"
               ]
             },
-            "meaning": {
-              "purple": [
-                "man ir"
-              ]
-            },
+            "meaning": {},
             "example": {
               "yellow": [
                 "habe"
@@ -20251,7 +19999,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "palikt"
+                "Ostani"
               ]
             },
             "example": {
@@ -20268,8 +20016,7 @@ const A1_WORDS = [
               "du bist"
             ],
             "purple": [
-              "es esmu",
-              "tu esi"
+              "jesi"
             ]
           }
         },
@@ -20287,7 +20034,7 @@ const A1_WORDS = [
               "Ich bin"
             ],
             "purple": [
-              "es esmu"
+              "Ich"
             ],
             "red": [
               "Ich"
@@ -20361,8 +20108,8 @@ const A1_WORDS = [
             "Seite"
           ],
           "purple": [
-            "lappuse",
-            "puse"
+            "die",
+            "stranu"
           ]
         },
         "examples": [
@@ -20398,7 +20145,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "stranica"
               ]
             }
           },
@@ -20410,7 +20157,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Lijevo"
+                "mojoj"
               ]
             }
           },
@@ -20434,7 +20181,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Lijevo"
+                "strani"
               ]
             }
           }
@@ -20453,15 +20200,15 @@ const A1_WORDS = [
               "Seite"
             ],
             "purple": [
-              "lappuse"
+              "u"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "lappuse",
-              "puse"
+              "Die",
+              "strana"
             ]
           },
           {
@@ -20555,8 +20302,8 @@ const A1_WORDS = [
             "er wäscht sich"
           ],
           "purple": [
-            "sevi",
-            "sev",
+            "sich",
+            "ich",
             "Glavna"
           ]
         },
@@ -20625,8 +20372,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sevi",
-                "sev"
+                "Sebe",
+                "Sebe"
               ]
             },
             "example": {
@@ -20643,8 +20390,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "mani",
-                "sevi"
+                "Ja",
+                "sam"
               ]
             },
             "example": {
@@ -20661,8 +20408,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tevi",
-                "sevi"
+                "Ti",
+                "ja"
               ]
             },
             "example": {
@@ -20705,7 +20452,7 @@ const A1_WORDS = [
               "sich"
             ],
             "red": [
-              "Zapamtite"
+              "Sich"
             ]
           },
           {
@@ -20776,7 +20523,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "Sigurno",
-            "noteikti"
+            "Kada"
           ]
         },
         "examples": [
@@ -20788,7 +20535,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sigurno"
+                "voda"
               ]
             }
           },
@@ -20812,7 +20559,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vjerovatno"
+                "Verovatno"
               ]
             }
           },
@@ -20861,7 +20608,7 @@ const A1_WORDS = [
           },
           {
             "green": [
-              "noteikti",
+              "→",
               "Vjerovatno"
             ]
           }
@@ -20870,7 +20617,7 @@ const A1_WORDS = [
           {
             "purple": [
               "Sigurno",
-              "noteikti",
+              "vjerovatno",
               "Vjerovatno"
             ]
           },
@@ -20944,7 +20691,7 @@ const A1_WORDS = [
             "kochen"
           ],
           "purple": [
-            "Njega",
+            "Oblik",
             "Glavna"
           ]
         },
@@ -20971,7 +20718,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Ona"
               ]
             }
           },
@@ -20984,7 +20731,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Ona"
               ]
             }
           },
@@ -21010,7 +20757,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Oni"
+                "Igraju"
               ]
             }
           },
@@ -21101,7 +20848,7 @@ const A1_WORDS = [
             "kocht"
           ],
           "purple": [
-            "Ti"
+            "Vi"
           ]
         },
         "examples": [
@@ -21171,7 +20918,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Ti"
+              "Na"
             ]
           }
         ],
@@ -21319,7 +21066,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "sjede"
               ],
               "green": [
                 "Djeca"
@@ -21334,7 +21081,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Stojeći"
+                "stoji"
               ]
             }
           },
@@ -21346,7 +21093,7 @@ const A1_WORDS = [
             },
             "lv": {
               "yellow": [
-                "Glavna"
+                "spava"
               ]
             }
           }
@@ -21394,8 +21141,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Spavati",
-                "Spavati"
+                "Ležati",
+                "u"
               ]
             },
             "example": {
@@ -21428,7 +21175,7 @@ const A1_WORDS = [
               "sitzen"
             ],
             "purple": [
-              "Zapamtite"
+              "sjedeći"
             ],
             "red": [
               "stehen"
@@ -21444,7 +21191,7 @@ const A1_WORDS = [
               "sitzen"
             ],
             "purple": [
-              "Sjediti"
+              "stanje"
             ]
           },
           {
@@ -21558,7 +21305,7 @@ const A1_WORDS = [
             "Was soll ich machen"
           ],
           "purple": [
-            "Trebalo bi",
+            "sollen",
             "Glavna",
             "Glavna"
           ],
@@ -21630,7 +21377,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Trebalo bi",
-                "Glavna"
+                "se"
               ]
             },
             "example": {
@@ -21697,11 +21444,11 @@ const A1_WORDS = [
               "sollen"
             ],
             "purple": [
-              "Zapamtite"
+              "uraditi"
             ],
             "red": [
               "müssen",
-              "Apsolutno"
+              "sollen"
             ]
           }
         },
@@ -21891,7 +21638,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Stojeći"
+                "je"
               ],
               "yellow": [
                 "Stolica"
@@ -21906,7 +21653,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Glavna"
+                "sjedi"
               ]
             }
           },
@@ -21918,7 +21665,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Glavna"
+                "je"
               ]
             }
           }
@@ -21933,7 +21680,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Stajati",
-                "Uspravno"
+                "Stajati"
               ]
             },
             "example": {
@@ -21967,8 +21714,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Spavati",
-                "Spavati"
+                "Ležati",
+                "u"
               ]
             },
             "example": {
@@ -22001,7 +21748,7 @@ const A1_WORDS = [
               "stehen"
             ],
             "purple": [
-              "Uspravno"
+              "stajati"
             ],
             "red": [
               "sitzen"
@@ -22305,12 +22052,12 @@ const A1_WORDS = [
             "über"
           ],
           "purple": [
-            "virs",
-            "par",
-            "Gotovo"
+            "über",
+            "o",
+            "preko"
           ],
           "green": [
-            "sarunu",
+            "über",
             "tekstu",
             "Glavna"
           ]
@@ -22327,10 +22074,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Gore"
+                "iznad"
               ],
               "yellow": [
-                "Glavna"
+                "stola"
               ]
             }
           },
@@ -22345,10 +22092,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Za"
+                "vremenu"
               ],
               "green": [
-                "Najprije"
+                "Govorimo"
               ]
             }
           },
@@ -22363,7 +22110,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Gotovo"
+                "preko"
               ],
               "yellow": [
                 "Dijete"
@@ -22381,7 +22128,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Za"
+                "poklonom"
               ],
               "yellow": [
                 "Poklon"
@@ -22398,9 +22145,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "virs",
-                "par",
-                "Gotovo"
+                "Preko",
+                "Preko",
+                "Preko"
               ]
             },
             "example": {
@@ -22415,11 +22162,7 @@ const A1_WORDS = [
                 "auf"
               ]
             },
-            "meaning": {
-              "purple": [
-                "uz virsmas"
-              ]
-            },
+            "meaning": {},
             "example": {
               "yellow": [
                 "auf"
@@ -22434,7 +22177,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zem"
+                "Ispod"
               ]
             },
             "example": {
@@ -22451,7 +22194,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "no"
+                "Iz"
               ]
             },
             "example": {
@@ -22468,7 +22211,7 @@ const A1_WORDS = [
             ],
             "purple": [
               "Tema",
-              "virs"
+              "über"
             ]
           }
         },
@@ -22571,14 +22314,14 @@ const A1_WORDS = [
             "um ... zu"
           ],
           "purple": [
-            "pulksten",
-            "ap",
+            "um",
+            "oko",
             "Okolo",
-            "lai"
+            "oko"
           ],
           "green": [
-            "laiku",
-            "vietu"
+            "um",
+            "oko"
           ]
         },
         "examples": [
@@ -22608,7 +22351,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "stolom"
               ],
               "yellow": [
                 "Sedimo"
@@ -22626,7 +22369,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "ugla"
               ],
               "yellow": [
                 "Ide"
@@ -22642,7 +22385,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "To"
+                "govorim"
               ]
             }
           }
@@ -22656,9 +22399,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pulksten",
-                "ap",
-                "lai"
+                "Na",
+                "oko",
+                "do"
               ]
             },
             "example": {
@@ -22676,7 +22419,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "danu/at",
-                "pie"
+                "danu"
               ]
             },
             "example": {
@@ -22693,8 +22436,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ap laiku",
-                "pret"
+                "vs"
               ]
             },
             "example": {
@@ -22711,7 +22453,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Za • Za"
+                "Za"
               ]
             },
             "example": {
@@ -22727,7 +22469,7 @@ const A1_WORDS = [
               "um acht"
             ],
             "purple": [
-              "Doći"
+              "sati"
             ]
           }
         },
@@ -22737,7 +22479,7 @@ const A1_WORDS = [
               "um"
             ],
             "purple": [
-              "pulksten"
+              "u"
             ]
           },
           {
@@ -22745,7 +22487,7 @@ const A1_WORDS = [
               "um ... zu"
             ],
             "purple": [
-              "lai"
+              "da"
             ]
           }
         ]
@@ -22835,8 +22577,8 @@ const A1_WORDS = [
             "über"
           ],
           "purple": [
-            "zem",
-            "starp"
+            "unter",
+            "među"
           ],
           "green": [
             "Glavna"
@@ -22857,7 +22599,7 @@ const A1_WORDS = [
                 "Ispod"
               ],
               "yellow": [
-                "Glavna"
+                "stola"
               ]
             }
           },
@@ -22875,7 +22617,7 @@ const A1_WORDS = [
                 "Ispod"
               ],
               "yellow": [
-                "Sumrak"
+                "stolice"
               ]
             }
           },
@@ -22890,7 +22632,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Između"
+                "se"
               ],
               "green": [
                 "Među"
@@ -22908,10 +22650,10 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Gore"
+                "iznad"
               ],
               "yellow": [
-                "Glavna"
+                "stola"
               ]
             }
           }
@@ -22925,8 +22667,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zem",
-                "starp"
+                "Ispod",
+                "između"
               ]
             },
             "example": {
@@ -22943,8 +22685,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "virs",
-                "par"
+                "Preko",
+                "za"
               ]
             },
             "example": {
@@ -22961,7 +22703,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "starp"
+                "Između"
               ]
             },
             "example": {
@@ -22976,11 +22718,7 @@ const A1_WORDS = [
                 "auf"
               ]
             },
-            "meaning": {
-              "purple": [
-                "uz virsmas"
-              ]
-            },
+            "meaning": {},
             "example": {
               "yellow": [
                 "Auf"
@@ -22994,7 +22732,7 @@ const A1_WORDS = [
               "unter dem Tisch"
             ],
             "purple": [
-              "zem galda"
+              "stola"
             ]
           }
         },
@@ -23004,7 +22742,7 @@ const A1_WORDS = [
               "unter"
             ],
             "purple": [
-              "starp"
+              "među"
             ]
           },
           {
@@ -23116,8 +22854,8 @@ const A1_WORDS = [
             "Ich verstehe"
           ],
           "purple": [
-            "saprast",
-            "saproti"
+            "verstehen",
+            "razumete"
           ],
           "red": [
             "können",
@@ -23146,7 +22884,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "razumes"
               ]
             }
           },
@@ -23184,7 +22922,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saprast"
+                "Razumjeti"
               ]
             },
             "example": {
@@ -23201,8 +22939,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Biti u mogućnosti",
-                "umjeti"
+                "Biti",
+                "u"
               ]
             },
             "example": {
@@ -23252,11 +22990,11 @@ const A1_WORDS = [
               "verstehen"
             ],
             "purple": [
-              "saprast"
+              "tekst"
             ],
             "red": [
               "können",
-              "umjeti"
+              "osobu"
             ]
           }
         },
@@ -23274,7 +23012,7 @@ const A1_WORDS = [
               "verstehe"
             ],
             "purple": [
-              "saprotu"
+              "razumijem"
             ]
           }
         ]
@@ -23436,11 +23174,11 @@ const A1_WORDS = [
             "von dem"
           ],
           "purple": [
-            "no"
+            "von"
           ],
           "green": [
-            "kam?",
-            "izcelsmi"
+            "von",
+            "kada"
           ]
         },
         "examples": [
@@ -23550,7 +23288,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "no"
+                "Od"
               ]
             },
             "example": {
@@ -23567,7 +23305,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "no"
+                "Od"
               ]
             },
             "example": {
@@ -23618,8 +23356,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "Do",
+                "na"
               ]
             },
             "example": {
@@ -23650,12 +23388,12 @@ const A1_WORDS = [
               "von dem"
             ],
             "green": [
-              "kam?"
+              "Vom"
             ]
           },
           {
             "purple": [
-              "Od čega"
+              "porijeklo"
             ]
           },
           {
@@ -23751,13 +23489,13 @@ const A1_WORDS = [
             "fünf vor acht"
           ],
           "purple": [
-            "pirms",
+            "vor",
             "Ispred",
             "Do"
           ],
           "green": [
-            "laiku",
-            "vietu"
+            "vor",
+            "ispred"
           ]
         },
         "examples": [
@@ -23775,7 +23513,7 @@ const A1_WORDS = [
                 "Prije"
               ],
               "yellow": [
-                "Nakon"
+                "ruke"
               ]
             }
           },
@@ -23793,7 +23531,7 @@ const A1_WORDS = [
                 "Ispred"
               ],
               "yellow": [
-                "Kući"
+                "parkiran"
               ]
             }
           },
@@ -23837,7 +23575,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pirms",
+                "Prije",
                 "Ispred"
               ]
             },
@@ -23855,8 +23593,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Glavna",
-                "uz"
+                "Nakon",
+                "do"
               ]
             },
             "example": {
@@ -23873,7 +23611,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "blakus"
+                "Pored"
               ]
             },
             "example": {
@@ -23890,7 +23628,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "aiz"
+                "Iza"
               ]
             },
             "example": {
@@ -23906,7 +23644,7 @@ const A1_WORDS = [
               "vor"
             ],
             "purple": [
-              "pirms",
+              "mjesta",
               "Ispred"
             ]
           }
@@ -23917,8 +23655,8 @@ const A1_WORDS = [
               "vor"
             ],
             "purple": [
-              "laiks",
-              "vieta"
+              "vrijeme",
+              "mjesto"
             ]
           },
           {
@@ -24038,7 +23776,7 @@ const A1_WORDS = [
             "was"
           ],
           "purple": [
-            "kas",
+            "was",
             "ko"
           ]
         },
@@ -24051,7 +23789,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sta"
+                "Šta"
               ]
             }
           },
@@ -24111,7 +23849,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sta"
+                "Koja"
               ]
             }
           },
@@ -24289,9 +24027,9 @@ const A1_WORDS = [
             "wenn"
           ],
           "purple": [
-            "ja",
+            "wenn",
             "kad",
-            "Stanje"
+            "prevedite"
           ],
           "green": [
             "Na kraju"
@@ -24333,7 +24071,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kada"
+                "Kad"
               ]
             }
           },
@@ -24345,7 +24083,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Ili"
+                "da"
               ]
             }
           }
@@ -24359,7 +24097,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ja",
+                "Ako",
                 "kad"
               ]
             },
@@ -24377,7 +24115,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vai"
+                "Ili"
               ]
             },
             "example": {
@@ -24411,7 +24149,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "jo"
+                "Jer"
               ]
             },
             "example": {
@@ -24431,7 +24169,7 @@ const A1_WORDS = [
             ],
             "yellow": [
               "wann",
-              "kad?"
+              "kada"
             ]
           }
         },
@@ -24446,7 +24184,7 @@ const A1_WORDS = [
           },
           {
             "yellow": [
-              "Wann kommst du"
+              "Kada"
             ],
             "blue": [
               "Wenn du kommst"
@@ -24518,11 +24256,11 @@ const A1_WORDS = [
             "wer"
           ],
           "purple": [
-            "kas",
-            "SZO"
+            "wer",
+            "koji"
           ],
           "green": [
-            "was"
+            "wer"
           ]
         },
         "examples": [
@@ -24534,7 +24272,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sta"
+                "Šta"
               ]
             }
           },
@@ -24546,7 +24284,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sta"
+                "Ko"
               ]
             }
           },
@@ -24558,7 +24296,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sta"
+                "Ko"
               ]
             }
           },
@@ -24570,31 +24308,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Sta"
+                "Ko"
               ]
             }
           },
@@ -24607,6 +24321,30 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "vas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
               ]
             }
           }
@@ -24632,15 +24370,15 @@ const A1_WORDS = [
         "important": [
           {
             "blue": [
-              "wer"
+              "Pitali"
             ]
           },
           {
             "green": [
-              "was"
+              "Stvari"
             ],
             "blue": [
-              "wer"
+              "Stvari"
             ]
           },
           {
@@ -24729,7 +24467,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "Postati",
-            "Se mijenja",
+            "se",
             "Postaje"
           ]
         },
@@ -24778,7 +24516,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "Ich"
+                "sam"
               ]
             }
           }
@@ -24826,7 +24564,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "palikt"
+                "Ostani"
               ]
             },
             "example": {
@@ -24843,8 +24581,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Uraditi",
-                "Napraviti"
+                "Raditi",
+                "praviti"
               ]
             },
             "example": {
@@ -24883,7 +24621,7 @@ const A1_WORDS = [
             ],
             "red": [
               "bin",
-              "esmu"
+              "sam"
             ]
           }
         ]
@@ -24981,7 +24719,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zapamtite"
+                "je"
               ]
             }
           },
@@ -24993,7 +24731,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zapamtite"
+                "Vrijeme"
               ]
             }
           },
@@ -25005,7 +24743,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zapamtite"
+                "Vrijeme"
               ]
             }
           },
@@ -25020,7 +24758,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zapamtite"
+                "je"
               ],
               "yellow": [
                 "Zimi"
@@ -25035,7 +24773,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Najprije"
+                "Govorimo"
               ]
             }
           },
@@ -25050,7 +24788,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zapamtite"
+                "će"
               ],
               "green": [
                 "Bolje"
@@ -25084,7 +24822,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "laiks"
+                "Vrijeme"
               ]
             },
             "example": {
@@ -25101,7 +24839,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "lietus"
+                "Kiša"
               ]
             },
             "example": {
@@ -25118,7 +24856,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saule"
+                "Sunce"
               ]
             },
             "example": {
@@ -25151,7 +24889,7 @@ const A1_WORDS = [
               "Zeit"
             ],
             "purple": [
-              "laiks"
+              "Die"
             ]
           }
         ]
@@ -25220,7 +24958,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "Glavna",
-            "cik"
+            "osobinu"
           ]
         },
         "examples": [
@@ -25232,7 +24970,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Kako"
               ]
             }
           },
@@ -25244,7 +24982,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Kako"
               ]
             }
           },
@@ -25292,7 +25030,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "otac"
               ]
             }
           }
@@ -25303,33 +25041,31 @@ const A1_WORDS = [
               "wie"
             ],
             "purple": [
-              "Glavna",
-              "cik"
+              "kako",
+              "koliko"
             ]
           },
           {
             "purple": [
-              "tikpat",
-              "Glavna"
+              "=",
+              "kao"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "cik daudz",
-              "cik vecs",
-              "cik ilgi"
+              "Wie"
             ]
           },
           {
             "purple": [
-              "Glavna"
+              "kako"
             ]
           },
           {
             "red": [
-              "Cik tev iet?"
+              "Netačno"
             ],
             "blue": [
               "Kako si"
@@ -25454,12 +25190,12 @@ const A1_WORDS = [
           ],
           "purple": [
             "uz",
-            "pie",
-            "Takođe",
-            "nenoteiksmi"
+            "kod",
+            "zu",
+            "zu"
           ],
           "green": [
-            "Ljudima",
+            "zu",
             "Glavna"
           ]
         },
@@ -25508,7 +25244,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Učiti se"
+                "učim"
               ]
             }
           }
@@ -25522,9 +25258,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie",
-                "Takođe",
+                "To",
+                "at",
+                "too",
                 "infinitiv"
               ]
             },
@@ -25542,7 +25278,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz"
+                "U"
               ]
             },
             "example": {
@@ -25559,8 +25295,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Unutra",
-                "uz vietu"
+                "U"
               ]
             },
             "example": {
@@ -25577,7 +25312,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "Kod"
               ]
             },
             "example": {
@@ -25594,7 +25329,7 @@ const A1_WORDS = [
               "zu teuer"
             ],
             "purple": [
-              "Kod doktora",
+              "doktoru",
               "Preskupo"
             ]
           }
@@ -25613,7 +25348,7 @@ const A1_WORDS = [
               "zu teuer"
             ],
             "purple": [
-              "Preskupo"
+              "previše"
             ],
             "red": [
               "teuer"
@@ -25705,13 +25440,13 @@ const A1_WORDS = [
             "mit dem Zug fahren"
           ],
           "purple": [
-            "vilciens",
-            "Vilciens"
+            "der",
+            "znači"
           ],
           "red": [
             "Glavna",
-            "Nacrt",
-            "vaibsts"
+            "može",
+            "potez"
           ]
         },
         "examples": [
@@ -25773,7 +25508,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vilciens"
+                "Voz"
               ]
             },
             "example": {
@@ -25790,8 +25525,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Željeznica",
-                "vilcienu"
+                "Željeznica"
               ]
             },
             "example": {
@@ -25808,7 +25542,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "autobuss"
+                "Bus"
               ]
             },
             "example": {
@@ -25825,7 +25559,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tramvajs"
+                "Tramvaj"
               ]
             },
             "example": {
@@ -25851,15 +25585,15 @@ const A1_WORDS = [
               "der Zug"
             ],
             "purple": [
-              "vilciens"
+              "Der"
             ]
           },
           {
             "red": [
-              "Ređa"
+              "Rjeđa"
             ],
             "purple": [
-              "Ređa"
+              "Rjeđa"
             ]
           }
         ]
@@ -25959,12 +25693,12 @@ const A1_WORDS = [
             "zu dem"
           ],
           "purple": [
-            "uz",
-            "pie"
+            "zu",
+            "ili"
           ],
           "green": [
-            "kam?",
-            "Golove"
+            "zu",
+            "smjer"
           ]
         },
         "examples": [
@@ -26074,8 +25808,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "Na",
+                "kod"
               ]
             },
             "example": {
@@ -26092,8 +25826,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie"
+                "Do",
+                "kod"
               ]
             },
             "example": {
@@ -26110,9 +25844,9 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie",
-                "Takođe"
+                "To",
+                "at",
+                "too"
               ]
             },
             "example": {
@@ -26129,7 +25863,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz"
+                "U"
               ]
             },
             "example": {
@@ -26146,7 +25880,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "Na"
               ]
             },
             "example": {
@@ -26177,16 +25911,16 @@ const A1_WORDS = [
               "zu dem"
             ],
             "green": [
-              "kam?"
+              "Zum"
             ]
           },
           {
             "purple": [
-              "uz",
-              "pie"
+              "na",
+              "kod"
             ],
             "green": [
-              "Golove"
+              "cilj"
             ]
           },
           {
@@ -26460,7 +26194,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Televizija"
+                "na"
               ]
             }
           },
@@ -26473,7 +26207,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Televizija"
+                "na"
               ]
             }
           },
@@ -26486,7 +26220,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Televizija"
+                "Film"
               ]
             }
           },
@@ -26499,7 +26233,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Televizija"
+                "Televizijski"
               ]
             }
           },
@@ -26520,7 +26254,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Televizija"
+                "na"
               ]
             }
           }
@@ -26613,7 +26347,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apetit"
+                "appetit"
               ]
             }
           },
@@ -27046,7 +26780,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Volim"
+                "Povrće"
               ]
             }
           },
@@ -27070,7 +26804,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Volim"
+                "Jedem"
               ]
             }
           }
@@ -27178,7 +26912,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Voće"
+                "Plodovi"
               ]
             }
           },
@@ -27294,7 +27028,7 @@ const A1_WORDS = [
             "ferien"
           ],
           "purple": [
-            "skola"
+            "samo"
           ],
           "green": [
             "Ferien"
@@ -27349,7 +27083,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "praznicima"
+                "Tokom"
               ]
             }
           }
@@ -27492,7 +27226,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Moj"
+                "Na"
               ]
             }
           }
@@ -27500,7 +27234,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Odmor"
+              "Odlazak"
             ]
           }
         ],
@@ -27584,7 +27318,7 @@ const A1_WORDS = [
             "Uhr"
           ],
           "purple": [
-            "pulkstenis"
+            "sat"
           ]
         },
         "examples": [
@@ -27596,7 +27330,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Osam"
               ]
             }
           },
@@ -27608,7 +27342,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "Osam"
               ]
             }
           },
@@ -27640,7 +27374,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "sat"
               ]
             }
           },
@@ -27661,7 +27395,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "pulkstenis"
+              "Sat"
             ]
           }
         ],
@@ -27724,7 +27458,7 @@ const A1_WORDS = [
             "zeit"
           ],
           "purple": [
-            "laiks"
+            "Vrijeme"
           ],
           "yellow": [
             "Zeit"
@@ -27739,7 +27473,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Imate"
+                "Nemam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "zeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nemam"
               ]
             }
           },
@@ -27752,18 +27498,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "Imate"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "zeit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zapamtite"
               ]
             }
           },
@@ -27776,7 +27510,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zapamtite"
+                "Vrijeme"
               ]
             }
           }
@@ -27784,7 +27518,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "laiks"
+              "Vrijeme"
             ]
           }
         ],
@@ -27836,7 +27570,7 @@ const A1_WORDS = [
             "einmal"
           ],
           "purple": [
-            "reiz"
+            "Ukazuje"
           ]
         },
         "examples": [
@@ -27849,7 +27583,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "sam"
               ]
             }
           },
@@ -27862,7 +27596,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Glavna"
+                "sam"
               ]
             }
           }
@@ -27870,14 +27604,10 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "vienreiz"
+              "jednom"
             ]
           },
-          {
-            "purple": [
-              "reiz"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -27925,7 +27655,7 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Opet"
+            "Znači"
           ]
         },
         "examples": [
@@ -27951,7 +27681,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Opet"
+                "Ponovo"
               ]
             }
           },
@@ -27964,7 +27694,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Opet"
+                "ponovo"
               ]
             }
           }
