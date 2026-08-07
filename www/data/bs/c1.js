@@ -1322,7 +1322,7 @@ const C1_WORDS = [
             "zusammenfassen"
           ],
           "purple": [
-            "apkopot",
+            "zusammenfassen",
             "Rezimirati"
           ],
           "green": [
@@ -1363,7 +1363,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Rezimirao je"
+                "rezimirao"
               ]
             }
           },
@@ -1375,7 +1375,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sažimajući"
+                "Ukratko"
               ]
             }
           },
@@ -1387,7 +1387,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sažetka"
+                "Pišem"
               ]
             }
           },
@@ -2496,7 +2496,7 @@ const C1_WORDS = [
           "purple": [
             "Ponekad",
             "Povremen",
-            "Zbog"
+            "ponekad"
           ]
         },
         "examples": [
@@ -3873,7 +3873,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Biračkom pravu"
+                "Svi"
               ]
             }
           },
@@ -3885,7 +3885,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pravo glasa"
+                "Od"
               ]
             }
           },
@@ -4042,8 +4042,8 @@ const C1_WORDS = [
             "der Zuschlag"
           ],
           "purple": [
-            "piemaksu",
-            "uzcenojumu"
+            "der",
+            "dodatnu"
           ],
           "red": [
             "der Anhang",
@@ -4107,7 +4107,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Doplatama"
+                "doplata"
               ]
             }
           }
@@ -4115,8 +4115,8 @@ const C1_WORDS = [
         "tip": [
           {
             "blue": [
-              "piemaksa",
-              "uzcenojums"
+              "doplata",
+              "doplata"
             ]
           },
           {
@@ -4128,11 +4128,11 @@ const C1_WORDS = [
         "important": [
           {
             "purple": [
-              "piemaksa",
-              "uzcenojums"
+              "Der",
+              "pribitak"
             ],
             "red": [
-              "pielikums"
+              "Der"
             ]
           },
           {
@@ -4176,7 +4176,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Odnositi"
+            "Formalni"
           ]
         },
         "examples": [
@@ -4189,8 +4189,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Odnositi",
-                "Referirati na"
+                "Primijeniti",
+                "•"
               ]
             }
           }
@@ -4198,7 +4198,7 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Odnositi"
+              "pripisivanje"
             ]
           },
           {}
@@ -4276,7 +4276,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Namjeravao"
+                "namjerava"
               ]
             }
           },
@@ -4310,7 +4310,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Namjeravao"
+                "namjerava"
               ]
             }
           },
@@ -4329,16 +4329,8 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Namjeravati"
-            ]
-          },
-          {
-            "purple": [
-              "Plan"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -4417,7 +4409,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Prebacuje"
+                "mi"
               ]
             }
           },
@@ -4439,7 +4431,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Prebaciti"
+                "smije"
               ]
             }
           },
@@ -4451,7 +4443,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Prebaciti"
+                "Njemu"
               ]
             }
           },
@@ -4468,7 +4460,7 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Prebaciti"
+              "prigovoriti"
             ]
           },
           {}
@@ -4622,7 +4614,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sačuvaj"
+                "krizi"
               ]
             }
           },
@@ -4649,7 +4641,7 @@ const C1_WORDS = [
             "lv": {
               "purple": [
                 "Zaštititi",
-                "Spasiti"
+                "sačuvati"
               ]
             }
           }
@@ -4713,7 +4705,7 @@ const C1_WORDS = [
         "explanation": {
           "green": [
             "aufrechterhalten",
-            "erhält",
+            "osigurati",
             "auf"
           ]
         },
