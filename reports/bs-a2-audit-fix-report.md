@@ -60,7 +60,7 @@
 
 | Kartīte | Lauks | Iemesls |
 |---|---|---|
-| `a2-indem` | `sectionAccents.comparison[2].meaning.purple[0]` | Audits norāda `To` kā EN atlikumu, bet `study.comparison[2].meaning` pats satur `"To"`. Akcenta maiņa uz `Da` (no piemēra) rada tehnisku validācijas kļūdu, jo `Da` nav `meaning` laukā. Study teksts nav labojams šajā uzdevumā. |
+| ~~`a2-indem`~~ | ~~`sectionAccents.comparison[2].meaning.purple[0]`~~ | ✅ Labots atsevišķā uzdevumā — `study.comparison[2].meaning`: `To` → `Da`; `sectionAccents` pielāgots. |
 
 ---
 

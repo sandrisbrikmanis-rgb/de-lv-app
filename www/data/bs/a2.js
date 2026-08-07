@@ -37974,7 +37974,7 @@ const A2_WORDS = [
         },
         {
           "word": "damit",
-          "meaning": "To",
+          "meaning": "Da",
           "example": "Ich lerne, damit ich die Prüfung bestehe. = Učim da položim ispit."
         },
         {
@@ -38116,7 +38116,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "To"
+                "Da"
               ]
             },
             "example": {
