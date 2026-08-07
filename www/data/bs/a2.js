@@ -572,7 +572,7 @@ const A2_WORDS = [
           "aizbraukt prom",
           "atiet / noiet",
           "Početi voziti",
-          "braukt",
+          "Voziti",
           "fahren"
         ],
         "red": [
@@ -1144,8 +1144,8 @@ const A2_WORDS = [
           {
             "de": {
               "green": [
-                "abholen",
-                "abholen"
+                "holen",
+                "holen"
               ]
             },
             "lv": {}
@@ -10841,7 +10841,7 @@ const A2_WORDS = [
                   "mit der Bahn fahren"
                 ],
                 "purple": [
-                  "braukt ar vilcienu"
+                  "putovati vozom"
                 ]
               }
             },
@@ -10912,7 +10912,7 @@ const A2_WORDS = [
           "Željeznica",
           "vilciens",
           "Vilciens",
-          "braukt ar vilcienu",
+          "putovati vozom",
           "Određeni voz",
           "tramvajs",
           "Željeznička stanica",
@@ -17841,7 +17841,7 @@ const A2_WORDS = [
             },
             "lv": {
               "orange": [
-                "On"
+                "dobra"
               ]
             }
           },
@@ -21740,7 +21740,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "On"
+                "upozorio"
               ]
             }
           },
@@ -21987,7 +21987,7 @@ const A2_WORDS = [
             "purple": [
               "tome",
               "Pri tome",
-              "uz",
+              "dodato",
               "ili"
             ],
             "green": [
@@ -22019,7 +22019,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz"
+                "uz to"
               ]
             }
           },
@@ -22083,7 +22083,7 @@ const A2_WORDS = [
               "purple": [
                 "Tome",
                 "Pri tome",
-                "uz",
+                "uz to",
                 "to"
               ]
             },
@@ -22182,7 +22182,7 @@ const A2_WORDS = [
             "text": {
               "purple": [
                 "Prijevod",
-                "uz",
+                "uz to",
                 "dodatno",
                 "osim"
               ]
@@ -25128,7 +25128,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Uz"
+                "mnogo"
               ]
             }
           },
@@ -30485,10 +30485,10 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "In",
+                "U",
                 "diesem",
                 "komme",
-                "In",
+                "ću",
                 "Fall",
                 "U ovom"
               ]
@@ -33031,14 +33031,14 @@ const A2_WORDS = [
                   "führen"
                 ],
                 "orange": [
-                  "vest"
+                  "voditi"
                 ],
                 "yellow": [
                   "führen",
                   "Često",
                   "Put",
                   "runa",
-                  "vest"
+                  "nekamo"
                 ]
               }
             },
@@ -33111,11 +33111,11 @@ const A2_WORDS = [
           "Voditi",
           "Put",
           "Nekoga",
-          "vest"
+          "voditi"
         ],
         "green": [
           "Dovesti do cilja",
-          "vest ar transportu",
+          "voziti sa transportom",
           "procesu",
           "leiten",
           "Voditi"
@@ -33127,13 +33127,13 @@ const A2_WORDS = [
         "orange": [
           "Voditi organizaciju",
           "atnest",
-          "braukt",
-          "vest"
+          "Voziti",
+          "voditi"
         ],
         "purple": [
           "Voditi • Upravljati • Biti u vodstvu • Biti u prodaji",
           "Dovesti / odvesti do cilja",
-          "braukt / vest ar transportu",
+          "Voziti / voziti sa transportom",
           "Upravljati organizacijom/procesom",
           "Voditi / voditi / biti vođen",
           "novest pie",
@@ -39267,7 +39267,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "To"
+                "skoro"
               ]
             }
           },
@@ -40202,7 +40202,7 @@ const A2_WORDS = [
                   "Alles",
                   "Često",
                   "klar",
-                  "viss"
+                  "sve"
                 ],
                 "orange": [
                   "Sve je u redu",
@@ -44507,7 +44507,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "On",
+                "to",
                 "misli"
               ]
             }
@@ -45680,7 +45680,7 @@ const A2_WORDS = [
                 "gut"
               ],
               "purple": [
-                "To"
+                "dobro"
               ]
             }
           },
@@ -59461,7 +59461,7 @@ const A2_WORDS = [
                 "Dio"
               ],
               "purple": [
-                "To",
+                "priče",
                 "Samo",
                 "Dio"
               ]
