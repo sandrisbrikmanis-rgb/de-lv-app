@@ -27,7 +27,7 @@ const C1_WORDS = [
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "Zvanična izjava • Izražavanje mišljenja",
+    "lv": "Službeno saopćenje • Izražavanje mišljenja",
     "level": "C1"
   },
   {
@@ -92,7 +92,7 @@ const C1_WORDS = [
   },
   {
     "de": "anderweitig",
-    "lv": "Drugdje • Inače",
+    "lv": "Drugdje • Drugačije",
     "level": "C1"
   },
   {
@@ -106,7 +106,7 @@ const C1_WORDS = [
     "de": "Abrüstungsverhandlungen",
     "de_article": "die",
     "de_plural": "die Abrüstungsverhandlungen",
-    "lv": "Razgovori o razoružanju",
+    "lv": "Pregovori o razoružanju",
     "level": "C1"
   },
   {
@@ -125,7 +125,7 @@ const C1_WORDS = [
   },
   {
     "de": "abstumpfen",
-    "lv": "Otupiti • Učiniti neosjetljivim",
+    "lv": "Otupljivati • Učiniti neosjetljivim",
     "level": "C1"
   },
   {
@@ -144,7 +144,7 @@ const C1_WORDS = [
   },
   {
     "de": "ächten",
-    "lv": "Ostracizirati • Društveno izostaviti",
+    "lv": "Izopćiti • Socijalno isključiti",
     "level": "C1"
   },
   {
@@ -171,7 +171,7 @@ const C1_WORDS = [
     "de": "Frachtgeld",
     "de_article": "das",
     "de_plural": "die Frachtgelder",
-    "lv": "Troškovi prevoza",
+    "lv": "Naknada za prevoz tereta",
     "level": "C1"
   },
   {
@@ -232,7 +232,7 @@ const C1_WORDS = [
   },
   {
     "de": "außergewöhnlich",
-    "lv": "Neobično",
+    "lv": "Neobičan",
     "level": "C1"
   },
   {
@@ -304,7 +304,7 @@ const C1_WORDS = [
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Putni nadvožnjak",
+    "lv": "Cestovni nadvožnjak",
     "level": "C1"
   },
   {
@@ -360,17 +360,17 @@ const C1_WORDS = [
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Samoporodična kuća",
+    "lv": "Jednoporodična kuća",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Samoporodična kuća",
-      "explanation": "Glavna ideja: das Einfamilienhaus je kuća za jednu porodicu. To obično znači samostojeću kuću, a ne stambenu zgradu.",
+      "translation": "Jednoporodična kuća",
+      "explanation": "Glavna ideja: das Einfamilienhaus je kuća za jednu porodicu. To obično znači zasebnu privatnu kuću, a ne stambenu zgradu s više stanova.",
       "examples": [
         {
           "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Žive u jednoj porodičnoj kući."
+          "lv": "Oni žive u jednoporodičnoj kući."
         },
         {
           "de": "Das Einfamilienhaus hat einen Garten.",
@@ -423,12 +423,12 @@ const C1_WORDS = [
   },
   {
     "de": "fabelhaft",
-    "lv": "Odlično",
+    "lv": "Divan",
     "level": "C1"
   },
   {
     "de": "fehlerhaft",
-    "lv": "Pogrešno",
+    "lv": "Pogrešan",
     "level": "C1"
   },
   {
@@ -440,7 +440,7 @@ const C1_WORDS = [
     "de": "Geburtsschein",
     "de_article": "der",
     "de_plural": "die Geburtsscheine",
-    "lv": "Izvod iz matične knjige rođenih",
+    "lv": "Rodni list",
     "level": "C1"
   },
   {
@@ -498,7 +498,7 @@ const C1_WORDS = [
     "de": "Gesichtspunkt",
     "de_article": "der",
     "de_plural": "die Gesichtspunkte",
-    "lv": "Mišljenje",
+    "lv": "Zapamtite",
     "level": "C1"
   },
   {
@@ -593,7 +593,7 @@ const C1_WORDS = [
     "de": "Kabelanschluss",
     "de_article": "der",
     "de_plural": "die Kabelanschlüsse",
-    "lv": "Priključak kablovske televizije",
+    "lv": "Kablovski priključak za televiziju",
     "level": "C1"
   },
   {
@@ -627,7 +627,7 @@ const C1_WORDS = [
     "de": "Klage",
     "de_article": "die",
     "de_plural": "die Klagen",
-    "lv": "Žalbu",
+    "lv": "Žalba",
     "level": "C1"
   },
   {
@@ -658,12 +658,12 @@ const C1_WORDS = [
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
-    "lv": "Težak auto",
+    "lv": "Teško vozilo",
     "level": "C1"
   },
   {
     "de": "lebhaft",
-    "lv": "Živahno",
+    "lv": "Marljiv",
     "level": "C1"
   },
   {
@@ -758,21 +758,21 @@ const C1_WORDS = [
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "Društvo • Otvorenost",
+    "lv": "Društvo • Javnost",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "Društvo • Otvorenost",
-      "explanation": "Glavna ideja: die Öffentlichkeit znači društvo kao javni prostor ili ljude u cjelini. U frazi an die Öffentlichkeit kommen, to znači izaći na otvoreno.",
+      "translation": "Društvo • Javnost",
+      "explanation": "Glavna ideja: die Öffentlichkeit znači društvo kao javni prostor ili ljude u cjelini. U izrazu an die Öffentlichkeit kommen to znači dospjeti u javnost.",
       "examples": [
         {
           "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Javnost je kritički reagovala."
+          "lv": "Javnost je reagovala kritički."
         },
         {
           "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Slučaj je izašao na videlo."
+          "lv": "Stvar je dospjela u javnost."
         },
         {
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
@@ -798,7 +798,7 @@ const C1_WORDS = [
       "id": "c1-partei",
       "layout": "standardStudy",
       "translation": "Zabava • Zabava",
-      "explanation": "Glavna ideja: Die Partei je obično politička stranka. U pravnom ili konfliktnom jeziku, može značiti i stranu.",
+      "explanation": "Glavna ideja: die Partei obično znači političku stranku. U pravnom jeziku ili jeziku sukoba može značiti i stranu.",
       "examples": [
         {
           "de": "Diese Partei gewann die Wahl.",
@@ -806,7 +806,7 @@ const C1_WORDS = [
         },
         {
           "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "On je godinama član stranke."
+          "lv": "On je već godinama član stranke."
         },
         {
           "de": "Beide Parteien müssen den Vertrag unterschreiben.",
@@ -847,7 +847,7 @@ const C1_WORDS = [
     "de": "Polstergarnitur",
     "de_article": "die",
     "de_plural": "die Polstergarnituren",
-    "lv": "Set tapaciranog namještaja",
+    "lv": "Garnitura tapaciranog namještaja",
     "level": "C1"
   },
   {
@@ -861,13 +861,13 @@ const C1_WORDS = [
     "de": "Prozess",
     "de_article": "der",
     "de_plural": "die Prozesse",
-    "lv": "Proces • Tužba",
+    "lv": "Proces • Parnica",
     "level": "C1",
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "Proces • Tužba",
-      "explanation": "Glavna ideja: der Prozess je proces ili proces. Na sudu der Prozess znači suđenje.",
+      "translation": "Proces • Parnica",
+      "explanation": "Glavna misao: der Prozess je proces ili tok. Na sudu der Prozess znači parnicu.",
       "examples": [
         {
           "de": "Der Prozess dauert mehrere Monate.",
@@ -875,11 +875,11 @@ const C1_WORDS = [
         },
         {
           "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Suđenje počinje sutra."
+          "lv": "Sudska parnica počinje sutra."
         },
         {
           "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Poboljšavamo ceo proces."
+          "lv": "Poboljšavamo cijeli proces."
         }
       ]
     }
@@ -948,7 +948,7 @@ const C1_WORDS = [
     "de": "Scheibenwischer",
     "de_article": "der",
     "de_plural": "die Scheibenwischer",
-    "lv": "Čistač auto prozora",
+    "lv": "Brisač automobilskog stakla",
     "level": "C1"
   },
   {
@@ -994,7 +994,7 @@ const C1_WORDS = [
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "Muževljevi roditelji",
+    "lv": "Muževi roditelji",
     "level": "C1"
   },
   {
@@ -1068,7 +1068,7 @@ const C1_WORDS = [
     "de": "Stromverbrauch",
     "de_article": "der",
     "de_plural": "die Stromverbräuche",
-    "lv": "Trenutna potrošnja",
+    "lv": "Potrošnja električne energije",
     "level": "C1"
   },
   {
@@ -1088,7 +1088,7 @@ const C1_WORDS = [
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "Kalendar beleški",
+    "lv": "Rokovnik",
     "level": "C1"
   },
   {
@@ -1205,7 +1205,7 @@ const C1_WORDS = [
   },
   {
     "de": "verschwenden",
-    "lv": "Trošiti",
+    "lv": "Rasipati",
     "level": "C1"
   },
   {
@@ -1275,20 +1275,20 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Rezimirati • Rezimirati",
       "explanation": [
-        "Glavna ideja: zusammenfassen je glagol - prikupiti ili organizirati informacije u jednu sažetu izjavu.",
-        "Zusammenfassen se koristi kada se nekoliko činjenica, tekstova ili misli pretvori u kratak pregled.",
-        "Ne treba brkati sa die Zusammenfassung - onaj s velikim slovom i članak die je imenica koja označava sam sažetak (rezultat, gotov tekst).",
-        "Zusammenfassen = proces/akcija (sažimanje, sažimanje) • Die Zusammenfassung = rezultat (sažetak kao imenica).",
-        "Kao i mnogi njemački glagoli, zusammenfassen može postati velika imenica i član: zusammenfassen → die Zusammenfassen (supstantivizacija)."
+        "Glavna misao: zusammenfassen je glagol — sažeti ili objediniti informacije u jednom kratkom prikazu.",
+        "Zusammenfassen se koristi kada se od više činjenica, tekstova ili misli napravi kratak pregled.",
+        "Ne miješajte s die Zusammenfassung — to je imenica s velikim početnim slovom i članom die, koja označava sam sažetak (rezultat, gotov tekst).",
+        "Zusammenfassen = proces/radnja (sažeti, rezimirati) • Die Zusammenfassung = rezultat (sažetak kao imenica).",
+        "Kao i mnogi njemački glagoli, zusammenfassen može postati imenica s velikim početnim slovom i članom: zusammenfassen → die Zusammenfassung (poimeničavanje)."
       ],
       "examples": [
         {
           "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Možete li rezimirati ovaj tekst?"
+          "lv": "Možete li sažeti ovaj tekst?"
         },
         {
           "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Sumiram najvažnije tačke."
+          "lv": "Sažimam najvažnije tačke."
         },
         {
           "de": "Er hat den Bericht kurz zusammengefasst.",
@@ -1296,7 +1296,7 @@ const C1_WORDS = [
         },
         {
           "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Sumirajući, može se reći da..."
+          "lv": "Ukratko se može reći da..."
         },
         {
           "de": "Ich schreibe eine Zusammenfassung des Buches.",
@@ -1304,17 +1304,17 @@ const C1_WORDS = [
         },
         {
           "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Sažetak je predugačak."
+          "lv": "Sažetak je predug."
         }
       ],
       "tip": [
-        "Zusammenfassen (glagol) = proces - sumirati/sažimati.",
-        "Die Zusammenfassung (imenica, veliko slovo i član die) = rezultat - sam sažetak."
+        "Zusammenfassen (glagol) = proces — sažeti/rezimirati.",
+        "Die Zusammenfassung (imenica, s velikim početnim slovom i članom die) = rezultat — sam sažetak."
       ],
       "important": [
-        "Zusammenfassen = sažimati/sažimati (glagol).",
-        "Die Zusammenfassung = sažetak (imenica, supstantivizirana od zusammenfassen).",
-        "Netačno: die zusammenfassen → Tačno: die Zusammenfassen (imenica uvijek napisana velikim slovom)."
+        "Zusammenfassen = sažeti/rezimirati (glagol).",
+        "Die Zusammenfassung = sažetak (imenica, poimeničena riječ izvedena od zusammenfassen).",
+        "Pogrešno: die zusammenfassen → Ispravno: die Zusammenfassung (imenica se uvijek piše velikim početnim slovom)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1322,8 +1322,8 @@ const C1_WORDS = [
             "zusammenfassen"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "apkopot",
+            "Rezimirati"
           ],
           "green": [
             "die Zusammenfassung"
@@ -1338,7 +1338,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Možete"
+                "Sažeti"
               ]
             }
           },
@@ -1351,7 +1351,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sumiram"
+                "Sažimam"
               ]
             }
           },
@@ -1363,7 +1363,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ukratko"
+                "Rezimirao je"
               ]
             }
           },
@@ -1375,7 +1375,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sumirajući"
+                "Sažimajući"
               ]
             }
           },
@@ -1387,7 +1387,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pišem"
+                "Sažetka"
               ]
             }
           },
@@ -1429,7 +1429,7 @@ const C1_WORDS = [
           },
           {
             "green": [
-              "die zusammenfassen"
+              "die Zusammenfassung"
             ],
             "red": [
               "die zusammenfassen"
@@ -1448,7 +1448,7 @@ const C1_WORDS = [
     "de": "Aufmerksamkeit",
     "de_article": "die",
     "de_plural": "die Aufmerksamkeiten",
-    "lv": "Pažnju",
+    "lv": "Pažnja",
     "level": "C1"
   },
   {
@@ -1462,7 +1462,7 @@ const C1_WORDS = [
     "de": "Landschaft",
     "de_article": "die",
     "de_plural": "die Landschaften",
-    "lv": "Pejzaž",
+    "lv": "Krajolik",
     "level": "C1"
   },
   {
@@ -1489,7 +1489,7 @@ const C1_WORDS = [
       "id": "c1-wahl",
       "layout": "standardStudy",
       "translation": "Izbor • Izbor",
-      "explanation": "Die Wahl može značiti izbor između opcija. U kontekstu politike, Wahl znači izbor. To može značiti i samo glasanje. Izraz eine Wahl treffen znači napraviti izbor. zur Wahl gehen znači izaći na izbore. Kontekst politike ili lične odluke pokazuje ispravno značenje.",
+      "explanation": "Die Wahl može značiti izbor između mogućnosti. U političkom kontekstu Wahl znači izbori. Može značiti i samo glasanje. Izraz eine Wahl treffen znači napraviti izbor. zur Wahl gehen znači ići na izbore. Kontekst politike ili lične odluke pokazuje pravo značenje.",
       "examples": [
         {
           "de": "Du hast die Wahl.",
@@ -1501,7 +1501,7 @@ const C1_WORDS = [
         },
         {
           "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Izbori se održavaju u nedelju."
+          "lv": "Izbori se održavaju u nedjelju."
         },
         {
           "de": "Viele Menschen gehen zur Wahl.",
@@ -1557,7 +1557,7 @@ const C1_WORDS = [
     "de": "Abteilungsleiter",
     "de_article": "der",
     "de_plural": "die Abteilungsleiter",
-    "lv": "Šef odjeljenja",
+    "lv": "Rukovodilac odjela",
     "level": "C1"
   },
   {
@@ -1595,12 +1595,12 @@ const C1_WORDS = [
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "Osnovna istraživanja",
+    "lv": "Temeljno istraživanje",
     "level": "C1"
   },
   {
     "de": "beachtenswert",
-    "lv": "Vrijedan pažnje • Značajan",
+    "lv": "Vrijedan pažnje • Vrijedan pomena",
     "level": "C1"
   },
   {
@@ -1629,7 +1629,7 @@ const C1_WORDS = [
   },
   {
     "de": "beglaubigen",
-    "lv": "Službeno ovjeriti • Notarski",
+    "lv": "Službeno potvrditi • Notarski ovjeriti",
     "level": "C1"
   },
   {
@@ -1656,7 +1656,7 @@ const C1_WORDS = [
   },
   {
     "de": "beklagen",
-    "lv": "Žaljenje • Tugovanje • Žaljenje • Jadikovanje • Žaljenje",
+    "lv": "Žaliti • Tugovati • Oplakivati • Jadati se • Žaliti se",
     "level": "C1"
   },
   {
@@ -1675,14 +1675,14 @@ const C1_WORDS = [
   },
   {
     "de": "benachteiligen",
-    "lv": "Šteta • Uzrokovati štetu • Štetu",
+    "lv": "Štetiti • Nanijeti gubitke • Povrijediti",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "Konsultant za zapošljavanje",
+    "lv": "Savjetnik za posao",
     "level": "C1"
   },
   {
@@ -1699,7 +1699,7 @@ const C1_WORDS = [
   },
   {
     "de": "bereitwillig",
-    "lv": "Spreman da služi • Uslužan",
+    "lv": "Spreman pomoći • Uslužan",
     "level": "C1"
   },
   {
@@ -1713,14 +1713,14 @@ const C1_WORDS = [
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Službena tajna",
+    "lv": "Profesionalna tajna",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Pozivanje • Sklonost • Žalba",
+    "lv": "Poziv • Težnja • Odaziv",
     "level": "C1"
   },
   {
@@ -1734,7 +1734,7 @@ const C1_WORDS = [
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "Kvalitet • Priroda • Suština",
+    "lv": "Osobina • Priroda • Suština",
     "level": "C1"
   },
   {
@@ -1756,19 +1756,19 @@ const C1_WORDS = [
   },
   {
     "de": "beschuldigen",
-    "lv": "Optužiti • Uvrediti",
+    "lv": "Optužiti • Uvrijediti",
     "level": "C1"
   },
   {
     "de": "Besonderheit",
     "de_article": "die",
     "de_plural": "die Besonderheiten",
-    "lv": "Posebnost • Neobičnost",
+    "lv": "Posebnost • Čudnovatost",
     "level": "C1"
   },
   {
     "de": "beträchtlich",
-    "lv": "Znatan • Prilično velik • Značajan",
+    "lv": "Značajan • Prilično velik • Valjan",
     "level": "C1"
   },
   {
@@ -1781,12 +1781,12 @@ const C1_WORDS = [
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "Sistem računarske instalacije",
+    "lv": "Sistem za instalaciju računara",
     "level": "C1"
   },
   {
     "de": "bevollmächtigen",
-    "lv": "Ovlastiti • Dati ovlaštenje",
+    "lv": "Ovlastiti • Dati punomoć",
     "level": "C1"
   },
   {
@@ -1803,19 +1803,19 @@ const C1_WORDS = [
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "Fizički dokazi",
+    "lv": "Materijalni dokazi",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "Primeniti • Trči • Težiti • Težiti",
+    "lv": "Pretendovati • Kandidovati se • Nastojati • Težiti",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Kontakt • Najbliža osoba",
+    "lv": "Kontaktna osoba • Najbliža osoba",
     "level": "C1"
   },
   {
@@ -1877,7 +1877,7 @@ const C1_WORDS = [
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "Krovni nosač automobila",
+    "lv": "Krovni prtljažnik",
     "level": "C1"
   },
   {
@@ -1896,7 +1896,7 @@ const C1_WORDS = [
   },
   {
     "de": "dauerhaft",
-    "lv": "Traje • Dugo • Izdržljivo",
+    "lv": "Dugotrajan • Dug • Izdržljiv",
     "level": "C1"
   },
   {
@@ -1929,14 +1929,14 @@ const C1_WORDS = [
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Kršenje imovinskih prava",
+    "lv": "Povreda prava vlasništva",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "Kršenje saobraćajnih pravila",
+    "lv": "Prekršaj saobraćajnih pravila",
     "level": "C1"
   },
   {
@@ -1960,7 +1960,7 @@ const C1_WORDS = [
     "de": "Rettungsdienst",
     "de_article": "der",
     "de_plural": "die Rettungsdienste",
-    "lv": "Spasilačka služba",
+    "lv": "Služba spašavanja",
     "level": "C1"
   },
   {
@@ -1972,7 +1972,7 @@ const C1_WORDS = [
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Predao na služenje vojnog roka",
+    "lv": "Upućen na odsluženje vojnog roka",
     "level": "C1"
   },
   {
@@ -2070,7 +2070,7 @@ const C1_WORDS = [
   },
   {
     "de": "einreden",
-    "lv": "Reći • Insistirati • Pokušati uvjeriti",
+    "lv": "Utuviti • Ubijediti • Pokušati uvjeriti",
     "level": "C1"
   },
   {
@@ -2172,31 +2172,31 @@ const C1_WORDS = [
   },
   {
     "de": "sich entschließen",
-    "lv": "Odlučiti • Odlučiti",
+    "lv": "Odlučiti • Prelomiti",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Odlučan • Odlučan • Nepokolebljiv",
+    "lv": "Određen • Odlučan • Nepokolebljiv",
     "level": "C1"
   },
   {
     "de": "entschlüsseln",
-    "lv": "Dešifrovati",
+    "lv": "Dešifrirati",
     "level": "C1"
   },
   {
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "Račun",
+    "lv": "Nacrt zakona",
     "level": "C1"
   },
   {
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Kurs tretmana za alkoholičare ili narkomane",
+    "lv": "Terapija za alkoholičare ili narkomane",
     "level": "C1"
   },
   {
@@ -2216,14 +2216,14 @@ const C1_WORDS = [
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "Operacije žetve",
+    "lv": "Radovi na žetvi",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Rezervni igrač • Rezervni igrač",
+    "lv": "Rezervista • Rezervni igrač",
     "level": "C1"
   },
   {
@@ -2359,7 +2359,7 @@ const C1_WORDS = [
     "de": "Gefäßverengung",
     "de_article": "die",
     "de_plural": "die Gefäßverengungen",
-    "lv": "Sužavanje krvnih sudova",
+    "lv": "Suženje krvnih žila",
     "level": "C1"
   },
   {
@@ -2441,7 +2441,7 @@ const C1_WORDS = [
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
       "translation": "Ponekad • Povod • Zbog",
-      "explanation": "Glavna ideja: gelegentlich je riječ sa tri funkcije. Pridjev: casual (ein gelegentlicher Besuch). Prilog: ponekad, s vremena na vrijeme (Er kommt gelegentlich). Prijedlog + dativ: zbog (gelegentlich des Festes).",
+      "explanation": "Glavna ideja: gelegentlich je riječ s tri funkcije. Pridjev: povremen, slučajan (ein gelegentlicher Besuch). Prilog: ponekad, s vremena na vrijeme (Er kommt gelegentlich). Prijedlog + dativ: povodom (gelegentlich des Festes).",
       "examples": [
         {
           "de": "Er kommt gelegentlich vorbei.",
@@ -2453,7 +2453,7 @@ const C1_WORDS = [
         },
         {
           "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Održan je govor povodom praznika."
+          "lv": "Povodom praznika održan je govor."
         }
       ],
       "comparison": [
@@ -2464,8 +2464,8 @@ const C1_WORDS = [
         },
         {
           "word": "gelegentlich (Adj.)",
-          "meaning": "Slučajan • Slučajan",
-          "example": "ein gelegentlicher Besuch = Slučajna poseta"
+          "meaning": "Povremen • Slučajan",
+          "example": "ein gelegentlicher Besuch = Povremena posjeta"
         },
         {
           "word": "gelegentlich (+ Gen.)",
@@ -2486,7 +2486,7 @@ const C1_WORDS = [
         ]
       },
       "important": {
-        "text": "Adj.: casual. Adv.: ponekad. Prep. + Gen.: zbog. Kontekst određuje značenje."
+        "text": "Pridj.: povremen. Pril.: ponekad. Prij. + gen.: povodom. Kontekst određuje značenje."
       },
       "sectionAccents": {
         "explanation": {
@@ -2494,9 +2494,9 @@ const C1_WORDS = [
             "gelegentlich"
           ],
           "purple": [
-            "Glavna",
-            "Glavna",
-            "Glavna"
+            "Ponekad",
+            "Povremen",
+            "Zbog"
           ]
         },
         "examples": [
@@ -2520,7 +2520,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dovoljna"
+                "Povremen"
               ]
             }
           },
@@ -2532,7 +2532,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Održan"
+                "Povodom"
               ]
             }
           }
@@ -2585,7 +2585,7 @@ const C1_WORDS = [
     "de": "Generalstreik",
     "de_article": "der",
     "de_plural": "die Generalstreiks",
-    "lv": "Generalni štrajk",
+    "lv": "Opći štrajk",
     "level": "C1"
   },
   {
@@ -2720,7 +2720,7 @@ const C1_WORDS = [
   },
   {
     "de": "gewissermaßen",
-    "lv": "Donekle • U određenom smislu • Da tako kažem",
+    "lv": "U određenoj mjeri • Na neki način • Takoreći",
     "level": "C1"
   },
   {
@@ -2744,7 +2744,7 @@ const C1_WORDS = [
     "de": "Grenzverletzung",
     "de_article": "die",
     "de_plural": "die Grenzverletzungen",
-    "lv": "Kršenje granice",
+    "lv": "Granični prekršaj",
     "level": "C1"
   },
   {
@@ -2776,7 +2776,7 @@ const C1_WORDS = [
   },
   {
     "de": "haften",
-    "lv": "Štap • Da se zaglavi",
+    "lv": "Zalijepiti se • Biti zalijepljen",
     "level": "C1"
   },
   {
@@ -2790,7 +2790,7 @@ const C1_WORDS = [
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Vrijeme skladištenja",
+    "lv": "Rok čuvanja",
     "level": "C1"
   },
   {
@@ -2936,7 +2936,7 @@ const C1_WORDS = [
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "Posebno teško krivično delo",
+    "lv": "Naročito teško krivično djelo",
     "level": "C1"
   },
   {
@@ -2997,19 +2997,19 @@ const C1_WORDS = [
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "Prosečan životni vek",
+    "lv": "Prosječni životni vijek",
     "level": "C1"
   },
   {
     "de": "lebensgefährlich",
-    "lv": "Opasno po život • Opasno",
+    "lv": "Životno ugrožavajući • Opasan",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Supružnik u neregistrovanom braku",
+    "lv": "Vanbračni partner",
     "level": "C1"
   },
   {
@@ -3104,19 +3104,19 @@ const C1_WORDS = [
   },
   {
     "de": "militärpflichtig",
-    "lv": "Podliježe vojnoj službi",
+    "lv": "Podložan vojnoj obavezi",
     "level": "C1"
   },
   {
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Referentna literatura • Rečnik • Enciklopedija",
+    "lv": "Referentna literatura • Rječnik • Enciklopedija",
     "level": "C1"
   },
   {
     "de": "namhaft",
-    "lv": "Poznati • Značajan",
+    "lv": "Slavan • Značajan",
     "level": "C1"
   },
   {
@@ -3205,20 +3205,20 @@ const C1_WORDS = [
     "de": "Pressevertreter",
     "de_article": "der",
     "de_plural": "die Pressevertreter",
-    "lv": "Predstavnik za štampu",
+    "lv": "Predstavnik štampe",
     "level": "C1"
   },
   {
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "Saopštenje za javnost",
+    "lv": "Saopćenje za štampu",
     "level": "C1"
   },
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "Trošak proizvodnje",
+    "lv": "Proizvodna cijena",
     "level": "C1"
   },
   {
@@ -3232,7 +3232,7 @@ const C1_WORDS = [
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Željezničko dvorište",
+    "lv": "Željeznička ranžirna stanica",
     "level": "C1"
   },
   {
@@ -3302,7 +3302,7 @@ const C1_WORDS = [
   },
   {
     "de": "republikanisch",
-    "lv": "Republičke • Republike",
+    "lv": "Republikanski • Republički",
     "level": "C1"
   },
   {
@@ -3314,7 +3314,7 @@ const C1_WORDS = [
   },
   {
     "de": "sanktionieren",
-    "lv": "Podrška • Sankcija",
+    "lv": "Podržati • Sankcionirati",
     "level": "C1"
   },
   {
@@ -3354,7 +3354,7 @@ const C1_WORDS = [
     "de": "Schwerindustrie",
     "de_article": "die",
     "de_plural": "die Schwerindustrien",
-    "lv": "Teške industrije",
+    "lv": "Teška industrija",
     "level": "C1"
   },
   {
@@ -3384,7 +3384,7 @@ const C1_WORDS = [
   },
   {
     "de": "sesshaft",
-    "lv": "Živi na jednom mjestu • Kamper",
+    "lv": "Nastanjen na jednom mjestu • Doseljenik",
     "level": "C1"
   },
   {
@@ -3426,7 +3426,7 @@ const C1_WORDS = [
     "de": "Sonnenfinsternis",
     "de_article": "die",
     "de_plural": "die Sonnenfinsternisse",
-    "lv": "Pomračenje sunca",
+    "lv": "Pomračenje Sunca",
     "level": "C1"
   },
   {
@@ -3447,7 +3447,7 @@ const C1_WORDS = [
     "de": "Staatsanwalt",
     "de_article": "der",
     "de_plural": "die Staatsanwälte",
-    "lv": "Tužilac",
+    "lv": "Prokuror",
     "level": "C1"
   },
   {
@@ -3509,19 +3509,19 @@ const C1_WORDS = [
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Višak ostaje",
+    "lv": "Višak • Ostaci",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Slažem se • Slažem se s nekim",
+    "lv": "Slagati se • Biti s nekim saglasan",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Ostatak • Višak • Likvidacija",
+    "lv": "Ostatak • Višak • Zavoj",
     "level": "C1"
   },
   {
@@ -3562,7 +3562,7 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "Otpuštanje s posla • Penzionisanje",
+    "lv": "Otpustiti s posla • Penzionisati",
     "level": "C1"
   },
   {
@@ -3572,7 +3572,7 @@ const C1_WORDS = [
   },
   {
     "de": "veranschlagen",
-    "lv": "Izračunati • Izračunati • Napraviti procjenu",
+    "lv": "Izračunati • Kalkulisati • Sastaviti predračun",
     "level": "C1"
   },
   {
@@ -3630,7 +3630,7 @@ const C1_WORDS = [
   },
   {
     "de": "verheimlichen",
-    "lv": "Sakriti • Čuvati tajnu",
+    "lv": "Skrivati • Držati u tajnosti",
     "level": "C1"
   },
   {
@@ -3662,7 +3662,7 @@ const C1_WORDS = [
   },
   {
     "de": "verklagen",
-    "lv": "Tužiti",
+    "lv": "Tužiti pred sudom",
     "level": "C1"
   },
   {
@@ -3682,17 +3682,17 @@ const C1_WORDS = [
   },
   {
     "de": "sich verschließen",
-    "lv": "Isključiti • Isključiti",
+    "lv": "Zatvoriti se • Ograditi se",
     "level": "C1"
   },
   {
     "de": "verschlossen",
-    "lv": "Zaključano • Zatvoreno • Trans. zatvoreno • Samostalno",
+    "lv": "Zaključan • Zatvoren • Pren. zatvoren • Povučen u sebe",
     "level": "C1"
   },
   {
     "de": "verschlüsseln",
-    "lv": "Za šifriranje • Za kodiranje",
+    "lv": "Šifrirati • Kodirati",
     "level": "C1"
   },
   {
@@ -3702,7 +3702,7 @@ const C1_WORDS = [
   },
   {
     "de": "verschweigen",
-    "lv": "Zadržati • Ne otkrivati",
+    "lv": "Prešutjeti • Ne odati",
     "level": "C1"
   },
   {
@@ -3748,7 +3748,7 @@ const C1_WORDS = [
   },
   {
     "de": "vervollkommnen",
-    "lv": "Dodatak • Poboljšati",
+    "lv": "Dopuniti • Poboljšati",
     "level": "C1"
   },
   {
@@ -3779,7 +3779,7 @@ const C1_WORDS = [
     "de": "Vollversammlung",
     "de_article": "die",
     "de_plural": "die Vollversammlungen",
-    "lv": "Plenum • Generalna skupština • Generalna skupština",
+    "lv": "Plenum • Plenarna skupština • Generalna skupština",
     "level": "C1"
   },
   {
@@ -3814,15 +3814,15 @@ const C1_WORDS = [
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
       "translation": "Onaj koji ima pravo glasa",
-      "explanation": "Glavna ideja: wahlberechtig je pridjev koji znači da osoba ima pravo da učestvuje na izborima – da glasa ili da se kandiduje na izborima. Kompozicija: Wahl (izbori) + behrechtig (naziv).",
+      "explanation": "Glavna ideja: wahlberechtigt je pridjev koji znači da osoba ima pravo učestvovati na izborima — glasati ili se kandidovati. Složenica: Wahl (izbori) + berechtigt (ovlašten).",
       "examples": [
         {
           "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Svi birači sa pravom glasa mogu glasati."
+          "lv": "Svi birači s pravom glasa mogu glasati."
         },
         {
           "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "Sa navršenih 18 godina imaju pravo glasa."
+          "lv": "Od navršenih 18 godina postoji biračko pravo."
         },
         {
           "de": "Nicht alle Einwohner sind wahlberechtigt.",
@@ -3837,19 +3837,19 @@ const C1_WORDS = [
         },
         {
           "word": "wählen",
-          "meaning": "Željeti • Glasati",
+          "meaning": "Birati • Glasati",
           "example": "Ich wähle heute. = Glasao sam danas."
         },
         {
           "word": "der Wähler",
-          "meaning": "Glasač",
-          "example": "Der Wähler geht zur Wahl. = Birač izlazi na birališta."
+          "meaning": "Birač",
+          "example": "Der Wähler geht zur Wahl. = Birač ide na izbore."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Wahl = izbor, behrechtig = podoban. Uobičajeno u štampi i pravnim tekstovima."
+            "text": "Wahl = izbori, berechtigt = ovlašten. Često u štampi i pravnim tekstovima."
           }
         ]
       },
@@ -3859,9 +3859,9 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "wahlberechtig",
+            "wahlberechtigt",
             "Wahl",
-            "behrechtig"
+            "berechtigt"
           ]
         },
         "examples": [
@@ -3873,7 +3873,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Svi"
+                "Biračkom pravu"
               ]
             }
           },
@@ -3885,7 +3885,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "navršenih"
+                "Pravo glasa"
               ]
             }
           },
@@ -3897,7 +3897,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nemaju"
+                "Pravo glasa"
               ]
             }
           }
@@ -3947,7 +3947,7 @@ const C1_WORDS = [
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "Civilna služba umesto vojne službe",
+    "lv": "Civilna služba umjesto vojne službe",
     "level": "C1"
   },
   {
@@ -3994,17 +3994,17 @@ const C1_WORDS = [
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "Premium • Marža",
+    "lv": "Doplata • Dodatna naknada",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "Premium • Marža",
+      "translation": "Doplata • Dodatna naknada",
       "explanation": [
-        "Glavna ideja: der Zuschlag znači premiju ili maržu—dodatni iznos koji se dodaje osnovnoj cijeni.",
-        "U kontekstu putovanja/prijevoza, der Zuschlag se dodatno naplaćuje za brži voz, bolje sjedište itd.",
-        "Ne treba se brkati sa der Anhang/die Beilage (aneks uz dokument) - to je druga riječ.",
-        "Na aukcijama, den Zuschlag erhalten znači pobijediti na aukciji/primiti narudžbu."
+        "Glavna misao: der Zuschlag znači doplatu ili dodatnu naknadu — dodatni iznos koji se dodaje osnovnoj cijeni.",
+        "U kontekstu putovanja/prijevoza der Zuschlag je dodatna naknada za brži voz, bolje mjesto i sl.",
+        "Ne miješaj s der Anhang/die Beilage (dodatak dokumentu) — to je druga riječ.",
+        "Na aukcijama den Zuschlag erhalten znači pobijediti na aukciji/dobiti narudžbu."
       ],
       "examples": [
         {
@@ -4017,11 +4017,11 @@ const C1_WORDS = [
         },
         {
           "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Primila je narudžbu (na aukciji)."
+          "lv": "Ona je dobila narudžbu (na aukciji)."
         },
         {
           "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Postoji doplata za višak prtljaga."
+          "lv": "Za višak prtljage naplaćuje se dodatna naknada."
         },
         {
           "de": "Der Preis versteht sich ohne Zuschläge.",
@@ -4030,11 +4030,11 @@ const C1_WORDS = [
       ],
       "tip": [
         "Der Zuschlag = doplata/doplata (doplata), a ne prilog dokumenta.",
-        "Den Zuschlag erhalten (na aukcijama) = pobijediti na aukciji/primiti narudžbu."
+        "Den Zuschlag erhalten (na aukcijama) = pobijediti na aukciji/dobiti narudžbu."
       ],
       "important": [
         "Der Zuschlag = doplata/pribitak, a ne 'dodatak' dokumentu.",
-        "Dodatak dokumentu na njemačkom je die Anlage/der Anhang."
+        "Dodatak dokumentu na njemačkom jeziku je die Anlage/der Anhang."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4042,8 +4042,8 @@ const C1_WORDS = [
             "der Zuschlag"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "piemaksu",
+            "uzcenojumu"
           ],
           "red": [
             "der Anhang",
@@ -4059,7 +4059,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Postoji"
+                "Doplata"
               ]
             }
           },
@@ -4083,7 +4083,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Primila"
+                "Narudžbu"
               ]
             }
           },
@@ -4095,7 +4095,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Postoji"
+                "Dodatna naknada"
               ]
             }
           },
@@ -4107,7 +4107,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Cijena"
+                "Doplatama"
               ]
             }
           }
@@ -4115,8 +4115,8 @@ const C1_WORDS = [
         "tip": [
           {
             "blue": [
-              "Der",
-              "Der"
+              "piemaksa",
+              "uzcenojums"
             ]
           },
           {
@@ -4128,11 +4128,11 @@ const C1_WORDS = [
         "important": [
           {
             "purple": [
-              "Der",
-              "Der"
+              "piemaksa",
+              "uzcenojums"
             ],
             "red": [
-              "Der"
+              "pielikums"
             ]
           },
           {
@@ -4155,7 +4155,7 @@ const C1_WORDS = [
       "translation": "Primijeniti • Primijeniti na",
       "explanation": [
         "Glavna ideja: Formalni registar: pripisivanje izvoru, redovno primanje penzije/plate ili useljenje u stan.",
-        "Primjeri traže tipičnu svakodnevnu upotrebu.",
+        "U primjerima potraži tipičnu svakodnevnu upotrebu.",
         "Kada ste u nedoumici, provjerite je li to stanje ili radnja.",
         "Kontekst i tok akcije određuju pravi izbor."
       ],
@@ -4167,16 +4167,16 @@ const C1_WORDS = [
       ],
       "tip": [
         "Formalni registar: pripisivanje izvoru, redovna primanja penzije/plate ili useljenje u stan.",
-        "Koristite beziehen / sich beziehen auf kada kontekst odgovara ovom značenju."
+        "Koristi beziehen / sich beziehen auf kada kontekst odgovara ovom značenju."
       ],
       "important": [
         "Formalni registar: pripisivanje izvoru, redovna primanja penzije/plate ili useljenje u stan.",
-        "Beziehen / sich beziehen auf: prije upotrebe provjerite kontekst i uporedite s drugim riječima na kartici."
+        "Beziehen / sich beziehen auf: prije upotrebe provjeri kontekst i uporedi s drugim riječima na kartici."
       ],
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Glavna"
+            "Odnositi"
           ]
         },
         "examples": [
@@ -4189,8 +4189,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Primijeniti",
-                "Primijeniti"
+                "Odnositi",
+                "Referirati na"
               ]
             }
           }
@@ -4198,7 +4198,7 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Formalni"
+              "Odnositi"
             ]
           },
           {}
@@ -4218,21 +4218,21 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Namjeravati • Planirati",
       "explanation": [
-        "Glavna ideja: svjesna namjera da se izvrši radnja u budućnosti. Ne o vezi, već o planu.",
-        "Beabsichtigen prvenstveno znači: svjesna namjera.",
-        "Često karakterizira: plan / namjera.",
-        "Beabsichtigen u osnovi znači: planirati akciju.",
-        "Često karakterizira: službeni registar.",
-        "Beabsichtigen znači namjerno namjeravati ili planirati akciju – ne odnos, već namjeru."
+        "Glavna misao: Svjesna namjera da se neka radnja izvrši u budućnosti. Ne odnosi se na odnos, nego na plan.",
+        "Beabsichtigen uglavnom znači: svjesna namjera.",
+        "Često opisuje: plan / namjeru.",
+        "Beabsichtigen uglavnom znači: planirati radnju.",
+        "Često opisuje: formalni registar.",
+        "Beabsichtigen znači svjesno namjeravati ili planirati radnju — ne odnos, nego namjeru."
       ],
       "examples": [
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Namjeravao je da završi projekat."
+          "lv": "On namjerava završiti projekat."
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Šta misliš pod ovim događajem?"
+          "lv": "Šta namjeravate ovim događajem?"
         },
         {
           "de": "Wir beabsichtigen keine Änderung.",
@@ -4240,11 +4240,11 @@ const C1_WORDS = [
         },
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Nameravao je da završi projekat."
+          "lv": "On namjerava završiti projekat."
         },
         {
           "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Namjeravaju nešto učiniti."
+          "lv": "Namjeravati nešto uraditi."
         }
       ],
       "tip": [
@@ -4253,9 +4253,9 @@ const C1_WORDS = [
       ],
       "important": [
         "Beabsichtigen + zu + irregularnost: Er beabsichtigt zu gehen.",
-        "Beabsichtigen se ne može zamijeniti beziehenom - to je namjera, a ne odnos.",
+        "Beabsichtigen se ne može zamijeniti s beziehen — to je namjera, a ne odnos.",
         "Beabsichtigen → namjera, plan.",
-        "Svesna namera da se izvrši radnja u budućnosti. Ne o vezi, već o planu."
+        "Svjesna namjera da se neka radnja izvrši u budućnosti. Ne odnosi se na odnos, nego na plan."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4263,8 +4263,8 @@ const C1_WORDS = [
             "beabsichtigen"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Namjeravati",
+            "Planirati"
           ]
         },
         "examples": [
@@ -4289,7 +4289,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Šta"
+                "Namjeravate"
               ]
             }
           },
@@ -4310,7 +4310,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nameravao"
+                "Namjeravao"
               ]
             }
           },
@@ -4323,7 +4323,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Namjeravaju"
+                "Namjeravati"
               ]
             }
           }
@@ -4331,12 +4331,12 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Kada"
+              "Namjeravati"
             ]
           },
           {
             "purple": [
-              "planu"
+              "Plan"
             ]
           }
         ],
@@ -4360,26 +4360,26 @@ const C1_WORDS = [
       "translation": "Krivica • Imputirati bez osnova",
       "explanation": [
         "Glavna ideja: Nerazumno pripisivati ​​krivicu, motiv ili namjeru drugome.",
-        "Unterstellen uglavnom znači: pripisati bez osnova.",
-        "Često karakteriziraju: optužba / privlačnost.",
-        "Jemandem etwas unterstellen znači nepravedno pripisati ili okriviti."
+        "Unterstellen uglavnom znači: pripisivati bez osnove.",
+        "Često opisuje: optužbu / prebacivanje.",
+        "Jemandem etwas unterstellen znači nekome nešto neosnovano pripisati ili prebaciti."
       ],
       "examples": [
         {
           "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Optužen sam za loše namjere."
+          "lv": "Prebacuju mi lošu namjeru."
         },
         {
           "de": "Unterstellen Sie mir nichts!",
-          "lv": "Nemoj mi ništa kriviti!"
+          "lv": "Ne prebacujte mi ništa!"
         },
         {
           "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Niko ne bi trebao biti nepravedno optužen za izdaju."
+          "lv": "Nikome se ne smije bez osnove pripisivati izdaja."
         },
         {
           "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Optužen je za nepovjerenje."
+          "lv": "Njemu se prebacuje nevjerstvo."
         },
         {
           "de": "unterstellen",
@@ -4391,8 +4391,8 @@ const C1_WORDS = [
         "Koristi unterstellen kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Unterstellen je emocionalno negativan - neopravdana optužba.",
-        "Netačno: Wir unterstellen Grundkenntnisse. → Ispravno: Wir setzen Grundkenntnisse voraus.",
+        "Unterstellen je emocionalno negativan — neosnovana optužba.",
+        "Pogrešno: Wir unterstellen Grundkenntnisse. → Ispravno: Wir setzen Grundkenntnisse voraus.",
         "Unterstellen → krivica, atribut."
       ],
       "sectionAccents": {
@@ -4401,11 +4401,11 @@ const C1_WORDS = [
             "unterstellen"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Prebaciti",
+            "Pripisivati bez osnove"
           ],
           "red": [
-            "Glavna"
+            "Prebaciti"
           ]
         },
         "examples": [
@@ -4417,7 +4417,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Optužen"
+                "Prebacuje"
               ]
             }
           },
@@ -4439,7 +4439,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Niko"
+                "Prebaciti"
               ]
             }
           },
@@ -4451,7 +4451,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Optužen"
+                "Prebaciti"
               ]
             }
           },
@@ -4468,7 +4468,7 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Unterstellen"
+              "Prebaciti"
             ]
           },
           {}
@@ -4492,10 +4492,10 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Uzeti kao preduslov",
       "explanation": [
-        "Glavna ideja: Pretpostaviti da je nešto već poznato ili postoji kao osnova.",
-        "Voraussetzen uglavnom znači: uzeti u obzir kao osnovu.",
-        "Često karakterizira: logička premisa.",
-        "Etwas voraussetzen znači uzeti zdravo za gotovo pretpostavku koja već postoji."
+        "Glavna misao: Smatrati da je nešto već poznato ili da postoji kao osnova.",
+        "Voraussetzen uglavnom znači: smatrati osnovom.",
+        "Često opisuje: logički preduslov.",
+        "Etwas voraussetzen znači smatrati nešto podrazumijevanim preduslovom koji već postoji."
       ],
       "examples": [
         {
@@ -4509,12 +4509,12 @@ const C1_WORDS = [
       ],
       "tip": [
         "Voraussetzen = pretpostaviti preduvjet",
-        "Koristite voraussetzen kada kontekst odgovara ovom značenju."
+        "Koristi voraussetzen kada kontekst odgovara ovom značenju."
       ],
       "important": [
         "Voraussetzen je srednji rod — prijedlog.",
         "Voraussetzen → uzeti kao osnovu.",
-        "Pretpostaviti da je nešto već poznato ili postoji kao osnova."
+        "Smatrati da je nešto već poznato ili da postoji kao osnova."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4523,7 +4523,7 @@ const C1_WORDS = [
             "voraus"
           ],
           "purple": [
-            "Glavna"
+            "Preduslov"
           ]
         },
         "examples": [
@@ -4558,15 +4558,15 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Zaštititi • Sačuvati",
       "explanation": [
-        "Glavna ideja: Zaštititi od gubitka, oštećenja ili uništenja - vrijednost, tradicija, mir.",
-        "Bewahren prvenstveno znači: zaštititi od gubitka.",
-        "Često karakteriziraju: očuvanje vrijednosti.",
-        "Bewahren znači sačuvati od oštećenja, gubitka ili promjene."
+        "Glavna misao: Zaštititi od gubitka, oštećenja ili uništenja — vrijednost, tradiciju, mir.",
+        "Bewahren uglavnom znači: zaštititi od gubitka.",
+        "Često opisuje: očuvanje vrijednosti.",
+        "Bewahren znači zaštititi od oštećenja, gubitka ili promjena."
       ],
       "examples": [
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Čuvamo tradiciju."
+          "lv": "Mi čuvamo tradiciju."
         },
         {
           "de": "Sie bewahren die Ruhe in der Krise.",
@@ -4574,20 +4574,20 @@ const C1_WORDS = [
         },
         {
           "de": "Wir bewahren die Traditionen.",
-          "lv": "Čuvamo tradiciju."
+          "lv": "Mi čuvamo tradiciju."
         },
         {
           "de": "bewahren",
-          "lv": "Zaštititi/očuvati • Aufrechterhalten"
+          "lv": "Zaštititi/sačuvati • Aufrechterhalten"
         }
       ],
       "tip": [
         "Bewahren = zaštititi",
-        "Koristite bewahren kada kontekst odgovara ovom značenju."
+        "Koristi bewahren kada kontekst odgovara ovom značenju."
       ],
       "important": [
-        "Bewahren: Wertvolles bewahren - zaštitite vrijedno.",
-        "Netočno: Wir bewahren den Frieden auf. → Ispravno: Wir erhalten den Frieden auf.",
+        "Bewahren: Wertvolles bewahren — zaštititi ono što je vrijedno.",
+        "Pogrešno: Wir bewahren den Frieden auf. → Ispravno: Wir erhalten den Frieden auf.",
         "Bewahren → zaštititi, sačuvati."
       ],
       "sectionAccents": {
@@ -4596,7 +4596,7 @@ const C1_WORDS = [
             "bewahren"
           ],
           "purple": [
-            "Glavna"
+            "Zaštititi"
           ]
         },
         "examples": [
@@ -4622,7 +4622,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "krizi"
+                "Sačuvaj"
               ]
             }
           },
@@ -4648,8 +4648,8 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zaštititi/očuvati",
-                "Zaštititi/očuvati"
+                "Zaštititi",
+                "Spasiti"
               ]
             }
           }
@@ -4657,7 +4657,7 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Bewahren"
+              "Zaštititi"
             ]
           },
           {}
@@ -4674,17 +4674,17 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Održati na snazi",
+    "lv": "Održavati na snazi",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Održati na snazi",
+      "translation": "Održavati na snazi",
       "explanation": [
         "Glavna ideja: osigurati da će stanje, poredak ili odnos nastaviti postojati.",
-        "Aufrechterhalten prvenstveno znači: osigurati nastavak.",
-        "Često karakterizira: održavanje stanja.",
-        "Aufrechterhalten znači održavati stanje, sistem ili odnos na snazi ​​– osigurati kontinuitet."
+        "Aufrechterhalten uglavnom znači: osigurati nastavak.",
+        "Često opisuje: održavanje stanja.",
+        "Aufrechterhalten znači održavati neko stanje, sistem ili odnos na snazi — osigurati nastavak."
       ],
       "examples": [
         {
@@ -4693,7 +4693,7 @@ const C1_WORDS = [
         },
         {
           "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Mora zadržati radnju na snazi."
+          "lv": "Djelovanje treba održavati na snazi."
         },
         {
           "de": "Der Staat erhält die Ordnung auf.",
@@ -4701,12 +4701,12 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Aufrechterhalten = zadržati na snazi",
-        "Koristite aufrechterhalten kada kontekst odgovara ovom značenju."
+        "Aufrechterhalten = održavati na snazi",
+        "Koristi aufrechterhalten kada kontekst odgovara ovom značenju."
       ],
       "important": [
         "Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "Aufrechterhalten → zadržati na snazi.",
+        "Aufrechterhalten → održavati na snazi.",
         "Da bi se osiguralo da će stanje, poredak ili odnos nastaviti postojati."
       ],
       "sectionAccents": {
@@ -4739,7 +4739,7 @@ const C1_WORDS = [
         "tip": [
           {
             "purple": [
-              "Aufrechterhalten"
+              "Održavati na snazi"
             ]
           }
         ],
@@ -4792,14 +4792,14 @@ const C1_WORDS = [
     "de": "Panter",
     "de_article": "der",
     "de_plural": "die Panter",
-    "lv": "Pantera",
+    "lv": "Panter",
     "level": "C1"
   },
   {
     "de": "Panther",
     "de_article": "der",
     "de_plural": "die Panther",
-    "lv": "Pantera",
+    "lv": "Panter",
     "level": "C1"
   }
 ];
