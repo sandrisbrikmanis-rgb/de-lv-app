@@ -31,15 +31,21 @@ function createStats() {
   return {
     model: DEFAULT_MODEL,
     requestCount: 0,
+    initialBatchRequests: 0,
+    retryRequests: 0,
     batchCount: 0,
     batchSizes: [],
     uniqueStringCount: 0,
     translatedStringCount: 0,
     cacheHits: 0,
+    crossLevelCacheHits: 0,
+    dedupSaved: 0,
     retryCount: 0,
+    retryReasons: {},
     inputTokens: 0,
     cachedInputTokens: 0,
     outputTokens: 0,
+    reasoningTokens: 0,
     totalTokens: 0,
   };
 }
@@ -56,6 +62,7 @@ function addUsage(stats, usage) {
   stats.outputTokens += usage.output_tokens || 0;
   stats.totalTokens += usage.total_tokens || 0;
   stats.cachedInputTokens += usage.input_tokens_details?.cached_tokens || 0;
+  stats.reasoningTokens += usage.output_tokens_details?.reasoning_tokens || 0;
 }
 
 function parseBatchResponse(raw, expectedIds) {
@@ -94,6 +101,7 @@ async function translateItemsBatch(options) {
     model = DEFAULT_MODEL,
     stats = null,
     batchLabel = "",
+    isRetry = false,
   } = options;
 
   if (!Array.isArray(items) || items.length === 0) {
@@ -128,6 +136,8 @@ async function translateItemsBatch(options) {
 
   if (stats) {
     stats.requestCount += 1;
+    if (isRetry) stats.retryRequests += 1;
+    else stats.initialBatchRequests += 1;
     stats.batchCount += 1;
     stats.batchSizes.push(items.length);
     stats.translatedStringCount += items.length;
