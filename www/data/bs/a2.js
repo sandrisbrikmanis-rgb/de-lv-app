@@ -65081,7 +65081,7 @@ const A2_WORDS = [
               "blue": "Wagen"
             },
             "lv": {
-              "purple": "Automobil"
+              "purple": "autom"
             }
           },
           {
