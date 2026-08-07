@@ -61,6 +61,8 @@ scripts/.bs-a2-openai-translation-cache.json
 scripts/.bs-a1-quality-fix-report.json
 scripts/.bs-c1-openai-translation-cache.json
 scripts/.bs-c1-openai-stats.json
+scripts/.bs-b1-openai-translation-cache.json
+scripts/.bs-b1-openai-stats.json
 scripts/.bs-ui-translation-cache.json
 scripts/.sr-translation-cache.json
 scripts/.sr-ui-translation-cache.json
