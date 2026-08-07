@@ -153,7 +153,17 @@ Visi 6 WARNING gadījumi ir **CORRECTLY REMOVED**. Pēc akcentu izņemšanas:
 | **sectionAccents TECHNICAL** | PASS |
 | **sectionAccents PEDAGOGICAL** | **PASS** |
 | **PRODUCTION READY** | **JĀ** |
-| **FINAL – OWNER ACCEPTED** | **NĒ** (native speaker pārbaude nav veikta) |
+| **FINAL – OWNER ACCEPTED** | **JĀ** |
+
+### Īpašnieka apstiprinājums
+
+| Lauks | Vērtība |
+|---|---|
+| **Apstiprinājis** | Sandris Brikmanis |
+| **Datums** | 2026-08-07 |
+| **Piezīme** | BS–DE A1 ir izgājis pilnu tulkošanas, strukturālo, lingvistisko, sectionAccents tehnisko un pedagoģisko auditu. Fails tiek pieņemts kā projekta etalons turpmākajiem līmeņiem. |
+
+Pilns apstiprinājuma ieraksts: `reports/bs-a1-owner-acceptance.md`
 
 ---
 
