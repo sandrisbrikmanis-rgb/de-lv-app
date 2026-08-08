@@ -1,0 +1,87 @@
+{
+  "SOURCE_LV_ISSUE": [
+    {
+      "findingId": "e9397ef8a1ad",
+      "cardId": "b2-Affäre-76",
+      "field": "lv",
+      "currentText": "Afera • Roman",
+      "shortReason": "BS vjerno prati LV romāns; problem je što LV prijevod nije odgovarajuće drugo značenje njemačke leme."
+    },
+    {
+      "findingId": "b253c58f9c16",
+      "cardId": "b2-Getriebe-968",
+      "field": "lv",
+      "currentText": "Motor",
+      "shortReason": "Latvijski izvor glasi motor, ali njemački Getriebe znači mjenjač ili prijenos."
+    },
+    {
+      "findingId": "e1510fd26112",
+      "cardId": "b2-Schwarm-1612",
+      "field": "lv",
+      "currentText": "Strast • Zanos",
+      "shortReason": "BS prati navedeni LV, ali LV ne prenosi osnovno značenje Schwarm: roj ili jato."
+    },
+    {
+      "findingId": "18de36c89e79",
+      "cardId": "b2-Sprechanlage-1677",
+      "field": "lv",
+      "currentText": "Interfonski sistem kod kuće",
+      "shortReason": "Bosanski prijevod odgovara latvijskom unosu, ali latvijski nepotrebno sužava opći pojam na kuću."
+    }
+  ],
+  "DE_SOURCE_ISSUE": [
+    {
+      "findingId": "923c19e4be68",
+      "cardId": "b2-Erachten-660",
+      "field": "lv",
+      "currentText": "Misli • Uvid",
+      "shortReason": "„Erachten“ je vjerovatno neispravan ili nepotpun njemački izvorni unos; trenutni prevodi su prihvatljivi."
+    }
+  ],
+  "NEEDS_REVIEW": [
+    {
+      "findingId": "45ada220384f",
+      "cardId": "b2-austragen-112",
+      "field": "lv",
+      "currentText": "Nositi • Dostaviti • Pobijediti",
+      "shortReason": "Nalaz prepoznaje problem s trećim značenjem, ali predloženo Izložiti ne odgovara jasno njemačkom austragen."
+    },
+    {
+      "findingId": "ecf403079d1d",
+      "cardId": "b2-überfallen-1764",
+      "field": "lv",
+      "currentText": "Da napadne iznenada",
+      "shortReason": "Missing from Luna batch response"
+    }
+  ],
+  "STALE_AFTER_AUDIT": [
+    {
+      "findingId": "9d4c285e48d5",
+      "cardId": "b2-Durchreise-482",
+      "field": "lv",
+      "currentText": "Vidjeti kroz • Otkriti",
+      "shortReason": "Current BS text differs from audited snapshot"
+    },
+    {
+      "findingId": "2975abc04e01",
+      "cardId": "b2-exportieren-741",
+      "field": "lv",
+      "currentText": "Izvoz • Izvoziti",
+      "shortReason": "Current BS text differs from audited snapshot"
+    },
+    {
+      "findingId": "a7154987267f",
+      "cardId": "b2-sich-erweisen",
+      "field": "study.explanation",
+      "currentText": "Sich erweisen zahtijeva definitivni prijedlog über + what?.",
+      "shortReason": "Current BS text differs from audited snapshot"
+    },
+    {
+      "findingId": "612eff7a79bc",
+      "cardId": "b2-hochwasser",
+      "field": "study.comparison[1].meaning",
+      "currentText": "Ponovo izdati",
+      "shortReason": "Current BS text differs from audited snapshot"
+    }
+  ]
+}
