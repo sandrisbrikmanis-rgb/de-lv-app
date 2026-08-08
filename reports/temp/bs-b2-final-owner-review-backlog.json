@@ -1,8 +1,9 @@
 {
   "generatedAt": "2026-08-08T12:25:58.612Z",
-  "status": "RESOLVED",
+  "status": "FINAL_OWNER_ACCEPTED",
   "automatedQualityCycle": "CLOSED",
-  "ownerAccepted": false,
+  "ownerAccepted": true,
+  "ownerAcceptedAt": "2026-08-08T12:45:00.000Z",
   "openAiRequests": 0,
   "b2DataFilesChanged": 0,
   "sourcesChecked": [
