@@ -15,12 +15,12 @@ const C2_WORDS = [
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Razumnost",
+    "lv": "Utemeljenost",
     "level": "C2"
   },
   {
     "de": "unmissverständlich",
-    "lv": "Nepogrešivo",
+    "lv": "Nedvosmislen",
     "level": "C2"
   },
   {
@@ -32,7 +32,7 @@ const C2_WORDS = [
   },
   {
     "de": "veranschaulichen",
-    "lv": "Pokazati dokazivo",
+    "lv": "Zorno prikazati",
     "level": "C2"
   },
   {
@@ -45,7 +45,7 @@ const C2_WORDS = [
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "Dužnost brige",
+    "lv": "Dužnost pažnje",
     "level": "C2"
   },
   {
@@ -80,17 +80,17 @@ const C2_WORDS = [
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Člansku kartu",
+    "lv": "Iskaznica učesnika",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "Na baterije",
+    "lv": "Na baterijski pogon",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Monitor",
+    "lv": "Nadzirati",
     "level": "C2"
   },
   {
@@ -104,7 +104,7 @@ const C2_WORDS = [
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Lekarska ordinacija",
+    "lv": "Ordinacija",
     "level": "C2"
   },
   {
@@ -121,21 +121,21 @@ const C2_WORDS = [
   },
   {
     "de": "benachrichtigen",
-    "lv": "Najaviti",
+    "lv": "Obavijestiti",
     "level": "C2"
   },
   {
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "Kupon za benzin",
+    "lv": "Bon za benzin",
     "level": "C2"
   },
   {
     "de": "Benzinkanister",
     "de_article": "der",
     "de_plural": "die Benzinkanister",
-    "lv": "Kanta za benzin",
+    "lv": "Kanister za benzin",
     "level": "C2"
   },
   {
@@ -168,32 +168,32 @@ const C2_WORDS = [
     "de": "Tintenstrahldrucker",
     "de_article": "der",
     "de_plural": "die Tintenstrahldrucker",
-    "lv": "Inkjet štampač",
+    "lv": "Štampač s tintom",
     "level": "C2"
   },
   {
     "de": "Gewichtseinheit",
     "de_article": "die",
     "de_plural": "die Gewichtseinheiten",
-    "lv": "Jedinicu težine",
+    "lv": "Jedinica za mjerenje težine",
     "level": "C2",
     "study": {
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
-      "translation": "Jedinicu težine",
-      "explanation": "Glavna ideja: die Gewichtseinheit znači jedinica težine. Koristi se kada se govori o kilogramima, gramima, tonama i drugim jedinicama težine/mase.",
+      "translation": "Jedinica za mjerenje težine",
+      "explanation": "Glavna ideja: die Gewichtseinheit znači jedinica za mjerenje težine. Koristi se kada se govori o kilogramima, gramima, tonama i drugim jedinicama težine/mase.",
       "examples": [
         {
           "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "Kilogram je jedinica težine."
+          "lv": "Kilogram je jedinica za mjerenje težine."
         },
         {
           "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Koju jedinicu težine da koristim?"
+          "lv": "Koju jedinicu za mjerenje težine trebam koristiti?"
         },
         {
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Gram i tona su jedinice težine."
+          "lv": "Gram i tona su jedinice za mjerenje težine."
         }
       ]
     }
@@ -206,7 +206,7 @@ const C2_WORDS = [
   },
   {
     "de": "entgegenkommen",
-    "lv": "Naići",
+    "lv": "Izaći u susret",
     "level": "C2"
   },
   {
@@ -220,7 +220,7 @@ const C2_WORDS = [
     "de": "Geburtsurkunde",
     "de_article": "die",
     "de_plural": "die Geburtsurkunden",
-    "lv": "Izvod iz matične knjige rođenih",
+    "lv": "Rodni list",
     "level": "C2"
   },
   {
@@ -248,14 +248,14 @@ const C2_WORDS = [
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "Ostava za prtljag",
+    "lv": "Prostorija za čuvanje prtljaga",
     "level": "C2"
   },
   {
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "Menadžer kompanije",
+    "lv": "Direktor kompanije",
     "level": "C2"
   },
   {
@@ -269,14 +269,14 @@ const C2_WORDS = [
     "de": "Geschenkgutschein",
     "de_article": "der",
     "de_plural": "die Geschenkgutscheine",
-    "lv": "Poklon kartica",
+    "lv": "Poklon-bon",
     "level": "C2"
   },
   {
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "Pakovanje poklona",
+    "lv": "Omot za poklon",
     "level": "C2"
   },
   {
@@ -297,7 +297,7 @@ const C2_WORDS = [
     "de": "Streichinstrument",
     "de_article": "das",
     "de_plural": "die Streichinstrumente",
-    "lv": "Gudački instrument",
+    "lv": "Žičani instrument",
     "level": "C2"
   },
   {
@@ -310,14 +310,14 @@ const C2_WORDS = [
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "Služba u slučaju katastrofe",
+    "lv": "Služba za katastrofe",
     "level": "C2"
   },
   {
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "Nadoknadu troškova",
+    "lv": "Nadoknada troškova",
     "level": "C2"
   },
   {
@@ -359,21 +359,21 @@ const C2_WORDS = [
     "de": "Luftverschmutzung",
     "de_article": "die",
     "de_plural": "die Luftverschmutzungen",
-    "lv": "Zagađenje vazduha",
+    "lv": "Zagađenje zraka",
     "level": "C2"
   },
   {
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Rak pluća",
+    "lv": "Upala pluća",
     "level": "C2"
   },
   {
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "Maglenka za automobile",
+    "lv": "Svjetlo za maglu na automobilima",
     "level": "C2"
   },
   {
@@ -394,14 +394,14 @@ const C2_WORDS = [
     "de": "Reparaturwerkstatt",
     "de_article": "die",
     "de_plural": "die Reparaturwerkstätten",
-    "lv": "Servisna radionica",
+    "lv": "Radionica za popravke",
     "level": "C2"
   },
   {
     "de": "Rundfunkempfänger",
     "de_article": "der",
     "de_plural": "die Rundfunkempfänger",
-    "lv": "Radio prijemnik",
+    "lv": "Radio-prijemnik",
     "level": "C2"
   },
   {
@@ -415,7 +415,7 @@ const C2_WORDS = [
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Nagib sanjki",
+    "lv": "Kliznica saonica",
     "level": "C2"
   },
   {
@@ -460,14 +460,14 @@ const C2_WORDS = [
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "Putni nadvožnjak",
+    "lv": "Nadvožnjak",
     "level": "C2"
   },
   {
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Pešački tunel",
+    "lv": "Pješački tunel",
     "level": "C2"
   },
   {
@@ -479,7 +479,7 @@ const C2_WORDS = [
     "de": "Verkehrsunfall",
     "de_article": "der",
     "de_plural": "die Verkehrsunfälle",
-    "lv": "Saobraćajne nezgode",
+    "lv": "Saobraćajna nesreća",
     "level": "C2"
   },
   {
@@ -501,7 +501,7 @@ const C2_WORDS = [
     "de": "Vorstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Vorstellungsgespräche",
-    "lv": "Intervju za posao",
+    "lv": "Razgovor za posao",
     "level": "C2"
   },
   {
@@ -522,14 +522,14 @@ const C2_WORDS = [
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "Istaknuto mjesto",
+    "lv": "Znamenito mjesto",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "Priča o aferi",
+    "lv": "Avanturistička priča",
     "level": "C2"
   },
   {
@@ -543,28 +543,28 @@ const C2_WORDS = [
     "de": "Aufenthaltsgenehmigung",
     "de_article": "die",
     "de_plural": "die Aufenthaltsgenehmigungen",
-    "lv": "Boravišna dozvola",
+    "lv": "Dozvola boravka",
     "level": "C2"
   },
   {
     "de": "Gedankenaustausch",
     "de_article": "der",
     "de_plural": "die Gedankenaustausche",
-    "lv": "Razmjena ideja",
+    "lv": "Razmjena mišljenja",
     "level": "C2"
   },
   {
     "de": "Behindertenausweis",
     "de_article": "der",
     "de_plural": "die Behindertenausweise",
-    "lv": "Invalidska potvrda",
+    "lv": "Invalidska iskaznica",
     "level": "C2"
   },
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "Stambena zadruga",
+    "lv": "Stambena građevinska zadruga",
     "level": "C2"
   },
   {
@@ -578,21 +578,21 @@ const C2_WORDS = [
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Naknada za školarinu",
+    "lv": "Naknada za školovanje",
     "level": "C2"
   },
   {
     "de": "Unternehmensberater",
     "de_article": "der",
     "de_plural": "die Unternehmensberater",
-    "lv": "Konsultant kompanije",
+    "lv": "Savjetnik preduzeća",
     "level": "C2"
   },
   {
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Reporter • Reporter • Reporter • Reporter",
+    "lv": "Referent • Izvjestilac • Korespondent • Reporter",
     "level": "C2"
   },
   {
@@ -627,7 +627,7 @@ const C2_WORDS = [
     "de": "Bildberichterstatter",
     "de_article": "der",
     "de_plural": "die Bildberichterstatter",
-    "lv": "Foto dopisnik",
+    "lv": "Fotokorespondent",
     "level": "C2"
   },
   {
@@ -648,41 +648,41 @@ const C2_WORDS = [
     "de": "Bluttransfusion",
     "de_article": "die",
     "de_plural": "die Bluttransfusionen",
-    "lv": "Transfuziju krvi",
+    "lv": "Transfuzija krvi",
     "level": "C2"
   },
   {
     "de": "Computersimulation",
     "de_article": "die",
     "de_plural": "die Computersimulationen",
-    "lv": "Kompjuterska simulacija",
+    "lv": "Računarska simulacija",
     "level": "C2"
   },
   {
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "Informatika • Informatika",
+    "lv": "Računarske nauke • Informatika",
     "level": "C2"
   },
   {
     "de": "Informationsdefizit",
     "de_article": "das",
-    "lv": "Informacioni deficit",
+    "lv": "Nedostatak informacija",
     "level": "C2"
   },
   {
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "Kršenje moralnih standarda",
+    "lv": "Kršenje moralnih normi",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "Odjel za narkotike",
+    "lv": "Odjel za borbu protiv narkotika",
     "level": "C2"
   },
   {
@@ -703,40 +703,40 @@ const C2_WORDS = [
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
     "de_plural": "die Durchfuhrerlaubnisse",
-    "lv": "Tranzitna dozvola",
+    "lv": "Dozvola za prolaz",
     "level": "C2"
   },
   {
     "de": "durchkreuzen",
-    "lv": "Precrtati • Ukrstiti • Ukrstiti • Poremetiti",
+    "lv": "Precrtati • Prekrižiti • Preći • Rastaviti",
     "level": "C2"
   },
   {
     "de": "Durchschnittsalter",
     "de_article": "das",
     "de_plural": "die Durchschnittsalter",
-    "lv": "Prosečne starosti",
+    "lv": "Prosječna starost",
     "level": "C2"
   },
   {
     "de": "Durchschnittsverdienst",
     "de_article": "der",
     "de_plural": "die Durchschnittsverdienste",
-    "lv": "Prosječne zarade",
+    "lv": "Prosječna zarada",
     "level": "C2"
   },
   {
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Prosječne performanse • Prosječne performanse",
+    "lv": "Osrednji učinak • Prosječan učinak",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "Prosjecna osoba",
+    "lv": "Prosječan čovjek",
     "level": "C2"
   },
   {
@@ -750,14 +750,14 @@ const C2_WORDS = [
     "de": "Einstellungsgespräch",
     "de_article": "das",
     "de_plural": "die Einstellungsgespräche",
-    "lv": "Intervju za posao",
+    "lv": "Razgovor za posao",
     "level": "C2"
   },
   {
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Pisana preporuka",
+    "lv": "Pismena preporuka",
     "level": "C2"
   },
   {
@@ -769,35 +769,35 @@ const C2_WORDS = [
   },
   {
     "de": "entgegengesetzt",
-    "lv": "Suprotno",
+    "lv": "Suprotan",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Sigurnost • Odlučnost • Neupitnost",
+    "lv": "Sigurnost • Odlučnost • Nepokolebljivost",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "Zemljište za razvoj",
+    "lv": "Zemlja u razvoju",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "Švedski sto",
+    "lv": "Bife",
     "level": "C2"
   },
   {
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "Saopštenje vlade",
+    "lv": "Saopćenje vlade",
     "level": "C2"
   },
   {
@@ -817,14 +817,14 @@ const C2_WORDS = [
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "Padobranstvo",
+    "lv": "Skakanje padobranom",
     "level": "C2"
   },
   {
     "de": "Friedensbedingungen",
     "de_article": "die",
     "de_plural": "die Friedensbedingungen",
-    "lv": "Mirovnim uslovima",
+    "lv": "Uslovi mira",
     "level": "C2"
   },
   {
@@ -838,21 +838,21 @@ const C2_WORDS = [
     "de": "Führereigenschaften",
     "de_article": "die",
     "de_plural": "die Führereigenschaften",
-    "lv": "Liderske kvalitete",
+    "lv": "Osobine lidera",
     "level": "C2"
   },
   {
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "Liderska ličnost",
+    "lv": "Ličnost lidera",
     "level": "C2"
   },
   {
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "Svetsko prvenstvo u fudbalu",
+    "lv": "Svjetsko prvenstvo u fudbalu",
     "level": "C2"
   },
   {
@@ -873,14 +873,14 @@ const C2_WORDS = [
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "Oštećenje pamćenja",
+    "lv": "Poremećaji pamćenja",
     "level": "C2"
   },
   {
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "Upravnik zatvora",
+    "lv": "Zatvorski čuvar",
     "level": "C2"
   },
   {
@@ -894,13 +894,13 @@ const C2_WORDS = [
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "Proširenje krvnih sudova",
+    "lv": "Širenje krvnih sudova",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Domišljatost",
+    "lv": "Snalažljivost",
     "level": "C2"
   },
   {
@@ -933,7 +933,7 @@ const C2_WORDS = [
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "Seljani",
+    "lv": "Stanovnici sela",
     "level": "C2"
   },
   {
@@ -947,14 +947,14 @@ const C2_WORDS = [
     "de": "Generalreparatur",
     "de_article": "die",
     "de_plural": "die Generalreparaturen",
-    "lv": "Remont",
+    "lv": "Generalni remont",
     "level": "C2"
   },
   {
     "de": "Generalversammlung",
     "de_article": "die",
     "de_plural": "die Generalversammlungen",
-    "lv": "Generalna skupština",
+    "lv": "Opća skupština",
     "level": "C2"
   },
   {
@@ -975,7 +975,7 @@ const C2_WORDS = [
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Arbitraža",
+    "lv": "Arbitražni sud",
     "level": "C2"
   },
   {
@@ -989,13 +989,13 @@ const C2_WORDS = [
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Regulativa • Propisi",
+    "lv": "Pravilnik • Poslovnik",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "Snošaj",
+    "lv": "Spolni odnos",
     "level": "C2"
   },
   {
@@ -1016,47 +1016,47 @@ const C2_WORDS = [
     "de": "Geschwindigkeitsmessung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsmessungen",
-    "lv": "Merenje brzine",
+    "lv": "Mjerenje brzine",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Nepoštovanje • Kršenje propisane brzine",
+    "lv": "Nepoštivanje određene brzine • Prekoračenje",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": " • Javna društva",
+    "lv": "Društveni • Javni",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Javni objekat",
+    "lv": "Društveno uređenje",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "Račun",
+    "lv": "Zakonski prijedlog",
     "level": "C2"
   },
   {
     "de": "gesetzgebende Gewalt",
     "de_article": "die",
     "de_plural": "die gesetzgebenden Gewalten",
-    "lv": "Zakonodavnu vlast",
+    "lv": "Zakonodavna vlast",
     "level": "C2"
   },
   {
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "Sindikalne članarine",
+    "lv": "Članarina sindikata",
     "level": "C2"
   },
   {
@@ -1070,7 +1070,7 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Isplata dobitaka na lutriji",
+    "lv": "Isplata dobitka na lutriji",
     "level": "C2"
   },
   {
@@ -1084,14 +1084,14 @@ const C2_WORDS = [
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Jednakost",
+    "lv": "Ravnopravnost",
     "level": "C2"
   },
   {
     "de": "Grundnahrungsmittel",
     "de_article": "das",
     "de_plural": "die Grundnahrungsmittel",
-    "lv": "Osnovna hrana",
+    "lv": "Osnovna prehrambena namirnica",
     "level": "C2"
   },
   {
@@ -1105,7 +1105,7 @@ const C2_WORDS = [
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Članovi porodice • Stanari kuće",
+    "lv": "Članovi porodice • Ukućani",
     "level": "C2"
   },
   {
@@ -1126,21 +1126,21 @@ const C2_WORDS = [
     "de": "Hinterlassenschaft",
     "de_article": "die",
     "de_plural": "die Hinterlassenschaften",
-    "lv": "Nasleđe",
+    "lv": "Nasljedstvo",
     "level": "C2"
   },
   {
     "de": "Kabinettsbeschluss",
     "de_article": "der",
     "de_plural": "die Kabinettsbeschlüsse",
-    "lv": "Odluka kabineta",
+    "lv": "Odluka vlade",
     "level": "C2"
   },
   {
     "de": "Kabinettsmitglied",
     "de_article": "das",
     "de_plural": "die Kabinettsmitglieder",
-    "lv": "Član kabineta • Ministar",
+    "lv": "Član vlade • Ministar",
     "level": "C2"
   },
   {
@@ -1154,28 +1154,28 @@ const C2_WORDS = [
     "de": "Koalitionsregierung",
     "de_article": "die",
     "de_plural": "die Koalitionsregierungen",
-    "lv": "Koalicione vlade",
+    "lv": "Koaliciona vlada",
     "level": "C2"
   },
   {
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "Naknada za ratne gubitke • Reparacije",
+    "lv": "Naknada štete za ratne gubitke • Reparacije",
     "level": "C2"
   },
   {
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "Nagon života",
+    "lv": "Nagon za životom",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": " • Troškovi sredstava za život",
+    "lv": "Sredstva za život • Troškovi",
     "level": "C2"
   },
   {
@@ -1189,40 +1189,40 @@ const C2_WORDS = [
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "Radni kapacitet • Produktivnost • Kapacitet",
+    "lv": "Radna sposobnost • Produktivnost • Kapacitet",
     "level": "C2"
   },
   {
     "de": "Mannschaftskampf",
     "de_article": "der",
     "de_plural": "die Mannschaftskämpfe",
-    "lv": "Ekipno takmičenje",
+    "lv": "Takmičenje ekipa",
     "level": "C2"
   },
   {
     "de": "Marktwirtschaft",
     "de_article": "die",
     "de_plural": "die Marktwirtschaften",
-    "lv": "Tržišnu ekonomiju",
+    "lv": "Tržišna ekonomija",
     "level": "C2"
   },
   {
     "de": "Meinungsverschiedenheiten",
     "de_article": "die",
     "de_plural": "die Meinungsverschiedenheiten",
-    "lv": "Neslaganja",
+    "lv": "Nesuglasice",
     "level": "C2"
   },
   {
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Master race",
+    "lv": "Prvenstvo",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Human • Human",
+    "lv": "Human • Čovječan",
     "level": "C2"
   },
   {
@@ -1243,7 +1243,7 @@ const C2_WORDS = [
     "de": "Nebenbeschäftigung",
     "de_article": "die",
     "de_plural": "die Nebenbeschäftigungen",
-    "lv": "Sporedni posao",
+    "lv": "Dodatni posao",
     "level": "C2"
   },
   {
@@ -1257,7 +1257,7 @@ const C2_WORDS = [
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "Član parlamenta • Parlamentarac",
+    "lv": "Parlamentarni zastupnik • Parlamentarac",
     "level": "C2"
   },
   {
@@ -1275,19 +1275,19 @@ const C2_WORDS = [
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Popularna nauka",
+    "lv": "Popularno-naučni",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Konkurencija",
+    "lv": "Konkurs",
     "level": "C2"
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "Desničarski ekstremista",
+    "lv": "Desnoekstremistički",
     "level": "C2"
   },
   {
@@ -1301,14 +1301,14 @@ const C2_WORDS = [
     "de": "Scheidungsprozess",
     "de_article": "der",
     "de_plural": "die Scheidungsprozesse",
-    "lv": "Brakorazvodni postupak",
+    "lv": "Brakorazvodna parnica",
     "level": "C2"
   },
   {
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Žalbu",
+    "lv": "Žalba",
     "level": "C2"
   },
   {
@@ -1322,7 +1322,7 @@ const C2_WORDS = [
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "Pravo na samoopredeljenje",
+    "lv": "Pravo na samoopredjeljenje",
     "level": "C2"
   },
   {
@@ -1343,47 +1343,47 @@ const C2_WORDS = [
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Državnosti",
+    "lv": "Državljanstvo",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Poreske olakšice",
+    "lv": "Porezne olakšice",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Jur krivični zakon",
+    "lv": "Krivični zakonik",
     "level": "C2"
   },
   {
     "de": "Tochtergesellschaft",
     "de_article": "die",
     "de_plural": "die Tochtergesellschaften",
-    "lv": "Podružnica",
+    "lv": "Kćerinska kompanija",
     "level": "C2"
   },
   {
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "Tužba za utvrđivanje očinstva",
+    "lv": "Tužba sudu za utvrđivanje očinstva",
     "level": "C2"
   },
   {
     "de": "verallgemeinern",
-    "lv": "Generalizovati",
+    "lv": "Uopštiti",
     "level": "C2"
   },
   {
     "de": "Verhütungsmittel",
     "de_article": "das",
     "de_plural": "die Verhütungsmittel",
-    "lv": "Kontracepcija",
+    "lv": "Kontracepcijsko sredstvo",
     "level": "C2"
   },
   {
@@ -1414,58 +1414,58 @@ const C2_WORDS = [
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "Za dobro • Za dobro",
+    "lv": "U korist • U prilog",
     "level": "C2"
   },
   {
     "de": "imstande",
-    "lv": "U stanju",
+    "lv": "Sposoban",
     "level": "C2"
   },
   {
     "de": "im Stande",
-    "lv": "U stanju",
+    "lv": "Sposoban",
     "level": "C2"
   },
   {
     "de": "instand",
-    "lv": "Po redu",
+    "lv": "U redu",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "Po redu",
+    "lv": "U redu",
     "level": "C2"
   },
   {
     "de": "inwiefern",
-    "lv": "U kojoj meri",
+    "lv": "U kojoj mjeri",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "U kojoj meri",
+    "lv": "U kojoj mjeri",
     "level": "C2"
   },
   {
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Kolica",
+    "lv": "Tačke",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Kolica",
+    "lv": "Tačke",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "Ratni vojni invalid",
+    "lv": "Ratni invalid",
     "level": "C2"
   },
   {
@@ -1479,7 +1479,7 @@ const C2_WORDS = [
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Stručan • Stručnjak",
+    "lv": "Stručnjak • Ekspert",
     "level": "C2"
   }
 ];
