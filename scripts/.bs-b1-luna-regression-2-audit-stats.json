@@ -1,0 +1,42 @@
+{
+  "model": "gpt-5.6-luna",
+  "requestCount": 3,
+  "initialBatchRequests": 3,
+  "retryRequests": 0,
+  "batchCount": 3,
+  "batchSizes": [
+    4,
+    16,
+    16
+  ],
+  "retryCount": 0,
+  "retryReasons": {},
+  "inputTokens": 24549,
+  "cachedInputTokens": 0,
+  "outputTokens": 4979,
+  "reasoningTokens": 3609,
+  "totalTokens": 29528,
+  "findingsCount": 25,
+  "okCount": 0,
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 3,
+    "MEDIUM": 20,
+    "WARNING": 0,
+    "SOURCE/LV ISSUE": 2
+  },
+  "targetCards": 36,
+  "simpleCards": 4,
+  "studyCards": 32,
+  "completedAt": "2026-08-08T09:04:52.626Z",
+  "hashBefore": {
+    "data": "f3f3aac8a201d318f0e66c18d6258e88",
+    "www": "f3f3aac8a201d318f0e66c18d6258e88",
+    "at": "2026-08-08T09:04:13.802Z"
+  },
+  "hashAfter": {
+    "data": "f3f3aac8a201d318f0e66c18d6258e88",
+    "www": "f3f3aac8a201d318f0e66c18d6258e88"
+  },
+  "dataUnchanged": true
+}

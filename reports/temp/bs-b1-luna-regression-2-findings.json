@@ -1,0 +1,227 @@
+[
+  {
+    "cardId": "b1-Kabelkanal-1440",
+    "field": "lv",
+    "severity": "SOURCE/LV ISSUE",
+    "existingBsText": "",
+    "problem": "LV izvilkums nozīmē kabeļtelevīzijas kanālu, nevis kabeļu kanālu.",
+    "recommendedFix": "",
+    "justification": "LV izvilkums nozīmē kabeļtelevīzijas kanālu, nevis kabeļu kanālu."
+  },
+  {
+    "cardId": "b1-aufführen",
+    "field": "study.examples[2].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Uključite“ znači uključiti, a ne navesti/listati troškove.",
+    "recommendedFix": "",
+    "justification": "„Uključite“ znači uključiti, a ne navesti/listati troškove."
+  },
+  {
+    "cardId": "b1-bemerken",
+    "field": "study.examples[2].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Piezīmēja“ znači napomenuo, ne primijetio.",
+    "recommendedFix": "",
+    "justification": "„Piezīmēja“ znači napomenuo, ne primijetio."
+  },
+  {
+    "cardId": "b1-block",
+    "field": "study.explanation.bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Notepad“ nije bosanska riječ u ovoj B1 kartici.",
+    "recommendedFix": "",
+    "justification": "„Notepad“ nije bosanska riječ u ovoj B1 kartici."
+  },
+  {
+    "cardId": "b1-block",
+    "field": "study.examples[2].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Blok leda“ je neprirodno; izvor govori o komadu leda.",
+    "recommendedFix": "",
+    "justification": "„Blok leda“ je neprirodno; izvor govori o komadu leda."
+  },
+  {
+    "cardId": "b1-block",
+    "field": "study.tip.leftBlocks[0].text",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Materijalni smisao Block nije preveden kao kloc/komad.",
+    "recommendedFix": "",
+    "justification": "Materijalni smisao Block nije preveden kao kloc/komad."
+  },
+  {
+    "cardId": "b1-enthalten",
+    "field": "study.explanation.bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Glagol „sadržavati“ je nepotrebno ponovljen umjesto „uključivati“.",
+    "recommendedFix": "",
+    "justification": "Glagol „sadržavati“ je nepotrebno ponovljen umjesto „uključivati“."
+  },
+  {
+    "cardId": "b1-kippen",
+    "field": "study.comparison[0].meaning.bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Drugo značenje ponavlja „prevrnuti“, umjesto da označi „nagnuti se“.",
+    "recommendedFix": "",
+    "justification": "Drugo značenje ponavlja „prevrnuti“, umjesto da označi „nagnuti se“."
+  },
+  {
+    "cardId": "b1-klappen",
+    "field": "study.explanation.bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Zatvoriti“ je prijelazni glagol; ovdje treba povratni oblik.",
+    "recommendedFix": "",
+    "justification": "„Zatvoriti“ je prijelazni glagol; ovdje treba povratni oblik."
+  },
+  {
+    "cardId": "b1-nachdem",
+    "field": "study.examples[0].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Nedostaje zarez nakon zavisne rečenice.",
+    "recommendedFix": "",
+    "justification": "Nedostaje zarez nakon zavisne rečenice."
+  },
+  {
+    "cardId": "b1-nachdem",
+    "field": "study.examples[2].lv",
+    "severity": "SOURCE/LV ISSUE",
+    "existingBsText": "",
+    "problem": "LV primjer nije povezan s nachdem; BS tačno prevodi dati LV tekst.",
+    "recommendedFix": "",
+    "justification": "LV primjer nije povezan s nachdem; BS tačno prevodi dati LV tekst."
+  },
+  {
+    "cardId": "b1-nachgeben",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Prevedeno je imperativom; treba infinitiv: „odustati, prestati pokušavati“.",
+    "recommendedFix": "",
+    "justification": "Prevedeno je imperativom; treba infinitiv: „odustati, prestati pokušavati“."
+  },
+  {
+    "cardId": "b1-pflegen",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Održavati“ ne odgovara glavnom LV značenju kopt; bolje je „njegovati“.",
+    "recommendedFix": "",
+    "justification": "„Održavati“ ne odgovara glavnom LV značenju kopt; bolje je „njegovati“."
+  },
+  {
+    "cardId": "b1-pflegen",
+    "field": "study.examples[2].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Neprirodno i značenjski slabije; bolje: „Obično rano ustaje.“",
+    "recommendedFix": "",
+    "justification": "Neprirodno i značenjski slabije; bolje: „Obično rano ustaje.“"
+  },
+  {
+    "cardId": "b1-pochen",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Prevedeno je imperativom; treba infinitiv: „kucati, tući/pulsirati, insistirati“.",
+    "recommendedFix": "",
+    "justification": "Prevedeno je imperativom; treba infinitiv: „kucati, tući/pulsirati, insistirati“."
+  },
+  {
+    "cardId": "b1-rausch",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Freude znači „radost“, ne „zadovoljstvo“ u ovom kontrastu.",
+    "recommendedFix": "",
+    "justification": "Freude znači „radost“, ne „zadovoljstvo“ u ovom kontrastu."
+  },
+  {
+    "cardId": "b1-schmieren",
+    "field": "study.important",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Gramatički oblik je pogrešan: „zvuči neurednije nego“.",
+    "recommendedFix": "",
+    "justification": "Gramatički oblik je pogrešan: „zvuči neurednije nego“."
+  },
+  {
+    "cardId": "b1-schnitt",
+    "field": "study.examples[0].bsText",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„Posekotina“ nije standardni bosanski oblik; treba „posjekotina“.",
+    "recommendedFix": "",
+    "justification": "„Posekotina“ nije standardni bosanski oblik; treba „posjekotina“."
+  },
+  {
+    "cardId": "b1-schnitt",
+    "field": "study.tip.leftBlocks[0].text",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Pogrešno je napisano „Schnitta“; njemačka riječ je „Schnitt“.",
+    "recommendedFix": "",
+    "justification": "Pogrešno je napisano „Schnitta“; njemačka riječ je „Schnitt“."
+  },
+  {
+    "cardId": "b1-sprung",
+    "field": "study.examples[1].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Za „pukotinu u staklu“ prirodnije i tačnije je „pukotina u staklu“.",
+    "recommendedFix": "",
+    "justification": "Za „pukotinu u staklu“ prirodnije i tačnije je „pukotina u staklu“."
+  },
+  {
+    "cardId": "b1-streichen",
+    "field": "study.important.text",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„Šarati zid“ znači scribble, a ne suprotno značenje „svrtati/precrtati“.",
+    "recommendedFix": "",
+    "justification": "„Šarati zid“ znači scribble, a ne suprotno značenje „svrtati/precrtati“."
+  },
+  {
+    "cardId": "b1-übersehen",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Pravopisna greška: treba „Ne primijetiti“, ne „Ne primjetiti“.",
+    "recommendedFix": "",
+    "justification": "Pravopisna greška: treba „Ne primijetiti“, ne „Ne primjetiti“."
+  },
+  {
+    "cardId": "b1-verbrennen",
+    "field": "study.examples[2].bsText",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„Opalio sam ruku“ nije standardni izraz za opeklinu; treba „Opekao sam ruku“.",
+    "recommendedFix": "",
+    "justification": "„Opalio sam ruku“ nije standardni izraz za opeklinu; treba „Opekao sam ruku“."
+  },
+  {
+    "cardId": "b1-zünden",
+    "field": "study.examples[0].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Nedostaje subjekat i rečenica zvuči kao imperativ; treba „On pali svijeću.“",
+    "recommendedFix": "",
+    "justification": "Nedostaje subjekat i rečenica zvuči kao imperativ; treba „On pali svijeću.“"
+  },
+  {
+    "cardId": "b1-zünden",
+    "field": "study.examples[1].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Neprirodno je „upaljač ne pali“; bolje „Upaljač se ne pali/neće da upali.“",
+    "recommendedFix": "",
+    "justification": "Neprirodno je „upaljač ne pali“; bolje „Upaljač se ne pali/neće da upali.“"
+  }
+]
