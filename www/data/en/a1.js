@@ -217,32 +217,6 @@ const A1_WORDS = [
                 "The"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "have"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "The"
-              ]
-            }
           }
         ],
         "tip": [
@@ -2791,8 +2765,8 @@ const A1_WORDS = [
           },
           {
             "green": [
-              "vietu",
-              "personu"
+              "place",
+              "person"
             ],
             "purple": [
               "attend",
@@ -3051,37 +3025,6 @@ const A1_WORDS = [
                 "please"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "please"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte",
-                "bitte"
-              ]
-            },
-            "lv": {}
           }
         ],
         "tip": [
@@ -3190,39 +3133,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "have"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "die Bitte",
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "The"
-              ]
-            }
           }
         ],
         "tip": [
@@ -4956,7 +4866,7 @@ const A1_WORDS = [
               "ein"
             ],
             "red": [
-              "noteiktais artikuls"
+              "definite article"
             ]
           },
           {
@@ -9414,7 +9324,7 @@ const A1_WORDS = [
               "nett"
             ],
             "green": [
-              "jauks cilvēks"
+              "nice person"
             ]
           }
         },
