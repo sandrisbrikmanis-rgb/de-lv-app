@@ -1,0 +1,914 @@
+{
+  "meta": {
+    "model": "gpt-5.6-luna",
+    "startedAt": "2026-08-08T12:04:25.140Z",
+    "scopeExpected": 42,
+    "completedAt": "2026-08-08T12:05:26.286Z",
+    "hashBefore": {
+      "data": "b776c122c28e20e49e048667fccd829c",
+      "www": "b776c122c28e20e49e048667fccd829c",
+      "at": "2026-08-08T12:04:17.527Z"
+    },
+    "hashAfter": {
+      "data": "b776c122c28e20e49e048667fccd829c",
+      "www": "b776c122c28e20e49e048667fccd829c"
+    },
+    "dataUnchanged": true,
+    "scopeAudited": 42,
+    "scopeSkipped": 0,
+    "complete": true
+  },
+  "scopeCheck": {
+    "expected": 42,
+    "found": 42,
+    "unique": 42,
+    "allExist": true,
+    "missingIds": [],
+    "duplicateIds": 0,
+    "valid": true
+  },
+  "preCheck": {
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "deReadOnly": "PASS",
+    "parity": "PASS",
+    "sectionAccentsTechnical": -1,
+    "cardCount": 2118,
+    "studyCount": 60,
+    "pass": false
+  },
+  "scopeCardIds": [
+    "b2-Eberesche-494",
+    "b2-Fremde-835",
+    "b2-Geschwätz-950",
+    "b2-Schmarotzer-1591",
+    "b2-Unterlage-1843",
+    "b2-Windbeutel-2076",
+    "b2-brauen-298",
+    "b2-durchbrennen-470",
+    "b2-entführen-626",
+    "b2-entweichen-645",
+    "b2-erlassen-684",
+    "b2-erlöschen-688",
+    "b2-flimmern-801",
+    "b2-gemessen-916",
+    "b2-gerinnen-939",
+    "b2-nachdruck",
+    "b2-nachsitzen-1356",
+    "b2-sich-abwenden",
+    "b2-sich-befassen",
+    "b2-sich-begnuegen",
+    "b2-sich-berufen",
+    "b2-sich-beschraenken",
+    "b2-sich-einpraegen",
+    "b2-sich-entledigen",
+    "b2-sich-entruesten",
+    "b2-sich-erniedrigen",
+    "b2-sich-erregen",
+    "b2-sich-erweisen",
+    "b2-sich-genieren",
+    "b2-sich-gesellen",
+    "b2-sich-gestalten",
+    "b2-sich-grauen",
+    "b2-sich-herausbilden",
+    "b2-sich-heraushalten",
+    "b2-sich-herausstellen",
+    "b2-sich-hervortun",
+    "b2-sich-hingeben",
+    "b2-sich-paaren",
+    "b2-sich-revanchieren",
+    "b2-sich-verlaufen",
+    "b2-sich-verwundern",
+    "b2-verehren-1879"
+  ],
+  "batches": [
+    {
+      "key": "simple-0",
+      "cardCount": 12,
+      "cardIds": [
+        "b2-brauen-298",
+        "b2-durchbrennen-470",
+        "b2-Eberesche-494",
+        "b2-entführen-626",
+        "b2-entweichen-645",
+        "b2-erlassen-684",
+        "b2-erlöschen-688",
+        "b2-flimmern-801",
+        "b2-Fremde-835",
+        "b2-gemessen-916",
+        "b2-gerinnen-939",
+        "b2-Geschwätz-950"
+      ],
+      "findingsCount": 1,
+      "passCount": 11,
+      "completedAt": "2026-08-08T12:04:38.041Z"
+    },
+    {
+      "key": "simple-1",
+      "cardCount": 5,
+      "cardIds": [
+        "b2-nachsitzen-1356",
+        "b2-Schmarotzer-1591",
+        "b2-Unterlage-1843",
+        "b2-verehren-1879",
+        "b2-Windbeutel-2076"
+      ],
+      "findingsCount": 0,
+      "passCount": 5,
+      "completedAt": "2026-08-08T12:04:41.844Z"
+    },
+    {
+      "key": "study-0",
+      "cardCount": 6,
+      "cardIds": [
+        "b2-sich-abwenden",
+        "b2-sich-befassen",
+        "b2-sich-begnuegen",
+        "b2-sich-berufen",
+        "b2-sich-beschraenken",
+        "b2-sich-einpraegen"
+      ],
+      "findingsCount": 0,
+      "passCount": 6,
+      "completedAt": "2026-08-08T12:04:45.236Z"
+    },
+    {
+      "key": "study-1",
+      "cardCount": 6,
+      "cardIds": [
+        "b2-sich-entledigen",
+        "b2-sich-entruesten",
+        "b2-sich-erniedrigen",
+        "b2-sich-erregen",
+        "b2-sich-erweisen",
+        "b2-sich-genieren"
+      ],
+      "findingsCount": 0,
+      "passCount": 6,
+      "completedAt": "2026-08-08T12:04:54.500Z"
+    },
+    {
+      "key": "study-2",
+      "cardCount": 6,
+      "cardIds": [
+        "b2-sich-gesellen",
+        "b2-sich-gestalten",
+        "b2-sich-grauen",
+        "b2-sich-herausbilden",
+        "b2-sich-heraushalten",
+        "b2-sich-herausstellen"
+      ],
+      "findingsCount": 0,
+      "passCount": 6,
+      "completedAt": "2026-08-08T12:05:03.943Z"
+    },
+    {
+      "key": "study-3",
+      "cardCount": 6,
+      "cardIds": [
+        "b2-sich-hervortun",
+        "b2-sich-hingeben",
+        "b2-nachdruck",
+        "b2-sich-paaren",
+        "b2-sich-revanchieren",
+        "b2-sich-verwundern"
+      ],
+      "findingsCount": 7,
+      "passCount": 3,
+      "completedAt": "2026-08-08T12:05:23.324Z"
+    },
+    {
+      "key": "study-4",
+      "cardCount": 1,
+      "cardIds": [
+        "b2-sich-verlaufen"
+      ],
+      "findingsCount": 1,
+      "passCount": 0,
+      "completedAt": "2026-08-08T12:05:26.283Z"
+    }
+  ],
+  "cardResults": [
+    {
+      "cardId": "b2-brauen-298",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-durchbrennen-470",
+      "field": "lv",
+      "verdict": "FIX",
+      "severity": "LOW",
+      "category": "spelling",
+      "de": "durchbrennen",
+      "lv": "izdedzināt cauri • pārdedzināt • izdegt • pārdegt",
+      "currentBs": "Progoreti • Pregorjeti • Izgorjeti • Pregorjeti",
+      "proposedBs": "Progorjeti • Pregorjeti • Izgorjeti • Pregorjeti",
+      "reason": "The first verb uses the Serbian ekavian form; Bosnian requires the ijekavian form 'progorjeti'.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-Eberesche-494",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-entführen-626",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-entweichen-645",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-erlassen-684",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-erlöschen-688",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-flimmern-801",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-Fremde-835",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-gemessen-916",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-gerinnen-939",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-Geschwätz-950",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-nachsitzen-1356",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-Schmarotzer-1591",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-Unterlage-1843",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-verehren-1879",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-Windbeutel-2076",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-abwenden",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-befassen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-begnuegen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-berufen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-beschraenken",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-einpraegen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-entledigen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-entruesten",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-erniedrigen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-erregen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-erweisen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-genieren",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-gesellen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-gestalten",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-grauen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-herausbilden",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-heraushalten",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-herausstellen",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-hervortun",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-hingeben",
+      "field": "study.rektion",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich hingeben",
+      "lv": "+ kam?",
+      "currentBs": "+ kam?",
+      "proposedBs": "+ kome/čemu?",
+      "reason": "Bosnian rekcija still contains the Latvian question word; the same form is correctly translated elsewhere on the card.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-nachdruck",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-paaren",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.rektion",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich revanchieren",
+      "lv": "bei + kam?",
+      "currentBs": "bei + kam?",
+      "proposedBs": "bei + kome?",
+      "reason": "The rekcija retains the Latvian question word kam? instead of the Bosnian dative question kome?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.explanation",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich revanchieren",
+      "lv": "sich revanchieren nepieciešams noteikts prievārds bei + kam?.",
+      "currentBs": "Sich revanchieren zahtijeva određeni prijedlog bei + kam?.",
+      "proposedBs": "Sich revanchieren zahtijeva određeni prijedlog bei + kome?.",
+      "reason": "The embedded rekcija contains the Latvian question word kam? and must use Bosnian kome?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.forms",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich revanchieren",
+      "lv": "bei + kam?",
+      "currentBs": "bei + kam?",
+      "proposedBs": "bei + kome?",
+      "reason": "The forms field retains the Latvian question word kam? instead of the Bosnian dative question kome?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.rektion",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verwundern",
+      "lv": "über + ko?",
+      "currentBs": "über + ko?",
+      "proposedBs": "über + koga/šta?",
+      "reason": "The accusative question is incomplete and uses the nonstandard form ko?; Bosnian requires koga/šta?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.explanation",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verwundern",
+      "lv": "sich verwundern nepieciešams noteikts prievārds über + ko?.",
+      "currentBs": "Sich verwundern zahtijeva određeni prijedlog über + ko?.",
+      "proposedBs": "Sich verwundern zahtijeva određeni prijedlog über + koga/šta?.",
+      "reason": "The embedded accusative question is incomplete and uses the nonstandard form ko?; use koga/šta?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.forms",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verwundern",
+      "lv": "über + ko?",
+      "currentBs": "über + ko?",
+      "proposedBs": "über + koga/šta?",
+      "reason": "The forms field has an incomplete, nonstandard Bosnian accusative question; use koga/šta?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verlaufen",
+      "field": "study.explanation",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verlaufen",
+      "lv": "sich verlaufen nozīmē apmaldīties. Tam nav fiksēta prievārda. Nav jaucams ar verlaufen (norisināties).",
+      "currentBs": "Sich verlaufen znači izgubiti se. Nema ustaljen prijedlog. Ne treba ga miješati s verlaufen.",
+      "proposedBs": "Sich verlaufen znači izgubiti se. Nema ustaljenog prijedloga. Ne treba ga miješati s verlaufen.",
+      "reason": "Nakon negacije „nema“ imenica treba genitiv: „nema ustaljenog prijedloga“.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "b2-durchbrennen-470",
+      "field": "lv",
+      "verdict": "FIX",
+      "severity": "LOW",
+      "category": "spelling",
+      "de": "durchbrennen",
+      "lv": "izdedzināt cauri • pārdedzināt • izdegt • pārdegt",
+      "currentBs": "Progoreti • Pregorjeti • Izgorjeti • Pregorjeti",
+      "proposedBs": "Progorjeti • Pregorjeti • Izgorjeti • Pregorjeti",
+      "reason": "The first verb uses the Serbian ekavian form; Bosnian requires the ijekavian form 'progorjeti'.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-hingeben",
+      "field": "study.rektion",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich hingeben",
+      "lv": "+ kam?",
+      "currentBs": "+ kam?",
+      "proposedBs": "+ kome/čemu?",
+      "reason": "Bosnian rekcija still contains the Latvian question word; the same form is correctly translated elsewhere on the card.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.rektion",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich revanchieren",
+      "lv": "bei + kam?",
+      "currentBs": "bei + kam?",
+      "proposedBs": "bei + kome?",
+      "reason": "The rekcija retains the Latvian question word kam? instead of the Bosnian dative question kome?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.explanation",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich revanchieren",
+      "lv": "sich revanchieren nepieciešams noteikts prievārds bei + kam?.",
+      "currentBs": "Sich revanchieren zahtijeva određeni prijedlog bei + kam?.",
+      "proposedBs": "Sich revanchieren zahtijeva određeni prijedlog bei + kome?.",
+      "reason": "The embedded rekcija contains the Latvian question word kam? and must use Bosnian kome?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.forms",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich revanchieren",
+      "lv": "bei + kam?",
+      "currentBs": "bei + kam?",
+      "proposedBs": "bei + kome?",
+      "reason": "The forms field retains the Latvian question word kam? instead of the Bosnian dative question kome?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.rektion",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verwundern",
+      "lv": "über + ko?",
+      "currentBs": "über + ko?",
+      "proposedBs": "über + koga/šta?",
+      "reason": "The accusative question is incomplete and uses the nonstandard form ko?; Bosnian requires koga/šta?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.explanation",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verwundern",
+      "lv": "sich verwundern nepieciešams noteikts prievārds über + ko?.",
+      "currentBs": "Sich verwundern zahtijeva određeni prijedlog über + ko?.",
+      "proposedBs": "Sich verwundern zahtijeva određeni prijedlog über + koga/šta?.",
+      "reason": "The embedded accusative question is incomplete and uses the nonstandard form ko?; use koga/šta?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.forms",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verwundern",
+      "lv": "über + ko?",
+      "currentBs": "über + ko?",
+      "proposedBs": "über + koga/šta?",
+      "reason": "The forms field has an incomplete, nonstandard Bosnian accusative question; use koga/šta?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verlaufen",
+      "field": "study.explanation",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verlaufen",
+      "lv": "sich verlaufen nozīmē apmaldīties. Tam nav fiksēta prievārda. Nav jaucams ar verlaufen (norisināties).",
+      "currentBs": "Sich verlaufen znači izgubiti se. Nema ustaljen prijedlog. Ne treba ga miješati s verlaufen.",
+      "proposedBs": "Sich verlaufen znači izgubiti se. Nema ustaljenog prijedloga. Ne treba ga miješati s verlaufen.",
+      "reason": "Nakon negacije „nema“ imenica treba genitiv: „nema ustaljenog prijedloga“.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "auditedCardIds": [
+    "b2-brauen-298",
+    "b2-durchbrennen-470",
+    "b2-Eberesche-494",
+    "b2-entführen-626",
+    "b2-entweichen-645",
+    "b2-erlassen-684",
+    "b2-erlöschen-688",
+    "b2-flimmern-801",
+    "b2-Fremde-835",
+    "b2-gemessen-916",
+    "b2-gerinnen-939",
+    "b2-Geschwätz-950",
+    "b2-nachsitzen-1356",
+    "b2-Schmarotzer-1591",
+    "b2-Unterlage-1843",
+    "b2-verehren-1879",
+    "b2-Windbeutel-2076",
+    "b2-sich-abwenden",
+    "b2-sich-befassen",
+    "b2-sich-begnuegen",
+    "b2-sich-berufen",
+    "b2-sich-beschraenken",
+    "b2-sich-einpraegen",
+    "b2-sich-entledigen",
+    "b2-sich-entruesten",
+    "b2-sich-erniedrigen",
+    "b2-sich-erregen",
+    "b2-sich-erweisen",
+    "b2-sich-genieren",
+    "b2-sich-gesellen",
+    "b2-sich-gestalten",
+    "b2-sich-grauen",
+    "b2-sich-herausbilden",
+    "b2-sich-heraushalten",
+    "b2-sich-herausstellen",
+    "b2-sich-hervortun",
+    "b2-sich-hingeben",
+    "b2-nachdruck",
+    "b2-sich-paaren",
+    "b2-sich-revanchieren",
+    "b2-sich-verwundern",
+    "b2-sich-verlaufen"
+  ],
+  "apiUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 7,
+    "successfulRequests": 7,
+    "failedRequests": 0,
+    "initialBatchRequests": 7,
+    "retryRequests": 0,
+    "batchCount": 7,
+    "batchSizes": [
+      12,
+      5,
+      6,
+      6,
+      6,
+      6,
+      1
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 12182,
+    "cachedInputTokens": 0,
+    "outputTokens": 7814,
+    "reasoningTokens": 6118,
+    "totalTokens": 19996,
+    "findingsCount": 9,
+    "passCount": 37
+  },
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 8,
+    "LOW": 1
+  },
+  "otherVerdictCounts": {
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "DE_SOURCE_ISSUE": 0,
+    "NEEDS_REVIEW": 0
+  },
+  "passCards": 37,
+  "rawFindingsCount": 9,
+  "duplicateFindings": 0,
+  "qualityFindings": [
+    {
+      "cardId": "b2-durchbrennen-470",
+      "field": "lv",
+      "verdict": "FIX",
+      "severity": "LOW",
+      "category": "spelling",
+      "de": "durchbrennen",
+      "lv": "izdedzināt cauri • pārdedzināt • izdegt • pārdegt",
+      "currentBs": "Progoreti • Pregorjeti • Izgorjeti • Pregorjeti",
+      "proposedBs": "Progorjeti • Pregorjeti • Izgorjeti • Pregorjeti",
+      "reason": "The first verb uses the Serbian ekavian form; Bosnian requires the ijekavian form 'progorjeti'.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-hingeben",
+      "field": "study.rektion",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich hingeben",
+      "lv": "+ kam?",
+      "currentBs": "+ kam?",
+      "proposedBs": "+ kome/čemu?",
+      "reason": "Bosnian rekcija still contains the Latvian question word; the same form is correctly translated elsewhere on the card.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.rektion",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich revanchieren",
+      "lv": "bei + kam?",
+      "currentBs": "bei + kam?",
+      "proposedBs": "bei + kome?",
+      "reason": "The rekcija retains the Latvian question word kam? instead of the Bosnian dative question kome?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.explanation",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich revanchieren",
+      "lv": "sich revanchieren nepieciešams noteikts prievārds bei + kam?.",
+      "currentBs": "Sich revanchieren zahtijeva određeni prijedlog bei + kam?.",
+      "proposedBs": "Sich revanchieren zahtijeva određeni prijedlog bei + kome?.",
+      "reason": "The embedded rekcija contains the Latvian question word kam? and must use Bosnian kome?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.forms",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich revanchieren",
+      "lv": "bei + kam?",
+      "currentBs": "bei + kam?",
+      "proposedBs": "bei + kome?",
+      "reason": "The forms field retains the Latvian question word kam? instead of the Bosnian dative question kome?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.rektion",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verwundern",
+      "lv": "über + ko?",
+      "currentBs": "über + ko?",
+      "proposedBs": "über + koga/šta?",
+      "reason": "The accusative question is incomplete and uses the nonstandard form ko?; Bosnian requires koga/šta?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.explanation",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verwundern",
+      "lv": "sich verwundern nepieciešams noteikts prievārds über + ko?.",
+      "currentBs": "Sich verwundern zahtijeva određeni prijedlog über + ko?.",
+      "proposedBs": "Sich verwundern zahtijeva određeni prijedlog über + koga/šta?.",
+      "reason": "The embedded accusative question is incomplete and uses the nonstandard form ko?; use koga/šta?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.forms",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verwundern",
+      "lv": "über + ko?",
+      "currentBs": "über + ko?",
+      "proposedBs": "über + koga/šta?",
+      "reason": "The forms field has an incomplete, nonstandard Bosnian accusative question; use koga/šta?.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verlaufen",
+      "field": "study.explanation",
+      "verdict": "FIX",
+      "severity": "MEDIUM",
+      "category": "grammar",
+      "de": "sich verlaufen",
+      "lv": "sich verlaufen nozīmē apmaldīties. Tam nav fiksēta prievārda. Nav jaucams ar verlaufen (norisināties).",
+      "currentBs": "Sich verlaufen znači izgubiti se. Nema ustaljen prijedlog. Ne treba ga miješati s verlaufen.",
+      "proposedBs": "Sich verlaufen znači izgubiti se. Nema ustaljenog prijedloga. Ne treba ga miješati s verlaufen.",
+      "reason": "Nakon negacije „nema“ imenica treba genitiv: „nema ustaljenog prijedloga“.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "specialResults": {
+    "b2-sich-einpraegen": {
+      "verdict": "PASS",
+      "findings": [],
+      "rektion": "šta?",
+      "forms": "šta?",
+      "exampleLv": null,
+      "inScope": true
+    },
+    "b2-nachdruck": {
+      "verdict": "PASS",
+      "findings": [],
+      "rektion": null,
+      "forms": null,
+      "exampleLv": "On naglašava rok.",
+      "inScope": true
+    },
+    "b2-sich-erniedrigen": {
+      "verdict": "PASS",
+      "findings": [],
+      "rektion": "vor + kim?",
+      "forms": "vor + kim?",
+      "exampleLv": null,
+      "inScope": true
+    },
+    "b2-sich-erregen": {
+      "verdict": "PASS",
+      "findings": [],
+      "rektion": "über + koga/šta?",
+      "forms": "über + koga/šta?",
+      "exampleLv": null,
+      "inScope": true
+    },
+    "b2-sich-genieren": {
+      "verdict": "PASS",
+      "findings": [],
+      "rektion": "vor + kim?",
+      "forms": "vor + kim?",
+      "exampleLv": null,
+      "inScope": true
+    },
+    "b2-sich-gesellen": {
+      "verdict": "PASS",
+      "findings": [],
+      "rektion": "zu + kome?",
+      "forms": "zu + kome?",
+      "exampleLv": null,
+      "inScope": true
+    },
+    "b2-sich-gestalten": {
+      "verdict": "PASS",
+      "findings": [],
+      "rektion": "zu + čemu?",
+      "forms": "zu + čemu?",
+      "exampleLv": null,
+      "inScope": true
+    },
+    "b2-sich-grauen": {
+      "verdict": "PASS",
+      "findings": [],
+      "rektion": "vor + kim?",
+      "forms": "vor + kim?",
+      "exampleLv": null,
+      "inScope": true
+    }
+  },
+  "accentCardsInScope": 6
+}
