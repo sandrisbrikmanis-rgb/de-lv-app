@@ -1,0 +1,3023 @@
+{
+  "generatedAt": "2026-08-08T08:41:53.907Z",
+  "dryRun": false,
+  "findingsSource": "/workspace/reports/temp/bs-b1-reaudit-terra-findings.json",
+  "stats": {
+    "criticalTotal": 4,
+    "highTotal": 355,
+    "criticalApplied": 3,
+    "highApplied": 354,
+    "criticalSkipped": 0,
+    "highSkipped": 1,
+    "criticalResolvedNoChange": 1,
+    "mainTranslationChanged": 162,
+    "studyFieldsChanged": 195,
+    "studyCardsChanged": [
+      "b1-angeben",
+      "b1-abbrechen",
+      "b1-abdecken",
+      "b1-abhängen",
+      "b1-ablegen",
+      "b1-abschluss",
+      "b1-absetzen",
+      "b1-auftrag",
+      "b1-aufführen",
+      "b1-sich-aufhalten",
+      "b1-ausüben",
+      "b1-auszug",
+      "b1-becken",
+      "b1-bedeutend",
+      "b1-sich-bedienen",
+      "b1-behandeln",
+      "b1-sich-bemühen",
+      "b1-berichten",
+      "b1-betrieb",
+      "b1-beziehen",
+      "b1-block",
+      "b1-botschaft",
+      "b1-dadurch",
+      "b1-dagegen",
+      "b1-daher",
+      "b1-dahin",
+      "b1-dank-study",
+      "b1-daran",
+      "b1-darstellen",
+      "b1-darunter",
+      "b1-durchführen",
+      "b1-einbrechen",
+      "b1-eindeutig",
+      "b1-einfarbig",
+      "b1-einheit",
+      "b1-einholen",
+      "b1-einsatz",
+      "b1-einsetzen",
+      "b1-einstellen",
+      "b1-empfangen",
+      "b1-enthalten",
+      "b1-entkommen",
+      "b1-entlassen",
+      "b1-entsprechen",
+      "b1-entstehen",
+      "b1-erhalten",
+      "b1-eröffnen",
+      "b1-erscheinen",
+      "b1-feststellen",
+      "b1-fördern",
+      "b1-fressen",
+      "b1-futter",
+      "b1-gelten",
+      "b1-gemein",
+      "b1-geschlecht",
+      "b1-gitter",
+      "b1-gut",
+      "b1-handeln",
+      "b1-handgriff",
+      "b1-hauen",
+      "b1-herausgeben",
+      "b1-hinausgehen",
+      "b1-hinweis",
+      "b1-jagen",
+      "b1-jahrgang",
+      "b1-kader",
+      "b1-kippen",
+      "b1-klappen",
+      "b1-kommando",
+      "b1-kunde-2",
+      "b1-kürze",
+      "b1-laden",
+      "b1-lager",
+      "b1-inhalt",
+      "b1-kante",
+      "b1-kastanie",
+      "b1-kosten-study",
+      "b1-laut-study",
+      "b1-macht",
+      "b1-nachgeben",
+      "b1-neigung",
+      "b1-nerven",
+      "b1-nieder",
+      "b1-nüchtern",
+      "b1-nutzen-study",
+      "b1-ohnmacht",
+      "b1-pochen",
+      "b1-posten",
+      "b1-rang",
+      "b1-räumen",
+      "b1-rausch",
+      "b1-reizen",
+      "b1-rollen",
+      "b1-rüsten",
+      "b1-schimmel",
+      "b1-schmieren",
+      "b1-schnitt",
+      "b1-schuldig",
+      "b1-schwanken",
+      "b1-senden",
+      "b1-senken",
+      "b1-sitz",
+      "b1-sperren",
+      "b1-spitze",
+      "b1-strom",
+      "b1-tank",
+      "b1-teilnehmen",
+      "b1-ton",
+      "b1-trauen",
+      "b1-treffen-study",
+      "b1-treiben",
+      "b1-übergeben",
+      "b1-umschlag",
+      "b1-verändern",
+      "b1-verbindung",
+      "b1-verbrennen",
+      "b1-verderben",
+      "b1-verlegen",
+      "b1-versichern",
+      "b1-vorkommen",
+      "b1-vorstellung",
+      "b1-wechsel",
+      "b1-wenden",
+      "b1-werben",
+      "b1-anstatt-zu",
+      "b1-ohne-zu",
+      "b1-sich-befinden-study"
+    ],
+    "requiresReview": [
+      {
+        "cardId": "b1-nachdem",
+        "field": "study.tip",
+        "severity": "HIGH",
+        "reason": "existing_text_mismatch",
+        "existingBsText": "Gurnite i odmaknite se: nachgeben.",
+        "recommendedFix": "Pritisak i korak unazad: nachgeben.",
+        "actualCurrent": "Nachdem zahtijeva cijelu klauzulu • Danach može stajati sam."
+      }
+    ],
+    "changes": [
+      {
+        "cardId": "b1-Abgang-47",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Odlazi",
+        "after": "Odlazak",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-anliegend-122",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "U dodatku",
+        "after": "U prilogu",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Anrede-129",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Govor",
+        "after": "Oslovljavanje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-ansehnlich-144",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Izvanredno",
+        "after": "Značajan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-anstiften-149",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Ohrabriti",
+        "after": "Podstaknuti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Anwender-162",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Korisnika",
+        "after": "Korisnik",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Armee-168",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Armije",
+        "after": "Armija",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Auflauf-179",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Sacepak",
+        "after": "Složenac",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-aufrecht-181",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Ravno",
+        "after": "Uspravan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Aufsehen-188",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Pažnju",
+        "after": "Pažnja",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Auftritt-201",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Performanse",
+        "after": "Nastup",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich äußern-207",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Izraziti",
+        "after": "Izraziti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-austrocknen-217",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Osušiti",
+        "after": "Osušiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Autoabgase-227",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Izduvnih gasova",
+        "after": "Izduvni gasovi",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Barsch-243",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Perch",
+        "after": "Grgeč",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Basis-244",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Osnovu",
+        "after": "Osnova",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-befestigen-274",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Priložiti",
+        "after": "Pričvrstiti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-befühlen-283",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Dodirnuti",
+        "after": "Opipati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-bekämpfen-324",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Boriti se",
+        "after": "Suzbijati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich bessern-392",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Poboljšati",
+        "after": "Poboljšati se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Besuchszeit-400",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Vrijeme posjetitelja",
+        "after": "Vrijeme za posjete",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-bewachen-420",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Zaštititi",
+        "after": "Čuvati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Bühne-523",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Pozornici",
+        "after": "Pozornica",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Bulette-524",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Mesne okruglice",
+        "after": "Pljeskavica / faširana šnicla",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Chipkarte-543",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Platnu karticu",
+        "after": "Kartica s čipom",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Dampf-558",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Pare",
+        "after": "Para",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-derselbe-578",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Isto",
+        "after": "Isti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-desto-579",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Utoli ko",
+        "after": "Utoliko",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-dieselbe-591",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Isto",
+        "after": "Ista",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Diskussion-596",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Diskusiju",
+        "after": "Diskusija",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Dotter-602",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Žumanca",
+        "after": "Žumance",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Draht-604",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Žice",
+        "after": "Žica",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-dritt-610",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Treće",
+        "after": "Utroje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Dummheit-620",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Gluposti",
+        "after": "Glupost",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Dummkopf-621",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Budalo",
+        "after": "Budala",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Eigentum-655",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Imovine",
+        "after": "Imovina",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-eilen-658",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Požuri",
+        "after": "Žuriti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einatmen-660",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Udahnite",
+        "after": "Udahnuti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich einmischen-693",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Intervenisati",
+        "after": "Miješati se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einstürzen-714",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Kolaps",
+        "after": "Urušiti se / srušiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Eiweiß-733",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Proteina",
+        "after": "Protein / bjelančevina",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-erneuern-809",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Restaurirati",
+        "after": "Obnoviti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-explodieren-847",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Da eksplodira",
+        "after": "Eksplodirati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-feige-880",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Kukavica",
+        "after": "Kukavički",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-fernbleiben-885",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Ne dolazi",
+        "after": "Izostati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Fläche-904",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Površine",
+        "after": "Površina",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-fliehen-910",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Bježi",
+        "after": "Bježati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-fortbleiben-936",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Ne dolazi",
+        "after": "Izostati / ne doći",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-fortlaufen-938",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Bježi",
+        "after": "Pobjeći / odjuriti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Führer-961",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Menadžer",
+        "after": "Vođa / vodič (ovisno o kontekstu)",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Fußnote-971",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Podtekstualna napomena",
+        "after": "Fusnota / bilješka na dnu stranice",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Gelächter-1040",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Smeh",
+        "after": "Smijeh",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-gefühllos-1020",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Neosetljiv",
+        "after": "Neosjetljiv",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Gegner-1026",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Protivnika",
+        "after": "Protivnik",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Gehör-1032",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Sluha",
+        "after": "Sluh",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Gelände-1041",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Području",
+        "after": "Područje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Genehmigung-1057",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Dozvolu",
+        "after": "Dozvola",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Generation-1058",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Generacije",
+        "after": "Generacija",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Getreide-1097",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Zrno",
+        "after": "Žitarice",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-glänzen-1117",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Da sija",
+        "after": "Sjati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Gleis-1128",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Kolodijek",
+        "after": "Kolosijek",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-gönnen-1133",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Dodijeliti",
+        "after": "Priiuštiti (nekome)",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-grob-1150",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Nepristojan",
+        "after": "Grub",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Gummischuh-1163",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Galosh",
+        "after": "Galoša",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-gutmachen-1167",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Ispraviti",
+        "after": "Nadoknaditi",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-heimlich-1233",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Tajna",
+        "after": "Tajni",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hinaufgehen-1266",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Idi gore",
+        "after": "Ići gore • Popeti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hobeln-1285",
+        "field": "lv",
+        "severity": "CRITICAL",
+        "before": "Planirati",
+        "after": "Blanjati • Rendisati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hörbar-1308",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Zvučno",
+        "after": "Čujan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-impfen-1346",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Inokulirati",
+        "after": "Cijepiti • Vakcinisati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-innerlich-1372",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Interni",
+        "after": "Unutrašnji",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Kabelkanal-1440",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Kanalica za kablove",
+        "after": "Kablovski televizijski kanal",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Karteizettel-1478",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Indeks kartice",
+        "after": "Kartotečni listić",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-klebrig-1524",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Lepljivo",
+        "after": "Ljepljiv",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Knoblauchzehe-1552",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Češanj belog luka",
+        "after": "Češanj bijelog luka",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Korken-1589",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Pluta",
+        "after": "Čep od pluta or pluteni čep",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Muskelkrampf-1614",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Grčevi mišića",
+        "after": "Grč mišića",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Magenkrampf-1615",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Grčevi u stomaku",
+        "after": "Grč u stomaku",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Kröte-1646",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "A krastača",
+        "after": "Krastača",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-krümmen-1650",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Savijati se",
+        "after": "Savijati / poviti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Kultur-1656",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Kulture",
+        "after": "Kultura",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kulturell-1657",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Kulturnim",
+        "after": "Kulturni",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Kursbuch-1680",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Lista vozova",
+        "after": "Vozni red",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Ladendieb-1701",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Kradljivac",
+        "after": "Kradljivac u prodavnici",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Länderspiel-1716",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Međunarodno takmičenje",
+        "after": "Međunarodna utakmica reprezentacija",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Leckerbissen-1742",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Delikatesnost",
+        "after": "Delikatesa",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-lenken-1763",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Voditi",
+        "after": "Upravljati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Lesekarte-1766",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Kartica za čitanje",
+        "after": "Članska karta biblioteke",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Lieferwagen-1777",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Mali kamion za odvoz robe",
+        "after": "Dostavni kombi",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-locken-1789",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "MamitI",
+        "after": "Mamiti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Lizenz-1786",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Licence",
+        "after": "Licenca",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich lohnen-1795",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Isplatiti",
+        "after": "Isplatiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-mahlen-1818",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Mljevenje",
+        "after": "Mljeti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Maskenfest-1843",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Maskenbal",
+        "after": "Festival maski",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-meistern-1862",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Da se nosi",
+        "after": "Savladati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-miserabel-1880",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Patetično",
+        "after": "Bijedan / užasan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Müllkippe-1924",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Deponiju smeća",
+        "after": "Deponija smeća / odlagalište otpada",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-mündig-1927",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Odrasla osoba",
+        "after": "Punoljetan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-munter-1930",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Veselo",
+        "after": "Bodar / živahan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Muskel-1934",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Mišića",
+        "after": "Mišić",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-mustern-1935",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Pogledaj pažljivo",
+        "after": "Pažljivo pregledati / odmjeriti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-mutlos-1936",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Obeshrabreni",
+        "after": "Malodušan / bezvoljan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Neuigkeit-1979",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Novitet",
+        "after": "Novost",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-nutzlos-2002",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Uzaludno",
+        "after": "Beskoristan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Ochse-2013",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Bik",
+        "after": "Vol",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Orgel-2041",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Organ",
+        "after": "Orgulje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Ozon-2048",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Ozona",
+        "after": "Ozon",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Pförtner-2104",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Vratara",
+        "after": "Vratar",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Pilger-2111",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Hodočasnika",
+        "after": "Hodočasnik",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Ranzen-2214",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Studentski ranac",
+        "after": "Školski ruksak",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-ratlos-2227",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Rasejan",
+        "after": "Zbunjen",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Raucherabteil-2233",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Pretinac za pušenje",
+        "after": "Odjeljak za pušače",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-reizend-2280",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Lijepo",
+        "after": "Šarmantan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-relativ-2286",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Relativno",
+        "after": "Relativan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-respektieren-2296",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Da poštujem",
+        "after": "Poštovati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Riegel-2309",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Brava",
+        "after": "Zasun",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-rütteln-2369",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Tresti se",
+        "after": "Tresti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Sanitäter-2385",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Sanitarni radnik",
+        "after": "Bolničar / medicinski tehničar hitne pomoći",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Säugling-2394",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Bebe",
+        "after": "Dojenče",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schaufeln-2414",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Lopatama",
+        "after": "Lopatati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schimmern-2437",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Da sija",
+        "after": "Svjetlucati / blistati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schlachten-2441",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Klanje",
+        "after": "Klati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schleudern-2462",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Bacanje",
+        "after": "Bacati / zavitlati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Schnaps-2491",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Votka",
+        "after": "Rakija",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Schutzhülle-2536",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Zaštitni poklopac",
+        "after": "Zaštitna navlaka",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Schuhwerk-2525",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Cipele",
+        "after": "Obuća",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Schwung-2570",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Vigor",
+        "after": "Polet",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-See-2572",
+        "field": "lv",
+        "severity": "CRITICAL",
+        "before": "More",
+        "after": "Jezero",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Siedlung-2619",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Selo",
+        "after": "Naselje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Sorte-2658",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Rasa",
+        "after": "Vrsta",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-speien-2677",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Pljunuti",
+        "after": "Pljuvati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Springer-2702",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Konj",
+        "after": "Skakač",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-spucken-2710",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Pljunuti",
+        "after": "Pljuvati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Strandkorb-2784",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Korpa za sunčanje na plaži",
+        "after": "Plažna košara",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-strecken-2788",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Da se istegne",
+        "after": "Istegnuti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Streife-2791",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Patrolna policija",
+        "after": "Policijska patrola",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Streifen-2792",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Traka • Traka",
+        "after": "Pruga • Traka",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-stupid-2814",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Glupo",
+        "after": "Glup",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Taktik-2838",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Taktike",
+        "after": "Taktika",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Tat-2848",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Akcija",
+        "after": "Čin",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Tiefkühlfach-2888",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Zamrzivač",
+        "after": "Pretinac za zamrzavanje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Tonne-2897",
+        "field": "lv",
+        "severity": "CRITICAL",
+        "before": "Ton",
+        "after": "Tona",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Trauung-2909",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Ceremonija braka",
+        "after": "Vjenčanje ili ceremonija vjenčanja",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Tropen-2926",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Geogr. tropima",
+        "after": "Tropi",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-trübe-2931",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Oblačno",
+        "after": "Mutan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Übergang-2948",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Tranzicija",
+        "after": "Prijelaz",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-überreden-2956",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Uvjeriti",
+        "after": "Nagovoriti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Umfang-2971",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Volumen",
+        "after": "Obim ili opseg",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-umkehren-2977",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Okreni se nazad",
+        "after": "Okrenuti se nazad ili vratiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Umweg-2986",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Obilaznica",
+        "after": "Obilazni put ili zaobilazni put",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-unbequem-2992",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Neugodno",
+        "after": "Neudoban",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Unterführung-3021",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Tunel",
+        "after": "Pothodnik",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Unwetter-3033",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Loše vrijeme",
+        "after": "Nevrijeme",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verkürzen-3084",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Skrati",
+        "after": "Skratiti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich versammeln-3101",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "[da] se okupe",
+        "after": "Okupiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich versorgen-3110",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Obezbediti",
+        "after": "Opskrbiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich verstärken-3117",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Intenzivirati",
+        "after": "Pojačati se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verwechseln-3134",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Zbuniti",
+        "after": "Pob rkati / zamijeniti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-Weise-3228",
+        "field": "lv",
+        "severity": "CRITICAL",
+        "before": "Način",
+        "after": "Način",
+        "method": "resolved_no_change_bs_correct_per_de",
+        "note": "BS Način matches DE Weise (way/manner); LV source mismatch only"
+      },
+      {
+        "cardId": "b1-sich wenden-3242",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Okreni se",
+        "after": "Okrenuti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich entschließen-3346",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Odlučiti",
+        "after": "Odlučiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich scheiden-3354",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Raskinuti",
+        "after": "Razvesti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich vergnügen-3356",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Zabavite se",
+        "after": "Zabavljati se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-angeben",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Imenovati",
+        "after": "Nazvati / navesti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-abbrechen",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Prekinuti / prekinuti",
+        "after": "Prekinuti / odlomiti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-abdecken",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Nakon jela pospremi sto.",
+        "after": "Nakon jela on posprema sto.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-abhängen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: abhängen sa von znači ovisiti o nečemu. Osim von, to može značiti i uklanjanje nečega što visi.",
+        "after": "Glavna ideja: abhängen sa von znači ovisiti o nečemu. Bez von može značiti i skinuti nešto što visi.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-abhängen",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Ako vidite von ili davona, abhängen obično znači zavisiti od.",
+        "after": "Ako vidite von ili davon, abhängen obično znači zavisiti od.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-ablegen",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Položiti/polagati ispit",
+        "after": "Odložiti / polagati ispit",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-abschluss",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: der Abschluss znači završetak ili zaključenje. U školskom kontekstu može značiti stečenu kvalifikaciju, odnosno završeno obrazovanje.",
+        "after": "Glavna ideja: der Abschluss znači završetak ili formalno okončanje. U školskom kontekstu može značiti stečenu kvalifikaciju, završeno obrazovanje ili završni ispit.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-absetzen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: Absetzen znači spustiti ili staviti nekoga na mjesto. U kontekstu politike i posla, to može značiti smjenu sa funkcije.",
+        "after": "Glavna ideja: absetzen znači spustiti/odložiti ili ostaviti odnosno iskrcati nekoga negdje. U kontekstu politike i posla može značiti smijeniti nekoga s funkcije.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-absetzen",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Absetzen nije generički 'za prodaju'. Značaj prodaje je konkretniji u poslovnom kontekstu.",
+        "after": "Absetzen ne znači općenito „prodati“. Značenje povezano s prodajom javlja se u užem poslovnom kontekstu.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-auftrag",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Radi za grad.",
+        "after": "Radi po nalogu grada.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-aufführen",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Imena su navedena.",
+        "after": "Riječi su navedene na listi.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-aufführen",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Pokazati/ukazati",
+        "after": "Izvesti / navesti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich-aufhalten",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Ostati",
+        "after": "Boraviti / zadržavati se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich-aufhalten",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: sich aufhalten znači ostati ili biti na nekom mjestu neko vrijeme. Bez sich aufhalten znači odlagati.",
+        "after": "Glavna ideja: sich aufhalten znači boraviti ili zadržavati se na nekom mjestu neko vrijeme. Bez sich, aufhalten znači zadržati, zaustaviti ili omesti.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich-aufhalten",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Ostati",
+        "after": "Boraviti / zadržavati se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich-aufhalten",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Nemojte brkati sich aufhalten sa aufhalten: sich aufhalten = ostati, jemanden aufhalten = odgoditi nekoga.",
+        "after": "Nemojte brkati sich aufhalten sa aufhalten: sich aufhalten = boraviti, jemanden aufhalten = zadržati nekoga.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-ausüben",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Izvoditi",
+        "after": "Obavljati / vršiti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-ausüben",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Implementirati / napraviti / uticati",
+        "after": "Obavljati / vršiti / izvršavati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-auszug",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Ekstrakt",
+        "after": "Izvod / iseljenje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-auszug",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Izdvojiti / iseliti",
+        "after": "Izvod / iseljenje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-auszug",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Kreće se",
+        "after": "Preseljenje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-becken",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Bazen u bazenu je dubok.",
+        "after": "Bazen u plivalištu je dubok.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-becken",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Voda u bazenu → Becken • Tijelo → karlica • U kuhinji/aparati → posuda ili posuda.",
+        "after": "Voda u bazenu → Becken • Tijelo → karlica • U kuhinji/tehnici → spremnik ili zdjela.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-bedeutend",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Beedeuten je više formalan od wichtig i ne znači nužno \"važan\" u jednostavnom svakodnevnom smislu.",
+        "after": "Bedeutend je formalniji od wichtig i ne znači nužno „važan” u jednostavnom svakodnevnom smislu.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich-bedienen",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Servisirajte sami! = uzmite sami • Jemanden bedienen = služiti nekome.",
+        "after": "Poslužite se! = uzmite sami • Jemanden bedienen = poslužiti nekoga.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-behandeln",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Druželjubiva je prema svima.",
+        "after": "Prema svima se odnosi ljubazno.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich-bemühen",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Ona pokušava da nađe rešenje.",
+        "after": "Ona se trudi pronaći rješenje.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-berichten",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: berichten znači izvesti ili ispričati o događaju, iskustvu ili rezultatu. Neutralniji je i često formalniji od erzählen.",
+        "after": "Glavna ideja: berichten znači izvijestiti ili ispričati nešto o događaju, iskustvu ili rezultatu. Neutralniji je i često formalniji od erzählen.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-berichten",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Priča o svom putovanju.",
+        "after": "Izvještava o svom putovanju.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-berichten",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Berichten se obično koristi sa über + šta? ili von + kam?.",
+        "after": "Berichten se obično koristi s über + akuzativom ili von + dativom.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-betrieb",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: der Betrieb najčešće znači posao ili radni/operativni proces. Izraz u Betriebu znači da je postrojenje ili sistem u funkciji.",
+        "after": "Glavna ideja: der Betrieb najčešće znači preduzeće/pogon ili radni, odnosno operativni proces. Izraz u Betriebu znači da je postrojenje ili sistem u funkciji.",
+        "method": "substring_replace"
+      },
+      {
+        "cardId": "b1-beziehen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: beziehen znači primati redovnu uplatu ili useliti se u prostorije. Konstrukcija sich beziehen auf znači upućivati.",
+        "after": "Glavna ideja: beziehen znači primati redovnu uplatu ili useliti se u prostorije. Konstrukcija sich beziehen auf znači odnositi se na nešto.",
+        "method": "substring_replace"
+      },
+      {
+        "cardId": "b1-beziehen",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Pravilo se odnosi na sve studente.",
+        "after": "Pravilo se odnosi na sve učenike.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-block",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Der Blok u kontekstu kancelarije ili studija je često blok ili sekcija, a ne težak blok.",
+        "after": "Der Block u kancelarijskom ili obrazovnom kontekstu često znači blok za bilješke ili cjelinu/sekciju, a ne težak kloc.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-botschaft",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Die Botschaft nije obična tekstualna poruka • Tekst ili poruka je obično die Nachricht.",
+        "after": "Die Botschaft nije obična kratka poruka; često označava glavnu poruku teksta, filma ili govora. Kratka poruka ili vijest češće je die Nachricht.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-dadurch",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Dakle",
+        "after": "Time / tako / na taj način",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-dagegen",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Šta se može učiniti povodom toga?",
+        "after": "Šta se može učiniti protiv toga?",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-daher",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Daher kao „odatle“ je rjeđi • Na frontu je bolje naučiti „zato“ ili „stoga“.",
+        "after": "Daher kao „odatle“ je rjeđi • Na prednjoj strani kartice bolje je naučiti „zato“ ili „stoga“.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-dahin",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: dahin znači tamo, tamo. U figurativnom smislu, es ist dahin znači da je nešto izgubljeno ili izgubljeno.",
+        "after": "Glavna ideja: dahin znači onamo, prema tamo ili na to mjesto. U prenesenom smislu, es ist dahin znači da je nečemu kraj ili da je nešto nestalo.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-dank-study",
+        "field": "study.examples[4].lv",
+        "severity": "HIGH",
+        "before": "Zahvaljujem na pomoći.",
+        "after": "Zahvaljujem vam na pomoći.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-dank-study",
+        "field": "study.examples[5].lv",
+        "severity": "HIGH",
+        "before": "Zahvaljujem na poklonu.",
+        "after": "Zahvaljujem ti na poklonu.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-daran",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "O tome / u tome",
+        "after": "O tome / na tome",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-darstellen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: darstellen znači predstavljati, pokazati ili djelovati na takav način da drugi razumiju situaciju, podatke ili ulogu. Nije isto što i sich vorstellen = zamisliti se ili predstaviti se.",
+        "after": "Glavna ideja: darstellen znači prikazati, predstaviti ili glumiti tako da drugi mogu razumjeti situaciju, podatke ili ulogu. Nije isto što i sich vorstellen = zamisliti se ili predstaviti se.",
+        "method": "substring_replace"
+      },
+      {
+        "cardId": "b1-darstellen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Zamislite / predstavite se",
+        "after": "Zamisliti / predstaviti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-darunter",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Uključujući",
+        "after": "Među njima / među ostalim",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-darunter",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: darunter znači uključiti ili ispod. Na listama, darunter često znači \"između njih\".",
+        "after": "Glavna ideja: darunter znači među njima, među ostalim ili ispod toga. U nabrajanjima često znači „među njima“.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-darunter",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Uključujući / ispod njega",
+        "after": "Među njima / ispod toga",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-darunter",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "U listama, darunter obično znači uključiti.",
+        "after": "U nabrajanjima darunter obično znači „među njima“ ili „među ostalim“.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-durchführen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Držati",
+        "after": "Organizirati / prirediti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-durchführen",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Kontrolirajte, popravite, eksperimentirajte → izvršite.",
+        "after": "Kontrola, popravka, eksperiment → provesti / izvršiti.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einbrechen",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Provaliti u",
+        "after": "Provaliti (u neki prostor)",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-eindeutig",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Nepogrešivo",
+        "after": "Nedvosmisleno / jasno",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-eindeutig",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Zadatak je jednostavan, ali nije očigledan.",
+        "after": "Zadatak je jednostavan, ali nije nedvosmislen.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einfarbig",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: einfarbig znači običan - jedna boja, bez šare ili miješanja boja.",
+        "after": "Glavna ideja: einfarbig znači jednobojan — u jednoj boji, bez šare ili miješanja boja.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einfarbig",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Tražim običnu košulju.",
+        "after": "Tražim jednobojnu košulju.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einfarbig",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Haljina nije šarena, već obična.",
+        "after": "Haljina nije šarena, već jednobojna.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einheit",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: die Einheit znači jedinstvo. To može biti jedinica učenja, tehnička jedinica ili jedinica mjere u zavisnosti od konteksta.",
+        "after": "Glavna ideja: die Einheit znači jedinica. Može biti nastavna jedinica, tehnička jedinica ili jedinica mjere, zavisno od konteksta. Također može značiti i jedinstvo.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einholen",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Einholen nije uobičajeno 'dobiti sve' • Vrlo se često koristi sa Informationen, Rat ili Gengemung.",
+        "after": "Einholen nije općenito „dobiti”; vrlo se često koristi s informacijama, savjetom ili dozvolom.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einsatz",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Koristiti",
+        "after": "Korištenje / upotreba",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einsetzen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Za početak",
+        "after": "Početi",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-einstellen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: einstellen znači postaviti ili prilagoditi. Kod zaposlenih to znači zaposliti, a kod novina, projekta ili usluge znači raskinuti.",
+        "after": "Glavna ideja: einstellen znači postaviti ili prilagoditi. Kod zaposlenih to znači zaposliti, a kod novina, projekta ili usluge znači obustaviti ili prekinuti.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-empfangen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Primati svaki dan",
+        "after": "Dobiti / primiti u svakodnevnom govoru",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-empfangen",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Empfangen zvuči više formalno ili tehnički nego bekommen • Kod gostiju to znači primati, a ne samo primati.",
+        "after": "Empfangen zvuči formalnije ili tehničkije nego bekommen. Kada se radi o gostima, znači ugostiti ili primiti goste, a ne samo dobiti nešto.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-enthalten",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Čekaj",
+        "after": "Držati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-enthalten",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Enthalten ne halten. halten = držati • Enthalten = sadržavati ili sadržavati.",
+        "after": "Enthalten nije halten. halten = držati • enthalten = sadržavati ili uključivati.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-entkommen",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Porodica je jedva izbjegla požar.",
+        "after": "Porodica se jedva spasila od požara.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-entkommen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Bježi",
+        "after": "Bježati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-entkommen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Spasi sebe",
+        "after": "Spasiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Raskinuti posao ili ugovor",
+        "after": "Dati otkaz / otkazati ugovor",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-entsprechen",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Rezultat nije tačan.",
+        "after": "Rezultat ne odgovara istini.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-entsprechen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Fit / fit",
+        "after": "Odgovarati / pristajati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-entstehen",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Pojaviti",
+        "after": "Nastati / pojaviti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-entstehen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Da stvaraju svesno",
+        "after": "Svjesno stvoriti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-entstehen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Desiti",
+        "after": "Dogoditi se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-erhalten",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Primati svaki dan",
+        "after": "Dobiti / primiti u svakodnevnom govoru",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-erhalten",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Spasiti",
+        "after": "Sačuvati / očuvati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-eröffnen",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Zvanično otvoren/otkriven",
+        "after": "Službeno otvoriti / svečano otvoriti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-eröffnen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Fizički otvoren",
+        "after": "Fizički otvoriti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-eröffnen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Za početak",
+        "after": "Početi / započeti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-erscheinen",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Pojaviti",
+        "after": "Pojaviti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-erscheinen",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Publikacija erscheint = izlazi • Man zum Termin erscheint = stiže.",
+        "after": "Publikacija erscheint = izlazi • Ko se pojavi na zakazanom terminu, erscheint = dolazi/pojavljuje se.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-erscheinen",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Erscheinen nije samo fizički izgled • Za knjige i članke to znači 'izaći'.",
+        "after": "Erscheinen ne znači samo fizičko pojavljivanje; za knjige i članke znači „izaći”.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-feststellen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: utvrditi znači utvrditi ili utvrditi činjenicu ispitivanjem, posmatranjem ili analizom. Ovo nije isto što i postavljanje roka ili cijene unaprijed.",
+        "after": "Glavna ideja: feststellen znači ustanoviti ili konstatovati činjenicu nakon provjere, posmatranja ili analize. To nije isto što i unaprijed odrediti rok ili cijenu.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-fördern",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: förden znači promovirati razvoj ili podršku osobe, projekta ili procesa. U industriji to znači vađenje minerala kao što su nafta ili ugalj.",
+        "after": "Glavna ideja: fördern znači poticati razvoj ili podržavati osobu, projekt ili proces. U industriji znači vaditi sirovine, na primjer naftu ili ugalj.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-fressen",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Nemojte reći da ljudi \"gutaju\".",
+        "after": "Nemojte reći da ljudi „žderu“.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-futter",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Futter se daje životinjama • Futter jakna ima postavu.",
+        "after": "Futter se daje životinjama • Kod jakne Futter znači podstava.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-gelten",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: Gelten znači biti validan ili validan u određenom vremenu, mjestu ili situaciji. Konstrukcija gelten als znači biti posmatran kao nešto.",
+        "after": "Glavna ideja: Gelten znači važiti, biti na snazi ili biti važeći u određenom vremenu, mjestu ili situaciji. Konstrukcija gelten als znači biti posmatran kao nešto.",
+        "method": "substring_replace"
+      },
+      {
+        "cardId": "b1-gelten",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Biti validan / biti validan",
+        "after": "Važiti / biti na snazi / biti važeći",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-gelten",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Da se smatra kao",
+        "after": "Smatrati se / važiti kao",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-gemein",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: gemein najčešće znači nestašan, podo ili gadan u modernom svakodnevnom jeziku. \"Zajedničko\" je obično gemeinsam, a ne gemein.",
+        "after": "Glavna ideja: gemein najčešće znači pakostan, zao ili gadan u modernom svakodnevnom jeziku. \"Zajedničko\" je obično gemeinsam, a ne gemein.",
+        "method": "substring_replace"
+      },
+      {
+        "cardId": "b1-geschlecht",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: das Geschlecht znači rod kod ljudi ili životinja. U gramatici jezika to znači rod, kao što je muški, ženski ili nikakav rod.",
+        "after": "Glavna ideja: das Geschlecht znači spol kod ljudi ili životinja. U gramatici jezika znači gramatički rod., kao što je muški, ženski ili nikakav rod.",
+        "method": "substring_replace"
+      },
+      {
+        "cardId": "b1-geschlecht",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Rod / rod",
+        "after": "Spol / gramatički rod",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-gitter",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: das Gitter znači rešetka ili rešetka - struktura sa otvorima blizu prozora, vrata, kaveza ili ventilacije.",
+        "after": "Glavna ideja: das Gitter znači rešetka ili rešetke – struktura s otvorima na prozoru, vratima, kavezu ili ventilaciji.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-gut",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: das Gut znači posjed, posjed ili farma/vlasništvo. U množini, die Güter često znači dobra ili materijalne vrijednosti.",
+        "after": "Glavna ideja: das Gut znači posjed, imovinu ili imanje/vlastelinstvo. U množini, die Güter često znači robu ili materijalne vrijednosti.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-handeln",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Handelt von se koristi za temu filma, knjige ili teksta • To nije 'gluma'.",
+        "after": "Handelt von se koristi za temu filma, knjige ili teksta • To ne znači „djelovati” ili „postupati”.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-handgriff",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "U procesu rada, Handgriff je često jedan mali korak po ruci.",
+        "after": "U procesu rada Handgriff je često jedan mali korak koji se izvodi rukom.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hauen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: hauen kolokvijalno znači udariti, rezati ili udariti. Zvuči direktnije i grublje od neutralnog šlagena.",
+        "after": "Glavna ideja: hauen kolokvijalno znači udariti, sjeći ili zadati udarac. Zvuči direktnije i grublje od neutralnog glagola schlagen.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-herausgeben",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: herausgeben znači objaviti knjigu, novine ili informacije za javnost. U drugoj situaciji, to takođe može značiti dati ili dati nešto.",
+        "after": "Glavna ideja: herausgeben znači objaviti knjigu, novine ili informacije. U drugom kontekstu može značiti i izdati, uručiti ili predati nešto.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-herausgeben",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Molimo dostavite dokumente.",
+        "after": "Molimo, izdajte dokumente.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hinausgehen",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Hinaus- obično pokazuje kretanje van • Heraus- ovdje češće.",
+        "after": "hinaus- obično pokazuje kretanje van, dalje odavde; heraus- češće pokazuje kretanje van prema ovamo.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hinweis",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Uputstvo",
+        "after": "Napomena • Naznaka",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hinweis",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: der Hinweis je instrukcija, bilješka ili informacija koja vam pomaže da primijetite, shvatite ili pronađete nešto.",
+        "after": "Glavna ideja: der Hinweis je napomena, naznaka ili informacija koja pomaže da nešto primijetite, shvatite ili pronađete.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hinweis",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Hvala na instrukciji.",
+        "after": "Hvala na napomeni.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hinweis",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Na znaku je važno uputstvo.",
+        "after": "Na znaku je važna napomena.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hinweis",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Ovo uputstvo mi je puno pomoglo.",
+        "after": "Ova napomena mi je mnogo pomogla.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-hinweis",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Uputstvo / napomena",
+        "after": "Napomena / naznaka",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-jagen",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Lov / jurnjava / jurnjava",
+        "after": "Loviti / juriti / žuriti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-jagen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Požuri",
+        "after": "Žuriti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-jahrgang",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Godina izdanja",
+        "after": "Godište • Godišnje izdanje • Generacija",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-jahrgang",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: der Jahrgang povezuje osobu, vino, časopis ili grupu sa određenom godinom. To može biti godina rođenja, godina berbe, matura ili jednogodišnja grupa.",
+        "after": "Glavna ideja: der Jahrgang povezuje osobu, vino, časopis ili grupu s određenom godinom. To može biti godište, godina berbe, godišnje izdanje ili generacija iste godine.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-jahrgang",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Matura / grupa određene godine",
+        "after": "Godište / godišnje izdanje / generacija određene godine",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kader",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Spada u najbolje sportiste.",
+        "after": "Ona pripada sastavu najboljih sportista.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kippen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: kippen znači prevrnuti, prevrnuti se ili nagnuti tako da nešto izgubi ravnotežu. U prenesenom smislu, situacija ili raspoloženje mogu se preokrenuti i brzo promijeniti nabolje ili nagore, često nagore.",
+        "after": "Glavna ideja: kippen znači prevrnuti, prevrnuti se ili nagnuti tako da nešto izgubi ravnotežu. U prenesenom smislu, situacija ili raspoloženje mogu se brzo preokrenuti i promijeniti nagore.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kippen",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Ne naginje stolicu unazad.",
+        "after": "Ne naginji stolicu unazad.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kippen",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Kippen počinje naponom: čaša, stolica ili situacija gube ravnotežu.",
+        "after": "Kippen počinje naginjanjem: čaša, stolica ili situacija gube ravnotežu.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kippen",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Kipen nije jednostavno pao • Često je prvi nagib ili nagla promjena raspoloženja.",
+        "after": "Kippen nije jednostavno fallen: često prvo dolazi naginjanje ili nagla promjena raspoloženja.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-klappen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Operirati",
+        "after": "Funkcionirati / raditi",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kommando",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: das Kommando je komanda ili komanda, posebno u vojnoj, sportskoj ili organiziranoj situaciji. To također može značiti kontrolnu jedinicu.",
+        "after": "Glavna ideja: das Kommando je naredba ili komanda, posebno u vojnoj, sportskoj ili organiziranoj situaciji. Može značiti i zapovjednu jedinicu.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kunde-2",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: der Kunde znači kupac ili kupac. Na starijem ili književnom jeziku, die Kunde može značiti poruku ili poruku.",
+        "after": "Glavna ideja: der Kunde znači klijent ili kupac. U starijem ili književnom jeziku die Kunde može značiti vijest ili obavijest.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kürze",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Kratko",
+        "after": "Kratak",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-laden",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Učitati",
+        "after": "Natovariti / opteretiti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-lager",
+        "field": "study.tip",
+        "severity": "HIGH",
+        "before": "Roba se čuva u → das Lager.",
+        "after": "Roba se čuva u skladištu → das Lager.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-inhalt",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Volumen",
+        "after": "Obim / opseg",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kante",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: die Kante je ivica ili faset predmeta. To nije obična teritorijalna granica, već fizička oštra ili jasna ivica.",
+        "after": "Glavna ideja: die Kante je ivica ili brid predmeta. To nije obična teritorijalna granica, već fizička oštra ili jasno određena ivica.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Kesten",
+        "after": "Kestenovo drvo / drvo kestena",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.important",
+        "severity": "HIGH",
+        "before": "U bosanskom jeziku često je potrebno razlikovati kesten kao drvo i kesten kao voće.",
+        "after": "U latvijskom jeziku često treba razlikovati kastanis kao drvo i kastaņa kao plod.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-kosten-study",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Cijena je vrlo visoka.",
+        "after": "Troškovi su vrlo visoki.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-laut-study",
+        "field": "study.examples[3].lv",
+        "severity": "HIGH",
+        "before": "Veoma je glasan.",
+        "after": "Veoma je glasno.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-macht",
+        "field": "study.tip",
+        "severity": "HIGH",
+        "before": "Die Macht, a ne die Kraft, razmišlja u politici i uticaju.",
+        "after": "U politici i kada je riječ o uticaju, mislite na die Macht, a ne na die Kraft.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-nachgeben",
+        "field": "study.tip",
+        "severity": "HIGH",
+        "before": "Gurnite i odmaknite se: nachgeben.",
+        "after": "Pritisak i korak unazad: nachgeben.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-neigung",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Nagib • Takođe nagib",
+        "after": "Padina/nagib • također sklonost",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-nerven",
+        "field": "study.important",
+        "severity": "HIGH",
+        "before": "Nerven je pričljiv. U formalnijoj situaciji, stören je često sigurniji.",
+        "after": "Nerven je razgovoran/kolokvijalan. U formalnijoj situaciji često je sigurnije upotrijebiti stören.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-nieder",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Dole, na tlu, ugašeno",
+        "after": "Dolje, na tlu, prema dolje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-nüchtern",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Praktično",
+        "after": "Objektivno / činjenično",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-nutzen-study",
+        "field": "study.examples[3].lv",
+        "severity": "HIGH",
+        "before": "To ne čini dobro.",
+        "after": "Od toga nema nikakve koristi. / To ne donosi nikakvu korist.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-ohnmacht",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: die Ohnmacht znači nesvjestica ili nesvjestica. U prenesenom smislu, može značiti i nemoć.",
+        "after": "Glavna ideja: die Ohnmacht znači nesvijest ili nesvjesticu. U prenesenom smislu može značiti i nemoć.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-ohnmacht",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Nesvjestica",
+        "after": "Nesvijest",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-pochen",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Da kucam",
+        "after": "Kucati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-posten",
+        "field": "study.tip",
+        "severity": "HIGH",
+        "before": "Pozicija ili budžetska linija: der Posten • Mail: die Post.",
+        "after": "Pozicija ili budžetska linija: der Posten • pošta: die Post.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-rang",
+        "field": "study.important",
+        "severity": "HIGH",
+        "before": "U pozorištu, Rang može biti nivo balkona, a ne rang.",
+        "after": "U pozorištu Rang može značiti nivo balkona, a ne vojni ili službeni čin.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-räumen",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Policija čisti ulicu.",
+        "after": "Policija raščišćava ulicu.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-rausch",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Intoksikacija",
+        "after": "Opijenost",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-rausch",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Vrtoglavica je polako prošla.",
+        "after": "Opijenost je polako prošla.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-rausch",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Intoksikacija, intoksikacija",
+        "after": "Opijenost, stanje opijenosti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-reizen",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Da iritira",
+        "after": "Iritirati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-reizen",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Njegove riječi su me iznervirale.",
+        "after": "Njene riječi su me iznervirale.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-rollen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: rollen znači motati se ili nešto motati. Značenje je određeno time da li postoji neki objekat.",
+        "after": "Glavna ideja: rollen znači kotrljati se ili kotrljati/valjati nešto. Značenje ovisi o tome ima li glagol objekt.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-rollen",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Kotrljaj, rolaj, rolaj",
+        "after": "Kotrljati se, kotrljati, valjati",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-rüsten",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Pripremiti",
+        "after": "Pripremiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-rüsten",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: rüsten znači pripremiti ili opremiti. U vojnom kontekstu, to znači naoružati ili naoružati.",
+        "after": "Glavna ideja: rüsten znači pripremiti se ili opremiti. U vojnom kontekstu može značiti naoružati se ili naoružati nekoga.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schimmel",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Kalup",
+        "after": "Plijesan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schimmel",
+        "field": "study.tip",
+        "severity": "HIGH",
+        "before": "Zid ili hrana: Schimmel = kalup.",
+        "after": "Zid ili hrana: Schimmel = plijesan.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schmieren",
+        "field": "study.tip",
+        "severity": "HIGH",
+        "before": "Mast, puter, ulje ili mast → schmieren.",
+        "after": "Mast, puter, ulje ili neuredno šaranje → schmieren.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schnitt",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Rezanje, rezanje, montaža",
+        "after": "Rez, kroj, montaža",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schuldig",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Kriv • Duguje",
+        "after": "Kriv • dužan",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-schwanken",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Pokolebati, sumnjati",
+        "after": "Kolebati se, dvoumiti se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-senden",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Šaljem vam poruku.",
+        "after": "Šaljem ti poruku.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-senken",
+        "field": "study.tip",
+        "severity": "HIGH",
+        "before": "Neko nešto spušta: senken • Nešto pada samo od sebe: tone.",
+        "after": "Neko nešto spušta: senken • Nešto samo od sebe pada ili se spušta: sinken.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-senken",
+        "field": "study.important",
+        "severity": "HIGH",
+        "before": "Senken je sa objektom • Potonuće se obično dešava samo od sebe.",
+        "after": "Senken je s objektom • Sinken se obično dešava samo od sebe.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sitz",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: der Sitz znači sjedište ili sjedište. Za kompaniju ili instituciju to znači prebivalište.",
+        "after": "Glavna ideja: der Sitz znači sjedalo ili mjesto za sjedenje. Za kompaniju ili instituciju znači sjedište.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sperren",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Dajem blokirati svoju karticu.",
+        "after": "Dajem da mi blokiraju karticu.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-spitze",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Ona je zadužena za kompaniju.",
+        "after": "Ona je na čelu kompanije.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-strom",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Energije",
+        "after": "Energija",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Tank",
+        "after": "Rezervoar",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Tank",
+        "after": "Rezervoar",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Plovilo, cisterna",
+        "after": "Posuda, spremnik",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-teilnehmen",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Sudjelovati u nečemu: an + kam? učestvovati.",
+        "after": "Učestvovati u nečemu: an + Dativ teilnehmen.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-ton",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "In einem Ton govorenje znači način govora, a ne samo visina.",
+        "after": "Izraz „in einem Ton“ odnosi se na način govora, a ne samo na visinu tona.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-trauen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: vjerovati znači vjerovati nekome ili vjerovati da neko može nešto učiniti. sich trauen znači usuditi se.",
+        "after": "Glavna ideja: trauen znači vjerovati nekome ili vjerovati da neko može nešto učiniti. sich trauen znači usuditi se.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-trauen",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Vjerovati, vjerovati u svoje sposobnosti",
+        "after": "Vjerovati nekome • vjerovati da neko nešto može",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-trauen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Da dublje veruje",
+        "after": "Imati dublje povjerenje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-treffen-study",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Dogovorimo sastanak.",
+        "after": "Organiziramo sastanak.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-treiben",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Sta radis je kolokvijalno pitanje o tome šta osoba radi.",
+        "after": "„Was treibst du?“ je kolokvijalno pitanje o tome šta osoba radi.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-übergeben",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Dajem ti kljuc.",
+        "after": "Predajem ti ključ.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-übergeben",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Doktor daje nalaz kolegi.",
+        "after": "Doktorica predaje izvještaj kolegi.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-umschlag",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Poklopac",
+        "after": "Navlaka",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verändern",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Taj potez mu je promijenio život.",
+        "after": "Preseljenje mu je promijenilo život.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verändern",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Ako nešto postane drugačije, često se koristi veränderen.",
+        "after": "Ako nešto postane drugačije, često se koristi verändern.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verbindung",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Vezu",
+        "after": "Veza",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verbindung",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "before": "Ima direktnu vezu sa Berlinom.",
+        "after": "Postoji direktna veza za Berlin.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verbindung",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Vezu",
+        "after": "Priključak",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verbrennen",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Sich die Hand verbrennen znači spaliti ruku, a ne spaliti ruku do kraja.",
+        "after": "Sich die Hand verbrennen znači opeći ruku, a ne spaliti je u potpunosti.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verderben",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: verderben znači pokvariti nešto ili pokvariti sebe. Za hranu to često znači da više nije jestivo.",
+        "after": "Glavna ideja: verderben znači pokvariti nešto ili pokvariti se. Za hranu to često znači da više nije jestiva.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verderben",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Kiša kvari vožnju.",
+        "after": "Kiša kvari izlet.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-verlegen",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Termin verlegen = prenijeti • Schlüssel verlegen = staviti negdje i ne naći.",
+        "after": "Termin verlegen = pomjeriti / odgoditi termin • Schlüssel verlegen = staviti negdje i ne moći ga pronaći.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-versichern",
+        "field": "study.important.text",
+        "severity": "HIGH",
+        "before": "Ich versichere dir znači da vas uvjeravam, a ne da vas osiguravam.",
+        "after": "Ich versichere dir znači „uvjeravam te“ ili „potvrđujem ti“, a ne „osiguravam te“.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-vorkommen",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Da se desi",
+        "after": "Desiti se / dogoditi se",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-vorstellung",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Performanse, performanse",
+        "after": "Predstava, izvođenje",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-wechsel",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: der Wechsel znači promjena ili promjena. U posebnim frazama kao što je devizni kurs, značenje postaje specifično.",
+        "after": "Glavna ideja: der Wechsel znači smjenu ili promjenu. U posebnim frazama, kao što je Wechselkurs, značenje postaje specifično.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-wenden",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: wenden znači okrenuti se ili okrenuti. sich an jemanden wenden znači obratiti se nekome.",
+        "after": "Glavna ideja: wenden znači okrenuti ili preokrenuti. Sich an jemanden wenden znači obratiti se nekome.",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-wenden",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Okrenuti se, okrenuti se",
+        "after": "Okrenuti, preokrenuti",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-werben",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Podnijeti zahtjev",
+        "after": "Podnijeti reklamaciju / uložiti prigovor",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-anstatt-zu",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Umjesto",
+        "after": "Umjesto da",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-ohne-zu",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Bez da nešto uradiš • a da nešto ne uradiš",
+        "after": "A da ne ... / bez + imenica",
+        "method": "replace"
+      },
+      {
+        "cardId": "b1-sich-befinden-study",
+        "field": "study.comparison[4].meaning",
+        "severity": "HIGH",
+        "before": "Osetiti",
+        "after": "Osjećati se",
+        "method": "replace"
+      }
+    ]
+  }
+}

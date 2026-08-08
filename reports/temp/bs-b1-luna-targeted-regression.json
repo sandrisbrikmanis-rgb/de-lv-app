@@ -1,0 +1,2593 @@
+{
+  "generatedAt": "2026-08-08T08:44:37.013Z",
+  "purpose": "GPT-5.6 Luna targeted regression audit (post fix pass)",
+  "totalCards": 328,
+  "studyCardsWithTextChanges": [
+    "b1-abbrechen",
+    "b1-abdecken",
+    "b1-abhängen",
+    "b1-ablegen",
+    "b1-abschluss",
+    "b1-absetzen",
+    "b1-angeben",
+    "b1-anschluss",
+    "b1-anstatt-zu",
+    "b1-aufführen",
+    "b1-auftrag",
+    "b1-auszug",
+    "b1-ausüben",
+    "b1-becken",
+    "b1-bedeutend",
+    "b1-behandeln",
+    "b1-beraten",
+    "b1-berichten",
+    "b1-beruf",
+    "b1-betrieb",
+    "b1-beziehen",
+    "b1-blase",
+    "b1-block",
+    "b1-botschaft",
+    "b1-dadurch",
+    "b1-dagegen",
+    "b1-daher",
+    "b1-dahin",
+    "b1-dank-study",
+    "b1-daran",
+    "b1-darstellen",
+    "b1-darunter",
+    "b1-durchführen",
+    "b1-einbrechen",
+    "b1-eindeutig",
+    "b1-einfarbig",
+    "b1-einheit",
+    "b1-einholen",
+    "b1-einsatz",
+    "b1-einsetzen",
+    "b1-einstellen",
+    "b1-empfangen",
+    "b1-enthalten",
+    "b1-entkommen",
+    "b1-entlassen",
+    "b1-entsprechen",
+    "b1-entstehen",
+    "b1-erhalten",
+    "b1-erscheinen",
+    "b1-eröffnen",
+    "b1-feststellen",
+    "b1-fressen",
+    "b1-futter",
+    "b1-fördern",
+    "b1-gelten",
+    "b1-gemein",
+    "b1-geschlecht",
+    "b1-gitter",
+    "b1-gut",
+    "b1-handeln",
+    "b1-handgriff",
+    "b1-hauen",
+    "b1-herausgeben",
+    "b1-hinausgehen",
+    "b1-hinweis",
+    "b1-inhalt",
+    "b1-jagen",
+    "b1-jahrgang",
+    "b1-kader",
+    "b1-kante",
+    "b1-kastanie",
+    "b1-kippen",
+    "b1-klappen",
+    "b1-knapp",
+    "b1-kommando",
+    "b1-kosten-study",
+    "b1-kunde",
+    "b1-kunde-2",
+    "b1-kürze",
+    "b1-laden",
+    "b1-lager",
+    "b1-laut-study",
+    "b1-macht",
+    "b1-nachgeben",
+    "b1-neigung",
+    "b1-nerven",
+    "b1-nieder",
+    "b1-nutzen-study",
+    "b1-nüchtern",
+    "b1-ohne-zu",
+    "b1-ohnmacht",
+    "b1-pflegen",
+    "b1-pochen",
+    "b1-posten",
+    "b1-rang",
+    "b1-rausch",
+    "b1-reizen",
+    "b1-rollen",
+    "b1-räumen",
+    "b1-rüsten",
+    "b1-schimmel",
+    "b1-schmieren",
+    "b1-schnitt",
+    "b1-schuldig",
+    "b1-schwanken",
+    "b1-senden",
+    "b1-senken",
+    "b1-sich-aufhalten",
+    "b1-sich-bedienen",
+    "b1-sich-befinden-study",
+    "b1-sich-bemühen",
+    "b1-sitz",
+    "b1-sperren",
+    "b1-spitze",
+    "b1-sprung",
+    "b1-stand",
+    "b1-stellung",
+    "b1-streichen",
+    "b1-strom",
+    "b1-tank",
+    "b1-teilnehmen",
+    "b1-ton",
+    "b1-trauen",
+    "b1-treffen-study",
+    "b1-treiben",
+    "b1-umgehen",
+    "b1-umschlag",
+    "b1-verband",
+    "b1-verbindung",
+    "b1-verbrennen",
+    "b1-verderben",
+    "b1-verlegen",
+    "b1-versichern",
+    "b1-verändern",
+    "b1-vorkommen",
+    "b1-vorstellung",
+    "b1-wechsel",
+    "b1-wenden",
+    "b1-werben",
+    "b1-werk",
+    "b1-zusammenhang",
+    "b1-zünden",
+    "b1-übergeben",
+    "b1-übersehen"
+  ],
+  "criticalCards": [
+    "b1-hobeln-1285",
+    "b1-See-2572",
+    "b1-Tonne-2897",
+    "b1-Weise-3228"
+  ],
+  "realCacheCollisionCards": [
+    "b1-Abhängigkeit-55",
+    "b1-Brühe-510",
+    "b1-Energie-3322",
+    "b1-Fleischbrühe-907",
+    "b1-Fläche-904",
+    "b1-Generation-1058",
+    "b1-Kluft-1540",
+    "b1-Korken-1589",
+    "b1-Oberfläche-2006",
+    "b1-Pfropfen-2106",
+    "b1-Riss-2324",
+    "b1-Sucht-2822",
+    "b1-angeben",
+    "b1-anschluss",
+    "b1-anstatt-zu",
+    "b1-aufführen",
+    "b1-behandeln",
+    "b1-bemerken",
+    "b1-beraten",
+    "b1-beruf",
+    "b1-blase",
+    "b1-botschaft",
+    "b1-einholen",
+    "b1-einordnen-696",
+    "b1-einsehen-706",
+    "b1-einsetzen",
+    "b1-feststellen",
+    "b1-geschlecht",
+    "b1-integrieren-1383",
+    "b1-jahrgang",
+    "b1-knapp",
+    "b1-kunde",
+    "b1-kürze",
+    "b1-nachgeben",
+    "b1-nächstens-1949",
+    "b1-ohne-zu",
+    "b1-pflegen",
+    "b1-rausch",
+    "b1-reinigen-2270",
+    "b1-schmieren",
+    "b1-schnitt",
+    "b1-sich scheiden-3354",
+    "b1-sich-bedienen",
+    "b1-sitz",
+    "b1-sprung",
+    "b1-stand",
+    "b1-stellung",
+    "b1-stramm-2783",
+    "b1-streichen",
+    "b1-streng-2796",
+    "b1-strom",
+    "b1-trennen",
+    "b1-umgehen",
+    "b1-verband",
+    "b1-verbindung",
+    "b1-verbrennen",
+    "b1-werk",
+    "b1-zugeben",
+    "b1-zusammenhang",
+    "b1-zünden",
+    "b1-überholen",
+    "b1-übersehen"
+  ],
+  "allCardIds": [
+    "b1-Abgang-47",
+    "b1-Abhängigkeit-55",
+    "b1-Anrede-129",
+    "b1-Anwender-162",
+    "b1-Armee-168",
+    "b1-Auflauf-179",
+    "b1-Aufsehen-188",
+    "b1-Auftritt-201",
+    "b1-Autoabgase-227",
+    "b1-Barsch-243",
+    "b1-Basis-244",
+    "b1-Besuchszeit-400",
+    "b1-Brühe-510",
+    "b1-Bulette-524",
+    "b1-Bühne-523",
+    "b1-Chipkarte-543",
+    "b1-Dampf-558",
+    "b1-Diskussion-596",
+    "b1-Dotter-602",
+    "b1-Draht-604",
+    "b1-Dummheit-620",
+    "b1-Dummkopf-621",
+    "b1-Eigentum-655",
+    "b1-Eiweiß-733",
+    "b1-Energie-3322",
+    "b1-Fleischbrühe-907",
+    "b1-Fläche-904",
+    "b1-Fußnote-971",
+    "b1-Führer-961",
+    "b1-Gegner-1026",
+    "b1-Gehör-1032",
+    "b1-Gelächter-1040",
+    "b1-Gelände-1041",
+    "b1-Genehmigung-1057",
+    "b1-Generation-1058",
+    "b1-Getreide-1097",
+    "b1-Gleis-1128",
+    "b1-Gummischuh-1163",
+    "b1-Kabelkanal-1440",
+    "b1-Karteizettel-1478",
+    "b1-Kluft-1540",
+    "b1-Knoblauchzehe-1552",
+    "b1-Korken-1589",
+    "b1-Kröte-1646",
+    "b1-Kultur-1656",
+    "b1-Kursbuch-1680",
+    "b1-Ladendieb-1701",
+    "b1-Leckerbissen-1742",
+    "b1-Lesekarte-1766",
+    "b1-Lieferwagen-1777",
+    "b1-Lizenz-1786",
+    "b1-Länderspiel-1716",
+    "b1-Magenkrampf-1615",
+    "b1-Maskenfest-1843",
+    "b1-Muskel-1934",
+    "b1-Muskelkrampf-1614",
+    "b1-Müllkippe-1924",
+    "b1-Neuigkeit-1979",
+    "b1-Oberfläche-2006",
+    "b1-Ochse-2013",
+    "b1-Orgel-2041",
+    "b1-Ozon-2048",
+    "b1-Pfropfen-2106",
+    "b1-Pförtner-2104",
+    "b1-Pilger-2111",
+    "b1-Ranzen-2214",
+    "b1-Raucherabteil-2233",
+    "b1-Riegel-2309",
+    "b1-Riss-2324",
+    "b1-Sanitäter-2385",
+    "b1-Schnaps-2491",
+    "b1-Schuhwerk-2525",
+    "b1-Schutzhülle-2536",
+    "b1-Schwung-2570",
+    "b1-See-2572",
+    "b1-Siedlung-2619",
+    "b1-Sorte-2658",
+    "b1-Springer-2702",
+    "b1-Strandkorb-2784",
+    "b1-Streife-2791",
+    "b1-Streifen-2792",
+    "b1-Sucht-2822",
+    "b1-Säugling-2394",
+    "b1-Taktik-2838",
+    "b1-Tat-2848",
+    "b1-Tiefkühlfach-2888",
+    "b1-Tonne-2897",
+    "b1-Trauung-2909",
+    "b1-Tropen-2926",
+    "b1-Umfang-2971",
+    "b1-Umweg-2986",
+    "b1-Unterführung-3021",
+    "b1-Unwetter-3033",
+    "b1-Weise-3228",
+    "b1-abbrechen",
+    "b1-abdecken",
+    "b1-abhängen",
+    "b1-ablegen",
+    "b1-abschluss",
+    "b1-absetzen",
+    "b1-angeben",
+    "b1-anliegend-122",
+    "b1-anschluss",
+    "b1-ansehnlich-144",
+    "b1-anstatt-zu",
+    "b1-anstiften-149",
+    "b1-aufführen",
+    "b1-aufrecht-181",
+    "b1-auftrag",
+    "b1-austrocknen-217",
+    "b1-auszug",
+    "b1-ausüben",
+    "b1-becken",
+    "b1-bedeutend",
+    "b1-befestigen-274",
+    "b1-befühlen-283",
+    "b1-behandeln",
+    "b1-bekämpfen-324",
+    "b1-bemerken",
+    "b1-beraten",
+    "b1-berichten",
+    "b1-beruf",
+    "b1-betrieb",
+    "b1-bewachen-420",
+    "b1-beziehen",
+    "b1-blase",
+    "b1-block",
+    "b1-botschaft",
+    "b1-dadurch",
+    "b1-dagegen",
+    "b1-daher",
+    "b1-dahin",
+    "b1-dank-study",
+    "b1-daran",
+    "b1-darstellen",
+    "b1-darunter",
+    "b1-derselbe-578",
+    "b1-desto-579",
+    "b1-dieselbe-591",
+    "b1-dritt-610",
+    "b1-durchführen",
+    "b1-eilen-658",
+    "b1-einatmen-660",
+    "b1-einbrechen",
+    "b1-eindeutig",
+    "b1-einfarbig",
+    "b1-einheit",
+    "b1-einholen",
+    "b1-einordnen-696",
+    "b1-einsatz",
+    "b1-einsehen-706",
+    "b1-einsetzen",
+    "b1-einstellen",
+    "b1-einstürzen-714",
+    "b1-empfangen",
+    "b1-enthalten",
+    "b1-entkommen",
+    "b1-entlassen",
+    "b1-entsprechen",
+    "b1-entstehen",
+    "b1-erhalten",
+    "b1-erneuern-809",
+    "b1-erscheinen",
+    "b1-eröffnen",
+    "b1-explodieren-847",
+    "b1-feige-880",
+    "b1-fernbleiben-885",
+    "b1-feststellen",
+    "b1-fliehen-910",
+    "b1-fortbleiben-936",
+    "b1-fortlaufen-938",
+    "b1-fressen",
+    "b1-futter",
+    "b1-fördern",
+    "b1-gefühllos-1020",
+    "b1-gelten",
+    "b1-gemein",
+    "b1-geschlecht",
+    "b1-gitter",
+    "b1-glänzen-1117",
+    "b1-grob-1150",
+    "b1-gut",
+    "b1-gutmachen-1167",
+    "b1-gönnen-1133",
+    "b1-handeln",
+    "b1-handgriff",
+    "b1-hauen",
+    "b1-heimlich-1233",
+    "b1-herausgeben",
+    "b1-hinaufgehen-1266",
+    "b1-hinausgehen",
+    "b1-hinweis",
+    "b1-hobeln-1285",
+    "b1-hörbar-1308",
+    "b1-impfen-1346",
+    "b1-inhalt",
+    "b1-innerlich-1372",
+    "b1-integrieren-1383",
+    "b1-jagen",
+    "b1-jahrgang",
+    "b1-kader",
+    "b1-kante",
+    "b1-kastanie",
+    "b1-kippen",
+    "b1-klappen",
+    "b1-klebrig-1524",
+    "b1-knapp",
+    "b1-kommando",
+    "b1-kosten-study",
+    "b1-krümmen-1650",
+    "b1-kulturell-1657",
+    "b1-kunde",
+    "b1-kunde-2",
+    "b1-kürze",
+    "b1-laden",
+    "b1-lager",
+    "b1-laut-study",
+    "b1-lenken-1763",
+    "b1-locken-1789",
+    "b1-macht",
+    "b1-mahlen-1818",
+    "b1-meistern-1862",
+    "b1-miserabel-1880",
+    "b1-munter-1930",
+    "b1-mustern-1935",
+    "b1-mutlos-1936",
+    "b1-mündig-1927",
+    "b1-nachdem",
+    "b1-nachgeben",
+    "b1-neigung",
+    "b1-nerven",
+    "b1-nieder",
+    "b1-nutzen-study",
+    "b1-nutzlos-2002",
+    "b1-nächstens-1949",
+    "b1-nüchtern",
+    "b1-ohne-zu",
+    "b1-ohnmacht",
+    "b1-pflegen",
+    "b1-pochen",
+    "b1-posten",
+    "b1-rang",
+    "b1-ratlos-2227",
+    "b1-rausch",
+    "b1-reinigen-2270",
+    "b1-reizen",
+    "b1-reizend-2280",
+    "b1-relativ-2286",
+    "b1-respektieren-2296",
+    "b1-rollen",
+    "b1-räumen",
+    "b1-rüsten",
+    "b1-rütteln-2369",
+    "b1-schaufeln-2414",
+    "b1-schimmel",
+    "b1-schimmern-2437",
+    "b1-schlachten-2441",
+    "b1-schleudern-2462",
+    "b1-schmieren",
+    "b1-schnitt",
+    "b1-schuldig",
+    "b1-schwanken",
+    "b1-senden",
+    "b1-senken",
+    "b1-sich bessern-392",
+    "b1-sich einmischen-693",
+    "b1-sich entschließen-3346",
+    "b1-sich lohnen-1795",
+    "b1-sich scheiden-3354",
+    "b1-sich vergnügen-3356",
+    "b1-sich versammeln-3101",
+    "b1-sich versorgen-3110",
+    "b1-sich verstärken-3117",
+    "b1-sich wenden-3242",
+    "b1-sich äußern-207",
+    "b1-sich-aufhalten",
+    "b1-sich-bedienen",
+    "b1-sich-befinden-study",
+    "b1-sich-bemühen",
+    "b1-sitz",
+    "b1-speien-2677",
+    "b1-sperren",
+    "b1-spitze",
+    "b1-sprung",
+    "b1-spucken-2710",
+    "b1-stand",
+    "b1-stellung",
+    "b1-stramm-2783",
+    "b1-strecken-2788",
+    "b1-streichen",
+    "b1-streng-2796",
+    "b1-strom",
+    "b1-stupid-2814",
+    "b1-tank",
+    "b1-teilnehmen",
+    "b1-ton",
+    "b1-trauen",
+    "b1-treffen-study",
+    "b1-treiben",
+    "b1-trennen",
+    "b1-trübe-2931",
+    "b1-umgehen",
+    "b1-umkehren-2977",
+    "b1-umschlag",
+    "b1-unbequem-2992",
+    "b1-verband",
+    "b1-verbindung",
+    "b1-verbrennen",
+    "b1-verderben",
+    "b1-verkürzen-3084",
+    "b1-verlegen",
+    "b1-versichern",
+    "b1-verwechseln-3134",
+    "b1-verändern",
+    "b1-vorkommen",
+    "b1-vorstellung",
+    "b1-wechsel",
+    "b1-wenden",
+    "b1-werben",
+    "b1-werk",
+    "b1-zugeben",
+    "b1-zusammenhang",
+    "b1-zünden",
+    "b1-Übergang-2948",
+    "b1-übergeben",
+    "b1-überholen",
+    "b1-überreden-2956",
+    "b1-übersehen"
+  ],
+  "fieldChanges": [
+    {
+      "cardId": "b1-Abgang-47",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-anliegend-122",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Anrede-129",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-ansehnlich-144",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-anstiften-149",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Anwender-162",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Armee-168",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Auflauf-179",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-aufrecht-181",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Aufsehen-188",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Auftritt-201",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich äußern-207",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-austrocknen-217",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Autoabgase-227",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Barsch-243",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Basis-244",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-befestigen-274",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-befühlen-283",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-bekämpfen-324",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich bessern-392",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Besuchszeit-400",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-bewachen-420",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Bühne-523",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Bulette-524",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Chipkarte-543",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Dampf-558",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-derselbe-578",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-desto-579",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-dieselbe-591",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Diskussion-596",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Dotter-602",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Draht-604",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-dritt-610",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Dummheit-620",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Dummkopf-621",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Eigentum-655",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-eilen-658",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einatmen-660",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich einmischen-693",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einstürzen-714",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Eiweiß-733",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-erneuern-809",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-explodieren-847",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-feige-880",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-fernbleiben-885",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Fläche-904",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-fliehen-910",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-fortbleiben-936",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-fortlaufen-938",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Führer-961",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Fußnote-971",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Gelächter-1040",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-gefühllos-1020",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Gegner-1026",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Gehör-1032",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Gelände-1041",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Genehmigung-1057",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Generation-1058",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Getreide-1097",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-glänzen-1117",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Gleis-1128",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-gönnen-1133",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-grob-1150",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Gummischuh-1163",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-gutmachen-1167",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-heimlich-1233",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hinaufgehen-1266",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hobeln-1285",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hörbar-1308",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-impfen-1346",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-innerlich-1372",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Kabelkanal-1440",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Karteizettel-1478",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-klebrig-1524",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Knoblauchzehe-1552",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Korken-1589",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Muskelkrampf-1614",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Magenkrampf-1615",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Kröte-1646",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-krümmen-1650",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Kultur-1656",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kulturell-1657",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Kursbuch-1680",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Ladendieb-1701",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Länderspiel-1716",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Leckerbissen-1742",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-lenken-1763",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Lesekarte-1766",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Lieferwagen-1777",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-locken-1789",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Lizenz-1786",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich lohnen-1795",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-mahlen-1818",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Maskenfest-1843",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-meistern-1862",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-miserabel-1880",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Müllkippe-1924",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-mündig-1927",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-munter-1930",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Muskel-1934",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-mustern-1935",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-mutlos-1936",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Neuigkeit-1979",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-nutzlos-2002",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Ochse-2013",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Orgel-2041",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Ozon-2048",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Pförtner-2104",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Pilger-2111",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Ranzen-2214",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-ratlos-2227",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Raucherabteil-2233",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-reizend-2280",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-relativ-2286",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-respektieren-2296",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Riegel-2309",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-rütteln-2369",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Sanitäter-2385",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Säugling-2394",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schaufeln-2414",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schimmern-2437",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schlachten-2441",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schleudern-2462",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Schnaps-2491",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Schutzhülle-2536",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Schuhwerk-2525",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Schwung-2570",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-See-2572",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Siedlung-2619",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Sorte-2658",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-speien-2677",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Springer-2702",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-spucken-2710",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Strandkorb-2784",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-strecken-2788",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Streife-2791",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Streifen-2792",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-stupid-2814",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Taktik-2838",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Tat-2848",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Tiefkühlfach-2888",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Tonne-2897",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Trauung-2909",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Tropen-2926",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-trübe-2931",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Übergang-2948",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-überreden-2956",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Umfang-2971",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-umkehren-2977",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Umweg-2986",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-unbequem-2992",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Unterführung-3021",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Unwetter-3033",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verkürzen-3084",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich versammeln-3101",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich versorgen-3110",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich verstärken-3117",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verwechseln-3134",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-Weise-3228",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich wenden-3242",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich entschließen-3346",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich scheiden-3354",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich vergnügen-3356",
+      "field": "lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-angeben",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-abbrechen",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-abdecken",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-abhängen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-abhängen",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-ablegen",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-abschluss",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-absetzen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-absetzen",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-auftrag",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-aufführen",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-aufführen",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich-aufhalten",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-ausüben",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-ausüben",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-auszug",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-auszug",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-auszug",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-becken",
+      "field": "study.examples[0].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-becken",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-bedeutend",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich-bedienen",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-behandeln",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich-bemühen",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-berichten",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-berichten",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-berichten",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-betrieb",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-beziehen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-beziehen",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-block",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-botschaft",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-dadurch",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-dagegen",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-daher",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-dahin",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-dank-study",
+      "field": "study.examples[4].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-dank-study",
+      "field": "study.examples[5].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-daran",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-darstellen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-darstellen",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-darunter",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-darunter",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-darunter",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-darunter",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-durchführen",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-durchführen",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einbrechen",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-eindeutig",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-eindeutig",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einfarbig",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einfarbig",
+      "field": "study.examples[0].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einfarbig",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einheit",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einholen",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einsatz",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einsetzen",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-einstellen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-empfangen",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-empfangen",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-enthalten",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-enthalten",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-entkommen",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-entkommen",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-entkommen",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-entlassen",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-entsprechen",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-entsprechen",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-entstehen",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-entstehen",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-entstehen",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-erhalten",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-erhalten",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-eröffnen",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-eröffnen",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-eröffnen",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-erscheinen",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-erscheinen",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-erscheinen",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-feststellen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-fördern",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-fressen",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-futter",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-gelten",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-gelten",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-gelten",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-gemein",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-geschlecht",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-geschlecht",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-gitter",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-gut",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-handeln",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-handgriff",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hauen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-herausgeben",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-herausgeben",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hinausgehen",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hinweis",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hinweis",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hinweis",
+      "field": "study.examples[0].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hinweis",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hinweis",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-hinweis",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-jagen",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-jagen",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-jahrgang",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-jahrgang",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-jahrgang",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kader",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kippen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kippen",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kippen",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kippen",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-klappen",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kommando",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kunde-2",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kürze",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-laden",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-lager",
+      "field": "study.tip",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-inhalt",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kante",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kastanie",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kastanie",
+      "field": "study.important",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-kosten-study",
+      "field": "study.examples[0].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-laut-study",
+      "field": "study.examples[3].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-macht",
+      "field": "study.tip",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-nachgeben",
+      "field": "study.tip",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-neigung",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-nerven",
+      "field": "study.important",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-nieder",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-nüchtern",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-nutzen-study",
+      "field": "study.examples[3].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-ohnmacht",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-ohnmacht",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-pochen",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-posten",
+      "field": "study.tip",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-rang",
+      "field": "study.important",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-räumen",
+      "field": "study.examples[0].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-rausch",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-rausch",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-rausch",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-reizen",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-reizen",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-rollen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-rollen",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-rüsten",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-rüsten",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schimmel",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schimmel",
+      "field": "study.tip",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schmieren",
+      "field": "study.tip",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schnitt",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schuldig",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-schwanken",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-senden",
+      "field": "study.examples[0].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-senken",
+      "field": "study.tip",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-senken",
+      "field": "study.important",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sitz",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sperren",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-spitze",
+      "field": "study.examples[2].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-strom",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-tank",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-tank",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-tank",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-teilnehmen",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-ton",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-trauen",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-trauen",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-trauen",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-treffen-study",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-treiben",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-übergeben",
+      "field": "study.examples[0].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-übergeben",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-umschlag",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verändern",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verändern",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verbindung",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verbindung",
+      "field": "study.examples[1].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verbindung",
+      "field": "study.comparison[1].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verbrennen",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verderben",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verderben",
+      "field": "study.examples[0].lv",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-verlegen",
+      "field": "study.tip.leftBlocks[0].text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-versichern",
+      "field": "study.important.text",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-vorkommen",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-vorstellung",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-wechsel",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-wenden",
+      "field": "study.explanation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-wenden",
+      "field": "study.comparison[0].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-werben",
+      "field": "study.comparison[2].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-anstatt-zu",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-ohne-zu",
+      "field": "study.translation",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.comparison[4].meaning",
+      "source": "critical_high_fix"
+    },
+    {
+      "cardId": "b1-aufführen",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-rausch",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-Sucht-2822",
+      "field": "lv",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-anschluss",
+      "field": "study.comparison[1].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-verband",
+      "field": "study.comparison[2].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-verbindung",
+      "field": "study.comparison[0].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-zusammenhang",
+      "field": "study.comparison[1].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-sich-bedienen",
+      "field": "study.comparison[2].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-einsetzen",
+      "field": "study.comparison[1].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-behandeln",
+      "field": "study.comparison[0].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-umgehen",
+      "field": "study.comparison[1].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-behandeln",
+      "field": "study.comparison[2].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-beraten",
+      "field": "study.comparison[2].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-feststellen",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-übersehen",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-blase",
+      "field": "study.comparison[1].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-schnitt",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-kunde",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-Fleischbrühe-907",
+      "field": "lv",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-einholen",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-einordnen-696",
+      "field": "lv",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-einsehen-706",
+      "field": "lv",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-nachgeben",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-Oberfläche-2006",
+      "field": "lv",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-geschlecht",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-jahrgang",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-sprung",
+      "field": "study.comparison[1].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-knapp",
+      "field": "study.comparison[2].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-kürze",
+      "field": "study.comparison[2].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-Pfropfen-2106",
+      "field": "lv",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-kürze",
+      "field": "study.comparison[1].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-pflegen",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-schmieren",
+      "field": "study.comparison[1].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-streichen",
+      "field": "study.comparison[0].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-sitz",
+      "field": "study.comparison[2].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-stand",
+      "field": "study.comparison[2].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-stand",
+      "field": "study.comparison[0].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-stellung",
+      "field": "study.comparison[1].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-stramm-2783",
+      "field": "lv",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-strom",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-Energie-3322",
+      "field": "lv",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-verbindung",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-verband",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-zusammenhang",
+      "field": "study.comparison[1].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-zünden",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-verbrennen",
+      "field": "study.comparison[2].meaning",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-werk",
+      "field": "study.comparison[1].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-beruf",
+      "field": "study.comparison[1].word",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-anstatt-zu",
+      "field": "study.explanation[3]",
+      "source": "cache_collision_fix"
+    },
+    {
+      "cardId": "b1-ohne-zu",
+      "field": "study.explanation[3]",
+      "source": "cache_collision_fix"
+    }
+  ]
+}
