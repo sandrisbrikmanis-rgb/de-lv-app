@@ -4258,7 +4258,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das lohnt den Aufwand nicht.",
-          "lv": "Nije vredno truda."
+          "lv": "Nije vrijedno truda."
         },
         {
           "de": "Wir müssen den Aufwand reduzieren.",
@@ -4824,7 +4824,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Aussicht auf Erfolg ist gut.",
-          "lv": "Šanse za uspeh su dobre."
+          "lv": "Šanse za uspjeh su dobre."
         },
         {
           "de": "Von hier hat man eine schöne Aussicht.",
@@ -6140,7 +6140,7 @@ const B1_WORDS = [
         },
         {
           "de": "Leg das Gemüse in das Becken.",
-          "lv": "Stavite povrće u činiju."
+          "lv": "Stavi povrće u zdjelu."
         },
         {
           "de": "Sie hat Schmerzen im Becken.",
@@ -6337,7 +6337,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie ist eine bedeutende Ärztin.",
-          "lv": "Ona je istaknuti doktor."
+          "lv": "Ona je istaknuta doktorica."
         },
         {
           "de": "Heute geht es mir bedeutend besser.",
@@ -6512,7 +6512,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er bedient sich moderner Technik.",
-          "lv": "Koristi moderne tehnike."
+          "lv": "Koristi modernu tehniku."
         },
         {
           "de": "Die Gäste bedienen sich am Buffet.",
@@ -7620,7 +7620,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich bemühe mich, pünktlich zu sein.",
-          "lv": "Trudim se da stignem na vreme."
+          "lv": "Trudim se da stignem na vrijeme."
         },
         {
           "de": "Sie bemüht sich um eine Lösung.",
@@ -9048,7 +9048,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Klage",
-          "meaning": "Žalba / pritužba",
+          "meaning": "Tužba",
           "example": "Die Klage läuft noch. = Sudski postupak je još u toku."
         },
         {
@@ -13329,7 +13329,7 @@ const B1_WORDS = [
         },
         {
           "de": "Herzlichen Dank!",
-          "lv": "Hvala vam puno!"
+          "lv": "Srdačno hvala!"
         },
         {
           "de": "Danke schön!",
@@ -13375,7 +13375,7 @@ const B1_WORDS = [
         },
         {
           "word": "bedanken (sich)",
-          "meaning": "Zahvala",
+          "meaning": "Zahvaliti se",
           "example": "Ich bedanke mich bei Ihnen. = Hvala ti."
         }
       ],
@@ -19305,7 +19305,7 @@ const B1_WORDS = [
         },
         {
           "de": "Bei diesem Spiel ist der Einsatz zu hoch.",
-          "lv": "Ulozi su previsoki u ovoj igri."
+          "lv": "Ulog je previsok u ovoj igri."
         }
       ],
       "comparison": [
@@ -20410,7 +20410,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Ministerin empfängt die Gäste im Rathaus.",
-          "lv": "Ministar prima goste u gradskoj vijećnici."
+          "lv": "Ministrica prima goste u gradskoj vijećnici."
         },
         {
           "de": "Das Radio empfängt kein Signal.",
@@ -23553,7 +23553,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie hält das Kind fest.",
-          "lv": "Ona čvrsto drži dete."
+          "lv": "Ona čvrsto drži dijete."
         },
         {
           "de": "Wir halten die Ergebnisse schriftlich fest.",
@@ -35829,7 +35829,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Kommando übernimmt die Leitung.",
-          "lv": "Kontrolna jedinica preuzima kontrolu."
+          "lv": "Zapovjedna jedinica preuzima vodstvo."
         }
       ],
       "comparison": [
@@ -37539,7 +37539,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich besuche einen Deutschkurs.",
-          "lv": "Pohađala sam kurs nemačkog jezika."
+          "lv": "Pohađam kurs njemačkog jezika."
         },
         {
           "de": "Das Schiff hält Kurs nach Norden.",
@@ -38108,7 +38108,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Waren liegen im Lager.",
-          "lv": "Roba je na lageru."
+          "lv": "Roba je u skladištu."
         },
         {
           "de": "Die Kinder fahren ins Ferienlager.",
@@ -57468,7 +57468,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie haben sich nach zehn Jahren getrennt.",
-          "lv": "Razveli su se nakon deset godina."
+          "lv": "Rastali su se nakon deset godina."
         }
       ],
       "comparison": [
@@ -66961,7 +66961,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe großes Vertrauen zu dir.",
-          "lv": "Imam puno vjere u tebe."
+          "lv": "Imam veliko povjerenje u tebe."
         },
         {
           "de": "Ich habe Vertrauen zu meinem Arzt.",
