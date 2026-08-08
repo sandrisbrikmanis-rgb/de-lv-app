@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "date": "2026-08-08T10:27:58.986Z",
+    "lvFile": "data/b2.js",
+    "bsFile": "data/bs/b2.js",
+    "wwwFile": "www/data/bs/b2.js",
+    "lvCount": 2118,
+    "bsCount": 2118,
+    "lvStudyCount": 60,
+    "bsStudyCount": 60
+  },
+  "deterministic": {
+    "syntax": {
+      "pass": true,
+      "data": ""
+    },
+    "mirror": {
+      "pass": true,
+      "data": ""
+    },
+    "deCompliance": {
+      "pass": true,
+      "data": {
+        "deReadOnly": {
+          "pass": true,
+          "mismatches": [],
+          "totalMismatches": 0,
+          "checkedLevels": [
+            "a1",
+            "a2",
+            "b1",
+            "b2",
+            "c1",
+            "c2",
+            "sentences",
+            "verbs"
+          ]
+        },
+        "otherLanguagesReadOnly": {
+          "pass": true,
+          "modifiedFiles": []
+        }
+      }
+    },
+    "parity": {
+      "pass": true,
+      "data": {
+        "lang": "bs",
+        "levels": {
+          "a1": {
+            "lvCount": 702,
+            "langCount": 702,
+            "countMatch": true,
+            "lvStudyCount": 134,
+            "langStudyCount": 134,
+            "orderMismatches": 0,
+            "missingFields": [],
+            "layoutMismatches": []
+          },
+          "a2": {
+            "lvCount": 1640,
+            "langCount": 1640,
+            "countMatch": true,
+            "lvStudyCount": 231,
+            "langStudyCount": 231,
+            "orderMismatches": 0,
+            "missingFields": [],
+            "layoutMismatches": []
+          },
+          "b1": {
+            "lvCount": 3367,
+            "langCount": 3367,
+            "countMatch": true,
+            "lvStudyCount": 324,
+            "langStudyCount": 324,
+            "orderMismatches": 0,
+            "missingFields": [],
+            "layoutMismatches": []
+          },
+          "b2": {
+            "lvCount": 2118,
+            "langCount": 2118,
+            "countMatch": true,
+            "lvStudyCount": 60,
+            "langStudyCount": 60,
+            "orderMismatches": 0,
+            "missingFields": [],
+            "layoutMismatches": []
+          },
+          "c1": {
+            "lvCount": 572,
+            "langCount": 572,
+            "countMatch": true,
+            "lvStudyCount": 15,
+            "langStudyCount": 15,
+            "orderMismatches": 0,
+            "missingFields": [],
+            "layoutMismatches": []
+          },
+          "c2": {
+            "lvCount": 219,
+            "langCount": 219,
+            "countMatch": true,
+            "lvStudyCount": 1,
+            "langStudyCount": 1,
+            "orderMismatches": 0,
+            "missingFields": [],
+            "layoutMismatches": []
+          }
+        },
+        "totals": {
+          "lvRecords": 8618,
+          "langRecords": 8618,
+          "lvStudy": 765,
+          "langStudy": 765
+        },
+        "issues": [],
+        "pass": true
+      }
+    },
+    "mojibake": {
+      "pass": true,
+      "data": {
+        "lang": "bs",
+        "filesScanned": 18,
+        "filesWithHits": 0,
+        "totalHits": 0,
+        "results": [],
+        "pass": true
+      }
+    },
+    "studyDesign": {
+      "pass": false,
+      "data": {
+        "lang": "bs",
+        "totals": {
+          "total": 9603,
+          "noStudy": 8838,
+          "flashcard": 8859,
+          "standardStudy": 695,
+          "minimalStudy": 49,
+          "comparisonStudy": 0,
+          "studyObjectNoRenderable": 21,
+          "sectionAccentIssues": 9,
+          "emptySectionAccents": 90
+        },
+        "perFile": [
+          {
+            "file": "data/bs/a1.js",
+            "total": 702,
+            "noStudy": 568,
+            "flashcard": 568,
+            "standardStudy": 134,
+            "minimalStudy": 0,
+            "comparisonStudy": 0,
+            "studyObjectNoRenderable": 0,
+            "sectionAccentIssues": 0,
+            "emptySectionAccents": 0,
+            "examples": {
+              "studyObjectNoRenderable": [],
+              "sectionAccentIssues": []
+            }
+          },
+          {
+            "file": "data/bs/a2.js",
+            "total": 1640,
+            "noStudy": 1409,
+            "flashcard": 1427,
+            "standardStudy": 207,
+            "minimalStudy": 6,
+            "comparisonStudy": 0,
+            "studyObjectNoRenderable": 18,
+            "sectionAccentIssues": 0,
+            "emptySectionAccents": 1,
+            "examples": {
+              "studyObjectNoRenderable": [
+                {
+                  "de": "Aschenputtel",
+                  "layout": "minimalStudy"
+                },
+                {
+                  "de": "Gott",
+                  "layout": "minimalStudy"
+                },
+                {
+                  "de": "Keller",
+                  "layout": "minimalStudy"
+                },
+                {
+                  "de": "Kellner",
+                  "layout": "minimalStudy"
+                },
+                {
+                  "de": "Kerl",
+                  "layout": "minimalStudy"
+                }
+              ],
+              "sectionAccentIssues": []
+            }
+          },
+          {
+            "file": "data/bs/b1.js",
+            "total": 3367,
+            "noStudy": 3043,
+            "flashcard": 3044,
+            "standardStudy": 323,
+            "minimalStudy": 0,
+            "comparisonStudy": 0,
+            "studyObjectNoRenderable": 1,
+            "sectionAccentIssues": 9,
+            "emptySectionAccents": 89,
+            "examples": {
+              "studyObjectNoRenderable": [
+                {
+                  "de": "Homosexuelle",
+                  "layout": "minimalStudy"
+                }
+              ],
+              "sectionAccentIssues": [
+                {
+                  "de": "Becken",
+                  "term": "Stavite",
+                  "section": "examples",
+                  "field": "lv"
+                },
+                {
+                  "de": "Becken",
+                  "term": "Stavite",
+                  "section": "examples",
+                  "field": "lv"
+                },
+                {
+                  "de": "sich bedienen",
+                  "term": "tehnike",
+                  "section": "examples",
+                  "field": "lv"
+                },
+                {
+                  "de": "Einsatz",
+                  "term": "Ulozi",
+                  "section": "examples",
+                  "field": "lv"
+                },
+                {
+                  "de": "Einsatz",
+                  "term": "Ulozi",
+                  "section": "examples",
+                  "field": "lv"
+                }
+              ]
+            }
+          },
+          {
+            "file": "data/bs/b2.js",
+            "total": 2118,
+            "noStudy": 2058,
+            "flashcard": 2060,
+            "standardStudy": 15,
+            "minimalStudy": 43,
+            "comparisonStudy": 0,
+            "studyObjectNoRenderable": 2,
+            "sectionAccentIssues": 0,
+            "emptySectionAccents": 0,
+            "examples": {
+              "studyObjectNoRenderable": [
+                {
+                  "de": "sich verlaufen",
+                  "layout": "minimalStudy"
+                },
+                {
+                  "de": "verlaufen",
+                  "layout": "minimalStudy"
+                }
+              ],
+              "sectionAccentIssues": []
+            }
+          },
+          {
+            "file": "data/bs/c1.js",
+            "total": 572,
+            "noStudy": 557,
+            "flashcard": 557,
+            "standardStudy": 15,
+            "minimalStudy": 0,
+            "comparisonStudy": 0,
+            "studyObjectNoRenderable": 0,
+            "sectionAccentIssues": 0,
+            "emptySectionAccents": 0,
+            "examples": {
+              "studyObjectNoRenderable": [],
+              "sectionAccentIssues": []
+            }
+          },
+          {
+            "file": "data/bs/c2.js",
+            "total": 219,
+            "noStudy": 218,
+            "flashcard": 218,
+            "standardStudy": 1,
+            "minimalStudy": 0,
+            "comparisonStudy": 0,
+            "studyObjectNoRenderable": 0,
+            "sectionAccentIssues": 0,
+            "emptySectionAccents": 0,
+            "examples": {
+              "studyObjectNoRenderable": [],
+              "sectionAccentIssues": []
+            }
+          },
+          {
+            "file": "data/bs/sentences.js",
+            "total": 796,
+            "noStudy": 796,
+            "flashcard": 796,
+            "standardStudy": 0,
+            "minimalStudy": 0,
+            "comparisonStudy": 0,
+            "studyObjectNoRenderable": 0,
+            "sectionAccentIssues": 0,
+            "emptySectionAccents": 0,
+            "examples": {
+              "studyObjectNoRenderable": [],
+              "sectionAccentIssues": []
+            }
+          },
+          {
+            "file": "data/bs/verbs.js",
+            "total": 189,
+            "noStudy": 189,
+            "flashcard": 189,
+            "standardStudy": 0,
+            "minimalStudy": 0,
+            "comparisonStudy": 0,
+            "studyObjectNoRenderable": 0,
+            "sectionAccentIssues": 0,
+            "emptySectionAccents": 0,
+            "examples": {
+              "studyObjectNoRenderable": [],
+              "sectionAccentIssues": []
+            }
+          },
+          {
+            "file": "data/bs/courseLessons.js",
+            "skipped": true,
+            "reason": "not a flashcard array"
+          }
+        ],
+        "rootWwwMismatches": [],
+        "pass": false
+      }
+    }
+  },
+  "structural": {
+    "issues": [],
+    "pass": true
+  },
+  "germanIntegrity": {
+    "issues": [],
+    "pass": true
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "lvRemnants": {
+    "issues": [],
+    "pass": true,
+    "count": 0
+  },
+  "enRemnants": {
+    "issues": [],
+    "pass": true,
+    "count": 0
+  },
+  "ekavismCandidates": {
+    "issues": [
+      {
+        "severity": "warning",
+        "id": "b2-Dosenmilch-425",
+        "path": "entry[425].lv",
+        "text": "Kondenzovano mleko u limenkama"
+      },
+      {
+        "severity": "warning",
+        "id": "b2-Nervenarzt-1371",
+        "path": "entry[1371].lv",
+        "text": "Lekar nervnih bolesti"
+      }
+    ],
+    "count": 2
+  },
+  "sectionAccentsTechnical": {
+    "issues": [],
+    "pass": true,
+    "count": 0
+  },
+  "studyCounts": {
+    "standardStudy": 15,
+    "minimalStudy": 45,
+    "total": 60
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  }
+}
