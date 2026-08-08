@@ -1,5 +1,4 @@
 // Bosnian course training cards for BS-DE Kurss lessons 1-7.
-
 window.lesson1TrainingCardsBs = [
   {
     "front": "dolaziš li",
@@ -14,7 +13,7 @@ window.lesson1TrainingCardsBs = [
     "back": "Wer singt?"
   },
   {
-    "front": "Martha pjeva.",
+    "front": "Marta pjeva.",
     "back": "Marta singt."
   },
   {
@@ -89,11 +88,11 @@ window.lesson2TrainingCardsBs = [
     "back": "Zeichnet ihr?"
   },
   {
-    "front": "Da, mi crtamo, ali Marie svira.",
+    "front": "Da, mi crtamo, ali Marie igra.",
     "back": "Ja, wir zeichnen, aber Marie spielt."
   },
   {
-    "front": "šta radiš",
+    "front": "Šta radite?",
     "back": "Was tut ihr?"
   },
   {
@@ -203,11 +202,11 @@ window.lesson3TrainingCardsBs = [
 
 window.lesson4TrainingCardsBs = [
   {
-    "front": "Djevojka uzima pero.",
+    "front": "Djevojka uzima držač za pero.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
-    "front": "Drška pera nije bijela, ona je crna.",
+    "front": "Držač za pero nije bijel, on je crn.",
     "back": "Der Federhalter ist nicht weiß, er ist schwarz."
   },
   {
@@ -270,7 +269,7 @@ window.lesson4TrainingCardsBs = [
 
 window.lesson5TrainingCardsBs = [
   {
-    "front": "Šta otac voli?",
+    "front": "Koga otac voli?",
     "back": "Wen liebt der Vater?"
   },
   {
@@ -405,19 +404,19 @@ window.lesson6TrainingCardsBs = [
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "šta je to?",
+    "front": "Šta je to?",
     "back": "Was ist das?"
   },
   {
-    "front": "To je nalivpero.",
+    "front": "To je držač za pero.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "Kakvo je nalivpero?",
+    "front": "Kakav je držač za pero?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "Nalivpero je crno.",
+    "front": "Držač za pero je crn.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
@@ -439,7 +438,7 @@ window.lesson7ExerciseCardsBs = [
   },
   {
     "infinitive": "loben",
-    "lv": "pohvala",
+    "lv": "hvaliti",
     "du": "lob! / lobe!",
     "ihr": "lobt!",
     "sie": "loben Sie!"
@@ -460,7 +459,7 @@ window.lesson7ExerciseCardsBs = [
   },
   {
     "infinitive": "zeigen",
-    "lv": "show",
+    "lv": "pokazati",
     "du": "zeig! / zeige!",
     "ihr": "zeigt!",
     "sie": "zeigen Sie!"
@@ -474,14 +473,14 @@ window.lesson7ExerciseCardsBs = [
   },
   {
     "infinitive": "rechnen",
-    "lv": "brojati",
+    "lv": "računati",
     "du": "rechne!",
     "ihr": "rechnet!",
     "sie": "rechnen Sie!"
   },
   {
     "infinitive": "arbeiten",
-    "lv": "na posao",
+    "lv": "raditi",
     "du": "arbeite!",
     "ihr": "arbeitet!",
     "sie": "arbeiten Sie!"
@@ -516,14 +515,14 @@ window.lesson7ExerciseCardsBs = [
   },
   {
     "infinitive": "singen",
-    "lv": "da pevam",
+    "lv": "pjevati",
     "du": "sing! / singe!",
     "ihr": "singt!",
     "sie": "singen Sie!"
   },
   {
     "infinitive": "tun",
-    "lv": "uraditi",
+    "lv": "činiti",
     "du": "tu!",
     "ihr": "tut!",
     "sie": "tun Sie!"
