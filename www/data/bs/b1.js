@@ -135,7 +135,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie bauen ein neues Zimmer an.",
-          "lv": "Dodaju novu sobu."
+          "lv": "Dograđuju novu sobu."
         }
       ],
       "comparison": [
@@ -212,8 +212,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dodaju",
-                "Dodaju"
+                "novu",
+                "novu"
               ]
             }
           }
@@ -275,7 +275,7 @@ const B1_WORDS = [
     "de": "Anfrage",
     "de_article": "die",
     "de_plural": "die Anfragen",
-    "lv": "Zahtjev",
+    "lv": "Upit",
     "level": "B1"
   },
   {
@@ -298,7 +298,7 @@ const B1_WORDS = [
       "id": "b1-angeben",
       "layout": "standardStudy",
       "translation": "Navesti",
-      "explanation": "Glavna ideja: angeben znači naznačiti informaciju. Kolokvijalno, može značiti i hvalisanje, pa je značenje uvijek određeno situacijom.",
+      "explanation": "Glavna ideja: angeben znači navesti informaciju. U razgovornom jeziku može značiti i hvaliti se, pa značenje uvijek određuje situacija.",
       "examples": [
         {
           "de": "Bitte geben Sie Ihre Adresse an.",
@@ -316,7 +316,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "angeben",
-          "meaning": "Istaći / pohvaliti se",
+          "meaning": "Navesti / hvaliti se",
           "example": "Bitte geben Sie den Namen an. = Unesite ime."
         },
         {
@@ -338,7 +338,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Kada se angeben koristi sa mit, to često znači hvaliti se, a ne samo isticati."
+        "text": "Kada se angeben koristi sa mit, to često znači hvaliti se, a ne samo navesti nešto."
       },
       "sectionAccents": {
         "explanation": {
@@ -399,11 +399,7 @@ const B1_WORDS = [
                 "angeben"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Istaći"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -675,7 +671,7 @@ const B1_WORDS = [
   },
   {
     "de": "anfangs",
-    "lv": "U pocetku",
+    "lv": "U početku",
     "level": "B1"
   },
   {
@@ -707,7 +703,7 @@ const B1_WORDS = [
       "id": "b1-abbauen",
       "layout": "standardStudy",
       "translation": "Smanjiti",
-      "explanation": "Glavna ideja: abbauen znači smanjiti ili oduzeti u dijelovima. Koristi se za stres, radna mjesta, konstrukcije, a također i rudarstvo.",
+      "explanation": "Glavna ideja: abbauen znači smanjiti ili ukloniti/rastaviti dio po dio. Koristi se za stres, radna mjesta, konstrukcije, kao i za vađenje minerala ili uglja.",
       "examples": [
         {
           "de": "Sport hilft, Stress abzubauen.",
@@ -890,7 +886,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-abbrechen",
       "layout": "standardStudy",
-      "translation": "Prestati",
+      "translation": "Prekinuti",
       "explanation": "Glavna ideja: abbrechen najčešće znači zaustaviti akciju u toku. Sa fizičkim objektima, to može značiti lomljenje ili rušenje.",
       "examples": [
         {
@@ -1049,7 +1045,7 @@ const B1_WORDS = [
       "id": "b1-abdecken",
       "layout": "standardStudy",
       "translation": "Pokriti",
-      "explanation": "Glavna ideja: abdecken znači pokriti ili pokriti. U zavisnosti od objekta, ovo može značiti i čišćenje stola nakon jela.",
+      "explanation": "Glavna ideja: abdecken znači prekriti ili pokriti. U zavisnosti od objekta, može značiti i pospremiti odnosno raskloniti stol nakon jela.",
       "examples": [
         {
           "de": "Bitte deck den Kuchen ab.",
@@ -1067,7 +1063,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "abdecken",
-          "meaning": "Pokriti / očistiti sto",
+          "meaning": "Pokriti / pospremiti sto",
           "example": "Sie deckt den Tisch ab. = Ona pospremi sto."
         },
         {
@@ -1084,7 +1080,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Tisch abdecken znači očistiti sto, a Kuchen abdecken znači pokriti tortu."
+            "text": "Tisch abdecken znači pospremiti sto, a Kuchen abdecken znači pokriti tortu."
           }
         ]
       },
@@ -1773,7 +1769,7 @@ const B1_WORDS = [
         },
         {
           "de": "Kannst du bitte abnehmen? Das Telefon klingelt.",
-          "lv": "Možete li podići telefon Telefon zvoni."
+          "lv": "Možeš li se javiti na telefon? Telefon zvoni."
         }
       ],
       "comparison": [
@@ -1789,14 +1785,14 @@ const B1_WORDS = [
         },
         {
           "word": "wegnehmen",
-          "meaning": "Odnijeti / odnijeti",
+          "meaning": "Oduzeti / odnijeti",
           "example": "Sie nimmt mir das Handy weg. = Ona mi oduzima telefon."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Težina postaje manja → abnehmen • Oduzeti nešto → abnehmen."
+            "text": "Težina postaje manja → abnehmen • Skinuti nešto sa sebe → abnehmen."
           }
         ]
       },
@@ -1848,7 +1844,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Možete",
+                "se",
                 "telefon"
               ]
             }
@@ -2097,7 +2093,7 @@ const B1_WORDS = [
     "de": "Abschied",
     "de_article": "der",
     "de_plural": "die Abschiede",
-    "lv": "Zbogom",
+    "lv": "Oproštaj",
     "level": "B1"
   },
   {
@@ -2109,7 +2105,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-abschluss",
       "layout": "standardStudy",
-      "translation": "Zaključak",
+      "translation": "Završetak / diploma",
       "explanation": "Glavna ideja: der Abschluss znači završetak ili formalno okončanje. U školskom kontekstu može značiti stečenu kvalifikaciju, završeno obrazovanje ili završni ispit.",
       "examples": [
         {
@@ -2128,7 +2124,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Abschluss",
-          "meaning": "Zaključak / zaključak edukacije",
+          "meaning": "Završetak / završetak obrazovanja",
           "example": "Der Abschluss ist wichtig. = Zaključak je važan."
         },
         {
@@ -2207,11 +2203,7 @@ const B1_WORDS = [
                 "der Abschluss"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Zaključak"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -2437,7 +2429,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-absetzen",
       "layout": "standardStudy",
-      "translation": "Spusti",
+      "translation": "Spustiti",
       "explanation": "Glavna ideja: absetzen znači spustiti/odložiti ili ostaviti odnosno iskrcati nekoga negdje. U kontekstu politike i posla može značiti smijeniti nekoga s funkcije.",
       "examples": [
         {
@@ -2675,12 +2667,12 @@ const B1_WORDS = [
   },
   {
     "de": "akut",
-    "lv": "Akutna",
+    "lv": "Akutan",
     "level": "B1"
   },
   {
     "de": "alkoholisch",
-    "lv": "Alkoholičan",
+    "lv": "Alkoholni",
     "level": "B1"
   },
   {
@@ -2717,7 +2709,7 @@ const B1_WORDS = [
   },
   {
     "de": "angeregt",
-    "lv": "Živahno",
+    "lv": "Živahan",
     "level": "B1"
   },
   {
@@ -2804,7 +2796,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Investition",
-          "meaning": "Ulaganja",
+          "meaning": "Ulaganje",
           "example": "Die Investition lohnt sich. = Investicija se isplati."
         }
       ],
@@ -2901,7 +2893,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Ulaganja"
+                "Ulaganje"
               ]
             }
           }
@@ -3076,7 +3068,7 @@ const B1_WORDS = [
   },
   {
     "de": "annehmbar",
-    "lv": "Prihvatljivo",
+    "lv": "Prihvatljiv",
     "level": "B1"
   },
   {
@@ -3105,7 +3097,7 @@ const B1_WORDS = [
   },
   {
     "de": "anregend",
-    "lv": "Ohrabrujući",
+    "lv": "Poticajan",
     "level": "B1"
   },
   {
@@ -3179,7 +3171,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Anschlag",
-          "meaning": "Atentat / najava",
+          "meaning": "Atentat / obavijest na oglasnoj ploči",
           "example": "Die Polizei untersucht den Anschlag. = Policija istražuje atentat."
         },
         {
@@ -3338,12 +3330,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Anschluss",
-          "meaning": "Veza / veza",
+          "meaning": "Veza / priključak",
           "example": "Der Anschluss ist schlecht. = Veza je loša."
         },
         {
           "word": "die Verbindung",
-          "meaning": "Vezu",
+          "meaning": "Veza",
           "example": "Die Verbindung ist stabil. = Veza je stabilna."
         },
         {
@@ -3427,7 +3419,7 @@ const B1_WORDS = [
             "word": {},
             "meaning": {
               "purple": [
-                "Vezu"
+                "Veza"
               ]
             }
           },
@@ -3673,7 +3665,7 @@ const B1_WORDS = [
     "de": "Anstoß",
     "de_article": "der",
     "de_plural": "die Anstöße",
-    "lv": "Ohrabrenje",
+    "lv": "Poticaj",
     "level": "B1"
   },
   {
@@ -3747,12 +3739,12 @@ const B1_WORDS = [
         },
         {
           "word": "die Bewerbung",
-          "meaning": "Molbu za posao",
+          "meaning": "Molba za posao",
           "example": "Meine Bewerbung war erfolgreich. = Moja prijava za posao je bila uspješna."
         },
         {
           "word": "das Formular",
-          "meaning": "Formu",
+          "meaning": "Obrazac",
           "example": "Füllen Sie das Formular aus. = Popunite formular."
         }
       ],
@@ -3837,7 +3829,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Molbu"
+                "Molba"
               ]
             }
           },
@@ -3849,7 +3841,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Formu"
+                "Obrazac"
               ]
             }
           }
@@ -3929,7 +3921,7 @@ const B1_WORDS = [
   },
   {
     "de": "arg",
-    "lv": "Loše",
+    "lv": "Loš",
     "level": "B1"
   },
   {
@@ -4099,7 +4091,7 @@ const B1_WORDS = [
       "id": "b1-auftrag",
       "layout": "standardStudy",
       "translation": "Zadatak",
-      "explanation": "Glavna ideja: der Auftrag znači zadatak ili naredbu koju je neko dao drugome. Na poslu je to često službeni zadatak ili narudžba kupca.",
+      "explanation": "Glavna ideja: der Auftrag znači zadatak, nalog ili narudžbu koju neko daje drugome. Na poslu je to često službeni zadatak ili narudžba kupca.",
       "examples": [
         {
           "de": "Ich habe einen wichtigen Auftrag bekommen.",
@@ -4139,7 +4131,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Auftrag nije bilo koji zadatak učenja • Die Aufgabe se češće koristi u školi."
+        "text": "Der Auftrag nije bilo koji školski zadatak • Die Aufgabe se češće koristi u školi."
       },
       "sectionAccents": {
         "explanation": {
@@ -4270,13 +4262,13 @@ const B1_WORDS = [
         },
         {
           "de": "Wir müssen den Aufwand reduzieren.",
-          "lv": "Moramo smanjiti posao koji ulažemo."
+          "lv": "Moramo smanjiti uloženi trud."
         }
       ],
       "comparison": [
         {
           "word": "der Aufwand",
-          "meaning": "Trud / doprinos",
+          "meaning": "Trud / uloženi rad",
           "example": "Der Aufwand ist hoch. = Napor je veliki."
         },
         {
@@ -4417,7 +4409,7 @@ const B1_WORDS = [
   },
   {
     "de": "von klein auf",
-    "lv": "Od detinjstva",
+    "lv": "Od djetinjstva",
     "level": "B1"
   },
   {
@@ -4440,7 +4432,7 @@ const B1_WORDS = [
         },
         {
           "de": "Bitte führen Sie alle Kosten auf.",
-          "lv": "Molimo uključite sve troškove."
+          "lv": "Molimo navedite sve troškove."
         }
       ],
       "comparison": [
@@ -4596,7 +4588,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir halten uns im Garten auf.",
-          "lv": "Ostajemo u bašti."
+          "lv": "Boravimo u bašti."
         },
         {
           "de": "Wo hältst du dich gerade auf?",
@@ -4615,7 +4607,7 @@ const B1_WORDS = [
         },
         {
           "word": "bleiben",
-          "meaning": "Ostani",
+          "meaning": "Ostati",
           "example": "Ich bleibe zu Hause. = Ja ostajem kod kuce."
         },
         {
@@ -4648,10 +4640,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ostajemo"
+                "u"
               ],
               "green": [
-                "Ostajemo"
+                "bašti"
               ]
             }
           },
@@ -4727,7 +4719,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Ostani"
+                "Ostati"
               ]
             }
           },
@@ -4856,7 +4848,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Chance",
-          "meaning": "Priliku",
+          "meaning": "Prilika",
           "example": "Die Chance ist groß. = Prilika je velika."
         }
       ],
@@ -4868,7 +4860,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Aussicht nije samo „pogled“; uz auf često znači izglede za nešto."
+        "text": "Aussicht nije samo „pogled”; s prijedlogom auf često znači izglede za nešto."
       },
       "sectionAccents": {
         "examples": [
@@ -4969,7 +4961,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Priliku"
+                "Prilika"
               ]
             }
           }
@@ -4993,7 +4985,7 @@ const B1_WORDS = [
     "de": "Aussichtsturm",
     "de_article": "der",
     "de_plural": "die Aussichtstürme",
-    "lv": "Osmatračnica",
+    "lv": "Vidikovac",
     "level": "B1"
   },
   {
@@ -5034,14 +5026,14 @@ const B1_WORDS = [
         },
         {
           "word": "die Diskussion",
-          "meaning": "Diskusiju",
+          "meaning": "Diskusija",
           "example": "Die Diskussion war lang. = Diskusija je bila duga."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "U Aussprache = izgovor • Nakon govora ili sukoba = razmjena ideja."
+            "text": "U kontekstu jezika Aussprache = izgovor • Nakon govora ili sukoba = razmjena ideja."
           }
         ]
       },
@@ -5147,7 +5139,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Diskusiju"
+                "Diskusija"
               ]
             }
           }
@@ -5198,7 +5190,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ausweis, Pass, Attest ausstellen = izdati/izdati potvrdu • Kunst ausstellen = izlagati."
+            "text": "Ausweis, Pass, Attest ausstellen = izdati dokument ili potvrdu • Kunst ausstellen = izlagati."
           }
         ]
       },
@@ -5932,7 +5924,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Der Bau der Brücke = konstrukcija • Ein alter Bau = zgrada • Auf dem Bau = na gradilištu."
+            "text": "Der Bau der Brücke = izgradnja mosta • Ein alter Bau = zgrada • Auf dem Bau = na gradilištu."
           }
         ]
       },
@@ -6168,7 +6160,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Schüssel",
-          "meaning": "Zdjelu",
+          "meaning": "Zdjela",
           "example": "Die Schüssel steht auf dem Tisch. = Zdjela je na stolu."
         }
       ],
@@ -6282,7 +6274,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Zdjelu"
+                "Zdjela"
               ]
             }
           }
@@ -6355,7 +6347,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "bedeutend",
-          "meaning": "Značajno / značajno",
+          "meaning": "Značajan / znatno",
           "example": "Das ist ein bedeutender Schritt. = Ovo je važan korak."
         },
         {
@@ -6455,7 +6447,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Značajno"
+                "Značajan"
               ]
             }
           },
@@ -6512,7 +6504,7 @@ const B1_WORDS = [
       "id": "b1-sich-bedienen",
       "layout": "standardStudy",
       "translation": "Koristiti",
-      "explanation": "Glavna ideja: sich bedienen znači sami uzeti/servirati ili koristiti sredstvo. Bez sich bedienen znači služiti drugoj osobi.",
+      "explanation": "Glavna ideja: sich bedienen znači poslužiti se, odnosno samostalno uzeti nešto ili koristiti neko sredstvo. Bez sich bedienen znači poslužiti drugu osobu.",
       "examples": [
         {
           "de": "Bitte bedienen Sie sich.",
@@ -6686,7 +6678,7 @@ const B1_WORDS = [
   },
   {
     "de": "bedrücken",
-    "lv": "Pritiskati",
+    "lv": "Potištiti",
     "level": "B1"
   },
   {
@@ -6743,7 +6735,7 @@ const B1_WORDS = [
   },
   {
     "de": "befördern",
-    "lv": "Nositi",
+    "lv": "Prevoziti",
     "level": "B1"
   },
   {
@@ -6809,7 +6801,7 @@ const B1_WORDS = [
   },
   {
     "de": "begehen",
-    "lv": "Označiti",
+    "lv": "Obilježiti",
     "level": "B1"
   },
   {
@@ -6884,7 +6876,7 @@ const B1_WORDS = [
     "de": "Behälter",
     "de_article": "der",
     "de_plural": "die Behälter",
-    "lv": "Tank",
+    "lv": "Spremnik",
     "level": "B1"
   },
   {
@@ -7417,7 +7409,7 @@ const B1_WORDS = [
     "de": "Beleidigung",
     "de_article": "die",
     "de_plural": "die Beleidigungen",
-    "lv": "Uvrede",
+    "lv": "Uvreda",
     "level": "B1"
   },
   {
@@ -7624,7 +7616,7 @@ const B1_WORDS = [
       "id": "b1-sich-bemühen",
       "layout": "standardStudy",
       "translation": "Truditi se",
-      "explanation": "Glavna ideja: sich bemühen znači uložiti ozbiljan napor ili napor. Često se koristi sa um + šta? ili sa zu + infinitiv.",
+      "explanation": "Glavna ideja: sich bemühen znači ozbiljno se truditi ili ulagati napor. Često se koristi s um + akuzativom ili sa zu + infinitivom.",
       "examples": [
         {
           "de": "Ich bemühe mich, pünktlich zu sein.",
@@ -7664,7 +7656,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Sich bemühen zvuči ljubaznije i ozbiljnije od obične versuchen."
+        "text": "Sich bemühen zvuči ljubaznije i ozbiljnije od običnog glagola versuchen."
       },
       "sectionAccents": {
         "examples": [
@@ -8018,7 +8010,7 @@ const B1_WORDS = [
     "de": "Beratung",
     "de_article": "die",
     "de_plural": "die Beratungen",
-    "lv": "Konsultacije",
+    "lv": "Konsultacija",
     "level": "B1"
   },
   {
@@ -8048,7 +8040,7 @@ const B1_WORDS = [
       "id": "b1-bereich",
       "layout": "standardStudy",
       "translation": "Polje",
-      "explanation": "Glavna ideja: der Bereich znači područje ili zona. U radu, studijama i temama to je obično polje • Na fizičkom mjestu - području ili ograničenom dijelu.",
+      "explanation": "Glavna ideja: der Bereich znači područje ili zonu. U radu, studijama i temama to je obično oblast; na fizičkom mjestu znači zonu ili ograničeni dio.",
       "examples": [
         {
           "de": "Sie arbeitet im sozialen Bereich.",
@@ -8153,7 +8145,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "Glavna",
-            "zona"
+            "zonu"
           ]
         },
         "comparison": [
@@ -8293,12 +8285,12 @@ const B1_WORDS = [
         },
         {
           "word": "erzählen",
-          "meaning": "Govori slobodnije",
+          "meaning": "Pričati slobodnije",
           "example": "Er erzählt eine Geschichte. = On priča priču."
         },
         {
           "word": "melden",
-          "meaning": "Zvanično objaviti",
+          "meaning": "Izvijestiti",
           "example": "Die Polizei meldet den Unfall. = Policija prijavljuje nesreću."
         }
       ],
@@ -8407,11 +8399,7 @@ const B1_WORDS = [
                 "erzählen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Govori"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -8419,11 +8407,7 @@ const B1_WORDS = [
                 "melden"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Zvanično"
-              ]
-            }
+            "meaning": {}
           }
         ],
         "tip": {
@@ -8484,7 +8468,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-sich-beruhigen",
       "layout": "standardStudy",
-      "translation": "Smiri se",
+      "translation": "Smiriti se",
       "explanation": "Glavna ideja: sich beruhigen znači smiriti se. Bez sich beruhigen znači smiriti nekog drugog ili situaciju.",
       "examples": [
         {
@@ -8503,7 +8487,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "sich beruhigen",
-          "meaning": "Smiri se",
+          "meaning": "Smiriti se",
           "example": "Ich beruhige mich. = Ja se smirim."
         },
         {
@@ -8520,7 +8504,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Sa sichom, osoba ili situacija se smiruju • Bez sicha umiriš nekog drugog."
+            "text": "Uz sich, osoba ili situacija se smiruje sama • Bez sich, umiriš nekog drugog."
           }
         ]
       },
@@ -8826,7 +8810,7 @@ const B1_WORDS = [
   },
   {
     "de": "beschaffen",
-    "lv": "Obezbediti",
+    "lv": "Nabaviti",
     "level": "B1"
   },
   {
@@ -9064,7 +9048,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Klage",
-          "meaning": "Pravni postupak",
+          "meaning": "Žalba / pritužba",
           "example": "Die Klage läuft noch. = Sudski postupak je još u toku."
         },
         {
@@ -9166,11 +9150,7 @@ const B1_WORDS = [
                 "die Klage"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Pravni"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -9218,7 +9198,7 @@ const B1_WORDS = [
   },
   {
     "de": "besetzen",
-    "lv": "Okupirati",
+    "lv": "Zauzeti",
     "level": "B1"
   },
   {
@@ -9238,7 +9218,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-besorgen",
       "layout": "standardStudy",
-      "translation": "Obezbediti",
+      "translation": "Obezbijediti",
       "explanation": "Glavna ideja: besorgen znači nabaviti, kupiti ili pronaći nešto potrebno. To nije isto što i briga za nekoga.",
       "examples": [
         {
@@ -9876,7 +9856,7 @@ const B1_WORDS = [
       "id": "b1-betrieb",
       "layout": "standardStudy",
       "translation": "Kompanija",
-      "explanation": "Glavna ideja: der Betrieb najčešće znači preduzeće/pogon ili radni, odnosno operativni proces. Izraz u Betriebu znači da je postrojenje ili sistem u funkciji.",
+      "explanation": "Glavna ideja: der Betrieb najčešće znači preduzeće/pogon ili radni, odnosno operativni proces. Izraz in Betrieb znači da je postrojenje ili sistem u funkciji.",
       "examples": [
         {
           "de": "Der Betrieb hat 50 Mitarbeiter.",
@@ -9911,7 +9891,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Kompanija = Betrieb • Mašina u Betriebu = u pogonu."
+            "text": "Kompanija = Betrieb • Mašina in Betrieb = u pogonu."
           }
         ]
       },
@@ -10105,7 +10085,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-bewegen",
       "layout": "standardStudy",
-      "translation": "Pomjeriti / kretati nešto",
+      "translation": "Pomjerati nešto / pokretati nešto",
       "explanation": "Glavna ideja: bewegen znači pomjeriti nešto. Uz ljude i emocije može značiti dirnuti ili ganuti; sich bewegen znači kretati se.",
       "examples": [
         {
@@ -10118,7 +10098,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Geschichte hat mich sehr bewegt.",
-          "lv": "Bila sam veoma dirnuta pričom."
+          "lv": "Priča me je veoma dirnula."
         }
       ],
       "comparison": [
@@ -10192,10 +10172,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Bila"
+                "veoma"
               ],
               "yellow": [
-                "Bila"
+                "Priča"
               ]
             }
           }
@@ -10300,7 +10280,7 @@ const B1_WORDS = [
   },
   {
     "de": "bewohnen",
-    "lv": "Naseliti",
+    "lv": "Nastanjivati",
     "level": "B1"
   },
   {
@@ -10544,7 +10524,7 @@ const B1_WORDS = [
     "de": "Biskuit",
     "de_article": "der",
     "de_plural": "die Biskuits",
-    "lv": "Keks",
+    "lv": "Biskvit",
     "level": "B1"
   },
   {
@@ -10732,7 +10712,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Mogućnosti, kursevi, usluge ili pogled često etwas bieten = daje/nudi nešto."
+            "text": "Mogućnosti, kursevi, usluge ili pogled često etwas bieten = daju/nude nešto."
           }
         ]
       },
@@ -11083,7 +11063,7 @@ const B1_WORDS = [
   },
   {
     "de": "blättern",
-    "lv": "Prelistaj",
+    "lv": "Prelistavati",
     "level": "B1"
   },
   {
@@ -11144,7 +11124,7 @@ const B1_WORDS = [
       "id": "b1-block",
       "layout": "standardStudy",
       "translation": "Blok",
-      "explanation": "Glavna ideja: der Block znači blok ili notepad. U kontekstu materijala, to može biti gruda ili veliki komad.",
+      "explanation": "Glavna ideja: der Block znači blok ili blok za bilješke. U kontekstu materijala može značiti blok ili veliki komad.",
       "examples": [
         {
           "de": "Ich schreibe es in den Block.",
@@ -11179,7 +11159,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Za pisanje Blok = blok • U strukturi = blok • U materijalu = blok."
+            "text": "Za pisanje = blokić • U strukturi = blok • U materijalu = kloc."
           }
         ]
       },
@@ -11520,7 +11500,7 @@ const B1_WORDS = [
   },
   {
     "de": "blutig",
-    "lv": "Krvavo",
+    "lv": "Krvav",
     "level": "B1"
   },
   {
@@ -11540,7 +11520,7 @@ const B1_WORDS = [
       "id": "b1-bogen",
       "layout": "standardStudy",
       "translation": "Luk",
-      "explanation": "Glavna ideja: der Bogen znači luk. U zavisnosti od konteksta, to može biti i luk ili stranica, kao što je Fragebogen.",
+      "explanation": "Glavna ideja: der Bogen znači luk. Zavisno od konteksta, može značiti i arhitektonski luk ili list papira/obrazac, kao u riječi Fragebogen.",
       "examples": [
         {
           "de": "Der Bogen ist aus Holz.",
@@ -11563,7 +11543,7 @@ const B1_WORDS = [
         },
         {
           "word": "das Formular",
-          "meaning": "Formu",
+          "meaning": "Formular",
           "example": "Das Formular ist lang. = Forma je duga."
         },
         {
@@ -11746,7 +11726,7 @@ const B1_WORDS = [
       "id": "b1-botschaft",
       "layout": "standardStudy",
       "translation": "Ambasada",
-      "explanation": "Glavna ideja: die Botschaft znači ambasada ili poruka. Zgrada i institucija je ambasada, ali sadržaj teksta ili govora je poruka.",
+      "explanation": "Glavna ideja: die Botschaft znači ambasada ili poruka. Zgrada i institucija su ambasada, ali sadržaj teksta ili govora je poruka.",
       "examples": [
         {
           "de": "Die Botschaft ist heute geschlossen.",
@@ -11774,7 +11754,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Mitteilung",
-          "meaning": "Notifikacija",
+          "meaning": "Obavijest / saopćenje",
           "example": "Die Mitteilung ist kurz. = Obavijest je kratka."
         }
       ],
@@ -11871,7 +11851,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Notifikacija"
+                "Obavijest"
               ]
             }
           }
@@ -11959,12 +11939,12 @@ const B1_WORDS = [
         },
         {
           "word": "das Feuer",
-          "meaning": "Vatre",
+          "meaning": "Vatra",
           "example": "Das Feuer brennt. = Vatra gori."
         },
         {
           "word": "die Marke",
-          "meaning": "Brand",
+          "meaning": "Brend / marka",
           "example": "Diese Marke ist bekannt. = Ovaj brend je poznat."
         }
       ],
@@ -12065,7 +12045,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Vatre"
+                "Vatra"
               ]
             }
           },
@@ -12077,7 +12057,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Brand"
+                "Brend"
               ]
             }
           }
@@ -12165,7 +12145,7 @@ const B1_WORDS = [
   },
   {
     "de": "brennend",
-    "lv": "Gori",
+    "lv": "Gorući",
     "level": "B1"
   },
   {
@@ -12264,7 +12244,7 @@ const B1_WORDS = [
   },
   {
     "de": "brutal",
-    "lv": "Brutalno",
+    "lv": "Brutalan",
     "level": "B1"
   },
   {
@@ -12304,7 +12284,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich bücken",
-    "lv": "Sagni se",
+    "lv": "Sagnuti se",
     "level": "B1"
   },
   {
@@ -12345,7 +12325,7 @@ const B1_WORDS = [
       "id": "b1-bund",
       "layout": "standardStudy",
       "translation": "Savez / unija",
-      "explanation": "Glavna ideja: der Bund znači federacija ili unija. Kod predmeta to može značiti paket, kao što je ein Bund Schlüssel ili ein Bund Kräuter.",
+      "explanation": "Glavna ideja: der Bund znači federacija ili savez. Kod predmeta može značiti svežanj ili snop, kao u izrazima ein Bund Schlüssel ili ein Bund Kräuter.",
       "examples": [
         {
           "de": "Der Bund unterstützt die Länder.",
@@ -12357,7 +12337,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ein Bund Kräuter liegt auf dem Tisch.",
-          "lv": "Na stolu je gomila začinskog bilja."
+          "lv": "Na stolu je svežanj začinskog bilja."
         }
       ],
       "comparison": [
@@ -12641,7 +12621,7 @@ const B1_WORDS = [
     "de": "Christ",
     "de_article": "der",
     "de_plural": "die Christen",
-    "lv": "Hrišćanin",
+    "lv": "Kršćanin",
     "level": "B1"
   },
   {
@@ -12717,7 +12697,7 @@ const B1_WORDS = [
         },
         {
           "word": "deshalb",
-          "meaning": "Dakle",
+          "meaning": "Zato / zbog toga",
           "example": "Deshalb bleibe ich zu Hause. = Zato ostajem kod kuće."
         },
         {
@@ -12807,7 +12787,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Dakle"
+                "Zato"
               ]
             }
           },
@@ -13176,12 +13156,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "dahin",
-          "meaning": "Tamo / prema tamo / gotovo, izgubljeno",
+          "meaning": "Onamo / prema tom mjestu / gotovo, izgubljeno",
           "example": "Ich fahre dahin. = Idem tamo."
         },
         {
           "word": "dort",
-          "meaning": "Tamo, na tom mestu",
+          "meaning": "Tamo, na tom mjestu",
           "example": "Ich bin dort. = Ja sam tamo."
         },
         {
@@ -13268,11 +13248,7 @@ const B1_WORDS = [
                 "dahin"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Tamo"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -13399,7 +13375,7 @@ const B1_WORDS = [
         },
         {
           "word": "bedanken (sich)",
-          "meaning": "Da se formalno zahvalim",
+          "meaning": "Zahvala",
           "example": "Ich bedanke mich bei Ihnen. = Hvala ti."
         }
       ],
@@ -13640,11 +13616,7 @@ const B1_WORDS = [
                 "bedanken"
               ]
             },
-            "meaning": {
-              "purple": [
-                "formalno"
-              ]
-            },
+            "meaning": {},
             "example": {
               "orange": [
                 "bedanke",
@@ -13735,7 +13707,7 @@ const B1_WORDS = [
         },
         {
           "de": "Daran erinnere ich mich gut.",
-          "lv": "Dobro se sećam toga."
+          "lv": "Dobro se sjećam toga."
         }
       ],
       "comparison": [
@@ -13751,7 +13723,7 @@ const B1_WORDS = [
         },
         {
           "word": "damit",
-          "meaning": "Sa tim",
+          "meaning": "S tim",
           "example": "Ich beginne damit. = Počeo sam s tim."
         }
       ],
@@ -13924,7 +13896,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "darstellen",
-          "meaning": "Prikazati / prikazati / portretirati",
+          "meaning": "Prikazati / pokazati / glumiti",
           "example": "Die Tabelle stellt Daten dar. = Tabela predstavlja podatke."
         },
         {
@@ -14240,7 +14212,7 @@ const B1_WORDS = [
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Postojanje • Postojanje",
+    "lv": "Postojanje • Egzistencija",
     "level": "B1"
   },
   {
@@ -14275,7 +14247,7 @@ const B1_WORDS = [
       "id": "b1-decken",
       "layout": "standardStudy",
       "translation": "Pokriti",
-      "explanation": "Glavna ideja: decken znači pokriti, ali objekat menja prevod: den Tisch decken = postaviti sto, Kosten decken = pokriti troškove, etwas mit Schnee decken = pokriti.",
+      "explanation": "Glavna ideja: decken znači pokriti, ali objekt mijenja prijevod: den Tisch decken = postaviti stol, Kosten decken = pokriti troškove, etwas mit Schnee decken = prekriti.",
       "examples": [
         {
           "de": "Ich decke den Tisch.",
@@ -14490,7 +14462,7 @@ const B1_WORDS = [
   },
   {
     "de": "dennoch",
-    "lv": "Međutim",
+    "lv": "Ipak",
     "level": "B1"
   },
   {
@@ -14540,7 +14512,7 @@ const B1_WORDS = [
     "de": "Dichter",
     "de_article": "der",
     "de_plural": "die Dichter",
-    "lv": "Pesnik",
+    "lv": "Pjesnik",
     "level": "B1"
   },
   {
@@ -14565,7 +14537,7 @@ const B1_WORDS = [
       "id": "b1-dienen",
       "layout": "standardStudy",
       "translation": "Služiti",
-      "explanation": "Glavna ideja: Služiti znači služiti ili služiti svrsi. Po als to znači “služiti kao”.",
+      "explanation": "Glavna ideja: dienen znači služiti ili biti namijenjen nekoj svrsi. Uz als znači „služiti kao“.",
       "examples": [
         {
           "de": "Dieses Zimmer dient als Büro.",
@@ -14881,7 +14853,7 @@ const B1_WORDS = [
   },
   {
     "de": "drohen",
-    "lv": "Pretiti",
+    "lv": "Prijetiti",
     "level": "B1"
   },
   {
@@ -14929,7 +14901,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Unter Druck stehen = biti pod pritiskom • Druck des Buches = štampanje knjiga."
+            "text": "Unter Druck stehen = biti pod pritiskom • Druck des Buches = štampanje knjige."
           }
         ]
       },
@@ -15140,7 +15112,7 @@ const B1_WORDS = [
         },
         {
           "de": "Bei Durchfall soll man viel trinken.",
-          "lv": "U slučaju dijareje, piti puno."
+          "lv": "U slučaju dijareje treba puno piti."
         },
         {
           "de": "Er ist durch die Prüfung gefallen.",
@@ -15155,7 +15127,7 @@ const B1_WORDS = [
         },
         {
           "word": "durchfallen",
-          "meaning": "Propasti",
+          "meaning": "Pasti na ispitu",
           "example": "Sie fällt durch. = Ona ne uspijeva."
         },
         {
@@ -15243,7 +15215,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Propasti"
+                "Pasti"
               ]
             }
           },
@@ -15469,7 +15441,7 @@ const B1_WORDS = [
   },
   {
     "de": "durchlesen",
-    "lv": "Čitati",
+    "lv": "Pročitati",
     "level": "B1"
   },
   {
@@ -15486,7 +15458,7 @@ const B1_WORDS = [
   },
   {
     "de": "düster",
-    "lv": "Sumorno",
+    "lv": "Sumoran",
     "level": "B1"
   },
   {
@@ -15558,7 +15530,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das ist eher schwierig.",
-          "lv": "Prilično je teško."
+          "lv": "Prije bi se reklo da je teško."
         },
         {
           "de": "Kannst du eher kommen?",
@@ -15590,7 +15562,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Eher nije uvijek 'prije' • U tekstovima B1 vrlo često izražava dispoziciju: radije."
+        "text": "Eher nije uvijek „ranije”. U B1 tekstovima vrlo često izražava sklonost ili preferenciju: radije."
       },
       "sectionAccents": {
         "examples": [
@@ -15617,10 +15589,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Prilično"
+                "se"
               ],
               "red": [
-                "Prilično"
+                "reklo"
               ]
             }
           },
@@ -15719,7 +15691,7 @@ const B1_WORDS = [
     "de": "Eiche",
     "de_article": "die",
     "de_plural": "die Eichen",
-    "lv": "Hrastovo drvo",
+    "lv": "Hrast",
     "level": "B1"
   },
   {
@@ -15750,7 +15722,7 @@ const B1_WORDS = [
       "id": "b1-eigen",
       "layout": "standardStudy",
       "translation": "Vlastiti",
-      "explanation": "Glavna ideja: eigen znači svoj ili svoj, naglašavajući pripadnost ili nezavisnost. Može značiti neobičan karakter ili stil.",
+      "explanation": "Glavna ideja: eigen znači svoj ili vlastiti, naglašavajući pripadnost ili nezavisnost. Za karakter ili stil može značiti osebujan.",
       "examples": [
         {
           "de": "Jeder hat seinen eigenen Stil.",
@@ -15956,7 +15928,7 @@ const B1_WORDS = [
   },
   {
     "de": "eilig",
-    "lv": "Hitno",
+    "lv": "Hitan",
     "level": "B1"
   },
   {
@@ -15973,12 +15945,12 @@ const B1_WORDS = [
   },
   {
     "de": "einbegriffen",
-    "lv": "Inkluzivno",
+    "lv": "Uključeno / uračunato",
     "level": "B1"
   },
   {
     "de": "sich einbilden",
-    "lv": "Zamisliti",
+    "lv": "Umišljati sebi / umisliti",
     "level": "B1"
   },
   {
@@ -16270,7 +16242,7 @@ const B1_WORDS = [
       "id": "b1-eindruck",
       "layout": "standardStudy",
       "translation": "Utisak",
-      "explanation": "Glavna ideja: der Eindruck znači utisak - kako vam se nešto čini ili čini da se osjećate. Vrlo čest izraz je einen Eindruck machen.",
+      "explanation": "Glavna ideja: der Eindruck znači utisak – kako vam se nešto čini ili kakav osjećaj nešto stvara. Vrlo čest izraz je einen Eindruck machen.",
       "examples": [
         {
           "de": "Der Film hat einen starken Eindruck gemacht.",
@@ -16451,11 +16423,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Mir ist das einerlei.",
-          "lv": "Nije me briga."
+          "lv": "Svejedno mi je."
         },
         {
           "de": "Es ist einerlei, wer zuerst kommt.",
-          "lv": "Nije bitno ko je prvi."
+          "lv": "Nije važno ko prvi dođe."
         },
         {
           "de": "Im Alltag sagt man öfter: Das ist mir egal.",
@@ -16502,10 +16474,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nije"
+                "Svejedno"
               ],
               "green": [
-                "Nije"
+                "Svejedno"
               ]
             }
           },
@@ -16813,7 +16785,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Ausfahrt",
-          "meaning": "Izlaz / izlaz",
+          "meaning": "Izlaz / izlazak",
           "example": "Die Ausfahrt ist gesperrt. = Izlaz je zatvoren."
         },
         {
@@ -16926,11 +16898,7 @@ const B1_WORDS = [
                 "die Ausfahrt"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Izlaz"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -16981,7 +16949,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Decke ist eingefallen.",
-          "lv": "Plafon je upao."
+          "lv": "Plafon se urušio."
         }
       ],
       "tip": {
@@ -17119,7 +17087,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einfarbig",
       "layout": "standardStudy",
-      "translation": "Jednobojni",
+      "translation": "Jednobojan",
       "explanation": "Glavna ideja: einfarbig znači jednobojan — u jednoj boji, bez šare ili miješanja boja.",
       "examples": [
         {
@@ -17138,12 +17106,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "einfarbig",
-          "meaning": "Jednobojni",
+          "meaning": "Jednobojan",
           "example": "Das Hemd ist einfarbig. = Košulja je obična."
         },
         {
           "word": "farbig",
-          "meaning": "Šareno",
+          "meaning": "Šaren / obojen",
           "example": "Das Bild ist farbig. = Slika je u boji."
         },
         {
@@ -17247,7 +17215,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Jednobojni"
+                "Jednobojan"
               ]
             }
           },
@@ -17259,7 +17227,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Šareno"
+                "Šaren"
               ]
             }
           },
@@ -17492,7 +17460,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Einfügen je često tehnička/dokumentarna aktivnost • \"dodati\" je češće za dodavanje."
+        "text": "Einfügen je često tehnička/dokumentarna radnja; za „dodati” se češće koristi hinzufügen."
       },
       "sectionAccents": {
         "examples": [
@@ -17648,7 +17616,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pravila, sistem ili metod führt man ein • Roba može biti i einführen = uvezena."
+            "text": "Pravila, sistem ili metodu führt man ein • Roba se također može einführen = uvoziti."
           }
         ]
       },
@@ -18199,12 +18167,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "einhalten",
-          "meaning": "Tačno pratiti/izvršiti",
+          "meaning": "Pridržavati se / ispoštovati",
           "example": "Wir halten die Frist ein. = Ispunjavamo rok."
         },
         {
           "word": "beachten",
-          "meaning": "Uzeti u obzir / posmatrati",
+          "meaning": "Uzeti u obzir / obratiti pažnju na",
           "example": "Bitte beachten Sie die Hinweise. = Molimo slijedite upute."
         },
         {
@@ -18216,7 +18184,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Regeln, Termin, Frist, Abstand einhalten = točno slijedite."
+            "text": "Regeln, Termin, Frist, Abstand einhalten = strogo se pridržavati / ispoštovati."
           }
         ]
       },
@@ -18303,11 +18271,7 @@ const B1_WORDS = [
                 "einhalten"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Tačno"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -18366,7 +18330,7 @@ const B1_WORDS = [
       "id": "b1-einheimisch",
       "layout": "standardStudy",
       "translation": "Lokalni",
-      "explanation": "Glavna ideja: einheimisch znači lokalno ili obilježje mjesta. Koristi se za ljude, biljke, životinje i proizvode.",
+      "explanation": "Glavna ideja: einheimisch znači lokalni, domaći ili autohtoni — pripadajući tom mjestu. Koristi se za ljude, biljke, životinje i proizvode.",
       "examples": [
         {
           "de": "Die einheimische Bevölkerung kennt die Berge gut.",
@@ -18389,12 +18353,12 @@ const B1_WORDS = [
         },
         {
           "word": "heimisch",
-          "meaning": "Lokalno / ugodno u određenom okruženju",
+          "meaning": "Domaće / svojstveno određenom području; osjećati se kao kod kuće",
           "example": "Diese Art ist hier heimisch. = Ova vrsta je ovdje endemična."
         },
         {
           "word": "ausländisch",
-          "meaning": "Stranim",
+          "meaning": "Strani / inozemni",
           "example": "Das ist ein ausländisches Produkt. = To je strani proizvod."
         }
       ],
@@ -18507,11 +18471,7 @@ const B1_WORDS = [
                 "heimisch"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Lokalno"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -18521,7 +18481,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Stranim"
+                "Strani"
               ]
             }
           }
@@ -18756,7 +18716,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Gewichtseinheit",
-          "meaning": "Jedinicu težine",
+          "meaning": "Jedinica težine / mase",
           "example": "Kilogramm ist eine Gewichtseinheit. = Kilogram je jedinica težine."
         },
         {
@@ -18773,7 +18733,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nemojte brkati Längeneinheit sa Gewichtseinheit: jedan mjeri dužinu, drugi mjeri težinu/masu."
+        "text": "Nemojte brkati Längeneinheit sa Gewichtseinheit: jedna mjeri dužinu, a druga težinu/masu."
       },
       "sectionAccents": {
         "examples": [
@@ -18862,7 +18822,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Jedinicu"
+                "Jedinica"
               ]
             }
           },
@@ -18926,7 +18886,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Einheitlich nije einzig: einheitlich = jedan/jednak, einzig = jedini."
+        "text": "Einheitlich nije einzig: einheitlich = ujednačen/jednolik, einzig = jedini."
       },
       "sectionAccents": {
         "examples": [
@@ -19341,7 +19301,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Feuerwehr ist seit zwei Stunden im Einsatz.",
-          "lv": "Vatrogasci dežuraju dva sata."
+          "lv": "Vatrogasci su već dva sata na intervenciji."
         },
         {
           "de": "Bei diesem Spiel ist der Einsatz zu hoch.",
@@ -19368,7 +19328,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Einsatz uvijek pita: Ko je uključen ili korišten iu kojoj situaciji?"
+            "text": "Kod Einsatz uvijek se pitamo: šta je uključeno ili korišteno i u kojoj situaciji?"
           }
         ]
       },
@@ -19531,7 +19491,7 @@ const B1_WORDS = [
   },
   {
     "de": "einseitig",
-    "lv": "Jednostrano",
+    "lv": "Jednostran",
     "level": "B1"
   },
   {
@@ -19988,12 +19948,12 @@ const B1_WORDS = [
         },
         {
           "word": "betreten",
-          "meaning": "Uđite na mjesto",
+          "meaning": "Ući na neko mjesto",
           "example": "Bitte betreten Sie den Raum nicht. = Molimo vas da ne ulazite u sobu."
         },
         {
           "word": "beitreten",
-          "meaning": "Pridružite se organizaciji",
+          "meaning": "Pridružiti se organizaciji",
           "example": "Ich trete dem Verein bei. = Učlanio sam se u udruženje."
         }
       ],
@@ -20094,11 +20054,7 @@ const B1_WORDS = [
                 "betreten"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Uđite"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -20108,7 +20064,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pridružite"
+                "Pridružiti"
               ]
             }
           }
@@ -20149,12 +20105,12 @@ const B1_WORDS = [
     "de": "Einzelkind",
     "de_article": "das",
     "de_plural": "die Einzelkinder",
-    "lv": "Jedino dete u porodici",
+    "lv": "Jedino dijete u porodici",
     "level": "B1"
   },
   {
     "de": "einzeln",
-    "lv": "Odvojeno",
+    "lv": "Pojedinačan / zaseban",
     "level": "B1"
   },
   {
@@ -20165,7 +20121,7 @@ const B1_WORDS = [
       "id": "b1-einziehen",
       "layout": "standardStudy",
       "translation": "Useliti se",
-      "explanation": "Glavna ideja: einziehen najčešće znači preseljenje na novo mjesto. Sa drugim objektom, to može značiti naplatu ili povlačenje nečega unutra.",
+      "explanation": "Glavna ideja: einziehen najčešće znači useliti se u novi stan ili dom. S drugim objektom može značiti naplatiti ili uvući nešto unutra.",
       "examples": [
         {
           "de": "Wir ziehen morgen in die neue Wohnung ein.",
@@ -20352,7 +20308,7 @@ const B1_WORDS = [
     "de": "Eisberg",
     "de_article": "der",
     "de_plural": "die Eisberge",
-    "lv": "Iceberg",
+    "lv": "Ledeni brijeg / santa leda",
     "level": "B1"
   },
   {
@@ -20376,14 +20332,14 @@ const B1_WORDS = [
   },
   {
     "de": "eisig",
-    "lv": "Ledeno",
+    "lv": "Leden",
     "level": "B1"
   },
   {
     "de": "Eiskunstlauf",
     "de_article": "der",
     "de_plural": "die Eiskunstläufe",
-    "lv": "Umetničko klizanje",
+    "lv": "Umjetničko klizanje",
     "level": "B1"
   },
   {
@@ -20422,7 +20378,7 @@ const B1_WORDS = [
   },
   {
     "de": "elementar",
-    "lv": "Elementarno",
+    "lv": "Elementaran",
     "level": "B1"
   },
   {
@@ -20446,7 +20402,7 @@ const B1_WORDS = [
       "id": "b1-empfangen",
       "layout": "standardStudy",
       "translation": "Primiti",
-      "explanation": "Glavna ideja: empfangen znači primati u formalnijoj ili tehničkoj situaciji, primati goste ili primati signal. Svakodnevno 'dobi/primi' je češće bekommen.",
+      "explanation": "Glavna ideja: empfangen znači primati u formalnijoj ili tehničkoj situaciji, primati goste ili primati signal. Svakodnevno „dobiti/primiti“ češće je bekommen.",
       "examples": [
         {
           "de": "Wir haben Ihre Nachricht empfangen.",
@@ -20481,7 +20437,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Empfangen poruke ili signala • Empfangen = primati ljude."
+            "text": "Poruke ili signale možemo primati; kada se radi o ljudima, empfangen znači ugostiti ili primiti goste."
           }
         ]
       },
@@ -20639,7 +20595,7 @@ const B1_WORDS = [
   },
   {
     "de": "empfinden",
-    "lv": "Osetiti",
+    "lv": "Osjetiti",
     "level": "B1"
   },
   {
@@ -20714,7 +20670,7 @@ const B1_WORDS = [
         },
         {
           "word": "sich entfernen",
-          "meaning": "Odmakni se",
+          "meaning": "Udaljiti se",
           "example": "Sie entfernt sich vom Bahnhof. = Ona se udaljava od stanice."
         }
       ],
@@ -20726,7 +20682,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Ako je udaljavanje sama osoba, potreban je refleksivni oblik sich entfernen."
+        "text": "Ako se osoba sama udaljava, potreban je refleksivni oblik sich entfernen."
       },
       "sectionAccents": {
         "examples": [
@@ -20835,7 +20791,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Odmakni"
+                "Udaljiti"
               ]
             }
           }
@@ -20880,7 +20836,7 @@ const B1_WORDS = [
       "id": "b1-enthalten",
       "layout": "standardStudy",
       "translation": "Sadržavati",
-      "explanation": "Glavna ideja: enthalten znači sadržavati ili sadržavati nešto kao dio cjeline. Koristi se za komponente, cijene, tekstove, liste i setove.",
+      "explanation": "Glavna ideja: enthalten znači sadržavati ili uključivati nešto kao dio cjeline. Koristi se za komponente, cijene, tekstove, liste i setove.",
       "examples": [
         {
           "de": "Das Getränk enthält viel Zucker.",
@@ -21068,7 +21024,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Gefangene ist aus dem Gefängnis entkommen.",
-          "lv": "Zatvorenik je pobegao iz zatvora."
+          "lv": "Zatvorenik je pobjegao iz zatvora."
         },
         {
           "de": "Sie entkam der Polizei in der Nacht.",
@@ -21082,7 +21038,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "entkommen",
-          "meaning": "Pobjeći / pobjeći",
+          "meaning": "Pobjeći / spasiti se",
           "example": "Er ist der Gefahr entkommen. = Pobegao je iz opasnosti."
         },
         {
@@ -21256,7 +21212,7 @@ const B1_WORDS = [
       "id": "b1-entlassen",
       "layout": "standardStudy",
       "translation": "Otpustiti / pustiti",
-      "explanation": "Glavna ideja: entlassen znači otpustiti ili otpustiti iz institucije. Bosanski prevod se menja u zavisnosti od mesta: kompanija otpušta, bolnica otpušta, zatvor pušta.",
+      "explanation": "Glavna ideja: entlassen znači otpustiti s posla ili pustiti iz ustanove. Bosanski prijevod se mijenja zavisno od konteksta: kompanija otpušta, bolnica otpušta, a zatvor pušta na slobodu.",
       "examples": [
         {
           "de": "Die Firma entlässt viele Mitarbeiter.",
@@ -21458,7 +21414,7 @@ const B1_WORDS = [
   },
   {
     "de": "entsetzlich",
-    "lv": "Strašno",
+    "lv": "Strašan",
     "level": "B1"
   },
   {
@@ -21836,7 +21792,7 @@ const B1_WORDS = [
   },
   {
     "de": "erblicken",
-    "lv": "Vidjeti",
+    "lv": "Ugledati",
     "level": "B1"
   },
   {
@@ -21915,7 +21871,7 @@ const B1_WORDS = [
   },
   {
     "de": "erfreulich",
-    "lv": "Prijatno",
+    "lv": "Prijatan",
     "level": "B1"
   },
   {
@@ -21972,7 +21928,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe Ihre Nachricht erhalten.",
-          "lv": "Primio sam tvoju poruku."
+          "lv": "Primio sam vašu poruku."
         },
         {
           "de": "Sie erhält jeden Monat Unterstützung.",
@@ -22201,7 +22157,7 @@ const B1_WORDS = [
   },
   {
     "de": "ermöglichen",
-    "lv": "Dati šansu",
+    "lv": "Omogućiti",
     "level": "B1"
   },
   {
@@ -22493,7 +22449,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "erscheinen",
-          "meaning": "Pojaviti / izaći / stići",
+          "meaning": "Pojaviti se / izaći / stići",
           "example": "Der Artikel erscheint morgen. = Članak će biti objavljen sutra."
         },
         {
@@ -23009,7 +22965,7 @@ const B1_WORDS = [
   },
   {
     "de": "extrem",
-    "lv": "Ekstremno",
+    "lv": "Ekstreman",
     "level": "B1"
   },
   {
@@ -23035,12 +22991,12 @@ const B1_WORDS = [
   },
   {
     "de": "fade",
-    "lv": "Dosadno",
+    "lv": "Dosadan",
     "level": "B1"
   },
   {
     "de": "fähig",
-    "lv": "U stanju",
+    "lv": "Sposoban",
     "level": "B1"
   },
   {
@@ -23138,7 +23094,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich kann diesen Gedanken nicht fassen.",
-          "lv": "Ne mogu da zamislim tu misao."
+          "lv": "Ne mogu shvatiti tu misao."
         },
         {
           "de": "Der Saal fasst 200 Personen.",
@@ -23148,7 +23104,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "fassen",
-          "meaning": "Uhvatiti / obuhvatiti / uklopiti",
+          "meaning": "Uhvatiti / obuhvatiti / primiti",
           "example": "Ich kann es nicht fassen. = Ne mogu to da shvatim."
         },
         {
@@ -23318,7 +23274,7 @@ const B1_WORDS = [
       "id": "b1-faul",
       "layout": "standardStudy",
       "translation": "Lijen",
-      "explanation": "Glavna ideja: faul za osobu znači lijen. Za voće, hranu ili materijal, to znači pokvareno ili pokvareno.",
+      "explanation": "Glavna ideja: faul za osobu znači lijen. Za voće, hranu ili materijal znači truo, pokvaren ili oštećen.",
       "examples": [
         {
           "de": "Er ist heute sehr faul.",
@@ -23346,7 +23302,7 @@ const B1_WORDS = [
         },
         {
           "word": "verdorben",
-          "meaning": "Pokvario",
+          "meaning": "Pokvaren / pokvareno",
           "example": "Das Essen ist verdorben. = Hrana se pokvarila."
         }
       ],
@@ -23462,7 +23418,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pokvario"
+                "Pokvaren"
               ]
             }
           }
@@ -23491,14 +23447,14 @@ const B1_WORDS = [
     "de": "Faulheit",
     "de_article": "die",
     "de_plural": "die Faulheiten",
-    "lv": "Lenjost",
+    "lv": "Lijenost",
     "level": "B1"
   },
   {
     "de": "Fax",
     "de_article": "das",
     "de_plural": "die Faxe",
-    "lv": "Fax",
+    "lv": "Faks",
     "level": "B1"
   },
   {
@@ -23515,7 +23471,7 @@ const B1_WORDS = [
   },
   {
     "de": "feierlich",
-    "lv": "Svečana",
+    "lv": "Svečan",
     "level": "B1"
   },
   {
@@ -23588,8 +23544,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-festhalten",
       "layout": "standardStudy",
-      "translation": "Drži čvrsto",
-      "explanation": "Glavna ideja: festhalten znači držati se čvrsto da se nešto ne pomakne ili nestane. U prenesenom smislu, to znači zapisati ili zabilježiti informacije.",
+      "translation": "Držati čvrsto",
+      "explanation": "Glavna ideja: festhalten znači nešto čvrsto držati kako se ne bi pomaknulo ili otišlo. U prenesenom smislu znači zapisati ili zabilježiti informaciju.",
       "examples": [
         {
           "de": "Halte dich gut fest!",
@@ -23696,7 +23652,7 @@ const B1_WORDS = [
             "Glavna"
           ],
           "yellow": [
-            "informacije"
+            "festhalten"
           ]
         },
         "comparison": [
@@ -23931,7 +23887,7 @@ const B1_WORDS = [
   },
   {
     "de": "festlich",
-    "lv": "Svečana",
+    "lv": "Svečan",
     "level": "B1"
   },
   {
@@ -24155,7 +24111,7 @@ const B1_WORDS = [
   },
   {
     "de": "finster",
-    "lv": "Mračno",
+    "lv": "Mračan",
     "level": "B1"
   },
   {
@@ -24181,7 +24137,7 @@ const B1_WORDS = [
   },
   {
     "de": "fix",
-    "lv": "Brzo",
+    "lv": "Brz",
     "level": "B1"
   },
   {
@@ -24241,7 +24197,7 @@ const B1_WORDS = [
   },
   {
     "de": "flink",
-    "lv": "Brzo",
+    "lv": "Brz",
     "level": "B1"
   },
   {
@@ -24367,7 +24323,7 @@ const B1_WORDS = [
         },
         {
           "de": "In der nächsten Folge passiert viel.",
-          "lv": "Mnogo toga se dešava u sledećoj epizodi."
+          "lv": "Mnogo toga se dešava u sljedećoj epizodi."
         }
       ],
       "comparison": [
@@ -24544,7 +24500,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-fördern",
       "layout": "standardStudy",
-      "translation": "Promovirati",
+      "translation": "Poticati / podržavati",
       "explanation": "Glavna ideja: fördern znači poticati razvoj ili podržavati osobu, projekt ili proces. U industriji znači vaditi sirovine, na primjer naftu ili ugalj.",
       "examples": [
         {
@@ -24776,7 +24732,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "fortfahren",
-          "meaning": "Nastaviti / voziti se",
+          "meaning": "Nastaviti / odvesti se / otići vozilom",
           "example": "Fahren Sie fort. = Nastavi."
         },
         {
@@ -24960,7 +24916,7 @@ const B1_WORDS = [
     "de": "Freie",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Slobodna priroda",
+    "lv": "Otvoreni prostor",
     "level": "B1"
   },
   {
@@ -24977,7 +24933,7 @@ const B1_WORDS = [
   },
   {
     "de": "freiwillig",
-    "lv": "Dobrovoljno",
+    "lv": "Dobrovoljan",
     "level": "B1"
   },
   {
@@ -24998,7 +24954,7 @@ const B1_WORDS = [
     "de": "Fremdwort",
     "de_article": "das",
     "de_plural": "die Fremdwörter",
-    "lv": "Strana reč",
+    "lv": "Strana riječ",
     "level": "B1"
   },
   {
@@ -25049,7 +25005,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Obični ljudi koriste essen umjesto fressen ako ne želite zvučati nepristojno."
+        "text": "U svakodnevnom govoru za ljude se koristi essen, a ne fressen, ako ne želite zvučati nepristojno."
       },
       "sectionAccents": {
         "examples": [
@@ -25181,7 +25137,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "Obični"
+            "fressen"
           ]
         }
       }
@@ -25194,7 +25150,7 @@ const B1_WORDS = [
   },
   {
     "de": "friedlich",
-    "lv": "Mirno",
+    "lv": "Miran",
     "level": "B1"
   },
   {
@@ -25238,7 +25194,7 @@ const B1_WORDS = [
     "de": "Fuchsbau",
     "de_article": "der",
     "de_plural": "die Fuchsbaue",
-    "lv": "Lisičja pećina",
+    "lv": "Lisičja jazbina",
     "level": "B1"
   },
   {
@@ -25532,7 +25488,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-ganztaegig",
       "layout": "standardStudy",
-      "translation": "Cijeli dan • Cijeli dan",
+      "translation": "Tokom cijelog dana • Koji traje cijeli dan",
       "explanation": [
         "Glavna ideja: ganztägig znači nešto što se događa ili traje cijeli dan.",
         "Ganztägig opisuje trajanje događaja ili aktivnosti (ein ganztägiger Ausflug = ekskurzija koja traje cijeli dan).",
@@ -25694,14 +25650,14 @@ const B1_WORDS = [
     "de": "Garn",
     "de_article": "das",
     "de_plural": "die Garne",
-    "lv": "Pređe",
+    "lv": "Pređa",
     "level": "B1"
   },
   {
     "de": "Garnele",
     "de_article": "die",
     "de_plural": "die Garnelen",
-    "lv": "Škampi",
+    "lv": "Kozica",
     "level": "B1"
   },
   {
@@ -25794,7 +25750,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-gebiet",
       "layout": "standardStudy",
-      "translation": "Polje",
+      "translation": "Područje / oblast / teritorij",
       "explanation": "Glavna ideja: das Gebiet znači područje ili teritorij. U znanju, radu i istraživanju, to je polje • U geografiji je to područje ili teritorija.",
       "examples": [
         {
@@ -25823,7 +25779,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Gegend",
-          "meaning": "Susjedstvo",
+          "meaning": "Okolica / kraj / područje",
           "example": "Die Gegend ist schön. = Okolina je predivna."
         }
       ],
@@ -25931,7 +25887,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Susjedstvo"
+                "Okolica"
               ]
             }
           }
@@ -25969,7 +25925,7 @@ const B1_WORDS = [
   },
   {
     "de": "gebogen",
-    "lv": "Zakrivljena",
+    "lv": "Zakrivljen",
     "level": "B1"
   },
   {
@@ -26000,7 +25956,7 @@ const B1_WORDS = [
   },
   {
     "de": "gebunden",
-    "lv": "Povezan",
+    "lv": "Vezan",
     "level": "B1"
   },
   {
@@ -26180,7 +26136,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Gehalt",
-          "meaning": "Sadržaj • Supstanca",
+          "meaning": "Sadržaj • suština",
           "example": "Der Gehalt ist klar. = Sadržaj je jasan. Množina: die Gehalte."
         },
         {
@@ -26685,7 +26641,7 @@ const B1_WORDS = [
         },
         {
           "de": "Diese Bemerkung war ziemlich gemein.",
-          "lv": "Ta poruka je bila prilično gadna."
+          "lv": "Ta primjedba je bila prilično gadna."
         }
       ],
       "comparison": [
@@ -26758,10 +26714,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poruka"
+                "prilično"
               ],
               "yellow": [
-                "poruka"
+                "primjedba"
               ]
             }
           }
@@ -27174,7 +27130,7 @@ const B1_WORDS = [
   },
   {
     "de": "gesamt",
-    "lv": "Sve",
+    "lv": "Ukupan",
     "level": "B1"
   },
   {
@@ -27551,7 +27507,7 @@ const B1_WORDS = [
   },
   {
     "de": "gespannt",
-    "lv": "Napeto",
+    "lv": "Napet",
     "level": "B1"
   },
   {
@@ -27592,7 +27548,7 @@ const B1_WORDS = [
   },
   {
     "de": "gestrig",
-    "lv": "Jučerašnje",
+    "lv": "Jučerašnji",
     "level": "B1"
   },
   {
@@ -27604,7 +27560,7 @@ const B1_WORDS = [
   },
   {
     "de": "geübt",
-    "lv": "Praktikovano",
+    "lv": "Uvježban",
     "level": "B1"
   },
   {
@@ -27661,7 +27617,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Gewinn der Firma ist gestiegen.",
-          "lv": "Profit kompanije je povećan."
+          "lv": "Profit kompanije je porastao."
         },
         {
           "de": "Nach Abzug der Kosten bleibt kaum Gewinn.",
@@ -27832,7 +27788,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-gewiss",
       "layout": "standardStudy",
-      "translation": "Sigurno",
+      "translation": "Siguran / izvjestan / svakako",
       "explanation": "Glavna ideja: gewiss znači siguran, siguran ili \"sigurno\". Zvuči malo formalnije nego sicher i često se pojavljuje u frazama poput ein gewisses Risiko.",
       "examples": [
         {
@@ -27841,7 +27797,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ein gewisses Risiko bleibt.",
-          "lv": "Neki rizik ostaje."
+          "lv": "Određeni rizik ostaje."
         },
         {
           "de": "Ich bin mir gewiss, dass es klappt.",
@@ -27851,7 +27807,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "gewiss",
-          "meaning": "Siguran / siguran / definitivno",
+          "meaning": "Siguran / izvjestan / svakako",
           "example": "Das ist gewiss. = Sigurno je."
         },
         {
@@ -27906,10 +27862,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Neki"
+                "Određeni"
               ],
               "yellow": [
-                "Neki"
+                "rizik"
               ]
             }
           },
@@ -28205,7 +28161,7 @@ const B1_WORDS = [
   },
   {
     "de": "giftig",
-    "lv": "Otrovno",
+    "lv": "Otrovan",
     "level": "B1"
   },
   {
@@ -28265,7 +28221,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Das Geländer se češće koristi za margaram • Das Gitter nije opšta reč za bilo kakvu ogradu."
+        "text": "Das Geländer se češće koristi za ograde/rukohvate • Das Gitter nije opšta riječ za bilo kakvu ogradu."
       },
       "sectionAccents": {
         "examples": [
@@ -28396,7 +28352,7 @@ const B1_WORDS = [
     "de": "Glanz",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Briljantnost",
+    "lv": "Sjaj",
     "level": "B1"
   },
   {
@@ -28406,7 +28362,7 @@ const B1_WORDS = [
   },
   {
     "de": "glänzend",
-    "lv": "Sjajna",
+    "lv": "Sjajan",
     "level": "B1"
   },
   {
@@ -28459,7 +28415,7 @@ const B1_WORDS = [
   },
   {
     "de": "gleichzeitig",
-    "lv": "U isto vreme",
+    "lv": "Istovremeno",
     "level": "B1"
   },
   {
@@ -28471,7 +28427,7 @@ const B1_WORDS = [
   },
   {
     "de": "global",
-    "lv": "Globalno",
+    "lv": "Globalan",
     "level": "B1"
   },
   {
@@ -28560,18 +28516,18 @@ const B1_WORDS = [
         },
         {
           "de": "Wir müssen zu neuen Maßnahmen greifen.",
-          "lv": "Moramo preduzeti nove mere."
+          "lv": "Moramo preduzeti nove mjere."
         }
       ],
       "comparison": [
         {
           "word": "greifen",
-          "meaning": "Uhvatiti / posegnuti / posegnuti za",
+          "meaning": "Uhvatiti / posegnuti za / latiti se nečega",
           "example": "Sie greift nach dem Glas. = Ona posegne za čašom."
         },
         {
           "word": "fassen",
-          "meaning": "Uhvatiti / uhvatiti",
+          "meaning": "Uhvatiti / obuhvatiti",
           "example": "Fass meine Hand! = Uhvati me za ruku!"
         },
         {
@@ -28758,7 +28714,7 @@ const B1_WORDS = [
       "id": "b1-griff",
       "layout": "standardStudy",
       "translation": "Ručka",
-      "explanation": "Glavna ideja: der Griff je najčešće ručka - mjesto iza kojeg se hvata neki predmet. U sportu ili pokretu, može biti i stisak.",
+      "explanation": "Glavna ideja: der Griff je najčešće ručka ili drška – dio predmeta za koji ga hvatamo. U sportu ili pri kretanju može značiti i hvat.",
       "examples": [
         {
           "de": "Der Griff der Tür ist locker.",
@@ -28939,7 +28895,7 @@ const B1_WORDS = [
     "de": "Grillspieß",
     "de_article": "der",
     "de_plural": "die Grillspieße",
-    "lv": "Roštilj ražanj",
+    "lv": "Ražanj za roštilj",
     "level": "B1"
   },
   {
@@ -28956,7 +28912,7 @@ const B1_WORDS = [
   },
   {
     "de": "großartig",
-    "lv": "Odlično",
+    "lv": "Odličan",
     "level": "B1"
   },
   {
@@ -28989,7 +28945,7 @@ const B1_WORDS = [
     "de": "Grundlage",
     "de_article": "die",
     "de_plural": "die Grundlagen",
-    "lv": "Osnovu",
+    "lv": "Osnova",
     "level": "B1"
   },
   {
@@ -29001,7 +28957,7 @@ const B1_WORDS = [
   },
   {
     "de": "gründlich",
-    "lv": "Temeljno",
+    "lv": "Temeljit",
     "level": "B1"
   },
   {
@@ -29039,7 +28995,7 @@ const B1_WORDS = [
   },
   {
     "de": "günstig",
-    "lv": "Povoljno",
+    "lv": "Povoljan",
     "level": "B1"
   },
   {
@@ -29070,7 +29026,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Gut",
-          "meaning": "Posjed / posjed / vlastelinstvo",
+          "meaning": "Posjed / imovina / vlastelinstvo",
           "example": "Das Gut ist alt. = Dvorac je star."
         },
         {
@@ -29245,14 +29201,14 @@ const B1_WORDS = [
     "de": "Hackbraten",
     "de_article": "der",
     "de_plural": "die Hackbraten",
-    "lv": "Pečenje od mlevenog mesa",
+    "lv": "Pečenje od mljevenog mesa",
     "level": "B1"
   },
   {
     "de": "Hacke",
     "de_article": "die",
     "de_plural": "die Hacken",
-    "lv": "Motiku",
+    "lv": "Motika",
     "level": "B1"
   },
   {
@@ -29315,7 +29271,7 @@ const B1_WORDS = [
     "de": "Halbschuh",
     "de_article": "der",
     "de_plural": "die Halbschuhe",
-    "lv": "Ulična cipela",
+    "lv": "Polucipela",
     "level": "B1"
   },
   {
@@ -29353,7 +29309,7 @@ const B1_WORDS = [
     "de": "Halteverbot",
     "de_article": "das",
     "de_plural": "die Halteverbote",
-    "lv": "Nema zaustavljanja",
+    "lv": "Zabrana zaustavljanja",
     "level": "B1"
   },
   {
@@ -29585,11 +29541,11 @@ const B1_WORDS = [
       "id": "b1-handgriff",
       "layout": "standardStudy",
       "translation": "Tehnika",
-      "explanation": "Glavna ideja: der Handgriff znači kratak praktični pokret ili tehniku ​​na radu. Ako je dio objekta, može značiti i ručku.",
+      "explanation": "Glavna ideja: der Handgriff znači kratak praktični pokret ili tehniku pri radu. Ako je dio objekta, može značiti i ručku.",
       "examples": [
         {
           "de": "Mit einem Handgriff war die Tür offen.",
-          "lv": "Jednim trikom vrata su bila otvorena."
+          "lv": "Jednim potezom vrata su se otvorila."
         },
         {
           "de": "Der Handgriff der Maschine ist kaputt.",
@@ -29613,7 +29569,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Handlung",
-          "meaning": "Akcija / ponašanje",
+          "meaning": "Radnja / postupak",
           "example": "Die Handlung war falsch. = Akcija je bila pogrešna."
         }
       ],
@@ -29729,11 +29685,7 @@ const B1_WORDS = [
                 "die Handlung"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Akcija"
-              ]
-            }
+            "meaning": {}
           }
         ],
         "tip": {
@@ -30028,13 +29980,13 @@ const B1_WORDS = [
         },
         {
           "de": "Ein Haufen Kinder spielt im Hof.",
-          "lv": "Gomila dece se igra u dvorištu."
+          "lv": "Gomila djece se igra u dvorištu."
         }
       ],
       "comparison": [
         {
           "word": "der Haufen",
-          "meaning": "Gomila / gomila / stado",
+          "meaning": "Gomila / hrpa / grupa ljudi",
           "example": "Ein Haufen Sand liegt dort. = Postoji gomila pijeska."
         },
         {
@@ -30281,7 +30233,7 @@ const B1_WORDS = [
   },
   {
     "de": "heftig",
-    "lv": "Jaka",
+    "lv": "Jak; snažan",
     "level": "B1"
   },
   {
@@ -30295,12 +30247,12 @@ const B1_WORDS = [
     "de": "Heftpflaster",
     "de_article": "das",
     "de_plural": "die Heftpflaster",
-    "lv": "Leucoplast",
+    "lv": "Leukoplast; flaster",
     "level": "B1"
   },
   {
     "de": "heil",
-    "lv": "Zdravo",
+    "lv": "Zdrav; čitav; neoštećen",
     "level": "B1"
   },
   {
@@ -30319,7 +30271,7 @@ const B1_WORDS = [
     "de": "Altenheim",
     "de_article": "das",
     "de_plural": "die Altenheime",
-    "lv": "Starački dom za stare",
+    "lv": "Starački dom; dom za starije osobe",
     "level": "B1"
   },
   {
@@ -30359,7 +30311,7 @@ const B1_WORDS = [
     "de": "Heiratsantrag",
     "de_article": "der",
     "de_plural": "die Heiratsanträge",
-    "lv": "Bračna ponuda",
+    "lv": "Prosidba; prijedlog za brak",
     "level": "B1"
   },
   {
@@ -30421,7 +30373,7 @@ const B1_WORDS = [
   },
   {
     "de": "heran",
-    "lv": "Ovdje",
+    "lv": "Ovamo; bliže",
     "level": "B1"
   },
   {
@@ -30615,7 +30567,7 @@ const B1_WORDS = [
   },
   {
     "de": "herbei",
-    "lv": "Ovdje",
+    "lv": "Ovamo; amo",
     "level": "B1"
   },
   {
@@ -30817,7 +30769,7 @@ const B1_WORDS = [
   },
   {
     "de": "hervorragend",
-    "lv": "Odlično",
+    "lv": "Odličan; izvanredan",
     "level": "B1"
   },
   {
@@ -30884,7 +30836,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Kinder gehen in den Garten hinaus.",
-          "lv": "Deca izlaze u baštu."
+          "lv": "Djeca izlaze u baštu."
         },
         {
           "de": "Das geht über meine Erfahrung hinaus.",
@@ -30946,11 +30898,11 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Deca"
+                "izlaze"
               ],
               "green": [
-                "Deca",
-                "Deca"
+                "Djeca",
+                "u"
               ]
             }
           },
@@ -31336,7 +31288,7 @@ const B1_WORDS = [
     "de": "Hocker",
     "de_article": "der",
     "de_plural": "die Hocker",
-    "lv": "Stolica",
+    "lv": "Stolica bez naslona; hoklica",
     "level": "B1"
   },
   {
@@ -31379,7 +31331,7 @@ const B1_WORDS = [
       "id": "b1-holen",
       "layout": "standardStudy",
       "translation": "Donijeti",
-      "explanation": "Glavna ideja: holen znači otići ili odvesti se po nešto te to donijeti, dovesti ili ponijeti sa sobom. Često se koristi i za osobe: jemanden abholen.",
+      "explanation": "Glavna ideja: holen znači otići ili odvesti po nešto i zatim to donijeti ili dovesti. Često se koristi i za osobe: jemanden abholen.",
       "examples": [
         {
           "de": "Ich hole die Kinder von der Schule ab.",
@@ -31387,7 +31339,7 @@ const B1_WORDS = [
         },
         {
           "de": "Kannst du bitte Brot holen?",
-          "lv": "Možete li doneti hleb molim vas"
+          "lv": "Možeš li, molim te, donijeti hljeb?"
         },
         {
           "de": "Wir holen den Arzt.",
@@ -31419,7 +31371,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Abholen je vrlo čest kod ljudi: Kinder abholen = uzeti djecu."
+        "text": "Abholen je vrlo čest uz osobe: Kinder abholen = pokupiti/preuzeti djecu."
       },
       "sectionAccents": {
         "examples": [
@@ -31455,10 +31407,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Možete"
+                "te"
               ],
               "yellow": [
-                "Možete"
+                "donijeti"
               ]
             }
           },
@@ -31638,7 +31590,7 @@ const B1_WORDS = [
       "id": "b1-horchen",
       "layout": "standardStudy",
       "translation": "Pažljivo slušati",
-      "explanation": "Glavna ideja: horchen znači pažljivo slušati, često čuti nešto. To takođe može značiti prisluškivanje.",
+      "explanation": "Glavna ideja: horchen znači pažljivo osluškivati, često kako bi se nešto čulo. Može značiti i prisluškivati.",
       "examples": [
         {
           "de": "Sie horcht an der Tür.",
@@ -31656,7 +31608,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "horchen",
-          "meaning": "Slušaj pažljivo",
+          "meaning": "Pažljivo slušati / osluškivati",
           "example": "Sie horcht an der Tür. = Ona sluša na vratima."
         },
         {
@@ -31765,7 +31717,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Slušaj"
+                "slušati"
               ]
             }
           },
@@ -32090,7 +32042,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hupe",
       "layout": "standardStudy",
-      "translation": "Truba • Rog",
+      "translation": "Sirena • Truba",
       "explanation": "Glavna ideja: die Hupe je sirena automobila ili brodska sirena. Upozorava druge u saobraćaju. Množina: die Hupen.",
       "examples": [
         {
@@ -32109,7 +32061,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Hupe",
-          "meaning": "Truba • Rog",
+          "meaning": "Sirena • truba",
           "example": "Die Hupe ist laut. = Sirena je glasna."
         },
         {
@@ -32126,7 +32078,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "U kontekstu automobila, truba. U kontekstu broda, rog. Glagol: hupen."
+            "text": "U kontekstu automobila: sirena ili truba. U kontekstu broda: brodska sirena. Glagol: hupen."
           }
         ]
       },
@@ -32218,11 +32170,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie hütet die Kinder am Nachmittag.",
-          "lv": "Ona čuva decu popodne."
+          "lv": "Ona čuva djecu popodne."
         },
         {
           "de": "Der Junge hütet die Schafe.",
-          "lv": "Dečak pase ovce."
+          "lv": "Dječak pase ovce."
         },
         {
           "de": "Hüte dich vor falschen Versprechen.",
@@ -32290,13 +32242,13 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dečak"
+                "pase"
               ],
               "green": [
-                "Dečak"
+                "Dječak"
               ],
               "yellow": [
-                "Dečak"
+                "ovce"
               ]
             }
           },
@@ -32498,12 +32450,12 @@ const B1_WORDS = [
   },
   {
     "de": "indirekt",
-    "lv": "Indirektno",
+    "lv": "Indirektan",
     "level": "B1"
   },
   {
     "de": "indiskret",
-    "lv": "Netaktičan",
+    "lv": "Indiskretan",
     "level": "B1"
   },
   {
@@ -32597,7 +32549,7 @@ const B1_WORDS = [
   },
   {
     "de": "inmitten",
-    "lv": "U sredini",
+    "lv": "Usred; među",
     "level": "B1"
   },
   {
@@ -32613,8 +32565,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-innerhalb",
       "layout": "standardStudy",
-      "translation": "Unutra",
-      "explanation": "Glavna ideja: innerhalb znači unutar ili unutar određene granice. Može biti u granicama prostora, vremena ili mogućnosti.",
+      "translation": "Unutar • U roku od",
+      "explanation": "Glavna ideja: innerhalb znači unutar neke granice ili u određenom roku. Može se odnositi na prostor, vrijeme ili mogućnosti.",
       "examples": [
         {
           "de": "Innerhalb der Stadt darf man langsam fahren.",
@@ -32632,12 +32584,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "innerhalb",
-          "meaning": "Unutra / tokom / unutar",
+          "meaning": "Unutar / u roku od / u granicama",
           "example": "Innerhalb einer Woche. = Tokom sedmice."
         },
         {
           "word": "außerhalb",
-          "meaning": "Vani",
+          "meaning": "Izvan",
           "example": "Wir wohnen außerhalb der Stadt. = Živimo van grada."
         },
         {
@@ -32737,7 +32689,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Unutra"
+                "Unutar"
               ]
             }
           },
@@ -32749,7 +32701,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Vani"
+                "Izvan"
               ]
             }
           },
@@ -32806,14 +32758,14 @@ const B1_WORDS = [
     "de": "Insektenstich",
     "de_article": "der",
     "de_plural": "die Insektenstiche",
-    "lv": "Ugriz insekata",
+    "lv": "Ubod insekta",
     "level": "B1"
   },
   {
     "de": "Inserat",
     "de_article": "das",
     "de_plural": "die Inserate",
-    "lv": "Reklama",
+    "lv": "Oglas",
     "level": "B1"
   },
   {
@@ -32888,12 +32840,12 @@ const B1_WORDS = [
   },
   {
     "de": "intim",
-    "lv": "Intimno",
+    "lv": "Intiman",
     "level": "B1"
   },
   {
     "de": "intolerant",
-    "lv": "Netolerantna",
+    "lv": "Netolerantan",
     "level": "B1"
   },
   {
@@ -32938,7 +32890,7 @@ const B1_WORDS = [
       "id": "b1-irren",
       "layout": "standardStudy",
       "translation": "Biti u krivu",
-      "explanation": "Glavna ideja: erren znači pogriješiti ili zalutati. Refleksni oblik sich irren najčešće se koristi u svakodnevnom životu • Bez sich-a riječ može značiti i lutati.",
+      "explanation": "Glavna ideja: irren znači pogriješiti ili zalutati. Refleksni oblik sich irren najčešće se koristi u svakodnevnom životu • Bez sich-a riječ može značiti i lutati.",
       "examples": [
         {
           "de": "Da irrst du dich.",
@@ -32946,7 +32898,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich habe mich in der Adresse geirrt.",
-          "lv": "Pogrešio sam u adresi."
+          "lv": "Pogriješio sam u adresi."
         },
         {
           "de": "Wir irren durch die Stadt.",
@@ -33008,7 +32960,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pogrešio"
+                "sam"
               ],
               "yellow": [
                 "adresi"
@@ -33167,7 +33119,7 @@ const B1_WORDS = [
       "id": "b1-jagen",
       "layout": "standardStudy",
       "translation": "Loviti",
-      "explanation": "Glavna ideja: jagen znači loviti životinje ili juriti nekoga. U prenesenom značenju može značiti i žuriti s jednog mjesta ili obaveze na sljedeće.",
+      "explanation": "Glavna ideja: jagen znači loviti životinje ili juriti nekoga. U prenesenom značenju može značiti i žuriti s jednog mjesta, sastanka ili obaveze na sljedeće.",
       "examples": [
         {
           "de": "Im Herbst jagen viele Menschen Wild.",
@@ -33425,7 +33377,7 @@ const B1_WORDS = [
         },
         {
           "word": "das Jahr",
-          "meaning": "Godine",
+          "meaning": "Godina",
           "example": "Das Jahr hat zwölf Monate. = U godini ima dvanaest mjeseci."
         },
         {
@@ -33536,7 +33488,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Godine"
+                "Godina"
               ]
             }
           },
@@ -33612,7 +33564,7 @@ const B1_WORDS = [
   },
   {
     "de": "jauchzen",
-    "lv": "Navijati",
+    "lv": "Klicati od radosti; likovati",
     "level": "B1"
   },
   {
@@ -33650,7 +33602,7 @@ const B1_WORDS = [
   },
   {
     "de": "jubeln",
-    "lv": "Navijati",
+    "lv": "Klicati; likovati",
     "level": "B1"
   },
   {
@@ -33662,7 +33614,7 @@ const B1_WORDS = [
   },
   {
     "de": "jucken",
-    "lv": "Da svrbi",
+    "lv": "Svrbjeti",
     "level": "B1"
   },
   {
@@ -33712,7 +33664,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er wurde zum Jünger des berühmten Künstlers.",
-          "lv": "Postao je šegrt slavnog umetnika."
+          "lv": "Postao je šegrt slavnog umjetnika."
         }
       ],
       "tip": [
@@ -34352,7 +34304,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie kehrt den Hof.",
-          "lv": "Ona čisti dvorište."
+          "lv": "Ona mete dvorište."
         },
         {
           "de": "Der Hausmeister kehrt die Treppe.",
@@ -34579,7 +34531,7 @@ const B1_WORDS = [
       "id": "b1-kern",
       "layout": "standardStudy",
       "translation": "Jezgro",
-      "explanation": "Glavna ideja: der Kern znači jezgro, sjeme/sjeme ili suština stvari. Koristi se i za voće i figurativno za najvažniju ideju.",
+      "explanation": "Glavna ideja: der Kern znači jezgro, sjemenku/košticu ili suštinu stvari. Koristi se i za voće i figurativno za najvažniju ideju.",
       "examples": [
         {
           "de": "Der Apfel hat viele Kerne.",
@@ -34785,7 +34737,7 @@ const B1_WORDS = [
       "id": "b1-kiefer",
       "layout": "standardStudy",
       "translation": "Vilica",
-      "explanation": "Glavna ideja: der Kiefer znači vilica. Uz drugi članak, die Kiefer znači bor, tako da je članak posebno važan za ovu karticu.",
+      "explanation": "Glavna ideja: der Kiefer znači vilica. S drugim članom, die Kiefer znači bor, tako da je član posebno važan za ovu karticu.",
       "examples": [
         {
           "de": "Mein Kiefer tut weh.",
@@ -34960,7 +34912,7 @@ const B1_WORDS = [
   },
   {
     "de": "kindisch",
-    "lv": "Djetinjasto",
+    "lv": "Djetinjast",
     "level": "B1"
   },
   {
@@ -34996,7 +34948,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "kippen",
-          "meaning": "Prevrnuti / prevrnuti / promijeniti",
+          "meaning": "Prevrnuti / nagnuti se / promijeniti",
           "example": "Das Glas kippt um. = Staklo se prevrne."
         },
         {
@@ -35165,7 +35117,7 @@ const B1_WORDS = [
   },
   {
     "de": "kläglich",
-    "lv": "Patetično",
+    "lv": "Jadan",
     "level": "B1"
   },
   {
@@ -35189,7 +35141,7 @@ const B1_WORDS = [
   },
   {
     "de": "klangvoll",
-    "lv": "Zvučno",
+    "lv": "Zvučan",
     "level": "B1"
   },
   {
@@ -35200,7 +35152,7 @@ const B1_WORDS = [
       "id": "b1-klappen",
       "layout": "standardStudy",
       "translation": "Uspjeti",
-      "explanation": "Glavna ideja: klappen je kolokvijalni izraz da nešto uspije ili ide kako treba. Često se koristi za plan, sastanak ili praktično rješenje • Doslovno, može značiti pasti ili zatvoriti.",
+      "explanation": "Glavna ideja: klappen je kolokvijalni izraz za to da nešto uspije ili ide kako treba. Često se koristi za plan, sastanak ili praktično rješenje • Doslovno, može značiti pasti ili zatvoriti se.",
       "examples": [
         {
           "de": "Hat alles geklappt?",
@@ -35240,7 +35192,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Klappen je više kolokvijalni nego gelingen • Gelingen je često bolji u formalnijem tekstu."
+        "text": "Klappen je kolokvijalniji od gelingen • Gelingen je često prikladniji u formalnijem tekstu."
       },
       "sectionAccents": {
         "examples": [
@@ -35553,7 +35505,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er hat knapp gewonnen.",
-          "lv": "Pobedio je sa malom razlikom."
+          "lv": "Pobijedio je s malom razlikom."
         }
       ],
       "comparison": [
@@ -35581,7 +35533,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Knapp nije mali. To govori o maloj marži, nedostatku ili vrlo maloj prednosti."
+        "text": "knapp ne znači „mali”. Govori o maloj rezervi, nedostatku ili vrlo maloj prednosti."
       },
       "sectionAccents": {
         "examples": [
@@ -35629,7 +35581,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pobedio"
+                "Pobijedio"
               ]
             }
           }
@@ -35887,7 +35839,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Kommando",
-          "meaning": "Naredba / naredba",
+          "meaning": "Naredba / komanda",
           "example": "Warte auf mein Kommando. = Sačekaj moj tim."
         },
         {
@@ -36009,7 +35961,7 @@ const B1_WORDS = [
   },
   {
     "de": "kompliziert",
-    "lv": "Komplikovano",
+    "lv": "Komplikovan; složen",
     "level": "B1"
   },
   {
@@ -36093,11 +36045,11 @@ const B1_WORDS = [
         },
         {
           "de": "Sie zeigte ihr ganzes Können.",
-          "lv": "Pokazala je svu svoju veštinu."
+          "lv": "Pokazala je svu svoju vještinu."
         },
         {
           "de": "Ich kann gut kochen.",
-          "lv": "Umem dobro da kuvam."
+          "lv": "Umijem dobro kuhati."
         },
         {
           "de": "Das Können der Musiker war großartig.",
@@ -36159,7 +36111,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Umem"
+                "kuhati"
               ]
             }
           },
@@ -36333,7 +36285,7 @@ const B1_WORDS = [
   },
   {
     "de": "kostbar",
-    "lv": "Skupo",
+    "lv": "Dragocjen; skupocjen",
     "level": "B1"
   },
   {
@@ -36345,7 +36297,7 @@ const B1_WORDS = [
   },
   {
     "de": "köstlich",
-    "lv": "Ukusno",
+    "lv": "Ukusan",
     "level": "B1"
   },
   {
@@ -36355,7 +36307,7 @@ const B1_WORDS = [
   },
   {
     "de": "kräftig",
-    "lv": "Jaka",
+    "lv": "Jak",
     "level": "B1"
   },
   {
@@ -36374,7 +36326,7 @@ const B1_WORDS = [
       "id": "b1-kraftwerk",
       "layout": "standardStudy",
       "translation": "Elektrana",
-      "explanation": "Glavna ideja: das Kraftwerk je elektrana - tvornica koja proizvodi električnu energiju. Riječ nije zastarjela • Relevantan je i često se koristi u štampi, politici i svakodnevnom životu. Množina: die Kraftwerke.",
+      "explanation": "Glavna ideja: das Kraftwerk je elektrana – postrojenje koje proizvodi električnu energiju. Riječ nije zastarjela; i dalje je aktuelna i često se koristi u štampi, politici i svakodnevnom životu. Množina: die Kraftwerke.",
       "examples": [
         {
           "de": "Das Kraftwerk produziert Strom.",
@@ -36516,7 +36468,7 @@ const B1_WORDS = [
   },
   {
     "de": "kränklich",
-    "lv": "Bolesno",
+    "lv": "Bolešljiv",
     "level": "B1"
   },
   {
@@ -36535,7 +36487,7 @@ const B1_WORDS = [
     "de": "Kratzer",
     "de_article": "der",
     "de_plural": "die Kratzer",
-    "lv": "Abrazija",
+    "lv": "Ogrebotina",
     "level": "B1"
   },
   {
@@ -36637,7 +36589,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Wege kreuzen sich hier.",
-          "lv": "Putevi se ovde ukrštaju."
+          "lv": "Putevi se ovdje ukrštaju."
         },
         {
           "de": "Kreuze bitte die richtige Antwort an.",
@@ -36695,7 +36647,7 @@ const B1_WORDS = [
               "yellow": "Wege"
             },
             "lv": {
-              "purple": "ovde",
+              "purple": "ovdje",
               "yellow": "Putevi"
             }
           },
@@ -36778,7 +36730,7 @@ const B1_WORDS = [
   },
   {
     "de": "kriegerisch",
-    "lv": "Ratoborno",
+    "lv": "Ratoboran",
     "level": "B1"
   },
   {
@@ -37106,7 +37058,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Članak mijenja značenje: die Kunde = poruka, der Kunde = kupac.",
-      "important": "Na prednjoj strani ove kartice treba ostati „vijest”, jer je „kupac” der Kunde s drugim članom.",
+      "important": "Na prednjoj strani ove kartice treba ostati „vijest”, jer je „kupac” der Kunde s drugim članom (artiklom).",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -37371,7 +37323,7 @@ const B1_WORDS = [
     "de": "Kündigung",
     "de_article": "die",
     "de_plural": "die Kündigungen",
-    "lv": "Prestanak radnog odnosa",
+    "lv": "Otkaz ugovora o radu",
     "level": "B1"
   },
   {
@@ -37383,7 +37335,7 @@ const B1_WORDS = [
   },
   {
     "de": "künftig",
-    "lv": "Od sada",
+    "lv": "Ubuduće",
     "level": "B1"
   },
   {
@@ -37595,7 +37547,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Schiff hält Kurs nach Norden.",
-          "lv": "Brod ide na sjever."
+          "lv": "Brod drži kurs prema sjeveru."
         },
         {
           "de": "Der Kurs der Aktie steigt.",
@@ -37646,7 +37598,7 @@ const B1_WORDS = [
               "yellow": "Schiff"
             },
             "lv": {
-              "purple": "na",
+              "purple": "kurs",
               "yellow": "Brod"
             }
           },
@@ -37944,7 +37896,7 @@ const B1_WORDS = [
   },
   {
     "de": "lächerlich",
-    "lv": "Smiješno",
+    "lv": "Smiješan",
     "level": "B1"
   },
   {
@@ -38156,7 +38108,7 @@ const B1_WORDS = [
       "id": "b1-lager",
       "layout": "standardStudy",
       "translation": "Skladište",
-      "explanation": "Glavna ideja: das Lager je obično skladište ili skladište. U drugom kontekstu, to može biti logor ili tehnički ležaj.",
+      "explanation": "Glavna ideja: das Lager je obično skladište ili mjesto za skladištenje. U drugom kontekstu može biti logor ili tehnički ležaj.",
       "examples": [
         {
           "de": "Die Waren liegen im Lager.",
@@ -38334,7 +38286,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Zuhörer",
-          "meaning": "Slušalac lično",
+          "meaning": "Slušalac uživo / prisutni slušalac",
           "example": "Die Zuhörer sitzen im Saal. = Publika sjedi u sali."
         },
         {
@@ -38754,7 +38706,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Nuss",
-          "meaning": "Nut",
+          "meaning": "Orah / orašasti plod",
           "example": "Die Nuss ist hart. = Matica je tvrda."
         }
       ],
@@ -38829,7 +38781,7 @@ const B1_WORDS = [
               "green": "die Nuss"
             },
             "meaning": {
-              "purple": "Nut"
+              "purple": "Orah"
             },
             "example": {
               "red": "Nuss",
@@ -38996,7 +38948,7 @@ const B1_WORDS = [
     "de": "Laib",
     "de_article": "der",
     "de_plural": "die Laibe",
-    "lv": "Vekna hleba",
+    "lv": "Štruca hljeba",
     "level": "B1"
   },
   {
@@ -39194,7 +39146,7 @@ const B1_WORDS = [
     "de": "Laterne",
     "de_article": "die",
     "de_plural": "die Laternen",
-    "lv": "Lampa",
+    "lv": "Fenjer",
     "level": "B1"
   },
   {
@@ -39450,12 +39402,12 @@ const B1_WORDS = [
     "de": "Leertaste",
     "de_article": "die",
     "de_plural": "die Leertasten",
-    "lv": "Duga razmaknica",
+    "lv": "Tipka za razmak",
     "level": "B1"
   },
   {
     "de": "legal",
-    "lv": "Legalno",
+    "lv": "Legalan",
     "level": "B1"
   },
   {
@@ -39569,7 +39521,7 @@ const B1_WORDS = [
       "id": "b1-leisten",
       "layout": "standardStudy",
       "translation": "Izvoditi",
-      "explanation": "Glavna ideja: Leisten znači učiniti ili dati neki posao, uslugu ili doprinos. Sa sich leisten znači priuštiti.",
+      "explanation": "Glavna ideja: leisten znači obaviti ili pružiti neki rad, uslugu ili doprinos. Konstrukcija sich leisten znači „moći sebi priuštiti“.",
       "examples": [
         {
           "de": "Sie leistet gute Arbeit.",
@@ -39713,7 +39665,7 @@ const B1_WORDS = [
       "id": "b1-leistung",
       "layout": "standardStudy",
       "translation": "Postignuće",
-      "explanation": "Glavna ideja: die Leistung znači učinak, postignuće ili postignuće. U inženjerstvu to znači snaga, na primjer za motor ili uređaj.",
+      "explanation": "Glavna ideja: die Leistung znači učinak, izvedbu ili postignuće. U tehnici može značiti snagu, na primjer kod motora ili uređaja.",
       "examples": [
         {
           "de": "Das war eine starke Leistung.",
@@ -39721,7 +39673,7 @@ const B1_WORDS = [
         },
         {
           "de": "Seine Leistung in der Prüfung war gut.",
-          "lv": "Njegov učinak na ispitu je bio dobar."
+          "lv": "Njen učinak na ispitu je bio dobar."
         },
         {
           "de": "Der Motor hat eine hohe Leistung.",
@@ -39731,7 +39683,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Leistung",
-          "meaning": "Učinak / postignuće / kapacitet",
+          "meaning": "Učinak / postignuće / snaga",
           "example": "Die Leistung war gut. = Performanse su bile dobre."
         },
         {
@@ -39741,7 +39693,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Kraft",
-          "meaning": "Snagu",
+          "meaning": "Snaga",
           "example": "Die Kraft des Motors ist groß. = Snaga motora je odlična."
         }
       ],
@@ -39753,7 +39705,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Leistung nije samo krajnji rezultat. često procjenjuje sam učinak ili snagu."
+        "text": "Leistung nije samo krajnji rezultat. Njime se često ocjenjuju sam učinak ili snaga."
       },
       "sectionAccents": {
         "examples": [
@@ -39780,10 +39732,10 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Njegov"
+                "učinak"
               ],
               "yellow": [
-                "Njegov"
+                "na"
               ]
             }
           },
@@ -39854,7 +39806,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Snagu"
+                "Snaga"
               ]
             }
           }
@@ -39951,7 +39903,7 @@ const B1_WORDS = [
     "de": "Liederbuch",
     "de_article": "das",
     "de_plural": "die Liederbücher",
-    "lv": "Zbirka pesama",
+    "lv": "Zbirka pjesama",
     "level": "B1"
   },
   {
@@ -39965,7 +39917,7 @@ const B1_WORDS = [
     "de": "Liefertermin",
     "de_article": "der",
     "de_plural": "die Liefertermine",
-    "lv": "Vrijeme isporuke",
+    "lv": "Rok isporuke",
     "level": "B1"
   },
   {
@@ -40206,7 +40158,7 @@ const B1_WORDS = [
     "de": "Loggia",
     "de_article": "die",
     "de_plural": "die Loggien",
-    "lv": "Loggia",
+    "lv": "Lođa",
     "level": "B1"
   },
   {
@@ -40256,7 +40208,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Los",
-          "meaning": "Lot • Figurativno sudbina",
+          "meaning": "Loz • figurativno: sudbina",
           "example": "Jeder Teilnehmer zieht ein Los. = Svaki učesnik mnogo crta."
         },
         {
@@ -40270,7 +40222,7 @@ const B1_WORDS = [
           "example": "Das Schicksal war hart. = Sudbina je bila surova."
         }
       ],
-      "tip": "U lutriji i lutriji: das Los = lot.",
+      "tip": "U lutriji i izvlačenju: das Los = loz.",
       "important": "Nemojte brkati das Los sa los kao zasebnom riječi u frazama losgehen ili losfahren.",
       "sectionAccents": {
         "explanation": {
@@ -40312,7 +40264,7 @@ const B1_WORDS = [
               "green": "das Los"
             },
             "meaning": {
-              "purple": "Lot"
+              "purple": "Loz"
             },
             "example": {
               "blue": "Los",
@@ -40389,12 +40341,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "löschen",
-          "meaning": "Ugasiti vatru ili podatke",
+          "meaning": "Ugasiti vatru • izbrisati podatke",
           "example": "Bitte lösche die Datei. = Izbrišite fajl."
         },
         {
           "word": "ausschalten",
-          "meaning": "Isključite uređaj",
+          "meaning": "Isključiti uređaj",
           "example": "Schalte bitte den Computer aus. = Isključite računar."
         },
         {
@@ -40458,7 +40410,7 @@ const B1_WORDS = [
               "green": "ausschalten"
             },
             "meaning": {
-              "purple": "Isključite"
+              "purple": "Isključiti"
             },
             "example": {
               "red": "Schalte",
@@ -40537,7 +40489,7 @@ const B1_WORDS = [
           "example": "Ich lösche die Datei. = Izbrisat ću fajl."
         }
       ],
-      "tip": "Ako je pred vama problem, zadatak ili čvor, razmislite o lösenu.",
+      "tip": "Ako je pred vama problem, zadatak ili čvor, pomislite na glagol lösen.",
       "important": "Lösen i löschen se razlikuju po jednom slovu, ali imaju različita značenja: riješiti nasuprot izbrisati.",
       "sectionAccents": {
         "explanation": {
@@ -40637,7 +40589,7 @@ const B1_WORDS = [
   },
   {
     "de": "loslassen",
-    "lv": "Pusti",
+    "lv": "Pustiti",
     "level": "B1"
   },
   {
@@ -40682,7 +40634,7 @@ const B1_WORDS = [
           "example": "Das Ergebnis ist gut. = Rezultat je dobar."
         }
       ],
-      "tip": "Problem treba Lösung, pitanje treba Antwort.",
+      "tip": "Problemu treba Lösung, a pitanju treba Antwort.",
       "important": "Die Lösung nije uvijek odgovor • Često je to način rješavanja problema.",
       "sectionAccents": {
         "explanation": {
@@ -40811,7 +40763,7 @@ const B1_WORDS = [
     "de": "Lüftung",
     "de_article": "die",
     "de_plural": "die Lüftungen",
-    "lv": "Ventilaciju",
+    "lv": "Ventilacija",
     "level": "B1"
   },
   {
@@ -40987,7 +40939,7 @@ const B1_WORDS = [
     "de": "Maifeier",
     "de_article": "die",
     "de_plural": "die Maifeiern",
-    "lv": "Prvomajski praznik",
+    "lv": "Prvomajska proslava",
     "level": "B1"
   },
   {
@@ -41048,7 +41000,7 @@ const B1_WORDS = [
   },
   {
     "de": "mancherlei",
-    "lv": "Drugačije",
+    "lv": "Raznovrstan",
     "level": "B1"
   },
   {
@@ -41067,7 +41019,7 @@ const B1_WORDS = [
   },
   {
     "de": "mangeln",
-    "lv": "Nedostaje",
+    "lv": "Nedostajati",
     "level": "B1"
   },
   {
@@ -41100,7 +41052,7 @@ const B1_WORDS = [
     "de": "Marktpreis",
     "de_article": "der",
     "de_plural": "die Marktpreise",
-    "lv": "Tržišnu cijenu",
+    "lv": "Tržišna cijena",
     "level": "B1"
   },
   {
@@ -41163,15 +41115,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Alles hat sein Maß.",
-          "lv": "Sve ima svoju meru."
+          "lv": "Sve ima svoju mjeru."
         },
         {
           "de": "Seine Kritik ging über jedes Maß hinaus.",
-          "lv": "Njegova kritika je prešla svaku meru."
+          "lv": "Njena kritika je prešla svaku mjeru."
         },
         {
           "de": "Bitte schicken Sie mir die genauen Maße.",
-          "lv": "Molim vas posaljite mi tacne dimenzije."
+          "lv": "Molim vas, pošaljite mi tačne dimenzije."
         }
       ],
       "comparison": [
@@ -41191,7 +41143,7 @@ const B1_WORDS = [
           "example": "Diese Maßnahme hilft. = Ovaj događaj pomaže."
         }
       ],
-      "tip": "U jednini, Maß je mjera • U množini, Maße često ima dimenzije.",
+      "tip": "U jednini, Maß je mjera. U množini, Maße često znači dimenzije.",
       "important": "Nemojte brkati das Maß sa die Maßnahme. Maß je mjera, Maßnahme je specifična radnja ili mjera.",
       "sectionAccents": {
         "explanation": {
@@ -41205,7 +41157,7 @@ const B1_WORDS = [
               "blue": "Maß"
             },
             "lv": {
-              "purple": "meru"
+              "purple": "mjeru"
             }
           },
           {
@@ -41222,7 +41174,7 @@ const B1_WORDS = [
               "red": "Maße"
             },
             "lv": {
-              "purple": "tacne"
+              "purple": "tačne"
             }
           }
         ],
@@ -41295,7 +41247,7 @@ const B1_WORDS = [
   },
   {
     "de": "mäßig",
-    "lv": "Umjereno",
+    "lv": "Umjeren",
     "level": "B1"
   },
   {
@@ -41402,7 +41354,7 @@ const B1_WORDS = [
     "de": "Melkerin",
     "de_article": "die",
     "de_plural": "die Melkerinnen",
-    "lv": "Mljekarica",
+    "lv": "Muzačica",
     "level": "B1"
   },
   {
@@ -41433,7 +41385,7 @@ const B1_WORDS = [
   },
   {
     "de": "merkwürdig",
-    "lv": "Čudno",
+    "lv": "Čudan",
     "level": "B1"
   },
   {
@@ -41662,7 +41614,7 @@ const B1_WORDS = [
   {
     "de": "Mittelalter",
     "de_article": "das",
-    "lv": "Srednji vek",
+    "lv": "Srednji vijek",
     "level": "B1"
   },
   {
@@ -41831,7 +41783,7 @@ const B1_WORDS = [
     "de": "Most",
     "de_article": "der",
     "de_plural": "die Moste",
-    "lv": "Voćni sok",
+    "lv": "Mošt",
     "level": "B1"
   },
   {
@@ -42013,7 +41965,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Nachdem ich gegessen hatte, ging ich schlafen.",
-          "lv": "Nakon što sam jeo otišao sam da spavam."
+          "lv": "Nakon što sam jeo, otišao sam da spavam."
         },
         {
           "de": "Nachdem der Kurs beendet war, gingen wir nach Hause.",
@@ -42124,7 +42076,7 @@ const B1_WORDS = [
     "de": "Nachfolger",
     "de_article": "der",
     "de_plural": "die Nachfolger",
-    "lv": "Naslednik",
+    "lv": "Nasljednik",
     "level": "B1"
   },
   {
@@ -42259,7 +42211,7 @@ const B1_WORDS = [
       "id": "b1-nachgeben",
       "layout": "standardStudy",
       "translation": "Popustiti",
-      "explanation": "Glavna ideja: nachgeben znači popustiti ili popustiti pod pritiskom. Za materijal, to može značiti da se savija ili popušta.",
+      "explanation": "Glavna ideja: nachgeben znači popustiti ili pokleknuti pod pritiskom. Za materijal može značiti da se savija ili popušta.",
       "examples": [
         {
           "de": "Nach langer Diskussion gab er nach.",
@@ -42277,12 +42229,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "nachgeben",
-          "meaning": "Popustiti ili popustiti pod pritiskom",
+          "meaning": "Popustiti ili pokleknuti pod pritiskom",
           "example": "Er gab nach. = On je popustio."
         },
         {
           "word": "aufgeben",
-          "meaning": "Odustani, prestani pokušavati",
+          "meaning": "Odustati, prestati pokušavati",
           "example": "Gib nicht auf! = Ne odustaj!"
         },
         {
@@ -42344,7 +42296,7 @@ const B1_WORDS = [
               "green": "aufgeben"
             },
             "meaning": {
-              "purple": "Odustani"
+              "purple": "Odustati"
             },
             "example": {
               "red": "Gib nicht auf"
@@ -42480,7 +42432,7 @@ const B1_WORDS = [
     "de": "Narr",
     "de_article": "der",
     "de_plural": "die Narren",
-    "lv": "Budalo",
+    "lv": "Budala",
     "level": "B1"
   },
   {
@@ -42547,7 +42499,7 @@ const B1_WORDS = [
       "id": "b1-neigen",
       "layout": "standardStudy",
       "translation": "Biti sklon",
-      "explanation": "Glavna ideja: neigen znači biti sklon nečemu ili naginjati se u određenom smjeru. Fizički, to takođe može značiti saginjanje glave ili predmeta.",
+      "explanation": "Glavna ideja: neigen znači biti sklon nečemu ili naginjati se u određenom smjeru. Fizički može značiti i nagnuti glavu ili predmet.",
       "examples": [
         {
           "de": "Er neigt zu schnellen Entscheidungen.",
@@ -42565,7 +42517,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "neigen",
-          "meaning": "Biti nagnut • Nagnuti",
+          "meaning": "Biti sklon • nagnuti",
           "example": "Er neigt zu Fehlern. = Sklon je greškama."
         },
         {
@@ -42687,7 +42639,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Neigung des Daches ist stark.",
-          "lv": "Nagib krova je visok."
+          "lv": "Nagib krova je velik."
         }
       ],
       "comparison": [
@@ -42707,7 +42659,7 @@ const B1_WORDS = [
           "example": "Der Hang ist steil. = Padina je strma."
         }
       ],
-      "tip": "Smjer prema unutra ili tendencija: die Neigung.",
+      "tip": "Unutrašnja usmjerenost ili sklonost: die Neigung.",
       "important": "Die Neigung nije samo Interesse. Neigung češće pokazuje trajniju sklonost ili nagib.",
       "sectionAccents": {
         "explanation": {
@@ -42964,7 +42916,7 @@ const B1_WORDS = [
       "id": "b1-nieder",
       "layout": "standardStudy",
       "translation": "Dolje",
-      "explanation": "Glavna ideja: nieder znači dolje, na zemlji ili van, ali u modernom svakodnevnom njemačkom često se pojavljuje u složenicama i glagolima.",
+      "explanation": "Glavna ideja: nieder znači dolje, na zemlju ili prema dolje, ali se u savremenom svakodnevnom njemačkom često pojavljuje u složenicama i glagolima.",
       "examples": [
         {
           "de": "Der Baum liegt nieder.",
@@ -42987,7 +42939,7 @@ const B1_WORDS = [
         },
         {
           "word": "unten",
-          "meaning": "Ispod, ispod",
+          "meaning": "Dolje, pri dnu",
           "example": "Ich warte unten. = Čekam dole."
         },
         {
@@ -43050,7 +43002,7 @@ const B1_WORDS = [
               "green": "unten"
             },
             "meaning": {
-              "purple": "Ispod"
+              "purple": "Dolje"
             },
             "example": {
               "red": "unten"
@@ -43306,7 +43258,7 @@ const B1_WORDS = [
   },
   {
     "de": "notwendig",
-    "lv": "Neophodno",
+    "lv": "Neophodan",
     "level": "B1"
   },
   {
@@ -43317,7 +43269,7 @@ const B1_WORDS = [
       "id": "b1-nüchtern",
       "layout": "standardStudy",
       "translation": "Nije pijan",
-      "explanation": "Glavna ideja: nüchtern znači da nisam opijen ili u čistom umu. Kod doktora to često znači na prazan želudac.",
+      "explanation": "Glavna ideja: nüchtern znači biti trijezan ili pri čistoj svijesti. Kod doktora često znači doći na prazan želudac.",
       "examples": [
         {
           "de": "Der Fahrer muss nüchtern sein.",
@@ -43335,7 +43287,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "nüchtern",
-          "meaning": "Nije pijan • Na prazan stomak • Poslovno",
+          "meaning": "Trijezan • Na prazan stomak • Objektivan/trezven",
           "example": "Der Fahrer ist nüchtern. = Vozač nije pijan."
         },
         {
@@ -43349,7 +43301,7 @@ const B1_WORDS = [
           "example": "Bleib sachlich. = Ostanite poslovni."
         }
       ],
-      "tip": "Alkohol, doktor ili cool pogled: nüchtern.",
+      "tip": "Alkohol, doktor ili trezven pogled na situaciju: nüchtern.",
       "important": "Za doktora, nüchtern često znači na prazan želudac, a ne samo ne pijan.",
       "sectionAccents": {
         "explanation": {
@@ -43392,7 +43344,7 @@ const B1_WORDS = [
               "green": "nüchtern"
             },
             "meaning": {
-              "purple": "Nije"
+              "purple": "Trijezan"
             },
             "example": {
               "blue": "nüchtern"
@@ -43754,7 +43706,7 @@ const B1_WORDS = [
   },
   {
     "de": "obligatorisch",
-    "lv": "Obavezno",
+    "lv": "Obavezan",
     "level": "B1"
   },
   {
@@ -44210,7 +44162,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "sich orientieren",
-          "meaning": "Orijentišite se",
+          "meaning": "Orijentirati se",
           "example": "Ich orientiere mich in der Stadt. = Navigirao sam grad."
         },
         {
@@ -44220,7 +44172,7 @@ const B1_WORDS = [
         },
         {
           "word": "sich richten nach",
-          "meaning": "Da se vodi",
+          "meaning": "Voditi se prema nečemu",
           "example": "Wir richten uns nach dem Plan. = Mi smo vođeni planom."
         }
       ],
@@ -44270,7 +44222,7 @@ const B1_WORDS = [
               "green": "sich orientieren"
             },
             "meaning": {
-              "purple": "Orijentišite"
+              "purple": "Orijentirati"
             },
             "example": {
               "blue": "orientiere mich",
@@ -44385,7 +44337,7 @@ const B1_WORDS = [
     "de": "Pannendienst",
     "de_article": "der",
     "de_plural": "die Pannendienste",
-    "lv": "Hitna služba za automobile",
+    "lv": "Služba pomoći na cesti",
     "level": "B1"
   },
   {
@@ -44514,7 +44466,7 @@ const B1_WORDS = [
   },
   {
     "de": "peinlich",
-    "lv": "Neprijatan",
+    "lv": "Neugodan; sramotan",
     "level": "B1"
   },
   {
@@ -44542,14 +44494,14 @@ const B1_WORDS = [
     "de": "Pendelbus",
     "de_article": "der",
     "de_plural": "die Pendelbuse",
-    "lv": "Autobus na relaciji",
+    "lv": "Shuttle-autobus",
     "level": "B1"
   },
   {
     "de": "Pendelzug",
     "de_article": "der",
     "de_plural": "die Pendelzuge",
-    "lv": "Voz na relaciji",
+    "lv": "Shuttle-voz",
     "level": "B1"
   },
   {
@@ -44790,7 +44742,7 @@ const B1_WORDS = [
   {
     "de": "Pflege",
     "de_article": "die",
-    "lv": "Dotjerivanje",
+    "lv": "Njega",
     "level": "B1"
   },
   {
@@ -44805,7 +44757,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-pflegen",
       "layout": "standardStudy",
-      "translation": "Održavati",
+      "translation": "Njegovati / brinuti se o",
       "explanation": "Glavna ideja: pflegen znači njegovati osobu, kožu, biljku ili neku stvar. Konstrukcija pflegen zu + infinitiv znači „obično nešto raditi”.",
       "examples": [
         {
@@ -45023,14 +44975,14 @@ const B1_WORDS = [
     "de": "Plage",
     "de_article": "die",
     "de_plural": "die Plagen",
-    "lv": "Agonija",
+    "lv": "Gnjavaža",
     "level": "B1"
   },
   {
     "de": "Plakette",
     "de_article": "die",
     "de_plural": "die Plaketten",
-    "lv": "Broš sa natpisom",
+    "lv": "Značka s natpisom",
     "level": "B1"
   },
   {
@@ -45049,17 +45001,17 @@ const B1_WORDS = [
   },
   {
     "de": "plangemäß",
-    "lv": "Planirano",
+    "lv": "Prema planu",
     "level": "B1"
   },
   {
     "de": "planmäßig",
-    "lv": "Planirano",
+    "lv": "Prema planu",
     "level": "B1"
   },
   {
     "de": "plantschen",
-    "lv": "Prskati",
+    "lv": "Brčkati se",
     "level": "B1"
   },
   {
@@ -45121,7 +45073,7 @@ const B1_WORDS = [
       "id": "b1-pochen",
       "layout": "standardStudy",
       "translation": "Kucati",
-      "explanation": "Glavna ideja: pochen znači snažno kucati ili tući. pochen auf znači insistirati na nečijem pravu ili zahtjevu.",
+      "explanation": "Glavna ideja: pochen znači snažno kucati ili pulsirati. pochen auf znači insistirati na vlastitim pravima ili na nekom zahtjevu.",
       "examples": [
         {
           "de": "Jemand pocht laut an die Tür.",
@@ -45139,7 +45091,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "pochen",
-          "meaning": "Kucajte, tucite • Insistirajte",
+          "meaning": "Kucati, pulsirati • insistirati na",
           "example": "Jemand pocht an die Tür. = Neko kuca na vrata."
         },
         {
@@ -45199,7 +45151,7 @@ const B1_WORDS = [
               "green": "pochen"
             },
             "meaning": {
-              "purple": "Kucajte"
+              "purple": "Kucati"
             },
             "example": {
               "blue": "pocht",
@@ -45395,7 +45347,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Posten",
-          "meaning": "Post, post, pozicija",
+          "meaning": "Radno mjesto, post, pozicija",
           "example": "Sie bekam einen neuen Posten. = Dobila je novu poziciju."
         },
         {
@@ -45410,7 +45362,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Pozicija ili budžetska linija: der Posten • pošta: die Post.",
-      "important": "Der Posten nije die Post. Članak također mijenja značenje.",
+      "important": "der Posten nije die Post. Gramatički član također mijenja značenje.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Posten",
@@ -45811,7 +45763,7 @@ const B1_WORDS = [
     "de": "Puder",
     "de_article": "der",
     "de_plural": "die Puder",
-    "lv": "Prah",
+    "lv": "Puder",
     "level": "B1"
   },
   {
@@ -45895,7 +45847,7 @@ const B1_WORDS = [
   },
   {
     "de": "quatschen",
-    "lv": "Razgovarati",
+    "lv": "Ćaskati",
     "level": "B1"
   },
   {
@@ -46022,7 +45974,7 @@ const B1_WORDS = [
       "id": "b1-rang",
       "layout": "standardStudy",
       "translation": "Rang",
-      "explanation": "Glavna ideja: der Rang znači rang, rang ili mjesto u hijerarhiji. U pozorištu to može značiti nivo balkona.",
+      "explanation": "Glavna ideja: der Rang znači rang, stepen ili mjesto u hijerarhiji. U pozorištu može značiti nivo balkona.",
       "examples": [
         {
           "de": "Er hat einen hohen Rang in der Armee.",
@@ -46146,7 +46098,7 @@ const B1_WORDS = [
   },
   {
     "de": "rasch",
-    "lv": "Brzo",
+    "lv": "Brz",
     "level": "B1"
   },
   {
@@ -46190,7 +46142,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Ako brzina djeluje pretjerano velikom, često odgovara rasen.",
-      "important": "Rasen nije neutralan za vožnju • Riječ ima preveliku brzinu ili snagu.",
+      "important": "rasen nije neutralan izraz za vožnju • Riječ nosi ideju pretjerane brzine ili sile.",
       "sectionAccents": {
         "explanation": {
           "blue": "rasen",
@@ -46340,7 +46292,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich zahle das Auto in Raten.",
-          "lv": "Auto plaćam u dijelovima."
+          "lv": "Auto plaćam na rate."
         },
         {
           "de": "Die monatliche Rate ist hoch.",
@@ -46369,7 +46321,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Rate sa završnim -e često znači ratu, odnosno dio plaćanja.",
-      "important": "Nemojte brkati die Rate sa der Rat. Članak i završetak mijenjaju značenje.",
+      "important": "Nemojte brkati die Rate s der Rat. Član i nastavak mijenjaju značenje.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Rate",
@@ -46544,7 +46496,7 @@ const B1_WORDS = [
         },
         {
           "word": "verlassen",
-          "meaning": "Napusti sobu",
+          "meaning": "Napustiti mjesto",
           "example": "Wir verlassen das Haus. = Napuštamo kuću."
         }
       ],
@@ -46674,7 +46626,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Freude",
-          "meaning": "Zadovoljstvo",
+          "meaning": "Radost",
           "example": "Die Freude war groß. = Radost je bila velika."
         },
         {
@@ -46735,7 +46687,7 @@ const B1_WORDS = [
               "green": "die Freude"
             },
             "meaning": {
-              "purple": "Zadovoljstvo"
+              "purple": "Radost"
             },
             "example": {
               "red": "Freude"
@@ -46849,7 +46801,7 @@ const B1_WORDS = [
     "de": "Referat",
     "de_article": "das",
     "de_plural": "die Referate",
-    "lv": "Izvještaj",
+    "lv": "Referat",
     "level": "B1"
   },
   {
@@ -46893,7 +46845,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Ako stvar treba da se reši, koristi se regeln.",
-      "important": "Regeln nije samo tehnički propis • Vrlo često to znači rješavanje slučaja.",
+      "important": "regeln nije samo tehničko reguliranje • Vrlo često znači riješiti ili srediti neku stvar.",
       "sectionAccents": {
         "explanation": {
           "blue": "regeln",
@@ -46971,7 +46923,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "regeln",
-          "red": "propis"
+          "red": "reguliranje"
         }
       }
     }
@@ -47034,7 +46986,7 @@ const B1_WORDS = [
     "de": "Reibeisen",
     "de_article": "das",
     "de_plural": "die Reibeisen",
-    "lv": "Metalni ili plastični rende",
+    "lv": "Metalno ili plastično rende",
     "level": "B1"
   },
   {
@@ -47044,7 +46996,7 @@ const B1_WORDS = [
   },
   {
     "de": "reichhaltig",
-    "lv": "U izobilju",
+    "lv": "Bogat",
     "level": "B1"
   },
   {
@@ -47056,7 +47008,7 @@ const B1_WORDS = [
   },
   {
     "de": "reif",
-    "lv": "Zrelo",
+    "lv": "Zreo",
     "level": "B1"
   },
   {
@@ -47160,7 +47112,7 @@ const B1_WORDS = [
         },
         {
           "word": "brechen",
-          "meaning": "Razbiti",
+          "meaning": "Slomiti se; puknuti",
           "example": "Der Ast bricht. = Grana se lomi."
         }
       ],
@@ -47231,7 +47183,7 @@ const B1_WORDS = [
               "green": "brechen"
             },
             "meaning": {
-              "purple": "Razbiti"
+              "purple": "Slomiti"
             },
             "example": {
               "red": "bricht",
@@ -47400,7 +47352,7 @@ const B1_WORDS = [
   },
   {
     "de": "reizvoll",
-    "lv": "Atraktivno",
+    "lv": "Privlačan",
     "level": "B1"
   },
   {
@@ -47579,7 +47531,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie richtet den Blick nach vorn.",
-          "lv": "Ona gleda napred."
+          "lv": "Ona usmjerava pogled naprijed."
         },
         {
           "de": "Die Frage richtet sich an den Lehrer.",
@@ -47622,7 +47574,7 @@ const B1_WORDS = [
               "yellow": "Blick"
             },
             "lv": {
-              "purple": "gleda"
+              "purple": "usmjerava"
             }
           },
           {
@@ -47729,7 +47681,7 @@ const B1_WORDS = [
     "de": "Rind",
     "de_article": "das",
     "de_plural": "die Rinder",
-    "lv": "Goveda",
+    "lv": "Govedo",
     "level": "B1"
   },
   {
@@ -47771,7 +47723,7 @@ const B1_WORDS = [
   },
   {
     "de": "rinnen",
-    "lv": "Da teče",
+    "lv": "Teći",
     "level": "B1"
   },
   {
@@ -47873,7 +47825,7 @@ const B1_WORDS = [
         },
         {
           "word": "drehen",
-          "meaning": "Okrenuti se, okrenuti se",
+          "meaning": "Okretati / okretati se",
           "example": "Das Rad dreht sich. = Točak se okreće."
         },
         {
@@ -47883,7 +47835,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Kružno kretanje naprijed - kotrljanje.",
-      "important": "Ako se stvar kreće sama, rollen se često prevodi kao kotrljanje • Sa objektom - zarolati ili zarolati.",
+      "important": "Ako se stvar kreće sama, rollen se često prevodi kao kotrljati se • S objektom znači kotrljati ili zarolati.",
       "sectionAccents": {
         "explanation": {
           "blue": "rollen",
@@ -47992,7 +47944,7 @@ const B1_WORDS = [
   },
   {
     "de": "rosten",
-    "lv": "Da zarđa",
+    "lv": "Hrđati",
     "level": "B1"
   },
   {
@@ -48003,7 +47955,7 @@ const B1_WORDS = [
       "id": "b1-rösten",
       "layout": "standardStudy",
       "translation": "Pržiti",
-      "explanation": "Glavna ideja: rösten znači pržiti ili pržiti hranu, posebno kafu, kruh, sjemenke ili orašaste plodove.",
+      "explanation": "Glavna ideja: rösten znači pržiti ili tostirati hranu, posebno kafu, kruh, sjemenke ili orašaste plodove.",
       "examples": [
         {
           "de": "Wir rösten Kaffee.",
@@ -48015,7 +47967,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Nüsse werden im Ofen geröstet.",
-          "lv": "Orasi se peku u rerni."
+          "lv": "Orašasti plodovi se prže u rerni."
         }
       ],
       "comparison": [
@@ -48036,7 +47988,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Kafa, kruh, sjemenke ili orasi - rösten.",
-      "important": "Rösten nije braten. braten se obično prži u tavi.",
+      "important": "rösten nije braten. braten obično znači pržiti ili peći u tavi.",
       "sectionAccents": {
         "explanation": {
           "blue": "rösten",
@@ -48068,7 +48020,7 @@ const B1_WORDS = [
               "yellow": "Nüsse"
             },
             "lv": {
-              "purple": "peku"
+              "purple": "se"
             }
           }
         ],
@@ -48233,7 +48185,7 @@ const B1_WORDS = [
       "id": "b1-ruf-2",
       "layout": "standardStudy",
       "translation": "Poziv",
-      "explanation": "Glavna ideja: der Ruf znači vapaj ili apel. Za osobu, firmu ili instituciju to često znači reputaciju.",
+      "explanation": "Glavna ideja: der Ruf znači poziv, povik ili uzvik. Za osobu, firmu ili instituciju to često znači reputaciju.",
       "examples": [
         {
           "de": "Ich hörte einen lauten Ruf.",
@@ -48265,7 +48217,7 @@ const B1_WORDS = [
           "example": "Ruhm ist nicht alles. = Slava nije sve."
         }
       ],
-      "tip": "Krik ili reputacija glasa: der Ruf.",
+      "tip": "Poziv ili reputacija: der Ruf.",
       "important": "Ruf nije isto što i Ruhm. Ruhm je slava, ali Ruf je često reputacija.",
       "sectionAccents": {
         "explanation": {
@@ -48353,7 +48305,7 @@ const B1_WORDS = [
       "id": "b1-ruhen",
       "layout": "standardStudy",
       "translation": "Odmoriti se",
-      "explanation": "Glavna ideja: ruhen znači mirovati, odmarati se ili prestati na neko vrijeme. U svakodnevnom životu, osobi se često kaže sich ausruhen.",
+      "explanation": "Glavna ideja: ruhen znači mirovati, odmarati se ili biti obustavljen na neko vrijeme. U svakodnevnom jeziku za osobu se češće koristi sich ausruhen.",
       "examples": [
         {
           "de": "Nach der Arbeit ruht er sich aus.",
@@ -48513,14 +48465,14 @@ const B1_WORDS = [
     "de": "Rundfahrt",
     "de_article": "die",
     "de_plural": "die Rundfahrten",
-    "lv": "Izletnički izlet",
+    "lv": "Izletnička vožnja",
     "level": "B1"
   },
   {
     "de": "Rundreise",
     "de_article": "die",
     "de_plural": "die Rundreisen",
-    "lv": "Izlet",
+    "lv": "Kružno putovanje",
     "level": "B1"
   },
   {
@@ -48678,7 +48630,7 @@ const B1_WORDS = [
     "de": "Rutschbahn",
     "de_article": "die",
     "de_plural": "die Rutschbahnen",
-    "lv": "Dečiji tobogan",
+    "lv": "Dječiji tobogan",
     "level": "B1"
   },
   {
@@ -48696,7 +48648,7 @@ const B1_WORDS = [
       "id": "b1-saat",
       "layout": "standardStudy",
       "translation": "Sjeme",
-      "explanation": "Glavna ideja: die Saat znači sjeme, sjetva ili zasijana njiva. Za jedno pojedinačno sjeme češće se koristi der Samen.",
+      "explanation": "Glavna ideja: die Saat znači sjeme, sjetvu ili zasijani usjev. Za pojedinačnu sjemenku češće se koristi der Samen.",
       "examples": [
         {
           "de": "Die Saat geht auf.",
@@ -48719,7 +48671,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Samen",
-          "meaning": "Pojedinačno seme",
+          "meaning": "Pojedinačna sjemenka",
           "example": "Der Samen ist klein. = Sjeme je malo."
         },
         {
@@ -48729,7 +48681,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Polje i zasijano općenito: die Saat.",
-      "important": "U svakodnevnom životu sigurnija riječ za jedno sjeme je der Samen.",
+      "important": "U svakodnevnom jeziku sigurnija riječ za pojedinačnu sjemenku je der Samen.",
       "sectionAccents": {
         "explanation": {
           "blue": "die Saat",
@@ -48780,7 +48732,7 @@ const B1_WORDS = [
               "green": "der Samen"
             },
             "meaning": {
-              "purple": "seme"
+              "purple": "sjemenka"
             },
             "example": {
               "red": "Samen"
@@ -48812,7 +48764,7 @@ const B1_WORDS = [
   },
   {
     "de": "sachlich",
-    "lv": "Objektivno",
+    "lv": "Objektivan",
     "level": "B1"
   },
   {
@@ -49014,7 +48966,7 @@ const B1_WORDS = [
   },
   {
     "de": "schädlich",
-    "lv": "Štetno",
+    "lv": "Štetan",
     "level": "B1"
   },
   {
@@ -49069,7 +49021,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Schüssel",
-          "meaning": "Zdjelu",
+          "meaning": "Zdjela",
           "example": "Die Schüssel ist leer. = Zdjela je prazna."
         }
       ],
@@ -49137,7 +49089,7 @@ const B1_WORDS = [
               "green": "die Schüssel"
             },
             "meaning": {
-              "purple": "Zdjelu"
+              "purple": "Zdjela"
             },
             "example": {
               "red": "Schüssel"
@@ -49170,7 +49122,7 @@ const B1_WORDS = [
   {
     "de": "Scham",
     "de_article": "die",
-    "lv": "Sramota",
+    "lv": "Stid",
     "level": "B1"
   },
   {
@@ -49269,7 +49221,7 @@ const B1_WORDS = [
   },
   {
     "de": "scheren",
-    "lv": "Rezati",
+    "lv": "Šišati",
     "level": "B1"
   },
   {
@@ -49317,7 +49269,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Lage",
-          "meaning": "Situaciju ili poziciju",
+          "meaning": "Situacija ili pozicija",
           "example": "Die Lage ist ernst. = Situacija je ozbiljna."
         },
         {
@@ -49379,7 +49331,7 @@ const B1_WORDS = [
               "green": "die Lage"
             },
             "meaning": {
-              "purple": "Situaciju"
+              "purple": "Situacija"
             },
             "example": {
               "red": "Lage"
@@ -49408,7 +49360,7 @@ const B1_WORDS = [
   },
   {
     "de": "schief",
-    "lv": "Krivo",
+    "lv": "Nakošen",
     "level": "B1"
   },
   {
@@ -49602,7 +49554,7 @@ const B1_WORDS = [
     "de": "Schlacht",
     "de_article": "die",
     "de_plural": "die Schlachten",
-    "lv": "Bitku",
+    "lv": "Bitka",
     "level": "B1"
   },
   {
@@ -49671,7 +49623,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Schlag",
-          "meaning": "Udarac, udarac • U kontekstu udarac nogom",
+          "meaning": "Udarac, snažan udar • u kontekstu, npr. udar groma",
           "example": "Der Schlag traf ihn. = Udarac ga je pogodio."
         },
         {
@@ -49685,7 +49637,7 @@ const B1_WORDS = [
           "example": "Der Blitz war hell. = Munja je bila sjajna."
         }
       ],
-      "tip": "Iznenadni udarac: Schlag se primjenjuje.",
+      "tip": "Iznenadni udarac: der Schlag.",
       "important": "Schlag je vrlo kontekstualan; uz munju može značiti udar groma.",
       "sectionAccents": {
         "explanation": {
@@ -49967,7 +49919,7 @@ const B1_WORDS = [
   },
   {
     "de": "schlendern",
-    "lv": "Lutati",
+    "lv": "Lagano šetati",
     "level": "B1"
   },
   {
@@ -49989,7 +49941,7 @@ const B1_WORDS = [
   },
   {
     "de": "schlicht",
-    "lv": "Jednostavno",
+    "lv": "Jednostavan",
     "level": "B1"
   },
   {
@@ -50053,7 +50005,7 @@ const B1_WORDS = [
   },
   {
     "de": "schlummern",
-    "lv": "Odspavati",
+    "lv": "Drijemati",
     "level": "B1"
   },
   {
@@ -50109,7 +50061,7 @@ const B1_WORDS = [
         },
         {
           "word": "kochen",
-          "meaning": "Da proključa",
+          "meaning": "Kuvati",
           "example": "Das Wasser kocht. = Voda ključa."
         }
       ],
@@ -50180,7 +50132,7 @@ const B1_WORDS = [
               "green": "kochen"
             },
             "meaning": {
-              "purple": "Da"
+              "purple": "Kuvati"
             },
             "example": {
               "red": "kocht",
@@ -50271,7 +50223,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Mast, puter, ulje ili neuredno šaranje → schmieren.",
-      "important": "Schmieren često zvuči neuredno nego jednostavno streichen.",
+      "important": "Schmieren često zvuči neurednije od jednostavnog streichen.",
       "sectionAccents": {
         "explanation": {
           "blue": "schmieren",
@@ -50383,7 +50335,7 @@ const B1_WORDS = [
       "id": "b1-schmücken",
       "layout": "standardStudy",
       "translation": "Ukrasiti",
-      "explanation": "Glavna ideja: schmücken znači ukrasiti ili ukrasiti sobu, predmet ili osobu. sich schmücken znači ukrasiti se.",
+      "explanation": "Glavna ideja: schmücken znači ukrasiti ili okititi sobu, predmet ili osobu. sich schmücken znači ukrasiti se.",
       "examples": [
         {
           "de": "Wir schmücken den Weihnachtsbaum.",
@@ -50401,12 +50353,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "schmücken",
-          "meaning": "Ukrasiti, ukrasiti",
+          "meaning": "Ukrasiti, okititi",
           "example": "Wir schmücken den Baum. = Kitimo jelku."
         },
         {
           "word": "dekorieren",
-          "meaning": "Ukrasite sobu ili predmet",
+          "meaning": "Ukrasiti sobu ili predmet",
           "example": "Sie dekoriert den Raum. = Ona ukrašava sobu."
         },
         {
@@ -50470,7 +50422,7 @@ const B1_WORDS = [
               "green": "dekorieren"
             },
             "meaning": {
-              "purple": "Ukrasite"
+              "purple": "Ukrasiti"
             },
             "example": {
               "red": "dekoriert",
@@ -50620,7 +50572,7 @@ const B1_WORDS = [
           "example": "Die Wunde blutet. = Rana krvari."
         }
       ],
-      "tip": "Ako je nešto izrezano ili oblikovano rezom, pomislite na Schnitta.",
+      "tip": "Ako je nešto izrezano ili oblikovano rezom, pomislite na Schnitt.",
       "important": "Rana nije uvijek Schnitt • Die Wunde se češće koristi za šire rane.",
       "sectionAccents": {
         "explanation": {
@@ -50810,7 +50762,7 @@ const B1_WORDS = [
   },
   {
     "de": "schrecklich",
-    "lv": "Strašno",
+    "lv": "Strašan",
     "level": "B1"
   },
   {
@@ -50831,7 +50783,7 @@ const B1_WORDS = [
     "de": "Schrott",
     "de_article": "der",
     "de_plural": "die Schrotte",
-    "lv": "Otpad",
+    "lv": "Staro željezo",
     "level": "B1"
   },
   {
@@ -51020,7 +50972,7 @@ const B1_WORDS = [
   },
   {
     "de": "schütten",
-    "lv": "[to] sipati",
+    "lv": "Sipati",
     "level": "B1"
   },
   {
@@ -51240,7 +51192,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-schwanken",
       "layout": "standardStudy",
-      "translation": "Fluktuirati",
+      "translation": "Kolebati se; njihati se",
       "explanation": "Glavna ideja: schwanken znači kolebati se fizički ili figurativno i oklijevati između opcija.",
       "examples": [
         {
@@ -51372,12 +51324,12 @@ const B1_WORDS = [
   },
   {
     "de": "schwatzen",
-    "lv": "Razgovarati",
+    "lv": "Brbljati",
     "level": "B1"
   },
   {
     "de": "schwätzen",
-    "lv": "Razgovarati",
+    "lv": "Brbljati",
     "level": "B1"
   },
   {
@@ -51422,7 +51374,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwerhörig",
-    "lv": "Oštećen sluh",
+    "lv": "Nagluv",
     "level": "B1"
   },
   {
@@ -51527,7 +51479,7 @@ const B1_WORDS = [
   },
   {
     "de": "seekrank",
-    "lv": "Bolestan od morske bolesti",
+    "lv": "Koji pati od morske bolesti",
     "level": "B1"
   },
   {
@@ -51585,7 +51537,7 @@ const B1_WORDS = [
   },
   {
     "de": "seiden",
-    "lv": "Svila-",
+    "lv": "Svileni-",
     "level": "B1"
   },
   {
@@ -51623,7 +51575,7 @@ const B1_WORDS = [
   },
   {
     "de": "seitwärts",
-    "lv": "Na stranu",
+    "lv": "Bočno",
     "level": "B1"
   },
   {
@@ -51664,7 +51616,7 @@ const B1_WORDS = [
   },
   {
     "de": "seltsam",
-    "lv": "Čudno",
+    "lv": "Čudan",
     "level": "B1"
   },
   {
@@ -51849,7 +51801,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "senken",
-          "meaning": "Spustiti, spustiti",
+          "meaning": "Sniziti, spustiti",
           "example": "Die Firma senkt die Preise. = Kompanija snižava cene."
         },
         {
@@ -51859,7 +51811,7 @@ const B1_WORDS = [
         },
         {
           "word": "heben",
-          "meaning": "Podignite se",
+          "meaning": "Podići",
           "example": "Er hebt die Hand. = On podiže ruku."
         }
       ],
@@ -51930,7 +51882,7 @@ const B1_WORDS = [
               "green": "heben"
             },
             "meaning": {
-              "purple": "Podignite"
+              "purple": "Podići"
             },
             "example": {
               "red": "hebt",
@@ -51956,7 +51908,7 @@ const B1_WORDS = [
   },
   {
     "de": "senkrecht",
-    "lv": "Vertikalno",
+    "lv": "Vertikalan",
     "level": "B1"
   },
   {
@@ -51996,7 +51948,7 @@ const B1_WORDS = [
     "de": "Sex",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Sex",
+    "lv": "Seks",
     "level": "B1"
   },
   {
@@ -52013,7 +51965,7 @@ const B1_WORDS = [
   },
   {
     "de": "sichern",
-    "lv": "Obezbediti",
+    "lv": "Osigurati",
     "level": "B1"
   },
   {
@@ -52094,7 +52046,7 @@ const B1_WORDS = [
   },
   {
     "de": "silbern",
-    "lv": "Srebro-",
+    "lv": "Srebrni-",
     "level": "B1"
   },
   {
@@ -52137,7 +52089,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Sinn",
-          "meaning": "Smisao, smisao, osjećaj",
+          "meaning": "Smisao, značenje, osjećaj",
           "example": "Das hat keinen Sinn. = Nema smisla."
         },
         {
@@ -52235,7 +52187,7 @@ const B1_WORDS = [
   },
   {
     "de": "sinnlos",
-    "lv": "Besmisleno",
+    "lv": "Besmislen",
     "level": "B1"
   },
   {
@@ -52279,7 +52231,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Sitz",
-          "meaning": "Sjedište, sjedište • Sjedište",
+          "meaning": "Sjedalo, sjedište / sjedište kompanije",
           "example": "Der Sitz ist frei. = Sjedalo je slobodno."
         },
         {
@@ -52293,7 +52245,7 @@ const B1_WORDS = [
           "example": "Der Standort ist gut. = Lokacija je dobra."
         }
       ],
-      "tip": "Gdje se nalazi ili gdje se nalazi kompanija: der Sitz.",
+      "tip": "Gdje se sjedi ili gdje se nalazi kompanija: der Sitz.",
       "important": "Sitz kompanije je sjedište, a ne fizička stolica.",
       "sectionAccents": {
         "explanation": {
@@ -52416,7 +52368,7 @@ const B1_WORDS = [
     "de": "Slipper",
     "de_article": "der",
     "de_plural": "die Slipper",
-    "lv": "Cipela bez pertle",
+    "lv": "Cipela bez vezica",
     "level": "B1"
   },
   {
@@ -52433,14 +52385,14 @@ const B1_WORDS = [
   },
   {
     "de": "sogenannt",
-    "lv": "Tzv",
+    "lv": "Tzv.",
     "level": "B1"
   },
   {
     "de": "Solarium",
     "de_article": "das",
     "de_plural": "die Solarien",
-    "lv": "Solarijum",
+    "lv": "Solarij",
     "level": "B1"
   },
   {
@@ -52469,7 +52421,7 @@ const B1_WORDS = [
   },
   {
     "de": "sonderbar",
-    "lv": "Čudno",
+    "lv": "Čudan",
     "level": "B1"
   },
   {
@@ -52526,17 +52478,17 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "sich sorgen",
-          "meaning": "Da brinem",
+          "meaning": "Brinuti se",
           "example": "Ich sorge mich um dich. = Zabrinut sam za tebe."
         },
         {
           "word": "sich kümmern um",
-          "meaning": "Praktično zbrinuti",
+          "meaning": "Praktično brinuti se o nekome/nečemu",
           "example": "Ich kümmere mich um das Kind. = Ja brinem o djetetu."
         },
         {
           "word": "die Sorge",
-          "meaning": "Brige, brige",
+          "meaning": "Briga, zabrinutost",
           "example": "Das ist meine Sorge. = To su moja briga."
         }
       ],
@@ -52583,7 +52535,7 @@ const B1_WORDS = [
               "green": "sich sorgen"
             },
             "meaning": {
-              "purple": "Da"
+              "purple": "Brinuti"
             },
             "example": {
               "blue": "sorge",
@@ -52605,7 +52557,7 @@ const B1_WORDS = [
               "green": "die Sorge"
             },
             "meaning": {
-              "purple": "Brige"
+              "purple": "Briga"
             },
             "example": {
               "red": "Sorge"
@@ -52642,7 +52594,7 @@ const B1_WORDS = [
   },
   {
     "de": "so weit",
-    "lv": "U toj meri",
+    "lv": "U toj mjeri",
     "level": "B1"
   },
   {
@@ -52657,7 +52609,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir brauchen Milch sowie Brot.",
-          "lv": "Potrebno nam je mleko kao i hleb."
+          "lv": "Potrebni su nam mlijeko kao i hljeb."
         },
         {
           "de": "Der Preis gilt für Erwachsene sowie Kinder.",
@@ -52783,7 +52735,7 @@ const B1_WORDS = [
       "id": "b1-spannung",
       "layout": "standardStudy",
       "translation": "Napetost",
-      "explanation": "Glavna ideja: die Spannung znači napetost ili napetost. U tehničkom jeziku, posebno u elektricitetu, znači napon.",
+      "explanation": "Glavna ideja: die Spannung znači napetost ili zategnutost. U tehničkom jeziku, posebno u elektrotehnici, znači napon.",
       "examples": [
         {
           "de": "Die Spannung im Film war groß.",
@@ -52811,7 +52763,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Kraft",
-          "meaning": "Snagu",
+          "meaning": "Snaga",
           "example": "Er hat viel Kraft. = On ima veliku moć."
         }
       ],
@@ -52888,7 +52840,7 @@ const B1_WORDS = [
               "green": "die Kraft"
             },
             "meaning": {
-              "purple": "Snagu"
+              "purple": "Snaga"
             },
             "example": {
               "red": "Kraft"
@@ -52915,7 +52867,7 @@ const B1_WORDS = [
   },
   {
     "de": "spaßig",
-    "lv": "Smiješno",
+    "lv": "Smiješan",
     "level": "B1"
   },
   {
@@ -52952,7 +52904,7 @@ const B1_WORDS = [
       "id": "b1-speichern",
       "layout": "standardStudy",
       "translation": "Sačuvati",
-      "explanation": "Glavna ideja: speichern znači pohranjivanje podataka ili informacija. U širem smislu, to također može značiti akumulaciju energije ili tvari.",
+      "explanation": "Glavna ideja: speichern znači pohraniti ili sačuvati podatke ili informacije. U širem smislu može značiti i akumulirati energiju ili tvari.",
       "examples": [
         {
           "de": "Speichere die Datei bitte.",
@@ -52980,7 +52932,7 @@ const B1_WORDS = [
         },
         {
           "word": "aufbewahren",
-          "meaning": "Zadržati predmet ili dokument",
+          "meaning": "Čuvati predmet ili dokument",
           "example": "Ich bewahre die Quittung auf. = Čuvam račun."
         }
       ],
@@ -53059,7 +53011,7 @@ const B1_WORDS = [
               "green": "aufbewahren"
             },
             "meaning": {
-              "purple": "Zadržati"
+              "purple": "Čuvati"
             },
             "example": {
               "red": "bewahre",
@@ -53304,7 +53256,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Spitze",
-          "meaning": "Vrh, vrh, glava",
+          "meaning": "Šiljak, vrh, vodstvo",
           "example": "Die Spitze ist scharf. = Vrh je oštar."
         },
         {
@@ -53425,7 +53377,7 @@ const B1_WORDS = [
   },
   {
     "de": "spontan",
-    "lv": "Spontano",
+    "lv": "Spontan",
     "level": "B1"
   },
   {
@@ -53504,7 +53456,7 @@ const B1_WORDS = [
       "id": "b1-spritzen",
       "layout": "standardStudy",
       "translation": "Prskati",
-      "explanation": "Glavna ideja: spritzen znači prskanje ili prskanje tečnosti. U medicini to može značiti ubrizgavanje.",
+      "explanation": "Glavna ideja: spritzen znači prskati ili štrcati tečnost. U medicini može značiti ubrizgati.",
       "examples": [
         {
           "de": "Das Wasser spritzt auf den Boden.",
@@ -53522,7 +53474,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "spritzen",
-          "meaning": "Prskanje, prskanje, ubrizgavanje",
+          "meaning": "Prskati, štrcati, ubrizgati",
           "example": "Wasser spritzt. = Voda prska."
         },
         {
@@ -53539,12 +53491,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Prskanje, sprej ili injekcija: prskanje."
+            "text": "Prskanje, sprej ili injekcija: spritzen."
           }
         ]
       },
       "important": {
-        "text": "Za doktora, spritzen može značiti ubrizgavanje, a ne špricanje."
+        "text": "U medicini spritzen može značiti ubrizgati, a ne prskati."
       },
       "sectionAccents": {
         "explanation": {
@@ -53589,7 +53541,7 @@ const B1_WORDS = [
               "green": "spritzen"
             },
             "meaning": {
-              "purple": "Prskanje"
+              "purple": "Prskati"
             },
             "example": {
               "blue": "spritzt",
@@ -53624,7 +53576,7 @@ const B1_WORDS = [
         "tip": {},
         "important": {
           "blue": "spritzen",
-          "red": "ubrizgavanje"
+          "red": "ubrizgati"
         }
       }
     }
@@ -53916,7 +53868,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Napredak projekta postavlja pitanje: Wie ist der Stand?"
+            "text": "Za napredak projekta pitamo: Wie ist der Stand?"
           }
         ]
       },
@@ -54004,7 +53956,7 @@ const B1_WORDS = [
   },
   {
     "de": "ständig",
-    "lv": "Stalno",
+    "lv": "Stalan",
     "level": "B1"
   },
   {
@@ -54032,7 +53984,7 @@ const B1_WORDS = [
     "de": "Stärke",
     "de_article": "die",
     "de_plural": "die Stärken",
-    "lv": "Snagu",
+    "lv": "Snaga",
     "level": "B1"
   },
   {
@@ -54088,7 +54040,7 @@ const B1_WORDS = [
     "de": "Steingut",
     "de_article": "das",
     "de_plural": "die Steingute",
-    "lv": "Keramike",
+    "lv": "Keramika",
     "level": "B1"
   },
   {
@@ -54124,7 +54076,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Stellung des Körpers ist wichtig.",
-          "lv": "Položaj tela je važan."
+          "lv": "Položaj tijela je važan."
         },
         {
           "de": "Er sucht eine neue Stellung.",
@@ -54175,7 +54127,7 @@ const B1_WORDS = [
               "yellow": "Körpers"
             },
             "lv": {
-              "purple": "tela"
+              "purple": "tijela"
             }
           },
           {
@@ -54380,7 +54332,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "U tehnici der Stift može biti igla umjesto olovke."
+        "text": "U tehnici der Stift može biti zatik, a ne olovka."
       },
       "sectionAccents": {
         "explanation": {
@@ -54733,7 +54685,7 @@ const B1_WORDS = [
         },
         {
           "word": "schieben",
-          "meaning": "Gurnite dužim pokretom",
+          "meaning": "Gurati dužim pokretom",
           "example": "Ich schiebe den Wagen. = Guram kolica."
         },
         {
@@ -54805,7 +54757,7 @@ const B1_WORDS = [
               "green": "schieben"
             },
             "meaning": {
-              "purple": "Gurnite"
+              "purple": "Gurati"
             },
             "example": {
               "red": "schiebe",
@@ -55071,7 +55023,7 @@ const B1_WORDS = [
   },
   {
     "de": "streiten",
-    "lv": "Raspravljati se",
+    "lv": "Svađati se",
     "level": "B1"
   },
   {
@@ -55135,7 +55087,7 @@ const B1_WORDS = [
       "id": "b1-strom",
       "layout": "standardStudy",
       "translation": "Struja",
-      "explanation": "Glavna ideja: der Strom je najčešće struja ili električna struja u svakodnevnom životu. U drugom kontekstu, to može biti velika rijeka ili potok.",
+      "explanation": "Glavna ideja: der Strom je najčešće struja ili električna struja u svakodnevnom životu. U drugom kontekstu, to može biti velika rijeka ili tok.",
       "examples": [
         {
           "de": "Der Strom ist ausgefallen.",
@@ -55292,7 +55244,7 @@ const B1_WORDS = [
     "de": "Stufe",
     "de_article": "die",
     "de_plural": "die Stufen",
-    "lv": "Korak",
+    "lv": "Stepenica",
     "level": "B1"
   },
   {
@@ -55353,7 +55305,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er stürzte auf der Treppe.",
-          "lv": "Pao je na stepenice."
+          "lv": "Pao je na stepenicama."
         },
         {
           "de": "Der Sturm stürzte mehrere Bäume um.",
@@ -55372,7 +55324,7 @@ const B1_WORDS = [
         },
         {
           "word": "fallen",
-          "meaning": "Padne neutralno",
+          "meaning": "Pasti neutralno",
           "example": "Das Glas fällt auf den Boden. = Staklo pada na pod."
         },
         {
@@ -55443,7 +55395,7 @@ const B1_WORDS = [
               "green": "fallen"
             },
             "meaning": {
-              "purple": "Padne"
+              "purple": "Pasti"
             },
             "example": {
               "red": "fällt"
@@ -56179,7 +56131,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir tauchen im Meer.",
-          "lv": "Ronimo u more."
+          "lv": "Ronimo u moru."
         },
         {
           "de": "Der Taucher taucht bis zum Wrack.",
@@ -56193,7 +56145,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "tauchen",
-          "meaning": "Roniti • Zaroniti",
+          "meaning": "Roniti • umočiti/uroniti",
           "example": "Wir tauchen im See. = Ronimo u jezero."
         },
         {
@@ -56210,7 +56162,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pod vodom ili u tečnosti u: tauchen."
+            "text": "Pod vodom ili u tečnosti: tauchen."
           }
         ]
       },
@@ -56322,7 +56274,7 @@ const B1_WORDS = [
       "id": "b1-taufen",
       "layout": "standardStudy",
       "translation": "Krstiti",
-      "explanation": "Glavna ideja: taufen znači krstiti u vjerskom smislu. Također se više koristi kada se daje ime brodu, projektu ili drugoj stvari.",
+      "explanation": "Glavna ideja: taufen znači krstiti u vjerskom smislu. U širem smislu koristi se i kada se brodu, projektu ili drugoj stvari daje ime.",
       "examples": [
         {
           "de": "Das Kind wird am Sonntag getauft.",
@@ -56334,7 +56286,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie tauften das Schiff auf den Namen Emma.",
-          "lv": "Nazvali su brod Ema."
+          "lv": "Nazvali su brod Emma."
         }
       ],
       "comparison": [
@@ -56357,12 +56309,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "U crkvi ili davanje formalnog imena: taufen."
+            "text": "U crkvi ili pri službenom davanju imena: taufen."
           }
         ]
       },
       "important": {
-        "text": "Taufen se ne kladi • To znači krstiti ili dati ime."
+        "text": "Taufen nije kladiti se; to znači krstiti ili dati ime."
       },
       "sectionAccents": {
         "explanation": {
@@ -56440,14 +56392,14 @@ const B1_WORDS = [
         "tip": {},
         "important": {
           "blue": "taufen",
-          "red": "ne"
+          "red": "kladiti"
         }
       }
     }
   },
   {
     "de": "tauglich",
-    "lv": "Validan",
+    "lv": "Pogodan",
     "level": "B1"
   },
   {
@@ -56525,7 +56477,7 @@ const B1_WORDS = [
         },
         {
           "word": "mitmachen",
-          "meaning": "Učestvuju neformalno",
+          "meaning": "Učestvovati neformalno",
           "example": "Machst du mit? = Hoćete li učestvovati?"
         },
         {
@@ -56610,7 +56562,7 @@ const B1_WORDS = [
               "green": "mitmachen"
             },
             "meaning": {
-              "purple": "Učestvuju"
+              "purple": "Učestvovati"
             },
             "example": {
               "red": "mit"
@@ -56801,7 +56753,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Knjiga, pjesma ili film obično imaju naziv."
+            "text": "Za knjigu, pjesmu ili film obično se kaže der Titel."
           }
         ]
       },
@@ -56898,12 +56850,12 @@ const B1_WORDS = [
   },
   {
     "de": "tödlich",
-    "lv": "Smrtonosna",
+    "lv": "Smrtonosan",
     "level": "B1"
   },
   {
     "de": "tolerant",
-    "lv": "Tolerantna",
+    "lv": "Tolerantan",
     "level": "B1"
   },
   {
@@ -57281,7 +57233,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das nächste Treffen ist am Montag.",
-          "lv": "Sledeći sastanak je u ponedeljak."
+          "lv": "Sljedeći sastanak je u ponedjeljak."
         }
       ],
       "tip": [
@@ -57351,7 +57303,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sledeći"
+                "sastanak"
               ]
             }
           }
@@ -57403,7 +57355,7 @@ const B1_WORDS = [
       "id": "b1-treiben",
       "layout": "standardStudy",
       "translation": "Baviti se (nečim)",
-      "explanation": "Glavna ideja: treiben često znači raditi nešto, posebno sport. To također može značiti voziti, usmjeravati ili raditi nešto nedefinirano.",
+      "explanation": "Glavna ideja: treiben često znači baviti se nečim, posebno sportom. To također može značiti tjerati, pokretati ili raditi nešto nedefinirano.",
       "examples": [
         {
           "de": "Er treibt viel Sport.",
@@ -57526,7 +57478,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "trennen",
-          "meaning": "Odvojiti, odvojiti",
+          "meaning": "Odvojiti, razdvojiti",
           "example": "Die Wand trennt die Zimmer. = Zid razdvaja prostorije."
         },
         {
@@ -57780,7 +57732,7 @@ const B1_WORDS = [
   },
   {
     "de": "tüchtig",
-    "lv": "U stanju",
+    "lv": "Sposoban",
     "level": "B1"
   },
   {
@@ -57794,19 +57746,19 @@ const B1_WORDS = [
     "de": "Turnhalle",
     "de_article": "die",
     "de_plural": "die Turnhallen",
-    "lv": "Teretana",
+    "lv": "Sportska dvorana",
     "level": "B1"
   },
   {
     "de": "Turnübung",
     "de_article": "die",
     "de_plural": "die Turnübungen",
-    "lv": "Vježbe",
+    "lv": "Gimnastička vježba",
     "level": "B1"
   },
   {
     "de": "übel",
-    "lv": "Loše",
+    "lv": "Loš",
     "level": "B1"
   },
   {
@@ -57835,7 +57787,7 @@ const B1_WORDS = [
   },
   {
     "de": "überfüllt",
-    "lv": "Prepuno",
+    "lv": "Prepun",
     "level": "B1"
   },
   {
@@ -58004,7 +57956,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "überholen",
-          "meaning": "Prestići • Remont",
+          "meaning": "Prestići • kapitalno remontovati",
           "example": "Er überholt das Auto. = On pretiče auto."
         },
         {
@@ -58127,7 +58079,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich übernehme diese Aufgabe.",
-          "lv": "Ja preuzimam ovaj zadatak."
+          "lv": "Preuzimam ovaj zadatak."
         },
         {
           "de": "Die Firma übernimmt die Kosten.",
@@ -58141,7 +58093,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "übernehmen",
-          "meaning": "Preuzeti, preuzeti",
+          "meaning": "Preuzeti • preuzeti na sebe",
           "example": "Ich übernehme die Aufgabe. = Ja preuzimam zadatak."
         },
         {
@@ -58158,7 +58110,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Posao, smjena ili odgovornost se prenosi na vas: preuzmite."
+            "text": "Posao, smjena ili odgovornost prelaze na vas: übernehmen = preuzeti."
           }
         ]
       },
@@ -58260,7 +58212,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-übersehen",
       "layout": "standardStudy",
-      "translation": "Ne primjetiti",
+      "translation": "Ne primijetiti",
       "explanation": "Glavna ideja: übersehen najčešće znači previdjeti grešku ili detalj. Sa više tačke gledišta, to može značiti sagledavanje šire slike.",
       "examples": [
         {
@@ -58408,7 +58360,7 @@ const B1_WORDS = [
   },
   {
     "de": "überzeugen",
-    "lv": "Ubediti",
+    "lv": "Uvjeriti",
     "level": "B1"
   },
   {
@@ -58484,11 +58436,11 @@ const B1_WORDS = [
       "id": "b1-umgehen",
       "layout": "standardStudy",
       "translation": "Ophoditi se",
-      "explanation": "Glavna ideja: umgehen znači ophoditi se prema osobi ili postupati s nečim odnosno nekom situacijom. Može značiti i zaobići prepreku ili pravila. To također može značiti zaobići prepreku ili zaobići pravila.",
+      "explanation": "Glavna ideja: umgehen znači ophoditi se prema osobi ili postupati s nečim odnosno u nekoj situaciji. Može značiti i zaobići prepreku ili pravila.",
       "examples": [
         {
           "de": "Er kann gut mit Kindern umgehen.",
-          "lv": "Dobar je sa decom."
+          "lv": "On zna dobro postupati s djecom."
         },
         {
           "de": "Wir umgehen die Baustelle.",
@@ -58539,7 +58491,7 @@ const B1_WORDS = [
               "green": "Kindern"
             },
             "lv": {
-              "purple": "decom"
+              "purple": "postupati"
             }
           },
           {
@@ -58837,7 +58789,7 @@ const B1_WORDS = [
   },
   {
     "de": "unbestimmt",
-    "lv": "Neodređeno",
+    "lv": "Neodređen",
     "level": "B1"
   },
   {
@@ -58879,7 +58831,7 @@ const B1_WORDS = [
   },
   {
     "de": "ungemütlich",
-    "lv": "Nelagodno",
+    "lv": "Neugodan",
     "level": "B1"
   },
   {
@@ -58889,12 +58841,12 @@ const B1_WORDS = [
   },
   {
     "de": "ungenügend",
-    "lv": "Nedovoljno",
+    "lv": "Nedovoljan",
     "level": "B1"
   },
   {
     "de": "ungerecht",
-    "lv": "Nepravedno",
+    "lv": "Nepravedan",
     "level": "B1"
   },
   {
@@ -58904,7 +58856,7 @@ const B1_WORDS = [
   },
   {
     "de": "unglaublich",
-    "lv": "Neverovatno",
+    "lv": "Nevjerovatno",
     "level": "B1"
   },
   {
@@ -58921,7 +58873,7 @@ const B1_WORDS = [
   },
   {
     "de": "unklar",
-    "lv": "Nejasno",
+    "lv": "Nejasan",
     "level": "B1"
   },
   {
@@ -59040,7 +58992,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Unterhalten i sich unterhalten treba odvojiti sich: značenje se mijenja."
+        "text": "Unterhalten i sich unterhalten treba razlikovati: sa sich se značenje mijenja."
       },
       "sectionAccents": {
         "explanation": {
@@ -59180,7 +59132,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Prüfung",
-          "meaning": "Ispit ili formalni ispit",
+          "meaning": "Ispit ili formalna provjera",
           "example": "Die Prüfung ist schwer. = Ispit je težak."
         },
         {
@@ -59295,7 +59247,7 @@ const B1_WORDS = [
   },
   {
     "de": "unvernünftig",
-    "lv": "Nerazumno",
+    "lv": "Nerazuman",
     "level": "B1"
   },
   {
@@ -59546,7 +59498,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Der Verband je zavoj na rani • U organizaciji - udruženju."
+            "text": "Der Verband je zavoj na rani; u organizacijskom kontekstu znači udruženje."
           }
         ]
       },
@@ -59643,7 +59595,7 @@ const B1_WORDS = [
       "id": "b1-verbindung",
       "layout": "standardStudy",
       "translation": "Veza",
-      "explanation": "Glavna ideja: die Verbindung znači vezu ili vezu između stvari, ljudi, mjesta ili sistema.",
+      "explanation": "Glavna ideja: die Verbindung znači vezu ili povezanost između stvari, ljudi, mjesta ili sistema.",
       "examples": [
         {
           "de": "Die Internetverbindung ist schlecht.",
@@ -59661,7 +59613,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Verbindung",
-          "meaning": "Veza, veza",
+          "meaning": "Spoj, veza",
           "example": "Die Verbindung ist stabil. = Veza je stabilna."
         },
         {
@@ -59762,7 +59714,7 @@ const B1_WORDS = [
   },
   {
     "de": "verblühen",
-    "lv": "Ocvatati",
+    "lv": "Ocvjetati",
     "level": "B1"
   },
   {
@@ -59938,7 +59890,7 @@ const B1_WORDS = [
   },
   {
     "de": "verdächtig",
-    "lv": "Sumnjivo",
+    "lv": "Sumnjiv",
     "level": "B1"
   },
   {
@@ -59967,7 +59919,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "verderben",
-          "meaning": "Pokvariti • Pokvariti",
+          "meaning": "Pokvariti • pokvariti se",
           "example": "Die Milch ist verdorben. = Mlijeko se pokvarilo."
         },
         {
@@ -59977,7 +59929,7 @@ const B1_WORDS = [
         },
         {
           "word": "schlecht werden",
-          "meaning": "Pokvariti za hranu",
+          "meaning": "Pokvariti se (za hranu)",
           "example": "Die Milch wird schlecht. = Mleko se kvari."
         }
       ],
@@ -60079,7 +60031,7 @@ const B1_WORDS = [
     "de": "Verdienst",
     "de_article": "der",
     "de_plural": "die Verdienste",
-    "lv": "Profit",
+    "lv": "Zarada",
     "level": "B1"
   },
   {
@@ -60283,7 +60235,7 @@ const B1_WORDS = [
       "id": "b1-verhältnis",
       "layout": "standardStudy",
       "translation": "Odnos",
-      "explanation": "Glavna ideja: das Verhältnis znači odnos, proporcija ili proporcija. Verhältnisse često znači stanje u množini.",
+      "explanation": "Glavna ideja: das Verhältnis znači odnos, proporciju ili međusobni omjer. Verhältnisse u množini često znači okolnosti ili uslove.",
       "examples": [
         {
           "de": "Ich habe ein gutes Verhältnis zu meinen Kollegen.",
@@ -60318,7 +60270,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Između ljudi ili brojeva: Verhältnis • Množine čestih okolnosti."
+            "text": "Između ljudi ili brojeva: Verhältnis; u množini često znači okolnosti."
           }
         ]
       },
@@ -60462,7 +60414,7 @@ const B1_WORDS = [
   },
   {
     "de": "verkehrt",
-    "lv": "Netačno",
+    "lv": "Netačan",
     "level": "B1"
   },
   {
@@ -60498,7 +60450,7 @@ const B1_WORDS = [
       "id": "b1-verlegen",
       "layout": "standardStudy",
       "translation": "Premjestiti / prebaciti",
-      "explanation": "Glavna ideja: verlegen znači prenijeti ili premjestiti. U svakodnevnom životu to znači i odlaganje nečega tako da ga više ne možete pronaći.",
+      "explanation": "Glavna ideja: verlegen znači premjestiti ili odgoditi. U svakodnevnom jeziku može značiti i zaturiti nešto, tako da to više ne možete pronaći.",
       "examples": [
         {
           "de": "Wir verlegen den Termin auf Freitag.",
@@ -60662,7 +60614,7 @@ const B1_WORDS = [
         },
         {
           "word": "beleidigen",
-          "meaning": "Uvreda rečima",
+          "meaning": "Uvrijediti riječima",
           "example": "Er beleidigt mich. = On me vrijeđa."
         },
         {
@@ -60733,7 +60685,7 @@ const B1_WORDS = [
               "green": "beleidigen"
             },
             "meaning": {
-              "purple": "Uvreda"
+              "purple": "Uvrijediti"
             },
             "example": {
               "red": "beleidigt"
@@ -61111,7 +61063,7 @@ const B1_WORDS = [
         },
         {
           "word": "darstellen",
-          "meaning": "Prikazati ili prikazati",
+          "meaning": "Prikazati ili predstaviti",
           "example": "Die Grafik stellt Daten dar. = Grafikon predstavlja podatke."
         }
       ],
@@ -61437,7 +61389,7 @@ const B1_WORDS = [
   },
   {
     "de": "verwechseln",
-    "lv": "Pob rkati / zamijeniti",
+    "lv": "Pobrkati / zamijeniti",
     "level": "B1"
   },
   {
@@ -61587,7 +61539,7 @@ const B1_WORDS = [
       "id": "b1-vorkommen",
       "layout": "standardStudy",
       "translation": "Desiti se / dogoditi se",
-      "explanation": "Glavna ideja: vorkommen znači desiti se ili pojaviti. Konstrukcija jemandem vorkommen znači nekome se činiti.",
+      "explanation": "Glavna ideja: vorkommen znači desiti se ili pojaviti se. Konstrukcija jemandem vorkommen znači nekome se činiti.",
       "examples": [
         {
           "de": "So etwas kommt in der Praxis oft vor.",
@@ -61973,7 +61925,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir ziehen den Termin auf Mittwoch vor.",
-          "lv": "Pomjeramo rok na srijedu ranije."
+          "lv": "Pomjeramo rok unaprijed, na srijedu."
         },
         {
           "de": "Sie zieht es vor, zu Hause zu bleiben.",
@@ -62154,7 +62106,7 @@ const B1_WORDS = [
         },
         {
           "word": "wachen",
-          "meaning": "Biti budan, čuvati se",
+          "meaning": "Biti budan, čuvati",
           "example": "Der Hund wacht. = Pas čuvari."
         }
       ],
@@ -62272,12 +62224,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "wachen",
-          "meaning": "Biti budan, čuvati se",
+          "meaning": "Biti budan, čuvati",
           "example": "Der Hund wacht. = Pas čuvari."
         },
         {
           "word": "aufwachen",
-          "meaning": "Probudi se",
+          "meaning": "Probuditi se",
           "example": "Ich wache früh auf. = Budim se rano."
         },
         {
@@ -62350,7 +62302,7 @@ const B1_WORDS = [
               "green": "aufwachen"
             },
             "meaning": {
-              "purple": "Probudi"
+              "purple": "Probuditi"
             },
             "example": {
               "red": "auf"
@@ -62423,7 +62375,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Wagen steht vor dem Haus.",
-          "lv": "Auto je parkiran ispred kuce."
+          "lv": "Auto je parkiran ispred kuće."
         },
         {
           "de": "Wir fahren mit dem Wagen zur Stadt.",
@@ -62622,7 +62574,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich wärmen",
-    "lv": "Da se zagreje",
+    "lv": "Grijati se",
     "level": "B1"
   },
   {
@@ -62671,7 +62623,7 @@ const B1_WORDS = [
     "de": "Wäscherei",
     "de_article": "die",
     "de_plural": "die Wäschereien",
-    "lv": "Vešeraj",
+    "lv": "Praonica rublja",
     "level": "B1"
   },
   {
@@ -62744,7 +62696,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-wechsel",
       "layout": "standardStudy",
-      "translation": "Smjena",
+      "translation": "Promjena / smjena",
       "explanation": "Glavna ideja: der Wechsel znači smjenu ili promjenu. U posebnim frazama, kao što je Wechselkurs, značenje postaje specifično.",
       "examples": [
         {
@@ -62757,7 +62709,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Wechselkurs ist heute niedrig.",
-          "lv": "Kurs je danas nizak."
+          "lv": "Devizni kurs je danas nizak."
         }
       ],
       "comparison": [
@@ -62879,7 +62831,7 @@ const B1_WORDS = [
       "id": "b1-weder",
       "layout": "standardStudy",
       "translation": "Niti",
-      "explanation": "Glavna ideja: weder se koristi sa nochom. Konstrukcija weder ... noch znači ni ... ni ili ne ... ne.",
+      "explanation": "Glavna ideja: weder se koristi s riječju noch. Konstrukcija weder ... noch znači ni ... ni ili ne ... ne.",
       "examples": [
         {
           "de": "Ich trinke weder Kaffee noch Tee.",
@@ -62914,7 +62866,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Weder skoro uvek ceka drugi deo noch."
+            "text": "Weder skoro uvijek čeka drugi dio noch."
           }
         ]
       },
@@ -63065,7 +63017,7 @@ const B1_WORDS = [
   },
   {
     "de": "wehen",
-    "lv": "Duvati",
+    "lv": "Puhati",
     "level": "B1"
   },
   {
@@ -63075,19 +63027,19 @@ const B1_WORDS = [
   },
   {
     "de": "weichen",
-    "lv": "Da se povuče",
+    "lv": "Povući se",
     "level": "B1"
   },
   {
     "de": "Weide",
     "de_article": "die",
     "de_plural": "die Weiden",
-    "lv": "Pašnjaci",
+    "lv": "Pašnjak",
     "level": "B1"
   },
   {
     "de": "weiden",
-    "lv": "Da pase",
+    "lv": "Pasti",
     "level": "B1"
   },
   {
@@ -63103,7 +63055,7 @@ const B1_WORDS = [
   {
     "de": "Weile",
     "de_article": "die",
-    "lv": "Moment",
+    "lv": "Neko vrijeme",
     "level": "B1"
   },
   {
@@ -63203,7 +63155,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "U moru i figurativno obično talas • Mašina može imati vreteno."
+            "text": "U moru i figurativno obično talas • U mašini može značiti osovinu."
           }
         ]
       },
@@ -63352,7 +63304,7 @@ const B1_WORDS = [
         },
         {
           "word": "drehen",
-          "meaning": "Okrenuti se, okrenuti se",
+          "meaning": "Okrenuti, zakrenuti",
           "example": "Dreh den Schlüssel. = Okreni ključ."
         },
         {
@@ -63369,7 +63321,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Sich an jemanden wenden znači okrenuti se nekome, a ne fizički se okrenuti."
+        "text": "Sich an jemanden wenden znači obratiti se nekome, a ne fizički se okrenuti."
       },
       "sectionAccents": {
         "explanation": {
@@ -63424,7 +63376,7 @@ const B1_WORDS = [
               "green": "drehen"
             },
             "meaning": {
-              "purple": "se"
+              "purple": "zakrenuti"
             },
             "example": {
               "red": "Dreh"
@@ -63600,7 +63552,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-werk",
       "layout": "standardStudy",
-      "translation": "Djelo",
+      "translation": "Djelo / fabrika",
       "explanation": "Glavna ideja: das Werk je stvoreno djelo, kao što je knjiga, umjetničko djelo ili kompozicija. To može značiti i fabriku.",
       "examples": [
         {
@@ -63609,7 +63561,7 @@ const B1_WORDS = [
         },
         {
           "de": "Dieses Werk wurde 1920 geschrieben.",
-          "lv": "Ovo delo je napisano 1920."
+          "lv": "Ovo djelo je napisano 1920. godine."
         },
         {
           "de": "Er arbeitet in einem Werk.",
@@ -63624,7 +63576,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Arbeit",
-          "meaning": "Rad, rad",
+          "meaning": "Djelo, rad",
           "example": "Die Arbeit ist schwer. = Posao je težak."
         },
         {
@@ -63665,7 +63617,7 @@ const B1_WORDS = [
               "yellow": "1920"
             },
             "lv": {
-              "purple": "delo"
+              "purple": "djelo"
             }
           },
           {
@@ -63759,7 +63711,7 @@ const B1_WORDS = [
     "de": "Wette",
     "de_article": "die",
     "de_plural": "die Wetten",
-    "lv": "Opklade",
+    "lv": "Opklada",
     "level": "B1"
   },
   {
@@ -63771,7 +63723,7 @@ const B1_WORDS = [
     "de": "Wettkampf",
     "de_article": "der",
     "de_plural": "die Wettkämpfe",
-    "lv": "Konkurencija",
+    "lv": "Takmičenje",
     "level": "B1"
   },
   {
@@ -63808,7 +63760,7 @@ const B1_WORDS = [
     "de": "Wiege",
     "de_article": "die",
     "de_plural": "die Wiegen",
-    "lv": "Kolevka",
+    "lv": "Kolijevka",
     "level": "B1"
   },
   {
@@ -63818,7 +63770,7 @@ const B1_WORDS = [
   },
   {
     "de": "wild",
-    "lv": "Divlje • Divlje",
+    "lv": "Divlji • Divlji",
     "level": "B1"
   },
   {
@@ -63839,7 +63791,7 @@ const B1_WORDS = [
     "de": "Windmühle",
     "de_article": "die",
     "de_plural": "die Windmühlen",
-    "lv": "Vjetrenjače",
+    "lv": "Vjetrenjača",
     "level": "B1"
   },
   {
@@ -63853,7 +63805,7 @@ const B1_WORDS = [
     "de": "Wink",
     "de_article": "der",
     "de_plural": "die Winke",
-    "lv": "Nagoveštaj",
+    "lv": "Nagovještaj",
     "level": "B1"
   },
   {
@@ -63891,7 +63843,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Zeugnis",
-          "meaning": "Svjedočanstvo, potvrda, potvrda",
+          "meaning": "Svjedočanstvo, potvrda, uvjerenje",
           "example": "Das Zeugnis ist gut. = Svedočenje je dobro."
         },
         {
@@ -64060,7 +64012,7 @@ const B1_WORDS = [
     "de": "Zoll",
     "de_article": "der",
     "de_plural": "die Zölle",
-    "lv": "Carine",
+    "lv": "Carina",
     "level": "B1"
   },
   {
@@ -64155,7 +64107,7 @@ const B1_WORDS = [
         },
         {
           "word": "gestehen",
-          "meaning": "Priznajte ozbiljnije",
+          "meaning": "Priznati",
           "example": "Er gesteht den Fehler. = Priznaje grešku."
         }
       ],
@@ -64245,7 +64197,7 @@ const B1_WORDS = [
               "green": "gestehen"
             },
             "meaning": {
-              "purple": "Priznajte"
+              "purple": "Priznati"
             },
             "example": {
               "red": "gesteht",
@@ -64454,7 +64406,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Kontext",
-          "meaning": "Kontekstu",
+          "meaning": "Kontekst",
           "example": "Der Kontext hilft. = Kontekst pomaže."
         }
       ],
@@ -64528,7 +64480,7 @@ const B1_WORDS = [
               "green": "der Kontext"
             },
             "meaning": {
-              "purple": "Kontekstu"
+              "purple": "Kontekst"
             },
             "example": {
               "red": "Kontext"
@@ -64604,7 +64556,7 @@ const B1_WORDS = [
   },
   {
     "de": "zwecklos",
-    "lv": "Uzaludno",
+    "lv": "Uzaludan",
     "level": "B1"
   },
   {
@@ -65314,7 +65266,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich bleibe zu Hause, weil ich krank bin.",
-          "lv": "Ostajem kod kuce jer sam bolesna."
+          "lv": "Ostajem kod kuće jer sam bolestan."
         },
         {
           "de": "Ich lerne Deutsch, weil ich in Deutschland arbeite.",
@@ -65447,11 +65399,11 @@ const B1_WORDS = [
         },
         {
           "de": "Da ich krank bin, bleibe ich zu Hause.",
-          "lv": "Jer sam bolestan, ostajem kod kuce."
+          "lv": "Jer sam bolestan, ostajem kod kuće."
         },
         {
           "de": "Da du keine Zeit hast, machen wir es morgen.",
-          "lv": "Pošto nemate vremena, uradićemo to sutra."
+          "lv": "Pošto nemaš vremena, uradit ćemo to sutra."
         },
         {
           "de": "Da das Wetter schlecht ist, fahren wir nicht.",
@@ -65991,7 +65943,7 @@ const B1_WORDS = [
       "id": "b1-sich-befinden-study",
       "layout": "standardStudy",
       "translation": "Biti lociran",
-      "explanation": "Glavna ideja: sich befinden najčešće znači biti na određenom mjestu. To je formalnije od obične sein. Često se koristi u opisima, uputstvima i službenom jeziku. Osjećaj nije glavno A2 značenje ove karte. Osjećaj na njemačkom je obično sich fühlen.",
+      "explanation": "Glavna ideja: sich befinden najčešće znači nalaziti se na određenom mjestu. Formalnije je od običnog sein. Često se koristi u opisima, uputstvima i službenom jeziku. Značenje „osjećati se“ nije glavno A2 značenje ove kartice. Za „osjećati se“ se na njemačkom obično koristi sich fühlen.",
       "examples": [
         {
           "de": "Das Hotel befindet sich im Zentrum.",
@@ -66011,7 +65963,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich fühle mich heute gut.",
-          "lv": "Osećam se dobro danas"
+          "lv": "Osjećam se dobro danas."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
@@ -66026,7 +65978,7 @@ const B1_WORDS = [
         },
         {
           "word": "sein",
-          "meaning": "Biti / biti",
+          "meaning": "Biti / nalaziti se",
           "example": "Das Büro ist oben. = Ured je na spratu."
         },
         {
@@ -66036,7 +65988,7 @@ const B1_WORDS = [
         },
         {
           "word": "stehen",
-          "meaning": "Stajati / biti",
+          "meaning": "Stajati / nalaziti se",
           "example": "Das Auto steht vor dem Haus. = Auto je parkiran kod kuće."
         },
         {
@@ -66117,7 +66069,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Osećam"
+                "dobro"
               ]
             }
           },
@@ -66408,7 +66360,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er ist der Erbe seines Onkels.",
-          "lv": "On je naslednik svog strica."
+          "lv": "On je nasljednik svog strica."
         },
         {
           "de": "Die Erben teilen das Vermögen.",
@@ -66420,11 +66372,11 @@ const B1_WORDS = [
         },
         {
           "de": "Sie hat ein großes Erbe bekommen.",
-          "lv": "Dobila je veliko nasledstvo."
+          "lv": "Dobila je veliko nasljedstvo."
         },
         {
           "de": "Wer ist der Erbe?",
-          "lv": "Ko je naslednik"
+          "lv": "Ko je nasljednik?"
         },
         {
           "de": "Das Erbe wird geteilt.",
@@ -66461,7 +66413,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naslednik"
+                "strica"
               ]
             }
           },
@@ -66510,7 +66462,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naslednik"
+                "nasljednik"
               ]
             }
           },
@@ -66552,7 +66504,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-erbe-study",
       "layout": "standardStudy",
-      "translation": "Nasleđe",
+      "translation": "Nasljeđe",
       "explanation": [
         "Glavna ideja: Naslijeđe kao stvar, vlasništvo ili vrijednost ostavljena za sobom.",
         "Der Erbe uglavnom znači: čovjek.",
@@ -66569,7 +66521,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er ist der Erbe seines Onkels.",
-          "lv": "On je naslednik svog strica."
+          "lv": "On je nasljednik svog strica."
         },
         {
           "de": "Das Erbe besteht aus einem Haus.",
@@ -66577,11 +66529,11 @@ const B1_WORDS = [
         },
         {
           "de": "Sie hat ein großes Erbe bekommen.",
-          "lv": "Dobila je veliko nasledstvo."
+          "lv": "Dobila je veliko nasljedstvo."
         },
         {
           "de": "Wer ist der Erbe?",
-          "lv": "Ko je naslednik"
+          "lv": "Ko je nasljednik?"
         },
         {
           "de": "Das Erbe wird geteilt.",
@@ -66630,7 +66582,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naslednik"
+                "strica"
               ]
             }
           },
@@ -66667,7 +66619,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "naslednik"
+                "nasljednik"
               ]
             }
           },
@@ -66872,7 +66824,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Rauchen schadet der Gesundheit.",
-          "lv": "Pušenje je štetno po zdravlje."
+          "lv": "Pušenje šteti zdravlju."
         },
         {
           "de": "Der Sturm verursachte großen Schaden.",
@@ -66892,7 +66844,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das schadet der Gesundheit.",
-          "lv": "Štetno je po zdravlje."
+          "lv": "To šteti zdravlju."
         }
       ],
       "tip": [
@@ -66975,7 +66927,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Štetno"
+                "šteti"
               ]
             }
           }
@@ -67019,7 +66971,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich habe Vertrauen zu meinem Arzt.",
-          "lv": "Imam poverenja u svog doktora."
+          "lv": "Imam povjerenja u svog doktora."
         },
         {
           "de": "Das Vertrauen ist wichtig.",
@@ -67027,11 +66979,11 @@ const B1_WORDS = [
         },
         {
           "de": "Kann ich dir vertrauen?",
-          "lv": "Mogu li ti vjerovati"
+          "lv": "Mogu li ti vjerovati?"
         },
         {
           "de": "Er hat mein Vertrauen verloren.",
-          "lv": "Izgubio je moje poverenje."
+          "lv": "Izgubio je moje povjerenje."
         },
         {
           "de": "Wir vertrauen unserem Lehrer.",
@@ -67172,11 +67124,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich vertraue dir.",
-          "lv": "Verujem ti."
+          "lv": "Vjerujem ti."
         },
         {
           "de": "Ich habe Vertrauen zu meinem Arzt.",
-          "lv": "Imam poverenja u svog doktora."
+          "lv": "Imam povjerenja u svog doktora."
         },
         {
           "de": "Das Vertrauen ist wichtig.",
@@ -67184,11 +67136,11 @@ const B1_WORDS = [
         },
         {
           "de": "Kann ich dir vertrauen?",
-          "lv": "Mogu li ti vjerovati"
+          "lv": "Mogu li ti vjerovati?"
         },
         {
           "de": "Er hat mein Vertrauen verloren.",
-          "lv": "Izgubio je moje poverenje."
+          "lv": "Izgubio je moje povjerenje."
         },
         {
           "de": "Wir vertrauen unserem Lehrer.",
