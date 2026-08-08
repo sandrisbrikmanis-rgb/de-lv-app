@@ -1396,9 +1396,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich betätigen"
-          ],
-          "red": [
-            "Sich"
           ]
         }
       }
@@ -1871,58 +1868,58 @@ const B2_WORDS = [
     "de": "Brandmal",
     "de_article": "das",
     "de_plural": "die Brandmale",
-    "lv": "Apdegums • Apdeguma rēta",
+    "lv": "Opekotina • Ožiljak od opekotine",
     "level": "B2"
   },
   {
     "de": "Brandstifter",
     "de_article": "der",
     "de_plural": "die Brandstifter",
-    "lv": "Ļaunprātīgs dedzinātājs",
+    "lv": "Podmetati požare",
     "level": "B2"
   },
   {
     "de": "Brandwunde",
     "de_article": "die",
     "de_plural": "die Brandwunden",
-    "lv": "Apdeguma brūce",
+    "lv": "Rana od opekotine",
     "level": "B2"
   },
   {
     "de": "brauen",
-    "lv": "Darīt alu • Brūvēt",
+    "lv": "Praviti pivo • Variti",
     "level": "B2"
   },
   {
     "de": "Brauerei",
     "de_article": "die",
     "de_plural": "die Brauereien",
-    "lv": "Alus darītava",
+    "lv": "Pivara",
     "level": "B2"
   },
   {
     "de": "Braunkohle",
     "de_article": "die",
     "de_plural": "die Braunkohlen",
-    "lv": "Brūnogles",
+    "lv": "Mrki ugalj",
     "level": "B2"
   },
   {
     "de": "Brettsegeln",
     "de_article": "das",
-    "lv": "Vindsērfings",
+    "lv": "Windsurfing",
     "level": "B2"
   },
   {
     "de": "Briefbombe",
     "de_article": "die",
     "de_plural": "die Briefbomben",
-    "lv": "Vēstuļbumba",
+    "lv": "Pismo-bomba",
     "level": "B2"
   },
   {
     "de": "brillant",
-    "lv": "Lielisks • Teicams",
+    "lv": "Odličan • Sjajan",
     "level": "B2"
   },
   {
@@ -1934,7 +1931,7 @@ const B2_WORDS = [
     "de": "Buche",
     "de_article": "die",
     "de_plural": "die Buchen",
-    "lv": "Dižskābardis • Skābardis",
+    "lv": "Bukva • Grab",
     "level": "B2"
   },
   {
@@ -1948,14 +1945,14 @@ const B2_WORDS = [
     "de": "Buchführung",
     "de_article": "die",
     "de_plural": "die Buchführungen",
-    "lv": "Grāmatvedība",
+    "lv": "Računovodstvo",
     "level": "B2"
   },
   {
     "de": "Buchhaltung",
     "de_article": "die",
     "de_plural": "die Buchhaltungen",
-    "lv": "Grāmatvedība",
+    "lv": "Računovodstvo",
     "level": "B2"
   },
   {
@@ -1967,7 +1964,7 @@ const B2_WORDS = [
     "de": "Buckel",
     "de_article": "der",
     "de_plural": "die Buckel",
-    "lv": "Kupris • Kūkums • Mugura",
+    "lv": "Grba • Izbočina • Leđa",
     "level": "B2"
   },
   {
@@ -1981,14 +1978,14 @@ const B2_WORDS = [
     "de": "Bühnenbild",
     "de_article": "das",
     "de_plural": "die Bühnenbilder",
-    "lv": "Dekorācija",
+    "lv": "Dekoracija",
     "level": "B2"
   },
   {
     "de": "Bühnenbildner",
     "de_article": "der",
     "de_plural": "die Bühnenbildner",
-    "lv": "Dekorators",
+    "lv": "Dekorater",
     "level": "B2"
   },
   {
@@ -3600,9 +3597,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich einprägen"
-          ],
-          "red": [
-            "Sich"
           ]
         }
       }
@@ -3634,9 +3628,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich einschleichen"
-          ],
-          "red": [
-            "Sich"
           ]
         }
       }
@@ -4679,9 +4670,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich erweisen"
-          ],
-          "red": [
-            "Sich"
           ]
         }
       }
@@ -5173,7 +5161,7 @@ const B2_WORDS = [
   },
   {
     "de": "flauschig",
-    "lv": "Fluffy",
+    "lv": "pahuljast",
     "level": "B2"
   },
   {
@@ -5466,9 +5454,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich fügen"
-          ],
-          "red": [
-            "Sich"
           ]
         }
       }
@@ -5901,7 +5886,7 @@ const B2_WORDS = [
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "Mīļais • Mīļotais • Mīļākais",
+    "lv": "Drag • Voljen • Najdraži",
     "level": "B2"
   },
   {
@@ -5934,7 +5919,7 @@ const B2_WORDS = [
   },
   {
     "de": "gemäß",
-    "lv": "Pēc • Saskaņā ar • Atbilstoši",
+    "lv": "Prema • U skladu s • Shodno",
     "level": "B2"
   },
   {
@@ -7032,10 +7017,10 @@ const B2_WORDS = [
             "die Haube"
           ],
           "purple": [
-            "Glavna",
-            "Glavna",
-            "Glavna",
-            "Glavna"
+            "die",
+            "Poklopac",
+            "die",
+            "Hauba"
           ],
           "green": [
             "Motorhaube",
@@ -7051,7 +7036,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ona"
+                "šešir"
               ]
             }
           },
@@ -7063,7 +7048,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Časna"
+                "Kapuljaču"
               ]
             }
           },
@@ -7075,7 +7060,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "otvara"
+                "On"
               ]
             }
           },
@@ -7087,7 +7072,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hauba"
+                "je"
               ]
             }
           },
@@ -7099,7 +7084,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Iznad"
+                "Napa"
               ]
             }
           },
@@ -7111,7 +7096,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Stavite"
+                "Poklopac"
               ]
             }
           }
@@ -7362,9 +7347,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich herausstellen"
-          ],
-          "red": [
-            "Sich"
           ]
         }
       }
@@ -7406,9 +7388,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich hervortun"
-          ],
-          "red": [
-            "Sich"
           ]
         }
       }
@@ -7496,9 +7475,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich hingeben"
-          ],
-          "red": [
-            "Sich"
           ]
         }
       }
@@ -7656,8 +7632,8 @@ const B2_WORDS = [
             "das Hoch"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "das",
+            "Živio"
           ],
           "green": [
             "hoch"
@@ -7696,7 +7672,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "anticiklon"
+                "Anticiklon"
               ]
             }
           },
@@ -7708,7 +7684,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Planina"
+                "visoka"
               ]
             }
           }
@@ -7849,8 +7825,8 @@ const B2_WORDS = [
             "das Hochwasser"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "das",
+            "Visok nivo vode"
           ]
         },
         "examples": [
@@ -7862,7 +7838,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nakon"
+                "Poplava"
               ]
             }
           },
@@ -7886,7 +7862,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vlasti"
+                "poplave"
               ]
             }
           }
@@ -8497,8 +8473,8 @@ const B2_WORDS = [
             "das Leiden"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "das",
+            "Teška bolest"
           ],
           "green": [
             "leiden"
@@ -8513,7 +8489,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ima"
+                "Bolest"
               ]
             }
           },
@@ -8537,7 +8513,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Boluje"
+                "od"
               ]
             }
           },
@@ -8549,7 +8525,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Njena"
+                "Bolest"
               ]
             }
           }
@@ -9285,7 +9261,7 @@ const B2_WORDS = [
     "de": "Nachdruck",
     "de_article": "der",
     "de_plural": "die Nachdrucke",
-    "lv": "Naglasak • Ponovno štampanje",
+    "lv": "Naglasak",
     "level": "B2",
     "study": {
       "id": "b2-nachdruck",
@@ -9350,8 +9326,8 @@ const B2_WORDS = [
             "der Nachdruck"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Naglasak",
+            "ponovno"
           ]
         },
         "examples": [
@@ -9363,7 +9339,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ističe"
+                "rok"
               ]
             }
           },
@@ -9375,7 +9351,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tražila"
+                "je"
               ]
             }
           },
@@ -11273,8 +11249,8 @@ const B2_WORDS = [
             "das Sein"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Postojanje",
+            "Sein"
           ],
           "green": [
             "sein"
@@ -11289,7 +11265,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ljudsko"
+                "Postojanje"
               ]
             }
           },
@@ -11313,7 +11289,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Umoran"
+                "sam"
               ]
             }
           },
@@ -11545,8 +11521,7 @@ const B2_WORDS = [
             "sofern"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "sofät"
           ],
           "red": [
             "da",
@@ -11562,7 +11537,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dolazim"
+                "imam"
               ]
             }
           },
@@ -11574,7 +11549,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Osim"
+                "Ako"
               ]
             }
           },
@@ -11598,7 +11573,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Budite"
+                "Ako"
               ]
             }
           },
@@ -11610,7 +11585,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pomaže"
+                "Ako"
               ]
             }
           },
@@ -11630,8 +11605,8 @@ const B2_WORDS = [
         "tip": [
           {
             "blue": [
-              "Ako/pod",
-              "Ako/pod"
+              "uslovom",
+              "Ako"
             ]
           },
           {
@@ -13341,9 +13316,6 @@ const B2_WORDS = [
       "formsLabel": "Menadžment:",
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "Sich verschein"
-          ],
           "red": [
             "mit + kam?"
           ]
@@ -14236,9 +14208,6 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich widersetzen"
-          ],
-          "red": [
-            "Sich"
           ]
         }
       }
@@ -14468,8 +14437,8 @@ const B2_WORDS = [
             "zu"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Dodijeliti",
+            "dodijeliti"
           ]
         },
         "examples": [
@@ -14482,7 +14451,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Šef"
+                "daje"
               ]
             }
           },
@@ -14494,7 +14463,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sredstva"
+                "dodijeljena"
               ]
             }
           },
@@ -14506,7 +14475,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Raspoređen"
+                "je"
               ]
             }
           }
@@ -14582,11 +14551,11 @@ const B2_WORDS = [
             "zuwider"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "zuwider",
+            "mir"
           ],
           "green": [
-            "wider"
+            "zuwider"
           ]
         },
         "examples": [
@@ -14598,7 +14567,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Postupio"
+                "protiv"
               ]
             }
           },
@@ -14610,7 +14579,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "sviđa"
+                "se"
               ]
             }
           },
@@ -14622,7 +14591,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "sviđa"
+                "mi"
               ]
             }
           }
@@ -14723,8 +14692,8 @@ const B2_WORDS = [
             "ändern"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Promijeniti",
+            "informaciju"
           ]
         },
         "examples": [
@@ -14749,7 +14718,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mozes"
+                "Promijeniti"
               ]
             }
           },
@@ -14762,7 +14731,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Menjamo"
+                "plan"
               ]
             }
           },
@@ -14857,8 +14826,8 @@ const B2_WORDS = [
             "wechseln"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Trgovati",
+            "Zamijeniti"
           ]
         },
         "examples": [
@@ -14903,11 +14872,7 @@ const B2_WORDS = [
               "Promjeniti"
             ]
           },
-          {
-            "purple": [
-              "Promjeniti"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -14971,8 +14936,8 @@ const B2_WORDS = [
             "bieten"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Ponudite",
+            "dati"
           ]
         },
         "examples": [
@@ -14984,20 +14949,20 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Škola"
+                "Nudi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "anbieten",
+                "anbieten"
               ]
             },
             "lv": {
               "purple": [
-                "Mogu"
+                "Ponuditi"
               ]
             }
           },
@@ -15009,7 +14974,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Škola"
+                "Nudi"
               ]
             }
           },
@@ -15030,7 +14995,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Šta"
+                "Pruža"
               ]
             }
           }
@@ -15041,11 +15006,7 @@ const B2_WORDS = [
               "Ponudite"
             ]
           },
-          {
-            "purple": [
-              "Ponudite"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -15115,7 +15076,7 @@ const B2_WORDS = [
             "an"
           ],
           "purple": [
-            "Glavna"
+            "Ponuditi"
           ]
         },
         "examples": [
@@ -15140,7 +15101,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mogu"
+                "Ponuditi"
               ]
             }
           },
@@ -15153,7 +15114,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kompanija"
+                "Nudi"
               ]
             }
           }
@@ -15214,8 +15175,8 @@ const B2_WORDS = [
             "fordern"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Traženje",
+            "zahtijevati"
           ]
         },
         "examples": [
@@ -15227,7 +15188,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ona"
+                "traži"
               ]
             }
           },
@@ -15240,7 +15201,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tražimo"
+                "više"
               ]
             }
           },
@@ -15252,7 +15213,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ona"
+                "traži"
               ]
             }
           },
@@ -15265,7 +15226,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tražimo"
+                "više"
               ]
             }
           },
@@ -15289,11 +15250,7 @@ const B2_WORDS = [
               "Potraživanje"
             ]
           },
-          {
-            "purple": [
-              "Potraživanje"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -15356,8 +15313,8 @@ const B2_WORDS = [
             "fördern"
           ],
           "purple": [
-            "Glavna",
-            "Glavna"
+            "Promovirati",
+            "Podržati"
           ]
         },
         "examples": [
@@ -15369,7 +15326,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sport"
+                "promoviše"
               ]
             }
           },
@@ -15381,7 +15338,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sport"
+                "promoviše"
               ]
             }
           },
@@ -15401,7 +15358,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Škola"
+                "Podržava"
               ]
             }
           }
@@ -15412,11 +15369,7 @@ const B2_WORDS = [
               "Promovirati"
             ]
           },
-          {
-            "purple": [
-              "Promovirati"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -15443,7 +15396,7 @@ const B2_WORDS = [
             "sich verlaufen"
           ],
           "purple": [
-            "Sich"
+            "Izgubiti se"
           ],
           "red": [
             "verlaufen"
@@ -15467,8 +15420,8 @@ const B2_WORDS = [
             "verlaufen"
           ],
           "purple": [
-            "Verlaufen",
-            "Verlaufen"
+            "trčati",
+            "Kotrljati se"
           ],
           "red": [
             "sich verlaufen"
