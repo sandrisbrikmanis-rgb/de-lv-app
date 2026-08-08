@@ -3,7 +3,7 @@
  * BS-DE B1 Terra AI quality audit (read-only). Audits all 3367 entries with batching.
  *
  * Usage:
- *   node scripts/audit-bs-b1-terra.js [--test-batch] [--skip-study] [--skip-simple]
+ *   node scripts/audit-bs-b1-terra.js [--test-batch] [--skip-study] [--skip-simple] [--prefix=reaudit]
  */
 const fs = require("fs");
 const path = require("path");
@@ -19,9 +19,13 @@ const {
 
 const LV_FILE = path.join(ROOT, "data", "b1.js");
 const BS_FILE = path.join(ROOT, "data", "bs", "b1.js");
-const FINDINGS_PATH = path.join(ROOT, "reports", "temp", "bs-b1-terra-findings.json");
-const STATS_PATH = path.join(ROOT, "scripts", ".bs-b1-terra-audit-stats.json");
-const PROGRESS_PATH = path.join(ROOT, "scripts", ".bs-b1-terra-audit-progress.json");
+const PREFIX_ARG = process.argv.find((a) => a.startsWith("--prefix="));
+const PREFIX = PREFIX_ARG ? PREFIX_ARG.slice("--prefix=".length) : "";
+const PREFIX_TAG = PREFIX ? `${PREFIX}-` : "";
+
+const FINDINGS_PATH = path.join(ROOT, "reports", "temp", `bs-b1-${PREFIX_TAG}terra-findings.json`);
+const STATS_PATH = path.join(ROOT, "scripts", `.bs-b1-${PREFIX_TAG}terra-audit-stats.json`);
+const PROGRESS_PATH = path.join(ROOT, "scripts", `.bs-b1-${PREFIX_TAG}terra-audit-progress.json`);
 
 const TEST_BATCH = process.argv.includes("--test-batch");
 const SKIP_STUDY = process.argv.includes("--skip-study");

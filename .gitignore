@@ -65,6 +65,8 @@ scripts/.bs-b1-openai-translation-cache.json
 scripts/.bs-b1-openai-stats.json
 scripts/.bs-b1-terra-audit-progress.json
 scripts/.bs-b1-terra-audit-stats.json
+scripts/.bs-b1-reaudit-terra-audit-progress.json
+scripts/.bs-b1-reaudit-terra-audit-stats.json
 scripts/.bs-ui-translation-cache.json
 scripts/.sr-translation-cache.json
 scripts/.sr-ui-translation-cache.json
