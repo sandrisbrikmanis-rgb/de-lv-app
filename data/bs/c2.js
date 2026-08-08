@@ -415,7 +415,7 @@ const C2_WORDS = [
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Klizna krama",
+    "lv": "Oštrica klizaljke",
     "level": "C2"
   },
   {
@@ -729,7 +729,7 @@ const C2_WORDS = [
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Prosječan učinak",
+    "lv": "Prosječni učinak",
     "level": "C2"
   },
   {
