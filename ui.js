@@ -6776,11 +6776,11 @@ function detailScreenHeading(itemKey) {
 }
 
 function groupProgressTitle(itemKey) {
+  const heading = detailScreenHeading(itemKey);
   if (itemKey === "verbs") {
     const learned = (state.learned.verbs || []).length;
-    return `Darbības vārdi · ${learned}/${getVerbEntries().length}`;
+    return `${heading} · ${learned}/${getVerbEntries().length}`;
   }
-  const heading = detailScreenHeading(itemKey);
   const total = baseCardsForGroup(itemKey).length;
   const learned = (state.learned[itemKey] || []).length;
   return `${heading} · ${learned}/${total}`;
