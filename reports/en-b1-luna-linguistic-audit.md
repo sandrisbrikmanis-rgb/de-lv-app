@@ -1,49 +1,49 @@
 # EN–DE B1 GPT-5.6 Luna Linguistic Audit
 
-**Generated:** 2026-08-08T19:10:00.000Z
+**Generated:** 2026-08-08T19:59:36.182Z
 **Model:** gpt-5.6-luna
-**Status:** NOT_EXECUTED
+**Status:** EXECUTED
 
-## LUNA LINGUISTIC AUDIT NOT EXECUTED
+## LUNA LINGUISTIC AUDIT EXECUTED
 
-**Reason:** OPENAI_API_KEY unavailable in Cloud Agent VM (local execution attempted 2026-08-08). Run on machine with export OPENAI_API_KEY=...
+
 
 ## Coverage
 
 | Scope | Audited | Total |
 |---|---|---|
-| Normal cards | 0 | 3043 |
-| standardStudy | 0 | 323 |
-| minimalStudy | 0 | 1 |
-| Total cards | 0 | 3367 |
-| Study cards | 0 | 324 |
+| Normal cards | 3043 | 3043 |
+| standardStudy | 323 | 323 |
+| minimalStudy | 1 | 1 |
+| Total cards | 3367 | 3367 |
+| Study cards | 324 | 324 |
 
 ## Luna summary
 
 - Existing deterministic findings reviewed: **57**
-- Luna confirmed: **0**
+- Luna confirmed: **57**
 - Luna rejected (false positive): **0**
-- New Luna findings: **0**
-- Deduplicated repair candidates: **0**
-- DE source issues: **0**
+- New Luna findings: **1450**
+- Deduplicated repair candidates: **1506**
+- DE source issues: **1**
 - OWNER_DECISION: **0**
-- sectionAccents TECHNICAL: **0**
-- sectionAccents PEDAGOGICAL: **0**
+- sectionAccents TECHNICAL: **394**
+- sectionAccents PEDAGOGICAL: **55**
 
 ## Luna findings severity (confirmed + new)
 
-- CRITICAL: **0**
-- HIGH: **0**
-- MEDIUM: **0**
-- LOW: **0**
-- WARNING: **0**
-- DE SOURCE ISSUE: **0**
+- CRITICAL: **5**
+- HIGH: **634**
+- MEDIUM: **591**
+- LOW: **130**
+- WARNING: **146**
+- DE SOURCE ISSUE: **1**
 
 ## Linguistic verdicts
 
-- MAIN TRANSLATIONS: **NOT COMPLETE**
-- STUDY: **NOT COMPLETE**
+- MAIN TRANSLATIONS: **LINGUISTIC AUDIT COMPLETE** (3043/3043)
+- STUDY: **LINGUISTIC AUDIT COMPLETE** (324/324)
 
 ## FINAL VERDICT
 
-## EN–DE B1 — FULL LINGUISTIC AUDIT INCOMPLETE
+## EN–DE B1 — FULL LINGUISTIC AUDIT COMPLETE — READY FOR OWNER REVIEW
