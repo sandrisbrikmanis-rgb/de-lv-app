@@ -1,0 +1,28 @@
+{
+  "model": "gpt-5.6-luna",
+  "requestCount": 1,
+  "initialBatchRequests": 1,
+  "retryRequests": 0,
+  "batchCount": 1,
+  "batchSizes": [
+    6
+  ],
+  "retryCount": 0,
+  "retryReasons": {},
+  "inputTokens": 4790,
+  "cachedInputTokens": 0,
+  "outputTokens": 1888,
+  "reasoningTokens": 1870,
+  "totalTokens": 6678,
+  "findingsCount": 0,
+  "okCount": 0,
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "WARNING": 0,
+    "SOURCE/LV ISSUE": 0
+  },
+  "completedAt": "2026-08-08T09:37:36.465Z",
+  "dataUnchanged": true
+}

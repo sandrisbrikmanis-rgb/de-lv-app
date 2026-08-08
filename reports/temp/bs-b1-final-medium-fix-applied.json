@@ -1,0 +1,473 @@
+{
+  "generatedAt": "2026-08-08T09:36:06.023Z",
+  "stats": {
+    "fixVerdicts": 28,
+    "applied": 27,
+    "skipped": 1,
+    "studyCardsChanged": [
+      "b1-zusammenhang",
+      "b1-anbauen",
+      "b1-gewiss",
+      "b1-holen",
+      "b1-schlag",
+      "b1-übernehmen",
+      "b1-verhältnis",
+      "b1-verletzen",
+      "b1-folge",
+      "b1-bewegen",
+      "b1-bund",
+      "b1-einführen",
+      "b1-fressen",
+      "b1-knapp",
+      "b1-lösen",
+      "b1-wache",
+      "b1-weder",
+      "b1-welle",
+      "b1-einheimisch",
+      "b1-entfernen",
+      "b1-erhalten",
+      "b1-jagen",
+      "b1-leistung",
+      "b1-wenden"
+    ],
+    "mainTranslations": 2,
+    "studyFields": 25,
+    "unexpectedHighCritical": [],
+    "changes": [
+      {
+        "cardId": "b1-wild-3263",
+        "field": "lv",
+        "before": "Divlji • Divlji",
+        "after": "Mežonji • Divlji",
+        "shortReason": "Izvor navodi dva značenja, pa ne treba ponavljati isti prijevod.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-zusammenhang",
+        "field": "study.translation",
+        "before": "Odnos",
+        "after": "Povezanost",
+        "shortReason": "„Povezanost“ je precizniji prijevod za Zusammenhang od „odnos“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-anbauen",
+        "field": "study.explanation",
+        "before": "Glavna ideja: anbauen najčešće znači uzgajati biljke ili nešto dograditi zgradi. Značenje određuje objekat: Gemüse ili Tomaten se uzgajaju, a Garage ili Zimmer se dograđuju.",
+        "after": "Glavna ideja: anbauen najčešće znači uzgajati biljke ili nešto dograditi uz zgradu. Značenje određuje objekat: Gemüse ili Tomaten se uzgajaju, a Garage ili Zimmer se dograđuju.",
+        "shortReason": "„Dograditi zgradi“ nije gramatički ni semantički ispravno.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-gewiss",
+        "field": "study.explanation",
+        "before": "Glavna ideja: gewiss znači siguran, siguran ili \"sigurno\". Zvuči malo formalnije nego sicher i često se pojavljuje u frazama poput ein gewisses Risiko.",
+        "after": "Glavna ideja: gewiss znači siguran, određen ili „sigurno“. Zvuči malo formalnije nego sicher i često se pojavljuje u frazama poput ein gewisses Risiko.",
+        "shortReason": "Ponavlja se „siguran“ i nedostaje značenje „određen“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-holen",
+        "field": "study.explanation",
+        "before": "Glavna ideja: holen znači otići ili odvesti po nešto i zatim to donijeti ili dovesti. Često se koristi i za osobe: jemanden abholen.",
+        "after": "Glavna ideja: holen znači otići ili odvesti se po nešto i zatim to donijeti ili dovesti. Često se koristi i za osobe: jemanden abholen.",
+        "shortReason": "„Odvesti po nešto“ pogrešno znači odvesti nekoga.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-schlag",
+        "field": "study.explanation",
+        "before": "Glavna ideja: der Schlag znači udarac ili udarac. U kontekstu, to može biti i udar groma, udarac sata ili vrsta.",
+        "after": "Glavna ideja: der Schlag znači udarac ili udar. U kontekstu, to može biti i udar groma, udarac sata ili vrsta.",
+        "shortReason": "„Udarac ili udarac“ nepotrebno ponavlja istu riječ.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-übernehmen",
+        "field": "study.explanation",
+        "before": "Glavna ideja: Preuzeti znači preuzeti posao, dužnost ili odgovornost. Kod Kostena to znači snositi troškove.",
+        "after": "Glavna ideja: übernehmen znači preuzeti posao, dužnost ili odgovornost. Kada se koristi s riječju Kosten, to znači snositi troškove.",
+        "shortReason": "„Kod Kostena“ je neprirodan i gramatički neispravan izraz.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-verhältnis",
+        "field": "study.explanation",
+        "before": "Glavna ideja: das Verhältnis znači odnos, proporciju ili međusobni omjer. Verhältnisse u množini često znači okolnosti ili uslove.",
+        "after": "Glavna ideja: das Verhältnis znači odnos, proporciju ili međusobni omjer. Verhältnisse u množini često znače okolnosti ili uslove.",
+        "shortReason": "Glagol uz množinu „Verhältnisse“ treba biti „znače“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-verletzen",
+        "field": "study.explanation",
+        "before": "Glavna ideja: verletzen znači povrediti ili povrediti. Takođe se koristi za osećanja i za kršenje pravila.",
+        "after": "Glavna ideja: verletzen znači fizički povrijediti ili povrijediti nečije osjećaje. Također se koristi za kršenje pravila.",
+        "shortReason": "Ponavljanje ne razlikuje fizičku povredu i povredu osjećaja.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-folge",
+        "field": "study.examples[0].lv",
+        "before": "To je bio rezultat nesreće.",
+        "after": "To su bile posljedice nesreće.",
+        "shortReason": "Množina i prirodniji prijevod odgovaraju izvornom značenju.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-bewegen",
+        "field": "study.comparison[0].meaning",
+        "before": "Pomeriti / dodirnuti",
+        "after": "Pomjeriti / dirnuti",
+        "shortReason": "„Pomeriti“ je ekavski oblik, a emocionalno bewegen znači dirnuti.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-bund",
+        "field": "study.comparison[0].meaning",
+        "before": "Unija / federacija / paket",
+        "after": "Unija / federacija / svežanj",
+        "shortReason": "„Paket“ ne odgovara značenju svežnja.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-einführen",
+        "field": "study.comparison[2].meaning",
+        "before": "Predstaviti / predstaviti",
+        "after": "Uvesti / predstaviti",
+        "shortReason": "Duplirano je „predstaviti“; einführen ima i značenje „uvesti“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-fressen",
+        "field": "study.comparison[2].meaning",
+        "before": "Progutati",
+        "after": "Žderati",
+        "shortReason": "Fressen za životinje znači „žderati“, a ne samo „progutati“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-gewiss",
+        "field": "study.comparison[2].meaning",
+        "before": "Definitivno / odlučan",
+        "after": "Definitivno / siguran",
+        "shortReason": "„Odlučan“ znači entschlossen, ne gewiss.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-knapp",
+        "field": "study.comparison[1].meaning",
+        "before": "Usko / usko",
+        "after": "Uzak / tijesan",
+        "shortReason": "Treba navesti pridjevske oblike, ne prilog „usko“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-knapp",
+        "field": "study.comparison[2].meaning",
+        "before": "Kratko",
+        "after": "Kratak",
+        "shortReason": "Treba pridjevski oblik „kratak“, ne prilog „kratko“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-lösen",
+        "field": "study.comparison[0].meaning",
+        "before": "Razrešiti • Odvezati • Rastvoriti",
+        "after": "Riješiti • Odvezati • Rastvoriti",
+        "shortReason": "Standardni bosanski oblik je „riješiti“, ne „razrešiti“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-wache",
+        "field": "study.comparison[0].meaning",
+        "before": "Straža, straža, stanica",
+        "after": "Straža, stražarnica, stanica",
+        "shortReason": "Druga stavka treba biti „stražarnica“, a ne ponovljeno „straža“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-weder",
+        "field": "study.comparison[2].meaning",
+        "before": "Oboje ... oboje",
+        "after": "Ni ... ni",
+        "shortReason": "Weder ... noch znači „ni ... ni“, ne „oboje ... oboje“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-welle",
+        "field": "study.comparison[1].meaning",
+        "before": "Veliki, jak talas",
+        "after": "Val",
+        "shortReason": "Welle znači val; pridjevi iz LV izvora nisu dio njemačkog značenja.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-einheimisch",
+        "field": "study.important.text",
+        "before": "Einheimisch ne znači jednostavno „domaći“; znači lokalni ili pripadajući ovom mjestu.",
+        "after": "Einheimisch znači „domaći“, odnosno lokalni ili pripadajući ovom mjestu.",
+        "shortReason": "„Domaći“ je ispravan prijevod i ne treba ga negirati.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-entfernen",
+        "field": "study.tip.leftBlocks[0].text",
+        "before": "Objekt entfernen = ukloniti • Sich entfernen = se udaljava.",
+        "after": "Objekt entfernen = ukloniti • Sich entfernen = udaljiti se.",
+        "shortReason": "Uz infinitiv treba stajati bosanski infinitiv „udaljiti se“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-erhalten",
+        "field": "study.important.text",
+        "before": "Erhalten jer 'dobiti' zvuči formalnije nego bekommen • Bekommen je često dovoljan u svakodnevnom govoru.",
+        "after": "Erhalten kao „dobiti“ zvuči formalnije nego bekommen • Bekommen je često dovoljan u svakodnevnom govoru.",
+        "shortReason": "Konstrukcija „Erhalten jer“ gramatički je pogrešna.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-jagen",
+        "field": "study.tip.leftBlocks[0].text",
+        "before": "Jagen je pokret sa svrhom: loviti, juriti ili juriti na sljedeće mjesto.",
+        "after": "Jagen je pokret sa svrhom: loviti, juriti ili žuriti na sljedeće mjesto.",
+        "shortReason": "„Juriti“ je greškom ponovljeno; drugo treba biti „žuriti“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-leistung",
+        "field": "study.important.text",
+        "before": "Leistung nije samo krajnji rezultat. Njime se često ocjenjuju sam učinak ili snaga.",
+        "after": "Leistung nije samo krajnji rezultat. Njome se često ocjenjuju sam učinak ili snaga.",
+        "shortReason": "Leistung je ženskog roda, pa treba „njome“.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-wenden",
+        "field": "study.tip.leftBlocks[0].text",
+        "before": "Promijenite smjer ili stranu stranice: wenden • Tražim pomoć: sich wenden an.",
+        "after": "Promijenite smjer ili stranu stranice: wenden • Potražite pomoć: sich wenden an.",
+        "shortReason": "„Tražim pomoć“ mijenja imperativ u prvo lice.",
+        "status": "applied"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "cardId": "b1-wild-3263",
+      "field": "lv",
+      "before": "Divlji • Divlji",
+      "after": "Mežonji • Divlji",
+      "shortReason": "Izvor navodi dva značenja, pa ne treba ponavljati isti prijevod.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-zusammenhang",
+      "field": "study.translation",
+      "before": "Odnos",
+      "after": "Povezanost",
+      "shortReason": "„Povezanost“ je precizniji prijevod za Zusammenhang od „odnos“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-anbauen",
+      "field": "study.explanation",
+      "before": "Glavna ideja: anbauen najčešće znači uzgajati biljke ili nešto dograditi zgradi. Značenje određuje objekat: Gemüse ili Tomaten se uzgajaju, a Garage ili Zimmer se dograđuju.",
+      "after": "Glavna ideja: anbauen najčešće znači uzgajati biljke ili nešto dograditi uz zgradu. Značenje određuje objekat: Gemüse ili Tomaten se uzgajaju, a Garage ili Zimmer se dograđuju.",
+      "shortReason": "„Dograditi zgradi“ nije gramatički ni semantički ispravno.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-gewiss",
+      "field": "study.explanation",
+      "before": "Glavna ideja: gewiss znači siguran, siguran ili \"sigurno\". Zvuči malo formalnije nego sicher i često se pojavljuje u frazama poput ein gewisses Risiko.",
+      "after": "Glavna ideja: gewiss znači siguran, određen ili „sigurno“. Zvuči malo formalnije nego sicher i često se pojavljuje u frazama poput ein gewisses Risiko.",
+      "shortReason": "Ponavlja se „siguran“ i nedostaje značenje „određen“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-holen",
+      "field": "study.explanation",
+      "before": "Glavna ideja: holen znači otići ili odvesti po nešto i zatim to donijeti ili dovesti. Često se koristi i za osobe: jemanden abholen.",
+      "after": "Glavna ideja: holen znači otići ili odvesti se po nešto i zatim to donijeti ili dovesti. Često se koristi i za osobe: jemanden abholen.",
+      "shortReason": "„Odvesti po nešto“ pogrešno znači odvesti nekoga.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-schlag",
+      "field": "study.explanation",
+      "before": "Glavna ideja: der Schlag znači udarac ili udarac. U kontekstu, to može biti i udar groma, udarac sata ili vrsta.",
+      "after": "Glavna ideja: der Schlag znači udarac ili udar. U kontekstu, to može biti i udar groma, udarac sata ili vrsta.",
+      "shortReason": "„Udarac ili udarac“ nepotrebno ponavlja istu riječ.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-übernehmen",
+      "field": "study.explanation",
+      "before": "Glavna ideja: Preuzeti znači preuzeti posao, dužnost ili odgovornost. Kod Kostena to znači snositi troškove.",
+      "after": "Glavna ideja: übernehmen znači preuzeti posao, dužnost ili odgovornost. Kada se koristi s riječju Kosten, to znači snositi troškove.",
+      "shortReason": "„Kod Kostena“ je neprirodan i gramatički neispravan izraz.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-verhältnis",
+      "field": "study.explanation",
+      "before": "Glavna ideja: das Verhältnis znači odnos, proporciju ili međusobni omjer. Verhältnisse u množini često znači okolnosti ili uslove.",
+      "after": "Glavna ideja: das Verhältnis znači odnos, proporciju ili međusobni omjer. Verhältnisse u množini često znače okolnosti ili uslove.",
+      "shortReason": "Glagol uz množinu „Verhältnisse“ treba biti „znače“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-verletzen",
+      "field": "study.explanation",
+      "before": "Glavna ideja: verletzen znači povrediti ili povrediti. Takođe se koristi za osećanja i za kršenje pravila.",
+      "after": "Glavna ideja: verletzen znači fizički povrijediti ili povrijediti nečije osjećaje. Također se koristi za kršenje pravila.",
+      "shortReason": "Ponavljanje ne razlikuje fizičku povredu i povredu osjećaja.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-folge",
+      "field": "study.examples[0].lv",
+      "before": "To je bio rezultat nesreće.",
+      "after": "To su bile posljedice nesreće.",
+      "shortReason": "Množina i prirodniji prijevod odgovaraju izvornom značenju.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-bewegen",
+      "field": "study.comparison[0].meaning",
+      "before": "Pomeriti / dodirnuti",
+      "after": "Pomjeriti / dirnuti",
+      "shortReason": "„Pomeriti“ je ekavski oblik, a emocionalno bewegen znači dirnuti.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-bund",
+      "field": "study.comparison[0].meaning",
+      "before": "Unija / federacija / paket",
+      "after": "Unija / federacija / svežanj",
+      "shortReason": "„Paket“ ne odgovara značenju svežnja.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-einführen",
+      "field": "study.comparison[2].meaning",
+      "before": "Predstaviti / predstaviti",
+      "after": "Uvesti / predstaviti",
+      "shortReason": "Duplirano je „predstaviti“; einführen ima i značenje „uvesti“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-fressen",
+      "field": "study.comparison[2].meaning",
+      "before": "Progutati",
+      "after": "Žderati",
+      "shortReason": "Fressen za životinje znači „žderati“, a ne samo „progutati“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-gewiss",
+      "field": "study.comparison[2].meaning",
+      "before": "Definitivno / odlučan",
+      "after": "Definitivno / siguran",
+      "shortReason": "„Odlučan“ znači entschlossen, ne gewiss.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-knapp",
+      "field": "study.comparison[1].meaning",
+      "before": "Usko / usko",
+      "after": "Uzak / tijesan",
+      "shortReason": "Treba navesti pridjevske oblike, ne prilog „usko“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-knapp",
+      "field": "study.comparison[2].meaning",
+      "before": "Kratko",
+      "after": "Kratak",
+      "shortReason": "Treba pridjevski oblik „kratak“, ne prilog „kratko“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-lösen",
+      "field": "study.comparison[0].meaning",
+      "before": "Razrešiti • Odvezati • Rastvoriti",
+      "after": "Riješiti • Odvezati • Rastvoriti",
+      "shortReason": "Standardni bosanski oblik je „riješiti“, ne „razrešiti“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-wache",
+      "field": "study.comparison[0].meaning",
+      "before": "Straža, straža, stanica",
+      "after": "Straža, stražarnica, stanica",
+      "shortReason": "Druga stavka treba biti „stražarnica“, a ne ponovljeno „straža“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-weder",
+      "field": "study.comparison[2].meaning",
+      "before": "Oboje ... oboje",
+      "after": "Ni ... ni",
+      "shortReason": "Weder ... noch znači „ni ... ni“, ne „oboje ... oboje“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-welle",
+      "field": "study.comparison[1].meaning",
+      "before": "Veliki, jak talas",
+      "after": "Val",
+      "shortReason": "Welle znači val; pridjevi iz LV izvora nisu dio njemačkog značenja.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-einheimisch",
+      "field": "study.important.text",
+      "before": "Einheimisch ne znači jednostavno „domaći“; znači lokalni ili pripadajući ovom mjestu.",
+      "after": "Einheimisch znači „domaći“, odnosno lokalni ili pripadajući ovom mjestu.",
+      "shortReason": "„Domaći“ je ispravan prijevod i ne treba ga negirati.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-entfernen",
+      "field": "study.tip.leftBlocks[0].text",
+      "before": "Objekt entfernen = ukloniti • Sich entfernen = se udaljava.",
+      "after": "Objekt entfernen = ukloniti • Sich entfernen = udaljiti se.",
+      "shortReason": "Uz infinitiv treba stajati bosanski infinitiv „udaljiti se“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-erhalten",
+      "field": "study.important.text",
+      "before": "Erhalten jer 'dobiti' zvuči formalnije nego bekommen • Bekommen je često dovoljan u svakodnevnom govoru.",
+      "after": "Erhalten kao „dobiti“ zvuči formalnije nego bekommen • Bekommen je često dovoljan u svakodnevnom govoru.",
+      "shortReason": "Konstrukcija „Erhalten jer“ gramatički je pogrešna.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-jagen",
+      "field": "study.tip.leftBlocks[0].text",
+      "before": "Jagen je pokret sa svrhom: loviti, juriti ili juriti na sljedeće mjesto.",
+      "after": "Jagen je pokret sa svrhom: loviti, juriti ili žuriti na sljedeće mjesto.",
+      "shortReason": "„Juriti“ je greškom ponovljeno; drugo treba biti „žuriti“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-leistung",
+      "field": "study.important.text",
+      "before": "Leistung nije samo krajnji rezultat. Njime se često ocjenjuju sam učinak ili snaga.",
+      "after": "Leistung nije samo krajnji rezultat. Njome se često ocjenjuju sam učinak ili snaga.",
+      "shortReason": "Leistung je ženskog roda, pa treba „njome“.",
+      "status": "applied"
+    },
+    {
+      "cardId": "b1-wenden",
+      "field": "study.tip.leftBlocks[0].text",
+      "before": "Promijenite smjer ili stranu stranice: wenden • Tražim pomoć: sich wenden an.",
+      "after": "Promijenite smjer ili stranu stranice: wenden • Potražite pomoć: sich wenden an.",
+      "shortReason": "„Tražim pomoć“ mijenja imperativ u prvo lice.",
+      "status": "applied"
+    }
+  ]
+}
