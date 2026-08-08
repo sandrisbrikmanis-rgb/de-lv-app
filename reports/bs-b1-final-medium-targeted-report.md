@@ -1,6 +1,10 @@
+# BS–DE B1 — FINAL – OWNER ACCEPTED ✅
+
 # BS–DE B1 Final Medium Targeted Report
 **Date:** 2026-08-08
+**Owner acceptance:** 2026-08-08
 **Branch:** `cursor/bs-b1-final-medium-targeted-c1b5`
+**Owner fixes PR:** #307 (`cursor/bs-b1-owner-manual-fixes-c1b5`)
 **Model:** gpt-5.6-luna
 ---
 ## Initial scope
@@ -90,18 +94,29 @@
 | Statuss | Rezultāts |
 |---|---|
 | CRITICAL/HIGH CYCLE | **CLOSED** |
-| FINAL 58 MEDIUM REVIEWED | **PASS** |
-| CONFIRMED FIX APPLIED | **PASS** |
+| B1 MEDIUM QUALITY CYCLE | **CLOSED** |
 | FINAL TARGETED REGRESSION | **PASS** |
 | CRITICAL | **0** |
 | HIGH | **0** |
 | MEDIUM | **0** |
-| SOURCE/LV ISSUES | **2** |
-| NEEDS_REVIEW | **19** |
-| sectionAccents TECHNICAL | **PASS** |
-| sectionAccents LANGUAGE | **PASS** |
 | DE READ-ONLY | **PASS** |
 | STRUCTURAL PASS | **PASS** |
-| **B1 MEDIUM QUALITY CYCLE** | **CLOSED** |
-**READY FOR OWNER ACCEPTANCE**
-FINAL – OWNER ACCEPTED: not assigned (owner only).
+| FINAL – OWNER ACCEPTED | **YES** |
+
+### Historical audit trail (preserved)
+| Statuss | Rezultāts |
+|---|---|
+| FINAL 58 MEDIUM REVIEWED | **PASS** |
+| CONFIRMED FIX APPLIED | **PASS** |
+| SOURCE/LV ISSUES (Luna review) | **2** |
+| NEEDS_REVIEW (Luna review) | **19** |
+| sectionAccents TECHNICAL | **PASS** |
+| sectionAccents LANGUAGE | **PASS** |
+
+### Owner acceptance note
+Pēc automātiskā kvalitātes cikla projekta īpašnieks manuāli izvērtēja atlikušo review scope (`reports/bs-b1-owner-manual-review.md`). PR **#307** piemēroja **17/17** apstiprinātos labojumus. Trīs gadījumi apzināti atstāti bez izmaiņām: `b1-antrag`, `b1-lösen`, `b1-einfallen`. `b1-einfallen` klasificēts kā false positive.
+
+**BS–DE B1 ir noslēgts ar statusu: FINAL – OWNER ACCEPTED.**
+
+### Post-acceptance regression policy
+Pēc FINAL – OWNER ACCEPTED B1 netiek automātiski atvērts jaunam kvalitātes ciklam. Nākotnes izmaiņās pārbaudīt tikai konkrēti mainītās kartītes un to tiešo regression scope. Pilnu B1 auditu atkārtot tikai ar projekta īpašnieka atsevišķu norādījumu.
