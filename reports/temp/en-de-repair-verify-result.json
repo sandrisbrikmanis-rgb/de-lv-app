@@ -1,0 +1,193 @@
+{
+  "confirmed": {
+    "total": 193,
+    "passed": 193,
+    "failed": 0
+  },
+  "falsePositives": {
+    "total": 81,
+    "changed": 2
+  },
+  "counts": {
+    "a1Cards": 702,
+    "a2Cards": 1640,
+    "a1Std": 134,
+    "lvA1Std": 134,
+    "a2Std": 207,
+    "a2Min": 24
+  },
+  "deDiffs": {
+    "a1": 0,
+    "a2": 0
+  },
+  "lvLeftoverHits": 45,
+  "lvHitsSample": [
+    {
+      "de": "nach",
+      "id": "a1-nach",
+      "text": "Uz skolu parasti ir in die Schule, nevis nach Schule."
+    },
+    {
+      "de": "um",
+      "id": "a1-um",
+      "text": "um ar laiku parasti ir “pulksten”."
+    },
+    {
+      "de": "absagen",
+      "id": "a2-absagen",
+      "text": "lieto"
+    },
+    {
+      "de": "absagen",
+      "id": "a2-absagen",
+      "text": "lieto"
+    },
+    {
+      "de": "abschließen",
+      "id": "a2-abschließen",
+      "text": "nevis"
+    },
+    {
+      "de": "anmelden",
+      "id": "a2-anmelden",
+      "text": "lieto"
+    },
+    {
+      "de": "Art",
+      "id": "a2-art",
+      "text": "lieto"
+    },
+    {
+      "de": "auftreten",
+      "id": "a2-auftreten",
+      "text": "lieto"
+    },
+    {
+      "de": "auftreten",
+      "id": "a2-auftreten",
+      "text": "lieto"
+    },
+    {
+      "de": "aussteigen",
+      "id": "a2-aussteigen",
+      "text": "lieto"
+    },
+    {
+      "de": "auswählen",
+      "id": "a2-auswählen",
+      "text": "lieto"
+    },
+    {
+      "de": "Band",
+      "id": "a2-band",
+      "text": "lieto"
+    },
+    {
+      "de": "bauen",
+      "id": "a2-bauen",
+      "text": "lieto"
+    },
+    {
+      "de": "bedienen",
+      "id": "a2-bedienen",
+      "text": "lieto"
+    },
+    {
+      "de": "beinahe",
+      "id": "a2-beinahe",
+      "text": "lieto"
+    },
+    {
+      "de": "dabei",
+      "id": "a2-dabei",
+      "text": "lieto"
+    },
+    {
+      "de": "dafür",
+      "id": "a2-dafür",
+      "text": "lieto"
+    },
+    {
+      "de": "damit",
+      "id": "a2-damit",
+      "text": "lieto"
+    },
+    {
+      "de": "damit",
+      "id": "a2-damit",
+      "text": "lieto"
+    },
+    {
+      "de": "darauf",
+      "id": "a2-darauf",
+      "text": "lieto"
+    },
+    {
+      "de": "darüber",
+      "id": "a2-darüber",
+      "text": "lieto"
+    },
+    {
+      "de": "darum",
+      "id": "a2-darum",
+      "text": "lieto"
+    },
+    {
+      "de": "einladen",
+      "id": "a2-einladen",
+      "text": "lieto"
+    },
+    {
+      "de": "einschalten",
+      "id": "a2-einschalten",
+      "text": "lieto"
+    },
+    {
+      "de": "einsteigen",
+      "id": "a2-einsteigen",
+      "text": "lieto"
+    },
+    {
+      "de": "Holz",
+      "id": "a2-holz",
+      "text": "lieto"
+    },
+    {
+      "de": "Holz",
+      "id": "a2-holz",
+      "text": "lieto"
+    },
+    {
+      "de": "Holz",
+      "id": "a2-holz",
+      "text": "lieto"
+    },
+    {
+      "de": "kleben",
+      "id": "a2-kleben",
+      "text": "lieto"
+    },
+    {
+      "de": "kleiden",
+      "id": "a2-kleiden",
+      "text": "nevis"
+    }
+  ],
+  "mirror": {
+    "a1": true,
+    "a2": true
+  },
+  "failedItems": [],
+  "fpChangedItems": [
+    {
+      "CardID": "a1-sehen",
+      "Type": "semicolon in study pedagogy",
+      "Current": "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skat"
+    },
+    {
+      "CardID": "a1-wie",
+      "Type": "semicolon in study pedagogy",
+      "Current": "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik"
+    }
+  ]
+}

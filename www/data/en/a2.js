@@ -140,7 +140,7 @@ const A2_WORDS = [
       },
       "important": [
         "ab und zu means occasionally, not often or every day.",
-        "In Latvian, the most natural translations are now and then, sometimes or from time to time."
+        "In English, the most natural translations are now and then, sometimes or from time to time."
       ]
     }
   },
@@ -224,7 +224,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "abfahren nav “aizvest”.",
+        "text": "abfahren nav “take away”.",
         "example": "Der Zug fährt ab = the train is leaving. Wir fahren ab = we are leaving. Eine Strecke abfahren = to drive a route."
       },
       "sectionAccents": {
@@ -462,7 +462,7 @@ const A2_WORDS = [
                   "abfahren"
                 ],
                 "orange": [
-                  "aizbraukt"
+                  "drive away"
                 ],
                 "red": [
                   "to go on a journey"
@@ -517,12 +517,12 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "aizbraukt",
+          "drive away",
           "abfahren",
           "autobusu",
           "route",
-          "nobraukt",
-          "noteiktu",
+          "drive off",
+          "specified",
           "tramvaju",
           "vilcienu",
           "mean",
@@ -541,18 +541,18 @@ const A2_WORDS = [
         ],
         "yellow": [
           "losfahren",
-          "nobraukt"
+          "drive off"
         ],
         "orange": [
-          "aizbraukt"
+          "drive away"
         ],
         "purple": [
           "to leave • to leave • to drive off • to set off",
           "leave / leave / set off",
-          "aizbraukt prom",
+          "drive away",
           "atiet / noiet",
           "start driving",
-          "braukt",
+          "drive",
           "fahren"
         ],
         "red": [
@@ -654,7 +654,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "abgeben nav tas pats, kas verkaufen vai ausstrahlen.",
+        "text": "abgeben is not the same as verkaufen or ausstrahlen.",
         "example": "abgeben = hand over / give / present. verkaufen = to sell. ausstrahlen = to emit."
       },
       "sectionAccents": {
@@ -885,7 +885,7 @@ const A2_WORDS = [
                   "abgeben"
                 ],
                 "purple": [
-                  "nodots vai atdots"
+                  "nodots or atdots"
                 ]
               }
             },
@@ -998,7 +998,7 @@ const A2_WORDS = [
       ],
       "important": [
         "abholen always involves movement: to go after and take.",
-        "bekommen nav tas pats, kas abholen.",
+        "bekommen is not the same as abholen.",
         "abholen = to go after and take.",
         "Go after and pick up a person or pick up a package/order."
       ],
@@ -1280,7 +1280,7 @@ const A2_WORDS = [
       "id": "a2-absagen",
       "layout": "standardStudy",
       "translation": "Atcelt",
-      "explanation": "Main idea: absagen means to cancel an appointment or event or refuse participation. absagen means to cancel an arranged meeting, event or plan. It can also mean refusing participation or saying you can't come. With Termin, Treffen, Konzert or Einladung, the meaning is often 'cancel' or 'refuse'. It is not the same as nein sagen, because absagen usually refers to a prearranged matter. In Latvian, you should see if the event is canceled or if you refuse to participate.",
+      "explanation": "Main idea: absagen means to cancel an appointment or event or refuse participation. absagen means to cancel an arranged meeting, event or plan. It can also mean refusing participation or saying you can't come. With Termin, Treffen, Konzert or Einladung, the meaning is often 'cancel' or 'refuse'. It is not the same as nein sagen, because absagen usually refers to a prearranged matter. In English, check whether the event is canceled or if you refuse to participate.",
       "examples": [
         {
           "de": "Ich muss den Termin absagen.",
@@ -1635,10 +1635,10 @@ const A2_WORDS = [
           "would talk",
           "the meeting",
           "absagen",
-          "atteikt",
+          "refuse",
           "Konzert",
           "mean",
-          "pateikt",
+          "say",
           "Treffen",
           "atcelt",
           "membership",
@@ -1657,8 +1657,8 @@ const A2_WORDS = [
         ],
         "orange": [
           "reject",
-          "atteikt",
-          "uzteikt",
+          "refuse",
+          "give notice",
           "cancel"
         ],
         "purple": [
@@ -2143,7 +2143,7 @@ const A2_WORDS = [
             "text": "When talking about a motor or an alarm clock, abstellen can mean to turn off."
           },
           {
-            "text": "Ja runa ir par TV, datoru vai gaismu, parasti lieto ausschalten."
+            "text": "For TV, computer or light, you usually use ausschalten."
           }
         ]
       },
@@ -4198,7 +4198,7 @@ const A2_WORDS = [
                   "anmelden"
                 ],
                 "orange": [
-                  "pieteikties"
+                  "register"
                 ],
                 "yellow": [
                   "anmelden",
@@ -4254,7 +4254,7 @@ const A2_WORDS = [
           "to write down",
           "register",
           "anmelden",
-          "pieteikt",
+          "register",
           "systems",
           "people",
           "kursiem",
@@ -4277,8 +4277,8 @@ const A2_WORDS = [
           "to write down"
         ],
         "orange": [
-          "pieteikties",
-          "pieteikt",
+          "register",
+          "register",
           "to report"
         ],
         "purple": [
@@ -5951,7 +5951,7 @@ const A2_WORDS = [
         ],
         "purple": [
           "raksts • prece • artikuls • pants",
-          "noteiktais artikuls",
+          "definite article",
           "paragraph / article",
           "newspaper article",
           "der Paragraph",
@@ -8558,7 +8558,7 @@ const A2_WORDS = [
       "id": "a2-aufwenden",
       "layout": "standardStudy",
       "translation": "Dedicate",
-      "explanation": "Main idea: aufwenden means to devote or invest time, energy, or money to a cause. It is often used with Zeit, Mühe, Kraft or Geld. In Latvian, it is not an ordinary \"spend\" card, because often the idea is about a conscious investment. With money, simply \"spending\" is more often than not ausgeben. With time, \"to spend\" is often verbinen.",
+      "explanation": "Main idea: aufwenden means to devote or invest time, energy, or money to a cause. It is often used with Zeit, Mühe, Kraft or Geld. In English, it is not an ordinary \"spend\" card, because often the idea is about a conscious investment. With money, simply \"spending\" is more often than not ausgeben. With time, \"to spend\" is often verbinen.",
       "examples": [
         {
           "de": "Wir müssen viel Zeit aufwenden.",
@@ -9481,7 +9481,7 @@ const A2_WORDS = [
       "id": "a2-auswählen",
       "layout": "standardStudy",
       "translation": "To choose",
-      "explanation": "Main idea: auschällen means to choose or select from several options. This often means deliberately selecting the most appropriate option. It is used in menus, lists, questionnaires and candidate selection. auschällen is more specific than wählen because it emphasizes a choice from a given group. In Latvian it is appropriate to choose, to select or to select, depending on the context.",
+      "explanation": "Main idea: auschällen means to choose or select from several options. This often means deliberately selecting the most appropriate option. It is used in menus, lists, questionnaires and candidate selection. auschällen is more specific than wählen because it emphasizes a choice from a given group. In English it is appropriate to choose, to select or to select, depending on the context.",
       "examples": [
         {
           "de": "Wählen Sie bitte eine Sprache aus.",
@@ -10637,7 +10637,7 @@ const A2_WORDS = [
                   "mit der Bahn fahren"
                 ],
                 "purple": [
-                  "braukt ar vilcienu"
+                  "drive ar vilcienu"
                 ]
               }
             },
@@ -10711,7 +10711,7 @@ const A2_WORDS = [
           "railway",
           "vilciens",
           "Vilciens",
-          "braukt ar vilcienu",
+          "drive ar vilcienu",
           "a particular train",
           "tramvajs",
           "railway station",
@@ -10796,7 +10796,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ja artikuls ir das, Band parasti ir lente, saite vai josla."
+            "text": "If the article is das, Band usually means tape, strap or strip."
           },
           {
             "text": "When the article is die, Band usually means a musical group."
@@ -13554,7 +13554,7 @@ const A2_WORDS = [
       "id": "a2-beinahe",
       "layout": "standardStudy",
       "translation": "Almost",
-      "explanation": "Main idea: beinahe means almost or barely, when something was very close to happening. beinahe means almost. It emphasizes that something almost happened, but didn't happen, or was very close. In some contexts, Latvian barely fits. beinahe is very close to fast. Usually, beinahe sounds a little more emphatic than fast.",
+      "explanation": "Main idea: beinahe means almost or barely, when something was very close to happening. beinahe means almost. It emphasizes that something almost happened, but didn't happen, or was very close. In some contexts, barely fits in English. beinahe is very close to fast. Usually, beinahe sounds a little more emphatic than fast.",
       "examples": [
         {
           "de": "Ich hätte beinahe den Bus verpasst.",
@@ -14027,7 +14027,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "bekannt nav tas pats, kas draugs.",
+        "text": "bekannt is not the same as draugs.",
         "example": "bekannt = known / known. behrücht = famous. befreundet = in friends."
       },
       "sectionAccents": {
@@ -15087,7 +15087,7 @@ const A2_WORDS = [
                   "bestimmt"
                 ],
                 "purple": [
-                  "noteikti",
+                  "certainly",
                   "probably"
                 ]
               }
@@ -15098,7 +15098,7 @@ const A2_WORDS = [
                   "bestimmt"
                 ],
                 "purple": [
-                  "noteikts",
+                  "certain",
                   "specific"
                 ]
               }
@@ -15133,12 +15133,12 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "bestimmt",
-          "noteikti"
+          "certainly"
         ],
         "green": [
           "bestimmte",
           "bestimmten",
-          "noteikts",
+          "certain",
           "specific"
         ],
         "yellow": [
@@ -15151,8 +15151,8 @@ const A2_WORDS = [
           "wahrscheinlich"
         ],
         "purple": [
-          "noteikti",
-          "noteikts",
+          "certainly",
+          "certain",
           "specific",
           "probably",
           "possible"
@@ -15685,7 +15685,7 @@ const A2_WORDS = [
       "id": "a2-bitter",
       "layout": "standardStudy",
       "translation": "Bitter",
-      "explanation": "Main idea: bitter means bitter in taste or harsh/painful in a figurative sense. bitter most often means bitter in taste. It can also mean fierce, sharp, or harsh about feeling, experience, or words. For coffee, herbs and chocolate, bitter is usually the taste. For loss or truth, bitter means harsh or painful. In Latvian, only \"bitter\" is not always appropriate.",
+      "explanation": "Main idea: bitter means bitter in taste or harsh/painful in a figurative sense. bitter most often means bitter in taste. It can also mean fierce, sharp, or harsh about feeling, experience, or words. For coffee, herbs and chocolate, bitter is usually the taste. For loss or truth, bitter means harsh or painful. In English, only \"bitter\" is not always appropriate.",
       "examples": [
         {
           "de": "Der Kaffee schmeckt bitter.",
@@ -16600,7 +16600,7 @@ const A2_WORDS = [
       "id": "a2-borgen",
       "layout": "standardStudy",
       "translation": "Borrow • Lend",
-      "explanation": "Main idea: borgen can mean both borrow and lend, and the direction is determined by the sentence. borgen can mean both to borrow and to lend. Direction becomes clear by person and dative. If I take something from another, in Latvian it is to borrow. If I give someone else time, in Latvian it is to lend. In everyday life, leihen is also often used with a very similar meaning. Therefore, borgen must be read in context.",
+      "explanation": "Main idea: borgen can mean both borrow and lend, and the direction is determined by the sentence. borgen can mean both to borrow and to lend. Direction becomes clear by person and dative. If I take something from another, in English it is to borrow. If I give someone else time, in English it is to lend. In everyday life, leihen is also often used with a very similar meaning. Therefore, borgen must be read in context.",
       "examples": [
         {
           "de": "Kann ich mir dein Fahrrad borgen?",
@@ -17835,7 +17835,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja kaut kas pats deg, lieto brennen.",
+        "If something is burning by itself, use brennen.",
         "If you set something on fire, you usually use anzünden; when something is burned, verbrennen is used."
       ],
       "important": [
@@ -18316,7 +18316,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "If you can say \"I'm with you\" in Latvian, German is often useful."
+            "text": "If you can say \"I'm with you\" in English, German is often useful."
           },
           {
             "text": "If the thought is \"besides\", dabei is used to add another thought about the same situation."
@@ -18324,7 +18324,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "dabei nav tas pats, kas tikai “da”.",
+        "text": "dabei is not the same as only “da”.",
         "example": "Ich bin da = I am here. Ich bin dabei = I participate / am involved / am present in the process. Ich habe es dabei = I have it with me."
       },
       "sectionAccents": {
@@ -18505,7 +18505,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "latviski",
-                  "pateikt",
+                  "say",
                   "German",
                   "often",
                   "along with",
@@ -18704,7 +18704,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "If you can say \"for it\" in Latvian, German is often good for it."
+            "text": "If you can say \"for it\" in English, German is often good for it."
           },
           {
             "text": "When there is an opposite in a sentence, dafar often means \"however\"."
@@ -18712,8 +18712,8 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "dafür nav tas pats, kas damit.",
-        "example": "dafür = par to / tam. damit = ar to vai lai. Ich bin dafür = Es esmu par to."
+        "text": "dafür is not the same as damit.",
+        "example": "dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it."
       },
       "sectionAccents": {
         "examples": [
@@ -18907,7 +18907,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "latviski",
-                  "pateikt",
+                  "say",
                   "German",
                   "often",
                   "dafür",
@@ -19039,7 +19039,7 @@ const A2_WORDS = [
         "Main idea: damit means with when referring to a thing, or let when referring to a goal.",
         "If damit replaces the above-mentioned thing, it is translated as with that.",
         "When damit introduces a goal auxiliary, it is often translated as to.",
-        "Damit is not the same as mit dem, although both may look similar in Latvian.",
+        "Damit is not the same as mit dem, although both may look similar in English.",
         "If the thought is the reason 'therefore', deshalb is usually used instead of damit."
       ],
       "examples": [
@@ -19487,7 +19487,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "der Dank is a noun; danke is the answer; danken is a verb.",
+        "text": "der Dank is a noun • danke is the answer • danken is a verb.",
         "example": "Vielen Dank! = Liels paldies! Ich danke dir. = Es tev pateicos. Danke! = Paldies!"
       },
       "sectionAccents": {
@@ -19859,7 +19859,7 @@ const A2_WORDS = [
             "text": "Look at the verb: warten auf → darauf warten."
           },
           {
-            "text": "If Latvian has \"to it\", German will often have darauf."
+            "text": "If English has \"to it\", German will often have darauf."
           }
         ]
       },
@@ -20933,7 +20933,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "If you can say \"I heard about it / I know about it\" in Latvian, davon often works in German.",
+        "If you can say \"I heard about it / I know about it\" in English, davon often works in German.",
         "When talking about the topic of conversation, déberer is often used."
       ],
       "important": [
@@ -21203,7 +21203,7 @@ const A2_WORDS = [
       "important": [
         "The meaning of davor changes according to context.",
         "vor dem is used with a specific noun.",
-        "davor nav tas pats, kas danach."
+        "davor is not the same as danach."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21512,7 +21512,7 @@ const A2_WORDS = [
         "If you ask for an opinion, Was sagst du dazu? means \"What do you say about that?\""
       ],
       "important": [
-        "there is not a single Latvian word for it.",
+        "there is not a single English word for it.",
         "The translation should be chosen according to the situation: to that, to that, present or in addition."
       ],
       "sectionAccents": {
@@ -21814,10 +21814,10 @@ const A2_WORDS = [
       ],
       "tip": [
         "When it comes to sleeping or warmth, die Decke is usually a blanket.",
-        "Ja runa ir par lampu vai istabu, die Decke parasti ir griesti."
+        "If talking about a lamp or a room, die Decke usually means the ceiling."
       ],
       "important": [
-        "die Decke nav tas pats, kas das Dach.",
+        "die Decke is not the same as das Dach.",
         "das Dach is a roof on the outside or top of a building.",
         "die Zimmerdecke clearly means the ceiling."
       ],
@@ -22027,7 +22027,7 @@ const A2_WORDS = [
                 "Decke"
               ],
               "purple": [
-                "griesti"
+                "ceiling"
               ],
               "yellow": [
                 "lampu",
@@ -22109,7 +22109,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Because",
       "explanation": [
-        "Main idea: denn can mean \"because\" or strengthen the meaning in questions like the Latvian \"then\".",
+        "Main idea: denn can mean \"because\" or strengthen the meaning in questions like the English \"then\".",
         "When denn connects two thoughts, it often means because.",
         "In questions, denn often makes the question more natural or expresses interest.",
         "Because does not need to be highlighted as a separate main meaning, because practically overlaps with because.",
@@ -22165,7 +22165,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "In an affirmative sentence, denn is often translated as jo.",
-        "In questions, denn is often Latvian then: Was denn? = What then?"
+        "In questions, denn is often English then: Was denn? = What then?"
       ],
       "important": [
         "denn un dann nav viens un tas pats.",
@@ -24267,7 +24267,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Choose the translation according to the case: the paper is thin, the person is thin.",
-        "The opposite is often dick, but not always in the same Latvian word."
+        "The opposite is often dick, but not always in the same English word."
       ],
       "important": [
         "dünn can be translated in different ways, but in German it is one very common word.",
@@ -24548,7 +24548,7 @@ const A2_WORDS = [
       "explanation": [
         "Main idea: durch can mean movement through something, direction along something, or means/cause “with / because of”.",
         "With the place durch often means through.",
-        "With a city or a park, Latvian often says pa.",
+        "With a city or a park, English often says pa.",
         "By means or reason, durch can mean with or because of.",
         "Durch is not the same as mit."
       ],
@@ -24877,7 +24877,7 @@ const A2_WORDS = [
             "text": "When eben is accompanied by a tense, it often means 'just now' or 'just now'."
           },
           {
-            "text": "If eben sounds like an attitude, in Latvian it is often \"simply\", \"well that's the way it is\" or \"but\"."
+            "text": "If eben sounds like an attitude, in English it is often \"simply\", \"well that's the way it is\" or \"but\"."
           }
         ]
       },
@@ -26713,7 +26713,7 @@ const A2_WORDS = [
       "id": "a2-einschlafen",
       "layout": "standardStudy",
       "translation": "Fall asleep • Numb",
-      "explanation": "Main idea: einschlafen means to fall asleep • For an arm or a leg it means to go numb. With a human, it usually means someone falls asleep. With a body part, einschlafen means that it becomes numb. In Latvian, \"sleep\" is a synonym, but the main meaning of A2 is \"to fall asleep\". The context tells you whether it's sleep or tingling.",
+      "explanation": "Main idea: einschlafen means to fall asleep • For an arm or a leg it means to go numb. With a human, it usually means someone falls asleep. With a body part, einschlafen means that it becomes numb. In English, \"sleep\" is a synonym, but the main meaning of A2 is \"to fall asleep\". The context tells you whether it's sleep or tingling.",
       "examples": [
         {
           "de": "Ich schlafe schnell ein.",
@@ -26764,10 +26764,10 @@ const A2_WORDS = [
       ],
       "tip": [
         "When it comes to people and sleep, einschlafen translates as falling asleep.",
-        "When it comes to an arm or a leg, eingeschlafen is usually numb in Latvian."
+        "When it comes to an arm or a leg, eingeschlafen is usually numb in English."
       ],
       "important": [
-        "einschlafen nav tas pats, kas schlafen.",
+        "einschlafen is not the same as schlafen.",
         "schlafen = to sleep.",
         "einschlafen = aizmigt.",
         "Mein Bein ist eingeschlafen = my leg was numb."
@@ -28258,7 +28258,7 @@ const A2_WORDS = [
         "Sich erinnern is used when a person remembers something himself.",
         "The form sich erinnern usually needs a reflexive pronoun: ich erinnere mich, du erinnerst dich.",
         "It is therefore important at A2 level not to confuse erinnern with sich erinnern.",
-        "In Latvian both words are similar, but in German the meaning changes with sich."
+        "In English both words are similar, but in German the meaning changes with sich."
       ],
       "examples": [
         {
@@ -28767,13 +28767,13 @@ const A2_WORDS = [
       ],
       "tip": [
         "If etwa stands with a number, first think \"about\".",
-        "If etwa is in question, check whether \"or then\" or \"really\" sounds more natural in Latvian."
+        "If etwa is in question, check whether \"or then\" or \"really\" sounds more natural in English."
       ],
       "important": [
         "etwa + number = about.",
         "gäffer + number = about / approximately, more neutral.",
         "eg surprise, doubt or reproach can be expressed in the question.",
-        "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
+        "Hast du das etwa vergessen? = Did you perhaps forget that?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -29045,7 +29045,7 @@ const A2_WORDS = [
                 "etwa"
               ],
               "purple": [
-                "vai tad"
+                "or tad"
               ],
               "red": [
                 "vergessen",
@@ -30129,7 +30129,7 @@ const A2_WORDS = [
       "id": "a2-fehlen",
       "layout": "standardStudy",
       "translation": "Missing",
-      "explanation": "Main idea: fehlen means to lack, to lack, or to be absent. If there is a lack of an item or money, fehlen translates as lacking or lacking. If a person is absent from school or work, fehlen means to be absent. In the construction mir fehlt etwas, Latvian often says \"I'm missing something\". It is not the same as brauchen, because brauchen means to need.",
+      "explanation": "Main idea: fehlen means to lack, to lack, or to be absent. If there is a lack of an item or money, fehlen translates as lacking or lacking. If a person is absent from school or work, fehlen means to be absent. In the construction mir fehlt etwas, English often uses \"I'm missing something\". It is not the same as brauchen, because brauchen means to need.",
       "examples": [
         {
           "de": "Mir fehlt Geld.",
@@ -30179,7 +30179,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "If you say \"I'm missing\" in Latvian, German often uses mir fehlt.",
+        "If you say \"I'm missing\" in English, German often uses mir fehlt.",
         "If the thought is \"I need\", then brauchen is more often used than fehlen."
       ],
       "important": [
@@ -30804,7 +30804,7 @@ const A2_WORDS = [
           "runa"
         ],
         "green": [
-          "noteikts",
+          "certain",
           "stingrs"
         ],
         "yellow": [
@@ -32267,14 +32267,14 @@ const A2_WORDS = [
                   "führen"
                 ],
                 "orange": [
-                  "vest"
+                  "lead"
                 ],
                 "yellow": [
                   "führen",
                   "often",
                   "road",
                   "runa",
-                  "vest"
+                  "lead"
                 ]
               }
             },
@@ -32347,7 +32347,7 @@ const A2_WORDS = [
           "to lead",
           "road",
           "someone",
-          "vest"
+          "drive"
         ],
         "green": [
           "lead to the goal",
@@ -32363,13 +32363,13 @@ const A2_WORDS = [
         "orange": [
           "lead the organisation",
           "atnest",
-          "braukt",
-          "vest"
+          "drive",
+          "drive"
         ],
         "purple": [
           "to lead • to lead • to be in management • to be in sales",
           "bring / take to the goal",
-          "braukt / vest ar transportu",
+          "drive / vest ar transportu",
           "manage the organisation/process",
           "lead / lead / be led",
           "novest pie",
@@ -32467,7 +32467,7 @@ const A2_WORDS = [
         "When it comes to human movement, Gang means gait.",
         "In a restaurant or on a menu, Gang can mean a course of food.",
         "In a technical context, Gang can mean gear, but that is not the main use of A2.",
-        "Latvian \"move\" is usually not the best first translation for this card."
+        "English \"move\" is usually not the best first translation for this card."
       ],
       "examples": [
         {
@@ -33452,7 +33452,7 @@ const A2_WORDS = [
       "id": "a2-genau",
       "layout": "standardStudy",
       "translation": "Exact • Exactly • Precisely",
-      "explanation": "Main idea: genau means precise or direct, depending on whether it describes a thing, number, place, or action. As an adjective, it means precise. As an adverb, it often means directly or precisely. In conversation, genau can mean \"just like that\". It is not the same as gerade or eben, although Latvian sometimes translates similarly.",
+      "explanation": "Main idea: genau means precise or direct, depending on whether it describes a thing, number, place, or action. As an adjective, it means precise. As an adverb, it often means directly or precisely. In conversation, genau can mean \"just like that\". It is not the same as gerade or eben, although English sometimes translates similarly.",
       "examples": [
         {
           "de": "Die Uhr ist sehr genau.",
@@ -33696,7 +33696,7 @@ const A2_WORDS = [
         "When gerade describes a path, line, or shape, it means straight."
       ],
       "important": [
-        "gerade = taisns, ja runa ir par formu vai virzienu.",
+        "gerade = straight, when talking about shape or direction.",
         "gerade = currently / right now when it comes to action.",
         "gerade + Perfekt often means just now.",
         "genau = exactly, not always gerade."
@@ -34433,7 +34433,7 @@ const A2_WORDS = [
         "With a prise, money or lottery, gewinnen means to win.",
         "With experience, time or trust, gewinnen can mean to gain.",
         "Gewinnen is not the same as bekommen, because bekommen means to receive.",
-        "In Latvian, you have to look at what exactly is gewonnen: game, money, experience or human trust."
+        "In English, you have to look at what exactly is gewonnen: game, money, experience or human trust."
       ],
       "examples": [
         {
@@ -34485,7 +34485,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "When it comes to a game, contest or competition, gewinnen often means to win.",
-        "If the object is a prise or money, it is natural to win in Latvian."
+        "If the object is a prise or money, it is natural to win in English."
       ],
       "important": [
         "Spiel gewinnen = win the game.",
@@ -34798,7 +34798,7 @@ const A2_WORDS = [
         "With water, tea or other liquid, gießen can mean pour.",
         "If it rains very hard, in German you can say Es gießt, but it is more colloquial.",
         "Gießen is not the same as regnen, because regnen is a common word for rain.",
-        "In Latvian, you have to look at the object: flowers are watered, water is poured."
+        "In English, you have to look at the object: flowers are watered, water is poured."
       ],
       "examples": [
         {
@@ -35817,7 +35817,7 @@ const A2_WORDS = [
       "translation": "Hang • Order",
       "explanation": [
         "Main idea: hängen means to hang or hang something on a wall, door, or other place.",
-        "If the thing itself is on the wall or on a hook, in Latvian it is usually said to hang.",
+        "If the thing itself is on the wall or on a hook, in English it is usually said to hang.",
         "If a person puts something on a wall, on a hook or in a closet, hängen means hang or hang.",
         "In German, a single form can describe both a state and an action.",
         "The context shows whether the picture is hanging on the wall or someone is hanging it there."
@@ -36949,7 +36949,7 @@ const A2_WORDS = [
       "translation": "Doing",
       "explanation": [
         "Main idea: Indem explains the way something is done.",
-        "In Latvian, it is often translated as doing something.",
+        "In English, it is often translated as doing something.",
         "Indem is not a common word meaning while.",
         "If the thought is a simultaneous action, während is more often used.",
         "At A2 level, the most important thing is to understand the pattern: the main action + how it happens."
@@ -36995,9 +36995,9 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "If you can say \"...doing something\" in Latvian, indem is often used in German.",
+        "If you can say \"...doing something\" in English, indem is often used in German.",
         "If you want to ask in what way?, look for the construction with indem.",
-        "If in Latvian the thought is while, check if you don't need während in German."
+        "If in English the thought is while, check if you don't need während in German."
       ],
       "important": [
         "indem does not usually say simply while.",
@@ -38113,7 +38113,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "If you can hardly speak Latvian, German is often good for a few.",
+        "If you can hardly speak English, German is often good for a few.",
         "If the thought is simply almost, it is more common to use fast instead of kaum."
       ],
       "important": [
@@ -41661,7 +41661,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "leihen nav tas pats, kas kaufen.",
+        "text": "leihen is not the same as kaufen.",
         "example": "leihen = uz laiku. kaufen = nopirkt sev."
       },
       "sectionAccents": {
@@ -43282,7 +43282,7 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "specific",
-          "teiktais",
+          "said",
           "to consider",
           "viedokli",
           "people",
@@ -43793,7 +43793,7 @@ const A2_WORDS = [
         "When it comes to specific drugs, Medikament is used more often."
       ],
       "important": [
-        "das Mittel nav tas pats, kas die Mitte.",
+        "das Mittel is not the same as die Mitte.",
         "Mittel = means; Mitte = middle."
       ],
       "sectionAccents": {
@@ -48860,7 +48860,7 @@ const A2_WORDS = [
         "If you see sich sammeln, the translation is often to get together or get together."
       ],
       "important": [
-        "sammeln nav tas pats, kas holen.",
+        "sammeln is not the same as holen.",
         "sammeln = collect/accumulate; holen = go after and fetch."
       ],
       "sectionAccents": {
@@ -51785,7 +51785,7 @@ const A2_WORDS = [
       "id": "a2-schuld",
       "layout": "standardStudy",
       "translation": "Fault • Debt • Responsibility",
-      "explanation": "Die Schuld most often means guilt or responsibility for what happened. The phrase Schuld haben means to be guilty. jemandem die Schuld geben means to blame someone. In the plural, Schulden means debts. Schuld and Schulden must therefore be specifically distinguished. In Latvian, \"guilt\" and \"debt\" have very different meanings.",
+      "explanation": "Die Schuld most often means guilt or responsibility for what happened. The phrase Schuld haben means to be guilty. jemandem die Schuld geben means to blame someone. In the plural, Schulden means debts. Schuld and Schulden must therefore be specifically distinguished. In English, \"guilt\" and \"debt\" have very different meanings.",
       "examples": [
         {
           "de": "Das ist nicht meine Schuld.",
@@ -53622,7 +53622,7 @@ const A2_WORDS = [
       "id": "a2-sobald",
       "layout": "standardStudy",
       "translation": "As soon as • As soon as",
-      "explanation": "As soon as or as soon as. It introduces an auxiliary clause and in German the verb in this auxiliary clause usually comes at the end. as soon as shows that one action happens immediately after another. It is not the same as wenn, because wenn can mean 'when' or 'if'. Latvian often sounds naturally as \"as soon as\".",
+      "explanation": "As soon as or as soon as. It introduces an auxiliary clause and in German the verb in this auxiliary clause usually comes at the end. as soon as shows that one action happens immediately after another. It is not the same as wenn, because wenn can mean 'when' or 'if'. English often sounds naturally as \"as soon as\".",
       "examples": [
         {
           "de": "Sobald ich Zeit habe, rufe ich dich an.",
@@ -55043,7 +55043,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "steigen nav tas pats, kas aufstehen.",
+        "text": "steigen is not the same as aufstehen.",
         "example": "Die Preise steigen = prices are rising. Ich stehe auf = I get up. Ich steige ein = I get in."
       },
       "sectionAccents": {
@@ -58961,7 +58961,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Ich treffe dich = Es tevi satieku.",
+        "text": "Ich treffe dich = I'm meeting you.",
         "example": "Wir treffen uns = We meet. das Ziel treffen = to hit the target. eine Wahl treffen = to make a choice."
       },
       "sectionAccents": {
@@ -60795,7 +60795,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "verbinden nav tas pats, kas binden.",
+        "text": "verbinden is not the same as binden.",
         "example": "verbinden = to connect or bind. binden = tie. eine Wunde verbinden = bandage the wound."
       },
       "sectionAccents": {
@@ -62253,7 +62253,7 @@ const A2_WORDS = [
             "text": "When vorstellen is with sich and person, it often means to stand in front of."
           },
           {
-            "text": "If there is sich etwas vorstellen, in Latvian it will almost always be \"to imagine\"."
+            "text": "If there is sich etwas vorstellen, in English it will almost always be \"to imagine\"."
           }
         ]
       },
@@ -63148,7 +63148,11 @@ const A2_WORDS = [
       "id": "a2-während",
       "layout": "standardStudy",
       "translation": "While",
-      "explanation": "Während can be a preposition meaning 'during'. Then it is often followed by the genitive: während des Tages. It can also be a conjunction meaning 'while'. As a conjunction, it introduces an auxiliary clause, and the verb in German usually goes at the end of the sentence. Therefore, it is very important to distinguish between a preposition and a conjunction. Both often sound similar in Latvian.",
+      "explanation": [
+        "Main idea: während can be a preposition meaning 'during', often followed by the genitive: während des Tages.",
+        "As a conjunction, während means 'while' and connects two simultaneous actions.",
+        "In English, during/for time periods and while for simultaneous actions are the natural equivalents."
+      ],
       "examples": [
         {
           "de": "Während des Tages arbeite ich.",
@@ -63547,7 +63551,7 @@ const A2_WORDS = [
       "id": "a2-wahrscheinlich",
       "layout": "standardStudy",
       "translation": "Probably",
-      "explanation": "Main idea: wahrscheinlich means probably or most likely. It shows that something is very possible, but not absolutely certain. Latvian \"perhaps\" is often weaker and closer to German vielleicht. sicher can mean sure or certain, but it is stronger than wahrscheinlich.",
+      "explanation": "Main idea: wahrscheinlich means probably or most likely. It shows that something is very possible, but not absolutely certain. English \"perhaps\" is often weaker and closer to German vielleicht. sicher can mean sure or certain, but it is stronger than wahrscheinlich.",
       "examples": [
         {
           "de": "Er kommt wahrscheinlich später.",
@@ -64632,7 +64636,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "wert nav tas pats, kas teuer.",
+        "text": "wert is not the same as teuer.",
         "example": "Das ist viel wert = it is worth a lot. Das ist teuer = it is expensive."
       },
       "sectionAccents": {
@@ -67087,11 +67091,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "sagen = teikt",
+        "sagen = say",
         "Use sagen when the context fits this meaning."
       ],
       "important": [
-        "sagen = pateikt.",
+        "sagen = say.",
         "To convey a specific thought, word or sentence."
       ],
       "sectionAccents": {
@@ -67109,7 +67113,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "teikt"
+              "say"
             ]
           }
         ],
@@ -67521,12 +67525,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "klein = mazs",
+        "klein = small",
         "Uses klein when the context suits this meaning."
       ],
       "important": [
         "klein = small in sise.",
-        "klein = mazs.",
+        "klein = small.",
         "Small in sise or scope."
       ],
       "sectionAccents": {
@@ -67605,7 +67609,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "mazs"
+              "small"
             ]
           }
         ],
@@ -68067,7 +68071,7 @@ const A2_WORDS = [
         "Used only when the context corresponds to this meaning."
       ],
       "important": [
-        "Latvian \"only\" in German is not always nur.",
+        "English \"only\" in German is not always nur.",
         "nur = only / exclusively."
       ],
       "sectionAccents": {
@@ -68644,7 +68648,7 @@ const A2_WORDS = [
         ]
       }
     }
-  }
+  },
 ];
 
 window.A2_WORDS = A2_WORDS;

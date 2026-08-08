@@ -55,7 +55,7 @@ const A1_WORDS = [
           "lv": "We are talking about work."
         },
         {
-          "de": "Ich spreche Deutsch.",
+          "de": "Sie spricht mit ihrer Lehrerin.",
           "lv": "I speak German"
         }
       ],
@@ -101,7 +101,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "sprechen",
                 "sprechen"
               ]
             },
@@ -110,7 +109,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "spreche"
+                "spricht"
               ]
             },
             "lv": {
@@ -159,29 +158,21 @@ const A1_WORDS = [
           "lv": "The room is small."
         },
         {
-          "de": "Das Zimmer ist klein.",
+          "de": "Das Kind ist noch klein.",
           "lv": "The room is small."
         },
         {
-          "de": "Das Kind ist noch klein.",
-          "lv": "The child is still small."
-        },
-        {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "I have a small bag."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "The child is small."
+          "lv": "The child is still small."
         }
       ],
       "tip": [
-        "klein = mazs",
+        "klein = small",
         "Uses klein when the context suits this meaning."
       ],
       "important": [
         "klein = small in sise.",
-        "klein = mazs.",
+        "klein = small.",
         "Small in sise or scope."
       ],
       "sectionAccents": {
@@ -194,7 +185,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -207,7 +197,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
                 "klein"
               ]
             },
@@ -220,8 +209,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "klein",
-                "klein"
+                "kleine"
               ]
             },
             "lv": {
@@ -260,7 +248,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "mazs"
+              "small"
             ]
           }
         ],
@@ -1006,7 +994,7 @@ const A1_WORDS = [
       },
       "important": [
         "also shows a conclusion: the next thought follows from what was said above.",
-        "The Latvian \"so\" can often also be deshalb."
+        "The English \"so\" can often also be deshalb."
       ]
     }
   },
@@ -1160,11 +1148,11 @@ const A1_WORDS = [
           "lv": "I'm coming too."
         },
         {
-          "de": "Ich komme auch.",
+          "de": "Sie arbeitet auch hier.",
           "lv": "I'm coming too"
         },
         {
-          "de": "Sie arbeitet auch hier.",
+          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
           "lv": "She also works here."
         }
       ],
@@ -1186,7 +1174,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1199,7 +1186,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -1212,7 +1198,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "auch",
                 "auch"
               ]
             },
@@ -2004,7 +1989,7 @@ const A1_WORDS = [
       },
       "important": [
         "baden and schwimmen are not synonymous.",
-        "Latvian often says simply \"to swim\", but in German you have to choose according to the situation."
+        "English often says simply \"to swim\", but in German you have to choose according to the situation."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2268,17 +2253,32 @@ const A1_WORDS = [
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            }
           },
           {
             "blue": [
               "Bei"
-            ]
+            ],
+            "de": {
+              "blue": [
+                "Bei"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -2396,7 +2396,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "A visit",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "A visit",
+      "explanation": [
+        "Main idea: der Besuch means a visit to a place, an event, or someone's home.",
+        "For a place or event, visit is the natural word in English.",
+        "When referring to visiting a person, you can say a visit or coming to see someone.",
+        "The plural is die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "The visit to the museum was interesting."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Thanks for your visit."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "The doctor is making a house call."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "A visit • A social visit • A house call",
+          "example": "Danke für deinen Besuch. – Thanks for your visit."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Visitor",
+          "example": "Der Besucher wartet draußen. – The visitor is waiting outside."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "To attend • To visit",
+          "example": "Ich besuche meine Großeltern. – I visit my grandparents."
+        }
+      ],
+      "tip": {
+        "text": "Remember: Besuch is the visit or event, but Besucher is the person."
+      },
+      "important": [
+        "der Besuch is not only a social visit; it can also mean visiting a place or a medical visit.",
+        "Plural: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "visit",
+            "social visit",
+            "house call"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visit"
+              ],
+              "green": [
+                "museum"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "house call"
+              ],
+              "green": [
+                "doctor"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "visit",
+                "social visit",
+                "house call"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Visitor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "attend",
+                "visit"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "event",
+              "visit"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "visit",
+              "social visit",
+              "house call"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2408,7 +2592,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "To attend • To visit",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "To attend • To visit",
+      "explanation": [
+        "Main idea: besuchen is used when attending a place, event, or visiting a person.",
+        "For a place, event, or course, English usually uses attend or visit.",
+        "When besuchen refers to a person, visit is often the most natural word.",
+        "In German, besuchen is used without a preposition and with the accusative."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "I visit the museum."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "We attend a German course."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "I visit my grandparents."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "To attend a place or event • To visit a person",
+          "example": "Ich besuche meine Großeltern. – I visit my grandparents."
+        },
+        {
+          "word": "treffen",
+          "meaning": "To meet",
+          "example": "Ich treffe meinen Freund. – I meet my friend."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "To go to someone's place",
+          "example": "Ich gehe zu meinem Freund. – I go to my friend's place."
+        }
+      ],
+      "tip": {
+        "text": "Remember: attend a place, but visit a person."
+      },
+      "important": [
+        "besuchen is used without a preposition: Ich besuche meine Freundin.",
+        "The English wording depends on the object: attend a place, visit a person."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "attend",
+            "visit"
+          ],
+          "green": [
+            "place",
+            "event",
+            "person"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visit"
+              ],
+              "green": [
+                "museum"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "attend"
+              ],
+              "green": [
+                "German course"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visit"
+              ],
+              "green": [
+                "grandparents"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "attend",
+                "visit"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "visit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "meet"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "go to someone's place"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "attend",
+              "visit"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "without a preposition"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "attend",
+              "visit"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -2595,34 +2988,21 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bitte schön!",
-          "lv": "Please!"
-        },
-        {
-          "de": "Bitte schön!",
-          "lv": "Please!"
-        },
-        {
           "de": "Eine Tasse Kaffee, bitte.",
+          "lv": "Please!"
+        },
+        {
+          "de": "Komm bitte herein.",
+          "lv": "Please!"
+        },
+        {
+          "de": "Bitte schön!",
           "lv": "One cup of coffee, please."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "May i ask please"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "I have one request."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "The request is important."
         }
       ],
-      "tip": [
-        "Little bitte = please (Bitte schön!, Kaffee, bitte). die Bitte with a capital letter = request (eine Bitte, meine Bitte).",
-        "Courtesy in lower case. Used to be polite - please."
-      ],
+      "tip": {
+        "text": "Remember: bitte with a lowercase letter means please; die Bitte with a capital letter means a request."
+      },
       "important": [
         "bitte is lowercase - it's a polite word, not a noun.",
         "die Bitte with a capital letter and the article die is a noun.",
@@ -2639,7 +3019,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
                 "bitte"
               ]
             },
@@ -2652,7 +3031,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
                 "bitte"
               ]
             },
@@ -2665,8 +3043,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte",
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -2721,7 +3098,19 @@ const A1_WORDS = [
             ]
           }
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "please",
+          "example": "Komm bitte herein. – Please come in."
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "request",
+          "example": "Ich habe eine Bitte. – I have a request."
+        }
+      ]
     }
   },
   {
@@ -2750,30 +3139,17 @@ const A1_WORDS = [
           "lv": "I have one request."
         },
         {
-          "de": "Bitte schön!",
+          "de": "Er erfüllt meine Bitte.",
           "lv": "Please!"
         },
         {
-          "de": "Eine Tasse Kaffee, bitte.",
+          "de": "Sie hat zwei Bitten.",
           "lv": "One cup of coffee, please."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "May i ask please"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "I have one request."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "The request is important."
         }
       ],
-      "tip": [
-        "Little bitte = please (Bitte schön!, Kaffee, bitte). die Bitte with a capital letter = request (eine Bitte, meine Bitte).",
-        "A noun with the article die and a capital letter. A specific request or request."
-      ],
+      "tip": {
+        "text": "Remember: bitte with a lowercase letter means please; die Bitte with a capital letter means a request."
+      },
       "important": [
         "bitte is lowercase - it's a polite word, not a noun.",
         "die Bitte with a capital letter and the article die is a noun.",
@@ -2790,7 +3166,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
@@ -2802,7 +3178,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {}
@@ -2810,7 +3186,7 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "bitte"
+                "Bitten"
               ]
             },
             "lv": {}
@@ -2859,7 +3235,19 @@ const A1_WORDS = [
         "important": [
           {}
         ]
-      }
+      },
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "please",
+          "example": "Komm bitte herein. – Please come in."
+        },
+        {
+          "word": "bitte",
+          "meaning": "request",
+          "example": "Ich habe eine Bitte. – I have a request."
+        }
+      ]
     }
   },
   {
@@ -3182,42 +3570,38 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Bring mir bitte Wasser.",
+          "de": "Ich bringe dir ein Buch.",
           "lv": "Bring me water please"
         },
         {
-          "de": "Ich bringe dich nach Hause.",
+          "de": "Ich bringe das Paket zur Post.",
           "lv": "I will take you home"
         },
         {
-          "de": "Er bringt das Buch zur Schule.",
+          "de": "Ich bringe die Kinder zur Schule.",
           "lv": "He takes the book to school."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "I take the book"
         }
       ],
       "comparison": [
         {
           "word": "bringen",
           "meaning": "Bring / take / deliver",
-          "example": "Bring mir Wasser."
+          "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
         },
         {
-          "word": "nehmen",
+          "word": "bringen",
           "meaning": "To take / to take",
-          "example": "Ich nehme das Buch."
+          "example": "Ich bringe das Paket zur Post. – Es aiznesu paku uz pastu."
         },
         {
-          "word": "holen",
+          "word": "bringen",
           "meaning": "Go after / fetch",
-          "example": "Ich hole Wasser."
+          "example": "Ich bringe die Kinder zur Schule. – Es aizvedu bērnus uz skolu."
         },
         {
-          "word": "mitbringen",
+          "word": "bringen",
           "meaning": "Take away and bring",
-          "example": "Bringst du Brot mit?"
+          "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
         }
       ],
       "tip": {
@@ -4282,7 +4666,7 @@ const A1_WORDS = [
           "lv": "This man is nice."
         },
         {
-          "de": "Ich mag diesen Hund.",
+          "de": "Ich sehe diesen Hund.",
           "lv": "I like this dog"
         },
         {
@@ -4478,6 +4862,10 @@ const A1_WORDS = [
         {
           "de": "Er sucht einen Stift.",
           "lv": "He is looking for a pen."
+        },
+        {
+          "de": "Ein Kind spielt.",
+          "lv": ""
         }
       ],
       "tip": {
@@ -4584,8 +4972,30 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "ein nav noteiktais artikuls.",
+        "ein is not the definite article.",
         "If the matter is already concretely known, der, die or das is often needed."
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "vīriešu dzimte",
+          "example": "Ein Mann wartet draußen."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "sieviešu dzimte",
+          "example": "eine Frau"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "vidus dzimte",
+          "example": "Ich habe ein Buch."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "akuzatīvs",
+          "example": "einen Mann"
+        }
       ]
     }
   },
@@ -4610,7 +5020,7 @@ const A1_WORDS = [
       "translation": "Ice • Ice cream",
       "explanation": [
         "Main idea: das Eis can mean both ice and ice cream.",
-        "When it comes to cold frozen water, Latvian usually says ice.",
+        "When it comes to cold frozen water, English usually says ice.",
         "When it comes to food or dessert, das Eis very often means ice cream in everyday life.",
         "The context usually tells you immediately which meaning is intended.",
         "At A1 level, the most important phrases are ein Eis essen and Eis im Glas."
@@ -4663,7 +5073,7 @@ const A1_WORDS = [
         "text": "Remember: food → ice cream; winter/water → ice."
       },
       "important": [
-        "In Latvian, ice and ice cream are two different words, but in German, das Eis is often used for both.",
+        "In English, ice and ice cream are two different words, but in German, das Eis is often used for both.",
         "Context is key: food means ice cream, cold surface or water means ice."
       ],
       "sectionAccents": {
@@ -4891,7 +5301,7 @@ const A1_WORDS = [
       "explanation": "\"erst\" is used to indicate sequence (first) or to emphasise that something happens later than expected or to a lesser extent (only).",
       "examples": [
         {
-          "de": "Erst trinken, dann fahren.",
+          "de": "Erst lernen, dann spielen.",
           "lv": "Drink first, then drive."
         },
         {
@@ -4911,22 +5321,22 @@ const A1_WORDS = [
         {
           "word": "erst",
           "meaning": "First • Only",
-          "example": "Erst arbeiten, dann Pause. = Work first, then pause."
+          "example": "Erst lernen, dann spielen. – Work first, then pause."
         },
         {
           "word": "zuerst",
           "meaning": "First • In the beginning",
-          "example": "Zuerst frühstücken wir. = First we have breakfast."
+          "example": "Zuerst frühstücken wir. – First we have breakfast."
         },
         {
           "word": "nur",
           "meaning": "Only",
-          "example": "Ich habe nur 5 Euro. = I only have 5 euros."
+          "example": "Ich habe nur 5 Euro. – I only have 5 euros."
         },
         {
           "word": "dann",
           "meaning": "Then",
-          "example": "Dann gehen wir nach Hause. = Then we go home."
+          "example": "Dann gehen wir nach Hause. – Then we go home."
         }
       ],
       "tip": {
@@ -5076,36 +5486,28 @@ const A1_WORDS = [
       "explanation": "German \"I\" is not used to talk about oneself. It is used to denote: that, that or an impersonal form (weather, time, various impersonal sentences).",
       "examples": [
         {
-          "de": "Ich lerne Deutsch.",
+          "de": "Es regnet.",
           "lv": "I'm learning German."
         },
         {
-          "de": "Er ist müde.",
+          "de": "Es ist kalt.",
           "lv": "He is tired."
         },
         {
-          "de": "Sie arbeitet hier.",
+          "de": "Das Kind schläft.",
           "lv": "She works here."
         },
         {
-          "de": "Das ist mein Buch.",
+          "de": "Es ist müde.",
           "lv": "It's my book."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "It's raining"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "It's snowing"
         }
       ],
       "info": [
-        "Latvian \"es\" = German \"ich\"",
-        "German \"I\" = it; so; impersonal form"
+        "English \"es\" = German \"ich\"",
+        "German es = it • so • impersonal form"
       ],
       "tip": {
-        "text": "Remember: Latvian \"es\" → ich, not German es."
+        "text": "Remember: English \"es\" → ich, not German es."
       },
       "sectionAccents": {
         "examples": [
@@ -5200,8 +5602,20 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "The German self is not the Latvian self.",
-        "Latvian \"I\" is ich in German; German es often means it/it or is not translated."
+        "The German self is not the English self.",
+        "English \"I\" is ich in German; German es often means it/it or is not translated."
+      ],
+      "comparison": [
+        {
+          "word": "es",
+          "meaning": "tas • bezpersoniska forma",
+          "example": "Es regnet. – Līst."
+        },
+        {
+          "word": "ich",
+          "meaning": "es (persona)",
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+        }
       ]
     }
   },
@@ -5222,7 +5636,7 @@ const A1_WORDS = [
       "translation": "Something • A little",
       "explanation": [
         "Main idea: etwas means something or a little depending on the context.",
-        "If etwas replaces an unknown thing, Latvian usually says something.",
+        "If etwas replaces an unknown thing, English usually says something.",
         "When etwas stands before an adjective or quantity, it often means a little.",
         "Etwas is a very common and neutral A1 word in conversation.",
         "The most important thing is to distinguish: etwas kaufen = to buy something, etwas müde = a little tired."
@@ -5276,7 +5690,7 @@ const A1_WORDS = [
       },
       "important": [
         "etwas is not the same as nichts: etwas means something, but nichts means nothing.",
-        "In Latvian, something sounds better than something, for example: etwas trinken = to drink something."
+        "In English, something sounds better than something, for example: etwas trinken = to drink something."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5595,7 +6009,7 @@ const A1_WORDS = [
         "text": "Remember: vehicle → fahren; on foot → gehen."
       },
       "important": {
-        "text": "fahren ≠ tikai “braukt”",
+        "text": "fahren ≠ only “drive”",
         "example": "In German, the same verb often means: to drive • to drive • to take away depending on the context."
       },
       "accents": {
@@ -5604,11 +6018,11 @@ const A1_WORDS = [
           "fahre"
         ],
         "purple": [
-          "braukt",
+          "drive",
           "braucu",
-          "vest",
+          "take",
           "vedu",
-          "aizvest"
+          "take away"
         ],
         "green": [
           "transportu",
@@ -5822,7 +6236,7 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt"
+                "drive"
               ]
             },
             "example": {
@@ -5830,7 +6244,7 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt",
+                "drive",
                 "fahren",
                 "fahren"
               ]
@@ -5895,7 +6309,8 @@ const A1_WORDS = [
     "de": "Wochenende",
     "de_article": "das",
     "lv": "The weekend",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Wochenenden"
   },
   {
     "de": "Fernseher",
@@ -5944,27 +6359,23 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel nicht.",
+          "de": "Ich finde meinen Schlüssel.",
           "lv": "I can't find my key"
         },
         {
-          "de": "Hast du dein Handy gefunden?",
+          "de": "Ich finde das gut.",
           "lv": "Did you find your phone"
         },
         {
-          "de": "Ich finde das gut.",
-          "lv": "It seems good to me."
-        },
-        {
           "de": "Wie findest du den Film?",
-          "lv": "What do you think of the movie?"
+          "lv": "It seems good to me."
         }
       ],
       "comparison": [
         {
           "word": "finden",
           "meaning": "Find / consider",
-          "example": "Ich finde das gut. = It seems fine to me."
+          "example": "Ich finde das gut. – It seems fine to me."
         },
         {
           "word": "suchen",
@@ -6415,7 +6826,8 @@ const A1_WORDS = [
     "de": "Frühstück",
     "de_article": "das",
     "lv": "Breakfast",
-    "level": "A1"
+    "level": "A1",
+    "de_plural": "die Frühstücke"
   },
   {
     "de": "frühstücken",
@@ -6466,7 +6878,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "For • For",
       "explanation": [
-        "Main idea: für is a preposition that always governs the accusative case - usually for or for in Latvian.",
+        "Main idea: für is a preposition that always governs the accusative case - usually for or for in English.",
         "When speaking of recipient or intention, für = for (für dich = for you).",
         "When speaking of exchange, fee or reason, für = for (danke für das Geschenk = thank you for the gift).",
         "Für always requires the accusative, regardless of meaning."
@@ -6614,12 +7026,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "Football",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "Football",
+      "explanation": [
+        "Main idea: Fußball most often means football as a sport.",
+        "With an article and in countable use, der Fußball can also mean a football (the ball).",
+        "The plural die Fußbälle means footballs, not several sports."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "I play football."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "The football is in the garden."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "We buy two footballs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "Football as a sport",
+          "example": "Ich spiele Fußball. – I play football."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "A football (the ball)",
+          "example": "Der Fußball ist neu. – The football is new."
+        }
+      ],
+      "tip": [
+        "Without an article, spielen Fußball usually means to play football.",
+        "In countable use, ein Fußball and die Fußbälle are a football and footballs."
+      ],
+      "important": [
+        "die Fußbälle means footballs.",
+        "The sport Fußball is usually used in singular form."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Everything",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Everything",
+      "explanation": [
+        "Main idea: ganz with a noun means whole or entire.",
+        "Before an adjective or adverb, ganz can mean completely, entirely, or quite.",
+        "ganz is not the same as the pronoun alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "I work the whole day."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "The whole house is clean."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "That is completely certain."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "The food is quite good."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "Whole • Entire • Completely",
+          "example": "der ganze Tag – the whole day"
+        },
+        {
+          "word": "alles",
+          "meaning": "Everything",
+          "example": "Alles ist gut. – Everything is fine."
+        }
+      ],
+      "tip": [
+        "Before a noun, ganz often means whole or entire.",
+        "Before an adjective, ganz often means completely or quite."
+      ],
+      "important": [
+        "der ganze Tag = the whole day.",
+        "alles = everything as a pronoun."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -6883,7 +7387,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "To like",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "To like",
+      "explanation": [
+        "Main idea: gefallen means to like, but the German sentence structure differs from English.",
+        "The thing that is liked is the subject in German.",
+        "The person who likes something is in the dative: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "I like that."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Do you like the dress?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "We like the film."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "To like • Person in dative",
+          "example": "Das gefällt mir. – I like that."
+        },
+        {
+          "word": "mögen",
+          "meaning": "To like • To prefer",
+          "example": "Ich mag das. – I like that."
+        }
+      ],
+      "tip": [
+        "Remember the pattern: Das gefällt mir.",
+        "Do not copy English word order literally."
+      ],
+      "important": [
+        "gefallen is used with the dative: mir, dir, ihm, ihr.",
+        "Das gefällt mir = I like that."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -6926,13 +7474,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "Story • History",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "Story • History",
+      "explanation": [
+        "Main idea: Geschichte can mean a story or history.",
+        "The plural die Geschichten usually means stories.",
+        "As history, Geschichte is usually used in singular form."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "He tells a story."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "I study history."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "That is the history of Germany."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "A story",
+          "example": "eine interessante Geschichte – an interesting story"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "History",
+          "example": "Geschichte lernen – to study history"
+        }
+      ],
+      "tip": [
+        "With eine and in plural form, it usually means a story.",
+        "As a school subject, Geschichte means history."
+      ],
+      "important": [
+        "die Geschichten = stories.",
+        "Geschichte as history is usually singular."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "Brothers and sisters",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "Brothers and sisters",
+      "explanation": [
+        "Main idea: Geschwister means brothers and sisters together.",
+        "This word is usually used only in plural form.",
+        "For one person, use Bruder or Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "I have two siblings."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "My brothers and sisters live in Berlin."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "Brothers and sisters",
+          "example": "Meine Geschwister – my brothers and sisters"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Brother",
+          "example": "mein Bruder – my brother"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Sister",
+          "example": "meine Schwester – my sister"
+        }
+      ],
+      "tip": [
+        "Geschwister is usually used in plural form.",
+        "For one person, choose Bruder or Schwester."
+      ],
+      "important": [
+        "Do not use ein Geschwister as a normal A1 singular form."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7195,7 +7831,7 @@ const A1_WORDS = [
           "lv": "The house is big."
         },
         {
-          "de": "Das Haus ist groß.",
+          "de": "Berlin ist eine große Stadt.",
           "lv": "The house is big."
         },
         {
@@ -7226,7 +7862,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -7239,8 +7874,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
-                "groß"
+                "große"
               ]
             },
             "lv": {
@@ -7252,7 +7886,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -7261,7 +7894,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "groß",
                 "groß"
               ]
             },
@@ -7293,7 +7925,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "Grandparents",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "Grandparents",
+      "explanation": [
+        "Main idea: Großeltern means grandmother and grandfather together.",
+        "This word is used in plural form.",
+        "In singular form, use Großmutter or Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "My grandparents live in the countryside."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "I visit my grandparents."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "Grandparents",
+          "example": "meine Großeltern – my grandparents"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Grandmother",
+          "example": "meine Großmutter – my grandmother"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Grandfather",
+          "example": "mein Großvater – my grandfather"
+        }
+      ],
+      "tip": [
+        "Großeltern is plural.",
+        "For one person, use Großmutter or Großvater."
+      ],
+      "important": [
+        "die Großeltern = grandparents."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -7522,7 +8198,7 @@ const A1_WORDS = [
       "translation": "I have",
       "explanation": [
         "Main idea: haben means that someone has or has access to something.",
-        "The Latvian dative construction \"I have / you have\" in German is nominative + haben: Ich habe ..., Du hast ..., Er hat ... — not *mir habe.",
+        "The English dative construction \"I have / you have\" in German is nominative + haben: Ich habe ..., Du hast ..., Er hat ... — not *mir habe.",
         "Haben is followed by the accusative: Ich habe ein Auto. = I have a car.",
         "Haben is also used as an auxiliary verb in the Perfect: Ich habe gelernt."
       ],
@@ -7570,7 +8246,7 @@ const A1_WORDS = [
         "text": "Remember: Ich habe → I have."
       },
       "important": [
-        "Latvian \"I have\" = German Ich habe + accusative. Do not use the dative case: wrong *mir habe.",
+        "English \"I have\" = German Ich habe + accusative. Do not use the dative case: wrong *mir habe.",
         "With sein and dative: Mir ist kalt. = I am cold. (it's not haben!)",
         "Perfect: Ich habe gelernt = I have learned."
       ],
@@ -7716,7 +8392,7 @@ const A1_WORDS = [
         "important": [
           {
             "purple": [
-              "Latvian"
+              "English"
             ]
           }
         ]
@@ -7976,7 +8652,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "Hand (palm)",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "Hand (palm)",
+      "explanation": [
+        "Main idea: die Hand means the hand, especially the palm.",
+        "In German, Arm and Hand are two separate words.",
+        "In everyday English, hand can refer to both Arm and Hand in German."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "I wash my hands."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "She holds the glass in her hand."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "My arm hurts."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "Hand (palm)",
+          "example": "in der Hand – in the hand"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Arm",
+          "example": "Mein Arm tut weh. – My arm hurts."
+        }
+      ],
+      "tip": [
+        "Hand = hand (palm).",
+        "Arm = arm from shoulder to hand."
+      ],
+      "important": [
+        "In German, Hand and Arm are not the same word."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -8315,7 +9034,7 @@ const A1_WORDS = [
           "lv": "The mountain is high."
         },
         {
-          "de": "Der Berg ist hoch.",
+          "de": "Das Regal ist zwei Meter hoch.",
           "lv": "The mountain is high."
         },
         {
@@ -8350,7 +9069,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -8363,7 +9081,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -8376,7 +9093,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -8389,7 +9105,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -8402,7 +9117,6 @@ const A1_WORDS = [
           {
             "de": {
               "green": [
-                "hoch",
                 "hoch"
               ]
             },
@@ -8529,7 +9243,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "Neat • Nice",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "Neat • Nice",
+      "explanation": [
+        "Main idea: hübsch means neat, attractive, or good-looking.",
+        "hübsch often describes how a person, clothes, room, or object looks.",
+        "Nice in some contexts is possible in English, but it is too broad as the main translation.",
+        "For character or friendly behaviour, German more often uses nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "She is wearing a neat dress."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "The room is neat."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "That is a nice picture."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "Neat • Attractive",
+          "example": "Das ist ein hübsches Kleid. – That is a neat dress."
+        },
+        {
+          "word": "schön",
+          "meaning": "Beautiful • Pleasant",
+          "example": "Der Garten ist schön. – The garden is beautiful."
+        },
+        {
+          "word": "nett",
+          "meaning": "Nice • Friendly",
+          "example": "Sie ist sehr nett. – She is very nice."
+        }
+      ],
+      "tip": {
+        "text": "Remember: hübsch mainly describes a neat or attractive appearance, but nett more often describes a nice person or friendly behaviour."
+      },
+      "important": [
+        "hübsch is not a universal translation for nice.",
+        "For a person's character or friendly behaviour, nett is usually more appropriate."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "neat",
+            "attractive",
+            "good-looking"
+          ],
+          "green": [
+            "appearance"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neat"
+              ],
+              "green": [
+                "dress"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nice"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "neat",
+                "attractive"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "neat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "beautiful",
+                "pleasant"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nice",
+                "friendly"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "neat appearance"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "neat"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "nice",
+              "friendly"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",
@@ -9013,7 +9922,7 @@ const A1_WORDS = [
         "Main idea: in usually means in or to a place, when referring to a space, country, city or building.",
         "With location, in is often translated as in or in: in Berlin = in Berlin.",
         "With the movement in means inwards: ins Kino = to the cinema.",
-        "The Latvian translation changes depending on the context."
+        "The English translation changes depending on the context."
       ],
       "examples": [
         {
@@ -9037,7 +9946,7 @@ const A1_WORDS = [
         "text": "Remember: in/in → in."
       },
       "important": [
-        "in is not always literally “in”; Latvian is often said in Berlin, at school, at the cinema.",
+        "in is not always literally “in”; English is often said in Berlin, at school, at the cinema.",
         "When it comes to surface, you often need auf instead of in."
       ],
       "sectionAccents": {
@@ -9492,7 +10401,7 @@ const A1_WORDS = [
       "explanation": [
         "Main idea: jung means young in age—used of people and animals, not things.",
         "Jung describes age - the opposite is alt (old).",
-        "In Latvian, the word young has two meanings: young in age (jung) and young/recently created (neu).",
+        "In English, the word young has two meanings: young in age (jung) and young/recently created (neu).",
         "For things recently created or acquired, use neu, ne jung.",
         "Jung is also used in a figurative sense: a new generation, a young couple, young people.",
         "There is also the noun die Jugend (youth)."
@@ -9687,7 +10596,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Nobody • Nothing",
       "explanation": [
-        "Main idea: kein is a negation article that negates a noun - Latvian, depending on the context, nobody or nothing.",
+        "Main idea: kein is a negation article that negates a noun - English, depending on the context, nobody or nothing.",
         "Kein is inflected like ein (kein/keine/keinen...) and stands before a noun.",
         "With countable nouns (people), kein is often translated as nobody (kein Mensch = no human being).",
         "With non-binding or abstract nouns, kein is often translated as nothing/not at all (kein Geld = no money/no money).",
@@ -10137,7 +11046,7 @@ const A1_WORDS = [
       "translation": "Be able to • Know",
       "explanation": [
         "Main idea: können means to be able or know how to do something.",
-        "When it comes to ability or skill, Latvian often says to know.",
+        "When it comes to ability or skill, English often says to know.",
         "When it comes to possibility, it is often said to be able.",
         "Können is a modal verb, so the second verb usually comes at the end."
       ],
@@ -10355,7 +11264,7 @@ const A1_WORDS = [
         "Main idea: kosten means to pay so and so - talks about the price of a thing.",
         "This word is used when asking or saying how much something costs, not when a person makes a payment.",
         "A price question in German often begins with Was kostet...?",
-        "The Latvian word to pay is correct in this context: Das kostet 5 Euro. = It costs 5 euros.",
+        "The English word to pay is correct in this context: Das kostet 5 Euro. = It costs 5 euros.",
         "When a person gives money for a good or service, German uses bezahlen or zahlen."
       ],
       "examples": [
@@ -10420,7 +11329,7 @@ const A1_WORDS = [
       ],
       "important": [
         "kosten and bezahlen are not synonymous: kosten = how much it costs; bezahlen = to pay money.",
-        "In Latvian, pay is often used in both cases, but in German, the choice must be made according to the situation."
+        "In English, pay is often used in both cases, but in German, the choice must be made according to the situation."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11017,7 +11926,7 @@ const A1_WORDS = [
       },
       "important": [
         "aufs Land means 'to the countryside', not 'to the country'.",
-        "das Land nav tas pats, kas die Stadt."
+        "das Land is not the same as die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12824,7 +13733,7 @@ const A1_WORDS = [
         "Main idea: machen is a very common word meaning to make or to make.",
         "If it is about action in general, it translates as how to do.",
         "If something is made or prepared, it is translated as making or cooking.",
-        "In many phrases, machen is translated naturally in Latvian, not literally."
+        "In many phrases, machen is translated naturally in English, not literally."
       ],
       "examples": [
         {
@@ -12848,7 +13757,7 @@ const A1_WORDS = [
         "text": "Remember: Was machst du? = What are you doing?"
       },
       "important": [
-        "machen is a very broad word, but Latvian often has to be translated naturally according to the situation.",
+        "machen is a very broad word, but English often has to be translated naturally according to the situation.",
         "Das macht Spaß means 'it's fun', not literally 'it makes fun'."
       ],
       "sectionAccents": {
@@ -13017,7 +13926,7 @@ const A1_WORDS = [
       "important": [
         "das Mal / die Male - noun with article.",
         "ein Mal, zwei Mal — skaita reizes.",
-        "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
+        "mal bez artikula (Komm mal her!) is not the same as das Mal."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13589,7 +14498,7 @@ const A1_WORDS = [
       "translation": "To like",
       "explanation": [
         "Main idea: mögen most often means to like something.",
-        "Ich mag... is usually \"I like...\" in Latvian.",
+        "Ich mag... is usually \"I like...\" in English.",
         "Möchte is another form used for polite desire: I would like.",
         "At A1 level, the most important phrase is Ich mag das."
       ],
@@ -14144,7 +15053,7 @@ const A1_WORDS = [
       "translation": "To need",
       "explanation": [
         "Main idea: müssen means to do something.",
-        "In Latvian, müssen is often translated as \"me yes...\", \"you yes...\", \"we yes...\".",
+        "In English, müssen is often translated as \"me yes...\", \"you yes...\", \"we yes...\".",
         "In a German sentence, the second verb usually comes at the end.",
         "At A1 level, the most important form is Ich muss..."
       ],
@@ -14840,8 +15749,8 @@ const A1_WORDS = [
         "text": "Remember: take for yourself → nehmen; bring someone → bringen."
       },
       "important": [
-        "Ich nehme den Bus means \"I drive the bus\" in Latvian.",
-        "nehmen nav tas pats, kas bringen."
+        "Ich nehme den Bus means \"I drive the bus\" in English.",
+        "nehmen is not the same as bringen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15043,7 +15952,7 @@ const A1_WORDS = [
       "explanation": [
         "Main idea: neu means new in terms of a thing—recently created, purchased, or used for the first time.",
         "Neu describes things, devices, clothes, houses, ideas, etc. — not human or animal age.",
-        "In Latvian, the word young has two meanings: young in age (jung) and young/recently created (neu).",
+        "In English, the word young has two meanings: young in age (jung) and young/recently created (neu).",
         "For the age of a person or an animal, jung, not neu is used.",
         "Neu is also used figuratively: new job, new information, new beginning.",
         "The opposite is alt (old) • The noun das Neue means new."
@@ -15433,7 +16342,7 @@ const A1_WORDS = [
         "Used only when the context corresponds to this meaning."
       ],
       "important": [
-        "Latvian \"only\" in German is not always nur.",
+        "English \"only\" in German is not always nur.",
         "nur = only / exclusively."
       ],
       "sectionAccents": {
@@ -15543,7 +16452,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Or",
       "explanation": [
-        "Main idea: ob introduces an indirect question and in Latvian most often means or.",
+        "Main idea: ob introduces an indirect question and in English most often means or.",
         "Ob is used after words like fragen, wissen, sehen, sagen when there is no direct question.",
         "Ob is usually not used in a direct question in German.",
         "At A1 level, it is important to distinguish ob from oder."
@@ -15593,7 +16502,7 @@ const A1_WORDS = [
       },
       "important": [
         "ob is not the usual form of an \"or\" choice between two things.",
-        "Kaffee oder Tee? lieto oder, nevis ob."
+        "Coffee or tea? Use oder, not ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15772,7 +16681,7 @@ const A1_WORDS = [
       "translation": "Or • Or",
       "explanation": [
         "Main idea: oder is used when we choose between two or more options.",
-        "In Latvian, oder most often means or.",
+        "In English, oder most often means or.",
         "It is not the same as ob, which introduces an indirect question.",
         "In conversations, oder can also be at the end of the sentence: Du kommst, oder?"
       ],
@@ -16652,7 +17561,7 @@ const A1_WORDS = [
       "id": "a1-reis",
       "layout": "standardStudy",
       "translation": "Rice",
-      "explanation": "In German, the word \"der Reis\" is only used in the singular, so the verb in the sentence must be in the singular form (eg \"ist\", not \"sind\"). Latvians, however, often say \"rice\".",
+      "explanation": "In German, the word \"der Reis\" is only used in the singular, so the verb in the sentence must be in the singular form (eg \"ist\", not \"sind\"). English speakers, however, often say \"rice\".",
       "examples": [
         {
           "de": "Der Reis ist fertig.",
@@ -16672,11 +17581,11 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Remember: der Reis is singular in German, but usually rice in Latvian."
+        "text": "Remember: der Reis is singular in German, but usually rice in English."
       },
       "important": [
         "der Reis - in German only singular (Der Reis ist..., nicht *sind).",
-        "In Latvian translation, the plural is often used: the rice is ready."
+        "In English translation, the plural is often used: the rice is ready."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16799,11 +17708,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sagen = teikt",
+        "sagen = say",
         "Use sagen when the context fits this meaning."
       ],
       "important": [
-        "sagen = pateikt.",
+        "sagen = say.",
         "To convey a specific thought, word or sentence."
       ],
       "sectionAccents": {
@@ -16821,7 +17730,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "teikt"
+              "say"
             ]
           }
         ],
@@ -17199,7 +18108,7 @@ const A1_WORDS = [
       },
       "important": [
         "schwimmen un baden nav viens un tas pats.",
-        "Latvian often says \"to swim\", but in German you have to check whether it is movement or bathing."
+        "English often says \"to swim\", but in German you have to check whether it is movement or bathing."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17450,8 +18359,8 @@ const A1_WORDS = [
         "text": "Remember: the eyes perceive → sehen; look consciously → schauen/ansehen."
       },
       "important": [
-        "sehen nav tas pats, kas anschauen.",
-        "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
+        "sehen is not the same as anschauen.",
+        "Ich sehe dich = I see you; Ich schaue den Film = I'm watching the film."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18003,7 +18912,7 @@ const A1_WORDS = [
       "translation": "Yourself • For yourself",
       "explanation": [
         "Main idea: sich shows that the action refers to the doer himself.",
-        "In Latvian, it is often translated as self or self.",
+        "In English, it is often translated as self or self.",
         "In some German verbs, sich is an obligatory part, such as sich waschen.",
         "Important to notice at A1 level: ich wasche mich, er wäscht sich."
       ],
@@ -20114,7 +21023,7 @@ const A1_WORDS = [
           {
             "purple": [
               "pulksten",
-              "lai"
+              "Replace LV token with English equivalent in sectionAccents"
             ]
           }
         ]
@@ -20401,7 +21310,7 @@ const A1_WORDS = [
       "explanation": [
         "Main idea: verstehen means to understand.",
         "It is used when you understand a language, person, text or situation.",
-        "You don't usually need to \"know\" or \"teach\" Latvian here • They are more often können.",
+        "You don't usually need to \"know\" or \"teach\" English here • They are more often können.",
         "A very common phrase is Ich verstehe. = I understand."
       ],
       "examples": [
@@ -21239,11 +22148,11 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Who • What",
       "explanation": [
-        "Main idea: what is a question word about things and events - in Latvian it is what or what, depending on the part of the sentence.",
+        "Main idea: what is a question word about things and events - in English it is what or what, depending on the part of the sentence.",
         "Was asks about things, events and facts, not about persons.",
         "In German, was does not change after inflection - it always looks like was.",
-        "If was is the subject of the sentence, it is translated as kas (Was ist das? = What is it?) in Latvian.",
-        "If was is the complement (object) of the verb, it is translated as ko (Was machst du? = What are you doing?) in Latvian.",
+        "If was is the subject of the sentence, it is translated as what (Was ist das? = What is it?) in English.",
+        "If was is the complement (object) of the verb, it is translated as what (Was machst du? = What are you doing?) in English.",
         "People are asked with wer (who/who), not was."
       ],
       "examples": [
@@ -21277,7 +22186,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "was itself does not change - in German it is always was; in Latvian, choose who or what according to the part of the sentence.",
+        "was itself does not change — in German it is always was. In English, choose what according to the part of the sentence.",
         "Quick trick: if the question can be answered with 'It's ...', use who; if the answer comes after the verb as a complement, use ko."
       ],
       "important": [
@@ -21289,8 +22198,8 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "kas",
-            "ko"
+            "what",
+            "what"
           ]
         },
         "examples": [
@@ -21382,7 +22291,7 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
-              "ko"
+              "what"
             ]
           }
         ],
@@ -21702,7 +22611,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Who • Who",
       "explanation": [
-        "Main idea: wer is a question word about a person's identity - in Latvian it is who or who.",
+        "Main idea: wer is a question word about a person's identity - in English it is who or who.",
         "Wer asking about people, not about things or events.",
         "Things and events are asked with was, not wer.",
         "Wer in German is usually the subject of a sentence (nominative) — Wer ist das? = What is it?",
@@ -21937,7 +22846,7 @@ const A1_WORDS = [
         "text": "Remember: change/state becomes different → werden."
       },
       "important": [
-        "werden nav tas pats, kas sein.",
+        "werden is not the same as sein.",
         "Ich werde müde = I am getting tired; Ich bin müde = I am tired."
       ],
       "sectionAccents": {
@@ -22096,7 +23005,7 @@ const A1_WORDS = [
       "translation": "Time (weather)",
       "explanation": [
         "Main idea: das Wetter means the weather - sunny, rainy, cold or warm.",
-        "The Latvian word \"laiks\" can mean both the weather and the time on the clock - in German it is different.",
+        "The English word \"laiks\" can mean both the weather and the time on the clock - in German it is different.",
         "Talk about weather in nature with das Wetter: Wie ist das Wetter heute?",
         "Das Wetter is often used in a sentence together with words like warm or kalt.",
         "Not to be confused with die Zeit - it is time as a moment or opportunity (Ich habe keine Zeit)."
@@ -22350,8 +23259,8 @@ const A1_WORDS = [
       "translation": "How • How much",
       "explanation": [
         "Main idea: wie asks about kind or quality (how) and about amount or number (how much), depending on the context.",
-        "Wie alone (Wie geht's?) asks about the way - in Latvian how.",
-        "Wie + adjective (wie viel, wie alt, wie lange) asks about the amount, age or duration - how much in Latvian.",
+        "Wie alone (Wie geht's?) asks about the way - in English how.",
+        "Wie + adjective (wie viel, wie alt, wie lange) asks about the amount, age or duration - how much in English.",
         "Wie viel(e) means how much • Wie alt means how old • Wie lange means how long.",
         "In comparisons, wie means like (so groß wie = as big as)."
       ],
@@ -22386,7 +23295,7 @@ const A1_WORDS = [
         "In comparison, so ... wie = as ... as."
       ],
       "important": [
-        "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
+        "wie viel(e) = how much; wie alt = how old; wie lange = how long.",
         "wie alone (Wie...?) usually = how, not how much.",
         "Incorrect: How old are you? → Correct: How are you? (Wie geht's?)"
       ],
@@ -22481,9 +23390,9 @@ const A1_WORDS = [
         "important": [
           {
             "purple": [
-              "cik daudz",
-              "cik vecs",
-              "cik ilgi",
+              "how much",
+              "how old",
+              "how long",
               "wie"
             ]
           }
@@ -23750,7 +24659,7 @@ const A1_WORDS = [
       ],
       "important": [
         "essen is a verb without an article.",
-        "das Essen nav tas pats, kas essen.",
+        "das Essen is not the same as essen.",
         "Action: essen.",
         "Case/meal: das Essen."
       ],
@@ -23886,7 +24795,7 @@ const A1_WORDS = [
       ],
       "important": [
         "essen is a verb without an article.",
-        "das Essen nav tas pats, kas essen.",
+        "das Essen is not the same as essen.",
         "Action: essen.",
         "Case/meal: das Essen."
       ],
@@ -24869,7 +25778,7 @@ const A1_WORDS = [
           {
             "purple": [
               "vienreiz",
-              "reiz"
+              "once"
             ]
           }
         ],
@@ -24971,7 +25880,7 @@ const A1_WORDS = [
         ]
       }
     }
-  }
+  },
 ];
 
 window.A1_WORDS = A1_WORDS;
