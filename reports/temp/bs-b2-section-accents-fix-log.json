@@ -1,0 +1,688 @@
+{
+  "generatedAt": "2026-08-08T10:16:10.441Z",
+  "dryRun": false,
+  "stats": {
+    "termsChecked": 320,
+    "alreadyValid": 242,
+    "caseFixed": 0,
+    "lvMapped": 61,
+    "fuzzyFixed": 2,
+    "dropped": 15,
+    "deSkipped": 0,
+    "cardsChanged": [
+      "b2-haube",
+      "b2-hoch-study",
+      "b2-hochwasser",
+      "b2-leiden-study",
+      "b2-nachdruck",
+      "b2-sein-study",
+      "b2-sofern",
+      "b2-zuweisen",
+      "b2-zuwider",
+      "b2-aendern",
+      "b2-wechseln",
+      "b2-bieten",
+      "b2-fordern",
+      "b2-foerdern",
+      "b2-verlaufen"
+    ],
+    "changes": [
+      {
+        "id": "b2-haube",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "Kapica",
+        "after": "die",
+        "method": "slotMap",
+        "bsText": "Glavna ideja: die Haube može značiti kapu/kapuljaču ili kapuljaču/poklopac - kontekst određuje značenje. Na glavi: die Haube = kapa, kapuljača ili autorska tehn"
+      },
+      {
+        "id": "b2-haube",
+        "path": "sectionAccents.explanation.purple[2]",
+        "before": "kapuce",
+        "after": "die",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: die Haube može značiti kapu/kapuljaču ili kapuljaču/poklopac - kontekst određuje značenje. Na glavi: die Haube = kapa, kapuljača ili autorska tehn"
+      },
+      {
+        "id": "b2-haube",
+        "path": "sectionAccents.examples[0].lv.purple[0]",
+        "before": "Kapicu",
+        "after": "šešir",
+        "method": "slotMap",
+        "bsText": "Ona nosi topli šešir."
+      },
+      {
+        "id": "b2-haube",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Poklopac",
+        "after": "On",
+        "method": "slotMap",
+        "bsText": "On otvara haubu auta."
+      },
+      {
+        "id": "b2-haube",
+        "path": "sectionAccents.examples[3].lv.purple[0]",
+        "before": "Poklopac",
+        "after": "je",
+        "method": "slotMap",
+        "bsText": "Hauba je polomljena."
+      },
+      {
+        "id": "b2-hoch-study",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "tosts",
+        "after": "das",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: das Hoch sa velikim slovom i člankom das je imenica - slavljenički krik/zdravica (Ein Hoch auf...! = Živio...!) ili u vremenu - područje visokog p"
+      },
+      {
+        "id": "b2-hoch-study",
+        "path": "sectionAccents.examples[0].lv.purple[0]",
+        "before": "Zdravicu",
+        "after": "Nazdravljamo",
+        "method": "slotMap",
+        "bsText": "Nazdravljamo mladencima."
+      },
+      {
+        "id": "b2-hoch-study",
+        "path": "sectionAccents.examples[1].lv.purple[0]",
+        "before": "Živio",
+        "after": "Živjela",
+        "method": "slotMap",
+        "bsText": "Živjela ti!"
+      },
+      {
+        "id": "b2-hoch-study",
+        "path": "sectionAccents.examples[3].lv.purple[0]",
+        "before": "Visoko",
+        "after": "visoka",
+        "method": "slotMap",
+        "bsText": "Planina je veoma visoka."
+      },
+      {
+        "id": "b2-hochwasser",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "Poplave",
+        "after": "das",
+        "method": "slotMap",
+        "bsText": "Glavna ideja: das Hochwasser znači poplavu ili vrlo visok nivo vode u rijeci, jezeru ili moru. Množina: die Hochwasser. Često se koristi u štampi i upozorenjima"
+      },
+      {
+        "id": "b2-hochwasser",
+        "path": "sectionAccents.examples[1].lv.purple[0]",
+        "before": "Visok nivo vode",
+        "after": "Visoki",
+        "method": "slotMap",
+        "bsText": "Visoki vodostaji ugrožavaju grad."
+      },
+      {
+        "id": "b2-hochwasser",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Poplavama",
+        "after": "poplave",
+        "method": "slotMap",
+        "bsText": "Vlasti upozoravaju na poplave."
+      },
+      {
+        "id": "b2-leiden-study",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "ciešanas",
+        "after": "das",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: das Leiden sa velikim slovom i član das je imenica - patnja, duga/teška bolest. Leiden u malom slovu je glagol - patiti. Das Leiden se često koris"
+      },
+      {
+        "id": "b2-leiden-study",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Pati",
+        "after": "od",
+        "method": "slotMap",
+        "bsText": "Boluje od retke bolesti."
+      },
+      {
+        "id": "b2-nachdruck",
+        "path": "sectionAccents.explanation.purple[1]",
+        "before": "Ponovo izdati",
+        "after": "ponovno",
+        "method": "slotMap",
+        "bsText": "Glavna ideja: der Nachdruck može značiti naglasak ili ponovno štampanje knjige. Nachdruck auf etwas legen = naglasiti nešto, insistirati na nečemu. Der Nachdruc"
+      },
+      {
+        "id": "b2-nachdruck",
+        "path": "sectionAccents.examples[0].lv.purple[0]",
+        "before": "Naglašava",
+        "after": "rok",
+        "method": "slotMap",
+        "bsText": "Ističe rok."
+      },
+      {
+        "id": "b2-nachdruck",
+        "path": "sectionAccents.examples[1].lv.purple[0]",
+        "before": "Uporno",
+        "after": "je",
+        "method": "slotMap",
+        "bsText": "Tražila je odgovor."
+      },
+      {
+        "id": "b2-nachdruck",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Ponovljeno izdanje",
+        "after": "Reprint",
+        "method": "slotMap",
+        "bsText": "Reprint romana izašao je u proljeće."
+      },
+      {
+        "id": "b2-nachdruck",
+        "path": "sectionAccents.examples[3].lv.purple[0]",
+        "before": "U ponovljenom izdanju",
+        "after": "Ova",
+        "method": "slotMap",
+        "bsText": "Ova knjiga je već u reprintu."
+      },
+      {
+        "id": "b2-nachdruck",
+        "path": "sectionAccents.examples[4].lv.purple[0]",
+        "before": "Ponovljeno izdanje",
+        "after": "Izdavač",
+        "method": "slotMap",
+        "bsText": "Izdavač planira ponovno izdanje."
+      },
+      {
+        "id": "b2-sein-study",
+        "path": "sectionAccents.explanation.purple[1]",
+        "before": "eksistence",
+        "after": "Sein",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: das Sein sa velikim slovom i član das je imenica - postojanje, postojanje (filozofski koncept). Sein sa malim slovom je glagol - biti. Das Sein se"
+      },
+      {
+        "id": "b2-sein-study",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Ich",
+        "after": "sam",
+        "method": "slotMap",
+        "bsText": "Umoran sam"
+      },
+      {
+        "id": "b2-sofern",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "ja",
+        "after": "sofät",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: sofät je uslovni veznik - znači ako/pod uvjetom. Sofè uvodi uslovnu pomoćnu klauzulu, sličnu wenn, ali je formalnija i tipična za pisani stil. Sou"
+      },
+      {
+        "id": "b2-sofern",
+        "path": "sectionAccents.examples[0].lv.purple[0]",
+        "before": "Ako",
+        "after": "imam",
+        "method": "slotMap",
+        "bsText": "Dolazim kad imam vremena."
+      },
+      {
+        "id": "b2-sofern",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Pod uslovom da",
+        "after": "Pod",
+        "method": "slotMap",
+        "bsText": "Pod uslovom lepog vremena idemo u obilazak."
+      },
+      {
+        "id": "b2-sofern",
+        "path": "sectionAccents.examples[5].lv.red[0]",
+        "before": "Budući da",
+        "after": "Pošto",
+        "method": "slotMap",
+        "bsText": "Pošto pada kiša ostajemo kod kuće."
+      },
+      {
+        "id": "b2-sofern",
+        "path": "sectionAccents.tip[0].blue[0]",
+        "before": "ja",
+        "after": "uslovom",
+        "method": "lvParallelMapSuspicious",
+        "bsText": "Ako/pod uslovom da (uslov) - ne treba brkati sa uzrokom."
+      },
+      {
+        "id": "b2-sofern",
+        "path": "sectionAccents.tip[0].blue[1]",
+        "before": "ar noteikumu, ka",
+        "after": "Ako",
+        "method": "tipColorMap",
+        "bsText": "Ako/pod uslovom da (uslov) - ne treba brkati sa uzrokom. 'od' (uzrok) na njemačkom je da/weil, ne soufen."
+      },
+      {
+        "id": "b2-sofern",
+        "path": "sectionAccents.important[0].blue[0]",
+        "before": "sofern",
+        "after": "Ako",
+        "method": "slotMapSuspicious",
+        "bsText": "Ako postoji uslovna, a ne uzročna veza."
+      },
+      {
+        "id": "b2-sofern",
+        "path": "sectionAccents.important[1].purple[0]",
+        "before": "Budući da",
+        "after": "Netačno",
+        "method": "slotMap",
+        "bsText": "Netačno: soufen = as → Tačno: da/weil = as."
+      },
+      {
+        "id": "b2-zuweisen",
+        "path": "sectionAccents.explanation.purple[1]",
+        "before": "Rasporediti",
+        "after": "dodijeliti",
+        "method": "slotMap",
+        "bsText": "Glavna ideja: zuweisen znači službeno dodijeliti ili dodijeliti—zadatak, ulogu, resurs ili novac određenoj osobi ili odjelu. Deljivo: weise ... zu."
+      },
+      {
+        "id": "b2-zuweisen",
+        "path": "sectionAccents.examples[0].lv.purple[0]",
+        "before": "Dodjeljuje",
+        "after": "daje",
+        "method": "slotMap",
+        "bsText": "Šef mu daje novi zadatak."
+      },
+      {
+        "id": "b2-zuweisen",
+        "path": "sectionAccents.examples[1].lv.purple[0]",
+        "before": "Dodijeljeni",
+        "after": "dodijeljena",
+        "method": "slotMap",
+        "bsText": "Sredstva su dodijeljena projektu."
+      },
+      {
+        "id": "b2-zuweisen",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Rasporedio je",
+        "after": "je",
+        "method": "slotMap",
+        "bsText": "Raspoređen je na drugo odjeljenje."
+      },
+      {
+        "id": "b2-zuwider",
+        "path": "sectionAccents.explanation.green[0]",
+        "before": "wider",
+        "after": "zuwider",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: zuwider je riječ s više funkcija. Kao prijedlog + dativ, znači \"protiv, protiv\": mir zuwider. Kao dio izraza jemandem zuwider sein/laufen znači \"n"
+      },
+      {
+        "id": "b2-zuwider",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "pret",
+        "after": "zuwider",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: zuwider je riječ s više funkcija. Kao prijedlog + dativ, znači \"protiv, protiv\": mir zuwider. Kao dio izraza jemandem zuwider sein/laufen znači \"n"
+      },
+      {
+        "id": "b2-zuwider",
+        "path": "sectionAccents.explanation.purple[1]",
+        "before": "nepatikt",
+        "after": "mir",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: zuwider je riječ s više funkcija. Kao prijedlog + dativ, znači \"protiv, protiv\": mir zuwider. Kao dio izraza jemandem zuwider sein/laufen znači \"n"
+      },
+      {
+        "id": "b2-zuwider",
+        "path": "sectionAccents.examples[0].lv.purple[0]",
+        "before": "Vs",
+        "after": "protiv",
+        "method": "slotMap",
+        "bsText": "Postupio je protiv moje volje."
+      },
+      {
+        "id": "b2-zuwider",
+        "path": "sectionAccents.examples[1].lv.purple[0]",
+        "before": "Ne sviđa se",
+        "after": "se",
+        "method": "slotMap",
+        "bsText": "Ne sviđa mi se njegovo ponašanje."
+      },
+      {
+        "id": "b2-zuwider",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Ne sviđa se",
+        "after": "mi",
+        "method": "slotMap",
+        "bsText": "Ne sviđa mi se / rastužuje me."
+      },
+      {
+        "id": "b2-aendern",
+        "path": "sectionAccents.explanation.purple[1]",
+        "before": "labot",
+        "after": "informaciju",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: Promjeniti određenu stvar ili informaciju - plan, rok, adresu, odluku. Ändern u osnovi znači: popraviti ili promijeniti dio. Često opisuje: određe"
+      },
+      {
+        "id": "b2-aendern",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Mijenjamo",
+        "after": "plan",
+        "method": "slotMap",
+        "bsText": "Menjamo plan."
+      },
+      {
+        "id": "b2-aendern",
+        "path": "sectionAccents.examples[3].lv.purple[0]",
+        "before": "Mijenjam",
+        "after": "menjam",
+        "method": "slotMap",
+        "bsText": "Ja menjam termin."
+      },
+      {
+        "id": "b2-aendern",
+        "path": "sectionAccents.tip[0].purple[0]",
+        "before": "Promijeniti",
+        "after": "Promijenite",
+        "method": "lvParallelMap",
+        "bsText": "Promijenite konkretnu stvar ili informaciju - plan, rok, adresu, odluku."
+      },
+      {
+        "id": "b2-wechseln",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "Za razmjenu",
+        "after": "Trgovati",
+        "method": "slotMap",
+        "bsText": "Glavna ideja: Trgovati ili zamijeniti nešto za nešto drugo - novac, odjeću, posao, školu, predmet. Wechseln u osnovi znači: zamijeniti drugim. Često karakterizi"
+      },
+      {
+        "id": "b2-wechseln",
+        "path": "sectionAccents.tip[0].purple[0]",
+        "before": "Za razmjenu",
+        "after": "Promjeniti",
+        "method": "lvParallelMap",
+        "bsText": "Promjeniti ili zamijeniti nešto za nešto drugo - novac, odjeću, posao, školu, predmet."
+      },
+      {
+        "id": "b2-bieten",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "Ponuditi",
+        "after": "Ponudite",
+        "method": "slotMap",
+        "bsText": "Glavna ideja: Ponudite mogućnosti, kurseve, usluge ili beneficije – koje pruža mjesto ili program. Bieten uglavnom znači: dati priliku / korist. Često opisuje: "
+      },
+      {
+        "id": "b2-bieten",
+        "path": "sectionAccents.explanation.purple[1]",
+        "before": "sniegt",
+        "after": "dati",
+        "method": "slotMapSuspicious",
+        "bsText": "Glavna ideja: Ponudite mogućnosti, kurseve, usluge ili beneficije – koje pruža mjesto ili program. Bieten uglavnom znači: dati priliku / korist. Često opisuje: "
+      },
+      {
+        "id": "b2-bieten",
+        "path": "sectionAccents.examples[1].de.blue[0]",
+        "before": "bieten",
+        "after": "anbieten",
+        "method": "fuzzyMatch",
+        "bsText": "Darf ich Ihnen etwas anbieten?"
+      },
+      {
+        "id": "b2-bieten",
+        "path": "sectionAccents.examples[1].de.blue[1]",
+        "before": "bieten",
+        "after": "anbieten",
+        "method": "fuzzyMatch",
+        "bsText": "Darf ich Ihnen etwas anbieten?"
+      },
+      {
+        "id": "b2-bieten",
+        "path": "sectionAccents.tip[0].purple[0]",
+        "before": "Ponuditi",
+        "after": "Ponudite",
+        "method": "lvParallelMap",
+        "bsText": "Ponudite mogućnosti, kurseve, usluge ili pogodnosti—koje pruža lokacija ili program."
+      },
+      {
+        "id": "b2-fordern",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "Tražiti",
+        "after": "Traženje",
+        "method": "slotMap",
+        "bsText": "Glavna ideja: Traženje novca, prava, promjena ili obaveza – aktivan zahtjev. Fordern uglavnom znači: zahtijevati / zahtijevati. Često karakteriše: aktivna potra"
+      },
+      {
+        "id": "b2-fordern",
+        "path": "sectionAccents.explanation.purple[1]",
+        "before": "Pitaj za",
+        "after": "zahtijevati",
+        "method": "slotMap",
+        "bsText": "Glavna ideja: Traženje novca, prava, promjena ili obaveza – aktivan zahtjev. Fordern uglavnom znači: zahtijevati / zahtijevati. Često karakteriše: aktivna potra"
+      },
+      {
+        "id": "b2-fordern",
+        "path": "sectionAccents.examples[0].lv.purple[0]",
+        "before": "Pita",
+        "after": "traži",
+        "method": "slotMap",
+        "bsText": "Ona traži još novca."
+      },
+      {
+        "id": "b2-fordern",
+        "path": "sectionAccents.examples[1].lv.purple[0]",
+        "before": "Zahtijevamo",
+        "after": "više",
+        "method": "slotMap",
+        "bsText": "Tražimo više transparentnosti."
+      },
+      {
+        "id": "b2-fordern",
+        "path": "sectionAccents.examples[2].lv.purple[0]",
+        "before": "Pita",
+        "after": "traži",
+        "method": "slotMap",
+        "bsText": "Ona traži još novca."
+      },
+      {
+        "id": "b2-fordern",
+        "path": "sectionAccents.examples[3].lv.purple[0]",
+        "before": "Zahtijevamo",
+        "after": "više",
+        "method": "slotMap",
+        "bsText": "Tražimo više sigurnosti."
+      },
+      {
+        "id": "b2-fordern",
+        "path": "sectionAccents.examples[4].lv.purple[0]",
+        "before": "Pitaj za",
+        "after": "Zahtijevati",
+        "method": "slotMap",
+        "bsText": "Zahtijevati • Förden"
+      },
+      {
+        "id": "b2-fordern",
+        "path": "sectionAccents.tip[0].purple[0]",
+        "before": "Tražiti",
+        "after": "Potraživanje",
+        "method": "lvParallelMap",
+        "bsText": "Potraživanje novca, prava, promjena ili obaveza - aktivno potraživanje."
+      },
+      {
+        "id": "b2-foerdern",
+        "path": "sectionAccents.examples[0].lv.purple[0]",
+        "before": "Podstiče",
+        "after": "promoviše",
+        "method": "slotMap",
+        "bsText": "Sport promoviše zdravlje."
+      },
+      {
+        "id": "b2-foerdern",
+        "path": "sectionAccents.examples[1].lv.purple[0]",
+        "before": "Podstiče",
+        "after": "promoviše",
+        "method": "slotMap",
+        "bsText": "Sport promoviše zdravlje."
+      },
+      {
+        "id": "b2-foerdern",
+        "path": "sectionAccents.important[0].green[0]",
+        "before": "fördern",
+        "after": "Förden",
+        "method": "slotMapSuspicious",
+        "bsText": "Förden = promovirati / podržavati (sa ö)."
+      },
+      {
+        "id": "b2-verlaufen",
+        "path": "sectionAccents.explanation.purple[0]",
+        "before": "Održati",
+        "after": "trčati",
+        "method": "lvParallelMap",
+        "bsText": "Verlaufen (bez sich) znači trčati ili kotrljati se. Nije sinonim za sich verlaufen (izgubiti se)."
+      }
+    ],
+    "unresolved": [
+      {
+        "id": "b2-sich-betaetigen",
+        "path": "sectionAccents.explanation.red[0]",
+        "term": "in + kur?",
+        "lvTerm": "in + kur?",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich betätigen zahtijeva određeni prijedlog u + where?."
+      },
+      {
+        "id": "b2-sich-einpraegen",
+        "path": "sectionAccents.explanation.red[0]",
+        "term": "in + ko?",
+        "lvTerm": "in + ko?",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich einprägen zahtijeva određeni prijedlog u + ko?."
+      },
+      {
+        "id": "b2-sich-einschleichen",
+        "path": "sectionAccents.explanation.red[0]",
+        "term": "in + ko?",
+        "lvTerm": "in + ko?",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich einschleichen zahtijeva definitivni prijedlog u + ko?."
+      },
+      {
+        "id": "b2-sich-erweisen",
+        "path": "sectionAccents.explanation.red[0]",
+        "term": "als + kas?",
+        "lvTerm": "als + kas?",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich erweisen zahtijeva definitivni prijedlog als + what?."
+      },
+      {
+        "id": "b2-sich-fuegen",
+        "path": "sectionAccents.explanation.red[0]",
+        "term": "in + ko?",
+        "lvTerm": "in + ko?",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich fügen zahtijeva definitivni prijedlog u + ko?."
+      },
+      {
+        "id": "b2-sich-herausstellen",
+        "path": "sectionAccents.explanation.red[0]",
+        "term": "als + kas?",
+        "lvTerm": "als + kas?",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich herausstellen zahtijeva definitivni prijedlog als + what?."
+      },
+      {
+        "id": "b2-sich-hervortun",
+        "path": "sectionAccents.explanation.red[0]",
+        "term": "in + kur?",
+        "lvTerm": "in + kur?",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich hervortun zahtijeva određeni prijedlog u + where?."
+      },
+      {
+        "id": "b2-sich-hingeben",
+        "path": "sectionAccents.explanation.red[0]",
+        "term": "+ kam?",
+        "lvTerm": "+ kam?",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich hingeben zahtijeva + za koga?."
+      },
+      {
+        "id": "b2-sofern",
+        "path": "sectionAccents.explanation.purple[1]",
+        "term": "ar noteikumu, ka",
+        "lvTerm": "ar noteikumu, ka",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Glavna ideja: sofät je uslovni veznik - znači ako/pod uvjetom. Sofè uvodi uslovnu pomoćnu klauzulu, sličnu wenn, ali je formalnija i tipična za pisani stil. Soufen NE znači 'jer' (uzročni veznik) - to"
+      },
+      {
+        "id": "b2-sich-versehen",
+        "path": "sectionAccents.explanation.blue[0]",
+        "term": "sich versehen",
+        "lvTerm": "sich versehen",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich verschein zahtijeva određeni prijedlog mit + kam?."
+      },
+      {
+        "id": "b2-sich-widersetzen",
+        "path": "sectionAccents.explanation.red[0]",
+        "term": "+ kam?",
+        "lvTerm": "+ kam?",
+        "sectionKey": "explanation",
+        "index": null,
+        "field": null,
+        "bsText": "Sich widersetzen zahtijeva + za koga?."
+      },
+      {
+        "id": "b2-wechseln",
+        "path": "sectionAccents.tip[1].purple[0]",
+        "term": "Zamijeniti",
+        "lvTerm": "nomainīt",
+        "sectionKey": "tip",
+        "index": 1,
+        "field": null,
+        "bsText": "Koristite wechseln kada kontekst odgovara ovom značenju."
+      },
+      {
+        "id": "b2-bieten",
+        "path": "sectionAccents.tip[1].purple[0]",
+        "term": "sniedz",
+        "lvTerm": "sniedz",
+        "sectionKey": "tip",
+        "index": 1,
+        "field": null,
+        "bsText": "Koristite repu kada kontekst odgovara ovom značenju."
+      },
+      {
+        "id": "b2-fordern",
+        "path": "sectionAccents.tip[1].purple[0]",
+        "term": "Pitaj za",
+        "lvTerm": "prasīt",
+        "sectionKey": "tip",
+        "index": 1,
+        "field": null,
+        "bsText": "Koristi ga fordern kada kontekst odgovara ovom značenju."
+      },
+      {
+        "id": "b2-foerdern",
+        "path": "sectionAccents.tip[1].purple[0]",
+        "term": "Podržati",
+        "lvTerm": "atbalstīt",
+        "sectionKey": "tip",
+        "index": 1,
+        "field": null,
+        "bsText": "Koristite förden kada kontekst odgovara ovom značenju."
+      }
+    ]
+  }
+}

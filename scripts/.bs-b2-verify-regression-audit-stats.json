@@ -1,0 +1,27 @@
+{
+  "model": "gpt-5.6-luna",
+  "requestCount": 7,
+  "successfulRequests": 7,
+  "failedRequests": 0,
+  "initialBatchRequests": 7,
+  "retryRequests": 0,
+  "batchCount": 7,
+  "batchSizes": [
+    12,
+    5,
+    6,
+    6,
+    6,
+    6,
+    1
+  ],
+  "retryCount": 0,
+  "retryReasons": {},
+  "inputTokens": 12182,
+  "cachedInputTokens": 0,
+  "outputTokens": 7814,
+  "reasoningTokens": 6118,
+  "totalTokens": 19996,
+  "findingsCount": 9,
+  "passCount": 37
+}

@@ -451,7 +451,7 @@ const B2_WORDS = [
     "de": "Affäre",
     "de_article": "die",
     "de_plural": "die Affären",
-    "lv": "afēra • romāns",
+    "lv": "afēra • mīlas dēka",
     "level": "B2"
   },
   {
@@ -1461,7 +1461,7 @@ const B2_WORDS = [
   },
   {
     "de": "bewähren",
-    "lv": "sargāt • nosargāt • pasargāt • glābāt",
+    "lv": "pierādīt sevi",
     "level": "B2"
   },
   {
@@ -1507,7 +1507,7 @@ const B2_WORDS = [
   },
   {
     "de": "bezähmen",
-    "lv": "apburt • valdzināt",
+    "lv": "savaldīt",
     "level": "B2"
   },
   {
@@ -1934,7 +1934,7 @@ const B2_WORDS = [
     "de": "Buche",
     "de_article": "die",
     "de_plural": "die Buchen",
-    "lv": "dižskābardis • skābardis",
+    "lv": "dižskābardis",
     "level": "B2"
   },
   {
@@ -3398,7 +3398,7 @@ const B2_WORDS = [
   },
   {
     "de": "einflussreich",
-    "lv": "ietekmīgs • iespaidīgs",
+    "lv": "ietekmīgs",
     "level": "B2"
   },
   {
@@ -4290,7 +4290,7 @@ const B2_WORDS = [
   },
   {
     "de": "erbrechen",
-    "lv": "atlauzt • uzlauzt",
+    "lv": "vemt",
     "level": "B2"
   },
   {
@@ -4887,7 +4887,7 @@ const B2_WORDS = [
     "de": "Falke",
     "de_article": "der",
     "de_plural": "die Falken",
-    "lv": "vanags",
+    "lv": "piekūns",
     "level": "B2"
   },
   {
@@ -6329,7 +6329,7 @@ const B2_WORDS = [
     "de": "Getriebe",
     "de_article": "das",
     "de_plural": "die Getriebe",
-    "lv": "dzinējs",
+    "lv": "pārnesumkārba",
     "level": "B2"
   },
   {
@@ -11114,7 +11114,7 @@ const B2_WORDS = [
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "aizraušanās • jūsma",
+    "lv": "bars",
     "level": "B2"
   },
   {
@@ -11813,7 +11813,7 @@ const B2_WORDS = [
     "de": "Sprechanlage",
     "de_article": "die",
     "de_plural": "die Sprechanlagen",
-    "lv": "interkoma iekārta mājās",
+    "lv": "domofons",
     "level": "B2"
   },
   {

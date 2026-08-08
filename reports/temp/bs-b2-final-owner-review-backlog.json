@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-08-08T12:25:58.612Z",
+  "status": "RESOLVED",
+  "automatedQualityCycle": "CLOSED",
+  "ownerAccepted": false,
+  "openAiRequests": 0,
+  "b2DataFilesChanged": 0,
+  "sourcesChecked": [
+    "owner-review-pending",
+    "audit-validation",
+    "post-fix-regression",
+    "verify-regression",
+    "final-verify-regression",
+    "full-linguistic-audit",
+    "regression-fixes-apply-log"
+  ],
+  "stats": {
+    "rawCandidates": 47,
+    "duplicatesRemoved": 29
+  },
+  "resolved": {
+    "staleByLaterChange": 4,
+    "duplicatesRemoved": 29
+  },
+  "counts": {
+    "SOURCE_LV_ISSUE": 11,
+    "DE_SOURCE_ISSUE": 1,
+    "NEEDS_REVIEW": 2,
+    "STALE_AFTER_AUDIT": 0,
+    "TOTAL": 14
+  },
+  "revanchierenIncluded": true,
+  "validation": {
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "deReadOnly": "PASS",
+    "cardCount": 2118,
+    "studyCount": 60,
+    "sectionAccentsTechnical": 0
+  },
+  "activeItems": [],
+  "resolvedItems": [
+    {
+      "cardId": "b2-Durchreise-482",
+      "fieldPath": "lv",
+      "category": "STALE_AFTER_AUDIT",
+      "currentStatus": "RESOLVED_BY_LATER_CHANGE — audited snapshot no longer at target path",
+      "originalReason": "U prenesenom smislu durchschauen znači prozreti nekoga/nešto, ne samo otkriti."
+    },
+    {
+      "cardId": "b2-exportieren-741",
+      "fieldPath": "lv",
+      "category": "STALE_AFTER_AUDIT",
+      "currentStatus": "RESOLVED_BY_LATER_CHANGE — audited snapshot no longer at target path",
+      "originalReason": "Izvoz je imenica, a glagol exportieren treba biti izvoziti; drugi prevod treba svršeni glagolski oblik."
+    },
+    {
+      "cardId": "b2-sich-erweisen",
+      "fieldPath": "study.explanation",
+      "category": "STALE_AFTER_AUDIT",
+      "currentStatus": "RESOLVED_BY_LATER_CHANGE — audited snapshot no longer at target path",
+      "originalReason": "Prepisana je pogrešna rekcija; definitivni i englesko what? nisu bosanski standard."
+    },
+    {
+      "cardId": "b2-hochwasser",
+      "fieldPath": "study.comparison[1].meaning",
+      "category": "STALE_AFTER_AUDIT",
+      "currentStatus": "RESOLVED_BY_LATER_CHANGE — audited snapshot no longer at target path",
+      "originalReason": "Bosanski tekst je glagol, dok je njemačka natuknica imenica za ponovljeno izdanje."
+    },
+    {
+      "ownerId": "OWNER-001",
+      "cardId": "b2-Affäre-76",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-002",
+      "cardId": "b2-Getriebe-968",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-003",
+      "cardId": "b2-Schwarm-1612",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-004",
+      "cardId": "b2-Sprechanlage-1677",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-005",
+      "cardId": "b2-bewähren-229",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-006",
+      "cardId": "b2-bezähmen-237",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-007",
+      "cardId": "b2-Buche-305",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-008",
+      "cardId": "b2-einflussreich-541",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-009",
+      "cardId": "b2-erbrechen-664",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-010",
+      "cardId": "b2-Falke-755",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-011",
+      "cardId": "b2-sich-revanchieren",
+      "ownerDecision": "ACCEPT_CURRENT",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-012",
+      "cardId": "b2-Erachten-660",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-013",
+      "cardId": "b2-austragen-112",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    },
+    {
+      "ownerId": "OWNER-014",
+      "cardId": "b2-überfallen-1764",
+      "ownerDecision": "RESOLVED",
+      "resolvedAt": "2026-08-08T12:38:51.997Z"
+    }
+  ],
+  "activeCount": 0,
+  "resolvedAt": "2026-08-08T12:38:51.997Z",
+  "ownerDecisionsAppliedAt": "2026-08-08T12:38:51.997Z"
+}

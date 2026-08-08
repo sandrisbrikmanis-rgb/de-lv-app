@@ -1,0 +1,21 @@
+{
+  "model": "gpt-5.6-luna",
+  "requestCount": 1,
+  "successfulRequests": 1,
+  "failedRequests": 0,
+  "initialBatchRequests": 1,
+  "retryRequests": 0,
+  "batchCount": 1,
+  "batchSizes": [
+    5
+  ],
+  "retryCount": 0,
+  "retryReasons": {},
+  "inputTokens": 1680,
+  "cachedInputTokens": 0,
+  "outputTokens": 1730,
+  "reasoningTokens": 1552,
+  "totalTokens": 3410,
+  "findingsCount": 0,
+  "passCount": 4
+}

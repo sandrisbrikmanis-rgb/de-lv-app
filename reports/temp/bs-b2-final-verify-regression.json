@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "model": "gpt-5.6-luna",
+    "startedAt": "2026-08-08T12:20:14.776Z",
+    "scopeExpected": 5,
+    "completedAt": "2026-08-08T12:20:29.224Z",
+    "hashBefore": {
+      "data": "12c48cc0aa7df5409d8f6da547e157fd",
+      "www": "12c48cc0aa7df5409d8f6da547e157fd",
+      "at": "2026-08-08T12:20:07.210Z"
+    },
+    "hashAfter": {
+      "data": "12c48cc0aa7df5409d8f6da547e157fd",
+      "www": "12c48cc0aa7df5409d8f6da547e157fd"
+    },
+    "dataUnchanged": true,
+    "scopeAudited": 5,
+    "scopeSkipped": 0,
+    "complete": true
+  },
+  "scopeCheck": {
+    "expected": 5,
+    "found": 5,
+    "unique": 5,
+    "allExist": true,
+    "missingIds": [],
+    "duplicateIds": 0,
+    "scopeMatchesExpected": true,
+    "valid": true
+  },
+  "preCheck": {
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "deReadOnly": "PASS",
+    "parity": "PASS",
+    "sectionAccentsTechnical": 0,
+    "cardCount": 2118,
+    "studyCount": 60,
+    "pass": true
+  },
+  "scopeCardIds": [
+    "b2-durchbrennen-470",
+    "b2-sich-hingeben",
+    "b2-sich-revanchieren",
+    "b2-sich-verlaufen",
+    "b2-sich-verwundern"
+  ],
+  "batches": [
+    {
+      "key": "final-0",
+      "cardCount": 5,
+      "cardIds": [
+        "b2-durchbrennen-470",
+        "b2-sich-hingeben",
+        "b2-sich-revanchieren",
+        "b2-sich-verwundern",
+        "b2-sich-verlaufen"
+      ],
+      "findingsCount": 0,
+      "passCount": 4,
+      "completedAt": "2026-08-08T12:20:29.222Z"
+    }
+  ],
+  "cardResults": [
+    {
+      "cardId": "b2-durchbrennen-470",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-hingeben",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.translation",
+      "verdict": "SOURCE_LV_ISSUE",
+      "severity": null,
+      "category": "lexical_semantics",
+      "de": "sich revanchieren",
+      "lv": "atmaksāt • atriebties",
+      "currentBs": "Vratiti • Osvetiti se",
+      "proposedBs": "",
+      "reason": "Atriebties/Osvetiti se means taking revenge, which does not match the core German meaning of repaying a favor.",
+      "confidence": "high",
+      "status": "SOURCE_LV_ISSUE"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "b2-sich-verlaufen",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [],
+  "auditedCardIds": [
+    "b2-durchbrennen-470",
+    "b2-sich-hingeben",
+    "b2-sich-revanchieren",
+    "b2-sich-verwundern",
+    "b2-sich-verlaufen"
+  ],
+  "apiUsage": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 1,
+    "successfulRequests": 1,
+    "failedRequests": 0,
+    "initialBatchRequests": 1,
+    "retryRequests": 0,
+    "batchCount": 1,
+    "batchSizes": [
+      5
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 1680,
+    "cachedInputTokens": 0,
+    "outputTokens": 1730,
+    "reasoningTokens": 1552,
+    "totalTokens": 3410,
+    "findingsCount": 0,
+    "passCount": 4
+  },
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "otherVerdictCounts": {
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0,
+    "SOURCE_LV_ISSUE": 1,
+    "DE_SOURCE_ISSUE": 0,
+    "NEEDS_REVIEW": 0
+  },
+  "passCards": 4,
+  "rawFindingsCount": 0,
+  "duplicateFindings": 0,
+  "qualityFindings": [],
+  "cardVerdicts": {
+    "b2-durchbrennen-470": "PASS",
+    "b2-sich-hingeben": "PASS",
+    "b2-sich-revanchieren": "SOURCE_LV_ISSUE",
+    "b2-sich-verlaufen": "PASS",
+    "b2-sich-verwundern": "PASS"
+  },
+  "accentResults": {
+    "b2-sich-revanchieren": {
+      "verdict": "SOURCE_LV_ISSUE",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich revanchieren"
+          ]
+        }
+      },
+      "findings": [
+        {
+          "cardId": "b2-sich-revanchieren",
+          "field": "study.translation",
+          "verdict": "SOURCE_LV_ISSUE",
+          "severity": null,
+          "category": "lexical_semantics",
+          "de": "sich revanchieren",
+          "lv": "atmaksāt • atriebties",
+          "currentBs": "Vratiti • Osvetiti se",
+          "proposedBs": "",
+          "reason": "Atriebties/Osvetiti se means taking revenge, which does not match the core German meaning of repaying a favor.",
+          "confidence": "high",
+          "status": "SOURCE_LV_ISSUE"
+        }
+      ],
+      "staleFragmentRemoved": true
+    },
+    "b2-sich-verwundern": {
+      "verdict": "PASS",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verwundern"
+          ]
+        }
+      },
+      "findings": [],
+      "staleFragmentRemoved": true
+    }
+  }
+}
