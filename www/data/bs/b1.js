@@ -50592,7 +50592,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Schnitt an der Hand ist tief.",
-          "lv": "Posekotina na ruci je duboka."
+          "lv": "Posjekotina na ruci je duboka."
         },
         {
           "de": "Der Schnitt des Kleides ist modern.",
@@ -50635,7 +50635,7 @@ const B1_WORDS = [
               "yellow": "Hand"
             },
             "lv": {
-              "purple": "Posekotina"
+              "purple": "Posjekotina"
             }
           },
           {
@@ -54962,7 +54962,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Eine Wand streichen znači farbati zid, a ne šarati zid."
+        "text": "Eine Wand streichen znači farbati zid, a ne precrtati zid."
       },
       "sectionAccents": {
         "explanation": {
@@ -59821,7 +59821,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich habe mir die Hand verbrannt.",
-          "lv": "Opalio sam ruku."
+          "lv": "Opekao sam ruku."
         }
       ],
       "comparison": [
