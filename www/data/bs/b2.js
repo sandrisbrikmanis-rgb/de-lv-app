@@ -459,9 +459,9 @@ const B2_WORDS = [
       "id": "b2-sich-abwenden",
       "layout": "minimalStudy",
       "translation": "Okrenuti se od",
-      "rektion": "von + kam?",
+      "rektion": "von + koga/čega?",
       "explanation": "Sich abwenden zahtijeva određeni prijedlog von + koga/čega?.",
-      "forms": "von + kam?",
+      "forms": "von + koga/čega?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -910,9 +910,9 @@ const B2_WORDS = [
       "id": "b2-sich-befassen",
       "layout": "minimalStudy",
       "translation": "Baviti se",
-      "rektion": "mit + kam?",
+      "rektion": "mit + kim/čim?",
       "explanation": "Sich befassen zahtijeva određeni prijedlog mit + kim/čim?.",
-      "forms": "mit + kam?",
+      "forms": "mit + kim/čim?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -959,8 +959,8 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-begnuegen",
       "layout": "minimalStudy",
-      "translation": "Biti zadovoljan sa",
-      "rektion": "mit + kam?",
+      "translation": "Zadovoljiti se",
+      "rektion": "mit + kim/čim?",
       "explanation": "Sich begnügen zahtijeva određeni prijedlog mit + kim/čim?.",
       "forms": "mit + kim/čim?",
       "formsLabel": "Rekcija:",
@@ -1220,9 +1220,9 @@ const B2_WORDS = [
       "id": "b2-sich-berufen",
       "layout": "minimalStudy",
       "translation": "Pozivati se na",
-      "rektion": "auf + ko?",
+      "rektion": "auf + šta/koga?",
       "explanation": "Sich berufen zahtijeva određeni prijedlog auf + šta/koga?.",
-      "forms": "auf + ko?",
+      "forms": "auf + šta/koga?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -1273,9 +1273,9 @@ const B2_WORDS = [
       "id": "b2-sich-beschraenken",
       "layout": "minimalStudy",
       "translation": "Ograničiti se na",
-      "rektion": "auf + ko?",
+      "rektion": "auf + šta/koga?",
       "explanation": "Sich beschränken zahtijeva određeni prijedlog auf + šta/koga?.",
-      "forms": "auf + ko?",
+      "forms": "auf + šta/koga?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -1869,7 +1869,7 @@ const B2_WORDS = [
   },
   {
     "de": "brauen",
-    "lv": "Praviti pivo • Kuhati pivo",
+    "lv": "Praviti pivo • Variti pivo",
     "level": "B2"
   },
   {
@@ -2955,7 +2955,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchbrennen",
-    "lv": "Izgorjeti kroz • Pregorjeti • Izgorjeti • Pregorjeti",
+    "lv": "Progoreti • Pregorjeti • Izgorjeti • Pregorjeti",
     "level": "B2"
   },
   {
@@ -3094,7 +3094,7 @@ const B2_WORDS = [
     "de": "Eberesche",
     "de_article": "die",
     "de_plural": "die Ebereschen",
-    "lv": "Oskoruša • jarebika",
+    "lv": "Jarebika • jarebika",
     "level": "B2"
   },
   {
@@ -3568,9 +3568,9 @@ const B2_WORDS = [
       "id": "b2-sich-einpraegen",
       "layout": "minimalStudy",
       "translation": "Zapamtiti",
-      "rektion": "in + ko?",
+      "rektion": "šta?",
       "explanation": "Sich einprägen zahtijeva direktni objekat u akuzativu: šta?.",
-      "forms": "in + ko?",
+      "forms": "šta?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -3953,7 +3953,7 @@ const B2_WORDS = [
   },
   {
     "de": "entführen",
-    "lv": "Otmicom odvesti • Kidnapovati",
+    "lv": "Odvesti • Kidnapovati",
     "level": "B2"
   },
   {
@@ -4021,7 +4021,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Osloboditi se • Riješiti se",
       "rektion": "+ genitiv",
-      "explanation": "Sich entledigen se u savremenom njemačkom upotrebljava s genitivom bez prijedloga.",
+      "explanation": "Glagol sich entledigen se u savremenom njemačkom upotrebljava s genitivom bez prijedloga.",
       "forms": "+ genitiv",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
@@ -4056,9 +4056,9 @@ const B2_WORDS = [
       "id": "b2-sich-entruesten",
       "layout": "minimalStudy",
       "translation": "Ogorčiti se • Razbjesniti se",
-      "rektion": "über + šta?",
-      "explanation": "Sich entrüsten zahtijeva određeni prijedlog über + šta?.",
-      "forms": "über + šta?",
+      "rektion": "über + koga/šta?",
+      "explanation": "Sich entrüsten zahtijeva određeni prijedlog über + koga/šta?.",
+      "forms": "über + koga/šta?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -4114,7 +4114,7 @@ const B2_WORDS = [
   },
   {
     "de": "entweichen",
-    "lv": "Udaljiti se • Pobjeći • Povući se • Ispariti",
+    "lv": "Udaljiti se • Pobjeći • Povući se • Iscuriti",
     "level": "B2"
   },
   {
@@ -4372,7 +4372,7 @@ const B2_WORDS = [
   },
   {
     "de": "erlassen",
-    "lv": "Izdati • Oprostiti • Osloboditi",
+    "lv": "Izdati • Otpustiti • Osloboditi",
     "level": "B2"
   },
   {
@@ -4394,7 +4394,7 @@ const B2_WORDS = [
   },
   {
     "de": "erlöschen",
-    "lv": "Ugasiti se • Ugasiti se • Prestati važiti • Isteći",
+    "lv": "Ugasiti se • Ugasiti • Prestati važiti • Isteći",
     "level": "B2"
   },
   {
@@ -4425,17 +4425,14 @@ const B2_WORDS = [
       "id": "b2-sich-erniedrigen",
       "layout": "minimalStudy",
       "translation": "poniziti se",
-      "rektion": "vor + kam?",
-      "explanation": "Sich erniedrigen zahtijeva određeni prijedlog vor + kam?.",
-      "forms": "vor + kam?",
+      "rektion": "vor + kim?",
+      "explanation": "Sich erniedrigen zahtijeva određeni prijedlog vor + kim?.",
+      "forms": "vor + kim?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erniedrigen"
-          ],
-          "red": [
-            "vor + kam?"
           ]
         }
       }
@@ -4478,17 +4475,14 @@ const B2_WORDS = [
       "id": "b2-sich-erregen",
       "layout": "minimalStudy",
       "translation": "uzrujavati se zbog",
-      "rektion": "über + ko?",
-      "explanation": "Sich erregen zahtijeva određeni prijedlog über + ko?.",
-      "forms": "über + ko?",
+      "rektion": "über + koga/šta?",
+      "explanation": "Sich erregen zahtijeva određeni prijedlog über + koga/šta?.",
+      "forms": "über + koga/šta?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erregen"
-          ],
-          "red": [
-            "über + ko?"
           ]
         }
       }
@@ -4620,9 +4614,9 @@ const B2_WORDS = [
       "id": "b2-sich-erweisen",
       "layout": "minimalStudy",
       "translation": "pokazati se kao",
-      "rektion": "als + kas?",
-      "explanation": "Sich erweisen zahtijeva definitivni prijedlog als + what?.",
-      "forms": "als + kas?",
+      "rektion": "als + šta?",
+      "explanation": "Sich erweisen zahtijeva određeni prijedlog als + šta?.",
+      "forms": "als + šta?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -5136,7 +5130,7 @@ const B2_WORDS = [
   },
   {
     "de": "flimmern",
-    "lv": "Treperiti • Svjetlucati • Tit­rati • Žmiriti • Nijansirati",
+    "lv": "Treperiti • Svjetlucati • Titrati • Svjetlucati • Treperiti",
     "level": "B2"
   },
   {
@@ -5345,7 +5339,7 @@ const B2_WORDS = [
   {
     "de": "Fremde",
     "de_article": "die",
-    "lv": "Stranstvo • Strankinja",
+    "lv": "Stranstvo • Tuđina",
     "level": "B2"
   },
   {
@@ -5879,7 +5873,7 @@ const B2_WORDS = [
   },
   {
     "de": "gemessen",
-    "lv": "Izmjereno • Promišljeno",
+    "lv": "Izmjeren • Promišljen",
     "level": "B2"
   },
   {
@@ -5961,17 +5955,14 @@ const B2_WORDS = [
       "id": "b2-sich-genieren",
       "layout": "minimalStudy",
       "translation": "stidjeti se",
-      "rektion": "vor + kam?",
-      "explanation": "Sich genieren zahtijeva određeni prijedlog vor + kam?.",
-      "forms": "vor + kam?",
+      "rektion": "vor + kim?",
+      "explanation": "Sich genieren zahtijeva određeni prijedlog vor + kim?.",
+      "forms": "vor + kim?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich genieren"
-          ],
-          "red": [
-            "vor + kam?"
           ]
         }
       }
@@ -6042,7 +6033,7 @@ const B2_WORDS = [
   },
   {
     "de": "gerinnen",
-    "lv": "Zgrušavati se • Zgušnjavati se • Skupljati se • Stvrdnjavati se • Zgrušavati se",
+    "lv": "Zgrušavati se • Zgušnjavati se • Skupljati se • Stvrdnjavati se • Smrzavati se",
     "level": "B2"
   },
   {
@@ -6117,7 +6108,7 @@ const B2_WORDS = [
     "de": "Geschwätz",
     "de_article": "das",
     "de_plural": "die Geschwätze",
-    "lv": "Brbljanje • Prazne priče • Prazne priče",
+    "lv": "Brbljanje • Laganje • Prazne priče",
     "level": "B2"
   },
   {
@@ -6159,17 +6150,14 @@ const B2_WORDS = [
       "id": "b2-sich-gesellen",
       "layout": "minimalStudy",
       "translation": "Pridružiti se",
-      "rektion": "zu + kam?",
-      "explanation": "Sich gesellen zahtijeva određeni prijedlog zu + kam?.",
-      "forms": "zu + kam?",
+      "rektion": "zu + kome?",
+      "explanation": "Sich gesellen zahtijeva određeni prijedlog zu + kome?.",
+      "forms": "zu + kome?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich gesellen"
-          ],
-          "red": [
-            "zu + kam?"
           ]
         }
       }
@@ -6209,17 +6197,14 @@ const B2_WORDS = [
       "id": "b2-sich-gestalten",
       "layout": "minimalStudy",
       "translation": "oblikovati se u",
-      "rektion": "zu + kam?",
-      "explanation": "Sich gestalten zahtijeva određeni prijedlog zu + kam?.",
-      "forms": "zu + kam?",
+      "rektion": "zu + čemu?",
+      "explanation": "Sich gestalten zahtijeva određeni prijedlog zu + čemu?.",
+      "forms": "zu + čemu?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich gestalten"
-          ],
-          "red": [
-            "zu + kam?"
           ]
         }
       }
@@ -6610,17 +6595,14 @@ const B2_WORDS = [
       "id": "b2-sich-grauen",
       "layout": "minimalStudy",
       "translation": "Plašiti se",
-      "rektion": "vor + kam?",
-      "explanation": "Sich grauen zahtijeva definitivni prijedlog vor + kam?.",
-      "forms": "vor + kam?",
+      "rektion": "vor + kim?",
+      "explanation": "Sich grauen zahtijeva određeni prijedlog vor + kim?.",
+      "forms": "vor + kim?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich grauen"
-          ],
-          "red": [
-            "vor + kam?"
           ]
         }
       }
@@ -7235,10 +7217,10 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-herausbilden",
       "layout": "minimalStudy",
-      "translation": "Oblikovati se",
+      "translation": "oblikovati se u",
       "rektion": "zu + čemu?",
       "explanation": "Sich herausbilden zahtijeva određeni prijedlog zu + čemu?.",
-      "forms": "zu + kam?",
+      "forms": "zu + čemu?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -7264,7 +7246,7 @@ const B2_WORDS = [
       "translation": "Držati se podalje od",
       "rektion": "aus + čega?",
       "explanation": "Sich heraushalten zahtijeva određeni prijedlog aus + čega?.",
-      "forms": "aus + kam?",
+      "forms": "aus + čega?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -7290,7 +7272,7 @@ const B2_WORDS = [
       "translation": "Ispostaviti se, pokazati se",
       "rektion": "als + šta?",
       "explanation": "Sich herausstellen zahtijeva određeni prijedlog als + šta?.",
-      "forms": "als + kas?",
+      "forms": "als + šta?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -7330,8 +7312,8 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Istaći se",
       "rektion": "in + čemu?",
-      "explanation": "Sich hervortun zahtijeva određeni prijedlog u + čemu?.",
-      "forms": "in + kur?",
+      "explanation": "Sich hervortun zahtijeva određeni prijedlog in + čemu?.",
+      "forms": "in + čemu?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -7418,7 +7400,7 @@ const B2_WORDS = [
       "translation": "Predati se • posvetiti se",
       "rektion": "+ kam?",
       "explanation": "Sich hingeben zahtijeva + kome/čemu?.",
-      "forms": "+ kam?",
+      "forms": "+ kome/čemu?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -9225,11 +9207,11 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "Ističe rok."
+          "lv": "On naglašava rok."
         },
         {
           "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "Tražila je odgovor."
+          "lv": "Uporno je zahtijevala odgovor."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
@@ -9381,7 +9363,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachsitzen",
-    "lv": "Ostati u školi nakon nastave kao kaznu",
+    "lv": "Ostati u školi nakon nastave za kaznu",
     "level": "B2"
   },
   {
@@ -9806,7 +9788,7 @@ const B2_WORDS = [
       "translation": "Pariti se s(a)",
       "rektion": "mit + kim?",
       "explanation": "Sich paaren zahtijeva određeni prijedlog mit + kim?.",
-      "forms": "mit + kam?",
+      "forms": "mit + kim?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
@@ -10455,7 +10437,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Vratiti • Osvetiti se",
       "rektion": "bei + kam?",
-      "explanation": "Sich revanchieren zahtijeva definitivni prijedlog bei + kam?.",
+      "explanation": "Sich revanchieren zahtijeva određeni prijedlog bei + kam?.",
       "forms": "bei + kam?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
@@ -10908,7 +10890,7 @@ const B2_WORDS = [
     "de": "Schmarotzer",
     "de_article": "der",
     "de_plural": "die Schmarotzer",
-    "lv": "Lijenčina • Parazit",
+    "lv": "Besposličar • Parazit",
     "level": "B2"
   },
   {
@@ -12714,7 +12696,7 @@ const B2_WORDS = [
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "Podloga • Podloga • Podmetač • Podrška • Podaci • Dokumentacija",
+    "lv": "Podloga • Tepih • Podmetač • Podrška • Podaci • Dokumentacija",
     "level": "B2"
   },
   {
@@ -12912,7 +12894,7 @@ const B2_WORDS = [
   },
   {
     "de": "verehren",
-    "lv": "Poštovati • Cijeniti • Obožavati",
+    "lv": "Poštovati • Cijeniti • Pokloniti",
     "level": "B2"
   },
   {
@@ -13464,7 +13446,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Čuditi se",
       "rektion": "über + ko?",
-      "explanation": "Sich verwundern zahtijeva definitivni prijedlog über + ko?.",
+      "explanation": "Sich verwundern zahtijeva određeni prijedlog über + ko?.",
       "forms": "über + ko?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
@@ -14188,7 +14170,7 @@ const B2_WORDS = [
     "de": "Windbeutel",
     "de_article": "der",
     "de_plural": "die Windbeutel",
-    "lv": "Krempita",
+    "lv": "Princes-krofna",
     "level": "B2"
   },
   {
@@ -15331,7 +15313,7 @@ const B2_WORDS = [
       "id": "b2-sich-verlaufen",
       "layout": "minimalStudy",
       "translation": "Izgubiti se",
-      "explanation": "Sich verlaufen znači izgubiti se. Nema ustaljeni prijedlog. Ne treba ga miješati s verlaufen.",
+      "explanation": "Sich verlaufen znači izgubiti se. Nema ustaljen prijedlog. Ne treba ga miješati s verlaufen.",
       "sectionAccents": {
         "explanation": {
           "blue": [

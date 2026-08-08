@@ -27,6 +27,54 @@
       "field": "lv",
       "currentText": "Interfonski sistem kod kuće",
       "shortReason": "Bosanski prijevod odgovara latvijskom unosu, ali latvijski nepotrebno sužava opći pojam na kuću."
+    },
+    {
+      "findingId": "8e561d87076a",
+      "cardId": "b2-bewähren-229",
+      "field": "lv",
+      "currentText": "Dokazati se • Pokazati se uspješnim • Potvrditi se • Dokazati se",
+      "shortReason": "LV znači zaštititi/spasiti, dok njemački glagol znači dokazati se; BS ispravno prati DE.",
+      "source": "regression"
+    },
+    {
+      "findingId": "51d1038964d7",
+      "cardId": "b2-bezähmen-237",
+      "field": "lv",
+      "currentText": "Ukrotiti • Obuzdati",
+      "shortReason": "LV znači očarati/začarati, a njemački glagol znači ukrotiti ili obuzdati; BS prati DE.",
+      "source": "regression"
+    },
+    {
+      "findingId": "5a4da56eb76d",
+      "cardId": "b2-Buche-305",
+      "field": "lv",
+      "currentText": "Bukva • Bukva",
+      "shortReason": "Skābardis znači grab, ne bukva; LV drugi prevod nije semantički usklađen s njemačkim Buche.",
+      "source": "regression"
+    },
+    {
+      "findingId": "52fb11fa955f",
+      "cardId": "b2-einflussreich-541",
+      "field": "lv",
+      "currentText": "Utjecajan • utjecajan",
+      "shortReason": "Latvian iespaidīgs means impressive, not influential; the source mixes a different sense into this card.",
+      "source": "regression"
+    },
+    {
+      "findingId": "45ae30d00e73",
+      "cardId": "b2-erbrechen-664",
+      "field": "lv",
+      "currentText": "Povratiti",
+      "shortReason": "Latvijski izvor znači obiti ili provaliti, a ne povratiti; bosanski odgovara njemačkom unosu.",
+      "source": "regression"
+    },
+    {
+      "findingId": "16e7c42ce3d2",
+      "cardId": "b2-Falke-755",
+      "field": "lv",
+      "currentText": "Sokol",
+      "shortReason": "Latvijski vanags znači jastreb ili kopac, dok njemački Falke i bosanski sokol znače sokol.",
+      "source": "regression"
     }
   ],
   "DE_SOURCE_ISSUE": [
@@ -83,5 +131,6 @@
       "currentText": "Ponovo izdati",
       "shortReason": "Current BS text differs from audited snapshot"
     }
-  ]
+  ],
+  "REGRESSION_SOURCE_LV_ISSUE": []
 }
