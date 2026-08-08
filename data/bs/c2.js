@@ -8,7 +8,7 @@ const C2_WORDS = [
   },
   {
     "de": "konterkarieren",
-    "lv": "Poremetiti",
+    "lv": "Osujetiti",
     "level": "C2"
   },
   {
@@ -104,7 +104,7 @@ const C2_WORDS = [
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Ordinacija",
+    "lv": "Prostorija za liječenje",
     "level": "C2"
   },
   {
@@ -248,7 +248,7 @@ const C2_WORDS = [
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "Prostorija za čuvanje prtljaga",
+    "lv": "Prostor za čuvanje prtljage",
     "level": "C2"
   },
   {
@@ -276,7 +276,7 @@ const C2_WORDS = [
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "Omot za poklon",
+    "lv": "Poklon-pakovanje",
     "level": "C2"
   },
   {
@@ -331,7 +331,7 @@ const C2_WORDS = [
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Osiguranje u slučaju bolesti",
+    "lv": "Zdravstveno osiguranje",
     "level": "C2"
   },
   {
@@ -408,14 +408,14 @@ const C2_WORDS = [
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Spavaća soba",
+    "lv": "Kabina u spavaćem vagonu",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Kliznica saonica",
+    "lv": "Klizna krama",
     "level": "C2"
   },
   {
@@ -467,7 +467,7 @@ const C2_WORDS = [
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Pješački tunel",
+    "lv": "Cestovni podvožnjak",
     "level": "C2"
   },
   {
@@ -536,7 +536,7 @@ const C2_WORDS = [
     "de": "Abgeordnetenhaus",
     "de_article": "das",
     "de_plural": "die Abgeordnetenhäuser",
-    "lv": "Parlament",
+    "lv": "Predstavnički dom",
     "level": "C2"
   },
   {
@@ -578,7 +578,7 @@ const C2_WORDS = [
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Naknada za školovanje",
+    "lv": "Naknada za stručno osposobljavanje",
     "level": "C2"
   },
   {
@@ -599,7 +599,7 @@ const C2_WORDS = [
     "de": "Berufsbezeichnung",
     "de_article": "die",
     "de_plural": "die Berufsbezeichnungen",
-    "lv": "Naziv radnog mjesta",
+    "lv": "Naziv zanimanja",
     "level": "C2"
   },
   {
@@ -696,7 +696,7 @@ const C2_WORDS = [
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Operativna služba",
+    "lv": "Dežurna služba",
     "level": "C2"
   },
   {
@@ -708,7 +708,7 @@ const C2_WORDS = [
   },
   {
     "de": "durchkreuzen",
-    "lv": "Precrtati • Prekrižiti • Preći • Rastaviti",
+    "lv": "Precrtati • Prekrižiti • Preći • Osujetiti",
     "level": "C2"
   },
   {
@@ -729,7 +729,7 @@ const C2_WORDS = [
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Osrednji učinak • Prosječan učinak",
+    "lv": "Prosječan učinak",
     "level": "C2"
   },
   {
@@ -757,7 +757,7 @@ const C2_WORDS = [
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Pismena preporuka",
+    "lv": "Preporučno pismo",
     "level": "C2"
   },
   {
@@ -776,7 +776,7 @@ const C2_WORDS = [
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Sigurnost • Odlučnost • Nepokolebljivost",
+    "lv": "Odlučnost • Odlučnost • Nepokolebljivost",
     "level": "C2"
   },
   {
@@ -804,7 +804,7 @@ const C2_WORDS = [
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "Postignuće • Korist • Dobitak",
+    "lv": "Postignuće",
     "level": "C2"
   },
   {
@@ -817,7 +817,7 @@ const C2_WORDS = [
   {
     "de": "Fallschirmspringen",
     "de_article": "das",
-    "lv": "Skakanje padobranom",
+    "lv": "Padobranstvo",
     "level": "C2"
   },
   {
@@ -873,7 +873,7 @@ const C2_WORDS = [
     "de": "Gedächtnisstörung",
     "de_article": "die",
     "de_plural": "die Gedächtnisstörungen",
-    "lv": "Poremećaji pamćenja",
+    "lv": "Poremećaj pamćenja",
     "level": "C2"
   },
   {
@@ -900,7 +900,7 @@ const C2_WORDS = [
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Snalažljivost",
+    "lv": "Prisebnost",
     "level": "C2"
   },
   {
@@ -933,7 +933,7 @@ const C2_WORDS = [
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "Stanovnici sela",
+    "lv": "Seoska zajednica",
     "level": "C2"
   },
   {
@@ -968,7 +968,7 @@ const C2_WORDS = [
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Pravda • Osjećaj za pravdu",
+    "lv": "Osjećaj za pravdu",
     "level": "C2"
   },
   {
@@ -1023,12 +1023,12 @@ const C2_WORDS = [
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Nepoštivanje određene brzine • Prekoračenje",
+    "lv": "Prekoračenje brzine",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Društveni • Javni",
+    "lv": "Društveni",
     "level": "C2"
   },
   {
@@ -1070,7 +1070,7 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Isplata dobitka na lutriji",
+    "lv": "Isplata dobitka",
     "level": "C2"
   },
   {
@@ -1105,7 +1105,7 @@ const C2_WORDS = [
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Članovi porodice • Ukućani",
+    "lv": "Zajednica stanara",
     "level": "C2"
   },
   {
@@ -1175,7 +1175,7 @@ const C2_WORDS = [
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Sredstva za život • Troškovi",
+    "lv": "Troškovi života",
     "level": "C2"
   },
   {
@@ -1217,7 +1217,7 @@ const C2_WORDS = [
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Prvenstvo",
+    "lv": "Prvenstvena utakmica",
     "level": "C2"
   },
   {
@@ -1282,7 +1282,7 @@ const C2_WORDS = [
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Konkurs",
+    "lv": "Nagradni konkurs",
     "level": "C2"
   },
   {
@@ -1294,21 +1294,21 @@ const C2_WORDS = [
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Satelitski televizijski prijenos",
+    "lv": "Satelitski prijenos",
     "level": "C2"
   },
   {
     "de": "Scheidungsprozess",
     "de_article": "der",
     "de_plural": "die Scheidungsprozesse",
-    "lv": "Brakorazvodna parnica",
+    "lv": "Brakorazvodni postupak",
     "level": "C2"
   },
   {
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Žalba",
+    "lv": "Pisana žalba",
     "level": "C2"
   },
   {
@@ -1336,7 +1336,7 @@ const C2_WORDS = [
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "Skup tehnika samoodbrane",
+    "lv": "Samoodbrana",
     "level": "C2"
   },
   {
@@ -1371,7 +1371,7 @@ const C2_WORDS = [
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "Tužba sudu za utvrđivanje očinstva",
+    "lv": "Tužba za utvrđivanje očinstva",
     "level": "C2"
   },
   {
