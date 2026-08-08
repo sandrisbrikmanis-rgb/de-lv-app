@@ -1,0 +1,2281 @@
+[
+  {
+    "level": "A1",
+    "cardDe": "klein",
+    "studyId": "a1-klein-study",
+    "section": "examples",
+    "index": 3,
+    "field": "de",
+    "color": "blue",
+    "term": "klein",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "klein",
+      "klein"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "klein",
+    "studyId": "a1-klein-study",
+    "section": "examples",
+    "index": 3,
+    "field": "de",
+    "color": "blue",
+    "term": "klein",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "klein",
+      "klein"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "klein",
+    "studyId": "a1-klein-study",
+    "section": "examples",
+    "index": 3,
+    "field": "lv",
+    "color": "purple",
+    "term": "have",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "have"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "klein",
+    "studyId": "a1-klein-study",
+    "section": "examples",
+    "index": 4,
+    "field": "de",
+    "color": "blue",
+    "term": "klein",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "klein",
+      "klein"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "klein",
+    "studyId": "a1-klein-study",
+    "section": "examples",
+    "index": 4,
+    "field": "de",
+    "color": "blue",
+    "term": "klein",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "klein",
+      "klein"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "klein",
+    "studyId": "a1-klein-study",
+    "section": "examples",
+    "index": 4,
+    "field": "lv",
+    "color": "purple",
+    "term": "The",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "The"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Besuch",
+    "studyId": "a1-besuch",
+    "section": "explanation",
+    "index": null,
+    "field": null,
+    "color": "purple",
+    "term": "social visit",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Main idea: der Besuch means a visit to a place, an event, or someone's home.",
+      "For a place or event, visit is the natural word in English.",
+      "When referring to visiting a person, you can say a visit or coming to see someone.",
+      "The plural is die Besuche."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "Main idea: der Besuch means a visit to a place, an event, or someone's home. | For a place or event, visit is the natural word in English. | When referring to visiting a person, you can say a visit or",
+    "lvDeAccentTokens": [
+      "apmeklējums",
+      "apciemojums",
+      "vizīte"
+    ],
+    "enDeAccentTokens": [
+      "visit",
+      "social visit",
+      "house call"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Besuch",
+    "studyId": "a1-besuch",
+    "section": "explanation",
+    "index": null,
+    "field": null,
+    "color": "purple",
+    "term": "house call",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Main idea: der Besuch means a visit to a place, an event, or someone's home.",
+      "For a place or event, visit is the natural word in English.",
+      "When referring to visiting a person, you can say a visit or coming to see someone.",
+      "The plural is die Besuche."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "Main idea: der Besuch means a visit to a place, an event, or someone's home. | For a place or event, visit is the natural word in English. | When referring to visiting a person, you can say a visit or",
+    "lvDeAccentTokens": [
+      "apmeklējums",
+      "apciemojums",
+      "vizīte"
+    ],
+    "enDeAccentTokens": [
+      "visit",
+      "social visit",
+      "house call"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Besuch",
+    "studyId": "a1-besuch",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "color": "purple",
+    "term": "house call",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "der Besuch is not only a social visit; it can also mean visiting a place or a medical visit."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "der Besuch is not only a social visit; it can also mean visiting a place or a medical visit.",
+    "lvDeAccentTokens": [
+      "apmeklējums",
+      "apciemojums",
+      "vizīte"
+    ],
+    "enDeAccentTokens": [
+      "visit",
+      "social visit",
+      "house call"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Der Besuch im Museum war interessant."
+  },
+  {
+    "level": "A1",
+    "cardDe": "besuchen",
+    "studyId": "a1-besuchen",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "color": "blue",
+    "term": "besuchen",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Remember: attend a place, but visit a person."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "Remember: attend a place, but visit a person.",
+    "lvDeAccentTokens": [
+      "besuchen"
+    ],
+    "enDeAccentTokens": [
+      "besuchen"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "besuchen",
+    "studyId": "a1-besuchen",
+    "section": "important",
+    "index": 1,
+    "field": null,
+    "color": "green",
+    "term": "vietu",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "The English wording depends on the object: attend a place, visit a person."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "The English wording depends on the object: attend a place, visit a person.",
+    "lvDeAccentTokens": [
+      "vietu",
+      "personu"
+    ],
+    "enDeAccentTokens": [
+      "vietu",
+      "personu"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Wir besuchen einen Deutschkurs."
+  },
+  {
+    "level": "A1",
+    "cardDe": "besuchen",
+    "studyId": "a1-besuchen",
+    "section": "important",
+    "index": 1,
+    "field": null,
+    "color": "green",
+    "term": "personu",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "The English wording depends on the object: attend a place, visit a person."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "The English wording depends on the object: attend a place, visit a person.",
+    "lvDeAccentTokens": [
+      "vietu",
+      "personu"
+    ],
+    "enDeAccentTokens": [
+      "vietu",
+      "personu"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Wir besuchen einen Deutschkurs."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bitte",
+    "studyId": "a1-bitte",
+    "section": "examples",
+    "index": 3,
+    "field": "de",
+    "color": "blue",
+    "term": "bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "bitte",
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bitte",
+    "studyId": "a1-bitte",
+    "section": "examples",
+    "index": 3,
+    "field": "de",
+    "color": "blue",
+    "term": "bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "bitte",
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bitte",
+    "studyId": "a1-bitte",
+    "section": "examples",
+    "index": 3,
+    "field": "lv",
+    "color": "purple",
+    "term": "please",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "please"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bitte",
+    "studyId": "a1-bitte",
+    "section": "examples",
+    "index": 4,
+    "field": "de",
+    "color": "blue",
+    "term": "bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "bitte",
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bitte",
+    "studyId": "a1-bitte",
+    "section": "examples",
+    "index": 4,
+    "field": "de",
+    "color": "blue",
+    "term": "bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "bitte",
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bitte",
+    "studyId": "a1-bitte",
+    "section": "examples",
+    "index": 5,
+    "field": "de",
+    "color": "blue",
+    "term": "bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "bitte",
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bitte",
+    "studyId": "a1-bitte",
+    "section": "examples",
+    "index": 5,
+    "field": "de",
+    "color": "blue",
+    "term": "bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "bitte",
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Bitte",
+    "studyId": "a1-bitte-study",
+    "section": "examples",
+    "index": 3,
+    "field": "de",
+    "color": "green",
+    "term": "bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Bitte",
+    "studyId": "a1-bitte-study",
+    "section": "examples",
+    "index": 4,
+    "field": "de",
+    "color": "green",
+    "term": "bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Bitte",
+    "studyId": "a1-bitte-study",
+    "section": "examples",
+    "index": 4,
+    "field": "lv",
+    "color": "purple",
+    "term": "have",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "have"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Bitte",
+    "studyId": "a1-bitte-study",
+    "section": "examples",
+    "index": 5,
+    "field": "de",
+    "color": "green",
+    "term": "die Bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "die Bitte",
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Bitte",
+    "studyId": "a1-bitte-study",
+    "section": "examples",
+    "index": 5,
+    "field": "de",
+    "color": "green",
+    "term": "bitte",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "die Bitte",
+      "bitte"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Bitte",
+    "studyId": "a1-bitte-study",
+    "section": "examples",
+    "index": 5,
+    "field": "lv",
+    "color": "purple",
+    "term": "The",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": null,
+    "enDeAccentTokens": [
+      "The"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "Bitte",
+    "studyId": "a1-bitte-study",
+    "section": "tip",
+    "index": 0,
+    "field": null,
+    "color": "purple",
+    "term": "Little",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Remember: bitte with a lowercase letter means please; die Bitte with a capital letter means a request."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Remember: bitte with a lowercase letter means please; die Bitte with a capital letter means a request.",
+    "enDeAccentTokens": [
+      "Little"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich habe eine Bitte."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "examples",
+    "index": 0,
+    "field": "de",
+    "color": "yellow",
+    "term": "Wasser",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Ich bringe dir ein Buch."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Ich bringe dir ein Buch.",
+    "lvDeAccentTokens": [
+      "Wasser"
+    ],
+    "enDeAccentTokens": [
+      "Wasser"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deAtIndex": "Ich bringe dir ein Buch.",
+    "lvAtIndex": "Bring me water please",
+    "termInIndexText": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bringe dir ein Buch."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "examples",
+    "index": 1,
+    "field": "de",
+    "color": "green",
+    "term": "dich",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Ich bringe das Paket zur Post."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Ich bringe das Paket zur Post.",
+    "lvDeAccentTokens": [
+      "dich"
+    ],
+    "enDeAccentTokens": [
+      "dich"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deAtIndex": "Ich bringe das Paket zur Post.",
+    "lvAtIndex": "I will take you home",
+    "termInIndexText": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bringe das Paket zur Post."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "examples",
+    "index": 2,
+    "field": "de",
+    "color": "blue",
+    "term": "bringt",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Ich bringe die Kinder zur Schule."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Ich bringe die Kinder zur Schule.",
+    "lvDeAccentTokens": [
+      "bringt"
+    ],
+    "enDeAccentTokens": [
+      "bringt"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deAtIndex": "Ich bringe die Kinder zur Schule.",
+    "lvAtIndex": "He takes the book to school.",
+    "termInIndexText": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bringe die Kinder zur Schule."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "examples",
+    "index": 2,
+    "field": "de",
+    "color": "yellow",
+    "term": "Buch",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Ich bringe die Kinder zur Schule."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Ich bringe die Kinder zur Schule.",
+    "lvDeAccentTokens": [
+      "Buch"
+    ],
+    "enDeAccentTokens": [
+      "Buch"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deAtIndex": "Ich bringe die Kinder zur Schule.",
+    "lvAtIndex": "He takes the book to school.",
+    "termInIndexText": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bringe die Kinder zur Schule."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "examples",
+    "index": 3,
+    "field": "de",
+    "color": "yellow",
+    "term": "Buch",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": [
+      "Buch"
+    ],
+    "enDeAccentTokens": [
+      "Buch"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "examples",
+    "index": 3,
+    "field": "de",
+    "color": "red",
+    "term": "nehme",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": [
+      "nehme"
+    ],
+    "enDeAccentTokens": [
+      "nehme"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "examples",
+    "index": 3,
+    "field": "lv",
+    "color": "yellow",
+    "term": "take",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": [
+      "grāmatu"
+    ],
+    "enDeAccentTokens": [
+      "take"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "examples",
+    "index": 3,
+    "field": "lv",
+    "color": "red",
+    "term": "take",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": [
+      "paņemu"
+    ],
+    "enDeAccentTokens": [
+      "take"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "comparison",
+    "index": 1,
+    "field": "word",
+    "color": "green",
+    "term": "nehmen",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "bringen"
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "bringen",
+    "lvDeAccentTokens": [
+      "nehmen"
+    ],
+    "enDeAccentTokens": [
+      "nehmen"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bringe das Paket zur Post."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "comparison",
+    "index": 1,
+    "field": "example",
+    "color": "red",
+    "term": "nehme",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Ich bringe das Paket zur Post. – Es aiznesu paku uz pastu."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Ich bringe das Paket zur Post. – Es aiznesu paku uz pastu.",
+    "lvDeAccentTokens": [
+      "nehme"
+    ],
+    "enDeAccentTokens": [
+      "nehme"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bringe das Paket zur Post."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "comparison",
+    "index": 2,
+    "field": "word",
+    "color": "green",
+    "term": "holen",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "bringen"
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "bringen",
+    "lvDeAccentTokens": [
+      "holen"
+    ],
+    "enDeAccentTokens": [
+      "holen"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bringe die Kinder zur Schule."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "comparison",
+    "index": 2,
+    "field": "example",
+    "color": "yellow",
+    "term": "hole",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Ich bringe die Kinder zur Schule. – Es aizvedu bērnus uz skolu."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Ich bringe die Kinder zur Schule. – Es aizvedu bērnus uz skolu.",
+    "lvDeAccentTokens": [
+      "hole"
+    ],
+    "enDeAccentTokens": [
+      "hole"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bringe die Kinder zur Schule."
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "comparison",
+    "index": 3,
+    "field": "word",
+    "color": "green",
+    "term": "mitbringen",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "bringen"
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "bringen",
+    "lvDeAccentTokens": [
+      "mitbringen"
+    ],
+    "enDeAccentTokens": [
+      "mitbringen"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "bringen",
+    "studyId": "a1-bringen",
+    "section": "comparison",
+    "index": 3,
+    "field": "example",
+    "color": "green",
+    "term": "mit",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu.",
+    "lvDeAccentTokens": [
+      "mit"
+    ],
+    "enDeAccentTokens": [
+      "mit"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "ein",
+    "studyId": "a1-ein",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "color": "red",
+    "term": "noteiktais artikuls",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "ein is not the definite article."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "ein is not the definite article.",
+    "lvDeAccentTokens": [
+      "noteiktais artikuls"
+    ],
+    "enDeAccentTokens": [
+      "noteiktais artikuls"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 4,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ein Mann wartet draußen."
+  },
+  {
+    "level": "A1",
+    "cardDe": "es",
+    "studyId": "a1-es",
+    "section": "examples",
+    "index": 0,
+    "field": null,
+    "color": "blue",
+    "term": "Ich",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Es regnet.",
+      "I'm learning German."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Es regnet. | I'm learning German.",
+    "lvDeAccentTokens": [
+      "Ich"
+    ],
+    "enDeAccentTokens": [
+      "Ich"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 4,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deAtIndex": "Es regnet.",
+    "lvAtIndex": "I'm learning German.",
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Es regnet."
+  },
+  {
+    "level": "A1",
+    "cardDe": "es",
+    "studyId": "a1-es",
+    "section": "examples",
+    "index": 1,
+    "field": null,
+    "color": "blue",
+    "term": "Er",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Es ist kalt.",
+      "He is tired."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Es ist kalt. | He is tired.",
+    "lvDeAccentTokens": [
+      "Er"
+    ],
+    "enDeAccentTokens": [
+      "Er"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 4,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deAtIndex": "Es ist kalt.",
+    "lvAtIndex": "He is tired.",
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Es ist kalt."
+  },
+  {
+    "level": "A1",
+    "cardDe": "es",
+    "studyId": "a1-es",
+    "section": "examples",
+    "index": 2,
+    "field": null,
+    "color": "red",
+    "term": "Sie",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Das Kind schläft.",
+      "She works here."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Das Kind schläft. | She works here.",
+    "lvDeAccentTokens": [
+      "Sie"
+    ],
+    "enDeAccentTokens": [
+      "Sie"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 4,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deAtIndex": "Das Kind schläft.",
+    "lvAtIndex": "She works here.",
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Das Kind schläft."
+  },
+  {
+    "level": "A1",
+    "cardDe": "es",
+    "studyId": "a1-es",
+    "section": "examples",
+    "index": 3,
+    "field": null,
+    "color": "yellow",
+    "term": "Das",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Es ist müde.",
+      "It's my book."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Es ist müde. | It's my book.",
+    "lvDeAccentTokens": [
+      "Das"
+    ],
+    "enDeAccentTokens": [
+      "Das"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 4,
+    "indexExists": true,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deAtIndex": "Es ist müde.",
+    "lvAtIndex": "It's my book.",
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Es ist müde."
+  },
+  {
+    "level": "A1",
+    "cardDe": "es",
+    "studyId": "a1-es",
+    "section": "examples",
+    "index": 4,
+    "field": null,
+    "color": "blue",
+    "term": "Es",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": [
+      "Es"
+    ],
+    "enDeAccentTokens": [
+      "Es"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 4,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "es",
+    "studyId": "a1-es",
+    "section": "examples",
+    "index": 5,
+    "field": null,
+    "color": "blue",
+    "term": "Es",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": [
+      "Es"
+    ],
+    "enDeAccentTokens": [
+      "Es"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 4,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "finden",
+    "studyId": "a1-finden",
+    "section": "examples",
+    "index": 1,
+    "field": "de",
+    "color": "blue",
+    "term": "gefunden",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Ich finde das gut."
+    ],
+    "isDeDriftCard": true,
+    "currentTextBlob": "Ich finde das gut.",
+    "lvDeAccentTokens": [
+      "gefunden"
+    ],
+    "enDeAccentTokens": [
+      "gefunden"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deAtIndex": "Ich finde das gut.",
+    "lvAtIndex": "Did you find your phone",
+    "termInIndexText": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich finde das gut."
+  },
+  {
+    "level": "A1",
+    "cardDe": "finden",
+    "studyId": "a1-finden",
+    "section": "examples",
+    "index": 3,
+    "field": "de",
+    "color": "blue",
+    "term": "findest",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": [
+      "findest"
+    ],
+    "enDeAccentTokens": [
+      "findest"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": true,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "finden",
+    "studyId": "a1-finden",
+    "section": "examples",
+    "index": 3,
+    "field": "lv",
+    "color": "purple",
+    "term": "What",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [],
+    "isDeDriftCard": true,
+    "currentTextBlob": "",
+    "lvDeAccentTokens": [
+      "domā"
+    ],
+    "enDeAccentTokens": [
+      "What"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": false,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "hübsch",
+    "studyId": "a1-huebsch",
+    "section": "explanation",
+    "index": null,
+    "field": null,
+    "color": "green",
+    "term": "appearance",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Main idea: hübsch means neat, attractive, or good-looking.",
+      "hübsch often describes how a person, clothes, room, or object looks.",
+      "Nice in some contexts is possible in English, but it is too broad as the main translation.",
+      "For character or friendly behaviour, German more often uses nett."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "Main idea: hübsch means neat, attractive, or good-looking. | hübsch often describes how a person, clothes, room, or object looks. | Nice in some contexts is possible in English, but it is too broad as",
+    "lvDeAccentTokens": [
+      "izskatu"
+    ],
+    "enDeAccentTokens": [
+      "appearance"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "hübsch",
+    "studyId": "a1-huebsch",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "color": "green",
+    "term": "jauks cilvēks",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Remember: hübsch mainly describes a neat or attractive appearance, but nett more often describes a nice person or friendly behaviour."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "Remember: hübsch mainly describes a neat or attractive appearance, but nett more often describes a nice person or friendly behaviour.",
+    "lvDeAccentTokens": [
+      "jauks cilvēks"
+    ],
+    "enDeAccentTokens": [
+      "jauks cilvēks"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "hübsch",
+    "studyId": "a1-huebsch",
+    "section": "tip",
+    "index": null,
+    "field": "left",
+    "color": "purple",
+    "term": "neat appearance",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Remember: hübsch mainly describes a neat or attractive appearance, but nett more often describes a nice person or friendly behaviour."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "Remember: hübsch mainly describes a neat or attractive appearance, but nett more often describes a nice person or friendly behaviour.",
+    "lvDeAccentTokens": [
+      "glīts izskats"
+    ],
+    "enDeAccentTokens": [
+      "neat appearance"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": ""
+  },
+  {
+    "level": "A1",
+    "cardDe": "hübsch",
+    "studyId": "a1-huebsch",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "color": "purple",
+    "term": "neat",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "hübsch is not a universal translation for nice."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "hübsch is not a universal translation for nice.",
+    "lvDeAccentTokens": [
+      "glīts"
+    ],
+    "enDeAccentTokens": [
+      "neat"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Sie trägt ein hübsches Kleid."
+  },
+  {
+    "level": "A1",
+    "cardDe": "hübsch",
+    "studyId": "a1-huebsch",
+    "section": "important",
+    "index": 1,
+    "field": null,
+    "color": "purple",
+    "term": "nice",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "For a person's character or friendly behaviour, nett is usually more appropriate."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "For a person's character or friendly behaviour, nett is usually more appropriate.",
+    "lvDeAccentTokens": [
+      "jauks",
+      "laipns"
+    ],
+    "enDeAccentTokens": [
+      "nice",
+      "friendly"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 3,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Das Zimmer ist hübsch."
+  },
+  {
+    "level": "A1",
+    "cardDe": "um",
+    "studyId": "a1-um",
+    "section": "important",
+    "index": 0,
+    "field": null,
+    "color": "purple",
+    "term": "Replace LV token with English equivalent in sectionAccents",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "um ar laiku parasti ir “pulksten”."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "um ar laiku parasti ir “pulksten”.",
+    "lvDeAccentTokens": [
+      "pulksten"
+    ],
+    "enDeAccentTokens": [
+      "pulksten",
+      "Replace LV token with English equivalent in sectionAccents"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 4,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich komme um acht Uhr."
+  },
+  {
+    "level": "A1",
+    "cardDe": "einmal",
+    "studyId": "a1-einmal",
+    "section": "tip",
+    "index": 0,
+    "field": null,
+    "color": "purple",
+    "term": "once",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "einmal = vienreiz",
+      "Use einmal when the context fits this meaning."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "einmal = vienreiz | Use einmal when the context fits this meaning.",
+    "lvDeAccentTokens": [
+      "vienreiz"
+    ],
+    "enDeAccentTokens": [
+      "vienreiz",
+      "once"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 2,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": true,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich war einmal in Berlin."
+  },
+  {
+    "level": "A2",
+    "cardDe": "brennen",
+    "studyId": "a2-brennen",
+    "section": "tip",
+    "index": 0,
+    "field": "text",
+    "color": "purple",
+    "term": "deg",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "If something is burning by itself, use brennen.",
+      "If you set something on fire, you usually use anzünden; when something is burned, verbrennen is used."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "If something is burning by itself, use brennen. | If you set something on fire, you usually use anzünden; when something is burned, verbrennen is used.",
+    "lvDeAccentTokens": [
+      "deg"
+    ],
+    "enDeAccentTokens": [
+      "deg"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 6,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Das Feuer brennt."
+  },
+  {
+    "level": "A2",
+    "cardDe": "brennen",
+    "studyId": "a2-brennen",
+    "section": "tip",
+    "index": 1,
+    "field": "text",
+    "color": "purple",
+    "term": "kaut",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "If something is burning by itself, use brennen.",
+      "If you set something on fire, you usually use anzünden; when something is burned, verbrennen is used."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "If something is burning by itself, use brennen. | If you set something on fire, you usually use anzünden; when something is burned, verbrennen is used.",
+    "lvDeAccentTokens": [
+      "aizdedzini",
+      "sadedzināts"
+    ],
+    "enDeAccentTokens": [
+      "kaut",
+      "burned"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 6,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Meine Augen brennen."
+  },
+  {
+    "level": "A2",
+    "cardDe": "dafür",
+    "studyId": "a2-dafür",
+    "section": "important",
+    "index": 0,
+    "field": "example",
+    "color": "green",
+    "term": "lai",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "dafür is not the same as damit.",
+      "dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "dafür is not the same as damit. | dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it.",
+    "lvDeAccentTokens": [
+      "lai",
+      "tam"
+    ],
+    "enDeAccentTokens": [
+      "lai",
+      "tam"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 7,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bin dafür."
+  },
+  {
+    "level": "A2",
+    "cardDe": "dafür",
+    "studyId": "a2-dafür",
+    "section": "important",
+    "index": 0,
+    "field": "example",
+    "color": "green",
+    "term": "tam",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "dafür is not the same as damit.",
+      "dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "dafür is not the same as damit. | dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it.",
+    "lvDeAccentTokens": [
+      "lai",
+      "tam"
+    ],
+    "enDeAccentTokens": [
+      "lai",
+      "tam"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 7,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bin dafür."
+  },
+  {
+    "level": "A2",
+    "cardDe": "dafür",
+    "studyId": "a2-dafür",
+    "section": "important",
+    "index": 0,
+    "field": "example",
+    "color": "orange",
+    "term": "par to",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "dafür is not the same as damit.",
+      "dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "dafür is not the same as damit. | dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it.",
+    "lvDeAccentTokens": [
+      "par to",
+      "ar to"
+    ],
+    "enDeAccentTokens": [
+      "par to",
+      "ar to"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 7,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bin dafür."
+  },
+  {
+    "level": "A2",
+    "cardDe": "dafür",
+    "studyId": "a2-dafür",
+    "section": "important",
+    "index": 0,
+    "field": "example",
+    "color": "orange",
+    "term": "ar to",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "dafür is not the same as damit.",
+      "dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "dafür is not the same as damit. | dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it.",
+    "lvDeAccentTokens": [
+      "par to",
+      "ar to"
+    ],
+    "enDeAccentTokens": [
+      "par to",
+      "ar to"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 7,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bin dafür."
+  },
+  {
+    "level": "A2",
+    "cardDe": "dafür",
+    "studyId": "a2-dafür",
+    "section": "important",
+    "index": 0,
+    "field": "example",
+    "color": "red",
+    "term": "esmu",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "dafür is not the same as damit.",
+      "dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "dafür is not the same as damit. | dafür = for it / for that. damit = with it or so that. Ich bin dafür = I am for it.",
+    "lvDeAccentTokens": [
+      "dafür",
+      "damit",
+      "esmu"
+    ],
+    "enDeAccentTokens": [
+      "dafür",
+      "damit",
+      "esmu"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 7,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich bin dafür."
+  },
+  {
+    "level": "A2",
+    "cardDe": "Decke",
+    "studyId": "a2-decke",
+    "section": "tip",
+    "index": 1,
+    "field": "text",
+    "color": "yellow",
+    "term": "lampu",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "When it comes to sleeping or warmth, die Decke is usually a blanket.",
+      "If talking about a lamp or a room, die Decke usually means the ceiling."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "When it comes to sleeping or warmth, die Decke is usually a blanket. | If talking about a lamp or a room, die Decke usually means the ceiling.",
+    "lvDeAccentTokens": [
+      "lampu",
+      "istabu"
+    ],
+    "enDeAccentTokens": [
+      "lampu",
+      "istabu"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 6,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich brauche eine Decke."
+  },
+  {
+    "level": "A2",
+    "cardDe": "Decke",
+    "studyId": "a2-decke",
+    "section": "tip",
+    "index": 1,
+    "field": "text",
+    "color": "yellow",
+    "term": "istabu",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "When it comes to sleeping or warmth, die Decke is usually a blanket.",
+      "If talking about a lamp or a room, die Decke usually means the ceiling."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "When it comes to sleeping or warmth, die Decke is usually a blanket. | If talking about a lamp or a room, die Decke usually means the ceiling.",
+    "lvDeAccentTokens": [
+      "lampu",
+      "istabu"
+    ],
+    "enDeAccentTokens": [
+      "lampu",
+      "istabu"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 6,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Ich brauche eine Decke."
+  },
+  {
+    "level": "A2",
+    "cardDe": "etwa",
+    "studyId": "a2-etwa",
+    "section": "important",
+    "index": 3,
+    "field": "text",
+    "color": "purple",
+    "term": "or tad",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Hast du das etwa vergessen? = Did you perhaps forget that?"
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "Hast du das etwa vergessen? = Did you perhaps forget that?",
+    "lvDeAccentTokens": [
+      "vai tad"
+    ],
+    "enDeAccentTokens": [
+      "or tad"
+    ],
+    "deAccentParityWithLv": false,
+    "rendererWouldMatch": false,
+    "exCount": 6,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Hast du das etwa vergessen?"
+  },
+  {
+    "level": "A2",
+    "cardDe": "etwa",
+    "studyId": "a2-etwa",
+    "section": "important",
+    "index": 3,
+    "field": "text",
+    "color": "red",
+    "term": "aizmirsi",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "Hast du das etwa vergessen? = Did you perhaps forget that?"
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "Hast du das etwa vergessen? = Did you perhaps forget that?",
+    "lvDeAccentTokens": [
+      "vergessen",
+      "aizmirsi"
+    ],
+    "enDeAccentTokens": [
+      "vergessen",
+      "aizmirsi"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 6,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Hast du das etwa vergessen?"
+  },
+  {
+    "level": "A2",
+    "cardDe": "gerade",
+    "studyId": "a2-gerade",
+    "section": "important",
+    "index": 0,
+    "field": "text",
+    "color": "yellow",
+    "term": "formu",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "gerade = straight, when talking about shape or direction."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "gerade = straight, when talking about shape or direction.",
+    "lvDeAccentTokens": [
+      "formu",
+      "virzienu"
+    ],
+    "enDeAccentTokens": [
+      "formu",
+      "virzienu"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 6,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Die Straße ist gerade."
+  },
+  {
+    "level": "A2",
+    "cardDe": "gerade",
+    "studyId": "a2-gerade",
+    "section": "important",
+    "index": 0,
+    "field": "text",
+    "color": "yellow",
+    "term": "virzienu",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "gerade = straight, when talking about shape or direction."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "gerade = straight, when talking about shape or direction.",
+    "lvDeAccentTokens": [
+      "formu",
+      "virzienu"
+    ],
+    "enDeAccentTokens": [
+      "formu",
+      "virzienu"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 6,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Die Straße ist gerade."
+  },
+  {
+    "level": "A2",
+    "cardDe": "gerade",
+    "studyId": "a2-gerade",
+    "section": "important",
+    "index": 0,
+    "field": "text",
+    "color": "purple",
+    "term": "taisns",
+    "validatorFail": true,
+    "reason": "term not found in section text",
+    "rendererMatch": false,
+    "texts": [
+      "gerade = straight, when talking about shape or direction."
+    ],
+    "isDeDriftCard": false,
+    "currentTextBlob": "gerade = straight, when talking about shape or direction.",
+    "lvDeAccentTokens": [
+      "taisns"
+    ],
+    "enDeAccentTokens": [
+      "taisns"
+    ],
+    "deAccentParityWithLv": true,
+    "rendererWouldMatch": false,
+    "exCount": 6,
+    "indexExists": true,
+    "termInAnyDeExample": false,
+    "termInAnyLvExample": false,
+    "deExampleParityAtIndex": true,
+    "lvDeAtIndex": "Die Straße ist gerade."
+  }
+]
