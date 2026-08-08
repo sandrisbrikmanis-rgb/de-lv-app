@@ -248,7 +248,7 @@ window.LANGUAGE_UI_STRINGS = {
     "sections": {
       "grammar": "Gramatika",
       "exercise": "Vježba",
-      "translate": "Ponovo prevodi",
+      "translate": "Prevedi",
       "exerciseCombined": "Übung / Vježba"
     },
     "hints": {
@@ -273,7 +273,7 @@ window.LANGUAGE_UI_STRINGS = {
       "translate": "Übung II — prevodilac",
       "formDu": "Obrazac 1/3: Vi (jednina)",
       "formIhr": "Obrazac 2/3: Vi (množina)",
-      "formSie": "Obrazac 3/3: SIE (ljubazni obrazac)"
+      "formSie": "Obrazac 3/3: Sie (ljubazni oblik)"
     },
     "lessonItems": {
       "1": {
@@ -294,7 +294,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "5": {
         "title": "Lekcija 5",
-        "menuDesc": "Wen?, akuzativ, sitzen, fragen i -u vrhu."
+        "menuDesc": "Wen?, akuzativ, sitzen, fragen i -in završetak."
       },
       "6": {
         "title": "Lekcija 6",
@@ -306,7 +306,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "8": {
         "title": "Lekcija 8",
-        "menuDesc": "Reflektivni glagoli, → e i/odnosno promjena i akuzativ."
+        "menuDesc": "Refleksivni glagoli, e → i/ie promjena i akuzativ."
       },
       "9": {
         "title": "Lekcija 9",

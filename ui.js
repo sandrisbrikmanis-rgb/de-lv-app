@@ -531,11 +531,14 @@ const COURSE_SECTION_I18N_KEYS = {
   "Išversk": "kurss.sections.translate",
   "Pratimas": "kurss.sections.exercise",
   "Übung / Vingrinājums": "kurss.sections.exerciseCombined",
-  "Übung / Pratimas": "kurss.sections.exerciseCombined"
+  "Übung / Pratimas": "kurss.sections.exerciseCombined",
+  "Prevedi": "kurss.sections.translate",
+  "Vježbajte": "kurss.sections.exercise",
+  "Übung / Vježba": "kurss.sections.exerciseCombined"
 };
 
-const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk"]);
-const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas"]);
+const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk", "Prevedi"]);
+const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas", "Vježbajte", "Übung / Vježba"]);
 
 function isCourseTranslateSection(title) {
   return COURSE_TRANSLATE_SECTION_TITLES.has(String(title || "").trim());
@@ -613,10 +616,10 @@ function localizeLegacyCourseLessonUi(target, lessonId, lesson) {
 }
 
 function getCourseExerciseHint(sectionTitle, lessonId) {
-  if (lessonId === "lesson9" && (sectionTitle === "Übung / Vingrinājums" || sectionTitle === "Übung / Pratimas")) {
+  if (lessonId === "lesson9" && (sectionTitle === "Übung / Vingrinājums" || sectionTitle === "Übung / Pratimas" || sectionTitle === "Übung / Vježba")) {
     return t("kurss.hints.tapNextStep");
   }
-  if (sectionTitle === "Vingrinājums" || sectionTitle === "Pratimas") return t("kurss.hints.tapToContinue");
+  if (sectionTitle === "Vingrinājums" || sectionTitle === "Pratimas" || sectionTitle === "Vježbajte") return t("kurss.hints.tapToContinue");
   if (isCourseTranslateSection(sectionTitle)) return t("kurss.hints.tapToRevealGerman");
   return t("kurss.hints.tapToRevealAnswer");
 }
@@ -1898,13 +1901,13 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId)
     if (isExercise) {
       let attr = exerciseAttribute || "data-course-exercise-card";
       const hint = getCourseExerciseHint(section.title, lesson.id || "");
-      if (section.title === "Vingrinājums" || section.title === "Pratimas") {
+      if (section.title === "Vingrinājums" || section.title === "Pratimas" || section.title === "Vježbajte") {
         attr = 'data-course-exercise-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
       }
       if (isCourseTranslateSection(section.title)) {
         attr = 'data-course-translate-card data-lesson-id="' + escapeHtml(lesson.id || "") + '"';
       }
-      if (lesson.id === "lesson9" && (section.title === "Übung / Vingrinājums" || section.title === "Übung / Pratimas")) {
+      if (lesson.id === "lesson9" && (section.title === "Übung / Vingrinājums" || section.title === "Übung / Pratimas" || section.title === "Übung / Vježba")) {
         attr = "data-lesson9-exercise-card";
       }      bodyParts.push('<div class="lesson1-training-wrap"><button class="lesson1-training-flashcard" type="button" ' + attr + ' data-training-index="0" data-showing-back="false" aria-label="' + escapeHtml(t("kurss.hints.exerciseCardAria", { title: lesson.title || "" })) + '"></button><p class="lesson1-training-hint">' + escapeHtml(hint) + '</p></div>');
     } else {
