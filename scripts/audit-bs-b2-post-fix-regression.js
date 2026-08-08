@@ -252,7 +252,9 @@ function runDeterministicPreCheck(scopeIds, bs, lv) {
   }
 
   try {
-    const collect = JSON.parse(execSync("node scripts/audit-bs-b2-collect.js", { encoding: "utf8" }));
+    const collectOut = execSync("node scripts/audit-bs-b2-collect.js 2>/dev/null", { encoding: "utf8" });
+    const jsonLine = collectOut.trim().split("\n").filter((l) => l.startsWith("{")).pop();
+    const collect = JSON.parse(jsonLine || "{}");
     checks.sectionAccentsTechnical = collect.sectionAccentsTechnical ?? -1;
   } catch {
     checks.sectionAccentsTechnical = -1;
