@@ -11,6 +11,7 @@ function main() {
   const lunaPath = path.join(ROOT, "reports/temp/en-b1-luna-findings.json");
   const luna = JSON.parse(fs.readFileSync(lunaPath, "utf8"));
   const executed = luna.status === "EXECUTED";
+  const summary = luna.summary || {};
 
   const md = [
     "# EN–DE B1 GPT-5.6 Luna Linguistic Audit",
@@ -37,7 +38,19 @@ function main() {
     `| Total cards | ${luna.coverage?.totalCards?.audited ?? 0} | ${luna.coverage?.totalCards?.total ?? 3367} |`,
     `| Study cards | ${luna.coverage?.studyCards?.audited ?? 0} | ${luna.coverage?.studyCards?.total ?? 324} |`,
     "",
-    "## Luna findings severity",
+    "## Luna summary",
+    "",
+    `- Existing deterministic findings reviewed: **${summary.existingDeterministic ?? 57}**`,
+    `- Luna confirmed: **${summary.lunaConfirmed ?? 0}**`,
+    `- Luna rejected (false positive): **${summary.lunaRejected ?? 0}**`,
+    `- New Luna findings: **${summary.newLunaFindings ?? 0}**`,
+    `- Deduplicated repair candidates: **${summary.deduplicatedRepairCandidates ?? 0}**`,
+    `- DE source issues: **${summary.deSourceIssues ?? 0}**`,
+    `- OWNER_DECISION: **${summary.ownerDecision ?? 0}**`,
+    `- sectionAccents TECHNICAL: **${summary.sectionAccentsTechnical ?? 0}**`,
+    `- sectionAccents PEDAGOGICAL: **${summary.sectionAccentsPedagogical ?? 0}**`,
+    "",
+    "## Luna findings severity (confirmed + new)",
     "",
     ...(luna.severityCounts
       ? Object.entries(luna.severityCounts).map(([k, v]) => `- ${k}: **${v}**`)
@@ -55,7 +68,7 @@ function main() {
     "## FINAL VERDICT",
     "",
     executed && luna.coverage?.totalCards?.audited === 3367
-      ? "## EN–DE B1 — FULL LINGUISTIC AUDIT COMPLETE"
+      ? "## EN–DE B1 — FULL LINGUISTIC AUDIT COMPLETE — READY FOR OWNER REVIEW"
       : "## EN–DE B1 — FULL LINGUISTIC AUDIT INCOMPLETE",
     "",
   ].join("\n");

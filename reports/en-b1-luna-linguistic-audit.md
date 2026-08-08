@@ -18,7 +18,19 @@
 | Total cards | 0 | 3367 |
 | Study cards | 0 | 324 |
 
-## Luna findings severity
+## Luna summary
+
+- Existing deterministic findings reviewed: **57**
+- Luna confirmed: **0**
+- Luna rejected (false positive): **0**
+- New Luna findings: **0**
+- Deduplicated repair candidates: **0**
+- DE source issues: **0**
+- OWNER_DECISION: **0**
+- sectionAccents TECHNICAL: **0**
+- sectionAccents PEDAGOGICAL: **0**
+
+## Luna findings severity (confirmed + new)
 
 - CRITICAL: **0**
 - HIGH: **0**

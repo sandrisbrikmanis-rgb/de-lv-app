@@ -16,8 +16,13 @@ const {
   DEFAULT_MODEL,
   createStats,
   auditCardsBatch,
+  auditDeterministicVerdictsBatch,
   recordRetryReason,
 } = require("./openai-en-luna-audit-batch");
+const { finalizeEnB1LunaFindings } = require("./finalize-en-b1-luna-findings");
+
+const DETERMINISTIC_PATH = path.join(ROOT, "reports", "temp", "en-b1-findings-consolidated.json");
+const DETERMINISTIC_VERDICT_BATCH = 20;
 
 const LV_FILE = path.join(ROOT, "data", "b1.js");
 const EN_FILE = path.join(ROOT, "data", "en", "b1.js");
@@ -104,6 +109,29 @@ function buildStudyCard(lvE, enE, index) {
     fields: collectStudyFields(lvE.study, enE.study),
     sectionAccents: enE.study?.sectionAccents || null,
   };
+}
+
+async function auditDeterministicWithRetry(findings, stats, batchKey) {
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      if (attempt === 0) stats.initialBatchRequests += 1;
+      else {
+        stats.retryRequests += 1;
+        stats.retryCount += 1;
+        recordRetryReason(stats, attempt === 1 ? "first_retry" : "subsequent_retry");
+      }
+      return await auditDeterministicVerdictsBatch({
+        findings,
+        stats,
+        batchLabel: batchKey,
+      });
+    } catch (error) {
+      if (attempt >= MAX_RETRIES) throw error;
+      recordRetryReason(stats, error.message.includes("JSON") ? "invalid_json" : "api_error");
+      await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)));
+    }
+  }
+  return { findings: [], okCount: 0 };
 }
 
 async function auditBatchWithRetry(cards, stats, batchKey, auditType) {
@@ -220,38 +248,82 @@ async function main() {
     studyCards: { audited: studyCards.filter((c) => auditedIds.has(c.cardId)).length, total: studyCards.length },
   };
 
-  const severityCounts = { CRITICAL: 0, HIGH: 0, MEDIUM: 0, LOW: 0, WARNING: 0, "DE SOURCE ISSUE": 0 };
-  for (const f of allFindings) {
-    const sev = (f.severity || "WARNING").toUpperCase();
-    if (severityCounts[sev] !== undefined) severityCounts[sev]++;
-    else severityCounts.WARNING++;
-  }
-
   const fullCoverage =
     coverage.totalCards.audited === coverage.totalCards.total &&
     coverage.normalCards.audited === coverage.normalCards.total &&
     coverage.standardStudy.audited === coverage.standardStudy.total &&
     coverage.minimalStudy.audited === coverage.minimalStudy.total;
 
-  const output = {
-    status: fullCoverage ? "EXECUTED" : "INCOMPLETE",
-    model: DEFAULT_MODEL,
-    generatedAt: new Date().toISOString(),
+  if (!fullCoverage) {
+    const partial = {
+      status: "INCOMPLETE",
+      model: DEFAULT_MODEL,
+      generatedAt: new Date().toISOString(),
+      coverage,
+      findings: allFindings,
+      stats,
+    };
+    fs.mkdirSync(path.dirname(FINDINGS_PATH), { recursive: true });
+    fs.writeFileSync(FINDINGS_PATH, JSON.stringify(partial, null, 2));
+    fs.writeFileSync(STATS_PATH, JSON.stringify(stats, null, 2));
+    console.error("Coverage incomplete — audit not marked EXECUTED.");
+    process.exit(1);
+  }
+
+  const deterministic = JSON.parse(fs.readFileSync(DETERMINISTIC_PATH, "utf8"));
+  const detFindings = deterministic.findings || [];
+  const detPayload = detFindings.map((f, i) => ({
+    findingId: `det-${i}`,
+    cardId: f["Card ID"],
+    field: f.Field,
+    de: f.DE,
+    currentEn: f["Current EN"],
+    deterministicSeverity: f.Severity,
+    deterministicReason: f.Reason,
+    deterministicType: f.Type,
+  }));
+
+  const deterministicVerdicts = [];
+  const detBatches = chunk(detPayload, DETERMINISTIC_VERDICT_BATCH);
+  for (let i = 0; i < detBatches.length; i++) {
+    if (TEST_BATCH && i > 0) break;
+    const result = await auditDeterministicWithRetry(detBatches[i], stats, `deterministic-verdict-${i}`);
+    for (const row of result.findings || []) {
+      deterministicVerdicts.push(row);
+    }
+  }
+
+  for (const f of allFindings) {
+    f.sourceClassification = "new Luna finding";
+    f.source = "luna";
+  }
+
+  const output = finalizeEnB1LunaFindings({
+    lunaCardFindings: allFindings,
+    deterministicVerdicts,
+    deterministicFindings: detFindings,
     coverage,
-    findings: allFindings,
-    severityCounts,
+    model: DEFAULT_MODEL,
     stats,
-  };
+    generatedAt: new Date().toISOString(),
+  });
 
   fs.mkdirSync(path.dirname(FINDINGS_PATH), { recursive: true });
   fs.writeFileSync(FINDINGS_PATH, JSON.stringify(output, null, 2));
   fs.writeFileSync(STATS_PATH, JSON.stringify(stats, null, 2));
-  console.log(JSON.stringify({ status: output.status, coverage, findings: allFindings.length, severityCounts }, null, 2));
-
-  if (!fullCoverage) {
-    console.error("Coverage incomplete — audit not marked EXECUTED.");
-    process.exit(1);
-  }
+  console.log(
+    JSON.stringify(
+      {
+        status: output.status,
+        coverage,
+        findings: allFindings.length,
+        summary: output.summary,
+        severityCounts: output.severityCounts,
+      },
+      null,
+      2
+    )
+  );
 }
 
 main().catch((e) => {

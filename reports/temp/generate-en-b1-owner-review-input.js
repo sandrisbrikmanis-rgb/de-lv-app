@@ -4,6 +4,7 @@
  */
 const fs = require("fs");
 const path = require("path");
+const { lunaMatchesDeterministic } = require("./finalize-en-b1-luna-findings");
 
 const ROOT = path.join(__dirname, "..", "..");
 
@@ -21,38 +22,6 @@ function mdTable(rows, cols) {
   return md;
 }
 
-function cardKey(f) {
-  return String(f["Card ID"] || f.cardId || "").toLowerCase();
-}
-
-function fieldKey(f) {
-  return String(f.Field || f.field || "").toLowerCase();
-}
-
-function textKey(f) {
-  return String(f["Current EN"] || f.currentEn || "").slice(0, 80).toLowerCase().trim();
-}
-
-function normalizeKey(f) {
-  return `${cardKey(f)}|${fieldKey(f)}|${textKey(f)}`;
-}
-
-function lunaMatchesDeterministic(det, lunaF) {
-  const sameCard = cardKey(det) === String(lunaF.cardId || "").toLowerCase();
-  if (!sameCard) return false;
-  const detField = fieldKey(det);
-  const lunaField = fieldKey(lunaF);
-  if (detField && lunaField && detField.includes(lunaField.split(".").pop()) || lunaField.includes(detField.split(".").pop())) {
-    return true;
-  }
-  const detText = textKey(det);
-  const lunaText = textKey(lunaF);
-  if (detText && lunaText && (detText.includes(lunaText.slice(0, 40)) || lunaText.includes(detText.slice(0, 40)))) {
-    return true;
-  }
-  return sameCard && detField === lunaField;
-}
-
 function main() {
   const deterministic = JSON.parse(
     fs.readFileSync(path.join(ROOT, "reports/temp/en-b1-findings-consolidated.json"), "utf8")
@@ -60,67 +29,73 @@ function main() {
   const luna = JSON.parse(fs.readFileSync(path.join(ROOT, "reports/temp/en-b1-luna-findings.json"), "utf8"));
   const lunaExecuted = luna.status === "EXECUTED";
   const lunaFindings = Array.isArray(luna.findings) ? luna.findings : [];
+  const summary = luna.summary || {};
 
-  let confirmed = 0;
-  let rejected = 0;
-  const detFindings = deterministic.findings.map((f) => {
-    const match = lunaFindings.find((lf) => lunaMatchesDeterministic(f, lf));
-    if (lunaExecuted && match) {
-      confirmed++;
-      return { ...f, Source: "deterministic", LunaStatus: "LUNA CONFIRMED" };
-    }
-    if (lunaExecuted && !match) {
-      // Luna did not flag this deterministic item — may be false positive heuristic
-      rejected++;
-      return { ...f, Source: "deterministic", LunaStatus: "LUNA NOT FLAGGED (review)" };
-    }
-    return { ...f, Source: "deterministic", LunaStatus: "Luna not run" };
-  });
+  const detReview = luna.deterministicReview || [];
+  const detFindings =
+    detReview.length > 0
+      ? detReview.map((d) => ({
+          Level: "B1",
+          Severity: d.severity,
+          Type: d.issueType,
+          "Card ID": d.cardId,
+          DE: d.deSource,
+          Field: d.field,
+          "Current EN": d.currentEn,
+          "Recommended EN": d.recommendedEn,
+          Reason: d.explanation,
+          Source: d.sourceClassification,
+          LunaVerdict: d.lunaVerdict,
+          sectionAccentsKind: d.sectionAccentsKind || "",
+        }))
+      : deterministic.findings.map((f) => {
+          const match = lunaFindings.find((lf) => lunaMatchesDeterministic(f, lf));
+          return {
+            ...f,
+            Source: "deterministic",
+            LunaVerdict: lunaExecuted
+              ? match
+                ? match.severity === "DE SOURCE ISSUE"
+                  ? "DE_SOURCE_ISSUE"
+                  : "CONFIRMED"
+                : f.Severity === "WARNING"
+                  ? "OWNER_DECISION"
+                  : "REJECTED_FALSE_POSITIVE"
+              : "Luna not run",
+          };
+        });
 
-  const lunaNew = [];
-  for (const f of lunaFindings) {
-    const dup = deterministic.findings.some((d) => lunaMatchesDeterministic(d, f));
-    if (dup) continue;
-    lunaNew.push({
-      Level: "B1",
-      Severity: f.severity,
-      Type: "luna linguistic",
-      "Card ID": f.cardId,
-      DE: f.de || "",
-      Field: f.field,
-      "Current EN": f.currentEn,
-      "Recommended EN": f.recommendedEn,
-      Reason: f.reason,
-      Source: "luna",
-      LunaStatus: "NEW",
-    });
-  }
+  const lunaNew = (luna.newLunaFindings || []).map((f) => ({
+    Level: "B1",
+    Severity: f.severity,
+    Type: f.issueType || "luna linguistic",
+    "Card ID": f.cardId,
+    DE: f.de || "",
+    Field: f.field,
+    "Current EN": f.currentEn,
+    "Recommended EN": f.recommendedEn,
+    Reason: f.reason,
+    Source: "new Luna finding",
+    LunaVerdict: f.lunaVerdict || "CONFIRMED",
+    sectionAccentsKind: f.sectionAccentsKind || "",
+  }));
 
-  const merged = [];
-  const seen = new Set();
-  for (const f of detFindings) {
-    seen.add(normalizeKey(f));
-    merged.push(f);
-  }
-  for (const f of lunaNew) {
-    const k = normalizeKey(f);
-    if (seen.has(k)) continue;
-    seen.add(k);
-    merged.push(f);
-  }
+  const merged = [...detFindings, ...lunaNew];
 
-  const sev = { CRITICAL: 0, HIGH: 0, MEDIUM: 0, LOW: 0, WARNING: 0, "DE SOURCE ISSUE": 0 };
-  for (const f of merged) {
-    const s = f.Severity;
-    if (sev[s] !== undefined) sev[s]++;
-  }
-
-  const repairCandidates = merged.filter(
-    (f) => f.Severity !== "WARNING" && f.Severity !== "DE SOURCE ISSUE" && f.LunaStatus !== "LUNA NOT FLAGGED (review)"
-  ).length;
-  const falsePositives = merged.filter((f) => f.LunaStatus === "LUNA NOT FLAGGED (review)").length;
-  const deSource = merged.filter((f) => f.Severity === "DE SOURCE ISSUE").length;
-  const ownerDecision = merged.filter((f) => f.Severity === "WARNING").length;
+  const confirmed = summary.lunaConfirmed ?? detFindings.filter((f) => f.LunaVerdict === "CONFIRMED").length;
+  const rejected = summary.lunaRejected ?? detFindings.filter((f) => f.LunaVerdict === "REJECTED_FALSE_POSITIVE").length;
+  const lunaNewCount = summary.newLunaFindings ?? lunaNew.length;
+  const repairCandidates =
+    summary.deduplicatedRepairCandidates ??
+    merged.filter(
+      (f) =>
+        f.LunaVerdict === "CONFIRMED" &&
+        f.Severity !== "WARNING" &&
+        f.Severity !== "DE SOURCE ISSUE"
+    ).length;
+  const falsePositives = rejected;
+  const deSource = summary.deSourceIssues ?? merged.filter((f) => f.LunaVerdict === "DE_SOURCE_ISSUE").length;
+  const ownerDecision = summary.ownerDecision ?? merged.filter((f) => f.LunaVerdict === "OWNER_DECISION").length;
 
   const fullLuna =
     lunaExecuted &&
@@ -153,15 +128,17 @@ function main() {
     "## Summary counts",
     "",
     `- Existing deterministic findings: **57**`,
-    `- Luna existing confirmed: **${confirmed}**`,
-    `- Luna existing rejected / not flagged: **${rejected}**`,
-    `- New Luna findings: **${lunaNew.length}**`,
+    `- Luna confirmed: **${confirmed}**`,
+    `- Luna rejected (false positive): **${rejected}**`,
+    `- New Luna findings: **${lunaNewCount}**`,
     `- Deduplicated repair candidates: **${repairCandidates}**`,
-    `- False positives / Luna not flagged: **${falsePositives}**`,
+    `- False positives: **${falsePositives}**`,
     `- DE source issues: **${deSource}**`,
-    `- Owner decision (WARNING): **${ownerDecision}**`,
+    `- Owner decision (OWNER_DECISION): **${ownerDecision}**`,
+    `- sectionAccents TECHNICAL: **${summary.sectionAccentsTechnical ?? 0}**`,
+    `- sectionAccents PEDAGOGICAL: **${summary.sectionAccentsPedagogical ?? 0}**`,
     "",
-    "### New Luna severity",
+    "### Severity (repair-relevant)",
     "",
     ...(luna.severityCounts
       ? Object.entries(luna.severityCounts).map(([k, v]) => `- ${k}: **${v}**`)
@@ -187,16 +164,15 @@ function main() {
       "Field",
       "Current EN",
       "Recommended EN",
-      "LunaStatus",
+      "LunaVerdict",
+      "sectionAccentsKind",
       "Reason",
     ]),
     "",
     "## FINAL VERDICT",
     "",
     fullLuna
-      ? repairCandidates > 0
-        ? "## EN–DE B1 — FULL LINGUISTIC AUDIT COMPLETE\n\n## READY FOR OWNER REVIEW"
-        : "## EN–DE B1 — FULL LINGUISTIC AUDIT COMPLETE"
+      ? "## EN–DE B1 — FULL LINGUISTIC AUDIT COMPLETE — READY FOR OWNER REVIEW"
       : "## EN–DE B1 — FULL LINGUISTIC AUDIT INCOMPLETE",
     "",
   ].join("\n");
@@ -209,12 +185,14 @@ function main() {
     deterministicCount: 57,
     lunaConfirmed: confirmed,
     lunaRejected: rejected,
-    lunaNewCount: lunaNew.length,
+    lunaNewCount,
     lunaSeverity: luna.severityCounts || {},
     deduplicatedRepairCandidates: repairCandidates,
     falsePositives,
     deSourceIssues: deSource,
     ownerDecisionNeeded: ownerDecision,
+    sectionAccentsTechnical: summary.sectionAccentsTechnical ?? 0,
+    sectionAccentsPedagogical: summary.sectionAccentsPedagogical ?? 0,
     coverage: luna.coverage,
     findings: merged,
   };
