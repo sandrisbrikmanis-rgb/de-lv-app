@@ -1,0 +1,351 @@
+{
+  "generatedAt": "2026-08-08T08:42:52.137Z",
+  "dryRun": false,
+  "expectedRealCollisions": 33,
+  "stats": {
+    "totalFixes": 50,
+    "applied": 50,
+    "skipped": 0,
+    "studyCardsChanged": [
+      "b1-aufführen",
+      "b1-rausch",
+      "b1-anschluss",
+      "b1-verband",
+      "b1-verbindung",
+      "b1-zusammenhang",
+      "b1-sich-bedienen",
+      "b1-einsetzen",
+      "b1-behandeln",
+      "b1-umgehen",
+      "b1-beraten",
+      "b1-feststellen",
+      "b1-übersehen",
+      "b1-blase",
+      "b1-schnitt",
+      "b1-kunde",
+      "b1-einholen",
+      "b1-nachgeben",
+      "b1-geschlecht",
+      "b1-jahrgang",
+      "b1-sprung",
+      "b1-knapp",
+      "b1-kürze",
+      "b1-pflegen",
+      "b1-schmieren",
+      "b1-streichen",
+      "b1-sitz",
+      "b1-stand",
+      "b1-stellung",
+      "b1-strom",
+      "b1-zünden",
+      "b1-verbrennen",
+      "b1-werk",
+      "b1-beruf",
+      "b1-anstatt-zu",
+      "b1-ohne-zu"
+    ],
+    "changes": [
+      {
+        "cardId": "b1-aufführen",
+        "field": "study.comparison[2].meaning",
+        "before": "Imenovati",
+        "after": "Izvesti / navesti"
+      },
+      {
+        "cardId": "b1-rausch",
+        "field": "study.comparison[2].meaning",
+        "before": "Zavisnost",
+        "after": "Opijenost"
+      },
+      {
+        "cardId": "b1-Sucht-2822",
+        "field": "lv",
+        "before": "Zavisnost",
+        "after": "Ovisnost"
+      },
+      {
+        "cardId": "b1-anschluss",
+        "field": "study.comparison[1].word",
+        "before": "die Verbindung",
+        "after": "Veza"
+      },
+      {
+        "cardId": "b1-verband",
+        "field": "study.comparison[2].word",
+        "before": "die Verbindung",
+        "after": "Veza"
+      },
+      {
+        "cardId": "b1-verbindung",
+        "field": "study.comparison[0].word",
+        "before": "die Verbindung",
+        "after": "Veza"
+      },
+      {
+        "cardId": "b1-zusammenhang",
+        "field": "study.comparison[1].word",
+        "before": "die Verbindung",
+        "after": "Veza"
+      },
+      {
+        "cardId": "b1-sich-bedienen",
+        "field": "study.comparison[2].word",
+        "before": "benutzen",
+        "after": "Koristiti"
+      },
+      {
+        "cardId": "b1-einsetzen",
+        "field": "study.comparison[1].word",
+        "before": "benutzen",
+        "after": "Koristiti"
+      },
+      {
+        "cardId": "b1-behandeln",
+        "field": "study.comparison[0].word",
+        "before": "behandeln",
+        "after": "Liječiti"
+      },
+      {
+        "cardId": "b1-umgehen",
+        "field": "study.comparison[1].word",
+        "before": "behandeln",
+        "after": "Liječiti"
+      },
+      {
+        "cardId": "b1-behandeln",
+        "field": "study.comparison[2].word",
+        "before": "besprechen",
+        "after": "Raspravljati"
+      },
+      {
+        "cardId": "b1-beraten",
+        "field": "study.comparison[2].word",
+        "before": "besprechen",
+        "after": "Raspravljati"
+      },
+      {
+        "cardId": "b1-feststellen",
+        "field": "study.comparison[2].meaning",
+        "before": "Primetiti",
+        "after": "Utvrditi"
+      },
+      {
+        "cardId": "b1-übersehen",
+        "field": "study.comparison[2].meaning",
+        "before": "Primetiti",
+        "after": "Previdjeti"
+      },
+      {
+        "cardId": "b1-blase",
+        "field": "study.comparison[1].meaning",
+        "before": "Ranu",
+        "after": "Mjehur"
+      },
+      {
+        "cardId": "b1-schnitt",
+        "field": "study.comparison[2].meaning",
+        "before": "Ranu",
+        "after": "Rez"
+      },
+      {
+        "cardId": "b1-kunde",
+        "field": "study.comparison[2].meaning",
+        "before": "Poruka",
+        "after": "Vijest"
+      },
+      {
+        "cardId": "b1-Fleischbrühe-907",
+        "field": "lv",
+        "before": "Bujon",
+        "after": "Mesni bujon"
+      },
+      {
+        "cardId": "b1-einholen",
+        "field": "study.comparison[2].meaning",
+        "before": "Prestići",
+        "after": "Dohvatiti"
+      },
+      {
+        "cardId": "b1-einordnen-696",
+        "field": "lv",
+        "before": "Uključiti",
+        "after": "Razvrstati"
+      },
+      {
+        "cardId": "b1-einsehen-706",
+        "field": "lv",
+        "before": "Priznati",
+        "after": "Pristati"
+      },
+      {
+        "cardId": "b1-nachgeben",
+        "field": "study.comparison[2].meaning",
+        "before": "Priznati",
+        "after": "Popustiti"
+      },
+      {
+        "cardId": "b1-Oberfläche-2006",
+        "field": "lv",
+        "before": "Površine",
+        "after": "Površina"
+      },
+      {
+        "cardId": "b1-geschlecht",
+        "field": "study.comparison[2].meaning",
+        "before": "Generacije",
+        "after": "Spol"
+      },
+      {
+        "cardId": "b1-jahrgang",
+        "field": "study.comparison[2].meaning",
+        "before": "Generacije",
+        "after": "Godište"
+      },
+      {
+        "cardId": "b1-sprung",
+        "field": "study.comparison[1].meaning",
+        "before": "Jaz",
+        "after": "Pukotina"
+      },
+      {
+        "cardId": "b1-knapp",
+        "field": "study.comparison[2].word",
+        "before": "kurz",
+        "after": "Kratak"
+      },
+      {
+        "cardId": "b1-kürze",
+        "field": "study.comparison[2].word",
+        "before": "kurz",
+        "after": "Kratak"
+      },
+      {
+        "cardId": "b1-Pfropfen-2106",
+        "field": "lv",
+        "before": "Pluta",
+        "after": "Čep"
+      },
+      {
+        "cardId": "b1-kürze",
+        "field": "study.comparison[1].meaning",
+        "before": "Uskoro",
+        "after": "Kratkoća"
+      },
+      {
+        "cardId": "b1-pflegen",
+        "field": "study.comparison[2].meaning",
+        "before": "Čistiti",
+        "after": "Njegovati"
+      },
+      {
+        "cardId": "b1-schmieren",
+        "field": "study.comparison[1].word",
+        "before": "streichen",
+        "after": "Mazati"
+      },
+      {
+        "cardId": "b1-streichen",
+        "field": "study.comparison[0].word",
+        "before": "streichen",
+        "after": "Bojati"
+      },
+      {
+        "cardId": "b1-sitz",
+        "field": "study.comparison[2].word",
+        "before": "der Standort",
+        "after": "Sjedište"
+      },
+      {
+        "cardId": "b1-stand",
+        "field": "study.comparison[2].word",
+        "before": "der Standort",
+        "after": "Lokacija"
+      },
+      {
+        "cardId": "b1-stand",
+        "field": "study.comparison[0].word",
+        "before": "der Stand",
+        "after": "Položaj"
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.comparison[1].word",
+        "before": "der Stand",
+        "after": "Stav"
+      },
+      {
+        "cardId": "b1-stramm-2783",
+        "field": "lv",
+        "before": "Strog",
+        "after": "Čvrst"
+      },
+      {
+        "cardId": "b1-strom",
+        "field": "study.comparison[2].meaning",
+        "before": "Energija",
+        "after": "Struja"
+      },
+      {
+        "cardId": "b1-Energie-3322",
+        "field": "lv",
+        "before": "Energije",
+        "after": "Energija"
+      },
+      {
+        "cardId": "b1-verbindung",
+        "field": "study.comparison[2].meaning",
+        "before": "Zavoj • udruženje",
+        "after": "Veza"
+      },
+      {
+        "cardId": "b1-verband",
+        "field": "study.comparison[2].meaning",
+        "before": "Veza, veza",
+        "after": "Zavoj • udruženje"
+      },
+      {
+        "cardId": "b1-zusammenhang",
+        "field": "study.comparison[1].meaning",
+        "before": "Veza, veza",
+        "after": "Povezanost"
+      },
+      {
+        "cardId": "b1-zünden",
+        "field": "study.comparison[2].meaning",
+        "before": "Gorjeti",
+        "after": "Paliti"
+      },
+      {
+        "cardId": "b1-verbrennen",
+        "field": "study.comparison[2].meaning",
+        "before": "Zapaliti",
+        "after": "Spaliti"
+      },
+      {
+        "cardId": "b1-werk",
+        "field": "study.comparison[1].word",
+        "before": "die Arbeit",
+        "after": "Djelо"
+      },
+      {
+        "cardId": "b1-beruf",
+        "field": "study.comparison[1].word",
+        "before": "die Arbeit",
+        "after": "Zanimanje"
+      },
+      {
+        "cardId": "b1-anstatt-zu",
+        "field": "study.explanation[3]",
+        "before": "Primjeri traže tipičnu svakodnevnu upotrebu.",
+        "after": "U primjerima tražite tipičnu svakodnevnu upotrebu konstrukcije anstatt ... zu."
+      },
+      {
+        "cardId": "b1-ohne-zu",
+        "field": "study.explanation[3]",
+        "before": "Primjeri traže tipičnu svakodnevnu upotrebu.",
+        "after": "U primjerima tražite tipičnu svakodnevnu upotrebu konstrukcije ohne ... zu."
+      }
+    ],
+    "skippedItems": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model": "gpt-5.6-luna",
+  "requestCount": 7,
+  "initialBatchRequests": 7,
+  "retryRequests": 0,
+  "batchCount": 7,
+  "batchSizes": [
+    3,
+    7,
+    12,
+    8,
+    12,
+    2,
+    6
+  ],
+  "retryCount": 0,
+  "retryReasons": {},
+  "inputTokens": 6416,
+  "cachedInputTokens": 0,
+  "outputTokens": 7491,
+  "reasoningTokens": 4431,
+  "totalTokens": 13907,
+  "verdictCounts": {
+    "FIX": 28,
+    "NEEDS_REVIEW": 19,
+    "SOURCE_LV_ISSUE": 2,
+    "KEEP": 1
+  },
+  "candidatesAudited": 50,
+  "completedAt": "2026-08-08T09:36:02.226Z",
+  "totalVerdicts": 50
+}

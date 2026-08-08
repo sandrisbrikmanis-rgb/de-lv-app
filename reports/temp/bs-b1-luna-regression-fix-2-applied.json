@@ -1,0 +1,423 @@
+{
+  "generatedAt": "2026-08-08T09:00:08.599Z",
+  "dryRun": false,
+  "stats": {
+    "criticalTotal": 1,
+    "highTotal": 37,
+    "criticalApplied": 1,
+    "highApplied": 38,
+    "highFalsePositive": 3,
+    "sectionAccentsFixed": 6,
+    "studyCardsChanged": [
+      "b1-aufführen",
+      "b1-behandeln",
+      "b1-bemerken",
+      "b1-beraten",
+      "b1-blase",
+      "b1-block",
+      "b1-daher",
+      "b1-einholen",
+      "b1-einsetzen",
+      "b1-enthalten",
+      "b1-feststellen",
+      "b1-geschlecht",
+      "b1-kippen",
+      "b1-klappen",
+      "b1-kürze",
+      "b1-nachdem",
+      "b1-nachgeben",
+      "b1-pflegen",
+      "b1-pochen",
+      "b1-rausch",
+      "b1-schnitt",
+      "b1-sprung",
+      "b1-strom",
+      "b1-übersehen",
+      "b1-verband",
+      "b1-verbindung",
+      "b1-verbrennen",
+      "b1-zünden",
+      "b1-sich-bedienen",
+      "b1-streichen"
+    ],
+    "changes": [
+      {
+        "cardId": "b1-See-2572",
+        "field": "lv",
+        "severity": "CRITICAL",
+        "before": "Jezero",
+        "after": "More",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-einsehen-706",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Pristati",
+        "after": "Priznati",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-Kabelkanal-1440",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Kablovski televizijski kanal",
+        "after": "Kanal za kablove",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-Riss-2324",
+        "field": "lv",
+        "severity": "HIGH",
+        "before": "Jaz",
+        "after": "Pukotina",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-aufführen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Izvesti / navesti",
+        "after": "Nazvati / navesti",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-behandeln",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Doktor leči pacijenta.",
+        "after": "Doktor liječi pacijenta.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-bemerken",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Kratko je primetio da je već kasno.",
+        "after": "Kratko je primijetio da je već kasno.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-beraten",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Lekar savetuje pacijenta.",
+        "after": "Ljekar savjetuje pacijenta.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-blase",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Mjehur",
+        "after": "Rana",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-block",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Blok / blok / blok",
+        "after": "Blok / bilježnica / sveska",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-block",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Blok",
+        "after": "Komad drveta",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-daher",
+        "field": "study.translation",
+        "severity": "HIGH",
+        "before": "Dakle",
+        "after": "Zato",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-daher",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: daher znači dakle. Rjeđe može značiti otuda, ali u B1 tekstovima najčešće povezuje uzrok i posljedicu.",
+        "after": "Glavna ideja: daher znači zato ili stoga. Rjeđe može značiti otuda, ali u B1 tekstovima najčešće povezuje uzrok i posljedicu.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-daher",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Dakle / odatle",
+        "after": "Zato / odatle",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-daher",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Dakle",
+        "after": "Zato",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-einholen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Dohvatiti",
+        "after": "Prestići",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-einsetzen",
+        "field": "study.tip.leftBlocks[0].text",
+        "severity": "HIGH",
+        "before": "Pogledajte objekt: Technik einsetzen, Spieler einsetzen, Regen settze ein.",
+        "after": "Pogledajte objekt: Technik einsetzen, Spieler einsetzen, Regen setzt ein.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-enthalten",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "before": "Poruka sadrži važne informacije.",
+        "after": "Izvještaj sadrži važne informacije.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-feststellen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Utvrditi",
+        "after": "Primijetiti",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-geschlecht",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: das Geschlecht znači spol kod ljudi ili životinja. U gramatici jezika znači gramatički rod., kao što je muški, ženski ili nikakav rod.",
+        "after": "Glavna ideja: das Geschlecht znači spol kod ljudi ili životinja. U gramatici jezika znači gramatički rod, kao što je muški, ženski ili srednji rod.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-geschlecht",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Spol",
+        "after": "Generacija",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-kippen",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "before": "Staklo se prevrne.",
+        "after": "Čaša se prevrne.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-klappen",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: klappen je kolokvijalni izraz za uspjeh ili dobro. Često se koristi za plan, sastanak ili praktično rješenje • Doslovno, može značiti pasti ili zatvoriti.",
+        "after": "Glavna ideja: klappen je kolokvijalni izraz da nešto uspije ili ide kako treba. Često se koristi za plan, sastanak ili praktično rješenje • Doslovno, može značiti pasti ili zatvoriti.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-kürze",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Kratkoća",
+        "after": "Uskoro",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-nachdem",
+        "field": "study.explanation",
+        "severity": "HIGH",
+        "before": "Glavna ideja: nachdem uvodi podređenu rečenicu i znači nakon kada. U njemačkom se glagol u ovoj podređenoj rečenici nalazi na kraju.",
+        "after": "Glavna ideja: nachdem uvodi podređenu rečenicu i znači nakon što. U njemačkom se glagol u ovoj podređenoj rečenici nalazi na kraju.",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-nachdem",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Nakon kada",
+        "after": "Nakon što",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-nachgeben",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Popustiti",
+        "after": "Priznati",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-pflegen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Pobrini se",
+        "after": "Brinuti se o",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-pflegen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Njegovati",
+        "after": "Čistiti",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-pochen",
+        "field": "study.comparison[1].meaning",
+        "severity": "HIGH",
+        "before": "Da kucam",
+        "after": "Kucati",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-rausch",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Opijenost",
+        "after": "Ovisnost",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-schnitt",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Rez",
+        "after": "Rana",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-sprung",
+        "field": "study.comparison[0].meaning",
+        "severity": "HIGH",
+        "before": "Skok • Jaz",
+        "after": "Skok • Pukotina",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-strom",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Struja",
+        "after": "Energija",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-übersehen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Previdjeti",
+        "after": "Primijetiti",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-verband",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Zavoj • udruženje",
+        "after": "Veza, veza",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-verbindung",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Veza",
+        "after": "Zavoj • udruženje",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-verbrennen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Spaliti",
+        "after": "Zapaliti",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-zünden",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "before": "Paliti",
+        "after": "Gorjeti",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-sich-bedienen",
+        "field": "sectionAccents.comparison[2].word",
+        "severity": "SECTION_ACCENT",
+        "before": "{\"green\":[\"Koristiti\"]}",
+        "after": "[\"benutzen\"]",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-behandeln",
+        "field": "sectionAccents.comparison[0].word",
+        "severity": "SECTION_ACCENT",
+        "before": "{\"green\":[\"Liječiti\"]}",
+        "after": "[\"behandeln\"]",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-behandeln",
+        "field": "sectionAccents.comparison[2].word",
+        "severity": "SECTION_ACCENT",
+        "before": "{\"green\":[\"Raspravljati\"]}",
+        "after": "[\"besprechen\"]",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-beraten",
+        "field": "sectionAccents.comparison[2].word",
+        "severity": "SECTION_ACCENT",
+        "before": "{\"green\":[\"Raspravljati\"]}",
+        "after": "[\"besprechen\"]",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-einsetzen",
+        "field": "sectionAccents.comparison[1].word",
+        "severity": "SECTION_ACCENT",
+        "before": "{\"green\":[\"Koristiti\"]}",
+        "after": "[\"benutzen\"]",
+        "status": "applied"
+      },
+      {
+        "cardId": "b1-streichen",
+        "field": "sectionAccents.comparison[0].word",
+        "severity": "SECTION_ACCENT",
+        "before": "{\"green\":\"Bojati\"}",
+        "after": "\"streichen\"",
+        "status": "applied"
+      }
+    ],
+    "falsePositives": [
+      {
+        "cardId": "b1-berichten",
+        "field": "study.examples[2].lv",
+        "reason": "DE Die Kollegin is singular; BS Kolegica matches — Luna audit incorrect"
+      },
+      {
+        "cardId": "b1-schmieren",
+        "field": "study.comparison[1].word",
+        "reason": "comparison.word already German (streichen) per DE READ-ONLY"
+      },
+      {
+        "cardId": "b1-nachdem",
+        "field": "study.tip",
+        "reason": "verified false positive from fix #1 — unchanged"
+      }
+    ]
+  }
+}
