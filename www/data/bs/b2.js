@@ -448,7 +448,7 @@ const B2_WORDS = [
     "de": "Affäre",
     "de_article": "die",
     "de_plural": "die Affären",
-    "lv": "Afera • Roman",
+    "lv": "Afera • Ljubavna veza",
     "level": "B2"
   },
   {
@@ -679,7 +679,7 @@ const B2_WORDS = [
   },
   {
     "de": "austragen",
-    "lv": "Nositi • Dostaviti • Pobijediti",
+    "lv": "Nositi • Dostaviti • Voditi",
     "level": "B2"
   },
   {
@@ -1440,7 +1440,7 @@ const B2_WORDS = [
   },
   {
     "de": "bewähren",
-    "lv": "Dokazati se • Pokazati se uspješnim • Potvrditi se • Dokazati se",
+    "lv": "Dokazati se",
     "level": "B2"
   },
   {
@@ -1913,7 +1913,7 @@ const B2_WORDS = [
     "de": "Buche",
     "de_article": "die",
     "de_plural": "die Buchen",
-    "lv": "Bukva • Bukva",
+    "lv": "Bukva",
     "level": "B2"
   },
   {
@@ -3377,7 +3377,7 @@ const B2_WORDS = [
   },
   {
     "de": "einflussreich",
-    "lv": "Utjecajan • utjecajan",
+    "lv": "Utjecajan",
     "level": "B2"
   },
   {
@@ -4202,7 +4202,7 @@ const B2_WORDS = [
   {
     "de": "Erachten",
     "de_article": "das",
-    "lv": "Misli • Uvid",
+    "lv": "Mišljenje • Procjena",
     "level": "B2"
   },
   {
@@ -6254,7 +6254,7 @@ const B2_WORDS = [
     "de": "Getriebe",
     "de_article": "das",
     "de_plural": "die Getriebe",
-    "lv": "Motor",
+    "lv": "Mjenjač",
     "level": "B2"
   },
   {
@@ -11015,7 +11015,7 @@ const B2_WORDS = [
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "Strast • Zanos",
+    "lv": "Roj",
     "level": "B2"
   },
   {
@@ -11713,7 +11713,7 @@ const B2_WORDS = [
     "de": "Sprechanlage",
     "de_article": "die",
     "de_plural": "die Sprechanlagen",
-    "lv": "Interfonski sistem kod kuće",
+    "lv": "Interfon",
     "level": "B2"
   },
   {
@@ -12258,7 +12258,7 @@ const B2_WORDS = [
   },
   {
     "de": "überfallen",
-    "lv": "Da napadne iznenada",
+    "lv": "Iznenada napasti",
     "level": "B2"
   },
   {

@@ -1,0 +1,394 @@
+{
+  "generatedAt": "2026-08-08T12:38:51.998Z",
+  "ownerItems": 14,
+  "statusCounts": {
+    "APPLIED": 20,
+    "ALREADY_FIXED": 0,
+    "STALE_CURRENT_TEXT": 0,
+    "NOT_FOUND": 0,
+    "ACCEPT_CURRENT": 1
+  },
+  "lvCardsChanged": [
+    "b2-Affäre-76",
+    "b2-Getriebe-968",
+    "b2-Schwarm-1612",
+    "b2-Sprechanlage-1677",
+    "b2-bewähren-229",
+    "b2-bezähmen-237",
+    "b2-Buche-305",
+    "b2-einflussreich-541",
+    "b2-erbrechen-664",
+    "b2-Falke-755"
+  ],
+  "bsCardsChanged": [
+    "b2-Affäre-76",
+    "b2-Getriebe-968",
+    "b2-Schwarm-1612",
+    "b2-Sprechanlage-1677",
+    "b2-bewähren-229",
+    "b2-Buche-305",
+    "b2-einflussreich-541",
+    "b2-Erachten-660",
+    "b2-austragen-112",
+    "b2-überfallen-1764"
+  ],
+  "validation": {
+    "bsSyntax": "PASS",
+    "lvSyntax": "PASS",
+    "bsMirror": "PASS",
+    "lvMirror": "PASS",
+    "deReadOnly": "PASS",
+    "bsCardCount": 2118,
+    "bsStudyCount": 60,
+    "lvCardCount": 2118,
+    "sectionAccentsTechnical": 0
+  },
+  "openAiRequests": 0,
+  "log": [
+    {
+      "ownerId": "OWNER-001",
+      "cardId": "b2-Affäre-76",
+      "lvChanged": true,
+      "bsChanged": true,
+      "fields": [
+        "lv.lv",
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "afēra • romāns",
+          "newText": "afēra • mīlas dēka",
+          "applyStatus": "APPLIED",
+          "note": ""
+        },
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Afera • Roman",
+          "newText": "Afera • Ljubavna veza",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-002",
+      "cardId": "b2-Getriebe-968",
+      "lvChanged": true,
+      "bsChanged": true,
+      "fields": [
+        "lv.lv",
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "dzinējs",
+          "newText": "pārnesumkārba",
+          "applyStatus": "APPLIED",
+          "note": ""
+        },
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Motor",
+          "newText": "Mjenjač",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-003",
+      "cardId": "b2-Schwarm-1612",
+      "lvChanged": true,
+      "bsChanged": true,
+      "fields": [
+        "lv.lv",
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "aizraušanās • jūsma",
+          "newText": "bars",
+          "applyStatus": "APPLIED",
+          "note": ""
+        },
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Strast • Zanos",
+          "newText": "Roj",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-004",
+      "cardId": "b2-Sprechanlage-1677",
+      "lvChanged": true,
+      "bsChanged": true,
+      "fields": [
+        "lv.lv",
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "interkoma iekārta mājās",
+          "newText": "domofons",
+          "applyStatus": "APPLIED",
+          "note": ""
+        },
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Interfonski sistem kod kuće",
+          "newText": "Interfon",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-005",
+      "cardId": "b2-bewähren-229",
+      "lvChanged": true,
+      "bsChanged": true,
+      "fields": [
+        "lv.lv",
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "sargāt • nosargāt • pasargāt • glābāt",
+          "newText": "pierādīt sevi",
+          "applyStatus": "APPLIED",
+          "note": ""
+        },
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Dokazati se • Pokazati se uspješnim • Potvrditi se • Dokazati se",
+          "newText": "Dokazati se",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-006",
+      "cardId": "b2-bezähmen-237",
+      "lvChanged": true,
+      "bsChanged": false,
+      "fields": [
+        "lv.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "apburt • valdzināt",
+          "newText": "savaldīt",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-007",
+      "cardId": "b2-Buche-305",
+      "lvChanged": true,
+      "bsChanged": true,
+      "fields": [
+        "lv.lv",
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "dižskābardis • skābardis",
+          "newText": "dižskābardis",
+          "applyStatus": "APPLIED",
+          "note": ""
+        },
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Bukva • Bukva",
+          "newText": "Bukva",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-008",
+      "cardId": "b2-einflussreich-541",
+      "lvChanged": true,
+      "bsChanged": true,
+      "fields": [
+        "lv.lv",
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "ietekmīgs • iespaidīgs",
+          "newText": "ietekmīgs",
+          "applyStatus": "APPLIED",
+          "note": ""
+        },
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Utjecajan • utjecajan",
+          "newText": "Utjecajan",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-009",
+      "cardId": "b2-erbrechen-664",
+      "lvChanged": true,
+      "bsChanged": false,
+      "fields": [
+        "lv.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "atlauzt • uzlauzt",
+          "newText": "vemt",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-010",
+      "cardId": "b2-Falke-755",
+      "lvChanged": true,
+      "bsChanged": false,
+      "fields": [
+        "lv.lv"
+      ],
+      "patches": [
+        {
+          "file": "lv",
+          "field": "lv",
+          "oldText": "vanags",
+          "newText": "piekūns",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-011",
+      "cardId": "b2-sich-revanchieren",
+      "lvChanged": false,
+      "bsChanged": false,
+      "fields": [],
+      "applyStatus": "ACCEPT_CURRENT",
+      "ownerVerdict": "ACCEPT_CURRENT"
+    },
+    {
+      "ownerId": "OWNER-012",
+      "cardId": "b2-Erachten-660",
+      "lvChanged": false,
+      "bsChanged": true,
+      "fields": [
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Misli • Uvid",
+          "newText": "Mišljenje • Procjena",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-013",
+      "cardId": "b2-austragen-112",
+      "lvChanged": false,
+      "bsChanged": true,
+      "fields": [
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Nositi • Dostaviti • Pobijediti",
+          "newText": "Nositi • Dostaviti • Voditi",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    },
+    {
+      "ownerId": "OWNER-014",
+      "cardId": "b2-überfallen-1764",
+      "lvChanged": false,
+      "bsChanged": true,
+      "fields": [
+        "bs.lv"
+      ],
+      "patches": [
+        {
+          "file": "bs",
+          "field": "lv",
+          "oldText": "Da napadne iznenada",
+          "newText": "Iznenada napasti",
+          "applyStatus": "APPLIED",
+          "note": ""
+        }
+      ],
+      "ownerVerdict": "RESOLVED",
+      "applyStatus": "APPLIED"
+    }
+  ]
+}
