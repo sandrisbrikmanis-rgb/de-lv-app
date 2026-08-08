@@ -227,7 +227,7 @@ window.LANGUAGE_UI_STRINGS = {
     "articlesDesc": "Der, die, das and basics of usage.",
     "pronouns": "Pronouns",
     "pronounsDesc": "Nominativ, Akkusativ and Dativ forms.",
-    "lessons": "Lectures",
+    "lessons": "Lessons",
     "lessonsDesc": "Teaching lectures in sequential order from 1 to 21.",
     "verbBasics": "The basics of verbs",
     "verbBasicsDesc": "Persons, forms and common verbs.",
@@ -281,83 +281,83 @@ window.LANGUAGE_UI_STRINGS = {
         "menuDesc": "Verbs in the present tense, words, grammar and practice."
       },
       "2": {
-        "title": "Lecture 2",
+        "title": "Lesson 2",
         "menuDesc": "Dialogues, words, pronunciation, grammar and translation."
       },
       "3": {
-        "title": "Lecture 3",
+        "title": "Lesson 3",
         "menuDesc": "Dialogues, words, pronunciation, grammar and translation."
       },
       "4": {
-        "title": "Lecture 4",
+        "title": "Lesson 4",
         "menuDesc": "Accusative, nehmen, hinlegen, hinausgehen and adjectives."
       },
       "5": {
-        "title": "Lecture 5",
+        "title": "Lesson 5",
         "menuDesc": "Wen?, accusative, sitzen, fragen and -in ending."
       },
       "6": {
-        "title": "Lecture 6",
+        "title": "Lesson 6",
         "menuDesc": "Numbers, plurals, umlauts and plural forms of nouns."
       },
       "7": {
-        "title": "Lecture 7",
+        "title": "Lesson 7",
         "menuDesc": "Imperative, form of address and plural."
       },
       "8": {
-        "title": "Lecture 8",
+        "title": "Lesson 8",
         "menuDesc": "Reflexive verbs, e → i/ie change and accusative."
       },
       "9": {
-        "title": "Lecture 9",
+        "title": "Lesson 9",
         "menuDesc": "Multiple subjects, dieser/jener, singular and plural."
       },
       "10": {
-        "title": "Lecture 10",
+        "title": "Lesson 10",
         "menuDesc": "Sein, können, health, age and professions."
       },
       "11": {
-        "title": "Lecture 11",
+        "title": "Lesson 11",
         "menuDesc": "Haben, kein/keine/keinen, possessive and compound nouns."
       },
       "12": {
-        "title": "Lecture 12",
+        "title": "Lesson 12",
         "menuDesc": "Comparable grades, als/wie, age and colors."
       },
       "13": {
-        "title": "Lecture 13",
+        "title": "Lesson 13",
         "menuDesc": "Der Körper, parts of the body, turnen and jeder."
       },
       "14": {
-        "title": "Lecture 14",
+        "title": "Lesson 14",
         "menuDesc": "müssen, wollen, mögen and modal verbs."
       },
       "15": {
-        "title": "Lecture 15",
+        "title": "Lesson 15",
         "menuDesc": "sollen, dürfen, essen and fruit."
       },
       "16": {
-        "title": "Lecture 16",
+        "title": "Lesson 16",
         "menuDesc": "Dative, geben, sich nähern."
       },
       "17": {
-        "title": "Lecture 17",
+        "title": "Lesson 17",
         "menuDesc": "mit + Dativ, womit / mit wem and Umlaut."
       },
       "18": {
-        "title": "Lecture 18",
+        "title": "Lesson 18",
         "menuDesc": "wohin / wo, Akkusativ or Dativ with an / in / auf."
       },
       "19": {
-        "title": "Lecture 19",
+        "title": "Lesson 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Lecture 20",
+        "title": "Lesson 20",
         "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ and compound nouns."
       },
       "21": {
-        "title": "Lecture 21",
+        "title": "Lesson 21",
         "menuDesc": "woher / wohin / wo, von / aus / mit + Dative."
       }
     }

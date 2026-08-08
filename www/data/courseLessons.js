@@ -1038,7 +1038,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             lv: "Kas tu esi?",
-            de: "Was bist du?"
+            de: "Wer bist du?"
           },
           {
             lv: "Es esmu vīrietis.",

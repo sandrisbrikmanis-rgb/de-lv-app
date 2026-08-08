@@ -2,7 +2,7 @@
 
 window.lesson1TrainingCardsEn = [
   {
-    "front": "are you coming",
+    "front": "Are you coming?",
     "back": "Kommst du?"
   },
   {
@@ -10,19 +10,19 @@ window.lesson1TrainingCardsEn = [
     "back": "Ja, ich komme."
   },
   {
-    "front": "Kas dzied?",
+    "front": "Who is singing?",
     "back": "Wer singt?"
   },
   {
-    "front": "Martha dzied.",
-    "back": "Martha singt."
+    "front": "Marta sings.",
+    "back": "Marta singt."
   },
   {
     "front": "Are they going?",
     "back": "Gehen sie?"
   },
   {
-    "front": "Yes, they go.",
+    "front": "Yes, they are going.",
     "back": "Ja, sie gehen."
   },
   {
@@ -38,12 +38,12 @@ window.lesson1TrainingCardsEn = [
     "back": "Wir gehen."
   },
   {
-    "front": "are you going",
+    "front": "Are you going?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Albert and Martha come and go.",
-    "back": "Albert und Martha kommen und gehen."
+    "front": "Albert and Marta come and go.",
+    "back": "Albert und Marta kommen und gehen."
   }
 ];
 
@@ -61,7 +61,7 @@ window.lesson2TrainingCardsEn = [
     "back": "Sie fragen."
   },
   {
-    "front": "Vai Paul atbild?",
+    "front": "Does Paul answer?",
     "back": "Antwortet Paul?"
   },
   {
@@ -69,7 +69,7 @@ window.lesson2TrainingCardsEn = [
     "back": "Nein, er antwortet nicht, er fragt."
   },
   {
-    "front": "Vai Paul un Maria dzied?",
+    "front": "Do Paul and Marie sing?",
     "back": "Singen Paul und Marie?"
   },
   {
@@ -77,7 +77,7 @@ window.lesson2TrainingCardsEn = [
     "back": "Nein, sie singen nicht, sie rechnen."
   },
   {
-    "front": "Ko tu dari?",
+    "front": "What are you doing?",
     "back": "Was tust du?"
   },
   {
@@ -101,7 +101,7 @@ window.lesson2TrainingCardsEn = [
     "back": "Wir kommen und antworten."
   },
   {
-    "front": "Kas iet?",
+    "front": "Who is going?",
     "back": "Wer geht?"
   },
   {
@@ -144,7 +144,7 @@ window.lesson3TrainingCardsEn = [
     "back": "Nein, das Buch ist dick."
   },
   {
-    "front": "What is the plan?",
+    "front": "What is thin?",
     "back": "Was ist dünn?"
   },
   {
@@ -156,7 +156,7 @@ window.lesson3TrainingCardsEn = [
     "back": "Wie ist die Bank?"
   },
   {
-    "front": "Sols ir zems.",
+    "front": "The bench is low.",
     "back": "Die Bank ist niedrig."
   },
   {
@@ -164,7 +164,7 @@ window.lesson3TrainingCardsEn = [
     "back": "Wie ist der Tisch?"
   },
   {
-    "front": "Galds ir augsts.",
+    "front": "The table is high.",
     "back": "Der Tisch ist hoch."
   },
   {
@@ -203,7 +203,7 @@ window.lesson3TrainingCardsEn = [
 
 window.lesson4TrainingCardsEn = [
   {
-    "front": "The girl takes a feather shaft.",
+    "front": "The girl takes a pen holder.",
     "back": "Das Mädchen nimmt einen Federhalter."
   },
   {
@@ -219,7 +219,7 @@ window.lesson4TrainingCardsEn = [
     "back": "Wie ist die Feder?"
   },
   {
-    "front": "Vai spalva ir smaila?",
+    "front": "Is the pen pointed?",
     "back": "Ist die Feder spitz?"
   },
   {
@@ -235,7 +235,7 @@ window.lesson4TrainingCardsEn = [
     "back": "Er legt die Feder hin."
   },
   {
-    "front": "Vai nazis ir neass?",
+    "front": "Is the knife blunt?",
     "back": "Ist das Messer stumpf?"
   },
   {
@@ -243,7 +243,7 @@ window.lesson4TrainingCardsEn = [
     "back": "Nein, es ist scharf."
   },
   {
-    "front": "Ko dara meitene?",
+    "front": "What is the girl doing?",
     "back": "Was tut das Mädchen?"
   },
   {
@@ -286,7 +286,7 @@ window.lesson5TrainingCardsEn = [
     "back": "Wen fragst du?"
   },
   {
-    "front": "What does a teacher earn?",
+    "front": "Who does the teacher scold?",
     "back": "Wen tadelt der Lehrer?"
   },
   {
@@ -298,11 +298,11 @@ window.lesson5TrainingCardsEn = [
     "back": "Wie antwortet der Schüler?"
   },
   {
-    "front": "Skolnieks atbild slikti.",
+    "front": "The student answers badly.",
     "back": "Der Schüler antwortet schlecht."
   },
   {
-    "front": "Vai skolniece atbild slikti?",
+    "front": "Does the schoolgirl answer badly?",
     "back": "Antwortet die Schülerin schlecht?"
   },
   {
@@ -326,7 +326,7 @@ window.lesson5TrainingCardsEn = [
     "back": "Wie ist das Kind?"
   },
   {
-    "front": "The child is talkative.",
+    "front": "The child is well-behaved.",
     "back": "Das Kind ist artig."
   },
   {
@@ -373,7 +373,7 @@ window.lesson6TrainingCardsEn = [
     "back": "Ich nehme drei Nadeln."
   },
   {
-    "front": "Es nolieku divas adatas.",
+    "front": "I put down two needles.",
     "back": "Ich lege zwei Nadeln hin."
   },
   {
@@ -405,19 +405,19 @@ window.lesson6TrainingCardsEn = [
     "back": "Der Lehrer nimmt ein Messer und spitzt den Bleistift an."
   },
   {
-    "front": "Kas tas ir?",
+    "front": "What is that?",
     "back": "Was ist das?"
   },
   {
-    "front": "It is feathered.",
+    "front": "It is a pen holder.",
     "back": "Das ist ein Federhalter."
   },
   {
-    "front": "What is feathered?",
+    "front": "What is the pen holder like?",
     "back": "Wie ist der Federhalter?"
   },
   {
-    "front": "The quill is black.",
+    "front": "The pen holder is black.",
     "back": "Der Federhalter ist schwarz."
   }
 ];
@@ -495,7 +495,7 @@ window.lesson7ExerciseCardsEn = [
   },
   {
     "infinitive": "gehen",
-    "lv": "iet",
+    "lv": "to go",
     "du": "geh! / gehe!",
     "ihr": "geht!",
     "sie": "gehen Sie!"
