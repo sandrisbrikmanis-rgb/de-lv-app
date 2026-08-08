@@ -1,0 +1,1244 @@
+[
+  {
+    "cardId": "b1-dritt-610",
+    "field": "lv",
+    "severity": "SOURCE/LV ISSUE",
+    "existingBsText": "",
+    "problem": "LV “treškārt” means “thirdly”; DE “dritt” can mean “in a group of three,” matching BS “utroje”.",
+    "recommendedFix": "",
+    "justification": "LV “treškārt” means “thirdly”; DE “dritt” can mean “in a group of three,” matching BS “utroje”."
+  },
+  {
+    "cardId": "b1-einsehen-706",
+    "field": "lv",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "“Pristati” means “agree/consent,” not DE “einsehen” = realize or acknowledge.",
+    "recommendedFix": "",
+    "justification": "“Pristati” means “agree/consent,” not DE “einsehen” = realize or acknowledge."
+  },
+  {
+    "cardId": "b1-Kabelkanal-1440",
+    "field": "lv",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Prevod znači televizijski kanal, a Kabelkanal je kanal/korito za kablove.",
+    "recommendedFix": "",
+    "justification": "Prevod znači televizijski kanal, a Kabelkanal je kanal/korito za kablove."
+  },
+  {
+    "cardId": "b1-Kluft-1540",
+    "field": "lv",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Jaz nije precizan prevod za Kluft u značenju pukotine ili rasjeda.",
+    "recommendedFix": "",
+    "justification": "Jaz nije precizan prevod za Kluft u značenju pukotine ili rasjeda."
+  },
+  {
+    "cardId": "b1-Riss-2324",
+    "field": "lv",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„Jaz“ znači procjep/jarak, ne pukotina; bolje „pukotina“.",
+    "recommendedFix": "",
+    "justification": "„Jaz“ znači procjep/jarak, ne pukotina; bolje „pukotina“."
+  },
+  {
+    "cardId": "b1-See-2572",
+    "field": "lv",
+    "severity": "CRITICAL",
+    "existingBsText": "",
+    "problem": "Die See znači more; „jezero“ odgovara der See.",
+    "recommendedFix": "",
+    "justification": "Die See znači more; „jezero“ odgovara der See."
+  },
+  {
+    "cardId": "b1-strecken-2788",
+    "field": "lv",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Pravopisna greška: „Istegnuti“ treba biti „Iste­gnuti“ odnosno „istegnuti“.",
+    "recommendedFix": "",
+    "justification": "Pravopisna greška: „Istegnuti“ treba biti „Iste­gnuti“ odnosno „istegnuti“."
+  },
+  {
+    "cardId": "b1-verwechseln-3134",
+    "field": "lv",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Tipografska greška u „Pob rkati“; treba „Pobrkati“.",
+    "recommendedFix": "",
+    "justification": "Tipografska greška u „Pob rkati“; treba „Pobrkati“."
+  },
+  {
+    "cardId": "b1-Weise-3228",
+    "field": "lv",
+    "severity": "SOURCE/LV ISSUE",
+    "existingBsText": "",
+    "problem": "LV izvor „gudrs“ znači mudar, ali DE „die Weise“ = način; BS je tačan.",
+    "recommendedFix": "",
+    "justification": "LV izvor „gudrs“ znači mudar, ali DE „die Weise“ = način; BS je tačan."
+  },
+  {
+    "cardId": "b1-abbrechen",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "\"Prestati\" nije precizan prevod prijelaznog glagola abbrechen.",
+    "recommendedFix": "",
+    "justification": "\"Prestati\" nije precizan prevod prijelaznog glagola abbrechen."
+  },
+  {
+    "cardId": "b1-ablegen",
+    "field": "study.explanation",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "Nedostaje razmak nakon dvotačke.",
+    "recommendedFix": "",
+    "justification": "Nedostaje razmak nakon dvotačke."
+  },
+  {
+    "cardId": "b1-ablegen",
+    "field": "study.important.text",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "Nedostaje razmak nakon zareza.",
+    "recommendedFix": "",
+    "justification": "Nedostaje razmak nakon zareza."
+  },
+  {
+    "cardId": "b1-abschluss",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "\"Zaključak\" obično znači conclusion, ne završetak ili kvalifikaciju.",
+    "recommendedFix": "",
+    "justification": "\"Zaključak\" obično znači conclusion, ne završetak ili kvalifikaciju."
+  },
+  {
+    "cardId": "b1-absetzen",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Prevod je u imperativu i izostavlja važne upotrebe glagola.",
+    "recommendedFix": "",
+    "justification": "Prevod je u imperativu i izostavlja važne upotrebe glagola."
+  },
+  {
+    "cardId": "b1-anschluss",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "\"Vezu\" je pogrešan padež za rječničko značenje.",
+    "recommendedFix": "",
+    "justification": "\"Vezu\" je pogrešan padež za rječničko značenje."
+  },
+  {
+    "cardId": "b1-aufführen",
+    "field": "study.examples[2].lv",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Norādiet znači \"navedite\", ne \"uključite\".",
+    "recommendedFix": "",
+    "justification": "Norādiet znači \"navedite\", ne \"uključite\"."
+  },
+  {
+    "cardId": "b1-aufführen",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "nennen ne znači \"izvesti\".",
+    "recommendedFix": "",
+    "justification": "nennen ne znači \"izvesti\"."
+  },
+  {
+    "cardId": "b1-sich-aufhalten",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Infinitiv bleiben preveden je imperativom.",
+    "recommendedFix": "",
+    "justification": "Infinitiv bleiben preveden je imperativom."
+  },
+  {
+    "cardId": "b1-sich-aufhalten",
+    "field": "study.examples[1].bs",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "Nedostaje upitnik na kraju pitanja.",
+    "recommendedFix": "",
+    "justification": "Nedostaje upitnik na kraju pitanja."
+  },
+  {
+    "cardId": "b1-becken",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Množina/oblik je pogrešan: treba „zdjela“, ne „Zdjelu“.",
+    "recommendedFix": "",
+    "justification": "Množina/oblik je pogrešan: treba „zdjela“, ne „Zdjelu“."
+  },
+  {
+    "cardId": "b1-behandeln",
+    "field": "study.examples[0].bsText",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Srpski ekavski oblik „leči“; bosanski je „liječi“.",
+    "recommendedFix": "",
+    "justification": "Srpski ekavski oblik „leči“; bosanski je „liječi“."
+  },
+  {
+    "cardId": "b1-bemerken",
+    "field": "study.examples[2].bsText",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Srpski oblik „primetio“; bosanski je „primijetio“.",
+    "recommendedFix": "",
+    "justification": "Srpski oblik „primetio“; bosanski je „primijetio“."
+  },
+  {
+    "cardId": "b1-sich-bemühen",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Formulacija „napor ili napor“ je redundantna i neprirodna.",
+    "recommendedFix": "",
+    "justification": "Formulacija „napor ili napor“ je redundantna i neprirodna."
+  },
+  {
+    "cardId": "b1-sich-bemühen",
+    "field": "study.examples[0].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Srpski oblik „na vreme“; bosanski je „na vrijeme“.",
+    "recommendedFix": "",
+    "justification": "Srpski oblik „na vreme“; bosanski je „na vrijeme“."
+  },
+  {
+    "cardId": "b1-beraten",
+    "field": "study.examples[0].bsText",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Srpski oblici „Lekar savetuje“; bosanski je „Ljekar savjetuje“.",
+    "recommendedFix": "",
+    "justification": "Srpski oblici „Lekar savetuje“; bosanski je „Ljekar savjetuje“."
+  },
+  {
+    "cardId": "b1-berichten",
+    "field": "study.examples[2].bsText",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„Kolegica“ i „izvještava“ su jednina, a izvor govori o kolegama u množini.",
+    "recommendedFix": "",
+    "justification": "„Kolegica“ i „izvještava“ su jednina, a izvor govori o kolegama u množini."
+  },
+  {
+    "cardId": "b1-berichten",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Melden“ znači prijaviti/obavijestiti, ne „zvanično objaviti“.",
+    "recommendedFix": "",
+    "justification": "„Melden“ znači prijaviti/obavijestiti, ne „zvanično objaviti“."
+  },
+  {
+    "cardId": "b1-betrieb",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Njemački izraz je pogrešno prenesen kao „u Betriebu“; treba „in Betrieb“.",
+    "recommendedFix": "",
+    "justification": "Njemački izraz je pogrešno prenesen kao „u Betriebu“; treba „in Betrieb“."
+  },
+  {
+    "cardId": "b1-betrieb",
+    "field": "study.tip.leftBlocks[0].text",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Njemački izraz je pogrešno prenesen kao „u Betriebu“; treba „in Betrieb“.",
+    "recommendedFix": "",
+    "justification": "Njemački izraz je pogrešno prenesen kao „u Betriebu“; treba „in Betrieb“."
+  },
+  {
+    "cardId": "b1-beziehen",
+    "field": "study.examples[1].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Srpski oblik „sledeće“; bosanski je „sljedeće“.",
+    "recommendedFix": "",
+    "justification": "Srpski oblik „sledeće“; bosanski je „sljedeće“."
+  },
+  {
+    "cardId": "b1-blase",
+    "field": "study.comparison[1].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„Die Wunde“ znači „rana“, a ne „mjehur“.",
+    "recommendedFix": "",
+    "justification": "„Die Wunde“ znači „rana“, a ne „mjehur“."
+  },
+  {
+    "cardId": "b1-block",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Engleska riječ „notepad“ nije prevedena na bosanski.",
+    "recommendedFix": "",
+    "justification": "Engleska riječ „notepad“ nije prevedena na bosanski."
+  },
+  {
+    "cardId": "b1-block",
+    "field": "study.comparison.meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Heft i Klotz su prevedeni kao „blok“, pa se gubi razlika u značenju.",
+    "recommendedFix": "",
+    "justification": "Heft i Klotz su prevedeni kao „blok“, pa se gubi razlika u značenju."
+  },
+  {
+    "cardId": "b1-block",
+    "field": "study.tip.leftBlocks[0].text",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Sva tri značenja su prevedena kao „blok“, iako se razlikuju.",
+    "recommendedFix": "",
+    "justification": "Sva tri značenja su prevedena kao „blok“, iako se razlikuju."
+  },
+  {
+    "cardId": "b1-botschaft",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Subjekat u množini traži glagol „su“, ne „je“.",
+    "recommendedFix": "",
+    "justification": "Subjekat u množini traži glagol „su“, ne „je“."
+  },
+  {
+    "cardId": "b1-dadurch",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "deshalb znači „zato/stoga“, a ne „dakle“.",
+    "recommendedFix": "",
+    "justification": "deshalb znači „zato/stoga“, a ne „dakle“."
+  },
+  {
+    "cardId": "b1-daher",
+    "field": "study.translation; study.explanation; study.comparison[0].meaning; study.comparison[1].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Glavno značenje daher je „zato/stoga“, ne „dakle“.",
+    "recommendedFix": "",
+    "justification": "Glavno značenje daher je „zato/stoga“, ne „dakle“."
+  },
+  {
+    "cardId": "b1-dahin",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„mestu“ je srpski oblik; bosanski je „mjestu“.",
+    "recommendedFix": "",
+    "justification": "„mestu“ je srpski oblik; bosanski je „mjestu“."
+  },
+  {
+    "cardId": "b1-daran",
+    "field": "study.examples[2].lv",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„sećam“ je srpski oblik; bosanski standard je „sjećam“.",
+    "recommendedFix": "",
+    "justification": "„sećam“ je srpski oblik; bosanski standard je „sjećam“."
+  },
+  {
+    "cardId": "b1-daran",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Bosanski standard koristi „s tim“, ne „sa tim“ u ovom izrazu.",
+    "recommendedFix": "",
+    "justification": "Bosanski standard koristi „s tim“, ne „sa tim“ u ovom izrazu."
+  },
+  {
+    "cardId": "b1-darstellen",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Za tēlot u ulozi prikladnije je „glumiti“ nego „portretirati“.",
+    "recommendedFix": "",
+    "justification": "Za tēlot u ulozi prikladnije je „glumiti“ nego „portretirati“."
+  },
+  {
+    "cardId": "b1-einfarbig",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Lemma treba biti u muškom rodu: „jednobojan“, ne „jednobojni“.",
+    "recommendedFix": "",
+    "justification": "Lemma treba biti u muškom rodu: „jednobojan“, ne „jednobojni“."
+  },
+  {
+    "cardId": "b1-einfarbig",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Prevod lekseme treba biti osnovni oblik „jednobojan“.",
+    "recommendedFix": "",
+    "justification": "Prevod lekseme treba biti osnovni oblik „jednobojan“."
+  },
+  {
+    "cardId": "b1-einheit",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Maßeinheit znači precizno „mjerna jedinica“, ne samo „jedinica“.",
+    "recommendedFix": "",
+    "justification": "Maßeinheit znači precizno „mjerna jedinica“, ne samo „jedinica“."
+  },
+  {
+    "cardId": "b1-einholen",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "überholen znači „prestići“, a ne „dohvatiti“.",
+    "recommendedFix": "",
+    "justification": "überholen znači „prestići“, a ne „dohvatiti“."
+  },
+  {
+    "cardId": "b1-einsatz",
+    "field": "study.tip.leftBlocks[0].text",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "Nedostaje razmak u „i u“: trenutno piše „iu“.",
+    "recommendedFix": "",
+    "justification": "Nedostaje razmak u „i u“: trenutno piše „iu“."
+  },
+  {
+    "cardId": "b1-einsetzen",
+    "field": "study.tip.leftBlocks[0].text",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Tipografska greška u njemačkom primjeru: „settze“ treba biti „setzt“.",
+    "recommendedFix": "",
+    "justification": "Tipografska greška u njemačkom primjeru: „settze“ treba biti „setzt“."
+  },
+  {
+    "cardId": "b1-empfangen",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„dobi“ je glagolska greška; treba „dobiti“.",
+    "recommendedFix": "",
+    "justification": "„dobi“ je glagolska greška; treba „dobiti“."
+  },
+  {
+    "cardId": "b1-enthalten",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Ista riječ je ponovljena; drugi glagol treba biti „uključivati“ ili „obuhvatati“.",
+    "recommendedFix": "",
+    "justification": "Ista riječ je ponovljena; drugi glagol treba biti „uključivati“ ili „obuhvatati“."
+  },
+  {
+    "cardId": "b1-enthalten",
+    "field": "study.examples[2].lv",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Njemački Bericht i latvijski ziņojums ovdje znače „izvještaj“, ne „poruka“.",
+    "recommendedFix": "",
+    "justification": "Njemački Bericht i latvijski ziņojums ovdje znače „izvještaj“, ne „poruka“."
+  },
+  {
+    "cardId": "b1-entkommen",
+    "field": "study.examples[0].lv",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Bosanski standardni oblik je „pobjegao“, ne „pobegao“.",
+    "recommendedFix": "",
+    "justification": "Bosanski standardni oblik je „pobjegao“, ne „pobegao“."
+  },
+  {
+    "cardId": "b1-erhalten",
+    "field": "study.examples[0].bsText",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "„jūsu” je prevedeno kao neformalno „tvoju”; prikladnije je „vašu poruku”.",
+    "recommendedFix": "",
+    "justification": "„jūsu” je prevedeno kao neformalno „tvoju”; prikladnije je „vašu poruku”."
+  },
+  {
+    "cardId": "b1-erscheinen",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Za značenje „pojavīties” potreban je povratni oblik: „Pojaviti se”.",
+    "recommendedFix": "",
+    "justification": "Za značenje „pojavīties” potreban je povratni oblik: „Pojaviti se”."
+  },
+  {
+    "cardId": "b1-feststellen",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "bemerken znači „primijetiti”, a ne „utvrditi”.",
+    "recommendedFix": "",
+    "justification": "bemerken znači „primijetiti”, a ne „utvrditi”."
+  },
+  {
+    "cardId": "b1-fördern",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Promovirati” je preusko; osnovno značenje je „poticati / podržavati”.",
+    "recommendedFix": "",
+    "justification": "„Promovirati” je preusko; osnovno značenje je „poticati / podržavati”."
+  },
+  {
+    "cardId": "b1-fressen",
+    "field": "study.important.text",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "„Ikdienā par cilvēkiem” znači „u svakodnevnom govoru za ljude”, ne „obični ljudi”.",
+    "recommendedFix": "",
+    "justification": "„Ikdienā par cilvēkiem” znači „u svakodnevnom govoru za ljude”, ne „obični ljudi”."
+  },
+  {
+    "cardId": "b1-geschlecht",
+    "field": "study.explanation",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Njemački „neuter” treba prevesti kao „srednji rod”, ne „nikakav rod”.",
+    "recommendedFix": "",
+    "justification": "Njemački „neuter” treba prevesti kao „srednji rod”, ne „nikakav rod”."
+  },
+  {
+    "cardId": "b1-geschlecht",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "die Generation znači „generacija”, ne „spol”.",
+    "recommendedFix": "",
+    "justification": "die Generation znači „generacija”, ne „spol”."
+  },
+  {
+    "cardId": "b1-gitter",
+    "field": "study.important.text",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„za margaram” je gramatički pogrešno i nejasno; treba „za ograde/margine”.",
+    "recommendedFix": "",
+    "justification": "„za margaram” je gramatički pogrešno i nejasno; treba „za ograde/margine”."
+  },
+  {
+    "cardId": "b1-gut",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Posjed / posjed” ponavlja isti prevod; drugo značenje treba biti „imovina” ili „manta”.",
+    "recommendedFix": "",
+    "justification": "„Posjed / posjed” ponavlja isti prevod; drugo značenje treba biti „imovina” ili „manta”."
+  },
+  {
+    "cardId": "b1-handgriff",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„tehniku na radu” je neprirodno; bolje „tehnički pokret pri radu”.",
+    "recommendedFix": "",
+    "justification": "„tehniku na radu” je neprirodno; bolje „tehnički pokret pri radu”."
+  },
+  {
+    "cardId": "b1-handgriff",
+    "field": "study.examples[2].bs",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Neprirodan red riječi: bolje „Za ovaj posao potrebno je samo nekoliko poteza.”",
+    "recommendedFix": "",
+    "justification": "Neprirodan red riječi: bolje „Za ovaj posao potrebno je samo nekoliko poteza.”"
+  },
+  {
+    "cardId": "b1-handgriff",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Handlung znači „radnja” ili „djelovanje”, ne prvenstveno „ponašanje”.",
+    "recommendedFix": "",
+    "justification": "Handlung znači „radnja” ili „djelovanje”, ne prvenstveno „ponašanje”."
+  },
+  {
+    "cardId": "b1-hinausgehen",
+    "field": "study.examples[2].bs",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Izvan mog iskustva” ne prenosi precizno „premašuje moje iskustvo”.",
+    "recommendedFix": "",
+    "justification": "„Izvan mog iskustva” ne prenosi precizno „premašuje moje iskustvo”."
+  },
+  {
+    "cardId": "b1-hinausgehen",
+    "field": "study.comparison[1].meaning",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "„Izaći van ovamo” je neprirodno; bolje „izaći ovamo” ili „doći ovamo”.",
+    "recommendedFix": "",
+    "justification": "„Izaći van ovamo” je neprirodno; bolje „izaći ovamo” ili „doći ovamo”."
+  },
+  {
+    "cardId": "b1-jagen",
+    "field": "study.tip.leftBlocks[0].text",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "Ponavlja se „juriti” i izraz je neprirodan; bolje „juriti prema sljedećem mjestu”.",
+    "recommendedFix": "",
+    "justification": "Ponavlja se „juriti” i izraz je neprirodan; bolje „juriti prema sljedećem mjestu”."
+  },
+  {
+    "cardId": "b1-jahrgang",
+    "field": "study.examples[0].bs",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Ovo vino je berba 2018” je gramatički neprirodno; bolje „Ovo vino je iz berbe 2018. godine.”",
+    "recommendedFix": "",
+    "justification": "„Ovo vino je berba 2018” je gramatički neprirodno; bolje „Ovo vino je iz berbe 2018. godine.”"
+  },
+  {
+    "cardId": "b1-jahrgang",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "das Jahr znači „godina”, ne „godine”.",
+    "recommendedFix": "",
+    "justification": "das Jahr znači „godina”, ne „godine”."
+  },
+  {
+    "cardId": "b1-jahrgang",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "die Generation znači „generacija”; „godište” mijenja značenje.",
+    "recommendedFix": "",
+    "justification": "die Generation znači „generacija”; „godište” mijenja značenje."
+  },
+  {
+    "cardId": "b1-kader",
+    "field": "study.examples[1].bs",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "„Pripada sastavu najboljih sportista” je neprirodno; bolje „pripada grupi najboljih sportista”.",
+    "recommendedFix": "",
+    "justification": "„Pripada sastavu najboljih sportista” je neprirodno; bolje „pripada grupi najboljih sportista”."
+  },
+  {
+    "cardId": "b1-kippen",
+    "field": "study.examples[0].bs",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Latvijsko „glāze” ovdje znači „čaša”, ne „staklo”.",
+    "recommendedFix": "",
+    "justification": "Latvijsko „glāze” ovdje znači „čaša”, ne „staklo”."
+  },
+  {
+    "cardId": "b1-klappen",
+    "field": "study.explanation",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„znači uspjeh ili dobro” je negramatično i ne prenosi značenje glagola.",
+    "recommendedFix": "",
+    "justification": "„znači uspjeh ili dobro” je negramatično i ne prenosi značenje glagola."
+  },
+  {
+    "cardId": "b1-klappen",
+    "field": "study.important.text",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Komparativ je nepravilan: „kolokvijalniji od gelingena”.",
+    "recommendedFix": "",
+    "justification": "Komparativ je nepravilan: „kolokvijalniji od gelingena”."
+  },
+  {
+    "cardId": "b1-knapp",
+    "field": "study.examples[2].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Serbism; standard Bosnian is „Pobijedio je sa malom razlikom“.",
+    "recommendedFix": "",
+    "justification": "Serbism; standard Bosnian is „Pobijedio je sa malom razlikom“."
+  },
+  {
+    "cardId": "b1-kürze",
+    "field": "study.comparison[1].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„in Kürze“ znači „uskoro“, ne „kratkoća“.",
+    "recommendedFix": "",
+    "justification": "„in Kürze“ znači „uskoro“, ne „kratkoća“."
+  },
+  {
+    "cardId": "b1-kastanie",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Nut“ je ostalo na engleskom; treba bosanski prevod.",
+    "recommendedFix": "",
+    "justification": "„Nut“ je ostalo na engleskom; treba bosanski prevod."
+  },
+  {
+    "cardId": "b1-nachdem",
+    "field": "study.explanation",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„nakon kada“ nije prirodan bosanski prevod za „pēc tam kad“.",
+    "recommendedFix": "",
+    "justification": "„nakon kada“ nije prirodan bosanski prevod za „pēc tam kad“."
+  },
+  {
+    "cardId": "b1-nachdem",
+    "field": "study.examples[0].lv",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Nedostaje zarez između zavisne i glavne rečenice.",
+    "recommendedFix": "",
+    "justification": "Nedostaje zarez između zavisne i glavne rečenice."
+  },
+  {
+    "cardId": "b1-nachdem",
+    "field": "study.comparison[0].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„Nakon kada“ je gramatički neprirodno.",
+    "recommendedFix": "",
+    "justification": "„Nakon kada“ je gramatički neprirodno."
+  },
+  {
+    "cardId": "b1-nachdem",
+    "field": "study.examples[2].lv",
+    "severity": "SOURCE/LV ISSUE",
+    "existingBsText": "",
+    "problem": "Latvijski izvor govori o vremenskim uslovima, ne o „nachdem“.",
+    "recommendedFix": "",
+    "justification": "Latvijski izvor govori o vremenskim uslovima, ne o „nachdem“."
+  },
+  {
+    "cardId": "b1-nachgeben",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Infinitiv je preveden imperativom.",
+    "recommendedFix": "",
+    "justification": "Infinitiv je preveden imperativom."
+  },
+  {
+    "cardId": "b1-nachgeben",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„zugeben“ znači priznati, ne popustiti.",
+    "recommendedFix": "",
+    "justification": "„zugeben“ znači priznati, ne popustiti."
+  },
+  {
+    "cardId": "b1-nieder",
+    "field": "study.examples[2].lv",
+    "severity": "SOURCE/LV ISSUE",
+    "existingBsText": "",
+    "problem": "Latvijski primjer ne sadrži značenje ni upotrebu riječi „nieder“.",
+    "recommendedFix": "",
+    "justification": "Latvijski primjer ne sadrži značenje ni upotrebu riječi „nieder“."
+  },
+  {
+    "cardId": "b1-nüchtern",
+    "field": "study.tip",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "„Cool pogled“ nije prirodan prevod za trezven ili objektivan pogled.",
+    "recommendedFix": "",
+    "justification": "„Cool pogled“ nije prirodan prevod za trezven ili objektivan pogled."
+  },
+  {
+    "cardId": "b1-pflegen",
+    "field": "study.comparison[1].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Preveden je imperativ; značenje je „brinuti se o“.",
+    "recommendedFix": "",
+    "justification": "Preveden je imperativ; značenje je „brinuti se o“."
+  },
+  {
+    "cardId": "b1-pflegen",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„putzen“ znači čistiti, ne njegovati.",
+    "recommendedFix": "",
+    "justification": "„putzen“ znači čistiti, ne njegovati."
+  },
+  {
+    "cardId": "b1-pochen",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„nečijem pravu“ mijenja značenje; radi se o vlastitom pravu ili zahtjevu.",
+    "recommendedFix": "",
+    "justification": "„nečijem pravu“ mijenja značenje; radi se o vlastitom pravu ili zahtjevu."
+  },
+  {
+    "cardId": "b1-pochen",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Značenja su prevedena imperativom umjesto infinitivom.",
+    "recommendedFix": "",
+    "justification": "Značenja su prevedena imperativom umjesto infinitivom."
+  },
+  {
+    "cardId": "b1-pochen",
+    "field": "study.comparison[1].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„Da kucam“ je pogrešan oblik i lice.",
+    "recommendedFix": "",
+    "justification": "„Da kucam“ je pogrešan oblik i lice."
+  },
+  {
+    "cardId": "b1-posten",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Post, post“ nepotrebno ponavlja riječ i ne razlikuje značenja.",
+    "recommendedFix": "",
+    "justification": "„Post, post“ nepotrebno ponavlja riječ i ne razlikuje značenja."
+  },
+  {
+    "cardId": "b1-rausch",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "die Sucht znači „ovisnost“, ne „opijenost“.",
+    "recommendedFix": "",
+    "justification": "die Sucht znači „ovisnost“, ne „opijenost“."
+  },
+  {
+    "cardId": "b1-rausch",
+    "field": "study.examples[2].bs",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Izraz je gramatički i semantički neprirodan.",
+    "recommendedFix": "",
+    "justification": "Izraz je gramatički i semantički neprirodan."
+  },
+  {
+    "cardId": "b1-rollen",
+    "field": "study.important",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Ponavlja se „zarolati“, a razlika između značenja nije tačno izražena.",
+    "recommendedFix": "",
+    "justification": "Ponavlja se „zarolati“, a razlika između značenja nije tačno izražena."
+  },
+  {
+    "cardId": "b1-rollen",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Prevod ponavlja istu riječ i ne razlikuje okretanje od okretanja sebe.",
+    "recommendedFix": "",
+    "justification": "Prevod ponavlja istu riječ i ne razlikuje okretanje od okretanja sebe."
+  },
+  {
+    "cardId": "b1-schmieren",
+    "field": "study.comparison[1].word",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Naziv poređenja nije njemački glagol iz izvora.",
+    "recommendedFix": "",
+    "justification": "Naziv poređenja nije njemački glagol iz izvora."
+  },
+  {
+    "cardId": "b1-schmieren",
+    "field": "study.important",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Nedostaje komparativ u izrazu „zvuči neuredno nego“.",
+    "recommendedFix": "",
+    "justification": "Nedostaje komparativ u izrazu „zvuči neuredno nego“."
+  },
+  {
+    "cardId": "b1-schnitt",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "die Wunde znači „rana“, ne „rez“.",
+    "recommendedFix": "",
+    "justification": "die Wunde znači „rana“, ne „rez“."
+  },
+  {
+    "cardId": "b1-schnitt",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Prevod za Durchschnitt nedostaje.",
+    "recommendedFix": "",
+    "justification": "Prevod za Durchschnitt nedostaje."
+  },
+  {
+    "cardId": "b1-schnitt",
+    "field": "study.tip",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Njemački naziv je pogrešno promijenjen u „Schnitta“.",
+    "recommendedFix": "",
+    "justification": "Njemački naziv je pogrešno promijenjen u „Schnitta“."
+  },
+  {
+    "cardId": "b1-schnitt",
+    "field": "study.examples[0].bs",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Posekotina“ je srpski oblik; bosanski standard je „posjekotina“.",
+    "recommendedFix": "",
+    "justification": "„Posekotina“ je srpski oblik; bosanski standard je „posjekotina“."
+  },
+  {
+    "cardId": "b1-schuldig",
+    "field": "study.examples[1].bs",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Tekst je u ekavskom srpskom obliku, ne u bosanskom ijekavskom.",
+    "recommendedFix": "",
+    "justification": "Tekst je u ekavskom srpskom obliku, ne u bosanskom ijekavskom."
+  },
+  {
+    "cardId": "b1-schwanken",
+    "field": "study.examples[2].bs",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Okleva“ i „dve“ nisu bosanski ijekavski oblici.",
+    "recommendedFix": "",
+    "justification": "„Okleva“ i „dve“ nisu bosanski ijekavski oblici."
+  },
+  {
+    "cardId": "b1-senken",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Podignite se“ znači ustati; za heben treba „podići“.",
+    "recommendedFix": "",
+    "justification": "„Podignite se“ znači ustati; za heben treba „podići“."
+  },
+  {
+    "cardId": "b1-sitz",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Tri značenja su pogrešno ponovljena kao „sjedište“.",
+    "recommendedFix": "",
+    "justification": "Tri značenja su pogrešno ponovljena kao „sjedište“."
+  },
+  {
+    "cardId": "b1-sitz",
+    "field": "study.tip",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "Nedostaje značenje sjedenja; rečenica nepotrebno ponavlja „gdje se nalazi“.",
+    "recommendedFix": "",
+    "justification": "Nedostaje značenje sjedenja; rečenica nepotrebno ponavlja „gdje se nalazi“."
+  },
+  {
+    "cardId": "b1-spitze",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Vrh, vrh, glava“ ne prenosi značenja šiljak, vrh i vodstvo.",
+    "recommendedFix": "",
+    "justification": "„Vrh, vrh, glava“ ne prenosi značenja šiljak, vrh i vodstvo."
+  },
+  {
+    "cardId": "b1-sprung",
+    "field": "study.comparison[0].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "„Jaz“ znači razmak, ne pukotina.",
+    "recommendedFix": "",
+    "justification": "„Jaz“ znači razmak, ne pukotina."
+  },
+  {
+    "cardId": "b1-sprung",
+    "field": "study.examples[1].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Ispravno je „pukotina u staklu“, ne „na staklu“.",
+    "recommendedFix": "",
+    "justification": "Ispravno je „pukotina u staklu“, ne „na staklu“."
+  },
+  {
+    "cardId": "b1-streichen",
+    "field": "sectionAccents.comparison[0].word",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "Oznaka je prevedena kao „Bojati“; njemačka oznaka mora ostati „streichen“.",
+    "recommendedFix": "",
+    "justification": "Oznaka je prevedena kao „Bojati“; njemačka oznaka mora ostati „streichen“."
+  },
+  {
+    "cardId": "b1-strom",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Potok“ nije prijevod za navedenu plūsma; treba „tok“ ili „strujanje“.",
+    "recommendedFix": "",
+    "justification": "„Potok“ nije prijevod za navedenu plūsma; treba „tok“ ili „strujanje“."
+  },
+  {
+    "cardId": "b1-strom",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "die Energie znači „energija“, ne „struja“.",
+    "recommendedFix": "",
+    "justification": "die Energie znači „energija“, ne „struja“."
+  },
+  {
+    "cardId": "b1-tank",
+    "field": "study.examples[2].lv",
+    "severity": "SOURCE/LV ISSUE",
+    "existingBsText": "",
+    "problem": "LV primjer koristi vojni „tanks“, iako kartica obrađuje Tank = tvertne.",
+    "recommendedFix": "",
+    "justification": "LV primjer koristi vojni „tanks“, iako kartica obrađuje Tank = tvertne."
+  },
+  {
+    "cardId": "b1-teilnehmen",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Infinitiv treba „učestvovati neformalno“, ne „učestvuju neformalno“.",
+    "recommendedFix": "",
+    "justification": "Infinitiv treba „učestvovati neformalno“, ne „učestvuju neformalno“."
+  },
+  {
+    "cardId": "b1-treiben",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„voziti“ nije precizan prevod za treiben u značenju tjerati ili pokretati.",
+    "recommendedFix": "",
+    "justification": "„voziti“ nije precizan prevod za treiben u značenju tjerati ili pokretati."
+  },
+  {
+    "cardId": "b1-trennen",
+    "field": "study.examples[2].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Razveli su se“ znači razvod; izvorno samo „šķīrās“ = rastali su se.",
+    "recommendedFix": "",
+    "justification": "„Razveli su se“ znači razvod; izvorno samo „šķīrās“ = rastali su se."
+  },
+  {
+    "cardId": "b1-trennen",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Odvojiti, odvojiti“ nepotrebno ponavlja isti prevod; drugi smisao treba razlikovati.",
+    "recommendedFix": "",
+    "justification": "„Odvojiti, odvojiti“ nepotrebno ponavlja isti prevod; drugi smisao treba razlikovati."
+  },
+  {
+    "cardId": "b1-überholen",
+    "field": "study.examples[1].bsText",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Nemojte pretjecati“ je naredba, dok izvor znači da pretjecanje nije dozvoljeno.",
+    "recommendedFix": "",
+    "justification": "„Nemojte pretjecati“ je naredba, dok izvor znači da pretjecanje nije dozvoljeno."
+  },
+  {
+    "cardId": "b1-überholen",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Remont“ je imenica; ovdje treba glagolski oblik „remontovati“.",
+    "recommendedFix": "",
+    "justification": "„Remont“ je imenica; ovdje treba glagolski oblik „remontovati“."
+  },
+  {
+    "cardId": "b1-übersehen",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Pravopisno treba „Ne primijetiti“, ne „Ne primjetiti“.",
+    "recommendedFix": "",
+    "justification": "Pravopisno treba „Ne primijetiti“, ne „Ne primjetiti“."
+  },
+  {
+    "cardId": "b1-übersehen",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "bemerken znači „primijetiti“, a ne „previdjeti“.",
+    "recommendedFix": "",
+    "justification": "bemerken znači „primijetiti“, a ne „previdjeti“."
+  },
+  {
+    "cardId": "b1-umgehen",
+    "field": "study.explanation",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "Ista rečenica o zaobilaženju prepreke i pravila ponovljena je dvaput.",
+    "recommendedFix": "",
+    "justification": "Ista rečenica o zaobilaženju prepreke i pravila ponovljena je dvaput."
+  },
+  {
+    "cardId": "b1-verband",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "die Verbindung znači „veza/savienojums“, ne „zavoj • udruženje“.",
+    "recommendedFix": "",
+    "justification": "die Verbindung znači „veza/savienojums“, ne „zavoj • udruženje“."
+  },
+  {
+    "cardId": "b1-verbindung",
+    "field": "study.explanation",
+    "severity": "WARNING",
+    "existingBsText": "",
+    "problem": "„vezu ili vezu“ nepotrebno ponavlja prevod i gubi razliku između veze i spoja.",
+    "recommendedFix": "",
+    "justification": "„vezu ili vezu“ nepotrebno ponavlja prevod i gubi razliku između veze i spoja."
+  },
+  {
+    "cardId": "b1-verbindung",
+    "field": "study.comparison[0].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Veza, veza“ ponavlja isti prevod umjesto da razlikuje spoj i sa/vezu.",
+    "recommendedFix": "",
+    "justification": "„Veza, veza“ ponavlja isti prevod umjesto da razlikuje spoj i sa/vezu."
+  },
+  {
+    "cardId": "b1-verbindung",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "der Verband znači „zavoj • udruženje“, ne „veza“.",
+    "recommendedFix": "",
+    "justification": "der Verband znači „zavoj • udruženje“, ne „veza“."
+  },
+  {
+    "cardId": "b1-verbrennen",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "anzünden znači „zapaliti“, ne „spaliti“.",
+    "recommendedFix": "",
+    "justification": "anzünden znači „zapaliti“, ne „spaliti“."
+  },
+  {
+    "cardId": "b1-verderben",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Nedostaje povratno „se“: „pokvariti se (za hranu)“.",
+    "recommendedFix": "",
+    "justification": "Nedostaje povratno „se“: „pokvariti se (za hranu)“."
+  },
+  {
+    "cardId": "b1-vorkommen",
+    "field": "study.explanation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Za intransitivno vorkommen treba „pojaviti se“, ne „pojaviti“.",
+    "recommendedFix": "",
+    "justification": "Za intransitivno vorkommen treba „pojaviti se“, ne „pojaviti“."
+  },
+  {
+    "cardId": "b1-wechsel",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Prevod izostavlja često značenje „promjena“.",
+    "recommendedFix": "",
+    "justification": "Prevod izostavlja često značenje „promjena“."
+  },
+  {
+    "cardId": "b1-wenden",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "drehen znači „okretati/okrenuti“, ne dvaput „okrenuti se“.",
+    "recommendedFix": "",
+    "justification": "drehen znači „okretati/okrenuti“, ne dvaput „okrenuti se“."
+  },
+  {
+    "cardId": "b1-wenden",
+    "field": "study.important.text",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Okrenuti se nekome“ je neprirodno; ovdje znači „obratiti se nekome“.",
+    "recommendedFix": "",
+    "justification": "„Okrenuti se nekome“ je neprirodno; ovdje znači „obratiti se nekome“."
+  },
+  {
+    "cardId": "b1-werk",
+    "field": "study.translation",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Prevod izostavlja značenje „fabrika“.",
+    "recommendedFix": "",
+    "justification": "Prevod izostavlja značenje „fabrika“."
+  },
+  {
+    "cardId": "b1-werk",
+    "field": "study.comparison[1].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Rad, rad“ je pogrešno/duplirano; treba razlikovati posao i rad.",
+    "recommendedFix": "",
+    "justification": "„Rad, rad“ je pogrešno/duplirano; treba razlikovati posao i rad."
+  },
+  {
+    "cardId": "b1-zugeben",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Infinitiv gestehen treba „priznati/ispovjediti“, ne imperativ „priznajte“.",
+    "recommendedFix": "",
+    "justification": "Infinitiv gestehen treba „priznati/ispovjediti“, ne imperativ „priznajte“."
+  },
+  {
+    "cardId": "b1-zünden",
+    "field": "study.comparison[2].meaning",
+    "severity": "HIGH",
+    "existingBsText": "",
+    "problem": "brennen znači „gorjeti“, ne „paliti“.",
+    "recommendedFix": "",
+    "justification": "brennen znači „gorjeti“, ne „paliti“."
+  },
+  {
+    "cardId": "b1-zusammenhang",
+    "field": "study.comparison[2].meaning",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "Treba nominativ „Kontekst“, ne akuzativ „Kontekstu“.",
+    "recommendedFix": "",
+    "justification": "Treba nominativ „Kontekst“, ne akuzativ „Kontekstu“."
+  },
+  {
+    "cardId": "b1-ohne-zu",
+    "field": "study.examples[0].lv",
+    "severity": "SOURCE/LV ISSUE",
+    "existingBsText": "",
+    "problem": "LV izvor ima grešku; BS „Otišao je bez pozdrava“ ispravno prevodi značenje.",
+    "recommendedFix": "",
+    "justification": "LV izvor ima grešku; BS „Otišao je bez pozdrava“ ispravno prevodi značenje."
+  },
+  {
+    "cardId": "b1-sich-befinden-study",
+    "field": "study.examples[4].lv",
+    "severity": "MEDIUM",
+    "existingBsText": "",
+    "problem": "„Osećam“ je srpski oblik; u bosanskom treba „Osjećam se dobro danas“.",
+    "recommendedFix": "",
+    "justification": "„Osećam“ je srpski oblik; u bosanskom treba „Osjećam se dobro danas“."
+  }
+]
