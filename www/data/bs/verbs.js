@@ -90,7 +90,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Sakriti"
+      "lv": "Spasiti"
     },
     "praesens": {
       "de": "er birgt",
@@ -684,11 +684,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Izblijediti"
+      "lv": "Izbijeliti"
     },
     "praesens": {
       "de": "er bleicht",
-      "lv": "On blijedi"
+      "lv": "On izbjeljuje"
     },
     "imperfektIndikativ": {
       "de": "blich",
@@ -898,7 +898,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "Smatran"
+      "lv": "Činilo se"
     }
   },
   {
@@ -1272,7 +1272,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "Napredovalo (on je)"
+      "lv": "Napredovao (on je)"
     }
   },
   {
@@ -3204,7 +3204,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "On bi stajao / On bi stajao"
+      "lv": "On bi stajao"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
