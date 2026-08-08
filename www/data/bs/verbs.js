@@ -2,11 +2,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "backen",
-      "lv": "Ispeći"
+      "lv": "Peći"
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "On pece"
+      "lv": "On peče"
     },
     "imperfektIndikativ": {
       "de": "er buk",
@@ -14,39 +14,39 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
-      "lv": "On bi ispekao"
+      "lv": "On bi pekao"
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "Pržene / pečene"
+      "lv": "Pečen / ispečen"
     }
   },
   {
     "infinitiv": {
       "de": "befehlen",
-      "lv": "Komandovati"
+      "lv": "Zapovijediti"
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "On komanduje"
+      "lv": "On zapovijeda"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
-      "lv": "Naredio je"
+      "lv": "Zapovijedio je"
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "On bi komandovao"
+      "lv": "On bi zapovijedio"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "Komandovao"
+      "lv": "Zapovjeđen"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "Za početak"
+      "lv": "Početi"
     },
     "praesens": {
       "de": "er beginnt",
@@ -62,7 +62,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "Počeo"
+      "lv": "Započet"
     }
   },
   {
@@ -72,103 +72,103 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "On grize"
+      "lv": "On ujeda"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "Kodirao je"
+      "lv": "Ugrizao je"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "On grize"
+      "lv": "On bi ugrizao"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "Ugrizen / ugrizen"
+      "lv": "Ugrižen / izgrizen"
     }
   },
   {
     "infinitiv": {
       "de": "bergen",
-      "lv": "Sakriti"
+      "lv": "Skloniti"
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "On se krije"
+      "lv": "On sklanja"
     },
     "imperfektIndikativ": {
       "de": "er barg",
-      "lv": "Sakrio se"
+      "lv": "Sklonio je"
     },
     "imperfektKonjunktiv": {
       "de": "er bürge / er bärge",
-      "lv": "Sakrio bi se"
+      "lv": "On bi sklonio"
     },
     "partizipVergangenheit": {
       "de": "geborgen",
-      "lv": "Skriveno / sačuvano"
+      "lv": "Sklonjen / spašen"
     }
   },
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "Pucanje"
+      "lv": "Pući"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "On pukne"
+      "lv": "On puca"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
-      "lv": "Prasnuo je"
+      "lv": "Pukao je / prsnuo je"
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "On pukne"
+      "lv": "On bi pukao / on bi prsnuo"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "Slomljena"
+      "lv": "Pukao"
     }
   },
   {
     "infinitiv": {
       "de": "bewegen",
-      "lv": "Ohrabriti"
+      "lv": "Navesti"
     },
     "praesens": {
       "de": "er bewegt",
-      "lv": "On traži"
+      "lv": "On navodi"
     },
     "imperfektIndikativ": {
       "de": "er bewog",
-      "lv": "Urgirao je"
+      "lv": "Naveo je"
     },
     "imperfektKonjunktiv": {
       "de": "er bewöge",
-      "lv": "Ohrabrivao bi"
+      "lv": "On bi naveo"
     },
     "partizipVergangenheit": {
       "de": "bewogen",
-      "lv": "Ohrabren"
+      "lv": "Naveden"
     }
   },
   {
     "infinitiv": {
       "de": "biegen",
-      "lv": "Bend"
+      "lv": "Savijati"
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "Klanja se"
+      "lv": "On savija"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "Savio se"
+      "lv": "Savio je"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
-      "lv": "Savio bi se"
+      "lv": "On bi savio"
     },
     "partizipVergangenheit": {
       "de": "gebogen",
@@ -178,121 +178,121 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "Obećati"
+      "lv": "Ponuditi"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "On obećava"
+      "lv": "On nudi"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "Obećao je"
+      "lv": "Ponudio je"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "Obećao bi"
+      "lv": "On bi ponudio"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "Obećano / ponuđeno"
+      "lv": "Ponuđen / nuđen"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "Sito"
+      "lv": "Vezati"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "He seno"
+      "lv": "On veže"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "On je posejao"
+      "lv": "Vezao je"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "Prosijao je"
+      "lv": "On bi vezao"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "Sito"
+      "lv": "Vezan"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "Pitati"
+      "lv": "Moliti"
     },
     "praesens": {
       "de": "er bittet",
-      "lv": "Moli on"
+      "lv": "On moli"
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "Upitao je"
+      "lv": "Molio je"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "Molio bi se"
+      "lv": "On bi molio"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
-      "lv": "Zatraženo"
+      "lv": "Zamoljen"
     }
   },
   {
     "infinitiv": {
       "de": "blasen",
-      "lv": "Duvati"
+      "lv": "Puhati"
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "On duva"
+      "lv": "On puše"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "Dunuo je"
+      "lv": "Puhao je"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "On bi dunuo"
+      "lv": "On bi puhao"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "Duvan"
+      "lv": "Puhan"
     }
   },
   {
     "infinitiv": {
       "de": "gären",
-      "lv": "Da fermentira"
+      "lv": "Fermentirati"
     },
     "praesens": {
       "de": "es gärt",
-      "lv": "Fermentira"
+      "lv": "Ono fermentira"
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "Fermentira"
+      "lv": "Fermentiralo je"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "Bilo bi gorko"
+      "lv": "Ono bi fermentiralo"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "Raž"
+      "lv": "Fermentiralo / prevrelo"
     }
   },
   {
     "infinitiv": {
       "de": "gebären",
-      "lv": "Roditi"
+      "lv": "Rađati"
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "U njenoj utrobi"
+      "lv": "Ona rađa"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
@@ -300,7 +300,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "sie gebäre",
-      "lv": "Rodila bi"
+      "lv": "Ona bi rodila"
     },
     "partizipVergangenheit": {
       "de": "geboren",
@@ -314,15 +314,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "es gelingt",
-      "lv": "Uspeva"
+      "lv": "Uspijeva"
     },
     "imperfektIndikativ": {
       "de": "es gelang",
-      "lv": "Upalilo je"
+      "lv": "Uspjelo je"
     },
     "imperfektKonjunktiv": {
       "de": "es gelänge",
-      "lv": "Upalilo bi"
+      "lv": "Uspjelo bi"
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
@@ -332,45 +332,45 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "gelten",
-      "lv": "Dobro doći"
+      "lv": "Važiti"
     },
     "praesens": {
       "de": "er gilt",
-      "lv": "On odgovara / važi"
+      "lv": "On važi / na snazi je"
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "On je odgovarao / bio u formi"
+      "lv": "Važio je / bio je na snazi"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "On bi odgovarao / odgovarao bi"
+      "lv": "On bi važio / to bi bilo na snazi"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "Primijenjena / bila važeća"
+      "lv": "Važio / bio na snazi"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "Postaje dobro"
+      "lv": "Ozdraviti"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "On postaje dobro"
+      "lv": "On ozdravlja"
     },
     "imperfektIndikativ": {
       "de": "er genas",
-      "lv": "Ozdravio je"
+      "lv": "On je ozdravio"
     },
     "imperfektKonjunktiv": {
       "de": "er genäse",
-      "lv": "Ozdravio bi"
+      "lv": "On bi ozdravio"
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "Ozdravi"
+      "lv": "Ozdravio"
     }
   },
   {
@@ -388,73 +388,73 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "Uživao bi"
+      "lv": "On bi uživao"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "Uživao"
+      "lv": "Uživan"
     }
   },
   {
     "infinitiv": {
       "de": "geschehen",
-      "lv": "Desiti"
+      "lv": "Događati se"
     },
     "praesens": {
       "de": "es geschieht",
-      "lv": "To se dešava"
+      "lv": "Događa se"
     },
     "imperfektIndikativ": {
       "de": "es geschah",
-      "lv": "Desilo se"
+      "lv": "Događalo se"
     },
     "imperfektKonjunktiv": {
       "de": "es geschähe",
-      "lv": "Desilo bi se"
+      "lv": "Događalo bi se"
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "Dogodilo"
+      "lv": "Dogodilo se"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "Poručniče"
+      "lv": "Liti"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "On sipa"
+      "lv": "On lije"
     },
     "imperfektIndikativ": {
       "de": "er goss",
-      "lv": "On sipa"
+      "lv": "Lio je"
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "On kiši"
+      "lv": "On bi lio"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "Stvar"
+      "lv": "Liven"
     }
   },
   {
     "infinitiv": {
       "de": "gleichen",
-      "lv": "Ličiti"
+      "lv": "Ličiti na"
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "On liči"
+      "lv": "On liči na"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "Oponašao se"
+      "lv": "Ličio je na"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "Oponašao bi se"
+      "lv": "Ličio bi na"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
@@ -464,7 +464,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "gleiten",
-      "lv": "To slide"
+      "lv": "Kliziti"
     },
     "praesens": {
       "de": "er gleitet",
@@ -476,33 +476,33 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
-      "lv": "On bi klizio"
+      "lv": "Klizio bi"
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "Skliznuo"
+      "lv": "Klizio"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "Glowing"
+      "lv": "Tinjati"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "On sija"
+      "lv": "On tinja"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
-      "lv": "Sijao je"
+      "lv": "Tinjao je / tinjao je"
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "On bi sijao"
+      "lv": "Tinjao bi"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "Glowing"
+      "lv": "Tinjao / tinjao"
     }
   },
   {
@@ -520,11 +520,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er grübe",
-      "lv": "On bi kopao"
+      "lv": "Kopao bi"
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "Dig"
+      "lv": "Iskopan"
     }
   },
   {
@@ -552,67 +552,67 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "hauen",
-      "lv": "Rezati"
+      "lv": "Sjeći"
     },
     "praesens": {
       "de": "er haut",
-      "lv": "Odabrao je"
+      "lv": "On siječe"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "Odbrusio je"
+      "lv": "Sjekao je"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "On bi rezbario"
+      "lv": "Sjekao bi"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
-      "lv": "Uklesan"
+      "lv": "Sječen"
     }
   },
   {
     "infinitiv": {
       "de": "heben",
-      "lv": "Podizati"
+      "lv": "Podići"
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "On diže"
+      "lv": "On podiže"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "On je doneo"
+      "lv": "Podigao je"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "On bi izgradio"
+      "lv": "Podigao bi"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "Izgrađen"
+      "lv": "Podignut"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "Znati / znati"
+      "lv": "Poznavati"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "On zna"
+      "lv": "On poznaje"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "Znao"
+      "lv": "Poznavao je"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "Znao"
+      "lv": "On bi poznavao"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
-      "lv": "Poznanstvo"
+      "lv": "Poznavao"
     }
   },
   {
@@ -630,39 +630,39 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "On bi zvučao"
+      "lv": "Zvučao bi"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "Zvučalo"
+      "lv": "Zvučao"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "Pinch"
+      "lv": "Štipati"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "Šali se on"
+      "lv": "On štipa"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "Uštipnuo je"
+      "lv": "Štipao je"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
-      "lv": "On bi štipao"
+      "lv": "Štipao bi"
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "Stegnuti"
+      "lv": "Uštipnut"
     }
   },
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "Ostani"
+      "lv": "Ostati"
     },
     "praesens": {
       "de": "er bleibt",
@@ -678,13 +678,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "Lijevo"
+      "lv": "Ostao"
     }
   },
   {
     "infinitiv": {
       "de": "bleichen",
-      "lv": "Izbjeliti"
+      "lv": "Izbijeliti"
     },
     "praesens": {
       "de": "er bleicht",
@@ -692,25 +692,25 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "Izbijeljena"
+      "lv": "Izblijedio je"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
-      "lv": "Izbijeljena"
+      "lv": "On bi izblijedio"
     },
     "partizipVergangenheit": {
       "de": "geblichen",
-      "lv": "Izbijeljena"
+      "lv": "Izblijedio"
     }
   },
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "Ispeći"
+      "lv": "Peći"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "On pece"
+      "lv": "On peče"
     },
     "imperfektIndikativ": {
       "de": "er briet",
@@ -718,77 +718,77 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "On bi ispekao"
+      "lv": "On bi pekao"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "Pržene / pečene"
+      "lv": "Pečen / ispečen"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "Razbiti"
+      "lv": "Lomiti"
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "On se lomi"
+      "lv": "On lomi"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "Slomio je"
+      "lv": "On je slomio"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "Slomio bi se"
+      "lv": "On bi slomio"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "Slomljena / slomljena"
+      "lv": "Slomljen / razbijen"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "Spaliti"
+      "lv": "Gorjeti"
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "On je u plamenu"
+      "lv": "On gori"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "Je goreo"
+      "lv": "Gorjelo je"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "Je goreo"
+      "lv": "Gorjelo bi"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "Spaljena"
+      "lv": "Gorjelo"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "Nositi"
+      "lv": "Donijeti"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "On nosi"
+      "lv": "On donosi"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "Nosio je"
+      "lv": "On je donio"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "On bi nosio"
+      "lv": "On bi donio"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "Doneo / doneo"
+      "lv": "Nošen / donesen"
     }
   },
   {
@@ -798,103 +798,103 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "Misli on"
+      "lv": "On misli"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
-      "lv": "Pomislio je"
+      "lv": "On je mislio"
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "Pomislio bi"
+      "lv": "On bi mislio"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "Namjeravao"
+      "lv": "Zamišljen"
     }
   },
   {
     "infinitiv": {
       "de": "dingen",
-      "lv": "Zaposliti / dogovoriti se"
+      "lv": "Unajmiti / ugovoriti"
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "On zapošljava"
+      "lv": "On unajmljuje"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "Unajmio"
+      "lv": "On je unajmio"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
-      "lv": "Unajmio"
+      "lv": "On bi unajmio"
     },
     "partizipVergangenheit": {
       "de": "gedungen",
-      "lv": "Unajmio"
+      "lv": "Unajmljen"
     }
   },
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "Kult"
+      "lv": "Vršiti"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "On mlati"
+      "lv": "On vrši"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
-      "lv": "Mlatio je"
+      "lv": "On je vršio"
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "On bi obožavao"
+      "lv": "On bi vršio"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "Kult"
+      "lv": "Ovršen"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "Provaliti u"
+      "lv": "Prodrijeti"
     },
     "praesens": {
       "de": "er dringt",
-      "lv": "On provaljuje"
+      "lv": "On prodire"
     },
     "imperfektIndikativ": {
       "de": "er drang",
-      "lv": "Provalio je"
+      "lv": "On je prodro"
     },
     "imperfektKonjunktiv": {
       "de": "er dränge",
-      "lv": "Provalio bi unutra"
+      "lv": "On bi prodro"
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "Provalio u"
+      "lv": "Prodro"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "Izgleda"
+      "lv": "Činiti se"
     },
     "praesens": {
       "de": "es dünkt",
-      "lv": "Izgleda"
+      "lv": "Čini se"
     },
     "imperfektIndikativ": {
       "de": "deuchte",
-      "lv": "Izgledalo je"
+      "lv": "Činilo se"
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "Izgledalo je"
+      "lv": "Činilo se"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
@@ -904,23 +904,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "dürfen",
-      "lv": "Biti dozvoljeno"
+      "lv": "Smjeti"
     },
     "praesens": {
       "de": "er darf",
-      "lv": "On može"
+      "lv": "On smije"
     },
     "imperfektIndikativ": {
       "de": "durfte",
-      "lv": "Bilo dozvoljeno"
+      "lv": "On je smio"
     },
     "imperfektKonjunktiv": {
       "de": "durfte",
-      "lv": "Bilo dozvoljeno"
+      "lv": "On bi smio"
     },
     "partizipVergangenheit": {
       "de": "gedurft",
-      "lv": "Dozvoljeno"
+      "lv": "Smio"
     }
   },
   {
@@ -930,11 +930,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "Predlaže on"
+      "lv": "On preporučuje"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
-      "lv": "Predložio je"
+      "lv": "Preporučio je"
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
@@ -942,47 +942,47 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "Preporučeno"
+      "lv": "Preporučen"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "Osetiti"
+      "lv": "Osjećati"
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "On oseća"
+      "lv": "On osjeća"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "Osetio je"
+      "lv": "Osjećao je"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "On bi osetio"
+      "lv": "On bi osjećao"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "Osjetio"
+      "lv": "Osjećen"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "Nestaje"
+      "lv": "Ugasiti se"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "On izlazi"
+      "lv": "On se gasi"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "Izašao je"
+      "lv": "Ugasio se"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "On bi nestao"
+      "lv": "On bi se ugasio"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
@@ -992,23 +992,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "Zbuniti se"
+      "lv": "Prepasti se"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "On se uplaši"
+      "lv": "On se prepada"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
-      "lv": "Uplašio se"
+      "lv": "Prepao se"
     },
     "imperfektKonjunktiv": {
       "de": "er erschräke",
-      "lv": "On bi poludio"
+      "lv": "On bi se prepao"
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "Uplašen"
+      "lv": "Prepao se"
     }
   },
   {
@@ -1030,7 +1030,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "Pojedeno / pojedeno"
+      "lv": "Jeden / pojeden"
     }
   },
   {
@@ -1044,7 +1044,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "On je vozio"
+      "lv": "Vozio je"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
@@ -1052,7 +1052,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "Vozio / otišao"
+      "lv": "Vozio / odvezao se"
     }
   },
   {
@@ -1096,13 +1096,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "Uhvaćen / uhvaćen"
+      "lv": "Hvatan / uhvaćen"
     }
   },
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "Pronaći"
+      "lv": "Naći"
     },
     "praesens": {
       "de": "er findet",
@@ -1110,21 +1110,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "Pronašao je"
+      "lv": "Našao je"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
-      "lv": "On bi pronašao"
+      "lv": "On bi našao"
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "Pronađeno"
+      "lv": "Nađen"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Pusti"
+      "lv": "Letjeti"
     },
     "praesens": {
       "de": "er fliegt",
@@ -1132,103 +1132,103 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "Leteo je"
+      "lv": "Letio je"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "On bi leteo"
+      "lv": "On bi letio"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "Je leteo"
+      "lv": "Letio"
     }
   },
   {
     "infinitiv": {
       "de": "fliehen",
-      "lv": "Bježi"
+      "lv": "Bježati"
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "On beži"
+      "lv": "On bježi"
     },
     "imperfektIndikativ": {
       "de": "er floh",
-      "lv": "Pobegao je"
+      "lv": "Bježao je"
     },
     "imperfektKonjunktiv": {
       "de": "er flöhe",
-      "lv": "On bi pobegao"
+      "lv": "On bi bježao"
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "Pobegao"
+      "lv": "Pobjegao"
     }
   },
   {
     "infinitiv": {
       "de": "fließen",
-      "lv": "Da teče"
+      "lv": "Teći"
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "On trči"
+      "lv": "On teče"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "On je trčao"
+      "lv": "Tekao je"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "On bi trčao"
+      "lv": "On bi tekao"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "Prošao"
+      "lv": "Tekao (on je)"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "Jedi sutra"
+      "lv": "Jesti, proždirati"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "On jede / guta"
+      "lv": "On jede / proždire"
     },
     "imperfektIndikativ": {
       "de": "er frass",
-      "lv": "Jeo je / progutao"
+      "lv": "Jeo je / proždirao je"
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "On bi jeo / doručkovao"
+      "lv": "On bi jeo / proždirao bi"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "Pojedeno / jutro"
+      "lv": "Pojeo / progutan"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "Hladno"
+      "lv": "Smrzavati se"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "Smrzava se"
+      "lv": "On se smrzava"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "He island"
+      "lv": "Smrzavao se"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "Smrzavao se"
+      "lv": "On bi se smrzavao"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "Ostrvo"
+      "lv": "Smrznut"
     }
   },
   {
@@ -1250,7 +1250,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "Dato"
+      "lv": "Dat"
     }
   },
   {
@@ -1260,15 +1260,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "On uspeva"
+      "lv": "On napreduje"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "Uspio je"
+      "lv": "Napredovao je"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
-      "lv": "Uspeo bi"
+      "lv": "On bi napredovao"
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
@@ -1278,7 +1278,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "Idi"
+      "lv": "Ići"
     },
     "praesens": {
       "de": "er geht",
@@ -1286,43 +1286,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "Hodao je"
+      "lv": "Išao je"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
-      "lv": "On bi otišao"
+      "lv": "On bi išao"
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "Otišao"
+      "lv": "Otišao (on je)"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "Dobiti"
+      "lv": "Osvojiti"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "On dobija"
+      "lv": "On osvaja"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "Dobio je"
+      "lv": "Osvojio je"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "On bi dobio"
+      "lv": "On bi osvojio"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "Dobijeno"
+      "lv": "Osvojen"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "Biti / pripadati"
+      "lv": "Biti / posjedovati"
     },
     "praesens": {
       "de": "er hat",
@@ -1330,59 +1330,59 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "Bio"
+      "lv": "Imao je"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
-      "lv": "Bio"
+      "lv": "On bi imao"
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "Bio"
+      "lv": "Imao"
     }
   },
   {
     "infinitiv": {
       "de": "halten",
-      "lv": "Čekaj"
+      "lv": "Držati"
     },
     "praesens": {
       "de": "er hält",
-      "lv": "On tamo"
+      "lv": "On drži"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
-      "lv": "On je držao"
+      "lv": "Držao je"
     },
     "imperfektKonjunktiv": {
       "de": "er hielte",
-      "lv": "On bi izdržao"
+      "lv": "On bi držao"
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "Održano"
+      "lv": "Držan"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "Nazvati"
+      "lv": "Zvati se"
     },
     "praesens": {
       "de": "er heißt",
-      "lv": "On zove / on je pozvan"
+      "lv": "On se zove / zovu ga"
     },
     "imperfektIndikativ": {
       "de": "er hieß",
-      "lv": "Zvao je / bio je pozvan"
+      "lv": "Zvao se / zvali su ga"
     },
     "imperfektKonjunktiv": {
       "de": "er hieße",
-      "lv": "On bi nazvao / on bi bio pozvan"
+      "lv": "On bi se zvao / zvali bi ga"
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "Pozvao"
+      "lv": "Zvan"
     }
   },
   {
@@ -1400,7 +1400,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "On bi pomogao"
+      "lv": "Pomagao bi"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
@@ -1422,17 +1422,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er käme",
-      "lv": "On bi došao"
+      "lv": "Došao bi"
     },
     "partizipVergangenheit": {
       "de": "gekommen (er ist)",
-      "lv": "Je došao"
+      "lv": "Došao"
     }
   },
   {
     "infinitiv": {
       "de": "können",
-      "lv": "Biti u mogućnosti"
+      "lv": "Moći"
     },
     "praesens": {
       "de": "er kann",
@@ -1440,11 +1440,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "Mogao"
+      "lv": "Mogao je"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
-      "lv": "Mogao"
+      "lv": "On bi mogao"
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
@@ -1454,67 +1454,67 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Pada kiša"
+      "lv": "Puzati"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "On se naginje"
+      "lv": "On puže"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "Kišio je"
+      "lv": "Puzao je"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "On kiši"
+      "lv": "Puzao bi"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "Preminuo"
+      "lv": "Puzao"
     }
   },
   {
     "infinitiv": {
       "de": "laden",
-      "lv": "Učitati, pozvati"
+      "lv": "Tovariti, pozvati"
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "On gomila / poziva"
+      "lv": "On tovari / poziva"
     },
     "imperfektIndikativ": {
       "de": "er lud",
-      "lv": "On je učitao / pozvao"
+      "lv": "Tovario je / pozvao je"
     },
     "imperfektKonjunktiv": {
       "de": "er lüde",
-      "lv": "On bi učitao/pozvao"
+      "lv": "Tovario bi / pozvao bi"
     },
     "partizipVergangenheit": {
       "de": "geladen",
-      "lv": "Učitano / pozvano"
+      "lv": "Natovaren / pozvan"
     }
   },
   {
     "infinitiv": {
       "de": "lassen",
-      "lv": "Staviti, pustiti"
+      "lv": "Staviti / pustiti"
     },
     "praesens": {
       "de": "er lässt",
-      "lv": "On stavlja / dozvoljava"
+      "lv": "On stavlja / pušta"
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "Naredio je / dozvolio"
+      "lv": "Stavio je / pustio je"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
-      "lv": "On bi stavio / pustio"
+      "lv": "Stavio bi / pustio bi"
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "Staviti / dozvoljeno"
+      "lv": "Stavljen / pušten"
     }
   },
   {
@@ -1528,15 +1528,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er lief",
-      "lv": "On je trčao"
+      "lv": "Trčao je"
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "On bi trčao"
+      "lv": "Trčao bi"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "Ran"
+      "lv": "Trčao"
     }
   },
   {
@@ -1550,37 +1550,37 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "On je patio"
+      "lv": "Patio je"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "On bi patio"
+      "lv": "Patio bi"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "Patio"
+      "lv": "Pretrpljen"
     }
   },
   {
     "infinitiv": {
       "de": "leihen",
-      "lv": "Posuditi / posuditi"
+      "lv": "Posuditi / pozajmiti"
     },
     "praesens": {
       "de": "er leiht",
-      "lv": "On pozajmljuje / pozajmljuje"
+      "lv": "On posuđuje / pozajmljuje"
     },
     "imperfektIndikativ": {
       "de": "er lieh",
-      "lv": "Pozajmio je / pozajmio"
+      "lv": "Posudio je / pozajmio je"
     },
     "imperfektKonjunktiv": {
       "de": "er liehe",
-      "lv": "On bi pozajmio/pozajmio"
+      "lv": "Posudio bi / pozajmio bi"
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "Pozajmljena / pozajmljena"
+      "lv": "Posuđen / pozajmljen"
     }
   },
   {
@@ -1598,33 +1598,33 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
-      "lv": "On bi čitao"
+      "lv": "Čitao bi"
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "Čitaj"
+      "lv": "Pročitan"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "Spavati"
+      "lv": "Ležati"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "On spava"
+      "lv": "On leži"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "Spavao je"
+      "lv": "Ležao je"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "Spavao bi"
+      "lv": "Ležao bi"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "Spavao"
+      "lv": "Ležao"
     }
   },
   {
@@ -1642,7 +1642,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er löge",
-      "lv": "Lagao bi"
+      "lv": "On bi lagao"
     },
     "partizipVergangenheit": {
       "de": "gelogen",
@@ -1652,7 +1652,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "Tlo"
+      "lv": "Mljeti"
     },
     "praesens": {
       "de": "er mahlt",
@@ -1660,15 +1660,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "He edge"
+      "lv": "Mljeo je"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "On melje"
+      "lv": "On bi mljeo"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "Tlo"
+      "lv": "Samljeven"
     }
   },
   {
@@ -1678,69 +1678,69 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "On izbegava"
+      "lv": "On izbjegava"
     },
     "imperfektIndikativ": {
       "de": "er mied",
-      "lv": "Izbegao je"
+      "lv": "Izbjegavao je"
     },
     "imperfektKonjunktiv": {
       "de": "er miede",
-      "lv": "Izbegao bi"
+      "lv": "On bi izbjegavao"
     },
     "partizipVergangenheit": {
       "de": "gemieden",
-      "lv": "Izbjegnuto"
+      "lv": "Izbjegnut"
     }
   },
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "Za mleko"
+      "lv": "Musti"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "On mete"
+      "lv": "On muze / on muze"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "On je pomeo"
+      "lv": "Muzao je / muzao je"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
-      "lv": "Pomuzeo bi"
+      "lv": "On bi muzao / on bi muzao"
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "Pomuzeo"
+      "lv": "Pomužen / pomužen"
     }
   },
   {
     "infinitiv": {
       "de": "messen",
-      "lv": "Meriti"
+      "lv": "Mjeriti"
     },
     "praesens": {
       "de": "er misst",
-      "lv": "On meri"
+      "lv": "On mjeri"
     },
     "imperfektIndikativ": {
       "de": "er mass",
-      "lv": "Izmjerio je"
+      "lv": "Mjerio je"
     },
     "imperfektKonjunktiv": {
       "de": "er mäße",
-      "lv": "On bi merio"
+      "lv": "On bi mjerio"
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "Izmjereno"
+      "lv": "Izmjeren"
     }
   },
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "Propasti"
+      "lv": "Ne uspjeti"
     },
     "praesens": {
       "de": "es misslingt",
@@ -1756,13 +1756,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "Nije uspjelo"
+      "lv": "Neuspješan"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "To like"
+      "lv": "Voljeti"
     },
     "praesens": {
       "de": "er mag",
@@ -1770,37 +1770,37 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "Svidelo se"
+      "lv": "Volio je"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "Svidelo se"
+      "lv": "On bi volio"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "Sviđalo se"
+      "lv": "Volio"
     }
   },
   {
     "infinitiv": {
       "de": "müssen",
-      "lv": "Da treba"
+      "lv": "Morati"
     },
     "praesens": {
       "de": "er muss",
-      "lv": "Treba mu"
+      "lv": "On mora"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "Trebao imati"
+      "lv": "Morao je"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
-      "lv": "Trebao imati"
+      "lv": "On bi morao"
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "Potreban"
+      "lv": "Morao"
     }
   },
   {
@@ -1822,17 +1822,17 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genommen",
-      "lv": "Uzeti"
+      "lv": "Uzet"
     }
   },
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "Imenovati"
+      "lv": "Nazvati"
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "Nazvao je"
+      "lv": "On naziva"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
@@ -1840,11 +1840,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
-      "lv": "On bi imenovao"
+      "lv": "On bi nazvao"
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "Imenovani"
+      "lv": "Nazvan"
     }
   },
   {
@@ -1866,25 +1866,25 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "Zviždao"
+      "lv": "Zviždan"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "Održavati"
+      "lv": "Njegovati"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "On brine"
+      "lv": "On njeguje"
     },
     "imperfektIndikativ": {
       "de": "pflegte vai pflog",
-      "lv": "Set"
+      "lv": "Njegovao je"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte vai pflog",
-      "lv": "Set"
+      "lv": "On bi njegovao"
     },
     "partizipVergangenheit": {
       "de": "gepflegt vai gepflogen",
@@ -1894,7 +1894,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "Pohvala"
+      "lv": "Hvaliti"
     },
     "praesens": {
       "de": "er preist",
@@ -1902,59 +1902,59 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "Pohvalio je"
+      "lv": "Hvalio je"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
-      "lv": "On bi pohvalio"
+      "lv": "Hvalio bi"
     },
     "partizipVergangenheit": {
       "de": "gepriesen",
-      "lv": "Pohvaljen"
+      "lv": "Hvaljen"
     }
   },
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "Puniti se"
+      "lv": "Nabujati"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "Goji se"
+      "lv": "On nabuja"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "Sazreo je"
+      "lv": "Nabujala je"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "On debeo"
+      "lv": "Nabujala bi"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "Natečen"
+      "lv": "Nabujalo"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "Predložiti / spomenuti"
+      "lv": "Savjetovati / pogađati"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "On preporučuje / min"
+      "lv": "On savjetuje / pogađa"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "On je predložio / predložio"
+      "lv": "Savjetovao je / pogađao je"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "On bi predložio/spomenuo"
+      "lv": "Savjetovao bi / pogađao bi"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "Predloženo / spomenuto"
+      "lv": "Savjetovan / pogođen"
     }
   },
   {
@@ -1968,43 +1968,43 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "On trlja"
+      "lv": "Trljao je"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
-      "lv": "On bi trljao"
+      "lv": "Trljao bi"
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "Trljao"
+      "lv": "Trljan"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "Povuci"
+      "lv": "Trgati"
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "Odbrusi on"
+      "lv": "On trga"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "Odbrusio je"
+      "lv": "Trgao je"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "Odbrusio je"
+      "lv": "Trgao bi"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "Torn"
+      "lv": "Trgan"
     }
   },
   {
     "infinitiv": {
       "de": "reiten",
-      "lv": "Voziti se"
+      "lv": "Jahati"
     },
     "praesens": {
       "de": "er reitet",
@@ -2012,11 +2012,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er ritt",
-      "lv": "On je jahao"
+      "lv": "Jahao je"
     },
     "imperfektKonjunktiv": {
       "de": "er ritte",
-      "lv": "On bi jahao"
+      "lv": "Jahao bi"
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
@@ -2034,21 +2034,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er rannte",
-      "lv": "On je trčao"
+      "lv": "Trčao je"
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "On bi trčao"
+      "lv": "Trčao bi"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "Ran"
+      "lv": "Trčao"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "Ost"
+      "lv": "Mirisati"
     },
     "praesens": {
       "de": "er riecht",
@@ -2056,65 +2056,65 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "On peva"
+      "lv": "Mirisao je"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "He port"
+      "lv": "Mirisao bi"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "Luka"
+      "lv": "Mirisan"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "Razbiti"
+      "lv": "Rvati se"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "On se lomi"
+      "lv": "On se rve"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "Pokvario se"
+      "lv": "Rvao se"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "Slomio bi se"
+      "lv": "Rvao bi se"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "Čekaj"
+      "lv": "Rvan"
     }
   },
   {
     "infinitiv": {
       "de": "rinnen",
-      "lv": "Da teče"
+      "lv": "Teći"
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "On trči"
+      "lv": "On teče"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "On je trčao"
+      "lv": "Tekao je"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "On bi trčao"
+      "lv": "On bi tekao"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "Tekao/koaguliran"
+      "lv": "Tekao / zgrušao se"
     }
   },
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "Nazvati"
+      "lv": "Zvati se"
     },
     "praesens": {
       "de": "er ruft",
@@ -2122,59 +2122,59 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "Nazvao je"
+      "lv": "Zvao je"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "On bi nazvao"
+      "lv": "Zvao bi"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "Pozvao"
+      "lv": "Zvan"
     }
   },
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "Posoliti"
+      "lv": "Soliti"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "Posolio je"
+      "lv": "On soli"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "Posolio je"
+      "lv": "Solio je"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "On bi solio"
+      "lv": "Solio bi"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
-      "lv": "Soljeni"
+      "lv": "Posoljen"
     }
   },
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "Suho / piće"
+      "lv": "Pijančevati / piti"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "On pije / pije"
+      "lv": "On pijanči / pije"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "On je pio / pio"
+      "lv": "Pijančio je / pio je"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "On bi pio/pio"
+      "lv": "Pijančio bi / pio bi"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "Pijan"
+      "lv": "Popio"
     }
   },
   {
@@ -2184,7 +2184,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "On je sranje"
+      "lv": "On sisa"
     },
     "imperfektIndikativ": {
       "de": "er sog",
@@ -2192,11 +2192,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "On bi sisao"
+      "lv": "Sisao bi"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
-      "lv": "Usisan"
+      "lv": "Sisao"
     }
   },
   {
@@ -2210,15 +2210,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "On je stvorio"
+      "lv": "Stvorio je"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
-      "lv": "On bi stvorio"
+      "lv": "Stvorio bi"
     },
     "partizipVergangenheit": {
       "de": "geschaffen",
-      "lv": "Kreiran"
+      "lv": "Stvoren"
     }
   },
   {
@@ -2228,69 +2228,69 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "Zvuči"
+      "lv": "Odjekuje"
     },
     "imperfektIndikativ": {
       "de": "schallte vai scholl",
-      "lv": "Zvučalo"
+      "lv": "Odjekivalo je"
     },
     "imperfektKonjunktiv": {
       "de": "schallte vai scholl",
-      "lv": "Zvučalo"
+      "lv": "Odjekivalo bi"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "Zvučalo"
+      "lv": "Zvučao"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "Razvod / raskid"
+      "lv": "Razdvojiti / rastati se"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "On se razvodi / razvodi"
+      "lv": "On razdvaja / rastaje se"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "On se razveo/razveo"
+      "lv": "Razdvojio je / rastao se"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "On bi se razveo/razveo"
+      "lv": "Razdvojio bi / rastao bi se"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "Razveden/razveden"
+      "lv": "Razdvojen / rastao se"
     }
   },
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "Zasjati / pojaviti se"
+      "lv": "Sijati / izgledati"
     },
     "praesens": {
       "de": "er scheint",
-      "lv": "On sija / čini se"
+      "lv": "On sija / izgleda"
     },
     "imperfektIndikativ": {
       "de": "er schien",
-      "lv": "Sijao je / činilo se"
+      "lv": "Sijao je / izgledao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "On bi sijao / izgledao"
+      "lv": "Sijao bi / izgledao bi"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "Sijao / činilo se"
+      "lv": "Sijao / izgledao"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "Bart"
+      "lv": "Grditi"
     },
     "praesens": {
       "de": "er schilt",
@@ -2298,33 +2298,33 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "Zabranio je"
+      "lv": "Grdio je"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "On se brije"
+      "lv": "Grdio bi / grdio bi"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "Brada"
+      "lv": "Izgrđen"
     }
   },
   {
     "infinitiv": {
       "de": "scheren",
-      "lv": "Rezati"
+      "lv": "Šišati"
     },
     "praesens": {
       "de": "er schert",
-      "lv": "On seče"
+      "lv": "On šiša"
     },
     "imperfektIndikativ": {
       "de": "schor vai scherte",
-      "lv": "Makaze"
+      "lv": "Šišao je"
     },
     "imperfektKonjunktiv": {
       "de": "schor vai scherte",
-      "lv": "Makaze"
+      "lv": "On bi šišao"
     },
     "partizipVergangenheit": {
       "de": "geschoren vai geschert",
@@ -2342,15 +2342,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schob",
-      "lv": "Gurnuo je"
+      "lv": "Gurao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schöbe",
-      "lv": "On bi gurnuo"
+      "lv": "Gurao bi"
     },
     "partizipVergangenheit": {
       "de": "geschoben",
-      "lv": "Gurnuto"
+      "lv": "Gurnut"
     }
   },
   {
@@ -2372,7 +2372,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "Pucao"
+      "lv": "Pucan"
     }
   },
   {
@@ -2386,103 +2386,103 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "Izmučen"
+      "lv": "Mučio je"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "Izmučen"
+      "lv": "On bi mučio"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
-      "lv": "Izmučen"
+      "lv": "Mučen"
     }
   },
   {
     "infinitiv": {
       "de": "schlafen",
-      "lv": "Spavati"
+      "lv": "Ležati"
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "On spava"
+      "lv": "On leži"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
-      "lv": "Spavao je"
+      "lv": "Ležao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "Spavao bi"
+      "lv": "Ležao bi"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "Spavao"
+      "lv": "Ležao"
     }
   },
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "Hit"
+      "lv": "Udarati"
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "On pogađa"
+      "lv": "On udara"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "Udario je"
+      "lv": "Udarao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
-      "lv": "Udario bi"
+      "lv": "On bi udarao"
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "Pretučen"
+      "lv": "Udaren"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Pada kiša"
+      "lv": "Puzati"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "On se naginje"
+      "lv": "On puže"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "Kišio je"
+      "lv": "Puzao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "On kiši"
+      "lv": "Puzao bi"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "Preminuo"
+      "lv": "Puzao"
     }
   },
   {
     "infinitiv": {
       "de": "schleifen",
-      "lv": "Mljeti"
+      "lv": "Brusiti"
     },
     "praesens": {
       "de": "er schleift",
-      "lv": "On melje"
+      "lv": "On brusi"
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "On je samleo"
+      "lv": "Brusio je"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
-      "lv": "On bi samleo"
+      "lv": "On bi brusio"
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "Uglačan"
+      "lv": "Brusen"
     }
   },
   {
@@ -2500,17 +2500,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "Zatvorio bi"
+      "lv": "On bi zatvorio"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
-      "lv": "Zatvoreno"
+      "lv": "Zatvoren"
     }
   },
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "Sutra"
+      "lv": "Gutati"
     },
     "praesens": {
       "de": "er schlingt",
@@ -2518,21 +2518,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "Progutao je"
+      "lv": "Gutao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "On jutro"
+      "lv": "On bi gutao"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "Jutro"
+      "lv": "Progutan"
     }
   },
   {
     "infinitiv": {
       "de": "schmeißen",
-      "lv": "Bacanje"
+      "lv": "Bacati"
     },
     "praesens": {
       "de": "er schmeißt",
@@ -2540,11 +2540,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schmiss",
-      "lv": "Bacio je"
+      "lv": "Bacao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "Bacio je"
+      "lv": "On bi bacao"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
@@ -2554,7 +2554,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "Kreće se"
+      "lv": "Topiti se"
     },
     "praesens": {
       "de": "er schmilzt",
@@ -2562,21 +2562,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "Zastenjao je"
+      "lv": "Topio se"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "Kretao se"
+      "lv": "On bi se topio"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
-      "lv": "Rastopljeni"
+      "lv": "Otopljen"
     }
   },
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "Šištati"
+      "lv": "Frktati"
     },
     "praesens": {
       "de": "er schnaubt",
@@ -2584,15 +2584,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "schnaubte vai schnob",
-      "lv": "Frknu"
+      "lv": "Frktao je / frknuo je"
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte vai schnob",
-      "lv": "Frknu"
+      "lv": "On bi frknuo"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt vai geschnoben",
-      "lv": "Frkni"
+      "lv": "Frktan / frknut"
     }
   },
   {
@@ -2602,19 +2602,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "On se vrti"
+      "lv": "On reže"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "On je sekao"
+      "lv": "Rezao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
-      "lv": "Presekao bi"
+      "lv": "On bi rezao"
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "Cut"
+      "lv": "Rezan"
     }
   },
   {
@@ -2628,15 +2628,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "Napisao je"
+      "lv": "Pisao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "Pisao bi"
+      "lv": "On bi pisao"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
-      "lv": "Napisano"
+      "lv": "Pisan"
     }
   },
   {
@@ -2646,85 +2646,85 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "Viče on"
+      "lv": "On viče"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "Viknuo je"
+      "lv": "Vikao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "Viknuo bi"
+      "lv": "On bi vikao"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "Viknu"
+      "lv": "Vikan"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "Hodanje"
+      "lv": "Koračati"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "On hoda"
+      "lv": "On korača"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "Hodao je"
+      "lv": "Koračao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
-      "lv": "On bi hodao"
+      "lv": "On bi koračao"
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "Hodao"
+      "lv": "Koračao"
     }
   },
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "Ćuti"
+      "lv": "Šutjeti"
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "On ćuti"
+      "lv": "On šuti"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
-      "lv": "On je ćutao"
+      "lv": "Šutio je"
     },
     "imperfektKonjunktiv": {
       "de": "er schwiege",
-      "lv": "On bi ćutao"
+      "lv": "On bi šutio"
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "Ućutkan"
+      "lv": "Šutio"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "Pamp"
+      "lv": "Oticati"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "On duri se"
+      "lv": "On otiče"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "He pampas"
+      "lv": "Otekao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "On bi pumpao"
+      "lv": "On bi otekao"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "Pumpa"
+      "lv": "Otekao"
     }
   },
   {
@@ -2752,7 +2752,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schwinden",
-      "lv": "Nestati"
+      "lv": "Nestajati"
     },
     "praesens": {
       "de": "er schwindet",
@@ -2764,17 +2764,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schwände",
-      "lv": "Nestao bi"
+      "lv": "On bi nestao"
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "Izgubljen"
+      "lv": "Nestao"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "Talas"
+      "lv": "Mahati"
     },
     "praesens": {
       "de": "er schwingt",
@@ -2782,15 +2782,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "Mahnuo je"
+      "lv": "Mahao je"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "Mahnuo bi"
+      "lv": "On bi mahao"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "Mahnuo"
+      "lv": "Mahan"
     }
   },
   {
@@ -2800,19 +2800,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "Kune se"
+      "lv": "On se kune"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
-      "lv": "Zakleo se"
+      "lv": "Zakleo se / zakleo se"
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "Zakleo bi se"
+      "lv": "On bi se zakleo"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
-      "lv": "Zakleo"
+      "lv": "Zaklet"
     }
   },
   {
@@ -2826,15 +2826,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "Video je"
+      "lv": "Vidio je"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "On bi video"
+      "lv": "On bi vidio"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
-      "lv": "Viđeno"
+      "lv": "Viđen"
     }
   },
   {
@@ -2848,21 +2848,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "war",
-      "lv": "Bio"
+      "lv": "Imao je"
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "Bio"
+      "lv": "Bio bi"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "Bio"
+      "lv": "Imao"
     }
   },
   {
     "infinitiv": {
       "de": "senden",
-      "lv": "Poslati"
+      "lv": "Slati"
     },
     "praesens": {
       "de": "er sendet",
@@ -2870,55 +2870,55 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
-      "lv": "Poslao je"
+      "lv": "Slao je / slao je"
     },
     "imperfektKonjunktiv": {
       "de": "er sendete",
-      "lv": "Poslao bi"
+      "lv": "On bi slao"
     },
     "partizipVergangenheit": {
       "de": "gesandt / gesendet",
-      "lv": "Poslano"
+      "lv": "Poslan"
     }
   },
   {
     "infinitiv": {
       "de": "sieden",
-      "lv": "Da proključa"
+      "lv": "Kuhati"
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "On kuva"
+      "lv": "On kuha"
     },
     "imperfektIndikativ": {
       "de": "sott vai siedete",
-      "lv": "Kuvano"
+      "lv": "Kuhao je"
     },
     "imperfektKonjunktiv": {
       "de": "sott vai siedete",
-      "lv": "Kuvano"
+      "lv": "Kuvalo bi"
     },
     "partizipVergangenheit": {
       "de": "gesotten vai gesiedet",
-      "lv": "Kuvano"
+      "lv": "Kuhan"
     }
   },
   {
     "infinitiv": {
       "de": "singen",
-      "lv": "Da pevam"
+      "lv": "Pjevati"
     },
     "praesens": {
       "de": "er singt",
-      "lv": "On peva"
+      "lv": "On pjeva"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "Pevao je"
+      "lv": "Pjevao je"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "Pevao bi"
+      "lv": "On bi pjevao"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
@@ -2928,7 +2928,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "sinken",
-      "lv": "Potonuti"
+      "lv": "Tonuti"
     },
     "praesens": {
       "de": "er sinkt",
@@ -2936,37 +2936,37 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "Izmišljao je"
+      "lv": "Tonuo je"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
-      "lv": "Potonuo bi"
+      "lv": "On bi tonuo"
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "Make up"
+      "lv": "Potonuo"
     }
   },
   {
     "infinitiv": {
       "de": "sinnen",
-      "lv": "Pitati se"
+      "lv": "Razmišljati"
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "Pita se on"
+      "lv": "On razmišlja"
     },
     "imperfektIndikativ": {
       "de": "er sann",
-      "lv": "Pitao se on"
+      "lv": "Razmišljao je"
     },
     "imperfektKonjunktiv": {
       "de": "er sönne / er sänne",
-      "lv": "Pitao bi se"
+      "lv": "On bi razmišljao"
     },
     "partizipVergangenheit": {
       "de": "gesonnen",
-      "lv": "Minded"
+      "lv": "Promišljen"
     }
   },
   {
@@ -2980,7 +2980,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "On je sjedio"
+      "lv": "Sjedio je"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
@@ -2988,7 +2988,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "Sjeo"
+      "lv": "Sjedio"
     }
   },
   {
@@ -2998,25 +2998,25 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er soll",
-      "lv": "Treba mu"
+      "lv": "On mora"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "Trebao imati"
+      "lv": "Morao je"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "Trebao imati"
+      "lv": "On bi trebao"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "Potreban"
+      "lv": "Morao"
     }
   },
   {
     "infinitiv": {
       "de": "speien",
-      "lv": "Pljunuti"
+      "lv": "Pljuvati"
     },
     "praesens": {
       "de": "er speit",
@@ -3024,59 +3024,59 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er spie",
-      "lv": "Pljunuo je"
+      "lv": "Pljuvao je"
     },
     "imperfektKonjunktiv": {
       "de": "er spie",
-      "lv": "Pljunuo bi"
+      "lv": "On bi pljuvao"
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "Ispljunuo"
+      "lv": "Ispljuvan"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "Spin"
+      "lv": "Presti"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "On izvrće"
+      "lv": "On prede"
     },
     "imperfektIndikativ": {
       "de": "er spann",
-      "lv": "Okrenuo se"
+      "lv": "Preo je"
     },
     "imperfektKonjunktiv": {
       "de": "er spönne / er spänne",
-      "lv": "Vrtio bi se"
+      "lv": "On bi preo"
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "Spin"
+      "lv": "Ispređen"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "Za povezivanje"
+      "lv": "Spojiti"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "On povezuje"
+      "lv": "On spaja"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "Povezan"
+      "lv": "Spojio je"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "Povezan"
+      "lv": "On bi spojio"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "Povezan"
+      "lv": "Spojen"
     }
   },
   {
@@ -3090,37 +3090,37 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "Progovorio je"
+      "lv": "Govorio je"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "Govorio bi"
+      "lv": "On bi govorio"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
-      "lv": "Izgovoreno"
+      "lv": "Govoren"
     }
   },
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "Napredovati"
+      "lv": "Nicati"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "On napreduje"
+      "lv": "On niče"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "On je napredovao"
+      "lv": "Niknuo je"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "He shelf"
+      "lv": "On bi niknuo"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "Rame"
+      "lv": "Izniknuo"
     }
   },
   {
@@ -3142,21 +3142,21 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "Sočivo"
+      "lv": "Skočio"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "Ubod"
+      "lv": "Ubosti"
     },
     "praesens": {
       "de": "er sticht",
-      "lv": "On ubode"
+      "lv": "On bode"
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "Udario je"
+      "lv": "Ubo je"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
@@ -3164,13 +3164,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "Izboden"
+      "lv": "Uboden"
     }
   },
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "Zalijepiti / zalijepiti"
+      "lv": "Gurati / utaknuti"
     },
     "praesens": {
       "de": "er steckt",
@@ -3178,15 +3178,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "stak vai steckte",
-      "lv": "Punjena"
+      "lv": "Gurnuo je ili je gurao"
     },
     "imperfektKonjunktiv": {
       "de": "stak vai steckte",
-      "lv": "Punjena"
+      "lv": "On bi gurnuo"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "Punjena"
+      "lv": "Gurnut"
     }
   },
   {
@@ -3204,17 +3204,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
-      "lv": "On bi stajao"
+      "lv": "On bi stajao / on bi stajao"
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "Stojeći"
+      "lv": "Stajao"
     }
   },
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "Krasti"
+      "lv": "Ukrasti"
     },
     "praesens": {
       "de": "er stiehlt",
@@ -3226,7 +3226,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "On bi ukrao"
+      "lv": "On bi krao / on bi krao"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
@@ -3248,11 +3248,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er stiege",
-      "lv": "Popeo bi se"
+      "lv": "On bi se popeo"
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "Penjao"
+      "lv": "Popeo se"
     }
   },
   {
@@ -3274,57 +3274,57 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "Mrtav"
+      "lv": "Umro"
     }
   },
   {
     "infinitiv": {
       "de": "stieben",
-      "lv": "Pjena / vrtlog"
+      "lv": "Prštati / kovitlati se"
     },
     "praesens": {
       "de": "es stiebt",
-      "lv": "Duva"
+      "lv": "Ono pršti"
     },
     "imperfektIndikativ": {
       "de": "stob vai stiebte",
-      "lv": "Pjenasti"
+      "lv": "Prštalo je ili se kovitlalo"
     },
     "imperfektKonjunktiv": {
       "de": "stob vai stiebte",
-      "lv": "Pjenasti"
+      "lv": "Prštalo bi / kovitlalo bi se"
     },
     "partizipVergangenheit": {
       "de": "gestoben vai gestiebt",
-      "lv": "Pokvareno"
+      "lv": "Prhnulo ili prštilo"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "Mirisati"
+      "lv": "Smrdjeti"
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "Smrdi"
+      "lv": "Ono smrdi"
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "Namirisao"
+      "lv": "Smrdjelo je"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
-      "lv": "Namirisao"
+      "lv": "Smrdjelo bi"
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "Smrdljivo"
+      "lv": "Smrdio"
     }
   },
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "Guraj"
+      "lv": "Gurnuti"
     },
     "praesens": {
       "de": "er stößt",
@@ -3336,143 +3336,143 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "On je gurao"
+      "lv": "On bi gurnuo"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
-      "lv": "Gurnuto"
+      "lv": "Gurnut"
     }
   },
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "Boja / traka"
+      "lv": "Bojiti / šarati"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "On slika / pruge"
+      "lv": "On boji / šara"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "On je slikano / prugasto"
+      "lv": "Farbao je / pravio pruge"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "On bi slikao/skinuo"
+      "lv": "Farbao bi / pravio bi pruge"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "Farbano / prugasto"
+      "lv": "Ofarban / isprugan"
     }
   },
   {
     "infinitiv": {
       "de": "streiten",
-      "lv": "Boriti se"
+      "lv": "Svađati se"
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "On se bori"
+      "lv": "On se svađa"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "Borio se"
+      "lv": "Svađao se"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "On bi se borio"
+      "lv": "On bi se svađao"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "Borio se"
+      "lv": "Svađao se"
     }
   },
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "Nositi"
+      "lv": "Donijeti"
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "On nosi"
+      "lv": "On donosi"
     },
     "imperfektIndikativ": {
       "de": "er trug",
-      "lv": "Nosio je"
+      "lv": "On je donio"
     },
     "imperfektKonjunktiv": {
       "de": "er trüge",
-      "lv": "On bi nosio"
+      "lv": "On bi donio"
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "Nosio"
+      "lv": "Nošen"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "Sresti"
+      "lv": "Susresti"
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "On se sastaje"
+      "lv": "On susreće"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "Naišao je"
+      "lv": "Susreo je"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
-      "lv": "On bi naišao"
+      "lv": "Susreo bi"
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "Naišli"
+      "lv": "Susretnut"
     }
   },
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "Juriti"
+      "lv": "Tjerati"
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "On vozi"
+      "lv": "On tjera"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "On je vozio"
+      "lv": "Tjerao je"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "On bi vozio"
+      "lv": "On bi tjerao"
     },
     "partizipVergangenheit": {
       "de": "getrieben",
-      "lv": "Gonjen"
+      "lv": "Tjeran"
     }
   },
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "Uđi / idi"
+      "lv": "Stupiti / ići"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "On ulazi / odlazi"
+      "lv": "On stupa / ide"
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "Stajao je / hodao"
+      "lv": "Stupio je / išao je"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "On bi stajao / išao"
+      "lv": "On bi stupio / išao bi"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "Stajao/hodao"
+      "lv": "Stupio / išao"
     }
   },
   {
@@ -3494,7 +3494,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "Pijan"
+      "lv": "Popio"
     }
   },
   {
@@ -3512,87 +3512,87 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er tröge",
-      "lv": "Varao bi"
+      "lv": "On bi varao"
     },
     "partizipVergangenheit": {
       "de": "getrogen",
-      "lv": "Cheated"
+      "lv": "Prevaren"
     }
   },
   {
     "infinitiv": {
       "de": "tun",
-      "lv": "Uraditi"
+      "lv": "Činiti"
     },
     "praesens": {
       "de": "er tut",
-      "lv": "On to radi"
+      "lv": "On čini"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "On jeste"
+      "lv": "Činio je"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "On bi uradio"
+      "lv": "On bi činio"
     },
     "partizipVergangenheit": {
       "de": "getan",
-      "lv": "Urađeno"
+      "lv": "Učinjen"
     }
   },
   {
     "infinitiv": {
       "de": "verderben",
-      "lv": "Oštetiti"
+      "lv": "Pokvariti"
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "On uništava"
+      "lv": "On kvari"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
-      "lv": "Oštetio je"
+      "lv": "Pokvario je"
     },
     "imperfektKonjunktiv": {
       "de": "er verdürbe",
-      "lv": "On bi oštetio"
+      "lv": "On bi pokvario"
     },
     "partizipVergangenheit": {
       "de": "verdorben",
-      "lv": "Oštećeno"
+      "lv": "Pokvaren"
     }
   },
   {
     "infinitiv": {
       "de": "verdrießen",
-      "lv": "Izazvati smetnju"
+      "lv": "Nervirati"
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "On izaziva neugodnost"
+      "lv": "On nervira"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "Izazvao je nerviranje"
+      "lv": "Nervirao je"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
-      "lv": "On bi izazvao iritaciju"
+      "lv": "On bi nervirao"
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "Uznemiren"
+      "lv": "Nerviran"
     }
   },
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "Zaboravi"
+      "lv": "Zaboraviti"
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "Zaboravlja"
+      "lv": "On zaboravlja"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
@@ -3600,11 +3600,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "Zaboravio bi"
+      "lv": "On bi zaboravio"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "Zaboravljena"
+      "lv": "Zaboravljen"
     }
   },
   {
@@ -3622,7 +3622,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "Izgubio bi"
+      "lv": "On bi izgubio"
     },
     "partizipVergangenheit": {
       "de": "verloren",
@@ -3640,7 +3640,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "On je odrastao"
+      "lv": "Rastao je"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
@@ -3648,13 +3648,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "Odrastao"
+      "lv": "Narastao"
     }
   },
   {
     "infinitiv": {
       "de": "waschen",
-      "lv": "Oprati"
+      "lv": "Prati"
     },
     "praesens": {
       "de": "er wäscht",
@@ -3662,21 +3662,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "Oprao se"
+      "lv": "Prao je"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
-      "lv": "Oprao bi se"
+      "lv": "On bi prao"
     },
     "partizipVergangenheit": {
       "de": "gewaschen",
-      "lv": "Oprano"
+      "lv": "Opran"
     }
   },
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "Weave"
+      "lv": "Tkati"
     },
     "praesens": {
       "de": "er webt",
@@ -3684,29 +3684,29 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "Tkiva"
+      "lv": "Tkao je"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "Tkiva"
+      "lv": "On bi tkala"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "Tkani"
+      "lv": "Istkan"
     }
   },
   {
     "infinitiv": {
       "de": "weichen",
-      "lv": "Da se povuče"
+      "lv": "Povlačiti se"
     },
     "praesens": {
       "de": "er weicht",
-      "lv": "On odustaje"
+      "lv": "On se povlači"
     },
     "imperfektIndikativ": {
       "de": "er wich",
-      "lv": "Odstupio je"
+      "lv": "Povukao se"
     },
     "imperfektKonjunktiv": {
       "de": "er wiche",
@@ -3714,13 +3714,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "Povuci se"
+      "lv": "Povukao se"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "Show"
+      "lv": "Pokazivati"
     },
     "praesens": {
       "de": "er weist",
@@ -3736,51 +3736,51 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
-      "lv": "Prikazano"
+      "lv": "Pokazan"
     }
   },
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "Modificirati / izrezati"
+      "lv": "Okretati / okrenuti"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "On se okreće"
+      "lv": "On okreće / preokreće"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "Okrenuo se/okrenuo"
+      "lv": "Okretao je / okrenuo je"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "On bi izmijenio / poništio"
+      "lv": "On bi okretao / on bi okrenuo"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "Izmijenjeno / poništeno"
+      "lv": "Okrenut / okrenut"
     }
   },
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "Predložiti"
+      "lv": "Udvarati se"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "On predlaže"
+      "lv": "On se udvara"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "Predložio je"
+      "lv": "Udvarao se"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "On bi predložio"
+      "lv": "On bi se udvarao"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "Predložio da"
+      "lv": "Udvaran"
     }
   },
   {
@@ -3794,21 +3794,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "Postao"
+      "lv": "Postao je"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "Postao"
+      "lv": "On bi postao"
     },
     "partizipVergangenheit": {
       "de": "geworden",
-      "lv": "Je postao"
+      "lv": "Postao"
     }
   },
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "Bacanje"
+      "lv": "Bacati"
     },
     "praesens": {
       "de": "er wirft",
@@ -3816,11 +3816,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "Bacio je"
+      "lv": "Bacao je"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "Bacio je"
+      "lv": "On bi bacao"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
@@ -3830,45 +3830,45 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wiegen",
-      "lv": "Težiti"
+      "lv": "Vagati"
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "On teži"
+      "lv": "On vaga"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "Odmerio je"
+      "lv": "Vagao je"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "On bi težio"
+      "lv": "On bi vagao"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "Ponderisano"
+      "lv": "Izvagan"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "Pletenica"
+      "lv": "Viti"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "He pin"
+      "lv": "On vije"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "On plete pletenice"
+      "lv": "On je vio"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
-      "lv": "On bi pletenicu"
+      "lv": "On bi vio"
     },
     "partizipVergangenheit": {
       "de": "gewunden",
-      "lv": "Pletena"
+      "lv": "Vijen"
     }
   },
   {
@@ -3882,7 +3882,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "Znao je"
+      "lv": "On je znao"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
@@ -3890,79 +3890,79 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "Poznato"
+      "lv": "Znao"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "Želim to"
+      "lv": "Htjeti"
     },
     "praesens": {
       "de": "er will",
-      "lv": "On želi"
+      "lv": "On hoće"
     },
     "imperfektIndikativ": {
       "de": "wollte",
-      "lv": "Želeo da"
+      "lv": "Htio je"
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "Želeo da"
+      "lv": "On bi htio"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "Želeo da"
+      "lv": "Htio"
     }
   },
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "Izrezati / istisnuti"
+      "lv": "Cijediti / iscijediti"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "Odseče on"
+      "lv": "On cijedi"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "Izrezati"
+      "lv": "Cijedio je"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "Izrezati"
+      "lv": "On bi iscijedio"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "Izrezati"
+      "lv": "Cijeđen"
     }
   },
   {
     "infinitiv": {
       "de": "zeihen",
-      "lv": "Kriviti"
+      "lv": "Optužiti"
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "On krivi"
+      "lv": "On optužuje"
     },
     "imperfektIndikativ": {
       "de": "zieh",
-      "lv": "Okrivio"
+      "lv": "Optužio je"
     },
     "imperfektKonjunktiv": {
       "de": "zieh",
-      "lv": "Okrivio"
+      "lv": "On bi optužio"
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "Okrivio"
+      "lv": "Optužen"
     }
   },
   {
     "infinitiv": {
       "de": "ziehen",
-      "lv": "Povući"
+      "lv": "Vući"
     },
     "praesens": {
       "de": "er zieht",
@@ -3970,7 +3970,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er zog",
-      "lv": "Povukao je"
+      "lv": "On je vukao"
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
@@ -3978,13 +3978,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gezogen",
-      "lv": "Vukao"
+      "lv": "Vučen"
     }
   },
   {
     "infinitiv": {
       "de": "zwingen",
-      "lv": "Na silu"
+      "lv": "Prisiliti"
     },
     "praesens": {
       "de": "er zwingt",
@@ -3992,7 +3992,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "Prisilio je"
+      "lv": "On je prisilio"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
@@ -4014,7 +4014,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er empfing",
-      "lv": "Primio je"
+      "lv": "On je primio"
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
@@ -4022,7 +4022,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "Primljeno"
+      "lv": "Primljen"
     }
   },
   {
@@ -4032,11 +4032,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "On smatra"
+      "lv": "On razmatra"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "Razmišljao je"
+      "lv": "On je razmotrio"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
@@ -4044,57 +4044,57 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "Razmatrano"
+      "lv": "Razmotren"
     }
   },
   {
     "infinitiv": {
       "de": "fechten",
-      "lv": "Boriti se"
+      "lv": "Svađati se"
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "On se bori"
+      "lv": "On se svađa"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "Borio se"
+      "lv": "Svađao se"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "On bi se borio"
+      "lv": "On bi se svađao"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "Borio se"
+      "lv": "Svađao se"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "Pletenica"
+      "lv": "Viti"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "He pin"
+      "lv": "On vije"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "On plete pletenice"
+      "lv": "On je vio"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
-      "lv": "On bi pletenicu"
+      "lv": "On bi vio"
     },
     "partizipVergangenheit": {
       "de": "geflochten",
-      "lv": "Pletena"
+      "lv": "Vijen"
     }
   },
   {
     "infinitiv": {
       "de": "hangen",
-      "lv": "Objesiti"
+      "lv": "Visiti"
     },
     "praesens": {
       "de": "er hängt",
@@ -4102,37 +4102,37 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "Visio je"
+      "lv": "On je visio"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "Obesio bi se"
+      "lv": "On bi visio"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Sačekaj"
+      "lv": "Visio"
     }
   },
   {
     "infinitiv": {
       "de": "spalten",
-      "lv": "Podijeliti"
+      "lv": "Cijepati"
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "On se razdvaja"
+      "lv": "On cijepa"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
-      "lv": "On se razdvojio"
+      "lv": "Cijepao je"
     },
     "imperfektKonjunktiv": {
       "de": "er spaltete",
-      "lv": "On bi se podelio"
+      "lv": "On bi cijepao"
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "Split"
+      "lv": "Pocijepan"
     }
   },
   {
@@ -4154,7 +4154,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "verziehen",
-      "lv": "Oprošteno"
+      "lv": "Oprošten"
     }
   }
 ];
