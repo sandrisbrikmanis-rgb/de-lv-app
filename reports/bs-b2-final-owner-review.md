@@ -9,8 +9,7 @@
 
 - **BS–DE B2 AUTOMATED QUALITY/FIX CYCLE = CLOSED**
 - **BS–DE B2 OWNER REVIEW BACKLOG = RESOLVED (0 active)**
-- **BS–DE B2 READY FOR OWNER ACCEPTANCE**
-- **FINAL – OWNER ACCEPTED** — not assigned (awaiting owner sign-off)
+- **BS–DE B2 — FINAL – OWNER ACCEPTED**
 
 ## Summary
 
