@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-08-08T12:10:59.758Z",
+  "dryRun": false,
+  "regressionFindingsInput": 9,
+  "statusCounts": {
+    "APPLIED": 9,
+    "ALREADY_FIXED": 0,
+    "STALE_CURRENT_TEXT": 0,
+    "PATCH_CONFLICT": 0,
+    "NOT_FOUND": 0
+  },
+  "severityApplied": {
+    "MEDIUM": 8,
+    "LOW": 1
+  },
+  "changedCards": 5,
+  "sectionAccentsUpdates": 2,
+  "postApplyVerify": {
+    "ok": 9,
+    "fail": 0,
+    "details": []
+  },
+  "validation": {
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "deReadOnly": "PASS",
+    "parity": "PASS",
+    "cardCount": 2118,
+    "studyCount": 60,
+    "mojibake": "PASS",
+    "sectionAccentsTechnical": 0
+  },
+  "openAiRequests": 0,
+  "log": [
+    {
+      "findingId": "64100d462111",
+      "cardId": "b2-durchbrennen-470",
+      "field": "lv",
+      "severity": "LOW",
+      "expectedCurrentText": "Progoreti • Pregorjeti • Izgorjeti • Pregorjeti",
+      "correctedText": "Progorjeti • Pregorjeti • Izgorjeti • Pregorjeti",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "229ef1a2d525",
+      "cardId": "b2-sich-hingeben",
+      "field": "study.rektion",
+      "severity": "MEDIUM",
+      "expectedCurrentText": "+ kam?",
+      "correctedText": "+ kome/čemu?",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "abea5b86fe22",
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.rektion",
+      "severity": "MEDIUM",
+      "expectedCurrentText": "bei + kam?",
+      "correctedText": "bei + kome?",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "1505fee9acd0",
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "expectedCurrentText": "Sich revanchieren zahtijeva određeni prijedlog bei + kam?.",
+      "correctedText": "Sich revanchieren zahtijeva određeni prijedlog bei + kome?.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "22017b2f56d3",
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.forms",
+      "severity": "MEDIUM",
+      "expectedCurrentText": "bei + kam?",
+      "correctedText": "bei + kome?",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "14ea272b1ad0",
+      "cardId": "b2-sich-verwundern",
+      "field": "study.rektion",
+      "severity": "MEDIUM",
+      "expectedCurrentText": "über + ko?",
+      "correctedText": "über + koga/šta?",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "0223362568c5",
+      "cardId": "b2-sich-verwundern",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "expectedCurrentText": "Sich verwundern zahtijeva određeni prijedlog über + ko?.",
+      "correctedText": "Sich verwundern zahtijeva određeni prijedlog über + koga/šta?.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "e4c859bf7016",
+      "cardId": "b2-sich-verwundern",
+      "field": "study.forms",
+      "severity": "MEDIUM",
+      "expectedCurrentText": "über + ko?",
+      "correctedText": "über + koga/šta?",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "57989254f5c6",
+      "cardId": "b2-sich-verlaufen",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "expectedCurrentText": "Sich verlaufen znači izgubiti se. Nema ustaljen prijedlog. Ne treba ga miješati s verlaufen.",
+      "correctedText": "Sich verlaufen znači izgubiti se. Nema ustaljenog prijedloga. Ne treba ga miješati s verlaufen.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    }
+  ]
+}

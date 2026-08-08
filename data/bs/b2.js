@@ -2955,7 +2955,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchbrennen",
-    "lv": "Progoreti • Pregorjeti • Izgorjeti • Pregorjeti",
+    "lv": "Progorjeti • Pregorjeti • Izgorjeti • Pregorjeti",
     "level": "B2"
   },
   {
@@ -7398,7 +7398,7 @@ const B2_WORDS = [
       "id": "b2-sich-hingeben",
       "layout": "minimalStudy",
       "translation": "Predati se • posvetiti se",
-      "rektion": "+ kam?",
+      "rektion": "+ kome/čemu?",
       "explanation": "Sich hingeben zahtijeva + kome/čemu?.",
       "forms": "+ kome/čemu?",
       "formsLabel": "Rekcija:",
@@ -10436,17 +10436,14 @@ const B2_WORDS = [
       "id": "b2-sich-revanchieren",
       "layout": "minimalStudy",
       "translation": "Vratiti • Osvetiti se",
-      "rektion": "bei + kam?",
-      "explanation": "Sich revanchieren zahtijeva određeni prijedlog bei + kam?.",
-      "forms": "bei + kam?",
+      "rektion": "bei + kome?",
+      "explanation": "Sich revanchieren zahtijeva određeni prijedlog bei + kome?.",
+      "forms": "bei + kome?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich revanchieren"
-          ],
-          "red": [
-            "bei + kam?"
           ]
         }
       }
@@ -13445,17 +13442,14 @@ const B2_WORDS = [
       "id": "b2-sich-verwundern",
       "layout": "minimalStudy",
       "translation": "Čuditi se",
-      "rektion": "über + ko?",
-      "explanation": "Sich verwundern zahtijeva određeni prijedlog über + ko?.",
-      "forms": "über + ko?",
+      "rektion": "über + koga/šta?",
+      "explanation": "Sich verwundern zahtijeva određeni prijedlog über + koga/šta?.",
+      "forms": "über + koga/šta?",
       "formsLabel": "Rekcija:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich verwundern"
-          ],
-          "red": [
-            "über + ko?"
           ]
         }
       }
@@ -15313,7 +15307,7 @@ const B2_WORDS = [
       "id": "b2-sich-verlaufen",
       "layout": "minimalStudy",
       "translation": "Izgubiti se",
-      "explanation": "Sich verlaufen znači izgubiti se. Nema ustaljen prijedlog. Ne treba ga miješati s verlaufen.",
+      "explanation": "Sich verlaufen znači izgubiti se. Nema ustaljenog prijedloga. Ne treba ga miješati s verlaufen.",
       "sectionAccents": {
         "explanation": {
           "blue": [
