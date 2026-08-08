@@ -1,0 +1,23 @@
+{
+  "status": "NOT_EXECUTED",
+  "reason": "OPENAI_API_KEY unavailable in audit environment",
+  "model": "gpt-5.6-luna",
+  "generatedAt": "2026-08-08T19:05:00.000Z",
+  "coverage": {
+    "normalCards": { "audited": 0, "total": 3043 },
+    "standardStudy": { "audited": 0, "total": 323 },
+    "minimalStudy": { "audited": 0, "total": 1 },
+    "totalCards": { "audited": 0, "total": 3367 },
+    "studyCards": { "audited": 0, "total": 324 }
+  },
+  "findings": [],
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "WARNING": 0,
+    "DE SOURCE ISSUE": 0
+  },
+  "stats": null
+}
