@@ -3,7 +3,8 @@
  * EN-DE B1 Luna linguistic audit (read-only). Requires OPENAI_API_KEY + gpt-5.6-luna.
  *
  * Usage:
- *   node reports/temp/audit-en-b1-luna.js [--test-batch]
+ *   export OPENAI_API_KEY=...
+ *   node reports/temp/audit-en-b1-luna.js [--test-batch] [--reset-progress]
  */
 const fs = require("fs");
 const path = require("path");
@@ -16,7 +17,7 @@ const {
   createStats,
   auditCardsBatch,
   recordRetryReason,
-} = require("../../scripts/lib/openai-luna-audit-batch");
+} = require("./openai-en-luna-audit-batch");
 
 const LV_FILE = path.join(ROOT, "data", "b1.js");
 const EN_FILE = path.join(ROOT, "data", "en", "b1.js");
@@ -25,23 +26,10 @@ const STATS_PATH = path.join(ROOT, "scripts", ".en-b1-luna-audit-stats.json");
 const PROGRESS_PATH = path.join(ROOT, "scripts", ".en-b1-luna-audit-progress.json");
 
 const TEST_BATCH = process.argv.includes("--test-batch");
+const RESET = process.argv.includes("--reset-progress");
 const SIMPLE_BATCH = 80;
 const STUDY_BATCH = 10;
 const MAX_RETRIES = 3;
-
-const EN_SYSTEM_EXTRA = [
-  "You are auditing EN-DE B1 (English translations for English learners of German).",
-  "LV source is Latvian master gloss for context only — target language is English.",
-  "Correct and natural current English = PASS.",
-  "Do not report stylistic alternatives as errors.",
-  "Different wording is not automatically better wording.",
-  "Do not prefer a synonym unless current text is inaccurate, unnatural, misleading, or pedagogically unsuitable.",
-  "If German source seems wrong but English is correct per DE: DE SOURCE ISSUE.",
-  "Do NOT suggest changes to German (DE) fields.",
-  "Severity: CRITICAL | HIGH | MEDIUM | LOW | WARNING | DE SOURCE ISSUE.",
-  "Return items with: cardId, field, severity, currentText, recommendedFix, shortReason.",
-  "For confirmed PASS on a card in batch: { cardId, status: \"OK\" }.",
-].join("\n");
 
 function load(filePath) {
   const code = fs.readFileSync(filePath, "utf8");
@@ -108,9 +96,8 @@ function buildSimpleCard(lvE, enE, index) {
 }
 
 function buildStudyCard(lvE, enE, index) {
-  const cardId = entryId(enE, index);
   return {
-    cardId,
+    cardId: entryId(enE, index),
     de: enE.de,
     deArticle: enE.de_article || null,
     layout: enE.study?.layout || "standardStudy",
@@ -128,13 +115,12 @@ async function auditBatchWithRetry(cards, stats, batchKey, auditType) {
         stats.retryCount += 1;
         recordRetryReason(stats, attempt === 1 ? "first_retry" : "subsequent_retry");
       }
-      const result = await auditCardsBatch({
+      return await auditCardsBatch({
         cards,
         stats,
         batchLabel: batchKey,
-        auditType: `${auditType} EN-DE B1 English learners. ${EN_SYSTEM_EXTRA}`,
+        auditType,
       });
-      return result;
     } catch (error) {
       if (attempt >= MAX_RETRIES) throw error;
       recordRetryReason(stats, error.message.includes("JSON") ? "invalid_json" : "api_error");
@@ -161,6 +147,11 @@ async function main() {
   if (!process.env.OPENAI_API_KEY?.trim()) {
     console.error("STOP: OPENAI_API_KEY not set. Luna audit cannot run.");
     process.exit(2);
+  }
+
+  if (RESET) {
+    if (fs.existsSync(PROGRESS_PATH)) fs.unlinkSync(PROGRESS_PATH);
+    console.log("Progress reset.");
   }
 
   const lv = load(LV_FILE);
@@ -197,19 +188,21 @@ async function main() {
       }
       const result = await auditBatchWithRetry(batches[i], stats, batchKey, type);
       for (const f of result.findings || []) {
-        allFindings.push({
-          cardId: f.cardId,
-          field: f.field,
-          severity: f.severity,
-          currentEn: f.existingBsText || f.currentText,
-          recommendedEn: f.recommendedFix,
-          reason: f.problem || f.justification,
-          source: "luna",
-        });
+        allFindings.push({ ...f, source: "luna" });
       }
       batches[i].forEach((c) => auditedIds.add(c.cardId));
       completed.add(batchKey);
       saveProgress({ completedBatches: [...completed], auditedCardIds: [...auditedIds] });
+      fs.writeFileSync(
+        FINDINGS_PATH,
+        JSON.stringify({
+          status: "IN_PROGRESS",
+          partialFindings: allFindings.length,
+          coverage: {
+            totalCards: { audited: auditedIds.size, total: lv.length },
+          },
+        })
+      );
     }
   }
 
@@ -234,8 +227,14 @@ async function main() {
     else severityCounts.WARNING++;
   }
 
+  const fullCoverage =
+    coverage.totalCards.audited === coverage.totalCards.total &&
+    coverage.normalCards.audited === coverage.normalCards.total &&
+    coverage.standardStudy.audited === coverage.standardStudy.total &&
+    coverage.minimalStudy.audited === coverage.minimalStudy.total;
+
   const output = {
-    status: "COMPLETE",
+    status: fullCoverage ? "EXECUTED" : "INCOMPLETE",
     model: DEFAULT_MODEL,
     generatedAt: new Date().toISOString(),
     coverage,
@@ -247,7 +246,12 @@ async function main() {
   fs.mkdirSync(path.dirname(FINDINGS_PATH), { recursive: true });
   fs.writeFileSync(FINDINGS_PATH, JSON.stringify(output, null, 2));
   fs.writeFileSync(STATS_PATH, JSON.stringify(stats, null, 2));
-  console.log(JSON.stringify({ coverage, findings: allFindings.length, severityCounts }, null, 2));
+  console.log(JSON.stringify({ status: output.status, coverage, findings: allFindings.length, severityCounts }, null, 2));
+
+  if (!fullCoverage) {
+    console.error("Coverage incomplete — audit not marked EXECUTED.");
+    process.exit(1);
+  }
 }
 
 main().catch((e) => {

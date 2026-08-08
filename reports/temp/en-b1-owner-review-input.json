@@ -1,18 +1,43 @@
 {
-  "generatedAt": "2026-08-08T19:03:13.219Z",
-  "deterministicCount": 57,
+  "generatedAt": "2026-08-08T19:07:19.996Z",
   "lunaStatus": "NOT_EXECUTED",
-  "lunaNewCount": 0,
+  "deterministicCount": 57,
   "lunaConfirmed": 0,
   "lunaRejected": 0,
-  "deduplicatedRepairCandidates": 57,
-  "severity": {
+  "lunaNewCount": 0,
+  "lunaSeverity": {
     "CRITICAL": 0,
-    "HIGH": 45,
-    "MEDIUM": 12,
+    "HIGH": 0,
+    "MEDIUM": 0,
     "LOW": 0,
     "WARNING": 0,
     "DE SOURCE ISSUE": 0
+  },
+  "deduplicatedRepairCandidates": 57,
+  "falsePositives": 0,
+  "deSourceIssues": 0,
+  "ownerDecisionNeeded": 0,
+  "coverage": {
+    "normalCards": {
+      "audited": 0,
+      "total": 3043
+    },
+    "standardStudy": {
+      "audited": 0,
+      "total": 323
+    },
+    "minimalStudy": {
+      "audited": 0,
+      "total": 1
+    },
+    "totalCards": {
+      "audited": 0,
+      "total": 3367
+    },
+    "studyCards": {
+      "audited": 0,
+      "total": 324
+    }
   },
   "findings": [
     {
