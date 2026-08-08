@@ -289,7 +289,7 @@ const COURSE_LESSON_DATA = {
           },
           {
             "type": "translate",
-            "lv": "Paul, sedi dole!",
+            "lv": "Pavle, sedi dole!",
             "de": "Paul, setz dich!"
           },
           {
@@ -384,7 +384,7 @@ const COURSE_LESSON_DATA = {
             "de": "Alle Schüler setzen sich."
           },
           {
-            "lv": "Paul, sedi!",
+            "lv": "Pavle, sedi!",
             "de": "Paul, setz dich!"
           },
           {
@@ -808,7 +808,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wir sitzen und lesen."
           },
           {
-            "lv": "Paul, sedi i čitaj!",
+            "lv": "Pavle, sedi i čitaj!",
             "de": "Paul, setz dich und lies!"
           },
           {
@@ -1063,11 +1063,11 @@ const COURSE_LESSON_DATA = {
             "de": "Ja, ich bin gesund."
           },
           {
-            "lv": "Da li je Paul zdrav?",
+            "lv": "Da li je Pavle zdrav?",
             "de": "Ist Paul gesund?"
           },
           {
-            "lv": "Ne, Paul nije zdrav, on je bolestan.",
+            "lv": "Ne, Pavle nije zdrav, on je bolestan.",
             "de": "Nein, Paul ist nicht gesund, er ist krank."
           },
           {
@@ -1627,7 +1627,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wer ist am ältesten?"
           },
           {
-            "lv": "Paul je najstariji.",
+            "lv": "Pavle je najstariji.",
             "de": "Paul ist am ältesten."
           },
           {
@@ -1643,7 +1643,7 @@ const COURSE_LESSON_DATA = {
             "de": "Wie heißt er?"
           },
           {
-            "lv": "Njegovo ime je John.",
+            "lv": "Njegovo ime je Ivan.",
             "de": "Er heißt Johann."
           },
           {
@@ -2131,7 +2131,7 @@ const COURSE_LESSON_DATA = {
             "de": "Ich beschneide und reinige die Nägel."
           },
           {
-            "lv": "Šta Paul radi?",
+            "lv": "Šta Pavle radi?",
             "de": "Was tut Paul?"
           },
           {
@@ -2179,7 +2179,7 @@ const COURSE_LESSON_DATA = {
             "de": "Robert, turne!"
           },
           {
-            "lv": "Robert i Jāni, vježbajte!",
+            "lv": "Robert i Ivan, vježbajte!",
             "de": "Robert und Johann, turnt!"
           },
           {

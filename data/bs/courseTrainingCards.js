@@ -41,7 +41,7 @@ window.lesson1TrainingCardsBs = [
     "back": "Geht ihr?"
   },
   {
-    "front": "Albert i Martha dolaze i idu.",
+    "front": "Albert i Marta dolaze i idu.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];
@@ -336,7 +336,7 @@ window.lesson5TrainingCardsBs = [
 
 window.lesson6TrainingCardsBs = [
   {
-    "front": "Paul uzima olovku i crta.",
+    "front": "Pavle uzima olovku i crta.",
     "back": "Paul nimmt einen Bleistift und zeichnet."
   },
   {
