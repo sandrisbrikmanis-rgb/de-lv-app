@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "date": "2026-08-09T08:23:10.745Z",
+    "cardsAudited": 25,
+    "cardsRepaired": 25,
+    "verdict": "EN–DE B1 HIGH REPAIR #2 — TARGETED REGRESSION PASS"
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "totalCards": 3367,
+    "structuralParity": "PASS",
+    "deReadOnly": "PASS",
+    "mirrorParity": "PASS",
+    "unexpectedProductionChanges": 0
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 7,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 7,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "followUpFindings": [],
+  "outOfScopeFindings": [],
+  "findings": [
+    {
+      "cardId": "b1-sich-befinden-study",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important[0].example.blue[0]",
+      "issue": "Accent \"befindet sich\" not substring of visible text",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-sich-befinden-study",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important[0].example.red[0]",
+      "issue": "Accent \"fühle mich\" not substring of visible text",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-beruf",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important[0].text.blue[0]",
+      "issue": "Accent \"der Beruf\" not substring of visible text",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-beruf",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important[0].text.purple[1]",
+      "issue": "Accent \"Der\" not substring of visible text",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-beruf",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important[0].text.red[0]",
+      "issue": "Accent \"Der\" not substring of visible text",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-beruf",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important[0].example.green[0]",
+      "issue": "Accent \"Arbeit\" not substring of visible text",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-beruf",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important[0].example.purple[1]",
+      "issue": "Accent \"der\" not substring of visible text",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    }
+  ]
+}
