@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-08-09T14:40:32.907Z",
+  "followUpCommit": "4e462fab",
+  "preFollowUpCommit": "b9b1491a",
+  "pass": false,
+  "finalResult": "MAIN INTEGRATION FOLLOW-UP MICRO-REGRESSION: FAIL — FOLLOW-UP REPAIR #2 REQUIRED",
+  "integrationRegressionChain": "NOT CLOSED",
+  "finalDatasetStatus": "NOT YET READY FOR OWNER ACCEPTANCE RECONFIRMATION",
+  "nextStep": "EN–DE B1 MAIN INTEGRATION FOLLOW-UP REPAIR #2",
+  "globalOutOfScopeBacklog": "4 known out-of-scope sectionAccent issues",
+  "coverage": {
+    "findingsRepresented": 8,
+    "physicalFieldsRepresented": 6,
+    "uniqueCardsAudited": 6,
+    "coveragePercent": 100,
+    "missingMappings": 0,
+    "missingCards": 0
+  },
+  "findingsBySeverity": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "findings": [
+    {
+      "id": "FOLLOW-UP MICRO-REGRESSION FINDING 1",
+      "cardId": "b1-entlassen",
+      "productionIdentity": "b1-entlassen",
+      "repairFindingSource": "",
+      "field": "sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "current": "choose by location",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "recommended": "Fix or remove invalid accent target \"choose by location\"",
+      "reason": "TARGET_MISMATCH on affected card after follow-up repair",
+      "ownerVerdict": "PENDING"
+    }
+  ],
+  "cardChecks": {
+    "b1-entlassen": "FAIL",
+    "b1-zeugnis": "PASS",
+    "b1-berühmtheit": "PASS",
+    "b1-kurs": "PASS",
+    "b1-kastanie": "PASS",
+    "b1-beruf": "PASS"
+  },
+  "repairChecks": [
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 1",
+      "pass": true,
+      "actual": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+      "expected": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context."
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 2",
+      "pass": true,
+      "actual": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate.",
+      "expected": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate."
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3",
+      "pass": true,
+      "actual": "late",
+      "expected": "late",
+      "targetLv": "Fame came late."
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 4",
+      "pass": true,
+      "actual": null,
+      "expected": "REMOVED"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 5",
+      "pass": true,
+      "actual": null,
+      "expected": "REMOVED (paired)"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 6",
+      "pass": true,
+      "actual": null,
+      "expected": "REMOVED"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 7",
+      "pass": true,
+      "actual": null,
+      "expected": "REMOVED (paired)"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 8",
+      "pass": true,
+      "actual": "teacher",
+      "expected": "teacher",
+      "targetLv": "I am a teacher."
+    }
+  ],
+  "sectionAccents": {
+    "newTechnical": 1,
+    "newPedagogical": 0,
+    "preExistingOnAffectedCards": 3
+  },
+  "languageIntegrity": {
+    "inScopeMetaPedagogy": 0,
+    "inScopeLvLeftovers": 0,
+    "preExistingLvOnAffected": 1
+  },
+  "reconciliation": {
+    "finalMappingCount": 1139,
+    "presentInMain": 1139,
+    "missingFromMain": 0,
+    "unresolved": 0
+  },
+  "preservation": {
+    "regressionPass": 214,
+    "regressionTotal": 214,
+    "microPass": 16,
+    "microTotal": 16,
+    "fullStringPass": 14,
+    "fullStringTotal": 14,
+    "sectionPass": 24,
+    "sectionTotal": 24,
+    "truncated": []
+  },
+  "globalValidator": {
+    "rawCount": 4,
+    "inScopeNew": 0,
+    "knownOutOfScope": 4,
+    "knownFalsePositive": 0,
+    "unexpected": 0,
+    "classified": [
+      {
+        "de": "Absatz",
+        "term": "The",
+        "section": "examples",
+        "field": "lv",
+        "classification": "KNOWN OUT-OF-SCOPE"
+      },
+      {
+        "de": "bedeutend",
+        "term": "significantly",
+        "section": "examples",
+        "field": "lv",
+        "classification": "KNOWN OUT-OF-SCOPE"
+      },
+      {
+        "de": "belegen",
+        "term": "busy",
+        "section": "important",
+        "field": null,
+        "classification": "KNOWN OUT-OF-SCOPE"
+      },
+      {
+        "de": "einerlei",
+        "term": "doesn't matter",
+        "section": "explanation",
+        "field": null,
+        "classification": "KNOWN OUT-OF-SCOPE"
+      }
+    ]
+  },
+  "validation": {
+    "javascript": "PASS",
+    "structuralSchemaParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "mirrorParity": "PASS",
+    "utf8Mojibake": "PASS",
+    "suspiciousUnicode": "PASS",
+    "deReadOnly": "PASS",
+    "validateStudyDesign": "FAIL",
+    "auditTranslations": "PASS"
+  },
+  "validators": {
+    "javascript": true,
+    "mirrorParity": true,
+    "deReadOnly": true
+  },
+  "diff": {
+    "physicalFieldsChanged": 6,
+    "uniqueCardsChanged": 6,
+    "unrelatedEnglish": 0,
+    "deChanges": 0,
+    "unexpectedChanges": 0
+  },
+  "productionChangesDuringAudit": 0,
+  "layouts": {
+    "total": 3367,
+    "studyObjects": 324,
+    "standardStudy": 323
+  }
+}
