@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-08-09T14:06:26.878Z",
+  "repairs": [
+    {
+      "cardId": "b1-hort",
+      "field": "study.explanation[0]",
+      "value": "Main idea: Hort (also Schulhort/Kinderhort) is an after-school care facility for school-aged children.",
+      "source": "regression_repair #12",
+      "status": "APPLIED",
+      "productionId": "b1-hort"
+    },
+    {
+      "cardId": "b1-kader",
+      "field": "study.explanation[0]",
+      "value": "Main Idea: Kader means a (qualified) cadre or nucleus—a group of people with a specific role or qualification.",
+      "source": "regression_repair #15",
+      "status": "APPLIED",
+      "productionId": "b1-kader"
+    },
+    {
+      "cardId": "b1-leistung",
+      "field": "study.sectionAccents.comparison[0].meaning.purple",
+      "value": [
+        "Performance",
+        "achievement",
+        "Performance"
+      ],
+      "source": "HIGH #12 + sectionaccent_oos triage #9",
+      "status": "APPLIED",
+      "productionId": "b1-leistung"
+    },
+    {
+      "cardId": "b1-treiben",
+      "field": "study.sectionAccents.comparison[2].meaning.purple",
+      "value": "__REMOVE_ACCENT__",
+      "source": "regression_repair #238",
+      "status": "APPLIED",
+      "productionId": "b1-treiben"
+    },
+    {
+      "cardId": "b1-leistung",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[2]",
+      "value": "Performance",
+      "source": "sectionaccent_oos triage #9",
+      "status": "APPLIED",
+      "productionId": "b1-leistung"
+    }
+  ]
+}

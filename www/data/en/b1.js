@@ -41,7 +41,7 @@ const B1_WORDS = [
     "de": "Umgebung",
     "de_article": "die",
     "de_plural": "die Umgebungen",
-    "lv": "Neighborhood",
+    "lv": "Surroundings",
     "level": "B1"
   },
   {
@@ -53,7 +53,7 @@ const B1_WORDS = [
     "de": "Aktentasche",
     "de_article": "die",
     "de_plural": "die Aktentaschen",
-    "lv": "Portfolio",
+    "lv": "Briefcase",
     "level": "B1"
   },
   {
@@ -74,7 +74,7 @@ const B1_WORDS = [
     "de": "Alarm",
     "de_article": "der",
     "de_plural": "die Alarme",
-    "lv": "Anxiety",
+    "lv": "Alarm",
     "level": "B1"
   },
   {
@@ -456,7 +456,7 @@ const B1_WORDS = [
     "de": "Angehörige",
     "de_article": "der",
     "de_plural": "die Angehörigen",
-    "lv": "Belonging to",
+    "lv": "Relative",
     "level": "B1"
   },
   {
@@ -1225,7 +1225,7 @@ const B1_WORDS = [
   },
   {
     "de": "abfragen",
-    "lv": "To request",
+    "lv": "To query / to test",
     "level": "B1"
   },
   {
@@ -1421,12 +1421,12 @@ const B1_WORDS = [
   },
   {
     "de": "abhängen",
-    "lv": "To be addicted",
+    "lv": "To depend / to be dependent",
     "level": "B1",
     "study": {
       "id": "b1-abhängen",
       "layout": "standardStudy",
-      "translation": "To be addicted",
+      "translation": "To depend / to be dependent",
       "explanation": "Main idea: abhängen with von means to depend on something. Besides von, it can also mean to remove something that is hanging.",
       "examples": [
         {
@@ -1450,7 +1450,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "abhängen von is a stable construction; in Latvian it is not translated literally as \"to hang\"."
+        "text": "abhängen von means to depend on or be dependent on someone or something; it should not be translated literally as “to hang”."
       },
       "sectionAccents": {
         "explanation": {
@@ -1539,7 +1539,7 @@ const B1_WORDS = [
   },
   {
     "de": "abhängig",
-    "lv": "Depends",
+    "lv": "Dependent",
     "level": "B1"
   },
   {
@@ -1574,7 +1574,7 @@ const B1_WORDS = [
     "de": "Ablauf",
     "de_article": "der",
     "de_plural": "die Abläufe",
-    "lv": "Progress",
+    "lv": "Process / sequence",
     "level": "B1"
   },
   {
@@ -2113,7 +2113,7 @@ const B1_WORDS = [
   },
   {
     "de": "abschaffen",
-    "lv": "Atcelt",
+    "lv": "To abolish",
     "level": "B1"
   },
   {
@@ -2329,7 +2329,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "In Latvian, \"fragment\" does not always fit; der Abschnitt is more often a section or section."
+        "text": "der Abschnitt usually means a section or part of a larger text, document, route, or period."
       },
       "sectionAccents": {
         "explanation": {
@@ -2427,7 +2427,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "abschnitt"
+            "Abschnitt"
           ]
         }
       }
@@ -2574,7 +2574,7 @@ const B1_WORDS = [
   },
   {
     "de": "absichern",
-    "lv": "To provide",
+    "lv": "To secure / safeguard",
     "level": "B1"
   },
   {
@@ -2596,7 +2596,7 @@ const B1_WORDS = [
   },
   {
     "de": "absperren",
-    "lv": "Delimiting",
+    "lv": "To cordon off / block",
     "level": "B1"
   },
   {
@@ -2723,7 +2723,7 @@ const B1_WORDS = [
     "de": "Ambulanz",
     "de_article": "die",
     "de_plural": "die Ambulanzen",
-    "lv": "Emergency assistance",
+    "lv": "Outpatient clinic",
     "level": "B1"
   },
   {
@@ -2772,19 +2772,19 @@ const B1_WORDS = [
     "de": "Anklang",
     "de_article": "der",
     "de_plural": "die Anklänge",
-    "lv": "Responsiveness",
+    "lv": "Appeal / resonance",
     "level": "B1"
   },
   {
     "de": "anknüpfen",
-    "lv": "To attract",
+    "lv": "To connect / build on",
     "level": "B1"
   },
   {
     "de": "Anlauf",
     "de_article": "der",
     "de_plural": "die Anläufe",
-    "lv": "Run in",
+    "lv": "Run-up / attempt",
     "level": "B1"
   },
   {
@@ -2951,7 +2951,7 @@ const B1_WORDS = [
   },
   {
     "de": "anlehnen",
-    "lv": "Push",
+    "lv": "To lean against",
     "level": "B1"
   },
   {
@@ -2963,7 +2963,7 @@ const B1_WORDS = [
   },
   {
     "de": "anliegend",
-    "lv": "In the appendix",
+    "lv": "Attached / enclosed",
     "level": "B1"
   },
   {
@@ -3117,7 +3117,7 @@ const B1_WORDS = [
     "de": "Anrede",
     "de_article": "die",
     "de_plural": "die Anreden",
-    "lv": "Speech",
+    "lv": "Form of address / salutation",
     "level": "B1"
   },
   {
@@ -3153,12 +3153,12 @@ const B1_WORDS = [
     "de": "Ansager",
     "de_article": "der",
     "de_plural": "die Ansager",
-    "lv": "The applicant",
+    "lv": "Announcer",
     "level": "B1"
   },
   {
     "de": "anschaulich",
-    "lv": "Considered",
+    "lv": "Clear / vivid",
     "level": "B1"
   },
   {
@@ -3490,7 +3490,7 @@ const B1_WORDS = [
   },
   {
     "de": "anschreiben",
-    "lv": "To write down",
+    "lv": "To write to",
     "level": "B1"
   },
   {
@@ -3671,7 +3671,7 @@ const B1_WORDS = [
     "de": "Ansichtskarte",
     "de_article": "die",
     "de_plural": "die Ansichtskarten",
-    "lv": "View card",
+    "lv": "Postcard",
     "level": "B1"
   },
   {
@@ -3688,7 +3688,7 @@ const B1_WORDS = [
   },
   {
     "de": "anstiften",
-    "lv": "To encourage",
+    "lv": "To incite",
     "level": "B1"
   },
   {
@@ -3733,7 +3733,7 @@ const B1_WORDS = [
     "de": "Antiquariat",
     "de_article": "das",
     "de_plural": "die Antiquariate",
-    "lv": "Antique store",
+    "lv": "Second-hand bookshop",
     "level": "B1"
   },
   {
@@ -3786,7 +3786,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Darba pieteikums parasti ir die Bewerbung, nevis der Antrag."
+        "text": "For a job application, German normally uses die Bewerbung. der Antrag is an application or formal request, especially to an authority or institution."
       },
       "sectionAccents": {
         "explanation": {
@@ -3909,7 +3909,7 @@ const B1_WORDS = [
   },
   {
     "de": "anweisen",
-    "lv": "Indicate",
+    "lv": "To instruct",
     "level": "B1"
   },
   {
@@ -3930,14 +3930,14 @@ const B1_WORDS = [
     "de": "Anzahlung",
     "de_article": "die",
     "de_plural": "die Anzahlungen",
-    "lv": "Contribution",
+    "lv": "Down payment / deposit",
     "level": "B1"
   },
   {
     "de": "Appell",
     "de_article": "der",
     "de_plural": "die Appelle",
-    "lv": "Invitation",
+    "lv": "Appeal",
     "level": "B1"
   },
   {
@@ -4037,7 +4037,7 @@ const B1_WORDS = [
     "de": "Auflauf",
     "de_article": "der",
     "de_plural": "die Aufläufe",
-    "lv": "Concoction",
+    "lv": "Casserole",
     "level": "B1"
   },
   {
@@ -4072,7 +4072,7 @@ const B1_WORDS = [
   {
     "de": "Aufschnitt",
     "de_article": "der",
-    "lv": "Cold snaps",
+    "lv": "Cold cuts",
     "level": "B1"
   },
   {
@@ -4385,7 +4385,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Efforts"
+                "Effort"
               ]
             }
           },
@@ -4603,7 +4603,7 @@ const B1_WORDS = [
   },
   {
     "de": "aufgeregt",
-    "lv": "Worried",
+    "lv": "Excited / nervous",
     "level": "B1"
   },
   {
@@ -4780,7 +4780,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich aufregen",
-    "lv": "To worry",
+    "lv": "To get upset",
     "level": "B1"
   },
   {
@@ -5528,7 +5528,7 @@ const B1_WORDS = [
   },
   {
     "de": "ausziehbar",
-    "lv": "Retractable",
+    "lv": "Extendable / pull-out",
     "level": "B1"
   },
   {
@@ -6042,7 +6042,7 @@ const B1_WORDS = [
   },
   {
     "de": "beauftragen",
-    "lv": "To ask",
+    "lv": "To commission / assign",
     "level": "B1"
   },
   {
@@ -6591,7 +6591,7 @@ const B1_WORDS = [
   },
   {
     "de": "bedrücken",
-    "lv": "To suppress",
+    "lv": "To weigh down / depress",
     "level": "B1"
   },
   {
@@ -6789,7 +6789,7 @@ const B1_WORDS = [
     "de": "Behälter",
     "de_article": "der",
     "de_plural": "die Behälter",
-    "lv": "Tank",
+    "lv": "Container",
     "level": "B1"
   },
   {
@@ -6986,7 +6986,7 @@ const B1_WORDS = [
   },
   {
     "de": "behindern",
-    "lv": "Disturb",
+    "lv": "To hinder / obstruct",
     "level": "B1"
   },
   {
@@ -7071,7 +7071,7 @@ const B1_WORDS = [
   },
   {
     "de": "beitragen",
-    "lv": "Promote",
+    "lv": "To contribute",
     "level": "B1"
   },
   {
@@ -7100,7 +7100,7 @@ const B1_WORDS = [
   },
   {
     "de": "belasten",
-    "lv": "To bother",
+    "lv": "To burden / put a strain on",
     "level": "B1"
   },
   {
@@ -7282,19 +7282,19 @@ const B1_WORDS = [
   },
   {
     "de": "beleidigen",
-    "lv": "Take offence",
+    "lv": "To insult / offend",
     "level": "B1"
   },
   {
     "de": "Beleidigung",
     "de_article": "die",
     "de_plural": "die Beleidigungen",
-    "lv": "Resentment",
+    "lv": "Insult / offence",
     "level": "B1"
   },
   {
     "de": "beleuchten",
-    "lv": "To enlighten",
+    "lv": "To illuminate / light",
     "level": "B1"
   },
   {
@@ -7306,7 +7306,7 @@ const B1_WORDS = [
   },
   {
     "de": "beliebig",
-    "lv": "Anyone",
+    "lv": "Any / arbitrary",
     "level": "B1"
   },
   {
@@ -8060,7 +8060,7 @@ const B1_WORDS = [
     "de": "Bergführer",
     "de_article": "der",
     "de_plural": "die Bergführer",
-    "lv": "A companion in the mountains",
+    "lv": "Mountain guide",
     "level": "B1"
   },
   {
@@ -8089,7 +8089,7 @@ const B1_WORDS = [
     "de": "Bericht",
     "de_article": "der",
     "de_plural": "die Berichte",
-    "lv": "Message",
+    "lv": "Report",
     "level": "B1"
   },
   {
@@ -8140,7 +8140,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "berichten parasti lieto ar über + ko? vai von + kam?."
+        "text": "berichten is commonly used with über + accusative for what is being reported about, and with von + dative for what someone reports or tells about."
       },
       "sectionAccents": {
         "examples": [
@@ -8252,8 +8252,10 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "über + ko?",
-            "von + kam?"
+            "über",
+            "accusative",
+            "von",
+            "dative"
           ]
         }
       }
@@ -8433,8 +8435,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "calms itself",
-                  "appease"
+                  "will calm down, calm"
                 ]
               }
             }
@@ -8525,7 +8526,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "late"
+                "null"
               ]
             }
           },
@@ -8612,7 +8613,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich berühren",
-    "lv": "To face",
+    "lv": "To touch each other",
     "level": "B1"
   },
   {
@@ -8998,7 +8999,7 @@ const B1_WORDS = [
   },
   {
     "de": "beseitigen",
-    "lv": "To prevent",
+    "lv": "To remove / eliminate",
     "level": "B1"
   },
   {
@@ -9013,7 +9014,7 @@ const B1_WORDS = [
   },
   {
     "de": "besiegen",
-    "lv": "To win",
+    "lv": "To defeat",
     "level": "B1"
   },
   {
@@ -9203,7 +9204,7 @@ const B1_WORDS = [
     "de": "Bestandteil",
     "de_article": "der",
     "de_plural": "die Bestandteile",
-    "lv": "Ingredient",
+    "lv": "Component / part",
     "level": "B1"
   },
   {
@@ -9619,7 +9620,7 @@ const B1_WORDS = [
   },
   {
     "de": "betreiben",
-    "lv": "To lead",
+    "lv": "To run / operate",
     "level": "B1"
   },
   {
@@ -9805,14 +9806,14 @@ const B1_WORDS = [
   },
   {
     "de": "beugen",
-    "lv": "To put",
+    "lv": "To bend",
     "level": "B1"
   },
   {
     "de": "Beule",
     "de_article": "die",
     "de_plural": "die Beulen",
-    "lv": "Pun",
+    "lv": "Bump / dent",
     "level": "B1"
   },
   {
@@ -9831,7 +9832,7 @@ const B1_WORDS = [
     "de": "Bevölkerung",
     "de_article": "die",
     "de_plural": "die Bevölkerungen",
-    "lv": "Residents",
+    "lv": "Population",
     "level": "B1"
   },
   {
@@ -9841,7 +9842,7 @@ const B1_WORDS = [
   },
   {
     "de": "bewachen",
-    "lv": "To protect",
+    "lv": "To guard / watch over",
     "level": "B1"
   },
   {
@@ -10032,7 +10033,7 @@ const B1_WORDS = [
   },
   {
     "de": "bewirten",
-    "lv": "To tolerate",
+    "lv": "To host / serve guests",
     "level": "B1"
   },
   {
@@ -10269,7 +10270,7 @@ const B1_WORDS = [
   },
   {
     "de": "biegen",
-    "lv": "To put",
+    "lv": "To bend",
     "level": "B1"
   },
   {
@@ -10605,7 +10606,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich blamieren",
-    "lv": "Get confused",
+    "lv": "To embarrass oneself",
     "level": "B1"
   },
   {
@@ -10663,7 +10664,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "On the foot, Blase is usually \"blister\" in Latvian, not \"bladder\". In medicine Blase can also be bladder."
+        "text": "The context determines the meaning: on the skin, Blase usually means “blister”; in anatomy, it can mean “bladder”."
       },
       "sectionAccents": {
         "examples": [
@@ -10715,9 +10716,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "blister",
-            "Main",
-            "Main"
+            "blister"
           ]
         },
         "comparison": [
@@ -11009,7 +11008,7 @@ const B1_WORDS = [
       "id": "b1-bloß",
       "layout": "standardStudy",
       "translation": "Only",
-      "explanation": "Main idea: bloß very often means just or simply in colloquial language. As an adjective it means bald, eg mit bloßen Händen.",
+      "explanation": "Main idea: bloß very often means just or simply in colloquial language. As an adjective it means bare, e.g. mit bloßen Händen.",
       "examples": [
         {
           "de": "Das war bloß ein Witz.",
@@ -11382,7 +11381,7 @@ const B1_WORDS = [
     "de": "Bombe",
     "de_article": "die",
     "de_plural": "die Bomben",
-    "lv": "Ball",
+    "lv": "Bomb",
     "level": "B1"
   },
   {
@@ -11763,7 +11762,7 @@ const B1_WORDS = [
     "de": "Brathuhn",
     "de_article": "das",
     "de_plural": "die Brathühner",
-    "lv": "Fried chicken",
+    "lv": "Roast chicken",
     "level": "B1"
   },
   {
@@ -11862,7 +11861,7 @@ const B1_WORDS = [
     "de": "Brieftasche",
     "de_article": "die",
     "de_plural": "die Brieftaschen",
-    "lv": "Pocket briefcase",
+    "lv": "Wallet",
     "level": "B1"
   },
   {
@@ -14102,7 +14101,7 @@ const B1_WORDS = [
   },
   {
     "de": "desto",
-    "lv": "Because",
+    "lv": "The more ... the more ... / all the more",
     "level": "B1"
   },
   {
@@ -14402,7 +14401,7 @@ const B1_WORDS = [
     "de": "Dose",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "Box",
+    "lv": "Can / tin",
     "level": "B1"
   },
   {
@@ -14705,7 +14704,7 @@ const B1_WORDS = [
   {
     "de": "Durcheinander",
     "de_article": "das",
-    "lv": "Juku jukam • A mess",
+    "lv": "A muddle / a mess",
     "level": "B1"
   },
   {
@@ -15126,7 +15125,7 @@ const B1_WORDS = [
   },
   {
     "de": "ehemals",
-    "lv": "Earlier",
+    "lv": "Formerly",
     "level": "B1"
   },
   {
@@ -15508,7 +15507,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich eignen",
-    "lv": "To bet",
+    "lv": "To be suitable",
     "level": "B1"
   },
   {
@@ -18467,7 +18466,7 @@ const B1_WORDS = [
   },
   {
     "de": "einigermaßen",
-    "lv": "Half way",
+    "lv": "To some extent / more or less",
     "level": "B1"
   },
   {
@@ -18520,7 +18519,7 @@ const B1_WORDS = [
   },
   {
     "de": "einnehmen",
-    "lv": "To conceive",
+    "lv": "To take / occupy",
     "level": "B1"
   },
   {
@@ -18665,7 +18664,9 @@ const B1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": []
+              "purple": [
+                "Use / deployment / stake"
+              ]
             }
           },
           {
@@ -18721,7 +18722,7 @@ const B1_WORDS = [
   },
   {
     "de": "einschließen",
-    "lv": "To count",
+    "lv": "To include / enclose",
     "level": "B1"
   },
   {
@@ -20317,7 +20318,7 @@ const B1_WORDS = [
       "id": "b1-entlassen",
       "layout": "standardStudy",
       "translation": "Let go",
-      "explanation": "Main idea: entlassen means to dismiss or release from an institution. The Latvian translation changes depending on the place: the company fires, the hospital discharges, the prison releases.",
+      "explanation": "Main idea: entlassen means to dismiss, discharge, or release someone, depending on the context. An employer can dismiss or fire someone, a hospital can discharge a patient, and a prison can release a prisoner.",
       "examples": [
         {
           "de": "Die Firma entlässt viele Mitarbeiter.",
@@ -20357,7 +20358,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "From the hospital, entlassen is usually \"discharge\" in Latvian, not \"dismiss\"."
+        "text": "From a hospital, entlassen usually means “to discharge”; in employment, it usually means “to dismiss” or “to fire”."
       },
       "sectionAccents": {
         "examples": [
@@ -20418,7 +20419,8 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "release",
+            "dismiss",
+            "discharge",
             "release"
           ]
         },
@@ -20927,7 +20929,7 @@ const B1_WORDS = [
   },
   {
     "de": "erfordern",
-    "lv": "Ask for",
+    "lv": "To require",
     "level": "B1"
   },
   {
@@ -20952,7 +20954,7 @@ const B1_WORDS = [
   },
   {
     "de": "erfüllen",
-    "lv": "To execute",
+    "lv": "To fulfil",
     "level": "B1"
   },
   {
@@ -21142,7 +21144,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich erhalten",
-    "lv": "To preserve",
+    "lv": "To remain preserved / survive",
     "level": "B1"
   },
   {
@@ -21169,7 +21171,7 @@ const B1_WORDS = [
     "de": "Erklärung",
     "de_article": "die",
     "de_plural": "die Erklärungen",
-    "lv": "Notification",
+    "lv": "Explanation / statement",
     "level": "B1"
   },
   {
@@ -21229,7 +21231,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich ernähren",
-    "lv": "To make a living",
+    "lv": "To feed oneself / live on",
     "level": "B1"
   },
   {
@@ -21623,7 +21625,7 @@ const B1_WORDS = [
   },
   {
     "de": "erschrecken",
-    "lv": "Get confused",
+    "lv": "To get frightened / be startled",
     "level": "B1"
   },
   {
@@ -21833,12 +21835,12 @@ const B1_WORDS = [
     "de": "Erwartung",
     "de_article": "die",
     "de_plural": "die Erwartungen",
-    "lv": "Waiting",
+    "lv": "Expectation",
     "level": "B1"
   },
   {
     "de": "erwecken",
-    "lv": "Wake up",
+    "lv": "To awaken",
     "level": "B1"
   },
   {
@@ -22240,7 +22242,7 @@ const B1_WORDS = [
   },
   {
     "de": "faszinieren",
-    "lv": "Get carried away",
+    "lv": "To fascinate",
     "level": "B1"
   },
   {
@@ -22457,7 +22459,7 @@ const B1_WORDS = [
   {
     "de": "Feinwäsche",
     "de_article": "die",
-    "lv": "Fine linen",
+    "lv": "Delicates",
     "level": "B1"
   },
   {
@@ -22476,7 +22478,7 @@ const B1_WORDS = [
   },
   {
     "de": "fernbleiben",
-    "lv": "Don't come",
+    "lv": "To stay away",
     "level": "B1"
   },
   {
@@ -23051,7 +23053,7 @@ const B1_WORDS = [
     "de": "Fischgericht",
     "de_article": "das",
     "de_plural": "die Fischgerichte",
-    "lv": "Fish food",
+    "lv": "Fish dish",
     "level": "B1"
   },
   {
@@ -23403,7 +23405,7 @@ const B1_WORDS = [
       "id": "b1-fördern",
       "layout": "standardStudy",
       "translation": "Promote",
-      "explanation": "Main idea: förden means to promote the development or support of a person, project or process. In industry, this means extracting minerals such as oil or coal.",
+      "explanation": "Main idea: fördern means to promote the development or support of a person, project or process. In industry, this means extracting natural resources such as oil or coal.",
       "examples": [
         {
           "de": "Sport fördert die Gesundheit.",
@@ -23443,7 +23445,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Nejauc fördern un fordern: viens veicina vai atbalsta, otrs prasa."
+        "text": "Do not confuse fördern and fordern: fördern means to promote or support, while fordern means to demand or require."
       },
       "sectionAccents": {
         "examples": [
@@ -23555,9 +23557,9 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "veicina",
-            "atbalsta",
-            "prasa"
+            "promote",
+            "support",
+            "demand"
           ]
         }
       }
@@ -23582,7 +23584,7 @@ const B1_WORDS = [
   },
   {
     "de": "fortbleiben",
-    "lv": "Don't come",
+    "lv": "To stay away / remain absent",
     "level": "B1"
   },
   {
@@ -24071,7 +24073,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich füllen",
-    "lv": "To fulfil",
+    "lv": "To fill up / become full",
     "level": "B1"
   },
   {
@@ -24117,7 +24119,7 @@ const B1_WORDS = [
     "de": "Fußnote",
     "de_article": "die",
     "de_plural": "die Fußnoten",
-    "lv": "Subtext note",
+    "lv": "Footnote",
     "level": "B1"
   },
   {
@@ -24798,7 +24800,7 @@ const B1_WORDS = [
   },
   {
     "de": "gedankenlos",
-    "lv": "Reckless",
+    "lv": "Thoughtless",
     "level": "B1"
   },
   {
@@ -24844,7 +24846,7 @@ const B1_WORDS = [
     "de": "Gefallen",
     "de_article": "der",
     "de_plural": "die Gefallen",
-    "lv": "Service",
+    "lv": "Favor",
     "level": "B1"
   },
   {
@@ -25616,7 +25618,7 @@ const B1_WORDS = [
   },
   {
     "de": "genial",
-    "lv": "Genius",
+    "lv": "Brilliant",
     "level": "B1"
   },
   {
@@ -25640,7 +25642,7 @@ const B1_WORDS = [
   },
   {
     "de": "genügen",
-    "lv": "Enough",
+    "lv": "To be enough",
     "level": "B1"
   },
   {
@@ -25652,7 +25654,7 @@ const B1_WORDS = [
     "de": "Genuss",
     "de_article": "der",
     "de_plural": "die Genüsse",
-    "lv": "Enjoying",
+    "lv": "Enjoyment",
     "level": "B1"
   },
   {
@@ -25827,7 +25829,7 @@ const B1_WORDS = [
   },
   {
     "de": "geräumig",
-    "lv": "Wide",
+    "lv": "Spacious",
     "level": "B1"
   },
   {
@@ -25839,7 +25841,7 @@ const B1_WORDS = [
   },
   {
     "de": "gerecht",
-    "lv": "Righteous",
+    "lv": "Fair / just",
     "level": "B1"
   },
   {
@@ -25894,7 +25896,7 @@ const B1_WORDS = [
   },
   {
     "de": "gesamt",
-    "lv": "Everything",
+    "lv": "Entire / total",
     "level": "B1"
   },
   {
@@ -25923,7 +25925,7 @@ const B1_WORDS = [
   },
   {
     "de": "geschickt",
-    "lv": "Neat",
+    "lv": "Skillful",
     "level": "B1"
   },
   {
@@ -26683,7 +26685,7 @@ const B1_WORDS = [
   },
   {
     "de": "gewöhnen",
-    "lv": "Tame",
+    "lv": "To accustom / get used to",
     "level": "B1"
   },
   {
@@ -27054,7 +27056,7 @@ const B1_WORDS = [
     "de": "Glatteis",
     "de_article": "das",
     "de_plural": "die Glatteise",
-    "lv": "Again",
+    "lv": "Black ice",
     "level": "B1"
   },
   {
@@ -27119,7 +27121,7 @@ const B1_WORDS = [
     "de": "Glocke",
     "de_article": "die",
     "de_plural": "die Glocken",
-    "lv": "Call",
+    "lv": "Bell",
     "level": "B1"
   },
   {
@@ -30339,7 +30341,7 @@ const B1_WORDS = [
         "Main idea: Hort (also Schulhort/Kinderhort) is an after-school care facility for school-aged children.",
         "In Germany, der Hort looks after children after school while parents are at work.",
         "Not to be confused with der Kindergarten - it is an institution for preschool children (up to 6 years old).",
-        "In Latvian, the closest match is an extended day group or a children's day centre."
+        "In this sense, der Hort is an after-school care facility or program for schoolchildren."
       ],
       "examples": [
         {
@@ -30374,8 +30376,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "extended day group",
-            "children's day centre"
+            "after-school care facility",
+            "school-aged children"
           ]
         },
         "examples": [
@@ -31627,7 +31629,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Not every Latvian \"drive\" is jagen; the choice is determined by the context."
+        "text": "jagen usually means to hunt or chase. The exact English equivalent depends on what or who is being pursued."
       },
       "sectionAccents": {
         "examples": [
@@ -31738,7 +31740,8 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "Not"
+            "hunt",
+            "chase"
           ]
         }
       }
@@ -32278,7 +32281,7 @@ const B1_WORDS = [
         "Main Idea: Kader means a (qualified) cadre or nucleus—a group of people with a specific role or qualification.",
         "In sports, der Kader means team composition (der Kader der Nationalmannschaft = national team composition).",
         "In politics or organizations, der Kader means the leading/trained core of personnel.",
-        "Not to be confused with Latvian 'kadr' (film frame) - in German it is das Bild or die Einstellung, ne der Kader."
+        "Do not confuse der Kader with a film frame. In German, der Kader usually means a squad or cadre; a film frame is das Bild or die Einstellung."
       ],
       "examples": [
         {
@@ -32304,7 +32307,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "der Kader = squad/core (group of people) - in sports, politics, organizations.",
-        "Latvian 'frame' (films) ≠ der Kader - film frame in German is das Bild/die Einstellung."
+        "For a sports squad or selected group, use der Kader. A film frame is das Bild or die Einstellung."
       ],
       "important": [
         "der Kader = composition/core, not film frame.",
@@ -32953,7 +32956,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Kern is sometimes translated as a seed or stone in Latvian for fruits; the context determines the translation."
+        "text": "The exact English equivalent depends on context: Kern can refer to a seed or pit in fruit, a core, or the essential part of something."
       },
       "sectionAccents": {
         "examples": [
@@ -33058,7 +33061,9 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "fruits"
+            "seed",
+            "pit",
+            "core"
           ]
         }
       }
@@ -33419,7 +33424,9 @@ const B1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": []
+              "purple": [
+                "To turn over"
+              ]
             }
           }
         ],
@@ -34159,7 +34166,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "An order that everyone acts on at the same time → das Kommando.",
-      "important": "Sporta komanda parasti ir die Mannschaft vai das Team, nevis das Kommando.",
+      "important": "A sports team is normally die Mannschaft or das Team, not das Kommando.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -34245,7 +34252,8 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "Sporta komanda"
+            "Mannschaft",
+            "Team"
           ]
         }
       }
@@ -34956,7 +34964,7 @@ const B1_WORDS = [
               "green": "kreuzen"
             },
             "meaning": {
-              "purple": "to cross"
+              "purple": "To cross / intersect"
             },
             "example": {
               "blue": "kreuzen",
@@ -35302,7 +35310,7 @@ const B1_WORDS = [
       "id": "b1-kunde",
       "layout": "standardStudy",
       "translation": "Message",
-      "explanation": "Main idea: die Kunde is a message or message. On the other hand, der Kunde means customer or buyer.",
+      "explanation": "In older or literary German, die Kunde can mean a message or piece of news.",
       "examples": [
         {
           "de": "Die Kunde verbreitete sich schnell.",
@@ -35394,7 +35402,7 @@ const B1_WORDS = [
               "green": "der Kunde"
             },
             "meaning": {
-              "purple": "klients"
+              "purple": "customer"
             },
             "example": {
               "red": "Kunde",
@@ -35798,7 +35806,7 @@ const B1_WORDS = [
       "id": "b1-kurs",
       "layout": "standardStudy",
       "translation": "Course",
-      "explanation": "Main idea: der A course is a course as a set of learning lessons or a direction. In financial terms, it can also mean the price of securities.",
+      "explanation": "Main idea: der Kurs is a course as a set of learning lessons or a direction. In financial terms, it can also mean the price of securities.",
       "examples": [
         {
           "de": "Ich besuche einen Deutschkurs.",
@@ -35830,8 +35838,8 @@ const B1_WORDS = [
           "example": "Der Unterricht dauert eine Stunde. = The class lasts one hour."
         }
       ],
-      "tip": "Training, ship direction or exchange price → der Course.",
-      "important": "In Latvian, 'course' can have several meanings, but in German, the context determines whether it is about lessons, direction or price.",
+      "tip": "Lessons, a ship’s course, or an exchange rate → der Kurs.",
+      "important": "der Kurs can refer to a course of lessons, a direction or course, or a rate such as an exchange rate. The intended meaning depends on context.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -35912,12 +35920,15 @@ const B1_WORDS = [
         ],
         "tip": {
           "purple": [
-            "Training"
+            "Lessons",
+            "exchange rate"
           ]
         },
         "important": {
           "purple": [
-            "Latvian"
+            "course",
+            "direction",
+            "exchange rate"
           ]
         }
       }
@@ -36936,8 +36947,8 @@ const B1_WORDS = [
           "example": "Die Nuss ist hart. = The nut is hard."
         }
       ],
-      "tip": "Koks vai auglis? Skaties kontekstu ap die Kastanie.",
-      "important": "In Latvian, it is often necessary to distinguish chestnut as a tree and chestnut as a fruit.",
+      "tip": "Tree or fruit? The context determines whether die Kastanie refers to the chestnut tree or the chestnut itself.",
+      "important": "die Kastanie can refer both to a chestnut tree and to its fruit; the context usually makes the intended meaning clear.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -37019,8 +37030,8 @@ const B1_WORDS = [
         ],
         "tip": {
           "purple": [
-            "koks",
-            "auglis"
+            "Tree",
+            "fruit"
           ]
         },
         "important": {
@@ -41971,7 +41982,7 @@ const B1_WORDS = [
               "green": "der Gegenstand"
             },
             "meaning": {
-              "purple": "subject"
+              "purple": "Object or item"
             },
             "example": {
               "red": "Gegenstand"
@@ -44446,13 +44457,13 @@ const B1_WORDS = [
   },
   {
     "de": "rasen",
-    "lv": "To ionise",
+    "lv": "To race / to speed",
     "level": "B1",
     "study": {
       "id": "b1-rasen",
       "layout": "standardStudy",
-      "translation": "To ionise",
-      "explanation": "Main idea: rasen means to rush or rush very quickly, often too quickly. For a storm, it can mean raging.",
+      "translation": "To race / to speed",
+      "explanation": "Main idea: rasen means to race, speed, or move extremely fast, often excessively fast. For a storm, it can mean to rage.",
       "examples": [
         {
           "de": "Das Auto rast durch die Stadt.",
@@ -44489,7 +44500,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Main"
+            "race",
+            "speed"
           ]
         },
         "examples": [
@@ -44568,7 +44580,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "rasen",
-          "red": "braukt"
+          "red": "drive"
         }
       }
     }
@@ -44923,7 +44935,7 @@ const B1_WORDS = [
               "green": "verlassen"
             },
             "meaning": {
-              "purple": "to leave"
+              "purple": "To leave a place"
             },
             "example": {
               "red": "verlassen",
@@ -47137,7 +47149,7 @@ const B1_WORDS = [
               "green": "die Saat"
             },
             "meaning": {
-              "purple": "volume"
+              "purple": "Seed, crop, or sowing"
             },
             "example": {
               "blue": "Saat"
@@ -47442,8 +47454,8 @@ const B1_WORDS = [
           "example": "Die Schüssel ist leer. = The bowl is empty."
         }
       ],
-      "tip": "Auglim un riekstam Schale; kokam Rinde.",
-      "important": "Koka mizai parasti lieto die Rinde, nevis die Schale.",
+      "tip": "For fruit peel or a nut shell, Schale is common; for tree bark, use Rinde.",
+      "important": "For tree bark, German normally uses die Rinde, not die Schale.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -47747,7 +47759,7 @@ const B1_WORDS = [
               "green": "die Schicht"
             },
             "meaning": {
-              "purple": "layer"
+              "purple": "Layer, stratum • Work shift"
             },
             "example": {
               "blue": "Schicht"
@@ -48072,7 +48084,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "A sudden blow: Schlag applies.",
-      "important": "Schlag is highly contextual; lightning often means kick in Latvian.",
+      "important": "der Schlag is highly context-dependent and can mean a blow, strike, stroke, or other sudden impact or event. Use the surrounding context to determine the intended sense.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -48152,7 +48164,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Schlag",
-          "red": "kick"
+          "red": "context"
         }
       }
     }
@@ -49558,7 +49570,7 @@ const B1_WORDS = [
               "green": "schützen"
             },
             "meaning": {
-              "purple": "to protect"
+              "purple": "Protect, safeguard"
             },
             "example": {
               "blue": "schützt",
@@ -50191,7 +50203,7 @@ const B1_WORDS = [
               "green": "schicken"
             },
             "meaning": {
-              "purple": "to send"
+              "purple": "Send in everyday situations"
             },
             "example": {
               "red": "schicke",
@@ -50253,7 +50265,7 @@ const B1_WORDS = [
       "id": "b1-senken",
       "layout": "standardStudy",
       "translation": "To lower",
-      "explanation": "Main idea: senken means to lower or lower something. Unlike sinken, it usually has an object.",
+      "explanation": "senken means to lower or bring something down.",
       "examples": [
         {
           "de": "Die Firma senkt die Preise.",
@@ -50286,7 +50298,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Someone lowers something: senken; something falls by itself: sinken.",
-      "important": "senken ir ar objektu; sinken parasti notiek pats.",
+      "important": "senken is transitive and takes an object: someone lowers something. sinken is usually intransitive: something sinks or falls by itself.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -50943,7 +50955,7 @@ const B1_WORDS = [
       "id": "b1-sich-sorgen",
       "layout": "standardStudy",
       "translation": "To worry",
-      "explanation": "Main idea: sich sorgen means to worry about someone or something. Commonly used is sich um jemanden/etwas sorgen.",
+      "explanation": "Main idea: sich sorgen means to worry about someone or something. It is commonly used in the phrase sich um jemanden/etwas sorgen.",
       "examples": [
         {
           "de": "Ich sorge mich um meine Mutter.",
@@ -50976,7 +50988,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Feeling inside: sich sorgen; practical help: sich kümmern um.",
-      "important": "sich sorgen lieto ar um: sich um jemanden sorgen.",
+      "important": "sich sorgen is commonly used with um: sich um jemanden oder etwas sorgen means to worry about someone or something.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -51807,7 +51819,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Spitze",
-          "meaning": "Peak, top, head",
+          "meaning": "Tip, peak, leadership",
           "example": "Die Spitze ist scharf. = The tip is sharp."
         },
         {
@@ -52816,7 +52828,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Stellung",
-          "red": "darba vietu"
+          "red": "job"
         }
       }
     }
@@ -53628,7 +53640,7 @@ const B1_WORDS = [
               "green": "löschen"
             },
             "meaning": {
-              "purple": "delete"
+              "purple": "Delete a file or text; put out a fire"
             },
             "example": {
               "red": "lösche",
@@ -54352,7 +54364,7 @@ const B1_WORDS = [
     "de": "Tagesordnung",
     "de_article": "die",
     "de_plural": "die Tagesordnungen",
-    "lv": "Agenda",
+    "lv": "Conference / meeting",
     "level": "B1"
   },
   {
@@ -54440,7 +54452,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Latvian tank in German is usually der Panzer, not der Tank."
+        "text": "German der Tank usually means a fuel tank or storage tank. A military tank is der Panzer."
       },
       "sectionAccents": {
         "explanation": {
@@ -55190,7 +55202,7 @@ const B1_WORDS = [
       "id": "b1-teilnehmen",
       "layout": "standardStudy",
       "translation": "To participate",
-      "explanation": "Main idea: To participate means to take part in an event, course, conversation or competition. The correct construction is an + kam? participate.",
+      "explanation": "The correct construction is teilnehmen an + dative: teilnehmen an etwas means “to participate in something”.",
       "examples": [
         {
           "de": "Ich nehme an dem Kurs teil.",
@@ -55230,7 +55242,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Saki an dem Kurs teilnehmen vai am Kurs teilnehmen, nevis den Kurs teilnehmen."
+        "text": "Use an dem Kurs teilnehmen or the contracted form am Kurs teilnehmen, not den Kurs teilnehmen."
       },
       "sectionAccents": {
         "explanation": {
@@ -57919,7 +57931,7 @@ const B1_WORDS = [
               "green": "unterhalten"
             },
             "meaning": {
-              "purple": "entertain"
+              "purple": "Entertain • Support"
             },
             "example": {
               "blue": "unterhält"
@@ -58793,7 +58805,7 @@ const B1_WORDS = [
               "green": "verbrennen"
             },
             "meaning": {
-              "purple": "to burn"
+              "purple": "To burn up, burn yourself"
             },
             "example": {
               "blue": "verbrennt"
@@ -59485,7 +59497,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Schlüssel verlegen nav tas pats, kas verlieren: lieta parasti ir kaut kur nolikta."
+        "text": "Schlüssel verlegen means to misplace a key. Unlike verlieren, verlegen usually implies that the object was put somewhere and cannot currently be found."
       },
       "sectionAccents": {
         "explanation": {
@@ -59574,8 +59586,9 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "yellow": "Schlüssel",
-          "red": "verlieren"
+          "purple": [
+            "misplace"
+          ]
         }
       }
     }
@@ -59900,7 +59913,7 @@ const B1_WORDS = [
               "green": "versichern"
             },
             "meaning": {
-              "purple": "to insure"
+              "purple": "To insure • To assure"
             },
             "example": {
               "blue": "versichere"
@@ -61919,7 +61932,7 @@ const B1_WORDS = [
       "id": "b1-weder",
       "layout": "standardStudy",
       "translation": "Nor",
-      "explanation": "Main idea: weder is used with noch. The construction weder ... noch means neither ... nor or not ... not.",
+      "explanation": "Main idea: weder is used with noch. The construction weder ... noch means neither ... nor.",
       "examples": [
         {
           "de": "Ich trinke weder Kaffee noch Tee.",
@@ -62043,7 +62056,7 @@ const B1_WORDS = [
               "green": "entweder ... oder"
             },
             "meaning": {
-              "purple": "vai nu"
+              "purple": "Either ... or"
             },
             "example": {
               "red": [
@@ -62958,12 +62971,12 @@ const B1_WORDS = [
     "de": "Zeugnis",
     "de_article": "das",
     "de_plural": "die Zeugnisse",
-    "lv": "Testimony",
+    "lv": "Certificate / school report",
     "level": "B1",
     "study": {
       "id": "b1-zeugnis",
       "layout": "standardStudy",
-      "translation": "Testimony",
+      "translation": "Certificate / school report",
       "explanation": "Main idea: das Zeugnis means a testimony, certificate or official statement. In school, this is usually a sign of success.",
       "examples": [
         {
@@ -63405,7 +63418,10 @@ const B1_WORDS = [
       "id": "b1-zünden",
       "layout": "standardStudy",
       "translation": "Ignite; work or function",
-      "explanation": "Main idea: zünden means to ignite, to set in motion, or to work. Anzünden is often used when lighting something specific.",
+      "explanation": [
+        "ignite",
+        "work"
+      ],
       "examples": [
         {
           "de": "Er zündet die Kerze an.",
@@ -63824,7 +63840,7 @@ const B1_WORDS = [
         },
         {
           "de": "Mein Beruf ist Lehrer.",
-          "lv": "My profession is a teacher."
+          "lv": "I am a teacher."
         },
         {
           "de": "Sie sucht einen neuen Beruf.",
@@ -64329,7 +64345,7 @@ const B1_WORDS = [
       "id": "b1-steuer-2",
       "layout": "standardStudy",
       "translation": "Steering wheel",
-      "explanation": "Main idea: das Steuer means the steering wheel or steering wheel—the steering device of a ship or car. The plural is die Steuer. Die Steuer, on the other hand, means tax (die Steuern).",
+      "explanation": "das Steuer means a rudder or steering wheel",
       "examples": [
         {
           "de": "Er hält das Steuer fest.",
@@ -65173,7 +65189,7 @@ const B1_WORDS = [
             "text": "In maps, directions and descriptions, sich befinden means to be located."
           },
           {
-            "text": "Ja gribi pateikt “justies”, lieto sich fühlen, nevis sich befinden."
+            "text": "To say “to feel,” use sich fühlen, not sich befinden."
           }
         ]
       },
