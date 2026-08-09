@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-08-09T14:47:00.000Z",
+  "sourceMicroRegression": "reports/temp/en-b1-main-integration-follow-up-micro-regression.json",
+  "ownerReview": {
+    "reviewed": 1,
+    "labot": 1,
+    "nelabot": 0,
+    "pending": 0
+  },
+  "repairs": [
+    {
+      "findingId": "FOLLOW-UP MICRO-REGRESSION FINDING 1",
+      "cardId": "b1-entlassen",
+      "productionIdentity": "b1-entlassen",
+      "productionIndex": 756,
+      "fieldPath": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": "context",
+      "expectedCurrent": "choose by location",
+      "expectedTipText": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+      "action": "REPLACE"
+    }
+  ]
+}

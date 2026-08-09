@@ -1,0 +1,467 @@
+{
+  "generatedAt": "2026-08-09T15:03:13.998Z",
+  "mainCommit": "5c0f21c847d352cc840c0215448e052583ed7dac",
+  "pass": true,
+  "finalResult": "EN–DE B1 MAIN RECONCILIATION: PASS",
+  "closureStatus": "NOT YET RECONFIRMED — TARGETED REGRESSION REQUIRED",
+  "repairCyclesDiscovered": 20,
+  "repairCyclesReconciled": 20,
+  "highCyclesRepresented": 13,
+  "regressionRepresented": true,
+  "sectionAccentRepresented": true,
+  "rawMappingCount": 1250,
+  "finalMappingCount": 1143,
+  "presentInMain": 1143,
+  "missingFromMain": 0,
+  "supersededCount": 0,
+  "fieldNotFound": 0,
+  "identityNotFound": 0,
+  "highCycleTable": {
+    "1": {
+      "approved": 59,
+      "present": 49,
+      "missing": 2,
+      "superseded": 8,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "2": {
+      "approved": 26,
+      "present": 26,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "3": {
+      "approved": 25,
+      "present": 25,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "4": {
+      "approved": 25,
+      "present": 25,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "5": {
+      "approved": 24,
+      "present": 24,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "6": {
+      "approved": 25,
+      "present": 25,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "7": {
+      "approved": 24,
+      "present": 24,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "8": {
+      "approved": 50,
+      "present": 50,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "9": {
+      "approved": 50,
+      "present": 50,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "10": {
+      "approved": 123,
+      "present": 110,
+      "missing": 10,
+      "superseded": 3,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "11": {
+      "approved": 167,
+      "present": 151,
+      "missing": 6,
+      "superseded": 5,
+      "fieldNotFound": 5,
+      "identityNotFound": 0
+    },
+    "12": {
+      "approved": 179,
+      "present": 164,
+      "missing": 2,
+      "superseded": 10,
+      "fieldNotFound": 3,
+      "identityNotFound": 0
+    },
+    "13": {
+      "approved": 149,
+      "present": 140,
+      "missing": 3,
+      "superseded": 6,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    }
+  },
+  "initialCandidates": {
+    "resolved": [
+      {
+        "cardId": "b1-abhängen",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-abschnitt",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-antrag",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-berichten",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-blase",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-bloß",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.explanation",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.tip.leftBlocks[0].text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-fördern",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-handeln",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-jagen",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-kern",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-kommando",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.tip",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-rasen",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-rasen",
+        "field": "study.sectionAccents.important.red",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-schale",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-schlag",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-senken",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-sich-sorgen",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.sectionAccents.examples[1].lv.red",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.sectionAccents.important.red",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-teilnehmen",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-verlegen",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-weder",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-zeugnis",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-sich-befinden-study",
+        "field": "study.tip.leftBlocks[1].text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-abhängen",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-abschnitt",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-blase",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.explanation",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.tip.leftBlocks[0].text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-kern",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-schlag",
+        "field": "study.important",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-zeugnis",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      }
+    ],
+    "unresolved": [
+      {
+        "cardId": "b1-hort",
+        "field": "study.explanation[3]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kader",
+        "field": "study.explanation[3]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kader",
+        "field": "study.explanation[3]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kader",
+        "field": "study.tip[1]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.sectionAccents.important.purple[0]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-schale",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-hort",
+        "field": "study.explanation[3]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-bloß",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-handeln",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-rasen",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-schale",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-weder",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-beruf",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      }
+    ],
+    "total": 57
+  },
+  "regressionMatch": 200,
+  "regressionTotal": 200,
+  "microMatch": 16,
+  "microTotal": 16,
+  "sectionMatch": 24,
+  "sectionTotal": 24,
+  "microExplanationIntegrity": 14,
+  "truncatedCount": 0,
+  "truncated": [],
+  "validators": {
+    "javascript": {
+      "ok": true,
+      "out": "",
+      "code": 0
+    },
+    "auditLanguageParity": {
+      "ok": true,
+      "out": "{\n  \"lang\": \"en\",\n  \"levels\": {\n    \"a1\": {\n      \"lvCount\": 702,\n      \"langCount\": 702,\n      \"countMatch\": true,\n      \"lvStudyCount\": 134,\n      \"langStudyCount\": 134,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"a2\": {\n      \"lvCount\": 1640,\n      \"langCount\": 1640,\n      \"countMatch\": true,\n      \"lvStudyCount\": 231,\n      \"langStudyCount\": 231,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"b1\": {\n      \"lvCount\": 3367,\n      \"langCount\": 3367,\n      \"countMatch\": true,\n      \"lvStudyCount\": 324,\n      \"langStudyCount\": 324,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"b2\": {\n      \"lvCount\": 2118,\n      \"langCount\": 2118,\n      \"countMatch\": true,\n      \"lvStudyCount\": 60,\n      \"langStudyCount\": 60,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"c1\": {\n      \"lvCount\": 572,\n      \"langCount\": 572,\n      \"countMatch\": true,\n      \"lvStudyCount\": 15,\n      \"langStudyCount\": 15,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"c2\": {\n      \"lvCount\": 219,\n      \"langCount\": 219,\n      \"countMatch\": true,\n      \"lvStudyCount\": 1,\n      \"langStudyCount\": 1,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    }\n  },\n  \"totals\": {\n    \"lvRecords\": 8618,\n    \"langRecords\": 8618,\n    \"lvStudy\": 765,\n    \"langStudy\": 765\n  },\n  \"issues\": [],\n  \"pass\": true\n}\n",
+      "code": 0
+    },
+    "auditTranslations": {
+      "ok": true,
+      "out": "A1: 702 words\nA2: 1640 words\nB1: 3367 words\nB2: 2118 words\nC1: 572 words\nC2: 219 words\n\n=== TOTAL ISSUES (lang=en): 32 ===\n\n{\"type\":\"lv_translation_mismatch\",\"de\":\"Aufwand\",\"lv\":\"Efforts\",\"translation\":\"Effort\",\"lvOnly\":[\"efforts\"],\"transOnly\":[\"effort\"],\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"neigen\",\"lv\":\"To be inclined; to lean\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"neigen\",\"lv\":\"To be inclined; to lean\",\"translation\":\"To be inclined; to lean\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"pflegen\",\"lv\":\"To take care of; to tend\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"pflegen\",\"lv\":\"To take care of; to tend\",\"translation\":\"To take care of; to tend\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Probe\",\"lv\":\"Test; sample; rehearsal\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"Probe\",\"lv\":\"Test; sample; rehearsal\",\"translation\":\"Test; sample; rehearsal\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"räumen\",\"lv\":\"To clear; to vacate; to move out\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"räumen\",\"lv\":\"To clear; to vacate; to move out\",\"translation\":\"To clear; to vacate; to move out\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"reißen\",\"lv\":\"To tear; to rip; to burst\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"reißen\",\"lv\":\"To tear; to rip; to burst\",\"translation\":\"To tear; to rip; to burst\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Spitze\",\"lv\":\"Tip; peak\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"Spitze\",\"lv\":\"Tip; peak\",\"translation\":\"Tip; peak\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Ton\",\"lv\":\"Sound; tone\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"Ton\",\"lv\":\"Sound; tone\",\"translation\":\"Sound; tone\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"treiben\",\"lv\":\"To do; to engage in\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"treiben\",\"lv\":\"To do; to engage in\",\"translation\":\"To do; to engage in\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"umgehen\",\"lv\":\"To deal with; to bypass\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"umgehen\",\"lv\":\"To deal with; to bypass\",\"translation\":\"To deal with; to bypass\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"verraten\",\"lv\":\"To betray; to reveal\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"verreisen\",\"lv\":\"To travel; to go away\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"versäumen\",\"lv\":\"To miss; to fail to do\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"sich versprechen\",\"lv\":\"To misspeak; to make a slip of the tongue\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"verzichten\",\"lv\":\"To do without; to give up\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Vorbild\",\"lv\":\"Role model; example\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Vorgang\",\"lv\":\"Process; procedure\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"vorsagen\",\"lv\":\"To prompt; to tell someone the answer\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"vorsehen\",\"lv\":\"To plan; to provide for; to intend\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"vorüber\",\"lv\":\"Over; past\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Wäscherei\",\"lv\":\"Laundry; laundrette\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"zünden\",\"lv\":\"Ignite; work or function\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"zünden\",\"lv\":\"Ignite; work or function\",\"translation\":\"Ignite; work or function\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n",
+      "code": 0
+    },
+    "auditMojibake": {
+      "ok": true,
+      "out": "{\n  \"lang\": \"en\",\n  \"filesScanned\": 18,\n  \"filesWithHits\": 0,\n  \"totalHits\": 0,\n  \"results\": [],\n  \"pass\": true\n}\n",
+      "code": 0
+    },
+    "validateStudyDesign": {
+      "ok": false,
+      "out": "{\n  \"lang\": \"en\",\n  \"totals\": {\n    \"total\": 9603,\n    \"noStudy\": 8838,\n    \"flashcard\": 8859,\n    \"standardStudy\": 695,\n    \"minimalStudy\": 49,\n    \"comparisonStudy\": 0,\n    \"studyObjectNoRenderable\": 21,\n    \"sectionAccentIssues\": 49,\n    \"emptySectionAccents\": 0\n  },\n  \"perFile\": [\n    {\n      \"file\": \"data/en/a1.js\",\n      \"total\": 702,\n      \"noStudy\": 568,\n      \"flashcard\": 568,\n      \"standardStudy\": 134,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 34,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"social visit\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"important\",\n            \"field\": null\n          },\n          {\n            \"de\": \"besuchen\",\n            \"term\": \"besuchen\",\n            \"section\": \"tip\",\n            \"field\": \"left\"\n          },\n          {\n            \"de\": \"Bitte\",\n            \"term\": \"Little\",\n            \"section\": \"tip\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/a2.js\",\n      \"total\": 1640,\n      \"noStudy\": 1409,\n      \"flashcard\": 1427,\n      \"standardStudy\": 207,\n      \"minimalStudy\": 6,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 18,\n      \"sectionAccentIssues\": 14,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Aschenputtel\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Gott\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Keller\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kellner\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kerl\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"brennen\",\n            \"term\": \"deg\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"brennen\",\n            \"term\": \"kaut\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"lai\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"tam\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"par to\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b1.js\",\n      \"total\": 3367,\n      \"noStudy\": 3043,\n      \"flashcard\": 3044,\n      \"standardStudy\": 323,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 1,\n      \"sectionAccentIssues\": 1,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Homosexuelle\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"einerlei\",\n            \"term\": \"doesn't matter\",\n            \"section\": \"explanation\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b2.js\",\n      \"total\": 2118,\n      \"noStudy\": 2058,\n      \"flashcard\": 2060,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 43,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 2,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"sich verlaufen\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"verlaufen\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c1.js\",\n      \"total\": 572,\n      \"noStudy\": 557,\n      \"flashcard\": 557,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c2.js\",\n      \"total\": 219,\n      \"noStudy\": 218,\n      \"flashcard\": 218,\n      \"standardStudy\": 1,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/sentences.js\",\n      \"total\": 796,\n      \"noStudy\": 796,\n      \"flashcard\": 796,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/verbs.js\",\n      \"total\": 189,\n      \"noStudy\": 189,\n      \"flashcard\": 189,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/courseLessons.js\",\n      \"skipped\": true,\n      \"reason\": \"not a flashcard array\"\n    }\n  ],\n  \"rootWwwMismatches\": [],\n  \"pass\": false\n}\nCommand failed: node scripts/validate-study-design.js --lang=en"
+    },
+    "mirrorParity": true,
+    "deReadOnly": true
+  },
+  "layouts": {
+    "standardStudy": 323,
+    "minimalStudy": 1,
+    "comparisonStudy": 0,
+    "studyObjects": 324,
+    "total": 3367
+  },
+  "sectionAccentRaw": 0,
+  "sectionAccentFp": 0,
+  "sectionAccentReal": 0,
+  "sectionAccentUnexpected": 0,
+  "productionChanges": 0,
+  "missingRepairs": []
+}

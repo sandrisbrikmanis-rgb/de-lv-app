@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-08-09T14:47:56.287Z",
+  "repair": "FOLLOW-UP MICRO-REGRESSION FINDING 1",
+  "cardId": "b1-entlassen",
+  "fieldPath": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+  "status": "APPLIED",
+  "precondition": {
+    "accent": "choose by location",
+    "tipText": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context."
+  },
+  "postApply": {
+    "accent": "context",
+    "tipText": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+    "targetExists": true,
+    "staleRemaining": false
+  },
+  "uniqueCards": [
+    "b1-entlassen"
+  ],
+  "physicalFields": [
+    {
+      "fieldPath": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "ownerFinal": "context"
+    }
+  ],
+  "ownerFinal": "context"
+}

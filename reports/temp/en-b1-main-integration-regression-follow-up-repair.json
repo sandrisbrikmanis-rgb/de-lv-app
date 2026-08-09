@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-08-09T14:30:31.492Z",
+  "sourceRegression": "reports/temp/en-b1-main-integration-targeted-regression.json",
+  "ownerReview": {
+    "reviewed": 8,
+    "labot": 8,
+    "nelabot": 0,
+    "pending": 0
+  },
+  "repairs": [
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 1",
+      "cardId": "b1-entlassen",
+      "productionIdentity": "b1-entlassen",
+      "fieldPath": "study.tip.leftBlocks[0].text",
+      "severity": "HIGH",
+      "category": "META-PEDAGOGY",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+      "expectedCurrent": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose by location in Latvian.",
+      "action": "REPLACE"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 2",
+      "cardId": "b1-zeugnis",
+      "productionIdentity": "b1-zeugnis",
+      "fieldPath": "study.important.text",
+      "severity": "HIGH",
+      "category": "META-PEDAGOGY",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate.",
+      "expectedCurrent": "ärztliches Zeugnis is often a doctor's certificate in Latvian, not a school certificate.",
+      "action": "REPLACE"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3",
+      "cardId": "b1-berühmtheit",
+      "productionIdentity": "b1-berühmtheit",
+      "productionIndex": 370,
+      "fieldPath": "study.sectionAccents.examples[1].lv.purple[0]",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": "late",
+      "expectedCurrent": "null",
+      "action": "REPLACE"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 4",
+      "cardId": "b1-kurs",
+      "productionIdentity": "b1-kurs",
+      "productionIndex": 1679,
+      "fieldPath": "study.sectionAccents.tip.purple",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": [],
+      "expectedCurrent": [
+        "Lessons",
+        "exchange rate"
+      ],
+      "action": "REMOVE",
+      "supersedesFindingId": "repair01-b1-kurs-study.sectionAccents.tip.purple"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 5",
+      "cardId": "b1-kurs",
+      "productionIdentity": "b1-kurs",
+      "productionIndex": 1679,
+      "fieldPath": "study.sectionAccents.tip.purple[1]",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": null,
+      "expectedCurrent": "exchange rate",
+      "action": "REMOVE",
+      "pairedWithFindingId": "MAIN-INTEGRATION REGRESSION FINDING 4"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 6",
+      "cardId": "b1-kastanie",
+      "productionIdentity": "b1-kastanie",
+      "productionIndex": 1711,
+      "fieldPath": "study.sectionAccents.tip.purple",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": [],
+      "expectedCurrent": [
+        "Tree",
+        "fruit"
+      ],
+      "action": "REMOVE",
+      "supersedesFindingId": "repair01-b1-kastanie-study.sectionAccents.tip.purple"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 7",
+      "cardId": "b1-kastanie",
+      "productionIdentity": "b1-kastanie",
+      "productionIndex": 1711,
+      "fieldPath": "study.sectionAccents.tip.purple[1]",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": null,
+      "expectedCurrent": "fruit",
+      "action": "REMOVE",
+      "pairedWithFindingId": "MAIN-INTEGRATION REGRESSION FINDING 6"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 8",
+      "cardId": "b1-beruf",
+      "productionIdentity": "b1-beruf",
+      "productionIndex": 3320,
+      "fieldPath": "study.sectionAccents.examples[1].lv.purple[0]",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": "teacher",
+      "expectedCurrent": "profession",
+      "action": "REPLACE"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-08-09T14:13:19.869Z",
+  "mode": "verify-only",
+  "BASE_MAIN": "bb454773f67695f0ec28198a4f72c86fb606e0dd",
+  "manifestPath": "reports/temp/en-b1-main-reconciliation-manifest.json",
+  "selectedTotal": 0,
+  "missingFromMainSelected": 0,
+  "fieldNotFoundSelected": 0,
+  "counts": {
+    "ALREADY_MATCHES": 0,
+    "APPLIED": 0,
+    "APPLY_VERIFY_FAIL": 0,
+    "PRECONDITION_MISMATCH": 0,
+    "ENTRY_NOT_FOUND": 0
+  },
+  "results": [],
+  "fieldNotFoundClassification": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": [],
+    "E": [],
+    "F": []
+  },
+  "fieldNotFoundCategoryCounts": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "F": 0
+  },
+  "filesWritten": false
+}

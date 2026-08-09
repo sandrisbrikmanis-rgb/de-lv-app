@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-08-09T15:00:00.000Z",
+  "scope": "EN–DE B1 FINAL SECTIONACCENT CLEANUP — 4 global findings",
+  "triage": [
+    {
+      "de": "Absatz",
+      "cardId": "b1-absatz",
+      "productionIdentity": "b1-absatz",
+      "productionIndex": 70,
+      "validatorTerm": "The",
+      "validatorSection": "examples",
+      "validatorField": "lv",
+      "fieldPath": "study.sectionAccents.examples[3].lv.purple[0]",
+      "targetLearnerText": "Sales have increased this year.",
+      "currentAccent": "The",
+      "classification": "REAL",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": "Sales",
+      "reason": "Stale accent The on examples[3].lv; learner text uses Sales not The."
+    },
+    {
+      "de": "bedeutend",
+      "cardId": "b1-bedeutend",
+      "productionIdentity": "b1-bedeutend",
+      "productionIndex": 263,
+      "validatorTerm": "significantly",
+      "validatorSection": "examples",
+      "validatorField": "lv",
+      "fieldPath": "study.sectionAccents.examples[2].lv.purple[0]",
+      "targetLearnerText": "I am much better today.",
+      "currentAccent": "significantly",
+      "classification": "REAL",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": "much",
+      "reason": "Stale accent significantly; learner text uses much better."
+    },
+    {
+      "de": "belegen",
+      "cardId": "b1-belegen",
+      "productionIdentity": "b1-belegen",
+      "productionIndex": 329,
+      "validatorTerm": "busy",
+      "validatorSection": "important",
+      "validatorField": null,
+      "fieldPath": "study.sectionAccents.important.purple",
+      "targetLearnerText": "belegt often means 'occupied'; \"reserved\" is usually reserviert in German.",
+      "currentAccent": ["busy", "reserved"],
+      "classification": "REAL",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
+      "ownerFinal": ["reserved"],
+      "action": "REPLACE_ARRAY",
+      "reason": "Stale accent busy not present in important text; reserved remains valid."
+    },
+    {
+      "de": "einerlei",
+      "cardId": "b1-einerlei",
+      "productionIdentity": "b1-einerlei",
+      "productionIndex": 667,
+      "validatorTerm": "doesn't matter",
+      "validatorSection": "explanation",
+      "validatorField": null,
+      "fieldPath": "study.sectionAccents.explanation.purple[0]",
+      "targetLearnerText": "Main idea: einerlei means “no matter” or “it doesn’t matter”. It sounds more formal or old-fashioned than everyday egal.",
+      "currentAccent": "doesn't matter",
+      "classification": "FALSE_POSITIVE",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "NELABOT",
+      "ownerFinal": "doesn't matter",
+      "reason": "Validator strict apostrophe mismatch: accent uses U+0027, explanation uses U+2019 in doesn’t; semantically exact match."
+    }
+  ],
+  "repairs": [
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 1",
+      "cardId": "b1-absatz",
+      "productionIdentity": "b1-absatz",
+      "productionIndex": 70,
+      "fieldPath": "study.sectionAccents.examples[3].lv.purple[0]",
+      "expectedCurrent": "The",
+      "ownerFinal": "Sales",
+      "action": "REPLACE"
+    },
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 2",
+      "cardId": "b1-bedeutend",
+      "productionIdentity": "b1-bedeutend",
+      "productionIndex": 263,
+      "fieldPath": "study.sectionAccents.examples[2].lv.purple[0]",
+      "expectedCurrent": "significantly",
+      "ownerFinal": "much",
+      "action": "REPLACE"
+    },
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 3",
+      "cardId": "b1-belegen",
+      "productionIdentity": "b1-belegen",
+      "productionIndex": 329,
+      "fieldPath": "study.sectionAccents.important.purple",
+      "expectedCurrent": ["busy", "reserved"],
+      "ownerFinal": ["reserved"],
+      "action": "REPLACE_ARRAY"
+    }
+  ]
+}

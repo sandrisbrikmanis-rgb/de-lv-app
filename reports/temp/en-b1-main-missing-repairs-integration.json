@@ -1,0 +1,181 @@
+{
+  "generatedAt": "2026-08-09T14:14:20.241Z",
+  "baseMainCommit": "223d37f4",
+  "reconciliationSourceCommit": "b5e4dcc9",
+  "integrationCommit": "bb454773f67695f0ec28198a4f72c86fb606e0dd",
+  "pass": true,
+  "input": {
+    "reconciliationMissingMappings": 175,
+    "fieldIdentityUnresolved": 23
+  },
+  "unresolvedReconciliation": {
+    "alreadyResolved": 15,
+    "superseded": 0,
+    "additionalDeterministicMissing": 8,
+    "duplicateSharedIdentity": 0,
+    "obsolete": 0,
+    "stillUnresolved": 0,
+    "total": 23
+  },
+  "repair": {
+    "originalVerifiedMissingMappings": 175,
+    "additionalDeterministicMissingMappings": 8,
+    "finalIntegrationMappings": 183,
+    "appliedCorrectly": 183,
+    "physicalFieldsChanged": 177,
+    "uniqueCardsChanged": 142,
+    "mismatches": 0,
+    "missingTargets": 0,
+    "unexpectedRepairs": 0,
+    "supplementalRepairs": 5
+  },
+  "postIntegrationReconciliation": {
+    "finalAuthoritativeMappings": 1135,
+    "present": 1135,
+    "missing": 0,
+    "fieldNotFound": 0,
+    "identityNotFound": 0,
+    "unexpectedDivergence": 0,
+    "pass": true
+  },
+  "initialFullAudit": {
+    "candidates": 57,
+    "reconciled": 38,
+    "remainingUnresolvedReal": 19
+  },
+  "regressionPreservation": {
+    "regressionFinalMappings": "200/200 PASS",
+    "microFollowUp": "16/16 PASS",
+    "fullStringExplanations": "14/14 PASS",
+    "truncatedExplanations": 0,
+    "sectionAccentCleanup": "24/24 PASS"
+  },
+  "sectionAccents": {
+    "rawFindingsBefore": 5,
+    "realFindingsBefore": 4,
+    "rawFindingsAfter": 0,
+    "knownFpAfter": 0,
+    "realFindingsAfter": 0,
+    "unexpected": 0
+  },
+  "validation": {
+    "javascript": true,
+    "mirrorParity": true,
+    "deReadOnly": true,
+    "structuralSchemaParity": true,
+    "cardCount": 3367,
+    "studyObjectParity": true
+  },
+  "status": {
+    "mainReconciliation": "PASS",
+    "finalDataset": "REPAIRS INTEGRATED — TARGETED REGRESSION REQUIRED",
+    "ownerAcceptedClosed": "NOT YET RECONFIRMED"
+  },
+  "highCycleTable": {
+    "1": {
+      "approved": 59,
+      "present": 51,
+      "missing": 2,
+      "superseded": 6,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "2": {
+      "approved": 26,
+      "present": 26,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "3": {
+      "approved": 25,
+      "present": 25,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "4": {
+      "approved": 25,
+      "present": 25,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "5": {
+      "approved": 24,
+      "present": 24,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "6": {
+      "approved": 25,
+      "present": 25,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "7": {
+      "approved": 24,
+      "present": 24,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "8": {
+      "approved": 50,
+      "present": 50,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "9": {
+      "approved": 50,
+      "present": 50,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "10": {
+      "approved": 123,
+      "present": 113,
+      "missing": 10,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "11": {
+      "approved": 167,
+      "present": 151,
+      "missing": 6,
+      "superseded": 5,
+      "fieldNotFound": 5,
+      "identityNotFound": 0
+    },
+    "12": {
+      "approved": 179,
+      "present": 164,
+      "missing": 2,
+      "superseded": 10,
+      "fieldNotFound": 3,
+      "identityNotFound": 0
+    },
+    "13": {
+      "approved": 149,
+      "present": 140,
+      "missing": 3,
+      "superseded": 6,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    }
+  },
+  "manifestEntryCount": 1135
+}

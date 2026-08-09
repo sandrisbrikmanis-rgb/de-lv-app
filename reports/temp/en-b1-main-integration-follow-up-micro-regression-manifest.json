@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-08-09T14:40:32.907Z",
+  "scope": "EN–DE B1 MAIN INTEGRATION FOLLOW-UP MICRO-REGRESSION — 8 REPAIRS ONLY",
+  "status": "FAIL",
+  "followUpCommit": "4e462fab",
+  "affectedCards": [
+    "b1-entlassen",
+    "b1-zeugnis",
+    "b1-berühmtheit",
+    "b1-kurs",
+    "b1-kastanie",
+    "b1-beruf"
+  ],
+  "repairFindings": [
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 1",
+      "cardId": "b1-entlassen",
+      "fieldPath": "study.tip.leftBlocks[0].text",
+      "ownerFinal": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+      "action": "REPLACE",
+      "pairedWithFindingId": null
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 2",
+      "cardId": "b1-zeugnis",
+      "fieldPath": "study.important.text",
+      "ownerFinal": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate.",
+      "action": "REPLACE",
+      "pairedWithFindingId": null
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3",
+      "cardId": "b1-berühmtheit",
+      "fieldPath": "study.sectionAccents.examples[1].lv.purple[0]",
+      "ownerFinal": "late",
+      "action": "REPLACE",
+      "pairedWithFindingId": null
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 4",
+      "cardId": "b1-kurs",
+      "fieldPath": "study.sectionAccents.tip.purple",
+      "ownerFinal": [],
+      "action": "REMOVE",
+      "pairedWithFindingId": null
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 5",
+      "cardId": "b1-kurs",
+      "fieldPath": "study.sectionAccents.tip.purple[1]",
+      "ownerFinal": null,
+      "action": "REMOVE",
+      "pairedWithFindingId": "MAIN-INTEGRATION REGRESSION FINDING 4"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 6",
+      "cardId": "b1-kastanie",
+      "fieldPath": "study.sectionAccents.tip.purple",
+      "ownerFinal": [],
+      "action": "REMOVE",
+      "pairedWithFindingId": null
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 7",
+      "cardId": "b1-kastanie",
+      "fieldPath": "study.sectionAccents.tip.purple[1]",
+      "ownerFinal": null,
+      "action": "REMOVE",
+      "pairedWithFindingId": "MAIN-INTEGRATION REGRESSION FINDING 6"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 8",
+      "cardId": "b1-beruf",
+      "fieldPath": "study.sectionAccents.examples[1].lv.purple[0]",
+      "ownerFinal": "teacher",
+      "action": "REPLACE",
+      "pairedWithFindingId": null
+    }
+  ],
+  "repairChecks": [
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 1",
+      "pass": true,
+      "actual": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+      "expected": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context."
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 2",
+      "pass": true,
+      "actual": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate.",
+      "expected": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate."
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3",
+      "pass": true,
+      "actual": "late",
+      "expected": "late",
+      "targetLv": "Fame came late."
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 4",
+      "pass": true,
+      "actual": null,
+      "expected": "REMOVED"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 5",
+      "pass": true,
+      "actual": null,
+      "expected": "REMOVED (paired)"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 6",
+      "pass": true,
+      "actual": null,
+      "expected": "REMOVED"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 7",
+      "pass": true,
+      "actual": null,
+      "expected": "REMOVED (paired)"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 8",
+      "pass": true,
+      "actual": "teacher",
+      "expected": "teacher",
+      "targetLv": "I am a teacher."
+    }
+  ],
+  "cardChecks": {
+    "b1-entlassen": "FAIL",
+    "b1-zeugnis": "PASS",
+    "b1-berühmtheit": "PASS",
+    "b1-kurs": "PASS",
+    "b1-kastanie": "PASS",
+    "b1-beruf": "PASS"
+  },
+  "findings": [
+    {
+      "id": "FOLLOW-UP MICRO-REGRESSION FINDING 1",
+      "cardId": "b1-entlassen",
+      "productionIdentity": "b1-entlassen",
+      "repairFindingSource": "",
+      "field": "sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "current": "choose by location",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "recommended": "Fix or remove invalid accent target \"choose by location\"",
+      "reason": "TARGET_MISMATCH on affected card after follow-up repair",
+      "ownerVerdict": "PENDING"
+    }
+  ],
+  "coverage": {
+    "findingsRepresented": 8,
+    "physicalFieldsRepresented": 6,
+    "uniqueCardsAudited": 6,
+    "coveragePercent": 100,
+    "missingMappings": 0,
+    "missingCards": 0
+  },
+  "pass": false
+}
