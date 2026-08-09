@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-08-09T14:58:38.744Z",
+  "repair2Commit": "97f3f106",
+  "preRepair2Commit": "dcdc1f33",
+  "pass": true,
+  "finalResult": "MAIN INTEGRATION FOLLOW-UP MICRO-REGRESSION #2: PASS",
+  "integrationRegressionChain": "CLOSED",
+  "globalOutOfScopeBacklog": 4,
+  "finalDatasetStatus": "STILL BLOCKED BY GLOBAL OUT-OF-SCOPE SECTIONACCENT BACKLOG (4)",
+  "nextStep": "EN–DE B1 GLOBAL OUT-OF-SCOPE SECTIONACCENT TRIAGE / OWNER REVIEW — 4 FINDINGS",
+  "coverage": {
+    "findingsRepresented": 1,
+    "physicalFieldsRepresented": 1,
+    "uniqueCardsAudited": 1,
+    "coveragePercent": 100
+  },
+  "findingsBySeverity": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "findings": [],
+  "b1Entlassen": {
+    "tipTextUnchanged": "PASS",
+    "accentTarget": "PASS",
+    "staleChooseByLocation": 0,
+    "metaPedagogyFindings": 0,
+    "crossFieldConsistency": "PASS",
+    "pedagogicalVerdict": "PASS",
+    "fieldChecks": {
+      "accent": "context",
+      "tipText": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+      "targetExists": true,
+      "occurrenceCount": 1,
+      "capitalizationOk": true,
+      "structureOk": true,
+      "staleCount": 0
+    }
+  },
+  "sectionAccents": {
+    "newTechnical": 0,
+    "newPedagogical": 0,
+    "preExistingOnCard": 0
+  },
+  "reconciliation": {
+    "finalMappingCount": 1140,
+    "presentInMain": 1140,
+    "missingFromMain": 0,
+    "unresolved": 0
+  },
+  "preservation": {
+    "regressionPass": 214,
+    "regressionTotal": 214,
+    "microPass": 16,
+    "microTotal": 16,
+    "fullStringPass": 14,
+    "fullStringTotal": 14,
+    "sectionPass": 24,
+    "sectionTotal": 24,
+    "followUp1Pass": 8,
+    "followUp1Total": 8,
+    "followUp2Pass": 1,
+    "followUp2Total": 1,
+    "truncated": []
+  },
+  "globalValidator": {
+    "rawCount": 4,
+    "inScopeNew": 0,
+    "knownOutOfScope": 4,
+    "unexpected": 0,
+    "classified": [
+      {
+        "de": "Absatz",
+        "term": "The",
+        "section": "examples",
+        "field": "lv",
+        "classification": "KNOWN OUT-OF-SCOPE"
+      },
+      {
+        "de": "bedeutend",
+        "term": "significantly",
+        "section": "examples",
+        "field": "lv",
+        "classification": "KNOWN OUT-OF-SCOPE"
+      },
+      {
+        "de": "belegen",
+        "term": "busy",
+        "section": "important",
+        "field": null,
+        "classification": "KNOWN OUT-OF-SCOPE"
+      },
+      {
+        "de": "einerlei",
+        "term": "doesn't matter",
+        "section": "explanation",
+        "field": null,
+        "classification": "KNOWN OUT-OF-SCOPE"
+      }
+    ]
+  },
+  "validation": {
+    "javascript": "PASS",
+    "structuralSchemaParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "mirrorParity": "PASS",
+    "utf8Mojibake": "PASS",
+    "suspiciousUnicode": "PASS",
+    "deReadOnly": "PASS"
+  },
+  "diff": {
+    "physicalFieldsChanged": 1,
+    "uniqueCardsChanged": 1,
+    "tipTextChanged": 0,
+    "otherEnglishChanged": 0,
+    "deChanges": 0,
+    "unexpectedChanges": 0,
+    "stat": "data/en/b1.js     | 2 +-\n www/data/en/b1.js | 2 +-\n 2 files changed, 2 insertions(+), 2 deletions(-)"
+  },
+  "productionChangesDuringAudit": 0,
+  "layouts": {
+    "total": 3367,
+    "studyObjects": 324
+  },
+  "auditCommit": "e3b0b750"
+}

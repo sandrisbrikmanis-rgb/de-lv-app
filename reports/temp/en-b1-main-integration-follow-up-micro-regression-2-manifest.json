@@ -1,31 +1,55 @@
 {
-  "generatedAt": "2026-08-09T14:48:00.000Z",
+  "generatedAt": "2026-08-09T14:58:38.744Z",
   "scope": "EN–DE B1 MAIN INTEGRATION FOLLOW-UP MICRO-REGRESSION #2 — b1-entlassen ONLY",
-  "status": "NOT_STARTED",
-  "repair2Commit": null,
-  "preRepair2Baseline": null,
-  "affectedCards": ["b1-entlassen"],
+  "status": "PASS",
+  "repair2Commit": "97f3f106",
+  "preRepair2Commit": "dcdc1f33",
+  "affectedCards": [
+    "b1-entlassen"
+  ],
   "repairFindings": [
     {
       "findingId": "FOLLOW-UP MICRO-REGRESSION FINDING 1",
       "cardId": "b1-entlassen",
+      "productionIdentity": "b1-entlassen",
+      "productionIndex": 756,
       "fieldPath": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "ownerVerdict": "LABOT",
       "ownerFinal": "context",
       "expectedCurrent": "choose by location",
       "expectedTipText": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
-      "action": "REPLACE",
-      "sourceRepair": "reports/temp/en-b1-main-integration-follow-up-repair-2.json"
+      "action": "REPLACE"
     }
   ],
-  "checks": [
-    "tip text unchanged",
-    "context target exists in tip text",
-    "stale choose by location absent",
-    "no new sectionAccent technical issue",
-    "no meta-pedagogy",
-    "no unrelated production changes",
-    "preservation of 1140 authoritative mappings",
-    "prior 8 follow-up repairs preserved"
-  ],
-  "pass": null
+  "b1Entlassen": {
+    "tipTextUnchanged": "PASS",
+    "accentTarget": "PASS",
+    "staleChooseByLocation": 0,
+    "metaPedagogyFindings": 0,
+    "crossFieldConsistency": "PASS",
+    "pedagogicalVerdict": "PASS",
+    "fieldChecks": {
+      "accent": "context",
+      "tipText": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+      "targetExists": true,
+      "occurrenceCount": 1,
+      "capitalizationOk": true,
+      "structureOk": true,
+      "staleCount": 0
+    }
+  },
+  "findings": [],
+  "coverage": {
+    "findingsRepresented": 1,
+    "physicalFieldsRepresented": 1,
+    "uniqueCardsAudited": 1,
+    "coveragePercent": 100
+  },
+  "pass": true,
+  "integrationRegressionChain": "CLOSED",
+  "globalOutOfScopeBacklog": 4,
+  "nextStep": "EN–DE B1 GLOBAL OUT-OF-SCOPE SECTIONACCENT TRIAGE / OWNER REVIEW — 4 FINDINGS",
+  "auditCommit": "e3b0b750"
 }
