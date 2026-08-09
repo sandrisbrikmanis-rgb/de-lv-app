@@ -1,0 +1,127 @@
+{
+  "generatedAt": "2026-08-09T15:09:05.953Z",
+  "mainMergeCommit": "5aea0f5a",
+  "preIntegrationCommit": "223d37f4",
+  "pass": true,
+  "finalVerdict": "EN–DE B1 — OWNER ACCEPTED / CLOSED — RECONFIRMED",
+  "dataset": {
+    "cards": 3367,
+    "studyObjects": 324
+  },
+  "reconciliation": {
+    "finalMappingCount": 1143,
+    "presentInMain": 1143,
+    "missingFromMain": 0,
+    "unresolved": 0,
+    "unexpectedDivergence": 0,
+    "liveAuditPass": true
+  },
+  "findingsBySeverity": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "unresolved": {
+    "owner": 0,
+    "repair": 0,
+    "regression": 0,
+    "pending": 0,
+    "validatedRealSectionAccent": 0
+  },
+  "sectionAccents": {
+    "rawCount": 1,
+    "validatedReal": 0,
+    "documentedFalsePositive": 1,
+    "unexpected": 0,
+    "classified": [
+      {
+        "de": "einerlei",
+        "term": "doesn't matter",
+        "section": "explanation",
+        "field": null,
+        "classification": "DOCUMENTED FALSE POSITIVE"
+      }
+    ]
+  },
+  "b1Einerlei": {
+    "cardId": "b1-einerlei",
+    "accent": "doesn't matter",
+    "accentCharCodes": [
+      100,
+      111,
+      101,
+      115,
+      110,
+      39,
+      116,
+      32,
+      109,
+      97,
+      116,
+      116,
+      101,
+      114
+    ],
+    "explanationSnippet": "doesn’t matter”",
+    "explanationCharCodes": [
+      100,
+      111,
+      101,
+      115,
+      110,
+      8217,
+      116,
+      32,
+      109,
+      97,
+      116,
+      116,
+      101,
+      114,
+      8221
+    ],
+    "strictValidatorMatch": false,
+    "semanticMatch": true,
+    "classification": "FALSE POSITIVE",
+    "blocking": false,
+    "productionRepair": false,
+    "reason": "Apostrophe normalization only: accent U+0027 vs explanation U+2019 in doesn’t"
+  },
+  "preservation": {
+    "regressionPass": 214,
+    "regressionTotal": 214,
+    "microPass": 16,
+    "microTotal": 16,
+    "fullStringPass": 14,
+    "fullStringTotal": 14,
+    "sectionPass": 24,
+    "sectionTotal": 24,
+    "followUp1Pass": 8,
+    "followUp1Total": 8,
+    "followUp2Pass": 1,
+    "followUp2Total": 1,
+    "finalCleanupPass": 3,
+    "finalCleanupTotal": 3,
+    "truncated": []
+  },
+  "preservationOk": true,
+  "validation": {
+    "javascript": "PASS",
+    "structuralSchemaParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "mirrorParity": "PASS",
+    "utf8Mojibake": "PASS",
+    "suspiciousUnicode": "PASS",
+    "deReadOnly": "PASS"
+  },
+  "chainStatus": {
+    "mainReconciliation": "PASS",
+    "highRepairRegression": "CLOSED",
+    "mainIntegrationRegression": "CLOSED",
+    "globalSectionAccentBacklog": "CLOSED"
+  },
+  "productionChangesDuringClosure": 0,
+  "closureCommit": "f29c54cbb62f0c80719b743fbbb016132cdb87eb"
+}
