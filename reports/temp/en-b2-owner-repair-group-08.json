@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "group": "8/10",
+    "manifestPositions": "351-400",
+    "branch": "cursor/en-b2-full-audit-6850",
+    "pr": "#376",
+    "generatedAt": "2026-08-09T17:59:29.735Z"
+  },
+  "scope": {
+    "reviewed": 50,
+    "apply": 49,
+    "keep": 1,
+    "applied": 49,
+    "applyVerified": 49,
+    "keepPreserved": 1,
+    "totalVerified": 50,
+    "currentValueMismatch": 0
+  },
+  "safety": {
+    "deReadOnly": "PASS",
+    "mirror": "PASS",
+    "sectionAccents": "PASS",
+    "languageParity": "PASS",
+    "unexpectedChanges": 0,
+    "deHash": "74bf5a1ac0002a5fdc848db2df4a0e1f"
+  },
+  "regression": {
+    "changedCards": 48,
+    "lunaSemanticRegression": "NOT RUN — API unavailable"
+  },
+  "keepEntries": [
+    {
+      "cardId": "b2-Spuk-1683",
+      "value": "Specter • Ghost • Apparition"
+    }
+  ],
+  "repairs": [
+    {
+      "seq": 351,
+      "cardId": "b2-sich-genieren",
+      "fieldPath": "study.translation",
+      "action": "APPLY",
+      "expectedCurrent": "To be ashamed",
+      "finalEn": "To feel embarrassed",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 352,
+      "cardId": "b2-sich-genieren",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 353,
+      "cardId": "b2-sich-gesellen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 354,
+      "cardId": "b2-sich-gestalten",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 355,
+      "cardId": "b2-sich-grauen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 356,
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 357,
+      "cardId": "b2-sich-heraushalten",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 358,
+      "cardId": "b2-sich-herausstellen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 359,
+      "cardId": "b2-sich-hervortun",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 360,
+      "cardId": "b2-sich-hingeben",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 361,
+      "cardId": "b2-sich-paaren",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 362,
+      "cardId": "b2-sich-revanchieren",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 363,
+      "cardId": "b2-sich-scheren",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 364,
+      "cardId": "b2-sich-vereinigen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 365,
+      "cardId": "b2-sich-versehen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 366,
+      "cardId": "b2-sich-versoehnen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 367,
+      "cardId": "b2-sich-verstellen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 368,
+      "cardId": "b2-sich-verwundern",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 369,
+      "cardId": "b2-sich-widersetzen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 370,
+      "cardId": "b2-sofern",
+      "fieldPath": "study.examples[0].en",
+      "action": "APPLY",
+      "expectedCurrent": "I come when i have time.",
+      "finalEn": "I will come if I have time.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 371,
+      "cardId": "b2-Spuk-1683",
+      "fieldPath": "lv",
+      "action": "KEEP",
+      "expectedCurrent": "Specter • Ghost • Apparition",
+      "finalEn": "Specter • Ghost • Apparition",
+      "applyStatus": "KEEP_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": 372,
+      "cardId": "b2-Tagebau-1721",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Open mining of minerals",
+      "finalEn": "Open-pit mining",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 373,
+      "cardId": "b2-tagen-1725",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Hold a sitting • Session",
+      "finalEn": "Meet • Be in session",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 374,
+      "cardId": "b2-trügerisch-1758",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Deceitful • Deceitful",
+      "finalEn": "Deceitful • Deceptive",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 375,
+      "cardId": "b2-überbringen-1761",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Deliver a message • A greeting • A letter • A gift",
+      "finalEn": "Deliver a message • Deliver greetings • Deliver a letter • Deliver a gift",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 376,
+      "cardId": "b2-überhören-1769",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Not [to] hear because of carelessness • Pretend not to hear",
+      "finalEn": "Fail to hear • Pretend not to hear",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 377,
+      "cardId": "b2-überstehen-1779",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Endure • Endure trouble",
+      "finalEn": "Endure • Withstand",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 378,
+      "cardId": "b2-umschulen-1799",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "To teach people with one job another job • To retrain",
+      "finalEn": "To train for a different job • To retrain",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 379,
+      "cardId": "b2-unanständig-1808",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Impolite • Misbehaved",
+      "finalEn": "Improper • Indecent",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 380,
+      "cardId": "b2-unbebaut-1811",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Uncultivated for land • Unbuilt",
+      "finalEn": "Uncultivated • Unbuilt",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 381,
+      "cardId": "b2-unterdrücken-1836",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Suppress • Suppress",
+      "finalEn": "Suppress • Oppress",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 382,
+      "cardId": "b2-Untergang-1838",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Decline • Decline • Demise • Collapse",
+      "finalEn": "Sunset • Decline • Demise • Collapse",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 383,
+      "cardId": "b2-Unterlage-1843",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Permanent • Mat • Pad • Support • Data • Documentation",
+      "finalEn": "Base • Mat • Pad • Support • Documents",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 384,
+      "cardId": "b2-unterlassen-1844",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "To stop doing something • Not to do",
+      "finalEn": "To refrain from doing something • To omit",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 385,
+      "cardId": "b2-unterweisen-1850",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Show • Instruct",
+      "finalEn": "Teach • Instruct",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 386,
+      "cardId": "b2-unüberlegt-1854",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Reckless • Reckless",
+      "finalEn": "Thoughtless • Reckless",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 387,
+      "cardId": "b2-Urheber-1862",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Initiator • Initiator • Author",
+      "finalEn": "Originator • Initiator • Author",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 388,
+      "cardId": "b2-Urkunde-1864",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Document • Article",
+      "finalEn": "Document • Certificate",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 389,
+      "cardId": "b2-Ursprung-1865",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Origin • Origin • [pre]beginning",
+      "finalEn": "Origin • Source • Beginning",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 390,
+      "cardId": "b2-Verfahren-1884",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "behaviour • behaviour • Technique • Method • Jur. process • Case",
+      "finalEn": "Procedure • Process • Method • Legal proceedings",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 391,
+      "cardId": "b2-Verfall-1885",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Collapse • Decline • Decline",
+      "finalEn": "Collapse • Decline • Decay",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 392,
+      "cardId": "b2-verfallen-1886",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Collapse • Collapse • Decline • Sink",
+      "finalEn": "Collapse • Crumble • Decline • Decay",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 393,
+      "cardId": "b2-Verfasser-1887",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Composer • Author",
+      "finalEn": "Author • Writer",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 394,
+      "cardId": "b2-verführen-1890",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Seduce • Seduce",
+      "finalEn": "Seduce • Tempt",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 395,
+      "cardId": "b2-vergeblich-1891",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Vain • Vain",
+      "finalEn": "In vain • Futile",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 396,
+      "cardId": "b2-verkünden-1920",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Announce • Announce",
+      "finalEn": "Announce • Proclaim",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 397,
+      "cardId": "b2-Vermerk-1907",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Note • Mark",
+      "finalEn": "Note • Annotation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 398,
+      "cardId": "b2-Verschluss-1914",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Closing • Lock",
+      "finalEn": "Closure • Lock",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 399,
+      "cardId": "b2-verspielen-1942",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Play • Lose",
+      "finalEn": "Gamble away • Forfeit",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 400,
+      "cardId": "b2-verständig-1944",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Sane • Sensible",
+      "finalEn": "Reasonable • Sensible",
+      "applyStatus": "APPLIED",
+      "note": ""
+    }
+  ]
+}

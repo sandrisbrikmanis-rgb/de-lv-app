@@ -6020,11 +6020,11 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-genieren",
       "layout": "minimalStudy",
-      "translation": "To be ashamed",
+      "translation": "To feel embarrassed",
       "rektion": "vor + whom?",
       "explanation": "Sich genieren requires the preposition vor + whom?",
       "forms": "vor + whom?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6222,7 +6222,7 @@ const B2_WORDS = [
       "rektion": "zu + whom?",
       "explanation": "Sich gesellen requires the preposition zu + whom?",
       "forms": "zu + whom?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6272,7 +6272,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich gestalten requires the definite preposition zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6673,7 +6673,7 @@ const B2_WORDS = [
       "rektion": "vor + [dative]",
       "explanation": "Sich grauen is used with vor + [dative].",
       "forms": "vor + [dative]",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7290,7 +7290,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich herausbilden requires the definite preposition zu + kam?.",
       "forms": "zu + kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7319,7 +7319,7 @@ const B2_WORDS = [
       "rektion": "aus + [dative]",
       "explanation": "Sich heraushalten is used with aus + [dative].",
       "forms": "aus + [dative]",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7348,7 +7348,7 @@ const B2_WORDS = [
       "rektion": "als + [predicate complement]",
       "explanation": "Sich herausstellen is used with als + [predicate complement].",
       "forms": "als + [predicate complement]",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7392,7 +7392,7 @@ const B2_WORDS = [
       "rektion": "in + [dative]",
       "explanation": "Sich hervortun is used with in + [dative].",
       "forms": "in + [dative]",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -7482,7 +7482,7 @@ const B2_WORDS = [
       "rektion": "+ [dative]",
       "explanation": "Sich hingeben is used with a dative object.",
       "forms": "+ [dative]",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -9854,7 +9854,7 @@ const B2_WORDS = [
       "rektion": "mit + [dative]",
       "explanation": "Sich paaren requires the preposition mit + the dative.",
       "forms": "mit + [dative]",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10507,7 +10507,7 @@ const B2_WORDS = [
       "rektion": "bei + kam?",
       "explanation": "Sich revanchieren requires the definite preposition bei + kam?.",
       "forms": "bei + kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10845,7 +10845,7 @@ const B2_WORDS = [
       "rektion": "um + ko?",
       "explanation": "Sich scheren requires the fixed preposition um + ko?.",
       "forms": "um + ko?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -11473,7 +11473,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "I come when i have time."
+          "lv": "I will come if I have time."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
@@ -12040,7 +12040,7 @@ const B2_WORDS = [
     "de": "Tagebau",
     "de_article": "der",
     "de_plural": "die Tagebaue",
-    "lv": "Open mining of minerals",
+    "lv": "Open-pit mining",
     "level": "B2"
   },
   {
@@ -12066,7 +12066,7 @@ const B2_WORDS = [
   },
   {
     "de": "tagen",
-    "lv": "Hold a sitting • Session",
+    "lv": "Meet • Be in session",
     "level": "B2"
   },
   {
@@ -12272,7 +12272,7 @@ const B2_WORDS = [
   },
   {
     "de": "trügerisch",
-    "lv": "Deceitful • Deceitful",
+    "lv": "Deceitful • Deceptive",
     "level": "B2"
   },
   {
@@ -12291,7 +12291,7 @@ const B2_WORDS = [
   },
   {
     "de": "überbringen",
-    "lv": "Deliver a message • A greeting • A letter • A gift",
+    "lv": "Deliver a message • Deliver greetings • Deliver a letter • Deliver a gift",
     "level": "B2"
   },
   {
@@ -12334,7 +12334,7 @@ const B2_WORDS = [
   },
   {
     "de": "überhören",
-    "lv": "Not [to] hear because of carelessness • Pretend not to hear",
+    "lv": "Fail to hear • Pretend not to hear",
     "level": "B2"
   },
   {
@@ -12390,7 +12390,7 @@ const B2_WORDS = [
   },
   {
     "de": "überstehen",
-    "lv": "Endure • Endure trouble",
+    "lv": "Endure • Withstand",
     "level": "B2"
   },
   {
@@ -12503,7 +12503,7 @@ const B2_WORDS = [
   },
   {
     "de": "umschulen",
-    "lv": "To teach people with one job another job • To retrain",
+    "lv": "To train for a different job • To retrain",
     "level": "B2"
   },
   {
@@ -12553,7 +12553,7 @@ const B2_WORDS = [
   },
   {
     "de": "unanständig",
-    "lv": "Impolite • Misbehaved",
+    "lv": "Improper • Indecent",
     "level": "B2"
   },
   {
@@ -12568,7 +12568,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbebaut",
-    "lv": "Uncultivated for land • Unbuilt",
+    "lv": "Uncultivated • Unbuilt",
     "level": "B2"
   },
   {
@@ -12700,7 +12700,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterdrücken",
-    "lv": "Suppress • Suppress",
+    "lv": "Suppress • Oppress",
     "level": "B2"
   },
   {
@@ -12712,7 +12712,7 @@ const B2_WORDS = [
     "de": "Untergang",
     "de_article": "der",
     "de_plural": "die Untergänge",
-    "lv": "Decline • Decline • Demise • Collapse",
+    "lv": "Sunset • Decline • Demise • Collapse",
     "level": "B2"
   },
   {
@@ -12742,12 +12742,12 @@ const B2_WORDS = [
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "Permanent • Mat • Pad • Support • Data • Documentation",
+    "lv": "Base • Mat • Pad • Support • Documents",
     "level": "B2"
   },
   {
     "de": "unterlassen",
-    "lv": "To stop doing something • Not to do",
+    "lv": "To refrain from doing something • To omit",
     "level": "B2"
   },
   {
@@ -12781,7 +12781,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterweisen",
-    "lv": "Show • Instruct",
+    "lv": "Teach • Instruct",
     "level": "B2"
   },
   {
@@ -12801,7 +12801,7 @@ const B2_WORDS = [
   },
   {
     "de": "unüberlegt",
-    "lv": "Reckless • Reckless",
+    "lv": "Thoughtless • Reckless",
     "level": "B2"
   },
   {
@@ -12843,7 +12843,7 @@ const B2_WORDS = [
     "de": "Urheber",
     "de_article": "der",
     "de_plural": "die Urheber",
-    "lv": "Initiator • Initiator • Author",
+    "lv": "Originator • Initiator • Author",
     "level": "B2"
   },
   {
@@ -12857,14 +12857,14 @@ const B2_WORDS = [
     "de": "Urkunde",
     "de_article": "die",
     "de_plural": "die Urkunden",
-    "lv": "Document • Article",
+    "lv": "Document • Certificate",
     "level": "B2"
   },
   {
     "de": "Ursprung",
     "de_article": "der",
     "de_plural": "die Ursprünge",
-    "lv": "Origin • Origin • [pre]beginning",
+    "lv": "Origin • Source • Beginning",
     "level": "B2"
   },
   {
@@ -12959,7 +12959,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich vereinigen requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -12988,26 +12988,26 @@ const B2_WORDS = [
     "de": "Verfahren",
     "de_article": "das",
     "de_plural": "die Verfahren",
-    "lv": "behaviour • behaviour • Technique • Method • Jur. process • Case",
+    "lv": "Procedure • Process • Method • Legal proceedings",
     "level": "B2"
   },
   {
     "de": "Verfall",
     "de_article": "der",
     "de_plural": "die Verfälle",
-    "lv": "Collapse • Decline • Decline",
+    "lv": "Collapse • Decline • Decay",
     "level": "B2"
   },
   {
     "de": "verfallen",
-    "lv": "Collapse • Collapse • Decline • Sink",
+    "lv": "Collapse • Crumble • Decline • Decay",
     "level": "B2"
   },
   {
     "de": "Verfasser",
     "de_article": "der",
     "de_plural": "die Verfasser",
-    "lv": "Composer • Author",
+    "lv": "Author • Writer",
     "level": "B2"
   },
   {
@@ -13024,12 +13024,12 @@ const B2_WORDS = [
   },
   {
     "de": "verführen",
-    "lv": "Seduce • Seduce",
+    "lv": "Seduce • Tempt",
     "level": "B2"
   },
   {
     "de": "vergeblich",
-    "lv": "Vain • Vain",
+    "lv": "In vain • Futile",
     "level": "B2"
   },
   {
@@ -13123,7 +13123,7 @@ const B2_WORDS = [
     "de": "Vermerk",
     "de_article": "der",
     "de_plural": "die Vermerke",
-    "lv": "Note • Mark",
+    "lv": "Note • Annotation",
     "level": "B2"
   },
   {
@@ -13171,7 +13171,7 @@ const B2_WORDS = [
     "de": "Verschluss",
     "de_article": "der",
     "de_plural": "die Verschlüsse",
-    "lv": "Closing • Lock",
+    "lv": "Closure • Lock",
     "level": "B2"
   },
   {
@@ -13203,7 +13203,7 @@ const B2_WORDS = [
   },
   {
     "de": "verkünden",
-    "lv": "Announce • Announce",
+    "lv": "Announce • Proclaim",
     "level": "B2"
   },
   {
@@ -13287,7 +13287,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich versehen requires the fixed preposition mit + the dative.",
       "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13336,7 +13336,7 @@ const B2_WORDS = [
       "rektion": "mit + kam?",
       "explanation": "Sich versöhnen requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13351,7 +13351,7 @@ const B2_WORDS = [
   },
   {
     "de": "verspielen",
-    "lv": "Play • Lose",
+    "lv": "Gamble away • Forfeit",
     "level": "B2"
   },
   {
@@ -13361,7 +13361,7 @@ const B2_WORDS = [
   },
   {
     "de": "verständig",
-    "lv": "Sane • Sensible",
+    "lv": "Reasonable • Sensible",
     "level": "B2"
   },
   {
@@ -13385,7 +13385,7 @@ const B2_WORDS = [
       "rektion": "als + ko?",
       "explanation": "Sich verstellen requires the fixed preposition als + ko?.",
       "forms": "als + ko?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13501,7 +13501,7 @@ const B2_WORDS = [
       "rektion": "über + ko?",
       "explanation": "Sich verwundern requires the fixed preposition über + ko?.",
       "forms": "über + ko?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -14180,7 +14180,7 @@ const B2_WORDS = [
       "rektion": "+ kam?",
       "explanation": "Sich widersetzen takes a dative object.",
       "forms": "+ kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
