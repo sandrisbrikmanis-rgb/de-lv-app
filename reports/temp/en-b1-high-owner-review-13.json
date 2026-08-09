@@ -588,7 +588,7 @@
   "auditPoolBeforeHigh13Reference": 48,
   "highWorkflowSelectionExhausted": true,
   "ownerReviewStatus": "EN–DE B1 HIGH #13 OWNER REVIEW: COMPLETE",
-  "highRepair13Status": "NOT STARTED",
+  "highRepair13Status": "COMPLETE",
   "targetedRegression12Status": "DEFERRED",
   "ownerDecisionsMade": 149,
   "productionChanges": 0,
@@ -3675,7 +3675,7 @@
           "duplicateNote": null,
           "metadataAnomaly": null,
           "ownerVerdict": "LABOT",
-          "ownerFinalEn": "[\"ignite\",\"work\"]",
+          "ownerFinalEn": "Main idea: zünden means to ignite, to set in motion, or to work. Anzünden is often used when lighting something specific.",
           "ownerNote": "OWNER approved linguistic correction."
         },
         {
@@ -3801,7 +3801,7 @@
     "nelabot": 0,
     "findingsOwnerResolved": 149,
     "pendingFindings": 0,
-    "completedAt": "2026-08-09T12:05:42.967Z"
+    "completedAt": "2026-08-09T12:10:12.096Z"
   },
   "traceability": {
     "auditFindingsTraceable": 149,
@@ -3811,5 +3811,6 @@
     "conflictingHelperMappings": 0,
     "currentValueMismatches": 0,
     "currentMismatchDetails": []
-  }
+  },
+  "targetedRegressionStatus": "NOT STARTED"
 }

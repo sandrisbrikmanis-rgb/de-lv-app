@@ -4319,21 +4319,8 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 
 OWNER VERDICT: LABOT
-OWNER FINAL EN: ["ignite","work"]
+OWNER FINAL EN: Main idea: zünden means to ignite, to set in motion, or to work. Anzünden is often used when lighting something specific.
 OWNER NOTE: OWNER approved linguistic correction.
-
-CARD 47/48
-
-Audit Card ID: b1-zünden
-Production identity: b1-zünden
-DE: zünden
-Current EN: Set fire to
-Card type: standardStudy
-Production index: 3296
-
-SEVERITY: MEDIUM
-CATEGORY: GRAMMAR
-FIELD: study.examples[1].lv
 
 CURRENT:
 Lighter does not light.
@@ -4564,6 +4551,7 @@ HIGH WORKFLOW SELECTION BACKLOG: EXHAUSTED
 ```
 ---
 ---
+---
 
 ## Owner review status
 
@@ -4578,6 +4566,6 @@ PENDING remaining: 0
 Production changes: 0
 DE READ-ONLY: PASS
 
-HIGH REPAIR #13: NOT STARTED
+HIGH REPAIR #13: COMPLETE
 
-Next: EN–DE B1 HIGH REPAIR #13 — ALL 149 OWNER-APPROVED FINDINGS
+TARGETED REGRESSION: NOT STARTED

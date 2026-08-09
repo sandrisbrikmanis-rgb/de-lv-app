@@ -46357,7 +46357,7 @@ const B1_WORDS = [
       "id": "b1-rösten",
       "layout": "standardStudy",
       "translation": "To toast",
-      "explanation": "Main idea: rösten means to roast or roast food, especially coffee, bread, seeds or nuts.",
+      "explanation": "Main idea: rösten means to roast or toast food, especially coffee, bread, seeds, or nuts.",
       "examples": [
         {
           "de": "Wir rösten Kaffee.",
@@ -46380,7 +46380,7 @@ const B1_WORDS = [
         },
         {
           "word": "braten",
-          "meaning": "Fry on a pan",
+          "meaning": "To fry in a pan",
           "example": "Ich brate Fleisch. = I'm roasting meat."
         },
         {
@@ -46450,7 +46450,7 @@ const B1_WORDS = [
               "green": "braten"
             },
             "meaning": {
-              "purple": "cept uz pannas"
+              "purple": "fry in a pan"
             },
             "example": {
               "red": "brate",
@@ -46927,7 +46927,7 @@ const B1_WORDS = [
       "id": "b1-rüsten",
       "layout": "standardStudy",
       "translation": "To prepare",
-      "explanation": "Main idea: rüsten means to prepare or equip. In a military context, it means to arm or arm.",
+      "explanation": "In a military context, it means to arm or equip with weapons.",
       "examples": [
         {
           "de": "Wir rüsten uns für den Winter.",
@@ -46945,7 +46945,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "rüsten",
-          "meaning": "To prepare, to equip • To arm",
+          "meaning": "To prepare, to equip oneself • To arm",
           "example": "Wir rüsten uns für den Winter. = We are preparing for winter."
         },
         {
@@ -46959,7 +46959,7 @@ const B1_WORDS = [
           "example": "Der Staat rüstet auf. = The country is armed."
         }
       ],
-      "tip": "If preparation involves equipment, der rüsten.",
+      "tip": "If preparation involves equipment, use rüsten.",
       "important": "In a military context, rüsten and aufrüsten are associated with arming.",
       "sectionAccents": {
         "explanation": {
@@ -47006,7 +47006,7 @@ const B1_WORDS = [
               "green": "rüsten"
             },
             "meaning": {
-              "purple": "sagatavoties"
+              "purple": "to prepare"
             },
             "example": {
               "blue": "rüsten",
@@ -47081,7 +47081,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Saat geht auf.",
-          "lv": "The volume germinates."
+          "lv": "The crop is germinating."
         },
         {
           "de": "Der Bauer bringt die Saat aus.",
@@ -47089,13 +47089,13 @@ const B1_WORDS = [
         },
         {
           "de": "Die Saat steht gut.",
-          "lv": "Volume is growing well."
+          "lv": "The crop is growing well."
         }
       ],
       "comparison": [
         {
           "word": "die Saat",
-          "meaning": "Seed, vol",
+          "meaning": "Seed, crop, or sowing",
           "example": "Die Saat geht auf. = The volume is sprouting."
         },
         {
@@ -47688,7 +47688,7 @@ const B1_WORDS = [
       "id": "b1-schicht",
       "layout": "standardStudy",
       "translation": "Layer",
-      "explanation": "Main idea: die Schicht means layer or layer. In a work context, it means change.",
+      "explanation": "In a work context, it means shift.",
       "examples": [
         {
           "de": "Auf dem Boden liegt eine Schicht Staub.",
@@ -47706,7 +47706,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Schicht",
-          "meaning": "Layer, round • Shift of work",
+          "meaning": "Layer, stratum • Work shift",
           "example": "Eine Schicht Staub liegt dort. = There is a layer of dust."
         },
         {
@@ -47720,7 +47720,7 @@ const B1_WORDS = [
           "example": "Schichtarbeit ist anstrengend. = Shift work is tiring."
         }
       ],
-      "tip": "The surface has Schicht; work can have Schicht as a shift.",
+      "tip": "A surface can have a Schicht, or layer; at work, Schicht can mean a shift.",
       "important": "In a work context, Schicht often means shift rather than layer.",
       "sectionAccents": {
         "explanation": {
@@ -47745,7 +47745,7 @@ const B1_WORDS = [
               "blue": "Nachtschicht"
             },
             "lv": {
-              "red": "in shift"
+              "red": "night shift"
             }
           },
           {
@@ -48488,13 +48488,13 @@ const B1_WORDS = [
   },
   {
     "de": "schmelzen",
-    "lv": "Moving",
+    "lv": "To melt",
     "level": "B1",
     "study": {
       "id": "b1-schmelzen",
       "layout": "standardStudy",
-      "translation": "Moving",
-      "explanation": "Main idea: schmelzen means to melt or fuse. If the substance changes itself, it is translated as 'move' • If someone does it, it translates as 'melting'.",
+      "translation": "To melt",
+      "explanation": "schmelzen means to melt. If the substance changes by itself, translate it as “to melt”; if someone melts something, use “to melt” with an object.",
       "examples": [
         {
           "de": "Der Schnee schmilzt in der Sonne.",
@@ -48512,7 +48512,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "schmelzen",
-          "meaning": "Melt or fuse",
+          "meaning": "To melt or to melt something",
           "example": "Der Schnee schmilzt. = The snow is melting."
         },
         {
@@ -48552,7 +48552,7 @@ const B1_WORDS = [
               "yellow": "Butter"
             },
             "lv": {
-              "red": "melter"
+              "red": "melt"
             }
           },
           {
@@ -48654,7 +48654,7 @@ const B1_WORDS = [
       "id": "b1-schmieren",
       "layout": "standardStudy",
       "translation": "To spread • To smear",
-      "explanation": "Main idea: schmieren means to smear, smear, or smear a surface. Colloquially, it can also mean to write sloppily or to scribble.",
+      "explanation": "spread, smear, or coat a surface",
       "examples": [
         {
           "de": "Sie schmiert Butter aufs Brot.",
@@ -48666,18 +48666,18 @@ const B1_WORDS = [
         },
         {
           "de": "Das Kind schmiert an die Wand.",
-          "lv": "The child clawed at the wall."
+          "lv": "The child scribbles on the wall."
         }
       ],
       "comparison": [
         {
           "word": "schmieren",
-          "meaning": "To smear, to smear, to smear",
+          "meaning": "To spread, to smear, to scribble messily",
           "example": "Sie schmiert Butter aufs Brot. = She spreads butter on bread."
         },
         {
           "word": "streichen",
-          "meaning": "To bloom, to paint with the movement of a brush",
+          "meaning": "To spread or paint with a brush",
           "example": "Er streicht die Wand. = He is painting the wall."
         },
         {
@@ -48723,7 +48723,7 @@ const B1_WORDS = [
               "green": "Kind"
             },
             "lv": {
-              "red": "in the paw"
+              "red": "scribbles"
             }
           }
         ],
@@ -48767,7 +48767,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "schmieren",
-          "yellow": "sviests"
+          "yellow": "butter"
         },
         "important": {
           "blue": "schmieren",
@@ -49071,7 +49071,7 @@ const B1_WORDS = [
               "yellow": "Kleides"
             },
             "lv": {
-              "red": "piegriezums"
+              "red": "cut"
             }
           },
           {
@@ -49080,7 +49080,7 @@ const B1_WORDS = [
               "yellow": "Film"
             },
             "lv": {
-              "red": "assembly"
+              "red": "editing"
             }
           }
         ],
@@ -49090,7 +49090,7 @@ const B1_WORDS = [
               "green": "der Schnitt"
             },
             "meaning": {
-              "purple": "griezums"
+              "purple": "cut"
             },
             "example": {
               "blue": "Schnitt"
@@ -49376,7 +49376,7 @@ const B1_WORDS = [
               "yellow": "Euro"
             },
             "lv": {
-              "red": "owed"
+              "red": "owe"
             }
           }
         ],
@@ -49397,7 +49397,7 @@ const B1_WORDS = [
               "green": "die Schuld"
             },
             "meaning": {
-              "purple": "vaina"
+              "purple": "fault"
             },
             "example": {
               "red": "Schuld"
@@ -49411,7 +49411,7 @@ const B1_WORDS = [
               "purple": "innocent"
             },
             "example": {
-              "red": "unschuldig"
+              "red": "innocent"
             }
           }
         ],
@@ -49512,13 +49512,13 @@ const B1_WORDS = [
         },
         {
           "de": "Man muss sich vor der Sonne schützen.",
-          "lv": "Must be protected from the sun."
+          "lv": "You must protect yourself from the sun."
         }
       ],
       "comparison": [
         {
           "word": "schützen",
-          "meaning": "Protect, protect",
+          "meaning": "Protect, safeguard",
           "example": "Die Jacke schützt vor Regen. = The jacket protects from rain."
         },
         {
@@ -49613,7 +49613,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "schützen vor",
-          "red": "kam?"
+          "red": "whom?"
         },
         "important": {
           "blue": "schützen vor",
@@ -49748,7 +49748,7 @@ const B1_WORDS = [
               "yellow": "Möglichkeiten"
             },
             "lv": {
-              "red": "in doubt"
+              "red": "hesitates"
             }
           }
         ],
@@ -49785,7 +49785,7 @@ const B1_WORDS = [
               "purple": "to doubt"
             },
             "example": {
-              "red": "zweifle"
+              "red": "doubt"
             }
           }
         ],
@@ -50125,7 +50125,7 @@ const B1_WORDS = [
       "id": "b1-senden",
       "layout": "standardStudy",
       "translation": "To send",
-      "explanation": "Main Idea: Senden means to send a message or send a signal/broadcast. In everyday life, it is often more natural for people to have schicken.",
+      "explanation": "In everyday life, it is often more natural for people to use schicken.",
       "examples": [
         {
           "de": "Ich sende dir eine Nachricht.",
@@ -50148,7 +50148,7 @@ const B1_WORDS = [
         },
         {
           "word": "schicken",
-          "meaning": "Send everyday",
+          "meaning": "Send in everyday situations",
           "example": "Ich schicke dir das Foto. = I send you a photo."
         },
         {
@@ -50183,7 +50183,7 @@ const B1_WORDS = [
               "yellow": "Signal"
             },
             "lv": {
-              "red": "raida"
+              "red": "transmits"
             }
           },
           {
@@ -50192,7 +50192,7 @@ const B1_WORDS = [
               "yellow": "Sendung"
             },
             "lv": {
-              "red": "sent"
+              "red": "broadcast"
             }
           }
         ],
@@ -50599,7 +50599,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Meaning in text or life: Sinn; the meaning of the word often also Bedeutung.",
-      "important": "Sinn für Humor is a sense of humor, not literally “sense of humor”.",
+      "important": "not literally “the meaning of humor”",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -50634,7 +50634,7 @@ const B1_WORDS = [
               "yellow": "Humor"
             },
             "lv": {
-              "red": "feeling"
+              "red": "sense"
             }
           }
         ],
@@ -50679,7 +50679,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Sinn für Humor",
-          "red": "feeling"
+          "red": "the meaning of humor"
         }
       }
     }
@@ -50712,7 +50712,7 @@ const B1_WORDS = [
       "id": "b1-sitz",
       "layout": "standardStudy",
       "translation": "Seat",
-      "explanation": "Main idea: der Sitz means a seat or seat. For a company or institution, it means domicile.",
+      "explanation": "der Sitz means a seat or seating place. For a company or institution, it means headquarters.",
       "examples": [
         {
           "de": "Der Sitz ist frei.",
@@ -50730,7 +50730,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Sitz",
-          "meaning": "Seat, seat • Seat",
+          "meaning": "Seat, seating place • Headquarters",
           "example": "Der Sitz ist frei. = The seat is free."
         },
         {
@@ -50800,7 +50800,7 @@ const B1_WORDS = [
               "green": "der Platz"
             },
             "meaning": {
-              "purple": "vieta"
+              "purple": "place"
             },
             "example": {
               "red": "Platz"
@@ -51137,7 +51137,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "In the list sowie = as well as; in a time clause = as soon as.",
-      "important": "sowie is not automatically just “as soon as”; in lists it often means 'as well as'.",
+      "important": "sowie does not always mean “as soon as”; in lists, it often means “as well as.”",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -51194,7 +51194,7 @@ const B1_WORDS = [
               "green": "und"
             },
             "meaning": {
-              "purple": "un"
+              "purple": "And"
             },
             "example": {
               "red": "und"
@@ -51273,7 +51273,7 @@ const B1_WORDS = [
       "id": "b1-spannung",
       "layout": "standardStudy",
       "translation": "Tension",
-      "explanation": "Main Idea: die Spannung means tension or tension. In technical language, especially in electricity, it means voltage.",
+      "explanation": "Main idea: die Spannung means tension or strain. In technical language, especially in electricity, it means voltage.",
       "examples": [
         {
           "de": "Die Spannung im Film war groß.",
@@ -51291,7 +51291,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Spannung",
-          "meaning": "Voltage • In electricity, voltage",
+          "meaning": "Tension • In electricity, voltage",
           "example": "Die Spannung ist groß. = The tension is high."
         },
         {
@@ -51308,12 +51308,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Tension in a story or relationship; in electricity voltage."
+            "text": "Tension in a story or relationship; in electricity, voltage."
           }
         ]
       },
       "important": {
-        "text": "In electricity, die Spannung translates as tension, not emotional tension."
+        "text": "In electricity, die Spannung translates as voltage, not emotional tension."
       },
       "sectionAccents": {
         "explanation": {
@@ -51812,12 +51812,12 @@ const B1_WORDS = [
     "de": "Spitze",
     "de_article": "die",
     "de_plural": "die Spitzen",
-    "lv": "Spike",
+    "lv": "Tip; peak",
     "level": "B1",
     "study": {
       "id": "b1-spitze",
       "layout": "standardStudy",
-      "translation": "Spike",
+      "translation": "Tip; peak",
       "explanation": "Main idea: die Spitze is a pointed end or highest point. In a figurative sense, it can be leadership or a position at the top.",
       "examples": [
         {
@@ -51858,7 +51858,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "an der Spitze means under the leadership, not just physically above."
+        "text": "an der Spitze means at the top or in charge, not just physically above."
       },
       "sectionAccents": {
         "explanation": {
@@ -51905,7 +51905,11 @@ const B1_WORDS = [
               "green": "die Spitze"
             },
             "meaning": {
-              "purple": "smaile"
+              "purple": [
+                "Tip",
+                "peak",
+                "leadership"
+              ]
             },
             "example": {
               "blue": "Spitze"
@@ -52988,7 +52992,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "In the technique der Stift can be a pin instead of a pencil."
+        "text": "In technical contexts, der Stift can be a pin rather than a pencil."
       },
       "sectionAccents": {
         "explanation": {
@@ -53023,7 +53027,7 @@ const B1_WORDS = [
               "yellow": "Teile"
             },
             "lv": {
-              "red": "Tapa"
+              "red": "pin"
             }
           }
         ],
@@ -53055,7 +53059,7 @@ const B1_WORDS = [
               "green": "der Kugelschreiber"
             },
             "meaning": {
-              "purple": "pildspalva"
+              "purple": "ballpoint pen"
             },
             "example": {
               "red": "Kugelschreiber"
@@ -53075,7 +53079,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "der Stift",
-          "red": "tapa"
+          "red": "pin"
         }
       }
     }
@@ -53106,7 +53110,7 @@ const B1_WORDS = [
       "id": "b1-stillen",
       "layout": "standardStudy",
       "translation": "To breastfeed",
-      "explanation": "Main idea: stillen most often means to breastfeed. With need, thirst, or curiosity, it means to appease or satisfy.",
+      "explanation": "With needs, thirst, or curiosity, it means to relieve or satisfy them.",
       "examples": [
         {
           "de": "Die Mutter stillt ihr Baby.",
@@ -53173,7 +53177,7 @@ const B1_WORDS = [
               "yellow": "Durst"
             },
             "lv": {
-              "red": "soothes"
+              "red": "quenches"
             }
           },
           {
@@ -53216,7 +53220,7 @@ const B1_WORDS = [
               "green": "füttern"
             },
             "meaning": {
-              "purple": "barot"
+              "purple": "to feed"
             },
             "example": {
               "red": "füttere",
@@ -53400,7 +53404,7 @@ const B1_WORDS = [
               "yellow": "Mauer"
             },
             "lv": {
-              "red": "crashed into"
+              "red": "hit"
             }
           },
           {
@@ -53431,7 +53435,8 @@ const B1_WORDS = [
               "green": "schieben"
             },
             "meaning": {
-              "purple": "stumt"
+              "purple": "stumt",
+              "red": "push"
             },
             "example": {
               "red": "schiebe",
@@ -53443,7 +53448,8 @@ const B1_WORDS = [
               "green": "treffen"
             },
             "meaning": {
-              "purple": "satikt"
+              "purple": "satikt",
+              "red": "meet"
             },
             "example": {
               "red": "treffe",
@@ -53464,7 +53470,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "auf etwas stoßen",
-          "red": "uzdurties"
+          "red": "bump into"
         }
       }
     }
@@ -53558,7 +53564,7 @@ const B1_WORDS = [
       "id": "b1-streichen",
       "layout": "standardStudy",
       "translation": "Delete",
-      "explanation": "Main idea: streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress.",
+      "explanation": "streichen means to cross out or remove something from a list. With a wall, fence, or paint, it means to paint; with a hand, it means to stroke.",
       "examples": [
         {
           "de": "Wir streichen diesen Punkt von der Liste.",
@@ -53581,7 +53587,7 @@ const B1_WORDS = [
         },
         {
           "word": "löschen",
-          "meaning": "Delete file, text or fire",
+          "meaning": "Delete a file or text; put out a fire",
           "example": "Ich lösche die Datei. = I will delete the file."
         },
         {
@@ -53598,7 +53604,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "eine Wand streichen means to paint the wall, not to streak the wall."
+        "text": "eine Wand streichen means to paint the wall, not to cross out the wall."
       },
       "sectionAccents": {
         "explanation": {
@@ -53624,7 +53630,7 @@ const B1_WORDS = [
               "yellow": "Küche"
             },
             "lv": {
-              "red": "let's paint"
+              "red": "paint"
             }
           },
           {
@@ -53633,7 +53639,7 @@ const B1_WORDS = [
               "green": "Kind"
             },
             "lv": {
-              "red": "caressed"
+              "red": "strokes"
             }
           }
         ],
@@ -53680,7 +53686,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "saraksta"
+                  "list"
                 ]
               }
             }
@@ -53861,7 +53867,7 @@ const B1_WORDS = [
               "yellow": "Meer"
             },
             "lv": {
-              "red": "upe"
+              "red": "river"
             }
           }
         ],
@@ -53882,7 +53888,8 @@ const B1_WORDS = [
               "green": "der Fluss"
             },
             "meaning": {
-              "purple": "upe"
+              "purple": "upe",
+              "red": "river"
             },
             "example": {
               "red": "Fluss"
@@ -54013,7 +54020,7 @@ const B1_WORDS = [
       "id": "b1-stürzen",
       "layout": "standardStudy",
       "translation": "Fall down",
-      "explanation": "Main idea: stürzen means to fall or topple rapidly. With an object, it can mean overthrow, also overthrow a government or an official.",
+      "explanation": "With an object, it can mean to knock something down; it can also mean to overthrow a government or official.",
       "examples": [
         {
           "de": "Er stürzte auf der Treppe.",
@@ -54098,7 +54105,7 @@ const B1_WORDS = [
               "green": "stürzen"
             },
             "meaning": {
-              "purple": "krist"
+              "purple": "fall rapidly"
             },
             "example": {
               "blue": "stürzt"
@@ -54109,7 +54116,8 @@ const B1_WORDS = [
               "green": "fallen"
             },
             "meaning": {
-              "purple": "krist"
+              "purple": "krist",
+              "red": "fall"
             },
             "example": {
               "red": "fällt"
@@ -54132,7 +54140,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kritiens"
+                  "fall"
                 ]
               }
             }
@@ -54221,7 +54229,7 @@ const B1_WORDS = [
       "id": "b1-szene",
       "layout": "standardStudy",
       "translation": "The scene",
-      "explanation": "Main idea: die Szene means a scene in a film, theatre or a specific situation. Colloquially, it can also mean a certain environment of people.",
+      "explanation": "a particular social group or scene",
       "examples": [
         {
           "de": "Diese Szene im Film ist sehr stark.",
@@ -54229,7 +54237,7 @@ const B1_WORDS = [
         },
         {
           "de": "Mach bitte keine Szene.",
-          "lv": "Please don't make a scandal."
+          "lv": "Please don't make a scene."
         },
         {
           "de": "Er kennt die Berliner Musikszene gut.",
@@ -54256,7 +54264,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "In the movie, it's a scene; in a circle or style of people - Szene."
+            "text": "In a film, it is a scene; for a social group or style, use Szene."
           }
         ]
       },
@@ -54295,7 +54303,7 @@ const B1_WORDS = [
               "green": "Berliner"
             },
             "lv": {
-              "red": "vidi"
+              "red": "scene"
             }
           }
         ],
@@ -54305,7 +54313,7 @@ const B1_WORDS = [
               "green": "die Szene"
             },
             "meaning": {
-              "purple": "aina"
+              "purple": "scene"
             },
             "example": {
               "blue": "Szene"
@@ -54316,7 +54324,8 @@ const B1_WORDS = [
               "green": "die Bühne"
             },
             "meaning": {
-              "purple": "skatuve"
+              "purple": "skatuve",
+              "red": "stage"
             },
             "example": {
               "red": "Bühne"
@@ -54339,7 +54348,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "aina"
+                  "scene"
                 ]
               }
             }
@@ -54657,7 +54666,7 @@ const B1_WORDS = [
       "id": "b1-tau",
       "layout": "standardStudy",
       "translation": "Dew",
-      "explanation": "Main Idea: der Tau means dew—drops of water on grass or leaves. It is uncountable (singular only). Das Tau, on the other hand, means a ship's tow or rope.",
+      "explanation": "Das Tau, on the other hand, means a ship's towline or rope.",
       "examples": [
         {
           "de": "Am Morgen liegt Tau auf der Wiese.",
@@ -54697,7 +54706,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "der Tau = dew (singular only). das Tau = tow (die Taue). The article completely changes the meaning."
+        "text": "das Tau = towline or rope (die Taue)."
       },
       "sectionAccents": {
         "explanation": {
@@ -55061,12 +55070,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "In church or giving a formal name: taufen."
+            "text": "In church or when giving something a formal name: taufen."
           }
         ]
       },
       "important": {
-        "text": "taufen is not to bet; it means to baptise or give a name."
+        "text": "taufen does not mean “to bet”; it means to baptise or give a name."
       },
       "sectionAccents": {
         "explanation": {
@@ -55106,7 +55115,7 @@ const B1_WORDS = [
               "yellow": "Schiff"
             },
             "lv": {
-              "red": "nosauca"
+              "red": "named"
             }
           }
         ],
@@ -55487,12 +55496,12 @@ const B1_WORDS = [
     "de": "Titel",
     "de_article": "der",
     "de_plural": "die Titel",
-    "lv": "Name",
+    "lv": "Title",
     "level": "B1",
     "study": {
       "id": "b1-titel",
       "layout": "standardStudy",
-      "translation": "Name",
+      "translation": "Title",
       "explanation": "Main idea: der Titel means the title of a book, song, film or text. It can also mean a title, such as an academic or sports title.",
       "examples": [
         {
@@ -55501,7 +55510,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich kenne den Titel des Liedes nicht.",
-          "lv": "I don't know the name of the song."
+          "lv": "I don't know the title of the song."
         },
         {
           "de": "Er trägt den Titel Professor.",
@@ -55528,7 +55537,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "A book, song or film usually has a der Titel."
+            "text": "A book, song or film usually has a title."
           }
         ]
       },
@@ -55602,7 +55611,7 @@ const B1_WORDS = [
               "green": "der Name"
             },
             "meaning": {
-              "purple": "word"
+              "purple": "Name"
             },
             "example": {
               "red": "Name"
@@ -55654,12 +55663,12 @@ const B1_WORDS = [
     "de": "Ton",
     "de_article": "der",
     "de_plural": "die Töne",
-    "lv": "The sound",
+    "lv": "Sound; tone",
     "level": "B1",
     "study": {
       "id": "b1-ton",
       "layout": "standardStudy",
-      "translation": "The sound",
+      "translation": "Sound; tone",
       "explanation": "Main idea: der Ton means sound or tone. It is used for audio, voice, music, nuance of colour and manner of conversation.",
       "examples": [
         {
@@ -55700,7 +55709,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "in einem Ton speaking means manner of speaking, not just pitch."
+        "text": "“In einem Ton” when speaking refers to a manner of speaking, not just pitch."
       },
       "sectionAccents": {
         "explanation": {
@@ -55725,7 +55734,7 @@ const B1_WORDS = [
               "yellow": "ruhigen"
             },
             "lv": {
-              "red": "in tone"
+              "red": "calm tone"
             }
           },
           {
@@ -55868,7 +55877,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er traut sich nicht, allein zu sprechen.",
-          "lv": "He dare not speak alone."
+          "lv": "He does not dare to speak alone."
         }
       ],
       "comparison": [
@@ -55891,7 +55900,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Trust someone: trauen; dare yourself: sich trauen."
+            "text": "Trust someone: trauen; dare to do something: sich trauen."
           }
         ]
       },
@@ -56144,17 +56153,17 @@ const B1_WORDS = [
   },
   {
     "de": "treiben",
-    "lv": "To occupy",
+    "lv": "To do; to engage in",
     "level": "B1",
     "study": {
       "id": "b1-treiben",
       "layout": "standardStudy",
-      "translation": "To occupy",
+      "translation": "To do; to engage in",
       "explanation": "Main idea: treiben often means to do something, especially a sport. It can also mean to drive, direct, or do something undefined.",
       "examples": [
         {
           "de": "Er treibt viel Sport.",
-          "lv": "He does a lot of sports."
+          "lv": "He does a lot of sport."
         },
         {
           "de": "Der Wind treibt das Boot aufs Meer.",
@@ -56242,7 +56251,7 @@ const B1_WORDS = [
               "green": "antreiben"
             },
             "meaning": {
-              "purple": "chase"
+              "purple": "Drive; urge"
             },
             "example": {
               "red": "treibt",
@@ -56330,7 +56339,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "sich trennen means to separate; verskeiden means to distinguish by characteristics."
+        "text": "sich trennen means to separate; unterscheiden means to distinguish by characteristics."
       },
       "sectionAccents": {
         "explanation": {
@@ -56684,7 +56693,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Bez sich tas ir nodot; ar sich tas ir vemt."
+            "text": "Without sich, it means “to hand over”; with sich, it means “to vomit.”"
           }
         ]
       },
@@ -56836,7 +56845,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Einen Motor überholen means overhauling, not overhauling the engine."
+        "text": "Einen Motor überholen means overhauling an engine, not overtaking it."
       },
       "sectionAccents": {
         "explanation": {
@@ -56989,7 +56998,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Kosten oberkemen means to bear the cost, not just to receive it."
+        "text": "Kosten übernehmen means to bear the costs, not just to receive them."
       },
       "sectionAccents": {
         "explanation": {
@@ -57332,12 +57341,12 @@ const B1_WORDS = [
   },
   {
     "de": "umgehen",
-    "lv": "Get around",
+    "lv": "To deal with; to bypass",
     "level": "B1",
     "study": {
       "id": "b1-umgehen",
       "layout": "standardStudy",
-      "translation": "Get around",
+      "translation": "To deal with; to bypass",
       "explanation": "Main idea: umgehen means to deal with a person, thing, or situation. It can also mean bypassing an obstacle or bypassing the rules.",
       "examples": [
         {
@@ -57350,7 +57359,7 @@ const B1_WORDS = [
         },
         {
           "de": "Man darf die Regeln nicht umgehen.",
-          "lv": "Must not circumvent the rules."
+          "lv": "You must not circumvent the rules."
         }
       ],
       "comparison": [
@@ -57361,7 +57370,7 @@ const B1_WORDS = [
         },
         {
           "word": "behandeln",
-          "meaning": "To treat, to treat",
+          "meaning": "To treat, to process",
           "example": "Er behandelt sie freundlich. = He treats her kindly."
         },
         {
@@ -57871,7 +57880,7 @@ const B1_WORDS = [
       "id": "b1-unterhalten",
       "layout": "standardStudy",
       "translation": "Entertain",
-      "explanation": "Main idea: unterhalten means to entertain or maintain. sich unterhalten means to talk.",
+      "explanation": "unterhalten means to entertain or support. sich unterhalten means to talk.",
       "examples": [
         {
           "de": "Der Film unterhält die Zuschauer.",
@@ -57889,7 +57898,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "unterhalten",
-          "meaning": "Entertain • Maintain",
+          "meaning": "Entertain • Support",
           "example": "Der Film unterhält uns. = The movie entertains us."
         },
         {
@@ -57906,7 +57915,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Bez sich: to entertain or maintain; with sich: to talk."
+            "text": "Without sich: to entertain or support; with sich: to talk."
           }
         ]
       },
@@ -58042,7 +58051,7 @@ const B1_WORDS = [
       "id": "b1-untersuchung",
       "layout": "standardStudy",
       "translation": "Investigation",
-      "explanation": "Main idea: die Untersuchung means investigation, examination or study. The context determines whether it is a doctor, a police officer, or a scientist.",
+      "explanation": "The context determines whether it refers to a medical examination, a police investigation, or a scientific study.",
       "examples": [
         {
           "de": "Die ärztliche Untersuchung dauert zehn Minuten.",
@@ -58077,7 +58086,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "The doctor examines, the police investigate, science investigates: die Untersuchung."
+            "text": "The doctor examines, the police investigate, and scientists conduct studies: die Untersuchung."
           }
         ]
       },
@@ -58248,7 +58257,7 @@ const B1_WORDS = [
       "id": "b1-verändern",
       "layout": "standardStudy",
       "translation": "To change",
-      "explanation": "Main idea: To change means to change something so that it becomes different. sich veränderen means to change yourself.",
+      "explanation": "sich verändern means to change or to change oneself.",
       "examples": [
         {
           "de": "Die neue Regel verändert den Alltag.",
@@ -58283,12 +58292,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "If something becomes different, veränderen is often used."
+            "text": "If something becomes different, verändern is often used."
           }
         ]
       },
       "important": {
-        "text": "sich veränderen is to change oneself; veränder bez sich means to change something else."
+        "text": "sich verändern means to change oneself; verändern without sich means to change something else."
       },
       "sectionAccents": {
         "explanation": {
@@ -58455,7 +58464,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "der Verband not die Verbindung: A bandage or association is not a connection."
+        "text": "der Verband is not die Verbindung: a bandage or association is not a connection."
       },
       "sectionAccents": {
         "explanation": {
@@ -58571,7 +58580,7 @@ const B1_WORDS = [
         },
         {
           "de": "Es gibt eine direkte Verbindung nach Berlin.",
-          "lv": "Has a direct connection to Berlin."
+          "lv": "There is a direct connection to Berlin."
         },
         {
           "de": "Ich habe eine Verbindung zu dieser Firma.",
@@ -58603,7 +58612,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "die Verbindung is not der Verband. Bandage and bandage are different words."
+        "text": "die Verbindung is not der Verband. A connection and a bandage are different words."
       },
       "sectionAccents": {
         "explanation": {
@@ -58745,7 +58754,7 @@ const B1_WORDS = [
       "id": "b1-verbrennen",
       "layout": "standardStudy",
       "translation": "To burn",
-      "explanation": "Main idea: verbrennen means to burn or burn to the point of destruction. With a body part, it means to burn.",
+      "explanation": "Main idea: verbrennen means to burn something or burn up completely. With a body part, it means to burn yourself.",
       "examples": [
         {
           "de": "Bitte verbrenne das Papier nicht.",
@@ -58763,7 +58772,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "verbrennen",
-          "meaning": "To burn, to burn, to burn",
+          "meaning": "To burn, burn up, burn yourself",
           "example": "Das Papier verbrennt. = The paper burns."
         },
         {
@@ -58785,7 +58794,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "sich die Hand verbrennen means to burn the hand, not to burn the hand to the end."
+        "text": "sich die Hand verbrennen means to burn your hand, not to burn it completely."
       },
       "sectionAccents": {
         "explanation": {
@@ -58866,7 +58875,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "uguns"
+                  "fire"
                 ]
               }
             }
@@ -58899,7 +58908,7 @@ const B1_WORDS = [
       "id": "b1-verderben",
       "layout": "standardStudy",
       "translation": "To spoil",
-      "explanation": "Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible.",
+      "explanation": "Main idea: verderben means to spoil something or become spoiled. For food, it often means that it is no longer edible.",
       "examples": [
         {
           "de": "Der Regen verdirbt den Ausflug.",
@@ -58934,12 +58943,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Food, plan or mood can verderben."
+            "text": "Food, a plan, or a mood can spoil."
           }
         ]
       },
       "important": {
-        "text": "verdorben for food means spoiled, not just bad tasting."
+        "text": "verdorben for food means spoiled, not simply tasting bad."
       },
       "sectionAccents": {
         "explanation": {
@@ -58965,7 +58974,7 @@ const B1_WORDS = [
               "yellow": "Milch"
             },
             "lv": {
-              "red": "broke down"
+              "red": "spoiled"
             }
           },
           {
@@ -59030,7 +59039,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "verdorben",
-          "red": "broke down"
+          "red": "spoiled"
         }
       }
     }
@@ -59693,7 +59702,7 @@ const B1_WORDS = [
               "yellow": "Worte"
             },
             "lv": {
-              "red": "aizvainoja"
+              "red": "hurt"
             }
           },
           {
@@ -59746,7 +59755,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "savaino"
+                  "injure"
                 ]
               }
             }
@@ -59870,7 +59879,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "versichern",
-          "meaning": "To insure • To certify",
+          "meaning": "To insure • To assure",
           "example": "Ich versichere das Auto. = I insure the car."
         },
         {
@@ -59918,7 +59927,7 @@ const B1_WORDS = [
               "green": "mir"
             },
             "lv": {
-              "red": "confirmed"
+              "red": "assured"
             }
           },
           {
@@ -59981,7 +59990,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "versichere",
-          "red": "apliecinu"
+          "red": "assure"
         }
       }
     }
@@ -60163,7 +60172,7 @@ const B1_WORDS = [
               "green": "Kollegen"
             },
             "lv": {
-              "red": "aizvietoju"
+              "red": "replaced"
             }
           },
           {
@@ -61812,7 +61821,7 @@ const B1_WORDS = [
       "id": "b1-wechsel",
       "layout": "standardStudy",
       "translation": "Shift",
-      "explanation": "Main idea: der Wechsel means change or change. In special phrases such as Exchange rate, the meaning becomes specific.",
+      "explanation": "der Wechsel means a change or switch. In compounds such as Wechselkurs, the meaning becomes more specific.",
       "examples": [
         {
           "de": "Der Wechsel der Jahreszeiten ist schön.",
@@ -61852,7 +61861,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "der Exchange rate means the exchange rate, not simply the exchange process."
+        "text": "der Wechselkurs means the exchange rate, not simply the process of changing or exchanging."
       },
       "sectionAccents": {
         "explanation": {
@@ -63273,7 +63282,7 @@ const B1_WORDS = [
       "id": "b1-zugeben",
       "layout": "standardStudy",
       "translation": "To admit",
-      "explanation": "Main idea: Zubegen means to admit a mistake or a truth. With food or substances, dazubegen means to add to.",
+      "explanation": "zugeben means to admit a mistake or the truth. ... dazugeben means to add something.",
       "examples": [
         {
           "de": "Ich gebe zu, dass ich einen Fehler gemacht habe.",
@@ -63313,7 +63322,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Gib Salz dazu is to be added to, not acknowledged."
+        "text": "Gib Salz dazu means “add salt,” not “admit.”"
       },
       "sectionAccents": {
         "explanation": {
@@ -63359,7 +63368,7 @@ const B1_WORDS = [
               "yellow": "Salz"
             },
             "lv": {
-              "red": "Pievieno"
+              "red": "Add"
             }
           }
         ],
@@ -63383,7 +63392,7 @@ const B1_WORDS = [
               "green": "dazugeben"
             },
             "meaning": {
-              "purple": "pievienot"
+              "purple": "Add to"
             },
             "example": {
               "red": "dazu",
@@ -63440,13 +63449,13 @@ const B1_WORDS = [
   },
   {
     "de": "zünden",
-    "lv": "Set fire to",
+    "lv": "Ignite; work or function",
     "level": "B1",
     "study": {
       "id": "b1-zünden",
       "layout": "standardStudy",
-      "translation": "Set fire to",
-      "explanation": "Main idea: zünden means to ignite, to set in motion, or to work. Anzünden is often used for specific kindling.",
+      "translation": "Ignite; work or function",
+      "explanation": "Main idea: zünden means to ignite, to set in motion, or to work. Anzünden is often used when lighting something specific.",
       "examples": [
         {
           "de": "Er zündet die Kerze an.",
@@ -63454,7 +63463,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Feuerzeug zündet nicht.",
-          "lv": "Lighter does not light."
+          "lv": "The lighter does not light."
         },
         {
           "de": "Die Idee hat sofort gezündet.",
@@ -63491,7 +63500,8 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Main"
+            "ignite",
+            "work"
           ]
         },
         "examples": [
@@ -63533,7 +63543,7 @@ const B1_WORDS = [
               "green": "zünden"
             },
             "meaning": {
-              "purple": "aizdegties"
+              "purple": "To ignite"
             },
             "example": {
               "blue": "zündet"
@@ -63555,7 +63565,7 @@ const B1_WORDS = [
               "green": "brennen"
             },
             "meaning": {
-              "purple": "degt"
+              "purple": "To burn"
             },
             "example": {
               "red": "brennt"
@@ -63564,7 +63574,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "zünden",
-          "red": "darboties"
+          "red": "starts working"
         },
         "important": {
           "red": "anzünden",
@@ -64272,7 +64282,7 @@ const B1_WORDS = [
       "id": "b1-steuer",
       "layout": "standardStudy",
       "translation": "Tax",
-      "explanation": "Main idea: die Steuer means tax. The plural is die Steuern. Das Steuer, on the other hand, means a rudder or a steering wheel - the steering device of a ship or car.",
+      "explanation": "das Steuer means a rudder or steering wheel",
       "examples": [
         {
           "de": "Die Steuern sind hoch.",
