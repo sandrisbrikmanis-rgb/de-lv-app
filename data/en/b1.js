@@ -31562,7 +31562,7 @@ const B1_WORDS = [
   {
     "de": "Jagdbeute",
     "de_article": "die",
-    "lv": "Hunting",
+    "lv": "Hunting prey / game",
     "level": "B1"
   },
   {
@@ -31760,7 +31760,7 @@ const B1_WORDS = [
     "de": "Schaltjahr",
     "de_article": "das",
     "de_plural": "die Schaltjahre",
-    "lv": "Long year",
+    "lv": "Leap year",
     "level": "B1"
   },
   {
@@ -31999,7 +31999,7 @@ const B1_WORDS = [
   },
   {
     "de": "jaulen",
-    "lv": "Howling for a dog",
+    "lv": "To howl",
     "level": "B1"
   },
   {
@@ -32240,7 +32240,7 @@ const B1_WORDS = [
     "de": "Kabelkanal",
     "de_article": "der",
     "de_plural": "die Kabelkanäle",
-    "lv": "Cable television channel",
+    "lv": "Cable duct / cable conduit",
     "level": "B1"
   },
   {
@@ -32261,7 +32261,7 @@ const B1_WORDS = [
     "de": "Kachel",
     "de_article": "die",
     "de_plural": "die Kacheln",
-    "lv": "Oven pot",
+    "lv": "Tile",
     "level": "B1"
   },
   {
@@ -32424,7 +32424,7 @@ const B1_WORDS = [
     "de": "Kai",
     "de_article": "der",
     "de_plural": "die Kais",
-    "lv": "Constructed embankment",
+    "lv": "Quay / wharf",
     "level": "B1"
   },
   {
@@ -32443,7 +32443,7 @@ const B1_WORDS = [
     "de": "Kamerad",
     "de_article": "der",
     "de_plural": "die Kameraden",
-    "lv": "A member",
+    "lv": "Comrade / companion",
     "level": "B1"
   },
   {
@@ -32532,14 +32532,14 @@ const B1_WORDS = [
     "de": "Kanten",
     "de_article": "der",
     "de_plural": "die Kanten",
-    "lv": "Bread dona",
+    "lv": "End piece of bread / bread crust",
     "level": "B1"
   },
   {
     "de": "Kantine",
     "de_article": "die",
     "de_plural": "die Kantinen",
-    "lv": "Buffet",
+    "lv": "Canteen / cafeteria",
     "level": "B1"
   },
   {
@@ -32591,7 +32591,7 @@ const B1_WORDS = [
   },
   {
     "de": "karitativ",
-    "lv": "Charity",
+    "lv": "Charitable",
     "level": "B1"
   },
   {
@@ -32619,7 +32619,7 @@ const B1_WORDS = [
     "de": "Kartei",
     "de_article": "die",
     "de_plural": "die Karteien",
-    "lv": "Filing cabinet",
+    "lv": "Card index / file index",
     "level": "B1"
   },
   {
@@ -32680,7 +32680,7 @@ const B1_WORDS = [
   },
   {
     "de": "kegeln",
-    "lv": "Hit the pins",
+    "lv": "To bowl / play skittles",
     "level": "B1"
   },
   {
@@ -33087,7 +33087,7 @@ const B1_WORDS = [
   },
   {
     "de": "keuchen",
-    "lv": "Panting",
+    "lv": "To pant",
     "level": "B1"
   },
   {
@@ -33268,7 +33268,7 @@ const B1_WORDS = [
     "de": "Kinderkrippe",
     "de_article": "die",
     "de_plural": "die Kinderkrippen",
-    "lv": "Children's shelter",
+    "lv": "Day nursery / childcare centre",
     "level": "B1"
   },
   {
@@ -33451,7 +33451,7 @@ const B1_WORDS = [
     "de": "Kladde",
     "de_article": "die",
     "de_plural": "die Kladden",
-    "lv": "Clade",
+    "lv": "Draft notebook / rough copy",
     "level": "B1"
   },
   {
@@ -33994,7 +33994,7 @@ const B1_WORDS = [
   },
   {
     "de": "knitterfrei",
-    "lv": "Unruffled",
+    "lv": "Wrinkle-free",
     "level": "B1"
   },
   {
@@ -34039,12 +34039,12 @@ const B1_WORDS = [
   },
   {
     "de": "knüpfen",
-    "lv": "Sieve",
+    "lv": "To tie / knot",
     "level": "B1"
   },
   {
     "de": "knurren",
-    "lv": "Roar",
+    "lv": "To growl",
     "level": "B1"
   },
   {
@@ -34600,7 +34600,7 @@ const B1_WORDS = [
   },
   {
     "de": "krächzen",
-    "lv": "Bark",
+    "lv": "To caw / croak",
     "level": "B1"
   },
   {
@@ -34729,7 +34729,7 @@ const B1_WORDS = [
   },
   {
     "de": "krähen",
-    "lv": "To sing about the rooster",
+    "lv": "To crow",
     "level": "B1"
   },
   {
@@ -34850,7 +34850,7 @@ const B1_WORDS = [
   },
   {
     "de": "kreisen",
-    "lv": "Circle",
+    "lv": "To circle",
     "level": "B1"
   },
   {
@@ -35010,7 +35010,7 @@ const B1_WORDS = [
   },
   {
     "de": "kriechen",
-    "lv": "It's raining",
+    "lv": "To crawl",
     "level": "B1"
   },
   {
@@ -35093,7 +35093,7 @@ const B1_WORDS = [
   },
   {
     "de": "krumm",
-    "lv": "Hook",
+    "lv": "Crooked / bent",
     "level": "B1"
   },
   {
@@ -35927,7 +35927,7 @@ const B1_WORDS = [
     "de": "Kursbuch",
     "de_article": "das",
     "de_plural": "die Kursbücher",
-    "lv": "Train list",
+    "lv": "Timetable / railway timetable",
     "level": "B1"
   },
   {
