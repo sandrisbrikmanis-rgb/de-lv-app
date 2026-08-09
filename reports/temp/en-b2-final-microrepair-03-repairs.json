@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "microrepair": 3,
+    "applyCount": 11,
+    "uniqueCards": 5
+  },
+  "decisions": [
+    { "seq": 1, "cardId": "b2-sich-fassen", "fieldPath": "study.explanation", "action": "APPLY", "current": "Sich fassen requires the fixed preposition an + dative.", "finalEn": "Sich fassen is used without a fixed preposition." },
+    { "seq": 2, "cardId": "b2-sich-fassen", "fieldPath": "study.rektion", "action": "APPLY", "current": "an + dative", "finalEn": "No fixed preposition" },
+    { "seq": 3, "cardId": "b2-sich-fassen", "fieldPath": "study.forms", "action": "APPLY", "current": "an + dative", "finalEn": "No fixed preposition" },
+    { "seq": 4, "cardId": "b2-sich-gestalten", "fieldPath": "study.explanation", "action": "APPLY", "current": "Sich gestalten requires the fixed preposition zu + dative.", "finalEn": "Sich gestalten does not require a fixed preposition. It means to develop or take shape." },
+    { "seq": 5, "cardId": "b2-sich-gestalten", "fieldPath": "study.rektion", "action": "APPLY", "current": "zu + dative", "finalEn": "No fixed preposition" },
+    { "seq": 6, "cardId": "b2-sich-gestalten", "fieldPath": "study.forms", "action": "APPLY", "current": "zu + the dative", "finalEn": "No fixed preposition" },
+    { "seq": 7, "cardId": "b2-sich-herausbilden", "fieldPath": "study.explanation", "action": "APPLY", "current": "Sich herausbilden requires the fixed preposition zu + dative.", "finalEn": "Sich herausbilden does not require a fixed preposition. It means to develop or emerge." },
+    { "seq": 8, "cardId": "b2-sich-herausbilden", "fieldPath": "study.rektion", "action": "APPLY", "current": "zu + dative", "finalEn": "No fixed preposition" },
+    { "seq": 9, "cardId": "b2-sich-herausbilden", "fieldPath": "study.forms", "action": "APPLY", "current": "zu + the dative", "finalEn": "No fixed preposition" },
+    { "seq": 10, "cardId": "b2-aendern", "fieldPath": "study.examples[0].en", "action": "APPLY", "current": "I change the deadline.", "finalEn": "I change the appointment." },
+    { "seq": 11, "cardId": "b2-fordern", "fieldPath": "enMain", "action": "APPLY", "current": "Require • Require", "finalEn": "Demand • Require" }
+  ],
+  "sectionAccentSync": [
+    { "cardId": "b2-sich-fassen", "path": "explanation.red", "before": ["an + dative"], "after": ["fixed preposition"] },
+    { "cardId": "b2-sich-gestalten", "path": "explanation.red", "before": ["zu + dative"], "after": ["fixed preposition"] },
+    { "cardId": "b2-sich-herausbilden", "path": "explanation.red", "before": ["zu + dative"], "after": ["fixed preposition"] }
+  ]
+}

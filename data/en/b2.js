@@ -4977,9 +4977,9 @@ const B2_WORDS = [
       "id": "b2-sich-fassen",
       "layout": "minimalStudy",
       "translation": "Compose oneself",
-      "rektion": "an + dative",
-      "explanation": "Sich fassen requires the fixed preposition an + dative.",
-      "forms": "an + dative",
+      "rektion": "No fixed preposition",
+      "explanation": "Sich fassen is used without a fixed preposition.",
+      "forms": "No fixed preposition",
       "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
@@ -4987,7 +4987,7 @@ const B2_WORDS = [
             "sich fassen"
           ],
           "red": [
-            "an + dative"
+            "fixed preposition"
           ]
         }
       }
@@ -6269,9 +6269,9 @@ const B2_WORDS = [
       "id": "b2-sich-gestalten",
       "layout": "minimalStudy",
       "translation": "Develop • Take shape",
-      "rektion": "zu + dative",
-      "explanation": "Sich gestalten requires the fixed preposition zu + dative.",
-      "forms": "zu + the dative",
+      "rektion": "No fixed preposition",
+      "explanation": "Sich gestalten does not require a fixed preposition. It means to develop or take shape.",
+      "forms": "No fixed preposition",
       "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
@@ -6279,7 +6279,7 @@ const B2_WORDS = [
             "sich gestalten"
           ],
           "red": [
-            "zu + dative"
+            "fixed preposition"
           ]
         }
       }
@@ -7287,9 +7287,9 @@ const B2_WORDS = [
       "id": "b2-sich-herausbilden",
       "layout": "minimalStudy",
       "translation": "Develop • Emerge",
-      "rektion": "zu + dative",
-      "explanation": "Sich herausbilden requires the fixed preposition zu + dative.",
-      "forms": "zu + the dative",
+      "rektion": "No fixed preposition",
+      "explanation": "Sich herausbilden does not require a fixed preposition. It means to develop or emerge.",
+      "forms": "No fixed preposition",
       "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
@@ -7297,7 +7297,7 @@ const B2_WORDS = [
             "sich herausbilden"
           ],
           "red": [
-            "zu + dative"
+            "fixed preposition"
           ]
         }
       }
@@ -14624,7 +14624,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Ich ändere den Termin.",
-          "lv": "I change the deadline."
+          "lv": "I change the appointment."
         },
         {
           "de": "Kannst du die Adresse ändern?",
@@ -15073,7 +15073,7 @@ const B2_WORDS = [
   },
   {
     "de": "fordern",
-    "lv": "Require • Require",
+    "lv": "Demand • Require",
     "level": "B2",
     "study": {
       "id": "b2-fordern",

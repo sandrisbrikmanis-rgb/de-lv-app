@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-08-09T19:13:42.799Z",
+  "preRepairCommit": "195706e9",
+  "scope": {
+    "uniqueCards": 5,
+    "lunaAudited": 5,
+    "lunaExpected": 5
+  },
+  "luna": {
+    "status": "COMPLETED",
+    "rawCount": 8,
+    "realProblems": 0,
+    "severity": {
+      "KRITISKA": 0,
+      "AUGSTA": 0,
+      "VIDĒJA": 0,
+      "ZEMA": 0,
+      "VILTUS_POZITĪVS": 2,
+      "IEPRIEKŠ_EKSISTĒJA": 6
+    },
+    "stats": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 0,
+      "initialBatchRequests": 0,
+      "retryRequests": 0,
+      "batchCount": 0,
+      "batchSizes": [],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 0,
+      "cachedInputTokens": 0,
+      "outputTokens": 0,
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "findingsCount": 0,
+      "passCount": 0
+    }
+  },
+  "findings": [
+    {
+      "cardId": "b2-aendern",
+      "fieldPath": "studyContext.explanation[1]",
+      "currentEn": "Ändern basically means: to fix or change a part.",
+      "problem": "Ändern does not generally mean “to fix”; “a part” is also misleading here.",
+      "recommendedEn": "Ändern basically means: to change or alter something.",
+      "validatedStatus": "IEPRIEKŠ_EKSISTĒJA",
+      "validatedSeverity": "NAV",
+      "rationale": "Problēma eksistēja pirms mikrolabojuma #3 (nav no šī 11 lauku cikla)."
+    },
+    {
+      "cardId": "b2-aendern",
+      "fieldPath": "studyContext.explanation[2]",
+      "currentEn": "Often describes: a specific thing.",
+      "problem": "The current wording is an unnatural sentence fragment.",
+      "recommendedEn": "It often describes a specific thing.",
+      "validatedStatus": "IEPRIEKŠ_EKSISTĒJA",
+      "validatedSeverity": "NAV",
+      "rationale": "Problēma eksistēja pirms mikrolabojuma #3 (nav no šī 11 lauku cikla)."
+    },
+    {
+      "cardId": "b2-aendern",
+      "fieldPath": "studyContext.examples[4].en",
+      "currentEn": "Change the part • Wechseln",
+      "problem": "“Change the part” is not idiomatic, and the German item should not remain in the English gloss.",
+      "recommendedEn": "Change something specific • Switch",
+      "validatedStatus": "VILTUS_POZITĪVS",
+      "validatedSeverity": "NAV",
+      "rationale": "OWNER NELABOT vai dialekta preference."
+    },
+    {
+      "cardId": "b2-fordern",
+      "fieldPath": "studyContext.explanation[1]",
+      "currentEn": "Fordern mainly means: to require / to require.",
+      "problem": "The phrase repeats “to require” and needs a clear, correct pairing.",
+      "recommendedEn": "Fordern mainly means: to demand or require.",
+      "validatedStatus": "IEPRIEKŠ_EKSISTĒJA",
+      "validatedSeverity": "NAV",
+      "rationale": "Problēma eksistēja pirms mikrolabojuma #3 (nav no šī 11 lauku cikla)."
+    },
+    {
+      "cardId": "b2-fordern",
+      "fieldPath": "studyContext.explanation[3]",
+      "currentEn": "Fordern mainly means: to demand a standard.",
+      "problem": "“To demand a standard” is an incomplete and misleading definition in this context.",
+      "recommendedEn": "Fordern mainly means: to demand or require something.",
+      "validatedStatus": "IEPRIEKŠ_EKSISTĒJA",
+      "validatedSeverity": "NAV",
+      "rationale": "Problēma eksistēja pirms mikrolabojuma #3 (nav no šī 11 lauku cikla)."
+    },
+    {
+      "cardId": "b2-fordern",
+      "fieldPath": "studyContext.explanation[4]",
+      "currentEn": "Often characterised by: active demand.",
+      "problem": "The current wording is an awkward sentence fragment.",
+      "recommendedEn": "It often involves an active demand.",
+      "validatedStatus": "IEPRIEKŠ_EKSISTĒJA",
+      "validatedSeverity": "NAV",
+      "rationale": "Problēma eksistēja pirms mikrolabojuma #3 (nav no šī 11 lauku cikla)."
+    },
+    {
+      "cardId": "b2-fordern",
+      "fieldPath": "studyContext.explanation[5]",
+      "currentEn": "Often characterised by: formal.",
+      "problem": "“Often characterised by: formal” is ungrammatical and incomplete.",
+      "recommendedEn": "It is often used in formal contexts.",
+      "validatedStatus": "IEPRIEKŠ_EKSISTĒJA",
+      "validatedSeverity": "NAV",
+      "rationale": "Problēma eksistēja pirms mikrolabojuma #3 (nav no šī 11 lauku cikla)."
+    },
+    {
+      "cardId": "b2-fordern",
+      "fieldPath": "studyContext.examples[4].en",
+      "currentEn": "To demand • To promote",
+      "problem": "“To promote” is not a translation of fordern and conflicts with the card’s meaning.",
+      "recommendedEn": "To demand • To require",
+      "validatedStatus": "VILTUS_POZITĪVS",
+      "validatedSeverity": "NAV",
+      "rationale": "OWNER NELABOT vai dialekta preference."
+    }
+  ],
+  "deReadOnly": true,
+  "verdict": "EN–DE B2 GALA MIKROLABOJUMS #3: PASS",
+  "closureVerdict": "EN–DE B2 — GATAVS OWNER ACCEPTED / CLOSED"
+}

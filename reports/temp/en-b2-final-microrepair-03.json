@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-08-09T19:20:00.000Z",
+  "microrepair": 3,
+  "baseCommit": "195706e9",
+  "branch": "cursor/en-b2-full-audit-6850",
+  "planned": 11,
+  "applied": 11,
+  "verified": 11,
+  "currentValueMismatch": 0,
+  "uniqueCards": 5,
+  "hashDeBefore": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "hashDeAfter": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "deReadOnly": true,
+  "deChanges": 0,
+  "nelabotChecks": 9,
+  "nelabotPass": 9,
+  "owner58Preserved": true,
+  "sectionAccentSync": 3,
+  "sectionAccentIssuesB2": 0,
+  "syntaxPass": true,
+  "parityPass": true,
+  "mirrorPass": true,
+  "unexpectedProductionChanges": 0,
+  "structure": {
+    "cards": 2118,
+    "studies": 60,
+    "standardStudy": 15,
+    "minimalStudy": 45,
+    "flashcards": 2058
+  },
+  "formsLabel": {
+    "management": 0,
+    "government": 0,
+    "rection": 43
+  },
+  "lunaRegression": {
+    "cards": 5,
+    "audited": 5,
+    "rawFindings": 8,
+    "realProblems": 0,
+    "severity": {
+      "KRITISKA": 0,
+      "AUGSTA": 0,
+      "VIDĒJA": 0,
+      "ZEMA": 0,
+      "VILTUS_POZITĪVS": 2,
+      "IEPRIEKŠ_EKSISTĒJA": 6
+    },
+    "verdict": "EN–DE B2 GALA MIKROLABOJUMS #3: PASS"
+  },
+  "verdict": "EN–DE B2 GALA MIKROLABOJUMS #3: PASS",
+  "closureVerdict": "EN–DE B2 — GATAVS OWNER ACCEPTED / CLOSED"
+}
