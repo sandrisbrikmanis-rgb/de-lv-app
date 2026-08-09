@@ -201,7 +201,7 @@ const B2_WORDS = [
   },
   {
     "de": "abbringen",
-    "lv": "Dissuade • Dissuade • Divert",
+    "lv": "Dissuade • Deter • Divert",
     "level": "B2"
   },
   {
@@ -277,7 +277,7 @@ const B2_WORDS = [
   },
   {
     "de": "abgetan",
-    "lv": "Terminated • Settled",
+    "lv": "Dismissed • Settled",
     "level": "B2"
   },
   {
@@ -299,7 +299,7 @@ const B2_WORDS = [
   },
   {
     "de": "ableiten",
-    "lv": "Lead • Divert • Derive",
+    "lv": "Lead away • Divert • Derive",
     "level": "B2"
   },
   {
@@ -339,7 +339,7 @@ const B2_WORDS = [
     "de": "Absatzmarkt",
     "de_article": "der",
     "de_plural": "die Absatzmärkte",
-    "lv": "Outlet market",
+    "lv": "Sales market",
     "level": "B2"
   },
   {
@@ -349,7 +349,7 @@ const B2_WORDS = [
   },
   {
     "de": "abschieben",
-    "lv": "Push away • Banish",
+    "lv": "Push away • Deport",
     "level": "B2"
   },
   {
@@ -376,7 +376,7 @@ const B2_WORDS = [
   },
   {
     "de": "absondern",
-    "lv": "Separate • Separate • Isolate",
+    "lv": "Secrete • Separate • Isolate",
     "level": "B2"
   },
   {
@@ -395,7 +395,7 @@ const B2_WORDS = [
   },
   {
     "de": "abstimmen",
-    "lv": "To vote • To agree",
+    "lv": "To vote • To coordinate",
     "level": "B2"
   },
   {
@@ -424,7 +424,7 @@ const B2_WORDS = [
   },
   {
     "de": "abtragen",
-    "lv": "Carry away • Carry away • Demolish",
+    "lv": "Carry away • Wear away • Demolish",
     "level": "B2"
   },
   {
@@ -481,7 +481,7 @@ const B2_WORDS = [
   {
     "de": "Abzweigung",
     "de_article": "die",
-    "lv": "Branch • Branch",
+    "lv": "Branch • Turn-off",
     "level": "B2"
   },
   {
@@ -491,7 +491,7 @@ const B2_WORDS = [
   },
   {
     "de": "affig",
-    "lv": "Flashy • Conceited",
+    "lv": "Affected • Conceited",
     "level": "B2"
   },
   {
@@ -11405,7 +11405,7 @@ const B2_WORDS = [
   },
   {
     "de": "sickern",
-    "lv": "Drip • Suck",
+    "lv": "Drip • Seep",
     "level": "B2"
   },
   {
@@ -11660,7 +11660,7 @@ const B2_WORDS = [
     "de": "Sorgenkind",
     "de_article": "das",
     "de_plural": "die Sorgenkinder",
-    "lv": "Care child",
+    "lv": "Problem child",
     "level": "B2"
   },
   {
@@ -11673,7 +11673,7 @@ const B2_WORDS = [
     "de": "Sorgerecht",
     "de_article": "das",
     "de_plural": "die Sorgerechte",
-    "lv": "The right to care",
+    "lv": "Custody rights",
     "level": "B2"
   },
   {
@@ -11696,7 +11696,7 @@ const B2_WORDS = [
   },
   {
     "de": "spärlich",
-    "lv": "Scanty • Stingy • Rare",
+    "lv": "Scanty • Sparse • Scarce",
     "level": "B2"
   },
   {
@@ -11750,12 +11750,12 @@ const B2_WORDS = [
   },
   {
     "de": "spotten",
-    "lv": "Mock • Teething",
+    "lv": "Mock • Ridicule",
     "level": "B2"
   },
   {
     "de": "spöttisch",
-    "lv": "Mocking • Toothy",
+    "lv": "Mocking • Derisive",
     "level": "B2"
   },
   {
@@ -11767,7 +11767,7 @@ const B2_WORDS = [
   },
   {
     "de": "sprengen",
-    "lv": "[on]blast • Sprinkle • Water",
+    "lv": "Blow up • Sprinkle • Water",
     "level": "B2"
   },
   {
@@ -11795,7 +11795,7 @@ const B2_WORDS = [
     "de": "Spruchband",
     "de_article": "das",
     "de_plural": "die Spruchbande",
-    "lv": "Transparent • Poster",
+    "lv": "Banner",
     "level": "B2"
   },
   {
@@ -11945,7 +11945,7 @@ const B2_WORDS = [
   },
   {
     "de": "stranden",
-    "lv": "Run aground • Have an accident",
+    "lv": "Run aground • Become stranded",
     "level": "B2"
   },
   {
@@ -12140,7 +12140,7 @@ const B2_WORDS = [
     "de": "Tor",
     "de_article": "der",
     "de_plural": "die Toren",
-    "lv": "Fool • Trap",
+    "lv": "Fool",
     "level": "B2"
   },
   {
@@ -12159,7 +12159,7 @@ const B2_WORDS = [
   },
   {
     "de": "totschießen",
-    "lv": "To shoot",
+    "lv": "To shoot dead",
     "level": "B2"
   },
   {
@@ -12267,7 +12267,7 @@ const B2_WORDS = [
   },
   {
     "de": "trügen",
-    "lv": "Trick • Deceive",
+    "lv": "Deceive • Mislead",
     "level": "B2"
   },
   {
@@ -12395,12 +12395,12 @@ const B2_WORDS = [
   },
   {
     "de": "übertragen",
-    "lv": "Transmit • Transmit contagious diseases • Broadcast by radio • [re]translate",
+    "lv": "Transfer • Transmit contagious diseases • Broadcast by radio • Translate",
     "level": "B2"
   },
   {
     "de": "übertreten",
-    "lv": "To break the law • To trespass against something",
+    "lv": "To break the law • To cross something",
     "level": "B2"
   },
   {
@@ -12695,7 +12695,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterbreiten",
-    "lv": "Explain • Present",
+    "lv": "Submit • Present",
     "level": "B2"
   },
   {
@@ -12730,7 +12730,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterirdisch",
-    "lv": "Underground-",
+    "lv": "Underground",
     "level": "B2"
   },
   {
@@ -12806,7 +12806,7 @@ const B2_WORDS = [
   },
   {
     "de": "unvermeidlich",
-    "lv": "Imminent • Unavoidable",
+    "lv": "Inevitable • Unavoidable",
     "level": "B2"
   },
   {
@@ -12940,7 +12940,7 @@ const B2_WORDS = [
   },
   {
     "de": "verehren",
-    "lv": "honour • Respect • Comp. [to] give away",
+    "lv": "Honour • Respect • Give as a gift (colloquial)",
     "level": "B2"
   },
   {
@@ -13056,7 +13056,7 @@ const B2_WORDS = [
   },
   {
     "de": "verhasst",
-    "lv": "Hated • Unseen",
+    "lv": "Hated • Detested",
     "level": "B2"
   },
   {
@@ -13066,14 +13066,14 @@ const B2_WORDS = [
   },
   {
     "de": "verhöhnen",
-    "lv": "Mock • Dent",
+    "lv": "Mock • Ridicule",
     "level": "B2"
   },
   {
     "de": "Verhör",
     "de_article": "das",
     "de_plural": "die Verhöre",
-    "lv": "[from] interrogation",
+    "lv": "Interrogation",
     "level": "B2"
   },
   {
@@ -13178,7 +13178,7 @@ const B2_WORDS = [
     "de": "Versehen",
     "de_article": "das",
     "de_plural": "die Versehen",
-    "lv": "Error • Revision",
+    "lv": "Error • Oversight",
     "level": "B2"
   },
   {
@@ -13253,7 +13253,7 @@ const B2_WORDS = [
   },
   {
     "de": "verordnen",
-    "lv": "Determine • Order • Med. to sign",
+    "lv": "Determine • Order • Prescribe",
     "level": "B2"
   },
   {
@@ -13273,7 +13273,7 @@ const B2_WORDS = [
   },
   {
     "de": "versagen",
-    "lv": "Deny • Refuse • Reject • Disobey • Refuse to serve • Appear cowardly and powerless",
+    "lv": "Fail • Refuse • Deny • Break down",
     "level": "B2"
   },
   {
@@ -13356,7 +13356,7 @@ const B2_WORDS = [
   },
   {
     "de": "verspotten",
-    "lv": "Dent • Ridicule",
+    "lv": "Mock • Ridicule",
     "level": "B2"
   },
   {
@@ -13477,7 +13477,7 @@ const B2_WORDS = [
     "de": "Verwirrung",
     "de_article": "die",
     "de_plural": "die Verwirrungen",
-    "lv": "Confusion • Embarrassment",
+    "lv": "Confusion • Bewilderment",
     "level": "B2"
   },
   {
@@ -13827,7 +13827,7 @@ const B2_WORDS = [
     "de": "Wacholder",
     "de_article": "der",
     "de_plural": "die Wacholder",
-    "lv": "Fir • Juniper",
+    "lv": "Juniper",
     "level": "B2"
   },
   {
@@ -13952,7 +13952,7 @@ const B2_WORDS = [
     "de": "Wasserwerfer",
     "de_article": "der",
     "de_plural": "die Wasserwerfer",
-    "lv": "Police car - water cannon",
+    "lv": "Police water cannon",
     "level": "B2"
   },
   {
@@ -13985,7 +13985,7 @@ const B2_WORDS = [
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "Dune • Kupena",
+    "lv": "Dune • Snowdrift",
     "level": "B2"
   },
   {
@@ -14005,7 +14005,7 @@ const B2_WORDS = [
     "de": "Weib",
     "de_article": "das",
     "de_plural": "die Weiber",
-    "lv": "Cf. not a woman",
+    "lv": "Woman (archaic, often derogatory)",
     "level": "B2"
   },
   {
@@ -14120,7 +14120,7 @@ const B2_WORDS = [
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "Sp. rush race • Rush",
+    "lv": "Race • Competition",
     "level": "B2"
   },
   {
@@ -14149,7 +14149,7 @@ const B2_WORDS = [
   },
   {
     "de": "wider",
-    "lv": "Vs",
+    "lv": "Against • Contrary to",
     "level": "B2"
   },
   {
@@ -14178,7 +14178,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Resist • Oppose",
       "rektion": "+ kam?",
-      "explanation": "Sich widersetzen requires + for whom?.",
+      "explanation": "Sich widersetzen takes a dative object.",
       "forms": "+ kam?",
       "formsLabel": "Management:",
       "sectionAccents": {
@@ -14253,7 +14253,7 @@ const B2_WORDS = [
   },
   {
     "de": "zollpflichtig",
-    "lv": "Subject to customs",
+    "lv": "Dutiable • Subject to customs duty",
     "level": "B2"
   },
   {
@@ -14472,7 +14472,7 @@ const B2_WORDS = [
       "id": "b2-zuwider",
       "layout": "standardStudy",
       "translation": "Against • Contrary to • Dislike",
-      "explanation": "Main idea: zuwider is a word with multiple functions. As a preposition + dative, it means \"against, against\": mir zuwider. As part of the expression jemandem zuwider sein/laufen means \"to dislike someone, to become unpleasant\". Not to be confused with wider (against).",
+      "explanation": "Main idea: zuwider is a word with multiple functions. As a preposition + dative, it means \"against, contrary to\": mir zuwider. In the expressions jemandem zuwider sein/laufen, it means \"to be distasteful or objectionable to someone\". Do not confuse it with wider (against).",
       "examples": [
         {
           "de": "Er handelte mir zuwider.",
@@ -14495,7 +14495,7 @@ const B2_WORDS = [
         },
         {
           "word": "jemandem zuwider sein",
-          "meaning": "Someone won't like it",
+          "meaning": "To be distasteful to someone",
           "example": "Es ist mir zuwider. = I don't like it."
         },
         {
@@ -14512,12 +14512,12 @@ const B2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Basic meaning: against / opposite (mir zuwider). Idiomatically: jemandem zuwider sein/laufen = to dislike someone."
+            "text": "Basic meaning: against / contrary to (mir zuwider). Idiomatically: jemandem zuwider sein/laufen = to be distasteful to someone."
           }
         ]
       },
       "important": {
-        "text": "zuwider + dative = against, opposite. zuwider sein = dislike. It is not the same as wider."
+        "text": "zuwider + dative = against, contrary to. zuwider sein = to be distasteful to someone. It is not the same as wider."
       },
       "sectionAccents": {
         "explanation": {
@@ -14616,7 +14616,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-aendern",
       "layout": "standardStudy",
-      "translation": "Change • Correct",
+      "translation": "Change • Alter",
       "explanation": [
         "Main idea: To change a specific thing or information - plan, deadline, address, decision.",
         "Ändern basically means: to fix or change a part.",
@@ -15350,7 +15350,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-verlaufen",
       "layout": "minimalStudy",
-      "translation": "To proceed • To roll",
+      "translation": "To proceed • To run its course",
       "explanation": "Verlaufen (without sich) means to proceed or run its course. It is not synonymous with sich verlaufen (to get lost).",
       "sectionAccents": {
         "explanation": {
