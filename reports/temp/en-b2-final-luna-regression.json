@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-08-09T18:22:31.078Z",
+  "branch": "cursor/en-b2-full-audit-6850",
+  "pr": "#376",
+  "baselineCommit": "496f377f",
+  "auditedProductionCommit": "c9f2f6b5",
+  "reportCommit": "c9f2f6b5d1c8bc5d0b82f5113edbd4af4a126b06",
+  "scope": {
+    "uniqueChangedCards": 814,
+    "changedEnFields": 928,
+    "lunaAudited": 0,
+    "lunaExpected": 814,
+    "apiBatches": 0
+  },
+  "luna": {
+    "model": "gpt-5.6-luna",
+    "status": "NOT_RUN_API_UNAVAILABLE",
+    "apiAvailable": false,
+    "rawCounts": {
+      "KRITISKA": 0,
+      "AUGSTA": 0,
+      "VIDĒJA": 0,
+      "ZEMA": 0
+    },
+    "rawTotal": 0,
+    "validatedCounts": {
+      "KRITISKA": 0,
+      "AUGSTA": 0,
+      "VIDĒJA": 0,
+      "ZEMA": 0,
+      "VILTUS_POZITĪVS": 0,
+      "DE_AVOTA_PROBLĒMA": 0
+    },
+    "repairRegression": 0,
+    "preExisting": 0,
+    "stats": null
+  },
+  "safety": {
+    "productionUnchanged": true,
+    "deReadOnly": true,
+    "structure": "PASS",
+    "mirror": "PASS",
+    "sectionAccents": "PASS",
+    "sectionAccentCount": 0,
+    "foreignRemnants": 0,
+    "formsLabel": {
+      "management": 0,
+      "government": 0,
+      "rection": 43
+    },
+    "syntaxPass": true,
+    "parityPass": true,
+    "counts": {
+      "cards": 2118,
+      "studies": 60,
+      "standardStudy": 15,
+      "minimalStudy": 45,
+      "flashcards": 2058
+    }
+  },
+  "verdict": "LUNA AUDITS NAV PABEIGTS"
+}
