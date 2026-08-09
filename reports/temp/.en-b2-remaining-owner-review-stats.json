@@ -1,0 +1,8 @@
+{
+  "model": "gpt-5.6-luna",
+  "requestCount": 41,
+  "retryCount": 0,
+  "inputTokens": 113570,
+  "outputTokens": 104469,
+  "totalTokens": 218039
+}
