@@ -537,7 +537,7 @@
   "expectedArithmeticRemaining": 23,
   "calculatedWorkflowRemaining": 23,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 93,
+  "ownerDecisionsMade": 140,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -2601,9 +2601,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lot\" differs from audit Current EN \"Main idea: das Los is a lottery that is drawn or bought.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: das Los is a lottery ticket or lot that is drawn or bought.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2617,9 +2617,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lot\" differs from audit Current EN \"Main idea: das Los is a lottery that is drawn or bought.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "She won with this ticket.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2633,9 +2633,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lot\" differs from audit Current EN \"Main idea: das Los is a lottery that is drawn or bought.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Winnings / prize",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -2649,9 +2649,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lot\" differs from audit Current EN \"Main idea: das Los is a lottery that is drawn or bought.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "lot",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -2665,9 +2665,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lot\" differs from audit Current EN \"Main idea: das Los is a lottery that is drawn or bought.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "winnings / prize",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -2681,11 +2681,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lot\" differs from audit Current EN \"Main idea: das Los is a lottery that is drawn or bought.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "fate",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 32,
@@ -2713,9 +2714,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Power\" differs from audit Current EN \"Die Macht, not die Kraft, thinks in politics and influence.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In politics and when talking about influence, think of die Macht, not die Kraft.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2729,11 +2730,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Power\" differs from audit Current EN \"Die Macht, not die Kraft, thinks in politics and influence.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "die Kraft is the physical force or energy of the body.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 33,
@@ -2761,9 +2763,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Measure",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2777,9 +2779,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In the singular, Maß means a measure; in the plural, Maße often means dimensions.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -2793,9 +2795,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "measure",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -2809,9 +2811,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "action / measure",
+          "ownerNote": "OWNER approved sectionAccent correction."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Mayor",
+          "ownerFinalEn": "Measure",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -2841,9 +2852,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "After",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2857,9 +2868,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: nachdem introduces a subordinate clause and means after. In German, the verb in this subordinate clause comes at the end.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -2873,9 +2884,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "After I had eaten, I went to sleep.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -2889,9 +2900,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "After the course was over, we went home.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2905,9 +2916,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "After",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2921,9 +2932,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Before",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "MEDIUM",
@@ -2937,9 +2948,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "had eaten",
+          "ownerNote": "OWNER approved sectionAccent correction."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "After when",
+          "ownerFinalEn": "After",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -2969,9 +2989,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Request\" differs from audit Current EN \"Main idea: die Nachfacht in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: die Nachfrage in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2985,9 +3005,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Request\" differs from audit Current EN \"Main idea: die Nachfacht in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In the market, Nachfrage is the opposite of Angebot.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3001,11 +3021,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Request\" differs from audit Current EN \"Main idea: die Nachfacht in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "die Nachfrage is not an ordinary question. Die Frage is used for a simple question.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 36,
@@ -3033,9 +3054,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To be inclined; to lean",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3049,9 +3070,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Physically, it can also mean tilting the head or an object.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3065,9 +3086,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "neigen zu + what case?: an inclination towards something.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3081,9 +3102,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "neigen is not sich nähern. neigen shows an inclination or a slope, while sich nähern means to approach.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3097,9 +3118,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "inclination",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "MEDIUM",
@@ -3113,9 +3134,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "approach",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "MEDIUM",
@@ -3129,9 +3150,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "inclination",
+          "ownerNote": "OWNER approved sectionAccent correction."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "To strive",
+          "ownerFinalEn": "To be inclined; to lean",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -3161,9 +3191,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Inclination\" differs from audit Current EN \"His risk appetite is known.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Her tendency to take risks is well known.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3177,9 +3207,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Inclination\" differs from audit Current EN \"His risk appetite is known.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The roof has a steep slope.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3193,9 +3223,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Inclination\" differs from audit Current EN \"His risk appetite is known.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Tendency, inclination • Slope",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3209,9 +3239,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Inclination\" differs from audit Current EN \"His risk appetite is known.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "die Neigung is not simply interest. Neigung more often shows a persistent tendency or a slope.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3225,11 +3255,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Inclination\" differs from audit Current EN \"His risk appetite is known.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "tendency",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 38,
@@ -3257,9 +3288,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To annoy\" differs from audit Current EN \"Main idea: nerven is colloquial meaning to annoy or get on one's nerves.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: nerven is a colloquial verb meaning to annoy or get on one's nerves.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3273,9 +3304,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To annoy\" differs from audit Current EN \"Main idea: nerven is colloquial meaning to annoy or get on one's nerves.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "nerven is colloquial. In a more formal situation, stören is often safer.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3289,11 +3320,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To annoy\" differs from audit Current EN \"Main idea: nerven is colloquial meaning to annoy or get on one's nerves.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "to anger",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 39,
@@ -3321,9 +3353,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Not drunk\" differs from audit Current EN \"Main idea: nüchtern means not intoxicated or in a clear mind.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: nüchtern means not intoxicated or clear-headed.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3337,9 +3369,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Not drunk\" differs from audit Current EN \"Main idea: nüchtern means not intoxicated or in a clear mind.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "She assesses the situation matter-of-factly.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3353,11 +3385,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Not drunk\" differs from audit Current EN \"Main idea: nüchtern means not intoxicated or in a clear mind.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Alcohol, a medical examination, or a clear-headed view: nüchtern.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 40,
@@ -3385,9 +3418,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Object\" differs from audit Current EN \"In grammar, Objekt means complement.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In grammar, Objekt means object.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3401,9 +3434,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Object\" differs from audit Current EN \"In grammar, Objekt means complement.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In a sentence it is an object.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3417,9 +3450,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Object\" differs from audit Current EN \"In grammar, Objekt means complement.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Object • Object in grammar",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3433,9 +3466,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Object\" differs from audit Current EN \"In grammar, Objekt means complement.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Object or item",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3449,9 +3482,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Object\" differs from audit Current EN \"In grammar, Objekt means complement.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In everyday life, an object can also be a building or a target being observed; in grammar it is an object.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "PEDAGOGICAL",
@@ -3465,9 +3498,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Object\" differs from audit Current EN \"In grammar, Objekt means complement.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "object",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "PEDAGOGICAL",
@@ -3481,11 +3514,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Object\" differs from audit Current EN \"In grammar, Objekt means complement.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "object",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 41,
@@ -4252,7 +4286,7 @@
     "cumulativeNelabot": 0,
     "completedAt": "2026-08-09T11:18:04.701Z"
   },
-  "ownerReviewStatus": "EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 3/5 COMPLETE",
+  "ownerReviewStatus": "EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 4/5 COMPLETE",
   "kundeSharedProductionIdentity": {
     "yes": true,
     "auditEntries": 2,
@@ -4304,5 +4338,38 @@
     "cumulativeNelabot": 0,
     "cumulativeFindingsOwnerResolved": 93,
     "completedAt": "2026-08-09T11:29:53.458Z"
+  },
+  "ownerReviewBlock4": {
+    "block": "4/5",
+    "cardsReviewed": 10,
+    "labot": 10,
+    "nelabot": 0,
+    "findingsOwnerResolved": 47,
+    "pendingInBlock4": 0,
+    "associatedTopLevelRepairs": [
+      {
+        "cardId": "b1-maß",
+        "field": "lv",
+        "from": "Mayor",
+        "to": "Measure"
+      },
+      {
+        "cardId": "b1-nachdem",
+        "field": "lv",
+        "from": "After when",
+        "to": "After"
+      },
+      {
+        "cardId": "b1-neigen",
+        "field": "lv",
+        "from": "To strive",
+        "to": "To be inclined; to lean"
+      }
+    ],
+    "cumulativeCardsReviewed": 40,
+    "cumulativeLabot": 40,
+    "cumulativeNelabot": 0,
+    "cumulativeFindingsOwnerResolved": 140,
+    "completedAt": "2026-08-09T11:33:33.105Z"
   }
 }

@@ -2873,9 +2873,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Lot" differs from audit Current EN "Main idea: das Los is a lottery that is drawn or bought."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: das Los is a lottery ticket or lot that is drawn or bought.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 31/50
 
@@ -2903,9 +2903,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Lot" differs from audit Current EN "Main idea: das Los is a lottery that is drawn or bought."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: She won with this ticket.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 31/50
 
@@ -2933,9 +2933,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Lot" differs from audit Current EN "Main idea: das Los is a lottery that is drawn or bought."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Winnings / prize
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 31/50
 
@@ -2963,9 +2963,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Lot" differs from audit Current EN "Main idea: das Los is a lottery that is drawn or bought."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: lot
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 31/50
 
@@ -2993,9 +2993,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Lot" differs from audit Current EN "Main idea: das Los is a lottery that is drawn or bought."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: winnings / prize
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 31/50
 
@@ -3023,9 +3023,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Lot" differs from audit Current EN "Main idea: das Los is a lottery that is drawn or bought."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fate
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 32/50
 
@@ -3053,9 +3053,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Power" differs from audit Current EN "Die Macht, not die Kraft, thinks in politics and influence."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In politics and when talking about influence, think of die Macht, not die Kraft.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 32/50
 
@@ -3083,9 +3083,12 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Power" differs from audit Current EN "Die Macht, not die Kraft, thinks in politics and influence."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: die Kraft is the physical force or energy of the body.
+OWNER NOTE: OWNER approved linguistic correction.
+
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: Mayor → Measure
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 CARD 33/50
 
@@ -3112,9 +3115,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Measure
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 33/50
 
@@ -3141,9 +3144,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In the singular, Maß means a measure; in the plural, Maße often means dimensions.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 33/50
 
@@ -3170,9 +3173,9 @@ The accent uses the incorrect English word “mayor”.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: measure
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 33/50
 
@@ -3199,9 +3202,12 @@ The highlighted word is absent from the English comparison meaning.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: action / measure
+OWNER NOTE: OWNER approved sectionAccent correction.
+
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: After when → After
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 CARD 34/50
 
@@ -3228,9 +3234,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: After
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 34/50
 
@@ -3257,9 +3263,9 @@ The explanation repeats the incorrect translation “after when.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: nachdem introduces a subordinate clause and means after. In German, the verb in this subordinate clause comes at the end.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 34/50
 
@@ -3286,9 +3292,9 @@ English sentences require capital I and a comma after the introductory clause.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: After I had eaten, I went to sleep.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 34/50
 
@@ -3315,9 +3321,9 @@ A comma is normally used after this introductory subordinate clause.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: After the course was over, we went home.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 34/50
 
@@ -3344,9 +3350,9 @@ The comparison repeats the inaccurate translation “after when.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: After
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 34/50
 
@@ -3373,9 +3379,9 @@ The accent contains a Latvian token instead of the English target.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Before
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 34/50
 
@@ -3402,9 +3408,9 @@ The accent targets a German phrase absent from the English text.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: had eaten
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 35/50
 
@@ -3432,9 +3438,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Request" differs from audit Current EN "Main idea: die Nachfacht in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: die Nachfrage in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 35/50
 
@@ -3462,9 +3468,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Request" differs from audit Current EN "Main idea: die Nachfacht in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In the market, Nachfrage is the opposite of Angebot.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 35/50
 
@@ -3492,9 +3498,12 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Request" differs from audit Current EN "Main idea: die Nachfacht in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: die Nachfrage is not an ordinary question. Die Frage is used for a simple question.
+OWNER NOTE: OWNER approved linguistic correction.
+
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: To strive → To be inclined; to lean
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 CARD 36/50
 
@@ -3521,9 +3530,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To be inclined; to lean
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 36/50
 
@@ -3550,9 +3559,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Physically, it can also mean tilting the head or an object.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 36/50
 
@@ -3579,9 +3588,9 @@ The learner-facing English field contains Latvian text.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: neigen zu + what case?: an inclination towards something.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 36/50
 
@@ -3608,9 +3617,9 @@ The sentence is ungrammatical and repeats “inclination”; the German contrast
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: neigen is not sich nähern. neigen shows an inclination or a slope, while sich nähern means to approach.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 36/50
 
@@ -3637,9 +3646,9 @@ The accent contains a Latvian token instead of the English target.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: inclination
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 36/50
 
@@ -3666,9 +3675,9 @@ The accent contains a Latvian token instead of the English target.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: approach
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 36/50
 
@@ -3695,9 +3704,9 @@ The accent contains a Latvian token instead of the English target.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: inclination
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 37/50
 
@@ -3725,9 +3734,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Inclination" differs from audit Current EN "His risk appetite is known."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Her tendency to take risks is well known.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 37/50
 
@@ -3755,9 +3764,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Inclination" differs from audit Current EN "His risk appetite is known."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The roof has a steep slope.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 37/50
 
@@ -3785,9 +3794,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Inclination" differs from audit Current EN "His risk appetite is known."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Tendency, inclination • Slope
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 37/50
 
@@ -3815,9 +3824,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Inclination" differs from audit Current EN "His risk appetite is known."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: die Neigung is not simply interest. Neigung more often shows a persistent tendency or a slope.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 37/50
 
@@ -3845,9 +3854,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Inclination" differs from audit Current EN "His risk appetite is known."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: tendency
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 38/50
 
@@ -3875,9 +3884,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To annoy" differs from audit Current EN "Main idea: nerven is colloquial meaning to annoy or get on one's nerves."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: nerven is a colloquial verb meaning to annoy or get on one's nerves.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 38/50
 
@@ -3905,9 +3914,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To annoy" differs from audit Current EN "Main idea: nerven is colloquial meaning to annoy or get on one's nerves."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: nerven is colloquial. In a more formal situation, stören is often safer.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 38/50
 
@@ -3935,9 +3944,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To annoy" differs from audit Current EN "Main idea: nerven is colloquial meaning to annoy or get on one's nerves."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: to anger
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 39/50
 
@@ -3965,9 +3974,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Not drunk" differs from audit Current EN "Main idea: nüchtern means not intoxicated or in a clear mind."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: nüchtern means not intoxicated or clear-headed.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 39/50
 
@@ -3995,9 +4004,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Not drunk" differs from audit Current EN "Main idea: nüchtern means not intoxicated or in a clear mind."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: She assesses the situation matter-of-factly.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 39/50
 
@@ -4025,9 +4034,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Not drunk" differs from audit Current EN "Main idea: nüchtern means not intoxicated or in a clear mind."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Alcohol, a medical examination, or a clear-headed view: nüchtern.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/50
 
@@ -4055,9 +4064,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Object" differs from audit Current EN "In grammar, Objekt means complement."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In grammar, Objekt means object.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/50
 
@@ -4085,9 +4094,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Object" differs from audit Current EN "In grammar, Objekt means complement."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In a sentence it is an object.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/50
 
@@ -4115,9 +4124,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Object" differs from audit Current EN "In grammar, Objekt means complement."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Object • Object in grammar
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/50
 
@@ -4145,9 +4154,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Object" differs from audit Current EN "In grammar, Objekt means complement."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Object or item
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/50
 
@@ -4175,9 +4184,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Object" differs from audit Current EN "In grammar, Objekt means complement."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In everyday life, an object can also be a building or a target being observed; in grammar it is an object.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/50
 
@@ -4205,9 +4214,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Object" differs from audit Current EN "In grammar, Objekt means complement."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: object
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 40/50
 
@@ -4235,9 +4244,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Object" differs from audit Current EN "In grammar, Objekt means complement."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: object
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 41/50
 
@@ -5396,25 +5405,29 @@ Discrepancy: none
 ---
 ---
 ---
+---
 
 ## Owner review progress
 
-EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 3/5 COMPLETE
+EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 4/5 COMPLETE
 
-Cards/audit entries reviewed (block 3): 10/10
+Cards/audit entries reviewed (block 4): 10/10
 LABOT: 10
 NELABOT: 0
-Findings owner-resolved (block 3): 34
-PENDING remaining cards 21–30: 0
+Findings owner-resolved (block 4): 47
+PENDING remaining cards 31–40: 0
 
-Cumulative cards/audit entries reviewed: 30/50
-Cumulative LABOT: 30
+Cumulative cards/audit entries reviewed: 40/50
+Cumulative LABOT: 40
 Cumulative NELABOT: 0
-Cumulative findings owner-resolved: 93
+Cumulative findings owner-resolved: 140
 
-Associated top-level repairs recorded (blocks 1–2):
+Associated top-level repairs recorded:
 - Hupe — Horn • Horn → Horn
 - knapp — Needy → Barely enough
+- Maß — Mayor → Measure
+- nachdem — After when → After
+- neigen — To strive → To be inclined; to lean
 
 Kunde metadata:
 Audit IDs: b1-kunde-2 + b1-kunde
@@ -5426,5 +5439,5 @@ Expected unique production cards (cards 19–20): 1
 Production changes: 0
 DE READ-ONLY: PASS
 
-Next: HIGH #12 OWNER REVIEW — BLOCK 4/5 (cards 31–40)
+Next: HIGH #12 OWNER REVIEW — BLOCK 5/5 (cards 41–50)
 HIGH REPAIR #12 not started.
