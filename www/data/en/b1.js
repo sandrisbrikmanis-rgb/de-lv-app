@@ -10301,7 +10301,7 @@ const B1_WORDS = [
       "id": "b1-bildschirm",
       "layout": "standardStudy",
       "translation": "Screen",
-      "explanation": "Main idea: Bildschirm is a screen—the display surface of a computer monitor, phone, tablet, or television. Plural: d",
+      "explanation": "Main idea: Bildschirm is a screen—the display surface of a computer monitor, phone, tablet, or television. Plural: die Bildschirme.",
       "examples": [
         {
           "de": "Der Bildschirm ist kaputt.",
@@ -17203,7 +17203,7 @@ const B1_WORDS = [
       "id": "b1-einführung",
       "layout": "standardStudy",
       "translation": "Introduction",
-      "explanation": "Main idea: Einführung means introduction or implementation. In a text or course, it is an introduction; for a new sy",
+      "explanation": "Main idea: Einführung means introduction or implementation. In a text or course, it is an introduction; for a new system, rule, or product, it can mean implementation.",
       "examples": [
         {
           "de": "Die Einführung in das Thema war klar.",
@@ -17851,7 +17851,7 @@ const B1_WORDS = [
       "id": "b1-einheit",
       "layout": "standardStudy",
       "translation": "Unit",
-      "explanation": "Main idea: Einheit means a unit. It can be a unit of study, a technical unit, or a unit of measurement depending on",
+      "explanation": "Main idea: Einheit means a unit. It can be a unit of study, a technical unit, or a unit of measurement depending on the context.",
       "examples": [
         {
           "de": "Die nächste Einheit beginnt morgen.",
@@ -23235,7 +23235,7 @@ const B1_WORDS = [
       "id": "b1-folge",
       "layout": "standardStudy",
       "translation": "Consequences",
-      "explanation": "Main Idea: Folge most often means a consequence or result that follows an event. In a media context, Folge means an",
+      "explanation": "Main Idea: Folge most often means a consequence or result that follows an event. In a media context, Folge means an episode of a series, programme or podcast.",
       "examples": [
         {
           "de": "Das war die Folge des Unfalls.",
@@ -25941,7 +25941,7 @@ const B1_WORDS = [
       "id": "b1-geschlecht",
       "layout": "standardStudy",
       "translation": "Gender",
-      "explanation": "Main idea: Geschlecht means gender in humans or animals. In the grammar of the language, it means gender, such as ma",
+      "explanation": "Main idea: Geschlecht means gender in humans or animals. In the grammar of the language, it means gender, such as masculine, feminine, or neuter gender.",
       "examples": [
         {
           "de": "Bitte geben Sie Ihr Geschlecht an.",
@@ -26360,7 +26360,7 @@ const B1_WORDS = [
       "id": "b1-gewinn",
       "layout": "standardStudy",
       "translation": "Profit",
-      "explanation": "Main idea: Gewinn means profit - money left over after costs. In games, contests, and lotteries, it means a win or a",
+      "explanation": "Main idea: Gewinn means profit - money left over after costs. In games, contests, and lotteries, it means a win or a prize.",
       "examples": [
         {
           "de": "Der Gewinn der Firma ist gestiegen.",
@@ -27379,7 +27379,7 @@ const B1_WORDS = [
       "id": "b1-griff",
       "layout": "standardStudy",
       "translation": "The handle",
-      "explanation": "Main idea: Griff is most often a handle - a place behind which an object is grasped. In sports or movement, it can a",
+      "explanation": "Main idea: Griff is most often a handle - a place behind which an object is grasped. In sports or movement, it can also be a grip.",
       "examples": [
         {
           "de": "Der Griff der Tür ist locker.",
@@ -32918,7 +32918,7 @@ const B1_WORDS = [
       "id": "b1-kern",
       "layout": "standardStudy",
       "translation": "Core",
-      "explanation": "Main Idea: Kern means kernel, seed/seed, or essence of a thing. It is used both for fruits and figuratively for the",
+      "explanation": "Main Idea: Kern means kernel, seed/seed, or essence of a thing. It is used both for fruits and figuratively for the most important idea.",
       "examples": [
         {
           "de": "Der Apfel hat viele Kerne.",
@@ -33110,7 +33110,7 @@ const B1_WORDS = [
       "id": "b1-kiefer",
       "layout": "standardStudy",
       "translation": "Jaw",
-      "explanation": "Main idea: Kiefer means jaw. With another article, Kiefer means pine, so the article is especially important for",
+      "explanation": "Main idea: Kiefer means jaw. With another article, die Kiefer means pine, so the article is especially important for this card.",
       "examples": [
         {
           "de": "Mein Kiefer tut weh.",
@@ -36909,7 +36909,7 @@ const B1_WORDS = [
       "id": "b1-kastanie",
       "layout": "standardStudy",
       "translation": "Chestnut",
-      "explanation": "Main idea: Kastanie can mean both the chestnut tree and the chestnut fruit itself. The context shows which meaning i",
+      "explanation": "Main idea: Kastanie can mean both the chestnut tree and the chestnut fruit itself. The context shows which meaning is intended.",
       "examples": [
         {
           "de": "Vor dem Haus steht eine Kastanie.",
@@ -37876,7 +37876,7 @@ const B1_WORDS = [
       "id": "b1-leistung",
       "layout": "standardStudy",
       "translation": "An achievement",
-      "explanation": "Main idea: Leistung means performance, accomplishment or achievement. In engineering, it means power, for example fo",
+      "explanation": "Main idea: Leistung means performance, accomplishment or achievement. In engineering, it means power, for example for a motor or a device.",
       "examples": [
         {
           "de": "Das war eine starke Leistung.",
@@ -38391,7 +38391,7 @@ const B1_WORDS = [
       "id": "b1-los",
       "layout": "standardStudy",
       "translation": "Lot",
-      "explanation": "Main idea: Los is a lottery ticket or lot that is drawn or bought. In a more serious, figurative language, it can al",
+      "explanation": "Main idea: Los is a lottery ticket or lot that is drawn or bought. In a more serious, figurative language, it can also mean the fate of a person.",
       "examples": [
         {
           "de": "Jeder Teilnehmer zieht ein Los.",
@@ -49003,7 +49003,7 @@ const B1_WORDS = [
       "id": "b1-schnitt",
       "layout": "standardStudy",
       "translation": "Cut",
-      "explanation": "Main idea: Schnitt is a cut or the result of cutting. Depending on the field, this can be a cut, a film montage, or",
+      "explanation": "Main idea: Schnitt is a cut or the result of cutting. Depending on the field, this can be a cut, a film montage, or an average.",
       "examples": [
         {
           "de": "Der Schnitt an der Hand ist tief.",
@@ -51804,7 +51804,7 @@ const B1_WORDS = [
       "id": "b1-spitze",
       "layout": "standardStudy",
       "translation": "Tip; peak",
-      "explanation": "Main idea: Spitze is a pointed end or highest point. In a figurative sense, it can be leadership or a position at th",
+      "explanation": "Main idea: Spitze is a pointed end or highest point. In a figurative sense, it can be leadership or a position at the top.",
       "examples": [
         {
           "de": "Die Spitze des Bleistifts ist abgebrochen.",

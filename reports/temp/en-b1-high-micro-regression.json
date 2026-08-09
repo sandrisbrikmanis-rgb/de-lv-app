@@ -1,9 +1,13 @@
 {
-  "generatedAt": "2026-08-09T12:58:57.995Z",
-  "status": "COMPLETE — FAIL",
-  "scope": "214 OWNER-approved regression repairs",
-  "microRegressionResult": "FAIL — FOLLOW-UP REPAIR REQUIRED",
+  "generatedAt": "2026-08-09T13:03:10.999Z",
+  "status": "FOLLOW-UP REPAIR COMPLETE — MICRO #2 NOT STARTED",
+  "scope": "214 OWNER-approved regression repairs + 16 follow-up repairs",
+  "microRegressionResult": "FAIL — FOLLOW-UP REPAIR REQUIRED (original audit)",
+  "followUpRepair": "COMPLETE",
+  "followUpRepairsApplied": 16,
   "findingsCount": 16,
   "outOfScopeRealIssues": 26,
-  "highCycleStatus": "NOT CLOSED"
+  "outOfScopeValidatorIssuesRemaining": 25,
+  "highCycleStatus": "NOT CLOSED",
+  "microRegression2": "NOT STARTED"
 }

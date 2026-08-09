@@ -706,7 +706,12 @@ function validateFinding(finding, entry, baselineEntry, repairMappings, preRepai
 
   // GRAMMAR
   if (finding.category === "GRAMMAR") {
-    const text = finding.currentProduction || findTriggeringLearnerString(entry);
+    const text =
+      finding.lunaRegressionRecommended ||
+      formatVal(getAccentOrFieldValue(entry, "learner-facing")) ||
+      finding.currentProduction ||
+      findTriggeringLearnerString(entry) ||
+      "";
     if (isBilingualGermanArticleFalsePositive(text)) {
       return {
         ...base,

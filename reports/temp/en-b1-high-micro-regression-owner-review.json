@@ -1,0 +1,172 @@
+{
+  "generatedAt": "2026-08-09T13:03:10.999Z",
+  "scope": "16 micro-regression follow-up findings",
+  "reviewed": 16,
+  "labot": 16,
+  "nelabot": 0,
+  "pending": 0,
+  "truncationRootCause": "Regression validation used truncated currentProduction (~120-char slice from audit JSON) for grammarValidatedFinal() instead of full lunaRegressionRecommended or live production text; OWNER FINAL serialized truncated strings into repair log.",
+  "toolingFix": "generate-en-b1-high-regression-validation.js now prefers lunaRegressionRecommended for grammar validatedFinal; micro-regression repair uses strict exact precondition matching.",
+  "findings": [
+    {
+      "microFindingId": 1,
+      "cardId": "b1-kern",
+      "productionId": "b1-kern",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main Idea: Kern means kernel, seed/seed, or essence of a thing. It is used both for fruits and figuratively for the",
+      "ownerFinalEn": "Main Idea: Kern means kernel, seed/seed, or essence of a thing. It is used both for fruits and figuratively for the most important idea.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 2,
+      "cardId": "b1-kastanie",
+      "productionId": "b1-kastanie",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Kastanie can mean both the chestnut tree and the chestnut fruit itself. The context shows which meaning i",
+      "ownerFinalEn": "Main idea: Kastanie can mean both the chestnut tree and the chestnut fruit itself. The context shows which meaning is intended.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 3,
+      "cardId": "b1-bildschirm",
+      "productionId": "b1-bildschirm",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Bildschirm is a screen—the display surface of a computer monitor, phone, tablet, or television. Plural: d",
+      "ownerFinalEn": "Main idea: Bildschirm is a screen—the display surface of a computer monitor, phone, tablet, or television. Plural: die Bildschirme.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 4,
+      "cardId": "b1-einführung",
+      "productionId": "b1-einführung",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Einführung means introduction or implementation. In a text or course, it is an introduction; for a new sy",
+      "ownerFinalEn": "Main idea: Einführung means introduction or implementation. In a text or course, it is an introduction; for a new system, rule, or product, it can mean implementation.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 5,
+      "cardId": "b1-einheit",
+      "productionId": "b1-einheit",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Einheit means a unit. It can be a unit of study, a technical unit, or a unit of measurement depending on",
+      "ownerFinalEn": "Main idea: Einheit means a unit. It can be a unit of study, a technical unit, or a unit of measurement depending on the context.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 6,
+      "cardId": "b1-folge",
+      "productionId": "b1-folge",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main Idea: Folge most often means a consequence or result that follows an event. In a media context, Folge means an",
+      "ownerFinalEn": "Main Idea: Folge most often means a consequence or result that follows an event. In a media context, Folge means an episode of a series, programme or podcast.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 7,
+      "cardId": "b1-geschlecht",
+      "productionId": "b1-geschlecht",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Geschlecht means gender in humans or animals. In the grammar of the language, it means gender, such as ma",
+      "ownerFinalEn": "Main idea: Geschlecht means gender in humans or animals. In the grammar of the language, it means gender, such as masculine, feminine, or neuter gender.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 8,
+      "cardId": "b1-gewinn",
+      "productionId": "b1-gewinn",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Gewinn means profit - money left over after costs. In games, contests, and lotteries, it means a win or a",
+      "ownerFinalEn": "Main idea: Gewinn means profit - money left over after costs. In games, contests, and lotteries, it means a win or a prize.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 9,
+      "cardId": "b1-griff",
+      "productionId": "b1-griff",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Griff is most often a handle - a place behind which an object is grasped. In sports or movement, it can a",
+      "ownerFinalEn": "Main idea: Griff is most often a handle - a place behind which an object is grasped. In sports or movement, it can also be a grip.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 10,
+      "cardId": "b1-kiefer",
+      "productionId": "b1-kiefer",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Kiefer means jaw. With another article, Kiefer means pine, so the article is especially important for",
+      "ownerFinalEn": "Main idea: Kiefer means jaw. With another article, die Kiefer means pine, so the article is especially important for this card.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 11,
+      "cardId": "b1-leistung",
+      "productionId": "b1-leistung",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Leistung means performance, accomplishment or achievement. In engineering, it means power, for example fo",
+      "ownerFinalEn": "Main idea: Leistung means performance, accomplishment or achievement. In engineering, it means power, for example for a motor or a device.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 12,
+      "cardId": "b1-los",
+      "productionId": "b1-los",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Los is a lottery ticket or lot that is drawn or bought. In a more serious, figurative language, it can al",
+      "ownerFinalEn": "Main idea: Los is a lottery ticket or lot that is drawn or bought. In a more serious, figurative language, it can also mean the fate of a person.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 13,
+      "cardId": "b1-schnitt",
+      "productionId": "b1-schnitt",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Schnitt is a cut or the result of cutting. Depending on the field, this can be a cut, a film montage, or",
+      "ownerFinalEn": "Main idea: Schnitt is a cut or the result of cutting. Depending on the field, this can be a cut, a film montage, or an average.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 14,
+      "cardId": "b1-spitze",
+      "productionId": "b1-spitze",
+      "ownerVerdict": "LABOT",
+      "repairField": "study.explanation",
+      "expectedCurrent": "Main idea: Spitze is a pointed end or highest point. In a figurative sense, it can be leadership or a position at th",
+      "ownerFinalEn": "Main idea: Spitze is a pointed end or highest point. In a figurative sense, it can be leadership or a position at the top.",
+      "action": "REPLACE_EXPLANATION"
+    },
+    {
+      "microFindingId": 15,
+      "cardId": "b1-folge",
+      "productionId": "b1-folge",
+      "ownerVerdict": "LABOT",
+      "repairField": "sectionAccents.explanation.purple[1]",
+      "expectedCurrent": "series",
+      "ownerFinalEn": "series",
+      "action": "KEEP_ACCENT_VERIFY"
+    },
+    {
+      "microFindingId": 16,
+      "cardId": "b1-griff",
+      "productionId": "b1-griff",
+      "ownerVerdict": "LABOT",
+      "repairField": "sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "grip",
+      "ownerFinalEn": "grip",
+      "action": "KEEP_ACCENT_VERIFY"
+    }
+  ]
+}
