@@ -3875,7 +3875,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-empfehlen",
       "layout": "minimalStudy",
-      "translation": "Be recommended",
+      "translation": "Be advisable • Recommend itself",
       "rektion": "zu + the dative",
       "explanation": "Sich empfehlen takes the fixed preposition zu + the dative.",
       "forms": "zu + the dative",
@@ -4971,7 +4971,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich fassen",
-    "lv": "To seise • To receive • To restrain",
+    "lv": "Compose oneself • Regain composure",
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
@@ -6263,7 +6263,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich gestalten",
-    "lv": "To form into",
+    "lv": "Take shape • Develop",
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
@@ -7281,7 +7281,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich herausbilden",
-    "lv": "To form into",
+    "lv": "Develop • Emerge",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausbilden",
@@ -15090,7 +15090,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Sie fordert mehr Geld.",
-          "lv": "She asks for more money."
+          "lv": "She demands more money."
         },
         {
           "de": "Wir fordern mehr Transparenz.",
@@ -15106,12 +15106,12 @@ const B2_WORDS = [
         },
         {
           "de": "fordern",
-          "lv": "To demand • fördern"
+          "lv": "To demand • To promote"
         }
       ],
       "tip": [
         "Demand money, rights, changes, or obligations - an active claim.",
-        "Used by fordern when the context fits this meaning."
+        "Use fordern when the context fits this meaning."
       ],
       "important": [
         "fordern = demand / require (without ö).",

@@ -1,0 +1,1464 @@
+{
+  "uniqueCards": 40,
+  "cards": [
+    {
+      "cardId": "b2-sich-bemaechtigen",
+      "de": "sich bemächtigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Seize • Take possession of",
+      "lvMainSource": "sagrābt • saņemt savā varā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Seise • Take possession of",
+          "currentEn": "Seize • Take possession of"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Seize • Take possession of",
+        "explanation": "Sich bemächtigen is used with a genitive object and no preposition.",
+        "rektion": "+ genitive",
+        "forms": "+ genitive",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-bestürzt-218",
+      "de": "bestürzt",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Dismayed • Shocked • Distressed",
+      "lvMainSource": "pārsteigts • samulsis • apmulsis • apjucis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Dismayed • Confused • Perplexed • Bewildered",
+          "currentEn": "Dismayed • Shocked • Distressed"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "b2-sich-betaetigen",
+      "de": "sich betätigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Engage in • Participate in",
+      "lvMainSource": "darboties • piedalīties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Operate • Participate",
+          "currentEn": "Engage in • Participate in"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Engage in • Participate in",
+        "explanation": "Sich betätigen takes the fixed preposition in + dative.",
+        "rektion": "in + dative",
+        "forms": "in + dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-durchbringen-471",
+      "de": "durchbringen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Get through • Support • Nurse through • Waste",
+      "lvMainSource": "izdabūt cauri • iznest cauri • panākt • izārstēt • izšķērdēt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Get through • Get passed • Support • Nurse through • Waste",
+          "currentEn": "Get through • Support • Nurse through • Waste"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "b2-sich-empfehlen",
+      "de": "sich empfehlen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Be recommended",
+      "lvMainSource": "būt ieteicamam",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Be recommended",
+          "currentEn": "Be advisable • Recommend itself"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Be advisable • Recommend itself",
+        "explanation": "Sich empfehlen takes the fixed preposition zu + the dative.",
+        "rektion": "zu + the dative",
+        "forms": "zu + the dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-empoeren",
+      "de": "sich empören",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Be outraged • Be indignant",
+      "lvMainSource": "sašust • sacelties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Get angry • Revolt",
+          "currentEn": "Be outraged • Be indignant"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Be outraged • Be indignant",
+        "explanation": "Sich empören takes the fixed preposition über + the accusative.",
+        "rektion": "über + the accusative",
+        "forms": "über + the accusative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-entledigen",
+      "de": "sich entledigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Get rid of",
+      "lvMainSource": "atbrīvoties • tikt vaļā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Get rid of • Get rid of",
+          "currentEn": "Get rid of"
+        },
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Get rid of • Get rid of",
+          "currentEn": "Get rid of"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Get rid of",
+        "explanation": "Sich entledigen is used with a genitive object and no preposition.",
+        "rektion": "+ genitive",
+        "forms": "+ genitive",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-entruesten",
+      "de": "sich entrüsten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Be outraged • Be indignant",
+      "lvMainSource": "sašust • sadumpoties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Get angry • Revolt",
+          "currentEn": "Be outraged • Be indignant"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Be outraged • Be indignant",
+        "explanation": "Sich entrüsten takes the fixed preposition über + the accusative.",
+        "rektion": "über + the accusative",
+        "forms": "über + the accusative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-entsinnen",
+      "de": "sich entsinnen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To remember",
+      "lvMainSource": "atminēties • atcerēties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To remember • To remember",
+          "currentEn": "To remember"
+        },
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "To remember • To remember",
+          "currentEn": "To remember"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "To remember",
+        "explanation": "Sich entsinnen is used with a genitive object and no preposition, for example: Ich entsinne mich eines Fehlers.",
+        "rektion": "+ genitive",
+        "forms": "+ genitive",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-erbarmen",
+      "de": "sich erbarmen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To have mercy",
+      "lvMainSource": "apžēloties • iežēloties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To have mercy • To have mercy",
+          "currentEn": "To have mercy"
+        },
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "To have mercy • To have mercy",
+          "currentEn": "To have mercy"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "To have mercy",
+        "explanation": "Sich erbarmen takes the fixed preposition über + the accusative.",
+        "rektion": "über + the accusative",
+        "forms": "über + the accusative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-erregen",
+      "de": "sich erregen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Get worked up about",
+      "lvMainSource": "uztraukties par",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Worry about",
+          "currentEn": "Get worked up about"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Get worked up about",
+        "explanation": "Sich erregen requires the preposition über + the accusative",
+        "rektion": "über + the accusative",
+        "forms": "über + the accusative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-erweisen",
+      "de": "sich erweisen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Turn out to be",
+      "lvMainSource": "izrādīties par",
+      "changedFields": [
+        {
+          "fieldPath": "study.rektion",
+          "baselineEn": "als + the accusative",
+          "currentEn": "als + the nominative"
+        },
+        {
+          "fieldPath": "study.explanation",
+          "baselineEn": "Sich erweisen requires the preposition als + the accusative",
+          "currentEn": "Sich erweisen is followed by als + the nominative."
+        },
+        {
+          "fieldPath": "study.forms",
+          "baselineEn": "als + the accusative",
+          "currentEn": "als + the nominative"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Turn out to be",
+        "explanation": "Sich erweisen is followed by als + the nominative.",
+        "rektion": "als + the nominative",
+        "forms": "als + the nominative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-fassen",
+      "de": "sich fassen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Compose oneself • Regain composure",
+      "lvMainSource": "sagrābt • saņemties • savaldīties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To seise • To receive • To restrain",
+          "currentEn": "Compose oneself • Regain composure"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Compose oneself",
+        "explanation": "Sich fassen requires the fixed preposition an + dative.",
+        "rektion": "an + dative",
+        "forms": "an + dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-Fräser-829",
+      "de": "Fräser",
+      "de_article": "der",
+      "de_plural": "die Fräser",
+      "enMain": "Milling operator • Milling cutter",
+      "lvMainSource": "frēzētājs • frēze",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Milling machine • Milling cutter",
+          "currentEn": "Milling operator • Milling cutter"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "b2-sich-fuegen",
+      "de": "sich fügen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Submit • Comply",
+      "lvMainSource": "pielāgoties • pakļauties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Adapt • Obey",
+          "currentEn": "Submit • Comply"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Submit • Comply",
+        "explanation": "Sich fügen requires the preposition in + the accusative",
+        "rektion": "in + the accusative",
+        "forms": "in + the accusative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-genieren",
+      "de": "sich genieren",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To feel embarrassed",
+      "lvMainSource": "kaunēties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To be ashamed",
+          "currentEn": "To feel embarrassed"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "To feel embarrassed",
+        "explanation": "Sich genieren requires the preposition vor + dative",
+        "rektion": "vor + dative",
+        "forms": "vor + dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-gestalten",
+      "de": "sich gestalten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Take shape • Develop",
+      "lvMainSource": "veidoties par",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To form into",
+          "currentEn": "Take shape • Develop"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Develop • Take shape",
+        "explanation": "Sich gestalten requires the fixed preposition zu + dative.",
+        "rektion": "zu + dative",
+        "forms": "zu + the dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-Gewissheit-980",
+      "de": "Gewissheit",
+      "de_article": "die",
+      "de_plural": "die Gewissheiten",
+      "enMain": "Certainty • Assurance",
+      "lvMainSource": "skaidrība • drošība • noteiktība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Certainty • Assurance • Definiteness",
+          "currentEn": "Certainty • Assurance"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "b2-Güte-1048",
+      "de": "Güte",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Kindness • Quality • Goodness",
+      "lvMainSource": "labsirdība • kvalitāte • labums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Kindness • Quality",
+          "currentEn": "Kindness • Quality • Goodness"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "b2-haube",
+      "de": "Haube",
+      "de_article": "die",
+      "de_plural": "die Hauben",
+      "enMain": "Cap • Hood",
+      "lvMainSource": "cepurīte • pārsegs",
+      "changedFields": [
+        {
+          "fieldPath": "study.examples[5].lv",
+          "baselineEn": "Put the lid on the pot.",
+          "currentEn": "Put the lid on the pot as a cover."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Cap • Hood",
+        "explanation": [
+          "Main idea: die Haube can mean head cap/hood or hood/cover - context determines the meaning.",
+          "On the head: die Haube = cap, hood or author's technique in a specific context (z. B. Nonne mit Haube).",
+          "On the car: die Motorhaube or einfach die Haube = bonnet.",
+          "In the kitchen: die Dunsthaube = hood above the stove. In technology: a hood or cover over a device."
+        ],
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Sie trägt eine warme Haube.",
+            "en": "She wears a warm hat."
+          },
+          {
+            "de": "Die Nonne trägt eine schwarze Haube.",
+            "en": "The nun wears a black hood."
+          },
+          {
+            "de": "Er öffnet die Haube des Autos.",
+            "en": "He opens the hood of the car."
+          },
+          {
+            "de": "Die Motorhaube ist kaputt.",
+            "en": "The bonnet is broken."
+          },
+          {
+            "de": "Über dem Herd hängt eine Dunsthaube.",
+            "en": "An extractor hood is attached above the stove."
+          },
+          {
+            "de": "Setz den Deckel als Haube auf den Topf.",
+            "en": "Put the lid on the pot as a cover."
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "Talking about head, nun, hat → cap / hood.",
+          "It's about a car, engine → hood.",
+          "We are talking about a stove, appliance → hood or hood."
+        ],
+        "important": [
+          "die Haube = cap/hood OR hood OR hood/bonnet - depending on the context.",
+          "Compounds help: Motorhaube (car), Dunstaube (kitchen)."
+        ]
+      }
+    },
+    {
+      "cardId": "b2-sich-herausbilden",
+      "de": "sich herausbilden",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Develop • Emerge",
+      "lvMainSource": "izveidoties par",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To form into",
+          "currentEn": "Develop • Emerge"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Develop • Emerge",
+        "explanation": "Sich herausbilden requires the fixed preposition zu + dative.",
+        "rektion": "zu + dative",
+        "forms": "zu + the dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-heraushalten",
+      "de": "sich heraushalten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Stay out of",
+      "lvMainSource": "turēties nost no",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Keep away from",
+          "currentEn": "Stay out of"
+        },
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Keep away from",
+          "currentEn": "Stay out of"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Stay out of",
+        "explanation": "Sich heraushalten is used with aus + the dative.",
+        "rektion": "aus + the dative",
+        "forms": "aus + the dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-hoch-study",
+      "de": "Hoch",
+      "de_article": "das",
+      "de_plural": "die Hochs",
+      "enMain": "Toast \"long live!\"",
+      "lvMainSource": "tosts “lai dzīvo!”",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "A toast (\"long live!\")",
+          "currentEn": "Toast/cheer (\"long live!\") • High-pressure system"
+        },
+        {
+          "fieldPath": "study.examples[1].lv",
+          "baselineEn": "Long may you live!",
+          "currentEn": "Here's to you!"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Toast/cheer (\"long live!\") • High-pressure system",
+        "explanation": [
+          "Main idea: das Hoch with a capital letter and the article das is a noun - a celebratory cry/toast (Ein Hoch auf...! = Long live...!) or in the weather - an area of ​​high pressure.",
+          "Lower case hoch is an adjective - high (der Berg ist hoch).",
+          "The phrase ein Hoch ausbringen means to raise a toast.",
+          "In weather, das Hoch means an anticyclone, an area of ​​high air pressure (opposite: das Tief)."
+        ],
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
+            "en": "We toast the newlyweds."
+          },
+          {
+            "de": "Ein Hoch auf dich!",
+            "en": "Here's to you!"
+          },
+          {
+            "de": "Morgen kommt ein Hoch.",
+            "en": "An anticyclone (high pressure) is expected tomorrow."
+          },
+          {
+            "de": "Der Berg ist sehr hoch.",
+            "en": "The mountain is very high."
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "das Hoch with a capital letter - a celebratory cry or an anticyclone in weather news.",
+          "lower case hoch - high (adjective)."
+        ],
+        "important": [
+          "das Hoch = toast (\"long live!\") OR anticyclone (weather) - noun.",
+          "hoch = high — adjective, without article.",
+          "Contrast in weather: das Hoch ↔ das Tief."
+        ]
+      }
+    },
+    {
+      "cardId": "b2-hochwasser",
+      "de": "Hochwasser",
+      "de_article": "das",
+      "de_plural": "die Hochwasser",
+      "enMain": "Flood • High water level",
+      "lvMainSource": "plūdi • augsts ūdens līmenis",
+      "changedFields": [
+        {
+          "fieldPath": "study.comparison[1].meaning",
+          "baselineEn": "High water / flooding",
+          "currentEn": "Flooding • Inundation"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Flood • High water level",
+        "explanation": "Main idea: das Hochwasser means a flood or a very high water level in a river, lake or sea. Plural: die Hochwasser. Often used in press and warnings.",
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Nach dem Regen gibt es Hochwasser.",
+            "en": "After the rain there is a flood."
+          },
+          {
+            "de": "Das Hochwasser bedroht die Stadt.",
+            "en": "High water levels threaten the city."
+          },
+          {
+            "de": "Die Behörden warnen vor Hochwasser.",
+            "en": "Authorities warn of floods."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "das Hochwasser",
+            "meaning": "Flood • High water level",
+            "example": "Es gibt Hochwasser. = There is a flood."
+          },
+          {
+            "word": "die Überschwemmung",
+            "meaning": "Flooding • Inundation",
+            "example": "Die Überschwemmung zerstörte Häuser. = Floods destroyed houses."
+          },
+          {
+            "word": "der Pegel",
+            "meaning": "Water level",
+            "example": "Der Pegel steigt. = The water level is rising."
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": "Hoch = high, Wasser = water. Hochwasser = high water level, often meaning flood."
+            }
+          ]
+        },
+        "important": {
+          "text": "das Hochwasser = flood or high water level. Plural: die Hochwasser."
+        }
+      }
+    },
+    {
+      "cardId": "b2-nachträglich-1357",
+      "de": "nachträglich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Subsequent • Additional • Later",
+      "lvMainSource": "vēlāks • papildu • vēlāk • piedevām",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Subsequent • Additional • Retrospective",
+          "currentEn": "Subsequent • Additional • Later"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "b2-namens-1361",
+      "de": "namens",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "In the name of • On behalf of",
+      "lvMainSource": "vārdā • uzvārdā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "In the name of • By the name of",
+          "currentEn": "In the name of • On behalf of"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "b2-neuerdings-1374",
+      "de": "neuerdings",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Recently • Lately • Of late",
+      "lvMainSource": "nesen • šais dienās • no jauna • atkal",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Recently • Lately • Nowadays",
+          "currentEn": "Recently • Lately • Of late"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "de": "sich revanchieren",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Pay back • Take revenge",
+      "lvMainSource": "atmaksāt • atriebties",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Pay back • Take revenge",
+          "currentEn": "Return the favour • Take revenge"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Return the favour • Take revenge",
+        "explanation": "Sich revanchieren requires the fixed preposition bei + dative.",
+        "rektion": "bei + dative",
+        "forms": "bei + dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-scheiden-1569",
+      "de": "scheiden",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To separate • To divide • To divorce • To get divorced • To split up • To part",
+      "lvMainSource": "[at]šķirt • atdalīt • šķirt • sich sch. lassen • šķirties • izšķirties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To separate • To divide • To divorce • To get divorced • To split up • To decide",
+          "currentEn": "To separate • To divide • To divorce • To get divorced • To split up • To part"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "b2-sofern",
+      "de": "sofern",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "If • Provided that",
+      "lvMainSource": "ja • ar noteikumu, ka",
+      "changedFields": [
+        {
+          "fieldPath": "study.explanation[0]",
+          "baselineEn": "Main idea: sofät is a conditional conjunction - means if/provided that.",
+          "currentEn": "Main idea: sofern is a conditional conjunction meaning \"if\" or \"provided that.\""
+        },
+        {
+          "fieldPath": "study.explanation[1]",
+          "baselineEn": "Sofè introduces a conditional auxiliary clause, similar to wenn, but is more formal and typical of the written style.",
+          "currentEn": "Sofern introduces a conditional subordinate clause, similar to wenn, but is more formal and typical of written style."
+        },
+        {
+          "fieldPath": "study.explanation[2]",
+          "baselineEn": "Soufen does NOT mean 'because' (causative conjunction) - it is da or weil in German.",
+          "currentEn": "Sofern does NOT mean \"because\" (a causal conjunction). The German equivalents are da or weil."
+        },
+        {
+          "fieldPath": "study.examples[3].lv",
+          "baselineEn": "Please be specific if possible.",
+          "currentEn": "If possible, please be punctual."
+        },
+        {
+          "fieldPath": "study.tip[1]",
+          "baselineEn": "'since' (cause) in German is da/weil, ne soufen.",
+          "currentEn": "\"Since\" (cause) is da or weil in German, not sofern."
+        },
+        {
+          "fieldPath": "study.important[0]",
+          "baselineEn": "if there is a conditional, not a causal connection.",
+          "currentEn": "It indicates a conditional, not a causal connection."
+        },
+        {
+          "fieldPath": "study.important[1]",
+          "baselineEn": "Incorrect: soufen = as → Correct: da/weil = as.",
+          "currentEn": "Incorrect: sofern = \"as\" → Correct: da/weil = \"as.\""
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "If • Provided that",
+        "explanation": [
+          "Main idea: sofern is a conditional conjunction meaning \"if\" or \"provided that.\"",
+          "Sofern introduces a conditional subordinate clause, similar to wenn, but is more formal and typical of written style.",
+          "Sofern does NOT mean \"because\" (a causal conjunction). The German equivalents are da or weil.",
+          "Commonly used in legal/formal texts (sofern nicht anders verfahrt = unless otherwise agreed)."
+        ],
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Ich komme, sofern ich Zeit habe.",
+            "en": "I will come if I have time."
+          },
+          {
+            "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
+            "en": "Unless otherwise agreed, the standard price applies."
+          },
+          {
+            "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
+            "en": "Provided the weather is good, we will go on a tour."
+          },
+          {
+            "de": "Sofern möglich, bitte pünktlich sein.",
+            "en": "If possible, please be punctual."
+          },
+          {
+            "de": "Er hilft, sofern er kann.",
+            "en": "He helps if he can."
+          },
+          {
+            "de": "Da es regnet, bleiben wir zu Hause.",
+            "en": "Since it's raining, we stay at home."
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "if/provided that (condition) - not to be confused with cause.",
+          "\"Since\" (cause) is da or weil in German, not sofern."
+        ],
+        "important": [
+          "It indicates a conditional, not a causal connection.",
+          "Incorrect: sofern = \"as\" → Correct: da/weil = \"as.\""
+        ]
+      }
+    },
+    {
+      "cardId": "b2-sich-versoehnen",
+      "de": "sich versöhnen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Reconcile with",
+      "lvMainSource": "samierināties ar",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Put up with",
+          "currentEn": "Reconcile with"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Reconcile with",
+        "explanation": "Sich versöhnen requires the fixed preposition mit + dative.",
+        "rektion": "mit + dative",
+        "forms": "mit + dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "de": "sich verwundern",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Be surprised by",
+      "lvMainSource": "brīnīties par",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Wonder about",
+          "currentEn": "Be surprised by"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Be surprised by",
+        "explanation": "Sich verwundern requires the fixed preposition über + the accusative.",
+        "rektion": "über + the accusative",
+        "forms": "über + the accusative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-sich-widersetzen",
+      "de": "sich widersetzen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Resist • Oppose",
+      "lvMainSource": "pretoties • stāties pretī",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Resist • Face",
+          "currentEn": "Resist • Oppose"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "Resist • Oppose",
+        "explanation": "Sich widersetzen takes a dative object.",
+        "rektion": "+ dative",
+        "forms": "+ dative",
+        "formsLabel": "Rection:",
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "b2-zuweisen",
+      "de": "zuweisen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Assign • Allocate",
+      "lvMainSource": "piešķirt • norīkot",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Assign • Assign",
+          "currentEn": "Assign • Allocate"
+        },
+        {
+          "fieldPath": "study.examples[2].lv",
+          "baselineEn": "He was assigned to another department.",
+          "currentEn": "She was assigned to another department."
+        },
+        {
+          "fieldPath": "study.comparison[2].meaning",
+          "baselineEn": "To assign",
+          "currentEn": "To divide"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Assign • Allocate",
+        "explanation": "Main idea: zuweisen means to officially assign or allocate a task, role, resource, or money to a specific person or department. Separable: weise ... zu.",
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Der Chef weist ihm eine neue Aufgabe zu.",
+            "en": "The boss gives him a new task."
+          },
+          {
+            "de": "Die Mittel wurden dem Projekt zugewiesen.",
+            "en": "Funds were allocated to the project."
+          },
+          {
+            "de": "Sie wurde einer anderen Abteilung zugewiesen.",
+            "en": "She was assigned to another department."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "zuweisen",
+            "meaning": "Assign • Assign",
+            "example": "Er weist die Aufgabe zu. = He assigns the task."
+          },
+          {
+            "word": "geben",
+            "meaning": "To give",
+            "example": "Er gibt mir die Arbeit. = He gives me a job."
+          },
+          {
+            "word": "verteilen",
+            "meaning": "To divide",
+            "example": "Er verteilt die Aufgaben. = He divides the tasks."
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": "zuweisen emphasizes formal assignment—in work, administration, projects."
+            }
+          ]
+        },
+        "important": {
+          "text": "zuweisen = to officially assign or allocate. Perfect: zugewiesen. Separable: weise ... zu."
+        }
+      }
+    },
+    {
+      "cardId": "b2-zuwider",
+      "de": "zuwider",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Against • Contrary to • Dislike",
+      "lvMainSource": "pret • pretēji • nepatikt",
+      "changedFields": [
+        {
+          "fieldPath": "study.examples[2].lv",
+          "baselineEn": "I don't like it / it makes me sad.",
+          "currentEn": "I don't like it / It goes against my grain."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Against • Contrary to • Be distasteful to",
+        "explanation": "Main idea: zuwider is a word with multiple functions. As a preposition + dative, it means \"against, contrary to\": mir zuwider. In the expressions jemandem zuwider sein/laufen, it means \"to be distasteful or objectionable to someone\". Do not confuse it with wider (against).",
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Er handelte mir zuwider.",
+            "en": "He acted against my will."
+          },
+          {
+            "de": "Sein Benehmen ist mir zuwider.",
+            "en": "I don't like his behaviour."
+          },
+          {
+            "de": "Das läuft mir zuwider.",
+            "en": "I don't like it / It goes against my grain."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "zuwider (+ Dat.)",
+            "meaning": "Against • Contrary",
+            "example": "mir zuwider = Against my will"
+          },
+          {
+            "word": "jemandem zuwider sein",
+            "meaning": "To be distasteful to someone",
+            "example": "Es ist mir zuwider. = I don't like it."
+          },
+          {
+            "word": "wider",
+            "meaning": "Against (preposition)",
+            "example": "wider den Willen = Against the will"
+          },
+          {
+            "word": "widersprechen",
+            "meaning": "Oppose • Disagree",
+            "example": "Ich widerspreche. = I object."
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": "Basic meaning: against / contrary to (mir zuwider). Idiomatically: jemandem zuwider sein/laufen = to be distasteful to someone."
+            }
+          ]
+        },
+        "important": {
+          "text": "zuwider + dative = against, contrary to. zuwider sein = to be distasteful to someone. It is not the same as wider."
+        }
+      }
+    },
+    {
+      "cardId": "b2-aendern",
+      "de": "ändern",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Change • Correct",
+      "lvMainSource": "mainīt • labot",
+      "changedFields": [
+        {
+          "fieldPath": "study.examples[3].lv",
+          "baselineEn": "I change the term.",
+          "currentEn": "I'm changing the appointment."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Change • Alter",
+        "explanation": [
+          "Main idea: To change a specific thing or information - plan, deadline, address, decision.",
+          "Ändern basically means: to fix or change a part.",
+          "Often describes: a specific thing.",
+          "Ändern is used when changing a plan, term, address or some detail."
+        ],
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Ich ändere den Termin.",
+            "en": "I change the deadline."
+          },
+          {
+            "de": "Kannst du die Adresse ändern?",
+            "en": "Can you change the address?"
+          },
+          {
+            "de": "Wir ändern unseren Plan.",
+            "en": "We change our plan."
+          },
+          {
+            "de": "Ich ändere den Termin.",
+            "en": "I'm changing the appointment."
+          },
+          {
+            "de": "ändern",
+            "en": "Change the part • Wechseln"
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "Change a specific matter or information - plan, deadline, address, decision.",
+          "Use ändern when the context fits this meaning."
+        ],
+        "important": [
+          "ändern = to change a specific thing (Term, Address, Plan).",
+          "Plan, term, address: ändern.",
+          "Change a specific matter or information - plan, deadline, address, decision."
+        ]
+      }
+    },
+    {
+      "cardId": "b2-bieten",
+      "de": "bieten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Offer • Provide",
+      "lvMainSource": "piedāvāt • sniegt",
+      "changedFields": [
+        {
+          "fieldPath": "study.tip[1]",
+          "baselineEn": "Use beet when the context fits this meaning.",
+          "currentEn": "Use bieten when the context fits this meaning."
+        },
+        {
+          "fieldPath": "study.important[0]",
+          "baselineEn": "bieten: Die Schule bietet Kurse. (indivisible)",
+          "currentEn": "bieten: Die Schule bietet Kurse. (not separable)"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Offer • Provide",
+        "explanation": [
+          "Main idea: Offer opportunities, courses, services, or benefits—that a place or programme provides.",
+          "Bieten mainly means: to give opportunity / benefit.",
+          "Often describes: what the place/programme provides.",
+          "Bieten mainly means: to provide an opportunity.",
+          "Often characterised by: more formal.",
+          "Bieten often describes what a place, programme or service provides (Die Schule bietet viele Kurse)."
+        ],
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Die Schule bietet viele Kurse.",
+            "en": "The school offers many courses."
+          },
+          {
+            "de": "Darf ich Ihnen etwas anbieten?",
+            "en": "Can I offer you something?"
+          },
+          {
+            "de": "Die Schule bietet viele Kurse.",
+            "en": "The school offers many courses."
+          },
+          {
+            "de": "Die App bietet Sicherheit.",
+            "en": "The app provides security."
+          },
+          {
+            "de": "bieten",
+            "en": "What something provides • Anbieten"
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "Offer opportunities, courses, services, or benefits—that the location or programme provides.",
+          "Use bieten when the context fits this meaning."
+        ],
+        "important": [
+          "bieten: Die Schule bietet Kurse. (not separable)",
+          "What the place/programme offers: bieten."
+        ]
+      }
+    },
+    {
+      "cardId": "b2-anbieten",
+      "de": "anbieten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To offer",
+      "lvMainSource": "piedāvāt",
+      "changedFields": [
+        {
+          "fieldPath": "study.important.text",
+          "baselineEn": "anbieten = to offer actively. Divisible: biete ... an. Perfect: angeboten.",
+          "currentEn": "anbieten = to offer actively. Separable: biete ... an. Perfect: angeboten."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "To offer",
+        "explanation": "Main idea: anbieten means to actively offer someone help, a drink, a job, or a service. Separable verb: ich biete an, er bietet an. It emphasises initiative on the part of the person making the offer.",
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Ich biete dir meine Hilfe an.",
+            "en": "I offer you my help."
+          },
+          {
+            "de": "Darf ich Ihnen etwas anbieten?",
+            "en": "Can I offer you something?"
+          },
+          {
+            "de": "Das Unternehmen bietet neue Stellen an.",
+            "en": "The company offers new jobs."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "anbieten",
+            "meaning": "Offer (active)",
+            "example": "Ich biete Hilfe an. = I offer help."
+          },
+          {
+            "word": "bieten",
+            "meaning": "Offer • Give",
+            "example": "Er bietet viel Geld. = He offers a lot of money."
+          },
+          {
+            "word": "vorschlagen",
+            "meaning": "Propose",
+            "example": "Ich schlage vor. = I propose."
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": "anbieten emphasizes that someone is actively offering something to a specific person: Ich biete dir ... an."
+            }
+          ]
+        },
+        "important": {
+          "text": "anbieten = to offer actively. Separable: biete ... an. Perfect: angeboten."
+        }
+      }
+    },
+    {
+      "cardId": "b2-fordern",
+      "de": "fordern",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Require • Require",
+      "lvMainSource": "pieprasīt • prasīt",
+      "changedFields": [
+        {
+          "fieldPath": "study.examples[0].lv",
+          "baselineEn": "She asks for more money.",
+          "currentEn": "She demands more money."
+        },
+        {
+          "fieldPath": "study.examples[4].lv",
+          "baselineEn": "To demand • fördern",
+          "currentEn": "To demand • To promote"
+        },
+        {
+          "fieldPath": "study.tip[1]",
+          "baselineEn": "Used by fordern when the context fits this meaning.",
+          "currentEn": "Use fordern when the context fits this meaning."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Demand • Request",
+        "explanation": [
+          "Main idea: Asking for money, rights, changes, or obligations—an active demand.",
+          "Fordern mainly means: to require / to require.",
+          "Often characterised by: active demand.",
+          "Fordern mainly means: to demand a standard.",
+          "Often characterised by: formal.",
+          "Fordern is used when someone is asking for money, rights, change or an obligation (Sie fordern mehr Geld)."
+        ],
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [
+          {
+            "de": "Sie fordert mehr Geld.",
+            "en": "She demands more money."
+          },
+          {
+            "de": "Wir fordern mehr Transparenz.",
+            "en": "We demand more transparency."
+          },
+          {
+            "de": "Sie fordert mehr Geld.",
+            "en": "She asks for more money."
+          },
+          {
+            "de": "Wir fordern mehr Sicherheit.",
+            "en": "We demand more security."
+          },
+          {
+            "de": "fordern",
+            "en": "To demand • To promote"
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "Demand money, rights, changes, or obligations - an active claim.",
+          "Use fordern when the context fits this meaning."
+        ],
+        "important": [
+          "fordern = demand / require (without ö).",
+          "Demand, request: fordern (without ö).",
+          "Demand money, rights, changes, or obligations - an active claim."
+        ]
+      }
+    },
+    {
+      "cardId": "b2-verlaufen",
+      "de": "verlaufen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To proceed • To run its course",
+      "lvMainSource": "norisināties • ritēt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To proceed • To roll",
+          "currentEn": "To proceed • To run its course"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "minimalStudy",
+        "translation": "To proceed • To run its course",
+        "explanation": "Verlaufen (without sich) means to proceed or run its course. It is not synonymous with sich verlaufen (to get lost).",
+        "rektion": null,
+        "forms": null,
+        "formsLabel": null,
+        "examples": [],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    }
+  ]
+}

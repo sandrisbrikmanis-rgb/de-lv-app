@@ -1,0 +1,172 @@
+{
+  "generatedAt": "2026-08-09T19:02:02.767Z",
+  "preOwnerCommit": "526a2d4b",
+  "scope": {
+    "uniqueChangedCards": 40,
+    "lunaAudited": 40,
+    "lunaExpected": 40
+  },
+  "luna": {
+    "status": "COMPLETED",
+    "rawCount": 13,
+    "realProblems": 0,
+    "severity": {
+      "KRITISKA": 0,
+      "AUGSTA": 0,
+      "VIDĒJA": 0,
+      "ZEMA": 0,
+      "VILTUS_POZITĪVS": 2
+    },
+    "stats": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 0,
+      "initialBatchRequests": 0,
+      "retryRequests": 0,
+      "batchCount": 0,
+      "batchSizes": [],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 0,
+      "cachedInputTokens": 0,
+      "outputTokens": 0,
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "findingsCount": 0,
+      "passCount": 0
+    }
+  },
+  "findings": [
+    {
+      "cardId": "b2-sich-fassen",
+      "fieldPath": "study.explanation",
+      "currentEn": "Sich fassen requires the fixed preposition an + dative.",
+      "problem": "Sich fassen is a reflexive verb without a required preposition; an + dative is incorrect.",
+      "recommendedEn": "Sich fassen is used without a fixed preposition.",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-sich-fassen",
+      "fieldPath": "study.rektion",
+      "currentEn": "an + dative",
+      "problem": "The verb sich fassen does not require an + dative.",
+      "recommendedEn": "No fixed preposition",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-sich-fassen",
+      "fieldPath": "study.forms",
+      "currentEn": "an + dative",
+      "problem": "The verb sich fassen does not require an + dative.",
+      "recommendedEn": "No fixed preposition",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-sich-gestalten",
+      "fieldPath": "study.explanation",
+      "currentEn": "Sich gestalten requires the fixed preposition zu + dative.",
+      "problem": "Sich gestalten can occur without a preposition; zu + dative is not required.",
+      "recommendedEn": "Sich gestalten does not require a fixed preposition; it means to develop or take shape.",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-sich-gestalten",
+      "fieldPath": "study.rektion",
+      "currentEn": "zu + dative",
+      "problem": "The verb sich gestalten does not require zu + dative.",
+      "recommendedEn": "No fixed preposition",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-sich-gestalten",
+      "fieldPath": "study.forms",
+      "currentEn": "zu + the dative",
+      "problem": "The verb sich gestalten does not require zu + dative.",
+      "recommendedEn": "No fixed preposition",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.explanation",
+      "currentEn": "Sich herausbilden requires the fixed preposition zu + dative.",
+      "problem": "Sich herausbilden is commonly used without a preposition; zu + dative is not required.",
+      "recommendedEn": "Sich herausbilden does not require a fixed preposition; it means to develop or emerge.",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.rektion",
+      "currentEn": "zu + dative",
+      "problem": "The verb sich herausbilden does not require zu + dative.",
+      "recommendedEn": "No fixed preposition",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.forms",
+      "currentEn": "zu + the dative",
+      "problem": "The verb sich herausbilden does not require zu + dative.",
+      "recommendedEn": "No fixed preposition",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-aendern",
+      "fieldPath": "study.examples[0].en",
+      "currentEn": "I change the deadline.",
+      "problem": "Termin normally means appointment or scheduled date here, not deadline.",
+      "recommendedEn": "I change the appointment.",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    },
+    {
+      "cardId": "b2-aendern",
+      "fieldPath": "study.examples[4].en",
+      "currentEn": "Change the part • Wechseln",
+      "problem": "Wechseln is an untranslated German remnant, and the English phrase is unclear.",
+      "recommendedEn": "Change a specific thing • Switch",
+      "validatedStatus": "VILTUS_POZITĪVS",
+      "validatedSeverity": "NAV",
+      "rationale": "OWNER NELABOT."
+    },
+    {
+      "cardId": "b2-fordern",
+      "fieldPath": "study.examples[4].en",
+      "currentEn": "To demand • To promote",
+      "problem": "To promote is a meaning of fördern, not fordern, and is misleading in this entry.",
+      "recommendedEn": "To demand",
+      "validatedStatus": "VILTUS_POZITĪVS",
+      "validatedSeverity": "NAV",
+      "rationale": "OWNER apstiprināts gala EN — Luna preference, ne regresija."
+    },
+    {
+      "cardId": "b2-fordern",
+      "fieldPath": "enMain",
+      "currentEn": "Require • Require",
+      "problem": "The translation duplicates the same word instead of giving two useful equivalents.",
+      "recommendedEn": "Demand • Require",
+      "validatedStatus": "PRE_EXISTING",
+      "validatedSeverity": "NAV",
+      "rationale": "Lauks nav 58 OWNER labojumu tvērumā — nav mikroregresija no šī cikla."
+    }
+  ],
+  "deReadOnly": true,
+  "verdict": "EN–DE B2 GALA MIKROREGRESIJA: PASS"
+}

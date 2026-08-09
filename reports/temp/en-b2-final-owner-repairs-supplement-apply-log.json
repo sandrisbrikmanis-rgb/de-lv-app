@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-08-09T18:59:31.445Z",
+  "dryRun": false,
+  "supplementApplyPlanned": 7,
+  "nelabotPlanned": 9,
+  "applied": 7,
+  "applyVerified": 7,
+  "nelabotPreserved": 9,
+  "currentValueMismatch": 0,
+  "sectionAccentFixes": 0,
+  "hashDeBefore": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "hashDeAfter": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "deReadOnly": true,
+  "entries": [
+    {
+      "seq": 52,
+      "cardId": "b2-sich-empfehlen",
+      "fieldPath": "study.translation",
+      "action": "APPLY",
+      "current": "Be recommended",
+      "finalEn": "Be advisable • Recommend itself",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 53,
+      "cardId": "b2-sich-fassen",
+      "fieldPath": "enMain",
+      "action": "APPLY",
+      "current": "To seise • To receive • To restrain",
+      "finalEn": "Compose oneself • Regain composure",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 54,
+      "cardId": "b2-sich-gestalten",
+      "fieldPath": "enMain",
+      "action": "APPLY",
+      "current": "To form into",
+      "finalEn": "Take shape • Develop",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 55,
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "enMain",
+      "action": "APPLY",
+      "current": "To form into",
+      "finalEn": "Develop • Emerge",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 56,
+      "cardId": "b2-fordern",
+      "fieldPath": "study.examples[0].en",
+      "action": "APPLY",
+      "current": "She asks for more money.",
+      "finalEn": "She demands more money.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 57,
+      "cardId": "b2-fordern",
+      "fieldPath": "study.examples[4].en",
+      "action": "APPLY",
+      "current": "To demand • fördern",
+      "finalEn": "To demand • To promote",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 58,
+      "cardId": "b2-fordern",
+      "fieldPath": "study.tip[1]",
+      "action": "APPLY",
+      "current": "Used by fordern when the context fits this meaning.",
+      "finalEn": "Use fordern when the context fits this meaning.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": "N-1",
+      "cardId": "b2-ehrenvoll-512",
+      "fieldPath": "lv",
+      "action": "NELABOT",
+      "current": "Honorable",
+      "finalEn": null,
+      "applyStatus": "PRESERVE_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": "N-2",
+      "cardId": "b2-Eifer-521",
+      "fieldPath": "lv",
+      "action": "NELABOT",
+      "current": "Zeal • Diligence • Passion • Ardor • Eagerness",
+      "finalEn": null,
+      "applyStatus": "PRESERVE_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": "N-3",
+      "cardId": "b2-Wehe-2041",
+      "fieldPath": "lv",
+      "action": "NELABOT",
+      "current": "Dune • Snowdrift",
+      "finalEn": null,
+      "applyStatus": "PRESERVE_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": "N-4",
+      "cardId": "b2-haube",
+      "fieldPath": "study.translation",
+      "action": "NELABOT",
+      "current": "Cap • Hood",
+      "finalEn": null,
+      "applyStatus": "PRESERVE_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": "N-5",
+      "cardId": "b2-haube",
+      "fieldPath": "enMain",
+      "action": "NELABOT",
+      "current": "Cap • Hood",
+      "finalEn": null,
+      "applyStatus": "PRESERVE_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": "N-6",
+      "cardId": "b2-haube",
+      "fieldPath": "study.examples[2].en",
+      "action": "NELABOT",
+      "current": "He opens the hood of the car.",
+      "finalEn": null,
+      "applyStatus": "PRESERVE_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": "N-7",
+      "cardId": "b2-haube",
+      "fieldPath": "study.tip[1]",
+      "action": "NELABOT",
+      "current": "It's about a car, engine → hood.",
+      "finalEn": null,
+      "applyStatus": "PRESERVE_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": "N-8",
+      "cardId": "b2-aendern",
+      "fieldPath": "study.examples[4].en",
+      "action": "NELABOT",
+      "current": "Change the part • Wechseln",
+      "finalEn": null,
+      "applyStatus": "PRESERVE_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": "N-9",
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.translation",
+      "action": "NELABOT",
+      "current": "Develop • Emerge",
+      "finalEn": null,
+      "applyStatus": "PRESERVE_VERIFIED",
+      "note": ""
+    }
+  ],
+  "accentLog": []
+}
