@@ -252,7 +252,7 @@ const B2_WORDS = [
       "rektion": "mit + dative",
       "explanation": "Sich abfinden takes the fixed preposition mit + dative.",
       "forms": "mit + dative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -465,7 +465,7 @@ const B2_WORDS = [
       "rektion": "von + dative",
       "explanation": "Sich abwenden takes the fixed preposition von + dative.",
       "forms": "von + dative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -919,7 +919,7 @@ const B2_WORDS = [
       "rektion": "mit + dative",
       "explanation": "Sich befassen takes the fixed preposition mit + dative.",
       "forms": "mit + dative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -972,7 +972,7 @@ const B2_WORDS = [
       "rektion": "mit + dative",
       "explanation": "Sich begnügen takes the fixed preposition mit + dative.",
       "forms": "mit + dative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1148,9 +1148,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Seize • Take possession of",
       "rektion": "+ genitive",
-      "explanation": "Sich bemächtigen is used in modern German with the possessive form without a preposition.",
+      "explanation": "Sich bemächtigen is used with a genitive object and no preposition.",
       "forms": "+ genitive",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1231,11 +1231,11 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-berufen",
       "layout": "minimalStudy",
-      "translation": "Refer to",
+      "translation": "Refer to • Invoke",
       "rektion": "auf + accusative",
       "explanation": "Sich berufen takes the fixed preposition auf + accusative.",
       "forms": "auf + accusative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1291,7 +1291,7 @@ const B2_WORDS = [
       "rektion": "auf + accusative",
       "explanation": "Sich beschränken takes the fixed preposition auf + accusative.",
       "forms": "auf + accusative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1387,11 +1387,11 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-betaetigen",
       "layout": "minimalStudy",
-      "translation": "Operate • Participate",
+      "translation": "Engage in • Participate in",
       "rektion": "in + dative",
       "explanation": "Sich betätigen takes the fixed preposition in + dative.",
       "forms": "in + dative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3546,7 +3546,7 @@ const B2_WORDS = [
       "rektion": "auf + accusative",
       "explanation": "Sich einlassen takes the fixed preposition auf + accusative.",
       "forms": "auf + accusative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3595,7 +3595,7 @@ const B2_WORDS = [
       "rektion": "direct object in the accusative",
       "explanation": "Sich einprägen takes a direct object in the accusative; it does not require a preposition.",
       "forms": "direct object in the accusative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3909,7 +3909,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-empoeren",
       "layout": "minimalStudy",
-      "translation": "Get angry • Revolt",
+      "translation": "Be outraged • Be indignant",
       "rektion": "über + the accusative",
       "explanation": "Sich empören takes the fixed preposition über + the accusative.",
       "forms": "über + the accusative",
@@ -3982,7 +3982,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich entfalten",
-    "lv": "Open up • Loosen • Develop • Unfold",
+    "lv": "Open up • Develop • Unfold",
     "level": "B2"
   },
   {
@@ -4062,9 +4062,9 @@ const B2_WORDS = [
       "id": "b2-sich-entledigen",
       "layout": "minimalStudy",
       "translation": "Get rid of • Get rid of",
-      "rektion": "+ possessive form",
-      "explanation": "Sich entledigen is used in modern German with the possessive form without a preposition.",
-      "forms": "+ possessive form",
+      "rektion": "+ genitive",
+      "explanation": "Sich entledigen is used with a genitive object and no preposition.",
+      "forms": "+ genitive",
       "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
@@ -4097,7 +4097,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-entruesten",
       "layout": "minimalStudy",
-      "translation": "Get angry • Revolt",
+      "translation": "Be outraged • Be indignant",
       "rektion": "über + the accusative",
       "explanation": "Sich entrüsten takes the fixed preposition über + the accusative.",
       "forms": "über + the accusative",
@@ -4132,9 +4132,9 @@ const B2_WORDS = [
       "id": "b2-sich-entsinnen",
       "layout": "minimalStudy",
       "translation": "To remember • To remember",
-      "rektion": "+ possessive form",
-      "explanation": "Sich entsinnen is used in modern German with the possessive form without a preposition, for example: Ich entsinne mich eines Fehlers.",
-      "forms": "+ possessive form",
+      "rektion": "+ genitive",
+      "explanation": "Sich entsinnen is used with a genitive object and no preposition, for example: Ich entsinne mich eines Fehlers.",
+      "forms": "+ genitive",
       "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
@@ -4475,11 +4475,11 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-erniedrigen",
       "layout": "minimalStudy",
-      "translation": "Humble yourself",
+      "translation": "Humble oneself",
       "rektion": "vor + whom?",
       "explanation": "Sich erniedrigen requires the preposition vor + whom?",
       "forms": "vor + whom?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4532,7 +4532,7 @@ const B2_WORDS = [
       "rektion": "über + what?",
       "explanation": "Sich erregen requires the preposition über + what?",
       "forms": "über + what?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4674,7 +4674,7 @@ const B2_WORDS = [
       "rektion": "als + what?",
       "explanation": "Sich erweisen requires the preposition als + what?",
       "forms": "als + what?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4980,7 +4980,7 @@ const B2_WORDS = [
       "rektion": "an + kam?",
       "explanation": "Sich fassen requires the definite preposition an + kam?.",
       "forms": "an + kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -5461,7 +5461,7 @@ const B2_WORDS = [
       "rektion": "in + what?",
       "explanation": "Sich fügen requires the preposition in + what?",
       "forms": "in + what?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6426,7 +6426,7 @@ const B2_WORDS = [
   },
   {
     "de": "rachgierig",
-    "lv": "Lust for revenge",
+    "lv": "Vengeful • Thirsting for revenge",
     "level": "B2"
   },
   {
@@ -9918,7 +9918,7 @@ const B2_WORDS = [
     "de": "Parteibuch",
     "de_article": "das",
     "de_plural": "die Parteibücher",
-    "lv": "Party member card",
+    "lv": "Party membership card",
     "level": "B2"
   },
   {
@@ -9961,7 +9961,7 @@ const B2_WORDS = [
     "de": "Pater",
     "de_article": "der",
     "de_plural": "die Patres",
-    "lv": "A Catholic priest • Belonging to an order",
+    "lv": "Catholic priest • Member of a religious order",
     "level": "B2"
   },
   {
@@ -10213,7 +10213,7 @@ const B2_WORDS = [
   },
   {
     "de": "provisorisch",
-    "lv": "Provisional • Temporary • For a time",
+    "lv": "Provisional • Temporary • For the time being",
     "level": "B2"
   },
   {
@@ -10311,7 +10311,7 @@ const B2_WORDS = [
   },
   {
     "de": "ranzig",
-    "lv": "Rancid • Bitter for cream • Fat • Butter",
+    "lv": "Rancid",
     "level": "B2"
   },
   {
@@ -10371,7 +10371,7 @@ const B2_WORDS = [
     "de": "Rechtsstaat",
     "de_article": "der",
     "de_plural": "die Rechtsstaaten",
-    "lv": "Rule of law country",
+    "lv": "Rule-of-law state",
     "level": "B2"
   },
   {
@@ -10617,7 +10617,7 @@ const B2_WORDS = [
     "de": "Rüstung",
     "de_article": "die",
     "de_plural": "die Rüstungen",
-    "lv": "Armament • Armament",
+    "lv": "Armament • Armour",
     "level": "B2"
   },
   {
@@ -10667,7 +10667,7 @@ const B2_WORDS = [
   },
   {
     "de": "sämtlich",
-    "lv": "All [without exception] • In full force",
+    "lv": "All without exception • In full",
     "level": "B2"
   },
   {
@@ -10679,14 +10679,14 @@ const B2_WORDS = [
   },
   {
     "de": "sanieren",
-    "lv": "To repair • Ek. make profitable",
+    "lv": "To renovate • To make financially sound",
     "level": "B2"
   },
   {
     "de": "Sanitätsstelle",
     "de_article": "die",
     "de_plural": "die Sanitätsstellen",
-    "lv": "Medical point",
+    "lv": "Medical station",
     "level": "B2"
   },
   {
@@ -10698,7 +10698,7 @@ const B2_WORDS = [
   },
   {
     "de": "sättigen",
-    "lv": "[good] feed • Feast • Chem. saturate",
+    "lv": "To feed well • To satiate • Chem. to saturate",
     "level": "B2"
   },
   {
@@ -10710,7 +10710,7 @@ const B2_WORDS = [
   },
   {
     "de": "sausen",
-    "lv": "Rustle • Whistle • Swish • Swish",
+    "lv": "Rush • Whistle • Swish • Roar",
     "level": "B2"
   },
   {
@@ -10724,7 +10724,7 @@ const B2_WORDS = [
     "de": "Schadenersatz",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Material compensation for losses",
+    "lv": "Compensation for damage or loss",
     "level": "B2"
   },
   {
@@ -10735,7 +10735,7 @@ const B2_WORDS = [
   {
     "de": "Schaffen",
     "de_article": "das",
-    "lv": "Creativity • Creation • Work • Activity • Creation",
+    "lv": "Creative work • Creation • Work",
     "level": "B2"
   },
   {
@@ -10766,7 +10766,7 @@ const B2_WORDS = [
   },
   {
     "de": "schärfsichtig",
-    "lv": "With a sharp look • Observant",
+    "lv": "Keen-eyed • Observant",
     "level": "B2"
   },
   {
@@ -10809,7 +10809,7 @@ const B2_WORDS = [
     "de": "Scheidewand",
     "de_article": "die",
     "de_plural": "die Scheidewände",
-    "lv": "Septum",
+    "lv": "Partition • Septum",
     "level": "B2"
   },
   {
@@ -10869,7 +10869,7 @@ const B2_WORDS = [
     "de": "Schieber",
     "de_article": "der",
     "de_plural": "die Schieber",
-    "lv": "Bolt • Arrow • Speculator",
+    "lv": "Bolt • Slider • Speculator",
     "level": "B2"
   },
   {
@@ -10894,7 +10894,7 @@ const B2_WORDS = [
   },
   {
     "de": "schillern",
-    "lv": "Iridescent • Bathe in different colours",
+    "lv": "To shimmer • To gleam in different colours",
     "level": "B2"
   },
   {
@@ -10925,7 +10925,7 @@ const B2_WORDS = [
     "de": "Schlagwort",
     "de_article": "das",
     "de_plural": "die Schlagwörter",
-    "lv": "Slogan • Apt word",
+    "lv": "Slogan • Catchword",
     "level": "B2"
   },
   {
@@ -11105,7 +11105,7 @@ const B2_WORDS = [
     "de": "Schwarze",
     "de_article": "der",
     "de_plural": "die Schwarze",
-    "lv": "A person with black skin colour",
+    "lv": "A Black person",
     "level": "B2"
   },
   {
@@ -11119,7 +11119,7 @@ const B2_WORDS = [
     "de": "Schwebebahn",
     "de_article": "die",
     "de_plural": "die Schwebebahnen",
-    "lv": "Suspension [railway].",
+    "lv": "Suspension railway",
     "level": "B2"
   },
   {
@@ -11168,7 +11168,7 @@ const B2_WORDS = [
     "de": "Seemacht",
     "de_article": "die",
     "de_plural": "die Seemächte",
-    "lv": "Sea ​​[great] power",
+    "lv": "Naval power",
     "level": "B2"
   },
   {
