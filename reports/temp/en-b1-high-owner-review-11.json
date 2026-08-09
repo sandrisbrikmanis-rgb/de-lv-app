@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T10:12:45.622Z",
+  "generatedAt": "2026-08-09T10:12:54.804Z",
   "block": 11,
   "status": "READY FOR OWNER REVIEW",
   "excludedCriticalCycleCards": [
@@ -477,7 +477,7 @@
   "expectedArithmeticRemaining": 73,
   "calculatedWorkflowRemaining": 73,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 0,
+  "ownerDecisionsMade": 34,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -507,9 +507,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Determine\" differs from audit Current EN \"Determine / predict\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Determine / designate",
+          "ownerNote": "“predict” nav bestimmen šīs comparison nozīmes ekvivalents; “designate” saglabā nozīmi “noteikt / izraudzīties”."
         },
         {
           "severity": "HIGH",
@@ -523,9 +523,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Determine\" differs from audit Current EN \"Determine / predict\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Usually use bestimmen.",
+          "ownerNote": "“bestimnen” ir bojāta forma, artikuls “der” darbības vārdam nav pieļaujams, un pilns angļu teikums ir dabiskāks par fragmentu “usually bestimmen”."
         },
         {
           "severity": "HIGH",
@@ -539,11 +539,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Determine\" differs from audit Current EN \"Determine / predict\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "price, dose",
+          "ownerNote": "Latviešu accent targets jāaizstāj ar precīziem EN tokeniem no learner-facing tip teksta."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 2,
@@ -571,9 +572,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To move\" differs from audit Current EN \"Kustini objektu → bewegen; kusties pats → sich bewegen; emocijas → bewegt.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Move an object → bewegen; move yourself → sich bewegen; emotions → bewegt.",
+          "ownerNote": "Pilns learner-facing tip pašlaik ir jauktā LV/DE valodā."
         },
         {
           "severity": "HIGH",
@@ -587,9 +588,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To move\" differs from audit Current EN \"Kustini objektu → bewegen; kusties pats → sich bewegen; emocijas → bewegt.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Without sich, bewegen usually means “to move something”.",
+          "ownerNote": "“Bez” ir LV atlikums. Vienlaikus saglabāt precīzu kontrastu starp bewegen un sich bewegen."
         },
         {
           "severity": "HIGH",
@@ -603,11 +604,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To move\" differs from audit Current EN \"Kustini objektu → bewegen; kusties pats → sich bewegen; emocijas → bewegt.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Move an object, move yourself, emotions",
+          "ownerNote": "Izmantot tikai faktiskajā EN tip tekstā eksistējošus target fragmentus."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 3,
@@ -635,9 +637,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To receive\" differs from audit Current EN \"lv: The, The, The\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The",
+          "ownerNote": "Trīs identiski “The” targets neatbilst vienam faktiskajam occurrence. Šajā repair neizdomāt citus accent targets."
         },
         {
           "severity": "MEDIUM",
@@ -651,9 +653,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To receive\" differs from audit Current EN \"lv: The, The, The\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Receive, move in",
+          "ownerNote": "Abām beziehen nozīmēm nedrīkst būt viens un tas pats highlight."
         },
         {
           "severity": "HIGH",
@@ -667,11 +669,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To receive\" differs from audit Current EN \"lv: The, The, The\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "refer to",
+          "ownerNote": "LV token jāaizstāj ar atbilstošo EN learner-facing target."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 4,
@@ -699,9 +702,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Screen\" differs from audit Current EN \"Main idea: der Bildschimmer is a screen - the display surface of a computer monitor, phone, tablet or television. Plural: die Bildschimmer.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: der Bildschirm is a screen—the display surface of a computer monitor, phone, tablet, or television. Plural: die Bildschirme.",
+          "ownerNote": "Izlabot gan lemma “Bildschimmer”, gan nepareizo plural “Bildschimmer”."
         },
         {
           "severity": "HIGH",
@@ -715,11 +718,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Screen\" differs from audit Current EN \"Main idea: der Bildschimmer is a screen - the display surface of a computer monitor, phone, tablet or television. Plural: die Bildschimmer.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "der Bildschirm = screen. Plural: die Bildschirme.",
+          "ownerNote": "Pareizais plural ir die Bildschirme."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 5,
@@ -747,9 +751,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To offer\" differs from audit Current EN \"Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: bieten means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer something to someone in particular.",
+          "ownerNote": "“Beet” ir kļūdains target word; otrajā teikumā trūkst objekta."
         },
         {
           "severity": "MEDIUM",
@@ -763,9 +767,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To offer\" differs from audit Current EN \"Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Offer something to someone specific",
+          "ownerNote": "Nepieciešams objekts “something”."
         },
         {
           "severity": "MEDIUM",
@@ -779,9 +783,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To offer\" differs from audit Current EN \"Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "bieten often describes what a place, programme, or service provides; anbieten places more emphasis on actively offering something to someone.",
+          "ownerNote": "“offering assets” ir semantiski maldinošs, “emphasizes more on” — negramatisks."
         },
         {
           "severity": "LOW",
@@ -795,9 +799,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To offer\" differs from audit Current EN \"Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "offers",
+          "ownerNote": "Highlight target jābūt mācāmajai nozīmei, nevis artikulam “The”."
         },
         {
           "severity": "TECHNICAL",
@@ -811,11 +815,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To offer\" differs from audit Current EN \"Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "offers",
+          "ownerNote": "Accentā izmantot EN tokenu, kas reāli eksistē learner-facing tekstā."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 6,
@@ -843,11 +848,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Block\" differs from audit Current EN \"For writing Block = block; in structure = block; in material = block.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "block, notepad, lump",
+          "ownerNote": "Accent targets jābūt tikai EN tokeniem un tiem jāatspoguļo kartītē skaidrotās Block nozīmes."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 7,
@@ -875,9 +881,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Bow",
+          "ownerNote": "Šīs kartītes LV source ir “loks”, un konkrētās kartītes pamata nozīme ir bow. Front translation un study.translation nedrīkst konfliktēt."
         },
         {
           "severity": "LOW",
@@ -891,9 +897,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "bow",
+          "ownerNote": "Highlight mācāmo Bogen nozīmi, nevis “The”."
         },
         {
           "severity": "LOW",
@@ -907,9 +913,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "arch",
+          "ownerNote": "Šajā piemērā Bogen nozīme ir “arch”."
         },
         {
           "severity": "LOW",
@@ -923,9 +929,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "form",
+          "ownerNote": "Šajā piemērā Bogen nozīme ir “form”, nevis “Please”."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Circle",
+          "ownerFinalEn": "Bow",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -955,9 +970,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Thus\" differs from audit Current EN \"Main idea: deruch means thus or thereby. It links the above cause with the effect.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: dadurch means thus or thereby. It links the cause mentioned above with its effect.",
+          "ownerNote": "“deruch” ir bojāta lemma."
         },
         {
           "severity": "HIGH",
@@ -971,9 +986,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Thus\" differs from audit Current EN \"Main idea: deruch means thus or thereby. It links the above cause with the effect.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "dadurch refers to the action or situation mentioned above, not simply to a place.",
+          "ownerNote": "Izlabot lemma un artikulu “the place” uz dabisko “a place”."
         },
         {
           "severity": "LOW",
@@ -987,11 +1002,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Thus\" differs from audit Current EN \"Main idea: deruch means thus or thereby. It links the above cause with the effect.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "thus, thereby",
+          "ownerNote": "Pedagoģiski izcelt dadurch angļu nozīmes, nevis heading “Main”."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 9,
@@ -1019,9 +1035,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Therefore\" differs from audit Current EN \"Between cause and effect, daher is usually translated as because.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "When linking a cause to its result, daher is usually translated as “therefore”.",
+          "ownerNote": "“because” izsaka cēloni; daher šeit izsaka rezultātu."
         },
         {
           "severity": "HIGH",
@@ -1035,9 +1051,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Therefore\" differs from audit Current EN \"Between cause and effect, daher is usually translated as because.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "daher can also mean “from there”, but as a core meaning it is better to learn “therefore”.",
+          "ownerNote": "Saglabāt sekundāro “from there” nozīmi, bet neiemācīt kļūdaino “because”."
         },
         {
           "severity": "TECHNICAL",
@@ -1051,9 +1067,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Therefore\" differs from audit Current EN \"Between cause and effect, daher is usually translated as because.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "It's",
+          "ownerNote": "Tekstā ir tikai viens atbilstošs occurrence."
         },
         {
           "severity": "PEDAGOGICAL",
@@ -1067,11 +1083,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Therefore\" differs from audit Current EN \"Between cause and effect, daher is usually translated as because.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "there",
+          "ownerNote": "Šajā piemērā jāmāca daher telpiskā nozīme “from there / there”, nevis subject/article elements."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 10,
@@ -1099,9 +1116,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "There / to there",
+          "ownerNote": "“Cont” nav angļu tulkojums. Front translation un study.translation jāsakrīt."
         },
         {
           "severity": "HIGH",
@@ -1115,9 +1132,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: dahin means “there” or “to there”. In a figurative sense, es ist dahin means that something is gone or lost.",
+          "ownerNote": "Noņemt dubultojumu un korekti izskaidrot figuratīvo nozīmi."
         },
         {
           "severity": "HIGH",
@@ -1131,9 +1148,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "My hope is gone.",
+          "ownerNote": "Figuratīvais “dahin” nozīmē “gone/lost”."
         },
         {
           "severity": "HIGH",
@@ -1147,9 +1164,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "There / to there / gone",
+          "ownerNote": "Trīs faktiskās mācāmās nozīmes."
         },
         {
           "severity": "HIGH",
@@ -1163,9 +1180,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "dahin indicates direction to a place, while dort indicates location. Es ist dahin = it is gone.",
+          "ownerNote": "Izlabot gan “I ist dahin”, gan absurdi burtisko “for the yard”."
         },
         {
           "severity": "TECHNICAL",
@@ -1179,9 +1196,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "there, to there, gone",
+          "ownerNote": "Šeit ne tikai jāizņem duplicate “Main”; pedagoģiski pareizāk ir izcelt trīs tatsächlich mācāmās dahin nozīmes."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Cont",
+          "ownerFinalEn": "There / to there",
+          "ownerNote": "Front translation un study.translation jāsakrīt."
         }
       ]
     },
@@ -3975,5 +4001,14 @@
         }
       ]
     }
-  ]
+  ],
+  "ownerReviewBlock1": {
+    "block": "1/5",
+    "cardsReviewed": 10,
+    "labot": 10,
+    "nelabot": 0,
+    "findingsOwnerResolved": 34,
+    "pendingInBlock1": 0,
+    "completedAt": "2026-08-09T10:19:22.179Z"
+  }
 }

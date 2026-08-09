@@ -1,6 +1,6 @@
 # EN–DE B1 HIGH Owner Review #11
 
-**Generated:** 2026-08-09T10:12:45.605Z
+**Generated:** 2026-08-09T10:12:54.787Z
 
 **Status:** READY FOR OWNER REVIEW — no production changes
 
@@ -24,6 +24,7 @@ b1-Krüppel-1651 resolved exclusion: PASS
 HIGH #4 biegen normalized exclusion: PASS
 HIGH #9 Tagung resolution exclusion: PASS
 Tageordnung ghost-audit exclusion: PASS
+Tagesordnung ghost-context exclusion: PASS
 Duplicate logical cards vs previous HIGH blocks: 0
 
 ---
@@ -38,6 +39,7 @@ Plural: —
 LV source: noteikt
 Production EN: Determine
 Metadata anomaly: Production EN "Determine" differs from audit Current EN "Determine / predict"
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -51,9 +53,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Determine" differs from audit Current EN "Determine / predict"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Determine / designate
+OWNER NOTE: “predict” nav bestimmen šīs comparison nozīmes ekvivalents; “designate” saglabā nozīmi “noteikt / izraudzīties”.
 
 ### Finding 2
 
@@ -67,9 +69,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Determine" differs from audit Current EN "Determine / predict"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Usually use bestimmen.
+OWNER NOTE: “bestimnen” ir bojāta forma, artikuls “der” darbības vārdam nav pieļaujams, un pilns angļu teikums ir dabiskāks par fragmentu “usually bestimmen”.
 
 ### Finding 3
 
@@ -83,9 +85,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Determine" differs from audit Current EN "Determine / predict"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: price, dose
+OWNER NOTE: Latviešu accent targets jāaizstāj ar precīziem EN tokeniem no learner-facing tip teksta.
 
 ## 02 — b1-bewegen — bewegen
 
@@ -97,6 +99,7 @@ Plural: —
 LV source: kustināt
 Production EN: To move
 Metadata anomaly: Production EN "To move" differs from audit Current EN "Kustini objektu → bewegen; kusties pats → sich bewegen; emocijas → bewegt."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -110,9 +113,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To move" differs from audit Current EN "Kustini objektu → bewegen; kusties pats → sich bewegen; emocijas → bewegt."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Move an object → bewegen; move yourself → sich bewegen; emotions → bewegt.
+OWNER NOTE: Pilns learner-facing tip pašlaik ir jauktā LV/DE valodā.
 
 ### Finding 2
 
@@ -126,9 +129,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To move" differs from audit Current EN "Kustini objektu → bewegen; kusties pats → sich bewegen; emocijas → bewegt."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Without sich, bewegen usually means “to move something”.
+OWNER NOTE: “Bez” ir LV atlikums. Vienlaikus saglabāt precīzu kontrastu starp bewegen un sich bewegen.
 
 ### Finding 3
 
@@ -142,9 +145,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To move" differs from audit Current EN "Kustini objektu → bewegen; kusties pats → sich bewegen; emocijas → bewegt."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Move an object, move yourself, emotions
+OWNER NOTE: Izmantot tikai faktiskajā EN tip tekstā eksistējošus target fragmentus.
 
 ## 03 — b1-beziehen — beziehen
 
@@ -156,6 +159,7 @@ Plural: —
 LV source: saņemt
 Production EN: To receive
 Metadata anomaly: Production EN "To receive" differs from audit Current EN "lv: The, The, The"
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -169,9 +173,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To receive" differs from audit Current EN "lv: The, The, The"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The
+OWNER NOTE: Trīs identiski “The” targets neatbilst vienam faktiskajam occurrence. Šajā repair neizdomāt citus accent targets.
 
 ### Finding 2
 
@@ -185,9 +189,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "To receive" differs from audit Current EN "lv: The, The, The"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Receive, move in
+OWNER NOTE: Abām beziehen nozīmēm nedrīkst būt viens un tas pats highlight.
 
 ### Finding 3
 
@@ -201,9 +205,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To receive" differs from audit Current EN "lv: The, The, The"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: refer to
+OWNER NOTE: LV token jāaizstāj ar atbilstošo EN learner-facing target.
 
 ## 04 — b1-bildschirm — Bildschirm
 
@@ -215,6 +219,7 @@ Plural: die Bildschirme
 LV source: ekrāns
 Production EN: Screen
 Metadata anomaly: Production EN "Screen" differs from audit Current EN "Main idea: der Bildschimmer is a screen - the display surface of a computer monitor, phone, tablet or television. Plural: die Bildschimmer."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -228,9 +233,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Screen" differs from audit Current EN "Main idea: der Bildschimmer is a screen - the display surface of a computer monitor, phone, tablet or television. Plural: die Bildschimmer."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: der Bildschirm is a screen—the display surface of a computer monitor, phone, tablet, or television. Plural: die Bildschirme.
+OWNER NOTE: Izlabot gan lemma “Bildschimmer”, gan nepareizo plural “Bildschimmer”.
 
 ### Finding 2
 
@@ -244,9 +249,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Screen" differs from audit Current EN "Main idea: der Bildschimmer is a screen - the display surface of a computer monitor, phone, tablet or television. Plural: die Bildschimmer."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: der Bildschirm = screen. Plural: die Bildschirme.
+OWNER NOTE: Pareizais plural ir die Bildschirme.
 
 ## 05 — b1-bieten — bieten
 
@@ -258,6 +263,7 @@ Plural: —
 LV source: piedāvāt
 Production EN: To offer
 Metadata anomaly: Production EN "To offer" differs from audit Current EN "Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -271,9 +277,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To offer" differs from audit Current EN "Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: bieten means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer something to someone in particular.
+OWNER NOTE: “Beet” ir kļūdains target word; otrajā teikumā trūkst objekta.
 
 ### Finding 2
 
@@ -287,9 +293,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To offer" differs from audit Current EN "Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Offer something to someone specific
+OWNER NOTE: Nepieciešams objekts “something”.
 
 ### Finding 3
 
@@ -303,9 +309,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To offer" differs from audit Current EN "Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: bieten often describes what a place, programme, or service provides; anbieten places more emphasis on actively offering something to someone.
+OWNER NOTE: “offering assets” ir semantiski maldinošs, “emphasizes more on” — negramatisks.
 
 ### Finding 4
 
@@ -319,9 +325,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "To offer" differs from audit Current EN "Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: offers
+OWNER NOTE: Highlight target jābūt mācāmajai nozīmei, nevis artikulam “The”.
 
 ### Finding 5
 
@@ -335,9 +341,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To offer" differs from audit Current EN "Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: offers
+OWNER NOTE: Accentā izmantot EN tokenu, kas reāli eksistē learner-facing tekstā.
 
 ## 06 — b1-block — Block
 
@@ -349,6 +355,7 @@ Plural: die Blöcke
 LV source: bloks
 Production EN: Block
 Metadata anomaly: Production EN "Block" differs from audit Current EN "For writing Block = block; in structure = block; in material = block."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -362,9 +369,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Block" differs from audit Current EN "For writing Block = block; in structure = block; in material = block."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: block, notepad, lump
+OWNER NOTE: Accent targets jābūt tikai EN tokeniem un tiem jāatspoguļo kartītē skaidrotās Block nozīmes.
 
 ## 07 — b1-bogen — Bogen
 
@@ -376,6 +383,9 @@ Plural: die Bogen
 LV source: loks
 Production EN: Circle
 Metadata anomaly: —
+OWNER CARD VERDICT: LABOT
+ASSOCIATED REPAIR — field lv: Circle → Bow
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 ### Finding 1
 
@@ -388,9 +398,9 @@ Reason: The provided meaning is “loks”, and the examples explain the bow mea
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Bow
+OWNER NOTE: Šīs kartītes LV source ir “loks”, un konkrētās kartītes pamata nozīme ir bow. Front translation un study.translation nedrīkst konfliktēt.
 
 ### Finding 2
 
@@ -403,9 +413,9 @@ Reason: The accent highlights an uninformative article rather than the target me
 Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: bow
+OWNER NOTE: Highlight mācāmo Bogen nozīmi, nevis “The”.
 
 ### Finding 3
 
@@ -418,9 +428,9 @@ Reason: The accent highlights an uninformative article rather than the target me
 Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: arch
+OWNER NOTE: Šajā piemērā Bogen nozīme ir “arch”.
 
 ### Finding 4
 
@@ -433,9 +443,9 @@ Reason: The accent highlights an uninformative adverb rather than the target mea
 Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: form
+OWNER NOTE: Šajā piemērā Bogen nozīme ir “form”, nevis “Please”.
 
 ## 08 — b1-dadurch — dadurch
 
@@ -447,6 +457,7 @@ Plural: —
 LV source: tādējādi
 Production EN: Thus
 Metadata anomaly: Production EN "Thus" differs from audit Current EN "Main idea: deruch means thus or thereby. It links the above cause with the effect."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -460,9 +471,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Thus" differs from audit Current EN "Main idea: deruch means thus or thereby. It links the above cause with the effect."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: dadurch means thus or thereby. It links the cause mentioned above with its effect.
+OWNER NOTE: “deruch” ir bojāta lemma.
 
 ### Finding 2
 
@@ -476,9 +487,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Thus" differs from audit Current EN "Main idea: deruch means thus or thereby. It links the above cause with the effect."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: dadurch refers to the action or situation mentioned above, not simply to a place.
+OWNER NOTE: Izlabot lemma un artikulu “the place” uz dabisko “a place”.
 
 ### Finding 3
 
@@ -492,9 +503,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Thus" differs from audit Current EN "Main idea: deruch means thus or thereby. It links the above cause with the effect."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: thus, thereby
+OWNER NOTE: Pedagoģiski izcelt dadurch angļu nozīmes, nevis heading “Main”.
 
 ## 09 — b1-daher — daher
 
@@ -506,6 +517,7 @@ Plural: —
 LV source: tāpēc
 Production EN: Therefore
 Metadata anomaly: Production EN "Therefore" differs from audit Current EN "Between cause and effect, daher is usually translated as because."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -519,9 +531,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Therefore" differs from audit Current EN "Between cause and effect, daher is usually translated as because."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: When linking a cause to its result, daher is usually translated as “therefore”.
+OWNER NOTE: “because” izsaka cēloni; daher šeit izsaka rezultātu.
 
 ### Finding 2
 
@@ -535,9 +547,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Therefore" differs from audit Current EN "Between cause and effect, daher is usually translated as because."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: daher can also mean “from there”, but as a core meaning it is better to learn “therefore”.
+OWNER NOTE: Saglabāt sekundāro “from there” nozīmi, bet neiemācīt kļūdaino “because”.
 
 ### Finding 3
 
@@ -551,9 +563,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Therefore" differs from audit Current EN "Between cause and effect, daher is usually translated as because."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: It's
+OWNER NOTE: Tekstā ir tikai viens atbilstošs occurrence.
 
 ### Finding 4
 
@@ -567,9 +579,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Therefore" differs from audit Current EN "Between cause and effect, daher is usually translated as because."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: there
+OWNER NOTE: Šajā piemērā jāmāca daher telpiskā nozīme “from there / there”, nevis subject/article elements.
 
 ## 10 — b1-dahin — dahin
 
@@ -581,6 +593,9 @@ Plural: —
 LV source: turp
 Production EN: Cont
 Metadata anomaly: —
+OWNER CARD VERDICT: LABOT
+ASSOCIATED REPAIR — field lv: Cont → There / to there
+Associated repair note: Front translation un study.translation jāsakrīt.
 
 ### Finding 1
 
@@ -593,9 +608,9 @@ Reason: Cont is not an English translation of dahin.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: There / to there
+OWNER NOTE: “Cont” nav angļu tulkojums. Front translation un study.translation jāsakrīt.
 
 ### Finding 2
 
@@ -608,9 +623,9 @@ Reason: The translation repeats words and gives the wrong figurative wording.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: dahin means “there” or “to there”. In a figurative sense, es ist dahin means that something is gone or lost.
+OWNER NOTE: Noņemt dubultojumu un korekti izskaidrot figuratīvo nozīmi.
 
 ### Finding 3
 
@@ -623,9 +638,9 @@ Reason: “For the yard” is an incorrect translation of the figurative meaning
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: My hope is gone.
+OWNER NOTE: Figuratīvais “dahin” nozīmē “gone/lost”.
 
 ### Finding 4
 
@@ -638,9 +653,9 @@ Reason: The figurative meaning is incorrectly translated as “for the yard.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: There / to there / gone
+OWNER NOTE: Trīs faktiskās mācāmās nozīmes.
 
 ### Finding 5
 
@@ -653,9 +668,9 @@ Reason: I is a typo, and “for the yard” is incorrect.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: dahin indicates direction to a place, while dort indicates location. Es ist dahin = it is gone.
+OWNER NOTE: Izlabot gan “I ist dahin”, gan absurdi burtisko “for the yard”.
 
 ### Finding 6
 
@@ -668,9 +683,9 @@ Reason: Main is highlighted three times, but appears once in Main idea.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: there, to there, gone
+OWNER NOTE: Šeit ne tikai jāizņem duplicate “Main”; pedagoģiski pareizāk ir izcelt trīs tatsächlich mācāmās dahin nozīmes.
 
 ## 11 — b1-daran — daran
 
