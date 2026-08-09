@@ -1,0 +1,161 @@
+{
+  "cards": [
+    "b1-weder",
+    "b1-zeugnis",
+    "b1-sich-befinden-study",
+    "b1-beruf",
+    "b1-Umgebung-6",
+    "b1-Aktentasche-8",
+    "b1-Alarm-11",
+    "b1-Angehörige-23",
+    "b1-abfragen-46",
+    "b1-abhängig-54",
+    "b1-Ablauf-59",
+    "b1-absichern-80",
+    "b1-absperren-84",
+    "b1-abschaffen-71",
+    "b1-Ambulanz-106",
+    "b1-Anklang-115",
+    "b1-anknüpfen-116",
+    "b1-Anlauf-117",
+    "b1-anlehnen-120",
+    "b1-anliegend-122",
+    "b1-Anrede-129",
+    "b1-Ansager-135",
+    "b1-anschaulich-136",
+    "b1-anschreiben-141",
+    "b1-Ansichtskarte-146"
+  ],
+  "changes": [
+    {
+      "cardId": "b1-weder",
+      "field": "study.explanation",
+      "value": "Main idea: weder is used with noch. The construction weder ... noch means neither ... nor."
+    },
+    {
+      "cardId": "b1-weder",
+      "field": "sectionAccents.comparison[1].meaning.purple",
+      "value": "Either ... or"
+    },
+    {
+      "cardId": "b1-zeugnis",
+      "field": "study.translation",
+      "value": "Certificate / school report"
+    },
+    {
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.tip.leftBlocks[1].text",
+      "value": "To say “to feel,” use sich fühlen, not sich befinden."
+    },
+    {
+      "cardId": "b1-beruf",
+      "field": "study.examples[1].lv",
+      "value": "I am a teacher."
+    },
+    {
+      "cardId": "b1-Umgebung",
+      "field": "lv",
+      "value": "Surroundings"
+    },
+    {
+      "cardId": "b1-Aktentasche",
+      "field": "lv",
+      "value": "Briefcase"
+    },
+    {
+      "cardId": "b1-Alarm",
+      "field": "lv",
+      "value": "Alarm"
+    },
+    {
+      "cardId": "b1-Angehörige",
+      "field": "lv",
+      "value": "Relative"
+    },
+    {
+      "cardId": "b1-abfragen",
+      "field": "lv",
+      "value": "To query / to test"
+    },
+    {
+      "cardId": "b1-abhängig",
+      "field": "lv",
+      "value": "Dependent"
+    },
+    {
+      "cardId": "b1-Ablauf",
+      "field": "lv",
+      "value": "Process / sequence"
+    },
+    {
+      "cardId": "b1-absichern",
+      "field": "lv",
+      "value": "To secure / safeguard"
+    },
+    {
+      "cardId": "b1-absperren",
+      "field": "lv",
+      "value": "To cordon off / block"
+    },
+    {
+      "cardId": "b1-abschaffen",
+      "field": "lv",
+      "value": "To abolish"
+    },
+    {
+      "cardId": "b1-Ambulanz",
+      "field": "lv",
+      "value": "Outpatient clinic"
+    },
+    {
+      "cardId": "b1-Anklang",
+      "field": "lv",
+      "value": "Appeal / resonance"
+    },
+    {
+      "cardId": "b1-anknüpfen",
+      "field": "lv",
+      "value": "To connect / build on"
+    },
+    {
+      "cardId": "b1-Anlauf",
+      "field": "lv",
+      "value": "Run-up / attempt"
+    },
+    {
+      "cardId": "b1-anlehnen",
+      "field": "lv",
+      "value": "To lean against"
+    },
+    {
+      "cardId": "b1-anliegend",
+      "field": "lv",
+      "value": "Attached / enclosed"
+    },
+    {
+      "cardId": "b1-Anrede",
+      "field": "lv",
+      "value": "Form of address / salutation"
+    },
+    {
+      "cardId": "b1-Ansager",
+      "field": "lv",
+      "value": "Announcer"
+    },
+    {
+      "cardId": "b1-anschaulich",
+      "field": "lv",
+      "value": "Clear / vivid"
+    },
+    {
+      "cardId": "b1-anschreiben",
+      "field": "lv",
+      "value": "To write to"
+    },
+    {
+      "cardId": "b1-Ansichtskarte",
+      "field": "lv",
+      "value": "Postcard"
+    }
+  ]
+}

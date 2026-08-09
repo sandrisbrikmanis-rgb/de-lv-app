@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-08-09T07:46:39.659Z",
+  "cardsAudited": 2,
+  "fixes": {
+    "b1-fressen": "sectionAccents.explanation.purple → animals eating, gobble, wolf down",
+    "b1-verfolgen": "sectionAccents.comparison[1].meaning.purple → follow"
+  },
+  "findings": [
+    {
+      "severity": "MEDIUM",
+      "cardId": "b1-fressen",
+      "field": "sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "issue": "Latvian in sectionAccents",
+      "kind": "sectionAccents",
+      "accentKind": "PEDAGOGICAL"
+    }
+  ],
+  "totals": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 1
+  },
+  "verdict": "EN–DE B1 CRITICAL MICRO-REGRESSION #1 — FAIL — FOLLOW-UP REQUIRED",
+  "criticalCycleClosed": null,
+  "validation": {
+    "javascriptSyntax": true,
+    "totalCards": 3367,
+    "structuralParity": true,
+    "orderParity": true,
+    "idParity": true,
+    "deReadOnly": true,
+    "mirrorParity": true
+  }
+}
