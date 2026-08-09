@@ -2,7 +2,7 @@
 
 **Generated:** 2026-08-09T11:57:37.322Z
 
-**Status:** READY FOR OWNER REVIEW — no production changes
+**Status:** EN–DE B1 HIGH #13 OWNER REVIEW: COMPLETE — no production changes
 
 ## Report header
 
@@ -81,9 +81,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To toast" differs from audit Current EN "Main idea: rösten means to roast or roast food, especially coffee, bread, seeds or nuts."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: rösten means to roast or toast food, especially coffee, bread, seeds, or nuts.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 1/48
 
@@ -111,9 +111,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To toast" differs from audit Current EN "Main idea: rösten means to roast or roast food, especially coffee, bread, seeds or nuts."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To fry in a pan
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 1/48
 
@@ -141,9 +141,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To toast" differs from audit Current EN "Main idea: rösten means to roast or roast food, especially coffee, bread, seeds or nuts."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fry in a pan
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 2/48
 
@@ -171,9 +171,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To prepare" differs from audit Current EN "In a military context, it means to arm or arm."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In a military context, it means to arm or equip with weapons.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 2/48
 
@@ -201,9 +201,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To prepare" differs from audit Current EN "In a military context, it means to arm or arm."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: If preparation involves equipment, use rüsten.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 2/48
 
@@ -231,9 +231,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To prepare" differs from audit Current EN "In a military context, it means to arm or arm."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To prepare, to equip oneself • To arm
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 2/48
 
@@ -261,9 +261,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To prepare" differs from audit Current EN "In a military context, it means to arm or arm."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: to prepare
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 3/48
 
@@ -291,9 +291,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Seed" differs from audit Current EN "The volume germinates."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The crop is germinating.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 3/48
 
@@ -321,9 +321,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Seed" differs from audit Current EN "The volume germinates."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The crop is growing well.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 3/48
 
@@ -351,9 +351,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Seed" differs from audit Current EN "The volume germinates."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Seed, crop, or sowing
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 4/48
 
@@ -381,9 +381,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Layer" differs from audit Current EN "In a work context, it means change."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In a work context, it means shift.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 4/48
 
@@ -411,9 +411,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Layer" differs from audit Current EN "In a work context, it means change."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Layer, stratum • Work shift
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 4/48
 
@@ -441,9 +441,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Layer" differs from audit Current EN "In a work context, it means change."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: A surface can have a Schicht, or layer; at work, Schicht can mean a shift.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 4/48
 
@@ -471,9 +471,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Layer" differs from audit Current EN "In a work context, it means change."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: night shift
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 5/48
 
@@ -500,9 +500,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To melt
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 5/48
 
@@ -529,9 +529,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: schmelzen means to melt. If the substance changes by itself, translate it as “to melt”; if someone melts something, use “to melt” with an object.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 5/48
 
@@ -558,9 +558,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To melt or to melt something
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 5/48
 
@@ -587,9 +587,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: melt
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 6/48
 
@@ -617,9 +617,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To spread • To smear" differs from audit Current EN "smear, smear, or smear"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: spread, smear, or coat a surface
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 6/48
 
@@ -647,9 +647,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To spread • To smear" differs from audit Current EN "smear, smear, or smear"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The child scribbles on the wall.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 6/48
 
@@ -677,9 +677,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To spread • To smear" differs from audit Current EN "smear, smear, or smear"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To spread, to smear, to scribble messily
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 6/48
 
@@ -707,9 +707,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To spread • To smear" differs from audit Current EN "smear, smear, or smear"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To spread or paint with a brush
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 6/48
 
@@ -737,9 +737,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To spread • To smear" differs from audit Current EN "smear, smear, or smear"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: scribbles
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 6/48
 
@@ -767,9 +767,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To spread • To smear" differs from audit Current EN "smear, smear, or smear"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: butter
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 7/48
 
@@ -797,9 +797,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Cut" differs from audit Current EN "piegriezums"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: cut
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 7/48
 
@@ -827,9 +827,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Cut" differs from audit Current EN "piegriezums"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: editing
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 7/48
 
@@ -857,9 +857,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Cut" differs from audit Current EN "piegriezums"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: cut
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 8/48
 
@@ -887,9 +887,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Guilty" differs from audit Current EN "owed"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: owe
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 8/48
 
@@ -917,9 +917,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Guilty" differs from audit Current EN "owed"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fault
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 8/48
 
@@ -947,9 +947,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Guilty" differs from audit Current EN "owed"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: innocent
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 9/48
 
@@ -977,9 +977,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To protect" differs from audit Current EN "Must be protected from the sun."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: You must protect yourself from the sun.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 9/48
 
@@ -1007,9 +1007,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To protect" differs from audit Current EN "Must be protected from the sun."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Protect, safeguard
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 9/48
 
@@ -1037,9 +1037,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To protect" differs from audit Current EN "Must be protected from the sun."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: whom?
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 10/48
 
@@ -1067,9 +1067,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To fluctuate" differs from audit Current EN "in doubt"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: hesitates
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 10/48
 
@@ -1097,9 +1097,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To fluctuate" differs from audit Current EN "in doubt"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: doubt
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 11/48
 
@@ -1127,9 +1127,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To send" differs from audit Current EN "In everyday life, it is often more natural for people to have schicken."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In everyday life, it is often more natural for people to use schicken.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 11/48
 
@@ -1157,9 +1157,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To send" differs from audit Current EN "In everyday life, it is often more natural for people to have schicken."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Send in everyday situations
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 11/48
 
@@ -1187,9 +1187,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To send" differs from audit Current EN "In everyday life, it is often more natural for people to have schicken."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: transmits
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 11/48
 
@@ -1217,9 +1217,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To send" differs from audit Current EN "In everyday life, it is often more natural for people to have schicken."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: broadcast
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 12/48
 
@@ -1247,9 +1247,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Meaning" differs from audit Current EN "not literally “sense of humor”"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: not literally “the meaning of humor”
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 12/48
 
@@ -1277,9 +1277,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Meaning" differs from audit Current EN "not literally “sense of humor”"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: sense
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 12/48
 
@@ -1307,9 +1307,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Meaning" differs from audit Current EN "not literally “sense of humor”"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: the meaning of humor
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 13/48
 
@@ -1337,9 +1337,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Seat" differs from audit Current EN "der Sitz means a seat or seat. For a company or institution, it means domicile."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: der Sitz means a seat or seating place. For a company or institution, it means headquarters.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 13/48
 
@@ -1367,9 +1367,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Seat" differs from audit Current EN "der Sitz means a seat or seat. For a company or institution, it means domicile."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Seat, seating place • Headquarters
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 13/48
 
@@ -1397,9 +1397,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Seat" differs from audit Current EN "der Sitz means a seat or seat. For a company or institution, it means domicile."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: place
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 14/48
 
@@ -1427,9 +1427,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "As well as" differs from audit Current EN "un"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: And
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 14/48
 
@@ -1457,9 +1457,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "As well as" differs from audit Current EN "un"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: sowie does not always mean “as soon as”; in lists, it often means “as well as.”
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 15/48
 
@@ -1487,9 +1487,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Tension" differs from audit Current EN "Main idea: die Spannung means tension or tension. In technical language, especially in electricity, it means voltage."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: die Spannung means tension or strain. In technical language, especially in electricity, it means voltage.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 15/48
 
@@ -1517,9 +1517,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Tension" differs from audit Current EN "Main idea: die Spannung means tension or tension. In technical language, especially in electricity, it means voltage."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Tension • In electricity, voltage
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 15/48
 
@@ -1547,9 +1547,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Tension" differs from audit Current EN "Main idea: die Spannung means tension or tension. In technical language, especially in electricity, it means voltage."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In electricity, die Spannung translates as voltage, not emotional tension.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 15/48
 
@@ -1577,9 +1577,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Tension" differs from audit Current EN "Main idea: die Spannung means tension or tension. In technical language, especially in electricity, it means voltage."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Tension in a story or relationship; in electricity, voltage.
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 16/48
 
@@ -1606,9 +1606,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Tip; peak
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 16/48
 
@@ -1635,9 +1635,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: an der Spitze means at the top or in charge, not just physically above.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 16/48
 
@@ -1664,9 +1664,9 @@ The accent targets Latvian “smaile,” which is absent from the English field.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Tip, peak, leadership
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 17/48
 
@@ -1694,9 +1694,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Pencil" differs from audit Current EN "In the technique der Stift can be a pin instead of a pencil."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In technical contexts, der Stift can be a pin rather than a pencil.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 17/48
 
@@ -1724,9 +1724,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Pencil" differs from audit Current EN "In the technique der Stift can be a pin instead of a pencil."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: pin
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 17/48
 
@@ -1754,9 +1754,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Pencil" differs from audit Current EN "In the technique der Stift can be a pin instead of a pencil."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: ballpoint pen
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 17/48
 
@@ -1784,9 +1784,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Pencil" differs from audit Current EN "In the technique der Stift can be a pin instead of a pencil."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: pin
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 18/48
 
@@ -1814,9 +1814,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To breastfeed" differs from audit Current EN "With need, thirst, or curiosity, it means to appease or satisfy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: With needs, thirst, or curiosity, it means to relieve or satisfy them.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 18/48
 
@@ -1844,9 +1844,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To breastfeed" differs from audit Current EN "With need, thirst, or curiosity, it means to appease or satisfy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: quenches
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 18/48
 
@@ -1874,9 +1874,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To breastfeed" differs from audit Current EN "With need, thirst, or curiosity, it means to appease or satisfy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: to feed
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 19/48
 
@@ -1904,9 +1904,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Push" differs from audit Current EN "crashed into"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: hit
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 19/48
 
@@ -1934,9 +1934,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Push" differs from audit Current EN "crashed into"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: push
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 19/48
 
@@ -1964,9 +1964,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Push" differs from audit Current EN "crashed into"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: meet
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 19/48
 
@@ -1994,9 +1994,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Push" differs from audit Current EN "crashed into"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: bump into
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 20/48
 
@@ -2024,9 +2024,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Delete" differs from audit Current EN "streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: streichen means to cross out or remove something from a list. With a wall, fence, or paint, it means to paint; with a hand, it means to stroke.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 20/48
 
@@ -2054,9 +2054,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Delete" differs from audit Current EN "streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Delete a file or text; put out a fire
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 20/48
 
@@ -2084,9 +2084,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Delete" differs from audit Current EN "streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: eine Wand streichen means to paint the wall, not to cross out the wall.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 20/48
 
@@ -2114,9 +2114,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Delete" differs from audit Current EN "streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: paint
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 20/48
 
@@ -2144,9 +2144,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Delete" differs from audit Current EN "streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: strokes
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 20/48
 
@@ -2174,9 +2174,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Delete" differs from audit Current EN "streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: list
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 21/48
 
@@ -2204,9 +2204,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Current" differs from audit Current EN "upe"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: river
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 21/48
 
@@ -2234,9 +2234,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Current" differs from audit Current EN "upe"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: river
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 22/48
 
@@ -2264,9 +2264,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Fall down" differs from audit Current EN "With an object, it can mean overthrow, also overthrow a government or an official."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: With an object, it can mean to knock something down; it can also mean to overthrow a government or official.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 22/48
 
@@ -2294,9 +2294,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Fall down" differs from audit Current EN "With an object, it can mean overthrow, also overthrow a government or an official."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fall rapidly
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 22/48
 
@@ -2324,9 +2324,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Fall down" differs from audit Current EN "With an object, it can mean overthrow, also overthrow a government or an official."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fall
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 22/48
 
@@ -2354,9 +2354,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Fall down" differs from audit Current EN "With an object, it can mean overthrow, also overthrow a government or an official."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fall
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 23/48
 
@@ -2384,9 +2384,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "The scene" differs from audit Current EN "a certain environment of people"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: a particular social group or scene
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 23/48
 
@@ -2414,9 +2414,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "The scene" differs from audit Current EN "a certain environment of people"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Please don't make a scene.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 23/48
 
@@ -2444,9 +2444,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "The scene" differs from audit Current EN "a certain environment of people"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In a film, it is a scene; for a social group or style, use Szene.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 23/48
 
@@ -2474,9 +2474,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "The scene" differs from audit Current EN "a certain environment of people"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: scene
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 23/48
 
@@ -2504,9 +2504,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "The scene" differs from audit Current EN "a certain environment of people"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: scene
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 23/48
 
@@ -2534,9 +2534,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "The scene" differs from audit Current EN "a certain environment of people"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: stage
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 23/48
 
@@ -2564,9 +2564,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "The scene" differs from audit Current EN "a certain environment of people"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: scene
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 24/48
 
@@ -2594,9 +2594,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Dew" differs from audit Current EN "Das Tau, on the other hand, means a ship's tow or rope."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Das Tau, on the other hand, means a ship's towline or rope.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 24/48
 
@@ -2624,9 +2624,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Dew" differs from audit Current EN "Das Tau, on the other hand, means a ship's tow or rope."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: das Tau = towline or rope (die Taue).
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 25/48
 
@@ -2654,9 +2654,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Baptise" differs from audit Current EN "In church or giving a formal name: taufen."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In church or when giving something a formal name: taufen.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 25/48
 
@@ -2684,9 +2684,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Baptise" differs from audit Current EN "In church or giving a formal name: taufen."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: taufen does not mean “to bet”; it means to baptise or give a name.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 25/48
 
@@ -2714,9 +2714,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Baptise" differs from audit Current EN "In church or giving a formal name: taufen."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: named
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 26/48
 
@@ -2743,9 +2743,9 @@ Titel primarily translates as “title”; “name” is too narrow and misleadi
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Title
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 26/48
 
@@ -2772,9 +2772,9 @@ The example teaches “name” instead of the target meaning “title.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: I don't know the title of the song.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 26/48
 
@@ -2801,9 +2801,9 @@ The German article is incorrectly inserted into the English sentence.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: A book, song or film usually has a title.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 26/48
 
@@ -2830,9 +2830,9 @@ The accent highlights “word,” which is not the meaning shown in the English 
 Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Name
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 27/48
 
@@ -2859,9 +2859,9 @@ The translation omits the important meaning “tone.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Sound; tone
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 27/48
 
@@ -2888,9 +2888,9 @@ The sentence contains the Latvian word “runājot.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: “In einem Ton” when speaking refers to a manner of speaking, not just pitch.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 27/48
 
@@ -2917,9 +2917,9 @@ The accent token “in tone” is not present in the English sentence.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: calm tone
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 28/48
 
@@ -2947,9 +2947,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To trust" differs from audit Current EN "He dare not speak alone."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: He does not dare to speak alone.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 28/48
 
@@ -2977,9 +2977,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To trust" differs from audit Current EN "He dare not speak alone."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Trust someone: trauen; dare to do something: sich trauen.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 29/48
 
@@ -3006,9 +3006,9 @@ treiben in this sense means “to do” or “engage in,” not “to occupy.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To do; to engage in
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 29/48
 
@@ -3035,9 +3035,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: He does a lot of sport.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 29/48
 
@@ -3064,9 +3064,9 @@ The question is missing a question mark.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: What are you doing tonight?
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 29/48
 
@@ -3093,9 +3093,9 @@ antreiben generally means “to drive” or “urge,” not “chase.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Drive; urge
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 30/48
 
@@ -3123,9 +3123,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To separate" differs from audit Current EN "sich trennen means to separate; verskeiden means to distinguish by characteristics."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: sich trennen means to separate; unterscheiden means to distinguish by characteristics.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 31/48
 
@@ -3153,9 +3153,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To hand over" differs from audit Current EN "Bez sich tas ir nodot; ar sich tas ir vemt."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Without sich, it means “to hand over”; with sich, it means “to vomit.”
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 32/48
 
@@ -3183,9 +3183,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To overtake" differs from audit Current EN "Einen Motor überholen means overhauling, not overhauling the engine."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Einen Motor überholen means overhauling an engine, not overtaking it.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 33/48
 
@@ -3213,9 +3213,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Take over" differs from audit Current EN "Kosten oberkemen means to bear the cost, not just to receive it."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Kosten übernehmen means to bear the costs, not just to receive them.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 34/48
 
@@ -3242,9 +3242,9 @@ The translation omits the important meaning “to deal with.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To deal with; to bypass
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 34/48
 
@@ -3271,9 +3271,9 @@ The English sentence is missing its subject.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: You must not circumvent the rules.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 34/48
 
@@ -3300,9 +3300,9 @@ The two English glosses are duplicated and do not represent both source meanings
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To treat, to process
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 35/48
 
@@ -3330,9 +3330,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Entertain" differs from audit Current EN "unterhalten means to entertain or maintain."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: unterhalten means to entertain or support. sich unterhalten means to talk.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 35/48
 
@@ -3360,9 +3360,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Entertain" differs from audit Current EN "unterhalten means to entertain or maintain."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Entertain • Support
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 35/48
 
@@ -3390,9 +3390,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Entertain" differs from audit Current EN "unterhalten means to entertain or maintain."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Without sich: to entertain or support; with sich: to talk.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 36/48
 
@@ -3420,9 +3420,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Investigation" differs from audit Current EN "The context determines whether it is a doctor, a police officer, or a scientist."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The context determines whether it refers to a medical examination, a police investigation, or a scientific study.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 36/48
 
@@ -3450,9 +3450,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Investigation" differs from audit Current EN "The context determines whether it is a doctor, a police officer, or a scientist."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The doctor examines, the police investigate, and scientists conduct studies: die Untersuchung.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 37/48
 
@@ -3480,9 +3480,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To change" differs from audit Current EN "sich veränderen means to change yourself."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: sich verändern means to change or to change oneself.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 37/48
 
@@ -3510,9 +3510,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To change" differs from audit Current EN "sich veränderen means to change yourself."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: If something becomes different, verändern is often used.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 37/48
 
@@ -3540,9 +3540,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To change" differs from audit Current EN "sich veränderen means to change yourself."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: sich verändern means to change oneself; verändern without sich means to change something else.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 38/48
 
@@ -3570,9 +3570,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Bandage" differs from audit Current EN "der Verband not die Verbindung: A bandage or association is not a connection."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: der Verband is not die Verbindung: a bandage or association is not a connection.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 39/48
 
@@ -3600,9 +3600,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Connection" differs from audit Current EN "Has a direct connection to Berlin."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: There is a direct connection to Berlin.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 39/48
 
@@ -3630,9 +3630,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Connection" differs from audit Current EN "Has a direct connection to Berlin."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: die Verbindung is not der Verband. A connection and a bandage are different words.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/48
 
@@ -3660,9 +3660,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To burn" differs from audit Current EN "Main idea: verbrennen means to burn or burn to the point of destruction. With a body part, it means to burn."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: verbrennen means to burn something or burn up completely. With a body part, it means to burn yourself.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/48
 
@@ -3690,9 +3690,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To burn" differs from audit Current EN "Main idea: verbrennen means to burn or burn to the point of destruction. With a body part, it means to burn."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To burn, burn up, burn yourself
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/48
 
@@ -3720,9 +3720,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To burn" differs from audit Current EN "Main idea: verbrennen means to burn or burn to the point of destruction. With a body part, it means to burn."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: sich die Hand verbrennen means to burn your hand, not to burn it completely.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 40/48
 
@@ -3750,9 +3750,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To burn" differs from audit Current EN "Main idea: verbrennen means to burn or burn to the point of destruction. With a body part, it means to burn."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fire
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 41/48
 
@@ -3780,9 +3780,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To spoil" differs from audit Current EN "Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: verderben means to spoil something or become spoiled. For food, it often means that it is no longer edible.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 41/48
 
@@ -3810,9 +3810,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To spoil" differs from audit Current EN "Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Food, a plan, or a mood can spoil.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 41/48
 
@@ -3840,9 +3840,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To spoil" differs from audit Current EN "Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: verdorben for food means spoiled, not simply tasting bad.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 41/48
 
@@ -3870,9 +3870,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "To spoil" differs from audit Current EN "Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: spoiled
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 41/48
 
@@ -3900,9 +3900,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To spoil" differs from audit Current EN "Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: spoiled
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 42/48
 
@@ -3930,9 +3930,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To hurt" differs from audit Current EN "aizvainoja"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: hurt
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 42/48
 
@@ -3960,9 +3960,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To hurt" differs from audit Current EN "aizvainoja"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: injure
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 43/48
 
@@ -3990,9 +3990,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To insure" differs from audit Current EN "To insure • To certify"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To insure • To assure
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 43/48
 
@@ -4020,9 +4020,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "To insure" differs from audit Current EN "To insure • To certify"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: assured
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 43/48
 
@@ -4050,9 +4050,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To insure" differs from audit Current EN "To insure • To certify"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: assure
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 44/48
 
@@ -4080,9 +4080,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Tolerate" differs from audit Current EN "aizvietoju"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: replaced
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 45/48
 
@@ -4110,9 +4110,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Shift" differs from audit Current EN "der Wechsel means change or change. In special phrases such as Exchange rate, the meaning becomes specific."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: der Wechsel means a change or switch. In compounds such as Wechselkurs, the meaning becomes more specific.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 45/48
 
@@ -4140,9 +4140,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Shift" differs from audit Current EN "der Wechsel means change or change. In special phrases such as Exchange rate, the meaning becomes specific."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: der Wechselkurs means the exchange rate, not simply the process of changing or exchanging.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 46/48
 
@@ -4170,9 +4170,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To admit" differs from audit Current EN "Zubegen means to admit a mistake or a truth. ... dazubegen means to add to."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: zugeben means to admit a mistake or the truth. ... dazugeben means to add something.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 46/48
 
@@ -4200,9 +4200,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To admit" differs from audit Current EN "Zubegen means to admit a mistake or a truth. ... dazubegen means to add to."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Gib Salz dazu means “add salt,” not “admit.”
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 46/48
 
@@ -4230,9 +4230,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To admit" differs from audit Current EN "Zubegen means to admit a mistake or a truth. ... dazubegen means to add to."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Add
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 46/48
 
@@ -4260,9 +4260,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To admit" differs from audit Current EN "Zubegen means to admit a mistake or a truth. ... dazubegen means to add to."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Add to
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 47/48
 
@@ -4289,9 +4289,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Ignite; work or function
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 47/48
 
@@ -4318,9 +4318,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: ["ignite","work"]
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 47/48
 
@@ -4347,9 +4347,9 @@ The singular count noun needs an article.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The lighter does not light.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 47/48
 
@@ -4376,9 +4376,9 @@ The accent highlights a heading rather than the key vocabulary.
 Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: ["ignite","work"]
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 47/48
 
@@ -4405,9 +4405,9 @@ The accent contains a Latvian token.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To ignite
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 47/48
 
@@ -4434,9 +4434,9 @@ The accent contains a Latvian token.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To burn
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 47/48
 
@@ -4463,9 +4463,9 @@ The accent contains a Latvian token.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: starts working
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 48/48
 
@@ -4493,9 +4493,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Tax" differs from audit Current EN "das Steuer means the steering wheel or steering wheel"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: das Steuer means a rudder or steering wheel
+OWNER NOTE: OWNER approved linguistic correction.
 
 ---
 
@@ -4554,7 +4554,7 @@ Overlap with HIGH #12: 0
 
 Production changes: 0
 DE READ-ONLY: PASS
-OWNER decisions made: 0
+OWNER decisions made: 149
 Workflow unresolved HIGH cards before HIGH #13: 23
 HIGH #13 selected: 48
 Workflow unresolved HIGH cards after HIGH #13: 0
@@ -4562,3 +4562,22 @@ Audit-selection pool before HIGH #13: 48
 Audit-selection pool after HIGH #13: 0
 HIGH WORKFLOW SELECTION BACKLOG: EXHAUSTED
 ```
+---
+---
+
+## Owner review status
+
+EN–DE B1 HIGH #13 OWNER REVIEW: COMPLETE
+
+Cards reviewed: 48/48
+LABOT: 48
+NELABOT: 0
+Findings owner-resolved: 149/149
+PENDING remaining: 0
+
+Production changes: 0
+DE READ-ONLY: PASS
+
+HIGH REPAIR #13: NOT STARTED
+
+Next: EN–DE B1 HIGH REPAIR #13 — ALL 149 OWNER-APPROVED FINDINGS

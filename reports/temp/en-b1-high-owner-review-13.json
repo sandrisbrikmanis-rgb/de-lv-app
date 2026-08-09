@@ -587,10 +587,10 @@
   "auditSelectionPoolAfterHigh13": 0,
   "auditPoolBeforeHigh13Reference": 48,
   "highWorkflowSelectionExhausted": true,
-  "ownerReviewStatus": "EN–DE B1 HIGH #13 OWNER REVIEW: NOT STARTED",
+  "ownerReviewStatus": "EN–DE B1 HIGH #13 OWNER REVIEW: COMPLETE",
   "highRepair13Status": "NOT STARTED",
   "targetedRegression12Status": "DEFERRED",
-  "ownerDecisionsMade": 0,
+  "ownerDecisionsMade": 149,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -620,9 +620,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To toast\" differs from audit Current EN \"Main idea: rösten means to roast or roast food, especially coffee, bread, seeds or nuts.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: rösten means to roast or toast food, especially coffee, bread, seeds, or nuts.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -636,9 +636,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To toast\" differs from audit Current EN \"Main idea: rösten means to roast or roast food, especially coffee, bread, seeds or nuts.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To fry in a pan",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -652,11 +652,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To toast\" differs from audit Current EN \"Main idea: rösten means to roast or roast food, especially coffee, bread, seeds or nuts.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "fry in a pan",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 2,
@@ -684,9 +685,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To prepare\" differs from audit Current EN \"In a military context, it means to arm or arm.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In a military context, it means to arm or equip with weapons.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -700,9 +701,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To prepare\" differs from audit Current EN \"In a military context, it means to arm or arm.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "If preparation involves equipment, use rüsten.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -716,9 +717,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To prepare\" differs from audit Current EN \"In a military context, it means to arm or arm.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To prepare, to equip oneself • To arm",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -732,11 +733,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To prepare\" differs from audit Current EN \"In a military context, it means to arm or arm.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "to prepare",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 3,
@@ -764,9 +766,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Seed\" differs from audit Current EN \"The volume germinates.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The crop is germinating.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -780,9 +782,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Seed\" differs from audit Current EN \"The volume germinates.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The crop is growing well.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -796,11 +798,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Seed\" differs from audit Current EN \"The volume germinates.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Seed, crop, or sowing",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 4,
@@ -828,9 +831,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Layer\" differs from audit Current EN \"In a work context, it means change.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In a work context, it means shift.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -844,9 +847,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Layer\" differs from audit Current EN \"In a work context, it means change.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Layer, stratum • Work shift",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -860,9 +863,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Layer\" differs from audit Current EN \"In a work context, it means change.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "A surface can have a Schicht, or layer; at work, Schicht can mean a shift.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -876,11 +879,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Layer\" differs from audit Current EN \"In a work context, it means change.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "night shift",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 5,
@@ -908,9 +912,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To melt",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -924,9 +928,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "schmelzen means to melt. If the substance changes by itself, translate it as “to melt”; if someone melts something, use “to melt” with an object.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -940,9 +944,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To melt or to melt something",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -956,11 +960,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "melt",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 6,
@@ -988,9 +993,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spread • To smear\" differs from audit Current EN \"smear, smear, or smear\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "spread, smear, or coat a surface",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1004,9 +1009,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spread • To smear\" differs from audit Current EN \"smear, smear, or smear\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The child scribbles on the wall.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1020,9 +1025,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spread • To smear\" differs from audit Current EN \"smear, smear, or smear\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To spread, to smear, to scribble messily",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1036,9 +1041,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spread • To smear\" differs from audit Current EN \"smear, smear, or smear\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To spread or paint with a brush",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -1052,9 +1057,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spread • To smear\" differs from audit Current EN \"smear, smear, or smear\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "scribbles",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1068,11 +1073,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spread • To smear\" differs from audit Current EN \"smear, smear, or smear\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "butter",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 7,
@@ -1100,9 +1106,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Cut\" differs from audit Current EN \"piegriezums\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "cut",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "MEDIUM",
@@ -1116,9 +1122,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Cut\" differs from audit Current EN \"piegriezums\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "editing",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1132,11 +1138,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Cut\" differs from audit Current EN \"piegriezums\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "cut",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 8,
@@ -1164,9 +1171,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Guilty\" differs from audit Current EN \"owed\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "owe",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1180,9 +1187,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Guilty\" differs from audit Current EN \"owed\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "fault",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1196,11 +1203,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Guilty\" differs from audit Current EN \"owed\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "innocent",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 9,
@@ -1228,9 +1236,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To protect\" differs from audit Current EN \"Must be protected from the sun.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "You must protect yourself from the sun.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1244,9 +1252,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To protect\" differs from audit Current EN \"Must be protected from the sun.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Protect, safeguard",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1260,11 +1268,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To protect\" differs from audit Current EN \"Must be protected from the sun.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "whom?",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 10,
@@ -1292,9 +1301,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To fluctuate\" differs from audit Current EN \"in doubt\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "hesitates",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1308,11 +1317,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To fluctuate\" differs from audit Current EN \"in doubt\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "doubt",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 11,
@@ -1340,9 +1350,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To send\" differs from audit Current EN \"In everyday life, it is often more natural for people to have schicken.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In everyday life, it is often more natural for people to use schicken.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1356,9 +1366,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To send\" differs from audit Current EN \"In everyday life, it is often more natural for people to have schicken.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Send in everyday situations",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1372,9 +1382,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To send\" differs from audit Current EN \"In everyday life, it is often more natural for people to have schicken.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "transmits",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -1388,11 +1398,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To send\" differs from audit Current EN \"In everyday life, it is often more natural for people to have schicken.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "broadcast",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 12,
@@ -1420,9 +1431,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Meaning\" differs from audit Current EN \"not literally “sense of humor”\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "not literally “the meaning of humor”",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1436,9 +1447,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Meaning\" differs from audit Current EN \"not literally “sense of humor”\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "sense",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "MEDIUM",
@@ -1452,11 +1463,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Meaning\" differs from audit Current EN \"not literally “sense of humor”\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "the meaning of humor",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 13,
@@ -1484,9 +1496,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Seat\" differs from audit Current EN \"der Sitz means a seat or seat. For a company or institution, it means domicile.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "der Sitz means a seat or seating place. For a company or institution, it means headquarters.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1500,9 +1512,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Seat\" differs from audit Current EN \"der Sitz means a seat or seat. For a company or institution, it means domicile.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Seat, seating place • Headquarters",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1516,11 +1528,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Seat\" differs from audit Current EN \"der Sitz means a seat or seat. For a company or institution, it means domicile.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "place",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 14,
@@ -1548,9 +1561,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"As well as\" differs from audit Current EN \"un\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "And",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1564,11 +1577,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"As well as\" differs from audit Current EN \"un\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "sowie does not always mean “as soon as”; in lists, it often means “as well as.”",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 15,
@@ -1596,9 +1610,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Tension\" differs from audit Current EN \"Main idea: die Spannung means tension or tension. In technical language, especially in electricity, it means voltage.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: die Spannung means tension or strain. In technical language, especially in electricity, it means voltage.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1612,9 +1626,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Tension\" differs from audit Current EN \"Main idea: die Spannung means tension or tension. In technical language, especially in electricity, it means voltage.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Tension • In electricity, voltage",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1628,9 +1642,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Tension\" differs from audit Current EN \"Main idea: die Spannung means tension or tension. In technical language, especially in electricity, it means voltage.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In electricity, die Spannung translates as voltage, not emotional tension.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1644,11 +1658,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Tension\" differs from audit Current EN \"Main idea: die Spannung means tension or tension. In technical language, especially in electricity, it means voltage.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Tension in a story or relationship; in electricity, voltage.",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 16,
@@ -1676,9 +1691,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Tip; peak",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1692,9 +1707,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "an der Spitze means at the top or in charge, not just physically above.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1708,11 +1723,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Tip, peak, leadership",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 17,
@@ -1740,9 +1756,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Pencil\" differs from audit Current EN \"In the technique der Stift can be a pin instead of a pencil.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In technical contexts, der Stift can be a pin rather than a pencil.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1756,9 +1772,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Pencil\" differs from audit Current EN \"In the technique der Stift can be a pin instead of a pencil.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "pin",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1772,9 +1788,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Pencil\" differs from audit Current EN \"In the technique der Stift can be a pin instead of a pencil.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "ballpoint pen",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1788,11 +1804,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Pencil\" differs from audit Current EN \"In the technique der Stift can be a pin instead of a pencil.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "pin",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 18,
@@ -1820,9 +1837,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To breastfeed\" differs from audit Current EN \"With need, thirst, or curiosity, it means to appease or satisfy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "With needs, thirst, or curiosity, it means to relieve or satisfy them.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1836,9 +1853,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To breastfeed\" differs from audit Current EN \"With need, thirst, or curiosity, it means to appease or satisfy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "quenches",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1852,11 +1869,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To breastfeed\" differs from audit Current EN \"With need, thirst, or curiosity, it means to appease or satisfy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "to feed",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 19,
@@ -1884,9 +1902,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Push\" differs from audit Current EN \"crashed into\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "hit",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1900,9 +1918,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Push\" differs from audit Current EN \"crashed into\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "push",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1916,9 +1934,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Push\" differs from audit Current EN \"crashed into\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "meet",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1932,11 +1950,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Push\" differs from audit Current EN \"crashed into\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "bump into",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 20,
@@ -1964,9 +1983,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Delete\" differs from audit Current EN \"streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "streichen means to cross out or remove something from a list. With a wall, fence, or paint, it means to paint; with a hand, it means to stroke.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1980,9 +1999,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Delete\" differs from audit Current EN \"streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Delete a file or text; put out a fire",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1996,9 +2015,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Delete\" differs from audit Current EN \"streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "eine Wand streichen means to paint the wall, not to cross out the wall.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2012,9 +2031,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Delete\" differs from audit Current EN \"streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "paint",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "MEDIUM",
@@ -2028,9 +2047,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Delete\" differs from audit Current EN \"streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "strokes",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2044,11 +2063,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Delete\" differs from audit Current EN \"streichen means to strike or remove from a list. By wall, fence, or paint, it means to paint • With the hand - to caress.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "list",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 21,
@@ -2076,9 +2096,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Current\" differs from audit Current EN \"upe\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "river",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2092,11 +2112,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Current\" differs from audit Current EN \"upe\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "river",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 22,
@@ -2124,9 +2145,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Fall down\" differs from audit Current EN \"With an object, it can mean overthrow, also overthrow a government or an official.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "With an object, it can mean to knock something down; it can also mean to overthrow a government or official.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2140,9 +2161,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Fall down\" differs from audit Current EN \"With an object, it can mean overthrow, also overthrow a government or an official.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "fall rapidly",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2156,9 +2177,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Fall down\" differs from audit Current EN \"With an object, it can mean overthrow, also overthrow a government or an official.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "fall",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2172,11 +2193,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Fall down\" differs from audit Current EN \"With an object, it can mean overthrow, also overthrow a government or an official.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "fall",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 23,
@@ -2204,9 +2226,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The scene\" differs from audit Current EN \"a certain environment of people\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "a particular social group or scene",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2220,9 +2242,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The scene\" differs from audit Current EN \"a certain environment of people\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Please don't make a scene.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2236,9 +2258,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The scene\" differs from audit Current EN \"a certain environment of people\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In a film, it is a scene; for a social group or style, use Szene.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2252,9 +2274,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The scene\" differs from audit Current EN \"a certain environment of people\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "scene",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2268,9 +2290,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The scene\" differs from audit Current EN \"a certain environment of people\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "scene",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2284,9 +2306,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The scene\" differs from audit Current EN \"a certain environment of people\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "stage",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2300,11 +2322,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The scene\" differs from audit Current EN \"a certain environment of people\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "scene",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 24,
@@ -2332,9 +2355,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Dew\" differs from audit Current EN \"Das Tau, on the other hand, means a ship's tow or rope.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Das Tau, on the other hand, means a ship's towline or rope.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2348,11 +2371,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Dew\" differs from audit Current EN \"Das Tau, on the other hand, means a ship's tow or rope.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "das Tau = towline or rope (die Taue).",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 25,
@@ -2380,9 +2404,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Baptise\" differs from audit Current EN \"In church or giving a formal name: taufen.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In church or when giving something a formal name: taufen.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2396,9 +2420,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Baptise\" differs from audit Current EN \"In church or giving a formal name: taufen.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "taufen does not mean “to bet”; it means to baptise or give a name.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2412,11 +2436,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Baptise\" differs from audit Current EN \"In church or giving a formal name: taufen.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "named",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 26,
@@ -2444,9 +2469,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Title",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2460,9 +2485,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "I don't know the title of the song.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2476,9 +2501,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "A book, song or film usually has a title.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -2492,11 +2517,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Name",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 27,
@@ -2524,9 +2550,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Sound; tone",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2540,9 +2566,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "“In einem Ton” when speaking refers to a manner of speaking, not just pitch.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2556,11 +2582,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "calm tone",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 28,
@@ -2588,9 +2615,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To trust\" differs from audit Current EN \"He dare not speak alone.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "He does not dare to speak alone.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2604,11 +2631,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To trust\" differs from audit Current EN \"He dare not speak alone.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Trust someone: trauen; dare to do something: sich trauen.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 29,
@@ -2636,9 +2664,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To do; to engage in",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2652,9 +2680,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "He does a lot of sport.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -2668,9 +2696,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "What are you doing tonight?",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2684,11 +2712,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Drive; urge",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 30,
@@ -2716,11 +2745,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To separate\" differs from audit Current EN \"sich trennen means to separate; verskeiden means to distinguish by characteristics.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "sich trennen means to separate; unterscheiden means to distinguish by characteristics.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 31,
@@ -2748,11 +2778,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To hand over\" differs from audit Current EN \"Bez sich tas ir nodot; ar sich tas ir vemt.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Without sich, it means “to hand over”; with sich, it means “to vomit.”",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 32,
@@ -2780,11 +2811,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To overtake\" differs from audit Current EN \"Einen Motor überholen means overhauling, not overhauling the engine.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Einen Motor überholen means overhauling an engine, not overtaking it.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 33,
@@ -2812,11 +2844,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Take over\" differs from audit Current EN \"Kosten oberkemen means to bear the cost, not just to receive it.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Kosten übernehmen means to bear the costs, not just to receive them.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 34,
@@ -2844,9 +2877,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To deal with; to bypass",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2860,9 +2893,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "You must not circumvent the rules.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2876,11 +2909,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To treat, to process",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 35,
@@ -2908,9 +2942,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Entertain\" differs from audit Current EN \"unterhalten means to entertain or maintain.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "unterhalten means to entertain or support. sich unterhalten means to talk.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2924,9 +2958,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Entertain\" differs from audit Current EN \"unterhalten means to entertain or maintain.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Entertain • Support",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2940,11 +2974,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Entertain\" differs from audit Current EN \"unterhalten means to entertain or maintain.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Without sich: to entertain or support; with sich: to talk.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 36,
@@ -2972,9 +3007,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Investigation\" differs from audit Current EN \"The context determines whether it is a doctor, a police officer, or a scientist.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The context determines whether it refers to a medical examination, a police investigation, or a scientific study.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2988,11 +3023,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Investigation\" differs from audit Current EN \"The context determines whether it is a doctor, a police officer, or a scientist.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The doctor examines, the police investigate, and scientists conduct studies: die Untersuchung.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 37,
@@ -3020,9 +3056,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To change\" differs from audit Current EN \"sich veränderen means to change yourself.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "sich verändern means to change or to change oneself.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3036,9 +3072,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To change\" differs from audit Current EN \"sich veränderen means to change yourself.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "If something becomes different, verändern is often used.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3052,11 +3088,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To change\" differs from audit Current EN \"sich veränderen means to change yourself.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "sich verändern means to change oneself; verändern without sich means to change something else.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 38,
@@ -3084,11 +3121,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Bandage\" differs from audit Current EN \"der Verband not die Verbindung: A bandage or association is not a connection.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "der Verband is not die Verbindung: a bandage or association is not a connection.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 39,
@@ -3116,9 +3154,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Connection\" differs from audit Current EN \"Has a direct connection to Berlin.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "There is a direct connection to Berlin.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3132,11 +3170,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Connection\" differs from audit Current EN \"Has a direct connection to Berlin.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "die Verbindung is not der Verband. A connection and a bandage are different words.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 40,
@@ -3164,9 +3203,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To burn\" differs from audit Current EN \"Main idea: verbrennen means to burn or burn to the point of destruction. With a body part, it means to burn.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: verbrennen means to burn something or burn up completely. With a body part, it means to burn yourself.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3180,9 +3219,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To burn\" differs from audit Current EN \"Main idea: verbrennen means to burn or burn to the point of destruction. With a body part, it means to burn.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To burn, burn up, burn yourself",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3196,9 +3235,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To burn\" differs from audit Current EN \"Main idea: verbrennen means to burn or burn to the point of destruction. With a body part, it means to burn.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "sich die Hand verbrennen means to burn your hand, not to burn it completely.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3212,11 +3251,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To burn\" differs from audit Current EN \"Main idea: verbrennen means to burn or burn to the point of destruction. With a body part, it means to burn.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "fire",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 41,
@@ -3244,9 +3284,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spoil\" differs from audit Current EN \"Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: verderben means to spoil something or become spoiled. For food, it often means that it is no longer edible.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3260,9 +3300,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spoil\" differs from audit Current EN \"Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Food, a plan, or a mood can spoil.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -3276,9 +3316,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spoil\" differs from audit Current EN \"Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "verdorben for food means spoiled, not simply tasting bad.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3292,9 +3332,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spoil\" differs from audit Current EN \"Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "spoiled",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -3308,11 +3348,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To spoil\" differs from audit Current EN \"Main idea: verderben means to spoil something or spoil yourself. For food, it often means that it is no longer edible.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "spoiled",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 42,
@@ -3340,9 +3381,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To hurt\" differs from audit Current EN \"aizvainoja\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "hurt",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -3356,11 +3397,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To hurt\" differs from audit Current EN \"aizvainoja\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "injure",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 43,
@@ -3388,9 +3430,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To insure\" differs from audit Current EN \"To insure • To certify\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To insure • To assure",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3404,9 +3446,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To insure\" differs from audit Current EN \"To insure • To certify\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "assured",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -3420,11 +3462,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To insure\" differs from audit Current EN \"To insure • To certify\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "assure",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 44,
@@ -3452,11 +3495,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Tolerate\" differs from audit Current EN \"aizvietoju\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "replaced",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 45,
@@ -3484,9 +3528,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Shift\" differs from audit Current EN \"der Wechsel means change or change. In special phrases such as Exchange rate, the meaning becomes specific.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "der Wechsel means a change or switch. In compounds such as Wechselkurs, the meaning becomes more specific.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3500,11 +3544,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Shift\" differs from audit Current EN \"der Wechsel means change or change. In special phrases such as Exchange rate, the meaning becomes specific.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "der Wechselkurs means the exchange rate, not simply the process of changing or exchanging.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 46,
@@ -3532,9 +3577,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To admit\" differs from audit Current EN \"Zubegen means to admit a mistake or a truth. ... dazubegen means to add to.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "zugeben means to admit a mistake or the truth. ... dazugeben means to add something.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3548,9 +3593,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To admit\" differs from audit Current EN \"Zubegen means to admit a mistake or a truth. ... dazubegen means to add to.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Gib Salz dazu means “add salt,” not “admit.”",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -3564,9 +3609,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To admit\" differs from audit Current EN \"Zubegen means to admit a mistake or a truth. ... dazubegen means to add to.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Add",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -3580,11 +3625,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To admit\" differs from audit Current EN \"Zubegen means to admit a mistake or a truth. ... dazubegen means to add to.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Add to",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 47,
@@ -3612,9 +3658,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Ignite; work or function",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3628,9 +3674,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "[\"ignite\",\"work\"]",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3644,9 +3690,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The lighter does not light.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "PEDAGOGICAL",
@@ -3660,9 +3706,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "[\"ignite\",\"work\"]",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -3676,9 +3722,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To ignite",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -3692,9 +3738,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To burn",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -3708,11 +3754,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "starts working",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 48,
@@ -3740,11 +3787,29 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Tax\" differs from audit Current EN \"das Steuer means the steering wheel or steering wheel\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "das Steuer means a rudder or steering wheel",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     }
-  ]
+  ],
+  "ownerReviewComplete": {
+    "cardsReviewed": 48,
+    "labot": 48,
+    "nelabot": 0,
+    "findingsOwnerResolved": 149,
+    "pendingFindings": 0,
+    "completedAt": "2026-08-09T12:05:42.967Z"
+  },
+  "traceability": {
+    "auditFindingsTraceable": 149,
+    "missingOwnerDecisions": 0,
+    "missingOwnerFinalValues": 0,
+    "missingHelperMappings": 0,
+    "conflictingHelperMappings": 0,
+    "currentValueMismatches": 0,
+    "currentMismatchDetails": []
+  }
 }
