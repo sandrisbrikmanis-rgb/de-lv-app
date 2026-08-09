@@ -1,0 +1,990 @@
+{
+  "generatedAt": "2026-08-09T08:15:14.025Z",
+  "block": 2,
+  "status": "READY FOR OWNER REVIEW",
+  "excludedCriticalCycleCards": [
+    "Baumstumpf",
+    "b1-Baumstumpf-251",
+    "b1-fressen",
+    "b1-tau-2",
+    "b1-verfolgen"
+  ],
+  "excludedHigh1Cards": [
+    "b1-abhängen",
+    "b1-abschnitt",
+    "b1-antrag",
+    "b1-berichten",
+    "b1-blase",
+    "b1-bloß",
+    "b1-entlassen",
+    "b1-fördern",
+    "b1-handeln",
+    "b1-hort",
+    "b1-jagen",
+    "b1-kader",
+    "b1-kern",
+    "b1-kommando",
+    "b1-kurs",
+    "b1-kastanie",
+    "b1-rasen",
+    "b1-schale",
+    "b1-schlag",
+    "b1-senken",
+    "b1-sich-sorgen",
+    "b1-stellung",
+    "b1-tank",
+    "b1-teilnehmen",
+    "b1-verlegen"
+  ],
+  "exclusionVerification": {
+    "criticalCardsExcluded": "PASS",
+    "high1CardsExcluded": "PASS",
+    "duplicateCardsVsHigh1": 0,
+    "duplicateCardsVsCritical": 0,
+    "high1Source": "reports/temp/en-b1-high-owner-review-01.json"
+  },
+  "uniqueCardsSelected": 25,
+  "targetCards": 25,
+  "cardIds": [
+    "b1-weder",
+    "b1-zeugnis",
+    "b1-sich-befinden-study",
+    "b1-beruf",
+    "b1-Umgebung-6",
+    "b1-Aktentasche-8",
+    "b1-Alarm-11",
+    "b1-Angehörige-23",
+    "b1-abfragen-46",
+    "b1-abhängig-54",
+    "b1-Ablauf-59",
+    "b1-absichern-80",
+    "b1-absperren-84",
+    "b1-abschaffen-71",
+    "b1-Ambulanz-106",
+    "b1-Anklang-115",
+    "b1-anknüpfen-116",
+    "b1-Anlauf-117",
+    "b1-anlehnen-120",
+    "b1-anliegend-122",
+    "b1-Anrede-129",
+    "b1-Ansager-135",
+    "b1-anschaulich-136",
+    "b1-anschreiben-141",
+    "b1-Ansichtskarte-146"
+  ],
+  "firstCardId": "b1-weder",
+  "lastCardId": "b1-Ansichtskarte-146",
+  "counts": {
+    "highFindings": 30,
+    "associatedMedium": 7,
+    "associatedLow": 2,
+    "associatedWarning": 0,
+    "sectionAccentsTechnical": 6,
+    "sectionAccentsPedagogical": 0,
+    "duplicateRootIssueLinks": 1
+  },
+  "previousHigh1CardsExcluded": 25,
+  "criticalCycleCardsExcluded": "PASS",
+  "duplicateCardsVsPreviousBlocks": 0,
+  "remainingUniqueHighCards": 423,
+  "ownerDecisionsMade": 0,
+  "productionChanges": 0,
+  "deReadOnly": "PASS",
+  "cards": [
+    {
+      "sequence": 1,
+      "cardId": "b1-weder",
+      "lemma": "weder",
+      "article": null,
+      "plural": null,
+      "cardType": "standardStudy",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "LV leftover text",
+          "field": "entry[3215].study.sectionAccents.comparison[1].meaning.purple",
+          "currentEn": "vai nu",
+          "recommendedEn": "Replace “vai nu” with “either,” or the appropriate English meaning of weder.",
+          "reason": "The comparison meaning is Latvian.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "existing deterministic",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "HIGH",
+          "type": "LV leftover in sectionAccents",
+          "field": "study.sectionAccents (accent)",
+          "currentEn": "vai nu",
+          "recommendedEn": "Replace the Latvian accent with an English gloss such as neither...nor or either...or.",
+          "reason": "The accent contains Latvian text instead of English learner support.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "existing deterministic",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "MEDIUM",
+          "type": "PEDAGOGICAL_INACCURACY",
+          "field": "study.explanation",
+          "currentEn": "neither ... nor or not ... not",
+          "recommendedEn": "neither ... nor",
+          "reason": "“Not ... not” is not the normal English equivalent and may confuse learners.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "MEDIUM",
+          "type": "PEDAGOGICAL_INACCURACY",
+          "field": "study.examples[0].lv",
+          "currentEn": "I don't drink coffee or tea.",
+          "recommendedEn": "I drink neither coffee nor tea.",
+          "reason": "The translation does not clearly express the paired weder ... noch construction.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "cardId": "b1-zeugnis",
+      "lemma": "Zeugnis",
+      "article": "das",
+      "plural": "die Zeugnisse",
+      "cardType": "standardStudy",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "LV leftover reference",
+          "field": "entry[3270].study.important.text",
+          "currentEn": "ärztliches Zeugnis is often a doctor's certificate in Latvian, not a school certificate.",
+          "recommendedEn": "Replace the Latvian reference with an English explanation that ärztliches Zeugnis means a doctor's certificate.",
+          "reason": "The note frames the distinction around Latvian rather than English.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "existing deterministic",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "MEDIUM",
+          "type": "meta-pedagogy learner perspective",
+          "field": "entry[3270].study.important.text",
+          "currentEn": "ärztliches Zeugnis is often a doctor's certificate in Latvian, not a school certificate.",
+          "recommendedEn": "Explain that ärztliches Zeugnis means a medical certificate or doctor's note, not a school report.",
+          "reason": "It frames the distinction through Latvian rather than English terminology.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "existing deterministic",
+          "duplicateNote": "DUPLICATE / SAME ROOT ISSUE (see Finding 1)",
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "HIGH",
+          "type": "MEANING_ERROR",
+          "field": "study.translation",
+          "currentEn": "Testimony",
+          "recommendedEn": "Certificate; school report card",
+          "reason": "“Testimony” does not fit the common school-certificate meaning.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "HIGH",
+          "type": "MEANING_ERROR",
+          "field": "study.explanation",
+          "currentEn": "In school, this is usually a sign of success.",
+          "recommendedEn": "In school, this usually means a school report card.",
+          "reason": "“Sign of success” is misleading for a school report card.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "HIGH",
+          "type": "MEANING_ERROR",
+          "field": "study.examples[0].lv",
+          "currentEn": "The child receives a testimony today.",
+          "recommendedEn": "The child receives a school report card today.",
+          "reason": "“Receives a testimony” is unnatural and suggests a court statement.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "MEDIUM",
+          "type": "DUPLICATION",
+          "field": "study.comparison[0].meaning",
+          "currentEn": "Testimony, certificate, certificate",
+          "recommendedEn": "Testimony, certificate, official statement",
+          "reason": "The third item incorrectly repeats “certificate”.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "MEDIUM",
+          "type": "MEANING_ERROR",
+          "field": "study.comparison[1].meaning",
+          "currentEn": "Acknowledgment, confirmation",
+          "recommendedEn": "Certificate, confirmation",
+          "reason": "“Acknowledgment” is not the usual meaning of Bescheinigung.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "TECHNICAL",
+          "type": "SECTION_ACCENT",
+          "field": "study.examples[1].lv",
+          "currentEn": "knowledge",
+          "recommendedEn": "Highlight “doctor’s note”.",
+          "reason": "The highlighted token is absent and does not match the example.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": "TECHNICAL",
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "TECHNICAL",
+          "type": "SECTION_ACCENT",
+          "field": "study.comparison[1].meaning",
+          "currentEn": "cognition",
+          "recommendedEn": "Highlight “Certificate” or “confirmation”.",
+          "reason": "The accent is not valid English target text for this meaning.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": "TECHNICAL",
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "TECHNICAL",
+          "type": "SECTION_ACCENT",
+          "field": "study.comparison[2].meaning",
+          "currentEn": "liecinieks",
+          "recommendedEn": "Highlight “A witness”.",
+          "reason": "The accent contains a Latvian token, not English target text.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": "TECHNICAL",
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "cardId": "b1-sich-befinden-study",
+      "lemma": "sich befinden",
+      "article": null,
+      "plural": null,
+      "cardType": "standardStudy",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "LV leftover text",
+          "field": "entry[3344].study.tip.leftBlocks[1].text",
+          "currentEn": "Ja gribi pateikt “justies”, lieto sich fühlen, nevis sich befinden.",
+          "recommendedEn": "Rewrite in English: use sich fühlen to say “feel,” not sich befinden.",
+          "reason": "The learner instruction is written in Latvian.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "existing deterministic",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "MEDIUM",
+          "type": "inaccurate_translation",
+          "field": "study.comparison[2].meaning",
+          "currentEn": "To be / sleep",
+          "recommendedEn": "To lie / to be located",
+          "reason": "“Liegen” does not mean “sleep” in this location comparison.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "LOW",
+          "type": "broken_section_accent",
+          "field": "study.sectionAccents.examples[4].lv[0]",
+          "currentEn": "i feel",
+          "recommendedEn": "Use “I feel” in the accent target.",
+          "reason": "The accent target has incorrect capitalization and may not function.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": "TECHNICAL",
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "cardId": "b1-beruf",
+      "lemma": "Beruf",
+      "article": "der",
+      "plural": "die Berufe",
+      "cardType": "standardStudy",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "LV leftover in sectionAccents",
+          "field": "study.sectionAccents (accent)",
+          "currentEn": "darba",
+          "recommendedEn": "Replace the Latvian accent with an English gloss for Beruf, such as profession, occupation, or job.",
+          "reason": "The accent contains an untranslated Latvian gloss.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": "TECHNICAL",
+          "source": "existing deterministic",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "LOW",
+          "type": "PUNCTUATION",
+          "field": "study.examples[0].lv",
+          "currentEn": "What is your profession",
+          "recommendedEn": "What is your profession?",
+          "reason": "The direct question is missing a question mark.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "HIGH",
+          "type": "GRAMMAR",
+          "field": "study.examples[1].lv",
+          "currentEn": "My profession is a teacher.",
+          "recommendedEn": "I am a teacher.",
+          "reason": "The current sentence is unnatural and uses the wrong complement structure.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "MEDIUM",
+          "type": "COHESION",
+          "field": "study.important.text",
+          "currentEn": "This is usually a person's profession or field of work.",
+          "recommendedEn": "It usually refers to a person's profession or field of work.",
+          "reason": "“This” has an unclear antecedent.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        },
+        {
+          "severity": "TECHNICAL",
+          "type": "SECTION_ACCENT",
+          "field": "study.tip.leftBlocks[0].text",
+          "currentEn": "profesiju",
+          "recommendedEn": "Highlight “profession”.",
+          "reason": "The accent contains a Latvian token.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": "TECHNICAL",
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 5,
+      "cardId": "b1-Umgebung-6",
+      "lemma": "Umgebung",
+      "article": "die",
+      "plural": "die Umgebungen",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MISTRANSLATION",
+          "field": "lv",
+          "currentEn": "Neighborhood",
+          "recommendedEn": "Surroundings",
+          "reason": "Umgebung means surroundings or environment, not specifically a neighborhood.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 6,
+      "cardId": "b1-Aktentasche-8",
+      "lemma": "Aktentasche",
+      "article": "die",
+      "plural": "die Aktentaschen",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MISTRANSLATION",
+          "field": "lv",
+          "currentEn": "Portfolio",
+          "recommendedEn": "Briefcase",
+          "reason": "Aktentasche is a briefcase or document case, not a portfolio.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 7,
+      "cardId": "b1-Alarm-11",
+      "lemma": "Alarm",
+      "article": "der",
+      "plural": "die Alarme",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MISTRANSLATION",
+          "field": "lv",
+          "currentEn": "Anxiety",
+          "recommendedEn": "Alarm",
+          "reason": "Alarm means a warning signal or state of alarm, not anxiety.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 8,
+      "cardId": "b1-Angehörige-23",
+      "lemma": "Angehörige",
+      "article": "der",
+      "plural": "die Angehörigen",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MISTRANSLATION",
+          "field": "lv",
+          "currentEn": "Belonging to",
+          "recommendedEn": "Relative",
+          "reason": "As a noun, Angehörige means a relative or family member.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 9,
+      "cardId": "b1-abfragen-46",
+      "lemma": "abfragen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MISTRANSLATION",
+          "field": "lv",
+          "currentEn": "To request",
+          "recommendedEn": "To ask or query",
+          "reason": "Abfragen means to ask, query, or test someone, not to request.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 10,
+      "cardId": "b1-abhängig-54",
+      "lemma": "abhängig",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "PART_OF_SPEECH_ERROR",
+          "field": "lv",
+          "currentEn": "Depends",
+          "recommendedEn": "Dependent",
+          "reason": "Abhängig is an adjective meaning dependent; “depends” is a verb.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 11,
+      "cardId": "b1-Ablauf-59",
+      "lemma": "Ablauf",
+      "article": "der",
+      "plural": "die Abläufe",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MISTRANSLATION",
+          "field": "lv",
+          "currentEn": "Progress",
+          "recommendedEn": "Process",
+          "reason": "Ablauf usually means process, sequence, or course, not progress.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 12,
+      "cardId": "b1-absichern-80",
+      "lemma": "absichern",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MISTRANSLATION",
+          "field": "lv",
+          "currentEn": "To provide",
+          "recommendedEn": "To secure",
+          "reason": "Absichern means to secure, safeguard, or ensure, not simply to provide.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 13,
+      "cardId": "b1-absperren-84",
+      "lemma": "absperren",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "UNNATURAL_TRANSLATION",
+          "field": "lv",
+          "currentEn": "Delimiting",
+          "recommendedEn": "To cordon off",
+          "reason": "“Delimiting” is unnatural here; absperren means to cordon off, block, or lock.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 14,
+      "cardId": "b1-abschaffen-71",
+      "lemma": "abschaffen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "LATVIAN_TEXT_IN_ENGLISH_FIELD",
+          "field": "lv",
+          "currentEn": "Atcelt",
+          "recommendedEn": "To abolish",
+          "reason": "The English field contains a Latvian word instead of an English translation.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 15,
+      "cardId": "b1-Ambulanz-106",
+      "lemma": "Ambulanz",
+      "article": "die",
+      "plural": "die Ambulanzen",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Emergency assistance",
+          "recommendedEn": "Outpatient clinic",
+          "reason": "Ambulanz usually means an outpatient clinic or hospital department.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 16,
+      "cardId": "b1-Anklang-115",
+      "lemma": "Anklang",
+      "article": "der",
+      "plural": "die Anklänge",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Responsiveness",
+          "recommendedEn": "Appeal",
+          "reason": "Anklang means appeal or resonance, not responsiveness.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 17,
+      "cardId": "b1-anknüpfen-116",
+      "lemma": "anknüpfen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "To attract",
+          "recommendedEn": "To connect",
+          "reason": "Anknüpfen means to connect or build on something, not to attract.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 18,
+      "cardId": "b1-Anlauf-117",
+      "lemma": "Anlauf",
+      "article": "der",
+      "plural": "die Anläufe",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Run in",
+          "recommendedEn": "Run-up",
+          "reason": "Anlauf means a run-up or initial attempt; run in has a different meaning.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 19,
+      "cardId": "b1-anlehnen-120",
+      "lemma": "anlehnen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Push",
+          "recommendedEn": "Lean against",
+          "reason": "Anlehnen means to lean against or lean something against something.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 20,
+      "cardId": "b1-anliegend-122",
+      "lemma": "anliegend",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "In the appendix",
+          "recommendedEn": "Attached",
+          "reason": "Anliegend means attached or enclosed, not in the appendix.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 21,
+      "cardId": "b1-Anrede-129",
+      "lemma": "Anrede",
+      "article": "die",
+      "plural": "die Anreden",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Speech",
+          "recommendedEn": "Form of address",
+          "reason": "Anrede refers to a salutation or form of address, not a speech.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 22,
+      "cardId": "b1-Ansager-135",
+      "lemma": "Ansager",
+      "article": "der",
+      "plural": "die Ansager",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "The applicant",
+          "recommendedEn": "Announcer",
+          "reason": "Ansager means announcer; applicant is Bewerber or Antragsteller.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 23,
+      "cardId": "b1-anschaulich-136",
+      "lemma": "anschaulich",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Considered",
+          "recommendedEn": "Clear",
+          "reason": "Anschaulich means clear, vivid, or illustrative, not considered.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 24,
+      "cardId": "b1-anschreiben-141",
+      "lemma": "anschreiben",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "To write down",
+          "recommendedEn": "To write to",
+          "reason": "Anschreiben means to write to someone; write down is aufschreiben.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 25,
+      "cardId": "b1-Ansichtskarte-146",
+      "lemma": "Ansichtskarte",
+      "article": "die",
+      "plural": "die Ansichtskarten",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "View card",
+          "recommendedEn": "Postcard",
+          "reason": "Ansichtskarte is the standard German word for postcard.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    }
+  ]
+}
