@@ -984,6 +984,9 @@ OWNER VERDICT: LABOT
 OWNER FINAL EN: furtively
 OWNER NOTE: OWNER approved sectionAccent correction.
 
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: Horn • Horn → Horn
+Associated repair note: Identisks dubultojums front kartītē nav pedagoģiski jēgpilns.
+
 CARD 11/50
 
 Audit Card ID: b1-hupe
@@ -1010,9 +1013,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Horn • Horn" differs from audit Current EN "die Hupe = bugle or bugle. Plural: die Hupen."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: die Hupe = horn. Plural: die Hupen.
+OWNER NOTE: “Bugle” nav Hupe parastā nozīme. Nav vajadzīgs arī “ship's horn” kā otrs galvenais gloss; vienkāršais “horn” ir precīzs learner-facing variants.
 
 CARD 12/50
 
@@ -1040,9 +1043,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To be wrong" differs from audit Current EN "Main idea: erren means to err or go astray."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: irren means to err or go astray.
+OWNER NOTE: “erren” ir kļūdaina vācu lemma.
 
 CARD 12/50
 
@@ -1070,9 +1073,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To be wrong" differs from audit Current EN "Main idea: erren means to err or go astray."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: REMOVE DUPLICATE ACCENTS
+OWNER NOTE: Saglabāt tikai vienu matching “Main” accent; izņemt visus duplicate “Main” targets bez atbilstoša occurrence.
 
 CARD 13/50
 
@@ -1100,9 +1103,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To sweep" differs from audit Current EN "He glances at the door."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: He turns his gaze toward the door.
+OWNER NOTE: “glances” maina kehren konstrukcijas nozīmi; šeit runa ir par apzinātu skatiena pavēršanu.
 
 CARD 13/50
 
@@ -1130,9 +1133,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To sweep" differs from audit Current EN "He glances at the door."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Kehren is often used with a broom, for example when sweeping a yard; zurückkehren is a different verb.
+OWNER NOTE: Dabiskāks EN un skaidrāks learner-facing kontrasts.
 
 CARD 14/50
 
@@ -1160,9 +1163,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Jaw" differs from audit Current EN "The article here is not a trifle; der and die completely change the meaning of a word."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The article here is not a minor detail; der and die completely change the word's meaning.
+OWNER NOTE: Luna correction apstiprināts.
 
 CARD 14/50
 
@@ -1190,9 +1193,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Jaw" differs from audit Current EN "The article here is not a trifle; der and die completely change the meaning of a word."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: change the word's meaning
+OWNER NOTE: Accent jāatbilst izlabotā important teksta faktiskajai frāzei un capitalization.
 
 CARD 14/50
 
@@ -1220,9 +1223,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Jaw" differs from audit Current EN "The article here is not a trifle; der and die completely change the meaning of a word."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: article
+OWNER NOTE: LV token aizstāt ar matching EN tokenu.
 
 CARD 15/50
 
@@ -1250,9 +1253,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Overturn" differs from audit Current EN "Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: kippen means to overturn or tilt something so that it loses its balance.
+OWNER NOTE: Noņemt nevajadzīgo “To kippen” un duplicate “tilt”.
 
 CARD 15/50
 
@@ -1280,9 +1283,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Overturn" differs from audit Current EN "Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Do not tilt the chair back.
+OWNER NOTE: Nepieciešams imperatīvs.
 
 CARD 15/50
 
@@ -1310,9 +1313,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Overturn" differs from audit Current EN "Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To turn over
+OWNER NOTE: umdrehen = to turn over / turn around, nevis to cut.
 
 CARD 15/50
 
@@ -1340,9 +1343,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Overturn" differs from audit Current EN "Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: kippen does not simply mean “to fall”; it often involves tilting or a sudden change in mood.
+OWNER NOTE: Luna recommendation joprojām atstāja nedabisko “not simply fallen”. OWNER FINAL ir gramatiski un semantiski skaidrāks.
 
 CARD 15/50
 
@@ -1370,9 +1373,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Overturn" differs from audit Current EN "Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: REMOVE DUPLICATE ACCENT
+OWNER NOTE: “kippen” redzamajā tekstā ir tikai viens matching occurrence.
 
 CARD 16/50
 
@@ -1400,9 +1403,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Succeed" differs from audit Current EN "Main"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: REMOVE DUPLICATE ACCENTS
+OWNER NOTE: Saglabāt tikai vienu matching “Main” accent.
 
 CARD 16/50
 
@@ -1430,9 +1433,12 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Succeed" differs from audit Current EN "Main"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: work
+OWNER NOTE: LV token aizstāt ar matching EN learner-facing tokenu.
+
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: Needy → Barely enough
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 CARD 17/50
 
@@ -1459,9 +1465,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Barely enough
+OWNER NOTE: “Needy” apzīmē trūcīgu cilvēku un neatbilst šīs kartītes knapp nozīmei.
 
 CARD 17/50
 
@@ -1488,9 +1494,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: knapp means: enough, but only barely.
+OWNER NOTE: “not nearly enough” ir pretēja nozīme. OWNER FINAL ir dabiskāks par “enough, but barely enough”.
 
 CARD 18/50
 
@@ -1518,9 +1524,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To cross" differs from audit Current EN "kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: kreuzen means to cross; sich kreuzen means to intersect or cross each other, for example when roads, lines, or routes meet.
+OWNER NOTE: Skaidri nodalīt transitive kreuzen un reflexive sich kreuzen lietojumu.
 
 CARD 18/50
 
@@ -1548,9 +1554,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To cross" differs from audit Current EN "kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To cross / intersect
+OWNER NOTE: Novērst duplicate gloss.
 
 CARD 18/50
 
@@ -1578,9 +1584,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To cross" differs from audit Current EN "kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: intersect
+OWNER NOTE: LV target aizstāt ar EN.
 
 CARD 18/50
 
@@ -1608,9 +1614,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To cross" differs from audit Current EN "kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: cross
+OWNER NOTE: Izmantot mācāmo darbības vārda target tokenu, nevis pronoun + gloss fragmentu.
 
 CARD 18/50
 
@@ -1638,9 +1644,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To cross" differs from audit Current EN "kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: cross
+OWNER NOTE: Audit evidence rāda example: “Please mark the correct answer with a cross.” Tāpēc exact target token ir “cross”, nevis “Mark it”.
 
 CARD 19/50
 
@@ -1650,6 +1656,7 @@ DE: Kunde
 Current EN: Customer
 Card type: standardStudy
 Production index: 1660
+KUNDE SHARED PRODUCTION IDENTITY: YES
 
 SEVERITY: MEDIUM
 CATEGORY: language
@@ -1668,9 +1675,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Customer" differs from audit Current EN "In an older or literary language, die Kunde can mean a message or message."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In older or literary German, die Kunde can mean a message or piece of news.
+OWNER NOTE: Novērst duplicate “message” un precizēt, ka runa ir par German register.
 
 CARD 19/50
 
@@ -1680,6 +1687,7 @@ DE: Kunde
 Current EN: Customer
 Card type: standardStudy
 Production index: 1660
+KUNDE SHARED PRODUCTION IDENTITY: YES
 
 SEVERITY: MEDIUM
 CATEGORY: naturalness
@@ -1698,9 +1706,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Customer" differs from audit Current EN "In an older or literary language, die Kunde can mean a message or message."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The customer pays at the checkout.
+OWNER NOTE: “at the checkout” ir dabiskāks šajā kontekstā.
 
 CARD 19/50
 
@@ -1710,6 +1718,7 @@ DE: Kunde
 Current EN: Customer
 Card type: standardStudy
 Production index: 1660
+KUNDE SHARED PRODUCTION IDENTITY: YES
 
 SEVERITY: HIGH
 CATEGORY: section-accent
@@ -1728,9 +1737,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Customer" differs from audit Current EN "In an older or literary language, die Kunde can mean a message or message."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: customer
+OWNER NOTE: LV token aizstāt ar EN.
 
 CARD 19/50
 
@@ -1740,6 +1749,7 @@ DE: Kunde
 Current EN: Customer
 Card type: standardStudy
 Production index: 1660
+KUNDE SHARED PRODUCTION IDENTITY: YES
 
 SEVERITY: HIGH
 CATEGORY: section-accent
@@ -1758,9 +1768,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Customer" differs from audit Current EN "In an older or literary language, die Kunde can mean a message or message."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: customer
+OWNER NOTE: LV token aizstāt ar EN.
 
 CARD 20/50
 
@@ -1770,6 +1780,8 @@ DE: Kunde
 Current EN: Customer
 Card type: standardStudy
 Production index: 1660
+KUNDE SHARED PRODUCTION IDENTITY: YES
+Audit alias note: Audit ID b1-kunde maps to production identity b1-kunde-2 at index 1660; not an independent production card.
 
 SEVERITY: MEDIUM
 CATEGORY: language
@@ -1788,9 +1800,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Customer" differs from audit Current EN "die Kunde is a message or message."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In older or literary German, die Kunde can mean a message or piece of news.
+OWNER NOTE: Apzināti izmantot TO PAŠU gala explanation kā CARD 19, lai alias findings neradītu savstarpēju OWNER FINAL collision.
 
 CARD 20/50
 
@@ -1800,6 +1812,8 @@ DE: Kunde
 Current EN: Customer
 Card type: standardStudy
 Production index: 1660
+KUNDE SHARED PRODUCTION IDENTITY: YES
+Audit alias note: Audit ID b1-kunde maps to production identity b1-kunde-2 at index 1660; not an independent production card.
 
 SEVERITY: HIGH
 CATEGORY: section-accent
@@ -1818,9 +1832,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Customer" differs from audit Current EN "die Kunde is a message or message."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: customer
+OWNER NOTE: Tas pats production field jānonāk pie vienas konsekventas EN accent vērtības.
 
 CARD 21/50
 
@@ -5380,22 +5394,36 @@ Calculated workflow remaining: 23
 Discrepancy: none
 ```
 ---
+---
 
 ## Owner review progress
 
-EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 1/5 COMPLETE
+EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 2/5 COMPLETE
 
-Cards reviewed: 10/10
+Cards/audit entries reviewed (block 2): 10/10
 LABOT: 10
 NELABOT: 0
-PENDING remaining in cards 01–10: 0
+Findings owner-resolved (block 2): 28
+PENDING remaining cards 11–20: 0
 
-Cumulative cards reviewed: 10/50
-Cumulative LABOT: 10
+Cumulative cards/audit entries reviewed: 20/50
+Cumulative LABOT: 20
 Cumulative NELABOT: 0
+Cumulative findings owner-resolved: 59
+
+Associated top-level repairs recorded:
+- Hupe — Horn • Horn → Horn
+- knapp — Needy → Barely enough
+
+Kunde metadata:
+Audit IDs: b1-kunde-2 + b1-kunde
+Production identity: b1-kunde-2
+Production index: 1660
+Shared production identity: YES
+Expected unique production cards (cards 19–20): 1
 
 Production changes: 0
 DE READ-ONLY: PASS
 
-Next: HIGH #12 OWNER REVIEW — BLOCK 2/5 (cards 11–20)
+Next: HIGH #12 OWNER REVIEW — BLOCK 3/5 (cards 21–30)
 HIGH REPAIR #12 not started.

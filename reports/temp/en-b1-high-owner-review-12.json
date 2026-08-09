@@ -537,7 +537,7 @@
   "expectedArithmeticRemaining": 23,
   "calculatedWorkflowRemaining": 23,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 31,
+  "ownerDecisionsMade": 59,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -1233,9 +1233,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Horn • Horn\" differs from audit Current EN \"die Hupe = bugle or bugle. Plural: die Hupen.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "die Hupe = horn. Plural: die Hupen.",
+          "ownerNote": "“Bugle” nav Hupe parastā nozīme. Nav vajadzīgs arī “ship's horn” kā otrs galvenais gloss; vienkāršais “horn” ir precīzs learner-facing variants."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Horn • Horn",
+          "ownerFinalEn": "Horn",
+          "ownerNote": "Identisks dubultojums front kartītē nav pedagoģiski jēgpilns."
         }
       ]
     },
@@ -1265,9 +1274,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To be wrong\" differs from audit Current EN \"Main idea: erren means to err or go astray.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: irren means to err or go astray.",
+          "ownerNote": "“erren” ir kļūdaina vācu lemma."
         },
         {
           "severity": "TECHNICAL",
@@ -1281,11 +1290,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To be wrong\" differs from audit Current EN \"Main idea: erren means to err or go astray.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "REMOVE DUPLICATE ACCENTS",
+          "ownerNote": "Saglabāt tikai vienu matching “Main” accent; izņemt visus duplicate “Main” targets bez atbilstoša occurrence."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 13,
@@ -1313,9 +1323,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To sweep\" differs from audit Current EN \"He glances at the door.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "He turns his gaze toward the door.",
+          "ownerNote": "“glances” maina kehren konstrukcijas nozīmi; šeit runa ir par apzinātu skatiena pavēršanu."
         },
         {
           "severity": "MEDIUM",
@@ -1329,11 +1339,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To sweep\" differs from audit Current EN \"He glances at the door.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Kehren is often used with a broom, for example when sweeping a yard; zurückkehren is a different verb.",
+          "ownerNote": "Dabiskāks EN un skaidrāks learner-facing kontrasts."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 14,
@@ -1361,9 +1372,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Jaw\" differs from audit Current EN \"The article here is not a trifle; der and die completely change the meaning of a word.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The article here is not a minor detail; der and die completely change the word's meaning.",
+          "ownerNote": "Luna correction apstiprināts."
         },
         {
           "severity": "TECHNICAL",
@@ -1377,9 +1388,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Jaw\" differs from audit Current EN \"The article here is not a trifle; der and die completely change the meaning of a word.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "change the word's meaning",
+          "ownerNote": "Accent jāatbilst izlabotā important teksta faktiskajai frāzei un capitalization."
         },
         {
           "severity": "HIGH",
@@ -1393,11 +1404,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Jaw\" differs from audit Current EN \"The article here is not a trifle; der and die completely change the meaning of a word.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "article",
+          "ownerNote": "LV token aizstāt ar matching EN tokenu."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 15,
@@ -1425,9 +1437,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Overturn\" differs from audit Current EN \"Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: kippen means to overturn or tilt something so that it loses its balance.",
+          "ownerNote": "Noņemt nevajadzīgo “To kippen” un duplicate “tilt”."
         },
         {
           "severity": "HIGH",
@@ -1441,9 +1453,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Overturn\" differs from audit Current EN \"Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Do not tilt the chair back.",
+          "ownerNote": "Nepieciešams imperatīvs."
         },
         {
           "severity": "HIGH",
@@ -1457,9 +1469,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Overturn\" differs from audit Current EN \"Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To turn over",
+          "ownerNote": "umdrehen = to turn over / turn around, nevis to cut."
         },
         {
           "severity": "MEDIUM",
@@ -1473,9 +1485,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Overturn\" differs from audit Current EN \"Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "kippen does not simply mean “to fall”; it often involves tilting or a sudden change in mood.",
+          "ownerNote": "Luna recommendation joprojām atstāja nedabisko “not simply fallen”. OWNER FINAL ir gramatiski un semantiski skaidrāks."
         },
         {
           "severity": "TECHNICAL",
@@ -1489,11 +1501,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Overturn\" differs from audit Current EN \"Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "REMOVE DUPLICATE ACCENT",
+          "ownerNote": "“kippen” redzamajā tekstā ir tikai viens matching occurrence."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 16,
@@ -1521,9 +1534,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Succeed\" differs from audit Current EN \"Main\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "REMOVE DUPLICATE ACCENTS",
+          "ownerNote": "Saglabāt tikai vienu matching “Main” accent."
         },
         {
           "severity": "HIGH",
@@ -1537,11 +1550,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Succeed\" differs from audit Current EN \"Main\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "work",
+          "ownerNote": "LV token aizstāt ar matching EN learner-facing tokenu."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 17,
@@ -1569,9 +1583,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Barely enough",
+          "ownerNote": "“Needy” apzīmē trūcīgu cilvēku un neatbilst šīs kartītes knapp nozīmei."
         },
         {
           "severity": "MEDIUM",
@@ -1585,9 +1599,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "knapp means: enough, but only barely.",
+          "ownerNote": "“not nearly enough” ir pretēja nozīme. OWNER FINAL ir dabiskāks par “enough, but barely enough”."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Needy",
+          "ownerFinalEn": "Barely enough",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -1617,9 +1640,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To cross\" differs from audit Current EN \"kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "kreuzen means to cross; sich kreuzen means to intersect or cross each other, for example when roads, lines, or routes meet.",
+          "ownerNote": "Skaidri nodalīt transitive kreuzen un reflexive sich kreuzen lietojumu."
         },
         {
           "severity": "MEDIUM",
@@ -1633,9 +1656,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To cross\" differs from audit Current EN \"kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To cross / intersect",
+          "ownerNote": "Novērst duplicate gloss."
         },
         {
           "severity": "TECHNICAL",
@@ -1649,9 +1672,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To cross\" differs from audit Current EN \"kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "intersect",
+          "ownerNote": "LV target aizstāt ar EN."
         },
         {
           "severity": "TECHNICAL",
@@ -1665,9 +1688,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To cross\" differs from audit Current EN \"kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "cross",
+          "ownerNote": "Izmantot mācāmo darbības vārda target tokenu, nevis pronoun + gloss fragmentu."
         },
         {
           "severity": "TECHNICAL",
@@ -1681,11 +1704,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To cross\" differs from audit Current EN \"kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "cross",
+          "ownerNote": "Audit evidence rāda example: “Please mark the correct answer with a cross.” Tāpēc exact target token ir “cross”, nevis “Mark it”."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 19,
@@ -1713,9 +1737,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Customer\" differs from audit Current EN \"In an older or literary language, die Kunde can mean a message or message.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In older or literary German, die Kunde can mean a message or piece of news.",
+          "ownerNote": "Novērst duplicate “message” un precizēt, ka runa ir par German register."
         },
         {
           "severity": "MEDIUM",
@@ -1729,9 +1753,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Customer\" differs from audit Current EN \"In an older or literary language, die Kunde can mean a message or message.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The customer pays at the checkout.",
+          "ownerNote": "“at the checkout” ir dabiskāks šajā kontekstā."
         },
         {
           "severity": "HIGH",
@@ -1745,9 +1769,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Customer\" differs from audit Current EN \"In an older or literary language, die Kunde can mean a message or message.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "customer",
+          "ownerNote": "LV token aizstāt ar EN."
         },
         {
           "severity": "HIGH",
@@ -1761,11 +1785,13 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Customer\" differs from audit Current EN \"In an older or literary language, die Kunde can mean a message or message.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "customer",
+          "ownerNote": "LV token aizstāt ar EN."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT",
+      "kundeSharedProductionIdentity": true
     },
     {
       "sequence": 20,
@@ -1793,9 +1819,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Customer\" differs from audit Current EN \"die Kunde is a message or message.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In older or literary German, die Kunde can mean a message or piece of news.",
+          "ownerNote": "Apzināti izmantot TO PAŠU gala explanation kā CARD 19, lai alias findings neradītu savstarpēju OWNER FINAL collision."
         },
         {
           "severity": "HIGH",
@@ -1809,11 +1835,14 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Customer\" differs from audit Current EN \"die Kunde is a message or message.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "customer",
+          "ownerNote": "Tas pats production field jānonāk pie vienas konsekventas EN accent vērtības."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT",
+      "kundeSharedProductionIdentity": true,
+      "auditAliasNote": "Audit ID b1-kunde maps to production identity b1-kunde-2 at index 1660; not an independent production card."
     },
     {
       "sequence": 21,
@@ -4209,5 +4238,44 @@
     "cumulativeNelabot": 0,
     "completedAt": "2026-08-09T11:18:04.701Z"
   },
-  "ownerReviewStatus": "EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 1/5 COMPLETE"
+  "ownerReviewStatus": "EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 2/5 COMPLETE",
+  "kundeSharedProductionIdentity": {
+    "yes": true,
+    "auditEntries": 2,
+    "auditIds": [
+      "b1-kunde-2",
+      "b1-kunde"
+    ],
+    "productionIdentity": "b1-kunde-2",
+    "productionIndex": 1660,
+    "expectedUniqueProductionCardsRepresentedByCards19To20": 1,
+    "note": "Mandatory HIGH REPAIR #12 identity gate — do not count as two production cards."
+  },
+  "ownerReviewBlock2": {
+    "block": "2/5",
+    "cardsReviewed": 10,
+    "labot": 10,
+    "nelabot": 0,
+    "findingsOwnerResolved": 28,
+    "pendingInBlock2": 0,
+    "associatedTopLevelRepairs": [
+      {
+        "cardId": "b1-hupe",
+        "field": "lv",
+        "from": "Horn • Horn",
+        "to": "Horn"
+      },
+      {
+        "cardId": "b1-knapp",
+        "field": "lv",
+        "from": "Needy",
+        "to": "Barely enough"
+      }
+    ],
+    "cumulativeCardsReviewed": 20,
+    "cumulativeLabot": 20,
+    "cumulativeNelabot": 0,
+    "cumulativeFindingsOwnerResolved": 59,
+    "completedAt": "2026-08-09T11:23:16.394Z"
+  }
 }
