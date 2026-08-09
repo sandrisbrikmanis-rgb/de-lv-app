@@ -1,57 +1,239 @@
 {
-  "generatedAt": "2026-08-09T13:03:10.999Z",
-  "status": "NOT STARTED",
-  "scope": "16 follow-up repairs only",
-  "repairFindingIds": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16
-  ],
-  "cards": [
-    "b1-kern",
-    "b1-kastanie",
-    "b1-bildschirm",
-    "b1-einführung",
-    "b1-einheit",
-    "b1-folge",
-    "b1-geschlecht",
-    "b1-gewinn",
-    "b1-griff",
-    "b1-kiefer",
-    "b1-leistung",
-    "b1-los",
-    "b1-schnitt",
-    "b1-spitze"
-  ],
-  "fields": [
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "study.explanation",
-    "sectionAccents.explanation.purple[1]",
-    "sectionAccents.explanation.purple[0]"
-  ]
+  "generatedAt": "2026-08-09T13:10:20.900Z",
+  "scope": {
+    "followUpRepairFindings": 16,
+    "followUpRepairFindingsRepresented": 16,
+    "explanationRepairs": 14,
+    "sectionAccentFollowUps": 2,
+    "uniqueAffectedCards": 14,
+    "coveragePercent": 100
+  },
+  "findings": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "total": 0,
+    "inScopeBlocking": 0
+  },
+  "explanationVerification": {
+    "fullStringIntegrity": "14/14 PASS",
+    "fullStringPassCount": 14,
+    "truncatedRemaining": 0,
+    "perCard": {
+      "b1-kern": {
+        "exact": true,
+        "truncated": false,
+        "len": 136,
+        "expectedLen": 136
+      },
+      "b1-kastanie": {
+        "exact": true,
+        "truncated": false,
+        "len": 127,
+        "expectedLen": 127
+      },
+      "b1-bildschirm": {
+        "exact": true,
+        "truncated": false,
+        "len": 131,
+        "expectedLen": 131
+      },
+      "b1-einführung": {
+        "exact": true,
+        "truncated": false,
+        "len": 167,
+        "expectedLen": 167
+      },
+      "b1-einheit": {
+        "exact": true,
+        "truncated": false,
+        "len": 128,
+        "expectedLen": 128
+      },
+      "b1-folge": {
+        "exact": true,
+        "truncated": false,
+        "len": 158,
+        "expectedLen": 158
+      },
+      "b1-geschlecht": {
+        "exact": true,
+        "truncated": false,
+        "len": 152,
+        "expectedLen": 152
+      },
+      "b1-gewinn": {
+        "exact": true,
+        "truncated": false,
+        "len": 123,
+        "expectedLen": 123
+      },
+      "b1-griff": {
+        "exact": true,
+        "truncated": false,
+        "len": 130,
+        "expectedLen": 130
+      },
+      "b1-kiefer": {
+        "exact": true,
+        "truncated": false,
+        "len": 127,
+        "expectedLen": 127
+      },
+      "b1-leistung": {
+        "exact": true,
+        "truncated": false,
+        "len": 138,
+        "expectedLen": 138
+      },
+      "b1-los": {
+        "exact": true,
+        "truncated": false,
+        "len": 145,
+        "expectedLen": 145
+      },
+      "b1-schnitt": {
+        "exact": true,
+        "truncated": false,
+        "len": 127,
+        "expectedLen": 127
+      },
+      "b1-spitze": {
+        "exact": true,
+        "truncated": false,
+        "len": 122,
+        "expectedLen": 122
+      }
+    }
+  },
+  "sectionAccents": {
+    "newTECHNICAL": 0,
+    "newPEDAGOGICAL": 0,
+    "b1FolgeSeries": "PASS",
+    "b1GriffGrip": "PASS",
+    "validatorIssuesOnScopeCards": 6,
+    "preExistingOnScopeCards": 6,
+    "newAfterFollowUpRepair": 0,
+    "knownBacklogOnScopeCards": 4,
+    "newInScopeAccentIssues": 0
+  },
+  "cardResults": {
+    "b1-kern": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-kastanie": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-bildschirm": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-einführung": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-einheit": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-folge": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-geschlecht": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-gewinn": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-griff": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-kiefer": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-leistung": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-los": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-schnitt": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    },
+    "b1-spitze": {
+      "explanation": "PASS",
+      "sectionAccents": "PASS"
+    }
+  },
+  "tooling": {
+    "truncationRegression": "PASS",
+    "fullValueRoundTrip": "PASS",
+    "detail": {
+      "truncatedOldPath": true,
+      "fullNewPath": true,
+      "oldLen": 116,
+      "newLen": 158,
+      "expectedLen": 158
+    }
+  },
+  "diffVerification": {
+    "commitBaseline": "742abac5^",
+    "followUpCommit": "742abac5",
+    "explanationFieldsChanged": 14,
+    "sectionAccentFieldsChanged": 0,
+    "outOfScopeFieldsChanged": 0,
+    "falsePositiveFieldsChanged": 0,
+    "unrelatedFieldsChanged": 0,
+    "unrelatedChangedCards": [],
+    "changedExplanationCards": [
+      "b1-bildschirm",
+      "b1-einführung",
+      "b1-einheit",
+      "b1-folge",
+      "b1-geschlecht",
+      "b1-gewinn",
+      "b1-griff",
+      "b1-kern",
+      "b1-kiefer",
+      "b1-kastanie",
+      "b1-leistung",
+      "b1-los",
+      "b1-schnitt",
+      "b1-spitze"
+    ],
+    "lvChangedInGit": false
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "structuralParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "cardCount": 3367,
+    "mirrorParity": "PASS",
+    "utf8Mojibake": "PASS",
+    "suspiciousUnicode": "PASS",
+    "deReadOnly": "PASS",
+    "productionChangesDuringAudit": 0
+  },
+  "knownBacklog": {
+    "outOfScopeRealIssues": 26,
+    "knownFalsePositive": 1,
+    "repairedInThisAudit": 0,
+    "validatorRemainingReported": 25
+  },
+  "microRegression2Result": "PASS",
+  "highRegressionChain": "CLOSED",
+  "b1FinalDataset": "STILL BLOCKED BY 26 OUT-OF-SCOPE SECTIONACCENT ISSUES",
+  "findingsDetail": []
 }
