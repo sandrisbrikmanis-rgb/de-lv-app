@@ -7045,22 +7045,27 @@
     ]
   },
   {
-    "repairCycle": "HIGH #10",
-    "findingId": "HIGH #10-b1-absatz-study.sectionAccents.examples[3].lv.purple",
+    "repairCycle": "final_sectionaccent_cleanup",
+    "findingId": "FINAL SECTIONACCENT CLEANUP 1-purple-array",
     "auditCardId": "b1-absatz",
     "productionIdentity": "b1-absatz",
     "productionIndex": 70,
     "fieldPath": "study.sectionAccents.examples[3].lv.purple",
-    "expectedOwnerFinal": "The",
-    "currentMainValue": "[\"The\"]",
+    "expectedOwnerFinal": "[\"Sales\"]",
+    "currentMainValue": "[\"Sales\"]",
     "status": "MATCH",
-    "sourceReport": "reports/en-b1-high-repair-10.md",
-    "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+    "sourceReport": "reports/en-b1-final-sectionaccent-cleanup.md",
+    "sourceRepairLog": "reports/temp/en-b1-final-sectionaccent-cleanup-repair-log.json",
     "repairChain": [
       {
         "cycle": "HIGH #10",
         "findingId": "HIGH #10-b1-absatz-study.sectionAccents.examples[3].lv.purple",
         "value": "The"
+      },
+      {
+        "cycle": "final_sectionaccent_cleanup",
+        "findingId": "FINAL SECTIONACCENT CLEANUP 1-purple-array",
+        "value": "[\"Sales\"]"
       }
     ]
   },
@@ -7905,22 +7910,27 @@
     ]
   },
   {
-    "repairCycle": "HIGH #10",
-    "findingId": "HIGH #10-b1-bedeutend-study.sectionAccents.examples[2].lv",
+    "repairCycle": "final_sectionaccent_cleanup",
+    "findingId": "FINAL SECTIONACCENT CLEANUP 2-purple-array",
     "auditCardId": "b1-bedeutend",
     "productionIdentity": "b1-bedeutend",
     "productionIndex": 263,
     "fieldPath": "study.sectionAccents.examples[2].lv.purple",
-    "expectedOwnerFinal": "significantly",
-    "currentMainValue": "[\"significantly\"]",
+    "expectedOwnerFinal": "[\"much\"]",
+    "currentMainValue": "[\"much\"]",
     "status": "MATCH",
-    "sourceReport": "reports/en-b1-high-repair-10.md",
-    "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+    "sourceReport": "reports/en-b1-final-sectionaccent-cleanup.md",
+    "sourceRepairLog": "reports/temp/en-b1-final-sectionaccent-cleanup-repair-log.json",
     "repairChain": [
       {
         "cycle": "HIGH #10",
         "findingId": "HIGH #10-b1-bedeutend-study.sectionAccents.examples[2].lv",
         "value": "significantly"
+      },
+      {
+        "cycle": "final_sectionaccent_cleanup",
+        "findingId": "FINAL SECTIONACCENT CLEANUP 2-purple-array",
+        "value": "[\"much\"]"
       }
     ]
   },
@@ -23036,6 +23046,66 @@
         "cycle": "integration_regression_followup_2",
         "findingId": "FOLLOW-UP MICRO-REGRESSION FINDING 1",
         "value": "context"
+      }
+    ]
+  },
+  {
+    "repairCycle": "final_sectionaccent_cleanup",
+    "findingId": "FINAL SECTIONACCENT CLEANUP 1",
+    "auditCardId": "b1-absatz",
+    "productionIdentity": "b1-absatz",
+    "productionIndex": 70,
+    "fieldPath": "study.sectionAccents.examples[3].lv.purple[0]",
+    "expectedOwnerFinal": "Sales",
+    "currentMainValue": "Sales",
+    "status": "MATCH",
+    "sourceReport": "reports/en-b1-final-sectionaccent-cleanup.md",
+    "sourceRepairLog": "reports/temp/en-b1-final-sectionaccent-cleanup-repair-log.json",
+    "repairChain": [
+      {
+        "cycle": "final_sectionaccent_cleanup",
+        "findingId": "FINAL SECTIONACCENT CLEANUP 1",
+        "value": "Sales"
+      }
+    ]
+  },
+  {
+    "repairCycle": "final_sectionaccent_cleanup",
+    "findingId": "FINAL SECTIONACCENT CLEANUP 2",
+    "auditCardId": "b1-bedeutend",
+    "productionIdentity": "b1-bedeutend",
+    "productionIndex": 263,
+    "fieldPath": "study.sectionAccents.examples[2].lv.purple[0]",
+    "expectedOwnerFinal": "much",
+    "currentMainValue": "much",
+    "status": "MATCH",
+    "sourceReport": "reports/en-b1-final-sectionaccent-cleanup.md",
+    "sourceRepairLog": "reports/temp/en-b1-final-sectionaccent-cleanup-repair-log.json",
+    "repairChain": [
+      {
+        "cycle": "final_sectionaccent_cleanup",
+        "findingId": "FINAL SECTIONACCENT CLEANUP 2",
+        "value": "much"
+      }
+    ]
+  },
+  {
+    "repairCycle": "final_sectionaccent_cleanup",
+    "findingId": "FINAL SECTIONACCENT CLEANUP 3",
+    "auditCardId": "b1-belegen",
+    "productionIdentity": "b1-belegen",
+    "productionIndex": 329,
+    "fieldPath": "study.sectionAccents.important.purple",
+    "expectedOwnerFinal": "[\"reserved\"]",
+    "currentMainValue": "[\"reserved\"]",
+    "status": "MATCH",
+    "sourceReport": "reports/en-b1-final-sectionaccent-cleanup.md",
+    "sourceRepairLog": "reports/temp/en-b1-final-sectionaccent-cleanup-repair-log.json",
+    "repairChain": [
+      {
+        "cycle": "final_sectionaccent_cleanup",
+        "findingId": "FINAL SECTIONACCENT CLEANUP 3",
+        "value": "[\"reserved\"]"
       }
     ]
   }

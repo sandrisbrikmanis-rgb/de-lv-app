@@ -59,6 +59,11 @@ const CYCLE_ORDER = [
     label: "Integration regression follow-up #2 (1)",
     order: 18,
   },
+  {
+    id: "final_sectionaccent_cleanup",
+    label: "Final sectionAccent cleanup (3)",
+    order: 19,
+  },
 ];
 
 const MICRO_EXPLANATION_CARDS = [
@@ -719,6 +724,37 @@ function collectAllRawMappings() {
         sourceReport: "reports/en-b1-main-integration-follow-up-repair-2.md",
         sourceRepairLog: "reports/temp/en-b1-main-integration-follow-up-repair-2-log.json",
       });
+    }
+  }
+
+  const finalCleanup = loadJsonFromRepo("reports/temp/en-b1-final-sectionaccent-cleanup.json", "");
+  if (finalCleanup?.repairs) {
+    for (const r of finalCleanup.repairs) {
+      all.push({
+        repairCycle: "final_sectionaccent_cleanup",
+        findingId: r.findingId,
+        auditCardId: r.cardId,
+        productionIdentity: r.productionIdentity || normProd(r.cardId),
+        productionIndex: r.productionIndex,
+        fieldPath: r.fieldPath,
+        expectedOwnerFinal: r.ownerFinal,
+        sourceReport: "reports/en-b1-final-sectionaccent-cleanup.md",
+        sourceRepairLog: "reports/temp/en-b1-final-sectionaccent-cleanup-repair-log.json",
+      });
+      if (r.fieldPath.match(/\.purple\[0\]$/)) {
+        const arrayPath = r.fieldPath.replace(/\[0\]$/, "");
+        all.push({
+          repairCycle: "final_sectionaccent_cleanup",
+          findingId: `${r.findingId}-purple-array`,
+          auditCardId: r.cardId,
+          productionIdentity: r.productionIdentity || normProd(r.cardId),
+          productionIndex: r.productionIndex,
+          fieldPath: arrayPath,
+          expectedOwnerFinal: Array.isArray(r.ownerFinal) ? r.ownerFinal : [r.ownerFinal],
+          sourceReport: "reports/en-b1-final-sectionaccent-cleanup.md",
+          sourceRepairLog: "reports/temp/en-b1-final-sectionaccent-cleanup-repair-log.json",
+        });
+      }
     }
   }
 

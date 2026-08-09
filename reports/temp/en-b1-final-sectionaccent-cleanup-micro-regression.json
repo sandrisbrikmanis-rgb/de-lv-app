@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-08-09T15:03:18.148Z",
+  "pass": true,
+  "coverage": {
+    "findingsRepresented": 3,
+    "physicalFieldsRepresented": 3,
+    "uniqueCardsAudited": 3,
+    "coveragePercent": 100
+  },
+  "findings": [],
+  "repairChecks": [
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 1",
+      "cardId": "b1-absatz",
+      "pass": true,
+      "actual": "Sales",
+      "targetExists": true,
+      "staleRemaining": false,
+      "targetText": "Sales have increased this year.",
+      "expected": "Sales"
+    },
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 2",
+      "cardId": "b1-bedeutend",
+      "pass": true,
+      "actual": "much",
+      "targetExists": true,
+      "staleRemaining": false,
+      "targetText": "I am much better today.",
+      "expected": "much"
+    },
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 3",
+      "cardId": "b1-belegen",
+      "pass": true,
+      "actual": [
+        "reserved"
+      ],
+      "targetExists": true,
+      "staleRemaining": false,
+      "targetText": "belegt often means 'occupied'; \"reserved\" is usually reserviert in German.",
+      "expected": [
+        "reserved"
+      ]
+    }
+  ],
+  "preservation": {
+    "regressionPass": 214,
+    "regressionTotal": 214,
+    "microPass": 16,
+    "microTotal": 16,
+    "fullStringPass": 14,
+    "fullStringTotal": 14,
+    "sectionPass": 24,
+    "sectionTotal": 24,
+    "followUp1Pass": 8,
+    "followUp1Total": 8,
+    "followUp2Pass": 1,
+    "followUp2Total": 1,
+    "truncated": []
+  },
+  "reconciliation": {
+    "finalMappingCount": 1143,
+    "presentInMain": 1143,
+    "missingFromMain": 0,
+    "unresolved": 0
+  },
+  "globalValidator": {
+    "rawCount": 1,
+    "validatedReal": 0,
+    "documentedFalsePositive": 1,
+    "unexpected": 0,
+    "classified": [
+      {
+        "de": "einerlei",
+        "term": "doesn't matter",
+        "section": "explanation",
+        "field": null,
+        "classification": "DOCUMENTED FALSE POSITIVE"
+      }
+    ]
+  },
+  "validation": {
+    "javascript": true,
+    "mirrorParity": true,
+    "deReadOnly": true,
+    "structuralParity": true,
+    "mojibake": true
+  }
+}

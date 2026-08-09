@@ -2049,7 +2049,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "Sales"
               ]
             }
           }
@@ -6345,7 +6345,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "significantly"
+                "much"
               ]
             }
           }
@@ -7268,7 +7268,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "busy",
             "reserved"
           ]
         }

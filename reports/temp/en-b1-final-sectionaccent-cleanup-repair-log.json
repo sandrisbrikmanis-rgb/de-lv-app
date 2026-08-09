@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-08-09T15:01:33.613Z",
+  "repairs": [
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 1",
+      "cardId": "b1-absatz",
+      "fieldPath": "study.sectionAccents.examples[3].lv.purple[0]",
+      "status": "APPLIED",
+      "ownerFinal": "Sales"
+    },
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 2",
+      "cardId": "b1-bedeutend",
+      "fieldPath": "study.sectionAccents.examples[2].lv.purple[0]",
+      "status": "APPLIED",
+      "ownerFinal": "much"
+    },
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 3",
+      "cardId": "b1-belegen",
+      "fieldPath": "study.sectionAccents.important.purple",
+      "status": "APPLIED",
+      "ownerFinal": [
+        "reserved"
+      ]
+    }
+  ],
+  "counts": {
+    "applied": 3,
+    "preconditionMismatch": 0,
+    "verifyFail": 0
+  },
+  "uniqueCards": [
+    "b1-absatz",
+    "b1-bedeutend",
+    "b1-belegen"
+  ],
+  "physicalFields": [
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 1",
+      "cardId": "b1-absatz",
+      "fieldPath": "study.sectionAccents.examples[3].lv.purple[0]",
+      "ownerFinal": "Sales"
+    },
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 2",
+      "cardId": "b1-bedeutend",
+      "fieldPath": "study.sectionAccents.examples[2].lv.purple[0]",
+      "ownerFinal": "much"
+    },
+    {
+      "findingId": "FINAL SECTIONACCENT CLEANUP 3",
+      "cardId": "b1-belegen",
+      "fieldPath": "study.sectionAccents.important.purple",
+      "ownerFinal": [
+        "reserved"
+      ]
+    }
+  ]
+}
