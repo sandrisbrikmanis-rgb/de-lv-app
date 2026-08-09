@@ -1,0 +1,524 @@
+{
+  "generatedAt": "2026-08-09T17:43:16.837Z",
+  "group": "2",
+  "dryRun": false,
+  "approved": 50,
+  "attempted": 50,
+  "applied": 50,
+  "verified": 50,
+  "currentValueMismatch": 0,
+  "notFound": 0,
+  "skip": 0,
+  "changedCards": [
+    "b2-Gefallen-885",
+    "b2-Geschwür-954",
+    "b2-Glatze-995",
+    "b2-Gutachten-1047",
+    "b2-Hafengebühr-1056",
+    "b2-Harsch-1067",
+    "b2-Konsequenz-1192",
+    "b2-Korps-1198",
+    "b2-Landsmann-1211",
+    "b2-Luftbad-1263",
+    "b2-Mieder-1310",
+    "b2-Monatsschrift-1338",
+    "b2-Morddezernat-388",
+    "b2-Neuauflage-1373",
+    "b2-Pfahlbau-1443",
+    "b2-Preisträger-1470",
+    "b2-Radierung-1487",
+    "b2-Schmarotzer-1591",
+    "b2-Segelflieger-1626",
+    "b2-friedfertig-837",
+    "b2-gelaunt-903",
+    "b2-gewieft-978",
+    "b2-gleichmütig-997",
+    "b2-gurgeln-1045",
+    "b2-hauteng-1076",
+    "b2-hetzen-1112",
+    "b2-hintergehen-1123",
+    "b2-hochwertig-1146",
+    "b2-nachträglich-1357",
+    "b2-namens-1361",
+    "b2-parteilich-1431",
+    "b2-quellen-1482",
+    "b2-rechtsfähig-1501",
+    "b2-sich-bemaechtigen",
+    "b2-sich-einlassen",
+    "b2-sich-erregen",
+    "b2-sich-fassen",
+    "b2-sich-fuegen",
+    "b2-sich-gestalten",
+    "b2-sich-herausbilden",
+    "b2-sich-hingeben",
+    "b2-sich-scheren",
+    "b2-sich-versehen",
+    "b2-sich-versoehnen",
+    "b2-sich-verwundern",
+    "b2-sich-widersetzen",
+    "b2-sächlich-1544"
+  ],
+  "hashEnBefore": {
+    "data": "418dbb666b87409d9048c9517af5cf6a",
+    "www": "418dbb666b87409d9048c9517af5cf6a"
+  },
+  "hashEnAfter": {
+    "data": "eb51f72e7346b1d3c936d600144a9df4",
+    "www": "eb51f72e7346b1d3c936d600144a9df4"
+  },
+  "hashDeBefore": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "hashDeAfter": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "deReadOnly": true,
+  "entries": [
+    {
+      "seq": 51,
+      "cardId": "b2-friedfertig-837",
+      "fieldPath": "lv",
+      "expectedCurrent": "Peaceful • Compliant",
+      "finalEn": "Peaceful • Peace-loving",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 52,
+      "cardId": "b2-Gefallen-885",
+      "fieldPath": "lv",
+      "expectedCurrent": "Liking • Liked",
+      "finalEn": "Liking • Favour",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 53,
+      "cardId": "b2-gelaunt-903",
+      "fieldPath": "lv",
+      "expectedCurrent": "Oh",
+      "finalEn": "In a ... mood",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 54,
+      "cardId": "b2-Geschwür-954",
+      "fieldPath": "lv",
+      "expectedCurrent": "Plant • Ulcer",
+      "finalEn": "Ulcer • Sore",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 55,
+      "cardId": "b2-gewieft-978",
+      "fieldPath": "lv",
+      "expectedCurrent": "Tempered • Shrewd",
+      "finalEn": "Shrewd • Cunning",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 56,
+      "cardId": "b2-Glatze-995",
+      "fieldPath": "lv",
+      "expectedCurrent": "Bare head",
+      "finalEn": "Bald head",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 57,
+      "cardId": "b2-gleichmütig-997",
+      "fieldPath": "lv",
+      "expectedCurrent": "Composed • Cold-blooded",
+      "finalEn": "Composed • Even-tempered",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 58,
+      "cardId": "b2-gurgeln-1045",
+      "fieldPath": "lv",
+      "expectedCurrent": "Gargle • Mouth",
+      "finalEn": "Gargle",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 59,
+      "cardId": "b2-Gutachten-1047",
+      "fieldPath": "lv",
+      "expectedCurrent": "Feedback • Opinion of an expert",
+      "finalEn": "Expert report • Expert opinion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 60,
+      "cardId": "b2-Hafengebühr-1056",
+      "fieldPath": "lv",
+      "expectedCurrent": "Port duty",
+      "finalEn": "Port fee",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 61,
+      "cardId": "b2-Harsch-1067",
+      "fieldPath": "lv",
+      "expectedCurrent": "Sulfur • Frozen snow",
+      "finalEn": "Snow crust",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 62,
+      "cardId": "b2-hauteng-1076",
+      "fieldPath": "lv",
+      "expectedCurrent": "Tight clothing",
+      "finalEn": "Skin-tight",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 63,
+      "cardId": "b2-hetzen-1112",
+      "fieldPath": "lv",
+      "expectedCurrent": "Kick • Incite • Chase • Hit",
+      "finalEn": "Urge on • Incite • Chase • Hound",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 64,
+      "cardId": "b2-hintergehen-1123",
+      "fieldPath": "lv",
+      "expectedCurrent": "To cheat • To disappoint",
+      "finalEn": "To cheat • To deceive",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 65,
+      "cardId": "b2-hochwertig-1146",
+      "fieldPath": "lv",
+      "expectedCurrent": "High value",
+      "finalEn": "High-quality",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 66,
+      "cardId": "b2-Konsequenz-1192",
+      "fieldPath": "en",
+      "expectedCurrent": "Consistency • Sequence • Conclusion • Consequence",
+      "finalEn": "Consequence • Consistency",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 67,
+      "cardId": "b2-Korps-1198",
+      "fieldPath": "en",
+      "expectedCurrent": "Body",
+      "finalEn": "Corps • Body",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 68,
+      "cardId": "b2-Landsmann-1211",
+      "fieldPath": "en",
+      "expectedCurrent": "Compatriot • County resident",
+      "finalEn": "Compatriot",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 69,
+      "cardId": "b2-Luftbad-1263",
+      "fieldPath": "lv",
+      "expectedCurrent": "Air swimming",
+      "finalEn": "Air bath",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 70,
+      "cardId": "b2-Mieder-1310",
+      "fieldPath": "lv",
+      "expectedCurrent": "Tights belt • Bodice",
+      "finalEn": "Corset • Bodice",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 71,
+      "cardId": "b2-Monatsschrift-1338",
+      "fieldPath": "lv",
+      "expectedCurrent": "Monthly",
+      "finalEn": "Monthly periodical",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 72,
+      "cardId": "b2-Morddezernat-388",
+      "fieldPath": "lv",
+      "expectedCurrent": "Criminal department",
+      "finalEn": "Homicide division",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 73,
+      "cardId": "b2-nachträglich-1357",
+      "fieldPath": "lv",
+      "expectedCurrent": "Later • Additional • Later • For supplements",
+      "finalEn": "Subsequent • Additional • Retrospective",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 74,
+      "cardId": "b2-namens-1361",
+      "fieldPath": "lv",
+      "expectedCurrent": "In the name • In the surname",
+      "finalEn": "In the name of • By the name of",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 75,
+      "cardId": "b2-Neuauflage-1373",
+      "fieldPath": "lv",
+      "expectedCurrent": "Re • Revised edition",
+      "finalEn": "New edition • Revised edition",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 76,
+      "cardId": "b2-parteilich-1431",
+      "fieldPath": "lv",
+      "expectedCurrent": "Partisan • Parties",
+      "finalEn": "Biased • Partisan",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 77,
+      "cardId": "b2-Pfahlbau-1443",
+      "fieldPath": "lv",
+      "expectedCurrent": "Pile construction",
+      "finalEn": "Pile dwelling",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 78,
+      "cardId": "b2-Preisträger-1470",
+      "fieldPath": "lv",
+      "expectedCurrent": "Prise winner • Laureate",
+      "finalEn": "Prize winner • Laureate",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 79,
+      "cardId": "b2-quellen-1482",
+      "fieldPath": "lv",
+      "expectedCurrent": "Ooze • Ooze • Drench • Drench • Swell",
+      "finalEn": "Ooze • Flow • Soak • Swell",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 80,
+      "cardId": "b2-Radierung-1487",
+      "fieldPath": "lv",
+      "expectedCurrent": "Sharpening • Etching",
+      "finalEn": "Etching",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 81,
+      "cardId": "b2-rechtsfähig-1501",
+      "fieldPath": "lv",
+      "expectedCurrent": "Legal capacity",
+      "finalEn": "Having legal capacity",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 82,
+      "cardId": "b2-sächlich-1544",
+      "fieldPath": "lv",
+      "expectedCurrent": "~es Geschlecht gram. • Any gender",
+      "finalEn": "Neuter",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 83,
+      "cardId": "b2-Schmarotzer-1591",
+      "fieldPath": "lv",
+      "expectedCurrent": "Gluttonous • Parasite",
+      "finalEn": "Parasite • Scrounger",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 84,
+      "cardId": "b2-Segelflieger-1626",
+      "fieldPath": "lv",
+      "expectedCurrent": "Glider",
+      "finalEn": "Glider pilot",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 85,
+      "cardId": "b2-sich-bemaechtigen",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Seise • Take possession of",
+      "finalEn": "Seize • Take possession of",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 86,
+      "cardId": "b2-sich-bemaechtigen",
+      "fieldPath": "study.rektion",
+      "expectedCurrent": "+ possessive form",
+      "finalEn": "+ genitive",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 87,
+      "cardId": "b2-sich-bemaechtigen",
+      "fieldPath": "study.forms",
+      "expectedCurrent": "+ possessive form",
+      "finalEn": "+ genitive",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 88,
+      "cardId": "b2-sich-einlassen",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Let in",
+      "finalEn": "Get involved in",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 89,
+      "cardId": "b2-sich-erregen",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Worry about",
+      "finalEn": "Get worked up about",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 90,
+      "cardId": "b2-sich-fassen",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "To seise • To receive • To restrain",
+      "finalEn": "Compose oneself",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 91,
+      "cardId": "b2-sich-fuegen",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Adapt • Obey",
+      "finalEn": "Submit • Comply",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 92,
+      "cardId": "b2-sich-gestalten",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "To form into",
+      "finalEn": "Develop • Take shape",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 93,
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "To form into",
+      "finalEn": "Develop • Emerge",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 94,
+      "cardId": "b2-sich-hingeben",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Surrender • Surrender",
+      "finalEn": "Surrender oneself • Devote oneself",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 95,
+      "cardId": "b2-sich-hingeben",
+      "fieldPath": "study.explanation",
+      "expectedCurrent": "Sich hingeben requires + for whom?.",
+      "finalEn": "Sich hingeben is used with a dative object.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 96,
+      "cardId": "b2-sich-scheren",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Take care of",
+      "finalEn": "Care about",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 97,
+      "cardId": "b2-sich-versehen",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Forget • Equip with",
+      "finalEn": "Make a mistake • Equip with",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 98,
+      "cardId": "b2-sich-versoehnen",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Put up with",
+      "finalEn": "Reconcile with",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 99,
+      "cardId": "b2-sich-verwundern",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Wonder about",
+      "finalEn": "Be surprised by",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 100,
+      "cardId": "b2-sich-widersetzen",
+      "fieldPath": "study.translation",
+      "expectedCurrent": "Resist • Face",
+      "finalEn": "Resist • Oppose",
+      "applyStatus": "APPLIED",
+      "note": ""
+    }
+  ]
+}

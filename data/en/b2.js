@@ -1146,10 +1146,10 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-bemaechtigen",
       "layout": "minimalStudy",
-      "translation": "Seise • Take possession of",
-      "rektion": "+ possessive form",
+      "translation": "Seize • Take possession of",
+      "rektion": "+ genitive",
       "explanation": "Sich bemächtigen is used in modern German with the possessive form without a preposition.",
-      "forms": "+ possessive form",
+      "forms": "+ genitive",
       "formsLabel": "Management:",
       "sectionAccents": {
         "explanation": {
@@ -2461,7 +2461,7 @@ const B2_WORDS = [
     "de": "Morddezernat",
     "de_article": "das",
     "de_plural": "die Morddezernate",
-    "lv": "Criminal department",
+    "lv": "Homicide division",
     "level": "B2"
   },
   {
@@ -3542,7 +3542,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-einlassen",
       "layout": "minimalStudy",
-      "translation": "Let in",
+      "translation": "Get involved in",
       "rektion": "auf + accusative",
       "explanation": "Sich einlassen takes the fixed preposition auf + accusative.",
       "forms": "auf + accusative",
@@ -4528,7 +4528,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-erregen",
       "layout": "minimalStudy",
-      "translation": "Worry about",
+      "translation": "Get worked up about",
       "rektion": "über + what?",
       "explanation": "Sich erregen requires the preposition über + what?",
       "forms": "über + what?",
@@ -4976,7 +4976,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-fassen",
       "layout": "minimalStudy",
-      "translation": "To seise • To receive • To restrain",
+      "translation": "Compose oneself",
       "rektion": "an + kam?",
       "explanation": "Sich fassen requires the definite preposition an + kam?.",
       "forms": "an + kam?",
@@ -5412,7 +5412,7 @@ const B2_WORDS = [
   },
   {
     "de": "friedfertig",
-    "lv": "Peaceful • Compliant",
+    "lv": "Peaceful • Peace-loving",
     "level": "B2"
   },
   {
@@ -5457,7 +5457,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-fuegen",
       "layout": "minimalStudy",
-      "translation": "Adapt • Obey",
+      "translation": "Submit • Comply",
       "rektion": "in + what?",
       "explanation": "Sich fügen requires the preposition in + what?",
       "forms": "in + what?",
@@ -5740,7 +5740,7 @@ const B2_WORDS = [
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "Liking • Liked",
+    "lv": "Liking • Favour",
     "level": "B2"
   },
   {
@@ -5854,7 +5854,7 @@ const B2_WORDS = [
   },
   {
     "de": "gelaunt",
-    "lv": "Oh",
+    "lv": "In a ... mood",
     "level": "B2"
   },
   {
@@ -6201,7 +6201,7 @@ const B2_WORDS = [
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "Plant • Ulcer",
+    "lv": "Ulcer • Sore",
     "level": "B2"
   },
   {
@@ -6268,7 +6268,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-gestalten",
       "layout": "minimalStudy",
-      "translation": "To form into",
+      "translation": "Develop • Take shape",
       "rektion": "zu + kam?",
       "explanation": "Sich gestalten requires the definite preposition zu + kam?.",
       "forms": "zu + kam?",
@@ -6388,7 +6388,7 @@ const B2_WORDS = [
   },
   {
     "de": "gewieft",
-    "lv": "Tempered • Shrewd",
+    "lv": "Shrewd • Cunning",
     "level": "B2"
   },
   {
@@ -6490,7 +6490,7 @@ const B2_WORDS = [
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "Bare head",
+    "lv": "Bald head",
     "level": "B2"
   },
   {
@@ -6502,7 +6502,7 @@ const B2_WORDS = [
   },
   {
     "de": "gleichmütig",
-    "lv": "Composed • Cold-blooded",
+    "lv": "Composed • Even-tempered",
     "level": "B2"
   },
   {
@@ -6821,7 +6821,7 @@ const B2_WORDS = [
   },
   {
     "de": "gurgeln",
-    "lv": "Gargle • Mouth",
+    "lv": "Gargle",
     "level": "B2"
   },
   {
@@ -6835,7 +6835,7 @@ const B2_WORDS = [
     "de": "Gutachten",
     "de_article": "das",
     "de_plural": "die Gutachten",
-    "lv": "Feedback • Opinion of an expert",
+    "lv": "Expert report • Expert opinion",
     "level": "B2"
   },
   {
@@ -6889,7 +6889,7 @@ const B2_WORDS = [
     "de": "Hafengebühr",
     "de_article": "die",
     "de_plural": "die Hafengebühren",
-    "lv": "Port duty",
+    "lv": "Port fee",
     "level": "B2"
   },
   {
@@ -6962,7 +6962,7 @@ const B2_WORDS = [
     "de": "Harsch",
     "de_article": "der",
     "de_plural": "die Harsche",
-    "lv": "Sulfur • Frozen snow",
+    "lv": "Snow crust",
     "level": "B2"
   },
   {
@@ -7145,7 +7145,7 @@ const B2_WORDS = [
   },
   {
     "de": "hauteng",
-    "lv": "Tight clothing",
+    "lv": "Skin-tight",
     "level": "B2"
   },
   {
@@ -7286,7 +7286,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-herausbilden",
       "layout": "minimalStudy",
-      "translation": "To form into",
+      "translation": "Develop • Emerge",
       "rektion": "zu + kam?",
       "explanation": "Sich herausbilden requires the definite preposition zu + kam?.",
       "forms": "zu + kam?",
@@ -7433,7 +7433,7 @@ const B2_WORDS = [
   },
   {
     "de": "hetzen",
-    "lv": "Kick • Incite • Chase • Hit",
+    "lv": "Urge on • Incite • Chase • Hound",
     "level": "B2"
   },
   {
@@ -7478,9 +7478,9 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-hingeben",
       "layout": "minimalStudy",
-      "translation": "Surrender • Surrender",
+      "translation": "Surrender oneself • Devote oneself",
       "rektion": "+ [dative]",
-      "explanation": "Sich hingeben requires + for whom?.",
+      "explanation": "Sich hingeben is used with a dative object.",
       "forms": "+ [dative]",
       "formsLabel": "Management:",
       "sectionAccents": {
@@ -7514,7 +7514,7 @@ const B2_WORDS = [
   },
   {
     "de": "hintergehen",
-    "lv": "To cheat • To disappoint",
+    "lv": "To cheat • To deceive",
     "level": "B2"
   },
   {
@@ -7878,7 +7878,7 @@ const B2_WORDS = [
   },
   {
     "de": "hochwertig",
-    "lv": "High value",
+    "lv": "High-quality",
     "level": "B2"
   },
   {
@@ -8162,7 +8162,7 @@ const B2_WORDS = [
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "Consistency • Sequence • Conclusion • Consequence",
+    "lv": "Consequence • Consistency",
     "level": "B2"
   },
   {
@@ -8201,7 +8201,7 @@ const B2_WORDS = [
     "de": "Korps",
     "de_article": "das",
     "de_plural": "die Korps",
-    "lv": "Body",
+    "lv": "Corps • Body",
     "level": "B2"
   },
   {
@@ -8286,7 +8286,7 @@ const B2_WORDS = [
     "de": "Landsmann",
     "de_article": "der",
     "de_plural": "die Landsleute",
-    "lv": "Compatriot • County resident",
+    "lv": "Compatriot",
     "level": "B2"
   },
   {
@@ -8735,7 +8735,7 @@ const B2_WORDS = [
     "de": "Luftbad",
     "de_article": "das",
     "de_plural": "die Luftbäder",
-    "lv": "Air swimming",
+    "lv": "Air bath",
     "level": "B2"
   },
   {
@@ -9034,7 +9034,7 @@ const B2_WORDS = [
     "de": "Mieder",
     "de_article": "das",
     "de_plural": "die Mieder",
-    "lv": "Tights belt • Bodice",
+    "lv": "Corset • Bodice",
     "level": "B2"
   },
   {
@@ -9193,7 +9193,7 @@ const B2_WORDS = [
   {
     "de": "Monatsschrift",
     "de_article": "die",
-    "lv": "Monthly",
+    "lv": "Monthly periodical",
     "level": "B2",
     "de_plural": "die Monatsschriften"
   },
@@ -9433,7 +9433,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachträglich",
-    "lv": "Later • Additional • Later • For supplements",
+    "lv": "Subsequent • Additional • Retrospective",
     "level": "B2"
   },
   {
@@ -9459,7 +9459,7 @@ const B2_WORDS = [
   },
   {
     "de": "namens",
-    "lv": "In the name • In the surname",
+    "lv": "In the name of • By the name of",
     "level": "B2"
   },
   {
@@ -9541,7 +9541,7 @@ const B2_WORDS = [
     "de": "Neuauflage",
     "de_article": "die",
     "de_plural": "die Neuauflagen",
-    "lv": "Re • Revised edition",
+    "lv": "New edition • Revised edition",
     "level": "B2"
   },
   {
@@ -9928,7 +9928,7 @@ const B2_WORDS = [
   },
   {
     "de": "parteilich",
-    "lv": "Partisan • Parties",
+    "lv": "Biased • Partisan",
     "level": "B2"
   },
   {
@@ -10007,7 +10007,7 @@ const B2_WORDS = [
   {
     "de": "Pfahlbau",
     "de_article": "der",
-    "lv": "Pile construction",
+    "lv": "Pile dwelling",
     "level": "B2"
   },
   {
@@ -10175,7 +10175,7 @@ const B2_WORDS = [
     "de": "Preisträger",
     "de_article": "der",
     "de_plural": "die Preisträger",
-    "lv": "Prise winner • Laureate",
+    "lv": "Prize winner • Laureate",
     "level": "B2"
   },
   {
@@ -10250,7 +10250,7 @@ const B2_WORDS = [
   },
   {
     "de": "quellen",
-    "lv": "Ooze • Ooze • Drench • Drench • Swell",
+    "lv": "Ooze • Flow • Soak • Swell",
     "level": "B2"
   },
   {
@@ -10281,7 +10281,7 @@ const B2_WORDS = [
     "de": "Radierung",
     "de_article": "die",
     "de_plural": "die Radierungen",
-    "lv": "Sharpening • Etching",
+    "lv": "Etching",
     "level": "B2"
   },
   {
@@ -10364,7 +10364,7 @@ const B2_WORDS = [
   },
   {
     "de": "rechtsfähig",
-    "lv": "Legal capacity",
+    "lv": "Having legal capacity",
     "level": "B2"
   },
   {
@@ -10648,7 +10648,7 @@ const B2_WORDS = [
   },
   {
     "de": "sächlich",
-    "lv": "~es Geschlecht gram. • Any gender",
+    "lv": "Neuter",
     "level": "B2"
   },
   {
@@ -10841,7 +10841,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-scheren",
       "layout": "minimalStudy",
-      "translation": "Take care of",
+      "translation": "Care about",
       "rektion": "um + ko?",
       "explanation": "Sich scheren requires the fixed preposition um + ko?.",
       "forms": "um + ko?",
@@ -10958,7 +10958,7 @@ const B2_WORDS = [
     "de": "Schmarotzer",
     "de_article": "der",
     "de_plural": "die Schmarotzer",
-    "lv": "Gluttonous • Parasite",
+    "lv": "Parasite • Scrounger",
     "level": "B2"
   },
   {
@@ -11175,7 +11175,7 @@ const B2_WORDS = [
     "de": "Segelflieger",
     "de_article": "der",
     "de_plural": "die Segelflieger",
-    "lv": "Glider",
+    "lv": "Glider pilot",
     "level": "B2"
   },
   {
@@ -13283,7 +13283,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-versehen",
       "layout": "minimalStudy",
-      "translation": "Forget • Equip with",
+      "translation": "Make a mistake • Equip with",
       "rektion": "mit + kam?",
       "explanation": "Sich versehen requires the fixed preposition mit + the dative.",
       "forms": "mit + kam?",
@@ -13332,7 +13332,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-versoehnen",
       "layout": "minimalStudy",
-      "translation": "Put up with",
+      "translation": "Reconcile with",
       "rektion": "mit + kam?",
       "explanation": "Sich versöhnen requires the definite preposition mit + kam?.",
       "forms": "mit + kam?",
@@ -13497,7 +13497,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-verwundern",
       "layout": "minimalStudy",
-      "translation": "Wonder about",
+      "translation": "Be surprised by",
       "rektion": "über + ko?",
       "explanation": "Sich verwundern requires the fixed preposition über + ko?.",
       "forms": "über + ko?",
@@ -14176,7 +14176,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-widersetzen",
       "layout": "minimalStudy",
-      "translation": "Resist • Face",
+      "translation": "Resist • Oppose",
       "rektion": "+ kam?",
       "explanation": "Sich widersetzen requires + for whom?.",
       "forms": "+ kam?",
