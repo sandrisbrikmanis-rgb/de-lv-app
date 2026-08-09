@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-08-09T19:19:18.855Z",
+  "git": {
+    "mainBeforeMerge": "4a81273654f64eab24cbe7c8d834116f67032c74",
+    "prHead": "1237273c",
+    "mainAfterMerge": "44cdf452",
+    "prMergeCommit": "1237273cbb6a71aa7565f3adc32a4214cfe5d79e",
+    "pr": "#376",
+    "mergeType": "fast_forward_or_merge",
+    "changedFileCount": 150,
+    "productionUnexpected": []
+  },
+  "enDeB2": {
+    "cards": 2118,
+    "studies": 60,
+    "flashcards": 2058,
+    "standardStudy": 15,
+    "minimalStudy": 45
+  },
+  "verification": {
+    "ownerAcceptedContentMatch": true,
+    "enHashMain": "14027ba361c46df2905beb674ce50659",
+    "enHashOwner": "14027ba361c46df2905beb674ce50659",
+    "deReadOnly": true,
+    "deChanges": 0,
+    "deOrderPass": true,
+    "structurePass": true,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "parityPass": true,
+    "sectionAccentIssuesB2": 0,
+    "foreignRemnants": 0,
+    "management": 0,
+    "government": 0,
+    "rection": 43,
+    "keepNelabotPass": true,
+    "microrepair03Pass": true,
+    "unexpectedProductionChanges": 0
+  },
+  "keepResults": [
+    {
+      "cardId": "b2-Bergwerk-194",
+      "fieldPath": "lv",
+      "expected": "Mine • Shaft",
+      "actual": "Mine • Shaft",
+      "pass": true
+    },
+    {
+      "cardId": "b2-haube",
+      "fieldPath": "study.translation",
+      "expected": "Cap • Hood",
+      "actual": "Cap • Hood",
+      "pass": true
+    },
+    {
+      "cardId": "b2-haube",
+      "fieldPath": "enMain",
+      "expected": "Cap • Hood",
+      "actual": "Cap • Hood",
+      "pass": true
+    },
+    {
+      "cardId": "b2-haube",
+      "fieldPath": "study.examples[2].en",
+      "expected": "He opens the hood of the car.",
+      "actual": "He opens the hood of the car.",
+      "pass": true
+    },
+    {
+      "cardId": "b2-ehrenvoll-512",
+      "fieldPath": "lv",
+      "expected": "Honorable",
+      "actual": "Honorable",
+      "pass": true
+    },
+    {
+      "cardId": "b2-Eifer-521",
+      "fieldPath": "lv",
+      "expected": "Zeal • Diligence • Passion • Ardor • Eagerness",
+      "actual": "Zeal • Diligence • Passion • Ardor • Eagerness",
+      "pass": true
+    },
+    {
+      "cardId": "b2-aendern",
+      "fieldPath": "study.examples[4].en",
+      "expected": "Change the part • Wechseln",
+      "actual": "Change the part • Wechseln",
+      "pass": true
+    },
+    {
+      "cardId": "b2-fordern",
+      "fieldPath": "study.examples[4].en",
+      "expected": "To demand • To promote",
+      "actual": "To demand • To promote",
+      "pass": true
+    },
+    {
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.translation",
+      "expected": "Develop • Emerge",
+      "actual": "Develop • Emerge",
+      "pass": true
+    }
+  ],
+  "microrepair03Checks": [
+    {
+      "seq": 1,
+      "cardId": "b2-sich-fassen",
+      "fieldPath": "study.explanation",
+      "expected": "Sich fassen is used without a fixed preposition.",
+      "actual": "Sich fassen is used without a fixed preposition.",
+      "pass": true
+    },
+    {
+      "seq": 2,
+      "cardId": "b2-sich-fassen",
+      "fieldPath": "study.rektion",
+      "expected": "No fixed preposition",
+      "actual": "No fixed preposition",
+      "pass": true
+    },
+    {
+      "seq": 3,
+      "cardId": "b2-sich-fassen",
+      "fieldPath": "study.forms",
+      "expected": "No fixed preposition",
+      "actual": "No fixed preposition",
+      "pass": true
+    },
+    {
+      "seq": 4,
+      "cardId": "b2-sich-gestalten",
+      "fieldPath": "study.explanation",
+      "expected": "Sich gestalten does not require a fixed preposition. It means to develop or take shape.",
+      "actual": "Sich gestalten does not require a fixed preposition. It means to develop or take shape.",
+      "pass": true
+    },
+    {
+      "seq": 5,
+      "cardId": "b2-sich-gestalten",
+      "fieldPath": "study.rektion",
+      "expected": "No fixed preposition",
+      "actual": "No fixed preposition",
+      "pass": true
+    },
+    {
+      "seq": 6,
+      "cardId": "b2-sich-gestalten",
+      "fieldPath": "study.forms",
+      "expected": "No fixed preposition",
+      "actual": "No fixed preposition",
+      "pass": true
+    },
+    {
+      "seq": 7,
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.explanation",
+      "expected": "Sich herausbilden does not require a fixed preposition. It means to develop or emerge.",
+      "actual": "Sich herausbilden does not require a fixed preposition. It means to develop or emerge.",
+      "pass": true
+    },
+    {
+      "seq": 8,
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.rektion",
+      "expected": "No fixed preposition",
+      "actual": "No fixed preposition",
+      "pass": true
+    },
+    {
+      "seq": 9,
+      "cardId": "b2-sich-herausbilden",
+      "fieldPath": "study.forms",
+      "expected": "No fixed preposition",
+      "actual": "No fixed preposition",
+      "pass": true
+    },
+    {
+      "seq": 10,
+      "cardId": "b2-aendern",
+      "fieldPath": "study.examples[0].en",
+      "expected": "I change the appointment.",
+      "actual": "I change the appointment.",
+      "pass": true
+    },
+    {
+      "seq": 11,
+      "cardId": "b2-fordern",
+      "fieldPath": "enMain",
+      "expected": "Demand • Require",
+      "actual": "Demand • Require",
+      "pass": true
+    }
+  ],
+  "foreignRemnantSamples": [],
+  "verdict": "EN–DE B2 — MAIN INTEGRATION: PASS",
+  "closureVerdict": "EN–DE B2 — OWNER ACCEPTED / CLOSED ON MAIN"
+}
