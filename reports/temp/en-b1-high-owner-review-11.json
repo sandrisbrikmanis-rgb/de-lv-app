@@ -477,7 +477,7 @@
   "expectedArithmeticRemaining": 73,
   "calculatedWorkflowRemaining": 73,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 98,
+  "ownerDecisionsMade": 134,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -2609,9 +2609,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To use\" differs from audit Current EN \"the technique is used\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "the technology or equipment is used",
+          "ownerNote": "Technik šajā kontekstā nav “technique”; “technology or equipment” ir precīzāk."
         },
         {
           "severity": "HIGH",
@@ -2625,9 +2625,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To use\" differs from audit Current EN \"the technique is used\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Look at the object: use technology, assign a player, or say that rain begins.",
+          "ownerNote": "Pilnībā novākt LV/German mixed-language learner-facing tekstu un saglabāt trīs einsetzen nozīmju tipus."
         },
         {
           "severity": "MEDIUM",
@@ -2641,9 +2641,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To use\" differs from audit Current EN \"the technique is used\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "one-size-fits-all",
+          "ownerNote": "Tieša spelling kļūda."
         },
         {
           "severity": "LOW",
@@ -2657,11 +2657,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To use\" differs from audit Current EN \"the technique is used\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "use technology",
+          "ownerNote": "Accent target jābūt faktiskā EN tip teksta fragmentam."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 32,
@@ -2689,9 +2690,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Enter\" differs from audit Current EN \"eintreten means to enter or enter.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "eintreten means to enter, join, or occur.",
+          "ownerNote": "Novākt dubulto “enter” un parādīt trīs galvenās lietojuma nozīmes."
         },
         {
           "severity": "HIGH",
@@ -2705,9 +2706,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Enter\" differs from audit Current EN \"eintreten means to enter or enter.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Enter / join",
+          "ownerNote": "Abām comparison nozīmēm nedrīkst būt viens un tas pats tulkojums."
         },
         {
           "severity": "HIGH",
@@ -2721,9 +2722,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Enter\" differs from audit Current EN \"eintreten means to enter or enter.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "For entering a room, use eintreten; for joining an organisation, use eintreten or beitreten; consequences can eintreten = occur.",
+          "ownerNote": "Luna pamatdoma pareiza, bet OWNER FINAL saglabā vācu target formas un vienlaikus skaidri iztulko nozīmi."
         },
         {
           "severity": "MEDIUM",
@@ -2737,9 +2738,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Enter\" differs from audit Current EN \"eintreten means to enter or enter.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "the effect occurs",
+          "ownerNote": "“occur” ir dabiskā collocation."
         },
         {
           "severity": "LOW",
@@ -2753,9 +2754,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Enter\" differs from audit Current EN \"eintreten means to enter or enter.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Keep only one matching “Main” accent.",
+          "ownerNote": "Tekstā “Main” occurrence ir tikai viens. Neizgudrot papildu accent targets šajā finding."
         },
         {
           "severity": "LOW",
@@ -2769,11 +2770,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Enter\" differs from audit Current EN \"eintreten means to enter or enter.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "consequences",
+          "ownerNote": "LV token aizstāt ar faktiski esošo EN target."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 33,
@@ -2801,9 +2803,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To receive\" differs from audit Current EN \"Receive everyday\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Receive in everyday situations",
+          "ownerNote": "Esošais fragments ir gramatiski nepilnīgs."
         },
         {
           "severity": "HIGH",
@@ -2817,9 +2819,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To receive\" differs from audit Current EN \"Receive everyday\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Use empfangen for receiving a message or signal; with people, it means to receive or welcome them.",
+          "ownerNote": "“empfangen of” nav gramatisks. Saglabāt receive/welcome person nozīmi."
         },
         {
           "severity": "HIGH",
@@ -2833,9 +2835,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To receive\" differs from audit Current EN \"Receive everyday\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "With guests, empfangen means welcoming or receiving them, not simply receiving something.",
+          "ownerNote": "Esošais repeated “receiving” nedod nekādu kontrastu."
         },
         {
           "severity": "LOW",
@@ -2849,11 +2851,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To receive\" differs from audit Current EN \"Receive everyday\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "welcome",
+          "ownerNote": "“To admit” maina nozīmi. Highlight jābūt faktiskajai empfangen nozīmei cilvēku kontekstā."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 34,
@@ -2881,9 +2884,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Remove\" differs from audit Current EN \"remove, delete, or remove something from a place\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "remove, delete, or take something away from a place",
+          "ownerNote": "Novākt repeated “remove”; “take away” saglabā telpisko nozīmi."
         },
         {
           "severity": "HIGH",
@@ -2897,9 +2900,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Remove\" differs from audit Current EN \"remove, delete, or remove something from a place\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Take away",
+          "ownerNote": "wegnehmen = take away, nevis parasti take off."
         },
         {
           "severity": "MEDIUM",
@@ -2913,11 +2916,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Remove\" differs from audit Current EN \"remove, delete, or remove something from a place\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Remove an object; sich entfernen means to move away.",
+          "ownerNote": "Dabiskāka learner-facing angļu valoda."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 35,
@@ -2945,9 +2949,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To contain\" differs from audit Current EN \"Main Idea: enthalten means to contain or contain something as part of a whole.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: enthalten means to contain or include something as part of a whole.",
+          "ownerNote": "Novākt “contain or contain”."
         },
         {
           "severity": "HIGH",
@@ -2961,9 +2965,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To contain\" differs from audit Current EN \"Main Idea: enthalten means to contain or contain something as part of a whole.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "When the idea is “it is inside or included”, German often uses enthalten.",
+          "ownerNote": "“der enthalten” ir nepareiza vācu forma learner-facing EN laukā."
         },
         {
           "severity": "MEDIUM",
@@ -2977,11 +2981,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To contain\" differs from audit Current EN \"Main Idea: enthalten means to contain or contain something as part of a whole.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "enthalten is not halten. halten = hold; enthalten = to contain or include.",
+          "ownerNote": "Izlabot gan gramatisko fragmentu, gan repeated meaning."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 36,
@@ -3009,9 +3014,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Corresponds to\" differs from audit Current EN \"Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: entsprechen means to meet requirements, rules, a plan, or expectations. In German, it requires the dative: dem Plan, den Regeln, unseren Erwartungen.",
+          "ownerNote": "Labot korumpēto target “mechnen”, “Erwantungen” → “Erwartungen” un pieturzīmes."
         },
         {
           "severity": "MEDIUM",
@@ -3025,9 +3030,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Corresponds to\" differs from audit Current EN \"Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The result does not correspond to the truth.",
+          "ownerNote": "Saglabāt entsprechen nozīmi “correspond to”, nevis vienkārši “is not true”."
         },
         {
           "severity": "HIGH",
@@ -3041,9 +3046,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Corresponds to\" differs from audit Current EN \"Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "entsprechen asks “corresponds to what?” — in German, the answer is in the dative.",
+          "ownerNote": "“matchen” ir nepareizais learner target."
         },
         {
           "severity": "HIGH",
@@ -3057,9 +3062,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Corresponds to\" differs from audit Current EN \"Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Do not confuse entsprechen with antworten: entsprechen = correspond, antworten = answer.",
+          "ownerNote": "Gan vācu target, gan meaning pašreiz ir korumpēti."
         },
         {
           "severity": "TECHNICAL",
@@ -3078,11 +3083,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Corresponds to\" differs from audit Current EN \"Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main",
+          "ownerNote": "Atstāt tikai vienu “Main” highlight, jo tekstā ir tikai viens matching occurrence."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 37,
@@ -3110,9 +3116,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Occur\" differs from audit Current EN \"Main Idea: To arise means to arise or become as a result of a process.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: entstehen means to arise or come into being as a result of a process.",
+          "ownerNote": "Target vārdam jābūt entstehen, un “come into being” precīzi izsaka rašanās procesu."
         },
         {
           "severity": "HIGH",
@@ -3126,9 +3132,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Occur\" differs from audit Current EN \"Main Idea: To arise means to arise or become as a result of a process.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "If the focus is on something developing or coming into being during a process, use entstehen.",
+          "ownerNote": "“gegen” ir pilnīgi nepareizs target. OWNER FINAL ir dabiskāks nekā mehāniskais “if the main thing is the result”."
         },
         {
           "severity": "HIGH",
@@ -3142,9 +3148,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Occur\" differs from audit Current EN \"Main Idea: To arise means to arise or become as a result of a process.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "entstehen does not mean that someone deliberately creates something; schaffen is more suitable for deliberate creation.",
+          "ownerNote": "Labot target un nepareizo “der schaffen”."
         },
         {
           "severity": "TECHNICAL",
@@ -3163,11 +3169,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Occur\" differs from audit Current EN \"Main Idea: To arise means to arise or become as a result of a process.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Keep one matching “Main” accent and remove the duplicate “Main” targets; preserve only accent targets that actually occur in the corrected text.",
+          "ownerNote": "Neizgudrot neesošu “To” target, ja pēc OWNER FINAL explanation tas tekstā vairs nav."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 38,
@@ -3195,9 +3202,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To open\" differs from audit Current EN \"Kontu, exhibit or sit överfünt man; open the door for me.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "You use eröffnen for an account, an exhibition, or a meeting; you use öffnen for a door.",
+          "ownerNote": "Pašreizējais teksts ir sajaukts LV/EN/bojātā DE valodā. Saglabāt svarīgo eröffnen / öffnen kontrastu."
         },
         {
           "severity": "TECHNICAL",
@@ -3216,11 +3223,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To open\" differs from audit Current EN \"Kontu, exhibit or sit överfünt man; open the door for me.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "account, exhibition, meeting, door",
+          "ownerNote": "Visiem accent targets jābūt faktiski esošiem EN vārdiem no izlabotā tip teksta."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 39,
@@ -3248,9 +3256,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Appear\" differs from audit Current EN \"Publication erscheint = comes out; man zum Termin erscheint = arrives.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "A publication erscheint = appears or comes out; a person erscheint zum Termin = arrives at an appointment.",
+          "ownerNote": "Saglabāt erscheinen piemērus, bet izlabot malformed “man” konstrukciju."
         },
         {
           "severity": "TECHNICAL",
@@ -3267,11 +3275,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Appear\" differs from audit Current EN \"Publication erscheint = comes out; man zum Termin erscheint = arrives.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "comes out, arrives",
+          "ownerNote": "LV “ierodas” aizstāt ar matching EN tokenu."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 40,
@@ -3299,9 +3308,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To replace\" differs from audit Current EN \"Schaden ersensen means to compensate for damages.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Schaden ersetzen means to compensate for damages.",
+          "ownerNote": "“ersensen” → “ersetzen”."
         },
         {
           "severity": "HIGH",
@@ -3315,9 +3324,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To replace\" differs from audit Current EN \"Schaden ersensen means to compensate for damages.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "If something takes the place of something else, use ersetzen.",
+          "ownerNote": "Tiešs target spelling repair."
         },
         {
           "severity": "HIGH",
@@ -3331,11 +3340,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To replace\" differs from audit Current EN \"Schaden ersensen means to compensate for damages.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Schaden ersetzen means to compensate for the loss, not to “replace the damage”.",
+          "ownerNote": "Labot target spelling un dabisko collocation “compensate for”."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 41,
@@ -4056,5 +4066,14 @@
     "findingsOwnerResolved": 27,
     "pendingInBlock3": 0,
     "completedAt": "2026-08-09T10:30:46.631Z"
+  },
+  "ownerReviewBlock4": {
+    "block": "4/5",
+    "cardsReviewed": 10,
+    "labot": 10,
+    "nelabot": 0,
+    "findingsOwnerResolved": 36,
+    "pendingInBlock4": 0,
+    "completedAt": "2026-08-09T10:33:41.007Z"
   }
 }

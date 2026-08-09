@@ -1961,6 +1961,7 @@ Plural: —
 LV source: izmantot
 Production EN: To use
 Metadata anomaly: Production EN "To use" differs from audit Current EN "the technique is used"
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1974,9 +1975,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To use" differs from audit Current EN "the technique is used"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: the technology or equipment is used
+OWNER NOTE: Technik šajā kontekstā nav “technique”; “technology or equipment” ir precīzāk.
 
 ### Finding 2
 
@@ -1990,9 +1991,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To use" differs from audit Current EN "the technique is used"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Look at the object: use technology, assign a player, or say that rain begins.
+OWNER NOTE: Pilnībā novākt LV/German mixed-language learner-facing tekstu un saglabāt trīs einsetzen nozīmju tipus.
 
 ### Finding 3
 
@@ -2006,9 +2007,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To use" differs from audit Current EN "the technique is used"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: one-size-fits-all
+OWNER NOTE: Tieša spelling kļūda.
 
 ### Finding 4
 
@@ -2022,9 +2023,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To use" differs from audit Current EN "the technique is used"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: use technology
+OWNER NOTE: Accent target jābūt faktiskā EN tip teksta fragmentam.
 
 ## 32 — b1-eintreten — eintreten
 
@@ -2036,6 +2037,7 @@ Plural: —
 LV source: ieiet
 Production EN: Enter
 Metadata anomaly: Production EN "Enter" differs from audit Current EN "eintreten means to enter or enter."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2049,9 +2051,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Enter" differs from audit Current EN "eintreten means to enter or enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: eintreten means to enter, join, or occur.
+OWNER NOTE: Novākt dubulto “enter” un parādīt trīs galvenās lietojuma nozīmes.
 
 ### Finding 2
 
@@ -2065,9 +2067,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Enter" differs from audit Current EN "eintreten means to enter or enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Enter / join
+OWNER NOTE: Abām comparison nozīmēm nedrīkst būt viens un tas pats tulkojums.
 
 ### Finding 3
 
@@ -2081,9 +2083,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Enter" differs from audit Current EN "eintreten means to enter or enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: For entering a room, use eintreten; for joining an organisation, use eintreten or beitreten; consequences can eintreten = occur.
+OWNER NOTE: Luna pamatdoma pareiza, bet OWNER FINAL saglabā vācu target formas un vienlaikus skaidri iztulko nozīmi.
 
 ### Finding 4
 
@@ -2097,9 +2099,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Enter" differs from audit Current EN "eintreten means to enter or enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: the effect occurs
+OWNER NOTE: “occur” ir dabiskā collocation.
 
 ### Finding 5
 
@@ -2113,9 +2115,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Enter" differs from audit Current EN "eintreten means to enter or enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Keep only one matching “Main” accent.
+OWNER NOTE: Tekstā “Main” occurrence ir tikai viens. Neizgudrot papildu accent targets šajā finding.
 
 ### Finding 6
 
@@ -2129,9 +2131,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Enter" differs from audit Current EN "eintreten means to enter or enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: consequences
+OWNER NOTE: LV token aizstāt ar faktiski esošo EN target.
 
 ## 33 — b1-empfangen — empfangen
 
@@ -2143,6 +2145,7 @@ Plural: —
 LV source: saņemt
 Production EN: To receive
 Metadata anomaly: Production EN "To receive" differs from audit Current EN "Receive everyday"
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2156,9 +2159,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To receive" differs from audit Current EN "Receive everyday"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Receive in everyday situations
+OWNER NOTE: Esošais fragments ir gramatiski nepilnīgs.
 
 ### Finding 2
 
@@ -2172,9 +2175,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To receive" differs from audit Current EN "Receive everyday"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Use empfangen for receiving a message or signal; with people, it means to receive or welcome them.
+OWNER NOTE: “empfangen of” nav gramatisks. Saglabāt receive/welcome person nozīmi.
 
 ### Finding 3
 
@@ -2188,9 +2191,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To receive" differs from audit Current EN "Receive everyday"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: With guests, empfangen means welcoming or receiving them, not simply receiving something.
+OWNER NOTE: Esošais repeated “receiving” nedod nekādu kontrastu.
 
 ### Finding 4
 
@@ -2204,9 +2207,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "To receive" differs from audit Current EN "Receive everyday"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: welcome
+OWNER NOTE: “To admit” maina nozīmi. Highlight jābūt faktiskajai empfangen nozīmei cilvēku kontekstā.
 
 ## 34 — b1-entfernen — entfernen
 
@@ -2218,6 +2221,7 @@ Plural: —
 LV source: noņemt
 Production EN: Remove
 Metadata anomaly: Production EN "Remove" differs from audit Current EN "remove, delete, or remove something from a place"
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2231,9 +2235,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Remove" differs from audit Current EN "remove, delete, or remove something from a place"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: remove, delete, or take something away from a place
+OWNER NOTE: Novākt repeated “remove”; “take away” saglabā telpisko nozīmi.
 
 ### Finding 2
 
@@ -2247,9 +2251,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Remove" differs from audit Current EN "remove, delete, or remove something from a place"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Take away
+OWNER NOTE: wegnehmen = take away, nevis parasti take off.
 
 ### Finding 3
 
@@ -2263,9 +2267,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Remove" differs from audit Current EN "remove, delete, or remove something from a place"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Remove an object; sich entfernen means to move away.
+OWNER NOTE: Dabiskāka learner-facing angļu valoda.
 
 ## 35 — b1-enthalten — enthalten
 
@@ -2277,6 +2281,7 @@ Plural: —
 LV source: saturēt
 Production EN: To contain
 Metadata anomaly: Production EN "To contain" differs from audit Current EN "Main Idea: enthalten means to contain or contain something as part of a whole."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2290,9 +2295,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To contain" differs from audit Current EN "Main Idea: enthalten means to contain or contain something as part of a whole."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: enthalten means to contain or include something as part of a whole.
+OWNER NOTE: Novākt “contain or contain”.
 
 ### Finding 2
 
@@ -2306,9 +2311,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To contain" differs from audit Current EN "Main Idea: enthalten means to contain or contain something as part of a whole."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: When the idea is “it is inside or included”, German often uses enthalten.
+OWNER NOTE: “der enthalten” ir nepareiza vācu forma learner-facing EN laukā.
 
 ### Finding 3
 
@@ -2322,9 +2327,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To contain" differs from audit Current EN "Main Idea: enthalten means to contain or contain something as part of a whole."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: enthalten is not halten. halten = hold; enthalten = to contain or include.
+OWNER NOTE: Izlabot gan gramatisko fragmentu, gan repeated meaning.
 
 ## 36 — b1-entsprechen — entsprechen
 
@@ -2336,6 +2341,7 @@ Plural: —
 LV source: atbilst
 Production EN: Corresponds to
 Metadata anomaly: Production EN "Corresponds to" differs from audit Current EN "Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2349,9 +2355,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Corresponds to" differs from audit Current EN "Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: entsprechen means to meet requirements, rules, a plan, or expectations. In German, it requires the dative: dem Plan, den Regeln, unseren Erwartungen.
+OWNER NOTE: Labot korumpēto target “mechnen”, “Erwantungen” → “Erwartungen” un pieturzīmes.
 
 ### Finding 2
 
@@ -2365,9 +2371,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Corresponds to" differs from audit Current EN "Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The result does not correspond to the truth.
+OWNER NOTE: Saglabāt entsprechen nozīmi “correspond to”, nevis vienkārši “is not true”.
 
 ### Finding 3
 
@@ -2381,9 +2387,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Corresponds to" differs from audit Current EN "Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: entsprechen asks “corresponds to what?” — in German, the answer is in the dative.
+OWNER NOTE: “matchen” ir nepareizais learner target.
 
 ### Finding 4
 
@@ -2397,9 +2403,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Corresponds to" differs from audit Current EN "Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Do not confuse entsprechen with antworten: entsprechen = correspond, antworten = answer.
+OWNER NOTE: Gan vācu target, gan meaning pašreiz ir korumpēti.
 
 ### Finding 5
 
@@ -2413,9 +2419,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Corresponds to" differs from audit Current EN "Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main
+OWNER NOTE: Atstāt tikai vienu “Main” highlight, jo tekstā ir tikai viens matching occurrence.
 
 ## 37 — b1-entstehen — entstehen
 
@@ -2427,6 +2433,7 @@ Plural: —
 LV source: rasties
 Production EN: Occur
 Metadata anomaly: Production EN "Occur" differs from audit Current EN "Main Idea: To arise means to arise or become as a result of a process."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2440,9 +2447,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Occur" differs from audit Current EN "Main Idea: To arise means to arise or become as a result of a process."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: entstehen means to arise or come into being as a result of a process.
+OWNER NOTE: Target vārdam jābūt entstehen, un “come into being” precīzi izsaka rašanās procesu.
 
 ### Finding 2
 
@@ -2456,9 +2463,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Occur" differs from audit Current EN "Main Idea: To arise means to arise or become as a result of a process."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: If the focus is on something developing or coming into being during a process, use entstehen.
+OWNER NOTE: “gegen” ir pilnīgi nepareizs target. OWNER FINAL ir dabiskāks nekā mehāniskais “if the main thing is the result”.
 
 ### Finding 3
 
@@ -2472,9 +2479,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Occur" differs from audit Current EN "Main Idea: To arise means to arise or become as a result of a process."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: entstehen does not mean that someone deliberately creates something; schaffen is more suitable for deliberate creation.
+OWNER NOTE: Labot target un nepareizo “der schaffen”.
 
 ### Finding 4
 
@@ -2488,9 +2495,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Occur" differs from audit Current EN "Main Idea: To arise means to arise or become as a result of a process."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Keep one matching “Main” accent and remove the duplicate “Main” targets; preserve only accent targets that actually occur in the corrected text.
+OWNER NOTE: Neizgudrot neesošu “To” target, ja pēc OWNER FINAL explanation tas tekstā vairs nav.
 
 ## 38 — b1-eröffnen — eröffnen
 
@@ -2502,6 +2509,7 @@ Plural: —
 LV source: atvērt
 Production EN: To open
 Metadata anomaly: Production EN "To open" differs from audit Current EN "Kontu, exhibit or sit överfünt man; open the door for me."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2515,9 +2523,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To open" differs from audit Current EN "Kontu, exhibit or sit överfünt man; open the door for me."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: You use eröffnen for an account, an exhibition, or a meeting; you use öffnen for a door.
+OWNER NOTE: Pašreizējais teksts ir sajaukts LV/EN/bojātā DE valodā. Saglabāt svarīgo eröffnen / öffnen kontrastu.
 
 ### Finding 2
 
@@ -2531,9 +2539,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To open" differs from audit Current EN "Kontu, exhibit or sit överfünt man; open the door for me."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: account, exhibition, meeting, door
+OWNER NOTE: Visiem accent targets jābūt faktiski esošiem EN vārdiem no izlabotā tip teksta.
 
 ## 39 — b1-erscheinen — erscheinen
 
@@ -2545,6 +2553,7 @@ Plural: —
 LV source: parādīties
 Production EN: Appear
 Metadata anomaly: Production EN "Appear" differs from audit Current EN "Publication erscheint = comes out; man zum Termin erscheint = arrives."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2558,9 +2567,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Appear" differs from audit Current EN "Publication erscheint = comes out; man zum Termin erscheint = arrives."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: A publication erscheint = appears or comes out; a person erscheint zum Termin = arrives at an appointment.
+OWNER NOTE: Saglabāt erscheinen piemērus, bet izlabot malformed “man” konstrukciju.
 
 ### Finding 2
 
@@ -2574,9 +2583,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Appear" differs from audit Current EN "Publication erscheint = comes out; man zum Termin erscheint = arrives."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: comes out, arrives
+OWNER NOTE: LV “ierodas” aizstāt ar matching EN tokenu.
 
 ## 40 — b1-ersetzen — ersetzen
 
@@ -2588,6 +2597,7 @@ Plural: —
 LV source: aizstāt
 Production EN: To replace
 Metadata anomaly: Production EN "To replace" differs from audit Current EN "Schaden ersensen means to compensate for damages."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2601,9 +2611,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To replace" differs from audit Current EN "Schaden ersensen means to compensate for damages."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Schaden ersetzen means to compensate for damages.
+OWNER NOTE: “ersensen” → “ersetzen”.
 
 ### Finding 2
 
@@ -2617,9 +2627,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To replace" differs from audit Current EN "Schaden ersensen means to compensate for damages."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: If something takes the place of something else, use ersetzen.
+OWNER NOTE: Tiešs target spelling repair.
 
 ### Finding 3
 
@@ -2633,9 +2643,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To replace" differs from audit Current EN "Schaden ersensen means to compensate for damages."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Schaden ersetzen means to compensate for the loss, not to “replace the damage”.
+OWNER NOTE: Labot target spelling un dabisko collocation “compensate for”.
 
 ## 41 — b1-fassen — fassen
 
