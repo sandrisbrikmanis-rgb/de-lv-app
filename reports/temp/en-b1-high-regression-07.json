@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "date": "2026-08-09T09:19:36.124Z",
+    "cardsOwnerReviewed": 25,
+    "labot": 24,
+    "nelabot": 1,
+    "cardsRepaired": 24,
+    "topLevelLvFieldsRepaired": 24,
+    "cardsRegressionAudited": 25,
+    "nelabotOwnerDecisionsPreserved": 1,
+    "workflowUnresolvedHighBeforeHigh7": 298,
+    "workflowUnresolvedHighAfterHigh7": 273,
+    "verdict": "EN–DE B1 HIGH REPAIR #7 — TARGETED REGRESSION PASS",
+    "status": "EN–DE B1 HIGH REPAIR #7 — COMPLETE — READY FOR HIGH OWNER REVIEW #8"
+  },
+  "nelabot": [
+    {
+      "cardId": "b1-Krüppel-1651",
+      "de": "Krüppel",
+      "lv": "A cripple",
+      "verdict": "NELABOT — OWNER ACCEPTED CURRENT / REGISTER-PRESERVING TRANSLATION",
+      "reason": "German Krüppel is archaic/offensive; neutral A disabled person does not preserve source register; owner retains A cripple"
+    }
+  ],
+  "ownerResolvedFindings": [],
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "totalCards": 3367,
+    "structuralParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "deReadOnly": "PASS",
+    "mirrorParity": "PASS",
+    "idsChanged": 0,
+    "unexpectedProductionChanges": 0
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "preconditionMismatch": 0,
+  "followUpFindings": 0,
+  "outOfScopeFindings": 0,
+  "ownerResolvedCount": 0,
+  "findings": []
+}

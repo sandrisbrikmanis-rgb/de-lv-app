@@ -1,0 +1,245 @@
+{
+  "ownerReviewed": 25,
+  "labot": 24,
+  "nelabot": 1,
+  "nelabotCards": [
+    {
+      "cardId": "b1-Krüppel-1651",
+      "de": "Krüppel",
+      "lv": "A cripple",
+      "verdict": "NELABOT — OWNER ACCEPTED CURRENT / REGISTER-PRESERVING TRANSLATION",
+      "reason": "German Krüppel is archaic/offensive; neutral A disabled person does not preserve source register; owner retains A cripple"
+    }
+  ],
+  "repairs": [
+    {
+      "cardId": "b1-Jagdbeute-1403",
+      "de": "Jagdbeute",
+      "field": "lv",
+      "old": "Hunting",
+      "finalEn": "Hunting prey / game",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Schaltjahr-1409",
+      "de": "Schaltjahr",
+      "field": "lv",
+      "old": "Long year",
+      "finalEn": "Leap year",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-jaulen-1422",
+      "de": "jaulen",
+      "field": "lv",
+      "old": "Howling for a dog",
+      "finalEn": "To howl",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kabelkanal-1440",
+      "de": "Kabelkanal",
+      "field": "lv",
+      "old": "Cable television channel",
+      "finalEn": "Cable duct / cable conduit",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kachel-1443",
+      "de": "Kachel",
+      "field": "lv",
+      "old": "Oven pot",
+      "finalEn": "Tile",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kai-1448",
+      "de": "Kai",
+      "field": "lv",
+      "old": "Constructed embankment",
+      "finalEn": "Quay / wharf",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kamerad-1451",
+      "de": "Kamerad",
+      "field": "lv",
+      "old": "A member",
+      "finalEn": "Comrade / companion",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kantine-1465",
+      "de": "Kantine",
+      "field": "lv",
+      "old": "Buffet",
+      "finalEn": "Canteen / cafeteria",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-karitativ-1473",
+      "de": "karitativ",
+      "field": "lv",
+      "old": "Charity",
+      "finalEn": "Charitable",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kartei-1477",
+      "de": "Kartei",
+      "field": "lv",
+      "old": "Filing cabinet",
+      "finalEn": "Card index / file index",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kanten-1464",
+      "de": "Kanten",
+      "field": "lv",
+      "old": "Bread dona",
+      "finalEn": "End piece of bread / bread crust",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-kegeln-1486",
+      "de": "kegeln",
+      "field": "lv",
+      "old": "Hit the pins",
+      "finalEn": "To bowl / play skittles",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-keuchen-1501",
+      "de": "keuchen",
+      "field": "lv",
+      "old": "Panting",
+      "finalEn": "To pant",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kinderkrippe-1505",
+      "de": "Kinderkrippe",
+      "field": "lv",
+      "old": "Children's shelter",
+      "finalEn": "Day nursery / childcare centre",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kladde-1510",
+      "de": "Kladde",
+      "field": "lv",
+      "old": "Clade",
+      "finalEn": "Draft notebook / rough copy",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-knitterfrei-1551",
+      "de": "knitterfrei",
+      "field": "lv",
+      "old": "Unruffled",
+      "finalEn": "Wrinkle-free",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-knüpfen-1558",
+      "de": "knüpfen",
+      "field": "lv",
+      "old": "Sieve",
+      "finalEn": "To tie / knot",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-knurren-1559",
+      "de": "knurren",
+      "field": "lv",
+      "old": "Roar",
+      "finalEn": "To growl",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-krächzen-1606",
+      "de": "krächzen",
+      "field": "lv",
+      "old": "Bark",
+      "finalEn": "To caw / croak",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-krähen-1612",
+      "de": "krähen",
+      "field": "lv",
+      "old": "To sing about the rooster",
+      "finalEn": "To crow",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-kreisen-1631",
+      "de": "kreisen",
+      "field": "lv",
+      "old": "Circle",
+      "finalEn": "To circle",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-kriechen-1636",
+      "de": "kriechen",
+      "field": "lv",
+      "old": "It's raining",
+      "finalEn": "To crawl",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Kursbuch-1680",
+      "de": "Kursbuch",
+      "field": "lv",
+      "old": "Train list",
+      "finalEn": "Timetable / railway timetable",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-krumm-1649",
+      "de": "krumm",
+      "field": "lv",
+      "old": "Hook",
+      "finalEn": "Crooked / bent",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Krüppel-1651",
+      "de": "Krüppel",
+      "field": "lv",
+      "old": "A cripple",
+      "finalEn": "A cripple",
+      "applied": "NELABOT — NO-OP",
+      "ownerVerdict": "NELABOT — OWNER ACCEPTED CURRENT / REGISTER-PRESERVING TRANSLATION",
+      "ownerNote": "German Krüppel is archaic/offensive; neutral A disabled person does not preserve source register; owner retains A cripple"
+    }
+  ],
+  "repairedCount": 24,
+  "preconditionMismatch": 0,
+  "workflowUnresolvedHighRemaining": 273
+}
