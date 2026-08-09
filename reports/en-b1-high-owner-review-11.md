@@ -2657,6 +2657,7 @@ Plural: —
 LV source: satvert
 Production EN: To grasp
 Metadata anomaly: Production EN "To grasp" differs from audit Current EN "With the hand fassen = to grasp; with the mind fassen = to grasp; Saal fasst = fits."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2670,9 +2671,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To grasp" differs from audit Current EN "With the hand fassen = to grasp; with the mind fassen = to grasp; Saal fasst = fits."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: With your hands, fassen means “to grasp”; mentally, it can mean “to comprehend”; a hall can fassen a certain number of people = accommodate them.
+OWNER NOTE: Atšķirt fizisko grasp, mentālo comprehend un capacity/accommodate nozīmi.
 
 ### Finding 2
 
@@ -2686,9 +2687,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To grasp" differs from audit Current EN "With the hand fassen = to grasp; with the mind fassen = to grasp; Saal fasst = fits."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fassen depends on the object: you can grasp someone’s hand, comprehend an idea, or accommodate a certain number of people.
+OWNER NOTE: “embraces the thought/people” ir maldinoši un gramatiski bojāti.
 
 ### Finding 3
 
@@ -2702,9 +2703,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To grasp" differs from audit Current EN "With the hand fassen = to grasp; with the mind fassen = to grasp; Saal fasst = fits."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: grasp, comprehend, accommodate
+OWNER NOTE: Visi trīs LV accent targets jāaizstāj ar faktiskajām EN nozīmēm.
 
 ## 42 — b1-faul — faul
 
@@ -2716,6 +2717,7 @@ Plural: —
 LV source: slinks
 Production EN: Lazy
 Metadata anomaly: Production EN "Lazy" differs from audit Current EN "Main idea: foul about a person means lazy."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2729,9 +2731,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Lazy" differs from audit Current EN "Main idea: foul about a person means lazy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: faul when used about a person means lazy.
+OWNER NOTE: “foul” ir cits angļu vārds, nevis vācu lemma faul.
 
 ### Finding 2
 
@@ -2745,9 +2747,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Lazy" differs from audit Current EN "Main idea: foul about a person means lazy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: A person can be faul = lazy; food can be faul = rotten.
+OWNER NOTE: Abās vietās target jābūt vācu faul, ne angļu foul.
 
 ### Finding 3
 
@@ -2761,9 +2763,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Lazy" differs from audit Current EN "Main idea: foul about a person means lazy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: REMOVE DUPLICATE ACCENT
+OWNER NOTE: Otra “Main” occurrence nav.
 
 ### Finding 4
 
@@ -2777,9 +2779,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Lazy" differs from audit Current EN "Main idea: foul about a person means lazy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: REMOVE DUPLICATE ACCENT
+OWNER NOTE: Trešā “Main” occurrence nav.
 
 ### Finding 5
 
@@ -2793,9 +2795,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Lazy" differs from audit Current EN "Main idea: foul about a person means lazy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: lazy, rotten
+OWNER NOTE: Aizstāt LV targets ar faktiskajām EN nozīmēm.
 
 ## 43 — b1-festhalten — festhalten
 
@@ -2807,6 +2809,7 @@ Plural: —
 LV source: turēt cieši
 Production EN: Hold tight
 Metadata anomaly: Production EN "Hold tight" differs from audit Current EN "Do not confuse festhalten with festhalten: festhalten = to hold/fix, festhalten = to establish."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2820,9 +2823,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Hold tight" differs from audit Current EN "Do not confuse festhalten with festhalten: festhalten = to hold/fix, festhalten = to establish."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Do not confuse festhalten with feststellen: festhalten = to hold or record; feststellen = to establish or ascertain.
+OWNER NOTE: Pašreiz abas lemmas kļūdaini ir festhalten. “Record” precīzāk par “fix” rakstiskas informācijas kontekstā.
 
 ### Finding 2
 
@@ -2836,9 +2839,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Hold tight" differs from audit Current EN "Do not confuse festhalten with festhalten: festhalten = to hold/fix, festhalten = to establish."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Hold tight / record
+OWNER NOTE: “fix” šeit ir maldinošs.
 
 ### Finding 3
 
@@ -2852,9 +2855,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Hold tight" differs from audit Current EN "Do not confuse festhalten with festhalten: festhalten = to hold/fix, festhalten = to establish."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: With your hands, festhalten means “to hold tight”; in writing, it means “to record”.
+OWNER NOTE: Dabisks fiziskās un dokumentēšanas nozīmes kontrasts.
 
 ## 44 — b1-festlegen — festlegen
 
@@ -2866,6 +2869,7 @@ Plural: —
 LV source: noteikt
 Production EN: Determine
 Metadata anomaly: Production EN "Determine" differs from audit Current EN "festlegen means to set clearly in advance a term, price, plan, arrangement, or rule."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2879,9 +2883,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Determine" differs from audit Current EN "festlegen means to set clearly in advance a term, price, plan, arrangement, or rule."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: festlegen means to set a deadline, price, plan, arrangement, or rule clearly in advance.
+OWNER NOTE: “term” šeit ir neskaidrs; deadline ir precīzāk.
 
 ### Finding 2
 
@@ -2895,9 +2899,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Determine" differs from audit Current EN "festlegen means to set clearly in advance a term, price, plan, arrangement, or rule."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: With festlegen, you can set a deadline, price, or rule clearly in advance.
+OWNER NOTE: Novākt mixed-language fragmentu un nedabisko “set clearly ahead”.
 
 ### Finding 3
 
@@ -2911,9 +2915,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Determine" differs from audit Current EN "festlegen means to set clearly in advance a term, price, plan, arrangement, or rule."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: festlegen = to set in advance; feststellen = to establish or ascertain an already existing fact.
+OWNER NOTE: Otrajā daļā jābūt faktiskajai vācu lemmai feststellen.
 
 ### Finding 4
 
@@ -2927,9 +2931,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Determine" differs from audit Current EN "festlegen means to set clearly in advance a term, price, plan, arrangement, or rule."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: set, in advance
+OWNER NOTE: Izmantot tikai faktiskajā izlabotajā tip tekstā esošus EN targets.
 
 ## 45 — b1-feststellen — feststellen
 
@@ -2941,6 +2945,7 @@ Plural: —
 LV source: konstatēt
 Production EN: To establish
 Metadata anomaly: Production EN "To establish" differs from audit Current EN "Main idea: to ascertain means to establish or ascertain a fact"
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -2954,9 +2959,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To establish" differs from audit Current EN "Main idea: to ascertain means to establish or ascertain a fact"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: feststellen means to establish or ascertain a fact.
+OWNER NOTE: Headword vietā jābūt vācu feststellen.
 
 ### Finding 2
 
@@ -2970,9 +2975,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To establish" differs from audit Current EN "Main idea: to ascertain means to establish or ascertain a fact"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: I found that you are right.
+OWNER NOTE: Šajā learner example konstrukcija ar “that” ir skaidrāka un gramatiski pilnīga.
 
 ### Finding 3
 
@@ -2986,9 +2991,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To establish" differs from audit Current EN "Main idea: to ascertain means to establish or ascertain a fact"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: feststellen = to establish or ascertain an existing fact; festlegen = to set a decision, deadline, or price.
+OWNER NOTE: “verzetten” ir bojāts target; “term” → “deadline”.
 
 ### Finding 4
 
@@ -3002,9 +3007,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To establish" differs from audit Current EN "Main idea: to ascertain means to establish or ascertain a fact"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fact, error, disease, deadline, price
+OWNER NOTE: LV “faktu” un “cenu” aizstāt ar EN; visiem targets jāeksistē faktiskajā tip tekstā pēc precondition pārbaudes.
 
 ## 46 — b1-folge — Folge
 
@@ -3016,6 +3021,7 @@ Plural: die Folgen
 LV source: sekas
 Production EN: Consequences
 Metadata anomaly: Production EN "Consequences" differs from audit Current EN "Consequence / series"
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -3029,9 +3035,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Consequences" differs from audit Current EN "Consequence / series"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Consequence / episode
+OWNER NOTE: TV/media kontekstā Folge = episode, nevis series.
 
 ### Finding 2
 
@@ -3045,9 +3051,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Consequences" differs from audit Current EN "Consequence / series"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In a TV series, Folge means an episode.
+OWNER NOTE: Gan “serial”, gan “series” kā pašas Folge tulkojums ir nepareizi.
 
 ### Finding 3
 
@@ -3061,9 +3067,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Consequences" differs from audit Current EN "Consequence / series"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: episode
+OWNER NOTE: Accent jāatbilst izlabotajai nozīmei.
 
 ## 47 — b1-futter — Futter
 
@@ -3075,6 +3081,7 @@ Plural: —
 LV source: barība
 Production EN: Feed
 Metadata anomaly: Production EN "Feed" differs from audit Current EN "Futter is given to the animals; the Futter jacket has a lining."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -3088,9 +3095,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Feed" differs from audit Current EN "Futter is given to the animals; the Futter jacket has a lining."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Animals are given Futter as feed; in a jacket, Futter means lining.
+OWNER NOTE: “The Futter jacket” ir nedabisks un var tikt saprasts kā īpašs jakas tips.
 
 ### Finding 2
 
@@ -3104,9 +3111,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Feed" differs from audit Current EN "Futter is given to the animals; the Futter jacket has a lining."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: lining
+OWNER NOTE: LV accent target aizstāt ar faktisko EN vārdu.
 
 ## 48 — b1-gehalt — Gehalt
 
@@ -3118,6 +3125,8 @@ Plural: die Gehälter
 LV source: alga
 Production EN: Salary
 Metadata anomaly: Production EN "Salary" differs from audit Current EN "For the content of a letter or speech — der Gehalte (die Gehalte)."
+Gehalt identity note: Shared production index 1027 with b1-gehalt / b1-gehalt-2 audit entries; verify GEHALT IDENTITY GATE at repair.
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -3131,9 +3140,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Salary" differs from audit Current EN "For the content of a letter or speech — der Gehalte (die Gehalte)."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: For the content or substance of a letter, speech, or text, use der Gehalt (plural: die Gehalte).
+OWNER NOTE: Pareizais singular šajā nozīmē ir der Gehalt.
 
 ### Finding 2
 
@@ -3147,9 +3156,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Salary" differs from audit Current EN "For the content of a letter or speech — der Gehalte (die Gehalte)."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: der Gehalt = content or substance (plural: die Gehalte).
+OWNER NOTE: “der Gehalte” singular ir nepareizi.
 
 ### Finding 3
 
@@ -3163,9 +3172,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Salary" differs from audit Current EN "For the content of a letter or speech — der Gehalte (die Gehalte)."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Keep only one matching “Main” accent.
+OWNER NOTE: Tekstā ir tikai viens “Main”.
 
 ## 49 — b1-gehalt-2 — Gehalt
 
@@ -3177,6 +3186,8 @@ Plural: die Gehälter
 LV source: alga
 Production EN: Salary
 Metadata anomaly: Production EN "Salary" differs from audit Current EN "On the nature of a letter, speech or text - der Gehalt. For wages - das Gehalt."
+Gehalt identity note: Shared production index 1027 with b1-gehalt / b1-gehalt-2 audit entries; verify GEHALT IDENTITY GATE at repair.
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -3190,9 +3201,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Salary" differs from audit Current EN "On the nature of a letter, speech or text - der Gehalt. For wages - das Gehalt."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: For the content or substance of a letter, speech, or text — der Gehalt. For salary or wages — das Gehalt.
+OWNER NOTE: “On the nature of” ir nedabisks un semantiski maldinošs. Saglabāt svarīgo der Gehalt / das Gehalt kontrastu.
 
 ### Finding 2
 
@@ -3206,9 +3217,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Salary" differs from audit Current EN "On the nature of a letter, speech or text - der Gehalt. For wages - das Gehalt."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: For the meaning “content”, the plural is die Gehalte, not die Gehälter.
+OWNER NOTE: Pilnībā novākt LV tekstu un skaidri parādīt plural kontrastu.
 
 ## 50 — b1-gelten — gelten
 
@@ -3220,6 +3231,7 @@ Plural: —
 LV source: būt spēkā
 Production EN: To be valid
 Metadata anomaly: Production EN "To be valid" differs from audit Current EN "Gelten means to be valid or valid at a particular time, place, or situation."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -3233,9 +3245,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To be valid" differs from audit Current EN "Gelten means to be valid or valid at a particular time, place, or situation."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: gelten means to be in force or to be valid at a particular time, place, or in a particular situation.
+OWNER NOTE: Novākt repeated “valid” un saglabāt “be in force” nozīmi likumiem/noteikumiem.
 
 ### Finding 2
 
@@ -3249,9 +3261,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To be valid" differs from audit Current EN "Gelten means to be valid or valid at a particular time, place, or situation."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: A rule, law, or ticket can be valid; a person can gelten als an expert = be regarded as an expert.
+OWNER NOTE: Novākt LV “persona” un vienlaikus saglabāt svarīgo gelten als konstrukciju.
 
 ### Finding 3
 
@@ -3265,9 +3277,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To be valid" differs from audit Current EN "Gelten means to be valid or valid at a particular time, place, or situation."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Keep only one matching “Main” accent.
+OWNER NOTE: Tekstā ir tikai viens matching occurrence.
 
 ### Finding 4
 
@@ -3281,9 +3293,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To be valid" differs from audit Current EN "Gelten means to be valid or valid at a particular time, place, or situation."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: person, expert
+OWNER NOTE: Aizstāt LV/German targets ar EN tokeniem no izlabotā tip teksta.
 
 ---
 

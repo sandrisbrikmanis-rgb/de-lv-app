@@ -477,7 +477,7 @@
   "expectedArithmeticRemaining": 73,
   "calculatedWorkflowRemaining": 73,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 134,
+  "ownerDecisionsMade": 167,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -3373,9 +3373,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To grasp\" differs from audit Current EN \"With the hand fassen = to grasp; with the mind fassen = to grasp; Saal fasst = fits.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "With your hands, fassen means “to grasp”; mentally, it can mean “to comprehend”; a hall can fassen a certain number of people = accommodate them.",
+          "ownerNote": "Atšķirt fizisko grasp, mentālo comprehend un capacity/accommodate nozīmi."
         },
         {
           "severity": "HIGH",
@@ -3389,9 +3389,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To grasp\" differs from audit Current EN \"With the hand fassen = to grasp; with the mind fassen = to grasp; Saal fasst = fits.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "fassen depends on the object: you can grasp someone’s hand, comprehend an idea, or accommodate a certain number of people.",
+          "ownerNote": "“embraces the thought/people” ir maldinoši un gramatiski bojāti."
         },
         {
           "severity": "TECHNICAL",
@@ -3409,11 +3409,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To grasp\" differs from audit Current EN \"With the hand fassen = to grasp; with the mind fassen = to grasp; Saal fasst = fits.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "grasp, comprehend, accommodate",
+          "ownerNote": "Visi trīs LV accent targets jāaizstāj ar faktiskajām EN nozīmēm."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 42,
@@ -3441,9 +3442,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lazy\" differs from audit Current EN \"Main idea: foul about a person means lazy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: faul when used about a person means lazy.",
+          "ownerNote": "“foul” ir cits angļu vārds, nevis vācu lemma faul."
         },
         {
           "severity": "HIGH",
@@ -3457,9 +3458,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lazy\" differs from audit Current EN \"Main idea: foul about a person means lazy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "A person can be faul = lazy; food can be faul = rotten.",
+          "ownerNote": "Abās vietās target jābūt vācu faul, ne angļu foul."
         },
         {
           "severity": "LOW",
@@ -3473,9 +3474,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lazy\" differs from audit Current EN \"Main idea: foul about a person means lazy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "REMOVE DUPLICATE ACCENT",
+          "ownerNote": "Otra “Main” occurrence nav."
         },
         {
           "severity": "LOW",
@@ -3489,9 +3490,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lazy\" differs from audit Current EN \"Main idea: foul about a person means lazy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "REMOVE DUPLICATE ACCENT",
+          "ownerNote": "Trešā “Main” occurrence nav."
         },
         {
           "severity": "LOW",
@@ -3505,11 +3506,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Lazy\" differs from audit Current EN \"Main idea: foul about a person means lazy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "lazy, rotten",
+          "ownerNote": "Aizstāt LV targets ar faktiskajām EN nozīmēm."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 43,
@@ -3537,9 +3539,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Hold tight\" differs from audit Current EN \"Do not confuse festhalten with festhalten: festhalten = to hold/fix, festhalten = to establish.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Do not confuse festhalten with feststellen: festhalten = to hold or record; feststellen = to establish or ascertain.",
+          "ownerNote": "Pašreiz abas lemmas kļūdaini ir festhalten. “Record” precīzāk par “fix” rakstiskas informācijas kontekstā."
         },
         {
           "severity": "MEDIUM",
@@ -3553,9 +3555,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Hold tight\" differs from audit Current EN \"Do not confuse festhalten with festhalten: festhalten = to hold/fix, festhalten = to establish.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Hold tight / record",
+          "ownerNote": "“fix” šeit ir maldinošs."
         },
         {
           "severity": "MEDIUM",
@@ -3569,11 +3571,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Hold tight\" differs from audit Current EN \"Do not confuse festhalten with festhalten: festhalten = to hold/fix, festhalten = to establish.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "With your hands, festhalten means “to hold tight”; in writing, it means “to record”.",
+          "ownerNote": "Dabisks fiziskās un dokumentēšanas nozīmes kontrasts."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 44,
@@ -3601,9 +3604,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Determine\" differs from audit Current EN \"festlegen means to set clearly in advance a term, price, plan, arrangement, or rule.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "festlegen means to set a deadline, price, plan, arrangement, or rule clearly in advance.",
+          "ownerNote": "“term” šeit ir neskaidrs; deadline ir precīzāk."
         },
         {
           "severity": "MEDIUM",
@@ -3617,9 +3620,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Determine\" differs from audit Current EN \"festlegen means to set clearly in advance a term, price, plan, arrangement, or rule.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "With festlegen, you can set a deadline, price, or rule clearly in advance.",
+          "ownerNote": "Novākt mixed-language fragmentu un nedabisko “set clearly ahead”."
         },
         {
           "severity": "HIGH",
@@ -3633,9 +3636,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Determine\" differs from audit Current EN \"festlegen means to set clearly in advance a term, price, plan, arrangement, or rule.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "festlegen = to set in advance; feststellen = to establish or ascertain an already existing fact.",
+          "ownerNote": "Otrajā daļā jābūt faktiskajai vācu lemmai feststellen."
         },
         {
           "severity": "LOW",
@@ -3649,11 +3652,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Determine\" differs from audit Current EN \"festlegen means to set clearly in advance a term, price, plan, arrangement, or rule.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "set, in advance",
+          "ownerNote": "Izmantot tikai faktiskajā izlabotajā tip tekstā esošus EN targets."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 45,
@@ -3681,9 +3685,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To establish\" differs from audit Current EN \"Main idea: to ascertain means to establish or ascertain a fact\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: feststellen means to establish or ascertain a fact.",
+          "ownerNote": "Headword vietā jābūt vācu feststellen."
         },
         {
           "severity": "MEDIUM",
@@ -3697,9 +3701,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To establish\" differs from audit Current EN \"Main idea: to ascertain means to establish or ascertain a fact\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "I found that you are right.",
+          "ownerNote": "Šajā learner example konstrukcija ar “that” ir skaidrāka un gramatiski pilnīga."
         },
         {
           "severity": "HIGH",
@@ -3713,9 +3717,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To establish\" differs from audit Current EN \"Main idea: to ascertain means to establish or ascertain a fact\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "feststellen = to establish or ascertain an existing fact; festlegen = to set a decision, deadline, or price.",
+          "ownerNote": "“verzetten” ir bojāts target; “term” → “deadline”."
         },
         {
           "severity": "LOW",
@@ -3729,11 +3733,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To establish\" differs from audit Current EN \"Main idea: to ascertain means to establish or ascertain a fact\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "fact, error, disease, deadline, price",
+          "ownerNote": "LV “faktu” un “cenu” aizstāt ar EN; visiem targets jāeksistē faktiskajā tip tekstā pēc precondition pārbaudes."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 46,
@@ -3761,9 +3766,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Consequences\" differs from audit Current EN \"Consequence / series\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Consequence / episode",
+          "ownerNote": "TV/media kontekstā Folge = episode, nevis series."
         },
         {
           "severity": "HIGH",
@@ -3777,9 +3782,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Consequences\" differs from audit Current EN \"Consequence / series\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In a TV series, Folge means an episode.",
+          "ownerNote": "Gan “serial”, gan “series” kā pašas Folge tulkojums ir nepareizi."
         },
         {
           "severity": "LOW",
@@ -3793,11 +3798,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Consequences\" differs from audit Current EN \"Consequence / series\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "episode",
+          "ownerNote": "Accent jāatbilst izlabotajai nozīmei."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 47,
@@ -3825,9 +3831,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Feed\" differs from audit Current EN \"Futter is given to the animals; the Futter jacket has a lining.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Animals are given Futter as feed; in a jacket, Futter means lining.",
+          "ownerNote": "“The Futter jacket” ir nedabisks un var tikt saprasts kā īpašs jakas tips."
         },
         {
           "severity": "LOW",
@@ -3841,11 +3847,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Feed\" differs from audit Current EN \"Futter is given to the animals; the Futter jacket has a lining.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "lining",
+          "ownerNote": "LV accent target aizstāt ar faktisko EN vārdu."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 48,
@@ -3873,9 +3880,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Salary\" differs from audit Current EN \"For the content of a letter or speech — der Gehalte (die Gehalte).\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "For the content or substance of a letter, speech, or text, use der Gehalt (plural: die Gehalte).",
+          "ownerNote": "Pareizais singular šajā nozīmē ir der Gehalt."
         },
         {
           "severity": "HIGH",
@@ -3889,9 +3896,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Salary\" differs from audit Current EN \"For the content of a letter or speech — der Gehalte (die Gehalte).\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "der Gehalt = content or substance (plural: die Gehalte).",
+          "ownerNote": "“der Gehalte” singular ir nepareizi."
         },
         {
           "severity": "LOW",
@@ -3905,11 +3912,13 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Salary\" differs from audit Current EN \"For the content of a letter or speech — der Gehalte (die Gehalte).\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Keep only one matching “Main” accent.",
+          "ownerNote": "Tekstā ir tikai viens “Main”."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT",
+      "gehaltIdentityNote": "Shared production index 1027 with b1-gehalt / b1-gehalt-2 audit entries; verify GEHALT IDENTITY GATE at repair."
     },
     {
       "sequence": 49,
@@ -3937,9 +3946,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Salary\" differs from audit Current EN \"On the nature of a letter, speech or text - der Gehalt. For wages - das Gehalt.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "For the content or substance of a letter, speech, or text — der Gehalt. For salary or wages — das Gehalt.",
+          "ownerNote": "“On the nature of” ir nedabisks un semantiski maldinošs. Saglabāt svarīgo der Gehalt / das Gehalt kontrastu."
         },
         {
           "severity": "HIGH",
@@ -3953,11 +3962,13 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Salary\" differs from audit Current EN \"On the nature of a letter, speech or text - der Gehalt. For wages - das Gehalt.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "For the meaning “content”, the plural is die Gehalte, not die Gehälter.",
+          "ownerNote": "Pilnībā novākt LV tekstu un skaidri parādīt plural kontrastu."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT",
+      "gehaltIdentityNote": "Shared production index 1027 with b1-gehalt / b1-gehalt-2 audit entries; verify GEHALT IDENTITY GATE at repair."
     },
     {
       "sequence": 50,
@@ -3985,9 +3996,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To be valid\" differs from audit Current EN \"Gelten means to be valid or valid at a particular time, place, or situation.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "gelten means to be in force or to be valid at a particular time, place, or in a particular situation.",
+          "ownerNote": "Novākt repeated “valid” un saglabāt “be in force” nozīmi likumiem/noteikumiem."
         },
         {
           "severity": "HIGH",
@@ -4001,9 +4012,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To be valid\" differs from audit Current EN \"Gelten means to be valid or valid at a particular time, place, or situation.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "A rule, law, or ticket can be valid; a person can gelten als an expert = be regarded as an expert.",
+          "ownerNote": "Novākt LV “persona” un vienlaikus saglabāt svarīgo gelten als konstrukciju."
         },
         {
           "severity": "LOW",
@@ -4017,9 +4028,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To be valid\" differs from audit Current EN \"Gelten means to be valid or valid at a particular time, place, or situation.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Keep only one matching “Main” accent.",
+          "ownerNote": "Tekstā ir tikai viens matching occurrence."
         },
         {
           "severity": "TECHNICAL",
@@ -4033,11 +4044,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To be valid\" differs from audit Current EN \"Gelten means to be valid or valid at a particular time, place, or situation.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "person, expert",
+          "ownerNote": "Aizstāt LV/German targets ar EN tokeniem no izlabotā tip teksta."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     }
   ],
   "ownerReviewBlock1": {
@@ -4075,5 +4087,24 @@
     "findingsOwnerResolved": 36,
     "pendingInBlock4": 0,
     "completedAt": "2026-08-09T10:33:41.007Z"
+  },
+  "ownerReviewBlock5": {
+    "block": "5/5",
+    "cardsReviewed": 10,
+    "labot": 10,
+    "nelabot": 0,
+    "findingsOwnerResolved": 33,
+    "pendingInBlock5": 0,
+    "completedAt": "2026-08-09T10:36:32.373Z"
+  },
+  "ownerReviewComplete": true,
+  "ownerPendingAcrossHigh11": 0,
+  "gehaltIdentityGate": {
+    "b1GehaltProductionIndex": 1027,
+    "b1Gehalt2ProductionIndex": 1027,
+    "sharedProductionFlaggedForRepairGate": true,
+    "auditEntriesTargetingProduction": 2,
+    "expectedMatchingProductionCards": 1,
+    "repairGateNote": "Before HIGH REPAIR #11 production write: verify both audit entries target one production Gehalt card at index 1027; apply all OWNER-approved findings once; do not double-count cards repaired."
   }
 }
