@@ -1,0 +1,858 @@
+{
+  "generatedAt": "2026-08-09T14:24:53.181Z",
+  "baseCommit": "223d37f4",
+  "integrationCommit": "ae6294de",
+  "pass": false,
+  "finalResult": "EN–DE B1 MAIN INTEGRATION TARGETED REGRESSION: FAIL — FOLLOW-UP REPAIR REQUIRED",
+  "scope": {
+    "integrationMappings": 178,
+    "integrationMappingsExpected": 183,
+    "physicalFields": 177,
+    "physicalFieldsExpected": 177,
+    "uniqueCards": 142,
+    "uniqueCardsExpected": 142,
+    "coveragePercent": 100,
+    "missingMappings": 0,
+    "missingCards": 0
+  },
+  "findingsBySeverity": {
+    "CRITICAL": 0,
+    "HIGH": 2,
+    "MEDIUM": 6,
+    "LOW": 0
+  },
+  "findings": [
+    {
+      "id": "MAIN-INTEGRATION REGRESSION FINDING 1",
+      "cardId": "b1-entlassen",
+      "productionIdentity": "b1-entlassen",
+      "productionIndex": null,
+      "integrationMappingSource": "",
+      "affectedField": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose by location in Latvian.",
+      "preIntegration": "",
+      "postIntegrationCurrent": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose by location in Latvian.",
+      "deContext": "entlassen",
+      "severity": "HIGH",
+      "category": "META-PEDAGOGY",
+      "recommended": "",
+      "reason": "Remaining Latvian meta-pedagogy in EN learner text (pre-existing)",
+      "ownerVerdict": "PENDING"
+    },
+    {
+      "id": "MAIN-INTEGRATION REGRESSION FINDING 2",
+      "cardId": "b1-zeugnis",
+      "productionIdentity": "b1-zeugnis",
+      "productionIndex": null,
+      "integrationMappingSource": "",
+      "affectedField": "ärztliches Zeugnis is often a doctor's certificate in Latvian, not a school certificate.",
+      "preIntegration": "",
+      "postIntegrationCurrent": "ärztliches Zeugnis is often a doctor's certificate in Latvian, not a school certificate.",
+      "deContext": "Zeugnis",
+      "severity": "HIGH",
+      "category": "META-PEDAGOGY",
+      "recommended": "",
+      "reason": "Remaining Latvian meta-pedagogy in EN learner text (pre-existing)",
+      "ownerVerdict": "PENDING"
+    },
+    {
+      "id": "MAIN-INTEGRATION REGRESSION FINDING 3",
+      "cardId": "b1-berühmtheit",
+      "productionIdentity": "b1-berühmtheit",
+      "productionIndex": 370,
+      "integrationMappingSource": "sectionAccents.examples[1].lv.purple[0]",
+      "affectedField": "sectionAccents.examples[1].lv.purple[0]",
+      "preIntegration": "",
+      "postIntegrationCurrent": "null",
+      "deContext": "Berühmtheit",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "recommended": "Fix accent target for null",
+      "reason": "New accent token \"null\" not found in target section text after integration",
+      "ownerVerdict": "PENDING"
+    },
+    {
+      "id": "MAIN-INTEGRATION REGRESSION FINDING 4",
+      "cardId": "b1-kurs",
+      "productionIdentity": "b1-kurs",
+      "productionIndex": 1679,
+      "integrationMappingSource": "sectionAccents.tip.purple[0]",
+      "affectedField": "sectionAccents.tip.purple[0]",
+      "preIntegration": "",
+      "postIntegrationCurrent": "Lessons",
+      "deContext": "Kurs",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "recommended": "Fix accent target for Lessons",
+      "reason": "New accent token \"Lessons\" not found in target section text after integration",
+      "ownerVerdict": "PENDING"
+    },
+    {
+      "id": "MAIN-INTEGRATION REGRESSION FINDING 5",
+      "cardId": "b1-kurs",
+      "productionIdentity": "b1-kurs",
+      "productionIndex": 1679,
+      "integrationMappingSource": "sectionAccents.tip.purple[1]",
+      "affectedField": "sectionAccents.tip.purple[1]",
+      "preIntegration": "",
+      "postIntegrationCurrent": "exchange rate",
+      "deContext": "Kurs",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "recommended": "Fix accent target for exchange rate",
+      "reason": "New accent token \"exchange rate\" not found in target section text after integration",
+      "ownerVerdict": "PENDING"
+    },
+    {
+      "id": "MAIN-INTEGRATION REGRESSION FINDING 6",
+      "cardId": "b1-kastanie",
+      "productionIdentity": "b1-kastanie",
+      "productionIndex": 1711,
+      "integrationMappingSource": "sectionAccents.tip.purple[0]",
+      "affectedField": "sectionAccents.tip.purple[0]",
+      "preIntegration": "",
+      "postIntegrationCurrent": "Tree",
+      "deContext": "Kastanie",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "recommended": "Fix accent target for Tree",
+      "reason": "New accent token \"Tree\" not found in target section text after integration",
+      "ownerVerdict": "PENDING"
+    },
+    {
+      "id": "MAIN-INTEGRATION REGRESSION FINDING 7",
+      "cardId": "b1-kastanie",
+      "productionIdentity": "b1-kastanie",
+      "productionIndex": 1711,
+      "integrationMappingSource": "sectionAccents.tip.purple[1]",
+      "affectedField": "sectionAccents.tip.purple[1]",
+      "preIntegration": "",
+      "postIntegrationCurrent": "fruit",
+      "deContext": "Kastanie",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "recommended": "Fix accent target for fruit",
+      "reason": "New accent token \"fruit\" not found in target section text after integration",
+      "ownerVerdict": "PENDING"
+    },
+    {
+      "id": "MAIN-INTEGRATION REGRESSION FINDING 8",
+      "cardId": "b1-beruf",
+      "productionIdentity": "b1-beruf",
+      "productionIndex": 3320,
+      "integrationMappingSource": "sectionAccents.examples[1].lv.purple[0]",
+      "affectedField": "sectionAccents.examples[1].lv.purple[0]",
+      "preIntegration": "",
+      "postIntegrationCurrent": "profession",
+      "deContext": "Beruf",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENT TECHNICAL",
+      "recommended": "Fix accent target for profession",
+      "reason": "New accent token \"profession\" not found in target section text after integration",
+      "ownerVerdict": "PENDING"
+    }
+  ],
+  "languageIntegrity": {
+    "lvLeftovers": 0,
+    "metaPedagogy": 2,
+    "truncated": 0
+  },
+  "sectionAccents": {
+    "newTechnical": 6,
+    "newPedagogical": 0,
+    "realInScope": 19,
+    "globalRaw": 0,
+    "globalReal": 0
+  },
+  "identityPath": {
+    "wrongIdentity": 0,
+    "wrongPath": 0,
+    "additionalDeterministicPass": 1,
+    "alreadyResolvedPass": 20
+  },
+  "preservation": {
+    "regressionPass": 214,
+    "regressionTotal": 214,
+    "regressionFail": 0,
+    "regressionOverlap": [
+      {
+        "cardId": "b1-abschnitt",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main idea: Abschnitt means a section or part of a text. It is used for text, road, job or time.",
+        "actual": "Main idea: Abschnitt means a section or part of a text. It is used for text, road, job or time."
+      },
+      {
+        "cardId": "b1-antrag",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main idea: Antrag means submission or formal application. In meetings, it can also mean a proposal for voting.",
+        "actual": "Main idea: Antrag means submission or formal application. In meetings, it can also mean a proposal for voting."
+      },
+      {
+        "cardId": "b1-berichten",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+        "ok": true,
+        "expected": "Berichten",
+        "actual": "Berichten"
+      },
+      {
+        "cardId": "b1-blase",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main idea: Blase means blister, blister or bubble. It is usually a blister on the skin, a blister in the body, a bub",
+        "actual": "Main idea: Blase means blister, blister or bubble. It is usually a blister on the skin, a blister in the body, a bub"
+      },
+      {
+        "cardId": "b1-blase",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+        "ok": true,
+        "expected": "Foot",
+        "actual": "Foot"
+      },
+      {
+        "cardId": "b1-bloß",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+        "ok": true,
+        "expected": "conversation",
+        "actual": "conversation"
+      },
+      {
+        "cardId": "b1-bloß",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+        "ok": true,
+        "expected": "conversation",
+        "actual": "conversation"
+      },
+      {
+        "cardId": "b1-hort",
+        "field": "study.explanation[0]",
+        "ok": true,
+        "expected": "Main idea: Hort (also Schulhort/Kinderhort) is an after-school care facility for school-aged children.",
+        "actual": "Main idea: Hort (also Schulhort/Kinderhort) is an after-school care facility for school-aged children."
+      },
+      {
+        "cardId": "b1-jagen",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+        "ok": true,
+        "expected": "jagen",
+        "actual": "jagen"
+      },
+      {
+        "cardId": "b1-kader",
+        "field": "study.explanation[0]",
+        "ok": true,
+        "expected": "Main Idea: Kader means a (qualified) cadre or nucleus—a group of people with a specific role or qualification.",
+        "actual": "Main Idea: Kader means a (qualified) cadre or nucleus—a group of people with a specific role or qualification."
+      },
+      {
+        "cardId": "b1-kern",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main Idea: Kern means kernel, seed/seed, or essence of a thing. It is used both for fruits and figuratively for the",
+        "actual": "Main Idea: Kern means kernel, seed/seed, or essence of a thing. It is used both for fruits and figuratively for the most important idea."
+      },
+      {
+        "cardId": "b1-kern",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+        "ok": true,
+        "expected": "Kern",
+        "actual": "Kern"
+      },
+      {
+        "cardId": "b1-kern",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+        "ok": true,
+        "expected": "Kern",
+        "actual": "Kern"
+      },
+      {
+        "cardId": "b1-kern",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[2]",
+        "ok": true,
+        "expected": "Kern",
+        "actual": "Kern"
+      },
+      {
+        "cardId": "b1-kommando",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main Idea: Kommando is a command or command, especially in a military, sporting or organised situation. It can also",
+        "actual": "Main Idea: Kommando is a command or command, especially in a military, sporting or organised situation. It can also"
+      },
+      {
+        "cardId": "b1-kommando",
+        "field": "study.sectionAccents.comparison[0].example.purple",
+        "ok": true,
+        "expected": "Wait",
+        "actual": "Wait"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.comparison[0].word",
+        "ok": true,
+        "expected": "Kurs",
+        "actual": "Kurs"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.sectionAccents.comparison[0].meaning.purple",
+        "ok": true,
+        "expected": "Course",
+        "actual": "Course"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.sectionAccents.comparison[0].example.purple",
+        "ok": true,
+        "expected": "The",
+        "actual": "The"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "ok": true,
+        "expected": "Direction",
+        "actual": "Direction"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.sectionAccents.comparison[1].example.purple",
+        "ok": true,
+        "expected": "The",
+        "actual": "The"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.sectionAccents.comparison[2].example.purple",
+        "ok": true,
+        "expected": "The",
+        "actual": "The"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main idea: Kastanie can mean both the chestnut tree and the chestnut fruit itself. The context shows which meaning i",
+        "actual": "Main idea: Kastanie can mean both the chestnut tree and the chestnut fruit itself. The context shows which meaning is intended."
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.sectionAccents.comparison[0].meaning.purple",
+        "ok": true,
+        "expected": "Chestnut",
+        "actual": "Chestnut"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.sectionAccents.comparison[0].example.purple",
+        "ok": true,
+        "expected": "Chestnut",
+        "actual": "Chestnut"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.sectionAccents.comparison[2].meaning.purple",
+        "ok": true,
+        "expected": "Nut",
+        "actual": "Nut"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.sectionAccents.comparison[2].example.purple",
+        "ok": true,
+        "expected": "The",
+        "actual": "The"
+      },
+      {
+        "cardId": "b1-rasen",
+        "field": "study.tip",
+        "ok": true,
+        "expected": "If speed sounds too fast is often enough.",
+        "actual": "If speed sounds too fast is often enough."
+      },
+      {
+        "cardId": "b1-rasen",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "ok": true,
+        "expected": "Drive",
+        "actual": "Drive"
+      },
+      {
+        "cardId": "b1-rasen",
+        "field": "study.sectionAccents.tip.red",
+        "ok": true,
+        "expected": "speed",
+        "actual": "speed"
+      },
+      {
+        "cardId": "b1-schale",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main Idea: Schale is the rind, shell, or outer covering of a fruit. It can also mean a bowl or vessel.",
+        "actual": "Main Idea: Schale is the rind, shell, or outer covering of a fruit. It can also mean a bowl or vessel."
+      },
+      {
+        "cardId": "b1-schale",
+        "field": "study.sectionAccents.comparison[0].meaning.purple",
+        "ok": true,
+        "expected": "Rind",
+        "actual": "Rind"
+      },
+      {
+        "cardId": "b1-schlag",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main Idea: Schlag means a blow or blow. In context, it can also be a lightning strike, a clock strike, or a type.",
+        "actual": "Main Idea: Schlag means a blow or blow. In context, it can also be a lightning strike, a clock strike, or a type."
+      },
+      {
+        "cardId": "b1-schlag",
+        "field": "study.sectionAccents.examples[2].lv.red",
+        "ok": true,
+        "expected": "clock",
+        "actual": "clock"
+      },
+      {
+        "cardId": "b1-schlag",
+        "field": "study.sectionAccents.comparison[0].meaning.purple",
+        "ok": true,
+        "expected": "blow",
+        "actual": "blow"
+      },
+      {
+        "cardId": "b1-schlag",
+        "field": "study.sectionAccents.comparison[2].meaning.purple",
+        "ok": true,
+        "expected": "Lightning",
+        "actual": "Lightning"
+      },
+      {
+        "cardId": "b1-senken",
+        "field": "study.comparison[0].meaning",
+        "ok": true,
+        "expected": "To lower",
+        "actual": "To lower"
+      },
+      {
+        "cardId": "b1-senken",
+        "field": "study.sectionAccents.examples[1].lv.red",
+        "ok": true,
+        "expected": "She",
+        "actual": "She"
+      },
+      {
+        "cardId": "b1-senken",
+        "field": "study.sectionAccents.examples[2].lv.red",
+        "ok": true,
+        "expected": "Please",
+        "actual": "Please"
+      },
+      {
+        "cardId": "b1-senken",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "ok": true,
+        "expected": "fall",
+        "actual": "fall"
+      },
+      {
+        "cardId": "b1-senken",
+        "field": "study.sectionAccents.comparison[2].meaning.purple",
+        "ok": true,
+        "expected": "Lift",
+        "actual": "Lift"
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main idea: Stellung means position or condition. It is used for body posture, workplace and stance.",
+        "actual": "Main idea: Stellung means position or condition. It is used for body posture, workplace and stance."
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.sectionAccents.examples[1].lv.red",
+        "ok": true,
+        "expected": "looking",
+        "actual": "looking"
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.sectionAccents.comparison[2].meaning.purple",
+        "ok": true,
+        "expected": "Place",
+        "actual": "Place"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main Idea: Tank is usually a fuel or liquid tank. In a military context, the more common German word for tank is der",
+        "actual": "Main Idea: Tank is usually a fuel or liquid tank. In a military context, the more common German word for tank is der"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.sectionAccents.examples[2].lv.red",
+        "ok": true,
+        "expected": "tank",
+        "actual": "tank"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.sectionAccents.comparison[0].meaning.purple",
+        "ok": true,
+        "expected": "Tank",
+        "actual": "Tank"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "ok": true,
+        "expected": "Vessel",
+        "actual": "Vessel"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.sectionAccents.comparison[2].meaning.purple",
+        "ok": true,
+        "expected": "tank",
+        "actual": "tank"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+        "ok": true,
+        "expected": "tank",
+        "actual": "tank"
+      },
+      {
+        "cardId": "b1-verlegen",
+        "field": "study.sectionAccents.examples[1].lv.red",
+        "ok": true,
+        "expected": "put",
+        "actual": "put"
+      },
+      {
+        "cardId": "b1-verlegen",
+        "field": "study.sectionAccents.examples[2].lv.red",
+        "ok": true,
+        "expected": "publishing",
+        "actual": "publishing"
+      },
+      {
+        "cardId": "b1-einsatz",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main idea: Einsatz means active use or involvement in a particular situation. Common phrases are im Einsatz and zum",
+        "actual": "Main idea: Einsatz means active use or involvement in a particular situation. Common phrases are im Einsatz and zum"
+      },
+      {
+        "cardId": "b1-kreuzen",
+        "field": "study.sectionAccents.comparison[2].meaning.purple",
+        "ok": true,
+        "expected": "Mark",
+        "actual": "Mark"
+      },
+      {
+        "cardId": "b1-objekt",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main idea: Objekt is the object, thing or building that is being talked about. In grammar, Objekt means object.",
+        "actual": "Main idea: Objekt is the object, thing or building that is being talked about. In grammar, Objekt means object."
+      },
+      {
+        "cardId": "b1-objekt",
+        "field": "study.sectionAccents.comparison[0].meaning.purple",
+        "ok": true,
+        "expected": "Object",
+        "actual": "Object"
+      },
+      {
+        "cardId": "b1-objekt",
+        "field": "study.sectionAccents.tip.red",
+        "ok": true,
+        "expected": "Object",
+        "actual": "Object"
+      },
+      {
+        "cardId": "b1-räumen",
+        "field": "study.sectionAccents.examples[2].lv.red",
+        "ok": true,
+        "expected": "Please",
+        "actual": "Please"
+      },
+      {
+        "cardId": "b1-räumen",
+        "field": "study.sectionAccents.comparison[0].meaning.purple",
+        "ok": true,
+        "expected": "clear",
+        "actual": "clear"
+      },
+      {
+        "cardId": "b1-saat",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main idea: Saat means seed, sowing or sown field. For one individual seed, Samen is more commonly used.",
+        "actual": "Main idea: Saat means seed, sowing or sown field. For one individual seed, Samen is more commonly used."
+      },
+      {
+        "cardId": "b1-schicht",
+        "field": "study.comparison[0].word",
+        "ok": true,
+        "expected": "Schicht",
+        "actual": "Schicht"
+      },
+      {
+        "cardId": "b1-schützen",
+        "field": "study.sectionAccents.examples[2].lv.red",
+        "ok": true,
+        "expected": "must",
+        "actual": "must"
+      },
+      {
+        "cardId": "b1-schützen",
+        "field": "study.sectionAccents.tip.red",
+        "ok": true,
+        "expected": "Protects",
+        "actual": "Protects"
+      },
+      {
+        "cardId": "b1-spitze",
+        "field": "study.explanation",
+        "ok": true,
+        "expected": "Main idea: Spitze is a pointed end or highest point. In a figurative sense, it can be leadership or a position at th",
+        "actual": "Main idea: Spitze is a pointed end or highest point. In a figurative sense, it can be leadership or a position at the top."
+      },
+      {
+        "cardId": "b1-spitze",
+        "field": "study.sectionAccents.examples[2].lv.red",
+        "ok": true,
+        "expected": "She",
+        "actual": "She"
+      },
+      {
+        "cardId": "b1-spitze",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "ok": true,
+        "expected": "Mountain",
+        "actual": "Mountain"
+      },
+      {
+        "cardId": "b1-spitze",
+        "field": "study.sectionAccents.comparison[2].meaning.purple",
+        "ok": true,
+        "expected": "end",
+        "actual": "end"
+      },
+      {
+        "cardId": "b1-spitze",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+        "ok": true,
+        "expected": "sharpest",
+        "actual": "sharpest"
+      },
+      {
+        "cardId": "b1-streichen",
+        "field": "study.sectionAccents.comparison[2].meaning.purple",
+        "ok": true,
+        "expected": "Draw",
+        "actual": "Draw"
+      },
+      {
+        "cardId": "b1-unterhalten",
+        "field": "study.sectionAccents.examples[1].lv.red",
+        "ok": true,
+        "expected": "long",
+        "actual": "long"
+      },
+      {
+        "cardId": "b1-verbrennen",
+        "field": "study.comparison[0].meaning",
+        "ok": true,
+        "expected": "To burn up, burn yourself",
+        "actual": "To burn up, burn yourself"
+      },
+      {
+        "cardId": "b1-verbrennen",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "ok": true,
+        "expected": "burn",
+        "actual": "burn"
+      },
+      {
+        "cardId": "b1-versichern",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "ok": true,
+        "expected": "secure",
+        "actual": "secure"
+      }
+    ],
+    "microPass": 16,
+    "microTotal": 16,
+    "sectionPass": 24,
+    "sectionTotal": 24,
+    "truncated": []
+  },
+  "validators": {
+    "javascript": {
+      "ok": true,
+      "out": "",
+      "code": 0
+    },
+    "auditLanguageParity": {
+      "ok": true,
+      "out": "{\n  \"lang\": \"en\",\n  \"levels\": {\n    \"a1\": {\n      \"lvCount\": 702,\n      \"langCount\": 702,\n      \"countMatch\": true,\n      \"lvStudyCount\": 134,\n      \"langStudyCount\": 134,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"a2\": {\n      \"lvCount\": 1640,\n      \"langCount\": 1640,\n      \"countMatch\": true,\n      \"lvStudyCount\": 231,\n      \"langStudyCount\": 231,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"b1\": {\n      \"lvCount\": 3367,\n      \"langCount\": 3367,\n      \"countMatch\": true,\n      \"lvStudyCount\": 324,\n      \"langStudyCount\": 324,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"b2\": {\n      \"lvCount\": 2118,\n      \"langCount\": 2118,\n      \"countMatch\": true,\n      \"lvStudyCount\": 60,\n      \"langStudyCount\": 60,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"c1\": {\n      \"lvCount\": 572,\n      \"langCount\": 572,\n      \"countMatch\": true,\n      \"lvStudyCount\": 15,\n      \"langStudyCount\": 15,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"c2\": {\n      \"lvCount\": 219,\n      \"langCount\": 219,\n      \"countMatch\": true,\n      \"lvStudyCount\": 1,\n      \"langStudyCount\": 1,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    }\n  },\n  \"totals\": {\n    \"lvRecords\": 8618,\n    \"langRecords\": 8618,\n    \"lvStudy\": 765,\n    \"langStudy\": 765\n  },\n  \"issues\": [],\n  \"pass\": true\n}\n",
+      "code": 0
+    },
+    "auditTranslations": {
+      "ok": true,
+      "out": "A1: 702 words\nA2: 1640 words\nB1: 3367 words\nB2: 2118 words\nC1: 572 words\nC2: 219 words\n\n=== TOTAL ISSUES (lang=en): 32 ===\n\n{\"type\":\"lv_translation_mismatch\",\"de\":\"Aufwand\",\"lv\":\"Efforts\",\"translation\":\"Effort\",\"lvOnly\":[\"efforts\"],\"transOnly\":[\"effort\"],\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"neigen\",\"lv\":\"To be inclined; to lean\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"neigen\",\"lv\":\"To be inclined; to lean\",\"translation\":\"To be inclined; to lean\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"pflegen\",\"lv\":\"To take care of; to tend\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"pflegen\",\"lv\":\"To take care of; to tend\",\"translation\":\"To take care of; to tend\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Probe\",\"lv\":\"Test; sample; rehearsal\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"Probe\",\"lv\":\"Test; sample; rehearsal\",\"translation\":\"Test; sample; rehearsal\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"räumen\",\"lv\":\"To clear; to vacate; to move out\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"räumen\",\"lv\":\"To clear; to vacate; to move out\",\"translation\":\"To clear; to vacate; to move out\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"reißen\",\"lv\":\"To tear; to rip; to burst\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"reißen\",\"lv\":\"To tear; to rip; to burst\",\"translation\":\"To tear; to rip; to burst\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Spitze\",\"lv\":\"Tip; peak\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"Spitze\",\"lv\":\"Tip; peak\",\"translation\":\"Tip; peak\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Ton\",\"lv\":\"Sound; tone\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"Ton\",\"lv\":\"Sound; tone\",\"translation\":\"Sound; tone\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"treiben\",\"lv\":\"To do; to engage in\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"treiben\",\"lv\":\"To do; to engage in\",\"translation\":\"To do; to engage in\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"umgehen\",\"lv\":\"To deal with; to bypass\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"umgehen\",\"lv\":\"To deal with; to bypass\",\"translation\":\"To deal with; to bypass\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"verraten\",\"lv\":\"To betray; to reveal\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"verreisen\",\"lv\":\"To travel; to go away\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"versäumen\",\"lv\":\"To miss; to fail to do\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"sich versprechen\",\"lv\":\"To misspeak; to make a slip of the tongue\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"verzichten\",\"lv\":\"To do without; to give up\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Vorbild\",\"lv\":\"Role model; example\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Vorgang\",\"lv\":\"Process; procedure\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"vorsagen\",\"lv\":\"To prompt; to tell someone the answer\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"vorsehen\",\"lv\":\"To plan; to provide for; to intend\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"vorüber\",\"lv\":\"Over; past\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Wäscherei\",\"lv\":\"Laundry; laundrette\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"zünden\",\"lv\":\"Ignite; work or function\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"zünden\",\"lv\":\"Ignite; work or function\",\"translation\":\"Ignite; work or function\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n",
+      "code": 0
+    },
+    "auditMojibake": {
+      "ok": true,
+      "out": "{\n  \"lang\": \"en\",\n  \"filesScanned\": 18,\n  \"filesWithHits\": 0,\n  \"totalHits\": 0,\n  \"results\": [],\n  \"pass\": true\n}\n",
+      "code": 0
+    },
+    "validateStudyDesign": {
+      "ok": false,
+      "out": "{\n  \"lang\": \"en\",\n  \"totals\": {\n    \"total\": 9603,\n    \"noStudy\": 8838,\n    \"flashcard\": 8859,\n    \"standardStudy\": 695,\n    \"minimalStudy\": 49,\n    \"comparisonStudy\": 0,\n    \"studyObjectNoRenderable\": 21,\n    \"sectionAccentIssues\": 54,\n    \"emptySectionAccents\": 0\n  },\n  \"perFile\": [\n    {\n      \"file\": \"data/en/a1.js\",\n      \"total\": 702,\n      \"noStudy\": 568,\n      \"flashcard\": 568,\n      \"standardStudy\": 134,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 34,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"social visit\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"important\",\n            \"field\": null\n          },\n          {\n            \"de\": \"besuchen\",\n            \"term\": \"besuchen\",\n            \"section\": \"tip\",\n            \"field\": \"left\"\n          },\n          {\n            \"de\": \"Bitte\",\n            \"term\": \"Little\",\n            \"section\": \"tip\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/a2.js\",\n      \"total\": 1640,\n      \"noStudy\": 1409,\n      \"flashcard\": 1427,\n      \"standardStudy\": 207,\n      \"minimalStudy\": 6,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 18,\n      \"sectionAccentIssues\": 14,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Aschenputtel\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Gott\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Keller\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kellner\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kerl\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"brennen\",\n            \"term\": \"deg\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"brennen\",\n            \"term\": \"kaut\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"lai\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"tam\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"par to\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b1.js\",\n      \"total\": 3367,\n      \"noStudy\": 3043,\n      \"flashcard\": 3044,\n      \"standardStudy\": 323,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 1,\n      \"sectionAccentIssues\": 6,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Homosexuelle\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"Absatz\",\n            \"term\": \"The\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"bedeutend\",\n            \"term\": \"significantly\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"belegen\",\n            \"term\": \"busy\",\n            \"section\": \"important\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Berühmtheit\",\n            \"term\": \"null\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"einerlei\",\n            \"term\": \"doesn't matter\",\n            \"section\": \"explanation\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b2.js\",\n      \"total\": 2118,\n      \"noStudy\": 2058,\n      \"flashcard\": 2060,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 43,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 2,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"sich verlaufen\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"verlaufen\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c1.js\",\n      \"total\": 572,\n      \"noStudy\": 557,\n      \"flashcard\": 557,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c2.js\",\n      \"total\": 219,\n      \"noStudy\": 218,\n      \"flashcard\": 218,\n      \"standardStudy\": 1,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/sentences.js\",\n      \"total\": 796,\n      \"noStudy\": 796,\n      \"flashcard\": 796,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/verbs.js\",\n      \"total\": 189,\n      \"noStudy\": 189,\n      \"flashcard\": 189,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/courseLessons.js\",\n      \"skipped\": true,\n      \"reason\": \"not a flashcard array\"\n    }\n  ],\n  \"rootWwwMismatches\": [],\n  \"pass\": false\n}\nCommand failed: node scripts/validate-study-design.js --lang=en",
+      "code": 1
+    },
+    "mirrorParity": true,
+    "deReadOnly": true
+  },
+  "layouts": {
+    "total": 3367,
+    "studyObjects": 324,
+    "standardStudy": 323
+  },
+  "diff": {
+    "unrelatedEnglish": 0,
+    "deChanges": 0,
+    "unexpected": 0
+  },
+  "unresolvedTraceability": {
+    "alreadyResolved": [
+      {
+        "findingId": "repair01-b1-verlegen-study.sectionAccents.important.purple",
+        "auditCardId": "b1-verlegen",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #11-b1-durchführen-study.sectionAccents.examples[0].lv.purple[1]",
+        "auditCardId": "b1-durchführen",
+        "class": "REMOVE_DUPLICATE_NOOP"
+      },
+      {
+        "findingId": "HIGH #11-b1-einbrechen-study.sectionAccents.explanation.purple[1]",
+        "auditCardId": "b1-einbrechen",
+        "class": "REMOVE_DUPLICATE_NOOP"
+      },
+      {
+        "findingId": "HIGH #11-b1-einbrechen-study.sectionAccents.explanation.purple[2]",
+        "auditCardId": "b1-einbrechen",
+        "class": "REMOVE_DUPLICATE_NOOP"
+      },
+      {
+        "findingId": "HIGH #11-b1-faul-study.sectionAccents.explanation.purple[1]",
+        "auditCardId": "b1-faul",
+        "class": "REMOVE_DUPLICATE_NOOP"
+      },
+      {
+        "findingId": "HIGH #11-b1-faul-study.sectionAccents.explanation.purple[2]",
+        "auditCardId": "b1-faul",
+        "class": "REMOVE_DUPLICATE_NOOP"
+      },
+      {
+        "findingId": "HIGH #11-b1-festlegen-study.sectionAccents.tip.leftBlocks[0].purple",
+        "auditCardId": "b1-festlegen",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #11-b1-feststellen-study.sectionAccents.tip.leftBlocks[0].purple",
+        "auditCardId": "b1-feststellen",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #11-b1-futter-study.sectionAccents.tip.leftBlocks[0].purple",
+        "auditCardId": "b1-futter",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #11-b1-gehalt-2-study.tip.leftBlocks[0].text",
+        "auditCardId": "b1-gehalt-2",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #12-b1-irren-study.sectionAccents.explanation.purple[1]",
+        "auditCardId": "b1-irren",
+        "class": "REMOVE_DUPLICATE_NOOP"
+      },
+      {
+        "findingId": "HIGH #12-b1-kiefer-study.sectionAccents.important[0].purple[0]",
+        "auditCardId": "b1-kiefer",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #12-b1-kippen-study.sectionAccents.important.purple[1]",
+        "auditCardId": "b1-kippen",
+        "class": "REMOVE_DUPLICATE_NOOP"
+      },
+      {
+        "findingId": "HIGH #12-b1-klappen-study.sectionAccents.explanation.purple[1]",
+        "auditCardId": "b1-klappen",
+        "class": "REMOVE_DUPLICATE_NOOP"
+      },
+      {
+        "findingId": "HIGH #13-b1-steuer-2-study.explanation",
+        "auditCardId": "b1-steuer-2",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #12-b1-kunde-2-study.examples[0].lv",
+        "auditCardId": "b1-kunde-2",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #12-b1-kunde-2-study.sectionAccents.comparison[0].meaning.purple",
+        "auditCardId": "b1-kunde-2",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #12-b1-kunde-2-study.sectionAccents.comparison[1].meaning.purple",
+        "auditCardId": "b1-kunde-2",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #12-b1-lager-study.examples[0].enText",
+        "auditCardId": "b1-lager",
+        "class": "ALREADY_MATCHES"
+      },
+      {
+        "findingId": "HIGH #12-b1-kante-study.examples[2].enText",
+        "auditCardId": "b1-kante",
+        "class": "ALREADY_MATCHES"
+      }
+    ],
+    "additionalDeterministic": [
+      {
+        "findingId": "HIGH #11-b1-gehalt-2-study.important.text",
+        "auditCardId": "b1-gehalt-2",
+        "fieldPath": "study.important.text"
+      },
+      {
+        "findingId": "HIGH #13-b1-sowie-study.comparison[1].meaning",
+        "auditCardId": "b1-sowie",
+        "fieldPath": "study.comparison[1].meaning"
+      },
+      {
+        "findingId": "HIGH #13-b1-treiben-study.comparison[2].meaning",
+        "auditCardId": "b1-treiben",
+        "fieldPath": "study.comparison[2].meaning"
+      }
+    ]
+  },
+  "finalDatasetStatus": "NOT READY FOR CLOSURE",
+  "nextStep": "EN–DE B1 MAIN INTEGRATION REGRESSION OWNER REVIEW / FOLLOW-UP REPAIR",
+  "productionChangesDuringAudit": 0
+}
