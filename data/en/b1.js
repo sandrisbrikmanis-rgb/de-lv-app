@@ -41,7 +41,7 @@ const B1_WORDS = [
     "de": "Umgebung",
     "de_article": "die",
     "de_plural": "die Umgebungen",
-    "lv": "Neighborhood",
+    "lv": "Surroundings",
     "level": "B1"
   },
   {
@@ -53,7 +53,7 @@ const B1_WORDS = [
     "de": "Aktentasche",
     "de_article": "die",
     "de_plural": "die Aktentaschen",
-    "lv": "Portfolio",
+    "lv": "Briefcase",
     "level": "B1"
   },
   {
@@ -74,7 +74,7 @@ const B1_WORDS = [
     "de": "Alarm",
     "de_article": "der",
     "de_plural": "die Alarme",
-    "lv": "Anxiety",
+    "lv": "Alarm",
     "level": "B1"
   },
   {
@@ -456,7 +456,7 @@ const B1_WORDS = [
     "de": "Angehörige",
     "de_article": "der",
     "de_plural": "die Angehörigen",
-    "lv": "Belonging to",
+    "lv": "Relative",
     "level": "B1"
   },
   {
@@ -1226,7 +1226,7 @@ const B1_WORDS = [
   },
   {
     "de": "abfragen",
-    "lv": "To request",
+    "lv": "To query / to test",
     "level": "B1"
   },
   {
@@ -1540,7 +1540,7 @@ const B1_WORDS = [
   },
   {
     "de": "abhängig",
-    "lv": "Depends",
+    "lv": "Dependent",
     "level": "B1"
   },
   {
@@ -1575,7 +1575,7 @@ const B1_WORDS = [
     "de": "Ablauf",
     "de_article": "der",
     "de_plural": "die Abläufe",
-    "lv": "Progress",
+    "lv": "Process / sequence",
     "level": "B1"
   },
   {
@@ -2115,7 +2115,7 @@ const B1_WORDS = [
   },
   {
     "de": "abschaffen",
-    "lv": "Atcelt",
+    "lv": "To abolish",
     "level": "B1"
   },
   {
@@ -2577,7 +2577,7 @@ const B1_WORDS = [
   },
   {
     "de": "absichern",
-    "lv": "To provide",
+    "lv": "To secure / safeguard",
     "level": "B1"
   },
   {
@@ -2599,7 +2599,7 @@ const B1_WORDS = [
   },
   {
     "de": "absperren",
-    "lv": "Delimiting",
+    "lv": "To cordon off / block",
     "level": "B1"
   },
   {
@@ -2726,7 +2726,7 @@ const B1_WORDS = [
     "de": "Ambulanz",
     "de_article": "die",
     "de_plural": "die Ambulanzen",
-    "lv": "Emergency assistance",
+    "lv": "Outpatient clinic",
     "level": "B1"
   },
   {
@@ -2775,19 +2775,19 @@ const B1_WORDS = [
     "de": "Anklang",
     "de_article": "der",
     "de_plural": "die Anklänge",
-    "lv": "Responsiveness",
+    "lv": "Appeal / resonance",
     "level": "B1"
   },
   {
     "de": "anknüpfen",
-    "lv": "To attract",
+    "lv": "To connect / build on",
     "level": "B1"
   },
   {
     "de": "Anlauf",
     "de_article": "der",
     "de_plural": "die Anläufe",
-    "lv": "Run in",
+    "lv": "Run-up / attempt",
     "level": "B1"
   },
   {
@@ -2954,7 +2954,7 @@ const B1_WORDS = [
   },
   {
     "de": "anlehnen",
-    "lv": "Push",
+    "lv": "To lean against",
     "level": "B1"
   },
   {
@@ -2966,7 +2966,7 @@ const B1_WORDS = [
   },
   {
     "de": "anliegend",
-    "lv": "In the appendix",
+    "lv": "Attached / enclosed",
     "level": "B1"
   },
   {
@@ -3120,7 +3120,7 @@ const B1_WORDS = [
     "de": "Anrede",
     "de_article": "die",
     "de_plural": "die Anreden",
-    "lv": "Speech",
+    "lv": "Form of address / salutation",
     "level": "B1"
   },
   {
@@ -3156,12 +3156,12 @@ const B1_WORDS = [
     "de": "Ansager",
     "de_article": "der",
     "de_plural": "die Ansager",
-    "lv": "The applicant",
+    "lv": "Announcer",
     "level": "B1"
   },
   {
     "de": "anschaulich",
-    "lv": "Considered",
+    "lv": "Clear / vivid",
     "level": "B1"
   },
   {
@@ -3493,7 +3493,7 @@ const B1_WORDS = [
   },
   {
     "de": "anschreiben",
-    "lv": "To write down",
+    "lv": "To write to",
     "level": "B1"
   },
   {
@@ -3674,7 +3674,7 @@ const B1_WORDS = [
     "de": "Ansichtskarte",
     "de_article": "die",
     "de_plural": "die Ansichtskarten",
-    "lv": "View card",
+    "lv": "Postcard",
     "level": "B1"
   },
   {
@@ -62111,7 +62111,7 @@ const B1_WORDS = [
       "id": "b1-weder",
       "layout": "standardStudy",
       "translation": "Nor",
-      "explanation": "Main idea: weder is used with noch. The construction weder ... noch means neither ... nor or not ... not.",
+      "explanation": "Main idea: weder is used with noch. The construction weder ... noch means neither ... nor.",
       "examples": [
         {
           "de": "Ich trinke weder Kaffee noch Tee.",
@@ -62221,7 +62221,7 @@ const B1_WORDS = [
               "green": "weder ... noch"
             },
             "meaning": {
-              "purple": "nedz"
+              "purple": "Neither"
             },
             "example": {
               "blue": [
@@ -62235,7 +62235,7 @@ const B1_WORDS = [
               "green": "entweder ... oder"
             },
             "meaning": {
-              "purple": "vai nu"
+              "purple": "Either ... or"
             },
             "example": {
               "red": [
@@ -62249,7 +62249,7 @@ const B1_WORDS = [
               "green": "sowohl ... als auch"
             },
             "meaning": {
-              "purple": "gan"
+              "purple": "Both"
             },
             "example": {
               "red": [
@@ -63150,17 +63150,17 @@ const B1_WORDS = [
     "de": "Zeugnis",
     "de_article": "das",
     "de_plural": "die Zeugnisse",
-    "lv": "Testimony",
+    "lv": "Certificate / school report",
     "level": "B1",
     "study": {
       "id": "b1-zeugnis",
       "layout": "standardStudy",
-      "translation": "Testimony",
-      "explanation": "Main idea: das Zeugnis means a testimony, certificate or official statement. In school, this is usually a sign of success.",
+      "translation": "Certificate / school report",
+      "explanation": "Main idea: das Zeugnis means a testimony, certificate or official statement. In a school context, das Zeugnis usually means a school report or report card.",
       "examples": [
         {
           "de": "Das Kind bekommt heute sein Zeugnis.",
-          "lv": "The child receives a testimony today."
+          "lv": "The child receives a school report today."
         },
         {
           "de": "Ich brauche ein ärztliches Zeugnis.",
@@ -63174,12 +63174,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "das Zeugnis",
-          "meaning": "Testimony, certificate, certificate",
+          "meaning": "Testimony, certificate, official statement",
           "example": "Das Zeugnis ist gut. = The testimony is good."
         },
         {
           "word": "die Bescheinigung",
-          "meaning": "Acknowledgment, confirmation",
+          "meaning": "Certificate, confirmation",
           "example": "Ich brauche eine Bescheinigung. = I need a certificate."
         },
         {
@@ -63196,7 +63196,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "ärztliches Zeugnis is often a doctor's certificate in Latvian, not a school certificate."
+        "text": "ärztliches Zeugnis means a medical certificate or doctor's note, not a school report."
       },
       "sectionAccents": {
         "explanation": {
@@ -63212,7 +63212,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "testimony"
+                "school report"
               ]
             }
           },
@@ -63222,7 +63222,7 @@ const B1_WORDS = [
               "green": "ärztliches"
             },
             "lv": {
-              "red": "knowledge"
+              "red": "doctor's note"
             }
           },
           {
@@ -63254,7 +63254,7 @@ const B1_WORDS = [
               "green": "die Bescheinigung"
             },
             "meaning": {
-              "purple": "cognition"
+              "purple": "Certificate"
             },
             "example": {
               "red": "Bescheinigung"
@@ -63265,7 +63265,7 @@ const B1_WORDS = [
               "green": "der Zeuge"
             },
             "meaning": {
-              "purple": "liecinieks"
+              "purple": "A witness"
             },
             "example": {
               "red": "Zeuge"
@@ -63277,7 +63277,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "apliecina"
+                  "confirms"
                 ]
               }
             }
@@ -63285,7 +63285,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "ärztliches Zeugnis",
-          "red": "doctor's certificate"
+          "red": "doctor's note"
         }
       }
     }
@@ -64011,11 +64011,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Was bist du von Beruf?",
-          "lv": "What is your profession"
+          "lv": "What is your profession?"
         },
         {
           "de": "Mein Beruf ist Lehrer.",
-          "lv": "My profession is a teacher."
+          "lv": "I am a teacher."
         },
         {
           "de": "Sie sucht einen neuen Beruf.",
@@ -64072,7 +64072,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "der Beruf is not just any occupation. This is usually a person's profession or field of work.",
+        "text": "Beruf usually refers to a person's profession or field of work.",
         "example": "von Beruf Lehrer = a teacher by profession. viel Arbeit = a lot of work."
       },
       "sectionAccents": {
@@ -64097,7 +64097,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "profession"
+                "teacher"
               ]
             }
           },
@@ -64263,7 +64263,7 @@ const B1_WORDS = [
                   "Beruf"
                 ],
                 "purple": [
-                  "profesiju"
+                  "profession"
                 ]
               }
             },
@@ -64273,7 +64273,7 @@ const B1_WORDS = [
                   "Arbeit"
                 ],
                 "purple": [
-                  "darba"
+                  "work"
                 ]
               }
             }
@@ -64326,14 +64326,9 @@ const B1_WORDS = [
           "Beschäftigung"
         ],
         "purple": [
-          "profesija",
-          "profesiju",
-          "amats",
-          "arods",
-          "darbs",
-          "darba",
+          "profession",
           "occupation",
-          "darba joma"
+          "work"
         ]
       }
     }
@@ -65346,7 +65341,7 @@ const B1_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "To be / sleep",
+          "meaning": "To lie / to be located",
           "example": "Das Buch liegt auf dem Tisch. = The book is on the table."
         },
         {
@@ -65366,7 +65361,7 @@ const B1_WORDS = [
             "text": "In maps, directions and descriptions, sich befinden means to be located."
           },
           {
-            "text": "Ja gribi pateikt “justies”, lieto sich fühlen, nevis sich befinden."
+            "text": "To say “to feel,” use sich fühlen, not sich befinden."
           }
         ]
       },
@@ -65432,7 +65427,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "i feel"
+                "I feel"
               ]
             }
           },
@@ -65494,8 +65489,8 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sleep",
-                "sleep"
+                "lie",
+                "located"
               ]
             },
             "example": {
@@ -65557,7 +65552,7 @@ const B1_WORDS = [
                   "sich befinden"
                 ],
                 "purple": [
-                  "atrasties"
+                  "located"
                 ]
               }
             },
@@ -65567,7 +65562,7 @@ const B1_WORDS = [
                   "sich fühlen"
                 ],
                 "purple": [
-                  "justies"
+                  "feel"
                 ]
               }
             }
@@ -65594,8 +65589,7 @@ const B1_WORDS = [
                 "fühle mich"
               ],
               "purple": [
-                "sich",
-                "i feel"
+                "feel"
               ]
             }
           }
@@ -65623,10 +65617,8 @@ const B1_WORDS = [
           "fühle mich"
         ],
         "purple": [
-          "atrasties",
-          "atrodas",
-          "justies",
-          "i feel",
+          "located",
+          "feel",
           "location"
         ]
       }
