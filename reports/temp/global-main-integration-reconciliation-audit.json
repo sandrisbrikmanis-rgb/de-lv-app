@@ -1,0 +1,270 @@
+{
+  "generatedAt": "2026-08-09T15:27:57.084Z",
+  "auditedMainSha": "6099c38cb7b8868e3877de9dc02132e677bf938b",
+  "auditMode": "READ-ONLY",
+  "sectionsChecked": 11,
+  "enDeB1": "OUT OF SCOPE — already reconciled / closure reconfirmed",
+  "matrix": [
+    {
+      "language": "BS–DE",
+      "section": "B2",
+      "match": 1119,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 1119,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "B1",
+      "match": 1040,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 19,
+      "findings": [
+        {
+          "id": "B1-missing-b1-beschwerde-study.comparison[1].meaning",
+          "language": "BS–DE",
+          "section": "B1",
+          "file": "data/bs/b1.js",
+          "cardObjectId": "b1-beschwerde",
+          "field": "study.comparison[1].meaning",
+          "classification": "UNRESOLVED",
+          "ownerApprovedExpected": "Žalba / pritužba",
+          "currentMain": "Tužba",
+          "evidence": {
+            "repairArtifact": "reports/temp/bs-b1-*-applied.json",
+            "report": "reports/bs-b1-final-medium-targeted-report.md"
+          },
+          "analysis": "Documented SOURCE_LV_ISSUE in final-medium cycle; not part of automated OWNER-approved apply set.",
+          "recommendedNextAction": "Confirm owner acceptance of current main value."
+        },
+        {
+          "id": "B1-missing-b1-dank-study-study.comparison[4].meaning",
+          "language": "BS–DE",
+          "section": "B1",
+          "file": "data/bs/b1.js",
+          "cardObjectId": "b1-dank-study",
+          "field": "study.comparison[4].meaning",
+          "classification": "UNRESOLVED",
+          "ownerApprovedExpected": "Zahvala",
+          "currentMain": "Zahvaliti se",
+          "evidence": {
+            "repairArtifact": "reports/temp/bs-b1-*-applied.json",
+            "report": "reports/bs-b1-final-medium-targeted-report.md"
+          },
+          "analysis": "Documented SOURCE_LV_ISSUE in final-medium cycle; not part of automated OWNER-approved apply set.",
+          "recommendedNextAction": "Confirm owner acceptance of current main value."
+        },
+        {
+          "id": "b1-owner-manual-17",
+          "language": "BS–DE",
+          "section": "B1",
+          "file": "data/bs/b1.js",
+          "cardObjectId": "PR #307 owner manual",
+          "field": "17 repairs",
+          "classification": "UNRESOLVED",
+          "ownerApprovedExpected": "17 OWNER-approved manual fixes (PR #307)",
+          "currentMain": "(no machine-readable repair manifest in reports/temp/)",
+          "evidence": {
+            "report": "reports/bs-b1-final-medium-targeted-report.md",
+            "repairArtifact": "reports/bs-b1-owner-manual-review.md",
+            "pr": "#307"
+          },
+          "analysis": "PR #307 documents 17/17 applied fixes but no per-item expected-value JSON exists in repo.",
+          "recommendedNextAction": "Export PR #307 repair manifest or verify manually against owner decisions."
+        }
+      ],
+      "expected": 1042,
+      "finalStatus": "NEEDS OWNER REVIEW"
+    },
+    {
+      "language": "BS–DE",
+      "section": "A2",
+      "match": 10,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 10,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "A1",
+      "match": 2,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 1031,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "C1",
+      "match": 1,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 28,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "C2",
+      "match": 34,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 34,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "VERBS",
+      "match": 82,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 82,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "KURSS",
+      "match": 21,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 53,
+      "checks": [
+        {
+          "name": "validate-kurss",
+          "pass": true
+        },
+        {
+          "name": "L7 exercise deck 16/16",
+          "pass": true,
+          "actual": 16
+        },
+        {
+          "name": "course-example eliminated",
+          "pass": true,
+          "actual": false
+        },
+        {
+          "name": "kurss-example present",
+          "pass": true,
+          "actual": true
+        },
+        {
+          "name": "mirror parity",
+          "pass": true
+        }
+      ],
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "EN–DE",
+      "section": "A1",
+      "match": 110,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 110,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "EN–DE",
+      "section": "A2",
+      "match": 83,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 83,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "EN–DE",
+      "section": "KURSS",
+      "match": 3,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 0,
+      "finalStatus": "MATCH"
+    }
+  ],
+  "totals": {
+    "match": 2505,
+    "missing": 0,
+    "superseded": 0,
+    "unresolved": 19
+  },
+  "detailedFindings": [
+    {
+      "id": "B1-missing-b1-beschwerde-study.comparison[1].meaning",
+      "language": "BS–DE",
+      "section": "B1",
+      "file": "data/bs/b1.js",
+      "cardObjectId": "b1-beschwerde",
+      "field": "study.comparison[1].meaning",
+      "classification": "UNRESOLVED",
+      "ownerApprovedExpected": "Žalba / pritužba",
+      "currentMain": "Tužba",
+      "evidence": {
+        "repairArtifact": "reports/temp/bs-b1-*-applied.json",
+        "report": "reports/bs-b1-final-medium-targeted-report.md"
+      },
+      "analysis": "Documented SOURCE_LV_ISSUE in final-medium cycle; not part of automated OWNER-approved apply set.",
+      "recommendedNextAction": "Confirm owner acceptance of current main value."
+    },
+    {
+      "id": "B1-missing-b1-dank-study-study.comparison[4].meaning",
+      "language": "BS–DE",
+      "section": "B1",
+      "file": "data/bs/b1.js",
+      "cardObjectId": "b1-dank-study",
+      "field": "study.comparison[4].meaning",
+      "classification": "UNRESOLVED",
+      "ownerApprovedExpected": "Zahvala",
+      "currentMain": "Zahvaliti se",
+      "evidence": {
+        "repairArtifact": "reports/temp/bs-b1-*-applied.json",
+        "report": "reports/bs-b1-final-medium-targeted-report.md"
+      },
+      "analysis": "Documented SOURCE_LV_ISSUE in final-medium cycle; not part of automated OWNER-approved apply set.",
+      "recommendedNextAction": "Confirm owner acceptance of current main value."
+    },
+    {
+      "id": "b1-owner-manual-17",
+      "language": "BS–DE",
+      "section": "B1",
+      "file": "data/bs/b1.js",
+      "cardObjectId": "PR #307 owner manual",
+      "field": "17 repairs",
+      "classification": "UNRESOLVED",
+      "ownerApprovedExpected": "17 OWNER-approved manual fixes (PR #307)",
+      "currentMain": "(no machine-readable repair manifest in reports/temp/)",
+      "evidence": {
+        "report": "reports/bs-b1-final-medium-targeted-report.md",
+        "repairArtifact": "reports/bs-b1-owner-manual-review.md",
+        "pr": "#307"
+      },
+      "analysis": "PR #307 documents 17/17 applied fixes but no per-item expected-value JSON exists in repo.",
+      "recommendedNextAction": "Export PR #307 repair manifest or verify manually against owner decisions."
+    }
+  ],
+  "productionFilesModified": 0,
+  "finalVerdict": "NEEDS OWNER REVIEW"
+}
