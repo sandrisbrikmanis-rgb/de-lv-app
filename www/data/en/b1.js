@@ -24019,8 +24019,9 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "eat",
-            "tomorrow"
+            "animals eating",
+            "gobble",
+            "wolf down"
           ]
         },
         "comparison": [
@@ -59305,7 +59306,7 @@ const B1_WORDS = [
               "green": "folgen"
             },
             "meaning": {
-              "purple": "sekot"
+              "purple": "follow"
             },
             "example": {
               "red": "folge"
