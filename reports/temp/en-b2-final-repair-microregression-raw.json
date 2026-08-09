@@ -1,0 +1,40 @@
+{
+  "findings": [
+    {
+      "cardId": "b2-zuweisen",
+      "field": "study.examples[0].en",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Chef weist ihm eine neue Aufgabe zu.",
+      "lvSource": "Viņa priekšnieks viņam piešķir jaunu uzdevumu.",
+      "currentEn": "The boss gives him a new task.",
+      "proposedEn": "The boss assigns him a new task.",
+      "reason": "Gives is understandable but misses zuweisen's sense of formally assigning a task.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 5,
+    "initialBatchRequests": 5,
+    "retryRequests": 0,
+    "batchCount": 5,
+    "batchSizes": [
+      9,
+      8,
+      8,
+      8,
+      2
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 9304,
+    "cachedInputTokens": 0,
+    "outputTokens": 3147,
+    "reasoningTokens": 2478,
+    "totalTokens": 12451,
+    "findingsCount": 1,
+    "passCount": 34
+  }
+}

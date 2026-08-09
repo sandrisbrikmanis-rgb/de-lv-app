@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-08-09T18:46:13.941Z",
+  "preRepairCommit": "526a2d4b",
+  "scope": {
+    "uniqueChangedCards": 35,
+    "lunaAudited": 35,
+    "lunaExpected": 35,
+    "apiBatches": 5
+  },
+  "luna": {
+    "status": "COMPLETED",
+    "rawCount": 1,
+    "validatedRealProblems": 1,
+    "severity": {
+      "KRITISKA": 0,
+      "AUGSTA": 0,
+      "VIDĒJA": 1,
+      "ZEMA": 0,
+      "VILTUS_POZITĪVS": 0
+    },
+    "stats": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 5,
+      "initialBatchRequests": 5,
+      "retryRequests": 0,
+      "batchCount": 5,
+      "batchSizes": [
+        9,
+        8,
+        8,
+        8,
+        2
+      ],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 9304,
+      "cachedInputTokens": 0,
+      "outputTokens": 3147,
+      "reasoningTokens": 2478,
+      "totalTokens": 12451,
+      "findingsCount": 1,
+      "passCount": 34
+    }
+  },
+  "findings": [
+    {
+      "cardId": "b2-zuweisen",
+      "fieldPath": "study.examples[0].en",
+      "currentEn": "The boss gives him a new task.",
+      "problem": "Gives is understandable but misses zuweisen's sense of formally assigning a task.",
+      "recommendedEn": "The boss assigns him a new task.",
+      "validatedStatus": "REĀLA_PROBLĒMA",
+      "validatedSeverity": "VIDĒJA",
+      "rationale": "Gives is understandable but misses zuweisen's sense of formally assigning a task."
+    }
+  ],
+  "verdict": "NEPIECIEŠAMS PAPILDU MIKROLABOJUMS"
+}

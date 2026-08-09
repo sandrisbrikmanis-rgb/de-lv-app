@@ -1141,7 +1141,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich bemächtigen",
-    "lv": "Seise • Take possession of",
+    "lv": "Seize • Take possession of",
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
@@ -1377,12 +1377,12 @@ const B2_WORDS = [
   },
   {
     "de": "bestürzt",
-    "lv": "Dismayed • Confused • Perplexed • Bewildered",
+    "lv": "Dismayed • Shocked • Distressed",
     "level": "B2"
   },
   {
     "de": "sich betätigen",
-    "lv": "Operate • Participate",
+    "lv": "Engage in • Participate in",
     "level": "B2",
     "study": {
       "id": "b2-sich-betaetigen",
@@ -2981,7 +2981,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchbringen",
-    "lv": "Get through • Get passed • Support • Nurse through • Waste",
+    "lv": "Get through • Support • Nurse through • Waste",
     "level": "B2"
   },
   {
@@ -3904,7 +3904,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich empören",
-    "lv": "Get angry • Revolt",
+    "lv": "Be outraged • Be indignant",
     "level": "B2",
     "study": {
       "id": "b2-sich-empoeren",
@@ -4056,12 +4056,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich entledigen",
-    "lv": "Get rid of • Get rid of",
+    "lv": "Get rid of",
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
       "layout": "minimalStudy",
-      "translation": "Get rid of • Get rid of",
+      "translation": "Get rid of",
       "rektion": "+ genitive",
       "explanation": "Sich entledigen is used with a genitive object and no preposition.",
       "forms": "+ genitive",
@@ -4092,7 +4092,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich entrüsten",
-    "lv": "Get angry • Revolt",
+    "lv": "Be outraged • Be indignant",
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
@@ -4126,12 +4126,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich entsinnen",
-    "lv": "To remember • To remember",
+    "lv": "To remember",
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
       "layout": "minimalStudy",
-      "translation": "To remember • To remember",
+      "translation": "To remember",
       "rektion": "+ genitive",
       "explanation": "Sich entsinnen is used with a genitive object and no preposition, for example: Ich entsinne mich eines Fehlers.",
       "forms": "+ genitive",
@@ -4252,12 +4252,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich erbarmen",
-    "lv": "To have mercy • To have mercy",
+    "lv": "To have mercy",
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
       "layout": "minimalStudy",
-      "translation": "To have mercy • To have mercy",
+      "translation": "To have mercy",
       "rektion": "über + the accusative",
       "explanation": "Sich erbarmen takes the fixed preposition über + the accusative.",
       "forms": "über + the accusative",
@@ -4523,7 +4523,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich erregen",
-    "lv": "Worry about",
+    "lv": "Get worked up about",
     "level": "B2",
     "study": {
       "id": "b2-sich-erregen",
@@ -4671,9 +4671,9 @@ const B2_WORDS = [
       "id": "b2-sich-erweisen",
       "layout": "minimalStudy",
       "translation": "Turn out to be",
-      "rektion": "als + the accusative",
-      "explanation": "Sich erweisen requires the preposition als + the accusative",
-      "forms": "als + the accusative",
+      "rektion": "als + the nominative",
+      "explanation": "Sich erweisen is followed by als + the nominative.",
+      "forms": "als + the nominative",
       "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
@@ -5367,7 +5367,7 @@ const B2_WORDS = [
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "Milling machine • Milling cutter",
+    "lv": "Milling operator • Milling cutter",
     "level": "B2"
   },
   {
@@ -5452,7 +5452,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich fügen",
-    "lv": "Adapt • Obey",
+    "lv": "Submit • Comply",
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
@@ -6015,7 +6015,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich genieren",
-    "lv": "To be ashamed",
+    "lv": "To feel embarrassed",
     "level": "B2",
     "study": {
       "id": "b2-sich-genieren",
@@ -6400,7 +6400,7 @@ const B2_WORDS = [
     "de": "Gewissheit",
     "de_article": "die",
     "de_plural": "die Gewissheiten",
-    "lv": "Certainty • Assurance • Definiteness",
+    "lv": "Certainty • Assurance",
     "level": "B2"
   },
   {
@@ -6841,7 +6841,7 @@ const B2_WORDS = [
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "Kindness • Quality",
+    "lv": "Kindness • Quality • Goodness",
     "level": "B2"
   },
   {
@@ -7014,7 +7014,7 @@ const B2_WORDS = [
         },
         {
           "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Put the lid on the pot."
+          "lv": "Put the lid on the pot as a cover."
         }
       ],
       "tip": [
@@ -7310,12 +7310,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich heraushalten",
-    "lv": "Keep away from",
+    "lv": "Stay out of",
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
       "layout": "minimalStudy",
-      "translation": "Keep away from",
+      "translation": "Stay out of",
       "rektion": "aus + the dative",
       "explanation": "Sich heraushalten is used with aus + the dative.",
       "forms": "aus + the dative",
@@ -7607,7 +7607,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-hoch-study",
       "layout": "standardStudy",
-      "translation": "A toast (\"long live!\")",
+      "translation": "Toast/cheer (\"long live!\") • High-pressure system",
       "explanation": [
         "Main idea: das Hoch with a capital letter and the article das is a noun - a celebratory cry/toast (Ein Hoch auf...! = Long live...!) or in the weather - an area of ​​high pressure.",
         "Lower case hoch is an adjective - high (der Berg ist hoch).",
@@ -7621,7 +7621,7 @@ const B2_WORDS = [
         },
         {
           "de": "Ein Hoch auf dich!",
-          "lv": "Long may you live!"
+          "lv": "Here's to you!"
         },
         {
           "de": "Morgen kommt ein Hoch.",
@@ -7669,7 +7669,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Long"
+                "Here's"
               ]
             }
           },
@@ -7809,7 +7809,7 @@ const B2_WORDS = [
         },
         {
           "word": "die Überschwemmung",
-          "meaning": "High water / flooding",
+          "meaning": "Flooding • Inundation",
           "example": "Die Überschwemmung zerstörte Häuser. = Floods destroyed houses."
         },
         {
@@ -9433,7 +9433,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachträglich",
-    "lv": "Subsequent • Additional • Retrospective",
+    "lv": "Subsequent • Additional • Later",
     "level": "B2"
   },
   {
@@ -9459,7 +9459,7 @@ const B2_WORDS = [
   },
   {
     "de": "namens",
-    "lv": "In the name of • By the name of",
+    "lv": "In the name of • On behalf of",
     "level": "B2"
   },
   {
@@ -9546,7 +9546,7 @@ const B2_WORDS = [
   },
   {
     "de": "neuerdings",
-    "lv": "Recently • Lately • Nowadays",
+    "lv": "Recently • Lately • Of late",
     "level": "B2"
   },
   {
@@ -10503,7 +10503,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-revanchieren",
       "layout": "minimalStudy",
-      "translation": "Pay back • Take revenge",
+      "translation": "Return the favour • Take revenge",
       "rektion": "bei + dative",
       "explanation": "Sich revanchieren requires the fixed preposition bei + dative.",
       "forms": "bei + dative",
@@ -10802,7 +10802,7 @@ const B2_WORDS = [
   },
   {
     "de": "scheiden",
-    "lv": "To separate • To divide • To divorce • To get divorced • To split up • To decide",
+    "lv": "To separate • To divide • To divorce • To get divorced • To split up • To part",
     "level": "B2"
   },
   {
@@ -11465,9 +11465,9 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "If • Provided that",
       "explanation": [
-        "Main idea: sofät is a conditional conjunction - means if/provided that.",
-        "Sofè introduces a conditional auxiliary clause, similar to wenn, but is more formal and typical of the written style.",
-        "Soufen does NOT mean 'because' (causative conjunction) - it is da or weil in German.",
+        "Main idea: sofern is a conditional conjunction meaning \"if\" or \"provided that.\"",
+        "Sofern introduces a conditional subordinate clause, similar to wenn, but is more formal and typical of written style.",
+        "Sofern does NOT mean \"because\" (a causal conjunction). The German equivalents are da or weil.",
         "Commonly used in legal/formal texts (sofern nicht anders verfahrt = unless otherwise agreed)."
       ],
       "examples": [
@@ -11485,7 +11485,7 @@ const B2_WORDS = [
         },
         {
           "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "Please be specific if possible."
+          "lv": "If possible, please be punctual."
         },
         {
           "de": "Er hilft, sofern er kann.",
@@ -11498,11 +11498,11 @@ const B2_WORDS = [
       ],
       "tip": [
         "if/provided that (condition) - not to be confused with cause.",
-        "'since' (cause) in German is da/weil, ne soufen."
+        "\"Since\" (cause) is da or weil in German, not sofern."
       ],
       "important": [
-        "if there is a conditional, not a causal connection.",
-        "Incorrect: soufen = as → Correct: da/weil = as."
+        "It indicates a conditional, not a causal connection.",
+        "Incorrect: sofern = \"as\" → Correct: da/weil = \"as.\""
       ],
       "sectionAccents": {
         "explanation": {
@@ -11601,9 +11601,7 @@ const B2_WORDS = [
         ],
         "important": [
           {
-            "purple": [
-              "there"
-            ]
+            "purple": []
           }
         ]
       }
@@ -13327,7 +13325,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich versöhnen",
-    "lv": "Put up with",
+    "lv": "Reconcile with",
     "level": "B2",
     "study": {
       "id": "b2-sich-versoehnen",
@@ -13492,7 +13490,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich verwundern",
-    "lv": "Wonder about",
+    "lv": "Be surprised by",
     "level": "B2",
     "study": {
       "id": "b2-sich-verwundern",
@@ -14171,7 +14169,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich widersetzen",
-    "lv": "Resist • Face",
+    "lv": "Resist • Oppose",
     "level": "B2",
     "study": {
       "id": "b2-sich-widersetzen",
@@ -14361,7 +14359,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuweisen",
-    "lv": "Assign • Assign",
+    "lv": "Assign • Allocate",
     "level": "B2",
     "study": {
       "id": "b2-zuweisen",
@@ -14379,7 +14377,7 @@ const B2_WORDS = [
         },
         {
           "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "He was assigned to another department."
+          "lv": "She was assigned to another department."
         }
       ],
       "comparison": [
@@ -14395,7 +14393,7 @@ const B2_WORDS = [
         },
         {
           "word": "verteilen",
-          "meaning": "To assign",
+          "meaning": "To divide",
           "example": "Er verteilt die Aufgaben. = He divides the tasks."
         }
       ],
@@ -14484,7 +14482,7 @@ const B2_WORDS = [
         },
         {
           "de": "Das läuft mir zuwider.",
-          "lv": "I don't like it / it makes me sad."
+          "lv": "I don't like it / It goes against my grain."
         }
       ],
       "comparison": [
@@ -14638,7 +14636,7 @@ const B2_WORDS = [
         },
         {
           "de": "Ich ändere den Termin.",
-          "lv": "I change the term."
+          "lv": "I'm changing the appointment."
         },
         {
           "de": "ändern",
@@ -14707,7 +14705,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "change"
+                "changing"
               ]
             }
           },
@@ -14883,10 +14881,10 @@ const B2_WORDS = [
       ],
       "tip": [
         "Offer opportunities, courses, services, or benefits—that the location or programme provides.",
-        "Use beet when the context fits this meaning."
+        "Use bieten when the context fits this meaning."
       ],
       "important": [
-        "bieten: Die Schule bietet Kurse. (indivisible)",
+        "bieten: Die Schule bietet Kurse. (not separable)",
         "What the place/programme offers: bieten."
       ],
       "sectionAccents": {
@@ -15022,7 +15020,7 @@ const B2_WORDS = [
         ]
       },
       "important": {
-        "text": "anbieten = to offer actively. Divisible: biete ... an. Perfect: angeboten."
+        "text": "anbieten = to offer actively. Separable: biete ... an. Perfect: angeboten."
       },
       "sectionAccents": {
         "explanation": {
@@ -15345,7 +15343,7 @@ const B2_WORDS = [
   },
   {
     "de": "verlaufen",
-    "lv": "To proceed • To roll",
+    "lv": "To proceed • To run its course",
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",

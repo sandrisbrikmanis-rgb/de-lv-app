@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-08-09T18:45:20.836Z",
+  "preRepairCommit": "526a2d4b",
+  "totalEnChanges": 54,
+  "expectedApplyChanges": 51,
+  "matchedExpected": 51,
+  "unexpectedChanges": [],
+  "unexpectedCount": 0,
+  "foreignRemnants": 0,
+  "sectionAccentIssues": 0,
+  "formsLabel": {
+    "management": 0,
+    "government": 0,
+    "rection": 43
+  },
+  "structure": {
+    "cards": 2118,
+    "studies": 60,
+    "standardStudy": 15,
+    "minimalStudy": 45,
+    "flashcards": 2058
+  },
+  "deReadOnly": true,
+  "mirrorPass": true
+}

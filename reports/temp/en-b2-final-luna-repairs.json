@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-08-09T18:46:34.009Z",
+  "branch": "cursor/en-b2-full-audit-6850",
+  "pr": "#376",
+  "ownerDecisions": {
+    "reviewed": 67,
+    "labot": 51,
+    "nelabot": 8,
+    "deAvota": 8
+  },
+  "apply": {
+    "planned": 51,
+    "applied": 51,
+    "verified": 51,
+    "currentValueMismatch": 0,
+    "sectionAccentSync": 1,
+    "changedUniqueCards": 35
+  },
+  "preservation": {
+    "nelabot": 8,
+    "nelabotPlanned": 8,
+    "deAvota": 8,
+    "deAvotaPlanned": 8,
+    "deReadOnly": true
+  },
+  "technical": {
+    "structure": {
+      "cards": 2118,
+      "studies": 60,
+      "standardStudy": 15,
+      "minimalStudy": 45,
+      "flashcards": 2058
+    },
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "parityPass": true,
+    "sectionAccentIssues": 0,
+    "foreignRemnants": 0,
+    "unexpectedChanges": 0,
+    "formsLabel": {
+      "management": 0,
+      "government": 0,
+      "rection": 43
+    }
+  },
+  "microregression": {
+    "uniqueChangedCards": 35,
+    "lunaAudited": 35,
+    "lunaStatus": "COMPLETED",
+    "kritiska": 0,
+    "augsta": 0,
+    "viedja": 1,
+    "zema": 0,
+    "viltusPozitivi": 0,
+    "realProblems": 1,
+    "verdict": "NEPIECIEŠAMS PAPILDU MIKROLABOJUMS",
+    "findings": [
+      {
+        "cardId": "b2-zuweisen",
+        "fieldPath": "study.examples[0].en",
+        "currentEn": "The boss gives him a new task.",
+        "problem": "Gives is understandable but misses zuweisen's sense of formally assigning a task.",
+        "recommendedEn": "The boss assigns him a new task.",
+        "validatedStatus": "REĀLA_PROBLĒMA",
+        "validatedSeverity": "VIDĒJA",
+        "rationale": "Gives is understandable but misses zuweisen's sense of formally assigning a task."
+      }
+    ]
+  },
+  "verdict": "NEPIECIEŠAMS PAPILDU MIKROLABOJUMS"
+}
