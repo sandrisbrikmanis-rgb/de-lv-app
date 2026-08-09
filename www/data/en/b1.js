@@ -23915,7 +23915,7 @@ const B1_WORDS = [
   },
   {
     "de": "fressen",
-    "lv": "Tomorrow",
+    "lv": "Eat (of animals)",
     "level": "B1",
     "study": {
       "id": "b1-fressen",
