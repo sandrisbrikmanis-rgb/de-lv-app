@@ -46676,7 +46676,7 @@ const B1_WORDS = [
     "de": "Rücksicht",
     "de_article": "die",
     "de_plural": "die Rücksichten",
-    "lv": "Reckoning",
+    "lv": "Consideration",
     "level": "B1"
   },
   {
@@ -47194,7 +47194,7 @@ const B1_WORDS = [
     "de": "Rute",
     "de_article": "die",
     "de_plural": "die Ruten",
-    "lv": "Tool",
+    "lv": "Rod",
     "level": "B1"
   },
   {
@@ -47361,7 +47361,7 @@ const B1_WORDS = [
     "de": "Sage",
     "de_article": "die",
     "de_plural": "die Sagen",
-    "lv": "Said",
+    "lv": "Legend",
     "level": "B1"
   },
   {
@@ -47388,7 +47388,7 @@ const B1_WORDS = [
     "de": "Salon",
     "de_article": "der",
     "de_plural": "die Salons",
-    "lv": "Some no. saloon",
+    "lv": "Salon",
     "level": "B1"
   },
   {
@@ -47435,7 +47435,7 @@ const B1_WORDS = [
     "de": "Sanitäter",
     "de_article": "der",
     "de_plural": "die Sanitäter",
-    "lv": "Sanitation worker",
+    "lv": "Paramedic",
     "level": "B1"
   },
   {
@@ -47473,7 +47473,7 @@ const B1_WORDS = [
   },
   {
     "de": "saufen",
-    "lv": "To dry",
+    "lv": "To drink heavily",
     "level": "B1"
   },
   {
@@ -47485,7 +47485,7 @@ const B1_WORDS = [
     "de": "Sauger",
     "de_article": "der",
     "de_plural": "die Sauger",
-    "lv": "Pacifier on the bottle",
+    "lv": "Bottle nipple",
     "level": "B1"
   },
   {
@@ -47511,7 +47511,7 @@ const B1_WORDS = [
   },
   {
     "de": "säumen",
-    "lv": "[to] disappoint",
+    "lv": "To hem",
     "level": "B1"
   },
   {
@@ -47793,7 +47793,7 @@ const B1_WORDS = [
     "de": "Scheinwerfer",
     "de_article": "der",
     "de_plural": "die Scheinwerfer",
-    "lv": "Star man",
+    "lv": "Headlight / spotlight",
     "level": "B1"
   },
   {
@@ -48365,7 +48365,7 @@ const B1_WORDS = [
   },
   {
     "de": "schleichen",
-    "lv": "To steal",
+    "lv": "To sneak",
     "level": "B1"
   },
   {
@@ -48527,7 +48527,7 @@ const B1_WORDS = [
   },
   {
     "de": "schleppen",
-    "lv": "To stretch",
+    "lv": "To drag",
     "level": "B1"
   },
   {
@@ -49135,14 +49135,14 @@ const B1_WORDS = [
     "de": "Schneiderin",
     "de_article": "die",
     "de_plural": "die Schneiderinnen",
-    "lv": "Sewed",
+    "lv": "Seamstress",
     "level": "B1"
   },
   {
     "de": "Schnellzug",
     "de_article": "der",
     "de_plural": "die Schnellzüge",
-    "lv": "Cf. high speed train",
+    "lv": "High-speed train",
     "level": "B1"
   },
   {
@@ -49277,14 +49277,14 @@ const B1_WORDS = [
     "de": "Schnittlauch",
     "de_article": "der",
     "de_plural": "die Schnittlauche",
-    "lv": "Spring onions",
+    "lv": "Chives",
     "level": "B1"
   },
   {
     "de": "Schnittmuster",
     "de_article": "das",
     "de_plural": "die Schnittmuster",
-    "lv": "Cutting edge",
+    "lv": "Sewing pattern",
     "level": "B1"
   },
   {
@@ -49377,7 +49377,7 @@ const B1_WORDS = [
     "de": "Schrecken",
     "de_article": "der",
     "de_plural": "die Schrecken",
-    "lv": "Scared",
+    "lv": "Fright",
     "level": "B1"
   },
   {
@@ -49396,7 +49396,7 @@ const B1_WORDS = [
     "de": "Schrift",
     "de_article": "die",
     "de_plural": "die Schriften",
-    "lv": "The article",
+    "lv": "Writing",
     "level": "B1"
   },
   {
@@ -49438,7 +49438,7 @@ const B1_WORDS = [
     "de": "Schuld",
     "de_article": "die",
     "de_plural": "die Schulden",
-    "lv": "To be guilty",
+    "lv": "Guilt",
     "level": "B1"
   },
   {
@@ -49586,7 +49586,7 @@ const B1_WORDS = [
   {
     "de": "Schüttelfrost",
     "de_article": "der",
-    "lv": "Fever",
+    "lv": "Chills",
     "level": "B1"
   },
   {
@@ -49990,7 +49990,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwellen",
-    "lv": "Pamp",
+    "lv": "To swell",
     "level": "B1"
   },
   {
@@ -50021,7 +50021,7 @@ const B1_WORDS = [
     "de": "Schwiele",
     "de_article": "die",
     "de_plural": "die Schwielen",
-    "lv": "A blister",
+    "lv": "A callus",
     "level": "B1"
   },
   {
@@ -50045,7 +50045,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "Dizzy",
+    "lv": "To cheat / to lie",
     "level": "B1"
   },
   {
@@ -50060,7 +50060,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwul",
-    "lv": "Cf. homosexual",
+    "lv": "Gay",
     "level": "B1"
   },
   {
@@ -50602,7 +50602,7 @@ const B1_WORDS = [
   },
   {
     "de": "sichern",
-    "lv": "To provide",
+    "lv": "To secure",
     "level": "B1"
   },
   {
@@ -50976,7 +50976,7 @@ const B1_WORDS = [
     "de": "Sitzung",
     "de_article": "die",
     "de_plural": "die Sitzungen",
-    "lv": "Sitting",
+    "lv": "Meeting / session",
     "level": "B1"
   },
   {
@@ -50990,7 +50990,7 @@ const B1_WORDS = [
     "de": "Skispringen",
     "de_article": "das",
     "de_plural": "die Skispringen",
-    "lv": "Springboard jumping",
+    "lv": "Ski jumping",
     "level": "B1"
   },
   {
@@ -51066,7 +51066,7 @@ const B1_WORDS = [
     "de": "Sommersprosse",
     "de_article": "die",
     "de_plural": "die Sommersprossen",
-    "lv": "Summer spot",
+    "lv": "Freckle",
     "level": "B1"
   },
   {
@@ -51247,7 +51247,7 @@ const B1_WORDS = [
     "de": "Sorte",
     "de_article": "die",
     "de_plural": "die Sorten",
-    "lv": "Breed",
+    "lv": "Variety / type",
     "level": "B1"
   },
   {
@@ -51373,7 +51373,7 @@ const B1_WORDS = [
   },
   {
     "de": "sowohl",
-    "lv": "Both... both",
+    "lv": "Both ... and ...",
     "level": "B1"
   },
   {
@@ -52148,7 +52148,7 @@ const B1_WORDS = [
     "de": "Sprechzimmer",
     "de_article": "das",
     "de_plural": "die Sprechzimmer",
-    "lv": "Acceptable room",
+    "lv": "Consulting room",
     "level": "B1"
   },
   {
@@ -52499,7 +52499,7 @@ const B1_WORDS = [
     "de": "Sprungschanze",
     "de_article": "die",
     "de_plural": "die Sprungschanzen",
-    "lv": "Springboard",
+    "lv": "Ski jump",
     "level": "B1"
   },
   {
@@ -52518,14 +52518,14 @@ const B1_WORDS = [
     "de": "Spur",
     "de_article": "die",
     "de_plural": "die Spuren",
-    "lv": "Feet",
+    "lv": "Track / trace",
     "level": "B1"
   },
   {
     "de": "Stab",
     "de_article": "der",
     "de_plural": "die Stäbe",
-    "lv": "Card",
+    "lv": "Stick / pole",
     "level": "B1"
   },
   {
@@ -52584,7 +52584,7 @@ const B1_WORDS = [
   },
   {
     "de": "stammen",
-    "lv": "Get up",
+    "lv": "To come from",
     "level": "B1"
   },
   {
@@ -52747,7 +52747,7 @@ const B1_WORDS = [
     "de": "Standlicht",
     "de_article": "das",
     "de_plural": "die Standlichter",
-    "lv": "Gauge fire for cars",
+    "lv": "Parking light",
     "level": "B1"
   },
   {
@@ -52790,7 +52790,7 @@ const B1_WORDS = [
   },
   {
     "de": "stechen",
-    "lv": "Stab",
+    "lv": "To stab",
     "level": "B1"
   },
   {
@@ -52817,7 +52817,7 @@ const B1_WORDS = [
   },
   {
     "de": "steil",
-    "lv": "Floor",
+    "lv": "Steep",
     "level": "B1"
   },
   {
@@ -53637,7 +53637,7 @@ const B1_WORDS = [
   },
   {
     "de": "strahlen",
-    "lv": "Beaming",
+    "lv": "To beam",
     "level": "B1"
   },
   {
@@ -54077,14 +54077,14 @@ const B1_WORDS = [
     "de": "Strudel",
     "de_article": "der",
     "de_plural": "die Strudel",
-    "lv": "Opening",
+    "lv": "Whirlpool",
     "level": "B1"
   },
   {
     "de": "Stuck",
     "de_article": "der",
     "de_plural": "die Stucke",
-    "lv": "Gypsum mortar",
+    "lv": "Stucco",
     "level": "B1"
   },
   {
@@ -54322,7 +54322,7 @@ const B1_WORDS = [
     "de": "Sülze",
     "de_article": "die",
     "de_plural": "die Sülzen",
-    "lv": "Galert",
+    "lv": "Aspic",
     "level": "B1"
   },
   {
@@ -54515,7 +54515,7 @@ const B1_WORDS = [
   },
   {
     "de": "tadeln",
-    "lv": "To earn",
+    "lv": "To criticize",
     "level": "B1"
   },
   {
@@ -54529,7 +54529,7 @@ const B1_WORDS = [
     "de": "Tagung",
     "de_article": "die",
     "de_plural": "die Tagungen",
-    "lv": "Sitting",
+    "lv": "Conference / meeting",
     "level": "B1"
   },
   {
@@ -54705,7 +54705,7 @@ const B1_WORDS = [
   },
   {
     "de": "tapezieren",
-    "lv": "Become",
+    "lv": "To wallpaper",
     "level": "B1"
   },
   {
@@ -55312,14 +55312,14 @@ const B1_WORDS = [
   },
   {
     "de": "taumeln",
-    "lv": "Streaking",
+    "lv": "To stagger",
     "level": "B1"
   },
   {
     "de": "Tausch",
     "de_article": "der",
     "de_plural": "die Tausche",
-    "lv": "[around] shift",
+    "lv": "Exchange",
     "level": "B1"
   },
   {
@@ -55344,7 +55344,7 @@ const B1_WORDS = [
     "de": "Teig",
     "de_article": "der",
     "de_plural": "die Teige",
-    "lv": "Puzzle",
+    "lv": "Dough",
     "level": "B1"
   },
   {
@@ -55562,7 +55562,7 @@ const B1_WORDS = [
     "de": "Tempo",
     "de_article": "das",
     "de_plural": "die Tempi",
-    "lv": "Temp",
+    "lv": "Pace",
     "level": "B1"
   },
   {
@@ -56591,14 +56591,14 @@ const B1_WORDS = [
   {
     "de": "Treue",
     "de_article": "die",
-    "lv": "Trust",
+    "lv": "Loyalty",
     "level": "B1"
   },
   {
     "de": "Tribüne",
     "de_article": "die",
     "de_plural": "die Tribünen",
-    "lv": "Tribune",
+    "lv": "Grandstand",
     "level": "B1"
   },
   {

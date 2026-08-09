@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-08-09T09:33:41.745Z",
   "block": 9,
-  "status": "READY FOR OWNER REVIEW",
+  "status": "OWNER REVIEW COMPLETE",
   "excludedCriticalCycleCards": [
     "Baumstumpf",
     "b1-Baumstumpf-251",
@@ -385,7 +385,7 @@
   "expectedArithmeticRemaining": 173,
   "calculatedWorkflowRemaining": 173,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 0,
+  "ownerDecisionsMade": 50,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -412,9 +412,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Consideration",
+          "ownerNote": "Rücksicht means consideration or regard, not reckoning."
         }
       ]
     },
@@ -441,9 +441,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Rod",
+          "ownerNote": "Rute means a rod or switch, not a generic tool."
         }
       ]
     },
@@ -470,9 +470,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Legend",
+          "ownerNote": "Sage as noun means legend or tale, not the verb said."
         }
       ]
     },
@@ -499,9 +499,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Salon",
+          "ownerNote": "Malformed English with unexplained abbreviation; salon is the correct learner-facing form."
         }
       ]
     },
@@ -528,9 +528,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Paramedic",
+          "ownerNote": "Sanitäter is a paramedic or emergency medical worker."
         }
       ]
     },
@@ -557,9 +557,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To drink heavily",
+          "ownerNote": "Saufen means to drink heavily; trocknen is to dry."
         }
       ]
     },
@@ -586,9 +586,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Bottle nipple",
+          "ownerNote": "Sauger is the bottle nipple/teat, not a pacifier."
         }
       ]
     },
@@ -615,9 +615,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To hem",
+          "ownerNote": "Säumen means to hem fabric; enttäuschen is to disappoint."
         }
       ]
     },
@@ -644,9 +644,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Headlight / spotlight",
+          "ownerNote": "Scheinwerfer is a headlight or spotlight, not star man."
         }
       ]
     },
@@ -673,9 +673,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To sneak",
+          "ownerNote": "Schleichen means to sneak or creep; stehlen is to steal."
         }
       ]
     },
@@ -702,9 +702,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To drag",
+          "ownerNote": "Schleppen means to drag or haul; strecken is to stretch."
         }
       ]
     },
@@ -731,9 +731,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Seamstress",
+          "ownerNote": "Schneiderin is the female profession noun, not a past-tense verb."
         }
       ]
     },
@@ -760,9 +760,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "High-speed train",
+          "ownerNote": "Cf. is not learner-facing; hyphenated compound is standard."
         }
       ]
     },
@@ -789,9 +789,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Chives",
+          "ownerNote": "Schnittlauch is chives, not spring onions."
         }
       ]
     },
@@ -818,9 +818,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Sewing pattern",
+          "ownerNote": "Schnittmuster is a sewing pattern, not cutting edge."
         }
       ]
     },
@@ -847,9 +847,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Fright",
+          "ownerNote": "Schrecken is a noun; scared is an adjective."
         }
       ]
     },
@@ -876,9 +876,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Writing",
+          "ownerNote": "Schrift means writing or script, not article."
         }
       ]
     },
@@ -905,9 +905,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Guilt",
+          "ownerNote": "Schuld is a noun; schuldig sein is to be guilty."
         }
       ]
     },
@@ -934,9 +934,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Chills",
+          "ownerNote": "Schüttelfrost means chills or shivering, not fever."
         }
       ]
     },
@@ -963,9 +963,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To swell",
+          "ownerNote": "Pamp is not English; schwellen means to swell."
         }
       ]
     },
@@ -992,9 +992,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "A callus",
+          "ownerNote": "Schwiele is a callus; Blase is a blister."
         }
       ]
     },
@@ -1021,9 +1021,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To cheat / to lie",
+          "ownerNote": "Schwindeln means to cheat or lie; schwindelig is dizzy."
         }
       ]
     },
@@ -1050,9 +1050,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Gay",
+          "ownerNote": "Cf. is not learner-facing; gay is the natural B1 translation."
         }
       ]
     },
@@ -1079,9 +1079,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To secure",
+          "ownerNote": "Sichern means to secure or safeguard; bereitstellen is to provide."
         }
       ]
     },
@@ -1108,9 +1108,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Meeting / session",
+          "ownerNote": "Sitzung is a meeting or session, not the act of sitting."
         }
       ]
     },
@@ -1137,9 +1137,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Ski jumping",
+          "ownerNote": "Skispringen is the winter sport ski jumping."
         }
       ]
     },
@@ -1166,9 +1166,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Freckle",
+          "ownerNote": "Sommersprosse is a freckle on the skin."
         }
       ]
     },
@@ -1195,9 +1195,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Variety / type",
+          "ownerNote": "Sorte means variety or type; breed is mainly for animals."
         }
       ]
     },
@@ -1224,9 +1224,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Both ... and ...",
+          "ownerNote": "English correlative is both ... and ..., not both... both."
         }
       ]
     },
@@ -1253,9 +1253,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Consulting room",
+          "ownerNote": "Sprechzimmer is a doctor's consulting or examination room."
         }
       ]
     },
@@ -1282,9 +1282,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Ski jump",
+          "ownerNote": "Sprungschanze is a ski-jumping structure, not a springboard."
         }
       ]
     },
@@ -1311,9 +1311,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Track / trace",
+          "ownerNote": "Spur means track, trace, or footprint."
         }
       ]
     },
@@ -1340,9 +1340,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Stick / pole",
+          "ownerNote": "Stab means stick or pole, not card."
         }
       ]
     },
@@ -1369,9 +1369,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To come from",
+          "ownerNote": "Stammen means to originate or come from; aufstehen is get up."
         }
       ]
     },
@@ -1398,9 +1398,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Parking light",
+          "ownerNote": "Standlicht is a parking or sidelight on a vehicle."
         }
       ]
     },
@@ -1427,9 +1427,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To stab",
+          "ownerNote": "Stechen is a verb; stab as noun is Stab."
         }
       ]
     },
@@ -1456,9 +1456,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Steep",
+          "ownerNote": "Steil means steep; Boden is floor."
         }
       ]
     },
@@ -1485,9 +1485,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To beam",
+          "ownerNote": "Strahlen is a verb; beaming is participle/adjective."
         }
       ]
     },
@@ -1514,9 +1514,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Whirlpool",
+          "ownerNote": "Strudel as noun here means whirlpool or vortex."
         }
       ]
     },
@@ -1543,9 +1543,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Stucco",
+          "ownerNote": "Stuck is architectural stucco decoration."
         }
       ]
     },
@@ -1572,9 +1572,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Aspic",
+          "ownerNote": "Galert is Latvian; English is aspic."
         }
       ]
     },
@@ -1601,9 +1601,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To criticize",
+          "ownerNote": "Tadeln means to criticize; verdienen is to earn."
         }
       ]
     },
@@ -1611,11 +1611,11 @@
       "sequence": 43,
       "cardId": "b1-Tageordnung-2835",
       "auditCardId": "b1-Tageordnung-2835",
-      "productionCardId": "b1-Tageordnung-2835",
-      "lemma": "",
-      "article": null,
-      "plural": null,
-      "cardType": "unknown",
+      "productionCardId": "Tagung",
+      "lemma": "Tagung",
+      "article": "die",
+      "plural": "die Tagungen",
+      "cardType": "normal",
       "metadataAnomaly": "Production entry not resolved from audit Card ID",
       "findings": [
         {
@@ -1630,9 +1630,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production entry not resolved from audit Card ID",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Conference / meeting",
+          "ownerNote": "Misbound audit ID b1-Tageordnung-2835; production card is Tagung (die, die Tagungen). Sitting is wrong for conference/meeting."
         }
       ]
     },
@@ -1659,9 +1659,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To stagger",
+          "ownerNote": "Taumeln means to stagger or reel, not streaking."
         }
       ]
     },
@@ -1688,9 +1688,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Exchange",
+          "ownerNote": "Tausch means exchange; current text is a source-gloss artifact."
         }
       ]
     },
@@ -1717,9 +1717,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Dough",
+          "ownerNote": "Teig means dough, not puzzle."
         }
       ]
     },
@@ -1746,9 +1746,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Pace",
+          "ownerNote": "Tempo means pace or speed; temp means temporary worker or temperature."
         }
       ]
     },
@@ -1775,9 +1775,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To wallpaper",
+          "ownerNote": "Tapezieren means to wallpaper; werden is to become."
         }
       ]
     },
@@ -1804,9 +1804,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Loyalty",
+          "ownerNote": "Treue means loyalty or faithfulness, not trust."
         }
       ]
     },
@@ -1833,11 +1833,27 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Grandstand",
+          "ownerNote": "Tribüne means grandstand or stand; tribune is archaic/political."
         }
       ]
     }
-  ]
+  ],
+  "labot": 50,
+  "nelabot": 0,
+  "tagungMetadataAnomaly": {
+    "auditId": "b1-Tageordnung-2835",
+    "auditIdValidProductionIdentity": false,
+    "actualDeLemma": "Tagung",
+    "actualArticle": "die",
+    "actualPlural": "die Tagungen",
+    "currentEn": "Sitting",
+    "ownerFinalEn": "Conference / meeting",
+    "tageordnungProductionCardExists": true,
+    "matchingTagungProductionCards": 1,
+    "tagungIdentityGate": "PASS",
+    "productionIdChanged": false,
+    "deChanged": false
+  }
 }
