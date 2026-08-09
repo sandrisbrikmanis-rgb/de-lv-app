@@ -1,0 +1,190 @@
+{
+  "generatedAt": "2026-08-09T15:46:34.326Z",
+  "auditedMainSha": "6099c38cb7b8868e3877de9dc02132e677bf938b",
+  "auditMode": "READ-ONLY CLOSURE",
+  "sectionsChecked": 11,
+  "enDeB1": "OUT OF SCOPE — already reconciled / closure reconfirmed",
+  "matrix": [
+    {
+      "language": "BS–DE",
+      "section": "B2",
+      "match": 1119,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 1119,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "B1",
+      "match": 1042,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 1042,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "A2",
+      "match": 10,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 10,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "A1",
+      "match": 2,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 1031,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "C1",
+      "match": 1,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 28,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "C2",
+      "match": 34,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 34,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "VERBS",
+      "match": 82,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 82,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "BS–DE",
+      "section": "KURSS",
+      "match": 21,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 53,
+      "checks": [
+        {
+          "name": "validate-kurss",
+          "pass": true
+        },
+        {
+          "name": "L7 exercise deck 16/16",
+          "pass": true,
+          "actual": 16
+        },
+        {
+          "name": "course-example eliminated",
+          "pass": true,
+          "actual": false
+        },
+        {
+          "name": "kurss-example present",
+          "pass": true,
+          "actual": true
+        },
+        {
+          "name": "mirror parity",
+          "pass": true
+        }
+      ],
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "EN–DE",
+      "section": "A1",
+      "match": 110,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 110,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "EN–DE",
+      "section": "A2",
+      "match": 83,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 83,
+      "finalStatus": "MATCH"
+    },
+    {
+      "language": "EN–DE",
+      "section": "KURSS",
+      "match": 3,
+      "missing": 0,
+      "superseded": 0,
+      "unresolved": 0,
+      "findings": [],
+      "expected": 0,
+      "finalStatus": "MATCH"
+    }
+  ],
+  "totals": {
+    "match": 2507,
+    "missing": 0,
+    "superseded": 0,
+    "unresolved": 0
+  },
+  "detailedFindings": [],
+  "productionFilesModified": 0,
+  "finalVerdict": "PASS",
+  "status": "OWNER ACCEPTED / CLOSED",
+  "closure": {
+    "closedAt": "2026-08-09T15:46:34.326Z",
+    "ownerReviewArtifact": "reports/bs-b1-19-unresolved-owner-review.md",
+    "ownerReviewJson": "reports/temp/bs-b1-19-unresolved-owner-review.json",
+    "pr307": {
+      "groupA": "17/17 CONFIRMED_MATCH (git diff 7fcea651..3dd07d33)",
+      "confirmedMissing": 0,
+      "confirmedSuperseded": 0,
+      "stillUnresolved": 0
+    },
+    "sourceLvIssue": {
+      "b1-beschwerde": {
+        "decision": "KEEP",
+        "value": "Tužba",
+        "field": "study.comparison[1].meaning"
+      },
+      "b1-dank-study": {
+        "decision": "KEEP",
+        "value": "Zahvaliti se",
+        "field": "study.comparison[4].meaning"
+      }
+    },
+    "productionChanges": 0,
+    "note": "Initial UNRESOLVED on SOURCE_LV_ISSUE rows arose from misinterpreted comparison context (die Klage / sich bedanken), not missing production repairs."
+  }
+}
