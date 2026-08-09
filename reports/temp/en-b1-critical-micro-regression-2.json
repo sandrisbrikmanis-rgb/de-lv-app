@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-09T07:51:08.876Z",
+  "card": "b1-fressen",
+  "accentFix": {
+    "old": "rupji",
+    "new": "rude",
+    "tipText": "Animal frisst, man isst. For a person, fressen is intentionally rude."
+  },
+  "findings": [],
+  "totals": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "verdict": "EN–DE B1 CRITICAL MICRO-REGRESSION #2 — PASS",
+  "criticalCycleClosed": "EN–DE B1 CRITICAL CYCLE — CLOSED — READY FOR HIGH OWNER REVIEW",
+  "validation": {
+    "javascriptSyntax": true,
+    "totalCards": 3367,
+    "structuralParity": true,
+    "orderParity": true,
+    "idParity": true,
+    "deReadOnly": true,
+    "mirrorParity": true
+  }
+}

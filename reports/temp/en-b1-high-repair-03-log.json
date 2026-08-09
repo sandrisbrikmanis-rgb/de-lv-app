@@ -1,0 +1,202 @@
+[
+  {
+    "cardId": "b1-anstiften-149",
+    "de": "anstiften",
+    "field": "lv",
+    "old": "To encourage",
+    "finalEn": "To incite",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-Antiquariat-156",
+    "de": "Antiquariat",
+    "field": "lv",
+    "old": "Antique store",
+    "finalEn": "Second-hand bookshop",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-anweisen-160",
+    "de": "anweisen",
+    "field": "lv",
+    "old": "Indicate",
+    "finalEn": "To instruct",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-Anzahlung-163",
+    "de": "Anzahlung",
+    "field": "lv",
+    "old": "Contribution",
+    "finalEn": "Down payment / deposit",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-Appell-164",
+    "de": "Appell",
+    "field": "lv",
+    "old": "Invitation",
+    "finalEn": "Appeal",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-Auflauf-179",
+    "de": "Auflauf",
+    "field": "lv",
+    "old": "Concoction",
+    "finalEn": "Casserole",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-Aufschnitt-185",
+    "de": "Aufschnitt",
+    "field": "lv",
+    "old": "Cold snaps",
+    "finalEn": "Cold cuts",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-aufgeregt-197",
+    "de": "aufgeregt",
+    "field": "lv",
+    "old": "Worried",
+    "finalEn": "Excited / nervous",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-sich aufregen-200",
+    "de": "sich aufregen",
+    "field": "lv",
+    "old": "To worry",
+    "finalEn": "To get upset",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-ausziehbar-224",
+    "de": "ausziehbar",
+    "field": "lv",
+    "old": "Retractable",
+    "finalEn": "Extendable / pull-out",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-beauftragen-254",
+    "de": "beauftragen",
+    "field": "lv",
+    "old": "To ask",
+    "finalEn": "To commission / assign",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-bedrücken-267",
+    "de": "bedrücken",
+    "field": "lv",
+    "old": "To suppress",
+    "finalEn": "To weigh down / depress",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-Behälter-302",
+    "de": "Behälter",
+    "field": "lv",
+    "old": "Tank",
+    "finalEn": "Container",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-behindern-308",
+    "de": "behindern",
+    "field": "lv",
+    "old": "Disturb",
+    "finalEn": "To hinder / obstruct",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-beitragen-322",
+    "de": "beitragen",
+    "field": "lv",
+    "old": "Promote",
+    "finalEn": "To contribute",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-belasten-327",
+    "de": "belasten",
+    "field": "lv",
+    "old": "To bother",
+    "finalEn": "To burden / put a strain on",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-beleidigen-331",
+    "de": "beleidigen",
+    "field": "lv",
+    "old": "Take offence",
+    "finalEn": "To insult / offend",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-Beleidigung-332",
+    "de": "Beleidigung",
+    "field": "lv",
+    "old": "Resentment",
+    "finalEn": "Insult / offence",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-beleuchten-333",
+    "de": "beleuchten",
+    "field": "lv",
+    "old": "To enlighten",
+    "finalEn": "To illuminate / light",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-beliebig-335",
+    "de": "beliebig",
+    "field": "lv",
+    "old": "Anyone",
+    "finalEn": "Any / arbitrary",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-Bergführer-357",
+    "de": "Bergführer",
+    "field": "lv",
+    "old": "A companion in the mountains",
+    "finalEn": "Mountain guide",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-Bericht-362",
+    "de": "Bericht",
+    "field": "lv",
+    "old": "Message",
+    "finalEn": "Report",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-sich berühren-372",
+    "de": "sich berühren",
+    "field": "lv",
+    "old": "To face",
+    "finalEn": "To touch each other",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-beseitigen-385",
+    "de": "beseitigen",
+    "field": "lv",
+    "old": "To prevent",
+    "finalEn": "To remove / eliminate",
+    "applied": "PASS"
+  },
+  {
+    "cardId": "b1-besiegen-388",
+    "de": "besiegen",
+    "field": "lv",
+    "old": "To win",
+    "finalEn": "To defeat",
+    "applied": "PASS"
+  }
+]
