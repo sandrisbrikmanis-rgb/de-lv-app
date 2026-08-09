@@ -4274,9 +4274,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To sacrifice" differs from audit Current EN "To join, to actively help"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To get involved, to actively help
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 41/50
 
@@ -4304,9 +4304,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To sacrifice" differs from audit Current EN "To join, to actively help"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: donate
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 41/50
 
@@ -4334,9 +4334,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To sacrifice" differs from audit Current EN "To join, to actively help"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: to get involved
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 42/50
 
@@ -4364,9 +4364,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Period" differs from audit Current EN "periods"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: period
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 42/50
 
@@ -4394,9 +4394,12 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Period" differs from audit Current EN "periods"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: period of time
+OWNER NOTE: OWNER approved sectionAccent correction.
+
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: Maintain → To take care of; to tend
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 CARD 43/50
 
@@ -4423,9 +4426,9 @@ Maintain does not cover the main meaning of pflegen in these contexts.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To take care of; to tend
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 43/50
 
@@ -4452,9 +4455,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The construction pflegen zu + infinitive means “tend to do”.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 43/50
 
@@ -4481,9 +4484,9 @@ The German phrase is misspelled and contains the malformed “küszimmer.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Grooming or care is pflegen; caring more broadly is sich kümmern um.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 43/50
 
@@ -4510,9 +4513,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: pflegen zu + infinitive is a special, slightly more formal construction: “tend to do”.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 43/50
 
@@ -4539,9 +4542,12 @@ The accent contains a Latvian word instead of the English target.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: take care of
+OWNER NOTE: OWNER approved sectionAccent correction.
+
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: Inspection → Test; sample; rehearsal
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 CARD 44/50
 
@@ -4568,9 +4574,9 @@ Inspection is only one possible sense and excludes the core meanings shown here.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Test; sample; rehearsal
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 44/50
 
@@ -4597,9 +4603,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In a laboratory, a test, or a concert, die Probe can be used in different senses.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 44/50
 
@@ -4626,9 +4632,9 @@ The accent highlights a narrower meaning than the comparison text and examples s
 Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: test
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 44/50
 
@@ -4655,9 +4661,9 @@ The accent contains a Latvian word instead of the English target.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: sample
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 45/50
 
@@ -4685,9 +4691,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Rank" differs from audit Current EN "der Rang means rank, rank, or place in a hierarchy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: der Rang means rank, level, or place in a hierarchy.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 45/50
 
@@ -4715,9 +4721,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Rank" differs from audit Current EN "der Rang means rank, rank, or place in a hierarchy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Rank, level, place in the hierarchy
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 45/50
 
@@ -4745,9 +4751,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Rank" differs from audit Current EN "der Rang means rank, rank, or place in a hierarchy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: rank
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 45/50
 
@@ -4775,9 +4781,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Rank" differs from audit Current EN "der Rang means rank, rank, or place in a hierarchy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: row
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 45/50
 
@@ -4805,9 +4811,12 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Rank" differs from audit Current EN "der Rang means rank, rank, or place in a hierarchy."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: balcony
+OWNER NOTE: OWNER approved sectionAccent correction.
+
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: Contribution → Installment
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 CARD 46/50
 
@@ -4834,9 +4843,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Installment
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 46/50
 
@@ -4863,9 +4872,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: I pay for the car in installments.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 46/50
 
@@ -4892,9 +4901,12 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Rate ending in -e often means an installment.
+OWNER NOTE: OWNER approved linguistic correction.
+
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: Release → To clear; to vacate; to move out
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 CARD 47/50
 
@@ -4921,9 +4933,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To clear; to vacate; to move out
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 47/50
 
@@ -4950,9 +4962,9 @@ The phrasing is ungrammatical, and “arrange” is wrong for cleaning or tidyin
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: räumen means to make a place free: to clear, empty, or move out. aufräumen means to tidy up.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 47/50
 
@@ -4979,9 +4991,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To clear, empty, or move out
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 47/50
 
@@ -5008,9 +5020,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To leave a place
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 47/50
 
@@ -5037,9 +5049,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: räumen does not just mean to tidy up. In everyday language, “to tidy up” is usually aufräumen.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 48/50
 
@@ -5067,9 +5079,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Intoxication" differs from audit Current EN "The dizziness slowly passed."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The intoxication slowly wore off.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 48/50
 
@@ -5097,9 +5109,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Intoxication" differs from audit Current EN "The dizziness slowly passed."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: They experienced a powerful emotional high.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 48/50
 
@@ -5127,9 +5139,12 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Intoxication" differs from audit Current EN "The dizziness slowly passed."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Rausch is a state in which a person is intoxicated or carried away by strong emotions.
+OWNER NOTE: OWNER approved linguistic correction.
+
+ASSOCIATED TOP-LEVEL OWNER DECISION — field lv: Bursting → To tear; to rip; to burst
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 CARD 49/50
 
@@ -5156,9 +5171,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To tear; to rip; to burst
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 49/50
 
@@ -5185,9 +5200,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: reißen means to tear or be torn. reisen, with s instead of ß, is different and means to travel.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 49/50
 
@@ -5214,9 +5229,9 @@ The first clause is ungrammatical and uses the wrong form.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Without an object, reißen often means “to break” or “to tear”; with an object, it means “to tear” or “pull away”.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 49/50
 
@@ -5243,9 +5258,9 @@ The accent contains a Latvian word instead of the English target.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: object
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 50/50
 
@@ -5273,9 +5288,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Direct" differs from audit Current EN "Main idea: richten means to point or address something in a certain direction. Legally, it can also mean to sue."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: richten means to point or direct something in a certain direction. In a legal context, it can also mean to judge or try a case.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 50/50
 
@@ -5303,9 +5318,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Direct" differs from audit Current EN "Main idea: richten means to point or address something in a certain direction. Legally, it can also mean to sue."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: richten is not the usual word for “to send”; it often means to direct a glance, question, or attention.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 50/50
 
@@ -5333,11 +5348,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Direct" differs from audit Current EN "Main idea: richten means to point or address something in a certain direction. Legally, it can also mean to sue."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
-
----
+OWNER VERDICT: LABOT
+OWNER FINAL EN: to direct
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 ## Coverage summary
 
@@ -5406,21 +5419,23 @@ Discrepancy: none
 ---
 ---
 ---
+---
 
 ## Owner review progress
 
-EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 4/5 COMPLETE
+EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 5/5 COMPLETE
 
-Cards/audit entries reviewed (block 4): 10/10
+Cards/audit entries reviewed (block 5): 10/10
 LABOT: 10
 NELABOT: 0
-Findings owner-resolved (block 4): 47
-PENDING remaining cards 31–40: 0
+Findings owner-resolved (block 5): 37
+PENDING remaining cards 41–50: 0
 
-Cumulative cards/audit entries reviewed: 40/50
-Cumulative LABOT: 40
+Cumulative cards/audit entries reviewed: 50/50
+Cumulative LABOT: 50
 Cumulative NELABOT: 0
-Cumulative findings owner-resolved: 140
+Cumulative findings owner-resolved: 177
+Cumulative PENDING: 0
 
 Associated top-level repairs recorded:
 - Hupe — Horn • Horn → Horn
@@ -5428,6 +5443,11 @@ Associated top-level repairs recorded:
 - Maß — Mayor → Measure
 - nachdem — After when → After
 - neigen — To strive → To be inclined; to lean
+- pflegen — Maintain → To take care of; to tend
+- Probe — Inspection → Test; sample; rehearsal
+- Rate — Contribution → Installment
+- räumen — Release → To clear; to vacate; to move out
+- reißen — Bursting → To tear; to rip; to burst
 
 Kunde metadata:
 Audit IDs: b1-kunde-2 + b1-kunde
@@ -5439,5 +5459,18 @@ Expected unique production cards (cards 19–20): 1
 Production changes: 0
 DE READ-ONLY: PASS
 
-Next: HIGH #12 OWNER REVIEW — BLOCK 5/5 (cards 41–50)
-HIGH REPAIR #12 not started.
+---
+
+## EN–DE B1 HIGH #12 OWNER REVIEW: COMPLETE
+
+Cards reviewed: 50/50
+LABOT: 50
+NELABOT: 0
+PENDING: 0
+
+Production changes: 0
+DE READ-ONLY: PASS
+
+HIGH REPAIR #12: READY / NOT STARTED
+
+Next: EN–DE B1 HIGH REPAIR #12

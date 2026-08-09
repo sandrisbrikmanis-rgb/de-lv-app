@@ -537,7 +537,7 @@
   "expectedArithmeticRemaining": 23,
   "calculatedWorkflowRemaining": 23,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 140,
+  "ownerDecisionsMade": 177,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -3547,9 +3547,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To sacrifice\" differs from audit Current EN \"To join, to actively help\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To get involved, to actively help",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3563,9 +3563,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To sacrifice\" differs from audit Current EN \"To join, to actively help\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "donate",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -3579,11 +3579,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To sacrifice\" differs from audit Current EN \"To join, to actively help\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "to get involved",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 42,
@@ -3611,9 +3612,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Period\" differs from audit Current EN \"periods\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "period",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -3627,11 +3628,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Period\" differs from audit Current EN \"periods\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "period of time",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 43,
@@ -3659,9 +3661,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To take care of; to tend",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3675,9 +3677,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The construction pflegen zu + infinitive means “tend to do”.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3691,9 +3693,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Grooming or care is pflegen; caring more broadly is sich kümmern um.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3707,9 +3709,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "pflegen zu + infinitive is a special, slightly more formal construction: “tend to do”.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3723,9 +3725,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "take care of",
+          "ownerNote": "OWNER approved sectionAccent correction."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Maintain",
+          "ownerFinalEn": "To take care of; to tend",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -3755,9 +3766,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Test; sample; rehearsal",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3771,9 +3782,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In a laboratory, a test, or a concert, die Probe can be used in different senses.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "PEDAGOGICAL",
@@ -3787,9 +3798,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "test",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -3803,9 +3814,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "sample",
+          "ownerNote": "OWNER approved sectionAccent correction."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Inspection",
+          "ownerFinalEn": "Test; sample; rehearsal",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -3835,9 +3855,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Rank\" differs from audit Current EN \"der Rang means rank, rank, or place in a hierarchy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "der Rang means rank, level, or place in a hierarchy.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3851,9 +3871,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Rank\" differs from audit Current EN \"der Rang means rank, rank, or place in a hierarchy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Rank, level, place in the hierarchy",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -3867,9 +3887,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Rank\" differs from audit Current EN \"der Rang means rank, rank, or place in a hierarchy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "rank",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -3883,9 +3903,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Rank\" differs from audit Current EN \"der Rang means rank, rank, or place in a hierarchy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "row",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -3899,11 +3919,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Rank\" differs from audit Current EN \"der Rang means rank, rank, or place in a hierarchy.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "balcony",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 46,
@@ -3931,9 +3952,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Installment",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3947,9 +3968,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "I pay for the car in installments.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -3963,9 +3984,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Rate ending in -e often means an installment.",
+          "ownerNote": "OWNER approved linguistic correction."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Contribution",
+          "ownerFinalEn": "Installment",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -3995,9 +4025,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To clear; to vacate; to move out",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -4011,9 +4041,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: räumen means to make a place free: to clear, empty, or move out. aufräumen means to tidy up.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -4027,9 +4057,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To clear, empty, or move out",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -4043,9 +4073,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To leave a place",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -4059,9 +4089,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "räumen does not just mean to tidy up. In everyday language, “to tidy up” is usually aufräumen.",
+          "ownerNote": "OWNER approved linguistic correction."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Release",
+          "ownerFinalEn": "To clear; to vacate; to move out",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -4091,9 +4130,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Intoxication\" differs from audit Current EN \"The dizziness slowly passed.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The intoxication slowly wore off.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -4107,9 +4146,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Intoxication\" differs from audit Current EN \"The dizziness slowly passed.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "They experienced a powerful emotional high.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -4123,11 +4162,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Intoxication\" differs from audit Current EN \"The dizziness slowly passed.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Rausch is a state in which a person is intoxicated or carried away by strong emotions.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 49,
@@ -4155,9 +4195,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To tear; to rip; to burst",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -4171,9 +4211,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: reißen means to tear or be torn. reisen, with s instead of ß, is different and means to travel.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -4187,9 +4227,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Without an object, reißen often means “to break” or “to tear”; with an object, it means “to tear” or “pull away”.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -4203,9 +4243,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "object",
+          "ownerNote": "OWNER approved sectionAccent correction."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "Bursting",
+          "ownerFinalEn": "To tear; to rip; to burst",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -4235,9 +4284,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Direct\" differs from audit Current EN \"Main idea: richten means to point or address something in a certain direction. Legally, it can also mean to sue.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: richten means to point or direct something in a certain direction. In a legal context, it can also mean to judge or try a case.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -4251,9 +4300,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Direct\" differs from audit Current EN \"Main idea: richten means to point or address something in a certain direction. Legally, it can also mean to sue.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "richten is not the usual word for “to send”; it often means to direct a glance, question, or attention.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "PEDAGOGICAL",
@@ -4267,11 +4316,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Direct\" differs from audit Current EN \"Main idea: richten means to point or address something in a certain direction. Legally, it can also mean to sue.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "to direct",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     }
   ],
   "ownerReviewBlock1": {
@@ -4286,7 +4336,7 @@
     "cumulativeNelabot": 0,
     "completedAt": "2026-08-09T11:18:04.701Z"
   },
-  "ownerReviewStatus": "EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 4/5 COMPLETE",
+  "ownerReviewStatus": "EN–DE B1 HIGH #12 OWNER REVIEW: COMPLETE",
   "kundeSharedProductionIdentity": {
     "yes": true,
     "auditEntries": 2,
@@ -4371,5 +4421,63 @@
     "cumulativeNelabot": 0,
     "cumulativeFindingsOwnerResolved": 140,
     "completedAt": "2026-08-09T11:33:33.105Z"
+  },
+  "ownerReviewBlock5": {
+    "block": "5/5",
+    "cardsReviewed": 10,
+    "labot": 10,
+    "nelabot": 0,
+    "findingsOwnerResolved": 37,
+    "pendingInBlock5": 0,
+    "associatedTopLevelRepairs": [
+      {
+        "cardId": "b1-pflegen",
+        "field": "lv",
+        "from": "Maintain",
+        "to": "To take care of; to tend"
+      },
+      {
+        "cardId": "b1-probe",
+        "field": "lv",
+        "from": "Inspection",
+        "to": "Test; sample; rehearsal"
+      },
+      {
+        "cardId": "b1-rate",
+        "field": "lv",
+        "from": "Contribution",
+        "to": "Installment"
+      },
+      {
+        "cardId": "b1-räumen",
+        "field": "lv",
+        "from": "Release",
+        "to": "To clear; to vacate; to move out"
+      },
+      {
+        "cardId": "b1-reißen",
+        "field": "lv",
+        "from": "Bursting",
+        "to": "To tear; to rip; to burst"
+      }
+    ],
+    "cumulativeCardsReviewed": 50,
+    "cumulativeLabot": 50,
+    "cumulativeNelabot": 0,
+    "cumulativeFindingsOwnerResolved": 177,
+    "cumulativePending": 0,
+    "completedAt": "2026-08-09T11:37:44.231Z"
+  },
+  "highRepair12Status": "READY / NOT STARTED",
+  "ownerReviewComplete": {
+    "cardsReviewed": 50,
+    "labot": 50,
+    "nelabot": 0,
+    "pending": 0,
+    "findingsOwnerResolved": 177,
+    "productionChanges": 0,
+    "deReadOnly": "PASS",
+    "highRepair12": "READY / NOT STARTED",
+    "completedAt": "2026-08-09T11:37:44.231Z"
   }
 }
