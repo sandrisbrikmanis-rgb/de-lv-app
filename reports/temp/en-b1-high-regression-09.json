@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "date": "2026-08-09T09:45:29.794Z",
+    "blockSize": 50,
+    "cardsOwnerReviewed": 50,
+    "labot": 50,
+    "nelabot": 0,
+    "cardsRepaired": 50,
+    "learnerFacingFieldsRepaired": 50,
+    "cardsRegressionAudited": 50,
+    "workflowUnresolvedHighBeforeHigh9": 223,
+    "workflowUnresolvedHighAfterHigh9": 173,
+    "tagungMetadataAnomaly": {
+      "auditId": "b1-Tageordnung-2835",
+      "auditIdValidProductionIdentity": false,
+      "actualDeLemma": "Tagung",
+      "actualArticle": "die",
+      "actualPlural": "die Tagungen",
+      "currentEn": "Sitting",
+      "ownerFinalEn": "Conference / meeting",
+      "tageordnungProductionCardExists": false,
+      "matchingTagungProductionCards": 1,
+      "tagungIdentityGate": "PASS",
+      "productionIdChanged": false,
+      "deChanged": false
+    },
+    "verdict": "EN–DE B1 HIGH REPAIR #9 — TARGETED REGRESSION PASS",
+    "status": "EN–DE B1 HIGH REPAIR #9 — COMPLETE — READY FOR HIGH OWNER REVIEW #10"
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "totalCards": 3367,
+    "structuralParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "deReadOnly": "PASS",
+    "mirrorParity": "PASS",
+    "idsChanged": 0,
+    "unexpectedProductionChanges": 0
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "preconditionMismatch": 0,
+  "followUpFindings": 0,
+  "outOfScopeFindings": 0,
+  "findings": []
+}

@@ -123,7 +123,7 @@ const B1_WORDS = [
       "id": "b1-anbauen",
       "layout": "standardStudy",
       "translation": "To grow",
-      "explanation": "Main idea: anbauen most often means to grow plants or add something to a building. The meaning is determined by the object: Gemüse or Tomaten is grown, and Garage or Zimmer in the annex.",
+      "explanation": "Main idea: anbauen most often means to grow plants or add something to a building. The meaning is determined by the object: vegetables or tomatoes are grown, while a garage or room is added to a building.",
       "examples": [
         {
           "de": "Wir bauen im Garten Tomaten an.",
@@ -211,8 +211,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "They",
-                "They"
+                "add",
+                "room"
               ]
             }
           }
@@ -1053,7 +1053,7 @@ const B1_WORDS = [
       "id": "b1-abdecken",
       "layout": "standardStudy",
       "translation": "To cover",
-      "explanation": "Main idea: abdecken means to cover or cover. Depending on the facility, this may also mean clearing the table after eating.",
+      "explanation": "Main idea: abdecken means to cover or cover something. Depending on the context or object, it can also mean clearing the table after eating.",
       "examples": [
         {
           "de": "Bitte deck den Kuchen ab.",
@@ -1076,7 +1076,7 @@ const B1_WORDS = [
         },
         {
           "word": "decken",
-          "meaning": "Present / cover",
+          "meaning": "Set the table / cover",
           "example": "Ich decke den Tisch. = I set the table."
         },
         {
@@ -1127,7 +1127,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cover",
                 "cover"
               ]
             }
@@ -1142,8 +1141,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "After",
-                "After"
+                "clears",
+                "table"
               ]
             }
           }
@@ -1169,7 +1168,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Present"
+                "Set the table"
               ]
             }
           },
@@ -1604,7 +1603,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "ablegen",
-          "meaning": "Pass / take an exam",
+          "meaning": "Put down or take an exam / lay down",
           "example": "Sie legt die Prüfung ab. = She is taking an exam."
         },
         {
@@ -1614,19 +1613,19 @@ const B1_WORDS = [
         },
         {
           "word": "ausziehen",
-          "meaning": "To pull off",
+          "meaning": "To take off",
           "example": "Ich ziehe die Jacke aus. = I take off my jacket."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Prüfung ablen means taking the exam, not \"passing\" the subject."
+            "text": "Prüfung ablegen means taking an exam, not “putting down” an object."
           }
         ]
       },
       "important": {
-        "text": "For clothing, ablegen is more formal; ausziehen is often said everyday."
+        "text": "For clothing, ablegen is more formal; ausziehen is often used in everyday speech."
       },
       "sectionAccents": {
         "explanation": {
@@ -1645,8 +1644,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Please",
-                "Please"
+                "take",
+                "off"
               ]
             }
           },
@@ -1660,8 +1659,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She",
-                "She"
+                "puts",
+                "down"
               ]
             }
           },
@@ -1689,7 +1688,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Pass"
+                "Put down"
               ]
             }
           },
@@ -1713,7 +1712,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pull"
+                "take off"
               ]
             }
           }
@@ -1967,13 +1966,13 @@ const B1_WORDS = [
         },
         {
           "de": "Der Absatz ist in diesem Jahr gestiegen.",
-          "lv": "The market has increased this year."
+          "lv": "Sales have increased this year."
         }
       ],
       "comparison": [
         {
           "word": "der Absatz",
-          "meaning": "Paragraph / shoe heel / outlet",
+          "meaning": "Paragraph / shoe heel / sales volume",
           "example": "Der Absatz ist kurz. = The paragraph is short."
         },
         {
@@ -2050,7 +2049,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The",
                 "The"
               ]
             }
@@ -2099,7 +2097,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "absatz"
+                  "Absatz"
                 ]
               }
             }
@@ -2107,7 +2105,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "absatz"
+            "Absatz"
           ]
         }
       }
@@ -2465,7 +2463,7 @@ const B1_WORDS = [
       "id": "b1-absetzen",
       "layout": "standardStudy",
       "translation": "Put down",
-      "explanation": "Main idea: Absetzen means to put down or put someone in a place. In the context of politics and work, it can mean removal from office.",
+      "explanation": "Main idea: Absetzen means to put down or drop someone off somewhere. In the context of politics and work, it can mean removing someone from office.",
       "examples": [
         {
           "de": "Setz bitte den Rucksack ab.",
@@ -2483,12 +2481,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "The bag can be closed; a person can be deposed somewhere; the official can be suspended."
+            "text": "The bag can be put down; a person can be dropped off somewhere; an official can be removed from office."
           }
         ]
       },
       "important": {
-        "text": "absetzen is not a generic 'to sell'. The importance of sales is more specific in the business context."
+        "text": "absetzen is not a general word for “to sell”. The meaning “to sell” is used in specific business contexts."
       },
       "sectionAccents": {
         "explanation": {
@@ -2507,7 +2505,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Please",
                 "Please"
               ]
             }
@@ -2977,7 +2974,7 @@ const B1_WORDS = [
       "id": "b1-anmachen",
       "layout": "standardStudy",
       "translation": "Turn on",
-      "explanation": "Main idea: Anmachen very often means to turn on a device or a light in everyday life. Depending on the object, it can also mean fixing or dressing a salad.",
+      "explanation": "Main idea: Anmachen very often means to turn on a device or a light in everyday life. Depending on the object, it can also mean attaching something or dressing a salad.",
       "examples": [
         {
           "de": "Mach bitte das Licht an.",
@@ -2985,7 +2982,7 @@ const B1_WORDS = [
         },
         {
           "de": "Kannst du den Fernseher anmachen?",
-          "lv": "Can you turn on the tv"
+          "lv": "Can you turn on the TV?"
         },
         {
           "de": "Sie macht den Salat mit Öl an.",
@@ -4278,8 +4275,8 @@ const B1_WORDS = [
     "study": {
       "id": "b1-aufwand",
       "layout": "standardStudy",
-      "translation": "Efforts",
-      "explanation": "Main idea: der Ausführt means the effort or investment required to do something. In the context of cost, it can also mean spending, but at B1 the most important idea is the effort required.",
+      "translation": "Effort",
+      "explanation": "Main idea: der Aufwand means the effort or investment required to do something. In the context of cost, it can also mean spending, but at B1 the most important idea is the effort required.",
       "examples": [
         {
           "de": "Der Aufwand ist zu groß.",
@@ -4302,7 +4299,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Mühe",
-          "meaning": "Efforts",
+          "meaning": "Effort",
           "example": "Danke für deine Mühe. = Thanks for your efforts."
         },
         {
@@ -4314,12 +4311,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "When it comes to how much work something requires, think der Ausführt."
+            "text": "When it comes to how much work something requires, think der Aufwand."
           }
         ]
       },
       "important": {
-        "text": "der Ausführt is not ordinary 'consumption'; more often it's effort, time or work put in."
+        "text": "der Aufwand is not ordinary “consumption”; more often it means effort, time or work put in."
       },
       "sectionAccents": {
         "examples": [
@@ -4364,7 +4361,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "blue": [
-            "Main"
+            "Aufwand"
           ]
         },
         "comparison": [
@@ -4410,7 +4407,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "aufwand"
+                  "Aufwand"
                 ]
               }
             }
@@ -4418,7 +4415,8 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "der"
+            "effort",
+            "work put in"
           ]
         }
       }
@@ -4484,7 +4482,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "theatre → aufführen; list → erättät."
+            "text": "theatre → aufführen; list → aufgeführt."
           }
         ]
       },
@@ -4504,7 +4502,9 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "theatre"
+                "theatre",
+                "performing",
+                "play"
               ]
             }
           },
@@ -4519,8 +4519,7 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "Names",
-                "Names",
-                "Names"
+                "listed"
               ]
             }
           },
@@ -4534,8 +4533,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Please",
-                "Please"
+                "include",
+                "costs"
               ]
             }
           }
@@ -4615,7 +4614,7 @@ const B1_WORDS = [
       "id": "b1-sich-aufhalten",
       "layout": "standardStudy",
       "translation": "To stay",
-      "explanation": "Main idea: sich aufhalten means to stay or be in a place for a period of time. Bez sich aufhalten means to delay.",
+      "explanation": "Main idea: sich aufhalten means to stay or be in a place for a period of time. Without sich, aufhalten means to delay.",
       "examples": [
         {
           "de": "Wir halten uns im Garten auf.",
@@ -4650,7 +4649,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "With sich + place → stay; bez sich → delay."
+            "text": "With sich + a place → stay; without sich → delay."
           }
         ]
       },
@@ -4687,7 +4686,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Where"
+                "staying"
               ]
             }
           },
@@ -5333,7 +5332,7 @@ const B1_WORDS = [
       "id": "b1-ausüben",
       "layout": "standardStudy",
       "translation": "Perform",
-      "explanation": "Main idea: ausüben means to exercise or exert a certain action, occupation, influence or pressure. It is more formal than machen.",
+      "explanation": "Main idea: ausüben means to carry out an activity, practise a profession, or exert influence or pressure. It is more formal than machen.",
       "examples": [
         {
           "de": "Sie übt den Beruf seit zehn Jahren aus.",
@@ -5351,7 +5350,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "ausüben",
-          "meaning": "Implement / make / make an impact",
+          "meaning": "Exercise / perform / exert influence",
           "example": "Sie übt den Beruf aus. = She works in a profession."
         },
         {
@@ -5389,7 +5388,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "working"
               ]
             }
           },
@@ -5408,7 +5407,8 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puts"
+                "puts",
+                "pressure"
               ]
             }
           },
@@ -5424,15 +5424,20 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Sport"
+                "positive",
+                "effect"
               ]
             }
           }
         ],
         "explanation": {
+          "blue": [
+            "ausüben"
+          ],
           "purple": [
-            "Main",
-            "Main"
+            "carry out",
+            "practise",
+            "exert"
           ]
         },
         "comparison": [
@@ -5444,7 +5449,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Implement"
+                "Exercise"
               ]
             }
           },
@@ -6069,11 +6074,11 @@ const B1_WORDS = [
       "id": "b1-becken",
       "layout": "standardStudy",
       "translation": "Pool",
-      "explanation": "Main idea: das Becken means basin, large tank/bowl or basin. Major is determined by field: Swimming, Kitchen/Technology, or Anatomy.",
+      "explanation": "Main idea: das Becken means basin, large tank/bowl or basin. The meaning is determined by the field: swimming, kitchen/technology, or anatomy.",
       "examples": [
         {
           "de": "Das Becken im Schwimmbad ist tief.",
-          "lv": "The pool in the swimming pool is deep."
+          "lv": "The pool is deep."
         },
         {
           "de": "Leg das Gemüse in das Becken.",
@@ -6109,7 +6114,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Schwimmbad ir visa peldbaseina vieta; Becken ir pats baseina/tvertnes dobums."
+        "text": "Schwimmbad is the whole swimming-pool facility; Becken is the actual pool or container cavity."
       },
       "sectionAccents": {
         "examples": [
@@ -6124,7 +6129,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "pool"
               ]
             }
           },
@@ -6154,16 +6159,14 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Her"
+                "pelvis"
               ]
             }
           }
         ],
         "explanation": {
           "purple": [
-            "basin",
-            "Main",
-            "Main"
+            "basin"
           ]
         },
         "comparison": [
@@ -6210,8 +6213,8 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "in the pool",
-                  "iegurnis",
-                  "tvertne",
+                  "pelvis",
+                  "container",
                   "a bowl"
                 ]
               }
@@ -6220,8 +6223,8 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "vieta",
-            "dobums"
+            "facility",
+            "pool"
           ]
         }
       }
@@ -6257,7 +6260,7 @@ const B1_WORDS = [
       "id": "b1-bedeutend",
       "layout": "standardStudy",
       "translation": "Significant",
-      "explanation": "Main idea: beudeuten means significant or notable. As an intensifier, it means 'significantly', eg beedeuten besser.",
+      "explanation": "Main idea: bedeutend means significant or notable. As an intensifier, it means 'significantly', eg bedeutend besser.",
       "examples": [
         {
           "de": "Das ist ein bedeutender Schritt.",
@@ -6292,12 +6295,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Before the noun beedeuten = significant/notable; before better/worse = significantly."
+            "text": "Before the noun bedeutend = significant/notable; before better/worse = significantly."
           }
         ]
       },
       "important": {
-        "text": "beedeuten is more formal than wichtig and does not necessarily mean \"important\" in a simple everyday sense."
+        "text": "bedeutend is more formal than wichtig and does not necessarily mean \"important\" in a simple everyday sense."
       },
       "sectionAccents": {
         "examples": [
@@ -6312,7 +6315,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "This"
+                "important"
               ]
             }
           },
@@ -6327,7 +6330,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "prominent"
               ]
             }
           },
@@ -6342,7 +6345,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "much"
+                "significantly"
               ]
             }
           }
@@ -6396,7 +6399,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "significant",
-                  "remarkable",
+                  "notable",
                   "considerably"
                 ]
               }
@@ -6419,7 +6422,7 @@ const B1_WORDS = [
       "id": "b1-sich-bedienen",
       "layout": "standardStudy",
       "translation": "To serve oneself • To help yourself",
-      "explanation": "Main idea: sich bedienen means to take/serve or use a means yourself. Bez sich bedienen means to serve another person.",
+      "explanation": "Main idea: sich bedienen means to help yourself, serve yourself, or use something yourself. Without sich, bedienen means to serve another person.",
       "examples": [
         {
           "de": "Bitte bedienen Sie sich.",
@@ -6454,12 +6457,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Service yourself! = take it yourself; jemanden bedienen = to serve someone."
+            "text": "Help yourself! = take it yourself; jemanden bedienen = to serve someone."
           }
         ]
       },
       "important": {
-        "text": "sich bedienen requires a reflexive pronoun if the person serves themselves or uses the facility."
+        "text": "sich bedienen requires a reflexive pronoun if the person serves themselves or uses something or makes use of a resource."
       },
       "sectionAccents": {
         "examples": [
@@ -6512,9 +6515,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -6562,7 +6562,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "take it yourself",
-                  "apkalpot"
+                  "serve"
                 ]
               }
             }
@@ -6818,12 +6818,12 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "behandeln",
-          "meaning": "Treat / treat / discuss the topic",
+          "meaning": "Treat / treat someone / discuss the topic",
           "example": "Der Arzt behandelt den Patienten. = A doctor treats a patient."
         },
         {
           "word": "heilen",
-          "meaning": "Cure to result",
+          "meaning": "Cure; bring about recovery",
           "example": "Die Medizin heilt die Krankheit. = The medicine cures the disease."
         },
         {
@@ -6835,7 +6835,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Look at the object: patient behandeln = behandeln; human behandeln = to behave; topic behandeln = to discuss."
+            "text": "Look at the object: treat a patient = treat; treat a person = treat someone; treat a topic = discuss; topic behandeln = to discuss."
           }
         ]
       },
@@ -6945,9 +6945,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to treat",
-                  "behave",
-                  "apspriest"
+                  "treat",
+                  "treat someone",
+                  "discuss"
                 ]
               }
             }
@@ -7136,7 +7136,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "belegen",
-          "meaning": "Borrow / apply / prove",
+          "meaning": "Occupy / take a course / prove",
           "example": "Der Sitz ist belegt. = The seat is occupied."
         },
         {
@@ -7153,12 +7153,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Skaties uz objektu: Platz belegt, Kurs belegen, Aussage belegen."
+            "text": "Look at the object: Platz belegt = occupy a place; Kurs belegen = take a course; Aussage belegen = support a statement."
           }
         ]
       },
       "important": {
-        "text": "belegt often means 'busy'; \"reserved\" is usually reserviert in German."
+        "text": "belegt often means 'occupied'; \"reserved\" is usually reserviert in German."
       },
       "sectionAccents": {
         "examples": [
@@ -7224,7 +7224,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Borrow"
+                "Occupy"
               ]
             }
           },
@@ -7258,9 +7258,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "platz",
-                  "kurs",
-                  "aussage"
+                  "place",
+                  "course",
+                  "statement"
                 ]
               }
             }
@@ -7492,7 +7492,7 @@ const B1_WORDS = [
       "id": "b1-sich-bemühen",
       "layout": "standardStudy",
       "translation": "To strive",
-      "explanation": "Main idea: sich bemühen means to make an earnest effort or effort. It is often used with um + what? or with zu + infinitive.",
+      "explanation": "Main idea: sich bemühen means to make an earnest effort or to try hard. It is often used with um + what? or with zu + infinitive.",
       "examples": [
         {
           "de": "Ich bemühe mich, pünktlich zu sein.",
@@ -7527,7 +7527,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Formas: sich bemühen, pünktlich zu sein; sich um eine Lösung bemühen."
+            "text": "Forms: sich bemühen, pünktlich zu sein = try to be on time; sich um eine Lösung bemühen = try to find a solution."
           }
         ]
       },
@@ -7584,10 +7584,7 @@ const B1_WORDS = [
           }
         ],
         "explanation": {
-          "purple": [
-            "Main",
-            "Main"
-          ]
+          "purple": []
         },
         "comparison": [
           {
@@ -7632,7 +7629,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "lösung"
+                  "solution"
                 ]
               }
             }
@@ -7721,7 +7718,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Expert beraten people; group berät über question; people beraten sich."
+            "text": "An expert advises people; a group discusses a question; people consult each other."
           }
         ]
       },
@@ -7826,8 +7823,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "eksperts",
-                  "grupa",
+                  "expert",
+                  "group",
                   "people"
                 ]
               }
@@ -8301,7 +8298,7 @@ const B1_WORDS = [
       "id": "b1-sich-beruhigen",
       "layout": "standardStudy",
       "translation": "Calm down",
-      "explanation": "Main idea: sich beruhigen means to calm oneself down. Bez sich beruhigen means to calm someone else or a situation.",
+      "explanation": "Main idea: sich beruhigen means to calm oneself down. Without sich beruhigen, it means to calm someone else or calm a situation.",
       "examples": [
         {
           "de": "Beruhig dich bitte.",
@@ -8389,8 +8386,8 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main"
+            "calm oneself",
+            "calm someone"
           ]
         },
         "comparison": [
@@ -8436,8 +8433,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "will calm down",
-                  "nomierini"
+                  "calms itself",
+                  "appease"
                 ]
               }
             }
@@ -8461,7 +8458,7 @@ const B1_WORDS = [
       "id": "b1-berühmtheit",
       "layout": "standardStudy",
       "translation": "Fame",
-      "explanation": "Main idea: die Berühmtheit means fame or a famous person. In the singular, without context, it is often glory • In the plural, Berühmtheiten are usually celebrities.",
+      "explanation": "Main idea: die Berühmtheit means fame or a famous person. In the singular, without context, it often means fame. • In the plural, Berühmtheiten are usually celebrities.",
       "examples": [
         {
           "de": "Er träumt von Berühmtheit.",
@@ -8528,7 +8525,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Fame"
+                "late"
               ]
             }
           },
@@ -8593,7 +8590,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "slava",
+                  "fame",
                   "celebrities"
                 ]
               }
@@ -8836,7 +8833,7 @@ const B1_WORDS = [
       "id": "b1-beschwerde",
       "layout": "standardStudy",
       "translation": "Complaint",
-      "explanation": "Main idea: die Beschwerde means to complain about a problem. In medicine, the plural Beschwerden means health complaints or ailments.",
+      "explanation": "Main idea: die Beschwerde means a complaint about a problem. In medicine, the plural Beschwerden means health complaints or ailments.",
       "examples": [
         {
           "de": "Ich möchte eine Beschwerde einreichen.",
@@ -8876,7 +8873,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Beschwerten at the doctor is not a single complaint on paper, but health ailments or symptoms."
+        "text": "Beschwerden at the doctor are not a single complaint on paper, but health ailments or symptoms."
       },
       "sectionAccents": {
         "examples": [
@@ -8975,7 +8972,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "complaint",
-                  "kaites"
+                  "ailments"
                 ]
               }
             }
@@ -9035,7 +9032,7 @@ const B1_WORDS = [
         },
         {
           "de": "Kannst du Milch besorgen?",
-          "lv": "Can you buy milk"
+          "lv": "Can you buy milk?"
         },
         {
           "de": "Wir müssen einen Handwerker besorgen.",
@@ -9067,7 +9064,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "To worry is sich Sorgen machen; to take care of someone is sich küszimmer um, not besorgen."
+        "text": "To worry is sich Sorgen machen; to take care of someone is sich kümmern um, not besorgen."
       },
       "sectionAccents": {
         "examples": [
@@ -9119,8 +9116,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -9224,7 +9219,7 @@ const B1_WORDS = [
       "id": "b1-bestehen",
       "layout": "standardStudy",
       "translation": "To exist",
-      "explanation": "Main idea: besten changes meaning by construction: Problem besten = exist, Prüfung besten = pass, aus besten = consist of, auf etwas besten = insist on.",
+      "explanation": "Main idea: bestehen changes meaning by construction: Problem bestehen = exist, Prüfung bestehen = pass, aus bestehen = consist of, auf etwas bestehen = insist on.",
       "examples": [
         {
           "de": "Das Problem besteht noch.",
@@ -9246,7 +9241,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "bestehen",
-          "meaning": "Exist / settle",
+          "meaning": "Exist / pass",
           "example": "Das Problem besteht noch. = The problem still exists."
         },
         {
@@ -9263,12 +9258,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Prüfung besten = pass; aus besten = consist of; auf etwas besten = insist."
+            "text": "Prüfung bestehen = pass; aus bestehen = consist of; auf etwas bestehen = insist."
           }
         ]
       },
       "important": {
-        "text": "the meaning of besten is very often defined by a preposition: aus, auf or the object of the exam."
+        "text": "the meaning of bestehen is very often defined by a preposition: aus, auf or the object of the exam."
       },
       "sectionAccents": {
         "examples": [
@@ -9329,9 +9324,9 @@ const B1_WORDS = [
         "explanation": {
           "purple": [
             "exist",
-            "Main",
-            "Main",
-            "Main"
+            "pass",
+            "consist of",
+            "insist on"
           ]
         },
         "comparison": [
@@ -9378,9 +9373,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "settle",
-                  "to consist of",
-                  "to insist"
+                  "pass",
+                  "consist of",
+                  "insist"
                 ]
               }
             }
@@ -9388,7 +9383,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "besten"
+            "bestehen"
           ]
         }
       }
@@ -46522,7 +46517,7 @@ const B1_WORDS = [
     "de": "Rücksicht",
     "de_article": "die",
     "de_plural": "die Rücksichten",
-    "lv": "Reckoning",
+    "lv": "Consideration",
     "level": "B1"
   },
   {
@@ -47038,7 +47033,7 @@ const B1_WORDS = [
     "de": "Rute",
     "de_article": "die",
     "de_plural": "die Ruten",
-    "lv": "Tool",
+    "lv": "Rod",
     "level": "B1"
   },
   {
@@ -47205,7 +47200,7 @@ const B1_WORDS = [
     "de": "Sage",
     "de_article": "die",
     "de_plural": "die Sagen",
-    "lv": "Said",
+    "lv": "Legend",
     "level": "B1"
   },
   {
@@ -47232,7 +47227,7 @@ const B1_WORDS = [
     "de": "Salon",
     "de_article": "der",
     "de_plural": "die Salons",
-    "lv": "Some no. saloon",
+    "lv": "Salon",
     "level": "B1"
   },
   {
@@ -47279,7 +47274,7 @@ const B1_WORDS = [
     "de": "Sanitäter",
     "de_article": "der",
     "de_plural": "die Sanitäter",
-    "lv": "Sanitation worker",
+    "lv": "Paramedic",
     "level": "B1"
   },
   {
@@ -47317,7 +47312,7 @@ const B1_WORDS = [
   },
   {
     "de": "saufen",
-    "lv": "To dry",
+    "lv": "To drink heavily",
     "level": "B1"
   },
   {
@@ -47329,7 +47324,7 @@ const B1_WORDS = [
     "de": "Sauger",
     "de_article": "der",
     "de_plural": "die Sauger",
-    "lv": "Pacifier on the bottle",
+    "lv": "Bottle nipple",
     "level": "B1"
   },
   {
@@ -47355,7 +47350,7 @@ const B1_WORDS = [
   },
   {
     "de": "säumen",
-    "lv": "[to] disappoint",
+    "lv": "To hem",
     "level": "B1"
   },
   {
@@ -47637,7 +47632,7 @@ const B1_WORDS = [
     "de": "Scheinwerfer",
     "de_article": "der",
     "de_plural": "die Scheinwerfer",
-    "lv": "Star man",
+    "lv": "Headlight / spotlight",
     "level": "B1"
   },
   {
@@ -48209,7 +48204,7 @@ const B1_WORDS = [
   },
   {
     "de": "schleichen",
-    "lv": "To steal",
+    "lv": "To sneak",
     "level": "B1"
   },
   {
@@ -48371,7 +48366,7 @@ const B1_WORDS = [
   },
   {
     "de": "schleppen",
-    "lv": "To stretch",
+    "lv": "To drag",
     "level": "B1"
   },
   {
@@ -48977,14 +48972,14 @@ const B1_WORDS = [
     "de": "Schneiderin",
     "de_article": "die",
     "de_plural": "die Schneiderinnen",
-    "lv": "Sewed",
+    "lv": "Seamstress",
     "level": "B1"
   },
   {
     "de": "Schnellzug",
     "de_article": "der",
     "de_plural": "die Schnellzüge",
-    "lv": "Cf. high speed train",
+    "lv": "High-speed train",
     "level": "B1"
   },
   {
@@ -49119,14 +49114,14 @@ const B1_WORDS = [
     "de": "Schnittlauch",
     "de_article": "der",
     "de_plural": "die Schnittlauche",
-    "lv": "Spring onions",
+    "lv": "Chives",
     "level": "B1"
   },
   {
     "de": "Schnittmuster",
     "de_article": "das",
     "de_plural": "die Schnittmuster",
-    "lv": "Cutting edge",
+    "lv": "Sewing pattern",
     "level": "B1"
   },
   {
@@ -49219,7 +49214,7 @@ const B1_WORDS = [
     "de": "Schrecken",
     "de_article": "der",
     "de_plural": "die Schrecken",
-    "lv": "Scared",
+    "lv": "Fright",
     "level": "B1"
   },
   {
@@ -49238,7 +49233,7 @@ const B1_WORDS = [
     "de": "Schrift",
     "de_article": "die",
     "de_plural": "die Schriften",
-    "lv": "The article",
+    "lv": "Writing",
     "level": "B1"
   },
   {
@@ -49280,7 +49275,7 @@ const B1_WORDS = [
     "de": "Schuld",
     "de_article": "die",
     "de_plural": "die Schulden",
-    "lv": "To be guilty",
+    "lv": "Guilt",
     "level": "B1"
   },
   {
@@ -49428,7 +49423,7 @@ const B1_WORDS = [
   {
     "de": "Schüttelfrost",
     "de_article": "der",
-    "lv": "Fever",
+    "lv": "Chills",
     "level": "B1"
   },
   {
@@ -49832,7 +49827,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwellen",
-    "lv": "Pamp",
+    "lv": "To swell",
     "level": "B1"
   },
   {
@@ -49863,7 +49858,7 @@ const B1_WORDS = [
     "de": "Schwiele",
     "de_article": "die",
     "de_plural": "die Schwielen",
-    "lv": "A blister",
+    "lv": "A callus",
     "level": "B1"
   },
   {
@@ -49887,7 +49882,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "Dizzy",
+    "lv": "To cheat / to lie",
     "level": "B1"
   },
   {
@@ -49902,7 +49897,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwul",
-    "lv": "Cf. homosexual",
+    "lv": "Gay",
     "level": "B1"
   },
   {
@@ -50442,7 +50437,7 @@ const B1_WORDS = [
   },
   {
     "de": "sichern",
-    "lv": "To provide",
+    "lv": "To secure",
     "level": "B1"
   },
   {
@@ -50814,7 +50809,7 @@ const B1_WORDS = [
     "de": "Sitzung",
     "de_article": "die",
     "de_plural": "die Sitzungen",
-    "lv": "Sitting",
+    "lv": "Meeting / session",
     "level": "B1"
   },
   {
@@ -50828,7 +50823,7 @@ const B1_WORDS = [
     "de": "Skispringen",
     "de_article": "das",
     "de_plural": "die Skispringen",
-    "lv": "Springboard jumping",
+    "lv": "Ski jumping",
     "level": "B1"
   },
   {
@@ -50904,7 +50899,7 @@ const B1_WORDS = [
     "de": "Sommersprosse",
     "de_article": "die",
     "de_plural": "die Sommersprossen",
-    "lv": "Summer spot",
+    "lv": "Freckle",
     "level": "B1"
   },
   {
@@ -51085,7 +51080,7 @@ const B1_WORDS = [
     "de": "Sorte",
     "de_article": "die",
     "de_plural": "die Sorten",
-    "lv": "Breed",
+    "lv": "Variety / type",
     "level": "B1"
   },
   {
@@ -51207,7 +51202,7 @@ const B1_WORDS = [
   },
   {
     "de": "sowohl",
-    "lv": "Both... both",
+    "lv": "Both ... and ...",
     "level": "B1"
   },
   {
@@ -51986,7 +51981,7 @@ const B1_WORDS = [
     "de": "Sprechzimmer",
     "de_article": "das",
     "de_plural": "die Sprechzimmer",
-    "lv": "Acceptable room",
+    "lv": "Consulting room",
     "level": "B1"
   },
   {
@@ -52337,7 +52332,7 @@ const B1_WORDS = [
     "de": "Sprungschanze",
     "de_article": "die",
     "de_plural": "die Sprungschanzen",
-    "lv": "Springboard",
+    "lv": "Ski jump",
     "level": "B1"
   },
   {
@@ -52356,14 +52351,14 @@ const B1_WORDS = [
     "de": "Spur",
     "de_article": "die",
     "de_plural": "die Spuren",
-    "lv": "Feet",
+    "lv": "Track / trace",
     "level": "B1"
   },
   {
     "de": "Stab",
     "de_article": "der",
     "de_plural": "die Stäbe",
-    "lv": "Card",
+    "lv": "Stick / pole",
     "level": "B1"
   },
   {
@@ -52422,7 +52417,7 @@ const B1_WORDS = [
   },
   {
     "de": "stammen",
-    "lv": "Get up",
+    "lv": "To come from",
     "level": "B1"
   },
   {
@@ -52585,7 +52580,7 @@ const B1_WORDS = [
     "de": "Standlicht",
     "de_article": "das",
     "de_plural": "die Standlichter",
-    "lv": "Gauge fire for cars",
+    "lv": "Parking light",
     "level": "B1"
   },
   {
@@ -52628,7 +52623,7 @@ const B1_WORDS = [
   },
   {
     "de": "stechen",
-    "lv": "Stab",
+    "lv": "To stab",
     "level": "B1"
   },
   {
@@ -52655,7 +52650,7 @@ const B1_WORDS = [
   },
   {
     "de": "steil",
-    "lv": "Floor",
+    "lv": "Steep",
     "level": "B1"
   },
   {
@@ -53475,7 +53470,7 @@ const B1_WORDS = [
   },
   {
     "de": "strahlen",
-    "lv": "Beaming",
+    "lv": "To beam",
     "level": "B1"
   },
   {
@@ -53914,14 +53909,14 @@ const B1_WORDS = [
     "de": "Strudel",
     "de_article": "der",
     "de_plural": "die Strudel",
-    "lv": "Opening",
+    "lv": "Whirlpool",
     "level": "B1"
   },
   {
     "de": "Stuck",
     "de_article": "der",
     "de_plural": "die Stucke",
-    "lv": "Gypsum mortar",
+    "lv": "Stucco",
     "level": "B1"
   },
   {
@@ -54158,7 +54153,7 @@ const B1_WORDS = [
     "de": "Sülze",
     "de_article": "die",
     "de_plural": "die Sülzen",
-    "lv": "Galert",
+    "lv": "Aspic",
     "level": "B1"
   },
   {
@@ -54350,7 +54345,7 @@ const B1_WORDS = [
   },
   {
     "de": "tadeln",
-    "lv": "To earn",
+    "lv": "To criticize",
     "level": "B1"
   },
   {
@@ -54364,7 +54359,7 @@ const B1_WORDS = [
     "de": "Tagung",
     "de_article": "die",
     "de_plural": "die Tagungen",
-    "lv": "Sitting",
+    "lv": "Conference / meeting",
     "level": "B1"
   },
   {
@@ -54540,7 +54535,7 @@ const B1_WORDS = [
   },
   {
     "de": "tapezieren",
-    "lv": "Become",
+    "lv": "To wallpaper",
     "level": "B1"
   },
   {
@@ -55145,14 +55140,14 @@ const B1_WORDS = [
   },
   {
     "de": "taumeln",
-    "lv": "Streaking",
+    "lv": "To stagger",
     "level": "B1"
   },
   {
     "de": "Tausch",
     "de_article": "der",
     "de_plural": "die Tausche",
-    "lv": "[around] shift",
+    "lv": "Exchange",
     "level": "B1"
   },
   {
@@ -55177,7 +55172,7 @@ const B1_WORDS = [
     "de": "Teig",
     "de_article": "der",
     "de_plural": "die Teige",
-    "lv": "Puzzle",
+    "lv": "Dough",
     "level": "B1"
   },
   {
@@ -55395,7 +55390,7 @@ const B1_WORDS = [
     "de": "Tempo",
     "de_article": "das",
     "de_plural": "die Tempi",
-    "lv": "Temp",
+    "lv": "Pace",
     "level": "B1"
   },
   {
@@ -56415,14 +56410,14 @@ const B1_WORDS = [
   {
     "de": "Treue",
     "de_article": "die",
-    "lv": "Trust",
+    "lv": "Loyalty",
     "level": "B1"
   },
   {
     "de": "Tribüne",
     "de_article": "die",
     "de_plural": "die Tribünen",
-    "lv": "Tribune",
+    "lv": "Grandstand",
     "level": "B1"
   },
   {
@@ -56443,7 +56438,7 @@ const B1_WORDS = [
     "de": "Trittbrett",
     "de_article": "das",
     "de_plural": "die Trittbretter",
-    "lv": "Stepladder",
+    "lv": "Footboard",
     "level": "B1"
   },
   {
@@ -57269,7 +57264,7 @@ const B1_WORDS = [
   },
   {
     "de": "umdrehen",
-    "lv": "To cut",
+    "lv": "To turn around",
     "level": "B1"
   },
   {
@@ -57809,7 +57804,7 @@ const B1_WORDS = [
   },
   {
     "de": "unterbrechen",
-    "lv": "To stop",
+    "lv": "To interrupt",
     "level": "B1"
   },
   {
@@ -58191,7 +58186,7 @@ const B1_WORDS = [
     "de": "Vaterland",
     "de_article": "das",
     "de_plural": "die Vaterländer",
-    "lv": "Father",
+    "lv": "Fatherland",
     "level": "B1"
   },
   {
@@ -58664,7 +58659,7 @@ const B1_WORDS = [
   },
   {
     "de": "verblühen",
-    "lv": "To bloom",
+    "lv": "To wither",
     "level": "B1"
   },
   {
@@ -59360,7 +59355,7 @@ const B1_WORDS = [
   },
   {
     "de": "verheiraten",
-    "lv": "Get married",
+    "lv": "To marry someone",
     "level": "B1"
   },
   {
@@ -59439,7 +59434,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich verlaufen",
-    "lv": "Take place",
+    "lv": "Get lost",
     "level": "B1"
   },
   {
@@ -59762,17 +59757,17 @@ const B1_WORDS = [
   },
   {
     "de": "verraten",
-    "lv": "To hand over",
+    "lv": "To betray; to reveal",
     "level": "B1"
   },
   {
     "de": "sich verrechnen",
-    "lv": "Recalculate",
+    "lv": "Miscalculate",
     "level": "B1"
   },
   {
     "de": "verreisen",
-    "lv": "Leaving",
+    "lv": "To travel; to go away",
     "level": "B1"
   },
   {
@@ -59787,7 +59782,7 @@ const B1_WORDS = [
   },
   {
     "de": "versäumen",
-    "lv": "To be late",
+    "lv": "To miss; to fail to do",
     "level": "B1"
   },
   {
@@ -59802,12 +59797,12 @@ const B1_WORDS = [
   },
   {
     "de": "verschlafen",
-    "lv": "To lie down",
+    "lv": "To oversleep",
     "level": "B1"
   },
   {
     "de": "sich verschlafen",
-    "lv": "Fall asleep",
+    "lv": "Oversleep",
     "level": "B1"
   },
   {
@@ -59979,7 +59974,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich versprechen",
-    "lv": "To make up for it",
+    "lv": "To misspeak; to make a slip of the tongue",
     "level": "B1"
   },
   {
@@ -60047,7 +60042,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich vertragen",
-    "lv": "To live together",
+    "lv": "To get along",
     "level": "B1"
   },
   {
@@ -60424,7 +60419,7 @@ const B1_WORDS = [
   },
   {
     "de": "verwenden",
-    "lv": "Use up",
+    "lv": "To use",
     "level": "B1"
   },
   {
@@ -60441,7 +60436,7 @@ const B1_WORDS = [
   },
   {
     "de": "verzichten",
-    "lv": "Refuse",
+    "lv": "To do without; to give up",
     "level": "B1"
   },
   {
@@ -60536,7 +60531,7 @@ const B1_WORDS = [
     "de": "Vorbild",
     "de_article": "das",
     "de_plural": "die Vorbilder",
-    "lv": "Sample",
+    "lv": "Role model; example",
     "level": "B1"
   },
   {
@@ -60548,7 +60543,7 @@ const B1_WORDS = [
     "de": "Vorgang",
     "de_article": "der",
     "de_plural": "die Vorgänge",
-    "lv": "Progress",
+    "lv": "Process; procedure",
     "level": "B1"
   },
   {
@@ -60752,7 +60747,7 @@ const B1_WORDS = [
   },
   {
     "de": "vorsagen",
-    "lv": "Say in front",
+    "lv": "To prompt; to tell someone the answer",
     "level": "B1"
   },
   {
@@ -60764,7 +60759,7 @@ const B1_WORDS = [
   },
   {
     "de": "vorsehen",
-    "lv": "To predict",
+    "lv": "To plan; to provide for; to intend",
     "level": "B1"
   },
   {
@@ -60945,7 +60940,7 @@ const B1_WORDS = [
   },
   {
     "de": "vorüber",
-    "lv": "Miss",
+    "lv": "Over; past",
     "level": "B1"
   },
   {
@@ -61704,7 +61699,7 @@ const B1_WORDS = [
     "de": "Wäscherei",
     "de_article": "die",
     "de_plural": "die Wäschereien",
-    "lv": "Laundry room",
+    "lv": "Laundry; laundrette",
     "level": "B1"
   },
   {
@@ -63131,7 +63126,7 @@ const B1_WORDS = [
     "de": "Zirkel",
     "de_article": "der",
     "de_plural": "die Zirkel",
-    "lv": "Circular",
+    "lv": "Compass",
     "level": "B1"
   },
   {
@@ -63226,7 +63221,7 @@ const B1_WORDS = [
     "de": "Zugang",
     "de_article": "der",
     "de_plural": "die Zugänge",
-    "lv": "Approach",
+    "lv": "Access",
     "level": "B1"
   },
   {
@@ -63713,7 +63708,7 @@ const B1_WORDS = [
     "de": "Zutat",
     "de_article": "die",
     "de_plural": "die Zutaten",
-    "lv": "Additive",
+    "lv": "Ingredient",
     "level": "B1"
   },
   {
@@ -63739,7 +63734,7 @@ const B1_WORDS = [
   },
   {
     "de": "zwar",
-    "lv": "Both",
+    "lv": "Indeed",
     "level": "B1"
   },
   {
@@ -65491,7 +65486,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich scheiden",
-    "lv": "Break up",
+    "lv": "To get divorced",
     "level": "B1"
   },
   {

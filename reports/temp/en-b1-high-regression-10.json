@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "date": "2026-08-09T10:08:19.177Z",
+    "blockSize": 50,
+    "cardsOwnerReviewed": 50,
+    "labot": 50,
+    "nelabot": 0,
+    "cardsRepaired": 50,
+    "cardsRegressionAudited": 50,
+    "workflowUnresolvedHighBeforeHigh10": 173,
+    "workflowUnresolvedHighAfterHigh10": 123,
+    "verdict": "EN–DE B1 HIGH REPAIR #10 — TARGETED REGRESSION PASS",
+    "status": "EN–DE B1 HIGH REPAIR #10 — COMPLETE — READY FOR HIGH OWNER REVIEW #11"
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "totalCards": 3367,
+    "structuralParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "deReadOnly": "PASS",
+    "mirrorParity": "PASS",
+    "utf8Mojibake": "PASS",
+    "idsChanged": 0,
+    "unexpectedProductionChanges": 0
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "findingsRepaired": {
+    "HIGH": 64,
+    "MEDIUM": 37,
+    "LOW": 12,
+    "TECHNICAL": 11,
+    "sectionAccentsTECHNICAL": 35,
+    "sectionAccentsPEDAGOGICAL": 8,
+    "total": 124
+  },
+  "preconditionMismatch": 0,
+  "followUpFindings": 0,
+  "outOfScopeFindings": 0,
+  "findings": []
+}
