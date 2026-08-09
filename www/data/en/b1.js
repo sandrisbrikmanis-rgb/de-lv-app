@@ -9420,7 +9420,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "bestimmen",
-          "meaning": "Determine / predict",
+          "meaning": "Determine / designate",
           "example": "Der Preis wird neu bestimmt. = The price is reset."
         },
         {
@@ -9437,7 +9437,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "If the decision determines the price, dose, term or purpose, usually der bestimnen."
+            "text": "If the decision determines the price, dose, term or purpose, Usually use bestimmen."
           }
         ]
       },
@@ -9543,9 +9543,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "cenu",
-                  "devu",
-                  "deadline"
+                  "price",
+                  "dose"
                 ]
               }
             }
@@ -9893,12 +9892,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Kustini objektu → bewegen; kusties pats → sich bewegen; emocijas → bewegt."
+            "text": "Move an object → bewegen; move yourself → sich bewegen; emotions → bewegt."
           }
         ]
       },
       "important": {
-        "text": "Bez sich bewegen is usually 'to move something'; with sich it is the movement itself."
+        "text": "Without sich, bewegen usually means “to move something”.; with sich it is the movement itself."
       },
       "sectionAccents": {
         "examples": [
@@ -9949,8 +9948,7 @@ const B1_WORDS = [
         "explanation": {
           "purple": [
             "to move",
-            "to touch",
-            "to move"
+            "to touch"
           ]
         },
         "comparison": [
@@ -9996,9 +9994,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kustini",
-                  "kusties",
-                  "emocijas"
+                  "Move an object",
+                  "move yourself",
+                  "emotions"
                 ]
               }
             }
@@ -10152,7 +10150,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "will",
                 "will"
               ]
             }
@@ -10167,8 +10164,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The",
-                "The",
                 "The"
               ]
             }
@@ -10190,7 +10185,7 @@ const B1_WORDS = [
             "meaning": {
               "purple": [
                 "Receive",
-                "Receive"
+                "move in"
               ]
             }
           },
@@ -10224,9 +10219,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to receive",
-                  "move in",
-                  "attiekties"
+                  "refer to"
                 ]
               }
             }
@@ -10308,7 +10301,7 @@ const B1_WORDS = [
       "id": "b1-bildschirm",
       "layout": "standardStudy",
       "translation": "Screen",
-      "explanation": "Main idea: der Bildschimmer is a screen - the display surface of a computer monitor, phone, tablet or television. Plural: die Bildschimmer.",
+      "explanation": "Main idea: der Bildschirm is a screen—the display surface of a computer monitor, phone, tablet, or television. Plural: die Bildschirme.",
       "examples": [
         {
           "de": "Der Bildschirm ist kaputt.",
@@ -10348,7 +10341,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "der Bildschirm = screen. Plural: die Bildschimmer."
+        "text": "der Bildschirm = screen. Plural: die Bildschirme."
       },
       "sectionAccents": {
         "explanation": {
@@ -10438,7 +10431,7 @@ const B1_WORDS = [
       "id": "b1-bieten",
       "layout": "standardStudy",
       "translation": "To offer",
-      "explanation": "Main Idea: Beet means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer to someone in particular.",
+      "explanation": "Main idea: bieten means to offer or provide something as an opportunity, service, or benefit. anbieten more often means to actively offer something to someone in particular.",
       "examples": [
         {
           "de": "Die Schule bietet viele Kurse an.",
@@ -10461,7 +10454,7 @@ const B1_WORDS = [
         },
         {
           "word": "anbieten",
-          "meaning": "Offer someone specific",
+          "meaning": "Offer something to someone specific",
           "example": "Ich biete dir meine Hilfe an. = I offer you my help."
         },
         {
@@ -10478,7 +10471,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "bieten often describes what a place, programme, or service provides; anbieten emphasizes more on offering assets to someone."
+        "text": "bieten often describes what a place, programme, or service provides; anbieten places more emphasis on actively offering something to someone."
       },
       "sectionAccents": {
         "examples": [
@@ -10516,7 +10509,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "offers"
               ]
             }
           },
@@ -10584,7 +10577,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "sniedz",
                   "offers"
                 ]
               }
@@ -10593,7 +10585,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "bieten",
             "bieten"
           ]
         }
@@ -10994,9 +10985,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "pad",
-                  "bloks",
-                  "klucis"
+                  "block",
+                  "notepad",
+                  "lump"
                 ]
               }
             }
@@ -11221,12 +11212,12 @@ const B1_WORDS = [
     "de": "Bogen",
     "de_article": "der",
     "de_plural": "die Bogen",
-    "lv": "Circle",
+    "lv": "Bow",
     "level": "B1",
     "study": {
       "id": "b1-bogen",
       "layout": "standardStudy",
-      "translation": "Circle",
+      "translation": "Bow",
       "explanation": "Main idea: der Bogen means bow. Depending on the context, it can also be an arch or a page, such as Fragebogen.",
       "examples": [
         {
@@ -11280,8 +11271,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The",
-                "The"
+                "bow"
               ]
             }
           },
@@ -11294,8 +11284,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The",
-                "The"
+                "arch"
               ]
             }
           },
@@ -11308,8 +11297,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Please",
-                "Please"
+                "form"
               ]
             }
           }
@@ -12357,7 +12345,7 @@ const B1_WORDS = [
       "id": "b1-dadurch",
       "layout": "standardStudy",
       "translation": "Thus",
-      "explanation": "Main idea: deruch means thus or thereby. It links the above cause with the effect.",
+      "explanation": "Main idea: dadurch means thus or thereby. It links the cause mentioned above with its effect.",
       "examples": [
         {
           "de": "Er hat viel gelernt. Dadurch hat er bestanden.",
@@ -12397,7 +12385,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "deruch refers to the action or situation mentioned above, not simply to the place."
+        "text": "dadurch refers to the action or situation mentioned above, not simply to a place."
       },
       "sectionAccents": {
         "examples": [
@@ -12444,6 +12432,10 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "Main"
+          ],
+          "purple": [
+            "thus",
+            "thereby"
           ]
         },
         "comparison": [
@@ -12496,9 +12488,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "deruch"
-          ]
+          "purple": []
         }
       }
     }
@@ -12706,12 +12696,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Between cause and effect, daher is usually translated as because."
+            "text": "When linking a cause to its result, daher is usually translated as “therefore”."
           }
         ]
       },
       "important": {
-        "text": "daher as 'from there' is rarer; at the front it is better to learn \"because\"."
+        "text": "daher can also mean “from there”, but as a core meaning it is better to learn “therefore”.; at the front it is better to learn \"because\"."
       },
       "sectionAccents": {
         "examples": [
@@ -12724,7 +12714,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "It's",
                 "It's"
               ]
             }
@@ -12750,7 +12739,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "there"
               ]
             }
           }
@@ -12819,13 +12808,13 @@ const B1_WORDS = [
   },
   {
     "de": "dahin",
-    "lv": "Cont",
+    "lv": "There / to there",
     "level": "B1",
     "study": {
       "id": "b1-dahin",
       "layout": "standardStudy",
-      "translation": "Cont",
-      "explanation": "Main idea: dahin means there, there. In a figurative sense, es ist dahin means that something is lost or lost.",
+      "translation": "There / to there",
+      "explanation": "Main idea: dahin means “there” or “to there”. In a figurative sense, es ist dahin means that something is gone or lost.",
       "examples": [
         {
           "de": "Ich gehe dahin.",
@@ -12837,13 +12826,13 @@ const B1_WORDS = [
         },
         {
           "de": "Meine Hoffnung ist dahin.",
-          "lv": "My hope is for the yard."
+          "lv": "My hope is gone."
         }
       ],
       "comparison": [
         {
           "word": "dahin",
-          "meaning": "There / there / for the yard",
+          "meaning": "There / to there / gone",
           "example": "Ich fahre dahin. = I'm going there."
         },
         {
@@ -12865,7 +12854,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "dahin shows the direction to a place and dort shows the location. I ist dahin = it is for the yard."
+        "text": "dahin indicates direction to a place, while dort indicates location. Es ist dahin = it is gone."
       },
       "sectionAccents": {
         "examples": [
@@ -12914,9 +12903,9 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
-            "Main"
+            "there",
+            "to there",
+            "gone"
           ]
         },
         "comparison": [
@@ -13427,7 +13416,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "there is no word for it. It refers to a thing, thought or action mentioned above."
+        "text": "daran is not a place word. It refers to a thing, thought, or action mentioned above."
       },
       "sectionAccents": {
         "examples": [
@@ -13501,7 +13490,10 @@ const B1_WORDS = [
                 "darauf"
               ]
             },
-            "meaning": {}
+            "meaning": [
+              "To",
+              "on"
+            ]
           },
           {
             "word": {
@@ -13531,9 +13523,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "there",
-            "there",
-            "there"
+            "not a place word"
           ]
         }
       }
@@ -13564,7 +13554,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie stellt eine Ärztin dar.",
-          "lv": "She plays doctors."
+          "lv": "She plays a doctor."
         }
       ],
       "comparison": [
@@ -13587,7 +13577,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Data, graphs, situations and roles werden dargestellt; sev vorstellen = introduce yourself."
+            "text": "Data, graphs, situations, and roles can be represented with darstellen; sich vorstellen = to introduce yourself."
           }
         ]
       },
@@ -13644,7 +13634,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "plays"
               ]
             }
           }
@@ -13942,12 +13932,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Skaties uz objektu: Tisch decken, Kosten decken, Straße mit Schnee decken."
+            "text": "Look at the object: Tisch decken, Kosten decken, Straße mit Schnee decken."
           }
         ]
       },
       "important": {
-        "text": "Tisch decken is not \"to set the table\" literally, but \"to set the table\"; Kosten decken = cover costs."
+        "text": "Tisch decken does not literally mean “to cover the table”; it means “to set the table.” Kosten decken = to cover costs."
       },
       "sectionAccents": {
         "examples": [
@@ -14182,7 +14172,7 @@ const B1_WORDS = [
       "id": "b1-dienen",
       "layout": "standardStudy",
       "translation": "To serve",
-      "explanation": "Main Idea: To serve means to serve or serve a purpose. By als it means “to serve as”.",
+      "explanation": "Main idea: dienen means to serve or to be useful for a purpose. With als, it means “to serve as.”",
       "examples": [
         {
           "de": "Dieses Zimmer dient als Büro.",
@@ -14217,12 +14207,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "dienen als = to serve as; dien zu = to be useful to someone."
+            "text": "dienen als = to serve as; dienen zu = to serve a purpose."
           }
         ]
       },
       "important": {
-        "text": "dien is not usual to \"help a man\"; to help is usually helfen."
+        "text": "dienen is not usually used to mean “to help someone”; “to help” is usually helfen."
       },
       "sectionAccents": {
         "examples": [
@@ -14235,7 +14225,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "This",
                 "This"
               ]
             }
@@ -14271,6 +14260,10 @@ const B1_WORDS = [
         "explanation": {
           "blue": [
             "Main"
+          ],
+          "purple": [
+            "serve",
+            "useful"
           ]
         },
         "comparison": [
@@ -14894,7 +14887,7 @@ const B1_WORDS = [
       "id": "b1-durchführen",
       "layout": "standardStudy",
       "translation": "Perform",
-      "explanation": "Main idea: gebieben means to carry out or carry out a planned action. It is used with inspections, repairs, experiments and events.",
+      "explanation": "Main idea: durchführen means to carry out or implement a planned action. It is used with inspections, repairs, experiments, and events.",
       "examples": [
         {
           "de": "Wir führen eine Kontrolle durch.",
@@ -14929,12 +14922,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Kontrolle, Reparatur, Experiment → durchführen."
+            "text": "Inspection, repair, experiment → durchführen."
           }
         ]
       },
       "important": {
-        "text": "gerünfung is not literally “to lead through”; In B1 texts it usually means to perform."
+        "text": "durchführen does not literally mean “to lead through”; in B1 texts it usually means “to carry out”."
       },
       "sectionAccents": {
         "examples": [
@@ -14948,7 +14941,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "are",
                 "are"
               ]
             }
@@ -15026,7 +15018,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "durchführen"
+                  "Inspection"
                 ]
               }
             }
@@ -15034,7 +15026,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "gerünfung"
+            "carry out"
           ]
         }
       }
@@ -15582,12 +15574,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Crime + house → einbrechen = break into; Dach → invade; Nacht → enter."
+            "text": "Crime + house → einbrechen = break into; roof → cave in; night → fall."
           }
         ]
       },
       "important": {
-        "text": "einbrechen is usually not 'break into an object' but 'break into a place'. With parts of buildings, it means invade/collapse."
+        "text": "einbrechen usually does not mean “break into an object” but “break into a place”. With parts of buildings, it means “cave in” or “collapse”."
       },
       "sectionAccents": {
         "examples": [
@@ -15604,9 +15596,7 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "broke in"
-              ]
+              "purple": []
             }
           },
           {
@@ -15643,8 +15633,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -15667,9 +15655,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ielauzties",
-                  "iebrukt",
-                  "to join"
+                  "break into",
+                  "cave in",
+                  "fall"
                 ]
               }
             }
@@ -15691,7 +15679,7 @@ const B1_WORDS = [
       "id": "b1-eindeutig",
       "layout": "standardStudy",
       "translation": "Unmistakable",
-      "explanation": "Main idea: einveitt means clear and unambiguous, when there is no doubt or two interpretations. This is not the same as einfach = simple.",
+      "explanation": "Main idea: eindeutig means clear and unambiguous when there is no doubt or more than one possible interpretation. This is not the same as einfach = simple.",
       "examples": [
         {
           "de": "Die Antwort ist eindeutig.",
@@ -15709,12 +15697,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "If there is no doubt about the meaning or the result, use einteigt."
+            "text": "If there is no doubt about the meaning or the result, use eindeutig."
           }
         ]
       },
       "important": {
-        "text": "einfach is not einfach: einfach = unequivocal, einfach = simple."
+        "text": "eindeutig is not einfach: eindeutig = unambiguous, einfach = simple."
       },
       "sectionAccents": {
         "examples": [
@@ -15978,7 +15966,7 @@ const B1_WORDS = [
       "id": "b1-einerlei",
       "layout": "standardStudy",
       "translation": "Anyway",
-      "explanation": "Main idea: einerle means no matter or it doesn't matter. It sounds more formal or old-fashioned than everyday egal.",
+      "explanation": "Main idea: einerlei means “no matter” or “it doesn’t matter”. It sounds more formal or old-fashioned than everyday egal.",
       "examples": [
         {
           "de": "Mir ist das einerlei.",
@@ -16013,12 +16001,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "egal is used more often on a daily basis; einerle recognizes as a more formal \"never mind\"."
+            "text": "egal is more common in everyday speech; recognize einerlei as a more formal way of saying “it doesn’t matter”."
           }
         ]
       },
       "important": {
-        "text": "einerle is not a common colloquial word; speaking, it is safer to use egal."
+        "text": "einerlei is not common in colloquial speech; in everyday conversation, it is safer to use egal."
       },
       "sectionAccents": {
         "examples": [
@@ -16117,16 +16105,14 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "more formal",
-                  "vienalga"
+                  "it doesn’t matter"
                 ]
               }
             }
           ]
         },
         "important": {
-          "purple": [
-            "einerle"
-          ]
+          "purple": []
         }
       }
     }
@@ -16485,12 +16471,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Remember the form: Mir fällt etwas ein = something occurs to me."
+            "text": "occurs to me"
           }
         ]
       },
       "important": {
-        "text": "Nesaki “ich falle eine Idee ein”. Pareizi: Mir fällt eine Idee ein."
+        "text": "Do not say “ich falle eine Idee ein”. The correct form is: Mir fällt eine Idee ein."
       },
       "sectionAccents": {
         "examples": [
@@ -16571,9 +16557,7 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "purple": [
-                  "comes to mind"
-                ]
+                "purple": []
               }
             }
           ]
@@ -16761,7 +16745,7 @@ const B1_WORDS = [
       "id": "b1-einfluss",
       "layout": "standardStudy",
       "translation": "Influence",
-      "explanation": "Main idea: der Einfluss means influence on a person, decision or situation. A very common construction is Einfluss auf + ko?.",
+      "explanation": "Main idea: der Einfluss means influence on a person, decision, or situation. A very common construction is Einfluss auf + accusative.",
       "examples": [
         {
           "de": "Das Wetter hat Einfluss auf unsere Pläne.",
@@ -16789,7 +16773,7 @@ const B1_WORDS = [
         },
         {
           "word": "die Wirkung",
-          "meaning": "Exposure / effect",
+          "meaning": "Effect / impact",
           "example": "Die Wirkung ist stark. = The effect is strong."
         }
       ],
@@ -16893,7 +16877,8 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Exposure"
+                "Effect",
+                "impact"
               ]
             }
           }
@@ -16902,9 +16887,7 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "purple": [
-                  "where to?"
-                ]
+                "purple": []
               }
             }
           ]
@@ -16939,12 +16922,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "In a text or document einfügen = insert; sich einfügen = to fit in."
+            "text": "In a text or document, einfügen means “to insert”; sich einfügen means “to fit in”."
           }
         ]
       },
       "important": {
-        "text": "einfügen is often a technical/documentary activity; \"to add\" is more often to add."
+        "text": "einfügen is often a technical or document-related activity; “to add” is more often hinzufügen."
       },
       "sectionAccents": {
         "examples": [
@@ -17002,7 +16985,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
             "Main"
           ]
         },
@@ -17025,7 +17007,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ievietot",
                   "to fit in"
                 ]
               }
@@ -17034,7 +17015,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "einfügen",
             "einfügen"
           ]
         }
@@ -17084,12 +17064,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Rules, system or method führt man ein; goods can also be einführen = imported."
+            "text": "Rules, systems, or methods can be introduced with einführen; goods can also be imported with einführen."
           }
         ]
       },
       "important": {
-        "text": "einführen is not the same as vorstellen: vorstellen is to present or introduce, not to introduce."
+        "text": "einführen is not the same as vorstellen: vorstellen means to present or introduce someone, while einführen can mean to introduce or implement a system, rule, or method."
       },
       "sectionAccents": {
         "examples": [
@@ -17153,7 +17133,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
             "Main"
           ]
         },
@@ -17200,10 +17179,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "noteikumus",
-                  "system",
-                  "metodi",
-                  "preces"
+                  "system"
                 ]
               }
             }
@@ -17227,7 +17203,7 @@ const B1_WORDS = [
       "id": "b1-einführung",
       "layout": "standardStudy",
       "translation": "Introduction",
-      "explanation": "Main idea: die Einführung means introduction or introduction. In a text or course, it is an introduction • In a new system, rules or product - implementation.",
+      "explanation": "Main idea: die Einführung means introduction or implementation. In a text or course, it is an introduction; for a new system, rule, or product, it can mean implementation.",
       "examples": [
         {
           "de": "Die Einführung in das Thema war klar.",
@@ -17267,7 +17243,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Do not confuse Einführung with Einleitung: Einleitung is usually an introduction to a text, Einführung can also be an introduction to practice."
+        "text": "Do not confuse Einführung with Einleitung: Einleitung is usually an introduction to a text, while Einführung can also mean implementation in practice."
       },
       "sectionAccents": {
         "examples": [
@@ -17365,10 +17341,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "teksts",
-                  "kurss",
-                  "system",
-                  "noteikumi"
+                  "system"
                 ]
               }
             }
@@ -17402,7 +17375,7 @@ const B1_WORDS = [
         },
         {
           "de": "Nach dem Umzug haben wir uns gut eingewöhnt.",
-          "lv": "After moving, we got used to it well."
+          "lv": "After moving, we adapted well."
         }
       ],
       "comparison": [
@@ -17425,7 +17398,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "In a new job, school or place, a person muss sich eingewöhnen."
+            "text": "In a new job, school, or place, a person has to get used to the new situation."
           }
         ]
       },
@@ -17478,9 +17451,7 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "we got used to it"
-              ]
+              "purple": []
             }
           }
         ],
@@ -17531,11 +17502,7 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "purple": [
-                  "at work",
-                  "at school",
-                  "instead of"
-                ]
+                "purple": []
               }
             }
           ]
@@ -17574,7 +17541,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "einhalten",
-          "meaning": "Follow / execute exactly",
+          "meaning": "Follow / comply with precisely",
           "example": "Wir halten die Frist ein. = We meet the deadline."
         },
         {
@@ -17591,7 +17558,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Regeln, Termin, Frist, Abstand einhalten = follow exactly."
+            "text": "With einhalten, you follow rules, keep appointments, meet deadlines, and maintain required distances."
           }
         ]
       },
@@ -17696,10 +17663,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "regeln",
-                  "termin",
-                  "frist",
-                  "abstand"
+                  "frist"
                 ]
               }
             }
@@ -17756,7 +17720,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "People, plants, animals or products from this place → einheimisch."
+            "text": "People, plants, animals, or products native to a particular place can be described as einheimisch."
           }
         ]
       },
@@ -17863,9 +17827,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "augi",
-                  "animals",
-                  "produkti"
+                  "animals"
                 ]
               }
             }
@@ -17889,7 +17851,7 @@ const B1_WORDS = [
       "id": "b1-einheit",
       "layout": "standardStudy",
       "translation": "Unit",
-      "explanation": "Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context.",
+      "explanation": "Main idea: die Einheit means a unit. It can be a unit of study, a technical unit, or a unit of measurement depending on the context.",
       "examples": [
         {
           "de": "Die nächste Einheit beginnt morgen.",
@@ -17917,14 +17879,14 @@ const B1_WORDS = [
         },
         {
           "word": "das Kapitel",
-          "meaning": "Department",
+          "meaning": "Chapter",
           "example": "Das Kapitel ist kurz. = The chapter is short."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "The context tells: course → study unit; measurement → unit of measure; technique → unit/module."
+            "text": "module; measurement → unit of measure; technique → unit/module."
           }
         ]
       },
@@ -18019,7 +17981,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Department"
+                "Chapter"
               ]
             }
           }
@@ -18030,8 +17992,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "unit of study",
-                  "unit of measure",
-                  "modulis"
+                  "unit of measure"
                 ]
               }
             }
@@ -18210,12 +18171,12 @@ const B1_WORDS = [
   },
   {
     "de": "einheitlich",
-    "lv": "United",
+    "lv": "Uniform",
     "level": "B1",
     "study": {
       "id": "b1-einheitlich",
       "layout": "standardStudy",
-      "translation": "United",
+      "translation": "Uniform",
       "explanation": "Main Idea: einheitlich means uniform or equal throughout the system. It is used of rules, style, colour, shape or order.",
       "examples": [
         {
@@ -18239,7 +18200,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "einheitlich is not einzig: einheitlich = one/equal, einzig = the only one."
+        "text": "einheitlich is not einzig: einheitlich = uniform / consistent; einzig = the only one., einzig = the only one."
       },
       "sectionAccents": {
         "examples": [
@@ -18316,7 +18277,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "for the same style",
                   "order"
                 ]
               }
@@ -18351,13 +18311,13 @@ const B1_WORDS = [
         },
         {
           "de": "Der Läufer holt den anderen ein.",
-          "lv": "The runner catches up with the other."
+          "lv": "The runner catches up with the other runner."
         }
       ],
       "comparison": [
         {
           "word": "einholen",
-          "meaning": "Collect / receive / achieve",
+          "meaning": "Collect / obtain / catch up with",
           "example": "Ich hole Rat ein. = I ask for advice."
         },
         {
@@ -18374,12 +18334,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Information, advice or permission holt man ein; the runner can be einholen = to catch up."
+            "text": "You can obtain information, advice, or permission with einholen; you can also einholen another runner = catch up with them."
           }
         ]
       },
       "important": {
-        "text": "einholen is not the usual 'get it all'; it is very often used with Informationen, Rat or Gengemung."
+        "text": "einholen is not the usual 'get it all'; it is very often used with Informationen, Rat or Genehmigung."
       },
       "sectionAccents": {
         "examples": [
@@ -18436,8 +18396,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -18468,9 +18426,7 @@ const B1_WORDS = [
           },
           {
             "word": {
-              "green": [
-                "überholen"
-              ]
+              "green": []
             },
             "meaning": {
               "purple": [
@@ -18484,10 +18440,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "information",
-                  "padomu",
-                  "permission",
-                  "runner"
+                  "advice"
                 ]
               }
             }
@@ -18614,7 +18567,7 @@ const B1_WORDS = [
       "id": "b1-einsatz",
       "layout": "standardStudy",
       "translation": "Use",
-      "explanation": "Main idea: der Einsatz means active use or involvement in a particular situation. Common phrases are im Einsatz and zum Einsatz kommen • In games Einsatz can also be a bet.",
+      "explanation": "Main idea: der Einsatz means active use or involvement in a particular situation. Common phrases are im Einsatz and zum Einsatz kommen. In games, Einsatz can also mean a stake.",
       "examples": [
         {
           "de": "Der Einsatz moderner Technik spart Zeit.",
@@ -18622,7 +18575,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Feuerwehr ist seit zwei Stunden im Einsatz.",
-          "lv": "Firefighters have been on call for two hours."
+          "lv": "The firefighters have been on duty for two hours."
         },
         {
           "de": "Bei diesem Spiel ist der Einsatz zu hoch.",
@@ -18632,7 +18585,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Einsatz",
-          "meaning": "Usage / engagement / rate",
+          "meaning": "Use / deployment / stake",
           "example": "Der Einsatz der Technik hilft uns. = The use of technology helps us."
         },
         {
@@ -18649,7 +18602,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Einsatz always asks: Who is involved or used, and in what situation?"
+            "text": "With Einsatz, ask what is being used or deployed, and in what situation."
           }
         ]
       },
@@ -18717,9 +18670,7 @@ const B1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "Usage"
-              ]
+              "purple": []
             }
           },
           {
@@ -18752,8 +18703,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "involved",
-                  "izmantots"
+                  "used",
+                  "deployed"
                 ]
               }
             }
@@ -18808,7 +18759,7 @@ const B1_WORDS = [
       "id": "b1-einsetzen",
       "layout": "standardStudy",
       "translation": "To use",
-      "explanation": "Main idea: einsetzen means to use or involve something for a purpose. The object changes the translation: the technique is used, the person is involved/assigned, but the rain or pain may start.",
+      "explanation": "Main idea: einsetzen means to use or involve something for a purpose. The object changes the translation: the technology or equipment is used, the person is involved/assigned, but the rain or pain may start.",
       "examples": [
         {
           "de": "Wir setzen moderne Technik im Unterricht ein.",
@@ -18843,12 +18794,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Skaties uz objektu: Technik einsetzen, Spieler einsetzen, Regen setzt ein."
+            "text": "Look at the object: use technology, assign a player, or say that rain begins."
           }
         ]
       },
       "important": {
-        "text": "The key is the object: einsetzen is not a one-sise-fits-all translation."
+        "text": "The key is the object: einsetzen is not a one-size-fits-all translation."
       },
       "sectionAccents": {
         "examples": [
@@ -18953,9 +18904,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "technik einsetzen",
-                  "spieler einsetzen",
-                  "regen setzt ein"
+                  "use technology"
                 ]
               }
             }
@@ -19184,7 +19133,7 @@ const B1_WORDS = [
       "id": "b1-eintreten",
       "layout": "standardStudy",
       "translation": "Enter",
-      "explanation": "Main idea: eintreten means to enter or enter. It is used for entering a room, joining an organisation, and also for the moment when an event or consequence occurs.",
+      "explanation": "Main idea: eintreten means to enter, join, or occur. It is used for entering a room, joining an organisation, and also for the moment when an event or consequence occurs.",
       "examples": [
         {
           "de": "Bitte treten Sie ein.",
@@ -19202,7 +19151,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "eintreten",
-          "meaning": "Enter / enter",
+          "meaning": "Enter / join",
           "example": "Treten Sie ein! = Come in!"
         },
         {
@@ -19219,12 +19168,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "In the room tritt man ein; in organisation tritt man ein or bei; consequences treten ein."
+            "text": "For entering a room, use eintreten; for joining an organisation, use eintreten or beitreten; consequences can eintreten = occur."
           }
         ]
       },
       "important": {
-        "text": "eintreten with an event does not mean to physically enter: Die Wirkung tritt ein = the effect takes place."
+        "text": "eintreten with an event does not mean to physically enter: Die Wirkung tritt ein = the effect occurs."
       },
       "sectionAccents": {
         "examples": [
@@ -19276,9 +19225,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
-            "enter"
+            "Main"
           ]
         },
         "comparison": [
@@ -19324,8 +19271,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "in the room",
-                  "sekas"
+                  "consequences"
                 ]
               }
             }
@@ -19665,7 +19611,7 @@ const B1_WORDS = [
         },
         {
           "word": "bekommen",
-          "meaning": "Receive everyday",
+          "meaning": "Receive in everyday situations",
           "example": "Ich bekomme eine E-Mail. = I get an email."
         },
         {
@@ -19677,12 +19623,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "empfangen of a message or signal; empfangen = to receive people."
+            "text": "Use empfangen for receiving a message or signal; with people, it means to receive or welcome them."
           }
         ]
       },
       "important": {
-        "text": "empfangen sounds more formal or technical than bekommen; with guests, it means receiving, not just receiving."
+        "text": "empfangen sounds more formal or technical than bekommen; With guests, empfangen means welcoming or receiving them, not simply receiving something."
       },
       "sectionAccents": {
         "examples": [
@@ -19783,7 +19729,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to admit"
+                  "welcome"
                 ]
               }
             }
@@ -19792,7 +19738,6 @@ const B1_WORDS = [
         "important": {
           "purple": [
             "more formal",
-            "empfangen",
             "empfangen"
           ]
         }
@@ -19862,7 +19807,7 @@ const B1_WORDS = [
       "id": "b1-entfernen",
       "layout": "standardStudy",
       "translation": "Remove",
-      "explanation": "Main idea: entfernen means to remove, delete, or remove something from a place. Reflexively, sich entfernen means to move away from a place or person.",
+      "explanation": "Main idea: entfernen means to remove, delete, or take something away from a place. Reflexively, sich entfernen means to move away from a place or person.",
       "examples": [
         {
           "de": "Bitte entfernen Sie den Fleck sofort.",
@@ -19885,7 +19830,7 @@ const B1_WORDS = [
         },
         {
           "word": "wegnehmen",
-          "meaning": "Take off",
+          "meaning": "Take away",
           "example": "Nimm das Glas weg. = Take the glass away."
         },
         {
@@ -19897,7 +19842,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Object entfernen = remove; sich entfernen = one moves away."
+            "text": "Remove an object; sich entfernen means to move away."
           }
         ]
       },
@@ -19959,7 +19904,6 @@ const B1_WORDS = [
           "purple": [
             "remove",
             "delete",
-            "remove",
             "move away"
           ]
         },
@@ -20046,7 +19990,7 @@ const B1_WORDS = [
       "id": "b1-enthalten",
       "layout": "standardStudy",
       "translation": "To contain",
-      "explanation": "Main Idea: enthalten means to contain or contain something as part of a whole. It is used for components, prices, texts, lists and sets.",
+      "explanation": "Main idea: enthalten means to contain or include something as part of a whole. It is used for components, prices, texts, lists and sets.",
       "examples": [
         {
           "de": "Das Getränk enthält viel Zucker.",
@@ -20081,12 +20025,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "When the idea is \"it is inside or included\", German often says der enthalten."
+            "text": "When the idea is “it is inside or included”, German often uses enthalten."
           }
         ]
       },
       "important": {
-        "text": "enthalten not halten. halten = hold; enthalten = to contain or contain."
+        "text": "enthalten is not halten. halten = hold; enthalten = to contain or include."
       },
       "sectionAccents": {
         "examples": [
@@ -20570,7 +20514,7 @@ const B1_WORDS = [
       "id": "b1-entsprechen",
       "layout": "standardStudy",
       "translation": "Corresponds to",
-      "explanation": "Main idea: mechnen means to meet the requirements, rules, plan or expectations. In German it requires the dative: dem Plan, den Regeln, unseren Erwantungen.",
+      "explanation": "Main idea: entsprechen means to meet requirements, rules, a plan, or expectations. In German, it requires the dative: dem Plan, den Regeln, unseren Erwartungen.",
       "examples": [
         {
           "de": "Das entspricht den Regeln.",
@@ -20582,7 +20526,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Ergebnis entspricht nicht der Wahrheit.",
-          "lv": "The result is not true."
+          "lv": "The result does not correspond to the truth."
         }
       ],
       "comparison": [
@@ -20605,12 +20549,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "matchen always asks \"matches what?\" - in German the answer is in the dative."
+            "text": "entsprechen asks “corresponds to what?” — in German, the answer is in the dative."
           }
         ]
       },
       "important": {
-        "text": "Do not confuse antvorten with antworten: antvorten = match, antworten = answer."
+        "text": "Do not confuse entsprechen with antworten: entsprechen = correspond, antworten = answer."
       },
       "sectionAccents": {
         "examples": [
@@ -20667,13 +20611,9 @@ const B1_WORDS = [
           "red": [
             "dative",
             "dem Plan",
-            "den Regeln",
-            "unseren Erwantungen"
+            "den Regeln"
           ],
           "yellow": [
-            "Main",
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -20719,16 +20659,13 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "purple": [
-                  "kam atbilst"
-                ]
+                "purple": []
               }
             }
           ]
         },
         "important": {
           "purple": [
-            "not",
             "not"
           ]
         }
@@ -20743,7 +20680,7 @@ const B1_WORDS = [
       "id": "b1-entstehen",
       "layout": "standardStudy",
       "translation": "Occur",
-      "explanation": "Main Idea: To arise means to arise or become as a result of a process. The word usually does not emphasise the doer, but the occurrence itself: the problem arises, the costs arise, the building is created.",
+      "explanation": "Main idea: entstehen means to arise or come into being as a result of a process. The word usually does not emphasise the doer, but the occurrence itself: the problem arises, the costs arise, the building is created.",
       "examples": [
         {
           "de": "Hier entsteht ein neues Gebäude.",
@@ -20778,12 +20715,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "If the main thing is the result, which is created during the process, use gegen."
+            "text": "If the focus is on something developing or coming into being during a process, use entstehen."
           }
         ]
       },
       "important": {
-        "text": "to arise does not mean that someone deliberately creates something; it is more der schaffen."
+        "text": "entstehen does not mean that someone deliberately creates something; schaffen is more suitable for deliberate creation."
       },
       "sectionAccents": {
         "examples": [
@@ -20841,10 +20778,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
-            "Main",
-            "To"
+            "Main"
           ]
         },
         "comparison": [
@@ -20889,9 +20823,7 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "purple": [
-                  "is formed during the process"
-                ]
+                "purple": []
               }
             }
           ]
@@ -21377,7 +21309,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Kontu, exhibit or sit överfünt man; open the door for me."
+            "text": "You use eröffnen for an account, an exhibition, or a meeting; you use öffnen for a door."
           }
         ]
       },
@@ -21440,8 +21372,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -21488,10 +21418,10 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "kontu",
-                  "the exhibition",
-                  "sit down",
-                  "durvis"
+                  "account",
+                  "exhibition",
+                  "meeting",
+                  "door"
                 ]
               }
             }
@@ -21499,7 +21429,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "eröffnen",
             "eröffnen"
           ]
         }
@@ -21573,7 +21502,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Publication erscheint = comes out; man zum Termin erscheint = arrives."
+            "text": "A publication erscheint = appears or comes out; a person erscheint zum Termin = arrives at an appointment."
           }
         ]
       },
@@ -21678,7 +21607,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "comes out",
-                  "ierodas"
+                  "arrives"
                 ]
               }
             }
@@ -21710,7 +21639,7 @@ const B1_WORDS = [
       "id": "b1-ersetzen",
       "layout": "standardStudy",
       "translation": "To replace",
-      "explanation": "Main idea: to replace means to replace one thing, person, or solution with another. In the context of damages, Schaden ersensen means to compensate for damages.",
+      "explanation": "Main idea: to replace means to replace one thing, person, or solution with another. In the context of damages, Schaden ersetzen means to compensate for damages.",
       "examples": [
         {
           "de": "Wir müssen das alte Gerät ersetzen.",
@@ -21745,12 +21674,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "If something takes the place of something else, use ersensen."
+            "text": "If something takes the place of something else, use ersetzen."
           }
         ]
       },
       "important": {
-        "text": "Schaden ersensen means to compensate the loss, not to \"replace the damage\"."
+        "text": "Schaden ersetzen means to compensate for the loss, not to “replace the damage”."
       },
       "sectionAccents": {
         "examples": [
@@ -21854,9 +21783,7 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "purple": [
-                  "takes the place of another thing"
-                ]
+                "purple": []
               }
             }
           ]
@@ -22191,12 +22118,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "With the hand fassen = to grasp; with the mind fassen = to grasp; Saal fasst = fits."
+            "text": "With your hands, fassen means “to grasp”; mentally, it can mean “to comprehend”; a hall can fassen a certain number of people = accommodate them."
           }
         ]
       },
       "important": {
-        "text": "fassen depends on the object: grasps the hand, embraces the thought, embraces people."
+        "text": "fassen depends on the object: you can grasp someone’s hand, comprehend an idea, or accommodate a certain number of people."
       },
       "sectionAccents": {
         "examples": [
@@ -22249,8 +22176,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -22297,9 +22222,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "satvert",
-                  "aptvert",
-                  "ietilpina"
+                  "grasp",
+                  "comprehend",
+                  "accommodate"
                 ]
               }
             }
@@ -22307,8 +22232,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "fassen",
-            "fassen",
             "fassen"
           ]
         }
@@ -22333,7 +22256,7 @@ const B1_WORDS = [
       "id": "b1-faul",
       "layout": "standardStudy",
       "translation": "Lazy",
-      "explanation": "Main idea: foul about a person means lazy. For fruit, food, or material, it means rotten or spoiled.",
+      "explanation": "Main idea: faul when used about a person means lazy. For fruit, food, or material, it means rotten or spoiled.",
       "examples": [
         {
           "de": "Er ist heute sehr faul.",
@@ -22368,7 +22291,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "A person can be foul = lazy; the food may be foul = rotten."
+            "text": "A person can be faul = lazy; food can be faul = rotten."
           }
         ]
       },
@@ -22422,8 +22345,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -22470,8 +22391,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "slinks",
-                  "sapuvis"
+                  "lazy",
+                  "rotten"
                 ]
               }
             }
@@ -22610,7 +22531,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "festhalten",
-          "meaning": "Hold tight / fix",
+          "meaning": "Hold tight / record",
           "example": "Halte das Seil fest. = Hold the rope tight."
         },
         {
@@ -22627,12 +22548,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "With the hands festhalten = to hold fast; in writing festhalten = fix."
+            "text": "With your hands, festhalten means “to hold tight”; in writing, it means “to record”."
           }
         ]
       },
       "important": {
-        "text": "Do not confuse festhalten with festhalten: festhalten = to hold/fix, festhalten = to establish."
+        "text": "Do not confuse festhalten with feststellen: festhalten = to hold or record; feststellen = to establish or ascertain."
       },
       "sectionAccents": {
         "examples": [
@@ -22730,8 +22651,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "hold tight",
-                  "fix"
+                  "hold tight"
                 ]
               }
             }
@@ -22739,7 +22659,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "hold/fix",
             "to establish"
           ]
         }
@@ -22754,7 +22673,7 @@ const B1_WORDS = [
       "id": "b1-festlegen",
       "layout": "standardStudy",
       "translation": "Determine",
-      "explanation": "Main idea: festlegen means to set clearly in advance a term, price, plan, arrangement, or rule. After that, it is no longer an open question.",
+      "explanation": "Main idea: festlegen means to set a deadline, price, plan, arrangement, or rule clearly in advance. After that, it is no longer an open question.",
       "examples": [
         {
           "de": "Wir legen den Termin fest.",
@@ -22789,12 +22708,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Termin, Preis, Regel festlegen = to set clearly ahead."
+            "text": "With festlegen, you can set a deadline, price, or rule clearly in advance."
           }
         ]
       },
       "important": {
-        "text": "festlegen = determine beforehand; to establish = to establish an already existing fact."
+        "text": "festlegen = to set in advance; feststellen = to establish or ascertain an already existing fact."
       },
       "sectionAccents": {
         "examples": [
@@ -22893,7 +22812,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "set forward"
+                  "set",
+                  "in advance"
                 ]
               }
             }
@@ -22925,7 +22845,7 @@ const B1_WORDS = [
       "id": "b1-feststellen",
       "layout": "standardStudy",
       "translation": "To establish",
-      "explanation": "Main idea: to ascertain means to establish or ascertain a fact by examination, observation, or analysis. This is not the same as setting a deadline or price in advance.",
+      "explanation": "Main idea: feststellen means to establish or ascertain a fact. by examination, observation, or analysis. This is not the same as setting a deadline or price in advance.",
       "examples": [
         {
           "de": "Der Arzt stellt eine Krankheit fest.",
@@ -22937,7 +22857,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ich stelle fest, dass du recht hast.",
-          "lv": "I found you are right."
+          "lv": "I found that you are right."
         }
       ],
       "comparison": [
@@ -22965,7 +22885,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "verzetten = to establish an already existing fact; festlegen = to set a decision, term or price."
+        "text": "feststellen = to establish or ascertain an existing fact; festlegen = to set a decision, deadline, or price."
       },
       "sectionAccents": {
         "examples": [
@@ -23066,11 +22986,11 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "faktu",
+                  "fact",
                   "error",
                   "disease",
                   "deadline",
-                  "cenu"
+                  "price"
                 ]
               }
             }
@@ -23333,7 +23253,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Folge",
-          "meaning": "Consequence / series",
+          "meaning": "Consequence / episode",
           "example": "Das hat Folgen. = It has consequences."
         },
         {
@@ -23355,7 +23275,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Folge changes the meaning according to the context: in a cause-and-effect text it is the effect, in the serial it is the series."
+        "text": "Folge changes the meaning according to the context: in a cause-and-effect text it is the effect, In a TV series, Folge means an episode."
       },
       "sectionAccents": {
         "examples": [
@@ -23454,7 +23374,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "sekas",
                   "series"
                 ]
               }
@@ -23463,7 +23382,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "series"
+            "episode"
           ]
         }
       }
@@ -24250,7 +24169,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Futter is given to the animals; the Futter jacket has a lining."
+            "text": "Animals are given Futter as feed; in a jacket, Futter means lining."
           }
         ]
       },
@@ -24307,7 +24226,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
             "Main"
           ]
         },
@@ -24354,7 +24272,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "odere"
+                  "lining"
                 ]
               }
             }
@@ -24362,7 +24280,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "Futter",
             "Futter"
           ]
         }
@@ -25052,17 +24969,16 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "For money and wages — das Gehalt (die Gehälter). For the content of a letter or speech — der Gehalte (die Gehalte)."
+            "text": "For money and wages — das Gehalt (die Gehälter). For the content or substance of a letter, speech, or text, use der Gehalt (plural: die Gehalte)."
           }
         ]
       },
       "important": {
-        "text": "das Gehalt = salary (die Gehälter). der Gehalte = content (die Gehalte). The article is not a trifle—it reverses both meanings."
+        "text": "das Gehalt = salary (die Gehälter). der Gehalt = content or substance (plural: die Gehalte). The article is not a trifle—it reverses both meanings."
       },
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Main",
             "Main"
           ]
         },
@@ -25152,12 +25068,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "On the nature of a letter, speech or text - der Gehalt. For wages - das Gehalt."
+            "text": "For the content or substance of a letter, speech, or text — der Gehalt. For salary or wages — das Gehalt."
           }
         ]
       },
       "important": {
-        "text": "der Gehalt = saturs (die Gehalte). das Gehalt = alga (die Gehälter). Nepareizi: die Gehälter par saturu — pareizi: die Gehalte."
+        "text": "der Gehalt = saturs (die Gehalte). das Gehalt = alga (die Gehälter). For the meaning “content”, the plural is die Gehalte, not die Gehälter."
       },
       "sectionAccents": {
         "explanation": {
@@ -25339,7 +25255,7 @@ const B1_WORDS = [
       "id": "b1-gelten",
       "layout": "standardStudy",
       "translation": "To be valid",
-      "explanation": "Main Idea: Gelten means to be valid or valid at a particular time, place, or situation. The construction gelten als means to be regarded as something.",
+      "explanation": "Main Idea: gelten means to be in force or to be valid at a particular time, place, or in a particular situation. The construction gelten als means to be regarded as something.",
       "examples": [
         {
           "de": "Die Regel gilt ab Montag.",
@@ -25374,7 +25290,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Regel, Gesetz, Ticket gilt; persona gilt als Expertin."
+            "text": "A rule, law, or ticket can be valid; a person can gelten als an expert = be regarded as an expert."
           }
         ]
       },
@@ -25431,8 +25347,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "to be valid",
-            "to be valid"
+            "Main"
           ]
         },
         "comparison": [
@@ -25478,8 +25393,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "persona",
-                  "expertin"
+                  "person",
+                  "expert"
                 ]
               }
             }

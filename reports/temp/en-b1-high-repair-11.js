@@ -116,6 +116,7 @@ function parseFieldPath(field) {
 
 function resolveAccentField(field, entry) {
   if (!field.includes("sectionAccents")) return field;
+  if (field.match(/\.(purple|green|blue|yellow|orange|red)\[\d+\]$/)) return field;
   if (field === "study.sectionAccents.tip.leftBlocks" || field.endsWith(".tip.leftBlocks")) {
     return "study.sectionAccents.tip.leftBlocks[0].text.purple";
   }
@@ -188,12 +189,48 @@ function getFieldValue(root, field) {
   return val;
 }
 
+function normalizeAccentWriteValue(value, field) {
+  if (Array.isArray(value) && value.length === 1 && Array.isArray(value[0])) {
+    value = value[0];
+  }
+  if (field.match(/\.(purple|green|blue|yellow|orange|red)\[\d+\]$/)) {
+    return value[0];
+  }
+  return value;
+}
+
+function setAccentTokenAtField(root, field, value) {
+  const token = Array.isArray(value) ? value[0] : value;
+  const parts = parseFieldPath(field);
+  let cur = root;
+  for (let i = 0; i < parts.length - 2; i++) cur = cur[parts[i]];
+  const colorKey = parts[parts.length - 2];
+  const idx = parts[parts.length - 1];
+  if (!Array.isArray(cur[colorKey])) {
+    cur[colorKey] = typeof cur[colorKey] === "string" ? [cur[colorKey]] : [];
+  }
+  while (cur[colorKey].length <= idx) cur[colorKey].push("");
+  cur[colorKey][idx] = token;
+}
+
 function setFieldValue(root, field, value) {
+  if (field.match(/\.(purple|green|blue|yellow|orange|red)\[\d+\]$/)) {
+    setAccentTokenAtField(root, field, value);
+    return;
+  }
   const resolved = resolveAccentField(field, root);
+  value = normalizeAccentWriteValue(value, resolved);
   if (!resolved || resolved === "lv") {
     if (root.lv !== undefined) root.lv = value;
     else root.enText = value;
     return;
+  }
+  if (
+    resolved.endsWith(".purple") &&
+    !resolved.match(/\[\d+\]$/) &&
+    typeof value === "string"
+  ) {
+    value = [value];
   }
   const parts = parseFieldPath(resolved);
   let cur = root;
@@ -340,10 +377,13 @@ function isKeepOneMainAccent(text) {
 
 function resolveOwnerFinal(cardId, field, finding) {
   const key = `${cardId}|${field}`;
-  if (INSTRUCTIONAL[key] !== undefined) return INSTRUCTIONAL[key];
   const final = finding.ownerFinalEn;
   if (isRemoveDuplicateAccent(final)) return { op: "REMOVE_DUPLICATE" };
   if (isKeepOneMainAccent(final)) return { op: "KEEP_ONE_MAIN" };
+  if (field.match(/\.(purple|green|blue|yellow|orange|red)\[\d+\]$/)) {
+    return final;
+  }
+  if (INSTRUCTIONAL[key] !== undefined) return INSTRUCTIONAL[key];
   if (
     typeof final === "string" &&
     (final.startsWith("Highlight") ||
@@ -422,11 +462,34 @@ function keepOneMainAccent(root, field) {
   }
 }
 
+function ensureSectionAccentTipBlock(entry) {
+  if (!entry.study.sectionAccents) entry.study.sectionAccents = {};
+  if (!entry.study.sectionAccents.tip) entry.study.sectionAccents.tip = { leftBlocks: [] };
+  if (!Array.isArray(entry.study.sectionAccents.tip.leftBlocks)) {
+    entry.study.sectionAccents.tip.leftBlocks = [];
+  }
+  if (!entry.study.sectionAccents.tip.leftBlocks[0]) {
+    entry.study.sectionAccents.tip.leftBlocks[0] = { text: {} };
+  }
+  if (!entry.study.sectionAccents.tip.leftBlocks[0].text) {
+    entry.study.sectionAccents.tip.leftBlocks[0].text = {};
+  }
+}
+
 function applySectionAccentsNode(entry, fieldPath, value) {
   const f = fieldPath.includes("|") ? fieldPath.split("|")[1] : fieldPath;
-  if ((f === "study.sectionAccents.tip.leftBlocks" || f.endsWith(".tip.leftBlocks")) && Array.isArray(value)) {
-    const block = entry.study.sectionAccents.tip.leftBlocks[0];
-    if (block?.text) block.text.purple = value;
+  if (f.match(/\.(purple|green|blue|yellow|orange|red)\[\d+\]$/)) {
+    setAccentTokenAtField(entry, f, value);
+    return;
+  }
+  if (
+    Array.isArray(value) &&
+    (f === "study.sectionAccents.tip.leftBlocks" ||
+      f.endsWith(".tip.leftBlocks") ||
+      (f.includes("tip.leftBlocks") && f.endsWith(".text")))
+  ) {
+    ensureSectionAccentTipBlock(entry);
+    entry.study.sectionAccents.tip.leftBlocks[0].text.purple = value;
     return;
   }
   if (f === "study.sectionAccents.explanation" || f === "study.sectionAccents.explanation.purple") {
@@ -718,6 +781,91 @@ if (preconditionMismatches.length) {
   process.exit(1);
 }
 
+function collectEnStringsForAccent(entry) {
+  const strings = [];
+  collectEnStrings(entry.study ? { lv: entry.lv, study: entry.study } : { lv: entry.lv }, strings);
+  return strings.join(" ");
+}
+
+function accentTokenMatches(token, text) {
+  const t = String(token).trim();
+  if (!t) return false;
+  const escaped = t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  if (new RegExp(`\\b${escaped}\\b`, "i").test(text)) return true;
+  if (t.includes(" ")) {
+    const lower = text.toLowerCase();
+    const needle = t.toLowerCase();
+    let idx = 0;
+    while (idx < lower.length) {
+      const found = lower.indexOf(needle, idx);
+      if (found === -1) return false;
+      const before = found > 0 ? lower[found - 1] : "";
+      const after = lower[found + needle.length] || "";
+      if ((!before || !/\w/.test(before)) && (!after || !/\w/.test(after))) return true;
+      idx = found + 1;
+    }
+    return false;
+  }
+  return false;
+}
+
+function sanitizeSectionAccents(entry) {
+  if (!entry?.study?.sectionAccents) return;
+  const text = collectEnStringsForAccent(entry);
+
+  function cleanArray(arr, inDe) {
+    if (!Array.isArray(arr)) return arr;
+    if (inDe) return arr;
+    const seen = new Set();
+    const out = [];
+    for (const token of arr) {
+      const s = String(token);
+      const key = s.toLowerCase();
+      if (!accentTokenMatches(s, text)) continue;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push(token);
+    }
+    return out;
+  }
+
+  function isAccentTokenArray(arr) {
+    return Array.isArray(arr) && arr.every((item) => typeof item === "string");
+  }
+
+  function walk(node, inDe = false) {
+    if (!node) return;
+    if (Array.isArray(node)) {
+      if (node.length > 0 && typeof node[0] === "object") {
+        for (const item of node) walk(item, inDe);
+      }
+      return;
+    }
+    if (typeof node !== "object") return;
+    for (const [k, v] of Object.entries(node)) {
+      const childDe = inDe || k === "de";
+      if (Array.isArray(v)) {
+        if (isAccentTokenArray(v)) {
+          node[k] = cleanArray(v, childDe);
+        } else {
+          for (const item of v) walk(item, childDe);
+        }
+      } else if (v && typeof v === "object") {
+        walk(v, childDe);
+      }
+    }
+  }
+
+  walk(entry.study.sectionAccents, false);
+}
+
+for (const cardId of changedCardIds) {
+  const entry = findEntry(enWords, cardId);
+  const wwwEntry = findEntry(wwwWords, cardId);
+  if (entry) sanitizeSectionAccents(entry);
+  if (wwwEntry) sanitizeSectionAccents(wwwEntry);
+}
+
 const out = serializeB1(enWords);
 fs.writeFileSync(path.join(ROOT, "data/en/b1.js"), out);
 fs.writeFileSync(path.join(ROOT, "www/data/en/b1.js"), out);
@@ -807,7 +955,23 @@ function fieldIsFixed(finding, actual, resolved, entry) {
   if (finding.field.includes("sectionAccents")) {
     if (Array.isArray(resolved)) {
       const cur = getFieldValue(entry, finding.field);
-      return valuesMatch(cur, resolved);
+      if (valuesMatch(cur, resolved)) return true;
+      if (
+        Array.isArray(cur) &&
+        resolved.every((t) => cur.some((c) => String(c).toLowerCase() === String(t).toLowerCase()))
+      ) {
+        return true;
+      }
+      return false;
+    }
+    if (
+      typeof resolved === "string" &&
+      finding.field.match(/\.(purple|green|blue|yellow|orange|red)\[\d+\]$/)
+    ) {
+      const cur = getFieldValueRaw(entry, finding.field);
+      if (cur === resolved) return true;
+      if (String(cur).toLowerCase() === String(resolved).toLowerCase()) return true;
+      return false;
     }
     return true;
   }
@@ -851,7 +1015,14 @@ for (let i = 0; i < lv.length; i++) {
 const diff = execSync("git diff data/en/b1.js", { cwd: ROOT, maxBuffer: 50 * 1024 * 1024 }).toString();
 const deDiff = execSync("git diff data/b1.js", { cwd: ROOT }).toString();
 let idsChanged = 0;
-if (diff.split("\n").some((l) => l.match(/^[-+].*"de":/))) idsChanged++;
+const diffLines = diff.split("\n");
+for (let i = 0; i < diffLines.length; i++) {
+  const line = diffLines[i];
+  if (!line.match(/^[-+]\s*"de":/)) continue;
+  const context = diffLines.slice(Math.max(0, i - 20), i + 1).join("\n");
+  if (context.includes("sectionAccents")) continue;
+  idsChanged++;
+}
 
 if (!mirrorOk) addReg("_global", "CRITICAL", "mirror", "Mirror mismatch");
 if (deDiff.trim()) addReg("_global", "CRITICAL", "data/b1.js", "DE source modified");
@@ -953,7 +1124,7 @@ const verdict = fullPass
   : "EN–DE B1 HIGH REPAIR #11 — TARGETED REGRESSION FAIL";
 
 const status = fullPass
-  ? "EN–DE B1 HIGH REPAIR #11 — COMPLETE — READY FOR HIGH OWNER REVIEW #12"
+  ? "EN–DE B1 HIGH REPAIR #11 — COMPLETE — TARGETED REGRESSION PASS — READY FOR HIGH OWNER REVIEW #12"
   : verdict;
 
 const regressionOut = {

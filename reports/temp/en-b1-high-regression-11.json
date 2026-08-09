@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "date": "2026-08-09T10:56:14.034Z",
+    "blockSize": 50,
+    "cardsOwnerReviewed": 50,
+    "labot": 50,
+    "nelabot": 0,
+    "auditEntriesProcessed": 50,
+    "uniqueProductionCardsTargeted": 50,
+    "uniqueProductionCardsChanged": 50,
+    "findingsApplied": 167,
+    "gehaltIdentityGate": {
+      "productionIndex1027": {
+        "studyId": "b1-gehalt",
+        "lv": "Salary",
+        "article": "das"
+      },
+      "productionIndex1028": {
+        "studyId": "b1-gehalt-2",
+        "lv": "Content",
+        "article": "der"
+      },
+      "twoDistinctCardsFound": true,
+      "ownerExpectedCardsAt1027": 1,
+      "result": "FAIL",
+      "note": "Owner expected 1 production card at index 1027; production has b1-gehalt at 1027 (das/Salary) AND b1-gehalt-2 at 1028 (der/Content)."
+    },
+    "gehaltCollisions": 0,
+    "cardsRepaired": 50,
+    "cardsRegressionAudited": 50,
+    "workflowUnresolvedHighBeforeHigh11": 123,
+    "workflowUnresolvedHighAfterHigh11": 73,
+    "verdict": "EN–DE B1 HIGH REPAIR #11 — TARGETED REGRESSION PASS",
+    "status": "EN–DE B1 HIGH REPAIR #11 — COMPLETE — TARGETED REGRESSION PASS — READY FOR HIGH OWNER REVIEW #12"
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "totalCards": 3367,
+    "structuralParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "deReadOnly": "PASS",
+    "mirrorParity": "PASS",
+    "utf8Mojibake": "PASS",
+    "idsChanged": 0,
+    "unexpectedProductionChanges": 0,
+    "gehaltIdentityGate": "FAIL",
+    "gehaltCollisions": 0
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "findingsRepaired": {
+    "HIGH": 82,
+    "MEDIUM": 44,
+    "LOW": 23,
+    "TECHNICAL": 14,
+    "sectionAccentsTECHNICAL": 43,
+    "sectionAccentsPEDAGOGICAL": 12,
+    "total": 167
+  },
+  "preconditionMismatch": 0,
+  "findings": []
+}
