@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "date": "2026-08-09T08:10:38.317Z",
+    "cardsAudited": 25,
+    "cardsRepaired": 25,
+    "verdict": "EN–DE B1 HIGH REPAIR #1 — TARGETED REGRESSION PASS"
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "totalCards": 3367,
+    "structuralParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "deReadOnly": "PASS",
+    "dataB1Unchanged": "PASS",
+    "mirrorParity": "PASS",
+    "unexpectedProductionChanges": 0
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "findings": [],
+  "cardCoverage": [
+    {
+      "cardId": "b1-abhängen",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-abschnitt",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-antrag",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-berichten",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-blase",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-bloß",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-entlassen",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-fördern",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-handeln",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-hort",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-jagen",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-kader",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-kern",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-kommando",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-kurs",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-kastanie",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-rasen",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-schale",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-schlag",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-senken",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-sich-sorgen",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-stellung",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-tank",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-teilnehmen",
+      "findings": 0
+    },
+    {
+      "cardId": "b1-verlegen",
+      "findings": 0
+    }
+  ]
+}
