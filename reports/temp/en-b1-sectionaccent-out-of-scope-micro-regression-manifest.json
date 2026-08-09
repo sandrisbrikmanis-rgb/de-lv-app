@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-09T13:24:00.740Z",
+  "scope": "24 OWNER-approved sectionAccent out-of-scope repairs",
+  "repairCommit": "3f28dfc9",
+  "ownerRepairsRepresented": 24,
+  "physicalRepairedFieldsRepresented": 24,
+  "uniqueAffectedCards": [
+    "b1-griff",
+    "b1-herausgeben",
+    "b1-kippen",
+    "b1-lager",
+    "b1-kante",
+    "b1-leistung",
+    "b1-nachdem",
+    "b1-rüsten",
+    "b1-saat",
+    "b1-schicht",
+    "b1-schmelzen",
+    "b1-senden",
+    "b1-sitz",
+    "b1-spitze",
+    "b1-stillen",
+    "b1-streichen",
+    "b1-stürzen",
+    "b1-szene",
+    "b1-tau",
+    "b1-wechsel",
+    "b1-steuer"
+  ],
+  "uniqueAffectedCardsAudited": 21,
+  "coveragePercent": 100,
+  "repairs": [
+    {
+      "triageId": 4,
+      "cardId": "b1-griff",
+      "productionId": "b1-griff",
+      "repairField": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "ownerFinalEn": "Handle"
+    },
+    {
+      "triageId": 5,
+      "cardId": "b1-herausgeben",
+      "productionId": "b1-herausgeben",
+      "repairField": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "ownerFinalEn": "Publish"
+    },
+    {
+      "triageId": 6,
+      "cardId": "b1-kippen",
+      "productionId": "b1-kippen",
+      "repairField": "study.sectionAccents.examples[1].lv.purple[0]",
+      "ownerFinalEn": "Do"
+    },
+    {
+      "triageId": 7,
+      "cardId": "b1-lager",
+      "productionId": "b1-lager",
+      "repairField": "study.sectionAccents.examples[0].lv.purple[0]",
+      "ownerFinalEn": "warehouse"
+    },
+    {
+      "triageId": 8,
+      "cardId": "b1-kante",
+      "productionId": "b1-kante",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "edge"
+    },
+    {
+      "triageId": 9,
+      "cardId": "b1-leistung",
+      "productionId": "b1-leistung",
+      "repairField": "study.sectionAccents.comparison[0].meaning.purple[2]",
+      "ownerFinalEn": "Performance"
+    },
+    {
+      "triageId": 10,
+      "cardId": "b1-nachdem",
+      "productionId": "b1-nachdem",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "after"
+    },
+    {
+      "triageId": 11,
+      "cardId": "b1-nachdem",
+      "productionId": "b1-nachdem",
+      "repairField": "study.sectionAccents.important.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 12,
+      "cardId": "b1-rüsten",
+      "productionId": "b1-rüsten",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 13,
+      "cardId": "b1-saat",
+      "productionId": "b1-saat",
+      "repairField": "study.sectionAccents.examples[0].lv.purple[0]",
+      "ownerFinalEn": "crop"
+    },
+    {
+      "triageId": 14,
+      "cardId": "b1-saat",
+      "productionId": "b1-saat",
+      "repairField": "study.sectionAccents.examples[2].lv.purple[0]",
+      "ownerFinalEn": "crop"
+    },
+    {
+      "triageId": 15,
+      "cardId": "b1-schicht",
+      "productionId": "b1-schicht",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "shift"
+    },
+    {
+      "triageId": 16,
+      "cardId": "b1-schmelzen",
+      "productionId": "b1-schmelzen",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 17,
+      "cardId": "b1-senden",
+      "productionId": "b1-senden",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 18,
+      "cardId": "b1-sitz",
+      "productionId": "b1-sitz",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 19,
+      "cardId": "b1-spitze",
+      "productionId": "b1-spitze",
+      "repairField": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "ownerFinalEn": "Peak"
+    },
+    {
+      "triageId": 20,
+      "cardId": "b1-spitze",
+      "productionId": "b1-spitze",
+      "repairField": "study.sectionAccents.comparison[0].meaning.purple[2]",
+      "ownerFinalEn": "Peak"
+    },
+    {
+      "triageId": 21,
+      "cardId": "b1-stillen",
+      "productionId": "b1-stillen",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 22,
+      "cardId": "b1-streichen",
+      "productionId": "b1-streichen",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 23,
+      "cardId": "b1-stürzen",
+      "productionId": "b1-stürzen",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 24,
+      "cardId": "b1-szene",
+      "productionId": "b1-szene",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 25,
+      "cardId": "b1-tau",
+      "productionId": "b1-tau",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 26,
+      "cardId": "b1-wechsel",
+      "productionId": "b1-wechsel",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    },
+    {
+      "triageId": 27,
+      "cardId": "b1-steuer",
+      "productionId": "b1-steuer",
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "ownerFinalEn": "__REMOVE_ACCENT__"
+    }
+  ]
+}
