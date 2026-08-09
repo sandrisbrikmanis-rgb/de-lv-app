@@ -64279,34 +64279,21 @@ const B1_WORDS = [
             }
           ]
         },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "der Beruf"
-              ],
-              "purple": [
-                "profession",
-                "Der"
-              ],
-              "red": [
-                "Der"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Beruf"
-              ],
-              "green": [
-                "Arbeit"
-              ],
-              "purple": [
-                "profession",
-                "der"
-              ]
-            }
+        "important": {
+          "blue": "Beruf",
+          "purple": [
+            "profession",
+            "field of work"
+          ],
+          "example": {
+            "blue": "Beruf",
+            "green": "Arbeit",
+            "purple": [
+              "profession",
+              "work"
+            ]
           }
-        ]
+        }
       },
       "accents": {
         "blue": [
@@ -65568,32 +65555,21 @@ const B1_WORDS = [
             }
           ]
         },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "sich befinden"
-              ],
-              "purple": [
-                "Sich"
-              ],
-              "red": [
-                "Sich"
-              ]
-            },
-            "example": {
-              "blue": [
-                "befindet sich"
-              ],
-              "red": [
-                "fühle mich"
-              ],
-              "purple": [
-                "feel"
-              ]
-            }
+        "important": {
+          "blue": "sich befinden",
+          "purple": [
+            "Location"
+          ],
+          "red": "feelings",
+          "example": {
+            "blue": "befindet sich",
+            "red": "fühle mich",
+            "purple": [
+              "feel",
+              "here"
+            ]
           }
-        ]
+        }
       },
       "accents": {
         "blue": [
