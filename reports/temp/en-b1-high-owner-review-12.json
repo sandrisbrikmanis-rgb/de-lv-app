@@ -4468,7 +4468,7 @@
     "cumulativePending": 0,
     "completedAt": "2026-08-09T11:37:44.231Z"
   },
-  "highRepair12Status": "READY / NOT STARTED",
+  "highRepair12Status": "COMPLETE",
   "ownerReviewComplete": {
     "cardsReviewed": 50,
     "labot": 50,
@@ -4479,5 +4479,6 @@
     "deReadOnly": "PASS",
     "highRepair12": "READY / NOT STARTED",
     "completedAt": "2026-08-09T11:37:44.231Z"
-  }
+  },
+  "targetedRegression12Status": "NOT STARTED"
 }

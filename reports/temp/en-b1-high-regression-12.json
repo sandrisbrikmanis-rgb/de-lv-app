@@ -1,0 +1,484 @@
+{
+  "meta": {
+    "date": "2026-08-09T11:50:34.521Z",
+    "blockSize": 50,
+    "cardsOwnerReviewed": 50,
+    "labot": 50,
+    "nelabot": 0,
+    "auditEntriesProcessed": 50,
+    "uniqueProductionCardsTargeted": 49,
+    "uniqueProductionCardsChanged": 49,
+    "findingsApplied": 179,
+    "ownerFindingsChecked": 177,
+    "ownerFindingsAppliedCorrectly": 177,
+    "ownerAssociatedChecked": 10,
+    "ownerAssociatedCorrect": 10,
+    "kundeIdentityGate": {
+      "productionIdentity": "b1-kunde-2",
+      "productionIndex": 1660,
+      "auditEntries": 2,
+      "expectedUniqueProductionCards": 1,
+      "sharedProductionCardAtIndex1660": true,
+      "separateB1KundeDieCardExists": true,
+      "separateB1KundeDieCardOutOfScope": true,
+      "result": "PASS",
+      "note": "Audit entries b1-kunde-2 + b1-kunde alias map to production card b1-kunde-2 at index 1660; separate b1-kunde (die/message) is out of #12 scope."
+    },
+    "kundeCollisions": 0,
+    "cardsRepaired": 50,
+    "cardsRegressionAudited": 50,
+    "workflowUnresolvedHighBeforeHigh12": 73,
+    "workflowUnresolvedHighAfterHigh12": 23,
+    "verdict": "EN–DE B1 HIGH REPAIR #12 — TARGETED REGRESSION FAIL",
+    "status": "EN–DE B1 HIGH REPAIR #12 — COMPLETE",
+    "targetedRegression12": "NOT STARTED"
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "totalCards": 3367,
+    "structuralParity": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "deReadOnly": "PASS",
+    "mirrorParity": "PASS",
+    "utf8Mojibake": "PASS",
+    "idsChanged": 0,
+    "unexpectedProductionChanges": 0,
+    "kundeIdentityGate": "PASS",
+    "kundeCollisions": 0,
+    "ownerVerification": {
+      "findingsChecked": 177,
+      "findingsAppliedCorrectly": 177,
+      "mismatches": 0
+    }
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 51,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 51,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "findingsRepaired": {
+    "HIGH": 88,
+    "MEDIUM": 57,
+    "LOW": 5,
+    "TECHNICAL": 21,
+    "sectionAccentsTECHNICAL": 56,
+    "sectionAccentsPEDAGOGICAL": 8,
+    "total": 179
+  },
+  "preconditionMismatch": 0,
+  "findings": [
+    {
+      "cardId": "b1-geschlecht",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "issue": "Accent token not in EN text: \"sex\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kreuzen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].example.red",
+      "issue": "Accent token not in EN text: \"überqueren\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kreuzen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].meaning.purple",
+      "issue": "Accent token not in EN text: \"to mark\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kunde-2",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].example.purple",
+      "issue": "Accent token not in EN text: \"Klients\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kunde-2",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].example.purple",
+      "issue": "Accent token not in EN text: \"Kliente\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kunde",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].example.purple",
+      "issue": "Accent token not in EN text: \"Klients\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kunde",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].example.purple",
+      "issue": "Accent token not in EN text: \"Kliente\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kündigen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].example.purple",
+      "issue": "Accent token not in EN text: \"break\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kündigen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].example.purple",
+      "issue": "Accent token not in EN text: \"dismissed\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kündigen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].example.purple",
+      "issue": "Accent token not in EN text: \"I stopped\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kuppeln",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].meaning.purple",
+      "issue": "Accent token not in EN text: \"savienot\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-laden",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].example.purple",
+      "issue": "Accent token not in EN text: \"piekrauts\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-lager",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].meaning.purple",
+      "issue": "Accent token not in EN text: \"noliktava\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-lager",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].example.purple",
+      "issue": "Accent token not in EN text: \"Nometne\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kante",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].example.purple",
+      "issue": "Accent token not in EN text: \"Mala\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-kante",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].meaning.purple",
+      "issue": "Accent token not in EN text: \"mala\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-landen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].example.blue",
+      "issue": "Accent token not in EN text: \"landet\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-landen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].example.purple",
+      "issue": "Accent token not in EN text: \"sits down\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-landen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].meaning.purple",
+      "issue": "Accent token not in EN text: \"arrive\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-landen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].meaning.purple",
+      "issue": "Accent token not in EN text: \"dock with a ship\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-landen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].example.red",
+      "issue": "Accent token not in EN text: \"legt\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-landen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].example.purple",
+      "issue": "Accent token not in EN text: \"stops by\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-leisten",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].meaning.purple",
+      "issue": "Accent token not in EN text: \"veikt\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-leisten",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].example.purple",
+      "issue": "Accent token not in EN text: \"veic\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-leisten",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].meaning.purple",
+      "issue": "Accent token not in EN text: \"paveikt\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-locker",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].meaning.purple",
+      "issue": "Accent token not in EN text: \"stingrs\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-los",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.examples[2].lv.red",
+      "issue": "Accent token not in EN text: \"likteni\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-macht",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].meaning.purple",
+      "issue": "Accent token not in EN text: \"vara\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-macht",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].meaning.purple",
+      "issue": "Accent token not in EN text: \"ietekme\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-maß",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].meaning.purple",
+      "issue": "Accent token not in EN text: \"action / measure\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-maß",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important.blue",
+      "issue": "Accent token not in EN text: \"das Maß\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-neigung",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].meaning.purple",
+      "issue": "Accent token not in EN text: \"interese\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-nerven",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].example.red",
+      "issue": "Accent token not in EN text: \"ärgert\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-nüchtern",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].meaning.purple",
+      "issue": "Accent token not in EN text: \"neiereibis\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-objekt",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].meaning.purple",
+      "issue": "Accent token not in EN text: \"objekts\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-objekt",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.tip.red",
+      "issue": "Accent token not in EN text: \"subjekts\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-probe",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.examples[2].lv.red",
+      "issue": "Accent token not in EN text: \"an attempt\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-rang",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.examples[2].lv.red",
+      "issue": "Accent token not in EN text: \"on the balcony\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-rang",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important.red",
+      "issue": "Accent token not in EN text: \"In the theatre\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-rate",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].meaning.purple",
+      "issue": "Accent token not in EN text: \"iemaksa\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-rate",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].meaning.purple",
+      "issue": "Accent token not in EN text: \"padoms\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-rate",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].meaning.purple",
+      "issue": "Accent token not in EN text: \"nomaksa\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-räumen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.examples[2].lv.red",
+      "issue": "Accent token not in EN text: \"sort out\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-räumen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].meaning.purple",
+      "issue": "Accent token not in EN text: \"release\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-rausch",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.examples[2].lv.red",
+      "issue": "Accent token not in EN text: \"apreibumu\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-rausch",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].meaning.purple",
+      "issue": "Accent token not in EN text: \"reibums\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-rausch",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[1].meaning.purple",
+      "issue": "Accent token not in EN text: \"prieks\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-rausch",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.important.red",
+      "issue": "Accent token not in EN text: \"prieks\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-reißen",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[0].meaning.purple",
+      "issue": "Accent token not in EN text: \"bursting\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-richten",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.examples[2].lv.red",
+      "issue": "Accent token not in EN text: \"in court\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    },
+    {
+      "cardId": "b1-richten",
+      "severity": "MEDIUM",
+      "field": "sectionAccents.comparison[2].meaning.purple",
+      "issue": "Accent token not in EN text: \"spriest\"",
+      "kind": "sectionAccents",
+      "accentKind": "TECHNICAL"
+    }
+  ],
+  "ownerVerificationMismatches": []
+}

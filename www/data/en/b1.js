@@ -25941,7 +25941,7 @@ const B1_WORDS = [
       "id": "b1-geschlecht",
       "layout": "standardStudy",
       "translation": "Gender",
-      "explanation": "Main idea: das Geschlecht means gender in humans or animals. In the grammar of the language, it means gender, such as masculine, feminine or no gender.",
+      "explanation": "Main idea: das Geschlecht means gender in humans or animals. In the grammar of the language, it means gender, such as masculine, feminine, or neuter gender.",
       "examples": [
         {
           "de": "Bitte geben Sie Ihr Geschlecht an.",
@@ -25976,7 +25976,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "For person Geschlecht = sex; for the word in grammar Geschlecht = family."
+            "text": "For a word in grammar, Geschlecht = grammatical gender."
           }
         ]
       },
@@ -26006,7 +26006,6 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Grammatical",
                 "Grammatical"
               ]
             }
@@ -26029,7 +26028,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
             "Main"
           ]
         },
@@ -26076,8 +26074,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "dzimums",
-                  "dzimte"
+                  "sex",
+                  "gender"
                 ]
               }
             }
@@ -26362,7 +26360,7 @@ const B1_WORDS = [
       "id": "b1-gewinn",
       "layout": "standardStudy",
       "translation": "Profit",
-      "explanation": "Main idea: der Gewinn means profit - money left over after costs. In games, contests and lotteries, it means winning.",
+      "explanation": "Main idea: der Gewinn means profit - money left over after costs. In games, contests, and lotteries, it means a win or a prize.",
       "examples": [
         {
           "de": "Der Gewinn der Firma ist gestiegen.",
@@ -26374,13 +26372,13 @@ const B1_WORDS = [
         },
         {
           "de": "Der Gewinn im Lotto war hoch.",
-          "lv": "Winning the lottery was big."
+          "lv": "The lottery prize was large."
         }
       ],
       "comparison": [
         {
           "word": "der Gewinn",
-          "meaning": "Profit / won",
+          "meaning": "Profit / prize",
           "example": "Der Gewinn ist hoch. = The profit is great."
         },
         {
@@ -26390,14 +26388,14 @@ const B1_WORDS = [
         },
         {
           "word": "der Preis",
-          "meaning": "Price / prise",
+          "meaning": "Price / prize",
           "example": "Der Preis ist hoch. = The price is high."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "In the company Gewinn = profit; in the lottery Gewinn = won."
+            "text": "In a company, Gewinn = profit; in a lottery, Gewinn = prize."
           }
         ]
       },
@@ -26446,9 +26444,7 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "Winning"
-              ]
+              "purple": []
             }
           }
         ],
@@ -26501,7 +26497,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "profit",
-                  "laimests"
+                  "prize"
                 ]
               }
             }
@@ -26743,7 +26739,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "With sich the meaning is 'to get used to'; bez sich gewöhnen often means 'to get used to someone'."
+        "text": "With sich, the meaning is 'to get used to'; without sich, gewöhnen often means 'to get someone used to something'."
       },
       "sectionAccents": {
         "examples": [
@@ -26851,10 +26847,7 @@ const B1_WORDS = [
           ]
         },
         "important": {
-          "purple": [
-            "With",
-            "With"
-          ]
+          "purple": "Without"
         }
       }
     }
@@ -26933,7 +26926,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Das Geländer is more commonly used for margaram; das Gitter is not a general word for any railing."
+        "text": "Das Geländer is more commonly used for railings; das Gitter is not a general word for any railing."
       },
       "sectionAccents": {
         "examples": [
@@ -27031,9 +27024,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "window",
-                  "the door",
-                  "the cage"
+                  "door"
                 ]
               }
             }
@@ -27203,7 +27194,7 @@ const B1_WORDS = [
       "id": "b1-greifen",
       "layout": "standardStudy",
       "translation": "To grasp",
-      "explanation": "Main idea: greifen means to grasp or reach for something with the hand. In a figurative sense, zu Maaschen greifen means to take measures.",
+      "explanation": "Main idea: greifen means to grasp or reach for something with the hand. In a figurative sense, zu Maßnahmen greifen means to take measures.",
       "examples": [
         {
           "de": "Sie greift nach dem Glas.",
@@ -27226,7 +27217,7 @@ const B1_WORDS = [
         },
         {
           "word": "fassen",
-          "meaning": "Grasp / grasp",
+          "meaning": "Grasp / encompass",
           "example": "Fass meine Hand! = Grab my hand!"
         },
         {
@@ -27299,8 +27290,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -27413,7 +27402,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Henkel",
-          "meaning": "Thistle",
+          "meaning": "Handle",
           "example": "Die Tasse hat einen Henkel. = The cup has a thistle."
         },
         {
@@ -27430,7 +27419,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "For cups or buckets, often the Henkel fits better than the Griff."
+        "text": "For cups or buckets, Henkel is often more appropriate than Griff."
       },
       "sectionAccents": {
         "examples": [
@@ -27525,9 +27514,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "vieta",
-                  "action",
-                  "satver"
+                  "grab",
+                  "where"
                 ]
               }
             }
@@ -28418,7 +28406,7 @@ const B1_WORDS = [
       "id": "b1-hauen",
       "layout": "standardStudy",
       "translation": "Hit",
-      "explanation": "Main idea: hauen colloquially means to strike, cut or strike. It sounds more direct and coarser than the neutral schlagen.",
+      "explanation": "Main idea: hauen colloquially means to hit, chop or strike. It sounds more direct and coarser than the neutral schlagen.",
       "examples": [
         {
           "de": "Er haut mit der Faust auf den Tisch.",
@@ -28426,7 +28414,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Arbeiter haut Holz.",
-          "lv": "A worker to cut wood."
+          "lv": "A worker chops wood."
         },
         {
           "de": "Hau ab!",
@@ -28453,7 +28441,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "hauen is a colloquial blow; Hey bro! has a separate phrase \"Get lost!\""
+            "text": "hauen is a colloquial blow; Hau ab! is a separate phrase meaning “Get lost!”"
           }
         ]
       },
@@ -28511,8 +28499,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -28559,8 +28545,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "trieciens",
-                  "get lost"
+                  "blow"
                 ]
               }
             }
@@ -28993,7 +28978,7 @@ const B1_WORDS = [
       "id": "b1-herausgeben",
       "layout": "standardStudy",
       "translation": "Issue",
-      "explanation": "Main idea: herausgeben means to publish a book, newspaper, or piece of information to the public. In another situation, it can also mean to give or give something out.",
+      "explanation": "Main idea: herausgeben means to publish a book, newspaper, or piece of information to the public. In another situation, it can also mean to hand something over or give something out.",
       "examples": [
         {
           "de": "Der Verlag gibt ein neues Buch heraus.",
@@ -29011,7 +28996,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "herausgeben",
-          "meaning": "Issue / issue",
+          "meaning": "Publish / hand out",
           "example": "Der Verlag gibt ein Buch heraus. = The publishing house publishes a book."
         },
         {
@@ -29028,7 +29013,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Verlag gibt heraus = izdod; Behörde gibt heraus = izsniedz."
+            "text": "Verlag gibt heraus = publishes; Behörde gibt heraus = issues."
           }
         ]
       },
@@ -29090,8 +29075,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -29138,8 +29121,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izdod",
-                  "izsniedz"
+                  "issues",
+                  "publishes"
                 ]
               }
             }
@@ -29763,8 +29746,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "indicates",
-                  "iesaka"
+                  "advises"
                 ]
               }
             }
@@ -30260,7 +30242,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "to listen",
             "to listen"
           ]
         },
@@ -30307,7 +30288,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "slepeni"
+                  "furtively"
                 ]
               }
             }
@@ -30586,12 +30567,12 @@ const B1_WORDS = [
     "de": "Hupe",
     "de_article": "die",
     "de_plural": "die Hupen",
-    "lv": "Horn • Horn",
+    "lv": "Horn",
     "level": "B1",
     "study": {
       "id": "b1-hupe",
       "layout": "standardStudy",
-      "translation": "Horn • Horn",
+      "translation": "Horn",
       "explanation": "Main idea: die Hupe is a car horn or a ship's horn. It warns others in traffic. Plural: die Hupen.",
       "examples": [
         {
@@ -30632,7 +30613,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "die Hupe = bugle or bugle. Plural: die Hupen."
+        "text": "die Hupe = horn. Plural: die Hupen."
       },
       "sectionAccents": {
         "explanation": {
@@ -31398,7 +31379,7 @@ const B1_WORDS = [
       "id": "b1-irren",
       "layout": "standardStudy",
       "translation": "To be wrong",
-      "explanation": "Main idea: erren means to err or go astray. The reflexive form sich irren is most commonly used in everyday life • Without sich the word can also mean wander.",
+      "explanation": "Main idea: irren means to err or go astray. The reflexive form sich irren is most commonly used in everyday life • Without sich the word can also mean wander.",
       "examples": [
         {
           "de": "Da irrst du dich.",
@@ -31490,8 +31471,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -31546,7 +31525,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "The",
             "The"
           ]
         }
@@ -32737,7 +32715,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er kehrt den Blick zur Tür.",
-          "lv": "He glances at the door."
+          "lv": "He turns his gaze toward the door."
         }
       ],
       "comparison": [
@@ -32760,7 +32738,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Kehren is often used with broom and yard; zurückkehren is another word."
+            "text": "Kehren is often used with a broom, for example when sweeping a yard; zurückkehren is a different verb."
           }
         ]
       },
@@ -32812,9 +32790,7 @@ const B1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "glances"
-              ]
+              "purple": []
             }
           }
         ],
@@ -32866,9 +32842,7 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "purple": [
-                  "another word"
-                ]
+                "purple": []
               }
             }
           ]
@@ -33176,7 +33150,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "The article here is not a trifle; der and die completely change the meaning of a word."
+        "text": "The article here is not a minor detail; der and die completely change the word's meaning."
       },
       "sectionAccents": {
         "examples": [
@@ -33271,15 +33245,18 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "artikuls"
+                  "article"
                 ]
-              }
+              },
+              "purple": [
+                "article"
+              ]
             }
           ]
         },
         "important": {
           "purple": [
-            "change The meaning of a word"
+            "change the word's meaning"
           ]
         }
       }
@@ -33319,7 +33296,7 @@ const B1_WORDS = [
       "id": "b1-kippen",
       "layout": "standardStudy",
       "translation": "Overturn",
-      "explanation": "Main Idea: To kippen means to overturn, tilt, or tilt so that something loses its balance. In a figurative sense, a situation or a mood can kippen - rapidly change for the worse.",
+      "explanation": "Main idea: kippen means to overturn or tilt something so that it loses its balance. In a figurative sense, a situation or a mood can kippen - rapidly change for the worse.",
       "examples": [
         {
           "de": "Das Glas kippt um.",
@@ -33327,7 +33304,7 @@ const B1_WORDS = [
         },
         {
           "de": "Kipp den Stuhl nicht nach hinten.",
-          "lv": "Does not tilt the chair back."
+          "lv": "Do not tilt the chair back."
         },
         {
           "de": "Die Stimmung kann schnell kippen.",
@@ -33347,7 +33324,7 @@ const B1_WORDS = [
         },
         {
           "word": "umdrehen",
-          "meaning": "To cut",
+          "meaning": "To turn over",
           "example": "Dreh die Karte um. = Flip the card over."
         }
       ],
@@ -33359,7 +33336,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "kippen is not simply fallen; often the first is a tilt or a sudden change in mood."
+        "text": "kippen does not simply mean “to fall”; it often involves tilting or a sudden change in mood."
       },
       "sectionAccents": {
         "examples": [
@@ -33447,9 +33424,7 @@ const B1_WORDS = [
               ]
             },
             "meaning": {
-              "purple": [
-                "cut"
-              ]
+              "purple": []
             }
           }
         ],
@@ -33458,9 +33433,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "a glass",
-                  "a chair",
-                  "the situation"
+                  "a glass"
                 ]
               }
             }
@@ -33468,7 +33441,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "kippen",
             "kippen"
           ]
         }
@@ -33613,9 +33585,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -33662,7 +33631,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izdosies"
+                  "work"
                 ]
               }
             }
@@ -33848,12 +33817,12 @@ const B1_WORDS = [
   },
   {
     "de": "knapp",
-    "lv": "Needy",
+    "lv": "Barely enough",
     "level": "B1",
     "study": {
       "id": "b1-knapp",
       "layout": "standardStudy",
-      "translation": "Needy",
+      "translation": "Barely enough",
       "explanation": "Main idea: knapp means that there is little or barely enough of something. This often refers to time, money, space, or a small advantage.",
       "examples": [
         {
@@ -33889,7 +33858,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "knapp means: enough, but not nearly enough."
+            "text": "knapp means: enough, but only barely."
           }
         ]
       },
@@ -33943,8 +33912,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -33990,9 +33957,7 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "purple": [
-                  "not nearly enough"
-                ]
+                "purple": []
               }
             }
           ]
@@ -34915,7 +34880,7 @@ const B1_WORDS = [
       "id": "b1-kreuzen",
       "layout": "standardStudy",
       "translation": "To cross",
-      "explanation": "Main idea: kreuzen means to cross or cross. Roads, lines or routes can sich kreuzen - cross.",
+      "explanation": "Main idea: kreuzen means to cross; sich kreuzen means to intersect or cross each other, for example when roads, lines, or routes meet.",
       "examples": [
         {
           "de": "Wir kreuzen die Straße.",
@@ -34933,7 +34898,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "kreuzen",
-          "meaning": "Cross / cross",
+          "meaning": "To cross / intersect",
           "example": "Die Wege kreuzen sich. = The paths cross."
         },
         {
@@ -35000,7 +34965,7 @@ const B1_WORDS = [
             },
             "example": {
               "blue": "kreuzen",
-              "purple": "krustojas"
+              "purple": "intersect"
             }
           },
           {
@@ -35012,7 +34977,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "überqueren",
-              "purple": "we cross"
+              "purple": "cross"
             }
           },
           {
@@ -35024,7 +34989,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "Kreuzen",
-              "purple": "Mark it"
+              "purple": "cross"
             }
           }
         ],
@@ -35208,11 +35173,11 @@ const B1_WORDS = [
       "id": "b1-kunde-2",
       "layout": "standardStudy",
       "translation": "Customer",
-      "explanation": "Main idea: der Kunde means customer or buyer. In an older or literary language, die Kunde can mean a message or message.",
+      "explanation": "Main idea: der Kunde means customer or buyer. In older or literary German, die Kunde can mean a message or piece of news.",
       "examples": [
         {
           "de": "Der Kunde bezahlt an der Kasse.",
-          "lv": "The customer pays at the cashier."
+          "lv": "The customer pays at the checkout."
         },
         {
           "de": "Unsere Kunden sind zufrieden.",
@@ -35287,7 +35252,7 @@ const B1_WORDS = [
               "green": "der Kunde"
             },
             "meaning": {
-              "purple": "klients"
+              "purple": "customer"
             },
             "example": {
               "blue": "Kunde",
@@ -35299,7 +35264,7 @@ const B1_WORDS = [
               "green": "die Kundin"
             },
             "meaning": {
-              "purple": "kliente"
+              "purple": "customer"
             },
             "example": {
               "red": "Kundin",
@@ -35488,17 +35453,17 @@ const B1_WORDS = [
   },
   {
     "de": "kündigen",
-    "lv": "Terminate the job",
+    "lv": "To quit one’s job / to give notice",
     "level": "B1",
     "study": {
       "id": "b1-kündigen",
       "layout": "standardStudy",
-      "translation": "Terminate the job",
+      "translation": "To quit one’s job / to give notice",
       "explanation": "Main idea: kündigen means to officially terminate an employment relationship, contract or subscription.",
       "examples": [
         {
           "de": "Ich habe meinen Job gekündigt.",
-          "lv": "I commend the work."
+          "lv": "I quit my job."
         },
         {
           "de": "Der Chef kündigt dem Mitarbeiter.",
@@ -35506,7 +35471,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir kündigen den Vertrag zum Monatsende.",
-          "lv": "We break the contract at the end of the month."
+          "lv": "We terminate the contract at the end of the month."
         }
       ],
       "comparison": [
@@ -35541,9 +35506,7 @@ const B1_WORDS = [
               "yellow": "Job"
             },
             "lv": {
-              "purple": [
-                "commend"
-              ]
+              "purple": []
             }
           },
           {
@@ -35566,9 +35529,7 @@ const B1_WORDS = [
               "yellow": "Vertrag"
             },
             "lv": {
-              "purple": [
-                "we break"
-              ]
+              "purple": []
             }
           }
         ],
@@ -35578,7 +35539,7 @@ const B1_WORDS = [
               "green": "kündigen"
             },
             "meaning": {
-              "purple": "uzteikt"
+              "purple": "quit"
             },
             "example": {
               "blue": "kündige",
@@ -35590,7 +35551,7 @@ const B1_WORDS = [
               "green": "entlassen"
             },
             "meaning": {
-              "purple": "atlaist no darba"
+              "purple": "dismiss from work"
             },
             "example": {
               "red": "entlässt",
@@ -35719,7 +35680,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Technical or mechanical connection → kuppeln.",
-      "important": "kuppeln is not a general 'connect' for all cases; connect more often in everyday life.",
+      "important": "kuppeln is not a general word for “connect” in all situations; verbinden is more common in everyday life.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -35772,7 +35733,7 @@ const B1_WORDS = [
             },
             "example": {
               "blue": "kuppelt",
-              "purple": "piekabina"
+              "purple": "hitches"
             }
           },
           {
@@ -35784,7 +35745,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "verbindet",
-              "purple": "savieno"
+              "purple": "connects"
             }
           },
           {
@@ -35796,7 +35757,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "schließe",
-              "purple": "I connected"
+              "purple": "connected"
             }
           }
         ],
@@ -36260,7 +36221,7 @@ const B1_WORDS = [
           "example": "Der Lkw ist beladen. = The truck is loaded."
         }
       ],
-      "tip": "Items in the car or battery with electricity → laden.",
+      "tip": "Items in a car or a battery being charged → laden.",
       "important": "To invite someone is usually einladen, not just laden.",
       "sectionAccents": {
         "explanation": {
@@ -36340,7 +36301,7 @@ const B1_WORDS = [
               "green": "beladen"
             },
             "meaning": {
-              "purple": "piekraut"
+              "purple": "load"
             },
             "example": {
               "red": "beladen",
@@ -36349,10 +36310,7 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "purple": [
-            "electricity",
-            "in the car"
-          ]
+          "purple": []
         },
         "important": {
           "purple": [
@@ -36397,7 +36355,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Waren liegen im Lager.",
-          "lv": "The goods are in stock."
+          "lv": "The goods are in the warehouse."
         },
         {
           "de": "Die Kinder fahren ins Ferienlager.",
@@ -36430,8 +36388,6 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -36500,7 +36456,7 @@ const B1_WORDS = [
               "green": "das Camp"
             },
             "meaning": {
-              "purple": "nometne"
+              "purple": "camp"
             },
             "example": {
               "red": "Camp",
@@ -36515,7 +36471,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "The",
             "The"
           ]
         }
@@ -36719,7 +36674,6 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "Main",
             "Main"
           ]
         },
@@ -36764,11 +36718,11 @@ const B1_WORDS = [
               "green": "der Inhalt"
             },
             "meaning": {
-              "purple": "saturs"
+              "purple": "content"
             },
             "example": {
               "blue": "Inhalt",
-              "purple": "Saturs"
+              "purple": "Content"
             }
           },
           {
@@ -36788,11 +36742,11 @@ const B1_WORDS = [
               "green": "der Umfang"
             },
             "meaning": {
-              "purple": "apjoms"
+              "purple": "volume"
             },
             "example": {
               "red": "Umfang",
-              "purple": "Apjoms"
+              "purple": "Volume"
             }
           }
         ],
@@ -36819,7 +36773,7 @@ const B1_WORDS = [
       "id": "b1-kante",
       "layout": "standardStudy",
       "translation": "Edge",
-      "explanation": "Main idea: die Kante is the edge or facet of an object. It is not an ordinary territorial boundary, but a physical sharp or clear edge.",
+      "explanation": "Main idea: die Kante is the edge or ridge of an object. It is not an ordinary territorial boundary, but a physical sharp or clearly defined edge.",
       "examples": [
         {
           "de": "Pass auf die scharfe Kante auf.",
@@ -36831,7 +36785,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er stellt das Glas an die Kante.",
-          "lv": "He puts the glass to the side."
+          "lv": "He puts the glass near the edge."
         }
       ],
       "comparison": [
@@ -36852,7 +36806,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "A physical edge or facet of an object → die Kante.",
-      "important": "Die Grenze is used for territorial boundaries; for the edge of the object often die Kante.",
+      "important": "Die Grenze is used for territorial boundaries; the edge of an object is often called die Kante.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -36900,7 +36854,7 @@ const B1_WORDS = [
               "green": "die Kante"
             },
             "meaning": {
-              "purple": "mala"
+              "purple": "edge"
             },
             "example": {
               "blue": "Kante",
@@ -36939,7 +36893,6 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "Die",
             "Die"
           ]
         }
@@ -37231,12 +37184,12 @@ const B1_WORDS = [
   },
   {
     "de": "landen",
-    "lv": "Sit down",
+    "lv": "To land",
     "level": "B1",
     "study": {
       "id": "b1-landen",
       "layout": "standardStudy",
-      "translation": "Sit down",
+      "translation": "To land",
       "explanation": "Main idea: landen means to land or come to a place. For a ship or boat, it can also mean docking.",
       "examples": [
         {
@@ -37301,7 +37254,7 @@ const B1_WORDS = [
               "green": "landen"
             },
             "meaning": {
-              "purple": "sit down"
+              "purple": "land"
             },
             "example": {
               "blue": "landet",
@@ -37313,11 +37266,11 @@ const B1_WORDS = [
               "green": "ankommen"
             },
             "meaning": {
-              "purple": "ierasties"
+              "purple": "arrive"
             },
             "example": {
               "red": "kommt an",
-              "purple": "ierodas"
+              "purple": "arrives"
             }
           },
           {
@@ -37797,7 +37750,7 @@ const B1_WORDS = [
       "id": "b1-leisten",
       "layout": "standardStudy",
       "translation": "Perform",
-      "explanation": "Main Idea: To leisten means to do or render some work, service or contribution. With sich leisten means to afford.",
+      "explanation": "Main Idea: Leisten means to perform work, provide a service, or make a contribution. With sich leisten means to afford.",
       "examples": [
         {
           "de": "Sie leistet gute Arbeit.",
@@ -37830,7 +37783,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Work, help or contribution → leisten.",
-      "important": "sich leisten is a separate construction with the meaning 'to indulge'.",
+      "important": "sich leisten is a separate construction meaning 'to afford'.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -37968,12 +37921,12 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "For man, Leistung = performance; for a motor, Leistung = power."
+            "text": "For a person, Leistung means performance; for a motor, it means power."
           }
         ]
       },
       "important": {
-        "text": "Leistung is not just about the end result. it often evaluates performance or power itself."
+        "text": "Leistung is not just about the end result. It often evaluates performance or power itself."
       },
       "sectionAccents": {
         "examples": [
@@ -38022,9 +37975,6 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "Main",
-            "Main",
-            "Main",
             "Main"
           ]
         },
@@ -38037,7 +37987,9 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Performance"
+                "Performance",
+                "achievement",
+                "power"
               ]
             }
           },
@@ -38070,17 +38022,13 @@ const B1_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "purple": [
-                  "sniegums",
-                  "jauda"
-                ]
+                "purple": []
               }
             }
           ]
         },
         "important": {
           "purple": [
-            "Leistung",
             "Leistung"
           ]
         }
@@ -38281,7 +38229,7 @@ const B1_WORDS = [
       "id": "b1-locker",
       "layout": "standardStudy",
       "translation": "Loose",
-      "explanation": "Main idea: locker means loose or loose, when something is not tightly secured. It means relaxed about people, conversation or mood.",
+      "explanation": "Main idea: locker means loose when something is not tightly secured. When referring to people, conversation, or mood, it means relaxed.",
       "examples": [
         {
           "de": "Die Schraube ist locker.",
@@ -38313,7 +38261,7 @@ const B1_WORDS = [
           "example": "Der Deckel sitzt fest. = The lid stays tight."
         }
       ],
-      "tip": "Think of the opposite of fest: if it's not tight, it's a locker.",
+      "tip": "Think of the opposite of fest: if it's not tight, it's loose.",
       "important": "locker is not leicht. leicht means light and locker means loose or relaxed.",
       "sectionAccents": {
         "explanation": {
@@ -38374,7 +38322,7 @@ const B1_WORDS = [
               "green": "lose"
             },
             "meaning": {
-              "purple": "open"
+              "purple": "loose"
             },
             "example": {
               "red": "loser",
@@ -38453,7 +38401,7 @@ const B1_WORDS = [
       "id": "b1-los",
       "layout": "standardStudy",
       "translation": "Lot",
-      "explanation": "Main idea: das Los is a lottery that is drawn or bought. In a more serious, figurative language, it can also mean the fate of a person.",
+      "explanation": "Main idea: das Los is a lottery ticket or lot that is drawn or bought. In a more serious, figurative language, it can also mean the fate of a person.",
       "examples": [
         {
           "de": "Jeder Teilnehmer zieht ein Los.",
@@ -38461,7 +38409,7 @@ const B1_WORDS = [
         },
         {
           "de": "Mit diesem Los hat sie gewonnen.",
-          "lv": "With this lottery she won."
+          "lv": "She won with this ticket."
         },
         {
           "de": "Er nahm sein Los an.",
@@ -38476,7 +38424,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Gewinn",
-          "meaning": "Won",
+          "meaning": "Winnings / prize",
           "example": "Der Gewinn wird morgen ausgezahlt. = The winnings will be paid out tomorrow."
         },
         {
@@ -38531,7 +38479,7 @@ const B1_WORDS = [
               "green": "das Los"
             },
             "meaning": {
-              "purple": "loze"
+              "purple": "lot"
             },
             "example": {
               "blue": "Los",
@@ -38543,7 +38491,7 @@ const B1_WORDS = [
               "green": "der Gewinn"
             },
             "meaning": {
-              "purple": "laimests"
+              "purple": "winnings / prize"
             },
             "example": {
               "red": "Gewinn"
@@ -38554,7 +38502,7 @@ const B1_WORDS = [
               "green": "das Schicksal"
             },
             "meaning": {
-              "purple": "liktenis"
+              "purple": "fate"
             },
             "example": {
               "red": "Schicksal"
@@ -39117,8 +39065,8 @@ const B1_WORDS = [
           "example": "Sie hat Einfluss auf die Entscheidung. = She has influence over the decision."
         }
       ],
-      "tip": "Die Macht, not die Kraft, thinks in politics and influence.",
-      "important": "die Macht can be power over others; die Kraft is the force of body or energy.",
+      "tip": "In politics and when talking about influence, think of die Macht, not die Kraft.",
+      "important": "die Macht can be power over others; die Kraft is the physical force or energy of the body.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -39399,12 +39347,12 @@ const B1_WORDS = [
     "de": "Maß",
     "de_article": "das",
     "de_plural": "die Maße",
-    "lv": "Mayor",
+    "lv": "Measure",
     "level": "B1",
     "study": {
       "id": "b1-maß",
       "layout": "standardStudy",
-      "translation": "Mayor",
+      "translation": "Measure",
       "explanation": "Main idea: das Maß means measure, limit or extent. In the plural, die Maße usually means dimensions.",
       "examples": [
         {
@@ -39437,7 +39385,7 @@ const B1_WORDS = [
           "example": "Diese Maßnahme hilft. = This event helps."
         }
       ],
-      "tip": "In the singular, Maß is a measure; in the plural, Maße often has dimensions.",
+      "tip": "In the singular, Maß means a measure; in the plural, Maße often means dimensions.",
       "important": "Do not confuse das Maß with die Maßnahme. Maß is a measure, Maßnahme is a specific action or measure.",
       "sectionAccents": {
         "explanation": {
@@ -39484,7 +39432,7 @@ const B1_WORDS = [
               "green": "das Maß"
             },
             "meaning": {
-              "purple": "mayor"
+              "purple": "measure"
             },
             "example": {
               "blue": "Maß"
@@ -39506,7 +39454,7 @@ const B1_WORDS = [
               "green": "die Maßnahme"
             },
             "meaning": {
-              "purple": "event"
+              "purple": "action / measure"
             },
             "example": {
               "red": "Maßnahme"
@@ -40259,21 +40207,21 @@ const B1_WORDS = [
   },
   {
     "de": "nachdem",
-    "lv": "After when",
+    "lv": "After",
     "level": "B1",
     "study": {
       "id": "b1-nachdem",
       "layout": "standardStudy",
-      "translation": "After when",
-      "explanation": "Main idea: nachdem introduces a subordinate clause and means after when. In German, the verb in this subordinate clause comes at the end.",
+      "translation": "After",
+      "explanation": "Main idea: nachdem introduces a subordinate clause and means after. In German, the verb in this subordinate clause comes at the end.",
       "examples": [
         {
           "de": "Nachdem ich gegessen hatte, ging ich schlafen.",
-          "lv": "After i had eaten i went to sleep."
+          "lv": "After I had eaten, I went to sleep."
         },
         {
           "de": "Nachdem der Kurs beendet war, gingen wir nach Hause.",
-          "lv": "After the course was over we went home."
+          "lv": "After the course was over, we went home."
         },
         {
           "de": "Je nachdem, wie das Wetter ist, fahren wir morgen los.",
@@ -40368,7 +40316,7 @@ const B1_WORDS = [
               "green": "bevor"
             },
             "meaning": {
-              "purple": "pirms"
+              "purple": "Before"
             },
             "example": {
               "red": "Bevor"
@@ -40381,7 +40329,7 @@ const B1_WORDS = [
         },
         "important": {
           "purple": [
-            "gegessen hatte"
+            "had eaten"
           ]
         }
       }
@@ -40404,7 +40352,7 @@ const B1_WORDS = [
       "id": "b1-nachfrage",
       "layout": "standardStudy",
       "translation": "Request",
-      "explanation": "Main idea: die Nachfacht in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question.",
+      "explanation": "Main idea: die Nachfrage in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question.",
       "examples": [
         {
           "de": "Die Nachfrage nach Wohnungen ist groß.",
@@ -40436,8 +40384,8 @@ const B1_WORDS = [
           "example": "Das Angebot ist begrenzt. = The offer is limited."
         }
       ],
-      "tip": "In the market, Nachfacht is the opposite of Angebot.",
-      "important": "die Nachfacht is not an ordinary question. Die Frage is used for a simple question.",
+      "tip": "In the market, Nachfrage is the opposite of Angebot.",
+      "important": "die Nachfrage is not an ordinary question. Die Frage is used for a simple question.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -40823,13 +40771,13 @@ const B1_WORDS = [
   },
   {
     "de": "neigen",
-    "lv": "To strive",
+    "lv": "To be inclined; to lean",
     "level": "B1",
     "study": {
       "id": "b1-neigen",
       "layout": "standardStudy",
-      "translation": "To strive",
-      "explanation": "Main idea: neigen means to be inclined towards something or to lean in a certain direction. Physically, it can also mean bowing the head or an object.",
+      "translation": "To be inclined; to lean",
+      "explanation": "Main idea: neigen means to be inclined towards something or to lean in a certain direction. Physically, it can also mean tilting the head or an object.",
       "examples": [
         {
           "de": "Er neigt zu schnellen Entscheidungen.",
@@ -40861,8 +40809,8 @@ const B1_WORDS = [
           "example": "Er biegt den Draht. = He bends the wire."
         }
       ],
-      "tip": "neigen zu + kam?: nosliece uz kaut ko.",
-      "important": "neigen not sich nähern. neigen shows inclination or inclination, sich nähern shows approach.",
+      "tip": "neigen zu + what case?: an inclination towards something.",
+      "important": "neigen is not sich nähern. neigen shows an inclination or a slope, while sich nähern means to approach.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -40910,7 +40858,7 @@ const B1_WORDS = [
               "green": "neigen"
             },
             "meaning": {
-              "purple": "nosliecei"
+              "purple": "inclination"
             },
             "example": {
               "blue": "neigt",
@@ -40922,7 +40870,7 @@ const B1_WORDS = [
               "green": "sich nähern"
             },
             "meaning": {
-              "purple": "tuvoties"
+              "purple": "approach"
             },
             "example": {
               "red": "nähert sich",
@@ -40944,7 +40892,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "purple": [
-            "nosliece"
+            "inclination"
           ]
         },
         "important": {
@@ -40972,17 +40920,17 @@ const B1_WORDS = [
         },
         {
           "de": "Seine Neigung zu Risiken ist bekannt.",
-          "lv": "His risk appetite is known."
+          "lv": "Her tendency to take risks is well known."
         },
         {
           "de": "Die Neigung des Daches ist stark.",
-          "lv": "The slope of the roof is high."
+          "lv": "The roof has a steep slope."
         }
       ],
       "comparison": [
         {
           "word": "die Neigung",
-          "meaning": "Inclination, inclination • Inclination",
+          "meaning": "Tendency, inclination • Slope",
           "example": "Sie hat eine Neigung zur Musik. = She has a penchant for music."
         },
         {
@@ -40997,7 +40945,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "An inward direction or tendency: die Neigung.",
-      "important": "die Neigung is not simply Interesse. Neigung more often shows a constant inclination or slope.",
+      "important": "die Neigung is not simply interest. Neigung more often shows a persistent tendency or a slope.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -41022,9 +40970,7 @@ const B1_WORDS = [
               "yellow": "Risiken"
             },
             "lv": {
-              "purple": [
-                "His"
-              ]
+              "purple": []
             }
           },
           {
@@ -41043,7 +40989,7 @@ const B1_WORDS = [
               "green": "die Neigung"
             },
             "meaning": {
-              "purple": "tieksme"
+              "purple": "tendency"
             },
             "example": {
               "blue": "Neigung",
@@ -41107,7 +41053,7 @@ const B1_WORDS = [
       "id": "b1-nerven",
       "layout": "standardStudy",
       "translation": "To annoy",
-      "explanation": "Main idea: nerven is colloquial meaning to annoy or get on one's nerves. It is used for people, noise or situations that disturb.",
+      "explanation": "Main idea: nerven is a colloquial verb meaning to annoy or get on one's nerves. It is used for people, noise or situations that disturb.",
       "examples": [
         {
           "de": "Der Lärm nervt mich seit Stunden.",
@@ -41140,7 +41086,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "If something gets on your nerves, use nerven.",
-      "important": "nerven is talkative. In a more formal situation, stören is often safer.",
+      "important": "nerven is colloquial. In a more formal situation, stören is often safer.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -41210,7 +41156,7 @@ const B1_WORDS = [
               "green": "ärgern"
             },
             "meaning": {
-              "purple": "sadusmot"
+              "purple": "to anger"
             },
             "example": {
               "red": "ärgert"
@@ -41633,7 +41579,7 @@ const B1_WORDS = [
       "id": "b1-nüchtern",
       "layout": "standardStudy",
       "translation": "Not drunk",
-      "explanation": "Main idea: nüchtern means not intoxicated or in a clear mind. At the doctor's this often means on an empty stomach.",
+      "explanation": "Main idea: nüchtern means not intoxicated or clear-headed. At the doctor's this often means on an empty stomach.",
       "examples": [
         {
           "de": "Der Fahrer muss nüchtern sein.",
@@ -41645,7 +41591,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie beurteilt die Lage nüchtern.",
-          "lv": "He assesses the situation matter-of-factly."
+          "lv": "She assesses the situation matter-of-factly."
         }
       ],
       "comparison": [
@@ -41665,7 +41611,7 @@ const B1_WORDS = [
           "example": "Bleib sachlich. = Stay businesslike."
         }
       ],
-      "tip": "Alcohol, doctor or cool view: nüchtern.",
+      "tip": "Alcohol, a medical examination, or a clear-headed view: nüchtern.",
       "important": "To the doctor, nüchtern often means on an empty stomach, not just not drunk.",
       "sectionAccents": {
         "explanation": {
@@ -41744,7 +41690,6 @@ const B1_WORDS = [
         "tip": {
           "blue": "nüchtern",
           "yellow": [
-            "Alcohol",
             "Alcohol"
           ]
         },
@@ -41954,7 +41899,7 @@ const B1_WORDS = [
       "id": "b1-objekt",
       "layout": "standardStudy",
       "translation": "Object",
-      "explanation": "Main idea: das Objekt is the object, thing or building that is being talked about. In grammar, Objekt means complement.",
+      "explanation": "Main idea: das Objekt is the object, thing or building that is being talked about. In grammar, Objekt means object.",
       "examples": [
         {
           "de": "Das Objekt wird verkauft.",
@@ -41966,18 +41911,18 @@ const B1_WORDS = [
         },
         {
           "de": "Im Satz ist das ein Objekt.",
-          "lv": "In a sentence it is a complementizer."
+          "lv": "In a sentence it is an object."
         }
       ],
       "comparison": [
         {
           "word": "das Objekt",
-          "meaning": "Object • Complementizer in grammar",
+          "meaning": "Object • Object in grammar",
           "example": "Das Objekt wird verkauft. = The object is for sale."
         },
         {
           "word": "der Gegenstand",
-          "meaning": "Subject",
+          "meaning": "Object or item",
           "example": "Der Gegenstand liegt auf dem Tisch. = The object is on the table."
         },
         {
@@ -41987,7 +41932,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Object in grammar is not a subject, but a complement.",
-      "important": "In everyday life, an Object can also be a building or an observable target; in grammar it is a complementizer.",
+      "important": "In everyday life, an object can also be a building or a target being observed; in grammar it is an object.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -42022,7 +41967,7 @@ const B1_WORDS = [
               "yellow": "Satz"
             },
             "lv": {
-              "red": "adder"
+              "red": "object"
             }
           }
         ],
@@ -42067,7 +42012,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "Objekt",
-          "red": "adder"
+          "red": "object"
         }
       }
     }
@@ -42377,7 +42322,7 @@ const B1_WORDS = [
         },
         {
           "word": "sich einsetzen",
-          "meaning": "To join, to actively help",
+          "meaning": "To get involved, to actively help",
           "example": "Er setzt sich für Kinder ein. = He stands up for the children."
         }
       ],
@@ -42442,7 +42387,7 @@ const B1_WORDS = [
               "green": "spenden"
             },
             "meaning": {
-              "purple": "ziedot"
+              "purple": "donate"
             },
             "example": {
               "red": "spendet",
@@ -42454,7 +42399,7 @@ const B1_WORDS = [
               "green": "sich einsetzen"
             },
             "meaning": {
-              "purple": "to join"
+              "purple": "to get involved"
             },
             "example": {
               "red": "setzt sich",
@@ -42983,7 +42928,7 @@ const B1_WORDS = [
               "green": "die Periode"
             },
             "meaning": {
-              "purple": "periods"
+              "purple": "period"
             },
             "example": {
               "blue": "Periode"
@@ -42994,7 +42939,7 @@ const B1_WORDS = [
               "green": "der Zeitraum"
             },
             "meaning": {
-              "purple": "laika posms"
+              "purple": "period of time"
             },
             "example": {
               "red": "Zeitraum"
@@ -43145,13 +43090,13 @@ const B1_WORDS = [
   },
   {
     "de": "pflegen",
-    "lv": "Maintain",
+    "lv": "To take care of; to tend",
     "level": "B1",
     "study": {
       "id": "b1-pflegen",
       "layout": "standardStudy",
-      "translation": "Maintain",
-      "explanation": "Main idea: pflegen means to take care of a person, skin, plant or thing. The construction pflegen zu + irregularity means 'tend to do'.",
+      "translation": "To take care of; to tend",
+      "explanation": "Main idea: pflegen means to take care of a person, skin, plant or thing. The construction pflegen zu + infinitive means “tend to do”.",
       "examples": [
         {
           "de": "Sie pflegt ihre Mutter zu Hause.",
@@ -43183,8 +43128,8 @@ const B1_WORDS = [
           "example": "Ich putze die Küche. = I clean the kitchen."
         }
       ],
-      "tip": "Grooming is pflegen; caring more broadly is sich küszimmer um.",
-      "important": "pflegen zu + irregular is a special, slightly more formal construction: 'tend to do'.",
+      "tip": "Grooming or care is pflegen; caring more broadly is sich kümmern um.",
+      "important": "pflegen zu + infinitive is a special, slightly more formal construction: “tend to do”.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -43230,7 +43175,7 @@ const B1_WORDS = [
               "green": "pflegen"
             },
             "meaning": {
-              "purple": "kopt"
+              "purple": "take care of"
             },
             "example": {
               "blue": "pflegt",
@@ -43947,12 +43892,12 @@ const B1_WORDS = [
     "de": "Probe",
     "de_article": "die",
     "de_plural": "die Proben",
-    "lv": "Inspection",
+    "lv": "Test; sample; rehearsal",
     "level": "B1",
     "study": {
       "id": "b1-probe",
       "layout": "standardStudy",
-      "translation": "Inspection",
+      "translation": "Test; sample; rehearsal",
       "explanation": "Main idea: die Probe means test, sample or attempt. The meaning is determined by the situation.",
       "examples": [
         {
@@ -43985,7 +43930,7 @@ const B1_WORDS = [
           "example": "Das Muster ist kostenlos. = The sample is free."
         }
       ],
-      "tip": "Laboratory, test or concert - die Probe can be everywhere.",
+      "tip": "In a laboratory, a test, or a concert, die Probe can be used in different senses.",
       "important": "For a school exam, die Prüfung is usually used instead of die Probe.",
       "sectionAccents": {
         "explanation": {
@@ -44031,7 +43976,7 @@ const B1_WORDS = [
               "green": "die Probe"
             },
             "meaning": {
-              "purple": "inspection"
+              "purple": "test"
             },
             "example": {
               "blue": "Probe"
@@ -44053,7 +43998,7 @@ const B1_WORDS = [
               "green": "das Muster"
             },
             "meaning": {
-              "purple": "paraugs"
+              "purple": "sample"
             },
             "example": {
               "red": "Muster"
@@ -44384,7 +44329,7 @@ const B1_WORDS = [
       "id": "b1-rang",
       "layout": "standardStudy",
       "translation": "Rank",
-      "explanation": "Main Idea: der Rang means rank, rank, or place in a hierarchy. In a theatre, this may mean the balcony level.",
+      "explanation": "Main Idea: der Rang means rank, level, or place in a hierarchy. In a theatre, this may mean the balcony level.",
       "examples": [
         {
           "de": "Er hat einen hohen Rang in der Armee.",
@@ -44402,7 +44347,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Rang",
-          "meaning": "Rank, rank, place in the hierarchy",
+          "meaning": "Rank, level, place in the hierarchy",
           "example": "Er hat einen hohen Rang. = He has a high rank."
         },
         {
@@ -44463,7 +44408,7 @@ const B1_WORDS = [
               "green": "der Rang"
             },
             "meaning": {
-              "purple": "rangs"
+              "purple": "rank"
             },
             "example": {
               "blue": "Rang"
@@ -44474,7 +44419,7 @@ const B1_WORDS = [
               "green": "die Reihe"
             },
             "meaning": {
-              "purple": "rinda"
+              "purple": "row"
             },
             "example": {
               "red": "Reihe"
@@ -44485,7 +44430,7 @@ const B1_WORDS = [
               "green": "der Balkon"
             },
             "meaning": {
-              "purple": "balkons"
+              "purple": "balcony"
             },
             "example": {
               "red": "Balkon"
@@ -44701,17 +44646,17 @@ const B1_WORDS = [
     "de": "Rate",
     "de_article": "die",
     "de_plural": "die Raten",
-    "lv": "Contribution",
+    "lv": "Installment",
     "level": "B1",
     "study": {
       "id": "b1-rate",
       "layout": "standardStudy",
-      "translation": "Contribution",
+      "translation": "Installment",
       "explanation": "Main idea: die Rate is a regular part of a payment, such as an installment purchase. der Rat with one -e means advice.",
       "examples": [
         {
           "de": "Ich zahle das Auto in Raten.",
-          "lv": "I pay for the car in parts."
+          "lv": "I pay for the car in installments."
         },
         {
           "de": "Die monatliche Rate ist hoch.",
@@ -44739,7 +44684,7 @@ const B1_WORDS = [
           "example": "Ratenzahlung ist möglich. = Payment in installments is possible."
         }
       ],
-      "tip": "A rate with an -e at the end is often the payment part.",
+      "tip": "Rate ending in -e often means an installment.",
       "important": "Do not confuse die Rate with der Rat. The article and ending change the meaning.",
       "sectionAccents": {
         "explanation": {
@@ -44754,9 +44699,7 @@ const B1_WORDS = [
               "yellow": "Auto"
             },
             "lv": {
-              "purple": [
-                "in parts"
-              ]
+              "purple": []
             }
           },
           {
@@ -44888,13 +44831,13 @@ const B1_WORDS = [
   },
   {
     "de": "räumen",
-    "lv": "Release",
+    "lv": "To clear; to vacate; to move out",
     "level": "B1",
     "study": {
       "id": "b1-räumen",
       "layout": "standardStudy",
-      "translation": "Release",
-      "explanation": "Main idea: räumen means to make room free: to clear, clear or move out. aufräumen means to arrange.",
+      "translation": "To clear; to vacate; to move out",
+      "explanation": "Main idea: räumen means to make a place free: to clear, empty, or move out. aufräumen means to tidy up.",
       "examples": [
         {
           "de": "Die Polizei räumt die Straße.",
@@ -44912,7 +44855,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "räumen",
-          "meaning": "Release, harvest, move out",
+          "meaning": "To clear, empty, or move out",
           "example": "Die Polizei räumt die Straße. = The police clear the street."
         },
         {
@@ -44922,12 +44865,12 @@ const B1_WORDS = [
         },
         {
           "word": "verlassen",
-          "meaning": "Leave room",
+          "meaning": "To leave a place",
           "example": "Wir verlassen das Haus. = We leave the house."
         }
       ],
       "tip": "If the space must remain free, think räumen.",
-      "important": "räumen is not just to arrange. Arrange everyday is usually aufräumen.",
+      "important": "räumen does not just mean to tidy up. In everyday language, “to tidy up” is usually aufräumen.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -45042,11 +44985,11 @@ const B1_WORDS = [
         },
         {
           "de": "Der Rausch ließ langsam nach.",
-          "lv": "The dizziness slowly passed."
+          "lv": "The intoxication slowly wore off."
         },
         {
           "de": "Sie erlebten einen Rausch der Gefühle.",
-          "lv": "They experienced an intoxication of feeling."
+          "lv": "They experienced a powerful emotional high."
         }
       ],
       "comparison": [
@@ -45066,7 +45009,7 @@ const B1_WORDS = [
           "example": "Sucht ist gefährlich. = Addiction is dangerous."
         }
       ],
-      "tip": "Rausch is a state in which a person is intoxicated or intoxicated.",
+      "tip": "Rausch is a state in which a person is intoxicated or carried away by strong emotions.",
       "important": "Rausch is not simply a pleasure; it has a hint of intoxication or loss of control.",
       "sectionAccents": {
         "explanation": {
@@ -45517,13 +45460,13 @@ const B1_WORDS = [
   },
   {
     "de": "reißen",
-    "lv": "Bursting",
+    "lv": "To tear; to rip; to burst",
     "level": "B1",
     "study": {
       "id": "b1-reißen",
       "layout": "standardStudy",
-      "translation": "Bursting",
-      "explanation": "Main idea: reißen means to tear oneself or tear something. Reisen with one ß instead is not the same - it means to travel.",
+      "translation": "To tear; to rip; to burst",
+      "explanation": "Main idea: reißen means to tear or be torn. reisen, with s instead of ß, is different and means to travel.",
       "examples": [
         {
           "de": "Das Seil reißt.",
@@ -45556,7 +45499,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "reißen with ß is to tear/tear; reisen with s is to travel.",
-      "important": "Without object reißen is often broken; with an object - to tear or pull away.",
+      "important": "Without an object, reißen often means “to break” or “to tear”; with an object, it means “to tear” or “pull away”.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -45642,7 +45585,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "reißen",
-          "yellow": "objektu"
+          "yellow": "object"
         }
       }
     }
@@ -45974,7 +45917,7 @@ const B1_WORDS = [
       "id": "b1-richten",
       "layout": "standardStudy",
       "translation": "Direct",
-      "explanation": "Main idea: richten means to point or address something in a certain direction. Legally, it can also mean to sue.",
+      "explanation": "Main idea: richten means to point or direct something in a certain direction. In a legal context, it can also mean to judge or try a case.",
       "examples": [
         {
           "de": "Sie richtet den Blick nach vorn.",
@@ -46007,7 +45950,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Direction or addressee - richten.",
-      "important": "richten is not common to send; it often means to direct a glance, question or attention.",
+      "important": "richten is not the usual word for “to send”; it often means to direct a glance, question, or attention.",
       "sectionAccents": {
         "explanation": {
           "purple": [
@@ -46091,7 +46034,7 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "richten",
-          "red": "to send"
+          "red": "to direct"
         }
       }
     }
