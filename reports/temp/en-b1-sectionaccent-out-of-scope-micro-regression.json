@@ -1,0 +1,255 @@
+{
+  "generatedAt": "2026-08-09T13:18:30.659Z",
+  "status": "NOT STARTED",
+  "scope": "24 OWNER-approved sectionAccent out-of-scope repairs only",
+  "parentRepair": "EN–DE B1 SECTIONACCENT OUT-OF-SCOPE REPAIR — COMPLETE",
+  "findingsScope": 24,
+  "repairs": [
+    {
+      "triageId": 4,
+      "cardId": "b1-griff",
+      "productionId": "b1-griff",
+      "productionIndex": 1144,
+      "repairField": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "expectedCurrent": "Thistle",
+      "ownerFinalEn": "Handle",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 5,
+      "cardId": "b1-herausgeben",
+      "productionId": "b1-herausgeben",
+      "productionIndex": 1247,
+      "repairField": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "expectedCurrent": "Issue",
+      "ownerFinalEn": "Publish",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 6,
+      "cardId": "b1-kippen",
+      "productionId": "b1-kippen",
+      "productionIndex": 1508,
+      "repairField": "study.sectionAccents.examples[1].lv.purple[0]",
+      "expectedCurrent": "Does",
+      "ownerFinalEn": "Do",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 7,
+      "cardId": "b1-lager",
+      "productionId": "b1-lager",
+      "productionIndex": 1704,
+      "repairField": "study.sectionAccents.examples[0].lv.purple[0]",
+      "expectedCurrent": "in stock",
+      "ownerFinalEn": "warehouse",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 8,
+      "cardId": "b1-kante",
+      "productionId": "b1-kante",
+      "productionIndex": 1710,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "facet",
+      "ownerFinalEn": "edge",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 9,
+      "cardId": "b1-leistung",
+      "productionId": "b1-leistung",
+      "productionIndex": 1762,
+      "repairField": "study.sectionAccents.comparison[0].meaning.purple[2]",
+      "expectedCurrent": "power",
+      "ownerFinalEn": "Performance",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 10,
+      "cardId": "b1-nachdem",
+      "productionId": "b1-nachdem",
+      "productionIndex": 1941,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "after when",
+      "ownerFinalEn": "after",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 11,
+      "cardId": "b1-nachdem",
+      "productionId": "b1-nachdem",
+      "productionIndex": 1941,
+      "repairField": "study.sectionAccents.important.purple[0]",
+      "expectedCurrent": "had eaten",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 12,
+      "cardId": "b1-rüsten",
+      "productionId": "b1-rüsten",
+      "productionIndex": 2366,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "Main",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 13,
+      "cardId": "b1-saat",
+      "productionId": "b1-saat",
+      "productionIndex": 2370,
+      "repairField": "study.sectionAccents.examples[0].lv.purple[0]",
+      "expectedCurrent": "Volume",
+      "ownerFinalEn": "crop",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 14,
+      "cardId": "b1-saat",
+      "productionId": "b1-saat",
+      "productionIndex": 2370,
+      "repairField": "study.sectionAccents.examples[2].lv.purple[0]",
+      "expectedCurrent": "Volume",
+      "ownerFinalEn": "crop",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 15,
+      "cardId": "b1-schicht",
+      "productionId": "b1-schicht",
+      "productionIndex": 2427,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "layer",
+      "ownerFinalEn": "shift",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 16,
+      "cardId": "b1-schmelzen",
+      "productionId": "b1-schmelzen",
+      "productionIndex": 2478,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "Main",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 17,
+      "cardId": "b1-senden",
+      "productionId": "b1-senden",
+      "productionIndex": 2599,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "to send",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 18,
+      "cardId": "b1-sitz",
+      "productionId": "b1-sitz",
+      "productionIndex": 2634,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "Main",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 19,
+      "cardId": "b1-spitze",
+      "productionId": "b1-spitze",
+      "productionIndex": 2689,
+      "repairField": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "expectedCurrent": "Tip",
+      "ownerFinalEn": "Peak",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 20,
+      "cardId": "b1-spitze",
+      "productionId": "b1-spitze",
+      "productionIndex": 2689,
+      "repairField": "study.sectionAccents.comparison[0].meaning.purple[2]",
+      "expectedCurrent": "leadership",
+      "ownerFinalEn": "Peak",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 21,
+      "cardId": "b1-stillen",
+      "productionId": "b1-stillen",
+      "productionIndex": 2762,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "to breastfeed",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 22,
+      "cardId": "b1-streichen",
+      "productionId": "b1-streichen",
+      "productionIndex": 2790,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "Main",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 23,
+      "cardId": "b1-stürzen",
+      "productionId": "b1-stürzen",
+      "productionIndex": 2819,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "Main",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 24,
+      "cardId": "b1-szene",
+      "productionId": "b1-szene",
+      "productionIndex": 2830,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "Main",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 25,
+      "cardId": "b1-tau",
+      "productionId": "b1-tau",
+      "productionIndex": 2856,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "Main",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 26,
+      "cardId": "b1-wechsel",
+      "productionId": "b1-wechsel",
+      "productionIndex": 3213,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "Main",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "triageId": 27,
+      "cardId": "b1-steuer",
+      "productionId": "b1-steuer",
+      "productionIndex": 3332,
+      "repairField": "study.sectionAccents.explanation.purple[0]",
+      "expectedCurrent": "Main",
+      "ownerFinalEn": "__REMOVE_ACCENT__",
+      "ownerVerdict": "LABOT"
+    }
+  ],
+  "excludedAlreadyResolved": [
+    "b1-folge",
+    "b1-griff"
+  ],
+  "excludedFalsePositive": "b1-einerlei",
+  "note": "Targeted micro-regression audit pending — scope: only 24 OWNER-approved repairs"
+}

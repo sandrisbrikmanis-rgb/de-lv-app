@@ -27492,7 +27492,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Thistle"
+                "Handle"
               ]
             }
           },
@@ -29087,7 +29087,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Issue"
+                "Publish"
               ]
             }
           },
@@ -33366,7 +33366,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Does"
+                "Do"
               ]
             }
           },
@@ -36399,7 +36399,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "in stock"
+                "warehouse"
               ]
             }
           },
@@ -36810,7 +36810,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "facet"
+            "edge"
           ]
         },
         "examples": [
@@ -37979,7 +37979,7 @@ const B1_WORDS = [
               "purple": [
                 "Performance",
                 "achievement",
-                "power"
+                "Performance"
               ]
             }
           },
@@ -40240,7 +40240,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "after when"
+            "after"
           ]
         },
         "examples": [
@@ -40318,9 +40318,7 @@ const B1_WORDS = [
           "red": "danach"
         },
         "important": {
-          "purple": [
-            "had eaten"
-          ]
+          "purple": []
         }
       }
     }
@@ -46953,9 +46951,7 @@ const B1_WORDS = [
       "important": "In a military context, rüsten and aufrüsten are associated with arming.",
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -47114,7 +47110,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Volume"
+                "crop"
               ]
             }
           },
@@ -47135,7 +47131,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Volume"
+                "crop"
               ]
             }
           }
@@ -47715,7 +47711,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "layer"
+            "shift"
           ]
         },
         "examples": [
@@ -48520,9 +48516,7 @@ const B1_WORDS = [
       "important": "schmelzen is not the same as auftauen. auftauen means to thaw.",
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -50151,9 +50145,7 @@ const B1_WORDS = [
       "important": "senden sounds more formal or technical than schicken.",
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "to send"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -50738,9 +50730,7 @@ const B1_WORDS = [
       "important": "The company's Sitz is a headquarters, not a physical chair.",
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -51892,9 +51882,9 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Tip",
+                "Peak",
                 "peak",
-                "leadership"
+                "Peak"
               ]
             },
             "example": {
@@ -53140,9 +53130,7 @@ const B1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "to breastfeed"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -53594,9 +53582,7 @@ const B1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -54050,9 +54036,7 @@ const B1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -54259,9 +54243,7 @@ const B1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -54696,9 +54678,7 @@ const B1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -61842,9 +61822,7 @@ const B1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
-          ]
+          "purple": []
         },
         "examples": [
           {
@@ -64303,9 +64281,7 @@ const B1_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
-          ]
+          "purple": []
         },
         "examples": [
           {
