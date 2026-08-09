@@ -697,6 +697,7 @@ Plural: —
 LV source: par to
 Production EN: About it
 Metadata anomaly: Production EN "About it" differs from audit Current EN "there is no word for it. It refers to a thing, thought or action mentioned above."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -710,9 +711,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "About it" differs from audit Current EN "there is no word for it. It refers to a thing, thought or action mentioned above."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: daran is not a place word. It refers to a thing, thought, or action mentioned above.
+OWNER NOTE: Apstiprināt meaning repair. Pievienot dabisku angļu pieturzīmi.
 
 ### Finding 2
 
@@ -726,9 +727,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "About it" differs from audit Current EN "there is no word for it. It refers to a thing, thought or action mentioned above."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To, on
+OWNER NOTE: Neizgudrot jaunu comparison tekstu. Accent target jāņem no faktiskā production comparison[1].meaning pēc precondition pārbaudes.
 
 ### Finding 3
 
@@ -742,9 +743,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "About it" differs from audit Current EN "there is no word for it. It refers to a thing, thought or action mentioned above."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: not a place word
+OWNER NOTE: Dzēst neeksistējošos “there” accent targets un izcelt faktiski esošo mācību kontrastu.
 
 ## 12 — b1-darstellen — darstellen
 
@@ -756,6 +757,7 @@ Plural: —
 LV source: attēlot
 Production EN: To represent
 Metadata anomaly: Production EN "To represent" differs from audit Current EN "She plays doctors."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -769,9 +771,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To represent" differs from audit Current EN "She plays doctors."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: She plays a doctor.
+OWNER NOTE: Viņa attēlo/tēlo vienu ārstu.
 
 ### Finding 2
 
@@ -785,9 +787,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To represent" differs from audit Current EN "She plays doctors."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Data, graphs, situations, and roles can be represented with darstellen; sich vorstellen = to introduce yourself.
+OWNER NOTE: Pilnībā novākt LV/German mixed-language fragmentu un skaidri saglabāt darstellen / sich vorstellen kontrastu.
 
 ### Finding 3
 
@@ -801,9 +803,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "To represent" differs from audit Current EN "She plays doctors."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: plays
+OWNER NOTE: Izcelt target darbību, nevis subject “She”.
 
 ## 13 — b1-decken — decken
 
@@ -815,6 +817,7 @@ Plural: —
 LV source: segt
 Production EN: To cover
 Metadata anomaly: Production EN "To cover" differs from audit Current EN "Skaties uz objektu: Tisch decken, Kosten decken, Straße mit Schnee decken."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -828,9 +831,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To cover" differs from audit Current EN "Skaties uz objektu: Tisch decken, Kosten decken, Straße mit Schnee decken."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Look at the object: Tisch decken, Kosten decken, Straße mit Schnee decken.
+OWNER NOTE: LV sākums jāpārtulko; vācu piemērus saglabāt.
 
 ### Finding 2
 
@@ -844,9 +847,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To cover" differs from audit Current EN "Skaties uz objektu: Tisch decken, Kosten decken, Straße mit Schnee decken."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Tisch decken does not literally mean “to cover the table”; it means “to set the table.” Kosten decken = to cover costs.
+OWNER NOTE: Esošais teksts pats sev pretrunā un nepareizi izskaidro literal meaning.
 
 ## 14 — b1-dienen — dienen
 
@@ -858,6 +861,7 @@ Plural: —
 LV source: kalpot
 Production EN: To serve
 Metadata anomaly: Production EN "To serve" differs from audit Current EN "Main Idea: To serve means to serve or serve a purpose. By als it means “to serve as”."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -871,9 +875,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To serve" differs from audit Current EN "Main Idea: To serve means to serve or serve a purpose. By als it means “to serve as”."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: dienen means to serve or to be useful for a purpose. With als, it means “to serve as.”
+OWNER NOTE: Luna recommendation ir korekts.
 
 ### Finding 2
 
@@ -887,9 +891,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To serve" differs from audit Current EN "Main Idea: To serve means to serve or serve a purpose. By als it means “to serve as”."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: dienen als = to serve as; dienen zu = to serve a purpose.
+OWNER NOTE: Labot “dien” typo un nepareizo “useful to someone”.
 
 ### Finding 3
 
@@ -903,9 +907,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To serve" differs from audit Current EN "Main Idea: To serve means to serve or serve a purpose. By als it means “to serve as”."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: dienen is not usually used to mean “to help someone”; “to help” is usually helfen.
+OWNER NOTE: Korekts dienen / helfen kontrasts.
 
 ### Finding 4
 
@@ -919,9 +923,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To serve" differs from audit Current EN "Main Idea: To serve means to serve or serve a purpose. By als it means “to serve as”."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: serve, useful
+OWNER NOTE: “Main” nav mācāmā nozīme.
 
 ## 15 — b1-durchführen — durchführen
 
@@ -933,6 +937,7 @@ Plural: —
 LV source: veikt
 Production EN: Perform
 Metadata anomaly: Production EN "Perform" differs from audit Current EN "Main idea: gebieben means to carry out or carry out a planned action. It is used with inspections, repairs, experiments and events."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -946,9 +951,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Perform" differs from audit Current EN "Main idea: gebieben means to carry out or carry out a planned action. It is used with inspections, repairs, experiments and events."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: durchführen means to carry out or implement a planned action. It is used with inspections, repairs, experiments, and events.
+OWNER NOTE: “gebieben” ir korumpēts headword; noņemt arī “carry out or carry out” atkārtojumu.
 
 ### Finding 2
 
@@ -962,9 +967,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Perform" differs from audit Current EN "Main idea: gebieben means to carry out or carry out a planned action. It is used with inspections, repairs, experiments and events."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Inspection, repair, experiment → durchführen.
+OWNER NOTE: Learner explanation terminiem jābūt EN; vācu target lemma saglabāt.
 
 ### Finding 3
 
@@ -978,9 +983,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Perform" differs from audit Current EN "Main idea: gebieben means to carry out or carry out a planned action. It is used with inspections, repairs, experiments and events."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: durchführen does not literally mean “to lead through”; in B1 texts it usually means “to carry out”.
+OWNER NOTE: “gerünfung” ir korumpēts headword.
 
 ### Finding 4
 
@@ -994,9 +999,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Perform" differs from audit Current EN "Main idea: gebieben means to carry out or carry out a planned action. It is used with inspections, repairs, experiments and events."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: REMOVE DUPLICATE ACCENT
+OWNER NOTE: Tekstā ir tikai viens matching “are”.
 
 ### Finding 5
 
@@ -1010,9 +1015,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Perform" differs from audit Current EN "Main idea: gebieben means to carry out or carry out a planned action. It is used with inspections, repairs, experiments and events."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Inspection
+OWNER NOTE: Pēc tip teksta labošanas “durchführen” joprojām ir vācu target lemma un to nevajag izmantot kā EN accent target. Izcelt pirmo EN activity noun “Inspection”.
 
 ### Finding 6
 
@@ -1026,9 +1031,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Perform" differs from audit Current EN "Main idea: gebieben means to carry out or carry out a planned action. It is used with inspections, repairs, experiments and events."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: carry out
+OWNER NOTE: Aizstāt korumpēto “gerünfung” ar faktiski esošo EN target meaning.
 
 ## 16 — b1-einbrechen — einbrechen
 
@@ -1040,6 +1045,7 @@ Plural: —
 LV source: ielauzties
 Production EN: Break into
 Metadata anomaly: Production EN "Break into" differs from audit Current EN "Crime + house → einbrechen = break into; Dach → invade; Nacht → enter."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1053,9 +1059,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Break into" differs from audit Current EN "Crime + house → einbrechen = break into; Dach → invade; Nacht → enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Crime + house → einbrechen = break into; roof → cave in; night → fall.
+OWNER NOTE: Trīs einbrechen lietojumi: ielauzties, iebrukt/sabrukt konstrukcijai, iestāties naktij.
 
 ### Finding 2
 
@@ -1069,9 +1075,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Break into" differs from audit Current EN "Crime + house → einbrechen = break into; Dach → invade; Nacht → enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: einbrechen usually does not mean “break into an object” but “break into a place”. With parts of buildings, it means “cave in” or “collapse”.
+OWNER NOTE: “invade” šajā konstrukcijas nozīmē ir nepareizi.
 
 ### Finding 3
 
@@ -1085,9 +1091,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Break into" differs from audit Current EN "Crime + house → einbrechen = break into; Dach → invade; Nacht → enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: REMOVE DUPLICATE ACCENT
+OWNER NOTE: —
 
 ### Finding 4
 
@@ -1101,9 +1107,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Break into" differs from audit Current EN "Crime + house → einbrechen = break into; Dach → invade; Nacht → enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: REMOVE DUPLICATE ACCENT
+OWNER NOTE: Nav otra un trešā matching “Main”.
 
 ### Finding 5
 
@@ -1117,9 +1123,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Break into" differs from audit Current EN "Crime + house → einbrechen = break into; Dach → invade; Nacht → enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: break into
+OWNER NOTE: Aizstāt LV “ielauzties”.
 
 ### Finding 6
 
@@ -1133,9 +1139,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Break into" differs from audit Current EN "Crime + house → einbrechen = break into; Dach → invade; Nacht → enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: cave in
+OWNER NOTE: Aizstāt LV “iebrukt”.
 
 ### Finding 7
 
@@ -1149,9 +1155,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Break into" differs from audit Current EN "Crime + house → einbrechen = break into; Dach → invade; Nacht → enter."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: fall
+OWNER NOTE: “To join” ir nepareizs un tekstā neeksistē. Pēc tip repair faktiskā night meaning ir “fall”.
 
 ## 17 — b1-eindeutig — eindeutig
 
@@ -1163,6 +1169,7 @@ Plural: —
 LV source: nepārprotams
 Production EN: Unmistakable
 Metadata anomaly: Production EN "Unmistakable" differs from audit Current EN "Main idea: einveitt means clear and unambiguous, when there is no doubt or two interpretations. This is not the same as einfach = simple."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1176,9 +1183,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Unmistakable" differs from audit Current EN "Main idea: einveitt means clear and unambiguous, when there is no doubt or two interpretations. This is not the same as einfach = simple."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: eindeutig means clear and unambiguous when there is no doubt or more than one possible interpretation. This is not the same as einfach = simple.
+OWNER NOTE: Izlabot “einveitt” un padarīt explanation loģiski precīzu.
 
 ### Finding 2
 
@@ -1192,9 +1199,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Unmistakable" differs from audit Current EN "Main idea: einveitt means clear and unambiguous, when there is no doubt or two interpretations. This is not the same as einfach = simple."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: If there is no doubt about the meaning or the result, use eindeutig.
+OWNER NOTE: Labot “einteigt”.
 
 ### Finding 3
 
@@ -1208,9 +1215,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Unmistakable" differs from audit Current EN "Main idea: einveitt means clear and unambiguous, when there is no doubt or two interpretations. This is not the same as einfach = simple."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: eindeutig is not einfach: eindeutig = unambiguous, einfach = simple.
+OWNER NOTE: Esošais kontrasts ir korumpēts.
 
 ## 18 — b1-einerlei — einerlei
 
@@ -1222,6 +1229,7 @@ Plural: —
 LV source: vienalga
 Production EN: Anyway
 Metadata anomaly: Production EN "Anyway" differs from audit Current EN "Main idea: einerle means no matter or it doesn't matter. It sounds more formal or old-fashioned than everyday egal."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1235,9 +1243,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Anyway" differs from audit Current EN "Main idea: einerle means no matter or it doesn't matter. It sounds more formal or old-fashioned than everyday egal."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: einerlei means “no matter” or “it doesn’t matter”. It sounds more formal or old-fashioned than everyday egal.
+OWNER NOTE: Labot “einerle”.
 
 ### Finding 2
 
@@ -1251,9 +1259,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Anyway" differs from audit Current EN "Main idea: einerle means no matter or it doesn't matter. It sounds more formal or old-fashioned than everyday egal."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: egal is more common in everyday speech; recognize einerlei as a more formal way of saying “it doesn’t matter”.
+OWNER NOTE: Šis ir dabiskāks par auditā piedāvāto “a more formal no matter”.
 
 ### Finding 3
 
@@ -1267,9 +1275,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Anyway" differs from audit Current EN "Main idea: einerle means no matter or it doesn't matter. It sounds more formal or old-fashioned than everyday egal."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: einerlei is not common in colloquial speech; in everyday conversation, it is safer to use egal.
+OWNER NOTE: Labot headword un nedabisko “speaking”.
 
 ### Finding 4
 
@@ -1283,9 +1291,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Anyway" differs from audit Current EN "Main idea: einerle means no matter or it doesn't matter. It sounds more formal or old-fashioned than everyday egal."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: it doesn’t matter
+OWNER NOTE: Aizstāt LV “vienalga” ar faktiski esošu EN target phrase pēc tip teksta labošanas.
 
 ## 19 — b1-einfallen — einfallen
 
@@ -1297,6 +1305,7 @@ Plural: —
 LV source: ienākt prātā
 Production EN: Come to mind
 Metadata anomaly: Production EN "Come to mind" differs from audit Current EN "Nesaki “ich falle eine Idee ein”. Pareizi: Mir fällt eine Idee ein."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1310,9 +1319,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Come to mind" differs from audit Current EN "Nesaki “ich falle eine Idee ein”. Pareizi: Mir fällt eine Idee ein."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Do not say “ich falle eine Idee ein”. The correct form is: Mir fällt eine Idee ein.
+OWNER NOTE: Novākt LV “Nesaki / Pareizi”.
 
 ### Finding 2
 
@@ -1326,9 +1335,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Come to mind" differs from audit Current EN "Nesaki “ich falle eine Idee ein”. Pareizi: Mir fällt eine Idee ein."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: occurs to me
+OWNER NOTE: Esošajā tip tekstā ir “something occurs to me”; “comes to mind” tur neeksistē.
 
 ## 20 — b1-einfluss — Einfluss
 
@@ -1340,6 +1349,7 @@ Plural: die Einflüsse
 LV source: ietekme
 Production EN: Influence
 Metadata anomaly: Production EN "Influence" differs from audit Current EN "Main idea: der Einfluss means influence on a person, decision or situation. A very common construction is Einfluss auf + ko?."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1353,9 +1363,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Influence" differs from audit Current EN "Main idea: der Einfluss means influence on a person, decision or situation. A very common construction is Einfluss auf + ko?."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: der Einfluss means influence on a person, decision, or situation. A very common construction is Einfluss auf + accusative.
+OWNER NOTE: Neizmantot Luna “+ what?”. Pedagoģiski pareizā informācija ir vācu konstrukcija “Einfluss auf + Akkusativ”, angliski “+ accusative”.
 
 ### Finding 2
 
@@ -1369,9 +1379,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Influence" differs from audit Current EN "Main idea: der Einfluss means influence on a person, decision or situation. A very common construction is Einfluss auf + ko?."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Effect / impact
+OWNER NOTE: Wirkung šeit nozīmē effect/impact, nevis exposure.
 
 ### Finding 3
 
@@ -1385,9 +1395,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Influence" differs from audit Current EN "Main idea: der Einfluss means influence on a person, decision or situation. A very common construction is Einfluss auf + ko?."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Effect, impact
+OWNER NOTE: Highlight jāsakrīt ar izlaboto comparison meaning.
 
 ## 21 — b1-einfügen — einfügen
 
