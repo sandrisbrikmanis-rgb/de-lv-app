@@ -1409,6 +1409,7 @@ Plural: —
 LV source: ievietot
 Production EN: To insert
 Metadata anomaly: Production EN "To insert" differs from audit Current EN "einfügen is often a technical/documentary activity; "to add" is more often to add."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1422,9 +1423,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To insert" differs from audit Current EN "einfügen is often a technical/documentary activity; "to add" is more often to add."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: einfügen is often a technical or document-related activity; “to add” is more often hinzufügen.
+OWNER NOTE: Pašreizējais teksts otrajā daļā atkārto angļu “to add” un nepaskaidro vācu kontrastu.
 
 ### Finding 2
 
@@ -1438,9 +1439,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To insert" differs from audit Current EN "einfügen is often a technical/documentary activity; "to add" is more often to add."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In a text or document, einfügen means “to insert”; sich einfügen means “to fit in”.
+OWNER NOTE: Saglabāt skaidru einfügen / sich einfügen kontrastu. Associated sectionAccent: insert (replace ievietot).
 
 ## 22 — b1-einführen — einführen
 
@@ -1452,6 +1453,7 @@ Plural: —
 LV source: ieviest
 Production EN: To introduce
 Metadata anomaly: Production EN "To introduce" differs from audit Current EN "Rules, system or method führt man ein; goods can also be einführen = imported."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1465,9 +1467,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To introduce" differs from audit Current EN "Rules, system or method führt man ein; goods can also be einführen = imported."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Rules, systems, or methods can be introduced with einführen; goods can also be imported with einführen.
+OWNER NOTE: Pilnībā dabiskot EN tekstu, vienlaikus saglabājot abas einführen nozīmes.
 
 ### Finding 2
 
@@ -1481,9 +1483,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To introduce" differs from audit Current EN "Rules, system or method führt man ein; goods can also be einführen = imported."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: einführen is not the same as vorstellen: vorstellen means to present or introduce someone, while einführen can mean to introduce or implement a system, rule, or method.
+OWNER NOTE: Luna pamatdoma pareiza, bet OWNER FINAL precīzāk parāda abu vācu verbu faktisko kontrastu.
 
 ## 23 — b1-einführung — Einführung
 
@@ -1495,6 +1497,7 @@ Plural: die Einführungen
 LV source: ievads
 Production EN: Introduction
 Metadata anomaly: Production EN "Introduction" differs from audit Current EN "Main idea: die Einführung means introduction or introduction. In a text or course, it is an introduction • In a new system, rules or product - implementation."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1508,9 +1511,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Introduction" differs from audit Current EN "Main idea: die Einführung means introduction or introduction. In a text or course, it is an introduction • In a new system, rules or product - implementation."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: die Einführung means introduction or implementation. In a text or course, it is an introduction; for a new system, rule, or product, it can mean implementation.
+OWNER NOTE: Novākt dubulto “introduction” un skaidri nodalīt abas nozīmes.
 
 ### Finding 2
 
@@ -1524,9 +1527,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Introduction" differs from audit Current EN "Main idea: die Einführung means introduction or introduction. In a text or course, it is an introduction • In a new system, rules or product - implementation."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Do not confuse Einführung with Einleitung: Einleitung is usually an introduction to a text, while Einführung can also mean implementation in practice.
+OWNER NOTE: “introduction to practice” nav pareizā nozīme.
 
 ## 24 — b1-sich-eingewöhnen — sich eingewöhnen
 
@@ -1538,6 +1541,7 @@ Plural: —
 LV source: pierast
 Production EN: Get used to
 Metadata anomaly: Production EN "Get used to" differs from audit Current EN "After moving, we got used to it well."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1551,9 +1555,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Get used to" differs from audit Current EN "After moving, we got used to it well."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: After moving, we adapted well.
+OWNER NOTE: Esošais “got used to it well” ir nedabisks un ar neskaidru objektu.
 
 ### Finding 2
 
@@ -1567,9 +1571,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Get used to" differs from audit Current EN "After moving, we got used to it well."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In a new job, school, or place, a person has to get used to the new situation.
+OWNER NOTE: Novākt German fragmentu “muss sich eingewöhnen” no EN learner-facing teksta.
 
 ## 25 — b1-einhalten — einhalten
 
@@ -1581,6 +1585,7 @@ Plural: —
 LV source: ievērot
 Production EN: To observe
 Metadata anomaly: Production EN "To observe" differs from audit Current EN "Follow / execute exactly"
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1594,9 +1599,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To observe" differs from audit Current EN "Follow / execute exactly"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Follow / comply with precisely
+OWNER NOTE: “execute” nav piemērots rules/deadlines/promises/distances kontekstam.
 
 ### Finding 2
 
@@ -1610,9 +1615,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To observe" differs from audit Current EN "Follow / execute exactly"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: With einhalten, you follow rules, keep appointments, meet deadlines, and maintain required distances.
+OWNER NOTE: Neizmantot Luna “Keeping rules, appointments, deadlines, and distances...” — viena angļu darbības vārda konstrukcija šiem četriem objektiem nav dabiska. OWNER FINAL parāda dabiskās EN collocations.
 
 ## 26 — b1-einheimisch — einheimisch
 
@@ -1624,6 +1629,7 @@ Plural: —
 LV source: vietējs
 Production EN: Local
 Metadata anomaly: Production EN "Local" differs from audit Current EN "People, plants, animals or products from this place → einheimisch."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1637,9 +1643,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Local" differs from audit Current EN "People, plants, animals or products from this place → einheimisch."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: People, plants, animals, or products native to a particular place can be described as einheimisch.
+OWNER NOTE: “native to a particular place” precīzāk izskaidro einheimisch nekā neskaidrais “from this place”. Associated sectionAccent: native.
 
 ## 27 — b1-einheit — Einheit
 
@@ -1651,6 +1657,7 @@ Plural: die Einheiten
 LV source: vienība
 Production EN: Unit
 Metadata anomaly: Production EN "Unit" differs from audit Current EN "Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1664,9 +1671,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Unit" differs from audit Current EN "Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: die Einheit means a unit. It can be a unit of study, a technical unit, or a unit of measurement depending on the context.
+OWNER NOTE: Šīs kartītes kontekstā primārā nozīme ir unit, nevis unity.
 
 ### Finding 2
 
@@ -1680,9 +1687,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Unit" differs from audit Current EN "Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Chapter
+OWNER NOTE: Kapitel = chapter.
 
 ### Finding 3
 
@@ -1696,9 +1703,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Unit" differs from audit Current EN "Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Chapter
+OWNER NOTE: Accent jāsakrīt ar izlaboto comparison meaning.
 
 ### Finding 4
 
@@ -1712,9 +1719,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Unit" differs from audit Current EN "Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: module
+OWNER NOTE: Aizstāt LV accent tokenu ar faktiski esošo EN “module”. Learner-facing tip tekstu nemainīt, ja tas jau ir korekts.
 
 ## 28 — b1-einheitlich — einheitlich
 
@@ -1726,6 +1733,9 @@ Plural: —
 LV source: vienots
 Production EN: United
 Metadata anomaly: —
+OWNER CARD VERDICT: LABOT
+ASSOCIATED REPAIR — field lv: United → Uniform
+Associated repair note: Front translation un study.translation nedrīkst konfliktēt.
 
 ### Finding 1
 
@@ -1738,9 +1748,9 @@ Reason: “United” does not convey the usual meaning of einheitlich.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Uniform
+OWNER NOTE: einheitlich parasti nozīmē uniform / consistent, nevis united.
 
 ### Finding 2
 
@@ -1753,9 +1763,9 @@ Reason: “One” is not an appropriate meaning of einheitlich here.
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: einheitlich = uniform / consistent; einzig = the only one.
+OWNER NOTE: “equal” nav labākais pamata skaidrojums. “uniform / consistent” precīzāk atspoguļo einheitlich.
 
 ## 29 — b1-einholen — einholen
 
@@ -1767,6 +1777,7 @@ Plural: —
 LV source: ievākt
 Production EN: Collect
 Metadata anomaly: Production EN "Collect" differs from audit Current EN "The runner catches up with the other."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1780,9 +1791,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Collect" differs from audit Current EN "The runner catches up with the other."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The runner catches up with the other runner.
+OWNER NOTE: Novērst neskaidro “the other”.
 
 ### Finding 2
 
@@ -1796,9 +1807,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Collect" differs from audit Current EN "The runner catches up with the other."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Collect / obtain / catch up with
+OWNER NOTE: “achieve” nav einholen nozīme. OWNER izvēlas “obtain” nevis “receive”, jo information/advice/permission kontekstā “obtain” ir dabiskāks.
 
 ### Finding 3
 
@@ -1812,9 +1823,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Collect" differs from audit Current EN "The runner catches up with the other."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: You can obtain information, advice, or permission with einholen; you can also einholen another runner = catch up with them.
+OWNER NOTE: Dabiskot EN un precīzi saglabāt abas einholen nozīmes.
 
 ### Finding 4
 
@@ -1828,9 +1839,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Collect" differs from audit Current EN "The runner catches up with the other."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Genehmigung
+OWNER NOTE: Tiešs vācu spelling repair learner-facing EN laukā.
 
 ### Finding 5
 
@@ -1844,9 +1855,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Collect" differs from audit Current EN "The runner catches up with the other."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: advice
+OWNER NOTE: LV accent target jāaizstāj ar matching EN token.
 
 ## 30 — b1-einsatz — Einsatz
 
@@ -1858,6 +1869,7 @@ Plural: die Einsätze
 LV source: izmantošana
 Production EN: Use
 Metadata anomaly: Production EN "Use" differs from audit Current EN "Firefighters have been on call for two hours."
+OWNER CARD VERDICT: LABOT
 
 ### Finding 1
 
@@ -1871,9 +1883,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Use" differs from audit Current EN "Firefighters have been on call for two hours."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The firefighters have been on duty for two hours.
+OWNER NOTE: im Einsatz šeit visdabiskāk ir “on duty”. “deployed” ir iespējams, bet šajā vispārīgajā piemērā pārāk specifisks.
 
 ### Finding 2
 
@@ -1887,9 +1899,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Use" differs from audit Current EN "Firefighters have been on call for two hours."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Use / deployment / stake
+OWNER NOTE: Einsatz aptver use/deployment un gambling stake. “rate” ir nepareizi; “involvement” šeit nav tik precīzs kā deployment.
 
 ### Finding 3
 
@@ -1903,9 +1915,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Use" differs from audit Current EN "Firefighters have been on call for two hours."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: zum Einsatz kommen. In games, Einsatz can also mean a stake.
+OWNER NOTE: Izlabot bojāto bullet sentence break un “bet” → “stake”.
 
 ### Finding 4
 
@@ -1919,9 +1931,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Use" differs from audit Current EN "Firefighters have been on call for two hours."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: With Einsatz, ask what is being used or deployed, and in what situation.
+OWNER NOTE: “Who” ir pārāk šaurs; “used or deployed” labāk sasaista galvenās mācāmās nozīmes.
 
 ### Finding 5
 
@@ -1935,9 +1947,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Use" differs from audit Current EN "Firefighters have been on call for two hours."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: used, deployed
+OWNER NOTE: Aizstāt LV accent tokenu ar matching EN learner-facing targets.
 
 ## 31 — b1-einsetzen — einsetzen
 

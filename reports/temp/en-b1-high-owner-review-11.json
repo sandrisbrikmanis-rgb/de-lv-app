@@ -477,7 +477,7 @@
   "expectedArithmeticRemaining": 73,
   "calculatedWorkflowRemaining": 73,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 71,
+  "ownerDecisionsMade": 98,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -1999,9 +1999,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To insert\" differs from audit Current EN \"einfügen is often a technical/documentary activity; \"to add\" is more often to add.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "einfügen is often a technical or document-related activity; “to add” is more often hinzufügen.",
+          "ownerNote": "Pašreizējais teksts otrajā daļā atkārto angļu “to add” un nepaskaidro vācu kontrastu."
         },
         {
           "severity": "HIGH",
@@ -2015,11 +2015,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To insert\" differs from audit Current EN \"einfügen is often a technical/documentary activity; \"to add\" is more often to add.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In a text or document, einfügen means “to insert”; sich einfügen means “to fit in”.",
+          "ownerNote": "Saglabāt skaidru einfügen / sich einfügen kontrastu. Associated sectionAccent: insert (replace ievietot)."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 22,
@@ -2047,9 +2048,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To introduce\" differs from audit Current EN \"Rules, system or method führt man ein; goods can also be einführen = imported.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Rules, systems, or methods can be introduced with einführen; goods can also be imported with einführen.",
+          "ownerNote": "Pilnībā dabiskot EN tekstu, vienlaikus saglabājot abas einführen nozīmes."
         },
         {
           "severity": "MEDIUM",
@@ -2063,11 +2064,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To introduce\" differs from audit Current EN \"Rules, system or method führt man ein; goods can also be einführen = imported.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "einführen is not the same as vorstellen: vorstellen means to present or introduce someone, while einführen can mean to introduce or implement a system, rule, or method.",
+          "ownerNote": "Luna pamatdoma pareiza, bet OWNER FINAL precīzāk parāda abu vācu verbu faktisko kontrastu."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 23,
@@ -2095,9 +2097,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Introduction\" differs from audit Current EN \"Main idea: die Einführung means introduction or introduction. In a text or course, it is an introduction • In a new system, rules or product - implementation.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: die Einführung means introduction or implementation. In a text or course, it is an introduction; for a new system, rule, or product, it can mean implementation.",
+          "ownerNote": "Novākt dubulto “introduction” un skaidri nodalīt abas nozīmes."
         },
         {
           "severity": "MEDIUM",
@@ -2111,11 +2113,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Introduction\" differs from audit Current EN \"Main idea: die Einführung means introduction or introduction. In a text or course, it is an introduction • In a new system, rules or product - implementation.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Do not confuse Einführung with Einleitung: Einleitung is usually an introduction to a text, while Einführung can also mean implementation in practice.",
+          "ownerNote": "“introduction to practice” nav pareizā nozīme."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 24,
@@ -2143,9 +2146,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Get used to\" differs from audit Current EN \"After moving, we got used to it well.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "After moving, we adapted well.",
+          "ownerNote": "Esošais “got used to it well” ir nedabisks un ar neskaidru objektu."
         },
         {
           "severity": "HIGH",
@@ -2159,11 +2162,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Get used to\" differs from audit Current EN \"After moving, we got used to it well.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In a new job, school, or place, a person has to get used to the new situation.",
+          "ownerNote": "Novākt German fragmentu “muss sich eingewöhnen” no EN learner-facing teksta."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 25,
@@ -2191,9 +2195,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To observe\" differs from audit Current EN \"Follow / execute exactly\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Follow / comply with precisely",
+          "ownerNote": "“execute” nav piemērots rules/deadlines/promises/distances kontekstam."
         },
         {
           "severity": "HIGH",
@@ -2207,11 +2211,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To observe\" differs from audit Current EN \"Follow / execute exactly\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "With einhalten, you follow rules, keep appointments, meet deadlines, and maintain required distances.",
+          "ownerNote": "Neizmantot Luna “Keeping rules, appointments, deadlines, and distances...” — viena angļu darbības vārda konstrukcija šiem četriem objektiem nav dabiska. OWNER FINAL parāda dabiskās EN collocations."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 26,
@@ -2239,11 +2244,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Local\" differs from audit Current EN \"People, plants, animals or products from this place → einheimisch.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "People, plants, animals, or products native to a particular place can be described as einheimisch.",
+          "ownerNote": "“native to a particular place” precīzāk izskaidro einheimisch nekā neskaidrais “from this place”. Associated sectionAccent: native."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 27,
@@ -2271,9 +2277,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Unit\" differs from audit Current EN \"Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: die Einheit means a unit. It can be a unit of study, a technical unit, or a unit of measurement depending on the context.",
+          "ownerNote": "Šīs kartītes kontekstā primārā nozīme ir unit, nevis unity."
         },
         {
           "severity": "HIGH",
@@ -2287,9 +2293,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Unit\" differs from audit Current EN \"Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Chapter",
+          "ownerNote": "Kapitel = chapter."
         },
         {
           "severity": "PEDAGOGICAL",
@@ -2303,9 +2309,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Unit\" differs from audit Current EN \"Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Chapter",
+          "ownerNote": "Accent jāsakrīt ar izlaboto comparison meaning."
         },
         {
           "severity": "TECHNICAL",
@@ -2319,11 +2325,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Unit\" differs from audit Current EN \"Main idea: die Einheit means unity. It can be a unit of study, a technical unit or a unit of measurement depending on the context.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "module",
+          "ownerNote": "Aizstāt LV accent tokenu ar faktiski esošo EN “module”. Learner-facing tip tekstu nemainīt, ja tas jau ir korekts."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 28,
@@ -2351,9 +2358,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Uniform",
+          "ownerNote": "einheitlich parasti nozīmē uniform / consistent, nevis united."
         },
         {
           "severity": "MEDIUM",
@@ -2367,9 +2374,18 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "einheitlich = uniform / consistent; einzig = the only one.",
+          "ownerNote": "“equal” nav labākais pamata skaidrojums. “uniform / consistent” precīzāk atspoguļo einheitlich."
+        }
+      ],
+      "ownerCardVerdict": "LABOT",
+      "ownerAssociatedRepairs": [
+        {
+          "field": "lv",
+          "currentEn": "United",
+          "ownerFinalEn": "Uniform",
+          "ownerNote": "Front translation un study.translation nedrīkst konfliktēt."
         }
       ]
     },
@@ -2399,9 +2415,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Collect\" differs from audit Current EN \"The runner catches up with the other.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The runner catches up with the other runner.",
+          "ownerNote": "Novērst neskaidro “the other”."
         },
         {
           "severity": "HIGH",
@@ -2415,9 +2431,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Collect\" differs from audit Current EN \"The runner catches up with the other.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Collect / obtain / catch up with",
+          "ownerNote": "“achieve” nav einholen nozīme. OWNER izvēlas “obtain” nevis “receive”, jo information/advice/permission kontekstā “obtain” ir dabiskāks."
         },
         {
           "severity": "HIGH",
@@ -2431,9 +2447,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Collect\" differs from audit Current EN \"The runner catches up with the other.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "You can obtain information, advice, or permission with einholen; you can also einholen another runner = catch up with them.",
+          "ownerNote": "Dabiskot EN un precīzi saglabāt abas einholen nozīmes."
         },
         {
           "severity": "HIGH",
@@ -2447,9 +2463,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Collect\" differs from audit Current EN \"The runner catches up with the other.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Genehmigung",
+          "ownerNote": "Tiešs vācu spelling repair learner-facing EN laukā."
         },
         {
           "severity": "LOW",
@@ -2463,11 +2479,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Collect\" differs from audit Current EN \"The runner catches up with the other.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "advice",
+          "ownerNote": "LV accent target jāaizstāj ar matching EN token."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 30,
@@ -2495,9 +2512,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Use\" differs from audit Current EN \"Firefighters have been on call for two hours.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The firefighters have been on duty for two hours.",
+          "ownerNote": "im Einsatz šeit visdabiskāk ir “on duty”. “deployed” ir iespējams, bet šajā vispārīgajā piemērā pārāk specifisks."
         },
         {
           "severity": "HIGH",
@@ -2511,9 +2528,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Use\" differs from audit Current EN \"Firefighters have been on call for two hours.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Use / deployment / stake",
+          "ownerNote": "Einsatz aptver use/deployment un gambling stake. “rate” ir nepareizi; “involvement” šeit nav tik precīzs kā deployment."
         },
         {
           "severity": "MEDIUM",
@@ -2527,9 +2544,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Use\" differs from audit Current EN \"Firefighters have been on call for two hours.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "zum Einsatz kommen. In games, Einsatz can also mean a stake.",
+          "ownerNote": "Izlabot bojāto bullet sentence break un “bet” → “stake”."
         },
         {
           "severity": "MEDIUM",
@@ -2543,9 +2560,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Use\" differs from audit Current EN \"Firefighters have been on call for two hours.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "With Einsatz, ask what is being used or deployed, and in what situation.",
+          "ownerNote": "“Who” ir pārāk šaurs; “used or deployed” labāk sasaista galvenās mācāmās nozīmes."
         },
         {
           "severity": "LOW",
@@ -2559,11 +2576,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Use\" differs from audit Current EN \"Firefighters have been on call for two hours.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "used, deployed",
+          "ownerNote": "Aizstāt LV accent tokenu ar matching EN learner-facing targets."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 31,
@@ -4029,5 +4047,14 @@
     "findingsOwnerResolved": 37,
     "pendingInBlock2": 0,
     "completedAt": "2026-08-09T10:26:48.566Z"
+  },
+  "ownerReviewBlock3": {
+    "block": "3/5",
+    "cardsReviewed": 10,
+    "labot": 10,
+    "nelabot": 0,
+    "findingsOwnerResolved": 27,
+    "pendingInBlock3": 0,
+    "completedAt": "2026-08-09T10:30:46.631Z"
   }
 }
