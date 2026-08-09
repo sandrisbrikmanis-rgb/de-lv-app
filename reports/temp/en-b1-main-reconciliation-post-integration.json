@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-09T14:14:20.195Z",
-  "mainCommit": "bb454773f67695f0ec28198a4f72c86fb606e0dd",
+  "generatedAt": "2026-08-09T14:31:37.822Z",
+  "mainCommit": "b9b1491a8e58d66664c37f2f30dea2fea499c6d4",
   "pass": true,
   "finalResult": "EN–DE B1 MAIN RECONCILIATION: PASS",
   "closureStatus": "NOT YET RECONFIRMED — TARGETED REGRESSION REQUIRED",
-  "repairCyclesDiscovered": 17,
-  "repairCyclesReconciled": 17,
+  "repairCyclesDiscovered": 18,
+  "repairCyclesReconciled": 18,
   "highCyclesRepresented": 13,
   "regressionRepresented": true,
   "sectionAccentRepresented": true,
-  "rawMappingCount": 1237,
-  "finalMappingCount": 1135,
-  "presentInMain": 1135,
+  "rawMappingCount": 1244,
+  "finalMappingCount": 1139,
+  "presentInMain": 1139,
   "missingFromMain": 0,
   "supersededCount": 0,
   "fieldNotFound": 0,
@@ -19,9 +19,9 @@
   "highCycleTable": {
     "1": {
       "approved": 59,
-      "present": 51,
+      "present": 49,
       "missing": 2,
-      "superseded": 6,
+      "superseded": 8,
       "fieldNotFound": 0,
       "identityNotFound": 0
     },
@@ -91,9 +91,9 @@
     },
     "10": {
       "approved": 123,
-      "present": 113,
+      "present": 112,
       "missing": 10,
-      "superseded": 0,
+      "superseded": 1,
       "fieldNotFound": 0,
       "identityNotFound": 0
     },
@@ -157,6 +157,11 @@
       {
         "cardId": "b1-entlassen",
         "field": "study.explanation",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.tip.leftBlocks[0].text",
         "status": "resolved_via_later_repair"
       },
       {
@@ -265,6 +270,11 @@
         "status": "resolved_via_later_repair"
       },
       {
+        "cardId": "b1-zeugnis",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
+      },
+      {
         "cardId": "b1-sich-befinden-study",
         "field": "study.tip.leftBlocks[1].text",
         "status": "resolved_via_later_repair"
@@ -291,6 +301,11 @@
       },
       {
         "cardId": "b1-entlassen",
+        "field": "study.tip.leftBlocks[0].text",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
         "field": "study.important.text",
         "status": "resolved_via_later_repair"
       },
@@ -313,14 +328,14 @@
         "cardId": "b1-schlag",
         "field": "study.important",
         "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-zeugnis",
+        "field": "study.important.text",
+        "status": "resolved_via_later_repair"
       }
     ],
     "unresolved": [
-      {
-        "cardId": "b1-entlassen",
-        "field": "study.tip.leftBlocks[0].text",
-        "reason": "no_owner_final_repair"
-      },
       {
         "cardId": "b1-hort",
         "field": "study.explanation[3]",
@@ -352,23 +367,8 @@
         "reason": "no_owner_final_repair"
       },
       {
-        "cardId": "b1-zeugnis",
-        "field": "study.important.text",
-        "reason": "no_owner_final_repair"
-      },
-      {
-        "cardId": "b1-entlassen",
-        "field": "study.tip.leftBlocks[0].text",
-        "reason": "no_owner_final_repair"
-      },
-      {
         "cardId": "b1-hort",
         "field": "study.explanation[3]",
-        "reason": "no_owner_final_repair"
-      },
-      {
-        "cardId": "b1-zeugnis",
-        "field": "study.important.text",
         "reason": "no_owner_final_repair"
       },
       {
@@ -446,7 +446,7 @@
     },
     "validateStudyDesign": {
       "ok": false,
-      "out": "{\n  \"lang\": \"en\",\n  \"totals\": {\n    \"total\": 9603,\n    \"noStudy\": 8838,\n    \"flashcard\": 8859,\n    \"standardStudy\": 695,\n    \"minimalStudy\": 49,\n    \"comparisonStudy\": 0,\n    \"studyObjectNoRenderable\": 21,\n    \"sectionAccentIssues\": 54,\n    \"emptySectionAccents\": 0\n  },\n  \"perFile\": [\n    {\n      \"file\": \"data/en/a1.js\",\n      \"total\": 702,\n      \"noStudy\": 568,\n      \"flashcard\": 568,\n      \"standardStudy\": 134,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 34,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"social visit\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"important\",\n            \"field\": null\n          },\n          {\n            \"de\": \"besuchen\",\n            \"term\": \"besuchen\",\n            \"section\": \"tip\",\n            \"field\": \"left\"\n          },\n          {\n            \"de\": \"Bitte\",\n            \"term\": \"Little\",\n            \"section\": \"tip\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/a2.js\",\n      \"total\": 1640,\n      \"noStudy\": 1409,\n      \"flashcard\": 1427,\n      \"standardStudy\": 207,\n      \"minimalStudy\": 6,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 18,\n      \"sectionAccentIssues\": 14,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Aschenputtel\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Gott\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Keller\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kellner\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kerl\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"brennen\",\n            \"term\": \"deg\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"brennen\",\n            \"term\": \"kaut\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"lai\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"tam\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"par to\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b1.js\",\n      \"total\": 3367,\n      \"noStudy\": 3043,\n      \"flashcard\": 3044,\n      \"standardStudy\": 323,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 1,\n      \"sectionAccentIssues\": 6,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Homosexuelle\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"Absatz\",\n            \"term\": \"The\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"bedeutend\",\n            \"term\": \"significantly\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"belegen\",\n            \"term\": \"busy\",\n            \"section\": \"important\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Berühmtheit\",\n            \"term\": \"null\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"einerlei\",\n            \"term\": \"doesn't matter\",\n            \"section\": \"explanation\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b2.js\",\n      \"total\": 2118,\n      \"noStudy\": 2058,\n      \"flashcard\": 2060,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 43,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 2,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"sich verlaufen\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"verlaufen\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c1.js\",\n      \"total\": 572,\n      \"noStudy\": 557,\n      \"flashcard\": 557,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c2.js\",\n      \"total\": 219,\n      \"noStudy\": 218,\n      \"flashcard\": 218,\n      \"standardStudy\": 1,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/sentences.js\",\n      \"total\": 796,\n      \"noStudy\": 796,\n      \"flashcard\": 796,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/verbs.js\",\n      \"total\": 189,\n      \"noStudy\": 189,\n      \"flashcard\": 189,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/courseLessons.js\",\n      \"skipped\": true,\n      \"reason\": \"not a flashcard array\"\n    }\n  ],\n  \"rootWwwMismatches\": [],\n  \"pass\": false\n}\nCommand failed: node scripts/validate-study-design.js --lang=en"
+      "out": "{\n  \"lang\": \"en\",\n  \"totals\": {\n    \"total\": 9603,\n    \"noStudy\": 8838,\n    \"flashcard\": 8859,\n    \"standardStudy\": 695,\n    \"minimalStudy\": 49,\n    \"comparisonStudy\": 0,\n    \"studyObjectNoRenderable\": 21,\n    \"sectionAccentIssues\": 52,\n    \"emptySectionAccents\": 0\n  },\n  \"perFile\": [\n    {\n      \"file\": \"data/en/a1.js\",\n      \"total\": 702,\n      \"noStudy\": 568,\n      \"flashcard\": 568,\n      \"standardStudy\": 134,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 34,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"social visit\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"important\",\n            \"field\": null\n          },\n          {\n            \"de\": \"besuchen\",\n            \"term\": \"besuchen\",\n            \"section\": \"tip\",\n            \"field\": \"left\"\n          },\n          {\n            \"de\": \"Bitte\",\n            \"term\": \"Little\",\n            \"section\": \"tip\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/a2.js\",\n      \"total\": 1640,\n      \"noStudy\": 1409,\n      \"flashcard\": 1427,\n      \"standardStudy\": 207,\n      \"minimalStudy\": 6,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 18,\n      \"sectionAccentIssues\": 14,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Aschenputtel\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Gott\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Keller\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kellner\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kerl\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"brennen\",\n            \"term\": \"deg\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"brennen\",\n            \"term\": \"kaut\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"lai\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"tam\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"par to\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b1.js\",\n      \"total\": 3367,\n      \"noStudy\": 3043,\n      \"flashcard\": 3044,\n      \"standardStudy\": 323,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 1,\n      \"sectionAccentIssues\": 4,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Homosexuelle\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"Absatz\",\n            \"term\": \"The\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"bedeutend\",\n            \"term\": \"significantly\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"belegen\",\n            \"term\": \"busy\",\n            \"section\": \"important\",\n            \"field\": null\n          },\n          {\n            \"de\": \"einerlei\",\n            \"term\": \"doesn't matter\",\n            \"section\": \"explanation\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b2.js\",\n      \"total\": 2118,\n      \"noStudy\": 2058,\n      \"flashcard\": 2060,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 43,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 2,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"sich verlaufen\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"verlaufen\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c1.js\",\n      \"total\": 572,\n      \"noStudy\": 557,\n      \"flashcard\": 557,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c2.js\",\n      \"total\": 219,\n      \"noStudy\": 218,\n      \"flashcard\": 218,\n      \"standardStudy\": 1,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/sentences.js\",\n      \"total\": 796,\n      \"noStudy\": 796,\n      \"flashcard\": 796,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/verbs.js\",\n      \"total\": 189,\n      \"noStudy\": 189,\n      \"flashcard\": 189,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/courseLessons.js\",\n      \"skipped\": true,\n      \"reason\": \"not a flashcard array\"\n    }\n  ],\n  \"rootWwwMismatches\": [],\n  \"pass\": false\n}\nCommand failed: node scripts/validate-study-design.js --lang=en"
     },
     "mirrorParity": true,
     "deReadOnly": true

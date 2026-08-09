@@ -8526,7 +8526,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "null"
+                "late"
               ]
             }
           },
@@ -20353,7 +20353,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose by location in Latvian."
+            "text": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context."
           }
         ]
       },
@@ -35918,12 +35918,6 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Lessons",
-            "exchange rate"
-          ]
-        },
         "important": {
           "purple": [
             "course",
@@ -37028,12 +37022,6 @@ const B1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Tree",
-            "fruit"
-          ]
-        },
         "important": {
           "purple": [
             "chestnut"
@@ -63017,7 +63005,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "ärztliches Zeugnis is often a doctor's certificate in Latvian, not a school certificate."
+        "text": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate."
       },
       "sectionAccents": {
         "explanation": {
@@ -63922,7 +63910,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "profession"
+                "teacher"
               ]
             }
           },

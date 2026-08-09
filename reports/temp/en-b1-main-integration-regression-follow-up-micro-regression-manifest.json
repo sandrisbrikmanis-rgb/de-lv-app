@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-08-09T14:32:39.694Z",
+  "scope": "EN–DE B1 MAIN INTEGRATION FOLLOW-UP MICRO-REGRESSION — 8 REPAIRS ONLY",
+  "status": "NOT STARTED",
+  "repairFindings": 8,
+  "uniqueRepairedCards": [
+    "b1-entlassen",
+    "b1-zeugnis",
+    "b1-berühmtheit",
+    "b1-kurs",
+    "b1-kastanie",
+    "b1-beruf"
+  ],
+  "fields": [
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 1",
+      "cardId": "b1-entlassen",
+      "fieldPath": "study.tip.leftBlocks[0].text",
+      "ownerFinal": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+      "action": "REPLACE"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 2",
+      "cardId": "b1-zeugnis",
+      "fieldPath": "study.important.text",
+      "ownerFinal": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate.",
+      "action": "REPLACE"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3",
+      "cardId": "b1-berühmtheit",
+      "fieldPath": "study.sectionAccents.examples[1].lv.purple[0]",
+      "ownerFinal": "late",
+      "action": "REPLACE"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 4",
+      "cardId": "b1-kurs",
+      "fieldPath": "study.sectionAccents.tip.purple",
+      "ownerFinal": [],
+      "action": "REMOVE"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 6",
+      "cardId": "b1-kastanie",
+      "fieldPath": "study.sectionAccents.tip.purple",
+      "ownerFinal": [],
+      "action": "REMOVE"
+    },
+    {
+      "findingId": "MAIN-INTEGRATION REGRESSION FINDING 8",
+      "cardId": "b1-beruf",
+      "fieldPath": "study.sectionAccents.examples[1].lv.purple[0]",
+      "ownerFinal": "teacher",
+      "action": "REPLACE"
+    }
+  ],
+  "verification": {
+    "generatedAt": "2026-08-09T14:32:39.694Z",
+    "ownerReview": {
+      "reviewed": 8,
+      "labot": 8,
+      "nelabot": 0,
+      "pending": 0
+    },
+    "repairsChecked": 6,
+    "appliedCorrectly": 6,
+    "mismatches": 0,
+    "results": [
+      {
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 1",
+        "cardId": "b1-entlassen",
+        "ok": true,
+        "detail": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context."
+      },
+      {
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 2",
+        "cardId": "b1-zeugnis",
+        "ok": true,
+        "detail": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate."
+      },
+      {
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3",
+        "cardId": "b1-berühmtheit",
+        "ok": true,
+        "detail": "late"
+      },
+      {
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 4",
+        "cardId": "b1-kurs",
+        "ok": true
+      },
+      {
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 6",
+        "cardId": "b1-kastanie",
+        "ok": true
+      },
+      {
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 8",
+        "cardId": "b1-beruf",
+        "ok": true,
+        "detail": "teacher"
+      }
+    ],
+    "metaPedagogy": {
+      "b1Entlassen": true,
+      "b1Zeugnis": true
+    },
+    "sectionAccents": {
+      "inScopeTechnical": 6,
+      "repaired": 4,
+      "invalidInScopeRemaining": 0
+    },
+    "preservation": {
+      "regressionPass": 214,
+      "regressionTotal": 214,
+      "regressionOverlapChecked": 73,
+      "regressionOverlapPass": 70,
+      "microPass": 16,
+      "microTotal": 16,
+      "sectionPass": 24,
+      "sectionTotal": 24,
+      "truncated": 0
+    },
+    "validation": {
+      "javascript": true,
+      "mirrorParity": true,
+      "deReadOnly": true,
+      "validateStudyDesignGlobalOutOfScope": 0
+    },
+    "pass": true
+  }
+}

@@ -49,6 +49,11 @@ const CYCLE_ORDER = [
   { id: "regression_repair", label: "Regression repair (214)", order: 14 },
   { id: "micro_regression", label: "Micro-regression follow-up (16)", order: 15 },
   { id: "sectionaccent_oos", label: "SectionAccent out-of-scope (24)", order: 16 },
+  {
+    id: "integration_regression_followup",
+    label: "Integration regression follow-up (8)",
+    order: 17,
+  },
 ];
 
 const MICRO_EXPLANATION_CARDS = [
@@ -645,6 +650,48 @@ function collectAllRawMappings() {
         expectedOwnerFinal: r.ownerFinalEn,
         sourceReport: "reports/en-b1-sectionaccent-out-of-scope-repair.md",
         sourceRepairLog: "reports/temp/en-b1-sectionaccent-out-of-scope-repair-log.json",
+      });
+    }
+  }
+
+  const followUp = loadJsonFromRepo(
+    "reports/temp/en-b1-main-integration-regression-follow-up-repair.json",
+    "",
+  );
+  if (followUp?.repairs) {
+    for (const r of followUp.repairs) {
+      if (r.pairedWithFindingId) continue;
+      if (r.ownerVerdict !== "LABOT") continue;
+      let expected = r.ownerFinal;
+      if (r.action === "REMOVE" && r.fieldPath === "study.sectionAccents.tip.purple") {
+        expected = "__REMOVE_ACCENT__";
+      }
+      all.push({
+        repairCycle: "integration_regression_followup",
+        findingId: r.findingId,
+        auditCardId: r.cardId,
+        productionIdentity: r.productionIdentity || normProd(r.cardId),
+        productionIndex: r.productionIndex,
+        fieldPath: r.fieldPath,
+        expectedOwnerFinal: expected,
+        sourceReport: "reports/en-b1-main-integration-regression-follow-up-repair.md",
+        sourceRepairLog: "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
+      });
+    }
+    const beruehmtheit = followUp.repairs.find(
+      (r) => r.cardId === "b1-berühmtheit" && r.fieldPath?.includes("examples[1]"),
+    );
+    if (beruehmtheit) {
+      all.push({
+        repairCycle: "integration_regression_followup",
+        findingId: `${beruehmtheit.findingId}-lv-purple-array`,
+        auditCardId: beruehmtheit.cardId,
+        productionIdentity: beruehmtheit.productionIdentity || normProd(beruehmtheit.cardId),
+        productionIndex: beruehmtheit.productionIndex,
+        fieldPath: "study.sectionAccents.examples[1].lv.purple",
+        expectedOwnerFinal: ["late"],
+        sourceReport: "reports/en-b1-main-integration-regression-follow-up-repair.md",
+        sourceRepairLog: "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
       });
     }
   }
