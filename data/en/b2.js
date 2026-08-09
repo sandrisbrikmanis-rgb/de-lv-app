@@ -439,7 +439,7 @@ const B2_WORDS = [
   },
   {
     "de": "abweisen",
-    "lv": "Reject • Reject",
+    "lv": "Reject • Turn away",
     "level": "B2"
   },
   {
@@ -680,7 +680,7 @@ const B2_WORDS = [
   },
   {
     "de": "ausströmen",
-    "lv": "Ooze • Emanate • Radiate",
+    "lv": "Flow out • Emanate • Radiate",
     "level": "B2"
   },
   {
@@ -715,7 +715,7 @@ const B2_WORDS = [
   },
   {
     "de": "auswerfen",
-    "lv": "To throw out • To throw out",
+    "lv": "To throw out • To eject",
     "level": "B2"
   },
   {
@@ -2146,7 +2146,7 @@ const B2_WORDS = [
     "de": "Dachziegel",
     "de_article": "der",
     "de_plural": "die Dachziegel",
-    "lv": "Tile",
+    "lv": "Roof tile",
     "level": "B2"
   },
   {
@@ -2342,7 +2342,7 @@ const B2_WORDS = [
   },
   {
     "de": "deinerseits",
-    "lv": "From your side",
+    "lv": "On your part",
     "level": "B2"
   },
   {
@@ -2410,7 +2410,7 @@ const B2_WORDS = [
   },
   {
     "de": "derartig",
-    "lv": "Such • Such • The like",
+    "lv": "Such • Of that kind",
     "level": "B2"
   },
   {
@@ -2454,7 +2454,7 @@ const B2_WORDS = [
     "de": "Dezernat",
     "de_article": "das",
     "de_plural": "die Dezernate",
-    "lv": "Department in the police",
+    "lv": "Police division",
     "level": "B2"
   },
   {
@@ -2652,7 +2652,7 @@ const B2_WORDS = [
   },
   {
     "de": "dornig",
-    "lv": "Prickly • Prickly",
+    "lv": "Thorny • Prickly",
     "level": "B2"
   },
   {
@@ -3226,7 +3226,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehrenvoll",
-    "lv": "Honorable • Honorable",
+    "lv": "Honorable",
     "level": "B2"
   },
   {
@@ -3287,7 +3287,7 @@ const B2_WORDS = [
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "Diligence • Diligence • Passion • Ardor • Eagerness",
+    "lv": "Zeal • Diligence • Passion • Ardor • Eagerness",
     "level": "B2"
   },
   {
@@ -3625,11 +3625,11 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-einschleichen",
       "layout": "minimalStudy",
-      "translation": "Sneak in • Sneak in",
+      "translation": "Sneak in • Creep in",
       "rektion": "in + the accusative",
       "explanation": "Sich einschleichen takes the fixed preposition in + the accusative.",
       "forms": "in + the accusative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3660,7 +3660,7 @@ const B2_WORDS = [
       "rektion": "auf + the accusative",
       "explanation": "Sich einschränken takes auf + the accusative when meaning ‘limit oneself to something’.",
       "forms": "auf + the accusative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3788,7 +3788,7 @@ const B2_WORDS = [
     "de": "Eisbrecher",
     "de_article": "der",
     "de_plural": "die Eisbrecher",
-    "lv": "Ice breaker",
+    "lv": "Icebreaker",
     "level": "B2"
   },
   {
@@ -3813,7 +3813,7 @@ const B2_WORDS = [
   },
   {
     "de": "eisfrei",
-    "lv": "Ice free • No ice",
+    "lv": "Ice-free • No ice",
     "level": "B2"
   },
   {
@@ -3879,7 +3879,7 @@ const B2_WORDS = [
       "rektion": "zu + kam?",
       "explanation": "Sich empfehlen takes the fixed preposition zu + the dative.",
       "forms": "zu + kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3913,7 +3913,7 @@ const B2_WORDS = [
       "rektion": "über + the accusative",
       "explanation": "Sich empören takes the fixed preposition über + the accusative.",
       "forms": "über + the accusative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4016,7 +4016,7 @@ const B2_WORDS = [
       "rektion": "von + kam?",
       "explanation": "Sich enthalten takes the fixed preposition von + the dative.",
       "forms": "von + kam?",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6531,7 +6531,7 @@ const B2_WORDS = [
   },
   {
     "de": "glimmen",
-    "lv": "To glow • To glow • To smolder",
+    "lv": "To glow • To smolder",
     "level": "B2"
   },
   {
@@ -6816,7 +6816,7 @@ const B2_WORDS = [
     "de": "Günstling",
     "de_article": "der",
     "de_plural": "die Günstlinge",
-    "lv": "favourite • Protégé",
+    "lv": "Favourite • Protégé",
     "level": "B2"
   },
   {
@@ -6865,7 +6865,7 @@ const B2_WORDS = [
   },
   {
     "de": "gutmütig",
-    "lv": "Kind hearted",
+    "lv": "Kind-hearted",
     "level": "B2"
   },
   {
@@ -7014,7 +7014,7 @@ const B2_WORDS = [
         },
         {
           "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Put the lid on the pot as a cover."
+          "lv": "Put the lid on the pot."
         }
       ],
       "tip": [
@@ -7621,7 +7621,7 @@ const B2_WORDS = [
         },
         {
           "de": "Ein Hoch auf dich!",
-          "lv": "Long live you!"
+          "lv": "Long may you live!"
         },
         {
           "de": "Morgen kommt ein Hoch.",
@@ -8988,7 +8988,7 @@ const B2_WORDS = [
     "de": "Meeresspiegel",
     "de_article": "der",
     "de_plural": "die Meeresspiegel",
-    "lv": "Sea ​​level",
+    "lv": "Sea level",
     "level": "B2"
   },
   {
@@ -9131,7 +9131,7 @@ const B2_WORDS = [
   },
   {
     "de": "missglücken",
-    "lv": "Fail • Fail",
+    "lv": "Fail • Go wrong",
     "level": "B2"
   },
   {
@@ -9223,12 +9223,12 @@ const B2_WORDS = [
   {
     "de": "Muße",
     "de_article": "die",
-    "lv": "Free time • Free time",
+    "lv": "Free time • Leisure",
     "level": "B2"
   },
   {
     "de": "müßig",
-    "lv": "Idle • Idle",
+    "lv": "Idle • Inactive",
     "level": "B2"
   },
   {
@@ -9254,7 +9254,7 @@ const B2_WORDS = [
     "de": "Nachbildung",
     "de_article": "die",
     "de_plural": "die Nachbildungen",
-    "lv": "Imitation • Imitation",
+    "lv": "Replica • Imitation",
     "level": "B2"
   },
   {
@@ -11380,7 +11380,7 @@ const B2_WORDS = [
   },
   {
     "de": "sensibel",
-    "lv": "Sensitive • Sensitive",
+    "lv": "Sensitive • Delicate",
     "level": "B2"
   },
   {
@@ -13218,7 +13218,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich vermehren",
-    "lv": "Multiplying",
+    "lv": "To multiply",
     "level": "B2"
   },
   {
@@ -13414,7 +13414,7 @@ const B2_WORDS = [
   },
   {
     "de": "vertagen",
-    "lv": "Postpone • Put down",
+    "lv": "Postpone • Adjourn",
     "level": "B2"
   },
   {
@@ -13648,7 +13648,7 @@ const B2_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "Require • Be a prerequisite",
+    "lv": "Require • Presuppose",
     "level": "B2"
   },
   {
@@ -13744,7 +13744,7 @@ const B2_WORDS = [
     "de": "Vorspiel",
     "de_article": "das",
     "de_plural": "die Vorspiele",
-    "lv": "Prologue • Prelude • Overture",
+    "lv": "Foreplay • Prelude • Overture",
     "level": "B2"
   },
   {
@@ -13758,7 +13758,7 @@ const B2_WORDS = [
     "de": "Vorstand",
     "de_article": "der",
     "de_plural": "die Vorstände",
-    "lv": "Board • Boss • Management • Boss",
+    "lv": "Executive board • Management",
     "level": "B2"
   },
   {
@@ -13862,7 +13862,7 @@ const B2_WORDS = [
     "de": "Wahlkampf",
     "de_article": "der",
     "de_plural": "die Wahlkämpfe",
-    "lv": "Election battle",
+    "lv": "Election campaign",
     "level": "B2"
   },
   {
@@ -14127,7 +14127,7 @@ const B2_WORDS = [
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "Race • Race",
+    "lv": "Race • Competition",
     "level": "B2"
   },
   {
@@ -14208,7 +14208,7 @@ const B2_WORDS = [
   },
   {
     "de": "wiedergeben",
-    "lv": "Give • Reproduce • Reproduce",
+    "lv": "Give back • Reproduce • Render",
     "level": "B2"
   },
   {
@@ -14231,7 +14231,7 @@ const B2_WORDS = [
   },
   {
     "de": "winden",
-    "lv": "Twist • Twist • Braid",
+    "lv": "Twist • Wind • Braid",
     "level": "B2"
   },
   {
@@ -14295,7 +14295,7 @@ const B2_WORDS = [
   },
   {
     "de": "zürnen",
-    "lv": "Getting angry",
+    "lv": "To be angry",
     "level": "B2"
   },
   {
@@ -14322,7 +14322,7 @@ const B2_WORDS = [
   },
   {
     "de": "zusammenlegen",
-    "lv": "Put • Put [together]",
+    "lv": "Put together • Combine",
     "level": "B2"
   },
   {
@@ -14337,7 +14337,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuteilen",
-    "lv": "Assign • Assign",
+    "lv": "Allocate • Assign",
     "level": "B2"
   },
   {
@@ -14366,8 +14366,8 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "Assign • Assign",
-      "explanation": "Main idea: zuweisen means to officially assign or assign—a task, role, resource, or money to a specific person or department. Divisible: weise ... zu.",
+      "translation": "Assign • Allocate",
+      "explanation": "Main idea: zuweisen means to officially assign or allocate a task, role, resource, or money to a specific person or department. Separable: weise ... zu.",
       "examples": [
         {
           "de": "Der Chef weist ihm eine neue Aufgabe zu.",
@@ -14407,7 +14407,7 @@ const B2_WORDS = [
         ]
       },
       "important": {
-        "text": "zuweisen = to assign or assign officially. Perfect: assigned. Divisible: weise ... zu."
+        "text": "zuweisen = to officially assign or allocate. Perfect: zugewiesen. Separable: weise ... zu."
       },
       "sectionAccents": {
         "explanation": {
@@ -14471,7 +14471,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "Against • Contrary to • Dislike",
+      "translation": "Against • Contrary to • Be distasteful to",
       "explanation": "Main idea: zuwider is a word with multiple functions. As a preposition + dative, it means \"against, contrary to\": mir zuwider. In the expressions jemandem zuwider sein/laufen, it means \"to be distasteful or objectionable to someone\". Do not confuse it with wider (against).",
       "examples": [
         {
