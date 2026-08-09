@@ -9208,7 +9208,7 @@ const B1_WORDS = [
     "de": "Bestandteil",
     "de_article": "der",
     "de_plural": "die Bestandteile",
-    "lv": "Ingredient",
+    "lv": "Component / part",
     "level": "B1"
   },
   {
@@ -9625,7 +9625,7 @@ const B1_WORDS = [
   },
   {
     "de": "betreiben",
-    "lv": "To lead",
+    "lv": "To run / operate",
     "level": "B1"
   },
   {
@@ -9811,14 +9811,14 @@ const B1_WORDS = [
   },
   {
     "de": "beugen",
-    "lv": "To put",
+    "lv": "To bend",
     "level": "B1"
   },
   {
     "de": "Beule",
     "de_article": "die",
     "de_plural": "die Beulen",
-    "lv": "Pun",
+    "lv": "Bump / dent",
     "level": "B1"
   },
   {
@@ -9837,7 +9837,7 @@ const B1_WORDS = [
     "de": "Bevölkerung",
     "de_article": "die",
     "de_plural": "die Bevölkerungen",
-    "lv": "Residents",
+    "lv": "Population",
     "level": "B1"
   },
   {
@@ -9847,7 +9847,7 @@ const B1_WORDS = [
   },
   {
     "de": "bewachen",
-    "lv": "To protect",
+    "lv": "To guard / watch over",
     "level": "B1"
   },
   {
@@ -10039,7 +10039,7 @@ const B1_WORDS = [
   },
   {
     "de": "bewirten",
-    "lv": "To tolerate",
+    "lv": "To host / serve guests",
     "level": "B1"
   },
   {
@@ -10281,7 +10281,7 @@ const B1_WORDS = [
   },
   {
     "de": "biegen",
-    "lv": "To put",
+    "lv": "To bend",
     "level": "B1"
   },
   {
@@ -10619,7 +10619,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich blamieren",
-    "lv": "Get confused",
+    "lv": "To embarrass oneself",
     "level": "B1"
   },
   {
@@ -11396,7 +11396,7 @@ const B1_WORDS = [
     "de": "Bombe",
     "de_article": "die",
     "de_plural": "die Bomben",
-    "lv": "Ball",
+    "lv": "Bomb",
     "level": "B1"
   },
   {
@@ -11777,7 +11777,7 @@ const B1_WORDS = [
     "de": "Brathuhn",
     "de_article": "das",
     "de_plural": "die Brathühner",
-    "lv": "Fried chicken",
+    "lv": "Roast chicken",
     "level": "B1"
   },
   {
@@ -11876,7 +11876,7 @@ const B1_WORDS = [
     "de": "Brieftasche",
     "de_article": "die",
     "de_plural": "die Brieftaschen",
-    "lv": "Pocket briefcase",
+    "lv": "Wallet",
     "level": "B1"
   },
   {
@@ -14114,7 +14114,7 @@ const B1_WORDS = [
   },
   {
     "de": "desto",
-    "lv": "Because",
+    "lv": "The more ... the more ... / all the more",
     "level": "B1"
   },
   {
@@ -14411,7 +14411,7 @@ const B1_WORDS = [
     "de": "Dose",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "Box",
+    "lv": "Can / tin",
     "level": "B1"
   },
   {
@@ -14468,7 +14468,7 @@ const B1_WORDS = [
   },
   {
     "de": "dritt",
-    "lv": "Thirdly",
+    "lv": "Third",
     "level": "B1"
   },
   {
@@ -14714,7 +14714,7 @@ const B1_WORDS = [
   {
     "de": "Durcheinander",
     "de_article": "das",
-    "lv": "Juku jukam • A mess",
+    "lv": "A muddle / a mess",
     "level": "B1"
   },
   {
@@ -15136,7 +15136,7 @@ const B1_WORDS = [
   },
   {
     "de": "ehemals",
-    "lv": "Earlier",
+    "lv": "Formerly",
     "level": "B1"
   },
   {
@@ -15518,7 +15518,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich eignen",
-    "lv": "To bet",
+    "lv": "To be suitable",
     "level": "B1"
   },
   {
@@ -18516,7 +18516,7 @@ const B1_WORDS = [
   },
   {
     "de": "einigermaßen",
-    "lv": "Half way",
+    "lv": "To some extent / more or less",
     "level": "B1"
   },
   {
@@ -18569,7 +18569,7 @@ const B1_WORDS = [
   },
   {
     "de": "einnehmen",
-    "lv": "To conceive",
+    "lv": "To take / occupy",
     "level": "B1"
   },
   {
@@ -18772,7 +18772,7 @@ const B1_WORDS = [
   },
   {
     "de": "einschließen",
-    "lv": "To count",
+    "lv": "To include / enclose",
     "level": "B1"
   },
   {
@@ -21000,7 +21000,7 @@ const B1_WORDS = [
   },
   {
     "de": "erfordern",
-    "lv": "Ask for",
+    "lv": "To require",
     "level": "B1"
   },
   {
@@ -21025,7 +21025,7 @@ const B1_WORDS = [
   },
   {
     "de": "erfüllen",
-    "lv": "To execute",
+    "lv": "To fulfil",
     "level": "B1"
   },
   {
@@ -21215,7 +21215,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich erhalten",
-    "lv": "To preserve",
+    "lv": "To remain preserved / survive",
     "level": "B1"
   },
   {
@@ -21242,7 +21242,7 @@ const B1_WORDS = [
     "de": "Erklärung",
     "de_article": "die",
     "de_plural": "die Erklärungen",
-    "lv": "Notification",
+    "lv": "Explanation / statement",
     "level": "B1"
   },
   {
