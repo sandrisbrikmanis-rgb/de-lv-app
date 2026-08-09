@@ -36114,7 +36114,7 @@ const B1_WORDS = [
   },
   {
     "de": "kuscheln",
-    "lv": "To pat",
+    "lv": "To cuddle / to snuggle",
     "level": "B1"
   },
   {
@@ -37300,14 +37300,14 @@ const B1_WORDS = [
   },
   {
     "de": "ländlich",
-    "lv": "Field",
+    "lv": "Rural",
     "level": "B1"
   },
   {
     "de": "Landstraße",
     "de_article": "die",
     "de_plural": "die Landstraßen",
-    "lv": "Highway",
+    "lv": "Country road",
     "level": "B1"
   },
   {
@@ -37326,7 +37326,7 @@ const B1_WORDS = [
   },
   {
     "de": "längs",
-    "lv": "Long",
+    "lv": "Along",
     "level": "B1"
   },
   {
@@ -37616,7 +37616,7 @@ const B1_WORDS = [
     "de": "Leertaste",
     "de_article": "die",
     "de_plural": "die Leertasten",
-    "lv": "Long space bar",
+    "lv": "Space bar",
     "level": "B1"
   },
   {
@@ -37633,7 +37633,7 @@ const B1_WORDS = [
   },
   {
     "de": "lehnen",
-    "lv": "Push",
+    "lv": "To lean",
     "level": "B1"
   },
   {
@@ -37710,7 +37710,7 @@ const B1_WORDS = [
     "de": "Leine",
     "de_article": "die",
     "de_plural": "die Leinen",
-    "lv": "Accompany",
+    "lv": "Leash",
     "level": "B1"
   },
   {
@@ -38117,7 +38117,7 @@ const B1_WORDS = [
     "de": "Lieferwagen",
     "de_article": "der",
     "de_plural": "die Lieferwagen",
-    "lv": "A small truck for the removal of goods",
+    "lv": "Delivery van",
     "level": "B1"
   },
   {
@@ -38163,7 +38163,7 @@ const B1_WORDS = [
     "de": "Linkshänder",
     "de_article": "der",
     "de_plural": "die Linkshänder",
-    "lv": "Left-handed",
+    "lv": "Left-handed person",
     "level": "B1"
   },
   {
@@ -38191,7 +38191,7 @@ const B1_WORDS = [
     "de": "Locke",
     "de_article": "die",
     "de_plural": "die Locken",
-    "lv": "Sprung",
+    "lv": "Curl",
     "level": "B1"
   },
   {
@@ -38347,7 +38347,7 @@ const B1_WORDS = [
     "de": "Loge",
     "de_article": "die",
     "de_plural": "die Logen",
-    "lv": "Lodge",
+    "lv": "Box (in a theatre)",
     "level": "B1"
   },
   {
@@ -39215,7 +39215,7 @@ const B1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Sign",
+    "lv": "Time / occasion",
     "level": "B1"
   },
   {
@@ -39246,7 +39246,7 @@ const B1_WORDS = [
   },
   {
     "de": "mangeln",
-    "lv": "Missing",
+    "lv": "To lack",
     "level": "B1"
   },
   {
@@ -39487,7 +39487,7 @@ const B1_WORDS = [
     "de": "Maßnahme",
     "de_article": "die",
     "de_plural": "die Maßnahmen",
-    "lv": "Event",
+    "lv": "Measure / action",
     "level": "B1"
   },
   {
@@ -39563,7 +39563,7 @@ const B1_WORDS = [
   },
   {
     "de": "meinetwegen",
-    "lv": "After me",
+    "lv": "For my sake / if you like",
     "level": "B1"
   },
   {
@@ -39873,7 +39873,7 @@ const B1_WORDS = [
     "de": "Mobbing",
     "de_article": "das",
     "de_plural": "die Mobbinge",
-    "lv": "Psychoterror",
+    "lv": "Bullying",
     "level": "B1"
   },
   {
@@ -39932,7 +39932,7 @@ const B1_WORDS = [
     "de": "Monatsgehalt",
     "de_article": "das",
     "de_plural": "die Monatsgehälter",
-    "lv": "Salary of a clerk or servant",
+    "lv": "Monthly salary",
     "level": "B1"
   },
   {
@@ -39945,7 +39945,7 @@ const B1_WORDS = [
   {
     "de": "Mondschein",
     "de_article": "der",
-    "lv": "Moon house",
+    "lv": "Moonlight",
     "level": "B1"
   },
   {
@@ -40098,7 +40098,7 @@ const B1_WORDS = [
     "de": "Mumps",
     "de_article": "der",
     "de_plural": "die Mumpse",
-    "lv": "Piggies",
+    "lv": "Mumps",
     "level": "B1"
   },
   {
@@ -40588,7 +40588,7 @@ const B1_WORDS = [
   },
   {
     "de": "nachholen",
-    "lv": "Recover the missed",
+    "lv": "To catch up on",
     "level": "B1"
   },
   {
@@ -40617,7 +40617,7 @@ const B1_WORDS = [
     "de": "Nachteil",
     "de_article": "der",
     "de_plural": "die Nachteile",
-    "lv": "Loss",
+    "lv": "Disadvantage",
     "level": "B1"
   },
   {
@@ -40636,7 +40636,7 @@ const B1_WORDS = [
   },
   {
     "de": "nächtlich",
-    "lv": "Night-",
+    "lv": "Nocturnal",
     "level": "B1"
   },
   {
@@ -40650,7 +40650,7 @@ const B1_WORDS = [
     "de": "Nacken",
     "de_article": "der",
     "de_plural": "die Nacken",
-    "lv": "Scoundrel",
+    "lv": "Back of the neck / nape",
     "level": "B1"
   },
   {
@@ -40725,7 +40725,7 @@ const B1_WORDS = [
     "de": "Nebensache",
     "de_article": "die",
     "de_plural": "die Nebensachen",
-    "lv": "Next thing",
+    "lv": "Minor matter",
     "level": "B1"
   },
   {
@@ -40737,12 +40737,12 @@ const B1_WORDS = [
   },
   {
     "de": "neblig",
-    "lv": "Nebula",
+    "lv": "Foggy",
     "level": "B1"
   },
   {
     "de": "necken",
-    "lv": "Squeal",
+    "lv": "To tease",
     "level": "B1"
   },
   {
@@ -41546,7 +41546,7 @@ const B1_WORDS = [
     "de": "Notfall",
     "de_article": "der",
     "de_plural": "die Notfälle",
-    "lv": "A case of extreme necessity",
+    "lv": "An emergency",
     "level": "B1"
   },
   {
@@ -41822,7 +41822,7 @@ const B1_WORDS = [
   },
   {
     "de": "nutzlos",
-    "lv": "Vain",
+    "lv": "Useless",
     "level": "B1"
   },
   {
@@ -42259,7 +42259,7 @@ const B1_WORDS = [
     "de": "Opernhaus",
     "de_article": "das",
     "de_plural": "die Opernhäuser",
-    "lv": "Opera",
+    "lv": "Opera house",
     "level": "B1"
   },
   {
@@ -42605,7 +42605,7 @@ const B1_WORDS = [
     "de": "Overall",
     "de_article": "der",
     "de_plural": "die Overalls",
-    "lv": "Work overalls",
+    "lv": "Coverall / overalls",
     "level": "B1"
   },
   {
@@ -42630,7 +42630,7 @@ const B1_WORDS = [
     "de": "Palast",
     "de_article": "der",
     "de_plural": "die Paläste",
-    "lv": "Castle",
+    "lv": "Palace",
     "level": "B1"
   },
   {
@@ -42644,7 +42644,7 @@ const B1_WORDS = [
     "de": "Panne",
     "de_article": "die",
     "de_plural": "die Pannen",
-    "lv": "A quibble",
+    "lv": "Breakdown / mishap",
     "level": "B1"
   },
   {
@@ -42719,7 +42719,7 @@ const B1_WORDS = [
     "de": "Parterre",
     "de_article": "das",
     "de_plural": "die Parterres",
-    "lv": "First floor",
+    "lv": "Ground floor",
     "level": "B1"
   },
   {
@@ -42747,7 +42747,7 @@ const B1_WORDS = [
     "de": "Paste",
     "de_article": "die",
     "de_plural": "die Pasten",
-    "lv": "Mail",
+    "lv": "Paste",
     "level": "B1"
   },
   {
@@ -42780,7 +42780,7 @@ const B1_WORDS = [
   },
   {
     "de": "peinlich",
-    "lv": "Unpleasant",
+    "lv": "Embarrassing / awkward",
     "level": "B1"
   },
   {
@@ -42820,7 +42820,7 @@ const B1_WORDS = [
   },
   {
     "de": "per",
-    "lv": "Pa",
+    "lv": "Per",
     "level": "B1"
   },
   {
@@ -42956,7 +42956,7 @@ const B1_WORDS = [
     "de": "Personalabteilung",
     "de_article": "die",
     "de_plural": "die Personalabteilungen",
-    "lv": "Staff part",
+    "lv": "HR department / personnel department",
     "level": "B1"
   },
   {
@@ -42998,7 +42998,7 @@ const B1_WORDS = [
     "de": "Pfarrer",
     "de_article": "der",
     "de_plural": "die Pfarrer",
-    "lv": "Teacher",
+    "lv": "Pastor / parish priest",
     "level": "B1"
   },
   {
@@ -43224,7 +43224,7 @@ const B1_WORDS = [
   },
   {
     "de": "pflügen",
-    "lv": "Art",
+    "lv": "To plow",
     "level": "B1"
   },
   {
@@ -43266,7 +43266,7 @@ const B1_WORDS = [
     "de": "Pier",
     "de_article": "der",
     "de_plural": "die Piers",
-    "lv": "Mole",
+    "lv": "Pier",
     "level": "B1"
   },
   {
@@ -43374,7 +43374,7 @@ const B1_WORDS = [
   },
   {
     "de": "plump",
-    "lv": "Gluttonous",
+    "lv": "Plump",
     "level": "B1"
   },
   {
@@ -43609,7 +43609,7 @@ const B1_WORDS = [
   },
   {
     "de": "poltern",
-    "lv": "To grind",
+    "lv": "To make a racket / to clatter",
     "level": "B1"
   },
   {
@@ -43780,7 +43780,7 @@ const B1_WORDS = [
     "de": "Postfach",
     "de_article": "das",
     "de_plural": "die Postfächer",
-    "lv": "Subscription box at the post office",
+    "lv": "Post office box",
     "level": "B1"
   },
   {
@@ -44075,14 +44075,14 @@ const B1_WORDS = [
     "de": "Prozentsatz",
     "de_article": "der",
     "de_plural": "die Prozentsätze",
-    "lv": "Interest rate",
+    "lv": "Percentage / percentage rate",
     "level": "B1"
   },
   {
     "de": "Prüfzeit",
     "de_article": "die",
     "de_plural": "die Prüfzeiten",
-    "lv": "Probationary period",
+    "lv": "Test period / testing period",
     "level": "B1"
   },
   {
@@ -44287,12 +44287,12 @@ const B1_WORDS = [
     "de": "Radspur",
     "de_article": "die",
     "de_plural": "die Radspuren",
-    "lv": "Wheel rail",
+    "lv": "Wheel track",
     "level": "B1"
   },
   {
     "de": "ragen",
-    "lv": "To lean",
+    "lv": "To protrude / to project",
     "level": "B1"
   },
   {
@@ -44764,7 +44764,7 @@ const B1_WORDS = [
   },
   {
     "de": "ratlos",
-    "lv": "Distracted",
+    "lv": "Perplexed / at a loss",
     "level": "B1"
   },
   {
@@ -44797,7 +44797,7 @@ const B1_WORDS = [
   },
   {
     "de": "rauben",
-    "lv": "Kidnap",
+    "lv": "To rob / to steal",
     "level": "B1"
   },
   {
@@ -45344,7 +45344,7 @@ const B1_WORDS = [
     "de": "Reh",
     "de_article": "das",
     "de_plural": "die Rehe",
-    "lv": "Doe",
+    "lv": "Roe deer",
     "level": "B1"
   },
   {
