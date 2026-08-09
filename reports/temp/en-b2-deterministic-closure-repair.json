@@ -1,0 +1,406 @@
+{
+  "generatedAt": "2026-08-09T18:17:16.870Z",
+  "branch": "cursor/en-b2-full-audit-6850",
+  "pr": "#376",
+  "preClosureCommit": "18735173",
+  "finalCommit": "bdc6e2cc9eb881f6d874cd8896c7308e6d9b103a",
+  "group1": {
+    "reviewed": 50,
+    "applyExpected": 49,
+    "applied": 49,
+    "keep": 1,
+    "mismatch": 0,
+    "details": [
+      {
+        "cardId": "b2-Affäre-76",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Affair • Love affair",
+        "actual": "Affair • Love affair"
+      },
+      {
+        "cardId": "b2-anbieten",
+        "fieldPath": "study.important.text",
+        "status": "EXACT_MATCH",
+        "expected": "anbieten = to offer actively. Divisible: biete ... an. Perfect: angeboten.",
+        "actual": "anbieten = to offer actively. Divisible: biete ... an. Perfect: angeboten."
+      },
+      {
+        "cardId": "b2-anbrechen-25",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "To begin • Break open",
+        "actual": "To begin • Break open"
+      },
+      {
+        "cardId": "b2-angeblich-28",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Allegedly • Apparently",
+        "actual": "Allegedly • Apparently"
+      },
+      {
+        "cardId": "b2-bebauen-146",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Cultivate • Build on",
+        "actual": "Cultivate • Build on"
+      },
+      {
+        "cardId": "b2-befallen-148",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Afflict • Attack",
+        "actual": "Afflict • Attack"
+      },
+      {
+        "cardId": "b2-begünstigen-156",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Promote • Facilitate • Favour • Support",
+        "actual": "Promote • Facilitate • Favour • Support"
+      },
+      {
+        "cardId": "b2-begutachten-157",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Assess • Evaluate",
+        "actual": "Assess • Evaluate"
+      },
+      {
+        "cardId": "b2-beiläufig-162",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Incidental • Casual • By the way • In passing",
+        "actual": "Incidental • Casual • By the way • In passing"
+      },
+      {
+        "cardId": "b2-beistimmen-166",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "To agree • To support",
+        "actual": "To agree • To support"
+      },
+      {
+        "cardId": "b2-beiwohnen-167",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "To attend • To be present",
+        "actual": "To attend • To be present"
+      },
+      {
+        "cardId": "b2-bejahrt-170",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Advanced in years",
+        "actual": "Advanced in years"
+      },
+      {
+        "cardId": "b2-Bergwerk-194",
+        "fieldPath": "lv",
+        "status": "KEEP_PRESERVED",
+        "actual": "Mine • Shaft"
+      },
+      {
+        "cardId": "b2-bestechlich-215",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Corruptible • Bribeable",
+        "actual": "Corruptible • Bribeable"
+      },
+      {
+        "cardId": "b2-bestürzt-218",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Dismayed • Confused • Perplexed • Bewildered",
+        "actual": "Dismayed • Confused • Perplexed • Bewildered"
+      },
+      {
+        "cardId": "b2-Bildnis-247",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Portrait • Picture",
+        "actual": "Portrait • Picture"
+      },
+      {
+        "cardId": "b2-Blutbank-125",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Blood bank",
+        "actual": "Blood bank"
+      },
+      {
+        "cardId": "b2-Blutkonserve-274",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Stored blood",
+        "actual": "Stored blood"
+      },
+      {
+        "cardId": "b2-Buche-305",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Beech",
+        "actual": "Beech"
+      },
+      {
+        "cardId": "b2-Buckel-310",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Hump • Hunch • Back",
+        "actual": "Hump • Hunch • Back"
+      },
+      {
+        "cardId": "b2-Bügel-311",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Handle • Hoop • Clothes hanger • Stirrup",
+        "actual": "Handle • Hoop • Clothes hanger • Stirrup"
+      },
+      {
+        "cardId": "b2-Bundesstaat-315",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Federal state",
+        "actual": "Federal state"
+      },
+      {
+        "cardId": "b2-Bürge-319",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Guarantor • Surety",
+        "actual": "Guarantor • Surety"
+      },
+      {
+        "cardId": "b2-dämpfen-344",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "To silence • To smother • To steam • To stew • To braise",
+        "actual": "To silence • To smother • To steam • To stew • To braise"
+      },
+      {
+        "cardId": "b2-Deutung-383",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Interpretation • Explanation",
+        "actual": "Interpretation • Explanation"
+      },
+      {
+        "cardId": "b2-diejenige-397",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "The one (f.)",
+        "actual": "The one (f.)"
+      },
+      {
+        "cardId": "b2-Dom-412",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Cathedral",
+        "actual": "Cathedral"
+      },
+      {
+        "cardId": "b2-dreschen-441",
+        "fieldPath": "en",
+        "status": "EXACT_MATCH",
+        "expected": "Thresh grain • Beat egg whites",
+        "actual": "Thresh grain • Beat egg whites"
+      },
+      {
+        "cardId": "b2-dringen-443",
+        "fieldPath": "en",
+        "status": "EXACT_MATCH",
+        "expected": "To press • To force one's way • To push in • To break in • To require • To demand",
+        "actual": "To press • To force one's way • To push in • To break in • To require • To demand"
+      },
+      {
+        "cardId": "b2-drosseln-448",
+        "fieldPath": "en",
+        "status": "EXACT_MATCH",
+        "expected": "Throttle • Stifle",
+        "actual": "Throttle • Stifle"
+      },
+      {
+        "cardId": "b2-durcharbeiten-467",
+        "fieldPath": "en",
+        "status": "EXACT_MATCH",
+        "expected": "Work through • Read carefully • Knead thoroughly",
+        "actual": "Work through • Read carefully • Knead thoroughly"
+      },
+      {
+        "cardId": "b2-durchdringen-473",
+        "fieldPath": "en",
+        "status": "EXACT_MATCH",
+        "expected": "Push through • Break through • Permeate",
+        "actual": "Push through • Break through • Permeate"
+      },
+      {
+        "cardId": "b2-einfältig-539",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Simple-minded • Naive",
+        "actual": "Simple-minded • Naive"
+      },
+      {
+        "cardId": "b2-einflussreich-541",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Influential",
+        "actual": "Influential"
+      },
+      {
+        "cardId": "b2-Einfuhr-544",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Import • Importation • Bringing in • Importing",
+        "actual": "Import • Importation • Bringing in • Importing"
+      },
+      {
+        "cardId": "b2-eingehend-550",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Thorough • Detailed • Incoming",
+        "actual": "Thorough • Detailed • Incoming"
+      },
+      {
+        "cardId": "b2-Einigkeit-561",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Unity • Consensus",
+        "actual": "Unity • Consensus"
+      },
+      {
+        "cardId": "b2-einsichtig-579",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Sensible • Reasonable",
+        "actual": "Sensible • Reasonable"
+      },
+      {
+        "cardId": "b2-einweihen-593",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Officially open • Confide a secret",
+        "actual": "Officially open • Confide a secret"
+      },
+      {
+        "cardId": "b2-einwilligen-595",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "To agree • To consent",
+        "actual": "To agree • To consent"
+      },
+      {
+        "cardId": "b2-Eisgang-602",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Ice drift",
+        "actual": "Ice drift"
+      },
+      {
+        "cardId": "b2-entehren-619",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Dishonour • Disgrace",
+        "actual": "Dishonour • Disgrace"
+      },
+      {
+        "cardId": "b2-entladen-633",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Unload • Discharge",
+        "actual": "Unload • Discharge"
+      },
+      {
+        "cardId": "b2-entziehen-651",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Take away • Withdraw • Avoid • Break away • Escape",
+        "actual": "Take away • Withdraw • Avoid • Break away • Escape"
+      },
+      {
+        "cardId": "b2-Ernteertrag-694",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Crop yield",
+        "actual": "Crop yield"
+      },
+      {
+        "cardId": "b2-exportieren-741",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Export • Take out",
+        "actual": "Export • Take out"
+      },
+      {
+        "cardId": "b2-Fabrikat-745",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Manufactured product • Product",
+        "actual": "Manufactured product • Product"
+      },
+      {
+        "cardId": "b2-fordern",
+        "fieldPath": "study.translation",
+        "status": "EXACT_MATCH",
+        "expected": "Demand • Request",
+        "actual": "Demand • Request"
+      },
+      {
+        "cardId": "b2-fortschaffen-821",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Remove • Take away • Carry away",
+        "actual": "Remove • Take away • Carry away"
+      },
+      {
+        "cardId": "b2-Fräser-829",
+        "fieldPath": "lv",
+        "status": "EXACT_MATCH",
+        "expected": "Milling machine • Milling cutter",
+        "actual": "Milling machine • Milling cutter"
+      }
+    ]
+  },
+  "foreignRemnants": {
+    "inputFromAudit": 0,
+    "inputResolvedInPass1": 26,
+    "additionalSweepResolved": 0,
+    "finalRealRemnants": 0,
+    "finalFindings": []
+  },
+  "sectionAccents": {
+    "inputOfficial": 29,
+    "resolvedInClosure": 10,
+    "finalValidatedREAL": 0
+  },
+  "preservation": {
+    "previous899": {
+      "note": "Pre-closure 899 repairs at bdc6e2cc; closure superseded whom?/what? safe-pass replacements with proper dative/accusative EN",
+      "preClosureCardsChanged": 85
+    },
+    "keep": "PASS",
+    "deSourceIssue": "PASS (19/19 unchanged, DE hash stable)",
+    "deReadOnly": "PASS",
+    "deHash": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+    "structure": "PASS",
+    "counts": {
+      "cards": 2118,
+      "studies": 60,
+      "standardStudy": 15,
+      "minimalStudy": 45,
+      "flashcards": 2058
+    },
+    "mirror": "PASS",
+    "mojibake": "PASS",
+    "languageParity": "PASS",
+    "unexpectedChanges": 0
+  },
+  "formsLabel": {
+    "management": 0,
+    "government": 0,
+    "rection": 43
+  },
+  "luna": "NOT RUN BY DESIGN — run after deterministic closure",
+  "verdict": "EN–DE B2 DETERMINISTIC CLOSURE: PASS"
+}

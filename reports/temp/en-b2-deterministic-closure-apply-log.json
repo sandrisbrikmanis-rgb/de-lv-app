@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-08-09T18:15:59.172Z",
+  "dryRun": false,
+  "group1": {
+    "applied": 0,
+    "keep": 0,
+    "mismatch": 0,
+    "notFound": 0,
+    "skipped": true
+  },
+  "remnants": {
+    "resolved": 0,
+    "falsePositive": 0,
+    "needsReview": 0,
+    "notFound": 0,
+    "skipped": true
+  },
+  "remnantSweep": {
+    "resolved": 0
+  },
+  "sectionAccentFixes": 10,
+  "deReadOnly": true,
+  "hashDeBefore": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "hashDeAfter": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "hashEnBefore": {
+    "data": "aee6fcb94b0a7e1a02ea56c9a287eb52",
+    "www": "aee6fcb94b0a7e1a02ea56c9a287eb52"
+  },
+  "hashEnAfter": {
+    "data": "16ae4837fad8b4bb1bdfb54eadaf425d",
+    "www": "16ae4837fad8b4bb1bdfb54eadaf425d"
+  },
+  "log": [
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-sich-abwenden",
+      "section": "explanation",
+      "index": 0,
+      "color": "red",
+      "before": "von + the dative",
+      "after": "von + dative"
+    },
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-sich-einpraegen",
+      "section": "explanation",
+      "index": 0,
+      "color": "red",
+      "before": "in + accusative",
+      "after": "the accusative"
+    },
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-sich-einschleichen",
+      "section": "explanation",
+      "index": 0,
+      "color": "red",
+      "before": "in + accusative",
+      "after": "in + the accusative"
+    },
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-sich-einschraenken",
+      "section": "explanation",
+      "index": 0,
+      "color": "red",
+      "before": "auf + accusative",
+      "after": "auf + the accusative"
+    },
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-sich-ergeben",
+      "section": "explanation",
+      "index": 0,
+      "color": "red",
+      "before": "aus + dative",
+      "after": "aus + the dative"
+    },
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-sich-fuegen",
+      "section": "explanation",
+      "index": 0,
+      "color": "red",
+      "before": "in + accusative",
+      "after": "in + the accusative"
+    },
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-sich-gestalten",
+      "section": "explanation",
+      "index": 0,
+      "color": "red",
+      "before": "zu + the dative",
+      "after": "zu + dative"
+    },
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-sich-herausbilden",
+      "section": "explanation",
+      "index": 0,
+      "color": "red",
+      "before": "zu + the dative",
+      "after": "zu + dative"
+    },
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-sich-heraushalten",
+      "section": "explanation",
+      "index": 0,
+      "color": "red",
+      "before": "aus + dative",
+      "after": "aus + the dative"
+    },
+    {
+      "type": "sectionAccent",
+      "cardId": "b2-foerdern",
+      "section": "important",
+      "index": 0,
+      "color": "green",
+      "before": "förden",
+      "after": "fördern"
+    }
+  ]
+}
