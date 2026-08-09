@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-08-09T13:10:20.900Z",
+  "scopeCards": [
+    "b1-kern",
+    "b1-kastanie",
+    "b1-bildschirm",
+    "b1-einführung",
+    "b1-einheit",
+    "b1-folge",
+    "b1-geschlecht",
+    "b1-gewinn",
+    "b1-griff",
+    "b1-kiefer",
+    "b1-leistung",
+    "b1-los",
+    "b1-schnitt",
+    "b1-spitze"
+  ],
+  "repairFindingIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "findingsCount": 0
+}

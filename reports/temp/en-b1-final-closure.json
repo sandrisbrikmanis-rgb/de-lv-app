@@ -1,0 +1,362 @@
+{
+  "generatedAt": "2026-08-09T13:30:21.832Z",
+  "verdict": "EN–DE B1 — OWNER ACCEPTED / CLOSED",
+  "ownerAccepted": true,
+  "productionChangesDuringClosure": 0,
+  "dataset": {
+    "cards": 3367,
+    "normalCards": 3043,
+    "standardStudy": 323,
+    "comparisonStudy": 0,
+    "minimalStudy": 1,
+    "studyObjects": 324,
+    "studyObjectParity": "PASS"
+  },
+  "workflow": [
+    {
+      "id": "initial_full_audit",
+      "label": "Initial full audit / owner review input",
+      "status": "COMPLETE",
+      "reports": [
+        "reports/en-b1-owner-review-input.md",
+        "reports/temp/en-b1-owner-review-input.json"
+      ]
+    },
+    {
+      "id": "high_cycles",
+      "label": "HIGH #1–#13 OWNER REVIEW + REPAIR",
+      "status": {
+        "completeCount": 13,
+        "expected": 13,
+        "cycles": [
+          {
+            "cycle": 1,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE (git 48fbfa8c)",
+            "complete": true
+          },
+          {
+            "cycle": 2,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE (git e6282be0)",
+            "complete": true
+          },
+          {
+            "cycle": 3,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE (git 45f51dac)",
+            "complete": true
+          },
+          {
+            "cycle": 4,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE (git adaf8c60)",
+            "complete": true
+          },
+          {
+            "cycle": 5,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE (git 45f5464b)",
+            "complete": true
+          },
+          {
+            "cycle": 6,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE (git abadfae3)",
+            "complete": true
+          },
+          {
+            "cycle": 7,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE (git f9c7836a)",
+            "complete": true
+          },
+          {
+            "cycle": 8,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE (git 87f333b0)",
+            "complete": true
+          },
+          {
+            "cycle": 9,
+            "ownerStatus": "OWNER REVIEW COMPLETE",
+            "repairStatus": "REPAIR COMPLETE (git 0dd174fe)",
+            "complete": true
+          },
+          {
+            "cycle": 10,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE (git df9b2cfb)",
+            "complete": true
+          },
+          {
+            "cycle": 11,
+            "ownerStatus": "ARTIFACT PRESENT",
+            "repairStatus": "REPAIR COMPLETE",
+            "complete": true
+          },
+          {
+            "cycle": 12,
+            "ownerStatus": "OWNER REVIEW COMPLETE",
+            "repairStatus": "REPAIR COMPLETE",
+            "complete": true
+          },
+          {
+            "cycle": 13,
+            "ownerStatus": "OWNER REVIEW COMPLETE",
+            "repairStatus": "REPAIR COMPLETE",
+            "complete": true
+          }
+        ],
+        "selectionBacklog": "EXHAUSTED"
+      },
+      "reports": []
+    },
+    {
+      "id": "high_full_regression",
+      "label": "HIGH full targeted regression",
+      "status": "COMPLETE",
+      "reports": [
+        "reports/en-b1-high-full-regression-audit.md",
+        "reports/temp/en-b1-high-full-regression-audit.json",
+        "reports/temp/en-b1-high-full-regression-manifest.json"
+      ]
+    },
+    {
+      "id": "regression_validation",
+      "label": "Regression validation",
+      "status": "COMPLETE",
+      "reports": [
+        "reports/en-b1-high-regression-validation.md"
+      ]
+    },
+    {
+      "id": "regression_owner_review",
+      "label": "Regression OWNER review",
+      "status": "COMPLETE",
+      "reports": [
+        "reports/en-b1-high-regression-owner-review.md",
+        "reports/temp/en-b1-high-regression-owner-review.json"
+      ]
+    },
+    {
+      "id": "regression_repair",
+      "label": "Regression repair (214)",
+      "status": "COMPLETE",
+      "reports": [
+        "reports/en-b1-high-regression-repair.md",
+        "reports/temp/en-b1-high-regression-repair-log.json"
+      ]
+    },
+    {
+      "id": "micro_regression_1",
+      "label": "Micro-regression #1",
+      "status": "COMPLETE (resolved via follow-up)",
+      "reports": [
+        "reports/en-b1-high-micro-regression-audit.md"
+      ]
+    },
+    {
+      "id": "micro_followup_repair",
+      "label": "Micro-regression follow-up repair",
+      "status": "COMPLETE",
+      "reports": [
+        "reports/en-b1-high-micro-regression-repair.md",
+        "reports/temp/en-b1-high-micro-regression-repair-log.json"
+      ]
+    },
+    {
+      "id": "micro_regression_2",
+      "label": "Micro-regression #2",
+      "status": "PASS",
+      "reports": [
+        "reports/en-b1-high-micro-regression-2.md",
+        "reports/temp/en-b1-high-micro-regression-2.json"
+      ]
+    },
+    {
+      "id": "sectionaccent_triage",
+      "label": "SectionAccent out-of-scope triage",
+      "status": "COMPLETE",
+      "reports": [
+        "reports/en-b1-sectionaccent-out-of-scope-triage.md",
+        "reports/temp/en-b1-sectionaccent-out-of-scope-triage.json"
+      ]
+    },
+    {
+      "id": "sectionaccent_owner_review",
+      "label": "SectionAccent OWNER review",
+      "status": "COMPLETE",
+      "reports": [
+        "reports/en-b1-sectionaccent-out-of-scope-owner-review.md",
+        "reports/temp/en-b1-sectionaccent-out-of-scope-owner-review.json"
+      ]
+    },
+    {
+      "id": "sectionaccent_repair",
+      "label": "SectionAccent repair (24)",
+      "status": "COMPLETE",
+      "reports": [
+        "reports/en-b1-sectionaccent-out-of-scope-repair.md",
+        "reports/temp/en-b1-sectionaccent-out-of-scope-repair-log.json"
+      ]
+    },
+    {
+      "id": "sectionaccent_micro",
+      "label": "SectionAccent targeted micro-regression",
+      "status": "PASS",
+      "reports": [
+        "reports/en-b1-sectionaccent-out-of-scope-micro-regression.md",
+        "reports/temp/en-b1-sectionaccent-out-of-scope-micro-regression.json"
+      ]
+    }
+  ],
+  "highCycles": {
+    "completeCount": 13,
+    "expected": 13,
+    "cycles": [
+      {
+        "cycle": 1,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE (git 48fbfa8c)",
+        "complete": true
+      },
+      {
+        "cycle": 2,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE (git e6282be0)",
+        "complete": true
+      },
+      {
+        "cycle": 3,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE (git 45f51dac)",
+        "complete": true
+      },
+      {
+        "cycle": 4,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE (git adaf8c60)",
+        "complete": true
+      },
+      {
+        "cycle": 5,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE (git 45f5464b)",
+        "complete": true
+      },
+      {
+        "cycle": 6,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE (git abadfae3)",
+        "complete": true
+      },
+      {
+        "cycle": 7,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE (git f9c7836a)",
+        "complete": true
+      },
+      {
+        "cycle": 8,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE (git 87f333b0)",
+        "complete": true
+      },
+      {
+        "cycle": 9,
+        "ownerStatus": "OWNER REVIEW COMPLETE",
+        "repairStatus": "REPAIR COMPLETE (git 0dd174fe)",
+        "complete": true
+      },
+      {
+        "cycle": 10,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE (git df9b2cfb)",
+        "complete": true
+      },
+      {
+        "cycle": 11,
+        "ownerStatus": "ARTIFACT PRESENT",
+        "repairStatus": "REPAIR COMPLETE",
+        "complete": true
+      },
+      {
+        "cycle": 12,
+        "ownerStatus": "OWNER REVIEW COMPLETE",
+        "repairStatus": "REPAIR COMPLETE",
+        "complete": true
+      },
+      {
+        "cycle": 13,
+        "ownerStatus": "OWNER REVIEW COMPLETE",
+        "repairStatus": "REPAIR COMPLETE",
+        "complete": true
+      }
+    ],
+    "selectionBacklog": "EXHAUSTED"
+  },
+  "regressionChain": {
+    "status": "CLOSED",
+    "repairedAuditEntries": 568,
+    "uniqueRepairedCards": 220,
+    "regressionRepairApplied": 214,
+    "regressionRepairMismatches": 0,
+    "microRegression2": "PASS"
+  },
+  "truncationTooling": {
+    "explanationsRestored14of14": true,
+    "truncatedRemainingCount": 0,
+    "toolingFixPresent": true,
+    "micro2Pass": true
+  },
+  "sectionAccentChain": {
+    "status": "CLOSED",
+    "repaired": 24,
+    "microRegression": "SECTIONACCENT TARGETED MICRO-REGRESSION: PASS",
+    "validatedRealRemaining": 0,
+    "rawValidatorFindings": 1,
+    "knownFalsePositives": 1,
+    "documentedException": "b1-einerlei apostrophe mismatch"
+  },
+  "currentUnresolvedValidatedFindings": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "backlogSweep": {
+    "ownerFindings": 0,
+    "repairFindings": 0,
+    "regressionFindings": 0,
+    "sectionAccentReal": 0,
+    "selectionBacklog": 0
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "structuralSchemaParity": "PASS",
+    "auditTranslations": "PASS",
+    "auditMojibake": "PASS",
+    "validateStudyDesignEnB1": "PASS (1 known FP)",
+    "validateStudyDesignAllLang": "CHECK (out-of-scope EN levels)",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "cardCount": 3367,
+    "mirrorParity": "PASS",
+    "utf8Mojibake": "PASS",
+    "suspiciousUnicode": "PASS",
+    "deReadOnly": "PASS"
+  },
+  "acceptedExceptions": [
+    {
+      "cardId": "b1-einerlei",
+      "type": "sectionAccent validator false positive",
+      "detail": "doesn't matter vs doesn’t matter apostrophe normalization",
+      "blocksClosure": false
+    }
+  ],
+  "blockers": [],
+  "b1FinalDataset": "READY FOR FINAL CLOSURE REVIEW — OWNER ACCEPTED",
+  "highRegressionChain": "CLOSED",
+  "sectionAccentOutOfScopeChain": "CLOSED"
+}

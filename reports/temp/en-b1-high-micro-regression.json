@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-08-09T13:10:20.900Z",
+  "status": "MICRO-REGRESSION #2 PASS — REGRESSION CHAIN CLOSED",
+  "scope": "214 OWNER-approved regression repairs + 16 follow-up repairs",
+  "microRegression1Result": "FAIL — FOLLOW-UP REPAIR REQUIRED (resolved)",
+  "followUpRepair": "COMPLETE",
+  "followUpRepairsApplied": 16,
+  "microRegression2Result": "PASS",
+  "microRegression2Findings": 0,
+  "outOfScopeRealIssues": 26,
+  "outOfScopeValidatorIssuesRemaining": 25,
+  "highRegressionChain": "CLOSED",
+  "b1FinalDataset": "STILL BLOCKED BY 26 OUT-OF-SCOPE SECTIONACCENT ISSUES"
+}
