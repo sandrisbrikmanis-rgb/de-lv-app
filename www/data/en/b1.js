@@ -27235,7 +27235,7 @@ const B1_WORDS = [
   },
   {
     "de": "gönnen",
-    "lv": "Allocate",
+    "lv": "To allow oneself / grant",
     "level": "B1"
   },
   {
@@ -27270,7 +27270,7 @@ const B1_WORDS = [
     "de": "Gräte",
     "de_article": "die",
     "de_plural": "die Gräten",
-    "lv": "Asaka",
+    "lv": "Fish bone",
     "level": "B1"
   },
   {
@@ -27462,7 +27462,7 @@ const B1_WORDS = [
     "de": "Grieß",
     "de_article": "der",
     "de_plural": "die Grieße",
-    "lv": "Manna",
+    "lv": "Semolina",
     "level": "B1"
   },
   {
@@ -27673,7 +27673,7 @@ const B1_WORDS = [
     "de": "Größe",
     "de_article": "die",
     "de_plural": "die Größen",
-    "lv": "Sise",
+    "lv": "Size",
     "level": "B1"
   },
   {
@@ -28012,7 +28012,7 @@ const B1_WORDS = [
     "de": "Halbschuh",
     "de_article": "der",
     "de_plural": "die Halbschuhe",
-    "lv": "Street shoe",
+    "lv": "Low-cut shoe",
     "level": "B1"
   },
   {
@@ -28031,7 +28031,7 @@ const B1_WORDS = [
     "de": "Halstuch",
     "de_article": "das",
     "de_plural": "die Halstücher",
-    "lv": "A necktie",
+    "lv": "Scarf / neckerchief",
     "level": "B1"
   },
   {
@@ -28062,7 +28062,7 @@ const B1_WORDS = [
     "de": "Hammel",
     "de_article": "der",
     "de_plural": "die Hammel",
-    "lv": "Ram",
+    "lv": "Wether",
     "level": "B1"
   },
   {
@@ -28433,7 +28433,7 @@ const B1_WORDS = [
     "de": "Handwerk",
     "de_article": "das",
     "de_plural": "die Handwerke",
-    "lv": "Position",
+    "lv": "Craft / trade",
     "level": "B1"
   },
   {
@@ -28929,7 +28929,7 @@ const B1_WORDS = [
     "de": "Heftklammer",
     "de_article": "die",
     "de_plural": "die Heftklammern",
-    "lv": "Paper clip",
+    "lv": "Staple",
     "level": "B1"
   },
   {
@@ -28993,7 +28993,7 @@ const B1_WORDS = [
     "de": "Heimweh",
     "de_article": "das",
     "de_plural": "die Heimwehe",
-    "lv": "Homesick",
+    "lv": "Homesickness",
     "level": "B1"
   },
   {
@@ -29010,7 +29010,7 @@ const B1_WORDS = [
   },
   {
     "de": "heiter",
-    "lv": "Fun",
+    "lv": "Cheerful / merry",
     "level": "B1"
   },
   {
@@ -29432,7 +29432,7 @@ const B1_WORDS = [
     "de": "Herkunft",
     "de_article": "die",
     "de_plural": "die Herkünfte",
-    "lv": "Standing out",
+    "lv": "Origin / background",
     "level": "B1"
   },
   {
@@ -29663,7 +29663,7 @@ const B1_WORDS = [
   },
   {
     "de": "hindern",
-    "lv": "Delay",
+    "lv": "To hinder / prevent",
     "level": "B1"
   },
   {
@@ -29865,7 +29865,7 @@ const B1_WORDS = [
   },
   {
     "de": "hinzu",
-    "lv": "Present",
+    "lv": "In addition / additionally",
     "level": "B1"
   },
   {
@@ -29915,7 +29915,7 @@ const B1_WORDS = [
   },
   {
     "de": "hobeln",
-    "lv": "To plan",
+    "lv": "To plane",
     "level": "B1"
   },
   {
@@ -29939,7 +29939,7 @@ const B1_WORDS = [
   },
   {
     "de": "höchstens",
-    "lv": "Highest • No more than",
+    "lv": "At most / no more than",
     "level": "B1"
   },
   {
@@ -30176,14 +30176,14 @@ const B1_WORDS = [
     "de": "Holzscheit",
     "de_article": "das",
     "de_plural": "die Holzscheite",
-    "lv": "End",
+    "lv": "Log / piece of firewood",
     "level": "B1"
   },
   {
     "de": "Holzspan",
     "de_article": "der",
     "de_plural": "die Holzspäne",
-    "lv": "Wooden scale",
+    "lv": "Wood chip / wood shaving",
     "level": "B1"
   },
   {
@@ -30233,7 +30233,7 @@ const B1_WORDS = [
     "de": "Hopfenstange",
     "de_article": "die",
     "de_plural": "die Hopfenstangen",
-    "lv": "Hop mellowness",
+    "lv": "Hop pole",
     "level": "B1"
   },
   {
@@ -30424,7 +30424,7 @@ const B1_WORDS = [
     "de": "Hörsaal",
     "de_article": "der",
     "de_plural": "die Hörsäle",
-    "lv": "The audience",
+    "lv": "Lecture hall",
     "level": "B1"
   },
   {
@@ -30664,7 +30664,7 @@ const B1_WORDS = [
     "de": "Hungersnot",
     "de_article": "die",
     "de_plural": "die Hungersnöte",
-    "lv": "Hunger",
+    "lv": "Famine",
     "level": "B1"
   },
   {
@@ -31045,7 +31045,7 @@ const B1_WORDS = [
     "de": "Inbegriff",
     "de_article": "der",
     "de_plural": "die Inbegriffe",
-    "lv": "Symbol",
+    "lv": "Epitome / embodiment",
     "level": "B1"
   },
   {
@@ -31154,7 +31154,7 @@ const B1_WORDS = [
     "de": "Inland",
     "de_article": "das",
     "de_plural": "die Inlande",
-    "lv": "Inland",
+    "lv": "Domestic territory / home country",
     "level": "B1"
   },
   {
@@ -31460,7 +31460,7 @@ const B1_WORDS = [
   },
   {
     "de": "irdisch",
-    "lv": "Land-",
+    "lv": "Earthly / terrestrial",
     "level": "B1"
   },
   {
@@ -31642,7 +31642,7 @@ const B1_WORDS = [
     "de": "Irrtum",
     "de_article": "der",
     "de_plural": "die Irrtümer",
-    "lv": "Misunderstanding",
+    "lv": "Mistake / error",
     "level": "B1"
   },
   {

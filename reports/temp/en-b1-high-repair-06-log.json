@@ -1,0 +1,235 @@
+{
+  "ownerReviewed": 25,
+  "labot": 25,
+  "nelabot": 0,
+  "nelabotCards": [],
+  "repairs": [
+    {
+      "cardId": "b1-gönnen-1133",
+      "de": "gönnen",
+      "field": "lv",
+      "old": "Allocate",
+      "finalEn": "To allow oneself / grant",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Gräte-1138",
+      "de": "Gräte",
+      "field": "lv",
+      "old": "Asaka",
+      "finalEn": "Fish bone",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Grieß-1143",
+      "de": "Grieß",
+      "field": "lv",
+      "old": "Manna",
+      "finalEn": "Semolina",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Größe-1152",
+      "de": "Größe",
+      "field": "lv",
+      "old": "Sise",
+      "finalEn": "Size",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Halbschuh-1181",
+      "de": "Halbschuh",
+      "field": "lv",
+      "old": "Street shoe",
+      "finalEn": "Low-cut shoe",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Halstuch-1184",
+      "de": "Halstuch",
+      "field": "lv",
+      "old": "A necktie",
+      "finalEn": "Scarf / neckerchief",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Hammel-1189",
+      "de": "Hammel",
+      "field": "lv",
+      "old": "Ram",
+      "finalEn": "Wether",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Handwerk-1197",
+      "de": "Handwerk",
+      "field": "lv",
+      "old": "Position",
+      "finalEn": "Craft / trade",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Heftklammer-1224",
+      "de": "Heftklammer",
+      "field": "lv",
+      "old": "Paper clip",
+      "finalEn": "Staple",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Heimweh-1234",
+      "de": "Heimweh",
+      "field": "lv",
+      "old": "Homesick",
+      "finalEn": "Homesickness",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-heiter-1237",
+      "de": "heiter",
+      "field": "lv",
+      "old": "Fun",
+      "finalEn": "Cheerful / merry",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Herkunft-1254",
+      "de": "Herkunft",
+      "field": "lv",
+      "old": "Standing out",
+      "finalEn": "Origin / background",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-hindern-1268",
+      "de": "hindern",
+      "field": "lv",
+      "old": "Delay",
+      "finalEn": "To hinder / prevent",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-hinzu-1277",
+      "de": "hinzu",
+      "field": "lv",
+      "old": "Present",
+      "finalEn": "In addition / additionally",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-hobeln-1285",
+      "de": "hobeln",
+      "field": "lv",
+      "old": "To plan",
+      "finalEn": "To plane",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-höchstens-1289",
+      "de": "höchstens",
+      "field": "lv",
+      "old": "Highest • No more than",
+      "finalEn": "At most / no more than",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Holzscheit-1301",
+      "de": "Holzscheit",
+      "field": "lv",
+      "old": "End",
+      "finalEn": "Log / piece of firewood",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Holzspan-1302",
+      "de": "Holzspan",
+      "field": "lv",
+      "old": "Wooden scale",
+      "finalEn": "Wood chip / wood shaving",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Hopfenstange-1307",
+      "de": "Hopfenstange",
+      "field": "lv",
+      "old": "Hop mellowness",
+      "finalEn": "Hop pole",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Hörsaal-1312",
+      "de": "Hörsaal",
+      "field": "lv",
+      "old": "The audience",
+      "finalEn": "Lecture hall",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Hungersnot-1328",
+      "de": "Hungersnot",
+      "field": "lv",
+      "old": "Hunger",
+      "finalEn": "Famine",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Inbegriff-1349",
+      "de": "Inbegriff",
+      "field": "lv",
+      "old": "Symbol",
+      "finalEn": "Epitome / embodiment",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Inland-1368",
+      "de": "Inland",
+      "field": "lv",
+      "old": "Inland",
+      "finalEn": "Domestic territory / home country",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-irdisch-1394",
+      "de": "irdisch",
+      "field": "lv",
+      "old": "Land-",
+      "finalEn": "Earthly / terrestrial",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Irrtum-1398",
+      "de": "Irrtum",
+      "field": "lv",
+      "old": "Misunderstanding",
+      "finalEn": "Mistake / error",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    }
+  ],
+  "repairedCount": 25,
+  "preconditionMismatch": 0
+}
