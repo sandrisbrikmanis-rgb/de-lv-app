@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "date": "2026-08-09T08:38:27.615Z",
+    "cardsAudited": 25,
+    "cardsRepaired": 25,
+    "verdict": "EN–DE B1 HIGH REPAIR #3 — TARGETED REGRESSION PASS"
+  },
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "totalCards": 3367,
+    "structuralParity": "PASS",
+    "deReadOnly": "PASS",
+    "mirrorParity": "PASS",
+    "unexpectedProductionChanges": 0
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "preconditionMismatch": 0,
+  "outOfScopeFindings": [],
+  "findings": []
+}
