@@ -1,6 +1,6 @@
 # EN–DE B1 FINAL CLOSURE RECONFIRMATION
 
-**Generated:** 2026-08-09T15:09:05.953Z
+**Generated:** 2026-08-09T15:09:37.765Z
 **Main merge commit:** 5aea0f5a
 
 ## EN–DE B1 FINAL CLOSURE RECONFIRMATION — COMPLETE
@@ -68,5 +68,5 @@
 
 EN–DE B1 — OWNER ACCEPTED / CLOSED — RECONFIRMED
 
-**Commit:** f29c54cbb62f0c80719b743fbbb016132cdb87eb
+**Commit:** 123c535aefc19e33b6592d7e50d651743e882f8f
 **PR:** #371 (merged to main at 5aea0f5a)
