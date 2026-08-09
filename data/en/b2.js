@@ -4065,7 +4065,7 @@ const B2_WORDS = [
       "rektion": "+ genitive",
       "explanation": "Sich entledigen is used with a genitive object and no preposition.",
       "forms": "+ genitive",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4101,7 +4101,7 @@ const B2_WORDS = [
       "rektion": "über + the accusative",
       "explanation": "Sich entrüsten takes the fixed preposition über + the accusative.",
       "forms": "über + the accusative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4135,7 +4135,7 @@ const B2_WORDS = [
       "rektion": "+ genitive",
       "explanation": "Sich entsinnen is used with a genitive object and no preposition, for example: Ich entsinne mich eines Fehlers.",
       "forms": "+ genitive",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4261,7 +4261,7 @@ const B2_WORDS = [
       "rektion": "über + the accusative",
       "explanation": "Sich erbarmen takes the fixed preposition über + the accusative.",
       "forms": "über + the accusative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4354,7 +4354,7 @@ const B2_WORDS = [
       "rektion": "aus + the dative (for “result from”)",
       "explanation": "In the sense “result from”, sich ergeben takes aus + the dative; the sense “surrender” is used without a preposition.",
       "forms": "aus + the dative",
-      "formsLabel": "Management:",
+      "formsLabel": "Rection:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10505,7 +10505,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Pay back • Take revenge",
       "rektion": "bei + kam?",
-      "explanation": "Sich revanchieren requires the definite preposition bei + kam?.",
+      "explanation": "Sich revanchieren requires the fixed preposition bei + dative.",
       "forms": "bei + kam?",
       "formsLabel": "Rection:",
       "sectionAccents": {
@@ -12126,7 +12126,7 @@ const B2_WORDS = [
   },
   {
     "de": "tönen",
-    "lv": "To sound • To tone • To give a shade",
+    "lv": "To sound • To tone • To add a tint",
     "level": "B2"
   },
   {
@@ -12879,7 +12879,7 @@ const B2_WORDS = [
   },
   {
     "de": "väterlich",
-    "lv": "Paternal- • Paternal",
+    "lv": "Paternal • Fatherly",
     "level": "B2"
   },
   {
@@ -12957,7 +12957,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Merge with",
       "rektion": "mit + kam?",
-      "explanation": "Sich vereinigen requires the definite preposition mit + kam?.",
+      "explanation": "Sich vereinigen requires the fixed preposition mit + dative.",
       "forms": "mit + kam?",
       "formsLabel": "Rection:",
       "sectionAccents": {
@@ -13046,7 +13046,7 @@ const B2_WORDS = [
   },
   {
     "de": "vergiften",
-    "lv": "To poison • To poison",
+    "lv": "To poison • To kill by poisoning",
     "level": "B2"
   },
   {
@@ -13188,7 +13188,7 @@ const B2_WORDS = [
   },
   {
     "de": "verkörpern",
-    "lv": "Embodying",
+    "lv": "To embody",
     "level": "B2"
   },
   {
@@ -13213,7 +13213,7 @@ const B2_WORDS = [
   },
   {
     "de": "vermehren",
-    "lv": "Multiply • Multiply",
+    "lv": "Multiply • Increase",
     "level": "B2"
   },
   {
@@ -13228,7 +13228,7 @@ const B2_WORDS = [
   },
   {
     "de": "vermindern",
-    "lv": "[to] reduce",
+    "lv": "To reduce",
     "level": "B2"
   },
   {
@@ -13302,7 +13302,7 @@ const B2_WORDS = [
   },
   {
     "de": "versetzen",
-    "lv": "Move • Move",
+    "lv": "Move • Transfer",
     "level": "B2"
   },
   {
@@ -13334,7 +13334,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Reconcile with",
       "rektion": "mit + kam?",
-      "explanation": "Sich versöhnen requires the definite preposition mit + kam?.",
+      "explanation": "Sich versöhnen requires the fixed preposition mit + dative.",
       "forms": "mit + kam?",
       "formsLabel": "Rection:",
       "sectionAccents": {
@@ -13426,7 +13426,7 @@ const B2_WORDS = [
     "de": "Vertretung",
     "de_article": "die",
     "de_plural": "die Vertretungen",
-    "lv": "Substitution • Substitution • Representation • Representing",
+    "lv": "Substitution • Representation • Deputising",
     "level": "B2"
   },
   {
@@ -13446,7 +13446,7 @@ const B2_WORDS = [
   },
   {
     "de": "verweilen",
-    "lv": "Hang around",
+    "lv": "Linger",
     "level": "B2"
   },
   {
@@ -13482,7 +13482,7 @@ const B2_WORDS = [
   },
   {
     "de": "verwöhnen",
-    "lv": "Spoil • Spoil",
+    "lv": "Pamper • Spoil",
     "level": "B2"
   },
   {
@@ -14395,7 +14395,7 @@ const B2_WORDS = [
         },
         {
           "word": "verteilen",
-          "meaning": "To divide",
+          "meaning": "To assign",
           "example": "Er verteilt die Aufgaben. = He divides the tasks."
         }
       ],

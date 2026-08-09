@@ -1,0 +1,26 @@
+{
+  "group": "10",
+  "manifestPositions": "451-470",
+  "decisions": [
+    { "seq": 451, "cardId": "b2-sich-entledigen", "fieldPath": "study.formsLabel", "current": "Management:", "finalEn": "Rection:", "action": "APPLY" },
+    { "seq": 452, "cardId": "b2-sich-entrüsten", "fieldPath": "study.formsLabel", "current": "Management:", "finalEn": "Rection:", "action": "APPLY" },
+    { "seq": 453, "cardId": "b2-sich-entsinnen", "fieldPath": "study.formsLabel", "current": "Management:", "finalEn": "Rection:", "action": "APPLY" },
+    { "seq": 454, "cardId": "b2-sich-erbarmen", "fieldPath": "study.formsLabel", "current": "Management:", "finalEn": "Rection:", "action": "APPLY" },
+    { "seq": 455, "cardId": "b2-sich-ergeben", "fieldPath": "study.formsLabel", "current": "Management:", "finalEn": "Rection:", "action": "APPLY" },
+    { "seq": 456, "cardId": "b2-sich-revanchieren", "fieldPath": "study.explanation", "current": "Sich revanchieren requires the definite preposition bei + kam?.", "finalEn": "Sich revanchieren requires the fixed preposition bei + dative.", "action": "APPLY" },
+    { "seq": 457, "cardId": "b2-sich-vereinigen", "fieldPath": "study.explanation", "current": "Sich vereinigen requires the definite preposition mit + kam?.", "finalEn": "Sich vereinigen requires the fixed preposition mit + dative.", "action": "APPLY" },
+    { "seq": 458, "cardId": "b2-sich-versoehnen", "fieldPath": "study.explanation", "current": "Sich versöhnen requires the definite preposition mit + kam?.", "finalEn": "Sich versöhnen requires the fixed preposition mit + dative.", "action": "APPLY" },
+    { "seq": 459, "cardId": "b2-Tatkraft-1727", "fieldPath": "lv", "current": "Energy • Vigor", "finalEn": "Energy • Vigor", "action": "KEEP" },
+    { "seq": 460, "cardId": "b2-tönen-1735", "fieldPath": "lv", "current": "To sound • To tone • To give a shade", "finalEn": "To sound • To tone • To add a tint", "action": "APPLY" },
+    { "seq": 461, "cardId": "b2-väterlich-1868", "fieldPath": "en", "current": "Paternal- • Paternal", "finalEn": "Paternal • Fatherly", "action": "APPLY" },
+    { "seq": 462, "cardId": "b2-vergiften-1894", "fieldPath": "en", "current": "To poison • To poison", "finalEn": "To poison • To kill by poisoning", "action": "APPLY" },
+    { "seq": 463, "cardId": "b2-verkörpern-1917", "fieldPath": "lv", "current": "Embodying", "finalEn": "To embody", "action": "APPLY" },
+    { "seq": 464, "cardId": "b2-vermehren-1922", "fieldPath": "lv", "current": "Multiply • Multiply", "finalEn": "Multiply • Increase", "action": "APPLY" },
+    { "seq": 465, "cardId": "b2-vermindern-1925", "fieldPath": "lv", "current": "[to] reduce", "finalEn": "To reduce", "action": "APPLY" },
+    { "seq": 466, "cardId": "b2-versetzen-1936", "fieldPath": "lv", "current": "Move • Move", "finalEn": "Move • Transfer", "action": "APPLY" },
+    { "seq": 467, "cardId": "b2-Vertretung-1952", "fieldPath": "lv", "current": "Substitution • Substitution • Representation • Representing", "finalEn": "Substitution • Representation • Deputising", "action": "APPLY" },
+    { "seq": 468, "cardId": "b2-verweilen-1956", "fieldPath": "lv", "current": "Hang around", "finalEn": "Linger", "action": "APPLY" },
+    { "seq": 469, "cardId": "b2-verwöhnen-1962", "fieldPath": "lv", "current": "Spoil • Spoil", "finalEn": "Pamper • Spoil", "action": "APPLY" },
+    { "seq": 470, "cardId": "b2-zuweisen", "fieldPath": "study.comparison[2].meaning", "current": "To divide", "finalEn": "To assign", "action": "APPLY" }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "group": "10/10",
+    "manifestPositions": "451-470",
+    "finalGroup": true,
+    "branch": "cursor/en-b2-full-audit-6850",
+    "pr": "#376",
+    "generatedAt": "2026-08-09T18:02:48.377Z"
+  },
+  "scope": {
+    "reviewed": 20,
+    "apply": 19,
+    "keep": 1,
+    "applied": 19,
+    "applyVerified": 19,
+    "keepPreserved": 1,
+    "totalVerified": 20,
+    "currentValueMismatch": 0
+  },
+  "ownerBacklog": {
+    "original": 470,
+    "reviewedGroups": {
+      "1": 50,
+      "2": 50,
+      "3": 50,
+      "4": 50,
+      "5": 50,
+      "6": 50,
+      "7": 50,
+      "8": 50,
+      "9": 50,
+      "10": 20
+    },
+    "totalReviewed": 470,
+    "remaining": 0
+  },
+  "safety": {
+    "deReadOnly": "PASS",
+    "mirror": "PASS",
+    "sectionAccents": "PASS",
+    "languageParity": "PASS",
+    "unexpectedChanges": 0,
+    "deHash": "74bf5a1ac0002a5fdc848db2df4a0e1f"
+  },
+  "regression": {
+    "changedCards": 19,
+    "lunaSemanticRegression": "NOT RUN — API unavailable"
+  },
+  "repairs": [
+    {
+      "seq": 451,
+      "cardId": "b2-sich-entledigen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 452,
+      "cardId": "b2-sich-entrüsten",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 453,
+      "cardId": "b2-sich-entsinnen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 454,
+      "cardId": "b2-sich-erbarmen",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 455,
+      "cardId": "b2-sich-ergeben",
+      "fieldPath": "study.formsLabel",
+      "action": "APPLY",
+      "expectedCurrent": "Management:",
+      "finalEn": "Rection:",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 456,
+      "cardId": "b2-sich-revanchieren",
+      "fieldPath": "study.explanation",
+      "action": "APPLY",
+      "expectedCurrent": "Sich revanchieren requires the definite preposition bei + kam?.",
+      "finalEn": "Sich revanchieren requires the fixed preposition bei + dative.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 457,
+      "cardId": "b2-sich-vereinigen",
+      "fieldPath": "study.explanation",
+      "action": "APPLY",
+      "expectedCurrent": "Sich vereinigen requires the definite preposition mit + kam?.",
+      "finalEn": "Sich vereinigen requires the fixed preposition mit + dative.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 458,
+      "cardId": "b2-sich-versoehnen",
+      "fieldPath": "study.explanation",
+      "action": "APPLY",
+      "expectedCurrent": "Sich versöhnen requires the definite preposition mit + kam?.",
+      "finalEn": "Sich versöhnen requires the fixed preposition mit + dative.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 459,
+      "cardId": "b2-Tatkraft-1727",
+      "fieldPath": "lv",
+      "action": "KEEP",
+      "expectedCurrent": "Energy • Vigor",
+      "finalEn": "Energy • Vigor",
+      "applyStatus": "KEEP_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": 460,
+      "cardId": "b2-tönen-1735",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "To sound • To tone • To give a shade",
+      "finalEn": "To sound • To tone • To add a tint",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 461,
+      "cardId": "b2-väterlich-1868",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Paternal- • Paternal",
+      "finalEn": "Paternal • Fatherly",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 462,
+      "cardId": "b2-vergiften-1894",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "To poison • To poison",
+      "finalEn": "To poison • To kill by poisoning",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 463,
+      "cardId": "b2-verkörpern-1917",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Embodying",
+      "finalEn": "To embody",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 464,
+      "cardId": "b2-vermehren-1922",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Multiply • Multiply",
+      "finalEn": "Multiply • Increase",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 465,
+      "cardId": "b2-vermindern-1925",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "[to] reduce",
+      "finalEn": "To reduce",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 466,
+      "cardId": "b2-versetzen-1936",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Move • Move",
+      "finalEn": "Move • Transfer",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 467,
+      "cardId": "b2-Vertretung-1952",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Substitution • Substitution • Representation • Representing",
+      "finalEn": "Substitution • Representation • Deputising",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 468,
+      "cardId": "b2-verweilen-1956",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Hang around",
+      "finalEn": "Linger",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 469,
+      "cardId": "b2-verwöhnen-1962",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Spoil • Spoil",
+      "finalEn": "Pamper • Spoil",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 470,
+      "cardId": "b2-zuweisen",
+      "fieldPath": "study.comparison[2].meaning",
+      "action": "APPLY",
+      "expectedCurrent": "To divide",
+      "finalEn": "To assign",
+      "applyStatus": "APPLIED",
+      "note": ""
+    }
+  ]
+}
