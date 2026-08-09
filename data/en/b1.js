@@ -3691,7 +3691,7 @@ const B1_WORDS = [
   },
   {
     "de": "anstiften",
-    "lv": "To encourage",
+    "lv": "To incite",
     "level": "B1"
   },
   {
@@ -3736,7 +3736,7 @@ const B1_WORDS = [
     "de": "Antiquariat",
     "de_article": "das",
     "de_plural": "die Antiquariate",
-    "lv": "Antique store",
+    "lv": "Second-hand bookshop",
     "level": "B1"
   },
   {
@@ -3911,7 +3911,7 @@ const B1_WORDS = [
   },
   {
     "de": "anweisen",
-    "lv": "Indicate",
+    "lv": "To instruct",
     "level": "B1"
   },
   {
@@ -3932,14 +3932,14 @@ const B1_WORDS = [
     "de": "Anzahlung",
     "de_article": "die",
     "de_plural": "die Anzahlungen",
-    "lv": "Contribution",
+    "lv": "Down payment / deposit",
     "level": "B1"
   },
   {
     "de": "Appell",
     "de_article": "der",
     "de_plural": "die Appelle",
-    "lv": "Invitation",
+    "lv": "Appeal",
     "level": "B1"
   },
   {
@@ -4039,7 +4039,7 @@ const B1_WORDS = [
     "de": "Auflauf",
     "de_article": "der",
     "de_plural": "die Aufläufe",
-    "lv": "Concoction",
+    "lv": "Casserole",
     "level": "B1"
   },
   {
@@ -4074,7 +4074,7 @@ const B1_WORDS = [
   {
     "de": "Aufschnitt",
     "de_article": "der",
-    "lv": "Cold snaps",
+    "lv": "Cold cuts",
     "level": "B1"
   },
   {
@@ -4603,7 +4603,7 @@ const B1_WORDS = [
   },
   {
     "de": "aufgeregt",
-    "lv": "Worried",
+    "lv": "Excited / nervous",
     "level": "B1"
   },
   {
@@ -4780,7 +4780,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich aufregen",
-    "lv": "To worry",
+    "lv": "To get upset",
     "level": "B1"
   },
   {
@@ -5522,7 +5522,7 @@ const B1_WORDS = [
   },
   {
     "de": "ausziehbar",
-    "lv": "Retractable",
+    "lv": "Extendable / pull-out",
     "level": "B1"
   },
   {
@@ -6036,7 +6036,7 @@ const B1_WORDS = [
   },
   {
     "de": "beauftragen",
-    "lv": "To ask",
+    "lv": "To commission / assign",
     "level": "B1"
   },
   {
@@ -6590,7 +6590,7 @@ const B1_WORDS = [
   },
   {
     "de": "bedrücken",
-    "lv": "To suppress",
+    "lv": "To weigh down / depress",
     "level": "B1"
   },
   {
@@ -6788,7 +6788,7 @@ const B1_WORDS = [
     "de": "Behälter",
     "de_article": "der",
     "de_plural": "die Behälter",
-    "lv": "Tank",
+    "lv": "Container",
     "level": "B1"
   },
   {
@@ -6985,7 +6985,7 @@ const B1_WORDS = [
   },
   {
     "de": "behindern",
-    "lv": "Disturb",
+    "lv": "To hinder / obstruct",
     "level": "B1"
   },
   {
@@ -7070,7 +7070,7 @@ const B1_WORDS = [
   },
   {
     "de": "beitragen",
-    "lv": "Promote",
+    "lv": "To contribute",
     "level": "B1"
   },
   {
@@ -7099,7 +7099,7 @@ const B1_WORDS = [
   },
   {
     "de": "belasten",
-    "lv": "To bother",
+    "lv": "To burden / put a strain on",
     "level": "B1"
   },
   {
@@ -7281,19 +7281,19 @@ const B1_WORDS = [
   },
   {
     "de": "beleidigen",
-    "lv": "Take offence",
+    "lv": "To insult / offend",
     "level": "B1"
   },
   {
     "de": "Beleidigung",
     "de_article": "die",
     "de_plural": "die Beleidigungen",
-    "lv": "Resentment",
+    "lv": "Insult / offence",
     "level": "B1"
   },
   {
     "de": "beleuchten",
-    "lv": "To enlighten",
+    "lv": "To illuminate / light",
     "level": "B1"
   },
   {
@@ -7305,7 +7305,7 @@ const B1_WORDS = [
   },
   {
     "de": "beliebig",
-    "lv": "Anyone",
+    "lv": "Any / arbitrary",
     "level": "B1"
   },
   {
@@ -8062,7 +8062,7 @@ const B1_WORDS = [
     "de": "Bergführer",
     "de_article": "der",
     "de_plural": "die Bergführer",
-    "lv": "A companion in the mountains",
+    "lv": "Mountain guide",
     "level": "B1"
   },
   {
@@ -8091,7 +8091,7 @@ const B1_WORDS = [
     "de": "Bericht",
     "de_article": "der",
     "de_plural": "die Berichte",
-    "lv": "Message",
+    "lv": "Report",
     "level": "B1"
   },
   {
@@ -8615,7 +8615,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich berühren",
-    "lv": "To face",
+    "lv": "To touch each other",
     "level": "B1"
   },
   {
@@ -9001,7 +9001,7 @@ const B1_WORDS = [
   },
   {
     "de": "beseitigen",
-    "lv": "To prevent",
+    "lv": "To remove / eliminate",
     "level": "B1"
   },
   {
@@ -9016,7 +9016,7 @@ const B1_WORDS = [
   },
   {
     "de": "besiegen",
-    "lv": "To win",
+    "lv": "To defeat",
     "level": "B1"
   },
   {
