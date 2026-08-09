@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "date": "2026-08-09T09:01:38.316Z",
+    "cardsOwnerReviewed": 25,
+    "labot": 24,
+    "nelabot": 1,
+    "cardsRepaired": 24,
+    "cardsRegressionAudited": 25,
+    "auditFalsePositivesAccepted": 1,
+    "auditFalsePositiveCards": [
+      "b1-Gen-1055"
+    ],
+    "verdict": "EN–DE B1 HIGH REPAIR #5 — TARGETED REGRESSION PASS"
+  },
+  "biegenIdentityGate": null,
+  "nelabot": [
+    {
+      "cardId": "b1-Gen-1055",
+      "de": "Gen",
+      "lv": "Gene",
+      "verdict": "NELABOT — AUDIT FALSE POSITIVE / NO-OP",
+      "reason": "Current EN and Recommended EN both Gene; singular correct for das Gen"
+    }
+  ],
+  "validation": {
+    "javascriptSyntax": "PASS",
+    "totalCards": 3367,
+    "structuralParity": "PASS",
+    "deReadOnly": "PASS",
+    "mirrorParity": "PASS",
+    "idsChanged": 0,
+    "unexpectedProductionChanges": 0
+  },
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "sectionAccentsTECHNICAL": 0,
+    "sectionAccentsPEDAGOGICAL": 0
+  },
+  "preconditionMismatch": 0,
+  "findings": []
+}

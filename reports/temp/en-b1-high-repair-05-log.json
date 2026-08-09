@@ -1,0 +1,218 @@
+{
+  "ownerReviewed": 25,
+  "labot": 24,
+  "nelabot": 1,
+  "nelabotCards": [
+    {
+      "cardId": "b1-Gen-1055",
+      "de": "Gen",
+      "lv": "Gene",
+      "verdict": "NELABOT — AUDIT FALSE POSITIVE / NO-OP",
+      "reason": "Current EN and Recommended EN both Gene; singular correct for das Gen"
+    }
+  ],
+  "repairs": [
+    {
+      "cardId": "b1-sich ernähren-807",
+      "de": "sich ernähren",
+      "field": "lv",
+      "old": "To make a living",
+      "finalEn": "To feed oneself / live on",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-erschrecken-820",
+      "de": "erschrecken",
+      "field": "lv",
+      "old": "Get confused",
+      "finalEn": "To get frightened / be startled",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-Erwartung-829",
+      "de": "Erwartung",
+      "field": "lv",
+      "old": "Waiting",
+      "finalEn": "Expectation",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-erwecken-830",
+      "de": "erwecken",
+      "field": "lv",
+      "old": "Wake up",
+      "finalEn": "To awaken",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-faszinieren-871",
+      "de": "faszinieren",
+      "field": "lv",
+      "old": "Get carried away",
+      "finalEn": "To fascinate",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-feige-880",
+      "de": "feige",
+      "field": "lv",
+      "old": "Coward",
+      "finalEn": "Cowardly",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-Feinwäsche-882",
+      "de": "Feinwäsche",
+      "field": "lv",
+      "old": "Fine linen",
+      "finalEn": "Delicates",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-fernbleiben-885",
+      "de": "fernbleiben",
+      "field": "lv",
+      "old": "Don't come",
+      "finalEn": "To stay away",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-Fischgericht-902",
+      "de": "Fischgericht",
+      "field": "lv",
+      "old": "Fish food",
+      "finalEn": "Fish dish",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-fortbleiben-936",
+      "de": "fortbleiben",
+      "field": "lv",
+      "old": "Don't come",
+      "finalEn": "To stay away / remain absent",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-Fußnote-971",
+      "de": "Fußnote",
+      "field": "lv",
+      "old": "Subtext note",
+      "finalEn": "Footnote",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-sich füllen-964",
+      "de": "sich füllen",
+      "field": "lv",
+      "old": "To fulfil",
+      "finalEn": "To fill up / become full",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-gedankenlos-1006",
+      "de": "gedankenlos",
+      "field": "lv",
+      "old": "Reckless",
+      "finalEn": "Thoughtless",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-Gefallen-1014",
+      "de": "Gefallen",
+      "field": "lv",
+      "old": "Service",
+      "finalEn": "Favor",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-genial-1059",
+      "de": "genial",
+      "field": "lv",
+      "old": "Genius",
+      "finalEn": "Brilliant",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-genügen-1063",
+      "de": "genügen",
+      "field": "lv",
+      "old": "Enough",
+      "finalEn": "To be enough",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-Genuss-1065",
+      "de": "Genuss",
+      "field": "lv",
+      "old": "Enjoying",
+      "finalEn": "Enjoyment",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-geräumig-1069",
+      "de": "geräumig",
+      "field": "lv",
+      "old": "Wide",
+      "finalEn": "Spacious",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-gerecht-1071",
+      "de": "gerecht",
+      "field": "lv",
+      "old": "Righteous",
+      "finalEn": "Fair / just",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-gesamt-1080",
+      "de": "gesamt",
+      "field": "lv",
+      "old": "Everything",
+      "finalEn": "Entire / total",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-geschickt-1085",
+      "de": "geschickt",
+      "field": "lv",
+      "old": "Neat",
+      "finalEn": "Skillful",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-gewöhnen-1109",
+      "de": "gewöhnen",
+      "field": "lv",
+      "old": "Tame",
+      "finalEn": "To accustom / get used to",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-Glatteis-1119",
+      "de": "Glatteis",
+      "field": "lv",
+      "old": "Again",
+      "finalEn": "Black ice",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-Glocke-1130",
+      "de": "Glocke",
+      "field": "lv",
+      "old": "Call",
+      "finalEn": "Bell",
+      "applied": "PASS"
+    },
+    {
+      "cardId": "b1-Gen-1055",
+      "de": "Gen",
+      "field": "lv",
+      "old": "Gene",
+      "finalEn": "Gene",
+      "applied": "NELABOT — NO-OP",
+      "ownerVerdict": "NELABOT — AUDIT FALSE POSITIVE / NO-OP"
+    }
+  ],
+  "repairedCount": 24
+}

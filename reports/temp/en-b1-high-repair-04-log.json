@@ -1,0 +1,281 @@
+{
+  "biegenIdentityGate": {
+    "verdict": "PASS",
+    "rawCardId": null,
+    "suspiciousAuditId": "b1-bie­gen-440",
+    "unicodeCodePointsInSuspiciousId": [
+      98,
+      49,
+      45,
+      98,
+      105,
+      101,
+      173,
+      103,
+      101,
+      110,
+      45,
+      52,
+      52,
+      48
+    ],
+    "normalizedId": "b1-biegen-440",
+    "deLemma": "biegen",
+    "cardType": "normal",
+    "currentTopLevelLv": "To put",
+    "matchingProductionCards": [
+      {
+        "arrayIndex": 440,
+        "rawCardId": null,
+        "logicalId": "b1-biegen-440",
+        "normalizedId": "b1-biegen-440",
+        "de": "biegen",
+        "cardType": "normal",
+        "lv": "To put",
+        "hasStudy": false
+      }
+    ],
+    "biegenToPutMatches": [
+      {
+        "arrayIndex": 440,
+        "rawCardId": null,
+        "logicalId": "b1-biegen-440",
+        "normalizedId": "b1-biegen-440",
+        "de": "biegen",
+        "cardType": "normal",
+        "lv": "To put",
+        "hasStudy": false
+      }
+    ],
+    "mirrorMatch": true,
+    "arrayIndex": 440
+  },
+  "repairs": [
+    {
+      "cardId": "b1-Bestandteil-394",
+      "de": "Bestandteil",
+      "field": "lv",
+      "old": "Ingredient",
+      "finalEn": "Component / part",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-betreiben-409",
+      "de": "betreiben",
+      "field": "lv",
+      "old": "To lead",
+      "finalEn": "To run / operate",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-Beule-415",
+      "de": "Beule",
+      "field": "lv",
+      "old": "Pun",
+      "finalEn": "Bump / dent",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-beugen-414",
+      "de": "beugen",
+      "field": "lv",
+      "old": "To put",
+      "finalEn": "To bend",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-Bevölkerung-418",
+      "de": "Bevölkerung",
+      "field": "lv",
+      "old": "Residents",
+      "finalEn": "Population",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-bewachen-420",
+      "de": "bewachen",
+      "field": "lv",
+      "old": "To protect",
+      "finalEn": "To guard / watch over",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-bewirten-426",
+      "de": "bewirten",
+      "field": "lv",
+      "old": "To tolerate",
+      "finalEn": "To host / serve guests",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-biegen-440",
+      "de": "biegen",
+      "field": "lv",
+      "old": "To put",
+      "finalEn": "To bend",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-sich blamieren-453",
+      "de": "sich blamieren",
+      "field": "lv",
+      "old": "Get confused",
+      "finalEn": "To embarrass oneself",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-Bombe-478",
+      "de": "Bombe",
+      "field": "lv",
+      "old": "Ball",
+      "finalEn": "Bomb",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-Brathuhn-490",
+      "de": "Brathuhn",
+      "field": "lv",
+      "old": "Fried chicken",
+      "finalEn": "Roast chicken",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-Brieftasche-505",
+      "de": "Brieftasche",
+      "field": "lv",
+      "old": "Pocket briefcase",
+      "finalEn": "Wallet",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-desto-579",
+      "de": "desto",
+      "field": "lv",
+      "old": "Because",
+      "finalEn": "The more ... the more ... / all the more",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-Dose-601",
+      "de": "Dose",
+      "field": "lv",
+      "old": "Box",
+      "finalEn": "Can / tin",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-dritt-610",
+      "de": "dritt",
+      "field": "lv",
+      "old": "Thirdly",
+      "finalEn": "Third",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-Durcheinander-624",
+      "de": "Durcheinander",
+      "field": "lv",
+      "old": "Juku jukam • A mess",
+      "finalEn": "A muddle / a mess",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-ehemals-646",
+      "de": "ehemals",
+      "field": "lv",
+      "old": "Earlier",
+      "finalEn": "Formerly",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-sich eignen-657",
+      "de": "sich eignen",
+      "field": "lv",
+      "old": "To bet",
+      "finalEn": "To be suitable",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-einigermaßen-686",
+      "de": "einigermaßen",
+      "field": "lv",
+      "old": "Half way",
+      "finalEn": "To some extent / more or less",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-einnehmen-695",
+      "de": "einnehmen",
+      "field": "lv",
+      "old": "To conceive",
+      "finalEn": "To take / occupy",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-einschließen-703",
+      "de": "einschließen",
+      "field": "lv",
+      "old": "To count",
+      "finalEn": "To include / enclose",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-erfordern-779",
+      "de": "erfordern",
+      "field": "lv",
+      "old": "Ask for",
+      "finalEn": "To require",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-erfüllen-784",
+      "de": "erfüllen",
+      "field": "lv",
+      "old": "To execute",
+      "finalEn": "To fulfil",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-sich erhalten-790",
+      "de": "sich erhalten",
+      "field": "lv",
+      "old": "To preserve",
+      "finalEn": "To remain preserved / survive",
+      "applied": "PASS",
+      "productionStudyId": null
+    },
+    {
+      "cardId": "b1-Erklärung-795",
+      "de": "Erklärung",
+      "field": "lv",
+      "old": "Notification",
+      "finalEn": "Explanation / statement",
+      "applied": "PASS",
+      "productionStudyId": null
+    }
+  ],
+  "repairedCount": 25
+}
