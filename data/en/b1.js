@@ -21302,7 +21302,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich ernähren",
-    "lv": "To make a living",
+    "lv": "To feed oneself / live on",
     "level": "B1"
   },
   {
@@ -21699,7 +21699,7 @@ const B1_WORDS = [
   },
   {
     "de": "erschrecken",
-    "lv": "Get confused",
+    "lv": "To get frightened / be startled",
     "level": "B1"
   },
   {
@@ -21911,12 +21911,12 @@ const B1_WORDS = [
     "de": "Erwartung",
     "de_article": "die",
     "de_plural": "die Erwartungen",
-    "lv": "Waiting",
+    "lv": "Expectation",
     "level": "B1"
   },
   {
     "de": "erwecken",
-    "lv": "Wake up",
+    "lv": "To awaken",
     "level": "B1"
   },
   {
@@ -22322,7 +22322,7 @@ const B1_WORDS = [
   },
   {
     "de": "faszinieren",
-    "lv": "Get carried away",
+    "lv": "To fascinate",
     "level": "B1"
   },
   {
@@ -22530,7 +22530,7 @@ const B1_WORDS = [
   },
   {
     "de": "feige",
-    "lv": "Coward",
+    "lv": "Cowardly",
     "level": "B1"
   },
   {
@@ -22541,7 +22541,7 @@ const B1_WORDS = [
   {
     "de": "Feinwäsche",
     "de_article": "die",
-    "lv": "Fine linen",
+    "lv": "Delicates",
     "level": "B1"
   },
   {
@@ -22560,7 +22560,7 @@ const B1_WORDS = [
   },
   {
     "de": "fernbleiben",
-    "lv": "Don't come",
+    "lv": "To stay away",
     "level": "B1"
   },
   {
@@ -23136,7 +23136,7 @@ const B1_WORDS = [
     "de": "Fischgericht",
     "de_article": "das",
     "de_plural": "die Fischgerichte",
-    "lv": "Fish food",
+    "lv": "Fish dish",
     "level": "B1"
   },
   {
@@ -23668,7 +23668,7 @@ const B1_WORDS = [
   },
   {
     "de": "fortbleiben",
-    "lv": "Don't come",
+    "lv": "To stay away / remain absent",
     "level": "B1"
   },
   {
@@ -24158,7 +24158,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich füllen",
-    "lv": "To fulfil",
+    "lv": "To fill up / become full",
     "level": "B1"
   },
   {
@@ -24204,7 +24204,7 @@ const B1_WORDS = [
     "de": "Fußnote",
     "de_article": "die",
     "de_plural": "die Fußnoten",
-    "lv": "Subtext note",
+    "lv": "Footnote",
     "level": "B1"
   },
   {
@@ -24887,7 +24887,7 @@ const B1_WORDS = [
   },
   {
     "de": "gedankenlos",
-    "lv": "Reckless",
+    "lv": "Thoughtless",
     "level": "B1"
   },
   {
@@ -24933,7 +24933,7 @@ const B1_WORDS = [
     "de": "Gefallen",
     "de_article": "der",
     "de_plural": "die Gefallen",
-    "lv": "Service",
+    "lv": "Favor",
     "level": "B1"
   },
   {
@@ -25707,7 +25707,7 @@ const B1_WORDS = [
   },
   {
     "de": "genial",
-    "lv": "Genius",
+    "lv": "Brilliant",
     "level": "B1"
   },
   {
@@ -25731,7 +25731,7 @@ const B1_WORDS = [
   },
   {
     "de": "genügen",
-    "lv": "Enough",
+    "lv": "To be enough",
     "level": "B1"
   },
   {
@@ -25743,7 +25743,7 @@ const B1_WORDS = [
     "de": "Genuss",
     "de_article": "der",
     "de_plural": "die Genüsse",
-    "lv": "Enjoying",
+    "lv": "Enjoyment",
     "level": "B1"
   },
   {
@@ -25918,7 +25918,7 @@ const B1_WORDS = [
   },
   {
     "de": "geräumig",
-    "lv": "Wide",
+    "lv": "Spacious",
     "level": "B1"
   },
   {
@@ -25930,7 +25930,7 @@ const B1_WORDS = [
   },
   {
     "de": "gerecht",
-    "lv": "Righteous",
+    "lv": "Fair / just",
     "level": "B1"
   },
   {
@@ -25985,7 +25985,7 @@ const B1_WORDS = [
   },
   {
     "de": "gesamt",
-    "lv": "Everything",
+    "lv": "Entire / total",
     "level": "B1"
   },
   {
@@ -26014,7 +26014,7 @@ const B1_WORDS = [
   },
   {
     "de": "geschickt",
-    "lv": "Neat",
+    "lv": "Skillful",
     "level": "B1"
   },
   {
@@ -26778,7 +26778,7 @@ const B1_WORDS = [
   },
   {
     "de": "gewöhnen",
-    "lv": "Tame",
+    "lv": "To accustom / get used to",
     "level": "B1"
   },
   {
@@ -27154,7 +27154,7 @@ const B1_WORDS = [
     "de": "Glatteis",
     "de_article": "das",
     "de_plural": "die Glatteise",
-    "lv": "Again",
+    "lv": "Black ice",
     "level": "B1"
   },
   {
@@ -27219,7 +27219,7 @@ const B1_WORDS = [
     "de": "Glocke",
     "de_article": "die",
     "de_plural": "die Glocken",
-    "lv": "Call",
+    "lv": "Bell",
     "level": "B1"
   },
   {
