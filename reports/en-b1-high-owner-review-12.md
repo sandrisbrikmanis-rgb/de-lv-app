@@ -1861,9 +1861,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To quit one’s job / to give notice
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 21/50
 
@@ -1890,9 +1890,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: I quit my job.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 21/50
 
@@ -1919,9 +1919,9 @@ LUNA REASON:
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: We terminate the contract at the end of the month.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 21/50
 
@@ -1948,9 +1948,9 @@ The section accent contains Latvian instead of an English target token.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: quit
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 21/50
 
@@ -1977,9 +1977,9 @@ The section accent contains Latvian instead of an English target token.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: dismiss from work
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 22/50
 
@@ -2007,9 +2007,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To connect" differs from audit Current EN "kuppeln is not a general 'connect' for all cases; connect more often in everyday life."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: kuppeln is not a general word for “connect” in all situations; verbinden is more common in everyday life.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 22/50
 
@@ -2037,9 +2037,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To connect" differs from audit Current EN "kuppeln is not a general 'connect' for all cases; connect more often in everyday life."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: hitches
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 22/50
 
@@ -2067,9 +2067,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To connect" differs from audit Current EN "kuppeln is not a general 'connect' for all cases; connect more often in everyday life."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: connects
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 22/50
 
@@ -2097,9 +2097,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To connect" differs from audit Current EN "kuppeln is not a general 'connect' for all cases; connect more often in everyday life."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: connected
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 23/50
 
@@ -2127,9 +2127,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To load" differs from audit Current EN "Items in the car or battery with electricity → laden."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Items in a car or a battery being charged → laden.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 23/50
 
@@ -2157,9 +2157,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To load" differs from audit Current EN "Items in the car or battery with electricity → laden."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: load
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 24/50
 
@@ -2187,9 +2187,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Warehouse" differs from audit Current EN "The goods are in stock."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The goods are in the warehouse.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 24/50
 
@@ -2217,9 +2217,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Warehouse" differs from audit Current EN "The goods are in stock."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: camp
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 25/50
 
@@ -2247,9 +2247,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Content" differs from audit Current EN "saturs"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: content
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 25/50
 
@@ -2277,9 +2277,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Content" differs from audit Current EN "saturs"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: volume
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 25/50
 
@@ -2307,9 +2307,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Content" differs from audit Current EN "saturs"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Content
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 25/50
 
@@ -2337,9 +2337,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Content" differs from audit Current EN "saturs"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Volume
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 26/50
 
@@ -2367,9 +2367,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Edge" differs from audit Current EN "Main idea: die Kante is the edge or facet of an object. It is not an ordinary territorial boundary, but a physical sharp or clear edge."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: die Kante is the edge or ridge of an object. It is not an ordinary territorial boundary, but a physical sharp or clearly defined edge.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 26/50
 
@@ -2397,9 +2397,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Edge" differs from audit Current EN "Main idea: die Kante is the edge or facet of an object. It is not an ordinary territorial boundary, but a physical sharp or clear edge."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: He puts the glass near the edge.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 26/50
 
@@ -2427,9 +2427,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Edge" differs from audit Current EN "Main idea: die Kante is the edge or facet of an object. It is not an ordinary territorial boundary, but a physical sharp or clear edge."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Die Grenze is used for territorial boundaries; the edge of an object is often called die Kante.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 26/50
 
@@ -2457,9 +2457,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Edge" differs from audit Current EN "Main idea: die Kante is the edge or facet of an object. It is not an ordinary territorial boundary, but a physical sharp or clear edge."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: edge
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 27/50
 
@@ -2486,9 +2486,9 @@ Landen means “to land,” not “to sit down.”
 Luna verdict: CONFIRMED
 sectionAccents: —
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: To land
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 27/50
 
@@ -2515,9 +2515,9 @@ The accent reinforces the incorrect translation.
 Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: land
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 27/50
 
@@ -2544,9 +2544,9 @@ Latvian appears in the English accent target.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: arrive
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 27/50
 
@@ -2573,9 +2573,9 @@ Latvian appears in the English accent target.
 Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: arrives
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 28/50
 
@@ -2603,9 +2603,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Perform" differs from audit Current EN "To leisten means to do or render some work, service or contribution."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Leisten means to perform work, provide a service, or make a contribution.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 28/50
 
@@ -2633,9 +2633,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Perform" differs from audit Current EN "To leisten means to do or render some work, service or contribution."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: sich leisten is a separate construction meaning 'to afford'.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 29/50
 
@@ -2663,9 +2663,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "An achievement" differs from audit Current EN "For man, Leistung = performance; for a motor, Leistung = power."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: For a person, Leistung means performance; for a motor, it means power.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 29/50
 
@@ -2693,9 +2693,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "An achievement" differs from audit Current EN "For man, Leistung = performance; for a motor, Leistung = power."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Leistung is not just about the end result. It often evaluates performance or power itself.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 29/50
 
@@ -2723,9 +2723,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "An achievement" differs from audit Current EN "For man, Leistung = performance; for a motor, Leistung = power."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 29/50
 
@@ -2753,9 +2753,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "An achievement" differs from audit Current EN "For man, Leistung = performance; for a motor, Leistung = power."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Performance,achievement,power
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 30/50
 
@@ -2783,9 +2783,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Loose" differs from audit Current EN "Main idea: locker means loose or loose, when something is not tightly secured. It means relaxed about people, conversation or mood."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Main idea: locker means loose when something is not tightly secured. When referring to people, conversation, or mood, it means relaxed.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 30/50
 
@@ -2813,9 +2813,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Loose" differs from audit Current EN "Main idea: locker means loose or loose, when something is not tightly secured. It means relaxed about people, conversation or mood."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Think of the opposite of fest: if it's not tight, it's loose.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 30/50
 
@@ -2843,9 +2843,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Loose" differs from audit Current EN "Main idea: locker means loose or loose, when something is not tightly secured. It means relaxed about people, conversation or mood."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: loose
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 31/50
 
@@ -5395,23 +5395,24 @@ Discrepancy: none
 ```
 ---
 ---
+---
 
 ## Owner review progress
 
-EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 2/5 COMPLETE
+EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 3/5 COMPLETE
 
-Cards/audit entries reviewed (block 2): 10/10
+Cards/audit entries reviewed (block 3): 10/10
 LABOT: 10
 NELABOT: 0
-Findings owner-resolved (block 2): 28
-PENDING remaining cards 11–20: 0
+Findings owner-resolved (block 3): 34
+PENDING remaining cards 21–30: 0
 
-Cumulative cards/audit entries reviewed: 20/50
-Cumulative LABOT: 20
+Cumulative cards/audit entries reviewed: 30/50
+Cumulative LABOT: 30
 Cumulative NELABOT: 0
-Cumulative findings owner-resolved: 59
+Cumulative findings owner-resolved: 93
 
-Associated top-level repairs recorded:
+Associated top-level repairs recorded (blocks 1–2):
 - Hupe — Horn • Horn → Horn
 - knapp — Needy → Barely enough
 
@@ -5425,5 +5426,5 @@ Expected unique production cards (cards 19–20): 1
 Production changes: 0
 DE READ-ONLY: PASS
 
-Next: HIGH #12 OWNER REVIEW — BLOCK 3/5 (cards 21–30)
+Next: HIGH #12 OWNER REVIEW — BLOCK 4/5 (cards 31–40)
 HIGH REPAIR #12 not started.

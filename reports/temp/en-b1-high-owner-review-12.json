@@ -537,7 +537,7 @@
   "expectedArithmeticRemaining": 23,
   "calculatedWorkflowRemaining": 23,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 59,
+  "ownerDecisionsMade": 93,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -1870,9 +1870,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To quit one’s job / to give notice",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1886,9 +1886,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "I quit my job.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1902,9 +1902,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "We terminate the contract at the end of the month.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1918,9 +1918,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "quit",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1934,11 +1934,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "dismiss from work",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 22,
@@ -1966,9 +1967,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To connect\" differs from audit Current EN \"kuppeln is not a general 'connect' for all cases; connect more often in everyday life.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "kuppeln is not a general word for “connect” in all situations; verbinden is more common in everyday life.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1982,9 +1983,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To connect\" differs from audit Current EN \"kuppeln is not a general 'connect' for all cases; connect more often in everyday life.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "hitches",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -1998,9 +1999,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To connect\" differs from audit Current EN \"kuppeln is not a general 'connect' for all cases; connect more often in everyday life.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "connects",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2014,11 +2015,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To connect\" differs from audit Current EN \"kuppeln is not a general 'connect' for all cases; connect more often in everyday life.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "connected",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 23,
@@ -2046,9 +2048,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To load\" differs from audit Current EN \"Items in the car or battery with electricity → laden.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Items in a car or a battery being charged → laden.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2062,11 +2064,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To load\" differs from audit Current EN \"Items in the car or battery with electricity → laden.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "load",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 24,
@@ -2094,9 +2097,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Warehouse\" differs from audit Current EN \"The goods are in stock.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The goods are in the warehouse.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2110,11 +2113,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Warehouse\" differs from audit Current EN \"The goods are in stock.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "camp",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 25,
@@ -2142,9 +2146,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Content\" differs from audit Current EN \"saturs\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "content",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2158,9 +2162,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Content\" differs from audit Current EN \"saturs\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "volume",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2174,9 +2178,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Content\" differs from audit Current EN \"saturs\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Content",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2190,11 +2194,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Content\" differs from audit Current EN \"saturs\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Volume",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 26,
@@ -2222,9 +2227,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Edge\" differs from audit Current EN \"Main idea: die Kante is the edge or facet of an object. It is not an ordinary territorial boundary, but a physical sharp or clear edge.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: die Kante is the edge or ridge of an object. It is not an ordinary territorial boundary, but a physical sharp or clearly defined edge.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2238,9 +2243,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Edge\" differs from audit Current EN \"Main idea: die Kante is the edge or facet of an object. It is not an ordinary territorial boundary, but a physical sharp or clear edge.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "He puts the glass near the edge.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2254,9 +2259,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Edge\" differs from audit Current EN \"Main idea: die Kante is the edge or facet of an object. It is not an ordinary territorial boundary, but a physical sharp or clear edge.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Die Grenze is used for territorial boundaries; the edge of an object is often called die Kante.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2270,11 +2275,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Edge\" differs from audit Current EN \"Main idea: die Kante is the edge or facet of an object. It is not an ordinary territorial boundary, but a physical sharp or clear edge.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "edge",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 27,
@@ -2302,9 +2308,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "To land",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2318,9 +2324,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "land",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2334,9 +2340,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "arrive",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2350,11 +2356,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": null,
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "arrives",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 28,
@@ -2382,9 +2389,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Perform\" differs from audit Current EN \"To leisten means to do or render some work, service or contribution.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Leisten means to perform work, provide a service, or make a contribution.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2398,11 +2405,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Perform\" differs from audit Current EN \"To leisten means to do or render some work, service or contribution.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "sich leisten is a separate construction meaning 'to afford'.",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 29,
@@ -2430,9 +2438,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"An achievement\" differs from audit Current EN \"For man, Leistung = performance; for a motor, Leistung = power.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "For a person, Leistung means performance; for a motor, it means power.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -2446,9 +2454,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"An achievement\" differs from audit Current EN \"For man, Leistung = performance; for a motor, Leistung = power.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Leistung is not just about the end result. It often evaluates performance or power itself.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -2469,9 +2477,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"An achievement\" differs from audit Current EN \"For man, Leistung = performance; for a motor, Leistung = power.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "HIGH",
@@ -2491,11 +2499,16 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"An achievement\" differs from audit Current EN \"For man, Leistung = performance; for a motor, Leistung = power.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": [
+            "Performance",
+            "achievement",
+            "power"
+          ],
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 30,
@@ -2523,9 +2536,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Loose\" differs from audit Current EN \"Main idea: locker means loose or loose, when something is not tightly secured. It means relaxed about people, conversation or mood.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Main idea: locker means loose when something is not tightly secured. When referring to people, conversation, or mood, it means relaxed.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -2539,9 +2552,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Loose\" differs from audit Current EN \"Main idea: locker means loose or loose, when something is not tightly secured. It means relaxed about people, conversation or mood.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Think of the opposite of fest: if it's not tight, it's loose.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -2555,11 +2568,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Loose\" differs from audit Current EN \"Main idea: locker means loose or loose, when something is not tightly secured. It means relaxed about people, conversation or mood.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "loose",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 31,
@@ -4238,7 +4252,7 @@
     "cumulativeNelabot": 0,
     "completedAt": "2026-08-09T11:18:04.701Z"
   },
-  "ownerReviewStatus": "EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 2/5 COMPLETE",
+  "ownerReviewStatus": "EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 3/5 COMPLETE",
   "kundeSharedProductionIdentity": {
     "yes": true,
     "auditEntries": 2,
@@ -4277,5 +4291,18 @@
     "cumulativeNelabot": 0,
     "cumulativeFindingsOwnerResolved": 59,
     "completedAt": "2026-08-09T11:23:16.394Z"
+  },
+  "ownerReviewBlock3": {
+    "block": "3/5",
+    "cardsReviewed": 10,
+    "labot": 10,
+    "nelabot": 0,
+    "findingsOwnerResolved": 34,
+    "pendingInBlock3": 0,
+    "cumulativeCardsReviewed": 30,
+    "cumulativeLabot": 30,
+    "cumulativeNelabot": 0,
+    "cumulativeFindingsOwnerResolved": 93,
+    "completedAt": "2026-08-09T11:29:53.458Z"
   }
 }
