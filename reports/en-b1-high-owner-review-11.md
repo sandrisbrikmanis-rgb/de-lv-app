@@ -728,7 +728,7 @@ sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "About it" differs from audit Current EN "there is no word for it. It refers to a thing, thought or action mentioned above."
 
 OWNER VERDICT: LABOT
-OWNER FINAL EN: To, on
+OWNER FINAL EN: Highlight the actual target meaning in the existing comparison text.
 OWNER NOTE: Neizgudrot jaunu comparison tekstu. Accent target jāņem no faktiskā production comparison[1].meaning pēc precondition pārbaudes.
 
 ### Finding 3

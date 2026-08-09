@@ -22,7 +22,8 @@ const DECISIONS = {
     },
     {
       ownerVerdict: "LABOT",
-      ownerFinalEn: "To, on",
+      ownerFinalEn:
+        "Highlight the actual target meaning in the existing comparison text.",
       ownerNote:
         "Neizgudrot jaunu comparison tekstu. Accent target jāņem no faktiskā production comparison[1].meaning pēc precondition pārbaudes.",
     },

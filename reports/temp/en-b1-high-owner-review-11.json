@@ -1254,7 +1254,7 @@
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"About it\" differs from audit Current EN \"there is no word for it. It refers to a thing, thought or action mentioned above.\"",
           "ownerVerdict": "LABOT",
-          "ownerFinalEn": "To, on",
+          "ownerFinalEn": "Highlight the actual target meaning in the existing comparison text.",
           "ownerNote": "Neizgudrot jaunu comparison tekstu. Accent target jāņem no faktiskā production comparison[1].meaning pēc precondition pārbaudes."
         },
         {
@@ -4028,6 +4028,6 @@
     "nelabot": 0,
     "findingsOwnerResolved": 37,
     "pendingInBlock2": 0,
-    "completedAt": "2026-08-09T10:25:17.605Z"
+    "completedAt": "2026-08-09T10:26:48.566Z"
   }
 }
