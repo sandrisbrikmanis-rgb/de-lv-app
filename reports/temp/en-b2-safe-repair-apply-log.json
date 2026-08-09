@@ -1,0 +1,3876 @@
+{
+  "generatedAt": "2026-08-09T17:25:59.486Z",
+  "dryRun": false,
+  "planned": 488,
+  "applied": 488,
+  "verified": 488,
+  "stale": 0,
+  "notFound": 0,
+  "skip": 0,
+  "changedCards": [
+    "b2-Abenteuerlust-39",
+    "b2-Abnutzung-52",
+    "b2-Areal-89",
+    "b2-Aufruf-99",
+    "b2-Augenmaß-102",
+    "b2-Ausbeutung-96",
+    "b2-Bankleitzahl-128",
+    "b2-Bankscheck-130",
+    "b2-Barren-136",
+    "b2-Barrenturnen-137",
+    "b2-Beihilfe-161",
+    "b2-Belieben-183",
+    "b2-Besatzung-200",
+    "b2-Betrug-225",
+    "b2-Bittschrift-1602",
+    "b2-Blasorchester-260",
+    "b2-Blutarmut-277",
+    "b2-Bodensatz-280",
+    "b2-Bodenschätze-281",
+    "b2-Bootsmann-283",
+    "b2-Borte-288",
+    "b2-Brandstätte-293",
+    "b2-Buchführer-306",
+    "b2-Buchführung-307",
+    "b2-Bühnenbild-312",
+    "b2-Bühnenbildner-313",
+    "b2-Bündnis-317",
+    "b2-Datei-356",
+    "b2-Datenträger-358",
+    "b2-Defekt-364",
+    "b2-Devisenbörse-385",
+    "b2-Direktion-403",
+    "b2-Diätkost-392",
+    "b2-Dohle-411",
+    "b2-Dosenmilch-425",
+    "b2-Dotterblume-428",
+    "b2-Drossel-447",
+    "b2-Druckerei-450",
+    "b2-Drucksache-454",
+    "b2-Dürre-489",
+    "b2-Eheberatung-501",
+    "b2-Ehrenwort-514",
+    "b2-Ehrung-516",
+    "b2-Eingabe-546",
+    "b2-Elster-608",
+    "b2-Empfangschef-609",
+    "b2-Entwerter-647",
+    "b2-Erachten-660",
+    "b2-Erbauer-662",
+    "b2-Fachabitur-746",
+    "b2-Fahrdamm-752",
+    "b2-Farbige-761",
+    "b2-Faulbaum-771",
+    "b2-Fetzen-786",
+    "b2-Finsternis-790",
+    "b2-Flugfeld-806",
+    "b2-Flunder-809",
+    "b2-Flussarm-811",
+    "b2-Flussbett-812",
+    "b2-Fraktion-827",
+    "b2-Fuhre-845",
+    "b2-Funktionär-854",
+    "b2-Förster-819",
+    "b2-Fürsprache-857",
+    "b2-Garnknäuel-868",
+    "b2-Gasableser-870",
+    "b2-Gedeck-879",
+    "b2-Gefährte-884",
+    "b2-Gelehrte-909",
+    "b2-Gemüsebau-919",
+    "b2-Gemüt-920",
+    "b2-Geratewohl-936",
+    "b2-Gerede-938",
+    "b2-Gesandte-943",
+    "b2-Geschiedene-946",
+    "b2-Geschwätz-950",
+    "b2-Geselle-955",
+    "b2-Gespött-959",
+    "b2-Gestell-965",
+    "b2-Gestrüpp-966",
+    "b2-Getriebe-968",
+    "b2-Gewerbe-977",
+    "b2-Gewissheit-980",
+    "b2-Gleichnis-998",
+    "b2-Glut-1005",
+    "b2-Gnadenbrot-1007",
+    "b2-Gründonnerstag-1038",
+    "b2-Götzendienst-1019",
+    "b2-Hafenbecken-1055",
+    "b2-Hahnenkamm-1058",
+    "b2-Hausherr-1072",
+    "b2-Hausrat-1073",
+    "b2-Heckklappe-1078",
+    "b2-Heiligtum-1080",
+    "b2-Heilkunde-1081",
+    "b2-Heilpraktiker-1084",
+    "b2-Heimwerker-1087",
+    "b2-Heldentat-1090",
+    "b2-Herzversagen-1110",
+    "b2-Hilfsdienst-1117",
+    "b2-Hinsicht-1121",
+    "b2-Hinterhalt-1124",
+    "b2-Hirntumor-1127",
+    "b2-Hirschkuh-1130",
+    "b2-Hobelbank-1136",
+    "b2-Honorar-1151",
+    "b2-Hängebrücke-1062",
+    "b2-Hängsel-1063",
+    "b2-Kaufkraft-1175",
+    "b2-Kriegszustand-1203",
+    "b2-Laie-1205",
+    "b2-Laienkunst-1206",
+    "b2-Landung-1212",
+    "b2-Landzunge-1213",
+    "b2-Laufmasche-1220",
+    "b2-Laufsteg-1221",
+    "b2-Laufwerk-1222",
+    "b2-Lehrstuhl-1228",
+    "b2-Leichenhalle-1231",
+    "b2-Leichtgewicht-1232",
+    "b2-Leitartikel-1238",
+    "b2-Liebesaffäre-1246",
+    "b2-Litfaßsäule-1253",
+    "b2-Lochband-1254",
+    "b2-Lösegeld-1258",
+    "b2-Mahd-1277",
+    "b2-Massenware-1295",
+    "b2-Matinée-1298",
+    "b2-Meerbusen-1300",
+    "b2-Milbe-1313",
+    "b2-Minderung-1321",
+    "b2-Mitwisser-1334",
+    "b2-Nadeldrucker-449",
+    "b2-Narkosearzt-1363",
+    "b2-Neger-1369",
+    "b2-Nervenarzt-1371",
+    "b2-Neuerung-1377",
+    "b2-Notwehr-1390",
+    "b2-Nutzholz-1392",
+    "b2-Oberhand-1393",
+    "b2-Olympiasieger-1409",
+    "b2-Operator-1410",
+    "b2-Organspende-1415",
+    "b2-Pacht-1422",
+    "b2-Panzerglas-1426",
+    "b2-Peepshow-1437",
+    "b2-Personalakte-1442",
+    "b2-Pfandschein-1445",
+    "b2-Pilotstudie-1455",
+    "b2-Plateau-1457",
+    "b2-Possen-1462",
+    "b2-Psychoterror-1478",
+    "b2-Rain-1491",
+    "b2-Reifeprüfung-1516",
+    "b2-Reifezeugnis-1517",
+    "b2-Relief-1520",
+    "b2-Richtfest-1524",
+    "b2-Ringelnatter-1526",
+    "b2-Rüge-1535",
+    "b2-Satellit-1551",
+    "b2-Schalldämmung-1559",
+    "b2-Scheitel-1571",
+    "b2-Schlaganfall-1584",
+    "b2-Schleudersitz-1587",
+    "b2-Schmerzensgeld-1593",
+    "b2-Schutzimpfung-1609",
+    "b2-Schwarm-1612",
+    "b2-Schwarzarbeit-1614",
+    "b2-Schwerathletik-1620",
+    "b2-Spaltung-1665",
+    "b2-Spielgerät-1670",
+    "b2-Spießbürger-1671",
+    "b2-Spott-1673",
+    "b2-Stahlwerk-1692",
+    "b2-Steckbrief-1699",
+    "b2-Stirnglatze-996",
+    "b2-Strafanzeige-1705",
+    "b2-Straßenbelag-174",
+    "b2-Tagelöhner-1724",
+    "b2-Teilnarkose-1364",
+    "b2-Terrorismus-1729",
+    "b2-Totalschaden-1738",
+    "b2-Trabant-1742",
+    "b2-Trommelfell-1756",
+    "b2-Trägerrakete-1744",
+    "b2-Töpferscheibe-1736",
+    "b2-Umbruch-1786",
+    "b2-Umfeld-1789",
+    "b2-Umschwung-1800",
+    "b2-Unfug-1827",
+    "b2-Unterhalt-1840",
+    "b2-Unterstellung-1847",
+    "b2-Untertan-1848",
+    "b2-Verdruss-1877",
+    "b2-Verlauf-1903",
+    "b2-Vermächtnis-1906",
+    "b2-Vers-1912",
+    "b2-Vollnarkose-1365",
+    "b2-Vorbehalt-1989",
+    "b2-Vorliebe-1999",
+    "b2-Vorsprung-2005",
+    "b2-Vorstrafe-2007",
+    "b2-Wade-2019",
+    "b2-Warenausgabe-2031",
+    "b2-Wegstrecke-2039",
+    "b2-Wehrpflicht-2043",
+    "b2-Werkbank-2054",
+    "b2-Werkteil-2058",
+    "b2-Werktätige-2057",
+    "b2-Willkür-2075",
+    "b2-Windbeutel-2076",
+    "b2-Wählscheibe-2024",
+    "b2-Zusage-2091",
+    "b2-Zuversicht-2098",
+    "b2-abberufen-34",
+    "b2-abblitzen-35",
+    "b2-abfertigen-42",
+    "b2-abgesehen-44",
+    "b2-abschlagen-59",
+    "b2-abschleppen-60",
+    "b2-abtreten-72",
+    "b2-anbelangen-13",
+    "b2-aussetzen-105",
+    "b2-ausstatten-108",
+    "b2-austreten-114",
+    "b2-begehren-152",
+    "b2-begierig-153",
+    "b2-begnadigen-154",
+    "b2-beharren-158",
+    "b2-beispiellos-163",
+    "b2-bejahen-169",
+    "b2-beleibt-181",
+    "b2-belästigen-177",
+    "b2-berechtigen-188",
+    "b2-beredt-189",
+    "b2-beschimpfen-203",
+    "b2-besessen-207",
+    "b2-besiedeln-208",
+    "b2-bestärken-213",
+    "b2-beteuern-221",
+    "b2-bewähren-229",
+    "b2-bezeugen-238",
+    "b2-bezähmen-237",
+    "b2-bieten",
+    "b2-billigen-248",
+    "b2-binnen-250",
+    "b2-bleichen-263",
+    "b2-blutarm-276",
+    "b2-blähen-258",
+    "b2-brach-291",
+    "b2-dementieren-374",
+    "b2-derjenige-381",
+    "b2-dichten-393",
+    "b2-dienstlich-400",
+    "b2-dingen-402",
+    "b2-durchmachen-479",
+    "b2-durchstellen-487",
+    "b2-dämmern-341",
+    "b2-effektvoll-499",
+    "b2-ehelich-502",
+    "b2-ehrenamtlich-507",
+    "b2-ehrgeizig-515",
+    "b2-eigenhändig-524",
+    "b2-eigenwillig-528",
+    "b2-einbürgern-535",
+    "b2-eingleisig-557",
+    "b2-einleiten-566",
+    "b2-einmachen-569",
+    "b2-einrechnen-572",
+    "b2-einweichen-592",
+    "b2-einüben-589",
+    "b2-entfallen-622",
+    "b2-entmutigen-637",
+    "b2-entstellen-644",
+    "b2-entwerfen-646",
+    "b2-entzückt-654",
+    "b2-erbrechen-664",
+    "b2-erdrücken-666",
+    "b2-erschlagen-705",
+    "b2-erweisen-721",
+    "b2-erzürnen-727",
+    "b2-exklusiv-737",
+    "b2-exquisit-742",
+    "b2-fechten-772",
+    "b2-feilen-774",
+    "b2-fernstudieren-779",
+    "b2-flimmern-801",
+    "b2-freisprechen-834",
+    "b2-fristlos-838",
+    "b2-fälschlich-759",
+    "b2-gebrechlich-877",
+    "b2-gedenken-881",
+    "b2-gedämpft-878",
+    "b2-gemessen-916",
+    "b2-gemäß-915",
+    "b2-gemütvoll-921",
+    "b2-genesen-925",
+    "b2-geraten-935",
+    "b2-gewähren-971",
+    "b2-glotzen-1003",
+    "b2-grauen-1022",
+    "b2-grinsen-1034",
+    "b2-gutheißen-1051",
+    "b2-gängig-863",
+    "b2-haaren-1053",
+    "b2-hantieren-1065",
+    "b2-henken-1093",
+    "b2-herangehen-1095",
+    "b2-herb-1103",
+    "b2-hingeben-1118",
+    "b2-hinreißen-1120",
+    "b2-hinüberfahren-1126",
+    "b2-holpern-1150",
+    "b2-hänseln-1064",
+    "b2-in flagranti-1158",
+    "b2-innewohnen-1161",
+    "b2-kompatibel-1189",
+    "b2-korrupt-1200",
+    "b2-lauern-1218",
+    "b2-leichtsinnig-1234",
+    "b2-lispeln-1250",
+    "b2-luftdicht-1265",
+    "b2-minderwertig-1322",
+    "b2-missbilligen-1324",
+    "b2-missfallen-1326",
+    "b2-missgönnen-1328",
+    "b2-misstrauen-1329",
+    "b2-mutieren-1345",
+    "b2-münden-1342",
+    "b2-nachgehen-1351",
+    "b2-nachgiebig-1352",
+    "b2-neuerdings-1374",
+    "b2-normieren-1387",
+    "b2-pfuschen-1447",
+    "b2-pfänden-1444",
+    "b2-pikiert-1451",
+    "b2-postlagernd-1463",
+    "b2-prägen-1464",
+    "b2-prämieren-1467",
+    "b2-raffgierig-986",
+    "b2-regellos-1509",
+    "b2-rückständig-1533",
+    "b2-scheiden-1569",
+    "b2-schelmisch-1573",
+    "b2-schelten-1574",
+    "b2-schlafwandeln-1583",
+    "b2-schmollen-1595",
+    "b2-schreiten-1601",
+    "b2-schrill-1603",
+    "b2-schwelen-1619",
+    "b2-schwerfällig-1621",
+    "b2-schwärmen-1613",
+    "b2-sich aufdrängen-98",
+    "b2-sich blähen-259",
+    "b2-sich unterwerfen-1852",
+    "b2-sich verhören-1901",
+    "b2-sich verzögern-1968",
+    "b2-sich-abfinden",
+    "b2-sich-abwenden",
+    "b2-sich-befassen",
+    "b2-sich-begnuegen",
+    "b2-sich-berufen",
+    "b2-sich-beschraenken",
+    "b2-sich-betaetigen",
+    "b2-sich-einlassen",
+    "b2-sich-einpraegen",
+    "b2-sich-einschleichen",
+    "b2-sich-einschraenken",
+    "b2-sich-empfehlen",
+    "b2-sich-empören",
+    "b2-sich-enthalten",
+    "b2-sich-entrüsten",
+    "b2-sich-erbarmen",
+    "b2-sich-ergeben",
+    "b2-sich-erniedrigen",
+    "b2-sich-erregen",
+    "b2-sich-erweisen",
+    "b2-sich-fuegen",
+    "b2-sich-genieren",
+    "b2-sich-gesellen",
+    "b2-sich-grauen",
+    "b2-sich-heraushalten",
+    "b2-sich-herausstellen",
+    "b2-sich-hervortun",
+    "b2-sich-hingeben",
+    "b2-sich-paaren",
+    "b2-sich-scheren",
+    "b2-sich-versehen",
+    "b2-sich-verstellen",
+    "b2-sich-verwundern",
+    "b2-siegreich-1644",
+    "b2-solidarisch-1654",
+    "b2-starren-1694",
+    "b2-totschlagen-1741",
+    "b2-treuherzig-1750",
+    "b2-treulos-1751",
+    "b2-umarbeiten-1785",
+    "b2-umdenken-1787",
+    "b2-umhören, sich-1791",
+    "b2-umkreisen-1793",
+    "b2-umschließen-1797",
+    "b2-umsiedeln-1802",
+    "b2-umständlich-1803",
+    "b2-unentbehrlich-1823",
+    "b2-unterschlagen-1846",
+    "b2-unwillkürlich-1858",
+    "b2-verbittert-1873",
+    "b2-vererben-1883",
+    "b2-verheeren-1897",
+    "b2-verhören-1900",
+    "b2-verkraften-1918",
+    "b2-verkümmern-1919",
+    "b2-verlaufen",
+    "b2-vermögend-1927",
+    "b2-verstauchen-1945",
+    "b2-verwickeln-1959",
+    "b2-verwirren-1960",
+    "b2-verzweifeln-1970",
+    "b2-vollzählig-1982",
+    "b2-vordringen-1995",
+    "b2-vornherein-2001",
+    "b2-wahren-2025",
+    "b2-wanken-2030",
+    "b2-zielbewusst-2078",
+    "b2-zollfrei-2080",
+    "b2-zuerkennen-2084",
+    "b2-zusammenfügen-2092",
+    "b2-zuschneiden-2094",
+    "b2-zuströmen-2095",
+    "b2-zutrauen-2097",
+    "b2-Äußerlichkeit-103",
+    "b2-Ökobauer-1402",
+    "b2-Ölpest-1407",
+    "b2-übersichtlich-1777",
+    "b2-überwältigen-1782"
+  ],
+  "hashEnBefore": {
+    "data": "44e85f0a0fd7b3b1cdd7042cae4d73b2",
+    "www": "44e85f0a0fd7b3b1cdd7042cae4d73b2"
+  },
+  "hashEnAfter": {
+    "data": "418dbb666b87409d9048c9517af5cf6a",
+    "www": "418dbb666b87409d9048c9517af5cf6a"
+  },
+  "hashDeBefore": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "hashDeAfter": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+  "deReadOnly": true,
+  "entries": [
+    {
+      "findingId": "crit-01",
+      "cardId": "b2-Elster-608",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "crit-02",
+      "cardId": "b2-Gespött-959",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "crit-03",
+      "cardId": "b2-Getriebe-968",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "crit-04",
+      "cardId": "b2-raffgierig-986",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "crit-05",
+      "cardId": "b2-Hahnenkamm-1058",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "crit-06",
+      "cardId": "b2-Hausrat-1073",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "crit-07",
+      "cardId": "b2-Herzversagen-1110",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "crit-09",
+      "cardId": "b2-Richtfest-1524",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "crit-10",
+      "cardId": "b2-Ringelnatter-1526",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0001",
+      "cardId": "b2-Abenteuerlust-39",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0002",
+      "cardId": "b2-abgesehen-44",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0003",
+      "cardId": "b2-Abnutzung-52",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0008",
+      "cardId": "b2-Areal-89",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0009",
+      "cardId": "b2-Augenmaß-102",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0010",
+      "cardId": "b2-Ausbeutung-96",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0011",
+      "cardId": "b2-aussetzen-105",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0012",
+      "cardId": "b2-ausstatten-108",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0013",
+      "cardId": "b2-austreten-114",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0014",
+      "cardId": "b2-Bankleitzahl-128",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0015",
+      "cardId": "b2-Barren-136",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0016",
+      "cardId": "b2-Barrenturnen-137",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0019",
+      "cardId": "b2-begehren-152",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0020",
+      "cardId": "b2-begierig-153",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0021",
+      "cardId": "b2-begnadigen-154",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0024",
+      "cardId": "b2-beharren-158",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0025",
+      "cardId": "b2-Beihilfe-161",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0027",
+      "cardId": "b2-beispiellos-163",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0031",
+      "cardId": "b2-belästigen-177",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0032",
+      "cardId": "b2-beleibt-181",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0033",
+      "cardId": "b2-Belieben-183",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0035",
+      "cardId": "b2-beschimpfen-203",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0036",
+      "cardId": "b2-besiedeln-208",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0039",
+      "cardId": "b2-bewähren-229",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0040",
+      "cardId": "b2-bezähmen-237",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0042",
+      "cardId": "b2-billigen-248",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0043",
+      "cardId": "b2-blähen-258",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0044",
+      "cardId": "b2-bleichen-263",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0047",
+      "cardId": "b2-Bootsmann-283",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0048",
+      "cardId": "b2-Borte-288",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0049",
+      "cardId": "b2-brach-291",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0050",
+      "cardId": "b2-Brandstätte-293",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0054",
+      "cardId": "b2-Bühnenbildner-313",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0057",
+      "cardId": "b2-dämmern-341",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0059",
+      "cardId": "b2-Datei-356",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0060",
+      "cardId": "b2-Datenträger-358",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0061",
+      "cardId": "b2-dementieren-374",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0063",
+      "cardId": "b2-Devisenbörse-385",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0064",
+      "cardId": "b2-dichten-393",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0066",
+      "cardId": "b2-dienstlich-400",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0067",
+      "cardId": "b2-dingen-402",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0068",
+      "cardId": "b2-Direktion-403",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0069",
+      "cardId": "b2-Dohle-411",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0071",
+      "cardId": "b2-Dotterblume-428",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0074",
+      "cardId": "b2-Drossel-447",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0076",
+      "cardId": "b2-Druckerei-450",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0077",
+      "cardId": "b2-Drucksache-454",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0080",
+      "cardId": "b2-durchmachen-479",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0081",
+      "cardId": "b2-Dürre-489",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0083",
+      "cardId": "b2-ehrenamtlich-507",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0084",
+      "cardId": "b2-Ehrenwort-514",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0085",
+      "cardId": "b2-ehrgeizig-515",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0086",
+      "cardId": "b2-eigenhändig-524",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0087",
+      "cardId": "b2-einbürgern-535",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0091",
+      "cardId": "b2-Eingabe-546",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0093",
+      "cardId": "b2-eingleisig-557",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0095",
+      "cardId": "b2-einleiten-566",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0097",
+      "cardId": "b2-einüben-589",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0098",
+      "cardId": "b2-einweichen-592",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0103",
+      "cardId": "b2-entfallen-622",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0105",
+      "cardId": "b2-entstellen-644",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0106",
+      "cardId": "b2-entwerfen-646",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0107",
+      "cardId": "b2-Entwerter-647",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0109",
+      "cardId": "b2-entzückt-654",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0110",
+      "cardId": "b2-Erbauer-662",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0111",
+      "cardId": "b2-erbrechen-664",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0112",
+      "cardId": "b2-erdrücken-666",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0115",
+      "cardId": "b2-erschlagen-705",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0116",
+      "cardId": "b2-erzürnen-727",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0117",
+      "cardId": "b2-exklusiv-737",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0119",
+      "cardId": "b2-exquisit-742",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0121",
+      "cardId": "b2-Fachabitur-746",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0122",
+      "cardId": "b2-fälschlich-759",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0123",
+      "cardId": "b2-Farbige-761",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0124",
+      "cardId": "b2-Faulbaum-771",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0125",
+      "cardId": "b2-feilen-774",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0126",
+      "cardId": "b2-Fetzen-786",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0127",
+      "cardId": "b2-Flugfeld-806",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0128",
+      "cardId": "b2-Flunder-809",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0129",
+      "cardId": "b2-Flussarm-811",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0132",
+      "cardId": "b2-Fraktion-827",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0134",
+      "cardId": "b2-freisprechen-834",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0136",
+      "cardId": "b2-Funktionär-854",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0137",
+      "cardId": "b2-Fürsprache-857",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0138",
+      "cardId": "b2-gängig-863",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0139",
+      "cardId": "b2-Garnknäuel-868",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0140",
+      "cardId": "b2-Gasableser-870",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0141",
+      "cardId": "b2-gebrechlich-877",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0142",
+      "cardId": "b2-Gedeck-879",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0143",
+      "cardId": "b2-gedenken-881",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0144",
+      "cardId": "b2-Gefährte-884",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0147",
+      "cardId": "b2-Gelehrte-909",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0148",
+      "cardId": "b2-Gemüsebau-919",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0149",
+      "cardId": "b2-gemütvoll-921",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0150",
+      "cardId": "b2-genesen-925",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0151",
+      "cardId": "b2-geraten-935",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0152",
+      "cardId": "b2-Geratewohl-936",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0154",
+      "cardId": "b2-Gesandte-943",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0155",
+      "cardId": "b2-Geschiedene-946",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0157",
+      "cardId": "b2-Geselle-955",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0158",
+      "cardId": "b2-gewähren-971",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0159",
+      "cardId": "b2-Gewerbe-977",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0161",
+      "cardId": "b2-Gewissheit-980",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0164",
+      "cardId": "b2-Gleichnis-998",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0165",
+      "cardId": "b2-glotzen-1003",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0166",
+      "cardId": "b2-Gnadenbrot-1007",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0168",
+      "cardId": "b2-grauen-1022",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0169",
+      "cardId": "b2-grinsen-1034",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0170",
+      "cardId": "b2-Gründonnerstag-1038",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0173",
+      "cardId": "b2-haaren-1053",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0175",
+      "cardId": "b2-Hängebrücke-1062",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0176",
+      "cardId": "b2-Hängsel-1063",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0177",
+      "cardId": "b2-hänseln-1064",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0178",
+      "cardId": "b2-hantieren-1065",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0180",
+      "cardId": "b2-Hausherr-1072",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0182",
+      "cardId": "b2-Heiligtum-1080",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0183",
+      "cardId": "b2-Heimwerker-1087",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0184",
+      "cardId": "b2-henken-1093",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0186",
+      "cardId": "b2-Hilfsdienst-1117",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0187",
+      "cardId": "b2-hingeben-1118",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0188",
+      "cardId": "b2-hinreißen-1120",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0189",
+      "cardId": "b2-Hinsicht-1121",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0191",
+      "cardId": "b2-Hinterhalt-1124",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0192",
+      "cardId": "b2-Hirschkuh-1130",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0193",
+      "cardId": "b2-Hobelbank-1136",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0195",
+      "cardId": "b2-holpern-1150",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0196",
+      "cardId": "b2-Honorar-1151",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0197",
+      "cardId": "b2-in flagranti-1158",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0198",
+      "cardId": "b2-innewohnen-1161",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0199",
+      "cardId": "b2-Kaufkraft-1175",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0200",
+      "cardId": "b2-kompatibel-1189",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0203",
+      "cardId": "b2-korrupt-1200",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0204",
+      "cardId": "b2-Kriegszustand-1203",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0205",
+      "cardId": "b2-Laienkunst-1206",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0207",
+      "cardId": "b2-Landung-1212",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0208",
+      "cardId": "b2-Landzunge-1213",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0209",
+      "cardId": "b2-lauern-1218",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0210",
+      "cardId": "b2-Laufsteg-1221",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0211",
+      "cardId": "b2-Laufwerk-1222",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0212",
+      "cardId": "b2-Lehrstuhl-1228",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0213",
+      "cardId": "b2-Leichenhalle-1231",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0215",
+      "cardId": "b2-Leitartikel-1238",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0216",
+      "cardId": "b2-lispeln-1250",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0217",
+      "cardId": "b2-Lochband-1254",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0218",
+      "cardId": "b2-Lösegeld-1258",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0220",
+      "cardId": "b2-luftdicht-1265",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0221",
+      "cardId": "b2-Mahd-1277",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0223",
+      "cardId": "b2-Milbe-1313",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0224",
+      "cardId": "b2-missbilligen-1324",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0225",
+      "cardId": "b2-missgönnen-1328",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0228",
+      "cardId": "b2-münden-1342",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0229",
+      "cardId": "b2-mutieren-1345",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0230",
+      "cardId": "b2-nachgiebig-1352",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0232",
+      "cardId": "b2-Nadeldrucker-449",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0234",
+      "cardId": "b2-Neger-1369",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0235",
+      "cardId": "b2-Nervenarzt-1371",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0237",
+      "cardId": "b2-neuerdings-1374",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0238",
+      "cardId": "b2-normieren-1387",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0239",
+      "cardId": "b2-Notwehr-1390",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0240",
+      "cardId": "b2-Nutzholz-1392",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0241",
+      "cardId": "b2-Operator-1410",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0243",
+      "cardId": "b2-Peepshow-1437",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0244",
+      "cardId": "b2-Personalakte-1442",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0246",
+      "cardId": "b2-pfänden-1444",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0247",
+      "cardId": "b2-Pfandschein-1445",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0248",
+      "cardId": "b2-pfuschen-1447",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0249",
+      "cardId": "b2-Pilotstudie-1455",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0250",
+      "cardId": "b2-Possen-1462",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0251",
+      "cardId": "b2-postlagernd-1463",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0252",
+      "cardId": "b2-prägen-1464",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0257",
+      "cardId": "b2-Reifeprüfung-1516",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0258",
+      "cardId": "b2-Reifezeugnis-1517",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0259",
+      "cardId": "b2-rückständig-1533",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0261",
+      "cardId": "b2-scheiden-1569",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0262",
+      "cardId": "b2-Scheitel-1571",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0263",
+      "cardId": "b2-schelmisch-1573",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0264",
+      "cardId": "b2-schelten-1574",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0265",
+      "cardId": "b2-schlafwandeln-1583",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0266",
+      "cardId": "b2-Schlaganfall-1584",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0268",
+      "cardId": "b2-Schmerzensgeld-1593",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0269",
+      "cardId": "b2-schmollen-1595",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0270",
+      "cardId": "b2-schrill-1603",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0271",
+      "cardId": "b2-Schutzimpfung-1609",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0272",
+      "cardId": "b2-Schwarm-1612",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0273",
+      "cardId": "b2-schwelen-1619",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0275",
+      "cardId": "b2-sich aufdrängen-98",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0276",
+      "cardId": "b2-sich unterwerfen-1852",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0277",
+      "cardId": "b2-sich verhören-1901",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0278",
+      "cardId": "b2-sich verzögern-1968",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0279",
+      "cardId": "b2-sich-abfinden",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0280",
+      "cardId": "b2-sich-abfinden",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0281",
+      "cardId": "b2-sich-abfinden",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0282",
+      "cardId": "b2-sich-abwenden",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0283",
+      "cardId": "b2-sich-abwenden",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0284",
+      "cardId": "b2-sich-abwenden",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0285",
+      "cardId": "b2-sich-befassen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0286",
+      "cardId": "b2-sich-befassen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0287",
+      "cardId": "b2-sich-befassen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0288",
+      "cardId": "b2-sich-begnuegen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0289",
+      "cardId": "b2-sich-begnuegen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0290",
+      "cardId": "b2-sich-begnuegen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0294",
+      "cardId": "b2-sich-berufen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0295",
+      "cardId": "b2-sich-berufen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0296",
+      "cardId": "b2-sich-berufen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0297",
+      "cardId": "b2-sich-beschraenken",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0298",
+      "cardId": "b2-sich-beschraenken",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0299",
+      "cardId": "b2-sich-beschraenken",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0300",
+      "cardId": "b2-sich-betaetigen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0301",
+      "cardId": "b2-sich-betaetigen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0302",
+      "cardId": "b2-sich-betaetigen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0304",
+      "cardId": "b2-sich-einlassen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0305",
+      "cardId": "b2-sich-einlassen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0306",
+      "cardId": "b2-sich-einlassen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0307",
+      "cardId": "b2-sich-einpraegen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0308",
+      "cardId": "b2-sich-einpraegen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0309",
+      "cardId": "b2-sich-einpraegen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0310",
+      "cardId": "b2-sich-einschleichen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0311",
+      "cardId": "b2-sich-einschleichen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0312",
+      "cardId": "b2-sich-einschraenken",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0313",
+      "cardId": "b2-sich-einschraenken",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0316",
+      "cardId": "b2-sich-empören",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0317",
+      "cardId": "b2-sich-empören",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0320",
+      "cardId": "b2-sich-entrüsten",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0321",
+      "cardId": "b2-sich-entrüsten",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0322",
+      "cardId": "b2-sich-erbarmen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0323",
+      "cardId": "b2-sich-erbarmen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0324",
+      "cardId": "b2-sich-ergeben",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0325",
+      "cardId": "b2-sich-ergeben",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0326",
+      "cardId": "b2-sich-ergeben",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0327",
+      "cardId": "b2-sich-erniedrigen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0328",
+      "cardId": "b2-sich-erniedrigen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0329",
+      "cardId": "b2-sich-erniedrigen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0331",
+      "cardId": "b2-sich-erregen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0332",
+      "cardId": "b2-sich-erregen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0333",
+      "cardId": "b2-sich-erregen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0334",
+      "cardId": "b2-sich-erweisen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0335",
+      "cardId": "b2-sich-erweisen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0336",
+      "cardId": "b2-sich-erweisen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0342",
+      "cardId": "b2-sich-fuegen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0343",
+      "cardId": "b2-sich-fuegen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0344",
+      "cardId": "b2-sich-fuegen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0345",
+      "cardId": "b2-sich-genieren",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0346",
+      "cardId": "b2-sich-genieren",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0347",
+      "cardId": "b2-sich-genieren",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0348",
+      "cardId": "b2-sich-gesellen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0349",
+      "cardId": "b2-sich-gesellen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0350",
+      "cardId": "b2-sich-gesellen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0355",
+      "cardId": "b2-sich-grauen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0356",
+      "cardId": "b2-sich-grauen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0357",
+      "cardId": "b2-sich-grauen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0362",
+      "cardId": "b2-sich-heraushalten",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0363",
+      "cardId": "b2-sich-heraushalten",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0364",
+      "cardId": "b2-sich-heraushalten",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0365",
+      "cardId": "b2-sich-herausstellen",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0366",
+      "cardId": "b2-sich-herausstellen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0367",
+      "cardId": "b2-sich-herausstellen",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0368",
+      "cardId": "b2-sich-hervortun",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0369",
+      "cardId": "b2-sich-hervortun",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0370",
+      "cardId": "b2-sich-hervortun",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0372",
+      "cardId": "b2-sich-hingeben",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0374",
+      "cardId": "b2-sich-hingeben",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0375",
+      "cardId": "b2-sich-paaren",
+      "fieldPath": "study.rektion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0376",
+      "cardId": "b2-sich-paaren",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0377",
+      "cardId": "b2-sich-paaren",
+      "fieldPath": "study.forms",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0380",
+      "cardId": "b2-sich-versehen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0388",
+      "cardId": "b2-Spaltung-1665",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0390",
+      "cardId": "b2-Spielgerät-1670",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0391",
+      "cardId": "b2-Spießbürger-1671",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0392",
+      "cardId": "b2-Spott-1673",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0397",
+      "cardId": "b2-Stahlwerk-1692",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0398",
+      "cardId": "b2-Stirnglatze-996",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0399",
+      "cardId": "b2-Strafanzeige-1705",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0401",
+      "cardId": "b2-Straßenbelag-174",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0402",
+      "cardId": "b2-Terrorismus-1729",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0403",
+      "cardId": "b2-Töpferscheibe-1736",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0406",
+      "cardId": "b2-totschlagen-1741",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0407",
+      "cardId": "b2-treuherzig-1750",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0409",
+      "cardId": "b2-übersichtlich-1777",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0412",
+      "cardId": "b2-umarbeiten-1785",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0413",
+      "cardId": "b2-umhören, sich-1791",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0414",
+      "cardId": "b2-umkreisen-1793",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0415",
+      "cardId": "b2-umschließen-1797",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0416",
+      "cardId": "b2-Umschwung-1800",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0417",
+      "cardId": "b2-umständlich-1803",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0418",
+      "cardId": "b2-Unfug-1827",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0420",
+      "cardId": "b2-Unterhalt-1840",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0422",
+      "cardId": "b2-unterschlagen-1846",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0423",
+      "cardId": "b2-Untertan-1848",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0425",
+      "cardId": "b2-verbittert-1873",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0427",
+      "cardId": "b2-vererben-1883",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0431",
+      "cardId": "b2-verhören-1900",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0432",
+      "cardId": "b2-verkraften-1918",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0434",
+      "cardId": "b2-verlaufen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0435",
+      "cardId": "b2-Vermächtnis-1906",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0436",
+      "cardId": "b2-vermögend-1927",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0438",
+      "cardId": "b2-Vers-1912",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0442",
+      "cardId": "b2-verstauchen-1945",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0443",
+      "cardId": "b2-verwickeln-1959",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0445",
+      "cardId": "b2-verzweifeln-1970",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0446",
+      "cardId": "b2-Vollnarkose-1365",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0447",
+      "cardId": "b2-Vorliebe-1999",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0448",
+      "cardId": "b2-Vorsprung-2005",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0450",
+      "cardId": "b2-Wade-2019",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0451",
+      "cardId": "b2-Wählscheibe-2024",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0452",
+      "cardId": "b2-wanken-2030",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0453",
+      "cardId": "b2-Warenausgabe-2031",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0456",
+      "cardId": "b2-Wehrpflicht-2043",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0458",
+      "cardId": "b2-Werkbank-2054",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0459",
+      "cardId": "b2-Werkteil-2058",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0462",
+      "cardId": "b2-Willkür-2075",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0463",
+      "cardId": "b2-Windbeutel-2076",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0464",
+      "cardId": "b2-zielbewusst-2078",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0466",
+      "cardId": "b2-zuerkennen-2084",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0467",
+      "cardId": "b2-Zusage-2091",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0468",
+      "cardId": "b2-zutrauen-2097",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0469",
+      "cardId": "b2-Zuversicht-2098",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0474",
+      "cardId": "b2-abberufen-34",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0475",
+      "cardId": "b2-abblitzen-35",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0477",
+      "cardId": "b2-abfertigen-42",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0482",
+      "cardId": "b2-abschlagen-59",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0483",
+      "cardId": "b2-abschleppen-60",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0487",
+      "cardId": "b2-abtreten-72",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0492",
+      "cardId": "b2-anbelangen-13",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0496",
+      "cardId": "b2-Aufruf-99",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0497",
+      "cardId": "b2-Äußerlichkeit-103",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0504",
+      "cardId": "b2-Bankscheck-130",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0510",
+      "cardId": "b2-bejahen-169",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0511",
+      "cardId": "b2-berechtigen-188",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0512",
+      "cardId": "b2-beredt-189",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0516",
+      "cardId": "b2-Besatzung-200",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0519",
+      "cardId": "b2-besessen-207",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0521",
+      "cardId": "b2-bestärken-213",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0523",
+      "cardId": "b2-beteuern-221",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0525",
+      "cardId": "b2-Betrug-225",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0526",
+      "cardId": "b2-bezeugen-238",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0529",
+      "cardId": "b2-binnen-250",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0530",
+      "cardId": "b2-Bittschrift-1602",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0531",
+      "cardId": "b2-Blasorchester-260",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0534",
+      "cardId": "b2-blutarm-276",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0535",
+      "cardId": "b2-Blutarmut-277",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0537",
+      "cardId": "b2-Bodensatz-280",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0538",
+      "cardId": "b2-Bodenschätze-281",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0541",
+      "cardId": "b2-Buchführer-306",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0542",
+      "cardId": "b2-Buchführung-307",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0543",
+      "cardId": "b2-Bühnenbild-312",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0545",
+      "cardId": "b2-Bündnis-317",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0551",
+      "cardId": "b2-Defekt-364",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0557",
+      "cardId": "b2-derjenige-381",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0560",
+      "cardId": "b2-Diätkost-392",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0563",
+      "cardId": "b2-Dosenmilch-425",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0576",
+      "cardId": "b2-durchstellen-487",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0577",
+      "cardId": "b2-effektvoll-499",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0578",
+      "cardId": "b2-Eheberatung-501",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0579",
+      "cardId": "b2-ehelich-502",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0580",
+      "cardId": "b2-eigenwillig-528",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0589",
+      "cardId": "b2-einmachen-569",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0590",
+      "cardId": "b2-einrechnen-572",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0594",
+      "cardId": "b2-Empfangschef-609",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0599",
+      "cardId": "b2-entmutigen-637",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0603",
+      "cardId": "b2-Erachten-660",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0611",
+      "cardId": "b2-erweisen-721",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0612",
+      "cardId": "b2-Fahrdamm-752",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0618",
+      "cardId": "b2-fechten-772",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0620",
+      "cardId": "b2-fernstudieren-779",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0622",
+      "cardId": "b2-Finsternis-790",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0624",
+      "cardId": "b2-flimmern-801",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0627",
+      "cardId": "b2-Flussbett-812",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0630",
+      "cardId": "b2-Förster-819",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0633",
+      "cardId": "b2-fristlos-838",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0634",
+      "cardId": "b2-Fuhre-845",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0639",
+      "cardId": "b2-gedämpft-878",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0644",
+      "cardId": "b2-gemäß-915",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0645",
+      "cardId": "b2-gemessen-916",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0646",
+      "cardId": "b2-Gemüt-920",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0648",
+      "cardId": "b2-Gerede-938",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0652",
+      "cardId": "b2-Geschwätz-950",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0656",
+      "cardId": "b2-Gestell-965",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0657",
+      "cardId": "b2-Gestrüpp-966",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0664",
+      "cardId": "b2-Glut-1005",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0666",
+      "cardId": "b2-Götzendienst-1019",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0672",
+      "cardId": "b2-gutheißen-1051",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0673",
+      "cardId": "b2-Hafenbecken-1055",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0676",
+      "cardId": "b2-Heckklappe-1078",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0677",
+      "cardId": "b2-Heilkunde-1081",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0678",
+      "cardId": "b2-Heilpraktiker-1084",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0683",
+      "cardId": "b2-Heldentat-1090",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0684",
+      "cardId": "b2-herangehen-1095",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0685",
+      "cardId": "b2-herb-1103",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0691",
+      "cardId": "b2-hinüberfahren-1126",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0692",
+      "cardId": "b2-Hirntumor-1127",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0696",
+      "cardId": "b2-Laie-1205",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0699",
+      "cardId": "b2-Laufmasche-1220",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0700",
+      "cardId": "b2-Leichtgewicht-1232",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0701",
+      "cardId": "b2-leichtsinnig-1234",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0704",
+      "cardId": "b2-Liebesaffäre-1246",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0708",
+      "cardId": "b2-Litfaßsäule-1253",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0713",
+      "cardId": "b2-Massenware-1295",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0714",
+      "cardId": "b2-Matinée-1298",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0715",
+      "cardId": "b2-Meerbusen-1300",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0719",
+      "cardId": "b2-Minderung-1321",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0720",
+      "cardId": "b2-minderwertig-1322",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0721",
+      "cardId": "b2-missfallen-1326",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0722",
+      "cardId": "b2-misstrauen-1329",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0725",
+      "cardId": "b2-Mitwisser-1334",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0729",
+      "cardId": "b2-nachgehen-1351",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0730",
+      "cardId": "b2-Narkosearzt-1363",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0732",
+      "cardId": "b2-Neuerung-1377",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0735",
+      "cardId": "b2-Oberhand-1393",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0738",
+      "cardId": "b2-Ökobauer-1402",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0740",
+      "cardId": "b2-Ölpest-1407",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0741",
+      "cardId": "b2-Olympiasieger-1409",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0743",
+      "cardId": "b2-Organspende-1415",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0744",
+      "cardId": "b2-Pacht-1422",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0749",
+      "cardId": "b2-pikiert-1451",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0750",
+      "cardId": "b2-Plateau-1457",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0753",
+      "cardId": "b2-prämieren-1467",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0755",
+      "cardId": "b2-Psychoterror-1478",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0760",
+      "cardId": "b2-regellos-1509",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0761",
+      "cardId": "b2-Relief-1520",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0762",
+      "cardId": "b2-Rüge-1535",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0767",
+      "cardId": "b2-Satellit-1551",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0772",
+      "cardId": "b2-Schalldämmung-1559",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0778",
+      "cardId": "b2-Schleudersitz-1587",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0779",
+      "cardId": "b2-schreiten-1601",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0781",
+      "cardId": "b2-schwärmen-1613",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0782",
+      "cardId": "b2-Schwarzarbeit-1614",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0785",
+      "cardId": "b2-Schwerathletik-1620",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0786",
+      "cardId": "b2-schwerfällig-1621",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0789",
+      "cardId": "b2-sich blähen-259",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0804",
+      "cardId": "b2-sich-einschleichen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0805",
+      "cardId": "b2-sich-einschraenken",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0806",
+      "cardId": "b2-sich-empfehlen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0808",
+      "cardId": "b2-sich-empören",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0809",
+      "cardId": "b2-sich-enthalten",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0814",
+      "cardId": "b2-sich-entrüsten",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0818",
+      "cardId": "b2-sich-erbarmen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0845",
+      "cardId": "b2-siegreich-1644",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0847",
+      "cardId": "b2-solidarisch-1654",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0849",
+      "cardId": "b2-starren-1694",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0850",
+      "cardId": "b2-Steckbrief-1699",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0853",
+      "cardId": "b2-Totalschaden-1738",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0854",
+      "cardId": "b2-Trabant-1742",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0855",
+      "cardId": "b2-Trägerrakete-1744",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0856",
+      "cardId": "b2-treulos-1751",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0861",
+      "cardId": "b2-überwältigen-1782",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0862",
+      "cardId": "b2-Umbruch-1786",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0863",
+      "cardId": "b2-umdenken-1787",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0864",
+      "cardId": "b2-Umfeld-1789",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0866",
+      "cardId": "b2-umsiedeln-1802",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0869",
+      "cardId": "b2-unentbehrlich-1823",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0874",
+      "cardId": "b2-Unterstellung-1847",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0877",
+      "cardId": "b2-unwillkürlich-1858",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0882",
+      "cardId": "b2-Verdruss-1877",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0889",
+      "cardId": "b2-verheeren-1897",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0890",
+      "cardId": "b2-verkümmern-1919",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0892",
+      "cardId": "b2-Verlauf-1903",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0899",
+      "cardId": "b2-verwirren-1960",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0900",
+      "cardId": "b2-vollzählig-1982",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0902",
+      "cardId": "b2-Vorbehalt-1989",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0903",
+      "cardId": "b2-vordringen-1995",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0904",
+      "cardId": "b2-vornherein-2001",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0907",
+      "cardId": "b2-Vorstrafe-2007",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0909",
+      "cardId": "b2-wahren-2025",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0910",
+      "cardId": "b2-Wegstrecke-2039",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0911",
+      "cardId": "b2-Werktätige-2057",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0915",
+      "cardId": "b2-zollfrei-2080",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0917",
+      "cardId": "b2-zusammenfügen-2092",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0919",
+      "cardId": "b2-zuschneiden-2094",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0920",
+      "cardId": "b2-zuströmen-2095",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0950",
+      "cardId": "b2-Ehrung-516",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0974",
+      "cardId": "b2-Panzerglas-1426",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0989",
+      "cardId": "b2-sich-scheren",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0992",
+      "cardId": "b2-sich-verstellen",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0993",
+      "cardId": "b2-sich-verwundern",
+      "fieldPath": "study.explanation",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0994",
+      "cardId": "b2-Tagelöhner-1724",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0996",
+      "cardId": "b2-Teilnarkose-1364",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "lun-0998",
+      "cardId": "b2-Trommelfell-1756",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "det-b2-bieten-important-1",
+      "cardId": "b2-bieten",
+      "fieldPath": "study.important[1]",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "findingId": "owner-confirmed-rain",
+      "cardId": "b2-Rain-1491",
+      "fieldPath": "lv",
+      "applyStatus": "APPLIED",
+      "note": ""
+    }
+  ]
+}
