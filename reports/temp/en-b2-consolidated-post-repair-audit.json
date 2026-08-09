@@ -1,0 +1,1794 @@
+{
+  "generatedAt": "2026-08-09T18:08:53.578Z",
+  "branch": "cursor/en-b2-full-audit-6850",
+  "pr": "#376",
+  "baselineCommit": "496f377f",
+  "safeRepairCommit": "422405e2",
+  "finalAuditedCommit": "187351738177a59438d78a5339fd9cd7e7d483ad",
+  "productionFilesCompared": [
+    "data/en/b2.js",
+    "www/data/en/b2.js",
+    "data/b2.js (DE read-only)"
+  ],
+  "inventory": {
+    "uniqueChangedCards": 768,
+    "uniqueChangedEnFields": 854,
+    "totalFieldEdits": 854,
+    "unexplainedProductionChanges": 0
+  },
+  "repairVerification": {
+    "pass": true,
+    "expectedRepairEntriesPresent": 899,
+    "exactMatches": 899,
+    "notApplied": 0,
+    "group1NotAppliedByDesign": 49,
+    "valueMismatches": 0,
+    "unexpectedChanges": 0
+  },
+  "groupCoverage": {
+    "SAFE pass": {
+      "expected": 488,
+      "actual": 488
+    },
+    "Group 1": {
+      "expected": "49 FIX / 1 KEEP (review only)",
+      "actual": 0,
+      "note": "NOT APPLIED by design"
+    },
+    "Group 2": {
+      "expectedApply": 50,
+      "expectedKeep": 0,
+      "actualApplied": 50
+    },
+    "Group 3": {
+      "expectedApply": 50,
+      "expectedKeep": 0,
+      "actualApplied": 50
+    },
+    "Group 4": {
+      "expectedApply": 50,
+      "expectedKeep": 0,
+      "actualApplied": 50
+    },
+    "Group 5": {
+      "expectedApply": 50,
+      "expectedKeep": 0,
+      "actualApplied": 50
+    },
+    "Group 6": {
+      "expectedApply": 48,
+      "expectedKeep": 2,
+      "actualApplied": 48
+    },
+    "Group 7": {
+      "expectedApply": 50,
+      "expectedKeep": 0,
+      "actualApplied": 50
+    },
+    "Group 8": {
+      "expectedApply": 49,
+      "expectedKeep": 1,
+      "actualApplied": 49
+    },
+    "Group 9": {
+      "expectedApply": 45,
+      "expectedKeep": 5,
+      "actualApplied": 45
+    },
+    "Group 10": {
+      "expectedApply": 19,
+      "expectedKeep": 1,
+      "actualApplied": 19
+    }
+  },
+  "keepPreservation": {
+    "pass": true,
+    "entries": [
+      {
+        "stage": "Group 1 (review only)",
+        "seq": 13,
+        "cardId": "b2-Bergwerk-194",
+        "fieldPath": "lv",
+        "current": "Mine • Shaft",
+        "finalEn": "Mine • Shaft",
+        "action": "KEEP",
+        "actual": "Mine • Shaft",
+        "expected": "Mine • Shaft",
+        "pass": true
+      },
+      {
+        "stage": "Group 6",
+        "seq": 262,
+        "cardId": "b2-Handelsflotte-1060",
+        "fieldPath": "lv",
+        "current": "Merchant navy",
+        "finalEn": "Merchant navy",
+        "action": "KEEP",
+        "actual": "Merchant navy",
+        "expected": "Merchant navy",
+        "pass": true
+      },
+      {
+        "stage": "Group 6",
+        "seq": 263,
+        "cardId": "b2-haube",
+        "fieldPath": "study.examples[2].en",
+        "current": "He opens the hood of the car.",
+        "finalEn": "He opens the hood of the car.",
+        "action": "KEEP",
+        "actual": "He opens the hood of the car.",
+        "expected": "He opens the hood of the car.",
+        "pass": true
+      },
+      {
+        "stage": "Group 8",
+        "seq": 371,
+        "cardId": "b2-Spuk-1683",
+        "fieldPath": "lv",
+        "current": "Specter • Ghost • Apparition",
+        "finalEn": "Specter • Ghost • Apparition",
+        "action": "KEEP",
+        "actual": "Specter • Ghost • Apparition",
+        "expected": "Specter • Ghost • Apparition",
+        "pass": true
+      },
+      {
+        "stage": "Group 9",
+        "seq": 419,
+        "cardId": "b2-Betäubung-220",
+        "fieldPath": "lv",
+        "current": "Stunning • Stupor • Narcosis • Anesthesia",
+        "finalEn": "Stunning • Stupor • Narcosis • Anesthesia",
+        "action": "KEEP",
+        "actual": "Stunning • Stupor • Narcosis • Anesthesia",
+        "expected": "Stunning • Stupor • Narcosis • Anesthesia",
+        "pass": true
+      },
+      {
+        "stage": "Group 9",
+        "seq": 429,
+        "cardId": "b2-Färbung-762",
+        "fieldPath": "lv",
+        "current": "Coloring • Hue",
+        "finalEn": "Coloring • Hue",
+        "action": "KEEP",
+        "actual": "Coloring • Hue",
+        "expected": "Coloring • Hue",
+        "pass": true
+      },
+      {
+        "stage": "Group 9",
+        "seq": 430,
+        "cardId": "b2-Faser-767",
+        "fieldPath": "lv",
+        "current": "Fiber",
+        "finalEn": "Fiber",
+        "action": "KEEP",
+        "actual": "Fiber",
+        "expected": "Fiber",
+        "pass": true
+      },
+      {
+        "stage": "Group 9",
+        "seq": 431,
+        "cardId": "b2-Glasfiber-992",
+        "fieldPath": "lv",
+        "current": "Glass fiber",
+        "finalEn": "Glass fiber",
+        "action": "KEEP",
+        "actual": "Glass fiber",
+        "expected": "Glass fiber",
+        "pass": true
+      },
+      {
+        "stage": "Group 9",
+        "seq": 437,
+        "cardId": "b2-Luftpost-1268",
+        "fieldPath": "lv",
+        "current": "Air mail",
+        "finalEn": "Air mail",
+        "action": "KEEP",
+        "actual": "Air mail",
+        "expected": "Air mail",
+        "pass": true
+      },
+      {
+        "stage": "Group 10",
+        "seq": 459,
+        "cardId": "b2-Tatkraft-1727",
+        "fieldPath": "lv",
+        "current": "Energy • Vigor",
+        "finalEn": "Energy • Vigor",
+        "action": "KEEP",
+        "actual": "Energy • Vigor",
+        "expected": "Energy • Vigor",
+        "pass": true
+      }
+    ]
+  },
+  "deSourcePreservation": {
+    "pass": true,
+    "total": 19,
+    "entries": [
+      {
+        "cardId": "b2-Eberesche-494",
+        "fieldPath": "lv",
+        "expected": "Sulfur moss • Rowan",
+        "actual": "Sulfur moss • Rowan",
+        "pass": true
+      },
+      {
+        "cardId": "b2-Eröffnung-695",
+        "fieldPath": "lv",
+        "expected": "Opening • Discovery • Postcard • Announcement • Discovery",
+        "actual": "Opening • Discovery • Postcard • Announcement • Discovery",
+        "pass": true
+      },
+      {
+        "cardId": "b2-gerinnen-939",
+        "fieldPath": "lv",
+        "expected": "To coagulate • To congeal • To congeal • To congeal • To freeze",
+        "actual": "To coagulate • To congeal • To congeal • To congeal • To freeze",
+        "pass": true
+      },
+      {
+        "cardId": "b2-gnädig-1008",
+        "fieldPath": "lv",
+        "expected": "Gracious • Respected",
+        "actual": "Gracious • Respected",
+        "pass": true
+      },
+      {
+        "cardId": "b2-leiden-study",
+        "fieldPath": "study.translation",
+        "expected": "Long and severe illness",
+        "actual": "Long and severe illness",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-empfehlen",
+        "fieldPath": "study.rektion",
+        "expected": "zu + kam?",
+        "actual": "zu + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-empfehlen",
+        "fieldPath": "study.forms",
+        "expected": "zu + kam?",
+        "actual": "zu + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-enthalten",
+        "fieldPath": "study.rektion",
+        "expected": "von + kam?",
+        "actual": "von + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-enthalten",
+        "fieldPath": "study.forms",
+        "expected": "von + kam?",
+        "actual": "von + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-fassen",
+        "fieldPath": "study.rektion",
+        "expected": "an + kam?",
+        "actual": "an + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-fassen",
+        "fieldPath": "study.explanation",
+        "expected": "Sich fassen requires the definite preposition an + kam?.",
+        "actual": "Sich fassen requires the definite preposition an + kam?.",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-fassen",
+        "fieldPath": "study.forms",
+        "expected": "an + kam?",
+        "actual": "an + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-gestalten",
+        "fieldPath": "study.rektion",
+        "expected": "zu + kam?",
+        "actual": "zu + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-gestalten",
+        "fieldPath": "study.explanation",
+        "expected": "Sich gestalten requires the definite preposition zu + kam?.",
+        "actual": "Sich gestalten requires the definite preposition zu + kam?.",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-gestalten",
+        "fieldPath": "study.forms",
+        "expected": "zu + kam?",
+        "actual": "zu + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-herausbilden",
+        "fieldPath": "study.rektion",
+        "expected": "zu + kam?",
+        "actual": "zu + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-herausbilden",
+        "fieldPath": "study.explanation",
+        "expected": "Sich herausbilden requires the definite preposition zu + kam?.",
+        "actual": "Sich herausbilden requires the definite preposition zu + kam?.",
+        "pass": true
+      },
+      {
+        "cardId": "b2-sich-herausbilden",
+        "fieldPath": "study.forms",
+        "expected": "zu + kam?",
+        "actual": "zu + kam?",
+        "pass": true
+      },
+      {
+        "cardId": "b2-fordern",
+        "fieldPath": "study.examples[2].lv",
+        "expected": "She asks for more money.",
+        "actual": "She asks for more money.",
+        "pass": true
+      }
+    ]
+  },
+  "deReadOnly": {
+    "pass": true,
+    "hashBaseline": "74bf5a1ac0002a5fdc848db2df4a0e1f",
+    "hashFinal": "74bf5a1ac0002a5fdc848db2df4a0e1f"
+  },
+  "structural": {
+    "pass": true,
+    "issues": [],
+    "counts": {
+      "cards": 2118,
+      "studies": 60,
+      "standardStudy": 15,
+      "minimalStudy": 45,
+      "flashcards": 2058,
+      "comparison": 0
+    },
+    "syntaxPass": true,
+    "mirrorPass": true
+  },
+  "sectionAccents": {
+    "pass": false,
+    "officialCount": 29,
+    "detailedMismatchCount": 30,
+    "sampleIssues": [
+      {
+        "de": "sich abfinden",
+        "term": "mit + kam?",
+        "section": "explanation",
+        "field": null
+      },
+      {
+        "de": "sich abwenden",
+        "term": "von + kam?",
+        "section": "explanation",
+        "field": null
+      },
+      {
+        "de": "sich befassen",
+        "term": "mit + kam?",
+        "section": "explanation",
+        "field": null
+      },
+      {
+        "de": "sich begnügen",
+        "term": "mit + kam?",
+        "section": "explanation",
+        "field": null
+      },
+      {
+        "de": "sich berufen",
+        "term": "auf + ko?",
+        "section": "explanation",
+        "field": null
+      }
+    ],
+    "studyObjectNoRenderable": 2,
+    "detailedIssues": [
+      {
+        "severity": "medium",
+        "id": "b2-sich-abfinden",
+        "de": "sich abfinden",
+        "section": "explanation",
+        "term": "mit + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-abwenden",
+        "de": "sich abwenden",
+        "section": "explanation",
+        "term": "von + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-befassen",
+        "de": "sich befassen",
+        "section": "explanation",
+        "term": "mit + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-begnuegen",
+        "de": "sich begnügen",
+        "section": "explanation",
+        "term": "mit + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-berufen",
+        "de": "sich berufen",
+        "section": "explanation",
+        "term": "auf + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-beschraenken",
+        "de": "sich beschränken",
+        "section": "explanation",
+        "term": "auf + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-einlassen",
+        "de": "sich einlassen",
+        "section": "explanation",
+        "term": "auf + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-einpraegen",
+        "de": "sich einprägen",
+        "section": "explanation",
+        "term": "in + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-einschleichen",
+        "de": "sich einschleichen",
+        "section": "explanation",
+        "term": "in + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-einschraenken",
+        "de": "sich einschränken",
+        "section": "explanation",
+        "term": "auf + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-empfehlen",
+        "de": "sich empfehlen",
+        "section": "explanation",
+        "term": "zu + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-empoeren",
+        "de": "sich empören",
+        "section": "explanation",
+        "term": "über + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-enthalten",
+        "de": "sich enthalten",
+        "section": "explanation",
+        "term": "von + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-entruesten",
+        "de": "sich entrüsten",
+        "section": "explanation",
+        "term": "über + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-erbarmen",
+        "de": "sich erbarmen",
+        "section": "explanation",
+        "term": "über + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-ergeben",
+        "de": "sich ergeben",
+        "section": "explanation",
+        "term": "aus + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-erniedrigen",
+        "de": "sich erniedrigen",
+        "section": "explanation",
+        "term": "vor + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-erregen",
+        "de": "sich erregen",
+        "section": "explanation",
+        "term": "über + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-fuegen",
+        "de": "sich fügen",
+        "section": "explanation",
+        "term": "in + ko?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-genieren",
+        "de": "sich genieren",
+        "section": "explanation",
+        "term": "vor + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-gesellen",
+        "de": "sich gesellen",
+        "section": "explanation",
+        "term": "zu + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-grauen",
+        "de": "sich grauen",
+        "section": "explanation",
+        "term": "vor + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-heraushalten",
+        "de": "sich heraushalten",
+        "section": "explanation",
+        "term": "aus + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-hochwasser",
+        "de": "Hochwasser",
+        "section": "examples",
+        "term": "high water level",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-paaren",
+        "de": "sich paaren",
+        "section": "explanation",
+        "term": "mit + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-revanchieren",
+        "de": "sich revanchieren",
+        "section": "explanation",
+        "term": "bei + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-vereinigen",
+        "de": "sich vereinigen",
+        "section": "explanation",
+        "term": "mit + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-versehen",
+        "de": "sich versehen",
+        "section": "explanation",
+        "term": "Sich verschein",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-versehen",
+        "de": "sich versehen",
+        "section": "explanation",
+        "term": "mit + kam?",
+        "message": "Accent term not found in target text"
+      },
+      {
+        "severity": "medium",
+        "id": "b2-sich-versoehnen",
+        "de": "sich versöhnen",
+        "section": "explanation",
+        "term": "mit + kam?",
+        "message": "Accent term not found in target text"
+      }
+    ]
+  },
+  "foreignRemnants": {
+    "count": 26,
+    "findings": [
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-empfehlen",
+        "path": "study.rektion",
+        "snippet": "zu + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-empfehlen",
+        "path": "study.forms",
+        "snippet": "zu + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-enthalten",
+        "path": "study.rektion",
+        "snippet": "von + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-enthalten",
+        "path": "study.forms",
+        "snippet": "von + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-fassen",
+        "path": "study.rektion",
+        "snippet": "an + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-fassen",
+        "path": "study.explanation",
+        "snippet": "Sich fassen requires the definite preposition an + kam?.",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-fassen",
+        "path": "study.forms",
+        "snippet": "an + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-gestalten",
+        "path": "study.rektion",
+        "snippet": "zu + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-gestalten",
+        "path": "study.explanation",
+        "snippet": "Sich gestalten requires the definite preposition zu + kam?.",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-gestalten",
+        "path": "study.forms",
+        "snippet": "zu + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-herausbilden",
+        "path": "study.rektion",
+        "snippet": "zu + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-herausbilden",
+        "path": "study.explanation",
+        "snippet": "Sich herausbilden requires the definite preposition zu + kam?.",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-herausbilden",
+        "path": "study.forms",
+        "snippet": "zu + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-revanchieren",
+        "path": "study.rektion",
+        "snippet": "bei + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-revanchieren",
+        "path": "study.forms",
+        "snippet": "bei + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-vereinigen",
+        "path": "study.rektion",
+        "snippet": "mit + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-vereinigen",
+        "path": "study.forms",
+        "snippet": "mit + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-versehen",
+        "path": "study.rektion",
+        "snippet": "mit + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-versehen",
+        "path": "study.forms",
+        "snippet": "mit + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-versoehnen",
+        "path": "study.rektion",
+        "snippet": "mit + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-versoehnen",
+        "path": "study.forms",
+        "snippet": "mit + kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-widersetzen",
+        "path": "study.rektion",
+        "snippet": "+ kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-sich-widersetzen",
+        "path": "study.forms",
+        "snippet": "+ kam?",
+        "pattern": "\\bkam\\?"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-foerdern",
+        "path": "study.tip.1",
+        "snippet": "Use förden when the context fits this meaning.",
+        "pattern": "Förden"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-foerdern",
+        "path": "study.important.0",
+        "snippet": "förden = promote / support (with ö).",
+        "pattern": "Förden"
+      },
+      {
+        "type": "known_lv_pattern",
+        "cardId": "b2-foerdern",
+        "path": "study.important.1",
+        "snippet": "Promotion, support: förden (with ö).",
+        "pattern": "Förden"
+      }
+    ]
+  },
+  "formsLabel": {
+    "management": 0,
+    "government": 0,
+    "rection": 43,
+    "managementEntries": []
+  },
+  "duplicateGlosses": {
+    "count": 155,
+    "entries": [
+      {
+        "cardId": "b2-angebracht-18",
+        "de": "angebracht",
+        "fieldPath": "lv",
+        "text": "Suitable • Suitable"
+      },
+      {
+        "cardId": "b2-abhören-49",
+        "de": "abhören",
+        "fieldPath": "lv",
+        "text": "Eavesdrop • Eavesdrop"
+      },
+      {
+        "cardId": "b2-abscheulich-57",
+        "de": "abscheulich",
+        "fieldPath": "lv",
+        "text": "Disgusting • Disgusting"
+      },
+      {
+        "cardId": "b2-Absturz-69",
+        "de": "Absturz",
+        "fieldPath": "lv",
+        "text": "Fall • Fall"
+      },
+      {
+        "cardId": "b2-Äußerung-104",
+        "de": "Äußerung",
+        "fieldPath": "lv",
+        "text": "Utterance • Expression • Expression"
+      },
+      {
+        "cardId": "b2-auswerten-119",
+        "de": "auswerten",
+        "fieldPath": "lv",
+        "text": "Evaluate • Evaluate"
+      },
+      {
+        "cardId": "b2-auszeichnen-120",
+        "de": "auszeichnen",
+        "fieldPath": "lv",
+        "text": "Award • Award • Stand out"
+      },
+      {
+        "cardId": "b2-beharrlich-159",
+        "de": "beharrlich",
+        "fieldPath": "lv",
+        "text": "Persistent • Persistent"
+      },
+      {
+        "cardId": "b2-behüten-160",
+        "de": "behüten",
+        "fieldPath": "lv",
+        "text": "To protect • To protect"
+      },
+      {
+        "cardId": "b2-Benennung-186",
+        "de": "Benennung",
+        "fieldPath": "lv",
+        "text": "Naming • Naming • Name"
+      },
+      {
+        "cardId": "b2-bersten-195",
+        "de": "bersten",
+        "fieldPath": "lv",
+        "text": "To crack • To crack • To burst • To burst"
+      },
+      {
+        "cardId": "b2-Besinnung-209",
+        "de": "Besinnung",
+        "fieldPath": "lv",
+        "text": "Consciousness • Consciousness"
+      },
+      {
+        "cardId": "b2-beständig-212",
+        "de": "beständig",
+        "fieldPath": "lv",
+        "text": "Constant • Constant"
+      },
+      {
+        "cardId": "b2-bestürzt-218",
+        "de": "bestürzt",
+        "fieldPath": "lv",
+        "text": "Surprised • Confused • Perplexed • Confused"
+      },
+      {
+        "cardId": "b2-Betracht-222",
+        "de": "Betracht",
+        "fieldPath": "lv",
+        "text": "Consideration • Consideration"
+      },
+      {
+        "cardId": "b2-Bewaffnung-228",
+        "de": "Bewaffnung",
+        "fieldPath": "lv",
+        "text": "Armament • Armament"
+      },
+      {
+        "cardId": "b2-Bewusstsein-236",
+        "de": "Bewusstsein",
+        "fieldPath": "lv",
+        "text": "Consciousness • Consciousness"
+      },
+      {
+        "cardId": "b2-bisweilen-244",
+        "de": "bisweilen",
+        "fieldPath": "lv",
+        "text": "Sometimes • Sometimes • At times"
+      },
+      {
+        "cardId": "b2-Bildhauer-245",
+        "de": "Bildhauer",
+        "fieldPath": "lv",
+        "text": "Sculptor • Sculptor"
+      },
+      {
+        "cardId": "b2-Bindung-249",
+        "de": "Bindung",
+        "fieldPath": "lv",
+        "text": "Bond • Connection • Chemical bond • Bond • Straps • Emotional bond"
+      },
+      {
+        "cardId": "b2-blödsinnig-271",
+        "de": "blödsinnig",
+        "fieldPath": "lv",
+        "text": "Insane • Foolish • Foolish • Stupid"
+      },
+      {
+        "cardId": "b2-Böschung-289",
+        "de": "Böschung",
+        "fieldPath": "lv",
+        "text": "Slope • Slope • Embankment"
+      },
+      {
+        "cardId": "b2-Bote-290",
+        "de": "Bote",
+        "fieldPath": "lv",
+        "text": "Messenger • Messenger • Messenger"
+      },
+      {
+        "cardId": "b2-brillant-303",
+        "de": "brillant",
+        "fieldPath": "lv",
+        "text": "Excellent • Excellent"
+      },
+      {
+        "cardId": "b2-Bürde-318",
+        "de": "Bürde",
+        "fieldPath": "lv",
+        "text": "Burden • Burden"
+      },
+      {
+        "cardId": "b2-Dämmerung-342",
+        "de": "Dämmerung",
+        "fieldPath": "lv",
+        "text": "Twilight • Twilight • Dawn • Dawn"
+      },
+      {
+        "cardId": "b2-Darbietung-348",
+        "de": "Darbietung",
+        "fieldPath": "lv",
+        "text": "Performance • Performance"
+      },
+      {
+        "cardId": "b2-Darstellung-353",
+        "de": "Darstellung",
+        "fieldPath": "lv",
+        "text": "Depiction • Depiction • Outline"
+      },
+      {
+        "cardId": "b2-Dasein-354",
+        "de": "Dasein",
+        "fieldPath": "lv",
+        "text": "Existence • Existence"
+      },
+      {
+        "cardId": "b2-dehnbar-366",
+        "de": "dehnbar",
+        "fieldPath": "lv",
+        "text": "Stretchable • Stretchable • Stretchy"
+      },
+      {
+        "cardId": "b2-Demission-375",
+        "de": "Demission",
+        "fieldPath": "lv",
+        "text": "Resignation • Resignation"
+      },
+      {
+        "cardId": "b2-Deutung-383",
+        "de": "Deutung",
+        "fieldPath": "lv",
+        "text": "Explanation • Translation • Explanation • Translation"
+      },
+      {
+        "cardId": "b2-dörren-420",
+        "de": "dörren",
+        "fieldPath": "lv",
+        "text": "To dry • To dry"
+      },
+      {
+        "cardId": "b2-Dosis-427",
+        "de": "Dosis",
+        "fieldPath": "lv",
+        "text": "Dose • Dose"
+      },
+      {
+        "cardId": "b2-dunkeln-464",
+        "de": "dunkeln",
+        "fieldPath": "lv",
+        "text": "It gets dark • It gets dark"
+      },
+      {
+        "cardId": "b2-dünken-465",
+        "de": "dünken",
+        "fieldPath": "lv",
+        "text": "Seem • Seem"
+      },
+      {
+        "cardId": "b2-Dunst-466",
+        "de": "Dunst",
+        "fieldPath": "lv",
+        "text": "Steam • Fumes • Fumes • Steam • Fog • Haze"
+      },
+      {
+        "cardId": "b2-durchaus-468",
+        "de": "durchaus",
+        "fieldPath": "lv",
+        "text": "Quite • Completely • Completely"
+      },
+      {
+        "cardId": "b2-durchbrechen-469",
+        "de": "durchbrechen",
+        "fieldPath": "lv",
+        "text": "Break through • Break through • Appear • Break through"
+      },
+      {
+        "cardId": "b2-durchbrennen-470",
+        "de": "durchbrennen",
+        "fieldPath": "lv",
+        "text": "Burn through • Burn through • Burn out • Burn out"
+      },
+      {
+        "cardId": "b2-Durchmesser-480",
+        "de": "Durchmesser",
+        "fieldPath": "lv",
+        "text": "Diameter • Diameter"
+      },
+      {
+        "cardId": "b2-dürsten-490",
+        "de": "dürsten",
+        "fieldPath": "lv",
+        "text": "To thirst • To be thirsty • To be thirsty"
+      },
+      {
+        "cardId": "b2-edel-497",
+        "de": "edel",
+        "fieldPath": "lv",
+        "text": "Noble • Sublime • Noble"
+      },
+      {
+        "cardId": "b2-Eheschließung-504",
+        "de": "Eheschließung",
+        "fieldPath": "lv",
+        "text": "Marriage • Marriage"
+      },
+      {
+        "cardId": "b2-ehren-505",
+        "de": "ehren",
+        "fieldPath": "lv",
+        "text": "honour • Respect • honour"
+      },
+      {
+        "cardId": "b2-eifrig-522",
+        "de": "eifrig",
+        "fieldPath": "lv",
+        "text": "Diligent • Diligent • Diligent • Eager"
+      },
+      {
+        "cardId": "b2-Einbildung-534",
+        "de": "Einbildung",
+        "fieldPath": "lv",
+        "text": "Fancy • Imagination • Fantasy • Conceit • Conceit"
+      },
+      {
+        "cardId": "b2-einfrieren-543",
+        "de": "einfrieren",
+        "fieldPath": "lv",
+        "text": "Freeze • Freeze • Stop"
+      },
+      {
+        "cardId": "b2-eingebildet-547",
+        "de": "eingebildet",
+        "fieldPath": "lv",
+        "text": "Conceited • Conceited"
+      },
+      {
+        "cardId": "b2-einkleiden-564",
+        "de": "einkleiden",
+        "fieldPath": "lv",
+        "text": "Dress up • Dress up"
+      },
+      {
+        "cardId": "b2-sich-einschleichen",
+        "de": "sich einschleichen",
+        "fieldPath": "lv",
+        "text": "Sneak in • Sneak in"
+      },
+      {
+        "cardId": "b2-Einspruch-581",
+        "de": "Einspruch",
+        "fieldPath": "lv",
+        "text": "Objection • Objection • Protest"
+      },
+      {
+        "cardId": "b2-einstimmig-583",
+        "de": "einstimmig",
+        "fieldPath": "lv",
+        "text": "Unanimous • Unanimous"
+      },
+      {
+        "cardId": "b2-eintauchen-585",
+        "de": "eintauchen",
+        "fieldPath": "lv",
+        "text": "Dip • Dip • Immerse • Plunge"
+      },
+      {
+        "cardId": "b2-eintönig-586",
+        "de": "eintönig",
+        "fieldPath": "lv",
+        "text": "Monotonous • Monotonous • Monotonous"
+      },
+      {
+        "cardId": "b2-einträglich-588",
+        "de": "einträglich",
+        "fieldPath": "lv",
+        "text": "Profitable • Profitable"
+      },
+      {
+        "cardId": "b2-eitel-605",
+        "de": "eitel",
+        "fieldPath": "lv",
+        "text": "Conceited • Conceited • Conceited • Shallow • Empty • Ostentatious"
+      },
+      {
+        "cardId": "b2-Ekel-606",
+        "de": "Ekel",
+        "fieldPath": "lv",
+        "text": "Disgust • Disgust"
+      },
+      {
+        "cardId": "b2-empor-611",
+        "de": "empor",
+        "fieldPath": "lv",
+        "text": "Up • Up"
+      },
+      {
+        "cardId": "b2-entbinden-617",
+        "de": "entbinden",
+        "fieldPath": "lv",
+        "text": "Release • Release • Give birth"
+      },
+      {
+        "cardId": "b2-enteignen-620",
+        "de": "enteignen",
+        "fieldPath": "lv",
+        "text": "Expropriate • Expropriate"
+      },
+      {
+        "cardId": "b2-entflammen-625",
+        "de": "entflammen",
+        "fieldPath": "lv",
+        "text": "To kindle • To kindle • To excite • To catch fire"
+      },
+      {
+        "cardId": "b2-entladen-633",
+        "de": "entladen",
+        "fieldPath": "lv",
+        "text": "Unload • Unload"
+      },
+      {
+        "cardId": "b2-sich-entledigen",
+        "de": "sich entledigen",
+        "fieldPath": "lv",
+        "text": "Get rid of • Get rid of"
+      },
+      {
+        "cardId": "b2-sich-entledigen",
+        "de": "sich entledigen",
+        "fieldPath": "study.translation",
+        "text": "Get rid of • Get rid of"
+      },
+      {
+        "cardId": "b2-entlegen-636",
+        "de": "entlegen",
+        "fieldPath": "lv",
+        "text": "Remote • Remote • Distant"
+      },
+      {
+        "cardId": "b2-sich-entsinnen",
+        "de": "sich entsinnen",
+        "fieldPath": "lv",
+        "text": "To remember • To remember"
+      },
+      {
+        "cardId": "b2-sich-entsinnen",
+        "de": "sich entsinnen",
+        "fieldPath": "study.translation",
+        "text": "To remember • To remember"
+      },
+      {
+        "cardId": "b2-Entspannung-643",
+        "de": "Entspannung",
+        "fieldPath": "lv",
+        "text": "Relaxation • Relaxation • Reduction of tension"
+      },
+      {
+        "cardId": "b2-entzünden-655",
+        "de": "entzünden",
+        "fieldPath": "lv",
+        "text": "To ignite • To ignite • To light"
+      },
+      {
+        "cardId": "b2-Entzündung-657",
+        "de": "Entzündung",
+        "fieldPath": "lv",
+        "text": "Ignition • Ignition • Inflammation"
+      },
+      {
+        "cardId": "b2-sich-erbarmen",
+        "de": "sich erbarmen",
+        "fieldPath": "lv",
+        "text": "To have mercy • To have mercy"
+      },
+      {
+        "cardId": "b2-sich-erbarmen",
+        "de": "sich erbarmen",
+        "fieldPath": "study.translation",
+        "text": "To have mercy • To have mercy"
+      },
+      {
+        "cardId": "b2-erheben-677",
+        "de": "erheben",
+        "fieldPath": "lv",
+        "text": "Raise • Raise • Raise • Protest"
+      },
+      {
+        "cardId": "b2-sich erheben-678",
+        "de": "sich erheben",
+        "fieldPath": "lv",
+        "text": "Rise up • Rise up • Rise up"
+      },
+      {
+        "cardId": "b2-erlassen-684",
+        "de": "erlassen",
+        "fieldPath": "lv",
+        "text": "Issue • Release • Release"
+      },
+      {
+        "cardId": "b2-erläutern-685",
+        "de": "erläutern",
+        "fieldPath": "lv",
+        "text": "Explain • Explain"
+      },
+      {
+        "cardId": "b2-erleiden-687",
+        "de": "erleiden",
+        "fieldPath": "lv",
+        "text": "Suffer • Endure • Endure • Be defeated"
+      },
+      {
+        "cardId": "b2-ermitteln-691",
+        "de": "ermitteln",
+        "fieldPath": "lv",
+        "text": "Find out • Find out"
+      },
+      {
+        "cardId": "b2-Eröffnung-695",
+        "de": "Eröffnung",
+        "fieldPath": "lv",
+        "text": "Opening • Discovery • Postcard • Announcement • Discovery"
+      },
+      {
+        "cardId": "b2-erörtern-696",
+        "de": "erörtern",
+        "fieldPath": "lv",
+        "text": "Discuss • Discuss"
+      },
+      {
+        "cardId": "b2-erregen-698",
+        "de": "erregen",
+        "fieldPath": "lv",
+        "text": "To excite • To excite • To cause • To cause • To arouse"
+      },
+      {
+        "cardId": "b2-Erscheinung-703",
+        "de": "Erscheinung",
+        "fieldPath": "lv",
+        "text": "Phenomenon • Appearance • Appearance • Appearance"
+      },
+      {
+        "cardId": "b2-ersparen-710",
+        "de": "ersparen",
+        "fieldPath": "lv",
+        "text": "To save • To save • To spare • To spare"
+      },
+      {
+        "cardId": "b2-Ersparnis-711",
+        "de": "Ersparnis",
+        "fieldPath": "lv",
+        "text": "Savings • Savings"
+      },
+      {
+        "cardId": "b2-ertönen-716",
+        "de": "ertönen",
+        "fieldPath": "lv",
+        "text": "Resound • Resound"
+      },
+      {
+        "cardId": "b2-erträglich-718",
+        "de": "erträglich",
+        "fieldPath": "lv",
+        "text": "Tolerable • Tolerable"
+      },
+      {
+        "cardId": "b2-Erwägung-720",
+        "de": "Erwägung",
+        "fieldPath": "lv",
+        "text": "Consideration • Consideration"
+      },
+      {
+        "cardId": "b2-Export-740",
+        "de": "Export",
+        "fieldPath": "lv",
+        "text": "Export • Export"
+      },
+      {
+        "cardId": "b2-fortschaffen-821",
+        "de": "fortschaffen",
+        "fieldPath": "lv",
+        "text": "Procure away • Take away • Take away"
+      },
+      {
+        "cardId": "b2-Fräser-829",
+        "de": "Fräser",
+        "fieldPath": "lv",
+        "text": "Milling machine • Milling machine"
+      },
+      {
+        "cardId": "b2-Funker-849",
+        "de": "Funker",
+        "fieldPath": "lv",
+        "text": "Radio operator • Radio operator"
+      },
+      {
+        "cardId": "b2-Furche-855",
+        "de": "Furche",
+        "fieldPath": "lv",
+        "text": "Furrow • Wrinkle • Wrinkle"
+      },
+      {
+        "cardId": "b2-Garbe-865",
+        "de": "Garbe",
+        "fieldPath": "lv",
+        "text": "Bundle • Bundle"
+      },
+      {
+        "cardId": "b2-Gefecht-888",
+        "de": "Gefecht",
+        "fieldPath": "lv",
+        "text": "Battle • Battle"
+      },
+      {
+        "cardId": "b2-Gefüge-890",
+        "de": "Gefüge",
+        "fieldPath": "lv",
+        "text": "Structure • Structure • Connection • Splice"
+      },
+      {
+        "cardId": "b2-gehörig-896",
+        "de": "gehörig",
+        "fieldPath": "lv",
+        "text": "Belonging • Belonging • Proper • Befitting"
+      },
+      {
+        "cardId": "b2-geläufig-902",
+        "de": "geläufig",
+        "fieldPath": "lv",
+        "text": "Known • Familiar • Habitual • Fluent • Fluent"
+      },
+      {
+        "cardId": "b2-gelegen-908",
+        "de": "gelegen",
+        "fieldPath": "lv",
+        "text": "Convenient • Convenient • Handy • Secluded"
+      },
+      {
+        "cardId": "b2-Geliebte-910",
+        "de": "Geliebte",
+        "fieldPath": "lv",
+        "text": "Beloved • Beloved • Lover"
+      },
+      {
+        "cardId": "b2-Gemisch-918",
+        "de": "Gemisch",
+        "fieldPath": "lv",
+        "text": "A mixture • A mixture • A mixture"
+      },
+      {
+        "cardId": "b2-Genesung-926",
+        "de": "Genesung",
+        "fieldPath": "lv",
+        "text": "Recovery • Recovery"
+      },
+      {
+        "cardId": "b2-Genossin-930",
+        "de": "Genossin",
+        "fieldPath": "lv",
+        "text": "A member • A member"
+      },
+      {
+        "cardId": "b2-geräuschlos-937",
+        "de": "geräuschlos",
+        "fieldPath": "lv",
+        "text": "Quietly • Quietly • Without noise"
+      },
+      {
+        "cardId": "b2-gerinnen-939",
+        "de": "gerinnen",
+        "fieldPath": "lv",
+        "text": "To coagulate • To congeal • To congeal • To congeal • To freeze"
+      },
+      {
+        "cardId": "b2-Geschöpf-947",
+        "de": "Geschöpf",
+        "fieldPath": "lv",
+        "text": "Creature • Creature • Being"
+      },
+      {
+        "cardId": "b2-geschwind-952",
+        "de": "geschwind",
+        "fieldPath": "lv",
+        "text": "Quick • Nimble • Nimble"
+      },
+      {
+        "cardId": "b2-gestehen-963",
+        "de": "gestehen",
+        "fieldPath": "lv",
+        "text": "Admit • Admit"
+      },
+      {
+        "cardId": "b2-gewaltsam-972",
+        "de": "gewaltsam",
+        "fieldPath": "lv",
+        "text": "By force • By force"
+      },
+      {
+        "cardId": "b2-Glasur-994",
+        "de": "Glasur",
+        "fieldPath": "lv",
+        "text": "Glaze • Glaze"
+      },
+      {
+        "cardId": "b2-glühen-1004",
+        "de": "glühen",
+        "fieldPath": "lv",
+        "text": "To glow • To burn • To burn • To burn"
+      },
+      {
+        "cardId": "b2-grässlich-1021",
+        "de": "grässlich",
+        "fieldPath": "lv",
+        "text": "Terrible • Terrible • Disgusting • Nasty"
+      },
+      {
+        "cardId": "b2-habsüchtig-1054",
+        "de": "habsüchtig",
+        "fieldPath": "lv",
+        "text": "Greedy • Greedy"
+      },
+      {
+        "cardId": "b2-Hetze-1111",
+        "de": "Hetze",
+        "fieldPath": "lv",
+        "text": "Incitement • Incitement"
+      },
+      {
+        "cardId": "b2-sich-hingeben",
+        "de": "sich hingeben",
+        "fieldPath": "lv",
+        "text": "Surrender • Surrender"
+      },
+      {
+        "cardId": "b2-Hochmut-1139",
+        "de": "Hochmut",
+        "fieldPath": "lv",
+        "text": "Arrogance • Arrogance"
+      },
+      {
+        "cardId": "b2-hochmütig-1140",
+        "de": "hochmütig",
+        "fieldPath": "lv",
+        "text": "Haughty • Haughty"
+      },
+      {
+        "cardId": "b2-Hohn-1148",
+        "de": "Hohn",
+        "fieldPath": "lv",
+        "text": "Ridicule • Ridicule"
+      },
+      {
+        "cardId": "b2-Investition-1164",
+        "de": "Investition",
+        "fieldPath": "lv",
+        "text": "Investment • Investing • Capital investment • Investing"
+      },
+      {
+        "cardId": "b2-irrsinnig-1165",
+        "de": "irrsinnig",
+        "fieldPath": "lv",
+        "text": "Insane • Insane"
+      },
+      {
+        "cardId": "b2-Kapazität-1168",
+        "de": "Kapazität",
+        "fieldPath": "lv",
+        "text": "Production capacity • Capacity • Volume • Capacity"
+      },
+      {
+        "cardId": "b2-Klappe-1179",
+        "de": "Klappe",
+        "fieldPath": "lv",
+        "text": "Valve • Valve"
+      },
+      {
+        "cardId": "b2-langfristig-1214",
+        "de": "langfristig",
+        "fieldPath": "lv",
+        "text": "Long-term • Long-term"
+      },
+      {
+        "cardId": "b2-nichtig-1380",
+        "de": "nichtig",
+        "fieldPath": "lv",
+        "text": "Void • Void • Trifling • Insignificant"
+      },
+      {
+        "cardId": "b2-Niedergang-1381",
+        "de": "Niedergang",
+        "fieldPath": "lv",
+        "text": "Sunset • Decline • Decline"
+      },
+      {
+        "cardId": "b2-orientalisch-1418",
+        "de": "orientalisch",
+        "fieldPath": "lv",
+        "text": "Oriental • Oriental • Oriental"
+      },
+      {
+        "cardId": "b2-Quantität-1481",
+        "de": "Quantität",
+        "fieldPath": "lv",
+        "text": "Quantity • Quantity"
+      },
+      {
+        "cardId": "b2-rau-1493",
+        "de": "rau",
+        "fieldPath": "lv",
+        "text": "Rough • Rough • Coarse • Hoarse • Harsh • Unkind • Crude"
+      },
+      {
+        "cardId": "b2-recken-1503",
+        "de": "recken",
+        "fieldPath": "lv",
+        "text": "To stretch • To stretch • To stretch • To stretch"
+      },
+      {
+        "cardId": "b2-Rückhalt-1531",
+        "de": "Rückhalt",
+        "fieldPath": "lv",
+        "text": "Support • Support"
+      },
+      {
+        "cardId": "b2-Schöpfung-1600",
+        "de": "Schöpfung",
+        "fieldPath": "lv",
+        "text": "Creation • Creation • Work"
+      },
+      {
+        "cardId": "b2-selbstlos-1634",
+        "de": "selbstlos",
+        "fieldPath": "lv",
+        "text": "Selfless • Selfless"
+      },
+      {
+        "cardId": "b2-spionieren-1672",
+        "de": "spionieren",
+        "fieldPath": "lv",
+        "text": "To spy • To spy"
+      },
+      {
+        "cardId": "b2-spurlos-1684",
+        "de": "spurlos",
+        "fieldPath": "lv",
+        "text": "Without a trace • Without a trace"
+      },
+      {
+        "cardId": "b2-starrköpfig-1695",
+        "de": "starrköpfig",
+        "fieldPath": "lv",
+        "text": "Obstinate • Obstinate"
+      },
+      {
+        "cardId": "b2-starrsinnig-1696",
+        "de": "starrsinnig",
+        "fieldPath": "lv",
+        "text": "Obstinate • Obstinate"
+      },
+      {
+        "cardId": "b2-umfassen-1788",
+        "de": "umfassen",
+        "fieldPath": "lv",
+        "text": "To encompass • To embrace • To embrace"
+      },
+      {
+        "cardId": "b2-umwandeln-1805",
+        "de": "umwandeln",
+        "fieldPath": "lv",
+        "text": "Convert • Convert"
+      },
+      {
+        "cardId": "b2-umwickeln-1806",
+        "de": "umwickeln",
+        "fieldPath": "lv",
+        "text": "Wrap • Wrap"
+      },
+      {
+        "cardId": "b2-unbegründet-1814",
+        "de": "unbegründet",
+        "fieldPath": "lv",
+        "text": "Unfounded • Unfounded"
+      },
+      {
+        "cardId": "b2-unerträglich-1826",
+        "de": "unerträglich",
+        "fieldPath": "lv",
+        "text": "Intolerable • Intolerable"
+      },
+      {
+        "cardId": "b2-Union-1830",
+        "de": "Union",
+        "fieldPath": "lv",
+        "text": "Union • Union"
+      },
+      {
+        "cardId": "b2-unmenschlich-1832",
+        "de": "unmenschlich",
+        "fieldPath": "lv",
+        "text": "Inhuman • Inhuman"
+      },
+      {
+        "cardId": "b2-Versager-1913",
+        "de": "Versager",
+        "fieldPath": "lv",
+        "text": "Loser • Loser"
+      },
+      {
+        "cardId": "b2-Verweis-1957",
+        "de": "Verweis",
+        "fieldPath": "lv",
+        "text": "Reprimand • Reprimand"
+      },
+      {
+        "cardId": "b2-verzweifelt-1971",
+        "de": "verzweifelt",
+        "fieldPath": "lv",
+        "text": "Desperate • Desperate • Full of despair"
+      },
+      {
+        "cardId": "b2-Volumen-1984",
+        "de": "Volumen",
+        "fieldPath": "lv",
+        "text": "Volume • Volume"
+      },
+      {
+        "cardId": "b2-vortrefflich-2009",
+        "de": "vortrefflich",
+        "fieldPath": "lv",
+        "text": "Excellent • Excellent"
+      },
+      {
+        "cardId": "b2-Vorwand-2012",
+        "de": "Vorwand",
+        "fieldPath": "lv",
+        "text": "Pretext • Pretext"
+      },
+      {
+        "cardId": "b2-vorzeitig-2015",
+        "de": "vorzeitig",
+        "fieldPath": "lv",
+        "text": "Premature • Premature"
+      },
+      {
+        "cardId": "b2-vorzüglich-2016",
+        "de": "vorzüglich",
+        "fieldPath": "lv",
+        "text": "Excellent • Excellent"
+      },
+      {
+        "cardId": "b2-Wall-2028",
+        "de": "Wall",
+        "fieldPath": "lv",
+        "text": "Embankment • Embankment"
+      },
+      {
+        "cardId": "b2-zuweisen",
+        "de": "zuweisen",
+        "fieldPath": "lv",
+        "text": "Assign • Assign"
+      },
+      {
+        "cardId": "b2-fordern",
+        "de": "fordern",
+        "fieldPath": "lv",
+        "text": "Require • Require"
+      },
+      {
+        "cardId": "b2-fordern",
+        "de": "fordern",
+        "fieldPath": "study.translation",
+        "text": "Require • Require"
+      }
+    ]
+  },
+  "luna": {
+    "status": "NOT RUN — API unavailable",
+    "apiAvailable": false,
+    "cardsAudited": 0,
+    "validated": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0,
+      "FALSE_POSITIVE": 0,
+      "DE_SOURCE_ISSUE": 0
+    },
+    "trueRepairRegression": 0,
+    "preExisting": 0
+  },
+  "verdict": "DETERMINISTIC PASS — LUNA REGRESSION PENDING",
+  "mismatches": [],
+  "unexpected": [],
+  "notAppliedList": []
+}
