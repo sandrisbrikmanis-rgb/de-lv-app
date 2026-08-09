@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-08-09T15:53:24.869Z",
+  "level": "b2",
+  "totals": {
+    "findings": 3,
+    "CRITICAL": 0,
+    "HIGH": 1,
+    "MEDIUM": 0,
+    "LOW": 2,
+    "WARNING": 0,
+    "DE SOURCE ISSUE": 0
+  },
+  "findings": [
+    {
+      "Level": "B2",
+      "Severity": "HIGH",
+      "Type": "LV leftover text",
+      "Card ID": "b2-bieten",
+      "DE": "bieten",
+      "Current EN": "Ko vieta/programma sniedz: bieten.",
+      "Recommended EN": "Rewrite for English learners (remove Latvian references/words)",
+      "Field": "entry[2112].study.important[1]",
+      "Reason": "Latvian word or diacritics found in EN learner-language field."
+    },
+    {
+      "Level": "B2",
+      "Severity": "LOW",
+      "Type": "minimalStudy no renderable",
+      "Card ID": "b2-sich verlaufen",
+      "DE": "sich verlaufen",
+      "Current EN": "layout=minimalStudy",
+      "Recommended EN": "Documented minimalStudy — verify renderer accepts layout",
+      "Field": "study.layout",
+      "Reason": "validate-study-design reports studyObjectNoRenderable for minimalStudy cards (expected for some B2 minimal cards)."
+    },
+    {
+      "Level": "B2",
+      "Severity": "LOW",
+      "Type": "minimalStudy no renderable",
+      "Card ID": "b2-verlaufen",
+      "DE": "verlaufen",
+      "Current EN": "layout=minimalStudy",
+      "Recommended EN": "Documented minimalStudy — verify renderer accepts layout",
+      "Field": "study.layout",
+      "Reason": "validate-study-design reports studyObjectNoRenderable for minimalStudy cards (expected for some B2 minimal cards)."
+    }
+  ],
+  "verdict": "EN–DE B2 — REPAIRS REQUIRED",
+  "deterministic": {
+    "structuralPass": true,
+    "germanIntegrityPass": true,
+    "lvRemnants": 1,
+    "sectionAccentTechnical": 0
+  }
+}
