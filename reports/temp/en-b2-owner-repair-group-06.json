@@ -1,0 +1,565 @@
+{
+  "meta": {
+    "group": "6/10",
+    "manifestPositions": "251-300",
+    "branch": "cursor/en-b2-full-audit-6850",
+    "pr": "#376",
+    "generatedAt": "2026-08-09T17:56:06.312Z"
+  },
+  "scope": {
+    "reviewed": 50,
+    "apply": 48,
+    "keep": 2,
+    "applied": 48,
+    "applyVerified": 48,
+    "keepPreserved": 2,
+    "totalVerified": 50,
+    "currentValueMismatch": 0
+  },
+  "safety": {
+    "deReadOnly": "PASS",
+    "structuralParity": {
+      "cards": 2118,
+      "studies": 60,
+      "standardStudy": 15,
+      "minimalStudy": 45,
+      "flashcards": 2058,
+      "pass": true
+    },
+    "idOrder": "PASS",
+    "mirror": "PASS",
+    "sectionAccents": "PASS",
+    "jsSyntax": "PASS",
+    "languageParity": "PASS",
+    "unexpectedChanges": 0,
+    "deHash": "74bf5a1ac0002a5fdc848db2df4a0e1f"
+  },
+  "regression": {
+    "changedCards": 48,
+    "exactVerification": {
+      "apply": 48,
+      "keep": 2
+    },
+    "lunaSemanticRegression": "NOT RUN — API unavailable"
+  },
+  "keepEntries": [
+    {
+      "seq": 262,
+      "cardId": "b2-Handelsflotte-1060",
+      "fieldPath": "lv",
+      "current": "Merchant navy",
+      "finalEn": "Merchant navy",
+      "action": "KEEP"
+    },
+    {
+      "seq": 263,
+      "cardId": "b2-haube",
+      "fieldPath": "study.examples[2].en",
+      "current": "He opens the hood of the car.",
+      "finalEn": "He opens the hood of the car.",
+      "action": "KEEP"
+    }
+  ],
+  "repairs": [
+    {
+      "seq": 251,
+      "cardId": "b2-Gesinnung-958",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Beliefs • Mood",
+      "finalEn": "Beliefs • Attitude",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 252,
+      "cardId": "b2-Gestein-964",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "The rock",
+      "finalEn": "Rock",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 253,
+      "cardId": "b2-Giftmüll-987",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Toxic wastes",
+      "finalEn": "Toxic waste",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 254,
+      "cardId": "b2-Gipsverband-989",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Plaster bandage",
+      "finalEn": "Plaster cast",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 255,
+      "cardId": "b2-gleiten-999",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Glide • Soar",
+      "finalEn": "Glide • Slide",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 256,
+      "cardId": "b2-Glied-1000",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Member • Limb • Chain member • Link",
+      "finalEn": "Member • Limb • Link",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 257,
+      "cardId": "b2-Goldwäscher-1013",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Gold washer",
+      "finalEn": "Gold panner",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 258,
+      "cardId": "b2-Grenzbezirk-1029",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Border area",
+      "finalEn": "Border district",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 259,
+      "cardId": "b2-Grenzverkehr-1031",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Border traffic",
+      "finalEn": "Cross-border traffic",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 260,
+      "cardId": "b2-Grundrecht-1039",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Fundamental rights",
+      "finalEn": "Fundamental right",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 261,
+      "cardId": "b2-Güte-1048",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Kindness • Quality • Benefit",
+      "finalEn": "Kindness • Quality",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 262,
+      "cardId": "b2-Handelsflotte-1060",
+      "fieldPath": "lv",
+      "action": "KEEP",
+      "expectedCurrent": "Merchant navy",
+      "finalEn": "Merchant navy",
+      "applyStatus": "KEEP_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": 263,
+      "cardId": "b2-haube",
+      "fieldPath": "study.examples[2].en",
+      "action": "KEEP",
+      "expectedCurrent": "He opens the hood of the car.",
+      "finalEn": "He opens the hood of the car.",
+      "applyStatus": "KEEP_VERIFIED",
+      "note": ""
+    },
+    {
+      "seq": 264,
+      "cardId": "b2-Heilquelle-1082",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Source of healing",
+      "finalEn": "Medicinal spring",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 265,
+      "cardId": "b2-Heimkehr-1086",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Returning home • To the homeland",
+      "finalEn": "Return home • Return to one's homeland",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 266,
+      "cardId": "b2-Heizkraftwerk-1088",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Thermal power plant",
+      "finalEn": "Combined heat and power plant",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 267,
+      "cardId": "b2-Heizöl-1089",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Liquid fuel • Fuel oil",
+      "finalEn": "Heating oil • Fuel oil",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 268,
+      "cardId": "b2-heucheln-1113",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "To pretend • To pretend",
+      "finalEn": "To pretend • To feign",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 269,
+      "cardId": "b2-hierdurch-1115",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "With that • With this",
+      "finalEn": "By this • Through this",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 270,
+      "cardId": "b2-Hilfsaktion-1116",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Aid action",
+      "finalEn": "Aid campaign",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 271,
+      "cardId": "b2-hinsichtlich-1122",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Regarding • Due to",
+      "finalEn": "Regarding • With regard to",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 272,
+      "cardId": "b2-hinterziehen-1125",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Embezzle money • Not pay taxes",
+      "finalEn": "Embezzle money • Evade taxes",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 273,
+      "cardId": "b2-hoch-study",
+      "fieldPath": "study.translation",
+      "action": "APPLY",
+      "expectedCurrent": "Toast \"long live!\"",
+      "finalEn": "A toast (\"long live!\")",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 274,
+      "cardId": "b2-Hochverrat-1144",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Treason",
+      "finalEn": "High treason",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 275,
+      "cardId": "b2-hochwasser",
+      "fieldPath": "study.comparison[1].meaning",
+      "action": "APPLY",
+      "expectedCurrent": "Flood (specific)",
+      "finalEn": "High water / flooding",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 276,
+      "cardId": "b2-Landenge-1209",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Isthmus of land",
+      "finalEn": "Isthmus",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 277,
+      "cardId": "b2-latent-1217",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Hidden • Imperceptible",
+      "finalEn": "Latent • Hidden",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 278,
+      "cardId": "b2-leidlich-1236",
+      "fieldPath": "en",
+      "action": "APPLY",
+      "expectedCurrent": "Tolerable • Tolerable • Half good",
+      "finalEn": "Tolerable • Passable • Fairly good",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 279,
+      "cardId": "b2-Leuchtreklame-1243",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Light advertising",
+      "finalEn": "Illuminated sign",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 280,
+      "cardId": "b2-liebkosten-1247",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "To caress • Caress",
+      "finalEn": "To caress • To fondle",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 281,
+      "cardId": "b2-liederlich-1248",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Sloppy • Sloppy",
+      "finalEn": "Sloppy • Slovenly",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 282,
+      "cardId": "b2-Lieferfirma-794",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Supplier company",
+      "finalEn": "Supplier",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 283,
+      "cardId": "b2-Lustspiel-1271",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Comedy • Joke play",
+      "finalEn": "Comedy • Light comedy",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 284,
+      "cardId": "b2-Mahnschreiben-1281",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "A reminder",
+      "finalEn": "Reminder letter",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 285,
+      "cardId": "b2-Marketing-1287",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Marketing • Trade",
+      "finalEn": "Marketing",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 286,
+      "cardId": "b2-Marktlücke-1288",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Niche market",
+      "finalEn": "Gap in the market",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 287,
+      "cardId": "b2-Meldefrist-1306",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Application deadline",
+      "finalEn": "Registration deadline",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 288,
+      "cardId": "b2-meutern-1309",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Rebel • Rebel",
+      "finalEn": "To mutiny • To rebel",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 289,
+      "cardId": "b2-Militär-1317",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Troops • Army",
+      "finalEn": "Military • Armed forces",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 290,
+      "cardId": "b2-mittels-1331",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "With the help of something",
+      "finalEn": "By means of",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 291,
+      "cardId": "b2-mitwirken-1333",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Participate • Act together",
+      "finalEn": "Participate • Collaborate",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 292,
+      "cardId": "b2-nachdruck",
+      "fieldPath": "study.examples[3].en",
+      "action": "APPLY",
+      "expectedCurrent": "This book is already in reprint.",
+      "finalEn": "This book is already being reprinted.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 293,
+      "cardId": "b2-nachdrücklich-1350",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Emphatic • Vigorous • Persuasive • Vigorously • Persuasively",
+      "finalEn": "Emphatic • Forceful • Persuasive • Forcefully • Persuasively",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 294,
+      "cardId": "b2-Neuerscheinung-1376",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "New • New edition",
+      "finalEn": "New release • New edition",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 295,
+      "cardId": "b2-Notstand-1389",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Catastrophic state • State of emergency",
+      "finalEn": "Emergency • State of emergency",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 296,
+      "cardId": "b2-obgleich-1395",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Although although",
+      "finalEn": "Although",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 297,
+      "cardId": "b2-observieren-1398",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Trace • Observe",
+      "finalEn": "Monitor • Observe",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 298,
+      "cardId": "b2-Ölbohrung-1404",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Oil well",
+      "finalEn": "Oil drilling",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 299,
+      "cardId": "b2-Organempfänger-1413",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Transplant organ recipient",
+      "finalEn": "Organ transplant recipient",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 300,
+      "cardId": "b2-Panzerschrank-1427",
+      "fieldPath": "lv",
+      "action": "APPLY",
+      "expectedCurrent": "Safe • Iron cabinet",
+      "finalEn": "Safe • Strongbox",
+      "applyStatus": "APPLIED",
+      "note": ""
+    }
+  ]
+}

@@ -5154,7 +5154,7 @@ const B2_WORDS = [
     "de": "Lieferfirma",
     "de_article": "die",
     "de_plural": "die Lieferfirmen",
-    "lv": "Supplier company",
+    "lv": "Supplier",
     "level": "B2"
   },
   {
@@ -6246,7 +6246,7 @@ const B2_WORDS = [
     "de": "Gesinnung",
     "de_article": "die",
     "de_plural": "die Gesinnungen",
-    "lv": "Beliefs • Mood",
+    "lv": "Beliefs • Attitude",
     "level": "B2"
   },
   {
@@ -6301,7 +6301,7 @@ const B2_WORDS = [
     "de": "Gestein",
     "de_article": "das",
     "de_plural": "die Gesteine",
-    "lv": "The rock",
+    "lv": "Rock",
     "level": "B2"
   },
   {
@@ -6437,7 +6437,7 @@ const B2_WORDS = [
   {
     "de": "Giftmüll",
     "de_article": "der",
-    "lv": "Toxic wastes",
+    "lv": "Toxic waste",
     "level": "B2"
   },
   {
@@ -6451,7 +6451,7 @@ const B2_WORDS = [
     "de": "Gipsverband",
     "de_article": "der",
     "de_plural": "die Gipsverbände",
-    "lv": "Plaster bandage",
+    "lv": "Plaster cast",
     "level": "B2"
   },
   {
@@ -6514,14 +6514,14 @@ const B2_WORDS = [
   },
   {
     "de": "gleiten",
-    "lv": "Glide • Soar",
+    "lv": "Glide • Slide",
     "level": "B2"
   },
   {
     "de": "Glied",
     "de_article": "das",
     "de_plural": "die Glieder",
-    "lv": "Member • Limb • Chain member • Link",
+    "lv": "Member • Limb • Link",
     "level": "B2"
   },
   {
@@ -6601,7 +6601,7 @@ const B2_WORDS = [
     "de": "Goldwäscher",
     "de_article": "der",
     "de_plural": "die Goldwäscher",
-    "lv": "Gold washer",
+    "lv": "Gold panner",
     "level": "B2"
   },
   {
@@ -6719,7 +6719,7 @@ const B2_WORDS = [
     "de": "Grenzbezirk",
     "de_article": "der",
     "de_plural": "die Grenzbezirke",
-    "lv": "Border area",
+    "lv": "Border district",
     "level": "B2"
   },
   {
@@ -6732,7 +6732,7 @@ const B2_WORDS = [
   {
     "de": "Grenzverkehr",
     "de_article": "der",
-    "lv": "Border traffic",
+    "lv": "Cross-border traffic",
     "level": "B2"
   },
   {
@@ -6782,7 +6782,7 @@ const B2_WORDS = [
     "de": "Grundrecht",
     "de_article": "das",
     "de_plural": "die Grundrechte",
-    "lv": "Fundamental rights",
+    "lv": "Fundamental right",
     "level": "B2"
   },
   {
@@ -6841,7 +6841,7 @@ const B2_WORDS = [
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "Kindness • Quality • Benefit",
+    "lv": "Kindness • Quality",
     "level": "B2"
   },
   {
@@ -7186,7 +7186,7 @@ const B2_WORDS = [
     "de": "Heilquelle",
     "de_article": "die",
     "de_plural": "die Heilquellen",
-    "lv": "Source of healing",
+    "lv": "Medicinal spring",
     "level": "B2"
   },
   {
@@ -7211,7 +7211,7 @@ const B2_WORDS = [
   {
     "de": "Heimkehr",
     "de_article": "die",
-    "lv": "Returning home • To the homeland",
+    "lv": "Return home • Return to one's homeland",
     "level": "B2"
   },
   {
@@ -7225,14 +7225,14 @@ const B2_WORDS = [
     "de": "Heizkraftwerk",
     "de_article": "das",
     "de_plural": "die Heizkraftwerke",
-    "lv": "Thermal power plant",
+    "lv": "Combined heat and power plant",
     "level": "B2"
   },
   {
     "de": "Heizöl",
     "de_article": "das",
     "de_plural": "die Heizöle",
-    "lv": "Liquid fuel • Fuel oil",
+    "lv": "Heating oil • Fuel oil",
     "level": "B2"
   },
   {
@@ -7438,7 +7438,7 @@ const B2_WORDS = [
   },
   {
     "de": "heucheln",
-    "lv": "To pretend • To pretend",
+    "lv": "To pretend • To feign",
     "level": "B2"
   },
   {
@@ -7449,14 +7449,14 @@ const B2_WORDS = [
   },
   {
     "de": "hierdurch",
-    "lv": "With that • With this",
+    "lv": "By this • Through this",
     "level": "B2"
   },
   {
     "de": "Hilfsaktion",
     "de_article": "die",
     "de_plural": "die Hilfsaktionen",
-    "lv": "Aid action",
+    "lv": "Aid campaign",
     "level": "B2"
   },
   {
@@ -7509,7 +7509,7 @@ const B2_WORDS = [
   },
   {
     "de": "hinsichtlich",
-    "lv": "Regarding • Due to",
+    "lv": "Regarding • With regard to",
     "level": "B2"
   },
   {
@@ -7526,7 +7526,7 @@ const B2_WORDS = [
   },
   {
     "de": "hinterziehen",
-    "lv": "Embezzle money • Not pay taxes",
+    "lv": "Embezzle money • Evade taxes",
     "level": "B2"
   },
   {
@@ -7607,7 +7607,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-hoch-study",
       "layout": "standardStudy",
-      "translation": "Toast \"long live!\"",
+      "translation": "A toast (\"long live!\")",
       "explanation": [
         "Main idea: das Hoch with a capital letter and the article das is a noun - a celebratory cry/toast (Ein Hoch auf...! = Long live...!) or in the weather - an area of ​​high pressure.",
         "Lower case hoch is an adjective - high (der Berg ist hoch).",
@@ -7773,7 +7773,7 @@ const B2_WORDS = [
     "de": "Hochverrat",
     "de_article": "der",
     "de_plural": null,
-    "lv": "Treason",
+    "lv": "High treason",
     "level": "B2"
   },
   {
@@ -7809,7 +7809,7 @@ const B2_WORDS = [
         },
         {
           "word": "die Überschwemmung",
-          "meaning": "Flood (specific)",
+          "meaning": "High water / flooding",
           "example": "Die Überschwemmung zerstörte Häuser. = Floods destroyed houses."
         },
         {
@@ -8273,7 +8273,7 @@ const B2_WORDS = [
     "de": "Landenge",
     "de_article": "die",
     "de_plural": "die Landengen",
-    "lv": "Isthmus of land",
+    "lv": "Isthmus",
     "level": "B2"
   },
   {
@@ -8320,7 +8320,7 @@ const B2_WORDS = [
   },
   {
     "de": "latent",
-    "lv": "Hidden • Imperceptible",
+    "lv": "Latent • Hidden",
     "level": "B2"
   },
   {
@@ -8564,7 +8564,7 @@ const B2_WORDS = [
   },
   {
     "de": "leidlich",
-    "lv": "Tolerable • Tolerable • Half good",
+    "lv": "Tolerable • Passable • Fairly good",
     "level": "B2"
   },
   {
@@ -8611,7 +8611,7 @@ const B2_WORDS = [
     "de": "Leuchtreklame",
     "de_article": "die",
     "de_plural": "die Leuchtreklamen",
-    "lv": "Light advertising",
+    "lv": "Illuminated sign",
     "level": "B2"
   },
   {
@@ -8633,12 +8633,12 @@ const B2_WORDS = [
   },
   {
     "de": "liebkosten",
-    "lv": "To caress • Caress",
+    "lv": "To caress • To fondle",
     "level": "B2"
   },
   {
     "de": "liederlich",
-    "lv": "Sloppy • Sloppy",
+    "lv": "Sloppy • Slovenly",
     "level": "B2"
   },
   {
@@ -8787,7 +8787,7 @@ const B2_WORDS = [
     "de": "Lustspiel",
     "de_article": "das",
     "de_plural": "die Lustspiele",
-    "lv": "Comedy • Joke play",
+    "lv": "Comedy • Light comedy",
     "level": "B2"
   },
   {
@@ -8851,7 +8851,7 @@ const B2_WORDS = [
   {
     "de": "Mahnschreiben",
     "de_article": "das",
-    "lv": "A reminder",
+    "lv": "Reminder letter",
     "level": "B2"
   },
   {
@@ -8891,14 +8891,14 @@ const B2_WORDS = [
     "de": "Marketing",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Marketing • Trade",
+    "lv": "Marketing",
     "level": "B2"
   },
   {
     "de": "Marktlücke",
     "de_article": "die",
     "de_plural": "die Marktlücken",
-    "lv": "Niche market",
+    "lv": "Gap in the market",
     "level": "B2"
   },
   {
@@ -9012,7 +9012,7 @@ const B2_WORDS = [
     "de": "Meldefrist",
     "de_article": "die",
     "de_plural": "die Meldefristen",
-    "lv": "Application deadline",
+    "lv": "Registration deadline",
     "level": "B2"
   },
   {
@@ -9027,7 +9027,7 @@ const B2_WORDS = [
   },
   {
     "de": "meutern",
-    "lv": "Rebel • Rebel",
+    "lv": "To mutiny • To rebel",
     "level": "B2"
   },
   {
@@ -9077,7 +9077,7 @@ const B2_WORDS = [
   {
     "de": "Militär",
     "de_article": "das",
-    "lv": "Troops • Army",
+    "lv": "Military • Armed forces",
     "level": "B2"
   },
   {
@@ -9151,7 +9151,7 @@ const B2_WORDS = [
   },
   {
     "de": "mittels",
-    "lv": "With the help of something",
+    "lv": "By means of",
     "level": "B2"
   },
   {
@@ -9163,7 +9163,7 @@ const B2_WORDS = [
   },
   {
     "de": "mitwirken",
-    "lv": "Participate • Act together",
+    "lv": "Participate • Collaborate",
     "level": "B2"
   },
   {
@@ -9288,7 +9288,7 @@ const B2_WORDS = [
         },
         {
           "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "This book is already in reprint."
+          "lv": "This book is already being reprinted."
         },
         {
           "de": "Der Verlag plant einen Nachdruck.",
@@ -9393,7 +9393,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachdrücklich",
-    "lv": "Emphatic • Vigorous • Persuasive • Vigorously • Persuasively",
+    "lv": "Emphatic • Forceful • Persuasive • Forcefully • Persuasively",
     "level": "B2"
   },
   {
@@ -9560,7 +9560,7 @@ const B2_WORDS = [
     "de": "Neuerscheinung",
     "de_article": "die",
     "de_plural": "die Neuerscheinungen",
-    "lv": "New • New edition",
+    "lv": "New release • New edition",
     "level": "B2"
   },
   {
@@ -9638,7 +9638,7 @@ const B2_WORDS = [
     "de": "Notstand",
     "de_article": "der",
     "de_plural": "die Notstände",
-    "lv": "Catastrophic state • State of emergency",
+    "lv": "Emergency • State of emergency",
     "level": "B2"
   },
   {
@@ -9677,7 +9677,7 @@ const B2_WORDS = [
   },
   {
     "de": "obgleich",
-    "lv": "Although although",
+    "lv": "Although",
     "level": "B2"
   },
   {
@@ -9695,7 +9695,7 @@ const B2_WORDS = [
   },
   {
     "de": "observieren",
-    "lv": "Trace • Observe",
+    "lv": "Monitor • Observe",
     "level": "B2"
   },
   {
@@ -9734,7 +9734,7 @@ const B2_WORDS = [
     "de": "Ölbohrung",
     "de_article": "die",
     "de_plural": "die Ölbohrungen",
-    "lv": "Oil well",
+    "lv": "Oil drilling",
     "level": "B2"
   },
   {
@@ -9796,7 +9796,7 @@ const B2_WORDS = [
     "de": "Organempfänger",
     "de_article": "der",
     "de_plural": "die Organempfänger",
-    "lv": "Transplant organ recipient",
+    "lv": "Organ transplant recipient",
     "level": "B2"
   },
   {
@@ -9904,7 +9904,7 @@ const B2_WORDS = [
     "de": "Panzerschrank",
     "de_article": "der",
     "de_plural": "die Panzerschränke",
-    "lv": "Safe • Iron cabinet",
+    "lv": "Safe • Strongbox",
     "level": "B2"
   },
   {
