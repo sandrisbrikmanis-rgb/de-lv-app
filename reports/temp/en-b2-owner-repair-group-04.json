@@ -1,0 +1,499 @@
+{
+  "meta": {
+    "group": "4/10",
+    "manifestPositions": "151-200",
+    "branch": "cursor/en-b2-full-audit-6850",
+    "pr": "#376",
+    "generatedAt": "2026-08-09T17:52:18.937Z"
+  },
+  "scope": {
+    "approved": 50,
+    "attempted": 50,
+    "applied": 50,
+    "exactVerified": 50,
+    "currentValueMismatch": 0
+  },
+  "safety": {
+    "deReadOnly": "PASS",
+    "structuralParity": {
+      "cards": 2118,
+      "studies": 60,
+      "standardStudy": 15,
+      "minimalStudy": 45,
+      "flashcards": 2058,
+      "pass": true
+    },
+    "idOrder": "PASS",
+    "mirror": "PASS",
+    "sectionAccents": "PASS",
+    "jsSyntax": "PASS",
+    "languageParity": "PASS",
+    "unexpectedChanges": 0,
+    "deHash": "74bf5a1ac0002a5fdc848db2df4a0e1f"
+  },
+  "regression": {
+    "generatedAt": "2026-08-09T17:52:18.937Z",
+    "group": "4",
+    "exactVerification": {
+      "applied": 50,
+      "verified": 50,
+      "pass": true
+    },
+    "changedCards": 49,
+    "lunaSemanticRegression": "NOT RUN — API unavailable",
+    "lunaApiAvailable": false,
+    "note": "Full Luna re-audit not run (no API key). Post-apply exact match + deterministic validation only."
+  },
+  "repairs": [
+    {
+      "seq": 151,
+      "cardId": "b2-anbieten",
+      "fieldPath": "study.explanation",
+      "expectedCurrent": "Main idea: anbieten means to actively offer someone a favour, a drink, a job, or a service. Splittable verb: ich biete an, er bietet an. Emphasizes initiative on the part of the offeror.",
+      "finalEn": "Main idea: anbieten means to actively offer someone help, a drink, a job, or a service. Separable verb: ich biete an, er bietet an. It emphasises initiative on the part of the person making the offer.",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 152,
+      "cardId": "b2-anbieten",
+      "fieldPath": "study.examples[1].lv",
+      "expectedCurrent": "Can i offer you something",
+      "finalEn": "Can I offer you something?",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 153,
+      "cardId": "b2-angehen-19",
+      "fieldPath": "lv",
+      "expectedCurrent": "Relate to • Turn against",
+      "finalEn": "Concern • Attack",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 154,
+      "cardId": "b2-ausspannen-107",
+      "fieldPath": "lv",
+      "expectedCurrent": "To unharness • To take away a partner • To rest",
+      "finalEn": "To unharness • To steal someone's partner • To relax",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 155,
+      "cardId": "b2-ausstopfen-110",
+      "fieldPath": "lv",
+      "expectedCurrent": "To fill • To fill • To stuff out",
+      "finalEn": "To fill • To stuff",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 156,
+      "cardId": "b2-austragen-112",
+      "fieldPath": "lv",
+      "expectedCurrent": "Carry • Deliver • Win",
+      "finalEn": "Deliver • Carry to term • Fight out",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 157,
+      "cardId": "b2-auswärtig-115",
+      "fieldPath": "lv",
+      "expectedCurrent": "Foreign • Foreign affairs",
+      "finalEn": "Foreign • Away",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 158,
+      "cardId": "b2-ausweisen-117",
+      "fieldPath": "lv",
+      "expectedCurrent": "Expel • Send out • Confirm • Prove",
+      "finalEn": "Expel • Deport • Identify • Prove",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 159,
+      "cardId": "b2-Auszeichnung-121",
+      "fieldPath": "lv",
+      "expectedCurrent": "Awarding • Award • Badge of honour",
+      "finalEn": "Distinction • Award • Badge of honour",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 160,
+      "cardId": "b2-Baugrube-142",
+      "fieldPath": "lv",
+      "expectedCurrent": "Construction pit",
+      "finalEn": "Excavation pit",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 161,
+      "cardId": "b2-Baukredit-139",
+      "fieldPath": "lv",
+      "expectedCurrent": "Loan for starting construction",
+      "finalEn": "Construction loan",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 162,
+      "cardId": "b2-Bauwesen-145",
+      "fieldPath": "lv",
+      "expectedCurrent": "Construction • Construction",
+      "finalEn": "Construction • Building industry",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 163,
+      "cardId": "b2-bedürfen-147",
+      "fieldPath": "lv",
+      "expectedCurrent": "Need • Be necessary",
+      "finalEn": "Need • Require",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 164,
+      "cardId": "b2-Beförderung-150",
+      "fieldPath": "lv",
+      "expectedCurrent": "Delivery • Transportation • Promotion • Promotion",
+      "finalEn": "Transportation • Promotion",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 165,
+      "cardId": "b2-berufen-196",
+      "fieldPath": "lv",
+      "expectedCurrent": "Appoint • Invite",
+      "finalEn": "Appoint • Call",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 166,
+      "cardId": "b2-besänftigen-199",
+      "fieldPath": "lv",
+      "expectedCurrent": "Calm down • Appease • Appease • Silence",
+      "finalEn": "Calm • Appease • Soothe",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 167,
+      "cardId": "b2-beschatten-202",
+      "fieldPath": "lv",
+      "expectedCurrent": "Overshadow • Trace",
+      "finalEn": "Shade • Shadow",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 168,
+      "cardId": "b2-beschwören-206",
+      "fieldPath": "lv",
+      "expectedCurrent": "To swear • To swear • To pray very much",
+      "finalEn": "To swear • To conjure • To implore",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 169,
+      "cardId": "b2-Bestand-211",
+      "fieldPath": "lv",
+      "expectedCurrent": "Composition • Inventory • Stock",
+      "finalEn": "Holdings • Inventory • Stock",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 170,
+      "cardId": "b2-bestrahlen-216",
+      "fieldPath": "lv",
+      "expectedCurrent": "Irradiate • Shine",
+      "finalEn": "Irradiate • Illuminate",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 171,
+      "cardId": "b2-Betriebsrat-224",
+      "fieldPath": "lv",
+      "expectedCurrent": "Company council",
+      "finalEn": "Works council",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 172,
+      "cardId": "b2-Bezug-239",
+      "fieldPath": "lv",
+      "expectedCurrent": "Ratio • Connection • Cover",
+      "finalEn": "Reference • Connection • Cover",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 173,
+      "cardId": "b2-bieten",
+      "fieldPath": "study.examples[1].lv",
+      "expectedCurrent": "Can i offer you something",
+      "finalEn": "Can I offer you something?",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 174,
+      "cardId": "b2-blenden-264",
+      "fieldPath": "lv",
+      "expectedCurrent": "Dazzle • Dazzle • Confuse • Mislead",
+      "finalEn": "Dazzle • Blind • Confuse • Mislead",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 175,
+      "cardId": "b2-Blitzlicht-267",
+      "fieldPath": "lv",
+      "expectedCurrent": "Flash light",
+      "finalEn": "Flash",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 176,
+      "cardId": "b2-Blutspender-278",
+      "fieldPath": "lv",
+      "expectedCurrent": "Donor",
+      "finalEn": "Blood donor",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 177,
+      "cardId": "b2-Brandanschlag-294",
+      "fieldPath": "lv",
+      "expectedCurrent": "Arson",
+      "finalEn": "Arson attack",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 178,
+      "cardId": "b2-Brandmal-295",
+      "fieldPath": "lv",
+      "expectedCurrent": "Burn • Burn scar",
+      "finalEn": "Burn mark • Burn scar",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 179,
+      "cardId": "b2-Bundesland-314",
+      "fieldPath": "lv",
+      "expectedCurrent": "Federal land",
+      "finalEn": "Federal state",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 180,
+      "cardId": "b2-bürgerlich-321",
+      "fieldPath": "lv",
+      "expectedCurrent": "Civic • Citizens • Bourgeois • Bourgeois",
+      "finalEn": "Civic • Civil • Bourgeois",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 181,
+      "cardId": "b2-Damm-340",
+      "fieldPath": "lv",
+      "expectedCurrent": "Dam • Dam • Railway embankment",
+      "finalEn": "Dam • Embankment • Railway embankment",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 182,
+      "cardId": "b2-dampfen-343",
+      "fieldPath": "lv",
+      "expectedCurrent": "Smoke • Evaporate",
+      "finalEn": "Steam • Evaporate",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 183,
+      "cardId": "b2-Darlehen-350",
+      "fieldPath": "lv",
+      "expectedCurrent": "Loan • Borrowing",
+      "finalEn": "Loan",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 184,
+      "cardId": "b2-dehnen-367",
+      "fieldPath": "lv",
+      "expectedCurrent": "To stretch • To stretch • To stretch • To stretch • To drag",
+      "finalEn": "To stretch • To extend • To stretch oneself • To elongate • To drag on",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 185,
+      "cardId": "b2-Delikt-373",
+      "fieldPath": "lv",
+      "expectedCurrent": "Crime • Breaking the law",
+      "finalEn": "Crime • Offence",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 186,
+      "cardId": "b2-denkbar-377",
+      "fieldPath": "lv",
+      "expectedCurrent": "Supposed • Imaginable • Possible",
+      "finalEn": "Conceivable • Imaginable • Possible",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 187,
+      "cardId": "b2-deplaziert-378",
+      "fieldPath": "lv",
+      "expectedCurrent": "Inappropriate • Out of place • Out of time",
+      "finalEn": "Inappropriate • Out of place • Untimely",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 188,
+      "cardId": "b2-deponieren-379",
+      "fieldPath": "lv",
+      "expectedCurrent": "Deposit • Deposit",
+      "finalEn": "Deposit • Store",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 189,
+      "cardId": "b2-deuten-382",
+      "fieldPath": "lv",
+      "expectedCurrent": "Explain • Translate • Indicate",
+      "finalEn": "Interpret • Explain • Indicate",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 190,
+      "cardId": "b2-Devisen-384",
+      "fieldPath": "lv",
+      "expectedCurrent": "Means of payment in foreign currency",
+      "finalEn": "Foreign currency",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 191,
+      "cardId": "b2-donnern-413",
+      "fieldPath": "lv",
+      "expectedCurrent": "Thunder roar • Rumble • Rumble",
+      "finalEn": "Thunder • Roar • Rumble",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 192,
+      "cardId": "b2-Doping-415",
+      "fieldPath": "lv",
+      "expectedCurrent": "Doping agent",
+      "finalEn": "Doping",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 193,
+      "cardId": "b2-Dramatiker-432",
+      "fieldPath": "en",
+      "expectedCurrent": "Dramatist • Play writer",
+      "finalEn": "Dramatist • Playwright",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 194,
+      "cardId": "b2-drängen-434",
+      "fieldPath": "en",
+      "expectedCurrent": "Push • Push • Hurry • Hurry • Encourage",
+      "finalEn": "Push • Press • Urge • Hurry",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 195,
+      "cardId": "b2-Drehbleistift-438",
+      "fieldPath": "en",
+      "expectedCurrent": "Automatic pencil",
+      "finalEn": "Mechanical pencil",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 196,
+      "cardId": "b2-Dressman-442",
+      "fieldPath": "en",
+      "expectedCurrent": "Model demonstrator in fashion shows",
+      "finalEn": "Male fashion model",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 197,
+      "cardId": "b2-Drohung-445",
+      "fieldPath": "en",
+      "expectedCurrent": "Threats",
+      "finalEn": "Threat",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 198,
+      "cardId": "b2-dumpf-457",
+      "fieldPath": "en",
+      "expectedCurrent": "Hollow • Muffled • Stuffy • Suffocating • Heavy • Oppressed • Oppressive",
+      "finalEn": "Dull • Muffled • Stuffy • Oppressive • Gloomy",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 199,
+      "cardId": "b2-Dumpingpreis-459",
+      "fieldPath": "en",
+      "expectedCurrent": "Dumped price",
+      "finalEn": "Dumping price",
+      "applyStatus": "APPLIED",
+      "note": ""
+    },
+    {
+      "seq": 200,
+      "cardId": "b2-durchbringen-471",
+      "fieldPath": "en",
+      "expectedCurrent": "Get through • Bring through • Achieve • Cure • Waste",
+      "finalEn": "Get through • Get passed • Support • Nurse through • Waste",
+      "applyStatus": "APPLIED",
+      "note": ""
+    }
+  ]
+}

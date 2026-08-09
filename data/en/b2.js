@@ -114,7 +114,7 @@ const B2_WORDS = [
   },
   {
     "de": "angehen",
-    "lv": "Relate to • Turn against",
+    "lv": "Concern • Attack",
     "level": "B2"
   },
   {
@@ -660,7 +660,7 @@ const B2_WORDS = [
   },
   {
     "de": "ausspannen",
-    "lv": "To unharness • To take away a partner • To rest",
+    "lv": "To unharness • To steal someone's partner • To relax",
     "level": "B2"
   },
   {
@@ -675,7 +675,7 @@ const B2_WORDS = [
   },
   {
     "de": "ausstopfen",
-    "lv": "To fill • To fill • To stuff out",
+    "lv": "To fill • To stuff",
     "level": "B2"
   },
   {
@@ -685,7 +685,7 @@ const B2_WORDS = [
   },
   {
     "de": "austragen",
-    "lv": "Carry • Deliver • Win",
+    "lv": "Deliver • Carry to term • Fight out",
     "level": "B2"
   },
   {
@@ -700,7 +700,7 @@ const B2_WORDS = [
   },
   {
     "de": "auswärtig",
-    "lv": "Foreign • Foreign affairs",
+    "lv": "Foreign • Away",
     "level": "B2"
   },
   {
@@ -710,7 +710,7 @@ const B2_WORDS = [
   },
   {
     "de": "ausweisen",
-    "lv": "Expel • Send out • Confirm • Prove",
+    "lv": "Expel • Deport • Identify • Prove",
     "level": "B2"
   },
   {
@@ -732,7 +732,7 @@ const B2_WORDS = [
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "Awarding • Award • Badge of honour",
+    "lv": "Distinction • Award • Badge of honour",
     "level": "B2"
   },
   {
@@ -849,7 +849,7 @@ const B2_WORDS = [
     "de": "Baukredit",
     "de_article": "der",
     "de_plural": "die Baukredite",
-    "lv": "Loan for starting construction",
+    "lv": "Construction loan",
     "level": "B2"
   },
   {
@@ -870,7 +870,7 @@ const B2_WORDS = [
     "de": "Baugrube",
     "de_article": "die",
     "de_plural": "die Baugruben",
-    "lv": "Construction pit",
+    "lv": "Excavation pit",
     "level": "B2"
   },
   {
@@ -890,7 +890,7 @@ const B2_WORDS = [
   {
     "de": "Bauwesen",
     "de_article": "das",
-    "lv": "Construction • Construction",
+    "lv": "Construction • Building industry",
     "level": "B2"
   },
   {
@@ -900,7 +900,7 @@ const B2_WORDS = [
   },
   {
     "de": "bedürfen",
-    "lv": "Need • Be necessary",
+    "lv": "Need • Require",
     "level": "B2"
   },
   {
@@ -936,7 +936,7 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "Delivery • Transportation • Promotion • Promotion",
+    "lv": "Transportation • Promotion",
     "level": "B2"
   },
   {
@@ -1221,7 +1221,7 @@ const B2_WORDS = [
   },
   {
     "de": "berufen",
-    "lv": "Appoint • Invite",
+    "lv": "Appoint • Call",
     "level": "B2"
   },
   {
@@ -1255,7 +1255,7 @@ const B2_WORDS = [
   },
   {
     "de": "besänftigen",
-    "lv": "Calm down • Appease • Appease • Silence",
+    "lv": "Calm • Appease • Soothe",
     "level": "B2"
   },
   {
@@ -1272,7 +1272,7 @@ const B2_WORDS = [
   },
   {
     "de": "beschatten",
-    "lv": "Overshadow • Trace",
+    "lv": "Shade • Shadow",
     "level": "B2"
   },
   {
@@ -1313,7 +1313,7 @@ const B2_WORDS = [
   },
   {
     "de": "beschwören",
-    "lv": "To swear • To swear • To pray very much",
+    "lv": "To swear • To conjure • To implore",
     "level": "B2"
   },
   {
@@ -1342,7 +1342,7 @@ const B2_WORDS = [
     "de": "Bestand",
     "de_article": "der",
     "de_plural": "die Bestände",
-    "lv": "Composition • Inventory • Stock",
+    "lv": "Holdings • Inventory • Stock",
     "level": "B2"
   },
   {
@@ -1367,7 +1367,7 @@ const B2_WORDS = [
   },
   {
     "de": "bestrahlen",
-    "lv": "Irradiate • Shine",
+    "lv": "Irradiate • Illuminate",
     "level": "B2"
   },
   {
@@ -1431,7 +1431,7 @@ const B2_WORDS = [
     "de": "Betriebsrat",
     "de_article": "der",
     "de_plural": "die Betriebsräte",
-    "lv": "Company council",
+    "lv": "Works council",
     "level": "B2"
   },
   {
@@ -1519,7 +1519,7 @@ const B2_WORDS = [
     "de": "Bezug",
     "de_article": "der",
     "de_plural": "die Bezüge",
-    "lv": "Ratio • Connection • Cover",
+    "lv": "Reference • Connection • Cover",
     "level": "B2"
   },
   {
@@ -1666,7 +1666,7 @@ const B2_WORDS = [
   },
   {
     "de": "blenden",
-    "lv": "Dazzle • Dazzle • Confuse • Mislead",
+    "lv": "Dazzle • Blind • Confuse • Mislead",
     "level": "B2"
   },
   {
@@ -1687,7 +1687,7 @@ const B2_WORDS = [
     "de": "Blitzlicht",
     "de_article": "das",
     "de_plural": "die Blitzlichter",
-    "lv": "Flash light",
+    "lv": "Flash",
     "level": "B2"
   },
   {
@@ -1757,7 +1757,7 @@ const B2_WORDS = [
     "de": "Blutspender",
     "de_article": "der",
     "de_plural": "die Blutspender",
-    "lv": "Donor",
+    "lv": "Blood donor",
     "level": "B2"
   },
   {
@@ -1864,14 +1864,14 @@ const B2_WORDS = [
     "de": "Brandanschlag",
     "de_article": "der",
     "de_plural": "die Brandanschläge",
-    "lv": "Arson",
+    "lv": "Arson attack",
     "level": "B2"
   },
   {
     "de": "Brandmal",
     "de_article": "das",
     "de_plural": "die Brandmale",
-    "lv": "Burn • Burn scar",
+    "lv": "Burn mark • Burn scar",
     "level": "B2"
   },
   {
@@ -1995,7 +1995,7 @@ const B2_WORDS = [
     "de": "Bundesland",
     "de_article": "das",
     "de_plural": "die Bundesländer",
-    "lv": "Federal land",
+    "lv": "Federal state",
     "level": "B2"
   },
   {
@@ -2039,7 +2039,7 @@ const B2_WORDS = [
   },
   {
     "de": "bürgerlich",
-    "lv": "Civic • Citizens • Bourgeois • Bourgeois",
+    "lv": "Civic • Civil • Bourgeois",
     "level": "B2"
   },
   {
@@ -2165,7 +2165,7 @@ const B2_WORDS = [
     "de": "Damm",
     "de_article": "der",
     "de_plural": "die Dämme",
-    "lv": "Dam • Dam • Railway embankment",
+    "lv": "Dam • Embankment • Railway embankment",
     "level": "B2"
   },
   {
@@ -2182,7 +2182,7 @@ const B2_WORDS = [
   },
   {
     "de": "dampfen",
-    "lv": "Smoke • Evaporate",
+    "lv": "Steam • Evaporate",
     "level": "B2"
   },
   {
@@ -2225,7 +2225,7 @@ const B2_WORDS = [
     "de": "Darlehen",
     "de_article": "das",
     "de_plural": "die Darlehen",
-    "lv": "Loan • Borrowing",
+    "lv": "Loan",
     "level": "B2"
   },
   {
@@ -2337,7 +2337,7 @@ const B2_WORDS = [
   },
   {
     "de": "dehnen",
-    "lv": "To stretch • To stretch • To stretch • To stretch • To drag",
+    "lv": "To stretch • To extend • To stretch oneself • To elongate • To drag on",
     "level": "B2"
   },
   {
@@ -2373,7 +2373,7 @@ const B2_WORDS = [
     "de": "Delikt",
     "de_article": "das",
     "de_plural": "die Delikte",
-    "lv": "Crime • Breaking the law",
+    "lv": "Crime • Offence",
     "level": "B2"
   },
   {
@@ -2395,17 +2395,17 @@ const B2_WORDS = [
   },
   {
     "de": "denkbar",
-    "lv": "Supposed • Imaginable • Possible",
+    "lv": "Conceivable • Imaginable • Possible",
     "level": "B2"
   },
   {
     "de": "deplaziert",
-    "lv": "Inappropriate • Out of place • Out of time",
+    "lv": "Inappropriate • Out of place • Untimely",
     "level": "B2"
   },
   {
     "de": "deponieren",
-    "lv": "Deposit • Deposit",
+    "lv": "Deposit • Store",
     "level": "B2"
   },
   {
@@ -2420,7 +2420,7 @@ const B2_WORDS = [
   },
   {
     "de": "deuten",
-    "lv": "Explain • Translate • Indicate",
+    "lv": "Interpret • Explain • Indicate",
     "level": "B2"
   },
   {
@@ -2433,7 +2433,7 @@ const B2_WORDS = [
   {
     "de": "Devisen",
     "de_article": "die",
-    "lv": "Means of payment in foreign currency",
+    "lv": "Foreign currency",
     "level": "B2"
   },
   {
@@ -2616,7 +2616,7 @@ const B2_WORDS = [
   },
   {
     "de": "donnern",
-    "lv": "Thunder roar • Rumble • Rumble",
+    "lv": "Thunder • Roar • Rumble",
     "level": "B2"
   },
   {
@@ -2628,7 +2628,7 @@ const B2_WORDS = [
     "de": "Doping",
     "de_article": "das",
     "de_plural": "die Dopinge",
-    "lv": "Doping agent",
+    "lv": "Doping",
     "level": "B2"
   },
   {
@@ -2738,7 +2738,7 @@ const B2_WORDS = [
     "de": "Dramatiker",
     "de_article": "der",
     "de_plural": "die Dramatiker",
-    "lv": "Dramatist • Play writer",
+    "lv": "Dramatist • Playwright",
     "level": "B2"
   },
   {
@@ -2750,7 +2750,7 @@ const B2_WORDS = [
   },
   {
     "de": "drängen",
-    "lv": "Push • Push • Hurry • Hurry • Encourage",
+    "lv": "Push • Press • Urge • Hurry",
     "level": "B2"
   },
   {
@@ -2777,7 +2777,7 @@ const B2_WORDS = [
     "de": "Drehbleistift",
     "de_article": "der",
     "de_plural": "die Drehbleistifte",
-    "lv": "Automatic pencil",
+    "lv": "Mechanical pencil",
     "level": "B2"
   },
   {
@@ -2803,7 +2803,7 @@ const B2_WORDS = [
     "de": "Dressman",
     "de_article": "der",
     "de_plural": "die Dressmen",
-    "lv": "Model demonstrator in fashion shows",
+    "lv": "Male fashion model",
     "level": "B2"
   },
   {
@@ -2822,7 +2822,7 @@ const B2_WORDS = [
     "de": "Drohung",
     "de_article": "die",
     "de_plural": "die Drohungen",
-    "lv": "Threats",
+    "lv": "Threat",
     "level": "B2"
   },
   {
@@ -2900,7 +2900,7 @@ const B2_WORDS = [
   },
   {
     "de": "dumpf",
-    "lv": "Hollow • Muffled • Stuffy • Suffocating • Heavy • Oppressed • Oppressive",
+    "lv": "Dull • Muffled • Stuffy • Oppressive • Gloomy",
     "level": "B2"
   },
   {
@@ -2914,7 +2914,7 @@ const B2_WORDS = [
     "de": "Dumpingpreis",
     "de_article": "der",
     "de_plural": "die Dumpingpreise",
-    "lv": "Dumped price",
+    "lv": "Dumping price",
     "level": "B2"
   },
   {
@@ -2981,7 +2981,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchbringen",
-    "lv": "Get through • Bring through • Achieve • Cure • Waste",
+    "lv": "Get through • Get passed • Support • Nurse through • Waste",
     "level": "B2"
   },
   {
@@ -14866,7 +14866,7 @@ const B2_WORDS = [
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Can i offer you something"
+          "lv": "Can I offer you something?"
         },
         {
           "de": "Die Schule bietet viele Kurse.",
@@ -14982,7 +14982,7 @@ const B2_WORDS = [
       "id": "b2-anbieten",
       "layout": "standardStudy",
       "translation": "To offer",
-      "explanation": "Main idea: anbieten means to actively offer someone a favour, a drink, a job, or a service. Splittable verb: ich biete an, er bietet an. Emphasizes initiative on the part of the offeror.",
+      "explanation": "Main idea: anbieten means to actively offer someone help, a drink, a job, or a service. Separable verb: ich biete an, er bietet an. It emphasises initiative on the part of the person making the offer.",
       "examples": [
         {
           "de": "Ich biete dir meine Hilfe an.",
@@ -14990,7 +14990,7 @@ const B2_WORDS = [
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Can i offer you something"
+          "lv": "Can I offer you something?"
         },
         {
           "de": "Das Unternehmen bietet neue Stellen an.",
