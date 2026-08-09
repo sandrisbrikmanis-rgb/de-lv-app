@@ -1,0 +1,463 @@
+{
+  "ownerReviewed": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "nelabotCards": [],
+  "repairs": [
+    {
+      "cardId": "b1-kuscheln-1690",
+      "de": "kuscheln",
+      "field": "lv",
+      "old": "To pat",
+      "finalEn": "To cuddle / to snuggle",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-ländlich-1718",
+      "de": "ländlich",
+      "field": "lv",
+      "old": "Field",
+      "finalEn": "Rural",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Landstraße-1719",
+      "de": "Landstraße",
+      "field": "lv",
+      "old": "Highway",
+      "finalEn": "Country road",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-längs-1722",
+      "de": "längs",
+      "field": "lv",
+      "old": "Long",
+      "finalEn": "Along",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Leertaste-1744",
+      "de": "Leertaste",
+      "field": "lv",
+      "old": "Long space bar",
+      "finalEn": "Space bar",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-lehnen-1747",
+      "de": "lehnen",
+      "field": "lv",
+      "old": "Push",
+      "finalEn": "To lean",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Leine-1758",
+      "de": "Leine",
+      "field": "lv",
+      "old": "Accompany",
+      "finalEn": "Leash",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Lieferwagen-1777",
+      "de": "Lieferwagen",
+      "field": "lv",
+      "old": "A small truck for the removal of goods",
+      "finalEn": "Delivery van",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Linkshänder-1784",
+      "de": "Linkshänder",
+      "field": "lv",
+      "old": "Left-handed",
+      "finalEn": "Left-handed person",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Locke-1788",
+      "de": "Locke",
+      "field": "lv",
+      "old": "Sprung",
+      "finalEn": "Curl",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Loge-1793",
+      "de": "Loge",
+      "field": "lv",
+      "old": "Lodge",
+      "finalEn": "Box (in a theatre)",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Mal-1826",
+      "de": "Mal",
+      "field": "lv",
+      "old": "Sign",
+      "finalEn": "Time / occasion",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-mangeln-1831",
+      "de": "mangeln",
+      "field": "lv",
+      "old": "Missing",
+      "finalEn": "To lack",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Maßnahme-1849",
+      "de": "Maßnahme",
+      "field": "lv",
+      "old": "Event",
+      "finalEn": "Measure / action",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-meinetwegen-1861",
+      "de": "meinetwegen",
+      "field": "lv",
+      "old": "After me",
+      "finalEn": "For my sake / if you like",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Mobbing-1891",
+      "de": "Mobbing",
+      "field": "lv",
+      "old": "Psychoterror",
+      "finalEn": "Bullying",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Monatsgehalt-1900",
+      "de": "Monatsgehalt",
+      "field": "lv",
+      "old": "Salary of a clerk or servant",
+      "finalEn": "Monthly salary",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Mondschein-1902",
+      "de": "Mondschein",
+      "field": "lv",
+      "old": "Moon house",
+      "finalEn": "Moonlight",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Mumps-1925",
+      "de": "Mumps",
+      "field": "lv",
+      "old": "Piggies",
+      "finalEn": "Mumps",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-nachholen-1945",
+      "de": "nachholen",
+      "field": "lv",
+      "old": "Recover the missed",
+      "finalEn": "To catch up on",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Nachteil-1950",
+      "de": "Nachteil",
+      "field": "lv",
+      "old": "Loss",
+      "finalEn": "Disadvantage",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-nächtlich-1953",
+      "de": "nächtlich",
+      "field": "lv",
+      "old": "Night-",
+      "finalEn": "Nocturnal",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Nacken-1955",
+      "de": "Nacken",
+      "field": "lv",
+      "old": "Scoundrel",
+      "finalEn": "Back of the neck / nape",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Nebensache-1967",
+      "de": "Nebensache",
+      "field": "lv",
+      "old": "Next thing",
+      "finalEn": "Minor matter",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-neblig-1969",
+      "de": "neblig",
+      "field": "lv",
+      "old": "Nebula",
+      "finalEn": "Foggy",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-necken-1970",
+      "de": "necken",
+      "field": "lv",
+      "old": "Squeal",
+      "finalEn": "To tease",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Notfall-1997",
+      "de": "Notfall",
+      "field": "lv",
+      "old": "A case of extreme necessity",
+      "finalEn": "An emergency",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-nutzlos-2002",
+      "de": "nutzlos",
+      "field": "lv",
+      "old": "Vain",
+      "finalEn": "Useless",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Opernhaus-2033",
+      "de": "Opernhaus",
+      "field": "lv",
+      "old": "Opera",
+      "finalEn": "Opera house",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Overall-2047",
+      "de": "Overall",
+      "field": "lv",
+      "old": "Work overalls",
+      "finalEn": "Coverall / overalls",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Panne-2053",
+      "de": "Panne",
+      "field": "lv",
+      "old": "A quibble",
+      "finalEn": "Breakdown / mishap",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Palast-2051",
+      "de": "Palast",
+      "field": "lv",
+      "old": "Castle",
+      "finalEn": "Palace",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Parterre-2064",
+      "de": "Parterre",
+      "field": "lv",
+      "old": "First floor",
+      "finalEn": "Ground floor",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Paste-2068",
+      "de": "Paste",
+      "field": "lv",
+      "old": "Mail",
+      "finalEn": "Paste",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-peinlich-2073",
+      "de": "peinlich",
+      "field": "lv",
+      "old": "Unpleasant",
+      "finalEn": "Embarrassing / awkward",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-per-2079",
+      "de": "per",
+      "field": "lv",
+      "old": "Pa",
+      "finalEn": "Per",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Personalabteilung-2081",
+      "de": "Personalabteilung",
+      "field": "lv",
+      "old": "Staff part",
+      "finalEn": "HR department / personnel department",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Pfarrer-2087",
+      "de": "Pfarrer",
+      "field": "lv",
+      "old": "Teacher",
+      "finalEn": "Pastor / parish priest",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-pflügen-2103",
+      "de": "pflügen",
+      "field": "lv",
+      "old": "Art",
+      "finalEn": "To plow",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Pier-2109",
+      "de": "Pier",
+      "field": "lv",
+      "old": "Mole",
+      "finalEn": "Pier",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-plump-2127",
+      "de": "plump",
+      "field": "lv",
+      "old": "Gluttonous",
+      "finalEn": "Plump",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-poltern-2143",
+      "de": "poltern",
+      "field": "lv",
+      "old": "To grind",
+      "finalEn": "To make a racket / to clatter",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Postfach-2150",
+      "de": "Postfach",
+      "field": "lv",
+      "old": "Subscription box at the post office",
+      "finalEn": "Post office box",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Prozentsatz-2177",
+      "de": "Prozentsatz",
+      "field": "lv",
+      "old": "Interest rate",
+      "finalEn": "Percentage / percentage rate",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Prüfzeit-2178",
+      "de": "Prüfzeit",
+      "field": "lv",
+      "old": "Probationary period",
+      "finalEn": "Test period / testing period",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Radspur-2210",
+      "de": "Radspur",
+      "field": "lv",
+      "old": "Wheel rail",
+      "finalEn": "Wheel track",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-ragen-2211",
+      "de": "ragen",
+      "field": "lv",
+      "old": "To lean",
+      "finalEn": "To protrude / to project",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-ratlos-2227",
+      "de": "ratlos",
+      "field": "lv",
+      "old": "Distracted",
+      "finalEn": "Perplexed / at a loss",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-rauben-2232",
+      "de": "rauben",
+      "field": "lv",
+      "old": "Kidnap",
+      "finalEn": "To rob / to steal",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    },
+    {
+      "cardId": "b1-Reh-2260",
+      "de": "Reh",
+      "field": "lv",
+      "old": "Doe",
+      "finalEn": "Roe deer",
+      "applied": "PASS",
+      "ownerVerdict": "LABOT"
+    }
+  ],
+  "repairedCount": 50,
+  "learnerFacingFieldsRepaired": 50,
+  "preconditionMismatch": 0,
+  "workflowUnresolvedHighBeforeHigh8": 273,
+  "workflowUnresolvedHighAfterHigh8": 223
+}
