@@ -24067,7 +24067,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "rupji"
+                  "rude"
                 ]
               }
             }
