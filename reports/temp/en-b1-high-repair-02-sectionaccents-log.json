@@ -1,0 +1,44 @@
+[
+  {
+    "cardId": "b1-beruf",
+    "field": "sectionAccents.important",
+    "action": "RESTRUCTURE object (was array)",
+    "old": "[{\"text\":{\"blue\":[\"der Beruf\"],\"purple\":[\"profession\",\"Der\"],\"red\":[\"Der\"]},\"example\":{\"blue\":[\"Beruf\"],\"green\":[\"Arbeit\"],\"purple\":[\"profession\",\"der\"]}}]",
+    "new": {
+      "blue": "Beruf",
+      "purple": [
+        "profession",
+        "field of work"
+      ],
+      "example": {
+        "blue": "Beruf",
+        "green": "Arbeit",
+        "purple": [
+          "profession",
+          "work"
+        ]
+      }
+    }
+  },
+  {
+    "cardId": "b1-sich-befinden-study",
+    "field": "sectionAccents.important",
+    "action": "RESTRUCTURE object (was array)",
+    "old": "[{\"text\":{\"blue\":[\"sich befinden\"],\"purple\":[\"Sich\"],\"red\":[\"Sich\"]},\"example\":{\"blue\":[\"befindet sich\"],\"red\":[\"fühle mich\"],\"purple\":[\"feel\"]}}]",
+    "new": {
+      "blue": "sich befinden",
+      "purple": [
+        "Location"
+      ],
+      "red": "feelings",
+      "example": {
+        "blue": "befindet sich",
+        "red": "fühle mich",
+        "purple": [
+          "feel",
+          "here"
+        ]
+      }
+    }
+  }
+]

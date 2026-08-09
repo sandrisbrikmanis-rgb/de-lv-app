@@ -1,0 +1,755 @@
+{
+  "generatedAt": "2026-08-09T08:32:27.418Z",
+  "block": 3,
+  "status": "READY FOR OWNER REVIEW",
+  "excludedCriticalCycleCards": [
+    "Baumstumpf",
+    "b1-Baumstumpf-251",
+    "b1-fressen",
+    "b1-tau-2",
+    "b1-verfolgen"
+  ],
+  "excludedHigh1Cards": [
+    "b1-abhängen",
+    "b1-abschnitt",
+    "b1-antrag",
+    "b1-berichten",
+    "b1-blase",
+    "b1-bloß",
+    "b1-entlassen",
+    "b1-fördern",
+    "b1-handeln",
+    "b1-hort",
+    "b1-jagen",
+    "b1-kader",
+    "b1-kern",
+    "b1-kommando",
+    "b1-kurs",
+    "b1-kastanie",
+    "b1-rasen",
+    "b1-schale",
+    "b1-schlag",
+    "b1-senken",
+    "b1-sich-sorgen",
+    "b1-stellung",
+    "b1-tank",
+    "b1-teilnehmen",
+    "b1-verlegen"
+  ],
+  "excludedHigh2Cards": [
+    "b1-weder",
+    "b1-zeugnis",
+    "b1-sich-befinden-study",
+    "b1-beruf",
+    "b1-Umgebung-6",
+    "b1-Aktentasche-8",
+    "b1-Alarm-11",
+    "b1-Angehörige-23",
+    "b1-abfragen-46",
+    "b1-abhängig-54",
+    "b1-Ablauf-59",
+    "b1-absichern-80",
+    "b1-absperren-84",
+    "b1-abschaffen-71",
+    "b1-Ambulanz-106",
+    "b1-Anklang-115",
+    "b1-anknüpfen-116",
+    "b1-Anlauf-117",
+    "b1-anlehnen-120",
+    "b1-anliegend-122",
+    "b1-Anrede-129",
+    "b1-Ansager-135",
+    "b1-anschaulich-136",
+    "b1-anschreiben-141",
+    "b1-Ansichtskarte-146"
+  ],
+  "exclusionVerification": {
+    "criticalCardsExcluded": "PASS",
+    "high1CardsExcluded": "25/25",
+    "high2CardsExcluded": "25/25",
+    "duplicateCardsVsHigh1": 0,
+    "duplicateCardsVsHigh2": 0,
+    "duplicateCardsVsCritical": 0,
+    "high1Source": "reports/temp/en-b1-high-owner-review-01.json",
+    "high2Source": "reports/temp/en-b1-high-owner-review-02.json"
+  },
+  "uniqueCardsSelected": 25,
+  "targetCards": 25,
+  "cardIds": [
+    "b1-anstiften-149",
+    "b1-Antiquariat-156",
+    "b1-anweisen-160",
+    "b1-Anzahlung-163",
+    "b1-Appell-164",
+    "b1-Auflauf-179",
+    "b1-Aufschnitt-185",
+    "b1-aufgeregt-197",
+    "b1-sich aufregen-200",
+    "b1-ausziehbar-224",
+    "b1-beauftragen-254",
+    "b1-bedrücken-267",
+    "b1-Behälter-302",
+    "b1-behindern-308",
+    "b1-beitragen-322",
+    "b1-belasten-327",
+    "b1-beleidigen-331",
+    "b1-Beleidigung-332",
+    "b1-beleuchten-333",
+    "b1-beliebig-335",
+    "b1-Bergführer-357",
+    "b1-Bericht-362",
+    "b1-sich berühren-372",
+    "b1-beseitigen-385",
+    "b1-besiegen-388"
+  ],
+  "firstCardId": "b1-anstiften-149",
+  "lastCardId": "b1-besiegen-388",
+  "counts": {
+    "highFindings": 25,
+    "associatedMedium": 0,
+    "associatedLow": 0,
+    "associatedWarning": 0,
+    "sectionAccentsTechnical": 0,
+    "sectionAccentsPedagogical": 0,
+    "duplicateRootIssueLinks": 0
+  },
+  "overlap": {
+    "critical": 0,
+    "high1": 0,
+    "high2": 0
+  },
+  "remainingUniqueHighCards": 398,
+  "expectedArithmeticRemaining": 398,
+  "priorBlockRemainingReference": 423,
+  "remainingDiscrepancy": null,
+  "ownerDecisionsMade": 0,
+  "productionChanges": 0,
+  "deReadOnly": "PASS",
+  "cards": [
+    {
+      "sequence": 1,
+      "cardId": "b1-anstiften-149",
+      "lemma": "anstiften",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "lexical_accuracy",
+          "field": "lv",
+          "currentEn": "To encourage",
+          "recommendedEn": "To incite",
+          "reason": "Anstiften usually means to incite or persuade someone to do something wrong.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "cardId": "b1-Antiquariat-156",
+      "lemma": "Antiquariat",
+      "article": "das",
+      "plural": "die Antiquariate",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Antique store",
+          "recommendedEn": "Second-hand bookshop",
+          "reason": "An Antiquariat is primarily a shop dealing in old or second-hand books.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "cardId": "b1-anweisen-160",
+      "lemma": "anweisen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Indicate",
+          "recommendedEn": "Instruct",
+          "reason": "Anweisen means to instruct, direct, or order, not merely to indicate.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "cardId": "b1-Anzahlung-163",
+      "lemma": "Anzahlung",
+      "article": "die",
+      "plural": "die Anzahlungen",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Contribution",
+          "recommendedEn": "Down payment",
+          "reason": "Anzahlung means a deposit or down payment, not a contribution.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 5,
+      "cardId": "b1-Appell-164",
+      "lemma": "Appell",
+      "article": "der",
+      "plural": "die Appelle",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Invitation",
+          "recommendedEn": "Appeal",
+          "reason": "Appell means an appeal, call, or exhortation rather than an invitation.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 6,
+      "cardId": "b1-Auflauf-179",
+      "lemma": "Auflauf",
+      "article": "der",
+      "plural": "die Aufläufe",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Concoction",
+          "recommendedEn": "Casserole",
+          "reason": "Auflauf means a baked casserole in this culinary sense, not a concoction.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 7,
+      "cardId": "b1-Aufschnitt-185",
+      "lemma": "Aufschnitt",
+      "article": "der",
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "meaning_error",
+          "field": "lv",
+          "currentEn": "Cold snaps",
+          "recommendedEn": "Cold cuts",
+          "reason": "Aufschnitt means sliced cold meat, not sudden periods of cold weather.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 8,
+      "cardId": "b1-aufgeregt-197",
+      "lemma": "aufgeregt",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "meaning_error",
+          "field": "lv",
+          "currentEn": "Worried",
+          "recommendedEn": "Excited; nervous",
+          "reason": "Aufgeregt describes excitement or nervousness, not specifically worry.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 9,
+      "cardId": "b1-sich aufregen-200",
+      "lemma": "sich aufregen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "meaning_error",
+          "field": "lv",
+          "currentEn": "To worry",
+          "recommendedEn": "To get upset; to become angry",
+          "reason": "Sich aufregen means becoming upset or angry, not worrying.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 10,
+      "cardId": "b1-ausziehbar-224",
+      "lemma": "ausziehbar",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "meaning_error",
+          "field": "lv",
+          "currentEn": "Retractable",
+          "recommendedEn": "Extendable; pull-out",
+          "reason": "Ausziehbar describes something that can be pulled out or extended; “retractable” is the opposite.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 11,
+      "cardId": "b1-beauftragen-254",
+      "lemma": "beauftragen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "meaning_error",
+          "field": "lv",
+          "currentEn": "To ask",
+          "recommendedEn": "To commission; to assign",
+          "reason": "Beauftragen means giving someone a task or commissioning them, not simply asking.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 12,
+      "cardId": "b1-bedrücken-267",
+      "lemma": "bedrücken",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "meaning_error",
+          "field": "lv",
+          "currentEn": "To suppress",
+          "recommendedEn": "To oppress; to depress; to weigh down",
+          "reason": "Bedrücken means to oppress or make someone feel depressed, not to suppress.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 13,
+      "cardId": "b1-Behälter-302",
+      "lemma": "Behälter",
+      "article": "der",
+      "plural": "die Behälter",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MEANING_MISMATCH",
+          "field": "lv",
+          "currentEn": "Tank",
+          "recommendedEn": "Container",
+          "reason": "“Behälter” is a general container; “tank” is only one possible type.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 14,
+      "cardId": "b1-behindern-308",
+      "lemma": "behindern",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MEANING_MISMATCH",
+          "field": "lv",
+          "currentEn": "Disturb",
+          "recommendedEn": "To hinder",
+          "reason": "The verb means obstruct or hinder, not annoy or disturb.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 15,
+      "cardId": "b1-beitragen-322",
+      "lemma": "beitragen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MEANING_MISMATCH",
+          "field": "lv",
+          "currentEn": "Promote",
+          "recommendedEn": "To contribute",
+          "reason": "The verb means contribute to something, not promote it.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 16,
+      "cardId": "b1-belasten-327",
+      "lemma": "belasten",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MEANING_MISMATCH",
+          "field": "lv",
+          "currentEn": "To bother",
+          "recommendedEn": "To burden",
+          "reason": "“Belasten” means burden or put a strain on, not simply bother.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 17,
+      "cardId": "b1-beleidigen-331",
+      "lemma": "beleidigen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MEANING_MISMATCH",
+          "field": "lv",
+          "currentEn": "Take offence",
+          "recommendedEn": "To insult",
+          "reason": "The German verb means insult or offend; “take offence” describes the other person's reaction.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 18,
+      "cardId": "b1-Beleidigung-332",
+      "lemma": "Beleidigung",
+      "article": "die",
+      "plural": "die Beleidigungen",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MEANING_MISMATCH",
+          "field": "lv",
+          "currentEn": "Resentment",
+          "recommendedEn": "Insult",
+          "reason": "A “Beleidigung” is an insult or offence, not resentment.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 19,
+      "cardId": "b1-beleuchten-333",
+      "lemma": "beleuchten",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MEANING_MISMATCH",
+          "field": "lv",
+          "currentEn": "To enlighten",
+          "recommendedEn": "To illuminate",
+          "reason": "The verb normally means to light or illuminate something; “enlighten” is misleading here.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 20,
+      "cardId": "b1-beliebig-335",
+      "lemma": "beliebig",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MEANING_MISMATCH",
+          "field": "lv",
+          "currentEn": "Anyone",
+          "recommendedEn": "Any",
+          "reason": "“Beliebig” means any, arbitrary, or as desired, not specifically “anyone.”",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 21,
+      "cardId": "b1-Bergführer-357",
+      "lemma": "Bergführer",
+      "article": "der",
+      "plural": "die Bergführer",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "MEANING_MISMATCH",
+          "field": "lv",
+          "currentEn": "A companion in the mountains",
+          "recommendedEn": "Mountain guide",
+          "reason": "A “Bergführer” is a guide who leads people in the mountains.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 22,
+      "cardId": "b1-Bericht-362",
+      "lemma": "Bericht",
+      "article": "der",
+      "plural": "die Berichte",
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "Message",
+          "recommendedEn": "Report",
+          "reason": "Bericht means a report; “message” is a different type of communication.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 23,
+      "cardId": "b1-sich berühren-372",
+      "lemma": "sich berühren",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "To face",
+          "recommendedEn": "To touch each other",
+          "reason": "Sich berühren means touching each other, not facing one another.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 24,
+      "cardId": "b1-beseitigen-385",
+      "lemma": "beseitigen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "To prevent",
+          "recommendedEn": "To remove / eliminate",
+          "reason": "Beseitigen means remove or eliminate; prevent has a different meaning.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    },
+    {
+      "sequence": 25,
+      "cardId": "b1-besiegen-388",
+      "lemma": "besiegen",
+      "article": null,
+      "plural": null,
+      "cardType": "normal",
+      "findings": [
+        {
+          "severity": "HIGH",
+          "type": "mistranslation",
+          "field": "lv",
+          "currentEn": "To win",
+          "recommendedEn": "To defeat",
+          "reason": "Besiegen means defeat someone or something, not merely win.",
+          "lunaVerdict": "CONFIRMED",
+          "sectionAccentsKind": null,
+          "source": "new Luna finding",
+          "duplicateNote": null,
+          "ownerVerdict": "PENDING",
+          "ownerFinalEn": "PENDING",
+          "ownerNote": "PENDING"
+        }
+      ]
+    }
+  ]
+}
