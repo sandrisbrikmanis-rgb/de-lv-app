@@ -14,8 +14,16 @@ const EXCLUDED_CARDS = new Set([
   "b1-Baumstumpf-251",
   "b1-fressen",
   "b1-tau-2",
-  "b1-verfolgen",
+  "b1-verfolgen", // CRITICAL cycle — NOT b1-verlegen (different card)
 ]);
+
+/** Authoritative CRITICAL-cycle card IDs (from PR #343 regression reports). */
+const CRITICAL_CYCLE_CARDS = [
+  "Baumstumpf",
+  "b1-fressen",
+  "b1-tau-2",
+  "b1-verfolgen",
+];
 
 const BLOCK_SIZE = 25;
 
@@ -169,6 +177,14 @@ function main() {
     "",
     `**Cards in this block:** ${BLOCK_SIZE} unique cards (HIGH-priority first block)`,
     "",
+    "## Scope verification (CRITICAL cycle exclusion)",
+    "",
+    "CRITICAL-cycle cards excluded from selection:",
+    "",
+    ...CRITICAL_CYCLE_CARDS.map((c) => `- ${c}`),
+    "",
+    "**Note:** `b1-verlegen` is NOT a CRITICAL-cycle card and may appear in this HIGH block if selected by audit order.",
+    "",
     "---",
     "",
   ];
@@ -271,6 +287,19 @@ function main() {
     block: 1,
     status: "READY FOR OWNER REVIEW",
     excludedCriticalCycleCards: [...EXCLUDED_CARDS],
+    criticalCycleCardsAuthoritative: CRITICAL_CYCLE_CARDS,
+    scopeVerification: {
+      verifiedAt: new Date().toISOString(),
+      sourceReports: [
+        "reports/en-b1-critical-regression-1.md",
+        "reports/en-b1-critical-micro-regression-2.md",
+      ],
+      b1VerfolgenExcluded: !selectedCardIds.includes("b1-verfolgen"),
+      b1VerlegenInBlock: selectedCardIds.includes("b1-verlegen"),
+      b1VerlegenExcluded: EXCLUDED_CARDS.has("b1-verlegen"),
+      note:
+        "b1-verlegen and b1-verfolgen are different cards; only verfolgen is CRITICAL-cycle excluded.",
+    },
     uniqueCardsSelected: selectedCardIds.length,
     targetCards: BLOCK_SIZE,
     cardIds: selectedCardIds,

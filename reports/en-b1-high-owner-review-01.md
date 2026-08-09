@@ -1,10 +1,30 @@
 # EN–DE B1 HIGH Owner Review #1
 
 **Generated:** 2026-08-09T07:53:44.016Z
+**Scope verified:** 2026-08-09T07:56:00.000Z
 
 **Status:** READY FOR OWNER REVIEW — no production changes
 
 **Cards in this block:** 25 unique cards (HIGH-priority first block)
+
+## Scope verification (CRITICAL cycle exclusion)
+
+Verified against CRITICAL repair/regression reports (`reports/en-b1-critical-regression-1.md`, PR #343).
+
+**CRITICAL-cycle cards (excluded from this HIGH block):**
+
+| Card | Role |
+|---|---|
+| `Baumstumpf` | CRITICAL repair #1 — normal card |
+| `b1-fressen` | CRITICAL repair #1 + follow-up |
+| `b1-tau-2` | CRITICAL repair #1 |
+| `b1-verfolgen` | CRITICAL repair #1 |
+
+**Not excluded:** `b1-verlegen` — unrelated lemma (`verlegen` = misplace), has unresolved HIGH findings and correctly appears as card **25** in this block (`Last Card ID: b1-verlegen`).
+
+Generator exclusion list: `Baumstumpf`, `b1-Baumstumpf-251`, `b1-fressen`, `b1-tau-2`, `b1-verfolgen`.
+
+**Prior confusion cause:** an earlier task summary text incorrectly listed `b1-verlegen` among CRITICAL exclusions. The generator, JSON metadata, and 25-card selection were already correct; only that narrative summary was wrong.
 
 ---
 

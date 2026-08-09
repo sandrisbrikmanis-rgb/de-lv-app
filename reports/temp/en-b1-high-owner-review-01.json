@@ -9,6 +9,25 @@
     "b1-tau-2",
     "b1-verfolgen"
   ],
+  "criticalCycleCardsAuthoritative": [
+    "Baumstumpf",
+    "b1-fressen",
+    "b1-tau-2",
+    "b1-verfolgen"
+  ],
+  "scopeVerification": {
+    "verifiedAt": "2026-08-09T07:56:00.000Z",
+    "status": "SCOPE VERIFIED",
+    "sourceReports": [
+      "reports/en-b1-critical-regression-1.md",
+      "reports/en-b1-critical-micro-regression-2.md"
+    ],
+    "b1VerfolgenExcluded": true,
+    "b1VerlegenInBlock": true,
+    "b1VerlegenExcluded": false,
+    "regenerated": false,
+    "causeOfConfusion": "Prior assistant final report text incorrectly listed b1-verlegen among CRITICAL exclusions; generator and JSON were already correct."
+  },
   "uniqueCardsSelected": 25,
   "targetCards": 25,
   "cardIds": [
