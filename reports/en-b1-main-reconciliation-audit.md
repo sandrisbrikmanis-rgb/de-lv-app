@@ -1,7 +1,7 @@
 # EN–DE B1 MAIN RECONCILIATION AUDIT
 
-**Generated:** 2026-08-09T14:14:20.195Z
-**Main commit:** bb454773f67695f0ec28198a4f72c86fb606e0dd
+**Generated:** 2026-08-09T14:48:19.356Z
+**Main commit:** dcdc1f33b68f9eceafec5cfbb3febe40650a5814
 
 ## FINAL RESULT: EN–DE B1 MAIN RECONCILIATION: PASS
 
@@ -13,21 +13,21 @@ FINAL CLOSURE STATUS: NOT YET RECONFIRMED — TARGETED REGRESSION REQUIRED
 
 - Initial FULL AUDIT: 3367/3367
 - Initial repair candidates: 57
-- 57 candidates reconciled in main: 38/57
+- 57 candidates reconciled in main: 42/57
 
 ## Workflow coverage
 
-- Repair cycles discovered: 17
-- Repair cycles reconciled: 17
+- Repair cycles discovered: 19
+- Repair cycles reconciled: 19
 - HIGH #1–#13 represented: 13/13
 - Regression repair chain: PASS
 - SectionAccent cleanup: PASS
 
 ## Repair reconciliation arithmetic
 
-- OWNER-approved repair findings represented: 1237
-- Final authoritative mappings: 1135
-- Present in current main: 1135
+- OWNER-approved repair findings represented: 1245
+- Final authoritative mappings: 1140
+- Present in current main: 1140
 - Missing from current main: 0
 - Superseded by later approved repair: 0
 - Field/identity unresolved: 0
@@ -36,7 +36,7 @@ FINAL CLOSURE STATUS: NOT YET RECONFIRMED — TARGETED REGRESSION REQUIRED
 
 | Cycle | Approved | Present in main | Missing | Superseded |
 | --- | --- | --- | --- | --- |
-| HIGH #1 | 59 | 51 | 2 | 6 |
+| HIGH #1 | 59 | 49 | 2 | 8 |
 | HIGH #2 | 26 | 26 | 0 | 0 |
 | HIGH #3 | 25 | 25 | 0 | 0 |
 | HIGH #4 | 25 | 25 | 0 | 0 |
@@ -50,7 +50,7 @@ FINAL CLOSURE STATUS: NOT YET RECONFIRMED — TARGETED REGRESSION REQUIRED
 | HIGH #7 | 24 | 24 | 0 | 0 |
 | HIGH #8 | 50 | 50 | 0 | 0 |
 | HIGH #9 | 50 | 50 | 0 | 0 |
-| HIGH #10 | 123 | 113 | 10 | 0 |
+| HIGH #10 | 123 | 112 | 10 | 1 |
 | HIGH #11 | 167 | 151 | 6 | 5 |
 | HIGH #12 | 179 | 164 | 2 | 10 |
 | HIGH #13 | 149 | 140 | 3 | 6 |

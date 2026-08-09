@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-08-09T14:48:00.000Z",
+  "scope": "EN–DE B1 MAIN INTEGRATION FOLLOW-UP MICRO-REGRESSION #2 — b1-entlassen ONLY",
+  "status": "NOT_STARTED",
+  "repair2Commit": null,
+  "preRepair2Baseline": null,
+  "affectedCards": ["b1-entlassen"],
+  "repairFindings": [
+    {
+      "findingId": "FOLLOW-UP MICRO-REGRESSION FINDING 1",
+      "cardId": "b1-entlassen",
+      "fieldPath": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+      "ownerFinal": "context",
+      "expectedCurrent": "choose by location",
+      "expectedTipText": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+      "action": "REPLACE",
+      "sourceRepair": "reports/temp/en-b1-main-integration-follow-up-repair-2.json"
+    }
+  ],
+  "checks": [
+    "tip text unchanged",
+    "context target exists in tip text",
+    "stale choose by location absent",
+    "no new sectionAccent technical issue",
+    "no meta-pedagogy",
+    "no unrelated production changes",
+    "preservation of 1140 authoritative mappings",
+    "prior 8 follow-up repairs preserved"
+  ],
+  "pass": null
+}

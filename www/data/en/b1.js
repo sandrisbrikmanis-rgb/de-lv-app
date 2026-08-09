@@ -20467,7 +20467,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "choose by location"
+                  "context"
                 ]
               }
             }

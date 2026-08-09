@@ -660,22 +660,27 @@
     ]
   },
   {
-    "repairCycle": "HIGH #1",
-    "findingId": "repair01-b1-kurs-study.sectionAccents.tip.purple",
+    "repairCycle": "integration_regression_followup",
+    "findingId": "MAIN-INTEGRATION REGRESSION FINDING 4",
     "auditCardId": "b1-kurs",
     "productionIdentity": "b1-kurs",
     "productionIndex": 1679,
     "fieldPath": "study.sectionAccents.tip.purple",
-    "expectedOwnerFinal": "[\"Lessons\",\"exchange rate\"]",
-    "currentMainValue": "[\"Lessons\",\"exchange rate\"]",
+    "expectedOwnerFinal": "__REMOVE_ACCENT__",
+    "currentMainValue": "",
     "status": "MATCH",
-    "sourceReport": "reports/en-b1-high-repair-01.md",
-    "sourceRepairLog": "git-diff-48fbfa8c",
+    "sourceReport": "reports/en-b1-main-integration-regression-follow-up-repair.md",
+    "sourceRepairLog": "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
     "repairChain": [
       {
         "cycle": "HIGH #1",
         "findingId": "repair01-b1-kurs-study.sectionAccents.tip.purple",
         "value": "[\"Lessons\",\"exchange rate\"]"
+      },
+      {
+        "cycle": "integration_regression_followup",
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 4",
+        "value": "__REMOVE_ACCENT__"
       }
     ]
   },
@@ -740,22 +745,27 @@
     ]
   },
   {
-    "repairCycle": "HIGH #1",
-    "findingId": "repair01-b1-kastanie-study.sectionAccents.tip.purple",
+    "repairCycle": "integration_regression_followup",
+    "findingId": "MAIN-INTEGRATION REGRESSION FINDING 6",
     "auditCardId": "b1-kastanie",
     "productionIdentity": "b1-kastanie",
     "productionIndex": 1711,
     "fieldPath": "study.sectionAccents.tip.purple",
-    "expectedOwnerFinal": "[\"Tree\",\"fruit\"]",
-    "currentMainValue": "[\"Tree\",\"fruit\"]",
+    "expectedOwnerFinal": "__REMOVE_ACCENT__",
+    "currentMainValue": "",
     "status": "MATCH",
-    "sourceReport": "reports/en-b1-high-repair-01.md",
-    "sourceRepairLog": "git-diff-48fbfa8c",
+    "sourceReport": "reports/en-b1-main-integration-regression-follow-up-repair.md",
+    "sourceRepairLog": "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
     "repairChain": [
       {
         "cycle": "HIGH #1",
         "findingId": "repair01-b1-kastanie-study.sectionAccents.tip.purple",
         "value": "[\"Tree\",\"fruit\"]"
+      },
+      {
+        "cycle": "integration_regression_followup",
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 6",
+        "value": "__REMOVE_ACCENT__"
       }
     ]
   },
@@ -8380,22 +8390,27 @@
     ]
   },
   {
-    "repairCycle": "HIGH #10",
-    "findingId": "HIGH #10-b1-berühmtheit-study.sectionAccents.examples[1]",
+    "repairCycle": "integration_regression_followup",
+    "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3-lv-purple-array",
     "auditCardId": "b1-berühmtheit",
     "productionIdentity": "b1-berühmtheit",
     "productionIndex": 370,
     "fieldPath": "study.sectionAccents.examples[1].lv.purple",
-    "expectedOwnerFinal": "null",
-    "currentMainValue": "[\"null\"]",
+    "expectedOwnerFinal": "[\"late\"]",
+    "currentMainValue": "[\"late\"]",
     "status": "MATCH",
-    "sourceReport": "reports/en-b1-high-repair-10.md",
-    "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+    "sourceReport": "reports/en-b1-main-integration-regression-follow-up-repair.md",
+    "sourceRepairLog": "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
     "repairChain": [
       {
         "cycle": "HIGH #10",
         "findingId": "HIGH #10-b1-berühmtheit-study.sectionAccents.examples[1]",
         "value": "null"
+      },
+      {
+        "cycle": "integration_regression_followup",
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3-lv-purple-array",
+        "value": "[\"late\"]"
       }
     ]
   },
@@ -22921,6 +22936,106 @@
         "cycle": "sectionaccent_oos",
         "findingId": 27,
         "value": "__REMOVE_ACCENT__"
+      }
+    ]
+  },
+  {
+    "repairCycle": "integration_regression_followup",
+    "findingId": "MAIN-INTEGRATION REGRESSION FINDING 1",
+    "auditCardId": "b1-entlassen",
+    "productionIdentity": "b1-entlassen",
+    "productionIndex": 756,
+    "fieldPath": "study.tip.leftBlocks[0].text",
+    "expectedOwnerFinal": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+    "currentMainValue": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+    "status": "MATCH",
+    "sourceReport": "reports/en-b1-main-integration-regression-follow-up-repair.md",
+    "sourceRepairLog": "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
+    "repairChain": [
+      {
+        "cycle": "integration_regression_followup",
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 1",
+        "value": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context."
+      }
+    ]
+  },
+  {
+    "repairCycle": "integration_regression_followup",
+    "findingId": "MAIN-INTEGRATION REGRESSION FINDING 2",
+    "auditCardId": "b1-zeugnis",
+    "productionIdentity": "b1-zeugnis",
+    "productionIndex": 3270,
+    "fieldPath": "study.important.text",
+    "expectedOwnerFinal": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate.",
+    "currentMainValue": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate.",
+    "status": "MATCH",
+    "sourceReport": "reports/en-b1-main-integration-regression-follow-up-repair.md",
+    "sourceRepairLog": "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
+    "repairChain": [
+      {
+        "cycle": "integration_regression_followup",
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 2",
+        "value": "ärztliches Zeugnis is often a doctor's note or medical certificate, not a school certificate."
+      }
+    ]
+  },
+  {
+    "repairCycle": "integration_regression_followup",
+    "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3",
+    "auditCardId": "b1-berühmtheit",
+    "productionIdentity": "b1-berühmtheit",
+    "productionIndex": 370,
+    "fieldPath": "study.sectionAccents.examples[1].lv.purple[0]",
+    "expectedOwnerFinal": "late",
+    "currentMainValue": "late",
+    "status": "MATCH",
+    "sourceReport": "reports/en-b1-main-integration-regression-follow-up-repair.md",
+    "sourceRepairLog": "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
+    "repairChain": [
+      {
+        "cycle": "integration_regression_followup",
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 3",
+        "value": "late"
+      }
+    ]
+  },
+  {
+    "repairCycle": "integration_regression_followup",
+    "findingId": "MAIN-INTEGRATION REGRESSION FINDING 8",
+    "auditCardId": "b1-beruf",
+    "productionIdentity": "b1-beruf",
+    "productionIndex": 3320,
+    "fieldPath": "study.sectionAccents.examples[1].lv.purple[0]",
+    "expectedOwnerFinal": "teacher",
+    "currentMainValue": "teacher",
+    "status": "MATCH",
+    "sourceReport": "reports/en-b1-main-integration-regression-follow-up-repair.md",
+    "sourceRepairLog": "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
+    "repairChain": [
+      {
+        "cycle": "integration_regression_followup",
+        "findingId": "MAIN-INTEGRATION REGRESSION FINDING 8",
+        "value": "teacher"
+      }
+    ]
+  },
+  {
+    "repairCycle": "integration_regression_followup_2",
+    "findingId": "FOLLOW-UP MICRO-REGRESSION FINDING 1",
+    "auditCardId": "b1-entlassen",
+    "productionIdentity": "b1-entlassen",
+    "productionIndex": 756,
+    "fieldPath": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+    "expectedOwnerFinal": "context",
+    "currentMainValue": "context",
+    "status": "MATCH",
+    "sourceReport": "reports/en-b1-main-integration-follow-up-repair-2.md",
+    "sourceRepairLog": "reports/temp/en-b1-main-integration-follow-up-repair-2-log.json",
+    "repairChain": [
+      {
+        "cycle": "integration_regression_followup_2",
+        "findingId": "FOLLOW-UP MICRO-REGRESSION FINDING 1",
+        "value": "context"
       }
     ]
   }

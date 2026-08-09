@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-08-09T14:48:33.339Z",
+  "fieldRepair": {
+    "pass": true,
+    "accent": "context",
+    "tipText": "Firma entlässt, Krankenhaus entlässt, Gefängnis entlässt - choose the meaning by context.",
+    "targetExists": true,
+    "staleRemaining": false
+  },
+  "preservation": {
+    "regressionPass": 214,
+    "regressionTotal": 214,
+    "microPass": 16,
+    "microTotal": 16,
+    "fullStringPass": 14,
+    "fullStringTotal": 14,
+    "sectionPass": 24,
+    "sectionTotal": 24,
+    "followUp1Pass": 6,
+    "followUp1Total": 6
+  },
+  "reconciliation": {
+    "finalMappingCount": 1140,
+    "presentInMain": 1140,
+    "missingFromMain": 0,
+    "unresolved": 0
+  },
+  "validation": {
+    "javascript": true,
+    "mirrorParity": true,
+    "deReadOnly": true,
+    "structuralParity": true,
+    "mojibake": true,
+    "cardCount": 3367,
+    "studyObjects": 324
+  },
+  "globalOutOfScope": [
+    "Absatz",
+    "bedeutend",
+    "belegen",
+    "einerlei"
+  ],
+  "repairedInThisTask": 0
+}

@@ -54,6 +54,11 @@ const CYCLE_ORDER = [
     label: "Integration regression follow-up (8)",
     order: 17,
   },
+  {
+    id: "integration_regression_followup_2",
+    label: "Integration regression follow-up #2 (1)",
+    order: 18,
+  },
 ];
 
 const MICRO_EXPLANATION_CARDS = [
@@ -692,6 +697,27 @@ function collectAllRawMappings() {
         expectedOwnerFinal: ["late"],
         sourceReport: "reports/en-b1-main-integration-regression-follow-up-repair.md",
         sourceRepairLog: "reports/temp/en-b1-main-integration-regression-follow-up-repair-log.json",
+      });
+    }
+  }
+
+  const followUp2 = loadJsonFromRepo(
+    "reports/temp/en-b1-main-integration-follow-up-repair-2.json",
+    "",
+  );
+  if (followUp2?.repairs) {
+    for (const r of followUp2.repairs) {
+      if (r.ownerVerdict !== "LABOT") continue;
+      all.push({
+        repairCycle: "integration_regression_followup_2",
+        findingId: r.findingId,
+        auditCardId: r.cardId,
+        productionIdentity: r.productionIdentity || normProd(r.cardId),
+        productionIndex: r.productionIndex,
+        fieldPath: r.fieldPath,
+        expectedOwnerFinal: r.ownerFinal,
+        sourceReport: "reports/en-b1-main-integration-follow-up-repair-2.md",
+        sourceRepairLog: "reports/temp/en-b1-main-integration-follow-up-repair-2-log.json",
       });
     }
   }
