@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-08-09T12:46:24.714Z",
   "status": "EN–DE B1 HIGH REGRESSION OWNER REVIEW: COMPLETE",
-  "regressionRepairStatus": "READY / NOT STARTED",
+  "regressionRepairStatus": "COMPLETE",
   "microRegressionStatus": "NOT STARTED",
   "highCycleStatus": "NOT CLOSED",
   "input": {

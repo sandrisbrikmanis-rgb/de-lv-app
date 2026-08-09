@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-08-09T12:50:05.735Z",
+  "status": "NOT STARTED",
+  "scope": "214 OWNER-approved regression repairs only",
+  "parentRepair": "EN–DE B1 HIGH REGRESSION REPAIR — COMPLETE",
+  "findingsScope": 214,
+  "falsePositivesExcluded": 77,
+  "note": "Micro-regression audit pending — scope: only 214 new repairs"
+}

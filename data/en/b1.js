@@ -2291,7 +2291,7 @@ const B1_WORDS = [
       "id": "b1-abschnitt",
       "layout": "standardStudy",
       "translation": "Stage",
-      "explanation": "Main idea: der Abschnitt means a section or part of a text. It is used for text, road, job or time.",
+      "explanation": "Main idea: Abschnitt means a section or part of a text. It is used for text, road, job or time.",
       "examples": [
         {
           "de": "Dieser Abschnitt ist schwer.",
@@ -3749,7 +3749,7 @@ const B1_WORDS = [
       "id": "b1-antrag",
       "layout": "standardStudy",
       "translation": "Submission",
-      "explanation": "Main idea: der Antrag means submission or formal application. In meetings, it can also mean a proposal for voting.",
+      "explanation": "Main idea: Antrag means submission or formal application. In meetings, it can also mean a proposal for voting.",
       "examples": [
         {
           "de": "Ich stelle einen Antrag auf Hilfe.",
@@ -8246,7 +8246,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "notikumiem",
+                  "Berichten",
                   "results"
                 ]
               }
@@ -10301,7 +10301,7 @@ const B1_WORDS = [
       "id": "b1-bildschirm",
       "layout": "standardStudy",
       "translation": "Screen",
-      "explanation": "Main idea: der Bildschirm is a screen—the display surface of a computer monitor, phone, tablet, or television. Plural: die Bildschirme.",
+      "explanation": "Main idea: Bildschirm is a screen—the display surface of a computer monitor, phone, tablet, or television. Plural: d",
       "examples": [
         {
           "de": "Der Bildschirm ist kaputt.",
@@ -10628,7 +10628,7 @@ const B1_WORDS = [
       "id": "b1-blase",
       "layout": "standardStudy",
       "translation": "Bladder",
-      "explanation": "Main idea: die Blase means blister, blister or bubble. It is usually a blister on the skin, a blister in the body, a bubble in water or air.",
+      "explanation": "Main idea: Blase means blister, blister or bubble. It is usually a blister on the skin, a blister in the body, a bub",
       "examples": [
         {
           "de": "Ich habe eine Blase am Fuß.",
@@ -10768,7 +10768,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "tulzna",
+                  "Foot",
                   "bladder",
                   "bubbles"
                 ]
@@ -10847,7 +10847,7 @@ const B1_WORDS = [
       "id": "b1-block",
       "layout": "standardStudy",
       "translation": "Block",
-      "explanation": "Main idea: der Block means block or notepad. In the context of the material, it can be a lump or a large piece.",
+      "explanation": "Main idea: Block means block or notepad. In the context of the material, it can be a lump or a large piece.",
       "examples": [
         {
           "de": "Ich schreibe es in den Block.",
@@ -11152,8 +11152,8 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "tikai",
-                  "kails/pliks"
+                  "conversation",
+                  "conversation"
                 ]
               }
             }
@@ -11218,7 +11218,7 @@ const B1_WORDS = [
       "id": "b1-bogen",
       "layout": "standardStudy",
       "translation": "Bow",
-      "explanation": "Main idea: der Bogen means bow. Depending on the context, it can also be an arch or a page, such as Fragebogen.",
+      "explanation": "Main idea: Bogen means bow. Depending on the context, it can also be an arch or a page, such as Fragebogen.",
       "examples": [
         {
           "de": "Der Bogen ist aus Holz.",
@@ -16745,7 +16745,7 @@ const B1_WORDS = [
       "id": "b1-einfluss",
       "layout": "standardStudy",
       "translation": "Influence",
-      "explanation": "Main idea: der Einfluss means influence on a person, decision, or situation. A very common construction is Einfluss auf + accusative.",
+      "explanation": "Main idea: Einfluss means influence on a person, decision, or situation. A very common construction is Einfluss auf",
       "examples": [
         {
           "de": "Das Wetter hat Einfluss auf unsere Pläne.",
@@ -17203,7 +17203,7 @@ const B1_WORDS = [
       "id": "b1-einführung",
       "layout": "standardStudy",
       "translation": "Introduction",
-      "explanation": "Main idea: die Einführung means introduction or implementation. In a text or course, it is an introduction; for a new system, rule, or product, it can mean implementation.",
+      "explanation": "Main idea: Einführung means introduction or implementation. In a text or course, it is an introduction; for a new sy",
       "examples": [
         {
           "de": "Die Einführung in das Thema war klar.",
@@ -17851,7 +17851,7 @@ const B1_WORDS = [
       "id": "b1-einheit",
       "layout": "standardStudy",
       "translation": "Unit",
-      "explanation": "Main idea: die Einheit means a unit. It can be a unit of study, a technical unit, or a unit of measurement depending on the context.",
+      "explanation": "Main idea: Einheit means a unit. It can be a unit of study, a technical unit, or a unit of measurement depending on",
       "examples": [
         {
           "de": "Die nächste Einheit beginnt morgen.",
@@ -18567,7 +18567,7 @@ const B1_WORDS = [
       "id": "b1-einsatz",
       "layout": "standardStudy",
       "translation": "Use",
-      "explanation": "Main idea: der Einsatz means active use or involvement in a particular situation. Common phrases are im Einsatz and zum Einsatz kommen. In games, Einsatz can also mean a stake.",
+      "explanation": "Main idea: Einsatz means active use or involvement in a particular situation. Common phrases are im Einsatz and zum",
       "examples": [
         {
           "de": "Der Einsatz moderner Technik spart Zeit.",
@@ -23235,7 +23235,7 @@ const B1_WORDS = [
       "id": "b1-folge",
       "layout": "standardStudy",
       "translation": "Consequences",
-      "explanation": "Main Idea: die Folge most often means a consequence or result that follows an event. In a media context, Folge means an episode of a series, programme or podcast.",
+      "explanation": "Main Idea: Folge most often means a consequence or result that follows an event. In a media context, Folge means an",
       "examples": [
         {
           "de": "Das war die Folge des Unfalls.",
@@ -24134,7 +24134,7 @@ const B1_WORDS = [
       "id": "b1-futter",
       "layout": "standardStudy",
       "translation": "Feed",
-      "explanation": "Main idea: das Futter usually means animal food. In the context of clothing, Futter means the lining of a jacket, coat, or bag.",
+      "explanation": "Main idea: Futter usually means animal food. In the context of clothing, Futter means the lining of a jacket, coat,",
       "examples": [
         {
           "de": "Das Futter für den Hund ist leer.",
@@ -24934,7 +24934,7 @@ const B1_WORDS = [
       "id": "b1-gehalt",
       "layout": "standardStudy",
       "translation": "Salary",
-      "explanation": "Main idea: das Gehalt means salary or wages. Der Gehalt, on the other hand, means content—the essence of a letter, speech, or contract. The article completely changes the meaning and the plural.",
+      "explanation": "Main idea: Gehalt means salary or wages. Der Gehalt, on the other hand, means content—the essence of a letter, speec",
       "examples": [
         {
           "de": "Sein Gehalt ist hoch.",
@@ -25941,7 +25941,7 @@ const B1_WORDS = [
       "id": "b1-geschlecht",
       "layout": "standardStudy",
       "translation": "Gender",
-      "explanation": "Main idea: das Geschlecht means gender in humans or animals. In the grammar of the language, it means gender, such as masculine, feminine, or neuter gender.",
+      "explanation": "Main idea: Geschlecht means gender in humans or animals. In the grammar of the language, it means gender, such as ma",
       "examples": [
         {
           "de": "Bitte geben Sie Ihr Geschlecht an.",
@@ -26360,7 +26360,7 @@ const B1_WORDS = [
       "id": "b1-gewinn",
       "layout": "standardStudy",
       "translation": "Profit",
-      "explanation": "Main idea: der Gewinn means profit - money left over after costs. In games, contests, and lotteries, it means a win or a prize.",
+      "explanation": "Main idea: Gewinn means profit - money left over after costs. In games, contests, and lotteries, it means a win or a",
       "examples": [
         {
           "de": "Der Gewinn der Firma ist gestiegen.",
@@ -26886,7 +26886,7 @@ const B1_WORDS = [
       "id": "b1-gitter",
       "layout": "standardStudy",
       "translation": "Grid",
-      "explanation": "Main idea: das Gitter means grid or grate - a structure with openings near a window, door, cage or ventilation.",
+      "explanation": "Main idea: Gitter means grid or grate - a structure with openings near a window, door, cage or ventilation.",
       "examples": [
         {
           "de": "Vor dem Fenster ist ein Gitter.",
@@ -27379,7 +27379,7 @@ const B1_WORDS = [
       "id": "b1-griff",
       "layout": "standardStudy",
       "translation": "The handle",
-      "explanation": "Main idea: der Griff is most often a handle - a place behind which an object is grasped. In sports or movement, it can also be a grip.",
+      "explanation": "Main idea: Griff is most often a handle - a place behind which an object is grasped. In sports or movement, it can a",
       "examples": [
         {
           "de": "Der Griff der Tür ist locker.",
@@ -28139,8 +28139,8 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "what to do",
-                  "par ko ir teksts",
-                  "tirgojas"
+                  "handeln",
+                  "handeln"
                 ]
               }
             }
@@ -29613,7 +29613,7 @@ const B1_WORDS = [
       "id": "b1-hinweis",
       "layout": "standardStudy",
       "translation": "Instruction",
-      "explanation": "Main idea: der Hinweis is an instruction, note, or piece of information that helps you notice, understand, or find something.",
+      "explanation": "Main idea: Hinweis is an instruction, note, or piece of information that helps you notice, understand, or find somet",
       "examples": [
         {
           "de": "Danke für den Hinweis.",
@@ -30341,7 +30341,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Extended day group • Children's day centre",
       "explanation": [
-        "Main idea: der Hort (also Schulhort/Kinderhort) is an after-school care facility for school-aged children.",
+        "Main idea: Hort (also Schulhort/Kinderhort) is an after-school care facility for school-aged children.",
         "In Germany, der Hort looks after children after school while parents are at work.",
         "Not to be confused with der Kindergarten - it is an institution for preschool children (up to 6 years old).",
         "In Latvian, the closest match is an extended day group or a children's day centre."
@@ -30573,7 +30573,7 @@ const B1_WORDS = [
       "id": "b1-hupe",
       "layout": "standardStudy",
       "translation": "Horn",
-      "explanation": "Main idea: die Hupe is a car horn or a ship's horn. It warns others in traffic. Plural: die Hupen.",
+      "explanation": "Main idea: Hupe is a car horn or a ship's horn. It warns others in traffic. Plural: Hupen.",
       "examples": [
         {
           "de": "Er hupt laut.",
@@ -31735,7 +31735,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "goals"
+                  "jagen"
                 ]
               }
             }
@@ -32280,7 +32280,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Composition • Core",
       "explanation": [
-        "Main Idea: der Kader means a (qualified) cadre or nucleus—a group of people with a specific role or qualification.",
+        "Main Idea: Kader means a (qualified) cadre or nucleus—a group of people with a specific role or qualification.",
         "In sports, der Kader means team composition (der Kader der Nationalmannschaft = national team composition).",
         "In politics or organizations, der Kader means the leading/trained core of personnel.",
         "Not to be confused with Latvian 'kadr' (film frame) - in German it is das Bild or die Einstellung, ne der Kader."
@@ -32918,7 +32918,7 @@ const B1_WORDS = [
       "id": "b1-kern",
       "layout": "standardStudy",
       "translation": "Core",
-      "explanation": "Main Idea: der Kern means kernel, seed/seed, or essence of a thing. It is used both for fruits and figuratively for the most important idea.",
+      "explanation": "Main Idea: Kern means kernel, seed/seed, or essence of a thing. It is used both for fruits and figuratively for the",
       "examples": [
         {
           "de": "Der Apfel hat viele Kerne.",
@@ -33053,9 +33053,9 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "in the fetus",
-                  "in the case",
-                  "in the argument"
+                  "Kern",
+                  "Kern",
+                  "Kern"
                 ]
               }
             }
@@ -33110,7 +33110,7 @@ const B1_WORDS = [
       "id": "b1-kiefer",
       "layout": "standardStudy",
       "translation": "Jaw",
-      "explanation": "Main idea: der Kiefer means jaw. With another article, die Kiefer means pine, so the article is especially important for this card.",
+      "explanation": "Main idea: Kiefer means jaw. With another article, Kiefer means pine, so the article is especially important for",
       "examples": [
         {
           "de": "Mein Kiefer tut weh.",
@@ -34131,7 +34131,7 @@ const B1_WORDS = [
       "id": "b1-kommando",
       "layout": "standardStudy",
       "translation": "Command",
-      "explanation": "Main Idea: das Kommando is a command or command, especially in a military, sporting or organised situation. It can also mean a control unit.",
+      "explanation": "Main Idea: Kommando is a command or command, especially in a military, sporting or organised situation. It can also",
       "examples": [
         {
           "de": "Der Soldat wartet auf das Kommando.",
@@ -34215,7 +34215,7 @@ const B1_WORDS = [
             },
             "example": {
               "blue": "Kommando",
-              "purple": "komandu"
+              "purple": "Wait"
             }
           },
           {
@@ -34985,7 +34985,7 @@ const B1_WORDS = [
               "green": "ankreuzen"
             },
             "meaning": {
-              "purple": "to mark"
+              "purple": "Mark"
             },
             "example": {
               "red": "Kreuzen",
@@ -35555,7 +35555,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "entlässt",
-              "purple": "dismissed"
+              "purple": "The"
             }
           },
           {
@@ -35567,7 +35567,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "höre",
-              "purple": "I stopped"
+              "purple": "dropped"
             }
           }
         ],
@@ -35741,7 +35741,7 @@ const B1_WORDS = [
               "green": "verbinden"
             },
             "meaning": {
-              "purple": "savienot"
+              "purple": "connect"
             },
             "example": {
               "red": "verbindet",
@@ -35820,7 +35820,7 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "der Kurs",
+          "word": "Kurs",
           "meaning": "Course / direction",
           "example": "Der Kurs beginnt morgen. = The course starts tomorrow."
         },
@@ -35883,11 +35883,11 @@ const B1_WORDS = [
               "green": "der Kurs"
             },
             "meaning": {
-              "purple": "kurss"
+              "purple": "Course"
             },
             "example": {
               "blue": "Kurs",
-              "purple": "Kurss"
+              "purple": "The"
             }
           },
           {
@@ -35895,11 +35895,11 @@ const B1_WORDS = [
               "green": "die Richtung"
             },
             "meaning": {
-              "purple": "virziens"
+              "purple": "Direction"
             },
             "example": {
               "red": "Richtung",
-              "purple": "Virziens"
+              "purple": "The"
             }
           },
           {
@@ -35911,7 +35911,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "Unterricht",
-              "purple": "Stunda"
+              "purple": "The"
             }
           }
         ],
@@ -36305,7 +36305,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "beladen",
-              "purple": "piekrauts"
+              "purple": "The"
             }
           }
         ],
@@ -36351,7 +36351,7 @@ const B1_WORDS = [
       "id": "b1-lager",
       "layout": "standardStudy",
       "translation": "Warehouse",
-      "explanation": "Main idea: das Lager is usually a warehouse or storage place. In another context, it may be a camp or technical bearing.",
+      "explanation": "Main idea: Lager is usually a warehouse or storage place. In another context, it may be a camp or technical bearing.",
       "examples": [
         {
           "de": "Die Waren liegen im Lager.",
@@ -36432,7 +36432,7 @@ const B1_WORDS = [
               "green": "das Lager"
             },
             "meaning": {
-              "purple": "noliktava"
+              "purple": "Warehouse"
             },
             "example": {
               "blue": "Lager",
@@ -36460,7 +36460,7 @@ const B1_WORDS = [
             },
             "example": {
               "red": "Camp",
-              "purple": "Nometne"
+              "purple": "The"
             }
           }
         ],
@@ -36637,7 +36637,7 @@ const B1_WORDS = [
       "id": "b1-inhalt",
       "layout": "standardStudy",
       "translation": "Content",
-      "explanation": "Main idea: der Inhalt is content - in a text, a bag, a container or a file. Technically, it can also mean volume.",
+      "explanation": "Main idea: Inhalt is content - in a text, a bag, a container or a file. Technically, it can also mean volume.",
       "examples": [
         {
           "de": "Der Inhalt des Briefes ist wichtig.",
@@ -36773,7 +36773,7 @@ const B1_WORDS = [
       "id": "b1-kante",
       "layout": "standardStudy",
       "translation": "Edge",
-      "explanation": "Main idea: die Kante is the edge or ridge of an object. It is not an ordinary territorial boundary, but a physical sharp or clearly defined edge.",
+      "explanation": "Main idea: Kante is the edge or ridge of an object. It is not an ordinary territorial boundary, but a physical sharp",
       "examples": [
         {
           "de": "Pass auf die scharfe Kante auf.",
@@ -36858,7 +36858,7 @@ const B1_WORDS = [
             },
             "example": {
               "blue": "Kante",
-              "purple": "Mala"
+              "purple": "The"
             }
           },
           {
@@ -36866,7 +36866,7 @@ const B1_WORDS = [
               "green": "der Rand"
             },
             "meaning": {
-              "purple": "mala"
+              "purple": "Edge"
             },
             "example": {
               "red": "Rand",
@@ -36909,7 +36909,7 @@ const B1_WORDS = [
       "id": "b1-kastanie",
       "layout": "standardStudy",
       "translation": "Chestnut",
-      "explanation": "Main idea: die Kastanie can mean both the chestnut tree and the chestnut fruit itself. The context shows which meaning is intended.",
+      "explanation": "Main idea: Kastanie can mean both the chestnut tree and the chestnut fruit itself. The context shows which meaning i",
       "examples": [
         {
           "de": "Vor dem Haus steht eine Kastanie.",
@@ -36990,11 +36990,11 @@ const B1_WORDS = [
               "green": "die Kastanie"
             },
             "meaning": {
-              "purple": "kastanis"
+              "purple": "Chestnut"
             },
             "example": {
               "blue": "Kastanie",
-              "purple": "Kastanis"
+              "purple": "Chestnut"
             }
           },
           {
@@ -37014,11 +37014,11 @@ const B1_WORDS = [
               "green": "die Nuss"
             },
             "meaning": {
-              "purple": "rieksts"
+              "purple": "Nut"
             },
             "example": {
               "red": "Nuss",
-              "purple": "Rieksts"
+              "purple": "The"
             }
           }
         ],
@@ -37256,18 +37256,13 @@ const B1_WORDS = [
             "meaning": {
               "purple": "land"
             },
-            "example": {
-              "blue": "landet",
-              "purple": "sits down"
-            }
+            "example": {}
           },
           {
             "word": {
               "green": "ankommen"
             },
-            "meaning": {
-              "purple": "arrive"
-            },
+            "meaning": {},
             "example": {
               "red": "kommt an",
               "purple": "arrives"
@@ -37277,13 +37272,8 @@ const B1_WORDS = [
             "word": {
               "green": "anlegen"
             },
-            "meaning": {
-              "purple": "dock with a ship"
-            },
-            "example": {
-              "red": "legt",
-              "purple": "stops by"
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -37831,11 +37821,11 @@ const B1_WORDS = [
               "green": "leisten"
             },
             "meaning": {
-              "purple": "veikt"
+              "purple": "Perform"
             },
             "example": {
               "blue": "leistet",
-              "purple": "veic"
+              "purple": "She"
             }
           },
           {
@@ -37843,7 +37833,7 @@ const B1_WORDS = [
               "green": "schaffen"
             },
             "meaning": {
-              "purple": "paveikt"
+              "purple": "accomplish"
             },
             "example": {
               "red": "schaffe",
@@ -37886,7 +37876,7 @@ const B1_WORDS = [
       "id": "b1-leistung",
       "layout": "standardStudy",
       "translation": "An achievement",
-      "explanation": "Main idea: die Leistung means performance, accomplishment or achievement. In engineering, it means power, for example for a motor or a device.",
+      "explanation": "Main idea: Leistung means performance, accomplishment or achievement. In engineering, it means power, for example fo",
       "examples": [
         {
           "de": "Das war eine starke Leistung.",
@@ -38257,7 +38247,7 @@ const B1_WORDS = [
         },
         {
           "word": "fest",
-          "meaning": "Tight, tight",
+          "meaning": "Tight",
           "example": "Der Deckel sitzt fest. = The lid stays tight."
         }
       ],
@@ -38334,7 +38324,7 @@ const B1_WORDS = [
               "green": "fest"
             },
             "meaning": {
-              "purple": "stingrs"
+              "purple": "Tight"
             },
             "example": {
               "red": "fest",
@@ -38401,7 +38391,7 @@ const B1_WORDS = [
       "id": "b1-los",
       "layout": "standardStudy",
       "translation": "Lot",
-      "explanation": "Main idea: das Los is a lottery ticket or lot that is drawn or bought. In a more serious, figurative language, it can also mean the fate of a person.",
+      "explanation": "Main idea: Los is a lottery ticket or lot that is drawn or bought. In a more serious, figurative language, it can al",
       "examples": [
         {
           "de": "Jeder Teilnehmer zieht ein Los.",
@@ -38469,7 +38459,7 @@ const B1_WORDS = [
               "blue": "Los"
             },
             "lv": {
-              "red": "likteni"
+              "red": "accepted"
             }
           }
         ],
@@ -39033,7 +39023,7 @@ const B1_WORDS = [
       "id": "b1-macht",
       "layout": "standardStudy",
       "translation": "Power",
-      "explanation": "Main Idea: die Macht means the power or ability to influence people, decisions, and policies. Die Kraft is usually used for physical strength.",
+      "explanation": "Main Idea: Macht means the power or ability to influence people, decisions, and policies. Die Kraft is usually used",
       "examples": [
         {
           "de": "Die Regierung hat viel Macht.",
@@ -39114,7 +39104,7 @@ const B1_WORDS = [
               "green": "die Macht"
             },
             "meaning": {
-              "purple": "vara"
+              "purple": "Power"
             },
             "example": {
               "blue": "Macht",
@@ -39137,7 +39127,7 @@ const B1_WORDS = [
               "green": "der Einfluss"
             },
             "meaning": {
-              "purple": "ietekme"
+              "purple": "Influence"
             },
             "example": {
               "red": "Einfluss",
@@ -39353,7 +39343,7 @@ const B1_WORDS = [
       "id": "b1-maß",
       "layout": "standardStudy",
       "translation": "Measure",
-      "explanation": "Main idea: das Maß means measure, limit or extent. In the plural, die Maße usually means dimensions.",
+      "explanation": "Main idea: Maß means measure, limit or extent. In the plural, Maße usually means dimensions.",
       "examples": [
         {
           "de": "Alles hat sein Maß.",
@@ -39454,7 +39444,7 @@ const B1_WORDS = [
               "green": "die Maßnahme"
             },
             "meaning": {
-              "purple": "action / measure"
+              "purple": "Measure"
             },
             "example": {
               "red": "Maßnahme"
@@ -40352,7 +40342,7 @@ const B1_WORDS = [
       "id": "b1-nachfrage",
       "layout": "standardStudy",
       "translation": "Request",
-      "explanation": "Main idea: die Nachfrage in economics means the demand for goods or services. In correspondence, it can also mean an inquiry or an additional question.",
+      "explanation": "Main idea: Nachfrage in economics means the demand for goods or services. In correspondence, it can also mean an inq",
       "examples": [
         {
           "de": "Die Nachfrage nach Wohnungen ist groß.",
@@ -40912,7 +40902,7 @@ const B1_WORDS = [
       "id": "b1-neigung",
       "layout": "standardStudy",
       "translation": "Inclination",
-      "explanation": "Main idea: die Neigung means a tendency or inclination towards something. In a technical context, it can also mean slope.",
+      "explanation": "Main idea: Neigung means a tendency or inclination towards something. In a technical context, it can also mean slope",
       "examples": [
         {
           "de": "Sie hat eine Neigung zur Musik.",
@@ -41001,7 +40991,7 @@ const B1_WORDS = [
               "green": "das Interesse"
             },
             "meaning": {
-              "purple": "interese"
+              "purple": "Interest"
             },
             "example": {
               "red": "Interesse"
@@ -41658,7 +41648,7 @@ const B1_WORDS = [
               "green": "nüchtern"
             },
             "meaning": {
-              "purple": "neiereibis"
+              "purple": "drunk"
             },
             "example": {
               "blue": "nüchtern"
@@ -41899,7 +41889,7 @@ const B1_WORDS = [
       "id": "b1-objekt",
       "layout": "standardStudy",
       "translation": "Object",
-      "explanation": "Main idea: das Objekt is the object, thing or building that is being talked about. In grammar, Objekt means object.",
+      "explanation": "Main idea: Objekt is the object, thing or building that is being talked about. In grammar, Objekt means object.",
       "examples": [
         {
           "de": "Das Objekt wird verkauft.",
@@ -41977,7 +41967,7 @@ const B1_WORDS = [
               "green": "das Objekt"
             },
             "meaning": {
-              "purple": "objekts"
+              "purple": "Object"
             },
             "example": {
               "blue": "Objekt"
@@ -42008,7 +41998,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "Objekt",
-          "red": "subjekts"
+          "red": "Object"
         },
         "important": {
           "blue": "Objekt",
@@ -42850,7 +42840,7 @@ const B1_WORDS = [
       "id": "b1-periode",
       "layout": "standardStudy",
       "translation": "Period",
-      "explanation": "Main idea: die Periode means a period of time or a cycle. In medicine and in everyday life, it can mean menstruation.",
+      "explanation": "Main idea: Periode means a period of time or a cycle. In medicine and in everyday life, it can mean menstruation.",
       "examples": [
         {
           "de": "Diese Periode dauerte drei Jahre.",
@@ -43898,7 +43888,7 @@ const B1_WORDS = [
       "id": "b1-probe",
       "layout": "standardStudy",
       "translation": "Test; sample; rehearsal",
-      "explanation": "Main idea: die Probe means test, sample or attempt. The meaning is determined by the situation.",
+      "explanation": "Main idea: Probe means test, sample or attempt. The meaning is determined by the situation.",
       "examples": [
         {
           "de": "Die Probe war erfolgreich.",
@@ -43966,7 +43956,7 @@ const B1_WORDS = [
               "yellow": "Konzert"
             },
             "lv": {
-              "red": "an attempt"
+              "red": "Concert"
             }
           }
         ],
@@ -44329,7 +44319,7 @@ const B1_WORDS = [
       "id": "b1-rang",
       "layout": "standardStudy",
       "translation": "Rank",
-      "explanation": "Main Idea: der Rang means rank, level, or place in a hierarchy. In a theatre, this may mean the balcony level.",
+      "explanation": "Main Idea: Rang means rank, level, or place in a hierarchy. In a theatre, this may mean the balcony level.",
       "examples": [
         {
           "de": "Er hat einen hohen Rang in der Armee.",
@@ -44398,7 +44388,7 @@ const B1_WORDS = [
               "yellow": "Plätze"
             },
             "lv": {
-              "red": "on the balcony"
+              "red": "seats"
             }
           }
         ],
@@ -44501,7 +44491,7 @@ const B1_WORDS = [
           "example": "Der Sturm tobt. = The storm is raging."
         }
       ],
-      "tip": "If speed sounds too fast, fast is often enough.",
+      "tip": "If speed sounds too fast is often enough.",
       "important": "rasen is not neutral to drive; the word has excessive speed or power.",
       "sectionAccents": {
         "explanation": {
@@ -44560,7 +44550,7 @@ const B1_WORDS = [
               "green": "fahren"
             },
             "meaning": {
-              "purple": "braukt"
+              "purple": "Drive"
             },
             "example": {
               "red": "fahre"
@@ -44581,7 +44571,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "rasen",
-          "red": "too big"
+          "red": "speed"
         },
         "important": {
           "blue": "rasen",
@@ -44652,7 +44642,7 @@ const B1_WORDS = [
       "id": "b1-rate",
       "layout": "standardStudy",
       "translation": "Installment",
-      "explanation": "Main idea: die Rate is a regular part of a payment, such as an installment purchase. der Rat with one -e means advice.",
+      "explanation": "Main idea: Rate is a regular part of a payment, such as an installment purchase. Rat with one -e means advice.",
       "examples": [
         {
           "de": "Ich zahle das Auto in Raten.",
@@ -44731,7 +44721,7 @@ const B1_WORDS = [
               "green": "die Rate"
             },
             "meaning": {
-              "purple": "iemaksa"
+              "purple": "Contribution"
             },
             "example": {
               "blue": "Rate"
@@ -44742,7 +44732,7 @@ const B1_WORDS = [
               "green": "der Rat"
             },
             "meaning": {
-              "purple": "padoms"
+              "purple": "Advice"
             },
             "example": {
               "red": "Rat"
@@ -44753,7 +44743,7 @@ const B1_WORDS = [
               "green": "die Ratenzahlung"
             },
             "meaning": {
-              "purple": "nomaksa"
+              "purple": "Payment"
             },
             "example": {
               "red": "Ratenzahlung"
@@ -44906,7 +44896,7 @@ const B1_WORDS = [
               "yellow": "Zimmer"
             },
             "lv": {
-              "red": "sort out"
+              "red": "Please"
             }
           }
         ],
@@ -44916,7 +44906,7 @@ const B1_WORDS = [
               "green": "räumen"
             },
             "meaning": {
-              "purple": "release"
+              "purple": "clear"
             },
             "example": {
               "blue": "räumt",
@@ -44977,7 +44967,7 @@ const B1_WORDS = [
       "id": "b1-rausch",
       "layout": "standardStudy",
       "translation": "Intoxication",
-      "explanation": "Main idea: der Rausch is intoxication or a state of intoxication. In a figurative sense, it can also be a strong excitement.",
+      "explanation": "Main idea: Rausch is intoxication or a state of intoxication. In a figurative sense, it can also be a strong excitem",
       "examples": [
         {
           "de": "Er war im Rausch.",
@@ -45044,7 +45034,7 @@ const B1_WORDS = [
               "yellow": "Gefühle"
             },
             "lv": {
-              "red": "apreibumu"
+              "red": "experienced"
             }
           }
         ],
@@ -45054,7 +45044,7 @@ const B1_WORDS = [
               "green": "der Rausch"
             },
             "meaning": {
-              "purple": "reibums"
+              "purple": "Intoxication"
             },
             "example": {
               "blue": "Rausch"
@@ -45065,7 +45055,7 @@ const B1_WORDS = [
               "green": "die Freude"
             },
             "meaning": {
-              "purple": "prieks"
+              "purple": "Pleasure"
             },
             "example": {
               "red": "Freude"
@@ -45547,7 +45537,7 @@ const B1_WORDS = [
               "green": "reißen"
             },
             "meaning": {
-              "purple": "bursting"
+              "purple": "burst"
             },
             "example": {
               "blue": "reißt",
@@ -45986,7 +45976,7 @@ const B1_WORDS = [
               "green": "Richter"
             },
             "lv": {
-              "red": "in court"
+              "red": "judge"
             }
           }
         ],
@@ -46020,7 +46010,7 @@ const B1_WORDS = [
               "green": "urteilen"
             },
             "meaning": {
-              "purple": "spriest"
+              "purple": "judge"
             },
             "example": {
               "red": "Urteile"
@@ -46462,7 +46452,7 @@ const B1_WORDS = [
               "green": "backen"
             },
             "meaning": {
-              "purple": "bake in the oven"
+              "purple": "Bake"
             },
             "example": {
               "red": "backt",
@@ -47018,7 +47008,7 @@ const B1_WORDS = [
               "green": "vorbereiten"
             },
             "meaning": {
-              "purple": "sagatavot"
+              "purple": "prepare"
             },
             "example": {
               "red": "bereite",
@@ -47077,7 +47067,7 @@ const B1_WORDS = [
       "id": "b1-saat",
       "layout": "standardStudy",
       "translation": "Seed",
-      "explanation": "Main idea: die Saat means seed, sowing or sown field. For one individual seed, der Samen is more commonly used.",
+      "explanation": "Main idea: Saat means seed, sowing or sown field. For one individual seed, Samen is more commonly used.",
       "examples": [
         {
           "de": "Die Saat geht auf.",
@@ -47429,7 +47419,7 @@ const B1_WORDS = [
       "id": "b1-schale",
       "layout": "standardStudy",
       "translation": "Bark",
-      "explanation": "Main Idea: die Schale is the rind, shell, or outer covering of a fruit. It can also mean a bowl or vessel.",
+      "explanation": "Main Idea: Schale is the rind, shell, or outer covering of a fruit. It can also mean a bowl or vessel.",
       "examples": [
         {
           "de": "Die Schale der Orange ist dick.",
@@ -47508,7 +47498,7 @@ const B1_WORDS = [
               "green": "die Schale"
             },
             "meaning": {
-              "purple": "miza"
+              "purple": "Rind"
             },
             "example": {
               "blue": "Schale",
@@ -47705,7 +47695,7 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "die Schicht",
+          "word": "Schicht",
           "meaning": "Layer, stratum • Work shift",
           "example": "Eine Schicht Staub liegt dort. = There is a layer of dust."
         },
@@ -48058,7 +48048,7 @@ const B1_WORDS = [
       "id": "b1-schlag",
       "layout": "standardStudy",
       "translation": "A blow",
-      "explanation": "Main Idea: der Schlag means a blow or blow. In context, it can also be a lightning strike, a clock strike, or a type.",
+      "explanation": "Main Idea: Schlag means a blow or blow. In context, it can also be a lightning strike, a clock strike, or a type.",
       "examples": [
         {
           "de": "Der Schlag traf ihn am Arm.",
@@ -48125,7 +48115,7 @@ const B1_WORDS = [
               "yellow": "Uhr"
             },
             "lv": {
-              "red": "nosit"
+              "red": "clock"
             }
           }
         ],
@@ -48135,7 +48125,7 @@ const B1_WORDS = [
               "green": "der Schlag"
             },
             "meaning": {
-              "purple": "sitiens"
+              "purple": "blow"
             },
             "example": {
               "blue": "Schlag"
@@ -48157,7 +48147,7 @@ const B1_WORDS = [
               "green": "der Blitz"
             },
             "meaning": {
-              "purple": "zibens"
+              "purple": "Lightning"
             },
             "example": {
               "red": "Blitz"
@@ -48573,7 +48563,7 @@ const B1_WORDS = [
               "green": "schmelzen"
             },
             "meaning": {
-              "purple": "kust"
+              "purple": "melt"
             },
             "example": {
               "blue": "schmilzt",
@@ -48745,7 +48735,7 @@ const B1_WORDS = [
               "green": "streichen"
             },
             "meaning": {
-              "purple": "to paint"
+              "purple": "spread"
             },
             "example": {
               "red": "streicht",
@@ -49013,7 +49003,7 @@ const B1_WORDS = [
       "id": "b1-schnitt",
       "layout": "standardStudy",
       "translation": "Cut",
-      "explanation": "Main idea: der Schnitt is a cut or the result of cutting. Depending on the field, this can be a cut, a film montage, or an average.",
+      "explanation": "Main idea: Schnitt is a cut or the result of cutting. Depending on the field, this can be a cut, a film montage, or",
       "examples": [
         {
           "de": "Der Schnitt an der Hand ist tief.",
@@ -49329,7 +49319,7 @@ const B1_WORDS = [
           "example": "Er ist schuldig. = He is guilty."
         },
         {
-          "word": "die Schuld",
+          "word": "Schuld",
           "meaning": "Fault, debt",
           "example": "Das ist nicht meine Schuld. = It's not my fault."
         },
@@ -49569,7 +49559,7 @@ const B1_WORDS = [
               "yellow": "Sonne"
             },
             "lv": {
-              "red": "must be protected"
+              "red": "must"
             }
           }
         ],
@@ -49613,7 +49603,7 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "schützen vor",
-          "red": "whom?"
+          "red": "Protects"
         },
         "important": {
           "blue": "schützen vor",
@@ -50294,7 +50284,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "senken",
-          "meaning": "To lower, lower",
+          "meaning": "To lower",
           "example": "Die Firma senkt die Preise. = The company lowers prices."
         },
         {
@@ -50334,7 +50324,7 @@ const B1_WORDS = [
               "yellow": "Kopf"
             },
             "lv": {
-              "red": "noliec"
+              "red": "She"
             }
           },
           {
@@ -50343,7 +50333,7 @@ const B1_WORDS = [
               "yellow": "Stimme"
             },
             "lv": {
-              "red": "pieklusiniet"
+              "red": "Please"
             }
           }
         ],
@@ -50365,7 +50355,7 @@ const B1_WORDS = [
               "green": "sinken"
             },
             "meaning": {
-              "purple": "kristies"
+              "purple": "fall"
             },
             "example": {
               "red": "sinken",
@@ -50377,7 +50367,7 @@ const B1_WORDS = [
               "green": "heben"
             },
             "meaning": {
-              "purple": "pacelt"
+              "purple": "Lift"
             },
             "example": {
               "red": "hebt",
@@ -50566,7 +50556,7 @@ const B1_WORDS = [
       "id": "b1-sinn",
       "layout": "standardStudy",
       "translation": "Meaning",
-      "explanation": "Main Idea: der Sinn means sense or meaning. In phrases it can also mean feeling, for example Sinn für Humor.",
+      "explanation": "Main Idea: Sinn means sense or meaning. In phrases it can also mean feeling, for example Sinn für Humor.",
       "examples": [
         {
           "de": "Das hat keinen Sinn.",
@@ -50712,7 +50702,7 @@ const B1_WORDS = [
       "id": "b1-sitz",
       "layout": "standardStudy",
       "translation": "Seat",
-      "explanation": "der Sitz means a seat or seating place. For a company or institution, it means headquarters.",
+      "explanation": "Sitz means a seat or seating place. For a company or institution, it means headquarters.",
       "examples": [
         {
           "de": "Der Sitz ist frei.",
@@ -50779,7 +50769,7 @@ const B1_WORDS = [
               "green": "Firma"
             },
             "lv": {
-              "red": "residence"
+              "red": "company"
             }
           }
         ],
@@ -51196,9 +51186,7 @@ const B1_WORDS = [
             "meaning": {
               "purple": "And"
             },
-            "example": {
-              "red": "und"
-            }
+            "example": {}
           },
           {
             "word": {
@@ -51207,9 +51195,7 @@ const B1_WORDS = [
             "meaning": {
               "purple": "as soon as"
             },
-            "example": {
-              "red": "Sobald"
-            }
+            "example": {}
           }
         ],
         "tip": {
@@ -51273,7 +51259,7 @@ const B1_WORDS = [
       "id": "b1-spannung",
       "layout": "standardStudy",
       "translation": "Tension",
-      "explanation": "Main idea: die Spannung means tension or strain. In technical language, especially in electricity, it means voltage.",
+      "explanation": "Main idea: Spannung means tension or strain. In technical language, especially in electricity, it means voltage.",
       "examples": [
         {
           "de": "Die Spannung im Film war groß.",
@@ -51350,7 +51336,7 @@ const B1_WORDS = [
               "yellow": "230 Volt"
             },
             "lv": {
-              "red": "Spriegums"
+              "red": "voltage"
             }
           }
         ],
@@ -51360,7 +51346,7 @@ const B1_WORDS = [
               "green": "die Spannung"
             },
             "meaning": {
-              "purple": "spriedze"
+              "purple": "Tension"
             },
             "example": {
               "blue": "Spannung"
@@ -51394,7 +51380,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "spriedze"
+                  "Tension"
                 ]
               }
             }
@@ -51818,7 +51804,7 @@ const B1_WORDS = [
       "id": "b1-spitze",
       "layout": "standardStudy",
       "translation": "Tip; peak",
-      "explanation": "Main idea: die Spitze is a pointed end or highest point. In a figurative sense, it can be leadership or a position at the top.",
+      "explanation": "Main idea: Spitze is a pointed end or highest point. In a figurative sense, it can be leadership or a position at th",
       "examples": [
         {
           "de": "Die Spitze des Bleistifts ist abgebrochen.",
@@ -51895,7 +51881,7 @@ const B1_WORDS = [
               "green": "Firma"
             },
             "lv": {
-              "red": "under the leadership"
+              "red": "She"
             }
           }
         ],
@@ -51920,7 +51906,7 @@ const B1_WORDS = [
               "green": "der Gipfel"
             },
             "meaning": {
-              "purple": "virsotne"
+              "purple": "Mountain"
             },
             "example": {
               "red": "Gipfel"
@@ -51931,7 +51917,7 @@ const B1_WORDS = [
               "green": "das Ende"
             },
             "meaning": {
-              "purple": "beigas"
+              "purple": "end"
             },
             "example": {
               "red": "Ende"
@@ -51943,7 +51929,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "punkts"
+                  "sharpest"
                 ]
               }
             }
@@ -52718,7 +52704,7 @@ const B1_WORDS = [
       "id": "b1-stellung",
       "layout": "standardStudy",
       "translation": "Condition",
-      "explanation": "Main idea: die Stellung means position or condition. It is used for body posture, workplace and stance.",
+      "explanation": "Main idea: Stellung means position or condition. It is used for body posture, workplace and stance.",
       "examples": [
         {
           "de": "Die Stellung des Körpers ist wichtig.",
@@ -52784,7 +52770,7 @@ const B1_WORDS = [
               "green": "Er"
             },
             "lv": {
-              "red": "darba vietu"
+              "red": "looking"
             }
           },
           {
@@ -52825,7 +52811,7 @@ const B1_WORDS = [
               "green": "die Stelle"
             },
             "meaning": {
-              "purple": "darbavieta"
+              "purple": "Place"
             },
             "example": {
               "red": "Stelle"
@@ -52952,7 +52938,7 @@ const B1_WORDS = [
       "id": "b1-stift",
       "layout": "standardStudy",
       "translation": "Pencil",
-      "explanation": "The main idea: der Stift is everyday writing - pencil or pen. Technically, it can also be a pin or small metal part.",
+      "explanation": "The main idea: Stift is everyday writing - pencil or pen. Technically, it can also be a pin or small metal part.",
       "examples": [
         {
           "de": "Hast du einen Stift?",
@@ -53413,7 +53399,7 @@ const B1_WORDS = [
               "yellow": "Problem"
             },
             "lv": {
-              "red": "we bumped into"
+              "red": "ran"
             }
           }
         ],
@@ -53435,7 +53421,7 @@ const B1_WORDS = [
               "green": "schieben"
             },
             "meaning": {
-              "purple": "stumt",
+              "purple": "Push",
               "red": "push"
             },
             "example": {
@@ -53448,7 +53434,7 @@ const B1_WORDS = [
               "green": "treffen"
             },
             "meaning": {
-              "purple": "satikt",
+              "purple": "meet",
               "red": "meet"
             },
             "example": {
@@ -53673,7 +53659,7 @@ const B1_WORDS = [
               "green": "malen"
             },
             "meaning": {
-              "purple": "to draw"
+              "purple": "Draw"
             },
             "example": {
               "red": "malt",
@@ -53791,7 +53777,7 @@ const B1_WORDS = [
       "id": "b1-strom",
       "layout": "standardStudy",
       "translation": "Current",
-      "explanation": "Main idea: der Strom is most often electricity or electric current in everyday life. In another context, it may be a large river or stream.",
+      "explanation": "Main idea: Strom is most often electricity or electric current in everyday life. In another context, it may be a lar",
       "examples": [
         {
           "de": "Der Strom ist ausgefallen.",
@@ -53888,7 +53874,7 @@ const B1_WORDS = [
               "green": "der Fluss"
             },
             "meaning": {
-              "purple": "upe",
+              "purple": "river",
               "red": "river"
             },
             "example": {
@@ -54116,7 +54102,7 @@ const B1_WORDS = [
               "green": "fallen"
             },
             "meaning": {
-              "purple": "krist",
+              "purple": "Fall",
               "red": "fall"
             },
             "example": {
@@ -54246,7 +54232,7 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "die Szene",
+          "word": "Szene",
           "meaning": "Scene • Environment",
           "example": "Die Szene ist kurz. = The scene is short."
         },
@@ -54324,7 +54310,7 @@ const B1_WORDS = [
               "green": "die Bühne"
             },
             "meaning": {
-              "purple": "skatuve",
+              "purple": "Stage",
               "red": "stage"
             },
             "example": {
@@ -54437,7 +54423,7 @@ const B1_WORDS = [
       "id": "b1-tank",
       "layout": "standardStudy",
       "translation": "Tank",
-      "explanation": "Main Idea: der Tank is usually a fuel or liquid tank. In a military context, the more common German word for tank is der Panzer.",
+      "explanation": "Main Idea: Tank is usually a fuel or liquid tank. In a military context, the more common German word for tank is der",
       "examples": [
         {
           "de": "Der Tank ist fast leer.",
@@ -54513,7 +54499,7 @@ const B1_WORDS = [
               "yellow": "Straße"
             },
             "lv": {
-              "red": "Tanks"
+              "red": "tank"
             }
           }
         ],
@@ -54523,7 +54509,7 @@ const B1_WORDS = [
               "green": "der Tank"
             },
             "meaning": {
-              "purple": "tvertne"
+              "purple": "Tank"
             },
             "example": {
               "blue": "Tank"
@@ -54534,7 +54520,7 @@ const B1_WORDS = [
               "green": "der Behälter"
             },
             "meaning": {
-              "purple": "tvertne"
+              "purple": "Vessel"
             },
             "example": {
               "red": "Behälter"
@@ -54545,7 +54531,7 @@ const B1_WORDS = [
               "green": "der Panzer"
             },
             "meaning": {
-              "purple": "tanks"
+              "purple": "tank"
             },
             "example": {
               "red": "Panzer"
@@ -54557,7 +54543,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "tvertne"
+                  "tank"
                 ]
               }
             }
@@ -54683,7 +54669,7 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "der Tau",
+          "word": "Tau",
           "meaning": "Dew",
           "example": "Der Tau glitzert. = Dew glistens. Only singular."
         },
@@ -55136,7 +55122,7 @@ const B1_WORDS = [
               "green": "nennen"
             },
             "meaning": {
-              "purple": "saukt"
+              "purple": "call"
             },
             "example": {
               "red": "nennen"
@@ -55159,7 +55145,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "In the church"
+                  "church"
                 ]
               }
             }
@@ -55502,7 +55488,7 @@ const B1_WORDS = [
       "id": "b1-titel",
       "layout": "standardStudy",
       "translation": "Title",
-      "explanation": "Main idea: der Titel means the title of a book, song, film or text. It can also mean a title, such as an academic or sports title.",
+      "explanation": "Main idea: Titel means the title of a book, song, film or text. It can also mean a title, such as an academic or spo",
       "examples": [
         {
           "de": "Der Titel des Buches ist kurz.",
@@ -55579,7 +55565,7 @@ const B1_WORDS = [
               "green": "Professor"
             },
             "lv": {
-              "red": "tituls"
+              "red": "title"
             }
           }
         ],
@@ -55589,7 +55575,7 @@ const B1_WORDS = [
               "green": "der Titel"
             },
             "meaning": {
-              "purple": "nosaukums"
+              "purple": "Name"
             },
             "example": {
               "blue": "Titel"
@@ -55600,7 +55586,7 @@ const B1_WORDS = [
               "green": "die Überschrift"
             },
             "meaning": {
-              "purple": "virsraksts"
+              "purple": "Title"
             },
             "example": {
               "red": "Überschrift"
@@ -55623,9 +55609,9 @@ const B1_WORDS = [
             {
               "text": {
                 "yellow": [
-                  "For the book",
-                  "dziesmai",
-                  "filmai"
+                  "book",
+                  "book",
+                  "book"
                 ]
               }
             }
@@ -55669,7 +55655,7 @@ const B1_WORDS = [
       "id": "b1-ton",
       "layout": "standardStudy",
       "translation": "Sound; tone",
-      "explanation": "Main idea: der Ton means sound or tone. It is used for audio, voice, music, nuance of colour and manner of conversation.",
+      "explanation": "Main idea: Ton means sound or tone. It is used for audio, voice, music, nuance of colour and manner of conversation.",
       "examples": [
         {
           "de": "Der Ton ist zu leise.",
@@ -55743,7 +55729,7 @@ const B1_WORDS = [
               "yellow": "Wandfarbe"
             },
             "lv": {
-              "red": "tonis"
+              "red": "shade"
             }
           }
         ],
@@ -55764,7 +55750,7 @@ const B1_WORDS = [
               "green": "die Stimme"
             },
             "meaning": {
-              "purple": "balss"
+              "purple": "Voice"
             },
             "example": {
               "red": "Stimme"
@@ -55787,7 +55773,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "skan"
+                  "What"
                 ]
               }
             }
@@ -55943,7 +55929,7 @@ const B1_WORDS = [
               "red": "sich"
             },
             "lv": {
-              "red": "don't dare"
+              "red": "does"
             }
           }
         ],
@@ -56208,7 +56194,7 @@ const B1_WORDS = [
               "yellow": "Boot"
             },
             "lv": {
-              "red": "dzen"
+              "red": "wind"
             }
           },
           {
@@ -56227,9 +56213,7 @@ const B1_WORDS = [
             "word": {
               "green": "treiben"
             },
-            "meaning": {
-              "purple": "nodarboties"
-            },
+            "meaning": {},
             "example": {
               "blue": "treiben",
               "yellow": "Sport"
@@ -56242,21 +56226,14 @@ const B1_WORDS = [
             "meaning": {
               "purple": "to do"
             },
-            "example": {
-              "red": "machst"
-            }
+            "example": {}
           },
           {
             "word": {
               "green": "antreiben"
             },
-            "meaning": {
-              "purple": "Drive; urge"
-            },
-            "example": {
-              "red": "treibt",
-              "green": "uns"
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
@@ -56317,7 +56294,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "trennen",
-          "meaning": "To separate, separate",
+          "meaning": "To separate",
           "example": "Die Wand trennt die Zimmer. = A wall separates the rooms."
         },
         {
@@ -56379,7 +56356,7 @@ const B1_WORDS = [
               "red": "sich"
             },
             "lv": {
-              "red": "broke up"
+              "red": "divorced"
             }
           }
         ],
@@ -56736,7 +56713,7 @@ const B1_WORDS = [
               "red": "sich"
             },
             "lv": {
-              "red": "have to throw up"
+              "red": "sick"
             }
           }
         ],
@@ -56746,7 +56723,7 @@ const B1_WORDS = [
               "green": "übergeben"
             },
             "meaning": {
-              "purple": "nodot"
+              "purple": "hand"
             },
             "example": {
               "blue": "übergebe"
@@ -56757,7 +56734,7 @@ const B1_WORDS = [
               "green": "geben"
             },
             "meaning": {
-              "purple": "dot"
+              "purple": "give"
             },
             "example": {
               "red": "gebe"
@@ -56768,7 +56745,7 @@ const B1_WORDS = [
               "green": "sich übergeben"
             },
             "meaning": {
-              "purple": "vemt"
+              "purple": "Throw"
             },
             "example": {
               "red": "sich"
@@ -56780,7 +56757,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "nodot"
+                  "Without"
                 ]
               }
             }
@@ -56882,7 +56859,7 @@ const B1_WORDS = [
               "yellow": "Motor"
             },
             "lv": {
-              "red": "under repair"
+              "red": "workshop"
             }
           }
         ],
@@ -56927,7 +56904,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "surpasses"
+                  "Beating"
                 ]
               }
             }
@@ -57024,7 +57001,7 @@ const B1_WORDS = [
               "yellow": "Kosten"
             },
             "lv": {
-              "red": "takes on"
+              "red": "company"
             }
           },
           {
@@ -57413,7 +57390,7 @@ const B1_WORDS = [
               "yellow": "Baustelle"
             },
             "lv": {
-              "red": "apejam"
+              "red": "bypass"
             }
           },
           {
@@ -57422,7 +57399,7 @@ const B1_WORDS = [
               "yellow": "Regeln"
             },
             "lv": {
-              "red": "apiet"
+              "red": "must"
             }
           }
         ],
@@ -57432,7 +57409,7 @@ const B1_WORDS = [
               "green": "umgehen"
             },
             "meaning": {
-              "purple": "apieties"
+              "purple": "Get"
             },
             "example": {
               "blue": [
@@ -57447,7 +57424,7 @@ const B1_WORDS = [
               "green": "behandeln"
             },
             "meaning": {
-              "purple": "behave"
+              "purple": "treat"
             },
             "example": {
               "red": "behandelt"
@@ -57946,7 +57923,7 @@ const B1_WORDS = [
               "red": "uns"
             },
             "lv": {
-              "red": "we talked"
+              "red": "long"
             }
           },
           {
@@ -58068,7 +58045,7 @@ const B1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "die Untersuchung",
+          "word": "Untersuchung",
           "meaning": "Investigation, examination, study",
           "example": "Die Untersuchung beginnt. = The investigation begins."
         },
@@ -58173,7 +58150,7 @@ const B1_WORDS = [
               "text": {
                 "green": [
                   "Doctor",
-                  "policija"
+                  "doctor"
                 ]
               }
             }
@@ -58424,7 +58401,7 @@ const B1_WORDS = [
       "id": "b1-verband",
       "layout": "standardStudy",
       "translation": "Bandage",
-      "explanation": "Main idea: In medicine, der Verband is a bandage. In the language of organizations, it means an association or a federation.",
+      "explanation": "Main idea: In medicine, Verband is a bandage. In the language of organizations, it means an association or a federat",
       "examples": [
         {
           "de": "Die Ärztin legt einen Verband an.",
@@ -58532,7 +58509,7 @@ const B1_WORDS = [
               "green": "die Verbindung"
             },
             "meaning": {
-              "purple": "savienojums"
+              "purple": "Connection"
             },
             "example": {
               "red": "Verbindung"
@@ -58572,7 +58549,7 @@ const B1_WORDS = [
       "id": "b1-verbindung",
       "layout": "standardStudy",
       "translation": "Connection",
-      "explanation": "Main idea: die Verbindung means a connection or link between things, people, places or systems.",
+      "explanation": "Main idea: Verbindung means a connection or link between things, people, places or systems.",
       "examples": [
         {
           "de": "Die Internetverbindung ist schlecht.",
@@ -58638,7 +58615,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Has"
+                "There"
               ]
             }
           },
@@ -58648,7 +58625,7 @@ const B1_WORDS = [
               "yellow": "Firma"
             },
             "lv": {
-              "red": "saikne"
+              "red": "have"
             }
           }
         ],
@@ -58658,7 +58635,7 @@ const B1_WORDS = [
               "green": "die Verbindung"
             },
             "meaning": {
-              "purple": "savienojums"
+              "purple": "Connection"
             },
             "example": {
               "blue": "Verbindung"
@@ -58692,7 +58669,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "saikne"
+                  "Internet"
                 ]
               }
             }
@@ -58772,7 +58749,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "verbrennen",
-          "meaning": "To burn, burn up, burn yourself",
+          "meaning": "To burn up, burn yourself",
           "example": "Das Papier verbrennt. = The paper burns."
         },
         {
@@ -58852,7 +58829,7 @@ const B1_WORDS = [
               "green": "brennen"
             },
             "meaning": {
-              "purple": "degt"
+              "purple": "burn"
             },
             "example": {
               "red": "brennt"
@@ -59006,7 +58983,7 @@ const B1_WORDS = [
               "green": "kaputtmachen"
             },
             "meaning": {
-              "purple": "salauzt"
+              "purple": "Break"
             },
             "example": {
               "red": "kaputt"
@@ -59559,7 +59536,7 @@ const B1_WORDS = [
               "yellow": "Schlüssel"
             },
             "lv": {
-              "red": "nevaru to atrast"
+              "red": "put"
             }
           },
           {
@@ -59569,7 +59546,7 @@ const B1_WORDS = [
               "yellow": "Buch"
             },
             "lv": {
-              "red": "izdod"
+              "red": "publishing"
             }
           }
         ],
@@ -59721,7 +59698,7 @@ const B1_WORDS = [
               "green": "verletzen"
             },
             "meaning": {
-              "purple": "savainot"
+              "purple": "injure"
             },
             "example": {
               "blue": "verletzt"
@@ -59732,7 +59709,7 @@ const B1_WORDS = [
               "green": "beleidigen"
             },
             "meaning": {
-              "purple": "apvainot"
+              "purple": "Insult"
             },
             "example": {
               "red": "beleidigt"
@@ -59743,7 +59720,7 @@ const B1_WORDS = [
               "green": "brechen"
             },
             "meaning": {
-              "purple": "to violate"
+              "purple": "Break"
             },
             "example": {
               "red": "bricht"
@@ -59959,7 +59936,7 @@ const B1_WORDS = [
               "green": "sichern"
             },
             "meaning": {
-              "purple": "to provide"
+              "purple": "secure"
             },
             "example": {
               "red": "sichere"
@@ -61821,7 +61798,7 @@ const B1_WORDS = [
       "id": "b1-wechsel",
       "layout": "standardStudy",
       "translation": "Shift",
-      "explanation": "der Wechsel means a change or switch. In compounds such as Wechselkurs, the meaning becomes more specific.",
+      "explanation": "Wechsel means a change or switch. In compounds such as Wechselkurs, the meaning becomes more specific.",
       "examples": [
         {
           "de": "Der Wechsel der Jahreszeiten ist schön.",

@@ -34,10 +34,16 @@ function parseFieldPath(field) {
   return parts;
 }
 
-function getFieldValueRaw(root, field) {
-  if (!field || field === "lv") return root.lv;
-  const parts = parseFieldPath(field.replace(/^study\./, ""));
-  let cur = root;
+function getFieldValueRaw(entry, field) {
+  if (!field || field === "lv") return entry.lv;
+  let base = entry;
+  let path = field;
+  if (path.startsWith("study.")) {
+    base = entry.study;
+    path = path.replace(/^study\./, "");
+  }
+  const parts = parseFieldPath(path);
+  let cur = base;
   for (const p of parts) cur = cur?.[p];
   return cur;
 }
@@ -146,7 +152,7 @@ function main() {
       results.details.push({ id: r.regressionFindingId, error: "card not found" });
       continue;
     }
-    const actual = formatVal(getFieldValueRaw({ study: entry.study, lv: entry.lv }, r.repairField));
+    const actual = formatVal(getFieldValueRaw(entry, r.repairField));
     if (!preconditionMatch(actual, r.expectedCurrent)) {
       results.preconditionFail++;
       results.details.push({
