@@ -3,6 +3,8 @@
  * EN-DE B2 final targeted Luna regression (READ-ONLY).
  * Baseline: 496f377f → audited: c9f2f6b5
  */
+require("dotenv").config();
+
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
@@ -23,10 +25,17 @@ const OUT_JSON = path.join(ROOT, "reports", "temp", "en-b2-final-luna-regression
 const TARGET_JSON = path.join(__dirname, "en-b2-final-luna-target-cards.json");
 const RAW_JSON = path.join(__dirname, "en-b2-final-luna-raw-findings.json");
 const VALIDATED_JSON = path.join(__dirname, "en-b2-final-luna-validated-findings.json");
+const PROGRESS_JSON = path.join(__dirname, ".en-b2-final-luna-progress.json");
+const LOG_PATH = path.join(__dirname, "en-b2-final-luna-run.log");
 
 const LUNA_MODEL = "gpt-5.6-luna";
 const BATCH_SIZE_SIMPLE = 40;
 const BATCH_SIZE_STUDY = 8;
+const MAX_RETRIES = 3;
+
+const NON_ERROR_CATEGORIES = new Set([
+  "SOURCE_LV_ISSUE", "DE_SOURCE_ISSUE", "NEEDS_REVIEW", "STYLE_ONLY", "PROJECT_CONVENTION",
+]);
 
 const KNOWN_LV_PATTERNS = [/kam\?/i, /ko\?/i, /whom\?/i, /what\?/i, /\bförden\b/i, /bez sich/i, /Ko vieta/i, /Podnieka/i];
 const LV_ONLY = /[āēīūģķļņĀĒĪŪĢĶĻŅ]/;
@@ -220,11 +229,30 @@ async function runLunaIfAvailable(targetCards) {
     };
   }
 
-  const { auditCardsBatch, createStats } = require("./openai-luna-en-b2-full-audit");
+  const { auditCardsBatch, createStats, recordRetryReason } = require("./openai-luna-en-b2-full-audit");
   const stats = createStats();
-  const rawFindings = [];
-  let batchNum = 0;
+  let progress = { completedBatches: [], auditedCardIds: [] };
+  if (fs.existsSync(PROGRESS_JSON)) {
+    try {
+      progress = JSON.parse(fs.readFileSync(PROGRESS_JSON, "utf8"));
+    } catch {
+      progress = { completedBatches: [], auditedCardIds: [] };
+    }
+  }
+  const completed = new Set(progress.completedBatches || []);
+  const auditedCardIds = new Set(progress.auditedCardIds || []);
 
+  let rawFindings = [];
+  if (fs.existsSync(RAW_JSON)) {
+    try {
+      const prev = JSON.parse(fs.readFileSync(RAW_JSON, "utf8"));
+      rawFindings = prev.findings || [];
+    } catch {
+      rawFindings = [];
+    }
+  }
+
+  let batchNum = 0;
   const simple = targetCards.filter((c) => !c.hasStudy);
   const study = targetCards.filter((c) => c.hasStudy);
 
@@ -234,8 +262,49 @@ async function runLunaIfAvailable(targetCards) {
     return out;
   }
 
+  function saveProgress() {
+    fs.writeFileSync(
+      PROGRESS_JSON,
+      JSON.stringify({
+        completedBatches: [...completed],
+        auditedCardIds: [...auditedCardIds],
+        updatedAt: new Date().toISOString(),
+      }, null, 2)
+    );
+    fs.writeFileSync(RAW_JSON, JSON.stringify({ findings: rawFindings, stats }, null, 2));
+  }
+
+  async function auditWithRetry(cards, batchKey, auditType) {
+    for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+      try {
+        if (attempt === 0) stats.initialBatchRequests += 1;
+        else {
+          stats.retryRequests += 1;
+          stats.retryCount += 1;
+          recordRetryReason(stats, attempt === 1 ? "first_retry" : "subsequent_retry");
+          await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)));
+        }
+        return await auditCardsBatch({ cards, stats, batchLabel: batchKey, auditType });
+      } catch (error) {
+        if (attempt >= MAX_RETRIES) throw error;
+        recordRetryReason(stats, error.message.includes("JSON") ? "invalid_json" : "api_error");
+      }
+    }
+    return { findings: [] };
+  }
+
+  const log = (msg) => {
+    fs.appendFileSync(LOG_PATH, msg + "\n");
+    console.log(msg);
+  };
+
   for (const batch of chunk(simple, BATCH_SIZE_SIMPLE)) {
     batchNum++;
+    const batchKey = `simple-${batchNum}`;
+    if (completed.has(batchKey)) {
+      log(`  skip ${batchKey} (cached)`);
+      continue;
+    }
     const lunaCards = batch.map((c) => ({
       cardId: c.cardId,
       field: "lv",
@@ -246,17 +315,21 @@ async function runLunaIfAvailable(targetCards) {
       enText: c.enMain,
       changedFields: c.changedFields,
     }));
-    const { findings } = await auditCardsBatch({
-      cards: lunaCards,
-      stats,
-      batchLabel: `simple-${batchNum}`,
-      auditType: "final_targeted_regression",
-    });
+    const { findings } = await auditWithRetry(lunaCards, batchKey, "final_targeted_regression_simple");
     rawFindings.push(...findings);
+    for (const c of batch) auditedCardIds.add(c.cardId);
+    completed.add(batchKey);
+    saveProgress();
+    log(`  done ${batchKey}: ${batch.length} cards, findings=${findings.length}`);
   }
 
   for (const batch of chunk(study, BATCH_SIZE_STUDY)) {
     batchNum++;
+    const batchKey = `study-${batchNum}`;
+    if (completed.has(batchKey)) {
+      log(`  skip ${batchKey} (cached)`);
+      continue;
+    }
     const lunaCards = batch.map((c) => ({
       cardId: c.cardId,
       de: c.de,
@@ -267,18 +340,17 @@ async function runLunaIfAvailable(targetCards) {
       enMain: c.enMain,
       lvMainSource: c.lvMainSource,
     }));
-    const { findings } = await auditCardsBatch({
-      cards: lunaCards,
-      stats,
-      batchLabel: `study-${batchNum}`,
-      auditType: "final_targeted_regression",
-    });
+    const { findings } = await auditWithRetry(lunaCards, batchKey, "final_targeted_regression_study");
     rawFindings.push(...findings);
+    for (const c of batch) auditedCardIds.add(c.cardId);
+    completed.add(batchKey);
+    saveProgress();
+    log(`  done ${batchKey}: ${batch.length} cards, findings=${findings.length}`);
   }
 
   return {
-    status: "COMPLETED",
-    audited: targetCards.length,
+    status: auditedCardIds.size >= targetCards.length ? "COMPLETED" : "PARTIAL",
+    audited: auditedCardIds.size,
     expected: targetCards.length,
     batches: batchNum,
     rawFindings,
@@ -291,33 +363,50 @@ function validateFindings(rawFindings, deSourceIds) {
   for (const f of rawFindings) {
     if (f.status === "PASS") continue;
     const cardId = f.cardId;
-    const isDeSource = deSourceIds.has(cardId);
     const cat = String(f.category || "").toUpperCase();
-    if (isDeSource || cat === "DE_SOURCE_ISSUE") {
+    if (deSourceIds.has(cardId) || cat === "DE_SOURCE_ISSUE") {
       validated.push({
-        ...f,
+        cardId,
+        deLemma: f.de,
+        fieldPath: f.field || "lv",
+        currentEn: f.currentEn,
+        problem: f.reason,
+        recommendedEn: f.proposedEn,
         validatedStatus: "DE_AVOTA_PROBLĒMA",
         validatedSeverity: "NAV",
         origin: "DE_AVOTA_PROBLĒMA",
+        rationale: "Zināms DE source issues saraksts vai Luna DE_SOURCE_ISSUE.",
       });
       continue;
     }
-    if (cat === "STYLE_ONLY" || cat === "PROJECT_CONVENTION") {
+    if (NON_ERROR_CATEGORIES.has(cat)) {
       validated.push({
-        ...f,
+        cardId,
+        deLemma: f.de,
+        fieldPath: f.field || "lv",
+        currentEn: f.currentEn,
+        problem: f.reason,
+        recommendedEn: f.proposedEn,
         validatedStatus: "VILTUS_POZITĪVS",
         validatedSeverity: "NAV",
         origin: "VILTUS_POZITĪVS",
+        rationale: "Kategorija: " + cat,
       });
       continue;
     }
     const sev = String(f.severity || "MEDIUM").toUpperCase();
     const sevMap = { CRITICAL: "KRITISKA", HIGH: "AUGSTA", MEDIUM: "VIDĒJA", LOW: "ZEMA" };
     validated.push({
-      ...f,
+      cardId,
+      deLemma: f.de,
+      fieldPath: f.field || "lv",
+      currentEn: f.currentEn,
+      problem: f.reason,
+      recommendedEn: f.proposedEn,
       validatedStatus: "REĀLA_PROBLĒMA",
       validatedSeverity: sevMap[sev] || "VIDĒJA",
       origin: "LABOJUMA_REGRESIJA",
+      rationale: f.reason,
     });
   }
   return validated;
@@ -418,7 +507,7 @@ async function main() {
   let verdict;
   if (luna.status === "NOT_RUN_API_UNAVAILABLE") {
     verdict = "LUNA AUDITS NAV PABEIGTS";
-  } else if (luna.audited < inventory.uniqueCards) {
+  } else if (luna.status !== "COMPLETED" || luna.audited < inventory.uniqueCards) {
     verdict = "LUNA AUDITS NAV PABEIGTS";
   } else if (
     valCounts.KRITISKA === 0 &&

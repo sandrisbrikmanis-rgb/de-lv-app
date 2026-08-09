@@ -13,37 +13,37 @@
 | Audited production commit | c9f2f6b5 |
 | Unikālās mainītās kartītes | 814 |
 | Mainīti learner-facing EN lauki | 928 |
-| Luna auditētas | 0/814 |
-| API partijas | 0 |
+| Luna auditētas | 814/814 |
+| API partijas | 26 |
 
 ## Luna statuss
 
-**NOT_RUN_API_UNAVAILABLE**
+**COMPLETED**
 
-Luna audits NAV PALAISTS — API nav pieejams. Gala lingvistiskā PASS nav iespējams.
+Luna audits pabeigts.
 
 ## Luna sākotnējie atradumi (raw)
 
 | Nopietnība | Skaits |
 | --- | ---: |
 | KRITISKA | 0 |
-| AUGSTA | 0 |
-| VIDĒJA | 0 |
-| ZEMA | 0 |
-| Kopā | 0 |
+| AUGSTA | 18 |
+| VIDĒJA | 35 |
+| ZEMA | 14 |
+| Kopā | 67 |
 
 ## Pēc neatkarīgas validācijas
 
 | Rezultāts | Skaits |
 | --- | ---: |
 | KRITISKA | 0 |
-| AUGSTA | 0 |
-| VIDĒJA | 0 |
-| ZEMA | 0 |
+| AUGSTA | 14 |
+| VIDĒJA | 31 |
+| ZEMA | 14 |
 | VILTUS POZITĪVI | 0 |
-| DE AVOTA PROBLĒMAS | 0 |
+| DE AVOTA PROBLĒMAS | 8 |
 
-LABOJUMA REGRESIJAS: 0 | IEPRIEKŠ EKSISTĒJUŠAS: 0
+LABOJUMA REGRESIJAS: 59 | IEPRIEKŠ EKSISTĒJUŠAS: 0
 
 ## Drošība
 
@@ -58,4 +58,4 @@ LABOJUMA REGRESIJAS: 0 | IEPRIEKŠ EKSISTĒJUŠAS: 0
 
 ## Gala verdikts
 
-**LUNA AUDITS NAV PABEIGTS**
+**EN–DE B2 — NEPIECIEŠAMI PAPILDU LABOJUMI**

@@ -1,0 +1,66 @@
+◇ injected env (1) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+  luna simple-1: 40 cards, findings=0, pass=40, tokens=5332
+  done simple-1: 40 cards, findings=0
+  luna simple-2: 40 cards, findings=0, pass=40, tokens=4902
+  done simple-2: 40 cards, findings=0
+  luna simple-3: 40 cards, findings=1, pass=39, tokens=5387
+  done simple-3: 40 cards, findings=1
+  luna simple-4: 40 cards, findings=0, pass=40, tokens=5718
+  done simple-4: 40 cards, findings=0
+  luna simple-5: 40 cards, findings=3, pass=37, tokens=6182
+  done simple-5: 40 cards, findings=3
+  luna simple-6: 40 cards, findings=0, pass=40, tokens=5071
+  done simple-6: 40 cards, findings=0
+  luna simple-7: 40 cards, findings=0, pass=40, tokens=5361
+  done simple-7: 40 cards, findings=0
+  luna simple-8: 40 cards, findings=1, pass=39, tokens=5617
+  done simple-8: 40 cards, findings=1
+  luna simple-9: 40 cards, findings=1, pass=39, tokens=5716
+  done simple-9: 40 cards, findings=1
+  luna simple-10: 40 cards, findings=1, pass=39, tokens=5543
+  done simple-10: 40 cards, findings=1
+  luna simple-11: 40 cards, findings=0, pass=40, tokens=5129
+  done simple-11: 40 cards, findings=0
+  luna simple-12: 40 cards, findings=0, pass=40, tokens=5052
+  done simple-12: 40 cards, findings=0
+  luna simple-13: 40 cards, findings=3, pass=37, tokens=6055
+  done simple-13: 40 cards, findings=3
+  luna simple-14: 40 cards, findings=0, pass=40, tokens=5871
+  done simple-14: 40 cards, findings=0
+  luna simple-15: 40 cards, findings=1, pass=39, tokens=7009
+  done simple-15: 40 cards, findings=1
+  luna simple-16: 40 cards, findings=0, pass=40, tokens=5093
+  done simple-16: 40 cards, findings=0
+  luna simple-17: 40 cards, findings=0, pass=40, tokens=5576
+  done simple-17: 40 cards, findings=0
+  luna simple-18: 40 cards, findings=0, pass=40, tokens=4670
+  done simple-18: 40 cards, findings=0
+  luna simple-19: 39 cards, findings=1, pass=38, tokens=5660
+  done simple-19: 39 cards, findings=1
+  luna study-20: 8 cards, findings=2, pass=6, tokens=3533
+  done study-20: 8 cards, findings=2
+  luna study-21: 8 cards, findings=4, pass=5, tokens=3471
+  done study-21: 8 cards, findings=4
+  luna study-22: 8 cards, findings=10, pass=2, tokens=5561
+  done study-22: 8 cards, findings=10
+  luna study-23: 8 cards, findings=12, pass=2, tokens=5534
+  done study-23: 8 cards, findings=12
+  luna study-24: 8 cards, findings=4, pass=5, tokens=4585
+  done study-24: 8 cards, findings=4
+  luna study-25: 8 cards, findings=10, pass=4, tokens=5341
+  done study-25: 8 cards, findings=10
+  luna study-26: 7 cards, findings=13, pass=0, tokens=5241
+  done study-26: 7 cards, findings=13
+{
+  "verdict": "EN–DE B2 — NEPIECIEŠAMI PAPILDU LABOJUMI",
+  "scope": {
+    "uniqueChangedCards": 814,
+    "changedEnFields": 928,
+    "lunaAudited": 814,
+    "lunaExpected": 814,
+    "apiBatches": 26
+  },
+  "luna": "COMPLETED",
+  "productionUnchanged": true
+}

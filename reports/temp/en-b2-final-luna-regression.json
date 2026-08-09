@@ -1,39 +1,82 @@
 {
-  "generatedAt": "2026-08-09T18:22:31.078Z",
+  "generatedAt": "2026-08-09T18:32:28.609Z",
   "branch": "cursor/en-b2-full-audit-6850",
   "pr": "#376",
   "baselineCommit": "496f377f",
   "auditedProductionCommit": "c9f2f6b5",
-  "reportCommit": "c9f2f6b5d1c8bc5d0b82f5113edbd4af4a126b06",
+  "reportCommit": "12d2238c252cba88889ed9d39a4daf0d911ce781",
   "scope": {
     "uniqueChangedCards": 814,
     "changedEnFields": 928,
-    "lunaAudited": 0,
+    "lunaAudited": 814,
     "lunaExpected": 814,
-    "apiBatches": 0
+    "apiBatches": 26
   },
   "luna": {
     "model": "gpt-5.6-luna",
-    "status": "NOT_RUN_API_UNAVAILABLE",
-    "apiAvailable": false,
+    "status": "COMPLETED",
+    "apiAvailable": true,
     "rawCounts": {
       "KRITISKA": 0,
-      "AUGSTA": 0,
-      "VIDĒJA": 0,
-      "ZEMA": 0
+      "AUGSTA": 18,
+      "VIDĒJA": 35,
+      "ZEMA": 14
     },
-    "rawTotal": 0,
+    "rawTotal": 67,
     "validatedCounts": {
       "KRITISKA": 0,
-      "AUGSTA": 0,
-      "VIDĒJA": 0,
-      "ZEMA": 0,
+      "AUGSTA": 14,
+      "VIDĒJA": 31,
+      "ZEMA": 14,
       "VILTUS_POZITĪVS": 0,
-      "DE_AVOTA_PROBLĒMA": 0
+      "DE_AVOTA_PROBLĒMA": 8
     },
-    "repairRegression": 0,
+    "repairRegression": 59,
     "preExisting": 0,
-    "stats": null
+    "stats": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 26,
+      "initialBatchRequests": 26,
+      "retryRequests": 0,
+      "batchCount": 26,
+      "batchSizes": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        39,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        7
+      ],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 86588,
+      "cachedInputTokens": 0,
+      "outputTokens": 51622,
+      "reasoningTokens": 32687,
+      "totalTokens": 138210,
+      "findingsCount": 67,
+      "passCount": 771
+    }
   },
   "safety": {
     "productionUnchanged": true,
@@ -58,5 +101,5 @@
       "flashcards": 2058
     }
   },
-  "verdict": "LUNA AUDITS NAV PABEIGTS"
+  "verdict": "EN–DE B2 — NEPIECIEŠAMI PAPILDU LABOJUMI"
 }
