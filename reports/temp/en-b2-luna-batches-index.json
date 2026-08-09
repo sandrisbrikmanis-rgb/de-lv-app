@@ -1,0 +1,66 @@
+{
+  "total": 2118,
+  "batchSize": 192,
+  "batches": [
+    {
+      "batch": 0,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-00.json",
+      "count": 192
+    },
+    {
+      "batch": 1,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-01.json",
+      "count": 192
+    },
+    {
+      "batch": 2,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-02.json",
+      "count": 192
+    },
+    {
+      "batch": 3,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-03.json",
+      "count": 192
+    },
+    {
+      "batch": 4,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-04.json",
+      "count": 192
+    },
+    {
+      "batch": 5,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-05.json",
+      "count": 192
+    },
+    {
+      "batch": 6,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-06.json",
+      "count": 192
+    },
+    {
+      "batch": 7,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-07.json",
+      "count": 192
+    },
+    {
+      "batch": 8,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-08.json",
+      "count": 192
+    },
+    {
+      "batch": 9,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-09.json",
+      "count": 192
+    },
+    {
+      "batch": 10,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-10.json",
+      "count": 192
+    },
+    {
+      "batch": 11,
+      "file": "reports/temp/en-b2-luna-batches/en-b2-luna-batch-11.json",
+      "count": 6
+    }
+  ]
+}
