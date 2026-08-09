@@ -1,0 +1,3973 @@
+{
+  "generatedAt": "2026-08-09T13:50:17.027Z",
+  "mainCommit": "223d37f4853d405c99b1c72c24051a114cd7e206",
+  "pass": false,
+  "finalResult": "FAIL — MISSING APPROVED REPAIRS IN main",
+  "closureStatus": "NOT YET CONFIRMED",
+  "repairCyclesDiscovered": 17,
+  "repairCyclesReconciled": 17,
+  "highCyclesRepresented": 13,
+  "regressionRepresented": true,
+  "sectionAccentRepresented": true,
+  "rawMappingCount": 1237,
+  "finalMappingCount": 1135,
+  "presentInMain": 937,
+  "missingFromMain": 175,
+  "supersededCount": 0,
+  "fieldNotFound": 23,
+  "identityNotFound": 0,
+  "highCycleTable": {
+    "1": {
+      "approved": 59,
+      "present": 1,
+      "missing": 51,
+      "superseded": 6,
+      "fieldNotFound": 1,
+      "identityNotFound": 0
+    },
+    "2": {
+      "approved": 26,
+      "present": 0,
+      "missing": 26,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "3": {
+      "approved": 25,
+      "present": 0,
+      "missing": 25,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "4": {
+      "approved": 25,
+      "present": 1,
+      "missing": 24,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "5": {
+      "approved": 24,
+      "present": 1,
+      "missing": 23,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "6": {
+      "approved": 25,
+      "present": 25,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "7": {
+      "approved": 24,
+      "present": 24,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "8": {
+      "approved": 50,
+      "present": 50,
+      "missing": 0,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "9": {
+      "approved": 50,
+      "present": 49,
+      "missing": 1,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "10": {
+      "approved": 123,
+      "present": 111,
+      "missing": 12,
+      "superseded": 0,
+      "fieldNotFound": 0,
+      "identityNotFound": 0
+    },
+    "11": {
+      "approved": 167,
+      "present": 146,
+      "missing": 6,
+      "superseded": 5,
+      "fieldNotFound": 10,
+      "identityNotFound": 0
+    },
+    "12": {
+      "approved": 179,
+      "present": 157,
+      "missing": 2,
+      "superseded": 10,
+      "fieldNotFound": 10,
+      "identityNotFound": 0
+    },
+    "13": {
+      "approved": 149,
+      "present": 135,
+      "missing": 6,
+      "superseded": 5,
+      "fieldNotFound": 3,
+      "identityNotFound": 0
+    }
+  },
+  "initialCandidates": {
+    "resolved": [
+      {
+        "cardId": "b1-bloß",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[0]",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-handeln",
+        "field": "study.sectionAccents.tip.leftBlocks[0].text.purple[1]",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-rasen",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "status": "resolved_via_later_repair"
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.sectionAccents.examples[1].lv.red",
+        "status": "resolved_via_later_repair"
+      }
+    ],
+    "unresolved": [
+      {
+        "cardId": "b1-abhängen",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-abschnitt",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-antrag",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-berichten",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-blase",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.explanation",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.tip.leftBlocks[0].text",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-fördern",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-hort",
+        "field": "study.explanation[3]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-jagen",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-kader",
+        "field": "study.explanation[3]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kader",
+        "field": "study.explanation[3]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kader",
+        "field": "study.tip[1]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kern",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-kommando",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.sectionAccents.important.purple[0]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.tip",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-rasen",
+        "field": "study.sectionAccents.important.red",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-schale",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-schale",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-schlag",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-senken",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-sich-sorgen",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.sectionAccents.important.red",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-tank",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-teilnehmen",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-verlegen",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-weder",
+        "field": "study.sectionAccents.comparison[1].meaning.purple",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-zeugnis",
+        "field": "study.important.text",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-sich-befinden-study",
+        "field": "study.tip.leftBlocks[1].text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-abhängen",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-abschnitt",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-blase",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.explanation",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.tip.leftBlocks[0].text",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-entlassen",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-hort",
+        "field": "study.explanation[3]",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kern",
+        "field": "study.important.text",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-kastanie",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-schlag",
+        "field": "study.important",
+        "reason": "missing_final"
+      },
+      {
+        "cardId": "b1-zeugnis",
+        "field": "study.important.text",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-bloß",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-handeln",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-kurs",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-rasen",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-schale",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-stellung",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-weder",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      },
+      {
+        "cardId": "b1-beruf",
+        "field": "study.sectionAccents (accent)",
+        "reason": "no_owner_final_repair"
+      }
+    ],
+    "total": 57
+  },
+  "regressionMatch": 200,
+  "regressionTotal": 200,
+  "microMatch": 16,
+  "microTotal": 16,
+  "sectionMatch": 24,
+  "sectionTotal": 24,
+  "microExplanationIntegrity": 14,
+  "truncatedCount": 0,
+  "truncated": [],
+  "validators": {
+    "javascript": {
+      "ok": true,
+      "out": "",
+      "code": 0
+    },
+    "auditLanguageParity": {
+      "ok": true,
+      "out": "{\n  \"lang\": \"en\",\n  \"levels\": {\n    \"a1\": {\n      \"lvCount\": 702,\n      \"langCount\": 702,\n      \"countMatch\": true,\n      \"lvStudyCount\": 134,\n      \"langStudyCount\": 134,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"a2\": {\n      \"lvCount\": 1640,\n      \"langCount\": 1640,\n      \"countMatch\": true,\n      \"lvStudyCount\": 231,\n      \"langStudyCount\": 231,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"b1\": {\n      \"lvCount\": 3367,\n      \"langCount\": 3367,\n      \"countMatch\": true,\n      \"lvStudyCount\": 324,\n      \"langStudyCount\": 324,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"b2\": {\n      \"lvCount\": 2118,\n      \"langCount\": 2118,\n      \"countMatch\": true,\n      \"lvStudyCount\": 60,\n      \"langStudyCount\": 60,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"c1\": {\n      \"lvCount\": 572,\n      \"langCount\": 572,\n      \"countMatch\": true,\n      \"lvStudyCount\": 15,\n      \"langStudyCount\": 15,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    },\n    \"c2\": {\n      \"lvCount\": 219,\n      \"langCount\": 219,\n      \"countMatch\": true,\n      \"lvStudyCount\": 1,\n      \"langStudyCount\": 1,\n      \"orderMismatches\": 0,\n      \"missingFields\": [],\n      \"layoutMismatches\": []\n    }\n  },\n  \"totals\": {\n    \"lvRecords\": 8618,\n    \"langRecords\": 8618,\n    \"lvStudy\": 765,\n    \"langStudy\": 765\n  },\n  \"issues\": [],\n  \"pass\": true\n}\n",
+      "code": 0
+    },
+    "auditTranslations": {
+      "ok": true,
+      "out": "A1: 702 words\nA2: 1640 words\nB1: 3367 words\nB2: 2118 words\nC1: 572 words\nC2: 219 words\n\n=== TOTAL ISSUES (lang=en): 32 ===\n\n{\"type\":\"lv_translation_mismatch\",\"de\":\"Aufwand\",\"lv\":\"Efforts\",\"translation\":\"Effort\",\"lvOnly\":[\"efforts\"],\"transOnly\":[\"effort\"],\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"neigen\",\"lv\":\"To be inclined; to lean\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"neigen\",\"lv\":\"To be inclined; to lean\",\"translation\":\"To be inclined; to lean\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"pflegen\",\"lv\":\"To take care of; to tend\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"pflegen\",\"lv\":\"To take care of; to tend\",\"translation\":\"To take care of; to tend\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Probe\",\"lv\":\"Test; sample; rehearsal\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"Probe\",\"lv\":\"Test; sample; rehearsal\",\"translation\":\"Test; sample; rehearsal\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"räumen\",\"lv\":\"To clear; to vacate; to move out\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"räumen\",\"lv\":\"To clear; to vacate; to move out\",\"translation\":\"To clear; to vacate; to move out\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"reißen\",\"lv\":\"To tear; to rip; to burst\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"reißen\",\"lv\":\"To tear; to rip; to burst\",\"translation\":\"To tear; to rip; to burst\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Spitze\",\"lv\":\"Tip; peak\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"Spitze\",\"lv\":\"Tip; peak\",\"translation\":\"Tip; peak\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Ton\",\"lv\":\"Sound; tone\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"Ton\",\"lv\":\"Sound; tone\",\"translation\":\"Sound; tone\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"treiben\",\"lv\":\"To do; to engage in\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"treiben\",\"lv\":\"To do; to engage in\",\"translation\":\"To do; to engage in\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"umgehen\",\"lv\":\"To deal with; to bypass\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"umgehen\",\"lv\":\"To deal with; to bypass\",\"translation\":\"To deal with; to bypass\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"verraten\",\"lv\":\"To betray; to reveal\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"verreisen\",\"lv\":\"To travel; to go away\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"versäumen\",\"lv\":\"To miss; to fail to do\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"sich versprechen\",\"lv\":\"To misspeak; to make a slip of the tongue\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"verzichten\",\"lv\":\"To do without; to give up\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Vorbild\",\"lv\":\"Role model; example\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Vorgang\",\"lv\":\"Process; procedure\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"vorsagen\",\"lv\":\"To prompt; to tell someone the answer\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"vorsehen\",\"lv\":\"To plan; to provide for; to intend\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"vorüber\",\"lv\":\"Over; past\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"Wäscherei\",\"lv\":\"Laundry; laundrette\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_lv\",\"de\":\"zünden\",\"lv\":\"Ignite; work or function\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n{\"type\":\"semicolon_in_translation\",\"de\":\"zünden\",\"lv\":\"Ignite; work or function\",\"translation\":\"Ignite; work or function\",\"file\":\"data/en/b1.js\",\"level\":\"B1\"}\n",
+      "code": 0
+    },
+    "auditMojibake": {
+      "ok": true,
+      "out": "{\n  \"lang\": \"en\",\n  \"filesScanned\": 18,\n  \"filesWithHits\": 0,\n  \"totalHits\": 0,\n  \"results\": [],\n  \"pass\": true\n}\n",
+      "code": 0
+    },
+    "validateStudyDesign": {
+      "ok": false,
+      "out": "{\n  \"lang\": \"en\",\n  \"totals\": {\n    \"total\": 9603,\n    \"noStudy\": 8838,\n    \"flashcard\": 8859,\n    \"standardStudy\": 695,\n    \"minimalStudy\": 49,\n    \"comparisonStudy\": 0,\n    \"studyObjectNoRenderable\": 21,\n    \"sectionAccentIssues\": 53,\n    \"emptySectionAccents\": 0\n  },\n  \"perFile\": [\n    {\n      \"file\": \"data/en/a1.js\",\n      \"total\": 702,\n      \"noStudy\": 568,\n      \"flashcard\": 568,\n      \"standardStudy\": 134,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 34,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"social visit\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"explanation\",\n            \"field\": null\n          },\n          {\n            \"de\": \"Besuch\",\n            \"term\": \"house call\",\n            \"section\": \"important\",\n            \"field\": null\n          },\n          {\n            \"de\": \"besuchen\",\n            \"term\": \"besuchen\",\n            \"section\": \"tip\",\n            \"field\": \"left\"\n          },\n          {\n            \"de\": \"Bitte\",\n            \"term\": \"Little\",\n            \"section\": \"tip\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/a2.js\",\n      \"total\": 1640,\n      \"noStudy\": 1409,\n      \"flashcard\": 1427,\n      \"standardStudy\": 207,\n      \"minimalStudy\": 6,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 18,\n      \"sectionAccentIssues\": 14,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Aschenputtel\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Gott\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Keller\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kellner\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"Kerl\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"brennen\",\n            \"term\": \"deg\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"brennen\",\n            \"term\": \"kaut\",\n            \"section\": \"tip\",\n            \"field\": \"text\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"lai\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"tam\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          },\n          {\n            \"de\": \"dafür\",\n            \"term\": \"par to\",\n            \"section\": \"important\",\n            \"field\": \"example\"\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b1.js\",\n      \"total\": 3367,\n      \"noStudy\": 3043,\n      \"flashcard\": 3044,\n      \"standardStudy\": 323,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 1,\n      \"sectionAccentIssues\": 5,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"Homosexuelle\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": [\n          {\n            \"de\": \"Absatz\",\n            \"term\": \"The\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"Aufwand\",\n            \"term\": \"Efforts\",\n            \"section\": \"comparison\",\n            \"field\": \"meaning\"\n          },\n          {\n            \"de\": \"bedeutend\",\n            \"term\": \"significantly\",\n            \"section\": \"examples\",\n            \"field\": \"lv\"\n          },\n          {\n            \"de\": \"belegen\",\n            \"term\": \"busy\",\n            \"section\": \"important\",\n            \"field\": null\n          },\n          {\n            \"de\": \"einerlei\",\n            \"term\": \"doesn't matter\",\n            \"section\": \"explanation\",\n            \"field\": null\n          }\n        ]\n      }\n    },\n    {\n      \"file\": \"data/en/b2.js\",\n      \"total\": 2118,\n      \"noStudy\": 2058,\n      \"flashcard\": 2060,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 43,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 2,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [\n          {\n            \"de\": \"sich verlaufen\",\n            \"layout\": \"minimalStudy\"\n          },\n          {\n            \"de\": \"verlaufen\",\n            \"layout\": \"minimalStudy\"\n          }\n        ],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c1.js\",\n      \"total\": 572,\n      \"noStudy\": 557,\n      \"flashcard\": 557,\n      \"standardStudy\": 15,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/c2.js\",\n      \"total\": 219,\n      \"noStudy\": 218,\n      \"flashcard\": 218,\n      \"standardStudy\": 1,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/sentences.js\",\n      \"total\": 796,\n      \"noStudy\": 796,\n      \"flashcard\": 796,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/verbs.js\",\n      \"total\": 189,\n      \"noStudy\": 189,\n      \"flashcard\": 189,\n      \"standardStudy\": 0,\n      \"minimalStudy\": 0,\n      \"comparisonStudy\": 0,\n      \"studyObjectNoRenderable\": 0,\n      \"sectionAccentIssues\": 0,\n      \"emptySectionAccents\": 0,\n      \"examples\": {\n        \"studyObjectNoRenderable\": [],\n        \"sectionAccentIssues\": []\n      }\n    },\n    {\n      \"file\": \"data/en/courseLessons.js\",\n      \"skipped\": true,\n      \"reason\": \"not a flashcard array\"\n    }\n  ],\n  \"rootWwwMismatches\": [],\n  \"pass\": false\n}\nCommand failed: node scripts/validate-study-design.js --lang=en"
+    },
+    "mirrorParity": true,
+    "deReadOnly": true
+  },
+  "layouts": {
+    "standardStudy": 323,
+    "minimalStudy": 1,
+    "comparisonStudy": 0,
+    "studyObjects": 324,
+    "total": 3367
+  },
+  "sectionAccentRaw": 0,
+  "sectionAccentFp": 0,
+  "sectionAccentReal": 0,
+  "sectionAccentUnexpected": 0,
+  "productionChanges": 0,
+  "missingRepairs": [
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-abhängen-study.translation",
+      "auditCardId": "b1-abhängen",
+      "productionIdentity": "b1-abhängen",
+      "productionIndex": 53,
+      "fieldPath": "study.translation",
+      "expectedOwnerFinal": "To depend / to be dependent",
+      "currentMainValue": "To be addicted",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-abhängen-study.translation",
+          "value": "To depend / to be dependent"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-abhängen-study.important.text",
+      "auditCardId": "b1-abhängen",
+      "productionIdentity": "b1-abhängen",
+      "productionIndex": 53,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "abhängen von means to depend on or be dependent on someone or something; it should not be translated literally as “to hang”.",
+      "currentMainValue": "abhängen von is a stable construction; in Latvian it is not translated literally as \"to hang\".",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-abhängen-study.important.text",
+          "value": "abhängen von means to depend on or be dependent on someone or something; it should not be translated literally as “to hang”."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-abschnitt-study.important.text",
+      "auditCardId": "b1-abschnitt",
+      "productionIdentity": "b1-abschnitt",
+      "productionIndex": 74,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "der Abschnitt usually means a section or part of a larger text, document, route, or period.",
+      "currentMainValue": "In Latvian, \"fragment\" does not always fit; der Abschnitt is more often a section or section.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-abschnitt-study.important.text",
+          "value": "der Abschnitt usually means a section or part of a larger text, document, route, or period."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-abschnitt-study.sectionAccents.important.purple",
+      "auditCardId": "b1-abschnitt",
+      "productionIdentity": "b1-abschnitt",
+      "productionIndex": 74,
+      "fieldPath": "study.sectionAccents.important.purple",
+      "expectedOwnerFinal": "[\"Abschnitt\"]",
+      "currentMainValue": "[\"abschnitt\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-abschnitt-study.sectionAccents.important.purple",
+          "value": "[\"Abschnitt\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-antrag-study.important.text",
+      "auditCardId": "b1-antrag",
+      "productionIdentity": "b1-antrag",
+      "productionIndex": 157,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "For a job application, German normally uses die Bewerbung. der Antrag is an application or formal request, especially to an authority or institution.",
+      "currentMainValue": "Darba pieteikums parasti ir die Bewerbung, nevis der Antrag.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-antrag-study.important.text",
+          "value": "For a job application, German normally uses die Bewerbung. der Antrag is an application or formal request, especially to an authority or institution."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-berichten-study.important.text",
+      "auditCardId": "b1-berichten",
+      "productionIdentity": "b1-berichten",
+      "productionIndex": 363,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "berichten is commonly used with über + accusative for what is being reported about, and with von + dative for what someone reports or tells about.",
+      "currentMainValue": "berichten parasti lieto ar über + ko? vai von + kam?.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-berichten-study.important.text",
+          "value": "berichten is commonly used with über + accusative for what is being reported about, and with von + dative for what someone reports or tells about."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-berichten-study.sectionAccents.important.purple",
+      "auditCardId": "b1-berichten",
+      "productionIdentity": "b1-berichten",
+      "productionIndex": 363,
+      "fieldPath": "study.sectionAccents.important.purple",
+      "expectedOwnerFinal": "[\"über\",\"accusative\",\"von\",\"dative\"]",
+      "currentMainValue": "[\"über + ko?\",\"von + kam?\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-berichten-study.sectionAccents.important.purple",
+          "value": "[\"über\",\"accusative\",\"von\",\"dative\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-blase-study.important.text",
+      "auditCardId": "b1-blase",
+      "productionIdentity": "b1-blase",
+      "productionIndex": 455,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "The context determines the meaning: on the skin, Blase usually means “blister”; in anatomy, it can mean “bladder”.",
+      "currentMainValue": "On the foot, Blase is usually \"blister\" in Latvian, not \"bladder\". In medicine Blase can also be bladder.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-blase-study.important.text",
+          "value": "The context determines the meaning: on the skin, Blase usually means “blister”; in anatomy, it can mean “bladder”."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-blase-study.sectionAccents.explanation.purple",
+      "auditCardId": "b1-blase",
+      "productionIdentity": "b1-blase",
+      "productionIndex": 455,
+      "fieldPath": "study.sectionAccents.explanation.purple",
+      "expectedOwnerFinal": "[\"blister\"]",
+      "currentMainValue": "[\"blister\",\"Main\",\"Main\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-blase-study.sectionAccents.explanation.purple",
+          "value": "[\"blister\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-bloß-study.explanation",
+      "auditCardId": "b1-bloß",
+      "productionIdentity": "b1-bloß",
+      "productionIndex": 467,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "Main idea: bloß very often means just or simply in colloquial language. As an adjective it means bare, e.g. mit bloßen Händen.",
+      "currentMainValue": "Main idea: bloß very often means just or simply in colloquial language. As an adjective it means bald, eg mit bloßen Händen.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-bloß-study.explanation",
+          "value": "Main idea: bloß very often means just or simply in colloquial language. As an adjective it means bare, e.g. mit bloßen Händen."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-entlassen-study.explanation",
+      "auditCardId": "b1-entlassen",
+      "productionIdentity": "b1-entlassen",
+      "productionIndex": 756,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "Main idea: entlassen means to dismiss, discharge, or release someone, depending on the context. An employer can dismiss or fire someone, a hospital can discharge a patient, and a prison can release a prisoner.",
+      "currentMainValue": "Main idea: entlassen means to dismiss or release from an institution. The Latvian translation changes depending on the place: the company fires, the hospital discharges, the prison releases.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-entlassen-study.explanation",
+          "value": "Main idea: entlassen means to dismiss, discharge, or release someone, depending on the context. An employer can dismiss or fire someone, a hospital can discharge a patient, and a prison can release a prisoner."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-entlassen-study.important.text",
+      "auditCardId": "b1-entlassen",
+      "productionIdentity": "b1-entlassen",
+      "productionIndex": 756,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "From a hospital, entlassen usually means “to discharge”; in employment, it usually means “to dismiss” or “to fire”.",
+      "currentMainValue": "From the hospital, entlassen is usually \"discharge\" in Latvian, not \"dismiss\".",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-entlassen-study.important.text",
+          "value": "From a hospital, entlassen usually means “to discharge”; in employment, it usually means “to dismiss” or “to fire”."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-entlassen-study.sectionAccents.explanation.purple",
+      "auditCardId": "b1-entlassen",
+      "productionIdentity": "b1-entlassen",
+      "productionIndex": 756,
+      "fieldPath": "study.sectionAccents.explanation.purple",
+      "expectedOwnerFinal": "[\"dismiss\",\"discharge\",\"release\"]",
+      "currentMainValue": "[\"release\",\"release\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-entlassen-study.sectionAccents.explanation.purple",
+          "value": "[\"dismiss\",\"discharge\",\"release\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-fördern-study.explanation",
+      "auditCardId": "b1-fördern",
+      "productionIdentity": "b1-fördern",
+      "productionIndex": 932,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "Main idea: fördern means to promote the development or support of a person, project or process. In industry, this means extracting natural resources such as oil or coal.",
+      "currentMainValue": "Main idea: förden means to promote the development or support of a person, project or process. In industry, this means extracting minerals such as oil or coal.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-fördern-study.explanation",
+          "value": "Main idea: fördern means to promote the development or support of a person, project or process. In industry, this means extracting natural resources such as oil or coal."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-fördern-study.important.text",
+      "auditCardId": "b1-fördern",
+      "productionIdentity": "b1-fördern",
+      "productionIndex": 932,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "Do not confuse fördern and fordern: fördern means to promote or support, while fordern means to demand or require.",
+      "currentMainValue": "Nejauc fördern un fordern: viens veicina vai atbalsta, otrs prasa.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-fördern-study.important.text",
+          "value": "Do not confuse fördern and fordern: fördern means to promote or support, while fordern means to demand or require."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-fördern-study.sectionAccents.important.purple",
+      "auditCardId": "b1-fördern",
+      "productionIdentity": "b1-fördern",
+      "productionIndex": 932,
+      "fieldPath": "study.sectionAccents.important.purple",
+      "expectedOwnerFinal": "[\"promote\",\"support\",\"demand\"]",
+      "currentMainValue": "[\"veicina\",\"atbalsta\",\"prasa\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-fördern-study.sectionAccents.important.purple",
+          "value": "[\"promote\",\"support\",\"demand\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-hort-study.explanation",
+      "auditCardId": "b1-hort",
+      "productionIdentity": "b1-hort",
+      "productionIndex": 1314,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "[\"Main idea: der Hort (also Schulhort/Kinderhort) is an after-school care facility for school-aged children.\",\"In Germany, der Hort looks after children after school while parents are at work.\",\"Not to be confused with der Kindergarten - it is an institution for preschool children (up to 6 years old).\",\"In this sense, der Hort is an after-school care facility or program for schoolchildren.\"]",
+      "currentMainValue": "[\"Main idea: Hort (also Schulhort/Kinderhort) is an after-school care facility for school-aged children.\",\"In Germany, der Hort looks after children after school while parents are at work.\",\"Not to be confused with der Kindergarten - it is an institution for preschool children (up to 6 years old).\",\"In Latvian, the closest match is an extended day group or a children's day centre.\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-hort-study.explanation",
+          "value": "[\"Main idea: der Hort (also Schulhort/Kinderhort) is an after-school care facility for school-aged children.\",\"In Germany, der Hort looks after children after school while parents are at work.\",\"Not to be confused with der Kindergarten - it is an institution for preschool children (up to 6 years old).\",\"In this sense, der Hort is an after-school care facility or program for schoolchildren.\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-hort-study.sectionAccents.explanation.purple",
+      "auditCardId": "b1-hort",
+      "productionIdentity": "b1-hort",
+      "productionIndex": 1314,
+      "fieldPath": "study.sectionAccents.explanation.purple",
+      "expectedOwnerFinal": "[\"after-school care facility\",\"school-aged children\"]",
+      "currentMainValue": "[\"extended day group\",\"children's day centre\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-hort-study.sectionAccents.explanation.purple",
+          "value": "[\"after-school care facility\",\"school-aged children\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-jagen-study.important.text",
+      "auditCardId": "b1-jagen",
+      "productionIdentity": "b1-jagen",
+      "productionIndex": 1406,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "jagen usually means to hunt or chase. The exact English equivalent depends on what or who is being pursued.",
+      "currentMainValue": "Not every Latvian \"drive\" is jagen; the choice is determined by the context.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-jagen-study.important.text",
+          "value": "jagen usually means to hunt or chase. The exact English equivalent depends on what or who is being pursued."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-jagen-study.sectionAccents.important.purple",
+      "auditCardId": "b1-jagen",
+      "productionIdentity": "b1-jagen",
+      "productionIndex": 1406,
+      "fieldPath": "study.sectionAccents.important.purple",
+      "expectedOwnerFinal": "[\"hunt\",\"chase\"]",
+      "currentMainValue": "[\"Not\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-jagen-study.sectionAccents.important.purple",
+          "value": "[\"hunt\",\"chase\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kader-study.explanation",
+      "auditCardId": "b1-kader",
+      "productionIdentity": "b1-kader",
+      "productionIndex": 1444,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "[\"Main Idea: der Kader means a (qualified) cadre or nucleus—a group of people with a specific role or qualification.\",\"In sports, der Kader means team composition (der Kader der Nationalmannschaft = national team composition).\",\"In politics or organizations, der Kader means the leading/trained core of personnel.\",\"Do not confuse der Kader with a film frame. In German, der Kader usually means a squad or cadre; a film frame is das Bild or die Einstellung.\"]",
+      "currentMainValue": "[\"Main Idea: Kader means a (qualified) cadre or nucleus—a group of people with a specific role or qualification.\",\"In sports, der Kader means team composition (der Kader der Nationalmannschaft = national team composition).\",\"In politics or organizations, der Kader means the leading/trained core of personnel.\",\"Not to be confused with Latvian 'kadr' (film frame) - in German it is das Bild or die Einstellung, ne der Kader.\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kader-study.explanation",
+          "value": "[\"Main Idea: der Kader means a (qualified) cadre or nucleus—a group of people with a specific role or qualification.\",\"In sports, der Kader means team composition (der Kader der Nationalmannschaft = national team composition).\",\"In politics or organizations, der Kader means the leading/trained core of personnel.\",\"Do not confuse der Kader with a film frame. In German, der Kader usually means a squad or cadre; a film frame is das Bild or die Einstellung.\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kader-study.tip",
+      "auditCardId": "b1-kader",
+      "productionIdentity": "b1-kader",
+      "productionIndex": 1444,
+      "fieldPath": "study.tip",
+      "expectedOwnerFinal": "[\"der Kader = squad/core (group of people) - in sports, politics, organizations.\",\"For a sports squad or selected group, use der Kader. A film frame is das Bild or die Einstellung.\"]",
+      "currentMainValue": "[\"der Kader = squad/core (group of people) - in sports, politics, organizations.\",\"Latvian 'frame' (films) ≠ der Kader - film frame in German is das Bild/die Einstellung.\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kader-study.tip",
+          "value": "[\"der Kader = squad/core (group of people) - in sports, politics, organizations.\",\"For a sports squad or selected group, use der Kader. A film frame is das Bild or die Einstellung.\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kern-study.important.text",
+      "auditCardId": "b1-kern",
+      "productionIdentity": "b1-kern",
+      "productionIndex": 1497,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "The exact English equivalent depends on context: Kern can refer to a seed or pit in fruit, a core, or the essential part of something.",
+      "currentMainValue": "Kern is sometimes translated as a seed or stone in Latvian for fruits; the context determines the translation.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kern-study.important.text",
+          "value": "The exact English equivalent depends on context: Kern can refer to a seed or pit in fruit, a core, or the essential part of something."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kern-study.sectionAccents.important.purple",
+      "auditCardId": "b1-kern",
+      "productionIdentity": "b1-kern",
+      "productionIndex": 1497,
+      "fieldPath": "study.sectionAccents.important.purple",
+      "expectedOwnerFinal": "[\"seed\",\"pit\",\"core\"]",
+      "currentMainValue": "[\"fruits\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kern-study.sectionAccents.important.purple",
+          "value": "[\"seed\",\"pit\",\"core\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kommando-study.important",
+      "auditCardId": "b1-kommando",
+      "productionIdentity": "b1-kommando",
+      "productionIndex": 1570,
+      "fieldPath": "study.important",
+      "expectedOwnerFinal": "A sports team is normally die Mannschaft or das Team, not das Kommando.",
+      "currentMainValue": "Sporta komanda parasti ir die Mannschaft vai das Team, nevis das Kommando.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kommando-study.important",
+          "value": "A sports team is normally die Mannschaft or das Team, not das Kommando."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kommando-study.sectionAccents.important.purple",
+      "auditCardId": "b1-kommando",
+      "productionIdentity": "b1-kommando",
+      "productionIndex": 1570,
+      "fieldPath": "study.sectionAccents.important.purple",
+      "expectedOwnerFinal": "[\"Mannschaft\",\"Team\"]",
+      "currentMainValue": "[\"Sporta komanda\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kommando-study.sectionAccents.important.purple",
+          "value": "[\"Mannschaft\",\"Team\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kurs-study.explanation",
+      "auditCardId": "b1-kurs",
+      "productionIdentity": "b1-kurs",
+      "productionIndex": 1679,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "Main idea: der Kurs is a course as a set of learning lessons or a direction. In financial terms, it can also mean the price of securities.",
+      "currentMainValue": "Main idea: der A course is a course as a set of learning lessons or a direction. In financial terms, it can also mean the price of securities.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kurs-study.explanation",
+          "value": "Main idea: der Kurs is a course as a set of learning lessons or a direction. In financial terms, it can also mean the price of securities."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kurs-study.tip",
+      "auditCardId": "b1-kurs",
+      "productionIdentity": "b1-kurs",
+      "productionIndex": 1679,
+      "fieldPath": "study.tip",
+      "expectedOwnerFinal": "Lessons, a ship’s course, or an exchange rate → der Kurs.",
+      "currentMainValue": "Training, ship direction or exchange price → der Course.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kurs-study.tip",
+          "value": "Lessons, a ship’s course, or an exchange rate → der Kurs."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kurs-study.important",
+      "auditCardId": "b1-kurs",
+      "productionIdentity": "b1-kurs",
+      "productionIndex": 1679,
+      "fieldPath": "study.important",
+      "expectedOwnerFinal": "der Kurs can refer to a course of lessons, a direction or course, or a rate such as an exchange rate. The intended meaning depends on context.",
+      "currentMainValue": "In Latvian, 'course' can have several meanings, but in German, the context determines whether it is about lessons, direction or price.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kurs-study.important",
+          "value": "der Kurs can refer to a course of lessons, a direction or course, or a rate such as an exchange rate. The intended meaning depends on context."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kurs-study.sectionAccents.tip.purple",
+      "auditCardId": "b1-kurs",
+      "productionIdentity": "b1-kurs",
+      "productionIndex": 1679,
+      "fieldPath": "study.sectionAccents.tip.purple",
+      "expectedOwnerFinal": "[\"Lessons\",\"exchange rate\"]",
+      "currentMainValue": "[\"Training\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kurs-study.sectionAccents.tip.purple",
+          "value": "[\"Lessons\",\"exchange rate\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kurs-study.sectionAccents.important.purple",
+      "auditCardId": "b1-kurs",
+      "productionIdentity": "b1-kurs",
+      "productionIndex": 1679,
+      "fieldPath": "study.sectionAccents.important.purple",
+      "expectedOwnerFinal": "[\"course\",\"direction\",\"exchange rate\"]",
+      "currentMainValue": "[\"Latvian\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kurs-study.sectionAccents.important.purple",
+          "value": "[\"course\",\"direction\",\"exchange rate\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kastanie-study.tip",
+      "auditCardId": "b1-kastanie",
+      "productionIdentity": "b1-kastanie",
+      "productionIndex": 1711,
+      "fieldPath": "study.tip",
+      "expectedOwnerFinal": "Tree or fruit? The context determines whether die Kastanie refers to the chestnut tree or the chestnut itself.",
+      "currentMainValue": "Koks vai auglis? Skaties kontekstu ap die Kastanie.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kastanie-study.tip",
+          "value": "Tree or fruit? The context determines whether die Kastanie refers to the chestnut tree or the chestnut itself."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kastanie-study.important",
+      "auditCardId": "b1-kastanie",
+      "productionIdentity": "b1-kastanie",
+      "productionIndex": 1711,
+      "fieldPath": "study.important",
+      "expectedOwnerFinal": "die Kastanie can refer both to a chestnut tree and to its fruit; the context usually makes the intended meaning clear.",
+      "currentMainValue": "In Latvian, it is often necessary to distinguish chestnut as a tree and chestnut as a fruit.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kastanie-study.important",
+          "value": "die Kastanie can refer both to a chestnut tree and to its fruit; the context usually makes the intended meaning clear."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-kastanie-study.sectionAccents.tip.purple",
+      "auditCardId": "b1-kastanie",
+      "productionIdentity": "b1-kastanie",
+      "productionIndex": 1711,
+      "fieldPath": "study.sectionAccents.tip.purple",
+      "expectedOwnerFinal": "[\"Tree\",\"fruit\"]",
+      "currentMainValue": "[\"koks\",\"auglis\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-kastanie-study.sectionAccents.tip.purple",
+          "value": "[\"Tree\",\"fruit\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-rasen-study.translation",
+      "auditCardId": "b1-rasen",
+      "productionIdentity": "b1-rasen",
+      "productionIndex": 2216,
+      "fieldPath": "study.translation",
+      "expectedOwnerFinal": "To race / to speed",
+      "currentMainValue": "To ionise",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-rasen-study.translation",
+          "value": "To race / to speed"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-rasen-study.explanation",
+      "auditCardId": "b1-rasen",
+      "productionIdentity": "b1-rasen",
+      "productionIndex": 2216,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "Main idea: rasen means to race, speed, or move extremely fast, often excessively fast. For a storm, it can mean to rage.",
+      "currentMainValue": "Main idea: rasen means to rush or rush very quickly, often too quickly. For a storm, it can mean raging.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-rasen-study.explanation",
+          "value": "Main idea: rasen means to race, speed, or move extremely fast, often excessively fast. For a storm, it can mean to rage."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-rasen-study.sectionAccents.explanation.purple",
+      "auditCardId": "b1-rasen",
+      "productionIdentity": "b1-rasen",
+      "productionIndex": 2216,
+      "fieldPath": "study.sectionAccents.explanation.purple",
+      "expectedOwnerFinal": "[\"race\",\"speed\"]",
+      "currentMainValue": "[\"Main\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-rasen-study.sectionAccents.explanation.purple",
+          "value": "[\"race\",\"speed\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-rasen-study.sectionAccents.important.red",
+      "auditCardId": "b1-rasen",
+      "productionIdentity": "b1-rasen",
+      "productionIndex": 2216,
+      "fieldPath": "study.sectionAccents.important.red",
+      "expectedOwnerFinal": "drive",
+      "currentMainValue": "braukt",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-rasen-study.sectionAccents.important.red",
+          "value": "drive"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-schale-study.tip",
+      "auditCardId": "b1-schale",
+      "productionIdentity": "b1-schale",
+      "productionIndex": 2405,
+      "fieldPath": "study.tip",
+      "expectedOwnerFinal": "For fruit peel or a nut shell, Schale is common; for tree bark, use Rinde.",
+      "currentMainValue": "Auglim un riekstam Schale; kokam Rinde.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-schale-study.tip",
+          "value": "For fruit peel or a nut shell, Schale is common; for tree bark, use Rinde."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-schale-study.important",
+      "auditCardId": "b1-schale",
+      "productionIdentity": "b1-schale",
+      "productionIndex": 2405,
+      "fieldPath": "study.important",
+      "expectedOwnerFinal": "For tree bark, German normally uses die Rinde, not die Schale.",
+      "currentMainValue": "Koka mizai parasti lieto die Rinde, nevis die Schale.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-schale-study.important",
+          "value": "For tree bark, German normally uses die Rinde, not die Schale."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-schlag-study.important",
+      "auditCardId": "b1-schlag",
+      "productionIdentity": "b1-schlag",
+      "productionIndex": 2447,
+      "fieldPath": "study.important",
+      "expectedOwnerFinal": "der Schlag is highly context-dependent and can mean a blow, strike, stroke, or other sudden impact or event. Use the surrounding context to determine the intended sense.",
+      "currentMainValue": "Schlag is highly contextual; lightning often means kick in Latvian.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-schlag-study.important",
+          "value": "der Schlag is highly context-dependent and can mean a blow, strike, stroke, or other sudden impact or event. Use the surrounding context to determine the intended sense."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-schlag-study.sectionAccents.important.red",
+      "auditCardId": "b1-schlag",
+      "productionIdentity": "b1-schlag",
+      "productionIndex": 2447,
+      "fieldPath": "study.sectionAccents.important.red",
+      "expectedOwnerFinal": "context",
+      "currentMainValue": "kick",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-schlag-study.sectionAccents.important.red",
+          "value": "context"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-senken-study.explanation",
+      "auditCardId": "b1-senken",
+      "productionIdentity": "b1-senken",
+      "productionIndex": 2603,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "senken means to lower or bring something down.",
+      "currentMainValue": "Main idea: senken means to lower or lower something. Unlike sinken, it usually has an object.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-senken-study.explanation",
+          "value": "senken means to lower or bring something down."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-senken-study.important",
+      "auditCardId": "b1-senken",
+      "productionIdentity": "b1-senken",
+      "productionIndex": 2603,
+      "fieldPath": "study.important",
+      "expectedOwnerFinal": "senken is transitive and takes an object: someone lowers something. sinken is usually intransitive: something sinks or falls by itself.",
+      "currentMainValue": "senken ir ar objektu; sinken parasti notiek pats.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-senken-study.important",
+          "value": "senken is transitive and takes an object: someone lowers something. sinken is usually intransitive: something sinks or falls by itself."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-sich-sorgen-study.explanation",
+      "auditCardId": "b1-sich-sorgen",
+      "productionIdentity": "b1-sich-sorgen",
+      "productionIndex": 2655,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "Main idea: sich sorgen means to worry about someone or something. It is commonly used in the phrase sich um jemanden/etwas sorgen.",
+      "currentMainValue": "Main idea: sich sorgen means to worry about someone or something. Commonly used is sich um jemanden/etwas sorgen.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-sich-sorgen-study.explanation",
+          "value": "Main idea: sich sorgen means to worry about someone or something. It is commonly used in the phrase sich um jemanden/etwas sorgen."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-sich-sorgen-study.important",
+      "auditCardId": "b1-sich-sorgen",
+      "productionIdentity": "b1-sich-sorgen",
+      "productionIndex": 2655,
+      "fieldPath": "study.important",
+      "expectedOwnerFinal": "sich sorgen is commonly used with um: sich um jemanden oder etwas sorgen means to worry about someone or something.",
+      "currentMainValue": "sich sorgen lieto ar um: sich um jemanden sorgen.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-sich-sorgen-study.important",
+          "value": "sich sorgen is commonly used with um: sich um jemanden oder etwas sorgen means to worry about someone or something."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-stellung-study.sectionAccents.important.red",
+      "auditCardId": "b1-stellung",
+      "productionIdentity": "b1-stellung",
+      "productionIndex": 2743,
+      "fieldPath": "study.sectionAccents.important.red",
+      "expectedOwnerFinal": "job",
+      "currentMainValue": "darba vietu",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-stellung-study.sectionAccents.important.red",
+          "value": "job"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-tank-study.important.text",
+      "auditCardId": "b1-tank",
+      "productionIdentity": "b1-tank",
+      "productionIndex": 2841,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "German der Tank usually means a fuel tank or storage tank. A military tank is der Panzer.",
+      "currentMainValue": "Latvian tank in German is usually der Panzer, not der Tank.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-tank-study.important.text",
+          "value": "German der Tank usually means a fuel tank or storage tank. A military tank is der Panzer."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-teilnehmen-study.explanation",
+      "auditCardId": "b1-teilnehmen",
+      "productionIdentity": "b1-teilnehmen",
+      "productionIndex": 2872,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "The correct construction is teilnehmen an + dative: teilnehmen an etwas means “to participate in something”.",
+      "currentMainValue": "Main idea: To participate means to take part in an event, course, conversation or competition. The correct construction is an + kam? participate.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-teilnehmen-study.explanation",
+          "value": "The correct construction is teilnehmen an + dative: teilnehmen an etwas means “to participate in something”."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-teilnehmen-study.important.text",
+      "auditCardId": "b1-teilnehmen",
+      "productionIdentity": "b1-teilnehmen",
+      "productionIndex": 2872,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "Use an dem Kurs teilnehmen or the contracted form am Kurs teilnehmen, not den Kurs teilnehmen.",
+      "currentMainValue": "Saki an dem Kurs teilnehmen vai am Kurs teilnehmen, nevis den Kurs teilnehmen.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-teilnehmen-study.important.text",
+          "value": "Use an dem Kurs teilnehmen or the contracted form am Kurs teilnehmen, not den Kurs teilnehmen."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #1",
+      "findingId": "repair01-b1-verlegen-study.important.text",
+      "auditCardId": "b1-verlegen",
+      "productionIdentity": "b1-verlegen",
+      "productionIndex": 3088,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "Schlüssel verlegen means to misplace a key. Unlike verlieren, verlegen usually implies that the object was put somewhere and cannot currently be found.",
+      "currentMainValue": "Schlüssel verlegen nav tas pats, kas verlieren: lieta parasti ir kaut kur nolikta.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-01.md",
+      "sourceRepairLog": "git-diff-48fbfa8c",
+      "repairChain": [
+        {
+          "cycle": "HIGH #1",
+          "findingId": "repair01-b1-verlegen-study.important.text",
+          "value": "Schlüssel verlegen means to misplace a key. Unlike verlieren, verlegen usually implies that the object was put somewhere and cannot currently be found."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-weder-study.explanation",
+      "auditCardId": "b1-weder",
+      "productionIdentity": "b1-weder",
+      "productionIndex": 3215,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "Main idea: weder is used with noch. The construction weder ... noch means neither ... nor.",
+      "currentMainValue": "Main idea: weder is used with noch. The construction weder ... noch means neither ... nor or not ... not.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-weder-study.explanation",
+          "value": "Main idea: weder is used with noch. The construction weder ... noch means neither ... nor."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-weder-sectionAccents.comparison[1].meaning.purple",
+      "auditCardId": "b1-weder",
+      "productionIdentity": "b1-weder",
+      "productionIndex": 3215,
+      "fieldPath": "study.sectionAccents.comparison[1].meaning.purple",
+      "expectedOwnerFinal": "Either ... or",
+      "currentMainValue": "vai nu",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-weder-sectionAccents.comparison[1].meaning.purple",
+          "value": "Either ... or"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-zeugnis-study.translation",
+      "auditCardId": "b1-zeugnis",
+      "productionIdentity": "b1-zeugnis",
+      "productionIndex": 3270,
+      "fieldPath": "study.translation",
+      "expectedOwnerFinal": "Certificate / school report",
+      "currentMainValue": "Testimony",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-zeugnis-study.translation",
+          "value": "Certificate / school report"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-sich-befinden-study-study.tip.leftBlocks[1].text",
+      "auditCardId": "b1-sich-befinden-study",
+      "productionIdentity": "b1-sich-befinden-study",
+      "productionIndex": 3344,
+      "fieldPath": "study.tip.leftBlocks[1].text",
+      "expectedOwnerFinal": "To say “to feel,” use sich fühlen, not sich befinden.",
+      "currentMainValue": "Ja gribi pateikt “justies”, lieto sich fühlen, nevis sich befinden.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-sich-befinden-study-study.tip.leftBlocks[1].text",
+          "value": "To say “to feel,” use sich fühlen, not sich befinden."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-beruf-study.examples[1].lv",
+      "auditCardId": "b1-beruf",
+      "productionIdentity": "b1-beruf",
+      "productionIndex": 3320,
+      "fieldPath": "study.examples[1].lv",
+      "expectedOwnerFinal": "I am a teacher.",
+      "currentMainValue": "My profession is a teacher.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-beruf-study.examples[1].lv",
+          "value": "I am a teacher."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Umgebung-lv",
+      "auditCardId": "b1-Umgebung",
+      "productionIdentity": "idx:6",
+      "productionIndex": 6,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Surroundings",
+      "currentMainValue": "Neighborhood",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Umgebung-lv",
+          "value": "Surroundings"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Aktentasche-lv",
+      "auditCardId": "b1-Aktentasche",
+      "productionIdentity": "idx:8",
+      "productionIndex": 8,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Briefcase",
+      "currentMainValue": "Portfolio",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Aktentasche-lv",
+          "value": "Briefcase"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Alarm-lv",
+      "auditCardId": "b1-Alarm",
+      "productionIdentity": "idx:11",
+      "productionIndex": 11,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Alarm",
+      "currentMainValue": "Anxiety",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Alarm-lv",
+          "value": "Alarm"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Angehörige-lv",
+      "auditCardId": "b1-Angehörige",
+      "productionIdentity": "idx:23",
+      "productionIndex": 23,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Relative",
+      "currentMainValue": "Belonging to",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Angehörige-lv",
+          "value": "Relative"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-abfragen-lv",
+      "auditCardId": "b1-abfragen",
+      "productionIdentity": "idx:46",
+      "productionIndex": 46,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To query / to test",
+      "currentMainValue": "To request",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-abfragen-lv",
+          "value": "To query / to test"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-abhängig-lv",
+      "auditCardId": "b1-abhängig",
+      "productionIdentity": "idx:54",
+      "productionIndex": 54,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Dependent",
+      "currentMainValue": "Depends",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-abhängig-lv",
+          "value": "Dependent"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Ablauf-lv",
+      "auditCardId": "b1-Ablauf",
+      "productionIdentity": "idx:59",
+      "productionIndex": 59,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Process / sequence",
+      "currentMainValue": "Progress",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Ablauf-lv",
+          "value": "Process / sequence"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-absichern-lv",
+      "auditCardId": "b1-absichern",
+      "productionIdentity": "idx:80",
+      "productionIndex": 80,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To secure / safeguard",
+      "currentMainValue": "To provide",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-absichern-lv",
+          "value": "To secure / safeguard"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-absperren-lv",
+      "auditCardId": "b1-absperren",
+      "productionIdentity": "idx:84",
+      "productionIndex": 84,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To cordon off / block",
+      "currentMainValue": "Delimiting",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-absperren-lv",
+          "value": "To cordon off / block"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-abschaffen-lv",
+      "auditCardId": "b1-abschaffen",
+      "productionIdentity": "idx:71",
+      "productionIndex": 71,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To abolish",
+      "currentMainValue": "Atcelt",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-abschaffen-lv",
+          "value": "To abolish"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Ambulanz-lv",
+      "auditCardId": "b1-Ambulanz",
+      "productionIdentity": "idx:106",
+      "productionIndex": 106,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Outpatient clinic",
+      "currentMainValue": "Emergency assistance",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Ambulanz-lv",
+          "value": "Outpatient clinic"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Anklang-lv",
+      "auditCardId": "b1-Anklang",
+      "productionIdentity": "idx:115",
+      "productionIndex": 115,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Appeal / resonance",
+      "currentMainValue": "Responsiveness",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Anklang-lv",
+          "value": "Appeal / resonance"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-anknüpfen-lv",
+      "auditCardId": "b1-anknüpfen",
+      "productionIdentity": "idx:116",
+      "productionIndex": 116,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To connect / build on",
+      "currentMainValue": "To attract",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-anknüpfen-lv",
+          "value": "To connect / build on"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Anlauf-lv",
+      "auditCardId": "b1-Anlauf",
+      "productionIdentity": "idx:117",
+      "productionIndex": 117,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Run-up / attempt",
+      "currentMainValue": "Run in",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Anlauf-lv",
+          "value": "Run-up / attempt"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-anlehnen-lv",
+      "auditCardId": "b1-anlehnen",
+      "productionIdentity": "idx:120",
+      "productionIndex": 120,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To lean against",
+      "currentMainValue": "Push",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-anlehnen-lv",
+          "value": "To lean against"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-anliegend-lv",
+      "auditCardId": "b1-anliegend",
+      "productionIdentity": "idx:122",
+      "productionIndex": 122,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Attached / enclosed",
+      "currentMainValue": "In the appendix",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-anliegend-lv",
+          "value": "Attached / enclosed"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Anrede-lv",
+      "auditCardId": "b1-Anrede",
+      "productionIdentity": "idx:129",
+      "productionIndex": 129,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Form of address / salutation",
+      "currentMainValue": "Speech",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Anrede-lv",
+          "value": "Form of address / salutation"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Ansager-lv",
+      "auditCardId": "b1-Ansager",
+      "productionIdentity": "idx:135",
+      "productionIndex": 135,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Announcer",
+      "currentMainValue": "The applicant",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Ansager-lv",
+          "value": "Announcer"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-anschaulich-lv",
+      "auditCardId": "b1-anschaulich",
+      "productionIdentity": "idx:136",
+      "productionIndex": 136,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Clear / vivid",
+      "currentMainValue": "Considered",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-anschaulich-lv",
+          "value": "Clear / vivid"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-anschreiben-lv",
+      "auditCardId": "b1-anschreiben",
+      "productionIdentity": "idx:141",
+      "productionIndex": 141,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To write to",
+      "currentMainValue": "To write down",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-anschreiben-lv",
+          "value": "To write to"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #2",
+      "findingId": "HIGH #2-b1-Ansichtskarte-lv",
+      "auditCardId": "b1-Ansichtskarte",
+      "productionIdentity": "idx:146",
+      "productionIndex": 146,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Postcard",
+      "currentMainValue": "View card",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-02.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-02-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #2",
+          "findingId": "HIGH #2-b1-Ansichtskarte-lv",
+          "value": "Postcard"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-anstiften-149-lv",
+      "auditCardId": "b1-anstiften-149",
+      "productionIdentity": "idx:149",
+      "productionIndex": 149,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To incite",
+      "currentMainValue": "To encourage",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-anstiften-149-lv",
+          "value": "To incite"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-Antiquariat-156-lv",
+      "auditCardId": "b1-Antiquariat-156",
+      "productionIdentity": "idx:156",
+      "productionIndex": 156,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Second-hand bookshop",
+      "currentMainValue": "Antique store",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-Antiquariat-156-lv",
+          "value": "Second-hand bookshop"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-anweisen-160-lv",
+      "auditCardId": "b1-anweisen-160",
+      "productionIdentity": "idx:160",
+      "productionIndex": 160,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To instruct",
+      "currentMainValue": "Indicate",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-anweisen-160-lv",
+          "value": "To instruct"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-Anzahlung-163-lv",
+      "auditCardId": "b1-Anzahlung-163",
+      "productionIdentity": "idx:163",
+      "productionIndex": 163,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Down payment / deposit",
+      "currentMainValue": "Contribution",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-Anzahlung-163-lv",
+          "value": "Down payment / deposit"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-Appell-164-lv",
+      "auditCardId": "b1-Appell-164",
+      "productionIdentity": "idx:164",
+      "productionIndex": 164,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Appeal",
+      "currentMainValue": "Invitation",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-Appell-164-lv",
+          "value": "Appeal"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-Auflauf-179-lv",
+      "auditCardId": "b1-Auflauf-179",
+      "productionIdentity": "idx:179",
+      "productionIndex": 179,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Casserole",
+      "currentMainValue": "Concoction",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-Auflauf-179-lv",
+          "value": "Casserole"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-Aufschnitt-185-lv",
+      "auditCardId": "b1-Aufschnitt-185",
+      "productionIdentity": "idx:185",
+      "productionIndex": 185,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Cold cuts",
+      "currentMainValue": "Cold snaps",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-Aufschnitt-185-lv",
+          "value": "Cold cuts"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-aufgeregt-197-lv",
+      "auditCardId": "b1-aufgeregt-197",
+      "productionIdentity": "idx:197",
+      "productionIndex": 197,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Excited / nervous",
+      "currentMainValue": "Worried",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-aufgeregt-197-lv",
+          "value": "Excited / nervous"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-sich aufregen-200-lv",
+      "auditCardId": "b1-sich aufregen-200",
+      "productionIdentity": "idx:200",
+      "productionIndex": 200,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To get upset",
+      "currentMainValue": "To worry",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-sich aufregen-200-lv",
+          "value": "To get upset"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-ausziehbar-224-lv",
+      "auditCardId": "b1-ausziehbar-224",
+      "productionIdentity": "idx:224",
+      "productionIndex": 224,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Extendable / pull-out",
+      "currentMainValue": "Retractable",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-ausziehbar-224-lv",
+          "value": "Extendable / pull-out"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-beauftragen-254-lv",
+      "auditCardId": "b1-beauftragen-254",
+      "productionIdentity": "idx:254",
+      "productionIndex": 254,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To commission / assign",
+      "currentMainValue": "To ask",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-beauftragen-254-lv",
+          "value": "To commission / assign"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-bedrücken-267-lv",
+      "auditCardId": "b1-bedrücken-267",
+      "productionIdentity": "idx:267",
+      "productionIndex": 267,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To weigh down / depress",
+      "currentMainValue": "To suppress",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-bedrücken-267-lv",
+          "value": "To weigh down / depress"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-Behälter-302-lv",
+      "auditCardId": "b1-Behälter-302",
+      "productionIdentity": "idx:302",
+      "productionIndex": 302,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Container",
+      "currentMainValue": "Tank",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-Behälter-302-lv",
+          "value": "Container"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-behindern-308-lv",
+      "auditCardId": "b1-behindern-308",
+      "productionIdentity": "idx:308",
+      "productionIndex": 308,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To hinder / obstruct",
+      "currentMainValue": "Disturb",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-behindern-308-lv",
+          "value": "To hinder / obstruct"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-beitragen-322-lv",
+      "auditCardId": "b1-beitragen-322",
+      "productionIdentity": "idx:322",
+      "productionIndex": 322,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To contribute",
+      "currentMainValue": "Promote",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-beitragen-322-lv",
+          "value": "To contribute"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-belasten-327-lv",
+      "auditCardId": "b1-belasten-327",
+      "productionIdentity": "idx:327",
+      "productionIndex": 327,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To burden / put a strain on",
+      "currentMainValue": "To bother",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-belasten-327-lv",
+          "value": "To burden / put a strain on"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-beleidigen-331-lv",
+      "auditCardId": "b1-beleidigen-331",
+      "productionIdentity": "idx:331",
+      "productionIndex": 331,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To insult / offend",
+      "currentMainValue": "Take offence",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-beleidigen-331-lv",
+          "value": "To insult / offend"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-Beleidigung-332-lv",
+      "auditCardId": "b1-Beleidigung-332",
+      "productionIdentity": "idx:332",
+      "productionIndex": 332,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Insult / offence",
+      "currentMainValue": "Resentment",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-Beleidigung-332-lv",
+          "value": "Insult / offence"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-beleuchten-333-lv",
+      "auditCardId": "b1-beleuchten-333",
+      "productionIdentity": "idx:333",
+      "productionIndex": 333,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To illuminate / light",
+      "currentMainValue": "To enlighten",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-beleuchten-333-lv",
+          "value": "To illuminate / light"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-beliebig-335-lv",
+      "auditCardId": "b1-beliebig-335",
+      "productionIdentity": "idx:335",
+      "productionIndex": 335,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Any / arbitrary",
+      "currentMainValue": "Anyone",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-beliebig-335-lv",
+          "value": "Any / arbitrary"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-Bergführer-357-lv",
+      "auditCardId": "b1-Bergführer-357",
+      "productionIdentity": "idx:357",
+      "productionIndex": 357,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Mountain guide",
+      "currentMainValue": "A companion in the mountains",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-Bergführer-357-lv",
+          "value": "Mountain guide"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-Bericht-362-lv",
+      "auditCardId": "b1-Bericht-362",
+      "productionIdentity": "idx:362",
+      "productionIndex": 362,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Report",
+      "currentMainValue": "Message",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-Bericht-362-lv",
+          "value": "Report"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-sich berühren-372-lv",
+      "auditCardId": "b1-sich berühren-372",
+      "productionIdentity": "idx:372",
+      "productionIndex": 372,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To touch each other",
+      "currentMainValue": "To face",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-sich berühren-372-lv",
+          "value": "To touch each other"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-beseitigen-385-lv",
+      "auditCardId": "b1-beseitigen-385",
+      "productionIdentity": "idx:385",
+      "productionIndex": 385,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To remove / eliminate",
+      "currentMainValue": "To prevent",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-beseitigen-385-lv",
+          "value": "To remove / eliminate"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #3",
+      "findingId": "HIGH #3-b1-besiegen-388-lv",
+      "auditCardId": "b1-besiegen-388",
+      "productionIdentity": "idx:388",
+      "productionIndex": 388,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To defeat",
+      "currentMainValue": "To win",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-03.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-03-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #3",
+          "findingId": "HIGH #3-b1-besiegen-388-lv",
+          "value": "To defeat"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-Bestandteil-394-lv",
+      "auditCardId": "b1-Bestandteil-394",
+      "productionIdentity": "idx:394",
+      "productionIndex": 394,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Component / part",
+      "currentMainValue": "Ingredient",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-Bestandteil-394-lv",
+          "value": "Component / part"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-betreiben-409-lv",
+      "auditCardId": "b1-betreiben-409",
+      "productionIdentity": "idx:409",
+      "productionIndex": 409,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To run / operate",
+      "currentMainValue": "To lead",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-betreiben-409-lv",
+          "value": "To run / operate"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-Beule-415-lv",
+      "auditCardId": "b1-Beule-415",
+      "productionIdentity": "idx:415",
+      "productionIndex": 415,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Bump / dent",
+      "currentMainValue": "Pun",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-Beule-415-lv",
+          "value": "Bump / dent"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-beugen-414-lv",
+      "auditCardId": "b1-beugen-414",
+      "productionIdentity": "idx:414",
+      "productionIndex": 414,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To bend",
+      "currentMainValue": "To put",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-beugen-414-lv",
+          "value": "To bend"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-Bevölkerung-418-lv",
+      "auditCardId": "b1-Bevölkerung-418",
+      "productionIdentity": "idx:418",
+      "productionIndex": 418,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Population",
+      "currentMainValue": "Residents",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-Bevölkerung-418-lv",
+          "value": "Population"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-bewachen-420-lv",
+      "auditCardId": "b1-bewachen-420",
+      "productionIdentity": "idx:420",
+      "productionIndex": 420,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To guard / watch over",
+      "currentMainValue": "To protect",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-bewachen-420-lv",
+          "value": "To guard / watch over"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-bewirten-426-lv",
+      "auditCardId": "b1-bewirten-426",
+      "productionIdentity": "idx:426",
+      "productionIndex": 426,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To host / serve guests",
+      "currentMainValue": "To tolerate",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-bewirten-426-lv",
+          "value": "To host / serve guests"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-biegen-440-lv",
+      "auditCardId": "b1-biegen-440",
+      "productionIdentity": "idx:440",
+      "productionIndex": 440,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To bend",
+      "currentMainValue": "To put",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-biegen-440-lv",
+          "value": "To bend"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-sich blamieren-453-lv",
+      "auditCardId": "b1-sich blamieren-453",
+      "productionIdentity": "idx:453",
+      "productionIndex": 453,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To embarrass oneself",
+      "currentMainValue": "Get confused",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-sich blamieren-453-lv",
+          "value": "To embarrass oneself"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-Bombe-478-lv",
+      "auditCardId": "b1-Bombe-478",
+      "productionIdentity": "idx:478",
+      "productionIndex": 478,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Bomb",
+      "currentMainValue": "Ball",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-Bombe-478-lv",
+          "value": "Bomb"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-Brathuhn-490-lv",
+      "auditCardId": "b1-Brathuhn-490",
+      "productionIdentity": "idx:490",
+      "productionIndex": 490,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Roast chicken",
+      "currentMainValue": "Fried chicken",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-Brathuhn-490-lv",
+          "value": "Roast chicken"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-Brieftasche-505-lv",
+      "auditCardId": "b1-Brieftasche-505",
+      "productionIdentity": "idx:505",
+      "productionIndex": 505,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Wallet",
+      "currentMainValue": "Pocket briefcase",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-Brieftasche-505-lv",
+          "value": "Wallet"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-desto-579-lv",
+      "auditCardId": "b1-desto-579",
+      "productionIdentity": "idx:579",
+      "productionIndex": 579,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "The more ... the more ... / all the more",
+      "currentMainValue": "Because",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-desto-579-lv",
+          "value": "The more ... the more ... / all the more"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-Dose-601-lv",
+      "auditCardId": "b1-Dose-601",
+      "productionIdentity": "idx:601",
+      "productionIndex": 601,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Can / tin",
+      "currentMainValue": "Box",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-Dose-601-lv",
+          "value": "Can / tin"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-Durcheinander-624-lv",
+      "auditCardId": "b1-Durcheinander-624",
+      "productionIdentity": "idx:624",
+      "productionIndex": 624,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "A muddle / a mess",
+      "currentMainValue": "Juku jukam • A mess",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-Durcheinander-624-lv",
+          "value": "A muddle / a mess"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-ehemals-646-lv",
+      "auditCardId": "b1-ehemals-646",
+      "productionIdentity": "idx:646",
+      "productionIndex": 646,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Formerly",
+      "currentMainValue": "Earlier",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-ehemals-646-lv",
+          "value": "Formerly"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-sich eignen-657-lv",
+      "auditCardId": "b1-sich eignen-657",
+      "productionIdentity": "idx:657",
+      "productionIndex": 657,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To be suitable",
+      "currentMainValue": "To bet",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-sich eignen-657-lv",
+          "value": "To be suitable"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-einigermaßen-686-lv",
+      "auditCardId": "b1-einigermaßen-686",
+      "productionIdentity": "idx:686",
+      "productionIndex": 686,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To some extent / more or less",
+      "currentMainValue": "Half way",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-einigermaßen-686-lv",
+          "value": "To some extent / more or less"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-einnehmen-695-lv",
+      "auditCardId": "b1-einnehmen-695",
+      "productionIdentity": "idx:695",
+      "productionIndex": 695,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To take / occupy",
+      "currentMainValue": "To conceive",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-einnehmen-695-lv",
+          "value": "To take / occupy"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-einschließen-703-lv",
+      "auditCardId": "b1-einschließen-703",
+      "productionIdentity": "idx:703",
+      "productionIndex": 703,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To include / enclose",
+      "currentMainValue": "To count",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-einschließen-703-lv",
+          "value": "To include / enclose"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-erfordern-779-lv",
+      "auditCardId": "b1-erfordern-779",
+      "productionIdentity": "idx:779",
+      "productionIndex": 779,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To require",
+      "currentMainValue": "Ask for",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-erfordern-779-lv",
+          "value": "To require"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-erfüllen-784-lv",
+      "auditCardId": "b1-erfüllen-784",
+      "productionIdentity": "idx:784",
+      "productionIndex": 784,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To fulfil",
+      "currentMainValue": "To execute",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-erfüllen-784-lv",
+          "value": "To fulfil"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-sich erhalten-790-lv",
+      "auditCardId": "b1-sich erhalten-790",
+      "productionIdentity": "idx:790",
+      "productionIndex": 790,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To remain preserved / survive",
+      "currentMainValue": "To preserve",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-sich erhalten-790-lv",
+          "value": "To remain preserved / survive"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #4",
+      "findingId": "HIGH #4-b1-Erklärung-795-lv",
+      "auditCardId": "b1-Erklärung-795",
+      "productionIdentity": "idx:795",
+      "productionIndex": 795,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Explanation / statement",
+      "currentMainValue": "Notification",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-04.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-04-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #4",
+          "findingId": "HIGH #4-b1-Erklärung-795-lv",
+          "value": "Explanation / statement"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-sich ernähren-807-lv",
+      "auditCardId": "b1-sich ernähren-807",
+      "productionIdentity": "idx:807",
+      "productionIndex": 807,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To feed oneself / live on",
+      "currentMainValue": "To make a living",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-sich ernähren-807-lv",
+          "value": "To feed oneself / live on"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-erschrecken-820-lv",
+      "auditCardId": "b1-erschrecken-820",
+      "productionIdentity": "idx:820",
+      "productionIndex": 820,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To get frightened / be startled",
+      "currentMainValue": "Get confused",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-erschrecken-820-lv",
+          "value": "To get frightened / be startled"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-Erwartung-829-lv",
+      "auditCardId": "b1-Erwartung-829",
+      "productionIdentity": "idx:829",
+      "productionIndex": 829,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Expectation",
+      "currentMainValue": "Waiting",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-Erwartung-829-lv",
+          "value": "Expectation"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-erwecken-830-lv",
+      "auditCardId": "b1-erwecken-830",
+      "productionIdentity": "idx:830",
+      "productionIndex": 830,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To awaken",
+      "currentMainValue": "Wake up",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-erwecken-830-lv",
+          "value": "To awaken"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-faszinieren-871-lv",
+      "auditCardId": "b1-faszinieren-871",
+      "productionIdentity": "idx:871",
+      "productionIndex": 871,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To fascinate",
+      "currentMainValue": "Get carried away",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-faszinieren-871-lv",
+          "value": "To fascinate"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-Feinwäsche-882-lv",
+      "auditCardId": "b1-Feinwäsche-882",
+      "productionIdentity": "idx:882",
+      "productionIndex": 882,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Delicates",
+      "currentMainValue": "Fine linen",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-Feinwäsche-882-lv",
+          "value": "Delicates"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-fernbleiben-885-lv",
+      "auditCardId": "b1-fernbleiben-885",
+      "productionIdentity": "idx:885",
+      "productionIndex": 885,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To stay away",
+      "currentMainValue": "Don't come",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-fernbleiben-885-lv",
+          "value": "To stay away"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-Fischgericht-902-lv",
+      "auditCardId": "b1-Fischgericht-902",
+      "productionIdentity": "idx:902",
+      "productionIndex": 902,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Fish dish",
+      "currentMainValue": "Fish food",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-Fischgericht-902-lv",
+          "value": "Fish dish"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-fortbleiben-936-lv",
+      "auditCardId": "b1-fortbleiben-936",
+      "productionIdentity": "idx:936",
+      "productionIndex": 936,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To stay away / remain absent",
+      "currentMainValue": "Don't come",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-fortbleiben-936-lv",
+          "value": "To stay away / remain absent"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-Fußnote-971-lv",
+      "auditCardId": "b1-Fußnote-971",
+      "productionIdentity": "idx:971",
+      "productionIndex": 971,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Footnote",
+      "currentMainValue": "Subtext note",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-Fußnote-971-lv",
+          "value": "Footnote"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-sich füllen-964-lv",
+      "auditCardId": "b1-sich füllen-964",
+      "productionIdentity": "idx:964",
+      "productionIndex": 964,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To fill up / become full",
+      "currentMainValue": "To fulfil",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-sich füllen-964-lv",
+          "value": "To fill up / become full"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-gedankenlos-1006-lv",
+      "auditCardId": "b1-gedankenlos-1006",
+      "productionIdentity": "idx:1006",
+      "productionIndex": 1006,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Thoughtless",
+      "currentMainValue": "Reckless",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-gedankenlos-1006-lv",
+          "value": "Thoughtless"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-Gefallen-1014-lv",
+      "auditCardId": "b1-Gefallen-1014",
+      "productionIdentity": "idx:1014",
+      "productionIndex": 1014,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Favor",
+      "currentMainValue": "Service",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-Gefallen-1014-lv",
+          "value": "Favor"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-genial-1059-lv",
+      "auditCardId": "b1-genial-1059",
+      "productionIdentity": "idx:1059",
+      "productionIndex": 1059,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Brilliant",
+      "currentMainValue": "Genius",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-genial-1059-lv",
+          "value": "Brilliant"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-genügen-1063-lv",
+      "auditCardId": "b1-genügen-1063",
+      "productionIdentity": "idx:1063",
+      "productionIndex": 1063,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To be enough",
+      "currentMainValue": "Enough",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-genügen-1063-lv",
+          "value": "To be enough"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-Genuss-1065-lv",
+      "auditCardId": "b1-Genuss-1065",
+      "productionIdentity": "idx:1065",
+      "productionIndex": 1065,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Enjoyment",
+      "currentMainValue": "Enjoying",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-Genuss-1065-lv",
+          "value": "Enjoyment"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-geräumig-1069-lv",
+      "auditCardId": "b1-geräumig-1069",
+      "productionIdentity": "idx:1069",
+      "productionIndex": 1069,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Spacious",
+      "currentMainValue": "Wide",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-geräumig-1069-lv",
+          "value": "Spacious"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-gerecht-1071-lv",
+      "auditCardId": "b1-gerecht-1071",
+      "productionIdentity": "idx:1071",
+      "productionIndex": 1071,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Fair / just",
+      "currentMainValue": "Righteous",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-gerecht-1071-lv",
+          "value": "Fair / just"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-gesamt-1080-lv",
+      "auditCardId": "b1-gesamt-1080",
+      "productionIdentity": "idx:1080",
+      "productionIndex": 1080,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Entire / total",
+      "currentMainValue": "Everything",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-gesamt-1080-lv",
+          "value": "Entire / total"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-geschickt-1085-lv",
+      "auditCardId": "b1-geschickt-1085",
+      "productionIdentity": "idx:1085",
+      "productionIndex": 1085,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Skillful",
+      "currentMainValue": "Neat",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-geschickt-1085-lv",
+          "value": "Skillful"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-gewöhnen-1109-lv",
+      "auditCardId": "b1-gewöhnen-1109",
+      "productionIdentity": "idx:1109",
+      "productionIndex": 1109,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "To accustom / get used to",
+      "currentMainValue": "Tame",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-gewöhnen-1109-lv",
+          "value": "To accustom / get used to"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-Glatteis-1119-lv",
+      "auditCardId": "b1-Glatteis-1119",
+      "productionIdentity": "idx:1119",
+      "productionIndex": 1119,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Black ice",
+      "currentMainValue": "Again",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-Glatteis-1119-lv",
+          "value": "Black ice"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #5",
+      "findingId": "HIGH #5-b1-Glocke-1130-lv",
+      "auditCardId": "b1-Glocke-1130",
+      "productionIdentity": "idx:1130",
+      "productionIndex": 1130,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Bell",
+      "currentMainValue": "Call",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-05.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-05-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #5",
+          "findingId": "HIGH #5-b1-Glocke-1130-lv",
+          "value": "Bell"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #9",
+      "findingId": "HIGH #9-b1-Tageordnung-2835-lv",
+      "auditCardId": "b1-Tageordnung-2835",
+      "productionIdentity": "idx:2835",
+      "productionIndex": 2835,
+      "fieldPath": "lv",
+      "expectedOwnerFinal": "Conference / meeting",
+      "currentMainValue": "Agenda",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-09.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-09-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #9",
+          "findingId": "HIGH #9-b1-Tageordnung-2835-lv",
+          "value": "Conference / meeting"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-sich-aufhalten-study.explanation",
+      "auditCardId": "b1-sich-aufhalten",
+      "productionIdentity": "b1-sich-aufhalten",
+      "productionIndex": 198,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "Without sich, aufhalten means to delay.",
+      "currentMainValue": "Main idea: sich aufhalten means to stay or be in a place for a period of time. Without sich, aufhalten means to delay.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-sich-aufhalten-study.explanation",
+          "value": "Without sich, aufhalten means to delay."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-becken-study.sectionAccents.tip.leftBlocks[0].text",
+      "auditCardId": "b1-becken",
+      "productionIdentity": "b1-becken",
+      "productionIndex": 258,
+      "fieldPath": "study.sectionAccents.tip.leftBlocks[0].text.purple",
+      "expectedOwnerFinal": "pelvis; container",
+      "currentMainValue": "[\"in the pool\",\"pelvis\",\"container\",\"a bowl\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-becken-study.sectionAccents.tip.leftBlocks[0].text",
+          "value": "pelvis; container"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-bedeutend-study.explanation",
+      "auditCardId": "b1-bedeutend",
+      "productionIdentity": "b1-bedeutend",
+      "productionIndex": 263,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "bedeutend; bedeutend besser",
+      "currentMainValue": "Main idea: bedeutend means significant or notable. As an intensifier, it means 'significantly', eg bedeutend besser.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-bedeutend-study.explanation",
+          "value": "bedeutend; bedeutend besser"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-bedeutend-study.tip.leftBlocks[0].text",
+      "auditCardId": "b1-bedeutend",
+      "productionIdentity": "b1-bedeutend",
+      "productionIndex": 263,
+      "fieldPath": "study.tip.leftBlocks[0].text",
+      "expectedOwnerFinal": "bedeutend = significant/notable",
+      "currentMainValue": "Before the noun bedeutend = significant/notable; before better/worse = significantly.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-bedeutend-study.tip.leftBlocks[0].text",
+          "value": "bedeutend = significant/notable"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-bedeutend-study.sectionAccents.tip.leftBlocks",
+      "auditCardId": "b1-bedeutend",
+      "productionIdentity": "b1-bedeutend",
+      "productionIndex": 263,
+      "fieldPath": "study.sectionAccents.tip.leftBlocks",
+      "expectedOwnerFinal": "significant, notable, considerably",
+      "currentMainValue": "[{\"text\":{\"purple\":[\"significant\",\"notable\",\"considerably\"]}}]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-bedeutend-study.sectionAccents.tip.leftBlocks",
+          "value": "significant, notable, considerably"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-sich-bedienen-study.sectionAccents.tip.leftBlocks",
+      "auditCardId": "b1-sich-bedienen",
+      "productionIdentity": "b1-sich-bedienen",
+      "productionIndex": 264,
+      "fieldPath": "study.sectionAccents.tip.leftBlocks",
+      "expectedOwnerFinal": "take it yourself, serve",
+      "currentMainValue": "[{\"text\":{\"purple\":[\"take it yourself\",\"serve\"]}}]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-sich-bedienen-study.sectionAccents.tip.leftBlocks",
+          "value": "take it yourself, serve"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-belegen-study.sectionAccents.tip.leftBlocks",
+      "auditCardId": "b1-belegen",
+      "productionIdentity": "b1-belegen",
+      "productionIndex": 329,
+      "fieldPath": "study.sectionAccents.tip.leftBlocks",
+      "expectedOwnerFinal": "place, course, statement",
+      "currentMainValue": "[{\"text\":{\"purple\":[\"place\",\"course\",\"statement\"]}}]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-belegen-study.sectionAccents.tip.leftBlocks",
+          "value": "place, course, statement"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-sich-bemühen-study.explanation",
+      "auditCardId": "b1-sich-bemühen",
+      "productionIdentity": "b1-sich-bemühen",
+      "productionIndex": 339,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "to make an earnest effort or to try hard",
+      "currentMainValue": "Main idea: sich bemühen means to make an earnest effort or to try hard. It is often used with um + what? or with zu + infinitive.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-sich-bemühen-study.explanation",
+          "value": "to make an earnest effort or to try hard"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-sich-bemühen-study.sectionAccents.tip.leftBlocks",
+      "auditCardId": "b1-sich-bemühen",
+      "productionIdentity": "b1-sich-bemühen",
+      "productionIndex": 339,
+      "fieldPath": "study.sectionAccents.tip.leftBlocks",
+      "expectedOwnerFinal": "solution",
+      "currentMainValue": "[{\"text\":{\"purple\":[\"solution\"]}}]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-sich-bemühen-study.sectionAccents.tip.leftBlocks",
+          "value": "solution"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-sich-beruhigen-study.sectionAccents.tip.leftBlocks[0].text",
+      "auditCardId": "b1-sich-beruhigen",
+      "productionIdentity": "b1-sich-beruhigen",
+      "productionIndex": 369,
+      "fieldPath": "study.sectionAccents.tip.leftBlocks[0].text.purple",
+      "expectedOwnerFinal": "will calm down, calm",
+      "currentMainValue": "[\"calms itself\",\"appease\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-sich-beruhigen-study.sectionAccents.tip.leftBlocks[0].text",
+          "value": "will calm down, calm"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-berühmtheit-study.sectionAccents.examples[1]",
+      "auditCardId": "b1-berühmtheit",
+      "productionIdentity": "b1-berühmtheit",
+      "productionIndex": 370,
+      "fieldPath": "study.sectionAccents.examples[1].lv.purple",
+      "expectedOwnerFinal": "null",
+      "currentMainValue": "[\"late\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-berühmtheit-study.sectionAccents.examples[1]",
+          "value": "null"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #10",
+      "findingId": "HIGH #10-b1-besorgen-study.important.text",
+      "auditCardId": "b1-besorgen",
+      "productionIdentity": "b1-besorgen",
+      "productionIndex": 389,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "sich kümmern um, not besorgen",
+      "currentMainValue": "To worry is sich Sorgen machen; to take care of someone is sich kümmern um, not besorgen.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-10.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-10-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #10",
+          "findingId": "HIGH #10-b1-besorgen-study.important.text",
+          "value": "sich kümmern um, not besorgen"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #11",
+      "findingId": "HIGH #11-b1-bestimmen-study.tip.leftBlocks[0].text",
+      "auditCardId": "b1-bestimmen",
+      "productionIdentity": "b1-bestimmen",
+      "productionIndex": 397,
+      "fieldPath": "study.tip.leftBlocks[0].text",
+      "expectedOwnerFinal": "Usually use bestimmen.",
+      "currentMainValue": "If the decision determines the price, dose, term or purpose, Usually use bestimmen.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-11.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-11-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #11",
+          "findingId": "HIGH #11-b1-bestimmen-study.tip.leftBlocks[0].text",
+          "value": "Usually use bestimmen."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #11",
+      "findingId": "HIGH #11-b1-einholen-study.important.text",
+      "auditCardId": "b1-einholen",
+      "productionIdentity": "b1-einholen",
+      "productionIndex": 682,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "Genehmigung",
+      "currentMainValue": "einholen is not the usual 'get it all'; it is very often used with Informationen, Rat or Genehmigung.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-11.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-11-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #11",
+          "findingId": "HIGH #11-b1-einholen-study.important.text",
+          "value": "Genehmigung"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #11",
+      "findingId": "HIGH #11-b1-einsetzen-study.explanation",
+      "auditCardId": "b1-einsetzen",
+      "productionIdentity": "b1-einsetzen",
+      "productionIndex": 708,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "the technology or equipment is used",
+      "currentMainValue": "Main idea: einsetzen means to use or involve something for a purpose. The object changes the translation: the technology or equipment is used, the person is involved/assigned, but the rain or pain may start.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-11.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-11-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #11",
+          "findingId": "HIGH #11-b1-einsetzen-study.explanation",
+          "value": "the technology or equipment is used"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #11",
+      "findingId": "HIGH #11-b1-einsetzen-study.important.text",
+      "auditCardId": "b1-einsetzen",
+      "productionIdentity": "b1-einsetzen",
+      "productionIndex": 708,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "one-size-fits-all",
+      "currentMainValue": "The key is the object: einsetzen is not a one-size-fits-all translation.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-11.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-11-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #11",
+          "findingId": "HIGH #11-b1-einsetzen-study.important.text",
+          "value": "one-size-fits-all"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #11",
+      "findingId": "HIGH #11-b1-eintreten-study.important.text",
+      "auditCardId": "b1-eintreten",
+      "productionIdentity": "b1-eintreten",
+      "productionIndex": 718,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "the effect occurs",
+      "currentMainValue": "eintreten with an event does not mean to physically enter: Die Wirkung tritt ein = the effect occurs.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-11.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-11-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #11",
+          "findingId": "HIGH #11-b1-eintreten-study.important.text",
+          "value": "the effect occurs"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #11",
+      "findingId": "HIGH #11-b1-folge-study.important.text",
+      "auditCardId": "b1-folge",
+      "productionIdentity": "b1-folge",
+      "productionIndex": 929,
+      "fieldPath": "study.important.text",
+      "expectedOwnerFinal": "In a TV series, Folge means an episode.",
+      "currentMainValue": "Folge changes the meaning according to the context: in a cause-and-effect text it is the effect, In a TV series, Folge means an episode.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-11.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-11-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #11",
+          "findingId": "HIGH #11-b1-folge-study.important.text",
+          "value": "In a TV series, Folge means an episode."
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #12",
+      "findingId": "HIGH #12-b1-greifen-study.explanation",
+      "auditCardId": "b1-greifen",
+      "productionIdentity": "b1-greifen",
+      "productionIndex": 1140,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "zu Maßnahmen greifen",
+      "currentMainValue": "Main idea: greifen means to grasp or reach for something with the hand. In a figurative sense, zu Maßnahmen greifen means to take measures.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-12.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-12-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #12",
+          "findingId": "HIGH #12-b1-greifen-study.explanation",
+          "value": "zu Maßnahmen greifen"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #12",
+      "findingId": "HIGH #12-b1-leistung-study.sectionAccents.comparison[0].meaning.purple",
+      "auditCardId": "b1-leistung",
+      "productionIdentity": "b1-leistung",
+      "productionIndex": 1762,
+      "fieldPath": "study.sectionAccents.comparison[0].meaning.purple",
+      "expectedOwnerFinal": "Performance, achievement, power",
+      "currentMainValue": "[\"Performance\",\"achievement\",\"Performance\"]",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-12.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-12-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #12",
+          "findingId": "HIGH #12-b1-leistung-study.sectionAccents.comparison[0].meaning.purple",
+          "value": "Performance, achievement, power"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #13",
+      "findingId": "HIGH #13-b1-spitze-study.comparison[0].meaning",
+      "auditCardId": "b1-spitze",
+      "productionIdentity": "b1-spitze",
+      "productionIndex": 2689,
+      "fieldPath": "study.comparison[0].meaning",
+      "expectedOwnerFinal": "Tip, peak, leadership",
+      "currentMainValue": "Peak, top, head",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-13.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-13-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #13",
+          "findingId": "HIGH #13-b1-spitze-study.comparison[0].meaning",
+          "value": "Tip, peak, leadership"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #13",
+      "findingId": "HIGH #13-b1-taufen-study.examples[2].lv",
+      "auditCardId": "b1-taufen",
+      "productionIdentity": "b1-taufen",
+      "productionIndex": 2863,
+      "fieldPath": "study.examples[2].lv",
+      "expectedOwnerFinal": "named",
+      "currentMainValue": "They named the ship Emma.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-13.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-13-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #13",
+          "findingId": "HIGH #13-b1-taufen-study.examples[2].lv",
+          "value": "named"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #13",
+      "findingId": "HIGH #13-b1-ton-study.examples[1].lv",
+      "auditCardId": "b1-ton",
+      "productionIdentity": "b1-ton",
+      "productionIndex": 2896,
+      "fieldPath": "study.examples[1].lv",
+      "expectedOwnerFinal": "calm tone",
+      "currentMainValue": "Please speak in a calm tone.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-13.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-13-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #13",
+          "findingId": "HIGH #13-b1-ton-study.examples[1].lv",
+          "value": "calm tone"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #13",
+      "findingId": "HIGH #13-b1-zünden-study.explanation",
+      "auditCardId": "b1-zünden",
+      "productionIdentity": "b1-zünden",
+      "productionIndex": 3296,
+      "fieldPath": "study.explanation",
+      "expectedOwnerFinal": "[\"ignite\",\"work\"]",
+      "currentMainValue": "Main idea: zünden means to ignite, to set in motion, or to work. Anzünden is often used when lighting something specific.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-13.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-13-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #13",
+          "findingId": "HIGH #13-b1-zünden-study.explanation",
+          "value": "Main idea: zünden means to ignite, to set in motion, or to work. Anzünden is often used when lighting something specific."
+        },
+        {
+          "cycle": "HIGH #13",
+          "findingId": "HIGH #13-b1-zünden-study.explanation",
+          "value": "[\"ignite\",\"work\"]"
+        }
+      ]
+    },
+    {
+      "repairCycle": "HIGH #13",
+      "findingId": "HIGH #13-b1-zünden-study.tip.leftBlocks[0].text",
+      "auditCardId": "b1-zünden",
+      "productionIdentity": "b1-zünden",
+      "productionIndex": 3296,
+      "fieldPath": "study.tip.leftBlocks[0].text",
+      "expectedOwnerFinal": "starts working",
+      "currentMainValue": "A mechanism, fire, or idea starts working: zünden.",
+      "status": "MISSING_FROM_MAIN",
+      "sourceReport": "reports/en-b1-high-repair-13.md",
+      "sourceRepairLog": "reports/temp/en-b1-high-repair-13-log.json",
+      "repairChain": [
+        {
+          "cycle": "HIGH #13",
+          "findingId": "HIGH #13-b1-zünden-study.tip.leftBlocks[0].text",
+          "value": "starts working"
+        }
+      ]
+    }
+  ]
+}
