@@ -537,7 +537,7 @@
   "expectedArithmeticRemaining": 23,
   "calculatedWorkflowRemaining": 23,
   "remainingDiscrepancy": null,
-  "ownerDecisionsMade": 0,
+  "ownerDecisionsMade": 31,
   "productionChanges": 0,
   "deReadOnly": "PASS",
   "cards": [
@@ -567,9 +567,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Gender\" differs from audit Current EN \"masculine, feminine or no gender\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "masculine, feminine, or neuter gender",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -583,9 +583,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Gender\" differs from audit Current EN \"masculine, feminine or no gender\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "For a word in grammar, Geschlecht = grammatical gender.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "LOW",
@@ -599,9 +599,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Gender\" differs from audit Current EN \"masculine, feminine or no gender\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "[\"Main\"]",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -615,11 +615,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Gender\" differs from audit Current EN \"masculine, feminine or no gender\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "[\"sex\",\"gender\"]",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 2,
@@ -647,9 +648,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Profit\" differs from audit Current EN \"In games, contests and lotteries, it means winning.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In games, contests, and lotteries, it means a win or a prize.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -663,9 +664,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Profit\" differs from audit Current EN \"In games, contests and lotteries, it means winning.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "The lottery prize was large.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -679,9 +680,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Profit\" differs from audit Current EN \"In games, contests and lotteries, it means winning.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Profit / prize",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -695,9 +696,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Profit\" differs from audit Current EN \"In games, contests and lotteries, it means winning.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Price / prize",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -711,9 +712,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Profit\" differs from audit Current EN \"In games, contests and lotteries, it means winning.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "In a company, Gewinn = profit; in a lottery, Gewinn = prize.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -727,11 +728,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Profit\" differs from audit Current EN \"In games, contests and lotteries, it means winning.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "[\"profit\",\"prize\"]",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 3,
@@ -759,9 +761,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Get used to\" differs from audit Current EN \"With sich the meaning is 'to get used to'; bez sich gewöhnen often means 'to get used to someone'.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "With sich, the meaning is 'to get used to'; without sich, gewöhnen often means 'to get someone used to something'.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "PEDAGOGICAL",
@@ -775,11 +777,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Get used to\" differs from audit Current EN \"With sich the meaning is 'to get used to'; bez sich gewöhnen often means 'to get used to someone'.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Without",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 4,
@@ -807,9 +810,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Grid\" differs from audit Current EN \"Das Geländer is more commonly used for margaram; das Gitter is not a general word for any railing.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Das Geländer is more commonly used for railings; das Gitter is not a general word for any railing.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -823,11 +826,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Grid\" differs from audit Current EN \"Das Geländer is more commonly used for margaram; das Gitter is not a general word for any railing.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "door",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 5,
@@ -855,9 +859,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To grasp\" differs from audit Current EN \"zu Maaschen greifen\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "zu Maßnahmen greifen",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -871,11 +875,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To grasp\" differs from audit Current EN \"zu Maaschen greifen\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Grasp / encompass",
+          "ownerNote": "OWNER approved linguistic correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 6,
@@ -903,9 +908,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The handle\" differs from audit Current EN \"Thistle\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Handle",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -919,9 +924,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The handle\" differs from audit Current EN \"Thistle\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "For cups or buckets, Henkel is often more appropriate than Griff.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -935,9 +940,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The handle\" differs from audit Current EN \"Thistle\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "where",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -951,11 +956,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"The handle\" differs from audit Current EN \"Thistle\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "grab",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 7,
@@ -983,9 +989,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Hit\" differs from audit Current EN \"hauen colloquially means to strike, cut or strike.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "hauen colloquially means to hit, chop or strike.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -999,9 +1005,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Hit\" differs from audit Current EN \"hauen colloquially means to strike, cut or strike.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "A worker chops wood.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1015,9 +1021,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Hit\" differs from audit Current EN \"hauen colloquially means to strike, cut or strike.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Hau ab! is a separate phrase meaning “Get lost!”",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -1031,11 +1037,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Hit\" differs from audit Current EN \"hauen colloquially means to strike, cut or strike.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "blow",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 8,
@@ -1063,9 +1070,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Issue\" differs from audit Current EN \"it can also mean to give or give something out.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "it can also mean to hand something over or give something out.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "MEDIUM",
@@ -1079,9 +1086,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Issue\" differs from audit Current EN \"it can also mean to give or give something out.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Publish / hand out",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "HIGH",
@@ -1095,9 +1102,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Issue\" differs from audit Current EN \"it can also mean to give or give something out.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "Verlag gibt heraus = publishes; Behörde gibt heraus = issues.",
+          "ownerNote": "OWNER approved linguistic correction."
         },
         {
           "severity": "TECHNICAL",
@@ -1111,9 +1118,9 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Issue\" differs from audit Current EN \"it can also mean to give or give something out.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "publishes",
+          "ownerNote": "OWNER approved sectionAccent correction."
         },
         {
           "severity": "TECHNICAL",
@@ -1127,11 +1134,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Issue\" differs from audit Current EN \"it can also mean to give or give something out.\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "issues",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 9,
@@ -1159,11 +1167,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"Instruction\" differs from audit Current EN \"iesaka\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "advises",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 10,
@@ -1191,11 +1200,12 @@
           "source": "new Luna finding",
           "duplicateNote": null,
           "metadataAnomaly": "Production EN \"To listen\" differs from audit Current EN \"slepeni\"",
-          "ownerVerdict": "PENDING",
-          "ownerFinalEn": "PENDING",
-          "ownerNote": "PENDING"
+          "ownerVerdict": "LABOT",
+          "ownerFinalEn": "furtively",
+          "ownerNote": "OWNER approved sectionAccent correction."
         }
-      ]
+      ],
+      "ownerCardVerdict": "LABOT"
     },
     {
       "sequence": 11,
@@ -4186,5 +4196,18 @@
         }
       ]
     }
-  ]
+  ],
+  "ownerReviewBlock1": {
+    "block": "1/5",
+    "cardsReviewed": 10,
+    "labot": 10,
+    "nelabot": 0,
+    "findingsOwnerResolved": 31,
+    "pendingInBlock1": 0,
+    "cumulativeCardsReviewed": 10,
+    "cumulativeLabot": 10,
+    "cumulativeNelabot": 0,
+    "completedAt": "2026-08-09T11:18:04.701Z"
+  },
+  "ownerReviewStatus": "EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 1/5 COMPLETE"
 }

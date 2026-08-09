@@ -80,9 +80,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Gender" differs from audit Current EN "masculine, feminine or no gender"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: masculine, feminine, or neuter gender
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 1/50
 
@@ -110,9 +110,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Gender" differs from audit Current EN "masculine, feminine or no gender"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: For a word in grammar, Geschlecht = grammatical gender.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 1/50
 
@@ -140,9 +140,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Gender" differs from audit Current EN "masculine, feminine or no gender"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: ["Main"]
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 1/50
 
@@ -170,9 +170,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Gender" differs from audit Current EN "masculine, feminine or no gender"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: ["sex","gender"]
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 2/50
 
@@ -200,9 +200,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Profit" differs from audit Current EN "In games, contests and lotteries, it means winning."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In games, contests, and lotteries, it means a win or a prize.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 2/50
 
@@ -230,9 +230,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Profit" differs from audit Current EN "In games, contests and lotteries, it means winning."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: The lottery prize was large.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 2/50
 
@@ -260,9 +260,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Profit" differs from audit Current EN "In games, contests and lotteries, it means winning."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Profit / prize
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 2/50
 
@@ -290,9 +290,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Profit" differs from audit Current EN "In games, contests and lotteries, it means winning."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Price / prize
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 2/50
 
@@ -320,9 +320,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Profit" differs from audit Current EN "In games, contests and lotteries, it means winning."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: In a company, Gewinn = profit; in a lottery, Gewinn = prize.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 2/50
 
@@ -350,9 +350,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Profit" differs from audit Current EN "In games, contests and lotteries, it means winning."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: ["profit","prize"]
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 3/50
 
@@ -380,9 +380,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Get used to" differs from audit Current EN "With sich the meaning is 'to get used to'; bez sich gewöhnen often means 'to get used to someone'."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: With sich, the meaning is 'to get used to'; without sich, gewöhnen often means 'to get someone used to something'.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 3/50
 
@@ -410,9 +410,9 @@ Luna verdict: CONFIRMED
 sectionAccents: PEDAGOGICAL
 Metadata anomaly: Production EN "Get used to" differs from audit Current EN "With sich the meaning is 'to get used to'; bez sich gewöhnen often means 'to get used to someone'."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Without
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 4/50
 
@@ -440,9 +440,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Grid" differs from audit Current EN "Das Geländer is more commonly used for margaram; das Gitter is not a general word for any railing."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Das Geländer is more commonly used for railings; das Gitter is not a general word for any railing.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 4/50
 
@@ -470,9 +470,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Grid" differs from audit Current EN "Das Geländer is more commonly used for margaram; das Gitter is not a general word for any railing."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: door
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 5/50
 
@@ -500,9 +500,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To grasp" differs from audit Current EN "zu Maaschen greifen"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: zu Maßnahmen greifen
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 5/50
 
@@ -530,9 +530,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "To grasp" differs from audit Current EN "zu Maaschen greifen"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Grasp / encompass
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 6/50
 
@@ -560,9 +560,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "The handle" differs from audit Current EN "Thistle"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Handle
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 6/50
 
@@ -590,9 +590,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "The handle" differs from audit Current EN "Thistle"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: For cups or buckets, Henkel is often more appropriate than Griff.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 6/50
 
@@ -620,9 +620,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "The handle" differs from audit Current EN "Thistle"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: where
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 6/50
 
@@ -650,9 +650,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "The handle" differs from audit Current EN "Thistle"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: grab
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 7/50
 
@@ -680,9 +680,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Hit" differs from audit Current EN "hauen colloquially means to strike, cut or strike."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: hauen colloquially means to hit, chop or strike.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 7/50
 
@@ -710,9 +710,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Hit" differs from audit Current EN "hauen colloquially means to strike, cut or strike."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: A worker chops wood.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 7/50
 
@@ -740,9 +740,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Hit" differs from audit Current EN "hauen colloquially means to strike, cut or strike."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Hau ab! is a separate phrase meaning “Get lost!”
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 7/50
 
@@ -770,9 +770,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Hit" differs from audit Current EN "hauen colloquially means to strike, cut or strike."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: blow
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 8/50
 
@@ -800,9 +800,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Issue" differs from audit Current EN "it can also mean to give or give something out."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: it can also mean to hand something over or give something out.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 8/50
 
@@ -830,9 +830,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Issue" differs from audit Current EN "it can also mean to give or give something out."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Publish / hand out
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 8/50
 
@@ -860,9 +860,9 @@ Luna verdict: CONFIRMED
 sectionAccents: —
 Metadata anomaly: Production EN "Issue" differs from audit Current EN "it can also mean to give or give something out."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: Verlag gibt heraus = publishes; Behörde gibt heraus = issues.
+OWNER NOTE: OWNER approved linguistic correction.
 
 CARD 8/50
 
@@ -890,9 +890,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Issue" differs from audit Current EN "it can also mean to give or give something out."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: publishes
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 8/50
 
@@ -920,9 +920,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Issue" differs from audit Current EN "it can also mean to give or give something out."
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: issues
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 9/50
 
@@ -950,9 +950,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "Instruction" differs from audit Current EN "iesaka"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: advises
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 10/50
 
@@ -980,9 +980,9 @@ Luna verdict: CONFIRMED
 sectionAccents: TECHNICAL
 Metadata anomaly: Production EN "To listen" differs from audit Current EN "slepeni"
 
-OWNER VERDICT: PENDING
-OWNER FINAL EN: PENDING
-OWNER NOTE: PENDING
+OWNER VERDICT: LABOT
+OWNER FINAL EN: furtively
+OWNER NOTE: OWNER approved sectionAccent correction.
 
 CARD 11/50
 
@@ -5379,3 +5379,23 @@ Expected arithmetic: 73 - 50 = 23
 Calculated workflow remaining: 23
 Discrepancy: none
 ```
+---
+
+## Owner review progress
+
+EN–DE B1 HIGH #12 OWNER REVIEW — BLOCK 1/5 COMPLETE
+
+Cards reviewed: 10/10
+LABOT: 10
+NELABOT: 0
+PENDING remaining in cards 01–10: 0
+
+Cumulative cards reviewed: 10/50
+Cumulative LABOT: 10
+Cumulative NELABOT: 0
+
+Production changes: 0
+DE READ-ONLY: PASS
+
+Next: HIGH #12 OWNER REVIEW — BLOCK 2/5 (cards 11–20)
+HIGH REPAIR #12 not started.
