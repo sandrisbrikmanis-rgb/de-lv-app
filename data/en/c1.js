@@ -1544,7 +1544,7 @@ const C1_WORDS = [
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "Evacuation service • Removal service",
+    "lv": "Towing service • Vehicle recovery service",
     "level": "C1"
   },
   {
@@ -1599,7 +1599,7 @@ const C1_WORDS = [
   },
   {
     "de": "beanspruchen",
-    "lv": "Require • Claim • Be burdened",
+    "lv": "Require • Claim • Put under strain",
     "level": "C1"
   },
   {
@@ -1611,14 +1611,14 @@ const C1_WORDS = [
   },
   {
     "de": "bedingungslos",
-    "lv": "Unconditional • Unconditional • Without reservations • Without conditions",
+    "lv": "Unconditional • Unreserved • Without reservations • Without conditions",
     "level": "C1"
   },
   {
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Embarrassment • Embarrassment",
+    "lv": "Self-consciousness • Embarrassment",
     "level": "C1"
   },
   {
@@ -1633,7 +1633,7 @@ const C1_WORDS = [
   },
   {
     "de": "beiderseitig",
-    "lv": "Two-sided • Two-sided",
+    "lv": "Mutual • Bilateral",
     "level": "C1"
   },
   {
@@ -1645,7 +1645,7 @@ const C1_WORDS = [
   },
   {
     "de": "beispielhaft",
-    "lv": "Exemplary • Exemplary",
+    "lv": "Illustrative • Exemplary",
     "level": "C1"
   },
   {
@@ -1664,12 +1664,12 @@ const C1_WORDS = [
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "Collective • Staff",
+    "lv": "Workforce • Staff",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "Harm • Cause damage • Harm",
+    "lv": "Disadvantage • Discriminate against • Treat unfairly",
     "level": "C1"
   },
   {
@@ -1693,21 +1693,21 @@ const C1_WORDS = [
   },
   {
     "de": "bereitwillig",
-    "lv": "Ready to serve • Obliging",
+    "lv": "Willing • Obliging",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "Professional orientation consultation",
+    "lv": "Career guidance",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "Secret of office",
+    "lv": "Professional secrecy",
     "level": "C1"
   },
   {
@@ -1740,17 +1740,17 @@ const C1_WORDS = [
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Reference • Certificate • Attestation • Attestation",
+    "lv": "Certificate • Certificate • Attestation • Certification",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "Seise • Confiscate • Expropriate",
+    "lv": "Seize • Confiscate • Sequester",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "Accuse • Insult",
+    "lv": "Accuse • Blame",
     "level": "C1"
   },
   {
@@ -1762,20 +1762,20 @@ const C1_WORDS = [
   },
   {
     "de": "beträchtlich",
-    "lv": "Considerable • Quite large • Considerable",
+    "lv": "Considerable • Substantial • Significant",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "Operating expenses of the company • Production expenses",
+    "lv": "Operating costs • Production costs",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "Computer installation system",
+    "lv": "Operating system",
     "level": "C1"
   },
   {
@@ -1785,12 +1785,12 @@ const C1_WORDS = [
   },
   {
     "de": "bevorstehend",
-    "lv": "Upcoming • Next",
+    "lv": "Upcoming • Forthcoming",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "Turn out to be true • Justify",
+    "lv": "Prove oneself • Stand the test",
     "level": "C1"
   },
   {
@@ -1809,7 +1809,7 @@ const C1_WORDS = [
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Contact • Closest person",
+    "lv": "Key person • Close person",
     "level": "C1"
   },
   {
@@ -1822,7 +1822,7 @@ const C1_WORDS = [
     "de": "Bilanz",
     "de_article": "die",
     "de_plural": "die Bilanzen",
-    "lv": "Balance",
+    "lv": "Balance sheet",
     "level": "C1"
   },
   {
@@ -1836,7 +1836,7 @@ const C1_WORDS = [
     "de": "Blutuntersuchung",
     "de_article": "die",
     "de_plural": "die Blutuntersuchungen",
-    "lv": "Blood analysis",
+    "lv": "Blood test",
     "level": "C1"
   },
   {
@@ -1857,7 +1857,7 @@ const C1_WORDS = [
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "FFR citizen",
+    "lv": "Citizen of the Federal Republic of Germany",
     "level": "C1"
   },
   {
@@ -1890,12 +1890,12 @@ const C1_WORDS = [
   },
   {
     "de": "dauerhaft",
-    "lv": "Lasting • Long • Durable",
+    "lv": "Lasting • Long-lasting • Durable",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "To happen • To happen between • To intervene",
+    "lv": "To crop up • To come between • To intervene",
     "level": "C1"
   },
   {
@@ -1923,14 +1923,14 @@ const C1_WORDS = [
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "Violation of property rights",
+    "lv": "Property offence",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "Violation of traffic rules",
+    "lv": "Traffic offence",
     "level": "C1"
   },
   {
@@ -1940,14 +1940,14 @@ const C1_WORDS = [
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "In spite of it • In spite of it",
+    "lv": "Notwithstanding that • In spite of that",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "State secret service",
+    "lv": "State intelligence service",
     "level": "C1"
   },
   {
@@ -1961,12 +1961,12 @@ const C1_WORDS = [
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "Domestic service",
+    "lv": "Service",
     "level": "C1"
   },
   {
     "de": "dienstpflichtig",
-    "lv": "Submitted to military service",
+    "lv": "Liable for military service",
     "level": "C1"
   },
   {
@@ -2015,13 +2015,13 @@ const C1_WORDS = [
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "Prohibition of passage",
+    "lv": "Transit ban",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "lv": "Transit traffic",
+    "lv": "Through traffic",
     "level": "C1"
   },
   {
@@ -2045,7 +2045,7 @@ const C1_WORDS = [
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "Unit of money",
+    "lv": "Unit of currency",
     "level": "C1"
   },
   {
@@ -2064,12 +2064,12 @@ const C1_WORDS = [
   },
   {
     "de": "einreden",
-    "lv": "Tell • Insist • Try to convince",
+    "lv": "Persuade • Make someone believe • Try to convince",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "To flatter • To flatter",
+    "lv": "To ingratiate oneself • To curry favour",
     "level": "C1"
   },
   {
@@ -2083,7 +2083,7 @@ const C1_WORDS = [
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "Right of protest • Right of veto",
+    "lv": "Right of objection • Right of veto",
     "level": "C1"
   },
   {
@@ -2132,7 +2132,7 @@ const C1_WORDS = [
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "Basic law",
+    "lv": "Basic rule",
     "level": "C1"
   },
   {
@@ -2151,7 +2151,7 @@ const C1_WORDS = [
   },
   {
     "de": "entgegensetzen",
-    "lv": "Set against • Set against",
+    "lv": "To set against • To oppose",
     "level": "C1"
   },
   {
@@ -2161,17 +2161,17 @@ const C1_WORDS = [
   },
   {
     "de": "entschädigen",
-    "lv": "Compensate • Compensate",
+    "lv": "To compensate • To indemnify",
     "level": "C1"
   },
   {
     "de": "sich entschließen",
-    "lv": "To decide • To decide",
+    "lv": "To decide • To resolve",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "Determined • Determined • Unwavering",
+    "lv": "Determined • Decisive • Unwavering",
     "level": "C1"
   },
   {
@@ -2190,14 +2190,14 @@ const C1_WORDS = [
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "Treatment course for alcoholics or drug addicts",
+    "lv": "Addiction treatment",
     "level": "C1"
   },
   {
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "Congenital disease",
+    "lv": "Hereditary disease",
     "level": "C1"
   },
   {
@@ -2229,12 +2229,12 @@ const C1_WORDS = [
   },
   {
     "de": "festgesetzt",
-    "lv": "Determined • Conditional • Laid down",
+    "lv": "Fixed • Determined • Laid down",
     "level": "C1"
   },
   {
     "de": "feuergefährlich",
-    "lv": "Fireproof",
+    "lv": "Flammable",
     "level": "C1"
   },
   {
@@ -2248,7 +2248,7 @@ const C1_WORDS = [
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "Rocket for fireworks",
+    "lv": "Firework",
     "level": "C1"
   },
   {
@@ -2273,7 +2273,7 @@ const C1_WORDS = [
   },
   {
     "de": "fortgeschritten",
-    "lv": "Relatively late in development",
+    "lv": "At an advanced stage",
     "level": "C1"
   },
   {
@@ -2285,7 +2285,7 @@ const C1_WORDS = [
     "de": "Freilichtmuseum",
     "de_article": "das",
     "de_plural": "die Freilichtmuseen",
-    "lv": "Open air museum",
+    "lv": "Open-air museum",
     "level": "C1"
   },
   {
@@ -2319,7 +2319,7 @@ const C1_WORDS = [
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "Social security",
+    "lv": "Social welfare",
     "level": "C1"
   },
   {

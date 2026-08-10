@@ -1,0 +1,215 @@
+{
+  "block": "2/6",
+  "cardsTargeted": 50,
+  "cardsFound": 50,
+  "repairsApplied": 50,
+  "mismatch": 0,
+  "mismatchCardIds": [],
+  "mirrorPass": true,
+  "deReadOnly": true,
+  "referenceFilesUnchanged": true,
+  "syntaxPass": true,
+  "results": [
+    {
+      "cardId": "c1-Abschleppdienst-199",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beanspruchen-208",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-bedingungslos-210",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Befangenheit-211",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beiderseitig-214",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beispielhaft-216",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Belegschaft-219",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-benachteiligen-220",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-bereitwillig-224",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Berufsberatung-225",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Berufsgeheimnis-226",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Bescheinigung-231",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beschlagnahmen-232",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beschuldigen-233",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beträchtlich-235",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Betriebskosten-236",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Betriebssystem-237",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-bevorstehend-239",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-bewähren, sich-240",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Bezugsperson-243",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Bilanz-245",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Blutuntersuchung-247",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Bundesdeutsche-250",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-dauerhaft-255",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-dazwischenkommen-256",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Eigentumsdelikt-260",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Verkehrsdelikt-261",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-dessen ungeachtet-263",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Nachrichtendienst-264",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Dienstleistung-266",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-dienstpflichtig-267",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Durchfuhrverbot-275",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Durchgangsverkehr-276",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Währungseinheit-280",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-einreden-283",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-sich einschmeicheln-284",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Einspruchsrecht-286",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Elementarregel-293",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-entgegensetzen-296",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-entschädigen-298",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-sich entschließen-299",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-entschlossen-300",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Entziehungskur-303",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Erbkrankheit-304",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-festgesetzt-309",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-feuergefährlich-310",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Feuerwerkskörper-312",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-fortgeschritten-316",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Freilichtmuseum-318",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-soziale Fürsorge-323",
+      "status": "APPLIED"
+    }
+  ],
+  "mismatches": []
+}
