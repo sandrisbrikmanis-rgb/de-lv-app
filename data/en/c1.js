@@ -365,12 +365,12 @@ const C1_WORDS = [
     "study": {
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
-      "translation": "Single family home",
+      "translation": "Single-family home",
       "explanation": "Main idea: das Einfamilienhaus is a house for one family. This usually means a detached house, not an apartment building.",
       "examples": [
         {
           "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "They live in a single family home."
+          "lv": "They live in a single-family home."
         },
         {
           "de": "Das Einfamilienhaus hat einen Garten.",
@@ -763,8 +763,8 @@ const C1_WORDS = [
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "Society • Openness",
-      "explanation": "Main idea: die Öffentlichkeit means society as public space or people as a whole. In the phrase an die Öffentlichkeit kommen, it means to come into the open.",
+      "translation": "The public • Public sphere",
+      "explanation": "Main idea: die Öffentlichkeit refers to the public sphere or the public at large. In the phrase an die Öffentlichkeit kommen, it means to become public.",
       "examples": [
         {
           "de": "Die Öffentlichkeit reagierte kritisch.",
@@ -797,7 +797,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "Party • Party",
+      "translation": "Political party • Party",
       "explanation": "Main idea: die Partei is usually a political party. In legal or conflict parlance, it can also mean a party.",
       "examples": [
         {
@@ -866,7 +866,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "Process • Lawsuit",
+      "translation": "Process • Trial",
       "explanation": "Main idea: der Prozess is a process or proceeding. In court, der Prozess means trial.",
       "examples": [
         {
@@ -1273,7 +1273,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "Summarise • Summarise",
+      "translation": "Summarise • Sum up",
       "explanation": [
         "Main idea: zusammenfassen is a verb - to collect or organise information into one concise statement.",
         "Zusammenfassen is used when several facts, texts or thoughts are made into a short overview.",
@@ -1483,7 +1483,7 @@ const C1_WORDS = [
       "id": "c1-wahl",
       "layout": "standardStudy",
       "translation": "Choice • Election",
-      "explanation": "Die Wahl can mean a choice between options. In the context of politics, Wahl means election. It can also mean voting itself. The phrase eine Wahl treffen means to make a choice. zur Wahl gehen means to go to the polls. The context of a policy or personal decision shows the correct meaning.",
+      "explanation": "Die Wahl can mean a choice between options. In the context of politics, Wahl means an election. It can also mean voting itself. The phrase eine Wahl treffen means to make a choice. zur Wahl gehen means to go to the polls. The context of politics or a personal decision shows the correct meaning.",
       "examples": [
         {
           "de": "Du hast die Wahl.",
@@ -1491,7 +1491,7 @@ const C1_WORDS = [
         },
         {
           "de": "Ich treffe meine Wahl morgen.",
-          "lv": "I make my choice tomorrow."
+          "lv": "I will make my choice tomorrow."
         },
         {
           "de": "Die Wahl findet am Sonntag statt.",
@@ -2434,8 +2434,8 @@ const C1_WORDS = [
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Sometimes • Occasion • Due to",
-      "explanation": "Main idea: gelegentlich is a word with three functions. Adjective: casual (ein gelegentlicher Besuch). Adverb: sometimes, from time to time (Er kommt gelegentlich). Preposition + dative: due to (gelegentlich des Festes).",
+      "translation": "Sometimes • Occasional • On the occasion of",
+      "explanation": "Main idea: gelegentlich has three functions. Adjective: occasional (ein gelegentlicher Besuch). Adverb: sometimes, from time to time (Er kommt gelegentlich). Preposition + genitive: on the occasion of (gelegentlich des Festes).",
       "examples": [
         {
           "de": "Er kommt gelegentlich vorbei.",
@@ -2458,12 +2458,12 @@ const C1_WORDS = [
         },
         {
           "word": "gelegentlich (Adj.)",
-          "meaning": "Casual • Accidental",
+          "meaning": "Occasional • Incidental",
           "example": "ein gelegentlicher Besuch = Casual visit"
         },
         {
           "word": "gelegentlich (+ Gen.)",
-          "meaning": "Due to",
+          "meaning": "On the occasion of",
           "example": "gelegentlich des Festes = Due to holidays"
         },
         {
@@ -2480,7 +2480,7 @@ const C1_WORDS = [
         ]
       },
       "important": {
-        "text": "Adj.: casual. Adv.: sometimes. Prep. + Gen.: due to. Context determines meaning."
+        "text": "Adj.: occasional. Adv.: sometimes. Prep. + Gen.: on the occasion of. Context determines meaning."
       },
       "sectionAccents": {
         "explanation": {
@@ -3351,14 +3351,14 @@ const C1_WORDS = [
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "Gliderism",
+    "lv": "Gliding",
     "level": "C1"
   },
   {
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "Municipality",
+    "lv": "Self-government",
     "level": "C1"
   },
   {
@@ -3370,12 +3370,12 @@ const C1_WORDS = [
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "Sensational statement",
+    "lv": "Sensational report",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "Living in one place • Camper",
+    "lv": "Living in one place • Settled",
     "level": "C1"
   },
   {
@@ -3389,7 +3389,7 @@ const C1_WORDS = [
     "de": "Sinnestäuschung",
     "de_article": "die",
     "de_plural": "die Sinnestäuschungen",
-    "lv": "Hallucination",
+    "lv": "Illusion",
     "level": "C1"
   },
   {
@@ -3468,13 +3468,13 @@ const C1_WORDS = [
   },
   {
     "de": "synchronisieren",
-    "lv": "Dub the movie",
+    "lv": "Synchronise • Dub",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "Daily earnings",
+    "lv": "Daily takings",
     "level": "C1"
   },
   {
@@ -3486,7 +3486,7 @@ const C1_WORDS = [
   },
   {
     "de": "überanstrengen",
-    "lv": "To overwork • Sich ü. to overwork",
+    "lv": "To overexert • To overexert oneself",
     "level": "C1"
   },
   {
@@ -3500,19 +3500,19 @@ const C1_WORDS = [
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "Surplus • Remains",
+    "lv": "Leftover • Remains",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "Agree • Agree with someone",
+    "lv": "Correspond • Agree with someone",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "Remainder • Surplus • Winding up",
+    "lv": "Remainder • Surplus • Excess",
     "level": "C1"
   },
   {
@@ -3526,7 +3526,7 @@ const C1_WORDS = [
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "Trouble • An unpleasant occasion",
+    "lv": "Inconvenience • Unpleasant incident",
     "level": "C1"
   },
   {
@@ -3553,7 +3553,7 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "Release from work • Retire",
+    "lv": "Dismiss • Retire",
     "level": "C1"
   },
   {
@@ -3568,14 +3568,14 @@ const C1_WORDS = [
   },
   {
     "de": "verdrießlich",
-    "lv": "Unpleasant • Annoyed • Annoyed",
+    "lv": "Unpleasant • Irritable • Cross",
     "level": "C1"
   },
   {
     "de": "Verfallsdatum",
     "de_article": "das",
     "de_plural": "die Verfallsdaten",
-    "lv": "Expiration date",
+    "lv": "Expiry date",
     "level": "C1"
   },
   {
@@ -3587,7 +3587,7 @@ const C1_WORDS = [
   },
   {
     "de": "vergewaltigen",
-    "lv": "Raping",
+    "lv": "To rape",
     "level": "C1"
   },
   {
@@ -3599,7 +3599,7 @@ const C1_WORDS = [
     "de": "Vergünstigung",
     "de_article": "die",
     "de_plural": "die Vergünstigungen",
-    "lv": "Advantage • Privilege • Relief",
+    "lv": "Benefit • Privilege • Concession",
     "level": "C1"
   },
   {
@@ -3616,7 +3616,7 @@ const C1_WORDS = [
     "de": "Verhandlungen",
     "de_article": "die",
     "de_plural": "die Verhandlungen",
-    "lv": "Conversations",
+    "lv": "Negotiations",
     "level": "C1"
   },
   {
@@ -3658,7 +3658,7 @@ const C1_WORDS = [
   },
   {
     "de": "vernachlässigen",
-    "lv": "To neglect • To be careless",
+    "lv": "To neglect • To treat carelessly",
     "level": "C1"
   },
   {
@@ -3673,12 +3673,12 @@ const C1_WORDS = [
   },
   {
     "de": "sich verschließen",
-    "lv": "To shut down • To shut off",
+    "lv": "To close oneself off • To withdraw",
     "level": "C1"
   },
   {
     "de": "verschlossen",
-    "lv": "Locked • Closed • Trans. closed • Self-contained",
+    "lv": "Locked • Closed • Figuratively, closed-off • Withdrawn",
     "level": "C1"
   },
   {
@@ -3688,7 +3688,7 @@ const C1_WORDS = [
   },
   {
     "de": "verschreiben",
-    "lv": "Med. to sign",
+    "lv": "To prescribe",
     "level": "C1"
   },
   {
@@ -3724,7 +3724,7 @@ const C1_WORDS = [
   },
   {
     "de": "verunglücken",
-    "lv": "Suffer in an accident • Suffer in an accident",
+    "lv": "Have an accident • Be involved in an accident",
     "level": "C1"
   },
   {
@@ -3739,12 +3739,12 @@ const C1_WORDS = [
   },
   {
     "de": "vervollkommnen",
-    "lv": "Supplement • Improve",
+    "lv": "Perfect • Improve",
     "level": "C1"
   },
   {
     "de": "sich vervollkommnen",
-    "lv": "Supplement your knowledge",
+    "lv": "Improve oneself",
     "level": "C1"
   },
   {
@@ -3763,7 +3763,7 @@ const C1_WORDS = [
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "Poll of all the people • Referendum",
+    "lv": "Public consultation • Referendum",
     "level": "C1"
   },
   {
@@ -3775,7 +3775,7 @@ const C1_WORDS = [
   },
   {
     "de": "voreingenommen",
-    "lv": "Biased • Biased",
+    "lv": "Biased • Partial",
     "level": "C1"
   },
   {
@@ -3804,8 +3804,8 @@ const C1_WORDS = [
     "study": {
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
-      "translation": "One who has the right to vote",
-      "explanation": "Main idea: wahlberechtig is an adjective that means a person has the right to participate in an election—to vote or stand for election. Compound: Wahl (election) + behrechtig (entitled).",
+      "translation": "Eligible to vote",
+      "explanation": "Main idea: wahlberechtigt is an adjective meaning that a person is entitled to vote in an election. Compound: Wahl (election) + berechtigt (entitled).",
       "examples": [
         {
           "de": "Alle wahlberechtigten Bürger können wählen.",
@@ -3813,7 +3813,7 @@ const C1_WORDS = [
         },
         {
           "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "From the age of 18 have the right to vote."
+          "lv": "From the age of 18, people have the right to vote."
         },
         {
           "de": "Nicht alle Einwohner sind wahlberechtigt.",
@@ -3823,12 +3823,12 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "wahlberechtigt",
-          "meaning": "With the right to vote",
+          "meaning": "Eligible to vote",
           "example": "Er ist wahlberechtigt. = He has the right to vote."
         },
         {
           "word": "wählen",
-          "meaning": "To wish • To vote",
+          "meaning": "To choose • To vote",
           "example": "Ich wähle heute. = I voted today."
         },
         {
@@ -3840,12 +3840,12 @@ const C1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Wahl = election, behrechtig = eligible. Common in press and legal texts."
+            "text": "Wahl = election, berechtigt = entitled. Common in press and legal texts."
           }
         ]
       },
       "important": {
-        "text": "wahlberechtig = with the right to vote. Opposite: nicht wahlberechtigkeit."
+        "text": "wahlberechtigt = eligible to vote. Opposite: nicht wahlberechtigt."
       },
       "sectionAccents": {
         "explanation": {
@@ -3898,20 +3898,20 @@ const C1_WORDS = [
   },
   {
     "de": "wahrhaft",
-    "lv": "Really • Really",
+    "lv": "Truly • Indeed",
     "level": "C1"
   },
   {
     "de": "Wäscheschleuder",
     "de_article": "die",
     "de_plural": "die Wäscheschleudern",
-    "lv": "Laundry spinner",
+    "lv": "Spin dryer",
     "level": "C1"
   },
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "Water treatment facility",
+    "lv": "Hydrotherapy clinic",
     "level": "C1"
   },
   {
@@ -3932,33 +3932,33 @@ const C1_WORDS = [
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "Mutual communication",
+    "lv": "Interrelationship",
     "level": "C1"
   },
   {
     "de": "Wehrersatzdienst",
     "de_article": "der",
-    "lv": "Civil service instead of military service",
+    "lv": "Alternative civilian service",
     "level": "C1"
   },
   {
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Poppy",
+    "lv": "Pussy willow",
     "level": "C1"
   },
   {
     "de": "Weltanschauung",
     "de_article": "die",
     "de_plural": "die Weltanschauungen",
-    "lv": "World view",
+    "lv": "Worldview",
     "level": "C1"
   },
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "Rust",
+    "lv": "Sheet lightning",
     "level": "C1"
   },
   {
@@ -3968,12 +3968,12 @@ const C1_WORDS = [
   },
   {
     "de": "wiederherstellen",
-    "lv": "Restore • Restore",
+    "lv": "Restore • Reinstate",
     "level": "C1"
   },
   {
     "de": "zusammenfallen",
-    "lv": "Collapse • Happen",
+    "lv": "Collapse • Coincide",
     "level": "C1"
   },
   {
@@ -3990,7 +3990,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "Premium • Markup",
+      "translation": "Surcharge • Markup",
       "explanation": [
         "Main Idea: der Zuschlag means a premium or mark-up—an extra amount added to the base price.",
         "In the context of travel/transportation, der Zuschlag is an additional charge for a faster train, better seat, etc.",
@@ -4004,11 +4004,11 @@ const C1_WORDS = [
         },
         {
           "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Night shift surcharge is 20%."
+          "lv": "The night-shift surcharge is 20%."
         },
         {
           "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "She received the order (at the auction)."
+          "lv": "She was awarded the contract at the auction."
         },
         {
           "de": "Es gibt einen Zuschlag für Übergepäck.",
@@ -4016,7 +4016,7 @@ const C1_WORDS = [
         },
         {
           "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "The price is without surcharges."
+          "lv": "The price excludes surcharges."
         }
       ],
       "tip": [
@@ -4127,7 +4127,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Apply • Apply to",
+      "translation": "Relate • Refer to",
       "explanation": [
         "Main idea: Formal register: attribute to source, regular pension/salary receipt or moving into an apartment.",
         "Examples look for typical everyday usage.",
@@ -4137,7 +4137,7 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "beziehen / sich beziehen auf.",
-          "lv": "Apply • Apply to"
+          "lv": "Relate • Refer to"
         }
       ],
       "tip": [
@@ -4206,11 +4206,11 @@ const C1_WORDS = [
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "What do you mean by this event?"
+          "lv": "What do you intend to achieve with this event?"
         },
         {
           "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "We are not planning a change."
+          "lv": "We are not planning any changes."
         },
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
@@ -4218,7 +4218,7 @@ const C1_WORDS = [
         },
         {
           "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "Intend to do something."
+          "lv": "To intend to do something."
         }
       ],
       "tip": [
@@ -4322,7 +4322,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "Blame • Impute without foundation",
+      "translation": "Blame • Attribute without justification",
       "explanation": [
         "Main idea: Unreasonably assign blame, motive, or intent to another.",
         "Unterstellen mainly means: to attribute without foundation.",
@@ -4332,7 +4332,7 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "I am accused of bad intentions."
+          "lv": "I am accused of having bad intentions."
         },
         {
           "de": "Unterstellen Sie mir nichts!",
@@ -4344,11 +4344,11 @@ const C1_WORDS = [
         },
         {
           "de": "Ihm wird Untreue unterstellt.",
-          "lv": "He is accused of distrust."
+          "lv": "He is accused of disloyalty."
         },
         {
           "de": "unterstellen",
-          "lv": "Unjustified guilt • Forecast"
+          "lv": "Unfounded accusation • Presuppose"
         }
       ],
       "tip": [
@@ -4726,7 +4726,7 @@ const C1_WORDS = [
     "de": "Krüppel",
     "de_article": "der",
     "de_plural": "die Krüppel",
-    "lv": "A cripple",
+    "lv": "Cripple (offensive)",
     "level": "C1"
   },
   {
