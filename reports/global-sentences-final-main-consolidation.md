@@ -11,8 +11,8 @@
 | --- | --- |
 | Integration branch | `cursor/global-sentences-final-main-consolidation-6850` |
 | Main before | `53f83b3c859d77c14aee0c2edce99b185ce6d268` |
-| Main after | `99a1e220f3bb38e51d4e448259a59224976bcb6b` |
-| origin/main | `99a1e220f3bb38e51d4e448259a59224976bcb6b` (verified after push) |
+| Main after | `e33c5052dd607256655a98cb29d474d31e22a7cf` |
+| origin/main | `e33c5052dd607256655a98cb29d474d31e22a7cf` |
 | Merge type | **Fast-forward** (closure artifacts only; no production sentences changes) |
 | Conflicts | **0** |
 | Integrated commits | **0** content commits — all CLOSED datasets already on main |
