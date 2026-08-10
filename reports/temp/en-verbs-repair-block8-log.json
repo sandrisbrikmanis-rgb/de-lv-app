@@ -1,0 +1,339 @@
+{
+  "applied": 47,
+  "repairs": [
+    {
+      "index": 90,
+      "infinitiv": "reißen",
+      "field": "praesens",
+      "before": "he snaps",
+      "after": "he tears"
+    },
+    {
+      "index": 90,
+      "infinitiv": "reißen",
+      "field": "imperfektIndikativ",
+      "before": "he snapped",
+      "after": "he tore"
+    },
+    {
+      "index": 92,
+      "infinitiv": "rennen",
+      "field": "praesens",
+      "before": "he is running",
+      "after": "he runs"
+    },
+    {
+      "index": 95,
+      "infinitiv": "rinnen",
+      "field": "partizipVergangenheit",
+      "before": "flowed / coagulated",
+      "after": "flowed"
+    },
+    {
+      "index": 98,
+      "infinitiv": "saufen",
+      "field": "praesens",
+      "before": "he is drinking / drinking",
+      "after": "he drinks heavily"
+    },
+    {
+      "index": 99,
+      "infinitiv": "saugen",
+      "field": "infinitiv",
+      "before": "suck",
+      "after": "to suck"
+    },
+    {
+      "index": 102,
+      "infinitiv": "scheiden",
+      "field": "infinitiv",
+      "before": "divorce / break up",
+      "after": "to divorce / to separate"
+    },
+    {
+      "index": 102,
+      "infinitiv": "scheiden",
+      "field": "praesens",
+      "before": "he is divorcing / divorcing",
+      "after": "he divorces / separates"
+    },
+    {
+      "index": 102,
+      "infinitiv": "scheiden",
+      "field": "imperfektIndikativ",
+      "before": "he divorced / divorced",
+      "after": "he divorced / separated"
+    },
+    {
+      "index": 103,
+      "infinitiv": "scheinen",
+      "field": "infinitiv",
+      "before": "shine / appear",
+      "after": "to shine / to appear"
+    },
+    {
+      "index": 103,
+      "infinitiv": "scheinen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would shine / seem",
+      "after": "he would shine / would seem"
+    },
+    {
+      "index": 108,
+      "infinitiv": "schinden",
+      "field": "infinitiv",
+      "before": "torment",
+      "after": "to torment"
+    },
+    {
+      "index": 112,
+      "infinitiv": "schleifen",
+      "field": "imperfektIndikativ",
+      "before": "he grinded",
+      "after": "he ground"
+    },
+    {
+      "index": 117,
+      "infinitiv": "schnauben",
+      "field": "partizipVergangenheit",
+      "before": "snort",
+      "after": "snorted"
+    },
+    {
+      "index": 118,
+      "infinitiv": "schneiden",
+      "field": "imperfektIndikativ",
+      "before": "he was cutting",
+      "after": "he cut"
+    },
+    {
+      "index": 121,
+      "infinitiv": "schreiten",
+      "field": "infinitiv",
+      "before": "walking",
+      "after": "to walk"
+    },
+    {
+      "index": 122,
+      "infinitiv": "schweigen",
+      "field": "infinitiv",
+      "before": "keep quiet",
+      "after": "to keep quiet"
+    },
+    {
+      "index": 122,
+      "infinitiv": "schweigen",
+      "field": "partizipVergangenheit",
+      "before": "silenced",
+      "after": "been silent"
+    },
+    {
+      "index": 124,
+      "infinitiv": "schwimmen",
+      "field": "partizipVergangenheit",
+      "before": "swam",
+      "after": "swum"
+    },
+    {
+      "index": 126,
+      "infinitiv": "schwingen",
+      "field": "infinitiv",
+      "before": "wave",
+      "after": "to wave"
+    },
+    {
+      "index": 131,
+      "infinitiv": "sieden",
+      "field": "imperfektIndikativ",
+      "before": "cooked",
+      "after": "boiled"
+    },
+    {
+      "index": 133,
+      "infinitiv": "sinken",
+      "field": "praesens",
+      "before": "he is sinking",
+      "after": "he sinks"
+    },
+    {
+      "index": 135,
+      "infinitiv": "sitzen",
+      "field": "praesens",
+      "before": "he is sitting",
+      "after": "he sits"
+    },
+    {
+      "index": 135,
+      "infinitiv": "sitzen",
+      "field": "imperfektIndikativ",
+      "before": "he was sitting",
+      "after": "he sat"
+    },
+    {
+      "index": 135,
+      "infinitiv": "sitzen",
+      "field": "partizipVergangenheit",
+      "before": "sat down",
+      "after": "sat"
+    },
+    {
+      "index": 136,
+      "infinitiv": "sollen",
+      "field": "infinitiv",
+      "before": "need / be obliged",
+      "after": "to be supposed to • to be obliged"
+    },
+    {
+      "index": 136,
+      "infinitiv": "sollen",
+      "field": "partizipVergangenheit",
+      "before": "needed",
+      "after": "supposed to"
+    },
+    {
+      "index": 137,
+      "infinitiv": "speien",
+      "field": "partizipVergangenheit",
+      "before": "spat out",
+      "after": "spat"
+    },
+    {
+      "index": 138,
+      "infinitiv": "spinnen",
+      "field": "infinitiv",
+      "before": "spin",
+      "after": "to spin"
+    },
+    {
+      "index": 138,
+      "infinitiv": "spinnen",
+      "field": "praesens",
+      "before": "he twists",
+      "after": "he spins"
+    },
+    {
+      "index": 139,
+      "infinitiv": "spleißen",
+      "field": "praesens",
+      "before": "he connects",
+      "after": "he splices"
+    },
+    {
+      "index": 141,
+      "infinitiv": "sprießen",
+      "field": "praesens",
+      "before": "he thrives",
+      "after": "he sprouts"
+    },
+    {
+      "index": 141,
+      "infinitiv": "sprießen",
+      "field": "imperfektIndikativ",
+      "before": "he thrived",
+      "after": "he sprouted"
+    },
+    {
+      "index": 143,
+      "infinitiv": "stechen",
+      "field": "imperfektIndikativ",
+      "before": "he punched",
+      "after": "he stabbed"
+    },
+    {
+      "index": 145,
+      "infinitiv": "stehen",
+      "field": "partizipVergangenheit",
+      "before": "standing",
+      "after": "stood"
+    },
+    {
+      "index": 149,
+      "infinitiv": "stieben",
+      "field": "infinitiv",
+      "before": "foam / swirl",
+      "after": "to scatter / to swirl"
+    },
+    {
+      "index": 149,
+      "infinitiv": "stieben",
+      "field": "imperfektIndikativ",
+      "before": "foamed",
+      "after": "it scattered"
+    },
+    {
+      "index": 149,
+      "infinitiv": "stieben",
+      "field": "partizipVergangenheit",
+      "before": "spoiled",
+      "after": "scattered"
+    },
+    {
+      "index": 150,
+      "infinitiv": "stinken",
+      "field": "infinitiv",
+      "before": "to smell",
+      "after": "to stink"
+    },
+    {
+      "index": 150,
+      "infinitiv": "stinken",
+      "field": "imperfektIndikativ",
+      "before": "smelled",
+      "after": "stank"
+    },
+    {
+      "index": 150,
+      "infinitiv": "stinken",
+      "field": "partizipVergangenheit",
+      "before": "smelly",
+      "after": "stunk"
+    },
+    {
+      "index": 152,
+      "infinitiv": "streichen",
+      "field": "infinitiv",
+      "before": "paint / strip",
+      "after": "to paint / to stripe"
+    },
+    {
+      "index": 152,
+      "infinitiv": "streichen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would paint / strip",
+      "after": "he would paint / stripe"
+    },
+    {
+      "index": 153,
+      "infinitiv": "streiten",
+      "field": "imperfektIndikativ",
+      "before": "he struggled",
+      "after": "he fought"
+    },
+    {
+      "index": 157,
+      "infinitiv": "treten",
+      "field": "imperfektIndikativ",
+      "before": "he stood / walked",
+      "after": "he entered / went"
+    },
+    {
+      "index": 157,
+      "infinitiv": "treten",
+      "field": "imperfektKonjunktiv",
+      "before": "he would stand / go",
+      "after": "he would enter / he would go"
+    },
+    {
+      "index": 157,
+      "infinitiv": "treten",
+      "field": "partizipVergangenheit",
+      "before": "stood / walked",
+      "after": "entered / gone"
+    }
+  ],
+  "keep": [
+    "verb-152-streichen/praesens he paints / stripes",
+    "verb-152-streichen/imperfektIndikativ he painted / striped",
+    "verb-152-streichen/partizipVergangenheit painted / striped"
+  ]
+}
