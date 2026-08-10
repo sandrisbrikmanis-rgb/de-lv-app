@@ -185,7 +185,7 @@ const C2_WORDS = [
       "examples": [
         {
           "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "Kilogram is a unit of weight."
+          "lv": "A kilogram is a unit of weight."
         },
         {
           "de": "Welche Gewichtseinheit soll ich benutzen?",
@@ -193,7 +193,7 @@ const C2_WORDS = [
         },
         {
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Gram and ton are units of weight."
+          "lv": "A gram and a tonne are units of weight."
         }
       ]
     }
@@ -961,21 +961,21 @@ const C2_WORDS = [
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Cooperative • Artel",
+    "lv": "Cooperative",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Justice • Sense of justice",
+    "lv": "Sense of justice",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Arbitration",
+    "lv": "Arbitration tribunal",
     "level": "C2"
   },
   {
@@ -989,13 +989,13 @@ const C2_WORDS = [
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Regulation • Regulations",
+    "lv": "Rules of procedure • Standing orders",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "Intercourse",
+    "lv": "Sexual intercourse",
     "level": "C2"
   },
   {
@@ -1023,19 +1023,19 @@ const C2_WORDS = [
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Failure to observe the prescribed speed • Violation",
+    "lv": "Speeding • Exceeding the speed limit",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Public • Societies",
+    "lv": "Social • Societal",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Public facility",
+    "lv": "Social order",
     "level": "C2"
   },
   {
@@ -1070,21 +1070,21 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Payout of lottery winnings",
+    "lv": "Payout of winnings",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "Conference at the highest level",
+    "lv": "Summit conference",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Equality",
+    "lv": "Equal rights",
     "level": "C2"
   },
   {
@@ -1105,14 +1105,14 @@ const C2_WORDS = [
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Family members • Residents of the house",
+    "lv": "Residents of the same building",
     "level": "C2"
   },
   {
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "Budget commission",
+    "lv": "Budget committee",
     "level": "C2"
   },
   {
@@ -1168,14 +1168,14 @@ const C2_WORDS = [
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "The drive of life",
+    "lv": "Self-preservation instinct",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Means of subsistence • Costs",
+    "lv": "Cost of living",
     "level": "C2"
   },
   {
@@ -1217,12 +1217,12 @@ const C2_WORDS = [
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Master race",
+    "lv": "Championship match",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humane • Humane",
+    "lv": "Humane • Benevolent",
     "level": "C2"
   },
   {
@@ -1275,14 +1275,14 @@ const C2_WORDS = [
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Popular science",
+    "lv": "Popular-science",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Competition",
+    "lv": "Prize competition",
     "level": "C2"
   },
   {
@@ -1294,7 +1294,7 @@ const C2_WORDS = [
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Satellite television transmission",
+    "lv": "Satellite transmission",
     "level": "C2"
   },
   {
@@ -1308,7 +1308,7 @@ const C2_WORDS = [
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Complaint",
+    "lv": "Written complaint",
     "level": "C2"
   },
   {
@@ -1322,7 +1322,7 @@ const C2_WORDS = [
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "The right of self-determination",
+    "lv": "The right to self-determination",
     "level": "C2"
   },
   {
@@ -1336,28 +1336,28 @@ const C2_WORDS = [
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "A set of self-defence techniques",
+    "lv": "Self-defence",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Statehood",
+    "lv": "Nationality",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Tax benefits",
+    "lv": "Tax relief",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Jur criminal code",
+    "lv": "Criminal code",
     "level": "C2"
   },
   {
@@ -1409,12 +1409,12 @@ const C2_WORDS = [
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "Basically",
+    "lv": "Underlying",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "For the good • For the good",
+    "lv": "In favour of • For the benefit of",
     "level": "C2"
   },
   {
@@ -1429,12 +1429,12 @@ const C2_WORDS = [
   },
   {
     "de": "instand",
-    "lv": "In order",
+    "lv": "In working order",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "In order",
+    "lv": "In working order",
     "level": "C2"
   },
   {
@@ -1451,21 +1451,21 @@ const C2_WORDS = [
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Wheelbarrow",
+    "lv": "Cart",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Wheelbarrow",
+    "lv": "Cart",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "A war invalid",
+    "lv": "A person disabled by war",
     "level": "C2"
   },
   {
@@ -1479,7 +1479,7 @@ const C2_WORDS = [
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Proficient • Expert",
+    "lv": "Expert • Specialist",
     "level": "C2"
   }
 ];

@@ -1,0 +1,198 @@
+{
+  "block": "C2 final 6",
+  "cardsTargeted": 35,
+  "flashcardsTargeted": 34,
+  "studyCardsTargeted": 1,
+  "cardsFound": 35,
+  "cardsWithRepairsApplied": 35,
+  "fieldReplacementsTargeted": 36,
+  "fieldReplacementsApplied": 36,
+  "mismatch": 0,
+  "mismatchDetails": [],
+  "mirrorPass": true,
+  "deReadOnly": true,
+  "c1Unchanged": true,
+  "syntaxPass": true,
+  "results": [
+    {
+      "cardId": "c2-Genossenschaft-140",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Gerechtigkeitsgefühl-141",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Schiedsgericht-142",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Geschäftsordnung-144",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Geschlechtsverkehr-145",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Geschwindigkeitsüberschreitung-149",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-gesellschaftlich-150",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Gesellschaftsordnung-151",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Gewinnauszahlung-156",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Gipfelkonferenz-157",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Gleichberechtigung-158",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Hausgemeinschaft-161",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Haushaltsausschuss-162",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Lebenserhaltungstrieb-170",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Lebenshaltungskosten-171",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-menschenfreundlich-178",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-populärwissenschaftlich-186",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Preisausschreiben-187",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Satellitenübertragung-189",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Beschwerdeschrift-191",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Selbstbestimmungsrecht-193",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Selbstverteidigung-195",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Staatsangehörigkeit-196",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Steuererleichterung-197",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Strafgesetzbuch-198",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-zugunsten, zu Gunsten-207",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-instand-210",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-in Stand-211",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Karre-214",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Karren-215",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Kriegsbeschädigte-216",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Sachverständige-218",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-gewichtseinheit",
+      "fieldPath": "study.examples[0].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-gewichtseinheit",
+      "fieldPath": "study.examples[2].lv",
+      "status": "APPLIED"
+    }
+  ]
+}
