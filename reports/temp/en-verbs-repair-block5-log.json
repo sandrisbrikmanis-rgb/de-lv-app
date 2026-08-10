@@ -1,0 +1,333 @@
+{
+  "applied": 46,
+  "repairs": [
+    {
+      "index": 105,
+      "infinitiv": "scheren",
+      "field": "infinitiv",
+      "before": "cirpt",
+      "after": "to shear"
+    },
+    {
+      "index": 105,
+      "infinitiv": "scheren",
+      "field": "praesens",
+      "before": "he is cutting",
+      "after": "he shears"
+    },
+    {
+      "index": 105,
+      "infinitiv": "scheren",
+      "field": "imperfektIndikativ",
+      "before": "cirpa",
+      "after": "he sheared"
+    },
+    {
+      "index": 105,
+      "infinitiv": "scheren",
+      "field": "partizipVergangenheit",
+      "before": "apcirpts",
+      "after": "shorn / sheared"
+    },
+    {
+      "index": 106,
+      "infinitiv": "schieben",
+      "field": "infinitiv",
+      "before": "stumt",
+      "after": "to push"
+    },
+    {
+      "index": 106,
+      "infinitiv": "schieben",
+      "field": "partizipVergangenheit",
+      "before": "stumts",
+      "after": "pushed"
+    },
+    {
+      "index": 108,
+      "infinitiv": "schinden",
+      "field": "imperfektKonjunktiv",
+      "before": "tormented",
+      "after": "would torment"
+    },
+    {
+      "index": 110,
+      "infinitiv": "schlagen",
+      "field": "partizipVergangenheit",
+      "before": "sists",
+      "after": "hit"
+    },
+    {
+      "index": 111,
+      "infinitiv": "schleichen",
+      "field": "infinitiv",
+      "before": "it's raining",
+      "after": "to creep"
+    },
+    {
+      "index": 111,
+      "infinitiv": "schleichen",
+      "field": "praesens",
+      "before": "he leans",
+      "after": "he creeps"
+    },
+    {
+      "index": 111,
+      "infinitiv": "schleichen",
+      "field": "imperfektIndikativ",
+      "before": "he rained",
+      "after": "he crept"
+    },
+    {
+      "index": 111,
+      "infinitiv": "schleichen",
+      "field": "imperfektKonjunktiv",
+      "before": "he is raining",
+      "after": "he would creep"
+    },
+    {
+      "index": 111,
+      "infinitiv": "schleichen",
+      "field": "partizipVergangenheit",
+      "before": "passed away",
+      "after": "crept"
+    },
+    {
+      "index": 114,
+      "infinitiv": "schlingen",
+      "field": "infinitiv",
+      "before": "tomorrow",
+      "after": "to swallow"
+    },
+    {
+      "index": 114,
+      "infinitiv": "schlingen",
+      "field": "imperfektKonjunktiv",
+      "before": "he morning",
+      "after": "he would swallow"
+    },
+    {
+      "index": 114,
+      "infinitiv": "schlingen",
+      "field": "partizipVergangenheit",
+      "before": "the morning",
+      "after": "swallowed"
+    },
+    {
+      "index": 115,
+      "infinitiv": "schmeißen",
+      "field": "infinitiv",
+      "before": "mest",
+      "after": "to throw"
+    },
+    {
+      "index": 115,
+      "infinitiv": "schmeißen",
+      "field": "imperfektKonjunktiv",
+      "before": "he threw",
+      "after": "he would throw"
+    },
+    {
+      "index": 115,
+      "infinitiv": "schmeißen",
+      "field": "partizipVergangenheit",
+      "before": "mests",
+      "after": "thrown"
+    },
+    {
+      "index": 116,
+      "infinitiv": "schmelzen",
+      "field": "infinitiv",
+      "before": "kust",
+      "after": "to melt"
+    },
+    {
+      "index": 116,
+      "infinitiv": "schmelzen",
+      "field": "imperfektIndikativ",
+      "before": "he moaned",
+      "after": "he melted"
+    },
+    {
+      "index": 116,
+      "infinitiv": "schmelzen",
+      "field": "imperfektKonjunktiv",
+      "before": "he was moving",
+      "after": "he would melt"
+    },
+    {
+      "index": 116,
+      "infinitiv": "schmelzen",
+      "field": "partizipVergangenheit",
+      "before": "kusis",
+      "after": "melted"
+    },
+    {
+      "index": 117,
+      "infinitiv": "schnauben",
+      "field": "infinitiv",
+      "before": "to hiss",
+      "after": "to snort"
+    },
+    {
+      "index": 118,
+      "infinitiv": "schneiden",
+      "field": "infinitiv",
+      "before": "griezt",
+      "after": "to cut"
+    },
+    {
+      "index": 118,
+      "infinitiv": "schneiden",
+      "field": "praesens",
+      "before": "he spins",
+      "after": "he cuts"
+    },
+    {
+      "index": 118,
+      "infinitiv": "schneiden",
+      "field": "partizipVergangenheit",
+      "before": "griezts",
+      "after": "cut"
+    },
+    {
+      "index": 120,
+      "infinitiv": "schreien",
+      "field": "infinitiv",
+      "before": "kliegt",
+      "after": "to shout"
+    },
+    {
+      "index": 120,
+      "infinitiv": "schreien",
+      "field": "partizipVergangenheit",
+      "before": "kliegts",
+      "after": "shouted"
+    },
+    {
+      "index": 123,
+      "infinitiv": "schwellen",
+      "field": "infinitiv",
+      "before": "pampt",
+      "after": "to swell"
+    },
+    {
+      "index": 123,
+      "infinitiv": "schwellen",
+      "field": "praesens",
+      "before": "he pouts",
+      "after": "he swells"
+    },
+    {
+      "index": 123,
+      "infinitiv": "schwellen",
+      "field": "imperfektIndikativ",
+      "before": "he pampas",
+      "after": "he swelled"
+    },
+    {
+      "index": 123,
+      "infinitiv": "schwellen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would pump",
+      "after": "he would swell"
+    },
+    {
+      "index": 123,
+      "infinitiv": "schwellen",
+      "field": "partizipVergangenheit",
+      "before": "pampis",
+      "after": "swollen"
+    },
+    {
+      "index": 125,
+      "infinitiv": "schwinden",
+      "field": "infinitiv",
+      "before": "zust",
+      "after": "to disappear"
+    },
+    {
+      "index": 125,
+      "infinitiv": "schwinden",
+      "field": "partizipVergangenheit",
+      "before": "zudis",
+      "after": "disappeared"
+    },
+    {
+      "index": 129,
+      "infinitiv": "sein",
+      "field": "imperfektIndikativ",
+      "before": "bija",
+      "after": "he was"
+    },
+    {
+      "index": 129,
+      "infinitiv": "sein",
+      "field": "partizipVergangenheit",
+      "before": "bijis",
+      "after": "been"
+    },
+    {
+      "index": 131,
+      "infinitiv": "sieden",
+      "field": "praesens",
+      "before": "he cooks",
+      "after": "he boils"
+    },
+    {
+      "index": 133,
+      "infinitiv": "sinken",
+      "field": "infinitiv",
+      "before": "grimt",
+      "after": "to sink"
+    },
+    {
+      "index": 133,
+      "infinitiv": "sinken",
+      "field": "partizipVergangenheit",
+      "before": "grimis",
+      "after": "sunk"
+    },
+    {
+      "index": 136,
+      "infinitiv": "sollen",
+      "field": "praesens",
+      "before": "he needs",
+      "after": "he should / he is supposed to"
+    },
+    {
+      "index": 136,
+      "infinitiv": "sollen",
+      "field": "imperfektIndikativ",
+      "before": "should have",
+      "after": "he was supposed to"
+    },
+    {
+      "index": 136,
+      "infinitiv": "sollen",
+      "field": "imperfektKonjunktiv",
+      "before": "should have",
+      "after": "he should"
+    },
+    {
+      "index": 139,
+      "infinitiv": "spleißen",
+      "field": "infinitiv",
+      "before": "savienot",
+      "after": "to splice"
+    },
+    {
+      "index": 139,
+      "infinitiv": "spleißen",
+      "field": "imperfektIndikativ",
+      "before": "savienoja",
+      "after": "spliced"
+    }
+  ],
+  "deSourceIssue": [
+    "verb-105-scheren/imperfektKonjunktiv stays cirpa",
+    "verb-117-schnauben/imperfektKonjunktiv stays snorted",
+    "verb-129-sein/imperfektKonjunktiv stays bija",
+    "verb-131-sieden/imperfektKonjunktiv stays cooked"
+  ]
+}
