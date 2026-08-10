@@ -3076,7 +3076,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
-      "lv": "savienots"
+      "lv": "spliced"
     }
   },
   {
@@ -3104,7 +3104,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "plaukt"
+      "lv": "to sprout"
     },
     "praesens": {
       "de": "er sprießt",
@@ -3116,11 +3116,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "he shelf"
+      "lv": "he would sprout"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "plaucis"
+      "lv": "sprouted"
     }
   },
   {
@@ -3142,13 +3142,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "lens"
+      "lv": "jumped"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "durt"
+      "lv": "to stab"
     },
     "praesens": {
       "de": "er sticht",
@@ -3164,7 +3164,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestochen",
-      "lv": "durts"
+      "lv": "stabbed"
     }
   },
   {
@@ -3214,7 +3214,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stehlen",
-      "lv": "zagt"
+      "lv": "to steal"
     },
     "praesens": {
       "de": "er stiehlt",
@@ -3230,7 +3230,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
-      "lv": "zagts"
+      "lv": "stolen"
     }
   },
   {
@@ -3258,7 +3258,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "sterben",
-      "lv": "mirt"
+      "lv": "to die"
     },
     "praesens": {
       "de": "er stirbt",
@@ -3274,7 +3274,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
-      "lv": "miris"
+      "lv": "died"
     }
   },
   {
@@ -3284,7 +3284,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "es stiebt",
-      "lv": "tas put"
+      "lv": "it scatters"
     },
     "imperfektIndikativ": {
       "de": "stob vai stiebte",
@@ -3306,7 +3306,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "es stinkt",
-      "lv": "tas smird"
+      "lv": "it stinks"
     },
     "imperfektIndikativ": {
       "de": "stank",
@@ -3336,7 +3336,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "he was pushing"
+      "lv": "he would push"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
@@ -3390,7 +3390,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "tragen",
-      "lv": "nest"
+      "lv": "to carry"
     },
     "praesens": {
       "de": "er trägt",
@@ -3406,13 +3406,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "nests"
+      "lv": "carried"
     }
   },
   {
     "infinitiv": {
       "de": "treffen",
-      "lv": "sastapt"
+      "lv": "to meet"
     },
     "praesens": {
       "de": "er trifft",
@@ -3428,7 +3428,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getroffen",
-      "lv": "sastapts"
+      "lv": "met"
     }
   },
   {
@@ -3478,7 +3478,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "trinken",
-      "lv": "dzert"
+      "lv": "to drink"
     },
     "praesens": {
       "de": "er trinkt",
@@ -3494,7 +3494,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "dzerts"
+      "lv": "drunk"
     }
   },
   {
@@ -3588,7 +3588,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "vergessen",
-      "lv": "aizmirst"
+      "lv": "to forget"
     },
     "praesens": {
       "de": "er vergisst",
@@ -3604,7 +3604,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "vergessen",
-      "lv": "aizmirsts"
+      "lv": "forgotten"
     }
   },
   {
@@ -3632,7 +3632,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wachsen",
-      "lv": "augt"
+      "lv": "to grow"
     },
     "praesens": {
       "de": "er wächst",
@@ -3648,7 +3648,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewachsen (er ist)",
-      "lv": "audzis"
+      "lv": "grown"
     }
   },
   {
@@ -3676,7 +3676,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "weben",
-      "lv": "aust"
+      "lv": "to weave"
     },
     "praesens": {
       "de": "er webt",
@@ -3684,7 +3684,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "auda"
+      "lv": "he wove"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
@@ -3692,7 +3692,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewoben",
-      "lv": "izausts"
+      "lv": "woven"
     }
   },
   {
@@ -3714,7 +3714,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "back off"
+      "lv": "backed off"
     }
   },
   {
@@ -3764,23 +3764,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "werben",
-      "lv": "to propose"
+      "lv": "to advertise / to recruit / to woo"
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "he proposes"
+      "lv": "he advertises / recruits / woos"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "he proposed"
+      "lv": "he advertised / recruited / wooed"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
-      "lv": "he would propose"
+      "lv": "he would advertise / recruit / woo"
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "proposed to"
+      "lv": "advertised / recruited / wooed"
     }
   },
   {
@@ -3808,7 +3808,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "werfen",
-      "lv": "mest"
+      "lv": "to throw"
     },
     "praesens": {
       "de": "er wirft",
@@ -3820,11 +3820,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "he threw"
+      "lv": "he would throw"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
-      "lv": "mests"
+      "lv": "thrown"
     }
   },
   {
@@ -3856,11 +3856,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er windet",
-      "lv": "he pin"
+      "lv": "he braids"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "he braids"
+      "lv": "he braided"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
@@ -3908,7 +3908,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "wollte",
-      "lv": "wanted to"
+      "lv": "would want"
     },
     "partizipVergangenheit": {
       "de": "gewollt",
@@ -3918,15 +3918,15 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wringen",
-      "lv": "izgriezt / izspiest"
+      "lv": "to wring / to squeeze"
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "he cuts out"
+      "lv": "he wrings / squeezes"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "izgrieza"
+      "lv": "he wrung / squeezed"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
@@ -3934,7 +3934,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "izgriezts"
+      "lv": "wrung / squeezed"
     }
   },
   {
