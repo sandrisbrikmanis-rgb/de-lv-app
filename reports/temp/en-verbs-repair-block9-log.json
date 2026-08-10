@@ -1,0 +1,153 @@
+{
+  "applied": 21,
+  "repairs": [
+    {
+      "index": 162,
+      "infinitiv": "verdrießen",
+      "field": "partizipVergangenheit",
+      "before": "upset",
+      "after": "annoyed"
+    },
+    {
+      "index": 165,
+      "infinitiv": "wachsen",
+      "field": "imperfektIndikativ",
+      "before": "he was growing up",
+      "after": "he grew"
+    },
+    {
+      "index": 169,
+      "infinitiv": "weisen",
+      "field": "infinitiv",
+      "before": "show",
+      "after": "to show"
+    },
+    {
+      "index": 170,
+      "infinitiv": "wenden",
+      "field": "infinitiv",
+      "before": "modify / crop",
+      "after": "to turn / to reverse"
+    },
+    {
+      "index": 170,
+      "infinitiv": "wenden",
+      "field": "praesens",
+      "before": "he twists / turns",
+      "after": "he turns / reverses"
+    },
+    {
+      "index": 170,
+      "infinitiv": "wenden",
+      "field": "imperfektIndikativ",
+      "before": "he twisted / turned",
+      "after": "he turned / reversed"
+    },
+    {
+      "index": 170,
+      "infinitiv": "wenden",
+      "field": "imperfektKonjunktiv",
+      "before": "he would amend / reverse",
+      "after": "he would turn / reverse"
+    },
+    {
+      "index": 170,
+      "infinitiv": "wenden",
+      "field": "partizipVergangenheit",
+      "before": "amended / reversed",
+      "after": "turned / reversed"
+    },
+    {
+      "index": 174,
+      "infinitiv": "wiegen",
+      "field": "partizipVergangenheit",
+      "before": "weighted",
+      "after": "weighed"
+    },
+    {
+      "index": 175,
+      "infinitiv": "winden",
+      "field": "infinitiv",
+      "before": "braid",
+      "after": "to braid"
+    },
+    {
+      "index": 177,
+      "infinitiv": "wollen",
+      "field": "infinitiv",
+      "before": "want to",
+      "after": "to want"
+    },
+    {
+      "index": 177,
+      "infinitiv": "wollen",
+      "field": "partizipVergangenheit",
+      "before": "wanted to",
+      "after": "wanted"
+    },
+    {
+      "index": 180,
+      "infinitiv": "ziehen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would drag",
+      "after": "he would pull"
+    },
+    {
+      "index": 184,
+      "infinitiv": "fechten",
+      "field": "imperfektIndikativ",
+      "before": "he struggled",
+      "after": "he fought"
+    },
+    {
+      "index": 185,
+      "infinitiv": "flechten",
+      "field": "infinitiv",
+      "before": "braid",
+      "after": "to braid"
+    },
+    {
+      "index": 186,
+      "infinitiv": "hangen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would hang himself",
+      "after": "he would hang"
+    },
+    {
+      "index": 58,
+      "infinitiv": "gehen",
+      "field": "imperfektIndikativ",
+      "before": "he walked",
+      "after": "he went"
+    },
+    {
+      "index": 151,
+      "infinitiv": "stoßen",
+      "field": "infinitiv",
+      "before": "push",
+      "after": "to push"
+    },
+    {
+      "index": 153,
+      "infinitiv": "streiten",
+      "field": "praesens",
+      "before": "he is fighting",
+      "after": "he fights"
+    },
+    {
+      "index": 156,
+      "infinitiv": "treiben",
+      "field": "infinitiv",
+      "before": "chase",
+      "after": "to chase"
+    },
+    {
+      "index": 157,
+      "infinitiv": "treten",
+      "field": "infinitiv",
+      "before": "enter / go",
+      "after": "to enter / to go"
+    }
+  ],
+  "cumulativeFindings": 421
+}

@@ -1286,7 +1286,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er ging",
-      "lv": "he walked"
+      "lv": "he went"
     },
     "imperfektKonjunktiv": {
       "de": "er ginge",
@@ -3324,7 +3324,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stoßen",
-      "lv": "push"
+      "lv": "to push"
     },
     "praesens": {
       "de": "er stößt",
@@ -3372,7 +3372,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "he is fighting"
+      "lv": "he fights"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
@@ -3434,7 +3434,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "treiben",
-      "lv": "chase"
+      "lv": "to chase"
     },
     "praesens": {
       "de": "er treibt",
@@ -3456,7 +3456,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "enter / go"
+      "lv": "to enter / to go"
     },
     "praesens": {
       "de": "er tritt",
@@ -3582,7 +3582,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "upset"
+      "lv": "annoyed"
     }
   },
   {
@@ -3640,7 +3640,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
-      "lv": "he was growing up"
+      "lv": "he grew"
     },
     "imperfektKonjunktiv": {
       "de": "er wüchse",
@@ -3720,7 +3720,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "show"
+      "lv": "to show"
     },
     "praesens": {
       "de": "er weist",
@@ -3742,23 +3742,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wenden",
-      "lv": "modify / crop"
+      "lv": "to turn / to reverse"
     },
     "praesens": {
       "de": "er wendet",
-      "lv": "he twists / turns"
+      "lv": "he turns / reverses"
     },
     "imperfektIndikativ": {
       "de": "er wandte / es wendete",
-      "lv": "he twisted / turned"
+      "lv": "he turned / reversed"
     },
     "imperfektKonjunktiv": {
       "de": "er wendete",
-      "lv": "he would amend / reverse"
+      "lv": "he would turn / reverse"
     },
     "partizipVergangenheit": {
       "de": "gewandt / gewendet",
-      "lv": "amended / reversed"
+      "lv": "turned / reversed"
     }
   },
   {
@@ -3846,13 +3846,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "weighted"
+      "lv": "weighed"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "braid"
+      "lv": "to braid"
     },
     "praesens": {
       "de": "er windet",
@@ -3896,7 +3896,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "want to"
+      "lv": "to want"
     },
     "praesens": {
       "de": "er will",
@@ -3912,7 +3912,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "wanted to"
+      "lv": "wanted"
     }
   },
   {
@@ -3974,7 +3974,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "he would drag"
+      "lv": "he would pull"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
@@ -4058,7 +4058,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "he struggled"
+      "lv": "he fought"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
@@ -4072,7 +4072,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "braid"
+      "lv": "to braid"
     },
     "praesens": {
       "de": "er flicht",
@@ -4106,7 +4106,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "he would hang himself"
+      "lv": "he would hang"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
