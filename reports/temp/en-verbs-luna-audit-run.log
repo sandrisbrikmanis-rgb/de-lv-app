@@ -1,0 +1,44 @@
+◇ injected env (1) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+EN-DE Verbs Luna audit: 189 verbs, 945 forms, 19 batches
+  luna verbs-batch-00: 10 verbs, findings=19, pass=31, tokens=5788
+  luna verbs-batch-01: 10 verbs, findings=23, pass=27, tokens=6475
+  luna verbs-batch-02: 10 verbs, findings=22, pass=28, tokens=5853
+  luna verbs-batch-03: 10 verbs, findings=27, pass=23, tokens=6536
+  luna verbs-batch-04: 10 verbs, findings=18, pass=32, tokens=5308
+  luna verbs-batch-05: 10 verbs, findings=27, pass=23, tokens=5855
+  luna verbs-batch-06: 10 verbs, findings=21, pass=29, tokens=6422
+  luna verbs-batch-07: 10 verbs, findings=21, pass=29, tokens=6739
+  luna verbs-batch-08: 10 verbs, findings=28, pass=22, tokens=6179
+  luna verbs-batch-09: 10 verbs, findings=30, pass=20, tokens=6010
+  luna verbs-batch-10: 10 verbs, findings=21, pass=29, tokens=6040
+  luna verbs-batch-11: 10 verbs, findings=24, pass=26, tokens=5425
+  luna verbs-batch-12: 10 verbs, findings=17, pass=38, tokens=6175
+  luna verbs-batch-13: 10 verbs, findings=23, pass=27, tokens=6392
+  luna verbs-batch-14: 10 verbs, findings=20, pass=30, tokens=5854
+  luna verbs-batch-15: 10 verbs, findings=26, pass=24, tokens=6169
+  luna verbs-batch-16: 10 verbs, findings=12, pass=38, tokens=5202
+  luna verbs-batch-17: 10 verbs, findings=30, pass=20, tokens=6110
+  luna verbs-batch-18: 9 verbs, findings=13, pass=32, tokens=4564
+
+=== EN-DE Verbs Luna audit complete ===
+{
+  "verbsAudited": 190,
+  "formsAudited": 950,
+  "findings": 421,
+  "severity": {
+    "CRITICAL": 1,
+    "HIGH": 312,
+    "MEDIUM": 103,
+    "LOW": 5
+  },
+  "nonError": {
+    "SOURCE_LV_ISSUE": 0,
+    "DE_SOURCE_ISSUE": 1,
+    "NEEDS_REVIEW": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "dataUnchanged": true,
+  "apiRequests": 19,
+  "totalTokens": 113096
+}
