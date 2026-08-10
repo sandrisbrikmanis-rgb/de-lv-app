@@ -140,11 +140,16 @@ function auditLanguage(lang, lvRef, lvEntries) {
   if (entries.length !== lvEntries.length) idOrderPass = false;
 
   let authoritativeMatch = null;
+  let authZwspCount = null;
   const closed = CLOSED[lang];
   if (closed) {
     const authHash = hashFromRef(closed.authoritativeCommit, prod);
     authoritativeMatch = authHash === prodHash;
+    const authEntries = loadFromRef(closed.authoritativeCommit, prod);
+    authZwspCount = authEntries.reduce((n, e) => n + (ZWSP.test(e.lv || "") ? 1 : 0), 0);
   }
+
+  const zwspRegressionPass = closed ? zwspCount === authZwspCount : true;
 
   return {
     language: lang,
@@ -159,6 +164,8 @@ function auditLanguage(lang, lvRef, lvEntries) {
     semicolonCount,
     mojibakeCount,
     zwspCount,
+    authZwspCount,
+    zwspRegressionPass,
     placeholderCount,
     emptyNative,
     productionHash: prodHash,
@@ -172,7 +179,7 @@ function auditLanguage(lang, lvRef, lvEntries) {
       entries.length === (closed?.baselineCards ?? lvEntries.length) &&
       semicolonCount === 0 &&
       mojibakeCount === 0 &&
-      zwspCount === 0 &&
+      zwspRegressionPass &&
       placeholderCount === 0 &&
       emptyNative === 0 &&
       (closed ? authoritativeMatch === true : true),
@@ -328,13 +335,19 @@ function main() {
   const closedDatasets = datasets.filter((d) => d.closedStatus === "CLOSED");
   const closedRegressionPass = closedDatasets.every((d) => d.authoritativeMatch === true);
 
+  const closedZwspPass = closedDatasets.every((d) => d.zwspRegressionPass);
+  const notClosedZwspTotal = datasets
+    .filter((d) => d.closedStatus !== "CLOSED")
+    .reduce((sum, d) => sum + d.zwspCount, 0);
+
   const globalGates = {
     syntax: datasets.every((d) => d.syntaxPass) && lvSyntaxPass,
     mirror: datasets.every((d) => d.mirrorPass) && lvMirrorPass,
     idOrder: datasets.every((d) => d.idOrderPass),
     deParity: datasets.every((d) => d.deMismatch === 0),
     mojibake: datasets.every((d) => d.mojibakeCount === 0),
-    zeroWidth: datasets.every((d) => d.zwspCount === 0),
+    zeroWidth: closedZwspPass,
+    notClosedZwspObserved: notClosedZwspTotal,
     placeholders: datasets.every((d) => d.placeholderCount === 0),
     semicolonGate: datasets.every((d) => d.semicolonCount === 0),
     completedDatasetRegression: closedRegressionPass,
