@@ -1,0 +1,210 @@
+{
+  "generatedAt": "2026-08-10T14:33:40.171Z",
+  "baselineRef": "origin/main",
+  "scopeNote": "Production diff vs origin/main: C1 blocks 1–4 (200 cards) + C2 block 6 (35 cards). C1 block 5 (50 cards) not present in production on this branch.",
+  "expectedUniqueCardsPerTask": 285,
+  "uniqueRepairedCardsAudited": 235,
+  "flashcardsAudited": 222,
+  "studyCardsAudited": 13,
+  "changedFieldsAudited": 258,
+  "c1RepairedCardsAudited": 200,
+  "c2RepairedCardsAudited": 35,
+  "c1ChangedFields": 222,
+  "c2ChangedFields": 36,
+  "repairManifest": {
+    "manifestCards": 235,
+    "manifestFields": 258
+  },
+  "ownerNelabot": {
+    "checked": 8,
+    "preserved": 8,
+    "details": [
+      {
+        "cardId": "c1-Grenzverletzung-373",
+        "expectedEn": "Border violation",
+        "currentEn": "Border violation",
+        "preserved": true
+      },
+      {
+        "cardId": "c1-Industrieanlage-395",
+        "expectedEn": "Industrial complex",
+        "currentEn": "Industrial complex",
+        "preserved": true
+      },
+      {
+        "cardId": "c1-Produktionskosten-446",
+        "expectedEn": "Cost of production",
+        "currentEn": "Cost of production",
+        "preserved": true
+      },
+      {
+        "cardId": "c1-Rentenempfänger-458",
+        "expectedEn": "Pensioner",
+        "currentEn": "Pensioner",
+        "preserved": true
+      },
+      {
+        "cardId": "c2-unmissverständlich-3",
+        "expectedEn": "Unmistakable",
+        "currentEn": "Unmistakable",
+        "preserved": true
+      },
+      {
+        "cardId": "c2-Geschenkgutschein-38",
+        "expectedEn": "Gift card",
+        "currentEn": "Gift card",
+        "preserved": true
+      },
+      {
+        "cardId": "c2-Kassettenrecorder-43",
+        "expectedEn": "Cassette tape recorder",
+        "currentEn": "Cassette tape recorder",
+        "preserved": true
+      },
+      {
+        "cardId": "c2-Errungenschaft-117",
+        "expectedEn": "Achievement • Benefit • Gain",
+        "currentEn": "Achievement • Benefit • Gain",
+        "preserved": true
+      }
+    ]
+  },
+  "sourceLvIssueCards": [
+    "c1-Wetterleuchten-553",
+    "c2-Unvoreingenommenheit-0",
+    "c2-Schlittschuhkufe-59",
+    "c2-Straßenunterführung-67",
+    "c2-Forschungsgemeinschaft-137",
+    "c2-Gewinnauszahlung-156",
+    "c2-Hausgemeinschaft-161",
+    "c2-Satellitenübertragung-189"
+  ],
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0
+  },
+  "falsePositiveCount": 1,
+  "sourceLvIssueCount": 0,
+  "ownerNelabotConfirmed": 0,
+  "luna": {
+    "status": "COMPLETED",
+    "model": "gpt-5.6-luna",
+    "rawFindings": 3,
+    "apiUsage": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 10,
+      "initialBatchRequests": 10,
+      "retryRequests": 0,
+      "batchCount": 10,
+      "batchSizes": [
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        12,
+        6,
+        6,
+        1
+      ],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 37302,
+      "cachedInputTokens": 0,
+      "outputTokens": 11804,
+      "reasoningTokens": 6143,
+      "totalTokens": 49106,
+      "findingsCount": 3,
+      "passCount": 255
+    }
+  },
+  "deterministic": {
+    "syntaxC1C2": "PASS",
+    "mirrorC1C2": "PASS",
+    "idOrderC1": "PASS",
+    "idOrderC2": "PASS",
+    "structureC1": "PASS",
+    "structureC2": "PASS",
+    "sectionAccentIssues": 0,
+    "foreignRemnantsC1": 0,
+    "foreignRemnantsC2": 0,
+    "semicolonIssuesC1": 1,
+    "semicolonIssuesC2": 0,
+    "deReadOnly": "PASS"
+  },
+  "productionChangesByAudit": 0,
+  "unexpectedProductionChanges": 0,
+  "verdict": "REPAIRS REQUIRED",
+  "qualityFindings": [
+    {
+      "cardId": "c1-beabsichtigen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
+      "lvSource": "nodomāt • plānot",
+      "currentEn": "What do you intend to achieve with this event?",
+      "proposedEn": "What do you intend to achieve with this measure?",
+      "reason": "Maßnahme means a measure or action here, not an event.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "unterstellen",
+      "lvSource": "pārmest • piedēvēt bez pamata",
+      "currentEn": "Unfounded accusation • Presuppose",
+      "proposedEn": "To accuse unjustly • To impute",
+      "reason": "The bare German verb is rendered as a noun plus a mismatched verb form.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ],
+  "allValidated": [
+    {
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Bezugsperson",
+      "lvSource": "kontaktpersona • tuvākais cilvēks",
+      "currentEn": "Key person • Close person",
+      "proposedEn": "Key person • Person close to you",
+      "reason": "Stylistic synonym or reverts OWNER-approved repair",
+      "confidence": 0.98,
+      "status": "FALSE_POSITIVE"
+    },
+    {
+      "cardId": "c1-beabsichtigen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
+      "lvSource": "nodomāt • plānot",
+      "currentEn": "What do you intend to achieve with this event?",
+      "proposedEn": "What do you intend to achieve with this measure?",
+      "reason": "Maßnahme means a measure or action here, not an event.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "unterstellen",
+      "lvSource": "pārmest • piedēvēt bez pamata",
+      "currentEn": "Unfounded accusation • Presuppose",
+      "proposedEn": "To accuse unjustly • To impute",
+      "reason": "The bare German verb is rendered as a noun plus a mismatched verb form.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ]
+}
