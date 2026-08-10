@@ -1586,7 +1586,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht parken!",
-    "lv": "Parking is prohibited!",
+    "lv": "No parking!",
     "level": "Sätze"
   },
   {
@@ -1606,7 +1606,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Glückliche Reise!",
-    "lv": "Happy journey!",
+    "lv": "Have a good journey!",
     "level": "Sätze"
   },
   {
@@ -1621,7 +1621,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Schon gut!",
-    "lv": "It's already good!",
+    "lv": "That's all right!",
     "level": "Sätze"
   },
   {
@@ -1646,7 +1646,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie sehr auch...",
-    "lv": "How much...",
+    "lv": "However much...",
     "level": "Sätze"
   },
   {
@@ -1676,17 +1676,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "No joke! • Jokes on the edge!",
+    "lv": "Joking aside! • All jokes aside!",
     "level": "Sätze"
   },
   {
     "de": "Wie spät ist es?",
-    "lv": "What time is it",
+    "lv": "What time is it?",
     "level": "Sätze"
   },
   {
     "de": "Durchfahrt gesperrt!",
-    "lv": "Driving through is prohibited!",
+    "lv": "No through traffic!",
     "level": "Sätze"
   },
   {
@@ -1701,7 +1701,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie steht’s?",
-    "lv": "How are you",
+    "lv": "How are you?",
     "level": "Sätze"
   },
   {
@@ -1736,7 +1736,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht übel!",
-    "lv": "Very good! • There is no objection",
+    "lv": "Not bad! • Pretty good!",
     "level": "Sätze"
   },
   {
@@ -1751,12 +1751,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "So ist es üblich.",
-    "lv": "It is accepted.",
+    "lv": "That's customary.",
     "level": "Sätze"
   },
   {
     "de": "Deine Uhr geht nach.",
-    "lv": "Your watch is behind.",
+    "lv": "Your watch is slow.",
     "level": "Sätze"
   },
   {
@@ -1771,7 +1771,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "umso mehr",
-    "lv": "The more",
+    "lv": "All the more",
     "level": "Sätze"
   },
   {
@@ -1781,7 +1781,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Und ob!",
-    "lv": "And what else!",
+    "lv": "You bet!",
     "level": "Sätze"
   },
   {
@@ -1801,7 +1801,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Keine Ursache!",
-    "lv": "Nothing for nothing!",
+    "lv": "You're welcome!",
     "level": "Sätze"
   },
   {
@@ -1816,7 +1816,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Falsch verbunden!",
-    "lv": "Wrong connection!",
+    "lv": "You've got the wrong number!",
     "level": "Sätze"
   },
   {
@@ -1836,12 +1836,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seine Ansicht vertreten.",
-    "lv": "Defend your opinion.",
+    "lv": "To defend one's opinion.",
     "level": "Sätze"
   },
   {
     "de": "Streit verursachen.",
-    "lv": "Cause an argument.",
+    "lv": "To cause an argument.",
     "level": "Sätze"
   },
   {
@@ -1856,7 +1856,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vom Hörensagen.",
-    "lv": "After hearing.",
+    "lv": "By hearsay.",
     "level": "Sätze"
   },
   {
@@ -1891,17 +1891,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor Freude.",
-    "lv": "For fun.",
+    "lv": "For joy.",
     "level": "Sätze"
   },
   {
     "de": "Vor allem.",
-    "lv": "First of all. • First of all",
+    "lv": "Above all. • Especially.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Previously.",
+    "lv": "In advance.",
     "level": "Sätze"
   },
   {
@@ -1911,12 +1911,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter dem Vorbehalt.",
-    "lv": "Conditionally.",
+    "lv": "Subject to a condition.",
     "level": "Sätze"
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "To be. • Be present • Be available",
+    "lv": "To exist. • To be present. • To be available.",
     "level": "Sätze"
   },
   {
@@ -1926,7 +1926,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorkehrungen treffen.",
-    "lv": "Take measures for protection.",
+    "lv": "To take precautions.",
     "level": "Sätze"
   },
   {
@@ -1941,7 +1941,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "This morning. • Today in the morning",
+    "lv": "This morning.",
     "level": "Sätze"
   },
   {
@@ -1956,7 +1956,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von vornherein.",
-    "lv": "At the very beginning.",
+    "lv": "From the outset.",
     "level": "Sätze"
   },
   {
@@ -1971,17 +1971,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wach werden.",
-    "lv": "Wake up.",
+    "lv": "To wake up.",
     "level": "Sätze"
   },
   {
     "de": "Auf Wache sein.",
-    "lv": "Stand guard.",
+    "lv": "To stand guard.",
     "level": "Sätze"
   },
   {
     "de": "Während eines Jahres.",
-    "lv": "During the year.",
+    "lv": "Over the course of a year.",
     "level": "Sätze"
   },
   {
@@ -1991,7 +1991,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gegen eine Wand reden.",
-    "lv": "Talk in vain.",
+    "lv": "To talk to a brick wall.",
     "level": "Sätze"
   },
   {
@@ -2011,7 +2011,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf eine Nachricht warten.",
-    "lv": "Wait for the message.",
+    "lv": "To wait for a message.",
     "level": "Sätze"
   },
   {
@@ -2021,7 +2021,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für ein...?",
-    "lv": "Who...? • What about...?",
+    "lv": "What kind of...?",
     "level": "Sätze"
   },
   {
@@ -2031,12 +2031,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "That way. • For such funds",
+    "lv": "In this way. • By these means",
     "level": "Sätze"
   },
   {
     "de": "Auf friedlichem Wege.",
-    "lv": "In the path of peace.",
+    "lv": "By peaceful means.",
     "level": "Sätze"
   },
   {
@@ -2046,7 +2046,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Rechts wegen.",
-    "lv": "By justice.",
+    "lv": "By rights.",
     "level": "Sätze"
   },
   {
@@ -2066,12 +2066,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Art und Weise.",
-    "lv": "Type.",
+    "lv": "Manner.",
     "level": "Sätze"
   },
   {
     "de": "Ohne weiteres.",
-    "lv": "Immediately. • Immediately",
+    "lv": "Without further ado. • Without difficulty.",
     "level": "Sätze"
   },
   {
@@ -2101,7 +2101,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In wenigen Tagen.",
-    "lv": "In some days.",
+    "lv": "In a few days.",
     "level": "Sätze"
   },
   {
@@ -2116,7 +2116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wer da?",
-    "lv": "What's there?",
+    "lv": "Who's there?",
     "level": "Sätze"
   },
   {
@@ -2151,17 +2151,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Wettbewerb treten.",
-    "lv": "Enter the competition.",
+    "lv": "To enter a competition.",
     "level": "Sätze"
   },
   {
     "de": "Um die Wette laufen.",
-    "lv": "Run the race.",
+    "lv": "To race each other.",
     "level": "Sätze"
   },
   {
     "de": "Was gilt die Wette?",
-    "lv": "What are we bargaining for?",
+    "lv": "What are we betting?",
     "level": "Sätze"
   },
   {
@@ -2171,7 +2171,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wettkampf im Turnen.",
-    "lv": "Competitions in gymnastics.",
+    "lv": "Gymnastics competition.",
     "level": "Sätze"
   },
   {
@@ -2191,7 +2191,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie lange?",
-    "lv": "How long",
+    "lv": "How long?",
     "level": "Sätze"
   },
   {
@@ -2211,17 +2211,17 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Herzlich willkommen!",
-    "lv": "Warm greetings!",
+    "lv": "A warm welcome!",
     "level": "Sätze"
   },
   {
     "de": "Du musst ziehen.",
-    "lv": "You have a move.",
+    "lv": "It's your turn.",
     "level": "Sätze"
   },
   {
     "de": "Es zieht.",
-    "lv": "Pull",
+    "lv": "There's a draught.",
     "level": "Sätze"
   },
   {
@@ -2251,7 +2251,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Von Tag zu Tag.",
-    "lv": "On a daily basis.",
+    "lv": "Day by day.",
     "level": "Sätze"
   },
   {
@@ -2261,12 +2261,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wasser zum Trinken.",
-    "lv": "Water for drinking.",
+    "lv": "Drinking water.",
     "level": "Sätze"
   },
   {
     "de": "Zu Fuß.",
-    "lv": "For legs.",
+    "lv": "On foot.",
     "level": "Sätze"
   },
   {

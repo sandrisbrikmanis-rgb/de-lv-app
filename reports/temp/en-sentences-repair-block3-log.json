@@ -1,0 +1,437 @@
+{
+  "block": "3/5",
+  "reviewed": 50,
+  "changed": 50,
+  "nelabotUnchanged": 0,
+  "nelabotIds": [],
+  "sourceLvIssues": [
+    {
+      "cardId": "satze-379",
+      "de": "Vor allem.",
+      "lvSourceBefore": "Pirmkārt. • Vispirms",
+      "lvSourceNote": "Pirmkārt. • Vispirms",
+      "enBefore": "First of all. • First of all",
+      "enAfter": "Above all. • Especially.",
+      "lvChanged": false
+    },
+    {
+      "cardId": "satze-414",
+      "de": "Ohne weiteres.",
+      "lvSourceBefore": "Tūlīt. • Nekavējoties",
+      "lvSourceNote": "Tūlīt. • Nekavējoties",
+      "enBefore": "Immediately. • Immediately",
+      "enAfter": "Without further ado. • Without difficulty.",
+      "lvChanged": false
+    }
+  ],
+  "appliedIds": [
+    "satze-317",
+    "satze-321",
+    "satze-324",
+    "satze-329",
+    "satze-335",
+    "satze-336",
+    "satze-337",
+    "satze-340",
+    "satze-347",
+    "satze-350",
+    "satze-351",
+    "satze-354",
+    "satze-356",
+    "satze-360",
+    "satze-363",
+    "satze-367",
+    "satze-368",
+    "satze-371",
+    "satze-378",
+    "satze-379",
+    "satze-380",
+    "satze-382",
+    "satze-383",
+    "satze-385",
+    "satze-388",
+    "satze-391",
+    "satze-394",
+    "satze-395",
+    "satze-396",
+    "satze-398",
+    "satze-402",
+    "satze-404",
+    "satze-406",
+    "satze-407",
+    "satze-409",
+    "satze-413",
+    "satze-414",
+    "satze-420",
+    "satze-423",
+    "satze-430",
+    "satze-431",
+    "satze-432",
+    "satze-434",
+    "satze-438",
+    "satze-442",
+    "satze-443",
+    "satze-444",
+    "satze-450",
+    "satze-452",
+    "satze-453"
+  ],
+  "deReadOnly": true,
+  "lvSourceReadOnly": true,
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "satze444Exact": true,
+  "unexpectedChanges": 0,
+  "applied": [
+    {
+      "id": "satze-317",
+      "before": "Parking is prohibited!",
+      "after": "No parking!",
+      "de": "Nicht parken!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-321",
+      "before": "Happy journey!",
+      "after": "Have a good journey!",
+      "de": "Glückliche Reise!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-324",
+      "before": "It's already good!",
+      "after": "That's all right!",
+      "de": "Schon gut!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-329",
+      "before": "How much...",
+      "after": "However much...",
+      "de": "Wie sehr auch...",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-335",
+      "before": "No joke! • Jokes on the edge!",
+      "after": "Joking aside! • All jokes aside!",
+      "de": "Spaß beiseite!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-336",
+      "before": "What time is it",
+      "after": "What time is it?",
+      "de": "Wie spät ist es?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-337",
+      "before": "Driving through is prohibited!",
+      "after": "No through traffic!",
+      "de": "Durchfahrt gesperrt!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-340",
+      "before": "How are you",
+      "after": "How are you?",
+      "de": "Wie steht’s?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-347",
+      "before": "Very good! • There is no objection",
+      "after": "Not bad! • Pretty good!",
+      "de": "Nicht übel!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-350",
+      "before": "It is accepted.",
+      "after": "That's customary.",
+      "de": "So ist es üblich.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-351",
+      "before": "Your watch is behind.",
+      "after": "Your watch is slow.",
+      "de": "Deine Uhr geht nach.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-354",
+      "before": "The more",
+      "after": "All the more",
+      "de": "umso mehr",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-356",
+      "before": "And what else!",
+      "after": "You bet!",
+      "de": "Und ob!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-360",
+      "before": "Nothing for nothing!",
+      "after": "You're welcome!",
+      "de": "Keine Ursache!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-363",
+      "before": "Wrong connection!",
+      "after": "You've got the wrong number!",
+      "de": "Falsch verbunden!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-367",
+      "before": "Defend your opinion.",
+      "after": "To defend one's opinion.",
+      "de": "Seine Ansicht vertreten.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-368",
+      "before": "Cause an argument.",
+      "after": "To cause an argument.",
+      "de": "Streit verursachen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-371",
+      "before": "After hearing.",
+      "after": "By hearsay.",
+      "de": "Vom Hörensagen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-378",
+      "before": "For fun.",
+      "after": "For joy.",
+      "de": "Vor Freude.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-379",
+      "before": "First of all. • First of all",
+      "after": "Above all. • Especially.",
+      "de": "Vor allem.",
+      "sourceLvIssue": true
+    },
+    {
+      "id": "satze-380",
+      "before": "Previously.",
+      "after": "In advance.",
+      "de": "Im Voraus.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-382",
+      "before": "Conditionally.",
+      "after": "Subject to a condition.",
+      "de": "Unter dem Vorbehalt.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-383",
+      "before": "To be. • Be present • Be available",
+      "after": "To exist. • To be present. • To be available.",
+      "de": "Vorhanden sein.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-385",
+      "before": "Take measures for protection.",
+      "after": "To take precautions.",
+      "de": "Vorkehrungen treffen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-388",
+      "before": "This morning. • Today in the morning",
+      "after": "This morning.",
+      "de": "Heute Vormittag.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-391",
+      "before": "At the very beginning.",
+      "after": "From the outset.",
+      "de": "Von vornherein.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-394",
+      "before": "Wake up.",
+      "after": "To wake up.",
+      "de": "Wach werden.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-395",
+      "before": "Stand guard.",
+      "after": "To stand guard.",
+      "de": "Auf Wache sein.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-396",
+      "before": "During the year.",
+      "after": "Over the course of a year.",
+      "de": "Während eines Jahres.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-398",
+      "before": "Talk in vain.",
+      "after": "To talk to a brick wall.",
+      "de": "Gegen eine Wand reden.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-402",
+      "before": "Wait for the message.",
+      "after": "To wait for a message.",
+      "de": "Auf eine Nachricht warten.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-404",
+      "before": "Who...? • What about...?",
+      "after": "What kind of...?",
+      "de": "Was für ein...?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-406",
+      "before": "That way. • For such funds",
+      "after": "In this way. • By these means",
+      "de": "Auf diesem Wege.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-407",
+      "before": "In the path of peace.",
+      "after": "By peaceful means.",
+      "de": "Auf friedlichem Wege.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-409",
+      "before": "By justice.",
+      "after": "By rights.",
+      "de": "Von Rechts wegen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-413",
+      "before": "Type.",
+      "after": "Manner.",
+      "de": "Art und Weise.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-414",
+      "before": "Immediately. • Immediately",
+      "after": "Without further ado. • Without difficulty.",
+      "de": "Ohne weiteres.",
+      "sourceLvIssue": true
+    },
+    {
+      "id": "satze-420",
+      "before": "In some days.",
+      "after": "In a few days.",
+      "de": "In wenigen Tagen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-423",
+      "before": "What's there?",
+      "after": "Who's there?",
+      "de": "Wer da?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-430",
+      "before": "Enter the competition.",
+      "after": "To enter a competition.",
+      "de": "In Wettbewerb treten.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-431",
+      "before": "Run the race.",
+      "after": "To race each other.",
+      "de": "Um die Wette laufen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-432",
+      "before": "What are we bargaining for?",
+      "after": "What are we betting?",
+      "de": "Was gilt die Wette?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-434",
+      "before": "Competitions in gymnastics.",
+      "after": "Gymnastics competition.",
+      "de": "Wettkampf im Turnen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-438",
+      "before": "How long",
+      "after": "How long?",
+      "de": "Wie lange?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-442",
+      "before": "Warm greetings!",
+      "after": "A warm welcome!",
+      "de": "Herzlich willkommen!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-443",
+      "before": "You have a move.",
+      "after": "It's your turn.",
+      "de": "Du musst ziehen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-444",
+      "before": "Pull",
+      "after": "There's a draught.",
+      "de": "Es zieht.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-450",
+      "before": "On a daily basis.",
+      "after": "Day by day.",
+      "de": "Von Tag zu Tag.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-452",
+      "before": "Water for drinking.",
+      "after": "Drinking water.",
+      "de": "Wasser zum Trinken.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-453",
+      "before": "For legs.",
+      "after": "On foot.",
+      "de": "Zu Fuß.",
+      "sourceLvIssue": false
+    }
+  ]
+}
