@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-08-10T13:40:10.676Z",
+  "scope": "EN-DE C1/C2",
+  "totals": {
+    "cards": 791,
+    "studies": 16,
+    "flashcards": 775,
+    "c1": 572,
+    "c2": 219
+  },
+  "deterministic": {
+    "parity": {
+      "pass": true,
+      "c1": {
+        "lvCount": 572,
+        "langCount": 572,
+        "countMatch": true,
+        "lvStudyCount": 15,
+        "langStudyCount": 15,
+        "orderMismatches": 0,
+        "missingFields": [],
+        "layoutMismatches": []
+      },
+      "c2": {
+        "lvCount": 219,
+        "langCount": 219,
+        "countMatch": true,
+        "lvStudyCount": 1,
+        "langStudyCount": 1,
+        "orderMismatches": 0,
+        "missingFields": [],
+        "layoutMismatches": []
+      }
+    },
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "mirrorFailures": [],
+    "sectionAccentIssues": 0,
+    "semicolonIssues": 0,
+    "lvRemnants": {
+      "count": 0,
+      "issues": []
+    },
+    "deReadOnly": true,
+    "deHashes": {
+      "C1": "6f89d30412293405af7e6dcb1b20f936",
+      "C2": "374d2d52db6f9497103784fd6979f5fd"
+    }
+  },
+  "perLevel": {
+    "C1": {
+      "cards": 572,
+      "studies": 15,
+      "flashcards": 557,
+      "standardStudy": 15,
+      "mirrorPass": true,
+      "enHash": "5df51e70790016d95860527dad8ac32e",
+      "wwwHash": "5df51e70790016d95860527dad8ac32e"
+    },
+    "C2": {
+      "cards": 219,
+      "studies": 1,
+      "flashcards": 218,
+      "standardStudy": 1,
+      "mirrorPass": true,
+      "enHash": "9f40fb41700907f54f1d04726bdffb9e",
+      "wwwHash": "9f40fb41700907f54f1d04726bdffb9e"
+    }
+  },
+  "standards": [
+    "LANGUAGE_AUDIT_STANDARD",
+    "APP_QUALITY_STANDARD",
+    "STUDY_CARD_RULES",
+    "COMPARISON_STUDY_RULES",
+    "UI_UX_VISUAL_COLOR_RULES"
+  ]
+}
