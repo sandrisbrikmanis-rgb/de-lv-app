@@ -69,6 +69,7 @@ function main() {
 
   const det = loadJson(path.join(dir, "deterministic-audit.json")) || { findings: [], meta: {} };
   const ling = loadJson(path.join(dir, "linguistic-audit.json")) || { findings: [], meta: {}, severityCounts: {}, nonErrorCounts: {} };
+  const cross = loadJson(path.join(dir, "cross-dataset-findings.json")) || [];
 
   const allFindings = [...(det.findings || [])];
   for (const f of ling.findings || ling.qualityFindings || []) {
@@ -85,6 +86,22 @@ function main() {
       problem: f.reason,
       proposedCs: f.proposedCs,
       rationale: `Luna linguistic audit (${f.confidence || "medium"} confidence)`,
+    });
+  }
+  for (const inc of cross) {
+    allFindings.push({
+      dataset,
+      batch: "cross-dataset",
+      cardId: inc.locations?.[0] || inc.de,
+      field: "lv",
+      severity: inc.severity || "MEDIUM",
+      status: "FINDING",
+      currentCs: inc.variants?.join(" vs "),
+      de: inc.de,
+      lvSource: "—",
+      problem: `Inconsistent Czech translation across datasets: ${inc.variants?.join(" | ")}`,
+      proposedCs: "(unify terminology)",
+      rationale: "Cross-dataset consistency pass",
     });
   }
 

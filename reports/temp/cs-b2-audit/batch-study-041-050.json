@@ -1,0 +1,402 @@
+{
+  "dataset": "b2",
+  "batch": "study-041-050",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "b2-sich-revanchieren",
+    "b2-sich-scheren",
+    "b2-sein-study",
+    "b2-sofern",
+    "b2-sich-vereinigen",
+    "b2-sich-versehen",
+    "b2-sich-versoehnen",
+    "b2-sich-verstellen",
+    "b2-sich-verwundern",
+    "b2-sich-widersetzen"
+  ],
+  "findings": [
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "sich revanchieren",
+      "lvSource": "atmaksāt • atriebties",
+      "currentCs": "Odplatit • Pomstít se",
+      "proposedCs": "Odvděčit se • Pomstít se",
+      "reason": "„Odplatit“ je bezpředmětové a méně přirozené; „odvděčit se“ lépe vystihuje reflexivní německý výraz.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-revanchieren",
+      "field": "study.formsLabel",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich revanchieren",
+      "lvSource": "Vadība:",
+      "currentCs": "Vadība:",
+      "proposedCs": "Vazba:",
+      "reason": "„Vadība“ je lotyšská kontaminace; český termín pro rekci je „Vazba“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-scheren",
+      "field": "study.formsLabel",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich scheren",
+      "lvSource": "Vadība:",
+      "currentCs": "Vadība:",
+      "proposedCs": "Vazba:",
+      "reason": "„Vadība“ je lotyšská kontaminace; český termín pro rekci je „Vazba“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sein-study",
+      "field": "study.explanation",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Sein",
+      "lvSource": "esamība",
+      "currentCs": [
+        "Hlavní myšlenka: das Sein s velkým písmenem a členem das je podstatné jméno - existence, existence (filosofický pojem).",
+        "Sein s malým písmenem je sloveso - být.",
+        "Das Sein se často používá ve filozofickém nebo abstraktním kontextu (das menschliche Sein).",
+        "Substantivizace: sein → das Sein, jako können → das Können."
+      ],
+      "proposedCs": [
+        "Hlavní myšlenka: das Sein s velkým písmenem a členem das je podstatné jméno – existence (filozofický pojem).",
+        "Sein s malým písmenem je sloveso – být.",
+        "Das Sein se často používá ve filozofickém nebo abstraktním kontextu (das menschliche Sein).",
+        "Substantivace: sein → das Sein, stejně jako können → das Können."
+      ],
+      "reason": "V první větě se opakuje „existence“ a spojovníky jsou typograficky nevhodné; text lze také přirozeněji formulovat.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sein-study",
+      "field": "study.examples[2].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Ich bin müde.",
+      "lvSource": "es esmu noguris.",
+      "currentCs": "Jsem unavený",
+      "proposedCs": "Jsem unavený.",
+      "reason": "České příkladové větě chybí koncová tečka.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sofern",
+      "field": "study.explanation",
+      "severity": "HIGH",
+      "category": "ORTHOGRAPHY",
+      "de": "sofern",
+      "lvSource": "ja • ar noteikumu, ka",
+      "currentCs": [
+        "Hlavní myšlenka: sofät je podmínková spojka - znamená kdyby/bylo to.",
+        "Sofè zavádí podmínkovou pomocnou klauzi, podobnou wenn, ale je formálnější a typická pro psaný styl.",
+        "Soufen NEZNAMENÁ 'protože' (příčinná spojka) - v němčině je to da nebo weil.",
+        "Běžně používané v právních/formálních textech (sofern nicht anders verfahrt = pokud není dohodnuto jinak)."
+      ],
+      "proposedCs": [
+        "Hlavní myšlenka: sofern je podmínková spojka – znamená „pokud“ nebo „za předpokladu, že“.",
+        "Sofern uvozuje podmínkovou vedlejší větu podobně jako wenn, ale je formálnější a typická pro psaný styl.",
+        "Sofern NEZNAMENÁ „protože“ (příčinná spojka) – v němčině je to da nebo weil.",
+        "Běžně se používá v právních a formálních textech (sofern nicht anders vereinbart = pokud není dohodnuto jinak)."
+      ],
+      "reason": "Výklad obsahuje několik zkomolení slova sofern a chybu „verfahrt“ místo „vereinbart“; význam je místy nesrozumitelný.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sofern",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Sofern möglich, bitte pünktlich sein.",
+      "lvSource": "ja iespējams, lūdzu, esiet precīzi.",
+      "currentCs": "Prosím buďte konkrétní, pokud je to možné.",
+      "proposedCs": "Prosím, buďte dochvilní, pokud je to možné.",
+      "reason": "„Pünktlich“ znamená „dochvilný/včas“, nikoli „konkrétní“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sofern",
+      "field": "study.tip",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "sofern",
+      "lvSource": "ja/ar noteikumu, ka; tā kā = da/weil",
+      "currentCs": [
+        "Pokud/za předpokladu, že (podmínka) – nezaměňovat s příčinou.",
+        "'od' (příčina) v němčině je da/weil, ne soufen."
+      ],
+      "proposedCs": [
+        "„Pokud/za předpokladu, že“ (podmínka) – nezaměňovat s příčinou.",
+        "„Protože“ (příčina) se německy řekne da/weil, ne sofern."
+      ],
+      "reason": "Text obsahuje zkomolené „soufen“ a nesmyslné „od“ místo českého „protože“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sofern",
+      "field": "study.important",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "sofern",
+      "lvSource": "nosacījums, ne cēlonis",
+      "currentCs": [
+        "Pokud existuje podmíněná, nikoli příčinná souvislost.",
+        "Nesprávně: soufen = jako → Správně: da/weil = jako."
+      ],
+      "proposedCs": [
+        "Sofern vyjadřuje podmíněnou, nikoli příčinnou souvislost.",
+        "Nesprávně: sofern = protože → Správně: da/weil = protože."
+      ],
+      "reason": "Obě věty obsahují významové a pravopisné chyby: „soufen“ a „jako“ zde nedávají smysl.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-vereinigen",
+      "field": "study.formsLabel",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich vereinigen",
+      "lvSource": "Vadība:",
+      "currentCs": "Vadība:",
+      "proposedCs": "Vazba:",
+      "reason": "„Vadība“ je lotyšská kontaminace; český termín pro rekci je „Vazba“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-versehen",
+      "field": "study.translation",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "sich versehen",
+      "lvSource": "aizmirst • aprīkot ar",
+      "currentCs": "Zapomenout • Vybavit se",
+      "proposedCs": "Zmýlit se • Vybavit se",
+      "reason": "Sich versehen znamená „zmýlit se/udělat chybu“, nikoli „zapomenout“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-versehen",
+      "field": "study.explanation",
+      "severity": "HIGH",
+      "category": "ORTHOGRAPHY",
+      "de": "sich versehen",
+      "lvSource": "sich versehen nepieciešams noteikts prievārds mit + kam?.",
+      "currentCs": "Sich verschein vyžaduje určitou předložku mit + kam?.",
+      "proposedCs": "Sich versehen vyžaduje určitou předložku mit + kam?.",
+      "reason": "Německý výraz je v českém vysvětlení zkomolen jako „verschein“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-versehen",
+      "field": "study.formsLabel",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich versehen",
+      "lvSource": "Vadība:",
+      "currentCs": "Vadība:",
+      "proposedCs": "Vazba:",
+      "reason": "„Vadība“ je lotyšská kontaminace; český termín pro rekci je „Vazba“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-versehnen",
+      "field": "study.sectionAccents",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich versehen",
+      "lvSource": "sich versehen",
+      "currentCs": {
+        "explanation": {
+          "blue": [
+            "Sich verschein"
+          ],
+          "red": [
+            "mit + kam?"
+          ]
+        }
+      },
+      "proposedCs": {
+        "explanation": {
+          "blue": [
+            "Sich versehen"
+          ],
+          "red": [
+            "mit + kam?"
+          ]
+        }
+      },
+      "reason": "Barevné zvýraznění obsahuje překlep „Sich verschein“ místo „Sich versehen“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-versoehnen",
+      "field": "study.formsLabel",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich versöhnen",
+      "lvSource": "Vadība:",
+      "currentCs": "Vadība:",
+      "proposedCs": "Vazba:",
+      "reason": "„Vadība“ je lotyšská kontaminace; český termín pro rekci je „Vazba“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verstellen",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "sich verstellen",
+      "lvSource": "uzdoties par",
+      "currentCs": "Vydávat se za",
+      "proposedCs": "Přetvařovat se",
+      "reason": "Sich verstellen znamená přetvařovat se nebo maskovat své skutečné chování; „vydávat se za“ je jiný výraz.",
+      "confidence": 0.86,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verstellen",
+      "field": "study.formsLabel",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich verstellen",
+      "lvSource": "Vadība:",
+      "currentCs": "Vadība:",
+      "proposedCs": "Vazba:",
+      "reason": "„Vadība“ je lotyšská kontaminace; český termín pro rekci je „Vazba“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-verwundern",
+      "field": "study.formsLabel",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich verwundern",
+      "lvSource": "Vadība:",
+      "currentCs": "Vadība:",
+      "proposedCs": "Vazba:",
+      "reason": "„Vadība“ je lotyšská kontaminace; český termín pro rekci je „Vazba“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-widersetzen",
+      "field": "study.translation",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "sich widersetzen",
+      "lvSource": "pretoties • stāties pretī",
+      "currentCs": "Vzdorovat • Tvářit se",
+      "proposedCs": "Vzdorovat • Stavět se proti",
+      "reason": "„Tvářit se“ znamená „sich zeigen/aussehen“ a nesouvisí s významem „sich widersetzen“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-widersetzen",
+      "field": "study.rektion",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "sich widersetzen",
+      "lvSource": "+ kam?",
+      "currentCs": "+ kam?",
+      "proposedCs": "+ komu?",
+      "reason": "Sich widersetzen se pojí s dativem; česká otázka pro 3. pád je „komu?“, nikoli „kam?“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-widersetzen",
+      "field": "study.explanation",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "sich widersetzen",
+      "lvSource": "sich widersetzen prasa + kam?.",
+      "currentCs": "Sich widesetzen vyžaduje + pro koho?.",
+      "proposedCs": "Sich widersetzen vyžaduje 3. pád (komu?).",
+      "reason": "Výraz obsahuje překlep a chybnou pádovou otázku „pro koho?“ místo dativu „komu?“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-widersetzen",
+      "field": "study.forms",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "sich widersetzen",
+      "lvSource": "+ kam?",
+      "currentCs": "+ kam?",
+      "proposedCs": "+ komu?",
+      "reason": "Sich widersetzen se pojí s dativem; česká otázka pro 3. pád je „komu?“, nikoli „kam?“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-widersetzen",
+      "field": "study.formsLabel",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich widersetzen",
+      "lvSource": "Vadība:",
+      "currentCs": "Vadība:",
+      "proposedCs": "Vazba:",
+      "reason": "„Vadība“ je lotyšská kontaminace; český termín pro rekci je „Vazba“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-sich-widersetzen",
+      "field": "study.sectionAccents",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "sich widersetzen",
+      "lvSource": "sich widersetzen; + kam?",
+      "currentCs": {
+        "explanation": {
+          "blue": [
+            "Sich widesetzen"
+          ],
+          "red": [
+            "Sich"
+          ]
+        }
+      },
+      "proposedCs": {
+        "explanation": {
+          "blue": [
+            "Sich widersetzen"
+          ],
+          "red": [
+            "+ komu?"
+          ]
+        }
+      },
+      "reason": "Zvýraznění obsahuje překlep a označuje „Sich“ místo celé správné rekce „+ komu?“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-10T20:30:27.623Z"
+}

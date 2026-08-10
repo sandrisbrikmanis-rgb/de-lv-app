@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "dataset": "slovesa",
+    "label": "Slovesa",
+    "lvCount": 189,
+    "csCount": 189,
+    "batchSize": 50,
+    "batchCount": 4,
+    "auditedObjects": 189,
+    "coverage": "100%"
+  },
+  "structural": {
+    "issues": [],
+    "pass": true
+  },
+  "germanIntegrity": {
+    "issues": [],
+    "pass": true
+  },
+  "findings": [
+    {
+      "dataset": "slovesa",
+      "batch": "001-050",
+      "cardId": "verb-3",
+      "index": 3,
+      "field": "imperfektIndikativ",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Zakódoval",
+      "de": "er biss",
+      "lvSource": "viņš koda",
+      "problem": "Foreign remnant in verb form imperfektIndikativ: PL_CHAR",
+      "proposedCs": "(Czech form)",
+      "rationale": "Slovesa audit"
+    }
+  ],
+  "batches": []
+}

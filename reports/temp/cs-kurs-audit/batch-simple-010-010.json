@@ -1,0 +1,143 @@
+{
+  "dataset": "kurs",
+  "batch": "simple-010-010",
+  "auditType": "kurs",
+  "cardCount": 1,
+  "cardIds": [
+    "kurssLesson10"
+  ],
+  "findings": [
+    {
+      "cardId": "kurssLesson10",
+      "field": "title",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "(lesson)",
+      "lvSource": "",
+      "currentCs": "Přednáška 10",
+      "proposedCs": "Lekce 10",
+      "reason": "Německé „lesson“ znamená lekce, nikoli přednáška.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson10",
+      "field": "intro",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "lesson 10",
+      "lvSource": "",
+      "currentCs": "Desátá přednáška: sein, können, příkazové formy, zdraví, věk a povolání.",
+      "proposedCs": "Desátá lekce: sein, können, rozkazovací způsob, zdraví, věk a povolání.",
+      "reason": "„Lesson“ je lekce; „příkazové formy“ je méně přesné označení pro imperativ.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson10",
+      "field": "sections[1].items[0]",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Gesund (gezunt)",
+      "lvSource": "",
+      "currentCs": "Gesund (gezunt) — vesels",
+      "proposedCs": "Gesund (gezunt) — zdravý",
+      "reason": "Překlad je lotyšský, nikoli český.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson10",
+      "field": "sections[1].items[1]",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Ich bin gesund",
+      "lvSource": "",
+      "currentCs": "Ich bin gesund — es esmu vesels",
+      "proposedCs": "Ich bin gesund — já jsem zdravý",
+      "reason": "Překlad je lotyšský; v české lekci má být český překlad.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson10",
+      "field": "sections[1].items[13]",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Seien Sie gesund",
+      "lvSource": "",
+      "currentCs": "Seien Sie gesund — esiet Jūs veseli!",
+      "proposedCs": "Seien Sie gesund — Buďte zdráv!",
+      "reason": "Text obsahuje lotyšský překlad a lotyšské zájmeno „Jūs“.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson10",
+      "field": "sections[1]",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Vocabulary translations",
+      "lvSource": "",
+      "currentCs": "Slova",
+      "proposedCs": "Slova (všechny překlady v této sekci převést z lotyštiny do češtiny)",
+      "reason": "V celé sekci jsou české překlady nahrazeny lotyšskými výrazy, např. „zēns“, „vīrs“, „slims“ a „mācīties“.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson10",
+      "field": "sections[2].items[0]",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "Pareizi jāizrunā patskaņu pārkaņojumi.",
+      "proposedCs": "Správně vyslovujte přehlásky.",
+      "reason": "Celá položka je v lotyštině, nikoli v češtině.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson10",
+      "field": "sections[2].items[6]",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "Český valodas o ir divskanis uo. Vācu o skan citādi, piemēram: fonds, nominatīvs, fotogrāfs.",
+      "proposedCs": "České o není dvojhláska uo. Německé o zní jinak, například ve slovech Fonds, Nominativ a Fotograf.",
+      "reason": "Text je směsí češtiny a lotyštiny a obsahuje chybnou formulaci o českém o.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson10",
+      "field": "sections[3].items[0].text",
+      "severity": "HIGH",
+      "category": "NATURALNESS",
+      "de": "sein = být",
+      "lvSource": "",
+      "currentCs": "Pomocné sloveso sein - být arc messy. Proto by se to mělo dobře naučit.",
+      "proposedCs": "Pomocné sloveso sein – být – je nepravidelné. Proto je třeba se je dobře naučit.",
+      "reason": "Text obsahuje anglický odpad „arc messy“ a je gramaticky i stylisticky nesrozumitelný.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson10",
+      "field": "sections[3].items[3].text",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "können",
+      "lvSource": "",
+      "currentCs": "Stejně tak pomocné sloveso können – umět – se nepravidelně skloňuje.",
+      "proposedCs": "Stejně tak se způsobové sloveso können – umět – nepravidelně časuje.",
+      "reason": "Slovesa se časují, nikoli skloňují; können je způsobové, ne pomocné sloveso.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-10T21:06:32.922Z"
+}

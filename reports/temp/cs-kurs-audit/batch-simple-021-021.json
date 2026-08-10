@@ -1,0 +1,117 @@
+{
+  "dataset": "kurs",
+  "batch": "simple-021-021",
+  "auditType": "kurs",
+  "cardCount": 1,
+  "cardIds": [
+    "kurssLesson21"
+  ],
+  "findings": [
+    {
+      "cardId": "kurssLesson21",
+      "field": "title",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "(lesson)",
+      "lvSource": "",
+      "currentCs": "Přednáška 21",
+      "proposedCs": "Lekce 21",
+      "reason": "Německé „lesson“ znamená „lekce“, nikoli „přednáška“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson21",
+      "field": "intro",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "(lesson)",
+      "lvSource": "",
+      "currentCs": "Dvacátá první přednáška: woher / wohin / wo, von / aus / mit + Dativ.",
+      "proposedCs": "Dvacátá první lekce: woher / wohin / wo, von / aus / mit + Dativ.",
+      "reason": "„Lesson“ je v češtině „lekce“, ne „přednáška“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson21",
+      "field": "sections[1].title",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Vocabulary section",
+      "lvSource": "",
+      "currentCs": "Jména",
+      "proposedCs": "Slovíčka",
+      "reason": "Sekce obsahuje slovní zásobu, nikoli jména osob nebo názvy.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson21",
+      "field": "sections[1].items",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Der Holzhauer; Sägen; Spalten; Die Axt; Von; Aus; Mit; Helfen; Treten; Rufen; Holen; Eilen; Zurück; Finden; Sehen; Fleißig; Die Scheune; Das Feld; Der Berg; Die Brücke; Der Hof; Der Keller; Die Küche; Die Milch; Der Eimer; Die Säge; Das Beil",
+      "lvSource": "malkas cirtējs; zāģēt; skaldīt; cirvis; no; no / iz; ar; palīdzēt; iet / nākt / spert soli; saukt; atnest / atgādāt; steigties; atpakaļ; atrast; redzēt; čakli; šķūnis; lauks; kalns; tilts; pagalms; pagrabs; virtuve; piens; spainis; zāģis; cirvis",
+      "currentCs": "malkas cirtējs; zāģēt; skaldīt; cirvis; no; no / iz; ar; palīdzēt; iet / nākt / spert soli; tu ej / tu sper soli; viņš iet / sper soli; saukt; atnest / atgādāt; steigties; atpakaļ; atrast; redzēt; tu redzi; viņš redz; čakli; šķūnis; lauks; kalns; tilts; pagalms; pagrabs; virtuve; piens; spainis; zāģis; cirvis",
+      "proposedCs": "dřevorubec; řezat pilou; štípat; sekera; od / z; z / ze; s / se; pomáhat; vstoupit / vykročit; ty vstupuješ / vykračuješ; on vstupuje / vykračuje; volat; přinést / dojít pro; spěchat; zpět; najít; vidět; ty vidíš; on vidí; pilně; stodola; pole; hora; most; dvůr; sklep; kuchyně; mléko; kbelík; pila; sekera",
+      "reason": "Překlady jsou lotyšské, nikoli české; celý slovníčkový oddíl proto není použitelný pro CS-DE kurz.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson21",
+      "field": "sections[2].items[1].examples[2]",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Moderne Form",
+      "lvSource": "",
+      "currentCs": "Mūsdienu forma: vom Feld, vom Berg.",
+      "proposedCs": "Moderní podoba: vom Feld, vom Berg.",
+      "reason": "Věta obsahuje lotyšský text „Mūsdienu forma“ místo češtiny.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson21",
+      "field": "sections[3].items",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Pronunciation notes",
+      "lvSource": "",
+      "currentCs": "Vārdā die Axt: x izrunā kā ks. / Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai. / Vārdā die Scheune: eu izrunā kā oi. / Vārdā die Brücke: ck izrunā kā dubultu k.",
+      "proposedCs": "Ve slově die Axt: x se vyslovuje jako ks. / Ve slovech arbeiten, das Beil, steigen: ei se vyslovuje jako aj. / Ve slově die Scheune: eu se vyslovuje jako oj. / Ve slově die Brücke: ck se vyslovuje jako zdvojené k.",
+      "reason": "Všechny čtyři poznámky jsou převážně lotyšsky; je nutné je převést do češtiny.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson21",
+      "field": "sections[4].cards[*].task",
+      "severity": "HIGH",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "Atbildi pēc lasīšanas teksta.",
+      "lvSource": "Atbildi pēc lasīšanas teksta.",
+      "currentCs": "Atbildi pēc lasīšanas teksta.",
+      "proposedCs": "Odpověz podle textu.",
+      "reason": "Instrukce cvičení je lotyšská místo české.",
+      "confidence": 1,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "kurssLesson21",
+      "field": "sections[4].cards[6]",
+      "severity": "CRITICAL",
+      "category": "STUDY",
+      "de": "Woher tritt die Mutter? Die Mutter tritt aus dem Hause.",
+      "lvSource": "",
+      "currentCs": "{\"prompt\":\"Woher tritt die Mutter?\",\"t\"",
+      "proposedCs": "{\"prompt\":\"Woher tritt die Mutter?\",\"task\":\"Odpověz podle textu.\",\"answer\":\"Die Mutter tritt aus dem Hause.\"}",
+      "reason": "Karta je syntakticky neplatná: obsahuje osamocené „t“ a chybí task i answer.",
+      "confidence": 1,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-10T21:11:32.792Z"
+}

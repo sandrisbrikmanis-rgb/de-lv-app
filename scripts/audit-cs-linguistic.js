@@ -119,8 +119,13 @@ async function auditBatchWithRetry(cards, stats, batchKey, auditType, dataset) {
 async function main() {
   const dataset = parseDataset();
   const cfg = DATASET_CONFIG[dataset];
-  const csFile = cfg ? path.join(ROOT, cfg.csFile) : path.join(ROOT, `data/cs/${dataset === "vety" ? "sentences" : dataset === "slovesa" ? "verbs" : "courseLessons"}.js`);
-  const hashBefore = fs.existsSync(csFile) ? md5(csFile) : "n/a";
+  const csRel = cfg?.csFile
+    || (dataset === "vety" ? "data/cs/sentences.js"
+      : dataset === "slovesa" ? "data/cs/verbs.js"
+      : dataset === "kurs" ? "data/cs/courseLessons.js"
+      : null);
+  const csFile = csRel ? path.join(ROOT, csRel) : null;
+  const hashBefore = csFile && fs.existsSync(csFile) ? md5(csFile) : "n/a";
 
   const outDir = tempDir(dataset);
   ensureDir(outDir);
@@ -199,7 +204,8 @@ async function main() {
   const deduped = [];
   const seen = new Set();
   for (const f of qualityFindings) {
-    const key = `${f.cardId}|${f.field}|${(f.currentCs || "").slice(0, 60)}`;
+    const csText = typeof f.currentCs === "string" ? f.currentCs : JSON.stringify(f.currentCs || "");
+    const key = `${f.cardId}|${f.field}|${csText.slice(0, 60)}`;
     if (seen.has(key)) continue;
     seen.add(key);
     deduped.push(f);

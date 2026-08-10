@@ -1,0 +1,59 @@
+{
+  "dataset": "b2",
+  "batch": "simple-2051-2058",
+  "auditType": "vocab_simple",
+  "cardCount": 8,
+  "cardIds": [
+    "b2-Zuwendung-2101",
+    "b2-zwanglos-2103",
+    "b2-zweckmäßig-2104",
+    "b2-zweifellos-2105",
+    "b2-Zwielicht-2106",
+    "b2-Zwirn-2107",
+    "b2-Zwischenfall-2108",
+    "b2-Zwischenraum-2109"
+  ],
+  "findings": [
+    {
+      "cardId": "b2-zweckmäßig-2104",
+      "field": "csText",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "zweckmäßig",
+      "lvSource": "lietderīgs",
+      "currentCs": "Výhodný",
+      "proposedCs": "Účelný • Praktický",
+      "reason": "„Výhodný“ znamená spíše advantageous; německé slovo označuje účelnost, praktičnost nebo vhodnost.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-Zwirn-2107",
+      "field": "csText",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Zwirn",
+      "lvSource": "diegs",
+      "currentCs": "Vlákno",
+      "proposedCs": "Nit",
+      "reason": "„Zwirn“ je nit, obvykle pevná nebo kroucená; „vlákno“ označuje fiber a význam je příliš obecný.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b2-Zwischenraum-2109",
+      "field": "csText",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Zwischenraum",
+      "lvSource": "atstarpe • starptelpa",
+      "currentCs": "Prostor • Meziprostor",
+      "proposedCs": "Mezera • Meziprostor",
+      "reason": "„Prostor“ je příliš obecné; běžný význam Zwischenraum je mezera nebo prostor mezi dvěma věcmi.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 5,
+  "completedAt": "2026-08-10T20:26:58.904Z"
+}

@@ -1,0 +1,117 @@
+{
+  "dataset": "a2",
+  "batch": "study-231-231",
+  "auditType": "vocab_study",
+  "cardCount": 1,
+  "cardIds": [
+    "a2-auch"
+  ],
+  "findings": [
+    {
+      "cardId": "a2-auch",
+      "field": "study.examples[0].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Ich komme auch.",
+      "lvSource": "Já jdu taky.",
+      "currentCs": "Já jdu taky.",
+      "proposedCs": "Já taky přijdu.",
+      "reason": "„Jdu“ znamená „gehe“, nikoli „komme“; česká věta mění význam německého příkladu.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-auch",
+      "field": "study.examples[1].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Ich komme auch.",
+      "lvSource": "es arī nāku.",
+      "currentCs": "Já jdu taky",
+      "proposedCs": "Já taky přijdu.",
+      "reason": "„Jdu“ znamená „gehe“, nikoli „komme“; chybí také koncová tečka.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-auch",
+      "field": "study.sectionAccents.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "auch",
+      "lvSource": "arī",
+      "currentCs": "jdu",
+      "proposedCs": "taky",
+      "reason": "Zvýrazněné české slovo neodpovídá významu „auch“; správně je „taky“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-auch",
+      "field": "study.sectionAccents.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "auch",
+      "lvSource": "arī",
+      "currentCs": "jdu",
+      "proposedCs": "taky",
+      "reason": "Zvýrazněné české slovo neodpovídá významu „auch“; správně je „taky“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-auch",
+      "field": "study.sectionAccents.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "de": "auch",
+      "lvSource": "arī",
+      "currentCs": "Ona",
+      "proposedCs": "také",
+      "reason": "Zvýrazněno je podmětné „Ona“, ale význam slova „auch“ vyjadřuje „také“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-auch",
+      "field": "study.explanation[1]",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "auch",
+      "lvSource": "auch galvenokārt nozīmē: vienkāršs “arī”.",
+      "currentCs": "Auch v podstatě znamená: jednoduché „také“.",
+      "proposedCs": "Auch v podstatě znamená jednoduše „také“.",
+      "reason": "Česká formulace s dvojtečkou je nepřirozená; příslovce „jednoduše“ větu gramaticky zpřesňuje.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-auch",
+      "field": "study.explanation[2]",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "auch",
+      "lvSource": "Bieži raksturo: papildinājumu.",
+      "currentCs": "Často charakterizováno: sčítáním.",
+      "proposedCs": "Často vyjadřuje přidání.",
+      "reason": "Výraz je gramaticky neúplný a „sčítání“ není v tomto kontextu přirozený český výraz.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-auch",
+      "field": "study.tip[1]",
+      "severity": "LOW",
+      "category": "GRAMMAR",
+      "de": "auch",
+      "lvSource": "Izmanto auch, kad konteksts atbilst šai nozīmei.",
+      "currentCs": "Používá auch, když kontext vyhovuje tomuto významu.",
+      "proposedCs": "Použijte „auch“, když se tento význam hodí do kontextu.",
+      "reason": "Původní věta má nejasný podmět a neobratnou vazbu „kontext vyhovuje významu“.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-10T19:14:21.482Z"
+}

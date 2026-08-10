@@ -1,0 +1,450 @@
+======== LINGUISTIC a1 18:30:32 ========
+◇ injected env (1) from .env // tip: ⌘ override existing { override: true }
+CS a1 Luna audit: 702 entries (578 simple, 124 study)
+  luna simple-001-050: 50 cards, findings=7, pass=43, tokens=6212
+  luna simple-051-100: 50 cards, findings=11, pass=39, tokens=6261
+  luna simple-101-150: 50 cards, findings=10, pass=40, tokens=5488
+  luna simple-151-200: 50 cards, findings=12, pass=38, tokens=6295
+  luna simple-201-250: 50 cards, findings=12, pass=38, tokens=6324
+  luna simple-251-300: 50 cards, findings=9, pass=41, tokens=5667
+  luna simple-301-350: 50 cards, findings=8, pass=42, tokens=5606
+  luna simple-351-400: 50 cards, findings=7, pass=43, tokens=5444
+  luna simple-401-450: 50 cards, findings=11, pass=39, tokens=5839
+  luna simple-451-500: 50 cards, findings=9, pass=41, tokens=5747
+  luna simple-501-550: 50 cards, findings=7, pass=43, tokens=5255
+  luna simple-551-578: 28 cards, findings=8, pass=20, tokens=3594
+  luna study-001-010: 10 cards, findings=33, pass=0, tokens=20787
+  luna study-011-020: 10 cards, findings=43, pass=0, tokens=22851
+  luna study-021-030: 10 cards, findings=54, pass=0, tokens=23577
+  luna study-031-040: 10 cards, findings=31, pass=1, tokens=21367
+  luna study-041-050: 10 cards, findings=47, pass=0, tokens=22188
+  luna study-051-060: 10 cards, findings=44, pass=0, tokens=24714
+  luna study-061-070: 10 cards, findings=35, pass=1, tokens=19561
+  luna study-071-080: 10 cards, findings=43, pass=2, tokens=22115
+  luna study-081-090: 10 cards, findings=23, pass=1, tokens=19026
+  luna study-091-100: 10 cards, findings=31, pass=1, tokens=22765
+  luna study-101-110: 10 cards, findings=52, pass=0, tokens=26535
+  luna study-111-120: 10 cards, findings=41, pass=0, tokens=22893
+  luna study-121-124: 4 cards, findings=8, pass=0, tokens=7431
+
+=== CS linguistic audit complete ===
+{
+  "dataset": "a1",
+  "cardsAudited": 702,
+  "cardsExpected": 702,
+  "findings": 595,
+  "severity": {
+    "CRITICAL": 15,
+    "HIGH": 319,
+    "MEDIUM": 219,
+    "LOW": 43
+  },
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "tokens": 343542
+}
+======== LINGUISTIC a2 18:44:01 ========
+◇ injected env (1) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+CS a2 Luna audit: 1640 entries (1409 simple, 231 study)
+  luna simple-001-050: 50 cards, findings=24, pass=26, tokens=7695
+  luna simple-051-100: 50 cards, findings=13, pass=37, tokens=6963
+  luna simple-101-150: 50 cards, findings=21, pass=29, tokens=7800
+  luna simple-151-200: 50 cards, findings=24, pass=26, tokens=7748
+  luna simple-201-250: 50 cards, findings=8, pass=42, tokens=6950
+  luna simple-251-300: 50 cards, findings=18, pass=32, tokens=7234
+  luna simple-301-350: 50 cards, findings=16, pass=34, tokens=7360
+  luna simple-351-400: 50 cards, findings=16, pass=34, tokens=7014
+  luna simple-401-450: 50 cards, findings=11, pass=39, tokens=7170
+  luna simple-451-500: 50 cards, findings=15, pass=35, tokens=7082
+  luna simple-501-550: 50 cards, findings=12, pass=38, tokens=6226
+  luna simple-551-600: 50 cards, findings=13, pass=37, tokens=6354
+  luna simple-601-650: 50 cards, findings=14, pass=36, tokens=7266
+  luna simple-651-700: 50 cards, findings=14, pass=36, tokens=6866
+  luna simple-701-750: 50 cards, findings=14, pass=36, tokens=6846
+  luna simple-751-800: 50 cards, findings=13, pass=37, tokens=6643
+  luna simple-801-850: 50 cards, findings=9, pass=41, tokens=5663
+  luna simple-851-900: 50 cards, findings=16, pass=34, tokens=6443
+  luna simple-901-950: 50 cards, findings=5, pass=45, tokens=6487
+  luna simple-951-1000: 50 cards, findings=17, pass=33, tokens=7181
+  luna simple-1001-1050: 50 cards, findings=20, pass=30, tokens=7579
+  luna simple-1051-1100: 50 cards, findings=9, pass=41, tokens=6310
+  luna simple-1101-1150: 50 cards, findings=16, pass=34, tokens=6924
+  luna simple-1151-1200: 50 cards, findings=15, pass=35, tokens=6989
+  luna simple-1201-1250: 50 cards, findings=12, pass=38, tokens=6945
+  luna simple-1251-1300: 50 cards, findings=13, pass=37, tokens=7000
+  luna simple-1301-1350: 50 cards, findings=14, pass=36, tokens=7267
+  luna simple-1351-1400: 50 cards, findings=20, pass=30, tokens=7709
+  luna simple-1401-1409: 9 cards, findings=1, pass=8, tokens=1426
+  luna study-001-010: 10 cards, findings=36, pass=0, tokens=33521
+  luna study-011-020: 10 cards, findings=56, pass=0, tokens=37435
+  luna study-021-030: 10 cards, findings=48, pass=1, tokens=36656
+  luna study-031-040: 10 cards, findings=37, pass=0, tokens=37323
+  luna study-041-050: 10 cards, findings=42, pass=0, tokens=39692
+  luna study-051-060: 10 cards, findings=55, pass=0, tokens=40745
+  luna study-061-070: 10 cards, findings=51, pass=0, tokens=35368
+  luna study-071-080: 10 cards, findings=46, pass=0, tokens=33829
+  luna study-081-090: 10 cards, findings=48, pass=0, tokens=35697
+  luna study-091-100: 10 cards, findings=46, pass=0, tokens=33034
+  luna study-101-110: 10 cards, findings=39, pass=1, tokens=27987
+  luna study-111-120: 10 cards, findings=19, pass=6, tokens=11559
+  luna study-121-130: 10 cards, findings=10, pass=8, tokens=10701
+  luna study-131-140: 10 cards, findings=44, pass=1, tokens=34003
+  luna study-141-150: 10 cards, findings=44, pass=1, tokens=26012
+  luna study-151-160: 10 cards, findings=43, pass=0, tokens=23415
+  luna study-161-170: 10 cards, findings=39, pass=1, tokens=36302
+  luna study-171-180: 10 cards, findings=47, pass=0, tokens=31914
+  luna study-181-190: 10 cards, findings=54, pass=0, tokens=40100
+  luna study-191-200: 10 cards, findings=42, pass=0, tokens=33471
+  luna study-201-210: 10 cards, findings=38, pass=0, tokens=37554
+  luna study-211-220: 10 cards, findings=22, pass=2, tokens=18551
+  luna study-221-230: 10 cards, findings=30, pass=2, tokens=15741
+  luna study-231-231: 1 cards, findings=8, pass=0, tokens=4097
+
+=== CS linguistic audit complete ===
+{
+  "dataset": "a2",
+  "cardsAudited": 1640,
+  "cardsExpected": 1640,
+  "findings": 1357,
+  "severity": {
+    "CRITICAL": 52,
+    "HIGH": 700,
+    "MEDIUM": 508,
+    "LOW": 97
+  },
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "tokens": 911847
+}
+======== LINGUISTIC b1 19:14:21 ========
+◇ injected env (1) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+CS b1 Luna audit: 3367 entries (3043 simple, 324 study)
+  luna simple-001-050: 50 cards, findings=16, pass=34, tokens=6767
+  luna simple-051-100: 50 cards, findings=16, pass=34, tokens=6969
+  luna simple-101-150: 50 cards, findings=22, pass=28, tokens=7215
+  luna simple-151-200: 50 cards, findings=17, pass=33, tokens=7511
+  luna simple-201-250: 50 cards, findings=16, pass=34, tokens=7435
+  luna simple-251-300: 50 cards, findings=22, pass=28, tokens=7346
+  luna simple-301-350: 50 cards, findings=16, pass=34, tokens=6959
+  luna simple-351-400: 50 cards, findings=16, pass=34, tokens=6996
+  luna simple-401-450: 50 cards, findings=20, pass=30, tokens=6879
+  luna simple-451-500: 50 cards, findings=12, pass=38, tokens=6905
+  luna simple-501-550: 50 cards, findings=12, pass=38, tokens=6517
+  luna simple-551-600: 50 cards, findings=22, pass=28, tokens=6841
+  luna simple-601-650: 50 cards, findings=13, pass=37, tokens=7192
+  luna simple-651-700: 50 cards, findings=21, pass=29, tokens=7491
+  luna simple-701-750: 50 cards, findings=16, pass=34, tokens=6905
+  luna simple-751-800: 50 cards, findings=17, pass=33, tokens=6881
+  luna simple-801-850: 50 cards, findings=19, pass=31, tokens=7099
+  luna simple-851-900: 50 cards, findings=14, pass=36, tokens=6630
+  luna simple-901-950: 50 cards, findings=9, pass=41, tokens=6531
+  luna simple-951-1000: 50 cards, findings=19, pass=31, tokens=7565
+  luna simple-1001-1050: 50 cards, findings=13, pass=37, tokens=7049
+  luna simple-1051-1100: 50 cards, findings=12, pass=38, tokens=6238
+  luna simple-1101-1150: 50 cards, findings=14, pass=36, tokens=6741
+  luna simple-1151-1200: 50 cards, findings=14, pass=36, tokens=6952
+  luna simple-1201-1250: 50 cards, findings=11, pass=39, tokens=6497
+  luna simple-1251-1300: 50 cards, findings=21, pass=29, tokens=7560
+  luna simple-1301-1350: 50 cards, findings=9, pass=41, tokens=6522
+  luna simple-1351-1400: 50 cards, findings=16, pass=34, tokens=7457
+  luna simple-1401-1450: 50 cards, findings=13, pass=37, tokens=7476
+  luna simple-1451-1500: 50 cards, findings=17, pass=33, tokens=7395
+  luna simple-1501-1550: 50 cards, findings=9, pass=41, tokens=6134
+  luna simple-1551-1600: 50 cards, findings=16, pass=34, tokens=6067
+  luna simple-1601-1650: 50 cards, findings=15, pass=35, tokens=7131
+  luna simple-1651-1700: 50 cards, findings=22, pass=28, tokens=7630
+  luna simple-1701-1750: 50 cards, findings=17, pass=33, tokens=7385
+  luna simple-1751-1800: 50 cards, findings=13, pass=37, tokens=6674
+  luna simple-1801-1850: 50 cards, findings=16, pass=34, tokens=7475
+  luna simple-1851-1900: 50 cards, findings=19, pass=31, tokens=7540
+  luna simple-1901-1950: 50 cards, findings=19, pass=31, tokens=7409
+  luna simple-1951-2000: 50 cards, findings=12, pass=38, tokens=7059
+  luna simple-2001-2050: 50 cards, findings=19, pass=33, tokens=7296
+  luna simple-2051-2100: 50 cards, findings=14, pass=36, tokens=6667
+  luna simple-2101-2150: 50 cards, findings=18, pass=32, tokens=7215
+  luna simple-2151-2200: 50 cards, findings=19, pass=31, tokens=7327
+  luna simple-2201-2250: 50 cards, findings=18, pass=32, tokens=7686
+  luna simple-2251-2300: 50 cards, findings=22, pass=28, tokens=7771
+  luna simple-2301-2350: 50 cards, findings=19, pass=31, tokens=7632
+  luna simple-2351-2400: 50 cards, findings=13, pass=37, tokens=7248
+  luna simple-2401-2450: 50 cards, findings=16, pass=34, tokens=7640
+  luna simple-2451-2500: 50 cards, findings=23, pass=27, tokens=7639
+  luna simple-2501-2550: 50 cards, findings=15, pass=35, tokens=7522
+  luna simple-2551-2600: 50 cards, findings=16, pass=34, tokens=6776
+  luna simple-2601-2650: 50 cards, findings=15, pass=35, tokens=6956
+  luna simple-2651-2700: 50 cards, findings=15, pass=35, tokens=7180
+  luna simple-2701-2750: 50 cards, findings=18, pass=32, tokens=7296
+  luna simple-2751-2800: 50 cards, findings=23, pass=27, tokens=7631
+  luna simple-2801-2850: 50 cards, findings=23, pass=27, tokens=7719
+  luna simple-2851-2900: 50 cards, findings=14, pass=36, tokens=7471
+  luna simple-2901-2950: 50 cards, findings=12, pass=38, tokens=7108
+  luna simple-2951-3000: 50 cards, findings=13, pass=37, tokens=7106
+  luna simple-3001-3043: 43 cards, findings=12, pass=31, tokens=6276
+  luna study-001-010: 10 cards, findings=39, pass=0, tokens=22425
+  luna study-011-020: 10 cards, findings=26, pass=0, tokens=20674
+  luna study-021-030: 10 cards, findings=32, pass=1, tokens=22994
+  luna study-031-040: 10 cards, findings=39, pass=0, tokens=24729
+  luna study-041-050: 10 cards, findings=36, pass=0, tokens=23898
+  luna study-051-060: 10 cards, findings=33, pass=0, tokens=23155
+  luna study-061-070: 10 cards, findings=34, pass=1, tokens=24021
+  luna study-071-080: 10 cards, findings=31, pass=0, tokens=22035
+  luna study-081-090: 10 cards, findings=29, pass=0, tokens=22007
+  luna study-091-100: 10 cards, findings=43, pass=0, tokens=26125
+  luna study-101-110: 10 cards, findings=46, pass=0, tokens=26009
+  luna study-111-120: 10 cards, findings=43, pass=0, tokens=24434
+  luna study-121-130: 10 cards, findings=29, pass=1, tokens=23129
+  luna study-131-140: 10 cards, findings=39, pass=0, tokens=24983
+  luna study-141-150: 10 cards, findings=41, pass=0, tokens=22371
+  luna study-151-160: 10 cards, findings=39, pass=0, tokens=24557
+  luna study-161-170: 10 cards, findings=38, pass=0, tokens=23454
+  luna study-171-180: 10 cards, findings=49, pass=0, tokens=24225
+  luna study-181-190: 10 cards, findings=43, pass=0, tokens=22971
+  luna study-191-200: 10 cards, findings=39, pass=0, tokens=22405
+  luna study-201-210: 10 cards, findings=34, pass=0, tokens=22412
+  luna study-211-220: 10 cards, findings=52, pass=0, tokens=23979
+  luna study-221-230: 10 cards, findings=45, pass=0, tokens=23598
+  luna study-231-240: 10 cards, findings=34, pass=0, tokens=22207
+  luna study-241-250: 10 cards, findings=40, pass=0, tokens=22162
+  luna study-251-260: 10 cards, findings=26, pass=0, tokens=21235
+  luna study-261-270: 10 cards, findings=35, pass=0, tokens=22474
+  luna study-271-280: 10 cards, findings=37, pass=0, tokens=22522
+  luna study-281-290: 10 cards, findings=31, pass=0, tokens=22496
+  luna study-291-300: 10 cards, findings=30, pass=3, tokens=21932
+  luna study-301-310: 10 cards, findings=36, pass=0, tokens=24030
+  luna study-311-320: 10 cards, findings=34, pass=0, tokens=20829
+  luna study-321-324: 4 cards, findings=22, pass=0, tokens=11962
+
+=== CS linguistic audit complete ===
+{
+  "dataset": "b1",
+  "cardsAudited": 3367,
+  "cardsExpected": 3367,
+  "findings": 2192,
+  "severity": {
+    "CRITICAL": 92,
+    "HIGH": 1106,
+    "MEDIUM": 912,
+    "LOW": 84
+  },
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "tokens": 1186626
+}
+======== LINGUISTIC b2 20:03:14 ========
+◇ injected env (1) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+CS b2 Luna audit: 2118 entries (2058 simple, 60 study)
+  luna simple-001-050: 50 cards, findings=22, pass=28, tokens=8594
+  luna simple-051-100: 50 cards, findings=18, pass=32, tokens=8515
+  luna simple-101-150: 50 cards, findings=29, pass=21, tokens=9826
+  luna simple-151-200: 50 cards, findings=30, pass=21, tokens=9931
+  luna simple-201-250: 50 cards, findings=28, pass=22, tokens=9581
+  luna simple-251-300: 50 cards, findings=20, pass=31, tokens=8282
+  luna simple-301-350: 50 cards, findings=21, pass=29, tokens=9398
+  luna simple-351-400: 50 cards, findings=28, pass=22, tokens=8349
+  luna simple-401-450: 50 cards, findings=27, pass=23, tokens=9165
+  luna simple-451-500: 50 cards, findings=29, pass=21, tokens=9865
+  luna simple-501-550: 50 cards, findings=23, pass=27, tokens=9399
+  luna simple-551-600: 50 cards, findings=20, pass=30, tokens=8508
+  luna simple-601-650: 50 cards, findings=27, pass=23, tokens=9747
+  luna simple-651-700: 50 cards, findings=25, pass=27, tokens=9734
+  luna simple-701-750: 50 cards, findings=25, pass=25, tokens=8156
+  luna simple-751-800: 50 cards, findings=21, pass=29, tokens=8098
+  luna simple-801-850: 50 cards, findings=24, pass=26, tokens=8579
+  luna simple-851-900: 50 cards, findings=34, pass=16, tokens=10319
+  luna simple-901-950: 50 cards, findings=26, pass=24, tokens=9332
+  luna simple-951-1000: 50 cards, findings=25, pass=25, tokens=9204
+  luna simple-1001-1050: 50 cards, findings=26, pass=24, tokens=8981
+  luna simple-1051-1100: 50 cards, findings=32, pass=18, tokens=10014
+  luna simple-1101-1150: 50 cards, findings=26, pass=24, tokens=8949
+  luna simple-1151-1200: 50 cards, findings=26, pass=24, tokens=9351
+  luna simple-1201-1250: 50 cards, findings=24, pass=26, tokens=9309
+  luna simple-1251-1300: 50 cards, findings=23, pass=27, tokens=8800
+  luna simple-1301-1350: 50 cards, findings=26, pass=24, tokens=9205
+  luna simple-1351-1400: 50 cards, findings=19, pass=31, tokens=8298
+  luna simple-1401-1450: 50 cards, findings=21, pass=29, tokens=8004
+  luna simple-1451-1500: 50 cards, findings=22, pass=28, tokens=8113
+  luna simple-1501-1550: 50 cards, findings=31, pass=19, tokens=10339
+  luna simple-1551-1600: 50 cards, findings=23, pass=27, tokens=9352
+  luna simple-1601-1650: 50 cards, findings=22, pass=28, tokens=9532
+  luna simple-1651-1700: 50 cards, findings=16, pass=34, tokens=7618
+  luna simple-1701-1750: 50 cards, findings=27, pass=23, tokens=9374
+  luna simple-1751-1800: 50 cards, findings=26, pass=24, tokens=9444
+  luna simple-1801-1850: 50 cards, findings=27, pass=23, tokens=9475
+  luna simple-1851-1900: 50 cards, findings=31, pass=19, tokens=9427
+  luna simple-1901-1950: 50 cards, findings=16, pass=34, tokens=7844
+  luna simple-1951-2000: 50 cards, findings=28, pass=22, tokens=9237
+  luna simple-2001-2050: 50 cards, findings=35, pass=15, tokens=9464
+  luna simple-2051-2058: 8 cards, findings=3, pass=5, tokens=1899
+  luna study-001-010: 10 cards, findings=48, pass=0, tokens=11700
+  luna study-011-020: 10 cards, findings=28, pass=2, tokens=10181
+  luna study-021-030: 10 cards, findings=52, pass=0, tokens=13640
+  luna study-031-040: 10 cards, findings=34, pass=0, tokens=14477
+  luna study-041-050: 10 cards, findings=24, pass=0, tokens=11981
+  luna study-051-060: 10 cards, findings=33, pass=0, tokens=18764
+CS linguistic audit failed: (f.currentCs || "").slice is not a function
+======== LINGUISTIC c1 20:31:12 ========
+◇ injected env (1) from .env // tip: ⌘ suppress logs { quiet: true }
+CS c1 Luna audit: 572 entries (557 simple, 15 study)
+  luna simple-001-050: 50 cards, findings=20, pass=31, tokens=7707
+  luna simple-051-100: 50 cards, findings=4, pass=46, tokens=6259
+  luna simple-101-150: 50 cards, findings=14, pass=36, tokens=7170
+  luna simple-151-200: 50 cards, findings=14, pass=36, tokens=7005
+  luna simple-201-250: 50 cards, findings=28, pass=22, tokens=9619
+  luna simple-251-300: 50 cards, findings=17, pass=33, tokens=8893
+  luna simple-301-350: 50 cards, findings=19, pass=31, tokens=8595
+  luna simple-351-400: 50 cards, findings=21, pass=29, tokens=8711
+  luna simple-401-450: 50 cards, findings=11, pass=39, tokens=7302
+  luna simple-451-500: 50 cards, findings=27, pass=23, tokens=9445
+  luna simple-501-550: 50 cards, findings=26, pass=24, tokens=8820
+  luna simple-551-557: 7 cards, findings=7, pass=0, tokens=2040
+  luna study-001-010: 10 cards, findings=27, pass=1, tokens=16205
+  luna study-011-015: 5 cards, findings=22, pass=0, tokens=10552
+
+=== CS linguistic audit complete ===
+{
+  "dataset": "c1",
+  "cardsAudited": 572,
+  "cardsExpected": 572,
+  "findings": 257,
+  "severity": {
+    "CRITICAL": 1,
+    "HIGH": 142,
+    "MEDIUM": 99,
+    "LOW": 15
+  },
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "tokens": 118323
+}
+======== LINGUISTIC c2 20:37:48 ========
+◇ injected env (1) from .env // tip: ⌘ override existing { override: true }
+CS c2 Luna audit: 219 entries (218 simple, 1 study)
+  luna simple-001-050: 50 cards, findings=14, pass=36, tokens=7426
+  luna simple-051-100: 50 cards, findings=15, pass=35, tokens=7882
+  luna simple-101-150: 50 cards, findings=18, pass=32, tokens=8676
+  luna simple-151-200: 50 cards, findings=22, pass=28, tokens=8940
+  luna simple-201-218: 18 cards, findings=6, pass=12, tokens=3972
+  luna study-001-001: 1 cards, findings=0, pass=1, tokens=1475
+
+=== CS linguistic audit complete ===
+{
+  "dataset": "c2",
+  "cardsAudited": 219,
+  "cardsExpected": 219,
+  "findings": 75,
+  "severity": {
+    "CRITICAL": 0,
+    "HIGH": 43,
+    "MEDIUM": 31,
+    "LOW": 1
+  },
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "tokens": 38371
+}
+======== LINGUISTIC vety 20:40:08 ========
+◇ injected env (1) from .env // tip: ⌘ override existing { override: true }
+CS vety Luna audit: 796 entries (796 simple, 0 study)
+  luna simple-001-050: 50 cards, findings=19, pass=31, tokens=6392
+  luna simple-051-100: 50 cards, findings=15, pass=35, tokens=7098
+  luna simple-101-150: 50 cards, findings=17, pass=33, tokens=6893
+  luna simple-151-200: 50 cards, findings=18, pass=32, tokens=6891
+  luna simple-201-250: 50 cards, findings=25, pass=25, tokens=7401
+  luna simple-251-300: 50 cards, findings=21, pass=29, tokens=7414
+  luna simple-301-350: 50 cards, findings=13, pass=37, tokens=5631
+  luna simple-351-400: 50 cards, findings=24, pass=26, tokens=7095
+  luna simple-401-450: 50 cards, findings=25, pass=25, tokens=6671
+  luna simple-451-500: 50 cards, findings=16, pass=34, tokens=6543
+  luna simple-501-550: 50 cards, findings=24, pass=26, tokens=7445
+  luna simple-551-600: 50 cards, findings=22, pass=28, tokens=8265
+  luna simple-601-650: 50 cards, findings=15, pass=35, tokens=7281
+  luna simple-651-700: 50 cards, findings=17, pass=33, tokens=7493
+  luna simple-701-750: 50 cards, findings=20, pass=30, tokens=7387
+  luna simple-751-796: 46 cards, findings=17, pass=29, tokens=5818
+
+=== CS linguistic audit complete ===
+{
+  "dataset": "vety",
+  "cardsAudited": 796,
+  "cardsExpected": 796,
+  "findings": 308,
+  "severity": {
+    "CRITICAL": 4,
+    "HIGH": 146,
+    "MEDIUM": 141,
+    "LOW": 17
+  },
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "tokens": 111718
+}
+======== LINGUISTIC slovesa 20:48:04 ========
+◇ injected env (1) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+CS slovesa Luna audit: 189 entries (189 simple, 0 study)
+  luna simple-001-050: 50 cards, findings=123, pass=2, tokens=23904
+  luna simple-051-100: 50 cards, findings=103, pass=17, tokens=21480
+  luna simple-101-150: 50 cards, findings=102, pass=14, tokens=20886
+  luna simple-151-189: 39 cards, findings=89, pass=7, tokens=18254
+
+=== CS linguistic audit complete ===
+{
+  "dataset": "slovesa",
+  "cardsAudited": 189,
+  "cardsExpected": 189,
+  "findings": 417,
+  "severity": {
+    "CRITICAL": 2,
+    "HIGH": 281,
+    "MEDIUM": 123,
+    "LOW": 11
+  },
+  "nonError": {
+    "SOURCE_DE_ISSUE": 0,
+    "SOURCE_LV_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 0,
+    "FALSE_POSITIVE": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "tokens": 84524
+}
+======== LINGUISTIC kurs 20:52:46 ========
+◇ injected env (1) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+CS linguistic audit failed: The "path" argument must be of type string. Received undefined
+ALL LINGUISTIC DONE Mon Aug 10 08:52:46 PM UTC 2026
