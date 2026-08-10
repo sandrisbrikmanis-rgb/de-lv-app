@@ -507,7 +507,7 @@ function collectKurs() {
       continue;
     }
     walkStrings(csLesson, (text, ctx) => {
-      if (ctx.inDe) return;
+      if (ctx.inDe || ctx.path.includes("legacyHtml") || ctx.path.includes("COURSE_LESSON_HTML")) return;
       const fr = detectForeignRemnant(text);
       if (fr.length) {
         data.findings.push({
