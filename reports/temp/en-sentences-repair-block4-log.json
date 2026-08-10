@@ -1,0 +1,448 @@
+{
+  "block": "4/5",
+  "reviewed": 50,
+  "changed": 47,
+  "nelabotUnchanged": 3,
+  "nelabotIds": [
+    "satze-471",
+    "satze-483",
+    "satze-626"
+  ],
+  "sourceLvIssues": [
+    {
+      "cardId": "satze-556",
+      "de": "Es ist sehr warm.",
+      "lvSourceBefore": "Ir ļoti karsti.",
+      "lvSourceNote": "Ir ļoti karsti.",
+      "enBefore": "It is very hot.",
+      "enAfter": "It is very warm.",
+      "lvChanged": false
+    },
+    {
+      "cardId": "satze-559",
+      "de": "Das Gewitter zieht vorüber.",
+      "lvSourceBefore": "Negaiss ir garām pagājis.",
+      "lvSourceNote": "Negaiss ir garām pagājis.",
+      "enBefore": "The storm has passed.",
+      "enAfter": "The storm is passing.",
+      "lvChanged": false
+    },
+    {
+      "cardId": "satze-562",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "lvSourceBefore": "Ziema ir klāt, naktī sniga.",
+      "lvSourceNote": "Ziema ir klāt, naktī sniga.",
+      "enBefore": "Winter is here, it snowed at night.",
+      "enAfter": "Winter is here. It has snowed.",
+      "lvChanged": false
+    }
+  ],
+  "appliedIds": [
+    "satze-454",
+    "satze-463",
+    "satze-474",
+    "satze-477",
+    "satze-481",
+    "satze-489",
+    "satze-495",
+    "satze-496",
+    "satze-497",
+    "satze-499",
+    "satze-505",
+    "satze-506",
+    "satze-519",
+    "satze-523",
+    "satze-528",
+    "satze-534",
+    "satze-538",
+    "satze-544",
+    "satze-547",
+    "satze-548",
+    "satze-549",
+    "satze-553",
+    "satze-554",
+    "satze-556",
+    "satze-558",
+    "satze-559",
+    "satze-561",
+    "satze-562",
+    "satze-566",
+    "satze-569",
+    "satze-570",
+    "satze-576",
+    "satze-580",
+    "satze-582",
+    "satze-587",
+    "satze-589",
+    "satze-593",
+    "satze-595",
+    "satze-599",
+    "satze-603",
+    "satze-607",
+    "satze-608",
+    "satze-612",
+    "satze-614",
+    "satze-616",
+    "satze-617",
+    "satze-621"
+  ],
+  "deReadOnly": true,
+  "lvSourceReadOnly": true,
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "semicolonCount": 0,
+  "specialChecks": {
+    "satze-562": {
+      "expected": "Winter is here. It has snowed.",
+      "actual": "Winter is here. It has snowed.",
+      "pass": true
+    },
+    "satze-614": {
+      "expected": "There's a draught, please close the window!",
+      "actual": "There's a draught, please close the window!",
+      "pass": true
+    },
+    "satze-569": {
+      "expected": "It is half past six.",
+      "actual": "It is half past six.",
+      "pass": true
+    },
+    "satze-599": {
+      "expected": "The train leaves at half past six.",
+      "actual": "The train leaves at half past six.",
+      "pass": true
+    }
+  },
+  "unexpectedChanges": 0,
+  "applied": [
+    {
+      "id": "satze-454",
+      "before": "Yes.",
+      "after": "On horseback.",
+      "de": "Zu Pferde.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-463",
+      "before": "Put on the basis. • Take as a basis.",
+      "after": "Use as a basis. • Take as a basis.",
+      "de": "Zugrunde legen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-474",
+      "before": "Become disgusting. • Get sick",
+      "after": "Become repulsive. • Become distasteful.",
+      "de": "Zuwider werden.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-477",
+      "before": "Without hesitation.",
+      "after": "Without doubt.",
+      "de": "Ohne Zweifel.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-481",
+      "before": "Happy journey!",
+      "after": "Have a good trip!",
+      "de": "Gute Reise!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-489",
+      "before": "Are you still sleeping",
+      "after": "Are you still sleeping?",
+      "de": "Schläfst du noch?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-495",
+      "before": "Finn, start, please!",
+      "after": "Finn, please start!",
+      "de": "Finn, fang bitte an!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-496",
+      "before": "Read on, please!",
+      "after": "Read along, please!",
+      "de": "Lest bitte mit!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-497",
+      "before": "Emma, ​​please don't look out the window!",
+      "after": "Emma, please don't look out the window!",
+      "de": "Emma, schau bitte nicht aus dem Fenster!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-499",
+      "before": "Go back to your place!",
+      "after": "Please go back to your place!",
+      "de": "Geh bitte zurück an deinen Platz!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-505",
+      "before": "Do not forget to ventilate the room!",
+      "after": "Do not forget to air the room!",
+      "de": "Vergiss nicht, das Zimmer zu lüften!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-506",
+      "before": "Where is the towel",
+      "after": "Where is the towel?",
+      "de": "Wo ist das Handtuch?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-519",
+      "before": "I drink black coffee best.",
+      "after": "I prefer black coffee.",
+      "de": "Am liebsten trinke ich schwarzen Kaffee.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-523",
+      "before": "Give me a cheese bun, please.",
+      "after": "Give me a bread roll with cheese, please.",
+      "de": "Gib mir bitte ein Brötchen mit Käse.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-528",
+      "before": "When do you eat lunch",
+      "after": "When do you eat lunch?",
+      "de": "Wann esst ihr zu Mittag?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-534",
+      "before": "Thanks, I already have.",
+      "after": "Thanks, I've already got some.",
+      "de": "Danke, ich habe schon.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-538",
+      "before": "Are you free tonight",
+      "after": "Are you free tonight?",
+      "de": "Bist du heute Abend frei?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-544",
+      "before": "When do you go to sleep",
+      "after": "When do you go to sleep?",
+      "de": "Wann gehst du ins Bett?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-547",
+      "before": "It's a nice time.",
+      "after": "The weather is nice.",
+      "de": "Es ist schönes Wetter.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-548",
+      "before": "Do you want to walk with me?",
+      "after": "Do you want to go for a walk with me?",
+      "de": "Willst du mit mir spazieren gehen?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-549",
+      "before": "Look, it will rain soon.",
+      "after": "Look, it's going to rain soon.",
+      "de": "Sieh mal, es wird gleich regnen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-553",
+      "before": "Think it's going to rain all day?",
+      "after": "Do you think it's going to rain all day?",
+      "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-554",
+      "before": "The rain stops.",
+      "after": "The rain is stopping.",
+      "de": "Es hört auf zu regnen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-556",
+      "before": "It is very hot.",
+      "after": "It is very warm.",
+      "de": "Es ist sehr warm.",
+      "sourceLvIssue": true
+    },
+    {
+      "id": "satze-558",
+      "before": "We're about to get a storm.",
+      "after": "There's a thunderstorm coming.",
+      "de": "Wir bekommen gleich ein Gewitter.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-559",
+      "before": "The storm has passed.",
+      "after": "The storm is passing.",
+      "de": "Das Gewitter zieht vorüber.",
+      "sourceLvIssue": true
+    },
+    {
+      "id": "satze-561",
+      "before": "See the rainbow?",
+      "after": "Can you see the rainbow?",
+      "de": "Siehst du den Regenbogen?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-562",
+      "before": "Winter is here, it snowed at night.",
+      "after": "Winter is here. It has snowed.",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "sourceLvIssue": true
+    },
+    {
+      "id": "satze-566",
+      "before": "It's slippery outside, be careful!",
+      "after": "There's black ice outside, be careful!",
+      "de": "Draußen ist Glatteis, pass auf!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-569",
+      "before": "It is half past seven.",
+      "after": "It is half past six.",
+      "de": "Es ist halb sieben.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-570",
+      "before": "My watch is fast five minutes.",
+      "after": "My watch is five minutes fast.",
+      "de": "Meine Uhr geht fünf Minuten vor.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-576",
+      "before": "How are you",
+      "after": "How are you?",
+      "de": "Wie geht es dir?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-580",
+      "before": "I came to take you for a walk.",
+      "after": "I've come to pick you up for a walk.",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-582",
+      "before": "I am here for the first time.",
+      "after": "I'm in this area for the first time.",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-587",
+      "before": "Which is the shortest path?",
+      "after": "Which is the shortest route?",
+      "de": "Welcher ist der kürzeste Weg?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-589",
+      "before": "How to get to the station faster?",
+      "after": "What is the quickest way to get to the station?",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-593",
+      "before": "Finn is driving to Berlin, then he will go to the sea.",
+      "after": "Finn is travelling as far as Berlin, then he'll go to the seaside.",
+      "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-595",
+      "before": "After half an hour.",
+      "after": "In half an hour.",
+      "de": "In einer halben Stunde.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-599",
+      "before": "The train leaves at half past seven.",
+      "after": "The train leaves at half past six.",
+      "de": "Der Zug fährt um halb sieben ab.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-603",
+      "before": "Is the box office open yet?",
+      "after": "Is the ticket counter open yet?",
+      "de": "Ist der Schalter schon offen?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-607",
+      "before": "Do I have to change seats in Koblenz?",
+      "after": "Do I have to change trains in Koblenz?",
+      "de": "Muss ich in Koblenz umsteigen?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-608",
+      "before": "Yes, you have to change seats there.",
+      "after": "Yes, you have to change trains there.",
+      "de": "Ja, dort musst du umsteigen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-612",
+      "before": "Put my carry-on in the grid.",
+      "after": "Put my carry-on in the luggage net.",
+      "de": "Stell mein Handgepäck ins Gepäcknetz.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-614",
+      "before": "Pull through, please close the window!",
+      "after": "There's a draught, please close the window!",
+      "de": "Es zieht, schließ bitte das Fenster!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-616",
+      "before": "How long does the train stand?",
+      "after": "How long does the train stop here?",
+      "de": "Wie lange hält der Zug?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-617",
+      "before": "Where should I transfer?",
+      "after": "Where do I have to change trains?",
+      "de": "Wo muss ich umsteigen?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-621",
+      "before": "Do you have something to clear?",
+      "after": "Do you have anything to declare?",
+      "de": "Hast du etwas zu verzollen?",
+      "sourceLvIssue": false
+    }
+  ]
+}
