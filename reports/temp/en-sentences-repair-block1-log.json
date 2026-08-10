@@ -1,0 +1,329 @@
+{
+  "reviewed": 50,
+  "changed": 44,
+  "nelabotUnchanged": 6,
+  "nelabotIds": [
+    "satze-27",
+    "satze-82",
+    "satze-116",
+    "satze-134",
+    "satze-137",
+    "satze-142"
+  ],
+  "appliedIds": [
+    "satze-2",
+    "satze-5",
+    "satze-6",
+    "satze-7",
+    "satze-8",
+    "satze-10",
+    "satze-11",
+    "satze-17",
+    "satze-18",
+    "satze-26",
+    "satze-28",
+    "satze-34",
+    "satze-42",
+    "satze-47",
+    "satze-50",
+    "satze-65",
+    "satze-92",
+    "satze-98",
+    "satze-99",
+    "satze-100",
+    "satze-102",
+    "satze-106",
+    "satze-107",
+    "satze-109",
+    "satze-111",
+    "satze-114",
+    "satze-122",
+    "satze-124",
+    "satze-125",
+    "satze-126",
+    "satze-127",
+    "satze-128",
+    "satze-129",
+    "satze-133",
+    "satze-140",
+    "satze-148",
+    "satze-151",
+    "satze-164",
+    "satze-166",
+    "satze-167",
+    "satze-168",
+    "satze-172",
+    "satze-173",
+    "satze-175"
+  ],
+  "deReadOnly": true,
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "unexpectedChanges": 0,
+  "applied": [
+    {
+      "id": "satze-2",
+      "before": "I know that!",
+      "after": "I can imagine that!",
+      "de": "Das kann ich mir denken!"
+    },
+    {
+      "id": "satze-5",
+      "before": "The more.",
+      "after": "All the more.",
+      "de": "Desto mehr."
+    },
+    {
+      "id": "satze-6",
+      "before": "The more the better.",
+      "after": "The more, the better.",
+      "de": "Je mehr, desto besser."
+    },
+    {
+      "id": "satze-7",
+      "before": "Everything points to the case.",
+      "after": "Everything points to rain.",
+      "de": "Alles deutet auf Regen."
+    },
+    {
+      "id": "satze-8",
+      "before": "It makes little sense to me.",
+      "after": "That is of little use to me.",
+      "de": "Damit ist mir wenig gedient."
+    },
+    {
+      "id": "satze-10",
+      "before": "Speak up!",
+      "after": "Go on, speak!",
+      "de": "Sprechen Sie doch!"
+    },
+    {
+      "id": "satze-11",
+      "before": "Thunder roars.",
+      "after": "It's thundering.",
+      "de": "Es donnert."
+    },
+    {
+      "id": "satze-17",
+      "before": "Do not go through! • Exit closed!",
+      "after": "No through passage! • Exit closed!",
+      "de": "Kein Durchgang!"
+    },
+    {
+      "id": "satze-18",
+      "before": "May i ask you",
+      "after": "May I ask you?",
+      "de": "Darf ich Sie bitten?"
+    },
+    {
+      "id": "satze-26",
+      "before": "You just imagine that you are sick.",
+      "after": "You're only imagining that you're ill.",
+      "de": "Du bildest dir nur ein, krank zu sein."
+    },
+    {
+      "id": "satze-28",
+      "before": "Once there was.",
+      "after": "Once upon a time.",
+      "de": "Es war einmal."
+    },
+    {
+      "id": "satze-34",
+      "before": "Excuse me, please!",
+      "after": "Excuse me!",
+      "de": "Entschuldigen Sie bitte!"
+    },
+    {
+      "id": "satze-42",
+      "before": "Talk! • Stories!",
+      "after": "Out with it! • Tell me!",
+      "de": "Heraus mit der Sprache!"
+    },
+    {
+      "id": "satze-47",
+      "before": "Last night",
+      "after": "Tonight",
+      "de": "heute Nacht"
+    },
+    {
+      "id": "satze-50",
+      "before": "Can you repeat that please?",
+      "after": "Can you repeat that, please?",
+      "de": "Kannst du das bitte wiederholen?"
+    },
+    {
+      "id": "satze-65",
+      "before": "You should pay attention to that.",
+      "after": "You must pay attention to that.",
+      "de": "Darauf musst du achten."
+    },
+    {
+      "id": "satze-92",
+      "before": "Can you call me later",
+      "after": "Can you call me later?",
+      "de": "Kannst du mich später anrufen?"
+    },
+    {
+      "id": "satze-98",
+      "before": "Find an echo. • Find responsiveness",
+      "after": "Resonate. • Meet with approval.",
+      "de": "Anklang finden."
+    },
+    {
+      "id": "satze-99",
+      "before": "It depends on that.",
+      "after": "It depends.",
+      "de": "Es kommt darauf an."
+    },
+    {
+      "id": "satze-100",
+      "before": "Because of this time. • In this regard",
+      "after": "On this occasion. • For this reason.",
+      "de": "Aus diesem Anlass."
+    },
+    {
+      "id": "satze-102",
+      "before": "What have you done there",
+      "after": "What have you done there?",
+      "de": "Was hast du da angerichtet?"
+    },
+    {
+      "id": "satze-106",
+      "before": "Don't pretend!",
+      "after": "Don't make such a fuss!",
+      "de": "Stell dich nicht so an!"
+    },
+    {
+      "id": "satze-107",
+      "before": "Get to work.",
+      "after": "To get to work.",
+      "de": "An die Arbeit gehen."
+    },
+    {
+      "id": "satze-109",
+      "before": "Good appetite!",
+      "after": "Enjoy your meal!",
+      "de": "Guten Appetit!"
+    },
+    {
+      "id": "satze-111",
+      "before": "In each case.",
+      "after": "In any case.",
+      "de": "Auf jeden Fall."
+    },
+    {
+      "id": "satze-114",
+      "before": "He took a loan.",
+      "after": "He took out a loan.",
+      "de": "Er hat den Kredit aufgenommen."
+    },
+    {
+      "id": "satze-122",
+      "before": "Cover the damages.",
+      "after": "To pay for the damage.",
+      "de": "Für den Schaden aufkommen."
+    },
+    {
+      "id": "satze-124",
+      "before": "Sit up straight.",
+      "after": "To sit up straight.",
+      "de": "Aufrecht sitzen."
+    },
+    {
+      "id": "satze-125",
+      "before": "He has stood up.",
+      "after": "He is up.",
+      "de": "Er ist auf."
+    },
+    {
+      "id": "satze-126",
+      "before": "Devote all your strength.",
+      "after": "To use all one's strength.",
+      "de": "Alle Kräfte aufwenden."
+    },
+    {
+      "id": "satze-127",
+      "before": "Try very hard.",
+      "after": "To make a great effort.",
+      "de": "Viel Mühe aufwenden."
+    },
+    {
+      "id": "satze-128",
+      "before": "Don't look at me again!",
+      "after": "Get out of my sight!",
+      "de": "Geh mir aus den Augen!"
+    },
+    {
+      "id": "satze-129",
+      "before": "In two. • Quietly",
+      "after": "In private. • Between the two of us.",
+      "de": "Unter vier Augen."
+    },
+    {
+      "id": "satze-133",
+      "before": "Give importance to appearance.",
+      "after": "To attach importance to outward appearance.",
+      "de": "Auf Äußerlichkeiten Wert legen."
+    },
+    {
+      "id": "satze-140",
+      "before": "When was the championship?",
+      "after": "When were the championship matches held?",
+      "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?"
+    },
+    {
+      "id": "satze-148",
+      "before": "Procrastinate. • Drag to length • Postpone indefinitely",
+      "after": "Procrastinate. • Drag it out. • Postpone indefinitely.",
+      "de": "Auf die lange Bank schieben."
+    },
+    {
+      "id": "satze-151",
+      "before": "Shoot. • Make a fool of yourself",
+      "after": "Mess up. • Make a fool of yourself",
+      "de": "Mist bauen."
+    },
+    {
+      "id": "satze-164",
+      "before": "Starting",
+      "after": "At the start.",
+      "de": "Bei Beginn."
+    },
+    {
+      "id": "satze-166",
+      "before": "With accompaniment.",
+      "after": "With his companion.",
+      "de": "Mit seiner Begleitung."
+    },
+    {
+      "id": "satze-167",
+      "before": "He is slow to perceive. • He has slow thinking",
+      "after": "He is slow to understand. • He is slow-witted.",
+      "de": "Er ist schwer von Begriff."
+    },
+    {
+      "id": "satze-168",
+      "before": "Remember. • Keep in memory",
+      "after": "Remember. • Keep in mind",
+      "de": "Im Gedächtnis behalten."
+    },
+    {
+      "id": "satze-172",
+      "before": "Not at all.",
+      "after": "Not nearly so.",
+      "de": "Bei weitem nicht so."
+    },
+    {
+      "id": "satze-173",
+      "before": "Both two.",
+      "after": "Both.",
+      "de": "Alle beide."
+    },
+    {
+      "id": "satze-175",
+      "before": "Obtain consent.",
+      "after": "Meet with approval.",
+      "de": "Beifall finden."
+    }
+  ]
+}
