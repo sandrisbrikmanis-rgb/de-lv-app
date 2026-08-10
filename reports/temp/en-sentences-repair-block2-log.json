@@ -1,0 +1,393 @@
+{
+  "block": "2/5",
+  "reviewed": 50,
+  "changed": 45,
+  "nelabotUnchanged": 5,
+  "nelabotIds": [
+    "satze-212",
+    "satze-216",
+    "satze-217",
+    "satze-263",
+    "satze-264"
+  ],
+  "sourceLvIssues": [
+    {
+      "cardId": "satze-242",
+      "de": "von Haus aus",
+      "lvSourceBefore": "kopš bērnības • no pašiem sākumiem",
+      "lvSourceNote": "kopš bērnības • no pašiem sākumiem",
+      "enBefore": "Since childhood • From the very beginning",
+      "enAfter": "By nature. • Originally.",
+      "lvChanged": false
+    }
+  ],
+  "appliedIds": [
+    "satze-180",
+    "satze-183",
+    "satze-188",
+    "satze-190",
+    "satze-192",
+    "satze-195",
+    "satze-197",
+    "satze-198",
+    "satze-202",
+    "satze-204",
+    "satze-210",
+    "satze-213",
+    "satze-214",
+    "satze-215",
+    "satze-218",
+    "satze-219",
+    "satze-223",
+    "satze-225",
+    "satze-226",
+    "satze-230",
+    "satze-239",
+    "satze-242",
+    "satze-243",
+    "satze-244",
+    "satze-251",
+    "satze-254",
+    "satze-255",
+    "satze-257",
+    "satze-258",
+    "satze-262",
+    "satze-266",
+    "satze-269",
+    "satze-270",
+    "satze-272",
+    "satze-281",
+    "satze-283",
+    "satze-286",
+    "satze-294",
+    "satze-297",
+    "satze-298",
+    "satze-299",
+    "satze-305",
+    "satze-309",
+    "satze-310",
+    "satze-312"
+  ],
+  "deReadOnly": true,
+  "lvSourceReadOnly": true,
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "unexpectedChanges": 0,
+  "applied": [
+    {
+      "id": "satze-180",
+      "before": "Invest your share.",
+      "after": "Make a contribution.",
+      "de": "Beitrag leisten.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-183",
+      "before": "Sandwiches with toppings.",
+      "after": "Topped bread rolls.",
+      "de": "Belegte Brötchen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-188",
+      "before": "Be ready. • Be at peace",
+      "after": "Be ready. • Be willing",
+      "de": "Bereit sein.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-190",
+      "before": "Report. • Provide a report • Provide an overview",
+      "after": "Report. • Provide a report • Give an account",
+      "de": "Bericht erstatten.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-192",
+      "before": "A new broom sweeps well.",
+      "after": "New brooms sweep clean.",
+      "de": "Neue Besen kehren gut.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-195",
+      "before": "The better.",
+      "after": "All the better.",
+      "de": "Desto besser.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-197",
+      "before": "Whatever you want.",
+      "after": "With the best will in the world.",
+      "de": "Beim besten Willen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-198",
+      "before": "The best.",
+      "after": "Ideally.",
+      "de": "Am besten.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-202",
+      "before": "Definitely. • Completely safe",
+      "after": "Definitely. • Certainly.",
+      "de": "Ganz bestimmt.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-204",
+      "before": "To visit. • To visit",
+      "after": "To be visiting. • To be a guest.",
+      "de": "Zu Besuch sein.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-210",
+      "before": "Both two.",
+      "after": "Both of them.",
+      "de": "Alle beiden.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-213",
+      "before": "Please",
+      "after": "Please.",
+      "de": "Bitte schön.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-214",
+      "before": "How please",
+      "after": "Pardon?",
+      "de": "Wie bitte?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-215",
+      "before": "Please",
+      "after": "Please.",
+      "de": "Bitte sehr.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-218",
+      "before": "Sort the book.",
+      "after": "Leaf through a book.",
+      "de": "In einem Buch blättern.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-219",
+      "before": "Bare feet.",
+      "after": "Barefoot.",
+      "de": "Mit bloßen Füßen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-223",
+      "before": "Check. • Check",
+      "after": "Please check. • Please verify.",
+      "de": "Bitte checken.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-225",
+      "before": "Everything speaks well.",
+      "after": "Everything speaks in favour of it.",
+      "de": "Alles spricht dafür.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-226",
+      "before": "I can't do anything there.",
+      "after": "I can't help it.",
+      "de": "Ich kann nichts dafür.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-230",
+      "before": "Make a lady's move.",
+      "after": "Move the queen.",
+      "de": "Mit der Dame ziehen.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-239",
+      "before": "Don't lower your head!",
+      "after": "Keep your chin up!",
+      "de": "Lass den Kopf nicht hängen!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-242",
+      "before": "Since childhood • From the very beginning",
+      "after": "By nature. • Originally.",
+      "de": "von Haus aus",
+      "sourceLvIssue": true
+    },
+    {
+      "id": "satze-243",
+      "before": "Congratulations!",
+      "after": "My warmest congratulations!",
+      "de": "Meinen herzlichsten Glückwunsch!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-244",
+      "before": "Be so kind! • Be so good!",
+      "after": "Be so kind! • Please!",
+      "de": "Seien Sie so gut!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-251",
+      "before": "Last night",
+      "after": "Yesterday evening",
+      "de": "gestern Abend",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-254",
+      "before": "Don't do nonsense! • Don't make jokes!",
+      "after": "Don't make a fuss! • Don't make a scene!",
+      "de": "Mach keine Geschichten!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-255",
+      "before": "Not to mention that. • Where else",
+      "after": "Not to mention... • Let alone...",
+      "de": "Geschweige denn...",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-257",
+      "before": "How are you • How are you?",
+      "after": "How are you? • How are you?",
+      "de": "Wie geht es Ihnen?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-258",
+      "before": "Ask him if he comes out if...",
+      "after": "Ask him occasionally whether...",
+      "de": "Frag ihn gelegentlich, ob...",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-262",
+      "before": "It appears from this letter that...",
+      "after": "It follows from this letter that...",
+      "de": "Aus diesem Brief folgt, dass...",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-266",
+      "before": "Do you remember me • Have you thought about me?",
+      "after": "Do you remember me? • Have you thought about me?",
+      "de": "Gedenkst du meiner?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-269",
+      "before": "Sad to watch...",
+      "after": "It pains me to see...",
+      "de": "Es jammert mich zu sehen...",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-270",
+      "before": "The more the better",
+      "after": "The more, the better",
+      "de": "je mehr, desto besser",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-272",
+      "before": "How to get to the station?",
+      "after": "How do I get to the station?",
+      "de": "Wie komme ich zum Bahnhof?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-281",
+      "before": "How are you",
+      "after": "How's it going?",
+      "de": "Na, wie läufts?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-283",
+      "before": "Live healthy! • Goodbye!",
+      "after": "Farewell! • Goodbye!",
+      "de": "Leben Sie wohl!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-286",
+      "before": "It was a busy day.",
+      "after": "It was a tiring day.",
+      "de": "Das war ein anstrengender Tag.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-294",
+      "before": "The dog has been released.",
+      "after": "The dog is loose.",
+      "de": "Der Hund ist los.",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-297",
+      "before": "What are you doing",
+      "after": "What are you doing?",
+      "de": "Was machst du?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-298",
+      "before": "Say yes!",
+      "after": "Tell me!",
+      "de": "Sag mal!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-299",
+      "before": "What do you mean by that? • What do you think?",
+      "after": "What do you mean by that? • What do you mean?",
+      "de": "Was meinen Sie damit?",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-305",
+      "before": "On monday",
+      "after": "On Monday",
+      "de": "am Montag",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-309",
+      "before": "Sit down!",
+      "after": "Please take a seat!",
+      "de": "Nehmen Sie Platz!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-310",
+      "before": "The latest news!",
+      "after": "The latest novelty!",
+      "de": "Letzte Neuheit!",
+      "sourceLvIssue": false
+    },
+    {
+      "id": "satze-312",
+      "before": "No, of course! • Don't!",
+      "after": "Oh, no! • Don't!",
+      "de": "Nicht doch!",
+      "sourceLvIssue": false
+    }
+  ]
+}
