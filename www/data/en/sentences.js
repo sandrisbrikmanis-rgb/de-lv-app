@@ -3141,7 +3141,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Rechnung, bitte!",
-    "lv": "Bill, please!",
+    "lv": "The bill, please!",
     "level": "Sätze"
   },
   {
@@ -3181,7 +3181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kellner, die Speisekarte, bitte!",
-    "lv": "Waiters, menu, please!",
+    "lv": "Waiter, the menu, please!",
     "level": "Sätze"
   },
   {
@@ -3196,12 +3196,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kellner, zahlen bitte!",
-    "lv": "Waiters, please pay!",
+    "lv": "Waiter, the bill, please!",
     "level": "Sätze"
   },
   {
     "de": "Ich gehe ins Café einen Kaffee trinken.",
-    "lv": "I will go to a cafe to drink coffee.",
+    "lv": "I'm going to the café to have a coffee.",
     "level": "Sätze"
   },
   {
@@ -3216,7 +3216,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte schneller, ich habe es eilig!",
-    "lv": "Faster please, I have to hurry!",
+    "lv": "Faster, please. I'm in a hurry!",
     "level": "Sätze"
   },
   {
@@ -3256,7 +3256,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Erinnere mich morgen daran zu schreiben!",
-    "lv": "Remind me to sign tomorrow!",
+    "lv": "Remind me tomorrow to write!",
     "level": "Sätze"
   },
   {
@@ -3271,7 +3271,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kann ich dich später anrufen?",
-    "lv": "Can i call you later",
+    "lv": "Can I call you later?",
     "level": "Sätze"
   },
   {
@@ -3286,7 +3286,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hinten bitte nicht zu kurz.",
-    "lv": "In the back, please, not too short.",
+    "lv": "Not too short at the back, please.",
     "level": "Sätze"
   },
   {
@@ -3296,12 +3296,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es fängt um halb acht an.",
-    "lv": "It starts at half past eight.",
+    "lv": "It starts at half past seven.",
     "level": "Sätze"
   },
   {
     "de": "Alle Plätze sind ausverkauft.",
-    "lv": "All tickets are sold out.",
+    "lv": "All the seats are sold out.",
     "level": "Sätze"
   },
   {
@@ -3311,12 +3311,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wir lassen die Jacken in der Garderobe.",
-    "lv": "Let's leave the jackets in the wardrobe.",
+    "lv": "Let's leave the jackets in the cloakroom.",
     "level": "Sätze"
   },
   {
     "de": "Bitte schnell, der Vorhang geht gleich auf!",
-    "lv": "Quicker please, the curtain is about to open!",
+    "lv": "Quickly, please! The curtain is about to go up!",
     "level": "Sätze"
   },
   {
@@ -3366,12 +3366,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Hast du alles eingepackt?",
-    "lv": "Is everything already boxed?",
+    "lv": "Is everything packed already?",
     "level": "Sätze"
   },
   {
     "de": "Ich stehe mit meinem Freund in Kontakt.",
-    "lv": "I am in correspondence with my friend.",
+    "lv": "I am in contact with my friend.",
     "level": "Sätze"
   },
   {
@@ -3391,7 +3391,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nun können wir alles wieder aufräumen.",
-    "lv": "Now we can put everything back together.",
+    "lv": "Now we can tidy everything up again.",
     "level": "Sätze"
   },
   {
@@ -3401,12 +3401,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Im Sommer fahre ich ans Meer.",
-    "lv": "I will go to the sea in the summer.",
+    "lv": "I will go to the seaside in the summer.",
     "level": "Sätze"
   },
   {
     "de": "Kannst du schwimmen?",
-    "lv": "Can you swim",
+    "lv": "Can you swim?",
     "level": "Sätze"
   },
   {
@@ -3446,7 +3446,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich fühle mich nicht wohl.",
-    "lv": "I feel bad.",
+    "lv": "I don't feel well.",
     "level": "Sätze"
   },
   {
@@ -3516,7 +3516,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Kann ich das auf Raten kaufen?",
-    "lv": "Can I buy in installments?",
+    "lv": "Can I buy it in installments?",
     "level": "Sätze"
   },
   {
@@ -3536,7 +3536,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sprichst du Deutsch?",
-    "lv": "Do you speak german",
+    "lv": "Do you speak German?",
     "level": "Sätze"
   },
   {
@@ -3561,12 +3561,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
-    "lv": "Always looking for an opportunity to speak German.",
+    "lv": "I am always looking for an opportunity to speak German.",
     "level": "Sätze"
   },
   {
     "de": "Ist das Buch noch vorrätig?",
-    "lv": "Is this book still available?",
+    "lv": "Is this book still in stock?",
     "level": "Sätze"
   },
   {
@@ -3601,7 +3601,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir ein halbes Kilo abwiegen?",
-    "lv": "Can you weigh half a kilo?",
+    "lv": "Can you weigh out half a kilo for me?",
     "level": "Sätze"
   },
   {
@@ -3616,7 +3616,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wiegen Sie mir bitte zwei Kilo ab.",
-    "lv": "Please weigh two kilograms.",
+    "lv": "Please weigh out two kilograms for me.",
     "level": "Sätze"
   },
   {
@@ -3636,7 +3636,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
-    "lv": "One loaf of bread, please, but not too hard.",
+    "lv": "One loaf of bread, please, but not too crusty.",
     "level": "Sätze"
   },
   {
@@ -3666,7 +3666,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie mir alles nach Hause liefern?",
-    "lv": "Can you deliver everything to your home?",
+    "lv": "Can you deliver everything to my home?",
     "level": "Sätze"
   },
   {
@@ -3691,12 +3691,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Möbel in meine Wohnung liefern?",
-    "lv": "Can you deliver furniture to the apartment?",
+    "lv": "Can you deliver the furniture to my apartment?",
     "level": "Sätze"
   },
   {
     "de": "Bitte an der Kasse zahlen.",
-    "lv": "Please pay at the cashier.",
+    "lv": "Please pay at the checkout.",
     "level": "Sätze"
   },
   {
@@ -3711,12 +3711,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Dieser Stoff gefällt mir.",
-    "lv": "I love this fabric.",
+    "lv": "I like this fabric.",
     "level": "Sätze"
   },
   {
     "de": "Schneiden Sie mir bitte drei Meter ab.",
-    "lv": "Please cut three meters.",
+    "lv": "Please cut off three meters for me.",
     "level": "Sätze"
   },
   {
@@ -3731,7 +3731,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geben Sie mir eine hellere.",
-    "lv": "Give brighter.",
+    "lv": "Give me a lighter one.",
     "level": "Sätze"
   },
   {
@@ -3741,7 +3741,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Welche Handschuhe wünschen Sie?",
-    "lv": "What kind of gloves do you want?",
+    "lv": "Which gloves would you like?",
     "level": "Sätze"
   },
   {
@@ -3751,7 +3751,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "So, nun passen sie gut.",
-    "lv": "So, it works fine now.",
+    "lv": "So, now they fit well.",
     "level": "Sätze"
   },
   {
@@ -3776,7 +3776,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Hose ist zu lang.",
-    "lv": "The pants are too long.",
+    "lv": "The trousers are too long.",
     "level": "Sätze"
   },
   {
@@ -3796,12 +3796,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Können Sie die Schuhe heute reparieren?",
-    "lv": "Can you fix your shoes today?",
+    "lv": "Can you fix the shoes today?",
     "level": "Sätze"
   },
   {
     "de": "Wann kann ich die Schuhe abholen?",
-    "lv": "When can I bring the shoes?",
+    "lv": "When can I pick up the shoes?",
     "level": "Sätze"
   },
   {
@@ -3811,7 +3811,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Sie geht fünf Minuten vor.",
-    "lv": "It's five minutes early.",
+    "lv": "It's five minutes fast.",
     "level": "Sätze"
   },
   {
@@ -3846,7 +3846,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
-    "lv": "Please pack and send home.",
+    "lv": "Please pack it and send it to my home.",
     "level": "Sätze"
   },
   {
@@ -3876,7 +3876,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Die Aufnahme ist gelungen.",
-    "lv": "The photo was successful.",
+    "lv": "The photo turned out well.",
     "level": "Sätze"
   },
   {
@@ -3906,22 +3906,22 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Der Ring ist mir etwas zu weit.",
-    "lv": "The ring is a little too big for me.",
+    "lv": "The ring is a little too loose for me.",
     "level": "Sätze"
   },
   {
     "de": "Ich kann ihn enger machen.",
-    "lv": "I can narrow it down.",
+    "lv": "I can make it smaller.",
     "level": "Sätze"
   },
   {
     "de": "Dieser Ring passt mir.",
-    "lv": "This ring suits me.",
+    "lv": "This ring fits me.",
     "level": "Sätze"
   },
   {
     "de": "Zeigen Sie mir schöne Geschenkideen.",
-    "lv": "Showcase beautiful gift ideas.",
+    "lv": "Show me some beautiful gift ideas.",
     "level": "Sätze"
   },
   {
@@ -3941,7 +3941,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Das ist kein echter Stein, das ist Glas.",
-    "lv": "This is not real stone, it is glass.",
+    "lv": "This isn't a real stone. It's glass.",
     "level": "Sätze"
   },
   {
@@ -3951,7 +3951,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es ist besonders schön gearbeitet.",
-    "lv": "It is extremely finely crafted.",
+    "lv": "It is particularly finely crafted.",
     "level": "Sätze"
   },
   {
@@ -3961,7 +3961,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekomme ich die Schachtel gratis?",
-    "lv": "Did I get the box for free?",
+    "lv": "Do I get the box for free?",
     "level": "Sätze"
   },
   {
