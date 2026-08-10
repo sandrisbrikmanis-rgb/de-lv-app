@@ -1,0 +1,373 @@
+◇ injected env (1) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+  luna batch-0: 10 verbs, findings=0, pass=50, tokens=4777
+  luna batch-1: 10 verbs, findings=0, pass=50, tokens=5298
+  luna batch-2: 10 verbs, findings=2, pass=48, tokens=6212
+  luna batch-3: 10 verbs, findings=0, pass=50, tokens=5388
+  luna batch-4: 10 verbs, findings=1, pass=49, tokens=5549
+  luna batch-5: 10 verbs, findings=2, pass=48, tokens=6643
+  luna batch-6: 10 verbs, findings=4, pass=46, tokens=5805
+  luna batch-7: 10 verbs, findings=5, pass=45, tokens=5862
+  luna batch-8: 10 verbs, findings=2, pass=48, tokens=5376
+  luna batch-9: 10 verbs, findings=0, pass=50, tokens=5263
+  luna batch-10: 10 verbs, findings=2, pass=48, tokens=6183
+  luna batch-11: 10 verbs, findings=0, pass=50, tokens=5067
+  luna batch-12: 10 verbs, findings=3, pass=47, tokens=5931
+  luna batch-13: 10 verbs, findings=0, pass=50, tokens=5172
+  luna batch-14: 7 verbs, findings=0, pass=35, tokens=3804
+{
+  "verdict": "REPAIRS REQUIRED",
+  "scope": {
+    "uniqueChangedVerbs": 147,
+    "uniqueChangedFields": 397,
+    "lunaVerbsAudited": 147,
+    "lunaRequests": 15,
+    "lunaTokens": 82330
+  },
+  "gates": {
+    "verbs": 189,
+    "expectedVerbs": 189,
+    "formSlots": 945,
+    "expectedFormSlots": 945,
+    "mirror": true,
+    "syntax": true,
+    "structure": true,
+    "idOrder": true,
+    "deReadOnly": true,
+    "foreignRemnants": 10,
+    "hygiene": [],
+    "criticalFail": false
+  },
+  "validated": {
+    "counts": {
+      "CRITICAL": 0,
+      "HIGH": 10,
+      "MEDIUM": 10,
+      "LOW": 1
+    },
+    "falsePositive": 0,
+    "ownerDecisionRecheck": 0,
+    "deSourceIssue": 0,
+    "findings": [
+      {
+        "verbId": "verb-27-kennen",
+        "field": "imperfektKonjunktiv",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "kannte",
+        "lvSource": "pazina",
+        "currentEn": "pazina",
+        "proposedEn": "knew",
+        "reason": "The English slot contains a Latvian remnant; “knew” matches the visible German source.",
+        "confidence": "HIGH",
+        "regressionType": "DE_SOURCE_ISSUE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-34-brennen",
+        "field": "imperfektKonjunktiv",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "brannte",
+        "lvSource": "dega",
+        "currentEn": "dega",
+        "proposedEn": "burned",
+        "reason": "The English slot contains a Latvian remnant; “burned” matches the visible German source.",
+        "confidence": "HIGH",
+        "regressionType": "DE_SOURCE_ISSUE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-60-haben",
+        "field": "imperfektIndikativ",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "hatte",
+        "lvSource": "bija",
+        "currentEn": "bija",
+        "proposedEn": "had",
+        "reason": "The English slot still contains the Latvian source word instead of the English past form.",
+        "confidence": 0.99,
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-65-können",
+        "field": "imperfektKonjunktiv",
+        "severity": "MEDIUM",
+        "category": "PARADIGM",
+        "de": "konnte",
+        "lvSource": "varēja",
+        "currentEn": "would be able to",
+        "proposedEn": "could",
+        "reason": "Visible German is the indicative/past form konnte, not the conditional könnte.",
+        "confidence": "HIGH",
+        "regressionType": "DE_SOURCE_ISSUE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-68-lassen",
+        "field": "imperfektIndikativ",
+        "severity": "LOW",
+        "category": "FORMAT",
+        "de": "er ließ",
+        "lvSource": "viņš lika / ļāva",
+        "currentEn": "he ordered / allowed",
+        "proposedEn": "he ordered • allowed",
+        "reason": "This slot uses / while the other parallel lassen meanings consistently use •.",
+        "confidence": "HIGH",
+        "regressionType": "PARADIGM_INCONSISTENCY",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-80-mögen",
+        "field": "imperfektKonjunktiv",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "mochte",
+        "lvSource": "patika",
+        "currentEn": "patika",
+        "proposedEn": "liked",
+        "reason": "The English field contains an untranslated Latvian remnant.",
+        "confidence": 0.99,
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-83-nennen",
+        "field": "partizipVergangenheit",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "genannt",
+        "lvSource": "nosaukts",
+        "currentEn": "nosaukts",
+        "proposedEn": "named",
+        "reason": "The English field contains an untranslated Latvian remnant.",
+        "confidence": 0.99,
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-84-pfeifen",
+        "field": "partizipVergangenheit",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "gepfiffen",
+        "lvSource": "svilpots",
+        "currentEn": "svilpots",
+        "proposedEn": "whistled",
+        "reason": "The English field contains an untranslated Latvian remnant.",
+        "confidence": 0.99,
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-85-pflegen",
+        "field": "imperfektKonjunktiv",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "pflegte vai pflog",
+        "lvSource": "kopa",
+        "currentEn": "kopa",
+        "proposedEn": "cared for",
+        "reason": "The English field contains an untranslated Latvian remnant.",
+        "confidence": 0.99,
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-95-rinnen",
+        "field": "partizipVergangenheit",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "geronnen (er ist)",
+        "lvSource": "tecējis / sarecējis",
+        "currentEn": "flowed",
+        "proposedEn": "flowed / coagulated",
+        "reason": "The English omits the source's second sense, 'coagulated'.",
+        "confidence": 0.98,
+        "regressionType": "REPAIR_REGRESSION",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-98-saufen",
+        "field": "infinitiv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "saufen",
+        "lvSource": "žūpot / dzert",
+        "currentEn": "to drink heavily",
+        "proposedEn": "to drink heavily / to drink",
+        "reason": "The translation omits the source's ordinary 'to drink' alternative.",
+        "confidence": 0.96,
+        "regressionType": "REPAIR_REGRESSION",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-98-saufen",
+        "field": "praesens",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "er säuft",
+        "lvSource": "viņš žūpo / dzer",
+        "currentEn": "he drinks heavily",
+        "proposedEn": "he drinks heavily / he drinks",
+        "reason": "The repaired form omits the source's ordinary 'he drinks' alternative.",
+        "confidence": 0.96,
+        "regressionType": "REPAIR_REGRESSION",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-98-saufen",
+        "field": "imperfektIndikativ",
+        "severity": "MEDIUM",
+        "category": "GRAMMAR",
+        "de": "er soff",
+        "lvSource": "viņš žūpoja / dzēra",
+        "currentEn": "he drank / drank",
+        "proposedEn": "he drank heavily / he drank",
+        "reason": "The second slash alternative lacks its subject and the heavy-drinking sense is unclear.",
+        "confidence": 0.99,
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-98-saufen",
+        "field": "imperfektKonjunktiv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "er söffe",
+        "lvSource": "viņš žūpotu / dzertu",
+        "currentEn": "he would drink heavily",
+        "proposedEn": "he would drink heavily / he would drink",
+        "reason": "The repaired conditional omits the source's ordinary drinking alternative.",
+        "confidence": 0.96,
+        "regressionType": "REPAIR_REGRESSION",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-105-scheren",
+        "field": "imperfektKonjunktiv",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "schor vai scherte",
+        "lvSource": "cirpa",
+        "currentEn": "cirpa",
+        "proposedEn": "he would shear",
+        "reason": "Current English is a Latvian remnant and does not express the German conditional.",
+        "confidence": 0.99,
+        "regressionType": "OWNER_DECISION_RECHECK",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-110-schlagen",
+        "field": "infinitiv",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "schlagen",
+        "lvSource": "sist",
+        "currentEn": "sist",
+        "proposedEn": "to hit",
+        "reason": "The English field contains the Latvian source term instead of an English infinitive.",
+        "confidence": 1,
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-124-schwimmen",
+        "field": "imperfektIndikativ",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "er schwamm",
+        "lvSource": "viņš peldēja",
+        "currentEn": "he was swimming",
+        "proposedEn": "he swam",
+        "reason": "The German simple past is best rendered with the English simple past, not a progressive form.",
+        "confidence": 0.94,
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-129-sein",
+        "field": "imperfektKonjunktiv",
+        "severity": "HIGH",
+        "category": "FOREIGN_REMNANT",
+        "de": "war",
+        "lvSource": "bija",
+        "currentEn": "bija",
+        "proposedEn": "he was",
+        "reason": "The current value is Latvian, not English; use the English equivalent of the visible German source.",
+        "confidence": 0.99,
+        "regressionType": "DE_SOURCE_ISSUE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-156-treiben",
+        "field": "praesens",
+        "severity": "MEDIUM",
+        "category": "PARADIGM",
+        "de": "er treibt",
+        "lvSource": "viņš dzen",
+        "currentEn": "he drives",
+        "proposedEn": "he chases",
+        "reason": "The paradigm selects “chase” in the infinitive and participle but switches to “drive” in the finite forms.",
+        "confidence": 0.94,
+        "regressionType": "PARADIGM_INCONSISTENCY",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-156-treiben",
+        "field": "imperfektIndikativ",
+        "severity": "MEDIUM",
+        "category": "PARADIGM",
+        "de": "er trieb",
+        "lvSource": "viņš dzina",
+        "currentEn": "he drove",
+        "proposedEn": "he chased",
+        "reason": "The paradigm selects “chase” in the infinitive and participle but switches to “drive” in the finite forms.",
+        "confidence": 0.94,
+        "regressionType": "PARADIGM_INCONSISTENCY",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-156-treiben",
+        "field": "imperfektKonjunktiv",
+        "severity": "MEDIUM",
+        "category": "PARADIGM",
+        "de": "er triebe",
+        "lvSource": "viņš dzītu",
+        "currentEn": "he would drive",
+        "proposedEn": "he would chase",
+        "reason": "The paradigm selects “chase” in the infinitive and participle but switches to “drive” in the finite forms.",
+        "confidence": 0.94,
+        "regressionType": "PARADIGM_INCONSISTENCY",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      }
+    ],
+    "ownerRecheckFindings": []
+  }
+}
+
+--- run 2026-08-10T17:02:55.547Z verbs=147 batches=15 ---
