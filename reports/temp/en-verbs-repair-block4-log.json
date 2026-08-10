@@ -1,0 +1,345 @@
+{
+  "applied": 48,
+  "repairs": [
+    {
+      "index": 83,
+      "infinitiv": "nennen",
+      "field": "praesens",
+      "before": "he named",
+      "after": "he names"
+    },
+    {
+      "index": 84,
+      "infinitiv": "pfeifen",
+      "field": "infinitiv",
+      "before": "svilpot",
+      "after": "to whistle"
+    },
+    {
+      "index": 85,
+      "infinitiv": "pflegen",
+      "field": "infinitiv",
+      "before": "kopt",
+      "after": "to care for"
+    },
+    {
+      "index": 85,
+      "infinitiv": "pflegen",
+      "field": "imperfektIndikativ",
+      "before": "kopa",
+      "after": "cared for"
+    },
+    {
+      "index": 85,
+      "infinitiv": "pflegen",
+      "field": "partizipVergangenheit",
+      "before": "kopts",
+      "after": "cared for"
+    },
+    {
+      "index": 87,
+      "infinitiv": "quellen",
+      "field": "infinitiv",
+      "before": "briest",
+      "after": "to swell"
+    },
+    {
+      "index": 87,
+      "infinitiv": "quellen",
+      "field": "praesens",
+      "before": "he is getting fat",
+      "after": "he swells"
+    },
+    {
+      "index": 87,
+      "infinitiv": "quellen",
+      "field": "imperfektIndikativ",
+      "before": "he matured",
+      "after": "he swelled"
+    },
+    {
+      "index": 87,
+      "infinitiv": "quellen",
+      "field": "imperfektKonjunktiv",
+      "before": "he fat",
+      "after": "he would swell"
+    },
+    {
+      "index": 87,
+      "infinitiv": "quellen",
+      "field": "partizipVergangenheit",
+      "before": "uzbriedis",
+      "after": "swollen"
+    },
+    {
+      "index": 88,
+      "infinitiv": "raten",
+      "field": "infinitiv",
+      "before": "suggest / mention",
+      "after": "to advise / to guess"
+    },
+    {
+      "index": 88,
+      "infinitiv": "raten",
+      "field": "praesens",
+      "before": "he recommends / min",
+      "after": "he advises / he guesses"
+    },
+    {
+      "index": 88,
+      "infinitiv": "raten",
+      "field": "imperfektIndikativ",
+      "before": "he suggested / suggested",
+      "after": "he advised / he guessed"
+    },
+    {
+      "index": 88,
+      "infinitiv": "raten",
+      "field": "imperfektKonjunktiv",
+      "before": "he would suggest / mention",
+      "after": "he would advise / he would guess"
+    },
+    {
+      "index": 88,
+      "infinitiv": "raten",
+      "field": "partizipVergangenheit",
+      "before": "suggested / mentioned",
+      "after": "advised / guessed"
+    },
+    {
+      "index": 89,
+      "infinitiv": "reiben",
+      "field": "infinitiv",
+      "before": "berzt",
+      "after": "to rub"
+    },
+    {
+      "index": 89,
+      "infinitiv": "reiben",
+      "field": "imperfektIndikativ",
+      "before": "he rubs",
+      "after": "he rubbed"
+    },
+    {
+      "index": 89,
+      "infinitiv": "reiben",
+      "field": "partizipVergangenheit",
+      "before": "berzts",
+      "after": "rubbed"
+    },
+    {
+      "index": 90,
+      "infinitiv": "reißen",
+      "field": "infinitiv",
+      "before": "raut",
+      "after": "to tear"
+    },
+    {
+      "index": 90,
+      "infinitiv": "reißen",
+      "field": "imperfektKonjunktiv",
+      "before": "he snapped",
+      "after": "he would tear"
+    },
+    {
+      "index": 90,
+      "infinitiv": "reißen",
+      "field": "partizipVergangenheit",
+      "before": "rauts",
+      "after": "torn"
+    },
+    {
+      "index": 91,
+      "infinitiv": "reiten",
+      "field": "partizipVergangenheit",
+      "before": "rode",
+      "after": "ridden"
+    },
+    {
+      "index": 92,
+      "infinitiv": "rennen",
+      "field": "infinitiv",
+      "before": "skriet",
+      "after": "to run"
+    },
+    {
+      "index": 92,
+      "infinitiv": "rennen",
+      "field": "partizipVergangenheit",
+      "before": "ran",
+      "after": "run"
+    },
+    {
+      "index": 93,
+      "infinitiv": "riechen",
+      "field": "infinitiv",
+      "before": "ost",
+      "after": "to smell"
+    },
+    {
+      "index": 93,
+      "infinitiv": "riechen",
+      "field": "imperfektIndikativ",
+      "before": "he sings",
+      "after": "he smelled"
+    },
+    {
+      "index": 93,
+      "infinitiv": "riechen",
+      "field": "imperfektKonjunktiv",
+      "before": "he port",
+      "after": "he would smell"
+    },
+    {
+      "index": 93,
+      "infinitiv": "riechen",
+      "field": "partizipVergangenheit",
+      "before": "osts",
+      "after": "smelled"
+    },
+    {
+      "index": 94,
+      "infinitiv": "ringen",
+      "field": "infinitiv",
+      "before": "lauzties",
+      "after": "to wrestle"
+    },
+    {
+      "index": 94,
+      "infinitiv": "ringen",
+      "field": "praesens",
+      "before": "he breaks",
+      "after": "he wrestles"
+    },
+    {
+      "index": 94,
+      "infinitiv": "ringen",
+      "field": "imperfektIndikativ",
+      "before": "he broke down",
+      "after": "he wrestled"
+    },
+    {
+      "index": 94,
+      "infinitiv": "ringen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would break",
+      "after": "he would wrestle"
+    },
+    {
+      "index": 94,
+      "infinitiv": "ringen",
+      "field": "partizipVergangenheit",
+      "before": "laucies",
+      "after": "wrestled"
+    },
+    {
+      "index": 95,
+      "infinitiv": "rinnen",
+      "field": "praesens",
+      "before": "he runs",
+      "after": "he flows"
+    },
+    {
+      "index": 95,
+      "infinitiv": "rinnen",
+      "field": "imperfektIndikativ",
+      "before": "he ran",
+      "after": "he flowed"
+    },
+    {
+      "index": 95,
+      "infinitiv": "rinnen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would run",
+      "after": "he would flow"
+    },
+    {
+      "index": 96,
+      "infinitiv": "rufen",
+      "field": "infinitiv",
+      "before": "saukt",
+      "after": "to call"
+    },
+    {
+      "index": 96,
+      "infinitiv": "rufen",
+      "field": "partizipVergangenheit",
+      "before": "saukts",
+      "after": "called"
+    },
+    {
+      "index": 97,
+      "infinitiv": "salzen",
+      "field": "praesens",
+      "before": "he salted",
+      "after": "he salts"
+    },
+    {
+      "index": 98,
+      "infinitiv": "saufen",
+      "field": "infinitiv",
+      "before": "dry / drink",
+      "after": "to drink heavily"
+    },
+    {
+      "index": 98,
+      "infinitiv": "saufen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would drink / drink",
+      "after": "he would drink heavily"
+    },
+    {
+      "index": 98,
+      "infinitiv": "saufen",
+      "field": "partizipVergangenheit",
+      "before": "dzerts",
+      "after": "drunk"
+    },
+    {
+      "index": 101,
+      "infinitiv": "schallen",
+      "field": "praesens",
+      "before": "tas skan",
+      "after": "it sounds"
+    },
+    {
+      "index": 102,
+      "infinitiv": "scheiden",
+      "field": "imperfektKonjunktiv",
+      "before": "he would divorce / divorce",
+      "after": "he would divorce / he would separate"
+    },
+    {
+      "index": 104,
+      "infinitiv": "schelten",
+      "field": "infinitiv",
+      "before": "bart",
+      "after": "to scold"
+    },
+    {
+      "index": 104,
+      "infinitiv": "schelten",
+      "field": "imperfektIndikativ",
+      "before": "he barred",
+      "after": "he scolded"
+    },
+    {
+      "index": 104,
+      "infinitiv": "schelten",
+      "field": "imperfektKonjunktiv",
+      "before": "he shaves",
+      "after": "he would scold"
+    },
+    {
+      "index": 104,
+      "infinitiv": "schelten",
+      "field": "partizipVergangenheit",
+      "before": "beard",
+      "after": "scolded"
+    }
+  ],
+  "deSourceIssue": [
+    "verb-85-pflegen/imperfektKonjunktiv stays kopa",
+    "verb-101-schallen/imperfektKonjunktiv stays sounded"
+  ]
+}
