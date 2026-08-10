@@ -1212,7 +1212,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "salt"
+      "lv": "to freeze"
     },
     "praesens": {
       "de": "er friert",
@@ -1220,21 +1220,21 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "he island"
+      "lv": "he froze"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "he was freezing"
+      "lv": "he would freeze"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "salis"
+      "lv": "frozen"
     }
   },
   {
     "infinitiv": {
       "de": "geben",
-      "lv": "dot"
+      "lv": "to give"
     },
     "praesens": {
       "de": "er gibt",
@@ -1250,13 +1250,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegeben",
-      "lv": "dots"
+      "lv": "given"
     }
   },
   {
     "infinitiv": {
       "de": "gedeihen",
-      "lv": "izdoties"
+      "lv": "to thrive"
     },
     "praesens": {
       "de": "er gedeiht",
@@ -1272,13 +1272,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "izdevies"
+      "lv": "thrived"
     }
   },
   {
     "infinitiv": {
       "de": "gehen",
-      "lv": "iet"
+      "lv": "to go"
     },
     "praesens": {
       "de": "er geht",
@@ -1294,7 +1294,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "went"
+      "lv": "gone"
     }
   },
   {
@@ -1322,7 +1322,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "to be / to belong"
+      "lv": "to have"
     },
     "praesens": {
       "de": "er hat",
@@ -1338,7 +1338,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "bijis"
+      "lv": "had"
     }
   },
   {
@@ -1348,7 +1348,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er hält",
-      "lv": "he there"
+      "lv": "he holds"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
@@ -1366,7 +1366,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "saukt"
+      "lv": "to call / to be called"
     },
     "praesens": {
       "de": "er heißt",
@@ -1382,7 +1382,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geheißen",
-      "lv": "saukts"
+      "lv": "called"
     }
   },
   {
@@ -1448,29 +1448,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "could"
+      "lv": "been able to"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "it's raining"
+      "lv": "to crawl"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "he leans"
+      "lv": "he crawls"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "he rained"
+      "lv": "he crawled"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "he is raining"
+      "lv": "he would crawl"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "passed away"
+      "lv": "crawled"
     }
   },
   {
@@ -1520,7 +1520,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "laufen",
-      "lv": "skriet"
+      "lv": "to run"
     },
     "praesens": {
       "de": "er läuft",
@@ -1542,7 +1542,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "leiden",
-      "lv": "ciest"
+      "lv": "to suffer"
     },
     "praesens": {
       "de": "er leidet",
@@ -1558,7 +1558,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "ciests"
+      "lv": "suffered"
     }
   },
   {
@@ -1608,29 +1608,29 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "to sleep"
+      "lv": "to lie"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "he is sleeping"
+      "lv": "he lies"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "he was sleeping"
+      "lv": "he lay"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "he would sleep"
+      "lv": "he would lie"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "slept"
+      "lv": "lain"
     }
   },
   {
     "infinitiv": {
       "de": "lügen",
-      "lv": "melot"
+      "lv": "to lie"
     },
     "praesens": {
       "de": "er lügt",
@@ -1646,13 +1646,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "melots"
+      "lv": "lied"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "malt"
+      "lv": "to grind"
     },
     "praesens": {
       "de": "er mahlt",
@@ -1660,7 +1660,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "he edge"
+      "lv": "he ground"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
@@ -1668,7 +1668,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "malts"
+      "lv": "ground"
     }
   },
   {
@@ -1696,15 +1696,15 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "melken",
-      "lv": "slaukt"
+      "lv": "to milk"
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "he sweeps"
+      "lv": "he milks"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "he swept"
+      "lv": "he milked"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
@@ -1712,7 +1712,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemolken / gemelkt",
-      "lv": "slaukts"
+      "lv": "milked"
     }
   },
   {
@@ -1740,11 +1740,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "misslingen",
-      "lv": "neizdoties"
+      "lv": "to fail"
     },
     "praesens": {
       "de": "es misslingt",
-      "lv": "tas neizdodas"
+      "lv": "it fails"
     },
     "imperfektIndikativ": {
       "de": "misslang",
@@ -1756,13 +1756,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "neizdevies"
+      "lv": "failed"
     }
   },
   {
     "infinitiv": {
       "de": "mögen",
-      "lv": "patikt"
+      "lv": "to like"
     },
     "praesens": {
       "de": "er mag",
@@ -1770,7 +1770,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "patika"
+      "lv": "liked"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
@@ -1778,7 +1778,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "paticis"
+      "lv": "liked"
     }
   },
   {
@@ -1792,7 +1792,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "should have"
+      "lv": "had to"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
@@ -1828,7 +1828,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "nennen",
-      "lv": "nosaukt"
+      "lv": "to name"
     },
     "praesens": {
       "de": "er nennt",
