@@ -8,8 +8,9 @@
 | Item | Value |
 | --- | --- |
 | Main before integration | `42d2d0d84f8a6fee8f8e3ac7907ad0adf39fc40a` |
-| Integration HEAD | `5aefc5dc` |
-| Merge strategy | Fast-forward from closure audit branch |
+| Integration PR | #383 |
+| Merge commit on main | `27a12a97` |
+| Main after merge | `27a12a97` |
 
 ## Integrated commits (not on main before)
 
@@ -64,6 +65,15 @@ Reference files (DE/LV): **unchanged**
 | Unexpected production changes | 0 |
 
 Verification artifact: `reports/temp/en-c1c2-final-main-integration-verify.json`
+
+## Post-merge main verification
+
+Post-merge deterministic checks on `main` at `27a12a97`: **PASS**
+
+- C1/C2 counts, mirror, syntax, language parity, DE READ-ONLY
+- Repair blocks 6/6, NELABOT 8/8, MEDIUM micro 2/2
+- Repair scope vs `42d2d0d8`: 285 cards, 310 field changes
+- Closure audit CRITICAL/HIGH/MEDIUM/LOW: 0/0/0/0
 
 ## Final integration verdict
 
