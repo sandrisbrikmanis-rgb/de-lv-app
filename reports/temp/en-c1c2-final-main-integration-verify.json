@@ -1,0 +1,168 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "C1 count",
+      "pass": true,
+      "detail": "572/572"
+    },
+    {
+      "name": "C2 count",
+      "pass": true,
+      "detail": "219/219"
+    },
+    {
+      "name": "C1 language parity",
+      "pass": true,
+      "detail": "572/572"
+    },
+    {
+      "name": "C2 language parity",
+      "pass": true,
+      "detail": "219/219"
+    },
+    {
+      "name": "C1 mirror",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "C2 mirror",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "C1 syntax",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "C2 syntax",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "DE READ-ONLY C1",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "DE READ-ONLY C2",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "Repair blocks 6/6",
+      "pass": true,
+      "detail": "6/6"
+    },
+    {
+      "name": "OWNER NELABOT 8/8",
+      "pass": true,
+      "detail": "8/8"
+    },
+    {
+      "name": "MEDIUM micro 2/2",
+      "pass": true,
+      "detail": "2/2"
+    },
+    {
+      "name": "Repaired cards 285/285",
+      "pass": true,
+      "detail": "285/285"
+    },
+    {
+      "name": "Changed fields 310/310",
+      "pass": true,
+      "detail": "310/310"
+    },
+    {
+      "name": "Closure CRITICAL/HIGH/MEDIUM/LOW 0",
+      "pass": true,
+      "detail": "0/0/0/0"
+    },
+    {
+      "name": "Unexpected production changes",
+      "pass": true,
+      "detail": "0"
+    }
+  ],
+  "blocks": [
+    {
+      "block": 1,
+      "pass": true,
+      "cardId": "c1-gewährleisten-1"
+    },
+    {
+      "block": 2,
+      "pass": true,
+      "cardId": "c1-Befangenheit-211"
+    },
+    {
+      "block": 3,
+      "pass": true,
+      "cardId": "c1-Haft-376"
+    },
+    {
+      "block": 4,
+      "pass": true,
+      "cardId": "c1-Segelflugsport-468"
+    },
+    {
+      "block": 5,
+      "pass": true,
+      "cardId": "c2-Lungenentzündung-52"
+    },
+    {
+      "block": 6,
+      "pass": true,
+      "cardId": "c2-Meisterschaftsspiel-177"
+    }
+  ],
+  "nelabot": [
+    {
+      "cardId": "c1-Grenzverletzung-373",
+      "pass": true
+    },
+    {
+      "cardId": "c1-Industrieanlage-395",
+      "pass": true
+    },
+    {
+      "cardId": "c1-Produktionskosten-446",
+      "pass": true
+    },
+    {
+      "cardId": "c1-Rentenempfänger-458",
+      "pass": true
+    },
+    {
+      "cardId": "c2-unmissverständlich-3",
+      "pass": true
+    },
+    {
+      "cardId": "c2-Geschenkgutschein-38",
+      "pass": true
+    },
+    {
+      "cardId": "c2-Kassettenrecorder-43",
+      "pass": true
+    },
+    {
+      "cardId": "c2-Errungenschaft-117",
+      "pass": true
+    }
+  ],
+  "medium": [
+    {
+      "cardId": "c1-beabsichtigen",
+      "pass": true
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "pass": true
+    }
+  ],
+  "fieldChanges": 310,
+  "uniqueCards": 285
+}

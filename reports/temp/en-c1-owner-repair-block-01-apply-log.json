@@ -1,0 +1,313 @@
+{
+  "cardsTargeted": 50,
+  "cardsFound": 50,
+  "repairsApplied": 50,
+  "mismatch": 0,
+  "mismatchCardIds": [],
+  "mirrorPass": true,
+  "deReadOnly": true,
+  "syntaxPass": true,
+  "results": [
+    {
+      "cardId": "c1-gewährleisten-1",
+      "status": "APPLIED",
+      "before": "To provide",
+      "after": "To ensure"
+    },
+    {
+      "cardId": "c1-Auswirkung-2",
+      "status": "APPLIED",
+      "before": "Influence",
+      "after": "Effect"
+    },
+    {
+      "cardId": "c1-umstritten-3",
+      "status": "APPLIED",
+      "before": "Contradictory",
+      "after": "Controversial"
+    },
+    {
+      "cardId": "c1-Belastbarkeit-7",
+      "status": "APPLIED",
+      "before": "Stress resistance • Resistance to load",
+      "after": "Resilience under stress • Load-bearing capacity"
+    },
+    {
+      "cardId": "c1-Aktionsprogramm-10",
+      "status": "APPLIED",
+      "before": "programme of events",
+      "after": "Action programme"
+    },
+    {
+      "cardId": "c1-Alarmbereitschaft-11",
+      "status": "APPLIED",
+      "before": "Alert readiness",
+      "after": "State of alert"
+    },
+    {
+      "cardId": "c1-Altweibersommer-12",
+      "status": "APPLIED",
+      "before": "Spring",
+      "after": "Indian summer"
+    },
+    {
+      "cardId": "c1-Kinderschänder-30",
+      "status": "APPLIED",
+      "before": "Pedophile",
+      "after": "Child molester"
+    },
+    {
+      "cardId": "c1-Kindesmisshandlung-31",
+      "status": "APPLIED",
+      "before": "Violence against children",
+      "after": "Child abuse"
+    },
+    {
+      "cardId": "c1-Zivilgesetzbuch-32",
+      "status": "APPLIED",
+      "before": "Civil law",
+      "after": "Civil code"
+    },
+    {
+      "cardId": "c1-Aktie-33",
+      "status": "APPLIED",
+      "before": "Action",
+      "after": "Share"
+    },
+    {
+      "cardId": "c1-Autokennzeichen-38",
+      "status": "APPLIED",
+      "before": "Letters and numbers on the car licence plate",
+      "after": "Vehicle registration plate"
+    },
+    {
+      "cardId": "c1-Bäckerhandwerk-39",
+      "status": "APPLIED",
+      "before": "Baker's job",
+      "after": "Baking trade"
+    },
+    {
+      "cardId": "c1-Bergwanderung-41",
+      "status": "APPLIED",
+      "before": "Mountain tourism",
+      "after": "Mountain hike"
+    },
+    {
+      "cardId": "c1-sich beschäftigen-43",
+      "status": "APPLIED",
+      "before": "To occupy",
+      "after": "To occupy oneself"
+    },
+    {
+      "cardId": "c1-Autobahnbrücke-48",
+      "status": "APPLIED",
+      "before": "Road overpass",
+      "after": "Motorway bridge"
+    },
+    {
+      "cardId": "c1-Gepäckträger-70",
+      "status": "APPLIED",
+      "before": "Trunk",
+      "after": "Luggage rack"
+    },
+    {
+      "cardId": "c1-geschäftlich-71",
+      "status": "APPLIED",
+      "before": "Transaction",
+      "after": "Business-related"
+    },
+    {
+      "cardId": "c1-Geschäftsmann-72",
+      "status": "APPLIED",
+      "before": "Entrepreneur",
+      "after": "Businessman"
+    },
+    {
+      "cardId": "c1-Gesichtspunkt-77",
+      "status": "APPLIED",
+      "before": "Opinion",
+      "after": "Viewpoint"
+    },
+    {
+      "cardId": "c1-Gewichtheben-78",
+      "status": "APPLIED",
+      "before": "Weight lifting",
+      "after": "Weightlifting"
+    },
+    {
+      "cardId": "c1-Tasteninstrument-90",
+      "status": "APPLIED",
+      "before": "Keyboard",
+      "after": "Keyboard instrument"
+    },
+    {
+      "cardId": "c1-Kabelanschluss-92",
+      "status": "APPLIED",
+      "before": "Cable television connection",
+      "after": "Cable connection"
+    },
+    {
+      "cardId": "c1-Kostenanschlag-99",
+      "status": "APPLIED",
+      "before": "Expenditure estimate",
+      "after": "Cost estimate"
+    },
+    {
+      "cardId": "c1-Krankheitsbild-101",
+      "status": "APPLIED",
+      "before": "Disease scene",
+      "after": "Clinical picture"
+    },
+    {
+      "cardId": "c1-Lastkraftwagen-102",
+      "status": "APPLIED",
+      "before": "Heavy car",
+      "after": "Lorry"
+    },
+    {
+      "cardId": "c1-Morgengymnastik-112",
+      "status": "APPLIED",
+      "before": "Dawn",
+      "after": "Morning exercise"
+    },
+    {
+      "cardId": "c1-Rennen mit Hindernissen-131",
+      "status": "APPLIED",
+      "before": "Obstacle course",
+      "after": "Obstacle race"
+    },
+    {
+      "cardId": "c1-Rettungsstelle-133",
+      "status": "APPLIED",
+      "before": "First aid point",
+      "after": "First-aid station"
+    },
+    {
+      "cardId": "c1-rezeptpflichtig-134",
+      "status": "APPLIED",
+      "before": "By prescription",
+      "after": "Prescription-only"
+    },
+    {
+      "cardId": "c1-Scheibenwischer-136",
+      "status": "APPLIED",
+      "before": "Car window cleaner",
+      "after": "Windscreen wiper"
+    },
+    {
+      "cardId": "c1-Schiedsrichter-137",
+      "status": "APPLIED",
+      "before": "The judge",
+      "after": "Referee"
+    },
+    {
+      "cardId": "c1-Schlussverkauf-138",
+      "status": "APPLIED",
+      "before": "Sale of goods at the end of the season at reduced prices",
+      "after": "End-of-season sale"
+    },
+    {
+      "cardId": "c1-Schutzumschlag-142",
+      "status": "APPLIED",
+      "before": "Cover",
+      "after": "Dust jacket"
+    },
+    {
+      "cardId": "c1-Schwiegereltern-143",
+      "status": "APPLIED",
+      "before": "Husband's parents",
+      "after": "Parents-in-law"
+    },
+    {
+      "cardId": "c1-Stadtrundfahrt-149",
+      "status": "APPLIED",
+      "before": "City ​​trip",
+      "after": "City tour"
+    },
+    {
+      "cardId": "c1-Stellvertreter-151",
+      "status": "APPLIED",
+      "before": "Substitute",
+      "after": "Deputy"
+    },
+    {
+      "cardId": "c1-Steuererklärung-152",
+      "status": "APPLIED",
+      "before": "Tax declaration",
+      "after": "Tax return"
+    },
+    {
+      "cardId": "c1-Strampelhöschen-153",
+      "status": "APPLIED",
+      "before": "Baby crawler",
+      "after": "Baby romper"
+    },
+    {
+      "cardId": "c1-Stromverbrauch-154",
+      "status": "APPLIED",
+      "before": "Current consumption",
+      "after": "Electricity consumption"
+    },
+    {
+      "cardId": "c1-Tagesnachrichten-155",
+      "status": "APPLIED",
+      "before": "News of the day",
+      "after": "Daily news"
+    },
+    {
+      "cardId": "c1-Terminkalender-157",
+      "status": "APPLIED",
+      "before": "Note calendar",
+      "after": "Appointment diary"
+    },
+    {
+      "cardId": "c1-Thermosflasche-158",
+      "status": "APPLIED",
+      "before": "Thermos",
+      "after": "Vacuum flask"
+    },
+    {
+      "cardId": "c1-Unternehmen-162",
+      "status": "APPLIED",
+      "before": "Company • Event",
+      "after": "Company • Undertaking"
+    },
+    {
+      "cardId": "c1-Verlegenheit-173",
+      "status": "APPLIED",
+      "before": "Confusion",
+      "after": "Embarrassment"
+    },
+    {
+      "cardId": "c1-sich verständigen-178",
+      "status": "APPLIED",
+      "before": "Get along",
+      "after": "Communicate"
+    },
+    {
+      "cardId": "c1-Vorgesetzte-182",
+      "status": "APPLIED",
+      "before": "The boss",
+      "after": "Supervisor"
+    },
+    {
+      "cardId": "c1-sich zufrieden geben-185",
+      "status": "APPLIED",
+      "before": "To satisfy",
+      "after": "To be content"
+    },
+    {
+      "cardId": "c1-Abgeordnete-197",
+      "status": "APPLIED",
+      "before": "Deputy • Representative • Delegate",
+      "after": "Member of Parliament • Representative • Delegate"
+    },
+    {
+      "cardId": "c1-Abkommen-198",
+      "status": "APPLIED",
+      "before": "Agreement • Agreement",
+      "after": "Agreement • Accord"
+    }
+  ],
+  "mismatches": []
+}

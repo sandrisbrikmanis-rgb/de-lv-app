@@ -1,0 +1,33 @@
+◇ injected env (1) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Target cards: 235, field changes: 258
+Running Luna audit...
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+  luna simple-1: 35 cards, findings=0, pass=35, tokens=5510
+  done simple-1: 35 cards, findings=0
+  luna simple-2: 35 cards, findings=1, pass=34, tokens=6222
+  done simple-2: 35 cards, findings=1
+  luna simple-3: 35 cards, findings=0, pass=35, tokens=6670
+  done simple-3: 35 cards, findings=0
+  luna simple-4: 35 cards, findings=0, pass=35, tokens=6069
+  done simple-4: 35 cards, findings=0
+  luna simple-5: 35 cards, findings=0, pass=35, tokens=6140
+  done simple-5: 35 cards, findings=0
+  luna simple-6: 35 cards, findings=0, pass=35, tokens=6190
+  done simple-6: 35 cards, findings=0
+  luna simple-7: 12 cards, findings=0, pass=12, tokens=2314
+  done simple-7: 12 cards, findings=0
+  luna study-8: 6 cards, findings=0, pass=9, tokens=2989
+  done study-8: 6 cards, findings=0
+  luna study-9: 6 cards, findings=2, pass=23, tokens=6267
+  done study-9: 6 cards, findings=2
+  luna study-10: 1 cards, findings=0, pass=2, tokens=735
+  done study-10: 1 cards, findings=0
+{
+  "verdict": "REPAIRS REQUIRED",
+  "CRITICAL": 0,
+  "HIGH": 0,
+  "MEDIUM": 2,
+  "LOW": 0,
+  "cards": 235,
+  "fields": 258
+}

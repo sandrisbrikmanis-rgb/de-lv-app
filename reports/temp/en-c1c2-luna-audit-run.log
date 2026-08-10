@@ -1,0 +1,41 @@
+◇ injected env (1) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+EN C1/C2 Luna audit: 791 entries (775 flash, 16 study)
+Model: gpt-5.6-luna
+  luna simple-0: 60 cards, findings=16, pass=44, tokens=7446
+  luna simple-1: 60 cards, findings=11, pass=49, tokens=6410
+  luna simple-2: 60 cards, findings=20, pass=40, tokens=8572
+  luna simple-3: 60 cards, findings=24, pass=36, tokens=8522
+  luna simple-4: 60 cards, findings=23, pass=37, tokens=8552
+  luna simple-5: 60 cards, findings=26, pass=34, tokens=8695
+  luna simple-6: 60 cards, findings=19, pass=41, tokens=9297
+  luna simple-7: 60 cards, findings=21, pass=39, tokens=9128
+  luna simple-8: 60 cards, findings=24, pass=36, tokens=8594
+  luna simple-9: 60 cards, findings=27, pass=33, tokens=8184
+  luna simple-10: 60 cards, findings=19, pass=41, tokens=8443
+  luna simple-11: 60 cards, findings=27, pass=33, tokens=8689
+  luna simple-12: 55 cards, findings=21, pass=34, tokens=8429
+  luna study-0: 8 cards, findings=21, pass=0, tokens=8664
+  luna study-1: 8 cards, findings=20, pass=17, tokens=7074
+
+=== EN C1/C2 Luna audit complete ===
+{
+  "model": "gpt-5.6-luna",
+  "requests": 15,
+  "cardsAudited": 791,
+  "findings": 318,
+  "severity": {
+    "CRITICAL": 6,
+    "HIGH": 146,
+    "MEDIUM": 151,
+    "LOW": 15
+  },
+  "nonError": {
+    "SOURCE_LV_ISSUE": 0,
+    "DE_SOURCE_ISSUE": 0,
+    "NEEDS_REVIEW": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 1
+  },
+  "deSourceIssues": 0,
+  "tokens": 124699
+}

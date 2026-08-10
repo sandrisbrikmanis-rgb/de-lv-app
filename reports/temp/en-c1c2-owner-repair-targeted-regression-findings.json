@@ -1,0 +1,77 @@
+{
+  "findings": [
+    {
+      "cardId": "c1-beabsichtigen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
+      "lvSource": "nodomāt • plānot",
+      "currentEn": "What do you intend to achieve with this event?",
+      "proposedEn": "What do you intend to achieve with this measure?",
+      "reason": "Maßnahme means a measure or action here, not an event.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "unterstellen",
+      "lvSource": "pārmest • piedēvēt bez pamata",
+      "currentEn": "Unfounded accusation • Presuppose",
+      "proposedEn": "To accuse unjustly • To impute",
+      "reason": "The bare German verb is rendered as a noun plus a mismatched verb form.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ],
+  "validated": [
+    {
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Bezugsperson",
+      "lvSource": "kontaktpersona • tuvākais cilvēks",
+      "currentEn": "Key person • Close person",
+      "proposedEn": "Key person • Person close to you",
+      "reason": "Stylistic synonym or reverts OWNER-approved repair",
+      "confidence": 0.98,
+      "status": "FALSE_POSITIVE"
+    },
+    {
+      "cardId": "c1-beabsichtigen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
+      "lvSource": "nodomāt • plānot",
+      "currentEn": "What do you intend to achieve with this event?",
+      "proposedEn": "What do you intend to achieve with this measure?",
+      "reason": "Maßnahme means a measure or action here, not an event.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "unterstellen",
+      "lvSource": "pārmest • piedēvēt bez pamata",
+      "currentEn": "Unfounded accusation • Presuppose",
+      "proposedEn": "To accuse unjustly • To impute",
+      "reason": "The bare German verb is rendered as a noun plus a mismatched verb form.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ],
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0
+  }
+}

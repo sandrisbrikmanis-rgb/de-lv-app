@@ -3,19 +3,19 @@ const C2_WORDS = [
     "de": "Unvoreingenommenheit",
     "de_article": "die",
     "de_plural": "die Unvoreingenommenheiten",
-    "lv": "Objectivity • Neutrality",
+    "lv": "Impartiality • Unbiasedness",
     "level": "C2"
   },
   {
     "de": "konterkarieren",
-    "lv": "To disrupt",
+    "lv": "To thwart",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "Reasonableness",
+    "lv": "Soundness",
     "level": "C2"
   },
   {
@@ -32,7 +32,7 @@ const C2_WORDS = [
   },
   {
     "de": "veranschaulichen",
-    "lv": "To show demonstrably",
+    "lv": "To illustrate",
     "level": "C2"
   },
   {
@@ -80,17 +80,17 @@ const C2_WORDS = [
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "Membership card",
+    "lv": "Participant ID card",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "Battery operated",
+    "lv": "Battery-operated",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "Monitor",
+    "lv": "Supervise",
     "level": "C2"
   },
   {
@@ -104,7 +104,7 @@ const C2_WORDS = [
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "Doctor's office",
+    "lv": "Treatment room",
     "level": "C2"
   },
   {
@@ -121,14 +121,14 @@ const C2_WORDS = [
   },
   {
     "de": "benachrichtigen",
-    "lv": "To announce",
+    "lv": "To notify",
     "level": "C2"
   },
   {
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "Gasoline coupon",
+    "lv": "Petrol voucher",
     "level": "C2"
   },
   {
@@ -161,7 +161,7 @@ const C2_WORDS = [
     "de": "Berufsausbildung",
     "de_article": "die",
     "de_plural": "die Berufsausbildungen",
-    "lv": "Professional education",
+    "lv": "Vocational training",
     "level": "C2"
   },
   {
@@ -185,7 +185,7 @@ const C2_WORDS = [
       "examples": [
         {
           "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "Kilogram is a unit of weight."
+          "lv": "A kilogram is a unit of weight."
         },
         {
           "de": "Welche Gewichtseinheit soll ich benutzen?",
@@ -193,7 +193,7 @@ const C2_WORDS = [
         },
         {
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Gram and ton are units of weight."
+          "lv": "A gram and a tonne are units of weight."
         }
       ]
     }
@@ -206,7 +206,7 @@ const C2_WORDS = [
   },
   {
     "de": "entgegenkommen",
-    "lv": "Come across",
+    "lv": "To accommodate",
     "level": "C2"
   },
   {
@@ -227,7 +227,7 @@ const C2_WORDS = [
     "de": "Gehaltsabrechnung",
     "de_article": "die",
     "de_plural": "die Gehaltsabrechnungen",
-    "lv": "Salary calculation",
+    "lv": "Payslip",
     "level": "C2"
   },
   {
@@ -255,7 +255,7 @@ const C2_WORDS = [
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "Company manager",
+    "lv": "Managing director",
     "level": "C2"
   },
   {
@@ -276,7 +276,7 @@ const C2_WORDS = [
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "Gift wrapping",
+    "lv": "Gift packaging",
     "level": "C2"
   },
   {
@@ -310,7 +310,7 @@ const C2_WORDS = [
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "Disaster service",
+    "lv": "Disaster relief service",
     "level": "C2"
   },
   {
@@ -324,14 +324,14 @@ const C2_WORDS = [
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "Increasing costs",
+    "lv": "Increase in costs",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "Insurance in case of illness",
+    "lv": "Health insurance",
     "level": "C2"
   },
   {
@@ -345,7 +345,7 @@ const C2_WORDS = [
     "de": "Krankheitsüberträger",
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
-    "lv": "Carrier of disease",
+    "lv": "Disease carrier",
     "level": "C2"
   },
   {
@@ -366,7 +366,7 @@ const C2_WORDS = [
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "Lung cancer",
+    "lv": "Pneumonia",
     "level": "C2"
   },
   {
@@ -408,14 +408,14 @@ const C2_WORDS = [
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "Bedroom",
+    "lv": "Sleeping-car compartment",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "Sled incline",
+    "lv": "Ice-skate blade",
     "level": "C2"
   },
   {
@@ -427,12 +427,12 @@ const C2_WORDS = [
   },
   {
     "de": "selbstverständlich",
-    "lv": "Self-explanatory",
+    "lv": "Self-evident",
     "level": "C2"
   },
   {
     "de": "sicherheitshalber",
-    "lv": "For safety",
+    "lv": "As a precaution",
     "level": "C2"
   },
   {
@@ -467,7 +467,7 @@ const C2_WORDS = [
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "Pedestrian tunnel",
+    "lv": "Road underpass",
     "level": "C2"
   },
   {
@@ -522,14 +522,14 @@ const C2_WORDS = [
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "A prominent place",
+    "lv": "Sight",
     "level": "C2"
   },
   {
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "Story of an affair",
+    "lv": "Adventure story",
     "level": "C2"
   },
   {
@@ -557,14 +557,14 @@ const C2_WORDS = [
     "de": "Behindertenausweis",
     "de_article": "der",
     "de_plural": "die Behindertenausweise",
-    "lv": "Disability certificate",
+    "lv": "Disability ID card",
     "level": "C2"
   },
   {
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "Apartment building cooperative",
+    "lv": "Housing cooperative",
     "level": "C2"
   },
   {
@@ -578,21 +578,21 @@ const C2_WORDS = [
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "Tuition allowance",
+    "lv": "Training grant",
     "level": "C2"
   },
   {
     "de": "Unternehmensberater",
     "de_article": "der",
     "de_plural": "die Unternehmensberater",
-    "lv": "Company consultant",
+    "lv": "Business consultant",
     "level": "C2"
   },
   {
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "Reporter • Reporter • Correspondent • Reporter",
+    "lv": "Rapporteur • Reporter • Correspondent • Journalist",
     "level": "C2"
   },
   {
@@ -696,7 +696,7 @@ const C2_WORDS = [
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "Operational service",
+    "lv": "On-call service",
     "level": "C2"
   },
   {
@@ -708,7 +708,7 @@ const C2_WORDS = [
   },
   {
     "de": "durchkreuzen",
-    "lv": "Strike out • Cross • Cross • Disrupt",
+    "lv": "Cross out • Draw a cross over • Cross • Thwart",
     "level": "C2"
   },
   {
@@ -729,7 +729,7 @@ const C2_WORDS = [
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "Average performance • Average performance",
+    "lv": "Mediocre performance • Average performance",
     "level": "C2"
   },
   {
@@ -757,7 +757,7 @@ const C2_WORDS = [
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "Written recommendation",
+    "lv": "Letter of recommendation",
     "level": "C2"
   },
   {
@@ -769,28 +769,28 @@ const C2_WORDS = [
   },
   {
     "de": "entgegengesetzt",
-    "lv": "The opposite",
+    "lv": "Opposite",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "Certainty • Determination • Unquestioningness",
+    "lv": "Determination • Resolve • Decisiveness",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "Land of development",
+    "lv": "Developing country",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "Buffet",
+    "lv": "Refreshment room",
     "level": "C2"
   },
   {
@@ -845,14 +845,14 @@ const C2_WORDS = [
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "Leadership personality",
+    "lv": "Leadership figure",
     "level": "C2"
   },
   {
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "World championship in football",
+    "lv": "Football World Cup",
     "level": "C2"
   },
   {
@@ -866,7 +866,7 @@ const C2_WORDS = [
     "de": "Gedächtnisschwäche",
     "de_article": "die",
     "de_plural": "die Gedächtnisschwächen",
-    "lv": "Bad memory",
+    "lv": "Poor memory",
     "level": "C2"
   },
   {
@@ -880,7 +880,7 @@ const C2_WORDS = [
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "Prison warden",
+    "lv": "Prison guard",
     "level": "C2"
   },
   {
@@ -900,7 +900,7 @@ const C2_WORDS = [
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "Ingenuity",
+    "lv": "Presence of mind",
     "level": "C2"
   },
   {
@@ -933,14 +933,14 @@ const C2_WORDS = [
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "The villagers",
+    "lv": "Village community",
     "level": "C2"
   },
   {
     "de": "Forschungsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Forschungsgemeinschaften",
-    "lv": "Research group",
+    "lv": "Research community",
     "level": "C2"
   },
   {
@@ -961,21 +961,21 @@ const C2_WORDS = [
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "Cooperative • Artel",
+    "lv": "Cooperative",
     "level": "C2"
   },
   {
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "Justice • Sense of justice",
+    "lv": "Sense of justice",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "Arbitration",
+    "lv": "Arbitration tribunal",
     "level": "C2"
   },
   {
@@ -989,13 +989,13 @@ const C2_WORDS = [
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "Regulation • Regulations",
+    "lv": "Rules of procedure • Standing orders",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "Intercourse",
+    "lv": "Sexual intercourse",
     "level": "C2"
   },
   {
@@ -1023,19 +1023,19 @@ const C2_WORDS = [
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "Failure to observe the prescribed speed • Violation",
+    "lv": "Speeding • Exceeding the speed limit",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "Public • Societies",
+    "lv": "Social • Societal",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "Public facility",
+    "lv": "Social order",
     "level": "C2"
   },
   {
@@ -1070,21 +1070,21 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "Payout of lottery winnings",
+    "lv": "Payout of winnings",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "Conference at the highest level",
+    "lv": "Summit conference",
     "level": "C2"
   },
   {
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "Equality",
+    "lv": "Equal rights",
     "level": "C2"
   },
   {
@@ -1105,14 +1105,14 @@ const C2_WORDS = [
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "Family members • Residents of the house",
+    "lv": "Residents of the same building",
     "level": "C2"
   },
   {
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "Budget commission",
+    "lv": "Budget committee",
     "level": "C2"
   },
   {
@@ -1168,14 +1168,14 @@ const C2_WORDS = [
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "The drive of life",
+    "lv": "Self-preservation instinct",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "Means of subsistence • Costs",
+    "lv": "Cost of living",
     "level": "C2"
   },
   {
@@ -1217,12 +1217,12 @@ const C2_WORDS = [
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "Master race",
+    "lv": "Championship match",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "Humane • Humane",
+    "lv": "Humane • Benevolent",
     "level": "C2"
   },
   {
@@ -1275,14 +1275,14 @@ const C2_WORDS = [
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "Popular science",
+    "lv": "Popular-science",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "Competition",
+    "lv": "Prize competition",
     "level": "C2"
   },
   {
@@ -1294,7 +1294,7 @@ const C2_WORDS = [
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "Satellite television transmission",
+    "lv": "Satellite transmission",
     "level": "C2"
   },
   {
@@ -1308,7 +1308,7 @@ const C2_WORDS = [
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "Complaint",
+    "lv": "Written complaint",
     "level": "C2"
   },
   {
@@ -1322,7 +1322,7 @@ const C2_WORDS = [
     "de": "Selbstbestimmungsrecht",
     "de_article": "das",
     "de_plural": "die Selbstbestimmungsrechte",
-    "lv": "The right of self-determination",
+    "lv": "The right to self-determination",
     "level": "C2"
   },
   {
@@ -1336,28 +1336,28 @@ const C2_WORDS = [
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "A set of self-defence techniques",
+    "lv": "Self-defence",
     "level": "C2"
   },
   {
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "Statehood",
+    "lv": "Nationality",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "Tax benefits",
+    "lv": "Tax relief",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "Jur criminal code",
+    "lv": "Criminal code",
     "level": "C2"
   },
   {
@@ -1409,12 +1409,12 @@ const C2_WORDS = [
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "Basically",
+    "lv": "Underlying",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "For the good • For the good",
+    "lv": "In favour of • For the benefit of",
     "level": "C2"
   },
   {
@@ -1429,12 +1429,12 @@ const C2_WORDS = [
   },
   {
     "de": "instand",
-    "lv": "In order",
+    "lv": "In working order",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "In order",
+    "lv": "In working order",
     "level": "C2"
   },
   {
@@ -1451,21 +1451,21 @@ const C2_WORDS = [
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Wheelbarrow",
+    "lv": "Cart",
     "level": "C2"
   },
   {
     "de": "Karren",
     "de_article": "der",
     "de_plural": "die Karren",
-    "lv": "Wheelbarrow",
+    "lv": "Cart",
     "level": "C2"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "A war invalid",
+    "lv": "A person disabled by war",
     "level": "C2"
   },
   {
@@ -1479,7 +1479,7 @@ const C2_WORDS = [
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "Proficient • Expert",
+    "lv": "Expert • Specialist",
     "level": "C2"
   }
 ];

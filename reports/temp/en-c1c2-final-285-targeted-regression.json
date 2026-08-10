@@ -1,0 +1,273 @@
+{
+  "generatedAt": "2026-08-10T14:46:41.932Z",
+  "baselineRef": "origin/main",
+  "auditType": "final_285_closure",
+  "expectedUniqueCards": 285,
+  "uniqueRepairedCardsAudited": 285,
+  "changedFieldsExpected": 310,
+  "changedFieldsAudited": 310,
+  "flashcardsAudited": 269,
+  "studyCardsAudited": 16,
+  "c1RepairedCardsAudited": 203,
+  "c2RepairedCardsAudited": 82,
+  "c1ChangedFields": 227,
+  "c2ChangedFields": 83,
+  "repairBlocksPresent": 6,
+  "repairBlocksAnchors": [
+    {
+      "block": 1,
+      "cardId": "c1-gewährleisten-1",
+      "expected": "To ensure",
+      "current": "To ensure",
+      "present": true
+    },
+    {
+      "block": 2,
+      "cardId": "c1-Befangenheit-211",
+      "expected": "Self-consciousness • Embarrassment",
+      "current": "Self-consciousness • Embarrassment",
+      "present": true
+    },
+    {
+      "block": 3,
+      "cardId": "c1-Haft-376",
+      "expected": "Detention • Imprisonment",
+      "current": "Detention • Imprisonment",
+      "present": true
+    },
+    {
+      "block": 4,
+      "cardId": "c1-Segelflugsport-468",
+      "expected": "Gliding",
+      "current": "Gliding",
+      "present": true
+    },
+    {
+      "block": 5,
+      "cardId": "c2-Lungenentzündung-52",
+      "expected": "Pneumonia",
+      "current": "Pneumonia",
+      "present": true
+    },
+    {
+      "block": 6,
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "expected": "Championship match",
+      "current": "Championship match",
+      "present": true
+    }
+  ],
+  "mediumMicroRepairsVerified": 2,
+  "mediumMicroDetails": [
+    {
+      "cardId": "c1-beabsichtigen",
+      "fieldPath": "study.examples[1].lv",
+      "expected": "What do you intend to achieve with this measure?",
+      "current": "What do you intend to achieve with this measure?",
+      "pass": true
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "fieldPath": "study.examples[4].lv",
+      "expected": "To accuse unjustly • To impute",
+      "current": "To accuse unjustly • To impute",
+      "pass": true
+    }
+  ],
+  "repairManifest": {
+    "manifestCards": 285,
+    "manifestFields": 312
+  },
+  "ownerNelabot": {
+    "checked": 8,
+    "preserved": 8,
+    "details": [
+      {
+        "cardId": "c1-Grenzverletzung-373",
+        "expectedEn": "Border violation",
+        "currentEn": "Border violation",
+        "preserved": true
+      },
+      {
+        "cardId": "c1-Industrieanlage-395",
+        "expectedEn": "Industrial complex",
+        "currentEn": "Industrial complex",
+        "preserved": true
+      },
+      {
+        "cardId": "c1-Produktionskosten-446",
+        "expectedEn": "Cost of production",
+        "currentEn": "Cost of production",
+        "preserved": true
+      },
+      {
+        "cardId": "c1-Rentenempfänger-458",
+        "expectedEn": "Pensioner",
+        "currentEn": "Pensioner",
+        "preserved": true
+      },
+      {
+        "cardId": "c2-unmissverständlich-3",
+        "expectedEn": "Unmistakable",
+        "currentEn": "Unmistakable",
+        "preserved": true
+      },
+      {
+        "cardId": "c2-Geschenkgutschein-38",
+        "expectedEn": "Gift card",
+        "currentEn": "Gift card",
+        "preserved": true
+      },
+      {
+        "cardId": "c2-Kassettenrecorder-43",
+        "expectedEn": "Cassette tape recorder",
+        "currentEn": "Cassette tape recorder",
+        "preserved": true
+      },
+      {
+        "cardId": "c2-Errungenschaft-117",
+        "expectedEn": "Achievement • Benefit • Gain",
+        "currentEn": "Achievement • Benefit • Gain",
+        "preserved": true
+      }
+    ]
+  },
+  "sourceLvIssueCards": [
+    "c1-Wetterleuchten-553",
+    "c2-Unvoreingenommenheit-0",
+    "c2-Schlittschuhkufe-59",
+    "c2-Straßenunterführung-67",
+    "c2-Forschungsgemeinschaft-137",
+    "c2-Gewinnauszahlung-156",
+    "c2-Hausgemeinschaft-161",
+    "c2-Satellitenübertragung-189"
+  ],
+  "semicolonGelegentlich": {
+    "cardId": "c1-gelegentlich",
+    "field": "study.tip.leftBlocks[0].text",
+    "hasSemicolon": true,
+    "snippet": "Position in a sentence helps: before noun = adjective; after verb = adverb; + genitive = preposition.",
+    "classification": "DOCUMENTED_NON_REGRESSION",
+    "reason": "Semicolon in pedagogical tip text (not repair field, not translation). LANGUAGE_AUDIT §18 applies to meaning bullets in translation fields; tip grammar explanation uses semicolons as list separators. Out of repair-cycle scope."
+  },
+  "languageParity": {
+    "c1": true,
+    "c2": true,
+    "counts": {
+      "c1En": 572,
+      "c1Lv": 572,
+      "c2En": 219,
+      "c2Lv": 219
+    }
+  },
+  "mojibake": {
+    "c1": 0,
+    "c2": 0
+  },
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "falsePositiveCount": 1,
+  "sourceLvIssueCount": 0,
+  "ownerNelabotConfirmed": 0,
+  "luna": {
+    "status": "COMPLETED",
+    "model": "gpt-5.6-luna",
+    "rawFindings": 3,
+    "apiUsage": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 11,
+      "initialBatchRequests": 11,
+      "retryRequests": 0,
+      "batchCount": 11,
+      "batchSizes": [
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        35,
+        24,
+        6,
+        6,
+        4
+      ],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 44577,
+      "cachedInputTokens": 26459,
+      "outputTokens": 13071,
+      "reasoningTokens": 6327,
+      "totalTokens": 57648,
+      "findingsCount": 3,
+      "passCount": 307
+    }
+  },
+  "deterministic": {
+    "syntaxC1": "PASS",
+    "syntaxC2": "PASS",
+    "mirrorC1": "PASS",
+    "mirrorC2": "PASS",
+    "languageParity": "PASS",
+    "idOrderC1": "PASS",
+    "idOrderC2": "PASS",
+    "structureC1": "PASS",
+    "structureC2": "PASS",
+    "sectionAccentIssues": 0,
+    "foreignRemnantsC1": 0,
+    "foreignRemnantsC2": 0,
+    "semicolonIssuesC1": 1,
+    "semicolonIssuesC2": 0,
+    "deReadOnly": "PASS"
+  },
+  "productionChangesByAudit": 0,
+  "unexpectedProductionChanges": 0,
+  "verdict": "EN–DE C1/C2 FINAL TARGETED REGRESSION — PASS — 285/285 — CRITICAL/HIGH/MEDIUM/LOW = 0/0/0/0",
+  "qualityFindings": [],
+  "allValidated": [
+    {
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Bezugsperson",
+      "lvSource": "kontaktpersona • tuvākais cilvēks",
+      "currentEn": "Key person • Close person",
+      "proposedEn": "Key person • Person close to you",
+      "reason": "Stylistic synonym or reverts OWNER-approved repair",
+      "confidence": 0.96,
+      "status": "FALSE_POSITIVE"
+    },
+    {
+      "cardId": "c1-Beichtgeheimnis-332",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Beichtgeheimnis",
+      "lvSource": "bikts noslēpums",
+      "currentEn": "Confidentiality of confession",
+      "proposedEn": "Seal of confession",
+      "reason": "The current wording is awkward and describes confidentiality rather than the established concept of the confessional seal.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Man muss den Betrieb aufrechterhalten.",
+      "lvSource": "uzturēt spēkā",
+      "currentEn": "The activity must be maintained.",
+      "proposedEn": "The operation must be kept running.",
+      "reason": "Betrieb means an operation or business, not an activity in this context.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "falsePositivePostGate": 3
+}

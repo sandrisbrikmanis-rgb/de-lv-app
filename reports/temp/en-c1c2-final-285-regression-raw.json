@@ -1,0 +1,72 @@
+{
+  "findings": [
+    {
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Bezugsperson",
+      "lvSource": "kontaktpersona • tuvākais cilvēks",
+      "currentEn": "Key person • Close person",
+      "proposedEn": "Key person • Person close to you",
+      "reason": "“Close person” is not a natural English collocation for a person with whom someone has a close relationship.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-Beichtgeheimnis-332",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Beichtgeheimnis",
+      "lvSource": "bikts noslēpums",
+      "currentEn": "Confidentiality of confession",
+      "proposedEn": "Seal of confession",
+      "reason": "The current wording is awkward and describes confidentiality rather than the established concept of the confessional seal.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Man muss den Betrieb aufrechterhalten.",
+      "lvSource": "uzturēt spēkā",
+      "currentEn": "The activity must be maintained.",
+      "proposedEn": "The operation must be kept running.",
+      "reason": "Betrieb means an operation or business, not an activity in this context.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 11,
+    "initialBatchRequests": 11,
+    "retryRequests": 0,
+    "batchCount": 11,
+    "batchSizes": [
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      24,
+      6,
+      6,
+      4
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 44577,
+    "cachedInputTokens": 26459,
+    "outputTokens": 13071,
+    "reasoningTokens": 6327,
+    "totalTokens": 57648,
+    "findingsCount": 3,
+    "passCount": 307
+  }
+}

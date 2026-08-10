@@ -1,0 +1,71 @@
+{
+  "findings": [
+    {
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Bezugsperson",
+      "lvSource": "kontaktpersona • tuvākais cilvēks",
+      "currentEn": "Key person • Close person",
+      "proposedEn": "Key person • Person close to you",
+      "reason": "“Close person” is not idiomatic English and does not naturally express a person close to someone.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-beabsichtigen",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
+      "lvSource": "nodomāt • plānot",
+      "currentEn": "What do you intend to achieve with this event?",
+      "proposedEn": "What do you intend to achieve with this measure?",
+      "reason": "Maßnahme means a measure or action here, not an event.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "unterstellen",
+      "lvSource": "pārmest • piedēvēt bez pamata",
+      "currentEn": "Unfounded accusation • Presuppose",
+      "proposedEn": "To accuse unjustly • To impute",
+      "reason": "The bare German verb is rendered as a noun plus a mismatched verb form.",
+      "confidence": 0.91,
+      "status": "FINDING"
+    }
+  ],
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 10,
+    "initialBatchRequests": 10,
+    "retryRequests": 0,
+    "batchCount": 10,
+    "batchSizes": [
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      12,
+      6,
+      6,
+      1
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 37302,
+    "cachedInputTokens": 0,
+    "outputTokens": 11804,
+    "reasoningTokens": 6143,
+    "totalTokens": 49106,
+    "findingsCount": 3,
+    "passCount": 255
+  }
+}

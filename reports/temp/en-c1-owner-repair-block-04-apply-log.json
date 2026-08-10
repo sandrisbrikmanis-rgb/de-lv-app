@@ -1,0 +1,382 @@
+{
+  "block": "4/6",
+  "cardsTargeted": 50,
+  "flashcardsTargeted": 38,
+  "studyCardsTargeted": 12,
+  "cardsFound": 50,
+  "cardsWithRepairsApplied": 50,
+  "fieldReplacementsTargeted": 72,
+  "fieldReplacementsApplied": 72,
+  "mismatch": 0,
+  "mismatchDetails": [],
+  "wetterleuchtenSourceIssue": {
+    "cardId": "c1-Wetterleuchten-553",
+    "enAfter": "Sheet lightning",
+    "lvSourcePreserved": true
+  },
+  "mirrorPass": true,
+  "deReadOnly": true,
+  "syntaxPass": true,
+  "results": [
+    {
+      "cardId": "c1-Segelflugsport-468",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Selbstverwaltung-469",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Sensationsmeldung-471",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-sesshaft-472",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Sinnestäuschung-474",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-synchronisieren-486",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Tageseinnahmen-487",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-überanstrengen-489",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Überbleibsel-491",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-übereinstimmen-492",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Überschuss-493",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Unannehmlichkeit-495",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-verabschieden-500",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-verdrießlich-503",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Verfallsdatum-504",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-vergewaltigen-506",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Vergünstigung-508",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Verhandlungen-511",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-vernachlässigen-518",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-sich verschließen-521",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-verschlossen-522",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-verschreiben-524",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-verunglücken-530",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-vervollkommnen-533",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-sich vervollkommnen-534",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Volksbefragung-537",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-voreingenommen-539",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahrhaft-544",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Wäscheschleuder-545",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Wasserheilanstalt-546",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Wechselbeziehung-549",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Wehrersatzdienst-550",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Weidenkätzchen-551",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Weltanschauung-552",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Wetterleuchten-553",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wiederherstellen-555",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-zusammenfallen-556",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Krüppel-568",
+      "fieldPath": "lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-einfamilienhaus",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-einfamilienhaus",
+      "fieldPath": "study.examples[0].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-offentlichkeit",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-offentlichkeit",
+      "fieldPath": "study.explanation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-partei",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-prozess",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-zusammenfassen",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahl",
+      "fieldPath": "study.explanation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahl",
+      "fieldPath": "study.examples[1].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-gelegentlich",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-gelegentlich",
+      "fieldPath": "study.explanation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-gelegentlich",
+      "fieldPath": "study.comparison[1].meaning",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-gelegentlich",
+      "fieldPath": "study.comparison[2].meaning",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-gelegentlich",
+      "fieldPath": "study.important.text",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahlberechtigt",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahlberechtigt",
+      "fieldPath": "study.explanation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahlberechtigt",
+      "fieldPath": "study.examples[1].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahlberechtigt",
+      "fieldPath": "study.comparison[0].meaning",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahlberechtigt",
+      "fieldPath": "study.comparison[1].meaning",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahlberechtigt",
+      "fieldPath": "study.tip.leftBlocks[0].text",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-wahlberechtigt",
+      "fieldPath": "study.important.text",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-zuschlag",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-zuschlag",
+      "fieldPath": "study.examples[1].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-zuschlag",
+      "fieldPath": "study.examples[2].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-zuschlag",
+      "fieldPath": "study.examples[4].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "fieldPath": "study.examples[0].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beabsichtigen",
+      "fieldPath": "study.examples[1].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beabsichtigen",
+      "fieldPath": "study.examples[2].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beabsichtigen",
+      "fieldPath": "study.examples[4].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "fieldPath": "study.translation",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "fieldPath": "study.examples[0].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "fieldPath": "study.examples[3].lv",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "fieldPath": "study.examples[4].lv",
+      "status": "APPLIED"
+    }
+  ]
+}

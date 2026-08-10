@@ -1,0 +1,50 @@
+{
+  "findings": [],
+  "validated": [
+    {
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Bezugsperson",
+      "lvSource": "kontaktpersona • tuvākais cilvēks",
+      "currentEn": "Key person • Close person",
+      "proposedEn": "Key person • Person close to you",
+      "reason": "Stylistic synonym or reverts OWNER-approved repair",
+      "confidence": 0.96,
+      "status": "FALSE_POSITIVE"
+    },
+    {
+      "cardId": "c1-Beichtgeheimnis-332",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Beichtgeheimnis",
+      "lvSource": "bikts noslēpums",
+      "currentEn": "Confidentiality of confession",
+      "proposedEn": "Seal of confession",
+      "reason": "The current wording is awkward and describes confidentiality rather than the established concept of the confessional seal.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Man muss den Betrieb aufrechterhalten.",
+      "lvSource": "uzturēt spēkā",
+      "currentEn": "The activity must be maintained.",
+      "proposedEn": "The operation must be kept running.",
+      "reason": "Betrieb means an operation or business, not an activity in this context.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ],
+  "severityCounts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  }
+}

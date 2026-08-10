@@ -1,0 +1,11 @@
+=== C1/C2 OWNER repair targeted regression 2026-08-10T14:31:48.724Z ===
+  done simple-1: 35 cards, findings=0
+  done simple-2: 35 cards, findings=1
+  done simple-3: 35 cards, findings=0
+  done simple-4: 35 cards, findings=0
+  done simple-5: 35 cards, findings=0
+  done simple-6: 35 cards, findings=0
+  done simple-7: 12 cards, findings=0
+  done study-8: 6 cards, findings=0
+  done study-9: 6 cards, findings=2
+  done study-10: 1 cards, findings=0

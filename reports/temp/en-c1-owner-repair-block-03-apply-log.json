@@ -1,0 +1,243 @@
+{
+  "block": "3/6",
+  "cardsTargeted": 50,
+  "cardsFound": 50,
+  "repairsApplied": 50,
+  "mismatch": 0,
+  "mismatchCardIds": [],
+  "nelabotPreserved": 4,
+  "nelabotTotal": 4,
+  "nelabotResults": [
+    {
+      "cardId": "c1-Grenzverletzung-373",
+      "expected": "Border violation",
+      "actual": "Border violation",
+      "pass": true
+    },
+    {
+      "cardId": "c1-Industrieanlage-395",
+      "expected": "Industrial complex",
+      "actual": "Industrial complex",
+      "pass": true
+    },
+    {
+      "cardId": "c1-Produktionskosten-446",
+      "expected": "Cost of production",
+      "actual": "Cost of production",
+      "pass": true
+    },
+    {
+      "cardId": "c1-Rentenempfänger-458",
+      "expected": "Pensioner",
+      "actual": "Pensioner",
+      "pass": true
+    }
+  ],
+  "mirrorPass": true,
+  "deReadOnly": true,
+  "referenceFilesUnchanged": true,
+  "syntaxPass": true,
+  "results": [
+    {
+      "cardId": "c1-Auffassungsgabe-324",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Beichtgeheimnis-332",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Geisterstunde-334",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-geistesabwesend-335",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-geistesschwach-337",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Geländefahrt-338",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Gemäldegalerie-341",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Gemütsmensch-344",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-genmanipuliert-348",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Gepflogenheit-350",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Schwurgericht-352",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Gerichtshof-353",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-geringschätzig-354",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Gesamtergebnis-356",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Gesandtschaft-357",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Geschäftshaus-358",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Geschäftsjahr-359",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-gesetzgebend-362",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-gesetzlos-363",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-gesetzmäßig-364",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Haft-376",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Haftung-379",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Haltbarkeitsdauer-380",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Handelsvertretung-382",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Haushaltshilfe-386",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-herunterstürzen-391",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-sich hinreißen lassen-392",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-inhaftieren-396",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Justiz-401",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Krankheitserreger-407",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Kriegsbeschädigte-408",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-lebensgefährlich-413",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Lebensgefährte-414",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Leistungssport-416",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Liebesbeziehung-418",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Liebeserklärung-419",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Machtübernahme-422",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Meineid-427",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Nachschlagewerk-430",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-niedergeschlagen-433",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Originalfassung-438",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Parteifunktionär-440",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Pflichtlektüre-441",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Rangierbahnhof-448",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Raumausstatter-450",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Regierungspartei-455",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-Rentenanspruch-457",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-republikanisch-459",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-sanktionieren-461",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-schmerzstillend-465",
+      "status": "APPLIED"
+    }
+  ],
+  "mismatches": []
+}
