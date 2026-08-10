@@ -1,0 +1,358 @@
+{
+  "applied": 50,
+  "repairs": [
+    {
+      "index": 133,
+      "infinitiv": "sinken",
+      "field": "imperfektIndikativ",
+      "before": "he was making up",
+      "after": "he sank"
+    },
+    {
+      "index": 0,
+      "infinitiv": "backen",
+      "field": "infinitiv",
+      "before": "cept",
+      "after": "to bake"
+    },
+    {
+      "index": 0,
+      "infinitiv": "backen",
+      "field": "partizipVergangenheit",
+      "before": "cepts / izcepts",
+      "after": "baked"
+    },
+    {
+      "index": 3,
+      "infinitiv": "beißen",
+      "field": "infinitiv",
+      "before": "kost",
+      "after": "to bite"
+    },
+    {
+      "index": 3,
+      "infinitiv": "beißen",
+      "field": "imperfektIndikativ",
+      "before": "he coded",
+      "after": "he bit"
+    },
+    {
+      "index": 3,
+      "infinitiv": "beißen",
+      "field": "imperfektKonjunktiv",
+      "before": "he bites",
+      "after": "he would bite"
+    },
+    {
+      "index": 3,
+      "infinitiv": "beißen",
+      "field": "partizipVergangenheit",
+      "before": "kosts / sakosts",
+      "after": "bitten"
+    },
+    {
+      "index": 5,
+      "infinitiv": "bersten",
+      "field": "imperfektKonjunktiv",
+      "before": "he bursts",
+      "after": "he would burst"
+    },
+    {
+      "index": 7,
+      "infinitiv": "biegen",
+      "field": "praesens",
+      "before": "he bows",
+      "after": "he bends"
+    },
+    {
+      "index": 9,
+      "infinitiv": "binden",
+      "field": "infinitiv",
+      "before": "siet",
+      "after": "to tie"
+    },
+    {
+      "index": 9,
+      "infinitiv": "binden",
+      "field": "praesens",
+      "before": "he hay",
+      "after": "he ties"
+    },
+    {
+      "index": 9,
+      "infinitiv": "binden",
+      "field": "imperfektIndikativ",
+      "before": "he sowed",
+      "after": "he tied"
+    },
+    {
+      "index": 9,
+      "infinitiv": "binden",
+      "field": "imperfektKonjunktiv",
+      "before": "he sieved",
+      "after": "he would tie"
+    },
+    {
+      "index": 9,
+      "infinitiv": "binden",
+      "field": "partizipVergangenheit",
+      "before": "siets",
+      "after": "tied"
+    },
+    {
+      "index": 10,
+      "infinitiv": "bitten",
+      "field": "imperfektKonjunktiv",
+      "before": "he would pray",
+      "after": "he would ask"
+    },
+    {
+      "index": 12,
+      "infinitiv": "gären",
+      "field": "imperfektKonjunktiv",
+      "before": "it would be bitter",
+      "after": "it would ferment"
+    },
+    {
+      "index": 12,
+      "infinitiv": "gären",
+      "field": "partizipVergangenheit",
+      "before": "rye",
+      "after": "fermented"
+    },
+    {
+      "index": 13,
+      "infinitiv": "gebären",
+      "field": "praesens",
+      "before": "in her womb",
+      "after": "she gives birth"
+    },
+    {
+      "index": 14,
+      "infinitiv": "gelingen",
+      "field": "infinitiv",
+      "before": "izdoties",
+      "after": "to succeed"
+    },
+    {
+      "index": 14,
+      "infinitiv": "gelingen",
+      "field": "praesens",
+      "before": "tas izdodas",
+      "after": "it succeeds"
+    },
+    {
+      "index": 14,
+      "infinitiv": "gelingen",
+      "field": "imperfektKonjunktiv",
+      "before": "tas izdotos",
+      "after": "it would succeed"
+    },
+    {
+      "index": 14,
+      "infinitiv": "gelingen",
+      "field": "partizipVergangenheit",
+      "before": "izdevies",
+      "after": "succeeded"
+    },
+    {
+      "index": 15,
+      "infinitiv": "gelten",
+      "field": "infinitiv",
+      "before": "come in handy",
+      "after": "to be valid / to apply"
+    },
+    {
+      "index": 15,
+      "infinitiv": "gelten",
+      "field": "imperfektKonjunktiv",
+      "before": "he would fit / it would fit",
+      "after": "he would count / it would be valid"
+    },
+    {
+      "index": 16,
+      "infinitiv": "genesen",
+      "field": "partizipVergangenheit",
+      "before": "get well",
+      "after": "recovered"
+    },
+    {
+      "index": 18,
+      "infinitiv": "geschehen",
+      "field": "infinitiv",
+      "before": "notikt",
+      "after": "to happen"
+    },
+    {
+      "index": 18,
+      "infinitiv": "geschehen",
+      "field": "praesens",
+      "before": "tas notiek",
+      "after": "it happens"
+    },
+    {
+      "index": 18,
+      "infinitiv": "geschehen",
+      "field": "imperfektIndikativ",
+      "before": "tas notika",
+      "after": "it happened"
+    },
+    {
+      "index": 18,
+      "infinitiv": "geschehen",
+      "field": "imperfektKonjunktiv",
+      "before": "tas notiktu",
+      "after": "it would happen"
+    },
+    {
+      "index": 18,
+      "infinitiv": "geschehen",
+      "field": "partizipVergangenheit",
+      "before": "noticis",
+      "after": "happened"
+    },
+    {
+      "index": 19,
+      "infinitiv": "gießen",
+      "field": "infinitiv",
+      "before": "liet",
+      "after": "to pour"
+    },
+    {
+      "index": 19,
+      "infinitiv": "gießen",
+      "field": "imperfektKonjunktiv",
+      "before": "he rains",
+      "after": "he would pour"
+    },
+    {
+      "index": 19,
+      "infinitiv": "gießen",
+      "field": "partizipVergangenheit",
+      "before": "liets",
+      "after": "poured"
+    },
+    {
+      "index": 22,
+      "infinitiv": "glimmen",
+      "field": "infinitiv",
+      "before": "glowing",
+      "after": "to glow"
+    },
+    {
+      "index": 23,
+      "infinitiv": "graben",
+      "field": "infinitiv",
+      "before": "rakt",
+      "after": "to dig"
+    },
+    {
+      "index": 23,
+      "infinitiv": "graben",
+      "field": "partizipVergangenheit",
+      "before": "rakts",
+      "after": "dug"
+    },
+    {
+      "index": 25,
+      "infinitiv": "hauen",
+      "field": "infinitiv",
+      "before": "cirst",
+      "after": "to chop"
+    },
+    {
+      "index": 25,
+      "infinitiv": "hauen",
+      "field": "praesens",
+      "before": "he picked",
+      "after": "he chops"
+    },
+    {
+      "index": 25,
+      "infinitiv": "hauen",
+      "field": "imperfektIndikativ",
+      "before": "he snapped",
+      "after": "he chopped"
+    },
+    {
+      "index": 25,
+      "infinitiv": "hauen",
+      "field": "partizipVergangenheit",
+      "before": "cirsts",
+      "after": "chopped"
+    },
+    {
+      "index": 25,
+      "infinitiv": "hauen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would carve",
+      "after": "he would chop"
+    },
+    {
+      "index": 26,
+      "infinitiv": "heben",
+      "field": "infinitiv",
+      "before": "celt",
+      "after": "to raise"
+    },
+    {
+      "index": 26,
+      "infinitiv": "heben",
+      "field": "imperfektIndikativ",
+      "before": "he brought",
+      "after": "he raised"
+    },
+    {
+      "index": 26,
+      "infinitiv": "heben",
+      "field": "imperfektKonjunktiv",
+      "before": "he would build",
+      "after": "he would raise"
+    },
+    {
+      "index": 26,
+      "infinitiv": "heben",
+      "field": "partizipVergangenheit",
+      "before": "celts",
+      "after": "raised"
+    },
+    {
+      "index": 27,
+      "infinitiv": "kennen",
+      "field": "imperfektIndikativ",
+      "before": "pazina",
+      "after": "he knew"
+    },
+    {
+      "index": 27,
+      "infinitiv": "kennen",
+      "field": "partizipVergangenheit",
+      "before": "pazinis",
+      "after": "known"
+    },
+    {
+      "index": 29,
+      "infinitiv": "kneifen",
+      "field": "infinitiv",
+      "before": "kniebt",
+      "after": "to pinch"
+    },
+    {
+      "index": 29,
+      "infinitiv": "kneifen",
+      "field": "praesens",
+      "before": "he quips",
+      "after": "he pinches"
+    },
+    {
+      "index": 29,
+      "infinitiv": "kneifen",
+      "field": "partizipVergangenheit",
+      "before": "kniebts",
+      "after": "pinched"
+    }
+  ],
+  "deSourceIssue": [
+    "verb-27-kennen/imperfektKonjunktiv stays pazina"
+  ]
+}
