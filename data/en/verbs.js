@@ -1832,7 +1832,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "he named"
+      "lv": "he names"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
@@ -1850,7 +1850,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "pfeifen",
-      "lv": "svilpot"
+      "lv": "to whistle"
     },
     "praesens": {
       "de": "er pfeift",
@@ -1872,7 +1872,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "kopt"
+      "lv": "to care for"
     },
     "praesens": {
       "de": "er pflegt",
@@ -1880,7 +1880,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "pflegte vai pflog",
-      "lv": "kopa"
+      "lv": "cared for"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte vai pflog",
@@ -1888,7 +1888,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepflegt vai gepflogen",
-      "lv": "kopts"
+      "lv": "cared for"
     }
   },
   {
@@ -1916,51 +1916,51 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "quellen",
-      "lv": "briest"
+      "lv": "to swell"
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "he is getting fat"
+      "lv": "he swells"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "he matured"
+      "lv": "he swelled"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "he fat"
+      "lv": "he would swell"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
-      "lv": "uzbriedis"
+      "lv": "swollen"
     }
   },
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "suggest / mention"
+      "lv": "to advise / to guess"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "he recommends / min"
+      "lv": "he advises / he guesses"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "he suggested / suggested"
+      "lv": "he advised / he guessed"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "he would suggest / mention"
+      "lv": "he would advise / he would guess"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "suggested / mentioned"
+      "lv": "advised / guessed"
     }
   },
   {
     "infinitiv": {
       "de": "reiben",
-      "lv": "berzt"
+      "lv": "to rub"
     },
     "praesens": {
       "de": "er reibt",
@@ -1968,7 +1968,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "he rubs"
+      "lv": "he rubbed"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
@@ -1976,13 +1976,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerieben",
-      "lv": "berzts"
+      "lv": "rubbed"
     }
   },
   {
     "infinitiv": {
       "de": "reißen",
-      "lv": "raut"
+      "lv": "to tear"
     },
     "praesens": {
       "de": "er reißt",
@@ -1994,11 +1994,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "he snapped"
+      "lv": "he would tear"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
-      "lv": "rauts"
+      "lv": "torn"
     }
   },
   {
@@ -2020,13 +2020,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "rode"
+      "lv": "ridden"
     }
   },
   {
     "infinitiv": {
       "de": "rennen",
-      "lv": "skriet"
+      "lv": "to run"
     },
     "praesens": {
       "de": "er rennt",
@@ -2042,13 +2042,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "ran"
+      "lv": "run"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "ost"
+      "lv": "to smell"
     },
     "praesens": {
       "de": "er riecht",
@@ -2056,37 +2056,37 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "he sings"
+      "lv": "he smelled"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "he port"
+      "lv": "he would smell"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "osts"
+      "lv": "smelled"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "lauzties"
+      "lv": "to wrestle"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "he breaks"
+      "lv": "he wrestles"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "he broke down"
+      "lv": "he wrestled"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "he would break"
+      "lv": "he would wrestle"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "laucies"
+      "lv": "wrestled"
     }
   },
   {
@@ -2096,15 +2096,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "he runs"
+      "lv": "he flows"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "he ran"
+      "lv": "he flowed"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "he would run"
+      "lv": "he would flow"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
@@ -2114,7 +2114,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "rufen",
-      "lv": "saukt"
+      "lv": "to call"
     },
     "praesens": {
       "de": "er ruft",
@@ -2130,7 +2130,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gerufen",
-      "lv": "saukts"
+      "lv": "called"
     }
   },
   {
@@ -2140,7 +2140,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "he salted"
+      "lv": "he salts"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
@@ -2158,7 +2158,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "dry / drink"
+      "lv": "to drink heavily"
     },
     "praesens": {
       "de": "er säuft",
@@ -2170,11 +2170,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "he would drink / drink"
+      "lv": "he would drink heavily"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "dzerts"
+      "lv": "drunk"
     }
   },
   {
@@ -2228,7 +2228,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "es schallt",
-      "lv": "tas skan"
+      "lv": "it sounds"
     },
     "imperfektIndikativ": {
       "de": "schallte vai scholl",
@@ -2258,7 +2258,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "he would divorce / divorce"
+      "lv": "he would divorce / he would separate"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
@@ -2290,7 +2290,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "bart"
+      "lv": "to scold"
     },
     "praesens": {
       "de": "er schilt",
@@ -2298,15 +2298,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "he barred"
+      "lv": "he scolded"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "he shaves"
+      "lv": "he would scold"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "beard"
+      "lv": "scolded"
     }
   },
   {
