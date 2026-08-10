@@ -8,19 +8,19 @@ const C1_WORDS = [
   },
   {
     "de": "gewährleisten",
-    "lv": "To provide",
+    "lv": "To ensure",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "Influence",
+    "lv": "Effect",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "Contradictory",
+    "lv": "Controversial",
     "level": "C1"
   },
   {
@@ -44,7 +44,7 @@ const C1_WORDS = [
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "Stress resistance • Resistance to load",
+    "lv": "Resilience under stress • Load-bearing capacity",
     "level": "C1"
   },
   {
@@ -63,21 +63,21 @@ const C1_WORDS = [
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "programme of events",
+    "lv": "Action programme",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "Alert readiness",
+    "lv": "State of alert",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "Spring",
+    "lv": "Indian summer",
     "level": "C1"
   },
   {
@@ -192,28 +192,28 @@ const C1_WORDS = [
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "Pedophile",
+    "lv": "Child molester",
     "level": "C1"
   },
   {
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "Violence against children",
+    "lv": "Child abuse",
     "level": "C1"
   },
   {
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "Civil law",
+    "lv": "Civil code",
     "level": "C1"
   },
   {
     "de": "Aktie",
     "de_article": "die",
     "de_plural": "die Aktien",
-    "lv": "Action",
+    "lv": "Share",
     "level": "C1"
   },
   {
@@ -244,14 +244,14 @@ const C1_WORDS = [
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Letters and numbers on the car licence plate",
+    "lv": "Vehicle registration plate",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "Baker's job",
+    "lv": "Baking trade",
     "level": "C1"
   },
   {
@@ -263,7 +263,7 @@ const C1_WORDS = [
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "Mountain tourism",
+    "lv": "Mountain hike",
     "level": "C1"
   },
   {
@@ -273,7 +273,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich beschäftigen",
-    "lv": "To occupy",
+    "lv": "To occupy oneself",
     "level": "C1"
   },
   {
@@ -304,7 +304,7 @@ const C1_WORDS = [
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "Road overpass",
+    "lv": "Motorway bridge",
     "level": "C1"
   },
   {
@@ -459,19 +459,19 @@ const C1_WORDS = [
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "Trunk",
+    "lv": "Luggage rack",
     "level": "C1"
   },
   {
     "de": "geschäftlich",
-    "lv": "Transaction",
+    "lv": "Business-related",
     "level": "C1"
   },
   {
     "de": "Geschäftsmann",
     "de_article": "der",
     "de_plural": "die Geschäftsleute",
-    "lv": "Entrepreneur",
+    "lv": "Businessman",
     "level": "C1"
   },
   {
@@ -498,13 +498,13 @@ const C1_WORDS = [
     "de": "Gesichtspunkt",
     "de_article": "der",
     "de_plural": "die Gesichtspunkte",
-    "lv": "Opinion",
+    "lv": "Viewpoint",
     "level": "C1"
   },
   {
     "de": "Gewichtheben",
     "de_article": "das",
-    "lv": "Weight lifting",
+    "lv": "Weightlifting",
     "level": "C1"
   },
   {
@@ -579,7 +579,7 @@ const C1_WORDS = [
     "de": "Tasteninstrument",
     "de_article": "das",
     "de_plural": "die Tasteninstrumente",
-    "lv": "Keyboard",
+    "lv": "Keyboard instrument",
     "level": "C1"
   },
   {
@@ -593,7 +593,7 @@ const C1_WORDS = [
     "de": "Kabelanschluss",
     "de_article": "der",
     "de_plural": "die Kabelanschlüsse",
-    "lv": "Cable television connection",
+    "lv": "Cable connection",
     "level": "C1"
   },
   {
@@ -639,7 +639,7 @@ const C1_WORDS = [
     "de": "Kostenanschlag",
     "de_article": "der",
     "de_plural": "die Kostenanschläge",
-    "lv": "Expenditure estimate",
+    "lv": "Cost estimate",
     "level": "C1"
   },
   {
@@ -651,14 +651,14 @@ const C1_WORDS = [
     "de": "Krankheitsbild",
     "de_article": "das",
     "de_plural": "die Krankheitsbilder",
-    "lv": "Disease scene",
+    "lv": "Clinical picture",
     "level": "C1"
   },
   {
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
-    "lv": "Heavy car",
+    "lv": "Lorry",
     "level": "C1"
   },
   {
@@ -725,7 +725,7 @@ const C1_WORDS = [
     "de": "Morgengymnastik",
     "de_article": "die",
     "de_plural": "die Morgengymnastiken",
-    "lv": "Dawn",
+    "lv": "Morning exercise",
     "level": "C1"
   },
   {
@@ -916,7 +916,7 @@ const C1_WORDS = [
     "de": "Rennen mit Hindernissen",
     "de_article": "das",
     "de_plural": "die Rennen mit Hindernissen",
-    "lv": "Obstacle course",
+    "lv": "Obstacle race",
     "level": "C1"
   },
   {
@@ -929,12 +929,12 @@ const C1_WORDS = [
     "de": "Rettungsstelle",
     "de_article": "die",
     "de_plural": "die Rettungsstellen",
-    "lv": "First aid point",
+    "lv": "First-aid station",
     "level": "C1"
   },
   {
     "de": "rezeptpflichtig",
-    "lv": "By prescription",
+    "lv": "Prescription-only",
     "level": "C1"
   },
   {
@@ -948,21 +948,21 @@ const C1_WORDS = [
     "de": "Scheibenwischer",
     "de_article": "der",
     "de_plural": "die Scheibenwischer",
-    "lv": "Car window cleaner",
+    "lv": "Windscreen wiper",
     "level": "C1"
   },
   {
     "de": "Schiedsrichter",
     "de_article": "der",
     "de_plural": "die Schiedsrichter",
-    "lv": "The judge",
+    "lv": "Referee",
     "level": "C1"
   },
   {
     "de": "Schlussverkauf",
     "de_article": "der",
     "de_plural": "die Schlussverkäufe",
-    "lv": "Sale of goods at the end of the season at reduced prices",
+    "lv": "End-of-season sale",
     "level": "C1"
   },
   {
@@ -988,13 +988,13 @@ const C1_WORDS = [
     "de": "Schutzumschlag",
     "de_article": "der",
     "de_plural": "die Schutzumschläge",
-    "lv": "Cover",
+    "lv": "Dust jacket",
     "level": "C1"
   },
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "Husband's parents",
+    "lv": "Parents-in-law",
     "level": "C1"
   },
   {
@@ -1035,7 +1035,7 @@ const C1_WORDS = [
     "de": "Stadtrundfahrt",
     "de_article": "die",
     "de_plural": "die Stadtrundfahrten",
-    "lv": "City ​​trip",
+    "lv": "City tour",
     "level": "C1"
   },
   {
@@ -1047,34 +1047,34 @@ const C1_WORDS = [
     "de": "Stellvertreter",
     "de_article": "der",
     "de_plural": "die Stellvertreter",
-    "lv": "Substitute",
+    "lv": "Deputy",
     "level": "C1"
   },
   {
     "de": "Steuererklärung",
     "de_article": "die",
     "de_plural": "die Steuererklärungen",
-    "lv": "Tax declaration",
+    "lv": "Tax return",
     "level": "C1"
   },
   {
     "de": "Strampelhöschen",
     "de_article": "das",
     "de_plural": "die Strampelhöschen",
-    "lv": "Baby crawler",
+    "lv": "Baby romper",
     "level": "C1"
   },
   {
     "de": "Stromverbrauch",
     "de_article": "der",
     "de_plural": "die Stromverbräuche",
-    "lv": "Current consumption",
+    "lv": "Electricity consumption",
     "level": "C1"
   },
   {
     "de": "Tagesnachrichten",
     "de_article": "die",
-    "lv": "News of the day",
+    "lv": "Daily news",
     "level": "C1"
   },
   {
@@ -1088,14 +1088,14 @@ const C1_WORDS = [
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "Note calendar",
+    "lv": "Appointment diary",
     "level": "C1"
   },
   {
     "de": "Thermosflasche",
     "de_article": "die",
     "de_plural": "die Thermosflaschen",
-    "lv": "Thermos",
+    "lv": "Vacuum flask",
     "level": "C1"
   },
   {
@@ -1121,7 +1121,7 @@ const C1_WORDS = [
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "Company • Event",
+    "lv": "Company • Undertaking",
     "level": "C1"
   },
   {
@@ -1190,7 +1190,7 @@ const C1_WORDS = [
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "Confusion",
+    "lv": "Embarrassment",
     "level": "C1"
   },
   {
@@ -1217,7 +1217,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich verständigen",
-    "lv": "Get along",
+    "lv": "Communicate",
     "level": "C1"
   },
   {
@@ -1241,7 +1241,7 @@ const C1_WORDS = [
     "de": "Vorgesetzte",
     "de_article": "der",
     "de_plural": "die Vorgesetzten",
-    "lv": "The boss",
+    "lv": "Supervisor",
     "level": "C1"
   },
   {
@@ -1258,7 +1258,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich zufrieden geben",
-    "lv": "To satisfy",
+    "lv": "To be content",
     "level": "C1"
   },
   {
@@ -1530,14 +1530,14 @@ const C1_WORDS = [
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "Deputy • Representative • Delegate",
+    "lv": "Member of Parliament • Representative • Delegate",
     "level": "C1"
   },
   {
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Agreement • Agreement",
+    "lv": "Agreement • Accord",
     "level": "C1"
   },
   {
