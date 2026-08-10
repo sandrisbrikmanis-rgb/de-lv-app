@@ -1,0 +1,144 @@
+{
+  "applied": [
+    {
+      "verbId": "verb-27-kennen",
+      "field": "imperfektKonjunktiv",
+      "de": "kannte",
+      "before": "pazina",
+      "after": "knew"
+    },
+    {
+      "verbId": "verb-34-brennen",
+      "field": "imperfektKonjunktiv",
+      "de": "brannte",
+      "before": "dega",
+      "after": "burned"
+    },
+    {
+      "verbId": "verb-60-haben",
+      "field": "imperfektIndikativ",
+      "de": "hatte",
+      "before": "bija",
+      "after": "had"
+    },
+    {
+      "verbId": "verb-68-lassen",
+      "field": "imperfektIndikativ",
+      "de": "er ließ",
+      "before": "he ordered / allowed",
+      "after": "he ordered • allowed"
+    },
+    {
+      "verbId": "verb-80-mögen",
+      "field": "imperfektKonjunktiv",
+      "de": "mochte",
+      "before": "patika",
+      "after": "liked"
+    },
+    {
+      "verbId": "verb-83-nennen",
+      "field": "partizipVergangenheit",
+      "de": "genannt",
+      "before": "nosaukts",
+      "after": "named"
+    },
+    {
+      "verbId": "verb-84-pfeifen",
+      "field": "partizipVergangenheit",
+      "de": "gepfiffen",
+      "before": "svilpots",
+      "after": "whistled"
+    },
+    {
+      "verbId": "verb-85-pflegen",
+      "field": "imperfektKonjunktiv",
+      "de": "pflegte vai pflog",
+      "before": "kopa",
+      "after": "cared for"
+    },
+    {
+      "verbId": "verb-95-rinnen",
+      "field": "partizipVergangenheit",
+      "de": "geronnen (er ist)",
+      "before": "flowed",
+      "after": "flowed / coagulated"
+    },
+    {
+      "verbId": "verb-98-saufen",
+      "field": "infinitiv",
+      "de": "saufen",
+      "before": "to drink heavily",
+      "after": "to drink heavily / to drink"
+    },
+    {
+      "verbId": "verb-98-saufen",
+      "field": "praesens",
+      "de": "er säuft",
+      "before": "he drinks heavily",
+      "after": "he drinks heavily / he drinks"
+    },
+    {
+      "verbId": "verb-98-saufen",
+      "field": "imperfektIndikativ",
+      "de": "er soff",
+      "before": "he drank / drank",
+      "after": "he drank heavily / he drank"
+    },
+    {
+      "verbId": "verb-98-saufen",
+      "field": "imperfektKonjunktiv",
+      "de": "er söffe",
+      "before": "he would drink heavily",
+      "after": "he would drink heavily / he would drink"
+    },
+    {
+      "verbId": "verb-105-scheren",
+      "field": "imperfektKonjunktiv",
+      "de": "schor vai scherte",
+      "before": "cirpa",
+      "after": "he would shear"
+    },
+    {
+      "verbId": "verb-110-schlagen",
+      "field": "infinitiv",
+      "de": "schlagen",
+      "before": "sist",
+      "after": "to hit"
+    },
+    {
+      "verbId": "verb-129-sein",
+      "field": "imperfektKonjunktiv",
+      "de": "war",
+      "before": "bija",
+      "after": "he was"
+    },
+    {
+      "verbId": "verb-156-treiben",
+      "field": "praesens",
+      "de": "er treibt",
+      "before": "he drives",
+      "after": "he chases"
+    },
+    {
+      "verbId": "verb-156-treiben",
+      "field": "imperfektIndikativ",
+      "de": "er trieb",
+      "before": "he drove",
+      "after": "he chased"
+    },
+    {
+      "verbId": "verb-156-treiben",
+      "field": "imperfektKonjunktiv",
+      "de": "er triebe",
+      "before": "he would drive",
+      "after": "he would chase"
+    }
+  ],
+  "preconditionMismatch": [],
+  "deFieldsChanged": 0,
+  "summary": {
+    "repairsApplied": 19,
+    "uniqueRepairedVerbs": 14,
+    "preconditionMismatch": 0
+  }
+}

@@ -1,0 +1,110 @@
+◇ injected env (1) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+  luna micro-0: 6 verbs, findings=2, pass=28, tokens=4047
+  luna micro-1: 6 verbs, findings=1, pass=29, tokens=2853
+  luna micro-2: 2 verbs, findings=1, pass=9, tokens=1348
+{
+  "generatedAt": "2026-08-10T17:10:25.543Z",
+  "model": "gpt-5.6-luna",
+  "gates": {
+    "verbs": 189,
+    "formSlots": 945,
+    "mirror": true,
+    "syntax": true,
+    "structure": true,
+    "idOrder": true,
+    "deReadOnly": true
+  },
+  "foreignRemnants": 3,
+  "unexpectedForeignRemnants": 1,
+  "unexpectedForeign": [
+    {
+      "verbId": "verb-60-haben",
+      "field": "imperfektKonjunktiv",
+      "currentEn": "bija",
+      "pattern": "\\bbija\\b"
+    }
+  ],
+  "luna": {
+    "requests": 3,
+    "tokens": 8248,
+    "rawCounts": {
+      "CRITICAL": 0,
+      "HIGH": 1,
+      "MEDIUM": 3,
+      "LOW": 0
+    }
+  },
+  "validated": {
+    "counts": {
+      "CRITICAL": 0,
+      "HIGH": 1,
+      "MEDIUM": 3,
+      "LOW": 0
+    },
+    "falsePositive": 0,
+    "findings": [
+      {
+        "verbId": "verb-60-haben",
+        "field": "imperfektKonjunktiv",
+        "severity": "HIGH",
+        "category": "EN_LANGUAGE_ERROR",
+        "de": "hatte",
+        "lvSource": "bija",
+        "currentEn": "bija",
+        "proposedEn": "had",
+        "reason": "The entry is Latvian, not English; use the direct English past form matching the supplied German.",
+        "confidence": "HIGH",
+        "regressionType": "PARADIGM_INCONSISTENCY",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-68-lassen",
+        "field": "imperfektIndikativ",
+        "severity": "MEDIUM",
+        "category": "MEANING_ERROR",
+        "de": "er ließ",
+        "lvSource": "viņš lika / ļāva",
+        "currentEn": "he ordered • allowed",
+        "proposedEn": "he let • he left",
+        "reason": "This repaired form is inconsistent with the paradigm and misses the core meanings of lassen in the listed forms.",
+        "confidence": "HIGH",
+        "regressionType": "REPAIR_REGRESSION",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-85-pflegen",
+        "field": "imperfektKonjunktiv",
+        "severity": "MEDIUM",
+        "category": "MOOD_ERROR",
+        "de": "pflegte vai pflog",
+        "lvSource": "kopa",
+        "currentEn": "cared for",
+        "proposedEn": "would care for",
+        "reason": "The Konjunktiv II form requires conditional English, not the simple past.",
+        "confidence": "high",
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      },
+      {
+        "verbId": "verb-129-sein",
+        "field": "imperfektKonjunktiv",
+        "severity": "MEDIUM",
+        "category": "EN_FORM_ERROR",
+        "de": "war",
+        "lvSource": "bija",
+        "currentEn": "he was",
+        "proposedEn": "he would be",
+        "reason": "Konjunktiv translation duplicates the indicative and fails to express the conditional meaning.",
+        "confidence": "HIGH",
+        "regressionType": "REPAIR_INCOMPLETE",
+        "status": "FINDING",
+        "validation": "VALIDATED"
+      }
+    ]
+  },
+  "microPass": false
+}

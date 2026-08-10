@@ -608,7 +608,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
-      "lv": "pazina"
+      "lv": "knew"
     },
     "partizipVergangenheit": {
       "de": "gekannt",
@@ -762,7 +762,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
-      "lv": "dega"
+      "lv": "burned"
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
@@ -1330,7 +1330,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "bija"
+      "lv": "had"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
@@ -1506,7 +1506,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er ließ",
-      "lv": "he ordered / allowed"
+      "lv": "he ordered • allowed"
     },
     "imperfektKonjunktiv": {
       "de": "er ließe",
@@ -1774,7 +1774,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
-      "lv": "patika"
+      "lv": "liked"
     },
     "partizipVergangenheit": {
       "de": "gemocht",
@@ -1844,7 +1844,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genannt",
-      "lv": "nosaukts"
+      "lv": "named"
     }
   },
   {
@@ -1866,7 +1866,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "svilpots"
+      "lv": "whistled"
     }
   },
   {
@@ -1884,7 +1884,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "pflegte vai pflog",
-      "lv": "kopa"
+      "lv": "cared for"
     },
     "partizipVergangenheit": {
       "de": "gepflegt vai gepflogen",
@@ -2108,7 +2108,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "flowed"
+      "lv": "flowed / coagulated"
     }
   },
   {
@@ -2158,19 +2158,19 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "to drink heavily"
+      "lv": "to drink heavily / to drink"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "he drinks heavily"
+      "lv": "he drinks heavily / he drinks"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "he drank / drank"
+      "lv": "he drank heavily / he drank"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "he would drink heavily"
+      "lv": "he would drink heavily / he would drink"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
@@ -2324,7 +2324,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "schor vai scherte",
-      "lv": "cirpa"
+      "lv": "he would shear"
     },
     "partizipVergangenheit": {
       "de": "geschoren vai geschert",
@@ -2422,7 +2422,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schlagen",
-      "lv": "sist"
+      "lv": "to hit"
     },
     "praesens": {
       "de": "er schlägt",
@@ -2852,7 +2852,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "war",
-      "lv": "bija"
+      "lv": "he was"
     },
     "partizipVergangenheit": {
       "de": "gewesen",
@@ -3438,15 +3438,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "he drives"
+      "lv": "he chases"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
-      "lv": "he drove"
+      "lv": "he chased"
     },
     "imperfektKonjunktiv": {
       "de": "er triebe",
-      "lv": "he would drive"
+      "lv": "he would chase"
     },
     "partizipVergangenheit": {
       "de": "getrieben",

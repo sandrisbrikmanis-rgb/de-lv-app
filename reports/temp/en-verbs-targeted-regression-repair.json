@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "generatedAt": "2026-08-10T17:11:00.000Z",
+    "auditCommit": "28b1fff3",
+    "repairBlocks": "175beca4 … da108077",
+    "status": "EN–DE DARBĪBAS VĀRDI — TARGETED REGRESSION REPAIR COMPLETE",
+    "ownerAccepted": false,
+    "closed": false
+  },
+  "ownerScope": {
+    "ownerLabotFields": 19,
+    "ownerNelabot": 1,
+    "deSourceIssueNelabot": 1,
+    "repairsApplied": 19,
+    "preconditionMismatch": 0,
+    "uniqueRepairedVerbs": 14,
+    "uniqueRepairedVerbIds": [
+      "verb-27-kennen",
+      "verb-34-brennen",
+      "verb-60-haben",
+      "verb-68-lassen",
+      "verb-80-mögen",
+      "verb-83-nennen",
+      "verb-84-pfeifen",
+      "verb-85-pflegen",
+      "verb-95-rinnen",
+      "verb-98-saufen",
+      "verb-105-scheren",
+      "verb-110-schlagen",
+      "verb-129-sein",
+      "verb-156-treiben"
+    ]
+  },
+  "ownerNelabot": [
+    {
+      "verbId": "verb-124-schwimmen",
+      "field": "imperfektIndikativ",
+      "currentEn": "he was swimming",
+      "reason": "OWNER NELABOT — grammatically correct for er schwamm / viņš peldēja"
+    }
+  ],
+  "deSourceIssueNelabot": [
+    {
+      "verbId": "verb-65-können",
+      "field": "imperfektKonjunktiv",
+      "de": "konnte",
+      "currentEn": "would be able to",
+      "lunaProposed": "could",
+      "reason": "DE_SOURCE_ISSUE — slot shows Präteritum konnte not Konjunktiv II könnte; DE READ-ONLY"
+    }
+  ],
+  "documentedForeignRemnants": [
+    {
+      "verbId": "verb-60-haben",
+      "field": "imperfektKonjunktiv",
+      "currentEn": "bija",
+      "note": "OWNER DE_SOURCE_ISSUE Konjunktiv slot — not in this repair scope"
+    },
+    {
+      "verbId": "verb-139-spleißen",
+      "field": "imperfektKonjunktiv",
+      "currentEn": "savienoja",
+      "note": "OWNER DE_SOURCE_ISSUE Konjunktiv slot"
+    },
+    {
+      "verbId": "verb-167-weben",
+      "field": "imperfektKonjunktiv",
+      "currentEn": "auda",
+      "note": "OWNER DE_SOURCE_ISSUE Konjunktiv slot"
+    }
+  ],
+  "production": {
+    "deChanges": 0,
+    "unexpectedProductionChanges": 0,
+    "files": ["data/en/verbs.js", "www/data/en/verbs.js"]
+  },
+  "deterministicGates": {
+    "verbs": "189/189",
+    "formSlots": "945/945",
+    "syntax": "PASS",
+    "structure": "PASS",
+    "idParity": "PASS",
+    "orderParity": "PASS",
+    "deReadOnly": "PASS",
+    "mirror": "PASS",
+    "mojibake": 0,
+    "placeholders": 0,
+    "emptyNativeFields": 0,
+    "unexpectedForeignRemnants": 0,
+    "foreignRemnantsDocumented": 3
+  },
+  "microRegression": {
+    "model": "gpt-5.6-luna",
+    "lunaRequests": 3,
+    "lunaTokens": 8248,
+    "validated": { "CRITICAL": 0, "HIGH": 0, "MEDIUM": 0, "LOW": 0 },
+    "falsePositive": 3,
+    "deSourceIssue": 1,
+    "repairRegression": 0,
+    "repairIncomplete": 0,
+    "paradigmInconsistency": 0,
+    "microPass": true
+  },
+  "repairs": [
+    { "verbId": "verb-27-kennen", "field": "imperfektKonjunktiv", "before": "pazina", "after": "knew" },
+    { "verbId": "verb-34-brennen", "field": "imperfektKonjunktiv", "before": "dega", "after": "burned" },
+    { "verbId": "verb-60-haben", "field": "imperfektIndikativ", "before": "bija", "after": "had" },
+    { "verbId": "verb-68-lassen", "field": "imperfektIndikativ", "before": "he ordered / allowed", "after": "he ordered • allowed" },
+    { "verbId": "verb-80-mögen", "field": "imperfektKonjunktiv", "before": "patika", "after": "liked" },
+    { "verbId": "verb-83-nennen", "field": "partizipVergangenheit", "before": "nosaukts", "after": "named" },
+    { "verbId": "verb-84-pfeifen", "field": "partizipVergangenheit", "before": "svilpots", "after": "whistled" },
+    { "verbId": "verb-85-pflegen", "field": "imperfektKonjunktiv", "before": "kopa", "after": "cared for" },
+    { "verbId": "verb-95-rinnen", "field": "partizipVergangenheit", "before": "flowed", "after": "flowed / coagulated" },
+    { "verbId": "verb-98-saufen", "field": "infinitiv", "before": "to drink heavily", "after": "to drink heavily / to drink" },
+    { "verbId": "verb-98-saufen", "field": "praesens", "before": "he drinks heavily", "after": "he drinks heavily / he drinks" },
+    { "verbId": "verb-98-saufen", "field": "imperfektIndikativ", "before": "he drank / drank", "after": "he drank heavily / he drank" },
+    { "verbId": "verb-98-saufen", "field": "imperfektKonjunktiv", "before": "he would drink heavily", "after": "he would drink heavily / he would drink" },
+    { "verbId": "verb-105-scheren", "field": "imperfektKonjunktiv", "before": "cirpa", "after": "he would shear" },
+    { "verbId": "verb-110-schlagen", "field": "infinitiv", "before": "sist", "after": "to hit" },
+    { "verbId": "verb-129-sein", "field": "imperfektKonjunktiv", "before": "bija", "after": "he was" },
+    { "verbId": "verb-156-treiben", "field": "praesens", "before": "he drives", "after": "he chases" },
+    { "verbId": "verb-156-treiben", "field": "imperfektIndikativ", "before": "he drove", "after": "he chased" },
+    { "verbId": "verb-156-treiben", "field": "imperfektKonjunktiv", "before": "he would drive", "after": "he would chase" }
+  ]
+}
