@@ -1,0 +1,352 @@
+{
+  "generatedAt": "2026-08-10T15:59:52.485Z",
+  "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268",
+  "datasets": [
+    {
+      "language": "bg",
+      "productionFile": "data/bg/sentences.js",
+      "mirrorFile": "www/data/bg/sentences.js",
+      "cardCount": 796,
+      "productionHash": "ce648d799b4340d0e6b8da5618bb0178",
+      "mirrorHash": "ce648d799b4340d0e6b8da5618bb0178",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "60a2d16e866afeca3d48c2e4e4f92a97f49d26a6",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "bs",
+      "productionFile": "data/bs/sentences.js",
+      "mirrorFile": "www/data/bs/sentences.js",
+      "cardCount": 796,
+      "productionHash": "5f2cdc29cd2eb2908537a44c818e4e66",
+      "mirrorHash": "5f2cdc29cd2eb2908537a44c818e4e66",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "63d844bbdba9d88385ece553c7b3eb7f63b40f96",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "cs",
+      "productionFile": "data/cs/sentences.js",
+      "mirrorFile": "www/data/cs/sentences.js",
+      "cardCount": 796,
+      "productionHash": "c1182fc15c7ede43b561978d3ef8e225",
+      "mirrorHash": "c1182fc15c7ede43b561978d3ef8e225",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "1ea6f33b9223dd7093277ac2b06818998668d37c",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "da",
+      "productionFile": "data/da/sentences.js",
+      "mirrorFile": "www/data/da/sentences.js",
+      "cardCount": 796,
+      "productionHash": "a5f5a2f7b61a464796e57e92dcb02718",
+      "mirrorHash": "a5f5a2f7b61a464796e57e92dcb02718",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "a83a54d63841e1eb9e79119c7adbf048fb7ce84e",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "en",
+      "productionFile": "data/en/sentences.js",
+      "mirrorFile": "www/data/en/sentences.js",
+      "cardCount": 796,
+      "productionHash": "56e7affd40feb2c9385a2cc84bb46c0e",
+      "mirrorHash": "56e7affd40feb2c9385a2cc84bb46c0e",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "0f442f62582b92d04d50513ac6c8b463111eec62",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "es",
+      "productionFile": "data/es/sentences.js",
+      "mirrorFile": "www/data/es/sentences.js",
+      "cardCount": 796,
+      "productionHash": "668a79382a96e3ed1b1414ef14e74b6e",
+      "mirrorHash": "668a79382a96e3ed1b1414ef14e74b6e",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "a8b94b38bd6de18af4c1ea3f832465da638d8828",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "et",
+      "productionFile": "data/et/sentences.js",
+      "mirrorFile": "www/data/et/sentences.js",
+      "cardCount": 796,
+      "productionHash": "c3f9ca117207720f74825bbf6d485d09",
+      "mirrorHash": "c3f9ca117207720f74825bbf6d485d09",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "25badf04a156a7893375ea581adec1aa75041f09",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "fi",
+      "productionFile": "data/fi/sentences.js",
+      "mirrorFile": "www/data/fi/sentences.js",
+      "cardCount": 796,
+      "productionHash": "85e679c6061034cbd4e44acdda25b91a",
+      "mirrorHash": "85e679c6061034cbd4e44acdda25b91a",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "45a6a78c16143aeb4edf655f556783d896445247",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "fr",
+      "productionFile": "data/fr/sentences.js",
+      "mirrorFile": "www/data/fr/sentences.js",
+      "cardCount": 796,
+      "productionHash": "149be3dafeaf210fd18dbaeaf362801c",
+      "mirrorHash": "149be3dafeaf210fd18dbaeaf362801c",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "4b9c5f5cb7f2ef5ee53fd6606eb57fb207c9f566",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "gr",
+      "productionFile": "data/gr/sentences.js",
+      "mirrorFile": "www/data/gr/sentences.js",
+      "cardCount": 796,
+      "productionHash": "200bc3b8cf489312f74dd550de8ad434",
+      "mirrorHash": "200bc3b8cf489312f74dd550de8ad434",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "f9bebd695361ba4ac769085ad73d75337f3c4737",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "hr",
+      "productionFile": "data/hr/sentences.js",
+      "mirrorFile": "www/data/hr/sentences.js",
+      "cardCount": 796,
+      "productionHash": "7b85dafec9826d0a534a8c883d9020f6",
+      "mirrorHash": "7b85dafec9826d0a534a8c883d9020f6",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "2d123649f5a85c7ea1086a7896c376baebc079d2",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "hu",
+      "productionFile": "data/hu/sentences.js",
+      "mirrorFile": "www/data/hu/sentences.js",
+      "cardCount": 796,
+      "productionHash": "a79dc764d0e13db868ea681bfe3066c4",
+      "mirrorHash": "a79dc764d0e13db868ea681bfe3066c4",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "3237b50f7a4ddba13acbc240e077dc64c915f935",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "is",
+      "productionFile": "data/is/sentences.js",
+      "mirrorFile": "www/data/is/sentences.js",
+      "cardCount": 796,
+      "productionHash": "7147e87091fa033ebfacd3ad25ef1e96",
+      "mirrorHash": "7147e87091fa033ebfacd3ad25ef1e96",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "1325c8564947ab67bf2221ee0f71361d0659b099",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "it",
+      "productionFile": "data/it/sentences.js",
+      "mirrorFile": "www/data/it/sentences.js",
+      "cardCount": 796,
+      "productionHash": "6932d34c708124ebd948e9809f1d9d5f",
+      "mirrorHash": "6932d34c708124ebd948e9809f1d9d5f",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "fd62ca1b220dac9bd814cc7292dfb16268f20e5f",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "lb",
+      "productionFile": "data/lb/sentences.js",
+      "mirrorFile": "www/data/lb/sentences.js",
+      "cardCount": 796,
+      "productionHash": "d14a5ade555d9259e2e79d1f4e1373bd",
+      "mirrorHash": "d14a5ade555d9259e2e79d1f4e1373bd",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "ef06f2bb15d973b6e2cbf99a6e27bb6a66b6688f",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "lt",
+      "productionFile": "data/lt/sentences.js",
+      "mirrorFile": "www/data/lt/sentences.js",
+      "cardCount": 796,
+      "productionHash": "443a80223ec41db71719bbb455f1a836",
+      "mirrorHash": "443a80223ec41db71719bbb455f1a836",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "f572d78c6ccbb4c660b34455c35c80cfa74f6618",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "mk",
+      "productionFile": "data/mk/sentences.js",
+      "mirrorFile": "www/data/mk/sentences.js",
+      "cardCount": 796,
+      "productionHash": "aa28c71025355536a09bc9cf3042d1c2",
+      "mirrorHash": "aa28c71025355536a09bc9cf3042d1c2",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "239d60b4b73cd29f9a6451ca9dde1efca5e1fcf9",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "nb",
+      "productionFile": "data/nb/sentences.js",
+      "mirrorFile": "www/data/nb/sentences.js",
+      "cardCount": 796,
+      "productionHash": "7147e87091fa033ebfacd3ad25ef1e96",
+      "mirrorHash": "7147e87091fa033ebfacd3ad25ef1e96",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "81b48488dcbd0b51ef459d3fc132890223bd1724",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "nl",
+      "productionFile": "data/nl/sentences.js",
+      "mirrorFile": "www/data/nl/sentences.js",
+      "cardCount": 796,
+      "productionHash": "067be3993fa74ed64a23a2685684ae20",
+      "mirrorHash": "067be3993fa74ed64a23a2685684ae20",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "7e493b14ca436fc7221cefc16ddf43310651a083",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "nn",
+      "productionFile": "data/nn/sentences.js",
+      "mirrorFile": "www/data/nn/sentences.js",
+      "cardCount": 796,
+      "productionHash": "7147e87091fa033ebfacd3ad25ef1e96",
+      "mirrorHash": "7147e87091fa033ebfacd3ad25ef1e96",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "7a45d3420e5494a2ecfd62472c2f8f1c996473f5",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "pl",
+      "productionFile": "data/pl/sentences.js",
+      "mirrorFile": "www/data/pl/sentences.js",
+      "cardCount": 796,
+      "productionHash": "df6dc36c1c3b37f5fbe4dcc4e0857f95",
+      "mirrorHash": "df6dc36c1c3b37f5fbe4dcc4e0857f95",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "0d0ca7c30c761c5db65bf0c5d0b28ec65fb82345",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "pt",
+      "productionFile": "data/pt/sentences.js",
+      "mirrorFile": "www/data/pt/sentences.js",
+      "cardCount": 796,
+      "productionHash": "b021f62144d0b50557dfb110c8afe793",
+      "mirrorHash": "b021f62144d0b50557dfb110c8afe793",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "ea4839bc4b9498d6489989a028c730858b288319",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "ro",
+      "productionFile": "data/ro/sentences.js",
+      "mirrorFile": "www/data/ro/sentences.js",
+      "cardCount": 796,
+      "productionHash": "5203324caa08ca1ce2bc077932d9c812",
+      "mirrorHash": "5203324caa08ca1ce2bc077932d9c812",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "adb246017d10d4e10fde9d469ae2b16148f0cb99",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "ru",
+      "productionFile": "data/ru/sentences.js",
+      "mirrorFile": "www/data/ru/sentences.js",
+      "cardCount": 796,
+      "productionHash": "971beac89c59f874d4d3d8279ad245b3",
+      "mirrorHash": "971beac89c59f874d4d3d8279ad245b3",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "54cdfbd3153d90143fe5caae4334e85c12f75ab9",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "sk",
+      "productionFile": "data/sk/sentences.js",
+      "mirrorFile": "www/data/sk/sentences.js",
+      "cardCount": 796,
+      "productionHash": "8cb91361815b9513c71791286bfe7348",
+      "mirrorHash": "8cb91361815b9513c71791286bfe7348",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "fda395b54a0b27275f55ded5e074542ccff0b43f",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "sl",
+      "productionFile": "data/sl/sentences.js",
+      "mirrorFile": "www/data/sl/sentences.js",
+      "cardCount": 796,
+      "productionHash": "c0998de77be26c9f5e15d2e1f5180786",
+      "mirrorHash": "c0998de77be26c9f5e15d2e1f5180786",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "8bb252469f741038b772a53778e789274940d4e8",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "sq",
+      "productionFile": "data/sq/sentences.js",
+      "mirrorFile": "www/data/sq/sentences.js",
+      "cardCount": 796,
+      "productionHash": "e549462abbc55eac10c53ce9b1d2c925",
+      "mirrorHash": "e549462abbc55eac10c53ce9b1d2c925",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "f801d5acc5767d1604d7953f7d7d05719fc26abe",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "sr",
+      "productionFile": "data/sr/sentences.js",
+      "mirrorFile": "www/data/sr/sentences.js",
+      "cardCount": 796,
+      "productionHash": "7b85dafec9826d0a534a8c883d9020f6",
+      "mirrorHash": "7b85dafec9826d0a534a8c883d9020f6",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "2fca15258a2bd06f8d8b896b97b29ea8c6d87c71",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "sv",
+      "productionFile": "data/sv/sentences.js",
+      "mirrorFile": "www/data/sv/sentences.js",
+      "cardCount": 796,
+      "productionHash": "85e679c6061034cbd4e44acdda25b91a",
+      "mirrorHash": "85e679c6061034cbd4e44acdda25b91a",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "8696a9fcb064d21228d8f671cb114fb49f46288d",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "tr",
+      "productionFile": "data/tr/sentences.js",
+      "mirrorFile": "www/data/tr/sentences.js",
+      "cardCount": 796,
+      "productionHash": "cf2ae51ca31954c172e3cca7929babf2",
+      "mirrorHash": "cf2ae51ca31954c172e3cca7929babf2",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "0543c9cba215b023d580d19b2266acadc53982cf",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    },
+    {
+      "language": "uk",
+      "productionFile": "data/uk/sentences.js",
+      "mirrorFile": "www/data/uk/sentences.js",
+      "cardCount": 796,
+      "productionHash": "a32d97d0a772192fd3564442c65b59d3",
+      "mirrorHash": "a32d97d0a772192fd3564442c65b59d3",
+      "mirrorMatchesProduction": true,
+      "lastTouchCommit": "809e584b3517211482aea4bce52fff4a797bd8c4",
+      "mainHead": "53f83b3c859d77c14aee0c2edce99b185ce6d268"
+    }
+  ],
+  "lvSource": {
+    "productionFile": "data/sentences.js",
+    "mirrorFile": "www/data/sentences.js",
+    "cardCount": 796
+  }
+}
