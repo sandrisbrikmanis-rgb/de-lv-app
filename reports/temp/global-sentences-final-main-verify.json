@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-10T16:00:58.600Z",
+  "generatedAt": "2026-08-10T16:01:31.948Z",
   "mainBefore": "53f83b3c859d77c14aee0c2edce99b185ce6d268",
-  "currentHead": "07993998f60e600d28d4021e56116a285516d766",
+  "currentHead": "99a1e220f3bb38e51d4e448259a59224976bcb6b",
   "datasetsFound": 31,
   "lvSourceCards": 796,
   "closedDatasets": 2,
@@ -1038,11 +1038,19 @@
   },
   "diffAudit": {
     "mainBefore": "53f83b3c859d77c14aee0c2edce99b185ce6d268",
-    "head": "07993998f60e600d28d4021e56116a285516d766",
-    "changedFiles": 3,
+    "head": "99a1e220f3bb38e51d4e448259a59224976bcb6b",
+    "changedFiles": 5,
     "classified": [
       {
+        "file": "reports/global-sentences-final-main-consolidation.md",
+        "category": "EXPECTED_CLOSURE_DOC"
+      },
+      {
         "file": "reports/temp/global-sentences-dataset-discovery.json",
+        "category": "EXPECTED_AUDIT_REPORT"
+      },
+      {
+        "file": "reports/temp/global-sentences-final-main-verify.json",
         "category": "EXPECTED_AUDIT_REPORT"
       },
       {
