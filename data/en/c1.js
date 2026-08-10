@@ -4206,7 +4206,7 @@ const C1_WORDS = [
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "What do you intend to achieve with this event?"
+          "lv": "What do you intend to achieve with this measure?"
         },
         {
           "de": "Wir beabsichtigen keine Änderung.",
@@ -4348,7 +4348,7 @@ const C1_WORDS = [
         },
         {
           "de": "unterstellen",
-          "lv": "Unfounded accusation • Presuppose"
+          "lv": "To accuse unjustly • To impute"
         }
       ],
       "tip": [
@@ -4447,7 +4447,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "Take as a prerequisite",
+      "translation": "Presuppose",
       "explanation": [
         "Main idea: To assume that something is already known or exists as a basis.",
         "Voraussetzen mainly means: to consider as a basis.",
@@ -4531,7 +4531,7 @@ const C1_WORDS = [
         },
         {
           "de": "bewahren",
-          "lv": "Protect/preserve • Aufrechterhalten"
+          "lv": "Protect • Preserve • Maintain"
         }
       ],
       "tip": [
@@ -4637,15 +4637,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "The state keeps order in force."
+          "lv": "The state maintains public order."
         },
         {
           "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Must keep the action in force."
+          "lv": "The activity must be maintained."
         },
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "The state keeps order in force."
+          "lv": "The state maintains public order."
         }
       ],
       "tip": [

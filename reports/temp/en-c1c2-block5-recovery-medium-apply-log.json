@@ -1,0 +1,369 @@
+{
+  "block5CardsTargeted": 50,
+  "block5CardsFound": 50,
+  "block5Applied": 52,
+  "block5AlreadyApplied": 0,
+  "block5Mismatch": 0,
+  "mediumTargeted": 2,
+  "mediumApplied": 2,
+  "mediumAlreadyApplied": 0,
+  "mediumMismatch": 0,
+  "mismatchDetails": [],
+  "nelabotPreserved": 4,
+  "nelabotDetails": [
+    {
+      "cardId": "c2-unmissverständlich-3",
+      "expectedEn": "Unmistakable",
+      "currentEn": "Unmistakable",
+      "preserved": true
+    },
+    {
+      "cardId": "c2-Geschenkgutschein-38",
+      "expectedEn": "Gift card",
+      "currentEn": "Gift card",
+      "preserved": true
+    },
+    {
+      "cardId": "c2-Kassettenrecorder-43",
+      "expectedEn": "Cassette tape recorder",
+      "currentEn": "Cassette tape recorder",
+      "preserved": true
+    },
+    {
+      "cardId": "c2-Errungenschaft-117",
+      "expectedEn": "Achievement • Benefit • Gain",
+      "currentEn": "Achievement • Benefit • Gain",
+      "preserved": true
+    }
+  ],
+  "mirrorC1": true,
+  "mirrorC2": true,
+  "deReadOnly": true,
+  "syntaxPass": true,
+  "results": [
+    {
+      "cardId": "c1-voraussetzen",
+      "fieldPath": "study.translation",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-bewahren",
+      "fieldPath": "study.examples[3].lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "fieldPath": "study.examples[0].lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "fieldPath": "study.examples[1].lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "fieldPath": "study.examples[2].lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Unvoreingenommenheit-0",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-konterkarieren-1",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Stichhaltigkeit-2",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-veranschaulichen-5",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Teilnehmerausweis-12",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-batteriebetrieben-13",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-beaufsichtigen-14",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Behandlungsraum-16",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-benachrichtigen-19",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Benzingutschein-20",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Berufsausbildung-25",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-entgegenkommen-29",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Gehaltsabrechnung-32",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Geschäftsführer-36",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Geschenkpackung-39",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Katastrophendienst-44",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Kostensteigerung-46",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Krankenversicherung-47",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Krankheitsüberträger-49",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Lungenentzündung-52",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Schlafwagenzimmer-58",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Schlittschuhkufe-59",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-selbstverständlich-61",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-sicherheitshalber-62",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Straßenunterführung-67",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Sehenswürdigkeit-76",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Abenteuergeschichte-77",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Behindertenausweis-81",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Baugenossenschaft-82",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Ausbildungsbeihilfe-84",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Unternehmensberater-85",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Berichterstatter-86",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Bereitschaftsdienst-101",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-durchkreuzen-103",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Durchschnittsleistung-106",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Empfehlungsschreiben-110",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-entgegengesetzt-112",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Entschlossenheit-113",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Entwicklungsland-114",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Erfrischungsraum-115",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Führerpersönlichkeit-123",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Fußballweltmeisterschaft-124",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Gedächtnisschwäche-126",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Gefängnisaufseher-128",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Geistesgegenwart-131",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Dorfgemeinschaft-136",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c2-Forschungsgemeinschaft-137",
+      "fieldPath": "lv",
+      "phase": "block5",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-beabsichtigen",
+      "fieldPath": "study.examples[1].lv",
+      "phase": "medium",
+      "status": "APPLIED"
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "fieldPath": "study.examples[4].lv",
+      "phase": "medium",
+      "status": "APPLIED"
+    }
+  ]
+}
