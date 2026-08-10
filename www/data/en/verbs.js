@@ -1986,11 +1986,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "he snaps"
+      "lv": "he tears"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "he snapped"
+      "lv": "he tore"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
@@ -2030,7 +2030,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "he is running"
+      "lv": "he runs"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
@@ -2108,7 +2108,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
-      "lv": "flowed / coagulated"
+      "lv": "flowed"
     }
   },
   {
@@ -2162,7 +2162,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "he is drinking / drinking"
+      "lv": "he drinks heavily"
     },
     "imperfektIndikativ": {
       "de": "er soff",
@@ -2180,7 +2180,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "saugen",
-      "lv": "suck"
+      "lv": "to suck"
     },
     "praesens": {
       "de": "er saugt",
@@ -2246,15 +2246,15 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "divorce / break up"
+      "lv": "to divorce / to separate"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "he is divorcing / divorcing"
+      "lv": "he divorces / separates"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "he divorced / divorced"
+      "lv": "he divorced / separated"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
@@ -2268,7 +2268,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "scheinen",
-      "lv": "shine / appear"
+      "lv": "to shine / to appear"
     },
     "praesens": {
       "de": "er scheint",
@@ -2280,7 +2280,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schiene",
-      "lv": "he would shine / seem"
+      "lv": "he would shine / would seem"
     },
     "partizipVergangenheit": {
       "de": "geschienen",
@@ -2378,7 +2378,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "torment"
+      "lv": "to torment"
     },
     "praesens": {
       "de": "er schindet",
@@ -2474,7 +2474,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schliff",
-      "lv": "he grinded"
+      "lv": "he ground"
     },
     "imperfektKonjunktiv": {
       "de": "er schliffe",
@@ -2592,7 +2592,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschnaubt vai geschnoben",
-      "lv": "snort"
+      "lv": "snorted"
     }
   },
   {
@@ -2606,7 +2606,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "he was cutting"
+      "lv": "he cut"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
@@ -2664,7 +2664,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "walking"
+      "lv": "to walk"
     },
     "praesens": {
       "de": "er schreitet",
@@ -2686,7 +2686,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schweigen",
-      "lv": "keep quiet"
+      "lv": "to keep quiet"
     },
     "praesens": {
       "de": "er schweigt",
@@ -2702,7 +2702,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "silenced"
+      "lv": "been silent"
     }
   },
   {
@@ -2746,7 +2746,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "swam"
+      "lv": "swum"
     }
   },
   {
@@ -2774,7 +2774,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "wave"
+      "lv": "to wave"
     },
     "praesens": {
       "de": "er schwingt",
@@ -2892,7 +2892,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "sott vai siedete",
-      "lv": "cooked"
+      "lv": "boiled"
     },
     "imperfektKonjunktiv": {
       "de": "sott vai siedete",
@@ -2932,7 +2932,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "he is sinking"
+      "lv": "he sinks"
     },
     "imperfektIndikativ": {
       "de": "er sank",
@@ -2976,11 +2976,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "he is sitting"
+      "lv": "he sits"
     },
     "imperfektIndikativ": {
       "de": "er sass",
-      "lv": "he was sitting"
+      "lv": "he sat"
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
@@ -2988,13 +2988,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "sat down"
+      "lv": "sat"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "need / be obliged"
+      "lv": "to be supposed to • to be obliged"
     },
     "praesens": {
       "de": "er soll",
@@ -3010,7 +3010,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "needed"
+      "lv": "supposed to"
     }
   },
   {
@@ -3032,17 +3032,17 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "spat out"
+      "lv": "spat"
     }
   },
   {
     "infinitiv": {
       "de": "spinnen",
-      "lv": "spin"
+      "lv": "to spin"
     },
     "praesens": {
       "de": "er spinnt",
-      "lv": "he twists"
+      "lv": "he spins"
     },
     "imperfektIndikativ": {
       "de": "er spann",
@@ -3064,7 +3064,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "he connects"
+      "lv": "he splices"
     },
     "imperfektIndikativ": {
       "de": "spliss",
@@ -3108,11 +3108,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "he thrives"
+      "lv": "he sprouts"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "he thrived"
+      "lv": "he sprouted"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
@@ -3156,7 +3156,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "he punched"
+      "lv": "he stabbed"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
@@ -3208,7 +3208,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "standing"
+      "lv": "stood"
     }
   },
   {
@@ -3280,7 +3280,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stieben",
-      "lv": "foam / swirl"
+      "lv": "to scatter / to swirl"
     },
     "praesens": {
       "de": "es stiebt",
@@ -3288,7 +3288,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "stob vai stiebte",
-      "lv": "foamed"
+      "lv": "it scattered"
     },
     "imperfektKonjunktiv": {
       "de": "stob vai stiebte",
@@ -3296,13 +3296,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestoben vai gestiebt",
-      "lv": "spoiled"
+      "lv": "scattered"
     }
   },
   {
     "infinitiv": {
       "de": "stinken",
-      "lv": "to smell"
+      "lv": "to stink"
     },
     "praesens": {
       "de": "es stinkt",
@@ -3310,7 +3310,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "stank",
-      "lv": "smelled"
+      "lv": "stank"
     },
     "imperfektKonjunktiv": {
       "de": "stank",
@@ -3318,7 +3318,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "smelly"
+      "lv": "stunk"
     }
   },
   {
@@ -3346,7 +3346,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "paint / strip"
+      "lv": "to paint / to stripe"
     },
     "praesens": {
       "de": "er streicht",
@@ -3358,7 +3358,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "he would paint / strip"
+      "lv": "he would paint / stripe"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
@@ -3376,7 +3376,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "he struggled"
+      "lv": "he fought"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
@@ -3464,15 +3464,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er trat",
-      "lv": "he stood / walked"
+      "lv": "he entered / went"
     },
     "imperfektKonjunktiv": {
       "de": "er träte",
-      "lv": "he would stand / go"
+      "lv": "he would enter / he would go"
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "stood / walked"
+      "lv": "entered / gone"
     }
   },
   {
