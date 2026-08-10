@@ -1,0 +1,125 @@
+{
+  "qualityFindings": [],
+  "sourceLvIssues": [
+    {
+      "cardId": "satze-242",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "von Haus aus",
+      "lvSource": "kopš bērnības • no pašiem sākumiem",
+      "currentEn": "By nature. • Originally.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-379",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Vor allem.",
+      "lvSource": "Pirmkārt. • Vispirms",
+      "currentEn": "Above all. • Especially.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-414",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Ohne weiteres.",
+      "lvSource": "Tūlīt. • Nekavējoties",
+      "currentEn": "Without further ado. • Without difficulty.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-556",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Es ist sehr warm.",
+      "lvSource": "Ir ļoti karsti.",
+      "currentEn": "It is very warm.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-559",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Das Gewitter zieht vorüber.",
+      "lvSource": "Negaiss ir garām pagājis.",
+      "currentEn": "The storm is passing.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-562",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "lvSource": "Ziema ir klāt, naktī sniga.",
+      "currentEn": "Winter is here. It has snowed.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-651",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "lvSource": "Atgādini man rīt parakstīt!",
+      "currentEn": "Remind me tomorrow to write!",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-660",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Alle Plätze sind ausverkauft.",
+      "lvSource": "Visas biļetes ir izpārdotas.",
+      "currentEn": "All the seats are sold out.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-673",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Hast du alles eingepackt?",
+      "lvSource": "Vai viss jau ir salikts kastēs?",
+      "currentEn": "Is everything packed already?",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-674",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "lvSource": "Esmu sarakstē ar savu draugu.",
+      "currentEn": "I am in contact with my friend.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-727",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "lvSource": "Vienu maizes kukuli, lūdzu, bet ne pārāk cietu.",
+      "currentEn": "One loaf of bread, please, but not too crusty.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-760",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "lvSource": "Kad varu atnest kurpes?",
+      "currentEn": "When can I pick up the shoes?",
+      "reason": "LV source mismatch; EN follows DE."
+    }
+  ],
+  "falsePositives": [
+    {
+      "cardId": "satze-27",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Was fällt dir ein?",
+      "lvSource": "Kas tev nāk prātā?",
+      "currentEn": "What comes to your mind?",
+      "proposedEn": "How dare you?",
+      "reason": "NELABOT low-severity/style: The German idiom expresses indignation, not a question about what someone is thinking.",
+      "confidence": 0.99,
+      "status": "FALSE_POSITIVE"
+    }
+  ],
+  "styleOnly": [],
+  "verifiedOwnerKeep": [
+    {
+      "cardId": "satze-27",
+      "currentEn": "What comes to your mind?",
+      "status": "OWNER_NELABOT_PASS"
+    }
+  ],
+  "verdict": "OWNER REPAIRS REGRESSION PASS"
+}

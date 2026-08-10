@@ -1,0 +1,303 @@
+{
+  "generatedAt": "2026-08-10T15:44:36.799Z",
+  "model": "gpt-5.6-luna",
+  "scope": "EN-DE Teikumi OWNER repair regression",
+  "dataset": {
+    "totalDataset": 796,
+    "ownerReviewedBaseline": 248,
+    "ownerApprovedChanged": 232,
+    "ownerNelabotBaseline": 16,
+    "sourceLvIssueBaseline": 12,
+    "regressionAuditedChanged": 232,
+    "ownerNelabotVerified": 16,
+    "sourceLvIssueVerified": 12,
+    "lunaScopedCards": 248,
+    "productionChanges": 0,
+    "verdict": "OWNER REPAIRS REGRESSION PASS"
+  },
+  "deterministic": {
+    "entryCount": 796,
+    "baselineCount": 796,
+    "lvCount": 796,
+    "countParity": true,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "deReadOnly": true,
+    "lvReadOnly": true,
+    "semicolonCount": 0,
+    "mojibakeCount": 0,
+    "zwspCount": 0,
+    "lvRemnantCount": 0,
+    "placeholderCount": 0,
+    "idOrderPass": true,
+    "nelabotPreserved": [
+      {
+        "cardId": "satze-27",
+        "preserved": true,
+        "baseline": "What comes to your mind?",
+        "current": "What comes to your mind?"
+      },
+      {
+        "cardId": "satze-82",
+        "preserved": true,
+        "baseline": "This dress is stylishly conservative.",
+        "current": "This dress is stylishly conservative."
+      },
+      {
+        "cardId": "satze-116",
+        "preserved": true,
+        "baseline": "I will stop now.",
+        "current": "I will stop now."
+      },
+      {
+        "cardId": "satze-134",
+        "preserved": true,
+        "baseline": "In the worst case.",
+        "current": "In the worst case."
+      },
+      {
+        "cardId": "satze-137",
+        "preserved": true,
+        "baseline": "He has a good chance.",
+        "current": "He has a good chance."
+      },
+      {
+        "cardId": "satze-142",
+        "preserved": true,
+        "baseline": "To influence.",
+        "current": "To influence."
+      },
+      {
+        "cardId": "satze-212",
+        "preserved": true,
+        "baseline": "Regarding something.",
+        "current": "Regarding something."
+      },
+      {
+        "cardId": "satze-216",
+        "preserved": true,
+        "baseline": "I have a request for you.",
+        "current": "I have a request for you."
+      },
+      {
+        "cardId": "satze-217",
+        "preserved": true,
+        "baseline": "Blow the trumpet.",
+        "current": "Blow the trumpet."
+      },
+      {
+        "cardId": "satze-263",
+        "preserved": true,
+        "baseline": "Keep it up!",
+        "current": "Keep it up!"
+      },
+      {
+        "cardId": "satze-264",
+        "preserved": true,
+        "baseline": "He doesn't like...",
+        "current": "He doesn't like..."
+      },
+      {
+        "cardId": "satze-471",
+        "preserved": true,
+        "baseline": "Free entry.",
+        "current": "Free entry."
+      },
+      {
+        "cardId": "satze-483",
+        "preserved": true,
+        "baseline": "Would you please be so kind?",
+        "current": "Would you please be so kind?"
+      },
+      {
+        "cardId": "satze-626",
+        "preserved": true,
+        "baseline": "How much is the room per night?",
+        "current": "How much is the room per night?"
+      },
+      {
+        "cardId": "satze-705",
+        "preserved": true,
+        "baseline": "Noah learned to swim in two weeks.",
+        "current": "Noah learned to swim in two weeks."
+      },
+      {
+        "cardId": "satze-725",
+        "preserved": true,
+        "baseline": "Do you have good beef?",
+        "current": "Do you have good beef?"
+      }
+    ],
+    "unexpectedChanges": 0,
+    "ownerChangedCount": 232,
+    "deHashStable": true,
+    "lvHashStable": true
+  },
+  "luna": {
+    "status": "COMPLETED",
+    "audited": 248,
+    "apiUsage": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 6,
+      "initialBatchRequests": 6,
+      "retryRequests": 0,
+      "batchCount": 6,
+      "batchSizes": [
+        45,
+        45,
+        45,
+        45,
+        45,
+        23
+      ],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 27689,
+      "cachedInputTokens": 0,
+      "outputTokens": 7129,
+      "reasoningTokens": 3938,
+      "totalTokens": 34818,
+      "findingsCount": 13,
+      "passCount": 235
+    },
+    "rawFindingCount": 13
+  },
+  "classification": {
+    "severityCounts": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "sourceLvConfirmed": 12,
+    "sourceLvRejected": 0,
+    "deSourceIssues": 0,
+    "styleOnly": 0,
+    "falsePositives": 1,
+    "qualityFindingsCount": 0
+  },
+  "verdict": "OWNER REPAIRS REGRESSION PASS",
+  "verifiedOwnerKeep": [
+    {
+      "cardId": "satze-27",
+      "currentEn": "What comes to your mind?",
+      "status": "OWNER_NELABOT_PASS"
+    }
+  ],
+  "sourceLvIssues": [
+    {
+      "cardId": "satze-242",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "von Haus aus",
+      "lvSource": "kopš bērnības • no pašiem sākumiem",
+      "currentEn": "By nature. • Originally.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-379",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Vor allem.",
+      "lvSource": "Pirmkārt. • Vispirms",
+      "currentEn": "Above all. • Especially.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-414",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Ohne weiteres.",
+      "lvSource": "Tūlīt. • Nekavējoties",
+      "currentEn": "Without further ado. • Without difficulty.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-556",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Es ist sehr warm.",
+      "lvSource": "Ir ļoti karsti.",
+      "currentEn": "It is very warm.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-559",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Das Gewitter zieht vorüber.",
+      "lvSource": "Negaiss ir garām pagājis.",
+      "currentEn": "The storm is passing.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-562",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "lvSource": "Ziema ir klāt, naktī sniga.",
+      "currentEn": "Winter is here. It has snowed.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-651",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "lvSource": "Atgādini man rīt parakstīt!",
+      "currentEn": "Remind me tomorrow to write!",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-660",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Alle Plätze sind ausverkauft.",
+      "lvSource": "Visas biļetes ir izpārdotas.",
+      "currentEn": "All the seats are sold out.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-673",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Hast du alles eingepackt?",
+      "lvSource": "Vai viss jau ir salikts kastēs?",
+      "currentEn": "Is everything packed already?",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-674",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "lvSource": "Esmu sarakstē ar savu draugu.",
+      "currentEn": "I am in contact with my friend.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-727",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "lvSource": "Vienu maizes kukuli, lūdzu, bet ne pārāk cietu.",
+      "currentEn": "One loaf of bread, please, but not too crusty.",
+      "reason": "LV source mismatch; EN follows DE."
+    },
+    {
+      "cardId": "satze-760",
+      "status": "SOURCE_LV_ISSUE",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "lvSource": "Kad varu atnest kurpes?",
+      "currentEn": "When can I pick up the shoes?",
+      "reason": "LV source mismatch; EN follows DE."
+    }
+  ],
+  "qualityFindings": [],
+  "falsePositives": [
+    {
+      "cardId": "satze-27",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Was fällt dir ein?",
+      "lvSource": "Kas tev nāk prātā?",
+      "currentEn": "What comes to your mind?",
+      "proposedEn": "How dare you?",
+      "reason": "NELABOT low-severity/style: The German idiom expresses indignation, not a question about what someone is thinking.",
+      "confidence": 0.99,
+      "status": "FALSE_POSITIVE"
+    }
+  ],
+  "styleOnly": [],
+  "deSourceIssues": []
+}

@@ -1,0 +1,25 @@
+◇ injected env (1) from .env // tip: ⌘ suppress logs { quiet: true }
+EN Teikumi OWNER repair regression audit (READ-ONLY)
+Baseline: origin/main
+Target scope: 248 cards (232 changed, 16 NELABOT)
+Deterministic: {"mirror":true,"deReadOnly":true,"lvReadOnly":true,"semicolons":0,"nelabotPreserved":16}
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+  luna regression-0: 45 sentences, raw=1, pass=44, tokens=6791
+  luna regression-1: 45 sentences, raw=1, pass=44, tokens=5968
+  luna regression-2: 45 sentences, raw=1, pass=44, tokens=5977
+  luna regression-3: 45 sentences, raw=4, pass=41, tokens=5996
+  luna regression-4: 45 sentences, raw=4, pass=41, tokens=6450
+  luna regression-5: 23 sentences, raw=2, pass=21, tokens=3636
+
+=== Regression audit complete ===
+{
+  "verdict": "OWNER REPAIRS REGRESSION PASS",
+  "CRITICAL": 0,
+  "HIGH": 0,
+  "MEDIUM": 0,
+  "LOW": 0,
+  "falsePositives": 1,
+  "sourceLvConfirmed": 12,
+  "tokens": 34818
+}
+Report: /workspace/reports/en-sentences-owner-repairs-regression-audit.md
