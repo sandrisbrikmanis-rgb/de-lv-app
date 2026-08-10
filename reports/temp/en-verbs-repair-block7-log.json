@@ -1,0 +1,351 @@
+{
+  "applied": 49,
+  "repairs": [
+    {
+      "index": 179,
+      "infinitiv": "zeihen",
+      "field": "infinitiv",
+      "before": "vainot",
+      "after": "to accuse / to blame"
+    },
+    {
+      "index": 179,
+      "infinitiv": "zeihen",
+      "field": "imperfektIndikativ",
+      "before": "vainoja",
+      "after": "he accused / blamed"
+    },
+    {
+      "index": 179,
+      "infinitiv": "zeihen",
+      "field": "imperfektKonjunktiv",
+      "before": "vainoja",
+      "after": "he would accuse / blame"
+    },
+    {
+      "index": 179,
+      "infinitiv": "zeihen",
+      "field": "partizipVergangenheit",
+      "before": "vainojis",
+      "after": "accused / blamed"
+    },
+    {
+      "index": 180,
+      "infinitiv": "ziehen",
+      "field": "infinitiv",
+      "before": "vilkt",
+      "after": "to pull"
+    },
+    {
+      "index": 180,
+      "infinitiv": "ziehen",
+      "field": "partizipVergangenheit",
+      "before": "vilkts",
+      "after": "pulled"
+    },
+    {
+      "index": 181,
+      "infinitiv": "zwingen",
+      "field": "infinitiv",
+      "before": "piespiest",
+      "after": "to force"
+    },
+    {
+      "index": 181,
+      "infinitiv": "zwingen",
+      "field": "partizipVergangenheit",
+      "before": "piespiests",
+      "after": "forced"
+    },
+    {
+      "index": 185,
+      "infinitiv": "flechten",
+      "field": "praesens",
+      "before": "he pin",
+      "after": "he braids"
+    },
+    {
+      "index": 185,
+      "infinitiv": "flechten",
+      "field": "imperfektIndikativ",
+      "before": "he braids",
+      "after": "he braided"
+    },
+    {
+      "index": 186,
+      "infinitiv": "hangen",
+      "field": "partizipVergangenheit",
+      "before": "hang on",
+      "after": "hung"
+    },
+    {
+      "index": 188,
+      "infinitiv": "verzeihen",
+      "field": "infinitiv",
+      "before": "piedot",
+      "after": "to forgive"
+    },
+    {
+      "index": 188,
+      "infinitiv": "verzeihen",
+      "field": "partizipVergangenheit",
+      "before": "piedots",
+      "after": "forgiven"
+    },
+    {
+      "index": 0,
+      "infinitiv": "backen",
+      "field": "imperfektIndikativ",
+      "before": "he was baking",
+      "after": "he baked"
+    },
+    {
+      "index": 4,
+      "infinitiv": "bergen",
+      "field": "infinitiv",
+      "before": "hide",
+      "after": "to hide"
+    },
+    {
+      "index": 5,
+      "infinitiv": "bersten",
+      "field": "infinitiv",
+      "before": "bursting",
+      "after": "to burst"
+    },
+    {
+      "index": 5,
+      "infinitiv": "bersten",
+      "field": "imperfektIndikativ",
+      "before": "he burst out",
+      "after": "he burst"
+    },
+    {
+      "index": 5,
+      "infinitiv": "bersten",
+      "field": "partizipVergangenheit",
+      "before": "broken",
+      "after": "burst"
+    },
+    {
+      "index": 7,
+      "infinitiv": "biegen",
+      "field": "infinitiv",
+      "before": "bend",
+      "after": "to bend"
+    },
+    {
+      "index": 12,
+      "infinitiv": "gären",
+      "field": "imperfektIndikativ",
+      "before": "it ferments",
+      "after": "it fermented"
+    },
+    {
+      "index": 15,
+      "infinitiv": "gelten",
+      "field": "praesens",
+      "before": "he fits / is valid",
+      "after": "he counts • he is valid"
+    },
+    {
+      "index": 15,
+      "infinitiv": "gelten",
+      "field": "imperfektIndikativ",
+      "before": "he fit / was fit",
+      "after": "he counted • he was valid"
+    },
+    {
+      "index": 16,
+      "infinitiv": "genesen",
+      "field": "infinitiv",
+      "before": "getting well",
+      "after": "to recover"
+    },
+    {
+      "index": 20,
+      "infinitiv": "gleichen",
+      "field": "imperfektIndikativ",
+      "before": "he emulated",
+      "after": "he resembled"
+    },
+    {
+      "index": 20,
+      "infinitiv": "gleichen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would emulate",
+      "after": "he would resemble"
+    },
+    {
+      "index": 21,
+      "infinitiv": "gleiten",
+      "field": "imperfektIndikativ",
+      "before": "he was sliding",
+      "after": "he slid"
+    },
+    {
+      "index": 21,
+      "infinitiv": "gleiten",
+      "field": "partizipVergangenheit",
+      "before": "slipped",
+      "after": "slid"
+    },
+    {
+      "index": 22,
+      "infinitiv": "glimmen",
+      "field": "partizipVergangenheit",
+      "before": "glowing",
+      "after": "glowed"
+    },
+    {
+      "index": 31,
+      "infinitiv": "bleichen",
+      "field": "infinitiv",
+      "before": "whiten",
+      "after": "to bleach"
+    },
+    {
+      "index": 34,
+      "infinitiv": "brennen",
+      "field": "praesens",
+      "before": "he's on fire",
+      "after": "he burns"
+    },
+    {
+      "index": 36,
+      "infinitiv": "denken",
+      "field": "partizipVergangenheit",
+      "before": "intended",
+      "after": "thought"
+    },
+    {
+      "index": 41,
+      "infinitiv": "dürfen",
+      "field": "praesens",
+      "before": "he can",
+      "after": "he is allowed to"
+    },
+    {
+      "index": 41,
+      "infinitiv": "dürfen",
+      "field": "partizipVergangenheit",
+      "before": "allowed",
+      "after": "been allowed"
+    },
+    {
+      "index": 46,
+      "infinitiv": "essen",
+      "field": "imperfektIndikativ",
+      "before": "he was eating",
+      "after": "he ate"
+    },
+    {
+      "index": 52,
+      "infinitiv": "fliehen",
+      "field": "infinitiv",
+      "before": "run away",
+      "after": "to flee"
+    },
+    {
+      "index": 54,
+      "infinitiv": "fressen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would eat / breakfast",
+      "after": "he would eat / devour"
+    },
+    {
+      "index": 57,
+      "infinitiv": "gedeihen",
+      "field": "praesens",
+      "before": "he succeeds",
+      "after": "he thrives"
+    },
+    {
+      "index": 57,
+      "infinitiv": "gedeihen",
+      "field": "imperfektIndikativ",
+      "before": "he succeeded",
+      "after": "he thrived"
+    },
+    {
+      "index": 57,
+      "infinitiv": "gedeihen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would succeed",
+      "after": "he would thrive"
+    },
+    {
+      "index": 61,
+      "infinitiv": "halten",
+      "field": "infinitiv",
+      "before": "hold",
+      "after": "to hold"
+    },
+    {
+      "index": 65,
+      "infinitiv": "können",
+      "field": "infinitiv",
+      "before": "be able to",
+      "after": "to be able to"
+    },
+    {
+      "index": 65,
+      "infinitiv": "können",
+      "field": "imperfektKonjunktiv",
+      "before": "could",
+      "after": "would be able to"
+    },
+    {
+      "index": 68,
+      "infinitiv": "lassen",
+      "field": "infinitiv",
+      "before": "to put, to let",
+      "after": "to let • to leave"
+    },
+    {
+      "index": 68,
+      "infinitiv": "lassen",
+      "field": "praesens",
+      "before": "he puts / lets",
+      "after": "he lets • he leaves"
+    },
+    {
+      "index": 68,
+      "infinitiv": "lassen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would put / let",
+      "after": "he would let • he would leave"
+    },
+    {
+      "index": 68,
+      "infinitiv": "lassen",
+      "field": "partizipVergangenheit",
+      "before": "put / allowed",
+      "after": "left • let"
+    },
+    {
+      "index": 69,
+      "infinitiv": "laufen",
+      "field": "partizipVergangenheit",
+      "before": "ran",
+      "after": "has run"
+    },
+    {
+      "index": 85,
+      "infinitiv": "pflegen",
+      "field": "praesens",
+      "before": "he cares",
+      "after": "he cares for"
+    },
+    {
+      "index": 86,
+      "infinitiv": "preisen",
+      "field": "infinitiv",
+      "before": "praise",
+      "after": "to praise"
+    }
+  ],
+  "auditSourceIssue": [
+    "verb-79-misslingen/imperfektKonjunktiv — not changed (empty audit finding)"
+  ]
+}
