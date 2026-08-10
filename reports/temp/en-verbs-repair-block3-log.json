@@ -1,0 +1,333 @@
+{
+  "applied": 46,
+  "repairs": [
+    {
+      "index": 55,
+      "infinitiv": "frieren",
+      "field": "infinitiv",
+      "before": "salt",
+      "after": "to freeze"
+    },
+    {
+      "index": 55,
+      "infinitiv": "frieren",
+      "field": "imperfektIndikativ",
+      "before": "he island",
+      "after": "he froze"
+    },
+    {
+      "index": 55,
+      "infinitiv": "frieren",
+      "field": "imperfektKonjunktiv",
+      "before": "he was freezing",
+      "after": "he would freeze"
+    },
+    {
+      "index": 55,
+      "infinitiv": "frieren",
+      "field": "partizipVergangenheit",
+      "before": "salis",
+      "after": "frozen"
+    },
+    {
+      "index": 56,
+      "infinitiv": "geben",
+      "field": "infinitiv",
+      "before": "dot",
+      "after": "to give"
+    },
+    {
+      "index": 56,
+      "infinitiv": "geben",
+      "field": "partizipVergangenheit",
+      "before": "dots",
+      "after": "given"
+    },
+    {
+      "index": 57,
+      "infinitiv": "gedeihen",
+      "field": "infinitiv",
+      "before": "izdoties",
+      "after": "to thrive"
+    },
+    {
+      "index": 57,
+      "infinitiv": "gedeihen",
+      "field": "partizipVergangenheit",
+      "before": "izdevies",
+      "after": "thrived"
+    },
+    {
+      "index": 58,
+      "infinitiv": "gehen",
+      "field": "infinitiv",
+      "before": "iet",
+      "after": "to go"
+    },
+    {
+      "index": 58,
+      "infinitiv": "gehen",
+      "field": "partizipVergangenheit",
+      "before": "went",
+      "after": "gone"
+    },
+    {
+      "index": 60,
+      "infinitiv": "haben",
+      "field": "infinitiv",
+      "before": "to be / to belong",
+      "after": "to have"
+    },
+    {
+      "index": 60,
+      "infinitiv": "haben",
+      "field": "partizipVergangenheit",
+      "before": "bijis",
+      "after": "had"
+    },
+    {
+      "index": 61,
+      "infinitiv": "halten",
+      "field": "praesens",
+      "before": "he there",
+      "after": "he holds"
+    },
+    {
+      "index": 62,
+      "infinitiv": "heißen",
+      "field": "infinitiv",
+      "before": "saukt",
+      "after": "to call / to be called"
+    },
+    {
+      "index": 62,
+      "infinitiv": "heißen",
+      "field": "partizipVergangenheit",
+      "before": "saukts",
+      "after": "called"
+    },
+    {
+      "index": 65,
+      "infinitiv": "können",
+      "field": "partizipVergangenheit",
+      "before": "could",
+      "after": "been able to"
+    },
+    {
+      "index": 66,
+      "infinitiv": "kriechen",
+      "field": "infinitiv",
+      "before": "it's raining",
+      "after": "to crawl"
+    },
+    {
+      "index": 66,
+      "infinitiv": "kriechen",
+      "field": "praesens",
+      "before": "he leans",
+      "after": "he crawls"
+    },
+    {
+      "index": 66,
+      "infinitiv": "kriechen",
+      "field": "imperfektIndikativ",
+      "before": "he rained",
+      "after": "he crawled"
+    },
+    {
+      "index": 66,
+      "infinitiv": "kriechen",
+      "field": "imperfektKonjunktiv",
+      "before": "he is raining",
+      "after": "he would crawl"
+    },
+    {
+      "index": 66,
+      "infinitiv": "kriechen",
+      "field": "partizipVergangenheit",
+      "before": "passed away",
+      "after": "crawled"
+    },
+    {
+      "index": 69,
+      "infinitiv": "laufen",
+      "field": "infinitiv",
+      "before": "skriet",
+      "after": "to run"
+    },
+    {
+      "index": 70,
+      "infinitiv": "leiden",
+      "field": "infinitiv",
+      "before": "ciest",
+      "after": "to suffer"
+    },
+    {
+      "index": 70,
+      "infinitiv": "leiden",
+      "field": "partizipVergangenheit",
+      "before": "ciests",
+      "after": "suffered"
+    },
+    {
+      "index": 73,
+      "infinitiv": "liegen",
+      "field": "infinitiv",
+      "before": "to sleep",
+      "after": "to lie"
+    },
+    {
+      "index": 73,
+      "infinitiv": "liegen",
+      "field": "praesens",
+      "before": "he is sleeping",
+      "after": "he lies"
+    },
+    {
+      "index": 73,
+      "infinitiv": "liegen",
+      "field": "imperfektIndikativ",
+      "before": "he was sleeping",
+      "after": "he lay"
+    },
+    {
+      "index": 73,
+      "infinitiv": "liegen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would sleep",
+      "after": "he would lie"
+    },
+    {
+      "index": 73,
+      "infinitiv": "liegen",
+      "field": "partizipVergangenheit",
+      "before": "slept",
+      "after": "lain"
+    },
+    {
+      "index": 74,
+      "infinitiv": "lügen",
+      "field": "infinitiv",
+      "before": "melot",
+      "after": "to lie"
+    },
+    {
+      "index": 74,
+      "infinitiv": "lügen",
+      "field": "partizipVergangenheit",
+      "before": "melots",
+      "after": "lied"
+    },
+    {
+      "index": 75,
+      "infinitiv": "mahlen",
+      "field": "infinitiv",
+      "before": "malt",
+      "after": "to grind"
+    },
+    {
+      "index": 75,
+      "infinitiv": "mahlen",
+      "field": "imperfektIndikativ",
+      "before": "he edge",
+      "after": "he ground"
+    },
+    {
+      "index": 75,
+      "infinitiv": "mahlen",
+      "field": "partizipVergangenheit",
+      "before": "malts",
+      "after": "ground"
+    },
+    {
+      "index": 77,
+      "infinitiv": "melken",
+      "field": "infinitiv",
+      "before": "slaukt",
+      "after": "to milk"
+    },
+    {
+      "index": 77,
+      "infinitiv": "melken",
+      "field": "praesens",
+      "before": "he sweeps",
+      "after": "he milks"
+    },
+    {
+      "index": 77,
+      "infinitiv": "melken",
+      "field": "imperfektIndikativ",
+      "before": "he swept",
+      "after": "he milked"
+    },
+    {
+      "index": 77,
+      "infinitiv": "melken",
+      "field": "partizipVergangenheit",
+      "before": "slaukts",
+      "after": "milked"
+    },
+    {
+      "index": 79,
+      "infinitiv": "misslingen",
+      "field": "infinitiv",
+      "before": "neizdoties",
+      "after": "to fail"
+    },
+    {
+      "index": 79,
+      "infinitiv": "misslingen",
+      "field": "praesens",
+      "before": "tas neizdodas",
+      "after": "it fails"
+    },
+    {
+      "index": 79,
+      "infinitiv": "misslingen",
+      "field": "partizipVergangenheit",
+      "before": "neizdevies",
+      "after": "failed"
+    },
+    {
+      "index": 80,
+      "infinitiv": "mögen",
+      "field": "infinitiv",
+      "before": "patikt",
+      "after": "to like"
+    },
+    {
+      "index": 80,
+      "infinitiv": "mögen",
+      "field": "imperfektIndikativ",
+      "before": "patika",
+      "after": "liked"
+    },
+    {
+      "index": 80,
+      "infinitiv": "mögen",
+      "field": "partizipVergangenheit",
+      "before": "paticis",
+      "after": "liked"
+    },
+    {
+      "index": 81,
+      "infinitiv": "müssen",
+      "field": "imperfektIndikativ",
+      "before": "should have",
+      "after": "had to"
+    },
+    {
+      "index": 83,
+      "infinitiv": "nennen",
+      "field": "infinitiv",
+      "before": "nosaukt",
+      "after": "to name"
+    }
+  ],
+  "deSourceIssue": [
+    "verb-60-haben/imperfektKonjunktiv stays bija",
+    "verb-75-mahlen/imperfektKonjunktiv stays he grinds",
+    "verb-80-mögen/imperfektKonjunktiv stays patika",
+    "verb-81-müssen/imperfektKonjunktiv stays should have"
+  ]
+}
