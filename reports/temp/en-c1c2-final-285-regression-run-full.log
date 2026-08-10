@@ -1,0 +1,40 @@
+◇ injected env (1) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Target cards: 285, field changes: 310
+Running Luna audit...
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+  luna simple-1: 35 cards, findings=0, pass=35, tokens=5499
+  done simple-1: 35 cards, findings=0
+  luna simple-2: 35 cards, findings=1, pass=34, tokens=6701
+  done simple-2: 35 cards, findings=1
+  luna simple-3: 35 cards, findings=1, pass=34, tokens=6736
+  done simple-3: 35 cards, findings=1
+  luna simple-4: 35 cards, findings=0, pass=35, tokens=6074
+  done simple-4: 35 cards, findings=0
+  luna simple-5: 35 cards, findings=0, pass=35, tokens=5991
+  done simple-5: 35 cards, findings=0
+  luna simple-6: 35 cards, findings=0, pass=35, tokens=5955
+  done simple-6: 35 cards, findings=0
+  luna simple-7: 35 cards, findings=0, pass=35, tokens=5989
+  done simple-7: 35 cards, findings=0
+  luna simple-8: 24 cards, findings=0, pass=24, tokens=4517
+  done simple-8: 24 cards, findings=0
+  luna study-9: 6 cards, findings=0, pass=9, tokens=2951
+  done study-9: 6 cards, findings=0
+  luna study-10: 6 cards, findings=0, pass=25, tokens=5004
+  done study-10: 6 cards, findings=0
+  luna study-11: 4 cards, findings=1, pass=6, tokens=2231
+  done study-11: 4 cards, findings=1
+{
+  "verdict": "REPAIRS REQUIRED",
+  "CRITICAL": 0,
+  "HIGH": 0,
+  "MEDIUM": 2,
+  "LOW": 0,
+  "FALSE_POSITIVE": 1,
+  "SOURCE_LV_ISSUE": 0,
+  "OWNER_NELABOT_CONFIRMED": 0,
+  "cards": 285,
+  "fields": 310,
+  "blocks": 6,
+  "medium": 2
+}

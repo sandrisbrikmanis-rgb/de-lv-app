@@ -1,0 +1,5521 @@
+{
+  "generatedAt": "2026-08-10T14:44:55.444Z",
+  "baselineRef": "origin/main",
+  "uniqueCards": 285,
+  "fieldEdits": 310,
+  "cards": [
+    {
+      "cardId": "c1-gewährleisten-1",
+      "level": "C1",
+      "de": "gewährleisten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To ensure",
+      "lvMainSource": "nodrošināt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To provide",
+          "currentEn": "To ensure"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Auswirkung-2",
+      "level": "C1",
+      "de": "Auswirkung",
+      "de_article": "die",
+      "de_plural": "die Auswirkungen",
+      "enMain": "Effect",
+      "lvMainSource": "ietekme",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Influence",
+          "currentEn": "Effect"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-umstritten-3",
+      "level": "C1",
+      "de": "umstritten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Controversial",
+      "lvMainSource": "pretrunīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Contradictory",
+          "currentEn": "Controversial"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Belastbarkeit-7",
+      "level": "C1",
+      "de": "Belastbarkeit",
+      "de_article": "die",
+      "de_plural": "die Belastbarkeiten",
+      "enMain": "Resilience under stress • Load-bearing capacity",
+      "lvMainSource": "stresa noturība • izturība pret slodzi",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Stress resistance • Resistance to load",
+          "currentEn": "Resilience under stress • Load-bearing capacity"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Aktionsprogramm-10",
+      "level": "C1",
+      "de": "Aktionsprogramm",
+      "de_article": "das",
+      "de_plural": "die Aktionsprogramme",
+      "enMain": "Action programme",
+      "lvMainSource": "pasākumu programma",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "programme of events",
+          "currentEn": "Action programme"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Alarmbereitschaft-11",
+      "level": "C1",
+      "de": "Alarmbereitschaft",
+      "de_article": "die",
+      "de_plural": "die Alarmbereitschaften",
+      "enMain": "State of alert",
+      "lvMainSource": "trauksmes gatavība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Alert readiness",
+          "currentEn": "State of alert"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Altweibersommer-12",
+      "level": "C1",
+      "de": "Altweibersommer",
+      "de_article": "der",
+      "de_plural": "die Altweibersommer",
+      "enMain": "Indian summer",
+      "lvMainSource": "atvasara",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Spring",
+          "currentEn": "Indian summer"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Kinderschänder-30",
+      "level": "C1",
+      "de": "Kinderschänder",
+      "de_article": "der",
+      "de_plural": "die Kinderschänder",
+      "enMain": "Child molester",
+      "lvMainSource": "pedofils",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Pedophile",
+          "currentEn": "Child molester"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Kindesmisshandlung-31",
+      "level": "C1",
+      "de": "Kindesmisshandlung",
+      "de_article": "die",
+      "de_plural": "die Kindesmisshandlungen",
+      "enMain": "Child abuse",
+      "lvMainSource": "vardarbība pret bērniem",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Violence against children",
+          "currentEn": "Child abuse"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Zivilgesetzbuch-32",
+      "level": "C1",
+      "de": "Zivilgesetzbuch",
+      "de_article": "das",
+      "de_plural": "die Zivilgesetzbücher",
+      "enMain": "Civil code",
+      "lvMainSource": "civillikums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Civil law",
+          "currentEn": "Civil code"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Aktie-33",
+      "level": "C1",
+      "de": "Aktie",
+      "de_article": "die",
+      "de_plural": "die Aktien",
+      "enMain": "Share",
+      "lvMainSource": "akcija",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Action",
+          "currentEn": "Share"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Autokennzeichen-38",
+      "level": "C1",
+      "de": "Autokennzeichen",
+      "de_article": "das",
+      "de_plural": "die Autokennzeichen",
+      "enMain": "Vehicle registration plate",
+      "lvMainSource": "burti un cipari uz automašīnas numura zīmes",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Letters and numbers on the car licence plate",
+          "currentEn": "Vehicle registration plate"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Bäckerhandwerk-39",
+      "level": "C1",
+      "de": "Bäckerhandwerk",
+      "de_article": "das",
+      "de_plural": "die Bäckerhandwerke",
+      "enMain": "Baking trade",
+      "lvMainSource": "maiznieka amats",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Baker's job",
+          "currentEn": "Baking trade"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Bergwanderung-41",
+      "level": "C1",
+      "de": "Bergwanderung",
+      "de_article": "die",
+      "de_plural": "die Bergwanderungen",
+      "enMain": "Mountain hike",
+      "lvMainSource": "kalnu tūrisms",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Mountain tourism",
+          "currentEn": "Mountain hike"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sich beschäftigen-43",
+      "level": "C1",
+      "de": "sich beschäftigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To occupy oneself",
+      "lvMainSource": "nodarboties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To occupy",
+          "currentEn": "To occupy oneself"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Autobahnbrücke-48",
+      "level": "C1",
+      "de": "Autobahnbrücke",
+      "de_article": "die",
+      "de_plural": "die Autobahnbrücken",
+      "enMain": "Motorway bridge",
+      "lvMainSource": "ceļa pārvads",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Road overpass",
+          "currentEn": "Motorway bridge"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-einfamilienhaus",
+      "level": "C1",
+      "de": "Einfamilienhaus",
+      "de_article": "das",
+      "de_plural": "die Einfamilienhäuser",
+      "enMain": "Single family home",
+      "lvMainSource": "vienģimenes māja",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Single family home",
+          "currentEn": "Single-family home"
+        },
+        {
+          "fieldPath": "study.examples[0].lv",
+          "baselineEn": "They live in a single family home.",
+          "currentEn": "They live in a single-family home."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Single-family home",
+        "explanation": "Main idea: das Einfamilienhaus is a house for one family. This usually means a detached house, not an apartment building.",
+        "examples": [
+          {
+            "de": "Sie wohnen in einem Einfamilienhaus.",
+            "en": "They live in a single-family home."
+          },
+          {
+            "de": "Das Einfamilienhaus hat einen Garten.",
+            "en": "The single-family house has a garden."
+          },
+          {
+            "de": "Nebenan steht ein Mehrfamilienhaus.",
+            "en": "There is an apartment building next to it."
+          }
+        ],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "c1-Gepäckträger-70",
+      "level": "C1",
+      "de": "Gepäckträger",
+      "de_article": "der",
+      "de_plural": "die Gepäckträger",
+      "enMain": "Luggage rack",
+      "lvMainSource": "bagāžnieks",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Trunk",
+          "currentEn": "Luggage rack"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-geschäftlich-71",
+      "level": "C1",
+      "de": "geschäftlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Business-related",
+      "lvMainSource": "darījumu",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Transaction",
+          "currentEn": "Business-related"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Geschäftsmann-72",
+      "level": "C1",
+      "de": "Geschäftsmann",
+      "de_article": "der",
+      "de_plural": "die Geschäftsleute",
+      "enMain": "Businessman",
+      "lvMainSource": "uzņēmējs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Entrepreneur",
+          "currentEn": "Businessman"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Gesichtspunkt-77",
+      "level": "C1",
+      "de": "Gesichtspunkt",
+      "de_article": "der",
+      "de_plural": "die Gesichtspunkte",
+      "enMain": "Viewpoint",
+      "lvMainSource": "viedoklis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Opinion",
+          "currentEn": "Viewpoint"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Gewichtheben-78",
+      "level": "C1",
+      "de": "Gewichtheben",
+      "de_article": "das",
+      "de_plural": null,
+      "enMain": "Weightlifting",
+      "lvMainSource": "svarcelšana",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Weight lifting",
+          "currentEn": "Weightlifting"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Tasteninstrument-90",
+      "level": "C1",
+      "de": "Tasteninstrument",
+      "de_article": "das",
+      "de_plural": "die Tasteninstrumente",
+      "enMain": "Keyboard instrument",
+      "lvMainSource": "taustiņinstruments",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Keyboard",
+          "currentEn": "Keyboard instrument"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Kabelanschluss-92",
+      "level": "C1",
+      "de": "Kabelanschluss",
+      "de_article": "der",
+      "de_plural": "die Kabelanschlüsse",
+      "enMain": "Cable connection",
+      "lvMainSource": "televīzijas kabeļpieslēgums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Cable television connection",
+          "currentEn": "Cable connection"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Kostenanschlag-99",
+      "level": "C1",
+      "de": "Kostenanschlag",
+      "de_article": "der",
+      "de_plural": "die Kostenanschläge",
+      "enMain": "Cost estimate",
+      "lvMainSource": "izdevumu tāme",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Expenditure estimate",
+          "currentEn": "Cost estimate"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Krankheitsbild-101",
+      "level": "C1",
+      "de": "Krankheitsbild",
+      "de_article": "das",
+      "de_plural": "die Krankheitsbilder",
+      "enMain": "Clinical picture",
+      "lvMainSource": "slimības aina",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Disease scene",
+          "currentEn": "Clinical picture"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Lastkraftwagen-102",
+      "level": "C1",
+      "de": "Lastkraftwagen",
+      "de_article": "der",
+      "de_plural": "die Lastkraftwagen",
+      "enMain": "Lorry",
+      "lvMainSource": "smagā automašīna",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Heavy car",
+          "currentEn": "Lorry"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Morgengymnastik-112",
+      "level": "C1",
+      "de": "Morgengymnastik",
+      "de_article": "die",
+      "de_plural": "die Morgengymnastiken",
+      "enMain": "Morning exercise",
+      "lvMainSource": "rītarosme",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Dawn",
+          "currentEn": "Morning exercise"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-offentlichkeit",
+      "level": "C1",
+      "de": "Öffentlichkeit",
+      "de_article": "die",
+      "de_plural": "die Öffentlichkeiten",
+      "enMain": "Society • Openness",
+      "lvMainSource": "sabiedrība • atklātība",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Society • Openness",
+          "currentEn": "The public • Public sphere"
+        },
+        {
+          "fieldPath": "study.explanation",
+          "baselineEn": "Main idea: die Öffentlichkeit means society as public space or people as a whole. In the phrase an die Öffentlichkeit kommen, it means to come into the open.",
+          "currentEn": "Main idea: die Öffentlichkeit refers to the public sphere or the public at large. In the phrase an die Öffentlichkeit kommen, it means to become public."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "The public • Public sphere",
+        "explanation": "Main idea: die Öffentlichkeit refers to the public sphere or the public at large. In the phrase an die Öffentlichkeit kommen, it means to become public.",
+        "examples": [
+          {
+            "de": "Die Öffentlichkeit reagierte kritisch.",
+            "en": "The public reacted critically."
+          },
+          {
+            "de": "Der Fall kam an die Öffentlichkeit.",
+            "en": "The case came to light."
+          },
+          {
+            "de": "Die Öffentlichkeit hat ein Recht auf Information.",
+            "en": "The public has a right to information."
+          }
+        ],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "c1-partei",
+      "level": "C1",
+      "de": "Partei",
+      "de_article": "die",
+      "de_plural": "die Parteien",
+      "enMain": "Party • Party",
+      "lvMainSource": "partija • puse",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Party • Party",
+          "currentEn": "Political party • Party"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Political party • Party",
+        "explanation": "Main idea: die Partei is usually a political party. In legal or conflict parlance, it can also mean a party.",
+        "examples": [
+          {
+            "de": "Diese Partei gewann die Wahl.",
+            "en": "This party won the election."
+          },
+          {
+            "de": "Er ist seit Jahren Mitglied einer Partei.",
+            "en": "He has been a party member for years."
+          },
+          {
+            "de": "Beide Parteien müssen den Vertrag unterschreiben.",
+            "en": "Both parties must sign the contract."
+          }
+        ],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "c1-prozess",
+      "level": "C1",
+      "de": "Prozess",
+      "de_article": "der",
+      "de_plural": "die Prozesse",
+      "enMain": "Process • Lawsuit",
+      "lvMainSource": "process • prāva",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Process • Lawsuit",
+          "currentEn": "Process • Trial"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Process • Trial",
+        "explanation": "Main idea: der Prozess is a process or proceeding. In court, der Prozess means trial.",
+        "examples": [
+          {
+            "de": "Der Prozess dauert mehrere Monate.",
+            "en": "The process takes several months."
+          },
+          {
+            "de": "Der Prozess vor Gericht beginnt morgen.",
+            "en": "The trial starts tomorrow."
+          },
+          {
+            "de": "Wir verbessern den ganzen Prozess.",
+            "en": "We improve the whole process."
+          }
+        ],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "c1-Rennen mit Hindernissen-131",
+      "level": "C1",
+      "de": "Rennen mit Hindernissen",
+      "de_article": "das",
+      "de_plural": "die Rennen mit Hindernissen",
+      "enMain": "Obstacle race",
+      "lvMainSource": "šķēršļu skrējiens",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Obstacle course",
+          "currentEn": "Obstacle race"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Rettungsstelle-133",
+      "level": "C1",
+      "de": "Rettungsstelle",
+      "de_article": "die",
+      "de_plural": "die Rettungsstellen",
+      "enMain": "First-aid station",
+      "lvMainSource": "ātrās palīdzības punkts",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "First aid point",
+          "currentEn": "First-aid station"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-rezeptpflichtig-134",
+      "level": "C1",
+      "de": "rezeptpflichtig",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Prescription-only",
+      "lvMainSource": "pēc receptes",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "By prescription",
+          "currentEn": "Prescription-only"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Scheibenwischer-136",
+      "level": "C1",
+      "de": "Scheibenwischer",
+      "de_article": "der",
+      "de_plural": "die Scheibenwischer",
+      "enMain": "Windscreen wiper",
+      "lvMainSource": "automašīnas logu tīrītājs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Car window cleaner",
+          "currentEn": "Windscreen wiper"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Schiedsrichter-137",
+      "level": "C1",
+      "de": "Schiedsrichter",
+      "de_article": "der",
+      "de_plural": "die Schiedsrichter",
+      "enMain": "Referee",
+      "lvMainSource": "tiesnesis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "The judge",
+          "currentEn": "Referee"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Schlussverkauf-138",
+      "level": "C1",
+      "de": "Schlussverkauf",
+      "de_article": "der",
+      "de_plural": "die Schlussverkäufe",
+      "enMain": "End-of-season sale",
+      "lvMainSource": "preču izpārdošana sezonas beigās par pazeminātām cenām",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Sale of goods at the end of the season at reduced prices",
+          "currentEn": "End-of-season sale"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Schutzumschlag-142",
+      "level": "C1",
+      "de": "Schutzumschlag",
+      "de_article": "der",
+      "de_plural": "die Schutzumschläge",
+      "enMain": "Dust jacket",
+      "lvMainSource": "apvāks",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Cover",
+          "currentEn": "Dust jacket"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Schwiegereltern-143",
+      "level": "C1",
+      "de": "Schwiegereltern",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Parents-in-law",
+      "lvMainSource": "vīra vecāki",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Husband's parents",
+          "currentEn": "Parents-in-law"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Stadtrundfahrt-149",
+      "level": "C1",
+      "de": "Stadtrundfahrt",
+      "de_article": "die",
+      "de_plural": "die Stadtrundfahrten",
+      "enMain": "City tour",
+      "lvMainSource": "brauciens pa pilsētu",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "City ​​trip",
+          "currentEn": "City tour"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Stellvertreter-151",
+      "level": "C1",
+      "de": "Stellvertreter",
+      "de_article": "der",
+      "de_plural": "die Stellvertreter",
+      "enMain": "Deputy",
+      "lvMainSource": "aizstājējs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Substitute",
+          "currentEn": "Deputy"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Steuererklärung-152",
+      "level": "C1",
+      "de": "Steuererklärung",
+      "de_article": "die",
+      "de_plural": "die Steuererklärungen",
+      "enMain": "Tax return",
+      "lvMainSource": "nodokļu deklarācija",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Tax declaration",
+          "currentEn": "Tax return"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Strampelhöschen-153",
+      "level": "C1",
+      "de": "Strampelhöschen",
+      "de_article": "das",
+      "de_plural": "die Strampelhöschen",
+      "enMain": "Baby romper",
+      "lvMainSource": "zīdaiņa rāpulītis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Baby crawler",
+          "currentEn": "Baby romper"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Stromverbrauch-154",
+      "level": "C1",
+      "de": "Stromverbrauch",
+      "de_article": "der",
+      "de_plural": "die Stromverbräuche",
+      "enMain": "Electricity consumption",
+      "lvMainSource": "strāvas patēriņš",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Current consumption",
+          "currentEn": "Electricity consumption"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Tagesnachrichten-155",
+      "level": "C1",
+      "de": "Tagesnachrichten",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Daily news",
+      "lvMainSource": "dienas ziņas",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "News of the day",
+          "currentEn": "Daily news"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Terminkalender-157",
+      "level": "C1",
+      "de": "Terminkalender",
+      "de_article": "der",
+      "de_plural": "die Terminkalender",
+      "enMain": "Appointment diary",
+      "lvMainSource": "piezīmju kalendārs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Note calendar",
+          "currentEn": "Appointment diary"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Thermosflasche-158",
+      "level": "C1",
+      "de": "Thermosflasche",
+      "de_article": "die",
+      "de_plural": "die Thermosflaschen",
+      "enMain": "Vacuum flask",
+      "lvMainSource": "termoss",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Thermos",
+          "currentEn": "Vacuum flask"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Unternehmen-162",
+      "level": "C1",
+      "de": "Unternehmen",
+      "de_article": "das",
+      "de_plural": "die Unternehmen",
+      "enMain": "Company • Undertaking",
+      "lvMainSource": "uzņēmums • pasākums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Company • Event",
+          "currentEn": "Company • Undertaking"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Verlegenheit-173",
+      "level": "C1",
+      "de": "Verlegenheit",
+      "de_article": "die",
+      "de_plural": "die Verlegenheiten",
+      "enMain": "Embarrassment",
+      "lvMainSource": "apjukums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Confusion",
+          "currentEn": "Embarrassment"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sich verständigen-178",
+      "level": "C1",
+      "de": "sich verständigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Communicate",
+      "lvMainSource": "saprasties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Get along",
+          "currentEn": "Communicate"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Vorgesetzte-182",
+      "level": "C1",
+      "de": "Vorgesetzte",
+      "de_article": "der",
+      "de_plural": "die Vorgesetzten",
+      "enMain": "Supervisor",
+      "lvMainSource": "priekšnieks",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "The boss",
+          "currentEn": "Supervisor"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sich zufrieden geben-185",
+      "level": "C1",
+      "de": "sich zufrieden geben",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To be content",
+      "lvMainSource": "apmierināties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To satisfy",
+          "currentEn": "To be content"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-zusammenfassen",
+      "level": "C1",
+      "de": "zusammenfassen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Summarise • Summarise",
+      "lvMainSource": "apkopot • rezumēt",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Summarise • Summarise",
+          "currentEn": "Summarise • Sum up"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Summarise • Sum up",
+        "explanation": [
+          "Main idea: zusammenfassen is a verb - to collect or organise information into one concise statement.",
+          "Zusammenfassen is used when several facts, texts or thoughts are made into a short overview.",
+          "Not to be confused with die Zusammenfassung - the one with a capital letter and the article die is a noun denoting the summary itself (result, finished text).",
+          "Zusammenfassen = process/action (summarise, summarise) • Die Zusammenfassung = result (summary as a noun).",
+          "Like many German verbs, zusammenfassen can become a capitalised noun and an article: zusammenfassen → die Zusammenfassen (substantivisation)."
+        ],
+        "examples": [
+          {
+            "de": "Können Sie den Text zusammenfassen?",
+            "en": "Can you summarise this text?"
+          },
+          {
+            "de": "Ich fasse die wichtigsten Punkte zusammen.",
+            "en": "I summarise the most important points."
+          },
+          {
+            "de": "Er hat den Bericht kurz zusammengefasst.",
+            "en": "He briefly summarised the review."
+          },
+          {
+            "de": "Zusammenfassend kann man sagen, dass...",
+            "en": "Summarising, it can be said that..."
+          },
+          {
+            "de": "Ich schreibe eine Zusammenfassung des Buches.",
+            "en": "I am writing a book summary."
+          },
+          {
+            "de": "Die Zusammenfassung ist zu lang.",
+            "en": "The summary is too long."
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "zusammenfassen (verb) = process - to summarise/summarise.",
+          "die Zusammenfassung (noun, capitalised and article die) = result - the summary itself."
+        ],
+        "important": [
+          "zusammenfassen = to summarise/summarise (verb).",
+          "die Zusammenfassung = summary (noun, substantivised from zusammenfassen).",
+          "Incorrect: die zusammenfassen → Correct: die Zusammenfassen (noun always capitalised)."
+        ]
+      }
+    },
+    {
+      "cardId": "c1-wahl",
+      "level": "C1",
+      "de": "Wahl",
+      "de_article": "die",
+      "de_plural": "die Wahlen",
+      "enMain": "Choice • Election",
+      "lvMainSource": "izvēle • vēlēšanas",
+      "changedFields": [
+        {
+          "fieldPath": "study.explanation",
+          "baselineEn": "Die Wahl can mean a choice between options. In the context of politics, Wahl means election. It can also mean voting itself. The phrase eine Wahl treffen means to make a choice. zur Wahl gehen means to go to the polls. The context of a policy or personal decision shows the correct meaning.",
+          "currentEn": "Die Wahl can mean a choice between options. In the context of politics, Wahl means an election. It can also mean voting itself. The phrase eine Wahl treffen means to make a choice. zur Wahl gehen means to go to the polls. The context of politics or a personal decision shows the correct meaning."
+        },
+        {
+          "fieldPath": "study.examples[1].lv",
+          "baselineEn": "I make my choice tomorrow.",
+          "currentEn": "I will make my choice tomorrow."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Choice • Election",
+        "explanation": "Die Wahl can mean a choice between options. In the context of politics, Wahl means an election. It can also mean voting itself. The phrase eine Wahl treffen means to make a choice. zur Wahl gehen means to go to the polls. The context of politics or a personal decision shows the correct meaning.",
+        "examples": [
+          {
+            "de": "Du hast die Wahl.",
+            "en": "You have a choice."
+          },
+          {
+            "de": "Ich treffe meine Wahl morgen.",
+            "en": "I will make my choice tomorrow."
+          },
+          {
+            "de": "Die Wahl findet am Sonntag statt.",
+            "en": "Elections are held on Sunday."
+          },
+          {
+            "de": "Viele Menschen gehen zur Wahl.",
+            "en": "Many people go to the polls."
+          },
+          {
+            "de": "Die freie Wahl ist wichtig.",
+            "en": "Free choice is important."
+          },
+          {
+            "de": "Bei der Wahl stimmen wir ab.",
+            "en": "We vote in elections."
+          }
+        ],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "c1-Abgeordnete-197",
+      "level": "C1",
+      "de": "Abgeordnete",
+      "de_article": "der",
+      "de_plural": "die Abgeordneten",
+      "enMain": "Member of Parliament • Representative • Delegate",
+      "lvMainSource": "deputāts • pārstāvis • delegāts",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Deputy • Representative • Delegate",
+          "currentEn": "Member of Parliament • Representative • Delegate"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Abkommen-198",
+      "level": "C1",
+      "de": "Abkommen",
+      "de_article": "das",
+      "de_plural": "die Abkommen",
+      "enMain": "Agreement • Accord",
+      "lvMainSource": "nolīgums • vienošanās",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Agreement • Agreement",
+          "currentEn": "Agreement • Accord"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Abschleppdienst-199",
+      "level": "C1",
+      "de": "Abschleppdienst",
+      "de_article": "der",
+      "de_plural": "die Abschleppdienste",
+      "enMain": "Towing service • Vehicle recovery service",
+      "lvMainSource": "evakuācijas dienests • aizvākšanas dienests",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Evacuation service • Removal service",
+          "currentEn": "Towing service • Vehicle recovery service"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-beanspruchen-208",
+      "level": "C1",
+      "de": "beanspruchen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Require • Claim • Put under strain",
+      "lvMainSource": "prasīt • pretendēt • būt noslogotam",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Require • Claim • Be burdened",
+          "currentEn": "Require • Claim • Put under strain"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-bedingungslos-210",
+      "level": "C1",
+      "de": "bedingungslos",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Unconditional • Unreserved • Without reservations • Without conditions",
+      "lvMainSource": "bezierunu • beznosacījumu • bez ierunām • bez nosacījumiem",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Unconditional • Unconditional • Without reservations • Without conditions",
+          "currentEn": "Unconditional • Unreserved • Without reservations • Without conditions"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Befangenheit-211",
+      "level": "C1",
+      "de": "Befangenheit",
+      "de_article": "die",
+      "de_plural": "die Befangenheiten",
+      "enMain": "Self-consciousness • Embarrassment",
+      "lvMainSource": "samulsums • apmulsums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Embarrassment • Embarrassment",
+          "currentEn": "Self-consciousness • Embarrassment"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-beiderseitig-214",
+      "level": "C1",
+      "de": "beiderseitig",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Mutual • Bilateral",
+      "lvMainSource": "abpusīgs • abpusējs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Two-sided • Two-sided",
+          "currentEn": "Mutual • Bilateral"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-beispielhaft-216",
+      "level": "C1",
+      "de": "beispielhaft",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Illustrative • Exemplary",
+      "lvMainSource": "parauga • priekšzīmīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Exemplary • Exemplary",
+          "currentEn": "Illustrative • Exemplary"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Belegschaft-219",
+      "level": "C1",
+      "de": "Belegschaft",
+      "de_article": "die",
+      "de_plural": "die Belegschaften",
+      "enMain": "Workforce • Staff",
+      "lvMainSource": "kolektīvs • personāls",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Collective • Staff",
+          "currentEn": "Workforce • Staff"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-benachteiligen-220",
+      "level": "C1",
+      "de": "benachteiligen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Disadvantage • Discriminate against • Treat unfairly",
+      "lvMainSource": "kaitēt • nodarīt zaudējumus • nodarīt pāri",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Harm • Cause damage • Harm",
+          "currentEn": "Disadvantage • Discriminate against • Treat unfairly"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-bereitwillig-224",
+      "level": "C1",
+      "de": "bereitwillig",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Willing • Obliging",
+      "lvMainSource": "gatavs pakalpot • pakalpīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Ready to serve • Obliging",
+          "currentEn": "Willing • Obliging"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Berufsberatung-225",
+      "level": "C1",
+      "de": "Berufsberatung",
+      "de_article": "die",
+      "de_plural": "die Berufsberatungen",
+      "enMain": "Career guidance",
+      "lvMainSource": "profesionālās orientācijas konsultācija",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Professional orientation consultation",
+          "currentEn": "Career guidance"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Berufsgeheimnis-226",
+      "level": "C1",
+      "de": "Berufsgeheimnis",
+      "de_article": "das",
+      "de_plural": "die Berufsgeheimnisse",
+      "enMain": "Professional secrecy",
+      "lvMainSource": "amata noslēpums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Secret of office",
+          "currentEn": "Professional secrecy"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Bescheinigung-231",
+      "level": "C1",
+      "de": "Bescheinigung",
+      "de_article": "die",
+      "de_plural": "die Bescheinigungen",
+      "enMain": "Certificate • Certificate • Attestation • Certification",
+      "lvMainSource": "uzziņa • apliecība • apliecinājums • apliecināšana",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Reference • Certificate • Attestation • Attestation",
+          "currentEn": "Certificate • Certificate • Attestation • Certification"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-beschlagnahmen-232",
+      "level": "C1",
+      "de": "beschlagnahmen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Seize • Confiscate • Sequester",
+      "lvMainSource": "apķīlāt • konfiscēt • atsavināt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Seise • Confiscate • Expropriate",
+          "currentEn": "Seize • Confiscate • Sequester"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-beschuldigen-233",
+      "level": "C1",
+      "de": "beschuldigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Accuse • Blame",
+      "lvMainSource": "apsūdzēt • apvainot",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Accuse • Insult",
+          "currentEn": "Accuse • Blame"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-beträchtlich-235",
+      "level": "C1",
+      "de": "beträchtlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Considerable • Substantial • Significant",
+      "lvMainSource": "ievērojams • krietni liels • krietns",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Considerable • Quite large • Considerable",
+          "currentEn": "Considerable • Substantial • Significant"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Betriebskosten-236",
+      "level": "C1",
+      "de": "Betriebskosten",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Operating costs • Production costs",
+      "lvMainSource": "uzņēmuma ekspluatācijas izdevumi • ražošanas izdevumi",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Operating expenses of the company • Production expenses",
+          "currentEn": "Operating costs • Production costs"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Betriebssystem-237",
+      "level": "C1",
+      "de": "Betriebssystem",
+      "de_article": "das",
+      "de_plural": "die Betriebssysteme",
+      "enMain": "Operating system",
+      "lvMainSource": "datora instalācijas sistēma",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Computer installation system",
+          "currentEn": "Operating system"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-bevorstehend-239",
+      "level": "C1",
+      "de": "bevorstehend",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Upcoming • Forthcoming",
+      "lvMainSource": "gaidāmais • nākamais",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Upcoming • Next",
+          "currentEn": "Upcoming • Forthcoming"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-bewähren, sich-240",
+      "level": "C1",
+      "de": "bewähren, sich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Prove oneself • Stand the test",
+      "lvMainSource": "izrādīties par patiesu • attaisnoties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Turn out to be true • Justify",
+          "currentEn": "Prove oneself • Stand the test"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Bezugsperson-243",
+      "level": "C1",
+      "de": "Bezugsperson",
+      "de_article": "die",
+      "de_plural": "die Bezugspersonen",
+      "enMain": "Key person • Close person",
+      "lvMainSource": "kontaktpersona • tuvākais cilvēks",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Contact • Closest person",
+          "currentEn": "Key person • Close person"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Bilanz-245",
+      "level": "C1",
+      "de": "Bilanz",
+      "de_article": "die",
+      "de_plural": "die Bilanzen",
+      "enMain": "Balance sheet",
+      "lvMainSource": "bilance",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Balance",
+          "currentEn": "Balance sheet"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Blutuntersuchung-247",
+      "level": "C1",
+      "de": "Blutuntersuchung",
+      "de_article": "die",
+      "de_plural": "die Blutuntersuchungen",
+      "enMain": "Blood test",
+      "lvMainSource": "asinsanalīze",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Blood analysis",
+          "currentEn": "Blood test"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Bundesdeutsche-250",
+      "level": "C1",
+      "de": "Bundesdeutsche",
+      "de_article": "der",
+      "de_plural": "die Bundesdeutschen",
+      "enMain": "Citizen of the Federal Republic of Germany",
+      "lvMainSource": "VFR pilsonis vai pilsone",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "FFR citizen",
+          "currentEn": "Citizen of the Federal Republic of Germany"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-dauerhaft-255",
+      "level": "C1",
+      "de": "dauerhaft",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Lasting • Long-lasting • Durable",
+      "lvMainSource": "ilgstošs • ilgs • izturīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Lasting • Long • Durable",
+          "currentEn": "Lasting • Long-lasting • Durable"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-dazwischenkommen-256",
+      "level": "C1",
+      "de": "dazwischenkommen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To crop up • To come between • To intervene",
+      "lvMainSource": "atgadīties • gadīties starpā • iejaukties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To happen • To happen between • To intervene",
+          "currentEn": "To crop up • To come between • To intervene"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Eigentumsdelikt-260",
+      "level": "C1",
+      "de": "Eigentumsdelikt",
+      "de_article": "das",
+      "de_plural": "die Eigentumsdelikte",
+      "enMain": "Property offence",
+      "lvMainSource": "īpašuma tiesību pārkāpums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Violation of property rights",
+          "currentEn": "Property offence"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Verkehrsdelikt-261",
+      "level": "C1",
+      "de": "Verkehrsdelikt",
+      "de_article": "das",
+      "de_plural": "die Verkehrsdelikte",
+      "enMain": "Traffic offence",
+      "lvMainSource": "satiksmes noteikumu pārkāpums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Violation of traffic rules",
+          "currentEn": "Traffic offence"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-dessen ungeachtet-263",
+      "level": "C1",
+      "de": "dessen ungeachtet",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Notwithstanding that • In spite of that",
+      "lvMainSource": "neskatoties uz to • neievērojot to",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "In spite of it • In spite of it",
+          "currentEn": "Notwithstanding that • In spite of that"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Nachrichtendienst-264",
+      "level": "C1",
+      "de": "Nachrichtendienst",
+      "de_article": "der",
+      "de_plural": "die Nachrichtendienste",
+      "enMain": "State intelligence service",
+      "lvMainSource": "valsts slepenais dienests",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "State secret service",
+          "currentEn": "State intelligence service"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Dienstleistung-266",
+      "level": "C1",
+      "de": "Dienstleistung",
+      "de_article": "die",
+      "de_plural": "die Dienstleistungen",
+      "enMain": "Service",
+      "lvMainSource": "sadzīves pakalpojums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Domestic service",
+          "currentEn": "Service"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-dienstpflichtig-267",
+      "level": "C1",
+      "de": "dienstpflichtig",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Liable for military service",
+      "lvMainSource": "padots karadienestam",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Submitted to military service",
+          "currentEn": "Liable for military service"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Durchfuhrverbot-275",
+      "level": "C1",
+      "de": "Durchfuhrverbot",
+      "de_article": "das",
+      "de_plural": "die Durchfuhrverbote",
+      "enMain": "Transit ban",
+      "lvMainSource": "caurbraukšanas aizliegums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Prohibition of passage",
+          "currentEn": "Transit ban"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Durchgangsverkehr-276",
+      "level": "C1",
+      "de": "Durchgangsverkehr",
+      "de_article": "der",
+      "de_plural": null,
+      "enMain": "Through traffic",
+      "lvMainSource": "tranzītsatiksme",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Transit traffic",
+          "currentEn": "Through traffic"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Währungseinheit-280",
+      "level": "C1",
+      "de": "Währungseinheit",
+      "de_article": "die",
+      "de_plural": "die Währungseinheiten",
+      "enMain": "Unit of currency",
+      "lvMainSource": "naudas mērvienība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Unit of money",
+          "currentEn": "Unit of currency"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-einreden-283",
+      "level": "C1",
+      "de": "einreden",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Persuade • Make someone believe • Try to convince",
+      "lvMainSource": "iestāstīt • iegalvot • mēģināt pārliecināt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Tell • Insist • Try to convince",
+          "currentEn": "Persuade • Make someone believe • Try to convince"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sich einschmeicheln-284",
+      "level": "C1",
+      "de": "sich einschmeicheln",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To ingratiate oneself • To curry favour",
+      "lvMainSource": "pieglai­moties • pielabināties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To flatter • To flatter",
+          "currentEn": "To ingratiate oneself • To curry favour"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Einspruchsrecht-286",
+      "level": "C1",
+      "de": "Einspruchsrecht",
+      "de_article": "das",
+      "de_plural": "die Einspruchsrechte",
+      "enMain": "Right of objection • Right of veto",
+      "lvMainSource": "protesta tiesības • veto tiesības",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Right of protest • Right of veto",
+          "currentEn": "Right of objection • Right of veto"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Elementarregel-293",
+      "level": "C1",
+      "de": "Elementarregel",
+      "de_article": "die",
+      "de_plural": "die Elementarregeln",
+      "enMain": "Basic rule",
+      "lvMainSource": "pamatlikums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Basic law",
+          "currentEn": "Basic rule"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-entgegensetzen-296",
+      "level": "C1",
+      "de": "entgegensetzen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To set against • To oppose",
+      "lvMainSource": "nostādīt pretī • likt pretī",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Set against • Set against",
+          "currentEn": "To set against • To oppose"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-entschädigen-298",
+      "level": "C1",
+      "de": "entschädigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To compensate • To indemnify",
+      "lvMainSource": "atlīdzināt • kompensēt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Compensate • Compensate",
+          "currentEn": "To compensate • To indemnify"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sich entschließen-299",
+      "level": "C1",
+      "de": "sich entschließen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To decide • To resolve",
+      "lvMainSource": "izlemt • izšķirties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To decide • To decide",
+          "currentEn": "To decide • To resolve"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-entschlossen-300",
+      "level": "C1",
+      "de": "entschlossen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Determined • Decisive • Unwavering",
+      "lvMainSource": "noteikts • apņēmīgs • nešaubīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Determined • Determined • Unwavering",
+          "currentEn": "Determined • Decisive • Unwavering"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Entziehungskur-303",
+      "level": "C1",
+      "de": "Entziehungskur",
+      "de_article": "die",
+      "de_plural": "die Entziehungskuren",
+      "enMain": "Addiction treatment",
+      "lvMainSource": "ārstniecības kurss alkoholiķiem vai narkomāniem",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Treatment course for alcoholics or drug addicts",
+          "currentEn": "Addiction treatment"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Erbkrankheit-304",
+      "level": "C1",
+      "de": "Erbkrankheit",
+      "de_article": "die",
+      "de_plural": "die Erbkrankheiten",
+      "enMain": "Hereditary disease",
+      "lvMainSource": "iedzimta slimība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Congenital disease",
+          "currentEn": "Hereditary disease"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-festgesetzt-309",
+      "level": "C1",
+      "de": "festgesetzt",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Fixed • Determined • Laid down",
+      "lvMainSource": "noteikts • nosacīts • nolikts",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Determined • Conditional • Laid down",
+          "currentEn": "Fixed • Determined • Laid down"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-feuergefährlich-310",
+      "level": "C1",
+      "de": "feuergefährlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Flammable",
+      "lvMainSource": "ugunsnedrošs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Fireproof",
+          "currentEn": "Flammable"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Feuerwerkskörper-312",
+      "level": "C1",
+      "de": "Feuerwerkskörper",
+      "de_article": "der",
+      "de_plural": "die Feuerwerkskörper",
+      "enMain": "Firework",
+      "lvMainSource": "raķete uguņošanai",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Rocket for fireworks",
+          "currentEn": "Firework"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-fortgeschritten-316",
+      "level": "C1",
+      "de": "fortgeschritten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "At an advanced stage",
+      "lvMainSource": "samērā vēlā attīstības stadijā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Relatively late in development",
+          "currentEn": "At an advanced stage"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Freilichtmuseum-318",
+      "level": "C1",
+      "de": "Freilichtmuseum",
+      "de_article": "das",
+      "de_plural": "die Freilichtmuseen",
+      "enMain": "Open-air museum",
+      "lvMainSource": "brīvdabas muzejs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Open air museum",
+          "currentEn": "Open-air museum"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-soziale Fürsorge-323",
+      "level": "C1",
+      "de": "soziale Fürsorge",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Social welfare",
+      "lvMainSource": "sociālā apgāde",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Social security",
+          "currentEn": "Social welfare"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Auffassungsgabe-324",
+      "level": "C1",
+      "de": "Auffassungsgabe",
+      "de_article": "die",
+      "de_plural": "die Auffassungsgaben",
+      "enMain": "Power of comprehension",
+      "lvMainSource": "uztveres spēja",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Perceptive ability",
+          "currentEn": "Power of comprehension"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Beichtgeheimnis-332",
+      "level": "C1",
+      "de": "Beichtgeheimnis",
+      "de_article": "das",
+      "de_plural": "die Beichtgeheimnisse",
+      "enMain": "Confidentiality of confession",
+      "lvMainSource": "bikts noslēpums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "A confessed secret",
+          "currentEn": "Confidentiality of confession"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Geisterstunde-334",
+      "level": "C1",
+      "de": "Geisterstunde",
+      "de_article": "die",
+      "de_plural": "die Geisterstunden",
+      "enMain": "Witching hour",
+      "lvMainSource": "spoku stunda",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Ghost hour",
+          "currentEn": "Witching hour"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-geistesabwesend-335",
+      "level": "C1",
+      "de": "geistesabwesend",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Absent-minded",
+      "lvMainSource": "izklaidīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Distracted",
+          "currentEn": "Absent-minded"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-geistesschwach-337",
+      "level": "C1",
+      "de": "geistesschwach",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Feeble-minded • Mentally deficient",
+      "lvMainSource": "garā vājš • plānprātīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Weak in spirit • Willful",
+          "currentEn": "Feeble-minded • Mentally deficient"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Geländefahrt-338",
+      "level": "C1",
+      "de": "Geländefahrt",
+      "de_article": "die",
+      "de_plural": "die Geländefahrten",
+      "enMain": "Off-road drive",
+      "lvMainSource": "apvidus brauciens",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Cross-country trip",
+          "currentEn": "Off-road drive"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-gelegentlich",
+      "level": "C1",
+      "de": "gelegentlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Sometimes • Occasion • Due to",
+      "lvMainSource": "reizēm • gadījuma • sakarā ar",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Sometimes • Occasion • Due to",
+          "currentEn": "Sometimes • Occasional • On the occasion of"
+        },
+        {
+          "fieldPath": "study.explanation",
+          "baselineEn": "Main idea: gelegentlich is a word with three functions. Adjective: casual (ein gelegentlicher Besuch). Adverb: sometimes, from time to time (Er kommt gelegentlich). Preposition + dative: due to (gelegentlich des Festes).",
+          "currentEn": "Main idea: gelegentlich has three functions. Adjective: occasional (ein gelegentlicher Besuch). Adverb: sometimes, from time to time (Er kommt gelegentlich). Preposition + genitive: on the occasion of (gelegentlich des Festes)."
+        },
+        {
+          "fieldPath": "study.comparison[1].meaning",
+          "baselineEn": "Casual • Accidental",
+          "currentEn": "Occasional • Incidental"
+        },
+        {
+          "fieldPath": "study.comparison[2].meaning",
+          "baselineEn": "Due to",
+          "currentEn": "On the occasion of"
+        },
+        {
+          "fieldPath": "study.important.text",
+          "baselineEn": "Adj.: casual. Adv.: sometimes. Prep. + Gen.: due to. Context determines meaning.",
+          "currentEn": "Adj.: occasional. Adv.: sometimes. Prep. + Gen.: on the occasion of. Context determines meaning."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Sometimes • Occasional • On the occasion of",
+        "explanation": "Main idea: gelegentlich has three functions. Adjective: occasional (ein gelegentlicher Besuch). Adverb: sometimes, from time to time (Er kommt gelegentlich). Preposition + genitive: on the occasion of (gelegentlich des Festes).",
+        "examples": [
+          {
+            "de": "Er kommt gelegentlich vorbei.",
+            "en": "He stops by sometimes."
+          },
+          {
+            "de": "Ein gelegentlicher Besuch reicht.",
+            "en": "An occasional visit is enough."
+          },
+          {
+            "de": "Gelegentlich des Festes gab es eine Rede.",
+            "en": "A speech was given on the occasion of the holiday."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "gelegentlich (Adv.)",
+            "meaning": "Sometimes • Every now and then",
+            "example": "Er kommt gelegentlich. = He comes sometimes."
+          },
+          {
+            "word": "gelegentlich (Adj.)",
+            "meaning": "Occasional • Incidental",
+            "example": "ein gelegentlicher Besuch = Casual visit"
+          },
+          {
+            "word": "gelegentlich (+ Gen.)",
+            "meaning": "On the occasion of",
+            "example": "gelegentlich des Festes = Due to holidays"
+          },
+          {
+            "word": "manchmal",
+            "meaning": "Sometimes",
+            "example": "Manchmal regnet es. = Sometimes it rains."
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": "Position in a sentence helps: before noun = adjective; after verb = adverb; + genitive = preposition."
+            }
+          ]
+        },
+        "important": {
+          "text": "Adj.: occasional. Adv.: sometimes. Prep. + Gen.: on the occasion of. Context determines meaning."
+        }
+      }
+    },
+    {
+      "cardId": "c1-Gemäldegalerie-341",
+      "level": "C1",
+      "de": "Gemäldegalerie",
+      "de_article": "die",
+      "de_plural": "die Gemäldegalerien",
+      "enMain": "Picture gallery",
+      "lvMainSource": "gleznu galerija",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Painting gallery",
+          "currentEn": "Picture gallery"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Gemütsmensch-344",
+      "level": "C1",
+      "de": "Gemütsmensch",
+      "de_article": "der",
+      "de_plural": "die Gemütsmenschen",
+      "enMain": "Kind-hearted person",
+      "lvMainSource": "laipns un labsirdīgs cilvēks",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Kind and kind person",
+          "currentEn": "Kind-hearted person"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-genmanipuliert-348",
+      "level": "C1",
+      "de": "genmanipuliert",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Genetically modified",
+      "lvMainSource": "ar pārveidotiem gēniem",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "With modified genes",
+          "currentEn": "Genetically modified"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Gepflogenheit-350",
+      "level": "C1",
+      "de": "Gepflogenheit",
+      "de_article": "die",
+      "de_plural": "die Gepflogenheiten",
+      "enMain": "Custom • Practice",
+      "lvMainSource": "paradums • paraža",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Custom • Custom",
+          "currentEn": "Custom • Practice"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Schwurgericht-352",
+      "level": "C1",
+      "de": "Schwurgericht",
+      "de_article": "das",
+      "de_plural": "die Schwurgerichte",
+      "enMain": "Jury court",
+      "lvMainSource": "zvērināto tiesa",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Jury trial",
+          "currentEn": "Jury court"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Gerichtshof-353",
+      "level": "C1",
+      "de": "Gerichtshof",
+      "de_article": "der",
+      "de_plural": "die Gerichtshöfe",
+      "enMain": "Court • Tribunal",
+      "lvMainSource": "tiesu palāta • tribunāls",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Courtroom • Tribunal",
+          "currentEn": "Court • Tribunal"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-geringschätzig-354",
+      "level": "C1",
+      "de": "geringschätzig",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Scornful • Disdainful • Contemptuous",
+      "lvMainSource": "nicīgs • nievājošs • nicinošs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Scornful • Contemptuous • Contemptuous",
+          "currentEn": "Scornful • Disdainful • Contemptuous"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Gesamtergebnis-356",
+      "level": "C1",
+      "de": "Gesamtergebnis",
+      "de_article": "das",
+      "de_plural": "die Gesamtergebnisse",
+      "enMain": "Overall result • Final result",
+      "lvMainSource": "gala iznākums • gala rezultāts",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "End result • End result",
+          "currentEn": "Overall result • Final result"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Gesandtschaft-357",
+      "level": "C1",
+      "de": "Gesandtschaft",
+      "de_article": "die",
+      "de_plural": "die Gesandtschaften",
+      "enMain": "Legation",
+      "lvMainSource": "sūtniecība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Embassy",
+          "currentEn": "Legation"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Geschäftshaus-358",
+      "level": "C1",
+      "de": "Geschäftshaus",
+      "de_article": "das",
+      "de_plural": "die Geschäftshäuser",
+      "enMain": "Commercial building",
+      "lvMainSource": "tirdzniecības nams",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Trading house",
+          "currentEn": "Commercial building"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Geschäftsjahr-359",
+      "level": "C1",
+      "de": "Geschäftsjahr",
+      "de_article": "das",
+      "de_plural": "die Geschäftsjahre",
+      "enMain": "Financial year",
+      "lvMainSource": "saimniecības gads",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Farm year",
+          "currentEn": "Financial year"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-gesetzgebend-362",
+      "level": "C1",
+      "de": "gesetzgebend",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Legislative",
+      "lvMainSource": "likumdevējs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Legislator",
+          "currentEn": "Legislative"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-gesetzlos-363",
+      "level": "C1",
+      "de": "gesetzlos",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Lawless",
+      "lvMainSource": "nelikumīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Illegal",
+          "currentEn": "Lawless"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-gesetzmäßig-364",
+      "level": "C1",
+      "de": "gesetzmäßig",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Lawful • Governed by regular laws",
+      "lvMainSource": "likumīgs • likumsakarīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Lawful • Lawful",
+          "currentEn": "Lawful • Governed by regular laws"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Haft-376",
+      "level": "C1",
+      "de": "Haft",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Detention • Imprisonment",
+      "lvMainSource": "apcietinājums • arests",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Detention • Arrest",
+          "currentEn": "Detention • Imprisonment"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Haftung-379",
+      "level": "C1",
+      "de": "Haftung",
+      "de_article": "die",
+      "de_plural": "die Haftungen",
+      "enMain": "Liability",
+      "lvMainSource": "atbildība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Responsibility",
+          "currentEn": "Liability"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Haltbarkeitsdauer-380",
+      "level": "C1",
+      "de": "Haltbarkeitsdauer",
+      "de_article": "die",
+      "de_plural": "die Haltbarkeitsdauern",
+      "enMain": "Shelf life",
+      "lvMainSource": "uzglabāšanas laiks",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Storage time",
+          "currentEn": "Shelf life"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Handelsvertretung-382",
+      "level": "C1",
+      "de": "Handelsvertretung",
+      "de_article": "die",
+      "de_plural": "die Handelsvertretungen",
+      "enMain": "Commercial representation",
+      "lvMainSource": "tirdzniecības pārstāvniecība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Trade representation",
+          "currentEn": "Commercial representation"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Haushaltshilfe-386",
+      "level": "C1",
+      "de": "Haushaltshilfe",
+      "de_article": "die",
+      "de_plural": "die Haushaltshilfen",
+      "enMain": "Domestic help",
+      "lvMainSource": "algota palīdze mājsaimniecībā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Paid help in the household",
+          "currentEn": "Domestic help"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-herunterstürzen-391",
+      "level": "C1",
+      "de": "herunterstürzen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Plunge down • Crash to the ground",
+      "lvMainSource": "krist zemē • gāzties zemē",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Fall to the ground • Fall to the ground",
+          "currentEn": "Plunge down • Crash to the ground"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sich hinreißen lassen-392",
+      "level": "C1",
+      "de": "sich hinreißen lassen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Be carried away",
+      "lvMainSource": "aizrauties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Get excited",
+          "currentEn": "Be carried away"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-inhaftieren-396",
+      "level": "C1",
+      "de": "inhaftieren",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To imprison",
+      "lvMainSource": "apcietināt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To arrest",
+          "currentEn": "To imprison"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Justiz-401",
+      "level": "C1",
+      "de": "Justiz",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Justice • Judiciary",
+      "lvMainSource": "justīcija • tieslietas",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Justice • Legal cases",
+          "currentEn": "Justice • Judiciary"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Krankheitserreger-407",
+      "level": "C1",
+      "de": "Krankheitserreger",
+      "de_article": "der",
+      "de_plural": "die Krankheitserreger",
+      "enMain": "Pathogen",
+      "lvMainSource": "slimības ierosinātājs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Disease agent",
+          "currentEn": "Pathogen"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Kriegsbeschädigte-408",
+      "level": "C1",
+      "de": "Kriegsbeschädigte",
+      "de_article": "der",
+      "de_plural": "die Kriegsbeschädigten",
+      "enMain": "A person disabled by war",
+      "lvMainSource": "kara invalīds",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "A war invalid",
+          "currentEn": "A person disabled by war"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-lebensgefährlich-413",
+      "level": "C1",
+      "de": "lebensgefährlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Life-threatening • Dangerous",
+      "lvMainSource": "dzīvību apdraudošs • bīstams",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Life threatening • Dangerous",
+          "currentEn": "Life-threatening • Dangerous"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Lebensgefährte-414",
+      "level": "C1",
+      "de": "Lebensgefährte",
+      "de_article": "der",
+      "de_plural": "die Lebensgefährten",
+      "enMain": "Unmarried partner",
+      "lvMainSource": "dzīvesbiedrs nereģistrētā laulībā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Spouse in an unregistered marriage",
+          "currentEn": "Unmarried partner"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Leistungssport-416",
+      "level": "C1",
+      "de": "Leistungssport",
+      "de_article": "der",
+      "de_plural": null,
+      "enMain": "High-performance sport",
+      "lvMainSource": "profesionālais sports",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Professional sports",
+          "currentEn": "High-performance sport"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Liebesbeziehung-418",
+      "level": "C1",
+      "de": "Liebesbeziehung",
+      "de_article": "die",
+      "de_plural": "die Liebesbeziehungen",
+      "enMain": "Romantic relationship",
+      "lvMainSource": "intīmas attiecības",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Intimate relationships",
+          "currentEn": "Romantic relationship"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Liebeserklärung-419",
+      "level": "C1",
+      "de": "Liebeserklärung",
+      "de_article": "die",
+      "de_plural": "die Liebeserklärungen",
+      "enMain": "Declaration of love",
+      "lvMainSource": "mīlestības atklāšana",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "The discovery of love",
+          "currentEn": "Declaration of love"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Machtübernahme-422",
+      "level": "C1",
+      "de": "Machtübernahme",
+      "de_article": "die",
+      "de_plural": "die Machtübernahmen",
+      "enMain": "Takeover of power",
+      "lvMainSource": "varas pārņemšana",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Seizure of power",
+          "currentEn": "Takeover of power"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Meineid-427",
+      "level": "C1",
+      "de": "Meineid",
+      "de_article": "der",
+      "de_plural": "die Meineide",
+      "enMain": "Perjury",
+      "lvMainSource": "apzināti nepatiesa liecība tiesā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Knowingly perjury in court",
+          "currentEn": "Perjury"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Nachschlagewerk-430",
+      "level": "C1",
+      "de": "Nachschlagewerk",
+      "de_article": "das",
+      "de_plural": "die Nachschlagewerke",
+      "enMain": "Reference work • Dictionary • Encyclopaedia",
+      "lvMainSource": "uzziņu literatūra • vārdnīca • enciklopēdija",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Reference literature • Dictionary • Encyclopedia",
+          "currentEn": "Reference work • Dictionary • Encyclopaedia"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-niedergeschlagen-433",
+      "level": "C1",
+      "de": "niedergeschlagen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Dejected • Depressed",
+      "lvMainSource": "nomākts • depresīvs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Depressed • Depressed",
+          "currentEn": "Dejected • Depressed"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Originalfassung-438",
+      "level": "C1",
+      "de": "Originalfassung",
+      "de_article": "die",
+      "de_plural": "die Originalfassungen",
+      "enMain": "Original version",
+      "lvMainSource": "oriģinālvariants",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Original variant",
+          "currentEn": "Original version"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Parteifunktionär-440",
+      "level": "C1",
+      "de": "Parteifunktionär",
+      "de_article": "der",
+      "de_plural": "die Parteifunktionäre",
+      "enMain": "Party official",
+      "lvMainSource": "partijas darbinieks",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Party worker",
+          "currentEn": "Party official"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Pflichtlektüre-441",
+      "level": "C1",
+      "de": "Pflichtlektüre",
+      "de_article": "die",
+      "de_plural": "die Pflichtlektüren",
+      "enMain": "Compulsory reading",
+      "lvMainSource": "obligātā mācību literatūra",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Compulsory study literature",
+          "currentEn": "Compulsory reading"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Rangierbahnhof-448",
+      "level": "C1",
+      "de": "Rangierbahnhof",
+      "de_article": "der",
+      "de_plural": "die Rangierbahnhöfe",
+      "enMain": "Marshalling yard",
+      "lvMainSource": "šķirotava dzelzceļa",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Railway yard",
+          "currentEn": "Marshalling yard"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Raumausstatter-450",
+      "level": "C1",
+      "de": "Raumausstatter",
+      "de_article": "der",
+      "de_plural": "die Raumausstatter",
+      "enMain": "An interior decorator",
+      "lvMainSource": "interjerists",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "An interior designer",
+          "currentEn": "An interior decorator"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Regierungspartei-455",
+      "level": "C1",
+      "de": "Regierungspartei",
+      "de_article": "die",
+      "de_plural": "die Regierungsparteien",
+      "enMain": "Governing party",
+      "lvMainSource": "valdības partija",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Government party",
+          "currentEn": "Governing party"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Rentenanspruch-457",
+      "level": "C1",
+      "de": "Rentenanspruch",
+      "de_article": "der",
+      "de_plural": "die Rentenansprüche",
+      "enMain": "Entitlement to a pension",
+      "lvMainSource": "tiesības uz pensiju",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Right to pension",
+          "currentEn": "Entitlement to a pension"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-republikanisch-459",
+      "level": "C1",
+      "de": "republikanisch",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Republican • Relating to a republic",
+      "lvMainSource": "republikānisks • republikas",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Republican • Republics",
+          "currentEn": "Republican • Relating to a republic"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sanktionieren-461",
+      "level": "C1",
+      "de": "sanktionieren",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Approve • Sanction",
+      "lvMainSource": "atbalstīt • sankcionēt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Support • Sanction",
+          "currentEn": "Approve • Sanction"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-schmerzstillend-465",
+      "level": "C1",
+      "de": "schmerzstillend",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Pain-relieving",
+      "lvMainSource": "sāpes remdējošs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Pain reliever",
+          "currentEn": "Pain-relieving"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Segelflugsport-468",
+      "level": "C1",
+      "de": "Segelflugsport",
+      "de_article": "der",
+      "de_plural": null,
+      "enMain": "Gliding",
+      "lvMainSource": "planierisms",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Gliderism",
+          "currentEn": "Gliding"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Selbstverwaltung-469",
+      "level": "C1",
+      "de": "Selbstverwaltung",
+      "de_article": "die",
+      "de_plural": "die Selbstverwaltungen",
+      "enMain": "Self-government",
+      "lvMainSource": "pašvaldība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Municipality",
+          "currentEn": "Self-government"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Sensationsmeldung-471",
+      "level": "C1",
+      "de": "Sensationsmeldung",
+      "de_article": "die",
+      "de_plural": "die Sensationsmeldungen",
+      "enMain": "Sensational report",
+      "lvMainSource": "sensacionāls paziņojums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Sensational statement",
+          "currentEn": "Sensational report"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sesshaft-472",
+      "level": "C1",
+      "de": "sesshaft",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Living in one place • Settled",
+      "lvMainSource": "vienā vietā dzīvojošs • nometnieku",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Living in one place • Camper",
+          "currentEn": "Living in one place • Settled"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Sinnestäuschung-474",
+      "level": "C1",
+      "de": "Sinnestäuschung",
+      "de_article": "die",
+      "de_plural": "die Sinnestäuschungen",
+      "enMain": "Illusion",
+      "lvMainSource": "halucinācija",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Hallucination",
+          "currentEn": "Illusion"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-synchronisieren-486",
+      "level": "C1",
+      "de": "synchronisieren",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Synchronise • Dub",
+      "lvMainSource": "dublēt filmu",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Dub the movie",
+          "currentEn": "Synchronise • Dub"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Tageseinnahmen-487",
+      "level": "C1",
+      "de": "Tageseinnahmen",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Daily takings",
+      "lvMainSource": "dienas ieņēmumi",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Daily earnings",
+          "currentEn": "Daily takings"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-überanstrengen-489",
+      "level": "C1",
+      "de": "überanstrengen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To overexert • To overexert oneself",
+      "lvMainSource": "pārpūlēt • sich ü. pārpūlēties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To overwork • Sich ü. to overwork",
+          "currentEn": "To overexert • To overexert oneself"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Überbleibsel-491",
+      "level": "C1",
+      "de": "Überbleibsel",
+      "de_article": "das",
+      "de_plural": "die Überbleibsel",
+      "enMain": "Leftover • Remains",
+      "lvMainSource": "pārpalikums • paliekas",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Surplus • Remains",
+          "currentEn": "Leftover • Remains"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-übereinstimmen-492",
+      "level": "C1",
+      "de": "übereinstimmen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Correspond • Agree with someone",
+      "lvMainSource": "saskanēt • būt ar kādu vienisprātis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Agree • Agree with someone",
+          "currentEn": "Correspond • Agree with someone"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Überschuss-493",
+      "level": "C1",
+      "de": "Überschuss",
+      "de_article": "der",
+      "de_plural": "die Überschüsse",
+      "enMain": "Remainder • Surplus • Excess",
+      "lvMainSource": "atlikums • pārpalikums • uzvija",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Remainder • Surplus • Winding up",
+          "currentEn": "Remainder • Surplus • Excess"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Unannehmlichkeit-495",
+      "level": "C1",
+      "de": "Unannehmlichkeit",
+      "de_article": "die",
+      "de_plural": "die Unannehmlichkeiten",
+      "enMain": "Inconvenience • Unpleasant incident",
+      "lvMainSource": "nepatikšanas • nepatīkams gadījums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Trouble • An unpleasant occasion",
+          "currentEn": "Inconvenience • Unpleasant incident"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-verabschieden-500",
+      "level": "C1",
+      "de": "verabschieden",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Dismiss • Retire",
+      "lvMainSource": "atbrīvot no darba • aizlaist pensijā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Release from work • Retire",
+          "currentEn": "Dismiss • Retire"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-verdrießlich-503",
+      "level": "C1",
+      "de": "verdrießlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Unpleasant • Irritable • Cross",
+      "lvMainSource": "nepatīkams • īgns • sapīcis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Unpleasant • Annoyed • Annoyed",
+          "currentEn": "Unpleasant • Irritable • Cross"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Verfallsdatum-504",
+      "level": "C1",
+      "de": "Verfallsdatum",
+      "de_article": "das",
+      "de_plural": "die Verfallsdaten",
+      "enMain": "Expiry date",
+      "lvMainSource": "lietošanas termiņa beigas",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Expiration date",
+          "currentEn": "Expiry date"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-vergewaltigen-506",
+      "level": "C1",
+      "de": "vergewaltigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To rape",
+      "lvMainSource": "izvarot",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Raping",
+          "currentEn": "To rape"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Vergünstigung-508",
+      "level": "C1",
+      "de": "Vergünstigung",
+      "de_article": "die",
+      "de_plural": "die Vergünstigungen",
+      "enMain": "Benefit • Privilege • Concession",
+      "lvMainSource": "priekšrocība • privilēģija • atvieglojums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Advantage • Privilege • Relief",
+          "currentEn": "Benefit • Privilege • Concession"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Verhandlungen-511",
+      "level": "C1",
+      "de": "Verhandlungen",
+      "de_article": "die",
+      "de_plural": "die Verhandlungen",
+      "enMain": "Negotiations",
+      "lvMainSource": "sarunas",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Conversations",
+          "currentEn": "Negotiations"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-vernachlässigen-518",
+      "level": "C1",
+      "de": "vernachlässigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To neglect • To treat carelessly",
+      "lvMainSource": "atstāt novārtā • nevērīgi izturēties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To neglect • To be careless",
+          "currentEn": "To neglect • To treat carelessly"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sich verschließen-521",
+      "level": "C1",
+      "de": "sich verschließen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To close oneself off • To withdraw",
+      "lvMainSource": "noslēgties • norobežoties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To shut down • To shut off",
+          "currentEn": "To close oneself off • To withdraw"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-verschlossen-522",
+      "level": "C1",
+      "de": "verschlossen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Locked • Closed • Figuratively, closed-off • Withdrawn",
+      "lvMainSource": "aizslēgts • noslēgts • pārn. noslēgts • sevī noslēdzies",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Locked • Closed • Trans. closed • Self-contained",
+          "currentEn": "Locked • Closed • Figuratively, closed-off • Withdrawn"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-verschreiben-524",
+      "level": "C1",
+      "de": "verschreiben",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To prescribe",
+      "lvMainSource": "med. parakstīt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Med. to sign",
+          "currentEn": "To prescribe"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-verunglücken-530",
+      "level": "C1",
+      "de": "verunglücken",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Have an accident • Be involved in an accident",
+      "lvMainSource": "ciest nelaimes gadījumā • ciest avārijā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Suffer in an accident • Suffer in an accident",
+          "currentEn": "Have an accident • Be involved in an accident"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-vervollkommnen-533",
+      "level": "C1",
+      "de": "vervollkommnen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Perfect • Improve",
+      "lvMainSource": "papildināt • uzlabot",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Supplement • Improve",
+          "currentEn": "Perfect • Improve"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-sich vervollkommnen-534",
+      "level": "C1",
+      "de": "sich vervollkommnen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Improve oneself",
+      "lvMainSource": "papildināt savas zināšanas",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Supplement your knowledge",
+          "currentEn": "Improve oneself"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Volksbefragung-537",
+      "level": "C1",
+      "de": "Volksbefragung",
+      "de_article": "die",
+      "de_plural": "die Volksbefragungen",
+      "enMain": "Public consultation • Referendum",
+      "lvMainSource": "visas tautas aptauja • referendums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Poll of all the people • Referendum",
+          "currentEn": "Public consultation • Referendum"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-voreingenommen-539",
+      "level": "C1",
+      "de": "voreingenommen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Biased • Partial",
+      "lvMainSource": "aizspriedumains • neobjektīvs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Biased • Biased",
+          "currentEn": "Biased • Partial"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-wahlberechtigt",
+      "level": "C1",
+      "de": "wahlberechtigt",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "One who has the right to vote",
+      "lvMainSource": "tāds, kam ir vēlēšanu tiesības",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "One who has the right to vote",
+          "currentEn": "Eligible to vote"
+        },
+        {
+          "fieldPath": "study.explanation",
+          "baselineEn": "Main idea: wahlberechtig is an adjective that means a person has the right to participate in an election—to vote or stand for election. Compound: Wahl (election) + behrechtig (entitled).",
+          "currentEn": "Main idea: wahlberechtigt is an adjective meaning that a person is entitled to vote in an election. Compound: Wahl (election) + berechtigt (entitled)."
+        },
+        {
+          "fieldPath": "study.examples[1].lv",
+          "baselineEn": "From the age of 18 have the right to vote.",
+          "currentEn": "From the age of 18, people have the right to vote."
+        },
+        {
+          "fieldPath": "study.comparison[0].meaning",
+          "baselineEn": "With the right to vote",
+          "currentEn": "Eligible to vote"
+        },
+        {
+          "fieldPath": "study.comparison[1].meaning",
+          "baselineEn": "To wish • To vote",
+          "currentEn": "To choose • To vote"
+        },
+        {
+          "fieldPath": "study.tip.leftBlocks[0].text",
+          "baselineEn": "Wahl = election, behrechtig = eligible. Common in press and legal texts.",
+          "currentEn": "Wahl = election, berechtigt = entitled. Common in press and legal texts."
+        },
+        {
+          "fieldPath": "study.important.text",
+          "baselineEn": "wahlberechtig = with the right to vote. Opposite: nicht wahlberechtigkeit.",
+          "currentEn": "wahlberechtigt = eligible to vote. Opposite: nicht wahlberechtigt."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Eligible to vote",
+        "explanation": "Main idea: wahlberechtigt is an adjective meaning that a person is entitled to vote in an election. Compound: Wahl (election) + berechtigt (entitled).",
+        "examples": [
+          {
+            "de": "Alle wahlberechtigten Bürger können wählen.",
+            "en": "All eligible voters can vote."
+          },
+          {
+            "de": "Ab 18 Jahren ist man wahlberechtigt.",
+            "en": "From the age of 18, people have the right to vote."
+          },
+          {
+            "de": "Nicht alle Einwohner sind wahlberechtigt.",
+            "en": "Not all citizens have the right to vote."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "wahlberechtigt",
+            "meaning": "Eligible to vote",
+            "example": "Er ist wahlberechtigt. = He has the right to vote."
+          },
+          {
+            "word": "wählen",
+            "meaning": "To choose • To vote",
+            "example": "Ich wähle heute. = I voted today."
+          },
+          {
+            "word": "der Wähler",
+            "meaning": "Voter",
+            "example": "Der Wähler geht zur Wahl. = A voter goes to the polls."
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": "Wahl = election, berechtigt = entitled. Common in press and legal texts."
+            }
+          ]
+        },
+        "important": {
+          "text": "wahlberechtigt = eligible to vote. Opposite: nicht wahlberechtigt."
+        }
+      }
+    },
+    {
+      "cardId": "c1-wahrhaft-544",
+      "level": "C1",
+      "de": "wahrhaft",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Truly • Indeed",
+      "lvMainSource": "patiesi • tiešām",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Really • Really",
+          "currentEn": "Truly • Indeed"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Wäscheschleuder-545",
+      "level": "C1",
+      "de": "Wäscheschleuder",
+      "de_article": "die",
+      "de_plural": "die Wäscheschleudern",
+      "enMain": "Spin dryer",
+      "lvMainSource": "veļas centrifūga",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Laundry spinner",
+          "currentEn": "Spin dryer"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Wasserheilanstalt-546",
+      "level": "C1",
+      "de": "Wasserheilanstalt",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Hydrotherapy clinic",
+      "lvMainSource": "ūdensdziedniecības iestāde",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Water treatment facility",
+          "currentEn": "Hydrotherapy clinic"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Wechselbeziehung-549",
+      "level": "C1",
+      "de": "Wechselbeziehung",
+      "de_article": "die",
+      "de_plural": "die Wechselbeziehungen",
+      "enMain": "Interrelationship",
+      "lvMainSource": "savstarpējs sakars",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Mutual communication",
+          "currentEn": "Interrelationship"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Wehrersatzdienst-550",
+      "level": "C1",
+      "de": "Wehrersatzdienst",
+      "de_article": "der",
+      "de_plural": null,
+      "enMain": "Alternative civilian service",
+      "lvMainSource": "civildienests karadienesta vietā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Civil service instead of military service",
+          "currentEn": "Alternative civilian service"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Weidenkätzchen-551",
+      "level": "C1",
+      "de": "Weidenkätzchen",
+      "de_article": "das",
+      "de_plural": "die Weidenkätzchen",
+      "enMain": "Pussy willow",
+      "lvMainSource": "pūpols",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Poppy",
+          "currentEn": "Pussy willow"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Weltanschauung-552",
+      "level": "C1",
+      "de": "Weltanschauung",
+      "de_article": "die",
+      "de_plural": "die Weltanschauungen",
+      "enMain": "Worldview",
+      "lvMainSource": "pasaules uzskats",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "World view",
+          "currentEn": "Worldview"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-Wetterleuchten-553",
+      "level": "C1",
+      "de": "Wetterleuchten",
+      "de_article": "das",
+      "de_plural": null,
+      "enMain": "Sheet lightning",
+      "lvMainSource": "rūsa",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Rust",
+          "currentEn": "Sheet lightning"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-wiederherstellen-555",
+      "level": "C1",
+      "de": "wiederherstellen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Restore • Reinstate",
+      "lvMainSource": "atjaunot • restaurēt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Restore • Restore",
+          "currentEn": "Restore • Reinstate"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-zusammenfallen-556",
+      "level": "C1",
+      "de": "zusammenfallen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Collapse • Coincide",
+      "lvMainSource": "sabrukt • sagadīties",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Collapse • Happen",
+          "currentEn": "Collapse • Coincide"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c1-zuschlag",
+      "level": "C1",
+      "de": "Zuschlag",
+      "de_article": "der",
+      "de_plural": "die Zuschläge",
+      "enMain": "Premium • Markup",
+      "lvMainSource": "piemaksa • uzcenojums",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Premium • Markup",
+          "currentEn": "Surcharge • Markup"
+        },
+        {
+          "fieldPath": "study.examples[1].lv",
+          "baselineEn": "Night shift surcharge is 20%.",
+          "currentEn": "The night-shift surcharge is 20%."
+        },
+        {
+          "fieldPath": "study.examples[2].lv",
+          "baselineEn": "She received the order (at the auction).",
+          "currentEn": "She was awarded the contract at the auction."
+        },
+        {
+          "fieldPath": "study.examples[4].lv",
+          "baselineEn": "The price is without surcharges.",
+          "currentEn": "The price excludes surcharges."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Surcharge • Markup",
+        "explanation": [
+          "Main Idea: der Zuschlag means a premium or mark-up—an extra amount added to the base price.",
+          "In the context of travel/transportation, der Zuschlag is an additional charge for a faster train, better seat, etc.",
+          "Not to be confused with der Anhang/die Beilage (the annex to the document) - that is a different word.",
+          "In auctions, den Zuschlag erhalten means to win the auction/receive the order."
+        ],
+        "examples": [
+          {
+            "de": "Für den ICE muss man einen Zuschlag zahlen.",
+            "en": "There is a surcharge for the ICE train."
+          },
+          {
+            "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
+            "en": "The night-shift surcharge is 20%."
+          },
+          {
+            "de": "Sie erhielt den Zuschlag für den Auftrag.",
+            "en": "She was awarded the contract at the auction."
+          },
+          {
+            "de": "Es gibt einen Zuschlag für Übergepäck.",
+            "en": "There is a surcharge for excess baggage."
+          },
+          {
+            "de": "Der Preis versteht sich ohne Zuschläge.",
+            "en": "The price excludes surcharges."
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
+          "den Zuschlag erhalten (in the auctions) = win the auction/receive the order."
+        ],
+        "important": [
+          "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
+          "The annex to the document in German is die Anlage/der Anhang."
+        ]
+      }
+    },
+    {
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "level": "C1",
+      "de": "beziehen / sich beziehen auf",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Apply • Apply to",
+      "lvMainSource": "attiecināt • attiekties uz",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Apply • Apply to",
+          "currentEn": "Relate • Refer to"
+        },
+        {
+          "fieldPath": "study.examples[0].lv",
+          "baselineEn": "Apply • Apply to",
+          "currentEn": "Relate • Refer to"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Relate • Refer to",
+        "explanation": [
+          "Main idea: Formal register: attribute to source, regular pension/salary receipt or moving into an apartment.",
+          "Examples look for typical everyday usage.",
+          "When in doubt, check whether it is a state or an action.",
+          "Context and course of action determine the right choice."
+        ],
+        "examples": [
+          {
+            "de": "beziehen / sich beziehen auf.",
+            "en": "Relate • Refer to"
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "Formal register: attribute to source, regular pension/salary receipt or moving into an apartment.",
+          "Use beziehen / sich beziehen auf when the context fits this meaning."
+        ],
+        "important": [
+          "Formal register: attribute to source, regular pension/salary receipt or moving into an apartment.",
+          "beziehen / sich beziehen auf: before using, check the context and compare with other words on the card."
+        ]
+      }
+    },
+    {
+      "cardId": "c1-beabsichtigen",
+      "level": "C1",
+      "de": "beabsichtigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To intend • To plan",
+      "lvMainSource": "nodomāt • plānot",
+      "changedFields": [
+        {
+          "fieldPath": "study.examples[1].lv",
+          "baselineEn": "What do you mean by this event?",
+          "currentEn": "What do you intend to achieve with this measure?"
+        },
+        {
+          "fieldPath": "study.examples[2].lv",
+          "baselineEn": "We are not planning a change.",
+          "currentEn": "We are not planning any changes."
+        },
+        {
+          "fieldPath": "study.examples[4].lv",
+          "baselineEn": "Intend to do something.",
+          "currentEn": "To intend to do something."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "To intend • To plan",
+        "explanation": [
+          "Main idea: A conscious intention to perform an action in the future. Not about the relationship, but about the plan.",
+          "Beabsichtigen primarily means: conscious intention.",
+          "Often characterised by: plan / intention.",
+          "Beabsichtigen basically means: to plan an action.",
+          "Often characterised by: official register.",
+          "Beabsichtigen means to deliberately intend or plan an action—not a relation, but an intention."
+        ],
+        "examples": [
+          {
+            "de": "Er beabsichtigt, das Projekt zu beenden.",
+            "en": "He intended to finish the project."
+          },
+          {
+            "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
+            "en": "What do you intend to achieve with this measure?"
+          },
+          {
+            "de": "Wir beabsichtigen keine Änderung.",
+            "en": "We are not planning any changes."
+          },
+          {
+            "de": "Er beabsichtigt, das Projekt zu beenden.",
+            "en": "He intended to finish the project."
+          },
+          {
+            "de": "beabsichtigen + zu + nenoteiksme",
+            "en": "To intend to do something."
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "When it comes to relationships, sources, or regular receipt — beziehen. If about a deliberate plan — beabsichtigen.",
+          "beabsichtigen = to think"
+        ],
+        "important": [
+          "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
+          "beabsichtigen cannot be replaced by beziehen - it is an intention, not a relation.",
+          "beabsichtigen → intention, plan.",
+          "A conscious intention to perform an action in the future. Not about the relationship, but about the plan."
+        ]
+      }
+    },
+    {
+      "cardId": "c1-unterstellen",
+      "level": "C1",
+      "de": "unterstellen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Blame • Impute without foundation",
+      "lvMainSource": "pārmest • piedēvēt bez pamata",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Blame • Impute without foundation",
+          "currentEn": "Blame • Attribute without justification"
+        },
+        {
+          "fieldPath": "study.examples[0].lv",
+          "baselineEn": "I am accused of bad intentions.",
+          "currentEn": "I am accused of having bad intentions."
+        },
+        {
+          "fieldPath": "study.examples[3].lv",
+          "baselineEn": "He is accused of distrust.",
+          "currentEn": "He is accused of disloyalty."
+        },
+        {
+          "fieldPath": "study.examples[4].lv",
+          "baselineEn": "Unjustified guilt • Forecast",
+          "currentEn": "To accuse unjustly • To impute"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Blame • Attribute without justification",
+        "explanation": [
+          "Main idea: Unreasonably assign blame, motive, or intent to another.",
+          "Unterstellen mainly means: to attribute without foundation.",
+          "Often characterised by: accusation / attraction.",
+          "Jemandem etwas unterstellen means to impute or blame unjustly."
+        ],
+        "examples": [
+          {
+            "de": "Man unterstellt mir schlechte Absichten.",
+            "en": "I am accused of having bad intentions."
+          },
+          {
+            "de": "Unterstellen Sie mir nichts!",
+            "en": "Don't blame me for anything!"
+          },
+          {
+            "de": "Man darf niemandem Verrat unterstellen.",
+            "en": "No one should be unjustly accused of treason."
+          },
+          {
+            "de": "Ihm wird Untreue unterstellt.",
+            "en": "He is accused of disloyalty."
+          },
+          {
+            "de": "unterstellen",
+            "en": "To accuse unjustly • To impute"
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "unterstellen = to reproach",
+          "Uses unterstellen when the context suits this meaning."
+        ],
+        "important": [
+          "unterstellen is emotionally negative—an unwarranted accusation.",
+          "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
+          "unterstellen → blame, attribute."
+        ]
+      }
+    },
+    {
+      "cardId": "c1-voraussetzen",
+      "level": "C1",
+      "de": "voraussetzen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Take as a prerequisite",
+      "lvMainSource": "pieņemt kā priekšnoteikumu",
+      "changedFields": [
+        {
+          "fieldPath": "study.translation",
+          "baselineEn": "Take as a prerequisite",
+          "currentEn": "Presuppose"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Presuppose",
+        "explanation": [
+          "Main idea: To assume that something is already known or exists as a basis.",
+          "Voraussetzen mainly means: to consider as a basis.",
+          "Often characterised by: a logical premise.",
+          "Etwas voraussetzen means to take for granted a presupposition that already exists."
+        ],
+        "examples": [
+          {
+            "de": "Wir setzen Grundkenntnisse voraus.",
+            "en": "We accept basic knowledge as a prerequisite."
+          },
+          {
+            "de": "Wir setzen Grundkenntnisse voraus.",
+            "en": "We accept basic knowledge as a prerequisite."
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "voraussetzen = to assume a prerequisite",
+          "Use voraussetzen when the context fits this meaning."
+        ],
+        "important": [
+          "voraussetzen is neuter — a preposition.",
+          "voraussetzen → take as a basis.",
+          "To assume that something is already known or exists as a basis."
+        ]
+      }
+    },
+    {
+      "cardId": "c1-bewahren",
+      "level": "C1",
+      "de": "bewahren",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Protect • Preserve",
+      "lvMainSource": "pasargāt • saglabāt",
+      "changedFields": [
+        {
+          "fieldPath": "study.examples[3].lv",
+          "baselineEn": "Protect/preserve • Aufrechterhalten",
+          "currentEn": "Protect • Preserve • Maintain"
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Protect • Preserve",
+        "explanation": [
+          "Main idea: To protect from loss, damage or destruction - value, tradition, peace.",
+          "Bewahren primarily means: to protect from loss.",
+          "Often characterised by: preservation of values.",
+          "Bewahren means to preserve from damage, loss or alteration."
+        ],
+        "examples": [
+          {
+            "de": "Wir bewahren die Traditionen.",
+            "en": "We keep traditions."
+          },
+          {
+            "de": "Sie bewahren die Ruhe in der Krise.",
+            "en": "They keep calm in a crisis."
+          },
+          {
+            "de": "Wir bewahren die Traditionen.",
+            "en": "We keep traditions."
+          },
+          {
+            "de": "bewahren",
+            "en": "Protect • Preserve • Maintain"
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "bewahren = to protect",
+          "Use bewahren when the context fits this meaning."
+        ],
+        "important": [
+          "bewahren: Wertvolles bewahren - protect the valuable.",
+          "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
+          "bewahren → protect, preserve."
+        ]
+      }
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "level": "C1",
+      "de": "aufrechterhalten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Maintain in force",
+      "lvMainSource": "uzturēt spēkā",
+      "changedFields": [
+        {
+          "fieldPath": "study.examples[0].lv",
+          "baselineEn": "The state keeps order in force.",
+          "currentEn": "The state maintains public order."
+        },
+        {
+          "fieldPath": "study.examples[1].lv",
+          "baselineEn": "Must keep the action in force.",
+          "currentEn": "The activity must be maintained."
+        },
+        {
+          "fieldPath": "study.examples[2].lv",
+          "baselineEn": "The state keeps order in force.",
+          "currentEn": "The state maintains public order."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Maintain in force",
+        "explanation": [
+          "Main idea: To ensure that a state, order, or relationship will continue to exist.",
+          "Aufrechterhalten primarily means: to ensure continuation.",
+          "Often characterised by: maintenance of condition.",
+          "Aufrechterhalten means to maintain a state, system, or relationship in force—to ensure continuity."
+        ],
+        "examples": [
+          {
+            "de": "Der Staat erhält die Ordnung auf.",
+            "en": "The state maintains public order."
+          },
+          {
+            "de": "Man muss den Betrieb aufrechterhalten.",
+            "en": "The activity must be maintained."
+          },
+          {
+            "de": "Der Staat erhält die Ordnung auf.",
+            "en": "The state maintains public order."
+          }
+        ],
+        "comparison": [],
+        "tip": [
+          "aufrechterhalten = to keep in force",
+          "Use aufrechterhalten when the context fits this meaning."
+        ],
+        "important": [
+          "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
+          "aufrechterhalten → keep in force.",
+          "To ensure that a state, order or relationship will continue to exist."
+        ]
+      }
+    },
+    {
+      "cardId": "c1-Krüppel-568",
+      "level": "C1",
+      "de": "Krüppel",
+      "de_article": "der",
+      "de_plural": "die Krüppel",
+      "enMain": "Cripple (offensive)",
+      "lvMainSource": "kroplis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "A cripple",
+          "currentEn": "Cripple (offensive)"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Unvoreingenommenheit-0",
+      "level": "C2",
+      "de": "Unvoreingenommenheit",
+      "de_article": "die",
+      "de_plural": "die Unvoreingenommenheiten",
+      "enMain": "Impartiality • Unbiasedness",
+      "lvMainSource": "objektivitāte • neitralitāte",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Objectivity • Neutrality",
+          "currentEn": "Impartiality • Unbiasedness"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-konterkarieren-1",
+      "level": "C2",
+      "de": "konterkarieren",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To thwart",
+      "lvMainSource": "izjaukt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To disrupt",
+          "currentEn": "To thwart"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Stichhaltigkeit-2",
+      "level": "C2",
+      "de": "Stichhaltigkeit",
+      "de_article": "die",
+      "de_plural": "die Stichhaltigkeiten",
+      "enMain": "Soundness",
+      "lvMainSource": "pamatotība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Reasonableness",
+          "currentEn": "Soundness"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-veranschaulichen-5",
+      "level": "C2",
+      "de": "veranschaulichen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To illustrate",
+      "lvMainSource": "uzskatāmi parādīt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To show demonstrably",
+          "currentEn": "To illustrate"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Teilnehmerausweis-12",
+      "level": "C2",
+      "de": "Teilnehmerausweis",
+      "de_article": "der",
+      "de_plural": "die Teilnehmerausweise",
+      "enMain": "Participant ID card",
+      "lvMainSource": "dalībnieka apliecība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Membership card",
+          "currentEn": "Participant ID card"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-batteriebetrieben-13",
+      "level": "C2",
+      "de": "batteriebetrieben",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Battery-operated",
+      "lvMainSource": "darbināms ar bateriju",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Battery operated",
+          "currentEn": "Battery-operated"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-beaufsichtigen-14",
+      "level": "C2",
+      "de": "beaufsichtigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Supervise",
+      "lvMainSource": "uzraudzīt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Monitor",
+          "currentEn": "Supervise"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Behandlungsraum-16",
+      "level": "C2",
+      "de": "Behandlungsraum",
+      "de_article": "der",
+      "de_plural": "die Behandlungsräume",
+      "enMain": "Treatment room",
+      "lvMainSource": "ārsta kabinets",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Doctor's office",
+          "currentEn": "Treatment room"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-benachrichtigen-19",
+      "level": "C2",
+      "de": "benachrichtigen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To notify",
+      "lvMainSource": "paziņot",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "To announce",
+          "currentEn": "To notify"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Benzingutschein-20",
+      "level": "C2",
+      "de": "Benzingutschein",
+      "de_article": "der",
+      "de_plural": "die Benzingutscheine",
+      "enMain": "Petrol voucher",
+      "lvMainSource": "benzīna talons",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Gasoline coupon",
+          "currentEn": "Petrol voucher"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Berufsausbildung-25",
+      "level": "C2",
+      "de": "Berufsausbildung",
+      "de_article": "die",
+      "de_plural": "die Berufsausbildungen",
+      "enMain": "Vocational training",
+      "lvMainSource": "profesionālā izglītība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Professional education",
+          "currentEn": "Vocational training"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-gewichtseinheit",
+      "level": "C2",
+      "de": "Gewichtseinheit",
+      "de_article": "die",
+      "de_plural": "die Gewichtseinheiten",
+      "enMain": "Unit of weight",
+      "lvMainSource": "svara mērvienība",
+      "changedFields": [
+        {
+          "fieldPath": "study.examples[0].lv",
+          "baselineEn": "Kilogram is a unit of weight.",
+          "currentEn": "A kilogram is a unit of weight."
+        },
+        {
+          "fieldPath": "study.examples[2].lv",
+          "baselineEn": "Gram and ton are units of weight.",
+          "currentEn": "A gram and a tonne are units of weight."
+        }
+      ],
+      "hasStudy": true,
+      "study": {
+        "layout": "standardStudy",
+        "translation": "Unit of weight",
+        "explanation": "Main idea: die Gewichtseinheit means unit of weight. It is used when talking about kilograms, grams, tons and other units of weight/mass.",
+        "examples": [
+          {
+            "de": "Kilogramm ist eine Gewichtseinheit.",
+            "en": "A kilogram is a unit of weight."
+          },
+          {
+            "de": "Welche Gewichtseinheit soll ich benutzen?",
+            "en": "Which unit of weight should I use?"
+          },
+          {
+            "de": "Gramm und Tonne sind Gewichtseinheiten.",
+            "en": "A gram and a tonne are units of weight."
+          }
+        ],
+        "comparison": [],
+        "tip": null,
+        "important": null
+      }
+    },
+    {
+      "cardId": "c2-entgegenkommen-29",
+      "level": "C2",
+      "de": "entgegenkommen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "To accommodate",
+      "lvMainSource": "nākt pretī",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Come across",
+          "currentEn": "To accommodate"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Gehaltsabrechnung-32",
+      "level": "C2",
+      "de": "Gehaltsabrechnung",
+      "de_article": "die",
+      "de_plural": "die Gehaltsabrechnungen",
+      "enMain": "Payslip",
+      "lvMainSource": "algas aprēķins",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Salary calculation",
+          "currentEn": "Payslip"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Geschäftsführer-36",
+      "level": "C2",
+      "de": "Geschäftsführer",
+      "de_article": "der",
+      "de_plural": "die Geschäftsführer",
+      "enMain": "Managing director",
+      "lvMainSource": "uzņēmuma vadītājs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Company manager",
+          "currentEn": "Managing director"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Geschenkpackung-39",
+      "level": "C2",
+      "de": "Geschenkpackung",
+      "de_article": "die",
+      "de_plural": "die Geschenkpackungen",
+      "enMain": "Gift packaging",
+      "lvMainSource": "dāvanas iesaiņojums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Gift wrapping",
+          "currentEn": "Gift packaging"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Katastrophendienst-44",
+      "level": "C2",
+      "de": "Katastrophendienst",
+      "de_article": "der",
+      "de_plural": null,
+      "enMain": "Disaster relief service",
+      "lvMainSource": "katastrofu dienests",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Disaster service",
+          "currentEn": "Disaster relief service"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Kostensteigerung-46",
+      "level": "C2",
+      "de": "Kostensteigerung",
+      "de_article": "die",
+      "de_plural": "die Kostensteigerungen",
+      "enMain": "Increase in costs",
+      "lvMainSource": "izmaksu paaugstināšana",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Increasing costs",
+          "currentEn": "Increase in costs"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Krankenversicherung-47",
+      "level": "C2",
+      "de": "Krankenversicherung",
+      "de_article": "die",
+      "de_plural": "die Krankenversicherungen",
+      "enMain": "Health insurance",
+      "lvMainSource": "apdrošinājums slimības gadījumā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Insurance in case of illness",
+          "currentEn": "Health insurance"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Krankheitsüberträger-49",
+      "level": "C2",
+      "de": "Krankheitsüberträger",
+      "de_article": "der",
+      "de_plural": "die Krankheitsüberträger",
+      "enMain": "Disease carrier",
+      "lvMainSource": "slimības pārnēsātājs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Carrier of disease",
+          "currentEn": "Disease carrier"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Lungenentzündung-52",
+      "level": "C2",
+      "de": "Lungenentzündung",
+      "de_article": "die",
+      "de_plural": "die Lungenentzündungen",
+      "enMain": "Pneumonia",
+      "lvMainSource": "plaušu karsonis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Lung cancer",
+          "currentEn": "Pneumonia"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Schlafwagenzimmer-58",
+      "level": "C2",
+      "de": "Schlafwagenzimmer",
+      "de_article": "das",
+      "de_plural": "die Schlafwagenzimmer",
+      "enMain": "Sleeping-car compartment",
+      "lvMainSource": "guļamistaba",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Bedroom",
+          "currentEn": "Sleeping-car compartment"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Schlittschuhkufe-59",
+      "level": "C2",
+      "de": "Schlittschuhkufe",
+      "de_article": "die",
+      "de_plural": "die Schlittschuhkufen",
+      "enMain": "Ice-skate blade",
+      "lvMainSource": "ragavu sliece",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Sled incline",
+          "currentEn": "Ice-skate blade"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-selbstverständlich-61",
+      "level": "C2",
+      "de": "selbstverständlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Self-evident",
+      "lvMainSource": "pats par sevi saprotams",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Self-explanatory",
+          "currentEn": "Self-evident"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-sicherheitshalber-62",
+      "level": "C2",
+      "de": "sicherheitshalber",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "As a precaution",
+      "lvMainSource": "drošības labad",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "For safety",
+          "currentEn": "As a precaution"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Straßenunterführung-67",
+      "level": "C2",
+      "de": "Straßenunterführung",
+      "de_article": "die",
+      "de_plural": "die Straßenunterführungen",
+      "enMain": "Road underpass",
+      "lvMainSource": "gājēju tunelis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Pedestrian tunnel",
+          "currentEn": "Road underpass"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Sehenswürdigkeit-76",
+      "level": "C2",
+      "de": "Sehenswürdigkeit",
+      "de_article": "die",
+      "de_plural": "die Sehenswürdigkeiten",
+      "enMain": "Sight",
+      "lvMainSource": "ievērojama vieta",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "A prominent place",
+          "currentEn": "Sight"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Abenteuergeschichte-77",
+      "level": "C2",
+      "de": "Abenteuergeschichte",
+      "de_article": "die",
+      "de_plural": "die Abenteuergeschichten",
+      "enMain": "Adventure story",
+      "lvMainSource": "dēku stāsts",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Story of an affair",
+          "currentEn": "Adventure story"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Behindertenausweis-81",
+      "level": "C2",
+      "de": "Behindertenausweis",
+      "de_article": "der",
+      "de_plural": "die Behindertenausweise",
+      "enMain": "Disability ID card",
+      "lvMainSource": "invalīda apliecība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Disability certificate",
+          "currentEn": "Disability ID card"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Baugenossenschaft-82",
+      "level": "C2",
+      "de": "Baugenossenschaft",
+      "de_article": "die",
+      "de_plural": "die Baugenossenschaften",
+      "enMain": "Housing cooperative",
+      "lvMainSource": "dzīvokļu celtniecības kooperatīvs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Apartment building cooperative",
+          "currentEn": "Housing cooperative"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Ausbildungsbeihilfe-84",
+      "level": "C2",
+      "de": "Ausbildungsbeihilfe",
+      "de_article": "die",
+      "de_plural": "die Ausbildungsbeihilfen",
+      "enMain": "Training grant",
+      "lvMainSource": "mācību pabalsts",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Tuition allowance",
+          "currentEn": "Training grant"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Unternehmensberater-85",
+      "level": "C2",
+      "de": "Unternehmensberater",
+      "de_article": "der",
+      "de_plural": "die Unternehmensberater",
+      "enMain": "Business consultant",
+      "lvMainSource": "uzņēmuma konsultants",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Company consultant",
+          "currentEn": "Business consultant"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Berichterstatter-86",
+      "level": "C2",
+      "de": "Berichterstatter",
+      "de_article": "der",
+      "de_plural": "die Berichterstatter",
+      "enMain": "Rapporteur • Reporter • Correspondent • Journalist",
+      "lvMainSource": "referents • ziņotājs • korespondents • reportieris",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Reporter • Reporter • Correspondent • Reporter",
+          "currentEn": "Rapporteur • Reporter • Correspondent • Journalist"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Bereitschaftsdienst-101",
+      "level": "C2",
+      "de": "Bereitschaftsdienst",
+      "de_article": "der",
+      "de_plural": "die Bereitschaftsdienste",
+      "enMain": "On-call service",
+      "lvMainSource": "operatīvais dienests",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Operational service",
+          "currentEn": "On-call service"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-durchkreuzen-103",
+      "level": "C2",
+      "de": "durchkreuzen",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Cross out • Draw a cross over • Cross • Thwart",
+      "lvMainSource": "pārsvītrot • pārvilkt krustu • šķērsot • izjaukt",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Strike out • Cross • Cross • Disrupt",
+          "currentEn": "Cross out • Draw a cross over • Cross • Thwart"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Durchschnittsleistung-106",
+      "level": "C2",
+      "de": "Durchschnittsleistung",
+      "de_article": "die",
+      "de_plural": "die Durchschnittsleistungen",
+      "enMain": "Mediocre performance • Average performance",
+      "lvMainSource": "viduvējs sniegums • caurmēra sniegums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Average performance • Average performance",
+          "currentEn": "Mediocre performance • Average performance"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Empfehlungsschreiben-110",
+      "level": "C2",
+      "de": "Empfehlungsschreiben",
+      "de_article": "das",
+      "de_plural": "die Empfehlungsschreiben",
+      "enMain": "Letter of recommendation",
+      "lvMainSource": "rakstisks ieteikums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Written recommendation",
+          "currentEn": "Letter of recommendation"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-entgegengesetzt-112",
+      "level": "C2",
+      "de": "entgegengesetzt",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Opposite",
+      "lvMainSource": "pretējs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "The opposite",
+          "currentEn": "Opposite"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Entschlossenheit-113",
+      "level": "C2",
+      "de": "Entschlossenheit",
+      "de_article": "die",
+      "de_plural": "die Entschlossenheiten",
+      "enMain": "Determination • Resolve • Decisiveness",
+      "lvMainSource": "noteiktība • apņēmība • nešaubīgums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Certainty • Determination • Unquestioningness",
+          "currentEn": "Determination • Resolve • Decisiveness"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Entwicklungsland-114",
+      "level": "C2",
+      "de": "Entwicklungsland",
+      "de_article": "das",
+      "de_plural": "die Entwicklungsländer",
+      "enMain": "Developing country",
+      "lvMainSource": "attīstības zeme",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Land of development",
+          "currentEn": "Developing country"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Erfrischungsraum-115",
+      "level": "C2",
+      "de": "Erfrischungsraum",
+      "de_article": "der",
+      "de_plural": "die Erfrischungsräume",
+      "enMain": "Refreshment room",
+      "lvMainSource": "bufete",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Buffet",
+          "currentEn": "Refreshment room"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Führerpersönlichkeit-123",
+      "level": "C2",
+      "de": "Führerpersönlichkeit",
+      "de_article": "die",
+      "de_plural": "die Führerpersönlichkeiten",
+      "enMain": "Leadership figure",
+      "lvMainSource": "līdera personība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Leadership personality",
+          "currentEn": "Leadership figure"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Fußballweltmeisterschaft-124",
+      "level": "C2",
+      "de": "Fußballweltmeisterschaft",
+      "de_article": "die",
+      "de_plural": "die Fußballweltmeisterschaften",
+      "enMain": "Football World Cup",
+      "lvMainSource": "pasaules meistarsacīkstes futbolā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "World championship in football",
+          "currentEn": "Football World Cup"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Gedächtnisschwäche-126",
+      "level": "C2",
+      "de": "Gedächtnisschwäche",
+      "de_article": "die",
+      "de_plural": "die Gedächtnisschwächen",
+      "enMain": "Poor memory",
+      "lvMainSource": "slikta atmiņa",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Bad memory",
+          "currentEn": "Poor memory"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Gefängnisaufseher-128",
+      "level": "C2",
+      "de": "Gefängnisaufseher",
+      "de_article": "der",
+      "de_plural": "die Gefängnisaufseher",
+      "enMain": "Prison guard",
+      "lvMainSource": "cietuma uzraugs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Prison warden",
+          "currentEn": "Prison guard"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Geistesgegenwart-131",
+      "level": "C2",
+      "de": "Geistesgegenwart",
+      "de_article": "die",
+      "de_plural": null,
+      "enMain": "Presence of mind",
+      "lvMainSource": "attapība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Ingenuity",
+          "currentEn": "Presence of mind"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Dorfgemeinschaft-136",
+      "level": "C2",
+      "de": "Dorfgemeinschaft",
+      "de_article": "die",
+      "de_plural": "die Dorfgemeinschaften",
+      "enMain": "Village community",
+      "lvMainSource": "ciema iedzīvotāji",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "The villagers",
+          "currentEn": "Village community"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Forschungsgemeinschaft-137",
+      "level": "C2",
+      "de": "Forschungsgemeinschaft",
+      "de_article": "die",
+      "de_plural": "die Forschungsgemeinschaften",
+      "enMain": "Research community",
+      "lvMainSource": "pētniecības grupa",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Research group",
+          "currentEn": "Research community"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Genossenschaft-140",
+      "level": "C2",
+      "de": "Genossenschaft",
+      "de_article": "die",
+      "de_plural": "die Genossenschaften",
+      "enMain": "Cooperative",
+      "lvMainSource": "kooperatīvs • artelis",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Cooperative • Artel",
+          "currentEn": "Cooperative"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Gerechtigkeitsgefühl-141",
+      "level": "C2",
+      "de": "Gerechtigkeitsgefühl",
+      "de_article": "das",
+      "de_plural": "die Gerechtigkeitsgefühle",
+      "enMain": "Sense of justice",
+      "lvMainSource": "taisnīgums • taisnības izjūta",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Justice • Sense of justice",
+          "currentEn": "Sense of justice"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Schiedsgericht-142",
+      "level": "C2",
+      "de": "Schiedsgericht",
+      "de_article": "das",
+      "de_plural": "die Schiedsgerichte",
+      "enMain": "Arbitration tribunal",
+      "lvMainSource": "šķīrējtiesa",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Arbitration",
+          "currentEn": "Arbitration tribunal"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Geschäftsordnung-144",
+      "level": "C2",
+      "de": "Geschäftsordnung",
+      "de_article": "die",
+      "de_plural": "die Geschäftsordnungen",
+      "enMain": "Rules of procedure • Standing orders",
+      "lvMainSource": "nolikums • reglaments",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Regulation • Regulations",
+          "currentEn": "Rules of procedure • Standing orders"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Geschlechtsverkehr-145",
+      "level": "C2",
+      "de": "Geschlechtsverkehr",
+      "de_article": "der",
+      "de_plural": null,
+      "enMain": "Sexual intercourse",
+      "lvMainSource": "dzimumakts",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Intercourse",
+          "currentEn": "Sexual intercourse"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Geschwindigkeitsüberschreitung-149",
+      "level": "C2",
+      "de": "Geschwindigkeitsüberschreitung",
+      "de_article": "die",
+      "de_plural": "die Geschwindigkeitsüberschreitungen",
+      "enMain": "Speeding • Exceeding the speed limit",
+      "lvMainSource": "noteiktā ātruma neievērošana • pārkāpšana",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Failure to observe the prescribed speed • Violation",
+          "currentEn": "Speeding • Exceeding the speed limit"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-gesellschaftlich-150",
+      "level": "C2",
+      "de": "gesellschaftlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Social • Societal",
+      "lvMainSource": "sabiedrisks • sabiedrības",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Public • Societies",
+          "currentEn": "Social • Societal"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Gesellschaftsordnung-151",
+      "level": "C2",
+      "de": "Gesellschaftsordnung",
+      "de_article": "die",
+      "de_plural": "die Gesellschaftsordnungen",
+      "enMain": "Social order",
+      "lvMainSource": "sabiedriskā iekārta",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Public facility",
+          "currentEn": "Social order"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Gewinnauszahlung-156",
+      "level": "C2",
+      "de": "Gewinnauszahlung",
+      "de_article": "die",
+      "de_plural": "die Gewinnauszahlungen",
+      "enMain": "Payout of winnings",
+      "lvMainSource": "loterijas laimesta izmaksa",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Payout of lottery winnings",
+          "currentEn": "Payout of winnings"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Gipfelkonferenz-157",
+      "level": "C2",
+      "de": "Gipfelkonferenz",
+      "de_article": "die",
+      "de_plural": "die Gipfelkonferenzen",
+      "enMain": "Summit conference",
+      "lvMainSource": "konference augstākajā līmenī",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Conference at the highest level",
+          "currentEn": "Summit conference"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Gleichberechtigung-158",
+      "level": "C2",
+      "de": "Gleichberechtigung",
+      "de_article": "die",
+      "de_plural": "die Gleichberechtigungen",
+      "enMain": "Equal rights",
+      "lvMainSource": "līdztiesība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Equality",
+          "currentEn": "Equal rights"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Hausgemeinschaft-161",
+      "level": "C2",
+      "de": "Hausgemeinschaft",
+      "de_article": "die",
+      "de_plural": "die Hausgemeinschaften",
+      "enMain": "Residents of the same building",
+      "lvMainSource": "ģimenes locekļi • mājas iedzīvotāji",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Family members • Residents of the house",
+          "currentEn": "Residents of the same building"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Haushaltsausschuss-162",
+      "level": "C2",
+      "de": "Haushaltsausschuss",
+      "de_article": "der",
+      "de_plural": "die Haushaltsausschüsse",
+      "enMain": "Budget committee",
+      "lvMainSource": "budžeta komisija",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Budget commission",
+          "currentEn": "Budget committee"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Lebenserhaltungstrieb-170",
+      "level": "C2",
+      "de": "Lebenserhaltungstrieb",
+      "de_article": "der",
+      "de_plural": "die Lebenserhaltungstriebe",
+      "enMain": "Self-preservation instinct",
+      "lvMainSource": "dzīvības dziņa",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "The drive of life",
+          "currentEn": "Self-preservation instinct"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Lebenshaltungskosten-171",
+      "level": "C2",
+      "de": "Lebenshaltungskosten",
+      "de_article": "die",
+      "de_plural": "die Lebenshaltungskosten",
+      "enMain": "Cost of living",
+      "lvMainSource": "iztikai nepieciešamie līdzekļi • izmaksas",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Means of subsistence • Costs",
+          "currentEn": "Cost of living"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "level": "C2",
+      "de": "Meisterschaftsspiel",
+      "de_article": "das",
+      "de_plural": "die Meisterschaftsspiele",
+      "enMain": "Championship match",
+      "lvMainSource": "meistarsacīkstes",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Master race",
+          "currentEn": "Championship match"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-menschenfreundlich-178",
+      "level": "C2",
+      "de": "menschenfreundlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Humane • Benevolent",
+      "lvMainSource": "humāns • cilvēcīgs",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Humane • Humane",
+          "currentEn": "Humane • Benevolent"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-populärwissenschaftlich-186",
+      "level": "C2",
+      "de": "populärwissenschaftlich",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Popular-science",
+      "lvMainSource": "populārzinātnisks",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Popular science",
+          "currentEn": "Popular-science"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Preisausschreiben-187",
+      "level": "C2",
+      "de": "Preisausschreiben",
+      "de_article": "das",
+      "de_plural": "die Preisausschreiben",
+      "enMain": "Prize competition",
+      "lvMainSource": "konkurss",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Competition",
+          "currentEn": "Prize competition"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Satellitenübertragung-189",
+      "level": "C2",
+      "de": "Satellitenübertragung",
+      "de_article": "die",
+      "de_plural": "die Satellitenübertragungen",
+      "enMain": "Satellite transmission",
+      "lvMainSource": "satelīttelevīzijas pārraide",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Satellite television transmission",
+          "currentEn": "Satellite transmission"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Beschwerdeschrift-191",
+      "level": "C2",
+      "de": "Beschwerdeschrift",
+      "de_article": "die",
+      "de_plural": "die Beschwerdeschriften",
+      "enMain": "Written complaint",
+      "lvMainSource": "sūdzība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Complaint",
+          "currentEn": "Written complaint"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Selbstbestimmungsrecht-193",
+      "level": "C2",
+      "de": "Selbstbestimmungsrecht",
+      "de_article": "das",
+      "de_plural": "die Selbstbestimmungsrechte",
+      "enMain": "The right to self-determination",
+      "lvMainSource": "pašnoteikšanās tiesības",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "The right of self-determination",
+          "currentEn": "The right to self-determination"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Selbstverteidigung-195",
+      "level": "C2",
+      "de": "Selbstverteidigung",
+      "de_article": "die",
+      "de_plural": "die Selbstverteidigungen",
+      "enMain": "Self-defence",
+      "lvMainSource": "pašaizsardzības paņēmienu kopums",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "A set of self-defence techniques",
+          "currentEn": "Self-defence"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Staatsangehörigkeit-196",
+      "level": "C2",
+      "de": "Staatsangehörigkeit",
+      "de_article": "die",
+      "de_plural": "die Staatsangehörigkeiten",
+      "enMain": "Nationality",
+      "lvMainSource": "pavalstniecība",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Statehood",
+          "currentEn": "Nationality"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Steuererleichterung-197",
+      "level": "C2",
+      "de": "Steuererleichterung",
+      "de_article": "die",
+      "de_plural": "die Steuererleichterungen",
+      "enMain": "Tax relief",
+      "lvMainSource": "nodokļu atvieglojumi",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Tax benefits",
+          "currentEn": "Tax relief"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Strafgesetzbuch-198",
+      "level": "C2",
+      "de": "Strafgesetzbuch",
+      "de_article": "das",
+      "de_plural": "die Strafgesetzbücher",
+      "enMain": "Criminal code",
+      "lvMainSource": "jur. kriminālkodekss",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Jur criminal code",
+          "currentEn": "Criminal code"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "level": "C2",
+      "de": "zugrunde, zu Grunde",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "Underlying",
+      "lvMainSource": "pamatā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Basically",
+          "currentEn": "Underlying"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-zugunsten, zu Gunsten-207",
+      "level": "C2",
+      "de": "zugunsten, zu Gunsten",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "In favour of • For the benefit of",
+      "lvMainSource": "labā • par labu",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "For the good • For the good",
+          "currentEn": "In favour of • For the benefit of"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-instand-210",
+      "level": "C2",
+      "de": "instand",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "In working order",
+      "lvMainSource": "kārtībā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "In order",
+          "currentEn": "In working order"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-in Stand-211",
+      "level": "C2",
+      "de": "in Stand",
+      "de_article": null,
+      "de_plural": null,
+      "enMain": "In working order",
+      "lvMainSource": "kārtībā",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "In order",
+          "currentEn": "In working order"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Karre-214",
+      "level": "C2",
+      "de": "Karre",
+      "de_article": "die",
+      "de_plural": "die Karren",
+      "enMain": "Cart",
+      "lvMainSource": "ķerra",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Wheelbarrow",
+          "currentEn": "Cart"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Karren-215",
+      "level": "C2",
+      "de": "Karren",
+      "de_article": "der",
+      "de_plural": "die Karren",
+      "enMain": "Cart",
+      "lvMainSource": "ķerra",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Wheelbarrow",
+          "currentEn": "Cart"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Kriegsbeschädigte-216",
+      "level": "C2",
+      "de": "Kriegsbeschädigte",
+      "de_article": "der",
+      "de_plural": "die Kriegsbeschädigten",
+      "enMain": "A person disabled by war",
+      "lvMainSource": "kara invalīds",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "A war invalid",
+          "currentEn": "A person disabled by war"
+        }
+      ],
+      "hasStudy": false
+    },
+    {
+      "cardId": "c2-Sachverständige-218",
+      "level": "C2",
+      "de": "Sachverständige",
+      "de_article": "der",
+      "de_plural": "die Sachverständigen",
+      "enMain": "Expert • Specialist",
+      "lvMainSource": "lietpratējs • eksperts",
+      "changedFields": [
+        {
+          "fieldPath": "lv",
+          "baselineEn": "Proficient • Expert",
+          "currentEn": "Expert • Specialist"
+        }
+      ],
+      "hasStudy": false
+    }
+  ]
+}
