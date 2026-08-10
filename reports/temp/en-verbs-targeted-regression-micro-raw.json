@@ -1,0 +1,81 @@
+{
+  "findings": [
+    {
+      "verbId": "verb-60-haben",
+      "field": "imperfektKonjunktiv",
+      "severity": "HIGH",
+      "category": "EN_LANGUAGE_ERROR",
+      "de": "hatte",
+      "lvSource": "bija",
+      "currentEn": "bija",
+      "proposedEn": "had",
+      "reason": "The entry is Latvian, not English; use the direct English past form matching the supplied German.",
+      "confidence": "HIGH",
+      "regressionType": "PARADIGM_INCONSISTENCY",
+      "status": "FINDING"
+    },
+    {
+      "verbId": "verb-68-lassen",
+      "field": "imperfektIndikativ",
+      "severity": "MEDIUM",
+      "category": "MEANING_ERROR",
+      "de": "er ließ",
+      "lvSource": "viņš lika / ļāva",
+      "currentEn": "he ordered • allowed",
+      "proposedEn": "he let • he left",
+      "reason": "This repaired form is inconsistent with the paradigm and misses the core meanings of lassen in the listed forms.",
+      "confidence": "HIGH",
+      "regressionType": "REPAIR_REGRESSION",
+      "status": "FINDING"
+    },
+    {
+      "verbId": "verb-85-pflegen",
+      "field": "imperfektKonjunktiv",
+      "severity": "MEDIUM",
+      "category": "MOOD_ERROR",
+      "de": "pflegte vai pflog",
+      "lvSource": "kopa",
+      "currentEn": "cared for",
+      "proposedEn": "would care for",
+      "reason": "The Konjunktiv II form requires conditional English, not the simple past.",
+      "confidence": "high",
+      "regressionType": "REPAIR_INCOMPLETE",
+      "status": "FINDING"
+    },
+    {
+      "verbId": "verb-129-sein",
+      "field": "imperfektKonjunktiv",
+      "severity": "MEDIUM",
+      "category": "EN_FORM_ERROR",
+      "de": "war",
+      "lvSource": "bija",
+      "currentEn": "he was",
+      "proposedEn": "he would be",
+      "reason": "Konjunktiv translation duplicates the indicative and fails to express the conditional meaning.",
+      "confidence": "HIGH",
+      "regressionType": "REPAIR_INCOMPLETE",
+      "status": "FINDING"
+    }
+  ],
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 3,
+    "initialBatchRequests": 0,
+    "retryRequests": 0,
+    "batchCount": 3,
+    "batchSizes": [
+      6,
+      6,
+      2
+    ],
+    "retryCount": 0,
+    "retryReasons": {},
+    "inputTokens": 3565,
+    "cachedInputTokens": 0,
+    "outputTokens": 4683,
+    "reasoningTokens": 2978,
+    "totalTokens": 8248,
+    "findingsCount": 4,
+    "passCount": 66
+  }
+}

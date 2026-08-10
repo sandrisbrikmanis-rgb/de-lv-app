@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-08-10T17:10:51.832Z",
+  "model": "gpt-5.6-luna",
+  "gates": {
+    "verbs": 189,
+    "formSlots": 945,
+    "mirror": true,
+    "syntax": true,
+    "structure": true,
+    "idOrder": true,
+    "deReadOnly": true
+  },
+  "foreignRemnants": 3,
+  "unexpectedForeignRemnants": 0,
+  "unexpectedForeign": [],
+  "luna": {
+    "requests": 3,
+    "tokens": 8248,
+    "rawCounts": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    }
+  },
+  "validated": {
+    "counts": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "falsePositive": 3,
+    "findings": []
+  },
+  "microPass": true
+}
