@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-08-10T17:16:25.239Z",
+  "git": {
+    "integrationBranch": "cursor/en-verbs-targeted-regression-repair-6850",
+    "mainBefore": "264cfd73b032e137e74104f5303f6abff7ea6310",
+    "pr402Head": "4ae22b0998e5b98c0a09a6746a59621a49bec195",
+    "mergeSha": "4ae22b0998e5b98c0a09a6746a59621a49bec195",
+    "mainAfter": "4ae22b0998e5b98c0a09a6746a59621a49bec195",
+    "originMain": "4ae22b0998e5b98c0a09a6746a59621a49bec195",
+    "mergeType": "fast-forward",
+    "conflicts": 0,
+    "pr402Integrated": true
+  },
+  "dataset": {
+    "verbs": 189,
+    "formSlots": 945,
+    "ownerRepairsPresent": 19,
+    "ownerRepairFails": [],
+    "preconditionMismatch": 0
+  },
+  "gates": {
+    "mirror": true,
+    "syntax": true,
+    "structure": true,
+    "idOrder": true,
+    "deReadOnly": true,
+    "deChanges": 0,
+    "mojibake": 0,
+    "placeholders": 0,
+    "emptyNative": 0,
+    "foreignRemnantsTotal": 3,
+    "documentedDeSourceForeign": 3,
+    "unexpectedForeignRemnants": 0,
+    "unexpectedForeign": [],
+    "unexpectedProductionChanges": 0,
+    "unexpectedProductionFiles": [],
+    "ownerNelabot": {
+      "schwimmen": true,
+      "konnen": true
+    }
+  },
+  "regression": {
+    "validated": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "microPass": true,
+    "authoritative": true,
+    "note": "Production unchanged since micro-regression at 4ae22b09"
+  },
+  "verdict": "EN–DE DARBĪBAS VĀRDI — OWNER ACCEPTED / CLOSED ON MAIN"
+}
