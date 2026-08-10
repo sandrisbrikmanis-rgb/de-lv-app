@@ -2326,7 +2326,7 @@ const C1_WORDS = [
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "Perceptive ability",
+    "lv": "Power of comprehension",
     "level": "C1"
   },
   {
@@ -2381,7 +2381,7 @@ const C1_WORDS = [
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "A confessed secret",
+    "lv": "Confidentiality of confession",
     "level": "C1"
   },
   {
@@ -2395,12 +2395,12 @@ const C1_WORDS = [
     "de": "Geisterstunde",
     "de_article": "die",
     "de_plural": "die Geisterstunden",
-    "lv": "Ghost hour",
+    "lv": "Witching hour",
     "level": "C1"
   },
   {
     "de": "geistesabwesend",
-    "lv": "Distracted",
+    "lv": "Absent-minded",
     "level": "C1"
   },
   {
@@ -2410,14 +2410,14 @@ const C1_WORDS = [
   },
   {
     "de": "geistesschwach",
-    "lv": "Weak in spirit • Willful",
+    "lv": "Feeble-minded • Mentally deficient",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "Cross-country trip",
+    "lv": "Off-road drive",
     "level": "C1"
   },
   {
@@ -2535,7 +2535,7 @@ const C1_WORDS = [
     "de": "Gemäldegalerie",
     "de_article": "die",
     "de_plural": "die Gemäldegalerien",
-    "lv": "Painting gallery",
+    "lv": "Picture gallery",
     "level": "C1"
   },
   {
@@ -2555,7 +2555,7 @@ const C1_WORDS = [
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Kind and kind person",
+    "lv": "Kind-hearted person",
     "level": "C1"
   },
   {
@@ -2581,7 +2581,7 @@ const C1_WORDS = [
   },
   {
     "de": "genmanipuliert",
-    "lv": "With modified genes",
+    "lv": "Genetically modified",
     "level": "C1"
   },
   {
@@ -2595,7 +2595,7 @@ const C1_WORDS = [
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Custom • Custom",
+    "lv": "Custom • Practice",
     "level": "C1"
   },
   {
@@ -2607,19 +2607,19 @@ const C1_WORDS = [
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "Jury trial",
+    "lv": "Jury court",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "Courtroom • Tribunal",
+    "lv": "Court • Tribunal",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "Scornful • Contemptuous • Contemptuous",
+    "lv": "Scornful • Disdainful • Contemptuous",
     "level": "C1"
   },
   {
@@ -2633,28 +2633,28 @@ const C1_WORDS = [
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "End result • End result",
+    "lv": "Overall result • Final result",
     "level": "C1"
   },
   {
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "Embassy",
+    "lv": "Legation",
     "level": "C1"
   },
   {
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "Trading house",
+    "lv": "Commercial building",
     "level": "C1"
   },
   {
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "Farm year",
+    "lv": "Financial year",
     "level": "C1"
   },
   {
@@ -2671,17 +2671,17 @@ const C1_WORDS = [
   },
   {
     "de": "gesetzgebend",
-    "lv": "Legislator",
+    "lv": "Legislative",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "Illegal",
+    "lv": "Lawless",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Lawful • Lawful",
+    "lv": "Lawful • Governed by regular laws",
     "level": "C1"
   },
   {
@@ -2755,7 +2755,7 @@ const C1_WORDS = [
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "Detention • Arrest",
+    "lv": "Detention • Imprisonment",
     "level": "C1"
   },
   {
@@ -2774,14 +2774,14 @@ const C1_WORDS = [
     "de": "Haftung",
     "de_article": "die",
     "de_plural": "die Haftungen",
-    "lv": "Responsibility",
+    "lv": "Liability",
     "level": "C1"
   },
   {
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "Storage time",
+    "lv": "Shelf life",
     "level": "C1"
   },
   {
@@ -2795,7 +2795,7 @@ const C1_WORDS = [
     "de": "Handelsvertretung",
     "de_article": "die",
     "de_plural": "die Handelsvertretungen",
-    "lv": "Trade representation",
+    "lv": "Commercial representation",
     "level": "C1"
   },
   {
@@ -2823,7 +2823,7 @@ const C1_WORDS = [
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "Paid help in the household",
+    "lv": "Domestic help",
     "level": "C1"
   },
   {
@@ -2852,12 +2852,12 @@ const C1_WORDS = [
   },
   {
     "de": "herunterstürzen",
-    "lv": "Fall to the ground • Fall to the ground",
+    "lv": "Plunge down • Crash to the ground",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "Get excited",
+    "lv": "Be carried away",
     "level": "C1"
   },
   {
@@ -2881,7 +2881,7 @@ const C1_WORDS = [
   },
   {
     "de": "inhaftieren",
-    "lv": "To arrest",
+    "lv": "To imprison",
     "level": "C1"
   },
   {
@@ -2913,7 +2913,7 @@ const C1_WORDS = [
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "Justice • Legal cases",
+    "lv": "Justice • Judiciary",
     "level": "C1"
   },
   {
@@ -2953,14 +2953,14 @@ const C1_WORDS = [
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "Disease agent",
+    "lv": "Pathogen",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "A war invalid",
+    "lv": "A person disabled by war",
     "level": "C1"
   },
   {
@@ -2993,14 +2993,14 @@ const C1_WORDS = [
   },
   {
     "de": "lebensgefährlich",
-    "lv": "Life threatening • Dangerous",
+    "lv": "Life-threatening • Dangerous",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "Spouse in an unregistered marriage",
+    "lv": "Unmarried partner",
     "level": "C1"
   },
   {
@@ -3013,7 +3013,7 @@ const C1_WORDS = [
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "Professional sports",
+    "lv": "High-performance sport",
     "level": "C1"
   },
   {
@@ -3025,14 +3025,14 @@ const C1_WORDS = [
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "Intimate relationships",
+    "lv": "Romantic relationship",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "The discovery of love",
+    "lv": "Declaration of love",
     "level": "C1"
   },
   {
@@ -3052,7 +3052,7 @@ const C1_WORDS = [
     "de": "Machtübernahme",
     "de_article": "die",
     "de_plural": "die Machtübernahmen",
-    "lv": "Seizure of power",
+    "lv": "Takeover of power",
     "level": "C1"
   },
   {
@@ -3085,7 +3085,7 @@ const C1_WORDS = [
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "Knowingly perjury in court",
+    "lv": "Perjury",
     "level": "C1"
   },
   {
@@ -3102,7 +3102,7 @@ const C1_WORDS = [
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "Reference literature • Dictionary • Encyclopedia",
+    "lv": "Reference work • Dictionary • Encyclopaedia",
     "level": "C1"
   },
   {
@@ -3119,7 +3119,7 @@ const C1_WORDS = [
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Depressed • Depressed",
+    "lv": "Dejected • Depressed",
     "level": "C1"
   },
   {
@@ -3154,7 +3154,7 @@ const C1_WORDS = [
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "Original variant",
+    "lv": "Original version",
     "level": "C1"
   },
   {
@@ -3168,14 +3168,14 @@ const C1_WORDS = [
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "Party worker",
+    "lv": "Party official",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "Compulsory study literature",
+    "lv": "Compulsory reading",
     "level": "C1"
   },
   {
@@ -3223,7 +3223,7 @@ const C1_WORDS = [
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "Railway yard",
+    "lv": "Marshalling yard",
     "level": "C1"
   },
   {
@@ -3235,7 +3235,7 @@ const C1_WORDS = [
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "An interior designer",
+    "lv": "An interior decorator",
     "level": "C1"
   },
   {
@@ -3267,7 +3267,7 @@ const C1_WORDS = [
     "de": "Regierungspartei",
     "de_article": "die",
     "de_plural": "die Regierungsparteien",
-    "lv": "Government party",
+    "lv": "Governing party",
     "level": "C1"
   },
   {
@@ -3281,7 +3281,7 @@ const C1_WORDS = [
     "de": "Rentenanspruch",
     "de_article": "der",
     "de_plural": "die Rentenansprüche",
-    "lv": "Right to pension",
+    "lv": "Entitlement to a pension",
     "level": "C1"
   },
   {
@@ -3293,7 +3293,7 @@ const C1_WORDS = [
   },
   {
     "de": "republikanisch",
-    "lv": "Republican • Republics",
+    "lv": "Republican • Relating to a republic",
     "level": "C1"
   },
   {
@@ -3305,7 +3305,7 @@ const C1_WORDS = [
   },
   {
     "de": "sanktionieren",
-    "lv": "Support • Sanction",
+    "lv": "Approve • Sanction",
     "level": "C1"
   },
   {
@@ -3331,7 +3331,7 @@ const C1_WORDS = [
   },
   {
     "de": "schmerzstillend",
-    "lv": "Pain reliever",
+    "lv": "Pain-relieving",
     "level": "C1"
   },
   {
