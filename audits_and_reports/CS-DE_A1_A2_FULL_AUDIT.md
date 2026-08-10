@@ -3,7 +3,7 @@
 **Audita datums:** 2026-08-10  
 **Audita veids:** Pilns CS–DE A1+A2 audits pēc `LANGUAGE_AUDIT_STANDARD`, `APP_QUALITY_STANDARD`, `STUDY_CARD_RULES`, `COMPARISON_STUDY_RULES`, `UI_UX_VISUAL_COLOR_RULES`  
 **Režīms:** Tikai audits — datu faili netika mainīti  
-**Luna modelis:** `gpt-5.6-luna` (skat. §8 — bloķēts bez API atslēgas)
+**Luna modelis:** `gpt-5.6-luna` — ✅ pabeigts (2 342 kartītes, 618 873 tokeni)
 
 ---
 
@@ -20,7 +20,8 @@
 | LV atliekas `sectionAccents` | 19 | 2 065 | 2 084 |
 | Mojibake | 0 | 0 | 0 |
 | `data/` ≡ `www/` | ✅ | ✅ | ✅ |
-| JS sintakse | ✅ | ✅ | ✅ |
+| Luna kvalitātes atradumi | 416 | 1 158 | **1 574** |
+| Luna skartās kartītes | ~250 | ~521 | **771** |
 
 ### Statusi
 
@@ -29,7 +30,7 @@
 | **STRUCTURAL PASS** | ❌ NE | ✅ PASS | A1: 10 trūkstošas study kartītes + lauku neatbilstības |
 | **DE READ-ONLY** | ❌ NE | ✅ PASS | A1: 97 DE lauku neatbilstības pret LV etalonu |
 | **DETERMINISTIC AUDIT** | ❌ NE | ⚠️ DAĻĒJS | A2: masīvas LV atliekas `sectionAccents` un saturā |
-| **LUNA AI AUDITED** | ⏸ BLOĶĒTS | ⏸ BLOĶĒTS | Nav `OPENAI_API_KEY` |
+| **LUNA AI AUDITED** | ✅ PASS | ✅ PASS | 1 574 kvalitātes atradumi (771 unikālas kartītes) |
 | **PRODUCTION READY** | ❌ NE | ❌ NE | Nepieciešama labošanas kārta pirms izmantošanas |
 | **FINAL – OWNER ACCEPTED** | ❌ NE | ❌ NE | Nav native speaker izlases |
 
@@ -59,11 +60,11 @@
 | Study dizains | `node scripts/validate-study-design.js --lang=cs` | A1: 0 sectionAccentIssues; A2: 18 minimalStudy neredzamas, 1 tukšs sectionAccents |
 | Study kartīšu audits | `node scripts/audit-study-cards.js --lang=cs` | A1: 7/124 pass; A2: 47/231 pass |
 | Audita kolektors | `node reports/temp/audit-cs-a1a2-collect.js` | Struktūra, DE, LV atliekas, accents |
-| Luna audits | `node reports/temp/audit-cs-a1a2-luna.js` | ⏸ BLOCKED — nav `OPENAI_API_KEY` |
+| Luna audits | `node reports/temp/audit-cs-a1a2-luna.js` | ✅ COMPLETE — 1 574 atradumi, 618 873 tokeni |
 | JS sintakse | `node --check data/cs/a1.js` / `a2.js` | ✅ PASS |
 | Slāņu identitāte | `diff -q data/cs/*.js www/data/cs/*.js` | ✅ Identiski |
 
-**Pagaidu faili:** `reports/temp/cs-a1-audit-data.json`, `reports/temp/cs-a2-audit-data.json`
+**Pagaidu faili:** `reports/temp/cs-a1-audit-data.json`, `reports/temp/cs-a2-audit-data.json`, `reports/temp/cs-a1a2-luna-linguistic-findings.json`, `reports/temp/cs-a1a2-luna-run.log`
 
 **Audita palīgskripti (nemaina datus):** `reports/temp/audit-cs-a1a2-collect.js`, `reports/temp/openai-luna-cs-a1a2-audit.js`, `reports/temp/audit-cs-a1a2-luna.js`
 
@@ -185,24 +186,78 @@ Piemēri (`abfahren` / `entry[2]`):
 
 ---
 
-## 8. Luna audits (GPT-5.6 Luna)
+## 8. Luna audits (GPT-5.6 Luna) — ✅ PABEIGTS
 
 | Parametrs | Vērtība |
 |---|---|
 | Modelis | `gpt-5.6-luna` |
-| Statuss | **BLOĶĒTS** |
-| Iemesls | `OPENAI_API_KEY` nav pieejama šajā vidē |
-| Sagatavots skripts | `reports/temp/audit-cs-a1a2-luna.js` |
-| Batch izmēri | 60 flashcards / 10 study kartītes |
-| Aptvērums (plānots) | 2 342 ieraksti (578+1427 flash + 124+231 study) |
+| Statuss | **COMPLETE** |
+| Auditētas kartītes | 2 342 (578+1 427 flash + 124+231 study) |
+| Unikālas kartītes ar atradumiem | **771** (33% no kopējā) |
+| Kopējie atradumi | **1 574** |
+| API tokeni | 618 873 |
+| Izvades fails | `reports/temp/cs-a1a2-luna-linguistic-findings.json` |
 
-**Lai pabeigtu Luna auditu:** pievienot `OPENAI_API_KEY` vidē un palaist:
+### 8.1 Smagums pa līmeņiem
+
+| Smagums | A1 | A2 | Kopā |
+|---|---:|---:|---:|
+| CRITICAL | 4 | 4 | **8** |
+| HIGH | 210 | 577 | **787** |
+| MEDIUM | 164 | 514 | **678** |
+| LOW | 38 | 63 | **101** |
+
+### 8.2 Kategorijas (kopā)
+
+| Kategorija | Skaits | Apraksts |
+|---|---:|---|
+| SEMANTICS | 607 | Nepareiza nozīme (slovensko→čeština jaucības) |
+| TRANSLATION | 434 | Burtisks vai nepareizs tulkojums |
+| GRAMMAR | 266 | Vārdu šķira, dzimte, locījums |
+| NATURALNESS | 119 | Nedabiska frāze |
+| ORTHOGRAPHY | 78 | Ortogrāfija/diakritika |
+| FOREIGN_REMNANT | 36 | Angļu/latviešu/slovāku atliekas |
+| STUDY | 26 | Study kartīšu satura kļūdas |
+| COMPARISON | 6 | Salīdzinājuma tabulas kļūdas |
+
+### 8.3 CRITICAL atradumi (8)
+
+| Līmenis | Kartīte | Problēma |
+|---|---|---|
+| A1 | `die` | Study skaidrojumā `umřít` nepareizi aizstāj `die` |
+| A1 | `erst` | Čehu teikums pilnīgi atšķiras no avota |
+| A1 | `es` | `Učím se německy` / `Ona tady pracuje` — nesakrīt ar avotu |
+| A2 | `Achse` | `Osel` (ēzelis) nevis `Osa` (ass) |
+| A2 | `angespannt` | `Čas` (laiks) nevis `Napjatý` |
+| A2 | `halt!` | `Stánek` (kiosks) nevis `Stůj!` |
+| A2 | `die Birne` | `cibule` nevis `hruška/žárovka` |
+
+### 8.4 Tipiski HIGH atradumi (A1 paraugi)
+
+| DE | Esošais CS | Luna ieteikums | Iemesls |
+|---|---|---|---|
+| `alle` | Každý | Všichni | alle = visi, ne katrs |
+| `bedeuten` | Střední | Znamenat | střední = vidējs, ne nozīmēt |
+| `Buch` | Rezervovat | Kniha | rezervovat = rezervēt, ne grāmata |
+| `Buchstabe` | Dopis | Písmeno | dopis = vēstule, ne burts |
+| `du` | Vy | Ty | du = tu, ne jūs |
+| `fett` | Tuk | Tučný | tuk = tauks, ne resns |
+
+### 8.5 FOREIGN_REMNANT (36 atradumi)
+
+Angļu atliekas: `Drink`, `Notebook`, `Cookie`, `Fit`, `At`, `Snack`, `Hit`, `Miss`, `Peeling`  
+Vācu atliekas: `Schnout` (trocken)  
+Citu valodu: `Tuta`, `Mocihnen`, latviešu `Aizvērt` (schließen)
+
+### 8.6 Luna secinājums
+
+Luna audits apstiprina deterministiskos atradumus un atklāj plašu **semantisko kļūdu slāni** — lielākā daļa A1/A2 tulkojumu ir mašīntulkojuma kvalitātē ar biežām slovensko/poļu/angļu ietekmēm. **~33% kartīšu** satur vismaz vienu Luna atzītu kļūdu.
+
+**Atkārtot Luna pēc labojumiem:**
 
 ```bash
 node reports/temp/audit-cs-a1a2-luna.js
 ```
-
-Rezultāts tiks saglabāts: `reports/temp/cs-a1a2-luna-linguistic-findings.json`
 
 ---
 
@@ -212,9 +267,10 @@ Rezultāts tiks saglabāts: `reports/temp/cs-a1a2-luna-linguistic-findings.json`
 
 - **A1** prasa strukturālu un DE integritātes labošanu (10 trūkstošas study kartītes, 26 kartītes ar nepareizu vācu saturu study sadaļās).
 - **A2** ir strukturāli korekts, bet satur masīvas tulkojumu kvalitātes problēmas — īpaši neiztulkoti latviešu `sectionAccents` termini un latviešu teksts 108+ study kartītēs.
-- **Luna valodnieciskais audits** nav pabeigts — nepieciešama `OPENAI_API_KEY`.
+- **Luna valodnieciskais audits** — ✅ pabeigts: **1 574** atradumi, **771** skartās kartītes, 8 CRITICAL.
 
 ✅ Tikai audits — datu faili netika mainīti.  
 ✅ Mojibake, JS sintakse, `www` sinhronizācija — PASS.  
+✅ Luna AI AUDITED — PASS (ar atradumiem).  
 ❌ PRODUCTION READY — NE.  
 ❌ FINAL – OWNER ACCEPTED — NE.
