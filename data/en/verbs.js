@@ -662,7 +662,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bleiben",
-      "lv": "palikt"
+      "lv": "to stay"
     },
     "praesens": {
       "de": "er bleibt",
@@ -678,7 +678,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "palicis"
+      "lv": "stayed"
     }
   },
   {
@@ -706,29 +706,29 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "cept"
+      "lv": "to fry / to roast"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "he bakes"
+      "lv": "he fries / roasts"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "he was baking"
+      "lv": "he fried / roasted"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "he would bake"
+      "lv": "he would fry / roast"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
-      "lv": "cepts / izcepts"
+      "lv": "fried / roasted"
     }
   },
   {
     "infinitiv": {
       "de": "brechen",
-      "lv": "lauzt"
+      "lv": "to break"
     },
     "praesens": {
       "de": "er bricht",
@@ -744,13 +744,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "lauzts / salauzts"
+      "lv": "broken"
     }
   },
   {
     "infinitiv": {
       "de": "brennen",
-      "lv": "degt"
+      "lv": "to burn"
     },
     "praesens": {
       "de": "er brennt",
@@ -758,7 +758,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "dega"
+      "lv": "burned"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
@@ -766,29 +766,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebrannt",
-      "lv": "dedzis"
+      "lv": "burned"
     }
   },
   {
     "infinitiv": {
       "de": "bringen",
-      "lv": "nest"
+      "lv": "to bring"
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "he carries"
+      "lv": "he brings"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "he carried"
+      "lv": "he brought"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
-      "lv": "he would carry"
+      "lv": "he would bring"
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "nests / atnests"
+      "lv": "brought"
     }
   },
   {
@@ -838,7 +838,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "kult"
+      "lv": "to thresh"
     },
     "praesens": {
       "de": "er drischt",
@@ -850,17 +850,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "he would worship"
+      "lv": "he would thresh"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "kults"
+      "lv": "threshed"
     }
   },
   {
     "infinitiv": {
       "de": "dringen",
-      "lv": "ielauzties"
+      "lv": "to break in"
     },
     "praesens": {
       "de": "er dringt",
@@ -876,13 +876,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "ielauzies"
+      "lv": "broken in"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "it seems"
+      "lv": "to seem"
     },
     "praesens": {
       "de": "es dünkt",
@@ -894,7 +894,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "deuchte",
-      "lv": "it seemed"
+      "lv": "it would seem"
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
@@ -926,7 +926,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "empfehlen",
-      "lv": "ieteikt"
+      "lv": "to recommend"
     },
     "praesens": {
       "de": "er empfiehlt",
@@ -942,13 +942,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
-      "lv": "ieteikts"
+      "lv": "recommended"
     }
   },
   {
     "infinitiv": {
       "de": "empfinden",
-      "lv": "sajust"
+      "lv": "to feel"
     },
     "praesens": {
       "de": "er empfindet",
@@ -964,13 +964,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "sajusts"
+      "lv": "felt"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "izdzist"
+      "lv": "to go out"
     },
     "praesens": {
       "de": "er erlischt",
@@ -986,13 +986,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
-      "lv": "izdzisis"
+      "lv": "gone out"
     }
   },
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "get confused"
+      "lv": "to get frightened"
     },
     "praesens": {
       "de": "er erschrickt",
@@ -1008,7 +1008,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "erschrocken (er ist)",
-      "lv": "sabijies"
+      "lv": "frightened"
     }
   },
   {
@@ -1036,7 +1036,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "fahren",
-      "lv": "braukt"
+      "lv": "to drive"
     },
     "praesens": {
       "de": "er fährt",
@@ -1052,13 +1052,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "braucis / aizbraucis"
+      "lv": "driven"
     }
   },
   {
     "infinitiv": {
       "de": "fallen",
-      "lv": "krist"
+      "lv": "to fall"
     },
     "praesens": {
       "de": "er fällt",
@@ -1074,7 +1074,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "kritis"
+      "lv": "fallen"
     }
   },
   {
@@ -1102,7 +1102,7 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "finden",
-      "lv": "atrast"
+      "lv": "to find"
     },
     "praesens": {
       "de": "er findet",
@@ -1118,13 +1118,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "atrasts"
+      "lv": "found"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "laisties"
+      "lv": "to fly"
     },
     "praesens": {
       "de": "er fliegt",
@@ -1140,7 +1140,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
-      "lv": "lidojis"
+      "lv": "flown"
     }
   },
   {
@@ -1162,7 +1162,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "ran away"
+      "lv": "fled"
     }
   },
   {
@@ -1172,25 +1172,25 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "he runs"
+      "lv": "he flows"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "he ran"
+      "lv": "he flowed"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "he would run"
+      "lv": "he would flow"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "passed"
+      "lv": "flowed"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "eat tomorrow"
+      "lv": "to eat / to devour"
     },
     "praesens": {
       "de": "er frisst",
@@ -1206,7 +1206,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "eaten / morning"
+      "lv": "eaten / devoured"
     }
   },
   {

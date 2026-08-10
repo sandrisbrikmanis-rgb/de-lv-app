@@ -1,0 +1,339 @@
+{
+  "applied": 47,
+  "repairs": [
+    {
+      "index": 30,
+      "infinitiv": "bleiben",
+      "field": "infinitiv",
+      "before": "palikt",
+      "after": "to stay"
+    },
+    {
+      "index": 30,
+      "infinitiv": "bleiben",
+      "field": "partizipVergangenheit",
+      "before": "palicis",
+      "after": "stayed"
+    },
+    {
+      "index": 32,
+      "infinitiv": "braten",
+      "field": "infinitiv",
+      "before": "cept",
+      "after": "to fry / to roast"
+    },
+    {
+      "index": 32,
+      "infinitiv": "braten",
+      "field": "praesens",
+      "before": "he bakes",
+      "after": "he fries / roasts"
+    },
+    {
+      "index": 32,
+      "infinitiv": "braten",
+      "field": "imperfektIndikativ",
+      "before": "he was baking",
+      "after": "he fried / roasted"
+    },
+    {
+      "index": 32,
+      "infinitiv": "braten",
+      "field": "imperfektKonjunktiv",
+      "before": "he would bake",
+      "after": "he would fry / roast"
+    },
+    {
+      "index": 32,
+      "infinitiv": "braten",
+      "field": "partizipVergangenheit",
+      "before": "cepts / izcepts",
+      "after": "fried / roasted"
+    },
+    {
+      "index": 33,
+      "infinitiv": "brechen",
+      "field": "infinitiv",
+      "before": "lauzt",
+      "after": "to break"
+    },
+    {
+      "index": 33,
+      "infinitiv": "brechen",
+      "field": "partizipVergangenheit",
+      "before": "lauzts / salauzts",
+      "after": "broken"
+    },
+    {
+      "index": 34,
+      "infinitiv": "brennen",
+      "field": "infinitiv",
+      "before": "degt",
+      "after": "to burn"
+    },
+    {
+      "index": 34,
+      "infinitiv": "brennen",
+      "field": "imperfektIndikativ",
+      "before": "dega",
+      "after": "burned"
+    },
+    {
+      "index": 34,
+      "infinitiv": "brennen",
+      "field": "partizipVergangenheit",
+      "before": "dedzis",
+      "after": "burned"
+    },
+    {
+      "index": 35,
+      "infinitiv": "bringen",
+      "field": "infinitiv",
+      "before": "nest",
+      "after": "to bring"
+    },
+    {
+      "index": 35,
+      "infinitiv": "bringen",
+      "field": "praesens",
+      "before": "he carries",
+      "after": "he brings"
+    },
+    {
+      "index": 35,
+      "infinitiv": "bringen",
+      "field": "imperfektIndikativ",
+      "before": "he carried",
+      "after": "he brought"
+    },
+    {
+      "index": 35,
+      "infinitiv": "bringen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would carry",
+      "after": "he would bring"
+    },
+    {
+      "index": 35,
+      "infinitiv": "bringen",
+      "field": "partizipVergangenheit",
+      "before": "nests / atnests",
+      "after": "brought"
+    },
+    {
+      "index": 38,
+      "infinitiv": "dreschen",
+      "field": "infinitiv",
+      "before": "kult",
+      "after": "to thresh"
+    },
+    {
+      "index": 38,
+      "infinitiv": "dreschen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would worship",
+      "after": "he would thresh"
+    },
+    {
+      "index": 38,
+      "infinitiv": "dreschen",
+      "field": "partizipVergangenheit",
+      "before": "kults",
+      "after": "threshed"
+    },
+    {
+      "index": 39,
+      "infinitiv": "dringen",
+      "field": "infinitiv",
+      "before": "ielauzties",
+      "after": "to break in"
+    },
+    {
+      "index": 39,
+      "infinitiv": "dringen",
+      "field": "partizipVergangenheit",
+      "before": "ielauzies",
+      "after": "broken in"
+    },
+    {
+      "index": 40,
+      "infinitiv": "dünken",
+      "field": "infinitiv",
+      "before": "it seems",
+      "after": "to seem"
+    },
+    {
+      "index": 40,
+      "infinitiv": "dünken",
+      "field": "imperfektKonjunktiv",
+      "before": "it seemed",
+      "after": "it would seem"
+    },
+    {
+      "index": 42,
+      "infinitiv": "empfehlen",
+      "field": "infinitiv",
+      "before": "ieteikt",
+      "after": "to recommend"
+    },
+    {
+      "index": 42,
+      "infinitiv": "empfehlen",
+      "field": "partizipVergangenheit",
+      "before": "ieteikts",
+      "after": "recommended"
+    },
+    {
+      "index": 43,
+      "infinitiv": "empfinden",
+      "field": "infinitiv",
+      "before": "sajust",
+      "after": "to feel"
+    },
+    {
+      "index": 43,
+      "infinitiv": "empfinden",
+      "field": "partizipVergangenheit",
+      "before": "sajusts",
+      "after": "felt"
+    },
+    {
+      "index": 44,
+      "infinitiv": "erlöschen",
+      "field": "infinitiv",
+      "before": "izdzist",
+      "after": "to go out"
+    },
+    {
+      "index": 44,
+      "infinitiv": "erlöschen",
+      "field": "partizipVergangenheit",
+      "before": "izdzisis",
+      "after": "gone out"
+    },
+    {
+      "index": 45,
+      "infinitiv": "erschrecken",
+      "field": "infinitiv",
+      "before": "get confused",
+      "after": "to get frightened"
+    },
+    {
+      "index": 45,
+      "infinitiv": "erschrecken",
+      "field": "partizipVergangenheit",
+      "before": "sabijies",
+      "after": "frightened"
+    },
+    {
+      "index": 47,
+      "infinitiv": "fahren",
+      "field": "infinitiv",
+      "before": "braukt",
+      "after": "to drive"
+    },
+    {
+      "index": 47,
+      "infinitiv": "fahren",
+      "field": "partizipVergangenheit",
+      "before": "braucis / aizbraucis",
+      "after": "driven"
+    },
+    {
+      "index": 48,
+      "infinitiv": "fallen",
+      "field": "infinitiv",
+      "before": "krist",
+      "after": "to fall"
+    },
+    {
+      "index": 48,
+      "infinitiv": "fallen",
+      "field": "partizipVergangenheit",
+      "before": "kritis",
+      "after": "fallen"
+    },
+    {
+      "index": 50,
+      "infinitiv": "finden",
+      "field": "infinitiv",
+      "before": "atrast",
+      "after": "to find"
+    },
+    {
+      "index": 50,
+      "infinitiv": "finden",
+      "field": "partizipVergangenheit",
+      "before": "atrasts",
+      "after": "found"
+    },
+    {
+      "index": 51,
+      "infinitiv": "fliegen",
+      "field": "infinitiv",
+      "before": "laisties",
+      "after": "to fly"
+    },
+    {
+      "index": 51,
+      "infinitiv": "fliegen",
+      "field": "partizipVergangenheit",
+      "before": "lidojis",
+      "after": "flown"
+    },
+    {
+      "index": 52,
+      "infinitiv": "fliehen",
+      "field": "partizipVergangenheit",
+      "before": "ran away",
+      "after": "fled"
+    },
+    {
+      "index": 53,
+      "infinitiv": "fließen",
+      "field": "praesens",
+      "before": "he runs",
+      "after": "he flows"
+    },
+    {
+      "index": 53,
+      "infinitiv": "fließen",
+      "field": "imperfektIndikativ",
+      "before": "he ran",
+      "after": "he flowed"
+    },
+    {
+      "index": 53,
+      "infinitiv": "fließen",
+      "field": "imperfektKonjunktiv",
+      "before": "he would run",
+      "after": "he would flow"
+    },
+    {
+      "index": 53,
+      "infinitiv": "fließen",
+      "field": "partizipVergangenheit",
+      "before": "passed",
+      "after": "flowed"
+    },
+    {
+      "index": 54,
+      "infinitiv": "fressen",
+      "field": "infinitiv",
+      "before": "eat tomorrow",
+      "after": "to eat / to devour"
+    },
+    {
+      "index": 54,
+      "infinitiv": "fressen",
+      "field": "partizipVergangenheit",
+      "before": "eaten / morning",
+      "after": "eaten / devoured"
+    }
+  ],
+  "deSourceIssue": [
+    "verb-31-bleichen/imperfektKonjunktiv stays bleached",
+    "verb-34-brennen/imperfektKonjunktiv stays dega",
+    "verb-41-dürfen/imperfektKonjunktiv stays was allowed"
+  ]
+}
