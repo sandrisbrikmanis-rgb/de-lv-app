@@ -11,8 +11,8 @@
 | --- | --- |
 | Integration branch | `cursor/global-sentences-final-main-consolidation-6850` |
 | Main before | `53f83b3c859d77c14aee0c2edce99b185ce6d268` |
-| Main after | `e33c5052dd607256655a98cb29d474d31e22a7cf` |
-| origin/main | `e33c5052dd607256655a98cb29d474d31e22a7cf` |
+| Main after | `75098783cb9cbc178b9665dec97ef22bef0a2b38` |
+| origin/main | `75098783cb9cbc178b9665dec97ef22bef0a2b38` |
 | Merge type | **Fast-forward** (closure artifacts only; no production sentences changes) |
 | Conflicts | **0** |
 | Integrated commits | **0** content commits — all CLOSED datasets already on main |
@@ -22,7 +22,7 @@
 
 | SHA | Apraksts |
 | --- | --- |
-| `99a1e220` | Global Teikumi verify PASS + closure report |
+| `e33c5052` | Update consolidation report with MAIN_AFTER SHA |
 
 **Production sentences files changed:** 0  
 **Unexpected files in diff audit:** 0
