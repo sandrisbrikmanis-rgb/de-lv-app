@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-08-10T16:06:50.964Z",
+  "verbs": 189,
+  "formsPerVerb": 5,
+  "totalForms": 945,
+  "mirrorPass": true,
+  "syntaxPass": true,
+  "countParity": true,
+  "deReadOnly": true,
+  "lvReadOnly": true,
+  "deMismatchCount": 0,
+  "semicolonCount": 0,
+  "mojibakeCount": 0,
+  "zwspCount": 0,
+  "lvRemnantCount": 0,
+  "placeholderCount": 0,
+  "emptyNativeCount": 0,
+  "issues": [],
+  "pass": true
+}
