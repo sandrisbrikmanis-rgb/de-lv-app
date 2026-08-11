@@ -2383,7 +2383,7 @@ const A1_WORDS = [
   },
   {
     "de": "bedeuten",
-    "lv": "Střední",
+    "lv": "Znamenat",
     "level": "A1"
   },
   {
@@ -2790,14 +2790,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Prosím",
       "explanation": [
-        "Hlavní myšlenka: Zdvořilé slovo s malými písmeny. Byl jsem zdvořilý - prosím.",
-        "Bitte znamená hlavně: zdvořilost.",
-        "Často popisuje: zdvořilé slovo.",
-        "Bitte znamená především: požadavek/žádost.",
-        "Často charakterizováno: podstatné jméno (zemřít).",
-        "Bitte s malým písmenem je zdvořilé slovo - znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte s velkým písmenem a členem die je podstatné jméno - znamená žádost nebo žádost (Ich habe eine Bitte = mám žádost).",
-        "Množné číslo: zemřít pokousán."
+        "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+        "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+        "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+        "Množné číslo je die Bitten."
       ],
       "examples": [
         {
@@ -2944,14 +2940,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Žádost",
       "explanation": [
-        "Hlavní myšlenka: Podstatné jméno se členem zemřít a velkým písmenem. Konkrétní požadavek nebo požadavek.",
-        "Die Bitte znamená hlavně: zdvořilost.",
-        "Často popisuje: zdvořilé slovo.",
-        "Die Bitte v podstatě znamená: žádost/žádost.",
-        "Často charakterizováno: podstatné jméno (zemřít).",
-        "Bitte s malým písmenem je zdvořilé slovo - znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte s velkým písmenem a členem die je podstatné jméno - znamená žádost nebo žádost (Ich habe eine Bitte = mám žádost).",
-        "Množné číslo: zemřít pokousán."
+        "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+        "Píše se s velkým písmenem.",
+        "Množné číslo je die Bitten.",
+        "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
       ],
       "examples": [
         {
@@ -3693,7 +3685,7 @@ const A1_WORDS = [
     "de": "Buch",
     "de_article": "das",
     "de_plural": "die Bücher",
-    "lv": "Rezervovat",
+    "lv": "Kniha",
     "level": "A1"
   },
   {
@@ -4035,7 +4027,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "Neuter určitý člen",
+      "translation": "Určitý člen středního rodu",
       "explanation": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
       "examples": [
         {
@@ -4499,7 +4491,7 @@ const A1_WORDS = [
       "id": "a1-die",
       "layout": "standardStudy",
       "translation": "Ženský určitý člen",
-      "explanation": "Používá se s podstatnými jmény ženského rodu. V některých větách může „umřít“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+      "explanation": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
       "examples": [
         {
           "de": "Die Frau ist hier.",
@@ -4599,7 +4591,7 @@ const A1_WORDS = [
       },
       "important": [
         "Na úrovni A1 je kostka nejprve studována jako ženský článek.",
-        "Množné číslo kostky se také používá pro všechna pohlaví."
+        "V množném čísle se die používá pro všechny rody."
       ]
     }
   },
@@ -5270,7 +5262,7 @@ const A1_WORDS = [
     "de": "Erde",
     "de_article": "die",
     "de_plural": "die Erden",
-    "lv": "Přistát",
+    "lv": "Země",
     "level": "A1"
   },
   {
@@ -5486,7 +5478,7 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "To • To • Neosobní podoba",
-      "explanation": "Německé „já“ není zvyklé mluvit o sobě. Používá se k označení: to, to nebo neosobní tvar (počasí, čas, různé neosobní věty).",
+      "explanation": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo „ono“ a také v neosobních větách o počasí, čase a dalších dějích.",
       "examples": [
         {
           "de": "Ich lerne Deutsch.",
@@ -5514,8 +5506,8 @@ const A1_WORDS = [
         }
       ],
       "info": [
-        "Český “es” = vācu “ich”",
-        "Vācu “es” = tas • Tā • Bezpersoniska forma"
+        "České „já“ = německé „ich“",
+        "Německé „es“ = to • ono • bezosobní tvar"
       ],
       "tip": {
         "text": "Pamatujte: českýé \"es\" → ich, ne německé es."
@@ -6051,7 +6043,7 @@ const A1_WORDS = [
       },
       "important": {
         "text": "Fahren ≠ jen „řídit“",
-        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • Vest • Aizvest atkarībā no konteksta."
+        "example": "V němčině může stejné sloveso podle kontextu znamenat: jezdit • vézt • odvézt."
       },
       "accents": {
         "blue": [
@@ -6067,11 +6059,11 @@ const A1_WORDS = [
         ],
         "green": [
           "Transportu",
-          "Transportlīdzekli",
+          "dopravním prostředkem",
           "Auto",
           "Autobusu",
           "Vilcienu",
-          "Velosipēdu"
+          "jízdní kolo"
         ],
         "yellow": [
           "Gehen",
@@ -8680,7 +8672,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "Být nazýván • Podlý",
+      "translation": "Jmenovat se • Znamenat",
       "explanation": [
         "Hlavní myšlenka: heißen se nejčastěji používá k vyjádření toho, jak se někdo jmenuje.",
         "Fráze Ich heiße... znamená „jmenuji se...“.",
@@ -8718,7 +8710,7 @@ const A1_WORDS = [
         },
         {
           "word": "bedeuten",
-          "meaning": "Střední",
+          "meaning": "Znamenat",
           "example": "Was bedeutet das? = Co to znamená?"
         },
         {
@@ -9886,7 +9878,7 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "Berlīnē",
+              "Berlíně",
               "škole",
               "není"
             ]
@@ -11727,7 +11719,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-laden-study",
       "layout": "standardStudy",
-      "translation": "Nakupovat",
+      "translation": "Obchod",
       "explanation": [
         "Hlavní myšlenka: der Laden se píše velkými písmeny a článek der je podstatné jméno – malý obchod.",
         "Laden je malé sloveso - naložit nebo nabít.",
@@ -12062,7 +12054,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "zeme",
-                "planēta"
+                "planeta"
               ]
             },
             "example": {
@@ -13107,7 +13099,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: legen znamená něco položit nebo vodorovně.",
         "Legen se používá, když věc sami přemístíte a položíte na stůl, postel nebo jiný povrch.",
         "Liší se od liegen, což znamená, že už něco leží nebo leží.",
-        "Na úrovni A1 je nejdůležitější rozdíl: legen = ležet, liegen = ležet."
+        "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet."
       ],
       "examples": [
         {
@@ -14440,7 +14432,7 @@ const A1_WORDS = [
   {
     "de": "März",
     "de_article": "der",
-    "lv": "Pochod",
+    "lv": "Březen",
     "level": "A1"
   },
   {
@@ -18289,7 +18281,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-schauen-study",
       "layout": "standardStudy",
-      "translation": "Hodinky",
+      "translation": "Dívat se",
       "explanation": [
         "Hlavní myšlenka: Dívat se nebo se dívat aktivně.",
         "Schauen především znamená: aktivně sledovat.",
@@ -18313,7 +18305,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "schauen",
-          "meaning": "Sledovat (aktivně)",
+          "meaning": "Dívat se (aktivně)",
           "example": "Ich schaue aus dem Fenster. – Dívám se z okna."
         },
         {
@@ -18888,7 +18880,7 @@ const A1_WORDS = [
         },
         {
           "word": "schauen",
-          "meaning": "Hodinky",
+          "meaning": "Dívat se",
           "example": "Ich schaue auf das Bild."
         },
         {
@@ -19528,7 +19520,7 @@ const A1_WORDS = [
       "translation": "Sebe • Pro sebe",
       "explanation": [
         "Hlavní myšlenka: sich ukazuje, že akce se vztahuje k samotnému konateli.",
-        "V češtině se často překládá jako já nebo já.",
+        "V češtině se často překládá jako se, sebe nebo sobě podle pádu.",
         "U některých německých sloves je sich povinnou součástí, jako je sich waschen.",
         "Důležité upozornění na úrovni A1: ich wasche mich, er wäscht sich."
       ],
@@ -20310,8 +20302,8 @@ const A1_WORDS = [
             "sitzen"
           ],
           "purple": [
-            "sēdēt",
-            "sēž"
+            "sedět",
+            "sedí"
           ],
           "red": [
             "stehen",
@@ -20383,7 +20375,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sēdēt"
+                "Sedět"
               ]
             },
             "example": {
@@ -20571,7 +20563,7 @@ const A1_WORDS = [
         "text": "Pamatujte: někdo říká, co má dělat → sollen • Musí být provedeno → müssen."
       },
       "important": [
-        "Byl soll ich machen? je velmi častá věta.",
+        "Was soll ich machen? je velmi častá věta.",
         "Sollen a müssen nejsou úplně stejné."
       ],
       "sectionAccents": {
@@ -20973,7 +20965,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sēdēt"
+                "sedět"
               ]
             },
             "example": {
@@ -21490,7 +21482,7 @@ const A1_WORDS = [
               "über"
             ],
             "purple": [
-              "tēma",
+              "téma",
               "Pamatujte"
             ]
           }
@@ -25442,7 +25434,7 @@ const A1_WORDS = [
         "Podstatné jméno, pouze jednotné číslo. Popisuje televizi jako médium nebo vysílání obecně."
       ],
       "important": [
-        "Fernsehen je dělitelné: sehen + kapradina.",
+        "Sloveso fernsehen je dělitelné na fern + sehen.",
         "Das Fernsehen není množné číslo - ne *die Fernsehen.",
         "Nesprávně: die Fernsehen → Správně: das Fernsehen",
         "Akce: fernsehen → ich sehe fern."
@@ -25713,7 +25705,7 @@ const A1_WORDS = [
             "essen"
           ],
           "purple": [
-            "ēst"
+            "jíst"
           ],
           "blue": [
             "essen",
