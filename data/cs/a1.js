@@ -288,7 +288,7 @@ const A1_WORDS = [
   },
   {
     "de": "alle",
-    "lv": "Každý",
+    "lv": "Všichni",
     "level": "A1"
   },
   {
@@ -887,7 +887,7 @@ const A1_WORDS = [
   },
   {
     "de": "achten",
-    "lv": "Pozorovat",
+    "lv": "Dbát",
     "level": "A1"
   },
   {
@@ -1094,7 +1094,7 @@ const A1_WORDS = [
   },
   {
     "de": "anziehen",
-    "lv": "Nasadit",
+    "lv": "Obléct si",
     "level": "A1"
   },
   {
@@ -1183,7 +1183,7 @@ const A1_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Ruka",
+    "lv": "Paže",
     "level": "A1"
   },
   {
@@ -1197,7 +1197,7 @@ const A1_WORDS = [
     "de": "Ärztin",
     "de_article": "die",
     "de_plural": "die Ärztinnen",
-    "lv": "Lékař",
+    "lv": "Lékařka",
     "level": "A1"
   },
   {
@@ -1490,12 +1490,12 @@ const A1_WORDS = [
   },
   {
     "de": "aufpassen",
-    "lv": "Buďte opatrní",
+    "lv": "Dávat pozor",
     "level": "A1"
   },
   {
     "de": "aufstehen",
-    "lv": "Postavit se",
+    "lv": "Vstát",
     "level": "A1"
   },
   {
