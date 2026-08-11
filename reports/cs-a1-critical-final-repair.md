@@ -4,7 +4,7 @@
 
 - **Repair type:** OWNER-specified CRITICAL `PIRMS → PĒC` (mechanical)
 - **Branch:** `cursor/cs-a1-critical-final-repair-6ea4`
-- **Commit SHA:** `92e92cb2`
+- **Commit SHA:** `fd0926c3`
 - **Model decisions:** OWNER/ChatGPT (Composer mechanical only)
 
 | Metrika | Vērtība |
