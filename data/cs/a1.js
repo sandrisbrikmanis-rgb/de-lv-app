@@ -16853,14 +16853,14 @@ const A1_WORDS = [
   },
   {
     "de": "ob",
-    "lv": "Nebo",
+    "lv": "Zda • Jestli",
     "level": "A1",
     "study": {
       "id": "a1-ob",
       "layout": "standardStudy",
-      "translation": "Nebo",
+      "translation": "Zda • Jestli",
       "explanation": [
-        "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená popř.",
+        "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená „zda“ nebo „jestli“.",
         "Ob se používá po slovech jako fragen, wissen, sehen, sagen, když neexistuje přímá otázka.",
         "Ob se obvykle nepoužívá v přímé otázce v němčině.",
         "Na úrovni A1 je důležité odlišit ob od oder."
@@ -16868,7 +16868,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Nevím jestli přijde."
+          "lv": "Nevím, jestli přijde."
         },
         {
           "de": "Sie fragt, ob du Zeit hast.",
@@ -16886,12 +16886,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ob",
-          "meaning": "Nebo v nepřímé otázce",
+          "meaning": "Zda v nepřímé otázce",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
           "word": "oder",
-          "meaning": "Nebo si vyberte mezi možnostmi",
+          "meaning": "Nebo při volbě mezi možnostmi",
           "example": "Kaffee oder Tee?"
         },
         {
@@ -16910,7 +16910,7 @@ const A1_WORDS = [
       },
       "important": [
         "Ob není obvyklá forma volby „nebo“ mezi dvěma věcmi.",
-        "Kaffee nebo Tee? místo ob. užívá se oder."
+        "V otázce „Kaffee oder Tee?“ se používá oder, nikoli ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17083,20 +17083,20 @@ const A1_WORDS = [
   },
   {
     "de": "oben",
-    "lv": "Výše",
+    "lv": "Nahoře",
     "level": "A1"
   },
   {
     "de": "oder",
-    "lv": "Nebo • Nebo",
+    "lv": "Nebo",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "Nebo • Nebo",
+      "translation": "Nebo",
       "explanation": [
-        "Hlavní myšlenka: oder se používá, když volíme mezi dvěma nebo více možnostmi.",
-        "V češtině oder nejčastěji znamená popř.",
+        "Hlavní myšlenka: oder znamená „nebo“ a používá se při volbě mezi dvěma nebo více možnostmi.",
+        "V češtině oder nejčastěji znamená „nebo“.",
         "Není to totéž jako ob, které zavádí nepřímou otázku.",
         "V rozhovorech může být oder i na konci věty: Du kommst, oder?"
       ],
@@ -17111,7 +17111,7 @@ const A1_WORDS = [
         },
         {
           "de": "Willst du Pizza oder Salat?",
-          "lv": "Chceš pizzu nebo salát"
+          "lv": "Chceš pizzu nebo salát?"
         },
         {
           "de": "Du kommst, oder?",
@@ -17126,7 +17126,7 @@ const A1_WORDS = [
         },
         {
           "word": "ob",
-          "meaning": "Nebo v nepřímé otázce",
+          "meaning": "Zda v nepřímé otázce",
           "example": "Ich weiß nicht, ob er kommt."
         },
         {
@@ -17369,7 +17369,7 @@ const A1_WORDS = [
   },
   {
     "de": "Ostern",
-    "lv": "Velikonoční",
+    "lv": "Velikonoce",
     "level": "A1"
   },
   {
@@ -17395,16 +17395,16 @@ const A1_WORDS = [
   },
   {
     "de": "passen",
-    "lv": "Pasovat • Pasovat",
+    "lv": "Pasovat • Slušet",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "Pasovat • Pasovat",
+      "translation": "Pasovat • Slušet",
       "explanation": [
         "Hlavní myšlenka: passen znamená pasovat, slušet nebo být vhodný.",
-        "U oblečení passen často znamená přizpůsobit se velikosti.",
-        "Pro barvy nebo styl znamená passen padnout.",
+        "U oblečení passen často znamená dobře sedět nebo pasovat velikostí.",
+        "U barev nebo stylu passen znamená slušet nebo ladit.",
         "Velmi častou frází je Das passt. = Hodí se."
       ],
       "examples": [
@@ -17428,12 +17428,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "passen",
-          "meaning": "Fit / fit",
+          "meaning": "Pasovat • Slušet",
           "example": "Die Jacke passt mir."
         },
         {
           "word": "stehen",
-          "meaning": "Stát / stát",
+          "meaning": "Slušet • Stát",
           "example": "Rot steht dir gut."
         },
         {
@@ -17443,7 +17443,7 @@ const A1_WORDS = [
         },
         {
           "word": "funktionieren",
-          "meaning": "Provozovat",
+          "meaning": "Fungovat",
           "example": "Das funktioniert."
         }
       ],
@@ -17660,7 +17660,7 @@ const A1_WORDS = [
     "de": "Pferd",
     "de_article": "das",
     "de_plural": "die Pferde",
-    "lv": "Koně",
+    "lv": "Kůň",
     "level": "A1"
   },
   {
@@ -17727,7 +17727,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Probier mal die Suppe!",
-          "lv": "Ochutnejte polévku!"
+          "lv": "Ochutnej polévku!"
         },
         {
           "de": "Ich möchte den Kuchen probieren.",
@@ -17765,7 +17765,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: jídlo → probieren = podle chuti."
+        "text": "Pamatujte: jídlo → probieren = ochutnat."
       },
       "important": [
         "Probieren není hlavní slovo pro formální zkoušku.",
@@ -17980,7 +17980,7 @@ const A1_WORDS = [
     "de": "Programm",
     "de_article": "das",
     "de_plural": "die Programme",
-    "lv": "Naprogramovat",
+    "lv": "Program",
     "level": "A1"
   },
   {
@@ -17999,7 +17999,7 @@ const A1_WORDS = [
   },
   {
     "de": "putzen",
-    "lv": "Vyčistit",
+    "lv": "Čistit",
     "level": "A1"
   },
   {
@@ -18021,7 +18021,7 @@ const A1_WORDS = [
   },
   {
     "de": "rechts",
-    "lv": "Doprava • Doprava",
+    "lv": "Doprava • Pravý",
     "level": "A1"
   },
   {
@@ -18044,7 +18044,7 @@ const A1_WORDS = [
   },
   {
     "de": "regnen",
-    "lv": "Prší",
+    "lv": "Pršet",
     "level": "A1"
   },
   {
@@ -18056,7 +18056,7 @@ const A1_WORDS = [
       "id": "a1-reis",
       "layout": "standardStudy",
       "translation": "Rýže",
-      "explanation": "V němčině se slovo „der Reis“ používá pouze v jednotném čísle, takže sloveso ve větě musí být v jednotném čísle (např. „ist“, nikoli „sind“). Lotyši však často říkají „rýže“.",
+      "explanation": "V němčině se slovo „der Reis“ používá pouze v jednotném čísle, takže sloveso ve větě musí být v jednotném čísle (např. „ist“, nikoli „sind“). V češtině je „rýže“ také podstatné jméno v jednotném čísle.",
       "examples": [
         {
           "de": "Der Reis ist fertig.",
@@ -18080,7 +18080,7 @@ const A1_WORDS = [
       },
       "important": [
         "Der Reis - v němčině pouze jednotné číslo (Der Reis ist..., nicht *sind).",
-        "V českým překladu se často používá množné číslo: rýže je hotová."
+        "V českém překladu se používá jednotné číslo: rýže je hotová."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18137,7 +18137,7 @@ const A1_WORDS = [
   },
   {
     "de": "richtig",
-    "lv": "Opravit",
+    "lv": "Správný",
     "level": "A1"
   },
   {
