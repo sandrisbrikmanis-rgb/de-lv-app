@@ -11859,7 +11859,7 @@ const A1_WORDS = [
     "de": "Lampe",
     "de_article": "die",
     "de_plural": "die Lampen",
-    "lv": "Svítilna",
+    "lv": "Lampa",
     "level": "A1"
   },
   {
@@ -11871,10 +11871,10 @@ const A1_WORDS = [
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
-      "translation": "Země • Země",
+      "translation": "Země • Venkov",
       "explanation": [
         "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo pozemek za městem.",
-        "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
+        "Pokud jde o Německo, Česko nebo jiné území s hranicemi, Land se překládá jako země.",
         "Když mluvíte o venkově nebo zemi na rozdíl od města, překládejte jako venkov nebo země.",
         "Kontext určuje, zda máme na mysli zemi, venkov nebo zemi."
       ],
@@ -11899,7 +11899,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "das Land",
-          "meaning": "Země / země / venkov",
+          "meaning": "Země • Venkov",
           "example": "Deutschland ist ein Land."
         },
         {
@@ -11922,7 +11922,7 @@ const A1_WORDS = [
         "text": "Pamatujte: země → das Land • Město → die Stadt."
       },
       "important": [
-        "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+        "Aufs Land znamená „na venkov“, nikoli „do země“.",
         "Das Land není totéž co die Stadt."
       ],
       "sectionAccents": {
@@ -12009,7 +12009,7 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "Země",
-                "zeme",
+                "venkov",
                 "Země"
               ]
             },
@@ -12061,8 +12061,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "zeme",
-                "planēta"
+                "Země",
+                "planeta"
               ]
             },
             "example": {
@@ -12117,13 +12117,13 @@ const A1_WORDS = [
     "study": {
       "id": "a1-lang",
       "layout": "standardStudy",
-      "translation": "Dlouhý • Dlouhý",
+      "translation": "Dlouhý • Dlouho",
       "explanation": [
         "Hlavní myšlenka: lang prostorově znamená dlouhý, časově dlouhý.",
         "Pokud jde o velikost nebo vzdálenost, lang = dlouhý (ein langer Tisch = dlouhý stůl).",
         "Pokud jde o délku času, lang = dlouhý (ein langer Tag = dlouhý den).",
         "Ve frázi den ganzen Tag lang to znamená celý den (na délku).",
-        "České „dlouhý“ a „dlouhý“ jsou dvě různá slova, ale německý jazyk zahrnuje oba významy."
+        "České „dlouhý“ a „dlouho“ jsou dvě různé podoby, ale německé lang pokrývá oba významy."
       ],
       "examples": [
         {
@@ -12144,7 +12144,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich warte schon lange.",
-          "lv": "Čekal jsem dlouho."
+          "lv": "Čekám už dlouho."
         },
         {
           "de": "Den ganzen Tag lang.",
@@ -12293,17 +12293,17 @@ const A1_WORDS = [
     "study": {
       "id": "a1-lassen",
       "layout": "standardStudy",
-      "translation": "Opustit • Nechat",
+      "translation": "Nechat • Dovolit",
       "explanation": [
         "Hlavní myšlenka: lassen znamená něco opustit nebo nechat něco, aby se stalo.",
-        "Pokud něco zůstane na místě, lassen se překládá jako odejít.",
+        "Pokud něco necháte na místě, lassen se překládá jako nechat.",
         "Pokud někomu dáte svolení, lassen se překládá jako nechat.",
         "Velmi častou formou konverzace je Lass mich! = Nech mě být! nebo Nech mě!"
       ],
       "examples": [
         {
           "de": "Ich lasse die Tasche hier.",
-          "lv": "Nechal jsem tu tašku"
+          "lv": "Nechávám tu tašku."
         },
         {
           "de": "Lass das bitte auf dem Tisch.",
@@ -12311,7 +12311,7 @@ const A1_WORDS = [
         },
         {
           "de": "Meine Eltern lassen mich gehen.",
-          "lv": "Rodiče mě nechali jít."
+          "lv": "Rodiče mě nechávají jít."
         },
         {
           "de": "Lass mich in Ruhe!",
@@ -12321,12 +12321,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "lassen",
-          "meaning": "Nechat / nechat",
+          "meaning": "Nechat • Dovolit",
           "example": "Ich lasse das hier."
         },
         {
           "word": "bleiben",
-          "meaning": "Pobyt",
+          "meaning": "Zůstat",
           "example": "Ich bleibe hier."
         },
         {
@@ -12345,7 +12345,7 @@ const A1_WORDS = [
       },
       "important": [
         "Lassen není jen „odejít“. Často to také znamená „nechat“.",
-        "Lass mich v Ruhe! existuje velmi častá věta: \"Nech mě na pokoji!\""
+        "Lass mich in Ruhe! je velmi častá věta: „Nech mě na pokoji!“"
       ],
       "sectionAccents": {
         "explanation": {
@@ -12527,9 +12527,9 @@ const A1_WORDS = [
     "study": {
       "id": "a1-laufen",
       "layout": "standardStudy",
-      "translation": "Běžet • Provozovat",
+      "translation": "Běžet • Fungovat",
       "explanation": [
-        "Hlavní myšlenka: laufen znamená běhat, ale u zařízení to může znamenat běhat.",
+        "Hlavní myšlenka: laufen znamená běhat, ale u zařízení může znamenat fungovat nebo běžet.",
         "Pro člověka nebo zvíře laufen často znamená běžet nebo chodit rychlým tempem.",
         "Pro film, stroj nebo program laufen znamená, že běží nebo se děje.",
         "Pro pohyb nohou na úrovni A1 se nejčastěji srovnávají gehen a laufen."
@@ -12555,7 +12555,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "laufen",
-          "meaning": "Spustit / provozovat",
+          "meaning": "Běžet • Fungovat",
           "example": "Er läuft schnell."
         },
         {
@@ -12570,7 +12570,7 @@ const A1_WORDS = [
         },
         {
           "word": "funktionieren",
-          "meaning": "Provozovat",
+          "meaning": "Fungovat",
           "example": "Das funktioniert gut."
         }
       ],
@@ -12578,7 +12578,7 @@ const A1_WORDS = [
         "text": "Pamatujte: nohy rychle → laufen • Doprava → fahren."
       },
       "important": [
-        "Laufen není jen „běh“. U filmu nebo zařízení to může znamenat „jít“ nebo „jednat“.",
+        "Laufen není jen „běhat“. U filmu nebo zařízení to může znamenat „běžet“ nebo „fungovat“.",
         "Ich laufe znamená pohyb pěšky, ne řízení."
       ],
       "sectionAccents": {
@@ -12771,9 +12771,9 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Malé přídavné jméno. Popisuje hlasitost – jak hlasitý je zvuk nebo řeč.",
         "Laut znamená hlavně: hlasitý zvuk.",
-        "Často popisuje: přídavné jméno.",
-        "Laut v podstatě znamená: zvukový signál.",
-        "Často popisuje: podstatné jméno (der).",
+        "Je to přídavné jméno.",
+        "Der Laut znamená zvuk nebo zvukový signál.",
+        "Je to podstatné jméno se členem der.",
         "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
         "Der Laut s velkým písmenem a členem der je podstatné jméno - znamená zvuk jako věc nebo signál (Der Laut ist schön = zvuk je krásný).",
         "Množné číslo: die Laute."
@@ -12806,7 +12806,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Malý laut = hlasitý (přídavné jméno: ist laut). der Laut s velkým písmenem = zvuk (podstatné jméno: ein Laut, der Laut).",
-        "Laut = zvuk"
+        "Der Laut = zvuk"
       ],
       "important": [
         "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
@@ -12932,9 +12932,9 @@ const A1_WORDS = [
       "translation": "Zvuk",
       "explanation": [
         "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
-        "Der Laut primárně znamená: hlasitý zvuk.",
-        "Často popisuje: přídavné jméno.",
-        "Der Laut primárně znamená: zvukový signál.",
+        "Der Laut primárně znamená zvuk nebo zvukový signál.",
+        "Malé laut je přídavné jméno.",
+        "Der Laut může znamenat zvukový signál nebo hlásku.",
         "Často popisuje: podstatné jméno (der).",
         "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
         "Der Laut s velkým písmenem a členem der je podstatné jméno - znamená zvuk jako věc nebo signál (Der Laut ist schön = zvuk je krásný).",
@@ -13087,7 +13087,7 @@ const A1_WORDS = [
   },
   {
     "de": "lecker",
-    "lv": "Vynikající",
+    "lv": "Chutný",
     "level": "A1"
   },
   {
@@ -13107,7 +13107,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: legen znamená něco položit nebo vodorovně.",
         "Legen se používá, když věc sami přemístíte a položíte na stůl, postel nebo jiný povrch.",
         "Liší se od liegen, což znamená, že už něco leží nebo leží.",
-        "Na úrovni A1 je nejdůležitější rozdíl: legen = ležet, liegen = ležet."
+        "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet."
       ],
       "examples": [
         {
@@ -13135,7 +13135,7 @@ const A1_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "Být / spát",
+          "meaning": "Ležet • Nacházet se",
           "example": "Das Buch liegt auf dem Tisch."
         },
         {
@@ -13145,16 +13145,16 @@ const A1_WORDS = [
         },
         {
           "word": "setzen",
-          "meaning": "Sednout si / sednout si",
+          "meaning": "Posadit • Sednout si",
           "example": "Ich setze mich."
         }
       ],
       "tip": {
-        "text": "Pamatujte: ležíte → legen • Ta věc už tam je → liegen."
+        "text": "Pamatujte: položíte → legen • ta věc už leží → liegen."
       },
       "important": [
         "Legen a liegen nejsou totéž.",
-        "Ich lege das Buch = knihu jsem odložil. Das Buch liegt = kniha lže."
+        "Ich lege das Buch = položím knihu. Das Buch liegt = kniha leží."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13379,7 +13379,7 @@ const A1_WORDS = [
     "de": "Lehrerin",
     "de_article": "die",
     "de_plural": "die Lehrerinnen",
-    "lv": "Učitel",
+    "lv": "Učitelka",
     "level": "A1"
   },
   {
@@ -13394,12 +13394,12 @@ const A1_WORDS = [
   },
   {
     "de": "leise",
-    "lv": "Klid",
+    "lv": "Tichý • Potichu",
     "level": "A1",
     "study": {
       "id": "a1-leise-study",
       "layout": "standardStudy",
-      "translation": "Klid",
+      "translation": "Tichý • Potichu",
       "explanation": [
         "Hlavní myšlenka: Tichá nebo nízká hlasitost.",
         "Leise v podstatě znamená: nízká hlasitost.",
@@ -13409,11 +13409,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "Prosím, buďte zticha."
+          "lv": "Prosím, buď zticha."
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "Prosím buď zticha"
+          "lv": "Prosím, buď zticha."
         },
         {
           "de": "Die Musik ist leise.",
@@ -13425,7 +13425,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Klid = klid",
+        "Leise = tichý • potichu",
         "Použijte leise, když kontext vyhovuje tomuto významu."
       ],
       "important": [
@@ -13564,15 +13564,15 @@ const A1_WORDS = [
   },
   {
     "de": "liegen",
-    "lv": "Být • Spát",
+    "lv": "Ležet • Být položený",
     "level": "A1",
     "study": {
       "id": "a1-liegen",
       "layout": "standardStudy",
-      "translation": "Být • Spát",
+      "translation": "Ležet • Být položený",
       "explanation": [
         "Hlavní myšlenka: Liegen znamená ležet nebo ležet vodorovně.",
-        "Pro člověka lhaní často znamená spánek.",
+        "U člověka liegen často znamená ležet.",
         "Pro věc liegen znamená, že je někde.",
         "Liší se od legen, což znamená něco odložit."
       ],
@@ -13587,17 +13587,17 @@ const A1_WORDS = [
         },
         {
           "de": "Er liegt im Bett.",
-          "lv": "Spí v posteli."
+          "lv": "Leží v posteli."
         },
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Položil jsem knihu na stůl."
+          "lv": "Položím knihu na stůl."
         }
       ],
       "comparison": [
         {
           "word": "liegen",
-          "meaning": "Být / spát",
+          "meaning": "Ležet • Být položený",
           "example": "Das Buch liegt hier."
         },
         {
@@ -13607,7 +13607,7 @@ const A1_WORDS = [
         },
         {
           "word": "stehen",
-          "meaning": "Stát / stát",
+          "meaning": "Stát • Být postavený",
           "example": "Die Flasche steht auf dem Tisch."
         },
         {
@@ -13842,7 +13842,7 @@ const A1_WORDS = [
   },
   {
     "de": "links",
-    "lv": "Vlevo • Vlevo",
+    "lv": "Vlevo • Levý",
     "level": "A1"
   },
   {
@@ -13894,22 +13894,22 @@ const A1_WORDS = [
   },
   {
     "de": "lustig",
-    "lv": "Zábava",
+    "lv": "Zábavný",
     "level": "A1"
   },
   {
     "de": "machen",
-    "lv": "Dělat • Dělat",
+    "lv": "Dělat • Vyrábět",
     "level": "A1",
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "Dělat • Dělat",
+      "translation": "Dělat • Vyrábět",
       "explanation": [
-        "Hlavní myšlenka: machen je velmi běžné slovo, které znamená vyrobit nebo vyrobit.",
-        "Pokud jde o akci obecně, překládá se to jako jak dělat.",
-        "Pokud se něco vyrábí nebo připravuje, překládá se to jako výroba nebo vaření.",
-        "V mnoha frázích se machen překládá přirozeně do češtině, nikoli doslovně."
+        "Hlavní myšlenka: machen je velmi běžné slovo, které znamená dělat nebo vyrábět.",
+        "Pokud jde o obecnou činnost, překládá se jako dělat.",
+        "Pokud se něco vyrábí nebo připravuje, překládá se podle kontextu jako vyrábět nebo připravovat.",
+        "V mnoha frázích se machen překládá přirozeně do češtiny, nikoli doslovně."
       ],
       "examples": [
         {
@@ -13930,7 +13930,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: Byl machst du? = Co děláš?"
+        "text": "Pamatujte: Was machst du? = Co děláš?"
       },
       "important": [
         "Machen je velmi široké slovo, ale čeština se často musí překládat přirozeně podle situace.",
@@ -14093,17 +14093,17 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Čas",
+    "lv": "Krát • Případ",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Čas",
+      "translation": "Krát • Případ",
       "explanation": [
         "Hlavní myšlenka: das Mal znamená jednou jako událost nebo příležitost.",
         "Často se používá s čísly: ein Mal, zwei Mal, drei Mal.",
         "S pořadovým číslem: das erste Mal, das zweite Mal.",
-        "Nemluvte s hovorovou částicí mal (Komm mal her!) - to je jiný význam."
+        "Nezaměňujte ho s hovorovou částicí mal (Komm mal her!) – jde o jiný význam."
       ],
       "examples": [
         {
@@ -14124,7 +14124,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: das Mal = čas (podstatné jméno) • Mal bez článku = hovorová částice."
+        "text": "Pamatujte: das Mal = krát/případ (podstatné jméno) • mal bez členu = hovorová částice."
       },
       "important": [
         "Das Mal / die Male - podstatné jméno se členem.",
@@ -14266,7 +14266,7 @@ const A1_WORDS = [
         "Pro manžela, der Mann = manžel (mein Mann = můj manžel).",
         "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel – manžel.",
         "Množné číslo: die Männer.",
-        "Ženská forma die Frau má stejný dvojí význam: žena A manželka."
+        "Ženská forma die Frau má stejný dvojí význam: žena a manželka."
       ],
       "examples": [
         {
@@ -14440,7 +14440,7 @@ const A1_WORDS = [
   {
     "de": "März",
     "de_article": "der",
-    "lv": "Pochod",
+    "lv": "Březen",
     "level": "A1"
   },
   {
