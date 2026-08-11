@@ -1,0 +1,3018 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-sehen",
+      "index": 539,
+      "de": "sehen",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.comparison[1].meaning",
+          "ownerValue": "Dívat se"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-sehen",
+        "index": 539,
+        "de": "sehen",
+        "layout": "standardStudy",
+        "csMain": "Vidět",
+        "studyTranslation": "Vidět",
+        "lvSourceMain": "redzēt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "redzēt",
+            "csText": "Vidět",
+            "de": "sehen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es tevi redzu.",
+            "csText": "Vidím tě",
+            "de": "sehen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "vai tu redzi to auto?",
+            "csText": "Vidíš to auto",
+            "de": "sehen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es neko neredzu.",
+            "csText": "Nic nevidím",
+            "de": "sehen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "mēs skatāmies filmu.",
+            "csText": "Díváme se na film.",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sehen",
+            "csText": "sehen",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "redzēt",
+            "csText": "Vidět",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "schauen",
+            "csText": "schauen",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "skatīties",
+            "csText": "Dívat se",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "ansehen",
+            "csText": "ansehen",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "apskatīt / skatīties",
+            "csText": "Pohled / pohled",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "hören",
+            "csText": "hören",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "dzirdēt",
+            "csText": "Slyšet",
+            "de": "sehen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen.",
+            "csText": "Pamatujte: oči vnímají → sehen • Dívat se vědomě → schauen/ansehen.",
+            "de": "sehen"
+          }
+        ],
+        "study": {
+          "id": "a1-sehen",
+          "layout": "standardStudy",
+          "translation": "Vidět",
+          "explanation": [
+            "Hlavní myšlenka: sehen znamená vidět očima.",
+            "Pokud jde o to, co vnímají oči, používá se sehen.",
+            "Dívat se záměrně je často schauen nebo ansehen.",
+            "Velmi častou frází je Ich sehe dich. = Vidím tě."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe dich.",
+              "lv": "Vidím tě"
+            },
+            {
+              "de": "Siehst du das Auto?",
+              "lv": "Vidíš to auto"
+            },
+            {
+              "de": "Ich sehe nichts.",
+              "lv": "Nic nevidím"
+            },
+            {
+              "de": "Wir schauen einen Film.",
+              "lv": "Díváme se na film."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sehen",
+              "meaning": "Vidět",
+              "example": "Ich sehe dich."
+            },
+            {
+              "word": "schauen",
+              "meaning": "Dívat se",
+              "example": "Ich schaue auf das Bild."
+            },
+            {
+              "word": "ansehen",
+              "meaning": "Pohled / pohled",
+              "example": "Ich sehe mir den Film an."
+            },
+            {
+              "word": "hören",
+              "meaning": "Slyšet",
+              "example": "Ich höre Musik."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: oči vnímají → sehen • Dívat se vědomě → schauen/ansehen."
+          },
+          "important": [
+            "Sehen není totéž co anschauen.",
+            "Ich sehe dich = vidím tě • Ich schaue den Film = Dívám se na film."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sehen",
+                "Ich sehe"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "schauen",
+                "ansehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vidím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vidíš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nic"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "schauen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Díváme"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vidět"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schauen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Hodinky"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "schaue"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ansehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pohled",
+                    "Pohled"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "sehe",
+                    "an"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hören"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Slyšet"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "höre"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sehen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "schauen",
+                  "ansehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sehen"
+                ],
+                "red": [
+                  "anschauen"
+                ]
+              },
+              {
+                "blue": [
+                  "sehe"
+                ],
+                "purple": [
+                  "Ich"
+                ],
+                "red": [
+                  "schaue",
+                  "Ich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sehen",
+          "layout": "standardStudy",
+          "translation": "redzēt",
+          "explanation": [
+            "Galvenā doma: sehen nozīmē redzēt ar acīm.",
+            "Ja runa ir par to, ko acis uztver, lieto sehen.",
+            "Skatīties apzināti bieži ir schauen vai ansehen.",
+            "Ļoti bieža frāze ir Ich sehe dich. = Es tevi redzu."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe dich.",
+              "lv": "es tevi redzu."
+            },
+            {
+              "de": "Siehst du das Auto?",
+              "lv": "vai tu redzi to auto?"
+            },
+            {
+              "de": "Ich sehe nichts.",
+              "lv": "es neko neredzu."
+            },
+            {
+              "de": "Wir schauen einen Film.",
+              "lv": "mēs skatāmies filmu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sehen",
+              "meaning": "redzēt",
+              "example": "Ich sehe dich."
+            },
+            {
+              "word": "schauen",
+              "meaning": "skatīties",
+              "example": "Ich schaue auf das Bild."
+            },
+            {
+              "word": "ansehen",
+              "meaning": "apskatīt / skatīties",
+              "example": "Ich sehe mir den Film an."
+            },
+            {
+              "word": "hören",
+              "meaning": "dzirdēt",
+              "example": "Ich höre Musik."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen."
+          },
+          "important": [
+            "sehen nav tas pats, kas anschauen.",
+            "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sehen",
+                "Ich sehe"
+              ],
+              "purple": [
+                "redzēt",
+                "acīm"
+              ],
+              "red": [
+                "schauen",
+                "ansehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "redzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "redzi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "neredzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "schauen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "skatāmies"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "redzēt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schauen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "skatīties"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "schaue"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ansehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "apskatīt",
+                    "skatīties"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "sehe",
+                    "an"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hören"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "dzirdēt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "höre"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sehen"
+                ],
+                "purple": [
+                  "acis uztver"
+                ],
+                "red": [
+                  "schauen",
+                  "ansehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sehen"
+                ],
+                "red": [
+                  "anschauen"
+                ]
+              },
+              {
+                "blue": [
+                  "sehe"
+                ],
+                "purple": [
+                  "redzu"
+                ],
+                "red": [
+                  "schaue",
+                  "skatos"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-sehen",
+        "layout": "standardStudy",
+        "translation": "Vidět",
+        "explanation": [
+          "Hlavní myšlenka: sehen znamená vidět očima.",
+          "Pokud jde o to, co vnímají oči, používá se sehen.",
+          "Dívat se záměrně je často schauen nebo ansehen.",
+          "Velmi častou frází je Ich sehe dich. = Vidím tě."
+        ],
+        "examples": [
+          {
+            "de": "Ich sehe dich.",
+            "lv": "Vidím tě"
+          },
+          {
+            "de": "Siehst du das Auto?",
+            "lv": "Vidíš to auto"
+          },
+          {
+            "de": "Ich sehe nichts.",
+            "lv": "Nic nevidím"
+          },
+          {
+            "de": "Wir schauen einen Film.",
+            "lv": "Díváme se na film."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sehen",
+            "meaning": "Vidět",
+            "example": "Ich sehe dich."
+          },
+          {
+            "word": "schauen",
+            "meaning": "Dívat se",
+            "example": "Ich schaue auf das Bild."
+          },
+          {
+            "word": "ansehen",
+            "meaning": "Pohled / pohled",
+            "example": "Ich sehe mir den Film an."
+          },
+          {
+            "word": "hören",
+            "meaning": "Slyšet",
+            "example": "Ich höre Musik."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: oči vnímají → sehen • Dívat se vědomě → schauen/ansehen."
+        },
+        "important": [
+          "Sehen není totéž co anschauen.",
+          "Ich sehe dich = vidím tě • Ich schaue den Film = Dívám se na film."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "sehen",
+              "Ich sehe"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "schauen",
+              "ansehen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "sehe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vidím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Siehst"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vidíš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sehe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nic"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "schauen"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Díváme"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "sehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vidět"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "sehe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "schauen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Hodinky"
+                ]
+              },
+              "example": {
+                "red": [
+                  "schaue"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ansehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Pohled",
+                  "Pohled"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "sehe",
+                  "an"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "hören"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Slyšet"
+                ]
+              },
+              "example": {
+                "green": [
+                  "höre"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "sehen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "schauen",
+                "ansehen"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "sehen"
+              ],
+              "red": [
+                "anschauen"
+              ]
+            },
+            {
+              "blue": [
+                "sehe"
+              ],
+              "purple": [
+                "Ich"
+              ],
+              "red": [
+                "schaue",
+                "Ich"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "Vidět"
+    },
+    {
+      "cardId": "a1-sich",
+      "index": 547,
+      "de": "sich",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.explanation[1]",
+          "ownerValue": "V češtině se často překládá jako se, sebe nebo sobě podle pádu."
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-sich",
+        "index": 547,
+        "de": "sich",
+        "layout": "standardStudy",
+        "csMain": "Sebe • Pro sebe",
+        "studyTranslation": "Sebe • Pro sebe",
+        "lvSourceMain": "sevi • sev",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "sevi • sev",
+            "csText": "Sebe • Pro sebe",
+            "de": "sich"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "viņš mazgājas.",
+            "csText": "Koupe se.",
+            "de": "sich"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es apsēžos.",
+            "csText": "Posadím se.",
+            "de": "sich"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņa priecājas.",
+            "csText": "Je šťastná.",
+            "de": "sich"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es mazgāju auto.",
+            "csText": "Myji auto",
+            "de": "sich"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sich",
+            "csText": "sich",
+            "de": "sich"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "sevi / sev",
+            "csText": "Já / sebe",
+            "de": "sich"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "mich",
+            "csText": "mich",
+            "de": "sich"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "mani / sevi pie ich",
+            "csText": "Já / já v ich",
+            "de": "sich"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "dich",
+            "csText": "dich",
+            "de": "sich"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "tevi / sevi pie du",
+            "csText": "Ty / já v du",
+            "de": "sich"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "ihn",
+            "csText": "ihn",
+            "de": "sich"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "viņu",
+            "csText": "Mu",
+            "de": "sich"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: darbība uz sevi → sich/mich/dich.",
+            "csText": "Pamatujte: akce na sebe → sich/mich/dich.",
+            "de": "sich"
+          }
+        ],
+        "study": {
+          "id": "a1-sich",
+          "layout": "standardStudy",
+          "translation": "Sebe • Pro sebe",
+          "explanation": [
+            "Hlavní myšlenka: sich ukazuje, že akce se vztahuje k samotnému konateli.",
+            "V češtině se často překládá jako se, sebe nebo sobě podle pádu.",
+            "U některých německých sloves je sich povinnou součástí, jako je sich waschen.",
+            "Důležité upozornění na úrovni A1: ich wasche mich, er wäscht sich."
+          ],
+          "examples": [
+            {
+              "de": "Er wäscht sich.",
+              "lv": "Koupe se."
+            },
+            {
+              "de": "Ich setze mich.",
+              "lv": "Posadím se."
+            },
+            {
+              "de": "Sie freut sich.",
+              "lv": "Je šťastná."
+            },
+            {
+              "de": "Ich wasche das Auto.",
+              "lv": "Myji auto"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sich",
+              "meaning": "Já / sebe",
+              "example": "Er wäscht sich."
+            },
+            {
+              "word": "mich",
+              "meaning": "Já / já v ich",
+              "example": "Ich wasche mich."
+            },
+            {
+              "word": "dich",
+              "meaning": "Ty / já v du",
+              "example": "Du wäschst dich."
+            },
+            {
+              "word": "ihn",
+              "meaning": "Mu",
+              "example": "Ich sehe ihn."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: akce na sebe → sich/mich/dich."
+          },
+          "important": [
+            "Sich není samostatné podstatné jméno.",
+            "Mění se podle osoby: ich → mich, du → dich, er/sie/es → sich."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sich",
+                "ich wasche mich",
+                "er wäscht sich"
+              ],
+              "purple": [
+                "Hlavní",
+                "se",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Koupe"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "mich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Posadím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "šťastná"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "wasche"
+                  ],
+                  "yellow": [
+                    "Auto"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Myji"
+                  ],
+                  "yellow": [
+                    "auto"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sich"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sebe",
+                    "sebe"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mich"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ich",
+                    "ich"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "mich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dich"
+                  ]
+                },
+                "meaning": {},
+                "example": {
+                  "yellow": [
+                    "dich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ihn"
+                  ]
+                },
+                "meaning": {},
+                "example": {
+                  "red": [
+                    "ihn"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sich"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sich"
+                ],
+                "red": [
+                  "Sich"
+                ]
+              },
+              {
+                "green": [
+                  "mich",
+                  "dich"
+                ],
+                "blue": [
+                  "sich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sich",
+          "layout": "standardStudy",
+          "translation": "sevi • sev",
+          "explanation": [
+            "Galvenā doma: sich rāda, ka darbība attiecas uz pašu darītāju.",
+            "Latviski to bieži tulko kā sevi vai sev.",
+            "Dažos vācu darbības vārdos sich ir obligāta daļa, piemēram, sich waschen.",
+            "A1 līmenī svarīgi pamanīt: ich wasche mich, er wäscht sich."
+          ],
+          "examples": [
+            {
+              "de": "Er wäscht sich.",
+              "lv": "viņš mazgājas."
+            },
+            {
+              "de": "Ich setze mich.",
+              "lv": "es apsēžos."
+            },
+            {
+              "de": "Sie freut sich.",
+              "lv": "viņa priecājas."
+            },
+            {
+              "de": "Ich wasche das Auto.",
+              "lv": "es mazgāju auto."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sich",
+              "meaning": "sevi / sev",
+              "example": "Er wäscht sich."
+            },
+            {
+              "word": "mich",
+              "meaning": "mani / sevi pie ich",
+              "example": "Ich wasche mich."
+            },
+            {
+              "word": "dich",
+              "meaning": "tevi / sevi pie du",
+              "example": "Du wäschst dich."
+            },
+            {
+              "word": "ihn",
+              "meaning": "viņu",
+              "example": "Ich sehe ihn."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: darbība uz sevi → sich/mich/dich."
+          },
+          "important": [
+            "sich nav patstāvīgs lietvārds.",
+            "Tas mainās pēc personas: ich → mich, du → dich, er/sie/es → sich."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sich",
+                "ich wasche mich",
+                "er wäscht sich"
+              ],
+              "purple": [
+                "sevi",
+                "sev",
+                "pašu darītāju"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mazgājas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "mich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apsēžos"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "priecājas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "wasche"
+                  ],
+                  "yellow": [
+                    "Auto"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "mazgāju"
+                  ],
+                  "yellow": [
+                    "auto"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sich"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sevi",
+                    "sev"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mich"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "mani",
+                    "sevi"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "mich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dich"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "tevi",
+                    "sevi"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "dich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ihn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "viņu"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ihn"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sich"
+                ],
+                "purple": [
+                  "darbība uz sevi"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sich"
+                ],
+                "red": [
+                  "lietvārds"
+                ]
+              },
+              {
+                "green": [
+                  "mich",
+                  "dich"
+                ],
+                "blue": [
+                  "sich"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-sich",
+        "layout": "standardStudy",
+        "translation": "Sebe • Pro sebe",
+        "explanation": [
+          "Hlavní myšlenka: sich ukazuje, že akce se vztahuje k samotnému konateli.",
+          "V češtině se často překládá jako se, sebe nebo sobě podle pádu.",
+          "U některých německých sloves je sich povinnou součástí, jako je sich waschen.",
+          "Důležité upozornění na úrovni A1: ich wasche mich, er wäscht sich."
+        ],
+        "examples": [
+          {
+            "de": "Er wäscht sich.",
+            "lv": "Koupe se."
+          },
+          {
+            "de": "Ich setze mich.",
+            "lv": "Posadím se."
+          },
+          {
+            "de": "Sie freut sich.",
+            "lv": "Je šťastná."
+          },
+          {
+            "de": "Ich wasche das Auto.",
+            "lv": "Myji auto"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sich",
+            "meaning": "Já / sebe",
+            "example": "Er wäscht sich."
+          },
+          {
+            "word": "mich",
+            "meaning": "Já / já v ich",
+            "example": "Ich wasche mich."
+          },
+          {
+            "word": "dich",
+            "meaning": "Ty / já v du",
+            "example": "Du wäschst dich."
+          },
+          {
+            "word": "ihn",
+            "meaning": "Mu",
+            "example": "Ich sehe ihn."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: akce na sebe → sich/mich/dich."
+        },
+        "important": [
+          "Sich není samostatné podstatné jméno.",
+          "Mění se podle osoby: ich → mich, du → dich, er/sie/es → sich."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "sich",
+              "ich wasche mich",
+              "er wäscht sich"
+            ],
+            "purple": [
+              "Hlavní",
+              "se",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "sich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Koupe"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "mich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Posadím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "šťastná"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "wasche"
+                ],
+                "yellow": [
+                  "Auto"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Myji"
+                ],
+                "yellow": [
+                  "auto"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "sich"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "sebe",
+                  "sebe"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "sich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "mich"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "ich",
+                  "ich"
+                ]
+              },
+              "example": {
+                "green": [
+                  "mich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "dich"
+                ]
+              },
+              "meaning": {},
+              "example": {
+                "yellow": [
+                  "dich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ihn"
+                ]
+              },
+              "meaning": {},
+              "example": {
+                "red": [
+                  "ihn"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "sich"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "sich"
+              ],
+              "red": [
+                "Sich"
+              ]
+            },
+            {
+              "green": [
+                "mich",
+                "dich"
+              ],
+              "blue": [
+                "sich"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "Sebe • Pro sebe"
+    },
+    {
+      "cardId": "a1-sollen",
+      "index": 564,
+      "de": "sollen",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.important[0]",
+          "ownerValue": "Was soll ich machen? je velmi častá věta."
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-sollen",
+        "index": 564,
+        "de": "sollen",
+        "layout": "standardStudy",
+        "csMain": "By měl",
+        "studyTranslation": "By měl",
+        "lvSourceMain": "vajadzētu",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "vajadzētu",
+            "csText": "By měl",
+            "de": "sollen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "ko man darīt?",
+            "csText": "Co mám dělat",
+            "de": "sollen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "tev jāatnāk.",
+            "csText": "Musíte přijít",
+            "de": "sollen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "man jāpaliek mājās.",
+            "csText": "Musím zůstat doma",
+            "de": "sollen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "man tagad jāiet.",
+            "csText": "Už musím jít",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sollen",
+            "csText": "sollen",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "vajadzētu / jādara pēc norādes",
+            "csText": "Měl / měl by dělat podle pokynů",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "müssen",
+            "csText": "müssen",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "obligāti vajadzēt",
+            "csText": "Absolutně potřebovat",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "können",
+            "csText": "können",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "varēt",
+            "csText": "Moci",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "wollen",
+            "csText": "wollen",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "gribēt",
+            "csText": "Chtít",
+            "de": "sollen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen.",
+            "csText": "Pamatujte: někdo říká, co má dělat → sollen • Musí být provedeno → müssen.",
+            "de": "sollen"
+          }
+        ],
+        "study": {
+          "id": "a1-sollen",
+          "layout": "standardStudy",
+          "translation": "By měl",
+          "explanation": [
+            "Hlavní myšlenka: sollen znamená, že někdo by měl nebo musí dělat něco podle pokynů.",
+            "Sollen se často používá, když vám někdo říká, co máte dělat.",
+            "Není tak silný jako müssen.",
+            "Velmi častou frází je Was soll ich machen? = Co mám dělat?"
+          ],
+          "examples": [
+            {
+              "de": "Was soll ich machen?",
+              "lv": "Co mám dělat"
+            },
+            {
+              "de": "Du sollst kommen.",
+              "lv": "Musíte přijít"
+            },
+            {
+              "de": "Ich soll zu Hause bleiben.",
+              "lv": "Musím zůstat doma"
+            },
+            {
+              "de": "Ich muss jetzt gehen.",
+              "lv": "Už musím jít"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sollen",
+              "meaning": "Měl / měl by dělat podle pokynů",
+              "example": "Was soll ich machen?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "Absolutně potřebovat",
+              "example": "Ich muss gehen."
+            },
+            {
+              "word": "können",
+              "meaning": "Moci",
+              "example": "Ich kann kommen."
+            },
+            {
+              "word": "wollen",
+              "meaning": "Chtít",
+              "example": "Ich will bleiben."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: někdo říká, co má dělat → sollen • Musí být provedeno → müssen."
+          },
+          "important": [
+            "Was soll ich machen? je velmi častá věta.",
+            "Sollen a müssen nejsou úplně stejné."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sollen",
+                "Was soll ich machen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "müssen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "machen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sollst",
+                    "kommen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Musíte"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "bleiben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Musím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "muss",
+                    "gehen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "musím"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Měl",
+                    "Měl"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "soll"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Absolutně"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "muss"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Moci"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Chtít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sollen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "müssen",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Byl"
+                ]
+              },
+              {
+                "blue": [
+                  "sollen"
+                ],
+                "red": [
+                  "müssen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sollen",
+          "layout": "standardStudy",
+          "translation": "vajadzētu",
+          "explanation": [
+            "Galvenā doma: sollen nozīmē, ka kādam vajadzētu vai ir jādara kaut kas pēc norādes.",
+            "sollen bieži lieto, ja kāds cits saka, ko darīt.",
+            "Tas nav tik spēcīgs kā müssen.",
+            "Ļoti bieža frāze ir Was soll ich machen? = Ko man darīt?"
+          ],
+          "examples": [
+            {
+              "de": "Was soll ich machen?",
+              "lv": "ko man darīt?"
+            },
+            {
+              "de": "Du sollst kommen.",
+              "lv": "tev jāatnāk."
+            },
+            {
+              "de": "Ich soll zu Hause bleiben.",
+              "lv": "man jāpaliek mājās."
+            },
+            {
+              "de": "Ich muss jetzt gehen.",
+              "lv": "man tagad jāiet."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sollen",
+              "meaning": "vajadzētu / jādara pēc norādes",
+              "example": "Was soll ich machen?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "obligāti vajadzēt",
+              "example": "Ich muss gehen."
+            },
+            {
+              "word": "können",
+              "meaning": "varēt",
+              "example": "Ich kann kommen."
+            },
+            {
+              "word": "wollen",
+              "meaning": "gribēt",
+              "example": "Ich will bleiben."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen."
+          },
+          "important": [
+            "Was soll ich machen? ir ļoti bieža frāze.",
+            "sollen un müssen nav pilnīgi vienādi."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sollen",
+                "Was soll ich machen"
+              ],
+              "purple": [
+                "vajadzētu",
+                "jādara",
+                "norādes"
+              ],
+              "red": [
+                "müssen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "machen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ko man darīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sollst",
+                    "kommen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jāatnāk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "bleiben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jāpaliek"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "muss",
+                    "gehen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "jāiet"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vajadzētu",
+                    "norādes"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "soll"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "obligāti"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "muss"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "varēt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gribēt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sollen"
+                ],
+                "purple": [
+                  "kāds saka"
+                ],
+                "red": [
+                  "müssen",
+                  "obligāti"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Was soll ich machen"
+                ]
+              },
+              {
+                "blue": [
+                  "sollen"
+                ],
+                "red": [
+                  "müssen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-sollen",
+        "layout": "standardStudy",
+        "translation": "By měl",
+        "explanation": [
+          "Hlavní myšlenka: sollen znamená, že někdo by měl nebo musí dělat něco podle pokynů.",
+          "Sollen se často používá, když vám někdo říká, co máte dělat.",
+          "Není tak silný jako müssen.",
+          "Velmi častou frází je Was soll ich machen? = Co mám dělat?"
+        ],
+        "examples": [
+          {
+            "de": "Was soll ich machen?",
+            "lv": "Co mám dělat"
+          },
+          {
+            "de": "Du sollst kommen.",
+            "lv": "Musíte přijít"
+          },
+          {
+            "de": "Ich soll zu Hause bleiben.",
+            "lv": "Musím zůstat doma"
+          },
+          {
+            "de": "Ich muss jetzt gehen.",
+            "lv": "Už musím jít"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sollen",
+            "meaning": "Měl / měl by dělat podle pokynů",
+            "example": "Was soll ich machen?"
+          },
+          {
+            "word": "müssen",
+            "meaning": "Absolutně potřebovat",
+            "example": "Ich muss gehen."
+          },
+          {
+            "word": "können",
+            "meaning": "Moci",
+            "example": "Ich kann kommen."
+          },
+          {
+            "word": "wollen",
+            "meaning": "Chtít",
+            "example": "Ich will bleiben."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: někdo říká, co má dělat → sollen • Musí být provedeno → müssen."
+        },
+        "important": [
+          "Was soll ich machen? je velmi častá věta.",
+          "Sollen a müssen nejsou úplně stejné."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "sollen",
+              "Was soll ich machen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "müssen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "soll",
+                  "machen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sollst",
+                  "kommen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Musíte"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "soll",
+                  "bleiben"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Musím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "muss",
+                  "gehen"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "musím"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "sollen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Měl",
+                  "Měl"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "soll"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "müssen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Absolutně"
+                ]
+              },
+              "example": {
+                "red": [
+                  "muss"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "können"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Moci"
+                ]
+              },
+              "example": {
+                "green": [
+                  "kann"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wollen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Chtít"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "will"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "sollen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "müssen",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "Byl"
+              ]
+            },
+            {
+              "blue": [
+                "sollen"
+              ],
+              "red": [
+                "müssen"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "By měl"
+    },
+    {
+      "cardId": "a1-fernsehen-study",
+      "index": 688,
+      "de": "Fernsehen",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.important[0]",
+          "ownerValue": "Sloveso fernsehen je dělitelné na fern + sehen."
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-fernsehen-study",
+        "index": 688,
+        "de": "Fernsehen",
+        "layout": "standardStudy",
+        "csMain": "Televize",
+        "studyTranslation": "Televize",
+        "lvSourceMain": "televīzija",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "televīzija",
+            "csText": "Televize",
+            "de": "Fernsehen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Ko šodien rāda televīzijā?",
+            "csText": "Co je dnes v televizi?",
+            "de": "Fernsehen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "ko šodien rāda televīzijā?",
+            "csText": "Co je dnes v televizi?",
+            "de": "Fernsehen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "televīzijā tiek rādīta filma.",
+            "csText": "V televizi běží film.",
+            "de": "Fernsehen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "televīzijas programma šodien ir garlaicīga.",
+            "csText": "Dnešní televizní program je nudný.",
+            "de": "Fernsehen"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "šovakar es skatos televīziju.",
+            "csText": "Dnes večer se dívám na televizi.",
+            "de": "Fernsehen"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "Ko rāda televīzijā?",
+            "csText": "Co se zobrazuje v televizi?",
+            "de": "Fernsehen"
+          }
+        ],
+        "study": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "Televize",
+          "explanation": [
+            "Hlavní myšlenka: Podstatné jméno, pouze jednotné číslo. Popisuje televizi jako médium nebo vysílání obecně.",
+            "Das Fernsehen v podstatě znamená: dívat se na vysílání.",
+            "Často popisuje: akce.",
+            "Das Fernsehen znamená především: TV jako médium.",
+            "Často popisuje: podstatné jméno (pouze jednotné číslo).",
+            "Fernsehen je sloveso, které lze rozdělit: ich sehe fern, du siehst fern.",
+            "Das Fernsehen je podstatné jméno a pouze jednotné číslo - nemá tvar množného čísla."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Co je dnes v televizi?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Co je dnes v televizi?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "V televizi běží film."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "Dnešní televizní program je nudný."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Dnes večer se dívám na televizi."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Co se zobrazuje v televizi?"
+            }
+          ],
+          "tip": [
+            "Fernsehen (ich sehe fern) se používá, když mluvíme o akci. Když mluvíte o televizním programu nebo médiích, použijte das Fernsehen.",
+            "Podstatné jméno, pouze jednotné číslo. Popisuje televizi jako médium nebo vysílání obecně."
+          ],
+          "important": [
+            "Sloveso fernsehen je dělitelné na fern + sehen.",
+            "Das Fernsehen není množné číslo - ne *die Fernsehen.",
+            "Nesprávně: die Fernsehen → Správně: das Fernsehen",
+            "Akce: fernsehen → ich sehe fern."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "Fernsehen"
+              ],
+              "yellow": [
+                "Fernsehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televizi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televizi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televizi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "das Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dnešní"
+                  ]
+                }
+              },
+              {
+                "de": {},
+                "lv": {
+                  "purple": [
+                    "televizi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televizi"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {}
+            ],
+            "important": [
+              {
+                "green": [
+                  "fernsehen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "televīzija",
+          "explanation": [
+            "Galvenā doma: Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā.",
+            "das Fernsehen galvenokārt nozīmē: skatīties pārraidi.",
+            "Bieži raksturo: darbību.",
+            "das Fernsehen galvenokārt nozīmē: TV kā medijs.",
+            "Bieži raksturo: lietvārdu (tikai vienskaitlī).",
+            "fernsehen ir darbības vārds, ko var sadalīt: ich sehe fern, du siehst fern.",
+            "das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Ko šodien rāda televīzijā?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "ko šodien rāda televīzijā?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "televīzijā tiek rādīta filma."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "televīzijas programma šodien ir garlaicīga."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "šovakar es skatos televīziju."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Ko rāda televīzijā?"
+            }
+          ],
+          "tip": [
+            "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
+            "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā."
+          ],
+          "important": [
+            "fernsehen ir sadalāms: sehen + fern.",
+            "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
+            "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
+            "Darbība: fernsehen → ich sehe fern."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "Fernsehen"
+              ],
+              "yellow": [
+                "Fernsehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "das Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              },
+              {
+                "de": {},
+                "lv": {
+                  "purple": [
+                    "televīziju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {}
+            ],
+            "important": [
+              {
+                "green": [
+                  "fernsehen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-fernsehen-study",
+        "layout": "standardStudy",
+        "translation": "Televize",
+        "explanation": [
+          "Hlavní myšlenka: Podstatné jméno, pouze jednotné číslo. Popisuje televizi jako médium nebo vysílání obecně.",
+          "Das Fernsehen v podstatě znamená: dívat se na vysílání.",
+          "Často popisuje: akce.",
+          "Das Fernsehen znamená především: TV jako médium.",
+          "Často popisuje: podstatné jméno (pouze jednotné číslo).",
+          "Fernsehen je sloveso, které lze rozdělit: ich sehe fern, du siehst fern.",
+          "Das Fernsehen je podstatné jméno a pouze jednotné číslo - nemá tvar množného čísla."
+        ],
+        "examples": [
+          {
+            "de": "Was gibt es heute im Fernsehen?",
+            "lv": "Co je dnes v televizi?"
+          },
+          {
+            "de": "Was gibt es heute im Fernsehen?",
+            "lv": "Co je dnes v televizi?"
+          },
+          {
+            "de": "Im Fernsehen läuft ein Film.",
+            "lv": "V televizi běží film."
+          },
+          {
+            "de": "Das Fernsehen ist heute langweilig.",
+            "lv": "Dnešní televizní program je nudný."
+          },
+          {
+            "de": "Ich sehe heute Abend fern.",
+            "lv": "Dnes večer se dívám na televizi."
+          },
+          {
+            "de": "Was gibt es im Fernsehen?",
+            "lv": "Co se zobrazuje v televizi?"
+          }
+        ],
+        "tip": [
+          "Fernsehen (ich sehe fern) se používá, když mluvíme o akci. Když mluvíte o televizním programu nebo médiích, použijte das Fernsehen.",
+          "Podstatné jméno, pouze jednotné číslo. Popisuje televizi jako médium nebo vysílání obecně."
+        ],
+        "important": [
+          "Sloveso fernsehen je dělitelné na fern + sehen.",
+          "Das Fernsehen není množné číslo - ne *die Fernsehen.",
+          "Nesprávně: die Fernsehen → Správně: das Fernsehen",
+          "Akce: fernsehen → ich sehe fern."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "Fernsehen"
+            ],
+            "yellow": [
+              "Fernsehen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "Fernsehen",
+                  "fernsehen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "televizi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "Fernsehen",
+                  "fernsehen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "televizi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "Fernsehen",
+                  "fernsehen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "televizi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "das Fernsehen",
+                  "fernsehen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dnešní"
+                ]
+              }
+            },
+            {
+              "de": {},
+              "lv": {
+                "purple": [
+                  "televizi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "Fernsehen",
+                  "fernsehen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "televizi"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {
+              "green": [
+                "fernsehen"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "Televize"
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-sehen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Repaired meaning is correct, but related comparison and accent data still contain Czech meaning contradictions.",
+      "findings": [
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Pohled / pohled",
+          "proposedCs": "Prohlédnout si / dívat se na",
+          "reason": "The Czech text is a noun and duplicate, so it does not explain the verb ansehen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.sectionAccents.comparison[1].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Hodinky",
+          "proposedCs": "Dívat se",
+          "reason": "The accent text means wristwatches and contradicts the repaired comparison meaning.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sich",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The repaired explanation is correct, but comparison meanings still teach incorrect Czech pronoun equivalents.",
+      "findings": [
+        {
+          "field": "study.comparison[0].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Já / sebe",
+          "proposedCs": "Sebe / sobě",
+          "reason": "sich is reflexive, not a Czech equivalent of já.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Já / já v ich",
+          "proposedCs": "Mě / sebe u ich",
+          "reason": "The current wording is ungrammatical and incorrectly labels mich as já.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Ty / já v du",
+          "proposedCs": "Tebe / sebe u du",
+          "reason": "The current wording is ungrammatical and incorrectly labels dich as ty.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sollen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The repaired phrase is correct, but examples contradict sollen's distinction from müssen and mismatch the German person.",
+      "findings": [
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Musíte přijít",
+          "proposedCs": "Máš přijít",
+          "reason": "Du sollst is informal singular and should not be translated with formal/plural musíte.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Musím zůstat doma",
+          "proposedCs": "Mám zůstat doma",
+          "reason": "Mám preserves sollen's reported instruction and avoids contradiction with müssen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Absolutně potřebovat",
+          "proposedCs": "Muset / být nucen",
+          "reason": "The current Czech phrase is unnatural and does not define müssen correctly.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-fernsehen-study",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "The repaired separable-verb statement is correct, but the explanation still conflates the noun Fernsehen with the action of watching.",
+      "findings": [
+        {
+          "field": "study.explanation[1]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Das Fernsehen v podstatě znamená: dívat se na vysílání.",
+          "proposedCs": "Das Fernsehen označuje televizi jako médium nebo televizní vysílání.",
+          "reason": "The current sentence assigns a verbal action meaning to the noun and conflicts with the surrounding noun explanation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Často popisuje: akce.",
+          "proposedCs": "Sloveso fernsehen popisuje činnost sledování televize.",
+          "reason": "This fragment is malformed and ambiguously describes the noun rather than the verb.",
+          "confidence": 0.98
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-11T16:41:24.766Z"
+}
