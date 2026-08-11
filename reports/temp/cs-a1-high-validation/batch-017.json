@@ -1,0 +1,140 @@
+{
+  "batch": "batch-017",
+  "cardIds": [
+    "a1-Tasche-589",
+    "a1-Tasse-590",
+    "a1-telefonieren-594",
+    "a1-Tisch-599",
+    "a1-Vorname-637"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-118",
+      "cardId": "a1-Tasche-589",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Tašku is the accusative form; the standalone noun should use the nominative form taška.",
+      "auditCurrentCs": "Tašku",
+      "auditProposedCs": "Taška",
+      "auditDe": "Tasche",
+      "auditLvSource": "soma",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Tašku",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-119",
+      "cardId": "a1-Tasse-590",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Pohár means 'glass/goblet'; Tasse is a cup or mug, best translated here as šálek.",
+      "auditCurrentCs": "Pohár",
+      "auditProposedCs": "Šálek",
+      "auditDe": "Tasse",
+      "auditLvSource": "tase",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Pohár",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-120",
+      "cardId": "a1-telefonieren-594",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "The Czech phrase means 'to call on the phone' and uses a different aspect; telefonovat directly matches the German verb.",
+      "auditCurrentCs": "Zavolat na telefon",
+      "auditProposedCs": "Telefonovat",
+      "auditDe": "telefonieren",
+      "auditLvSource": "zvanīt pa tālruni",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Zavolat na telefon",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-121",
+      "cardId": "a1-Tisch-599",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Tabulka“ znamená tabulka nebo malý plát; německé „Tisch“ je nábytek „stůl“.",
+      "auditCurrentCs": "Tabulka",
+      "auditProposedCs": "Stůl",
+      "auditDe": "Tisch",
+      "auditLvSource": "galds",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Tabulka",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-122",
+      "cardId": "a1-Vorname-637",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Slovo“ znamená německy „Wort“; „Vorname“ je osobní či křestní jméno.",
+      "auditCurrentCs": "Slovo",
+      "auditProposedCs": "Křestní jméno",
+      "auditDe": "Vorname",
+      "auditLvSource": "vārds",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Slovo",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-118",
+      "cardId": "a1-Tasche-589",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Tašku“ is accusative; the standalone Czech noun for German „Tasche“ is nominative „Taška“.",
+      "currentCs": "Tašku",
+      "proposedCs": "Taška"
+    },
+    {
+      "findingId": "HIGH-119",
+      "cardId": "a1-Tasse-590",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "„Pohár“ means glass or goblet. German „Tasse“ is correctly translated as „šálek“ in Czech.",
+      "currentCs": "Pohár",
+      "proposedCs": "Šálek"
+    },
+    {
+      "findingId": "HIGH-120",
+      "cardId": "a1-telefonieren-594",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.97,
+      "reason": "„Zavolat na telefon“ is not the standard Czech equivalent for the general verb „telefonieren“; „Telefonovat“ matches it.",
+      "currentCs": "Zavolat na telefon",
+      "proposedCs": "Telefonovat"
+    },
+    {
+      "findingId": "HIGH-121",
+      "cardId": "a1-Tisch-599",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Tabulka“ means table/chart or a small tablet, not furniture. German „Tisch“ translates as „stůl“.",
+      "currentCs": "Tabulka",
+      "proposedCs": "Stůl"
+    },
+    {
+      "findingId": "HIGH-122",
+      "cardId": "a1-Vorname-637",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": 0.99,
+      "reason": "„Slovo“ means word in Czech. German „Vorname“ means „křestní jméno“.",
+      "currentCs": "Slovo",
+      "proposedCs": "Křestní jméno"
+    }
+  ],
+  "completedAt": "2026-08-11T17:40:46.476Z"
+}
