@@ -21268,12 +21268,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-über",
       "layout": "standardStudy",
-      "translation": "Přes • Pro",
+      "translation": "Nad • O • Přes",
       "explanation": [
-        "Hlavní myšlenka: über znamená nahoře nebo asi v závislosti na kontextu.",
+        "Hlavní myšlenka: über znamená nad, o nebo přes v závislosti na kontextu.",
         "Pokud jde o umístění, über často znamená výše.",
-        "Pokud jde o konverzaci, text nebo téma, über znamená asi.",
-        "V pohybu může über znamenat konec."
+        "Pokud jde o konverzaci, text nebo téma, über znamená o.",
+        "V pohybu může über znamenat přes."
       ],
       "examples": [
         {
@@ -21282,7 +21282,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Mluvíme o čase."
+          "lv": "Mluvíme o počasí."
         },
         {
           "de": "Das Kind läuft über die Straße.",
@@ -21296,7 +21296,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "über",
-          "meaning": "Přes / přes / přes",
+          "meaning": "Nad • O • Přes",
           "example": "Wir sprechen über das Wetter."
         },
         {
@@ -21320,7 +21320,7 @@ const A1_WORDS = [
       },
       "important": [
         "Über není jen název místa.",
-        "Sprechen über znamená 'hovořit'."
+        "Sprechen über znamená „hovořit o“ nebo „mluvit o“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21490,7 +21490,7 @@ const A1_WORDS = [
               "über"
             ],
             "purple": [
-              "tēma",
+              "téma",
               "Pamatujte"
             ]
           }
@@ -21787,7 +21787,7 @@ const A1_WORDS = [
   },
   {
     "de": "unten",
-    "lv": "Na dně",
+    "lv": "Dole",
     "level": "A1"
   },
   {
@@ -21815,7 +21815,7 @@ const A1_WORDS = [
         },
         {
           "de": "Unter Freunden sagt man das so.",
-          "lv": "Mezi přáteli se říká."
+          "lv": "Mezi přáteli se to tak říká."
         },
         {
           "de": "Die Lampe hängt über dem Tisch.",
@@ -21830,7 +21830,7 @@ const A1_WORDS = [
         },
         {
           "word": "über",
-          "meaning": "Přes / pro",
+          "meaning": "Nad • O",
           "example": "Die Lampe hängt über dem Tisch."
         },
         {
@@ -22068,7 +22068,7 @@ const A1_WORDS = [
   },
   {
     "de": "verlieren",
-    "lv": "Prohrát",
+    "lv": "Ztratit",
     "level": "A1"
   },
   {
@@ -22078,11 +22078,11 @@ const A1_WORDS = [
     "study": {
       "id": "a1-verstehen",
       "layout": "standardStudy",
-      "translation": "Pochopit",
+      "translation": "Rozumět • Pochopit",
       "explanation": [
         "Hlavní myšlenka: verstehen znamená rozumět.",
         "Používá se, když rozumíte jazyku, osobě, textu nebo situaci.",
-        "Lotyšštinu zde většinou nemusíte „umět“ ani „učit“ • Jsou častěji können.",
+        "Verstehen zde znamená „rozumět“. Pro schopnost něco dělat se častěji používá können.",
         "Velmi častou frází je Ich verstehe. = Rozumím."
       ],
       "examples": [
@@ -22111,7 +22111,7 @@ const A1_WORDS = [
         },
         {
           "word": "können",
-          "meaning": "Být schopen / vědět",
+          "meaning": "Být schopen • Umět",
           "example": "Ich kann schwimmen."
         },
         {
@@ -22121,7 +22121,7 @@ const A1_WORDS = [
         },
         {
           "word": "kennen",
-          "meaning": "Vědět",
+          "meaning": "Znát",
           "example": "Ich kenne ihn."
         }
       ],
@@ -22129,7 +22129,7 @@ const A1_WORDS = [
         "text": "Pamatujte: rozumět textu/osobě → verstehen • Umět něco dělat → können."
       },
       "important": [
-        "Verstehen není kořenem slova „rozumět“.",
+        "Verstehen neznamená „umět“. Pro schopnost něco dělat se používá können.",
         "Ich verstehe Deutsch znamená „rozumím německy“."
       ],
       "sectionAccents": {
@@ -22373,10 +22373,10 @@ const A1_WORDS = [
     "study": {
       "id": "a1-vom",
       "layout": "standardStudy",
-      "translation": "Z",
+      "translation": "Od • Z",
       "explanation": [
         "Vom je zkratka pro předložku von a člen dem.",
-        "Plná podoba: von dem (komu?).",
+        "Plná podoba: von dem (od koho? od čeho?).",
         "Používá se s podstatnými jmény mužského a středního rodu při označení původu nebo směru z čeho.",
         "Odpovídá na otázky od koho? nebo odkud?",
         "V praxi se téměř vždy používá vom místo plného von dem."
@@ -22392,7 +22392,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er kommt vom Arzt.",
-          "lv": "Pochází od lékaře."
+          "lv": "Přichází od lékaře."
         },
         {
           "de": "Sie fährt vom Flughafen.",
@@ -22404,7 +22404,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir kommen vom Fest.",
-          "lv": "Pocházíme z oslavy."
+          "lv": "Přicházíme z oslavy."
         },
         {
           "de": "Er holt Milch vom Bauern.",
@@ -22418,7 +22418,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "vom",
-          "meaning": "Od (konkrétní věc, pro koho?)",
+          "meaning": "Od (konkrétní osoba nebo věc)",
           "example": "vom Bahnhof – Ze stanice"
         },
         {
@@ -22447,7 +22447,7 @@ const A1_WORDS = [
         "V hovorové řeči skoro nikdy neříkáte von dem – použijte vom."
       ],
       "important": [
-        "Vom = von dem, pouze s podstatným jménem mužského nebo středního rodu pro koho? ve skloňování.",
+        "Vom = von dem. Používá se s podstatnými jmény mužského nebo středního rodu ve významu od koho? nebo od čeho?",
         "Označuje původ, zdroj nebo směr od něčeho konkrétního.",
         "Pro ženský rod: von der Mutter, ne vom Mutter.",
         "Nezaměňovat s aus (země původu) nebo ab (výchozí bod)."
@@ -22717,8 +22717,8 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: vor znamená dříve v čase nebo před místem.",
         "Pokud jde o čas, vor znamená předtím.",
-        "Pokud jde o místo, vor znamená před nebo u.",
-        "V hodinovém čase vor znamená 'až', např. fünf vor acht."
+        "Pokud jde o místo, vor znamená před nebo před něčím.",
+        "V časovém údaji vor vyjadřuje čas před celou hodinou. Například fünf vor acht = za pět minut osm."
       ],
       "examples": [
         {
@@ -22731,7 +22731,7 @@ const A1_WORDS = [
         },
         {
           "de": "Es ist fünf vor acht.",
-          "lv": "Je pět až osm."
+          "lv": "Je za pět minut osm."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
@@ -22953,7 +22953,7 @@ const A1_WORDS = [
     "de": "Vorname",
     "de_article": "der",
     "de_plural": "die Vornamen",
-    "lv": "Slovo",
+    "lv": "Křestní jméno",
     "level": "A1"
   },
   {
@@ -22972,7 +22972,7 @@ const A1_WORDS = [
   },
   {
     "de": "wann",
-    "lv": "Když",
+    "lv": "Kdy",
     "level": "A1"
   },
   {
@@ -22997,14 +22997,14 @@ const A1_WORDS = [
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Kdo • Co",
+      "translation": "Co",
       "explanation": [
-        "Hlavní myšlenka: co je tázací slovo o věcech a událostech - v češtině je to co nebo co, v závislosti na části věty.",
-        "Byl dotazován na věci, události a fakta, nikoli na osoby.",
-        "V němčině se was nemění po skloňování - vždy to vypadá jako bylo.",
-        "Pokud je předmětem věty was, překládá se do češtině jako kas (Was ist das? = Co to je?).",
-        "Jestliže was je doplněk (předmět) slovesa, překládá se do češtině jako ko (Was machst du? = Co děláš?).",
-        "Lidé jsou dotázáni s wer (kdo/kdo), ne byl."
+        "Hlavní myšlenka: was je tázací slovo pro věci a události. V češtině se překládá jako co.",
+        "Was se ptá na věci, události a fakta, nikoli na osoby.",
+        "V němčině se was neskloňuje a má stále stejný tvar.",
+        "Was ist das? se do češtiny překládá jako „Co to je?“. Was zde označuje věc, nikoli osobu.",
+        "Was je ve větě předmětem slovesa a do češtiny se překládá jako „co“: Was machst du? = Co děláš?",
+        "Na osoby se ptáme pomocí wer (kdo), nikoli was."
       ],
       "examples": [
         {
@@ -23029,7 +23029,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was ist dein Lieblingsessen?",
-          "lv": "Jaké je vaše oblíbené jídlo?"
+          "lv": "Jaké je tvoje oblíbené jídlo?"
         },
         {
           "de": "Was hast du gesagt?",
@@ -23043,7 +23043,7 @@ const A1_WORDS = [
       "important": [
         "Byl dotazován na věci, události a fakta – nikdy na osoby.",
         "Lidé jsou dotázáni s wer (kdo/kdo), ne byl.",
-        "Was für (ein/eine) znamená někoho/o čem a ptá se na kvalitu nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?).",
+        "Was für (ein/eine) znamená „jaký/jaká“ a ptá se na vlastnost nebo typ.",
         "Špatně: Wer ist passiert? → Správně: Bylo to passiert?"
       ],
       "sectionAccents": {
@@ -23178,7 +23178,7 @@ const A1_WORDS = [
   },
   {
     "de": "waschen",
-    "lv": "Umýt se",
+    "lv": "Mýt",
     "level": "A1"
   },
   {
@@ -23190,7 +23190,7 @@ const A1_WORDS = [
     "de": "Weg",
     "de_article": "der",
     "de_plural": "die Wege",
-    "lv": "Silnice",
+    "lv": "Cesta",
     "level": "A1"
   },
   {
