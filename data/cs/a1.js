@@ -6927,7 +6927,7 @@ const A1_WORDS = [
   },
   {
     "de": "freundlich",
-    "lv": "Druh",
+    "lv": "Přátelský",
     "level": "A1"
   },
   {
@@ -7000,11 +7000,11 @@ const A1_WORDS = [
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "Pro • Pro",
+      "translation": "Pro • Za",
       "explanation": [
-        "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ – obvykle pro nebo pro v češtině.",
+        "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ. V češtině se podle kontextu překládá jako pro nebo za.",
         "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
-        "Když mluvíme o výměně, poplatku nebo důvodu, für = pro (danke für das Geschenk = děkuji za dar).",
+        "Když mluvíme o výměně, poplatku nebo důvodu, für = za (danke für das Geschenk = děkuji za dar).",
         "Für vždy vyžaduje akuzativ, bez ohledu na význam."
       ],
       "examples": [
@@ -7039,7 +7039,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Für + Akkusativ vždy, např. für mich, für dich, für das Kind.",
-        "Danke für / bezahlen für = 'pro', nikoli 'před'."
+        "Danke für / bezahlen für = „za“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7174,7 +7174,7 @@ const A1_WORDS = [
   },
   {
     "de": "ganz",
-    "lv": "Všechno",
+    "lv": "Celý",
     "level": "A1"
   },
   {
@@ -7195,7 +7195,7 @@ const A1_WORDS = [
     "de": "Gast",
     "de_article": "der",
     "de_plural": "die Gäste",
-    "lv": "Hostem",
+    "lv": "Host",
     "level": "A1"
   },
   {
@@ -7462,17 +7462,17 @@ const A1_WORDS = [
   },
   {
     "de": "geboren",
-    "lv": "Se narodil",
+    "lv": "Narozený",
     "level": "A1"
   },
   {
     "de": "gefallen",
-    "lv": "Mít rád",
+    "lv": "Líbit se",
     "level": "A1"
   },
   {
     "de": "gegen",
-    "lv": "Vs",
+    "lv": "Proti",
     "level": "A1"
   },
   {
@@ -7482,7 +7482,7 @@ const A1_WORDS = [
   },
   {
     "de": "gelb",
-    "lv": "Žluť",
+    "lv": "Žlutý",
     "level": "A1"
   },
   {
@@ -7503,7 +7503,7 @@ const A1_WORDS = [
   },
   {
     "de": "gern",
-    "lv": "Ochotně",
+    "lv": "Rád",
     "level": "A1"
   },
   {
@@ -7546,7 +7546,7 @@ const A1_WORDS = [
     "de": "Getränk",
     "de_article": "das",
     "de_plural": "die Getränke",
-    "lv": "Drink",
+    "lv": "Nápoj",
     "level": "A1"
   },
   {
@@ -7560,7 +7560,7 @@ const A1_WORDS = [
     "de": "Glas",
     "de_article": "das",
     "de_plural": "die Gläser",
-    "lv": "Sklenici",
+    "lv": "Sklenice",
     "level": "A1"
   },
   {
@@ -7575,12 +7575,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "Hned • Rovný",
+      "translation": "Hned • Stejný",
       "explanation": [
-        "Hlavní myšlenka: gleich temporally znamená okamžitě, komparativně znamená rovný.",
+        "Hlavní myšlenka: gleich v časovém významu znamená hned a při srovnání znamená stejný.",
         "Když jde o čas, gleich = hned/za chvíli (Ich komme gleich. = hned přijdu.).",
         "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
-        "Gleich lze použít i jako předložku s dativem ve významu jako (gleich mir = jako já).",
+        "Správný význam určuje kontext, například zda jde o čas nebo o srovnání.",
         "Kontext (čas nebo přirovnání) ukazuje správný význam."
       ],
       "examples": [
@@ -7615,7 +7615,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Gleich = okamžitě (čas) NEBO rovno (srovnání).",
-        "Dobře! = brzy se uvidíme! — běžná rozlučovací fráze."
+        "Bis gleich! = Uvidíme se za chvíli! — běžná rozlučovací fráze."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7763,7 +7763,7 @@ const A1_WORDS = [
   },
   {
     "de": "grau",
-    "lv": "Šedá",
+    "lv": "Šedý",
     "level": "A1"
   },
   {
