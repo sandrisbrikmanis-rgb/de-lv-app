@@ -7775,7 +7775,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Velký",
       "explanation": [
-        "Hlavní myšlenka: Velká velikost nebo pro osobu - vysoká na výšku.",
+        "Hlavní myšlenka: groß označuje velkou velikost, u člověka vysokou postavu.",
         "Groß především znamená: velký rozměr.",
         "Často charakterizováno: celkovou velikostí.",
         "Groß především znamená: lidská výška.",
@@ -7789,7 +7789,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das Haus ist groß.",
-          "lv": "Dům je velký."
+          "lv": "Berlín je velké město."
         },
         {
           "de": "Er ist groß.",
@@ -7929,7 +7929,7 @@ const A1_WORDS = [
   },
   {
     "de": "grüßen",
-    "lv": "Pozdravit",
+    "lv": "Zdravit",
     "level": "A1"
   },
   {
@@ -7948,7 +7948,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Dobrý",
       "explanation": [
-        "Hlavní myšlenka: střevo je přídavné jméno/příslovce – dobrý, úspěšný, v pořádku.",
+        "Hlavní myšlenka: gut je přídavné jméno nebo příslovce – dobrý, dobře, úspěšný nebo v pořádku.",
         "Gut popisuje kvalitu, zdraví nebo jak se něco děje (Es geht mir gut. = mám se dobře.).",
         "Ve zdvořilostní frázi guten Tag/Abend/Morgen gut změní koncovku po skloňování.",
         "Pokud gut popisuje sloveso, jde o příslovce (gut schwimmen = dobře plavat).",
@@ -7981,11 +7981,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Střevo bez článku je přídavné jméno/příslovce – dobrý/dobře.",
+        "Gut bez členu je přídavné jméno nebo příslovce – dobrý/dobře.",
         "Das Gut s velkým písmenem a členem je úplně jiné slovo — podstatné jméno (majetek, panství)."
       ],
       "important": [
-        "Střevo = dobrý/dobře (přídavné jméno/přívlastek).",
+        "Gut = dobrý/dobře (přídavné jméno nebo příslovce).",
         "Das Gut = majetek/panství (podstatné jméno) – nezaměňovat s gut.",
         "Guten Tag/Morgen/Abend - střevní změny končící po skloňování."
       ],
@@ -8176,7 +8176,7 @@ const A1_WORDS = [
       },
       "important": [
         "České „mám“ = německé Ich habe + akuzativ. Nepoužívejte dativ: špatně *mir habe.",
-        "Se seinem a dativem: Mir ist kalt. = Je mi zima. (není to haben!)",
+        "Se slovesem sein a dativem: Mir ist kalt. = Je mi zima. (Není to haben!)",
         "Dokonalé: Ich habe gelernt = naučil jsem se."
       ],
       "sectionAccents": {
@@ -8349,14 +8349,14 @@ const A1_WORDS = [
   },
   {
     "de": "halb",
-    "lv": "Strana",
+    "lv": "Půl",
     "level": "A1"
   },
   {
     "de": "Hälfte",
     "de_article": "die",
     "de_plural": "die Hälften",
-    "lv": "Strana",
+    "lv": "Polovina",
     "level": "A1"
   },
   {
@@ -8375,7 +8375,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Držet • Zastavit",
       "explanation": [
-        "Hlavní myšlenka: zastavit znamená držet, ale s přepravou nebo pohybem může znamenat zastavit nebo zastavit.",
+        "Hlavní myšlenka: halten nejčastěji znamená držet. U dopravy může znamenat zastavovat nebo stát.",
         "S předmětem v ruce je halten obvykle držet.",
         "Autobusem, vlakem nebo autem, zastavit často znamená zastavit.",
         "V názorové větě ich halte das für... znamená považovat za."
@@ -8391,7 +8391,7 @@ const A1_WORDS = [
         },
         {
           "de": "Bitte halten Sie an.",
-          "lv": "Prosím přestaň"
+          "lv": "Prosím, zastavte."
         },
         {
           "de": "Ich halte das für richtig.",
@@ -8421,7 +8421,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: v ruce → zastavit • Doprava → zastavení/zastávky."
+        "text": "Pamatujte: předmět v ruce → držet • zastavit se → anhalten • doprava → zastavovat."
       },
       "important": [
         "Halten není jen 'držet'. U dopravy to často znamená zastavení.",
@@ -8625,7 +8625,7 @@ const A1_WORDS = [
     "de": "Handschuh",
     "de_article": "der",
     "de_plural": "die Handschuhe",
-    "lv": "Rukavici",
+    "lv": "Rukavice",
     "level": "A1"
   },
   {
@@ -8660,12 +8660,12 @@ const A1_WORDS = [
     "de": "Heft",
     "de_article": "das",
     "de_plural": "die Hefte",
-    "lv": "Notebook",
+    "lv": "Sešit",
     "level": "A1"
   },
   {
     "de": "heiraten",
-    "lv": "Oženit se",
+    "lv": "Brát se",
     "level": "A1"
   },
   {
@@ -8680,7 +8680,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "Být nazýván • Podlý",
+      "translation": "Jmenovat se • Znamenat",
       "explanation": [
         "Hlavní myšlenka: heißen se nejčastěji používá k vyjádření toho, jak se někdo jmenuje.",
         "Fráze Ich heiße... znamená „jmenuji se...“.",
@@ -8694,7 +8694,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Jak se jmenuješ"
+          "lv": "Jak se jmenuješ?"
         },
         {
           "de": "Wie heißt das auf Deutsch?",
@@ -8702,13 +8702,13 @@ const A1_WORDS = [
         },
         {
           "de": "Was heißt das?",
-          "lv": "Co to znamená"
+          "lv": "Co to znamená?"
         }
       ],
       "comparison": [
         {
           "word": "heißen",
-          "meaning": "Být volán / míněn",
+          "meaning": "Jmenovat se • Znamenat",
           "example": "Ich heiße Anna. = Jmenuji se Anna."
         },
         {
@@ -8718,7 +8718,7 @@ const A1_WORDS = [
         },
         {
           "word": "bedeuten",
-          "meaning": "Střední",
+          "meaning": "Znamenat",
           "example": "Was bedeutet das? = Co to znamená?"
         },
         {
@@ -8732,7 +8732,7 @@ const A1_WORDS = [
       },
       "important": [
         "Wie heißt du? znamená \"Jak se jmenuješ?\", ne doslova \"jak se jmenuješ?\".",
-        "Byl heißt das? často znamená \"Co to znamená?\"."
+        "Was heißt das? často znamená „Co to znamená?“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8906,14 +8906,14 @@ const A1_WORDS = [
   },
   {
     "de": "helfen",
-    "lv": "Pomoci",
+    "lv": "Pomáhat",
     "level": "A1"
   },
   {
     "de": "Hemd",
     "de_article": "das",
     "de_plural": "die Hemden",
-    "lv": "Košili",
+    "lv": "Košile",
     "level": "A1"
   },
   {
@@ -8975,7 +8975,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Hora je vysoká."
+          "lv": "Police je vysoká dva metry."
         },
         {
           "de": "Die Miete ist hoch.",
@@ -9125,7 +9125,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich höre dich.",
-          "lv": "Slyším tě"
+          "lv": "Slyším tě."
         }
       ],
       "tip": [
@@ -9220,7 +9220,7 @@ const A1_WORDS = [
   },
   {
     "de": "ich",
-    "lv": "Mě",
+    "lv": "Já",
     "level": "A1"
   },
   {
@@ -9230,9 +9230,9 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "Vy • Ji",
+      "translation": "Vy • Jí • Její",
       "explanation": [
-        "Hlavní myšlenka: ihr jsou dvě různá zájmena se stejným pravopisem - oslovující několik lidí (vy) a dativ zájmena sie (ona/ona).",
+        "Hlavní myšlenka: ihr jsou dvě různá zájmena se stejným pravopisem - oslovující několik lidí (vy) a dativ zájmena sie (jí).",
         "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
         "Ihr jako přivlastňovací zájmeno znamená ji (ihr Buch = její kniha).",
         "Ihr jako tvar dativu (od sie) znamená k ní (Ich gebe ihr das Buch. = dávám jí knihu.).",
@@ -9242,7 +9242,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Kommt ihr heute Abend?",
-          "lv": "Přijdeš dnes večer?"
+          "lv": "Přijdete dnes večer?"
         },
         {
           "de": "Ich gebe ihr das Buch.",
@@ -9250,15 +9250,15 @@ const A1_WORDS = [
         },
         {
           "de": "Wo wohnt ihr?",
-          "lv": "Kde bydlíš"
+          "lv": "Kde bydlíte?"
         },
         {
           "de": "Er schreibt ihr einen Brief.",
-          "lv": "Napíše jí dopis."
+          "lv": "Píše jí dopis."
         },
         {
           "de": "Habt ihr Zeit?",
-          "lv": "Máš čas?"
+          "lv": "Máte čas?"
         },
         {
           "de": "Das ist ihr Auto.",
@@ -9266,7 +9266,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ihr se slovesem dsk. forma (kommt, habt) = ty • Ihr vedle slova jako dativ nebo přivlastňovací = její/její.",
+        "Ihr se slovesem v množném čísle (kommt, habt) = vy • Ihr vedle slova jako dativ nebo přivlastňovací = její/její.",
         "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její."
       ],
       "important": [
@@ -9407,14 +9407,14 @@ const A1_WORDS = [
       "explanation": [
         "Im je zkratka pro předložku in a člen dem.",
         "Plná forma: in dem (komu?).",
-        "Používá se s podstatnými jmény mužského rodu a podstatnými jmény libovolného pohlaví při odpovědi na otázku kde? — umístění.",
+        "Používá se s podstatnými jmény mužského a středního rodu při odpovědi na otázku kde? — umístění.",
         "S časem a ročními obdobími: v lednu, v létě, v zimě.",
         "V praxi se téměř vždy používá im místo full in dem."
       ],
       "examples": [
         {
           "de": "Ich bin im Park.",
-          "lv": "Jsem v parku"
+          "lv": "Jsem v parku."
         },
         {
           "de": "Wir wohnen im Zentrum.",
@@ -9434,7 +9434,7 @@ const A1_WORDS = [
         },
         {
           "de": "Im Januar fahre ich nach Wien.",
-          "lv": "V lednu jsem jel do Vídně."
+          "lv": "V lednu jedu do Vídně."
         },
         {
           "de": "Sie ist im Kino.",
@@ -9448,12 +9448,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "im",
-          "meaning": "Uvnitř kde? (komu?)",
+          "meaning": "Uvnitř, kde? (3. pád)",
           "example": "im Park – V parku"
         },
         {
           "word": "ins",
-          "meaning": "Dovnitř, kam? (účet)",
+          "meaning": "Dovnitř, kam? (4. pád)",
           "example": "ins Kino – Do kina"
         },
         {
@@ -9463,7 +9463,7 @@ const A1_WORDS = [
         },
         {
           "word": "am",
-          "meaning": "Kde, kde? (komu?)",
+          "meaning": "U, kde? (3. pád)",
           "example": "am Fenster – U okna"
         },
         {
@@ -9474,11 +9474,11 @@ const A1_WORDS = [
       ],
       "tip": [
         "Pamatujte: in + dem → im (komu?, kde?).",
-        "Kde? → ins • Kde? → im - nezaměňujte tyto dva!"
+        "Kam? → ins • Kde? → im - nezaměňujte tyto dva!"
       ],
       "important": [
-        "Im = in dem, pouze s podstatným jménem mužského nebo středního rodu pro koho? ve skloňování.",
-        "Odpovědi kam?, ne kde? — umístění, nikoli pohyb.",
+        "Im = in dem, pouze s podstatnými jmény mužského nebo středního rodu v dativu. Odpovídá na otázku kde?",
+        "Odpovídá na otázku kde?, ne kam? — označuje umístění, nikoli pohyb.",
         "S měsíci a ročními obdobími: im März, im Herbst.",
         "Pro ženy: in der Schule, ne im Schule."
       ],
@@ -9752,9 +9752,9 @@ const A1_WORDS = [
       "translation": "V • Do",
       "explanation": [
         "Hlavní myšlenka: in obvykle znamená v nebo na místo, když se odkazuje na prostor, zemi, město nebo budovu.",
-        "S polohou se in často překládá jako v nebo v: v Berlíně = v Berlíně.",
+        "Při označení polohy se in často překládá jako v nebo ve: v Berlíně = v Berlíně.",
         "S pohybem v znamená dovnitř: ins Kino = do kina.",
-        "Českýý překlad se mění v závislosti na kontextu."
+        "Český překlad se mění v závislosti na kontextu."
       ],
       "examples": [
         {
@@ -9775,7 +9775,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: v/v → v."
+        "text": "Pamatujte: uvnitř nebo v nějakém prostoru → in."
       },
       "important": [
         "In není vždy doslova „in“ • česky se často říká v Berlíně, ve škole, v kině.",
@@ -9806,7 +9806,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Berlīnē"
+                "Berlíně"
               ]
             }
           },
@@ -9886,7 +9886,7 @@ const A1_WORDS = [
               "in"
             ],
             "purple": [
-              "Berlīnē",
+              "Berlíně",
               "škole",
               "není"
             ]
@@ -9916,10 +9916,10 @@ const A1_WORDS = [
       "translation": "V • Do • Kam?",
       "explanation": [
         "Ins je zkratka předložky in a členu das.",
-        "Plná forma: v das (kde?).",
-        "Používá se s podstatnými jmény jakéhokoli pohlaví při odpovědi na otázku kde? - pohyb dovnitř.",
+        "Plná forma: in das (kam?).",
+        "Používá se se středním rodem při odpovědi na otázku kam? — při pohybu dovnitř.",
         "Často se slovesy: gehen, fahren, kommen, legen, stecken.",
-        "V praxi se téměř vždy používá místo plného indas."
+        "V praxi se téměř vždy používá místo plné formy in das."
       ],
       "examples": [
         {
@@ -9958,13 +9958,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ins",
-          "meaning": "Dovnitř, kam? (účet)",
+          "meaning": "Dovnitř, kam? (4. pád)",
           "example": "ins Kino – Do kina"
         },
         {
           "word": "im",
-          "meaning": "Uvnitř kde? (komu?)",
-          "example": "im Kino – Kino"
+          "meaning": "Uvnitř, kde? (3. pád)",
+          "example": "im Kino – V kině"
         },
         {
           "word": "in",
@@ -9974,7 +9974,7 @@ const A1_WORDS = [
         {
           "word": "aufs",
           "meaning": "Na povrch (Akk.)",
-          "example": "aufs Dach – Na střeše"
+          "example": "aufs Dach – Na střechu"
         },
         {
           "word": "zum",
@@ -9983,13 +9983,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pamatujte: in + das → ins (kde?, kde?).",
-        "Kde? → ins • Kde? → im - to je hlavní rozdíl!"
+        "Pamatujte: in + das → ins (kam?, při pohybu dovnitř).",
+        "Kam? → ins • Kde? → im - to je hlavní rozdíl!"
       ],
       "important": [
-        "Ins = in das, pouze s podstatným jménem libovolného rodu kde? ve skloňování.",
+        "Ins = in das, používá se se středním rodem při otázce kam? v akuzativu.",
         "Odpovědi kam?, ne kde? — pohyb, nikoli umístění.",
-        "Pro mužský rod: in den Wald • Žen: v die Schule.",
+        "Pro mužský rod: in den Wald • Pro ženský rod: in die Schule.",
         "Nepleťte si: ins Kino gehen (do kina) vs. im Kino sein (být v kině)."
       ],
       "sectionAccents": {
@@ -10269,7 +10269,7 @@ const A1_WORDS = [
   },
   {
     "de": "jawohl",
-    "lv": "Přesně tak",
+    "lv": "Ano, jistě",
     "level": "A1"
   },
   {
