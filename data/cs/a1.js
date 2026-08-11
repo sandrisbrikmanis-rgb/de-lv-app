@@ -20073,13 +20073,13 @@ const A1_WORDS = [
       "translation": "Vy",
       "explanation": [
         "Hlavní myšlenka: Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
-        "Sie v podstatě znamená: jedna žena.",
+        "Malé sie může znamenat „ona“; velké Sie je zdvořilé „Vy“.",
         "Často charakterizováno: sloveso jednotného čísla (-t).",
         "Sie znamená hlavně: několik lidí.",
         "Často charakterizováno: množné sloveso (-en).",
         "Sie znamená především: zdvořilá adresa.",
         "Často popisováno: nutně s velkým S.",
-        "Malé sie znamená ji, když je sloveso jednotného čísla (Sie kocht = vaří)."
+        "Malé sie znamená „ji“ jen v předmětu; jako podmět znamená „ona“ (Sie kocht = Ona vaří)."
       ],
       "examples": [
         {
@@ -20104,7 +20104,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Vaříš prosím"
+          "lv": "Vaříte, prosím?"
         }
       ],
       "tip": [
@@ -20225,7 +20225,7 @@ const A1_WORDS = [
   },
   {
     "de": "siebzehnte",
-    "lv": "Sedmnáctého",
+    "lv": "Sedmnáctý",
     "level": "A1"
   },
   {
@@ -20272,7 +20272,7 @@ const A1_WORDS = [
         },
         {
           "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "Kočka spí na pohovce."
+          "lv": "Kočka leží na pohovce."
         }
       ],
       "comparison": [
@@ -20293,7 +20293,7 @@ const A1_WORDS = [
         },
         {
           "word": "setzen",
-          "meaning": "Sedět / sednout si",
+          "meaning": "Sednout si • Posadit",
           "example": "Ich setze mich."
         }
       ],
@@ -20310,8 +20310,8 @@ const A1_WORDS = [
             "sitzen"
           ],
           "purple": [
-            "sēdēt",
-            "sēž"
+            "sedět",
+            "sedí"
           ],
           "red": [
             "stehen",
@@ -20383,7 +20383,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sēdēt"
+                "Sedět"
               ]
             },
             "example": {
@@ -20534,11 +20534,11 @@ const A1_WORDS = [
         },
         {
           "de": "Du sollst kommen.",
-          "lv": "Musíte přijít"
+          "lv": "Máš přijít."
         },
         {
           "de": "Ich soll zu Hause bleiben.",
-          "lv": "Musím zůstat doma"
+          "lv": "Mám zůstat doma."
         },
         {
           "de": "Ich muss jetzt gehen.",
@@ -20553,7 +20553,7 @@ const A1_WORDS = [
         },
         {
           "word": "müssen",
-          "meaning": "Absolutně potřebovat",
+          "meaning": "Musit • Být nucen",
           "example": "Ich muss gehen."
         },
         {
@@ -20571,7 +20571,7 @@ const A1_WORDS = [
         "text": "Pamatujte: někdo říká, co má dělat → sollen • Musí být provedeno → müssen."
       },
       "important": [
-        "Byl soll ich machen? je velmi častá věta.",
+        "Was soll ich machen? je velmi častá věta.",
         "Sollen a müssen nejsou úplně stejné."
       ],
       "sectionAccents": {
@@ -20750,7 +20750,7 @@ const A1_WORDS = [
     "de": "Sommer",
     "de_article": "der",
     "de_plural": "die Sommer",
-    "lv": "Letní",
+    "lv": "Léto",
     "level": "A1"
   },
   {
@@ -20788,7 +20788,7 @@ const A1_WORDS = [
     "de": "Spiel",
     "de_article": "das",
     "de_plural": "die Spiele",
-    "lv": "Hru",
+    "lv": "Hra",
     "level": "A1"
   },
   {
@@ -20824,7 +20824,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Stát",
       "explanation": [
-        "Hlavní myšlenka: stehen znamená stát nebo stát.",
+        "Hlavní myšlenka: stehen znamená stát nebo být postavený.",
         "Stehen pro člověka znamená stát.",
         "Pro objekt stehen znamená, že stojí nebo je na určitém místě.",
         "Je důležité rozlišovat: stehen = stát, sitzen = sedět, liegen = ležet."
@@ -20874,7 +20874,7 @@ const A1_WORDS = [
       },
       "important": [
         "Stehen ukazuje stav, nikoli akci „odkládání“.",
-        "Postavit předmět vzpřímeně je šmrnc, ne stehen."
+        "Postavit předmět vzpřímeně je stellen, ne stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20973,7 +20973,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sēdēt"
+                "sedět"
               ]
             },
             "example": {
@@ -21097,14 +21097,14 @@ const A1_WORDS = [
     "de": "Stuhl",
     "de_article": "der",
     "de_plural": "die Stühle",
-    "lv": "Židli",
+    "lv": "Židle",
     "level": "A1"
   },
   {
     "de": "Stunde",
     "de_article": "die",
     "de_plural": "die Stunden",
-    "lv": "Hodinu",
+    "lv": "Hodina",
     "level": "A1"
   },
   {
@@ -21140,14 +21140,14 @@ const A1_WORDS = [
     "de": "Tasche",
     "de_article": "die",
     "de_plural": "die Taschen",
-    "lv": "Tašku",
+    "lv": "Taška",
     "level": "A1"
   },
   {
     "de": "Tasse",
     "de_article": "die",
     "de_plural": "die Tassen",
-    "lv": "Pohár",
+    "lv": "Šálek",
     "level": "A1"
   },
   {
@@ -21173,7 +21173,7 @@ const A1_WORDS = [
   },
   {
     "de": "telefonieren",
-    "lv": "Zavolat na telefon",
+    "lv": "Telefonovat",
     "level": "A1"
   },
   {
@@ -21206,7 +21206,7 @@ const A1_WORDS = [
     "de": "Tisch",
     "de_article": "der",
     "de_plural": "die Tische",
-    "lv": "Tabulka",
+    "lv": "Stůl",
     "level": "A1"
   },
   {
