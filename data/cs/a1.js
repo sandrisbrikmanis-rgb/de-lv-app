@@ -26806,16 +26806,16 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "Jednou • Jednou",
+    "lv": "Jednou • Kdysi",
     "level": "A1",
     "study": {
       "id": "a1-einmal",
       "layout": "standardStudy",
-      "translation": "Jednou • Jednou",
+      "translation": "Jednou • Kdysi",
       "explanation": [
         "Hlavní myšlenka: Odkazuje na čas nebo minulost (kdysi jsem byl...).",
         "Einmal v podstatě znamená: jednou / v minulosti.",
-        "Často charakterizované: povětrnostními podmínkami.",
+        "Často se používá jako příslovečné určení času.",
         "Einmal odkazuje na jeden čas nebo minulost (jednou jsem...)."
       ],
       "examples": [
@@ -26904,7 +26904,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Znovu",
       "explanation": [
-        "Hlavní myšlenka: Znovu znamená - opakovat akci nebo požádat o její opakování."
+        "Hlavní myšlenka: noch mal znamená znovu nebo ještě jednou. Používá se při opakování činnosti nebo při žádosti o její zopakování."
       ],
       "examples": [
         {
@@ -26913,11 +26913,11 @@ const A1_WORDS = [
         },
         {
           "de": "Noch mal, bitte.",
-          "lv": "Znovu prosím"
+          "lv": "Znovu, prosím."
         },
         {
           "de": "Sag das noch mal.",
-          "lv": "Řekni to znovu"
+          "lv": "Řekni to znovu."
         }
       ],
       "tip": [
