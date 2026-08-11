@@ -14471,7 +14471,7 @@ const A1_WORDS = [
   },
   {
     "de": "mein",
-    "lv": "Moje",
+    "lv": "Můj",
     "level": "A1"
   },
   {
@@ -14505,14 +14505,14 @@ const A1_WORDS = [
     "de": "Million",
     "de_article": "die",
     "de_plural": "die Millionen",
-    "lv": "Milión",
+    "lv": "Milion",
     "level": "A1"
   },
   {
     "de": "Minute",
     "de_article": "die",
     "de_plural": "die Minuten",
-    "lv": "Minutu",
+    "lv": "Minuta",
     "level": "A1"
   },
   {
@@ -14532,11 +14532,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "Jdu s tebou"
+          "lv": "Jdu s tebou."
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "Jedu autobusem"
+          "lv": "Jedu autobusem."
         },
         {
           "de": "Sie schreibt mit dem Stift.",
@@ -14565,7 +14565,7 @@ const A1_WORDS = [
         },
         {
           "word": "zu",
-          "meaning": "Do / v",
+          "meaning": "K / ke",
           "example": "Ich gehe zum Arzt."
         }
       ],
@@ -14574,7 +14574,7 @@ const A1_WORDS = [
       },
       "important": [
         "Mit vyžaduje dativ: mit dem Bus, mit der Mutter, mit dir.",
-        "Kde bydlíš? znamená \"Půjdeš se mnou?\""
+        "Kommst du mit? znamená „Půjdeš se mnou?“"
       ],
       "sectionAccents": {
         "explanation": {
@@ -14758,7 +14758,7 @@ const A1_WORDS = [
     "de": "Mittag",
     "de_article": "der",
     "de_plural": "die Mittage",
-    "lv": "Oběd",
+    "lv": "Poledne",
     "level": "A1"
   },
   {
@@ -14792,11 +14792,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "Mám rád hudbu"
+          "lv": "Mám rád hudbu."
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "Máš rád kávu"
+          "lv": "Máš rád kávu?"
         },
         {
           "de": "Sie mag Kinder.",
@@ -14804,7 +14804,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich möchte einen Kaffee.",
-          "lv": "Chtěl bych kávu"
+          "lv": "Chtěl bych kávu."
         }
       ],
       "comparison": [
@@ -14833,7 +14833,7 @@ const A1_WORDS = [
         "text": "Pamatujte: Ich mag... = Líbí se mi..."
       },
       "important": [
-        "Mögen není podstatné jméno pro zdvořilé „chtěl bych“. Obvykle se k tomu používá Möchte.",
+        "Mögen se nepoužívá pro zdvořilé „chtěl bych“. K tomu se obvykle používá möchte.",
         "Ich mag Kaffee znamená „Mám rád kávu“."
       ],
       "sectionAccents": {
@@ -15046,14 +15046,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Zítra",
       "explanation": [
-        "Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.",
-        "Morgen hlavně znamená: druhý den.",
-        "Často charakterizováno: počasím.",
-        "Morgen především znamená: část dne.",
-        "Často popisuje: podstatné jméno (der).",
-        "Morgen v podstatě znamená: několik ran.",
-        "Často charakterizováno: podstatné jméno (pl.).",
-        "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!"
+        "Hlavní myšlenka: morgen s malým písmenem znamená zítra.",
+        "Der Morgen s velkým písmenem je podstatné jméno a znamená ráno.",
+        "Morgen je časové příslovce označující následující den.",
+        "Příklady: Ich komme morgen = Přijdu zítra; Bis morgen! = Až zítra!"
       ],
       "examples": [
         {
@@ -15207,14 +15203,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ráno",
       "explanation": [
-        "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Denní část – dopoledne.",
-        "Der Morgen hlavně znamená: druhý den.",
-        "Často charakterizováno: počasím.",
-        "Der Morgen primárně znamená: část dne.",
-        "Často popisuje: podstatné jméno (der).",
-        "Der Morgen v podstatě znamená: několik ran.",
-        "Často charakterizováno: podstatné jméno (pl.).",
-        "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!"
+        "Hlavní myšlenka: der Morgen je podstatné jméno se členem der a velkým písmenem. Označuje část dne – ráno.",
+        "Der Morgen znamená ráno, ne zítra.",
+        "morgen s malým písmenem znamená zítra.",
+        "Příklady: Guten Morgen! = Dobré ráno; Der Morgen ist schön = Ráno je krásné."
       ],
       "examples": [
         {
@@ -15244,7 +15236,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Malý morgen = zítra (Ich komme morgen). der Morgen s velkým písmenem = ráno (Guten Morgen!, am Morgen).",
-        "Der Morgen = zítra"
+        "Der Morgen = ráno"
       ],
       "important": [
         "Morgen je malé písmeno - je to časové příslovce (zítra).",
@@ -15371,15 +15363,15 @@ const A1_WORDS = [
   },
   {
     "de": "müssen",
-    "lv": "Potřebovat",
+    "lv": "Musit",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
       "layout": "standardStudy",
-      "translation": "Potřebovat",
+      "translation": "Musit",
       "explanation": [
-        "Hlavní myšlenka: müssen znamená něco dělat.",
-        "V češtině se müssen často překládá jako „já ano...“, „ty ano...“, „my ano...“.",
+        "Hlavní myšlenka: müssen znamená, že je nutné něco dělat.",
+        "V češtině se müssen často překládá jako „já musím…“, „ty musíš…“, „my musíme…“.",
         "V německé větě je druhé sloveso obvykle na konci.",
         "Na úrovni A1 je nejdůležitější formou Ich muss..."
       ],
@@ -15390,7 +15382,7 @@ const A1_WORDS = [
         },
         {
           "de": "Du musst warten.",
-          "lv": "Musíte počkat."
+          "lv": "Musíš počkat."
         },
         {
           "de": "Wir müssen lernen.",
@@ -15404,12 +15396,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "müssen",
-          "meaning": "Potřebovat / muset udělat",
+          "meaning": "Musit / být nutné",
           "example": "Ich muss gehen."
         },
         {
           "word": "können",
-          "meaning": "Být schopen / vědět",
+          "meaning": "Moci / umět",
           "example": "Ich kann kommen."
         },
         {
@@ -15620,17 +15612,17 @@ const A1_WORDS = [
   },
   {
     "de": "nach",
-    "lv": "Až • Po",
+    "lv": "Do • Po",
     "level": "A1",
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "Až • Po",
+      "translation": "Do • Po",
       "explanation": [
-        "Hlavní myšlenka: nach znamená to s místy a potom s časem nebo posloupností.",
-        "S městy a zeměmi bez článku nach často znamená.",
+        "Hlavní myšlenka: nach znamená „do“ u míst a „po“ u času nebo posloupnosti.",
+        "U měst a zemí bez členu nach často znamená „do“.",
         "S časem nach znamená po.",
-        "Ve frázi nach Hause to znamená domov."
+        "Ve frázi nach Hause to znamená domů."
       ],
       "examples": [
         {
@@ -15658,7 +15650,7 @@ const A1_WORDS = [
         },
         {
           "word": "zu",
-          "meaning": "Do / v",
+          "meaning": "Do / k",
           "example": "Ich gehe zum Arzt."
         },
         {
@@ -15881,7 +15873,7 @@ const A1_WORDS = [
   },
   {
     "de": "nass",
-    "lv": "Mokré",
+    "lv": "Mokrý",
     "level": "A1"
   },
   {
@@ -15915,7 +15907,7 @@ const A1_WORDS = [
         },
         {
           "de": "Natürlich helfe ich dir.",
-          "lv": "Samozřejmě vám pomůžu."
+          "lv": "Samozřejmě ti pomůžu."
         },
         {
           "de": "Sie hat natürliche rote Haare.",
@@ -15936,7 +15928,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Natürlich = samozřejmě (příslovce, afirmace) NEBO přirozené (přídavné jméno).",
-        "Přirozeně! jako samostatný vykřičník vždy = samozřejmě!"
+        "Samostatné Natürlich! jako potvrzení znamená „Samozřejmě!“; „přirozeně“ je jiný význam podle kontextu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16057,12 +16049,12 @@ const A1_WORDS = [
   },
   {
     "de": "nehmen",
-    "lv": "Vzít • Vzít",
+    "lv": "Brát • Vzít",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "Vzít • Vzít",
+      "translation": "Brát • Vzít",
       "explanation": [
         "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
         "Nehmen se používá, když si vezmete něco pro sebe nebo si vyberete.",
@@ -16080,11 +16072,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bringe dir das Buch.",
-          "lv": "Přinesl jsem ti knihu"
+          "lv": "Přinesu ti knihu."
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "Vezmu tě"
+          "lv": "Vyzvednu tě."
         }
       ],
       "comparison": [
@@ -16095,12 +16087,12 @@ const A1_WORDS = [
         },
         {
           "word": "bringen",
-          "meaning": "Přinést / vzít / dodat",
+          "meaning": "Přinést / odnést / dopravit",
           "example": "Ich bringe dir das Buch."
         },
         {
           "word": "holen",
-          "meaning": "Jít za / aport",
+          "meaning": "Jít pro / přinést",
           "example": "Ich hole Wasser."
         },
         {
@@ -16113,7 +16105,7 @@ const A1_WORDS = [
         "text": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést."
       },
       "important": [
-        "Ich nehme den Bus znamená v češtině „řídím autobus“.",
+        "Ich nehme den Bus znamená v češtině „jedu autobusem“.",
         "Nehmen není totéž jako přinést."
       ],
       "sectionAccents": {
@@ -16316,7 +16308,7 @@ const A1_WORDS = [
   },
   {
     "de": "nein",
-    "lv": "Žádný",
+    "lv": "Ne",
     "level": "A1"
   },
   {
@@ -16343,7 +16335,7 @@ const A1_WORDS = [
         "V češtině má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
         "Pro věk člověka nebo zvířete se používá jung, nikoli neu.",
         "Neu se používá i přeneseně: nová práce, nová informace, nový začátek.",
-        "Opakem je alt (starý) • Podstatné jméno das Neue znamená nový."
+        "Opakem je alt (starý) • Podstatné jméno das Neue znamená to nové nebo novinku."
       ],
       "examples": [
         {
@@ -16548,7 +16540,7 @@ const A1_WORDS = [
   },
   {
     "de": "neunzehnte",
-    "lv": "Devatenáctého",
+    "lv": "Devatenáctý",
     "level": "A1"
   },
   {
@@ -16563,7 +16555,7 @@ const A1_WORDS = [
   },
   {
     "de": "nicht",
-    "lv": "Žádný",
+    "lv": "Ne",
     "level": "A1"
   },
   {
