@@ -18152,12 +18152,12 @@ const A1_WORDS = [
   },
   {
     "de": "rufen",
-    "lv": "Zavolat",
+    "lv": "Volat",
     "level": "A1"
   },
   {
     "de": "rund",
-    "lv": "Kolo",
+    "lv": "Kulatý",
     "level": "A1"
   },
   {
@@ -18218,7 +18218,7 @@ const A1_WORDS = [
         "Použijte sagen, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Sagen = vyprávět.",
+        "Sagen = říct.",
         "Sdělit konkrétní myšlenku, slovo nebo větu."
       ],
       "sectionAccents": {
@@ -18289,7 +18289,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-schauen-study",
       "layout": "standardStudy",
-      "translation": "Hodinky",
+      "translation": "Dívat se",
       "explanation": [
         "Hlavní myšlenka: Dívat se nebo se dívat aktivně.",
         "Schauen především znamená: aktivně sledovat.",
@@ -18414,7 +18414,7 @@ const A1_WORDS = [
   },
   {
     "de": "schmecken",
-    "lv": "Ochutnat",
+    "lv": "Chutnat",
     "level": "A1"
   },
   {
@@ -18425,12 +18425,12 @@ const A1_WORDS = [
   {
     "de": "Schnee",
     "de_article": "der",
-    "lv": "Bude sněžit",
+    "lv": "Sníh",
     "level": "A1"
   },
   {
     "de": "schneien",
-    "lv": "Sněží",
+    "lv": "Sněžit",
     "level": "A1"
   },
   {
@@ -18549,7 +18549,7 @@ const A1_WORDS = [
     "de": "Schüler",
     "de_article": "der",
     "de_plural": "die Schüler",
-    "lv": "Student",
+    "lv": "Žák",
     "level": "A1"
   },
   {
@@ -18582,7 +18582,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: schwimmen znamená plavat jako pohyb nebo sport.",
         "Schwimmen se používá, když člověk plave ve vodě plaveckým pohybem.",
-        "Pokud jde o relaxaci ve vodě nebo plavání, často se používá baden.",
+        "Pokud jde o relaxaci ve vodě nebo koupání, často se používá baden.",
         "Na úrovni A1 je důležité rozlišovat: schwimmen = plavat, baden = koupat se."
       ],
       "examples": [
@@ -18600,7 +18600,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich gehe baden.",
-          "lv": "Chodím plavat"
+          "lv": "Jdu se koupat."
         }
       ],
       "comparison": [
@@ -18611,7 +18611,7 @@ const A1_WORDS = [
         },
         {
           "word": "baden",
-          "meaning": "Plavat / být ve vodě",
+          "meaning": "Koupat se • Být ve vodě",
           "example": "Ich gehe baden."
         },
         {
@@ -18888,12 +18888,12 @@ const A1_WORDS = [
         },
         {
           "word": "schauen",
-          "meaning": "Hodinky",
+          "meaning": "Dívat se",
           "example": "Ich schaue auf das Bild."
         },
         {
           "word": "ansehen",
-          "meaning": "Pohled / pohled",
+          "meaning": "Prohlédnout si • Dívat se na",
           "example": "Ich sehe mir den Film an."
         },
         {
@@ -19147,7 +19147,7 @@ const A1_WORDS = [
         },
         {
           "word": "bleiben",
-          "meaning": "Pobyt",
+          "meaning": "Zůstat",
           "example": "Ich bleibe hier."
         }
       ],
@@ -19156,7 +19156,7 @@ const A1_WORDS = [
       },
       "important": [
         "Sein tvary se musí učit samostatně: bin, bist, ist, sind.",
-        "Ich bin je 'já jsem' ne 'jsem'."
+        "Ich bin znamená „já jsem“ nebo jednoduše „jsem“; neznamená „být“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19343,7 +19343,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-seite",
       "layout": "standardStudy",
-      "translation": "Strana • Strana",
+      "translation": "Stránka • Strana",
       "explanation": [
         "Hlavní myšlenka: die Seite může znamenat stránku knihy/dokumentu nebo stranu/okraj něčeho.",
         "V knize, časopise nebo webové stránce die Seite = stránka (Seite 5 = strana 5).",
@@ -19355,7 +19355,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Schlagt die Seite zwanzig auf.",
-          "lv": "Přejděte na stránku dvacet."
+          "lv": "Otevřete stránku dvacet."
         },
         {
           "de": "Auf der linken Seite ist ein Park.",
@@ -19509,7 +19509,7 @@ const A1_WORDS = [
     "de": "Sekunde",
     "de_article": "die",
     "de_plural": "die Sekunden",
-    "lv": "Sekundu",
+    "lv": "Sekunda",
     "level": "A1"
   },
   {
@@ -19520,22 +19520,22 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "Sebe • Pro sebe",
+    "lv": "Sebe • Sobě",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Sebe • Pro sebe",
+      "translation": "Sebe • Sobě",
       "explanation": [
         "Hlavní myšlenka: sich ukazuje, že akce se vztahuje k samotnému konateli.",
-        "V češtině se často překládá jako já nebo já.",
+        "V češtině se často překládá jako se, sebe nebo sobě.",
         "U některých německých sloves je sich povinnou součástí, jako je sich waschen.",
         "Důležité upozornění na úrovni A1: ich wasche mich, er wäscht sich."
       ],
       "examples": [
         {
           "de": "Er wäscht sich.",
-          "lv": "Koupe se."
+          "lv": "Myje se."
         },
         {
           "de": "Ich setze mich.",
@@ -19553,22 +19553,22 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "sich",
-          "meaning": "Já / sebe",
+          "meaning": "Sebe • Sobě",
           "example": "Er wäscht sich."
         },
         {
           "word": "mich",
-          "meaning": "Já / já v ich",
+          "meaning": "Mě • Sebe u ich",
           "example": "Ich wasche mich."
         },
         {
           "word": "dich",
-          "meaning": "Ty / já v du",
+          "meaning": "Tebe • Sebe u du",
           "example": "Du wäschst dich."
         },
         {
           "word": "ihn",
-          "meaning": "Mu",
+          "meaning": "Ho",
           "example": "Ich sehe ihn."
         }
       ],
@@ -19756,7 +19756,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: sicher jako přídavné jméno znamená jistý, jako příslovce znamená jistě/pravděpodobně.",
         "Když mluvíme o místě, situaci nebo osobě, sicher = bezpečné (ein sicherer Ort = bezpečné místo).",
         "Jako potvrzení nebo ujištění ve větě sicher = jistě/samozřejmě (Das ist sicher wahr. = Je to jistě pravda.).",
-        "Určitě! jako samostatná odpověď znamená samozřejmě!/pravděpodobně!"
+        "Sicher! jako samostatná odpověď znamená určitě nebo samozřejmě."
       ],
       "examples": [
         {
@@ -19781,7 +19781,7 @@ const A1_WORDS = [
         },
         {
           "de": "Fahr sicher!",
-          "lv": "Jezděte bezpečně!"
+          "lv": "Jeď bezpečně!"
         }
       ],
       "tip": [
@@ -19913,16 +19913,16 @@ const A1_WORDS = [
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "Oni / ji",
+      "translation": "Ona • Oni • Ji",
       "explanation": [
         "Hlavní myšlenka: Množné číslo – mluví o více než jedné osobě. Sloveso končí na -en: kochen, essen, gehen.",
-        "Sie znamená hlavně: jedna žena.",
+        "Malé sie může znamenat „ona“, „oni“ nebo „ji“. Význam určuje kontext a tvar slovesa.",
         "Často charakterizováno: sloveso jednotného čísla (-t).",
         "Sie znamená hlavně: několik lidí.",
         "Často charakterizováno: množné sloveso (-en).",
         "Sie znamená hlavně: zdvořilá adresa.",
         "Často popisováno: nutně s velkým S.",
-        "Malé sie znamená ji, když je sloveso jednotného čísla (Sie kocht = vaří)."
+        "Malé sie znamená „ji“ pouze jako předmět. Jako podmět znamená „ona“ (Sie kocht = Ona vaří)."
       ],
       "examples": [
         {
@@ -19947,7 +19947,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Vaříš prosím"
+          "lv": "Vaříte, prosím?"
         }
       ],
       "tip": [
