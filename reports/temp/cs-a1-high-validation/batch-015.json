@@ -1,0 +1,141 @@
+{
+  "batch": "batch-015",
+  "cardIds": [
+    "a1-richtig-497",
+    "a1-rund-501",
+    "a1-schmecken-515",
+    "a1-Schnee-517",
+    "a1-Sekunde-545"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-108",
+      "cardId": "a1-richtig-497",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Opravit znamená repair/fix; richtig znamená správný nebo správně.",
+      "auditCurrentCs": "Opravit",
+      "auditProposedCs": "Správný",
+      "auditDe": "richtig",
+      "auditLvSource": "pareizs",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Opravit",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-109",
+      "cardId": "a1-rund-501",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Kolo je podstatné jméno; rund je přídavné jméno ve významu kulatý.",
+      "auditCurrentCs": "Kolo",
+      "auditProposedCs": "Kulatý",
+      "auditDe": "rund",
+      "auditLvSource": "apaļš",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Kolo",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-110",
+      "cardId": "a1-schmecken-515",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Ochutnat znamená zkusit chuť; schmecken znamená chutnat nebo mít určitou chuť.",
+      "auditCurrentCs": "Ochutnat",
+      "auditProposedCs": "Chutnat",
+      "auditDe": "schmecken",
+      "auditLvSource": "garšot",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Ochutnat",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-111",
+      "cardId": "a1-Schnee-517",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Schnee je podstatné jméno sníh; Bude sněžit je budoucí slovesný výraz.",
+      "auditCurrentCs": "Bude sněžit",
+      "auditProposedCs": "Sníh",
+      "auditDe": "Schnee",
+      "auditLvSource": "sniegs",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Bude sněžit",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-112",
+      "cardId": "a1-Sekunde-545",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Czech translation is in the accusative; the standalone noun should use the nominative form.",
+      "auditCurrentCs": "Sekundu",
+      "auditProposedCs": "Sekunda",
+      "auditDe": "Sekunde",
+      "auditLvSource": "sekunde",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Sekundu",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-108",
+      "cardId": "a1-richtig-497",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Opravit“ znamená repair/fix, nikoli „richtig“. Německé „richtig“ zde znamená „správný“.",
+      "currentCs": "Opravit",
+      "proposedCs": "Správný"
+    },
+    {
+      "findingId": "HIGH-109",
+      "cardId": "a1-rund-501",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Kolo“ je podstatné jméno. Německé přídavné jméno „rund“ znamená „kulatý“.",
+      "currentCs": "Kolo",
+      "proposedCs": "Kulatý"
+    },
+    {
+      "findingId": "HIGH-110",
+      "cardId": "a1-schmecken-515",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "„Ochutnat“ znamená zkusit chuť; „schmecken“ znamená „chutnat“ nebo mít určitou chuť.",
+      "currentCs": "Ochutnat",
+      "proposedCs": "Chutnat"
+    },
+    {
+      "findingId": "HIGH-111",
+      "cardId": "a1-Schnee-517",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Bude sněžit“ je slovesný výraz. Německé podstatné jméno „Schnee“ znamená „sníh“.",
+      "currentCs": "Bude sněžit",
+      "proposedCs": "Sníh"
+    },
+    {
+      "findingId": "HIGH-112",
+      "cardId": "a1-Sekunde-545",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Sekundu“ je akuzativ. Samostatné německé podstatné jméno „Sekunde“ vyžaduje nominativ „sekunda“.",
+      "currentCs": "Sekundu",
+      "proposedCs": "Sekunda"
+    }
+  ],
+  "completedAt": "2026-08-11T17:40:29.617Z"
+}

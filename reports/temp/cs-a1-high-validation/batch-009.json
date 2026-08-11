@@ -1,0 +1,141 @@
+{
+  "batch": "batch-009",
+  "cardIds": [
+    "a1-dein-132",
+    "a1-deutsch-135",
+    "a1-du-149",
+    "a1-Ecke-152",
+    "a1-fett-184"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-077",
+      "cardId": "a1-dein-132",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Dein“ je neformální jednotné „tvůj“, zatímco „vaše“ je vykání nebo množné číslo.",
+      "auditCurrentCs": "Vaše",
+      "auditProposedCs": "Tvůj",
+      "auditDe": "dein",
+      "auditLvSource": "tavs",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Vaše",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-078",
+      "cardId": "a1-deutsch-135",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Němec“ je osoba; německé přídavné jméno „deutsch“ znamená „německý“.",
+      "auditCurrentCs": "Němec",
+      "auditProposedCs": "Německý",
+      "auditDe": "deutsch",
+      "auditLvSource": "vācu",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Němec",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-079",
+      "cardId": "a1-du-149",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Du“ je neformální jednotné zájmeno „ty“; „vy“ vyjadřuje množné číslo nebo vykání.",
+      "auditCurrentCs": "Vy",
+      "auditProposedCs": "Ty",
+      "auditDe": "du",
+      "auditLvSource": "tu",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Vy",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-080",
+      "cardId": "a1-Ecke-152",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Rohu“ je nepřímý pád; základní český tvar odpovídající německému podstatnému jménu je „roh“.",
+      "auditCurrentCs": "Rohu",
+      "auditProposedCs": "Roh",
+      "auditDe": "Ecke",
+      "auditLvSource": "stūris",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Rohu",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-081",
+      "cardId": "a1-fett-184",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Tuk je podstatné jméno; německé fett je přídavné jméno.",
+      "auditCurrentCs": "Tuk",
+      "auditProposedCs": "Tučný",
+      "auditDe": "fett",
+      "auditLvSource": "trekns",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Tuk",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-077",
+      "cardId": "a1-dein-132",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Dein“ je neformální jednotné přivlastňovací zájmeno; „Vaše“ znamená vykání nebo množné číslo.",
+      "currentCs": "Vaše",
+      "proposedCs": "Tvůj"
+    },
+    {
+      "findingId": "HIGH-078",
+      "cardId": "a1-deutsch-135",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "„Deutsch“ jako přídavné jméno znamená „německý“, nikoli osobu „Němec“.",
+      "currentCs": "Němec",
+      "proposedCs": "Německý"
+    },
+    {
+      "findingId": "HIGH-079",
+      "cardId": "a1-du-149",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Du“ je neformální jednotné zájmeno „ty“; „Vy“ vyjadřuje vykání nebo množné číslo.",
+      "currentCs": "Vy",
+      "proposedCs": "Ty"
+    },
+    {
+      "findingId": "HIGH-080",
+      "cardId": "a1-Ecke-152",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Ecke“ odpovídá českému základnímu tvaru „roh“, zatímco „rohu“ je nepřímý pád.",
+      "currentCs": "Rohu",
+      "proposedCs": "Roh"
+    },
+    {
+      "findingId": "HIGH-081",
+      "cardId": "a1-fett-184",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Fett“ je přídavné jméno s významem „tučný“; „tuk“ je podstatné jméno.",
+      "currentCs": "Tuk",
+      "proposedCs": "Tučný"
+    }
+  ],
+  "completedAt": "2026-08-11T17:39:54.883Z"
+}
