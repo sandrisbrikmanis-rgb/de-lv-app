@@ -1,0 +1,194 @@
+{
+  "batch": 4,
+  "items": [
+    {
+      "findingId": "CRIT-19",
+      "cardId": "a1-März-396",
+      "index": 396,
+      "field": "csText",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "„März“ je měsíc březen; „pochod“ má v češtině jiný význam.",
+        "currentCs": "Pochod",
+        "proposedCs": "Březen",
+        "de": "März",
+        "lvSource": "marts"
+      },
+      "productionNow": {
+        "currentCs": "Pochod",
+        "de": "März",
+        "lvSource": "marts"
+      }
+    },
+    {
+      "findingId": "CRIT-20",
+      "cardId": "a1-bitte",
+      "index": 93,
+      "field": "study.explanation",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Text obsahuje strojový překlad, nesmyslné výrazy „zemřít“ a „pokousán“ i významové chyby.",
+        "currentCs": "[\"Hlavní myšlenka: Zdvořilé slovo s malými písmeny. Byl jsem zdvořilý - prosím.\",\"Bitte znamená hlavně: zdvořilost.\",\"Často popisuje: zdvořilé slovo.\",\"Bitte znamená především: požadavek/žádost.\",\"Často charakterizováno: podstatné jméno (zemřít).\",\"Bitte s malým písmenem je zdvořilé slovo - znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).\",\"Die Bitte s velkým písmenem a členem die je podstatné jméno - znamená žádost nebo žádost (Ich habe eine Bitte = mám žádost).\",\"Množné číslo: zemřít pokousán.\"]",
+        "proposedCs": "[\"Bitte s malým písmenem je zdvořilostní výraz a znamená prosím.\",\"Die Bitte s velkým písmenem a členem die je podstatné jméno a znamená prosba nebo žádost.\",\"Množné číslo je die Bitten.\"]",
+        "de": "bitte / die Bitte",
+        "lvSource": "lūdzu"
+      },
+      "productionNow": {
+        "currentCs": "[\"Hlavní myšlenka: Zdvořilé slovo s malými písmeny. Byl jsem zdvořilý - prosím.\",\"Bitte znamená hlavně: zdvořilost.\",\"Často popisuje: zdvořilé slovo.\",\"Bitte znamená především: požadavek/žádost.\",\"Často charakterizováno: podstatné jméno (zemřít).\",\"Bitte s malým písmenem je zdvořilé slovo - znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).\",\"Die Bitte s velkým písmenem a členem die je podstatné jméno - znamená žádost nebo žádost (Ich habe eine Bitte = mám žádost).\",\"Množné číslo: zemřít pokousán.\"]",
+        "de": "bitte",
+        "lvSource": "[\"Galvenā doma: bitte ar mazo sākumburtu ir pieklājības vārds ar nozīmi lūdzu.\",\"To lieto lūgumos, pasūtījumos un pieklājīgās atbildēs.\",\"Lietvārds die Bitte ar lielo sākumburtu nozīmē lūgums.\"]"
+      }
+    },
+    {
+      "findingId": "CRIT-21",
+      "cardId": "a1-bitte-study",
+      "index": 94,
+      "field": "study.explanation",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Vysvětlení je převzato z chybného strojového překladu a zaměňuje podstatné jméno se zdvořilostním výrazem.",
+        "currentCs": "[\"Hlavní myšlenka: Podstatné jméno se členem zemřít a velkým písmenem. Konkrétní požadavek nebo požadavek.\",\"Die Bitte znamená hlavně: zdvořilost.\",\"Často popisuje: zdvořilé slovo.\",\"Die Bitte v podstatě znamená: žádost/žádost.\",\"Často charakterizováno: podstatné jméno (zemřít).\",\"Bitte s malým písmenem je zdvořilé slovo - znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).\",\"Die Bitte s velkým písmenem a členem die je podstatné jméno - znamená žádost nebo žádost (Ich habe eine Bitte = mám žádost).\",\"Množné číslo: zemřít pokousán.\"]",
+        "proposedCs": "[\"Die Bitte je podstatné jméno ženského rodu se členem die a znamená prosba nebo žádost.\",\"Píše se s velkým písmenem.\",\"Množné číslo je die Bitten.\",\"Pozor: malé bitte znamená prosím.\"]",
+        "de": "die Bitte / bitte",
+        "lvSource": "lūgums"
+      },
+      "productionNow": {
+        "currentCs": "[\"Hlavní myšlenka: Podstatné jméno se členem zemřít a velkým písmenem. Konkrétní požadavek nebo požadavek.\",\"Die Bitte znamená hlavně: zdvořilost.\",\"Často popisuje: zdvořilé slovo.\",\"Die Bitte v podstatě znamená: žádost/žádost.\",\"Často charakterizováno: podstatné jméno (zemřít).\",\"Bitte s malým písmenem je zdvořilé slovo - znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).\",\"Die Bitte s velkým písmenem a členem die je podstatné jméno - znamená žádost nebo žádost (Ich habe eine Bitte = mám žádost).\",\"Množné číslo: zemřít pokousán.\"]",
+        "de": "Bitte",
+        "lvSource": "[\"Galvenā doma: die Bitte ir lietvārds ar nozīmi lūgums.\",\"Vārdu raksta ar lielo sākumburtu un lieto ar artikulu die.\",\"Daudzskaitlis ir die Bitten.\",\"Pieklājības vārds bitte ar mazo sākumburtu nozīmē lūdzu.\"]"
+      }
+    },
+    {
+      "findingId": "CRIT-22",
+      "cardId": "a1-das",
+      "index": 129,
+      "field": "study.translation",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Obsahuje anglické slovo „Neuter“; český název má být plně česky.",
+        "currentCs": "Neuter určitý člen",
+        "proposedCs": "Určitý člen středního rodu",
+        "de": "das",
+        "lvSource": "vidus dzimtes noteiktais artikuls"
+      },
+      "productionNow": {
+        "currentCs": "Neuter určitý člen",
+        "de": "das",
+        "lvSource": "vidus dzimtes noteiktais artikuls"
+      }
+    },
+    {
+      "findingId": "CRIT-23",
+      "cardId": "a1-die",
+      "index": 137,
+      "field": "study.explanation",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "„Umřít“ je chybný překlad slova die a mění význam celé věty.",
+        "currentCs": "Používá se s podstatnými jmény ženského rodu. V některých větách může „umřít“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+        "proposedCs": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+        "de": "die",
+        "lvSource": "Dažos teikumos “die” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds."
+      },
+      "productionNow": {
+        "currentCs": "Používá se s podstatnými jmény ženského rodu. V některých větách může „umřít“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+        "de": "die",
+        "lvSource": "Lieto pie sieviešu dzimtes lietvārdiem. Dažos teikumos “die” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds."
+      }
+    },
+    {
+      "findingId": "CRIT-24",
+      "cardId": "a1-die",
+      "index": 137,
+      "field": "study.important[1]",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "„Kostky“ a „pohlaví“ jsou chybné překlady; správně jde o člen die a gramatické rody.",
+        "currentCs": "Množné číslo kostky se také používá pro všechna pohlaví.",
+        "proposedCs": "V množném čísle se die používá pro všechny rody.",
+        "de": "die",
+        "lvSource": "Daudzskaitlī die lieto arī visām dzimtēm."
+      },
+      "productionNow": {
+        "currentCs": "Množné číslo kostky se také používá pro všechna pohlaví.",
+        "de": "die",
+        "lvSource": "Daudzskaitlī die lieto arī visām dzimtēm."
+      }
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "CRIT-19",
+      "cardId": "a1-März-396",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "České „Pochod“ znamená pochod, nikoli německý měsíc März.",
+      "currentCs": "Pochod",
+      "proposedCs": "Březen",
+      "de": "März"
+    },
+    {
+      "findingId": "CRIT-20",
+      "cardId": "a1-bitte",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení obsahuje závažné strojové překlady, nesmyslné tvary a chybné rozlišení bitte a die Bitte.",
+      "currentCs": "[\"Hlavní myšlenka: Zdvořilé slovo s malými písmeny. Byl jsem zdvořilý - prosím.\",\"Bitte znamená hlavně: zdvořilost.\",\"Často popisuje: zdvořilé slovo.\",\"Bitte znamená především: požadavek/žádost.\",\"Často charakterizováno: podstatné jméno (zemřít).\",\"Bitte s malým písmenem je zdvořilé slovo - znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).\",\"Die Bitte s velkým písmenem a členem die je podstatné jméno - znamená žádost nebo žádost (Ich habe eine Bitte = mám žádost).\",\"Množné číslo: zemřít pokousán.\"]",
+      "proposedCs": "[\"Bitte s malým písmenem je zdvořilostní výraz a znamená prosím.\",\"Die Bitte s velkým písmenem a členem die je podstatné jméno a znamená prosba nebo žádost.\",\"Množné číslo je die Bitten.\"]",
+      "de": "bitte"
+    },
+    {
+      "findingId": "CRIT-21",
+      "cardId": "a1-bitte-study",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Vysvětlení zaměňuje bitte a die Bitte a obsahuje chybné překlady jako „zemřít“ a „pokousán“.",
+      "currentCs": "[\"Hlavní myšlenka: Podstatné jméno se členem zemřít a velkým písmenem. Konkrétní požadavek nebo požadavek.\",\"Die Bitte znamená hlavně: zdvořilost.\",\"Často popisuje: zdvořilé slovo.\",\"Die Bitte v podstatě znamená: žádost/žádost.\",\"Často charakterizováno: podstatné jméno (zemřít).\",\"Bitte s malým písmenem je zdvořilé slovo - znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).\",\"Die Bitte s velkým písmenem a členem die je podstatné jméno - znamená žádost nebo žádost (Ich habe eine Bitte = mám žádost).\",\"Množné číslo: zemřít pokousán.\"]",
+      "proposedCs": "[\"Die Bitte je podstatné jméno ženského rodu se členem die a znamená prosba nebo žádost.\",\"Píše se s velkým písmenem.\",\"Množné číslo je die Bitten.\",\"Pozor: malé bitte znamená prosím.\"]",
+      "de": "Bitte"
+    },
+    {
+      "findingId": "CRIT-22",
+      "cardId": "a1-das",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Anglické slovo „Neuter“ není český překlad a má být nahrazeno českým označením rodu.",
+      "currentCs": "Neuter určitý člen",
+      "proposedCs": "Určitý člen středního rodu",
+      "de": "das"
+    },
+    {
+      "findingId": "CRIT-23",
+      "cardId": "a1-die",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Umřít“ je chybný český překlad německého „die“ a významově narušuje vysvětlení zájmena či vztažného zájmena.",
+      "currentCs": "Používá se s podstatnými jmény ženského rodu. V některých větách může „umřít“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+      "proposedCs": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+      "de": "die"
+    },
+    {
+      "findingId": "CRIT-24",
+      "cardId": "a1-die",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Kostky“ je chybný překlad slova die a „pohlaví“ zde nevystihuje český gramatický termín rody.",
+      "currentCs": "Množné číslo kostky se také používá pro všechna pohlaví.",
+      "proposedCs": "V množném čísle se die používá pro všechny rody.",
+      "de": "die"
+    }
+  ],
+  "completedAt": "2026-08-11T16:07:12.855Z"
+}

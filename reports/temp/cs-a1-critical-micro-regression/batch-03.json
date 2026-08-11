@@ -1,0 +1,187 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-bedeuten-75",
+      "index": 75,
+      "de": "bedeuten",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "lv",
+          "ownerValue": "Znamenat"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-bedeuten-75",
+        "index": 75,
+        "de": "bedeuten",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "nozīmēt",
+        "csText": "Znamenat",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null,
+      "csMain": "Znamenat"
+    },
+    {
+      "cardId": "a1-Buch-116",
+      "index": 116,
+      "de": "Buch",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "lv",
+          "ownerValue": "Kniha"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-Buch-116",
+        "index": 116,
+        "de": "Buch",
+        "de_article": "das",
+        "de_plural": "die Bücher",
+        "lvSource": "grāmata",
+        "csText": "Kniha",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null,
+      "csMain": "Kniha"
+    },
+    {
+      "cardId": "a1-Erde-164",
+      "index": 164,
+      "de": "Erde",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "lv",
+          "ownerValue": "Země"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-Erde-164",
+        "index": 164,
+        "de": "Erde",
+        "de_article": "die",
+        "de_plural": "die Erden",
+        "lvSource": "zeme",
+        "csText": "Země",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null,
+      "csMain": "Země"
+    },
+    {
+      "cardId": "a1-März-396",
+      "index": 396,
+      "de": "März",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "lv",
+          "ownerValue": "Březen"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-März-396",
+        "index": 396,
+        "de": "März",
+        "de_article": "der",
+        "de_plural": null,
+        "lvSource": "marts",
+        "csText": "Březen",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null,
+      "csMain": "Březen"
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-bedeuten-75",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired Czech translation “Znamenat” correctly means German “bedeuten”; no contradiction or new critical issue is present.",
+      "findings": [
+        {
+          "field": "lv",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "Znamenat",
+          "proposedCs": "Znamenat",
+          "reason": "Correct Czech translation for “bedeuten”; repair holds.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Buch-116",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired Czech translation “Kniha” correctly means German “Buch”; article and plural context introduce no critical issue.",
+      "findings": [
+        {
+          "field": "lv",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "Kniha",
+          "proposedCs": "Kniha",
+          "reason": "Correct Czech translation for “Buch”; repair holds.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Erde-164",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired Czech translation “Země” correctly means German “Erde”; the card is coherent with no new critical issue.",
+      "findings": [
+        {
+          "field": "lv",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "Země",
+          "proposedCs": "Země",
+          "reason": "Correct Czech translation for “Erde”; repair holds.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-März-396",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired Czech translation “Březen” correctly means German “März”; no contradiction or new critical issue is present.",
+      "findings": [
+        {
+          "field": "lv",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "Březen",
+          "proposedCs": "Březen",
+          "reason": "Correct Czech translation for “März”; repair holds.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-11T16:40:16.155Z"
+}
