@@ -10274,7 +10274,7 @@ const A1_WORDS = [
   },
   {
     "de": "jeder",
-    "lv": "Každý z nich",
+    "lv": "Každý",
     "level": "A1"
   },
   {
@@ -10300,7 +10300,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-jung",
       "layout": "standardStudy",
-      "translation": "Mladý (o lidech)",
+      "translation": "Mladý (o lidech a zvířatech)",
       "explanation": [
         "Hlavní myšlenka: jung znamená mladý věk – používá se pro lidi a zvířata, ne pro věci.",
         "Jung popisuje věk – opak je alt (starý).",
@@ -10328,7 +10328,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist ein junges Paar.",
-          "lv": "Je to nový pár."
+          "lv": "Je to mladý pár."
         },
         {
           "de": "Die junge Frau lächelt.",
@@ -10514,12 +10514,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-kein",
       "layout": "standardStudy",
-      "translation": "Nikdo • Nic",
+      "translation": "Žádný • Žádné",
       "explanation": [
-        "Hlavní myšlenka: kein je negační člen, který neguje podstatné jméno - češtině, v závislosti na kontextu nikdo nebo nic.",
+        "Hlavní myšlenka: kein je negační člen, který neguje podstatné jméno — v češtině, v závislosti na kontextu nikdo nebo nic.",
         "Kein se skloňuje jako ein (kein/keine/keinen...) a stojí před podstatným jménem.",
         "U počitatelných podstatných jmen (lidé) se kein často překládá jako nikdo (kein Mensch = žádný člověk).",
-        "U nezávazných nebo abstraktních podstatných jmen se kein často překládá jako nic/vůbec (kein Geld = žádné peníze/žádné peníze).",
+        "U nepočitatelných nebo abstraktních podstatných jmen se kein často překládá jako nic/vůbec (kein Geld = žádné peníze/žádné peníze).",
         "Kein neguje celé podstatné jméno, nejen sloveso (srovnej nicht)."
       ],
       "examples": [
@@ -10677,7 +10677,7 @@ const A1_WORDS = [
     "de": "Keks",
     "de_article": "der",
     "de_plural": "die Kekse",
-    "lv": "Cookie",
+    "lv": "Sušenka",
     "level": "A1"
   },
   {
@@ -10688,7 +10688,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-kennen-study",
       "layout": "standardStudy",
-      "translation": "Vědět",
+      "translation": "Znát",
       "explanation": [
         "Hlavní myšlenka: Poznat osobu, místo nebo věc ze zkušenosti.",
         "Kennen znamená především: osobní známost.",
@@ -10714,28 +10714,28 @@ const A1_WORDS = [
         },
         {
           "de": "kennen",
-          "lv": "Poznat moudrý"
+          "lv": "Znát"
         }
       ],
       "comparison": [
         {
           "word": "kennen",
-          "meaning": "Vědět (osoba, místo, věc)",
+          "meaning": "Znát (osobu, místo, věc)",
           "example": "Ich kenne ihn. – Znám ho."
         },
         {
           "word": "wissen",
-          "meaning": "Vědět (fakt, informace)",
+          "meaning": "Vědět (fakt, informaci)",
           "example": "Ich weiß seinen Namen. – Znám jeho jméno."
         }
       ],
       "tip": [
-        "Kennen = vědět",
+        "Kennen = znát",
         "Použijte kennen, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
         "Kennen = poznat osobu/místo.",
-        "Kennen = vědět.",
+        "Kennen = znát.",
         "Znát osobu, místo nebo věc ze zkušenosti."
       ],
       "sectionAccents": {
@@ -10859,7 +10859,7 @@ const A1_WORDS = [
         },
         {
           "word": "kennen",
-          "meaning": "Vědět (osoba, místo, věc)",
+          "meaning": "Znát (osobu, místo, věc)",
           "example": "Ich kenne die Stadt. – Znám to město."
         }
       ],
@@ -10868,7 +10868,7 @@ const A1_WORDS = [
         "Použijte wissen, když kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Wissen = znát skutečnost.",
+        "Wissen = vědět skutečnost.",
         "Wissen = vědět.",
         "Znát fakt, odpověď nebo informaci."
       ],
@@ -10974,10 +10974,10 @@ const A1_WORDS = [
     "study": {
       "id": "a1-können",
       "layout": "standardStudy",
-      "translation": "Umět • Vědět",
+      "translation": "Umět • Moci",
       "explanation": [
         "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat.",
-        "Pokud jde o schopnosti nebo dovednosti, češtině často říká vědět.",
+        "Pokud jde o schopnosti nebo dovednosti, česky často říkáme umět.",
         "Pokud jde o možnost, často se říká, že je to možné.",
         "Können je modální sloveso, takže druhé sloveso je obvykle na konci."
       ],
@@ -10988,7 +10988,7 @@ const A1_WORDS = [
         },
         {
           "de": "Kannst du mir helfen?",
-          "lv": "Můžete mi pomoci?"
+          "lv": "Můžeš mi pomoct?"
         },
         {
           "de": "Wir können heute kommen.",
@@ -11002,7 +11002,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "können",
-          "meaning": "Být schopen / vědět",
+          "meaning": "Být schopen • Umět",
           "example": "Ich kann schwimmen. = Umím plavat."
         },
         {
@@ -11012,7 +11012,7 @@ const A1_WORDS = [
         },
         {
           "word": "müssen",
-          "meaning": "Potřebovat / být ano-",
+          "meaning": "Musit • Být nutné",
           "example": "Ich muss lernen. = Musím se učit."
         },
         {
@@ -11025,7 +11025,7 @@ const A1_WORDS = [
         "text": "Pamatujte: dovednost/schopnost → können."
       },
       "important": [
-        "Können není totéž co dürfen. können = moci/vědět, dürfen = mít dovoleno.",
+        "Können není totéž co dürfen. können = moci/umět, dürfen = mít dovoleno.",
         "Ve větě s können je druhé sloveso často na konci: Ich kann schwimmen."
       ],
       "sectionAccents": {
@@ -11214,9 +11214,9 @@ const A1_WORDS = [
     "study": {
       "id": "a1-kosten",
       "layout": "standardStudy",
-      "translation": "Platit",
+      "translation": "Stát",
       "explanation": [
-        "Hlavní myšlenka: kosten znamená platit tak a tak - mluví o ceně věci.",
+        "Hlavní myšlenka: kosten znamená stát určitou částku — mluví o ceně věci.",
         "Toto slovo se používá, když se ptáte nebo říkáte, kolik něco stojí, ne když člověk platí.",
         "Otázka na cenu v němčině často začíná na Was kostet...?",
         "České slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
@@ -11259,7 +11259,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "kosten",
-          "meaning": "Zaplatit (cena) • Kolik",
+          "meaning": "Stát (cena) • Kolik stát",
           "example": "Das kostet 5 Euro. = Stojí 5 eur."
         },
         {
@@ -11284,7 +11284,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Kosten a bezahlen nejsou synonyma: kosten = kolik to stojí • Bezahlen = platit peníze.",
-        "V češtině se v obou případech často používá plat, ale v němčině je třeba vybrat podle situace."
+        "V češtině se v obou případech často používá sloveso platit, ale v němčině je třeba vybrat podle situace."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11578,7 +11578,7 @@ const A1_WORDS = [
     "de": "Hut",
     "de_article": "der",
     "de_plural": "die Hüte",
-    "lv": "Čepice",
+    "lv": "Klobouk",
     "level": "A1"
   },
   {
@@ -11659,21 +11659,21 @@ const A1_WORDS = [
     "de": "Koch",
     "de_article": "der",
     "de_plural": "die Köche",
-    "lv": "Vařit",
+    "lv": "Kuchař",
     "level": "A1"
   },
   {
     "de": "Köchin",
     "de_article": "die",
     "de_plural": "die Köchinnen",
-    "lv": "Vařit",
+    "lv": "Kuchařka",
     "level": "A1"
   },
   {
     "de": "Kopf",
     "de_article": "der",
     "de_plural": "die Köpfe",
-    "lv": "Hlavu",
+    "lv": "Hlava",
     "level": "A1"
   },
   {
@@ -11694,7 +11694,7 @@ const A1_WORDS = [
     "de": "Kuchen",
     "de_article": "der",
     "de_plural": "die Kuchen",
-    "lv": "Dort",
+    "lv": "Koláč",
     "level": "A1"
   },
   {
@@ -11727,10 +11727,10 @@ const A1_WORDS = [
     "study": {
       "id": "a1-laden-study",
       "layout": "standardStudy",
-      "translation": "Nakupovat",
+      "translation": "Obchod",
       "explanation": [
         "Hlavní myšlenka: der Laden se píše velkými písmeny a článek der je podstatné jméno – malý obchod.",
-        "Laden je malé sloveso - naložit nebo nabít.",
+        "laden je sloveso – znamená naložit nebo nabít.",
         "Der Laden často označuje malý obchod v každodenním životě (im Laden einkaufen = nakupovat v obchodě).",
         "Množné číslo: die Läden."
       ],
