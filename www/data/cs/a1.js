@@ -3122,7 +3122,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-bleiben",
       "layout": "standardStudy",
-      "translation": "Pobyt",
+      "translation": "Zůstat",
       "explanation": [
         "Hlavní myšlenka: bleiben znamená zůstat.",
         "Bleiben se používá, když osoba nebo věc nezmizí a zůstane na stejném místě nebo stavu.",
@@ -3150,7 +3150,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bleiben",
-          "meaning": "Pobyt",
+          "meaning": "Zůstat",
           "example": "Ich bleibe hier."
         },
         {
@@ -3358,7 +3358,7 @@ const A1_WORDS = [
   },
   {
     "de": "blond",
-    "lv": "Blondýnka",
+    "lv": "Blond",
     "level": "A1"
   },
   {
@@ -3413,15 +3413,15 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Přinést • Odnést",
       "explanation": [
-        "Hlavní myšlenka: přinést někomu něco přinést, nést nebo doručit.",
+        "Bringen znamená přinést, odnést, dovézt nebo doručit něco někomu či na určité místo. Přesný překlad závisí na kontextu.",
         "Přinést se používá, když se něco přesouvá na jiné místo nebo k jiné osobě.",
         "Není to totéž jako nehmen, protože nehmen znamená vzít si pro sebe.",
-        "Holen znamená jít za a aportovat nebo brát."
+        "Holen znamená jít nebo zajít pro něco a přinést to."
       ],
       "examples": [
         {
           "de": "Bring mir bitte Wasser.",
-          "lv": "Přines mi prosím vodu"
+          "lv": "Přinesu ti knihu."
         },
         {
           "de": "Ich bringe dich nach Hause.",
@@ -3429,7 +3429,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er bringt das Buch zur Schule.",
-          "lv": "Vezme knihu do školy."
+          "lv": "Donese knihu do školy."
         },
         {
           "de": "Ich nehme das Buch.",
@@ -3449,20 +3449,20 @@ const A1_WORDS = [
         },
         {
           "word": "holen",
-          "meaning": "Jít za / aport",
+          "meaning": "Jít pro • Dojít pro",
           "example": "Ich hole Wasser."
         },
         {
           "word": "mitbringen",
-          "meaning": "Odnést a přinést",
+          "meaning": "Přinést s sebou",
           "example": "Bringst du Brot mit?"
         }
       ],
       "tip": {
-        "text": "Pamatujte: přestěhovat se k někomu → přinést • Vzít si pro sebe → nehmen."
+        "text": "Pamatujte: dopravit něco k někomu nebo na jiné místo → bringen • vzít si něco pro sebe → nehmen."
       },
       "important": [
-        "Přinesený ukazuje někomu směr nebo místo.",
+        "Bringen ukazuje směr k jiné osobě nebo na určité místo.",
         "Nehmen znamená vzít, ale ne nutně doručit druhému."
       ],
       "sectionAccents": {
@@ -3665,7 +3665,7 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "Sendvič",
+    "lv": "Chléb s máslem",
     "level": "A1"
   },
   {
@@ -3693,14 +3693,14 @@ const A1_WORDS = [
     "de": "Buch",
     "de_article": "das",
     "de_plural": "die Bücher",
-    "lv": "Rezervovat",
+    "lv": "Kniha",
     "level": "A1"
   },
   {
     "de": "Buchstabe",
     "de_article": "der",
     "de_plural": "die Buchstaben",
-    "lv": "Dopis",
+    "lv": "Písmeno",
     "level": "A1"
   },
   {
@@ -3755,7 +3755,7 @@ const A1_WORDS = [
     "de": "Cousine",
     "de_article": "die",
     "de_plural": "die Cousinen",
-    "lv": "Bratranec",
+    "lv": "Sestřenice",
     "level": "A1"
   },
   {
@@ -3769,7 +3769,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: da na úrovni A1 nejčastěji znamená tam.",
         "Da označuje místo nebo odkazuje na něco již zmíněného.",
-        "Podle situace to lze přeložit i jako zde nebo zde.",
+        "Podle situace to lze přeložit také jako zde nebo tady.",
         "Na úrovni A1 se učíme hlavně da jako obecné místo."
       ],
       "examples": [
@@ -3783,7 +3783,7 @@ const A1_WORDS = [
         },
         {
           "de": "Da kommt er.",
-          "lv": "Tady přichází."
+          "lv": "Tamhle přichází."
         },
         {
           "de": "Komm mal da her!",
@@ -3813,7 +3813,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: generál tam/te → da."
+        "text": "Pamatujte: obecné tam nebo zde → da."
       },
       "sectionAccents": {
         "explanation": {
@@ -4020,7 +4020,7 @@ const A1_WORDS = [
   },
   {
     "de": "danken",
-    "lv": "Poděkovat",
+    "lv": "Děkovat",
     "level": "A1"
   },
   {
@@ -4035,8 +4035,8 @@ const A1_WORDS = [
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "Neuter určitý člen",
-      "explanation": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+      "translation": "Určitý člen středního rodu",
+      "explanation": "Používá se před podstatnými jmény středního rodu. V některých větách může das fungovat také jako zájmeno nebo vztažné zájmeno.",
       "examples": [
         {
           "de": "Das ist mein Auto.",
@@ -4064,12 +4064,12 @@ const A1_WORDS = [
         },
         {
           "word": "welches",
-          "meaning": "Kdo • Který • Kdo",
+          "meaning": "Který • Která • Které",
           "example": "Das ist das Buch, welches ich lese. – Je to kniha, kterou čtu."
         }
       ],
       "tip": {
-        "text": "Pamatujte: střední genitiv → das • Že → dass."
+        "text": "Pamatujte: střední rod → das • že → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -4174,7 +4174,7 @@ const A1_WORDS = [
       },
       "important": [
         "Na úrovni A1 je das nejprve studován jako článek středního rodu.",
-        "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená 'to'."
+        "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená „že“."
       ]
     }
   },
@@ -4186,7 +4186,7 @@ const A1_WORDS = [
       "id": "a1-dass",
       "layout": "standardStudy",
       "translation": "Že",
-      "explanation": "Zavádí pomocnou klauzuli, která vyjadřuje skutečnost, myšlenku nebo tvrzení.",
+      "explanation": "Uvozuje vedlejší větu, která vyjadřuje skutečnost, myšlenku nebo tvrzení.",
       "examples": [
         {
           "de": "Ich weiß, dass du müde bist.",
@@ -4214,17 +4214,17 @@ const A1_WORDS = [
         },
         {
           "word": "damit",
-          "meaning": "Na",
+          "meaning": "Aby",
           "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Učím se německy, abych mohl pracovat v Německu."
         },
         {
           "word": "ob",
-          "meaning": "Nebo",
+          "meaning": "Zda • Jestli",
           "example": "Ich weiß nicht, ob er kommt. – Nevím, jestli přijde."
         }
       ],
       "tip": {
-        "text": "Pamatujte: to → dass."
+        "text": "Pamatujte: že → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -4363,7 +4363,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Dass znamená „to“ a zavádí pomocnou klauzuli.",
+        "Dass znamená „že“ a uvozuje vedlejší větu.",
         "Nezaměňovat s das, což může být článek nebo 'to'."
       ]
     }
@@ -4377,7 +4377,7 @@ const A1_WORDS = [
   },
   {
     "de": "dein",
-    "lv": "Vaše",
+    "lv": "Tvůj",
     "level": "A1"
   },
   {
@@ -4401,7 +4401,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "Autobus jede."
+          "lv": "Autobus přijíždí."
         },
         {
           "de": "Der Lehrer spricht.",
@@ -4409,7 +4409,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: mužský → sedí."
+        "text": "Pamatujte: mužský rod → der."
       },
       "sectionAccents": {
         "examples": [
@@ -4476,13 +4476,13 @@ const A1_WORDS = [
       },
       "important": [
         "Na úrovni A1 byste se měli nejprve učit jako mužský článek.",
-        "Použití zájmen a relativního jména přijde později."
+        "Použití zájmena a vztažného zájmena přijde později."
       ]
     }
   },
   {
     "de": "deutsch",
-    "lv": "Němec",
+    "lv": "Německý",
     "level": "A1"
   },
   {
@@ -4499,7 +4499,7 @@ const A1_WORDS = [
       "id": "a1-die",
       "layout": "standardStudy",
       "translation": "Ženský určitý člen",
-      "explanation": "Používá se s podstatnými jmény ženského rodu. V některých větách může „umřít“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+      "explanation": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
       "examples": [
         {
           "de": "Die Frau ist hier.",
@@ -4507,15 +4507,15 @@ const A1_WORDS = [
         },
         {
           "de": "Die Katze schläft.",
-          "lv": "Kotě spí."
+          "lv": "Kočka spí."
         },
         {
           "de": "Die Lehrerin erklärt.",
-          "lv": "Vysvětluje učitel."
+          "lv": "Učitelka vysvětluje."
         }
       ],
       "tip": {
-        "text": "Pamatujte: ženský → zemřít."
+        "text": "Pamatujte: ženský rod → die."
       },
       "sectionAccents": {
         "examples": [
@@ -4599,7 +4599,7 @@ const A1_WORDS = [
       },
       "important": [
         "Na úrovni A1 je kostka nejprve studována jako ženský článek.",
-        "Množné číslo kostky se také používá pro všechna pohlaví."
+        "V množném čísle se die používá pro všechny rody."
       ]
     }
   },
@@ -4622,19 +4622,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Dieser Mann ist nett.",
-          "lv": "Tento muž je pěkný."
+          "lv": "Tento muž je milý."
         },
         {
           "de": "Ich mag diesen Hund.",
-          "lv": "Líbí se mi tento pes"
+          "lv": "Mám rád tohoto psa."
         },
         {
           "de": "Dieser Stift ist neu.",
-          "lv": "Toto pero je nové."
+          "lv": "Tahle propiska je nová."
         }
       ],
       "tip": {
-        "text": "Pamatujte: toto + mužský → dieser."
+        "text": "Pamatujte: tento + mužský rod → dieser."
       },
       "sectionAccents": {
         "examples": [
@@ -4732,7 +4732,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Dieser, diese a dieses se mění podle pohlaví.",
+        "Dieser, diese a dieses se mění podle rodu.",
         "Množné číslo je opět diese."
       ]
     }
@@ -4788,7 +4788,7 @@ const A1_WORDS = [
   },
   {
     "de": "du",
-    "lv": "Vy",
+    "lv": "Ty",
     "level": "A1"
   },
   {
