@@ -4793,7 +4793,7 @@ const A1_WORDS = [
   },
   {
     "de": "dürfen",
-    "lv": "Být dovoleno",
+    "lv": "Smět",
     "level": "A1"
   },
   {
@@ -4807,7 +4807,7 @@ const A1_WORDS = [
     "de": "Ecke",
     "de_article": "die",
     "de_plural": "die Ecken",
-    "lv": "Rohu",
+    "lv": "Roh",
     "level": "A1"
   },
   {
@@ -4824,7 +4824,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "Neurčitý člen • Jeden • Někdo",
+      "translation": "Neurčitý člen • Jeden",
       "explanation": "Používá se s podstatným jménem mužského rodu. Ukázání na jednu věc nebo osobu z několika možností.",
       "examples": [
         {
@@ -4841,7 +4841,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: nespecifický jeden/někdo → ein."
+        "text": "Pamatujte: ein není jen „jeden“. Často je to pouze neurčitý člen."
       },
       "sectionAccents": {
         "examples": [
@@ -4956,7 +4956,7 @@ const A1_WORDS = [
   },
   {
     "de": "eins",
-    "lv": "Jeden",
+    "lv": "Jedna",
     "level": "A1"
   },
   {
@@ -4967,9 +4967,9 @@ const A1_WORDS = [
     "study": {
       "id": "a1-eis",
       "layout": "standardStudy",
-      "translation": "Zmrzlina • Zmrzlina",
+      "translation": "Led • Zmrzlina",
       "explanation": [
-        "Hlavní myšlenka: das Eis může znamenat jak zmrzlinu, tak zmrzlinu.",
+        "Hlavní myšlenka: das Eis může znamenat led i zmrzlinu.",
         "Když se řekne studená zmrzlá voda, česky se obvykle řekne led.",
         "Pokud jde o jídlo nebo dezert, das Eis velmi často znamená zmrzlinu v každodenním životě.",
         "Kontext obvykle okamžitě napoví, jaký význam je zamýšlen.",
@@ -5000,12 +5000,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "das Eis",
-          "meaning": "Zmrzlina / zmrzlina",
+          "meaning": "Led • Zmrzlina",
           "example": "Ich esse ein Eis. = Jím zmrzlinu."
         },
         {
           "word": "der Schnee",
-          "meaning": "Bude sněžit",
+          "meaning": "Sníh",
           "example": "Der Schnee ist weiß. = Sníh je bílý."
         },
         {
@@ -5023,7 +5023,7 @@ const A1_WORDS = [
         "text": "Pamatujte: jídlo → zmrzlina • Zima/voda → led."
       },
       "important": [
-        "V češtině jsou zmrzlina a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
+        "V češtině jsou led a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
         "Klíčový je kontext: jídlo znamená zmrzlinu, studený povrch nebo voda led."
       ],
       "sectionAccents": {
@@ -5270,7 +5270,7 @@ const A1_WORDS = [
     "de": "Erde",
     "de_article": "die",
     "de_plural": "die Erden",
-    "lv": "Přistát",
+    "lv": "Země",
     "level": "A1"
   },
   {
@@ -5280,8 +5280,8 @@ const A1_WORDS = [
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "První • Pouze",
-      "explanation": "„erst“ se používá k označení sekvence (první) nebo ke zdůraznění, že se něco stane později, než se očekávalo, nebo v menší míře (pouze).",
+      "translation": "Teprve • Až • Nejprve",
+      "explanation": "„Erst“ může podle kontextu znamenat „nejprve“, „až“ nebo „teprve“. Často vyjadřuje pozdější čas či menší množství.",
       "examples": [
         {
           "de": "Erst trinken, dann fahren.",
@@ -5303,7 +5303,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "erst",
-          "meaning": "První • Pouze",
+          "meaning": "Nejprve • Pouze",
           "example": "Erst arbeiten, dann Pause. = Nejprve pracujte, pak pauza."
         },
         {
@@ -5323,7 +5323,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: čas/číslo → erst • Množství → ne."
+        "text": "Pamatujte: čas/číslo → erst • množství → nur."
       },
       "accents": {
         "blue": [
@@ -5485,24 +5485,24 @@ const A1_WORDS = [
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "To • To • Neosobní podoba",
-      "explanation": "Německé „já“ není zvyklé mluvit o sobě. Používá se k označení: to, to nebo neosobní tvar (počasí, čas, různé neosobní věty).",
+      "translation": "To • Neosobní podoba",
+      "explanation": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo v neosobních větách o počasí, čase a dalších dějích.",
       "examples": [
         {
           "de": "Ich lerne Deutsch.",
-          "lv": "Učím se německy."
+          "lv": "Prší."
         },
         {
           "de": "Er ist müde.",
-          "lv": "Je unavený."
+          "lv": "Je chladno."
         },
         {
           "de": "Sie arbeitet hier.",
-          "lv": "Ona tady pracuje."
+          "lv": "Dítě spí."
         },
         {
           "de": "Das ist mein Buch.",
-          "lv": "Je to moje kniha."
+          "lv": "Je unavené."
         },
         {
           "de": "Es regnet.",
@@ -5514,11 +5514,11 @@ const A1_WORDS = [
         }
       ],
       "info": [
-        "Český “es” = vācu “ich”",
-        "Vācu “es” = tas • Tā • Bezpersoniska forma"
+        "Lotyšské „es“ = německé „ich“",
+        "Německé „es“ = „to“ • neosobní tvar"
       ],
       "tip": {
-        "text": "Pamatujte: českýé \"es\" → ich, ne německé es."
+        "text": "Pamatujte: lotyšské „es“ znamená německé ich, ne německé es."
       },
       "sectionAccents": {
         "examples": [
@@ -5650,8 +5650,8 @@ const A1_WORDS = [
       "translation": "Něco • Trochu",
       "explanation": [
         "Hlavní myšlenka: etwas znamená něco nebo trochu v závislosti na kontextu.",
-        "Pokud etwas nahradí neznámou věc, češtině obvykle něco řekne.",
-        "Když etwas stojí před přídavným jménem nebo veličinou, často to znamená málo.",
+        "Když etwas označuje neznámou věc, v češtině se obvykle překládá jako „něco“.",
+        "Když etwas stojí před přídavným jménem nebo veličinou, často znamená „trochu“ nebo „poněkud“.",
         "Etwas je v konverzaci velmi běžné a neutrální slovo A1.",
         "Nejdůležitější je rozlišovat: etwas kaufen = něco koupit, etwas müde = trochu unavený."
       ],
@@ -5700,11 +5700,11 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: věc → něco • Stupeň → mírně."
+        "text": "Pamatujte: věc → něco • míra → trochu."
       },
       "important": [
         "Etwas není totéž co nichts: etwas znamená něco, ale nichts neznamená nic.",
-        "V češtině něco zní lépe než něco, například: etwas trinken = něco pít."
+        "V češtině se tvar mění podle pádu: etwas trinken = něco pít."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5915,28 +5915,28 @@ const A1_WORDS = [
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "Ty • Ty",
-      "explanation": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jak jako přímý doplněk (kde?) – „vy“ tak jako nepřímý doplněk (ke komu?) – „k vám“.",
+      "translation": "Vás • Vám",
+      "explanation": "„Euch“ je zájmeno 2. osoby množného čísla. Používá se jako přímý předmět („vás“) i jako nepřímý předmět („vám“).",
       "examples": [
         {
           "de": "Ich sehe euch.",
-          "lv": "Vidím tě"
+          "lv": "Vidím vás."
         },
         {
           "de": "Ich helfe euch.",
-          "lv": "Pomáhám ti"
+          "lv": "Pomáhám vám."
         },
         {
           "de": "Ich gebe euch das Buch.",
-          "lv": "Dávám ti knihu"
+          "lv": "Dávám vám knihu."
         },
         {
           "de": "Ich danke euch.",
-          "lv": "Děkuji ti"
+          "lv": "Děkuji vám."
         },
         {
           "de": "Ihr erinnert euch.",
-          "lv": "Pamatuješ"
+          "lv": "Pamatujete si."
         }
       ],
       "comparison": [
@@ -5947,18 +5947,18 @@ const A1_WORDS = [
         },
         {
           "word": "euch",
-          "meaning": "Vám / vám",
+          "meaning": "Vás • Vám",
           "example": "Ich helfe euch. = Pomáhám ti."
         },
         {
           "word": "euer",
-          "meaning": "Vaše",
+          "meaning": "Váš • Vaše",
           "example": "Das ist euer Haus. = Je to tvůj dům."
         }
       ],
       "info": [
         "Ihr = vy (podmětová forma)",
-        "Euch = vás (přímý doplněk) / vám (dativ)",
+        "Euch = vás (přímý předmět) • vám (dativ)",
         "Euer = váš (přivlastňovací forma)"
       ],
       "tip": {
@@ -5990,11 +5990,11 @@ const A1_WORDS = [
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Řídit • Vést • Odvézt",
+      "translation": "Jezdit • Řídit • Vézt • Odvézt",
       "explanation": [
-        "Hlavní myšlenka: fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+        "Hlavní myšlenka: fahren znamená jezdit nebo jet dopravním prostředkem a v některých větách také někoho vézt či odvézt.",
         "Fahren se používá při cestování autem, autobusem, vlakem, na kole nebo jiným vozidlem.",
-        "Když má věta jako předmět osobu, fahren může znamenat vést nebo odnést.",
+        "Když má věta jako předmět osobu, fahren může znamenat vézt nebo odvézt.",
         "Pokud je pohyb pěšky, obvykle se používá gehen nebo laufen."
       ],
       "examples": [
@@ -6008,11 +6008,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Beru dceru do školy."
+          "lv": "Vezmu dceru do školy."
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "Vezmu tě domů"
+          "lv": "Odvezu tě domů."
         },
         {
           "de": "Wir fahren morgen nach München.",
@@ -6032,7 +6032,7 @@ const A1_WORDS = [
         },
         {
           "word": "laufen",
-          "meaning": "Běž / běž",
+          "meaning": "Běhat • Běžet",
           "example": "Er läuft schnell."
         },
         {
@@ -6050,8 +6050,8 @@ const A1_WORDS = [
         "text": "Pamatujte: vozidlo → fahren • Pěšky → gehen."
       },
       "important": {
-        "text": "Fahren ≠ jen „řídit“",
-        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • Vest • Aizvest atkarībā no konteksta."
+        "text": "Fahren ≠ jen „jezdit“",
+        "example": "V němčině může stejné sloveso podle kontextu znamenat: jezdit • vézt • odvézt."
       },
       "accents": {
         "blue": [
@@ -6059,19 +6059,19 @@ const A1_WORDS = [
           "Fahre"
         ],
         "purple": [
-          "Braukt",
+          "Jezdit",
           "Braucu",
-          "Vest",
+          "Vézt",
           "Vedu",
-          "Aizvest"
+          "Odvézt"
         ],
         "green": [
           "Transportu",
-          "Transportlīdzekli",
+          "dopravním prostředkem",
           "Auto",
           "Autobusu",
           "Vilcienu",
-          "Velosipēdu"
+          "jízdní kolo"
         ],
         "yellow": [
           "Gehen",
@@ -6089,7 +6089,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "Hlavní",
-            "vest",
+            "vézt",
             "Hlavní"
           ],
           "green": [
@@ -6308,7 +6308,7 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt"
+                "jezdit"
               ]
             },
             "example": {
@@ -6316,9 +6316,9 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt",
-                "vest",
-                "aizvest"
+                "jezdit",
+                "vézt",
+                "odvézt"
               ]
             }
           }
@@ -6387,7 +6387,7 @@ const A1_WORDS = [
     "de": "Fernseher",
     "de_article": "der",
     "de_plural": "die Fernseher",
-    "lv": "Televize",
+    "lv": "Televizor",
     "level": "A1"
   },
   {
@@ -6397,7 +6397,7 @@ const A1_WORDS = [
   },
   {
     "de": "fett",
-    "lv": "Tuk",
+    "lv": "Tučný",
     "level": "A1"
   },
   {
@@ -6421,11 +6421,11 @@ const A1_WORDS = [
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "Najít • Zvážit",
+      "translation": "Najít • Myslet si",
       "explanation": [
         "Hlavní myšlenka: najít nejčastěji znamená najít.",
-        "V konverzaci finden velmi často také znamená zvážit nebo přemýšlet o něčem.",
-        "Pokud jde o ztracenou věc, překládá se to jako nález.",
+        "V konverzaci finden velmi často také znamená považovat něco za dobré nebo mít na něco názor.",
+        "Pokud jde o ztracenou věc, překládá se jako najít.",
         "Pokud jde o názor, překládá se jako myslet nebo zdát."
       ],
       "examples": [
@@ -6469,7 +6469,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: ztracená věc → nalezená • Názor → najdu..."
+        "text": "Pamatujte: ztracená věc → najít • názor → Ich finde..."
       },
       "important": [
         "Finden není jen 'najít'.",
@@ -6716,7 +6716,7 @@ const A1_WORDS = [
   },
   {
     "de": "fragen",
-    "lv": "Zeptat se",
+    "lv": "Ptát se",
     "level": "A1"
   },
   {
@@ -6730,10 +6730,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Žena • Manželka",
       "explanation": [
-        "Hlavní myšlenka: die Frau může znamenat ženu (pohlaví) nebo manželku (manželku).",
+        "Hlavní myšlenka: die Frau může znamenat ženu nebo manželku.",
         "Pokud je to prostě záležitost pohlaví nebo osoby, die Frau = žena.",
-        "V případě manžela, die Frau = manželka (meine Frau = moje žena).",
-        "Přivlastňovací zájmeno (meine/deine/seine Frau) téměř vždy znamená manželka – manžel.",
+        "V případě manželky, die Frau = manželka (meine Frau = moje žena).",
+        "Přivlastňovací zájmeno (meine/deine/seine Frau) téměř vždy znamená manželku.",
         "Množné číslo: die Frauen.",
         "Mužský tvar der Mann má stejný dvojí význam: muž A manžel."
       ],
@@ -6874,7 +6874,7 @@ const A1_WORDS = [
               "eine Frau"
             ],
             "purple": [
-              "Přivlastňovací"
+              "Bez přivlastňovacího zájmena"
             ]
           }
         ],
@@ -6901,7 +6901,7 @@ const A1_WORDS = [
   },
   {
     "de": "frei",
-    "lv": "Uvolnit",
+    "lv": "Volný",
     "level": "A1"
   },
   {
