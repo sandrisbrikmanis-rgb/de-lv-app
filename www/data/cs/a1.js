@@ -1530,12 +1530,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "Od • Ven",
+      "translation": "Z • Zevnitř",
       "explanation": "Používá se, když něco přichází zevnitř, vychází nebo naznačuje původ.",
       "examples": [
         {
           "de": "Ich komme aus Deutschland.",
-          "lv": "Jsem z německa."
+          "lv": "Jsem z Německa."
         },
         {
           "de": "Er geht aus dem Haus.",
@@ -1549,7 +1549,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "aus",
-          "meaning": "Zevnitř, zevnitř",
+          "meaning": "Zevnitř • z vnitřku",
           "example": "aus dem Haus – Z domova"
         },
         {
@@ -1705,10 +1705,10 @@ const A1_WORDS = [
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "Kam • Na • Kam?",
+      "translation": "Na (auf das)",
       "explanation": [
         "Aufs je zkratka předložky auf a členu das.",
-        "Plná forma: auf das (kde?).",
+        "Plná forma: „auf das“; vyjadřuje směr a odpovídá na otázku „kam?“.",
         "Používá se, když akce ukazuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kde?",
         "Často se používá s pohybem: vylézt, sednout, položit, zajet k něčemu.",
         "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das."
@@ -1732,7 +1732,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Nasedne na koně."
+          "lv": "Vyskočí na koně."
         },
         {
           "de": "Leg das Buch aufs Regal.",
@@ -1740,7 +1740,7 @@ const A1_WORDS = [
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "Pojďte rychle na loď!"
+          "lv": "Pojď rychle na loď!"
         },
         {
           "de": "Wir gehen aufs Fest.",
@@ -1750,23 +1750,23 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "aufs",
-          "meaning": "Na konkrétní případ (Akk.)",
-          "example": "aufs Dach – Na střeše"
+          "meaning": "Na konkrétní věc (4. pád)",
+          "example": "aufs Dach – Na střechu"
         },
         {
           "word": "auf",
           "meaning": "Na povrch nebo nahoru",
-          "example": "auf den Tisch – Na stole"
+          "example": "auf den Tisch – Na stůl"
         },
         {
           "word": "an",
           "meaning": "Na svislém povrchu",
-          "example": "an die Wand – U zdi"
+          "example": "an die Wand – Na zeď"
         },
         {
           "word": "ins",
           "meaning": "Dovnitř",
-          "example": "ins Zimmer – V místnosti"
+          "example": "ins Zimmer – Do místnosti"
         },
         {
           "word": "zum",
@@ -1779,10 +1779,10 @@ const A1_WORDS = [
         "Plné auf das se téměř nikdy nemluví hovorově – používá se aufs."
       ],
       "important": [
-        "Aufs = auf das, pouze s podstatným jménem libovolného rodu, kde? ve skloňování.",
+        "„Aufs“ = „auf das“ a používá se pouze před podstatnými jmény středního rodu. Vyjadřuje směr a odpovídá na otázku „kam?“.",
         "Odpovědět kam? — pohyb na určité místo nebo povrch.",
         "Na vodorovné ploše se místo aufs často používá auf den.",
-        "Nezaměňujte s (na zdi) nebo ins (uvnitř místnosti)."
+        "Nezaměňujte „aufs“ s „an“ (na zeď) nebo s „ins“ (do místnosti)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2097,7 +2097,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-baden",
       "layout": "standardStudy",
-      "translation": "Plavat",
+      "translation": "Koupat se",
       "explanation": [
         "Hlavní myšlenka: baden znamená koupat se, být ve vodě nebo si užívat vodu.",
         "Baden se používá při rekreaci ve vodě, jezeře, moři nebo bazénu.",
@@ -2107,7 +2107,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe baden.",
-          "lv": "Chodím plavat"
+          "lv": "Chodím se koupat"
         },
         {
           "de": "Wir gehen im See baden.",
@@ -2125,7 +2125,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "baden",
-          "meaning": "Plavat / být ve vodě / umýt se",
+          "meaning": "Koupat se / být ve vodě / mýt se",
           "example": "Ich gehe baden."
         },
         {
@@ -2350,7 +2350,7 @@ const A1_WORDS = [
     "de": "Balkon",
     "de_article": "der",
     "de_plural": "die Balkons",
-    "lv": "Balkón",
+    "lv": "Balkon",
     "level": "A1"
   },
   {
@@ -2371,7 +2371,7 @@ const A1_WORDS = [
     "de": "Bauch",
     "de_article": "der",
     "de_plural": "die Bäuche",
-    "lv": "Žaludek",
+    "lv": "Břicho",
     "level": "A1"
   },
   {
@@ -2383,7 +2383,7 @@ const A1_WORDS = [
   },
   {
     "de": "bedeuten",
-    "lv": "Střední",
+    "lv": "Znamenat",
     "level": "A1"
   },
   {
@@ -2405,12 +2405,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-bei",
       "layout": "standardStudy",
-      "translation": "Na",
+      "translation": "U • Při",
       "explanation": "Používá se, když je něco blízko osoby, organizace, místa nebo se děje za určitých okolností.",
       "examples": [
         {
           "de": "Ich bin bei meinem Freund.",
-          "lv": "Jsem v domě svého přítele."
+          "lv": "Jsem u svého přítele."
         },
         {
           "de": "Sie arbeitet bei Siemens.",
@@ -2429,12 +2429,12 @@ const A1_WORDS = [
         },
         {
           "word": "an",
-          "meaning": "U stěny, okraje, břehu, okraje hladiny",
+          "meaning": "U stěny, okraje nebo břehu • Na okraji hladiny",
           "example": "Das Bild hängt an der Wand. – Obraz visí na zdi."
         },
         {
           "word": "zu",
-          "meaning": "Kdo jde (směr)",
+          "meaning": "Ke komu se jde (směr)",
           "example": "Ich gehe zu meinem Freund. – Jdu ke svému příteli."
         }
       ],
@@ -2541,7 +2541,7 @@ const A1_WORDS = [
   },
   {
     "de": "beide",
-    "lv": "Obě",
+    "lv": "Oba • Obě",
     "level": "A1"
   },
   {
@@ -2560,12 +2560,12 @@ const A1_WORDS = [
   },
   {
     "de": "bekommen",
-    "lv": "Přijímat",
+    "lv": "Dostat",
     "level": "A1"
   },
   {
     "de": "benutzen",
-    "lv": "Použití",
+    "lv": "Používat",
     "level": "A1"
   },
   {
@@ -2601,7 +2601,7 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "Zúčastnit se • Navštívit",
+    "lv": "Navštívit",
     "level": "A1"
   },
   {
@@ -2618,7 +2618,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-bis",
       "layout": "standardStudy",
-      "translation": "Až",
+      "translation": "Do • Až",
       "explanation": "Odkazuje na hranici, bod v čase nebo podmínku.",
       "examples": [
         {
@@ -2645,13 +2645,13 @@ const A1_WORDS = [
           "example": "Ich bleibe bis 18 Uhr. – Zůstanu do 18:00."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Do (do určitého času)",
           "example": "Ich arbeite von 9 bis 17 Uhr. – Pracuji od 9 do 17."
         },
         {
-          "word": "bis dass",
-          "meaning": "Až",
+          "word": "bis jetzt",
+          "meaning": "Dosud • Až dosud",
           "example": "Ich warte, bis dass du kommst. – Čekám, až přijdeš."
         },
         {
@@ -2790,7 +2790,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Prosím",
       "explanation": [
-        "Hlavní myšlenka: Zdvořilé slovo s malými písmeny. Byl jsem zdvořilý - prosím.",
+        "Bitte s malým písmenem je zdvořilostní slovo znamenající „prosím“. Die Bitte s velkým písmenem je podstatné jméno a znamená „prosba“ nebo „žádost“.",
         "Bitte znamená hlavně: zdvořilost.",
         "Často popisuje: zdvořilé slovo.",
         "Bitte znamená především: požadavek/žádost.",
@@ -2802,15 +2802,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Bitte schön!",
-          "lv": "Prosím!"
+          "lv": "Jeden šálek kávy, prosím."
         },
         {
           "de": "Bitte schön!",
-          "lv": "Prosím!"
+          "lv": "Prosím, pojď dál."
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Jeden šálek kávy, prosím."
+          "lv": "Prosím!"
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -2827,7 +2827,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
-        "Zdvořilost malými písmeny. Byl jsem zdvořilý - prosím."
+        "Malé bitte je zdvořilostní slovo a znamená „prosím“."
       ],
       "important": [
         "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
@@ -2944,7 +2944,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Žádost",
       "explanation": [
-        "Hlavní myšlenka: Podstatné jméno se členem zemřít a velkým písmenem. Konkrétní požadavek nebo požadavek.",
+        "Die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost. Množné číslo je die Bitten.",
         "Die Bitte znamená hlavně: zdvořilost.",
         "Často popisuje: zdvořilé slovo.",
         "Die Bitte v podstatě znamená: žádost/žádost.",
@@ -2960,11 +2960,11 @@ const A1_WORDS = [
         },
         {
           "de": "Bitte schön!",
-          "lv": "Prosím!"
+          "lv": "Plní mou prosbu."
         },
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Jeden šálek kávy, prosím."
+          "lv": "Má dvě prosby."
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -2981,7 +2981,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
-        "Podstatné jméno s členem zemřít a velké písmeno. Konkrétní požadavek nebo požadavek."
+        "Die Bitte je podstatné jméno se členem die a velkým písmenem. Znamená prosbu nebo žádost."
       ],
       "important": [
         "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
@@ -3100,14 +3100,14 @@ const A1_WORDS = [
   },
   {
     "de": "bitten",
-    "lv": "Zeptat se",
+    "lv": "Požádat",
     "level": "A1"
   },
   {
     "de": "Blatt",
     "de_article": "das",
     "de_plural": "die Blätter",
-    "lv": "Strana",
+    "lv": "List • Stránka",
     "level": "A1"
   },
   {
