@@ -1,0 +1,42 @@
+{
+  "dataset": "a1",
+  "batch": "study-121-124",
+  "auditType": "vocab_study",
+  "cardCount": 4,
+  "cardIds": [
+    "a1-uhr",
+    "a1-zeit",
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-uhr",
+      "field": "study.examples[5].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "die Uhr",
+      "lvSource": "ierīce/laiks pulkstenī; die Zeit",
+      "currentCs": "Zařízení/čas na hodinách • Die Zeit",
+      "proposedCs": "Hodiny/hodinky • čas na hodinách",
+      "reason": "Czech translation incorrectly contains the German phrase „Die Zeit“, which is not a Czech equivalent of „die Uhr“.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-noch-mal",
+      "field": "study.important[0]",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "noch mal",
+      "lvSource": "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
+      "currentCs": "Opět znamená opakovat akci nebo požádat o opakování.",
+      "proposedCs": "Znovu znamená opakování akce nebo žádost o její zopakování.",
+      "reason": "„Opět“ is a valid synonym, but this formulation is awkward and shifts focus from the taught word „Znovu“.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 2,
+  "completedAt": "2026-08-11T15:53:13.359Z"
+}
