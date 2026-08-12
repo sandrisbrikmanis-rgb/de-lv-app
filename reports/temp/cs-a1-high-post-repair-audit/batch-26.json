@@ -1,0 +1,3320 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-um",
+      "index": 611,
+      "de": "um",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Kolem • Hodiny",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 177,
+          "field": "study.explanation[1]",
+          "pirmd": "S přesným časem um znamená hodiny.",
+          "pec": "S přesným časem um znamená „v“, například „v osm hodin“."
+        },
+        {
+          "block": 4,
+          "n": 178,
+          "field": "study.explanation[3]",
+          "pirmd": "Ve frázi um ... zu pomáhá vyjádřit záměr: to.",
+          "pec": "Ve frázi um ... zu pomáhá vyjádřit účel: aby."
+        },
+        {
+          "block": 4,
+          "n": 179,
+          "field": "study.important[0]",
+          "pirmd": "Hm s časem jsou obvykle 'hodiny'.",
+          "pec": "Um s časem obvykle znamená „v“, například „v osm hodin“."
+        },
+        {
+          "block": 4,
+          "n": 180,
+          "field": "study.important[1]",
+          "pirmd": "Um ... zu často znamená \"do ...\".",
+          "pec": "Um ... zu často znamená „aby ...“."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-um",
+        "index": 611,
+        "de": "um",
+        "layout": "standardStudy",
+        "csMain": "Kolem • Hodiny",
+        "studyTranslation": "Kolem • Hodiny",
+        "lvSourceMain": "ap • pulksten",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ap • pulksten",
+            "csText": "Kolem • Hodiny",
+            "de": "um"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es atnākšu pulksten astoņos.",
+            "csText": "Přijdu v osm hodin.",
+            "de": "um"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mēs sēžam ap galdu.",
+            "csText": "Sedíme kolem stolu.",
+            "de": "um"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņš iet ap stūri.",
+            "csText": "Jde za roh.",
+            "de": "um"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es mācos, lai runātu vāciski.",
+            "csText": "Učím se mluvit německy.",
+            "de": "um"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "um",
+            "csText": "um",
+            "de": "um"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "pulksten / ap / lai",
+            "csText": "V / kolem / do",
+            "de": "um"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "am",
+            "csText": "am",
+            "de": "um"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "dienā / pie",
+            "csText": "Za den / v",
+            "de": "um"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "gegen",
+            "csText": "gegen",
+            "de": "um"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "ap laiku / pret",
+            "csText": "Kolem času / vs",
+            "de": "um"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "für",
+            "csText": "für",
+            "de": "um"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "priekš / par labu",
+            "csText": "Pro / ve prospěch",
+            "de": "um"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: um acht = pulksten astoņos.",
+            "csText": "Pamatujte: um acht = osm hodin.",
+            "de": "um"
+          }
+        ],
+        "study": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "Kolem • Hodiny",
+          "explanation": [
+            "Hlavní myšlenka: um velmi často znamená hodiny s časem nebo kolem/kolem s místem.",
+            "S přesným časem um znamená „v“, například „v osm hodin“.",
+            "S místem, um znamená kolem nebo kolem.",
+            "Ve frázi um ... zu pomáhá vyjádřit účel: aby."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "Přijdu v osm hodin."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "Sedíme kolem stolu."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "Jde za roh."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "Učím se mluvit německy."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "V / kolem / do",
+              "example": "Ich komme um acht."
+            },
+            {
+              "word": "am",
+              "meaning": "Za den / v",
+              "example": "Am Montag komme ich."
+            },
+            {
+              "word": "gegen",
+              "meaning": "Kolem času / vs",
+              "example": "Ich komme gegen acht."
+            },
+            {
+              "word": "für",
+              "meaning": "Pro / ve prospěch",
+              "example": "Das ist für dich."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: um acht = osm hodin."
+          },
+          "important": [
+            "Um s časem obvykle znamená „v“, například „v osm hodin“.",
+            "Um ... zu často znamená „aby ...“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "um",
+                "um ... zu"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "acht Uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přijdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Sedíme"
+                  ],
+                  "yellow": [
+                    "Sedíme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Ecke"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jde"
+                  ],
+                  "yellow": [
+                    "Jde"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um",
+                    "zu"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Učím"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "um"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kolem",
+                    "kolem",
+                    "kolem"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "um"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "den",
+                    "den"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Am"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Kolem",
+                    "Kolem"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gegen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pro"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "für"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "um acht"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "časem"
+                ],
+                "purple": [
+                  "časem"
+                ]
+              },
+              {
+                "blue": [
+                  "um ... zu"
+                ],
+                "purple": [
+                  "často"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "ap • pulksten",
+          "explanation": [
+            "Galvenā doma: um ļoti bieži nozīmē pulksten ar laiku vai ap/apkārt ar vietu.",
+            "Ar precīzu laiku um nozīmē pulksten.",
+            "Ar vietu um nozīmē ap vai apkārt.",
+            "Frāzē um ... zu tas palīdz izteikt nolūku: lai."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "es atnākšu pulksten astoņos."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "mēs sēžam ap galdu."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "viņš iet ap stūri."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "es mācos, lai runātu vāciski."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "pulksten / ap / lai",
+              "example": "Ich komme um acht."
+            },
+            {
+              "word": "am",
+              "meaning": "dienā / pie",
+              "example": "Am Montag komme ich."
+            },
+            {
+              "word": "gegen",
+              "meaning": "ap laiku / pret",
+              "example": "Ich komme gegen acht."
+            },
+            {
+              "word": "für",
+              "meaning": "priekš / par labu",
+              "example": "Das ist für dich."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: um acht = pulksten astoņos."
+          },
+          "important": [
+            "um ar laiku parasti ir “pulksten”.",
+            "um ... zu bieži nozīmē “lai ...”."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "um",
+                "um ... zu"
+              ],
+              "purple": [
+                "pulksten",
+                "ap",
+                "apkārt",
+                "lai"
+              ],
+              "green": [
+                "laiku",
+                "vietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "acht Uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten astoņos"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ap"
+                  ],
+                  "yellow": [
+                    "galdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Ecke"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ap"
+                  ],
+                  "yellow": [
+                    "stūri"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um",
+                    "zu"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lai"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "um"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pulksten",
+                    "ap",
+                    "lai"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "um"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "dienā",
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Am"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ap laiku",
+                    "pret"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gegen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "priekš"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "für"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "um acht"
+                ],
+                "purple": [
+                  "pulksten astoņos"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "um"
+                ],
+                "purple": [
+                  "pulksten"
+                ]
+              },
+              {
+                "blue": [
+                  "um ... zu"
+                ],
+                "purple": [
+                  "lai"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-um",
+        "layout": "standardStudy",
+        "translation": "Kolem • Hodiny",
+        "explanation": [
+          "Hlavní myšlenka: um velmi často znamená hodiny s časem nebo kolem/kolem s místem.",
+          "S přesným časem um znamená „v“, například „v osm hodin“.",
+          "S místem, um znamená kolem nebo kolem.",
+          "Ve frázi um ... zu pomáhá vyjádřit účel: aby."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme um acht Uhr.",
+            "lv": "Přijdu v osm hodin."
+          },
+          {
+            "de": "Wir sitzen um den Tisch.",
+            "lv": "Sedíme kolem stolu."
+          },
+          {
+            "de": "Er geht um die Ecke.",
+            "lv": "Jde za roh."
+          },
+          {
+            "de": "Ich lerne, um Deutsch zu sprechen.",
+            "lv": "Učím se mluvit německy."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "um",
+            "meaning": "V / kolem / do",
+            "example": "Ich komme um acht."
+          },
+          {
+            "word": "am",
+            "meaning": "Za den / v",
+            "example": "Am Montag komme ich."
+          },
+          {
+            "word": "gegen",
+            "meaning": "Kolem času / vs",
+            "example": "Ich komme gegen acht."
+          },
+          {
+            "word": "für",
+            "meaning": "Pro / ve prospěch",
+            "example": "Das ist für dich."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: um acht = osm hodin."
+        },
+        "important": [
+          "Um s časem obvykle znamená „v“, například „v osm hodin“.",
+          "Um ... zu často znamená „aby ...“."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "um",
+              "um ... zu"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "um"
+                ],
+                "yellow": [
+                  "acht Uhr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Přijdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "um"
+                ],
+                "yellow": [
+                  "Tisch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Sedíme"
+                ],
+                "yellow": [
+                  "Sedíme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "um"
+                ],
+                "yellow": [
+                  "Ecke"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jde"
+                ],
+                "yellow": [
+                  "Jde"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "um",
+                  "zu"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Učím"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "um"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "kolem",
+                  "kolem",
+                  "kolem"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "um"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "am"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "den",
+                  "den"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Am"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "gegen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Kolem",
+                  "Kolem"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "gegen"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "für"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Pro"
+                ]
+              },
+              "example": {
+                "red": [
+                  "für"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "um acht"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "časem"
+              ],
+              "purple": [
+                "časem"
+              ]
+            },
+            {
+              "blue": [
+                "um ... zu"
+              ],
+              "purple": [
+                "často"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-unter",
+      "index": 615,
+      "de": "unter",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Pod",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 181,
+          "field": "study.comparison[1].meaning",
+          "pirmd": "Přes / pro",
+          "pec": "Nad / o"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-unter",
+        "index": 615,
+        "de": "unter",
+        "layout": "standardStudy",
+        "csMain": "Pod",
+        "studyTranslation": "Pod",
+        "lvSourceMain": "zem",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "zem",
+            "csText": "Pod",
+            "de": "unter"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "soma ir zem galda.",
+            "csText": "Taška je pod stolem.",
+            "de": "unter"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "kaķis guļ zem krēsla.",
+            "csText": "Kočka spí pod židlí.",
+            "de": "unter"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "draugu starpā tā saka.",
+            "csText": "Mezi přáteli se říká.",
+            "de": "unter"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "lampa karājas virs galda.",
+            "csText": "Nad stolem visí lampa.",
+            "de": "unter"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "unter",
+            "csText": "unter",
+            "de": "unter"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "zem / starp",
+            "csText": "Pod / mezi",
+            "de": "unter"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "über",
+            "csText": "über",
+            "de": "unter"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "virs / par",
+            "csText": "Nad / o",
+            "de": "unter"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "zwischen",
+            "csText": "zwischen",
+            "de": "unter"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "starp divām lietām",
+            "csText": "Mezi dvěma věcmi",
+            "de": "unter"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "auf",
+            "csText": "auf",
+            "de": "unter"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "uz virsmas",
+            "csText": "Na povrchu",
+            "de": "unter"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: zem galda → unter dem Tisch.",
+            "csText": "Pamatujte: pod stolem → unter dem Tisch.",
+            "de": "unter"
+          }
+        ],
+        "study": {
+          "id": "a1-unter",
+          "layout": "standardStudy",
+          "translation": "Pod",
+          "explanation": [
+            "Hlavní myšlenka: unter znamená pod nebo mezi v závislosti na kontextu.",
+            "Pokud je něco pod stolem, židlí nebo jiným předmětem, použijte unter.",
+            "Když mluvíme o skupině lidí, unter může znamenat mezi.",
+            "Je to opak über, pokud jde o směr nahoru/dolů."
+          ],
+          "examples": [
+            {
+              "de": "Die Tasche ist unter dem Tisch.",
+              "lv": "Taška je pod stolem."
+            },
+            {
+              "de": "Die Katze liegt unter dem Stuhl.",
+              "lv": "Kočka spí pod židlí."
+            },
+            {
+              "de": "Unter Freunden sagt man das so.",
+              "lv": "Mezi přáteli se říká."
+            },
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Nad stolem visí lampa."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "unter",
+              "meaning": "Pod / mezi",
+              "example": "Die Tasche ist unter dem Tisch."
+            },
+            {
+              "word": "über",
+              "meaning": "Nad / o",
+              "example": "Die Lampe hängt über dem Tisch."
+            },
+            {
+              "word": "zwischen",
+              "meaning": "Mezi dvěma věcmi",
+              "example": "Zwischen den Häusern."
+            },
+            {
+              "word": "auf",
+              "meaning": "Na povrchu",
+              "example": "Auf dem Tisch."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: pod stolem → unter dem Tisch."
+          },
+          "important": [
+            "Unter může také znamenat „mezi“, zejména s lidmi nebo skupinami.",
+            "Unter a über jsou často protiklady ve smyslu místa."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "unter",
+                "über"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "unter"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Taška"
+                  ],
+                  "yellow": [
+                    "Taška"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "unter"
+                  ],
+                  "yellow": [
+                    "Stuhl"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kočka"
+                  ],
+                  "yellow": [
+                    "Kočka"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Unter"
+                  ],
+                  "green": [
+                    "Freunden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mezi"
+                  ],
+                  "green": [
+                    "Mezi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Nad"
+                  ],
+                  "yellow": [
+                    "Nad"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "unter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pod",
+                    "Pod"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "unter"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "über"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přes",
+                    "Přes"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "über"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zwischen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Mezi"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Zwischen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "povrchu"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Auf"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "unter dem Tisch"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "unter"
+                ],
+                "purple": [
+                  "Unter"
+                ]
+              },
+              {
+                "blue": [
+                  "unter"
+                ],
+                "red": [
+                  "über"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-unter",
+          "layout": "standardStudy",
+          "translation": "zem",
+          "explanation": [
+            "Galvenā doma: unter nozīmē zem vai starp atkarībā no konteksta.",
+            "Ja kaut kas atrodas zem galda, krēsla vai cita priekšmeta, lieto unter.",
+            "Ja runa ir par cilvēku grupu, unter var nozīmēt starp.",
+            "Tas ir pretstats vārdam über, ja runa ir par virzienu augšā/leja."
+          ],
+          "examples": [
+            {
+              "de": "Die Tasche ist unter dem Tisch.",
+              "lv": "soma ir zem galda."
+            },
+            {
+              "de": "Die Katze liegt unter dem Stuhl.",
+              "lv": "kaķis guļ zem krēsla."
+            },
+            {
+              "de": "Unter Freunden sagt man das so.",
+              "lv": "draugu starpā tā saka."
+            },
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "lampa karājas virs galda."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "unter",
+              "meaning": "zem / starp",
+              "example": "Die Tasche ist unter dem Tisch."
+            },
+            {
+              "word": "über",
+              "meaning": "virs / par",
+              "example": "Die Lampe hängt über dem Tisch."
+            },
+            {
+              "word": "zwischen",
+              "meaning": "starp divām lietām",
+              "example": "Zwischen den Häusern."
+            },
+            {
+              "word": "auf",
+              "meaning": "uz virsmas",
+              "example": "Auf dem Tisch."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: zem galda → unter dem Tisch."
+          },
+          "important": [
+            "unter var nozīmēt arī “starp”, īpaši ar cilvēkiem vai grupām.",
+            "unter un über bieži ir pretstati vietas nozīmē."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "unter",
+                "über"
+              ],
+              "purple": [
+                "zem",
+                "starp"
+              ],
+              "green": [
+                "cilvēku grupu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "unter"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zem"
+                  ],
+                  "yellow": [
+                    "galda"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "unter"
+                  ],
+                  "yellow": [
+                    "Stuhl"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zem"
+                  ],
+                  "yellow": [
+                    "krēsla"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Unter"
+                  ],
+                  "green": [
+                    "Freunden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "starpā"
+                  ],
+                  "green": [
+                    "Draugu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "virs"
+                  ],
+                  "yellow": [
+                    "galda"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "unter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zem",
+                    "starp"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "unter"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "über"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "virs",
+                    "par"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "über"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zwischen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "starp"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Zwischen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz virsmas"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Auf"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "unter dem Tisch"
+                ],
+                "purple": [
+                  "zem galda"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "unter"
+                ],
+                "purple": [
+                  "starp"
+                ]
+              },
+              {
+                "blue": [
+                  "unter"
+                ],
+                "red": [
+                  "über"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-unter",
+        "layout": "standardStudy",
+        "translation": "Pod",
+        "explanation": [
+          "Hlavní myšlenka: unter znamená pod nebo mezi v závislosti na kontextu.",
+          "Pokud je něco pod stolem, židlí nebo jiným předmětem, použijte unter.",
+          "Když mluvíme o skupině lidí, unter může znamenat mezi.",
+          "Je to opak über, pokud jde o směr nahoru/dolů."
+        ],
+        "examples": [
+          {
+            "de": "Die Tasche ist unter dem Tisch.",
+            "lv": "Taška je pod stolem."
+          },
+          {
+            "de": "Die Katze liegt unter dem Stuhl.",
+            "lv": "Kočka spí pod židlí."
+          },
+          {
+            "de": "Unter Freunden sagt man das so.",
+            "lv": "Mezi přáteli se říká."
+          },
+          {
+            "de": "Die Lampe hängt über dem Tisch.",
+            "lv": "Nad stolem visí lampa."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "unter",
+            "meaning": "Pod / mezi",
+            "example": "Die Tasche ist unter dem Tisch."
+          },
+          {
+            "word": "über",
+            "meaning": "Nad / o",
+            "example": "Die Lampe hängt über dem Tisch."
+          },
+          {
+            "word": "zwischen",
+            "meaning": "Mezi dvěma věcmi",
+            "example": "Zwischen den Häusern."
+          },
+          {
+            "word": "auf",
+            "meaning": "Na povrchu",
+            "example": "Auf dem Tisch."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: pod stolem → unter dem Tisch."
+        },
+        "important": [
+          "Unter může také znamenat „mezi“, zejména s lidmi nebo skupinami.",
+          "Unter a über jsou často protiklady ve smyslu místa."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "unter",
+              "über"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "unter"
+                ],
+                "yellow": [
+                  "Tisch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Taška"
+                ],
+                "yellow": [
+                  "Taška"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "unter"
+                ],
+                "yellow": [
+                  "Stuhl"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kočka"
+                ],
+                "yellow": [
+                  "Kočka"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Unter"
+                ],
+                "green": [
+                  "Freunden"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mezi"
+                ],
+                "green": [
+                  "Mezi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "über"
+                ],
+                "yellow": [
+                  "Tisch"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Nad"
+                ],
+                "yellow": [
+                  "Nad"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "unter"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Pod",
+                  "Pod"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "unter"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "über"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Přes",
+                  "Přes"
+                ]
+              },
+              "example": {
+                "red": [
+                  "über"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zwischen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Mezi"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Zwischen"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "auf"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "povrchu"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Auf"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "unter dem Tisch"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "unter"
+              ],
+              "purple": [
+                "Unter"
+              ]
+            },
+            {
+              "blue": [
+                "unter"
+              ],
+              "red": [
+                "über"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-vor",
+      "index": 636,
+      "de": "vor",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Před • Před",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 182,
+          "field": "study.examples[2].lv",
+          "pirmd": "Je pět až osm.",
+          "pec": "Je za pět minut osm."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-vor",
+        "index": 636,
+        "de": "vor",
+        "layout": "standardStudy",
+        "csMain": "Před • Před",
+        "studyTranslation": "Před • Před",
+        "lvSourceMain": "pirms • priekšā",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "pirms • priekšā",
+            "csText": "Před • Před",
+            "de": "vor"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "pirms ēšanas es mazgāju rokas.",
+            "csText": "Před jídlem si myji ruce.",
+            "de": "vor"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "auto stāv mājas priekšā.",
+            "csText": "Auto je zaparkované před domem.",
+            "de": "vor"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "ir bez piecām astoņi.",
+            "csText": "Je za pět minut osm.",
+            "de": "vor"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "pēc ēšanas mēs ejam pastaigāties.",
+            "csText": "Po jídle jdeme na procházku.",
+            "de": "vor"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "vor",
+            "csText": "vor",
+            "de": "vor"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "pirms / priekšā",
+            "csText": "Před / před",
+            "de": "vor"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "nach",
+            "csText": "nach",
+            "de": "vor"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "pēc / uz",
+            "csText": "Po / do",
+            "de": "vor"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "neben",
+            "csText": "neben",
+            "de": "vor"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "blakus",
+            "csText": "Vedle",
+            "de": "vor"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "hinter",
+            "csText": "hinter",
+            "de": "vor"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "aiz",
+            "csText": "Za",
+            "de": "vor"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: pirms laikā, priekšā vietā → vor.",
+            "csText": "Pamatujte: před časem, před místem → vor.",
+            "de": "vor"
+          }
+        ],
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "Před • Před",
+          "explanation": [
+            "Hlavní myšlenka: vor znamená dříve v čase nebo před místem.",
+            "Pokud jde o čas, vor znamená předtím.",
+            "Pokud jde o místo, vor znamená před nebo u.",
+            "V hodinovém čase vor znamená 'až', např. fünf vor acht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Před jídlem si myji ruce."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Auto je zaparkované před domem."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Je za pět minut osm."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Po jídle jdeme na procházku."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "Před / před",
+              "example": "Vor dem Essen..."
+            },
+            {
+              "word": "nach",
+              "meaning": "Po / do",
+              "example": "Nach dem Essen..."
+            },
+            {
+              "word": "neben",
+              "meaning": "Vedle",
+              "example": "Neben dem Haus."
+            },
+            {
+              "word": "hinter",
+              "meaning": "Za",
+              "example": "Hinter dem Haus."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: před časem, před místem → vor."
+          },
+          "important": [
+            "Vor může být čas i místo.",
+            "Vor dem Essen = před jídlem • Vor dem Haus = před domem."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "vor",
+                "fünf vor acht"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Vor"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Před"
+                  ],
+                  "yellow": [
+                    "Před"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ],
+                  "yellow": [
+                    "Haus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Auto"
+                  ],
+                  "yellow": [
+                    "Auto"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pět"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "jídle"
+                  ],
+                  "yellow": [
+                    "jídle"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Před",
+                    "Před"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Vor"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {},
+                "example": {
+                  "red": [
+                    "Nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "neben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vedle"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Neben"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hinter"
+                  ]
+                },
+                "meaning": {},
+                "example": {
+                  "yellow": [
+                    "Hinter"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "Vor",
+                  "Vor"
+                ]
+              },
+              {
+                "blue": [
+                  "vor dem Essen",
+                  "vor dem Haus"
+                ],
+                "purple": [
+                  "Vor",
+                  "Vor"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "pirms • priekšā",
+          "explanation": [
+            "Galvenā doma: vor nozīmē pirms laikā vai priekšā vietā.",
+            "Ja runa ir par laiku, vor nozīmē pirms.",
+            "Ja runa ir par vietu, vor nozīmē priekšā vai pie.",
+            "Pulksteņa laikā vor nozīmē “līdz”, piemēram, fünf vor acht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "pirms ēšanas es mazgāju rokas."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "auto stāv mājas priekšā."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "ir bez piecām astoņi."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "pēc ēšanas mēs ejam pastaigāties."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "pirms / priekšā",
+              "example": "Vor dem Essen..."
+            },
+            {
+              "word": "nach",
+              "meaning": "pēc / uz",
+              "example": "Nach dem Essen..."
+            },
+            {
+              "word": "neben",
+              "meaning": "blakus",
+              "example": "Neben dem Haus."
+            },
+            {
+              "word": "hinter",
+              "meaning": "aiz",
+              "example": "Hinter dem Haus."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: pirms laikā, priekšā vietā → vor."
+          },
+          "important": [
+            "vor var būt gan laiks, gan vieta.",
+            "vor dem Essen = pirms ēšanas; vor dem Haus = mājas priekšā."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "vor",
+                "fünf vor acht"
+              ],
+              "purple": [
+                "pirms",
+                "priekšā",
+                "līdz"
+              ],
+              "green": [
+                "laiku",
+                "vietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Vor"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pirms"
+                  ],
+                  "yellow": [
+                    "ēšanas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ],
+                  "yellow": [
+                    "Haus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "priekšā"
+                  ],
+                  "yellow": [
+                    "mājas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bez piecām"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Pēc"
+                  ],
+                  "yellow": [
+                    "ēšanas"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pirms",
+                    "priekšā"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Vor"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pēc",
+                    "uz"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "neben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "blakus"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Neben"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hinter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "aiz"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Hinter"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "pirms",
+                  "priekšā"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "laiks",
+                  "vieta"
+                ]
+              },
+              {
+                "blue": [
+                  "vor dem Essen",
+                  "vor dem Haus"
+                ],
+                "purple": [
+                  "pirms ēšanas",
+                  "mājas priekšā"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-vor",
+        "layout": "standardStudy",
+        "translation": "Před • Před",
+        "explanation": [
+          "Hlavní myšlenka: vor znamená dříve v čase nebo před místem.",
+          "Pokud jde o čas, vor znamená předtím.",
+          "Pokud jde o místo, vor znamená před nebo u.",
+          "V hodinovém čase vor znamená 'až', např. fünf vor acht."
+        ],
+        "examples": [
+          {
+            "de": "Vor dem Essen wasche ich die Hände.",
+            "lv": "Před jídlem si myji ruce."
+          },
+          {
+            "de": "Das Auto steht vor dem Haus.",
+            "lv": "Auto je zaparkované před domem."
+          },
+          {
+            "de": "Es ist fünf vor acht.",
+            "lv": "Je za pět minut osm."
+          },
+          {
+            "de": "Nach dem Essen gehen wir spazieren.",
+            "lv": "Po jídle jdeme na procházku."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "vor",
+            "meaning": "Před / před",
+            "example": "Vor dem Essen..."
+          },
+          {
+            "word": "nach",
+            "meaning": "Po / do",
+            "example": "Nach dem Essen..."
+          },
+          {
+            "word": "neben",
+            "meaning": "Vedle",
+            "example": "Neben dem Haus."
+          },
+          {
+            "word": "hinter",
+            "meaning": "Za",
+            "example": "Hinter dem Haus."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: před časem, před místem → vor."
+        },
+        "important": [
+          "Vor může být čas i místo.",
+          "Vor dem Essen = před jídlem • Vor dem Haus = před domem."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "vor",
+              "fünf vor acht"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Vor"
+                ],
+                "yellow": [
+                  "Essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Před"
+                ],
+                "yellow": [
+                  "Před"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vor"
+                ],
+                "yellow": [
+                  "Haus"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Auto"
+                ],
+                "yellow": [
+                  "Auto"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vor"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "pět"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "Nach"
+                ],
+                "yellow": [
+                  "Essen"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "jídle"
+                ],
+                "yellow": [
+                  "jídle"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "vor"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Před",
+                  "Před"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Vor"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nach"
+                ]
+              },
+              "meaning": {},
+              "example": {
+                "red": [
+                  "Nach"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "neben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vedle"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Neben"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "hinter"
+                ]
+              },
+              "meaning": {},
+              "example": {
+                "yellow": [
+                  "Hinter"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "vor"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "vor"
+              ],
+              "purple": [
+                "Vor",
+                "Vor"
+              ]
+            },
+            {
+              "blue": [
+                "vor dem Essen",
+                "vor dem Haus"
+              ],
+              "purple": [
+                "Vor",
+                "Vor"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-was",
+      "index": 644,
+      "de": "was",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Kdo • Co",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 183,
+          "field": "study.translation",
+          "pirmd": "Kdo • Co",
+          "pec": "Co"
+        },
+        {
+          "block": 4,
+          "n": 184,
+          "field": "study.explanation[0]",
+          "pirmd": "Hlavní myšlenka: co je tázací slovo o věcech a událostech - v češtině je to co nebo co, v závislosti na části věty.",
+          "pec": "Hlavní myšlenka: was je tázací slovo pro věci a události. V češtině se překládá jako „co“."
+        },
+        {
+          "block": 4,
+          "n": 185,
+          "field": "study.explanation[1]",
+          "pirmd": "Byl dotazován na věci, události a fakta, nikoli na osoby.",
+          "pec": "Ptá se na věci, události a fakta, nikoli na osoby."
+        },
+        {
+          "block": 4,
+          "n": 186,
+          "field": "study.explanation[2]",
+          "pirmd": "V němčině se was nemění po skloňování - vždy to vypadá jako bylo.",
+          "pec": "V němčině se was podle pádu nemění. Vždy má stejný tvar."
+        },
+        {
+          "block": 4,
+          "n": 187,
+          "field": "study.examples[5].lv",
+          "pirmd": "Jaké je vaše oblíbené jídlo?",
+          "pec": "Jaké je tvoje oblíbené jídlo?"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-was",
+        "index": 644,
+        "de": "was",
+        "layout": "standardStudy",
+        "csMain": "Kdo • Co",
+        "studyTranslation": "Co",
+        "lvSourceMain": "kas • ko",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "kas • ko",
+            "csText": "Co",
+            "de": "was"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Kas tas ir?",
+            "csText": "Co je to?",
+            "de": "was"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Kas notika?",
+            "csText": "Co se stalo?",
+            "de": "was"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Ko tu tagad dari?",
+            "csText": "Co teď děláš",
+            "de": "was"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "Ko tu vēlies dzert?",
+            "csText": "Co chceš pít",
+            "de": "was"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "Ko nozīmē šis vārds?",
+            "csText": "Co toto slovo znamená?",
+            "de": "was"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "Kas ir tavs mīļākais ēdiens?",
+            "csText": "Jaké je tvoje oblíbené jídlo?",
+            "de": "was"
+          },
+          {
+            "field": "study.examples[6].lv",
+            "lvSource": "Ko tu pasacīji?",
+            "csText": "Co jsi říkal",
+            "de": "was"
+          }
+        ],
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "Co",
+          "explanation": [
+            "Hlavní myšlenka: was je tázací slovo pro věci a události. V češtině se překládá jako „co“.",
+            "Ptá se na věci, události a fakta, nikoli na osoby.",
+            "V němčině se was podle pádu nemění. Vždy má stejný tvar.",
+            "Pokud je předmětem věty was, překládá se do češtině jako kas (Was ist das? = Co to je?).",
+            "Jestliže was je doplněk (předmět) slovesa, překládá se do češtině jako ko (Was machst du? = Co děláš?).",
+            "Lidé jsou dotázáni s wer (kdo/kdo), ne byl."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Co je to?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Co se stalo?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Co teď děláš"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Co chceš pít"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Co toto slovo znamená?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Jaké je tvoje oblíbené jídlo?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Co jsi říkal"
+            }
+          ],
+          "tip": [
+            "Was samo o sobě se nemění - v němčině je to vždy bylo • V češtině vyberte koho nebo co podle části věty.",
+            "Rychlý trik: pokud lze na otázku odpovědět „Je to...“, použijte kdo • Pokud je odpověď za slovesem jako doplněk, použijte ko."
+          ],
+          "important": [
+            "Byl dotazován na věci, události a fakta – nikdy na osoby.",
+            "Lidé jsou dotázáni s wer (kdo/kdo), ne byl.",
+            "Was für (ein/eine) znamená někoho/o čem a ptá se na kvalitu nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?).",
+            "Špatně: Wer ist passiert? → Správně: Bylo to passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "was"
+              ],
+              "purple": [
+                "kas",
+                "ko"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "stalo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "teď"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "chceš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "toto"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jaké"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jsi"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "was"
+                ]
+              },
+              {
+                "purple": [
+                  "Was",
+                  "ko"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "Byl"
+                ]
+              },
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "was für"
+                ]
+              },
+              {
+                "blue": [
+                  "Špatně"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "kas • ko",
+          "explanation": [
+            "Galvenā doma: was ir jautājamvārds par lietām un notikumiem — latviski tas ir kas vai ko, atkarībā no teikuma daļas.",
+            "was jautā par lietām, notikumiem un faktiem, nevis par personām.",
+            "Vācu valodā was nemainās pēc locījuma — tas vienmēr izskatās was.",
+            "Ja was ir teikuma priekšmets (subjekts), latviski to tulko ar kas (Was ist das? = Kas tas ir?).",
+            "Ja was ir darbības vārda papildinājums (objekts), latviski to tulko ar ko (Was machst du? = Ko tu dari?).",
+            "Par personām jautā ar wer (kas/kurš), nevis was."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Kas tas ir?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Kas notika?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Ko tu tagad dari?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Ko tu vēlies dzert?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Ko nozīmē šis vārds?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Kas ir tavs mīļākais ēdiens?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Ko tu pasacīji?"
+            }
+          ],
+          "tip": [
+            "was pats nemainās — vācu valodā tas vienmēr ir was; latviski izvēlies kas vai ko pēc teikuma daļas.",
+            "Ātrs triks: ja uz jautājumu var atbildēt ar 'Tas ir ...', lieto kas; ja atbilde nāk pēc darbības vārda kā papildinājums, lieto ko."
+          ],
+          "important": [
+            "was jautā par lietām, notikumiem un faktiem — nekad par personām.",
+            "Par personām jautā ar wer (kas/kurš), nevis was.",
+            "was für (ein/eine) nozīmē kāds/kas par un jautā par īpašību vai veidu (Was für ein Film ist das? = Kāda tā ir filma?).",
+            "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "was"
+              ],
+              "purple": [
+                "kas",
+                "ko"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ko"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ko"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ko"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ko"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "was"
+                ]
+              },
+              {
+                "purple": [
+                  "kas",
+                  "ko"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "was"
+                ]
+              },
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "was für"
+                ]
+              },
+              {
+                "blue": [
+                  "was"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-was",
+        "layout": "standardStudy",
+        "translation": "Co",
+        "explanation": [
+          "Hlavní myšlenka: was je tázací slovo pro věci a události. V češtině se překládá jako „co“.",
+          "Ptá se na věci, události a fakta, nikoli na osoby.",
+          "V němčině se was podle pádu nemění. Vždy má stejný tvar.",
+          "Pokud je předmětem věty was, překládá se do češtině jako kas (Was ist das? = Co to je?).",
+          "Jestliže was je doplněk (předmět) slovesa, překládá se do češtině jako ko (Was machst du? = Co děláš?).",
+          "Lidé jsou dotázáni s wer (kdo/kdo), ne byl."
+        ],
+        "examples": [
+          {
+            "de": "Was ist das?",
+            "lv": "Co je to?"
+          },
+          {
+            "de": "Was ist passiert?",
+            "lv": "Co se stalo?"
+          },
+          {
+            "de": "Was machst du gerade?",
+            "lv": "Co teď děláš"
+          },
+          {
+            "de": "Was möchtest du trinken?",
+            "lv": "Co chceš pít"
+          },
+          {
+            "de": "Was bedeutet dieses Wort?",
+            "lv": "Co toto slovo znamená?"
+          },
+          {
+            "de": "Was ist dein Lieblingsessen?",
+            "lv": "Jaké je tvoje oblíbené jídlo?"
+          },
+          {
+            "de": "Was hast du gesagt?",
+            "lv": "Co jsi říkal"
+          }
+        ],
+        "tip": [
+          "Was samo o sobě se nemění - v němčině je to vždy bylo • V češtině vyberte koho nebo co podle části věty.",
+          "Rychlý trik: pokud lze na otázku odpovědět „Je to...“, použijte kdo • Pokud je odpověď za slovesem jako doplněk, použijte ko."
+        ],
+        "important": [
+          "Byl dotazován na věci, události a fakta – nikdy na osoby.",
+          "Lidé jsou dotázáni s wer (kdo/kdo), ne byl.",
+          "Was für (ein/eine) znamená někoho/o čem a ptá se na kvalitu nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?).",
+          "Špatně: Wer ist passiert? → Správně: Bylo to passiert?"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "was"
+            ],
+            "purple": [
+              "kas",
+              "ko"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "stalo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "teď"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "chceš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "toto"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jaké"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "jsi"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "was"
+              ]
+            },
+            {
+              "purple": [
+                "Was",
+                "ko"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "Byl"
+              ]
+            },
+            {
+              "blue": [
+                "wer"
+              ]
+            },
+            {
+              "blue": [
+                "was für"
+              ]
+            },
+            {
+              "blue": [
+                "Špatně"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-um",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "All HIGH-repaired Czech explanations and important notes correctly express time, location, and purpose meanings of um.",
+      "findings": [
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "S místem, um znamená kolem nebo kolem.",
+          "reason": "The sentence is grammatically awkward and repeats „kolem“, but this text was not changed by the HIGH repair.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "study.comparison[0].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "V / kolem / do",
+          "reason": "„Do“ is misleading for um; the purpose meaning is better expressed as „aby“, and this field was not changed by the repair.",
+          "confidence": 0.96,
+          "relatedRepairBlock": 4
+        }
+      ]
+    },
+    {
+      "cardId": "a1-unter",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired comparison correctly gives über as „Nad / o“; an inconsistent highlighted comparison remains elsewhere in the card.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.comparison[1].meaning",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "Přes / Přes",
+          "reason": "The accent data still shows the old or incorrect meaning, conflicting with the repaired study comparison „Nad / o“.",
+          "confidence": 0.99,
+          "relatedFindingId": "unter-001",
+          "relatedRepairBlock": 4
+        }
+      ]
+    },
+    {
+      "cardId": "a1-vor",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired example correctly renders fünf vor acht as „Je za pět minut osm“; an unrelated explanation wording issue remains.",
+      "findings": [
+        {
+          "field": "study.explanation[3]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "V hodinovém čase vor znamená 'až', např. fünf vor acht.",
+          "reason": "„Až“ is not the appropriate Czech meaning here; the repaired example correctly uses „za pět minut osm“.",
+          "confidence": 0.98,
+          "relatedRepairBlock": 4
+        }
+      ]
+    },
+    {
+      "cardId": "a1-was",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The HIGH repairs correctly set the translation and core explanations to Czech „co“; several untouched explanations still contain Latvian terms and incorrect Czech.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Kdo • Co",
+          "reason": "The card-level main translation conflicts with the repaired study translation „Co“, but csMain was not part of the HIGH repair.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "study.explanation[3]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "HIGH",
+          "currentCs": "Pokud je předmětem věty was, překládá se do češtině jako kas (Was ist das? = Co to je?).",
+          "reason": "The Czech explanation incorrectly uses Latvian „kas“ instead of Czech „co“; this field was not repaired in HIGH.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "study.explanation[4]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "HIGH",
+          "currentCs": "Jestliže was je doplněk (předmět) slovesa, překládá se do češtiny jako ko (Was machst du? = Co děláš?).",
+          "reason": "The Czech explanation incorrectly uses Latvian „ko“ instead of Czech „co“; this field was not repaired in HIGH.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "study.explanation[5]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "HIGH",
+          "currentCs": "Lidé jsou dotázáni s wer (kdo/kdo), ne byl.",
+          "reason": "This contains incorrect Czech and the erroneous word „byl“; it was not among the HIGH-repaired fields.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 4
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:45:43.162Z"
+}

@@ -1,0 +1,2530 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-machen",
+      "index": 386,
+      "de": "machen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Dělat • Dělat",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 138,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: Byl machst du? = Co děláš?",
+          "pec": "Pamatujte: Was machst du? = Co děláš?"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-machen",
+        "index": 386,
+        "de": "machen",
+        "layout": "standardStudy",
+        "csMain": "Dělat • Dělat",
+        "studyTranslation": "Dělat • Dělat",
+        "lvSourceMain": "darīt • taisīt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "darīt • taisīt",
+            "csText": "Dělat • Dělat",
+            "de": "machen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "ko tu dari?",
+            "csText": "Co to děláš",
+            "de": "machen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es pildu mājasdarbus.",
+            "csText": "Dělám si domácí úkoly.",
+            "de": "machen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs taisām picu.",
+            "csText": "Děláme pizzu.",
+            "de": "machen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "tas ir jautri.",
+            "csText": "Je to zábava.",
+            "de": "machen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: Was machst du? = Ko tu dari?",
+            "csText": "Pamatujte: Was machst du? = Co děláš?",
+            "de": "machen"
+          }
+        ],
+        "study": {
+          "id": "a1-machen",
+          "layout": "standardStudy",
+          "translation": "Dělat • Dělat",
+          "explanation": [
+            "Hlavní myšlenka: machen je velmi běžné slovo, které znamená vyrobit nebo vyrobit.",
+            "Pokud jde o akci obecně, překládá se to jako jak dělat.",
+            "Pokud se něco vyrábí nebo připravuje, překládá se to jako výroba nebo vaření.",
+            "V mnoha frázích se machen překládá přirozeně do češtině, nikoli doslovně."
+          ],
+          "examples": [
+            {
+              "de": "Was machst du?",
+              "lv": "Co to děláš"
+            },
+            {
+              "de": "Ich mache Hausaufgaben.",
+              "lv": "Dělám si domácí úkoly."
+            },
+            {
+              "de": "Wir machen Pizza.",
+              "lv": "Děláme pizzu."
+            },
+            {
+              "de": "Das macht Spaß.",
+              "lv": "Je to zábava."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: Was machst du? = Co děláš?"
+          },
+          "important": [
+            "Machen je velmi široké slovo, ale čeština se často musí překládat přirozeně podle situace.",
+            "Das macht Spaß znamená 'je to zábava', ne doslova 'to dělá legraci'."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "machen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "machst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "děláš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mache"
+                  ],
+                  "yellow": [
+                    "Hausaufgaben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dělám"
+                  ],
+                  "yellow": [
+                    "Dělám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "machen"
+                  ],
+                  "yellow": [
+                    "Pizza"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Děláme"
+                  ],
+                  "yellow": [
+                    "Děláme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "macht Spaß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zábava"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "machen"
+                ],
+                "purple": [
+                  "Machen"
+                ]
+              },
+              {
+                "blue": [
+                  "Das macht Spaß"
+                ],
+                "purple": [
+                  "Das"
+                ],
+                "red": [
+                  "Das"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-machen",
+          "layout": "standardStudy",
+          "translation": "darīt • taisīt",
+          "explanation": [
+            "Galvenā doma: machen ir ļoti biežs vārds nozīmē darīt vai taisīt.",
+            "Ja runa ir par darbību vispār, tulko kā darīt.",
+            "Ja kaut ko veido vai gatavo, tulko kā taisīt vai pagatavot.",
+            "Daudzās frāzēs machen tulko dabiski pēc latviešu valodas, nevis burtiski."
+          ],
+          "examples": [
+            {
+              "de": "Was machst du?",
+              "lv": "ko tu dari?"
+            },
+            {
+              "de": "Ich mache Hausaufgaben.",
+              "lv": "es pildu mājasdarbus."
+            },
+            {
+              "de": "Wir machen Pizza.",
+              "lv": "mēs taisām picu."
+            },
+            {
+              "de": "Das macht Spaß.",
+              "lv": "tas ir jautri."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: Was machst du? = Ko tu dari?"
+          },
+          "important": [
+            "machen ir ļoti plašs vārds, bet latviski bieži jātulko dabiski pēc situācijas.",
+            "Das macht Spaß nozīmē “tas ir jautri”, nevis burtiski “tas taisa prieku”."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "machen"
+              ],
+              "purple": [
+                "darīt",
+                "taisīt",
+                "pagatavot"
+              ],
+              "green": [
+                "darbību",
+                "frāzēs"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "machst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dari"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mache"
+                  ],
+                  "yellow": [
+                    "Hausaufgaben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pildu"
+                  ],
+                  "yellow": [
+                    "mājasdarbus"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "machen"
+                  ],
+                  "yellow": [
+                    "Pizza"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "taisām"
+                  ],
+                  "yellow": [
+                    "picu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "macht Spaß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ir jautri"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Was machst du"
+                ],
+                "purple": [
+                  "ko tu dari"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "machen"
+                ],
+                "purple": [
+                  "dabiski"
+                ]
+              },
+              {
+                "blue": [
+                  "Das macht Spaß"
+                ],
+                "purple": [
+                  "tas ir jautri"
+                ],
+                "red": [
+                  "taisa prieku"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-machen",
+        "layout": "standardStudy",
+        "translation": "Dělat • Dělat",
+        "explanation": [
+          "Hlavní myšlenka: machen je velmi běžné slovo, které znamená vyrobit nebo vyrobit.",
+          "Pokud jde o akci obecně, překládá se to jako jak dělat.",
+          "Pokud se něco vyrábí nebo připravuje, překládá se to jako výroba nebo vaření.",
+          "V mnoha frázích se machen překládá přirozeně do češtině, nikoli doslovně."
+        ],
+        "examples": [
+          {
+            "de": "Was machst du?",
+            "lv": "Co to děláš"
+          },
+          {
+            "de": "Ich mache Hausaufgaben.",
+            "lv": "Dělám si domácí úkoly."
+          },
+          {
+            "de": "Wir machen Pizza.",
+            "lv": "Děláme pizzu."
+          },
+          {
+            "de": "Das macht Spaß.",
+            "lv": "Je to zábava."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: Was machst du? = Co děláš?"
+        },
+        "important": [
+          "Machen je velmi široké slovo, ale čeština se často musí překládat přirozeně podle situace.",
+          "Das macht Spaß znamená 'je to zábava', ne doslova 'to dělá legraci'."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "machen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "machst"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "děláš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "mache"
+                ],
+                "yellow": [
+                  "Hausaufgaben"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dělám"
+                ],
+                "yellow": [
+                  "Dělám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "machen"
+                ],
+                "yellow": [
+                  "Pizza"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Děláme"
+                ],
+                "yellow": [
+                  "Děláme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "macht Spaß"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "zábava"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "machen"
+              ],
+              "purple": [
+                "Machen"
+              ]
+            },
+            {
+              "blue": [
+                "Das macht Spaß"
+              ],
+              "purple": [
+                "Das"
+              ],
+              "red": [
+                "Das"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-mal",
+      "index": 390,
+      "de": "Mal",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Čas",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 139,
+          "field": "study.translation",
+          "pirmd": "Čas",
+          "pec": "Krát • Případ"
+        },
+        {
+          "block": 3,
+          "n": 140,
+          "field": "study.explanation[0]",
+          "pirmd": "Hlavní myšlenka: das Mal znamená jednou jako událost nebo příležitost.",
+          "pec": "Hlavní myšlenka: das Mal označuje jeden případ nebo jedno opakování."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-mal",
+        "index": 390,
+        "de": "Mal",
+        "layout": "standardStudy",
+        "csMain": "Čas",
+        "studyTranslation": "Krát • Případ",
+        "lvSourceMain": "reize",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "reize",
+            "csText": "Krát • Případ",
+            "de": "Mal"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "pirmo reizi bija grūti.",
+            "csText": "Poprvé to bylo těžké.",
+            "de": "Mal"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es jau divreiz biju Berlīnē.",
+            "csText": "V Berlíně jsem byl už dvakrát.",
+            "de": "Mal"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "vienreiz pietiek.",
+            "csText": "Jednou stačí.",
+            "de": "Mal"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "vēl vienu reizi, lūdzu!",
+            "csText": "Ještě jednou prosím!",
+            "de": "Mal"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa.",
+            "csText": "Pamatujte: das Mal = čas (podstatné jméno) • Mal bez článku = hovorová částice.",
+            "de": "Mal"
+          }
+        ],
+        "study": {
+          "id": "a1-mal",
+          "layout": "standardStudy",
+          "translation": "Krát • Případ",
+          "explanation": [
+            "Hlavní myšlenka: das Mal označuje jeden případ nebo jedno opakování.",
+            "Často se používá s čísly: ein Mal, zwei Mal, drei Mal.",
+            "S pořadovým číslem: das erste Mal, das zweite Mal.",
+            "Nemluvte s hovorovou částicí mal (Komm mal her!) - to je jiný význam."
+          ],
+          "examples": [
+            {
+              "de": "Das erste Mal war schwer.",
+              "lv": "Poprvé to bylo těžké."
+            },
+            {
+              "de": "Ich war schon zwei Mal in Berlin.",
+              "lv": "V Berlíně jsem byl už dvakrát."
+            },
+            {
+              "de": "Ein Mal reicht.",
+              "lv": "Jednou stačí."
+            },
+            {
+              "de": "Noch ein Mal, bitte!",
+              "lv": "Ještě jednou prosím!"
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: das Mal = čas (podstatné jméno) • Mal bez článku = hovorová částice."
+          },
+          "important": [
+            "Das Mal / die Male - podstatné jméno se členem.",
+            "Ein Mal, zwei Mal - počítat časy.",
+            "Mal bez článku (Komm mal her!) není totéž co das Mal."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Mal",
+                "ein Mal",
+                "zwei Mal",
+                "das erste Mal"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "erste Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Poprvé"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zwei Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Berlíně"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ein Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jednou"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ein Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ještě"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "blue": [
+                "das Mal",
+                "mal"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            },
+            "important": [
+              {
+                "blue": [
+                  "das Mal",
+                  "die Male"
+                ]
+              },
+              {
+                "blue": [
+                  "ein Mal",
+                  "zwei Mal"
+                ],
+                "purple": [
+                  "Ein"
+                ]
+              },
+              {
+                "blue": [
+                  "mal"
+                ],
+                "purple": [
+                  "das Mal"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-mal",
+          "layout": "standardStudy",
+          "translation": "reize",
+          "explanation": [
+            "Galvenā doma: das Mal nozīmē reizi kā notikumu vai gadījumu.",
+            "Bieži lieto ar skaitļiem: ein Mal, zwei Mal, drei Mal.",
+            "Ar kārtas skaitli: das erste Mal, das zweite Mal.",
+            "Nesarunāj ar sarunvalodas daļiņu mal (Komm mal her!) — tā ir cita nozīme."
+          ],
+          "examples": [
+            {
+              "de": "Das erste Mal war schwer.",
+              "lv": "pirmo reizi bija grūti."
+            },
+            {
+              "de": "Ich war schon zwei Mal in Berlin.",
+              "lv": "es jau divreiz biju Berlīnē."
+            },
+            {
+              "de": "Ein Mal reicht.",
+              "lv": "vienreiz pietiek."
+            },
+            {
+              "de": "Noch ein Mal, bitte!",
+              "lv": "vēl vienu reizi, lūdzu!"
+            }
+          ],
+          "tip": {
+            "text": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa."
+          },
+          "important": [
+            "das Mal / die Male — lietvārds ar artikulu.",
+            "ein Mal, zwei Mal — skaita reizes.",
+            "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Mal",
+                "ein Mal",
+                "zwei Mal",
+                "das erste Mal"
+              ],
+              "purple": [
+                "reizi",
+                "notikumu",
+                "gadījumu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "erste Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pirmo reizi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zwei Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "divreiz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ein Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vienreiz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ein Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "reizi"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "blue": [
+                "das Mal",
+                "mal"
+              ],
+              "purple": [
+                "lietvārds",
+                "daļiņa"
+              ]
+            },
+            "important": [
+              {
+                "blue": [
+                  "das Mal",
+                  "die Male"
+                ]
+              },
+              {
+                "blue": [
+                  "ein Mal",
+                  "zwei Mal"
+                ],
+                "purple": [
+                  "reizes"
+                ]
+              },
+              {
+                "blue": [
+                  "mal"
+                ],
+                "purple": [
+                  "das Mal"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-mal",
+        "layout": "standardStudy",
+        "translation": "Krát • Případ",
+        "explanation": [
+          "Hlavní myšlenka: das Mal označuje jeden případ nebo jedno opakování.",
+          "Často se používá s čísly: ein Mal, zwei Mal, drei Mal.",
+          "S pořadovým číslem: das erste Mal, das zweite Mal.",
+          "Nemluvte s hovorovou částicí mal (Komm mal her!) - to je jiný význam."
+        ],
+        "examples": [
+          {
+            "de": "Das erste Mal war schwer.",
+            "lv": "Poprvé to bylo těžké."
+          },
+          {
+            "de": "Ich war schon zwei Mal in Berlin.",
+            "lv": "V Berlíně jsem byl už dvakrát."
+          },
+          {
+            "de": "Ein Mal reicht.",
+            "lv": "Jednou stačí."
+          },
+          {
+            "de": "Noch ein Mal, bitte!",
+            "lv": "Ještě jednou prosím!"
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: das Mal = čas (podstatné jméno) • Mal bez článku = hovorová částice."
+        },
+        "important": [
+          "Das Mal / die Male - podstatné jméno se členem.",
+          "Ein Mal, zwei Mal - počítat časy.",
+          "Mal bez článku (Komm mal her!) není totéž co das Mal."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "das Mal",
+              "ein Mal",
+              "zwei Mal",
+              "das erste Mal"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "erste Mal"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Poprvé"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zwei Mal"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Berlíně"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ein Mal"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jednou"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ein Mal"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ještě"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "blue": [
+              "das Mal",
+              "mal"
+            ],
+            "purple": [
+              "Pamatujte",
+              "Pamatujte"
+            ]
+          },
+          "important": [
+            {
+              "blue": [
+                "das Mal",
+                "die Male"
+              ]
+            },
+            {
+              "blue": [
+                "ein Mal",
+                "zwei Mal"
+              ],
+              "purple": [
+                "Ein"
+              ]
+            },
+            {
+              "blue": [
+                "mal"
+              ],
+              "purple": [
+                "das Mal"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-mit",
+      "index": 408,
+      "de": "mit",
+      "auditType": "high_repair_changed_card",
+      "csMain": "S",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 141,
+          "field": "study.important[1]",
+          "pirmd": "Kde bydlíš? znamená \"Půjdeš se mnou?\"",
+          "pec": "Kommst du mit? znamená „Půjdeš se mnou?“"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-mit",
+        "index": 408,
+        "de": "mit",
+        "layout": "standardStudy",
+        "csMain": "S",
+        "studyTranslation": "S",
+        "lvSourceMain": "ar",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ar",
+            "csText": "S",
+            "de": "mit"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es nāku ar tevi.",
+            "csText": "Jdu s tebou",
+            "de": "mit"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es braucu ar autobusu.",
+            "csText": "Jedu autobusem",
+            "de": "mit"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņa raksta ar pildspalvu.",
+            "csText": "Píše perem.",
+            "de": "mit"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "vai tu nāksi līdzi?",
+            "csText": "Půjdeš se mnou?",
+            "de": "mit"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "mit",
+            "csText": "mit",
+            "de": "mit"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "ar / kopā ar",
+            "csText": "S / spolu s",
+            "de": "mit"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "ohne",
+            "csText": "ohne",
+            "de": "mit"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "bez",
+            "csText": "Bez",
+            "de": "mit"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "bei",
+            "csText": "bei",
+            "de": "mit"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "pie / pie kāda",
+            "csText": "U / u někoho",
+            "de": "mit"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "zu",
+            "csText": "zu",
+            "de": "mit"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "uz / pie",
+            "csText": "Do / v",
+            "de": "mit"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: kopā ar kādu vai ar transportu → mit.",
+            "csText": "Pamatujte: spolu s někým nebo s dopravou → mit.",
+            "de": "mit"
+          }
+        ],
+        "study": {
+          "id": "a1-mit",
+          "layout": "standardStudy",
+          "translation": "S",
+          "explanation": [
+            "Hlavní myšlenka: mit nejčastěji znamená s.",
+            "Mit se používá, když je člověk s někým nebo něco dělá s věcí.",
+            "Doprava mit často znamená jet autobusem, vlakem nebo autem.",
+            "Na úrovni A1 jsou velmi časté fráze mit dem Bus, mit dem Auto a mit dir."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme mit dir.",
+              "lv": "Jdu s tebou"
+            },
+            {
+              "de": "Ich fahre mit dem Bus.",
+              "lv": "Jedu autobusem"
+            },
+            {
+              "de": "Sie schreibt mit dem Stift.",
+              "lv": "Píše perem."
+            },
+            {
+              "de": "Kommst du mit?",
+              "lv": "Půjdeš se mnou?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mit",
+              "meaning": "S / spolu s",
+              "example": "Ich komme mit dir."
+            },
+            {
+              "word": "ohne",
+              "meaning": "Bez",
+              "example": "Ich komme ohne dich."
+            },
+            {
+              "word": "bei",
+              "meaning": "U / u někoho",
+              "example": "Ich bin bei Anna."
+            },
+            {
+              "word": "zu",
+              "meaning": "Do / v",
+              "example": "Ich gehe zum Arzt."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: spolu s někým nebo s dopravou → mit."
+          },
+          "important": [
+            "Mit vyžaduje dativ: mit dem Bus, mit der Mutter, mit dir.",
+            "Kommst du mit? znamená „Půjdeš se mnou?“"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "mit",
+                "mit dem Bus",
+                "mit dem Auto",
+                "mit dir"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "autobusem",
+                "Hlavní",
+                "auto"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "mit dir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit dem Bus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jedu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit dem Stift"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Píše"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Půjdeš"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "mit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "spolu",
+                    "spolu"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "mit dir"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ohne"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bez"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ohne dich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "někoho"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bei Anna"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {},
+                "example": {
+                  "yellow": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "mit"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "mit"
+                ],
+                "purple": [
+                  "dativ"
+                ],
+                "yellow": [
+                  "dem Bus",
+                  "der Mutter",
+                  "dir"
+                ]
+              },
+              {
+                "blue": [
+                  "Kde"
+                ],
+                "purple": [
+                  "Kde"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-mit",
+          "layout": "standardStudy",
+          "translation": "ar",
+          "explanation": [
+            "Galvenā doma: mit visbiežāk nozīmē ar.",
+            "mit lieto, ja cilvēks ir kopā ar kādu vai kaut ko dara ar kādu lietu.",
+            "Ar transportu mit bieži nozīmē braukt ar autobusu, vilcienu vai auto.",
+            "A1 līmenī ļoti biežas frāzes ir mit dem Bus, mit dem Auto un mit dir."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme mit dir.",
+              "lv": "es nāku ar tevi."
+            },
+            {
+              "de": "Ich fahre mit dem Bus.",
+              "lv": "es braucu ar autobusu."
+            },
+            {
+              "de": "Sie schreibt mit dem Stift.",
+              "lv": "viņa raksta ar pildspalvu."
+            },
+            {
+              "de": "Kommst du mit?",
+              "lv": "vai tu nāksi līdzi?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mit",
+              "meaning": "ar / kopā ar",
+              "example": "Ich komme mit dir."
+            },
+            {
+              "word": "ohne",
+              "meaning": "bez",
+              "example": "Ich komme ohne dich."
+            },
+            {
+              "word": "bei",
+              "meaning": "pie / pie kāda",
+              "example": "Ich bin bei Anna."
+            },
+            {
+              "word": "zu",
+              "meaning": "uz / pie",
+              "example": "Ich gehe zum Arzt."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: kopā ar kādu vai ar transportu → mit."
+          },
+          "important": [
+            "mit prasa datīvu: mit dem Bus, mit der Mutter, mit dir.",
+            "Kommst du mit? nozīmē “Vai tu nāksi līdzi?”"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "mit",
+                "mit dem Bus",
+                "mit dem Auto",
+                "mit dir"
+              ],
+              "purple": [
+                "ar",
+                "kopā ar"
+              ],
+              "green": [
+                "transportu",
+                "autobusu",
+                "vilcienu",
+                "auto"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "mit dir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ar tevi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit dem Bus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ar autobusu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit dem Stift"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ar pildspalvu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "līdzi"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "mit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ar",
+                    "kopā ar"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "mit dir"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ohne"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bez"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ohne dich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bei Anna"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "mit"
+                ],
+                "purple": [
+                  "kopā ar",
+                  "ar transportu"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "mit"
+                ],
+                "purple": [
+                  "datīvu"
+                ],
+                "yellow": [
+                  "dem Bus",
+                  "der Mutter",
+                  "dir"
+                ]
+              },
+              {
+                "blue": [
+                  "Kommst du mit"
+                ],
+                "purple": [
+                  "nāksi līdzi"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-mit",
+        "layout": "standardStudy",
+        "translation": "S",
+        "explanation": [
+          "Hlavní myšlenka: mit nejčastěji znamená s.",
+          "Mit se používá, když je člověk s někým nebo něco dělá s věcí.",
+          "Doprava mit často znamená jet autobusem, vlakem nebo autem.",
+          "Na úrovni A1 jsou velmi časté fráze mit dem Bus, mit dem Auto a mit dir."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme mit dir.",
+            "lv": "Jdu s tebou"
+          },
+          {
+            "de": "Ich fahre mit dem Bus.",
+            "lv": "Jedu autobusem"
+          },
+          {
+            "de": "Sie schreibt mit dem Stift.",
+            "lv": "Píše perem."
+          },
+          {
+            "de": "Kommst du mit?",
+            "lv": "Půjdeš se mnou?"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "mit",
+            "meaning": "S / spolu s",
+            "example": "Ich komme mit dir."
+          },
+          {
+            "word": "ohne",
+            "meaning": "Bez",
+            "example": "Ich komme ohne dich."
+          },
+          {
+            "word": "bei",
+            "meaning": "U / u někoho",
+            "example": "Ich bin bei Anna."
+          },
+          {
+            "word": "zu",
+            "meaning": "Do / v",
+            "example": "Ich gehe zum Arzt."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: spolu s někým nebo s dopravou → mit."
+        },
+        "important": [
+          "Mit vyžaduje dativ: mit dem Bus, mit der Mutter, mit dir.",
+          "Kommst du mit? znamená „Půjdeš se mnou?“"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "mit",
+              "mit dem Bus",
+              "mit dem Auto",
+              "mit dir"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "autobusem",
+              "Hlavní",
+              "auto"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "mit dir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "mit dem Bus"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jedu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "mit dem Stift"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Píše"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "mit"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Půjdeš"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "mit"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "spolu",
+                  "spolu"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "mit dir"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ohne"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "bez"
+                ]
+              },
+              "example": {
+                "red": [
+                  "ohne dich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bei"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "někoho"
+                ]
+              },
+              "example": {
+                "green": [
+                  "bei Anna"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zu"
+                ]
+              },
+              "meaning": {},
+              "example": {
+                "yellow": [
+                  "zum Arzt"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "mit"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "mit"
+              ],
+              "purple": [
+                "dativ"
+              ],
+              "yellow": [
+                "dem Bus",
+                "der Mutter",
+                "dir"
+              ]
+            },
+            {
+              "blue": [
+                "Kde"
+              ],
+              "purple": [
+                "Kde"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-morgen",
+      "index": 417,
+      "de": "morgen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Zítra",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 142,
+          "field": "study.explanation[7]",
+          "pirmd": "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!",
+          "pec": "Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!)."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-morgen",
+        "index": 417,
+        "de": "morgen",
+        "layout": "standardStudy",
+        "csMain": "Zítra",
+        "studyTranslation": "Zítra",
+        "lvSourceMain": "rīt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "rīt",
+            "csText": "Zítra",
+            "de": "morgen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es nāku rīt.",
+            "csText": "Přijdu zítra.",
+            "de": "morgen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "līdz rīt!",
+            "csText": "Až zítra!",
+            "de": "morgen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es nāku rīt.",
+            "csText": "Přijdu zítra",
+            "de": "morgen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "rīt ir pirmdiena.",
+            "csText": "Zítra je pondělí",
+            "de": "morgen"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "labrīt!",
+            "csText": "Dobré ráno!",
+            "de": "morgen"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "rīts ir skaists.",
+            "csText": "Ráno je krásné.",
+            "de": "morgen"
+          }
+        ],
+        "study": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "Zítra",
+          "explanation": [
+            "Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.",
+            "Morgen hlavně znamená: druhý den.",
+            "Často charakterizováno: počasím.",
+            "Morgen především znamená: část dne.",
+            "Často popisuje: podstatné jméno (der).",
+            "Morgen v podstatě znamená: několik ran.",
+            "Často charakterizováno: podstatné jméno (pl.).",
+            "Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!)."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Přijdu zítra."
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Až zítra!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Přijdu zítra"
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Zítra je pondělí"
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobré ráno!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Ráno je krásné."
+            }
+          ],
+          "tip": [
+            "Malý morgen = zítra (Ich komme morgen). der Morgen s velkým písmenem = ráno (Guten Morgen!, am Morgen).",
+            "Morgen = zítra"
+          ],
+          "important": [
+            "Morgen je malé písmeno - je to časové příslovce (zítra).",
+            "Der Morgen s velkým písmenem a členem der je podstatné jméno (ráno).",
+            "Dobré ráno! — vždy s velkým M (ráno, ne zítra).",
+            "Špatně: Guten morgen! → Správně: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "morgen"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přijdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zítra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přijdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zítra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dobré"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ráno"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Malý"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "morgen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "rīt",
+          "explanation": [
+            "Galvenā doma: Laika apstāklis ar mazo burtu. Nozīmē nākamo dienu — rīt.",
+            "morgen galvenokārt nozīmē: nākamajā dienā.",
+            "Bieži raksturo: laika apstāklis.",
+            "morgen galvenokārt nozīmē: dienas daļa.",
+            "Bieži raksturo: lietvārds (der).",
+            "morgen galvenokārt nozīmē: vairāki rīti.",
+            "Bieži raksturo: lietvārds (pl.).",
+            "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!"
+          ],
+          "examples": [
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Es nāku rīt."
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "līdz rīt!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "es nāku rīt."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "rīt ir pirmdiena."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "labrīt!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "rīts ir skaists."
+            }
+          ],
+          "tip": [
+            "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
+            "morgen = rīt"
+          ],
+          "important": [
+            "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
+            "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
+            "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+            "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "morgen"
+              ],
+              "purple": [
+                "rīt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "rīt"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "morgen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-morgen",
+        "layout": "standardStudy",
+        "translation": "Zítra",
+        "explanation": [
+          "Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.",
+          "Morgen hlavně znamená: druhý den.",
+          "Často charakterizováno: počasím.",
+          "Morgen především znamená: část dne.",
+          "Často popisuje: podstatné jméno (der).",
+          "Morgen v podstatě znamená: několik ran.",
+          "Často charakterizováno: podstatné jméno (pl.).",
+          "Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!)."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme morgen.",
+            "lv": "Přijdu zítra."
+          },
+          {
+            "de": "Bis morgen!",
+            "lv": "Až zítra!"
+          },
+          {
+            "de": "Ich komme morgen.",
+            "lv": "Přijdu zítra"
+          },
+          {
+            "de": "Morgen ist Montag.",
+            "lv": "Zítra je pondělí"
+          },
+          {
+            "de": "Guten Morgen!",
+            "lv": "Dobré ráno!"
+          },
+          {
+            "de": "Der Morgen ist schön.",
+            "lv": "Ráno je krásné."
+          }
+        ],
+        "tip": [
+          "Malý morgen = zítra (Ich komme morgen). der Morgen s velkým písmenem = ráno (Guten Morgen!, am Morgen).",
+          "Morgen = zítra"
+        ],
+        "important": [
+          "Morgen je malé písmeno - je to časové příslovce (zítra).",
+          "Der Morgen s velkým písmenem a členem der je podstatné jméno (ráno).",
+          "Dobré ráno! — vždy s velkým M (ráno, ne zítra).",
+          "Špatně: Guten morgen! → Správně: Guten Morgen!"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "morgen"
+            ],
+            "purple": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "morgen",
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Přijdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "morgen",
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "zítra"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "morgen",
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Přijdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "morgen",
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zítra"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "morgen",
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dobré"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "morgen",
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ráno"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Malý"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "morgen"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-machen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Oprava tipu je správná a odstranila německý překlep. Kontext karty však obsahuje několik starších významových a gramatických problémů.",
+      "findings": [
+        {
+          "field": "study.tip.text",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "LOW",
+          "currentCs": "Pamatujte: Was machst du? = Co děláš?",
+          "reason": "Opravený tip je gramaticky i významově správný; oprava nezavedla regresi.",
+          "confidence": 0.99,
+          "relatedRepairBlock": "block 3, n 138"
+        },
+        {
+          "field": "study.explanation",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Hlavní myšlenka: machen je velmi běžné slovo, které znamená vyrobit nebo vyrobit.",
+          "reason": "Duplicitní a nepřirozené formulace byly v kartě již před opravou tipu a nesouvisejí s HIGH opravou.",
+          "confidence": 0.98
+        },
+        {
+          "field": "study.explanation",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Pokud jde o akci obecně, překládá se to jako jak dělat.",
+          "reason": "Věta je významově i gramaticky chybná, ale HIGH oprava měnila pouze tip.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-mal",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Obě HIGH opravy zlepšily význam i formulaci. V kartě zůstávají starší nekonzistence v tipu a některých českých formulacích.",
+      "findings": [
+        {
+          "field": "study.translation",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "LOW",
+          "currentCs": "Krát • Případ",
+          "reason": "Významy odpovídají německému Mal jako násobení a jednotlivému případu; oprava nezpůsobila významovou regresi.",
+          "confidence": 0.94,
+          "relatedRepairBlock": "block 3, n 139"
+        },
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "LOW",
+          "currentCs": "Hlavní myšlenka: das Mal označuje jeden případ nebo jedno opakování.",
+          "reason": "Opravené vysvětlení je přirozené a přesně rozlišuje význam substantiva Mal.",
+          "confidence": 0.99,
+          "relatedRepairBlock": "block 3, n 140"
+        },
+        {
+          "field": "study.tip.text",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Pamatujte: das Mal = čas (podstatné jméno) • Mal bez článku = hovorová částice.",
+          "reason": "Tip stále uvádí chybný význam „čas“; tato část nebyla HIGH opravou změněna.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.explanation[3]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Nemluvte s hovorovou částicí mal (Komm mal her!) - to je jiný význam.",
+          "reason": "Formulace „Nemluvte s“ je nepřirozená, ale jde o starší problém mimo opravená pole.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-mit",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "HIGH oprava správně opravila německou frázi a její český význam. V porovnání zůstává starší nepřesný význam předložky zu.",
+      "findings": [
+        {
+          "field": "study.important[1]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "LOW",
+          "currentCs": "Kommst du mit? znamená „Půjdeš se mnou?“",
+          "reason": "Opravená fráze i český překlad jsou správné a přirozené.",
+          "confidence": 0.99,
+          "relatedRepairBlock": "block 3, n 141"
+        },
+        {
+          "field": "study.comparison[3].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Do / v",
+          "reason": "Význam zu neodpovídá příkladu Ich gehe zum Arzt; problém je v předchozím obsahu, nikoli v HIGH opravě.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-morgen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Opravená věta správně rozlišuje malé morgen a opravuje interpunkci. Zbytek vysvětlení obsahuje starší významové a stylistické chyby.",
+      "findings": [
+        {
+          "field": "study.explanation[7]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "LOW",
+          "currentCs": "Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!).",
+          "reason": "Opravené vysvětlení je významově správné a gramaticky přijatelné; HIGH oprava nezavedla regresi.",
+          "confidence": 0.99,
+          "relatedRepairBlock": "block 3, n 142"
+        },
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Často charakterizováno: počasím.",
+          "reason": "Tato věta nedává v kontextu morgen smysl a nebyla součástí HIGH opravy.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.explanation[5]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Morgen v podstatě znamená: několik ran.",
+          "reason": "Význam je chybný a koliduje s rozlišením der Morgen, ale problém předchází opravě pole [7].",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:44:16.715Z"
+}

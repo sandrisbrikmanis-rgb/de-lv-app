@@ -1,0 +1,2898 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-bei",
+      "index": 78,
+      "de": "bei",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Na",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 261,
+          "field": "study.translation",
+          "pirmd": "Na",
+          "pec": "U"
+        },
+        {
+          "block": 6,
+          "n": 262,
+          "field": "study.examples[0].lv",
+          "pirmd": "Jsem v domě svého přítele.",
+          "pec": "Jsem u svého přítele."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-bei",
+        "index": 78,
+        "de": "bei",
+        "layout": "standardStudy",
+        "csMain": "Na",
+        "studyTranslation": "U",
+        "lvSourceMain": "pie",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "pie",
+            "csText": "U",
+            "de": "bei"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto, ja kaut kas atrodas pie personas, organizācijas, vietas vai notiek kādos apstākļos.",
+            "csText": "Používá se, když je něco blízko osoby, organizace, místa nebo se děje za určitých okolností.",
+            "de": "bei"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es esmu pie sava drauga.",
+            "csText": "Jsem u svého přítele.",
+            "de": "bei"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Viņa strādā uzņēmumā Siemens.",
+            "csText": "Pracuje pro Siemens.",
+            "de": "bei"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "lietus laikā mēs paliekam mājās.",
+            "csText": "Když prší, zůstáváme doma.",
+            "de": "bei"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "bei",
+            "csText": "bei",
+            "de": "bei"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "pie personas, uzņēmuma vai noteiktos apstākļos",
+            "csText": "U osoby, společnosti nebo za určitých okolností",
+            "de": "bei"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "an",
+            "csText": "an",
+            "de": "bei"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "pie sienas, malas, krasta, virsmas malas",
+            "csText": "U stěny, okraje, břehu, okraje hladiny",
+            "de": "bei"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "zu",
+            "csText": "zu",
+            "de": "bei"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "pie kāda dodas (virziens)",
+            "csText": "Kdo jde (směr)",
+            "de": "bei"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: pie cilvēka/vietas/uzņēmuma → bei.",
+            "csText": "Pamatujte: u osoby/místa/společnosti → bei.",
+            "de": "bei"
+          }
+        ],
+        "study": {
+          "id": "a1-bei",
+          "layout": "standardStudy",
+          "translation": "U",
+          "explanation": "Používá se, když je něco blízko osoby, organizace, místa nebo se děje za určitých okolností.",
+          "examples": [
+            {
+              "de": "Ich bin bei meinem Freund.",
+              "lv": "Jsem u svého přítele."
+            },
+            {
+              "de": "Sie arbeitet bei Siemens.",
+              "lv": "Pracuje pro Siemens."
+            },
+            {
+              "de": "Bei Regen bleiben wir zu Hause.",
+              "lv": "Když prší, zůstáváme doma."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bei",
+              "meaning": "U osoby, společnosti nebo za určitých okolností",
+              "example": "Ich bin bei meiner Schwester. – Jsem u sestry."
+            },
+            {
+              "word": "an",
+              "meaning": "U stěny, okraje, břehu, okraje hladiny",
+              "example": "Das Bild hängt an der Wand. – Obraz visí na zdi."
+            },
+            {
+              "word": "zu",
+              "meaning": "Kdo jde (směr)",
+              "example": "Ich gehe zu meinem Freund. – Jdu ke svému příteli."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: u osoby/místa/společnosti → bei."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "bei"
+                ]
+              },
+              {
+                "blue": [
+                  "bei"
+                ]
+              },
+              {
+                "blue": [
+                  "Bei"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "purple": [
+                    "bei"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "bei"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "an"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "zu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "bei"
+                ],
+                "green": [
+                  "Pamatujte",
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "bei"
+                ],
+                "green": [
+                  "Bei",
+                  "Bei",
+                  "Bei"
+                ]
+              },
+              {
+                "blue": [
+                  "auf"
+                ],
+                "red": [
+                  "bei"
+                ],
+                "purple": [
+                  "Pokud"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Bei často znamená u osoby, na místě nebo ve společnosti.",
+            "Pokud jde o pohyb na povrch, obvykle potřebujete auf, ne bei."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-bei",
+          "layout": "standardStudy",
+          "translation": "pie",
+          "explanation": "Lieto, ja kaut kas atrodas pie personas, organizācijas, vietas vai notiek kādos apstākļos.",
+          "examples": [
+            {
+              "de": "Ich bin bei meinem Freund.",
+              "lv": "es esmu pie sava drauga."
+            },
+            {
+              "de": "Sie arbeitet bei Siemens.",
+              "lv": "Viņa strādā uzņēmumā Siemens."
+            },
+            {
+              "de": "Bei Regen bleiben wir zu Hause.",
+              "lv": "lietus laikā mēs paliekam mājās."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bei",
+              "meaning": "pie personas, uzņēmuma vai noteiktos apstākļos",
+              "example": "Ich bin bei meiner Schwester. – Es esmu pie savas māsas."
+            },
+            {
+              "word": "an",
+              "meaning": "pie sienas, malas, krasta, virsmas malas",
+              "example": "Das Bild hängt an der Wand. – Attēls karājas pie sienas."
+            },
+            {
+              "word": "zu",
+              "meaning": "pie kāda dodas (virziens)",
+              "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: pie cilvēka/vietas/uzņēmuma → bei."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bei"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pie"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bei"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uzņēmumā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bei"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laikā"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "purple": [
+                    "bei"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "bei"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "an"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "zu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "bei"
+                ],
+                "green": [
+                  "cilvēka",
+                  "vietas",
+                  "uzņēmuma"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "bei"
+                ],
+                "green": [
+                  "cilvēka",
+                  "vietas",
+                  "uzņēmumā"
+                ]
+              },
+              {
+                "blue": [
+                  "auf"
+                ],
+                "red": [
+                  "bei"
+                ],
+                "purple": [
+                  "uz virsmu"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "bei bieži nozīmē pie cilvēka, pie vietas vai uzņēmumā.",
+            "Ja runa ir par kustību uz virsmu, parasti vajag auf, nevis bei."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-bei",
+        "layout": "standardStudy",
+        "translation": "U",
+        "explanation": "Používá se, když je něco blízko osoby, organizace, místa nebo se děje za určitých okolností.",
+        "examples": [
+          {
+            "de": "Ich bin bei meinem Freund.",
+            "lv": "Jsem u svého přítele."
+          },
+          {
+            "de": "Sie arbeitet bei Siemens.",
+            "lv": "Pracuje pro Siemens."
+          },
+          {
+            "de": "Bei Regen bleiben wir zu Hause.",
+            "lv": "Když prší, zůstáváme doma."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "bei",
+            "meaning": "U osoby, společnosti nebo za určitých okolností",
+            "example": "Ich bin bei meiner Schwester. – Jsem u sestry."
+          },
+          {
+            "word": "an",
+            "meaning": "U stěny, okraje, břehu, okraje hladiny",
+            "example": "Das Bild hängt an der Wand. – Obraz visí na zdi."
+          },
+          {
+            "word": "zu",
+            "meaning": "Kdo jde (směr)",
+            "example": "Ich gehe zu meinem Freund. – Jdu ke svému příteli."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: u osoby/místa/společnosti → bei."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "bei"
+              ]
+            },
+            {
+              "blue": [
+                "bei"
+              ]
+            },
+            {
+              "blue": [
+                "Bei"
+              ]
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "purple": [
+                  "bei"
+                ]
+              },
+              "example": {
+                "purple": [
+                  "bei"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "an"
+                ]
+              },
+              "example": {
+                "green": [
+                  "an"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zu"
+                ]
+              },
+              "example": {
+                "red": [
+                  "zu"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "purple": [
+                "bei"
+              ],
+              "green": [
+                "Pamatujte",
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "purple": [
+                "bei"
+              ],
+              "green": [
+                "Bei",
+                "Bei",
+                "Bei"
+              ]
+            },
+            {
+              "blue": [
+                "auf"
+              ],
+              "red": [
+                "bei"
+              ],
+              "purple": [
+                "Pokud"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Bei často znamená u osoby, na místě nebo ve společnosti.",
+          "Pokud jde o pohyb na povrch, obvykle potřebujete auf, ne bei."
+        ]
+      }
+    },
+    {
+      "cardId": "a1-bis",
+      "index": 91,
+      "de": "bis",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Až",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 263,
+          "field": "study.translation",
+          "pirmd": "Až",
+          "pec": "Do • Až do"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-bis",
+        "index": 91,
+        "de": "bis",
+        "layout": "standardStudy",
+        "csMain": "Až",
+        "studyTranslation": "Do • Až do",
+        "lvSourceMain": "līdz",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "līdz",
+            "csText": "Do • Až do",
+            "de": "bis"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Norāda uz kādu robežu, laika punktu vai nosacījumu.",
+            "csText": "Odkazuje na hranici, bod v čase nebo podmínku.",
+            "de": "bis"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es gaidu tavu ierašanos.",
+            "csText": "Čekám na tvůj příchod.",
+            "de": "bis"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "paliec šeit, līdz es atgriezīšos.",
+            "csText": "Zůstaň tady, dokud se nevrátím.",
+            "de": "bis"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es mācos vācu valodu līdz vakaram.",
+            "csText": "Němčinu se učím až do večera.",
+            "de": "bis"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "līdz šim es neko neesmu sapratis.",
+            "csText": "Doteď jsem nic nepochopil.",
+            "de": "bis"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "bis",
+            "csText": "bis",
+            "de": "bis"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "līdz robežai vai laika punktam",
+            "csText": "Dokud (nedosáhne časového bodu)",
+            "de": "bis"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "bis zu",
+            "csText": "bis ... zu",
+            "de": "bis"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "līdz konkrētai robežai",
+            "csText": "Do (do určitého času)",
+            "de": "bis"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "bis jetzt",
+            "csText": "bis dass",
+            "de": "bis"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "līdz šim",
+            "csText": "Až",
+            "de": "bis"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: robeža laikā/nosacījumā → bis.",
+            "csText": "Pamatujte: hranice v čase/podmínce → bis.",
+            "de": "bis"
+          }
+        ],
+        "study": {
+          "id": "a1-bis",
+          "layout": "standardStudy",
+          "translation": "Do • Až do",
+          "explanation": "Odkazuje na hranici, bod v čase nebo podmínku.",
+          "examples": [
+            {
+              "de": "Ich warte bis zu deiner Ankunft.",
+              "lv": "Čekám na tvůj příchod."
+            },
+            {
+              "de": "Bleib hier, bis ich zurückkomme.",
+              "lv": "Zůstaň tady, dokud se nevrátím."
+            },
+            {
+              "de": "Ich lerne Deutsch bis zum Abend.",
+              "lv": "Němčinu se učím až do večera."
+            },
+            {
+              "de": "Bis jetzt habe ich nichts verstanden.",
+              "lv": "Doteď jsem nic nepochopil."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bis",
+              "meaning": "Dokud (nedosáhne časového bodu)",
+              "example": "Ich bleibe bis 18 Uhr. – Zůstanu do 18:00."
+            },
+            {
+              "word": "bis ... zu",
+              "meaning": "Do (do určitého času)",
+              "example": "Ich arbeite von 9 bis 17 Uhr. – Pracuji od 9 do 17."
+            },
+            {
+              "word": "bis dass",
+              "meaning": "Až",
+              "example": "Ich warte, bis dass du kommst. – Čekám, až přijdeš."
+            },
+            {
+              "word": "bis jetzt",
+              "meaning": "Až doteď, až do dnešního dne",
+              "example": "Bis jetzt ist alles gut. – Zatím je vše dobré."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: hranice v čase/podmínce → bis."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "purple": [
+                  "bis"
+                ]
+              },
+              {
+                "purple": [
+                  "bis"
+                ]
+              },
+              {
+                "purple": [
+                  "bis"
+                ]
+              },
+              {
+                "blue": [
+                  "Bis jetzt"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "purple": [
+                    "bis"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "bis"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bis ... zu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bis"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bis dass"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "bis dass"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bis jetzt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Bis jetzt"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "bis"
+                ],
+                "green": [
+                  "Pamatujte",
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "bis"
+                ],
+                "green": [
+                  "Bis",
+                  "Bis"
+                ]
+              },
+              {
+                "blue": [
+                  "bis jetzt",
+                  "bis dass"
+                ],
+                "purple": [
+                  "Bis",
+                  "Bis"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Bis = do limitu nebo bodu v čase.",
+            "Bis jetzt = dosud • Bis dass = dokud."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-bis",
+          "layout": "standardStudy",
+          "translation": "līdz",
+          "explanation": "Norāda uz kādu robežu, laika punktu vai nosacījumu.",
+          "examples": [
+            {
+              "de": "Ich warte bis zu deiner Ankunft.",
+              "lv": "Es gaidu tavu ierašanos."
+            },
+            {
+              "de": "Bleib hier, bis ich zurückkomme.",
+              "lv": "paliec šeit, līdz es atgriezīšos."
+            },
+            {
+              "de": "Ich lerne Deutsch bis zum Abend.",
+              "lv": "es mācos vācu valodu līdz vakaram."
+            },
+            {
+              "de": "Bis jetzt habe ich nichts verstanden.",
+              "lv": "līdz šim es neko neesmu sapratis."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bis",
+              "meaning": "līdz robežai vai laika punktam",
+              "example": "Ich bleibe bis morgen. – Es palieku līdz rītdienai."
+            },
+            {
+              "word": "bis zu",
+              "meaning": "līdz konkrētai robežai",
+              "example": "bis zum Bahnhof – līdz stacijai"
+            },
+            {
+              "word": "bis jetzt",
+              "meaning": "līdz šim",
+              "example": "Bis jetzt habe ich nichts verstanden. – Līdz šim es neko neesmu sapratis."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: robeža laikā/nosacījumā → bis."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "purple": [
+                  "bis"
+                ]
+              },
+              {
+                "purple": [
+                  "bis"
+                ]
+              },
+              {
+                "purple": [
+                  "bis"
+                ]
+              },
+              {
+                "blue": [
+                  "Bis jetzt"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "purple": [
+                    "bis"
+                  ]
+                },
+                "example": {
+                  "purple": [
+                    "bis"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bis zu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bis zum"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bis jetzt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Bis jetzt"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "bis"
+                ],
+                "green": [
+                  "robeža",
+                  "laikā",
+                  "nosacījumā"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "bis"
+                ],
+                "green": [
+                  "robežai",
+                  "laika punktam"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "bis norāda robežu vai laika punktu.",
+            "bis zu lieto pirms konkrētas robežas: bis zum Bahnhof.",
+            "bis jetzt nozīmē līdz šim."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-bis",
+        "layout": "standardStudy",
+        "translation": "Do • Až do",
+        "explanation": "Odkazuje na hranici, bod v čase nebo podmínku.",
+        "examples": [
+          {
+            "de": "Ich warte bis zu deiner Ankunft.",
+            "lv": "Čekám na tvůj příchod."
+          },
+          {
+            "de": "Bleib hier, bis ich zurückkomme.",
+            "lv": "Zůstaň tady, dokud se nevrátím."
+          },
+          {
+            "de": "Ich lerne Deutsch bis zum Abend.",
+            "lv": "Němčinu se učím až do večera."
+          },
+          {
+            "de": "Bis jetzt habe ich nichts verstanden.",
+            "lv": "Doteď jsem nic nepochopil."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "bis",
+            "meaning": "Dokud (nedosáhne časového bodu)",
+            "example": "Ich bleibe bis 18 Uhr. – Zůstanu do 18:00."
+          },
+          {
+            "word": "bis ... zu",
+            "meaning": "Do (do určitého času)",
+            "example": "Ich arbeite von 9 bis 17 Uhr. – Pracuji od 9 do 17."
+          },
+          {
+            "word": "bis dass",
+            "meaning": "Až",
+            "example": "Ich warte, bis dass du kommst. – Čekám, až přijdeš."
+          },
+          {
+            "word": "bis jetzt",
+            "meaning": "Až doteď, až do dnešního dne",
+            "example": "Bis jetzt ist alles gut. – Zatím je vše dobré."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: hranice v čase/podmínce → bis."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "purple": [
+                "bis"
+              ]
+            },
+            {
+              "purple": [
+                "bis"
+              ]
+            },
+            {
+              "purple": [
+                "bis"
+              ]
+            },
+            {
+              "blue": [
+                "Bis jetzt"
+              ]
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "purple": [
+                  "bis"
+                ]
+              },
+              "example": {
+                "purple": [
+                  "bis"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bis ... zu"
+                ]
+              },
+              "example": {
+                "green": [
+                  "bis"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bis dass"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "bis dass"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bis jetzt"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Bis jetzt"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "purple": [
+                "bis"
+              ],
+              "green": [
+                "Pamatujte",
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "purple": [
+                "bis"
+              ],
+              "green": [
+                "Bis",
+                "Bis"
+              ]
+            },
+            {
+              "blue": [
+                "bis jetzt",
+                "bis dass"
+              ],
+              "purple": [
+                "Bis",
+                "Bis"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Bis = do limitu nebo bodu v čase.",
+          "Bis jetzt = dosud • Bis dass = dokud."
+        ]
+      }
+    },
+    {
+      "cardId": "a1-bleiben",
+      "index": 101,
+      "de": "bleiben",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Pobyt",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 264,
+          "field": "study.translation",
+          "pirmd": "Pobyt",
+          "pec": "Zůstat"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-bleiben",
+        "index": 101,
+        "de": "bleiben",
+        "layout": "standardStudy",
+        "csMain": "Pobyt",
+        "studyTranslation": "Zůstat",
+        "lvSourceMain": "palikt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "palikt",
+            "csText": "Zůstat",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es palieku mājās.",
+            "csText": "Zůstávám doma",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "paliec šeit!",
+            "csText": "Zůstaň tady!",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs paliekam vēl vienu stundu.",
+            "csText": "Zůstáváme další hodinu.",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es eju mājās.",
+            "csText": "Jdu domů",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "bleiben",
+            "csText": "bleiben",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "palikt",
+            "csText": "Pobyt",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "gehen",
+            "csText": "gehen",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "iet / doties prom kājām",
+            "csText": "Jít / odejít pěšky",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "fahren",
+            "csText": "fahren",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "braukt / doties ar transportu",
+            "csText": "Řídit / jet dopravou",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "warten",
+            "csText": "warten",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "gaidīt",
+            "csText": "Čekat",
+            "de": "bleiben"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen.",
+            "csText": "Pamatujte: neodcházejte → bleiben • Odchází pěšky → gehen.",
+            "de": "bleiben"
+          }
+        ],
+        "study": {
+          "id": "a1-bleiben",
+          "layout": "standardStudy",
+          "translation": "Zůstat",
+          "explanation": [
+            "Hlavní myšlenka: bleiben znamená zůstat.",
+            "Bleiben se používá, když osoba nebo věc nezmizí a zůstane na stejném místě nebo stavu.",
+            "Je to opak gehen a fahren, pokud jde o odchod.",
+            "Velmi častou frází je Ich bleibe zu Hause."
+          ],
+          "examples": [
+            {
+              "de": "Ich bleibe zu Hause.",
+              "lv": "Zůstávám doma"
+            },
+            {
+              "de": "Bleib hier!",
+              "lv": "Zůstaň tady!"
+            },
+            {
+              "de": "Wir bleiben noch eine Stunde.",
+              "lv": "Zůstáváme další hodinu."
+            },
+            {
+              "de": "Ich gehe nach Hause.",
+              "lv": "Jdu domů"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bleiben",
+              "meaning": "Pobyt",
+              "example": "Ich bleibe hier."
+            },
+            {
+              "word": "gehen",
+              "meaning": "Jít / odejít pěšky",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "fahren",
+              "meaning": "Řídit / jet dopravou",
+              "example": "Ich fahre nach Hause."
+            },
+            {
+              "word": "warten",
+              "meaning": "Čekat",
+              "example": "Ich warte hier."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: neodcházejte → bleiben • Odchází pěšky → gehen."
+          },
+          "important": [
+            "Bleiben znamená zůstat, ne čekat.",
+            "Ich bleibe hier = zůstávám zde • Ich warte hier = čekám tady."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bleiben"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "gehen",
+                "fahren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bleibe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zůstávám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bleib"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zůstaň"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bleiben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zůstáváme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "gehe"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Jdu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pobyt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bleibe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jít",
+                    "Jít"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "gehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Řídit",
+                    "Řídit"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "fahre"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "warten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Čekat"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "warte"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bleiben"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "gehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bleiben"
+                ],
+                "purple": [
+                  "Bleiben"
+                ],
+                "green": [
+                  "Bleiben"
+                ]
+              },
+              {
+                "blue": [
+                  "bleibe"
+                ],
+                "green": [
+                  "warte"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-bleiben",
+          "layout": "standardStudy",
+          "translation": "palikt",
+          "explanation": [
+            "Galvenā doma: bleiben nozīmē palikt.",
+            "bleiben lieto, ja cilvēks vai lieta neiet prom un paliek tajā pašā vietā vai stāvoklī.",
+            "Tas ir pretstats vārdiem gehen un fahren, ja runa ir par došanos prom.",
+            "Ļoti bieža frāze ir Ich bleibe zu Hause."
+          ],
+          "examples": [
+            {
+              "de": "Ich bleibe zu Hause.",
+              "lv": "es palieku mājās."
+            },
+            {
+              "de": "Bleib hier!",
+              "lv": "paliec šeit!"
+            },
+            {
+              "de": "Wir bleiben noch eine Stunde.",
+              "lv": "mēs paliekam vēl vienu stundu."
+            },
+            {
+              "de": "Ich gehe nach Hause.",
+              "lv": "es eju mājās."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bleiben",
+              "meaning": "palikt",
+              "example": "Ich bleibe hier."
+            },
+            {
+              "word": "gehen",
+              "meaning": "iet / doties prom kājām",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "fahren",
+              "meaning": "braukt / doties ar transportu",
+              "example": "Ich fahre nach Hause."
+            },
+            {
+              "word": "warten",
+              "meaning": "gaidīt",
+              "example": "Ich warte hier."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen."
+          },
+          "important": [
+            "bleiben nozīmē palikt, nevis gaidīt.",
+            "Ich bleibe hier = es palieku šeit; Ich warte hier = es gaidu šeit."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bleiben"
+              ],
+              "purple": [
+                "palikt",
+                "neiet prom"
+              ],
+              "red": [
+                "gehen",
+                "fahren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bleibe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "palieku"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bleib"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "paliec"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bleiben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "paliekam"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "gehe"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "eju"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "palikt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bleibe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iet",
+                    "doties prom"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "gehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "braukt",
+                    "transportu"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "fahre"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "warten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gaidīt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "warte"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bleiben"
+                ],
+                "purple": [
+                  "neiet prom"
+                ],
+                "red": [
+                  "gehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bleiben"
+                ],
+                "purple": [
+                  "palikt"
+                ],
+                "green": [
+                  "gaidīt"
+                ]
+              },
+              {
+                "blue": [
+                  "bleibe"
+                ],
+                "green": [
+                  "warte"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-bleiben",
+        "layout": "standardStudy",
+        "translation": "Zůstat",
+        "explanation": [
+          "Hlavní myšlenka: bleiben znamená zůstat.",
+          "Bleiben se používá, když osoba nebo věc nezmizí a zůstane na stejném místě nebo stavu.",
+          "Je to opak gehen a fahren, pokud jde o odchod.",
+          "Velmi častou frází je Ich bleibe zu Hause."
+        ],
+        "examples": [
+          {
+            "de": "Ich bleibe zu Hause.",
+            "lv": "Zůstávám doma"
+          },
+          {
+            "de": "Bleib hier!",
+            "lv": "Zůstaň tady!"
+          },
+          {
+            "de": "Wir bleiben noch eine Stunde.",
+            "lv": "Zůstáváme další hodinu."
+          },
+          {
+            "de": "Ich gehe nach Hause.",
+            "lv": "Jdu domů"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "bleiben",
+            "meaning": "Pobyt",
+            "example": "Ich bleibe hier."
+          },
+          {
+            "word": "gehen",
+            "meaning": "Jít / odejít pěšky",
+            "example": "Ich gehe nach Hause."
+          },
+          {
+            "word": "fahren",
+            "meaning": "Řídit / jet dopravou",
+            "example": "Ich fahre nach Hause."
+          },
+          {
+            "word": "warten",
+            "meaning": "Čekat",
+            "example": "Ich warte hier."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: neodcházejte → bleiben • Odchází pěšky → gehen."
+        },
+        "important": [
+          "Bleiben znamená zůstat, ne čekat.",
+          "Ich bleibe hier = zůstávám zde • Ich warte hier = čekám tady."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "bleiben"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "gehen",
+              "fahren"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "bleibe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zůstávám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Bleib"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zůstaň"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bleiben"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zůstáváme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "gehe"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Jdu"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "bleiben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Pobyt"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "bleibe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "gehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jít",
+                  "Jít"
+                ]
+              },
+              "example": {
+                "red": [
+                  "gehe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "fahren"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Řídit",
+                  "Řídit"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "fahre"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "warten"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Čekat"
+                ]
+              },
+              "example": {
+                "green": [
+                  "warte"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "bleiben"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "gehen"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "bleiben"
+              ],
+              "purple": [
+                "Bleiben"
+              ],
+              "green": [
+                "Bleiben"
+              ]
+            },
+            {
+              "blue": [
+                "bleibe"
+              ],
+              "green": [
+                "warte"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-bringen",
+      "index": 111,
+      "de": "bringen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Přinést • Odnést",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 265,
+          "field": "study.explanation",
+          "pirmd": [
+            "Hlavní myšlenka: přinést někomu něco přinést, nést nebo doručit.",
+            "Přinést se používá, když se něco přesouvá na jiné místo nebo k jiné osobě.",
+            "Není to totéž jako nehmen, protože nehmen znamená vzít si pro sebe.",
+            "Holen znamená jít za a aportovat nebo brát."
+          ],
+          "pec": [
+            "Hlavní myšlenka: bringen znamená přinést, odnést, odvést nebo doručit.",
+            "Používá se, když se něco přesouvá na jiné místo nebo k jiné osobě.",
+            "Není to totéž jako nehmen. Nehmen znamená vzít.",
+            "Holen znamená jít pro něco nebo někoho přivést či přinést."
+          ]
+        },
+        {
+          "block": 6,
+          "n": 266,
+          "field": "study.comparison[2].meaning",
+          "pirmd": "Jít za / aport",
+          "pec": "Jít pro / přinést"
+        },
+        {
+          "block": 6,
+          "n": 267,
+          "field": "study.comparison[3].meaning",
+          "pirmd": "Odnést a přinést",
+          "pec": "Přinést s sebou"
+        },
+        {
+          "block": 6,
+          "n": 268,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: přestěhovat se k někomu → přinést • Vzít si pro sebe → nehmen.",
+          "pec": "Pamatujte: dopravit něco k někomu nebo někam → bringen • Vzít si něco → nehmen."
+        },
+        {
+          "block": 6,
+          "n": 269,
+          "field": "study.important[0]",
+          "pirmd": "Přinesený ukazuje někomu směr nebo místo.",
+          "pec": "Bringen vyjadřuje pohyb nebo směr k osobě či místu."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-bringen",
+        "index": 111,
+        "de": "bringen",
+        "layout": "standardStudy",
+        "csMain": "Přinést • Odnést",
+        "studyTranslation": "Přinést • Odnést",
+        "lvSourceMain": "atnest",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "atnest",
+            "csText": "Přinést • Odnést",
+            "de": "bringen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es tev atnesu grāmatu.",
+            "csText": "Přines mi prosím vodu",
+            "de": "bringen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Es aiznesu paku uz pastu.",
+            "csText": "Vezmu tě domů",
+            "de": "bringen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Es aizvedu bērnus uz skolu.",
+            "csText": "Vezme knihu do školy.",
+            "de": "bringen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "bringen",
+            "csText": "bringen",
+            "de": "bringen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "atnest",
+            "csText": "Přinést / vzít / dodat",
+            "de": "bringen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "bringen",
+            "csText": "nehmen",
+            "de": "bringen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "aiznest",
+            "csText": "Vzít / vzít",
+            "de": "bringen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "bringen",
+            "csText": "holen",
+            "de": "bringen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "aizvest",
+            "csText": "Jít pro / přinést",
+            "de": "bringen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "bringen",
+            "csText": "mitbringen",
+            "de": "bringen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "nogādāt",
+            "csText": "Přinést s sebou",
+            "de": "bringen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Ja priekšmets nonāk pie citas personas vai citā vietā, vācu valodā ļoti bieži lieto bringen.",
+            "csText": "Pamatujte: dopravit něco k někomu nebo někam → bringen • Vzít si něco → nehmen.",
+            "de": "bringen"
+          }
+        ],
+        "study": {
+          "id": "a1-bringen",
+          "layout": "standardStudy",
+          "translation": "Přinést • Odnést",
+          "explanation": [
+            "Hlavní myšlenka: bringen znamená přinést, odnést, odvést nebo doručit.",
+            "Používá se, když se něco přesouvá na jiné místo nebo k jiné osobě.",
+            "Není to totéž jako nehmen. Nehmen znamená vzít.",
+            "Holen znamená jít pro něco nebo někoho přivést či přinést."
+          ],
+          "examples": [
+            {
+              "de": "Bring mir bitte Wasser.",
+              "lv": "Přines mi prosím vodu"
+            },
+            {
+              "de": "Ich bringe dich nach Hause.",
+              "lv": "Vezmu tě domů"
+            },
+            {
+              "de": "Er bringt das Buch zur Schule.",
+              "lv": "Vezme knihu do školy."
+            },
+            {
+              "de": "Ich nehme das Buch.",
+              "lv": "Beru knihu"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bringen",
+              "meaning": "Přinést / vzít / dodat",
+              "example": "Bring mir Wasser."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "Vzít / vzít",
+              "example": "Ich nehme das Buch."
+            },
+            {
+              "word": "holen",
+              "meaning": "Jít pro / přinést",
+              "example": "Ich hole Wasser."
+            },
+            {
+              "word": "mitbringen",
+              "meaning": "Přinést s sebou",
+              "example": "Bringst du Brot mit?"
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: dopravit něco k někomu nebo někam → bringen • Vzít si něco → nehmen."
+          },
+          "important": [
+            "Bringen vyjadřuje pohyb nebo směr k osobě či místu.",
+            "Nehmen znamená vzít, ale ne nutně doručit druhému."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Hlavní"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "nehmen",
+                "holen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Bring"
+                  ],
+                  "yellow": [
+                    "Wasser"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přines"
+                  ],
+                  "yellow": [
+                    "Přines"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ],
+                  "green": [
+                    "dich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vezmu"
+                  ],
+                  "green": [
+                    "Vezmu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bringt"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vezme"
+                  ],
+                  "yellow": [
+                    "Vezme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "nehme"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Beru"
+                  ],
+                  "yellow": [
+                    "Beru"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přinést",
+                    "Přinést",
+                    "Přinést"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Bring"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vzít",
+                    "Vzít"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "nehme"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "holen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jít",
+                    "Jít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "hole"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitbringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Odnést",
+                    "Odnést"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "mit"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "nehmen",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Přinesený"
+                ],
+                "purple": [
+                  "Přinesený"
+                ]
+              },
+              {
+                "red": [
+                  "nehmen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-bringen",
+          "layout": "standardStudy",
+          "translation": "atnest",
+          "explanation": [
+            "Galvenā doma: bringen galvenokārt nozīmē kaut ko nogādāt pie citas personas vai uz noteiktu vietu.",
+            "Latviešu valodā bringen var tulkot dažādi.",
+            "Visbiežāk: atnest.",
+            "Atkarībā no situācijas: aiznest, aizvest, nogādāt.",
+            "Tulkojumu nosaka konteksts."
+          ],
+          "examples": [
+            {
+              "de": "Ich bringe dir ein Buch.",
+              "lv": "Es tev atnesu grāmatu."
+            },
+            {
+              "de": "Ich bringe das Paket zur Post.",
+              "lv": "Es aiznesu paku uz pastu."
+            },
+            {
+              "de": "Ich bringe die Kinder zur Schule.",
+              "lv": "Es aizvedu bērnus uz skolu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bringen",
+              "meaning": "atnest",
+              "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
+            },
+            {
+              "word": "bringen",
+              "meaning": "aiznest",
+              "example": "Ich bringe das Paket zur Post. – Es aiznesu paku uz pastu."
+            },
+            {
+              "word": "bringen",
+              "meaning": "aizvest",
+              "example": "Ich bringe die Kinder zur Schule. – Es aizvedu bērnus uz skolu."
+            },
+            {
+              "word": "bringen",
+              "meaning": "nogādāt",
+              "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "paņemt",
+              "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+            }
+          ],
+          "tip": {
+            "text": "Ja priekšmets nonāk pie citas personas vai citā vietā, vācu valodā ļoti bieži lieto bringen."
+          },
+          "important": [
+            "nehmen nozīmē ņemt.",
+            "bringen nozīmē nogādāt.",
+            "Latviešu tulkojums ir atkarīgs no konteksta."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bringen"
+              ],
+              "purple": [
+                "atnest",
+                "aiznest",
+                "nogādāt"
+              ],
+              "red": [
+                "nehmen",
+                "holen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Bring"
+                  ],
+                  "yellow": [
+                    "Wasser"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atnes"
+                  ],
+                  "yellow": [
+                    "ūdeni"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ],
+                  "green": [
+                    "dich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "aizvedīšu"
+                  ],
+                  "green": [
+                    "tevi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bringt"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "aiznes"
+                  ],
+                  "yellow": [
+                    "grāmatu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "nehme"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "paņemu"
+                  ],
+                  "yellow": [
+                    "grāmatu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "atnest",
+                    "aiznest",
+                    "nogādāt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Bring"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ņemt",
+                    "paņemt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "nehme"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "holen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "aiziet pakaļ",
+                    "atnest"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "hole"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitbringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "paņemt līdzi",
+                    "atnest"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "mit"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bringen"
+                ],
+                "purple": [
+                  "pārvieto pie kāda"
+                ],
+                "red": [
+                  "nehmen",
+                  "paņem sev"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bringen"
+                ],
+                "purple": [
+                  "virzienu pie kāda"
+                ]
+              },
+              {
+                "red": [
+                  "nehmen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-bringen",
+        "layout": "standardStudy",
+        "translation": "Přinést • Odnést",
+        "explanation": [
+          "Hlavní myšlenka: bringen znamená přinést, odnést, odvést nebo doručit.",
+          "Používá se, když se něco přesouvá na jiné místo nebo k jiné osobě.",
+          "Není to totéž jako nehmen. Nehmen znamená vzít.",
+          "Holen znamená jít pro něco nebo někoho přivést či přinést."
+        ],
+        "examples": [
+          {
+            "de": "Bring mir bitte Wasser.",
+            "lv": "Přines mi prosím vodu"
+          },
+          {
+            "de": "Ich bringe dich nach Hause.",
+            "lv": "Vezmu tě domů"
+          },
+          {
+            "de": "Er bringt das Buch zur Schule.",
+            "lv": "Vezme knihu do školy."
+          },
+          {
+            "de": "Ich nehme das Buch.",
+            "lv": "Beru knihu"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "bringen",
+            "meaning": "Přinést / vzít / dodat",
+            "example": "Bring mir Wasser."
+          },
+          {
+            "word": "nehmen",
+            "meaning": "Vzít / vzít",
+            "example": "Ich nehme das Buch."
+          },
+          {
+            "word": "holen",
+            "meaning": "Jít pro / přinést",
+            "example": "Ich hole Wasser."
+          },
+          {
+            "word": "mitbringen",
+            "meaning": "Přinést s sebou",
+            "example": "Bringst du Brot mit?"
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: dopravit něco k někomu nebo někam → bringen • Vzít si něco → nehmen."
+        },
+        "important": [
+          "Bringen vyjadřuje pohyb nebo směr k osobě či místu.",
+          "Nehmen znamená vzít, ale ne nutně doručit druhému."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Hlavní"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "nehmen",
+              "holen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Bring"
+                ],
+                "yellow": [
+                  "Wasser"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Přines"
+                ],
+                "yellow": [
+                  "Přines"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bringe"
+                ],
+                "green": [
+                  "dich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vezmu"
+                ],
+                "green": [
+                  "Vezmu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bringt"
+                ],
+                "yellow": [
+                  "Buch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vezme"
+                ],
+                "yellow": [
+                  "Vezme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "nehme"
+                ],
+                "yellow": [
+                  "Buch"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Beru"
+                ],
+                "yellow": [
+                  "Beru"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "bringen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Přinést",
+                  "Přinést",
+                  "Přinést"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Bring"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nehmen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vzít",
+                  "Vzít"
+                ]
+              },
+              "example": {
+                "red": [
+                  "nehme"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "holen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jít",
+                  "Jít"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "hole"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "mitbringen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Odnést",
+                  "Odnést"
+                ]
+              },
+              "example": {
+                "green": [
+                  "mit"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "nehmen",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "Přinesený"
+              ],
+              "purple": [
+                "Přinesený"
+              ]
+            },
+            {
+              "red": [
+                "nehmen"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-bei",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "Opravy překladu a příkladu jsou správné. Karta však obsahuje starší nesoulad v hlavním překladu a neobratnou formulaci v porovnání.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Na",
+          "reason": "Hlavní překlad „Na“ neodpovídá německému bei v uvedeném významu „u“; oprava se týkala pouze study.translation.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 6
+        },
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Kdo jde (směr)",
+          "reason": "Formulace je gramaticky neúplná; význam má vyjadřovat směr pohybu ke komu nebo kam. Pole nebylo ve HIGH opravě změněno.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "cardId": "a1-bis",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.97,
+      "reason": "Oprava hlavního překladu je významově správná. V porovnání zůstává starší nesoulad mezi bis jetzt a bis dass.",
+      "findings": [
+        {
+          "field": "study.comparison[2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "bis dass — Až",
+          "reason": "Tato položka neodpovídá zdrojovému významu bis jetzt uvedenému v polích karty a navíc používá neobvyklou konstrukci bis dass.",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "cardId": "a1-bleiben",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "Oprava překladu bleiben na „Zůstat“ je správná. Starší hlavní překlad a položka porovnání však zůstávají významově nesourodé.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Pobyt",
+          "reason": "„Pobyt“ je podstatné jméno, nikoli přirozený infinitivní překlad bleiben; pole nebylo ve HIGH opravě změněno.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[0].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Pobyt",
+          "reason": "Význam srovnávaného slovesa bleiben je uveden jako podstatné jméno místo slovesa „zůstat“.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-bringen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "medium",
+      "confidence": 0.98,
+      "reason": "Všech pět HIGH oprav je jazykově i významově správných. Neopravený příklad však nepřesně překládá německý přítomný čas.",
+      "findings": [
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Vezme knihu do školy.",
+          "reason": "Německé „Er bringt“ je v přítomném čase; české „Vezme“ vyjadřuje budoucnost a mění význam. Příklad nebyl HIGH opravou dotčen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Vzít / vzít",
+          "reason": "Položka obsahuje redundantní opakování a nedostatečně rozlišuje nehmen od bringen; nebyla součástí HIGH opravy.",
+          "confidence": 0.98
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:48:22.957Z"
+}

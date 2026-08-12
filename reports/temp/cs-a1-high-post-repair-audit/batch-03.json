@@ -1,0 +1,166 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-besuchen-89",
+      "index": 89,
+      "de": "besuchen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Navštívit",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 9,
+          "field": "csText",
+          "pirmd": "Zúčastnit se • Navštívit",
+          "pec": "Navštívit"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-besuchen-89",
+        "index": 89,
+        "de": "besuchen",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "apmeklēt",
+        "csText": "Navštívit",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-bitten-98",
+      "index": 98,
+      "de": "bitten",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Požádat",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 10,
+          "field": "csText",
+          "pirmd": "Zeptat se",
+          "pec": "Požádat"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-bitten-98",
+        "index": 98,
+        "de": "bitten",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "lūgt",
+        "csText": "Požádat",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-blond-103",
+      "index": 103,
+      "de": "blond",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Blondý",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 11,
+          "field": "csText",
+          "pirmd": "Blondýnka",
+          "pec": "Blondý"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-blond-103",
+        "index": 103,
+        "de": "blond",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "blonds",
+        "csText": "Blondý",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Buchstabe-117",
+      "index": 117,
+      "de": "Buchstabe",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Písmeno",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 12,
+          "field": "csText",
+          "pirmd": "Dopis",
+          "pec": "Písmeno"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Buchstabe-117",
+        "index": 117,
+        "de": "Buchstabe",
+        "de_article": "der",
+        "de_plural": "die Buchstaben",
+        "lvSource": "burts",
+        "csText": "Písmeno",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-besuchen-89",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly changed the Czech meaning to the infinitive Navštívit.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-bitten-98",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Požádat is a correct Czech meaning for German bitten in this vocabulary context.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-blond-103",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "The repair replaced the noun Blondýnka with the nonstandard Czech form Blondý, leaving an incorrect adjective form.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "MEDIUM",
+          "currentCs": "Blondý",
+          "proposedCs": "Blond",
+          "reason": "Blondý is not a standard Czech adjective form; blond correctly translates German blond.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Buchstabe-117",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly changed the Czech meaning from Dopis to Písmeno.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:40:18.672Z"
+}

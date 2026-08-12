@@ -1,0 +1,203 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-Cousine-125",
+      "index": 125,
+      "de": "Cousine",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Sestřenice",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 13,
+          "field": "csText",
+          "pirmd": "Bratranec",
+          "pec": "Sestřenice"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Cousine-125",
+        "index": 125,
+        "de": "Cousine",
+        "de_article": "die",
+        "de_plural": "die Cousinen",
+        "lvSource": "māsīca",
+        "csText": "Sestřenice",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-dein-132",
+      "index": 132,
+      "de": "dein",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Tvůj",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 14,
+          "field": "csText",
+          "pirmd": "Vaše",
+          "pec": "Tvůj"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-dein-132",
+        "index": 132,
+        "de": "dein",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "tavs",
+        "csText": "Tvůj",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-deutsch-135",
+      "index": 135,
+      "de": "deutsch",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Německý",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 15,
+          "field": "csText",
+          "pirmd": "Němec",
+          "pec": "Německý"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-deutsch-135",
+        "index": 135,
+        "de": "deutsch",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "vācu",
+        "csText": "Německý",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-du-149",
+      "index": 149,
+      "de": "du",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Ty",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 16,
+          "field": "csText",
+          "pirmd": "Vy",
+          "pec": "Ty"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-du-149",
+        "index": 149,
+        "de": "du",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "tu",
+        "csText": "Ty",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-Cousine-125",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": "high",
+      "reason": "The HIGH repair correctly changes the Czech meaning from masculine cousin to feminine cousin, matching German Cousine.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Sestřenice",
+          "proposedCs": null,
+          "reason": "Sestřenice is the correct Czech translation of German Cousine.",
+          "confidence": "high",
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-dein-132",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": "high",
+      "reason": "The HIGH repair correctly changes the Czech possessive pronoun to the informal second-person singular form.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Tvůj",
+          "proposedCs": null,
+          "reason": "Tvůj correctly translates German dein; Vaše was incorrect for this form.",
+          "confidence": "high",
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-deutsch-135",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": "high",
+      "reason": "The HIGH repair correctly changes the Czech entry from a person noun to the adjective meaning German.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Německý",
+          "proposedCs": null,
+          "reason": "Německý is the correct Czech adjective for German deutsch.",
+          "confidence": "high",
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-du-149",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": "high",
+      "reason": "The HIGH repair correctly changes the Czech pronoun from formal or plural you to informal singular you.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Ty",
+          "proposedCs": null,
+          "reason": "Ty correctly translates German du; Vy was incorrect for the informal singular form.",
+          "confidence": "high",
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:40:24.582Z"
+}

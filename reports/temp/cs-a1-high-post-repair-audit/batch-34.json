@@ -1,0 +1,537 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-wenig-654",
+      "index": 654,
+      "de": "wenig",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Málo",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 242,
+          "field": "csText",
+          "pirmd": "Nic moc",
+          "pec": "Málo"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-wenig-654",
+        "index": 654,
+        "de": "wenig",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "maz",
+        "csText": "Málo",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-zumachen-673",
+      "index": 673,
+      "de": "zumachen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Zavřít",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 243,
+          "field": "csText",
+          "pirmd": "Zblízka",
+          "pec": "Zavřít"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-zumachen-673",
+        "index": 673,
+        "de": "zumachen",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "aiztaisīt",
+        "csText": "Zavřít",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-zurück-674",
+      "index": 674,
+      "de": "zurück",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Zpět",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 244,
+          "field": "csText",
+          "pirmd": "Zadní",
+          "pec": "Zpět"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-zurück-674",
+        "index": 674,
+        "de": "zurück",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "atpakaļ",
+        "csText": "Zpět",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-sprechen-study",
+      "index": 5,
+      "de": "sprechen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Mluvit",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 245,
+          "field": "study.examples[2].lv",
+          "pirmd": "Mluvím německy",
+          "pec": "Mluví se svou učitelkou."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-sprechen-study",
+        "index": 5,
+        "de": "sprechen",
+        "layout": "standardStudy",
+        "csMain": "Mluvit",
+        "studyTranslation": "Mluvit",
+        "lvSourceMain": "runāt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "runāt",
+            "csText": "Mluvit",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es runāju vāciski.",
+            "csText": "Mluvím německy.",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Mēs runājam par darbu.",
+            "csText": "Mluvíme o práci.",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Viņa runā ar savu skolotāju.",
+            "csText": "Mluví se svou učitelkou.",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sprechen",
+            "csText": "sprechen",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "runāt (process, valoda)",
+            "csText": "Mluvit (proces, jazyk)",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "sagen",
+            "csText": "sagen",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "pasacīt (konkrētu tekstu)",
+            "csText": "Říct (konkrétní text)",
+            "de": "sprechen"
+          }
+        ],
+        "study": {
+          "id": "a1-sprechen-study",
+          "layout": "standardStudy",
+          "translation": "Mluvit",
+          "explanation": [
+            "Hlavní myšlenka: Mluvit, konverzovat nebo používat jazyk.",
+            "Sprechen znamená hlavně: mluvit nebo hovořit.",
+            "Často charakterizováno: jazykem/konverzací.",
+            "Sprechen popisuje mluvení nebo používání jazyka."
+          ],
+          "examples": [
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Mluvím německy."
+            },
+            {
+              "de": "Wir sprechen über die Arbeit.",
+              "lv": "Mluvíme o práci."
+            },
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Mluví se svou učitelkou."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sprechen",
+              "meaning": "Mluvit (proces, jazyk)",
+              "example": "Wir sprechen über die Arbeit. – Mluvíme o práci."
+            },
+            {
+              "word": "sagen",
+              "meaning": "Říct (konkrétní text)",
+              "example": "Sag mir die Wahrheit. – Řekni mi pravdu."
+            }
+          ],
+          "tip": [
+            "Sprechen = mluvit",
+            "Používá sprechen, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Sprechen = mluvit.",
+            "Mluvit, konverzovat nebo používat jazyk."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "sprechen"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "spreche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sprechen",
+                    "sprechen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "spreche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvím"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Sprechen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "sprechen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sprechen-study",
+          "layout": "standardStudy",
+          "translation": "runāt",
+          "explanation": [
+            "Galvenā doma: Runāt, sarunāties vai lietot valodu.",
+            "sprechen galvenokārt nozīmē: runāt vai sarunāties.",
+            "Bieži raksturo: valodu/sarunu.",
+            "sprechen raksturo runāšanu vai valodas lietošanu."
+          ],
+          "examples": [
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Es runāju vāciski."
+            },
+            {
+              "de": "Wir sprechen über die Arbeit.",
+              "lv": "Mēs runājam par darbu."
+            },
+            {
+              "de": "Sie spricht mit ihrer Lehrerin.",
+              "lv": "Viņa runā ar savu skolotāju."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sprechen",
+              "meaning": "runāt (process, valoda)",
+              "example": "Wir sprechen über die Arbeit. – Mēs runājam par darbu."
+            },
+            {
+              "word": "sagen",
+              "meaning": "pasacīt (konkrētu tekstu)",
+              "example": "Sag mir die Wahrheit. – Pasaki man patiesību."
+            }
+          ],
+          "tip": [
+            "sprechen = runāt",
+            "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "sprechen = runāt.",
+            "Runāt, sarunāties vai lietot valodu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "sprechen"
+              ],
+              "purple": [
+                "runāt"
+              ],
+              "orange": [
+                "runāt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "spreche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "runāju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sprechen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "runājam"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "spricht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "runā"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "runāt"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "sprechen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-sprechen-study",
+        "layout": "standardStudy",
+        "translation": "Mluvit",
+        "explanation": [
+          "Hlavní myšlenka: Mluvit, konverzovat nebo používat jazyk.",
+          "Sprechen znamená hlavně: mluvit nebo hovořit.",
+          "Často charakterizováno: jazykem/konverzací.",
+          "Sprechen popisuje mluvení nebo používání jazyka."
+        ],
+        "examples": [
+          {
+            "de": "Ich spreche Deutsch.",
+            "lv": "Mluvím německy."
+          },
+          {
+            "de": "Wir sprechen über die Arbeit.",
+            "lv": "Mluvíme o práci."
+          },
+          {
+            "de": "Ich spreche Deutsch.",
+            "lv": "Mluví se svou učitelkou."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sprechen",
+            "meaning": "Mluvit (proces, jazyk)",
+            "example": "Wir sprechen über die Arbeit. – Mluvíme o práci."
+          },
+          {
+            "word": "sagen",
+            "meaning": "Říct (konkrétní text)",
+            "example": "Sag mir die Wahrheit. – Řekni mi pravdu."
+          }
+        ],
+        "tip": [
+          "Sprechen = mluvit",
+          "Používá sprechen, když kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Sprechen = mluvit.",
+          "Mluvit, konverzovat nebo používat jazyk."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "sprechen"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "orange": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "spreche"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mluvím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "sprechen",
+                  "sprechen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "spreche"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mluvím"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Sprechen"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "green": [
+                "sprechen"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-wenig-654",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Oprava změnila chybný význam „Nic moc“ na správný český překlad „Málo“ pro německé „wenig“.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-zumachen-673",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Oprava změnila nesouvisející význam „Zblízka“ na správný český překlad „Zavřít“ pro německé „zumachen“.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-zurück-674",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Oprava změnila chybný význam „Zadní“ na správný český překlad „Zpět“ pro německé „zurück“.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-sprechen-study",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Opravený český příklad neodpovídá německé větě: „Ich spreche Deutsch“ znamená „Mluvím německy“, ne „Mluví se svou učitelkou“.",
+      "findings": [
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "HIGH",
+          "currentCs": "Mluví se svou učitelkou.",
+          "proposedCs": "Mluvím německy.",
+          "reason": "Český překlad je významově i gramaticky neslučitelný s uvedenou německou větou „Ich spreche Deutsch“ a oprava tento nesoulad způsobila.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 5
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:47:32.147Z"
+}

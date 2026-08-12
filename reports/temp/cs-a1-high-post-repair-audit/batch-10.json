@@ -1,0 +1,203 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-lustig-385",
+      "index": 385,
+      "de": "lustig",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Zábavný",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 37,
+          "field": "csText",
+          "pirmd": "Zábava",
+          "pec": "Zábavný"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-lustig-385",
+        "index": 385,
+        "de": "lustig",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "jautrs",
+        "csText": "Zábavný",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Minute-407",
+      "index": 407,
+      "de": "Minute",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Minuta",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 38,
+          "field": "csText",
+          "pirmd": "Minutu",
+          "pec": "Minuta"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Minute-407",
+        "index": 407,
+        "de": "Minute",
+        "de_article": "die",
+        "de_plural": "die Minuten",
+        "lvSource": "minūte",
+        "csText": "Minuta",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Mittag-410",
+      "index": 410,
+      "de": "Mittag",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Poledne",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 39,
+          "field": "csText",
+          "pirmd": "Oběd",
+          "pec": "Poledne"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Mittag-410",
+        "index": 410,
+        "de": "Mittag",
+        "de_article": "der",
+        "de_plural": "die Mittage",
+        "lvSource": "pusdiena",
+        "csText": "Poledne",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-nein-436",
+      "index": 436,
+      "de": "nein",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Ne",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 40,
+          "field": "csText",
+          "pirmd": "Žádný",
+          "pec": "Ne"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-nein-436",
+        "index": 436,
+        "de": "nein",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "nē",
+        "csText": "Ne",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-lustig-385",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly changes the Czech meaning from the noun Zábava to the adjective Zábavný for German lustig.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Zábavný",
+          "proposedCs": "Zábavný",
+          "reason": "Zábavný is a correct Czech adjective meaning lustig; no repair regression is present.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Minute-407",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly changes the inflected form Minutu to the Czech dictionary-form noun Minuta for die Minute.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Minuta",
+          "proposedCs": "Minuta",
+          "reason": "Minuta is the correct Czech nominative singular meaning Minute; no repair regression is present.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Mittag-410",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly selects Poledne for Mittag in the supplied card context; no grammatical or semantic regression is visible.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Poledne",
+          "proposedCs": "Poledne",
+          "reason": "Poledne is a correct Czech meaning for Mittag as midday/noon; no repair regression is present.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-nein-436",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly changes Žádný to the Czech negative particle Ne for German nein.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Ne",
+          "proposedCs": "Ne",
+          "reason": "Ne is the correct Czech translation of German nein; no repair regression is present.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:41:01.093Z"
+}
