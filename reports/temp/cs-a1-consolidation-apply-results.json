@@ -1,0 +1,49 @@
+{
+  "results": {
+    "applied": 292,
+    "alreadyCorrect": 1,
+    "staleMismatch": 2,
+    "conflicts": [
+      {
+        "source": "full-review-block08",
+        "cardId": "a1-morgen",
+        "field": "study.explanation",
+        "expectedPirmd": "[\"Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.\",\"Morgen hlavně znamená: druhý den.\",\"Často charakterizováno: počasím.\",\"Morgen především znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!\"]",
+        "actual": "[\"Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.\",\"Morgen hlavně znamená: druhý den.\",\"Často charakterizováno: počasím.\",\"Morgen především znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!).\"]",
+        "pec": "[\"Hlavní myšlenka: morgen s malým písmenem znamená zítra.\",\"Der Morgen s velkým písmenem je podstatné jméno a znamená ráno.\",\"morgen je časové příslovce označující následující den.\",\"Příklady: Ich komme morgen = Přijdu zítra • Bis morgen! = Až zítra!\"]",
+        "status": "NEEDS_OWNER_REVIEW"
+      },
+      {
+        "source": "full-review-block08",
+        "cardId": "a1-müssen",
+        "field": "study.translation",
+        "expectedPirmd": "Potřebovat",
+        "actual": "Muset",
+        "pec": "Musit",
+        "status": "NEEDS_OWNER_REVIEW"
+      }
+    ],
+    "missingCard": 2
+  },
+  "repairCount": 297,
+  "conflicts": [
+    {
+      "source": "full-review-block08",
+      "cardId": "a1-morgen",
+      "field": "study.explanation",
+      "expectedPirmd": "[\"Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.\",\"Morgen hlavně znamená: druhý den.\",\"Často charakterizováno: počasím.\",\"Morgen především znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!\"]",
+      "actual": "[\"Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.\",\"Morgen hlavně znamená: druhý den.\",\"Často charakterizováno: počasím.\",\"Morgen především znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!).\"]",
+      "pec": "[\"Hlavní myšlenka: morgen s malým písmenem znamená zítra.\",\"Der Morgen s velkým písmenem je podstatné jméno a znamená ráno.\",\"morgen je časové příslovce označující následující den.\",\"Příklady: Ich komme morgen = Přijdu zítra • Bis morgen! = Až zítra!\"]",
+      "status": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "source": "full-review-block08",
+      "cardId": "a1-müssen",
+      "field": "study.translation",
+      "expectedPirmd": "Potřebovat",
+      "actual": "Muset",
+      "pec": "Musit",
+      "status": "NEEDS_OWNER_REVIEW"
+    }
+  ]
+}
