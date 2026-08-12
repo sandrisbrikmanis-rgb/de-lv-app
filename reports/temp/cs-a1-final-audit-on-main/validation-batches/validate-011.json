@@ -1,0 +1,483 @@
+{
+  "batch": "validate-011",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00210",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "V uvedeném srovnání stehen znamená především „slušet“, ne pouze „stát“.",
+      "auditCurrentCs": "Stát",
+      "auditProposedCs": "Slušet",
+      "auditDe": "stehen",
+      "auditLvSource": "piestāvēt",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Stát",
+      "cardContext": {
+        "cardId": "a1-passen",
+        "de": "passen",
+        "csMain": "Pasovat • Slušet",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00211",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[3].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Funktionieren znamená „fungovat“; „provozovat“ je přechodné sloveso s jiným významem.",
+      "auditCurrentCs": "Provozovat",
+      "auditProposedCs": "Fungovat",
+      "auditDe": "funktionieren",
+      "auditLvSource": "darboties",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Provozovat",
+      "cardContext": {
+        "cardId": "a1-passen",
+        "de": "passen",
+        "csMain": "Pasovat • Slušet",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00212",
+      "cardId": "a1-probieren",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Anprobieren znamená vyzkoušet si oblečení; česká věta postrádá zvratné si a zní nepřirozeně.",
+      "auditCurrentCs": "Můžu zkusit bundu",
+      "auditProposedCs": "Můžu si tu bundu vyzkoušet?",
+      "auditDe": "Kann ich die Jacke anprobieren?",
+      "auditLvSource": "vai es varu pielaikot jaku?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Můžu zkusit bundu",
+      "cardContext": {
+        "cardId": "a1-probieren",
+        "de": "probieren",
+        "csMain": "Vyzkoušet • Ochutnat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00213",
+      "cardId": "a1-probieren",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Samotné „vyzkoušet“ neodlišuje anprobieren od obecného probieren.",
+      "auditCurrentCs": "Vyzkoušet",
+      "auditProposedCs": "Vyzkoušet si (oblečení)",
+      "auditDe": "anprobieren",
+      "auditLvSource": "pielaikot",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vyzkoušet",
+      "cardContext": {
+        "cardId": "a1-probieren",
+        "de": "probieren",
+        "csMain": "Vyzkoušet • Ochutnat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00214",
+      "cardId": "a1-sagen-study",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé perfektum zde odpovídá českému dokonavému „řekl“, nikoli nedokonavému „říkal“.",
+      "auditCurrentCs": "Co jsi říkal",
+      "auditProposedCs": "Co jsi řekl?",
+      "auditDe": "Was hast du gesagt?",
+      "auditLvSource": "ko tu pateici?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Co jsi říkal",
+      "cardContext": {
+        "cardId": "a1-sagen-study",
+        "de": "sagen",
+        "csMain": "Říct",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00215",
+      "cardId": "a1-sagen-study",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Po slovese mluvit je správný instrumentál „jazykem“; opakování „mluvit“ je navíc nepřirozené.",
+      "auditCurrentCs": "Mluvit (jazyk, mluvit)",
+      "auditProposedCs": "Mluvit (jazykem, hovořit)",
+      "auditDe": "sprechen",
+      "auditLvSource": "runāt (valodu, sarunāties)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Mluvit (jazyk, mluvit)",
+      "cardContext": {
+        "cardId": "a1-sagen-study",
+        "de": "sagen",
+        "csMain": "Říct",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00216",
+      "cardId": "a1-schauen-study",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Hodinky“ znamená náramkové hodinky, nikoli německé sloveso schauen.",
+      "auditCurrentCs": "Hodinky",
+      "auditProposedCs": "Dívat se",
+      "auditDe": "schauen",
+      "auditLvSource": "",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Hodinky",
+      "cardContext": {
+        "cardId": "a1-schauen-study",
+        "de": "schauen",
+        "csMain": "Hodinky",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00217",
+      "cardId": "a1-schauen-study",
+      "field": "study.sectionAccents.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Akcentovaný český text je chybný překlad; „Hodinky“ nesouvisí s významem sehen.",
+      "auditCurrentCs": "Hodinky",
+      "auditProposedCs": "Vidět (bez úmyslu)",
+      "auditDe": "sehen",
+      "auditLvSource": "redzēt (bez nodoma)",
+      "category": "TRANSLATION",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-schauen-study",
+        "de": "schauen",
+        "csMain": "Hodinky",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00218",
+      "cardId": "a1-schwimmen",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Samostatná položka začíná malým písmenem.",
+      "auditCurrentCs": "česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání.",
+      "auditProposedCs": "Česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání.",
+      "auditDe": "schwimmen",
+      "auditLvSource": "Latviski bieži saka “peldēt”, bet vāciski jāskatās, vai tā ir kustība vai peldēšanās.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání.",
+      "cardContext": {
+        "cardId": "a1-schwimmen",
+        "de": "schwimmen",
+        "csMain": "Plavat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00221",
+      "cardId": "a1-sein",
+      "field": "study.explanation[4]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Lokativní věty“ je pro A1 zbytečně odborné a v tomto kontextu méně přirozené.",
+      "auditCurrentCs": "Sein se také používá v mnoha lokativních nebo charakteristických větách.",
+      "auditProposedCs": "Sein se také používá v mnoha větách o místě nebo vlastnostech.",
+      "auditDe": "sein",
+      "auditLvSource": "sein lieto arī daudzos teikumos ar atrašanās vietu vai īpašību.",
+      "category": "STUDY",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-sein",
+        "de": "sein",
+        "csMain": "Být",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00222",
+      "cardId": "a1-seite",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "V pokynu k číslu stránky se v češtině běžně používá kolokace „otevřít stranu dvacet“.",
+      "auditCurrentCs": "Otevřete stránku dvacet.",
+      "auditProposedCs": "Otevřete stranu dvacet.",
+      "auditDe": "Schlagt die Seite zwanzig auf.",
+      "auditLvSource": "atveriet divdesmito lappusi.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Otevřete stránku dvacet.",
+      "cardContext": {
+        "cardId": "a1-seite",
+        "de": "Seite",
+        "csMain": "Stránka • Strana",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00223",
+      "cardId": "a1-sich",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "České „je šťastná“ popisuje stav; německé freut sich znamená „má radost/raduje se“.",
+      "auditCurrentCs": "Je šťastná.",
+      "auditProposedCs": "Má radost.",
+      "auditDe": "Sie freut sich.",
+      "auditLvSource": "viņa priecājas.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Je šťastná.",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Se • Sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00224",
+      "cardId": "a1-sich",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Akcentovaný český text „Koupe“ neodpovídá překladu „Myje se“ a mění význam věty.",
+      "auditCurrentCs": "Koupe",
+      "auditProposedCs": "Myje",
+      "auditDe": "Er wäscht sich.",
+      "auditLvSource": "viņš mazgājas.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Koupe",
+      "cardContext": {
+        "cardId": "a1-sich",
+        "de": "sich",
+        "csMain": "Se • Sebe",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00225",
+      "cardId": "a1-sicher",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "V češtině je zde vhodná pomlčka (–), nikoli spojovník (-), stejně jako v německém originálu.",
+      "auditCurrentCs": "Přijdeš zítra - určitě!",
+      "auditProposedCs": "Přijdeš zítra – určitě!",
+      "auditDe": "Kommst du morgen? – Sicher!",
+      "auditLvSource": "vai tu nāc rīt? – noteikti!",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Přijdeš zítra - určitě!",
+      "cardContext": {
+        "cardId": "a1-sicher",
+        "de": "sicher",
+        "csMain": "Bezpečný • Jistě",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00226",
+      "cardId": "a1-sie-study-2",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Text obsahuje latvštinu „Latviski“ a pomlčka je typograficky nevhodná; v českém obsahu má být „Česky“.",
+      "auditCurrentCs": "Hlavní myšlenka: Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
+      "auditProposedCs": "Hlavní myšlenka: Zdvořilostní oslovení – vždy s velkým S. Česky: vy. Často se slovesem v množném čísle.",
+      "auditDe": "Sie",
+      "auditLvSource": "jūs",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Hlavní myšlenka: Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
+      "cardContext": {
+        "cardId": "a1-sie-study-2",
+        "de": "Sie",
+        "csMain": "Vy",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00210",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V kontextu oblečení znamená passen „slušet“, nikoli pouze „stát“.",
+      "currentCs": "Stát",
+      "proposedCs": "Slušet"
+    },
+    {
+      "findingId": "MAIN-A1-00211",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[3].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Funktionieren znamená „fungovat“; „provozovat“ má jiný, přechodný význam.",
+      "currentCs": "Provozovat",
+      "proposedCs": "Fungovat"
+    },
+    {
+      "findingId": "MAIN-A1-00212",
+      "cardId": "a1-probieren",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "U zkoušení oblečení český překlad přirozeně vyžaduje zvratné „si“ a vhodnější sloveso „vyzkoušet“.",
+      "currentCs": "Můžu zkusit bundu",
+      "proposedCs": "Můžu si tu bundu vyzkoušet?"
+    },
+    {
+      "findingId": "MAIN-A1-00213",
+      "cardId": "a1-probieren",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Samotné „vyzkoušet“ nerozlišuje zkoušení oblečení od obecného probieren.",
+      "currentCs": "Vyzkoušet",
+      "proposedCs": "Vyzkoušet si (oblečení)"
+    },
+    {
+      "findingId": "MAIN-A1-00214",
+      "cardId": "a1-sagen-study",
+      "field": "study.examples[0].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "„Co jsi říkal?“ je běžný a přirozený český překlad této německé otázky; nejde o jednoznačnou chybu.",
+      "currentCs": "Co jsi říkal"
+    },
+    {
+      "findingId": "MAIN-A1-00215",
+      "cardId": "a1-sagen-study",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Po slovese „mluvit“ je správný instrumentál „jazykem“ a opakování slovesa je nevhodné.",
+      "currentCs": "Mluvit (jazyk, mluvit)",
+      "proposedCs": "Mluvit (jazykem, hovořit)"
+    },
+    {
+      "findingId": "MAIN-A1-00216",
+      "cardId": "a1-schauen-study",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Hodinky“ je české podstatné jméno a neodpovídá německému slovesu schauen.",
+      "currentCs": "Hodinky",
+      "proposedCs": "Dívat se"
+    },
+    {
+      "findingId": "MAIN-A1-00217",
+      "cardId": "a1-schauen-study",
+      "field": "study.sectionAccents.comparison[1].meaning",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "V produkci je toto pole prázdné, takže auditovaný text „Hodinky“ již není aktuální.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00218",
+      "cardId": "a1-schwimmen",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Samostatná česká položka má začínat velkým písmenem.",
+      "currentCs": "česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání.",
+      "proposedCs": "Česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání."
+    },
+    {
+      "findingId": "MAIN-A1-00221",
+      "cardId": "a1-sein",
+      "field": "study.explanation[4]",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "V produkci je toto pole prázdné, takže auditovaný text již není aktuální.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00222",
+      "cardId": "a1-seite",
+      "field": "study.examples[0].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Otevřít stránku“ je v češtině běžná a správná kolokace; „stranu“ je pouze alternativní stylistická volba.",
+      "currentCs": "Otevřete stránku dvacet."
+    },
+    {
+      "findingId": "MAIN-A1-00223",
+      "cardId": "a1-sich",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "Freut sich vyjadřuje radost z něčeho, zatímco „je šťastná“ popisuje obecnější stav.",
+      "currentCs": "Je šťastná.",
+      "proposedCs": "Má radost."
+    },
+    {
+      "findingId": "MAIN-A1-00224",
+      "cardId": "a1-sich",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Koupe“ znamená, že někdo koupe jinou osobu; wäscht sich znamená „myje se“.",
+      "currentCs": "Koupe",
+      "proposedCs": "Myje"
+    },
+    {
+      "findingId": "MAIN-A1-00225",
+      "cardId": "a1-sicher",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "V českém textu je mezi replikami vhodná pomlčka, nikoli spojovník.",
+      "currentCs": "Přijdeš zítra - určitě!",
+      "proposedCs": "Přijdeš zítra – určitě!"
+    },
+    {
+      "findingId": "MAIN-A1-00226",
+      "cardId": "a1-sie-study-2",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Text obsahuje latvský remnant „Latviski“ a typograficky nevhodný spojovník místo pomlčky.",
+      "currentCs": "Hlavní myšlenka: Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
+      "proposedCs": "Hlavní myšlenka: Zdvořilostní oslovení – vždy s velkým S. Česky: vy. Často se slovesem v množném čísle."
+    }
+  ]
+}

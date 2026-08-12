@@ -1,0 +1,504 @@
+{
+  "batch": "validate-009",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00180",
+      "cardId": "a1-mal",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad „krát“ je zde nesprávný a může studenty vést k chybnému významu podstatného jména.",
+      "auditCurrentCs": "Pamatujte: das Mal = krát/případ (podstatné jméno) • mal bez členu = hovorová částice.",
+      "auditProposedCs": "Pamatujte: das Mal = případ / opakování • mal bez členu = hovorová částice.",
+      "auditDe": "das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa.",
+      "auditLvSource": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa.",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Pamatujte: das Mal = krát/případ (podstatné jméno) • mal bez členu = hovorová částice.",
+      "cardContext": {
+        "cardId": "a1-mal",
+        "de": "Mal",
+        "csMain": "Krát • Případ",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00181",
+      "cardId": "a1-morgen",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Až zítra!“ je doslovné a v češtině nepřirozené jako běžné rozloučení.",
+      "auditCurrentCs": "Až zítra!",
+      "auditProposedCs": "Tak zítra!",
+      "auditDe": "Bis morgen!",
+      "auditLvSource": "līdz rīt!",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Až zítra!",
+      "cardContext": {
+        "cardId": "a1-morgen",
+        "de": "morgen",
+        "csMain": "Zítra",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00182",
+      "cardId": "a1-morgen",
+      "field": "study.explanation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Text obsahuje nesouvisející a chybné formulace. „Několik ran“ není význam jednotného Morgen.",
+      "auditCurrentCs": "[\"Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.\",\"Morgen hlavně znamená: druhý den.\",\"Často charakterizováno: počasím.\",\"Morgen především znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!).\"]",
+      "auditProposedCs": [
+        "Hlavní myšlenka: morgen s malým písmenem znamená zítra.",
+        "Morgen s velkým písmenem je podstatné jméno a znamená ráno.",
+        "Nezaměňujte morgen ve větě Ich komme morgen s Morgen ve spojení Guten Morgen!.",
+        "Ich komme morgen = Přijdu zítra. Guten Morgen! = Dobré ráno!"
+      ],
+      "auditDe": "morgen",
+      "auditLvSource": "rīt",
+      "category": "STUDY",
+      "productionCurrentCs": "[\"Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.\",\"Morgen hlavně znamená: druhý den.\",\"Často charakterizováno: počasím.\",\"Morgen především znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!).\"]",
+      "cardContext": {
+        "cardId": "a1-morgen",
+        "de": "morgen",
+        "csMain": "Zítra",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00183",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Až zítra!“ je doslovné a v češtině nepřirozené jako běžné rozloučení.",
+      "auditCurrentCs": "Až zítra!",
+      "auditProposedCs": "Tak zítra!",
+      "auditDe": "Bis morgen!",
+      "auditLvSource": "līdz rīt!",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Až zítra!",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00184",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Výklad obsahuje chybný význam „několik ran“ a tvrdí, že morgen znamená „zítra – pozítří“.",
+      "auditCurrentCs": "[\"Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Denní část – dopoledne.\",\"Der Morgen hlavně znamená ráno, tedy část dne.\",\"Často charakterizováno: počasím.\",\"Der Morgen primárně znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Der Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!\"]",
+      "auditProposedCs": [
+        "Hlavní myšlenka: Der Morgen je podstatné jméno, které znamená ráno.",
+        "Používá se s velkým písmenem: der Morgen, am Morgen.",
+        "Nezaměňujte ho s morgen s malým písmenem, které znamená zítra.",
+        "Guten Morgen! = Dobré ráno! Ich komme morgen = Přijdu zítra."
+      ],
+      "auditDe": "Morgen",
+      "auditLvSource": "rīts",
+      "category": "STUDY",
+      "productionCurrentCs": "[\"Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Denní část – dopoledne.\",\"Der Morgen hlavně znamená ráno, tedy část dne.\",\"Často charakterizováno: počasím.\",\"Der Morgen primárně znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Der Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!\"]",
+      "cardContext": {
+        "cardId": "a1-morgen-study",
+        "de": "Morgen",
+        "csMain": "Ráno",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00185",
+      "cardId": "a1-müssen",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český infinitiv je „muset“, nikoli „musit“.",
+      "auditCurrentCs": "Musit",
+      "auditProposedCs": "Muset",
+      "auditDe": "müssen",
+      "auditLvSource": "vajadzēt",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Musit",
+      "cardContext": {
+        "cardId": "a1-müssen",
+        "de": "müssen",
+        "csMain": "Musit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00186",
+      "cardId": "a1-müssen",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Du musst znamená „musíš“; „musíte“ odpovídá vykání nebo množnému číslu.",
+      "auditCurrentCs": "Musíte",
+      "auditProposedCs": "Musíš",
+      "auditDe": "Du musst warten.",
+      "auditLvSource": "jāgaida",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Musíte",
+      "cardContext": {
+        "cardId": "a1-müssen",
+        "de": "müssen",
+        "csMain": "Musit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00187",
+      "cardId": "a1-nach",
+      "field": "study.explanation[\"important\"][1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Česká předložka „v“ je zde nesprávná a míchá se s německým výrazem.",
+      "auditCurrentCs": "Do školy se obvykle chodí v die Schule, ne nach Schule.",
+      "auditProposedCs": "Do školy se obvykle chodí do školy, německy in die Schule, ne nach Schule.",
+      "auditDe": "in die Schule",
+      "auditLvSource": "in die Schule",
+      "category": "GRAMMAR",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-nach",
+        "de": "nach",
+        "csMain": "Do • Po",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00188",
+      "cardId": "a1-nach",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„In“ může vyjadřovat směr i místo; „člen“ je správný český gramatický termín.",
+      "auditCurrentCs": "V / na místo s článkem",
+      "auditProposedCs": "Do / v nebo na místo s členem",
+      "auditDe": "in",
+      "auditLvSource": "iekšā / uz vietu ar artikulu",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "V / na místo s článkem",
+      "cardContext": {
+        "cardId": "a1-nach",
+        "de": "nach",
+        "csMain": "Do • Po",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00189",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Vysvětlení opakuje stejný český význam a neodráží rozdíl mezi brát a vzít.",
+      "auditCurrentCs": "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
+      "auditProposedCs": "Hlavní myšlenka: nehmen znamená brát nebo vzít.",
+      "auditDe": "nehmen",
+      "auditLvSource": "ņemt vai paņemt",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00190",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Jít za“ a „aportovat/vzít“ zde význam slovesa holen nevystihují.",
+      "auditCurrentCs": "Holen znamená jít za a aportovat/vzít.",
+      "auditProposedCs": "Holen znamená jít pro něco nebo někoho vyzvednout a přinést.",
+      "auditDe": "holen",
+      "auditLvSource": "aiziet pakaļ / atnest",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Holen znamená jít za a aportovat/vzít.",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00191",
+      "cardId": "a1-nehmen",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Druhá část nesprávně překládá bringen i uvádí české sloveso místo německého hesla.",
+      "auditCurrentCs": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést.",
+      "auditProposedCs": "Pamatujte: vezměte si něco pro sebe → nehmen • přineste něco někomu → bringen.",
+      "auditDe": "nehmen; bringen",
+      "auditLvSource": "paņem sev → nehmen; atnes kādam → bringen",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést.",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00192",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[2].lv.red[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad příkladu je v přítomném čase „Přináším“, ne „Přinesl“.",
+      "auditCurrentCs": "Přinesl",
+      "auditProposedCs": "Přináším",
+      "auditDe": "bringe",
+      "auditLvSource": "atnesu",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Přinesl",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00193",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[2].lv.yellow[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé Buch odpovídá českému „knihu“, nikoli „Přinesl“.",
+      "auditCurrentCs": "Přinesl",
+      "auditProposedCs": "knihu",
+      "auditDe": "Buch",
+      "auditLvSource": "grāmatu",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Přinesl",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00194",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[3].lv.red[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hole dich ab znamená „vyzvednu tě“, nikoli obecně „vezmu“.",
+      "auditCurrentCs": "Vezmu",
+      "auditProposedCs": "Vyzvednu",
+      "auditDe": "hole",
+      "auditLvSource": "paņemšu",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Vezmu",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00180",
+      "cardId": "a1-mal",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Krát“ je chybný český překlad; německé Mal zde znamená případ nebo opakování.",
+      "currentCs": "Pamatujte: das Mal = krát/případ (podstatné jméno) • mal bez členu = hovorová částice.",
+      "proposedCs": "Pamatujte: das Mal = případ / opakování • mal bez členu = hovorová částice."
+    },
+    {
+      "findingId": "MAIN-A1-00181",
+      "cardId": "a1-morgen",
+      "field": "study.examples[1].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Až zítra!“ je v češtině srozumitelné a přijatelné rozloučení; „Tak zítra!“ je pouze stylisticky přirozenější varianta.",
+      "currentCs": "Až zítra!"
+    },
+    {
+      "findingId": "MAIN-A1-00182",
+      "cardId": "a1-morgen",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Výklad obsahuje nesouvisející tvrzení „několik ran“ a chybně míchá významy morgen a Morgen.",
+      "currentCs": "[\"Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.\",\"Morgen hlavně znamená: druhý den.\",\"Často charakterizováno: počasím.\",\"Morgen především znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!).\"]",
+      "proposedCs": [
+        "Hlavní myšlenka: morgen s malým písmenem znamená zítra.",
+        "Morgen s velkým písmenem je podstatné jméno a znamená ráno.",
+        "Nezaměňujte morgen ve větě Ich komme morgen s Morgen ve spojení Guten Morgen!.",
+        "Ich komme morgen = Přijdu zítra. Guten Morgen! = Dobré ráno!"
+      ]
+    },
+    {
+      "findingId": "MAIN-A1-00183",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Až zítra!“ je v češtině srozumitelné a přijatelné rozloučení; „Tak zítra!“ je pouze stylisticky přirozenější varianta.",
+      "currentCs": "Až zítra!"
+    },
+    {
+      "findingId": "MAIN-A1-00184",
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Výklad chybně uvádí „několik ran“ a nesprávně rozšiřuje význam malého morgen na „zítra – pozítří“.",
+      "currentCs": "[\"Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Denní část – dopoledne.\",\"Der Morgen hlavně znamená ráno, tedy část dne.\",\"Často charakterizováno: počasím.\",\"Der Morgen primárně znamená: část dne.\",\"Často popisuje: podstatné jméno (der).\",\"Der Morgen v podstatě znamená: několik ran.\",\"Často charakterizováno: podstatné jméno (pl.).\",\"Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!\"]",
+      "proposedCs": [
+        "Hlavní myšlenka: Der Morgen je podstatné jméno, které znamená ráno.",
+        "Používá se s velkým písmenem: der Morgen, am Morgen.",
+        "Nezaměňujte ho s morgen s malým písmenem, které znamená zítra.",
+        "Guten Morgen! = Dobré ráno! Ich komme morgen = Přijdu zítra."
+      ]
+    },
+    {
+      "findingId": "MAIN-A1-00185",
+      "cardId": "a1-müssen",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Český infinitiv slovesa müssen je „muset“, nikoli nesprávný tvar „musit“.",
+      "currentCs": "Musit",
+      "proposedCs": "Muset"
+    },
+    {
+      "findingId": "MAIN-A1-00186",
+      "cardId": "a1-müssen",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Du musst je 2. osoba jednotného čísla, proto český překlad musí být „musíš“, ne „musíte“.",
+      "currentCs": "Musíte",
+      "proposedCs": "Musíš"
+    },
+    {
+      "findingId": "MAIN-A1-00187",
+      "cardId": "a1-nach",
+      "field": "study.explanation[\"important\"][1]",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Auditní text se v produkci již nenachází; aktuální produkční hodnota je null.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00188",
+      "cardId": "a1-nach",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Článkem“ je zde chybný český gramatický termín; německý výraz se používá s členem.",
+      "currentCs": "V / na místo s článkem",
+      "proposedCs": "Do / v nebo na místo s členem"
+    },
+    {
+      "findingId": "MAIN-A1-00189",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Výklad opakuje „vzít“ a neuvádí běžný nedokonavý protějšek „brát“.",
+      "currentCs": "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
+      "proposedCs": "Hlavní myšlenka: nehmen znamená brát nebo vzít."
+    },
+    {
+      "findingId": "MAIN-A1-00190",
+      "cardId": "a1-nehmen",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Český popis slovesa holen chybně uvádí „jít za“ a „aportovat/vzít“ místo jít pro někoho či něco a přinést.",
+      "currentCs": "Holen znamená jít za a aportovat/vzít.",
+      "proposedCs": "Holen znamená jít pro něco nebo někoho vyzvednout a přinést."
+    },
+    {
+      "findingId": "MAIN-A1-00191",
+      "cardId": "a1-nehmen",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Druhá část nesprávně používá český překlad místo německého slovesa bringen a mění význam přinést na přivést.",
+      "currentCs": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést.",
+      "proposedCs": "Pamatujte: vezměte si něco pro sebe → nehmen • přineste něco někomu → bringen."
+    },
+    {
+      "findingId": "MAIN-A1-00192",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[2].lv.red[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Překlad německého tvaru bringe je v přítomném čase „Přináším“, nikoli minulý čas „Přinesl“.",
+      "currentCs": "Přinesl",
+      "proposedCs": "Přináším"
+    },
+    {
+      "findingId": "MAIN-A1-00193",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[2].lv.yellow[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Německé Buch znamená „knihu“; současný překlad „Přinesl“ je chybný a opakuje jinou část věty.",
+      "currentCs": "Přinesl",
+      "proposedCs": "knihu"
+    },
+    {
+      "findingId": "MAIN-A1-00194",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[3].lv.red[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Tvar hole dich ab v daném příkladu znamená „vyzvednu tě“, nikoli obecné „vezmu“.",
+      "currentCs": "Vezmu",
+      "proposedCs": "Vyzvednu"
+    }
+  ]
+}

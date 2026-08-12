@@ -1,0 +1,485 @@
+{
+  "batch": "validate-007",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00148",
+      "cardId": "a1-ihr",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Dativ ihr znamená „jí“, nikoli „ji“, a hlavní překlad vynechává přivlastňovací význam.",
+      "auditCurrentCs": "Vy • Ji",
+      "auditProposedCs": "Vy • Jí • Její",
+      "auditDe": "ihr",
+      "auditLvSource": "jūs • viņai",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Vy • Ji",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00149",
+      "cardId": "a1-ihr",
+      "field": "study.tip[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Tvar ihr se slovesem v množném čísle znamená „vy“, ne „ty“; dativ je „jí“, ne „ji“.",
+      "auditCurrentCs": "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její.",
+      "auditProposedCs": "Kontrola: Habt ihr...? / Kommt ihr...? = vy • Ich gebe ihr... / ihr Buch = jí/její.",
+      "auditDe": "ihr",
+      "auditLvSource": "Pārbaudi: Habt ihr...? / Kommt ihr...? = jūs; Ich gebe ihr... / ihr Buch = viņai/viņas.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její.",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00150",
+      "cardId": "a1-ihr",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Český dativ zájmena „ona“ je „jí“; „její“ je přivlastňovací tvar.",
+      "auditCurrentCs": "Ihr = vy (adresa několika) NEBO její (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+      "auditProposedCs": "Ihr = vy (oslovení více lidí) NEBO jí (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+      "auditDe": "ihr",
+      "auditLvSource": "ihr = jūs (uzruna vairākiem) VAI viņai (datīvs) VAI viņas (piederība) — pēc konteksta.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Ihr = vy (adresa několika) NEBO její (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+      "cardContext": {
+        "cardId": "a1-ihr",
+        "de": "ihr",
+        "csMain": "Vy • Ji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00151",
+      "cardId": "a1-ins",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Ins je zkratka in das a vyjadřuje směr dovnitř; samotné „v“ označuje nesprávně polohu.",
+      "auditCurrentCs": "V • Do • Kam?",
+      "auditProposedCs": "Do • Kam?",
+      "auditDe": "ins",
+      "auditLvSource": "iekšā • uz iekšu • kurp?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "V • Do • Kam?",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "V • Do • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00152",
+      "cardId": "a1-ins",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní překlad nesprávně uvádí význam polohy „v“; ins označuje pohyb do něčeho.",
+      "auditCurrentCs": "V • Do • Kam?",
+      "auditProposedCs": "Do • Kam?",
+      "auditDe": "ins",
+      "auditLvSource": "iekšā • uz iekšu • kurp?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "V • Do • Kam?",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "V • Do • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00153",
+      "cardId": "a1-ins",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "V češtině se pro německý gramatický pojem používá „člen“, ne „článek“; běžnější je „samostatný člen“.",
+      "auditCurrentCs": "V / do (s nezávislým článkem)",
+      "auditProposedCs": "V / do ( se samostatným členem)",
+      "auditDe": "in",
+      "auditLvSource": "iekšā / uz (ar patstāvīgu artikulu)",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "V / do (s nezávislým článkem)",
+      "cardContext": {
+        "cardId": "a1-ins",
+        "de": "ins",
+        "csMain": "V • Do • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00154",
+      "cardId": "a1-jung",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Jung se v této kartě používá také pro zvířata, například pro psa; „o lidech“ význam neoprávněně zužuje.",
+      "auditCurrentCs": "Mladý (o lidech)",
+      "auditProposedCs": "Mladý (o věku)",
+      "auditDe": "jung",
+      "auditLvSource": "jauns (par cilvēkiem)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Mladý (o lidech)",
+      "cardContext": {
+        "cardId": "a1-jung",
+        "de": "jung",
+        "csMain": "Mladý (o lidech)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00155",
+      "cardId": "a1-jung",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Současná věta je gramatická, ale pro neutrální překlad německého slovosledu je přirozenější navržená varianta.",
+      "auditCurrentCs": "Usmívá se mladá žena.",
+      "auditProposedCs": "Mladá žena se usmívá.",
+      "auditDe": "Die junge Frau lächelt.",
+      "auditLvSource": "jaunā sieviete smaida.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Usmívá se mladá žena.",
+      "cardContext": {
+        "cardId": "a1-jung",
+        "de": "jung",
+        "csMain": "Mladý (o lidech)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00157",
+      "cardId": "a1-kein",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Nikdo“ a „nic“ platí jen v některých kontextech; kein je záporný člen skloňovaný podle rodu a pádu.",
+      "auditCurrentCs": "Nikdo • Nic",
+      "auditProposedCs": "Žádný • Žádná • Žádné",
+      "auditDe": "kein",
+      "auditLvSource": "neviens • nekāds",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nikdo • Nic",
+      "cardContext": {
+        "cardId": "a1-kein",
+        "de": "kein",
+        "csMain": "Nikdo • Nic",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00158",
+      "cardId": "a1-kein",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Vůbec“ přidává důraz, který německá věta neobsahuje; přirozený význam je „už není žádné mléko“.",
+      "auditCurrentCs": "Už vůbec není mléko.",
+      "auditProposedCs": "Už není žádné mléko.",
+      "auditDe": "Es gibt keine Milch mehr.",
+      "auditLvSource": "piena vairs nav nemaz.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Už vůbec není mléko.",
+      "cardContext": {
+        "cardId": "a1-kein",
+        "de": "kein",
+        "csMain": "Nikdo • Nic",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00159",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Kennengelernt znamená seznámit se nebo poznat se, ne pouze se potkat.",
+      "auditCurrentCs": "Kde jste se potkali?",
+      "auditProposedCs": "Kde jste se poznali?",
+      "auditDe": "Wo habt ihr euch kennengelernt?",
+      "auditLvSource": "kur jūs iepazināties?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kde jste se potkali?",
+      "cardContext": {
+        "cardId": "a1-kennen-study",
+        "de": "kennen",
+        "csMain": "Znát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00160",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé Sie je zdvořilá 2. osoba množného čísla; české „víš“ je neformální jednotné číslo.",
+      "auditCurrentCs": "Jak to víš?",
+      "auditProposedCs": "Jak to víte?",
+      "auditDe": "Woher wissen Sie das?",
+      "auditLvSource": "no kurienes jūs to zināt?",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Jak to víš?",
+      "cardContext": {
+        "cardId": "a1-wissen-study",
+        "de": "wissen",
+        "csMain": "Vědět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00161",
+      "cardId": "a1-können",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Zvýrazněný český text neodpovídá překladu příkladu „Můžeš mi pomoct?“.",
+      "auditCurrentCs": "Můžete",
+      "auditProposedCs": "Můžeš",
+      "auditDe": "Kannst du mir helfen?",
+      "auditLvSource": "vari",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Můžete",
+      "cardContext": {
+        "cardId": "a1-können",
+        "de": "können",
+        "csMain": "Umět • Moci",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00162",
+      "cardId": "a1-kosten",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Kosten znamená „stát“ ve smyslu ceny, nikoli „platit“ jako provádět platbu.",
+      "auditCurrentCs": "Platit",
+      "auditProposedCs": "Stát",
+      "auditDe": "kosten",
+      "auditLvSource": "maksāt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Platit",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Platit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00163",
+      "cardId": "a1-kosten",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Vysvětlení nesprávně označuje „platit“ za správný český ekvivalent slovesa kosten.",
+      "auditCurrentCs": "České slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
+      "auditProposedCs": "České slovo stát je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
+      "auditDe": "Das kostet 5 Euro.",
+      "auditLvSource": "Latviešu vārds maksāt šajā kontekstā ir pareizs: Das kostet 5 Euro. = Tas maksā 5 eiro.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "České slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Platit",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00148",
+      "cardId": "a1-ihr",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Ji“ je nesprávný pád a překlad vynechává přivlastňovací význam „její“.",
+      "currentCs": "Vy • Ji",
+      "proposedCs": "Vy • Jí • Její"
+    },
+    {
+      "findingId": "MAIN-A1-00149",
+      "cardId": "a1-ihr",
+      "field": "study.tip[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V kontextu „Habt ihr?“ znamená ihr „vy“ a v „Ich gebe ihr“ znamená „jí“, nikoli „ty“ a „ji“.",
+      "currentCs": "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její.",
+      "proposedCs": "Kontrola: Habt ihr...? / Kommt ihr...? = vy • Ich gebe ihr... / ihr Buch = jí/její."
+    },
+    {
+      "findingId": "MAIN-A1-00150",
+      "cardId": "a1-ihr",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Český dativ zájmena ona je „jí“, zatímco „její“ je přivlastňovací tvar.",
+      "currentCs": "Ihr = vy (adresa několika) NEBO její (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+      "proposedCs": "Ihr = vy (oslovení více lidí) NEBO jí (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu."
+    },
+    {
+      "findingId": "MAIN-A1-00151",
+      "cardId": "a1-ins",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Ins vyjadřuje směr dovnitř a v češtině se zde překládá jako „do“, ne jako polohové „v“.",
+      "currentCs": "V • Do • Kam?",
+      "proposedCs": "Do • Kam?"
+    },
+    {
+      "findingId": "MAIN-A1-00152",
+      "cardId": "a1-ins",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Hlavní překlad obsahuje polohové „v“, přestože ins označuje pohyb do něčeho.",
+      "currentCs": "V • Do • Kam?",
+      "proposedCs": "Do • Kam?"
+    },
+    {
+      "findingId": "MAIN-A1-00153",
+      "cardId": "a1-ins",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "V české gramatické terminologii je německý Artikel „člen“, nikoli „článek“; formulace je proto terminologicky chybná.",
+      "currentCs": "V / do (s nezávislým článkem)",
+      "proposedCs": "V / do (se samostatným členem)"
+    },
+    {
+      "findingId": "MAIN-A1-00154",
+      "cardId": "a1-jung",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Jung se může vztahovat k věku lidí i zvířat; doplněk „o lidech“ význam nepřiměřeně zužuje.",
+      "currentCs": "Mladý (o lidech)",
+      "proposedCs": "Mladý (o věku)"
+    },
+    {
+      "findingId": "MAIN-A1-00155",
+      "cardId": "a1-jung",
+      "field": "study.examples[5].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Usmívá se mladá žena“ je gramaticky správný a přirozený český překlad; jde pouze o stylistickou preferenci slovosledu.",
+      "currentCs": "Usmívá se mladá žena."
+    },
+    {
+      "findingId": "MAIN-A1-00157",
+      "cardId": "a1-kein",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Kein je záporný člen a podle kontextu znamená „žádný/žádná/žádné“, ne obecně „nikdo“ nebo „nic“.",
+      "currentCs": "Nikdo • Nic",
+      "proposedCs": "Žádný • Žádná • Žádné"
+    },
+    {
+      "findingId": "MAIN-A1-00158",
+      "cardId": "a1-kein",
+      "field": "study.examples[1].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "reason": "„Už vůbec není mléko“ je gramatický a významově přijatelný překlad; „vůbec“ pouze zesiluje výpověď.",
+      "currentCs": "Už vůbec není mléko."
+    },
+    {
+      "findingId": "MAIN-A1-00159",
+      "cardId": "a1-kennen-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Kennengelernt znamená seznámit se nebo poznat se; „potkali“ nevyjadřuje tento význam dostatečně přesně.",
+      "currentCs": "Kde jste se potkali?",
+      "proposedCs": "Kde jste se poznali?"
+    },
+    {
+      "findingId": "MAIN-A1-00160",
+      "cardId": "a1-wissen-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Německé Sie vyžaduje zdvořilý český plurál „víte“, nikoli neformální singulár „víš“.",
+      "currentCs": "Jak to víš?",
+      "proposedCs": "Jak to víte?"
+    },
+    {
+      "findingId": "MAIN-A1-00161",
+      "cardId": "a1-können",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Zvýrazněné „Můžete“ neodpovídá německému neformálnímu „Kannst du“ ani českému překladu věty.",
+      "currentCs": "Můžete",
+      "proposedCs": "Můžeš"
+    },
+    {
+      "findingId": "MAIN-A1-00162",
+      "cardId": "a1-kosten",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Kosten ve významu ceny znamená česky „stát“, nikoli „platit“ jako provádět platbu.",
+      "currentCs": "Platit",
+      "proposedCs": "Stát"
+    },
+    {
+      "findingId": "MAIN-A1-00163",
+      "cardId": "a1-kosten",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "V uvedené větě je správným českým ekvivalentem německého kosten sloveso „stát“, nikoli „platit“.",
+      "currentCs": "České slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
+      "proposedCs": "České slovo stát je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur."
+    }
+  ]
+}

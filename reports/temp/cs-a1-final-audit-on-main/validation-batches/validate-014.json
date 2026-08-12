@@ -1,0 +1,482 @@
+{
+  "batch": "validate-014",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00268",
+      "cardId": "a1-zum",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Do • At“ neodpovídá českému významu německého zum a obsahuje anglické „At“.",
+      "auditCurrentCs": "Do • At",
+      "auditProposedCs": "K • Ke",
+      "auditDe": "zum",
+      "auditLvSource": "uz • pie",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Do • At",
+      "cardContext": {
+        "cardId": "a1-zum",
+        "de": "zum",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00270",
+      "cardId": "a1-zum",
+      "field": "study.important[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "České „na“ zde významově neodpovídá předložce bei; správně je „u“.",
+      "auditCurrentCs": "Nezaměňovat s bei (nachází se na) nebo nach (do měst bez článku).",
+      "auditProposedCs": "Nezaměňovat s bei (nachází se u) nebo nach (do měst bez článku).",
+      "auditDe": "bei",
+      "auditLvSource": "atrašanās pie",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Nezaměňovat s bei (nachází se na) nebo nach (do měst bez článku).",
+      "cardContext": {
+        "cardId": "a1-zum",
+        "de": "zum",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00271",
+      "cardId": "a1-fernsehen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Německé das Fernsehen označuje televizi jako médium; „média“ je množné číslo s širším významem.",
+      "auditCurrentCs": "Televize (média)",
+      "auditProposedCs": "Televize (médium)",
+      "auditDe": "das Fernsehen",
+      "auditLvSource": "televīzija (medijs)",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Televize (média)",
+      "cardContext": {
+        "cardId": "a1-fernsehen",
+        "de": "fernsehen",
+        "csMain": "Dívat se na televizi",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00272",
+      "cardId": "a1-fernsehen-study",
+      "field": "study.examples[5].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Co se zobrazuje v televizi?“ je nepřirozené; německá věta znamená „Co je v televizi?“.",
+      "auditCurrentCs": "Co se zobrazuje v televizi?",
+      "auditProposedCs": "Co je v televizi?",
+      "auditDe": "Was gibt es im Fernsehen?",
+      "auditLvSource": "Ko rāda televīzijā?",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Co se zobrazuje v televizi?",
+      "cardContext": {
+        "cardId": "a1-fernsehen-study",
+        "de": "Fernsehen",
+        "csMain": "Televize",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00273",
+      "cardId": "a1-essen-study",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní překlad obsahuje stejný český význam dvakrát; druhý význam má být „pokrm“.",
+      "auditCurrentCs": "Jídlo • Jídlo",
+      "auditProposedCs": "Jídlo • Pokrm",
+      "auditDe": "Essen",
+      "auditLvSource": "ēdiens • maltīte",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jídlo • Jídlo",
+      "cardContext": {
+        "cardId": "a1-essen-study",
+        "de": "Essen",
+        "csMain": "Jídlo • Jídlo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00275",
+      "cardId": "a1-gemuese",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé Ich nevyjadřuje ženský rod; v českém příkladu je bezdůvodně použito „Ráda“.",
+      "auditCurrentCs": "Ráda jím zeleninu.",
+      "auditProposedCs": "Rád jím zeleninu.",
+      "auditDe": "Ich esse gern Gemüse.",
+      "auditLvSource": "es labprāt ēdu dārzeņus.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ráda jím zeleninu.",
+      "cardContext": {
+        "cardId": "a1-gemuese",
+        "de": "Gemüse",
+        "csMain": "Zelenina",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00276",
+      "cardId": "a1-gemuese",
+      "field": "study.examples[4].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé Ich nevyjadřuje ženský rod; české „ráda“ proto význam neoprávněně genderově zužuje.",
+      "auditCurrentCs": "Mám ráda ovoce a zeleninu.",
+      "auditProposedCs": "Mám rád ovoce a zeleninu.",
+      "auditDe": "Ich mag Obst und Gemüse.",
+      "auditLvSource": "man patīk augļi un dārzeņi.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Mám ráda ovoce a zeleninu.",
+      "cardContext": {
+        "cardId": "a1-gemuese",
+        "de": "Gemüse",
+        "csMain": "Zelenina",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00277",
+      "cardId": "a1-obst",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé Ich nevyjadřuje ženský rod; české „ráda“ proto význam neoprávněně genderově zužuje.",
+      "auditCurrentCs": "Mám ráda ovoce a zeleninu.",
+      "auditProposedCs": "Mám rád ovoce a zeleninu.",
+      "auditDe": "Ich mag Obst und Gemüse.",
+      "auditLvSource": "man patīk augļi un dārzeņi.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Mám ráda ovoce a zeleninu.",
+      "cardContext": {
+        "cardId": "a1-obst",
+        "de": "Obst",
+        "csMain": "Ovoce",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00278",
+      "cardId": "a1-ferien",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Ferien je množné číslo, proto má být sloveso „znamenají“.",
+      "auditCurrentCs": "Die Ferien v podstatě znamená: školní prázdniny.",
+      "auditProposedCs": "Die Ferien v podstatě znamenají: školní prázdniny.",
+      "auditDe": "Die Ferien",
+      "auditLvSource": "die Ferien galvenokārt nozīmē",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Die Ferien v podstatě znamená: školní prázdniny.",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00279",
+      "cardId": "a1-ferien",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Podstatné jméno Ferien je v množném čísle; příčestí musí být „charakterizovány“.",
+      "auditCurrentCs": "Často charakterizováno: pouze množné číslo.",
+      "auditProposedCs": "Často charakterizovány: pouze množné číslo.",
+      "auditDe": "Die Ferien",
+      "auditLvSource": "tikai daudzskaitlis",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Často charakterizováno: pouze množné číslo.",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00280",
+      "cardId": "a1-ferien",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "U množného čísla je nesprávné „je“ a chybí předložka „v“.",
+      "auditCurrentCs": "Die Ferien je pouze množné číslo — vždy v množném čísle (in den Ferien).",
+      "auditProposedCs": "Die Ferien jsou pouze v množném čísle — vždy v množném čísle (in den Ferien).",
+      "auditDe": "Die Ferien",
+      "auditLvSource": "die Ferien ir tikai daudzskaitlis",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Die Ferien je pouze množné číslo — vždy v množném čísle (in den Ferien).",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00281",
+      "cardId": "a1-ferien",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Přeformulování opravuje nepřirozenou shodu slovesa s názvem tvaru.",
+      "auditCurrentCs": "Ve spojení in den Ferien je Ferien v dativu množného čísla.",
+      "auditProposedCs": "Ve spojení in den Ferien má Ferien tvar dativu množného čísla.",
+      "auditDe": "in den Ferien",
+      "auditLvSource": "Ferien vienmēr ar datīvu",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Ve spojení in den Ferien je Ferien v dativu množného čísla.",
+      "cardContext": {
+        "cardId": "a1-ferien",
+        "de": "Ferien",
+        "csMain": "Prázdniny (škola)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00282",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Odejít z práce“ znamená opustit zaměstnání, ne čerpat dovolenou.",
+      "auditCurrentCs": "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+      "auditProposedCs": "Hlavní myšlenka: pouze jednotné číslo. Dovolená z práce – vždy v jednotném čísle.",
+      "auditDe": "Urlaub",
+      "auditLvSource": "atvaļinājums no darba",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00283",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Urlaub je mužského rodu, proto má být „charakterizován“.",
+      "auditCurrentCs": "Často charakterizováno: pouze jednotné číslo.",
+      "auditProposedCs": "Často charakterizován: pouze jednotné číslo.",
+      "auditDe": "Der Urlaub",
+      "auditLvSource": "tikai vienskaitlis",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Často charakterizováno: pouze jednotné číslo.",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00284",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "V češtině je zde nutná předložka „v“: „v jednotném čísle“.",
+      "auditCurrentCs": "Der Urlaub je pouze jednotné číslo - dovolená z práce (im Urlaub).",
+      "auditProposedCs": "Der Urlaub je pouze v jednotném čísle – dovolená z práce (im Urlaub).",
+      "auditDe": "Der Urlaub",
+      "auditLvSource": "der Urlaub ir tikai vienskaitlis",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Der Urlaub je pouze jednotné číslo - dovolená z práce (im Urlaub).",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00268",
+      "cardId": "a1-zum",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Current Czech contains English “At” and does not correctly translate German zum.",
+      "currentCs": "Do • At",
+      "proposedCs": "K • Ke"
+    },
+    {
+      "findingId": "MAIN-A1-00270",
+      "cardId": "a1-zum",
+      "field": "study.important[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "For the intended location meaning of bei, Czech “u” is correct; “na” is misleading here.",
+      "currentCs": "Nezaměňovat s bei (nachází se na) nebo nach (do měst bez článku).",
+      "proposedCs": "Nezaměňovat s bei (nachází se u) nebo nach (do měst bez článku)."
+    },
+    {
+      "findingId": "MAIN-A1-00271",
+      "cardId": "a1-fernsehen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Das Fernsehen refers to television as a medium; the plural “média” is broader and semantically inaccurate.",
+      "currentCs": "Televize (média)",
+      "proposedCs": "Televize (médium)"
+    },
+    {
+      "findingId": "MAIN-A1-00272",
+      "cardId": "a1-fernsehen-study",
+      "field": "study.examples[5].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "“Co se zobrazuje v televizi?” is grammatical and understandable Czech; the proposed wording is a stylistic preference.",
+      "currentCs": "Co se zobrazuje v televizi?"
+    },
+    {
+      "findingId": "MAIN-A1-00273",
+      "cardId": "a1-essen-study",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The two Czech meanings are identical, omitting the distinct meaning “pokrm”.",
+      "currentCs": "Jídlo • Jídlo",
+      "proposedCs": "Jídlo • Pokrm"
+    },
+    {
+      "findingId": "MAIN-A1-00275",
+      "cardId": "a1-gemuese",
+      "field": "study.examples[1].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "“Ráda jím zeleninu” is valid Czech for a female speaker; the German sentence does not prohibit this contextual gender choice.",
+      "currentCs": "Ráda jím zeleninu."
+    },
+    {
+      "findingId": "MAIN-A1-00276",
+      "cardId": "a1-gemuese",
+      "field": "study.examples[4].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "“Mám ráda ovoce a zeleninu” is valid Czech for a female speaker; the gender is an acceptable translation choice.",
+      "currentCs": "Mám ráda ovoce a zeleninu."
+    },
+    {
+      "findingId": "MAIN-A1-00277",
+      "cardId": "a1-obst",
+      "field": "study.examples[3].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "“Mám ráda ovoce a zeleninu” is valid Czech for a female speaker; the gender is an acceptable translation choice.",
+      "currentCs": "Mám ráda ovoce a zeleninu."
+    },
+    {
+      "findingId": "MAIN-A1-00278",
+      "cardId": "a1-ferien",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Ferien is plural, so the Czech verb must be plural: “znamenají”.",
+      "currentCs": "Die Ferien v podstatě znamená: školní prázdniny.",
+      "proposedCs": "Die Ferien v podstatě znamenají: školní prázdniny."
+    },
+    {
+      "findingId": "MAIN-A1-00279",
+      "cardId": "a1-ferien",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The participle must agree with the plural noun Ferien: “charakterizovány”.",
+      "currentCs": "Často charakterizováno: pouze množné číslo.",
+      "proposedCs": "Často charakterizovány: pouze množné číslo."
+    },
+    {
+      "findingId": "MAIN-A1-00280",
+      "cardId": "a1-ferien",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The current text uses singular “je” and lacks the required preposition in “v množném čísle”.",
+      "currentCs": "Die Ferien je pouze množné číslo — vždy v množném čísle (in den Ferien).",
+      "proposedCs": "Die Ferien jsou pouze v množném čísle — vždy v množném čísle (in den Ferien)."
+    },
+    {
+      "findingId": "MAIN-A1-00281",
+      "cardId": "a1-ferien",
+      "field": "study.important[0]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "“Ferien je v dativu” is grammatical with the omitted neuter noun “slovo”; the proposed wording is only clearer stylistically.",
+      "currentCs": "Ve spojení in den Ferien je Ferien v dativu množného čísla."
+    },
+    {
+      "findingId": "MAIN-A1-00282",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "“Odejít z práce” means leaving employment, not taking a vacation, so the current explanation changes the meaning.",
+      "currentCs": "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+      "proposedCs": "Hlavní myšlenka: pouze jednotné číslo. Dovolená z práce – vždy v jednotném čísle."
+    },
+    {
+      "findingId": "MAIN-A1-00283",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Urlaub is masculine in the displayed German phrase Der Urlaub; the Czech participle must be masculine.",
+      "currentCs": "Často charakterizováno: pouze jednotné číslo.",
+      "proposedCs": "Často charakterizován: pouze jednotné číslo."
+    },
+    {
+      "findingId": "MAIN-A1-00284",
+      "cardId": "a1-urlaub",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The current Czech phrase is ungrammatical; it needs “v jednotném čísle”.",
+      "currentCs": "Der Urlaub je pouze jednotné číslo - dovolená z práce (im Urlaub).",
+      "proposedCs": "Der Urlaub je pouze v jednotném čísle – dovolená z práce (im Urlaub)."
+    }
+  ]
+}

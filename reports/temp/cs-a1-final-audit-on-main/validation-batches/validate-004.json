@@ -1,0 +1,481 @@
+{
+  "batch": "validate-004",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00098",
+      "cardId": "a1-bitte",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Věta „Bitte je malá písmena“ je v češtině gramaticky chybná.",
+      "auditCurrentCs": "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+      "auditProposedCs": "Bitte se píše s malým písmenem – je to zdvořilostní výraz, nikoli podstatné jméno.",
+      "auditDe": "bitte",
+      "auditLvSource": "lūdzu",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+      "cardContext": {
+        "cardId": "a1-bitte",
+        "de": "bitte",
+        "csMain": "Prosím",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00100",
+      "cardId": "a1-bitte-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Překlad věty s podstatným jménem Bitte je nahrazen zdvořilostním výrazem prosím.",
+      "auditCurrentCs": "Prosím!",
+      "auditProposedCs": "Plní mou prosbu.",
+      "auditDe": "Er erfüllt meine Bitte.",
+      "auditLvSource": "Viņš izpilda manu lūgumu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Prosím!",
+      "cardContext": {
+        "cardId": "a1-bitte-study",
+        "de": "Bitte",
+        "csMain": "Žádost",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00101",
+      "cardId": "a1-bitte-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český text překládá jinou větu; německé Bitten znamená prosby nebo žádosti.",
+      "auditCurrentCs": "Jeden šálek kávy, prosím.",
+      "auditProposedCs": "Má dvě prosby.",
+      "auditDe": "Sie hat zwei Bitten.",
+      "auditLvSource": "Viņai ir divi lūgumi.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jeden šálek kávy, prosím.",
+      "cardContext": {
+        "cardId": "a1-bitte-study",
+        "de": "Bitte",
+        "csMain": "Žádost",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00102",
+      "cardId": "a1-bitte-study",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Věta „Bitte je malá písmena“ je v češtině gramaticky chybná.",
+      "auditCurrentCs": "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+      "auditProposedCs": "Bitte se píše s malým písmenem – je to zdvořilostní výraz, nikoli podstatné jméno.",
+      "auditDe": "bitte",
+      "auditLvSource": "lūdzu",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+      "cardContext": {
+        "cardId": "a1-bitte-study",
+        "de": "Bitte",
+        "csMain": "Žádost",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00103",
+      "cardId": "a1-bleiben",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Pobyt je podstatné jméno, zatímco bleiben je infinitiv slovesa zůstat.",
+      "auditCurrentCs": "Pobyt",
+      "auditProposedCs": "Zůstat",
+      "auditDe": "bleiben",
+      "auditLvSource": "palikt",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Pobyt",
+      "cardContext": {
+        "cardId": "a1-bleiben",
+        "de": "bleiben",
+        "csMain": "Pobyt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00104",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Vzít odpovídá nehmen, ne bringen; bringen vyjadřuje dopravení k cíli nebo osobě.",
+      "auditCurrentCs": "Přinést / vzít / dodat",
+      "auditProposedCs": "Přinést / odnést / dodat",
+      "auditDe": "bringen",
+      "auditLvSource": "atnest",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Přinést / vzít / dodat",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00105",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Význam je zbytečně zopakován a druhá položka nepřidává žádnou informaci.",
+      "auditCurrentCs": "Vzít / vzít",
+      "auditProposedCs": "Vzít",
+      "auditDe": "nehmen",
+      "auditLvSource": "aiznest",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Vzít / vzít",
+      "cardContext": {
+        "cardId": "a1-bringen",
+        "de": "bringen",
+        "csMain": "Přinést • Odnést",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00106",
+      "cardId": "a1-da",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Dvě ze tří českých položek jsou stejné; da se v tomto kontextu překládá také jako tady.",
+      "auditCurrentCs": "Tam • Zde • Zde (obecně)",
+      "auditProposedCs": "Tam • Tady • Zde (obecně)",
+      "auditDe": "da",
+      "auditLvSource": "tur • te • šeit (vispārīgi)",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Tam • Zde • Zde (obecně)",
+      "cardContext": {
+        "cardId": "a1-da",
+        "de": "da",
+        "csMain": "Tam",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00107",
+      "cardId": "a1-das",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "V české gramatické terminologii je německý Artikel člen, nikoli článek.",
+      "auditCurrentCs": "To (článek / zájmeno)",
+      "auditProposedCs": "To (člen / zájmeno)",
+      "auditDe": "das",
+      "auditLvSource": "tas (artikuls / vietniekvārds)",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "To (článek / zájmeno)",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00108",
+      "cardId": "a1-das",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Článek je chybný překlad odborného termínu Artikel; správně je člen.",
+      "auditCurrentCs": "Na úrovni A1 je das nejprve studován jako článek středního rodu.",
+      "auditProposedCs": "Na úrovni A1 je das nejprve studován jako určitý člen středního rodu.",
+      "auditDe": "das",
+      "auditLvSource": "vidus dzimtes noteiktais artikuls",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Na úrovni A1 je das nejprve studován jako článek středního rodu.",
+      "cardContext": {
+        "cardId": "a1-das",
+        "de": "das",
+        "csMain": "Neuter určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00109",
+      "cardId": "a1-der",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Český titul má nepřirozený slovosled; běžná formulace je „určitý člen mužského rodu“.",
+      "auditCurrentCs": "Mužský rod určitý člen",
+      "auditProposedCs": "Určitý člen mužského rodu",
+      "auditDe": "der",
+      "auditLvSource": "vīriešu dzimtes noteiktais artikuls",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Mužský rod určitý člen",
+      "cardContext": {
+        "cardId": "a1-der",
+        "de": "der",
+        "csMain": "Mužský rod určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00110",
+      "cardId": "a1-der",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Český titul má nepřirozený slovosled; běžná formulace je „určitý člen mužského rodu“.",
+      "auditCurrentCs": "Mužský rod určitý člen",
+      "auditProposedCs": "Určitý člen mužského rodu",
+      "auditDe": "der",
+      "auditLvSource": "vīriešu dzimtes noteiktais artikuls",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Mužský rod určitý člen",
+      "cardContext": {
+        "cardId": "a1-der",
+        "de": "der",
+        "csMain": "Mužský rod určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00111",
+      "cardId": "a1-die",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Pro přesný a přirozený český titul je třeba uvést „rodu“ a použít běžný slovosled.",
+      "auditCurrentCs": "Ženský určitý člen",
+      "auditProposedCs": "Určitý člen ženského rodu",
+      "auditDe": "die",
+      "auditLvSource": "sieviešu dzimtes noteiktais artikuls",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Ženský určitý člen",
+      "cardContext": {
+        "cardId": "a1-die",
+        "de": "die",
+        "csMain": "Ženský určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00112",
+      "cardId": "a1-die",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Pro přesný a přirozený český titul je třeba uvést „rodu“ a použít běžný slovosled.",
+      "auditCurrentCs": "Ženský určitý člen",
+      "auditProposedCs": "Určitý člen ženského rodu",
+      "auditDe": "die",
+      "auditLvSource": "sieviešu dzimtes noteiktais artikuls",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Ženský určitý člen",
+      "cardContext": {
+        "cardId": "a1-die",
+        "de": "die",
+        "csMain": "Ženský určitý člen",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00113",
+      "cardId": "a1-ein",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Někdo“ znamená německy „jemand“, nikoli „ein“; jde o chybný význam v hlavním překladu.",
+      "auditCurrentCs": "Neurčitý člen • Jeden • Někdo",
+      "auditProposedCs": "Neurčitý člen • Jeden",
+      "auditDe": "ein",
+      "auditLvSource": "nenoteiktais artikuls",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Neurčitý člen • Jeden • Někdo",
+      "cardContext": {
+        "cardId": "a1-ein",
+        "de": "ein",
+        "csMain": "Neurčitý člen • Jeden • Někdo",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00098",
+      "cardId": "a1-bitte",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Současná česká věta je gramaticky chybná; správně je „píše se s malým písmenem“.",
+      "currentCs": "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+      "proposedCs": "Bitte se píše s malým písmenem – je to zdvořilostní výraz, nikoli podstatné jméno."
+    },
+    {
+      "findingId": "MAIN-A1-00100",
+      "cardId": "a1-bitte-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Překlad „Prosím!“ odpovídá zdvořilostnímu bitte, nikoli podstatnému jménu Bitte ve větě.",
+      "currentCs": "Prosím!",
+      "proposedCs": "Plní mou prosbu."
+    },
+    {
+      "findingId": "MAIN-A1-00101",
+      "cardId": "a1-bitte-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Současný text překládá jinou větu; Bitten zde znamená prosby nebo žádosti.",
+      "currentCs": "Jeden šálek kávy, prosím.",
+      "proposedCs": "Má dvě prosby."
+    },
+    {
+      "findingId": "MAIN-A1-00102",
+      "cardId": "a1-bitte-study",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Současná česká věta je gramaticky chybná; správně je „píše se s malým písmenem“.",
+      "currentCs": "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+      "proposedCs": "Bitte se píše s malým písmenem – je to zdvořilostní výraz, nikoli podstatné jméno."
+    },
+    {
+      "findingId": "MAIN-A1-00103",
+      "cardId": "a1-bleiben",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Pobyt“ je podstatné jméno, zatímco bleiben je německý infinitiv slovesa „zůstat“.",
+      "currentCs": "Pobyt",
+      "proposedCs": "Zůstat"
+    },
+    {
+      "findingId": "MAIN-A1-00104",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "„Vzít“ běžně znamená nehmen, ne bringen; v tomto srovnání má být význam „odnést“.",
+      "currentCs": "Přinést / vzít / dodat",
+      "proposedCs": "Přinést / odnést / dodat"
+    },
+    {
+      "findingId": "MAIN-A1-00105",
+      "cardId": "a1-bringen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Opakování je redakčně neobratné, ale nejde o chybný význam; jde pouze o stylistické zjednodušení.",
+      "currentCs": "Vzít / vzít"
+    },
+    {
+      "findingId": "MAIN-A1-00106",
+      "cardId": "a1-da",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "reason": "„Zde“ je platný český překlad významu „tady“; rozdíl mezi tady a zde je stylistický, nikoli věcný.",
+      "currentCs": "Tam • Zde • Zde (obecně)"
+    },
+    {
+      "findingId": "MAIN-A1-00107",
+      "cardId": "a1-das",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V české gramatické terminologii je Artikel „člen“, nikoli „článek“.",
+      "currentCs": "To (článek / zájmeno)",
+      "proposedCs": "To (člen / zájmeno)"
+    },
+    {
+      "findingId": "MAIN-A1-00108",
+      "cardId": "a1-das",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Pro gramatický termín Artikel je v češtině správné označení „určitý člen“, ne „článek“.",
+      "currentCs": "Na úrovni A1 je das nejprve studován jako článek středního rodu.",
+      "proposedCs": "Na úrovni A1 je das nejprve studován jako určitý člen středního rodu."
+    },
+    {
+      "findingId": "MAIN-A1-00109",
+      "cardId": "a1-der",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "reason": "Titul je sice méně obvyklý, ale jeho význam je srozumitelný a jde o stylistickou preferenci.",
+      "currentCs": "Mužský rod určitý člen"
+    },
+    {
+      "findingId": "MAIN-A1-00110",
+      "cardId": "a1-der",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "reason": "Titul je sice méně obvyklý, ale jeho význam je srozumitelný a jde o stylistickou preferenci.",
+      "currentCs": "Mužský rod určitý člen"
+    },
+    {
+      "findingId": "MAIN-A1-00111",
+      "cardId": "a1-die",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Ženský určitý člen“ je přirozený a sémanticky správný český titul; delší varianta je jen stylistická preference.",
+      "currentCs": "Ženský určitý člen"
+    },
+    {
+      "findingId": "MAIN-A1-00112",
+      "cardId": "a1-die",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Ženský určitý člen“ je přirozený a sémanticky správný český titul; delší varianta je jen stylistická preference.",
+      "currentCs": "Ženský určitý člen"
+    },
+    {
+      "findingId": "MAIN-A1-00113",
+      "cardId": "a1-ein",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Někdo“ odpovídá německému jemand, nikoli ein; v hlavním překladu jde o chybný význam.",
+      "currentCs": "Neurčitý člen • Jeden • Někdo",
+      "proposedCs": "Neurčitý člen • Jeden"
+    }
+  ]
+}

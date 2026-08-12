@@ -1,0 +1,484 @@
+{
+  "batch": "validate-013",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00245",
+      "cardId": "a1-unter",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé liegt znamená „leží“; „spí“ odpovídá jinému slovesu schlafen.",
+      "auditCurrentCs": "Kočka spí pod židlí.",
+      "auditProposedCs": "Kočka leží pod židlí.",
+      "auditDe": "Die Katze liegt unter dem Stuhl.",
+      "auditLvSource": "kaķis guļ zem krēsla.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kočka spí pod židlí.",
+      "cardContext": {
+        "cardId": "a1-unter",
+        "de": "unter",
+        "csMain": "Pod",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00246",
+      "cardId": "a1-verstehen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad vynechává sloveso sprechen, tedy konkrétní význam „mluvit německy“.",
+      "auditCurrentCs": "Umím německy",
+      "auditProposedCs": "Umím mluvit německy.",
+      "auditDe": "Ich kann Deutsch sprechen.",
+      "auditLvSource": "es protu runāt vāciski.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Umím německy",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00247",
+      "cardId": "a1-verstehen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé wissen se primárně překládá jako „vědět“; české „znát“ zde zaměňuje wissen a kennen.",
+      "auditCurrentCs": "Znát skutečnost",
+      "auditProposedCs": "Vědět / znát skutečnost",
+      "auditDe": "wissen",
+      "auditLvSource": "zināt faktu",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Znát skutečnost",
+      "cardContext": {
+        "cardId": "a1-verstehen",
+        "de": "verstehen",
+        "csMain": "Pochopit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00250",
+      "cardId": "a1-was",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„vždy bylo“ je gramaticky i významově chybné; was má v němčině vždy stejný tvar.",
+      "auditCurrentCs": "Was samo o sobě se nemění - v němčině je to vždy bylo • V češtině vyberte koho nebo co podle části věty.",
+      "auditProposedCs": "Was samo o sobě se nemění – v němčině má vždy stejný tvar • V češtině vyberte „kdo“ nebo „co“ podle části věty.",
+      "auditDe": "was",
+      "auditLvSource": "was pats nemainās...",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Was samo o sobě se nemění - v němčině je to vždy bylo • V češtině vyberte koho nebo co podle části věty.",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00251",
+      "cardId": "a1-was",
+      "field": "study.tip[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "U věcí se v češtině používá „co“, nikoli „kdo“; „ko“ je navíc slovenský tvar.",
+      "auditCurrentCs": "Rychlý trik: pokud lze na otázku odpovědět „Je to...“, použijte kdo • Pokud je odpověď za slovesem jako doplněk, použijte ko.",
+      "auditProposedCs": "Rychlý trik: pokud lze na otázku odpovědět „Je to…“, použijte co • Pokud je was po slovese jako předmět, použijte co.",
+      "auditDe": "was",
+      "auditLvSource": "Ātrs triks...",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Rychlý trik: pokud lze na otázku odpovědět „Je to...“, použijte kdo • Pokud je odpověď za slovesem jako doplněk, použijte ko.",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00252",
+      "cardId": "a1-was",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Věta obsahuje chybný minulý pasivní opis místo přirozeného popisu funkce slova.",
+      "auditCurrentCs": "Byl dotazován na věci, události a fakta – nikdy na osoby.",
+      "auditProposedCs": "Ptá se na věci, události a fakta – nikdy na osoby.",
+      "auditDe": "was",
+      "auditLvSource": "was jautā par lietām...",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Byl dotazován na věci, události a fakta – nikdy na osoby.",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00253",
+      "cardId": "a1-was",
+      "field": "study.important[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Opravená česká věta obsahuje německý výraz „passiert“ místo správného celého německého příkladu.",
+      "auditCurrentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "auditProposedCs": "Špatně: Wer ist passiert? → Správně: Was ist passiert?",
+      "auditDe": "Was ist passiert?",
+      "auditLvSource": "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "cardContext": {
+        "cardId": "a1-was",
+        "de": "was",
+        "csMain": "Kdo • Co",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00254",
+      "cardId": "a1-wer",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Výklad slovesa je v nesprávném minulém čísle a osobě.",
+      "auditCurrentCs": "Ptali se na lidi, ne na věci nebo události.",
+      "auditProposedCs": "Ptá se na lidi, ne na věci nebo události.",
+      "auditDe": "wer",
+      "auditLvSource": "wer jautā par cilvēkiem...",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Ptali se na lidi, ne na věci nebo události.",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00255",
+      "cardId": "a1-wer",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Jsou žádány“ je chybný doslovný překlad; česká vazba je „ptát se na něco“ nebo „pomocí“.",
+      "auditCurrentCs": "Věci a události jsou žádány s was, ne wer.",
+      "auditProposedCs": "Na věci a události se ptáme pomocí was, ne wer.",
+      "auditDe": "wer",
+      "auditLvSource": "Par lietām un notikumiem jautā ar was...",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Věci a události jsou žádány s was, ne wer.",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00257",
+      "cardId": "a1-wer",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Výklad slovesa je v nesprávném minulém čase.",
+      "auditCurrentCs": "Ptali jsme se pouze na osoby, nikdy ne na věci.",
+      "auditProposedCs": "Ptáme se pouze na osoby, nikdy ne na věci.",
+      "auditDe": "wer",
+      "auditLvSource": "wer jautā tikai par personām...",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Ptali jsme se pouze na osoby, nikdy ne na věci.",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00258",
+      "cardId": "a1-wer",
+      "field": "study.important[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Opravená česká věta obsahuje německý výraz „passiert“ místo správného celého německého příkladu.",
+      "auditCurrentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "auditProposedCs": "Špatně: Wer ist passiert? → Správně: Was ist passiert?",
+      "auditDe": "Was ist passiert?",
+      "auditLvSource": "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "cardContext": {
+        "cardId": "a1-wer",
+        "de": "wer",
+        "csMain": "Kdo • Kdo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00260",
+      "cardId": "a1-wetter",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní český název má být krátký a praktický; „čas“ zde může znamenat časový údaj.",
+      "auditCurrentCs": "Čas (počasí)",
+      "auditProposedCs": "Počasí",
+      "auditDe": "Wetter",
+      "auditLvSource": "laiks (laikapstākļi)",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Čas (počasí)",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00261",
+      "cardId": "a1-wetter",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„s dasem Wetterem“ je nepřirozené a gramaticky chybné skloňování německého výrazu.",
+      "auditCurrentCs": "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
+      "auditProposedCs": "O počasí se mluví s výrazem das Wetter: Wie ist das Wetter heute?",
+      "auditDe": "das Wetter",
+      "auditLvSource": "Par laiku dabā runā ar das Wetter",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00262",
+      "cardId": "a1-wetter",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Český text míchá české „teplý“ s německým „kalt“; příklady mají být jazykově konzistentní.",
+      "auditCurrentCs": "Das Wetter se často používá ve větě spolu se slovy jako teplý nebo kalt.",
+      "auditProposedCs": "Das Wetter se často používá ve větě spolu se slovy jako warm nebo kalt.",
+      "auditDe": "Das Wetter ist kalt",
+      "auditLvSource": "Teikumā bieži lieto das Wetter kopā ar warm vai kalt",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Das Wetter se často používá ve větě spolu se slovy jako teplý nebo kalt.",
+      "cardContext": {
+        "cardId": "a1-wetter",
+        "de": "Wetter",
+        "csMain": "Čas (počasí)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00266",
+      "cardId": "a1-zu",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Neurčito“ není v češtině správný gramatický termín ani přirozené vyjádření.",
+      "auditCurrentCs": "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen.",
+      "auditProposedCs": "V konstrukci zu + infinitiv se zu používá před infinitivem: zu lernen, zu gehen.",
+      "auditDe": "zu + Infinitiv",
+      "auditLvSource": "Konstrukcijā zu + nenoteiksme...",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen.",
+      "cardContext": {
+        "cardId": "a1-zu",
+        "de": "zu",
+        "csMain": "Do • At",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00245",
+      "cardId": "a1-unter",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "„Liegen“ znamená ležet; české „spí“ mění význam německé věty.",
+      "currentCs": "Kočka spí pod židlí.",
+      "proposedCs": "Kočka leží pod židlí."
+    },
+    {
+      "findingId": "MAIN-A1-00246",
+      "cardId": "a1-verstehen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "„Umím německy“ je přirozený český překlad vyjadřující schopnost mluvit německy; nejde o významovou chybu.",
+      "currentCs": "Umím německy"
+    },
+    {
+      "findingId": "MAIN-A1-00247",
+      "cardId": "a1-verstehen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.91,
+      "reason": "„Znát skutečnost“ je v češtině přirozené a významově přijatelné vyjádření znalosti skutečnosti.",
+      "currentCs": "Znát skutečnost"
+    },
+    {
+      "findingId": "MAIN-A1-00250",
+      "cardId": "a1-was",
+      "field": "study.tip[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Text obsahuje chybný a zavádějící český převod „vždy bylo“; vysvětlení má popsat neměnný německý tvar.",
+      "currentCs": "Was samo o sobě se nemění - v němčině je to vždy bylo • V češtině vyberte koho nebo co podle části věty.",
+      "proposedCs": "Was samo o sobě se nemění – v němčině má vždy stejný tvar • V češtině vyberte „kdo“ nebo „co“ podle části věty."
+    },
+    {
+      "findingId": "MAIN-A1-00251",
+      "cardId": "a1-was",
+      "field": "study.tip[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Text používá slovenské „ko“ a nesprávně doporučuje „kdo“ pro věci; v češtině je zde „co“.",
+      "currentCs": "Rychlý trik: pokud lze na otázku odpovědět „Je to...“, použijte kdo • Pokud je odpověď za slovesem jako doplněk, použijte ko.",
+      "proposedCs": "Rychlý trik: pokud lze na otázku odpovědět „Je to…“, použijte co • Pokud je was po slovese jako předmět, použijte co."
+    },
+    {
+      "findingId": "MAIN-A1-00252",
+      "cardId": "a1-was",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Pasivní minulý opis „Byl dotazován“ je zde gramaticky i významově nevhodný; text popisuje funkci slova obecně.",
+      "currentCs": "Byl dotazován na věci, události a fakta – nikdy na osoby.",
+      "proposedCs": "Ptá se na věci, události a fakta – nikdy na osoby."
+    },
+    {
+      "findingId": "MAIN-A1-00253",
+      "cardId": "a1-was",
+      "field": "study.important[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Příklad je v produkci jazykově smíšený a obsahuje české „Bylo to“ místo německého „Was ist“.",
+      "currentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "proposedCs": "Špatně: Wer ist passiert? → Správně: Was ist passiert?"
+    },
+    {
+      "findingId": "MAIN-A1-00254",
+      "cardId": "a1-wer",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.97,
+      "reason": "Minulý čas „Ptali se“ neodpovídá obecnému výkladu významu zájmena wer v přítomném čase.",
+      "currentCs": "Ptali se na lidi, ne na věci nebo události.",
+      "proposedCs": "Ptá se na lidi, ne na věci nebo události."
+    },
+    {
+      "findingId": "MAIN-A1-00255",
+      "cardId": "a1-wer",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "„Věci a události jsou žádány“ je nepřirozený doslovný překlad; čeština zde vyžaduje vazbu „ptát se na“.",
+      "currentCs": "Věci a události jsou žádány s was, ne wer.",
+      "proposedCs": "Na věci a události se ptáme pomocí was, ne wer."
+    },
+    {
+      "findingId": "MAIN-A1-00257",
+      "cardId": "a1-wer",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Minulý čas „Ptali jsme se“ neodpovídá obecnému tvrzení o použití zájmena wer.",
+      "currentCs": "Ptali jsme se pouze na osoby, nikdy ne na věci.",
+      "proposedCs": "Ptáme se pouze na osoby, nikdy ne na věci."
+    },
+    {
+      "findingId": "MAIN-A1-00258",
+      "cardId": "a1-wer",
+      "field": "study.important[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "Příklad je v produkci jazykově smíšený a obsahuje české „Bylo to“ místo německého „Was ist“.",
+      "currentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+      "proposedCs": "Špatně: Wer ist passiert? → Správně: Was ist passiert?"
+    },
+    {
+      "findingId": "MAIN-A1-00260",
+      "cardId": "a1-wetter",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": 0.96,
+      "reason": "„Čas (počasí)“ je platný český disambiguovaný název a jasně odlišuje význam Wetter od časového údaje.",
+      "currentCs": "Čas (počasí)"
+    },
+    {
+      "findingId": "MAIN-A1-00261",
+      "cardId": "a1-wetter",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 1,
+      "reason": "„s dasem Wetterem“ je chybná a nepřirozená konstrukce; německý výraz má být uveden jako das Wetter.",
+      "currentCs": "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
+      "proposedCs": "O počasí se mluví s výrazem das Wetter: Wie ist das Wetter heute?"
+    },
+    {
+      "findingId": "MAIN-A1-00262",
+      "cardId": "a1-wetter",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Text míchá české „teplý“ s německým „kalt“; příklady německých slov mají být jazykově konzistentní.",
+      "currentCs": "Das Wetter se často používá ve větě spolu se slovy jako teplý nebo kalt.",
+      "proposedCs": "Das Wetter se často používá ve větě spolu se slovy jako warm nebo kalt."
+    },
+    {
+      "findingId": "MAIN-A1-00266",
+      "cardId": "a1-zu",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Neurčito“ není správný český gramatický termín; německé označení je infinitiv.",
+      "currentCs": "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen.",
+      "proposedCs": "V konstrukci zu + infinitiv se zu používá před infinitivem: zu lernen, zu gehen."
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "batch": "validate-010",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00195",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[3].lv.green[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německému zájmenu dich odpovídá české „tě“.",
+      "auditCurrentCs": "Vezmu",
+      "auditProposedCs": "tě",
+      "auditDe": "dich",
+      "auditLvSource": "tevi",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Vezmu",
+      "cardContext": {
+        "cardId": "a1-nehmen",
+        "de": "nehmen",
+        "csMain": "Brát • Vzít",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00196",
+      "cardId": "a1-neu",
+      "field": "study.examples[6].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Česká otázka postrádá otazník.",
+      "auditCurrentCs": "Co je nového",
+      "auditProposedCs": "Co je nového?",
+      "auditDe": "Was gibt es Neues?",
+      "auditLvSource": "kas jauns?",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Co je nového",
+      "cardContext": {
+        "cardId": "a1-neu",
+        "de": "neu",
+        "csMain": "Nový (o věcech)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00197",
+      "cardId": "a1-neu",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Po záporném významu má být spojka „ne“, nikoli „ani“.",
+      "auditCurrentCs": "Neu popisuje věci a zprávy, ani věk člověka nebo zvířete.",
+      "auditProposedCs": "Neu popisuje věci a zprávy, ne věk člověka nebo zvířete.",
+      "auditDe": "neu",
+      "auditLvSource": "jauns par lietām, ne cilvēka vecumu",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Neu popisuje věci a zprávy, ani věk člověka nebo zvířete.",
+      "cardContext": {
+        "cardId": "a1-neu",
+        "de": "neu",
+        "csMain": "Nový (o věcech)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00198",
+      "cardId": "a1-neu",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýrazněné české slovo neodpovídá německému cílovému slovu neu.",
+      "auditCurrentCs": "Můj",
+      "auditProposedCs": "nový",
+      "auditDe": "neu",
+      "auditLvSource": "jauns",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Můj",
+      "cardContext": {
+        "cardId": "a1-neu",
+        "de": "neu",
+        "csMain": "Nový (o věcech)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00199",
+      "cardId": "a1-neu",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvýrazněné české slovo neodpovídá německému tvaru neues.",
+      "auditCurrentCs": "Máme",
+      "auditProposedCs": "nové",
+      "auditDe": "neues",
+      "auditLvSource": "jauna",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Máme",
+      "cardContext": {
+        "cardId": "a1-neu",
+        "de": "neu",
+        "csMain": "Nový (o věcech)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00200",
+      "cardId": "a1-noch-study",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německému noch odpovídá v českém překladu „pořád“, ne „Jsem“.",
+      "auditCurrentCs": "Jsem",
+      "auditProposedCs": "pořád",
+      "auditDe": "noch",
+      "auditLvSource": "vēl",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Jsem",
+      "cardContext": {
+        "cardId": "a1-noch-study",
+        "de": "noch",
+        "csMain": "Ještě",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00201",
+      "cardId": "a1-nur-study",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní překlad zbytečně opakuje stejný význam; pro nur stačí krátké „Pouze“.",
+      "auditCurrentCs": "Pouze • Pouze",
+      "auditProposedCs": "Pouze",
+      "auditDe": "nur",
+      "auditLvSource": "tikai • vienīgi",
+      "category": "STUDY",
+      "productionCurrentCs": "Pouze • Pouze",
+      "cardContext": {
+        "cardId": "a1-nur-study",
+        "de": "nur",
+        "csMain": "Pouze • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00202",
+      "cardId": "a1-nur-study",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Kafe“ je hovorové a chybí tečka; neutrální překlad je „Chci jen kávu.“",
+      "auditCurrentCs": "Chci jen kafe",
+      "auditProposedCs": "Chci jen kávu.",
+      "auditDe": "Ich möchte nur Kaffee.",
+      "auditLvSource": "es gribu tikai kafiju.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Chci jen kafe",
+      "cardContext": {
+        "cardId": "a1-nur-study",
+        "de": "nur",
+        "csMain": "Pouze • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00203",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ob v nepřímé otázce znamená „zda/jestli“, ne „nebo“.",
+      "auditCurrentCs": "Nebo",
+      "auditProposedCs": "Zda",
+      "auditDe": "ob",
+      "auditLvSource": "vai netiešā jautājumā",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Nebo",
+      "cardContext": {
+        "cardId": "a1-ob",
+        "de": "ob",
+        "csMain": "Zda • Jestli",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00204",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Zvýraznění významu ob je chybné; správně je „zda / jestli“.",
+      "auditCurrentCs": "Nebo",
+      "auditProposedCs": "jestli",
+      "auditDe": "ob",
+      "auditLvSource": "vai netiešā jautājumā",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Nebo",
+      "cardContext": {
+        "cardId": "a1-ob",
+        "de": "ob",
+        "csMain": "Zda • Jestli",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00205",
+      "cardId": "a1-oder",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Nebo si vyberte“ je nepřirozený popis významu slova oder.",
+      "auditCurrentCs": "Nebo si vyberte",
+      "auditProposedCs": "Nebo při volbě mezi možnostmi",
+      "auditDe": "oder",
+      "auditLvSource": "vai izvēlē",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Nebo si vyberte",
+      "cardContext": {
+        "cardId": "a1-oder",
+        "de": "oder",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00206",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.examples[0].lv.yellow[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německému Tee odpovídá české „čaj“, ne „Káva“.",
+      "auditCurrentCs": "Káva",
+      "auditProposedCs": "čaj",
+      "auditDe": "Tee",
+      "auditLvSource": "tēju",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Káva",
+      "cardContext": {
+        "cardId": "a1-oder",
+        "de": "oder",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00207",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ob v nepřímé otázce znamená „zda/jestli“, nikoli „nebo“.",
+      "auditCurrentCs": "Nebo",
+      "auditProposedCs": "Zda",
+      "auditDe": "ob",
+      "auditLvSource": "vai netiešā jautājumā",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Nebo",
+      "cardContext": {
+        "cardId": "a1-oder",
+        "de": "oder",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00208",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Zvýrazněný český význam ob je nesprávný.",
+      "auditCurrentCs": "Nebo",
+      "auditProposedCs": "jestli",
+      "auditDe": "ob",
+      "auditLvSource": "vai netiešā jautājumā",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Nebo",
+      "cardContext": {
+        "cardId": "a1-oder",
+        "de": "oder",
+        "csMain": "Nebo",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00209",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Fit“ je anglicismus; český překlad slovesa passen je „pasovat“ nebo „slušet“.",
+      "auditCurrentCs": "Fit",
+      "auditProposedCs": "Pasovat",
+      "auditDe": "passen",
+      "auditLvSource": "derēt",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Fit",
+      "cardContext": {
+        "cardId": "a1-passen",
+        "de": "passen",
+        "csMain": "Pasovat • Slušet",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00195",
+      "cardId": "a1-nehmen",
+      "field": "study.sectionAccents.examples[3].lv.green[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The highlighted Czech text does not correspond to German “dich”; the correct equivalent is “tě”.",
+      "currentCs": "Vezmu",
+      "proposedCs": "tě"
+    },
+    {
+      "findingId": "MAIN-A1-00196",
+      "cardId": "a1-neu",
+      "field": "study.examples[6].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The Czech question is missing its closing question mark.",
+      "currentCs": "Co je nového",
+      "proposedCs": "Co je nového?"
+    },
+    {
+      "findingId": "MAIN-A1-00197",
+      "cardId": "a1-neu",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "“Ani” is incorrect in this affirmative contrast; the sentence requires “ne”.",
+      "currentCs": "Neu popisuje věci a zprávy, ani věk člověka nebo zvířete.",
+      "proposedCs": "Neu popisuje věci a zprávy, ne věk člověka nebo zvířete."
+    },
+    {
+      "findingId": "MAIN-A1-00198",
+      "cardId": "a1-neu",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The highlighted Czech word “Můj” does not express German “neu”; it should be “nový”.",
+      "currentCs": "Můj",
+      "proposedCs": "nový"
+    },
+    {
+      "findingId": "MAIN-A1-00199",
+      "cardId": "a1-neu",
+      "field": "study.sectionAccents.examples[1].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The highlighted Czech word “Máme” does not correspond to German “neues”; the correct word is “nové”.",
+      "currentCs": "Máme",
+      "proposedCs": "nové"
+    },
+    {
+      "findingId": "MAIN-A1-00200",
+      "cardId": "a1-noch-study",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The highlighted Czech word “Jsem” does not translate German “noch”; the intended equivalent is “pořád”.",
+      "currentCs": "Jsem",
+      "proposedCs": "pořád"
+    },
+    {
+      "findingId": "MAIN-A1-00201",
+      "cardId": "a1-nur-study",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "The duplicated translation is redundant but does not change the meaning; this is a presentation preference.",
+      "currentCs": "Pouze • Pouze"
+    },
+    {
+      "findingId": "MAIN-A1-00202",
+      "cardId": "a1-nur-study",
+      "field": "study.examples[3].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "“Kafe” is acceptable colloquial Czech, and sentence-final punctuation is a stylistic formatting preference here.",
+      "currentCs": "Chci jen kafe"
+    },
+    {
+      "findingId": "MAIN-A1-00203",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "In an indirect question, German “ob” means “zda/jestli”, not “nebo”.",
+      "currentCs": "Nebo",
+      "proposedCs": "Zda"
+    },
+    {
+      "findingId": "MAIN-A1-00204",
+      "cardId": "a1-ob",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The highlighted meaning of German “ob” is incorrect; “jestli” is the appropriate Czech equivalent.",
+      "currentCs": "Nebo",
+      "proposedCs": "jestli"
+    },
+    {
+      "findingId": "MAIN-A1-00205",
+      "cardId": "a1-oder",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "“Nebo si vyberte” is understandable and valid contextual Czech; the proposed wording is only a stylistic preference.",
+      "currentCs": "Nebo si vyberte"
+    },
+    {
+      "findingId": "MAIN-A1-00206",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.examples[0].lv.yellow[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "German “Tee” corresponds to Czech “čaj”, not “Káva”.",
+      "currentCs": "Káva",
+      "proposedCs": "čaj"
+    },
+    {
+      "findingId": "MAIN-A1-00207",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "In an indirect question, German “ob” means “zda/jestli”, not “nebo”.",
+      "currentCs": "Nebo",
+      "proposedCs": "Zda"
+    },
+    {
+      "findingId": "MAIN-A1-00208",
+      "cardId": "a1-oder",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The highlighted Czech meaning for German “ob” is incorrect; “jestli” is appropriate.",
+      "currentCs": "Nebo",
+      "proposedCs": "jestli"
+    },
+    {
+      "findingId": "MAIN-A1-00209",
+      "cardId": "a1-passen",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "“Fit” is an unsuitable anglicism for this Czech teaching gloss; “Pasovat” correctly represents German “passen”.",
+      "currentCs": "Fit",
+      "proposedCs": "Pasovat"
+    }
+  ]
+}

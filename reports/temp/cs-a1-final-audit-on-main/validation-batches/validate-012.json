@@ -1,0 +1,487 @@
+{
+  "batch": "validate-012",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00227",
+      "cardId": "a1-sitzen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé liegen znamená „ležet“, ne „spát“. Přidaný význam učí nesprávné rozlišení sitzen/liegen.",
+      "auditCurrentCs": "Spát / ležet",
+      "auditProposedCs": "Ležet",
+      "auditDe": "liegen",
+      "auditLvSource": "gulēt / atrasties guļus",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Spát / ležet",
+      "cardContext": {
+        "cardId": "a1-sitzen",
+        "de": "sitzen",
+        "csMain": "Sedět",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00229",
+      "cardId": "a1-sollen",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "České pořadí slov je „měl by“; „by měl“ je zde nepřirozený a neúplný hlavní překlad.",
+      "auditCurrentCs": "By měl",
+      "auditProposedCs": "Měl by",
+      "auditDe": "sollen",
+      "auditLvSource": "vajadzētu",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "By měl",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "By měl",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00230",
+      "cardId": "a1-sollen",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "České pořadí slov je „měl by“; „by měl“ je zde nepřirozený a neúplný hlavní překlad.",
+      "auditCurrentCs": "By měl",
+      "auditProposedCs": "Měl by",
+      "auditDe": "sollen",
+      "auditLvSource": "vajadzētu",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "By měl",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "By měl",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00231",
+      "cardId": "a1-sollen",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Infinitiv českého slovesa je „muset“, nikoli „musit“.",
+      "auditCurrentCs": "Musit / být nutné",
+      "auditProposedCs": "Muset / být nutné",
+      "auditDe": "müssen",
+      "auditLvSource": "obligāti vajadzēt",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Musit / být nutné",
+      "cardContext": {
+        "cardId": "a1-sollen",
+        "de": "sollen",
+        "csMain": "By měl",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00233",
+      "cardId": "a1-stehen",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Karta výslovně učí rozdíl stehen/liegen; „je“ tento význam a kontrast ztrácí.",
+      "auditCurrentCs": "Židle je v kuchyni.",
+      "auditProposedCs": "Židle stojí v kuchyni.",
+      "auditDe": "Der Stuhl steht in der Küche.",
+      "auditLvSource": "krēsls stāv virtuvē.",
+      "category": "STUDY",
+      "productionCurrentCs": "Židle je v kuchyni.",
+      "cardContext": {
+        "cardId": "a1-stehen",
+        "de": "stehen",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00234",
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad „je“ je obecný; německé liegen zde konkrétně znamená „ležet“, což je cílem kontrastního příkladu.",
+      "auditCurrentCs": "Kniha je na stole.",
+      "auditProposedCs": "Kniha leží na stole.",
+      "auditDe": "Das Buch liegt auf dem Tisch.",
+      "auditLvSource": "grāmata atrodas uz galda.",
+      "category": "STUDY",
+      "productionCurrentCs": "Kniha je na stole.",
+      "cardContext": {
+        "cardId": "a1-stehen",
+        "de": "stehen",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00235",
+      "cardId": "a1-stehen",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé liegen znamená „ležet“, ne „spát“.",
+      "auditCurrentCs": "Spát / ležet",
+      "auditProposedCs": "Ležet",
+      "auditDe": "liegen",
+      "auditLvSource": "gulēt / atrasties guļus",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Spát / ležet",
+      "cardContext": {
+        "cardId": "a1-stehen",
+        "de": "stehen",
+        "csMain": "Stát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00237",
+      "cardId": "a1-über",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Pro“ není běžný význam über; hlavní překlad navíc vynechává základní významy „nad“ a „o“.",
+      "auditCurrentCs": "Přes • Pro",
+      "auditProposedCs": "Nad • O • Přes",
+      "auditDe": "über",
+      "auditLvSource": "virs • par",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Přes • Pro",
+      "cardContext": {
+        "cardId": "a1-über",
+        "de": "über",
+        "csMain": "Přes • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00238",
+      "cardId": "a1-über",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Asi“ neznamená německé von; jde typicky o „z“ nebo „od“, případně „o“ podle kontextu.",
+      "auditCurrentCs": "Z / asi z nějakého zdroje",
+      "auditProposedCs": "Z / od",
+      "auditDe": "von",
+      "auditLvSource": "no / par no kāda avota",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Z / asi z nějakého zdroje",
+      "cardContext": {
+        "cardId": "a1-über",
+        "de": "über",
+        "csMain": "Přes • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00239",
+      "cardId": "a1-um",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Hodiny“ není překlad předložky um; chybí časové „v“ a účelové „aby“.",
+      "auditCurrentCs": "Kolem • Hodiny",
+      "auditProposedCs": "Kolem • V (čas) • Aby",
+      "auditDe": "um",
+      "auditLvSource": "ap • pulksten",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Kolem • Hodiny",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00240",
+      "cardId": "a1-um",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Hodiny“ není překlad předložky um; chybí časové „v“ a účelové „aby“.",
+      "auditCurrentCs": "Kolem • Hodiny",
+      "auditProposedCs": "Kolem • V (čas) • Aby",
+      "auditDe": "um",
+      "auditLvSource": "ap • pulksten",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Kolem • Hodiny",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00241",
+      "cardId": "a1-um",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Účelové um ... zu znamená „aby“, nikoli „do“.",
+      "auditCurrentCs": "V / kolem / do",
+      "auditProposedCs": "V / kolem / aby",
+      "auditDe": "um",
+      "auditLvSource": "pulksten / ap / lai",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "V / kolem / do",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00242",
+      "cardId": "a1-um",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Am ve spojení am Montag znamená „v pondělí“; „za den“ je chybný význam.",
+      "auditCurrentCs": "Za den / v",
+      "auditProposedCs": "V (den) / u",
+      "auditDe": "am",
+      "auditLvSource": "dienā / pie",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Za den / v",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00243",
+      "cardId": "a1-um",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Vs“ není české označení významu; gegen znamená také „proti“.",
+      "auditCurrentCs": "Kolem času / vs",
+      "auditProposedCs": "Kolem času / proti",
+      "auditDe": "gegen",
+      "auditLvSource": "ap laiku / pret",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Kolem času / vs",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00244",
+      "cardId": "a1-um",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Český překlad časového výrazu potřebuje předložku „v“; „osm hodin“ zde působí jako neúplná věta.",
+      "auditCurrentCs": "Pamatujte: um acht = osm hodin.",
+      "auditProposedCs": "Pamatujte: um acht = v osm.",
+      "auditDe": "um acht = um acht Uhr",
+      "auditLvSource": "Atceries: um acht = pulksten astoņos.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Pamatujte: um acht = osm hodin.",
+      "cardContext": {
+        "cardId": "a1-um",
+        "de": "um",
+        "csMain": "Kolem • Hodiny",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00227",
+      "cardId": "a1-sitzen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Liegen“ znamená „ležet“; přidané „spát“ je nesprávný význam a může vést k chybnému rozlišení sloves.",
+      "currentCs": "Spát / ležet",
+      "proposedCs": "Ležet"
+    },
+    {
+      "findingId": "MAIN-A1-00229",
+      "cardId": "a1-sollen",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Jako samostatný český překlad je přirozené pořadí „měl by“, nikoli neúplně působící „by měl“.",
+      "currentCs": "By měl",
+      "proposedCs": "Měl by"
+    },
+    {
+      "findingId": "MAIN-A1-00230",
+      "cardId": "a1-sollen",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Jako samostatný český překlad je přirozené pořadí „měl by“, nikoli neúplně působící „by měl“.",
+      "currentCs": "By měl",
+      "proposedCs": "Měl by"
+    },
+    {
+      "findingId": "MAIN-A1-00231",
+      "cardId": "a1-sollen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Správný infinitiv českého slovesa je „muset“, nikoli „musit“.",
+      "currentCs": "Musit / být nutné",
+      "proposedCs": "Muset / být nutné"
+    },
+    {
+      "findingId": "MAIN-A1-00233",
+      "cardId": "a1-stehen",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V kontrastu se stehen/liegen obecné „je“ zamlčuje význam „stojí“ a oslabuje učební cíl příkladu.",
+      "currentCs": "Židle je v kuchyni.",
+      "proposedCs": "Židle stojí v kuchyni."
+    },
+    {
+      "findingId": "MAIN-A1-00234",
+      "cardId": "a1-stehen",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V kontrastním příkladu má být význam německého liegen vyjádřen konkrétně jako „ležet“, ne pouze obecným „být“.",
+      "currentCs": "Kniha je na stole.",
+      "proposedCs": "Kniha leží na stole."
+    },
+    {
+      "findingId": "MAIN-A1-00235",
+      "cardId": "a1-stehen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Liegen“ znamená „ležet“; „spát“ je zde nesprávný význam.",
+      "currentCs": "Spát / ležet",
+      "proposedCs": "Ležet"
+    },
+    {
+      "findingId": "MAIN-A1-00237",
+      "cardId": "a1-über",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Pro“ není zde vhodný základní překlad über a současně chybí běžné významy „nad“ a „o“.",
+      "currentCs": "Přes • Pro",
+      "proposedCs": "Nad • O • Přes"
+    },
+    {
+      "findingId": "MAIN-A1-00238",
+      "cardId": "a1-über",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Von“ zde znamená „z“ nebo „od“; „asi“ je chybný významový doplněk.",
+      "currentCs": "Z / asi z nějakého zdroje",
+      "proposedCs": "Z / od"
+    },
+    {
+      "findingId": "MAIN-A1-00239",
+      "cardId": "a1-um",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Hodiny“ není překlad předložky um; chybí časový význam „v“ a účelový význam „aby“.",
+      "currentCs": "Kolem • Hodiny",
+      "proposedCs": "Kolem • V (čas) • Aby"
+    },
+    {
+      "findingId": "MAIN-A1-00240",
+      "cardId": "a1-um",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Hodiny“ není překlad předložky um; chybí časový význam „v“ a účelový význam „aby“.",
+      "currentCs": "Kolem • Hodiny",
+      "proposedCs": "Kolem • V (čas) • Aby"
+    },
+    {
+      "findingId": "MAIN-A1-00241",
+      "cardId": "a1-um",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Účelové um ... zu se překládá „aby“, nikoli „do“.",
+      "currentCs": "V / kolem / do",
+      "proposedCs": "V / kolem / aby"
+    },
+    {
+      "findingId": "MAIN-A1-00242",
+      "cardId": "a1-um",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Ve spojení am Montag znamená am „v“, nikoli „za den“; druhý význam „u“ je kontextově správný.",
+      "currentCs": "Za den / v",
+      "proposedCs": "V (den) / u"
+    },
+    {
+      "findingId": "MAIN-A1-00243",
+      "cardId": "a1-um",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Vs“ není české označení významu a v tomto kontrastu má být uvedeno „proti“.",
+      "currentCs": "Kolem času / vs",
+      "proposedCs": "Kolem času / proti"
+    },
+    {
+      "findingId": "MAIN-A1-00244",
+      "cardId": "a1-um",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Český časový výraz vyžaduje předložku „v“: „um acht“ znamená „v osm“.",
+      "currentCs": "Pamatujte: um acht = osm hodin.",
+      "proposedCs": "Pamatujte: um acht = v osm."
+    }
+  ]
+}

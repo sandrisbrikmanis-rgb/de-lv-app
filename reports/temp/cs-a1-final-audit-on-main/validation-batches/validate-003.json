@@ -1,0 +1,482 @@
+{
+  "batch": "validate-003",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00080",
+      "cardId": "a1-also",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Also“ v tomto významu vyjadřuje závěr („tedy, takže“); „proto“ se běžně pojí spíše s deshalb.",
+      "auditCurrentCs": "Proto",
+      "auditProposedCs": "Tedy • Takže",
+      "auditDe": "also",
+      "auditLvSource": "tātad",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Proto",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Proto",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00081",
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český překlad mění oznamovací větu „nejdeš“ na rozkaz „nechoď“.",
+      "auditCurrentCs": "Jsi nemocný, tak nechoď do práce.",
+      "auditProposedCs": "Jsi nemocný, takže nejdeš do práce.",
+      "auditDe": "Du bist krank, also gehst du nicht zur Arbeit.",
+      "auditLvSource": "tu esi slims, tāpēc neej uz darbu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jsi nemocný, tak nechoď do práce.",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Proto",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00082",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Jdu taky“ znamená spíše „Ich gehe auch“; německé kommen zde odpovídá „přijdu“.",
+      "auditCurrentCs": "Já jdu taky.",
+      "auditProposedCs": "Já také přijdu.",
+      "auditDe": "Ich komme auch.",
+      "auditLvSource": "Es arī nāku.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Já jdu taky.",
+      "cardContext": {
+        "cardId": "a1-auch-study",
+        "de": "auch",
+        "csMain": "Také",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00083",
+      "cardId": "a1-auf",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "U knihy české „postavím“ naznačuje svislé postavení; běžný význam věty je „položím“.",
+      "auditCurrentCs": "Postavím knihu na stůl.",
+      "auditProposedCs": "Položím knihu na stůl.",
+      "auditDe": "Ich stelle das Buch auf den Tisch.",
+      "auditLvSource": "es lieku grāmatu uz galda.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Postavím knihu na stůl.",
+      "cardContext": {
+        "cardId": "a1-auf",
+        "de": "auf",
+        "csMain": "Na",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00084",
+      "cardId": "a1-aufs",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní překlad obsahuje otázku „kam?“ a opakuje ji; má být krátký praktický překlad „na“.",
+      "auditCurrentCs": "Kam • Na • Kam?",
+      "auditProposedCs": "Na",
+      "auditDe": "aufs",
+      "auditLvSource": "uz",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "Kam • Na • Kam?",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00085",
+      "cardId": "a1-aufs",
+      "field": "study.tip.text",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Pro směr s akuzativem se ptáme „kam?“, nikoli „kde?“; navíc je otázka zbytečně opakovaná.",
+      "auditCurrentCs": "Pamatujte: auf + das → aufs (kde?, kde?).",
+      "auditProposedCs": "Pamatujte: auf + das → aufs (kam?).",
+      "auditDe": "aufs = auf das",
+      "auditLvSource": "auf + das → aufs (kurp?)",
+      "category": "GRAMMAR",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00086",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "U kontrastního příkladu „an die Wand“ jde o směr a akuzativ, tedy „na svislý povrch“.",
+      "auditCurrentCs": "Na svislém povrchu",
+      "auditProposedCs": "Na svislý povrch",
+      "auditDe": "an",
+      "auditLvSource": "pie vertikālas virsmas",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Na svislém povrchu",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00087",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[4].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Zum“ je zkrácené zu dem a vyjadřuje směr „k“, ne otázku „u koho?“.",
+      "auditCurrentCs": "Komu / u (koho?)",
+      "auditProposedCs": "K (někomu/něčemu)",
+      "auditDe": "zum",
+      "auditLvSource": "uz / pie (kam?)",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Komu / u (koho?)",
+      "cardContext": {
+        "cardId": "a1-aufs",
+        "de": "aufs",
+        "csMain": "Kam • Na • Kam?",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00090",
+      "cardId": "a1-baden",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Plavat odpovídá německému schwimmen; baden znamená koupat se nebo rekreačně pobývat ve vodě.",
+      "auditCurrentCs": "Plavat",
+      "auditProposedCs": "Koupat se",
+      "auditDe": "baden",
+      "auditLvSource": "peldēties",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Plavat",
+      "cardContext": {
+        "cardId": "a1-baden",
+        "de": "baden",
+        "csMain": "Plavat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00091",
+      "cardId": "a1-baden",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé im See vyjadřuje místo, nikoli směr do jezera.",
+      "auditCurrentCs": "Jdeme se koupat do jezera.",
+      "auditProposedCs": "Jdeme se koupat v jezeře.",
+      "auditDe": "Wir gehen im See baden.",
+      "auditLvSource": "mēs ejam peldēties ezerā.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jdeme se koupat do jezera.",
+      "cardContext": {
+        "cardId": "a1-baden",
+        "de": "baden",
+        "csMain": "Plavat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00092",
+      "cardId": "a1-baden",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německá věta říká, že mluvčí plave; české chodím plavat přidává význam pravidelného chození.",
+      "auditCurrentCs": "Každé pondělí chodím plavat.",
+      "auditProposedCs": "Každé pondělí plavu.",
+      "auditDe": "Ich schwimme jeden Montag.",
+      "auditLvSource": "Es peldu katru pirmdienu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Každé pondělí chodím plavat.",
+      "cardContext": {
+        "cardId": "a1-baden",
+        "de": "baden",
+        "csMain": "Plavat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00094",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].word",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český text uvádí jinou německou vazbu než bis jetzt ze zdroje; význam i studijní kontrast jsou tím změněny.",
+      "auditCurrentCs": "bis dass",
+      "auditProposedCs": "bis jetzt",
+      "auditDe": "bis jetzt",
+      "auditLvSource": "līdz šim",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "bis dass",
+      "cardContext": {
+        "cardId": "a1-bis",
+        "de": "bis",
+        "csMain": "Až",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00095",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Bis jetzt znamená až dosud nebo doteď, nikoli samotné až.",
+      "auditCurrentCs": "Až",
+      "auditProposedCs": "Až doteď",
+      "auditDe": "bis jetzt",
+      "auditLvSource": "līdz šim",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Až",
+      "cardContext": {
+        "cardId": "a1-bis",
+        "de": "bis",
+        "csMain": "Až",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00096",
+      "cardId": "a1-bitte",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Příklad s objednávkou kávy byl nahrazen obecným Prosím!, takže chybí hlavní obsah věty.",
+      "auditCurrentCs": "Prosím!",
+      "auditProposedCs": "Jeden šálek kávy, prosím.",
+      "auditDe": "Eine Tasse Kaffee, bitte.",
+      "auditLvSource": "Vienu tasi kafijas, lūdzu.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Prosím!",
+      "cardContext": {
+        "cardId": "a1-bitte",
+        "de": "bitte",
+        "csMain": "Prosím",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00097",
+      "cardId": "a1-bitte",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Překlad Bitte schön! je zaměněn za překlad věty o šálku kávy.",
+      "auditCurrentCs": "Jeden šálek kávy, prosím.",
+      "auditProposedCs": "Prosím!",
+      "auditDe": "Bitte schön!",
+      "auditLvSource": "Lūdzu!",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jeden šálek kávy, prosím.",
+      "cardContext": {
+        "cardId": "a1-bitte",
+        "de": "bitte",
+        "csMain": "Prosím",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00080",
+      "cardId": "a1-also",
+      "field": "study.translation",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Proto“ je v češtině platný významový ekvivalent německého „also“ ve významu důsledku; jde jen o stylistickou preferenci.",
+      "currentCs": "Proto"
+    },
+    {
+      "findingId": "MAIN-A1-00081",
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Nechoď“ je rozkaz, zatímco německá věta oznamuje, že adresát nejde do práce.",
+      "currentCs": "Jsi nemocný, tak nechoď do práce.",
+      "proposedCs": "Jsi nemocný, takže nejdeš do práce."
+    },
+    {
+      "findingId": "MAIN-A1-00082",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Jdu“ znamená odcházím nebo kráčím, nikoli přijdu; český překlad mění význam německého „komme“.",
+      "currentCs": "Já jdu taky.",
+      "proposedCs": "Já také přijdu."
+    },
+    {
+      "findingId": "MAIN-A1-00083",
+      "cardId": "a1-auf",
+      "field": "study.examples[0].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Stelle das Buch“ přirozeně odpovídá českému „postavím knihu“; navržené „položím“ by znamenalo jinou polohu.",
+      "currentCs": "Postavím knihu na stůl."
+    },
+    {
+      "findingId": "MAIN-A1-00084",
+      "cardId": "a1-aufs",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Kam • Na • Kam?“ je srozumitelný výukový formát a uvádí význam i otázku směru; opakování je pouze stylistické.",
+      "currentCs": "Kam • Na • Kam?"
+    },
+    {
+      "findingId": "MAIN-A1-00085",
+      "cardId": "a1-aufs",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Studijní tip v produkci chybí; doplnění otázky „kam?“ správně vysvětlí akuzativní směr.",
+      "currentCs": null,
+      "proposedCs": "Pamatujte: auf + das → aufs (kam?)."
+    },
+    {
+      "findingId": "MAIN-A1-00086",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„An die Wand“ vyjadřuje směr k povrchu, nikoli polohu na něm.",
+      "currentCs": "Na svislém povrchu",
+      "proposedCs": "Na svislý povrch"
+    },
+    {
+      "findingId": "MAIN-A1-00087",
+      "cardId": "a1-aufs",
+      "field": "study.comparison[4].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Zum“ je zkrácené „zu dem“ a označuje směr k někomu nebo něčemu, nikoli „u koho“.",
+      "currentCs": "Komu / u (koho?)",
+      "proposedCs": "K (někomu/něčemu)"
+    },
+    {
+      "findingId": "MAIN-A1-00090",
+      "cardId": "a1-baden",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Baden“ znamená koupat se nebo pobývat ve vodě; české „plavat“ odpovídá spíše německému „schwimmen“.",
+      "currentCs": "Plavat",
+      "proposedCs": "Koupat se"
+    },
+    {
+      "findingId": "MAIN-A1-00091",
+      "cardId": "a1-baden",
+      "field": "study.examples[1].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "„Jdeme se koupat do jezera“ přirozeně znamená jdeme se koupat v jezeře; „do“ vyjadřuje cíl pohybu, ne chybný obsah.",
+      "currentCs": "Jdeme se koupat do jezera."
+    },
+    {
+      "findingId": "MAIN-A1-00092",
+      "cardId": "a1-baden",
+      "field": "study.examples[3].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Chodím plavat“ je přirozený český způsob vyjádření pravidelného plavání a nepředstavuje významovou chybu.",
+      "currentCs": "Každé pondělí chodím plavat."
+    },
+    {
+      "findingId": "MAIN-A1-00094",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].word",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Produkce uvádí „bis dass“ místo zdrojového výrazu „bis jetzt“, takže obsahuje jinou německou vazbu.",
+      "currentCs": "bis dass",
+      "proposedCs": "bis jetzt"
+    },
+    {
+      "findingId": "MAIN-A1-00095",
+      "cardId": "a1-bis",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Bis jetzt“ znamená „až dosud“ nebo „doteď“, nikoli samotné české „až“.",
+      "currentCs": "Až",
+      "proposedCs": "Až doteď"
+    },
+    {
+      "findingId": "MAIN-A1-00096",
+      "cardId": "a1-bitte",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Produkce zkracuje větu o objednávce kávy na obecné „Prosím!“ a vynechává její hlavní obsah.",
+      "currentCs": "Prosím!",
+      "proposedCs": "Jeden šálek kávy, prosím."
+    },
+    {
+      "findingId": "MAIN-A1-00097",
+      "cardId": "a1-bitte",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Produkce překládá „Bitte schön!“ jako objednávku kávy, takže zaměňuje význam celého příkladu.",
+      "currentCs": "Jeden šálek kávy, prosím.",
+      "proposedCs": "Prosím!"
+    }
+  ]
+}

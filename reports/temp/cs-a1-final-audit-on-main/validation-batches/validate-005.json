@@ -1,0 +1,487 @@
+{
+  "batch": "validate-005",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00114",
+      "cardId": "a1-eis",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní překlad opakuje „zmrzlina“ a vynechává základní význam německého „Eis“ = led.",
+      "auditCurrentCs": "Zmrzlina • Zmrzlina",
+      "auditProposedCs": "Led • Zmrzlina",
+      "auditDe": "Eis",
+      "auditLvSource": "ledus • saldējums",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Zmrzlina • Zmrzlina",
+      "cardContext": {
+        "cardId": "a1-eis",
+        "de": "Eis",
+        "csMain": "Zmrzlina • Zmrzlina",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00115",
+      "cardId": "a1-erst",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„První“ není adverbiální překlad významu „nejprve“ a hlavní titul vynechává význam „až/teprve“.",
+      "auditCurrentCs": "První • Pouze",
+      "auditProposedCs": "Nejprve • Až / teprve",
+      "auditDe": "erst",
+      "auditLvSource": "tikai",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "První • Pouze",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00116",
+      "cardId": "a1-erst",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Erst um acht“ znamená, že se děj uskuteční nejdříve v osm, ne pouze výhradně v osm.",
+      "auditCurrentCs": "Jíme jen v osm.",
+      "auditProposedCs": "Jíme až v osm.",
+      "auditDe": "Wir essen erst um acht Uhr.",
+      "auditLvSource": "mēs ēdam tikai astoņos.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Jíme jen v osm.",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00117",
+      "cardId": "a1-erst",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„První“ je přídavné jméno; německé „zuerst“ zde vyžaduje příslovce „nejprve“.",
+      "auditCurrentCs": "První • Na začátku",
+      "auditProposedCs": "Nejprve • Na začátku",
+      "auditDe": "zuerst",
+      "auditLvSource": "vispirms • sākumā",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "První • Na začátku",
+      "cardContext": {
+        "cardId": "a1-erst",
+        "de": "erst",
+        "csMain": "První • Pouze",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00118",
+      "cardId": "a1-es",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Hlavní překlad obsahuje duplicitní „to“ a vynechává běžný osobní význam „ono“.",
+      "auditCurrentCs": "To • To • Neosobní podoba",
+      "auditProposedCs": "To • Ono • Neosobní podoba",
+      "auditDe": "es",
+      "auditLvSource": "tas",
+      "category": "TITLE_FORMAT",
+      "productionCurrentCs": "To • To • Neosobní podoba",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00119",
+      "cardId": "a1-fahren",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Fahren“ primárně znamená jet/jezdit; „řídit“ významně zužuje význam a „vést“ není vhodný překlad „vézt“.",
+      "auditCurrentCs": "Řídit • Vést • Odvézt",
+      "auditProposedCs": "Jet • Jezdit • Vézt / odvézt",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Řídit • Vést • Odvézt",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00120",
+      "cardId": "a1-fahren",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Jezdit transportem“ není přirozená česká kolokace; běžně se říká „jezdit dopravním prostředkem“.",
+      "auditCurrentCs": "Jezdit transportem",
+      "auditProposedCs": "Jezdit dopravním prostředkem",
+      "auditDe": "fahren",
+      "auditLvSource": "braukt ar transportu",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Jezdit transportem",
+      "cardContext": {
+        "cardId": "a1-fahren",
+        "de": "fahren",
+        "csMain": "Řídit • Vést • Odvézt",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00121",
+      "cardId": "a1-finden",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Zvážit znamená weigh/consider; u finden ve významu názoru je přirozené „myslet si“ nebo „považovat“.",
+      "auditCurrentCs": "Najít • Zvážit",
+      "auditProposedCs": "Najít • Myslet si",
+      "auditDe": "finden",
+      "auditLvSource": "atrast",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Najít • Zvážit",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00122",
+      "cardId": "a1-finden",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český text neodpovídá zdrojové větě; zaměňuje význam názoru za nalezení telefonu.",
+      "auditCurrentCs": "Našel jsi svůj telefon",
+      "auditProposedCs": "Zdá se mi to dobré.",
+      "auditDe": "Man tas šķiet labi.",
+      "auditLvSource": "Man tas šķiet labi.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Našel jsi svůj telefon",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00123",
+      "cardId": "a1-finden",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český text neodpovídá otázce na názor na film.",
+      "auditCurrentCs": "Zdá se mi to dobré.",
+      "auditProposedCs": "Co si myslíš o filmu?",
+      "auditDe": "ko tu domā par filmu?",
+      "auditLvSource": "ko tu domā par filmu?",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Zdá se mi to dobré.",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00124",
+      "cardId": "a1-finden",
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Zvážit“ není v tomto významu vhodný překlad; jde o vyjádření názoru.",
+      "auditCurrentCs": "Najít / zvážit",
+      "auditProposedCs": "Najít / Myslet si",
+      "auditDe": "finden",
+      "auditLvSource": "atrast / uzskatīt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Najít / zvážit",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00125",
+      "cardId": "a1-finden",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Vysvětlení obsahuje stejnou větu jako správný i údajně nesprávný překlad.",
+      "auditCurrentCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“.",
+      "auditProposedCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „najdu to dobře“.",
+      "auditDe": "Ich finde das gut.",
+      "auditLvSource": "Ich finde das gut nozīmē “man tas šķiet labi”.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“.",
+      "cardContext": {
+        "cardId": "a1-finden",
+        "de": "finden",
+        "csMain": "Najít • Zvážit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00126",
+      "cardId": "a1-frau",
+      "field": "study.important[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Poznámka si odporuje: správný i údajně nesprávný překlad jsou totožné.",
+      "auditCurrentCs": "Meine Frau = moje žena (nikoli 'moje žena').",
+      "auditProposedCs": "Meine Frau = moje žena.",
+      "auditDe": "Meine Frau",
+      "auditLvSource": "meine Frau = mana sieva",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Meine Frau = moje žena (nikoli 'moje žena').",
+      "cardContext": {
+        "cardId": "a1-frau",
+        "de": "Frau",
+        "csMain": "Žena • Manželka",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00127",
+      "cardId": "a1-fuer",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německá věta neobsahuje přivlastnění „vaši“; český překlad přidává význam.",
+      "auditCurrentCs": "Děkuji za vaši pomoc.",
+      "auditProposedCs": "Děkuji za pomoc.",
+      "auditDe": "Danke für die Hilfe.",
+      "auditLvSource": "paldies par palīdzību.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Děkuji za vaši pomoc.",
+      "cardContext": {
+        "cardId": "a1-fuer",
+        "de": "für",
+        "csMain": "Pro • Pro",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00128",
+      "cardId": "a1-fuer",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Německý prézens je zde přeložen budoucím časem, což mění časový význam věty.",
+      "auditCurrentCs": "Koupím dárek pro maminku.",
+      "auditProposedCs": "Kupuji dárek pro maminku.",
+      "auditDe": "Ich kaufe ein Geschenk für meine Mutter.",
+      "auditLvSource": "es pērku dāvanu savai mātei.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Koupím dárek pro maminku.",
+      "cardContext": {
+        "cardId": "a1-fuer",
+        "de": "für",
+        "csMain": "Pro • Pro",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00114",
+      "cardId": "a1-eis",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Hlavní překlad je duplicitní a vynechává běžný význam Eis = led.",
+      "currentCs": "Zmrzlina • Zmrzlina",
+      "proposedCs": "Led • Zmrzlina"
+    },
+    {
+      "findingId": "MAIN-A1-00115",
+      "cardId": "a1-erst",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "První není příslovce pro nejprve a Pouze nevyjadřuje význam až/teprve.",
+      "currentCs": "První • Pouze",
+      "proposedCs": "Nejprve • Až / teprve"
+    },
+    {
+      "findingId": "MAIN-A1-00116",
+      "cardId": "a1-erst",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Jen v osm vyjadřuje výhradnost, zatímco erst um acht znamená až v osm.",
+      "currentCs": "Jíme jen v osm.",
+      "proposedCs": "Jíme až v osm."
+    },
+    {
+      "findingId": "MAIN-A1-00117",
+      "cardId": "a1-erst",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Zuerst je zde příslovce a přirozený český překlad je nejprve, nikoli první.",
+      "currentCs": "První • Na začátku",
+      "proposedCs": "Nejprve • Na začátku"
+    },
+    {
+      "findingId": "MAIN-A1-00118",
+      "cardId": "a1-es",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Hlavní překlad obsahuje duplicitní To a chybí běžný osobní význam ono.",
+      "currentCs": "To • To • Neosobní podoba",
+      "proposedCs": "To • Ono • Neosobní podoba"
+    },
+    {
+      "findingId": "MAIN-A1-00119",
+      "cardId": "a1-fahren",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Řídit a vést zužují či posouvají význam fahren; chybí základní význam jet/jezdit.",
+      "currentCs": "Řídit • Vést • Odvézt",
+      "proposedCs": "Jet • Jezdit • Vézt / odvézt"
+    },
+    {
+      "findingId": "MAIN-A1-00120",
+      "cardId": "a1-fahren",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.97,
+      "reason": "Jezdit transportem není přirozená česká kolokace; vhodné je jezdit dopravním prostředkem.",
+      "currentCs": "Jezdit transportem",
+      "proposedCs": "Jezdit dopravním prostředkem"
+    },
+    {
+      "findingId": "MAIN-A1-00121",
+      "cardId": "a1-finden",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.96,
+      "reason": "Zvážit neodpovídá zde významu finden jako vyjádření názoru; vhodné je myslet si.",
+      "currentCs": "Najít • Zvážit",
+      "proposedCs": "Najít • Myslet si"
+    },
+    {
+      "findingId": "MAIN-A1-00122",
+      "cardId": "a1-finden",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Český příklad neodpovídá německé větě a zaměňuje názor za nalezení telefonu.",
+      "currentCs": "Našel jsi svůj telefon",
+      "proposedCs": "Zdá se mi to dobré."
+    },
+    {
+      "findingId": "MAIN-A1-00123",
+      "cardId": "a1-finden",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Český text neodpovídá otázce na názor na film.",
+      "currentCs": "Zdá se mi to dobré.",
+      "proposedCs": "Co si myslíš o filmu?"
+    },
+    {
+      "findingId": "MAIN-A1-00124",
+      "cardId": "a1-finden",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.97,
+      "reason": "Zvážit není v tomto kontextu vhodný překlad vyjádření názoru pomocí finden.",
+      "currentCs": "Najít / zvážit",
+      "proposedCs": "Najít / Myslet si"
+    },
+    {
+      "findingId": "MAIN-A1-00125",
+      "cardId": "a1-finden",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Vysvětlení opakuje stejný překlad na obou stranách a neuvádí chybný význam najdu to dobře.",
+      "currentCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“.",
+      "proposedCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „najdu to dobře“."
+    },
+    {
+      "findingId": "MAIN-A1-00126",
+      "cardId": "a1-frau",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Poznámka uvádí jako správný i chybný překlad totožné znění, takže postrádá smysluplný kontrast.",
+      "currentCs": "Meine Frau = moje žena (nikoli 'moje žena').",
+      "proposedCs": "Meine Frau = moje žena."
+    },
+    {
+      "findingId": "MAIN-A1-00127",
+      "cardId": "a1-fuer",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.97,
+      "reason": "Český překlad přidává přivlastnění vaši, které v německé větě není.",
+      "currentCs": "Děkuji za vaši pomoc.",
+      "proposedCs": "Děkuji za pomoc."
+    },
+    {
+      "findingId": "MAIN-A1-00128",
+      "cardId": "a1-fuer",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": 0.95,
+      "reason": "Koupím vyjadřuje budoucnost, zatímco německý prézens zde odpovídá českému Kupuji.",
+      "currentCs": "Koupím dárek pro maminku.",
+      "proposedCs": "Kupuji dárek pro maminku."
+    }
+  ]
+}

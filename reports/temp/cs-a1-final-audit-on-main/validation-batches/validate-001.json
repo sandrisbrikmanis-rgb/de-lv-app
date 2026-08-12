@@ -1,0 +1,484 @@
+{
+  "batch": "validate-001",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00005",
+      "cardId": "a1-Besuch-87",
+      "index": 87,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "051-100",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Besuch",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Besuch-87",
+        "de": "Besuch",
+        "csMain": "Návštěva",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00008",
+      "cardId": "a1-besuchen-89",
+      "index": 89,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "051-100",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "besuchen",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-besuchen-89",
+        "de": "besuchen",
+        "csMain": "Navštívit",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00019",
+      "cardId": "a1-es",
+      "field": "study.tip.text",
+      "source": "deterministic",
+      "batch": "151-200",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD, FOREIGN_REF) in entry[167].study.tip.text",
+      "auditCurrentCs": "Pamatujte: lotyšské „es“ znamená německy „ich“, ne německé „es“.",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "es",
+      "auditLvSource": "tas",
+      "category": "FINDING",
+      "productionCurrentCs": "Pamatujte: lotyšské „es“ znamená německy „ich“, ne německé „es“.",
+      "cardContext": {
+        "cardId": "a1-es",
+        "de": "es",
+        "csMain": "To • To • Neosobní podoba",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00025",
+      "cardId": "a1-Fußball-218",
+      "index": 218,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Fußball",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Fußball-218",
+        "de": "Fußball",
+        "csMain": "Fotbal",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00028",
+      "cardId": "a1-ganz-219",
+      "index": 219,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "ganz",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-ganz-219",
+        "de": "ganz",
+        "csMain": "Celý",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00031",
+      "cardId": "a1-gefallen-225",
+      "index": 225,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "gefallen",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-gefallen-225",
+        "de": "gefallen",
+        "csMain": "Líbit se",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00034",
+      "cardId": "a1-Geschichte-233",
+      "index": 233,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Geschichte",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Geschichte-233",
+        "de": "Geschichte",
+        "csMain": "Příběh • Historie",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00037",
+      "cardId": "a1-Geschwister-234",
+      "index": 234,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "201-250",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Geschwister",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Geschwister-234",
+        "de": "Geschwister",
+        "csMain": "Bratři a sestry",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00041",
+      "cardId": "a1-Großeltern-251",
+      "index": 251,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "251-300",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Großeltern",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Großeltern-251",
+        "de": "Großeltern",
+        "csMain": "Prarodiče",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00045",
+      "cardId": "a1-Hand-267",
+      "index": 267,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "251-300",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "Hand",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-Hand-267",
+        "de": "Hand",
+        "csMain": "Ruka (dlaň)",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00049",
+      "cardId": "a1-hübsch-288",
+      "index": 288,
+      "field": "study.layout",
+      "source": "deterministic",
+      "batch": "251-300",
+      "severity": "HIGH",
+      "auditProblem": "Study layout mismatch: LV has standardStudy, CS has none",
+      "auditCurrentCs": "(none)",
+      "auditProposedCs": "standardStudy",
+      "auditDe": "hübsch",
+      "auditLvSource": "standardStudy",
+      "category": "FINDING",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-hübsch-288",
+        "de": "hübsch",
+        "csMain": "Úhledný • Pěkný",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00054",
+      "cardId": "a1-land",
+      "field": "study.explanation[1]",
+      "source": "deterministic",
+      "batch": "351-400",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (LV_WORD, FOREIGN_REF) in entry[351].study.explanation[1]",
+      "auditCurrentCs": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Land",
+      "auditLvSource": "valsts • zeme",
+      "category": "FINDING",
+      "productionCurrentCs": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Země",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00056",
+      "cardId": "a1-Million-406",
+      "index": 406,
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "401-450",
+      "severity": "HIGH",
+      "auditProblem": "Foreign language remnant in main translation: PL_CHAR",
+      "auditCurrentCs": "Milión",
+      "auditProposedCs": "(Czech replacement needed)",
+      "auditDe": "Million",
+      "auditLvSource": "miljons",
+      "category": "FINDING",
+      "productionCurrentCs": "Milión",
+      "cardContext": {
+        "cardId": "a1-Million-406",
+        "de": "Million",
+        "csMain": "Milión",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00057",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "401-450",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (PL_CHAR) in entry[406].lv",
+      "auditCurrentCs": "Milión",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Million",
+      "auditLvSource": "miljons",
+      "category": "FINDING",
+      "productionCurrentCs": "Milión",
+      "cardContext": {
+        "cardId": "a1-Million-406",
+        "de": "Million",
+        "csMain": "Milión",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00063",
+      "cardId": "a1-Zitrone-666",
+      "index": 666,
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "651-700",
+      "severity": "HIGH",
+      "auditProblem": "Foreign language remnant in main translation: PL_CHAR",
+      "auditCurrentCs": "Citrón",
+      "auditProposedCs": "(Czech replacement needed)",
+      "auditDe": "Zitrone",
+      "auditLvSource": "citrons",
+      "category": "FINDING",
+      "productionCurrentCs": "Citrón",
+      "cardContext": {
+        "cardId": "a1-Zitrone-666",
+        "de": "Zitrone",
+        "csMain": "Citrón",
+        "hasStudy": false
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00005",
+      "cardId": "a1-Besuch-87",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00008",
+      "cardId": "a1-besuchen-89",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00019",
+      "cardId": "a1-es",
+      "field": "study.tip.text",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "References to Latvian and German are intentional Czech explanatory context, not an untranslated remnant.",
+      "currentCs": "Pamatujte: lotyšské „es“ znamená německy „ich“, ne německé „es“."
+    },
+    {
+      "findingId": "MAIN-A1-00025",
+      "cardId": "a1-Fußball-218",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00028",
+      "cardId": "a1-ganz-219",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00031",
+      "cardId": "a1-gefallen-225",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00034",
+      "cardId": "a1-Geschichte-233",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00037",
+      "cardId": "a1-Geschwister-234",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00041",
+      "cardId": "a1-Großeltern-251",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00045",
+      "cardId": "a1-Hand-267",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00049",
+      "cardId": "a1-hübsch-288",
+      "field": "study.layout",
+      "validationStatus": "MISSING_STUDY_PARITY",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "CS lacks the study block while LV has standardStudy; this is a listed structural parity gap.",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00054",
+      "cardId": "a1-land",
+      "field": "study.explanation[1]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "References to Germany and Latvia are intentional Czech explanatory context, not foreign-language remnants.",
+      "currentCs": "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země."
+    },
+    {
+      "findingId": "MAIN-A1-00056",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Milión is a valid Czech form; the diacritic does not indicate a Polish or foreign-language remnant.",
+      "currentCs": "Milión"
+    },
+    {
+      "findingId": "MAIN-A1-00057",
+      "cardId": "a1-Million-406",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Milión is a valid Czech form; the diacritic does not indicate a Polish or foreign-language remnant.",
+      "currentCs": "Milión"
+    },
+    {
+      "findingId": "MAIN-A1-00063",
+      "cardId": "a1-Zitrone-666",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Citrón is valid Czech; the diacritic does not indicate a Polish or foreign-language remnant.",
+      "currentCs": "Citrón"
+    }
+  ]
+}
