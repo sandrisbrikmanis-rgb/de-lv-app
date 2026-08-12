@@ -1479,7 +1479,7 @@ const A1_WORDS = [
       },
       "important": [
         "Auf není jen tak nějaké 'on'. Často to znamená pohyb nebo pobyt na povrchu/nahoře.",
-        "Pokud je něco blízko svislého povrchu, často potřebujete • Pokud jste dovnitř, musíte dovnitř."
+        "U svislého povrchu se často používá an. Pro pohyb dovnitř se používá in."
       ]
     }
   },
@@ -1530,7 +1530,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "Od • Ven",
+      "translation": "Z • Ven",
       "explanation": "Používá se, když něco přichází zevnitř, vychází nebo naznačuje původ.",
       "examples": [
         {
@@ -1709,7 +1709,7 @@ const A1_WORDS = [
       "explanation": [
         "Aufs je zkratka předložky auf a členu das.",
         "Plná forma: auf das (kde?).",
-        "Používá se, když akce ukazuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kde?",
+        "Používá se, když děj vyjadřuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kam?",
         "Často se používá s pohybem: vylézt, sednout, položit, zajet k něčemu.",
         "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das."
       ],
@@ -1751,22 +1751,22 @@ const A1_WORDS = [
         {
           "word": "aufs",
           "meaning": "Na konkrétní případ (Akk.)",
-          "example": "aufs Dach – Na střeše"
+          "example": "aufs Dach – Na střechu"
         },
         {
           "word": "auf",
           "meaning": "Na povrch nebo nahoru",
-          "example": "auf den Tisch – Na stole"
+          "example": "auf den Tisch – Na stůl"
         },
         {
           "word": "an",
           "meaning": "Na svislém povrchu",
-          "example": "an die Wand – U zdi"
+          "example": "an die Wand – Na zeď"
         },
         {
           "word": "ins",
           "meaning": "Dovnitř",
-          "example": "ins Zimmer – V místnosti"
+          "example": "ins Zimmer – Do místnosti"
         },
         {
           "word": "zum",
@@ -1779,7 +1779,7 @@ const A1_WORDS = [
         "Plné auf das se téměř nikdy nemluví hovorově – používá se aufs."
       ],
       "important": [
-        "Aufs = auf das, pouze s podstatným jménem libovolného rodu, kde? ve skloňování.",
+        "Aufs = auf das. Používá se před podstatnými jmény středního rodu v akuzativu a odpovídá na otázku kam?",
         "Odpovědět kam? — pohyb na určité místo nebo povrch.",
         "Na vodorovné ploše se místo aufs často používá auf den.",
         "Nezaměňujte s (na zdi) nebo ins (uvnitř místnosti)."
@@ -2097,7 +2097,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-baden",
       "layout": "standardStudy",
-      "translation": "Plavat",
+      "translation": "Koupat se",
       "explanation": [
         "Hlavní myšlenka: baden znamená koupat se, být ve vodě nebo si užívat vodu.",
         "Baden se používá při rekreaci ve vodě, jezeře, moři nebo bazénu.",
@@ -2405,12 +2405,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-bei",
       "layout": "standardStudy",
-      "translation": "Na",
+      "translation": "U",
       "explanation": "Používá se, když je něco blízko osoby, organizace, místa nebo se děje za určitých okolností.",
       "examples": [
         {
           "de": "Ich bin bei meinem Freund.",
-          "lv": "Jsem v domě svého přítele."
+          "lv": "Jsem u svého přítele."
         },
         {
           "de": "Sie arbeitet bei Siemens.",
@@ -2618,7 +2618,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-bis",
       "layout": "standardStudy",
-      "translation": "Až",
+      "translation": "Do • Až do",
       "explanation": "Odkazuje na hranici, bod v čase nebo podmínku.",
       "examples": [
         {
@@ -3114,7 +3114,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-bleiben",
       "layout": "standardStudy",
-      "translation": "Pobyt",
+      "translation": "Zůstat",
       "explanation": [
         "Hlavní myšlenka: bleiben znamená zůstat.",
         "Bleiben se používá, když osoba nebo věc nezmizí a zůstane na stejném místě nebo stavu.",
@@ -3405,10 +3405,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Přinést • Odnést",
       "explanation": [
-        "Hlavní myšlenka: přinést někomu něco přinést, nést nebo doručit.",
-        "Přinést se používá, když se něco přesouvá na jiné místo nebo k jiné osobě.",
-        "Není to totéž jako nehmen, protože nehmen znamená vzít si pro sebe.",
-        "Holen znamená jít za a aportovat nebo brát."
+        "Hlavní myšlenka: bringen znamená přinést, odnést, odvést nebo doručit.",
+        "Používá se, když se něco přesouvá na jiné místo nebo k jiné osobě.",
+        "Není to totéž jako nehmen. Nehmen znamená vzít.",
+        "Holen znamená jít pro něco nebo někoho přivést či přinést."
       ],
       "examples": [
         {
@@ -3441,20 +3441,20 @@ const A1_WORDS = [
         },
         {
           "word": "holen",
-          "meaning": "Jít za / aport",
+          "meaning": "Jít pro / přinést",
           "example": "Ich hole Wasser."
         },
         {
           "word": "mitbringen",
-          "meaning": "Odnést a přinést",
+          "meaning": "Přinést s sebou",
           "example": "Bringst du Brot mit?"
         }
       ],
       "tip": {
-        "text": "Pamatujte: přestěhovat se k někomu → přinést • Vzít si pro sebe → nehmen."
+        "text": "Pamatujte: dopravit něco k někomu nebo někam → bringen • Vzít si něco → nehmen."
       },
       "important": [
-        "Přinesený ukazuje někomu směr nebo místo.",
+        "Bringen vyjadřuje pohyb nebo směr k osobě či místu.",
         "Nehmen znamená vzít, ale ne nutně doručit druhému."
       ],
       "sectionAccents": {
@@ -4056,7 +4056,7 @@ const A1_WORDS = [
         },
         {
           "word": "welches",
-          "meaning": "Kdo • Který • Kdo",
+          "meaning": "Které",
           "example": "Das ist das Buch, welches ich lese. – Je to kniha, kterou čtu."
         }
       ],
@@ -12136,7 +12136,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich warte schon lange.",
-          "lv": "Čekal jsem dlouho."
+          "lv": "Už dlouho čekám."
         },
         {
           "de": "Den ganzen Tag lang.",
@@ -20217,7 +20217,7 @@ const A1_WORDS = [
   },
   {
     "de": "siebzehnte",
-    "lv": "Sedmnáctého",
+    "lv": "Sedmnáctý",
     "level": "A1"
   },
   {
@@ -24391,7 +24391,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "K • Do • Příliš • Infinitiv",
       "explanation": [
-        "Hlavní myšlenka: zu velmi často znamená to nebo at, ale má také roli s infinitivem.",
+        "Hlavní myšlenka: zu často znamená k nebo do. Používá se také s infinitivem.",
         "U lidí a institucí zu často znamená u nebo do.",
         "S přídavnými jmény může zu znamenat také.",
         "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen."
@@ -24417,7 +24417,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "zu",
-          "meaning": "To / at / too / infinitiv",
+          "meaning": "K / do / příliš / infinitiv",
           "example": "Ich gehe zum Arzt."
         },
         {
@@ -24871,7 +24871,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-zum",
       "layout": "standardStudy",
-      "translation": "Do • At",
+      "translation": "K • Ke",
       "explanation": [
         "Zum je zkratka předložky zu a členu dem.",
         "Plná podoba: zu dem (komu?).",
@@ -24916,12 +24916,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "zum",
-          "meaning": "Komu / u (koho?)",
+          "meaning": "K / ke (komu? čemu?)",
           "example": "zum Arzt – K lékaři"
         },
         {
           "word": "zur",
-          "meaning": "Do / u (rodina manželky)",
+          "meaning": "K / ke (ženský rod)",
           "example": "zur Schule – Do školy"
         },
         {
@@ -25320,7 +25320,7 @@ const A1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "K akci se používá Fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium."
+            "text": "K označení činnosti se používá fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium."
           }
         ]
       },
@@ -25798,13 +25798,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Jídlo • Jídlo",
       "explanation": [
-        "Hlavní myšlenka: Podstatné jméno - jídlo nebo celé jídlo.",
-        "Das Essen znamená především: konzumovat jídlo.",
-        "Často popisuje: akce.",
-        "Das Essen v podstatě znamená: jídlo nebo jídlo.",
-        "Často popisuje: déšť.",
-        "Essen znamená jíst.",
-        "Das Essen může znamenat jídlo nebo jídlo obecně."
+        "Hlavní myšlenka: Das Essen je podstatné jméno a znamená jídlo nebo pokrm.",
+        "Das Essen může označovat jídlo jako věc i celé jídlo.",
+        "Sloveso essen znamená jíst.",
+        "Das Essen se píše s velkým písmenem a je středního rodu."
       ],
       "examples": [
         {
@@ -25813,7 +25810,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Co chceš jíst"
+          "lv": "Co chcete jíst?"
         },
         {
           "de": "Wir essen um 12 Uhr.",
@@ -25833,7 +25830,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Das Essen = jíst",
+        "Das Essen = jídlo",
         "Použijte das Essen, pokud kontext vyhovuje tomuto významu."
       ],
       "important": [
@@ -26240,7 +26237,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "O víkendech jezdíme k moři."
+          "lv": "O prázdninách jezdíme k moři."
         },
         {
           "de": "In den Ferien habe ich viel Zeit.",
@@ -26248,7 +26245,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was macht ihr in den Ferien?",
-          "lv": "Co děláš o prázdninách"
+          "lv": "Co děláte o prázdninách?"
         },
         {
           "de": "Die Schule ist in den Ferien zu.",
@@ -26271,7 +26268,7 @@ const A1_WORDS = [
         },
         {
           "word": "der Urlaub",
-          "meaning": "Odejít z práce (pouze všichni)",
+          "meaning": "Dovolená z práce (obvykle jednotné číslo)",
           "example": "Ich habe zwei Wochen Urlaub. – Mám dva týdny dovolené."
         }
       ],
@@ -26401,7 +26398,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "Odejít z práce (pouze všichni)",
+          "meaning": "Dovolená z práce (obvykle jednotné číslo)",
           "example": "Mein Vater ist im Urlaub. – Můj otec je na dovolené."
         },
         {
@@ -26417,7 +26414,7 @@ const A1_WORDS = [
       "important": [
         "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nesprávně: die Urlaube → Správně: der Urlaub",
+        "Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle. Množné číslo Urlaube je možné v jiných kontextech.",
         "Dílo: der Urlaub (pouze jednotné číslo)."
       ],
       "sectionAccents": {
@@ -26565,7 +26562,7 @@ const A1_WORDS = [
         },
         {
           "de": "die Uhr",
-          "lv": "Zařízení/čas na hodinách • Die Zeit"
+          "lv": "Hodiny/hodinky • Čas na hodinách"
         }
       ],
       "tip": [
