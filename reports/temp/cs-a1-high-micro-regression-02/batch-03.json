@@ -1,0 +1,2328 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-sie-study",
+      "index": 549,
+      "deLemma": "sie",
+      "csText": "Oni / ji",
+      "csMain": "Oni / ji",
+      "study": {
+        "id": "a1-sie-study",
+        "layout": "standardStudy",
+        "translation": "Oni / ji",
+        "explanation": [
+          "Hlavní myšlenka: Množné číslo – mluví o více než jedné osobě. Sloveso končí na -en: kochen, essen, gehen.",
+          "Sie znamená hlavně: jedna žena.",
+          "Často charakterizováno: sloveso jednotného čísla (-t).",
+          "Sie znamená hlavně: několik lidí.",
+          "Často charakterizováno: množné sloveso (-en).",
+          "Sie znamená hlavně: zdvořilá adresa.",
+          "Často popisováno: nutně s velkým S.",
+          "Malé sie znamená ji, když je sloveso jednotného čísla (Sie kocht = vaří)."
+        ],
+        "examples": [
+          {
+            "de": "Sie kochen.",
+            "lv": "Vaří."
+          },
+          {
+            "de": "Sie kocht.",
+            "lv": "Ona vaří."
+          },
+          {
+            "de": "Sie isst.",
+            "lv": "Ona jí"
+          },
+          {
+            "de": "Sie kochen.",
+            "lv": "Vaří."
+          },
+          {
+            "de": "Sie spielen Fußball.",
+            "lv": "Hrají fotbal."
+          },
+          {
+            "de": "Sie kochen, bitte.",
+            "lv": "Vařte, prosím."
+          }
+        ],
+        "tip": [
+          "Množné číslo – označuje více než jednu osobu. Sloveso končí na -en: kochen, essen, gehen.",
+          "Použijte sie, pokud kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Zdvořilost vždy s velkým S: Sie, ne sie.",
+          "Ona: Sie kocht. Oni: sie kochen. Vy: Sie kochen.",
+          "Nesprávně: sie kocht → Správně: Sie kocht",
+          "Nesprávně: Sie kocht (oni) → Správně: Sie kochen"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "sie",
+              "kochen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "sie",
+                  "sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vaří"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sie",
+                  "sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ona"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sie",
+                  "sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ona"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "sie",
+                  "sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vaří"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "sie",
+                  "sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hrají"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vařte, prosím."
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {
+              "green": [
+                "sie"
+              ]
+            }
+          ]
+        }
+      },
+      "repairedFields": [
+        {
+          "n": 12,
+          "field": "study.sectionAccents.examples[5].lv",
+          "status": "RETAINED",
+          "pirmd": "Vaříš",
+          "pec": "Vařte, prosím.",
+          "current": "Vařte, prosím."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-sie-study",
+        "index": 549,
+        "de": "sie",
+        "layout": "standardStudy",
+        "csMain": "Oni / ji",
+        "studyTranslation": "Oni / ji",
+        "lvSourceMain": "viņi / viņas",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "viņi / viņas",
+            "csText": "Oni / ji",
+            "de": "sie"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Viņi gatavo.",
+            "csText": "Vaří.",
+            "de": "sie"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "viņa gatavo.",
+            "csText": "Ona vaří.",
+            "de": "sie"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņa ēd.",
+            "csText": "Ona jí",
+            "de": "sie"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "viņi gatavo.",
+            "csText": "Vaří.",
+            "de": "sie"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "viņi spēlē futbolu.",
+            "csText": "Hrají fotbal.",
+            "de": "sie"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "jūs gatavojat, lūdzu.",
+            "csText": "Vařte, prosím.",
+            "de": "sie"
+          }
+        ],
+        "study": {
+          "id": "a1-sie-study",
+          "layout": "standardStudy",
+          "translation": "Oni / ji",
+          "explanation": [
+            "Hlavní myšlenka: Množné číslo – mluví o více než jedné osobě. Sloveso končí na -en: kochen, essen, gehen.",
+            "Sie znamená hlavně: jedna žena.",
+            "Často charakterizováno: sloveso jednotného čísla (-t).",
+            "Sie znamená hlavně: několik lidí.",
+            "Často charakterizováno: množné sloveso (-en).",
+            "Sie znamená hlavně: zdvořilá adresa.",
+            "Často popisováno: nutně s velkým S.",
+            "Malé sie znamená ji, když je sloveso jednotného čísla (Sie kocht = vaří)."
+          ],
+          "examples": [
+            {
+              "de": "Sie kochen.",
+              "lv": "Vaří."
+            },
+            {
+              "de": "Sie kocht.",
+              "lv": "Ona vaří."
+            },
+            {
+              "de": "Sie isst.",
+              "lv": "Ona jí"
+            },
+            {
+              "de": "Sie kochen.",
+              "lv": "Vaří."
+            },
+            {
+              "de": "Sie spielen Fußball.",
+              "lv": "Hrají fotbal."
+            },
+            {
+              "de": "Sie kochen, bitte.",
+              "lv": "Vařte, prosím."
+            }
+          ],
+          "tip": [
+            "Množné číslo – označuje více než jednu osobu. Sloveso končí na -en: kochen, essen, gehen.",
+            "Použijte sie, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Zdvořilost vždy s velkým S: Sie, ne sie.",
+            "Ona: Sie kocht. Oni: sie kochen. Vy: Sie kochen.",
+            "Nesprávně: sie kocht → Správně: Sie kocht",
+            "Nesprávně: Sie kocht (oni) → Správně: Sie kochen"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "sie",
+                "kochen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vaří"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ona"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ona"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vaří"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hrají"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vařte, prosím."
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {}
+            ],
+            "important": [
+              {
+                "green": [
+                  "sie"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sie-study",
+          "layout": "standardStudy",
+          "translation": "viņi / viņas",
+          "explanation": [
+            "Galvenā doma: Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
+            "sie galvenokārt nozīmē: viena sieviete.",
+            "Bieži raksturo: darbības vārds vienskaitlī (-t).",
+            "sie galvenokārt nozīmē: vairāki cilvēki.",
+            "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
+            "sie galvenokārt nozīmē: pieklājīga uzruna.",
+            "Bieži raksturo: obligāti ar lielo S.",
+            "Mazais sie nozīmē viņu, ja darbības vārds ir vienskaitlī (Sie kocht = viņa gatavo)."
+          ],
+          "examples": [
+            {
+              "de": "Sie kochen.",
+              "lv": "Viņi gatavo."
+            },
+            {
+              "de": "Sie kocht.",
+              "lv": "viņa gatavo."
+            },
+            {
+              "de": "Sie isst.",
+              "lv": "viņa ēd."
+            },
+            {
+              "de": "Sie kochen.",
+              "lv": "viņi gatavo."
+            },
+            {
+              "de": "Sie spielen Fußball.",
+              "lv": "viņi spēlē futbolu."
+            },
+            {
+              "de": "Sie kochen, bitte.",
+              "lv": "jūs gatavojat, lūdzu."
+            }
+          ],
+          "tip": [
+            "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
+            "Izmanto sie, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
+            "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
+            "Nepareizi: sie kocht → Pareizi: Sie kocht",
+            "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "sie",
+                "kochen"
+              ],
+              "purple": [
+                "viņu",
+                "viņa"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Viņi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viņa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viņa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viņi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sie",
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viņi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jūs"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {}
+            ],
+            "important": [
+              {
+                "green": [
+                  "sie"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-sollen",
+      "index": 564,
+      "deLemma": "sollen",
+      "csText": "By měl",
+      "csMain": "By měl",
+      "study": {
+        "id": "a1-sollen",
+        "layout": "standardStudy",
+        "translation": "By měl",
+        "explanation": [
+          "Hlavní myšlenka: sollen znamená, že někdo by měl nebo musí dělat něco podle pokynů.",
+          "Sollen se často používá, když vám někdo říká, co máte dělat.",
+          "Není tak silný jako müssen.",
+          "Velmi častou frází je Was soll ich machen? = Co mám dělat?"
+        ],
+        "examples": [
+          {
+            "de": "Was soll ich machen?",
+            "lv": "Co mám dělat"
+          },
+          {
+            "de": "Du sollst kommen.",
+            "lv": "Máš přijít."
+          },
+          {
+            "de": "Ich soll zu Hause bleiben.",
+            "lv": "Mám zůstat doma."
+          },
+          {
+            "de": "Ich muss jetzt gehen.",
+            "lv": "Už musím jít"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sollen",
+            "meaning": "Měl / měl by dělat podle pokynů",
+            "example": "Was soll ich machen?"
+          },
+          {
+            "word": "müssen",
+            "meaning": "Absolutně potřebovat",
+            "example": "Ich muss gehen."
+          },
+          {
+            "word": "können",
+            "meaning": "Moci",
+            "example": "Ich kann kommen."
+          },
+          {
+            "word": "wollen",
+            "meaning": "Chtít",
+            "example": "Ich will bleiben."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: někdo říká, co má dělat → sollen • Musí být provedeno → müssen."
+        },
+        "important": [
+          "Was soll ich machen? je velmi častá věta.",
+          "Sollen a müssen nejsou úplně stejné."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "sollen",
+              "Was soll ich machen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "müssen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "soll",
+                  "machen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sollst",
+                  "kommen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Máš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "soll",
+                  "bleiben"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "muss",
+                  "gehen"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "musím"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "sollen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Měl",
+                  "Měl"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "soll"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "müssen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Absolutně"
+                ]
+              },
+              "example": {
+                "red": [
+                  "muss"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "können"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Moci"
+                ]
+              },
+              "example": {
+                "green": [
+                  "kann"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wollen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Chtít"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "will"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "sollen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "müssen",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "Byl"
+              ]
+            },
+            {
+              "blue": [
+                "sollen"
+              ],
+              "red": [
+                "müssen"
+              ]
+            }
+          ]
+        }
+      },
+      "repairedFields": [
+        {
+          "n": 13,
+          "field": "study.sectionAccents.examples[1].lv",
+          "status": "RETAINED",
+          "pirmd": "Musíte",
+          "pec": "Máš",
+          "current": "Máš"
+        },
+        {
+          "n": 14,
+          "field": "study.sectionAccents.examples[2].lv",
+          "status": "RETAINED",
+          "pirmd": "Musím",
+          "pec": "Mám",
+          "current": "Mám"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-sollen",
+        "index": 564,
+        "de": "sollen",
+        "layout": "standardStudy",
+        "csMain": "By měl",
+        "studyTranslation": "By měl",
+        "lvSourceMain": "vajadzētu",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "vajadzētu",
+            "csText": "By měl",
+            "de": "sollen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "ko man darīt?",
+            "csText": "Co mám dělat",
+            "de": "sollen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "tev jāatnāk.",
+            "csText": "Máš přijít.",
+            "de": "sollen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "man jāpaliek mājās.",
+            "csText": "Mám zůstat doma.",
+            "de": "sollen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "man tagad jāiet.",
+            "csText": "Už musím jít",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sollen",
+            "csText": "sollen",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "vajadzētu / jādara pēc norādes",
+            "csText": "Měl / měl by dělat podle pokynů",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "müssen",
+            "csText": "müssen",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "obligāti vajadzēt",
+            "csText": "Absolutně potřebovat",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "können",
+            "csText": "können",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "varēt",
+            "csText": "Moci",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "wollen",
+            "csText": "wollen",
+            "de": "sollen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "gribēt",
+            "csText": "Chtít",
+            "de": "sollen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen.",
+            "csText": "Pamatujte: někdo říká, co má dělat → sollen • Musí být provedeno → müssen.",
+            "de": "sollen"
+          }
+        ],
+        "study": {
+          "id": "a1-sollen",
+          "layout": "standardStudy",
+          "translation": "By měl",
+          "explanation": [
+            "Hlavní myšlenka: sollen znamená, že někdo by měl nebo musí dělat něco podle pokynů.",
+            "Sollen se často používá, když vám někdo říká, co máte dělat.",
+            "Není tak silný jako müssen.",
+            "Velmi častou frází je Was soll ich machen? = Co mám dělat?"
+          ],
+          "examples": [
+            {
+              "de": "Was soll ich machen?",
+              "lv": "Co mám dělat"
+            },
+            {
+              "de": "Du sollst kommen.",
+              "lv": "Máš přijít."
+            },
+            {
+              "de": "Ich soll zu Hause bleiben.",
+              "lv": "Mám zůstat doma."
+            },
+            {
+              "de": "Ich muss jetzt gehen.",
+              "lv": "Už musím jít"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sollen",
+              "meaning": "Měl / měl by dělat podle pokynů",
+              "example": "Was soll ich machen?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "Absolutně potřebovat",
+              "example": "Ich muss gehen."
+            },
+            {
+              "word": "können",
+              "meaning": "Moci",
+              "example": "Ich kann kommen."
+            },
+            {
+              "word": "wollen",
+              "meaning": "Chtít",
+              "example": "Ich will bleiben."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: někdo říká, co má dělat → sollen • Musí být provedeno → müssen."
+          },
+          "important": [
+            "Was soll ich machen? je velmi častá věta.",
+            "Sollen a müssen nejsou úplně stejné."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sollen",
+                "Was soll ich machen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "müssen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "machen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sollst",
+                    "kommen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Máš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "bleiben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "muss",
+                    "gehen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "musím"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Měl",
+                    "Měl"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "soll"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Absolutně"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "muss"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Moci"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Chtít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sollen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "müssen",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Byl"
+                ]
+              },
+              {
+                "blue": [
+                  "sollen"
+                ],
+                "red": [
+                  "müssen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sollen",
+          "layout": "standardStudy",
+          "translation": "vajadzētu",
+          "explanation": [
+            "Galvenā doma: sollen nozīmē, ka kādam vajadzētu vai ir jādara kaut kas pēc norādes.",
+            "sollen bieži lieto, ja kāds cits saka, ko darīt.",
+            "Tas nav tik spēcīgs kā müssen.",
+            "Ļoti bieža frāze ir Was soll ich machen? = Ko man darīt?"
+          ],
+          "examples": [
+            {
+              "de": "Was soll ich machen?",
+              "lv": "ko man darīt?"
+            },
+            {
+              "de": "Du sollst kommen.",
+              "lv": "tev jāatnāk."
+            },
+            {
+              "de": "Ich soll zu Hause bleiben.",
+              "lv": "man jāpaliek mājās."
+            },
+            {
+              "de": "Ich muss jetzt gehen.",
+              "lv": "man tagad jāiet."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sollen",
+              "meaning": "vajadzētu / jādara pēc norādes",
+              "example": "Was soll ich machen?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "obligāti vajadzēt",
+              "example": "Ich muss gehen."
+            },
+            {
+              "word": "können",
+              "meaning": "varēt",
+              "example": "Ich kann kommen."
+            },
+            {
+              "word": "wollen",
+              "meaning": "gribēt",
+              "example": "Ich will bleiben."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen."
+          },
+          "important": [
+            "Was soll ich machen? ir ļoti bieža frāze.",
+            "sollen un müssen nav pilnīgi vienādi."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sollen",
+                "Was soll ich machen"
+              ],
+              "purple": [
+                "vajadzētu",
+                "jādara",
+                "norādes"
+              ],
+              "red": [
+                "müssen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "machen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ko man darīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sollst",
+                    "kommen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jāatnāk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "bleiben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jāpaliek"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "muss",
+                    "gehen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "jāiet"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vajadzētu",
+                    "norādes"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "soll"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "obligāti"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "muss"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "varēt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gribēt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sollen"
+                ],
+                "purple": [
+                  "kāds saka"
+                ],
+                "red": [
+                  "müssen",
+                  "obligāti"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Was soll ich machen"
+                ]
+              },
+              {
+                "blue": [
+                  "sollen"
+                ],
+                "red": [
+                  "müssen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-essen",
+      "index": 690,
+      "deLemma": "essen",
+      "csText": "Jíst",
+      "csMain": "Jíst",
+      "study": {
+        "id": "a1-essen",
+        "layout": "standardStudy",
+        "translation": "Jíst",
+        "explanation": [
+          "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+          "Používá se jako sloveso pro konzumaci jídla.",
+          "Das Essen je podstatné jméno a znamená jídlo.",
+          "Essen a das Essen nejsou totéž."
+        ],
+        "examples": [
+          {
+            "de": "Ich esse gern Pizza.",
+            "lv": "Rád jím pizzu."
+          },
+          {
+            "de": "Was wollt ihr essen?",
+            "lv": "Co chcete jíst?"
+          },
+          {
+            "de": "Wir essen um 12 Uhr.",
+            "lv": "Jíme ve 12 hodin."
+          },
+          {
+            "de": "Das Essen ist fertig.",
+            "lv": "Jídlo je hotové."
+          },
+          {
+            "de": "Das Essen schmeckt sehr gut.",
+            "lv": "Jídlo chutná velmi dobře."
+          },
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "Jídlo chutná dobře."
+          }
+        ],
+        "tip": [
+          "Essen = jísti",
+          "Použijte essen, když kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Essen je sloveso bez článku.",
+          "Das Essen není totéž co essen.",
+          "Akce: essen.",
+          "Případ/jídlo: das Essen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "essen",
+              "essen"
+            ],
+            "purple": [
+              "jíst"
+            ],
+            "blue": [
+              "essen",
+              "esse"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "esse"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "chceš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Essen"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "green": [
+                "essen"
+              ]
+            }
+          ]
+        }
+      },
+      "repairedFields": [
+        {
+          "n": 15,
+          "field": "study.explanation",
+          "status": "RETAINED",
+          "pirmd": [
+            "Hlavní myšlenka: Sloveso - jíst jídlo.",
+            "Essen především znamená: konzumovat jídlo.",
+            "Často popisuje: akce.",
+            "Essen v podstatě znamená: jídlo nebo jídlo.",
+            "Často popisuje: déšť.",
+            "Essen znamená jíst.",
+            "Das Essen může znamenat jídlo nebo jídlo obecně."
+          ],
+          "pec": [
+            "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+            "Používá se jako sloveso pro konzumaci jídla.",
+            "Das Essen je podstatné jméno a znamená jídlo.",
+            "Essen a das Essen nejsou totéž."
+          ],
+          "current": [
+            "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+            "Používá se jako sloveso pro konzumaci jídla.",
+            "Das Essen je podstatné jméno a znamená jídlo.",
+            "Essen a das Essen nejsou totéž."
+          ]
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-essen",
+        "index": 690,
+        "de": "essen",
+        "layout": "standardStudy",
+        "csMain": "Jíst",
+        "studyTranslation": "Jíst",
+        "lvSourceMain": "ēst",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ēst",
+            "csText": "Jíst",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es labprāt ēdu picu.",
+            "csText": "Rád jím pizzu.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "ko jūs gribat ēst?",
+            "csText": "Co chcete jíst?",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs ēdam pulksten 12.",
+            "csText": "Jíme ve 12 hodin.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ēdiens ir gatavs.",
+            "csText": "Jídlo je hotové.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "ēdiens ļoti labi garšo.",
+            "csText": "Jídlo chutná velmi dobře.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "ēdiens garšo labi.",
+            "csText": "Jídlo chutná dobře.",
+            "de": "essen"
+          }
+        ],
+        "study": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "Jíst",
+          "explanation": [
+            "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+            "Používá se jako sloveso pro konzumaci jídla.",
+            "Das Essen je podstatné jméno a znamená jídlo.",
+            "Essen a das Essen nejsou totéž."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Rád jím pizzu."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Co chcete jíst?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Jíme ve 12 hodin."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Jídlo je hotové."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Jídlo chutná velmi dobře."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Jídlo chutná dobře."
+            }
+          ],
+          "tip": [
+            "Essen = jísti",
+            "Použijte essen, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Essen je sloveso bez článku.",
+            "Das Essen není totéž co essen.",
+            "Akce: essen.",
+            "Případ/jídlo: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "essen",
+                "essen"
+              ],
+              "purple": [
+                "jíst"
+              ],
+              "blue": [
+                "essen",
+                "esse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "esse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "chceš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Essen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "essen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "ēst",
+          "explanation": [
+            "Galvenā doma: Darbības vārds — ēst pārtiku.",
+            "essen galvenokārt nozīmē: patērēt pārtiku.",
+            "Bieži raksturo: darbību.",
+            "essen galvenokārt nozīmē: pārtika vai maltīte.",
+            "Bieži raksturo: lietu.",
+            "essen nozīmē ēst.",
+            "das Essen var nozīmēt ēdienu vai maltīti kopumā."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Es labprāt ēdu picu."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "ko jūs gribat ēst?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "mēs ēdam pulksten 12."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "ēdiens ir gatavs."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "ēdiens ļoti labi garšo."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "ēdiens garšo labi."
+            }
+          ],
+          "tip": [
+            "essen = ēst",
+            "Izmanto essen, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "essen ir darbības vārds bez artikula.",
+            "das Essen nav tas pats, kas essen.",
+            "Darbība: essen.",
+            "Lieta/maltīte: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "essen",
+                "essen"
+              ],
+              "purple": [
+                "ēst"
+              ],
+              "blue": [
+                "essen",
+                "esse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "esse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "ēst"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "essen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-sprechen-study",
+      "index": 5,
+      "deLemma": "sprechen",
+      "csText": "Mluvit",
+      "csMain": "Mluvit",
+      "study": {
+        "id": "a1-sprechen-study",
+        "layout": "standardStudy",
+        "translation": "Mluvit",
+        "explanation": [
+          "Hlavní myšlenka: Mluvit, konverzovat nebo používat jazyk.",
+          "Sprechen znamená hlavně: mluvit nebo hovořit.",
+          "Často charakterizováno: jazykem/konverzací.",
+          "Sprechen popisuje mluvení nebo používání jazyka."
+        ],
+        "examples": [
+          {
+            "de": "Ich spreche Deutsch.",
+            "lv": "Mluvím německy."
+          },
+          {
+            "de": "Wir sprechen über die Arbeit.",
+            "lv": "Mluvíme o práci."
+          },
+          {
+            "de": "Ich spreche Deutsch.",
+            "lv": "Mluvím německy."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sprechen",
+            "meaning": "Mluvit (proces, jazyk)",
+            "example": "Wir sprechen über die Arbeit. – Mluvíme o práci."
+          },
+          {
+            "word": "sagen",
+            "meaning": "Říct (konkrétní text)",
+            "example": "Sag mir die Wahrheit. – Řekni mi pravdu."
+          }
+        ],
+        "tip": [
+          "Sprechen = mluvit",
+          "Používá sprechen, když kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Sprechen = mluvit.",
+          "Mluvit, konverzovat nebo používat jazyk."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "sprechen"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "orange": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "spreche"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mluvím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "sprechen",
+                  "sprechen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "spreche"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mluvím"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Sprechen"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "green": [
+                "sprechen"
+              ]
+            }
+          ]
+        }
+      },
+      "repairedFields": [
+        {
+          "n": 16,
+          "field": "study.examples[2].lv",
+          "status": "RETAINED",
+          "pirmd": "Mluví se svou učitelkou.",
+          "pec": "Mluvím německy.",
+          "current": "Mluvím německy."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-sprechen-study",
+        "index": 5,
+        "de": "sprechen",
+        "layout": "standardStudy",
+        "csMain": "Mluvit",
+        "studyTranslation": "Mluvit",
+        "lvSourceMain": "runāt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "runāt",
+            "csText": "Mluvit",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es runāju vāciski.",
+            "csText": "Mluvím německy.",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Mēs runājam par darbu.",
+            "csText": "Mluvíme o práci.",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Viņa runā ar savu skolotāju.",
+            "csText": "Mluvím německy.",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sprechen",
+            "csText": "sprechen",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "runāt (process, valoda)",
+            "csText": "Mluvit (proces, jazyk)",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "sagen",
+            "csText": "sagen",
+            "de": "sprechen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "pasacīt (konkrētu tekstu)",
+            "csText": "Říct (konkrétní text)",
+            "de": "sprechen"
+          }
+        ],
+        "study": {
+          "id": "a1-sprechen-study",
+          "layout": "standardStudy",
+          "translation": "Mluvit",
+          "explanation": [
+            "Hlavní myšlenka: Mluvit, konverzovat nebo používat jazyk.",
+            "Sprechen znamená hlavně: mluvit nebo hovořit.",
+            "Často charakterizováno: jazykem/konverzací.",
+            "Sprechen popisuje mluvení nebo používání jazyka."
+          ],
+          "examples": [
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Mluvím německy."
+            },
+            {
+              "de": "Wir sprechen über die Arbeit.",
+              "lv": "Mluvíme o práci."
+            },
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Mluvím německy."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sprechen",
+              "meaning": "Mluvit (proces, jazyk)",
+              "example": "Wir sprechen über die Arbeit. – Mluvíme o práci."
+            },
+            {
+              "word": "sagen",
+              "meaning": "Říct (konkrétní text)",
+              "example": "Sag mir die Wahrheit. – Řekni mi pravdu."
+            }
+          ],
+          "tip": [
+            "Sprechen = mluvit",
+            "Používá sprechen, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Sprechen = mluvit.",
+            "Mluvit, konverzovat nebo používat jazyk."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "sprechen"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "spreche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sprechen",
+                    "sprechen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "spreche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvím"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Sprechen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "sprechen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sprechen-study",
+          "layout": "standardStudy",
+          "translation": "runāt",
+          "explanation": [
+            "Galvenā doma: Runāt, sarunāties vai lietot valodu.",
+            "sprechen galvenokārt nozīmē: runāt vai sarunāties.",
+            "Bieži raksturo: valodu/sarunu.",
+            "sprechen raksturo runāšanu vai valodas lietošanu."
+          ],
+          "examples": [
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Es runāju vāciski."
+            },
+            {
+              "de": "Wir sprechen über die Arbeit.",
+              "lv": "Mēs runājam par darbu."
+            },
+            {
+              "de": "Sie spricht mit ihrer Lehrerin.",
+              "lv": "Viņa runā ar savu skolotāju."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sprechen",
+              "meaning": "runāt (process, valoda)",
+              "example": "Wir sprechen über die Arbeit. – Mēs runājam par darbu."
+            },
+            {
+              "word": "sagen",
+              "meaning": "pasacīt (konkrētu tekstu)",
+              "example": "Sag mir die Wahrheit. – Pasaki man patiesību."
+            }
+          ],
+          "tip": [
+            "sprechen = runāt",
+            "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "sprechen = runāt.",
+            "Runāt, sarunāties vai lietot valodu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "sprechen"
+              ],
+              "purple": [
+                "runāt"
+              ],
+              "orange": [
+                "runāt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "spreche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "runāju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sprechen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "runājam"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "spricht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "runā"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "runāt"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "sprechen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-sie-study",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The old accent value was not retained; the current value matches PEC and correctly represents the polite imperative.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[5].lv",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Vařte, prosím.",
+          "proposedCs": "Vařte, prosím.",
+          "reason": "Current value matches PEC; the old value Vaříš is absent.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sollen",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Both section accent values match PEC; the old values Musíte and Musím were not retained.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[1].lv",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Máš",
+          "proposedCs": "Máš",
+          "reason": "Current value matches the example Du sollst kommen and PEC; Musíte is absent.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.sectionAccents.examples[2].lv",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Mám",
+          "proposedCs": "Mám",
+          "reason": "Current value matches the example Ich soll zu Hause bleiben and PEC; Musím is absent.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-essen",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The explanation is a correct four-element array, distinguishes essen from Das Essen, and contains no déšť issue.",
+      "findings": [
+        {
+          "field": "study.explanation",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": [
+            "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+            "Používá se jako sloveso pro konzumaci jídla.",
+            "Das Essen je podstatné jméno a znamená jídlo.",
+            "Essen a das Essen nejsou totéž."
+          ],
+          "proposedCs": [
+            "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+            "Používá se jako sloveso pro konzumaci jídla.",
+            "Das Essen je podstatné jméno a znamená jídlo.",
+            "Essen a das Essen nejsou totéž."
+          ],
+          "reason": "Current explanation exactly matches PEC and satisfies all specified structural and semantic checks.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sprechen-study",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The repaired example now correctly maps Ich spreche Deutsch to Mluvím německy.",
+      "findings": [
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Mluvím německy.",
+          "proposedCs": "Mluvím německy.",
+          "reason": "Current value matches PEC and the German example; the previous swapped translation is absent.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T15:03:16.664Z"
+}

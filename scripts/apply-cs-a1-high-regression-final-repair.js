@@ -328,4 +328,13 @@ if (require.main === module) {
   console.log(`Wrote ${reportPath}`);
 }
 
-module.exports = { REPAIRS, applyRepairs };
+module.exports = {
+  REPAIRS,
+  applyRepairs,
+  getRawValue,
+  valuesMatchPec,
+  valuesMatchPirmd,
+  accentComparable,
+  serializeValue,
+  entryId,
+};
