@@ -1,0 +1,141 @@
+{
+  "batch": "batch-011",
+  "cardIds": [
+    "a1-Hälfte-263",
+    "a1-Handschuh-268",
+    "a1-Heft-273",
+    "a1-Hemd-278",
+    "a1-ich-291"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-088",
+      "cardId": "a1-Hälfte-263",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Hälfte znamená polovina, nikoli strana.",
+      "auditCurrentCs": "Strana",
+      "auditProposedCs": "Polovina",
+      "auditDe": "Hälfte",
+      "auditLvSource": "puse",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Strana",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-089",
+      "cardId": "a1-Handschuh-268",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Rukavici je akuzativ či dativ; základní slovníkový tvar je rukavice.",
+      "auditCurrentCs": "Rukavici",
+      "auditProposedCs": "Rukavice",
+      "auditDe": "Handschuh",
+      "auditLvSource": "cimds",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Rukavici",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-090",
+      "cardId": "a1-Heft-273",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Heft znamená sešit; český notebook označuje přenosný počítač, nikoli školní sešit.",
+      "auditCurrentCs": "Notebook",
+      "auditProposedCs": "Sešit",
+      "auditDe": "Heft",
+      "auditLvSource": "burtnīca",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Notebook",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-091",
+      "cardId": "a1-Hemd-278",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Košili je pádový tvar; základní slovníkový tvar je košile.",
+      "auditCurrentCs": "Košili",
+      "auditProposedCs": "Košile",
+      "auditDe": "Hemd",
+      "auditLvSource": "krekls",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Košili",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-092",
+      "cardId": "a1-ich-291",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Mě je akuzativní tvar zájmena já; německému podmětnému zájmenu ich odpovídá já.",
+      "auditCurrentCs": "Mě",
+      "auditProposedCs": "Já",
+      "auditDe": "ich",
+      "auditLvSource": "es",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Mě",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-088",
+      "cardId": "a1-Hälfte-263",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "České „strana“ neodpovídá významu německého Hälfte; správný překlad je „polovina“.",
+      "currentCs": "Strana",
+      "proposedCs": "Polovina"
+    },
+    {
+      "findingId": "HIGH-089",
+      "cardId": "a1-Handschuh-268",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Rukavici“ je pádový tvar; slovníkový nominativ jednotného čísla je „rukavice“.",
+      "currentCs": "Rukavici",
+      "proposedCs": "Rukavice"
+    },
+    {
+      "findingId": "HIGH-090",
+      "cardId": "a1-Heft-273",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Německé Heft ve významu školního sešitu se česky překládá jako „sešit“, ne „notebook“.",
+      "currentCs": "Notebook",
+      "proposedCs": "Sešit"
+    },
+    {
+      "findingId": "HIGH-091",
+      "cardId": "a1-Hemd-278",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Košili“ je pádový tvar; slovníkový nominativ jednotného čísla je „košile“.",
+      "currentCs": "Košili",
+      "proposedCs": "Košile"
+    },
+    {
+      "findingId": "HIGH-092",
+      "cardId": "a1-ich-291",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Německému podmětnému zájmenu ich odpovídá české „já“, nikoli akuzativní „mě“.",
+      "currentCs": "Mě",
+      "proposedCs": "Já"
+    }
+  ],
+  "completedAt": "2026-08-11T17:40:03.657Z"
+}

@@ -1,0 +1,2786 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-gut-study",
+      "index": 259,
+      "de": "gut",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Dobrý",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 84,
+          "field": "study.explanation[0]",
+          "pirmd": "Hlavní myšlenka: střevo je přídavné jméno/příslovce – dobrý, úspěšný, v pořádku.",
+          "pec": "Hlavní myšlenka: gut je přídavné jméno nebo příslovce – dobrý, dobře, v pořádku."
+        },
+        {
+          "block": 2,
+          "n": 85,
+          "field": "study.tip[0]",
+          "pirmd": "Střevo bez článku je přídavné jméno/příslovce – dobrý/dobře.",
+          "pec": "Gut bez členu je přídavné jméno nebo příslovce – dobrý/dobře."
+        },
+        {
+          "block": 2,
+          "n": 86,
+          "field": "study.important[0]",
+          "pirmd": "Střevo = dobrý/dobře (přídavné jméno/přívlastek).",
+          "pec": "Gut = dobrý/dobře (přídavné jméno nebo příslovce)."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-gut-study",
+        "index": 259,
+        "de": "gut",
+        "layout": "standardStudy",
+        "csMain": "Dobrý",
+        "studyTranslation": "Dobrý",
+        "lvSourceMain": "labs",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "labs",
+            "csText": "Dobrý",
+            "de": "gut"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "ēdiens ir labs.",
+            "csText": "Jídlo je dobré.",
+            "de": "gut"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "kā tev iet? – labi, paldies!",
+            "csText": "Jak se máš - dobře, díky!",
+            "de": "gut"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņš labi runā vāciski.",
+            "csText": "Mluví dobře německy.",
+            "de": "gut"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "labrīt!",
+            "csText": "Dobré ráno!",
+            "de": "gut"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "tā ir laba ideja.",
+            "csText": "To je dobrý nápad.",
+            "de": "gut"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "viss ir kārtībā.",
+            "csText": "Vše je v pořádku.",
+            "de": "gut"
+          }
+        ],
+        "study": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "Dobrý",
+          "explanation": [
+            "Hlavní myšlenka: gut je přídavné jméno nebo příslovce – dobrý, dobře, v pořádku.",
+            "Gut popisuje kvalitu, zdraví nebo jak se něco děje (Es geht mir gut. = mám se dobře.).",
+            "Ve zdvořilostní frázi guten Tag/Abend/Morgen gut změní koncovku po skloňování.",
+            "Pokud gut popisuje sloveso, jde o příslovce (gut schwimmen = dobře plavat).",
+            "Nezaměňovat s das Gut – jde o podstatné jméno (majetek, panství) s velkým písmenem a členem."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "Jídlo je dobré."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Jak se máš - dobře, díky!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "Mluví dobře německy."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobré ráno!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "To je dobrý nápad."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Vše je v pořádku."
+            }
+          ],
+          "tip": [
+            "Gut bez členu je přídavné jméno nebo příslovce – dobrý/dobře.",
+            "Das Gut s velkým písmenem a členem je úplně jiné slovo — podstatné jméno (majetek, panství)."
+          ],
+          "important": [
+            "Gut = dobrý/dobře (přídavné jméno nebo příslovce).",
+            "Das Gut = majetek/panství (podstatné jméno) – nezaměňovat s gut.",
+            "Guten Tag/Morgen/Abend - střevní změny končící po skloňování."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gut"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "das Gut"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jídlo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jak"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluví"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Guten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dobré"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gute"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dobrý"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vše"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "gut"
+                ]
+              },
+              {
+                "green": [
+                  "das Gut"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "Střevo"
+                ]
+              },
+              {
+                "green": [
+                  "das Gut"
+                ]
+              },
+              {
+                "blue": [
+                  "Guten Tag",
+                  "Morgen",
+                  "Abend"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "labs",
+          "explanation": [
+            "Galvenā doma: gut ir īpašības/apstākļa vārds — labs, veiksmīgi, kārtībā.",
+            "gut raksturo kvalitāti, veselību vai to, kā kaut kas noris (Es geht mir gut. = Man klājas labi.).",
+            "Sveicienos Guten Morgen!, Guten Tag! un Guten Abend! īpašības vārdam gut ir galotne -en.",
+            "Ja gut raksturo darbības vārdu, tas ir apstākļa vārds (gut schwimmen = labi peldēt).",
+            "Nejauc ar das Gut — tas ar lielo burtu un artikulu ir lietvārds (īpašums, muiža)."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "ēdiens ir labs."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "kā tev iet? – labi, paldies!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "viņš labi runā vāciski."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "labrīt!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "tā ir laba ideja."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "viss ir kārtībā."
+            }
+          ],
+          "tip": [
+            "gut bez artikula ir īpašības/apstākļa vārds — labs/labi.",
+            "das Gut ar lielo burtu un artikulu ir pavisam cits vārds — lietvārds (īpašums, muiža)."
+          ],
+          "important": [
+            "gut = labs/labi (īpašības/apstākļa vārds).",
+            "das Gut = īpašums/muiža (lietvārds) — nejauc ar gut.",
+            "Guten Morgen / Guten Tag / Guten Abend — īpašības vārdam gut ir galotne -en."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gut"
+              ],
+              "purple": [
+                "labs",
+                "labi"
+              ],
+              "green": [
+                "das Gut"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "labs"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "labi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "labi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Guten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "labrīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gute"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laba"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kārtībā"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "gut"
+                ]
+              },
+              {
+                "green": [
+                  "das Gut"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "gut"
+                ]
+              },
+              {
+                "green": [
+                  "das Gut"
+                ]
+              },
+              {
+                "blue": [
+                  "Guten Tag",
+                  "Morgen",
+                  "Abend"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-gut-study",
+        "layout": "standardStudy",
+        "translation": "Dobrý",
+        "explanation": [
+          "Hlavní myšlenka: gut je přídavné jméno nebo příslovce – dobrý, dobře, v pořádku.",
+          "Gut popisuje kvalitu, zdraví nebo jak se něco děje (Es geht mir gut. = mám se dobře.).",
+          "Ve zdvořilostní frázi guten Tag/Abend/Morgen gut změní koncovku po skloňování.",
+          "Pokud gut popisuje sloveso, jde o příslovce (gut schwimmen = dobře plavat).",
+          "Nezaměňovat s das Gut – jde o podstatné jméno (majetek, panství) s velkým písmenem a členem."
+        ],
+        "examples": [
+          {
+            "de": "Das Essen ist gut.",
+            "lv": "Jídlo je dobré."
+          },
+          {
+            "de": "Wie geht es dir? – Gut, danke!",
+            "lv": "Jak se máš - dobře, díky!"
+          },
+          {
+            "de": "Er spricht gut Deutsch.",
+            "lv": "Mluví dobře německy."
+          },
+          {
+            "de": "Guten Morgen!",
+            "lv": "Dobré ráno!"
+          },
+          {
+            "de": "Das ist eine gute Idee.",
+            "lv": "To je dobrý nápad."
+          },
+          {
+            "de": "Alles ist gut.",
+            "lv": "Vše je v pořádku."
+          }
+        ],
+        "tip": [
+          "Gut bez členu je přídavné jméno nebo příslovce – dobrý/dobře.",
+          "Das Gut s velkým písmenem a členem je úplně jiné slovo — podstatné jméno (majetek, panství)."
+        ],
+        "important": [
+          "Gut = dobrý/dobře (přídavné jméno nebo příslovce).",
+          "Das Gut = majetek/panství (podstatné jméno) – nezaměňovat s gut.",
+          "Guten Tag/Morgen/Abend - střevní změny končící po skloňování."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "gut"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "das Gut"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "gut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jídlo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Gut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jak"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "gut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mluví"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Guten"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dobré"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "gute"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "dobrý"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "gut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vše"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "gut"
+              ]
+            },
+            {
+              "green": [
+                "das Gut"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "Střevo"
+              ]
+            },
+            {
+              "green": [
+                "das Gut"
+              ]
+            },
+            {
+              "blue": [
+                "Guten Tag",
+                "Morgen",
+                "Abend"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-halten",
+      "index": 265,
+      "de": "halten",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Držet • Zastavit",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 87,
+          "field": "study.examples[2].lv",
+          "pirmd": "Prosím přestaň",
+          "pec": "Prosím, zastavte se."
+        },
+        {
+          "block": 2,
+          "n": 88,
+          "field": "study.explanation[0]",
+          "pirmd": "Hlavní myšlenka: zastavit znamená držet, ale s přepravou nebo pohybem může znamenat zastavit nebo zastavit.",
+          "pec": "Hlavní myšlenka: halten znamená držet; u dopravy může znamenat zastavit nebo mít zastávku."
+        },
+        {
+          "block": 2,
+          "n": 89,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: v ruce → zastavit • Doprava → zastavení/zastávky.",
+          "pec": "Pamatujte: předmět v ruce → držet • zastavit se → anhalten • doprava → halten = zastavit."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-halten",
+        "index": 265,
+        "de": "halten",
+        "layout": "standardStudy",
+        "csMain": "Držet • Zastavit",
+        "studyTranslation": "Držet • Zastavit",
+        "lvSourceMain": "turēt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "turēt",
+            "csText": "Držet • Zastavit",
+            "de": "halten"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es turu somu.",
+            "csText": "Držím tašku",
+            "de": "halten"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "autobuss šeit pietur.",
+            "csText": "Autobus zde zastavuje.",
+            "de": "halten"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "lūdzu, apstājieties.",
+            "csText": "Prosím, zastavte se.",
+            "de": "halten"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es to uzskatu par pareizu.",
+            "csText": "Považuji to za správné.",
+            "de": "halten"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "halten",
+            "csText": "halten",
+            "de": "halten"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "turēt • transportam arī pieturēt",
+            "csText": "Držet / zastavit",
+            "de": "halten"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "nehmen",
+            "csText": "nehmen",
+            "de": "halten"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "ņemt",
+            "csText": "Vzít",
+            "de": "halten"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "anhalten",
+            "csText": "stoppen",
+            "de": "halten"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "apstāties • apturēt",
+            "csText": "Zastavit",
+            "de": "halten"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "denken",
+            "csText": "denken",
+            "de": "halten"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "domāt",
+            "csText": "Přemýšlet",
+            "de": "halten"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: priekšmetu turēt → halten; apstāties → anhalten; transports pietur → hält.",
+            "csText": "Pamatujte: předmět v ruce → držet • zastavit se → anhalten • doprava → halten = zastavit.",
+            "de": "halten"
+          }
+        ],
+        "study": {
+          "id": "a1-halten",
+          "layout": "standardStudy",
+          "translation": "Držet • Zastavit",
+          "explanation": [
+            "Hlavní myšlenka: halten znamená držet; u dopravy může znamenat zastavit nebo mít zastávku.",
+            "S předmětem v ruce je halten obvykle držet.",
+            "Autobusem, vlakem nebo autem, zastavit často znamená zastavit.",
+            "V názorové větě ich halte das für... znamená považovat za."
+          ],
+          "examples": [
+            {
+              "de": "Ich halte die Tasche.",
+              "lv": "Držím tašku"
+            },
+            {
+              "de": "Der Bus hält hier.",
+              "lv": "Autobus zde zastavuje."
+            },
+            {
+              "de": "Bitte halten Sie an.",
+              "lv": "Prosím, zastavte se."
+            },
+            {
+              "de": "Ich halte das für richtig.",
+              "lv": "Považuji to za správné."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "halten",
+              "meaning": "Držet / zastavit",
+              "example": "Der Bus hält. = Autobus zastavuje."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "Vzít",
+              "example": "Ich nehme die Tasche. = Beru tašku."
+            },
+            {
+              "word": "stoppen",
+              "meaning": "Zastavit",
+              "example": "Stoppen Sie das Auto. = Zastavte auto."
+            },
+            {
+              "word": "denken",
+              "meaning": "Přemýšlet",
+              "example": "Ich denke, das ist richtig. = Myslím, že je to správné."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: předmět v ruce → držet • zastavit se → anhalten • doprava → halten = zastavit."
+          },
+          "important": [
+            "Halten není jen 'držet'. U dopravy to často znamená zastavení.",
+            "Ich halte das für... je názorová fráze: „Považuji to za...“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "halten"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "halte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Držím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hält"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Autobus"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "halten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "halte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Považuji"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "halten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Držet",
+                    "Držet"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "hält"
+                  ],
+                  "purple": [
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vzít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "nehme",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stoppen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zastavit"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Stoppen",
+                    "Stoppen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "denken"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přemýšlet"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "denke",
+                    "Ich"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ],
+                "green": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "halten"
+                ],
+                "purple": [
+                  "Halten",
+                  "Halten"
+                ]
+              },
+              {
+                "blue": [
+                  "halte"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-halten",
+          "layout": "standardStudy",
+          "translation": "turēt",
+          "explanation": [
+            "Galvenā doma: halten visbiežāk nozīmē turēt.",
+            "Par autobusu, vilcienu vai citu transportu halten var nozīmēt pieturēt vai apstāties.",
+            "Atdalāmais darbības vārds anhalten nozīmē apstāties vai apturēt.",
+            "Konstrukcija etwas für ... halten nozīmē uzskatīt kaut ko par kaut ko."
+          ],
+          "examples": [
+            {
+              "de": "Ich halte die Tasche.",
+              "lv": "es turu somu."
+            },
+            {
+              "de": "Der Bus hält hier.",
+              "lv": "autobuss šeit pietur."
+            },
+            {
+              "de": "Bitte halten Sie an.",
+              "lv": "lūdzu, apstājieties."
+            },
+            {
+              "de": "Ich halte das für richtig.",
+              "lv": "es to uzskatu par pareizu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "halten",
+              "meaning": "turēt • transportam arī pieturēt",
+              "example": "Der Bus hält. = Autobuss pietur."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "ņemt",
+              "example": "Ich nehme die Tasche. = Es ņemu somu."
+            },
+            {
+              "word": "anhalten",
+              "meaning": "apstāties • apturēt",
+              "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+            },
+            {
+              "word": "denken",
+              "meaning": "domāt",
+              "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: priekšmetu turēt → halten; apstāties → anhalten; transports pietur → hält."
+          },
+          "important": [
+            "halten visbiežāk nozīmē turēt.",
+            "Der Bus hält nozīmē: autobuss pietur.",
+            "Bitte halten Sie an lietots atdalāmais darbības vārds anhalten."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "halten"
+              ],
+              "purple": [
+                "turēt",
+                "pieturēt",
+                "apstāties",
+                "uzskatīt"
+              ],
+              "green": [
+                "anhalten",
+                "transportu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "halte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "turu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hält"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pietur"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "halten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apstājieties"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "halte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uzskatu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "halten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "turēt",
+                    "pieturēt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "hält"
+                  ],
+                  "purple": [
+                    "pietur"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ņemt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "nehme",
+                    "ņemu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "anhalten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "apstāties",
+                    "apturēt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "halten",
+                    "an"
+                  ],
+                  "purple": [
+                    "apstājieties"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "denken"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "domāt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "denke",
+                    "domāju"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "halten",
+                  "anhalten",
+                  "hält"
+                ],
+                "purple": [
+                  "turēt",
+                  "apstāties",
+                  "pietur"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "halten"
+                ],
+                "purple": [
+                  "turēt"
+                ]
+              },
+              {
+                "blue": [
+                  "hält"
+                ],
+                "purple": [
+                  "pietur"
+                ]
+              },
+              {
+                "blue": [
+                  "halten",
+                  "an"
+                ],
+                "green": [
+                  "anhalten"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-halten",
+        "layout": "standardStudy",
+        "translation": "Držet • Zastavit",
+        "explanation": [
+          "Hlavní myšlenka: halten znamená držet; u dopravy může znamenat zastavit nebo mít zastávku.",
+          "S předmětem v ruce je halten obvykle držet.",
+          "Autobusem, vlakem nebo autem, zastavit často znamená zastavit.",
+          "V názorové větě ich halte das für... znamená považovat za."
+        ],
+        "examples": [
+          {
+            "de": "Ich halte die Tasche.",
+            "lv": "Držím tašku"
+          },
+          {
+            "de": "Der Bus hält hier.",
+            "lv": "Autobus zde zastavuje."
+          },
+          {
+            "de": "Bitte halten Sie an.",
+            "lv": "Prosím, zastavte se."
+          },
+          {
+            "de": "Ich halte das für richtig.",
+            "lv": "Považuji to za správné."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "halten",
+            "meaning": "Držet / zastavit",
+            "example": "Der Bus hält. = Autobus zastavuje."
+          },
+          {
+            "word": "nehmen",
+            "meaning": "Vzít",
+            "example": "Ich nehme die Tasche. = Beru tašku."
+          },
+          {
+            "word": "stoppen",
+            "meaning": "Zastavit",
+            "example": "Stoppen Sie das Auto. = Zastavte auto."
+          },
+          {
+            "word": "denken",
+            "meaning": "Přemýšlet",
+            "example": "Ich denke, das ist richtig. = Myslím, že je to správné."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: předmět v ruce → držet • zastavit se → anhalten • doprava → halten = zastavit."
+        },
+        "important": [
+          "Halten není jen 'držet'. U dopravy to často znamená zastavení.",
+          "Ich halte das für... je názorová fráze: „Považuji to za...“."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "halten"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "halte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Držím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "hält"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Autobus"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "halten"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "halte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Považuji"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "halten"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Držet",
+                  "Držet"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "hält"
+                ],
+                "purple": [
+                  "Der"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nehmen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vzít"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "nehme",
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "stoppen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Zastavit"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Stoppen",
+                  "Stoppen"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "denken"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Přemýšlet"
+                ]
+              },
+              "example": {
+                "green": [
+                  "denke",
+                  "Ich"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Pamatujte",
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ],
+              "green": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "halten"
+              ],
+              "purple": [
+                "Halten",
+                "Halten"
+              ]
+            },
+            {
+              "blue": [
+                "halte"
+              ],
+              "purple": [
+                "Ich"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-heißen",
+      "index": 276,
+      "de": "heißen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Být nazýván • Podlý",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 90,
+          "field": "study.important[1]",
+          "pirmd": "Byl heißt das? často znamená \"Co to znamená?\".",
+          "pec": "Was heißt das? často znamená „Co to znamená?“."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-heißen",
+        "index": 276,
+        "de": "heißen",
+        "layout": "standardStudy",
+        "csMain": "Být nazýván • Podlý",
+        "studyTranslation": "Jmenovat se • Znamenat",
+        "lvSourceMain": "saukties",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "saukties",
+            "csText": "Jmenovat se • Znamenat",
+            "de": "heißen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "mani sauc Anna.",
+            "csText": "Jmenuji se Anna.",
+            "de": "heißen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "kā tevi sauc?",
+            "csText": "Jak se jmenuješ",
+            "de": "heißen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "kā tas saucas vāciski?",
+            "csText": "Jak se to řekne německy?",
+            "de": "heißen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ko tas nozīmē?",
+            "csText": "Co to znamená",
+            "de": "heißen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "heißen",
+            "csText": "heißen",
+            "de": "heißen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "saukties / nozīmēt",
+            "csText": "Být volán / míněn",
+            "de": "heißen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "nennen",
+            "csText": "nennen",
+            "de": "heißen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "saukt / nosaukt",
+            "csText": "Volat / jmenovat",
+            "de": "heißen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "bedeuten",
+            "csText": "bedeuten",
+            "de": "heißen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "nozīmēt",
+            "csText": "Znamenat",
+            "de": "heißen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "rufen",
+            "csText": "rufen",
+            "de": "heißen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "saukt • pasaukt",
+            "csText": "Volat / volat",
+            "de": "heißen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: Ich heiße... → mani sauc...",
+            "csText": "Pamatujte: Ich heiße... → jmenuji se...",
+            "de": "heißen"
+          }
+        ],
+        "study": {
+          "id": "a1-heißen",
+          "layout": "standardStudy",
+          "translation": "Jmenovat se • Znamenat",
+          "explanation": [
+            "Hlavní myšlenka: heißen se nejčastěji používá k vyjádření toho, jak se někdo jmenuje.",
+            "Fráze Ich heiße... znamená „jmenuji se...“.",
+            "Se slovy nebo výrazy může heißen také znamenat znamenat.",
+            "Na úrovni A1 je nejdůležitější fráze Wie heißt du?"
+          ],
+          "examples": [
+            {
+              "de": "Ich heiße Anna.",
+              "lv": "Jmenuji se Anna."
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Jak se jmenuješ"
+            },
+            {
+              "de": "Wie heißt das auf Deutsch?",
+              "lv": "Jak se to řekne německy?"
+            },
+            {
+              "de": "Was heißt das?",
+              "lv": "Co to znamená"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "heißen",
+              "meaning": "Být volán / míněn",
+              "example": "Ich heiße Anna. = Jmenuji se Anna."
+            },
+            {
+              "word": "nennen",
+              "meaning": "Volat / jmenovat",
+              "example": "Er nennt mich Tom. = Říká mi Tome."
+            },
+            {
+              "word": "bedeuten",
+              "meaning": "Znamenat",
+              "example": "Was bedeutet das? = Co to znamená?"
+            },
+            {
+              "word": "rufen",
+              "meaning": "Volat / volat",
+              "example": "Ich rufe dich. = Volám tě / volám tě."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: Ich heiße... → jmenuji se..."
+          },
+          "important": [
+            "Wie heißt du? znamená \"Jak se jmenuješ?\", ne doslova \"jak se jmenuješ?\".",
+            "Was heißt das? často znamená „Co to znamená?“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "heißen",
+                "Ich heiße",
+                "Wie heißt du"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "heiße"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jmenuji"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jak"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jak"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "znamená"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "heißen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být",
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "heiße"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Volat"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "nennt",
+                    "nennt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bedeuten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Střední"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "bedeutet",
+                    "Was"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "rufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Volat",
+                    "Volat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "rufe"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Ich heiße"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Wie heißt du"
+                ],
+                "purple": [
+                  "Wie"
+                ]
+              },
+              {
+                "blue": [
+                  "Byl"
+                ],
+                "purple": [
+                  "Byl"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-heißen",
+          "layout": "standardStudy",
+          "translation": "saukties",
+          "explanation": [
+            "Galvenā doma: heißen visbiežāk lieto, lai pateiktu, kā kādu sauc.",
+            "Frāze Ich heiße... nozīmē “mani sauc...”.",
+            "Ar vārdiem vai izteicieniem heißen var nozīmēt arī nozīmēt.",
+            "A1 līmenī svarīgākā frāze ir Wie heißt du?"
+          ],
+          "examples": [
+            {
+              "de": "Ich heiße Anna.",
+              "lv": "mani sauc Anna."
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "kā tevi sauc?"
+            },
+            {
+              "de": "Wie heißt das auf Deutsch?",
+              "lv": "kā tas saucas vāciski?"
+            },
+            {
+              "de": "Was heißt das?",
+              "lv": "ko tas nozīmē?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "heißen",
+              "meaning": "saukties / nozīmēt",
+              "example": "Ich heiße Anna. = Mani sauc Anna."
+            },
+            {
+              "word": "nennen",
+              "meaning": "saukt / nosaukt",
+              "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+            },
+            {
+              "word": "bedeuten",
+              "meaning": "nozīmēt",
+              "example": "Was bedeutet das? = Ko tas nozīmē?"
+            },
+            {
+              "word": "rufen",
+              "meaning": "saukt • pasaukt",
+              "example": "Ich rufe dich. = Es tevi pasaucu."
+            },
+            {
+              "word": "anrufen",
+              "meaning": "zvanīt",
+              "example": "Ich rufe dich an. = Es tev piezvanu."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: Ich heiße... → mani sauc..."
+          },
+          "important": [
+            "Wie heißt du? nozīmē “Kā tevi sauc?”, nevis burtiski “kā tu saucies?”.",
+            "Was heißt das? bieži nozīmē “Ko tas nozīmē?”."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "heißen",
+                "Ich heiße",
+                "Wie heißt du"
+              ],
+              "purple": [
+                "sauc",
+                "nozīmēt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "heiße"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mani sauc"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sauc"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saucas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nozīmē"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "heißen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "saukties",
+                    "nozīmēt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "heiße"
+                  ],
+                  "purple": [
+                    "sauc"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "saukt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "nennt",
+                    "sauc"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bedeuten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "nozīmēt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "bedeutet",
+                    "nozīmē"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "rufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "saukt",
+                    "pasaukt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "rufe",
+                    "pasaucu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "anrufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zvanīt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "rufe",
+                    "an",
+                    "piezvanu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Ich heiße"
+                ],
+                "purple": [
+                  "mani sauc"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Wie heißt du"
+                ],
+                "purple": [
+                  "kā tevi sauc"
+                ]
+              },
+              {
+                "blue": [
+                  "Was heißt das"
+                ],
+                "purple": [
+                  "ko tas nozīmē"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-heißen",
+        "layout": "standardStudy",
+        "translation": "Jmenovat se • Znamenat",
+        "explanation": [
+          "Hlavní myšlenka: heißen se nejčastěji používá k vyjádření toho, jak se někdo jmenuje.",
+          "Fráze Ich heiße... znamená „jmenuji se...“.",
+          "Se slovy nebo výrazy může heißen také znamenat znamenat.",
+          "Na úrovni A1 je nejdůležitější fráze Wie heißt du?"
+        ],
+        "examples": [
+          {
+            "de": "Ich heiße Anna.",
+            "lv": "Jmenuji se Anna."
+          },
+          {
+            "de": "Wie heißt du?",
+            "lv": "Jak se jmenuješ"
+          },
+          {
+            "de": "Wie heißt das auf Deutsch?",
+            "lv": "Jak se to řekne německy?"
+          },
+          {
+            "de": "Was heißt das?",
+            "lv": "Co to znamená"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "heißen",
+            "meaning": "Být volán / míněn",
+            "example": "Ich heiße Anna. = Jmenuji se Anna."
+          },
+          {
+            "word": "nennen",
+            "meaning": "Volat / jmenovat",
+            "example": "Er nennt mich Tom. = Říká mi Tome."
+          },
+          {
+            "word": "bedeuten",
+            "meaning": "Znamenat",
+            "example": "Was bedeutet das? = Co to znamená?"
+          },
+          {
+            "word": "rufen",
+            "meaning": "Volat / volat",
+            "example": "Ich rufe dich. = Volám tě / volám tě."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: Ich heiße... → jmenuji se..."
+        },
+        "important": [
+          "Wie heißt du? znamená \"Jak se jmenuješ?\", ne doslova \"jak se jmenuješ?\".",
+          "Was heißt das? často znamená „Co to znamená?“."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "heißen",
+              "Ich heiße",
+              "Wie heißt du"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "heiße"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jmenuji"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "heißt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jak"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "heißt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jak"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "heißt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "znamená"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "heißen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být",
+                  "Být"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "heiße"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nennen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Volat"
+                ]
+              },
+              "example": {
+                "green": [
+                  "nennt",
+                  "nennt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bedeuten"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Střední"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "bedeutet",
+                  "Was"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "rufen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Volat",
+                  "Volat"
+                ]
+              },
+              "example": {
+                "red": [
+                  "rufe"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Ich heiße"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "Wie heißt du"
+              ],
+              "purple": [
+                "Wie"
+              ]
+            },
+            {
+              "blue": [
+                "Byl"
+              ],
+              "purple": [
+                "Byl"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-hoch-study",
+      "index": 285,
+      "de": "hoch",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Vysoký",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 91,
+          "field": "study.examples[1].lv",
+          "pirmd": "Hora je vysoká.",
+          "pec": "Police je vysoká dva metry."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-hoch-study",
+        "index": 285,
+        "de": "hoch",
+        "layout": "standardStudy",
+        "csMain": "Vysoký",
+        "studyTranslation": "Vysoký",
+        "lvSourceMain": "augsts",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "augsts",
+            "csText": "Vysoký",
+            "de": "hoch"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "kalns ir augsts.",
+            "csText": "Hora je vysoká.",
+            "de": "hoch"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "plaukts ir divus metrus augsts.",
+            "csText": "Police je vysoká dva metry.",
+            "de": "hoch"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "īre ir augsta.",
+            "csText": "Nájemné je vysoké.",
+            "de": "hoch"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "siena ir augsta.",
+            "csText": "Zeď je vysoká.",
+            "de": "hoch"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "cenas ir augstas.",
+            "csText": "Ceny jsou vysoké.",
+            "de": "hoch"
+          }
+        ],
+        "study": {
+          "id": "a1-hoch-study",
+          "layout": "standardStudy",
+          "translation": "Vysoký",
+          "explanation": [
+            "Hlavní myšlenka: Vysoká svisle, úroveň nebo výška.",
+            "Hoch především znamená: velký na výšku.",
+            "Často se vyznačuje: vertikální výškou.",
+            "Hoch v podstatě znamená: vysoká úroveň.",
+            "Často charakterizováno: cenami/čísly.",
+            "Hoch popisuje výšku, vertikální směr nebo úroveň."
+          ],
+          "examples": [
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "Hora je vysoká."
+            },
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "Police je vysoká dva metry."
+            },
+            {
+              "de": "Die Miete ist hoch.",
+              "lv": "Nájemné je vysoké."
+            },
+            {
+              "de": "Die Mauer ist hoch.",
+              "lv": "Zeď je vysoká."
+            },
+            {
+              "de": "Die Preise sind hoch.",
+              "lv": "Ceny jsou vysoké."
+            }
+          ],
+          "tip": [
+            "Hoch = vysoký",
+            "Použijte hoch, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Hoch se často používá pro ceny a úroveň.",
+            "Hoch = vysoký.",
+            "Vysoká svisle, na úrovni nebo na výšku."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "hoch"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "hoch",
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hora"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "hoch",
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hora"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "hoch",
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nájemné"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "hoch",
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zeď"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "hoch",
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ceny"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Hoch"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "hoch"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-hoch-study",
+          "layout": "standardStudy",
+          "translation": "augsts",
+          "explanation": [
+            "Galvenā doma: hoch nozīmē augsts vai augstu.",
+            "hoch raksturo vertikālu augstumu vai augstu līmeni.",
+            "To lieto, piemēram, par kalnu, sienu, cenu, temperatūru vai skaitli."
+          ],
+          "examples": [
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "kalns ir augsts."
+            },
+            {
+              "de": "Das Regal ist zwei Meter hoch.",
+              "lv": "plaukts ir divus metrus augsts."
+            },
+            {
+              "de": "Die Miete ist hoch.",
+              "lv": "īre ir augsta."
+            },
+            {
+              "de": "Die Mauer ist hoch.",
+              "lv": "siena ir augsta."
+            },
+            {
+              "de": "Die Preise sind hoch.",
+              "lv": "cenas ir augstas."
+            }
+          ],
+          "tip": [
+            "Vertikāls augstums vai augsts līmenis → hoch.",
+            "Par cilvēka augumu parasti lieto groß."
+          ],
+          "important": [
+            "Der Berg ist hoch = kalns ir augsts.",
+            "Er ist groß = viņš ir garš.",
+            "Par cilvēka augumu parasti nelieto hoch."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "hoch"
+              ],
+              "purple": [
+                "augsts",
+                "augstu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augsts"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augsts"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augsta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augsta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augstas"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "augsts"
+                ]
+              },
+              {
+                "green": [
+                  "groß"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "hoch"
+                ],
+                "purple": [
+                  "augsts"
+                ]
+              },
+              {
+                "green": [
+                  "groß"
+                ],
+                "purple": [
+                  "garš"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-hoch-study",
+        "layout": "standardStudy",
+        "translation": "Vysoký",
+        "explanation": [
+          "Hlavní myšlenka: Vysoká svisle, úroveň nebo výška.",
+          "Hoch především znamená: velký na výšku.",
+          "Často se vyznačuje: vertikální výškou.",
+          "Hoch v podstatě znamená: vysoká úroveň.",
+          "Často charakterizováno: cenami/čísly.",
+          "Hoch popisuje výšku, vertikální směr nebo úroveň."
+        ],
+        "examples": [
+          {
+            "de": "Der Berg ist hoch.",
+            "lv": "Hora je vysoká."
+          },
+          {
+            "de": "Der Berg ist hoch.",
+            "lv": "Police je vysoká dva metry."
+          },
+          {
+            "de": "Die Miete ist hoch.",
+            "lv": "Nájemné je vysoké."
+          },
+          {
+            "de": "Die Mauer ist hoch.",
+            "lv": "Zeď je vysoká."
+          },
+          {
+            "de": "Die Preise sind hoch.",
+            "lv": "Ceny jsou vysoké."
+          }
+        ],
+        "tip": [
+          "Hoch = vysoký",
+          "Použijte hoch, když kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Hoch se často používá pro ceny a úroveň.",
+          "Hoch = vysoký.",
+          "Vysoká svisle, na úrovni nebo na výšku."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "hoch"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "orange": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "hoch",
+                  "hoch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hora"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "hoch",
+                  "hoch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hora"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "hoch",
+                  "hoch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nájemné"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "hoch",
+                  "hoch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zeď"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "hoch",
+                  "hoch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ceny"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Hoch"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "green": [
+                "hoch"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-gut-study",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "HIGH-repaired Czech text is correct. The remaining 'střevní změny' wording is an unrelated pre-existing corruption.",
+      "findings": [
+        {
+          "field": "study.important[2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Guten Tag/Morgen/Abend - střevní změny končící po skloňování.",
+          "reason": "The phrase 'střevní změny' is nonsensical here; the repaired fields do not include this item.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 2
+        }
+      ]
+    },
+    {
+      "cardId": "a1-halten",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "All HIGH-repaired Czech fields preserve the intended meanings of halten, anhalten, and transport-related stopping without regression.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-heißen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired Was heißt das? sentence is correct. Existing accent text contains unrelated malformed Czech wording.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.important[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Byl",
+          "reason": "The accent annotation is unrelated to the repaired important[1] sentence and does not represent the Czech meaning of Wie heißt du?.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 2
+        }
+      ]
+    },
+    {
+      "field": "csMain",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "MEDIUM",
+      "currentCs": "Být nazýván • Podlý",
+      "reason": "Podlý is an incorrect unrelated meaning for heißen and was not part of the HIGH repair.",
+      "confidence": 0.99,
+      "relatedRepairBlock": 2
+    }
+  ],
+  "completedAt": "2026-08-12T14:42:24.359Z"
+}

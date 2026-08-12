@@ -1,0 +1,3076 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-kein",
+      "index": 308,
+      "de": "kein",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Nikdo • Nic",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 107,
+          "field": "study.translation",
+          "pirmd": "Nikdo • Nic",
+          "pec": "Žádný • Žádná • Žádné"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-kein",
+        "index": 308,
+        "de": "kein",
+        "layout": "standardStudy",
+        "csMain": "Nikdo • Nic",
+        "studyTranslation": "Žádný • Žádná • Žádné",
+        "lvSourceMain": "neviens • nekāds",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "neviens • nekāds",
+            "csText": "Žádný • Žádná • Žádné",
+            "de": "kein"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "man nav naudas.",
+            "csText": "Nemám peníze",
+            "de": "kein"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "piena vairs nav nemaz.",
+            "csText": "Už vůbec není mléko.",
+            "de": "kein"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "neviens cilvēks tur nebija.",
+            "csText": "Nikdo tam nebyl.",
+            "de": "kein"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "man nav laika.",
+            "csText": "Nemám čas",
+            "de": "kein"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "tā nav nekāda problēma.",
+            "csText": "To není problém.",
+            "de": "kein"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "mums nav bērnu.",
+            "csText": "Nemáme děti.",
+            "de": "kein"
+          }
+        ],
+        "study": {
+          "id": "a1-kein",
+          "layout": "standardStudy",
+          "translation": "Žádný • Žádná • Žádné",
+          "explanation": [
+            "Hlavní myšlenka: kein je negační člen, který neguje podstatné jméno - češtině, v závislosti na kontextu nikdo nebo nic.",
+            "Kein se skloňuje jako ein (kein/keine/keinen...) a stojí před podstatným jménem.",
+            "U počitatelných podstatných jmen (lidé) se kein často překládá jako nikdo (kein Mensch = žádný člověk).",
+            "U nezávazných nebo abstraktních podstatných jmen se kein často překládá jako nic/vůbec (kein Geld = žádné peníze/žádné peníze).",
+            "Kein neguje celé podstatné jméno, nejen sloveso (srovnej nicht)."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe kein Geld.",
+              "lv": "Nemám peníze"
+            },
+            {
+              "de": "Es gibt keine Milch mehr.",
+              "lv": "Už vůbec není mléko."
+            },
+            {
+              "de": "Kein Mensch war da.",
+              "lv": "Nikdo tam nebyl."
+            },
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "Nemám čas"
+            },
+            {
+              "de": "Das ist kein Problem.",
+              "lv": "To není problém."
+            },
+            {
+              "de": "Wir haben keine Kinder.",
+              "lv": "Nemáme děti."
+            }
+          ],
+          "tip": [
+            "Kein neguje podstatné jméno (kein + podstatné jméno), nicht neguje sloveso nebo klauzi.",
+            "Kein se skloňuje jako ein: kein/keine/keinen/keiner."
+          ],
+          "important": [
+            "Kein + podstatné jméno = 'není žádné/žádné X', nikoli 'nicht ein X'.",
+            "Špatně: Ich habe nicht ein Geld. → Správně: Ich habe kein Geld."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kein"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nemám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vůbec"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nikdo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nemám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "není"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nemáme"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "kein"
+                ],
+                "green": [
+                  "nicht"
+                ]
+              },
+              {
+                "blue": [
+                  "kein/keine/keinen/keiner"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "kein"
+                ]
+              },
+              {
+                "red": [
+                  "nicht ein Geld"
+                ],
+                "blue": [
+                  "kein Geld"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-kein",
+          "layout": "standardStudy",
+          "translation": "neviens • nekāds",
+          "explanation": [
+            "Galvenā doma: kein ir nolieguma artikuls, kas noliedz lietvārdu — latviski atkarībā no konteksta neviens vai nekāds.",
+            "kein locījas tāpat kā ein (kein/keine/keinen...) un stāv lietvārda priekšā.",
+            "Ar skaitāmiem lietvārdiem (cilvēkiem) kein bieži tulko kā neviens (kein Mensch = neviens cilvēks).",
+            "Ar nesaitāmiem vai abstraktiem lietvārdiem kein bieži tulko kā nekāds/nav vispār (kein Geld = nekādas naudas/nav naudas).",
+            "kein noliedz veselu lietvārdu, ne tikai darbības vārdu (salīdzini ar nicht)."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe kein Geld.",
+              "lv": "man nav naudas."
+            },
+            {
+              "de": "Es gibt keine Milch mehr.",
+              "lv": "piena vairs nav nemaz."
+            },
+            {
+              "de": "Kein Mensch war da.",
+              "lv": "neviens cilvēks tur nebija."
+            },
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "man nav laika."
+            },
+            {
+              "de": "Das ist kein Problem.",
+              "lv": "tā nav nekāda problēma."
+            },
+            {
+              "de": "Wir haben keine Kinder.",
+              "lv": "mums nav bērnu."
+            }
+          ],
+          "tip": [
+            "kein noliedz lietvārdu (kein + lietvārds), nicht noliedz darbības vārdu vai teikumu.",
+            "kein locījas kā ein: kein/keine/keinen/keiner."
+          ],
+          "important": [
+            "kein + lietvārds = 'nav nekāda/neviena X', ne 'nicht ein X'.",
+            "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kein"
+              ],
+              "purple": [
+                "neviens",
+                "nekāds"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nav"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nav nemaz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "neviens"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nav"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nekāda"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nav"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "kein"
+                ],
+                "green": [
+                  "nicht"
+                ]
+              },
+              {
+                "blue": [
+                  "kein/keine/keinen/keiner"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "kein"
+                ]
+              },
+              {
+                "red": [
+                  "nicht ein Geld"
+                ],
+                "blue": [
+                  "kein Geld"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-kein",
+        "layout": "standardStudy",
+        "translation": "Žádný • Žádná • Žádné",
+        "explanation": [
+          "Hlavní myšlenka: kein je negační člen, který neguje podstatné jméno - češtině, v závislosti na kontextu nikdo nebo nic.",
+          "Kein se skloňuje jako ein (kein/keine/keinen...) a stojí před podstatným jménem.",
+          "U počitatelných podstatných jmen (lidé) se kein často překládá jako nikdo (kein Mensch = žádný člověk).",
+          "U nezávazných nebo abstraktních podstatných jmen se kein často překládá jako nic/vůbec (kein Geld = žádné peníze/žádné peníze).",
+          "Kein neguje celé podstatné jméno, nejen sloveso (srovnej nicht)."
+        ],
+        "examples": [
+          {
+            "de": "Ich habe kein Geld.",
+            "lv": "Nemám peníze"
+          },
+          {
+            "de": "Es gibt keine Milch mehr.",
+            "lv": "Už vůbec není mléko."
+          },
+          {
+            "de": "Kein Mensch war da.",
+            "lv": "Nikdo tam nebyl."
+          },
+          {
+            "de": "Ich habe keine Zeit.",
+            "lv": "Nemám čas"
+          },
+          {
+            "de": "Das ist kein Problem.",
+            "lv": "To není problém."
+          },
+          {
+            "de": "Wir haben keine Kinder.",
+            "lv": "Nemáme děti."
+          }
+        ],
+        "tip": [
+          "Kein neguje podstatné jméno (kein + podstatné jméno), nicht neguje sloveso nebo klauzi.",
+          "Kein se skloňuje jako ein: kein/keine/keinen/keiner."
+        ],
+        "important": [
+          "Kein + podstatné jméno = 'není žádné/žádné X', nikoli 'nicht ein X'.",
+          "Špatně: Ich habe nicht ein Geld. → Správně: Ich habe kein Geld."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "kein"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "kein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nemám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "keine"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "vůbec"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "Kein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nikdo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "keine"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nemám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "není"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "keine"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nemáme"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "kein"
+              ],
+              "green": [
+                "nicht"
+              ]
+            },
+            {
+              "blue": [
+                "kein/keine/keinen/keiner"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "kein"
+              ]
+            },
+            {
+              "red": [
+                "nicht ein Geld"
+              ],
+              "blue": [
+                "kein Geld"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-kennen-study",
+      "index": 310,
+      "de": "kennen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Vědět",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 108,
+          "field": "study.translation",
+          "pirmd": "Vědět",
+          "pec": "Znát"
+        },
+        {
+          "block": 3,
+          "n": 109,
+          "field": "study.examples[4].lv",
+          "pirmd": "Poznat moudrý",
+          "pec": "Znát"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-kennen-study",
+        "index": 310,
+        "de": "kennen",
+        "layout": "standardStudy",
+        "csMain": "Vědět",
+        "studyTranslation": "Znát",
+        "lvSourceMain": "pazīt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "pazīt",
+            "csText": "Znát",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es viņu pazīstu.",
+            "csText": "Znám ho.",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "vai jūs pazīstat šo sievieti?",
+            "csText": "Znáte tuto ženu?",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "kur jūs iepazināties?",
+            "csText": "Kde jste se potkali?",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es viņu pazīstu.",
+            "csText": "Znám ho",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "pazīt; wissen",
+            "csText": "Znát",
+            "de": "kennen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "kennen",
+            "csText": "kennen",
+            "de": "kennen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "pazīt (cilvēku, vietu, lietu)",
+            "csText": "Vědět (osoba, místo, věc)",
+            "de": "kennen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "wissen",
+            "csText": "wissen",
+            "de": "kennen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "zināt (faktu, informāciju)",
+            "csText": "Vědět (fakt, informace)",
+            "de": "kennen"
+          }
+        ],
+        "study": {
+          "id": "a1-kennen-study",
+          "layout": "standardStudy",
+          "translation": "Znát",
+          "explanation": [
+            "Hlavní myšlenka: Poznat osobu, místo nebo věc ze zkušenosti.",
+            "Kennen znamená především: osobní známost.",
+            "Často popisuje: lidi, místa.",
+            "Kennen se používá, když znáte osobu, místo nebo věc z osobní zkušenosti."
+          ],
+          "examples": [
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Znám ho."
+            },
+            {
+              "de": "Kennen Sie diese Frau?",
+              "lv": "Znáte tuto ženu?"
+            },
+            {
+              "de": "Wo habt ihr euch kennengelernt?",
+              "lv": "Kde jste se potkali?"
+            },
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Znám ho"
+            },
+            {
+              "de": "kennen",
+              "lv": "Znát"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kennen",
+              "meaning": "Vědět (osoba, místo, věc)",
+              "example": "Ich kenne ihn. – Znám ho."
+            },
+            {
+              "word": "wissen",
+              "meaning": "Vědět (fakt, informace)",
+              "example": "Ich weiß seinen Namen. – Znám jeho jméno."
+            }
+          ],
+          "tip": [
+            "Kennen = vědět",
+            "Použijte kennen, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Kennen = poznat osobu/místo.",
+            "Kennen = vědět.",
+            "Znát osobu, místo nebo věc ze zkušenosti."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Znám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Znám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Poznat"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Kennen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "kennen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-kennen-study",
+          "layout": "standardStudy",
+          "translation": "pazīt",
+          "explanation": [
+            "Galvenā doma: Pazīt cilvēku, vietu vai lietu no pieredzes.",
+            "kennen galvenokārt nozīmē: personīga pazīšana.",
+            "Bieži raksturo: cilvēkus, vietas.",
+            "kennen lieto, ja pazīsti cilvēku, vietu vai lietu no personīgās pieredzes."
+          ],
+          "examples": [
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Es viņu pazīstu."
+            },
+            {
+              "de": "Kennen Sie diese Frau?",
+              "lv": "vai jūs pazīstat šo sievieti?"
+            },
+            {
+              "de": "Wo habt ihr euch kennengelernt?",
+              "lv": "kur jūs iepazināties?"
+            },
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "es viņu pazīstu."
+            },
+            {
+              "de": "kennen",
+              "lv": "pazīt; wissen"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kennen",
+              "meaning": "pazīt (cilvēku, vietu, lietu)",
+              "example": "Ich kenne ihn. – Es viņu pazīstu."
+            },
+            {
+              "word": "wissen",
+              "meaning": "zināt (faktu, informāciju)",
+              "example": "Ich weiß seinen Namen. – Es zinu viņa vārdu."
+            }
+          ],
+          "tip": [
+            "kennen = pazīt",
+            "Izmanto kennen, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "kennen = pazīt cilvēku/vietu.",
+            "kennen = pazīt.",
+            "Pazīt cilvēku, vietu vai lietu no pieredzes."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ],
+              "purple": [
+                "pazīt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pazīstu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pazīstu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pazīt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "pazīt"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "kennen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-kennen-study",
+        "layout": "standardStudy",
+        "translation": "Znát",
+        "explanation": [
+          "Hlavní myšlenka: Poznat osobu, místo nebo věc ze zkušenosti.",
+          "Kennen znamená především: osobní známost.",
+          "Často popisuje: lidi, místa.",
+          "Kennen se používá, když znáte osobu, místo nebo věc z osobní zkušenosti."
+        ],
+        "examples": [
+          {
+            "de": "Ich kenne ihn.",
+            "lv": "Znám ho."
+          },
+          {
+            "de": "Kennen Sie diese Frau?",
+            "lv": "Znáte tuto ženu?"
+          },
+          {
+            "de": "Wo habt ihr euch kennengelernt?",
+            "lv": "Kde jste se potkali?"
+          },
+          {
+            "de": "Ich kenne ihn.",
+            "lv": "Znám ho"
+          },
+          {
+            "de": "kennen",
+            "lv": "Znát"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "kennen",
+            "meaning": "Vědět (osoba, místo, věc)",
+            "example": "Ich kenne ihn. – Znám ho."
+          },
+          {
+            "word": "wissen",
+            "meaning": "Vědět (fakt, informace)",
+            "example": "Ich weiß seinen Namen. – Znám jeho jméno."
+          }
+        ],
+        "tip": [
+          "Kennen = vědět",
+          "Použijte kennen, pokud kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Kennen = poznat osobu/místo.",
+          "Kennen = vědět.",
+          "Znát osobu, místo nebo věc ze zkušenosti."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "kennen",
+              "kennen"
+            ],
+            "purple": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "kenne"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Znám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kennen",
+                  "kennen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "kennen",
+                  "kennen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "kenne"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Znám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kennen",
+                  "kennen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Poznat"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Kennen"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "kennen"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-können",
+      "index": 319,
+      "de": "können",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Umět • Vědět",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 110,
+          "field": "study.translation",
+          "pirmd": "Umět • Vědět",
+          "pec": "Umět • Moci"
+        },
+        {
+          "block": 3,
+          "n": 111,
+          "field": "study.explanation[1]",
+          "pirmd": "Pokud jde o schopnosti nebo dovednosti, češtině často říká vědět.",
+          "pec": "Pokud jde o schopnosti nebo dovednosti, v češtině se často používá umět."
+        },
+        {
+          "block": 3,
+          "n": 112,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Být schopen / vědět",
+          "pec": "Umět / moci"
+        },
+        {
+          "block": 3,
+          "n": 113,
+          "field": "study.comparison[2].meaning",
+          "pirmd": "Potřebovat / být ano-",
+          "pec": "Musit / být nutné"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-können",
+        "index": 319,
+        "de": "können",
+        "layout": "standardStudy",
+        "csMain": "Umět • Vědět",
+        "studyTranslation": "Umět • Moci",
+        "lvSourceMain": "varēt • prast",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "varēt • prast",
+            "csText": "Umět • Moci",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es protu runāt vāciski.",
+            "csText": "Umím německy",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "vai tu vari man palīdzēt?",
+            "csText": "Můžete mi pomoci?",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs šodien varam atnākt.",
+            "csText": "Dnes můžeme přijít.",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "viņš labi prot peldēt.",
+            "csText": "Umí dobře plavat.",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "können",
+            "csText": "können",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "varēt / prast",
+            "csText": "Umět / moci",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "dürfen",
+            "csText": "dürfen",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "drīkstēt",
+            "csText": "Být dovoleno",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "müssen",
+            "csText": "müssen",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "vajadzēt / būt jā-",
+            "csText": "Musit / být nutné",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "wissen",
+            "csText": "wissen",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "zināt",
+            "csText": "Vědět",
+            "de": "können"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: prasme/iespēja → können.",
+            "csText": "Pamatujte: dovednost/schopnost → können.",
+            "de": "können"
+          }
+        ],
+        "study": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "Umět • Moci",
+          "explanation": [
+            "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat.",
+            "Pokud jde o schopnosti nebo dovednosti, v češtině se často používá umět.",
+            "Pokud jde o možnost, často se říká, že je to možné.",
+            "Können je modální sloveso, takže druhé sloveso je obvykle na konci."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Umím německy"
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "Můžete mi pomoci?"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "Dnes můžeme přijít."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "Umí dobře plavat."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "Umět / moci",
+              "example": "Ich kann schwimmen. = Umím plavat."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "Být dovoleno",
+              "example": "Darf ich gehen? = Můžu jít"
+            },
+            {
+              "word": "müssen",
+              "meaning": "Musit / být nutné",
+              "example": "Ich muss lernen. = Musím se učit."
+            },
+            {
+              "word": "wissen",
+              "meaning": "Vědět",
+              "example": "Ich weiß das. = To vím."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: dovednost/schopnost → können."
+          },
+          "important": [
+            "Können není totéž co dürfen. können = moci/vědět, dürfen = mít dovoleno.",
+            "Ve větě s können je druhé sloveso často na konci: Ich kann schwimmen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Umím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kannst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Můžete"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "können"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dnes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Umí"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být",
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kann"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Darf",
+                    "Darf"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Potřebovat"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "muss",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vědět"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß",
+                    "Ich"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "können"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "können"
+                ],
+                "red": [
+                  "dürfen"
+                ],
+                "purple": [
+                  "Können",
+                  "Können",
+                  "Können"
+                ]
+              },
+              {
+                "blue": [
+                  "kann"
+                ],
+                "green": [
+                  "schwimmen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "varēt • prast",
+          "explanation": [
+            "Galvenā doma: können nozīmē varēt vai prast kaut ko izdarīt.",
+            "Ja runa ir par spēju vai prasmi, latviski bieži saka prast.",
+            "Ja runa ir par iespēju, bieži saka varēt.",
+            "können ir modālais darbības vārds, tāpēc otrais darbības vārds parasti stāv beigās."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "es protu runāt vāciski."
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "vai tu vari man palīdzēt?"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "mēs šodien varam atnākt."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "viņš labi prot peldēt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "varēt / prast",
+              "example": "Ich kann schwimmen. = Es protu peldēt."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "drīkstēt",
+              "example": "Darf ich gehen? = Vai drīkstu iet?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "vajadzēt / būt jā-",
+              "example": "Ich muss lernen. = Man jāmācās."
+            },
+            {
+              "word": "wissen",
+              "meaning": "zināt",
+              "example": "Ich weiß das. = Es to zinu."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: prasme/iespēja → können."
+          },
+          "important": [
+            "können nav tas pats, kas dürfen. können = varēt/prast, dürfen = drīkstēt.",
+            "Teikumā ar können otrs darbības vārds bieži stāv beigās: Ich kann schwimmen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "varēt",
+                "prast"
+              ],
+              "green": [
+                "spēju",
+                "prasmi",
+                "iespēju"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "protu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kannst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vari"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "können"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "varam"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "prot"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "varēt",
+                    "prast"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kann"
+                  ],
+                  "purple": [
+                    "protu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "drīkstēt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Darf",
+                    "drīkstu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vajadzēt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "muss",
+                    "jāmācās"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zināt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß",
+                    "zinu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "können"
+                ],
+                "purple": [
+                  "prasme",
+                  "iespēja"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "können"
+                ],
+                "red": [
+                  "dürfen"
+                ],
+                "purple": [
+                  "varēt",
+                  "prast",
+                  "drīkstēt"
+                ]
+              },
+              {
+                "blue": [
+                  "kann"
+                ],
+                "green": [
+                  "schwimmen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-können",
+        "layout": "standardStudy",
+        "translation": "Umět • Moci",
+        "explanation": [
+          "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat.",
+          "Pokud jde o schopnosti nebo dovednosti, v češtině se často používá umět.",
+          "Pokud jde o možnost, často se říká, že je to možné.",
+          "Können je modální sloveso, takže druhé sloveso je obvykle na konci."
+        ],
+        "examples": [
+          {
+            "de": "Ich kann Deutsch sprechen.",
+            "lv": "Umím německy"
+          },
+          {
+            "de": "Kannst du mir helfen?",
+            "lv": "Můžete mi pomoci?"
+          },
+          {
+            "de": "Wir können heute kommen.",
+            "lv": "Dnes můžeme přijít."
+          },
+          {
+            "de": "Er kann gut schwimmen.",
+            "lv": "Umí dobře plavat."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "können",
+            "meaning": "Umět / moci",
+            "example": "Ich kann schwimmen. = Umím plavat."
+          },
+          {
+            "word": "dürfen",
+            "meaning": "Být dovoleno",
+            "example": "Darf ich gehen? = Můžu jít"
+          },
+          {
+            "word": "müssen",
+            "meaning": "Musit / být nutné",
+            "example": "Ich muss lernen. = Musím se učit."
+          },
+          {
+            "word": "wissen",
+            "meaning": "Vědět",
+            "example": "Ich weiß das. = To vím."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: dovednost/schopnost → können."
+        },
+        "important": [
+          "Können není totéž co dürfen. können = moci/vědět, dürfen = mít dovoleno.",
+          "Ve větě s können je druhé sloveso často na konci: Ich kann schwimmen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "können"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "kann"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Umím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Kannst"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Můžete"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "können"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dnes"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kann"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Umí"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "können"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být",
+                  "Být"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "kann"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "dürfen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Darf",
+                  "Darf"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "müssen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Potřebovat"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "muss",
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wissen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vědět"
+                ]
+              },
+              "example": {
+                "green": [
+                  "weiß",
+                  "Ich"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "können"
+              ],
+              "red": [
+                "dürfen"
+              ],
+              "purple": [
+                "Können",
+                "Können",
+                "Können"
+              ]
+            },
+            {
+              "blue": [
+                "kann"
+              ],
+              "green": [
+                "schwimmen"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-kosten",
+      "index": 320,
+      "de": "kosten",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Platit",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 114,
+          "field": "study.translation",
+          "pirmd": "Platit",
+          "pec": "Stát • Kolik stát"
+        },
+        {
+          "block": 3,
+          "n": 115,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Zaplatit (cena) • Kolik",
+          "pec": "Stát (o ceně) • Kolik stát"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-kosten",
+        "index": 320,
+        "de": "kosten",
+        "layout": "standardStudy",
+        "csMain": "Platit",
+        "studyTranslation": "Stát • Kolik stát",
+        "lvSourceMain": "maksāt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "maksāt",
+            "csText": "Stát • Kolik stát",
+            "de": "kosten"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "tas maksā 5 eiro.",
+            "csText": "Stojí 5 eur.",
+            "de": "kosten"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "cik tas maksā?",
+            "csText": "Kolik to stojí",
+            "de": "kosten"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "cik maksā džemperis?",
+            "csText": "Kolik stojí svetr?",
+            "de": "kosten"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ēdiens daudz nemaksā.",
+            "csText": "Jídlo nestojí moc.",
+            "de": "kosten"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "es maksāju rēķinu.",
+            "csText": "Platím účet",
+            "de": "kosten"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "vai varu maksāt skaidrā naudā?",
+            "csText": "Mohu platit v hotovosti",
+            "de": "kosten"
+          },
+          {
+            "field": "study.examples[6].lv",
+            "lvSource": "viņš maksā ar karti.",
+            "csText": "Platí kartou.",
+            "de": "kosten"
+          },
+          {
+            "field": "study.examples[7].lv",
+            "lvSource": "es samaksāšu tūlīt.",
+            "csText": "Teď zaplatím",
+            "de": "kosten"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "kosten",
+            "csText": "kosten",
+            "de": "kosten"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "maksāt (cenu) • cik maksā",
+            "csText": "Stát (o ceně) • Kolik stát",
+            "de": "kosten"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "bezahlen",
+            "csText": "bezahlen",
+            "de": "kosten"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "maksāt • samaksāt (naudu)",
+            "csText": "Platit • Platit (peníze)",
+            "de": "kosten"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "zahlen",
+            "csText": "zahlen",
+            "de": "kosten"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "maksāt • samaksāt",
+            "csText": "Platit • Platit",
+            "de": "kosten"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "Was kostet...?",
+            "csText": "Was kostet...?",
+            "de": "kosten"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "cik maksā...?",
+            "csText": "Kolik to stojí...?",
+            "de": "kosten"
+          }
+        ],
+        "study": {
+          "id": "a1-kosten",
+          "layout": "standardStudy",
+          "translation": "Stát • Kolik stát",
+          "explanation": [
+            "Hlavní myšlenka: kosten znamená platit tak a tak - mluví o ceně věci.",
+            "Toto slovo se používá, když se ptáte nebo říkáte, kolik něco stojí, ne když člověk platí.",
+            "Otázka na cenu v němčině často začíná na Was kostet...?",
+            "České slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
+            "Když člověk dá peníze za zboží nebo službu, němčina používá bezahlen nebo zahlen."
+          ],
+          "examples": [
+            {
+              "de": "Das kostet 5 Euro.",
+              "lv": "Stojí 5 eur."
+            },
+            {
+              "de": "Was kostet das?",
+              "lv": "Kolik to stojí"
+            },
+            {
+              "de": "Wie viel kostet der Pullover?",
+              "lv": "Kolik stojí svetr?"
+            },
+            {
+              "de": "Das Essen kostet nicht viel.",
+              "lv": "Jídlo nestojí moc."
+            },
+            {
+              "de": "Ich bezahle die Rechnung.",
+              "lv": "Platím účet"
+            },
+            {
+              "de": "Kann ich bar bezahlen?",
+              "lv": "Mohu platit v hotovosti"
+            },
+            {
+              "de": "Er zahlt mit Karte.",
+              "lv": "Platí kartou."
+            },
+            {
+              "de": "Ich zahle gleich.",
+              "lv": "Teď zaplatím"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kosten",
+              "meaning": "Stát (o ceně) • Kolik stát",
+              "example": "Das kostet 5 Euro. = Stojí 5 eur."
+            },
+            {
+              "word": "bezahlen",
+              "meaning": "Platit • Platit (peníze)",
+              "example": "Ich bezahle die Rechnung. = Platím účet."
+            },
+            {
+              "word": "zahlen",
+              "meaning": "Platit • Platit",
+              "example": "Kann ich bar zahlen? = Mohu platit v hotovosti?"
+            },
+            {
+              "word": "Was kostet...?",
+              "meaning": "Kolik to stojí...?",
+              "example": "Was kostet das Buch? = Kolik kniha stojí?"
+            }
+          ],
+          "tip": [
+            "Pamatujte: otázka na cenu → kosten (Was kostet das?).",
+            "Pamatujte: provedení platby → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+          ],
+          "important": [
+            "Kosten a bezahlen nejsou synonyma: kosten = kolik to stojí • Bezahlen = platit peníze.",
+            "V češtině se v obou případech často používá plat, ale v němčině je třeba vybrat podle situace."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kosten"
+              ],
+              "purple": [
+                "Hlavní",
+                "cenu",
+                "Hlavní"
+              ],
+              "green": [
+                "Was kostet"
+              ],
+              "yellow": [
+                "bezahlen",
+                "zahlen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stojí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kolik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kolik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jídlo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "bezahle"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Platím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "bezahlen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mohu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "zahlt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Platí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "zahle"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Teď"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "kosten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zaplatit",
+                    "cena",
+                    "Zaplatit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kostet"
+                  ],
+                  "purple": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bezahlen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Platit",
+                    "Platit"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "bezahle"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zahlen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Platit",
+                    "Platit"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zahlen"
+                  ],
+                  "purple": [
+                    "Kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Was kostet"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Kolik"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kostet"
+                  ],
+                  "purple": [
+                    "Was"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "kosten",
+                  "Was kostet"
+                ],
+                "purple": [
+                  "cenu"
+                ]
+              },
+              {
+                "yellow": [
+                  "bezahlen",
+                  "zahlen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "kosten"
+                ],
+                "yellow": [
+                  "bezahlen"
+                ],
+                "purple": [
+                  "Kosten",
+                  "Kosten"
+                ]
+              },
+              {
+                "purple": [
+                  "češtině",
+                  "češtině"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-kosten",
+          "layout": "standardStudy",
+          "translation": "maksāt",
+          "explanation": [
+            "Galvenā doma: kosten nozīmē maksāt tik un tik — runā par lietas cenu.",
+            "Šo vārdu lieto, kad jautā vai saka, cik kaut kas maksā, nevis kad cilvēks veic maksājumu.",
+            "Jautājums par cenu vācu valodā bieži sākas ar Was kostet...?",
+            "Latviešu vārds maksāt šajā kontekstā ir pareizs: Das kostet 5 Euro. = Tas maksā 5 eiro.",
+            "Ja cilvēks atdod naudu par preci vai pakalpojumu, vācu valodā lieto bezahlen vai zahlen."
+          ],
+          "examples": [
+            {
+              "de": "Das kostet 5 Euro.",
+              "lv": "tas maksā 5 eiro."
+            },
+            {
+              "de": "Was kostet das?",
+              "lv": "cik tas maksā?"
+            },
+            {
+              "de": "Wie viel kostet der Pullover?",
+              "lv": "cik maksā džemperis?"
+            },
+            {
+              "de": "Das Essen kostet nicht viel.",
+              "lv": "ēdiens daudz nemaksā."
+            },
+            {
+              "de": "Ich bezahle die Rechnung.",
+              "lv": "es maksāju rēķinu."
+            },
+            {
+              "de": "Kann ich bar bezahlen?",
+              "lv": "vai varu maksāt skaidrā naudā?"
+            },
+            {
+              "de": "Er zahlt mit Karte.",
+              "lv": "viņš maksā ar karti."
+            },
+            {
+              "de": "Ich zahle gleich.",
+              "lv": "es samaksāšu tūlīt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kosten",
+              "meaning": "maksāt (cenu) • cik maksā",
+              "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+            },
+            {
+              "word": "bezahlen",
+              "meaning": "maksāt • samaksāt (naudu)",
+              "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+            },
+            {
+              "word": "zahlen",
+              "meaning": "maksāt • samaksāt",
+              "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+            },
+            {
+              "word": "Was kostet...?",
+              "meaning": "cik maksā...?",
+              "example": "Was kostet das Buch? = Cik maksā grāmata?"
+            }
+          ],
+          "tip": [
+            "Atceries: jautājums par cenu → kosten (Was kostet das?).",
+            "Atceries: maksājuma veikšana → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+          ],
+          "important": [
+            "kosten un bezahlen nav sinonīmi: kosten = cik maksā; bezahlen = samaksāt naudu.",
+            "Latviski abos gadījumos bieži lieto maksāt, bet vācu valodā jāizvēlas pēc situācijas."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kosten"
+              ],
+              "purple": [
+                "maksāt",
+                "cenu",
+                "cik kaut kas maksā"
+              ],
+              "green": [
+                "Was kostet"
+              ],
+              "yellow": [
+                "bezahlen",
+                "zahlen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "maksā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "maksā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "maksā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nemaksā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "bezahle"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "maksāju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "bezahlen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "maksāt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "zahlt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "maksā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "zahle"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "samaksāšu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "kosten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "maksāt",
+                    "cenu",
+                    "cik maksā"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kostet"
+                  ],
+                  "purple": [
+                    "maksā"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bezahlen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "maksāt",
+                    "samaksāt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "bezahle"
+                  ],
+                  "purple": [
+                    "maksāju"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zahlen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "maksāt",
+                    "samaksāt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zahlen"
+                  ],
+                  "purple": [
+                    "maksāt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Was kostet"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "cik maksā"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kostet"
+                  ],
+                  "purple": [
+                    "maksā"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "kosten",
+                  "Was kostet"
+                ],
+                "purple": [
+                  "cenu"
+                ]
+              },
+              {
+                "yellow": [
+                  "bezahlen",
+                  "zahlen"
+                ],
+                "purple": [
+                  "maksājuma veikšana"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "kosten"
+                ],
+                "yellow": [
+                  "bezahlen"
+                ],
+                "purple": [
+                  "cik maksā",
+                  "samaksāt"
+                ]
+              },
+              {
+                "purple": [
+                  "maksāt",
+                  "situācijas"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-kosten",
+        "layout": "standardStudy",
+        "translation": "Stát • Kolik stát",
+        "explanation": [
+          "Hlavní myšlenka: kosten znamená platit tak a tak - mluví o ceně věci.",
+          "Toto slovo se používá, když se ptáte nebo říkáte, kolik něco stojí, ne když člověk platí.",
+          "Otázka na cenu v němčině často začíná na Was kostet...?",
+          "České slovo platit je v tomto kontextu správné: Das kostet 5 Euro. = Stojí 5 eur.",
+          "Když člověk dá peníze za zboží nebo službu, němčina používá bezahlen nebo zahlen."
+        ],
+        "examples": [
+          {
+            "de": "Das kostet 5 Euro.",
+            "lv": "Stojí 5 eur."
+          },
+          {
+            "de": "Was kostet das?",
+            "lv": "Kolik to stojí"
+          },
+          {
+            "de": "Wie viel kostet der Pullover?",
+            "lv": "Kolik stojí svetr?"
+          },
+          {
+            "de": "Das Essen kostet nicht viel.",
+            "lv": "Jídlo nestojí moc."
+          },
+          {
+            "de": "Ich bezahle die Rechnung.",
+            "lv": "Platím účet"
+          },
+          {
+            "de": "Kann ich bar bezahlen?",
+            "lv": "Mohu platit v hotovosti"
+          },
+          {
+            "de": "Er zahlt mit Karte.",
+            "lv": "Platí kartou."
+          },
+          {
+            "de": "Ich zahle gleich.",
+            "lv": "Teď zaplatím"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "kosten",
+            "meaning": "Stát (o ceně) • Kolik stát",
+            "example": "Das kostet 5 Euro. = Stojí 5 eur."
+          },
+          {
+            "word": "bezahlen",
+            "meaning": "Platit • Platit (peníze)",
+            "example": "Ich bezahle die Rechnung. = Platím účet."
+          },
+          {
+            "word": "zahlen",
+            "meaning": "Platit • Platit",
+            "example": "Kann ich bar zahlen? = Mohu platit v hotovosti?"
+          },
+          {
+            "word": "Was kostet...?",
+            "meaning": "Kolik to stojí...?",
+            "example": "Was kostet das Buch? = Kolik kniha stojí?"
+          }
+        ],
+        "tip": [
+          "Pamatujte: otázka na cenu → kosten (Was kostet das?).",
+          "Pamatujte: provedení platby → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+        ],
+        "important": [
+          "Kosten a bezahlen nejsou synonyma: kosten = kolik to stojí • Bezahlen = platit peníze.",
+          "V češtině se v obou případech často používá plat, ale v němčině je třeba vybrat podle situace."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "kosten"
+            ],
+            "purple": [
+              "Hlavní",
+              "cenu",
+              "Hlavní"
+            ],
+            "green": [
+              "Was kostet"
+            ],
+            "yellow": [
+              "bezahlen",
+              "zahlen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "kostet"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Stojí"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kostet"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kolik"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kostet"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kolik"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kostet"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jídlo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "bezahle"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Platím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "bezahlen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mohu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "zahlt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Platí"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "zahle"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Teď"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "kosten"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Zaplatit",
+                  "cena",
+                  "Zaplatit"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "kostet"
+                ],
+                "purple": [
+                  "Das"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bezahlen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Platit",
+                  "Platit"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "bezahle"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zahlen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Platit",
+                  "Platit"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "zahlen"
+                ],
+                "purple": [
+                  "Kann"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "Was kostet"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Kolik"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "kostet"
+                ],
+                "purple": [
+                  "Was"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "kosten",
+                "Was kostet"
+              ],
+              "purple": [
+                "cenu"
+              ]
+            },
+            {
+              "yellow": [
+                "bezahlen",
+                "zahlen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "kosten"
+              ],
+              "yellow": [
+                "bezahlen"
+              ],
+              "purple": [
+                "Kosten",
+                "Kosten"
+              ]
+            },
+            {
+              "purple": [
+                "češtině",
+                "češtině"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-kein",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "Oprava překladu je významově správná; nalezené nedostatky jsou v nezměněném vysvětlení a nevznikly opravou HIGH.",
+      "findings": [
+        {
+          "field": "study.explanation",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "„- češtině“ a „U nezávazných nebo abstraktních podstatných jmen“",
+          "reason": "Vysvětlení obsahuje předložkovou a terminologickou chybu; opravené pole study.translation tím není regresivně ovlivněno.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-kennen-study",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "MEDIUM",
+      "confidence": 0.97,
+      "reason": "Oprava study.translation na „Znát“ je správná, ale nezměněný csMain stále uvádí opačný význam „Vědět“, takže karta je vnitřně nekonzistentní.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "MEDIUM",
+          "currentCs": "Vědět",
+          "proposedCs": "Znát",
+          "reason": "Po opravě study.translation zůstal hlavní český překlad „Vědět“, což odporuje významu slovesa kennen a vytváří regresivní nekonzistenci.",
+          "confidence": 0.97,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.comparison[0].meaning; study.tip; study.important",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Vědět (osoba, místo, věc); Kennen = vědět; Kennen = vědět.",
+          "reason": "Tato pole stále chybně zaměňují kennen za wissen, ale nebyla součástí opravy study.translation ani study.examples[4].",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-können",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "MEDIUM",
+      "confidence": 0.96,
+      "reason": "Oprava study.translation na „Umět • Moci“ je správná, ale csMain a část vysvětlení stále obsahují „Vědět“, což po opravě vytváří významový rozpor.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "MEDIUM",
+          "currentCs": "Umět • Vědět",
+          "proposedCs": "Umět • Moci",
+          "reason": "Hlavní český překlad nebyl synchronizován s opraveným study.translation a stále přisuzuje können význam „vědět“.",
+          "confidence": 0.97,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "MEDIUM",
+          "currentCs": "können znamená umět nebo vědět, jak něco udělat",
+          "proposedCs": "können znamená umět nebo moci něco udělat",
+          "reason": "Po změně překladu na „Umět • Moci“ zůstalo v hlavní myšlence chybné „vědět“, takže opravený význam není v celém bloku konzistentní.",
+          "confidence": 0.95,
+          "relatedRepairBlock": 3
+        }
+      ]
+    },
+    {
+      "cardId": "a1-kosten",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Obě opravy správně rozlišují kosten jako „stát“ podle ceny; příklady i srovnání významově odpovídají němčině.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:43:13.275Z"
+}

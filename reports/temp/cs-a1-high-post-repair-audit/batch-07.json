@@ -1,0 +1,155 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-Hälfte-263",
+      "index": 263,
+      "de": "Hälfte",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Polovina",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 25,
+          "field": "csText",
+          "pirmd": "Strana",
+          "pec": "Polovina"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Hälfte-263",
+        "index": 263,
+        "de": "Hälfte",
+        "de_article": "die",
+        "de_plural": "die Hälften",
+        "lvSource": "puse",
+        "csText": "Polovina",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Handschuh-268",
+      "index": 268,
+      "de": "Handschuh",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Rukavice",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 26,
+          "field": "csText",
+          "pirmd": "Rukavici",
+          "pec": "Rukavice"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Handschuh-268",
+        "index": 268,
+        "de": "Handschuh",
+        "de_article": "der",
+        "de_plural": "die Handschuhe",
+        "lvSource": "cimds",
+        "csText": "Rukavice",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Heft-273",
+      "index": 273,
+      "de": "Heft",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Sešit",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 27,
+          "field": "csText",
+          "pirmd": "Notebook",
+          "pec": "Sešit"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Heft-273",
+        "index": 273,
+        "de": "Heft",
+        "de_article": "das",
+        "de_plural": "die Hefte",
+        "lvSource": "burtnīca",
+        "csText": "Sešit",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Hemd-278",
+      "index": 278,
+      "de": "Hemd",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Košile",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 28,
+          "field": "csText",
+          "pirmd": "Košili",
+          "pec": "Košile"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Hemd-278",
+        "index": 278,
+        "de": "Hemd",
+        "de_article": "das",
+        "de_plural": "die Hemden",
+        "lvSource": "krekls",
+        "csText": "Košile",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-Hälfte-263",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The repair correctly changes the Czech translation from “Strana” to “Polovina”; no meaning or grammar regression is present.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Handschuh-268",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "“Rukavice” is the correct Czech translation of Handschuh; the repair fixes the incorrect form without introducing a regression.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Heft-273",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "“Sešit” is the correct Czech translation of Heft; the repair removes the unrelated English translation and is linguistically correct.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Hemd-278",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "“Košile” is the correct Czech translation of Hemd; the repair correctly replaces the incorrect accusative form with the nominative form.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:40:42.584Z"
+}

@@ -1,0 +1,390 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-auch-study",
+      "index": 48,
+      "deLemma": "auch",
+      "csText": "Také",
+      "csMain": "Také",
+      "study": {
+        "id": "a1-auch-study",
+        "layout": "standardStudy",
+        "translation": "Také",
+        "explanation": [
+          "Hlavní myšlenka: Nejběžnější a neutrální „také“.",
+          "Auch v podstatě znamená: jednoduché „také“.",
+          "Často charakterizováno: sčítáním.",
+          "Auch je nejběžnější slovo pro „také“."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme auch.",
+            "lv": "Já jdu taky."
+          },
+          {
+            "de": "Ich komme auch.",
+            "lv": "Já také přijdu."
+          },
+          {
+            "de": "Sie arbeitet auch hier.",
+            "lv": "Ona zde také pracuje."
+          }
+        ],
+        "tip": [
+          "Auch = také",
+          "Používá auch, když kontext vyhovuje tomuto významu."
+        ],
+        "important": [
+          "Ich auch wünsche Ihnen není správný slovosled.",
+          "Auch = také."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "auch",
+              "auch"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "auch",
+                  "auch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "auch",
+                  "auch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "auch",
+                  "auch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ona"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Auch"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "auch"
+              ]
+            }
+          ]
+        }
+      },
+      "repairedFields": [
+        {
+          "n": 17,
+          "field": "study.examples[1].lv",
+          "status": "RETAINED",
+          "pirmd": "Ona zde také pracuje.",
+          "pec": "Já také přijdu.",
+          "current": "Já také přijdu."
+        },
+        {
+          "n": 18,
+          "field": "study.examples[2].lv",
+          "status": "RETAINED",
+          "pirmd": "Také vám přeji hezký den.",
+          "pec": "Ona zde také pracuje.",
+          "current": "Ona zde také pracuje."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-auch-study",
+        "index": 48,
+        "de": "auch",
+        "layout": "standardStudy",
+        "csMain": "Také",
+        "studyTranslation": "Také",
+        "lvSourceMain": "arī",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "arī",
+            "csText": "Také",
+            "de": "auch"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es arī nāku.",
+            "csText": "Já jdu taky.",
+            "de": "auch"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Viņa arī strādā šeit.",
+            "csText": "Já také přijdu.",
+            "de": "auch"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Es arī novēlu jums jauku dienu.",
+            "csText": "Ona zde také pracuje.",
+            "de": "auch"
+          }
+        ],
+        "study": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "Také",
+          "explanation": [
+            "Hlavní myšlenka: Nejběžnější a neutrální „také“.",
+            "Auch v podstatě znamená: jednoduché „také“.",
+            "Často charakterizováno: sčítáním.",
+            "Auch je nejběžnější slovo pro „také“."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Já jdu taky."
+            },
+            {
+              "de": "Ich komme auch.",
+              "lv": "Já také přijdu."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Ona zde také pracuje."
+            }
+          ],
+          "tip": [
+            "Auch = také",
+            "Používá auch, když kontext vyhovuje tomuto významu."
+          ],
+          "important": [
+            "Ich auch wünsche Ihnen není správný slovosled.",
+            "Auch = také."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "auch",
+                "auch"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch",
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ona"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Auch"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "auch"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "arī",
+          "explanation": [
+            "Galvenā doma: Visbiežākais un neitrālākais “arī”.",
+            "auch galvenokārt nozīmē: vienkāršs “arī”.",
+            "Bieži raksturo: papildinājumu.",
+            "auch ir visparastākais vārds “arī”."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Es arī nāku."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Viņa arī strādā šeit."
+            },
+            {
+              "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+              "lv": "Es arī novēlu jums jauku dienu."
+            }
+          ],
+          "tip": [
+            "auch = arī",
+            "Izmanto auch, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "auch ir visbiežākais neitrālais vārds ar nozīmi arī.",
+            "Pareizi: Ich wünsche Ihnen auch einen schönen Tag.",
+            "Nepareizi: Ich auch wünsche Ihnen einen schönen Tag."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "auch",
+                "auch"
+              ],
+              "purple": [
+                "arī"
+              ],
+              "green": [
+                "Arī"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "arī"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "arī"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "arī"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "arī"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "auch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-auch-study",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "Both repaired example translations are correct and not swapped. Only an old section accent remains inconsistent with the corrected second example.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[1].lv.purple[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "jdu",
+          "proposedCs": "přijdu",
+          "reason": "The second example now says „Já také přijdu“, but its accent still marks the old wording „jdu“; this path was not repaired.",
+          "confidence": 0.98
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T15:03:29.376Z"
+}

@@ -1,0 +1,193 @@
+{
+  "batch": 1,
+  "items": [
+    {
+      "findingId": "CRIT-01",
+      "cardId": "a1-es",
+      "index": 167,
+      "field": "entry[167].study.info[0]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC, LV_WORD) in entry[167].study.info[0]",
+        "currentCs": "Český “es” = vācu “ich”",
+        "proposedCs": "(Czech text required)",
+        "de": "es",
+        "lvSource": "tas"
+      },
+      "productionNow": {
+        "currentCs": "Český “es” = vācu “ich”",
+        "de": "es",
+        "lvSource": "Latviešu “es” = vācu “ich”"
+      }
+    },
+    {
+      "findingId": "CRIT-02",
+      "cardId": "a1-es",
+      "index": 167,
+      "field": "entry[167].study.info[1]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC, LV_WORD) in entry[167].study.info[1]",
+        "currentCs": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+        "proposedCs": "(Czech text required)",
+        "de": "es",
+        "lvSource": "tas"
+      },
+      "productionNow": {
+        "currentCs": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+        "de": "es",
+        "lvSource": "Vācu “es” = tas; tā; bezpersoniska forma"
+      }
+    },
+    {
+      "findingId": "CRIT-03",
+      "cardId": "a1-fahren",
+      "index": 172,
+      "field": "entry[172].study.important.example",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC, LV_WORD) in entry[172].study.important.example",
+        "currentCs": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • Vest • Aizvest atkarībā no konteksta.",
+        "proposedCs": "(Czech text required)",
+        "de": "fahren",
+        "lvSource": "braukt"
+      },
+      "productionNow": {
+        "currentCs": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • Vest • Aizvest atkarībā no konteksta.",
+        "de": "fahren",
+        "lvSource": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
+      }
+    },
+    {
+      "findingId": "CRIT-04",
+      "cardId": "a1-fahren",
+      "index": 172,
+      "field": "entry[172].study.accents.green[1]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[172].study.accents.green[1]",
+        "currentCs": "Transportlīdzekli",
+        "proposedCs": "(Czech text required)",
+        "de": "fahren",
+        "lvSource": "braukt"
+      },
+      "productionNow": {
+        "currentCs": "Transportlīdzekli",
+        "de": "fahren",
+        "lvSource": "transportlīdzekli"
+      }
+    },
+    {
+      "findingId": "CRIT-05",
+      "cardId": "a1-fahren",
+      "index": 172,
+      "field": "entry[172].study.accents.green[5]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[172].study.accents.green[5]",
+        "currentCs": "Velosipēdu",
+        "proposedCs": "(Czech text required)",
+        "de": "fahren",
+        "lvSource": "braukt"
+      },
+      "productionNow": {
+        "currentCs": "Velosipēdu",
+        "de": "fahren",
+        "lvSource": "velosipēdu"
+      }
+    },
+    {
+      "findingId": "CRIT-06",
+      "cardId": "a1-in",
+      "index": 295,
+      "field": "entry[295].study.sectionAccents.examples[0].lv.purple[0]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[295].study.sectionAccents.examples[0].lv.purple[0]",
+        "currentCs": "Berlīnē",
+        "proposedCs": "(Czech text required)",
+        "de": "in",
+        "lvSource": "iekšā • uz"
+      },
+      "productionNow": {
+        "currentCs": "Berlīnē",
+        "de": "in",
+        "lvSource": "Berlīnē"
+      }
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "CRIT-01",
+      "cardId": "a1-es",
+      "field": "entry[167].study.info[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "Czech field contains Latvian words and the Latvian pronoun „es“ instead of Czech „já“.",
+      "currentCs": "Český “es” = vācu “ich”",
+      "proposedCs": "České „já“ = německé „ich“",
+      "de": "es"
+    },
+    {
+      "findingId": "CRIT-02",
+      "cardId": "a1-es",
+      "field": "entry[167].study.info[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "Czech field is Latvian text; it must use Czech equivalents for German „es“.",
+      "currentCs": "Vācu “es” = tas • Tā • Bezpersoniska forma",
+      "proposedCs": "Německé „es“ = to • ono • bezosobní forma",
+      "de": "es"
+    },
+    {
+      "findingId": "CRIT-03",
+      "cardId": "a1-fahren",
+      "field": "entry[172].study.important.example",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "The complete example is Latvian rather than Czech, including Latvian vocabulary and grammar.",
+      "currentCs": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • Vest • Aizvest atkarībā no konteksta.",
+      "proposedCs": "V němčině jedno a totéž sloveso často znamená: jezdit • vézt • odvézt v závislosti na kontextu.",
+      "de": "fahren"
+    },
+    {
+      "findingId": "CRIT-04",
+      "cardId": "a1-fahren",
+      "field": "entry[172].study.accents.green[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "„Transportlīdzekli“ is Latvian and is not valid Czech production text.",
+      "currentCs": "Transportlīdzekli",
+      "proposedCs": "dopravní prostředek",
+      "de": "fahren"
+    },
+    {
+      "findingId": "CRIT-05",
+      "cardId": "a1-fahren",
+      "field": "entry[172].study.accents.green[5]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "„Velosipēdu“ is Latvian and is not valid Czech production text.",
+      "currentCs": "Velosipēdu",
+      "proposedCs": "jízdní kolo",
+      "de": "fahren"
+    },
+    {
+      "findingId": "CRIT-06",
+      "cardId": "a1-in",
+      "field": "entry[295].study.sectionAccents.examples[0].lv.purple[0]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "CRITICAL",
+      "confidence": 1,
+      "reason": "The field is explicitly an LV field, and „Berlīnē“ exactly matches the current Latvian source.",
+      "currentCs": "Berlīnē",
+      "de": "in"
+    }
+  ],
+  "completedAt": "2026-08-11T16:06:27.842Z"
+}

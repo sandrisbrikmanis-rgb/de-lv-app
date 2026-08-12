@@ -1,0 +1,3176 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-es",
+      "index": 167,
+      "de": "es",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.info[0]",
+          "ownerValue": "České „já“ = německé „ich“"
+        },
+        {
+          "field": "study.info[1]",
+          "ownerValue": "Německé „es“ = to • ono • bezosobní tvar"
+        },
+        {
+          "field": "study.explanation",
+          "ownerValue": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo „ono“ a také v neosobních větách o počasí, čase a dalších dějích."
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-es",
+        "index": 167,
+        "de": "es",
+        "layout": "standardStudy",
+        "csMain": "To • To • Neosobní podoba",
+        "studyTranslation": "To • To • Neosobní podoba",
+        "lvSourceMain": "tas",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "tas",
+            "csText": "To • To • Neosobní podoba",
+            "de": "es"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Līst.",
+            "csText": "Učím se německy.",
+            "de": "es"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Ir auksts.",
+            "csText": "Je unavený.",
+            "de": "es"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Bērns guļ.",
+            "csText": "Ona tady pracuje.",
+            "de": "es"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "Tas ir noguris.",
+            "csText": "Je to moje kniha.",
+            "de": "es"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: latviešu “es” → ich, nevis vācu es.",
+            "csText": "Pamatujte: českýé \"es\" → ich, ne německé es.",
+            "de": "es"
+          }
+        ],
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "To • To • Neosobní podoba",
+          "explanation": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo „ono“ a také v neosobních větách o počasí, čase a dalších dějích.",
+          "examples": [
+            {
+              "de": "Ich lerne Deutsch.",
+              "lv": "Učím se německy."
+            },
+            {
+              "de": "Er ist müde.",
+              "lv": "Je unavený."
+            },
+            {
+              "de": "Sie arbeitet hier.",
+              "lv": "Ona tady pracuje."
+            },
+            {
+              "de": "Das ist mein Buch.",
+              "lv": "Je to moje kniha."
+            },
+            {
+              "de": "Es regnet.",
+              "lv": "Prší"
+            },
+            {
+              "de": "Es schneit.",
+              "lv": "Sněží"
+            }
+          ],
+          "info": [
+            "České „já“ = německé „ich“",
+            "Německé „es“ = to • ono • bezosobní tvar"
+          ],
+          "tip": {
+            "text": "Pamatujte: českýé \"es\" → ich, ne německé es."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              {
+                "blue": [
+                  "Er"
+                ]
+              },
+              {
+                "red": [
+                  "Sie"
+                ]
+              },
+              {
+                "yellow": [
+                  "Das"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "info": [
+              {
+                "blue": [
+                  "ich"
+                ]
+              },
+              {
+                "green": [
+                  "es"
+                ]
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "es"
+                ],
+                "red": [
+                  "ich"
+                ],
+                "purple": [
+                  "es"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Německé"
+                ],
+                "purple": [
+                  "Německé"
+                ]
+              },
+              {
+                "red": [
+                  "ich"
+                ],
+                "blue": [
+                  "es"
+                ],
+                "purple": [
+                  "České",
+                  "České"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Německé já není českýé já.",
+            "České „já“ je v němčině ich • Německé es často znamená to/to nebo se nepřekládá."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "tas",
+          "explanation": [
+            "Galvenā doma: es ir vietniekvārds.",
+            "To lieto: tas, bezpersoniskās konstrukcijās."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Līst."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Ir auksts."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "Bērns guļ."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Tas ir noguris."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "tas • bezpersoniska forma",
+              "example": "Es regnet. – Līst."
+            },
+            {
+              "word": "ich",
+              "meaning": "es (persona)",
+              "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+            }
+          ],
+          "info": [
+            "Latviešu “es” = vācu “ich”",
+            "Vācu “es” = tas; tā; bezpersoniska forma"
+          ],
+          "tip": {
+            "text": "Atceries: latviešu “es” → ich, nevis vācu es."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              {
+                "blue": [
+                  "Er"
+                ]
+              },
+              {
+                "red": [
+                  "Sie"
+                ]
+              },
+              {
+                "yellow": [
+                  "Das"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              },
+              {
+                "blue": [
+                  "Es"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "info": [
+              {
+                "blue": [
+                  "ich"
+                ]
+              },
+              {
+                "green": [
+                  "es"
+                ]
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "es"
+                ],
+                "red": [
+                  "ich"
+                ],
+                "purple": [
+                  "es"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "es"
+                ],
+                "purple": [
+                  "es"
+                ]
+              },
+              {
+                "red": [
+                  "ich"
+                ],
+                "blue": [
+                  "es"
+                ],
+                "purple": [
+                  "tas",
+                  "tā"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "ich un es nav viens un tas pats.",
+            "Vācu es nav latviešu “es”.",
+            "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas vai netiek tulkots."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-es",
+        "layout": "standardStudy",
+        "translation": "To • To • Neosobní podoba",
+        "explanation": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo „ono“ a také v neosobních větách o počasí, čase a dalších dějích.",
+        "examples": [
+          {
+            "de": "Ich lerne Deutsch.",
+            "lv": "Učím se německy."
+          },
+          {
+            "de": "Er ist müde.",
+            "lv": "Je unavený."
+          },
+          {
+            "de": "Sie arbeitet hier.",
+            "lv": "Ona tady pracuje."
+          },
+          {
+            "de": "Das ist mein Buch.",
+            "lv": "Je to moje kniha."
+          },
+          {
+            "de": "Es regnet.",
+            "lv": "Prší"
+          },
+          {
+            "de": "Es schneit.",
+            "lv": "Sněží"
+          }
+        ],
+        "info": [
+          "České „já“ = německé „ich“",
+          "Německé „es“ = to • ono • bezosobní tvar"
+        ],
+        "tip": {
+          "text": "Pamatujte: českýé \"es\" → ich, ne německé es."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "Ich"
+              ]
+            },
+            {
+              "blue": [
+                "Er"
+              ]
+            },
+            {
+              "red": [
+                "Sie"
+              ]
+            },
+            {
+              "yellow": [
+                "Das"
+              ]
+            },
+            {
+              "blue": [
+                "Es"
+              ]
+            },
+            {
+              "blue": [
+                "Es"
+              ]
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            }
+          ],
+          "info": [
+            {
+              "blue": [
+                "ich"
+              ]
+            },
+            {
+              "green": [
+                "es"
+              ]
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "es"
+              ],
+              "red": [
+                "ich"
+              ],
+              "purple": [
+                "es"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "Německé"
+              ],
+              "purple": [
+                "Německé"
+              ]
+            },
+            {
+              "red": [
+                "ich"
+              ],
+              "blue": [
+                "es"
+              ],
+              "purple": [
+                "České",
+                "České"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Německé já není českýé já.",
+          "České „já“ je v němčině ich • Německé es často znamená to/to nebo se nepřekládá."
+        ]
+      },
+      "csMain": "To • To • Neosobní podoba"
+    },
+    {
+      "cardId": "a1-fahren",
+      "index": 172,
+      "de": "fahren",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.important.example",
+          "ownerValue": "V němčině může stejné sloveso podle kontextu znamenat: jezdit • vézt • odvézt."
+        },
+        {
+          "field": "study.accents.green[1]",
+          "ownerValue": "dopravním prostředkem"
+        },
+        {
+          "field": "study.accents.green[5]",
+          "ownerValue": "jízdní kolo"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-fahren",
+        "index": 172,
+        "de": "fahren",
+        "layout": "standardStudy",
+        "csMain": "Řídit • Vést • Odvézt",
+        "studyTranslation": "Řídit • Vést • Odvézt",
+        "lvSourceMain": "braukt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "braukt",
+            "csText": "Řídit • Vést • Odvézt",
+            "de": "fahren"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es braucu uz Berlīni.",
+            "csText": "Jedu do Berlína.",
+            "de": "fahren"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es braucu ar auto.",
+            "csText": "Jezdím autem.",
+            "de": "fahren"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es vedu savu meitu uz skolu.",
+            "csText": "Beru dceru do školy.",
+            "de": "fahren"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es tevi aizvedu mājās.",
+            "csText": "Vezmu tě domů",
+            "de": "fahren"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "mēs rīt braucam uz Minheni.",
+            "csText": "Zítra jedeme do Mnichova.",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "fahren",
+            "csText": "fahren",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "braukt ar transportu",
+            "csText": "Jezdit transportem",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "gehen",
+            "csText": "gehen",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "iet kājām",
+            "csText": "Jít pěšky",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "laufen",
+            "csText": "laufen",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "skriet / iet",
+            "csText": "Běž / běž",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "bringen",
+            "csText": "bringen",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "atnest / nogādāt",
+            "csText": "Přinést / doručit",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[4].word",
+            "lvSource": "mitnehmen",
+            "csText": "mitnehmen",
+            "de": "fahren"
+          },
+          {
+            "field": "study.comparison[4].meaning",
+            "lvSource": "paņemt līdzi",
+            "csText": "Vzít s sebou",
+            "de": "fahren"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: transportlīdzeklis → fahren; kājām → gehen.",
+            "csText": "Pamatujte: vozidlo → fahren • Pěšky → gehen.",
+            "de": "fahren"
+          },
+          {
+            "field": "study.important.text",
+            "lvSource": "fahren ≠ tikai “braukt”",
+            "csText": "Fahren ≠ jen „řídit“",
+            "de": "fahren"
+          }
+        ],
+        "study": {
+          "id": "a1-fahren",
+          "layout": "standardStudy",
+          "translation": "Řídit • Vést • Odvézt",
+          "explanation": [
+            "Hlavní myšlenka: fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+            "Fahren se používá při cestování autem, autobusem, vlakem, na kole nebo jiným vozidlem.",
+            "Když má věta jako předmět osobu, fahren může znamenat vést nebo odnést.",
+            "Pokud je pohyb pěšky, obvykle se používá gehen nebo laufen."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Jedu do Berlína."
+            },
+            {
+              "de": "Ich fahre mit dem Auto.",
+              "lv": "Jezdím autem."
+            },
+            {
+              "de": "Ich fahre meine Tochter zur Schule.",
+              "lv": "Beru dceru do školy."
+            },
+            {
+              "de": "Ich fahre dich nach Hause.",
+              "lv": "Vezmu tě domů"
+            },
+            {
+              "de": "Wir fahren morgen nach München.",
+              "lv": "Zítra jedeme do Mnichova."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fahren",
+              "meaning": "Jezdit transportem",
+              "example": "Ich fahre mit dem Bus."
+            },
+            {
+              "word": "gehen",
+              "meaning": "Jít pěšky",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "laufen",
+              "meaning": "Běž / běž",
+              "example": "Er läuft schnell."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Přinést / doručit",
+              "example": "Ich bringe das Buch."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "Vzít s sebou",
+              "example": "Ich nehme dich mit."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: vozidlo → fahren • Pěšky → gehen."
+          },
+          "important": {
+            "text": "Fahren ≠ jen „řídit“",
+            "example": "V němčině může stejné sloveso podle kontextu znamenat: jezdit • vézt • odvézt."
+          },
+          "accents": {
+            "blue": [
+              "Fahren",
+              "Fahre"
+            ],
+            "purple": [
+              "Braukt",
+              "Braucu",
+              "Vest",
+              "Vedu",
+              "Aizvest"
+            ],
+            "green": [
+              "Transportu",
+              "dopravním prostředkem",
+              "Auto",
+              "Autobusu",
+              "Vilcienu",
+              "jízdní kolo"
+            ],
+            "yellow": [
+              "Gehen",
+              "Laufen"
+            ],
+            "red": [
+              "Bringen",
+              "Mitnehmen"
+            ]
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fahren"
+              ],
+              "purple": [
+                "Hlavní",
+                "vest",
+                "Hlavní"
+              ],
+              "green": [
+                "auto",
+                "autobusem",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "yellow": [
+                "gehen",
+                "laufen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jedu"
+                  ],
+                  "green": [
+                    "Berlína"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ],
+                  "green": [
+                    "Auto"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jezdím"
+                  ],
+                  "green": [
+                    "Jezdím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ],
+                  "green": [
+                    "Tochter",
+                    "Schule"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Beru"
+                  ],
+                  "green": [
+                    "Beru",
+                    "školy"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ],
+                  "green": [
+                    "dich",
+                    "Hause"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vezmu"
+                  ],
+                  "green": [
+                    "Vezmu",
+                    "Vezmu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahren"
+                  ],
+                  "green": [
+                    "München"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zítra"
+                  ],
+                  "green": [
+                    "Zítra"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "transportem"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "fahre"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Běž",
+                    "Běž"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "läuft"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přinést",
+                    "Přinést"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bringe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitnehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vzít"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "nehme",
+                    "mit"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "fahren"
+                ],
+                "yellow": [
+                  "gehen"
+                ],
+                "green": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "fahren"
+                  ],
+                  "purple": [
+                    "braukt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "fahren"
+                  ],
+                  "purple": [
+                    "braukt",
+                    "vest",
+                    "aizvest"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-fahren",
+          "layout": "standardStudy",
+          "translation": "braukt",
+          "explanation": [
+            "Galvenā doma: fahren nozīmē braukt ar transportu un dažos teikumos arī vest vai aizvest kādu.",
+            "fahren lieto, ja pārvietošanās notiek ar auto, autobusu, vilcienu, velosipēdu vai citu transportlīdzekli.",
+            "Ja teikumā ir persona kā objekts, fahren var nozīmēt vest vai aizvest.",
+            "Ja kustība notiek kājām, parasti lieto gehen vai laufen."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "es braucu uz Berlīni."
+            },
+            {
+              "de": "Ich fahre mit dem Auto.",
+              "lv": "es braucu ar auto."
+            },
+            {
+              "de": "Ich fahre meine Tochter zur Schule.",
+              "lv": "es vedu savu meitu uz skolu."
+            },
+            {
+              "de": "Ich fahre dich nach Hause.",
+              "lv": "es tevi aizvedu mājās."
+            },
+            {
+              "de": "Wir fahren morgen nach München.",
+              "lv": "mēs rīt braucam uz Minheni."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fahren",
+              "meaning": "braukt ar transportu",
+              "example": "Ich fahre mit dem Bus."
+            },
+            {
+              "word": "gehen",
+              "meaning": "iet kājām",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "laufen",
+              "meaning": "skriet / iet",
+              "example": "Er läuft schnell."
+            },
+            {
+              "word": "bringen",
+              "meaning": "atnest / nogādāt",
+              "example": "Ich bringe das Buch."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "paņemt līdzi",
+              "example": "Ich nehme dich mit."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: transportlīdzeklis → fahren; kājām → gehen."
+          },
+          "important": {
+            "text": "fahren ≠ tikai “braukt”",
+            "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
+          },
+          "accents": {
+            "blue": [
+              "fahren",
+              "fahre"
+            ],
+            "purple": [
+              "braukt",
+              "braucu",
+              "vest",
+              "vedu",
+              "aizvest"
+            ],
+            "green": [
+              "transportu",
+              "transportlīdzekli",
+              "auto",
+              "autobusu",
+              "vilcienu",
+              "velosipēdu"
+            ],
+            "yellow": [
+              "gehen",
+              "laufen"
+            ],
+            "red": [
+              "bringen",
+              "mitnehmen"
+            ]
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fahren"
+              ],
+              "purple": [
+                "braukt",
+                "vest",
+                "aizvest"
+              ],
+              "green": [
+                "auto",
+                "autobusu",
+                "vilcienu",
+                "velosipēdu",
+                "transportlīdzekli"
+              ],
+              "yellow": [
+                "gehen",
+                "laufen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "braucu"
+                  ],
+                  "green": [
+                    "Berlīni"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ],
+                  "green": [
+                    "Auto"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "braucu"
+                  ],
+                  "green": [
+                    "auto"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ],
+                  "green": [
+                    "Tochter",
+                    "Schule"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vedu"
+                  ],
+                  "green": [
+                    "meitu",
+                    "skolu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ],
+                  "green": [
+                    "dich",
+                    "Hause"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "aizvedu"
+                  ],
+                  "green": [
+                    "tevi",
+                    "mājās"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahren"
+                  ],
+                  "green": [
+                    "München"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "braucam"
+                  ],
+                  "green": [
+                    "Minheni"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "transportu"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "fahre"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iet kājām"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "skriet",
+                    "iet"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "läuft"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "atnest",
+                    "nogādāt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bringe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitnehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "paņemt līdzi"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "nehme",
+                    "mit"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "fahren"
+                ],
+                "yellow": [
+                  "gehen"
+                ],
+                "green": [
+                  "transportlīdzeklis",
+                  "kājām"
+                ]
+              }
+            },
+            "important": [
+              {
+                "text": {
+                  "blue": [
+                    "fahren"
+                  ],
+                  "purple": [
+                    "braukt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "fahren"
+                  ],
+                  "purple": [
+                    "braukt",
+                    "vest",
+                    "aizvest"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-fahren",
+        "layout": "standardStudy",
+        "translation": "Řídit • Vést • Odvézt",
+        "explanation": [
+          "Hlavní myšlenka: fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+          "Fahren se používá při cestování autem, autobusem, vlakem, na kole nebo jiným vozidlem.",
+          "Když má věta jako předmět osobu, fahren může znamenat vést nebo odnést.",
+          "Pokud je pohyb pěšky, obvykle se používá gehen nebo laufen."
+        ],
+        "examples": [
+          {
+            "de": "Ich fahre nach Berlin.",
+            "lv": "Jedu do Berlína."
+          },
+          {
+            "de": "Ich fahre mit dem Auto.",
+            "lv": "Jezdím autem."
+          },
+          {
+            "de": "Ich fahre meine Tochter zur Schule.",
+            "lv": "Beru dceru do školy."
+          },
+          {
+            "de": "Ich fahre dich nach Hause.",
+            "lv": "Vezmu tě domů"
+          },
+          {
+            "de": "Wir fahren morgen nach München.",
+            "lv": "Zítra jedeme do Mnichova."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "fahren",
+            "meaning": "Jezdit transportem",
+            "example": "Ich fahre mit dem Bus."
+          },
+          {
+            "word": "gehen",
+            "meaning": "Jít pěšky",
+            "example": "Ich gehe nach Hause."
+          },
+          {
+            "word": "laufen",
+            "meaning": "Běž / běž",
+            "example": "Er läuft schnell."
+          },
+          {
+            "word": "bringen",
+            "meaning": "Přinést / doručit",
+            "example": "Ich bringe das Buch."
+          },
+          {
+            "word": "mitnehmen",
+            "meaning": "Vzít s sebou",
+            "example": "Ich nehme dich mit."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: vozidlo → fahren • Pěšky → gehen."
+        },
+        "important": {
+          "text": "Fahren ≠ jen „řídit“",
+          "example": "V němčině může stejné sloveso podle kontextu znamenat: jezdit • vézt • odvézt."
+        },
+        "accents": {
+          "blue": [
+            "Fahren",
+            "Fahre"
+          ],
+          "purple": [
+            "Braukt",
+            "Braucu",
+            "Vest",
+            "Vedu",
+            "Aizvest"
+          ],
+          "green": [
+            "Transportu",
+            "dopravním prostředkem",
+            "Auto",
+            "Autobusu",
+            "Vilcienu",
+            "jízdní kolo"
+          ],
+          "yellow": [
+            "Gehen",
+            "Laufen"
+          ],
+          "red": [
+            "Bringen",
+            "Mitnehmen"
+          ]
+        },
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "fahren"
+            ],
+            "purple": [
+              "Hlavní",
+              "vest",
+              "Hlavní"
+            ],
+            "green": [
+              "auto",
+              "autobusem",
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "yellow": [
+              "gehen",
+              "laufen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "fahre"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jedu"
+                ],
+                "green": [
+                  "Berlína"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "fahre"
+                ],
+                "green": [
+                  "Auto"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jezdím"
+                ],
+                "green": [
+                  "Jezdím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "fahre"
+                ],
+                "green": [
+                  "Tochter",
+                  "Schule"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Beru"
+                ],
+                "green": [
+                  "Beru",
+                  "školy"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "fahre"
+                ],
+                "green": [
+                  "dich",
+                  "Hause"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vezmu"
+                ],
+                "green": [
+                  "Vezmu",
+                  "Vezmu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "fahren"
+                ],
+                "green": [
+                  "München"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zítra"
+                ],
+                "green": [
+                  "Zítra"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "fahren"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "transportem"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "fahre"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "gehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jít"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "gehe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "laufen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Běž",
+                  "Běž"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "läuft"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bringen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Přinést",
+                  "Přinést"
+                ]
+              },
+              "example": {
+                "red": [
+                  "bringe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "mitnehmen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vzít"
+                ]
+              },
+              "example": {
+                "red": [
+                  "nehme",
+                  "mit"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "fahren"
+              ],
+              "yellow": [
+                "gehen"
+              ],
+              "green": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "text": {
+                "blue": [
+                  "fahren"
+                ],
+                "purple": [
+                  "braukt"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "fahren"
+                ],
+                "purple": [
+                  "braukt",
+                  "vest",
+                  "aizvest"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "csMain": "Řídit • Vést • Odvézt"
+    },
+    {
+      "cardId": "a1-in",
+      "index": 295,
+      "de": "in",
+      "auditType": "false_positive_control",
+      "repairedFields": [
+        {
+          "field": "study.sectionAccents.important[0].purple[0]",
+          "ownerValue": "Berlíně"
+        }
+      ],
+      "falsePositiveControl": {
+        "cardId": "a1-in",
+        "field": "study.sectionAccents.examples[0].lv.purple[0]",
+        "expected": "Berlīnē",
+        "classification": "FALSE_POSITIVE"
+      },
+      "fullCard": {
+        "cardId": "a1-in",
+        "index": 295,
+        "de": "in",
+        "layout": "standardStudy",
+        "csMain": "V • Do",
+        "studyTranslation": "V • Do",
+        "lvSourceMain": "iekšā • uz",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "iekšā • uz",
+            "csText": "V • Do",
+            "de": "in"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es esmu Berlīnē.",
+            "csText": "Jsem v Berlíně",
+            "de": "in"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es eju uz skolu.",
+            "csText": "Chodím do školy",
+            "de": "in"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "grāmata ir somā.",
+            "csText": "Kniha je v tašce.",
+            "de": "in"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "mēs ejam uz kino.",
+            "csText": "Jdeme do kina.",
+            "de": "in"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: iekšā/telpā → in.",
+            "csText": "Pamatujte: v/v → v.",
+            "de": "in"
+          }
+        ],
+        "study": {
+          "id": "a1-in",
+          "layout": "standardStudy",
+          "translation": "V • Do",
+          "explanation": [
+            "Hlavní myšlenka: in obvykle znamená v nebo na místo, když se odkazuje na prostor, zemi, město nebo budovu.",
+            "S polohou se in často překládá jako v nebo v: v Berlíně = v Berlíně.",
+            "S pohybem v znamená dovnitř: ins Kino = do kina.",
+            "Českýý překlad se mění v závislosti na kontextu."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin in Berlin.",
+              "lv": "Jsem v Berlíně"
+            },
+            {
+              "de": "Ich gehe in die Schule.",
+              "lv": "Chodím do školy"
+            },
+            {
+              "de": "Das Buch ist in der Tasche.",
+              "lv": "Kniha je v tašce."
+            },
+            {
+              "de": "Wir gehen ins Kino.",
+              "lv": "Jdeme do kina."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: v/v → v."
+          },
+          "important": [
+            "In není vždy doslova „in“ • česky se často říká v Berlíně, ve škole, v kině.",
+            "Pokud jde o povrch, často potřebujete auf místo dovnitř."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "in"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Berlīnē"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chodím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kniha"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "in"
+                ],
+                "purple": [
+                  "Berlíně",
+                  "škole",
+                  "není"
+                ]
+              },
+              {
+                "yellow": [
+                  "auf"
+                ],
+                "red": [
+                  "Pokud"
+                ],
+                "purple": [
+                  "Pokud"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-in",
+          "layout": "standardStudy",
+          "translation": "iekšā • uz",
+          "explanation": [
+            "Galvenā doma: in parasti nozīmē iekšā vai uz kādu vietu, ja runa ir par telpu, valsti, pilsētu vai ēku.",
+            "Ar atrašanās vietu in bieži tulko kā iekšā vai -ā: in Berlin = Berlīnē.",
+            "Ar kustību in nozīmē uz iekšieni: ins Kino = uz kino.",
+            "Latviski tulkojums mainās pēc konteksta."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin in Berlin.",
+              "lv": "es esmu Berlīnē."
+            },
+            {
+              "de": "Ich gehe in die Schule.",
+              "lv": "es eju uz skolu."
+            },
+            {
+              "de": "Das Buch ist in der Tasche.",
+              "lv": "grāmata ir somā."
+            },
+            {
+              "de": "Wir gehen ins Kino.",
+              "lv": "mēs ejam uz kino."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: iekšā/telpā → in."
+          },
+          "important": [
+            "in nav vienmēr burtiski “iekšā”; latviski bieži saka Berlīnē, skolā, uz kino.",
+            "Ja runa ir par virsmu, bieži vajag auf, nevis in."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "in"
+              ],
+              "purple": [
+                "iekšā",
+                "uz"
+              ],
+              "green": [
+                "telpu",
+                "valsti",
+                "pilsētu",
+                "ēku"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Berlīnē"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz skolu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "somā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz kino"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "in"
+                ],
+                "purple": [
+                  "iekšā",
+                  "telpā"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "in"
+                ],
+                "purple": [
+                  "Berlīnē",
+                  "skolā",
+                  "uz kino"
+                ]
+              },
+              {
+                "yellow": [
+                  "auf"
+                ],
+                "red": [
+                  "in"
+                ],
+                "purple": [
+                  "virsmu"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-in",
+        "layout": "standardStudy",
+        "translation": "V • Do",
+        "explanation": [
+          "Hlavní myšlenka: in obvykle znamená v nebo na místo, když se odkazuje na prostor, zemi, město nebo budovu.",
+          "S polohou se in často překládá jako v nebo v: v Berlíně = v Berlíně.",
+          "S pohybem v znamená dovnitř: ins Kino = do kina.",
+          "Českýý překlad se mění v závislosti na kontextu."
+        ],
+        "examples": [
+          {
+            "de": "Ich bin in Berlin.",
+            "lv": "Jsem v Berlíně"
+          },
+          {
+            "de": "Ich gehe in die Schule.",
+            "lv": "Chodím do školy"
+          },
+          {
+            "de": "Das Buch ist in der Tasche.",
+            "lv": "Kniha je v tašce."
+          },
+          {
+            "de": "Wir gehen ins Kino.",
+            "lv": "Jdeme do kina."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: v/v → v."
+        },
+        "important": [
+          "In není vždy doslova „in“ • česky se často říká v Berlíně, ve škole, v kině.",
+          "Pokud jde o povrch, často potřebujete auf místo dovnitř."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "in"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "in"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Berlīnē"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "in"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Chodím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "in"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kniha"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "in"
+              ],
+              "purple": [
+                "Berlíně",
+                "škole",
+                "není"
+              ]
+            },
+            {
+              "yellow": [
+                "auf"
+              ],
+              "red": [
+                "Pokud"
+              ],
+              "purple": [
+                "Pokud"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "V • Do"
+    },
+    {
+      "cardId": "a1-land",
+      "index": 351,
+      "de": "Land",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.sectionAccents.comparison[3].meaning.purple[1]",
+          "ownerValue": "planeta"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-land",
+        "index": 351,
+        "de": "Land",
+        "layout": "standardStudy",
+        "csMain": "Země • Země",
+        "studyTranslation": "Země • Země",
+        "lvSourceMain": "valsts • zeme",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "valsts • zeme",
+            "csText": "Země • Země",
+            "de": "Land"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Vācija ir skaista valsts.",
+            "csText": "Německo je krásná země.",
+            "de": "Land"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es nāku no mazas valsts.",
+            "csText": "Pocházím z malé země.",
+            "de": "Land"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs braucam uz laukiem.",
+            "csText": "Jedeme na venkov.",
+            "de": "Land"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "laukos ir mierīgi.",
+            "csText": "Na venkově je klid.",
+            "de": "Land"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "das Land",
+            "csText": "das Land",
+            "de": "Land"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "valsts / zeme / lauki",
+            "csText": "Země / země / venkov",
+            "de": "Land"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "die Stadt",
+            "csText": "die Stadt",
+            "de": "Land"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "pilsēta",
+            "csText": "Město",
+            "de": "Land"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "das Dorf",
+            "csText": "das Dorf",
+            "de": "Land"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "ciems",
+            "csText": "Obec",
+            "de": "Land"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "die Erde",
+            "csText": "die Erde",
+            "de": "Land"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "zeme / planēta",
+            "csText": "Země / planeta",
+            "de": "Land"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: valsts → das Land; pilsēta → die Stadt.",
+            "csText": "Pamatujte: země → das Land • Město → die Stadt.",
+            "de": "Land"
+          }
+        ],
+        "study": {
+          "id": "a1-land",
+          "layout": "standardStudy",
+          "translation": "Země • Země",
+          "explanation": [
+            "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo pozemek za městem.",
+            "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
+            "Když mluvíte o venkově nebo zemi na rozdíl od města, překládejte jako venkov nebo země.",
+            "Kontext určuje, zda máme na mysli zemi, venkov nebo zemi."
+          ],
+          "examples": [
+            {
+              "de": "Deutschland ist ein schönes Land.",
+              "lv": "Německo je krásná země."
+            },
+            {
+              "de": "Ich komme aus einem kleinen Land.",
+              "lv": "Pocházím z malé země."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Jedeme na venkov."
+            },
+            {
+              "de": "Auf dem Land ist es ruhig.",
+              "lv": "Na venkově je klid."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Land",
+              "meaning": "Země / země / venkov",
+              "example": "Deutschland ist ein Land."
+            },
+            {
+              "word": "die Stadt",
+              "meaning": "Město",
+              "example": "Ich wohne in der Stadt."
+            },
+            {
+              "word": "das Dorf",
+              "meaning": "Obec",
+              "example": "Er lebt in einem Dorf."
+            },
+            {
+              "word": "die Erde",
+              "meaning": "Země / planeta",
+              "example": "Die Erde ist rund."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: země → das Land • Město → die Stadt."
+          },
+          "important": [
+            "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+            "Das Land není totéž co die Stadt."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Land",
+                "Land"
+              ],
+              "purple": [
+                "Hlavní",
+                "zemi",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ],
+                  "green": [
+                    "Deutschland"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Německo"
+                  ],
+                  "green": [
+                    "Německo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pocházím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jedeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "venkově"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Land"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Země",
+                    "zeme",
+                    "Země"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Land"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Stadt"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Město"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Stadt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Dorf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Obec"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Dorf"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Erde"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zeme",
+                    "planeta"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Erde"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "das Land"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "yellow": [
+                  "die Stadt",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "aufs Land"
+                ],
+                "purple": [
+                  "Aufs"
+                ],
+                "red": [
+                  "Aufs"
+                ]
+              },
+              {
+                "blue": [
+                  "das Land"
+                ],
+                "yellow": [
+                  "die Stadt"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-land",
+          "layout": "standardStudy",
+          "translation": "valsts • zeme",
+          "explanation": [
+            "Galvenā doma: das Land visbiežāk nozīmē valsti vai zemi ārpus pilsētas.",
+            "Ja runa ir par Vāciju, Latviju vai citu teritoriju ar robežām, tulko kā valsts.",
+            "Ja runa ir par laukiem vai zemi pretstatā pilsētai, tulko kā lauki vai zeme.",
+            "Konteksts nosaka, vai domājam valsti, laukus vai zemi."
+          ],
+          "examples": [
+            {
+              "de": "Deutschland ist ein schönes Land.",
+              "lv": "Vācija ir skaista valsts."
+            },
+            {
+              "de": "Ich komme aus einem kleinen Land.",
+              "lv": "es nāku no mazas valsts."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "mēs braucam uz laukiem."
+            },
+            {
+              "de": "Auf dem Land ist es ruhig.",
+              "lv": "laukos ir mierīgi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Land",
+              "meaning": "valsts / zeme / lauki",
+              "example": "Deutschland ist ein Land."
+            },
+            {
+              "word": "die Stadt",
+              "meaning": "pilsēta",
+              "example": "Ich wohne in der Stadt."
+            },
+            {
+              "word": "das Dorf",
+              "meaning": "ciems",
+              "example": "Er lebt in einem Dorf."
+            },
+            {
+              "word": "die Erde",
+              "meaning": "zeme / planēta",
+              "example": "Die Erde ist rund."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: valsts → das Land; pilsēta → die Stadt."
+          },
+          "important": [
+            "aufs Land nozīmē “uz laukiem”, nevis “uz valsti”.",
+            "das Land nav tas pats, kas die Stadt."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Land",
+                "Land"
+              ],
+              "purple": [
+                "valsti",
+                "zemi",
+                "lauki",
+                "valsts"
+              ],
+              "green": [
+                "Vāciju",
+                "Latviju",
+                "pilsētas"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ],
+                  "green": [
+                    "Deutschland"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "valsts"
+                  ],
+                  "green": [
+                    "Vācija"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "valsts"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laukiem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laukos"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Land"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "valsts",
+                    "zeme",
+                    "lauki"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Land"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Stadt"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pilsēta"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Stadt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Dorf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ciems"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Dorf"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Erde"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zeme",
+                    "planēta"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Erde"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "das Land"
+                ],
+                "purple": [
+                  "valsts"
+                ],
+                "yellow": [
+                  "die Stadt",
+                  "pilsēta"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "aufs Land"
+                ],
+                "purple": [
+                  "uz laukiem"
+                ],
+                "red": [
+                  "uz valsti"
+                ]
+              },
+              {
+                "blue": [
+                  "das Land"
+                ],
+                "yellow": [
+                  "die Stadt"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-land",
+        "layout": "standardStudy",
+        "translation": "Země • Země",
+        "explanation": [
+          "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo pozemek za městem.",
+          "Pokud jde o Německo, Lotyšsko nebo jiné území s hranicemi, překládá se to jako země.",
+          "Když mluvíte o venkově nebo zemi na rozdíl od města, překládejte jako venkov nebo země.",
+          "Kontext určuje, zda máme na mysli zemi, venkov nebo zemi."
+        ],
+        "examples": [
+          {
+            "de": "Deutschland ist ein schönes Land.",
+            "lv": "Německo je krásná země."
+          },
+          {
+            "de": "Ich komme aus einem kleinen Land.",
+            "lv": "Pocházím z malé země."
+          },
+          {
+            "de": "Wir fahren aufs Land.",
+            "lv": "Jedeme na venkov."
+          },
+          {
+            "de": "Auf dem Land ist es ruhig.",
+            "lv": "Na venkově je klid."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "das Land",
+            "meaning": "Země / země / venkov",
+            "example": "Deutschland ist ein Land."
+          },
+          {
+            "word": "die Stadt",
+            "meaning": "Město",
+            "example": "Ich wohne in der Stadt."
+          },
+          {
+            "word": "das Dorf",
+            "meaning": "Obec",
+            "example": "Er lebt in einem Dorf."
+          },
+          {
+            "word": "die Erde",
+            "meaning": "Země / planeta",
+            "example": "Die Erde ist rund."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: země → das Land • Město → die Stadt."
+        },
+        "important": [
+          "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+          "Das Land není totéž co die Stadt."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "das Land",
+              "Land"
+            ],
+            "purple": [
+              "Hlavní",
+              "zemi",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Land"
+                ],
+                "green": [
+                  "Deutschland"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Německo"
+                ],
+                "green": [
+                  "Německo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Land"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Pocházím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Land"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jedeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Land"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "venkově"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "das Land"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Země",
+                  "zeme",
+                  "Země"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Land"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "die Stadt"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Město"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Stadt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "das Dorf"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Obec"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Dorf"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "die Erde"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "zeme",
+                  "planeta"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Erde"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "das Land"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "yellow": [
+                "die Stadt",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "aufs Land"
+              ],
+              "purple": [
+                "Aufs"
+              ],
+              "red": [
+                "Aufs"
+              ]
+            },
+            {
+              "blue": [
+                "das Land"
+              ],
+              "yellow": [
+                "die Stadt"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "Země • Země"
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-es",
+      "auditType": "changed_card_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Repaired study meaning is correct, but the Czech card still contains malformed „českýé“ text in the tip and important note.",
+      "findings": [
+        {
+          "field": "study.tip.text",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Pamatujte: českýé \"es\" → ich, ne německé es.",
+          "proposedCs": "Pamatujte: české „es“ → ich, ne německé es.",
+          "reason": "The phrase „českýé“ is grammatically malformed and weakens the explanatory tip.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.important[0]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Německé já není českýé já.",
+          "proposedCs": "Německé „es“ není české „já“.",
+          "reason": "The current sentence contains a malformed adjective and incorrectly refers to German „já“ rather than „es“.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-fahren",
+      "auditType": "changed_card_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Repaired fields are correct, but the full Czech card still presents fahren with inaccurate core meanings and an incorrect object explanation.",
+      "findings": [
+        {
+          "field": "study.translation",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Řídit • Vést • Odvézt",
+          "proposedCs": "Jezdit • Vézt • Odvézt",
+          "reason": "The headline omits the core meaning „jezdit“ and uses „vést“, which is not the intended transport meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+          "proposedCs": "fahren znamená jezdit nebo řídit vozidlo a v některých větách také někoho vézt či odvézt.",
+          "reason": "The repeated „vzít“ is unnatural and omits the transport-specific meaning conveyed by fahren.",
+          "confidence": 0.97
+        },
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "fahren může znamenat vést nebo odnést.",
+          "proposedCs": "fahren může znamenat někoho vézt nebo odvézt.",
+          "reason": "„Vést“ and especially „odnést“ misrepresent fahren with a person as object.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-in",
+      "auditType": "false_positive_control",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 1,
+      "reason": "The documented foreign remnant remains an explicit Latvian accent field, so its FALSE_POSITIVE classification still holds.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[0].lv.purple[0]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "LOW",
+          "currentCs": "Berlīnē",
+          "proposedCs": "Berlíně",
+          "reason": "Berlīnē is intentional Latvian text in an explicit accent LV field, not a Czech translation defect.",
+          "confidence": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-land",
+      "auditType": "changed_card_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "The repaired „planeta“ accent is correct, but the Czech study still contains duplicate and ambiguous wording around Land.",
+      "findings": [
+        {
+          "field": "study.translation",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Země • Země",
+          "proposedCs": "Země • Venkov",
+          "reason": "The duplicate headline fails to distinguish the country/land meaning from the countryside meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.important[0]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+          "proposedCs": "Aufs Land znamená „na venkov“, nikoli „do země“.",
+          "reason": "The contrast repeats the same phrase and creates a contradictory, meaningless explanation.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-11T16:39:42.971Z"
+}
