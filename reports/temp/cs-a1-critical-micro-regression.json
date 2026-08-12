@@ -1,0 +1,1429 @@
+{
+  "repairIntegrity": {
+    "retained": [
+      {
+        "cardId": "a1-es",
+        "field": "study.info[0]",
+        "expected": "České „já“ = německé „ich“",
+        "actual": "České „já“ = německé „ich“"
+      },
+      {
+        "cardId": "a1-es",
+        "field": "study.info[1]",
+        "expected": "Německé „es“ = to • ono • bezosobní tvar",
+        "actual": "Německé „es“ = to • ono • bezosobní tvar"
+      },
+      {
+        "cardId": "a1-es",
+        "field": "study.explanation",
+        "expected": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo „ono“ a také v neosobních větách o počasí, čase a dalších dějích.",
+        "actual": "Německé „es“ neznamená „já“. Používá se jako „to“ nebo „ono“ a také v neosobních větách o počasí, čase a dalších dějích."
+      },
+      {
+        "cardId": "a1-fahren",
+        "field": "study.important.example",
+        "expected": "V němčině může stejné sloveso podle kontextu znamenat: jezdit • vézt • odvézt.",
+        "actual": "V němčině může stejné sloveso podle kontextu znamenat: jezdit • vézt • odvézt."
+      },
+      {
+        "cardId": "a1-fahren",
+        "field": "study.accents.green[1]",
+        "expected": "dopravním prostředkem",
+        "actual": "dopravním prostředkem"
+      },
+      {
+        "cardId": "a1-fahren",
+        "field": "study.accents.green[5]",
+        "expected": "jízdní kolo",
+        "actual": "jízdní kolo"
+      },
+      {
+        "cardId": "a1-in",
+        "field": "study.sectionAccents.important[0].purple[0]",
+        "expected": "Berlíně",
+        "actual": "Berlíně"
+      },
+      {
+        "cardId": "a1-land",
+        "field": "study.sectionAccents.comparison[3].meaning.purple[1]",
+        "expected": "planeta",
+        "actual": "planeta"
+      },
+      {
+        "cardId": "a1-sitzen",
+        "field": "study.sectionAccents.explanation.purple[0]",
+        "expected": "sedět",
+        "actual": "sedět"
+      },
+      {
+        "cardId": "a1-sitzen",
+        "field": "study.sectionAccents.explanation.purple[1]",
+        "expected": "sedí",
+        "actual": "sedí"
+      },
+      {
+        "cardId": "a1-sitzen",
+        "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+        "expected": "Sedět",
+        "actual": "Sedět"
+      },
+      {
+        "cardId": "a1-stehen",
+        "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+        "expected": "sedět",
+        "actual": "sedět"
+      },
+      {
+        "cardId": "a1-über",
+        "field": "study.sectionAccents.tip.left.purple[0]",
+        "expected": "téma",
+        "actual": "téma"
+      },
+      {
+        "cardId": "a1-essen",
+        "field": "study.sectionAccents.explanation.purple[0]",
+        "expected": "jíst",
+        "actual": "jíst"
+      },
+      {
+        "cardId": "a1-bedeuten-75",
+        "field": "lv",
+        "expected": "Znamenat",
+        "actual": "Znamenat"
+      },
+      {
+        "cardId": "a1-Buch-116",
+        "field": "lv",
+        "expected": "Kniha",
+        "actual": "Kniha"
+      },
+      {
+        "cardId": "a1-Erde-164",
+        "field": "lv",
+        "expected": "Země",
+        "actual": "Země"
+      },
+      {
+        "cardId": "a1-März-396",
+        "field": "lv",
+        "expected": "Březen",
+        "actual": "Březen"
+      },
+      {
+        "cardId": "a1-bitte",
+        "field": "study.explanation",
+        "expected": [
+          "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+          "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+          "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+          "Množné číslo je die Bitten."
+        ],
+        "actual": [
+          "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+          "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+          "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+          "Množné číslo je die Bitten."
+        ]
+      },
+      {
+        "cardId": "a1-bitte-study",
+        "field": "study.explanation",
+        "expected": [
+          "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+          "Píše se s velkým písmenem.",
+          "Množné číslo je die Bitten.",
+          "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+        ],
+        "actual": [
+          "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+          "Píše se s velkým písmenem.",
+          "Množné číslo je die Bitten.",
+          "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+        ]
+      },
+      {
+        "cardId": "a1-das",
+        "field": "study.translation",
+        "expected": "Určitý člen středního rodu",
+        "actual": "Určitý člen středního rodu"
+      },
+      {
+        "cardId": "a1-die",
+        "field": "study.explanation",
+        "expected": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+        "actual": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno."
+      },
+      {
+        "cardId": "a1-die",
+        "field": "study.important[1]",
+        "expected": "V množném čísle se die používá pro všechny rody.",
+        "actual": "V množném čísle se die používá pro všechny rody."
+      },
+      {
+        "cardId": "a1-heißen",
+        "field": "study.translation",
+        "expected": "Jmenovat se • Znamenat",
+        "actual": "Jmenovat se • Znamenat"
+      },
+      {
+        "cardId": "a1-heißen",
+        "field": "study.comparison[2].meaning",
+        "expected": "Znamenat",
+        "actual": "Znamenat"
+      },
+      {
+        "cardId": "a1-laden-study",
+        "field": "study.translation",
+        "expected": "Obchod",
+        "actual": "Obchod"
+      },
+      {
+        "cardId": "a1-legen",
+        "field": "study.explanation[3]",
+        "expected": "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet.",
+        "actual": "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet."
+      },
+      {
+        "cardId": "a1-schauen-study",
+        "field": "study.translation",
+        "expected": "Dívat se",
+        "actual": "Dívat se"
+      },
+      {
+        "cardId": "a1-schauen-study",
+        "field": "study.comparison[0].meaning",
+        "expected": "Dívat se (aktivně)",
+        "actual": "Dívat se (aktivně)"
+      },
+      {
+        "cardId": "a1-sehen",
+        "field": "study.comparison[1].meaning",
+        "expected": "Dívat se",
+        "actual": "Dívat se"
+      },
+      {
+        "cardId": "a1-sich",
+        "field": "study.explanation[1]",
+        "expected": "V češtině se často překládá jako se, sebe nebo sobě podle pádu.",
+        "actual": "V češtině se často překládá jako se, sebe nebo sobě podle pádu."
+      },
+      {
+        "cardId": "a1-sollen",
+        "field": "study.important[0]",
+        "expected": "Was soll ich machen? je velmi častá věta.",
+        "actual": "Was soll ich machen? je velmi častá věta."
+      },
+      {
+        "cardId": "a1-fernsehen-study",
+        "field": "study.important[0]",
+        "expected": "Sloveso fernsehen je dělitelné na fern + sehen.",
+        "actual": "Sloveso fernsehen je dělitelné na fern + sehen."
+      }
+    ],
+    "reverted": [],
+    "expectedCount": 33
+  },
+  "technical": {
+    "cards": 702,
+    "orderMismatch": 0,
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "deChangesInRepairCommit": 0,
+    "mirrorIdentical": true
+  },
+  "fpResults": {
+    "in": "PASS (Berlīnē retained)",
+    "baum": "PASS (Strom retained)"
+  },
+  "lunaCounts": {
+    "CONFIRMED_REAL": 4,
+    "FALSE_POSITIVE": 1,
+    "STALE": 9,
+    "DE_SOURCE_ISSUE": 0,
+    "NEEDS_OWNER_REVIEW": 11
+  },
+  "confirmedCritical": [],
+  "needsReviewCritical": 0,
+  "results": [
+    {
+      "cardId": "a1-es",
+      "auditType": "changed_card_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Repaired study meaning is correct, but the Czech card still contains malformed „českýé“ text in the tip and important note.",
+      "findings": [
+        {
+          "field": "study.tip.text",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Pamatujte: českýé \"es\" → ich, ne německé es.",
+          "proposedCs": "Pamatujte: české „es“ → ich, ne německé es.",
+          "reason": "The phrase „českýé“ is grammatically malformed and weakens the explanatory tip.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.important[0]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Německé já není českýé já.",
+          "proposedCs": "Německé „es“ není české „já“.",
+          "reason": "The current sentence contains a malformed adjective and incorrectly refers to German „já“ rather than „es“.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-fahren",
+      "auditType": "changed_card_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "Repaired fields are correct, but the full Czech card still presents fahren with inaccurate core meanings and an incorrect object explanation.",
+      "findings": [
+        {
+          "field": "study.translation",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Řídit • Vést • Odvézt",
+          "proposedCs": "Jezdit • Vézt • Odvézt",
+          "reason": "The headline omits the core meaning „jezdit“ and uses „vést“, which is not the intended transport meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+          "proposedCs": "fahren znamená jezdit nebo řídit vozidlo a v některých větách také někoho vézt či odvézt.",
+          "reason": "The repeated „vzít“ is unnatural and omits the transport-specific meaning conveyed by fahren.",
+          "confidence": 0.97
+        },
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "fahren může znamenat vést nebo odnést.",
+          "proposedCs": "fahren může znamenat někoho vézt nebo odvézt.",
+          "reason": "„Vést“ and especially „odnést“ misrepresent fahren with a person as object.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-in",
+      "auditType": "false_positive_control",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 1,
+      "reason": "The documented foreign remnant remains an explicit Latvian accent field, so its FALSE_POSITIVE classification still holds.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[0].lv.purple[0]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "LOW",
+          "currentCs": "Berlīnē",
+          "proposedCs": "Berlíně",
+          "reason": "Berlīnē is intentional Latvian text in an explicit accent LV field, not a Czech translation defect.",
+          "confidence": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-land",
+      "auditType": "changed_card_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "The repaired „planeta“ accent is correct, but the Czech study still contains duplicate and ambiguous wording around Land.",
+      "findings": [
+        {
+          "field": "study.translation",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Země • Země",
+          "proposedCs": "Země • Venkov",
+          "reason": "The duplicate headline fails to distinguish the country/land meaning from the countryside meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.important[0]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+          "proposedCs": "Aufs Land znamená „na venkov“, nikoli „do země“.",
+          "reason": "The contrast repeats the same phrase and creates a contradictory, meaningless explanation.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sitzen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Repaired accent values are correct, but unrelated comparison translations still contain semantic errors.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.explanation.purple[0]; study.sectionAccents.explanation.purple[1]; study.sectionAccents.comparison[0].meaning.purple[0]",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "sedět; sedí; Sedět",
+          "proposedCs": "sedět; sedí; Sedět",
+          "reason": "All repaired Czech accent values correctly express sitzen and its form sedí.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[3].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Sedět / sednout si",
+          "proposedCs": "Posadit / sednout si",
+          "reason": "setzen does not mean sedět; the comparison conflicts with the important note distinguishing setzen from sitzen.",
+          "confidence": 0.98
+        },
+        {
+          "field": "study.sectionAccents.comparison[2].meaning; study.sectionAccents.comparison[3].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "LOW",
+          "currentCs": "Spát / Spát; Sedět",
+          "proposedCs": "Spát / ležet; Sednout si",
+          "reason": "Accent values duplicate or misstate the meanings of liegen and setzen.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "cardId": "a1-stehen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "The repaired comparison meaning is correct, but the card contains an unrelated mistranslation and duplicated accent content.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "sedět",
+          "proposedCs": "sedět",
+          "reason": "The repaired Czech meaning correctly translates sitzen in the stehen comparison.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.important[1]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Postavit předmět vzpřímeně je šmrnc, ne stehen.",
+          "proposedCs": "Postavit předmět vzpřímeně je stellen, ne stehen.",
+          "reason": "Šmrnc is unrelated and makes the explanation nonsensical; the Latvian meaning supports stellen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.sectionAccents.explanation.purple; study.sectionAccents.comparison[0].meaning.purple",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "LOW",
+          "currentCs": "Hlavní; Hlavní; Stát; Stát",
+          "proposedCs": "stát; stát; Stát",
+          "reason": "Accent arrays contain duplicated or nonsemantic text inconsistent with the surrounding Czech study content.",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "cardId": "a1-über",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The repaired tip accent is correct, but several existing Czech translations distort the core meanings and examples of über.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.tip.left.purple[0]",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "téma",
+          "proposedCs": "téma",
+          "reason": "The repaired accent correctly identifies the topic meaning in the tip.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.translation",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Přes • Pro",
+          "proposedCs": "Nad • O • Přes",
+          "reason": "Pro is not the relevant core meaning here; the translation omits the topic sense o and misrepresents über.",
+          "confidence": 0.98
+        },
+        {
+          "field": "study.explanation[0..3]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "nahoře; výše; asi; konec",
+          "proposedCs": "nad; výše; o; přes",
+          "reason": "The explanation uses incorrect meanings for topic and motion contexts, breaking the study meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Mluvíme o čase.",
+          "proposedCs": "Mluvíme o počasí.",
+          "reason": "The German example says Wetter, but the Czech translation says time instead of weather.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-essen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The repaired accent is correct, but the Czech study contains nonsensical explanation text and an incorrect person in an example translation.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.explanation.purple[0]",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "jíst",
+          "proposedCs": "jíst",
+          "reason": "The repaired Czech accent correctly translates essen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.explanation[4]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Často popisuje: déšť.",
+          "proposedCs": "Často popisuje: děj nebo akci.",
+          "reason": "Déšť is unrelated to essen and creates a direct contradiction with the verb explanation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Co chceš jíst",
+          "proposedCs": "Co chcete jíst?",
+          "reason": "The German subject is plural ihr, but the Czech uses singular informal chceš and omits the question mark.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.tip[0]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "LOW",
+          "currentCs": "Essen = jísti",
+          "proposedCs": "Essen = jíst",
+          "reason": "Jísti is archaic and linguistically inappropriate for this A1 study card.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-bedeuten-75",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired Czech translation “Znamenat” correctly means German “bedeuten”; no contradiction or new critical issue is present.",
+      "findings": [
+        {
+          "field": "lv",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "Znamenat",
+          "proposedCs": "Znamenat",
+          "reason": "Correct Czech translation for “bedeuten”; repair holds.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Buch-116",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired Czech translation “Kniha” correctly means German “Buch”; article and plural context introduce no critical issue.",
+      "findings": [
+        {
+          "field": "lv",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "Kniha",
+          "proposedCs": "Kniha",
+          "reason": "Correct Czech translation for “Buch”; repair holds.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Erde-164",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired Czech translation “Země” correctly means German “Erde”; the card is coherent with no new critical issue.",
+      "findings": [
+        {
+          "field": "lv",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "Země",
+          "proposedCs": "Země",
+          "reason": "Correct Czech translation for “Erde”; repair holds.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-März-396",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The repaired Czech translation “Březen” correctly means German “März”; no contradiction or new critical issue is present.",
+      "findings": [
+        {
+          "field": "lv",
+          "validationStatus": "STALE",
+          "severity": "LOW",
+          "currentCs": "Březen",
+          "proposedCs": "Březen",
+          "reason": "Correct Czech translation for “März”; repair holds.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-bitte",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "Repaired explanation is correct Czech and consistent with bitte/die Bitte. No new contradiction or critical regression found.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-bitte-study",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Repaired explanation is correct. An existing unrelated tip contains a broken Czech translation, but it was not introduced by this repair.",
+      "findings": [
+        {
+          "field": "study.tip[1]",
+          "validationStatus": "STALE",
+          "severity": "HIGH",
+          "currentCs": "Podstatné jméno s členem zemřít a velké písmeno. Konkrétní požadavek nebo požadavek.",
+          "reason": "Pre-existing machine-translated Czech is linguistically broken and reduces study clarity; unrelated to the repaired explanation.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-das",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Repaired translation is correct and fits the card. Existing terminology and comparison errors were not introduced by the repair.",
+      "findings": [
+        {
+          "field": "study.tip.text",
+          "validationStatus": "STALE",
+          "severity": "MEDIUM",
+          "currentCs": "Pamatujte: střední genitiv → das • Že → dass.",
+          "reason": "Pre-existing Czech says genitiv instead of rod, creating an incorrect grammar explanation; unrelated to the repaired translation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "STALE",
+          "severity": "MEDIUM",
+          "currentCs": "Kdo • Který • Kdo",
+          "reason": "Pre-existing comparison mistranslates welches; this was not changed by the repaired field.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-die",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Both repaired fields are correct Czech and consistent with the study content. Existing translation defects remain unrelated to the repair.",
+      "findings": [
+        {
+          "field": "study.tip.text",
+          "validationStatus": "STALE",
+          "severity": "HIGH",
+          "currentCs": "Pamatujte: ženský → zemřít.",
+          "reason": "Pre-existing machine translation replaces the article concept with the verb zemřít, materially damaging study meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "STALE",
+          "severity": "MEDIUM",
+          "currentCs": "Kotě spí.",
+          "reason": "Pre-existing Czech translates Katze as kotě rather than kočka; unrelated to the repaired explanation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "STALE",
+          "severity": "MEDIUM",
+          "currentCs": "Vysvětluje učitel.",
+          "reason": "Pre-existing Czech uses masculine učitel for feminine Lehrerin; unrelated to the repaired fields.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-heißen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Opravené studijní významy jsou správné, ale hlavní CS význam a jedna důležitá věta si odporují se Study významem.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "NEEDS_OWNER_REVIEW",
+          "severity": "HIGH",
+          "currentCs": "Být nazýván • Podlý",
+          "proposedCs": "Jmenovat se • Znamenat",
+          "reason": "„Podlý“ je chybný význam a hlavní karta odporuje opravenému překladu heißen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.important[1]",
+          "validationStatus": "NEEDS_OWNER_REVIEW",
+          "severity": "HIGH",
+          "currentCs": "Byl heißt das? často znamená „Co to znamená?“",
+          "proposedCs": "Was heißt das? často znamená „Co to znamená?“",
+          "reason": "„Byl heißt das?“ je chybná německá věta a narušuje významovou správnost Study.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-laden-study",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Opravený Study překlad je správný, ale csMain stále uvádí sloveso místo podstatného jména Laden.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "NEEDS_OWNER_REVIEW",
+          "severity": "HIGH",
+          "currentCs": "Nakupovat",
+          "proposedCs": "Obchod",
+          "reason": "„Nakupovat“ neodpovídá německému podstatnému jménu der Laden ani opravenému Study významu.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-legen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Opravené vysvětlení správně rozlišuje legen a liegen, ale důležitá poznámka obsahuje chybný český význam.",
+      "findings": [
+        {
+          "field": "study.important[1]",
+          "validationStatus": "NEEDS_OWNER_REVIEW",
+          "severity": "HIGH",
+          "currentCs": "Das Buch liegt = kniha lže.",
+          "proposedCs": "Das Buch liegt = kniha leží.",
+          "reason": "„Lže“ znamená říká nepravdu; správný překlad liegen v této větě je „leží“ nebo „nachází se“.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.tip.text",
+          "validationStatus": "NEEDS_OWNER_REVIEW",
+          "severity": "MEDIUM",
+          "currentCs": "Pamatujte: ležíte → legen • Ta věc už tam je → liegen.",
+          "proposedCs": "Pamatujte: položíte → legen • Ta věc už tam je → liegen.",
+          "reason": "„Ležíte“ označuje stav, nikoli aktivní položení; tip tak mate rozdíl mezi legen a liegen.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "cardId": "a1-schauen-study",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Opravené Study významy jsou správné, ale csMain obsahuje nesouvisející význam a odporuje celé kartě.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "NEEDS_OWNER_REVIEW",
+          "severity": "HIGH",
+          "currentCs": "Hodinky",
+          "proposedCs": "Dívat se",
+          "reason": "„Hodinky“ znamenají náramkové hodinky, nikoli schauen; jde o přímý rozpor s překladem i příklady.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sehen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "Repaired meaning is correct, but related comparison and accent data still contain Czech meaning contradictions.",
+      "findings": [
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Pohled / pohled",
+          "proposedCs": "Prohlédnout si / dívat se na",
+          "reason": "The Czech text is a noun and duplicate, so it does not explain the verb ansehen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.sectionAccents.comparison[1].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Hodinky",
+          "proposedCs": "Dívat se",
+          "reason": "The accent text means wristwatches and contradicts the repaired comparison meaning.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sich",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The repaired explanation is correct, but comparison meanings still teach incorrect Czech pronoun equivalents.",
+      "findings": [
+        {
+          "field": "study.comparison[0].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Já / sebe",
+          "proposedCs": "Sebe / sobě",
+          "reason": "sich is reflexive, not a Czech equivalent of já.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Já / já v ich",
+          "proposedCs": "Mě / sebe u ich",
+          "reason": "The current wording is ungrammatical and incorrectly labels mich as já.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Ty / já v du",
+          "proposedCs": "Tebe / sebe u du",
+          "reason": "The current wording is ungrammatical and incorrectly labels dich as ty.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sollen",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The repaired phrase is correct, but examples contradict sollen's distinction from müssen and mismatch the German person.",
+      "findings": [
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Musíte přijít",
+          "proposedCs": "Máš přijít",
+          "reason": "Du sollst is informal singular and should not be translated with formal/plural musíte.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Musím zůstat doma",
+          "proposedCs": "Mám zůstat doma",
+          "reason": "Mám preserves sollen's reported instruction and avoids contradiction with müssen.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Absolutně potřebovat",
+          "proposedCs": "Muset / být nucen",
+          "reason": "The current Czech phrase is unnatural and does not define müssen correctly.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-fernsehen-study",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "The repaired separable-verb statement is correct, but the explanation still conflates the noun Fernsehen with the action of watching.",
+      "findings": [
+        {
+          "field": "study.explanation[1]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "HIGH",
+          "currentCs": "Das Fernsehen v podstatě znamená: dívat se na vysílání.",
+          "proposedCs": "Das Fernsehen označuje televizi jako médium nebo televizní vysílání.",
+          "reason": "The current sentence assigns a verbal action meaning to the noun and conflicts with the surrounding noun explanation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "CONFIRMED_REAL",
+          "severity": "MEDIUM",
+          "currentCs": "Často popisuje: akce.",
+          "proposedCs": "Sloveso fernsehen popisuje činnost sledování televize.",
+          "reason": "This fragment is malformed and ambiguously describes the noun rather than the verb.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Baum-74",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "Documented control remains valid: Czech “Strom” correctly translates German “Baum”; no repair introduced contradictions or critical issues.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "LOW",
+          "currentCs": "Strom",
+          "reason": "“Strom” is correct Czech for German “Baum”; the apparent foreign remnant is intentional and documented.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "allFindings": [
+    {
+      "cardId": "a1-es",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Pamatujte: českýé \"es\" → ich, ne německé es.",
+      "proposedCs": "Pamatujte: české „es“ → ich, ne německé es.",
+      "reason": "The phrase „českýé“ is grammatically malformed and weakens the explanatory tip.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-es",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Německé já není českýé já.",
+      "proposedCs": "Německé „es“ není české „já“.",
+      "reason": "The current sentence contains a malformed adjective and incorrectly refers to German „já“ rather than „es“.",
+      "confidence": 0.98
+    },
+    {
+      "cardId": "a1-fahren",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Řídit • Vést • Odvézt",
+      "proposedCs": "Jezdit • Vézt • Odvézt",
+      "reason": "The headline omits the core meaning „jezdit“ and uses „vést“, which is not the intended transport meaning.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-fahren",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+      "proposedCs": "fahren znamená jezdit nebo řídit vozidlo a v některých větách také někoho vézt či odvézt.",
+      "reason": "The repeated „vzít“ is unnatural and omits the transport-specific meaning conveyed by fahren.",
+      "confidence": 0.97
+    },
+    {
+      "cardId": "a1-fahren",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "fahren může znamenat vést nebo odnést.",
+      "proposedCs": "fahren může znamenat někoho vézt nebo odvézt.",
+      "reason": "„Vést“ and especially „odnést“ misrepresent fahren with a person as object.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-in",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "currentCs": "Berlīnē",
+      "proposedCs": "Berlíně",
+      "reason": "Berlīnē is intentional Latvian text in an explicit accent LV field, not a Czech translation defect.",
+      "confidence": 1
+    },
+    {
+      "cardId": "a1-land",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Země • Země",
+      "proposedCs": "Země • Venkov",
+      "reason": "The duplicate headline fails to distinguish the country/land meaning from the countryside meaning.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-land",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+      "proposedCs": "Aufs Land znamená „na venkov“, nikoli „do země“.",
+      "reason": "The contrast repeats the same phrase and creates a contradictory, meaningless explanation.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.sectionAccents.explanation.purple[0]; study.sectionAccents.explanation.purple[1]; study.sectionAccents.comparison[0].meaning.purple[0]",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "currentCs": "sedět; sedí; Sedět",
+      "proposedCs": "sedět; sedí; Sedět",
+      "reason": "All repaired Czech accent values correctly express sitzen and its form sedí.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Sedět / sednout si",
+      "proposedCs": "Posadit / sednout si",
+      "reason": "setzen does not mean sedět; the comparison conflicts with the important note distinguishing setzen from sitzen.",
+      "confidence": 0.98
+    },
+    {
+      "cardId": "a1-sitzen",
+      "field": "study.sectionAccents.comparison[2].meaning; study.sectionAccents.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "currentCs": "Spát / Spát; Sedět",
+      "proposedCs": "Spát / ležet; Sednout si",
+      "reason": "Accent values duplicate or misstate the meanings of liegen and setzen.",
+      "confidence": 0.97
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "currentCs": "sedět",
+      "proposedCs": "sedět",
+      "reason": "The repaired Czech meaning correctly translates sitzen in the stehen comparison.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.important[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Postavit předmět vzpřímeně je šmrnc, ne stehen.",
+      "proposedCs": "Postavit předmět vzpřímeně je stellen, ne stehen.",
+      "reason": "Šmrnc is unrelated and makes the explanation nonsensical; the Latvian meaning supports stellen.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-stehen",
+      "field": "study.sectionAccents.explanation.purple; study.sectionAccents.comparison[0].meaning.purple",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "currentCs": "Hlavní; Hlavní; Stát; Stát",
+      "proposedCs": "stát; stát; Stát",
+      "reason": "Accent arrays contain duplicated or nonsemantic text inconsistent with the surrounding Czech study content.",
+      "confidence": 0.96
+    },
+    {
+      "cardId": "a1-über",
+      "field": "study.sectionAccents.tip.left.purple[0]",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "currentCs": "téma",
+      "proposedCs": "téma",
+      "reason": "The repaired accent correctly identifies the topic meaning in the tip.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-über",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Přes • Pro",
+      "proposedCs": "Nad • O • Přes",
+      "reason": "Pro is not the relevant core meaning here; the translation omits the topic sense o and misrepresents über.",
+      "confidence": 0.98
+    },
+    {
+      "cardId": "a1-über",
+      "field": "study.explanation[0..3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "nahoře; výše; asi; konec",
+      "proposedCs": "nad; výše; o; přes",
+      "reason": "The explanation uses incorrect meanings for topic and motion contexts, breaking the study meaning.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-über",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Mluvíme o čase.",
+      "proposedCs": "Mluvíme o počasí.",
+      "reason": "The German example says Wetter, but the Czech translation says time instead of weather.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-essen",
+      "field": "study.sectionAccents.explanation.purple[0]",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "currentCs": "jíst",
+      "proposedCs": "jíst",
+      "reason": "The repaired Czech accent correctly translates essen.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-essen",
+      "field": "study.explanation[4]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Často popisuje: déšť.",
+      "proposedCs": "Často popisuje: děj nebo akci.",
+      "reason": "Déšť is unrelated to essen and creates a direct contradiction with the verb explanation.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-essen",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Co chceš jíst",
+      "proposedCs": "Co chcete jíst?",
+      "reason": "The German subject is plural ihr, but the Czech uses singular informal chceš and omits the question mark.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-essen",
+      "field": "study.tip[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "currentCs": "Essen = jísti",
+      "proposedCs": "Essen = jíst",
+      "reason": "Jísti is archaic and linguistically inappropriate for this A1 study card.",
+      "confidence": 0.98
+    },
+    {
+      "cardId": "a1-bedeuten-75",
+      "field": "lv",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "currentCs": "Znamenat",
+      "proposedCs": "Znamenat",
+      "reason": "Correct Czech translation for “bedeuten”; repair holds.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-Buch-116",
+      "field": "lv",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "currentCs": "Kniha",
+      "proposedCs": "Kniha",
+      "reason": "Correct Czech translation for “Buch”; repair holds.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-Erde-164",
+      "field": "lv",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "currentCs": "Země",
+      "proposedCs": "Země",
+      "reason": "Correct Czech translation for “Erde”; repair holds.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-März-396",
+      "field": "lv",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "currentCs": "Březen",
+      "proposedCs": "Březen",
+      "reason": "Correct Czech translation for “März”; repair holds.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-bitte-study",
+      "field": "study.tip[1]",
+      "validationStatus": "STALE",
+      "severity": "HIGH",
+      "currentCs": "Podstatné jméno s členem zemřít a velké písmeno. Konkrétní požadavek nebo požadavek.",
+      "reason": "Pre-existing machine-translated Czech is linguistically broken and reduces study clarity; unrelated to the repaired explanation.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-das",
+      "field": "study.tip.text",
+      "validationStatus": "STALE",
+      "severity": "MEDIUM",
+      "currentCs": "Pamatujte: střední genitiv → das • Že → dass.",
+      "reason": "Pre-existing Czech says genitiv instead of rod, creating an incorrect grammar explanation; unrelated to the repaired translation.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-das",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "STALE",
+      "severity": "MEDIUM",
+      "currentCs": "Kdo • Který • Kdo",
+      "reason": "Pre-existing comparison mistranslates welches; this was not changed by the repaired field.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-die",
+      "field": "study.tip.text",
+      "validationStatus": "STALE",
+      "severity": "HIGH",
+      "currentCs": "Pamatujte: ženský → zemřít.",
+      "reason": "Pre-existing machine translation replaces the article concept with the verb zemřít, materially damaging study meaning.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-die",
+      "field": "study.examples[1].lv",
+      "validationStatus": "STALE",
+      "severity": "MEDIUM",
+      "currentCs": "Kotě spí.",
+      "reason": "Pre-existing Czech translates Katze as kotě rather than kočka; unrelated to the repaired explanation.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-die",
+      "field": "study.examples[2].lv",
+      "validationStatus": "STALE",
+      "severity": "MEDIUM",
+      "currentCs": "Vysvětluje učitel.",
+      "reason": "Pre-existing Czech uses masculine učitel for feminine Lehrerin; unrelated to the repaired fields.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-heißen",
+      "field": "csMain",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "currentCs": "Být nazýván • Podlý",
+      "proposedCs": "Jmenovat se • Znamenat",
+      "reason": "„Podlý“ je chybný význam a hlavní karta odporuje opravenému překladu heißen.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-heißen",
+      "field": "study.important[1]",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "currentCs": "Byl heißt das? často znamená „Co to znamená?“",
+      "proposedCs": "Was heißt das? často znamená „Co to znamená?“",
+      "reason": "„Byl heißt das?“ je chybná německá věta a narušuje významovou správnost Study.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-laden-study",
+      "field": "csMain",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "currentCs": "Nakupovat",
+      "proposedCs": "Obchod",
+      "reason": "„Nakupovat“ neodpovídá německému podstatnému jménu der Laden ani opravenému Study významu.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-legen",
+      "field": "study.important[1]",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "currentCs": "Das Buch liegt = kniha lže.",
+      "proposedCs": "Das Buch liegt = kniha leží.",
+      "reason": "„Lže“ znamená říká nepravdu; správný překlad liegen v této větě je „leží“ nebo „nachází se“.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-legen",
+      "field": "study.tip.text",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "MEDIUM",
+      "currentCs": "Pamatujte: ležíte → legen • Ta věc už tam je → liegen.",
+      "proposedCs": "Pamatujte: položíte → legen • Ta věc už tam je → liegen.",
+      "reason": "„Ležíte“ označuje stav, nikoli aktivní položení; tip tak mate rozdíl mezi legen a liegen.",
+      "confidence": 0.97
+    },
+    {
+      "cardId": "a1-schauen-study",
+      "field": "csMain",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "HIGH",
+      "currentCs": "Hodinky",
+      "proposedCs": "Dívat se",
+      "reason": "„Hodinky“ znamenají náramkové hodinky, nikoli schauen; jde o přímý rozpor s překladem i příklady.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sehen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Pohled / pohled",
+      "proposedCs": "Prohlédnout si / dívat se na",
+      "reason": "The Czech text is a noun and duplicate, so it does not explain the verb ansehen.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sehen",
+      "field": "study.sectionAccents.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Hodinky",
+      "proposedCs": "Dívat se",
+      "reason": "The accent text means wristwatches and contradicts the repaired comparison meaning.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sich",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Já / sebe",
+      "proposedCs": "Sebe / sobě",
+      "reason": "sich is reflexive, not a Czech equivalent of já.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sich",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Já / já v ich",
+      "proposedCs": "Mě / sebe u ich",
+      "reason": "The current wording is ungrammatical and incorrectly labels mich as já.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sich",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Ty / já v du",
+      "proposedCs": "Tebe / sebe u du",
+      "reason": "The current wording is ungrammatical and incorrectly labels dich as ty.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sollen",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Musíte přijít",
+      "proposedCs": "Máš přijít",
+      "reason": "Du sollst is informal singular and should not be translated with formal/plural musíte.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sollen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Musím zůstat doma",
+      "proposedCs": "Mám zůstat doma",
+      "reason": "Mám preserves sollen's reported instruction and avoids contradiction with müssen.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-sollen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Absolutně potřebovat",
+      "proposedCs": "Muset / být nucen",
+      "reason": "The current Czech phrase is unnatural and does not define müssen correctly.",
+      "confidence": 0.98
+    },
+    {
+      "cardId": "a1-fernsehen-study",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "currentCs": "Das Fernsehen v podstatě znamená: dívat se na vysílání.",
+      "proposedCs": "Das Fernsehen označuje televizi jako médium nebo televizní vysílání.",
+      "reason": "The current sentence assigns a verbal action meaning to the noun and conflicts with the surrounding noun explanation.",
+      "confidence": 0.99
+    },
+    {
+      "cardId": "a1-fernsehen-study",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "currentCs": "Často popisuje: akce.",
+      "proposedCs": "Sloveso fernsehen popisuje činnost sledování televize.",
+      "reason": "This fragment is malformed and ambiguously describes the noun rather than the verb.",
+      "confidence": 0.98
+    },
+    {
+      "cardId": "a1-Baum-74",
+      "field": "csText",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "currentCs": "Strom",
+      "reason": "“Strom” is correct Czech for German “Baum”; the apparent foreign remnant is intentional and documented.",
+      "confidence": 0.99
+    }
+  ],
+  "stats": {
+    "requestCount": 7,
+    "totalTokens": 59278,
+    "model": "gpt-5.6-luna"
+  },
+  "auditedChangedCards": 24,
+  "fpControlsVerified": 2,
+  "missingCards": 0,
+  "closure": "CS–DE A1 CRITICAL = CLOSED",
+  "productionChanges": 0
+}

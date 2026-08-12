@@ -1,0 +1,141 @@
+{
+  "batch": "batch-016",
+  "cardIds": [
+    "a1-siebzehnte-554",
+    "a1-Sommer-565",
+    "a1-Spiel-571",
+    "a1-Stuhl-582",
+    "a1-Stunde-583"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-113",
+      "cardId": "a1-siebzehnte-554",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "The Czech form is genitive/accusative; the standalone ordinal should use the nominative form.",
+      "auditCurrentCs": "Sedmnáctého",
+      "auditProposedCs": "Sedmnáctý",
+      "auditDe": "siebzehnte",
+      "auditLvSource": "septiņpadsmitais",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Sedmnáctého",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-114",
+      "cardId": "a1-Sommer-565",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Letní means 'summer' as an adjective; German Sommer is the noun 'summer'.",
+      "auditCurrentCs": "Letní",
+      "auditProposedCs": "Léto",
+      "auditDe": "Sommer",
+      "auditLvSource": "vasara",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Letní",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-115",
+      "cardId": "a1-Spiel-571",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Hru is the accusative form; the standalone noun should use the nominative form hra.",
+      "auditCurrentCs": "Hru",
+      "auditProposedCs": "Hra",
+      "auditDe": "Spiel",
+      "auditLvSource": "spēle",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Hru",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-116",
+      "cardId": "a1-Stuhl-582",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Židli is the accusative form; the standalone noun should use the nominative form židle.",
+      "auditCurrentCs": "Židli",
+      "auditProposedCs": "Židle",
+      "auditDe": "Stuhl",
+      "auditLvSource": "krēsls",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Židli",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-117",
+      "cardId": "a1-Stunde-583",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Hodinu is the accusative form; the standalone noun should use the nominative form hodina.",
+      "auditCurrentCs": "Hodinu",
+      "auditProposedCs": "Hodina",
+      "auditDe": "Stunde",
+      "auditLvSource": "stunda",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Hodinu",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-113",
+      "cardId": "a1-siebzehnte-554",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "The standalone Czech ordinal is in an oblique form; nominative masculine sedmnáctý is the appropriate replacement.",
+      "currentCs": "Sedmnáctého",
+      "proposedCs": "Sedmnáctý"
+    },
+    {
+      "findingId": "HIGH-114",
+      "cardId": "a1-Sommer-565",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Letní is the adjective 'summer' or 'summery'; German Sommer is the noun 'summer', correctly translated as Léto.",
+      "currentCs": "Letní",
+      "proposedCs": "Léto"
+    },
+    {
+      "findingId": "HIGH-115",
+      "cardId": "a1-Spiel-571",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hru is the accusative form of the Czech noun; the standalone nominative form is Hra.",
+      "currentCs": "Hru",
+      "proposedCs": "Hra"
+    },
+    {
+      "findingId": "HIGH-116",
+      "cardId": "a1-Stuhl-582",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Židli is an oblique form; the standalone nominative Czech noun corresponding to Stuhl is Židle.",
+      "currentCs": "Židli",
+      "proposedCs": "Židle"
+    },
+    {
+      "findingId": "HIGH-117",
+      "cardId": "a1-Stunde-583",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Hodinu is the accusative form; the standalone nominative Czech noun corresponding to Stunde is Hodina.",
+      "currentCs": "Hodinu",
+      "proposedCs": "Hodina"
+    }
+  ],
+  "completedAt": "2026-08-11T17:40:42.590Z"
+}

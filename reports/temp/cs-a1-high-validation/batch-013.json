@@ -1,0 +1,141 @@
+{
+  "batch": "batch-013",
+  "cardIds": [
+    "a1-Lehrerin-365",
+    "a1-links-380",
+    "a1-lustig-385",
+    "a1-Minute-407",
+    "a1-Mittag-410"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-098",
+      "cardId": "a1-Lehrerin-365",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Německé „Lehrerin“ označuje ženu; „učitel“ je mužský rod.",
+      "auditCurrentCs": "Učitel",
+      "auditProposedCs": "Učitelka",
+      "auditDe": "Lehrerin",
+      "auditLvSource": "skolotāja",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Učitel",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-099",
+      "cardId": "a1-links-380",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Druhý význam je přídavné jméno „levý“, nikoli znovu příslovce „vlevo“.",
+      "auditCurrentCs": "Vlevo • Vlevo",
+      "auditProposedCs": "Vlevo • Levý",
+      "auditDe": "links",
+      "auditLvSource": "pa kreisi • kreisais",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Vlevo • Vlevo",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-100",
+      "cardId": "a1-lustig-385",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Lustig“ je přídavné jméno; „zábava“ je podstatné jméno a neodpovídá slovnímu druhu.",
+      "auditCurrentCs": "Zábava",
+      "auditProposedCs": "Zábavný",
+      "auditDe": "lustig",
+      "auditLvSource": "jautrs",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Zábava",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-101",
+      "cardId": "a1-Minute-407",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Minutu“ je 4. pád; jako základní podoba podstatného jména má být 1. pád „minuta“.",
+      "auditCurrentCs": "Minutu",
+      "auditProposedCs": "Minuta",
+      "auditDe": "Minute",
+      "auditLvSource": "minūte",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Minutu",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-102",
+      "cardId": "a1-Mittag-410",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Mittag“ znamená poledne; oběd odpovídá německému „Mittagessen“.",
+      "auditCurrentCs": "Oběd",
+      "auditProposedCs": "Poledne",
+      "auditDe": "Mittag",
+      "auditLvSource": "pusdiena",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Oběd",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-098",
+      "cardId": "a1-Lehrerin-365",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Lehrerin“ označuje ženu, ale české „učitel“ je mužský rod. Správný překlad je „učitelka“.",
+      "currentCs": "Učitel",
+      "proposedCs": "Učitelka"
+    },
+    {
+      "findingId": "HIGH-099",
+      "cardId": "a1-links-380",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Druhý význam německého „links“ je přídavné jméno „levý“, nikoli opakované příslovce „vlevo“.",
+      "currentCs": "Vlevo • Vlevo",
+      "proposedCs": "Vlevo • Levý"
+    },
+    {
+      "findingId": "HIGH-100",
+      "cardId": "a1-lustig-385",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Lustig“ je přídavné jméno, zatímco „zábava“ je podstatné jméno. Správný překlad je „zábavný“.",
+      "currentCs": "Zábava",
+      "proposedCs": "Zábavný"
+    },
+    {
+      "findingId": "HIGH-101",
+      "cardId": "a1-Minute-407",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Minutu“ je 4. pád; heslový tvar německého „Minute“ má být české „minuta“.",
+      "currentCs": "Minutu",
+      "proposedCs": "Minuta"
+    },
+    {
+      "findingId": "HIGH-102",
+      "cardId": "a1-Mittag-410",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Německé „Mittag“ znamená „poledne“. „Oběd“ odpovídá výrazu „Mittagessen“.",
+      "currentCs": "Oběd",
+      "proposedCs": "Poledne"
+    }
+  ],
+  "completedAt": "2026-08-11T17:40:12.909Z"
+}

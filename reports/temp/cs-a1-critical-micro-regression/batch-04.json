@@ -1,0 +1,1980 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-bitte",
+      "index": 93,
+      "de": "bitte",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.explanation",
+          "ownerValue": [
+            "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+            "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+            "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+            "Množné číslo je die Bitten."
+          ]
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-bitte",
+        "index": 93,
+        "de": "bitte",
+        "layout": "standardStudy",
+        "csMain": "Prosím",
+        "studyTranslation": "Prosím",
+        "lvSourceMain": "lūdzu",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "lūdzu",
+            "csText": "Prosím",
+            "de": "bitte"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Vienu tasi kafijas, lūdzu.",
+            "csText": "Prosím!",
+            "de": "bitte"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Lūdzu, nāc iekšā.",
+            "csText": "Prosím!",
+            "de": "bitte"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Lūdzu!",
+            "csText": "Jeden šálek kávy, prosím.",
+            "de": "bitte"
+          }
+        ],
+        "study": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "Prosím",
+          "explanation": [
+            "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+            "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+            "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+            "Množné číslo je die Bitten."
+          ],
+          "examples": [
+            {
+              "de": "Bitte schön!",
+              "lv": "Prosím!"
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Prosím!"
+            },
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Jeden šálek kávy, prosím."
+            },
+            {
+              "de": "Kann ich bitte fragen?",
+              "lv": "Mohu se prosím zeptat"
+            },
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mám jednu prosbu."
+            },
+            {
+              "de": "Die Bitte ist wichtig.",
+              "lv": "Žádost je důležitá."
+            }
+          ],
+          "tip": [
+            "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
+            "Zdvořilost malými písmeny. Byl jsem zdvořilý - prosím."
+          ],
+          "important": [
+            "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+            "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+            "Množné číslo: die Bitten (žádosti).",
+            "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jeden"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mohu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Little"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "bitte"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "lūdzu",
+          "explanation": [
+            "Galvenā doma: bitte ar mazo sākumburtu ir pieklājības vārds ar nozīmi lūdzu.",
+            "To lieto lūgumos, pasūtījumos un pieklājīgās atbildēs.",
+            "Lietvārds die Bitte ar lielo sākumburtu nozīmē lūgums."
+          ],
+          "examples": [
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Vienu tasi kafijas, lūdzu."
+            },
+            {
+              "de": "Komm bitte herein.",
+              "lv": "Lūdzu, nāc iekšā."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Lūdzu!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bitte",
+              "meaning": "lūdzu",
+              "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+            },
+            {
+              "word": "die Bitte",
+              "meaning": "lūgums",
+              "example": "Ich habe eine Bitte. – Man ir lūgums."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: bitte ar mazo burtu nozīmē lūdzu; die Bitte ar lielo burtu nozīmē lūgums."
+          },
+          "important": [
+            "bitte ir pieklājības vārds.",
+            "die Bitte ir lietvārds ar artikulu die.",
+            "Nepareizi: Die Bitte schön! Pareizi: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "lūdzu"
+              ],
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Lūdzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Lūdzu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "lūdzu"
+                ],
+                "green": [
+                  "die Bitte",
+                  "lūgums"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "pieklājības vārds"
+                ]
+              },
+              {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "lietvārds"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-bitte",
+        "layout": "standardStudy",
+        "translation": "Prosím",
+        "explanation": [
+          "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+          "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+          "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+          "Množné číslo je die Bitten."
+        ],
+        "examples": [
+          {
+            "de": "Bitte schön!",
+            "lv": "Prosím!"
+          },
+          {
+            "de": "Bitte schön!",
+            "lv": "Prosím!"
+          },
+          {
+            "de": "Eine Tasse Kaffee, bitte.",
+            "lv": "Jeden šálek kávy, prosím."
+          },
+          {
+            "de": "Kann ich bitte fragen?",
+            "lv": "Mohu se prosím zeptat"
+          },
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Mám jednu prosbu."
+          },
+          {
+            "de": "Die Bitte ist wichtig.",
+            "lv": "Žádost je důležitá."
+          }
+        ],
+        "tip": [
+          "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
+          "Zdvořilost malými písmeny. Byl jsem zdvořilý - prosím."
+        ],
+        "important": [
+          "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+          "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+          "Množné číslo: die Bitten (žádosti).",
+          "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "bitte"
+            ],
+            "purple": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jeden"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mohu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Little"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "bitte"
+              ]
+            }
+          ]
+        }
+      },
+      "csMain": "Prosím"
+    },
+    {
+      "cardId": "a1-bitte-study",
+      "index": 94,
+      "de": "Bitte",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.explanation",
+          "ownerValue": [
+            "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+            "Píše se s velkým písmenem.",
+            "Množné číslo je die Bitten.",
+            "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+          ]
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-bitte-study",
+        "index": 94,
+        "de": "Bitte",
+        "layout": "standardStudy",
+        "csMain": "Žádost",
+        "studyTranslation": "Žádost",
+        "lvSourceMain": "lūgums",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "lūgums",
+            "csText": "Žádost",
+            "de": "Bitte"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Man ir lūgums.",
+            "csText": "Mám jednu prosbu.",
+            "de": "Bitte"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Viņš izpilda manu lūgumu.",
+            "csText": "Prosím!",
+            "de": "Bitte"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Viņai ir divi lūgumi.",
+            "csText": "Jeden šálek kávy, prosím.",
+            "de": "Bitte"
+          }
+        ],
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "Žádost",
+          "explanation": [
+            "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+            "Píše se s velkým písmenem.",
+            "Množné číslo je die Bitten.",
+            "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mám jednu prosbu."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Prosím!"
+            },
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Jeden šálek kávy, prosím."
+            },
+            {
+              "de": "Kann ich bitte fragen?",
+              "lv": "Mohu se prosím zeptat"
+            },
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mám jednu prosbu."
+            },
+            {
+              "de": "Die Bitte ist wichtig.",
+              "lv": "Žádost je důležitá."
+            }
+          ],
+          "tip": [
+            "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
+            "Podstatné jméno s členem zemřít a velké písmeno. Konkrétní požadavek nebo požadavek."
+          ],
+          "important": [
+            "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+            "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+            "Množné číslo: die Bitten (žádosti).",
+            "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "yellow": [
+                "Bitte",
+                "Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "die Bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Žádost"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Little"
+                ]
+              }
+            ],
+            "important": [
+              {}
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "lūgums",
+          "explanation": [
+            "Galvenā doma: die Bitte ir lietvārds ar nozīmi lūgums.",
+            "Vārdu raksta ar lielo sākumburtu un lieto ar artikulu die.",
+            "Daudzskaitlis ir die Bitten.",
+            "Pieklājības vārds bitte ar mazo sākumburtu nozīmē lūdzu."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Man ir lūgums."
+            },
+            {
+              "de": "Er erfüllt meine Bitte.",
+              "lv": "Viņš izpilda manu lūgumu."
+            },
+            {
+              "de": "Sie hat zwei Bitten.",
+              "lv": "Viņai ir divi lūgumi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Bitte",
+              "meaning": "lūgums",
+              "example": "Ich habe eine Bitte. – Man ir lūgums."
+            },
+            {
+              "word": "bitte",
+              "meaning": "lūdzu",
+              "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: die Bitte ir lietvārds, bet bitte ir pieklājības vārds."
+          },
+          "important": [
+            "Artikuls: die Bitte.",
+            "Daudzskaitlis: die Bitten.",
+            "Lietvārdu raksta ar lielo sākumburtu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "die Bitte",
+                "die Bitten"
+              ],
+              "purple": [
+                "lūgums"
+              ],
+              "blue": [
+                "bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgumu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgumi"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "lūgums"
+                ],
+                "blue": [
+                  "bitte",
+                  "lūdzu"
+                ]
+              }
+            },
+            "important": [
+              {
+                "green": [
+                  "die Bitte",
+                  "die Bitten"
+                ]
+              },
+              {
+                "purple": [
+                  "lietvārds",
+                  "lielais sākumburts"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-bitte-study",
+        "layout": "standardStudy",
+        "translation": "Žádost",
+        "explanation": [
+          "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+          "Píše se s velkým písmenem.",
+          "Množné číslo je die Bitten.",
+          "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+        ],
+        "examples": [
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Mám jednu prosbu."
+          },
+          {
+            "de": "Bitte schön!",
+            "lv": "Prosím!"
+          },
+          {
+            "de": "Eine Tasse Kaffee, bitte.",
+            "lv": "Jeden šálek kávy, prosím."
+          },
+          {
+            "de": "Kann ich bitte fragen?",
+            "lv": "Mohu se prosím zeptat"
+          },
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Mám jednu prosbu."
+          },
+          {
+            "de": "Die Bitte ist wichtig.",
+            "lv": "Žádost je důležitá."
+          }
+        ],
+        "tip": [
+          "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
+          "Podstatné jméno s členem zemřít a velké písmeno. Konkrétní požadavek nebo požadavek."
+        ],
+        "important": [
+          "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+          "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+          "Množné číslo: die Bitten (žádosti).",
+          "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "die Bitte",
+              "bitte"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "yellow": [
+              "Bitte",
+              "Bitte"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "die Bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Žádost"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Little"
+              ]
+            }
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "csMain": "Žádost"
+    },
+    {
+      "cardId": "a1-das",
+      "index": 129,
+      "de": "das",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.translation",
+          "ownerValue": "Určitý člen středního rodu"
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-das",
+        "index": 129,
+        "de": "das",
+        "layout": "standardStudy",
+        "csMain": "Neuter určitý člen",
+        "studyTranslation": "Určitý člen středního rodu",
+        "lvSourceMain": "vidus dzimtes noteiktais artikuls",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "vidus dzimtes noteiktais artikuls",
+            "csText": "Určitý člen středního rodu",
+            "de": "das"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto pie vidus dzimtes lietvārdiem. Dažos teikumos “das” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+            "csText": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+            "de": "das"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "tas ir mans auto.",
+            "csText": "Je to moje auto",
+            "de": "das"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "tas ir labi.",
+            "csText": "To je dobře.",
+            "de": "das"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "grāmata, kuru es lasu, ir interesanta.",
+            "csText": "Kniha, kterou čtu, je zajímavá.",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "das",
+            "csText": "das",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "tas (artikuls / vietniekvārds)",
+            "csText": "To (článek / zájmeno)",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "dies",
+            "csText": "dies",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "šis",
+            "csText": "Tenhle",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "welches",
+            "csText": "welches",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "kurš • kura • kuru",
+            "csText": "Kdo • Který • Kdo",
+            "de": "das"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: vidus dzimte → das; ka → dass.",
+            "csText": "Pamatujte: střední genitiv → das • Že → dass.",
+            "de": "das"
+          }
+        ],
+        "study": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "Určitý člen středního rodu",
+          "explanation": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "Je to moje auto"
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "To je dobře."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "Kniha, kterou čtu, je zajímavá."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "To (článek / zájmeno)",
+              "example": "Das ist mein Auto. – Je to moje auto."
+            },
+            {
+              "word": "dies",
+              "meaning": "Tenhle",
+              "example": "Dies ist mein Auto. – Tohle je moje auto."
+            },
+            {
+              "word": "welches",
+              "meaning": "Kdo • Který • Kdo",
+              "example": "Das ist das Buch, welches ich lese. – Je to kniha, kterou čtu."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: střední genitiv → das • Že → dass."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Das"
+                ]
+              },
+              {
+                "blue": [
+                  "Das"
+                ]
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ],
+                  "yellow": [
+                    "das"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dies"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Dies"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "welches"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das",
+                    "das"
+                  ],
+                  "yellow": [
+                    "welches"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "dass"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "úrovni"
+                ]
+              },
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "Das",
+                  "Das"
+                ],
+                "red": [
+                  "dass"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Na úrovni A1 je das nejprve studován jako článek středního rodu.",
+            "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená 'to'."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "vidus dzimtes noteiktais artikuls",
+          "explanation": "Lieto pie vidus dzimtes lietvārdiem. Dažos teikumos “das” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "tas ir mans auto."
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "tas ir labi."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "grāmata, kuru es lasu, ir interesanta."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "tas (artikuls / vietniekvārds)",
+              "example": "Das ist mein Auto. – Tas ir mans auto."
+            },
+            {
+              "word": "dies",
+              "meaning": "šis",
+              "example": "Dies ist mein Auto. – Šis ir mans auto."
+            },
+            {
+              "word": "welches",
+              "meaning": "kurš • kura • kuru",
+              "example": "Das ist das Buch, welches ich lese. – Tā ir grāmata, kuru es lasu."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: vidus dzimte → das; ka → dass."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Das"
+                ]
+              },
+              {
+                "blue": [
+                  "Das"
+                ]
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ],
+                  "yellow": [
+                    "das"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dies"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Dies"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "welches"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das",
+                    "das"
+                  ],
+                  "yellow": [
+                    "welches"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "vidus dzimte"
+                ],
+                "red": [
+                  "dass"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "vidus dzimtes artikulu"
+                ]
+              },
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "artikuls",
+                  "vietniekvārds"
+                ],
+                "red": [
+                  "dass"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
+            "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-das",
+        "layout": "standardStudy",
+        "translation": "Určitý člen středního rodu",
+        "explanation": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+        "examples": [
+          {
+            "de": "Das ist mein Auto.",
+            "lv": "Je to moje auto"
+          },
+          {
+            "de": "Das ist gut.",
+            "lv": "To je dobře."
+          },
+          {
+            "de": "Das Buch, das ich lese, ist interessant.",
+            "lv": "Kniha, kterou čtu, je zajímavá."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "das",
+            "meaning": "To (článek / zájmeno)",
+            "example": "Das ist mein Auto. – Je to moje auto."
+          },
+          {
+            "word": "dies",
+            "meaning": "Tenhle",
+            "example": "Dies ist mein Auto. – Tohle je moje auto."
+          },
+          {
+            "word": "welches",
+            "meaning": "Kdo • Který • Kdo",
+            "example": "Das ist das Buch, welches ich lese. – Je to kniha, kterou čtu."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: střední genitiv → das • Že → dass."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "Das"
+              ]
+            },
+            {
+              "blue": [
+                "Das"
+              ]
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ],
+                "yellow": [
+                  "das"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "das"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Das"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "dies"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Dies"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "welches"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Das",
+                  "das"
+                ],
+                "yellow": [
+                  "welches"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "das"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "dass"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "das"
+              ],
+              "purple": [
+                "úrovni"
+              ]
+            },
+            {
+              "blue": [
+                "das"
+              ],
+              "purple": [
+                "Das",
+                "Das"
+              ],
+              "red": [
+                "dass"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Na úrovni A1 je das nejprve studován jako článek středního rodu.",
+          "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená 'to'."
+        ]
+      },
+      "csMain": "Neuter určitý člen"
+    },
+    {
+      "cardId": "a1-die",
+      "index": 137,
+      "de": "die",
+      "auditType": "changed_card_regression",
+      "repairedFields": [
+        {
+          "field": "study.explanation",
+          "ownerValue": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno."
+        },
+        {
+          "field": "study.important[1]",
+          "ownerValue": "V množném čísle se die používá pro všechny rody."
+        }
+      ],
+      "falsePositiveControl": null,
+      "fullCard": {
+        "cardId": "a1-die",
+        "index": 137,
+        "de": "die",
+        "layout": "standardStudy",
+        "csMain": "Ženský určitý člen",
+        "studyTranslation": "Ženský určitý člen",
+        "lvSourceMain": "sieviešu dzimtes noteiktais artikuls",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "sieviešu dzimtes noteiktais artikuls",
+            "csText": "Ženský určitý člen",
+            "de": "die"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto pie sieviešu dzimtes lietvārdiem. Dažos teikumos “die” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+            "csText": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+            "de": "die"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "sieviete ir šeit.",
+            "csText": "Žena je tady.",
+            "de": "die"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "kaķene guļ.",
+            "csText": "Kotě spí.",
+            "de": "die"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "skolotāja skaidro.",
+            "csText": "Vysvětluje učitel.",
+            "de": "die"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: sieviešu dzimte → die.",
+            "csText": "Pamatujte: ženský → zemřít.",
+            "de": "die"
+          }
+        ],
+        "study": {
+          "id": "a1-die",
+          "layout": "standardStudy",
+          "translation": "Ženský určitý člen",
+          "explanation": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+          "examples": [
+            {
+              "de": "Die Frau ist hier.",
+              "lv": "Žena je tady."
+            },
+            {
+              "de": "Die Katze schläft.",
+              "lv": "Kotě spí."
+            },
+            {
+              "de": "Die Lehrerin erklärt.",
+              "lv": "Vysvětluje učitel."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: ženský → zemřít."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Die"
+                ]
+              },
+              {
+                "blue": [
+                  "Die"
+                ]
+              },
+              {
+                "blue": [
+                  "Die"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "úrovni"
+                ],
+                "purple": [
+                  "úrovni"
+                ]
+              },
+              {
+                "blue": [
+                  "Množné"
+                ],
+                "green": [
+                  "Množné"
+                ],
+                "purple": [
+                  "Množné"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Na úrovni A1 je kostka nejprve studována jako ženský článek.",
+            "V množném čísle se die používá pro všechny rody."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-die",
+          "layout": "standardStudy",
+          "translation": "sieviešu dzimtes noteiktais artikuls",
+          "explanation": "Lieto pie sieviešu dzimtes lietvārdiem. Dažos teikumos “die” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+          "examples": [
+            {
+              "de": "Die Frau ist hier.",
+              "lv": "sieviete ir šeit."
+            },
+            {
+              "de": "Die Katze schläft.",
+              "lv": "kaķene guļ."
+            },
+            {
+              "de": "Die Lehrerin erklärt.",
+              "lv": "skolotāja skaidro."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: sieviešu dzimte → die."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Die"
+                ]
+              },
+              {
+                "blue": [
+                  "Die"
+                ]
+              },
+              {
+                "blue": [
+                  "Die"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "die"
+                ],
+                "purple": [
+                  "sieviešu dzimte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "die"
+                ],
+                "purple": [
+                  "sieviešu dzimtes artikulu"
+                ]
+              },
+              {
+                "blue": [
+                  "die"
+                ],
+                "green": [
+                  "Daudzskaitlī"
+                ],
+                "purple": [
+                  "visām dzimtēm"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "A1 līmenī die vispirms mācies kā sieviešu dzimtes artikulu.",
+            "Daudzskaitlī die lieto arī visām dzimtēm."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-die",
+        "layout": "standardStudy",
+        "translation": "Ženský určitý člen",
+        "explanation": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+        "examples": [
+          {
+            "de": "Die Frau ist hier.",
+            "lv": "Žena je tady."
+          },
+          {
+            "de": "Die Katze schläft.",
+            "lv": "Kotě spí."
+          },
+          {
+            "de": "Die Lehrerin erklärt.",
+            "lv": "Vysvětluje učitel."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: ženský → zemřít."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "Die"
+              ]
+            },
+            {
+              "blue": [
+                "Die"
+              ]
+            },
+            {
+              "blue": [
+                "Die"
+              ]
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "úrovni"
+              ],
+              "purple": [
+                "úrovni"
+              ]
+            },
+            {
+              "blue": [
+                "Množné"
+              ],
+              "green": [
+                "Množné"
+              ],
+              "purple": [
+                "Množné"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Na úrovni A1 je kostka nejprve studována jako ženský článek.",
+          "V množném čísle se die používá pro všechny rody."
+        ]
+      },
+      "csMain": "Ženský určitý člen"
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-bitte",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "Repaired explanation is correct Czech and consistent with bitte/die Bitte. No new contradiction or critical regression found.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-bitte-study",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Repaired explanation is correct. An existing unrelated tip contains a broken Czech translation, but it was not introduced by this repair.",
+      "findings": [
+        {
+          "field": "study.tip[1]",
+          "validationStatus": "STALE",
+          "severity": "HIGH",
+          "currentCs": "Podstatné jméno s členem zemřít a velké písmeno. Konkrétní požadavek nebo požadavek.",
+          "reason": "Pre-existing machine-translated Czech is linguistically broken and reduces study clarity; unrelated to the repaired explanation.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-das",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Repaired translation is correct and fits the card. Existing terminology and comparison errors were not introduced by the repair.",
+      "findings": [
+        {
+          "field": "study.tip.text",
+          "validationStatus": "STALE",
+          "severity": "MEDIUM",
+          "currentCs": "Pamatujte: střední genitiv → das • Že → dass.",
+          "reason": "Pre-existing Czech says genitiv instead of rod, creating an incorrect grammar explanation; unrelated to the repaired translation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "STALE",
+          "severity": "MEDIUM",
+          "currentCs": "Kdo • Který • Kdo",
+          "reason": "Pre-existing comparison mistranslates welches; this was not changed by the repaired field.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-die",
+      "auditType": "critical_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Both repaired fields are correct Czech and consistent with the study content. Existing translation defects remain unrelated to the repair.",
+      "findings": [
+        {
+          "field": "study.tip.text",
+          "validationStatus": "STALE",
+          "severity": "HIGH",
+          "currentCs": "Pamatujte: ženský → zemřít.",
+          "reason": "Pre-existing machine translation replaces the article concept with the verb zemřít, materially damaging study meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[1].lv",
+          "validationStatus": "STALE",
+          "severity": "MEDIUM",
+          "currentCs": "Kotě spí.",
+          "reason": "Pre-existing Czech translates Katze as kotě rather than kočka; unrelated to the repaired explanation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "STALE",
+          "severity": "MEDIUM",
+          "currentCs": "Vysvětluje učitel.",
+          "reason": "Pre-existing Czech uses masculine učitel for feminine Lehrerin; unrelated to the repaired fields.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-11T16:40:37.015Z"
+}

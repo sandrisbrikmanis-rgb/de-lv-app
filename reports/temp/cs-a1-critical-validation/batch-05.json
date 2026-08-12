@@ -1,0 +1,193 @@
+{
+  "batch": 5,
+  "items": [
+    {
+      "findingId": "CRIT-25",
+      "cardId": "a1-es",
+      "index": 167,
+      "field": "study.explanation",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Text chybně označuje es jako německé „já“ a opakuje překlad „to“.",
+        "currentCs": "Německé „já“ není zvyklé mluvit o sobě. Používá se k označení: to, to nebo neosobní tvar (počasí, čas, různé neosobní věty).",
+        "proposedCs": "Německé „es“ neznamená „já“. Používá se pro „to“ nebo jako neosobní podoba ve větách o počasí, čase a dalších neosobních dějích.",
+        "de": "es",
+        "lvSource": "tas • bezpersoniska forma"
+      },
+      "productionNow": {
+        "currentCs": "Německé „já“ není zvyklé mluvit o sobě. Používá se k označení: to, to nebo neosobní tvar (počasí, čas, různé neosobní věty).",
+        "de": "es",
+        "lvSource": "[\"Galvenā doma: es ir vietniekvārds.\",\"To lieto: tas, bezpersoniskās konstrukcijās.\"]"
+      }
+    },
+    {
+      "findingId": "CRIT-26",
+      "cardId": "a1-es",
+      "index": 167,
+      "field": "study.info[0]",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Obsahuje lotyšské a německé výrazy místo českého překladu a navíc chybný tvar „českýé“.",
+        "currentCs": "Český “es” = vācu “ich”",
+        "proposedCs": "Lotyšské „es“ = německé „ich“",
+        "de": "es",
+        "lvSource": "Latviešu “es” = vācu “ich”"
+      },
+      "productionNow": {
+        "currentCs": "Český “es” = vācu “ich”",
+        "de": "es",
+        "lvSource": "Latviešu “es” = vācu “ich”"
+      }
+    },
+    {
+      "findingId": "CRIT-27",
+      "cardId": "a1-heißen",
+      "index": 276,
+      "field": "study.translation",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "„Podlý“ je zcela nesouvisející význam a „být nazýván“ není vhodný krátký český ekvivalent pro A1.",
+        "currentCs": "Být nazýván • Podlý",
+        "proposedCs": "Jmenovat se • Znamenat",
+        "de": "heißen",
+        "lvSource": "saukties"
+      },
+      "productionNow": {
+        "currentCs": "Být nazýván • Podlý",
+        "de": "heißen",
+        "lvSource": "saukties"
+      }
+    },
+    {
+      "findingId": "CRIT-28",
+      "cardId": "a1-heißen",
+      "index": 276,
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "bedeuten znamená „znamenat“; „střední“ je chybný a nesouvisející překlad.",
+        "currentCs": "Střední",
+        "proposedCs": "Znamenat",
+        "de": "bedeuten",
+        "lvSource": "nozīmēt"
+      },
+      "productionNow": {
+        "currentCs": "Střední",
+        "de": "heißen",
+        "lvSource": "nozīmēt"
+      }
+    },
+    {
+      "findingId": "CRIT-29",
+      "cardId": "a1-laden-study",
+      "index": 349,
+      "field": "study.translation",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Velké písmeno u Laden označuje podstatné jméno „obchod“, nikoli sloveso nakupovat.",
+        "currentCs": "Nakupovat",
+        "proposedCs": "Obchod",
+        "de": "Laden",
+        "lvSource": "veikals"
+      },
+      "productionNow": {
+        "currentCs": "Nakupovat",
+        "de": "Laden",
+        "lvSource": "veikals"
+      }
+    },
+    {
+      "findingId": "CRIT-30",
+      "cardId": "a1-legen",
+      "index": 363,
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Obě slovesa jsou přeložena stejně; legen označuje děj položení, liegen stav ležení.",
+        "currentCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = ležet, liegen = ležet.",
+        "proposedCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet.",
+        "de": "legen / liegen",
+        "lvSource": "legen = nolikt, liegen = atrasties guļus."
+      },
+      "productionNow": {
+        "currentCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = ležet, liegen = ležet.",
+        "de": "legen",
+        "lvSource": "A1 līmenī svarīgākā atšķirība ir: legen = nolikt, liegen = atrasties guļus."
+      }
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "CRIT-25",
+      "cardId": "a1-es",
+      "field": "study.explanation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Text chybně zaměňuje německé „es“ za „já“ a opakuje chybný překlad „to“.",
+      "currentCs": "Německé „já“ není zvyklé mluvit o sobě. Používá se k označení: to, to nebo neosobní tvar (počasí, čas, různé neosobní věty).",
+      "proposedCs": "Německé „es“ neznamená „já“. Používá se pro „to“ nebo jako neosobní podoba ve větách o počasí, čase a dalších neosobních dějích.",
+      "de": "es"
+    },
+    {
+      "findingId": "CRIT-26",
+      "cardId": "a1-es",
+      "field": "study.info[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Text obsahuje lotyšské „vācu“ místo českého „německé“ a významově jde o chybný či smíšený překlad.",
+      "currentCs": "Český “es” = vācu “ich”",
+      "proposedCs": "Lotyšské „es“ = německé „ich“",
+      "de": "es"
+    },
+    {
+      "findingId": "CRIT-27",
+      "cardId": "a1-heißen",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Podlý“ nesouvisí s heißen; český překlad má vyjadřovat jmenování se nebo význam „znamenat“.",
+      "currentCs": "Být nazýván • Podlý",
+      "proposedCs": "Jmenovat se • Znamenat",
+      "de": "heißen"
+    },
+    {
+      "findingId": "CRIT-28",
+      "cardId": "a1-heißen",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "CRITICAL",
+      "confidence": "MEDIUM",
+      "reason": "Audit uvádí DE „bedeuten“, ale aktuální produkce uvádí „heißen“; jde o nesoulad zdroje a pole, který vyžaduje ověření mapování.",
+      "currentCs": "Střední",
+      "de": "heißen"
+    },
+    {
+      "findingId": "CRIT-29",
+      "cardId": "a1-laden-study",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Velké písmeno v německém „Laden“ označuje podstatné jméno „obchod“, nikoli sloveso „nakupovat“.",
+      "currentCs": "Nakupovat",
+      "proposedCs": "Obchod",
+      "de": "Laden"
+    },
+    {
+      "findingId": "CRIT-30",
+      "cardId": "a1-legen",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Produkce nerozlišuje děj položení u legen a stav ležení u liegen.",
+      "currentCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = ležet, liegen = ležet.",
+      "proposedCs": "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet.",
+      "de": "legen / liegen"
+    }
+  ],
+  "completedAt": "2026-08-11T16:07:29.386Z"
+}

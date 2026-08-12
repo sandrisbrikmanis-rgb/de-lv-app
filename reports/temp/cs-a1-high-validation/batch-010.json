@@ -1,0 +1,141 @@
+{
+  "batch": "batch-010",
+  "cardIds": [
+    "a1-frei-199",
+    "a1-freundlich-203",
+    "a1-gelb-228",
+    "a1-Glas-241",
+    "a1-halb-262"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-082",
+      "cardId": "a1-frei-199",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Uvolnit je sloveso „to release“; frei je přídavné jméno „volný“ nebo „svobodný“.",
+      "auditCurrentCs": "Uvolnit",
+      "auditProposedCs": "Volný",
+      "auditDe": "frei",
+      "auditLvSource": "brīvs",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Uvolnit",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-083",
+      "cardId": "a1-freundlich-203",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Druh znamená „kind/species“ nebo „mate“; freundlich znamená přátelský, laskavý.",
+      "auditCurrentCs": "Druh",
+      "auditProposedCs": "Přátelský",
+      "auditDe": "freundlich",
+      "auditLvSource": "laipns",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Druh",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-085",
+      "cardId": "a1-gelb-228",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Žluť je podstatné jméno označující barvu; gelb je přídavné jméno žlutý.",
+      "auditCurrentCs": "Žluť",
+      "auditProposedCs": "Žlutý",
+      "auditDe": "gelb",
+      "auditLvSource": "dzeltens",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Žluť",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-086",
+      "cardId": "a1-Glas-241",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Sklenici je pádový tvar; jako základní slovníkový tvar má být nominativ sklenice.",
+      "auditCurrentCs": "Sklenici",
+      "auditProposedCs": "Sklenice",
+      "auditDe": "Glas",
+      "auditLvSource": "glāze",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Sklenici",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-087",
+      "cardId": "a1-halb-262",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Strana znamená side; německé halb odpovídá českému půl nebo poloviční.",
+      "auditCurrentCs": "Strana",
+      "auditProposedCs": "Půl",
+      "auditDe": "halb",
+      "auditLvSource": "pus",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Strana",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-082",
+      "cardId": "a1-frei-199",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Current Czech text is an infinitive meaning “to release,” not the adjective frei (“free”).",
+      "currentCs": "Uvolnit",
+      "proposedCs": "Volný"
+    },
+    {
+      "findingId": "HIGH-083",
+      "cardId": "a1-freundlich-203",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Current Czech text means “species/kind,” while freundlich means “friendly” or “kind.”",
+      "currentCs": "Druh",
+      "proposedCs": "Přátelský"
+    },
+    {
+      "findingId": "HIGH-085",
+      "cardId": "a1-gelb-228",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Current Czech text is the noun “yellow/color yellow”; gelb is the adjective “yellow.”",
+      "currentCs": "Žluť",
+      "proposedCs": "Žlutý"
+    },
+    {
+      "findingId": "HIGH-086",
+      "cardId": "a1-Glas-241",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Current Czech text is an accusative or locative form; the dictionary headword is nominative singular.",
+      "currentCs": "Sklenici",
+      "proposedCs": "Sklenice"
+    },
+    {
+      "findingId": "HIGH-087",
+      "cardId": "a1-halb-262",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Current Czech text means “side,” not halb, which means “half” or “half-sized.”",
+      "currentCs": "Strana",
+      "proposedCs": "Půl"
+    }
+  ],
+  "completedAt": "2026-08-11T17:39:58.804Z"
+}
