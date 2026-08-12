@@ -1,0 +1,155 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-aufpassen-51",
+      "index": 51,
+      "de": "aufpassen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Dávat pozor",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 5,
+          "field": "csText",
+          "pirmd": "Buďte opatrní",
+          "pec": "Dávat pozor"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-aufpassen-51",
+        "index": 51,
+        "de": "aufpassen",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "uzmanīties",
+        "csText": "Dávat pozor",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-aufstehen-52",
+      "index": 52,
+      "de": "aufstehen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Vstát",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 6,
+          "field": "csText",
+          "pirmd": "Postavit se",
+          "pec": "Vstát"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-aufstehen-52",
+        "index": 52,
+        "de": "aufstehen",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "piecelties",
+        "csText": "Vstát",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Bauch-73",
+      "index": 73,
+      "de": "Bauch",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Břicho",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 7,
+          "field": "csText",
+          "pirmd": "Žaludek",
+          "pec": "Břicho"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Bauch-73",
+        "index": 73,
+        "de": "Bauch",
+        "de_article": "der",
+        "de_plural": "die Bäuche",
+        "lvSource": "vēders",
+        "csText": "Břicho",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-benutzen-83",
+      "index": 83,
+      "de": "benutzen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Používat",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 8,
+          "field": "csText",
+          "pirmd": "Použití",
+          "pec": "Používat"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-benutzen-83",
+        "index": 83,
+        "de": "benutzen",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "lietot",
+        "csText": "Používat",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-aufpassen-51",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "Oprava na infinitiv „Dávat pozor“ je významově i gramaticky správná pro německé „aufpassen“.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-aufstehen-52",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "„Vstát“ je správný český infinitivní ekvivalent německého „aufstehen“; oprava nezavedla regresi.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Bauch-73",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "„Břicho“ přesně odpovídá německému podstatnému jménu „Bauch“; oprava odstranila záměnu se žaludkem.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-benutzen-83",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "„Používat“ je správný český infinitiv pro německé sloveso „benutzen“; oprava je gramaticky i významově správná.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:40:10.158Z"
+}

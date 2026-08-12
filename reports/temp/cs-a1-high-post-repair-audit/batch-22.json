@@ -1,0 +1,3188 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-morgen-study",
+      "index": 418,
+      "de": "Morgen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Ráno",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 143,
+          "field": "study.explanation[1]",
+          "pirmd": "Der Morgen hlavně znamená: druhý den.",
+          "pec": "Der Morgen hlavně znamená ráno, tedy část dne."
+        },
+        {
+          "block": 3,
+          "n": 144,
+          "field": "study.tip[1]",
+          "pirmd": "Der Morgen = zítra",
+          "pec": "Der Morgen = ráno"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-morgen-study",
+        "index": 418,
+        "de": "Morgen",
+        "layout": "standardStudy",
+        "csMain": "Ráno",
+        "studyTranslation": "Ráno",
+        "lvSourceMain": "rīts",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "rīts",
+            "csText": "Ráno",
+            "de": "Morgen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Labrīt!",
+            "csText": "Dobré ráno!",
+            "de": "Morgen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "līdz rīt!",
+            "csText": "Až zítra!",
+            "de": "Morgen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es nāku rīt.",
+            "csText": "Přijdu zítra",
+            "de": "Morgen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "rīt ir pirmdiena.",
+            "csText": "Zítra je pondělí",
+            "de": "Morgen"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "labrīt!",
+            "csText": "Dobré ráno!",
+            "de": "Morgen"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "rīts ir skaists.",
+            "csText": "Ráno je krásné.",
+            "de": "Morgen"
+          }
+        ],
+        "study": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "Ráno",
+          "explanation": [
+            "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Denní část – dopoledne.",
+            "Der Morgen hlavně znamená ráno, tedy část dne.",
+            "Často charakterizováno: počasím.",
+            "Der Morgen primárně znamená: část dne.",
+            "Často popisuje: podstatné jméno (der).",
+            "Der Morgen v podstatě znamená: několik ran.",
+            "Často charakterizováno: podstatné jméno (pl.).",
+            "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!"
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobré ráno!"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Až zítra!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Přijdu zítra"
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Zítra je pondělí"
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobré ráno!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Ráno je krásné."
+            }
+          ],
+          "tip": [
+            "Malý morgen = zítra (Ich komme morgen). der Morgen s velkým písmenem = ráno (Guten Morgen!, am Morgen).",
+            "Der Morgen = ráno"
+          ],
+          "important": [
+            "Morgen je malé písmeno - je to časové příslovce (zítra).",
+            "Der Morgen s velkým písmenem a členem der je podstatné jméno (ráno).",
+            "Dobré ráno! — vždy s velkým M (ráno, ne zítra).",
+            "Špatně: Guten morgen! → Správně: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Morgen",
+                "morgen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "yellow": [
+                "Morgen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zítra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přijdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zítra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "der Morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ráno"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Malý"
+                ]
+              }
+            ],
+            "important": [
+              {}
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "rīts",
+          "explanation": [
+            "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Dienas daļa — rīts.",
+            "der Morgen galvenokārt nozīmē: nākamajā dienā.",
+            "Bieži raksturo: laika apstāklis.",
+            "der Morgen galvenokārt nozīmē: dienas daļa.",
+            "Bieži raksturo: lietvārds (der).",
+            "der Morgen galvenokārt nozīmē: vairāki rīti.",
+            "Bieži raksturo: lietvārds (pl.).",
+            "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!"
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "Labrīt!"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "līdz rīt!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "es nāku rīt."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "rīt ir pirmdiena."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "labrīt!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "rīts ir skaists."
+            }
+          ],
+          "tip": [
+            "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
+            "der Morgen = rīt"
+          ],
+          "important": [
+            "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
+            "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
+            "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
+            "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Morgen",
+                "morgen"
+              ],
+              "purple": [
+                "rīts",
+                "rīti"
+              ],
+              "yellow": [
+                "Morgen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "der Morgen",
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "rīts"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "rīts"
+                ]
+              }
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-morgen-study",
+        "layout": "standardStudy",
+        "translation": "Ráno",
+        "explanation": [
+          "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Denní část – dopoledne.",
+          "Der Morgen hlavně znamená ráno, tedy část dne.",
+          "Často charakterizováno: počasím.",
+          "Der Morgen primárně znamená: část dne.",
+          "Často popisuje: podstatné jméno (der).",
+          "Der Morgen v podstatě znamená: několik ran.",
+          "Často charakterizováno: podstatné jméno (pl.).",
+          "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!"
+        ],
+        "examples": [
+          {
+            "de": "Guten Morgen!",
+            "lv": "Dobré ráno!"
+          },
+          {
+            "de": "Bis morgen!",
+            "lv": "Až zítra!"
+          },
+          {
+            "de": "Ich komme morgen.",
+            "lv": "Přijdu zítra"
+          },
+          {
+            "de": "Morgen ist Montag.",
+            "lv": "Zítra je pondělí"
+          },
+          {
+            "de": "Guten Morgen!",
+            "lv": "Dobré ráno!"
+          },
+          {
+            "de": "Der Morgen ist schön.",
+            "lv": "Ráno je krásné."
+          }
+        ],
+        "tip": [
+          "Malý morgen = zítra (Ich komme morgen). der Morgen s velkým písmenem = ráno (Guten Morgen!, am Morgen).",
+          "Der Morgen = ráno"
+        ],
+        "important": [
+          "Morgen je malé písmeno - je to časové příslovce (zítra).",
+          "Der Morgen s velkým písmenem a členem der je podstatné jméno (ráno).",
+          "Dobré ráno! — vždy s velkým M (ráno, ne zítra).",
+          "Špatně: Guten morgen! → Správně: Guten Morgen!"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "der Morgen",
+              "morgen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "yellow": [
+              "Morgen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "morgen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "zítra"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Přijdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zítra"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "morgen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "der Morgen",
+                  "morgen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ráno"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Malý"
+              ]
+            }
+          ],
+          "important": [
+            {}
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-müssen",
+      "index": 423,
+      "de": "müssen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Potřebovat",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 145,
+          "field": "study.translation",
+          "pirmd": "Potřebovat",
+          "pec": "Muset"
+        },
+        {
+          "block": 3,
+          "n": 146,
+          "field": "study.explanation[0]",
+          "pirmd": "Hlavní myšlenka: müssen znamená něco dělat.",
+          "pec": "Hlavní myšlenka: müssen vyjadřuje nutnost něco udělat."
+        },
+        {
+          "block": 3,
+          "n": 147,
+          "field": "study.explanation[1]",
+          "pirmd": "V češtině se müssen často překládá jako „já ano...“, „ty ano...“, „my ano...“.",
+          "pec": "V češtině se müssen často překládá jako „já musím…“, „ty musíš…“, „my musíme…“."
+        },
+        {
+          "block": 3,
+          "n": 148,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Potřebovat / muset udělat",
+          "pec": "Muset / být nutné"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-müssen",
+        "index": 423,
+        "de": "müssen",
+        "layout": "standardStudy",
+        "csMain": "Potřebovat",
+        "studyTranslation": "Muset",
+        "lvSourceMain": "vajadzēt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "vajadzēt",
+            "csText": "Muset",
+            "de": "müssen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "man jāiet.",
+            "csText": "Musím jít",
+            "de": "müssen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "tev jāgaida.",
+            "csText": "Musíte počkat.",
+            "de": "müssen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mums jāmācās.",
+            "csText": "Musíme se učit.",
+            "de": "müssen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "man šodien jāstrādā.",
+            "csText": "Dnes musím pracovat",
+            "de": "müssen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "müssen",
+            "csText": "müssen",
+            "de": "müssen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "vajadzēt / būt jādara",
+            "csText": "Muset / být nutné",
+            "de": "müssen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "können",
+            "csText": "können",
+            "de": "müssen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "varēt / prast",
+            "csText": "Být schopen / vědět",
+            "de": "müssen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "wollen",
+            "csText": "wollen",
+            "de": "müssen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "gribēt",
+            "csText": "Chtít",
+            "de": "müssen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "dürfen",
+            "csText": "dürfen",
+            "de": "müssen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "drīkstēt",
+            "csText": "Být dovoleno",
+            "de": "müssen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: Ich muss... = man jā...",
+            "csText": "Pamatujte: Ich muss... = musím...",
+            "de": "müssen"
+          }
+        ],
+        "study": {
+          "id": "a1-müssen",
+          "layout": "standardStudy",
+          "translation": "Muset",
+          "explanation": [
+            "Hlavní myšlenka: müssen vyjadřuje nutnost něco udělat.",
+            "V češtině se müssen často překládá jako „já musím…“, „ty musíš…“, „my musíme…“.",
+            "V německé větě je druhé sloveso obvykle na konci.",
+            "Na úrovni A1 je nejdůležitější formou Ich muss..."
+          ],
+          "examples": [
+            {
+              "de": "Ich muss gehen.",
+              "lv": "Musím jít"
+            },
+            {
+              "de": "Du musst warten.",
+              "lv": "Musíte počkat."
+            },
+            {
+              "de": "Wir müssen lernen.",
+              "lv": "Musíme se učit."
+            },
+            {
+              "de": "Ich muss heute arbeiten.",
+              "lv": "Dnes musím pracovat"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "müssen",
+              "meaning": "Muset / být nutné",
+              "example": "Ich muss gehen."
+            },
+            {
+              "word": "können",
+              "meaning": "Být schopen / vědět",
+              "example": "Ich kann kommen."
+            },
+            {
+              "word": "wollen",
+              "meaning": "Chtít",
+              "example": "Ich will nach Hause."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "Být dovoleno",
+              "example": "Darf ich gehen?"
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: Ich muss... = musím..."
+          },
+          "important": [
+            "Müssen je modální sloveso.",
+            "Druhé sloveso je obvykle na konci věty: Ich muss heute arbeiten."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "müssen",
+                "Ich muss"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "muss",
+                    "gehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Musím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "musst",
+                    "warten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Musíte"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "müssen",
+                    "lernen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Musíme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "muss",
+                    "arbeiten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dnes"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Potřebovat",
+                    "Potřebovat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "muss"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být",
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Chtít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Darf"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Ich muss"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "müssen"
+                ],
+                "purple": [
+                  "Müssen"
+                ]
+              },
+              {
+                "blue": [
+                  "muss",
+                  "arbeiten"
+                ],
+                "purple": [
+                  "Druhé"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-müssen",
+          "layout": "standardStudy",
+          "translation": "vajadzēt",
+          "explanation": [
+            "Galvenā doma: müssen nozīmē, ka kaut kas ir jādara.",
+            "Latviski müssen bieži tulko ar “man jā...”, “tev jā...”, “mums jā...”.",
+            "Vācu teikumā otrais darbības vārds parasti stāv beigās.",
+            "A1 līmenī svarīgākā forma ir Ich muss..."
+          ],
+          "examples": [
+            {
+              "de": "Ich muss gehen.",
+              "lv": "man jāiet."
+            },
+            {
+              "de": "Du musst warten.",
+              "lv": "tev jāgaida."
+            },
+            {
+              "de": "Wir müssen lernen.",
+              "lv": "mums jāmācās."
+            },
+            {
+              "de": "Ich muss heute arbeiten.",
+              "lv": "man šodien jāstrādā."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "müssen",
+              "meaning": "vajadzēt / būt jādara",
+              "example": "Ich muss gehen."
+            },
+            {
+              "word": "können",
+              "meaning": "varēt / prast",
+              "example": "Ich kann kommen."
+            },
+            {
+              "word": "wollen",
+              "meaning": "gribēt",
+              "example": "Ich will nach Hause."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "drīkstēt",
+              "example": "Darf ich gehen?"
+            }
+          ],
+          "tip": {
+            "text": "Atceries: Ich muss... = man jā..."
+          },
+          "important": [
+            "müssen ir modālais darbības vārds.",
+            "Otrs darbības vārds parasti iet teikuma beigās: Ich muss heute arbeiten."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "müssen",
+                "Ich muss"
+              ],
+              "purple": [
+                "jādara",
+                "man jā",
+                "tev jā",
+                "mums jā"
+              ],
+              "green": [
+                "beigās"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "muss",
+                    "gehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jāiet"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "musst",
+                    "warten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jāgaida"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "müssen",
+                    "lernen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jāmācās"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "muss",
+                    "arbeiten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jāstrādā"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vajadzēt",
+                    "jādara"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "muss"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "varēt",
+                    "prast"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gribēt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "drīkstēt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Darf"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Ich muss"
+                ],
+                "purple": [
+                  "man jā"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "müssen"
+                ],
+                "purple": [
+                  "modālais darbības vārds"
+                ]
+              },
+              {
+                "blue": [
+                  "muss",
+                  "arbeiten"
+                ],
+                "purple": [
+                  "beigās"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-müssen",
+        "layout": "standardStudy",
+        "translation": "Muset",
+        "explanation": [
+          "Hlavní myšlenka: müssen vyjadřuje nutnost něco udělat.",
+          "V češtině se müssen často překládá jako „já musím…“, „ty musíš…“, „my musíme…“.",
+          "V německé větě je druhé sloveso obvykle na konci.",
+          "Na úrovni A1 je nejdůležitější formou Ich muss..."
+        ],
+        "examples": [
+          {
+            "de": "Ich muss gehen.",
+            "lv": "Musím jít"
+          },
+          {
+            "de": "Du musst warten.",
+            "lv": "Musíte počkat."
+          },
+          {
+            "de": "Wir müssen lernen.",
+            "lv": "Musíme se učit."
+          },
+          {
+            "de": "Ich muss heute arbeiten.",
+            "lv": "Dnes musím pracovat"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "müssen",
+            "meaning": "Muset / být nutné",
+            "example": "Ich muss gehen."
+          },
+          {
+            "word": "können",
+            "meaning": "Být schopen / vědět",
+            "example": "Ich kann kommen."
+          },
+          {
+            "word": "wollen",
+            "meaning": "Chtít",
+            "example": "Ich will nach Hause."
+          },
+          {
+            "word": "dürfen",
+            "meaning": "Být dovoleno",
+            "example": "Darf ich gehen?"
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: Ich muss... = musím..."
+        },
+        "important": [
+          "Müssen je modální sloveso.",
+          "Druhé sloveso je obvykle na konci věty: Ich muss heute arbeiten."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "müssen",
+              "Ich muss"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "muss",
+                  "gehen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Musím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "musst",
+                  "warten"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Musíte"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "müssen",
+                  "lernen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Musíme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "muss",
+                  "arbeiten"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dnes"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "müssen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Potřebovat",
+                  "Potřebovat"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "muss"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "können"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být",
+                  "Být"
+                ]
+              },
+              "example": {
+                "green": [
+                  "kann"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wollen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Chtít"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "will"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "dürfen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Darf"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Ich muss"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "müssen"
+              ],
+              "purple": [
+                "Müssen"
+              ]
+            },
+            {
+              "blue": [
+                "muss",
+                "arbeiten"
+              ],
+              "purple": [
+                "Druhé"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-nach",
+      "index": 426,
+      "de": "nach",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Do • Po",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 149,
+          "field": "csMain",
+          "pirmd": "Až • Po",
+          "pec": "Do • Po"
+        },
+        {
+          "block": 3,
+          "n": 150,
+          "field": "study.explanation[0]",
+          "pirmd": "Hlavní myšlenka: nach znamená to s místy a potom s časem nebo posloupností.",
+          "pec": "Hlavní myšlenka: nach znamená u míst „do“ a u času nebo posloupnosti „po“."
+        },
+        {
+          "block": 4,
+          "n": 151,
+          "field": "study.explanation[1]",
+          "pirmd": "S městy a zeměmi bez článku nach často znamená.",
+          "pec": "U měst a zemí bez členu nach často znamená „do“."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-nach",
+        "index": 426,
+        "de": "nach",
+        "layout": "standardStudy",
+        "csMain": "Do • Po",
+        "studyTranslation": "Až • Po",
+        "lvSourceMain": "uz • pēc",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "uz • pēc",
+            "csText": "Až • Po",
+            "de": "nach"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es braucu uz Berlīni.",
+            "csText": "Jedu do Berlína.",
+            "de": "nach"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mēs ejam uz mājām.",
+            "csText": "Jdeme domů.",
+            "de": "nach"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "pēc ēšanas mēs ejam pastaigāties.",
+            "csText": "Po jídle jdeme na procházku.",
+            "de": "nach"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ir desmit pāri astoņiem.",
+            "csText": "Je deset po osmé.",
+            "de": "nach"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "nach",
+            "csText": "nach",
+            "de": "nach"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "uz / pēc",
+            "csText": "Do / po",
+            "de": "nach"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "zu",
+            "csText": "zu",
+            "de": "nach"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "uz / pie",
+            "csText": "Do / v",
+            "de": "nach"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "in",
+            "csText": "in",
+            "de": "nach"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "iekšā / uz vietu ar artikulu",
+            "csText": "V / na místo s článkem",
+            "de": "nach"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "vor",
+            "csText": "vor",
+            "de": "nach"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "pirms / priekšā",
+            "csText": "Před / před",
+            "de": "nach"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: nach Hause; nach Berlin; pēc ēšanas.",
+            "csText": "Pamatujte: nach Hause • Nach Berlin • Po jídle.",
+            "de": "nach"
+          }
+        ],
+        "study": {
+          "id": "a1-nach",
+          "layout": "standardStudy",
+          "translation": "Až • Po",
+          "explanation": [
+            "Hlavní myšlenka: nach znamená u míst „do“ a u času nebo posloupnosti „po“.",
+            "U měst a zemí bez členu nach často znamená „do“.",
+            "S časem nach znamená po.",
+            "Ve frázi nach Hause to znamená domov."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Jedu do Berlína."
+            },
+            {
+              "de": "Wir gehen nach Hause.",
+              "lv": "Jdeme domů."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Po jídle jdeme na procházku."
+            },
+            {
+              "de": "Es ist zehn nach acht.",
+              "lv": "Je deset po osmé."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nach",
+              "meaning": "Do / po",
+              "example": "Ich fahre nach Berlin."
+            },
+            {
+              "word": "zu",
+              "meaning": "Do / v",
+              "example": "Ich gehe zum Arzt."
+            },
+            {
+              "word": "in",
+              "meaning": "V / na místo s článkem",
+              "example": "Ich gehe in die Schule."
+            },
+            {
+              "word": "vor",
+              "meaning": "Před / před",
+              "example": "Vor dem Essen wasche ich die Hände."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: nach Hause • Nach Berlin • Po jídle."
+          },
+          "important": [
+            "Nach se nepoužívá u všech míst.",
+            "Do školy se obvykle chodí v die Schule, ne nach Schule."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "nach",
+                "nach Hause"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "nach"
+                  ],
+                  "green": [
+                    "Berlin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jedu"
+                  ],
+                  "green": [
+                    "Berlína"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nach Hause"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jídle"
+                  ],
+                  "yellow": [
+                    "jídle"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nach"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "deset"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {},
+                "example": {
+                  "blue": [
+                    "nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {},
+                "example": {
+                  "yellow": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "místo"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Před",
+                    "Před"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Vor"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "nach Hause",
+                  "nach Berlin"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "nach"
+                ],
+                "red": [
+                  "Nach"
+                ]
+              },
+              {
+                "green": [
+                  "školy"
+                ],
+                "red": [
+                  "nach Schule"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-nach",
+          "layout": "standardStudy",
+          "translation": "uz • pēc",
+          "explanation": [
+            "Galvenā doma: nach nozīmē uz ar vietām un pēc ar laiku vai secību.",
+            "Ar pilsētām un valstīm bez artikula nach bieži nozīmē uz.",
+            "Ar laiku nach nozīmē pēc.",
+            "Frāzē nach Hause tas nozīmē uz mājām."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "es braucu uz Berlīni."
+            },
+            {
+              "de": "Wir gehen nach Hause.",
+              "lv": "mēs ejam uz mājām."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "pēc ēšanas mēs ejam pastaigāties."
+            },
+            {
+              "de": "Es ist zehn nach acht.",
+              "lv": "ir desmit pāri astoņiem."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nach",
+              "meaning": "uz / pēc",
+              "example": "Ich fahre nach Berlin."
+            },
+            {
+              "word": "zu",
+              "meaning": "uz / pie",
+              "example": "Ich gehe zum Arzt."
+            },
+            {
+              "word": "in",
+              "meaning": "iekšā / uz vietu ar artikulu",
+              "example": "Ich gehe in die Schule."
+            },
+            {
+              "word": "vor",
+              "meaning": "pirms / priekšā",
+              "example": "Vor dem Essen wasche ich die Hände."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: nach Hause; nach Berlin; pēc ēšanas."
+          },
+          "important": [
+            "nach nelieto ar visām vietām.",
+            "Uz skolu parasti ir in die Schule, nevis nach Schule."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "nach",
+                "nach Hause"
+              ],
+              "purple": [
+                "uz",
+                "pēc",
+                "uz mājām"
+              ],
+              "green": [
+                "pilsētām",
+                "valstīm",
+                "laiku"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "nach"
+                  ],
+                  "green": [
+                    "Berlin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz"
+                  ],
+                  "green": [
+                    "Berlīni"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nach Hause"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz mājām"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pēc"
+                  ],
+                  "yellow": [
+                    "ēšanas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nach"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pāri"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pēc"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iekšā"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pirms",
+                    "priekšā"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Vor"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "nach Hause",
+                  "nach Berlin"
+                ],
+                "purple": [
+                  "pēc ēšanas"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "nach"
+                ],
+                "red": [
+                  "visām vietām"
+                ]
+              },
+              {
+                "green": [
+                  "in die Schule"
+                ],
+                "red": [
+                  "nach Schule"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-nach",
+        "layout": "standardStudy",
+        "translation": "Až • Po",
+        "explanation": [
+          "Hlavní myšlenka: nach znamená u míst „do“ a u času nebo posloupnosti „po“.",
+          "U měst a zemí bez členu nach často znamená „do“.",
+          "S časem nach znamená po.",
+          "Ve frázi nach Hause to znamená domov."
+        ],
+        "examples": [
+          {
+            "de": "Ich fahre nach Berlin.",
+            "lv": "Jedu do Berlína."
+          },
+          {
+            "de": "Wir gehen nach Hause.",
+            "lv": "Jdeme domů."
+          },
+          {
+            "de": "Nach dem Essen gehen wir spazieren.",
+            "lv": "Po jídle jdeme na procházku."
+          },
+          {
+            "de": "Es ist zehn nach acht.",
+            "lv": "Je deset po osmé."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "nach",
+            "meaning": "Do / po",
+            "example": "Ich fahre nach Berlin."
+          },
+          {
+            "word": "zu",
+            "meaning": "Do / v",
+            "example": "Ich gehe zum Arzt."
+          },
+          {
+            "word": "in",
+            "meaning": "V / na místo s článkem",
+            "example": "Ich gehe in die Schule."
+          },
+          {
+            "word": "vor",
+            "meaning": "Před / před",
+            "example": "Vor dem Essen wasche ich die Hände."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: nach Hause • Nach Berlin • Po jídle."
+        },
+        "important": [
+          "Nach se nepoužívá u všech míst.",
+          "Do školy se obvykle chodí v die Schule, ne nach Schule."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "nach",
+              "nach Hause"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "nach"
+                ],
+                "green": [
+                  "Berlin"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jedu"
+                ],
+                "green": [
+                  "Berlína"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "nach Hause"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Nach"
+                ],
+                "yellow": [
+                  "Essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "jídle"
+                ],
+                "yellow": [
+                  "jídle"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "nach"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "deset"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "nach"
+                ]
+              },
+              "meaning": {},
+              "example": {
+                "blue": [
+                  "nach"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zu"
+                ]
+              },
+              "meaning": {},
+              "example": {
+                "yellow": [
+                  "zum Arzt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "in"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "místo"
+                ]
+              },
+              "example": {
+                "green": [
+                  "in die Schule"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "vor"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Před",
+                  "Před"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Vor"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "nach Hause",
+                "nach Berlin"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "nach"
+              ],
+              "red": [
+                "Nach"
+              ]
+            },
+            {
+              "green": [
+                "školy"
+              ],
+              "red": [
+                "nach Schule"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-nehmen",
+      "index": 435,
+      "de": "nehmen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Vzít • Vzít",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 152,
+          "field": "study.examples[2].lv",
+          "pirmd": "Přinesl jsem ti knihu",
+          "pec": "Přináším ti knihu."
+        },
+        {
+          "block": 4,
+          "n": 153,
+          "field": "study.examples[3].lv",
+          "pirmd": "Vezmu tě",
+          "pec": "Vyzvednu tě."
+        },
+        {
+          "block": 4,
+          "n": 154,
+          "field": "study.explanation[2]",
+          "pirmd": "Není to totéž jako přinesený, protože přinesený znamená někomu přinést nebo vzít.",
+          "pec": "Nehmen není totéž co bringen: bringen znamená něco někomu přinést nebo odnést."
+        },
+        {
+          "block": 4,
+          "n": 155,
+          "field": "study.comparison[2].meaning",
+          "pirmd": "Jít za / aport",
+          "pec": "Jít pro / přinést"
+        },
+        {
+          "block": 4,
+          "n": 156,
+          "field": "study.important[0]",
+          "pirmd": "Ich nehme den Bus znamená v češtině „řídím autobus“.",
+          "pec": "Ich nehme den Bus znamená v češtině „jedu autobusem“."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-nehmen",
+        "index": 435,
+        "de": "nehmen",
+        "layout": "standardStudy",
+        "csMain": "Vzít • Vzít",
+        "studyTranslation": "Vzít • Vzít",
+        "lvSourceMain": "ņemt • paņemt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ņemt • paņemt",
+            "csText": "Vzít • Vzít",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es braucu ar autobusu.",
+            "csText": "Jedu autobusem",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "paņem grāmatu!",
+            "csText": "Vezmi si knihu!",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es tev atnesu grāmatu.",
+            "csText": "Přináším ti knihu.",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es tevi paņemšu.",
+            "csText": "Vyzvednu tě.",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "nehmen",
+            "csText": "nehmen",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "ņemt / paņemt",
+            "csText": "Vzít / vzít",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "bringen",
+            "csText": "bringen",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "atnest / aiznest / nogādāt",
+            "csText": "Přinést / vzít / dodat",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "holen",
+            "csText": "holen",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "aiziet pakaļ / atnest",
+            "csText": "Jít pro / přinést",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "mitnehmen",
+            "csText": "mitnehmen",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "paņemt līdzi",
+            "csText": "Vzít s sebou",
+            "de": "nehmen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: paņem sev → nehmen; atnes kādam → bringen.",
+            "csText": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést.",
+            "de": "nehmen"
+          }
+        ],
+        "study": {
+          "id": "a1-nehmen",
+          "layout": "standardStudy",
+          "translation": "Vzít • Vzít",
+          "explanation": [
+            "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
+            "Nehmen se používá, když si vezmete něco pro sebe nebo si vyberete.",
+            "Nehmen není totéž co bringen: bringen znamená něco někomu přinést nebo odnést.",
+            "Holen znamená jít za a aportovat/vzít."
+          ],
+          "examples": [
+            {
+              "de": "Ich nehme den Bus.",
+              "lv": "Jedu autobusem"
+            },
+            {
+              "de": "Nimm das Buch!",
+              "lv": "Vezmi si knihu!"
+            },
+            {
+              "de": "Ich bringe dir das Buch.",
+              "lv": "Přináším ti knihu."
+            },
+            {
+              "de": "Ich hole dich ab.",
+              "lv": "Vyzvednu tě."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nehmen",
+              "meaning": "Vzít / vzít",
+              "example": "Nimm das Buch!"
+            },
+            {
+              "word": "bringen",
+              "meaning": "Přinést / vzít / dodat",
+              "example": "Ich bringe dir das Buch."
+            },
+            {
+              "word": "holen",
+              "meaning": "Jít pro / přinést",
+              "example": "Ich hole Wasser."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "Vzít s sebou",
+              "example": "Ich nehme dich mit."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést."
+          },
+          "important": [
+            "Ich nehme den Bus znamená v češtině „jedu autobusem“.",
+            "Nehmen není totéž jako přinést."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "nehmen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "Hlavní",
+                "holen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "nehme"
+                  ],
+                  "yellow": [
+                    "Bus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jedu"
+                  ],
+                  "yellow": [
+                    "autobusem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nimm"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vezmi"
+                  ],
+                  "yellow": [
+                    "Vezmi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "bringe"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Přinesl"
+                  ],
+                  "yellow": [
+                    "Přinesl"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "hole"
+                  ],
+                  "green": [
+                    "dich"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Vezmu"
+                  ],
+                  "green": [
+                    "Vezmu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vzít",
+                    "Vzít"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Nimm"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přinést",
+                    "Přinést",
+                    "Přinést"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bringe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "holen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jít",
+                    "Jít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "hole"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitnehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vzít"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "nehme",
+                    "mit"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "nehmen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "nehme den Bus"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              },
+              {
+                "blue": [
+                  "nehmen"
+                ],
+                "red": [
+                  "Nehmen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-nehmen",
+          "layout": "standardStudy",
+          "translation": "ņemt • paņemt",
+          "explanation": [
+            "Galvenā doma: nehmen nozīmē ņemt vai paņemt.",
+            "nehmen lieto, ja tu kaut ko paņem sev vai izvēlies.",
+            "Tas nav tas pats, kas bringen, jo bringen nozīmē atnest vai aiznest kādam.",
+            "holen nozīmē aiziet pakaļ un atnest/paņemt."
+          ],
+          "examples": [
+            {
+              "de": "Ich nehme den Bus.",
+              "lv": "es braucu ar autobusu."
+            },
+            {
+              "de": "Nimm das Buch!",
+              "lv": "paņem grāmatu!"
+            },
+            {
+              "de": "Ich bringe dir das Buch.",
+              "lv": "es tev atnesu grāmatu."
+            },
+            {
+              "de": "Ich hole dich ab.",
+              "lv": "es tevi paņemšu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nehmen",
+              "meaning": "ņemt / paņemt",
+              "example": "Nimm das Buch!"
+            },
+            {
+              "word": "bringen",
+              "meaning": "atnest / aiznest / nogādāt",
+              "example": "Ich bringe dir das Buch."
+            },
+            {
+              "word": "holen",
+              "meaning": "aiziet pakaļ / atnest",
+              "example": "Ich hole Wasser."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "paņemt līdzi",
+              "example": "Ich nehme dich mit."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: paņem sev → nehmen; atnes kādam → bringen."
+          },
+          "important": [
+            "Ich nehme den Bus latviski nozīmē “es braucu ar autobusu”.",
+            "nehmen nav tas pats, kas bringen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "nehmen"
+              ],
+              "purple": [
+                "ņemt",
+                "paņemt"
+              ],
+              "red": [
+                "bringen",
+                "holen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "nehme"
+                  ],
+                  "yellow": [
+                    "Bus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "braucu"
+                  ],
+                  "yellow": [
+                    "autobusu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nimm"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "paņem"
+                  ],
+                  "yellow": [
+                    "grāmatu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "bringe"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "atnesu"
+                  ],
+                  "yellow": [
+                    "grāmatu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "hole"
+                  ],
+                  "green": [
+                    "dich"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "paņemšu"
+                  ],
+                  "green": [
+                    "tevi"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ņemt",
+                    "paņemt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Nimm"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "atnest",
+                    "aiznest",
+                    "nogādāt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bringe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "holen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "aiziet pakaļ",
+                    "atnest"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "hole"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitnehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "paņemt līdzi"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "nehme",
+                    "mit"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "nehmen"
+                ],
+                "purple": [
+                  "paņem sev"
+                ],
+                "red": [
+                  "bringen",
+                  "atnes kādam"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "nehme den Bus"
+                ],
+                "purple": [
+                  "braucu ar autobusu"
+                ]
+              },
+              {
+                "blue": [
+                  "nehmen"
+                ],
+                "red": [
+                  "bringen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-nehmen",
+        "layout": "standardStudy",
+        "translation": "Vzít • Vzít",
+        "explanation": [
+          "Hlavní myšlenka: nehmen znamená vzít nebo vzít.",
+          "Nehmen se používá, když si vezmete něco pro sebe nebo si vyberete.",
+          "Nehmen není totéž co bringen: bringen znamená něco někomu přinést nebo odnést.",
+          "Holen znamená jít za a aportovat/vzít."
+        ],
+        "examples": [
+          {
+            "de": "Ich nehme den Bus.",
+            "lv": "Jedu autobusem"
+          },
+          {
+            "de": "Nimm das Buch!",
+            "lv": "Vezmi si knihu!"
+          },
+          {
+            "de": "Ich bringe dir das Buch.",
+            "lv": "Přináším ti knihu."
+          },
+          {
+            "de": "Ich hole dich ab.",
+            "lv": "Vyzvednu tě."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "nehmen",
+            "meaning": "Vzít / vzít",
+            "example": "Nimm das Buch!"
+          },
+          {
+            "word": "bringen",
+            "meaning": "Přinést / vzít / dodat",
+            "example": "Ich bringe dir das Buch."
+          },
+          {
+            "word": "holen",
+            "meaning": "Jít pro / přinést",
+            "example": "Ich hole Wasser."
+          },
+          {
+            "word": "mitnehmen",
+            "meaning": "Vzít s sebou",
+            "example": "Ich nehme dich mit."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: vezměte si pro sebe → nehmen • Někoho přivést → přivést."
+        },
+        "important": [
+          "Ich nehme den Bus znamená v češtině „jedu autobusem“.",
+          "Nehmen není totéž jako přinést."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "nehmen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "Hlavní",
+              "holen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "nehme"
+                ],
+                "yellow": [
+                  "Bus"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jedu"
+                ],
+                "yellow": [
+                  "autobusem"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Nimm"
+                ],
+                "yellow": [
+                  "Buch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vezmi"
+                ],
+                "yellow": [
+                  "Vezmi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "bringe"
+                ],
+                "yellow": [
+                  "Buch"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Přinesl"
+                ],
+                "yellow": [
+                  "Přinesl"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "hole"
+                ],
+                "green": [
+                  "dich"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Vezmu"
+                ],
+                "green": [
+                  "Vezmu"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "nehmen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vzít",
+                  "Vzít"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Nimm"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bringen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Přinést",
+                  "Přinést",
+                  "Přinést"
+                ]
+              },
+              "example": {
+                "red": [
+                  "bringe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "holen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jít",
+                  "Jít"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "hole"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "mitnehmen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vzít"
+                ]
+              },
+              "example": {
+                "green": [
+                  "nehme",
+                  "mit"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "nehmen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "nehme den Bus"
+              ],
+              "purple": [
+                "Ich"
+              ]
+            },
+            {
+              "blue": [
+                "nehmen"
+              ],
+              "red": [
+                "Nehmen"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-morgen-study",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "HIGH repairs correctly distinguish Morgen as ráno and morgen as zítra; unrelated legacy explanation text remains problematic.",
+      "findings": [
+        {
+          "field": "study.explanation[5]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Der Morgen v podstatě znamená: několik ran.",
+          "proposedCs": null,
+          "reason": "Singular der Morgen means ráno; several mornings would be die Morgen. This field was not changed by the HIGH repair.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "study.explanation[7]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!",
+          "proposedCs": null,
+          "reason": "The meaning and punctuation are malformed, but this text predates the HIGH changes to explanation[1] and tip[1].",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    },
+    {
+      "cardId": "a1-müssen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "HIGH repairs correctly establish muset and nutnost; the unchanged card-level csMain still says Potřebovat.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Potřebovat",
+          "proposedCs": null,
+          "reason": "For German müssen, Potřebovat is misleading; Muset is correct. The HIGH repair changed study.translation, not csMain.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "sectionAccents.comparison[0].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Potřebovat",
+          "proposedCs": null,
+          "reason": "The accent annotation is stale and conflicts with the repaired comparison meaning Muset / být nutné.",
+          "confidence": 0.98,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    },
+    {
+      "cardId": "a1-nach",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "HIGH repairs correctly define nach as do for places and po for time or sequence; an unchanged translation field remains inconsistent.",
+      "findings": [
+        {
+          "field": "study.translation",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Až • Po",
+          "proposedCs": null,
+          "reason": "Až is incorrect for the locative meaning of nach shown throughout the repaired card; the field was not included in HIGH repairs.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Do / v",
+          "proposedCs": null,
+          "reason": "The Czech meaning for zu is awkward and potentially misleading, but this comparison was not changed by the HIGH repair.",
+          "confidence": 0.96,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    },
+    {
+      "cardId": "a1-nehmen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "All HIGH repairs are linguistically correct: examples, bringen contrast, holen meaning, and bus usage are consistent.",
+      "findings": [
+        {
+          "field": "study.explanation[3]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Holen znamená jít za a aportovat/vzít.",
+          "proposedCs": null,
+          "reason": "This sentence is awkward and semantically imprecise, but it was not changed by the HIGH repair.",
+          "confidence": 0.97,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "study.tip.text",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Někoho přivést → přivést.",
+          "proposedCs": null,
+          "reason": "The second gloss is redundant and unclear; it is unrelated to the repaired fields.",
+          "confidence": 0.98,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:44:32.756Z"
+}

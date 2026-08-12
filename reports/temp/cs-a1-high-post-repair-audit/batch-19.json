@@ -1,0 +1,2900 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-lang",
+      "index": 352,
+      "de": "lang",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Dlouhý • Dlouhý",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 116,
+          "field": "study.translation",
+          "pirmd": "Dlouhý • Dlouhý",
+          "pec": "Dlouhý • Dlouho"
+        },
+        {
+          "block": 3,
+          "n": 117,
+          "field": "study.explanation[4]",
+          "pirmd": "České „dlouhý“ a „dlouhý“ jsou dvě různá slova, ale německý jazyk zahrnuje oba významy.",
+          "pec": "České „dlouhý“ a „dlouho“ mají různé tvary a použití, ale německé lang zahrnuje oba významy."
+        },
+        {
+          "block": 6,
+          "n": 286,
+          "field": "study.examples[4].lv",
+          "pirmd": "Čekal jsem dlouho.",
+          "pec": "Už dlouho čekám."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-lang",
+        "index": 352,
+        "de": "lang",
+        "layout": "standardStudy",
+        "csMain": "Dlouhý • Dlouhý",
+        "studyTranslation": "Dlouhý • Dlouho",
+        "lvSourceMain": "garš • ilgs",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "garš • ilgs",
+            "csText": "Dlouhý • Dlouho",
+            "de": "lang"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "galds ir ļoti garš.",
+            "csText": "Stůl je velmi dlouhý.",
+            "de": "lang"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "filma bija ļoti ilga.",
+            "csText": "Film byl hodně dlouhý.",
+            "de": "lang"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "cik ilgi tas ilgst?",
+            "csText": "Jak dlouho to trvá",
+            "de": "lang"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "viņai ir gari mati.",
+            "csText": "Má dlouhé vlasy.",
+            "de": "lang"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "es gaidu jau ilgi.",
+            "csText": "Už dlouho čekám.",
+            "de": "lang"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "visu dienu (garumā).",
+            "csText": "Celý den (na délku).",
+            "de": "lang"
+          }
+        ],
+        "study": {
+          "id": "a1-lang",
+          "layout": "standardStudy",
+          "translation": "Dlouhý • Dlouho",
+          "explanation": [
+            "Hlavní myšlenka: lang prostorově znamená dlouhý, časově dlouhý.",
+            "Pokud jde o velikost nebo vzdálenost, lang = dlouhý (ein langer Tisch = dlouhý stůl).",
+            "Pokud jde o délku času, lang = dlouhý (ein langer Tag = dlouhý den).",
+            "Ve frázi den ganzen Tag lang to znamená celý den (na délku).",
+            "České „dlouhý“ a „dlouho“ mají různé tvary a použití, ale německé lang zahrnuje oba významy."
+          ],
+          "examples": [
+            {
+              "de": "Der Tisch ist sehr lang.",
+              "lv": "Stůl je velmi dlouhý."
+            },
+            {
+              "de": "Der Film war sehr lang.",
+              "lv": "Film byl hodně dlouhý."
+            },
+            {
+              "de": "Wie lange dauert es?",
+              "lv": "Jak dlouho to trvá"
+            },
+            {
+              "de": "Sie hat lange Haare.",
+              "lv": "Má dlouhé vlasy."
+            },
+            {
+              "de": "Ich warte schon lange.",
+              "lv": "Už dlouho čekám."
+            },
+            {
+              "de": "Den ganzen Tag lang.",
+              "lv": "Celý den (na délku)."
+            }
+          ],
+          "tip": [
+            "Pro velikost nebo vzdálenost (vlasy, silnice, stůl) → dlouhé.",
+            "O čase (den, čekání, film) → dlouhý."
+          ],
+          "important": [
+            "Lang = dlouhý (velikost) NEBO dlouhý (čas) – v závislosti na kontextu.",
+            "Wie lange = jak dlouho (otázka času, nikoli velikosti)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "lang"
+              ],
+              "purple": [
+                "dlouhý",
+                "dlouhý"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stůl"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Film"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jak"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dlouhé"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Čekal"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Celý"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Pro"
+                ]
+              },
+              {
+                "green": [
+                  "Pro"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "Lang",
+                  "Lang"
+                ]
+              },
+              {
+                "green": [
+                  "wie lange"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-lang",
+          "layout": "standardStudy",
+          "translation": "garš • ilgs",
+          "explanation": [
+            "Galvenā doma: lang telpiski nozīmē garš, laika ziņā nozīmē ilgs.",
+            "Ja runa ir par izmēru vai attālumu, lang = garš (ein langer Tisch = garš galds).",
+            "Ja runa ir par laika ilgumu, lang = ilgs (ein langer Tag = ilga diena).",
+            "Frāzē den ganzen Tag lang tas nozīmē visu dienu (garumā).",
+            "Latviski 'garš' un 'ilgs' ir divi dažādi vārdi, bet vācu lang aptver abas nozīmes."
+          ],
+          "examples": [
+            {
+              "de": "Der Tisch ist sehr lang.",
+              "lv": "galds ir ļoti garš."
+            },
+            {
+              "de": "Der Film war sehr lang.",
+              "lv": "filma bija ļoti ilga."
+            },
+            {
+              "de": "Wie lange dauert es?",
+              "lv": "cik ilgi tas ilgst?"
+            },
+            {
+              "de": "Sie hat lange Haare.",
+              "lv": "viņai ir gari mati."
+            },
+            {
+              "de": "Ich warte schon lange.",
+              "lv": "es gaidu jau ilgi."
+            },
+            {
+              "de": "Den ganzen Tag lang.",
+              "lv": "visu dienu (garumā)."
+            }
+          ],
+          "tip": [
+            "Par izmēru vai attālumu (mati, ceļš, galds) → garš.",
+            "Par laiku (diena, gaidīšana, filma) → ilgs."
+          ],
+          "important": [
+            "lang = garš (izmērs) VAI ilgs (laiks) — atkarībā no konteksta.",
+            "wie lange = cik ilgi (jautājums par laiku, ne izmēru)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "lang"
+              ],
+              "purple": [
+                "garš",
+                "ilgs"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "garš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ilga"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ilgi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gari"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ilgi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "garumā"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "garš"
+                ]
+              },
+              {
+                "green": [
+                  "ilgs"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "garš",
+                  "ilgs"
+                ]
+              },
+              {
+                "green": [
+                  "wie lange"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-lang",
+        "layout": "standardStudy",
+        "translation": "Dlouhý • Dlouho",
+        "explanation": [
+          "Hlavní myšlenka: lang prostorově znamená dlouhý, časově dlouhý.",
+          "Pokud jde o velikost nebo vzdálenost, lang = dlouhý (ein langer Tisch = dlouhý stůl).",
+          "Pokud jde o délku času, lang = dlouhý (ein langer Tag = dlouhý den).",
+          "Ve frázi den ganzen Tag lang to znamená celý den (na délku).",
+          "České „dlouhý“ a „dlouho“ mají různé tvary a použití, ale německé lang zahrnuje oba významy."
+        ],
+        "examples": [
+          {
+            "de": "Der Tisch ist sehr lang.",
+            "lv": "Stůl je velmi dlouhý."
+          },
+          {
+            "de": "Der Film war sehr lang.",
+            "lv": "Film byl hodně dlouhý."
+          },
+          {
+            "de": "Wie lange dauert es?",
+            "lv": "Jak dlouho to trvá"
+          },
+          {
+            "de": "Sie hat lange Haare.",
+            "lv": "Má dlouhé vlasy."
+          },
+          {
+            "de": "Ich warte schon lange.",
+            "lv": "Už dlouho čekám."
+          },
+          {
+            "de": "Den ganzen Tag lang.",
+            "lv": "Celý den (na délku)."
+          }
+        ],
+        "tip": [
+          "Pro velikost nebo vzdálenost (vlasy, silnice, stůl) → dlouhé.",
+          "O čase (den, čekání, film) → dlouhý."
+        ],
+        "important": [
+          "Lang = dlouhý (velikost) NEBO dlouhý (čas) – v závislosti na kontextu.",
+          "Wie lange = jak dlouho (otázka času, nikoli velikosti)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "lang"
+            ],
+            "purple": [
+              "dlouhý",
+              "dlouhý"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "lang"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Stůl"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "lang"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Film"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "lange"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jak"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "lange"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "dlouhé"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "lange"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Čekal"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "lang"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Celý"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "Pro"
+              ]
+            },
+            {
+              "green": [
+                "Pro"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "purple": [
+                "Lang",
+                "Lang"
+              ]
+            },
+            {
+              "green": [
+                "wie lange"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-lassen",
+      "index": 356,
+      "de": "lassen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Opustit • Nechat",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 118,
+          "field": "study.examples[0].lv",
+          "pirmd": "Nechal jsem tu tašku",
+          "pec": "Nechávám tu tašku."
+        },
+        {
+          "block": 3,
+          "n": 119,
+          "field": "study.examples[2].lv",
+          "pirmd": "Rodiče mě nechali jít.",
+          "pec": "Rodiče mě nechávají jít."
+        },
+        {
+          "block": 3,
+          "n": 120,
+          "field": "study.explanation[1]",
+          "pirmd": "Pokud něco zůstane na místě, lassen se překládá jako odejít.",
+          "pec": "Pokud něco necháte na místě, lassen se překládá jako nechat."
+        },
+        {
+          "block": 3,
+          "n": 121,
+          "field": "study.comparison[1].meaning",
+          "pirmd": "Pobyt",
+          "pec": "Zůstat"
+        },
+        {
+          "block": 3,
+          "n": 122,
+          "field": "study.important[1]",
+          "pirmd": "Lass mich v Ruhe! existuje velmi častá věta: \"Nech mě na pokoji!\"",
+          "pec": "Lass mich in Ruhe! je velmi častá věta: „Nech mě na pokoji!“"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-lassen",
+        "index": 356,
+        "de": "lassen",
+        "layout": "standardStudy",
+        "csMain": "Opustit • Nechat",
+        "studyTranslation": "Opustit • Nechat",
+        "lvSourceMain": "atstāt • ļaut",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "atstāt • ļaut",
+            "csText": "Opustit • Nechat",
+            "de": "lassen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es atstāju somu šeit.",
+            "csText": "Nechávám tu tašku.",
+            "de": "lassen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "atstāj to, lūdzu, uz galda.",
+            "csText": "Nech to na stole, prosím.",
+            "de": "lassen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "vecāki ļauj man iet.",
+            "csText": "Rodiče mě nechávají jít.",
+            "de": "lassen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "liec mani mierā!",
+            "csText": "Nech mě na pokoji!",
+            "de": "lassen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "lassen",
+            "csText": "lassen",
+            "de": "lassen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "atstāt / ļaut",
+            "csText": "Nechat / nechat",
+            "de": "lassen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "bleiben",
+            "csText": "bleiben",
+            "de": "lassen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "palikt",
+            "csText": "Zůstat",
+            "de": "lassen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "erlauben",
+            "csText": "erlauben",
+            "de": "lassen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "atļaut",
+            "csText": "Dovolit",
+            "de": "lassen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "geben",
+            "csText": "geben",
+            "de": "lassen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "dot",
+            "csText": "Dát",
+            "de": "lassen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: kaut kas paliek → lassen; kādam atļauj → lassen.",
+            "csText": "Pamatujte: něco zůstává → lassen • Někdo smí → lassen.",
+            "de": "lassen"
+          }
+        ],
+        "study": {
+          "id": "a1-lassen",
+          "layout": "standardStudy",
+          "translation": "Opustit • Nechat",
+          "explanation": [
+            "Hlavní myšlenka: lassen znamená něco opustit nebo nechat něco, aby se stalo.",
+            "Pokud něco necháte na místě, lassen se překládá jako nechat.",
+            "Pokud někomu dáte svolení, lassen se překládá jako nechat.",
+            "Velmi častou formou konverzace je Lass mich! = Nech mě být! nebo Nech mě!"
+          ],
+          "examples": [
+            {
+              "de": "Ich lasse die Tasche hier.",
+              "lv": "Nechávám tu tašku."
+            },
+            {
+              "de": "Lass das bitte auf dem Tisch.",
+              "lv": "Nech to na stole, prosím."
+            },
+            {
+              "de": "Meine Eltern lassen mich gehen.",
+              "lv": "Rodiče mě nechávají jít."
+            },
+            {
+              "de": "Lass mich in Ruhe!",
+              "lv": "Nech mě na pokoji!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "lassen",
+              "meaning": "Nechat / nechat",
+              "example": "Ich lasse das hier."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "Zůstat",
+              "example": "Ich bleibe hier."
+            },
+            {
+              "word": "erlauben",
+              "meaning": "Dovolit",
+              "example": "Sie erlaubt mir das."
+            },
+            {
+              "word": "geben",
+              "meaning": "Dát",
+              "example": "Gib mir das Buch."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: něco zůstává → lassen • Někdo smí → lassen."
+          },
+          "important": [
+            "Lassen není jen „odejít“. Často to také znamená „nechat“.",
+            "Lass mich in Ruhe! je velmi častá věta: „Nech mě na pokoji!“"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "lassen",
+                "Lass mich"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lasse"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nechal"
+                  ],
+                  "yellow": [
+                    "Nechal"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Lass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lassen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Rodiče"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Lass mich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nech"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "lassen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nechat",
+                    "Nechat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "lasse"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pobyt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bleibe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "erlauben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dovolit"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "erlaubt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "geben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dát"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Gib"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "lassen"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "lassen"
+                ],
+                "purple": [
+                  "Lassen",
+                  "Lassen"
+                ]
+              },
+              {
+                "blue": [
+                  "Lass"
+                ],
+                "purple": [
+                  "Lass"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-lassen",
+          "layout": "standardStudy",
+          "translation": "atstāt • ļaut",
+          "explanation": [
+            "Galvenā doma: lassen nozīmē atstāt kaut ko vai ļaut kaut kam notikt.",
+            "Ja kaut kas paliek vietā, lassen tulko kā atstāt.",
+            "Ja kādam dod atļauju, lassen tulko kā ļaut.",
+            "Sarunās ļoti bieža forma ir Lass mich! = Liec mani mierā! vai Ļauj man!"
+          ],
+          "examples": [
+            {
+              "de": "Ich lasse die Tasche hier.",
+              "lv": "es atstāju somu šeit."
+            },
+            {
+              "de": "Lass das bitte auf dem Tisch.",
+              "lv": "atstāj to, lūdzu, uz galda."
+            },
+            {
+              "de": "Meine Eltern lassen mich gehen.",
+              "lv": "vecāki ļauj man iet."
+            },
+            {
+              "de": "Lass mich in Ruhe!",
+              "lv": "liec mani mierā!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "lassen",
+              "meaning": "atstāt / ļaut",
+              "example": "Ich lasse das hier."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "palikt",
+              "example": "Ich bleibe hier."
+            },
+            {
+              "word": "erlauben",
+              "meaning": "atļaut",
+              "example": "Sie erlaubt mir das."
+            },
+            {
+              "word": "geben",
+              "meaning": "dot",
+              "example": "Gib mir das Buch."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: kaut kas paliek → lassen; kādam atļauj → lassen."
+          },
+          "important": [
+            "lassen nav tikai “atstāt”. Tas bieži nozīmē arī “ļaut”.",
+            "Lass mich in Ruhe! ir ļoti bieža frāze: “Liec mani mierā!”"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "lassen",
+                "Lass mich"
+              ],
+              "purple": [
+                "atstāt",
+                "ļaut",
+                "Liec mani mierā"
+              ],
+              "green": [
+                "vietā",
+                "atļauju"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lasse"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atstāju"
+                  ],
+                  "yellow": [
+                    "somu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Lass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atstāj"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lassen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ļauj"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Lass mich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "liec mani mierā"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "lassen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "atstāt",
+                    "ļaut"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "lasse"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "palikt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bleibe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "erlauben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "atļaut"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "erlaubt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "geben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "dot"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Gib"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "lassen"
+                ],
+                "purple": [
+                  "paliek",
+                  "atļauj"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "lassen"
+                ],
+                "purple": [
+                  "atstāt",
+                  "ļaut"
+                ]
+              },
+              {
+                "blue": [
+                  "Lass mich in Ruhe"
+                ],
+                "purple": [
+                  "liec mani mierā"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-lassen",
+        "layout": "standardStudy",
+        "translation": "Opustit • Nechat",
+        "explanation": [
+          "Hlavní myšlenka: lassen znamená něco opustit nebo nechat něco, aby se stalo.",
+          "Pokud něco necháte na místě, lassen se překládá jako nechat.",
+          "Pokud někomu dáte svolení, lassen se překládá jako nechat.",
+          "Velmi častou formou konverzace je Lass mich! = Nech mě být! nebo Nech mě!"
+        ],
+        "examples": [
+          {
+            "de": "Ich lasse die Tasche hier.",
+            "lv": "Nechávám tu tašku."
+          },
+          {
+            "de": "Lass das bitte auf dem Tisch.",
+            "lv": "Nech to na stole, prosím."
+          },
+          {
+            "de": "Meine Eltern lassen mich gehen.",
+            "lv": "Rodiče mě nechávají jít."
+          },
+          {
+            "de": "Lass mich in Ruhe!",
+            "lv": "Nech mě na pokoji!"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "lassen",
+            "meaning": "Nechat / nechat",
+            "example": "Ich lasse das hier."
+          },
+          {
+            "word": "bleiben",
+            "meaning": "Zůstat",
+            "example": "Ich bleibe hier."
+          },
+          {
+            "word": "erlauben",
+            "meaning": "Dovolit",
+            "example": "Sie erlaubt mir das."
+          },
+          {
+            "word": "geben",
+            "meaning": "Dát",
+            "example": "Gib mir das Buch."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: něco zůstává → lassen • Někdo smí → lassen."
+        },
+        "important": [
+          "Lassen není jen „odejít“. Často to také znamená „nechat“.",
+          "Lass mich in Ruhe! je velmi častá věta: „Nech mě na pokoji!“"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "lassen",
+              "Lass mich"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "lasse"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nechal"
+                ],
+                "yellow": [
+                  "Nechal"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Lass"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "lassen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Rodiče"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Lass mich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nech"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "lassen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Nechat",
+                  "Nechat"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "lasse"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bleiben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Pobyt"
+                ]
+              },
+              "example": {
+                "green": [
+                  "bleibe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "erlauben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Dovolit"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "erlaubt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "geben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Dát"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Gib"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "lassen"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "lassen"
+              ],
+              "purple": [
+                "Lassen",
+                "Lassen"
+              ]
+            },
+            {
+              "blue": [
+                "Lass"
+              ],
+              "purple": [
+                "Lass"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-laufen",
+      "index": 357,
+      "de": "laufen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Běžet • Provozovat",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 123,
+          "field": "study.translation",
+          "pirmd": "Běžet • Provozovat",
+          "pec": "Běžet • Fungovat"
+        },
+        {
+          "block": 3,
+          "n": 124,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Spustit / provozovat",
+          "pec": "Běžet / fungovat"
+        },
+        {
+          "block": 3,
+          "n": 125,
+          "field": "study.comparison[3].meaning",
+          "pirmd": "Provozovat",
+          "pec": "Fungovat"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-laufen",
+        "index": 357,
+        "de": "laufen",
+        "layout": "standardStudy",
+        "csMain": "Běžet • Provozovat",
+        "studyTranslation": "Běžet • Fungovat",
+        "lvSourceMain": "skriet • darboties",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "skriet • darboties",
+            "csText": "Běžet • Fungovat",
+            "de": "laufen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "viņš skrien ļoti ātri.",
+            "csText": "Běží velmi rychle.",
+            "de": "laufen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "bērni skrien parkā.",
+            "csText": "Děti běhají v parku.",
+            "de": "laufen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "filma jau iet.",
+            "csText": "Film už běží.",
+            "de": "laufen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "mašīna darbojas labi.",
+            "csText": "Stroj funguje dobře.",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "laufen",
+            "csText": "laufen",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "skriet / darboties",
+            "csText": "Běžet / fungovat",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "gehen",
+            "csText": "gehen",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "iet kājām",
+            "csText": "Jít pěšky",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "fahren",
+            "csText": "fahren",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "braukt ar transportu",
+            "csText": "Jezdit transportem",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "funktionieren",
+            "csText": "funktionieren",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "darboties",
+            "csText": "Fungovat",
+            "de": "laufen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: kājas ātri → laufen; transports → fahren.",
+            "csText": "Pamatujte: nohy rychle → laufen • Doprava → fahren.",
+            "de": "laufen"
+          }
+        ],
+        "study": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "Běžet • Fungovat",
+          "explanation": [
+            "Hlavní myšlenka: laufen znamená běhat, ale u zařízení to může znamenat běhat.",
+            "Pro člověka nebo zvíře laufen často znamená běžet nebo chodit rychlým tempem.",
+            "Pro film, stroj nebo program laufen znamená, že běží nebo se děje.",
+            "Pro pohyb nohou na úrovni A1 se nejčastěji srovnávají gehen a laufen."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "Běží velmi rychle."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "Děti běhají v parku."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "Film už běží."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "Stroj funguje dobře."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "Běžet / fungovat",
+              "example": "Er läuft schnell."
+            },
+            {
+              "word": "gehen",
+              "meaning": "Jít pěšky",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "fahren",
+              "meaning": "Jezdit transportem",
+              "example": "Ich fahre mit dem Bus."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "Fungovat",
+              "example": "Das funktioniert gut."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: nohy rychle → laufen • Doprava → fahren."
+          },
+          "important": [
+            "Laufen není jen „běh“. U filmu nebo zařízení to může znamenat „jít“ nebo „jednat“.",
+            "Ich laufe znamená pohyb pěšky, ne řízení."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "film",
+                "Hlavní",
+                "program"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Běží"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laufen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Děti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Film"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stroj"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Spustit",
+                    "Spustit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "läuft"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jezdit"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "fahre"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Provozovat"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "funktioniert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "laufen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "fahren",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "laufen"
+                ],
+                "purple": [
+                  "Laufen",
+                  "Laufen",
+                  "Laufen"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich laufe"
+                ],
+                "purple": [
+                  "Ich"
+                ],
+                "red": [
+                  "Ich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "skriet • darboties",
+          "explanation": [
+            "Galvenā doma: laufen nozīmē skriet, bet ar ierīcēm tas var nozīmēt darboties.",
+            "Par cilvēku vai dzīvnieku laufen bieži nozīmē skriet vai iet ātrā solī.",
+            "Par filmu, mašīnu vai programmu laufen nozīmē, ka tā darbojas vai notiek.",
+            "Kustībai kājām A1 līmenī visbiežāk salīdzina gehen un laufen."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "viņš skrien ļoti ātri."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "bērni skrien parkā."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "filma jau iet."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "mašīna darbojas labi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "skriet / darboties",
+              "example": "Er läuft schnell."
+            },
+            {
+              "word": "gehen",
+              "meaning": "iet kājām",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "fahren",
+              "meaning": "braukt ar transportu",
+              "example": "Ich fahre mit dem Bus."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "darboties",
+              "example": "Das funktioniert gut."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: kājas ātri → laufen; transports → fahren."
+          },
+          "important": [
+            "laufen nav tikai “skriet”. Par filmu vai ierīci tas var nozīmēt “iet” vai “darboties”.",
+            "Ich laufe nozīmē kustību kājām, nevis braukšanu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "skriet",
+                "darboties",
+                "iet"
+              ],
+              "green": [
+                "cilvēku",
+                "dzīvnieku",
+                "filmu",
+                "mašīnu",
+                "programmu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skrien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laufen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skrien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "iet"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "darbojas"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "skriet",
+                    "darboties"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "läuft"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iet"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "braukt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "fahre"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "darboties"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "funktioniert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "laufen"
+                ],
+                "purple": [
+                  "kājas ātri"
+                ],
+                "red": [
+                  "fahren",
+                  "transports"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "laufen"
+                ],
+                "purple": [
+                  "skriet",
+                  "iet",
+                  "darboties"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich laufe"
+                ],
+                "purple": [
+                  "kustību kājām"
+                ],
+                "red": [
+                  "braukšanu"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-laufen",
+        "layout": "standardStudy",
+        "translation": "Běžet • Fungovat",
+        "explanation": [
+          "Hlavní myšlenka: laufen znamená běhat, ale u zařízení to může znamenat běhat.",
+          "Pro člověka nebo zvíře laufen často znamená běžet nebo chodit rychlým tempem.",
+          "Pro film, stroj nebo program laufen znamená, že běží nebo se děje.",
+          "Pro pohyb nohou na úrovni A1 se nejčastěji srovnávají gehen a laufen."
+        ],
+        "examples": [
+          {
+            "de": "Er läuft sehr schnell.",
+            "lv": "Běží velmi rychle."
+          },
+          {
+            "de": "Die Kinder laufen im Park.",
+            "lv": "Děti běhají v parku."
+          },
+          {
+            "de": "Der Film läuft schon.",
+            "lv": "Film už běží."
+          },
+          {
+            "de": "Die Maschine läuft gut.",
+            "lv": "Stroj funguje dobře."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "laufen",
+            "meaning": "Běžet / fungovat",
+            "example": "Er läuft schnell."
+          },
+          {
+            "word": "gehen",
+            "meaning": "Jít pěšky",
+            "example": "Ich gehe nach Hause."
+          },
+          {
+            "word": "fahren",
+            "meaning": "Jezdit transportem",
+            "example": "Ich fahre mit dem Bus."
+          },
+          {
+            "word": "funktionieren",
+            "meaning": "Fungovat",
+            "example": "Das funktioniert gut."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: nohy rychle → laufen • Doprava → fahren."
+        },
+        "important": [
+          "Laufen není jen „běh“. U filmu nebo zařízení to může znamenat „jít“ nebo „jednat“.",
+          "Ich laufe znamená pohyb pěšky, ne řízení."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "laufen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "film",
+              "Hlavní",
+              "program"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "läuft"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Běží"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "laufen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Děti"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "läuft"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Film"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "läuft"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Stroj"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "laufen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Spustit",
+                  "Spustit"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "läuft"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "gehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jít"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "gehe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "fahren"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jezdit"
+                ]
+              },
+              "example": {
+                "red": [
+                  "fahre"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "funktionieren"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Provozovat"
+                ]
+              },
+              "example": {
+                "green": [
+                  "funktioniert"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "fahren",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "Laufen",
+                "Laufen",
+                "Laufen"
+              ]
+            },
+            {
+              "blue": [
+                "Ich laufe"
+              ],
+              "purple": [
+                "Ich"
+              ],
+              "red": [
+                "Ich"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-laut",
+      "index": 358,
+      "de": "laut",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Hlasitý",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 126,
+          "field": "study.explanation[3]",
+          "pirmd": "Laut v podstatě znamená: zvukový signál.",
+          "pec": "Der Laut znamená zvuk nebo hlásku. Laut je přídavné jméno s významem hlasitý."
+        },
+        {
+          "block": 3,
+          "n": 127,
+          "field": "study.explanation[4]",
+          "pirmd": "Často popisuje: podstatné jméno (der).",
+          "pec": "Der Laut je podstatné jméno. Laut je přídavné jméno."
+        },
+        {
+          "block": 3,
+          "n": 128,
+          "field": "study.tip[1]",
+          "pirmd": "Laut = zvuk",
+          "pec": "Der Laut = zvuk • laut = hlasitý"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-laut",
+        "index": 358,
+        "de": "laut",
+        "layout": "standardStudy",
+        "csMain": "Hlasitý",
+        "studyTranslation": "Hlasitý",
+        "lvSourceMain": "skaļš",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "skaļš",
+            "csText": "Hlasitý",
+            "de": "laut"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Mūzika ir skaļa.",
+            "csText": "Hudba je hlasitá.",
+            "de": "laut"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mūzika ir skaļa.",
+            "csText": "Hudba je hlasitá.",
+            "de": "laut"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "nerunā tik skaļi!",
+            "csText": "Nemluv tak nahlas!",
+            "de": "laut"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "tas ir ļoti skaļi.",
+            "csText": "Je to velmi hlasité.",
+            "de": "laut"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "skaņa ir skaista.",
+            "csText": "Zvuk je krásný.",
+            "de": "laut"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "es dzirdu kādu skaņu.",
+            "csText": "Slyším zvuk",
+            "de": "laut"
+          }
+        ],
+        "study": {
+          "id": "a1-laut",
+          "layout": "standardStudy",
+          "translation": "Hlasitý",
+          "explanation": [
+            "Hlavní myšlenka: Malé přídavné jméno. Popisuje hlasitost – jak hlasitý je zvuk nebo řeč.",
+            "Laut znamená hlavně: hlasitý zvuk.",
+            "Často popisuje: přídavné jméno.",
+            "Der Laut znamená zvuk nebo hlásku. Laut je přídavné jméno s významem hlasitý.",
+            "Der Laut je podstatné jméno. Laut je přídavné jméno.",
+            "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
+            "Der Laut s velkým písmenem a členem der je podstatné jméno - znamená zvuk jako věc nebo signál (Der Laut ist schön = zvuk je krásný).",
+            "Množné číslo: die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Hudba je hlasitá."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Hudba je hlasitá."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Nemluv tak nahlas!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Je to velmi hlasité."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Zvuk je krásný."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Slyším zvuk"
+            }
+          ],
+          "tip": [
+            "Malý laut = hlasitý (přídavné jméno: ist laut). der Laut s velkým písmenem = zvuk (podstatné jméno: ein Laut, der Laut).",
+            "Der Laut = zvuk • laut = hlasitý"
+          ],
+          "important": [
+            "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+            "Der Laut s velkým písmenem a členem der je podstatné jméno.",
+            "Množné číslo: die Laute (zvuky jazyka, pípání).",
+            "Špatně: Der Laut ist sehr. → Správně: Das ist sehr laut."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "laut"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hudba"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hudba"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nemluv"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "velmi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zvuk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Slyším"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Malý"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "laut"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-laut",
+          "layout": "standardStudy",
+          "translation": "skaļš",
+          "explanation": [
+            "Galvenā doma: Īpašības vārds ar mazo burtu. Apraksta intensitāti — cik skaļa ir skaņa vai runa.",
+            "laut galvenokārt nozīmē: skaļa skaņa.",
+            "Bieži raksturo: īpašības vārds.",
+            "laut galvenokārt nozīmē: skaņas signāls.",
+            "Bieži raksturo: lietvārds (der).",
+            "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
+            "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
+            "Daudzskaitlī: die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Mūzika ir skaļa."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "mūzika ir skaļa."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "nerunā tik skaļi!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "tas ir ļoti skaļi."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "skaņa ir skaista."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "es dzirdu kādu skaņu."
+            }
+          ],
+          "tip": [
+            "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
+            "laut = skaņa"
+          ],
+          "important": [
+            "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
+            "der Laut ar lielo burtu un artikulu der ir lietvārds.",
+            "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+            "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "laut"
+              ],
+              "purple": [
+                "skaļa"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaļa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaļa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaļi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaļi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaņa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaņu"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "skaļš"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "laut"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-laut",
+        "layout": "standardStudy",
+        "translation": "Hlasitý",
+        "explanation": [
+          "Hlavní myšlenka: Malé přídavné jméno. Popisuje hlasitost – jak hlasitý je zvuk nebo řeč.",
+          "Laut znamená hlavně: hlasitý zvuk.",
+          "Často popisuje: přídavné jméno.",
+          "Der Laut znamená zvuk nebo hlásku. Laut je přídavné jméno s významem hlasitý.",
+          "Der Laut je podstatné jméno. Laut je přídavné jméno.",
+          "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
+          "Der Laut s velkým písmenem a členem der je podstatné jméno - znamená zvuk jako věc nebo signál (Der Laut ist schön = zvuk je krásný).",
+          "Množné číslo: die Laute."
+        ],
+        "examples": [
+          {
+            "de": "Die Musik ist laut.",
+            "lv": "Hudba je hlasitá."
+          },
+          {
+            "de": "Die Musik ist laut.",
+            "lv": "Hudba je hlasitá."
+          },
+          {
+            "de": "Sprich nicht so laut!",
+            "lv": "Nemluv tak nahlas!"
+          },
+          {
+            "de": "Das ist sehr laut.",
+            "lv": "Je to velmi hlasité."
+          },
+          {
+            "de": "Der Laut ist schön.",
+            "lv": "Zvuk je krásný."
+          },
+          {
+            "de": "Ich höre einen Laut.",
+            "lv": "Slyším zvuk"
+          }
+        ],
+        "tip": [
+          "Malý laut = hlasitý (přídavné jméno: ist laut). der Laut s velkým písmenem = zvuk (podstatné jméno: ein Laut, der Laut).",
+          "Der Laut = zvuk • laut = hlasitý"
+        ],
+        "important": [
+          "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+          "Der Laut s velkým písmenem a členem der je podstatné jméno.",
+          "Množné číslo: die Laute (zvuky jazyka, pípání).",
+          "Špatně: Der Laut ist sehr. → Správně: Das ist sehr laut."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "laut"
+            ],
+            "purple": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "laut",
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hudba"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "laut",
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hudba"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "laut",
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nemluv"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "laut",
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "velmi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "laut",
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zvuk"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "laut",
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Slyším"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Malý"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "laut"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-lang",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "Opravené překlady a příklady jsou správné; několik neaktualizovaných polí zůstává mimo opravené bloky.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Dlouhý • Dlouhý",
+          "reason": "Hlavní překlad stále opakuje „Dlouhý“, přestože studijní překlad správně rozlišuje „Dlouhý • Dlouho“.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.tip[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "O čase (den, čekání, film) → dlouhý.",
+          "reason": "V časovém významu je přirozenější české „dlouho“, nikoli „dlouhý“; pole nebylo součástí HIGH opravy.",
+          "confidence": 0.97
+        },
+        {
+          "field": "study.sectionAccents.explanation.purple",
+          "validationStatus": "STALE",
+          "severity": "low",
+          "currentCs": "dlouhý, dlouhý",
+          "reason": "Zvýraznění neodráží opravený text vysvětlení, který nyní obsahuje „dlouhý“ a „dlouho“.",
+          "confidence": 0.99,
+          "relatedRepairBlock": "block 3, n=117"
+        }
+      ]
+    },
+    {
+      "cardId": "a1-lassen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "medium",
+      "confidence": 0.99,
+      "reason": "Opravené české věty jsou správné, ale zvýraznění v plném kontextu ponechává staré tvary a významy.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[0].lv",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "medium",
+          "currentCs": "Nechal",
+          "proposedCs": "Nechávám",
+          "reason": "Zvýraznění zůstalo ve starém minulém čase, zatímco opravený překlad je v přítomném čase.",
+          "confidence": 0.99,
+          "relatedRepairBlock": "block 3, n=118"
+        },
+        {
+          "field": "study.sectionAccents.comparison[1].meaning",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "medium",
+          "currentCs": "Pobyt",
+          "proposedCs": "Zůstat",
+          "reason": "Zvýraznění ponechává původní chybný význam „Pobyt“, ačkoliv opravené pole nyní správně uvádí „Zůstat“.",
+          "confidence": 0.99,
+          "relatedRepairBlock": "block 3, n=121"
+        }
+      ]
+    },
+    {
+      "cardId": "a1-laufen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "medium",
+      "confidence": 0.99,
+      "reason": "Opravená studijní pole správně používají „fungovat“, ale hlavní překlad a zvýraznění stále obsahují starý význam „provozovat“.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Běžet • Provozovat",
+          "reason": "Hlavní překlad nebyl v HIGH opravě změněn a zůstává v rozporu s opraveným studijním překladem „Běžet • Fungovat“.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.sectionAccents.comparison[0].meaning",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "medium",
+          "currentCs": "Spustit / Spustit",
+          "proposedCs": "Běžet / Fungovat",
+          "reason": "Zvýraznění neodpovídá opravenému významu s dvojicí „Běžet / fungovat“ a ponechává starý význam „Spustit“.",
+          "confidence": 0.99,
+          "relatedRepairBlock": "block 3, n=124"
+        },
+        {
+          "field": "study.sectionAccents.comparison[3].meaning",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "medium",
+          "currentCs": "Provozovat",
+          "proposedCs": "Fungovat",
+          "reason": "Zvýraznění ponechává původní „Provozovat“, zatímco opravené srovnání správně uvádí „Fungovat“.",
+          "confidence": 0.99,
+          "relatedRepairBlock": "block 3, n=125"
+        },
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "u zařízení to může znamenat běhat",
+          "reason": "Formulace o zařízení je v češtině nepřirozená; nebyla součástí HIGH opravy.",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "cardId": "a1-laut",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "Opravené vysvětlení a tip správně rozlišují přídavné jméno laut a podstatné jméno der Laut.",
+      "findings": [
+        {
+          "field": "study.important[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+          "reason": "Věta je gramaticky chybná; správně by bylo například „Laut se píše s malým písmenem“. Pole nebylo opraveno HIGH cyklem.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.tip[1]",
+          "validationStatus": "STALE",
+          "severity": "low",
+          "currentCs": "Der Laut = zvuk • laut = hlasitý",
+          "reason": "Opravený text je správný, ale jeho zvýraznění obsahuje pouze starší první tip a druhý tip není označen.",
+          "confidence": 0.97,
+          "relatedRepairBlock": "block 3, n=128"
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:43:38.689Z"
+}

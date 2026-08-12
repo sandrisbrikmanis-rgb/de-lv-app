@@ -1,0 +1,2477 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-der",
+      "index": 134,
+      "de": "der",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Mužský rod určitý člen",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 58,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: mužský → sedí.",
+          "pec": "Pamatujte: mužský rod → der."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-der",
+        "index": 134,
+        "de": "der",
+        "layout": "standardStudy",
+        "csMain": "Mužský rod určitý člen",
+        "studyTranslation": "Mužský rod určitý člen",
+        "lvSourceMain": "vīriešu dzimtes noteiktais artikuls",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "vīriešu dzimtes noteiktais artikuls",
+            "csText": "Mužský rod určitý člen",
+            "de": "der"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto pie vīriešu dzimtes lietvārdiem. Dažos teikumos “der” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+            "csText": "Používá se s podstatnými jmény mužského rodu. V některých větách může „der“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+            "de": "der"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "vīrietis ir šeit.",
+            "csText": "Ten muž je tady.",
+            "de": "der"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "autobuss brauc.",
+            "csText": "Autobus jede.",
+            "de": "der"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "skolotājs runā.",
+            "csText": "Učitel mluví.",
+            "de": "der"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: vīriešu dzimte → der.",
+            "csText": "Pamatujte: mužský rod → der.",
+            "de": "der"
+          }
+        ],
+        "study": {
+          "id": "a1-der",
+          "layout": "standardStudy",
+          "translation": "Mužský rod určitý člen",
+          "explanation": "Používá se s podstatnými jmény mužského rodu. V některých větách může „der“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+          "examples": [
+            {
+              "de": "Der Mann ist hier.",
+              "lv": "Ten muž je tady."
+            },
+            {
+              "de": "Der Bus kommt.",
+              "lv": "Autobus jede."
+            },
+            {
+              "de": "Der Lehrer spricht.",
+              "lv": "Učitel mluví."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: mužský rod → der."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Der"
+                ]
+              },
+              {
+                "blue": [
+                  "Der"
+                ]
+              },
+              {
+                "blue": [
+                  "Der"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "úrovni"
+                ],
+                "purple": [
+                  "úrovni"
+                ]
+              },
+              {
+                "red": [
+                  "Použití",
+                  "Použití"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Na úrovni A1 byste se měli nejprve učit jako mužský článek.",
+            "Použití zájmen a relativního jména přijde později."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-der",
+          "layout": "standardStudy",
+          "translation": "vīriešu dzimtes noteiktais artikuls",
+          "explanation": "Lieto pie vīriešu dzimtes lietvārdiem. Dažos teikumos “der” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+          "examples": [
+            {
+              "de": "Der Mann ist hier.",
+              "lv": "vīrietis ir šeit."
+            },
+            {
+              "de": "Der Bus kommt.",
+              "lv": "autobuss brauc."
+            },
+            {
+              "de": "Der Lehrer spricht.",
+              "lv": "skolotājs runā."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: vīriešu dzimte → der."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Der"
+                ]
+              },
+              {
+                "blue": [
+                  "Der"
+                ]
+              },
+              {
+                "blue": [
+                  "Der"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "der"
+                ],
+                "purple": [
+                  "vīriešu dzimte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "der"
+                ],
+                "purple": [
+                  "vīriešu dzimtes artikulu"
+                ]
+              },
+              {
+                "red": [
+                  "Vietniekvārda",
+                  "relatīvā"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "A1 līmenī der vispirms mācies kā vīriešu dzimtes artikulu.",
+            "Vietniekvārda un relatīvā lietojumi nāk vēlāk."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-der",
+        "layout": "standardStudy",
+        "translation": "Mužský rod určitý člen",
+        "explanation": "Používá se s podstatnými jmény mužského rodu. V některých větách může „der“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+        "examples": [
+          {
+            "de": "Der Mann ist hier.",
+            "lv": "Ten muž je tady."
+          },
+          {
+            "de": "Der Bus kommt.",
+            "lv": "Autobus jede."
+          },
+          {
+            "de": "Der Lehrer spricht.",
+            "lv": "Učitel mluví."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: mužský rod → der."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "Der"
+              ]
+            },
+            {
+              "blue": [
+                "Der"
+              ]
+            },
+            {
+              "blue": [
+                "Der"
+              ]
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "úrovni"
+              ],
+              "purple": [
+                "úrovni"
+              ]
+            },
+            {
+              "red": [
+                "Použití",
+                "Použití"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Na úrovni A1 byste se měli nejprve učit jako mužský článek.",
+          "Použití zájmen a relativního jména přijde později."
+        ]
+      }
+    },
+    {
+      "cardId": "a1-die",
+      "index": 137,
+      "de": "die",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Ženský určitý člen",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 59,
+          "field": "study.examples[1].lv",
+          "pirmd": "Kotě spí.",
+          "pec": "Kočka spí."
+        },
+        {
+          "block": 2,
+          "n": 60,
+          "field": "study.examples[2].lv",
+          "pirmd": "Vysvětluje učitel.",
+          "pec": "Učitelka vysvětluje."
+        },
+        {
+          "block": 2,
+          "n": 61,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: ženský → zemřít.",
+          "pec": "Pamatujte: ženský rod → die."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-die",
+        "index": 137,
+        "de": "die",
+        "layout": "standardStudy",
+        "csMain": "Ženský určitý člen",
+        "studyTranslation": "Ženský určitý člen",
+        "lvSourceMain": "sieviešu dzimtes noteiktais artikuls",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "sieviešu dzimtes noteiktais artikuls",
+            "csText": "Ženský určitý člen",
+            "de": "die"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto pie sieviešu dzimtes lietvārdiem. Dažos teikumos “die” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+            "csText": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+            "de": "die"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "sieviete ir šeit.",
+            "csText": "Žena je tady.",
+            "de": "die"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "kaķene guļ.",
+            "csText": "Kočka spí.",
+            "de": "die"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "skolotāja skaidro.",
+            "csText": "Učitelka vysvětluje.",
+            "de": "die"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: sieviešu dzimte → die.",
+            "csText": "Pamatujte: ženský rod → die.",
+            "de": "die"
+          }
+        ],
+        "study": {
+          "id": "a1-die",
+          "layout": "standardStudy",
+          "translation": "Ženský určitý člen",
+          "explanation": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+          "examples": [
+            {
+              "de": "Die Frau ist hier.",
+              "lv": "Žena je tady."
+            },
+            {
+              "de": "Die Katze schläft.",
+              "lv": "Kočka spí."
+            },
+            {
+              "de": "Die Lehrerin erklärt.",
+              "lv": "Učitelka vysvětluje."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: ženský rod → die."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Die"
+                ]
+              },
+              {
+                "blue": [
+                  "Die"
+                ]
+              },
+              {
+                "blue": [
+                  "Die"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "úrovni"
+                ],
+                "purple": [
+                  "úrovni"
+                ]
+              },
+              {
+                "blue": [
+                  "Množné"
+                ],
+                "green": [
+                  "Množné"
+                ],
+                "purple": [
+                  "Množné"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Na úrovni A1 je kostka nejprve studována jako ženský článek.",
+            "V množném čísle se die používá pro všechny rody."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-die",
+          "layout": "standardStudy",
+          "translation": "sieviešu dzimtes noteiktais artikuls",
+          "explanation": "Lieto pie sieviešu dzimtes lietvārdiem. Dažos teikumos “die” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+          "examples": [
+            {
+              "de": "Die Frau ist hier.",
+              "lv": "sieviete ir šeit."
+            },
+            {
+              "de": "Die Katze schläft.",
+              "lv": "kaķene guļ."
+            },
+            {
+              "de": "Die Lehrerin erklärt.",
+              "lv": "skolotāja skaidro."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: sieviešu dzimte → die."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Die"
+                ]
+              },
+              {
+                "blue": [
+                  "Die"
+                ]
+              },
+              {
+                "blue": [
+                  "Die"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "die"
+                ],
+                "purple": [
+                  "sieviešu dzimte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "die"
+                ],
+                "purple": [
+                  "sieviešu dzimtes artikulu"
+                ]
+              },
+              {
+                "blue": [
+                  "die"
+                ],
+                "green": [
+                  "Daudzskaitlī"
+                ],
+                "purple": [
+                  "visām dzimtēm"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "A1 līmenī die vispirms mācies kā sieviešu dzimtes artikulu.",
+            "Daudzskaitlī die lieto arī visām dzimtēm."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-die",
+        "layout": "standardStudy",
+        "translation": "Ženský určitý člen",
+        "explanation": "Používá se s podstatnými jmény ženského rodu. V některých větách může „die“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+        "examples": [
+          {
+            "de": "Die Frau ist hier.",
+            "lv": "Žena je tady."
+          },
+          {
+            "de": "Die Katze schläft.",
+            "lv": "Kočka spí."
+          },
+          {
+            "de": "Die Lehrerin erklärt.",
+            "lv": "Učitelka vysvětluje."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: ženský rod → die."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "Die"
+              ]
+            },
+            {
+              "blue": [
+                "Die"
+              ]
+            },
+            {
+              "blue": [
+                "Die"
+              ]
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "úrovni"
+              ],
+              "purple": [
+                "úrovni"
+              ]
+            },
+            {
+              "blue": [
+                "Množné"
+              ],
+              "green": [
+                "Množné"
+              ],
+              "purple": [
+                "Množné"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Na úrovni A1 je kostka nejprve studována jako ženský článek.",
+          "V množném čísle se die používá pro všechny rody."
+        ]
+      }
+    },
+    {
+      "cardId": "a1-eis",
+      "index": 157,
+      "de": "Eis",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Zmrzlina • Zmrzlina",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 62,
+          "field": "study.translation",
+          "pirmd": "Zmrzlina • Zmrzlina",
+          "pec": "Led • Zmrzlina"
+        },
+        {
+          "block": 2,
+          "n": 63,
+          "field": "study.explanation[0]",
+          "pirmd": "Hlavní myšlenka: das Eis může znamenat jak zmrzlinu, tak zmrzlinu.",
+          "pec": "Hlavní myšlenka: das Eis může znamenat led i zmrzlinu."
+        },
+        {
+          "block": 2,
+          "n": 64,
+          "field": "study.comparison[1].meaning",
+          "pirmd": "Bude sněžit",
+          "pec": "Sníh"
+        },
+        {
+          "block": 2,
+          "n": 65,
+          "field": "study.important[0]",
+          "pirmd": "V češtině jsou zmrzlina a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
+          "pec": "V češtině jsou led a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-eis",
+        "index": 157,
+        "de": "Eis",
+        "layout": "standardStudy",
+        "csMain": "Zmrzlina • Zmrzlina",
+        "studyTranslation": "Led • Zmrzlina",
+        "lvSourceMain": "ledus • saldējums",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ledus • saldējums",
+            "csText": "Led • Zmrzlina",
+            "de": "Eis"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es ēdu saldējumu.",
+            "csText": "Jím zmrzlinu",
+            "de": "Eis"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "vai tu gribi saldējumu?",
+            "csText": "Chceš zmrzlinu",
+            "de": "Eis"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "ziemā uz ezera ir ledus.",
+            "csText": "V zimě je na jezeře led.",
+            "de": "Eis"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ledus ir auksts.",
+            "csText": "Led je studený.",
+            "de": "Eis"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "es ņemšu saldējumu ar šokolādi.",
+            "csText": "Dám si čokoládovou zmrzlinu.",
+            "de": "Eis"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "das Eis",
+            "csText": "das Eis",
+            "de": "Eis"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "ledus / saldējums",
+            "csText": "Zmrzlina / zmrzlina",
+            "de": "Eis"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "der Schnee",
+            "csText": "der Schnee",
+            "de": "Eis"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "sniegs",
+            "csText": "Sníh",
+            "de": "Eis"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "kalt",
+            "csText": "kalt",
+            "de": "Eis"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "auksts",
+            "csText": "Studený",
+            "de": "Eis"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "das Dessert",
+            "csText": "das Dessert",
+            "de": "Eis"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "deserts",
+            "csText": "Dezert",
+            "de": "Eis"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus.",
+            "csText": "Pamatujte: jídlo → zmrzlina • Zima/voda → led.",
+            "de": "Eis"
+          }
+        ],
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "Led • Zmrzlina",
+          "explanation": [
+            "Hlavní myšlenka: das Eis může znamenat led i zmrzlinu.",
+            "Když se řekne studená zmrzlá voda, česky se obvykle řekne led.",
+            "Pokud jde o jídlo nebo dezert, das Eis velmi často znamená zmrzlinu v každodenním životě.",
+            "Kontext obvykle okamžitě napoví, jaký význam je zamýšlen.",
+            "Na úrovni A1 jsou nejdůležitější fráze ein Eis essen a Eis im Glas."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Jím zmrzlinu"
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "Chceš zmrzlinu"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "V zimě je na jezeře led."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "Led je studený."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Dám si čokoládovou zmrzlinu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "Zmrzlina / zmrzlina",
+              "example": "Ich esse ein Eis. = Jím zmrzlinu."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "Sníh",
+              "example": "Der Schnee ist weiß. = Sníh je bílý."
+            },
+            {
+              "word": "kalt",
+              "meaning": "Studený",
+              "example": "Das Wasser ist kalt. = Voda je studená."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "Dezert",
+              "example": "Eis ist ein Dessert. = Zmrzlina je dezert."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: jídlo → zmrzlina • Zima/voda → led."
+          },
+          "important": [
+            "V češtině jsou led a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
+            "Klíčový je kontext: jídlo znamená zmrzlinu, studený povrch nebo voda led."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Eis",
+                "Eis"
+              ],
+              "purple": [
+                "led",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "dezert"
+              ],
+              "yellow": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chceš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zimě"
+                  ],
+                  "green": [
+                    "zimě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Led"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dám"
+                  ],
+                  "yellow": [
+                    "Dám"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Eis"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zmrzlina",
+                    "Zmrzlina"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Eis"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Schnee"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Bude"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Schnee",
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "kalt"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Studený"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "kalt",
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Dessert"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dezert"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Eis"
+                  ],
+                  "red": [
+                    "Dessert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ],
+                "green": [
+                  "Pamatujte",
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "das Eis"
+                ],
+                "purple": [
+                  "češtině",
+                  "češtině"
+                ]
+              },
+              {
+                "purple": [
+                  "Klíčový",
+                  "led"
+                ],
+                "green": [
+                  "Klíčový",
+                  "Klíčový",
+                  "Klíčový"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "ledus • saldējums",
+          "explanation": [
+            "Galvenā doma: das Eis var nozīmēt gan ledu, gan saldējumu.",
+            "Ja runa ir par aukstu sasalušu ūdeni, latviski parasti saka ledus.",
+            "Ja runa ir par ēdienu vai desertu, das Eis ikdienā ļoti bieži nozīmē saldējums.",
+            "Konteksts parasti uzreiz pasaka, kura nozīme ir domāta.",
+            "A1 līmenī svarīgākās frāzes ir ein Eis essen un Eis im Glas."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "es ēdu saldējumu."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "vai tu gribi saldējumu?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "ziemā uz ezera ir ledus."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "ledus ir auksts."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "es ņemšu saldējumu ar šokolādi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "ledus / saldējums",
+              "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "sniegs",
+              "example": "Der Schnee ist weiß. = Sniegs ir balts."
+            },
+            {
+              "word": "kalt",
+              "meaning": "auksts",
+              "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "deserts",
+              "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus."
+          },
+          "important": [
+            "Latviski ledus un saldējums ir divi dažādi vārdi, bet vāciski abiem bieži lieto das Eis.",
+            "Konteksts ir galvenais: ēdiens nozīmē saldējumu, auksta virsma vai ūdens nozīmē ledu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Eis",
+                "Eis"
+              ],
+              "purple": [
+                "ledu",
+                "ledus",
+                "saldējums"
+              ],
+              "green": [
+                "ēdienu",
+                "desertu"
+              ],
+              "yellow": [
+                "ūdeni"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saldējumu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saldējumu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ledus"
+                  ],
+                  "green": [
+                    "ezera"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ledus"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saldējumu"
+                  ],
+                  "yellow": [
+                    "šokolādi"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Eis"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ledus",
+                    "saldējums"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Eis"
+                  ],
+                  "purple": [
+                    "saldējumu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Schnee"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sniegs"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Schnee",
+                    "Sniegs"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "kalt"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "auksts"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "kalt",
+                    "auksts"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Dessert"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "deserts"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Eis"
+                  ],
+                  "red": [
+                    "deserts"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "saldējums",
+                  "ledus"
+                ],
+                "green": [
+                  "ēdiens",
+                  "ziema",
+                  "ūdens"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "das Eis"
+                ],
+                "purple": [
+                  "ledus",
+                  "saldējums"
+                ]
+              },
+              {
+                "purple": [
+                  "saldējumu",
+                  "ledu"
+                ],
+                "green": [
+                  "ēdiens",
+                  "auksta virsma",
+                  "ūdens"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-eis",
+        "layout": "standardStudy",
+        "translation": "Led • Zmrzlina",
+        "explanation": [
+          "Hlavní myšlenka: das Eis může znamenat led i zmrzlinu.",
+          "Když se řekne studená zmrzlá voda, česky se obvykle řekne led.",
+          "Pokud jde o jídlo nebo dezert, das Eis velmi často znamená zmrzlinu v každodenním životě.",
+          "Kontext obvykle okamžitě napoví, jaký význam je zamýšlen.",
+          "Na úrovni A1 jsou nejdůležitější fráze ein Eis essen a Eis im Glas."
+        ],
+        "examples": [
+          {
+            "de": "Ich esse ein Eis.",
+            "lv": "Jím zmrzlinu"
+          },
+          {
+            "de": "Möchtest du ein Eis?",
+            "lv": "Chceš zmrzlinu"
+          },
+          {
+            "de": "Im Winter liegt Eis auf dem See.",
+            "lv": "V zimě je na jezeře led."
+          },
+          {
+            "de": "Das Eis ist kalt.",
+            "lv": "Led je studený."
+          },
+          {
+            "de": "Ich nehme ein Eis mit Schokolade.",
+            "lv": "Dám si čokoládovou zmrzlinu."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "das Eis",
+            "meaning": "Zmrzlina / zmrzlina",
+            "example": "Ich esse ein Eis. = Jím zmrzlinu."
+          },
+          {
+            "word": "der Schnee",
+            "meaning": "Sníh",
+            "example": "Der Schnee ist weiß. = Sníh je bílý."
+          },
+          {
+            "word": "kalt",
+            "meaning": "Studený",
+            "example": "Das Wasser ist kalt. = Voda je studená."
+          },
+          {
+            "word": "das Dessert",
+            "meaning": "Dezert",
+            "example": "Eis ist ein Dessert. = Zmrzlina je dezert."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: jídlo → zmrzlina • Zima/voda → led."
+        },
+        "important": [
+          "V češtině jsou led a zmrzlina dvě různá slova, ale v němčině se pro obojí často používá das Eis.",
+          "Klíčový je kontext: jídlo znamená zmrzlinu, studený povrch nebo voda led."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "das Eis",
+              "Eis"
+            ],
+            "purple": [
+              "led",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "dezert"
+            ],
+            "yellow": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Eis"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Eis"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Chceš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Eis"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "zimě"
+                ],
+                "green": [
+                  "zimě"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Eis"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Led"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Eis"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dám"
+                ],
+                "yellow": [
+                  "Dám"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "das Eis"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Zmrzlina",
+                  "Zmrzlina"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Eis"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "der Schnee"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Bude"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Schnee",
+                  "Der"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "kalt"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Studený"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "kalt",
+                  "Das"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "das Dessert"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Dezert"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Eis"
+                ],
+                "red": [
+                  "Dessert"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ],
+              "green": [
+                "Pamatujte",
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "das Eis"
+              ],
+              "purple": [
+                "češtině",
+                "češtině"
+              ]
+            },
+            {
+              "purple": [
+                "Klíčový",
+                "led"
+              ],
+              "green": [
+                "Klíčový",
+                "Klíčový",
+                "Klíčový"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-erst",
+      "index": 165,
+      "de": "erst",
+      "auditType": "high_repair_changed_card",
+      "csMain": "První • Pouze",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 66,
+          "field": "study.translation",
+          "pirmd": "První • Pouze",
+          "pec": "Nejprve • Až / teprve"
+        },
+        {
+          "block": 2,
+          "n": 67,
+          "field": "study.explanation",
+          "pirmd": "„erst“ se používá k označení sekvence (první) nebo ke zdůraznění, že se něco stane později, než se očekávalo, nebo v menší míře (pouze).",
+          "pec": "„erst“ označuje pořadí (nejprve) nebo zdůrazňuje, že se něco stane později, než se čekalo, případně v omezené míře (až, teprve)."
+        },
+        {
+          "block": 2,
+          "n": 68,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "První • Pouze",
+          "pec": "Nejprve • Až / teprve"
+        },
+        {
+          "block": 2,
+          "n": 69,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: čas/číslo → erst • Množství → ne.",
+          "pec": "Pamatujte: čas/číslo → erst • Množství → nur."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-erst",
+        "index": 165,
+        "de": "erst",
+        "layout": "standardStudy",
+        "csMain": "První • Pouze",
+        "studyTranslation": "Nejprve • Až / teprve",
+        "lvSourceMain": "tikai",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "tikai",
+            "csText": "Nejprve • Až / teprve",
+            "de": "erst"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Vispirms mācies, pēc tam spēlējies.",
+            "csText": "Nejdřív pij, pak řiď.",
+            "de": "erst"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es atbraukšu tikai rīt.",
+            "csText": "Přijedu až zítra.",
+            "de": "erst"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņam ir tikai 18 gadi.",
+            "csText": "Je mu teprve 18 let.",
+            "de": "erst"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "mēs ēdam tikai astoņos.",
+            "csText": "Jíme jen v osm.",
+            "de": "erst"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "erst",
+            "csText": "erst",
+            "de": "erst"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "vispirms • tikai",
+            "csText": "Nejprve • Až / teprve",
+            "de": "erst"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "zuerst",
+            "csText": "zuerst",
+            "de": "erst"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "vispirms • sākumā",
+            "csText": "První • Na začátku",
+            "de": "erst"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "nur",
+            "csText": "nur",
+            "de": "erst"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "tikai",
+            "csText": "Pouze",
+            "de": "erst"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "dann",
+            "csText": "dann",
+            "de": "erst"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "tad",
+            "csText": "Pak",
+            "de": "erst"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: laiks/skaits → erst; daudzums → nur.",
+            "csText": "Pamatujte: čas/číslo → erst • Množství → nur.",
+            "de": "erst"
+          }
+        ],
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "Nejprve • Až / teprve",
+          "explanation": "„erst“ označuje pořadí (nejprve) nebo zdůrazňuje, že se něco stane později, než se čekalo, případně v omezené míře (až, teprve).",
+          "examples": [
+            {
+              "de": "Erst trinken, dann fahren.",
+              "lv": "Nejdřív pij, pak řiď."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Přijedu až zítra."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Je mu teprve 18 let."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Jíme jen v osm."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "Nejprve • Až / teprve",
+              "example": "Erst arbeiten, dann Pause. = Nejprve pracujte, pak pauza."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "První • Na začátku",
+              "example": "Zuerst frühstücken wir. = Nejprve snídáme."
+            },
+            {
+              "word": "nur",
+              "meaning": "Pouze",
+              "example": "Ich habe nur 5 Euro. = Mám jen 5 eur."
+            },
+            {
+              "word": "dann",
+              "meaning": "Pak",
+              "example": "Dann gehen wir nach Hause. = Pak jdeme domů."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: čas/číslo → erst • Množství → nur."
+          },
+          "accents": {
+            "blue": [
+              "Erst",
+              "Erst"
+            ],
+            "green": [
+              "Zuerst",
+              "Zuerst"
+            ],
+            "yellow": [
+              "Nur"
+            ],
+            "red": [
+              "Dann",
+              "Dann"
+            ]
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Erst"
+                ],
+                "red": [
+                  "dann"
+                ]
+              },
+              {
+                "blue": [
+                  "erst"
+                ]
+              },
+              {
+                "blue": [
+                  "erst"
+                ]
+              },
+              {
+                "blue": [
+                  "erst"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "erst"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Erst"
+                  ],
+                  "red": [
+                    "dann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zuerst"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Zuerst"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nur"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "nur"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dann"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Dann"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "erst"
+                ],
+                "yellow": [
+                  "Pamatujte"
+                ],
+                "green": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "erst"
+                ],
+                "yellow": [
+                  "nur"
+                ],
+                "purple": [
+                  "Erst"
+                ]
+              },
+              {
+                "blue": [
+                  "erst"
+                ],
+                "green": [
+                  "Erst",
+                  "Erst"
+                ],
+                "yellow": [
+                  "nur"
+                ],
+                "purple": [
+                  "Erst"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Erst a nur mohou znít jako „pouze“, ale nejsou totéž.",
+            "Erst často mluví o čase, posloupnosti nebo o dosažení určitého bodu • Nur omezuje množství."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "tikai",
+          "explanation": [
+            "Galvenā doma: erst visbiežāk nozīmē tikai. Taču noteiktā kontekstā tas var nozīmēt arī vispirms.",
+            "erst bieži norāda, ka kaut kas notiek vēlāk, nekā gaidīts.",
+            "Ich bin erst 18. — Man ir tikai 18 gadi.",
+            "Es ist erst Montag. — Ir tikai pirmdiena.",
+            "Erst lernen, dann spielen. — Vispirms mācies, pēc tam spēlējies."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Vispirms mācies, pēc tam spēlējies."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "es atbraukšu tikai rīt."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "viņam ir tikai 18 gadi."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "mēs ēdam tikai astoņos."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "vispirms • tikai",
+              "example": "Erst lernen, dann spielen. – Vispirms mācies, pēc tam spēlējies."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "vispirms • sākumā",
+              "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+            },
+            {
+              "word": "nur",
+              "meaning": "tikai",
+              "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+            },
+            {
+              "word": "dann",
+              "meaning": "tad",
+              "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: laiks/skaits → erst; daudzums → nur."
+          },
+          "accents": {
+            "blue": [
+              "erst",
+              "Erst"
+            ],
+            "green": [
+              "zuerst",
+              "Zuerst"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "red": [
+              "dann",
+              "Dann"
+            ]
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Erst"
+                ],
+                "red": [
+                  "dann"
+                ]
+              },
+              {
+                "blue": [
+                  "erst"
+                ]
+              },
+              {
+                "blue": [
+                  "erst"
+                ]
+              },
+              {
+                "blue": [
+                  "erst"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "erst"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Erst"
+                  ],
+                  "red": [
+                    "dann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zuerst"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Zuerst"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nur"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "nur"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dann"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Dann"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "erst"
+                ],
+                "yellow": [
+                  "nur"
+                ],
+                "green": [
+                  "laiks",
+                  "skaits"
+                ],
+                "purple": [
+                  "daudzums"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "erst"
+                ],
+                "yellow": [
+                  "nur"
+                ],
+                "purple": [
+                  "tikai"
+                ]
+              },
+              {
+                "blue": [
+                  "erst"
+                ],
+                "green": [
+                  "laiku",
+                  "secību"
+                ],
+                "yellow": [
+                  "nur"
+                ],
+                "purple": [
+                  "daudzumu"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "erst un zuerst nav pilnīgi sinonīmi.",
+            "erst bieži nozīmē: tikai.",
+            "zuerst biežāk nozīmē: vispirms."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-erst",
+        "layout": "standardStudy",
+        "translation": "Nejprve • Až / teprve",
+        "explanation": "„erst“ označuje pořadí (nejprve) nebo zdůrazňuje, že se něco stane později, než se čekalo, případně v omezené míře (až, teprve).",
+        "examples": [
+          {
+            "de": "Erst trinken, dann fahren.",
+            "lv": "Nejdřív pij, pak řiď."
+          },
+          {
+            "de": "Ich komme erst morgen.",
+            "lv": "Přijedu až zítra."
+          },
+          {
+            "de": "Er ist erst 18 Jahre alt.",
+            "lv": "Je mu teprve 18 let."
+          },
+          {
+            "de": "Wir essen erst um acht Uhr.",
+            "lv": "Jíme jen v osm."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "erst",
+            "meaning": "Nejprve • Až / teprve",
+            "example": "Erst arbeiten, dann Pause. = Nejprve pracujte, pak pauza."
+          },
+          {
+            "word": "zuerst",
+            "meaning": "První • Na začátku",
+            "example": "Zuerst frühstücken wir. = Nejprve snídáme."
+          },
+          {
+            "word": "nur",
+            "meaning": "Pouze",
+            "example": "Ich habe nur 5 Euro. = Mám jen 5 eur."
+          },
+          {
+            "word": "dann",
+            "meaning": "Pak",
+            "example": "Dann gehen wir nach Hause. = Pak jdeme domů."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: čas/číslo → erst • Množství → nur."
+        },
+        "accents": {
+          "blue": [
+            "Erst",
+            "Erst"
+          ],
+          "green": [
+            "Zuerst",
+            "Zuerst"
+          ],
+          "yellow": [
+            "Nur"
+          ],
+          "red": [
+            "Dann",
+            "Dann"
+          ]
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "Erst"
+              ],
+              "red": [
+                "dann"
+              ]
+            },
+            {
+              "blue": [
+                "erst"
+              ]
+            },
+            {
+              "blue": [
+                "erst"
+              ]
+            },
+            {
+              "blue": [
+                "erst"
+              ]
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "erst"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Erst"
+                ],
+                "red": [
+                  "dann"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zuerst"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Zuerst"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nur"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "nur"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "dann"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Dann"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "erst"
+              ],
+              "yellow": [
+                "Pamatujte"
+              ],
+              "green": [
+                "Pamatujte",
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "erst"
+              ],
+              "yellow": [
+                "nur"
+              ],
+              "purple": [
+                "Erst"
+              ]
+            },
+            {
+              "blue": [
+                "erst"
+              ],
+              "green": [
+                "Erst",
+                "Erst"
+              ],
+              "yellow": [
+                "nur"
+              ],
+              "purple": [
+                "Erst"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Erst a nur mohou znít jako „pouze“, ale nejsou totéž.",
+          "Erst často mluví o čase, posloupnosti nebo o dosažení určitého bodu • Nur omezuje množství."
+        ]
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-der",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Opravený tip je v češtině gramaticky i významově správný. V kontextu karty nebyla zjištěna regrese způsobená HIGH opravou.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-die",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Opravené překlady příkladů i tip správně vyjadřují ženský rod a člen die. Nebyla zjištěna regrese způsobená HIGH opravou.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-eis",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "HIGH opravy správně rozlišují led a zmrzlinu. Karta však obsahuje starší nekonzistence v hlavním názvu a prvním srovnání.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Zmrzlina • Zmrzlina",
+          "proposedCs": null,
+          "reason": "Hlavní název stále opakuje zmrzlinu a neodráží opravené rozlišení významů das Eis.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "study.comparison[0].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Zmrzlina / zmrzlina",
+          "proposedCs": null,
+          "reason": "První význam ve srovnání stále nesprávně uvádí dvakrát zmrzlinu, přestože opravený překlad rozlišuje led a zmrzlinu.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    },
+    {
+      "cardId": "a1-erst",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.97,
+      "reason": "HIGH opravy správně vymezují významy erst jako nejprve a až/teprve. Zjištěné starší nesrovnalosti nejsou v opravených polích.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "První • Pouze",
+          "proposedCs": null,
+          "reason": "Hlavní název stále používá méně přesné a částečně zavádějící významy oproti opravenému study.translation.",
+          "confidence": 0.98,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "První • Na začátku",
+          "proposedCs": null,
+          "reason": "Význam zuerst je stylisticky nepřesný; „první“ zde nefunguje přirozeně jako české příslovce. Pole nebylo HIGH opravou změněno.",
+          "confidence": 0.96,
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:41:45.848Z"
+}

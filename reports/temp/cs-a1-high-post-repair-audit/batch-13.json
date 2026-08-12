@@ -1,0 +1,1341 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-Sekunde-545",
+      "index": 545,
+      "de": "Sekunde",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Sekunda",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 49,
+          "field": "csText",
+          "pirmd": "Sekundu",
+          "pec": "Sekunda"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Sekunde-545",
+        "index": 545,
+        "de": "Sekunde",
+        "de_article": "die",
+        "de_plural": "die Sekunden",
+        "lvSource": "sekunde",
+        "csText": "Sekunda",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Sommer-565",
+      "index": 565,
+      "de": "Sommer",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Léto",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 50,
+          "field": "csText",
+          "pirmd": "Letní",
+          "pec": "Léto"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Sommer-565",
+        "index": 565,
+        "de": "Sommer",
+        "de_article": "der",
+        "de_plural": "die Sommer",
+        "lvSource": "vasara",
+        "csText": "Léto",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-das",
+      "index": 129,
+      "de": "das",
+      "auditType": "owner_corrected_focus",
+      "csMain": "Neuter určitý člen",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 51,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: střední genitiv → das • Že → dass.",
+          "pec": "Pamatujte: střední rod → das • Že → dass."
+        },
+        {
+          "block": 2,
+          "n": 52,
+          "field": "study.important[1]",
+          "pirmd": "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená 'to'.",
+          "pec": "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená „že“."
+        },
+        {
+          "block": 6,
+          "n": 270,
+          "field": "study.comparison[2].meaning",
+          "pirmd": "Kdo • Který • Kdo",
+          "pec": "Které"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-das",
+        "index": 129,
+        "de": "das",
+        "layout": "standardStudy",
+        "csMain": "Neuter určitý člen",
+        "studyTranslation": "Určitý člen středního rodu",
+        "lvSourceMain": "vidus dzimtes noteiktais artikuls",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "vidus dzimtes noteiktais artikuls",
+            "csText": "Určitý člen středního rodu",
+            "de": "das"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Lieto pie vidus dzimtes lietvārdiem. Dažos teikumos “das” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+            "csText": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+            "de": "das"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "tas ir mans auto.",
+            "csText": "Je to moje auto",
+            "de": "das"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "tas ir labi.",
+            "csText": "To je dobře.",
+            "de": "das"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "grāmata, kuru es lasu, ir interesanta.",
+            "csText": "Kniha, kterou čtu, je zajímavá.",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "das",
+            "csText": "das",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "tas (artikuls / vietniekvārds)",
+            "csText": "To (článek / zájmeno)",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "dies",
+            "csText": "dies",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "šis",
+            "csText": "Tenhle",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "welches",
+            "csText": "welches",
+            "de": "das"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "kurš • kura • kuru",
+            "csText": "Které",
+            "de": "das"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: vidus dzimte → das; ka → dass.",
+            "csText": "Pamatujte: střední rod → das • Že → dass.",
+            "de": "das"
+          }
+        ],
+        "study": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "Určitý člen středního rodu",
+          "explanation": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "Je to moje auto"
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "To je dobře."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "Kniha, kterou čtu, je zajímavá."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "To (článek / zájmeno)",
+              "example": "Das ist mein Auto. – Je to moje auto."
+            },
+            {
+              "word": "dies",
+              "meaning": "Tenhle",
+              "example": "Dies ist mein Auto. – Tohle je moje auto."
+            },
+            {
+              "word": "welches",
+              "meaning": "Které",
+              "example": "Das ist das Buch, welches ich lese. – Je to kniha, kterou čtu."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: střední rod → das • Že → dass."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Das"
+                ]
+              },
+              {
+                "blue": [
+                  "Das"
+                ]
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ],
+                  "yellow": [
+                    "das"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dies"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Dies"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "welches"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das",
+                    "das"
+                  ],
+                  "yellow": [
+                    "welches"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "dass"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "úrovni"
+                ]
+              },
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "Das",
+                  "Das"
+                ],
+                "red": [
+                  "dass"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Na úrovni A1 je das nejprve studován jako článek středního rodu.",
+            "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená „že“."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "vidus dzimtes noteiktais artikuls",
+          "explanation": "Lieto pie vidus dzimtes lietvārdiem. Dažos teikumos “das” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "tas ir mans auto."
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "tas ir labi."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "grāmata, kuru es lasu, ir interesanta."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "tas (artikuls / vietniekvārds)",
+              "example": "Das ist mein Auto. – Tas ir mans auto."
+            },
+            {
+              "word": "dies",
+              "meaning": "šis",
+              "example": "Dies ist mein Auto. – Šis ir mans auto."
+            },
+            {
+              "word": "welches",
+              "meaning": "kurš • kura • kuru",
+              "example": "Das ist das Buch, welches ich lese. – Tā ir grāmata, kuru es lasu."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: vidus dzimte → das; ka → dass."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "blue": [
+                  "Das"
+                ]
+              },
+              {
+                "blue": [
+                  "Das"
+                ]
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ],
+                  "yellow": [
+                    "das"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dies"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Dies"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "welches"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das",
+                    "das"
+                  ],
+                  "yellow": [
+                    "welches"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "vidus dzimte"
+                ],
+                "red": [
+                  "dass"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "vidus dzimtes artikulu"
+                ]
+              },
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "artikuls",
+                  "vietniekvārds"
+                ],
+                "red": [
+                  "dass"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
+            "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-das",
+        "layout": "standardStudy",
+        "translation": "Určitý člen středního rodu",
+        "explanation": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+        "examples": [
+          {
+            "de": "Das ist mein Auto.",
+            "lv": "Je to moje auto"
+          },
+          {
+            "de": "Das ist gut.",
+            "lv": "To je dobře."
+          },
+          {
+            "de": "Das Buch, das ich lese, ist interessant.",
+            "lv": "Kniha, kterou čtu, je zajímavá."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "das",
+            "meaning": "To (článek / zájmeno)",
+            "example": "Das ist mein Auto. – Je to moje auto."
+          },
+          {
+            "word": "dies",
+            "meaning": "Tenhle",
+            "example": "Dies ist mein Auto. – Tohle je moje auto."
+          },
+          {
+            "word": "welches",
+            "meaning": "Které",
+            "example": "Das ist das Buch, welches ich lese. – Je to kniha, kterou čtu."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: střední rod → das • Že → dass."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "blue": [
+                "Das"
+              ]
+            },
+            {
+              "blue": [
+                "Das"
+              ]
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ],
+                "yellow": [
+                  "das"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "das"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Das"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "dies"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Dies"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "welches"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Das",
+                  "das"
+                ],
+                "yellow": [
+                  "welches"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "das"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "dass"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "das"
+              ],
+              "purple": [
+                "úrovni"
+              ]
+            },
+            {
+              "blue": [
+                "das"
+              ],
+              "purple": [
+                "Das",
+                "Das"
+              ],
+              "red": [
+                "dass"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Na úrovni A1 je das nejprve studován jako článek středního rodu.",
+          "Das není totéž co dass – das může být člen nebo zájmeno, dass znamená „že“."
+        ]
+      }
+    },
+    {
+      "cardId": "a1-dass",
+      "index": 130,
+      "de": "dass",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Že",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 53,
+          "field": "study.explanation",
+          "pirmd": "Zavádí pomocnou klauzuli, která vyjadřuje skutečnost, myšlenku nebo tvrzení.",
+          "pec": "Uvozuje vedlejší větu, která vyjadřuje skutečnost, myšlenku nebo tvrzení."
+        },
+        {
+          "block": 2,
+          "n": 54,
+          "field": "study.comparison[2].meaning",
+          "pirmd": "Na",
+          "pec": "Aby"
+        },
+        {
+          "block": 2,
+          "n": 55,
+          "field": "study.comparison[3].meaning",
+          "pirmd": "Nebo",
+          "pec": "Zda / jestli"
+        },
+        {
+          "block": 2,
+          "n": 56,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: to → dass.",
+          "pec": "Pamatujte: že → dass."
+        },
+        {
+          "block": 2,
+          "n": 57,
+          "field": "study.important[0]",
+          "pirmd": "Dass znamená „to“ a zavádí pomocnou klauzuli.",
+          "pec": "Dass znamená „že“ a uvádí vedlejší větu."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-dass",
+        "index": 130,
+        "de": "dass",
+        "layout": "standardStudy",
+        "csMain": "Že",
+        "studyTranslation": "Že",
+        "lvSourceMain": "ka",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ka",
+            "csText": "Že",
+            "de": "dass"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Ievada palīgteikumu, kas izsaka faktu, domu vai teikto.",
+            "csText": "Uvozuje vedlejší větu, která vyjadřuje skutečnost, myšlenku nebo tvrzení.",
+            "de": "dass"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es zinu, ka tu esi noguris.",
+            "csText": "Vím, že jsi unavený.",
+            "de": "dass"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "viņš saka, ka viņš nāks.",
+            "csText": "Říká, že přijde.",
+            "de": "dass"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es domāju, ka tas ir pareizi.",
+            "csText": "Myslím, že je to správně.",
+            "de": "dass"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "dass",
+            "csText": "dass",
+            "de": "dass"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "ka",
+            "csText": "Že",
+            "de": "dass"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "weil",
+            "csText": "weil",
+            "de": "dass"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "jo • tāpēc ka",
+            "csText": "Protože • Protože",
+            "de": "dass"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "damit",
+            "csText": "damit",
+            "de": "dass"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "lai",
+            "csText": "Aby",
+            "de": "dass"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "ob",
+            "csText": "ob",
+            "de": "dass"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "vai",
+            "csText": "Zda / jestli",
+            "de": "dass"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: ka → dass.",
+            "csText": "Pamatujte: že → dass.",
+            "de": "dass"
+          }
+        ],
+        "study": {
+          "id": "a1-dass",
+          "layout": "standardStudy",
+          "translation": "Že",
+          "explanation": "Uvozuje vedlejší větu, která vyjadřuje skutečnost, myšlenku nebo tvrzení.",
+          "examples": [
+            {
+              "de": "Ich weiß, dass du müde bist.",
+              "lv": "Vím, že jsi unavený."
+            },
+            {
+              "de": "Er sagt, dass er kommt.",
+              "lv": "Říká, že přijde."
+            },
+            {
+              "de": "Ich glaube, dass das stimmt.",
+              "lv": "Myslím, že je to správně."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "dass",
+              "meaning": "Že",
+              "example": "Ich weiß, dass er kommt. – Vím, že přijde."
+            },
+            {
+              "word": "weil",
+              "meaning": "Protože • Protože",
+              "example": "Ich bleibe zu Hause, weil es regnet. – Zůstávám doma, protože prší."
+            },
+            {
+              "word": "damit",
+              "meaning": "Aby",
+              "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Učím se německy, abych mohl pracovat v Německu."
+            },
+            {
+              "word": "ob",
+              "meaning": "Zda / jestli",
+              "example": "Ich weiß nicht, ob er kommt. – Nevím, jestli přijde."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: že → dass."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "dass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "dass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Říká"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "dass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Myslím"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "dass"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "dass"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weil"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "damit"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "damit"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "dass"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "dass"
+                ],
+                "purple": [
+                  "Dass"
+                ],
+                "green": [
+                  "Dass"
+                ]
+              },
+              {
+                "red": [
+                  "das"
+                ],
+                "yellow": [
+                  "Nezaměňovat"
+                ],
+                "purple": [
+                  "das"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Dass znamená „že“ a uvádí vedlejší větu.",
+            "Nezaměňovat s das, což může být článek nebo 'to'."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-dass",
+          "layout": "standardStudy",
+          "translation": "ka",
+          "explanation": "Ievada palīgteikumu, kas izsaka faktu, domu vai teikto.",
+          "examples": [
+            {
+              "de": "Ich weiß, dass du müde bist.",
+              "lv": "es zinu, ka tu esi noguris."
+            },
+            {
+              "de": "Er sagt, dass er kommt.",
+              "lv": "viņš saka, ka viņš nāks."
+            },
+            {
+              "de": "Ich glaube, dass das stimmt.",
+              "lv": "es domāju, ka tas ir pareizi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "dass",
+              "meaning": "ka",
+              "example": "Ich weiß, dass er kommt. – Es zinu, ka viņš nāks."
+            },
+            {
+              "word": "weil",
+              "meaning": "jo • tāpēc ka",
+              "example": "Ich bleibe zu Hause, weil es regnet. – Es palieku mājās, jo līst."
+            },
+            {
+              "word": "damit",
+              "meaning": "lai",
+              "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Es mācos vācu valodu, lai varētu strādāt Vācijā."
+            },
+            {
+              "word": "ob",
+              "meaning": "vai",
+              "example": "Ich weiß nicht, ob er kommt. – Es nezinu, vai viņš nāks."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: ka → dass."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "dass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ka"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "dass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ka"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "dass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ka"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "dass"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "dass"
+                  ],
+                  "purple": [
+                    "ka"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weil"
+                  ],
+                  "purple": [
+                    "jo"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "damit"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "damit"
+                  ],
+                  "purple": [
+                    "lai"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ],
+                  "purple": [
+                    "vai"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "dass"
+                ],
+                "purple": [
+                  "ka"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "dass"
+                ],
+                "purple": [
+                  "ka"
+                ],
+                "green": [
+                  "palīgteikumu"
+                ]
+              },
+              {
+                "red": [
+                  "das"
+                ],
+                "yellow": [
+                  "artikuls"
+                ],
+                "purple": [
+                  "tas"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "dass nozīmē “ka” un ievada palīgteikumu.",
+            "To nejaukt ar das, kas var būt artikuls vai “tas”."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-dass",
+        "layout": "standardStudy",
+        "translation": "Že",
+        "explanation": "Uvozuje vedlejší větu, která vyjadřuje skutečnost, myšlenku nebo tvrzení.",
+        "examples": [
+          {
+            "de": "Ich weiß, dass du müde bist.",
+            "lv": "Vím, že jsi unavený."
+          },
+          {
+            "de": "Er sagt, dass er kommt.",
+            "lv": "Říká, že přijde."
+          },
+          {
+            "de": "Ich glaube, dass das stimmt.",
+            "lv": "Myslím, že je to správně."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "dass",
+            "meaning": "Že",
+            "example": "Ich weiß, dass er kommt. – Vím, že přijde."
+          },
+          {
+            "word": "weil",
+            "meaning": "Protože • Protože",
+            "example": "Ich bleibe zu Hause, weil es regnet. – Zůstávám doma, protože prší."
+          },
+          {
+            "word": "damit",
+            "meaning": "Aby",
+            "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Učím se německy, abych mohl pracovat v Německu."
+          },
+          {
+            "word": "ob",
+            "meaning": "Zda / jestli",
+            "example": "Ich weiß nicht, ob er kommt. – Nevím, jestli přijde."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: že → dass."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "dass"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "dass"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Říká"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "dass"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Myslím"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "dass"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "dass"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "weil"
+                ]
+              },
+              "example": {
+                "green": [
+                  "weil"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "damit"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "damit"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ob"
+                ]
+              },
+              "example": {
+                "red": [
+                  "ob"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "dass"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "dass"
+              ],
+              "purple": [
+                "Dass"
+              ],
+              "green": [
+                "Dass"
+              ]
+            },
+            {
+              "red": [
+                "das"
+              ],
+              "yellow": [
+                "Nezaměňovat"
+              ],
+              "purple": [
+                "das"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Dass znamená „že“ a uvádí vedlejší větu.",
+          "Nezaměňovat s das, což může být článek nebo 'to'."
+        ]
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-Sekunde-545",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "HIGH repair correctly restored the Czech feminine noun “Sekunda”; no grammatical or semantic regression detected.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Sommer-565",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "HIGH repair correctly changed the adjective “Letní” to the noun “Léto”; no grammatical or semantic regression detected.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-das",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "All OWNER repairs are correct. The required welches meaning is exactly “Které”; no HIGH-repair regression detected.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-dass",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "All OWNER repairs correctly describe dass as a subordinating conjunction meaning “že”; no HIGH-repair regression detected.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:41:27.093Z"
+}

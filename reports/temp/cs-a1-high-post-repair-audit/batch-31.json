@@ -1,0 +1,641 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-essen",
+      "index": 690,
+      "de": "essen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Jíst",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 229,
+          "field": "study.examples[1].lv",
+          "pirmd": "Co chceš jíst",
+          "pec": "Co chcete jíst?"
+        },
+        {
+          "block": 5,
+          "n": 230,
+          "field": "study.explanation",
+          "pirmd": "Essen v podstatě znamená: jídlo nebo jídlo. Často popisuje: déšť.",
+          "pec": "Essen znamená jíst nebo konzumovat jídlo. Nezaměňujte je s podstatným jménem das Essen, které znamená jídlo."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-essen",
+        "index": 690,
+        "de": "essen",
+        "layout": "standardStudy",
+        "csMain": "Jíst",
+        "studyTranslation": "Jíst",
+        "lvSourceMain": "ēst",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ēst",
+            "csText": "Jíst",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es labprāt ēdu picu.",
+            "csText": "Rád jím pizzu.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "ko jūs gribat ēst?",
+            "csText": "Co chcete jíst?",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs ēdam pulksten 12.",
+            "csText": "Jíme ve 12 hodin.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ēdiens ir gatavs.",
+            "csText": "Jídlo je hotové.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "ēdiens ļoti labi garšo.",
+            "csText": "Jídlo chutná velmi dobře.",
+            "de": "essen"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "ēdiens garšo labi.",
+            "csText": "Jídlo chutná dobře.",
+            "de": "essen"
+          }
+        ],
+        "study": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "Jíst",
+          "explanation": [
+            "Hlavní myšlenka: Sloveso - jíst jídlo.",
+            "Essen především znamená: konzumovat jídlo.",
+            "Často popisuje: akce.",
+            "Essen v podstatě znamená: jídlo nebo jídlo.",
+            "Často popisuje: déšť.",
+            "Essen znamená jíst.",
+            "Das Essen může znamenat jídlo nebo jídlo obecně."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Rád jím pizzu."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Co chcete jíst?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Jíme ve 12 hodin."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Jídlo je hotové."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Jídlo chutná velmi dobře."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Jídlo chutná dobře."
+            }
+          ],
+          "tip": [
+            "Essen = jísti",
+            "Použijte essen, když kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Essen je sloveso bez článku.",
+            "Das Essen není totéž co essen.",
+            "Akce: essen.",
+            "Případ/jídlo: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "essen",
+                "essen"
+              ],
+              "purple": [
+                "jíst"
+              ],
+              "blue": [
+                "essen",
+                "esse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "esse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "chceš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Essen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "essen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "ēst",
+          "explanation": [
+            "Galvenā doma: Darbības vārds — ēst pārtiku.",
+            "essen galvenokārt nozīmē: patērēt pārtiku.",
+            "Bieži raksturo: darbību.",
+            "essen galvenokārt nozīmē: pārtika vai maltīte.",
+            "Bieži raksturo: lietu.",
+            "essen nozīmē ēst.",
+            "das Essen var nozīmēt ēdienu vai maltīti kopumā."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Es labprāt ēdu picu."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "ko jūs gribat ēst?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "mēs ēdam pulksten 12."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "ēdiens ir gatavs."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "ēdiens ļoti labi garšo."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "ēdiens garšo labi."
+            }
+          ],
+          "tip": [
+            "essen = ēst",
+            "Izmanto essen, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "essen ir darbības vārds bez artikula.",
+            "das Essen nav tas pats, kas essen.",
+            "Darbība: essen.",
+            "Lieta/maltīte: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "essen",
+                "essen"
+              ],
+              "purple": [
+                "ēst"
+              ],
+              "blue": [
+                "essen",
+                "esse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "esse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "ēst"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "essen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-essen",
+        "layout": "standardStudy",
+        "translation": "Jíst",
+        "explanation": [
+          "Hlavní myšlenka: Sloveso - jíst jídlo.",
+          "Essen především znamená: konzumovat jídlo.",
+          "Často popisuje: akce.",
+          "Essen v podstatě znamená: jídlo nebo jídlo.",
+          "Často popisuje: déšť.",
+          "Essen znamená jíst.",
+          "Das Essen může znamenat jídlo nebo jídlo obecně."
+        ],
+        "examples": [
+          {
+            "de": "Ich esse gern Pizza.",
+            "lv": "Rád jím pizzu."
+          },
+          {
+            "de": "Was wollt ihr essen?",
+            "lv": "Co chcete jíst?"
+          },
+          {
+            "de": "Wir essen um 12 Uhr.",
+            "lv": "Jíme ve 12 hodin."
+          },
+          {
+            "de": "Das Essen ist fertig.",
+            "lv": "Jídlo je hotové."
+          },
+          {
+            "de": "Das Essen schmeckt sehr gut.",
+            "lv": "Jídlo chutná velmi dobře."
+          },
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "Jídlo chutná dobře."
+          }
+        ],
+        "tip": [
+          "Essen = jísti",
+          "Použijte essen, když kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Essen je sloveso bez článku.",
+          "Das Essen není totéž co essen.",
+          "Akce: essen.",
+          "Případ/jídlo: das Essen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "essen",
+              "essen"
+            ],
+            "purple": [
+              "jíst"
+            ],
+            "blue": [
+              "essen",
+              "esse"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "esse"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "chceš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "essen",
+                  "essen"
+                ]
+              },
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Essen"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "green": [
+                "essen"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-Spiel-571",
+      "index": 571,
+      "de": "Spiel",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Hra",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 231,
+          "field": "csText",
+          "pirmd": "Hru",
+          "pec": "Hra"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Spiel-571",
+        "index": 571,
+        "de": "Spiel",
+        "de_article": "das",
+        "de_plural": "die Spiele",
+        "lvSource": "spēle",
+        "csText": "Hra",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Stuhl-582",
+      "index": 582,
+      "de": "Stuhl",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Židle",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 232,
+          "field": "csText",
+          "pirmd": "Židli",
+          "pec": "Židle"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Stuhl-582",
+        "index": 582,
+        "de": "Stuhl",
+        "de_article": "der",
+        "de_plural": "die Stühle",
+        "lvSource": "krēsls",
+        "csText": "Židle",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Stunde-583",
+      "index": 583,
+      "de": "Stunde",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Hodina",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 233,
+          "field": "csText",
+          "pirmd": "Hodinu",
+          "pec": "Hodina"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Stunde-583",
+        "index": 583,
+        "de": "Stunde",
+        "de_article": "die",
+        "de_plural": "die Stunden",
+        "lvSource": "stunda",
+        "csText": "Hodina",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-essen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "high",
+      "confidence": 0.99,
+      "reason": "The repaired explanation is not applied correctly: it remains a seven-item array with duplicated and incorrect content, but must contain exactly four Czech strings.",
+      "findings": [
+        {
+          "field": "study.explanation",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "high",
+          "currentCs": [
+            "Hlavní myšlenka: Sloveso - jíst jídlo.",
+            "Essen především znamená: konzumovat jídlo.",
+            "Často popisuje: akce.",
+            "Essen v podstatě znamená: jídlo nebo jídlo.",
+            "Často popisuje: déšť.",
+            "Essen znamená jíst.",
+            "Das Essen může znamenat jídlo nebo jídlo obecně."
+          ],
+          "proposedCs": [
+            "Essen především znamená jíst nebo konzumovat jídlo.",
+            "Používá se jako sloveso pro konzumaci jídla.",
+            "Das Essen je podstatné jméno a znamená jídlo.",
+            "Essen a das Essen nejsou totéž."
+          ],
+          "reason": "The field has seven strings, including nonsensical statements about Essen meaning food and describing rain; the required format is an array of four Czech strings.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 5
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Spiel-571",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The repaired Czech nominative Hra correctly matches German das Spiel and introduces no regression.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Stuhl-582",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The repaired Czech nominative Židle correctly matches German der Stuhl and introduces no regression.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Stunde-583",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The repaired Czech nominative Hodina correctly matches German die Stunde and introduces no regression.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:47:15.015Z"
+}
