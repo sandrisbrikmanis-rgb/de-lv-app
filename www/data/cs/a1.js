@@ -42,7 +42,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Mluvit, konverzovat nebo používat jazyk.",
         "Sprechen znamená hlavně: mluvit nebo hovořit.",
-        "Často charakterizováno: jazykem/konverzací.",
+        "Často se používá v souvislosti s jazykem nebo konverzací.",
         "Sprechen popisuje mluvení nebo používání jazyka."
       ],
       "examples": [
@@ -73,7 +73,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Sprechen = mluvit",
-        "Používá sprechen, když kontext odpovídá tomuto významu."
+        "Slovo „sprechen“ používejte, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Sprechen = mluvit.",
@@ -152,10 +152,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Malý",
       "explanation": [
-        "Hlavní myšlenka: Malá velikostí nebo rozsahem.",
+        "Hlavní myšlenka: klein označuje malou velikost nebo rozsah.",
         "Klein znamená především: malá velikost.",
         "Často popisuje: velikost věci/osoby.",
-        "Klein v podstatě znamená: malý/nový.",
+        "Klein v podstatě znamená: malý.",
         "Často popisuje: dítě.",
         "Klein popisuje malou velikost."
       ],
@@ -320,7 +320,7 @@ const A1_WORDS = [
       "id": "a1-an",
       "layout": "standardStudy",
       "translation": "Na • Na povrchu • Na okraji",
-      "explanation": "Používá se, když je něco blízko zdi, okna, dveří, řeky, mořského pobřeží nebo jiného okraje/povrchu.",
+      "explanation": "Používá se, když je něco u stěny, okna, dveří, řeky, mořského pobřeží nebo jiné hrany či plochy.",
       "examples": [
         {
           "de": "an der Wand",
@@ -348,7 +348,7 @@ const A1_WORDS = [
         },
         {
           "word": "bei",
-          "meaning": "K osobě nebo místu",
+          "meaning": "U osoby nebo na určitém místě",
           "example": "beim Arzt – K lékaři"
         }
       ],
@@ -518,7 +518,7 @@ const A1_WORDS = [
       "id": "a1-ab",
       "layout": "standardStudy",
       "translation": "Z",
-      "explanation": "Používá se, když něco začíná od určitého času, místa nebo bodu. Často znamená „začít od“.",
+      "explanation": "Používá se, když něco začíná od určitého času, místa nebo bodu. Často znamená „počínaje“ nebo „od“.",
       "examples": [
         {
           "de": "ab heute",
@@ -535,7 +535,7 @@ const A1_WORDS = [
         },
         {
           "de": "ab Bahnhof",
-          "lv": "Ze stanice"
+          "lv": "Od stanice"
         }
       ],
       "comparison": [
@@ -695,7 +695,7 @@ const A1_WORDS = [
       },
       "important": [
         "Ab ukazuje počáteční bod v čase nebo místě.",
-        "Pokud myšlenka vzniká nebo se pohybuje zevnitř, častěji se používá von nebo aus."
+        "Pokud jde o původ nebo pohyb zevnitř, častěji se používá „von“ nebo „aus“."
       ]
     }
   },
@@ -744,7 +744,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "aber",
-          "meaning": "Opak • Námitka • Nicméně",
+          "meaning": "Protiklad • Námitka • Nicméně",
           "example": "Ich komme, aber später. – Přijdu, ale později."
         },
         {
@@ -1053,10 +1053,10 @@ const A1_WORDS = [
         "important": [
           {
             "green": [
-              "Také"
+              "Tedy"
             ],
             "purple": [
-              "Také"
+              "Tedy"
             ]
           },
           {
@@ -1183,7 +1183,7 @@ const A1_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Ruka",
+    "lv": "Paže",
     "level": "A1"
   },
   {
@@ -1324,11 +1324,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich stelle das Buch auf den Tisch.",
-          "lv": "Položil jsem knihu na stůl."
+          "lv": "Postavím knihu na stůl."
         },
         {
           "de": "Wir fahren auf den Berg.",
-          "lv": "Jdeme na horu."
+          "lv": "Jedeme na horu."
         },
         {
           "de": "Die Katze springt auf das Sofa.",
@@ -1339,7 +1339,7 @@ const A1_WORDS = [
         {
           "word": "auf",
           "meaning": "Na (povrch nebo nahoru)",
-          "example": "Ich stelle das Glas auf den Tisch. – Položil jsem sklenici na stůl."
+          "example": "Ich stelle das Glas auf den Tisch. – Postavím sklenici na stůl."
         },
         {
           "word": "an",
@@ -1535,7 +1535,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme aus Deutschland.",
-          "lv": "Jsem z německa."
+          "lv": "Jsem z Německa."
         },
         {
           "de": "Er geht aus dem Haus.",
@@ -1549,7 +1549,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "aus",
-          "meaning": "Zevnitř, zevnitř",
+          "meaning": "Z / zevnitř",
           "example": "aus dem Haus – Z domova"
         },
         {
@@ -1705,10 +1705,10 @@ const A1_WORDS = [
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "Kam • Na • Kam?",
+      "translation": "Na",
       "explanation": [
         "Aufs je zkratka předložky auf a členu das.",
-        "Plná forma: auf das (kde?).",
+        "Plná forma: „auf das“. Vyjadřuje směr a odpovídá na otázku „kam?“.",
         "Používá se, když akce ukazuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kde?",
         "Často se používá s pohybem: vylézt, sednout, položit, zajet k něčemu.",
         "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das."
@@ -1732,7 +1732,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Nasedne na koně."
+          "lv": "Vyskočí na koně."
         },
         {
           "de": "Leg das Buch aufs Regal.",
@@ -1740,7 +1740,7 @@ const A1_WORDS = [
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "Pojďte rychle na loď!"
+          "lv": "Pojď rychle na loď!"
         },
         {
           "de": "Wir gehen aufs Fest.",
@@ -1750,7 +1750,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "aufs",
-          "meaning": "Na konkrétní případ (Akk.)",
+          "meaning": "Na konkrétní věc (4. pád)",
           "example": "aufs Dach – Na střeše"
         },
         {
@@ -1782,7 +1782,7 @@ const A1_WORDS = [
         "Aufs = auf das, pouze s podstatným jménem libovolného rodu, kde? ve skloňování.",
         "Odpovědět kam? — pohyb na určité místo nebo povrch.",
         "Na vodorovné ploše se místo aufs často používá auf den.",
-        "Nezaměňujte s (na zdi) nebo ins (uvnitř místnosti)."
+        "Nezaměňujte „aufs“ s „an“ (na zeď) nebo s „ins“ (do místnosti)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2107,7 +2107,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe baden.",
-          "lv": "Chodím plavat"
+          "lv": "Jdu se koupat."
         },
         {
           "de": "Wir gehen im See baden.",
@@ -2125,7 +2125,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "baden",
-          "meaning": "Plavat / být ve vodě / umýt se",
+          "meaning": "Koupat se / být ve vodě / mýt se",
           "example": "Ich gehe baden."
         },
         {
@@ -2429,12 +2429,12 @@ const A1_WORDS = [
         },
         {
           "word": "an",
-          "meaning": "U stěny, okraje, břehu, okraje hladiny",
+          "meaning": "U stěny, okraje nebo břehu • na okraji hladiny",
           "example": "Das Bild hängt an der Wand. – Obraz visí na zdi."
         },
         {
           "word": "zu",
-          "meaning": "Kdo jde (směr)",
+          "meaning": "Ke komu se jde (směr)",
           "example": "Ich gehe zu meinem Freund. – Jdu ke svému příteli."
         }
       ],
@@ -2541,7 +2541,7 @@ const A1_WORDS = [
   },
   {
     "de": "beide",
-    "lv": "Obě",
+    "lv": "Oba • Obě",
     "level": "A1"
   },
   {
@@ -2560,7 +2560,7 @@ const A1_WORDS = [
   },
   {
     "de": "bekommen",
-    "lv": "Přijímat",
+    "lv": "Dostat",
     "level": "A1"
   },
   {
@@ -2645,7 +2645,7 @@ const A1_WORDS = [
           "example": "Ich bleibe bis 18 Uhr. – Zůstanu do 18:00."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Do (do určitého času)",
           "example": "Ich arbeite von 9 bis 17 Uhr. – Pracuji od 9 do 17."
         },
@@ -3107,7 +3107,7 @@ const A1_WORDS = [
     "de": "Blatt",
     "de_article": "das",
     "de_plural": "die Blätter",
-    "lv": "Strana",
+    "lv": "List",
     "level": "A1"
   },
   {
@@ -3150,7 +3150,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bleiben",
-          "meaning": "Pobyt",
+          "meaning": "Zůstat",
           "example": "Ich bleibe hier."
         },
         {
@@ -3429,7 +3429,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er bringt das Buch zur Schule.",
-          "lv": "Vezme knihu do školy."
+          "lv": "Donese knihu do školy."
         },
         {
           "de": "Ich nehme das Buch.",
@@ -3665,7 +3665,7 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "Sendvič",
+    "lv": "Chléb s máslem",
     "level": "A1"
   },
   {
@@ -3769,7 +3769,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: da na úrovni A1 nejčastěji znamená tam.",
         "Da označuje místo nebo odkazuje na něco již zmíněného.",
-        "Podle situace to lze přeložit i jako zde nebo zde.",
+        "Podle situace lze „da“ přeložit také jako „tam“, „tady“ nebo „zde“.",
         "Na úrovni A1 se učíme hlavně da jako obecné místo."
       ],
       "examples": [
@@ -3783,7 +3783,7 @@ const A1_WORDS = [
         },
         {
           "de": "Da kommt er.",
-          "lv": "Tady přichází."
+          "lv": "Tamhle přichází."
         },
         {
           "de": "Komm mal da her!",
@@ -3813,7 +3813,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: generál tam/te → da."
+        "text": "Pamatujte: obecné „tam“ nebo „tady“ → da."
       },
       "sectionAccents": {
         "explanation": {
@@ -4020,7 +4020,7 @@ const A1_WORDS = [
   },
   {
     "de": "danken",
-    "lv": "Poděkovat",
+    "lv": "Děkovat",
     "level": "A1"
   },
   {
@@ -4036,7 +4036,7 @@ const A1_WORDS = [
       "id": "a1-das",
       "layout": "standardStudy",
       "translation": "Neuter určitý člen",
-      "explanation": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+      "explanation": "Používá se před podstatnými jmény středního rodu. V některých větách může „das“ fungovat také jako zájmeno nebo vztažné zájmeno.",
       "examples": [
         {
           "de": "Das ist mein Auto.",
@@ -4401,7 +4401,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "Autobus jede."
+          "lv": "Autobus přijíždí."
         },
         {
           "de": "Der Lehrer spricht.",
@@ -4476,7 +4476,7 @@ const A1_WORDS = [
       },
       "important": [
         "Na úrovni A1 byste se měli nejprve učit jako mužský článek.",
-        "Použití zájmen a relativního jména přijde později."
+        "Použití zájmena a vztažného zájmena přijde později."
       ]
     }
   },
@@ -4598,7 +4598,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Na úrovni A1 je kostka nejprve studována jako ženský článek.",
+        "Na úrovni A1 se „die“ nejprve učí jako určitý člen ženského rodu.",
         "Množné číslo kostky se také používá pro všechna pohlaví."
       ]
     }
@@ -4622,7 +4622,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Dieser Mann ist nett.",
-          "lv": "Tento muž je pěkný."
+          "lv": "Tento muž je milý."
         },
         {
           "de": "Ich mag diesen Hund.",
@@ -4634,7 +4634,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: toto + mužský → dieser."
+        "text": "Pamatujte: „tento“ + mužský rod → dieser."
       },
       "sectionAccents": {
         "examples": [
@@ -4793,7 +4793,7 @@ const A1_WORDS = [
   },
   {
     "de": "dürfen",
-    "lv": "Být dovoleno",
+    "lv": "Smět",
     "level": "A1"
   },
   {
@@ -4956,7 +4956,7 @@ const A1_WORDS = [
   },
   {
     "de": "eins",
-    "lv": "Jeden",
+    "lv": "Jedna",
     "level": "A1"
   },
   {
@@ -6387,7 +6387,7 @@ const A1_WORDS = [
     "de": "Fernseher",
     "de_article": "der",
     "de_plural": "die Fernseher",
-    "lv": "Televize",
+    "lv": "Televizor",
     "level": "A1"
   },
   {
@@ -6716,7 +6716,7 @@ const A1_WORDS = [
   },
   {
     "de": "fragen",
-    "lv": "Zeptat se",
+    "lv": "Ptát se",
     "level": "A1"
   },
   {
@@ -7195,7 +7195,7 @@ const A1_WORDS = [
     "de": "Gast",
     "de_article": "der",
     "de_plural": "die Gäste",
-    "lv": "Hostem",
+    "lv": "Host",
     "level": "A1"
   },
   {
@@ -7462,17 +7462,17 @@ const A1_WORDS = [
   },
   {
     "de": "geboren",
-    "lv": "Se narodil",
+    "lv": "Narozený",
     "level": "A1"
   },
   {
     "de": "gefallen",
-    "lv": "Mít rád",
+    "lv": "Líbit se",
     "level": "A1"
   },
   {
     "de": "gegen",
-    "lv": "Vs",
+    "lv": "Proti",
     "level": "A1"
   },
   {
@@ -7503,7 +7503,7 @@ const A1_WORDS = [
   },
   {
     "de": "gern",
-    "lv": "Ochotně",
+    "lv": "Rád",
     "level": "A1"
   },
   {
@@ -7546,7 +7546,7 @@ const A1_WORDS = [
     "de": "Getränk",
     "de_article": "das",
     "de_plural": "die Getränke",
-    "lv": "Drink",
+    "lv": "Nápoj",
     "level": "A1"
   },
   {
@@ -7763,7 +7763,7 @@ const A1_WORDS = [
   },
   {
     "de": "grau",
-    "lv": "Šedá",
+    "lv": "Šedý",
     "level": "A1"
   },
   {
@@ -7929,7 +7929,7 @@ const A1_WORDS = [
   },
   {
     "de": "grüßen",
-    "lv": "Pozdravit",
+    "lv": "Zdravit",
     "level": "A1"
   },
   {
@@ -8665,7 +8665,7 @@ const A1_WORDS = [
   },
   {
     "de": "heiraten",
-    "lv": "Oženit se",
+    "lv": "Vzít se",
     "level": "A1"
   },
   {
@@ -8906,7 +8906,7 @@ const A1_WORDS = [
   },
   {
     "de": "helfen",
-    "lv": "Pomoci",
+    "lv": "Pomáhat",
     "level": "A1"
   },
   {
@@ -10274,7 +10274,7 @@ const A1_WORDS = [
   },
   {
     "de": "jeder",
-    "lv": "Každý z nich",
+    "lv": "Každý",
     "level": "A1"
   },
   {
@@ -11694,7 +11694,7 @@ const A1_WORDS = [
     "de": "Kuchen",
     "de_article": "der",
     "de_plural": "die Kuchen",
-    "lv": "Dort",
+    "lv": "Koláč",
     "level": "A1"
   },
   {
@@ -11859,7 +11859,7 @@ const A1_WORDS = [
     "de": "Lampe",
     "de_article": "die",
     "de_plural": "die Lampen",
-    "lv": "Svítilna",
+    "lv": "Lampa",
     "level": "A1"
   },
   {
@@ -13087,7 +13087,7 @@ const A1_WORDS = [
   },
   {
     "de": "lecker",
-    "lv": "Vynikající",
+    "lv": "Chutný",
     "level": "A1"
   },
   {
@@ -14471,7 +14471,7 @@ const A1_WORDS = [
   },
   {
     "de": "mein",
-    "lv": "Moje",
+    "lv": "Můj",
     "level": "A1"
   },
   {
@@ -15881,7 +15881,7 @@ const A1_WORDS = [
   },
   {
     "de": "nass",
-    "lv": "Mokré",
+    "lv": "Mokrý",
     "level": "A1"
   },
   {
@@ -16548,7 +16548,7 @@ const A1_WORDS = [
   },
   {
     "de": "neunzehnte",
-    "lv": "Devatenáctého",
+    "lv": "Devatenáctý",
     "level": "A1"
   },
   {
@@ -17083,7 +17083,7 @@ const A1_WORDS = [
   },
   {
     "de": "oben",
-    "lv": "Výše",
+    "lv": "Nahoře",
     "level": "A1"
   },
   {
@@ -17999,7 +17999,7 @@ const A1_WORDS = [
   },
   {
     "de": "putzen",
-    "lv": "Vyčistit",
+    "lv": "Čistit",
     "level": "A1"
   },
   {
@@ -18021,7 +18021,7 @@ const A1_WORDS = [
   },
   {
     "de": "rechts",
-    "lv": "Doprava • Doprava",
+    "lv": "Doprava • Pravý",
     "level": "A1"
   },
   {
@@ -18044,7 +18044,7 @@ const A1_WORDS = [
   },
   {
     "de": "regnen",
-    "lv": "Prší",
+    "lv": "Pršet",
     "level": "A1"
   },
   {
@@ -18152,7 +18152,7 @@ const A1_WORDS = [
   },
   {
     "de": "rufen",
-    "lv": "Zavolat",
+    "lv": "Volat",
     "level": "A1"
   },
   {
@@ -18430,7 +18430,7 @@ const A1_WORDS = [
   },
   {
     "de": "schneien",
-    "lv": "Sněží",
+    "lv": "Sněžit",
     "level": "A1"
   },
   {
@@ -18549,7 +18549,7 @@ const A1_WORDS = [
     "de": "Schüler",
     "de_article": "der",
     "de_plural": "die Schüler",
-    "lv": "Student",
+    "lv": "Žák",
     "level": "A1"
   },
   {
@@ -22058,7 +22058,7 @@ const A1_WORDS = [
   },
   {
     "de": "verheiratet",
-    "lv": "Ženatý",
+    "lv": "Ženatý • Vdaná",
     "level": "A1"
   },
   {
@@ -22311,7 +22311,7 @@ const A1_WORDS = [
   },
   {
     "de": "viel",
-    "lv": "Mnoho",
+    "lv": "Hodně",
     "level": "A1"
   },
   {
@@ -24166,7 +24166,7 @@ const A1_WORDS = [
   },
   {
     "de": "wichtig",
-    "lv": "Důležité",
+    "lv": "Důležitý",
     "level": "A1"
   },
   {
@@ -24366,7 +24366,7 @@ const A1_WORDS = [
     "de": "Zigarette",
     "de_article": "die",
     "de_plural": "die Zigaretten",
-    "lv": "Cigaretu",
+    "lv": "Cigareta",
     "level": "A1"
   },
   {
@@ -24637,7 +24637,7 @@ const A1_WORDS = [
   },
   {
     "de": "zuerst",
-    "lv": "Především",
+    "lv": "Nejprve",
     "level": "A1"
   },
   {
@@ -25240,7 +25240,7 @@ const A1_WORDS = [
   },
   {
     "de": "zwanzigste",
-    "lv": "Dvacátého",
+    "lv": "Dvacátý",
     "level": "A1"
   },
   {
@@ -26531,7 +26531,7 @@ const A1_WORDS = [
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "Země",
+    "lv": "Stát",
     "level": "A1"
   },
   {
