@@ -4732,7 +4732,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Dieser, diese a dieses se mění podle pohlaví.",
+        "Dieser, diese a dieses se mění podle rodu.",
         "Množné číslo je opět diese."
       ]
     }
@@ -4824,7 +4824,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "Neurčitý člen • Jeden • Někdo",
+      "translation": "Neurčitý člen • Jeden",
       "explanation": "Používá se s podstatným jménem mužského rodu. Ukázání na jednu věc nebo osobu z několika možností.",
       "examples": [
         {
@@ -4841,7 +4841,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: nespecifický jeden/někdo → ein."
+        "text": "Pamatujte: ein není jen „jeden“, často je to neurčitý člen."
       },
       "sectionAccents": {
         "examples": [
@@ -5000,7 +5000,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "das Eis",
-          "meaning": "Zmrzlina / zmrzlina",
+          "meaning": "Led / zmrzlina",
           "example": "Ich esse ein Eis. = Jím zmrzlinu."
         },
         {
@@ -5485,7 +5485,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "To • To • Neosobní podoba",
+      "translation": "To • Ono • Neosobní podoba",
       "explanation": "Německé „já“ není zvyklé mluvit o sobě. Používá se k označení: to, to nebo neosobní tvar (počasí, čas, různé neosobní věty).",
       "examples": [
         {
@@ -5650,8 +5650,8 @@ const A1_WORDS = [
       "translation": "Něco • Trochu",
       "explanation": [
         "Hlavní myšlenka: etwas znamená něco nebo trochu v závislosti na kontextu.",
-        "Pokud etwas nahradí neznámou věc, češtině obvykle něco řekne.",
-        "Když etwas stojí před přídavným jménem nebo veličinou, často to znamená málo.",
+        "Když etwas označuje neznámou věc, v češtině se obvykle překládá jako „něco“.",
+        "Když etwas stojí před přídavným jménem nebo veličinou, často znamená „trochu“ nebo „poněkud“.",
         "Etwas je v konverzaci velmi běžné a neutrální slovo A1.",
         "Nejdůležitější je rozlišovat: etwas kaufen = něco koupit, etwas müde = trochu unavený."
       ],
@@ -5700,11 +5700,11 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: věc → něco • Stupeň → mírně."
+        "text": "Pamatujte: věc → něco • míra → trochu."
       },
       "important": [
         "Etwas není totéž co nichts: etwas znamená něco, ale nichts neznamená nic.",
-        "V češtině něco zní lépe než něco, například: etwas trinken = něco pít."
+        "V češtině se tvar mění podle pádu: etwas trinken = něco pít."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5947,18 +5947,18 @@ const A1_WORDS = [
         },
         {
           "word": "euch",
-          "meaning": "Vám / vám",
-          "example": "Ich helfe euch. = Pomáhám ti."
+          "meaning": "Vás / vám",
+          "example": "Ich helfe euch. = Pomáhám vám."
         },
         {
           "word": "euer",
-          "meaning": "Vaše",
+          "meaning": "Váš / vaše",
           "example": "Das ist euer Haus. = Je to tvůj dům."
         }
       ],
       "info": [
         "Ihr = vy (podmětová forma)",
-        "Euch = vás (přímý doplněk) / vám (dativ)",
+        "Euch = vás (přímý předmět) / vám (dativ)",
         "Euer = váš (přivlastňovací forma)"
       ],
       "tip": {
@@ -6032,7 +6032,7 @@ const A1_WORDS = [
         },
         {
           "word": "laufen",
-          "meaning": "Běž / běž",
+          "meaning": "Běhat / běžet",
           "example": "Er läuft schnell."
         },
         {
@@ -6421,10 +6421,10 @@ const A1_WORDS = [
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "Najít • Zvážit",
+      "translation": "Najít • Myslet si",
       "explanation": [
         "Hlavní myšlenka: najít nejčastěji znamená najít.",
-        "V konverzaci finden velmi často také znamená zvážit nebo přemýšlet o něčem.",
+        "V konverzaci finden velmi často také znamená mít na něco názor nebo si něco myslet.",
         "Pokud jde o ztracenou věc, překládá se to jako nález.",
         "Pokud jde o názor, překládá se jako myslet nebo zdát."
       ],
@@ -6730,10 +6730,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Žena • Manželka",
       "explanation": [
-        "Hlavní myšlenka: die Frau může znamenat ženu (pohlaví) nebo manželku (manželku).",
+        "Hlavní myšlenka: die Frau může znamenat ženu nebo manželku.",
         "Pokud je to prostě záležitost pohlaví nebo osoby, die Frau = žena.",
-        "V případě manžela, die Frau = manželka (meine Frau = moje žena).",
-        "Přivlastňovací zájmeno (meine/deine/seine Frau) téměř vždy znamená manželka – manžel.",
+        "Pokud jde o manželský vztah, die Frau = manželka (meine Frau = moje žena).",
+        "Spojení s přivlastňovacím zájmenem (meine/deine/seine Frau) téměř vždy znamená manželku.",
         "Množné číslo: die Frauen.",
         "Mužský tvar der Mann má stejný dvojí význam: muž A manžel."
       ],
@@ -6873,9 +6873,7 @@ const A1_WORDS = [
               "die Frau",
               "eine Frau"
             ],
-            "purple": [
-              "Přivlastňovací"
-            ]
+            "purple": []
           }
         ],
         "important": [
