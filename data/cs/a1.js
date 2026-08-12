@@ -56,7 +56,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "Mluvím německy"
+          "lv": "Mluví se svou učitelkou."
         }
       ],
       "comparison": [
@@ -517,7 +517,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ab",
       "layout": "standardStudy",
-      "translation": "Z",
+      "translation": "Od",
       "explanation": "Používá se, když něco začíná od určitého času, místa nebo bodu. Často znamená „začít od“.",
       "examples": [
         {
@@ -952,7 +952,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: závěr → také."
+        "text": "Pamatujte: závěr → tedy."
       },
       "sectionAccents": {
         "examples": [
@@ -1070,7 +1070,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Také ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+        "Tedy ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
         "České „tak“ může být často také deshalb."
       ]
     }
@@ -1226,11 +1226,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme auch.",
-          "lv": "Já jdu taky"
+          "lv": "Ona zde také pracuje."
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "Ona zde také pracuje."
+          "lv": "Také vám přeji hezký den."
         }
       ],
       "tip": [
@@ -2822,8 +2822,8 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
-        "Zdvořilost malými písmeny. Byl jsem zdvořilý - prosím."
+        "Malé bitte znamená prosím (Bitte schön!, Kaffee, bitte). Die Bitte s velkým písmenem znamená prosba nebo žádost (eine Bitte, meine Bitte).",
+        "Bitte s malým písmenem je zdvořilostní výraz."
       ],
       "important": [
         "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
@@ -2972,8 +2972,8 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
-        "Podstatné jméno s členem zemřít a velké písmeno. Konkrétní požadavek nebo požadavek."
+        "Malé bitte znamená prosím. Die Bitte s velkým písmenem znamená prosba nebo žádost.",
+        "Die Bitte je podstatné jméno se členem die a píše se s velkým písmenem."
       ],
       "important": [
         "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
@@ -4817,7 +4817,7 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Neurčitý člen • Jeden • Někdo",
-      "explanation": "Používá se s podstatným jménem mužského rodu. Ukázání na jednu věc nebo osobu z několika možností.",
+      "explanation": "Používá se s podstatnými jmény mužského a středního rodu v jednotném čísle. Označuje jednu věc nebo osobu z několika možností.",
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -5510,7 +5510,7 @@ const A1_WORDS = [
         "Německé „es“ = to • ono • bezosobní tvar"
       ],
       "tip": {
-        "text": "Pamatujte: českýé \"es\" → ich, ne německé es."
+        "text": "Pamatujte: lotyšské „es“ znamená německy „ich“, ne německé „es“."
       },
       "sectionAccents": {
         "examples": [
@@ -5620,7 +5620,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Německé já není českýé já.",
+        "Německé „ich“ a „es“ nejsou totéž.",
         "České „já“ je v němčině ich • Německé es často znamená to/to nebo se nepřekládá."
       ]
     }
@@ -5982,11 +5982,11 @@ const A1_WORDS = [
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Řídit • Vést • Odvézt",
+      "translation": "Jet • Jezdit • Vézt / odvézt",
       "explanation": [
-        "Hlavní myšlenka: fahren znamená řídit vozidlo a v některých větách také někoho vzít nebo vzít.",
+        "Hlavní myšlenka: fahren znamená jet dopravním prostředkem a v některých větách také někoho vézt nebo odvézt.",
         "Fahren se používá při cestování autem, autobusem, vlakem, na kole nebo jiným vozidlem.",
-        "Když má věta jako předmět osobu, fahren může znamenat vést nebo odnést.",
+        "Když má věta jako předmět osobu, fahren může znamenat někoho vézt nebo odvézt.",
         "Pokud je pohyb pěšky, obvykle se používá gehen nebo laufen."
       ],
       "examples": [
@@ -6051,11 +6051,11 @@ const A1_WORDS = [
           "Fahre"
         ],
         "purple": [
-          "Braukt",
+          "Jezdit",
           "Braucu",
-          "Vest",
+          "Vézt",
           "Vedu",
-          "Aizvest"
+          "Odvézt"
         ],
         "green": [
           "Transportu",
@@ -6081,7 +6081,7 @@ const A1_WORDS = [
           ],
           "purple": [
             "Hlavní",
-            "vest",
+            "vézt",
             "Hlavní"
           ],
           "green": [
@@ -6300,7 +6300,7 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt"
+                "jet"
               ]
             },
             "example": {
@@ -6308,9 +6308,9 @@ const A1_WORDS = [
                 "fahren"
               ],
               "purple": [
-                "braukt",
-                "vest",
-                "aizvest"
+                "jet",
+                "vézt",
+                "odvézt"
               ]
             }
           }
@@ -9767,7 +9767,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: v/v → v."
+        "text": "Pamatujte: v/do → in."
       },
       "important": [
         "In není vždy doslova „in“ • česky se často říká v Berlíně, ve škole, v kině.",
@@ -11914,7 +11914,7 @@ const A1_WORDS = [
         "text": "Pamatujte: země → das Land • Město → die Stadt."
       },
       "important": [
-        "Aufs Land znamená „na venkov“, nikoli „na venkov“.",
+        "Aufs Land znamená „na venkov“, nikoli „do země“.",
         "Das Land není totéž co die Stadt."
       ],
       "sectionAccents": {
@@ -18048,7 +18048,7 @@ const A1_WORDS = [
       "id": "a1-reis",
       "layout": "standardStudy",
       "translation": "Rýže",
-      "explanation": "V němčině se slovo „der Reis“ používá pouze v jednotném čísle, takže sloveso ve větě musí být v jednotném čísle (např. „ist“, nikoli „sind“). Lotyši však často říkají „rýže“.",
+      "explanation": "V němčině se slovo „der Reis“ používá pouze v jednotném čísle, takže sloveso ve větě musí být v jednotném čísle (např. „ist“, nikoli „sind“). V češtině se běžně říká „rýže“.",
       "examples": [
         {
           "de": "Der Reis ist fertig.",
@@ -20780,7 +20780,7 @@ const A1_WORDS = [
     "de": "Spiel",
     "de_article": "das",
     "de_plural": "die Spiele",
-    "lv": "Hru",
+    "lv": "Hra",
     "level": "A1"
   },
   {
@@ -20866,7 +20866,7 @@ const A1_WORDS = [
       },
       "important": [
         "Stehen ukazuje stav, nikoli akci „odkládání“.",
-        "Postavit předmět vzpřímeně je šmrnc, ne stehen."
+        "Postavit předmět vzpřímeně je stellen, ne stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21089,14 +21089,14 @@ const A1_WORDS = [
     "de": "Stuhl",
     "de_article": "der",
     "de_plural": "die Stühle",
-    "lv": "Židli",
+    "lv": "Židle",
     "level": "A1"
   },
   {
     "de": "Stunde",
     "de_article": "die",
     "de_plural": "die Stunden",
-    "lv": "Hodinu",
+    "lv": "Hodina",
     "level": "A1"
   },
   {
@@ -21132,14 +21132,14 @@ const A1_WORDS = [
     "de": "Tasche",
     "de_article": "die",
     "de_plural": "die Taschen",
-    "lv": "Tašku",
+    "lv": "Taška",
     "level": "A1"
   },
   {
     "de": "Tasse",
     "de_article": "die",
     "de_plural": "die Tassen",
-    "lv": "Pohár",
+    "lv": "Šálek",
     "level": "A1"
   },
   {
@@ -21165,7 +21165,7 @@ const A1_WORDS = [
   },
   {
     "de": "telefonieren",
-    "lv": "Zavolat na telefon",
+    "lv": "Telefonovat",
     "level": "A1"
   },
   {
@@ -21198,7 +21198,7 @@ const A1_WORDS = [
     "de": "Tisch",
     "de_article": "der",
     "de_plural": "die Tische",
-    "lv": "Tabulka",
+    "lv": "Stůl",
     "level": "A1"
   },
   {
@@ -21260,11 +21260,11 @@ const A1_WORDS = [
     "study": {
       "id": "a1-über",
       "layout": "standardStudy",
-      "translation": "Přes • Pro",
+      "translation": "Nad • O • Přes",
       "explanation": [
-        "Hlavní myšlenka: über znamená nahoře nebo asi v závislosti na kontextu.",
+        "Hlavní myšlenka: über znamená nad, o nebo přes v závislosti na kontextu.",
         "Pokud jde o umístění, über často znamená výše.",
-        "Pokud jde o konverzaci, text nebo téma, über znamená asi.",
+        "Pokud jde o konverzaci, text nebo téma, über znamená o.",
         "V pohybu může über znamenat konec."
       ],
       "examples": [
@@ -21274,7 +21274,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Mluvíme o čase."
+          "lv": "Mluvíme o počasí."
         },
         {
           "de": "Das Kind läuft über die Straße.",
@@ -21288,7 +21288,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "über",
-          "meaning": "Přes / přes / přes",
+          "meaning": "Nad / o / přes",
           "example": "Wir sprechen über das Wetter."
         },
         {
@@ -22070,11 +22070,11 @@ const A1_WORDS = [
     "study": {
       "id": "a1-verstehen",
       "layout": "standardStudy",
-      "translation": "Pochopit",
+      "translation": "Rozumět",
       "explanation": [
         "Hlavní myšlenka: verstehen znamená rozumět.",
         "Používá se, když rozumíte jazyku, osobě, textu nebo situaci.",
-        "Lotyšštinu zde většinou nemusíte „umět“ ani „učit“ • Jsou častěji können.",
+        "U jazyků zde většinou nejde o „umět“ ani „učit se“. To se častěji vyjadřuje pomocí können.",
         "Velmi častou frází je Ich verstehe. = Rozumím."
       ],
       "examples": [
@@ -22121,7 +22121,7 @@ const A1_WORDS = [
         "text": "Pamatujte: rozumět textu/osobě → verstehen • Umět něco dělat → können."
       },
       "important": [
-        "Verstehen není kořenem slova „rozumět“.",
+        "Verstehen není totéž co können.",
         "Ich verstehe Deutsch znamená „rozumím německy“."
       ],
       "sectionAccents": {
@@ -22945,7 +22945,7 @@ const A1_WORDS = [
     "de": "Vorname",
     "de_article": "der",
     "de_plural": "die Vornamen",
-    "lv": "Slovo",
+    "lv": "Křestní jméno",
     "level": "A1"
   },
   {
@@ -22964,7 +22964,7 @@ const A1_WORDS = [
   },
   {
     "de": "wann",
-    "lv": "Když",
+    "lv": "Kdy",
     "level": "A1"
   },
   {
@@ -23170,7 +23170,7 @@ const A1_WORDS = [
   },
   {
     "de": "waschen",
-    "lv": "Umýt se",
+    "lv": "Mýt",
     "level": "A1"
   },
   {
@@ -23182,7 +23182,7 @@ const A1_WORDS = [
     "de": "Weg",
     "de_article": "der",
     "de_plural": "die Wege",
-    "lv": "Silnice",
+    "lv": "Cesta",
     "level": "A1"
   },
   {
@@ -23221,7 +23221,7 @@ const A1_WORDS = [
   },
   {
     "de": "wenig",
-    "lv": "Nic moc",
+    "lv": "Málo",
     "level": "A1"
   },
   {
@@ -25207,12 +25207,12 @@ const A1_WORDS = [
   },
   {
     "de": "zumachen",
-    "lv": "Zblízka",
+    "lv": "Zavřít",
     "level": "A1"
   },
   {
     "de": "zurück",
-    "lv": "Zadní",
+    "lv": "Zpět",
     "level": "A1"
   },
   {
@@ -25669,7 +25669,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Co chceš jíst"
+          "lv": "Co chcete jíst?"
         },
         {
           "de": "Wir essen um 12 Uhr.",
