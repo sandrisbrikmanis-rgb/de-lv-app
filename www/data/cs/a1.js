@@ -12576,7 +12576,7 @@ const A1_WORDS = [
         "text": "Pamatujte: nohy rychle → laufen • Doprava → fahren."
       },
       "important": [
-        "Laufen není jen „běh“. U filmu nebo zařízení to může znamenat „jít“ nebo „jednat“.",
+        "Laufen není jen „běhat“. U filmu nebo zařízení to může znamenat „běžet“ nebo „fungovat“.",
         "Ich laufe znamená pohyb pěšky, ne řízení."
       ],
       "sectionAccents": {
@@ -12769,7 +12769,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Malé přídavné jméno. Popisuje hlasitost – jak hlasitý je zvuk nebo řeč.",
         "Laut znamená hlavně: hlasitý zvuk.",
-        "Často popisuje: přídavné jméno.",
+        "Laut je přídavné jméno s významem „hlasitý“.",
         "Laut v podstatě znamená: zvukový signál.",
         "Často popisuje: podstatné jméno (der).",
         "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
@@ -12931,8 +12931,8 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
         "Der Laut primárně znamená: hlasitý zvuk.",
-        "Často popisuje: přídavné jméno.",
-        "Der Laut primárně znamená: zvukový signál.",
+        "Malé laut je přídavné jméno s významem „hlasitý“.",
+        "Der Laut může znamenat zvuk, zvukový signál nebo hlásku.",
         "Často popisuje: podstatné jméno (der).",
         "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
         "Der Laut s velkým písmenem a členem der je podstatné jméno - znamená zvuk jako věc nebo signál (Der Laut ist schön = zvuk je krásný).",
@@ -13143,7 +13143,7 @@ const A1_WORDS = [
         },
         {
           "word": "setzen",
-          "meaning": "Sednout si / sednout si",
+          "meaning": "Posadit / sednout si",
           "example": "Ich setze mich."
         }
       ],
@@ -13392,7 +13392,7 @@ const A1_WORDS = [
   },
   {
     "de": "leise",
-    "lv": "Klid",
+    "lv": "Tichý • Potichu",
     "level": "A1",
     "study": {
       "id": "a1-leise-study",
@@ -13407,11 +13407,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "Prosím, buďte zticha."
+          "lv": "Prosím, buď zticha."
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "Prosím buď zticha"
+          "lv": "Prosím, buď zticha."
         },
         {
           "de": "Die Musik ist leise.",
@@ -13423,7 +13423,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Klid = klid",
+        "leise = tichý / potichu",
         "Použijte leise, když kontext vyhovuje tomuto významu."
       ],
       "important": [
@@ -13562,12 +13562,12 @@ const A1_WORDS = [
   },
   {
     "de": "liegen",
-    "lv": "Být • Spát",
+    "lv": "Ležet • Být položený",
     "level": "A1",
     "study": {
       "id": "a1-liegen",
       "layout": "standardStudy",
-      "translation": "Být • Spát",
+      "translation": "Ležet • Být položený",
       "explanation": [
         "Hlavní myšlenka: Liegen znamená ležet nebo ležet vodorovně.",
         "Pro člověka lhaní často znamená spánek.",
@@ -13585,17 +13585,17 @@ const A1_WORDS = [
         },
         {
           "de": "Er liegt im Bett.",
-          "lv": "Spí v posteli."
+          "lv": "Leží v posteli."
         },
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Položil jsem knihu na stůl."
+          "lv": "Pokládám knihu na stůl."
         }
       ],
       "comparison": [
         {
           "word": "liegen",
-          "meaning": "Být / spát",
+          "meaning": "Ležet / být položený",
           "example": "Das Buch liegt hier."
         },
         {
@@ -13605,7 +13605,7 @@ const A1_WORDS = [
         },
         {
           "word": "stehen",
-          "meaning": "Stát / stát",
+          "meaning": "Stát / být postavený",
           "example": "Die Flasche steht auf dem Tisch."
         },
         {
@@ -13897,17 +13897,17 @@ const A1_WORDS = [
   },
   {
     "de": "machen",
-    "lv": "Dělat • Dělat",
+    "lv": "Dělat • Vyrábět",
     "level": "A1",
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "Dělat • Dělat",
+      "translation": "Dělat • Vyrábět",
       "explanation": [
-        "Hlavní myšlenka: machen je velmi běžné slovo, které znamená vyrobit nebo vyrobit.",
-        "Pokud jde o akci obecně, překládá se to jako jak dělat.",
-        "Pokud se něco vyrábí nebo připravuje, překládá se to jako výroba nebo vaření.",
-        "V mnoha frázích se machen překládá přirozeně do češtině, nikoli doslovně."
+        "Hlavní myšlenka: machen je velmi běžné slovo, které znamená dělat nebo vyrábět.",
+        "Pokud jde o obecnou činnost, překládá se jako dělat.",
+        "Pokud se něco vyrábí nebo připravuje, překládá se podle kontextu jako vyrábět nebo připravovat.",
+        "V mnoha frázích se machen překládá přirozeně do češtiny, nikoli doslovně."
       ],
       "examples": [
         {
@@ -14091,7 +14091,7 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Čas",
+    "lv": "Krát • Případ",
     "level": "A1",
     "study": {
       "id": "a1-mal",
@@ -14101,7 +14101,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: das Mal znamená jednou jako událost nebo příležitost.",
         "Často se používá s čísly: ein Mal, zwei Mal, drei Mal.",
         "S pořadovým číslem: das erste Mal, das zweite Mal.",
-        "Nemluvte s hovorovou částicí mal (Komm mal her!) - to je jiný význam."
+        "Nezaměňujte ho s hovorovou částicí mal (Komm mal her!) – jde o jiný význam."
       ],
       "examples": [
         {
@@ -14122,7 +14122,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: das Mal = čas (podstatné jméno) • Mal bez článku = hovorová částice."
+        "text": "Pamatujte: das Mal = krát/případ (podstatné jméno) • mal bez členu = hovorová částice."
       },
       "important": [
         "Das Mal / die Male - podstatné jméno se členem.",
@@ -14264,7 +14264,7 @@ const A1_WORDS = [
         "Pro manžela, der Mann = manžel (mein Mann = můj manžel).",
         "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžel – manžel.",
         "Množné číslo: die Männer.",
-        "Ženská forma die Frau má stejný dvojí význam: žena A manželka."
+        "Ženská forma die Frau má stejný dvojí význam: žena a manželka."
       ],
       "examples": [
         {
@@ -14530,11 +14530,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "Jdu s tebou"
+          "lv": "Jdu s tebou."
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "Jedu autobusem"
+          "lv": "Jedu autobusem."
         },
         {
           "de": "Sie schreibt mit dem Stift.",
@@ -14563,7 +14563,7 @@ const A1_WORDS = [
         },
         {
           "word": "zu",
-          "meaning": "Do / v",
+          "meaning": "K / ke",
           "example": "Ich gehe zum Arzt."
         }
       ],
@@ -14790,11 +14790,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "Mám rád hudbu"
+          "lv": "Mám rád hudbu."
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "Máš rád kávu"
+          "lv": "Máš rád kávu?"
         },
         {
           "de": "Sie mag Kinder.",
@@ -14802,7 +14802,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich möchte einen Kaffee.",
-          "lv": "Chtěl bych kávu"
+          "lv": "Chtěl bych kávu."
         }
       ],
       "comparison": [
@@ -14831,7 +14831,7 @@ const A1_WORDS = [
         "text": "Pamatujte: Ich mag... = Líbí se mi..."
       },
       "important": [
-        "Mögen není podstatné jméno pro zdvořilé „chtěl bych“. Obvykle se k tomu používá Möchte.",
+        "Mögen se nepoužívá pro zdvořilé „chtěl bych“. K tomu se obvykle používá möchte.",
         "Ich mag Kaffee znamená „Mám rád kávu“."
       ],
       "sectionAccents": {
@@ -15044,14 +15044,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Zítra",
       "explanation": [
-        "Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.",
-        "Morgen hlavně znamená: druhý den.",
-        "Často charakterizováno: počasím.",
-        "Morgen především znamená: část dne.",
-        "Často popisuje: podstatné jméno (der).",
-        "Morgen v podstatě znamená: několik ran.",
-        "Často charakterizováno: podstatné jméno (pl.).",
-        "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!"
+        "Hlavní myšlenka: morgen s malým písmenem znamená zítra.",
+        "Der Morgen s velkým písmenem je podstatné jméno a znamená ráno.",
+        "morgen je časové příslovce označující následující den.",
+        "Příklady: Ich komme morgen = Přijdu zítra • Bis morgen! = Až zítra!"
       ],
       "examples": [
         {
@@ -15242,7 +15238,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Malý morgen = zítra (Ich komme morgen). der Morgen s velkým písmenem = ráno (Guten Morgen!, am Morgen).",
-        "Der Morgen = zítra"
+        "Der Morgen = ráno"
       ],
       "important": [
         "Morgen je malé písmeno - je to časové příslovce (zítra).",
@@ -15369,12 +15365,12 @@ const A1_WORDS = [
   },
   {
     "de": "müssen",
-    "lv": "Potřebovat",
+    "lv": "Musit",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
       "layout": "standardStudy",
-      "translation": "Potřebovat",
+      "translation": "Musit",
       "explanation": [
         "Hlavní myšlenka: müssen znamená něco dělat.",
         "V češtině se müssen často překládá jako „já ano...“, „ty ano...“, „my ano...“.",
