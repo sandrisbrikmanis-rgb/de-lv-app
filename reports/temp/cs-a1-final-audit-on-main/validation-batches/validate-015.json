@@ -1,0 +1,167 @@
+{
+  "batch": "validate-015",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00285",
+      "cardId": "a1-urlaub",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Ferien znamená školní prázdniny, nikoli školní přestávku; „dsk.“ navíc není běžná česká zkratka.",
+      "auditCurrentCs": "Školní/studijní přestávka (pouze dsk.)",
+      "auditProposedCs": "Školní/studijní prázdniny (pouze mn. č.)",
+      "auditDe": "die Ferien",
+      "auditLvSource": "skolas/studiju brīvlaiks (tikai dsk.)",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Školní/studijní přestávka (pouze dsk.)",
+      "cardContext": {
+        "cardId": "a1-urlaub",
+        "de": "Urlaub",
+        "csMain": "Dovolená",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00286",
+      "cardId": "a1-uhr",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Věta je gramaticky neúplná a nepřirozená; chybí podmět i určité sloveso.",
+      "auditCurrentCs": "Často charakterizováno: konkrétním časem.",
+      "auditProposedCs": "Často označuje konkrétní čas.",
+      "auditDe": "Uhr",
+      "auditLvSource": "Bieži raksturo: konkrēts laiks.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Často charakterizováno: konkrétním časem.",
+      "cardContext": {
+        "cardId": "a1-uhr",
+        "de": "Uhr",
+        "csMain": "Hodiny",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00287",
+      "cardId": "a1-zeit",
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Text opomíjí hlavní význam Zeit („čas“) a jako primární uvádí jen méně základní významy.",
+      "auditCurrentCs": "Die Zeit znamená především: okamžik, příležitost.",
+      "auditProposedCs": "Die Zeit znamená především čas; podle kontextu také okamžik nebo příležitost.",
+      "auditDe": "Die Zeit znamená především: okamžik, příležitost.",
+      "auditLvSource": "die Zeit galvenokārt nozīmē: brīdis, iespēja.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Die Zeit znamená především: okamžik, příležitost.",
+      "cardContext": {
+        "cardId": "a1-zeit",
+        "de": "Zeit",
+        "csMain": "Čas (okamžik / časový úsek)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00288",
+      "cardId": "a1-zeit",
+      "field": "study.explanation[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Spojení „vyznačuje se pojmem“ je v češtině nepřirozené a věta působí jako chybný kalk.",
+      "auditCurrentCs": "Často se vyznačuje: abstraktním pojmem.",
+      "auditProposedCs": "Označuje abstraktní pojem.",
+      "auditDe": "Die Zeit",
+      "auditLvSource": "Bieži raksturo: abstrakts jēdziens.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Často se vyznačuje: abstraktním pojmem.",
+      "cardContext": {
+        "cardId": "a1-zeit",
+        "de": "Zeit",
+        "csMain": "Čas (okamžik / časový úsek)",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00289",
+      "cardId": "a1-einmal",
+      "field": "study.explanation[3]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Jeden čas“ znamená spíše „po určitou dobu“, ne jednu příležitost či jednorázový děj.",
+      "auditCurrentCs": "Einmal odkazuje na jeden čas nebo minulost (jednou jsem...).",
+      "auditProposedCs": "Einmal odkazuje na jednu příležitost nebo minulost (jednou jsem...).",
+      "auditDe": "Einmal odkazuje na jeden čas nebo minulost (jednou jsem...).",
+      "auditLvSource": "einmal norāda uz vienu reizi vai pagātni (reiz es...).",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Einmal odkazuje na jeden čas nebo minulost (jednou jsem...).",
+      "cardContext": {
+        "cardId": "a1-einmal",
+        "de": "einmal",
+        "csMain": "Jednou • Kdysi",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00285",
+      "cardId": "a1-urlaub",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Ferien“ znamená školní prázdniny; současný překlad je významově chybný a zkratka „dsk.“ je nepřirozená.",
+      "currentCs": "Školní/studijní přestávka (pouze dsk.)",
+      "proposedCs": "Školní/studijní prázdniny (pouze mn. č.)"
+    },
+    {
+      "findingId": "MAIN-A1-00286",
+      "cardId": "a1-uhr",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současná formulace je gramaticky neúplná a nepřirozená; chybí určitý slovesný tvar.",
+      "currentCs": "Často charakterizováno: konkrétním časem.",
+      "proposedCs": "Často označuje konkrétní čas."
+    },
+    {
+      "findingId": "MAIN-A1-00287",
+      "cardId": "a1-zeit",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současný text opomíjí základní význam „čas“ a uvádí jen užší významy.",
+      "currentCs": "Die Zeit znamená především: okamžik, příležitost.",
+      "proposedCs": "Die Zeit znamená především čas; podle kontextu také okamžik nebo příležitost."
+    },
+    {
+      "findingId": "MAIN-A1-00288",
+      "cardId": "a1-zeit",
+      "field": "study.explanation[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Spojení „vyznačuje se abstraktním pojmem“ je v češtině nepřirozené a významově nejasné.",
+      "currentCs": "Často se vyznačuje: abstraktním pojmem.",
+      "proposedCs": "Označuje abstraktní pojem."
+    },
+    {
+      "findingId": "MAIN-A1-00289",
+      "cardId": "a1-einmal",
+      "field": "study.explanation[3]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současné „jeden čas“ je v tomto vysvětlení nejasné; vhodnější je vyjádřit jednu příležitost nebo minulost.",
+      "currentCs": "Einmal odkazuje na jeden čas nebo minulost (jednou jsem...).",
+      "proposedCs": "Einmal odkazuje na jednu příležitost nebo minulost (jednou jsem...)."
+    }
+  ]
+}

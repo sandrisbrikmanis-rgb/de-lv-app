@@ -1,0 +1,141 @@
+{
+  "dataset": "a1",
+  "batch": "study-061-070",
+  "auditType": "vocab_study",
+  "cardCount": 10,
+  "cardIds": [
+    "a1-leise-study",
+    "a1-liegen",
+    "a1-liter",
+    "a1-machen",
+    "a1-mal",
+    "a1-mann",
+    "a1-mit",
+    "a1-mögen",
+    "a1-morgen",
+    "a1-morgen-study"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-mal",
+      "field": "csMain",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Mal",
+      "lvSource": "reize",
+      "currentCs": "Krát • Případ",
+      "proposedCs": "Případ • Opakování",
+      "reason": "„Krát“ není samostatný český význam slova Mal. Jde o případ nebo opakování.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Mal",
+      "lvSource": "reize",
+      "currentCs": "Krát • Případ",
+      "proposedCs": "Případ • Opakování",
+      "reason": "„Krát“ není samostatný český význam slova Mal. Jde o případ nebo opakování.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-mal",
+      "field": "study.tip.text",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa.",
+      "lvSource": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa.",
+      "currentCs": "Pamatujte: das Mal = krát/případ (podstatné jméno) • mal bez členu = hovorová částice.",
+      "proposedCs": "Pamatujte: das Mal = případ / opakování • mal bez členu = hovorová částice.",
+      "reason": "Překlad „krát“ je zde nesprávný a může studenty vést k chybnému významu podstatného jména.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-morgen",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Bis morgen!",
+      "lvSource": "līdz rīt!",
+      "currentCs": "Až zítra!",
+      "proposedCs": "Tak zítra!",
+      "reason": "„Až zítra!“ je doslovné a v češtině nepřirozené jako běžné rozloučení.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-morgen",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "morgen",
+      "lvSource": "rīt",
+      "currentCs": [
+        "Hlavní myšlenka: Příslovce času je malé. Znamená další den – zítra.",
+        "Morgen hlavně znamená: druhý den.",
+        "Často charakterizováno: počasím.",
+        "Morgen především znamená: část dne.",
+        "Často popisuje: podstatné jméno (der).",
+        "Morgen v podstatě znamená: několik ran.",
+        "Často charakterizováno: podstatné jméno (pl.).",
+        "Morgen s malým počátečním písmenem znamená „zítra“ (Ich komme morgen = Přijdu zítra, Bis morgen!)."
+      ],
+      "proposedCs": [
+        "Hlavní myšlenka: morgen s malým písmenem znamená zítra.",
+        "Morgen s velkým písmenem je podstatné jméno a znamená ráno.",
+        "Nezaměňujte morgen ve větě Ich komme morgen s Morgen ve spojení Guten Morgen!.",
+        "Ich komme morgen = Přijdu zítra. Guten Morgen! = Dobré ráno!"
+      ],
+      "reason": "Text obsahuje nesouvisející a chybné formulace. „Několik ran“ není význam jednotného Morgen.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Bis morgen!",
+      "lvSource": "līdz rīt!",
+      "currentCs": "Až zítra!",
+      "proposedCs": "Tak zítra!",
+      "reason": "„Až zítra!“ je doslovné a v češtině nepřirozené jako běžné rozloučení.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-morgen-study",
+      "field": "study.explanation",
+      "severity": "MEDIUM",
+      "category": "STUDY",
+      "de": "Morgen",
+      "lvSource": "rīts",
+      "currentCs": [
+        "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Denní část – dopoledne.",
+        "Der Morgen hlavně znamená ráno, tedy část dne.",
+        "Často charakterizováno: počasím.",
+        "Der Morgen primárně znamená: část dne.",
+        "Často popisuje: podstatné jméno (der).",
+        "Der Morgen v podstatě znamená: několik ran.",
+        "Často charakterizováno: podstatné jméno (pl.).",
+        "Morgen s malým počátečním písmenem znamená zítra - pozítří (Ich komme morgen = přijdu zítra, Bis morgen!"
+      ],
+      "proposedCs": [
+        "Hlavní myšlenka: Der Morgen je podstatné jméno, které znamená ráno.",
+        "Používá se s velkým písmenem: der Morgen, am Morgen.",
+        "Nezaměňujte ho s morgen s malým písmenem, které znamená zítra.",
+        "Guten Morgen! = Dobré ráno! Ich komme morgen = Přijdu zítra."
+      ],
+      "reason": "Výklad obsahuje chybný význam „několik ran“ a tvrdí, že morgen znamená „zítra – pozítří“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 7,
+  "completedAt": "2026-08-12T18:13:34.975Z"
+}

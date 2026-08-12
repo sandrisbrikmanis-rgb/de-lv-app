@@ -1,0 +1,43 @@
+{
+  "productionCards": 702,
+  "cardsSubmittedToLuna": 702,
+  "cardsAuditedByLuna": 702,
+  "missingCards": 0,
+  "duplicateAuditedCards": 0,
+  "simpleBatches": 12,
+  "studyBatches": 13,
+  "simpleBatchIds": [
+    "simple-001-050",
+    "simple-051-100",
+    "simple-101-150",
+    "simple-151-200",
+    "simple-201-250",
+    "simple-251-300",
+    "simple-301-350",
+    "simple-351-400",
+    "simple-401-450",
+    "simple-451-500",
+    "simple-501-550",
+    "simple-551-578"
+  ],
+  "studyBatchIds": [
+    "study-001-010",
+    "study-011-020",
+    "study-021-030",
+    "study-031-040",
+    "study-041-050",
+    "study-051-060",
+    "study-061-070",
+    "study-071-080",
+    "study-081-090",
+    "study-091-100",
+    "study-101-110",
+    "study-111-120",
+    "study-121-124"
+  ],
+  "coverageComplete": true,
+  "deterministicFindingsRaw": 65,
+  "linguisticFindingsRaw": 224,
+  "validatedFindings": 269,
+  "completedAt": "2026-08-12T18:22:32.711Z"
+}

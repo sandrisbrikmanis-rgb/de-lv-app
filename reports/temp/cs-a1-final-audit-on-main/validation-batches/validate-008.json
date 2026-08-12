@@ -1,0 +1,483 @@
+{
+  "batch": "validate-008",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00164",
+      "cardId": "a1-kosten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Zvýraznění obsahuje „Zaplatit“, ale aktuální význam pole je „Stát (o ceně) • Kolik stojí“.",
+      "auditCurrentCs": "Zaplatit",
+      "auditProposedCs": "Stát",
+      "auditDe": "kosten",
+      "auditLvSource": "maksāt",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Zaplatit",
+      "cardContext": {
+        "cardId": "a1-kosten",
+        "de": "kosten",
+        "csMain": "Platit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00165",
+      "cardId": "a1-laden-study",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Laden s velkým písmenem je podstatné jméno „obchod“, nikoli sloveso „nakupovat“.",
+      "auditCurrentCs": "Nakupovat",
+      "auditProposedCs": "Obchod",
+      "auditDe": "Laden",
+      "auditLvSource": "veikals",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Nakupovat",
+      "cardContext": {
+        "cardId": "a1-laden-study",
+        "de": "Laden",
+        "csMain": "Nakupovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00166",
+      "cardId": "a1-laden-study",
+      "field": "study.examples[3].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé müssen vyjadřuje nutnost („musím“), ne pouze potřebu.",
+      "auditCurrentCs": "Potřebuji nabít telefon.",
+      "auditProposedCs": "Musím nabít telefon.",
+      "auditDe": "Ich muss mein Handy laden.",
+      "auditLvSource": "man jāuzlādē telefons.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Potřebuji nabít telefon.",
+      "cardContext": {
+        "cardId": "a1-laden-study",
+        "de": "Laden",
+        "csMain": "Nakupovat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00167",
+      "cardId": "a1-land",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní český titul opakuje „Země“ a vynechává význam „venkov“, který je v německém slově relevantní.",
+      "auditCurrentCs": "Země • Země",
+      "auditProposedCs": "Země • Venkov",
+      "auditDe": "Land",
+      "auditLvSource": "valsts • zeme",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Země • Země",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Země",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00168",
+      "cardId": "a1-land",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Pozemek za městem“ není běžný význam německého das Land v uvedeném výukovém kontextu.",
+      "auditCurrentCs": "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo pozemek za městem.",
+      "auditProposedCs": "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo venkov.",
+      "auditDe": "das Land",
+      "auditLvSource": "das Land visbiežāk nozīmē valsti vai zemi ārpus pilsētas.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo pozemek za městem.",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Země",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00169",
+      "cardId": "a1-land",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Dorf znamená „vesnice“; „obec“ označuje širší správní jednotku a není přesným základním ekvivalentem.",
+      "auditCurrentCs": "Obec",
+      "auditProposedCs": "Vesnice",
+      "auditDe": "das Dorf",
+      "auditLvSource": "ciems",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Obec",
+      "cardContext": {
+        "cardId": "a1-land",
+        "de": "Land",
+        "csMain": "Země • Země",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00170",
+      "cardId": "a1-lang",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Druhý český význam je příslovce „dlouho“, nikoli opakovaně přídavné jméno „dlouhý“.",
+      "auditCurrentCs": "Dlouhý • Dlouhý",
+      "auditProposedCs": "Dlouhý • Dlouho",
+      "auditDe": "lang",
+      "auditLvSource": "garš • ilgs",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Dlouhý • Dlouhý",
+      "cardContext": {
+        "cardId": "a1-lang",
+        "de": "lang",
+        "csMain": "Dlouhý • Dlouhý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00172",
+      "cardId": "a1-lang",
+      "field": "study.tip[1]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "U čekání se německé lange překládá příslovcem „dlouho“, ne přídavným jménem „dlouhý“.",
+      "auditCurrentCs": "O čase (den, čekání, film) → dlouhý.",
+      "auditProposedCs": "O čase (den, film) → dlouhý; o trvání (čekání) → dlouho.",
+      "auditDe": "lang",
+      "auditLvSource": "Par laiku (diena, gaidīšana, filma) → ilgs.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "O čase (den, čekání, film) → dlouhý.",
+      "cardContext": {
+        "cardId": "a1-lang",
+        "de": "lang",
+        "csMain": "Dlouhý • Dlouhý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00173",
+      "cardId": "a1-lang",
+      "field": "study.sectionAccents.examples[4].lv.green[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Zvýrazněný text „Čekal“ neodpovídá aktuálnímu překladu „Už dlouho čekám“.",
+      "auditCurrentCs": "Čekal",
+      "auditProposedCs": "čekám",
+      "auditDe": "Ich warte schon lange.",
+      "auditLvSource": "es gaidu jau ilgi.",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": null,
+      "cardContext": {
+        "cardId": "a1-lang",
+        "de": "lang",
+        "csMain": "Dlouhý • Dlouhý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00174",
+      "cardId": "a1-lassen",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Opustit“ odpovídá spíše verlassen; lassen zde znamená „nechat“ nebo „dovolit“.",
+      "auditCurrentCs": "Opustit • Nechat",
+      "auditProposedCs": "Nechat • Dovolit",
+      "auditDe": "lassen",
+      "auditLvSource": "atstāt • ļaut",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Opustit • Nechat",
+      "cardContext": {
+        "cardId": "a1-lassen",
+        "de": "lassen",
+        "csMain": "Opustit • Nechat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00175",
+      "cardId": "a1-lassen",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Pro význam svolení je v češtině přirozenější „nechají jít“ než průběhově znějící „nechávají jít“.",
+      "auditCurrentCs": "Rodiče mě nechávají jít.",
+      "auditProposedCs": "Rodiče mě nechají jít.",
+      "auditDe": "Meine Eltern lassen mich gehen.",
+      "auditLvSource": "vecāki ļauj man iet.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Rodiče mě nechávají jít.",
+      "cardContext": {
+        "cardId": "a1-lassen",
+        "de": "lassen",
+        "csMain": "Opustit • Nechat",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00176",
+      "cardId": "a1-legen",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Polož“ přesněji zachovává význam legen a odlišuje ho od obecného „dej“.",
+      "auditCurrentCs": "Dej klíč sem.",
+      "auditProposedCs": "Polož klíč sem.",
+      "auditDe": "Leg den Schlüssel hierhin.",
+      "auditLvSource": "noliec atslēgu šeit.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Dej klíč sem.",
+      "cardContext": {
+        "cardId": "a1-legen",
+        "de": "legen",
+        "csMain": "Položit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00177",
+      "cardId": "a1-legen",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Zvýraznění používá minulý čas, zatímco aktuální český příklad je v přítomném čase.",
+      "auditCurrentCs": "Položil",
+      "auditProposedCs": "Pokládám",
+      "auditDe": "Ich lege das Buch auf den Tisch.",
+      "auditLvSource": "es nolieku grāmatu uz galda.",
+      "category": "SECTIONACCENTS_LANGUAGE",
+      "productionCurrentCs": "Položil",
+      "cardContext": {
+        "cardId": "a1-legen",
+        "de": "legen",
+        "csMain": "Položit",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00178",
+      "cardId": "a1-mal",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Krát“ není samostatný český význam slova Mal. Jde o případ nebo opakování.",
+      "auditCurrentCs": "Krát • Případ",
+      "auditProposedCs": "Případ • Opakování",
+      "auditDe": "Mal",
+      "auditLvSource": "reize",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Krát • Případ",
+      "cardContext": {
+        "cardId": "a1-mal",
+        "de": "Mal",
+        "csMain": "Krát • Případ",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00179",
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Krát“ není samostatný český význam slova Mal. Jde o případ nebo opakování.",
+      "auditCurrentCs": "Krát • Případ",
+      "auditProposedCs": "Případ • Opakování",
+      "auditDe": "Mal",
+      "auditLvSource": "reize",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Krát • Případ",
+      "cardContext": {
+        "cardId": "a1-mal",
+        "de": "Mal",
+        "csMain": "Krát • Případ",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00164",
+      "cardId": "a1-kosten",
+      "field": "study.sectionAccents.comparison[0].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Zaplatit“ znamená provést platbu, nikoli stát o ceně; zvýraznění neodpovídá významu pole.",
+      "currentCs": "Zaplatit",
+      "proposedCs": "Stát"
+    },
+    {
+      "findingId": "MAIN-A1-00165",
+      "cardId": "a1-laden-study",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Velké německé „Laden“ je podstatné jméno „obchod“, takže české „Nakupovat“ má nesprávný význam.",
+      "currentCs": "Nakupovat",
+      "proposedCs": "Obchod"
+    },
+    {
+      "findingId": "MAIN-A1-00166",
+      "cardId": "a1-laden-study",
+      "field": "study.examples[3].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Müssen“ vyjadřuje nutnost; „Potřebuji“ zde význam oslabuje a není přesným překladem.",
+      "currentCs": "Potřebuji nabít telefon.",
+      "proposedCs": "Musím nabít telefon."
+    },
+    {
+      "findingId": "MAIN-A1-00167",
+      "cardId": "a1-land",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Dva stejné významy opakují „Země“ a chybí význam „venkov“, který je pro „Land“ relevantní.",
+      "currentCs": "Země • Země",
+      "proposedCs": "Země • Venkov"
+    },
+    {
+      "findingId": "MAIN-A1-00168",
+      "cardId": "a1-land",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V uvedeném kontextu „das Land“ označuje venkov; „pozemek za městem“ je zde zavádějící.",
+      "currentCs": "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo pozemek za městem.",
+      "proposedCs": "Hlavní myšlenka: das Land nejčastěji znamená zemi nebo venkov."
+    },
+    {
+      "findingId": "MAIN-A1-00169",
+      "cardId": "a1-land",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "reason": "„Obec“ je v češtině přijatelný kontextový ekvivalent pro „Dorf“; požadavek na „vesnice“ je převážně synonymní preference.",
+      "currentCs": "Obec"
+    },
+    {
+      "findingId": "MAIN-A1-00170",
+      "cardId": "a1-lang",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Druhý význam „lang“ je příslovce „dlouho“, nikoli opakování přídavného jména „dlouhý“.",
+      "currentCs": "Dlouhý • Dlouhý",
+      "proposedCs": "Dlouhý • Dlouho"
+    },
+    {
+      "findingId": "MAIN-A1-00172",
+      "cardId": "a1-lang",
+      "field": "study.tip[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Ve spojení „dlouho čekám“ je „lange“ příslovce; tip nesprávně uvádí přídavné jméno „dlouhý“.",
+      "currentCs": "O čase (den, čekání, film) → dlouhý.",
+      "proposedCs": "O čase (den, film) → dlouhý; o trvání (čekání) → dlouho."
+    },
+    {
+      "findingId": "MAIN-A1-00173",
+      "cardId": "a1-lang",
+      "field": "study.sectionAccents.examples[4].lv.green[0]",
+      "validationStatus": "STALE_ALREADY_FIXED",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Audit uvádí zvýraznění „Čekal“, ale v aktuální produkci je hodnota odstraněná (null).",
+      "currentCs": null
+    },
+    {
+      "findingId": "MAIN-A1-00174",
+      "cardId": "a1-lassen",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Pro výukový význam „lassen“ jsou zde vhodnější „nechat“ a „dovolit“; „opustit“ mate se slovem „verlassen“.",
+      "currentCs": "Opustit • Nechat",
+      "proposedCs": "Nechat • Dovolit"
+    },
+    {
+      "findingId": "MAIN-A1-00175",
+      "cardId": "a1-lassen",
+      "field": "study.examples[2].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Rodiče mě nechávají jít“ je gramaticky správné a přirozené; navržená varianta je pouze jiný aspekt.",
+      "currentCs": "Rodiče mě nechávají jít."
+    },
+    {
+      "findingId": "MAIN-A1-00176",
+      "cardId": "a1-legen",
+      "field": "study.examples[1].lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Dej klíč sem“ je přirozený český překlad imperativu a zachovává význam umístění; „polož“ je stylistická preference.",
+      "currentCs": "Dej klíč sem."
+    },
+    {
+      "findingId": "MAIN-A1-00177",
+      "cardId": "a1-legen",
+      "field": "study.sectionAccents.examples[0].lv.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Německý příklad je v přítomném čase, ale zvýraznění „Položil“ je minulý čas.",
+      "currentCs": "Položil",
+      "proposedCs": "Pokládám"
+    },
+    {
+      "findingId": "MAIN-A1-00178",
+      "cardId": "a1-mal",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Krát“ není samostatný český význam slova „Mal“; jde o význam případu nebo opakování.",
+      "currentCs": "Krát • Případ",
+      "proposedCs": "Případ • Opakování"
+    },
+    {
+      "findingId": "MAIN-A1-00179",
+      "cardId": "a1-mal",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Krát“ není samostatný český význam slova „Mal“; jde o význam případu nebo opakování.",
+      "currentCs": "Krát • Případ",
+      "proposedCs": "Případ • Opakování"
+    }
+  ]
+}

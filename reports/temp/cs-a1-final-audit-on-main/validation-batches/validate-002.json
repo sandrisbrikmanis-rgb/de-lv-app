@@ -1,0 +1,482 @@
+{
+  "batch": "validate-002",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00064",
+      "cardId": "a1-Zitrone-666",
+      "field": "lv",
+      "source": "deterministic",
+      "batch": "651-700",
+      "severity": "HIGH",
+      "auditProblem": "Foreign remnant (PL_CHAR) in entry[666].lv",
+      "auditCurrentCs": "Citrón",
+      "auditProposedCs": "(Czech text required)",
+      "auditDe": "Zitrone",
+      "auditLvSource": "citrons",
+      "category": "FINDING",
+      "productionCurrentCs": "Citrón",
+      "cardContext": {
+        "cardId": "a1-Zitrone-666",
+        "de": "Zitrone",
+        "csMain": "Citrón",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00066",
+      "cardId": "a1-Alter-11",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Alter“ zde znamená věk; „stáří“ označuje spíše pokročilý věk nebo old age.",
+      "auditCurrentCs": "Stáří",
+      "auditProposedCs": "Věk",
+      "auditDe": "Alter",
+      "auditLvSource": "vecums",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Stáří",
+      "cardContext": {
+        "cardId": "a1-Alter-11",
+        "de": "Alter",
+        "csMain": "Stáří",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00067",
+      "cardId": "a1-fertig-183",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Fertig“ nejčastěji znamená „hotový“ nebo „dokončený“; „připravený“ pokrývá jen jeden význam.",
+      "auditCurrentCs": "Připraven",
+      "auditProposedCs": "Hotový • Připravený",
+      "auditDe": "fertig",
+      "auditLvSource": "gatavs",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Připraven",
+      "cardContext": {
+        "cardId": "a1-fertig-183",
+        "de": "fertig",
+        "csMain": "Připraven",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00068",
+      "cardId": "a1-Geschwister-234",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Bratři a sestry“ popisuje význam, ale německému obecnému označení sourozenců neodpovídá tak přesně jako „sourozenci“.",
+      "auditCurrentCs": "Bratři a sestry",
+      "auditProposedCs": "Sourozenci",
+      "auditDe": "Geschwister",
+      "auditLvSource": "brāļi un māsas",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Bratři a sestry",
+      "cardContext": {
+        "cardId": "a1-Geschwister-234",
+        "de": "Geschwister",
+        "csMain": "Bratři a sestry",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00069",
+      "cardId": "a1-Hand-267",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Německé „Hand“ znamená obecně ruku; doplnění „dlaň“ význam zužuje a může být zavádějící.",
+      "auditCurrentCs": "Ruka (dlaň)",
+      "auditProposedCs": "Ruka",
+      "auditDe": "Hand",
+      "auditLvSource": "plauksta",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Ruka (dlaň)",
+      "cardContext": {
+        "cardId": "a1-Hand-267",
+        "de": "Hand",
+        "csMain": "Ruka (dlaň)",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00070",
+      "cardId": "a1-hübsch-288",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Úhledný“ znamená spíše upravený nebo uspořádaný; běžné významy „hübsch“ jsou „hezký“ a „pěkný“.",
+      "auditCurrentCs": "Úhledný • Pěkný",
+      "auditProposedCs": "Hezký • Pěkný",
+      "auditDe": "hübsch",
+      "auditLvSource": "glīts",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Úhledný • Pěkný",
+      "cardContext": {
+        "cardId": "a1-hübsch-288",
+        "de": "hübsch",
+        "csMain": "Úhledný • Pěkný",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00071",
+      "cardId": "a1-jawohl-299",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Jawohl“ je důrazné ano nebo jistě; „Přesně tak“ znamená spíše „genau so“.",
+      "auditCurrentCs": "Přesně tak",
+      "auditProposedCs": "Ano, jistě",
+      "auditDe": "jawohl",
+      "auditLvSource": "tieši tā",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Přesně tak",
+      "cardContext": {
+        "cardId": "a1-jawohl-299",
+        "de": "jawohl",
+        "csMain": "Přesně tak",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00072",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Oba české ekvivalenty jsou stejné, takže se ztrácí rozlišení významů uvedených ve zdroji.",
+      "auditCurrentCs": "Malovat • Malovat",
+      "auditProposedCs": "Malovat • Vybarvovat",
+      "auditDe": "malen",
+      "auditLvSource": "gleznot • krāsot",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Malovat • Malovat",
+      "cardContext": {
+        "cardId": "a1-malen-391",
+        "de": "malen",
+        "csMain": "Malovat • Malovat",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00073",
+      "cardId": "a1-schnell-519",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Rychle“ pokrývá jen adverbiální význam; německé schnell běžně funguje i jako přídavné jméno „rychlý“.",
+      "auditCurrentCs": "Rychle",
+      "auditProposedCs": "Rychlý • Rychle",
+      "auditDe": "schnell",
+      "auditLvSource": "ātrs",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Rychle",
+      "cardContext": {
+        "cardId": "a1-schnell-519",
+        "de": "schnell",
+        "csMain": "Rychle",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00074",
+      "cardId": "a1-unten-614",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Na dně“ znamená na dně nádoby či vodního útvaru, nikoli obecně „dole“ nebo „ve spodní části“.",
+      "auditCurrentCs": "Na dně",
+      "auditProposedCs": "Dole",
+      "auditDe": "unten",
+      "auditLvSource": "apakšā",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Na dně",
+      "cardContext": {
+        "cardId": "a1-unten-614",
+        "de": "unten",
+        "csMain": "Na dně",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00075",
+      "cardId": "a1-sich waschen-646",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Německé „sich waschen“ vyjadřuje nedokonavý děj; „umýt se“ je dokonavé a znamená umýt se jednou/dokončit mytí.",
+      "auditCurrentCs": "Umýt se",
+      "auditProposedCs": "Mýt se",
+      "auditDe": "sich waschen",
+      "auditLvSource": "mazgāties",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Umýt se",
+      "cardContext": {
+        "cardId": "a1-sich waschen-646",
+        "de": "sich waschen",
+        "csMain": "Umýt se",
+        "hasStudy": false
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00076",
+      "cardId": "a1-an",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Český text zbytečně opakuje stejnou variantu místo významů „u zdi / na zdi“.",
+      "auditCurrentCs": "Na stěně / na stěně",
+      "auditProposedCs": "U zdi / na zdi",
+      "auditDe": "an der Wand",
+      "auditLvSource": "pie sienas / uz sienas",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Na stěně / na stěně",
+      "cardContext": {
+        "cardId": "a1-an",
+        "de": "an",
+        "csMain": "Na • Na povrchu • Na okraji",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00077",
+      "cardId": "a1-ab",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Hlavní český překlad „Z“ neodpovídá významu německé předložky ab; správně je „od“.",
+      "auditCurrentCs": "Z",
+      "auditProposedCs": "Od",
+      "auditDe": "ab",
+      "auditLvSource": "no",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Z",
+      "cardContext": {
+        "cardId": "a1-ab",
+        "de": "ab",
+        "csMain": "Z",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00078",
+      "cardId": "a1-aber",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "České „Ne • Ale“ je neúplné a nevystihuje běžnou konstrukci „ne..., ale...“.",
+      "auditCurrentCs": "Ne • Ale",
+      "auditProposedCs": "Ne..., ale...",
+      "auditDe": "sondern",
+      "auditLvSource": "nevis • bet gan",
+      "category": "TRANSLATION",
+      "productionCurrentCs": "Ne • Ale",
+      "cardContext": {
+        "cardId": "a1-aber",
+        "de": "aber",
+        "csMain": "Ale",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00079",
+      "cardId": "a1-also",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Also“ v tomto významu vyjadřuje závěr („tedy, takže“); „proto“ se běžně pojí spíše s deshalb.",
+      "auditCurrentCs": "Proto",
+      "auditProposedCs": "Tedy • Takže",
+      "auditDe": "also",
+      "auditLvSource": "tātad",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Proto",
+      "cardContext": {
+        "cardId": "a1-also",
+        "de": "also",
+        "csMain": "Proto",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00064",
+      "cardId": "a1-Zitrone-666",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Citrón“ je platný český překlad německého „Zitrone“; nejde o polský znak ani cizí pozůstatek.",
+      "currentCs": "Citrón"
+    },
+    {
+      "findingId": "MAIN-A1-00066",
+      "cardId": "a1-Alter-11",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Stáří“ označuje hlavně pokročilý věk; běžný význam „Alter“ zde odpovídá českému „věk“.",
+      "currentCs": "Stáří",
+      "proposedCs": "Věk"
+    },
+    {
+      "findingId": "MAIN-A1-00067",
+      "cardId": "a1-fertig-183",
+      "field": "lv",
+      "validationStatus": "VALID_CONTEXT_DIFFERENCE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Připraven“ je platný význam podle zdrojového lotyšského „gatavs“; jde o rozdíl kontextu, ne chybu CS.",
+      "currentCs": "Připraven"
+    },
+    {
+      "findingId": "MAIN-A1-00068",
+      "cardId": "a1-Geschwister-234",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Bratři a sestry“ je srozumitelný a významově správný český ekvivalent; „sourozenci“ je jen stylisticky stručnější.",
+      "currentCs": "Bratři a sestry"
+    },
+    {
+      "findingId": "MAIN-A1-00069",
+      "cardId": "a1-Hand-267",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "reason": "„Ruka (dlaň)“ obsahuje správný obecný překlad „ruka“; doplňující význam není skutečná chyba CS.",
+      "currentCs": "Ruka (dlaň)"
+    },
+    {
+      "findingId": "MAIN-A1-00070",
+      "cardId": "a1-hübsch-288",
+      "field": "lv",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Úhledný“ i „pěkný“ jsou v češtině přijatelné překlady „hübsch“; jde o preferenci synonyma.",
+      "currentCs": "Úhledný • Pěkný"
+    },
+    {
+      "findingId": "MAIN-A1-00071",
+      "cardId": "a1-jawohl-299",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Jawohl“ je důrazné potvrzení, zatímco „Přesně tak“ primárně vyjadřuje shodu s tvrzením.",
+      "currentCs": "Přesně tak",
+      "proposedCs": "Ano, jistě"
+    },
+    {
+      "findingId": "MAIN-A1-00072",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Duplicitní „Malovat“ nerozlišuje významy kreslit a barvit, které jsou ve zdroji uvedeny odděleně.",
+      "currentCs": "Malovat • Malovat",
+      "proposedCs": "Malovat • Vybarvovat"
+    },
+    {
+      "findingId": "MAIN-A1-00073",
+      "cardId": "a1-schnell-519",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Rychle“ je pouze příslovce; německé „schnell“ má v tomto záznamu také přídavný význam „rychlý“.",
+      "currentCs": "Rychle",
+      "proposedCs": "Rychlý • Rychle"
+    },
+    {
+      "findingId": "MAIN-A1-00074",
+      "cardId": "a1-unten-614",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Na dně“ označuje dno nádoby či útvaru, nikoli obecnou polohu „dole“ vyjádřenou slovem „unten“.",
+      "currentCs": "Na dně",
+      "proposedCs": "Dole"
+    },
+    {
+      "findingId": "MAIN-A1-00075",
+      "cardId": "a1-sich waschen-646",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Sich waschen“ je nedokonavé; české „umýt se“ vyjadřuje dokončený jednorázový děj.",
+      "currentCs": "Umýt se",
+      "proposedCs": "Mýt se"
+    },
+    {
+      "findingId": "MAIN-A1-00076",
+      "cardId": "a1-an",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Příklad opakuje stejnou variantu a nerozlišuje významy „u zdi“ a „na zdi“.",
+      "currentCs": "Na stěně / na stěně",
+      "proposedCs": "U zdi / na zdi"
+    },
+    {
+      "findingId": "MAIN-A1-00077",
+      "cardId": "a1-ab",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "České „z“ neodpovídá předložce „ab“; její základní český ekvivalent je „od“.",
+      "currentCs": "Z",
+      "proposedCs": "Od"
+    },
+    {
+      "findingId": "MAIN-A1-00078",
+      "cardId": "a1-aber",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Ne • Ale“ nevyjadřuje úplnou českou konstrukci odpovídající německému „sondern“.",
+      "currentCs": "Ne • Ale",
+      "proposedCs": "Ne..., ale..."
+    },
+    {
+      "findingId": "MAIN-A1-00079",
+      "cardId": "a1-also",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V tomto významu „also“ vyjadřuje závěr „tedy“ nebo „takže“, nikoli běžné kauzální „proto“.",
+      "currentCs": "Proto",
+      "proposedCs": "Tedy • Takže"
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "batch": "validate-006",
+  "items": [
+    {
+      "findingId": "MAIN-A1-00129",
+      "cardId": "a1-geben",
+      "field": "study.examples[0].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Chybí čárka a příslovce prosím je v češtině přirozenější před předmětem.",
+      "auditCurrentCs": "Dej mi knihu prosím",
+      "auditProposedCs": "Dej mi prosím knihu.",
+      "auditDe": "Gib mir bitte das Buch.",
+      "auditLvSource": "iedod man, lūdzu, grāmatu.",
+      "category": "ORTHOGRAPHY",
+      "productionCurrentCs": "Dej mi knihu prosím",
+      "cardContext": {
+        "cardId": "a1-geben",
+        "de": "geben",
+        "csMain": "Dát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00130",
+      "cardId": "a1-geben",
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Obě české varianty jsou totožné; rozlišení nedává studentovi užitečnou informaci.",
+      "auditCurrentCs": "Vzít / vzít",
+      "auditProposedCs": "Brát / vzít",
+      "auditDe": "nehmen",
+      "auditLvSource": "ņemt / paņemt",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Vzít / vzít",
+      "cardContext": {
+        "cardId": "a1-geben",
+        "de": "geben",
+        "csMain": "Dát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00131",
+      "cardId": "a1-geben",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Bekommen znamená získat nebo dostat; „přijímat“ označuje spíše aktivní přijímání.",
+      "auditCurrentCs": "Přijímat / dostávat",
+      "auditProposedCs": "Dostat / obdržet",
+      "auditDe": "bekommen",
+      "auditLvSource": "saņemt / dabūt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Přijímat / dostávat",
+      "cardContext": {
+        "cardId": "a1-geben",
+        "de": "geben",
+        "csMain": "Dát",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00132",
+      "cardId": "a1-gleich",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Druhotný význam gleich v těchto příkladech znamená „stejný“, nikoli přídavné jméno „rovný“.",
+      "auditCurrentCs": "Hned • Rovný",
+      "auditProposedCs": "Hned • Stejný",
+      "auditDe": "gleich",
+      "auditLvSource": "tūlīt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Hned • Rovný",
+      "cardContext": {
+        "cardId": "a1-gleich",
+        "de": "gleich",
+        "csMain": "Hned • Rovný",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00133",
+      "cardId": "a1-gleich",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "„Rovno“ je příslovce; zde je potřeba přídavné jméno stejný.",
+      "auditCurrentCs": "Gleich = okamžitě (čas) NEBO rovno (srovnání).",
+      "auditProposedCs": "Gleich = hned (čas) NEBO stejný (srovnání).",
+      "auditDe": "gleich",
+      "auditLvSource": "gleich = tūlīt VAI vienāds",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Gleich = okamžitě (čas) NEBO rovno (srovnání).",
+      "cardContext": {
+        "cardId": "a1-gleich",
+        "de": "gleich",
+        "csMain": "Hned • Rovný",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00134",
+      "cardId": "a1-gleich",
+      "field": "study.tip[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "Text obsahuje zbytečnou duplicitu v závorce.",
+      "auditCurrentCs": "Za chvíli (za chvíli) → hned.",
+      "auditProposedCs": "Za chvíli → hned.",
+      "auditDe": "gleich",
+      "auditLvSource": "Par laiku (pēc brīža) → tūlīt.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Za chvíli (za chvíli) → hned.",
+      "cardContext": {
+        "cardId": "a1-gleich",
+        "de": "gleich",
+        "csMain": "Hned • Rovný",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00135",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český text neodpovídá zdrojové větě o Berlíně; opakuje překlad předchozí věty.",
+      "auditCurrentCs": "Dům je velký.",
+      "auditProposedCs": "Berlín je velké město.",
+      "auditDe": "Berlin ist eine große Stadt.",
+      "auditLvSource": "Berlīne ir liela pilsēta.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Dům je velký.",
+      "cardContext": {
+        "cardId": "a1-gross-study",
+        "de": "groß",
+        "csMain": "Velký",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00136",
+      "cardId": "a1-gut-study",
+      "field": "study.important[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Střevní změny“ je významově chybná formulace, zřejmě překlep místo tvarových změn.",
+      "auditCurrentCs": "Guten Tag/Morgen/Abend - střevní změny končící po skloňování.",
+      "auditProposedCs": "Guten Tag/Morgen/Abend – tvarové změny s koncovkou -en po skloňování.",
+      "auditDe": "Guten Tag/Morgen/Abend",
+      "auditLvSource": "īpašības vārdam gut ir galotne -en.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Guten Tag/Morgen/Abend - střevní změny končící po skloňování.",
+      "cardContext": {
+        "cardId": "a1-gut-study",
+        "de": "gut",
+        "csMain": "Dobrý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00138",
+      "cardId": "a1-haben",
+      "field": "study.comparison[2].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Bekommen v uvedeném příkladu znamená dostat, nikoli obecně přijímat.",
+      "auditCurrentCs": "Přijímat",
+      "auditProposedCs": "Dostat",
+      "auditDe": "bekommen",
+      "auditLvSource": "saņemt",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Přijímat",
+      "cardContext": {
+        "cardId": "a1-haben",
+        "de": "haben",
+        "csMain": "Mám",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00139",
+      "cardId": "a1-haben",
+      "field": "study.important[2]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "LOW",
+      "auditProblem": "„Dokonalé“ není v češtině běžný název německého slovesného času Perfekt.",
+      "auditCurrentCs": "Dokonalé: Ich habe gelernt = naučil jsem se.",
+      "auditProposedCs": "Perfektum: Ich habe gelernt = naučil jsem se.",
+      "auditDe": "Ich habe gelernt.",
+      "auditLvSource": "Ich habe gelernt = es esmu mācījies.",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Dokonalé: Ich habe gelernt = naučil jsem se.",
+      "cardContext": {
+        "cardId": "a1-haben",
+        "de": "haben",
+        "csMain": "Mám",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00140",
+      "cardId": "a1-heißen",
+      "field": "lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "„Podlý“ je zcela chybný význam; hlavní překlad má odpovídat studijní kartě.",
+      "auditCurrentCs": "Být nazýván • Podlý",
+      "auditProposedCs": "Jmenovat se • Znamenat",
+      "auditDe": "heißen",
+      "auditLvSource": "saukties",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Být nazýván • Podlý",
+      "cardContext": {
+        "cardId": "a1-heißen",
+        "de": "heißen",
+        "csMain": "Být nazýván • Podlý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00141",
+      "cardId": "a1-heißen",
+      "field": "study.comparison[3].meaning",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Varianty jsou duplicitní a nerozlišují základní a dokonavý význam.",
+      "auditCurrentCs": "Volat / volat",
+      "auditProposedCs": "Volat / zavolat",
+      "auditDe": "rufen",
+      "auditLvSource": "saukt • pasaukt",
+      "category": "NATURALNESS",
+      "productionCurrentCs": "Volat / volat",
+      "cardContext": {
+        "cardId": "a1-heißen",
+        "de": "heißen",
+        "csMain": "Být nazýván • Podlý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00142",
+      "cardId": "a1-heißen",
+      "field": "study.important[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Věta uvádí stejný český výraz jako správný i údajně doslovný nesprávný překlad.",
+      "auditCurrentCs": "Wie heißt du? znamená \"Jak se jmenuješ?\", ne doslova \"jak se jmenuješ?\".",
+      "auditProposedCs": "Wie heißt du? znamená „Jak se jmenuješ?“.",
+      "auditDe": "Wie heißt du?",
+      "auditLvSource": "Wie heißt du? nozīmē “Kā tevi sauc?”",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Wie heißt du? znamená \"Jak se jmenuješ?\", ne doslova \"jak se jmenuješ?\".",
+      "cardContext": {
+        "cardId": "a1-heißen",
+        "de": "heißen",
+        "csMain": "Být nazýván • Podlý",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00146",
+      "cardId": "a1-hoch-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "HIGH",
+      "auditProblem": "Český překlad odpovídá polici, ale německá věta mluví o hoře.",
+      "auditCurrentCs": "Police je vysoká dva metry.",
+      "auditProposedCs": "Hora je vysoká.",
+      "auditDe": "Der Berg ist hoch.",
+      "auditLvSource": "plaukts ir divus metrus augsts.",
+      "category": "SEMANTICS",
+      "productionCurrentCs": "Police je vysoká dva metry.",
+      "cardContext": {
+        "cardId": "a1-hoch-study",
+        "de": "hoch",
+        "csMain": "Vysoký",
+        "hasStudy": true
+      }
+    },
+    {
+      "findingId": "MAIN-A1-00147",
+      "cardId": "a1-hoch-study",
+      "field": "study.explanation[0]",
+      "source": "luna",
+      "batch": "luna",
+      "severity": "MEDIUM",
+      "auditProblem": "Věta je gramaticky i významově nejasná; „vysoká svisle“ není správná česká formulace.",
+      "auditCurrentCs": "Hlavní myšlenka: Vysoká svisle, úroveň nebo výška.",
+      "auditProposedCs": "Hlavní myšlenka: Vysoký ve svislém směru, na úrovni nebo do výšky.",
+      "auditDe": "hoch",
+      "auditLvSource": "Galvenā doma: hoch nozīmē augsts vai augstu.",
+      "category": "GRAMMAR",
+      "productionCurrentCs": "Hlavní myšlenka: Vysoká svisle, úroveň nebo výška.",
+      "cardContext": {
+        "cardId": "a1-hoch-study",
+        "de": "hoch",
+        "csMain": "Vysoký",
+        "hasStudy": true
+      }
+    }
+  ],
+  "results": [
+    {
+      "findingId": "MAIN-A1-00129",
+      "cardId": "a1-geben",
+      "field": "study.examples[0].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Chybí čárka u vsuvky „prosím“ a přirozenější je její umístění před předmětem.",
+      "currentCs": "Dej mi knihu prosím",
+      "proposedCs": "Dej mi prosím knihu."
+    },
+    {
+      "findingId": "MAIN-A1-00130",
+      "cardId": "a1-geben",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Obě varianty jsou totožné a neposkytují studentovi rozdíl mezi nedokonavým a dokonavým významem.",
+      "currentCs": "Vzít / vzít",
+      "proposedCs": "Brát / vzít"
+    },
+    {
+      "findingId": "MAIN-A1-00131",
+      "cardId": "a1-geben",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Přijímat“ označuje aktivní přijímání; pro bekommen je zde přesnější „dostat“ nebo „obdržet“.",
+      "currentCs": "Přijímat / dostávat",
+      "proposedCs": "Dostat / obdržet"
+    },
+    {
+      "findingId": "MAIN-A1-00132",
+      "cardId": "a1-gleich",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V uvedeném významu gleich znamená „stejný“, nikoli „rovný“.",
+      "currentCs": "Hned • Rovný",
+      "proposedCs": "Hned • Stejný"
+    },
+    {
+      "findingId": "MAIN-A1-00133",
+      "cardId": "a1-gleich",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "„Rovno“ je příslovce a neodpovídá zde významu přídavného jména gleich.",
+      "currentCs": "Gleich = okamžitě (čas) NEBO rovno (srovnání).",
+      "proposedCs": "Gleich = hned (čas) NEBO stejný (srovnání)."
+    },
+    {
+      "findingId": "MAIN-A1-00134",
+      "cardId": "a1-gleich",
+      "field": "study.tip[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "Závorka opakuje stejný výraz a představuje zbytečnou duplicitu.",
+      "currentCs": "Za chvíli (za chvíli) → hned.",
+      "proposedCs": "Za chvíli → hned."
+    },
+    {
+      "findingId": "MAIN-A1-00135",
+      "cardId": "a1-gross-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Česká věta neodpovídá německému originálu a opakuje význam jiné věty.",
+      "currentCs": "Dům je velký.",
+      "proposedCs": "Berlín je velké město."
+    },
+    {
+      "findingId": "MAIN-A1-00136",
+      "cardId": "a1-gut-study",
+      "field": "study.important[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Střevní změny“ je zjevný významový překlep; text má vysvětlovat tvarové změny a koncovku.",
+      "currentCs": "Guten Tag/Morgen/Abend - střevní změny končící po skloňování.",
+      "proposedCs": "Guten Tag/Morgen/Abend – tvarové změny s koncovkou -en po skloňování."
+    },
+    {
+      "findingId": "MAIN-A1-00138",
+      "cardId": "a1-haben",
+      "field": "study.comparison[2].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "V tomto příkladu bekommen znamená „dostat“, nikoli obecně „přijímat“.",
+      "currentCs": "Přijímat",
+      "proposedCs": "Dostat"
+    },
+    {
+      "findingId": "MAIN-A1-00139",
+      "cardId": "a1-haben",
+      "field": "study.important[2]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "„Dokonalé“ není běžný ani přesný český název německého času Perfekt.",
+      "currentCs": "Dokonalé: Ich habe gelernt = naučil jsem se.",
+      "proposedCs": "Perfektum: Ich habe gelernt = naučil jsem se."
+    },
+    {
+      "findingId": "MAIN-A1-00140",
+      "cardId": "a1-heißen",
+      "field": "lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "„Podlý“ je chybný význam slova heißen; správně jde o jmenování se nebo znamenání.",
+      "currentCs": "Být nazýván • Podlý",
+      "proposedCs": "Jmenovat se • Znamenat"
+    },
+    {
+      "findingId": "MAIN-A1-00141",
+      "cardId": "a1-heißen",
+      "field": "study.comparison[3].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Obě varianty jsou totožné a nerozlišují nedokonavý a dokonavý význam slovesa rufen.",
+      "currentCs": "Volat / volat",
+      "proposedCs": "Volat / zavolat"
+    },
+    {
+      "findingId": "MAIN-A1-00142",
+      "cardId": "a1-heißen",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Text nesmyslně uvádí stejnou českou větu jako správný i doslovný údajně nesprávný překlad.",
+      "currentCs": "Wie heißt du? znamená \"Jak se jmenuješ?\", ne doslova \"jak se jmenuješ?\".",
+      "proposedCs": "Wie heißt du? znamená „Jak se jmenuješ?“."
+    },
+    {
+      "findingId": "MAIN-A1-00146",
+      "cardId": "a1-hoch-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "reason": "Český překlad popisuje polici, zatímco německá věta mluví o hoře.",
+      "currentCs": "Police je vysoká dva metry.",
+      "proposedCs": "Hora je vysoká."
+    },
+    {
+      "findingId": "MAIN-A1-00147",
+      "cardId": "a1-hoch-study",
+      "field": "study.explanation[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "reason": "Současná formulace je gramaticky i významově nejasná a spojení „vysoká svisle“ není přirozené.",
+      "currentCs": "Hlavní myšlenka: Vysoká svisle, úroveň nebo výška.",
+      "proposedCs": "Hlavní myšlenka: Vysoký ve svislém směru, na úrovni nebo do výšky."
+    }
+  ]
+}

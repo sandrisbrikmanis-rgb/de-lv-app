@@ -1,0 +1,68 @@
+{
+  "dataset": "a1",
+  "batch": "study-121-124",
+  "auditType": "vocab_study",
+  "cardCount": 4,
+  "cardIds": [
+    "a1-uhr",
+    "a1-zeit",
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-uhr",
+      "field": "study.explanation[2]",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Uhr",
+      "lvSource": "Bieži raksturo: konkrēts laiks.",
+      "currentCs": "Často charakterizováno: konkrétním časem.",
+      "proposedCs": "Často označuje konkrétní čas.",
+      "reason": "Věta je gramaticky neúplná a nepřirozená; chybí podmět i určité sloveso.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-zeit",
+      "field": "study.explanation[1]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Die Zeit znamená především: okamžik, příležitost.",
+      "lvSource": "die Zeit galvenokārt nozīmē: brīdis, iespēja.",
+      "currentCs": "Die Zeit znamená především: okamžik, příležitost.",
+      "proposedCs": "Die Zeit znamená především čas; podle kontextu také okamžik nebo příležitost.",
+      "reason": "Text opomíjí hlavní význam Zeit („čas“) a jako primární uvádí jen méně základní významy.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-zeit",
+      "field": "study.explanation[2]",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Die Zeit",
+      "lvSource": "Bieži raksturo: abstrakts jēdziens.",
+      "currentCs": "Často se vyznačuje: abstraktním pojmem.",
+      "proposedCs": "Označuje abstraktní pojem.",
+      "reason": "Spojení „vyznačuje se pojmem“ je v češtině nepřirozené a věta působí jako chybný kalk.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-einmal",
+      "field": "study.explanation[3]",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Einmal odkazuje na jeden čas nebo minulost (jednou jsem...).",
+      "lvSource": "einmal norāda uz vienu reizi vai pagātni (reiz es...).",
+      "currentCs": "Einmal odkazuje na jeden čas nebo minulost (jednou jsem...).",
+      "proposedCs": "Einmal odkazuje na jednu příležitost nebo minulost (jednou jsem...).",
+      "reason": "„Jeden čas“ znamená spíše „po určitou dobu“, ne jednu příležitost či jednorázový děj.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 1,
+  "completedAt": "2026-08-12T18:17:44.176Z"
+}
