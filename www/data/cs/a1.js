@@ -18576,7 +18576,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: schwimmen znamená plavat jako pohyb nebo sport.",
         "Schwimmen se používá, když člověk plave ve vodě plaveckým pohybem.",
-        "Pokud jde o relaxaci ve vodě nebo plavání, často se používá baden.",
+        "Pokud jde o relaxaci ve vodě nebo koupání, často se používá baden.",
         "Na úrovni A1 je důležité rozlišovat: schwimmen = plavat, baden = koupat se."
       ],
       "examples": [
@@ -19150,7 +19150,7 @@ const A1_WORDS = [
       },
       "important": [
         "Sein tvary se musí učit samostatně: bin, bist, ist, sind.",
-        "Ich bin je 'já jsem' ne 'jsem'."
+        "Ich bin znamená „já jsem“ nebo jednoduše „jsem“; neznamená infinitiv „být“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19349,7 +19349,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Schlagt die Seite zwanzig auf.",
-          "lv": "Přejděte na stránku dvacet."
+          "lv": "Otevřete stránku dvacet."
         },
         {
           "de": "Auf der linken Seite ist ein Park.",
@@ -19400,7 +19400,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Přejděte"
+                "Otevřete"
               ]
             }
           },
@@ -19529,7 +19529,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Er wäscht sich.",
-          "lv": "Koupe se."
+          "lv": "Myje se."
         },
         {
           "de": "Ich setze mich.",
@@ -19562,7 +19562,7 @@ const A1_WORDS = [
         },
         {
           "word": "ihn",
-          "meaning": "Mu",
+          "meaning": "Ho",
           "example": "Ich sehe ihn."
         }
       ],
@@ -19595,7 +19595,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Koupe"
+                "Myje"
               ]
             }
           },
@@ -19750,7 +19750,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: sicher jako přídavné jméno znamená jistý, jako příslovce znamená jistě/pravděpodobně.",
         "Když mluvíme o místě, situaci nebo osobě, sicher = bezpečné (ein sicherer Ort = bezpečné místo).",
         "Jako potvrzení nebo ujištění ve větě sicher = jistě/samozřejmě (Das ist sicher wahr. = Je to jistě pravda.).",
-        "Určitě! jako samostatná odpověď znamená samozřejmě!/pravděpodobně!"
+        "Sicher! jako samostatná odpověď znamená „určitě!“ nebo „samozřejmě!“."
       ],
       "examples": [
         {
@@ -19775,7 +19775,7 @@ const A1_WORDS = [
         },
         {
           "de": "Fahr sicher!",
-          "lv": "Jezděte bezpečně!"
+          "lv": "Jeď bezpečně!"
         }
       ],
       "tip": [
@@ -19865,7 +19865,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jezděte"
+                "Jeď"
               ]
             }
           }
@@ -19907,16 +19907,16 @@ const A1_WORDS = [
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "Oni / ji",
+      "translation": "Ona • Oni • Ji",
       "explanation": [
         "Hlavní myšlenka: Množné číslo – mluví o více než jedné osobě. Sloveso končí na -en: kochen, essen, gehen.",
-        "Sie znamená hlavně: jedna žena.",
+        "Malé sie může znamenat „ona“, „oni“ nebo „ji“; význam určuje kontext a tvar slovesa.",
         "Často charakterizováno: sloveso jednotného čísla (-t).",
         "Sie znamená hlavně: několik lidí.",
         "Často charakterizováno: množné sloveso (-en).",
         "Sie znamená hlavně: zdvořilá adresa.",
         "Často popisováno: nutně s velkým S.",
-        "Malé sie znamená ji, když je sloveso jednotného čísla (Sie kocht = vaří)."
+        "Malé sie jako podmět může znamenat „ona“ (Sie kocht = Ona vaří); jako předmět může znamenat „ji“."
       ],
       "examples": [
         {
@@ -20067,13 +20067,13 @@ const A1_WORDS = [
       "translation": "Vy",
       "explanation": [
         "Hlavní myšlenka: Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
-        "Sie v podstatě znamená: jedna žena.",
+        "Velké Sie je zdvořilé „Vy“; malé sie může znamenat „ona“, „oni“ nebo „ji“.",
         "Často charakterizováno: sloveso jednotného čísla (-t).",
         "Sie znamená hlavně: několik lidí.",
         "Často charakterizováno: množné sloveso (-en).",
         "Sie znamená především: zdvořilá adresa.",
         "Často popisováno: nutně s velkým S.",
-        "Malé sie znamená ji, když je sloveso jednotného čísla (Sie kocht = vaří)."
+        "Malé sie jako podmět může znamenat „ona“ (Sie kocht = Ona vaří); jako předmět může znamenat „ji“."
       ],
       "examples": [
         {
@@ -20098,7 +20098,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Vaříš prosím"
+          "lv": "Vařte, prosím."
         }
       ],
       "tip": [
@@ -20180,7 +20180,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vaříš"
+                "Vařte"
               ]
             }
           }
@@ -20266,7 +20266,7 @@ const A1_WORDS = [
         },
         {
           "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "Kočka spí na pohovce."
+          "lv": "Kočka leží na pohovce."
         }
       ],
       "comparison": [
@@ -20287,7 +20287,7 @@ const A1_WORDS = [
         },
         {
           "word": "setzen",
-          "meaning": "Sedět / sednout si",
+          "meaning": "Sednout si / posadit",
           "example": "Ich setze mich."
         }
       ],
@@ -20547,7 +20547,7 @@ const A1_WORDS = [
         },
         {
           "word": "müssen",
-          "meaning": "Absolutně potřebovat",
+          "meaning": "Musit / být nutné",
           "example": "Ich muss gehen."
         },
         {
@@ -20818,7 +20818,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Stát",
       "explanation": [
-        "Hlavní myšlenka: stehen znamená stát nebo stát.",
+        "Hlavní myšlenka: stehen znamená stát; u předmětů může znamenat, že něco stojí nebo je postavené.",
         "Stehen pro člověka znamená stát.",
         "Pro objekt stehen znamená, že stojí nebo je na určitém místě.",
         "Je důležité rozlišovat: stehen = stát, sitzen = sedět, liegen = ležet."
@@ -21267,7 +21267,7 @@ const A1_WORDS = [
         "Hlavní myšlenka: über znamená nahoře nebo asi v závislosti na kontextu.",
         "Pokud jde o umístění, über často znamená výše.",
         "Pokud jde o konverzaci, text nebo téma, über znamená asi.",
-        "V pohybu může über znamenat konec."
+        "Při pohybu může über znamenat „přes“ nebo pohyb přes něco."
       ],
       "examples": [
         {
@@ -21314,7 +21314,7 @@ const A1_WORDS = [
       },
       "important": [
         "Über není jen název místa.",
-        "Sprechen über znamená 'hovořit'."
+        "Sprechen über znamená „hovořit o“ nebo „mluvit o“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21809,7 +21809,7 @@ const A1_WORDS = [
         },
         {
           "de": "Unter Freunden sagt man das so.",
-          "lv": "Mezi přáteli se říká."
+          "lv": "Mezi přáteli se to tak říká."
         },
         {
           "de": "Die Lampe hängt über dem Tisch.",
@@ -22105,7 +22105,7 @@ const A1_WORDS = [
         },
         {
           "word": "können",
-          "meaning": "Být schopen / vědět",
+          "meaning": "Být schopen / umět",
           "example": "Ich kann schwimmen."
         },
         {
@@ -22115,7 +22115,7 @@ const A1_WORDS = [
         },
         {
           "word": "kennen",
-          "meaning": "Vědět",
+          "meaning": "Znát",
           "example": "Ich kenne ihn."
         }
       ],
@@ -22367,10 +22367,10 @@ const A1_WORDS = [
     "study": {
       "id": "a1-vom",
       "layout": "standardStudy",
-      "translation": "Z",
+      "translation": "Od • Z",
       "explanation": [
         "Vom je zkratka pro předložku von a člen dem.",
-        "Plná podoba: von dem (komu?).",
+        "Plná podoba: von dem (od koho? od čeho?).",
         "Používá se s podstatnými jmény mužského a středního rodu při označení původu nebo směru z čeho.",
         "Odpovídá na otázky od koho? nebo odkud?",
         "V praxi se téměř vždy používá vom místo plného von dem."
@@ -22386,7 +22386,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er kommt vom Arzt.",
-          "lv": "Pochází od lékaře."
+          "lv": "Přichází od lékaře."
         },
         {
           "de": "Sie fährt vom Flughafen.",
@@ -22398,7 +22398,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir kommen vom Fest.",
-          "lv": "Pocházíme z oslavy."
+          "lv": "Přicházíme z oslavy."
         },
         {
           "de": "Er holt Milch vom Bauern.",
@@ -22412,7 +22412,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "vom",
-          "meaning": "Od (konkrétní věc, pro koho?)",
+          "meaning": "Od (konkrétní osoby nebo věci)",
           "example": "vom Bahnhof – Ze stanice"
         },
         {
@@ -22493,7 +22493,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pochází"
+                "Přichází"
               ]
             }
           },
@@ -22529,7 +22529,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pocházíme"
+                "Přicházíme"
               ]
             }
           },
