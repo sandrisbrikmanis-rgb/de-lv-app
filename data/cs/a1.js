@@ -22441,7 +22441,7 @@ const A1_WORDS = [
         "V hovorové řeči skoro nikdy neříkáte von dem – použijte vom."
       ],
       "important": [
-        "Vom = von dem, pouze s podstatným jménem mužského nebo středního rodu pro koho? ve skloňování.",
+        "Vom = von dem. Používá se s podstatnými jmény mužského nebo středního rodu ve významu „od koho?“ nebo „od čeho?“.",
         "Označuje původ, zdroj nebo směr od něčeho konkrétního.",
         "Pro ženský rod: von der Mutter, ne vom Mutter.",
         "Nezaměňovat s aus (země původu) nebo ab (výchozí bod)."
@@ -22711,8 +22711,8 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: vor znamená dříve v čase nebo před místem.",
         "Pokud jde o čas, vor znamená předtím.",
-        "Pokud jde o místo, vor znamená před nebo u.",
-        "V hodinovém čase vor znamená 'až', např. fünf vor acht."
+        "Pokud jde o místo, vor znamená „před“ nebo „před něčím“.",
+        "V časovém údaji vor znamená „za … minut“, například fünf vor acht = za pět minut osm."
       ],
       "examples": [
         {
@@ -22996,9 +22996,9 @@ const A1_WORDS = [
         "Hlavní myšlenka: co je tázací slovo o věcech a událostech - v češtině je to co nebo co, v závislosti na části věty.",
         "Byl dotazován na věci, události a fakta, nikoli na osoby.",
         "V němčině se was nemění po skloňování - vždy to vypadá jako bylo.",
-        "Pokud je předmětem věty was, překládá se do češtině jako kas (Was ist das? = Co to je?).",
-        "Jestliže was je doplněk (předmět) slovesa, překládá se do češtině jako ko (Was machst du? = Co děláš?).",
-        "Lidé jsou dotázáni s wer (kdo/kdo), ne byl."
+        "Was ist das? se do češtiny překládá jako „Co to je?“. Was zde označuje věc, nikoli osobu.",
+        "Was je ve větě předmětem slovesa a do češtiny se překládá jako „co“: Was machst du? = Co děláš?",
+        "Na osoby se ptáme pomocí wer (kdo), nikoli was."
       ],
       "examples": [
         {
@@ -23037,7 +23037,7 @@ const A1_WORDS = [
       "important": [
         "Byl dotazován na věci, události a fakta – nikdy na osoby.",
         "Lidé jsou dotázáni s wer (kdo/kdo), ne byl.",
-        "Was für (ein/eine) znamená někoho/o čem a ptá se na kvalitu nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?).",
+        "Was für (ein/eine) znamená „jaký/jaká“ a ptá se na vlastnost nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?).",
         "Špatně: Wer ist passiert? → Správně: Bylo to passiert?"
       ],
       "sectionAccents": {
@@ -23238,12 +23238,12 @@ const A1_WORDS = [
         "Hlavní myšlenka: wenn znamená jestli nebo kdy v závislosti na situaci.",
         "Pokud je to podmínka, přeložte jako kdyby.",
         "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako kdy.",
-        "Po wenn končí sloveso většinou německou větou."
+        "Po wenn stojí sloveso ve vedlejší větě obvykle na konci."
       ],
       "examples": [
         {
           "de": "Wenn du Zeit hast, komm vorbei.",
-          "lv": "Pokud budete mít čas, stavte se."
+          "lv": "Pokud budeš mít čas, stav se."
         },
         {
           "de": "Wenn es regnet, bleibe ich zu Hause.",
@@ -23255,7 +23255,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Nevím jestli přijde."
+          "lv": "Nevím, jestli přijde."
         }
       ],
       "comparison": [
@@ -23271,7 +23271,7 @@ const A1_WORDS = [
         },
         {
           "word": "wann",
-          "meaning": "Když je v otázce",
+          "meaning": "Kdy v otázce",
           "example": "Wann kommst du?"
         },
         {
@@ -23467,9 +23467,9 @@ const A1_WORDS = [
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "Kdo • Kdo",
+      "translation": "Kdo",
       "explanation": [
-        "Hlavní myšlenka: wer je dotazovací slovo o identitě osoby – v češtině je to kdo nebo kdo.",
+        "Hlavní myšlenka: wer je tázací slovo pro osoby a v češtině znamená „kdo“.",
         "Ptali se na lidi, ne na věci nebo události.",
         "Věci a události jsou žádány s was, ne wer.",
         "Wer je v němčině obvykle předmětem věty (nominativu) — Wer ist das? = co je to?",
@@ -23513,7 +23513,7 @@ const A1_WORDS = [
       "important": [
         "Ptali jsme se pouze na osoby, nikdy ne na věci.",
         "Věci a události jsou žádány s was, ne wer.",
-        "Wer mění tvar přechylováním: wen, wem, wessen - ale základní tvar je wer.",
+        "Wer mění tvar podle pádu: wen, wem, wessen. Základní tvar je wer.",
         "Špatně: Wer ist passiert? → Správně: Bylo to passiert?"
       ],
       "sectionAccents": {
@@ -23670,7 +23670,7 @@ const A1_WORDS = [
       "translation": "Stát se",
       "explanation": [
         "Hlavní myšlenka: werden na A1 nejčastěji znamená stát se.",
-        "Používá se, když se něco změní nebo změní.",
+        "Používá se, když se něco změní nebo se stane jiným.",
         "V pozdější němčině se werden používá také pro budoucnost a pasivum.",
         "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Jsem unavený."
       ],
@@ -23705,12 +23705,12 @@ const A1_WORDS = [
         },
         {
           "word": "bleiben",
-          "meaning": "Pobyt",
+          "meaning": "Zůstat",
           "example": "Ich bleibe hier."
         },
         {
           "word": "machen",
-          "meaning": "Dělat / dělat",
+          "meaning": "Dělat / vyrábět",
           "example": "Ich mache das."
         }
       ],
@@ -24173,7 +24173,7 @@ const A1_WORDS = [
       "translation": "Jak • Kolik",
       "explanation": [
         "Hlavní myšlenka: wie se ptá na druh nebo kvalitu (jak) a na množství nebo počet (kolik), v závislosti na kontextu.",
-        "Wie alone (Wie geht's?) se ptá na cestu - v češtině jak.",
+        "Wie samo (Wie geht's?) se ptá na způsob nebo stav. V češtině znamená „jak“.",
         "Wie + přídavné jméno (wie viel, wie alt, wie lange) se ptá na množství, věk nebo trvání – kolik v češtině.",
         "Wie viel(e) znamená kolik • Wie alt znamená jak starý • Wie lange znamená jak dlouho.",
         "V přirovnání wie znamená jako (so groß wie = tak velký jako)."
@@ -24181,7 +24181,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Wie geht es dir?",
-          "lv": "Jak se máte"
+          "lv": "Jak se máš?"
         },
         {
           "de": "Wie heißt du?",
@@ -24193,11 +24193,11 @@ const A1_WORDS = [
         },
         {
           "de": "Wie alt bist du?",
-          "lv": "Kolik je Vám let"
+          "lv": "Kolik je ti let?"
         },
         {
           "de": "Wie lange dauert der Film?",
-          "lv": "Jak je film dlouhý?"
+          "lv": "Jak dlouho film trvá?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
@@ -24211,7 +24211,7 @@ const A1_WORDS = [
       "important": [
         "Wie viel(e) = kolik • Wie alt = jak starý • Wie lange = jak dlouho.",
         "Wie sám (Wie...?) obvykle = jak, ne kolik.",
-        "Špatně: Kolik je vám let? → Správně: Jak se máš? (Wie geht's?)"
+        "Špatně: „Kolik ti je?“ jako překlad Wie geht's? → Správně: „Jak se máš?“"
       ],
       "sectionAccents": {
         "explanation": {
@@ -24394,8 +24394,8 @@ const A1_WORDS = [
       "translation": "Do • At",
       "explanation": [
         "Hlavní myšlenka: zu velmi často znamená to nebo at, ale má také roli s infinitivem.",
-        "U lidí a institucí zu často znamená u nebo do.",
-        "S přídavnými jmény může zu znamenat také.",
+        "U osob zu často znamená „k“ nebo „ke“. U některých institucí také „do“ nebo „na“.",
+        "Před přídavnými jmény může zu znamenat „příliš“: zu teuer = příliš drahé.",
         "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen."
       ],
       "examples": [
@@ -24443,7 +24443,7 @@ const A1_WORDS = [
       },
       "important": [
         "Zu má mnoho využití, proto se vždy podívejte na konstrukci.",
-        "Zu teuer znamená „příliš drahé“, nikoli „příliš drahé“."
+        "Zu teuer znamená „příliš drahé“, nikoli pouze „drahé“."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24657,7 +24657,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich fahre mit dem Zug.",
-          "lv": "Jezdím vlakem"
+          "lv": "Jezdím vlakem."
         },
         {
           "de": "Der Zug ist voll.",
@@ -24888,11 +24888,11 @@ const A1_WORDS = [
         },
         {
           "de": "Wir fahren zum Bahnhof.",
-          "lv": "Jdeme na nádraží."
+          "lv": "Jedeme na nádraží."
         },
         {
           "de": "Sie geht zum Supermarkt.",
-          "lv": "Jde do obchodu."
+          "lv": "Jde do supermarketu."
         },
         {
           "de": "Komm zum Essen!",
@@ -24988,7 +24988,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jdeme"
+                "Jedeme"
               ]
             }
           },
