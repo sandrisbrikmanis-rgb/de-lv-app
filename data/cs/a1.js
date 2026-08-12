@@ -42,7 +42,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Mluvit, konverzovat nebo používat jazyk.",
         "Sprechen znamená hlavně: mluvit nebo hovořit.",
-        "Často charakterizováno: jazykem/konverzací.",
+        "Často se používá v souvislosti s jazykem nebo konverzací.",
         "Sprechen popisuje mluvení nebo používání jazyka."
       ],
       "examples": [
@@ -73,7 +73,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Sprechen = mluvit",
-        "Používá sprechen, když kontext odpovídá tomuto významu."
+        "Slovo „sprechen“ používejte, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Sprechen = mluvit.",
@@ -152,10 +152,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Malý",
       "explanation": [
-        "Hlavní myšlenka: Malá velikostí nebo rozsahem.",
+        "Hlavní myšlenka: klein označuje malou velikost nebo rozsah.",
         "Klein znamená především: malá velikost.",
         "Často popisuje: velikost věci/osoby.",
-        "Klein v podstatě znamená: malý/nový.",
+        "Klein v podstatě znamená: malý.",
         "Často popisuje: dítě.",
         "Klein popisuje malou velikost."
       ],
@@ -320,7 +320,7 @@ const A1_WORDS = [
       "id": "a1-an",
       "layout": "standardStudy",
       "translation": "Na • Na povrchu • Na okraji",
-      "explanation": "Používá se, když je něco blízko zdi, okna, dveří, řeky, mořského pobřeží nebo jiného okraje/povrchu.",
+      "explanation": "Používá se, když je něco u stěny, okna, dveří, řeky, mořského pobřeží nebo jiné hrany či plochy.",
       "examples": [
         {
           "de": "an der Wand",
@@ -348,7 +348,7 @@ const A1_WORDS = [
         },
         {
           "word": "bei",
-          "meaning": "K osobě nebo místu",
+          "meaning": "U osoby nebo na určitém místě",
           "example": "beim Arzt – K lékaři"
         }
       ],
@@ -518,7 +518,7 @@ const A1_WORDS = [
       "id": "a1-ab",
       "layout": "standardStudy",
       "translation": "Z",
-      "explanation": "Používá se, když něco začíná od určitého času, místa nebo bodu. Často znamená „začít od“.",
+      "explanation": "Používá se, když něco začíná od určitého času, místa nebo bodu. Často znamená „počínaje“ nebo „od“.",
       "examples": [
         {
           "de": "ab heute",
@@ -535,7 +535,7 @@ const A1_WORDS = [
         },
         {
           "de": "ab Bahnhof",
-          "lv": "Ze stanice"
+          "lv": "Od stanice"
         }
       ],
       "comparison": [
@@ -695,7 +695,7 @@ const A1_WORDS = [
       },
       "important": [
         "Ab ukazuje počáteční bod v čase nebo místě.",
-        "Pokud myšlenka vzniká nebo se pohybuje zevnitř, častěji se používá von nebo aus."
+        "Pokud jde o původ nebo pohyb zevnitř, častěji se používá „von“ nebo „aus“."
       ]
     }
   },
@@ -744,7 +744,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "aber",
-          "meaning": "Opak • Námitka • Nicméně",
+          "meaning": "Protiklad • Námitka • Nicméně",
           "example": "Ich komme, aber später. – Přijdu, ale později."
         },
         {
@@ -1053,10 +1053,10 @@ const A1_WORDS = [
         "important": [
           {
             "green": [
-              "Také"
+              "Tedy"
             ],
             "purple": [
-              "Také"
+              "Tedy"
             ]
           },
           {
@@ -1324,11 +1324,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich stelle das Buch auf den Tisch.",
-          "lv": "Položil jsem knihu na stůl."
+          "lv": "Postavím knihu na stůl."
         },
         {
           "de": "Wir fahren auf den Berg.",
-          "lv": "Jdeme na horu."
+          "lv": "Jedeme na horu."
         },
         {
           "de": "Die Katze springt auf das Sofa.",
@@ -1339,7 +1339,7 @@ const A1_WORDS = [
         {
           "word": "auf",
           "meaning": "Na (povrch nebo nahoru)",
-          "example": "Ich stelle das Glas auf den Tisch. – Položil jsem sklenici na stůl."
+          "example": "Ich stelle das Glas auf den Tisch. – Postavím sklenici na stůl."
         },
         {
           "word": "an",
@@ -1535,7 +1535,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme aus Deutschland.",
-          "lv": "Jsem z německa."
+          "lv": "Jsem z Německa."
         },
         {
           "de": "Er geht aus dem Haus.",
@@ -1549,7 +1549,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "aus",
-          "meaning": "Zevnitř, zevnitř",
+          "meaning": "Z / zevnitř",
           "example": "aus dem Haus – Z domova"
         },
         {
@@ -1705,10 +1705,10 @@ const A1_WORDS = [
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "Kam • Na • Kam?",
+      "translation": "Na",
       "explanation": [
         "Aufs je zkratka předložky auf a členu das.",
-        "Plná forma: auf das (kde?).",
+        "Plná forma: „auf das“. Vyjadřuje směr a odpovídá na otázku „kam?“.",
         "Používá se, když akce ukazuje směr ke konkrétní věci nebo povrchu – odpovídá na otázku kde?",
         "Často se používá s pohybem: vylézt, sednout, položit, zajet k něčemu.",
         "V hovorové a každodenní řeči se téměř vždy používá aufs místo plného auf das."
@@ -1732,7 +1732,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Nasedne na koně."
+          "lv": "Vyskočí na koně."
         },
         {
           "de": "Leg das Buch aufs Regal.",
@@ -1740,7 +1740,7 @@ const A1_WORDS = [
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "Pojďte rychle na loď!"
+          "lv": "Pojď rychle na loď!"
         },
         {
           "de": "Wir gehen aufs Fest.",
@@ -1750,7 +1750,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "aufs",
-          "meaning": "Na konkrétní případ (Akk.)",
+          "meaning": "Na konkrétní věc (4. pád)",
           "example": "aufs Dach – Na střeše"
         },
         {
@@ -1782,7 +1782,7 @@ const A1_WORDS = [
         "Aufs = auf das, pouze s podstatným jménem libovolného rodu, kde? ve skloňování.",
         "Odpovědět kam? — pohyb na určité místo nebo povrch.",
         "Na vodorovné ploše se místo aufs často používá auf den.",
-        "Nezaměňujte s (na zdi) nebo ins (uvnitř místnosti)."
+        "Nezaměňujte „aufs“ s „an“ (na zeď) nebo s „ins“ (do místnosti)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2107,7 +2107,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe baden.",
-          "lv": "Chodím plavat"
+          "lv": "Jdu se koupat."
         },
         {
           "de": "Wir gehen im See baden.",
@@ -2125,7 +2125,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "baden",
-          "meaning": "Plavat / být ve vodě / umýt se",
+          "meaning": "Koupat se / být ve vodě / mýt se",
           "example": "Ich gehe baden."
         },
         {
@@ -2429,7 +2429,7 @@ const A1_WORDS = [
         },
         {
           "word": "an",
-          "meaning": "U stěny, okraje, břehu, okraje hladiny",
+          "meaning": "U stěny, okraje nebo břehu • na okraji hladiny",
           "example": "Das Bild hängt an der Wand. – Obraz visí na zdi."
         },
         {
@@ -24166,7 +24166,7 @@ const A1_WORDS = [
   },
   {
     "de": "wichtig",
-    "lv": "Důležité",
+    "lv": "Důležitý",
     "level": "A1"
   },
   {
@@ -24366,7 +24366,7 @@ const A1_WORDS = [
     "de": "Zigarette",
     "de_article": "die",
     "de_plural": "die Zigaretten",
-    "lv": "Cigaretu",
+    "lv": "Cigareta",
     "level": "A1"
   },
   {
@@ -24637,7 +24637,7 @@ const A1_WORDS = [
   },
   {
     "de": "zuerst",
-    "lv": "Především",
+    "lv": "Nejprve",
     "level": "A1"
   },
   {
@@ -25240,7 +25240,7 @@ const A1_WORDS = [
   },
   {
     "de": "zwanzigste",
-    "lv": "Dvacátého",
+    "lv": "Dvacátý",
     "level": "A1"
   },
   {
@@ -26531,7 +26531,7 @@ const A1_WORDS = [
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "Země",
+    "lv": "Stát",
     "level": "A1"
   },
   {
