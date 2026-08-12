@@ -1,0 +1,310 @@
+{
+  "prerequisite": {
+    "exists": true,
+    "requested": 2,
+    "processed": "2/2",
+    "applied": 2,
+    "mismatchCount": 0,
+    "deChanges": 0,
+    "unexpectedChanges": 0,
+    "pass": true
+  },
+  "microRetention": {
+    "retained": 2,
+    "total": 2,
+    "results": [
+      {
+        "cardId": "a1-können",
+        "field": "study.explanation[0]",
+        "expected": "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
+        "current": "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
+        "pass": true
+      },
+      {
+        "cardId": "a1-laufen",
+        "field": "csMain",
+        "expected": "Běžet • Fungovat",
+        "current": "Běžet • Fungovat",
+        "pass": true
+      }
+    ]
+  },
+  "galaRetention": {
+    "results": [
+      {
+        "n": 1,
+        "cardId": "a1-blond-103",
+        "field": "csText",
+        "status": "RETAINED",
+        "pec": "Blond",
+        "current": "Blond"
+      },
+      {
+        "n": 2,
+        "cardId": "a1-ins",
+        "field": "study.comparison[4].meaning",
+        "status": "RETAINED",
+        "pec": "K / ke (komu/čemu?, 3. pád)",
+        "current": "K / ke (komu/čemu?, 3. pád)"
+      },
+      {
+        "n": 3,
+        "cardId": "a1-kennen-study",
+        "field": "csMain",
+        "status": "RETAINED",
+        "pec": "Znát",
+        "current": "Znát"
+      },
+      {
+        "n": 4,
+        "cardId": "a1-können",
+        "field": "csMain",
+        "status": "RETAINED",
+        "pec": "Umět • Moci",
+        "current": "Umět • Moci"
+      },
+      {
+        "n": 5,
+        "cardId": "a1-können",
+        "field": "study.explanation[0]",
+        "status": "RETAINED",
+        "pec": "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
+        "current": "Hlavní myšlenka: können znamená umět nebo moci něco udělat."
+      },
+      {
+        "n": 6,
+        "cardId": "a1-lassen",
+        "field": "study.sectionAccents.examples[0].lv",
+        "status": "RETAINED",
+        "pec": "Nechávám",
+        "current": "Nechávám"
+      },
+      {
+        "n": 7,
+        "cardId": "a1-lassen",
+        "field": "study.sectionAccents.comparison[1].meaning",
+        "status": "RETAINED",
+        "pec": "Zůstat",
+        "current": "Zůstat"
+      },
+      {
+        "n": 8,
+        "cardId": "a1-laufen",
+        "field": "study.sectionAccents.comparison[0].meaning",
+        "status": "RETAINED",
+        "pec": "Běžet / Fungovat",
+        "current": "Běžet / Fungovat"
+      },
+      {
+        "n": 9,
+        "cardId": "a1-laufen",
+        "field": "study.sectionAccents.comparison[3].meaning",
+        "status": "RETAINED",
+        "pec": "Fungovat",
+        "current": "Fungovat"
+      },
+      {
+        "n": 10,
+        "cardId": "a1-seite",
+        "field": "csMain",
+        "status": "RETAINED",
+        "pec": "Stránka • Strana",
+        "current": "Stránka • Strana"
+      },
+      {
+        "n": 11,
+        "cardId": "a1-sich",
+        "field": "csMain",
+        "status": "RETAINED",
+        "pec": "Se • Sebe",
+        "current": "Se • Sebe"
+      },
+      {
+        "n": 12,
+        "cardId": "a1-sie-study",
+        "field": "study.sectionAccents.examples[5].lv",
+        "status": "RETAINED",
+        "pec": "Vařte, prosím.",
+        "current": "Vařte, prosím."
+      },
+      {
+        "n": 13,
+        "cardId": "a1-sollen",
+        "field": "study.sectionAccents.examples[1].lv",
+        "status": "RETAINED",
+        "pec": "Máš",
+        "current": "Máš"
+      },
+      {
+        "n": 14,
+        "cardId": "a1-sollen",
+        "field": "study.sectionAccents.examples[2].lv",
+        "status": "RETAINED",
+        "pec": "Mám",
+        "current": "Mám"
+      },
+      {
+        "n": 15,
+        "cardId": "a1-essen",
+        "field": "study.explanation",
+        "status": "RETAINED",
+        "pec": [
+          "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+          "Používá se jako sloveso pro konzumaci jídla.",
+          "Das Essen je podstatné jméno a znamená jídlo.",
+          "Essen a das Essen nejsou totéž."
+        ],
+        "current": [
+          "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+          "Používá se jako sloveso pro konzumaci jídla.",
+          "Das Essen je podstatné jméno a znamená jídlo.",
+          "Essen a das Essen nejsou totéž."
+        ]
+      },
+      {
+        "n": 16,
+        "cardId": "a1-sprechen-study",
+        "field": "study.examples[2].lv",
+        "status": "RETAINED",
+        "pec": "Mluvím německy.",
+        "current": "Mluvím německy."
+      },
+      {
+        "n": 17,
+        "cardId": "a1-auch-study",
+        "field": "study.examples[1].lv",
+        "status": "RETAINED",
+        "pec": "Já také přijdu.",
+        "current": "Já také přijdu."
+      },
+      {
+        "n": 18,
+        "cardId": "a1-auch-study",
+        "field": "study.examples[2].lv",
+        "status": "RETAINED",
+        "pec": "Ona zde také pracuje.",
+        "current": "Ona zde také pracuje."
+      }
+    ],
+    "retained": 18,
+    "reverted": 0,
+    "mismatch": 0,
+    "missing": 0
+  },
+  "high362": {
+    "status": "RESOLVED",
+    "explanation": [
+      "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+      "Používá se jako sloveso pro konzumaci jídla.",
+      "Das Essen je podstatné jméno a znamená jídlo.",
+      "Essen a das Essen nejsou totéž."
+    ]
+  },
+  "owner": {
+    "pass": true,
+    "status": "OWNER_OVERRIDE_FALSE_POSITIVE",
+    "actual": "Berlīnē",
+    "expected": "Berlīnē"
+  },
+  "integrity": {
+    "cards": 702,
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "studyCreated": 0,
+    "studyDeleted": 0
+  },
+  "deReadOnly": {
+    "deChanges": 0
+  },
+  "coverage": {
+    "available": true,
+    "originalRawHigh": 371,
+    "originalConfirmedReal": 287,
+    "accounted": 287,
+    "ownerOverride": 1,
+    "missing": 0,
+    "duplicateRepairTargets": 0,
+    "intact": true
+  },
+  "luna": {
+    "counts": {
+      "CONFIRMED_REPAIR_REGRESSION": 0,
+      "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR": 1,
+      "FALSE_POSITIVE": 0,
+      "DE_SOURCE_ISSUE": 0,
+      "NEEDS_OWNER_REVIEW": 0
+    },
+    "allFindings": [
+      {
+        "cardId": "a1-können",
+        "field": "study.important[0]",
+        "status": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+        "issue": "Text says können = moci/vědět, while vědět belongs to wissen; this is unrelated to the repaired explanation[0]."
+      }
+    ],
+    "cardPass": {
+      "a1-laufen": true
+    },
+    "repairNeedsOwner": 0
+  },
+  "cardChecks": {
+    "koennen": {
+      "pass": true,
+      "deterministic": {
+        "cardId": "a1-können",
+        "field": "study.explanation[0]",
+        "expected": "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
+        "current": "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
+        "pass": true
+      }
+    },
+    "laufen": {
+      "pass": true,
+      "deterministic": {
+        "cardId": "a1-laufen",
+        "field": "csMain",
+        "expected": "Běžet • Fungovat",
+        "current": "Běžet • Fungovat",
+        "pass": true
+      }
+    }
+  },
+  "closure": {
+    "status": "CLOSED",
+    "blockers": []
+  },
+  "stats": {
+    "requestCount": 1,
+    "totalTokens": 5860,
+    "model": "gpt-5.6-luna"
+  },
+  "lunaFile": "/workspace/reports/temp/cs-a1-high-final-closure-check/batch-01.json",
+  "lunaResults": [
+    {
+      "cardId": "a1-können",
+      "auditType": "high_final_closure",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "pass": true,
+      "reason": "Repair is exact; explanation, csMain, and translation consistently state Umět • Moci. An unrelated old contradiction remains in important text.",
+      "findings": [
+        {
+          "field": "study.important[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "reason": "Text says können = moci/vědět, while vědět belongs to wissen; this is unrelated to the repaired explanation[0].",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-laufen",
+      "auditType": "high_final_closure",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "pass": true,
+      "reason": "csMain and study.translation both read Běžet • Fungovat; the prior mismatch is resolved and sectionAccents reflect both meanings.",
+      "findings": []
+    }
+  ],
+  "productionChanges": 0
+}

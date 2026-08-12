@@ -1,0 +1,2335 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-euch",
+      "index": 170,
+      "de": "euch",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Ty • Ty",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 70,
+          "field": "study.translation",
+          "pirmd": "Ty • Ty",
+          "pec": "Vás • Vám"
+        },
+        {
+          "block": 2,
+          "n": 71,
+          "field": "study.explanation",
+          "pirmd": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jak jako přímý doplněk (kde?) – „vy“ tak jako nepřímý doplněk (ke komu?) – „k vám“.",
+          "pec": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jako přímý předmět (koho/co?) – „vás“ i jako nepřímý předmět (komu?) – „vám“."
+        },
+        {
+          "block": 2,
+          "n": 72,
+          "field": "study.examples[0].lv",
+          "pirmd": "Vidím tě",
+          "pec": "Vidím vás."
+        },
+        {
+          "block": 2,
+          "n": 73,
+          "field": "study.examples[1].lv",
+          "pirmd": "Pomáhám ti",
+          "pec": "Pomáhám vám."
+        },
+        {
+          "block": 2,
+          "n": 74,
+          "field": "study.examples[2].lv",
+          "pirmd": "Dávám ti knihu",
+          "pec": "Dávám vám knihu."
+        },
+        {
+          "block": 2,
+          "n": 75,
+          "field": "study.examples[3].lv",
+          "pirmd": "Děkuji ti",
+          "pec": "Děkuji vám."
+        },
+        {
+          "block": 2,
+          "n": 76,
+          "field": "study.examples[4].lv",
+          "pirmd": "Pamatuješ",
+          "pec": "Vy si vzpomínáte."
+        },
+        {
+          "block": 2,
+          "n": 77,
+          "field": "study.comparison[2].example",
+          "pirmd": "Das ist euer Haus. = Je to tvůj dům.",
+          "pec": "Das ist euer Haus. = Je to váš dům."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-euch",
+        "index": 170,
+        "de": "euch",
+        "layout": "standardStudy",
+        "csMain": "Ty • Ty",
+        "studyTranslation": "Vás • Vám",
+        "lvSourceMain": "jūs • jums",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "jūs • jums",
+            "csText": "Vás • Vám",
+            "de": "euch"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "“euch” ir vietniekvārds 2. personas daudzskaitlī. To lieto gan kā tiešo papildinājumu (kurp?) — “jūs”, gan kā netiešo papildinājumu (kam?) — “jums”.",
+            "csText": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jako přímý předmět (koho/co?) – „vás“ i jako nepřímý předmět (komu?) – „vám“.",
+            "de": "euch"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es redzu jūs.",
+            "csText": "Vidím vás.",
+            "de": "euch"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es jums palīdzu.",
+            "csText": "Pomáhám vám.",
+            "de": "euch"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es jums dodu grāmatu.",
+            "csText": "Dávám vám knihu.",
+            "de": "euch"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es jums pateicos.",
+            "csText": "Děkuji vám.",
+            "de": "euch"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "jūs atceraties.",
+            "csText": "Vy si vzpomínáte.",
+            "de": "euch"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "ihr",
+            "csText": "ihr",
+            "de": "euch"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "jūs",
+            "csText": "Vy",
+            "de": "euch"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "euch",
+            "csText": "euch",
+            "de": "euch"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "jūs / jums",
+            "csText": "Vám / vám",
+            "de": "euch"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "euer",
+            "csText": "euer",
+            "de": "euch"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "jūsu",
+            "csText": "Vaše",
+            "de": "euch"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "“euch” atbild uz jautājumu “kam?” vai ir tiešais papildinājums teikumos ar “jūs”.",
+            "csText": "\"euch\" odpovídá na otázku \"komu?\" nebo je přímým doplňkem ve větách s \"vy\".",
+            "de": "euch"
+          }
+        ],
+        "study": {
+          "id": "a1-euch",
+          "layout": "standardStudy",
+          "translation": "Vás • Vám",
+          "explanation": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jako přímý předmět (koho/co?) – „vás“ i jako nepřímý předmět (komu?) – „vám“.",
+          "examples": [
+            {
+              "de": "Ich sehe euch.",
+              "lv": "Vidím vás."
+            },
+            {
+              "de": "Ich helfe euch.",
+              "lv": "Pomáhám vám."
+            },
+            {
+              "de": "Ich gebe euch das Buch.",
+              "lv": "Dávám vám knihu."
+            },
+            {
+              "de": "Ich danke euch.",
+              "lv": "Děkuji vám."
+            },
+            {
+              "de": "Ihr erinnert euch.",
+              "lv": "Vy si vzpomínáte."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ihr",
+              "meaning": "Vy",
+              "example": "Ihr seid freundlich. = Jste přátelští."
+            },
+            {
+              "word": "euch",
+              "meaning": "Vám / vám",
+              "example": "Ich helfe euch. = Pomáhám ti."
+            },
+            {
+              "word": "euer",
+              "meaning": "Vaše",
+              "example": "Das ist euer Haus. = Je to váš dům."
+            }
+          ],
+          "info": [
+            "Ihr = vy (podmětová forma)",
+            "Euch = vás (přímý doplněk) / vám (dativ)",
+            "Euer = váš (přivlastňovací forma)"
+          ],
+          "tip": {
+            "text": "\"euch\" odpovídá na otázku \"komu?\" nebo je přímým doplňkem ve větách s \"vy\".",
+            "example": "Pomáhám vám. = Ich helfe euch. Vidím vás. = Ich sehe euch. Vyprávím vám. = Ich erzähle euch."
+          },
+          "accents": {
+            "blue": [
+              "Ihr"
+            ],
+            "yellow": [
+              "Euch"
+            ],
+            "green": [
+              "Euer"
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-euch",
+          "layout": "standardStudy",
+          "translation": "jūs • jums",
+          "explanation": "“euch” ir vietniekvārds 2. personas daudzskaitlī. To lieto gan kā tiešo papildinājumu (kurp?) — “jūs”, gan kā netiešo papildinājumu (kam?) — “jums”.",
+          "examples": [
+            {
+              "de": "Ich sehe euch.",
+              "lv": "es redzu jūs."
+            },
+            {
+              "de": "Ich helfe euch.",
+              "lv": "es jums palīdzu."
+            },
+            {
+              "de": "Ich gebe euch das Buch.",
+              "lv": "es jums dodu grāmatu."
+            },
+            {
+              "de": "Ich danke euch.",
+              "lv": "es jums pateicos."
+            },
+            {
+              "de": "Ihr erinnert euch.",
+              "lv": "jūs atceraties."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ihr",
+              "meaning": "jūs",
+              "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+            },
+            {
+              "word": "euch",
+              "meaning": "jūs / jums",
+              "example": "Ich helfe euch. = Es jums palīdzu."
+            },
+            {
+              "word": "euer",
+              "meaning": "jūsu",
+              "example": "Das ist euer Haus. = Tā ir jūsu māja."
+            }
+          ],
+          "info": [
+            "ihr = jūs (teikuma priekšmeta forma)",
+            "euch = jūs (kurp? forma) / jums (kam? forma)",
+            "euer = jūsu (piederības forma)"
+          ],
+          "tip": {
+            "text": "“euch” atbild uz jautājumu “kam?” vai ir tiešais papildinājums teikumos ar “jūs”.",
+            "example": "Es jums palīdzu. = Ich helfe euch. Es redzu jūs. = Ich sehe euch. Es stāstu jums. = Ich erzähle euch."
+          },
+          "accents": {
+            "blue": [
+              "ihr"
+            ],
+            "yellow": [
+              "euch"
+            ],
+            "green": [
+              "euer"
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-euch",
+        "layout": "standardStudy",
+        "translation": "Vás • Vám",
+        "explanation": "„euch“ je zájmeno 2. osoby množného čísla. Používá se jako přímý předmět (koho/co?) – „vás“ i jako nepřímý předmět (komu?) – „vám“.",
+        "examples": [
+          {
+            "de": "Ich sehe euch.",
+            "lv": "Vidím vás."
+          },
+          {
+            "de": "Ich helfe euch.",
+            "lv": "Pomáhám vám."
+          },
+          {
+            "de": "Ich gebe euch das Buch.",
+            "lv": "Dávám vám knihu."
+          },
+          {
+            "de": "Ich danke euch.",
+            "lv": "Děkuji vám."
+          },
+          {
+            "de": "Ihr erinnert euch.",
+            "lv": "Vy si vzpomínáte."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ihr",
+            "meaning": "Vy",
+            "example": "Ihr seid freundlich. = Jste přátelští."
+          },
+          {
+            "word": "euch",
+            "meaning": "Vám / vám",
+            "example": "Ich helfe euch. = Pomáhám ti."
+          },
+          {
+            "word": "euer",
+            "meaning": "Vaše",
+            "example": "Das ist euer Haus. = Je to váš dům."
+          }
+        ],
+        "info": [
+          "Ihr = vy (podmětová forma)",
+          "Euch = vás (přímý doplněk) / vám (dativ)",
+          "Euer = váš (přivlastňovací forma)"
+        ],
+        "tip": {
+          "text": "\"euch\" odpovídá na otázku \"komu?\" nebo je přímým doplňkem ve větách s \"vy\".",
+          "example": "Pomáhám vám. = Ich helfe euch. Vidím vás. = Ich sehe euch. Vyprávím vám. = Ich erzähle euch."
+        },
+        "accents": {
+          "blue": [
+            "Ihr"
+          ],
+          "yellow": [
+            "Euch"
+          ],
+          "green": [
+            "Euer"
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-finden",
+      "index": 187,
+      "de": "finden",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Najít • Zvážit",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 78,
+          "field": "study.explanation[2]",
+          "pirmd": "Pokud jde o ztracenou věc, překládá se to jako nález.",
+          "pec": "Pokud jde o ztracenou věc, překládá se finden jako najít."
+        },
+        {
+          "block": 2,
+          "n": 79,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: ztracená věc → nalezená • Názor → najdu...",
+          "pec": "Pamatujte: ztracená věc → najít • Názor → ich finde… = myslím si…"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-finden",
+        "index": 187,
+        "de": "finden",
+        "layout": "standardStudy",
+        "csMain": "Najít • Zvážit",
+        "studyTranslation": "Najít • Zvážit",
+        "lvSourceMain": "atrast",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "atrast",
+            "csText": "Najít • Zvážit",
+            "de": "finden"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es atrodu savu atslēgu.",
+            "csText": "Nemohu najít svůj klíč",
+            "de": "finden"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Man tas šķiet labi.",
+            "csText": "Našel jsi svůj telefon",
+            "de": "finden"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "ko tu domā par filmu?",
+            "csText": "Zdá se mi to dobré.",
+            "de": "finden"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "finden",
+            "csText": "finden",
+            "de": "finden"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "atrast / uzskatīt",
+            "csText": "Najít / zvážit",
+            "de": "finden"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde...",
+            "csText": "Pamatujte: ztracená věc → najít • Názor → ich finde… = myslím si…",
+            "de": "finden"
+          }
+        ],
+        "study": {
+          "id": "a1-finden",
+          "layout": "standardStudy",
+          "translation": "Najít • Zvážit",
+          "explanation": [
+            "Hlavní myšlenka: najít nejčastěji znamená najít.",
+            "V konverzaci finden velmi často také znamená zvážit nebo přemýšlet o něčem.",
+            "Pokud jde o ztracenou věc, překládá se finden jako najít.",
+            "Pokud jde o názor, překládá se jako myslet nebo zdát."
+          ],
+          "examples": [
+            {
+              "de": "Ich finde meinen Schlüssel nicht.",
+              "lv": "Nemohu najít svůj klíč"
+            },
+            {
+              "de": "Hast du dein Handy gefunden?",
+              "lv": "Našel jsi svůj telefon"
+            },
+            {
+              "de": "Ich finde das gut.",
+              "lv": "Zdá se mi to dobré."
+            },
+            {
+              "de": "Wie findest du den Film?",
+              "lv": "Co si myslíš o filmu?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "finden",
+              "meaning": "Najít / zvážit",
+              "example": "Ich finde das gut. = Zdá se mi to v pořádku."
+            },
+            {
+              "word": "suchen",
+              "meaning": "Hledat",
+              "example": "Ich suche den Schlüssel. = Hledám klíč."
+            },
+            {
+              "word": "denken",
+              "meaning": "Přemýšlet",
+              "example": "Ich denke an dich. = Myslím na tebe."
+            },
+            {
+              "word": "glauben",
+              "meaning": "Věřit / myslet",
+              "example": "Ich glaube, er kommt. = Myslím, že přijde."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: ztracená věc → najít • Názor → ich finde… = myslím si…"
+          },
+          "important": [
+            "Finden není jen 'najít'.",
+            "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "finden"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "finde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nemohu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gefunden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Našel"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "finde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zdá"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "findest"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "myslíš"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "finden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Najít",
+                    "Najít"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "finde"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "suchen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Hledat"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "suche",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "denken"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Přemýšlet"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "denke",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "glauben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Věřit",
+                    "Věřit"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "glaube",
+                    "Ich"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "finden"
+                ],
+                "purple": [
+                  "Finden"
+                ]
+              },
+              {
+                "blue": [
+                  "finde"
+                ],
+                "purple": [
+                  "Ich"
+                ],
+                "red": [
+                  "Ich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-finden",
+          "layout": "standardStudy",
+          "translation": "atrast",
+          "explanation": [
+            "Galvenā doma: finden visbiežāk nozīmē atrast.",
+            "Sarunās finden ļoti bieži nozīmē arī uzskatīt vai domāt par kaut ko.",
+            "Ja runa ir par pazaudētu lietu, tulko kā atrast.",
+            "Ja runa ir par viedokli, tulko kā uzskatīt vai šķist."
+          ],
+          "examples": [
+            {
+              "de": "Ich finde meinen Schlüssel.",
+              "lv": "Es atrodu savu atslēgu."
+            },
+            {
+              "de": "Ich finde das gut.",
+              "lv": "Man tas šķiet labi."
+            },
+            {
+              "de": "Wie findest du den Film?",
+              "lv": "ko tu domā par filmu?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "finden",
+              "meaning": "atrast / uzskatīt",
+              "example": "Ich finde das gut. = Man tas šķiet labi."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."
+          },
+          "important": [
+            "finden nav tikai “atrast”.",
+            "Ich finde das gut nozīmē “man tas šķiet labi”, nevis “es to atrodu labi”."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "finden"
+              ],
+              "purple": [
+                "atrast",
+                "uzskatīt",
+                "domāt",
+                "šķist"
+              ],
+              "green": [
+                "pazaudētu lietu",
+                "viedokli"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "finde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atrast"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gefunden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atradi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "finde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "šķiet"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "findest"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "domā"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "finden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "atrast",
+                    "uzskatīt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "finde"
+                  ],
+                  "purple": [
+                    "šķiet"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "suchen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "meklēt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "suche",
+                    "meklēju"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "denken"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "domāt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "denke",
+                    "domāju"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "glauben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ticēt",
+                    "domāt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "glaube",
+                    "domāju"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "finden"
+                ],
+                "purple": [
+                  "pazaudēta lieta",
+                  "viedoklis"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "finden"
+                ],
+                "purple": [
+                  "atrast"
+                ]
+              },
+              {
+                "blue": [
+                  "finde"
+                ],
+                "purple": [
+                  "šķiet"
+                ],
+                "red": [
+                  "atrod"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-finden",
+        "layout": "standardStudy",
+        "translation": "Najít • Zvážit",
+        "explanation": [
+          "Hlavní myšlenka: najít nejčastěji znamená najít.",
+          "V konverzaci finden velmi často také znamená zvážit nebo přemýšlet o něčem.",
+          "Pokud jde o ztracenou věc, překládá se finden jako najít.",
+          "Pokud jde o názor, překládá se jako myslet nebo zdát."
+        ],
+        "examples": [
+          {
+            "de": "Ich finde meinen Schlüssel nicht.",
+            "lv": "Nemohu najít svůj klíč"
+          },
+          {
+            "de": "Hast du dein Handy gefunden?",
+            "lv": "Našel jsi svůj telefon"
+          },
+          {
+            "de": "Ich finde das gut.",
+            "lv": "Zdá se mi to dobré."
+          },
+          {
+            "de": "Wie findest du den Film?",
+            "lv": "Co si myslíš o filmu?"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "finden",
+            "meaning": "Najít / zvážit",
+            "example": "Ich finde das gut. = Zdá se mi to v pořádku."
+          },
+          {
+            "word": "suchen",
+            "meaning": "Hledat",
+            "example": "Ich suche den Schlüssel. = Hledám klíč."
+          },
+          {
+            "word": "denken",
+            "meaning": "Přemýšlet",
+            "example": "Ich denke an dich. = Myslím na tebe."
+          },
+          {
+            "word": "glauben",
+            "meaning": "Věřit / myslet",
+            "example": "Ich glaube, er kommt. = Myslím, že přijde."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: ztracená věc → najít • Názor → ich finde… = myslím si…"
+        },
+        "important": [
+          "Finden není jen 'najít'.",
+          "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "finden"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "finde"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nemohu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "gefunden"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Našel"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "finde"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zdá"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "findest"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "myslíš"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "finden"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Najít",
+                  "Najít"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "finde"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "suchen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Hledat"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "suche",
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "denken"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Přemýšlet"
+                ]
+              },
+              "example": {
+                "green": [
+                  "denke",
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "glauben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Věřit",
+                  "Věřit"
+                ]
+              },
+              "example": {
+                "red": [
+                  "glaube",
+                  "Ich"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "finden"
+              ],
+              "purple": [
+                "Finden"
+              ]
+            },
+            {
+              "blue": [
+                "finde"
+              ],
+              "purple": [
+                "Ich"
+              ],
+              "red": [
+                "Ich"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-fuer",
+      "index": 216,
+      "de": "für",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Pro • Pro",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 80,
+          "field": "study.translation",
+          "pirmd": "Pro • Pro",
+          "pec": "Pro • Za"
+        },
+        {
+          "block": 2,
+          "n": 81,
+          "field": "study.explanation[2]",
+          "pirmd": "Když mluvíme o výměně, poplatku nebo důvodu, für = pro (danke für das Geschenk = děkuji za dar).",
+          "pec": "Když mluvíme o výměně, poplatku nebo důvodu, für = za (danke für das Geschenk = děkuji za dar)."
+        },
+        {
+          "block": 2,
+          "n": 82,
+          "field": "study.important[1]",
+          "pirmd": "Danke für / bezahlen für = 'pro', nikoli 'před'.",
+          "pec": "Danke für / bezahlen für = „za“, nikoli „před“ nebo „pro“."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-fuer",
+        "index": 216,
+        "de": "für",
+        "layout": "standardStudy",
+        "csMain": "Pro • Pro",
+        "studyTranslation": "Pro • Za",
+        "lvSourceMain": "priekš",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "priekš",
+            "csText": "Pro • Za",
+            "de": "für"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "tas ir priekš tevis.",
+            "csText": "Je to pro tebe.",
+            "de": "für"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "paldies par palīdzību.",
+            "csText": "Děkuji za vaši pomoc.",
+            "de": "für"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es pērku dāvanu savai mātei.",
+            "csText": "Koupím dárek pro maminku.",
+            "de": "für"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "cik tu maksā par auto?",
+            "csText": "Kolik platíš za auto?",
+            "de": "für"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "grāmata ir priekš bērniem.",
+            "csText": "Kniha je pro děti.",
+            "de": "für"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "šodienai tas ir gana.",
+            "csText": "To pro dnešek stačí.",
+            "de": "für"
+          }
+        ],
+        "study": {
+          "id": "a1-fuer",
+          "layout": "standardStudy",
+          "translation": "Pro • Za",
+          "explanation": [
+            "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ – obvykle pro nebo pro v češtině.",
+            "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+            "Když mluvíme o výměně, poplatku nebo důvodu, für = za (danke für das Geschenk = děkuji za dar).",
+            "Für vždy vyžaduje akuzativ, bez ohledu na význam."
+          ],
+          "examples": [
+            {
+              "de": "Das ist für dich.",
+              "lv": "Je to pro tebe."
+            },
+            {
+              "de": "Danke für die Hilfe.",
+              "lv": "Děkuji za vaši pomoc."
+            },
+            {
+              "de": "Ich kaufe ein Geschenk für meine Mutter.",
+              "lv": "Koupím dárek pro maminku."
+            },
+            {
+              "de": "Was bezahlst du für das Auto?",
+              "lv": "Kolik platíš za auto?"
+            },
+            {
+              "de": "Das Buch ist für Kinder.",
+              "lv": "Kniha je pro děti."
+            },
+            {
+              "de": "Für heute ist das genug.",
+              "lv": "To pro dnešek stačí."
+            }
+          ],
+          "tip": [
+            "Für vždy + akuzativ - bez ohledu na význam.",
+            "Příjemce/záměr → pro • Výměna/důvod/poplatek → za."
+          ],
+          "important": [
+            "Für + Akkusativ vždy, např. für mich, für dich, für das Kind.",
+            "Danke für / bezahlen für = „za“, nikoli „před“ nebo „pro“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "für"
+              ],
+              "purple": [
+                "Hlavní",
+                "dar"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pro"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Děkuji"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Koupím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kolik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kniha"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pro"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "für"
+                ]
+              },
+              {
+                "purple": [
+                  "Für",
+                  "Für"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "für",
+                  "Akkusativ"
+                ]
+              },
+              {
+                "green": [
+                  "danke für",
+                  "bezahlen für"
+                ],
+                "purple": [
+                  "Danke"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-fuer",
+          "layout": "standardStudy",
+          "translation": "priekš",
+          "explanation": [
+            "Galvenā doma: für ir prievārds, kas vienmēr pārvalda akuzatīvu — latviski parasti priekš vai par.",
+            "Runājot par saņēmēju vai nolūku, für = priekš (für dich = priekš tevis).",
+            "Runājot par apmaiņu, maksu vai iemeslu, für = par (danke für das Geschenk = paldies par dāvanu).",
+            "für vienmēr prasa akuzatīvu neatkarīgi no nozīmes."
+          ],
+          "examples": [
+            {
+              "de": "Das ist für dich.",
+              "lv": "tas ir priekš tevis."
+            },
+            {
+              "de": "Danke für die Hilfe.",
+              "lv": "paldies par palīdzību."
+            },
+            {
+              "de": "Ich kaufe ein Geschenk für meine Mutter.",
+              "lv": "es pērku dāvanu savai mātei."
+            },
+            {
+              "de": "Was bezahlst du für das Auto?",
+              "lv": "cik tu maksā par auto?"
+            },
+            {
+              "de": "Das Buch ist für Kinder.",
+              "lv": "grāmata ir priekš bērniem."
+            },
+            {
+              "de": "Für heute ist das genug.",
+              "lv": "šodienai tas ir gana."
+            }
+          ],
+          "tip": [
+            "für vienmēr + akuzatīvs — neatkarīgi no nozīmes.",
+            "Saņēmējs/nolūks → priekš; apmaiņa/iemesls/maksa → par."
+          ],
+          "important": [
+            "für + Akkusativ vienmēr, piemēram für mich, für dich, für das Kind.",
+            "danke für / bezahlen für = 'par', ne 'priekš'."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "für"
+              ],
+              "purple": [
+                "priekš",
+                "par"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "priekš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "par"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "savai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "par"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "priekš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "šodienai"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "für"
+                ]
+              },
+              {
+                "purple": [
+                  "priekš",
+                  "par"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "für",
+                  "Akkusativ"
+                ]
+              },
+              {
+                "green": [
+                  "danke für",
+                  "bezahlen für"
+                ],
+                "purple": [
+                  "par"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-fuer",
+        "layout": "standardStudy",
+        "translation": "Pro • Za",
+        "explanation": [
+          "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ – obvykle pro nebo pro v češtině.",
+          "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+          "Když mluvíme o výměně, poplatku nebo důvodu, für = za (danke für das Geschenk = děkuji za dar).",
+          "Für vždy vyžaduje akuzativ, bez ohledu na význam."
+        ],
+        "examples": [
+          {
+            "de": "Das ist für dich.",
+            "lv": "Je to pro tebe."
+          },
+          {
+            "de": "Danke für die Hilfe.",
+            "lv": "Děkuji za vaši pomoc."
+          },
+          {
+            "de": "Ich kaufe ein Geschenk für meine Mutter.",
+            "lv": "Koupím dárek pro maminku."
+          },
+          {
+            "de": "Was bezahlst du für das Auto?",
+            "lv": "Kolik platíš za auto?"
+          },
+          {
+            "de": "Das Buch ist für Kinder.",
+            "lv": "Kniha je pro děti."
+          },
+          {
+            "de": "Für heute ist das genug.",
+            "lv": "To pro dnešek stačí."
+          }
+        ],
+        "tip": [
+          "Für vždy + akuzativ - bez ohledu na význam.",
+          "Příjemce/záměr → pro • Výměna/důvod/poplatek → za."
+        ],
+        "important": [
+          "Für + Akkusativ vždy, např. für mich, für dich, für das Kind.",
+          "Danke für / bezahlen für = „za“, nikoli „před“ nebo „pro“."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "für"
+            ],
+            "purple": [
+              "Hlavní",
+              "dar"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "für"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "pro"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "für"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Děkuji"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "für"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Koupím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "für"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kolik"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "für"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kniha"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Für"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "pro"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "für"
+              ]
+            },
+            {
+              "purple": [
+                "Für",
+                "Für"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "für",
+                "Akkusativ"
+              ]
+            },
+            {
+              "green": [
+                "danke für",
+                "bezahlen für"
+              ],
+              "purple": [
+                "Danke"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-gleich",
+      "index": 243,
+      "de": "gleich",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Hned • Rovný",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 83,
+          "field": "study.important[1]",
+          "pirmd": "Dobře! = brzy se uvidíme! — běžná rozlučovací fráze.",
+          "pec": "Bis gleich! = Brzy na viděnou! — běžná rozlučovací fráze."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-gleich",
+        "index": 243,
+        "de": "gleich",
+        "layout": "standardStudy",
+        "csMain": "Hned • Rovný",
+        "studyTranslation": "Hned • Rovný",
+        "lvSourceMain": "tūlīt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "tūlīt",
+            "csText": "Hned • Rovný",
+            "de": "gleich"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es tūlīt nāku.",
+            "csText": "Hned přijdu.",
+            "de": "gleich"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mums ir vienāda krāsa.",
+            "csText": "Máme stejnou barvu.",
+            "de": "gleich"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "ēdiens tūlīt būs gatavs.",
+            "csText": "Jídlo bude brzy hotové.",
+            "de": "gleich"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "abi ceļi ir vienādi gari.",
+            "csText": "Obě cesty jsou stejně dlouhé.",
+            "de": "gleich"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "tiekamies pēc brīža!",
+            "csText": "Uvidíme se brzy!",
+            "de": "gleich"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "viņi ir vienāda auguma.",
+            "csText": "Jsou stejně vysoké.",
+            "de": "gleich"
+          }
+        ],
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "Hned • Rovný",
+          "explanation": [
+            "Hlavní myšlenka: gleich temporally znamená okamžitě, komparativně znamená rovný.",
+            "Když jde o čas, gleich = hned/za chvíli (Ich komme gleich. = hned přijdu.).",
+            "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+            "Gleich lze použít i jako předložku s dativem ve významu jako (gleich mir = jako já).",
+            "Kontext (čas nebo přirovnání) ukazuje správný význam."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Hned přijdu."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Máme stejnou barvu."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "Jídlo bude brzy hotové."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "Obě cesty jsou stejně dlouhé."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "Uvidíme se brzy!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "Jsou stejně vysoké."
+            }
+          ],
+          "tip": [
+            "Za chvíli (za chvíli) → hned.",
+            "Pro srovnání (stejné) → stejné."
+          ],
+          "important": [
+            "Gleich = okamžitě (čas) NEBO rovno (srovnání).",
+            "Bis gleich! = Brzy na viděnou! — běžná rozlučovací fráze."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gleich"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hned"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleiche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Máme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jídlo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Obě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Uvidíme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsou"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "chvíli"
+                ]
+              },
+              {
+                "green": [
+                  "chvíli"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "Gleich",
+                  "Gleich"
+                ]
+              },
+              {
+                "blue": [
+                  "Dobře"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "tūlīt",
+          "explanation": [
+            "Galvenā doma: gleich laika ziņā nozīmē tūlīt, salīdzinājumā nozīmē vienāds.",
+            "Ja runa ir par laiku, gleich = tūlīt/pēc brīža (Ich komme gleich. = Es tūlīt nāku.).",
+            "Ja runa ir par salīdzinājumu, gleich = vienāds/tāds pats (die gleiche Farbe = vienāda krāsa).",
+            "Konteksts (laika norāde vai salīdzinājums) parāda pareizo nozīmi."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "es tūlīt nāku."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "mums ir vienāda krāsa."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "ēdiens tūlīt būs gatavs."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "abi ceļi ir vienādi gari."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "tiekamies pēc brīža!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "viņi ir vienāda auguma."
+            }
+          ],
+          "tip": [
+            "Par laiku (pēc brīža) → tūlīt.",
+            "Par salīdzinājumu (tāds pats) → vienāds."
+          ],
+          "important": [
+            "gleich = tūlīt (laiks) VAI vienāds (salīdzinājums).",
+            "Bis gleich! = tiekamies pēc brīža! — ierasta atvadu frāze."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gleich"
+              ],
+              "purple": [
+                "tūlīt",
+                "vienāds"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tūlīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleiche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vienāda"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tūlīt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vienādi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pēc brīža"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vienāda"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "tūlīt"
+                ]
+              },
+              {
+                "green": [
+                  "vienāds"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "tūlīt",
+                  "vienāds"
+                ]
+              },
+              {
+                "blue": [
+                  "Bis gleich!"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-gleich",
+        "layout": "standardStudy",
+        "translation": "Hned • Rovný",
+        "explanation": [
+          "Hlavní myšlenka: gleich temporally znamená okamžitě, komparativně znamená rovný.",
+          "Když jde o čas, gleich = hned/za chvíli (Ich komme gleich. = hned přijdu.).",
+          "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+          "Gleich lze použít i jako předložku s dativem ve významu jako (gleich mir = jako já).",
+          "Kontext (čas nebo přirovnání) ukazuje správný význam."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme gleich.",
+            "lv": "Hned přijdu."
+          },
+          {
+            "de": "Wir haben die gleiche Farbe.",
+            "lv": "Máme stejnou barvu."
+          },
+          {
+            "de": "Das Essen ist gleich fertig.",
+            "lv": "Jídlo bude brzy hotové."
+          },
+          {
+            "de": "Beide Wege sind gleich lang.",
+            "lv": "Obě cesty jsou stejně dlouhé."
+          },
+          {
+            "de": "Bis gleich!",
+            "lv": "Uvidíme se brzy!"
+          },
+          {
+            "de": "Sie sind gleich groß.",
+            "lv": "Jsou stejně vysoké."
+          }
+        ],
+        "tip": [
+          "Za chvíli (za chvíli) → hned.",
+          "Pro srovnání (stejné) → stejné."
+        ],
+        "important": [
+          "Gleich = okamžitě (čas) NEBO rovno (srovnání).",
+          "Bis gleich! = Brzy na viděnou! — běžná rozlučovací fráze."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "gleich"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "gleich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hned"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "gleiche"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Máme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "gleich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jídlo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "gleich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Obě"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "gleich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Uvidíme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "gleich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jsou"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "chvíli"
+              ]
+            },
+            {
+              "green": [
+                "chvíli"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "purple": [
+                "Gleich",
+                "Gleich"
+              ]
+            },
+            {
+              "blue": [
+                "Dobře"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-euch",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "HIGH repairs correctly restore plural accusative/dative forms. One unrepaired comparison example still incorrectly uses singular „ti“.",
+      "findings": [
+        {
+          "field": "study.comparison[1].example",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Ich helfe euch. = Pomáhám ti.",
+          "proposedCs": null,
+          "reason": "German „euch“ is plural; the Czech example uses singular „ti“, conflicting with the repaired plural translation.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-finden",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "medium",
+      "confidence": 0.99,
+      "reason": "The repaired explanation and tip are correct, but existing card content still presents „zvážit“ as a translation and contains a duplicated nonsensical important note.",
+      "findings": [
+        {
+          "field": "study.translation",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Najít • Zvážit",
+          "proposedCs": null,
+          "reason": "„Zvážit“ is not the appropriate core Czech meaning for finden in the opinion sense; the existing card’s semantic distinction remains inaccurate.",
+          "confidence": 0.97
+        },
+        {
+          "field": "study.explanation[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "V konverzaci finden velmi často také znamená zvážit nebo přemýšlet o něčem.",
+          "proposedCs": null,
+          "reason": "The sentence misrepresents the opinion sense of finden as „zvážit“ and remains outside the HIGH-repaired fields.",
+          "confidence": 0.98
+        },
+        {
+          "field": "study.important[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Ich finde das gut znamená „považuji to za dobré“, nikoli „považuji to za dobré“.",
+          "proposedCs": null,
+          "reason": "Both alternatives are identical, so this note provides no meaningful contrast; it was not changed by HIGH repair.",
+          "confidence": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-fuer",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "HIGH repairs correctly distinguish „pro“ from „za“. Existing explanation text contains a duplicate „pro“ and mismatches informal German „dich“ with formal/plural Czech „vás“.",
+      "findings": [
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Hlavní myšlenka: für je předložka, která vždy řídí akuzativ – obvykle pro nebo pro v češtině.",
+          "proposedCs": null,
+          "reason": "The phrase „pro nebo pro“ is a pre-existing duplication and does not reflect the repaired contextual split.",
+          "confidence": 1
+        },
+        {
+          "field": "study.explanation[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Když mluvíme o příjemci nebo záměru, für = pro (für dich = pro vás).",
+          "proposedCs": null,
+          "reason": "„für dich“ means „pro tebe“, while „pro vás“ is formal or plural; this mismatch was not introduced by the listed repairs.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-gleich",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "The repaired „Bis gleich!“ note is linguistically correct. Existing explanation wording remains awkward and contains a duplicated Czech equivalent.",
+      "findings": [
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Hlavní myšlenka: gleich temporally znamená okamžitě, komparativně znamená rovný.",
+          "proposedCs": null,
+          "reason": "The sentence contains an unexplained English insertion („temporally“) and awkward phrasing; this was not part of the HIGH repair.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Pokud jde o srovnání, gleich = stejný/stejný (die gleiche Farbe = stejná barva).",
+          "proposedCs": null,
+          "reason": "The Czech equivalent „stejný“ is duplicated, creating a grammar/style defect unrelated to the repaired note.",
+          "confidence": 1
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:42:09.284Z"
+}

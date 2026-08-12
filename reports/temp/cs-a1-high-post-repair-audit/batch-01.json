@@ -1,0 +1,195 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-alle-7",
+      "index": 7,
+      "de": "alle",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Všichni",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 1,
+          "field": "csText",
+          "pirmd": "Každý",
+          "pec": "Všichni"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-alle-7",
+        "index": 7,
+        "de": "alle",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "visi",
+        "csText": "Všichni",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-achten-22",
+      "index": 22,
+      "de": "achten",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Dbát na",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 2,
+          "field": "csText",
+          "pirmd": "Pozorovat",
+          "pec": "Dbát na"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-achten-22",
+        "index": 22,
+        "de": "achten",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "ievērot",
+        "csText": "Dbát na",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-anziehen-30",
+      "index": 30,
+      "de": "anziehen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Obléknout si",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 3,
+          "field": "csText",
+          "pirmd": "Nasadit",
+          "pec": "Obléknout si"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-anziehen-30",
+        "index": 30,
+        "de": "anziehen",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "uzvilkt",
+        "csText": "Obléknout si",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Ärztin-46",
+      "index": 46,
+      "de": "Ärztin",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Lékařka",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 4,
+          "field": "csText",
+          "pirmd": "Lékař",
+          "pec": "Lékařka"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Ärztin-46",
+        "index": 46,
+        "de": "Ärztin",
+        "de_article": "die",
+        "de_plural": "die Ärztinnen",
+        "lvSource": "ārste",
+        "csText": "Lékařka",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-alle-7",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly changes the Czech meaning to “Všichni,” matching German alle in the supplied A1 context.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Všichni",
+          "proposedCs": null,
+          "reason": "“Všichni” is a correct Czech translation of German alle for people or a masculine plural group.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-achten-22",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly renders achten as “Dbát na”; no meaning or grammar regression is present.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Dbát na",
+          "proposedCs": null,
+          "reason": "“Dbát na” correctly expresses achten auf or paying attention to something.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-anziehen-30",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly uses “Obléknout si” for anziehen in the clothing sense; no usage regression is present.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Obléknout si",
+          "proposedCs": null,
+          "reason": "“Obléknout si” correctly means to put on clothing and is reflexively grammatical in Czech.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Ärztin-46",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly changes the masculine form to feminine “Lékařka,” matching German Ärztin.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Lékařka",
+          "proposedCs": null,
+          "reason": "“Lékařka” is the correct feminine Czech noun for German Ärztin.",
+          "confidence": 1
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:40:05.446Z"
+}

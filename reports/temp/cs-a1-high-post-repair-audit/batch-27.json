@@ -1,0 +1,3342 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-wenn",
+      "index": 655,
+      "de": "wenn",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Jestliže • Kdy",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 188,
+          "field": "study.comparison[1].meaning",
+          "pirmd": "Nebo v nepřímé otázce",
+          "pec": "Zda / jestli v nepřímé otázce"
+        },
+        {
+          "block": 4,
+          "n": 189,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: podmínka → wenn • Otázka \"kdy?\" → chtít.",
+          "pec": "Pamatujte: podmínka → wenn • Otázka „kdy?“ → wann."
+        },
+        {
+          "block": 4,
+          "n": 190,
+          "field": "study.explanation[1]",
+          "pirmd": "Pokud je to podmínka, přeložte jako kdyby.",
+          "pec": "Pokud jde o podmínku, přeložte jako „pokud“ nebo „jestliže“."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-wenn",
+        "index": 655,
+        "de": "wenn",
+        "layout": "standardStudy",
+        "csMain": "Jestliže • Kdy",
+        "studyTranslation": "Jestliže • Kdy",
+        "lvSourceMain": "ja • kad",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ja • kad",
+            "csText": "Jestliže • Kdy",
+            "de": "wenn"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "ja tev ir laiks, iegriezies.",
+            "csText": "Pokud budete mít čas, stavte se.",
+            "de": "wenn"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "ja līst, es palieku mājās.",
+            "csText": "Když prší, zůstanu doma.",
+            "de": "wenn"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "kad esmu noguris, es dzeru kafiju.",
+            "csText": "Když jsem unavený, piju kávu.",
+            "de": "wenn"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es nezinu, vai viņš nāks.",
+            "csText": "Nevím jestli přijde.",
+            "de": "wenn"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "wenn",
+            "csText": "wenn",
+            "de": "wenn"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "ja / kad",
+            "csText": "Jestli / kdy",
+            "de": "wenn"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "ob",
+            "csText": "ob",
+            "de": "wenn"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "vai netiešā jautājumā",
+            "csText": "Zda / jestli v nepřímé otázce",
+            "de": "wenn"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "wann",
+            "csText": "wann",
+            "de": "wenn"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "kad jautājumā",
+            "csText": "Když je v otázce",
+            "de": "wenn"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "weil",
+            "csText": "weil",
+            "de": "wenn"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "jo",
+            "csText": "Protože",
+            "de": "wenn"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: nosacījums → wenn; jautājums “kad?” → wann.",
+            "csText": "Pamatujte: podmínka → wenn • Otázka „kdy?“ → wann.",
+            "de": "wenn"
+          }
+        ],
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "Jestliže • Kdy",
+          "explanation": [
+            "Hlavní myšlenka: wenn znamená jestli nebo kdy v závislosti na situaci.",
+            "Pokud jde o podmínku, přeložte jako „pokud“ nebo „jestliže“.",
+            "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako kdy.",
+            "Po wenn končí sloveso většinou německou větou."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Pokud budete mít čas, stavte se."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Když prší, zůstanu doma."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Když jsem unavený, piju kávu."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Nevím jestli přijde."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "Jestli / kdy",
+              "example": "Wenn du Zeit hast..."
+            },
+            {
+              "word": "ob",
+              "meaning": "Zda / jestli v nepřímé otázce",
+              "example": "Ich weiß nicht, ob..."
+            },
+            {
+              "word": "wann",
+              "meaning": "Když je v otázce",
+              "example": "Wann kommst du?"
+            },
+            {
+              "word": "weil",
+              "meaning": "Protože",
+              "example": "Ich bleibe, weil ich krank bin."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: podmínka → wenn • Otázka „kdy?“ → wann."
+          },
+          "important": [
+            "Wenn a wann nejsou totéž.",
+            "Kdy přijedeš? je tu otázka. Wenn du kommst... je stav/napětí."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wenn"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "hast"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pokud"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "regnet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Když"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Když"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Nevím"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wenn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jestli",
+                    "Jestli"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nebo"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wann"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Když"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Protože"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weil"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "wenn"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "yellow": [
+                  "wenn",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "wenn"
+                ],
+                "yellow": [
+                  "wann"
+                ]
+              },
+              {
+                "yellow": [
+                  "Kdy"
+                ],
+                "blue": [
+                  "Wenn du kommst"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "ja • kad",
+          "explanation": [
+            "Galvenā doma: wenn nozīmē ja vai kad atkarībā no situācijas.",
+            "Ja runa ir par nosacījumu, tulko kā ja.",
+            "Ja runa ir par atkārtotu vai vispārīgu laiku, tulko kā kad.",
+            "Pēc wenn darbības vārds vācu teikumā parasti stāv beigās."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "ja tev ir laiks, iegriezies."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "ja līst, es palieku mājās."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "kad esmu noguris, es dzeru kafiju."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "es nezinu, vai viņš nāks."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "ja / kad",
+              "example": "Wenn du Zeit hast..."
+            },
+            {
+              "word": "ob",
+              "meaning": "vai netiešā jautājumā",
+              "example": "Ich weiß nicht, ob..."
+            },
+            {
+              "word": "wann",
+              "meaning": "kad jautājumā",
+              "example": "Wann kommst du?"
+            },
+            {
+              "word": "weil",
+              "meaning": "jo",
+              "example": "Ich bleibe, weil ich krank bin."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
+          },
+          "important": [
+            "wenn un wann nav viens un tas pats.",
+            "Wann kommst du? ir jautājums. Wenn du kommst... ir nosacījums/laiks."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wenn"
+              ],
+              "purple": [
+                "ja",
+                "kad",
+                "nosacījumu"
+              ],
+              "green": [
+                "beigās"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "hast"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ja"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "regnet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ja"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kad"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "vai"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wenn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ja",
+                    "kad"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vai"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wann"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kad"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "jo"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weil"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "wenn"
+                ],
+                "purple": [
+                  "nosacījums"
+                ],
+                "yellow": [
+                  "wann",
+                  "kad?"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "wenn"
+                ],
+                "yellow": [
+                  "wann"
+                ]
+              },
+              {
+                "yellow": [
+                  "Wann kommst du"
+                ],
+                "blue": [
+                  "Wenn du kommst"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-wenn",
+        "layout": "standardStudy",
+        "translation": "Jestliže • Kdy",
+        "explanation": [
+          "Hlavní myšlenka: wenn znamená jestli nebo kdy v závislosti na situaci.",
+          "Pokud jde o podmínku, přeložte jako „pokud“ nebo „jestliže“.",
+          "Pokud se jedná o opakovaný nebo obecný čas, přeložte jako kdy.",
+          "Po wenn končí sloveso většinou německou větou."
+        ],
+        "examples": [
+          {
+            "de": "Wenn du Zeit hast, komm vorbei.",
+            "lv": "Pokud budete mít čas, stavte se."
+          },
+          {
+            "de": "Wenn es regnet, bleibe ich zu Hause.",
+            "lv": "Když prší, zůstanu doma."
+          },
+          {
+            "de": "Wenn ich müde bin, trinke ich Kaffee.",
+            "lv": "Když jsem unavený, piju kávu."
+          },
+          {
+            "de": "Ich weiß nicht, ob er kommt.",
+            "lv": "Nevím jestli přijde."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "wenn",
+            "meaning": "Jestli / kdy",
+            "example": "Wenn du Zeit hast..."
+          },
+          {
+            "word": "ob",
+            "meaning": "Zda / jestli v nepřímé otázce",
+            "example": "Ich weiß nicht, ob..."
+          },
+          {
+            "word": "wann",
+            "meaning": "Když je v otázce",
+            "example": "Wann kommst du?"
+          },
+          {
+            "word": "weil",
+            "meaning": "Protože",
+            "example": "Ich bleibe, weil ich krank bin."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: podmínka → wenn • Otázka „kdy?“ → wann."
+        },
+        "important": [
+          "Wenn a wann nejsou totéž.",
+          "Kdy přijedeš? je tu otázka. Wenn du kommst... je stav/napětí."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "wenn"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Wenn",
+                  "hast"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Pokud"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wenn",
+                  "regnet"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Když"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wenn",
+                  "bin"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Když"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "ob"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Nevím"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "wenn"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jestli",
+                  "Jestli"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Wenn"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ob"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Nebo"
+                ]
+              },
+              "example": {
+                "red": [
+                  "ob"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wann"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Když"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Wann"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "weil"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Protože"
+                ]
+              },
+              "example": {
+                "green": [
+                  "weil"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "wenn"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "yellow": [
+                "wenn",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "wenn"
+              ],
+              "yellow": [
+                "wann"
+              ]
+            },
+            {
+              "yellow": [
+                "Kdy"
+              ],
+              "blue": [
+                "Wenn du kommst"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-wer",
+      "index": 656,
+      "de": "wer",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Kdo • Kdo",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 191,
+          "field": "study.examples[0].lv",
+          "pirmd": "Co je to?",
+          "pec": "Kdo je to?"
+        },
+        {
+          "block": 4,
+          "n": 192,
+          "field": "study.examples[2].lv",
+          "pirmd": "Co přijde dnes?",
+          "pec": "Kdo dnes přijde?"
+        },
+        {
+          "block": 4,
+          "n": 193,
+          "field": "study.examples[3].lv",
+          "pirmd": "Kdo je tvůj učitel",
+          "pec": "Kdo je tvoje učitelka?"
+        },
+        {
+          "block": 4,
+          "n": 194,
+          "field": "study.explanation[3]",
+          "pirmd": "Wer je v němčině obvykle předmětem věty (nominativu) — Wer ist das? = co je to?",
+          "pec": "Wer je v němčině obvykle podmětem věty v nominativu. Wer ist das? = Kdo je to?"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-wer",
+        "index": 656,
+        "de": "wer",
+        "layout": "standardStudy",
+        "csMain": "Kdo • Kdo",
+        "studyTranslation": "Kdo • Kdo",
+        "lvSourceMain": "kas • kurš",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "kas • kurš",
+            "csText": "Kdo • Kdo",
+            "de": "wer"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Kas tas ir?",
+            "csText": "Kdo je to?",
+            "de": "wer"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Kas tu esi?",
+            "csText": "Kdo jsi?",
+            "de": "wer"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Kas šodien nāk?",
+            "csText": "Kdo dnes přijde?",
+            "de": "wer"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "Kas ir tava skolotāja?",
+            "csText": "Kdo je tvoje učitelka?",
+            "de": "wer"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "Kurš no jums runā vāciski?",
+            "csText": "Kdo z vás mluví německy?",
+            "de": "wer"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "Kas to teica?",
+            "csText": "Kdo to řekl?",
+            "de": "wer"
+          },
+          {
+            "field": "study.examples[6].lv",
+            "lvSource": "Kurš vēlas kafiju?",
+            "csText": "Kdo chce kávu?",
+            "de": "wer"
+          }
+        ],
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "Kdo • Kdo",
+          "explanation": [
+            "Hlavní myšlenka: wer je dotazovací slovo o identitě osoby – v češtině je to kdo nebo kdo.",
+            "Ptali se na lidi, ne na věci nebo události.",
+            "Věci a události jsou žádány s was, ne wer.",
+            "Wer je v němčině obvykle podmětem věty v nominativu. Wer ist das? = Kdo je to?",
+            "Když se ptáte, kdo z několika lidí, wer se často používá s von (wer von euch = kdo z vás).",
+            "Wer mění tvar podle skloňování: wen (akuzativ), wem (dativ), wessen (genitiv) - právě tvar wer je na úrovni A1 nejčastější."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Kdo je to?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Kdo jsi?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Kdo dnes přijde?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Kdo je tvoje učitelka?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Kdo z vás mluví německy?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Kdo to řekl?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Kdo chce kávu?"
+            }
+          ],
+          "tip": [
+            "Wer se ptá na osoby (kdo/kdo) - na věci a události, používáme was.",
+            "Chcete-li se zeptat na volbu mezi několika lidmi, použijte wer von... (který z...)."
+          ],
+          "important": [
+            "Ptali jsme se pouze na osoby, nikdy ne na věci.",
+            "Věci a události jsou žádány s was, ne wer.",
+            "Wer mění tvar přechylováním: wen, wem, wessen - ale základní tvar je wer.",
+            "Špatně: Wer ist passiert? → Správně: Bylo to passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wer"
+              ],
+              "purple": [
+                "was",
+                "Hlavní"
+              ],
+              "green": [
+                "was"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kdo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "přijde"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kdo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kdo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kdo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kdo"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wer"
+                ],
+                "green": [
+                  "was"
+                ]
+              },
+              {
+                "blue": [
+                  "wer von"
+                ],
+                "purple": [
+                  "Wer"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "Ptali"
+                ]
+              },
+              {
+                "green": [
+                  "was"
+                ],
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "Wer"
+                ],
+                "green": [
+                  "Špatně"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "kas • kurš",
+          "explanation": [
+            "Galvenā doma: wer ir jautājamvārds par personas identitāti — latviski tas ir kas vai kurš.",
+            "wer jautā par cilvēkiem, ne par lietām vai notikumiem.",
+            "Par lietām un notikumiem jautā ar was, ne wer.",
+            "wer vācu valodā parasti ir teikuma priekšmets (nominatīvā) — Wer ist das? = Kas tas ir?",
+            "Ja jautā, kurš tieši no vairākiem cilvēkiem, wer bieži lieto kopā ar von (wer von euch = kurš no jums).",
+            "wer maina formu pēc locījuma: wen (akuzatīvs), wem (datīvs), wessen (ģenitīvs) — A1 līmenī visbiežāk sastopama ir tieši forma wer."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Kas tas ir?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Kas tu esi?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Kas šodien nāk?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Kas ir tava skolotāja?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Kurš no jums runā vāciski?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Kas to teica?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Kurš vēlas kafiju?"
+            }
+          ],
+          "tip": [
+            "wer jautā par personām (kas/kurš) — par lietām un notikumiem lieto was.",
+            "Lai jautātu par izvēli starp vairākiem cilvēkiem, izmanto wer von... (kurš no...)."
+          ],
+          "important": [
+            "wer jautā tikai par personām, nekad par lietām.",
+            "Par lietām un notikumiem jautā ar was, nevis wer.",
+            "wer maina formu pēc locījuma: wen, wem, wessen — bet pamatforma ir wer.",
+            "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wer"
+              ],
+              "purple": [
+                "kas",
+                "kurš"
+              ],
+              "green": [
+                "was"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wer"
+                ],
+                "green": [
+                  "was"
+                ]
+              },
+              {
+                "blue": [
+                  "wer von"
+                ],
+                "purple": [
+                  "kurš no"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "green": [
+                  "was"
+                ],
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "Wer"
+                ],
+                "green": [
+                  "Was"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-wer",
+        "layout": "standardStudy",
+        "translation": "Kdo • Kdo",
+        "explanation": [
+          "Hlavní myšlenka: wer je dotazovací slovo o identitě osoby – v češtině je to kdo nebo kdo.",
+          "Ptali se na lidi, ne na věci nebo události.",
+          "Věci a události jsou žádány s was, ne wer.",
+          "Wer je v němčině obvykle podmětem věty v nominativu. Wer ist das? = Kdo je to?",
+          "Když se ptáte, kdo z několika lidí, wer se často používá s von (wer von euch = kdo z vás).",
+          "Wer mění tvar podle skloňování: wen (akuzativ), wem (dativ), wessen (genitiv) - právě tvar wer je na úrovni A1 nejčastější."
+        ],
+        "examples": [
+          {
+            "de": "Wer ist das?",
+            "lv": "Kdo je to?"
+          },
+          {
+            "de": "Wer bist du?",
+            "lv": "Kdo jsi?"
+          },
+          {
+            "de": "Wer kommt heute?",
+            "lv": "Kdo dnes přijde?"
+          },
+          {
+            "de": "Wer ist deine Lehrerin?",
+            "lv": "Kdo je tvoje učitelka?"
+          },
+          {
+            "de": "Wer von euch spricht Deutsch?",
+            "lv": "Kdo z vás mluví německy?"
+          },
+          {
+            "de": "Wer hat das gesagt?",
+            "lv": "Kdo to řekl?"
+          },
+          {
+            "de": "Wer möchte Kaffee?",
+            "lv": "Kdo chce kávu?"
+          }
+        ],
+        "tip": [
+          "Wer se ptá na osoby (kdo/kdo) - na věci a události, používáme was.",
+          "Chcete-li se zeptat na volbu mezi několika lidmi, použijte wer von... (který z...)."
+        ],
+        "important": [
+          "Ptali jsme se pouze na osoby, nikdy ne na věci.",
+          "Věci a události jsou žádány s was, ne wer.",
+          "Wer mění tvar přechylováním: wen, wem, wessen - ale základní tvar je wer.",
+          "Špatně: Wer ist passiert? → Správně: Bylo to passiert?"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "wer"
+            ],
+            "purple": [
+              "was",
+              "Hlavní"
+            ],
+            "green": [
+              "was"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kdo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "přijde"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kdo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kdo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kdo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kdo"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "wer"
+              ],
+              "green": [
+                "was"
+              ]
+            },
+            {
+              "blue": [
+                "wer von"
+              ],
+              "purple": [
+                "Wer"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "Ptali"
+              ]
+            },
+            {
+              "green": [
+                "was"
+              ],
+              "blue": [
+                "wer"
+              ]
+            },
+            {
+              "blue": [
+                "wer"
+              ]
+            },
+            {
+              "blue": [
+                "Wer"
+              ],
+              "green": [
+                "Špatně"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-werden",
+      "index": 657,
+      "de": "werden",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Stát se",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 195,
+          "field": "study.explanation[3]",
+          "pirmd": "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Jsem unavený.",
+          "pec": "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Začínám být unavený."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-werden",
+        "index": 657,
+        "de": "werden",
+        "layout": "standardStudy",
+        "csMain": "Stát se",
+        "studyTranslation": "Stát se",
+        "lvSourceMain": "kļūt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "kļūt",
+            "csText": "Stát se",
+            "de": "werden"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es kļūstu noguris.",
+            "csText": "Začínám být unavený.",
+            "de": "werden"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "kļūst auksti.",
+            "csText": "Ochlazuje se.",
+            "de": "werden"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņa kļūst par ārsti.",
+            "csText": "Stane se lékařkou.",
+            "de": "werden"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es esmu noguris.",
+            "csText": "Jsem unavený",
+            "de": "werden"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "werden",
+            "csText": "werden",
+            "de": "werden"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "kļūt",
+            "csText": "Stát se",
+            "de": "werden"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "sein",
+            "csText": "sein",
+            "de": "werden"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "būt",
+            "csText": "Být",
+            "de": "werden"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "bleiben",
+            "csText": "bleiben",
+            "de": "werden"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "palikt",
+            "csText": "Pobyt",
+            "de": "werden"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "machen",
+            "csText": "machen",
+            "de": "werden"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "darīt / taisīt",
+            "csText": "Dělat / dělat",
+            "de": "werden"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden.",
+            "csText": "Pamatujte: změna/stav se změní → werden.",
+            "de": "werden"
+          }
+        ],
+        "study": {
+          "id": "a1-werden",
+          "layout": "standardStudy",
+          "translation": "Stát se",
+          "explanation": [
+            "Hlavní myšlenka: werden na A1 nejčastěji znamená stát se.",
+            "Používá se, když se něco změní nebo změní.",
+            "V pozdější němčině se werden používá také pro budoucnost a pasivum.",
+            "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Začínám být unavený."
+          ],
+          "examples": [
+            {
+              "de": "Ich werde müde.",
+              "lv": "Začínám být unavený."
+            },
+            {
+              "de": "Es wird kalt.",
+              "lv": "Ochlazuje se."
+            },
+            {
+              "de": "Sie wird Ärztin.",
+              "lv": "Stane se lékařkou."
+            },
+            {
+              "de": "Ich bin müde.",
+              "lv": "Jsem unavený"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "werden",
+              "meaning": "Stát se",
+              "example": "Ich werde müde."
+            },
+            {
+              "word": "sein",
+              "meaning": "Být",
+              "example": "Ich bin müde."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "Pobyt",
+              "example": "Ich bleibe hier."
+            },
+            {
+              "word": "machen",
+              "meaning": "Dělat / dělat",
+              "example": "Ich mache das."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: změna/stav se změní → werden."
+          },
+          "important": [
+            "Werden není totéž co sein.",
+            "Ich werde müde = začínám být unavený • Ich bin müde = jsem unavený."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "werden",
+                "Ich werde"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "werde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Začínám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wird"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ochlazuje"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wird"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stane"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Jsem"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "werden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Stát"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "werde"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pobyt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bleibe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "machen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dělat",
+                    "Dělat"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "mache"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "werden"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "werden"
+                ],
+                "red": [
+                  "sein"
+                ]
+              },
+              {
+                "blue": [
+                  "werde"
+                ],
+                "purple": [
+                  "Ich"
+                ],
+                "red": [
+                  "bin",
+                  "Ich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-werden",
+          "layout": "standardStudy",
+          "translation": "kļūt",
+          "explanation": [
+            "Galvenā doma: werden A1 līmenī visbiežāk nozīmē kļūt.",
+            "To lieto, ja kaut kas mainās vai kļūst citāds.",
+            "Vēlāk vācu valodā werden lieto arī nākotnei un pasīvam.",
+            "A1 līmenī svarīgākā frāze ir Ich werde müde. = Es kļūstu noguris."
+          ],
+          "examples": [
+            {
+              "de": "Ich werde müde.",
+              "lv": "es kļūstu noguris."
+            },
+            {
+              "de": "Es wird kalt.",
+              "lv": "kļūst auksti."
+            },
+            {
+              "de": "Sie wird Ärztin.",
+              "lv": "viņa kļūst par ārsti."
+            },
+            {
+              "de": "Ich bin müde.",
+              "lv": "es esmu noguris."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "werden",
+              "meaning": "kļūt",
+              "example": "Ich werde müde."
+            },
+            {
+              "word": "sein",
+              "meaning": "būt",
+              "example": "Ich bin müde."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "palikt",
+              "example": "Ich bleibe hier."
+            },
+            {
+              "word": "machen",
+              "meaning": "darīt / taisīt",
+              "example": "Ich mache das."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden."
+          },
+          "important": [
+            "werden nav tas pats, kas sein.",
+            "Ich werde müde = es kļūstu noguris; Ich bin müde = es esmu noguris."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "werden",
+                "Ich werde"
+              ],
+              "purple": [
+                "kļūt",
+                "mainās",
+                "kļūst"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "werde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kļūstu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wird"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kļūst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wird"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kļūst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "esmu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "werden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kļūt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "werde"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "būt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "palikt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bleibe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "machen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "darīt",
+                    "taisīt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "mache"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "werden"
+                ],
+                "purple": [
+                  "izmaiņa",
+                  "kļūst"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "werden"
+                ],
+                "red": [
+                  "sein"
+                ]
+              },
+              {
+                "blue": [
+                  "werde"
+                ],
+                "purple": [
+                  "kļūstu"
+                ],
+                "red": [
+                  "bin",
+                  "esmu"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-werden",
+        "layout": "standardStudy",
+        "translation": "Stát se",
+        "explanation": [
+          "Hlavní myšlenka: werden na A1 nejčastěji znamená stát se.",
+          "Používá se, když se něco změní nebo změní.",
+          "V pozdější němčině se werden používá také pro budoucnost a pasivum.",
+          "Na úrovni A1 je nejdůležitější fráze Ich werde müde. = Začínám být unavený."
+        ],
+        "examples": [
+          {
+            "de": "Ich werde müde.",
+            "lv": "Začínám být unavený."
+          },
+          {
+            "de": "Es wird kalt.",
+            "lv": "Ochlazuje se."
+          },
+          {
+            "de": "Sie wird Ärztin.",
+            "lv": "Stane se lékařkou."
+          },
+          {
+            "de": "Ich bin müde.",
+            "lv": "Jsem unavený"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "werden",
+            "meaning": "Stát se",
+            "example": "Ich werde müde."
+          },
+          {
+            "word": "sein",
+            "meaning": "Být",
+            "example": "Ich bin müde."
+          },
+          {
+            "word": "bleiben",
+            "meaning": "Pobyt",
+            "example": "Ich bleibe hier."
+          },
+          {
+            "word": "machen",
+            "meaning": "Dělat / dělat",
+            "example": "Ich mache das."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: změna/stav se změní → werden."
+        },
+        "important": [
+          "Werden není totéž co sein.",
+          "Ich werde müde = začínám být unavený • Ich bin müde = jsem unavený."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "werden",
+              "Ich werde"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "werde"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Začínám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "wird"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ochlazuje"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "wird"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Stane"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "bin"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Jsem"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "werden"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Stát"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "werde"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "sein"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být"
+                ]
+              },
+              "example": {
+                "red": [
+                  "bin"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bleiben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Pobyt"
+                ]
+              },
+              "example": {
+                "green": [
+                  "bleibe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "machen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Dělat",
+                  "Dělat"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "mache"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "werden"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "werden"
+              ],
+              "red": [
+                "sein"
+              ]
+            },
+            {
+              "blue": [
+                "werde"
+              ],
+              "purple": [
+                "Ich"
+              ],
+              "red": [
+                "bin",
+                "Ich"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-wetter",
+      "index": 658,
+      "de": "Wetter",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Čas (počasí)",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 196,
+          "field": "study.translation",
+          "pirmd": "Čas (počasí)",
+          "pec": "Počasí"
+        },
+        {
+          "block": 4,
+          "n": 197,
+          "field": "study.examples[0].lv",
+          "pirmd": "Kolik je dnes hodin?",
+          "pec": "Jaké je dnes počasí?"
+        },
+        {
+          "block": 4,
+          "n": 198,
+          "field": "study.examples[4].lv",
+          "pirmd": "Mluvíme o čase.",
+          "pec": "Mluvíme o počasí."
+        },
+        {
+          "block": 4,
+          "n": 199,
+          "field": "study.tip[1]",
+          "pirmd": "Pamatujte: Wie ist das Wetter? = Kolik je hodin? (ne hodiny).",
+          "pec": "Pamatujte: Wie ist das Wetter? = Jaké je počasí? Nejde o otázku „Kolik je hodin?“."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-wetter",
+        "index": 658,
+        "de": "Wetter",
+        "layout": "standardStudy",
+        "csMain": "Čas (počasí)",
+        "studyTranslation": "Počasí",
+        "lvSourceMain": "laiks (laikapstākļi)",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "laiks (laikapstākļi)",
+            "csText": "Počasí",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "kāds laiks šodien?",
+            "csText": "Jaké je dnes počasí?",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "laiks ir jauks.",
+            "csText": "Počasí je pěkné.",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "laiks ir slikts.",
+            "csText": "Počasí je špatné.",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ziemā laiks bieži ir auksts.",
+            "csText": "V zimě je často chladné počasí.",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "mēs runājam par laiku.",
+            "csText": "Mluvíme o počasí.",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "rīt laiks kļūs labāks.",
+            "csText": "Zítra bude lepší počasí.",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "Wetter",
+            "csText": "Wetter",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "laikapstākļi",
+            "csText": "Povětrnostní podmínky",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "Zeit",
+            "csText": "Zeit",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "laiks (brīdis)",
+            "csText": "Čas (moment)",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "Regen",
+            "csText": "Regen",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "lietus",
+            "csText": "Déšť",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "Sonne",
+            "csText": "Sonne",
+            "de": "Wetter"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "saule",
+            "csText": "Slunce",
+            "de": "Wetter"
+          }
+        ],
+        "study": {
+          "id": "a1-wetter",
+          "layout": "standardStudy",
+          "translation": "Počasí",
+          "explanation": [
+            "Hlavní myšlenka: das Wetter znamená počasí – slunečno, deštivo, chladno nebo teplo.",
+            "České slovo „čas“ může znamenat jak počasí, tak čas na hodinách – v němčině je to jinak.",
+            "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
+            "Das Wetter se často používá ve větě spolu se slovy jako teplý nebo kalt.",
+            "Nezaměňovat s die Zeit – je to čas jako okamžik nebo příležitost (Ich habe keine Zeit)."
+          ],
+          "examples": [
+            {
+              "de": "Wie ist das Wetter heute?",
+              "lv": "Jaké je dnes počasí?"
+            },
+            {
+              "de": "Das Wetter ist schön.",
+              "lv": "Počasí je pěkné."
+            },
+            {
+              "de": "Das Wetter ist schlecht.",
+              "lv": "Počasí je špatné."
+            },
+            {
+              "de": "Im Winter ist das Wetter oft kalt.",
+              "lv": "V zimě je často chladné počasí."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Mluvíme o počasí."
+            },
+            {
+              "de": "Morgen wird das Wetter besser.",
+              "lv": "Zítra bude lepší počasí."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Wetter",
+              "meaning": "Povětrnostní podmínky",
+              "example": "Das Wetter ist schön."
+            },
+            {
+              "word": "Zeit",
+              "meaning": "Čas (moment)",
+              "example": "Ich habe keine Zeit."
+            },
+            {
+              "word": "Regen",
+              "meaning": "Déšť",
+              "example": "Es gibt viel Regen."
+            },
+            {
+              "word": "Sonne",
+              "meaning": "Slunce",
+              "example": "Die Sonne scheint."
+            }
+          ],
+          "tip": [
+            "Když mluvíte o slunci, dešti nebo venkovní teplotě - použijte das Wetter.",
+            "Pamatujte: Wie ist das Wetter? = Jaké je počasí? Nejde o otázku „Kolik je hodin?“."
+          ],
+          "important": [
+            "Das Wetter = počasí, ne čas na hodinách.",
+            "Die Zeit = čas jako okamžik nebo příležitost - další karta A1."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Wetter",
+                "Zeit"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kolik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Počasí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Počasí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ],
+                  "yellow": [
+                    "Winter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zimě"
+                  ],
+                  "yellow": [
+                    "zimě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mluvíme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ],
+                  "green": [
+                    "besser"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zítra"
+                  ],
+                  "green": [
+                    "Zítra"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "Wetter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Povětrnostní"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Zeit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Čas"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Zeit"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Regen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Déšť"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Regen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Sonne"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Slunce"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Sonne"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              {
+                "blue": [
+                  "Wetter"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              {
+                "green": [
+                  "Zeit"
+                ],
+                "purple": [
+                  "Die"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-wetter",
+          "layout": "standardStudy",
+          "translation": "laiks (laikapstākļi)",
+          "explanation": [
+            "Galvenā doma: das Wetter nozīmē laikapstākļus — saulaini, lietaini, auksti vai silti.",
+            "Latviešu vārds „laiks” var nozīmēt gan laikapstākļus, gan laiku pulkstenī — vāciski tas ir atšķirīgi.",
+            "Par laiku dabā runā ar das Wetter: Wie ist das Wetter heute?",
+            "Teikumā bieži lieto das Wetter kopā ar vārdiem kā warm vai kalt.",
+            "Nesajauc ar die Zeit — tā ir laiks kā brīdis vai iespēja (Ich habe keine Zeit)."
+          ],
+          "examples": [
+            {
+              "de": "Wie ist das Wetter heute?",
+              "lv": "kāds laiks šodien?"
+            },
+            {
+              "de": "Das Wetter ist schön.",
+              "lv": "laiks ir jauks."
+            },
+            {
+              "de": "Das Wetter ist schlecht.",
+              "lv": "laiks ir slikts."
+            },
+            {
+              "de": "Im Winter ist das Wetter oft kalt.",
+              "lv": "ziemā laiks bieži ir auksts."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "mēs runājam par laiku."
+            },
+            {
+              "de": "Morgen wird das Wetter besser.",
+              "lv": "rīt laiks kļūs labāks."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Wetter",
+              "meaning": "laikapstākļi",
+              "example": "Das Wetter ist schön."
+            },
+            {
+              "word": "Zeit",
+              "meaning": "laiks (brīdis)",
+              "example": "Ich habe keine Zeit."
+            },
+            {
+              "word": "Regen",
+              "meaning": "lietus",
+              "example": "Es gibt viel Regen."
+            },
+            {
+              "word": "Sonne",
+              "meaning": "saule",
+              "example": "Die Sonne scheint."
+            }
+          ],
+          "tip": [
+            "Ja runā par sauli, lietu vai temperatūru ārpusē — lieto das Wetter.",
+            "Atceries: Wie ist das Wetter? = Kāds laiks? (ne pulkstenis)."
+          ],
+          "important": [
+            "das Wetter = laikapstākļi, ne laiks pulkstenī.",
+            "die Zeit = laiks kā brīdis vai iespēja — cita karte A1."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Wetter",
+                "Zeit"
+              ],
+              "purple": [
+                "laikapstākļus"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laiks"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laiks"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laiks"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ],
+                  "yellow": [
+                    "Winter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laiks"
+                  ],
+                  "yellow": [
+                    "ziemā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laiku"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ],
+                  "green": [
+                    "besser"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laiks"
+                  ],
+                  "green": [
+                    "labāks"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "Wetter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "laikapstākļi"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Zeit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "laiks"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Zeit"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Regen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lietus"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Regen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Sonne"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "saule"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Sonne"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              {
+                "blue": [
+                  "Wetter"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              {
+                "green": [
+                  "Zeit"
+                ],
+                "purple": [
+                  "laiks"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-wetter",
+        "layout": "standardStudy",
+        "translation": "Počasí",
+        "explanation": [
+          "Hlavní myšlenka: das Wetter znamená počasí – slunečno, deštivo, chladno nebo teplo.",
+          "České slovo „čas“ může znamenat jak počasí, tak čas na hodinách – v němčině je to jinak.",
+          "Povídejte si o počasí v přírodě s dasem Wetterem: Wie ist das Wetter heute?",
+          "Das Wetter se často používá ve větě spolu se slovy jako teplý nebo kalt.",
+          "Nezaměňovat s die Zeit – je to čas jako okamžik nebo příležitost (Ich habe keine Zeit)."
+        ],
+        "examples": [
+          {
+            "de": "Wie ist das Wetter heute?",
+            "lv": "Jaké je dnes počasí?"
+          },
+          {
+            "de": "Das Wetter ist schön.",
+            "lv": "Počasí je pěkné."
+          },
+          {
+            "de": "Das Wetter ist schlecht.",
+            "lv": "Počasí je špatné."
+          },
+          {
+            "de": "Im Winter ist das Wetter oft kalt.",
+            "lv": "V zimě je často chladné počasí."
+          },
+          {
+            "de": "Wir sprechen über das Wetter.",
+            "lv": "Mluvíme o počasí."
+          },
+          {
+            "de": "Morgen wird das Wetter besser.",
+            "lv": "Zítra bude lepší počasí."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "Wetter",
+            "meaning": "Povětrnostní podmínky",
+            "example": "Das Wetter ist schön."
+          },
+          {
+            "word": "Zeit",
+            "meaning": "Čas (moment)",
+            "example": "Ich habe keine Zeit."
+          },
+          {
+            "word": "Regen",
+            "meaning": "Déšť",
+            "example": "Es gibt viel Regen."
+          },
+          {
+            "word": "Sonne",
+            "meaning": "Slunce",
+            "example": "Die Sonne scheint."
+          }
+        ],
+        "tip": [
+          "Když mluvíte o slunci, dešti nebo venkovní teplotě - použijte das Wetter.",
+          "Pamatujte: Wie ist das Wetter? = Jaké je počasí? Nejde o otázku „Kolik je hodin?“."
+        ],
+        "important": [
+          "Das Wetter = počasí, ne čas na hodinách.",
+          "Die Zeit = čas jako okamžik nebo příležitost - další karta A1."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Wetter",
+              "Zeit"
+            ],
+            "purple": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kolik"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Počasí"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Počasí"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wetter"
+                ],
+                "yellow": [
+                  "Winter"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "zimě"
+                ],
+                "yellow": [
+                  "zimě"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mluvíme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wetter"
+                ],
+                "green": [
+                  "besser"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zítra"
+                ],
+                "green": [
+                  "Zítra"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "Wetter"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Povětrnostní"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Wetter"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "Zeit"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Čas"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Zeit"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "Regen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Déšť"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Regen"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "Sonne"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Slunce"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Sonne"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "Wetter"
+              ]
+            },
+            {
+              "blue": [
+                "Wetter"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "Wetter"
+              ]
+            },
+            {
+              "green": [
+                "Zeit"
+              ],
+              "purple": [
+                "Die"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-wenn",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "HIGH repairs are linguistically correct. Unrepaired highlighting data still contains stale or incorrect Czech labels.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.comparison[1].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Nebo",
+          "proposedCs": null,
+          "reason": "The comparison meaning for ob is incorrectly highlighted as „Nebo“, while the card text correctly says zda/jestli in an indirect question.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "study.sectionAccents.comparison[2].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Když",
+          "proposedCs": null,
+          "reason": "wann is highlighted with „Když“ although the comparison correctly explains its use in a question.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 4
+        }
+      ]
+    },
+    {
+      "cardId": "a1-wer",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "All HIGH repairs correctly use kdo and correctly describe wer as a nominative subject. Remaining awkward wording and highlighting were not changed by HIGH.",
+      "findings": [
+        {
+          "field": "study.explanation[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Ptali se na lidi, ne na věci nebo události.",
+          "proposedCs": null,
+          "reason": "The Czech wording is awkward and uses an unexplained past-tense plural; it is unrelated to the repaired example translations.",
+          "confidence": 0.98,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "study.important[3]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Špatně: Wer ist passiert? → Správně: Bylo to passiert?",
+          "proposedCs": null,
+          "reason": "The sentence mixes Czech and German and gives an unnatural Czech correction; this content was not part of the HIGH repairs.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 4
+        }
+      ]
+    },
+    {
+      "cardId": "a1-werden",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly distinguishes Ich werde müde as a change of state. Other awkward meanings were already present elsewhere on the card.",
+      "findings": [
+        {
+          "field": "study.explanation[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Používá se, když se něco změní nebo změní.",
+          "proposedCs": null,
+          "reason": "The sentence repeats „změní“ and is grammatically awkward; it is unrelated to the repaired explanation line.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Pobyt",
+          "proposedCs": null,
+          "reason": "Pobyt is not the normal Czech meaning of bleiben; the issue was not introduced or changed by the HIGH repair.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 4
+        }
+      ]
+    },
+    {
+      "cardId": "a1-wetter",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "medium",
+      "confidence": 0.99,
+      "reason": "The HIGH repairs correctly restore počasí in the study content. The top-level label and one highlighting entry remain stale and were not repaired.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Čas (počasí)",
+          "proposedCs": null,
+          "reason": "The main Czech label still contains the incorrect primary meaning „Čas“, despite the repaired study translation being „Počasí“.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "study.sectionAccents.examples[0].lv",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Kolik",
+          "proposedCs": null,
+          "reason": "The first example is correctly translated as „Jaké je dnes počasí?“, but its highlighting still shows the old time-related label.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 4
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:46:01.255Z"
+}

@@ -1,0 +1,141 @@
+{
+  "batch": "batch-014",
+  "cardIds": [
+    "a1-nein-436",
+    "a1-nicht-447",
+    "a1-Ostern-467",
+    "a1-Pferd-474",
+    "a1-Programm-484"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-103",
+      "cardId": "a1-nein-436",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Německé nein znamená zápornou odpověď „ne“, nikoli „žádný“.",
+      "auditCurrentCs": "Žádný",
+      "auditProposedCs": "Ne",
+      "auditDe": "nein",
+      "auditLvSource": "nē",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Žádný",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-104",
+      "cardId": "a1-nicht-447",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Nicht je částice záporu „ne“, zatímco žádný odpovídá německému kein beziehungsweise keiner.",
+      "auditCurrentCs": "Žádný",
+      "auditProposedCs": "Ne",
+      "auditDe": "nicht",
+      "auditLvSource": "ne",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Žádný",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-105",
+      "cardId": "a1-Ostern-467",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Ostern je podstatné jméno „Velikonoce“, nikoli přídavné jméno „velikonoční“.",
+      "auditCurrentCs": "Velikonoční",
+      "auditProposedCs": "Velikonoce",
+      "auditDe": "Ostern",
+      "auditLvSource": "Lieldienas",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Velikonoční",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-106",
+      "cardId": "a1-Pferd-474",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Koně je množné číslo nebo 4. pád jednotného čísla; německému heslu Pferd odpovídá nominativ kůň.",
+      "auditCurrentCs": "Koně",
+      "auditProposedCs": "Kůň",
+      "auditDe": "Pferd",
+      "auditLvSource": "zirgs",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Koně",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-107",
+      "cardId": "a1-Programm-484",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Naprogramovat znamená programovat; německé podstatné jméno Programm je česky program.",
+      "auditCurrentCs": "Naprogramovat",
+      "auditProposedCs": "Program",
+      "auditDe": "Programm",
+      "auditLvSource": "programma",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Naprogramovat",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-103",
+      "cardId": "a1-nein-436",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„nein“ je české „ne“, nikoli „žádný“. Aktuální produkční překlad má chybný význam.",
+      "currentCs": "Žádný",
+      "proposedCs": "Ne"
+    },
+    {
+      "findingId": "HIGH-104",
+      "cardId": "a1-nicht-447",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„nicht“ je částice záporu „ne“, nikoli „žádný“. Aktuální produkční překlad má chybný význam.",
+      "currentCs": "Žádný",
+      "proposedCs": "Ne"
+    },
+    {
+      "findingId": "HIGH-105",
+      "cardId": "a1-Ostern-467",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Ostern“ znamená podstatné jméno „Velikonoce“, nikoli přídavné jméno „velikonoční“.",
+      "currentCs": "Velikonoční",
+      "proposedCs": "Velikonoce"
+    },
+    {
+      "findingId": "HIGH-106",
+      "cardId": "a1-Pferd-474",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Pferd“ v jednotném čísle znamená „kůň“. Aktuální „Koně“ je jiný tvar a neodpovídá heslu.",
+      "currentCs": "Koně",
+      "proposedCs": "Kůň"
+    },
+    {
+      "findingId": "HIGH-107",
+      "cardId": "a1-Programm-484",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Programm“ je české podstatné jméno „program“, nikoli sloveso „naprogramovat“.",
+      "currentCs": "Naprogramovat",
+      "proposedCs": "Program"
+    }
+  ],
+  "completedAt": "2026-08-11T17:40:23.346Z"
+}

@@ -1,0 +1,1645 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-können",
+      "deLemma": "können",
+      "csMain": "Umět • Moci",
+      "study": {
+        "id": "a1-können",
+        "layout": "standardStudy",
+        "translation": "Umět • Moci",
+        "explanation": [
+          "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
+          "Pokud jde o schopnosti nebo dovednosti, v češtině se často používá umět.",
+          "Pokud jde o možnost, často se říká, že je to možné.",
+          "Können je modální sloveso, takže druhé sloveso je obvykle na konci."
+        ],
+        "examples": [
+          {
+            "de": "Ich kann Deutsch sprechen.",
+            "lv": "Umím německy"
+          },
+          {
+            "de": "Kannst du mir helfen?",
+            "lv": "Můžete mi pomoci?"
+          },
+          {
+            "de": "Wir können heute kommen.",
+            "lv": "Dnes můžeme přijít."
+          },
+          {
+            "de": "Er kann gut schwimmen.",
+            "lv": "Umí dobře plavat."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "können",
+            "meaning": "Umět / moci",
+            "example": "Ich kann schwimmen. = Umím plavat."
+          },
+          {
+            "word": "dürfen",
+            "meaning": "Být dovoleno",
+            "example": "Darf ich gehen? = Můžu jít"
+          },
+          {
+            "word": "müssen",
+            "meaning": "Musit / být nutné",
+            "example": "Ich muss lernen. = Musím se učit."
+          },
+          {
+            "word": "wissen",
+            "meaning": "Vědět",
+            "example": "Ich weiß das. = To vím."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: dovednost/schopnost → können."
+        },
+        "important": [
+          "Können není totéž co dürfen. können = moci/vědět, dürfen = mít dovoleno.",
+          "Ve větě s können je druhé sloveso často na konci: Ich kann schwimmen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "können"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "kann"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Umím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Kannst"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Můžete"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "können"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dnes"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kann"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Umí"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "können"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být",
+                  "Být"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "kann"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "dürfen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Darf",
+                  "Darf"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "müssen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Potřebovat"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "muss",
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wissen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vědět"
+                ]
+              },
+              "example": {
+                "green": [
+                  "weiß",
+                  "Ich"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "können"
+              ],
+              "red": [
+                "dürfen"
+              ],
+              "purple": [
+                "Können",
+                "Können",
+                "Können"
+              ]
+            },
+            {
+              "blue": [
+                "kann"
+              ],
+              "green": [
+                "schwimmen"
+              ]
+            }
+          ]
+        }
+      },
+      "microRepairField": "study.explanation[0]",
+      "expectedValue": "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
+      "currentValue": "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
+      "fullCard": {
+        "cardId": "a1-können",
+        "index": 319,
+        "de": "können",
+        "layout": "standardStudy",
+        "csMain": "Umět • Moci",
+        "studyTranslation": "Umět • Moci",
+        "lvSourceMain": "varēt • prast",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "varēt • prast",
+            "csText": "Umět • Moci",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es protu runāt vāciski.",
+            "csText": "Umím německy",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "vai tu vari man palīdzēt?",
+            "csText": "Můžete mi pomoci?",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs šodien varam atnākt.",
+            "csText": "Dnes můžeme přijít.",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "viņš labi prot peldēt.",
+            "csText": "Umí dobře plavat.",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "können",
+            "csText": "können",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "varēt / prast",
+            "csText": "Umět / moci",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "dürfen",
+            "csText": "dürfen",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "drīkstēt",
+            "csText": "Být dovoleno",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "müssen",
+            "csText": "müssen",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "vajadzēt / būt jā-",
+            "csText": "Musit / být nutné",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "wissen",
+            "csText": "wissen",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "zināt",
+            "csText": "Vědět",
+            "de": "können"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: prasme/iespēja → können.",
+            "csText": "Pamatujte: dovednost/schopnost → können.",
+            "de": "können"
+          }
+        ],
+        "study": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "Umět • Moci",
+          "explanation": [
+            "Hlavní myšlenka: können znamená umět nebo moci něco udělat.",
+            "Pokud jde o schopnosti nebo dovednosti, v češtině se často používá umět.",
+            "Pokud jde o možnost, často se říká, že je to možné.",
+            "Können je modální sloveso, takže druhé sloveso je obvykle na konci."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Umím německy"
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "Můžete mi pomoci?"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "Dnes můžeme přijít."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "Umí dobře plavat."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "Umět / moci",
+              "example": "Ich kann schwimmen. = Umím plavat."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "Být dovoleno",
+              "example": "Darf ich gehen? = Můžu jít"
+            },
+            {
+              "word": "müssen",
+              "meaning": "Musit / být nutné",
+              "example": "Ich muss lernen. = Musím se učit."
+            },
+            {
+              "word": "wissen",
+              "meaning": "Vědět",
+              "example": "Ich weiß das. = To vím."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: dovednost/schopnost → können."
+          },
+          "important": [
+            "Können není totéž co dürfen. können = moci/vědět, dürfen = mít dovoleno.",
+            "Ve větě s können je druhé sloveso často na konci: Ich kann schwimmen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Umím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kannst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Můžete"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "können"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dnes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Umí"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být",
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kann"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Darf",
+                    "Darf"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Potřebovat"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "muss",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vědět"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß",
+                    "Ich"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "können"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "können"
+                ],
+                "red": [
+                  "dürfen"
+                ],
+                "purple": [
+                  "Können",
+                  "Können",
+                  "Können"
+                ]
+              },
+              {
+                "blue": [
+                  "kann"
+                ],
+                "green": [
+                  "schwimmen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "varēt • prast",
+          "explanation": [
+            "Galvenā doma: können nozīmē varēt vai prast kaut ko izdarīt.",
+            "Ja runa ir par spēju vai prasmi, latviski bieži saka prast.",
+            "Ja runa ir par iespēju, bieži saka varēt.",
+            "können ir modālais darbības vārds, tāpēc otrais darbības vārds parasti stāv beigās."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "es protu runāt vāciski."
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "vai tu vari man palīdzēt?"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "mēs šodien varam atnākt."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "viņš labi prot peldēt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "varēt / prast",
+              "example": "Ich kann schwimmen. = Es protu peldēt."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "drīkstēt",
+              "example": "Darf ich gehen? = Vai drīkstu iet?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "vajadzēt / būt jā-",
+              "example": "Ich muss lernen. = Man jāmācās."
+            },
+            {
+              "word": "wissen",
+              "meaning": "zināt",
+              "example": "Ich weiß das. = Es to zinu."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: prasme/iespēja → können."
+          },
+          "important": [
+            "können nav tas pats, kas dürfen. können = varēt/prast, dürfen = drīkstēt.",
+            "Teikumā ar können otrs darbības vārds bieži stāv beigās: Ich kann schwimmen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "varēt",
+                "prast"
+              ],
+              "green": [
+                "spēju",
+                "prasmi",
+                "iespēju"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "protu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kannst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vari"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "können"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "varam"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "prot"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "varēt",
+                    "prast"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kann"
+                  ],
+                  "purple": [
+                    "protu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "drīkstēt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Darf",
+                    "drīkstu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vajadzēt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "muss",
+                    "jāmācās"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zināt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß",
+                    "zinu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "können"
+                ],
+                "purple": [
+                  "prasme",
+                  "iespēja"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "können"
+                ],
+                "red": [
+                  "dürfen"
+                ],
+                "purple": [
+                  "varēt",
+                  "prast",
+                  "drīkstēt"
+                ]
+              },
+              {
+                "blue": [
+                  "kann"
+                ],
+                "green": [
+                  "schwimmen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-laufen",
+      "deLemma": "laufen",
+      "csMain": "Běžet • Fungovat",
+      "study": {
+        "id": "a1-laufen",
+        "layout": "standardStudy",
+        "translation": "Běžet • Fungovat",
+        "explanation": [
+          "Hlavní myšlenka: laufen znamená běhat, ale u zařízení to může znamenat běhat.",
+          "Pro člověka nebo zvíře laufen často znamená běžet nebo chodit rychlým tempem.",
+          "Pro film, stroj nebo program laufen znamená, že běží nebo se děje.",
+          "Pro pohyb nohou na úrovni A1 se nejčastěji srovnávají gehen a laufen."
+        ],
+        "examples": [
+          {
+            "de": "Er läuft sehr schnell.",
+            "lv": "Běží velmi rychle."
+          },
+          {
+            "de": "Die Kinder laufen im Park.",
+            "lv": "Děti běhají v parku."
+          },
+          {
+            "de": "Der Film läuft schon.",
+            "lv": "Film už běží."
+          },
+          {
+            "de": "Die Maschine läuft gut.",
+            "lv": "Stroj funguje dobře."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "laufen",
+            "meaning": "Běžet / fungovat",
+            "example": "Er läuft schnell."
+          },
+          {
+            "word": "gehen",
+            "meaning": "Jít pěšky",
+            "example": "Ich gehe nach Hause."
+          },
+          {
+            "word": "fahren",
+            "meaning": "Jezdit transportem",
+            "example": "Ich fahre mit dem Bus."
+          },
+          {
+            "word": "funktionieren",
+            "meaning": "Fungovat",
+            "example": "Das funktioniert gut."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: nohy rychle → laufen • Doprava → fahren."
+        },
+        "important": [
+          "Laufen není jen „běh“. U filmu nebo zařízení to může znamenat „jít“ nebo „jednat“.",
+          "Ich laufe znamená pohyb pěšky, ne řízení."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "laufen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "film",
+              "Hlavní",
+              "program"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "läuft"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Běží"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "laufen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Děti"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "läuft"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Film"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "läuft"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Stroj"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "laufen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Běžet",
+                  "Fungovat"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "läuft"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "gehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jít"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "gehe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "fahren"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jezdit"
+                ]
+              },
+              "example": {
+                "red": [
+                  "fahre"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "funktionieren"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Fungovat"
+                ]
+              },
+              "example": {
+                "green": [
+                  "funktioniert"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "fahren",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "Laufen",
+                "Laufen",
+                "Laufen"
+              ]
+            },
+            {
+              "blue": [
+                "Ich laufe"
+              ],
+              "purple": [
+                "Ich"
+              ],
+              "red": [
+                "Ich"
+              ]
+            }
+          ]
+        }
+      },
+      "microRepairField": "csMain",
+      "expectedValue": "Běžet • Fungovat",
+      "currentValue": "Běžet • Fungovat",
+      "fullCard": {
+        "cardId": "a1-laufen",
+        "index": 357,
+        "de": "laufen",
+        "layout": "standardStudy",
+        "csMain": "Běžet • Fungovat",
+        "studyTranslation": "Běžet • Fungovat",
+        "lvSourceMain": "skriet • darboties",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "skriet • darboties",
+            "csText": "Běžet • Fungovat",
+            "de": "laufen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "viņš skrien ļoti ātri.",
+            "csText": "Běží velmi rychle.",
+            "de": "laufen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "bērni skrien parkā.",
+            "csText": "Děti běhají v parku.",
+            "de": "laufen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "filma jau iet.",
+            "csText": "Film už běží.",
+            "de": "laufen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "mašīna darbojas labi.",
+            "csText": "Stroj funguje dobře.",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "laufen",
+            "csText": "laufen",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "skriet / darboties",
+            "csText": "Běžet / fungovat",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "gehen",
+            "csText": "gehen",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "iet kājām",
+            "csText": "Jít pěšky",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "fahren",
+            "csText": "fahren",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "braukt ar transportu",
+            "csText": "Jezdit transportem",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "funktionieren",
+            "csText": "funktionieren",
+            "de": "laufen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "darboties",
+            "csText": "Fungovat",
+            "de": "laufen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: kājas ātri → laufen; transports → fahren.",
+            "csText": "Pamatujte: nohy rychle → laufen • Doprava → fahren.",
+            "de": "laufen"
+          }
+        ],
+        "study": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "Běžet • Fungovat",
+          "explanation": [
+            "Hlavní myšlenka: laufen znamená běhat, ale u zařízení to může znamenat běhat.",
+            "Pro člověka nebo zvíře laufen často znamená běžet nebo chodit rychlým tempem.",
+            "Pro film, stroj nebo program laufen znamená, že běží nebo se děje.",
+            "Pro pohyb nohou na úrovni A1 se nejčastěji srovnávají gehen a laufen."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "Běží velmi rychle."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "Děti běhají v parku."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "Film už běží."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "Stroj funguje dobře."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "Běžet / fungovat",
+              "example": "Er läuft schnell."
+            },
+            {
+              "word": "gehen",
+              "meaning": "Jít pěšky",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "fahren",
+              "meaning": "Jezdit transportem",
+              "example": "Ich fahre mit dem Bus."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "Fungovat",
+              "example": "Das funktioniert gut."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: nohy rychle → laufen • Doprava → fahren."
+          },
+          "important": [
+            "Laufen není jen „běh“. U filmu nebo zařízení to může znamenat „jít“ nebo „jednat“.",
+            "Ich laufe znamená pohyb pěšky, ne řízení."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "film",
+                "Hlavní",
+                "program"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Běží"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laufen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Děti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Film"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Stroj"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Běžet",
+                    "Fungovat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "läuft"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jít"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jezdit"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "fahre"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Fungovat"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "funktioniert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "laufen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "fahren",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "laufen"
+                ],
+                "purple": [
+                  "Laufen",
+                  "Laufen",
+                  "Laufen"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich laufe"
+                ],
+                "purple": [
+                  "Ich"
+                ],
+                "red": [
+                  "Ich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "skriet • darboties",
+          "explanation": [
+            "Galvenā doma: laufen nozīmē skriet, bet ar ierīcēm tas var nozīmēt darboties.",
+            "Par cilvēku vai dzīvnieku laufen bieži nozīmē skriet vai iet ātrā solī.",
+            "Par filmu, mašīnu vai programmu laufen nozīmē, ka tā darbojas vai notiek.",
+            "Kustībai kājām A1 līmenī visbiežāk salīdzina gehen un laufen."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "viņš skrien ļoti ātri."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "bērni skrien parkā."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "filma jau iet."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "mašīna darbojas labi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "skriet / darboties",
+              "example": "Er läuft schnell."
+            },
+            {
+              "word": "gehen",
+              "meaning": "iet kājām",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "fahren",
+              "meaning": "braukt ar transportu",
+              "example": "Ich fahre mit dem Bus."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "darboties",
+              "example": "Das funktioniert gut."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: kājas ātri → laufen; transports → fahren."
+          },
+          "important": [
+            "laufen nav tikai “skriet”. Par filmu vai ierīci tas var nozīmēt “iet” vai “darboties”.",
+            "Ich laufe nozīmē kustību kājām, nevis braukšanu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "skriet",
+                "darboties",
+                "iet"
+              ],
+              "green": [
+                "cilvēku",
+                "dzīvnieku",
+                "filmu",
+                "mašīnu",
+                "programmu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skrien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laufen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skrien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "iet"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "darbojas"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "skriet",
+                    "darboties"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "läuft"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iet"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "braukt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "fahre"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "darboties"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "funktioniert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "laufen"
+                ],
+                "purple": [
+                  "kājas ātri"
+                ],
+                "red": [
+                  "fahren",
+                  "transports"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "laufen"
+                ],
+                "purple": [
+                  "skriet",
+                  "iet",
+                  "darboties"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich laufe"
+                ],
+                "purple": [
+                  "kustību kājām"
+                ],
+                "red": [
+                  "braukšanu"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-können",
+      "auditType": "high_final_closure",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "pass": true,
+      "reason": "Repair is exact; explanation, csMain, and translation consistently state Umět • Moci. An unrelated old contradiction remains in important text.",
+      "findings": [
+        {
+          "field": "study.important[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "reason": "Text says können = moci/vědět, while vědět belongs to wissen; this is unrelated to the repaired explanation[0].",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-laufen",
+      "auditType": "high_final_closure",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "pass": true,
+      "reason": "csMain and study.translation both read Běžet • Fungovat; the prior mismatch is resolved and sectionAccents reflect both meanings.",
+      "findings": []
+    }
+  ]
+}

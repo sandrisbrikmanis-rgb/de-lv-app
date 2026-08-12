@@ -1,0 +1,192 @@
+{
+  "batch": 3,
+  "items": [
+    {
+      "findingId": "CRIT-13",
+      "cardId": "a1-über",
+      "index": 608,
+      "field": "entry[608].study.sectionAccents.tip.left.purple[0]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[608].study.sectionAccents.tip.left.purple[0]",
+        "currentCs": "tēma",
+        "proposedCs": "(Czech text required)",
+        "de": "über",
+        "lvSource": "virs • par"
+      },
+      "productionNow": {
+        "currentCs": "tēma",
+        "de": "über",
+        "lvSource": "tēma"
+      }
+    },
+    {
+      "findingId": "CRIT-14",
+      "cardId": "a1-essen",
+      "index": 690,
+      "field": "entry[690].study.sectionAccents.explanation.purple[0]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[690].study.sectionAccents.explanation.purple[0]",
+        "currentCs": "ēst",
+        "proposedCs": "(Czech text required)",
+        "de": "essen",
+        "lvSource": "ēst"
+      },
+      "productionNow": {
+        "currentCs": "ēst",
+        "de": "essen",
+        "lvSource": "ēst"
+      }
+    },
+    {
+      "findingId": "CRIT-15",
+      "cardId": "a1-Baum-74",
+      "index": 74,
+      "field": "csText",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Význam je správný, ale český text je shodný s návrhem; původní text však obsahuje německý význam strom. ",
+        "currentCs": "Strom",
+        "proposedCs": "Strom",
+        "de": "Baum",
+        "lvSource": "koks"
+      },
+      "productionNow": {
+        "currentCs": "Strom",
+        "de": "Baum",
+        "lvSource": "koks"
+      }
+    },
+    {
+      "findingId": "CRIT-16",
+      "cardId": "a1-bedeuten-75",
+      "index": 75,
+      "field": "csText",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Střední znamená německy mittel; bedeuten znamená znamenat.",
+        "currentCs": "Střední",
+        "proposedCs": "Znamenat",
+        "de": "bedeuten",
+        "lvSource": "nozīmēt"
+      },
+      "productionNow": {
+        "currentCs": "Střední",
+        "de": "bedeuten",
+        "lvSource": "nozīmēt"
+      }
+    },
+    {
+      "findingId": "CRIT-17",
+      "cardId": "a1-Buch-116",
+      "index": 116,
+      "field": "csText",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Rezervovat znamená buchen; Buch znamená kniha.",
+        "currentCs": "Rezervovat",
+        "proposedCs": "Kniha",
+        "de": "Buch",
+        "lvSource": "grāmata"
+      },
+      "productionNow": {
+        "currentCs": "Rezervovat",
+        "de": "Buch",
+        "lvSource": "grāmata"
+      }
+    },
+    {
+      "findingId": "CRIT-18",
+      "cardId": "a1-Erde-164",
+      "index": 164,
+      "field": "csText",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "„Přistát“ je sloveso; německé „Erde“ znamená „země“ nebo „Země“.",
+        "currentCs": "Přistát",
+        "proposedCs": "Země",
+        "de": "Erde",
+        "lvSource": "zeme"
+      },
+      "productionNow": {
+        "currentCs": "Přistát",
+        "de": "Erde",
+        "lvSource": "zeme"
+      }
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "CRIT-13",
+      "cardId": "a1-über",
+      "field": "entry[608].study.sectionAccents.tip.left.purple[0]",
+      "validationStatus": "NEEDS_OWNER_REVIEW",
+      "severity": "CRITICAL",
+      "confidence": 0.88,
+      "reason": "„tēma“ is Latvian, not Czech, and does not translate German „über“. Exact Czech wording depends on the intended sense and context.",
+      "currentCs": "tēma",
+      "de": "über"
+    },
+    {
+      "findingId": "CRIT-14",
+      "cardId": "a1-essen",
+      "field": "entry[690].study.sectionAccents.explanation.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "„ēst“ is Latvian. German „essen“ means Czech „jíst“.",
+      "currentCs": "ēst",
+      "proposedCs": "jíst",
+      "de": "essen"
+    },
+    {
+      "findingId": "CRIT-15",
+      "cardId": "a1-Baum-74",
+      "field": "csText",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "Czech „Strom“ correctly means German „Baum“; the matching proposed text is not an error.",
+      "currentCs": "Strom",
+      "de": "Baum"
+    },
+    {
+      "findingId": "CRIT-16",
+      "cardId": "a1-bedeuten-75",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "„Střední“ means mittel, not German „bedeuten“. The correct Czech translation is „Znamenat“.",
+      "currentCs": "Střední",
+      "proposedCs": "Znamenat",
+      "de": "bedeuten"
+    },
+    {
+      "findingId": "CRIT-17",
+      "cardId": "a1-Buch-116",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "„Rezervovat“ means buchen, not German „Buch“. The correct Czech translation is „Kniha“.",
+      "currentCs": "Rezervovat",
+      "proposedCs": "Kniha",
+      "de": "Buch"
+    },
+    {
+      "findingId": "CRIT-18",
+      "cardId": "a1-Erde-164",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reason": "„Přistát“ means landen, not German „Erde“. The correct Czech translation is „Země“.",
+      "currentCs": "Přistát",
+      "proposedCs": "Země",
+      "de": "Erde"
+    }
+  ],
+  "completedAt": "2026-08-11T16:07:04.194Z"
+}

@@ -1,0 +1,2608 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-blond-103",
+      "index": 103,
+      "deLemma": "blond",
+      "csText": "Blond",
+      "csMain": "Blond",
+      "study": null,
+      "repairedFields": [
+        {
+          "n": 1,
+          "field": "csText",
+          "status": "RETAINED",
+          "pirmd": "Blondý",
+          "pec": "Blond",
+          "current": "Blond"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-blond-103",
+        "index": 103,
+        "de": "blond",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "blonds",
+        "csText": "Blond",
+        "level": "A1",
+        "hasStudy": false
+      }
+    },
+    {
+      "cardId": "a1-ins",
+      "index": 296,
+      "deLemma": "ins",
+      "csText": "V • Do • Kam?",
+      "csMain": "V • Do • Kam?",
+      "study": {
+        "id": "a1-ins",
+        "layout": "standardStudy",
+        "translation": "V • Do • Kam?",
+        "explanation": [
+          "Ins je zkratka předložky in a členu das.",
+          "Plná forma: in das (kam?).",
+          "Používá se s podstatnými jmény jakéhokoli pohlaví při odpovědi na otázku kde? - pohyb dovnitř.",
+          "Často se slovesy: gehen, fahren, kommen, legen, stecken.",
+          "V praxi se téměř vždy používá místo plné formy in das."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe ins Kino.",
+            "lv": "Jdu do kina"
+          },
+          {
+            "de": "Sie geht ins Bett.",
+            "lv": "Jde spát."
+          },
+          {
+            "de": "Wir fahren ins Ausland.",
+            "lv": "Jedeme do zahraničí."
+          },
+          {
+            "de": "Komm ins Haus!",
+            "lv": "Pojď do domu!"
+          },
+          {
+            "de": "Er steckt das Geld in den Geldbeutel.",
+            "lv": "Vkládá peníze do peněženky."
+          },
+          {
+            "de": "Wir gehen ins Museum.",
+            "lv": "Jdeme do muzea."
+          },
+          {
+            "de": "Sie legt die Blumen ins Wasser.",
+            "lv": "Dává květiny do vody."
+          },
+          {
+            "de": "Fahr bitte ins Zentrum.",
+            "lv": "Prosím, jeď do centra."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ins",
+            "meaning": "Dovnitř, kam? (4. pád)",
+            "example": "ins Kino – Do kina"
+          },
+          {
+            "word": "im",
+            "meaning": "Uvnitř kde? (komu?)",
+            "example": "im Kino – Kino"
+          },
+          {
+            "word": "in",
+            "meaning": "V / do (s nezávislým článkem)",
+            "example": "in die Stadt – Do města"
+          },
+          {
+            "word": "aufs",
+            "meaning": "Na povrch (Akk.)",
+            "example": "aufs Dach – Na střeše"
+          },
+          {
+            "word": "zum",
+            "meaning": "K / ke (komu/čemu?, 3. pád)",
+            "example": "zum Arzt – K lékaři"
+          }
+        ],
+        "tip": [
+          "Pamatujte: in + das → ins (kde?, kde?).",
+          "Kam? → ins • Kde? → im — to je hlavní rozdíl!"
+        ],
+        "important": [
+          "Ins = in das, pouze s podstatným jménem libovolného rodu kde? ve skloňování.",
+          "Odpovědi kam?, ne kde? — pohyb, nikoli umístění.",
+          "Pro mužský rod: in den Wald • Žen: v die Schule.",
+          "Nepleťte si: ins Kino gehen (do kina) vs. im Kino sein (být v kině)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "ins",
+              "Ins"
+            ],
+            "purple": [
+              "Ins",
+              "Ins",
+              "Ins"
+            ],
+            "green": [
+              "Ins",
+              "Ins"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jde"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jedeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Pojď"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "in den"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vkládá",
+                  "Vkládá",
+                  "Vkládá"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dává"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "ins"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Dovnitř",
+                  "Dovnitř"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "ins Kino"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "im"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Uvnitř",
+                  "Uvnitř"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "im Kino"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "in"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "nezávislým",
+                  "nezávislým",
+                  "nezávislým"
+                ]
+              },
+              "example": {
+                "green": [
+                  "in die Stadt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "aufs"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "povrch"
+                ]
+              },
+              "example": {
+                "green": [
+                  "aufs Dach"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zum"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Komu",
+                  "Komu"
+                ]
+              },
+              "example": {
+                "red": [
+                  "zum Arzt"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "ins"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            },
+            {
+              "red": [
+                "im",
+                "Pamatujte"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "ins"
+              ],
+              "purple": [
+                "in das"
+              ],
+              "green": [
+                "Ins"
+              ]
+            },
+            {
+              "purple": [
+                "Odpovědi"
+              ],
+              "green": [
+                "Odpovědi"
+              ]
+            },
+            {
+              "yellow": [
+                "in den Wald"
+              ],
+              "green": [
+                "Pro"
+              ]
+            },
+            {
+              "blue": [
+                "ins Kino gehen"
+              ],
+              "red": [
+                "im Kino sein"
+              ]
+            }
+          ]
+        }
+      },
+      "repairedFields": [
+        {
+          "n": 2,
+          "field": "study.comparison[4].meaning",
+          "status": "RETAINED",
+          "pirmd": "K / ke, kam? (3. pád)",
+          "pec": "K / ke (komu/čemu?, 3. pád)",
+          "current": "K / ke (komu/čemu?, 3. pád)"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-ins",
+        "index": 296,
+        "de": "ins",
+        "layout": "standardStudy",
+        "csMain": "V • Do • Kam?",
+        "studyTranslation": "V • Do • Kam?",
+        "lvSourceMain": "iekšā • uz iekšu • kurp?",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "iekšā • uz iekšu • kurp?",
+            "csText": "V • Do • Kam?",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es eju uz kino.",
+            "csText": "Jdu do kina",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "viņa iet gulēt.",
+            "csText": "Jde spát.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs braucam uz ārzemēm.",
+            "csText": "Jedeme do zahraničí.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "nāc mājā!",
+            "csText": "Pojď do domu!",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "viņš ieliek naudu makā.",
+            "csText": "Vkládá peníze do peněženky.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "mēs ejam uz muzeju.",
+            "csText": "Jdeme do muzea.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[6].lv",
+            "lvSource": "viņa liek ziedus ūdenī.",
+            "csText": "Dává květiny do vody.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[7].lv",
+            "lvSource": "lūdzu, brauc uz centru.",
+            "csText": "Prosím, jeď do centra.",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "ins",
+            "csText": "ins",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "uz iekšu, kurp? (Akk.)",
+            "csText": "Dovnitř, kam? (4. pád)",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "im",
+            "csText": "im",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "iekšā, kur? (kam?)",
+            "csText": "Uvnitř kde? (komu?)",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "in",
+            "csText": "in",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "iekšā / uz (ar patstāvīgu artikulu)",
+            "csText": "V / do (s nezávislým článkem)",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "aufs",
+            "csText": "aufs",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "uz virsmu (Akk.)",
+            "csText": "Na povrch (Akk.)",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[4].word",
+            "lvSource": "zum",
+            "csText": "zum",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[4].meaning",
+            "lvSource": "uz / pie (kam?)",
+            "csText": "K / ke (komu/čemu?, 3. pád)",
+            "de": "ins"
+          }
+        ],
+        "study": {
+          "id": "a1-ins",
+          "layout": "standardStudy",
+          "translation": "V • Do • Kam?",
+          "explanation": [
+            "Ins je zkratka předložky in a členu das.",
+            "Plná forma: in das (kam?).",
+            "Používá se s podstatnými jmény jakéhokoli pohlaví při odpovědi na otázku kde? - pohyb dovnitř.",
+            "Často se slovesy: gehen, fahren, kommen, legen, stecken.",
+            "V praxi se téměř vždy používá místo plné formy in das."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe ins Kino.",
+              "lv": "Jdu do kina"
+            },
+            {
+              "de": "Sie geht ins Bett.",
+              "lv": "Jde spát."
+            },
+            {
+              "de": "Wir fahren ins Ausland.",
+              "lv": "Jedeme do zahraničí."
+            },
+            {
+              "de": "Komm ins Haus!",
+              "lv": "Pojď do domu!"
+            },
+            {
+              "de": "Er steckt das Geld in den Geldbeutel.",
+              "lv": "Vkládá peníze do peněženky."
+            },
+            {
+              "de": "Wir gehen ins Museum.",
+              "lv": "Jdeme do muzea."
+            },
+            {
+              "de": "Sie legt die Blumen ins Wasser.",
+              "lv": "Dává květiny do vody."
+            },
+            {
+              "de": "Fahr bitte ins Zentrum.",
+              "lv": "Prosím, jeď do centra."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ins",
+              "meaning": "Dovnitř, kam? (4. pád)",
+              "example": "ins Kino – Do kina"
+            },
+            {
+              "word": "im",
+              "meaning": "Uvnitř kde? (komu?)",
+              "example": "im Kino – Kino"
+            },
+            {
+              "word": "in",
+              "meaning": "V / do (s nezávislým článkem)",
+              "example": "in die Stadt – Do města"
+            },
+            {
+              "word": "aufs",
+              "meaning": "Na povrch (Akk.)",
+              "example": "aufs Dach – Na střeše"
+            },
+            {
+              "word": "zum",
+              "meaning": "K / ke (komu/čemu?, 3. pád)",
+              "example": "zum Arzt – K lékaři"
+            }
+          ],
+          "tip": [
+            "Pamatujte: in + das → ins (kde?, kde?).",
+            "Kam? → ins • Kde? → im — to je hlavní rozdíl!"
+          ],
+          "important": [
+            "Ins = in das, pouze s podstatným jménem libovolného rodu kde? ve skloňování.",
+            "Odpovědi kam?, ne kde? — pohyb, nikoli umístění.",
+            "Pro mužský rod: in den Wald • Žen: v die Schule.",
+            "Nepleťte si: ins Kino gehen (do kina) vs. im Kino sein (být v kině)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ins",
+                "Ins"
+              ],
+              "purple": [
+                "Ins",
+                "Ins",
+                "Ins"
+              ],
+              "green": [
+                "Ins",
+                "Ins"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jde"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jedeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pojď"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in den"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vkládá",
+                    "Vkládá",
+                    "Vkládá"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dává"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dovnitř",
+                    "Dovnitř"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ins Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "im"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Uvnitř",
+                    "Uvnitř"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "im Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "nezávislým",
+                    "nezávislým",
+                    "nezávislým"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Stadt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "povrch"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "aufs Dach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Komu",
+                    "Komu"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "ins"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              },
+              {
+                "red": [
+                  "im",
+                  "Pamatujte"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "ins"
+                ],
+                "purple": [
+                  "in das"
+                ],
+                "green": [
+                  "Ins"
+                ]
+              },
+              {
+                "purple": [
+                  "Odpovědi"
+                ],
+                "green": [
+                  "Odpovědi"
+                ]
+              },
+              {
+                "yellow": [
+                  "in den Wald"
+                ],
+                "green": [
+                  "Pro"
+                ]
+              },
+              {
+                "blue": [
+                  "ins Kino gehen"
+                ],
+                "red": [
+                  "im Kino sein"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-ins",
+          "layout": "standardStudy",
+          "translation": "iekšā • uz iekšu • kurp?",
+          "explanation": [
+            "ins ir prievārda in un artikula das saīsinājums.",
+            "Pilnā forma: in das (kurp?).",
+            "Lieto ar nekatras dzimtes lietvārdiem, kad atbild uz jautājumu kurp? — kustība uz iekšu.",
+            "Bieži ar darbības vārdiem: gehen, fahren, kommen, legen, stecken.",
+            "Praksē gandrīz vienmēr lieto ins, nevis pilno in das."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe ins Kino.",
+              "lv": "es eju uz kino."
+            },
+            {
+              "de": "Sie geht ins Bett.",
+              "lv": "viņa iet gulēt."
+            },
+            {
+              "de": "Wir fahren ins Ausland.",
+              "lv": "mēs braucam uz ārzemēm."
+            },
+            {
+              "de": "Komm ins Haus!",
+              "lv": "nāc mājā!"
+            },
+            {
+              "de": "Er steckt das Geld in den Geldbeutel.",
+              "lv": "viņš ieliek naudu makā."
+            },
+            {
+              "de": "Wir gehen ins Museum.",
+              "lv": "mēs ejam uz muzeju."
+            },
+            {
+              "de": "Sie legt die Blumen ins Wasser.",
+              "lv": "viņa liek ziedus ūdenī."
+            },
+            {
+              "de": "Fahr bitte ins Zentrum.",
+              "lv": "lūdzu, brauc uz centru."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ins",
+              "meaning": "uz iekšu, kurp? (Akk.)",
+              "example": "ins Kino – uz kino"
+            },
+            {
+              "word": "im",
+              "meaning": "iekšā, kur? (kam?)",
+              "example": "im Kino – kino"
+            },
+            {
+              "word": "in",
+              "meaning": "iekšā / uz (ar patstāvīgu artikulu)",
+              "example": "in die Stadt – uz pilsētu"
+            },
+            {
+              "word": "aufs",
+              "meaning": "uz virsmu (Akk.)",
+              "example": "aufs Dach – uz jumta"
+            },
+            {
+              "word": "zum",
+              "meaning": "uz / pie (kam?)",
+              "example": "zum Arzt – pie ārsta"
+            }
+          ],
+          "tip": [
+            "Atceries: in + das → ins (kurp?, kurp?).",
+            "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
+          ],
+          "important": [
+            "ins = in das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
+            "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
+            "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
+            "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ins",
+                "in das"
+              ],
+              "purple": [
+                "iekšu",
+                "uz iekšu",
+                "kurp?"
+              ],
+              "green": [
+                "kurp?",
+                "kustība"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz kino"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gulēt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz ārzemēm"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mājā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in den"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ieliek",
+                    "naudu",
+                    "makā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz muzeju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ūdenī"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz centru"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz iekšu",
+                    "kurp?"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ins Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "im"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iekšā",
+                    "kur?"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "im Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iekšā",
+                    "uz",
+                    "patstāvīgu artikulu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Stadt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz virsmu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "aufs Dach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "ins"
+                ],
+                "purple": [
+                  "kurp?"
+                ]
+              },
+              {
+                "red": [
+                  "im",
+                  "kur?"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "ins"
+                ],
+                "purple": [
+                  "in das"
+                ],
+                "green": [
+                  "kurp?"
+                ]
+              },
+              {
+                "purple": [
+                  "kurp?"
+                ],
+                "green": [
+                  "kustība"
+                ]
+              },
+              {
+                "yellow": [
+                  "in den Wald"
+                ],
+                "green": [
+                  "in die Schule"
+                ]
+              },
+              {
+                "blue": [
+                  "ins Kino gehen"
+                ],
+                "red": [
+                  "im Kino sein"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-kennen-study",
+      "index": 310,
+      "deLemma": "kennen",
+      "csText": "Znát",
+      "csMain": "Znát",
+      "study": {
+        "id": "a1-kennen-study",
+        "layout": "standardStudy",
+        "translation": "Znát",
+        "explanation": [
+          "Hlavní myšlenka: Poznat osobu, místo nebo věc ze zkušenosti.",
+          "Kennen znamená především: osobní známost.",
+          "Často popisuje: lidi, místa.",
+          "Kennen se používá, když znáte osobu, místo nebo věc z osobní zkušenosti."
+        ],
+        "examples": [
+          {
+            "de": "Ich kenne ihn.",
+            "lv": "Znám ho."
+          },
+          {
+            "de": "Kennen Sie diese Frau?",
+            "lv": "Znáte tuto ženu?"
+          },
+          {
+            "de": "Wo habt ihr euch kennengelernt?",
+            "lv": "Kde jste se potkali?"
+          },
+          {
+            "de": "Ich kenne ihn.",
+            "lv": "Znám ho"
+          },
+          {
+            "de": "kennen",
+            "lv": "Znát"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "kennen",
+            "meaning": "Vědět (osoba, místo, věc)",
+            "example": "Ich kenne ihn. – Znám ho."
+          },
+          {
+            "word": "wissen",
+            "meaning": "Vědět (fakt, informace)",
+            "example": "Ich weiß seinen Namen. – Znám jeho jméno."
+          }
+        ],
+        "tip": [
+          "Kennen = vědět",
+          "Použijte kennen, pokud kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Kennen = poznat osobu/místo.",
+          "Kennen = vědět.",
+          "Znát osobu, místo nebo věc ze zkušenosti."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "kennen",
+              "kennen"
+            ],
+            "purple": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "kenne"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Znám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kennen",
+                  "kennen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "kennen",
+                  "kennen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "kenne"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Znám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kennen",
+                  "kennen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Poznat"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Kennen"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "kennen"
+              ]
+            }
+          ]
+        }
+      },
+      "repairedFields": [
+        {
+          "n": 3,
+          "field": "csMain",
+          "status": "RETAINED",
+          "pirmd": "Vědět",
+          "pec": "Znát",
+          "current": "Znát"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-kennen-study",
+        "index": 310,
+        "de": "kennen",
+        "layout": "standardStudy",
+        "csMain": "Znát",
+        "studyTranslation": "Znát",
+        "lvSourceMain": "pazīt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "pazīt",
+            "csText": "Znát",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Es viņu pazīstu.",
+            "csText": "Znám ho.",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "vai jūs pazīstat šo sievieti?",
+            "csText": "Znáte tuto ženu?",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "kur jūs iepazināties?",
+            "csText": "Kde jste se potkali?",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es viņu pazīstu.",
+            "csText": "Znám ho",
+            "de": "kennen"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "pazīt; wissen",
+            "csText": "Znát",
+            "de": "kennen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "kennen",
+            "csText": "kennen",
+            "de": "kennen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "pazīt (cilvēku, vietu, lietu)",
+            "csText": "Vědět (osoba, místo, věc)",
+            "de": "kennen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "wissen",
+            "csText": "wissen",
+            "de": "kennen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "zināt (faktu, informāciju)",
+            "csText": "Vědět (fakt, informace)",
+            "de": "kennen"
+          }
+        ],
+        "study": {
+          "id": "a1-kennen-study",
+          "layout": "standardStudy",
+          "translation": "Znát",
+          "explanation": [
+            "Hlavní myšlenka: Poznat osobu, místo nebo věc ze zkušenosti.",
+            "Kennen znamená především: osobní známost.",
+            "Často popisuje: lidi, místa.",
+            "Kennen se používá, když znáte osobu, místo nebo věc z osobní zkušenosti."
+          ],
+          "examples": [
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Znám ho."
+            },
+            {
+              "de": "Kennen Sie diese Frau?",
+              "lv": "Znáte tuto ženu?"
+            },
+            {
+              "de": "Wo habt ihr euch kennengelernt?",
+              "lv": "Kde jste se potkali?"
+            },
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Znám ho"
+            },
+            {
+              "de": "kennen",
+              "lv": "Znát"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kennen",
+              "meaning": "Vědět (osoba, místo, věc)",
+              "example": "Ich kenne ihn. – Znám ho."
+            },
+            {
+              "word": "wissen",
+              "meaning": "Vědět (fakt, informace)",
+              "example": "Ich weiß seinen Namen. – Znám jeho jméno."
+            }
+          ],
+          "tip": [
+            "Kennen = vědět",
+            "Použijte kennen, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Kennen = poznat osobu/místo.",
+            "Kennen = vědět.",
+            "Znát osobu, místo nebo věc ze zkušenosti."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Znám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Znám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Poznat"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Kennen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "kennen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-kennen-study",
+          "layout": "standardStudy",
+          "translation": "pazīt",
+          "explanation": [
+            "Galvenā doma: Pazīt cilvēku, vietu vai lietu no pieredzes.",
+            "kennen galvenokārt nozīmē: personīga pazīšana.",
+            "Bieži raksturo: cilvēkus, vietas.",
+            "kennen lieto, ja pazīsti cilvēku, vietu vai lietu no personīgās pieredzes."
+          ],
+          "examples": [
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Es viņu pazīstu."
+            },
+            {
+              "de": "Kennen Sie diese Frau?",
+              "lv": "vai jūs pazīstat šo sievieti?"
+            },
+            {
+              "de": "Wo habt ihr euch kennengelernt?",
+              "lv": "kur jūs iepazināties?"
+            },
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "es viņu pazīstu."
+            },
+            {
+              "de": "kennen",
+              "lv": "pazīt; wissen"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kennen",
+              "meaning": "pazīt (cilvēku, vietu, lietu)",
+              "example": "Ich kenne ihn. – Es viņu pazīstu."
+            },
+            {
+              "word": "wissen",
+              "meaning": "zināt (faktu, informāciju)",
+              "example": "Ich weiß seinen Namen. – Es zinu viņa vārdu."
+            }
+          ],
+          "tip": [
+            "kennen = pazīt",
+            "Izmanto kennen, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "kennen = pazīt cilvēku/vietu.",
+            "kennen = pazīt.",
+            "Pazīt cilvēku, vietu vai lietu no pieredzes."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kennen",
+                "kennen"
+              ],
+              "purple": [
+                "pazīt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pazīstu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pazīstu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen",
+                    "kennen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pazīt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "pazīt"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "kennen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "cardId": "a1-können",
+      "index": 319,
+      "deLemma": "können",
+      "csText": "Umět • Moci",
+      "csMain": "Umět • Moci",
+      "study": {
+        "id": "a1-können",
+        "layout": "standardStudy",
+        "translation": "Umět • Moci",
+        "explanation": [
+          "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat.",
+          "Pokud jde o schopnosti nebo dovednosti, v češtině se často používá umět.",
+          "Pokud jde o možnost, často se říká, že je to možné.",
+          "Können je modální sloveso, takže druhé sloveso je obvykle na konci."
+        ],
+        "examples": [
+          {
+            "de": "Ich kann Deutsch sprechen.",
+            "lv": "Umím německy"
+          },
+          {
+            "de": "Kannst du mir helfen?",
+            "lv": "Můžete mi pomoci?"
+          },
+          {
+            "de": "Wir können heute kommen.",
+            "lv": "Dnes můžeme přijít."
+          },
+          {
+            "de": "Er kann gut schwimmen.",
+            "lv": "Umí dobře plavat."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "können",
+            "meaning": "Umět / moci",
+            "example": "Ich kann schwimmen. = Umím plavat."
+          },
+          {
+            "word": "dürfen",
+            "meaning": "Být dovoleno",
+            "example": "Darf ich gehen? = Můžu jít"
+          },
+          {
+            "word": "müssen",
+            "meaning": "Musit / být nutné",
+            "example": "Ich muss lernen. = Musím se učit."
+          },
+          {
+            "word": "wissen",
+            "meaning": "Vědět",
+            "example": "Ich weiß das. = To vím."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: dovednost/schopnost → können."
+        },
+        "important": [
+          "Können není totéž co dürfen. können = moci/vědět, dürfen = mít dovoleno.",
+          "Ve větě s können je druhé sloveso často na konci: Ich kann schwimmen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "können"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "kann"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Umím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Kannst"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Můžete"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "können"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dnes"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "kann"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Umí"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "können"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být",
+                  "Být"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "kann"
+                ],
+                "purple": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "dürfen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Darf",
+                  "Darf"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "müssen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Potřebovat"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "muss",
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wissen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vědět"
+                ]
+              },
+              "example": {
+                "green": [
+                  "weiß",
+                  "Ich"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "können"
+              ],
+              "red": [
+                "dürfen"
+              ],
+              "purple": [
+                "Können",
+                "Können",
+                "Können"
+              ]
+            },
+            {
+              "blue": [
+                "kann"
+              ],
+              "green": [
+                "schwimmen"
+              ]
+            }
+          ]
+        }
+      },
+      "repairedFields": [
+        {
+          "n": 4,
+          "field": "csMain",
+          "status": "RETAINED",
+          "pirmd": "Umět • Vědět",
+          "pec": "Umět • Moci",
+          "current": "Umět • Moci"
+        },
+        {
+          "n": 5,
+          "field": "study.explanation[0]",
+          "status": "CURRENT_VALUE_MISMATCH",
+          "pirmd": "können znamená umět nebo vědět, jak něco udělat",
+          "pec": "können znamená umět nebo moci něco udělat",
+          "current": "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-können",
+        "index": 319,
+        "de": "können",
+        "layout": "standardStudy",
+        "csMain": "Umět • Moci",
+        "studyTranslation": "Umět • Moci",
+        "lvSourceMain": "varēt • prast",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "varēt • prast",
+            "csText": "Umět • Moci",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es protu runāt vāciski.",
+            "csText": "Umím německy",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "vai tu vari man palīdzēt?",
+            "csText": "Můžete mi pomoci?",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs šodien varam atnākt.",
+            "csText": "Dnes můžeme přijít.",
+            "de": "können"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "viņš labi prot peldēt.",
+            "csText": "Umí dobře plavat.",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "können",
+            "csText": "können",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "varēt / prast",
+            "csText": "Umět / moci",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "dürfen",
+            "csText": "dürfen",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "drīkstēt",
+            "csText": "Být dovoleno",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "müssen",
+            "csText": "müssen",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "vajadzēt / būt jā-",
+            "csText": "Musit / být nutné",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "wissen",
+            "csText": "wissen",
+            "de": "können"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "zināt",
+            "csText": "Vědět",
+            "de": "können"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: prasme/iespēja → können.",
+            "csText": "Pamatujte: dovednost/schopnost → können.",
+            "de": "können"
+          }
+        ],
+        "study": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "Umět • Moci",
+          "explanation": [
+            "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat.",
+            "Pokud jde o schopnosti nebo dovednosti, v češtině se často používá umět.",
+            "Pokud jde o možnost, často se říká, že je to možné.",
+            "Können je modální sloveso, takže druhé sloveso je obvykle na konci."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Umím německy"
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "Můžete mi pomoci?"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "Dnes můžeme přijít."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "Umí dobře plavat."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "Umět / moci",
+              "example": "Ich kann schwimmen. = Umím plavat."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "Být dovoleno",
+              "example": "Darf ich gehen? = Můžu jít"
+            },
+            {
+              "word": "müssen",
+              "meaning": "Musit / být nutné",
+              "example": "Ich muss lernen. = Musím se učit."
+            },
+            {
+              "word": "wissen",
+              "meaning": "Vědět",
+              "example": "Ich weiß das. = To vím."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: dovednost/schopnost → können."
+          },
+          "important": [
+            "Können není totéž co dürfen. können = moci/vědět, dürfen = mít dovoleno.",
+            "Ve větě s können je druhé sloveso často na konci: Ich kann schwimmen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Umím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kannst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Můžete"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "können"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dnes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Umí"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být",
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kann"
+                  ],
+                  "purple": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Darf",
+                    "Darf"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Potřebovat"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "muss",
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vědět"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß",
+                    "Ich"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "können"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "können"
+                ],
+                "red": [
+                  "dürfen"
+                ],
+                "purple": [
+                  "Können",
+                  "Können",
+                  "Können"
+                ]
+              },
+              {
+                "blue": [
+                  "kann"
+                ],
+                "green": [
+                  "schwimmen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "varēt • prast",
+          "explanation": [
+            "Galvenā doma: können nozīmē varēt vai prast kaut ko izdarīt.",
+            "Ja runa ir par spēju vai prasmi, latviski bieži saka prast.",
+            "Ja runa ir par iespēju, bieži saka varēt.",
+            "können ir modālais darbības vārds, tāpēc otrais darbības vārds parasti stāv beigās."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "es protu runāt vāciski."
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "vai tu vari man palīdzēt?"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "mēs šodien varam atnākt."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "viņš labi prot peldēt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "varēt / prast",
+              "example": "Ich kann schwimmen. = Es protu peldēt."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "drīkstēt",
+              "example": "Darf ich gehen? = Vai drīkstu iet?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "vajadzēt / būt jā-",
+              "example": "Ich muss lernen. = Man jāmācās."
+            },
+            {
+              "word": "wissen",
+              "meaning": "zināt",
+              "example": "Ich weiß das. = Es to zinu."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: prasme/iespēja → können."
+          },
+          "important": [
+            "können nav tas pats, kas dürfen. können = varēt/prast, dürfen = drīkstēt.",
+            "Teikumā ar können otrs darbības vārds bieži stāv beigās: Ich kann schwimmen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "varēt",
+                "prast"
+              ],
+              "green": [
+                "spēju",
+                "prasmi",
+                "iespēju"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "protu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kannst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vari"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "können"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "varam"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "prot"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "varēt",
+                    "prast"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kann"
+                  ],
+                  "purple": [
+                    "protu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "drīkstēt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Darf",
+                    "drīkstu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vajadzēt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "muss",
+                    "jāmācās"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zināt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß",
+                    "zinu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "können"
+                ],
+                "purple": [
+                  "prasme",
+                  "iespēja"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "können"
+                ],
+                "red": [
+                  "dürfen"
+                ],
+                "purple": [
+                  "varēt",
+                  "prast",
+                  "drīkstēt"
+                ]
+              },
+              {
+                "blue": [
+                  "kann"
+                ],
+                "green": [
+                  "schwimmen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-blond-103",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "csText matches the PEC value, and the full card has no study content or identified regression.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-ins",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "study.comparison[4].meaning matches the PEC value and correctly describes zum as a dative-direction preposition.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-kennen-study",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "csMain and study.translation consistently use Znát; older study text still incorrectly equates kennen with Vědět.",
+      "findings": [
+        {
+          "field": "study.comparison[0].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Vědět (osoba, místo, věc)",
+          "proposedCs": "Znát (osoba, místo, věc)",
+          "reason": "kennen refers to knowing or being familiar with a person, place, or thing, so Vědět conflicts with the repaired Znát meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.tip[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Kennen = vědět",
+          "proposedCs": "Kennen = znát",
+          "reason": "The tip contradicts the consistent Czech translation Znát and the card explanation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.important[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Kennen = vědět.",
+          "proposedCs": "Kennen = znát.",
+          "reason": "This repeated summary retains the same incorrect Czech gloss for kennen.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-können",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "csMain and study.translation match, but the repaired explanation field still contains the old wording instead of the PEC wording.",
+      "findings": [
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "MEDIUM",
+          "currentCs": "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat.",
+          "proposedCs": "Hlavní myšlenka: können znamená umět nebo moci něco udělat",
+          "reason": "The retained value is explicitly marked CURRENT_VALUE_MISMATCH and still says vědět instead of the gala-repair wording moci.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T15:02:36.342Z"
+}

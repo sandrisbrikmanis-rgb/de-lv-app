@@ -1,0 +1,2763 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-sagen-study",
+      "index": 505,
+      "de": "sagen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Říct",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 165,
+          "field": "study.important[0]",
+          "pirmd": "Sagen = vyprávět.",
+          "pec": "Sagen = říct."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-sagen-study",
+        "index": 505,
+        "de": "sagen",
+        "layout": "standardStudy",
+        "csMain": "Říct",
+        "studyTranslation": "Říct",
+        "lvSourceMain": "teikt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "teikt",
+            "csText": "Říct",
+            "de": "sagen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "ko tu pateici?",
+            "csText": "Co jsi říkal",
+            "de": "sagen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sagen",
+            "csText": "sagen",
+            "de": "sagen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "pasacīt (konkrētu tekstu)",
+            "csText": "Říct (konkrétní text)",
+            "de": "sagen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "sprechen",
+            "csText": "sprechen",
+            "de": "sagen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "runāt (valodu, sarunāties)",
+            "csText": "Mluvit (jazyk, mluvit)",
+            "de": "sagen"
+          }
+        ],
+        "study": {
+          "id": "a1-sagen-study",
+          "layout": "standardStudy",
+          "translation": "Říct",
+          "explanation": [
+            "Hlavní myšlenka: Řekněte konkrétní myšlenku, slovo nebo větu.",
+            "Sagen především znamená: uvést konkrétní bod.",
+            "Často popisuje: slova/věty.",
+            "Sagen se používá pro konkrétní daný text."
+          ],
+          "examples": [
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Co jsi říkal"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sagen",
+              "meaning": "Říct (konkrétní text)",
+              "example": "Was hast du gesagt? – Co jsi říkal"
+            },
+            {
+              "word": "sprechen",
+              "meaning": "Mluvit (jazyk, mluvit)",
+              "example": "Ich spreche Deutsch. – Mluvím německy."
+            }
+          ],
+          "tip": [
+            "Sagen = říci",
+            "Použijte sagen, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Sagen = říct.",
+            "Sdělit konkrétní myšlenku, slovo nebo větu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sagen"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Sagen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "sagen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sagen-study",
+          "layout": "standardStudy",
+          "translation": "teikt",
+          "explanation": [
+            "Galvenā doma: Pateikt konkrētu domu, vārdu vai teikumu.",
+            "sagen galvenokārt nozīmē: pateikt konkrētu domu.",
+            "Bieži raksturo: vārdus/teikumus.",
+            "sagen lieto konkrētam pateiktam tekstam."
+          ],
+          "examples": [
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "ko tu pateici?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sagen",
+              "meaning": "pasacīt (konkrētu tekstu)",
+              "example": "Was hast du gesagt? – Ko tu pateici?"
+            },
+            {
+              "word": "sprechen",
+              "meaning": "runāt (valodu, sarunāties)",
+              "example": "Ich spreche Deutsch. – Es runāju vāciski."
+            }
+          ],
+          "tip": [
+            "sagen = teikt",
+            "Izmanto sagen, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "sagen = pateikt.",
+            "Pateikt konkrētu domu, vārdu vai teikumu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sagen"
+              ],
+              "purple": [
+                "teikt"
+              ],
+              "green": [
+                "Teikt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "teikt"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "sagen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-sagen-study",
+        "layout": "standardStudy",
+        "translation": "Říct",
+        "explanation": [
+          "Hlavní myšlenka: Řekněte konkrétní myšlenku, slovo nebo větu.",
+          "Sagen především znamená: uvést konkrétní bod.",
+          "Často popisuje: slova/věty.",
+          "Sagen se používá pro konkrétní daný text."
+        ],
+        "examples": [
+          {
+            "de": "Was hast du gesagt?",
+            "lv": "Co jsi říkal"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sagen",
+            "meaning": "Říct (konkrétní text)",
+            "example": "Was hast du gesagt? – Co jsi říkal"
+          },
+          {
+            "word": "sprechen",
+            "meaning": "Mluvit (jazyk, mluvit)",
+            "example": "Ich spreche Deutsch. – Mluvím německy."
+          }
+        ],
+        "tip": [
+          "Sagen = říci",
+          "Použijte sagen, pokud kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Sagen = říct.",
+          "Sdělit konkrétní myšlenku, slovo nebo větu."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "sagen"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Sagen"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "sagen"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-schwimmen",
+      "index": 531,
+      "de": "schwimmen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Plavat",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 166,
+          "field": "study.examples[3].lv",
+          "pirmd": "Chodím plavat",
+          "pec": "Chodím se koupat."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-schwimmen",
+        "index": 531,
+        "de": "schwimmen",
+        "layout": "standardStudy",
+        "csMain": "Plavat",
+        "studyTranslation": "Plavat",
+        "lvSourceMain": "peldēt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "peldēt",
+            "csText": "Plavat",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "man patīk peldēt.",
+            "csText": "Rád plavu",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "viņš ļoti labi peld.",
+            "csText": "Velmi dobře plave.",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs peldam baseinā.",
+            "csText": "Plaveme v bazénu.",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es eju peldēties.",
+            "csText": "Chodím se koupat.",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "schwimmen",
+            "csText": "schwimmen",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "peldēt kā kustība vai sports",
+            "csText": "Plavat jako pohyb nebo sport",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "baden",
+            "csText": "baden",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "peldēties / atrasties ūdenī",
+            "csText": "Plavat / být ve vodě",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "schwimmen gehen",
+            "csText": "schwimmen gehen",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "iet peldēt",
+            "csText": "Jít plavat",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "duschen",
+            "csText": "duschen",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "mazgāties dušā",
+            "csText": "Osprchovat se",
+            "de": "schwimmen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden.",
+            "csText": "Pamatujte: plavecký pohyb → schwimmen • Odpočinek ve vodě → baden.",
+            "de": "schwimmen"
+          }
+        ],
+        "study": {
+          "id": "a1-schwimmen",
+          "layout": "standardStudy",
+          "translation": "Plavat",
+          "explanation": [
+            "Hlavní myšlenka: schwimmen znamená plavat jako pohyb nebo sport.",
+            "Schwimmen se používá, když člověk plave ve vodě plaveckým pohybem.",
+            "Pokud jde o relaxaci ve vodě nebo plavání, často se používá baden.",
+            "Na úrovni A1 je důležité rozlišovat: schwimmen = plavat, baden = koupat se."
+          ],
+          "examples": [
+            {
+              "de": "Ich schwimme gern.",
+              "lv": "Rád plavu"
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "Velmi dobře plave."
+            },
+            {
+              "de": "Wir schwimmen im Schwimmbad.",
+              "lv": "Plaveme v bazénu."
+            },
+            {
+              "de": "Ich gehe baden.",
+              "lv": "Chodím se koupat."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "schwimmen",
+              "meaning": "Plavat jako pohyb nebo sport",
+              "example": "Er schwimmt sehr gut."
+            },
+            {
+              "word": "baden",
+              "meaning": "Plavat / být ve vodě",
+              "example": "Ich gehe baden."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "Jít plavat",
+              "example": "Wir gehen schwimmen."
+            },
+            {
+              "word": "duschen",
+              "meaning": "Osprchovat se",
+              "example": "Ich dusche morgens."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: plavecký pohyb → schwimmen • Odpočinek ve vodě → baden."
+          },
+          "important": [
+            "Schwimmen a baden nejsou totéž.",
+            "česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "schwimmen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "baden",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "schwimme"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Rád"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "schwimmt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Velmi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "schwimmen"
+                  ],
+                  "green": [
+                    "Schwimmbad"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Plaveme"
+                  ],
+                  "green": [
+                    "Plaveme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "baden"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Chodím"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Plavat",
+                    "Plavat",
+                    "sport"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "schwimmt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "baden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Plavat",
+                    "Plavat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "baden"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schwimmen gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jít"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "duschen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Osprchovat"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "dusche"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "schwimmen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "baden",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "schwimmen"
+                ],
+                "red": [
+                  "baden"
+                ]
+              },
+              {
+                "purple": [
+                  "česky"
+                ],
+                "blue": [
+                  "česky"
+                ],
+                "red": [
+                  "česky"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-schwimmen",
+          "layout": "standardStudy",
+          "translation": "peldēt",
+          "explanation": [
+            "Galvenā doma: schwimmen nozīmē peldēt kā kustību vai sportu.",
+            "schwimmen lieto, ja cilvēks peld ūdenī ar peldēšanas kustībām.",
+            "Ja runa ir par atpūtu ūdenī vai peldēšanos, bieži lieto baden.",
+            "A1 līmenī svarīgi nošķirt: schwimmen = peldēt, baden = peldēties."
+          ],
+          "examples": [
+            {
+              "de": "Ich schwimme gern.",
+              "lv": "man patīk peldēt."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "viņš ļoti labi peld."
+            },
+            {
+              "de": "Wir schwimmen im Schwimmbad.",
+              "lv": "mēs peldam baseinā."
+            },
+            {
+              "de": "Ich gehe baden.",
+              "lv": "es eju peldēties."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "schwimmen",
+              "meaning": "peldēt kā kustība vai sports",
+              "example": "Er schwimmt sehr gut."
+            },
+            {
+              "word": "baden",
+              "meaning": "peldēties / atrasties ūdenī",
+              "example": "Ich gehe baden."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "iet peldēt",
+              "example": "Wir gehen schwimmen."
+            },
+            {
+              "word": "duschen",
+              "meaning": "mazgāties dušā",
+              "example": "Ich dusche morgens."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden."
+          },
+          "important": [
+            "schwimmen un baden nav viens un tas pats.",
+            "Latviski bieži saka “peldēt”, bet vāciski jāskatās, vai tā ir kustība vai peldēšanās."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "schwimmen"
+              ],
+              "purple": [
+                "peldēt",
+                "peldēšanas kustībām"
+              ],
+              "red": [
+                "baden",
+                "peldēties"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "schwimme"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "peldēt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "schwimmt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "peld"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "schwimmen"
+                  ],
+                  "green": [
+                    "Schwimmbad"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "peldam"
+                  ],
+                  "green": [
+                    "baseinā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "baden"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "peldēties"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "peldēt",
+                    "kustība",
+                    "sports"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "schwimmt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "baden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "peldēties",
+                    "ūdenī"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "baden"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schwimmen gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iet peldēt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "duschen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "mazgāties dušā"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "dusche"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "schwimmen"
+                ],
+                "purple": [
+                  "peldēšanas kustība"
+                ],
+                "red": [
+                  "baden",
+                  "atpūta ūdenī"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "schwimmen"
+                ],
+                "red": [
+                  "baden"
+                ]
+              },
+              {
+                "purple": [
+                  "peldēt"
+                ],
+                "blue": [
+                  "kustība"
+                ],
+                "red": [
+                  "peldēšanās"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-schwimmen",
+        "layout": "standardStudy",
+        "translation": "Plavat",
+        "explanation": [
+          "Hlavní myšlenka: schwimmen znamená plavat jako pohyb nebo sport.",
+          "Schwimmen se používá, když člověk plave ve vodě plaveckým pohybem.",
+          "Pokud jde o relaxaci ve vodě nebo plavání, často se používá baden.",
+          "Na úrovni A1 je důležité rozlišovat: schwimmen = plavat, baden = koupat se."
+        ],
+        "examples": [
+          {
+            "de": "Ich schwimme gern.",
+            "lv": "Rád plavu"
+          },
+          {
+            "de": "Er schwimmt sehr gut.",
+            "lv": "Velmi dobře plave."
+          },
+          {
+            "de": "Wir schwimmen im Schwimmbad.",
+            "lv": "Plaveme v bazénu."
+          },
+          {
+            "de": "Ich gehe baden.",
+            "lv": "Chodím se koupat."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "schwimmen",
+            "meaning": "Plavat jako pohyb nebo sport",
+            "example": "Er schwimmt sehr gut."
+          },
+          {
+            "word": "baden",
+            "meaning": "Plavat / být ve vodě",
+            "example": "Ich gehe baden."
+          },
+          {
+            "word": "schwimmen gehen",
+            "meaning": "Jít plavat",
+            "example": "Wir gehen schwimmen."
+          },
+          {
+            "word": "duschen",
+            "meaning": "Osprchovat se",
+            "example": "Ich dusche morgens."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: plavecký pohyb → schwimmen • Odpočinek ve vodě → baden."
+        },
+        "important": [
+          "Schwimmen a baden nejsou totéž.",
+          "česky se často říká „plavat“, ale v němčině musíte zkontrolovat, zda jde o pohyb nebo koupání."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "schwimmen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "baden",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "schwimme"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Rád"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "schwimmt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Velmi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "schwimmen"
+                ],
+                "green": [
+                  "Schwimmbad"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Plaveme"
+                ],
+                "green": [
+                  "Plaveme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "baden"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Chodím"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "schwimmen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Plavat",
+                  "Plavat",
+                  "sport"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "schwimmt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "baden"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Plavat",
+                  "Plavat"
+                ]
+              },
+              "example": {
+                "red": [
+                  "baden"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "schwimmen gehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jít"
+                ]
+              },
+              "example": {
+                "green": [
+                  "schwimmen"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "duschen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Osprchovat"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "dusche"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "schwimmen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "baden",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "schwimmen"
+              ],
+              "red": [
+                "baden"
+              ]
+            },
+            {
+              "purple": [
+                "česky"
+              ],
+              "blue": [
+                "česky"
+              ],
+              "red": [
+                "česky"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-sehen",
+      "index": 539,
+      "de": "sehen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Vidět",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 167,
+          "field": "study.comparison[2].meaning",
+          "pirmd": "Pohled / pohled",
+          "pec": "Prohlédnout si / dívat se na"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-sehen",
+        "index": 539,
+        "de": "sehen",
+        "layout": "standardStudy",
+        "csMain": "Vidět",
+        "studyTranslation": "Vidět",
+        "lvSourceMain": "redzēt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "redzēt",
+            "csText": "Vidět",
+            "de": "sehen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es tevi redzu.",
+            "csText": "Vidím tě",
+            "de": "sehen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "vai tu redzi to auto?",
+            "csText": "Vidíš to auto",
+            "de": "sehen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "es neko neredzu.",
+            "csText": "Nic nevidím",
+            "de": "sehen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "mēs skatāmies filmu.",
+            "csText": "Díváme se na film.",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sehen",
+            "csText": "sehen",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "redzēt",
+            "csText": "Vidět",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "schauen",
+            "csText": "schauen",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "skatīties",
+            "csText": "Dívat se",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "ansehen",
+            "csText": "ansehen",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "apskatīt / skatīties",
+            "csText": "Prohlédnout si / dívat se na",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "hören",
+            "csText": "hören",
+            "de": "sehen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "dzirdēt",
+            "csText": "Slyšet",
+            "de": "sehen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen.",
+            "csText": "Pamatujte: oči vnímají → sehen • Dívat se vědomě → schauen/ansehen.",
+            "de": "sehen"
+          }
+        ],
+        "study": {
+          "id": "a1-sehen",
+          "layout": "standardStudy",
+          "translation": "Vidět",
+          "explanation": [
+            "Hlavní myšlenka: sehen znamená vidět očima.",
+            "Pokud jde o to, co vnímají oči, používá se sehen.",
+            "Dívat se záměrně je často schauen nebo ansehen.",
+            "Velmi častou frází je Ich sehe dich. = Vidím tě."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe dich.",
+              "lv": "Vidím tě"
+            },
+            {
+              "de": "Siehst du das Auto?",
+              "lv": "Vidíš to auto"
+            },
+            {
+              "de": "Ich sehe nichts.",
+              "lv": "Nic nevidím"
+            },
+            {
+              "de": "Wir schauen einen Film.",
+              "lv": "Díváme se na film."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sehen",
+              "meaning": "Vidět",
+              "example": "Ich sehe dich."
+            },
+            {
+              "word": "schauen",
+              "meaning": "Dívat se",
+              "example": "Ich schaue auf das Bild."
+            },
+            {
+              "word": "ansehen",
+              "meaning": "Prohlédnout si / dívat se na",
+              "example": "Ich sehe mir den Film an."
+            },
+            {
+              "word": "hören",
+              "meaning": "Slyšet",
+              "example": "Ich höre Musik."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: oči vnímají → sehen • Dívat se vědomě → schauen/ansehen."
+          },
+          "important": [
+            "Sehen není totéž co anschauen.",
+            "Ich sehe dich = vidím tě • Ich schaue den Film = Dívám se na film."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sehen",
+                "Ich sehe"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "red": [
+                "schauen",
+                "ansehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vidím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vidíš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nic"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "schauen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Díváme"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vidět"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schauen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Hodinky"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "schaue"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ansehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pohled",
+                    "Pohled"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "sehe",
+                    "an"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hören"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Slyšet"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "höre"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sehen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "schauen",
+                  "ansehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sehen"
+                ],
+                "red": [
+                  "anschauen"
+                ]
+              },
+              {
+                "blue": [
+                  "sehe"
+                ],
+                "purple": [
+                  "Ich"
+                ],
+                "red": [
+                  "schaue",
+                  "Ich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sehen",
+          "layout": "standardStudy",
+          "translation": "redzēt",
+          "explanation": [
+            "Galvenā doma: sehen nozīmē redzēt ar acīm.",
+            "Ja runa ir par to, ko acis uztver, lieto sehen.",
+            "Skatīties apzināti bieži ir schauen vai ansehen.",
+            "Ļoti bieža frāze ir Ich sehe dich. = Es tevi redzu."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe dich.",
+              "lv": "es tevi redzu."
+            },
+            {
+              "de": "Siehst du das Auto?",
+              "lv": "vai tu redzi to auto?"
+            },
+            {
+              "de": "Ich sehe nichts.",
+              "lv": "es neko neredzu."
+            },
+            {
+              "de": "Wir schauen einen Film.",
+              "lv": "mēs skatāmies filmu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sehen",
+              "meaning": "redzēt",
+              "example": "Ich sehe dich."
+            },
+            {
+              "word": "schauen",
+              "meaning": "skatīties",
+              "example": "Ich schaue auf das Bild."
+            },
+            {
+              "word": "ansehen",
+              "meaning": "apskatīt / skatīties",
+              "example": "Ich sehe mir den Film an."
+            },
+            {
+              "word": "hören",
+              "meaning": "dzirdēt",
+              "example": "Ich höre Musik."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen."
+          },
+          "important": [
+            "sehen nav tas pats, kas anschauen.",
+            "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sehen",
+                "Ich sehe"
+              ],
+              "purple": [
+                "redzēt",
+                "acīm"
+              ],
+              "red": [
+                "schauen",
+                "ansehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "redzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "redzi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "neredzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "schauen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "skatāmies"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "redzēt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schauen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "skatīties"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "schaue"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ansehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "apskatīt",
+                    "skatīties"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "sehe",
+                    "an"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hören"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "dzirdēt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "höre"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sehen"
+                ],
+                "purple": [
+                  "acis uztver"
+                ],
+                "red": [
+                  "schauen",
+                  "ansehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sehen"
+                ],
+                "red": [
+                  "anschauen"
+                ]
+              },
+              {
+                "blue": [
+                  "sehe"
+                ],
+                "purple": [
+                  "redzu"
+                ],
+                "red": [
+                  "schaue",
+                  "skatos"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-sehen",
+        "layout": "standardStudy",
+        "translation": "Vidět",
+        "explanation": [
+          "Hlavní myšlenka: sehen znamená vidět očima.",
+          "Pokud jde o to, co vnímají oči, používá se sehen.",
+          "Dívat se záměrně je často schauen nebo ansehen.",
+          "Velmi častou frází je Ich sehe dich. = Vidím tě."
+        ],
+        "examples": [
+          {
+            "de": "Ich sehe dich.",
+            "lv": "Vidím tě"
+          },
+          {
+            "de": "Siehst du das Auto?",
+            "lv": "Vidíš to auto"
+          },
+          {
+            "de": "Ich sehe nichts.",
+            "lv": "Nic nevidím"
+          },
+          {
+            "de": "Wir schauen einen Film.",
+            "lv": "Díváme se na film."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sehen",
+            "meaning": "Vidět",
+            "example": "Ich sehe dich."
+          },
+          {
+            "word": "schauen",
+            "meaning": "Dívat se",
+            "example": "Ich schaue auf das Bild."
+          },
+          {
+            "word": "ansehen",
+            "meaning": "Prohlédnout si / dívat se na",
+            "example": "Ich sehe mir den Film an."
+          },
+          {
+            "word": "hören",
+            "meaning": "Slyšet",
+            "example": "Ich höre Musik."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: oči vnímají → sehen • Dívat se vědomě → schauen/ansehen."
+        },
+        "important": [
+          "Sehen není totéž co anschauen.",
+          "Ich sehe dich = vidím tě • Ich schaue den Film = Dívám se na film."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "sehen",
+              "Ich sehe"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "red": [
+              "schauen",
+              "ansehen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "sehe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vidím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Siehst"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vidíš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sehe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nic"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "schauen"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Díváme"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "sehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vidět"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "sehe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "schauen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Hodinky"
+                ]
+              },
+              "example": {
+                "red": [
+                  "schaue"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ansehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Pohled",
+                  "Pohled"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "sehe",
+                  "an"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "hören"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Slyšet"
+                ]
+              },
+              "example": {
+                "green": [
+                  "höre"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "sehen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "schauen",
+                "ansehen"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "sehen"
+              ],
+              "red": [
+                "anschauen"
+              ]
+            },
+            {
+              "blue": [
+                "sehe"
+              ],
+              "purple": [
+                "Ich"
+              ],
+              "red": [
+                "schaue",
+                "Ich"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-sein",
+      "index": 542,
+      "de": "sein",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Být",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 168,
+          "field": "study.comparison[3].meaning",
+          "pirmd": "Pobyt",
+          "pec": "Zůstat"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-sein",
+        "index": 542,
+        "de": "sein",
+        "layout": "standardStudy",
+        "csMain": "Být",
+        "studyTranslation": "Být",
+        "lvSourceMain": "būt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "būt",
+            "csText": "Být",
+            "de": "sein"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es esmu šeit.",
+            "csText": "Jsem tady",
+            "de": "sein"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "tu esi noguris.",
+            "csText": "Jsi unavený",
+            "de": "sein"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņš ir skolotājs.",
+            "csText": "Je učitel.",
+            "de": "sein"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "mēs esam mājās.",
+            "csText": "Jsme doma.",
+            "de": "sein"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "sein",
+            "csText": "sein",
+            "de": "sein"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "būt",
+            "csText": "Být",
+            "de": "sein"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "haben",
+            "csText": "haben",
+            "de": "sein"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "man ir",
+            "csText": "Mám",
+            "de": "sein"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "werden",
+            "csText": "werden",
+            "de": "sein"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "kļūt",
+            "csText": "Stát se",
+            "de": "sein"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "bleiben",
+            "csText": "bleiben",
+            "de": "sein"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "palikt",
+            "csText": "Zůstat",
+            "de": "sein"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: ich bin = es esmu; du bist = tu esi.",
+            "csText": "Pamatujte: ich bin = jsem • Du bist = jsi.",
+            "de": "sein"
+          }
+        ],
+        "study": {
+          "id": "a1-sein",
+          "layout": "standardStudy",
+          "translation": "Být",
+          "explanation": [
+            "Hlavní myšlenka: sein znamená být.",
+            "Sein je jedno z nejdůležitějších německých sloves.",
+            "Na úrovni A1 jsou zvláště důležité formy ich bin, du bist, er ist a wir sind.",
+            "Sein se také používá v mnoha lokativních nebo charakteristických větách."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin hier.",
+              "lv": "Jsem tady"
+            },
+            {
+              "de": "Du bist müde.",
+              "lv": "Jsi unavený"
+            },
+            {
+              "de": "Er ist Lehrer.",
+              "lv": "Je učitel."
+            },
+            {
+              "de": "Wir sind zu Hause.",
+              "lv": "Jsme doma."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sein",
+              "meaning": "Být",
+              "example": "Ich bin hier."
+            },
+            {
+              "word": "haben",
+              "meaning": "Mám",
+              "example": "Ich habe Zeit."
+            },
+            {
+              "word": "werden",
+              "meaning": "Stát se",
+              "example": "Ich werde müde."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "Zůstat",
+              "example": "Ich bleibe hier."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: ich bin = jsem • Du bist = jsi."
+          },
+          "important": [
+            "Sein tvary se musí učit samostatně: bin, bist, ist, sind.",
+            "Ich bin je 'já jsem' ne 'jsem'."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sein",
+                "ich bin",
+                "du bist",
+                "er ist",
+                "wir sind"
+              ],
+              "purple": [
+                "být",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "učitel"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sind"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsme"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "haben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Mám"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "habe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "werden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Stát"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "werde"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Pobyt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bleibe"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ich bin",
+                  "du bist"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bin",
+                  "bist",
+                  "ist",
+                  "sind"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich bin"
+                ],
+                "purple": [
+                  "Ich"
+                ],
+                "red": [
+                  "Ich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-sein",
+          "layout": "standardStudy",
+          "translation": "būt",
+          "explanation": [
+            "Galvenā doma: sein nozīmē būt.",
+            "sein ir viens no svarīgākajiem vācu darbības vārdiem.",
+            "A1 līmenī īpaši svarīgas formas ir ich bin, du bist, er ist un wir sind.",
+            "sein lieto arī daudzos teikumos ar atrašanās vietu vai īpašību."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin hier.",
+              "lv": "es esmu šeit."
+            },
+            {
+              "de": "Du bist müde.",
+              "lv": "tu esi noguris."
+            },
+            {
+              "de": "Er ist Lehrer.",
+              "lv": "viņš ir skolotājs."
+            },
+            {
+              "de": "Wir sind zu Hause.",
+              "lv": "mēs esam mājās."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sein",
+              "meaning": "būt",
+              "example": "Ich bin hier."
+            },
+            {
+              "word": "haben",
+              "meaning": "man ir",
+              "example": "Ich habe Zeit."
+            },
+            {
+              "word": "werden",
+              "meaning": "kļūt",
+              "example": "Ich werde müde."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "palikt",
+              "example": "Ich bleibe hier."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: ich bin = es esmu; du bist = tu esi."
+          },
+          "important": [
+            "sein formas jāiemācās atsevišķi: bin, bist, ist, sind.",
+            "Ich bin ir “es esmu”, nevis “es būt”."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sein",
+                "ich bin",
+                "du bist",
+                "er ist",
+                "wir sind"
+              ],
+              "purple": [
+                "būt",
+                "atrašanās vietu",
+                "īpašību"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "esmu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "esi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sind"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "esam"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "būt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "haben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "man ir"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "habe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "werden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kļūt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "werde"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "palikt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bleibe"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ich bin",
+                  "du bist"
+                ],
+                "purple": [
+                  "es esmu",
+                  "tu esi"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bin",
+                  "bist",
+                  "ist",
+                  "sind"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich bin"
+                ],
+                "purple": [
+                  "es esmu"
+                ],
+                "red": [
+                  "es būt"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-sein",
+        "layout": "standardStudy",
+        "translation": "Být",
+        "explanation": [
+          "Hlavní myšlenka: sein znamená být.",
+          "Sein je jedno z nejdůležitějších německých sloves.",
+          "Na úrovni A1 jsou zvláště důležité formy ich bin, du bist, er ist a wir sind.",
+          "Sein se také používá v mnoha lokativních nebo charakteristických větách."
+        ],
+        "examples": [
+          {
+            "de": "Ich bin hier.",
+            "lv": "Jsem tady"
+          },
+          {
+            "de": "Du bist müde.",
+            "lv": "Jsi unavený"
+          },
+          {
+            "de": "Er ist Lehrer.",
+            "lv": "Je učitel."
+          },
+          {
+            "de": "Wir sind zu Hause.",
+            "lv": "Jsme doma."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "sein",
+            "meaning": "Být",
+            "example": "Ich bin hier."
+          },
+          {
+            "word": "haben",
+            "meaning": "Mám",
+            "example": "Ich habe Zeit."
+          },
+          {
+            "word": "werden",
+            "meaning": "Stát se",
+            "example": "Ich werde müde."
+          },
+          {
+            "word": "bleiben",
+            "meaning": "Zůstat",
+            "example": "Ich bleibe hier."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: ich bin = jsem • Du bist = jsi."
+        },
+        "important": [
+          "Sein tvary se musí učit samostatně: bin, bist, ist, sind.",
+          "Ich bin je 'já jsem' ne 'jsem'."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "sein",
+              "ich bin",
+              "du bist",
+              "er ist",
+              "wir sind"
+            ],
+            "purple": [
+              "být",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "bin"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jsem"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bist"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jsi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ist"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "učitel"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sind"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jsme"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "sein"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "bin"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "haben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Mám"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "habe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "werden"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Stát"
+                ]
+              },
+              "example": {
+                "green": [
+                  "werde"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bleiben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Pobyt"
+                ]
+              },
+              "example": {
+                "red": [
+                  "bleibe"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "ich bin",
+                "du bist"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "bin",
+                "bist",
+                "ist",
+                "sind"
+              ]
+            },
+            {
+              "blue": [
+                "Ich bin"
+              ],
+              "purple": [
+                "Ich"
+              ],
+              "red": [
+                "Ich"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-sagen-study",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair changes the important note to the correct Czech meaning of sagen; no regression is present.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-schwimmen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.97,
+      "reason": "The repaired example correctly distinguishes Ich gehe baden from swimming movement; no HIGH-repair regression is present.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-sehen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "The repaired anse­hen meaning is correct. Existing accent labels contain unrelated Czech errors.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.comparison[1].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Hodinky",
+          "reason": "The accent label does not match schauen meaning and is unrelated to the HIGH repair.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.sectionAccents.comparison[2].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Pohled / Pohled",
+          "reason": "The accent labels do not match ansehen meaning and are unrelated to the HIGH repair.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sein",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "The repaired bleiben meaning is correct. An unrelated existing accent label remains semantically incorrect.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.comparison[3].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Pobyt",
+          "reason": "The accent label means stay/residence rather than the displayed meaning Zůstat; this predates the HIGH repair.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:45:02.653Z"
+}

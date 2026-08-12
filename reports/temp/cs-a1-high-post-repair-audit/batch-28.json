@@ -1,0 +1,2397 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-zu",
+      "index": 668,
+      "de": "zu",
+      "auditType": "owner_corrected_focus",
+      "csMain": "Do • At",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 200,
+          "field": "study.translation",
+          "pirmd": "Do • At",
+          "pec": "K • Do • Příliš • Infinitiv"
+        },
+        {
+          "block": 6,
+          "n": 271,
+          "field": "study.explanation[0]",
+          "pirmd": "Hlavní myšlenka: zu velmi často znamená to nebo at, ale má také roli s infinitivem.",
+          "pec": "Hlavní myšlenka: zu často znamená k nebo do. Používá se také s infinitivem."
+        },
+        {
+          "block": 6,
+          "n": 272,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "To / at / too / infinitiv",
+          "pec": "K / do / příliš / infinitiv"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-zu",
+        "index": 668,
+        "de": "zu",
+        "layout": "standardStudy",
+        "csMain": "Do • At",
+        "studyTranslation": "K • Do • Příliš • Infinitiv",
+        "lvSourceMain": "uz • pie",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "uz • pie",
+            "csText": "K • Do • Příliš • Infinitiv",
+            "de": "zu"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es eju pie ārsta.",
+            "csText": "Jdu k doktorovi.",
+            "de": "zu"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mēs ejam uz skolu.",
+            "csText": "Jdeme do školy.",
+            "de": "zu"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "tas ir pārāk dārgi.",
+            "csText": "Je to příliš drahé.",
+            "de": "zu"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "man nav laika mācīties.",
+            "csText": "Nemám čas se učit.",
+            "de": "zu"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "zu",
+            "csText": "zu",
+            "de": "zu"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "uz / pie / pārāk / infinitīvs",
+            "csText": "K / do / příliš / infinitiv",
+            "de": "zu"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "nach",
+            "csText": "nach",
+            "de": "zu"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "uz ar pilsētām/valstīm",
+            "csText": "S městy/zeměmi",
+            "de": "zu"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "in",
+            "csText": "in",
+            "de": "zu"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "iekšā / uz vietu",
+            "csText": "V / na místo",
+            "de": "zu"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "bei",
+            "csText": "bei",
+            "de": "zu"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "pie kāda / pie darba",
+            "csText": "U někoho / v práci",
+            "de": "zu"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer.",
+            "csText": "Pamatujte: k lékaři → zum Arzt • Příliš drahé → zu teuer.",
+            "de": "zu"
+          }
+        ],
+        "study": {
+          "id": "a1-zu",
+          "layout": "standardStudy",
+          "translation": "K • Do • Příliš • Infinitiv",
+          "explanation": [
+            "Hlavní myšlenka: zu často znamená k nebo do. Používá se také s infinitivem.",
+            "U lidí a institucí zu často znamená u nebo do.",
+            "S přídavnými jmény může zu znamenat také.",
+            "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Jdu k doktorovi."
+            },
+            {
+              "de": "Wir gehen zur Schule.",
+              "lv": "Jdeme do školy."
+            },
+            {
+              "de": "Das ist zu teuer.",
+              "lv": "Je to příliš drahé."
+            },
+            {
+              "de": "Ich habe keine Zeit zu lernen.",
+              "lv": "Nemám čas se učit."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zu",
+              "meaning": "K / do / příliš / infinitiv",
+              "example": "Ich gehe zum Arzt."
+            },
+            {
+              "word": "nach",
+              "meaning": "S městy/zeměmi",
+              "example": "Ich fahre nach Berlin."
+            },
+            {
+              "word": "in",
+              "meaning": "V / na místo",
+              "example": "Ich gehe in die Schule."
+            },
+            {
+              "word": "bei",
+              "meaning": "U někoho / v práci",
+              "example": "Ich bin bei Anna."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: k lékaři → zum Arzt • Příliš drahé → zu teuer."
+          },
+          "important": [
+            "Zu má mnoho využití, proto se vždy podívejte na konstrukci.",
+            "Zu teuer znamená „příliš drahé“, nikoli „příliš drahé“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "zu",
+                "zu lernen",
+                "zu gehen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "zum Arzt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zur Schule"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zu teuer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "příliš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zu lernen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nemám"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "too",
+                    "too",
+                    "too",
+                    "infinitiv"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "městy/zeměmi"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "nach Berlin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "místo",
+                    "místo"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "někoho"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bei Anna"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "zum Arzt",
+                  "zu teuer"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "zu"
+                ],
+                "purple": [
+                  "konstrukci"
+                ]
+              },
+              {
+                "blue": [
+                  "zu teuer"
+                ],
+                "purple": [
+                  "teuer"
+                ],
+                "red": [
+                  "teuer"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-zu",
+          "layout": "standardStudy",
+          "translation": "uz • pie",
+          "explanation": [
+            "Galvenā doma: zu ļoti bieži nozīmē uz vai pie, bet tam ir arī loma ar infinitīvu.",
+            "Ar cilvēkiem un iestādēm zu bieži nozīmē pie vai uz.",
+            "Ar īpašības vārdiem zu var nozīmēt pārāk.",
+            "Konstrukcijā zu + nenoteiksme tas palīdz veidot nenoteiksmi: zu lernen, zu gehen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "es eju pie ārsta."
+            },
+            {
+              "de": "Wir gehen zur Schule.",
+              "lv": "mēs ejam uz skolu."
+            },
+            {
+              "de": "Das ist zu teuer.",
+              "lv": "tas ir pārāk dārgi."
+            },
+            {
+              "de": "Ich habe keine Zeit zu lernen.",
+              "lv": "man nav laika mācīties."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zu",
+              "meaning": "uz / pie / pārāk / infinitīvs",
+              "example": "Ich gehe zum Arzt."
+            },
+            {
+              "word": "nach",
+              "meaning": "uz ar pilsētām/valstīm",
+              "example": "Ich fahre nach Berlin."
+            },
+            {
+              "word": "in",
+              "meaning": "iekšā / uz vietu",
+              "example": "Ich gehe in die Schule."
+            },
+            {
+              "word": "bei",
+              "meaning": "pie kāda / pie darba",
+              "example": "Ich bin bei Anna."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer."
+          },
+          "important": [
+            "zu ir ļoti daudz lietojumu, tāpēc vienmēr skaties uz konstrukciju.",
+            "zu teuer nozīmē “pārāk dārgi”, nevis “uz dārgi”."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "zu",
+                "zu lernen",
+                "zu gehen"
+              ],
+              "purple": [
+                "uz",
+                "pie",
+                "pārāk",
+                "nenoteiksmi"
+              ],
+              "green": [
+                "cilvēkiem",
+                "iestādēm"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "zum Arzt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pie ārsta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zur Schule"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz skolu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zu teuer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pārāk dārgi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zu lernen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mācīties"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie",
+                    "pārāk",
+                    "infinitīvs"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "nach Berlin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iekšā",
+                    "uz vietu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bei Anna"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "zum Arzt",
+                  "zu teuer"
+                ],
+                "purple": [
+                  "pie ārsta",
+                  "pārāk dārgi"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "zu"
+                ],
+                "purple": [
+                  "konstrukciju"
+                ]
+              },
+              {
+                "blue": [
+                  "zu teuer"
+                ],
+                "purple": [
+                  "pārāk dārgi"
+                ],
+                "red": [
+                  "uz dārgi"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-zu",
+        "layout": "standardStudy",
+        "translation": "K • Do • Příliš • Infinitiv",
+        "explanation": [
+          "Hlavní myšlenka: zu často znamená k nebo do. Používá se také s infinitivem.",
+          "U lidí a institucí zu často znamená u nebo do.",
+          "S přídavnými jmény může zu znamenat také.",
+          "V konstrukci zu + neurčito pomáhá tvořit neurčito: zu lernen, zu gehen."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe zum Arzt.",
+            "lv": "Jdu k doktorovi."
+          },
+          {
+            "de": "Wir gehen zur Schule.",
+            "lv": "Jdeme do školy."
+          },
+          {
+            "de": "Das ist zu teuer.",
+            "lv": "Je to příliš drahé."
+          },
+          {
+            "de": "Ich habe keine Zeit zu lernen.",
+            "lv": "Nemám čas se učit."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "zu",
+            "meaning": "K / do / příliš / infinitiv",
+            "example": "Ich gehe zum Arzt."
+          },
+          {
+            "word": "nach",
+            "meaning": "S městy/zeměmi",
+            "example": "Ich fahre nach Berlin."
+          },
+          {
+            "word": "in",
+            "meaning": "V / na místo",
+            "example": "Ich gehe in die Schule."
+          },
+          {
+            "word": "bei",
+            "meaning": "U někoho / v práci",
+            "example": "Ich bin bei Anna."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: k lékaři → zum Arzt • Příliš drahé → zu teuer."
+        },
+        "important": [
+          "Zu má mnoho využití, proto se vždy podívejte na konstrukci.",
+          "Zu teuer znamená „příliš drahé“, nikoli „příliš drahé“."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "zu",
+              "zu lernen",
+              "zu gehen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "zum Arzt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zur Schule"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zu teuer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "příliš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zu lernen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nemám"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "zu"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "too",
+                  "too",
+                  "too",
+                  "infinitiv"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "zum Arzt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nach"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "městy/zeměmi"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "nach Berlin"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "in"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "místo",
+                  "místo"
+                ]
+              },
+              "example": {
+                "green": [
+                  "in die Schule"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bei"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "někoho"
+                ]
+              },
+              "example": {
+                "red": [
+                  "bei Anna"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "zum Arzt",
+                "zu teuer"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "zu"
+              ],
+              "purple": [
+                "konstrukci"
+              ]
+            },
+            {
+              "blue": [
+                "zu teuer"
+              ],
+              "purple": [
+                "teuer"
+              ],
+              "red": [
+                "teuer"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-bitte",
+      "index": 93,
+      "de": "bitte",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Prosím",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 201,
+          "field": "study.tip",
+          "pirmd": [
+            "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
+            "Zdvořilost malými písmeny. Byl jsem zdvořilý - prosím."
+          ],
+          "pec": [
+            "Malé bitte znamená prosím (Bitte schön!, Kaffee, bitte). Die Bitte s velkým písmenem znamená prosba nebo žádost (eine Bitte, meine Bitte).",
+            "Bitte s malým písmenem je zdvořilostní výraz."
+          ]
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-bitte",
+        "index": 93,
+        "de": "bitte",
+        "layout": "standardStudy",
+        "csMain": "Prosím",
+        "studyTranslation": "Prosím",
+        "lvSourceMain": "lūdzu",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "lūdzu",
+            "csText": "Prosím",
+            "de": "bitte"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Vienu tasi kafijas, lūdzu.",
+            "csText": "Prosím!",
+            "de": "bitte"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Lūdzu, nāc iekšā.",
+            "csText": "Prosím!",
+            "de": "bitte"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Lūdzu!",
+            "csText": "Jeden šálek kávy, prosím.",
+            "de": "bitte"
+          }
+        ],
+        "study": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "Prosím",
+          "explanation": [
+            "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+            "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+            "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+            "Množné číslo je die Bitten."
+          ],
+          "examples": [
+            {
+              "de": "Bitte schön!",
+              "lv": "Prosím!"
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Prosím!"
+            },
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Jeden šálek kávy, prosím."
+            },
+            {
+              "de": "Kann ich bitte fragen?",
+              "lv": "Mohu se prosím zeptat"
+            },
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mám jednu prosbu."
+            },
+            {
+              "de": "Die Bitte ist wichtig.",
+              "lv": "Žádost je důležitá."
+            }
+          ],
+          "tip": [
+            "Malé bitte znamená prosím (Bitte schön!, Kaffee, bitte). Die Bitte s velkým písmenem znamená prosba nebo žádost (eine Bitte, meine Bitte).",
+            "Bitte s malým písmenem je zdvořilostní výraz."
+          ],
+          "important": [
+            "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+            "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+            "Množné číslo: die Bitten (žádosti).",
+            "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jeden"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mohu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Little"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "bitte"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "lūdzu",
+          "explanation": [
+            "Galvenā doma: bitte ar mazo sākumburtu ir pieklājības vārds ar nozīmi lūdzu.",
+            "To lieto lūgumos, pasūtījumos un pieklājīgās atbildēs.",
+            "Lietvārds die Bitte ar lielo sākumburtu nozīmē lūgums."
+          ],
+          "examples": [
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Vienu tasi kafijas, lūdzu."
+            },
+            {
+              "de": "Komm bitte herein.",
+              "lv": "Lūdzu, nāc iekšā."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Lūdzu!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bitte",
+              "meaning": "lūdzu",
+              "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+            },
+            {
+              "word": "die Bitte",
+              "meaning": "lūgums",
+              "example": "Ich habe eine Bitte. – Man ir lūgums."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: bitte ar mazo burtu nozīmē lūdzu; die Bitte ar lielo burtu nozīmē lūgums."
+          },
+          "important": [
+            "bitte ir pieklājības vārds.",
+            "die Bitte ir lietvārds ar artikulu die.",
+            "Nepareizi: Die Bitte schön! Pareizi: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "lūdzu"
+              ],
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Lūdzu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Lūdzu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "lūdzu"
+                ],
+                "green": [
+                  "die Bitte",
+                  "lūgums"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "pieklājības vārds"
+                ]
+              },
+              {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "lietvārds"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-bitte",
+        "layout": "standardStudy",
+        "translation": "Prosím",
+        "explanation": [
+          "Hlavní myšlenka: bitte s malým písmenem je zdvořilostní výraz a znamená „prosím“.",
+          "Používá se například v prosbě, žádosti nebo zdvořilé odpovědi.",
+          "Die Bitte s velkým písmenem je podstatné jméno ženského rodu a znamená prosbu nebo žádost.",
+          "Množné číslo je die Bitten."
+        ],
+        "examples": [
+          {
+            "de": "Bitte schön!",
+            "lv": "Prosím!"
+          },
+          {
+            "de": "Bitte schön!",
+            "lv": "Prosím!"
+          },
+          {
+            "de": "Eine Tasse Kaffee, bitte.",
+            "lv": "Jeden šálek kávy, prosím."
+          },
+          {
+            "de": "Kann ich bitte fragen?",
+            "lv": "Mohu se prosím zeptat"
+          },
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Mám jednu prosbu."
+          },
+          {
+            "de": "Die Bitte ist wichtig.",
+            "lv": "Žádost je důležitá."
+          }
+        ],
+        "tip": [
+          "Malé bitte znamená prosím (Bitte schön!, Kaffee, bitte). Die Bitte s velkým písmenem znamená prosba nebo žádost (eine Bitte, meine Bitte).",
+          "Bitte s malým písmenem je zdvořilostní výraz."
+        ],
+        "important": [
+          "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+          "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+          "Množné číslo: die Bitten (žádosti).",
+          "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "bitte"
+            ],
+            "purple": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jeden"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mohu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Little"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "bitte"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-bitte-study",
+      "index": 94,
+      "de": "Bitte",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Žádost",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 202,
+          "field": "study.tip",
+          "pirmd": [
+            "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s velkým písmenem = žádost (eine Bitte, meine Bitte).",
+            "Podstatné jméno s členem zemřít a velké písmeno. Konkrétní požadavek nebo požadavek."
+          ],
+          "pec": [
+            "Malé bitte znamená prosím. Die Bitte s velkým písmenem znamená prosba nebo žádost.",
+            "Die Bitte je podstatné jméno se členem die a píše se s velkým písmenem."
+          ]
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-bitte-study",
+        "index": 94,
+        "de": "Bitte",
+        "layout": "standardStudy",
+        "csMain": "Žádost",
+        "studyTranslation": "Žádost",
+        "lvSourceMain": "lūgums",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "lūgums",
+            "csText": "Žádost",
+            "de": "Bitte"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Man ir lūgums.",
+            "csText": "Mám jednu prosbu.",
+            "de": "Bitte"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "Viņš izpilda manu lūgumu.",
+            "csText": "Prosím!",
+            "de": "Bitte"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "Viņai ir divi lūgumi.",
+            "csText": "Jeden šálek kávy, prosím.",
+            "de": "Bitte"
+          }
+        ],
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "Žádost",
+          "explanation": [
+            "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+            "Píše se s velkým písmenem.",
+            "Množné číslo je die Bitten.",
+            "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mám jednu prosbu."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Prosím!"
+            },
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Jeden šálek kávy, prosím."
+            },
+            {
+              "de": "Kann ich bitte fragen?",
+              "lv": "Mohu se prosím zeptat"
+            },
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mám jednu prosbu."
+            },
+            {
+              "de": "Die Bitte ist wichtig.",
+              "lv": "Žádost je důležitá."
+            }
+          ],
+          "tip": [
+            "Malé bitte znamená prosím. Die Bitte s velkým písmenem znamená prosba nebo žádost.",
+            "Die Bitte je podstatné jméno se členem die a píše se s velkým písmenem."
+          ],
+          "important": [
+            "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+            "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+            "Množné číslo: die Bitten (žádosti).",
+            "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "die Bitte",
+                "bitte"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "yellow": [
+                "Bitte",
+                "Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "die Bitte",
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Žádost"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Little"
+                ]
+              }
+            ],
+            "important": [
+              {}
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "lūgums",
+          "explanation": [
+            "Galvenā doma: die Bitte ir lietvārds ar nozīmi lūgums.",
+            "Vārdu raksta ar lielo sākumburtu un lieto ar artikulu die.",
+            "Daudzskaitlis ir die Bitten.",
+            "Pieklājības vārds bitte ar mazo sākumburtu nozīmē lūdzu."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Man ir lūgums."
+            },
+            {
+              "de": "Er erfüllt meine Bitte.",
+              "lv": "Viņš izpilda manu lūgumu."
+            },
+            {
+              "de": "Sie hat zwei Bitten.",
+              "lv": "Viņai ir divi lūgumi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Bitte",
+              "meaning": "lūgums",
+              "example": "Ich habe eine Bitte. – Man ir lūgums."
+            },
+            {
+              "word": "bitte",
+              "meaning": "lūdzu",
+              "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: die Bitte ir lietvārds, bet bitte ir pieklājības vārds."
+          },
+          "important": [
+            "Artikuls: die Bitte.",
+            "Daudzskaitlis: die Bitten.",
+            "Lietvārdu raksta ar lielo sākumburtu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "die Bitte",
+                "die Bitten"
+              ],
+              "purple": [
+                "lūgums"
+              ],
+              "blue": [
+                "bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgumu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lūgumi"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūgums"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lūdzu"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "lūgums"
+                ],
+                "blue": [
+                  "bitte",
+                  "lūdzu"
+                ]
+              }
+            },
+            "important": [
+              {
+                "green": [
+                  "die Bitte",
+                  "die Bitten"
+                ]
+              },
+              {
+                "purple": [
+                  "lietvārds",
+                  "lielais sākumburts"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-bitte-study",
+        "layout": "standardStudy",
+        "translation": "Žádost",
+        "explanation": [
+          "Hlavní myšlenka: die Bitte je podstatné jméno ženského rodu se členem die a znamená prosbu nebo žádost.",
+          "Píše se s velkým písmenem.",
+          "Množné číslo je die Bitten.",
+          "Pozor: bitte s malým písmenem znamená „prosím“ a není podstatné jméno."
+        ],
+        "examples": [
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Mám jednu prosbu."
+          },
+          {
+            "de": "Bitte schön!",
+            "lv": "Prosím!"
+          },
+          {
+            "de": "Eine Tasse Kaffee, bitte.",
+            "lv": "Jeden šálek kávy, prosím."
+          },
+          {
+            "de": "Kann ich bitte fragen?",
+            "lv": "Mohu se prosím zeptat"
+          },
+          {
+            "de": "Ich habe eine Bitte.",
+            "lv": "Mám jednu prosbu."
+          },
+          {
+            "de": "Die Bitte ist wichtig.",
+            "lv": "Žádost je důležitá."
+          }
+        ],
+        "tip": [
+          "Malé bitte znamená prosím. Die Bitte s velkým písmenem znamená prosba nebo žádost.",
+          "Die Bitte je podstatné jméno se členem die a píše se s velkým písmenem."
+        ],
+        "important": [
+          "Bitte je malá písmena – je to zdvořilé slovo, nikoli podstatné jméno.",
+          "Die Bitte s velkým písmenem a člen die je podstatné jméno.",
+          "Množné číslo: die Bitten (žádosti).",
+          "Špatně: Die Bitte schön! → Správně: Bitte schön!"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "die Bitte",
+              "bitte"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "yellow": [
+              "Bitte",
+              "Bitte"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "green": [
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "die Bitte",
+                  "bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Žádost"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Little"
+              ]
+            }
+          ],
+          "important": [
+            {}
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-ein",
+      "index": 154,
+      "de": "ein",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Neurčitý člen • Jeden • Někdo",
+      "repairedFields": [
+        {
+          "block": 5,
+          "n": 203,
+          "field": "study.explanation",
+          "pirmd": "Používá se s podstatným jménem mužského rodu. Ukázání na jednu věc nebo osobu z několika možností.",
+          "pec": "Používá se s podstatnými jmény mužského a středního rodu v jednotném čísle. Označuje jednu věc nebo osobu z několika možností."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-ein",
+        "index": 154,
+        "de": "ein",
+        "layout": "standardStudy",
+        "csMain": "Neurčitý člen • Jeden • Někdo",
+        "studyTranslation": "Neurčitý člen • Jeden • Někdo",
+        "lvSourceMain": "nenoteiktais artikuls",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "nenoteiktais artikuls",
+            "csText": "Neurčitý člen • Jeden • Někdo",
+            "de": "ein"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "kāds vīrietis gaida ārā.",
+            "csText": "Venku čeká muž.",
+            "de": "ein"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "man ir viena grāmata.",
+            "csText": "Mám jednu knihu.",
+            "de": "ein"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņš meklē kādu pildspalvu.",
+            "csText": "Hledá pero.",
+            "de": "ein"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: ein nav tikai \"viens\". Bieži tas ir tikai nenoteiktais artikuls.",
+            "csText": "Pamatujte: nespecifický jeden/někdo → ein.",
+            "de": "ein"
+          }
+        ],
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "Neurčitý člen • Jeden • Někdo",
+          "explanation": "Používá se s podstatnými jmény mužského a středního rodu v jednotném čísle. Označuje jednu věc nebo osobu z několika možností.",
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "Venku čeká muž."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "Mám jednu knihu."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "Hledá pero."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: nespecifický jeden/někdo → ein."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Venku"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "einen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hledá"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ein"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ],
+                "green": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ein"
+                ],
+                "red": [
+                  "Ein"
+                ]
+              },
+              {
+                "blue": [
+                  "der",
+                  "die",
+                  "das"
+                ],
+                "green": [
+                  "konkrétně známa"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Ein není určitý člen.",
+            "Pokud je záležitost již konkrétně známa, je často potřeba der, die nebo das."
+          ]
+        },
+        "lvStudy": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "nenoteiktais artikuls",
+          "explanation": [
+            "Galvenā doma: ein ir nenoteiktais artikuls.",
+            "ein ir nenoteiktais artikuls vīriešu un vidus dzimtes lietvārdiem nominatīvā.",
+            "ein lieto vīriešu dzimtē: ein Mann.",
+            "ein lieto vidus dzimtē: ein Buch.",
+            "Sieviešu dzimtē lieto: eine.",
+            "Akuzatīvā vīriešu dzimtē: einen."
+          ],
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "kāds vīrietis gaida ārā."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "man ir viena grāmata."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "viņš meklē kādu pildspalvu."
+            },
+            {
+              "de": "Ein Kind spielt.",
+              "lv": "Bērns spēlējas."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ein Mann",
+              "meaning": "vīriešu dzimte",
+              "example": "Ein Mann wartet draußen."
+            },
+            {
+              "word": "eine Frau",
+              "meaning": "sieviešu dzimte",
+              "example": "eine Frau"
+            },
+            {
+              "word": "ein Buch",
+              "meaning": "vidus dzimte",
+              "example": "Ich habe ein Buch."
+            },
+            {
+              "word": "einen Mann",
+              "meaning": "akuzatīvs",
+              "example": "einen Mann"
+            }
+          ],
+          "tip": {
+            "text": "Atceries: ein nav tikai \"viens\". Bieži tas ir tikai nenoteiktais artikuls."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kāds"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viena"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "einen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kādu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ein"
+                ],
+                "purple": [
+                  "viens",
+                  "kāds"
+                ],
+                "green": [
+                  "nekonkrēts"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ein"
+                ],
+                "red": [
+                  "noteiktais artikuls"
+                ]
+              },
+              {
+                "blue": [
+                  "der",
+                  "die",
+                  "das"
+                ],
+                "green": [
+                  "konkrēti zināma"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "ein — vīriešu dzimte.",
+            "ein — vidus dzimte.",
+            "eine — sieviešu dzimte.",
+            "einen — akuzatīvs."
+          ]
+        }
+      },
+      "study": {
+        "id": "a1-ein",
+        "layout": "standardStudy",
+        "translation": "Neurčitý člen • Jeden • Někdo",
+        "explanation": "Používá se s podstatnými jmény mužského a středního rodu v jednotném čísle. Označuje jednu věc nebo osobu z několika možností.",
+        "examples": [
+          {
+            "de": "Ein Mann wartet draußen.",
+            "lv": "Venku čeká muž."
+          },
+          {
+            "de": "Ich habe ein Buch.",
+            "lv": "Mám jednu knihu."
+          },
+          {
+            "de": "Er sucht einen Stift.",
+            "lv": "Hledá pero."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: nespecifický jeden/někdo → ein."
+        },
+        "sectionAccents": {
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Venku"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "einen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hledá"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "example": {}
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "ein"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ],
+              "green": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "ein"
+              ],
+              "red": [
+                "Ein"
+              ]
+            },
+            {
+              "blue": [
+                "der",
+                "die",
+                "das"
+              ],
+              "green": [
+                "konkrétně známa"
+              ]
+            }
+          ]
+        },
+        "important": [
+          "Ein není určitý člen.",
+          "Pokud je záležitost již konkrétně známa, je často potřeba der, die nebo das."
+        ]
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-zu",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The repaired zu meanings and explanation focus are correct. Full-card context still contains unrelated stale or incomplete Czech content.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Do • At",
+          "proposedCs": null,
+          "reason": "The main label omits the repaired meanings k, příliš and infinitiv; study.translation contains the fuller correct focus. This was not changed by the listed repair.",
+          "confidence": "HIGH",
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "S přídavnými jmény může zu znamenat také.",
+          "proposedCs": null,
+          "reason": "This Czech sentence is incomplete, but explanation[2] was not among the HIGH-repaired fields. The repaired explanation[0] remains linguistically correct.",
+          "confidence": "HIGH",
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "study.important[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Zu teuer znamená „příliš drahé“, nikoli „příliš drahé“.",
+          "proposedCs": null,
+          "reason": "The contrast repeats the same meaning and is ineffective, but it is unrelated to the repaired translation and comparison meaning.",
+          "confidence": "HIGH",
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    },
+    {
+      "cardId": "a1-bitte",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The repaired tip correctly distinguishes lowercase bitte from capitalized Die Bitte. Several example translations remain mismatched in the pre-existing full-card context.",
+      "findings": [
+        {
+          "field": "study.examples[0..2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Prosím!; Prosím!; Jeden šálek kávy, prosím.",
+          "proposedCs": null,
+          "reason": "These Czech examples do not match their Latvian source texts: coffee request, invitation to enter, and Bitte schön are assigned inconsistently. The HIGH tip repair did not cause this.",
+          "confidence": "HIGH",
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "sectionAccents.tip",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Little",
+          "proposedCs": null,
+          "reason": "The accent label contains an English fragment and is unrelated to the repaired Czech tip content.",
+          "confidence": "HIGH",
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    },
+    {
+      "cardId": "a1-bitte-study",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "reason": "The repaired tip is correct and preserves the noun-versus-politeness distinction. Other example and accent mismatches are unrelated pre-existing issues.",
+      "findings": [
+        {
+          "field": "study.examples[1..2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Prosím!; Jeden šálek kávy, prosím.",
+          "proposedCs": null,
+          "reason": "The Latvian sources describe fulfilling a request and having two requests, but the Czech texts describe Bitte schön and ordering coffee. This predates the tip repair.",
+          "confidence": "HIGH",
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        },
+        {
+          "field": "sectionAccents.examples[0..5]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Several accents mark bitte where die Bitte is required.",
+          "proposedCs": null,
+          "reason": "Accent metadata is inconsistent with the noun and verb distinctions, but the repaired tip itself is linguistically correct.",
+          "confidence": "HIGH",
+          "relatedFindingId": null,
+          "relatedRepairBlock": null
+        }
+      ]
+    },
+    {
+      "cardId": "a1-ein",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": "HIGH",
+      "reason": "The HIGH repair correctly broadens the explanation from masculine singular to masculine and neuter singular. No repair-caused Czech meaning or grammar regression is present.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:46:21.636Z"
+}

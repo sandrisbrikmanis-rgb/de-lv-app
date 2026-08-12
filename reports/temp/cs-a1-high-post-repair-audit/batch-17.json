@@ -1,0 +1,3720 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-ihr",
+      "index": 292,
+      "de": "ihr",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Vy • Ji",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 92,
+          "field": "study.examples[0].lv",
+          "pirmd": "Přijdeš dnes večer?",
+          "pec": "Přijdete dnes večer?"
+        },
+        {
+          "block": 2,
+          "n": 93,
+          "field": "study.examples[2].lv",
+          "pirmd": "Kde bydlíš",
+          "pec": "Kde bydlíte?"
+        },
+        {
+          "block": 2,
+          "n": 94,
+          "field": "study.examples[4].lv",
+          "pirmd": "Máš čas?",
+          "pec": "Máte čas?"
+        },
+        {
+          "block": 2,
+          "n": 95,
+          "field": "study.explanation[2]",
+          "pirmd": "Ihr jako přivlastňovací zájmeno znamená ji (ihr Buch = její kniha).",
+          "pec": "Ihr jako přivlastňovací zájmeno znamená její/jejich (ihr Buch = její kniha)."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-ihr",
+        "index": 292,
+        "de": "ihr",
+        "layout": "standardStudy",
+        "csMain": "Vy • Ji",
+        "studyTranslation": "Vy • Ji",
+        "lvSourceMain": "jūs • viņai",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "jūs • viņai",
+            "csText": "Vy • Ji",
+            "de": "ihr"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "vai jūs nākat šovakar?",
+            "csText": "Přijdete dnes večer?",
+            "de": "ihr"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es dodu viņai grāmatu.",
+            "csText": "Dávám jí knihu.",
+            "de": "ihr"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "kur jūs dzīvojat?",
+            "csText": "Kde bydlíte?",
+            "de": "ihr"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "viņš raksta viņai vēstuli.",
+            "csText": "Napíše jí dopis.",
+            "de": "ihr"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "vai jums ir laiks?",
+            "csText": "Máte čas?",
+            "de": "ihr"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "tā ir viņas automašīna.",
+            "csText": "Je to její auto.",
+            "de": "ihr"
+          }
+        ],
+        "study": {
+          "id": "a1-ihr",
+          "layout": "standardStudy",
+          "translation": "Vy • Ji",
+          "explanation": [
+            "Hlavní myšlenka: ihr jsou dvě různá zájmena se stejným pravopisem - oslovující několik lidí (vy) a dativ zájmena sie (ona/ona).",
+            "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+            "Ihr jako přivlastňovací zájmeno znamená její/jejich (ihr Buch = její kniha).",
+            "Ihr jako tvar dativu (od sie) znamená k ní (Ich gebe ihr das Buch. = dávám jí knihu.).",
+            "Slovesný tvar (kommt, habt) ukazuje, že jde o vás – oslovení několika lidí.",
+            "Zdvořilá adresa je vždy Sie s velkým písmenem, nikoli ihr."
+          ],
+          "examples": [
+            {
+              "de": "Kommt ihr heute Abend?",
+              "lv": "Přijdete dnes večer?"
+            },
+            {
+              "de": "Ich gebe ihr das Buch.",
+              "lv": "Dávám jí knihu."
+            },
+            {
+              "de": "Wo wohnt ihr?",
+              "lv": "Kde bydlíte?"
+            },
+            {
+              "de": "Er schreibt ihr einen Brief.",
+              "lv": "Napíše jí dopis."
+            },
+            {
+              "de": "Habt ihr Zeit?",
+              "lv": "Máte čas?"
+            },
+            {
+              "de": "Das ist ihr Auto.",
+              "lv": "Je to její auto."
+            }
+          ],
+          "tip": [
+            "Ihr se slovesem dsk. forma (kommt, habt) = ty • Ihr vedle slova jako dativ nebo přivlastňovací = její/její.",
+            "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její."
+          ],
+          "important": [
+            "Ihr = vy (adresa několika) NEBO její (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+            "Zdvořilá adresa je vždy Sie s velkým písmenem, nikoli ihr.",
+            "Nesprávně: Ihr (zdvořilý) → Správně: Sie."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ihr"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přijdeš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dávám"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kde"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Napíše"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Máš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "její"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "ihr"
+                ]
+              },
+              {
+                "blue": [
+                  "ihr"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "Ihr",
+                  "Ihr",
+                  "Ihr"
+                ]
+              },
+              {
+                "blue": [
+                  "Sie"
+                ]
+              },
+              {
+                "blue": [
+                  "Sie"
+                ],
+                "red": [
+                  "Ihr"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-ihr",
+          "layout": "standardStudy",
+          "translation": "jūs • viņai",
+          "explanation": [
+            "Galvenā doma: ihr ir divi dažādi vietniekvārdi ar vienādu rakstību — uzruna vairākiem cilvēkiem (jūs) un vietniekvārda sie datīva forma (viņai/viņas).",
+            "Ar mazo ihr kā uzrunu vairākiem cilvēkiem tulko kā jūs (Kommt ihr mit? = Vai jūs nākat līdzi?).",
+            "ihr kā piederības vietniekvārds nozīmē viņas (ihr Buch = viņas grāmata).",
+            "ihr kā datīva forma (no sie) nozīmē viņai (Ich gebe ihr das Buch. = Es dodu viņai grāmatu.).",
+            "Darbības vārda forma (kommt, habt) parāda, ka runa ir par jūs — uzrunu vairākiem cilvēkiem.",
+            "Pieklājīgā uzruna vienmēr ir Sie ar lielo burtu, nevis ihr."
+          ],
+          "examples": [
+            {
+              "de": "Kommt ihr heute Abend?",
+              "lv": "vai jūs nākat šovakar?"
+            },
+            {
+              "de": "Ich gebe ihr das Buch.",
+              "lv": "es dodu viņai grāmatu."
+            },
+            {
+              "de": "Wo wohnt ihr?",
+              "lv": "kur jūs dzīvojat?"
+            },
+            {
+              "de": "Er schreibt ihr einen Brief.",
+              "lv": "viņš raksta viņai vēstuli."
+            },
+            {
+              "de": "Habt ihr Zeit?",
+              "lv": "vai jums ir laiks?"
+            },
+            {
+              "de": "Das ist ihr Auto.",
+              "lv": "tā ir viņas automašīna."
+            }
+          ],
+          "tip": [
+            "ihr ar darbības vārda dsk. formu (kommt, habt) = jūs; ihr blakus vārdam kā datīvs vai piederība = viņai/viņas.",
+            "Pārbaudi: Habt ihr...? / Kommt ihr...? = jūs; Ich gebe ihr... / ihr Buch = viņai/viņas."
+          ],
+          "important": [
+            "ihr = jūs (uzruna vairākiem) VAI viņai (datīvs) VAI viņas (piederība) — pēc konteksta.",
+            "Pieklājīgā uzruna vienmēr Sie ar lielo burtu, nevis ihr.",
+            "Nepareizi: Ihr (pieklājīgi) → Pareizi: Sie."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ihr"
+              ],
+              "purple": [
+                "jūs",
+                "viņai",
+                "viņas"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jūs"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viņai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jūs"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viņai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jums"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "viņas"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "ihr"
+                ]
+              },
+              {
+                "blue": [
+                  "ihr"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "jūs",
+                  "viņai",
+                  "viņas"
+                ]
+              },
+              {
+                "blue": [
+                  "Sie"
+                ]
+              },
+              {
+                "blue": [
+                  "Sie"
+                ],
+                "red": [
+                  "Ihr"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-ihr",
+        "layout": "standardStudy",
+        "translation": "Vy • Ji",
+        "explanation": [
+          "Hlavní myšlenka: ihr jsou dvě různá zájmena se stejným pravopisem - oslovující několik lidí (vy) a dativ zájmena sie (ona/ona).",
+          "S malými písmeny se ihr jako adresa pro několik lidí překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
+          "Ihr jako přivlastňovací zájmeno znamená její/jejich (ihr Buch = její kniha).",
+          "Ihr jako tvar dativu (od sie) znamená k ní (Ich gebe ihr das Buch. = dávám jí knihu.).",
+          "Slovesný tvar (kommt, habt) ukazuje, že jde o vás – oslovení několika lidí.",
+          "Zdvořilá adresa je vždy Sie s velkým písmenem, nikoli ihr."
+        ],
+        "examples": [
+          {
+            "de": "Kommt ihr heute Abend?",
+            "lv": "Přijdete dnes večer?"
+          },
+          {
+            "de": "Ich gebe ihr das Buch.",
+            "lv": "Dávám jí knihu."
+          },
+          {
+            "de": "Wo wohnt ihr?",
+            "lv": "Kde bydlíte?"
+          },
+          {
+            "de": "Er schreibt ihr einen Brief.",
+            "lv": "Napíše jí dopis."
+          },
+          {
+            "de": "Habt ihr Zeit?",
+            "lv": "Máte čas?"
+          },
+          {
+            "de": "Das ist ihr Auto.",
+            "lv": "Je to její auto."
+          }
+        ],
+        "tip": [
+          "Ihr se slovesem dsk. forma (kommt, habt) = ty • Ihr vedle slova jako dativ nebo přivlastňovací = její/její.",
+          "Kontrola: Habt ihr...? / Kommt ihr...? = ty • Ich gebe ihr... / ihr Buch = pro ni/její."
+        ],
+        "important": [
+          "Ihr = vy (adresa několika) NEBO její (dativ) NEBO její (přivlastňovací) – v závislosti na kontextu.",
+          "Zdvořilá adresa je vždy Sie s velkým písmenem, nikoli ihr.",
+          "Nesprávně: Ihr (zdvořilý) → Správně: Sie."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "ihr"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "ihr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Přijdeš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ihr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dávám"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ihr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kde"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ihr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Napíše"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ihr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Máš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ihr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "její"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "ihr"
+              ]
+            },
+            {
+              "blue": [
+                "ihr"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "purple": [
+                "Ihr",
+                "Ihr",
+                "Ihr"
+              ]
+            },
+            {
+              "blue": [
+                "Sie"
+              ]
+            },
+            {
+              "blue": [
+                "Sie"
+              ],
+              "red": [
+                "Ihr"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-im",
+      "index": 293,
+      "de": "im",
+      "auditType": "high_repair_changed_card",
+      "csMain": "V • Kde?",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 96,
+          "field": "study.explanation[1]",
+          "pirmd": "Plná forma: in dem (komu?).",
+          "pec": "Plná forma: in dem (kde?, 3. pád)."
+        },
+        {
+          "block": 2,
+          "n": 97,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Uvnitř kde? (komu?)",
+          "pec": "Uvnitř, kde? (3. pád)"
+        },
+        {
+          "block": 2,
+          "n": 98,
+          "field": "study.comparison[1].meaning",
+          "pirmd": "Dovnitř, kam? (účet)",
+          "pec": "Dovnitř, kam? (4. pád)"
+        },
+        {
+          "block": 2,
+          "n": 99,
+          "field": "study.important[1]",
+          "pirmd": "Odpovědi kam?, ne kde? — umístění, nikoli pohyb.",
+          "pec": "Odpovídá na otázku kde?, ne kam? — označuje umístění, nikoli pohyb."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-im",
+        "index": 293,
+        "de": "im",
+        "layout": "standardStudy",
+        "csMain": "V • Kde?",
+        "studyTranslation": "V • Kde?",
+        "lvSourceMain": "iekšā (-ā) • kur?",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "iekšā (-ā) • kur?",
+            "csText": "V • Kde?",
+            "de": "im"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es esmu parkā.",
+            "csText": "Jsem v parku",
+            "de": "im"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mēs dzīvojam centrā.",
+            "csText": "Bydlíme v centru.",
+            "de": "im"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "vasarā ir silti.",
+            "csText": "V létě je teplo.",
+            "de": "im"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "viņš strādā birojā.",
+            "csText": "Pracuje v kanceláři.",
+            "de": "im"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "bērns spēlē dārzā.",
+            "csText": "Dítě si hraje na zahradě.",
+            "de": "im"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "janvārī es braucu uz Vīni.",
+            "csText": "V lednu jsem jel do Vídně.",
+            "de": "im"
+          },
+          {
+            "field": "study.examples[6].lv",
+            "lvSource": "viņa ir kino.",
+            "csText": "Je v kině.",
+            "de": "im"
+          },
+          {
+            "field": "study.examples[7].lv",
+            "lvSource": "mēs tiekamies restorānā.",
+            "csText": "Sejdeme se v restauraci.",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "im",
+            "csText": "im",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "iekšā, kur? (kam?)",
+            "csText": "Uvnitř, kde? (3. pád)",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "ins",
+            "csText": "ins",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "uz iekšu, kurp? (Akk.)",
+            "csText": "Dovnitř, kam? (4. pád)",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "in",
+            "csText": "in",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "iekšā / uz (bez artikula)",
+            "csText": "V / do (žádný článek)",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "am",
+            "csText": "am",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "pie, kur? (kam?)",
+            "csText": "Kde, kde? (komu?)",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[4].word",
+            "lvSource": "auf",
+            "csText": "auf",
+            "de": "im"
+          },
+          {
+            "field": "study.comparison[4].meaning",
+            "lvSource": "uz virsmas",
+            "csText": "Na povrchu",
+            "de": "im"
+          }
+        ],
+        "study": {
+          "id": "a1-im",
+          "layout": "standardStudy",
+          "translation": "V • Kde?",
+          "explanation": [
+            "Im je zkratka pro předložku in a člen dem.",
+            "Plná forma: in dem (kde?, 3. pád).",
+            "Používá se s podstatnými jmény mužského rodu a podstatnými jmény libovolného pohlaví při odpovědi na otázku kde? — umístění.",
+            "S časem a ročními obdobími: v lednu, v létě, v zimě.",
+            "V praxi se téměř vždy používá im místo full in dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin im Park.",
+              "lv": "Jsem v parku"
+            },
+            {
+              "de": "Wir wohnen im Zentrum.",
+              "lv": "Bydlíme v centru."
+            },
+            {
+              "de": "Im Sommer ist es warm.",
+              "lv": "V létě je teplo."
+            },
+            {
+              "de": "Er arbeitet im Büro.",
+              "lv": "Pracuje v kanceláři."
+            },
+            {
+              "de": "Das Kind spielt im Garten.",
+              "lv": "Dítě si hraje na zahradě."
+            },
+            {
+              "de": "Im Januar fahre ich nach Wien.",
+              "lv": "V lednu jsem jel do Vídně."
+            },
+            {
+              "de": "Sie ist im Kino.",
+              "lv": "Je v kině."
+            },
+            {
+              "de": "Wir treffen uns im Restaurant.",
+              "lv": "Sejdeme se v restauraci."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "im",
+              "meaning": "Uvnitř, kde? (3. pád)",
+              "example": "im Park – V parku"
+            },
+            {
+              "word": "ins",
+              "meaning": "Dovnitř, kam? (4. pád)",
+              "example": "ins Kino – Do kina"
+            },
+            {
+              "word": "in",
+              "meaning": "V / do (žádný článek)",
+              "example": "in Berlin – V Berlíně"
+            },
+            {
+              "word": "am",
+              "meaning": "Kde, kde? (komu?)",
+              "example": "am Fenster – U okna"
+            },
+            {
+              "word": "auf",
+              "meaning": "Na povrchu",
+              "example": "auf dem Tisch – Na stole"
+            }
+          ],
+          "tip": [
+            "Pamatujte: in + dem → im (komu?, kde?).",
+            "Kde? → ins • Kde? → im - nezaměňujte tyto dva!"
+          ],
+          "important": [
+            "Im = in dem, pouze s podstatným jménem mužského nebo středního rodu pro koho? ve skloňování.",
+            "Odpovídá na otázku kde?, ne kam? — označuje umístění, nikoli pohyb.",
+            "S měsíci a ročními obdobími: im März, im Herbst.",
+            "Pro ženy: in der Schule, ne im Schule."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "im",
+                "in dem"
+              ],
+              "purple": [
+                "zkratka"
+              ],
+              "green": [
+                "zkratka",
+                "zkratka"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "parku"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "centru"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "létě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pracuje"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dítě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lednu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kině"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Sejdeme"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "im"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Uvnitř",
+                    "Uvnitř"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "im Park"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dovnitř",
+                    "Dovnitř"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "ins Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "žádný"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in Berlin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Kde"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "am Fenster"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "povrchu"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "auf dem Tisch"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "im"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              },
+              {
+                "red": [
+                  "ins",
+                  "Pamatujte"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "im"
+                ],
+                "purple": [
+                  "in dem"
+                ],
+                "green": [
+                  "dem"
+                ]
+              },
+              {
+                "purple": [
+                  "Odpovědi"
+                ],
+                "green": [
+                  "Odpovědi"
+                ]
+              },
+              {
+                "green": [
+                  "im März",
+                  "im Herbst"
+                ]
+              },
+              {
+                "yellow": [
+                  "in der Schule"
+                ],
+                "red": [
+                  "im Schule"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-im",
+          "layout": "standardStudy",
+          "translation": "iekšā (-ā) • kur?",
+          "explanation": [
+            "im ir prievārda in un artikula dem saīsinājums.",
+            "Pilnā forma: in dem (kam?).",
+            "Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad atbild uz jautājumu kur? — atrašanās vieta.",
+            "Ar laiku un gadalaikiem: im Januar, im Sommer, im Winter.",
+            "Praksē gandrīz vienmēr lieto im, nevis pilno in dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin im Park.",
+              "lv": "es esmu parkā."
+            },
+            {
+              "de": "Wir wohnen im Zentrum.",
+              "lv": "mēs dzīvojam centrā."
+            },
+            {
+              "de": "Im Sommer ist es warm.",
+              "lv": "vasarā ir silti."
+            },
+            {
+              "de": "Er arbeitet im Büro.",
+              "lv": "viņš strādā birojā."
+            },
+            {
+              "de": "Das Kind spielt im Garten.",
+              "lv": "bērns spēlē dārzā."
+            },
+            {
+              "de": "Im Januar fahre ich nach Wien.",
+              "lv": "janvārī es braucu uz Vīni."
+            },
+            {
+              "de": "Sie ist im Kino.",
+              "lv": "viņa ir kino."
+            },
+            {
+              "de": "Wir treffen uns im Restaurant.",
+              "lv": "mēs tiekamies restorānā."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "im",
+              "meaning": "iekšā, kur? (kam?)",
+              "example": "im Park – parkā"
+            },
+            {
+              "word": "ins",
+              "meaning": "uz iekšu, kurp? (Akk.)",
+              "example": "ins Kino – uz kino"
+            },
+            {
+              "word": "in",
+              "meaning": "iekšā / uz (bez artikula)",
+              "example": "in Berlin – Berlīnē"
+            },
+            {
+              "word": "am",
+              "meaning": "pie, kur? (kam?)",
+              "example": "am Fenster – pie loga"
+            },
+            {
+              "word": "auf",
+              "meaning": "uz virsmas",
+              "example": "auf dem Tisch – uz galda"
+            }
+          ],
+          "tip": [
+            "Atceries: in + dem → im (kam?, kur?).",
+            "Kurp? → ins; kur? → im — nesajauc šos divus!"
+          ],
+          "important": [
+            "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
+            "Atbild uz kur?, nevis kurp? — atrašanās vieta, nevis kustība.",
+            "Ar mēnešiem un gadalaikiem: im März, im Herbst.",
+            "Sieviešu dzimtei: in der Schule, nevis im Schule."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "im",
+                "in dem"
+              ],
+              "purple": [
+                "kur?"
+              ],
+              "green": [
+                "kam?",
+                "atrašanās vieta"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "parkā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "centrā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vasarā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "birojā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dārzā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "janvārī"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kino"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "restorānā"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "im"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iekšā",
+                    "kur?"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "im Park"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz iekšu",
+                    "kurp?"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "ins Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iekšā"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in Berlin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "am Fenster"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz virsmas"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "auf dem Tisch"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "im"
+                ],
+                "purple": [
+                  "kur?"
+                ]
+              },
+              {
+                "red": [
+                  "ins",
+                  "kurp?"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "im"
+                ],
+                "purple": [
+                  "in dem"
+                ],
+                "green": [
+                  "kam?"
+                ]
+              },
+              {
+                "purple": [
+                  "kur?"
+                ],
+                "green": [
+                  "atrašanās vieta"
+                ]
+              },
+              {
+                "green": [
+                  "im März",
+                  "im Herbst"
+                ]
+              },
+              {
+                "yellow": [
+                  "in der Schule"
+                ],
+                "red": [
+                  "im Schule"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-im",
+        "layout": "standardStudy",
+        "translation": "V • Kde?",
+        "explanation": [
+          "Im je zkratka pro předložku in a člen dem.",
+          "Plná forma: in dem (kde?, 3. pád).",
+          "Používá se s podstatnými jmény mužského rodu a podstatnými jmény libovolného pohlaví při odpovědi na otázku kde? — umístění.",
+          "S časem a ročními obdobími: v lednu, v létě, v zimě.",
+          "V praxi se téměř vždy používá im místo full in dem."
+        ],
+        "examples": [
+          {
+            "de": "Ich bin im Park.",
+            "lv": "Jsem v parku"
+          },
+          {
+            "de": "Wir wohnen im Zentrum.",
+            "lv": "Bydlíme v centru."
+          },
+          {
+            "de": "Im Sommer ist es warm.",
+            "lv": "V létě je teplo."
+          },
+          {
+            "de": "Er arbeitet im Büro.",
+            "lv": "Pracuje v kanceláři."
+          },
+          {
+            "de": "Das Kind spielt im Garten.",
+            "lv": "Dítě si hraje na zahradě."
+          },
+          {
+            "de": "Im Januar fahre ich nach Wien.",
+            "lv": "V lednu jsem jel do Vídně."
+          },
+          {
+            "de": "Sie ist im Kino.",
+            "lv": "Je v kině."
+          },
+          {
+            "de": "Wir treffen uns im Restaurant.",
+            "lv": "Sejdeme se v restauraci."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "im",
+            "meaning": "Uvnitř, kde? (3. pád)",
+            "example": "im Park – V parku"
+          },
+          {
+            "word": "ins",
+            "meaning": "Dovnitř, kam? (4. pád)",
+            "example": "ins Kino – Do kina"
+          },
+          {
+            "word": "in",
+            "meaning": "V / do (žádný článek)",
+            "example": "in Berlin – V Berlíně"
+          },
+          {
+            "word": "am",
+            "meaning": "Kde, kde? (komu?)",
+            "example": "am Fenster – U okna"
+          },
+          {
+            "word": "auf",
+            "meaning": "Na povrchu",
+            "example": "auf dem Tisch – Na stole"
+          }
+        ],
+        "tip": [
+          "Pamatujte: in + dem → im (komu?, kde?).",
+          "Kde? → ins • Kde? → im - nezaměňujte tyto dva!"
+        ],
+        "important": [
+          "Im = in dem, pouze s podstatným jménem mužského nebo středního rodu pro koho? ve skloňování.",
+          "Odpovídá na otázku kde?, ne kam? — označuje umístění, nikoli pohyb.",
+          "S měsíci a ročními obdobími: im März, im Herbst.",
+          "Pro ženy: in der Schule, ne im Schule."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "im",
+              "in dem"
+            ],
+            "purple": [
+              "zkratka"
+            ],
+            "green": [
+              "zkratka",
+              "zkratka"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "parku"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "centru"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "létě"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Pracuje"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dítě"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "lednu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "kině"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Sejdeme"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "im"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Uvnitř",
+                  "Uvnitř"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "im Park"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ins"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Dovnitř",
+                  "Dovnitř"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "ins Kino"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "in"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "žádný"
+                ]
+              },
+              "example": {
+                "green": [
+                  "in Berlin"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "am"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Kde"
+                ]
+              },
+              "example": {
+                "green": [
+                  "am Fenster"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "auf"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "povrchu"
+                ]
+              },
+              "example": {
+                "red": [
+                  "auf dem Tisch"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "im"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            },
+            {
+              "red": [
+                "ins",
+                "Pamatujte"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "im"
+              ],
+              "purple": [
+                "in dem"
+              ],
+              "green": [
+                "dem"
+              ]
+            },
+            {
+              "purple": [
+                "Odpovědi"
+              ],
+              "green": [
+                "Odpovědi"
+              ]
+            },
+            {
+              "green": [
+                "im März",
+                "im Herbst"
+              ]
+            },
+            {
+              "yellow": [
+                "in der Schule"
+              ],
+              "red": [
+                "im Schule"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-ins",
+      "index": 296,
+      "de": "ins",
+      "auditType": "high_repair_changed_card",
+      "csMain": "V • Do • Kam?",
+      "repairedFields": [
+        {
+          "block": 2,
+          "n": 100,
+          "field": "study.explanation[1]",
+          "pirmd": "Plná forma: v das (kde?).",
+          "pec": "Plná forma: in das (kam?)."
+        },
+        {
+          "block": 3,
+          "n": 101,
+          "field": "study.explanation[4]",
+          "pirmd": "V praxi se téměř vždy používá místo plného indas.",
+          "pec": "V praxi se téměř vždy používá místo plné formy in das."
+        },
+        {
+          "block": 3,
+          "n": 102,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Dovnitř, kam? (účet)",
+          "pec": "Dovnitř, kam? (4. pád)"
+        },
+        {
+          "block": 3,
+          "n": 103,
+          "field": "study.comparison[4].meaning",
+          "pirmd": "Komu / u (koho?)",
+          "pec": "K / ke, kam? (3. pád)"
+        },
+        {
+          "block": 3,
+          "n": 104,
+          "field": "study.tip[1]",
+          "pirmd": "Kde? → ins • Kde? → im - to je hlavní rozdíl!",
+          "pec": "Kam? → ins • Kde? → im — to je hlavní rozdíl!"
+        },
+        {
+          "block": 3,
+          "n": 105,
+          "field": "study.examples[7].lv",
+          "pirmd": "Prosím jděte do centra.",
+          "pec": "Prosím, jeď do centra."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-ins",
+        "index": 296,
+        "de": "ins",
+        "layout": "standardStudy",
+        "csMain": "V • Do • Kam?",
+        "studyTranslation": "V • Do • Kam?",
+        "lvSourceMain": "iekšā • uz iekšu • kurp?",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "iekšā • uz iekšu • kurp?",
+            "csText": "V • Do • Kam?",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es eju uz kino.",
+            "csText": "Jdu do kina",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "viņa iet gulēt.",
+            "csText": "Jde spát.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs braucam uz ārzemēm.",
+            "csText": "Jedeme do zahraničí.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "nāc mājā!",
+            "csText": "Pojď do domu!",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "viņš ieliek naudu makā.",
+            "csText": "Vkládá peníze do peněženky.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "mēs ejam uz muzeju.",
+            "csText": "Jdeme do muzea.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[6].lv",
+            "lvSource": "viņa liek ziedus ūdenī.",
+            "csText": "Dává květiny do vody.",
+            "de": "ins"
+          },
+          {
+            "field": "study.examples[7].lv",
+            "lvSource": "lūdzu, brauc uz centru.",
+            "csText": "Prosím, jeď do centra.",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "ins",
+            "csText": "ins",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "uz iekšu, kurp? (Akk.)",
+            "csText": "Dovnitř, kam? (4. pád)",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "im",
+            "csText": "im",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "iekšā, kur? (kam?)",
+            "csText": "Uvnitř kde? (komu?)",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "in",
+            "csText": "in",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "iekšā / uz (ar patstāvīgu artikulu)",
+            "csText": "V / do (s nezávislým článkem)",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "aufs",
+            "csText": "aufs",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "uz virsmu (Akk.)",
+            "csText": "Na povrch (Akk.)",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[4].word",
+            "lvSource": "zum",
+            "csText": "zum",
+            "de": "ins"
+          },
+          {
+            "field": "study.comparison[4].meaning",
+            "lvSource": "uz / pie (kam?)",
+            "csText": "K / ke, kam? (3. pád)",
+            "de": "ins"
+          }
+        ],
+        "study": {
+          "id": "a1-ins",
+          "layout": "standardStudy",
+          "translation": "V • Do • Kam?",
+          "explanation": [
+            "Ins je zkratka předložky in a členu das.",
+            "Plná forma: in das (kam?).",
+            "Používá se s podstatnými jmény jakéhokoli pohlaví při odpovědi na otázku kde? - pohyb dovnitř.",
+            "Často se slovesy: gehen, fahren, kommen, legen, stecken.",
+            "V praxi se téměř vždy používá místo plné formy in das."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe ins Kino.",
+              "lv": "Jdu do kina"
+            },
+            {
+              "de": "Sie geht ins Bett.",
+              "lv": "Jde spát."
+            },
+            {
+              "de": "Wir fahren ins Ausland.",
+              "lv": "Jedeme do zahraničí."
+            },
+            {
+              "de": "Komm ins Haus!",
+              "lv": "Pojď do domu!"
+            },
+            {
+              "de": "Er steckt das Geld in den Geldbeutel.",
+              "lv": "Vkládá peníze do peněženky."
+            },
+            {
+              "de": "Wir gehen ins Museum.",
+              "lv": "Jdeme do muzea."
+            },
+            {
+              "de": "Sie legt die Blumen ins Wasser.",
+              "lv": "Dává květiny do vody."
+            },
+            {
+              "de": "Fahr bitte ins Zentrum.",
+              "lv": "Prosím, jeď do centra."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ins",
+              "meaning": "Dovnitř, kam? (4. pád)",
+              "example": "ins Kino – Do kina"
+            },
+            {
+              "word": "im",
+              "meaning": "Uvnitř kde? (komu?)",
+              "example": "im Kino – Kino"
+            },
+            {
+              "word": "in",
+              "meaning": "V / do (s nezávislým článkem)",
+              "example": "in die Stadt – Do města"
+            },
+            {
+              "word": "aufs",
+              "meaning": "Na povrch (Akk.)",
+              "example": "aufs Dach – Na střeše"
+            },
+            {
+              "word": "zum",
+              "meaning": "K / ke, kam? (3. pád)",
+              "example": "zum Arzt – K lékaři"
+            }
+          ],
+          "tip": [
+            "Pamatujte: in + das → ins (kde?, kde?).",
+            "Kam? → ins • Kde? → im — to je hlavní rozdíl!"
+          ],
+          "important": [
+            "Ins = in das, pouze s podstatným jménem libovolného rodu kde? ve skloňování.",
+            "Odpovědi kam?, ne kde? — pohyb, nikoli umístění.",
+            "Pro mužský rod: in den Wald • Žen: v die Schule.",
+            "Nepleťte si: ins Kino gehen (do kina) vs. im Kino sein (být v kině)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ins",
+                "Ins"
+              ],
+              "purple": [
+                "Ins",
+                "Ins",
+                "Ins"
+              ],
+              "green": [
+                "Ins",
+                "Ins"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jde"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jedeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pojď"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in den"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vkládá",
+                    "Vkládá",
+                    "Vkládá"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dává"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dovnitř",
+                    "Dovnitř"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ins Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "im"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Uvnitř",
+                    "Uvnitř"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "im Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "nezávislým",
+                    "nezávislým",
+                    "nezávislým"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Stadt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "povrch"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "aufs Dach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Komu",
+                    "Komu"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "ins"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              },
+              {
+                "red": [
+                  "im",
+                  "Pamatujte"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "ins"
+                ],
+                "purple": [
+                  "in das"
+                ],
+                "green": [
+                  "Ins"
+                ]
+              },
+              {
+                "purple": [
+                  "Odpovědi"
+                ],
+                "green": [
+                  "Odpovědi"
+                ]
+              },
+              {
+                "yellow": [
+                  "in den Wald"
+                ],
+                "green": [
+                  "Pro"
+                ]
+              },
+              {
+                "blue": [
+                  "ins Kino gehen"
+                ],
+                "red": [
+                  "im Kino sein"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-ins",
+          "layout": "standardStudy",
+          "translation": "iekšā • uz iekšu • kurp?",
+          "explanation": [
+            "ins ir prievārda in un artikula das saīsinājums.",
+            "Pilnā forma: in das (kurp?).",
+            "Lieto ar nekatras dzimtes lietvārdiem, kad atbild uz jautājumu kurp? — kustība uz iekšu.",
+            "Bieži ar darbības vārdiem: gehen, fahren, kommen, legen, stecken.",
+            "Praksē gandrīz vienmēr lieto ins, nevis pilno in das."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe ins Kino.",
+              "lv": "es eju uz kino."
+            },
+            {
+              "de": "Sie geht ins Bett.",
+              "lv": "viņa iet gulēt."
+            },
+            {
+              "de": "Wir fahren ins Ausland.",
+              "lv": "mēs braucam uz ārzemēm."
+            },
+            {
+              "de": "Komm ins Haus!",
+              "lv": "nāc mājā!"
+            },
+            {
+              "de": "Er steckt das Geld in den Geldbeutel.",
+              "lv": "viņš ieliek naudu makā."
+            },
+            {
+              "de": "Wir gehen ins Museum.",
+              "lv": "mēs ejam uz muzeju."
+            },
+            {
+              "de": "Sie legt die Blumen ins Wasser.",
+              "lv": "viņa liek ziedus ūdenī."
+            },
+            {
+              "de": "Fahr bitte ins Zentrum.",
+              "lv": "lūdzu, brauc uz centru."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ins",
+              "meaning": "uz iekšu, kurp? (Akk.)",
+              "example": "ins Kino – uz kino"
+            },
+            {
+              "word": "im",
+              "meaning": "iekšā, kur? (kam?)",
+              "example": "im Kino – kino"
+            },
+            {
+              "word": "in",
+              "meaning": "iekšā / uz (ar patstāvīgu artikulu)",
+              "example": "in die Stadt – uz pilsētu"
+            },
+            {
+              "word": "aufs",
+              "meaning": "uz virsmu (Akk.)",
+              "example": "aufs Dach – uz jumta"
+            },
+            {
+              "word": "zum",
+              "meaning": "uz / pie (kam?)",
+              "example": "zum Arzt – pie ārsta"
+            }
+          ],
+          "tip": [
+            "Atceries: in + das → ins (kurp?, kurp?).",
+            "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
+          ],
+          "important": [
+            "ins = in das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
+            "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
+            "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
+            "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ins",
+                "in das"
+              ],
+              "purple": [
+                "iekšu",
+                "uz iekšu",
+                "kurp?"
+              ],
+              "green": [
+                "kurp?",
+                "kustība"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz kino"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gulēt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz ārzemēm"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mājā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in den"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ieliek",
+                    "naudu",
+                    "makā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz muzeju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ūdenī"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz centru"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz iekšu",
+                    "kurp?"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ins Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "im"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iekšā",
+                    "kur?"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "im Kino"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iekšā",
+                    "uz",
+                    "patstāvīgu artikulu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Stadt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz virsmu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "aufs Dach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "ins"
+                ],
+                "purple": [
+                  "kurp?"
+                ]
+              },
+              {
+                "red": [
+                  "im",
+                  "kur?"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "ins"
+                ],
+                "purple": [
+                  "in das"
+                ],
+                "green": [
+                  "kurp?"
+                ]
+              },
+              {
+                "purple": [
+                  "kurp?"
+                ],
+                "green": [
+                  "kustība"
+                ]
+              },
+              {
+                "yellow": [
+                  "in den Wald"
+                ],
+                "green": [
+                  "in die Schule"
+                ]
+              },
+              {
+                "blue": [
+                  "ins Kino gehen"
+                ],
+                "red": [
+                  "im Kino sein"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-ins",
+        "layout": "standardStudy",
+        "translation": "V • Do • Kam?",
+        "explanation": [
+          "Ins je zkratka předložky in a členu das.",
+          "Plná forma: in das (kam?).",
+          "Používá se s podstatnými jmény jakéhokoli pohlaví při odpovědi na otázku kde? - pohyb dovnitř.",
+          "Často se slovesy: gehen, fahren, kommen, legen, stecken.",
+          "V praxi se téměř vždy používá místo plné formy in das."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe ins Kino.",
+            "lv": "Jdu do kina"
+          },
+          {
+            "de": "Sie geht ins Bett.",
+            "lv": "Jde spát."
+          },
+          {
+            "de": "Wir fahren ins Ausland.",
+            "lv": "Jedeme do zahraničí."
+          },
+          {
+            "de": "Komm ins Haus!",
+            "lv": "Pojď do domu!"
+          },
+          {
+            "de": "Er steckt das Geld in den Geldbeutel.",
+            "lv": "Vkládá peníze do peněženky."
+          },
+          {
+            "de": "Wir gehen ins Museum.",
+            "lv": "Jdeme do muzea."
+          },
+          {
+            "de": "Sie legt die Blumen ins Wasser.",
+            "lv": "Dává květiny do vody."
+          },
+          {
+            "de": "Fahr bitte ins Zentrum.",
+            "lv": "Prosím, jeď do centra."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ins",
+            "meaning": "Dovnitř, kam? (4. pád)",
+            "example": "ins Kino – Do kina"
+          },
+          {
+            "word": "im",
+            "meaning": "Uvnitř kde? (komu?)",
+            "example": "im Kino – Kino"
+          },
+          {
+            "word": "in",
+            "meaning": "V / do (s nezávislým článkem)",
+            "example": "in die Stadt – Do města"
+          },
+          {
+            "word": "aufs",
+            "meaning": "Na povrch (Akk.)",
+            "example": "aufs Dach – Na střeše"
+          },
+          {
+            "word": "zum",
+            "meaning": "K / ke, kam? (3. pád)",
+            "example": "zum Arzt – K lékaři"
+          }
+        ],
+        "tip": [
+          "Pamatujte: in + das → ins (kde?, kde?).",
+          "Kam? → ins • Kde? → im — to je hlavní rozdíl!"
+        ],
+        "important": [
+          "Ins = in das, pouze s podstatným jménem libovolného rodu kde? ve skloňování.",
+          "Odpovědi kam?, ne kde? — pohyb, nikoli umístění.",
+          "Pro mužský rod: in den Wald • Žen: v die Schule.",
+          "Nepleťte si: ins Kino gehen (do kina) vs. im Kino sein (být v kině)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "ins",
+              "Ins"
+            ],
+            "purple": [
+              "Ins",
+              "Ins",
+              "Ins"
+            ],
+            "green": [
+              "Ins",
+              "Ins"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jde"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jedeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Pojď"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "in den"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vkládá",
+                  "Vkládá",
+                  "Vkládá"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dává"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ins"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "ins"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Dovnitř",
+                  "Dovnitř"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "ins Kino"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "im"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Uvnitř",
+                  "Uvnitř"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "im Kino"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "in"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "nezávislým",
+                  "nezávislým",
+                  "nezávislým"
+                ]
+              },
+              "example": {
+                "green": [
+                  "in die Stadt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "aufs"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "povrch"
+                ]
+              },
+              "example": {
+                "green": [
+                  "aufs Dach"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zum"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Komu",
+                  "Komu"
+                ]
+              },
+              "example": {
+                "red": [
+                  "zum Arzt"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "ins"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            },
+            {
+              "red": [
+                "im",
+                "Pamatujte"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "ins"
+              ],
+              "purple": [
+                "in das"
+              ],
+              "green": [
+                "Ins"
+              ]
+            },
+            {
+              "purple": [
+                "Odpovědi"
+              ],
+              "green": [
+                "Odpovědi"
+              ]
+            },
+            {
+              "yellow": [
+                "in den Wald"
+              ],
+              "green": [
+                "Pro"
+              ]
+            },
+            {
+              "blue": [
+                "ins Kino gehen"
+              ],
+              "red": [
+                "im Kino sein"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-jung",
+      "index": 304,
+      "de": "jung",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Mladý (o lidech)",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 106,
+          "field": "study.examples[4].lv",
+          "pirmd": "Je to nový pár.",
+          "pec": "Je to mladý pár."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-jung",
+        "index": 304,
+        "de": "jung",
+        "layout": "standardStudy",
+        "csMain": "Mladý (o lidech)",
+        "studyTranslation": "Mladý (o lidech)",
+        "lvSourceMain": "jauns (par cilvēkiem)",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "jauns (par cilvēkiem)",
+            "csText": "Mladý (o lidech)",
+            "de": "jung"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "viņa ir vēl jauna.",
+            "csText": "Je ještě mladá.",
+            "de": "jung"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "suns ir jauns.",
+            "csText": "Pes je mladý.",
+            "de": "jung"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs esam vēl jauni.",
+            "csText": "Jsme ještě mladí.",
+            "de": "jung"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "viņš izskatās ļoti jauns.",
+            "csText": "Vypadá velmi mladě.",
+            "de": "jung"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "tas ir jauns pāris.",
+            "csText": "Je to mladý pár.",
+            "de": "jung"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "jaunā sieviete smaida.",
+            "csText": "Usmívá se mladá žena.",
+            "de": "jung"
+          },
+          {
+            "field": "study.examples[6].lv",
+            "lvSource": "mans brālis ir jaunāks nekā es.",
+            "csText": "Můj bratr je mladší než já.",
+            "de": "jung"
+          }
+        ],
+        "study": {
+          "id": "a1-jung",
+          "layout": "standardStudy",
+          "translation": "Mladý (o lidech)",
+          "explanation": [
+            "Hlavní myšlenka: jung znamená mladý věk – používá se pro lidi a zvířata, ne pro věci.",
+            "Jung popisuje věk – opak je alt (starý).",
+            "V češtině má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
+            "Pro věci nedávno vytvořené nebo získané použijte neu, ne jung.",
+            "Jung se používá i v přeneseném smyslu: nová generace, mladý pár, mladí lidé.",
+            "Existuje také podstatné jméno die Jugend (mládí)."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist noch jung.",
+              "lv": "Je ještě mladá."
+            },
+            {
+              "de": "Der Hund ist jung.",
+              "lv": "Pes je mladý."
+            },
+            {
+              "de": "Wir sind noch jung.",
+              "lv": "Jsme ještě mladí."
+            },
+            {
+              "de": "Er sieht sehr jung aus.",
+              "lv": "Vypadá velmi mladě."
+            },
+            {
+              "de": "Das ist ein junges Paar.",
+              "lv": "Je to mladý pár."
+            },
+            {
+              "de": "Die junge Frau lächelt.",
+              "lv": "Usmívá se mladá žena."
+            },
+            {
+              "de": "Mein Bruder ist jünger als ich.",
+              "lv": "Můj bratr je mladší než já."
+            }
+          ],
+          "tip": [
+            "Jung je o věku (lidi, zvířata) - když mluvíte o věcech, které byly nedávno vytvořeny, použijte neu.",
+            "Opak: jung ↔ alt (mladý ↔ starý)."
+          ],
+          "important": [
+            "Jung popisuje stáří, ne novost věci.",
+            "Pro nové věci (telefon, auto, dům) použijte místo jung neu.",
+            "Špatně: Mein Handy ist jung. → Správně: Mein Handy ist neu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "jung"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "neu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ještě"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vypadá"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "junge"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nový"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "junge"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Usmívá"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jünger"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Můj"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "jung"
+                ],
+                "green": [
+                  "neu"
+                ]
+              },
+              {
+                "blue": [
+                  "jung"
+                ],
+                "purple": [
+                  "alt"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "jung"
+                ]
+              },
+              {
+                "green": [
+                  "neu"
+                ],
+                "blue": [
+                  "jung"
+                ]
+              },
+              {
+                "blue": [
+                  "jung"
+                ],
+                "green": [
+                  "neu"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-jung",
+          "layout": "standardStudy",
+          "translation": "jauns (par cilvēkiem)",
+          "explanation": [
+            "Galvenā doma: jung nozīmē jauns vecuma ziņā — lieto par cilvēkiem un dzīvniekiem, ne par lietām.",
+            "jung raksturo vecumu — pretstats ir alt (vecs).",
+            "Latviešu valodā vārdam jauns ir divas nozīmes: jauns vecumā (jung) un jauns/nesen radīts (neu).",
+            "Par lietām, kas nesen radītas vai iegādātas, lieto neu, ne jung.",
+            "jung lieto arī pārnestā nozīmē: jauna paaudze, jauns pāris, jauni cilvēki.",
+            "Ir arī lietvārds die Jugend (jaunatne, jaunība)."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist noch jung.",
+              "lv": "viņa ir vēl jauna."
+            },
+            {
+              "de": "Der Hund ist jung.",
+              "lv": "suns ir jauns."
+            },
+            {
+              "de": "Wir sind noch jung.",
+              "lv": "mēs esam vēl jauni."
+            },
+            {
+              "de": "Er sieht sehr jung aus.",
+              "lv": "viņš izskatās ļoti jauns."
+            },
+            {
+              "de": "Das ist ein junges Paar.",
+              "lv": "tas ir jauns pāris."
+            },
+            {
+              "de": "Die junge Frau lächelt.",
+              "lv": "jaunā sieviete smaida."
+            },
+            {
+              "de": "Mein Bruder ist jünger als ich.",
+              "lv": "mans brālis ir jaunāks nekā es."
+            }
+          ],
+          "tip": [
+            "jung ir par vecumu (cilvēki, dzīvnieki) — ja runā par lietām, kas nesen radītas, lieto neu.",
+            "Pretstats: jung ↔ alt (jauns ↔ vecs)."
+          ],
+          "important": [
+            "jung raksturo vecumu, ne lietas jaunumu.",
+            "Par jaunām lietām (telefonu, automašīnu, māju) lieto neu, nevis jung.",
+            "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "jung"
+              ],
+              "purple": [
+                "jauns"
+              ],
+              "green": [
+                "neu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jauna"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jauns"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jauni"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jauns"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "junge"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jauns"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "junge"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jaunā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jünger"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jaunāks"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "jung"
+                ],
+                "green": [
+                  "neu"
+                ]
+              },
+              {
+                "blue": [
+                  "jung"
+                ],
+                "purple": [
+                  "alt"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "jung"
+                ]
+              },
+              {
+                "green": [
+                  "neu"
+                ],
+                "blue": [
+                  "jung"
+                ]
+              },
+              {
+                "blue": [
+                  "jung"
+                ],
+                "green": [
+                  "neu"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-jung",
+        "layout": "standardStudy",
+        "translation": "Mladý (o lidech)",
+        "explanation": [
+          "Hlavní myšlenka: jung znamená mladý věk – používá se pro lidi a zvířata, ne pro věci.",
+          "Jung popisuje věk – opak je alt (starý).",
+          "V češtině má slovo mladý dva významy: mladý ve věku (jung) a mladý/nedávno vytvořený (neu).",
+          "Pro věci nedávno vytvořené nebo získané použijte neu, ne jung.",
+          "Jung se používá i v přeneseném smyslu: nová generace, mladý pár, mladí lidé.",
+          "Existuje také podstatné jméno die Jugend (mládí)."
+        ],
+        "examples": [
+          {
+            "de": "Sie ist noch jung.",
+            "lv": "Je ještě mladá."
+          },
+          {
+            "de": "Der Hund ist jung.",
+            "lv": "Pes je mladý."
+          },
+          {
+            "de": "Wir sind noch jung.",
+            "lv": "Jsme ještě mladí."
+          },
+          {
+            "de": "Er sieht sehr jung aus.",
+            "lv": "Vypadá velmi mladě."
+          },
+          {
+            "de": "Das ist ein junges Paar.",
+            "lv": "Je to mladý pár."
+          },
+          {
+            "de": "Die junge Frau lächelt.",
+            "lv": "Usmívá se mladá žena."
+          },
+          {
+            "de": "Mein Bruder ist jünger als ich.",
+            "lv": "Můj bratr je mladší než já."
+          }
+        ],
+        "tip": [
+          "Jung je o věku (lidi, zvířata) - když mluvíte o věcech, které byly nedávno vytvořeny, použijte neu.",
+          "Opak: jung ↔ alt (mladý ↔ starý)."
+        ],
+        "important": [
+          "Jung popisuje stáří, ne novost věci.",
+          "Pro nové věci (telefon, auto, dům) použijte místo jung neu.",
+          "Špatně: Mein Handy ist jung. → Správně: Mein Handy ist neu."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "jung"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "green": [
+              "neu"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "jung"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ještě"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "jung"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Pes"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "jung"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jsme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "jung"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Vypadá"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "junge"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "nový"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "junge"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Usmívá"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "jünger"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Můj"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "jung"
+              ],
+              "green": [
+                "neu"
+              ]
+            },
+            {
+              "blue": [
+                "jung"
+              ],
+              "purple": [
+                "alt"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "jung"
+              ]
+            },
+            {
+              "green": [
+                "neu"
+              ],
+              "blue": [
+                "jung"
+              ]
+            },
+            {
+              "blue": [
+                "jung"
+              ],
+              "green": [
+                "neu"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-ihr",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": "high",
+      "reason": "HIGH opravy příkladů i přivlastňovacího významu jsou správné; nalezené problémy jsou ve starších, neměněných textech.",
+      "findings": [
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "dativ zájmena sie (ona/ona)",
+          "reason": "Formulace je gramaticky chybná a nejasná, ale toto pole nebylo HIGH opravou změněno.",
+          "confidence": "high",
+          "relatedRepairBlock": "block 2"
+        }
+      ]
+    },
+    {
+      "cardId": "a1-im",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "medium",
+      "confidence": "high",
+      "reason": "Opravená vysvětlení a srovnání im/ins správně rozlišují 3. a 4. pád; nesouvisející chyby zůstaly v neměněných polích.",
+      "findings": [
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Používá se s podstatnými jmény mužského rodu a podstatnými jmény libovolného pohlaví při odpovědi na otázku kde? — umístění.",
+          "reason": "Im je in dem a v jednotném čísle se týká mužského a středního rodu, nikoli podstatných jmen libovolného rodu.",
+          "confidence": "high",
+          "relatedRepairBlock": "block 2"
+        },
+        {
+          "field": "study.tip[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Kde? → ins • Kde? → im - nezaměňujte tyto dva!",
+          "reason": "Ins odpovídá na kam?, zatímco im na kde?; chybná otázka u ins nebyla HIGH opravou změněna.",
+          "confidence": "high",
+          "relatedRepairBlock": "block 2"
+        }
+      ]
+    },
+    {
+      "cardId": "a1-ins",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "medium",
+      "confidence": "high",
+      "reason": "Většina oprav je správná, ale HIGH oprava významu zum zachovala zavádějící vazbu na otázku kam?.",
+      "findings": [
+        {
+          "field": "study.comparison[4].meaning",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "medium",
+          "currentCs": "K / ke, kam? (3. pád)",
+          "proposedCs": "K / ke (komu/čemu?, 3. pád)",
+          "reason": "Zum je zkratka zu dem a vyjadřuje dativní vztah k/ke; otázka kam? není jeho základní pádová otázka a může význam plést s ins.",
+          "confidence": "high",
+          "relatedRepairBlock": "block 3",
+          "relatedFindingId": "a1-ins-comparison-4"
+        }
+      ]
+    },
+    {
+      "cardId": "a1-jung",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "STALE",
+      "severity": "low",
+      "confidence": "high",
+      "reason": "Opravený překlad příkladu je správný; pouze zvýrazňovací metadata stále obsahují starý překlad.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[4].lv",
+          "validationStatus": "STALE",
+          "severity": "low",
+          "currentCs": "nový",
+          "reason": "Zvýraznění neodpovídá aktualizovanému textu příkladu „Je to mladý pár.“; jde o zastaralá metadata, nikoli chybu opraveného CS.",
+          "confidence": "high",
+          "relatedRepairBlock": "block 3"
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:42:47.197Z"
+}

@@ -1,0 +1,155 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-ich-291",
+      "index": 291,
+      "de": "ich",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Já",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 29,
+          "field": "csText",
+          "pirmd": "Mě",
+          "pec": "Já"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-ich-291",
+        "index": 291,
+        "de": "ich",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "es",
+        "csText": "Já",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Keks-309",
+      "index": 309,
+      "de": "Keks",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Sušenka",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 30,
+          "field": "csText",
+          "pirmd": "Cookie",
+          "pec": "Sušenka"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Keks-309",
+        "index": 309,
+        "de": "Keks",
+        "de_article": "der",
+        "de_plural": "die Kekse",
+        "lvSource": "cepums",
+        "csText": "Sušenka",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Hut-328",
+      "index": 328,
+      "de": "Hut",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Klobouk",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 31,
+          "field": "csText",
+          "pirmd": "Čepice",
+          "pec": "Klobouk"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Hut-328",
+        "index": 328,
+        "de": "Hut",
+        "de_article": "der",
+        "de_plural": "die Hüte",
+        "lvSource": "cepure",
+        "csText": "Klobouk",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Koch-340",
+      "index": 340,
+      "de": "Koch",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Kuchař",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 32,
+          "field": "csText",
+          "pirmd": "Vařit",
+          "pec": "Kuchař"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Koch-340",
+        "index": 340,
+        "de": "Koch",
+        "de_article": "der",
+        "de_plural": "die Köche",
+        "lvSource": "pavārs",
+        "csText": "Kuchař",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-ich-291",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair changes German ich to the correct Czech pronoun Já; no meaning or grammar regression is present.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Keks-309",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair changes Keks from the anglicism Cookie to the correct Czech noun Sušenka; no regression is present.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Hut-328",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair changes Hut to the correct Czech noun Klobouk; no meaning or grammar regression is present.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-Koch-340",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair changes Koch from the verb Vařit to the correct Czech agent noun Kuchař; no regression is present.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:40:47.562Z"
+}
