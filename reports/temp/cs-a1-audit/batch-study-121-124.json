@@ -1,0 +1,120 @@
+{
+  "dataset": "a1",
+  "batch": "study-121-124",
+  "auditType": "vocab_study",
+  "cardCount": 4,
+  "cardIds": [
+    "a1-uhr",
+    "a1-zeit",
+    "a1-einmal",
+    "a1-noch-mal"
+  ],
+  "findings": [
+    {
+      "cardId": "a1-uhr",
+      "field": "study.examples[5].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Uhr",
+      "lvSource": "ierīce/laiks pulkstenī; die Zeit",
+      "currentCs": "Zařízení/čas na hodinách • Die Zeit",
+      "proposedCs": "Zařízení/čas na hodinách • Čas",
+      "reason": "Czech field contains the German term “Die Zeit”; it should be translated into Czech.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-zeit",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Zeit",
+      "lvSource": "man nav laika.",
+      "currentCs": "Nemám čas",
+      "proposedCs": "Nemám čas.",
+      "reason": "Czech example lacks final punctuation.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-einmal",
+      "field": "csMain",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "einmal",
+      "lvSource": "vienreiz • reiz",
+      "currentCs": "Jednou • Jednou",
+      "proposedCs": "Jednou • Kdysi",
+      "reason": "Both Czech senses are identical, losing the useful contrast between once and sometime in the past.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-einmal",
+      "field": "study.translation",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "einmal",
+      "lvSource": "vienreiz • reiz",
+      "currentCs": "Jednou • Jednou",
+      "proposedCs": "Jednou • Kdysi",
+      "reason": "Both Czech senses are identical, losing the useful contrast between once and sometime in the past.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-einmal",
+      "field": "study.explanation[2]",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "einmal",
+      "lvSource": "Bieži raksturo: laika apstākli.",
+      "currentCs": "Často charakterizované: povětrnostními podmínkami.",
+      "proposedCs": "Často se používá jako příslovečné určení času.",
+      "reason": "“Povětrnostními podmínkami” means weather conditions; the source refers to a temporal adverbial.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "noch mal",
+      "lvSource": "vēlreiz, lūdzu.",
+      "currentCs": "Znovu prosím",
+      "proposedCs": "Znovu, prosím.",
+      "reason": "The vocative-like parenthetical “prosím” requires a comma, and the sentence lacks final punctuation.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-noch-mal",
+      "field": "study.examples[2].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "noch mal",
+      "lvSource": "pasaki to vēlreiz.",
+      "currentCs": "Řekni to znovu",
+      "proposedCs": "Řekni to znovu.",
+      "reason": "Czech example lacks final punctuation.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a1-noch-mal",
+      "field": "study.explanation[0]",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "noch mal",
+      "lvSource": "Galvenā doma: Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
+      "currentCs": "Hlavní myšlenka: Znovu znamená - opakovat akci nebo požádat o její opakování.",
+      "proposedCs": "Hlavní myšlenka: Znovu znamená opakování činnosti nebo žádost o její zopakování.",
+      "reason": "The hyphen is incorrect punctuation, and the infinitive construction is awkward in Czech.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0,
+  "completedAt": "2026-08-10T18:44:01.525Z"
+}

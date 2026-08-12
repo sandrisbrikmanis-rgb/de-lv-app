@@ -1,0 +1,106 @@
+[
+  {
+    "de": "bringen",
+    "variants": [
+      "přinést • odnést",
+      "přinést • doručit"
+    ],
+    "locations": [
+      "a1:a1-bringen",
+      "a2:a2-bringen"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "da",
+    "variants": [
+      "tam",
+      "protože • za kolik"
+    ],
+    "locations": [
+      "a1:a1-da",
+      "b1:b1-da"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "erst",
+    "variants": [
+      "první • pouze",
+      "až • ne dříve než"
+    ],
+    "locations": [
+      "a1:a1-erst",
+      "a2:a2-erst"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "gleich",
+    "variants": [
+      "hned • rovný",
+      "rovný • ihned"
+    ],
+    "locations": [
+      "a1:a1-gleich",
+      "a2:a2-gleich"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "legen",
+    "variants": [
+      "položit",
+      "položit se"
+    ],
+    "locations": [
+      "a1:a1-legen",
+      "a2:a2-legen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "liegen",
+    "variants": [
+      "být • spát",
+      "spát • být"
+    ],
+    "locations": [
+      "a1:a1-liegen",
+      "a2:a2-liegen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "Mal",
+    "variants": [
+      "čas",
+      "znamení"
+    ],
+    "locations": [
+      "a1:a1-mal",
+      "b1:b1-Mal-1826"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "über",
+    "variants": [
+      "přes • pro",
+      "přes • přes • pro"
+    ],
+    "locations": [
+      "a1:a1-über",
+      "a2:a2-ueber"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  }
+]
