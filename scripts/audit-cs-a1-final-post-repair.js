@@ -111,6 +111,11 @@ function main() {
     run(`node scripts/validate-cs-a1-final-audit-findings.js ${FLAG}${extra}`);
   }
 
+  if (DETERMINISTIC_ONLY || LINGUISTIC_ONLY) {
+    console.log("\nSkipping consolidation/report (partial run).");
+    return;
+  }
+
   console.log("\n=== PHASE 4: Consolidation + report ===");
   consolidate(paths);
   run(`node scripts/write-cs-a1-final-audit-report.js ${FLAG}`);
