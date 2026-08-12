@@ -1183,7 +1183,7 @@ const A1_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Ruka",
+    "lv": "Paže",
     "level": "A1"
   },
   {
@@ -2541,7 +2541,7 @@ const A1_WORDS = [
   },
   {
     "de": "beide",
-    "lv": "Obě",
+    "lv": "Oba • Obě",
     "level": "A1"
   },
   {
@@ -2560,7 +2560,7 @@ const A1_WORDS = [
   },
   {
     "de": "bekommen",
-    "lv": "Přijímat",
+    "lv": "Dostat",
     "level": "A1"
   },
   {
@@ -3107,7 +3107,7 @@ const A1_WORDS = [
     "de": "Blatt",
     "de_article": "das",
     "de_plural": "die Blätter",
-    "lv": "Strana",
+    "lv": "List",
     "level": "A1"
   },
   {
@@ -3665,7 +3665,7 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "Sendvič",
+    "lv": "Chléb s máslem",
     "level": "A1"
   },
   {
@@ -4020,7 +4020,7 @@ const A1_WORDS = [
   },
   {
     "de": "danken",
-    "lv": "Poděkovat",
+    "lv": "Děkovat",
     "level": "A1"
   },
   {
@@ -4793,7 +4793,7 @@ const A1_WORDS = [
   },
   {
     "de": "dürfen",
-    "lv": "Být dovoleno",
+    "lv": "Smět",
     "level": "A1"
   },
   {
@@ -4956,7 +4956,7 @@ const A1_WORDS = [
   },
   {
     "de": "eins",
-    "lv": "Jeden",
+    "lv": "Jedna",
     "level": "A1"
   },
   {
@@ -6387,7 +6387,7 @@ const A1_WORDS = [
     "de": "Fernseher",
     "de_article": "der",
     "de_plural": "die Fernseher",
-    "lv": "Televize",
+    "lv": "Televizor",
     "level": "A1"
   },
   {
@@ -6716,7 +6716,7 @@ const A1_WORDS = [
   },
   {
     "de": "fragen",
-    "lv": "Zeptat se",
+    "lv": "Ptát se",
     "level": "A1"
   },
   {
@@ -7195,7 +7195,7 @@ const A1_WORDS = [
     "de": "Gast",
     "de_article": "der",
     "de_plural": "die Gäste",
-    "lv": "Hostem",
+    "lv": "Host",
     "level": "A1"
   },
   {
@@ -7462,17 +7462,17 @@ const A1_WORDS = [
   },
   {
     "de": "geboren",
-    "lv": "Se narodil",
+    "lv": "Narozený",
     "level": "A1"
   },
   {
     "de": "gefallen",
-    "lv": "Mít rád",
+    "lv": "Líbit se",
     "level": "A1"
   },
   {
     "de": "gegen",
-    "lv": "Vs",
+    "lv": "Proti",
     "level": "A1"
   },
   {
@@ -7503,7 +7503,7 @@ const A1_WORDS = [
   },
   {
     "de": "gern",
-    "lv": "Ochotně",
+    "lv": "Rád",
     "level": "A1"
   },
   {
@@ -7546,7 +7546,7 @@ const A1_WORDS = [
     "de": "Getränk",
     "de_article": "das",
     "de_plural": "die Getränke",
-    "lv": "Drink",
+    "lv": "Nápoj",
     "level": "A1"
   },
   {
@@ -7763,7 +7763,7 @@ const A1_WORDS = [
   },
   {
     "de": "grau",
-    "lv": "Šedá",
+    "lv": "Šedý",
     "level": "A1"
   },
   {
@@ -7929,7 +7929,7 @@ const A1_WORDS = [
   },
   {
     "de": "grüßen",
-    "lv": "Pozdravit",
+    "lv": "Zdravit",
     "level": "A1"
   },
   {
@@ -8665,7 +8665,7 @@ const A1_WORDS = [
   },
   {
     "de": "heiraten",
-    "lv": "Oženit se",
+    "lv": "Vzít se",
     "level": "A1"
   },
   {
@@ -8906,7 +8906,7 @@ const A1_WORDS = [
   },
   {
     "de": "helfen",
-    "lv": "Pomoci",
+    "lv": "Pomáhat",
     "level": "A1"
   },
   {
@@ -10274,7 +10274,7 @@ const A1_WORDS = [
   },
   {
     "de": "jeder",
-    "lv": "Každý z nich",
+    "lv": "Každý",
     "level": "A1"
   },
   {
@@ -11694,7 +11694,7 @@ const A1_WORDS = [
     "de": "Kuchen",
     "de_article": "der",
     "de_plural": "die Kuchen",
-    "lv": "Dort",
+    "lv": "Koláč",
     "level": "A1"
   },
   {
@@ -11859,7 +11859,7 @@ const A1_WORDS = [
     "de": "Lampe",
     "de_article": "die",
     "de_plural": "die Lampen",
-    "lv": "Svítilna",
+    "lv": "Lampa",
     "level": "A1"
   },
   {
@@ -13087,7 +13087,7 @@ const A1_WORDS = [
   },
   {
     "de": "lecker",
-    "lv": "Vynikající",
+    "lv": "Chutný",
     "level": "A1"
   },
   {
@@ -14471,7 +14471,7 @@ const A1_WORDS = [
   },
   {
     "de": "mein",
-    "lv": "Moje",
+    "lv": "Můj",
     "level": "A1"
   },
   {
@@ -15881,7 +15881,7 @@ const A1_WORDS = [
   },
   {
     "de": "nass",
-    "lv": "Mokré",
+    "lv": "Mokrý",
     "level": "A1"
   },
   {
@@ -16548,7 +16548,7 @@ const A1_WORDS = [
   },
   {
     "de": "neunzehnte",
-    "lv": "Devatenáctého",
+    "lv": "Devatenáctý",
     "level": "A1"
   },
   {
@@ -17083,7 +17083,7 @@ const A1_WORDS = [
   },
   {
     "de": "oben",
-    "lv": "Výše",
+    "lv": "Nahoře",
     "level": "A1"
   },
   {
@@ -17999,7 +17999,7 @@ const A1_WORDS = [
   },
   {
     "de": "putzen",
-    "lv": "Vyčistit",
+    "lv": "Čistit",
     "level": "A1"
   },
   {
@@ -18021,7 +18021,7 @@ const A1_WORDS = [
   },
   {
     "de": "rechts",
-    "lv": "Doprava • Doprava",
+    "lv": "Doprava • Pravý",
     "level": "A1"
   },
   {
@@ -18044,7 +18044,7 @@ const A1_WORDS = [
   },
   {
     "de": "regnen",
-    "lv": "Prší",
+    "lv": "Pršet",
     "level": "A1"
   },
   {
@@ -18152,7 +18152,7 @@ const A1_WORDS = [
   },
   {
     "de": "rufen",
-    "lv": "Zavolat",
+    "lv": "Volat",
     "level": "A1"
   },
   {
@@ -18430,7 +18430,7 @@ const A1_WORDS = [
   },
   {
     "de": "schneien",
-    "lv": "Sněží",
+    "lv": "Sněžit",
     "level": "A1"
   },
   {
@@ -18549,7 +18549,7 @@ const A1_WORDS = [
     "de": "Schüler",
     "de_article": "der",
     "de_plural": "die Schüler",
-    "lv": "Student",
+    "lv": "Žák",
     "level": "A1"
   },
   {
@@ -22058,7 +22058,7 @@ const A1_WORDS = [
   },
   {
     "de": "verheiratet",
-    "lv": "Ženatý",
+    "lv": "Ženatý • Vdaná",
     "level": "A1"
   },
   {
@@ -22311,7 +22311,7 @@ const A1_WORDS = [
   },
   {
     "de": "viel",
-    "lv": "Mnoho",
+    "lv": "Hodně",
     "level": "A1"
   },
   {
