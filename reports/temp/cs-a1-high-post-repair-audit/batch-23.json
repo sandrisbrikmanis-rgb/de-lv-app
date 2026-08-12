@@ -1,0 +1,3466 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-ob",
+      "index": 457,
+      "de": "ob",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Zda • Jestli",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 157,
+          "field": "csMain",
+          "pirmd": "Nebo",
+          "pec": "Zda • Jestli"
+        },
+        {
+          "block": 4,
+          "n": 158,
+          "field": "study.explanation[0]",
+          "pirmd": "Hlavní myšlenka: ob zavádí nepřímou otázku a v češtině nejčastěji znamená popř.",
+          "pec": "Hlavní myšlenka: ob uvádí nepřímou otázku a v češtině nejčastěji znamená zda nebo jestli."
+        },
+        {
+          "block": 4,
+          "n": 159,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Nebo v nepřímé otázce",
+          "pec": "Zda / jestli v nepřímé otázce"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-ob",
+        "index": 457,
+        "de": "ob",
+        "layout": "standardStudy",
+        "csMain": "Zda • Jestli",
+        "studyTranslation": "Nebo",
+        "lvSourceMain": "vai",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "vai",
+            "csText": "Nebo",
+            "de": "ob"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es nezinu, vai viņš nāks.",
+            "csText": "Nevím jestli přijde.",
+            "de": "ob"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "viņa jautā, vai tev ir laiks.",
+            "csText": "Ptá se, jestli máš čas.",
+            "de": "ob"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "pasaki man, vai tā ir taisnība.",
+            "csText": "Řekni mi, jestli je to pravda.",
+            "de": "ob"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "vai tu nāksi šodien vai rīt?",
+            "csText": "Přijdeš dnes nebo zítra?",
+            "de": "ob"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "ob",
+            "csText": "ob",
+            "de": "ob"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "vai netiešā jautājumā",
+            "csText": "Zda / jestli v nepřímé otázce",
+            "de": "ob"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "oder",
+            "csText": "oder",
+            "de": "ob"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "vai izvēlē starp variantiem",
+            "csText": "Nebo si vyberte mezi možnostmi",
+            "de": "ob"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "wenn",
+            "csText": "wenn",
+            "de": "ob"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "ja / kad",
+            "csText": "Jestli / kdy",
+            "de": "ob"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "dass",
+            "csText": "dass",
+            "de": "ob"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "ka",
+            "csText": "Že",
+            "de": "ob"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: nezinu, vai... → ob; kafija vai tēja → oder.",
+            "csText": "Pamatujte: Nevím, jestli... → ob • Káva nebo čaj → nebo.",
+            "de": "ob"
+          }
+        ],
+        "study": {
+          "id": "a1-ob",
+          "layout": "standardStudy",
+          "translation": "Nebo",
+          "explanation": [
+            "Hlavní myšlenka: ob uvádí nepřímou otázku a v češtině nejčastěji znamená zda nebo jestli.",
+            "Ob se používá po slovech jako fragen, wissen, sehen, sagen, když neexistuje přímá otázka.",
+            "Ob se obvykle nepoužívá v přímé otázce v němčině.",
+            "Na úrovni A1 je důležité odlišit ob od oder."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Nevím jestli přijde."
+            },
+            {
+              "de": "Sie fragt, ob du Zeit hast.",
+              "lv": "Ptá se, jestli máš čas."
+            },
+            {
+              "de": "Sag mir, ob das stimmt.",
+              "lv": "Řekni mi, jestli je to pravda."
+            },
+            {
+              "de": "Kommst du heute oder morgen?",
+              "lv": "Přijdeš dnes nebo zítra?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ob",
+              "meaning": "Zda / jestli v nepřímé otázce",
+              "example": "Ich weiß nicht, ob er kommt."
+            },
+            {
+              "word": "oder",
+              "meaning": "Nebo si vyberte mezi možnostmi",
+              "example": "Kaffee oder Tee?"
+            },
+            {
+              "word": "wenn",
+              "meaning": "Jestli / kdy",
+              "example": "Wenn du Zeit hast..."
+            },
+            {
+              "word": "dass",
+              "meaning": "Že",
+              "example": "Ich weiß, dass er kommt."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: Nevím, jestli... → ob • Káva nebo čaj → nebo."
+          },
+          "important": [
+            "Ob není obvyklá forma volby „nebo“ mezi dvěma věcmi.",
+            "Kaffee nebo Tee? místo ob. užívá se oder."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ob",
+                "oder"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "fragen",
+                "wissen",
+                "sehen",
+                "sagen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nevím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ptá"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Řekni"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "oder"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Přijdeš"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nebo",
+                    "Nebo"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "oder"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nebo",
+                    "Nebo"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "oder"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wenn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Jestli",
+                    "Jestli"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Wenn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dass"
+                  ]
+                },
+                "meaning": {},
+                "example": {
+                  "green": [
+                    "dass"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ob"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ob"
+                ]
+              },
+              {
+                "red": [
+                  "oder"
+                ],
+                "blue": [
+                  "ob"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-ob",
+          "layout": "standardStudy",
+          "translation": "vai",
+          "explanation": [
+            "Galvenā doma: ob ievada netiešu jautājumu un latviski visbiežāk nozīmē vai.",
+            "ob lieto pēc vārdiem kā fragen, wissen, sehen, sagen, ja nav tieša jautājuma.",
+            "Tiešā jautājumā vācu valodā ob parasti nelieto.",
+            "A1 līmenī svarīgi atšķirt ob no oder."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "es nezinu, vai viņš nāks."
+            },
+            {
+              "de": "Sie fragt, ob du Zeit hast.",
+              "lv": "viņa jautā, vai tev ir laiks."
+            },
+            {
+              "de": "Sag mir, ob das stimmt.",
+              "lv": "pasaki man, vai tā ir taisnība."
+            },
+            {
+              "de": "Kommst du heute oder morgen?",
+              "lv": "vai tu nāksi šodien vai rīt?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ob",
+              "meaning": "vai netiešā jautājumā",
+              "example": "Ich weiß nicht, ob er kommt."
+            },
+            {
+              "word": "oder",
+              "meaning": "vai izvēlē starp variantiem",
+              "example": "Kaffee oder Tee?"
+            },
+            {
+              "word": "wenn",
+              "meaning": "ja / kad",
+              "example": "Wenn du Zeit hast..."
+            },
+            {
+              "word": "dass",
+              "meaning": "ka",
+              "example": "Ich weiß, dass er kommt."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: nezinu, vai... → ob; kafija vai tēja → oder."
+          },
+          "important": [
+            "ob nav parasta izvēles “vai” forma starp divām lietām.",
+            "Kaffee oder Tee? lieto oder, nevis ob."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ob",
+                "oder"
+              ],
+              "purple": [
+                "vai",
+                "netiešu jautājumu",
+                "Tiešā jautājumā"
+              ],
+              "green": [
+                "fragen",
+                "wissen",
+                "sehen",
+                "sagen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "oder"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "vai"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vai",
+                    "netiešā jautājumā"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "oder"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vai",
+                    "izvēlē"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "oder"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wenn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ja",
+                    "kad"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Wenn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dass"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ka"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "dass"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ob"
+                ],
+                "purple": [
+                  "nezinu, vai"
+                ],
+                "red": [
+                  "oder",
+                  "kafija vai tēja"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ob"
+                ]
+              },
+              {
+                "red": [
+                  "oder"
+                ],
+                "blue": [
+                  "ob"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-ob",
+        "layout": "standardStudy",
+        "translation": "Nebo",
+        "explanation": [
+          "Hlavní myšlenka: ob uvádí nepřímou otázku a v češtině nejčastěji znamená zda nebo jestli.",
+          "Ob se používá po slovech jako fragen, wissen, sehen, sagen, když neexistuje přímá otázka.",
+          "Ob se obvykle nepoužívá v přímé otázce v němčině.",
+          "Na úrovni A1 je důležité odlišit ob od oder."
+        ],
+        "examples": [
+          {
+            "de": "Ich weiß nicht, ob er kommt.",
+            "lv": "Nevím jestli přijde."
+          },
+          {
+            "de": "Sie fragt, ob du Zeit hast.",
+            "lv": "Ptá se, jestli máš čas."
+          },
+          {
+            "de": "Sag mir, ob das stimmt.",
+            "lv": "Řekni mi, jestli je to pravda."
+          },
+          {
+            "de": "Kommst du heute oder morgen?",
+            "lv": "Přijdeš dnes nebo zítra?"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ob",
+            "meaning": "Zda / jestli v nepřímé otázce",
+            "example": "Ich weiß nicht, ob er kommt."
+          },
+          {
+            "word": "oder",
+            "meaning": "Nebo si vyberte mezi možnostmi",
+            "example": "Kaffee oder Tee?"
+          },
+          {
+            "word": "wenn",
+            "meaning": "Jestli / kdy",
+            "example": "Wenn du Zeit hast..."
+          },
+          {
+            "word": "dass",
+            "meaning": "Že",
+            "example": "Ich weiß, dass er kommt."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: Nevím, jestli... → ob • Káva nebo čaj → nebo."
+        },
+        "important": [
+          "Ob není obvyklá forma volby „nebo“ mezi dvěma věcmi.",
+          "Kaffee nebo Tee? místo ob. užívá se oder."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "ob",
+              "oder"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "fragen",
+              "wissen",
+              "sehen",
+              "sagen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "ob"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nevím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ob"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ptá"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ob"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Řekni"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "oder"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Přijdeš"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "ob"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Nebo",
+                  "Nebo"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "ob"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "oder"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Nebo",
+                  "Nebo"
+                ]
+              },
+              "example": {
+                "red": [
+                  "oder"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wenn"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Jestli",
+                  "Jestli"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Wenn"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "dass"
+                ]
+              },
+              "meaning": {},
+              "example": {
+                "green": [
+                  "dass"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "ob"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "ob"
+              ]
+            },
+            {
+              "red": [
+                "oder"
+              ],
+              "blue": [
+                "ob"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-oder",
+      "index": 459,
+      "de": "oder",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Nebo • Nebo",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 160,
+          "field": "study.explanation[1]",
+          "pirmd": "V češtině oder nejčastěji znamená popř.",
+          "pec": "V češtině oder nejčastěji znamená „nebo“."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-oder",
+        "index": 459,
+        "de": "oder",
+        "layout": "standardStudy",
+        "csMain": "Nebo • Nebo",
+        "studyTranslation": "Nebo • Nebo",
+        "lvSourceMain": "vai • jeb",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "vai • jeb",
+            "csText": "Nebo • Nebo",
+            "de": "oder"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "kafiju vai tēju?",
+            "csText": "Káva nebo čaj?",
+            "de": "oder"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "šodien vai rīt?",
+            "csText": "Dnes nebo zítra?",
+            "de": "oder"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "vai tu gribi picu vai salātus?",
+            "csText": "Chceš pizzu nebo salát",
+            "de": "oder"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "tu nāksi, vai ne?",
+            "csText": "Přijdeš, ne?",
+            "de": "oder"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "oder",
+            "csText": "oder",
+            "de": "oder"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "vai izvēlē",
+            "csText": "Nebo si vyberte",
+            "de": "oder"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "ob",
+            "csText": "ob",
+            "de": "oder"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "vai netiešā jautājumā",
+            "csText": "Nebo v nepřímé otázce",
+            "de": "oder"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "und",
+            "csText": "und",
+            "de": "oder"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "un",
+            "csText": "A",
+            "de": "oder"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "aber",
+            "csText": "aber",
+            "de": "oder"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "bet",
+            "csText": "Ale",
+            "de": "oder"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: izvēle starp variantiem → oder.",
+            "csText": "Pamatujte: výběr mezi možnostmi → nebo.",
+            "de": "oder"
+          }
+        ],
+        "study": {
+          "id": "a1-oder",
+          "layout": "standardStudy",
+          "translation": "Nebo • Nebo",
+          "explanation": [
+            "Hlavní myšlenka: oder se používá, když volíme mezi dvěma nebo více možnostmi.",
+            "V češtině oder nejčastěji znamená „nebo“.",
+            "Není to totéž jako ob, které zavádí nepřímou otázku.",
+            "V rozhovorech může být oder i na konci věty: Du kommst, oder?"
+          ],
+          "examples": [
+            {
+              "de": "Kaffee oder Tee?",
+              "lv": "Káva nebo čaj?"
+            },
+            {
+              "de": "Heute oder morgen?",
+              "lv": "Dnes nebo zítra?"
+            },
+            {
+              "de": "Willst du Pizza oder Salat?",
+              "lv": "Chceš pizzu nebo salát"
+            },
+            {
+              "de": "Du kommst, oder?",
+              "lv": "Přijdeš, ne?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "oder",
+              "meaning": "Nebo si vyberte",
+              "example": "Kaffee oder Tee?"
+            },
+            {
+              "word": "ob",
+              "meaning": "Nebo v nepřímé otázce",
+              "example": "Ich weiß nicht, ob er kommt."
+            },
+            {
+              "word": "und",
+              "meaning": "A",
+              "example": "Kaffee und Kuchen."
+            },
+            {
+              "word": "aber",
+              "meaning": "Ale",
+              "example": "Ich komme, aber später."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: výběr mezi možnostmi → nebo."
+          },
+          "important": [
+            "Pro výběr se používá oder: Kaffee oder Tee.",
+            "V nepřímé otázce je „zda“ obvykle ob."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "oder",
+                "ob"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ],
+                  "yellow": [
+                    "Kaffee",
+                    "Tee"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Káva"
+                  ],
+                  "yellow": [
+                    "Káva",
+                    "Káva"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dnes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ],
+                  "yellow": [
+                    "Pizza",
+                    "Salat"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chceš"
+                  ],
+                  "yellow": [
+                    "Chceš",
+                    "Chceš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Přijdeš"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "oder"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nebo",
+                    "Nebo"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "oder"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Nebo",
+                    "Nebo"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "und"
+                  ]
+                },
+                "meaning": {},
+                "example": {
+                  "green": [
+                    "und"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aber"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Ale"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "aber"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "oder"
+                ],
+                "purple": [
+                  "Pro"
+                ]
+              },
+              {
+                "red": [
+                  "ob"
+                ],
+                "purple": [
+                  "nepřímé"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-oder",
+          "layout": "standardStudy",
+          "translation": "vai • jeb",
+          "explanation": [
+            "Galvenā doma: oder lieto, ja izvēlamies starp divām vai vairākām iespējām.",
+            "Latviski oder visbiežāk nozīmē vai.",
+            "Tas nav tas pats, kas ob, kas ievada netiešu jautājumu.",
+            "Sarunās oder var būt arī teikuma beigās: Du kommst, oder?"
+          ],
+          "examples": [
+            {
+              "de": "Kaffee oder Tee?",
+              "lv": "kafiju vai tēju?"
+            },
+            {
+              "de": "Heute oder morgen?",
+              "lv": "šodien vai rīt?"
+            },
+            {
+              "de": "Willst du Pizza oder Salat?",
+              "lv": "vai tu gribi picu vai salātus?"
+            },
+            {
+              "de": "Du kommst, oder?",
+              "lv": "tu nāksi, vai ne?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "oder",
+              "meaning": "vai izvēlē",
+              "example": "Kaffee oder Tee?"
+            },
+            {
+              "word": "ob",
+              "meaning": "vai netiešā jautājumā",
+              "example": "Ich weiß nicht, ob er kommt."
+            },
+            {
+              "word": "und",
+              "meaning": "un",
+              "example": "Kaffee und Kuchen."
+            },
+            {
+              "word": "aber",
+              "meaning": "bet",
+              "example": "Ich komme, aber später."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: izvēle starp variantiem → oder."
+          },
+          "important": [
+            "oder lieto izvēlei: Kaffee oder Tee.",
+            "Netiešā jautājumā “vai” parasti ir ob."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "oder",
+                "ob"
+              ],
+              "purple": [
+                "vai",
+                "izvēlamies",
+                "netiešu jautājumu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ],
+                  "yellow": [
+                    "Kaffee",
+                    "Tee"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vai"
+                  ],
+                  "yellow": [
+                    "Kafiju",
+                    "tēju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ],
+                  "yellow": [
+                    "Pizza",
+                    "Salat"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vai"
+                  ],
+                  "yellow": [
+                    "picu",
+                    "salātus"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vai ne"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "oder"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vai",
+                    "izvēlē"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "oder"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vai",
+                    "netiešā jautājumā"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "und"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "un"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "und"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aber"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bet"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "aber"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "oder"
+                ],
+                "purple": [
+                  "izvēle",
+                  "variantiem"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "oder"
+                ],
+                "purple": [
+                  "izvēlei"
+                ]
+              },
+              {
+                "red": [
+                  "ob"
+                ],
+                "purple": [
+                  "netiešā jautājumā"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-oder",
+        "layout": "standardStudy",
+        "translation": "Nebo • Nebo",
+        "explanation": [
+          "Hlavní myšlenka: oder se používá, když volíme mezi dvěma nebo více možnostmi.",
+          "V češtině oder nejčastěji znamená „nebo“.",
+          "Není to totéž jako ob, které zavádí nepřímou otázku.",
+          "V rozhovorech může být oder i na konci věty: Du kommst, oder?"
+        ],
+        "examples": [
+          {
+            "de": "Kaffee oder Tee?",
+            "lv": "Káva nebo čaj?"
+          },
+          {
+            "de": "Heute oder morgen?",
+            "lv": "Dnes nebo zítra?"
+          },
+          {
+            "de": "Willst du Pizza oder Salat?",
+            "lv": "Chceš pizzu nebo salát"
+          },
+          {
+            "de": "Du kommst, oder?",
+            "lv": "Přijdeš, ne?"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "oder",
+            "meaning": "Nebo si vyberte",
+            "example": "Kaffee oder Tee?"
+          },
+          {
+            "word": "ob",
+            "meaning": "Nebo v nepřímé otázce",
+            "example": "Ich weiß nicht, ob er kommt."
+          },
+          {
+            "word": "und",
+            "meaning": "A",
+            "example": "Kaffee und Kuchen."
+          },
+          {
+            "word": "aber",
+            "meaning": "Ale",
+            "example": "Ich komme, aber später."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: výběr mezi možnostmi → nebo."
+        },
+        "important": [
+          "Pro výběr se používá oder: Kaffee oder Tee.",
+          "V nepřímé otázce je „zda“ obvykle ob."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "oder",
+              "ob"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "oder"
+                ],
+                "yellow": [
+                  "Kaffee",
+                  "Tee"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Káva"
+                ],
+                "yellow": [
+                  "Káva",
+                  "Káva"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "oder"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dnes"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "oder"
+                ],
+                "yellow": [
+                  "Pizza",
+                  "Salat"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Chceš"
+                ],
+                "yellow": [
+                  "Chceš",
+                  "Chceš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "oder"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Přijdeš"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "oder"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Nebo",
+                  "Nebo"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "oder"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ob"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Nebo",
+                  "Nebo"
+                ]
+              },
+              "example": {
+                "red": [
+                  "ob"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "und"
+                ]
+              },
+              "meaning": {},
+              "example": {
+                "green": [
+                  "und"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "aber"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Ale"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "aber"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "oder"
+              ],
+              "purple": [
+                "Pro"
+              ]
+            },
+            {
+              "red": [
+                "ob"
+              ],
+              "purple": [
+                "nepřímé"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-passen",
+      "index": 471,
+      "de": "passen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Pasovat • Pasovat",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 161,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Fit / fit",
+          "pec": "Pasovat / slušet"
+        },
+        {
+          "block": 4,
+          "n": 162,
+          "field": "study.comparison[1].meaning",
+          "pirmd": "Stát / stát",
+          "pec": "Slušet / stát"
+        },
+        {
+          "block": 4,
+          "n": 163,
+          "field": "study.comparison[3].meaning",
+          "pirmd": "Provozovat",
+          "pec": "Fungovat"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-passen",
+        "index": 471,
+        "de": "passen",
+        "layout": "standardStudy",
+        "csMain": "Pasovat • Pasovat",
+        "studyTranslation": "Pasovat • Pasovat",
+        "lvSourceMain": "derēt • piestāvēt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "derēt • piestāvēt",
+            "csText": "Pasovat • Pasovat",
+            "de": "passen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "jaka man der.",
+            "csText": "Bunda mi sedí.",
+            "de": "passen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "kleita labi der.",
+            "csText": "Šaty dobře sedí.",
+            "de": "passen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "šī krāsa tev piestāv.",
+            "csText": "Tato barva ti sluší.",
+            "de": "passen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "tas der.",
+            "csText": "To sedí.",
+            "de": "passen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "passen",
+            "csText": "passen",
+            "de": "passen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "derēt / piestāvēt",
+            "csText": "Pasovat / slušet",
+            "de": "passen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "stehen",
+            "csText": "stehen",
+            "de": "passen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "piestāvēt / stāvēt",
+            "csText": "Slušet / stát",
+            "de": "passen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "geeignet sein",
+            "csText": "geeignet sein",
+            "de": "passen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "būt piemērotam",
+            "csText": "Být vhodný",
+            "de": "passen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "funktionieren",
+            "csText": "funktionieren",
+            "de": "passen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "darboties",
+            "csText": "Fungovat",
+            "de": "passen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: Das passt. = Tas der.",
+            "csText": "Pamatujte: Das passt. = Hodí se.",
+            "de": "passen"
+          }
+        ],
+        "study": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "Pasovat • Pasovat",
+          "explanation": [
+            "Hlavní myšlenka: passen znamená pasovat, slušet nebo být vhodný.",
+            "U oblečení passen často znamená přizpůsobit se velikosti.",
+            "Pro barvy nebo styl znamená passen padnout.",
+            "Velmi častou frází je Das passt. = Hodí se."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "Bunda mi sedí."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "Šaty dobře sedí."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "Tato barva ti sluší."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "To sedí."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "Pasovat / slušet",
+              "example": "Die Jacke passt mir."
+            },
+            {
+              "word": "stehen",
+              "meaning": "Slušet / stát",
+              "example": "Rot steht dir gut."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "Být vhodný",
+              "example": "Das ist geeignet."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "Fungovat",
+              "example": "Das funktioniert."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: Das passt. = Hodí se."
+          },
+          "important": [
+            "Passen není jen o oblečení.",
+            "Může to také znamenat, že načasování, plán nebo řešení jsou správné."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "passen",
+                "Das passt"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "passt"
+                  ],
+                  "yellow": [
+                    "Jacke"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Bunda"
+                  ],
+                  "yellow": [
+                    "Bunda"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "passt"
+                  ],
+                  "yellow": [
+                    "Kleid"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Šaty"
+                  ],
+                  "yellow": [
+                    "Šaty"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "passt"
+                  ],
+                  "yellow": [
+                    "Farbe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tato"
+                  ],
+                  "yellow": [
+                    "Tato"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das passt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sedí"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "passen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Fit",
+                    "Fit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "passt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Stát",
+                    "Stát"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "steht"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "geeignet sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "geeignet"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Provozovat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "funktioniert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Das passt"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "passen"
+                ],
+                "yellow": [
+                  "Passen"
+                ]
+              },
+              {
+                "purple": [
+                  "Může",
+                  "Může",
+                  "Může",
+                  "Může"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "derēt • piestāvēt",
+          "explanation": [
+            "Galvenā doma: passen nozīmē derēt, piestāvēt vai būt piemērotam.",
+            "Par apģērbu passen bieži nozīmē derēt pēc izmēra.",
+            "Par krāsām vai stilu passen nozīmē piestāvēt.",
+            "Ļoti bieža frāze ir Das passt. = Tas der."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "jaka man der."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "kleita labi der."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "šī krāsa tev piestāv."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "tas der."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "derēt / piestāvēt",
+              "example": "Die Jacke passt mir."
+            },
+            {
+              "word": "stehen",
+              "meaning": "piestāvēt / stāvēt",
+              "example": "Rot steht dir gut."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "būt piemērotam",
+              "example": "Das ist geeignet."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "darboties",
+              "example": "Das funktioniert."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: Das passt. = Tas der."
+          },
+          "important": [
+            "passen nav tikai par apģērbu.",
+            "Tas var nozīmēt arī, ka laiks, plāns vai risinājums der."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "passen",
+                "Das passt"
+              ],
+              "purple": [
+                "derēt",
+                "piestāvēt",
+                "piemērotam"
+              ],
+              "yellow": [
+                "apģērbu",
+                "krāsām",
+                "stilu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "passt"
+                  ],
+                  "yellow": [
+                    "Jacke"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "der"
+                  ],
+                  "yellow": [
+                    "Jaka"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "passt"
+                  ],
+                  "yellow": [
+                    "Kleid"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "der"
+                  ],
+                  "yellow": [
+                    "Kleita"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "passt"
+                  ],
+                  "yellow": [
+                    "Farbe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "piestāv"
+                  ],
+                  "yellow": [
+                    "krāsa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das passt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "tas der"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "passen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "derēt",
+                    "piestāvēt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "passt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "piestāvēt",
+                    "stāvēt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "steht"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "geeignet sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "piemērotam"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "geeignet"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "darboties"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "funktioniert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Das passt"
+                ],
+                "purple": [
+                  "tas der"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "passen"
+                ],
+                "yellow": [
+                  "apģērbu"
+                ]
+              },
+              {
+                "purple": [
+                  "laiks",
+                  "plāns",
+                  "risinājums",
+                  "der"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-passen",
+        "layout": "standardStudy",
+        "translation": "Pasovat • Pasovat",
+        "explanation": [
+          "Hlavní myšlenka: passen znamená pasovat, slušet nebo být vhodný.",
+          "U oblečení passen často znamená přizpůsobit se velikosti.",
+          "Pro barvy nebo styl znamená passen padnout.",
+          "Velmi častou frází je Das passt. = Hodí se."
+        ],
+        "examples": [
+          {
+            "de": "Die Jacke passt mir.",
+            "lv": "Bunda mi sedí."
+          },
+          {
+            "de": "Das Kleid passt gut.",
+            "lv": "Šaty dobře sedí."
+          },
+          {
+            "de": "Die Farbe passt zu dir.",
+            "lv": "Tato barva ti sluší."
+          },
+          {
+            "de": "Das passt.",
+            "lv": "To sedí."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "passen",
+            "meaning": "Pasovat / slušet",
+            "example": "Die Jacke passt mir."
+          },
+          {
+            "word": "stehen",
+            "meaning": "Slušet / stát",
+            "example": "Rot steht dir gut."
+          },
+          {
+            "word": "geeignet sein",
+            "meaning": "Být vhodný",
+            "example": "Das ist geeignet."
+          },
+          {
+            "word": "funktionieren",
+            "meaning": "Fungovat",
+            "example": "Das funktioniert."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: Das passt. = Hodí se."
+        },
+        "important": [
+          "Passen není jen o oblečení.",
+          "Může to také znamenat, že načasování, plán nebo řešení jsou správné."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "passen",
+              "Das passt"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "yellow": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "passt"
+                ],
+                "yellow": [
+                  "Jacke"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Bunda"
+                ],
+                "yellow": [
+                  "Bunda"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "passt"
+                ],
+                "yellow": [
+                  "Kleid"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Šaty"
+                ],
+                "yellow": [
+                  "Šaty"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "passt"
+                ],
+                "yellow": [
+                  "Farbe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Tato"
+                ],
+                "yellow": [
+                  "Tato"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das passt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "sedí"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "passen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Fit",
+                  "Fit"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "passt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "stehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Stát",
+                  "Stát"
+                ]
+              },
+              "example": {
+                "green": [
+                  "steht"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "geeignet sein"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "geeignet"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "funktionieren"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Provozovat"
+                ]
+              },
+              "example": {
+                "red": [
+                  "funktioniert"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Das passt"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "passen"
+              ],
+              "yellow": [
+                "Passen"
+              ]
+            },
+            {
+              "purple": [
+                "Může",
+                "Může",
+                "Může",
+                "Může"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-probieren",
+      "index": 482,
+      "de": "probieren",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Vyzkoušet • Ochutnat",
+      "repairedFields": [
+        {
+          "block": 4,
+          "n": 164,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: jídlo → probieren = podle chuti.",
+          "pec": "Pamatujte: jídlo → probieren = ochutnat."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-probieren",
+        "index": 482,
+        "de": "probieren",
+        "layout": "standardStudy",
+        "csMain": "Vyzkoušet • Ochutnat",
+        "studyTranslation": "Vyzkoušet • Ochutnat",
+        "lvSourceMain": "izmēģināt • nogaršot",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "izmēģināt • nogaršot",
+            "csText": "Vyzkoušet • Ochutnat",
+            "de": "probieren"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "pagaršo zupu!",
+            "csText": "Ochutnejte polévku!",
+            "de": "probieren"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "es gribu nogaršot kūku.",
+            "csText": "Chci ochutnat dort.",
+            "de": "probieren"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs izmēģinām jaunu metodi.",
+            "csText": "Zkoušíme novou metodu.",
+            "de": "probieren"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "vai es varu pielaikot jaku?",
+            "csText": "Můžu zkusit bundu",
+            "de": "probieren"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "probieren",
+            "csText": "probieren",
+            "de": "probieren"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "izmēģināt / nogaršot",
+            "csText": "Vyzkoušet / ochutnat",
+            "de": "probieren"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "versuchen",
+            "csText": "versuchen",
+            "de": "probieren"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "mēģināt",
+            "csText": "Zkusit",
+            "de": "probieren"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "prüfen",
+            "csText": "prüfen",
+            "de": "probieren"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "pārbaudīt",
+            "csText": "Zkontrolovat",
+            "de": "probieren"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "anprobieren",
+            "csText": "anprobieren",
+            "de": "probieren"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "pielaikot",
+            "csText": "Vyzkoušet",
+            "de": "probieren"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: ēdiens → probieren = nogaršot.",
+            "csText": "Pamatujte: jídlo → probieren = ochutnat.",
+            "de": "probieren"
+          }
+        ],
+        "study": {
+          "id": "a1-probieren",
+          "layout": "standardStudy",
+          "translation": "Vyzkoušet • Ochutnat",
+          "explanation": [
+            "Hlavní myšlenka: probieren znamená vyzkoušet nebo ochutnat.",
+            "Pokud jde o jídlo nebo pití, probieren často znamená ochutnat.",
+            "Pokud jde o akci, metodu nebo věc, probieren znamená zkusit.",
+            "Není to stejné jako prüfen, což znamená pečlivěji kontrolovat."
+          ],
+          "examples": [
+            {
+              "de": "Probier mal die Suppe!",
+              "lv": "Ochutnejte polévku!"
+            },
+            {
+              "de": "Ich möchte den Kuchen probieren.",
+              "lv": "Chci ochutnat dort."
+            },
+            {
+              "de": "Wir probieren eine neue Methode.",
+              "lv": "Zkoušíme novou metodu."
+            },
+            {
+              "de": "Kann ich die Jacke anprobieren?",
+              "lv": "Můžu zkusit bundu"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "probieren",
+              "meaning": "Vyzkoušet / ochutnat",
+              "example": "Probier mal die Suppe!"
+            },
+            {
+              "word": "versuchen",
+              "meaning": "Zkusit",
+              "example": "Ich versuche es."
+            },
+            {
+              "word": "prüfen",
+              "meaning": "Zkontrolovat",
+              "example": "Ich prüfe die Rechnung."
+            },
+            {
+              "word": "anprobieren",
+              "meaning": "Vyzkoušet",
+              "example": "Ich probiere die Jacke an."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: jídlo → probieren = ochutnat."
+          },
+          "important": [
+            "Probieren není hlavní slovo pro formální zkoušku.",
+            "Kontrola dokladu nebo faktury je obvykle prüfen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "probieren",
+                "prüfen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní",
+                "Hlavní",
+                "metodu",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Probier"
+                  ],
+                  "yellow": [
+                    "Suppe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ochutnejte"
+                  ],
+                  "yellow": [
+                    "Ochutnejte"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "probieren"
+                  ],
+                  "yellow": [
+                    "Kuchen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Chci"
+                  ],
+                  "yellow": [
+                    "Chci"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "probieren"
+                  ],
+                  "yellow": [
+                    "Methode"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zkoušíme"
+                  ],
+                  "yellow": [
+                    "metodu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "anprobieren"
+                  ],
+                  "yellow": [
+                    "Jacke"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Můžu"
+                  ],
+                  "yellow": [
+                    "Můžu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "probieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vyzkoušet",
+                    "Vyzkoušet"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Probier"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "versuchen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zkusit"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "versuche"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "prüfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zkontrolovat"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "prüfe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "anprobieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vyzkoušet"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "probiere",
+                    "an"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "probieren"
+                ],
+                "yellow": [
+                  "Pamatujte"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "probieren"
+                ],
+                "red": [
+                  "Probieren"
+                ]
+              },
+              {
+                "red": [
+                  "prüfen"
+                ],
+                "purple": [
+                  "Kontrola"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-probieren",
+          "layout": "standardStudy",
+          "translation": "izmēģināt • nogaršot",
+          "explanation": [
+            "Galvenā doma: probieren nozīmē izmēģināt vai nogaršot.",
+            "Ja runa ir par ēdienu vai dzērienu, probieren bieži nozīmē nogaršot.",
+            "Ja runa ir par darbību, metodi vai lietu, probieren nozīmē izmēģināt.",
+            "Tas nav tas pats, kas prüfen, kas nozīmē pārbaudīt rūpīgāk."
+          ],
+          "examples": [
+            {
+              "de": "Probier mal die Suppe!",
+              "lv": "pagaršo zupu!"
+            },
+            {
+              "de": "Ich möchte den Kuchen probieren.",
+              "lv": "es gribu nogaršot kūku."
+            },
+            {
+              "de": "Wir probieren eine neue Methode.",
+              "lv": "mēs izmēģinām jaunu metodi."
+            },
+            {
+              "de": "Kann ich die Jacke anprobieren?",
+              "lv": "vai es varu pielaikot jaku?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "probieren",
+              "meaning": "izmēģināt / nogaršot",
+              "example": "Probier mal die Suppe!"
+            },
+            {
+              "word": "versuchen",
+              "meaning": "mēģināt",
+              "example": "Ich versuche es."
+            },
+            {
+              "word": "prüfen",
+              "meaning": "pārbaudīt",
+              "example": "Ich prüfe die Rechnung."
+            },
+            {
+              "word": "anprobieren",
+              "meaning": "pielaikot",
+              "example": "Ich probiere die Jacke an."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: ēdiens → probieren = nogaršot."
+          },
+          "important": [
+            "probieren nav galvenais vārds oficiālai pārbaudei.",
+            "Dokumentu vai rēķinu pārbaudīt parasti ir prüfen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "probieren",
+                "prüfen"
+              ],
+              "purple": [
+                "izmēģināt",
+                "nogaršot",
+                "pārbaudīt"
+              ],
+              "yellow": [
+                "ēdienu",
+                "dzērienu",
+                "metodi",
+                "lietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Probier"
+                  ],
+                  "yellow": [
+                    "Suppe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pagaršo"
+                  ],
+                  "yellow": [
+                    "zupu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "probieren"
+                  ],
+                  "yellow": [
+                    "Kuchen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nogaršot"
+                  ],
+                  "yellow": [
+                    "kūku"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "probieren"
+                  ],
+                  "yellow": [
+                    "Methode"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "izmēģinām"
+                  ],
+                  "yellow": [
+                    "metodi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "anprobieren"
+                  ],
+                  "yellow": [
+                    "Jacke"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "pielaikot"
+                  ],
+                  "yellow": [
+                    "jaku"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "probieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "izmēģināt",
+                    "nogaršot"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Probier"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "versuchen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "mēģināt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "versuche"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "prüfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pārbaudīt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "prüfe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "anprobieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pielaikot"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "probiere",
+                    "an"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "probieren"
+                ],
+                "yellow": [
+                  "ēdiens"
+                ],
+                "purple": [
+                  "nogaršot"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "probieren"
+                ],
+                "red": [
+                  "pārbaudei"
+                ]
+              },
+              {
+                "red": [
+                  "prüfen"
+                ],
+                "purple": [
+                  "pārbaudīt"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-probieren",
+        "layout": "standardStudy",
+        "translation": "Vyzkoušet • Ochutnat",
+        "explanation": [
+          "Hlavní myšlenka: probieren znamená vyzkoušet nebo ochutnat.",
+          "Pokud jde o jídlo nebo pití, probieren často znamená ochutnat.",
+          "Pokud jde o akci, metodu nebo věc, probieren znamená zkusit.",
+          "Není to stejné jako prüfen, což znamená pečlivěji kontrolovat."
+        ],
+        "examples": [
+          {
+            "de": "Probier mal die Suppe!",
+            "lv": "Ochutnejte polévku!"
+          },
+          {
+            "de": "Ich möchte den Kuchen probieren.",
+            "lv": "Chci ochutnat dort."
+          },
+          {
+            "de": "Wir probieren eine neue Methode.",
+            "lv": "Zkoušíme novou metodu."
+          },
+          {
+            "de": "Kann ich die Jacke anprobieren?",
+            "lv": "Můžu zkusit bundu"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "probieren",
+            "meaning": "Vyzkoušet / ochutnat",
+            "example": "Probier mal die Suppe!"
+          },
+          {
+            "word": "versuchen",
+            "meaning": "Zkusit",
+            "example": "Ich versuche es."
+          },
+          {
+            "word": "prüfen",
+            "meaning": "Zkontrolovat",
+            "example": "Ich prüfe die Rechnung."
+          },
+          {
+            "word": "anprobieren",
+            "meaning": "Vyzkoušet",
+            "example": "Ich probiere die Jacke an."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: jídlo → probieren = ochutnat."
+        },
+        "important": [
+          "Probieren není hlavní slovo pro formální zkoušku.",
+          "Kontrola dokladu nebo faktury je obvykle prüfen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "probieren",
+              "prüfen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "yellow": [
+              "Hlavní",
+              "Hlavní",
+              "metodu",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Probier"
+                ],
+                "yellow": [
+                  "Suppe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ochutnejte"
+                ],
+                "yellow": [
+                  "Ochutnejte"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "probieren"
+                ],
+                "yellow": [
+                  "Kuchen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Chci"
+                ],
+                "yellow": [
+                  "Chci"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "probieren"
+                ],
+                "yellow": [
+                  "Methode"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zkoušíme"
+                ],
+                "yellow": [
+                  "metodu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "anprobieren"
+                ],
+                "yellow": [
+                  "Jacke"
+                ]
+              },
+              "lv": {
+                "green": [
+                  "Můžu"
+                ],
+                "yellow": [
+                  "Můžu"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "probieren"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vyzkoušet",
+                  "Vyzkoušet"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Probier"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "versuchen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Zkusit"
+                ]
+              },
+              "example": {
+                "green": [
+                  "versuche"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "prüfen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Zkontrolovat"
+                ]
+              },
+              "example": {
+                "red": [
+                  "prüfe"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "anprobieren"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Vyzkoušet"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "probiere",
+                  "an"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "probieren"
+              ],
+              "yellow": [
+                "Pamatujte"
+              ],
+              "purple": [
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "probieren"
+              ],
+              "red": [
+                "Probieren"
+              ]
+            },
+            {
+              "red": [
+                "prüfen"
+              ],
+              "purple": [
+                "Kontrola"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-ob",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "HIGH repairs correctly distinguish ob from oder; remaining metadata inconsistencies were not among the repaired fields.",
+      "findings": [
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Nebo si vyberte mezi možnostmi",
+          "reason": "The meaning is understandable but awkward Czech and was not changed by the HIGH repair.",
+          "confidence": 0.98
+        },
+        {
+          "field": "sectionAccents.comparison[0].meaning",
+          "validationStatus": "STALE",
+          "severity": "low",
+          "currentCs": "Nebo",
+          "reason": "Accent metadata still reflects the old incorrect ob translation, while the repaired comparison meaning is correct.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 4
+        }
+      ]
+    },
+    {
+      "cardId": "a1-oder",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "The repaired explanation correctly states that oder most commonly means nebo; the incorrect ob comparison remains pre-existing.",
+      "findings": [
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "medium",
+          "currentCs": "Nebo v nepřímé otázce",
+          "reason": "For ob in an indirect question, nebo is misleading; this field was not changed in the HIGH repair.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Chceš pizzu nebo salát",
+          "reason": "The Czech example lacks terminal punctuation, unrelated to the repaired explanation.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-passen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "All three repaired comparison meanings are linguistically correct; stale accent labels and wording elsewhere were not caused by these repairs.",
+      "findings": [
+        {
+          "field": "sectionAccents.comparison[0].meaning",
+          "validationStatus": "STALE",
+          "severity": "low",
+          "currentCs": "Fit",
+          "reason": "Accent metadata retains the old English wording although the repaired study meaning is correct Czech.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "sectionAccents.comparison[1].meaning",
+          "validationStatus": "STALE",
+          "severity": "low",
+          "currentCs": "Stát",
+          "reason": "Accent metadata retains the old incomplete wording although the repaired study meaning is correct Czech.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 4
+        },
+        {
+          "field": "sectionAccents.comparison[3].meaning",
+          "validationStatus": "STALE",
+          "severity": "low",
+          "currentCs": "Provozovat",
+          "reason": "Accent metadata retains an incorrect verb choice although the repaired study meaning is correct.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 4
+        }
+      ]
+    },
+    {
+      "cardId": "a1-probieren",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.99,
+      "reason": "The repaired tip correctly maps food context to probieren = ochutnat; no regression was introduced.",
+      "findings": [
+        {
+          "field": "study.examples[3].lv",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "Můžu zkusit bundu",
+          "reason": "The Czech example lacks terminal punctuation, unrelated to the repaired tip.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:44:43.220Z"
+}

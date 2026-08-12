@@ -1,0 +1,674 @@
+{
+  "prerequisite": {
+    "exists": true,
+    "processed": "18/18",
+    "mismatchCount": 1,
+    "deChanges": 0,
+    "complete": true
+  },
+  "expectedCards": [
+    "a1-blond-103",
+    "a1-ins",
+    "a1-kennen-study",
+    "a1-können",
+    "a1-lassen",
+    "a1-laufen",
+    "a1-seite",
+    "a1-sich",
+    "a1-sie-study",
+    "a1-sollen",
+    "a1-essen",
+    "a1-sprechen-study",
+    "a1-auch-study"
+  ],
+  "actualCardIds": [
+    "a1-auch-study",
+    "a1-blond-103",
+    "a1-essen",
+    "a1-ins",
+    "a1-kennen-study",
+    "a1-können",
+    "a1-lassen",
+    "a1-laufen",
+    "a1-seite",
+    "a1-sich",
+    "a1-sie-study",
+    "a1-sollen",
+    "a1-sprechen-study"
+  ],
+  "retention": {
+    "results": [
+      {
+        "n": 1,
+        "cardId": "a1-blond-103",
+        "field": "csText",
+        "status": "RETAINED",
+        "pirmd": "Blondý",
+        "pec": "Blond",
+        "current": "Blond"
+      },
+      {
+        "n": 2,
+        "cardId": "a1-ins",
+        "field": "study.comparison[4].meaning",
+        "status": "RETAINED",
+        "pirmd": "K / ke, kam? (3. pád)",
+        "pec": "K / ke (komu/čemu?, 3. pád)",
+        "current": "K / ke (komu/čemu?, 3. pád)"
+      },
+      {
+        "n": 3,
+        "cardId": "a1-kennen-study",
+        "field": "csMain",
+        "status": "RETAINED",
+        "pirmd": "Vědět",
+        "pec": "Znát",
+        "current": "Znát"
+      },
+      {
+        "n": 4,
+        "cardId": "a1-können",
+        "field": "csMain",
+        "status": "RETAINED",
+        "pirmd": "Umět • Vědět",
+        "pec": "Umět • Moci",
+        "current": "Umět • Moci"
+      },
+      {
+        "n": 5,
+        "cardId": "a1-können",
+        "field": "study.explanation[0]",
+        "status": "CURRENT_VALUE_MISMATCH",
+        "pirmd": "können znamená umět nebo vědět, jak něco udělat",
+        "pec": "können znamená umět nebo moci něco udělat",
+        "current": "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat."
+      },
+      {
+        "n": 6,
+        "cardId": "a1-lassen",
+        "field": "study.sectionAccents.examples[0].lv",
+        "status": "RETAINED",
+        "pirmd": "Nechal",
+        "pec": "Nechávám",
+        "current": "Nechávám"
+      },
+      {
+        "n": 7,
+        "cardId": "a1-lassen",
+        "field": "study.sectionAccents.comparison[1].meaning",
+        "status": "RETAINED",
+        "pirmd": "Pobyt",
+        "pec": "Zůstat",
+        "current": "Zůstat"
+      },
+      {
+        "n": 8,
+        "cardId": "a1-laufen",
+        "field": "study.sectionAccents.comparison[0].meaning",
+        "status": "RETAINED",
+        "pirmd": "Spustit / Spustit",
+        "pec": "Běžet / Fungovat",
+        "current": "Běžet / Fungovat"
+      },
+      {
+        "n": 9,
+        "cardId": "a1-laufen",
+        "field": "study.sectionAccents.comparison[3].meaning",
+        "status": "RETAINED",
+        "pirmd": "Provozovat",
+        "pec": "Fungovat",
+        "current": "Fungovat"
+      },
+      {
+        "n": 10,
+        "cardId": "a1-seite",
+        "field": "csMain",
+        "status": "RETAINED",
+        "pirmd": "Strana • Strana",
+        "pec": "Stránka • Strana",
+        "current": "Stránka • Strana"
+      },
+      {
+        "n": 11,
+        "cardId": "a1-sich",
+        "field": "csMain",
+        "status": "RETAINED",
+        "pirmd": "Sebe • Pro sebe",
+        "pec": "Se • Sebe",
+        "current": "Se • Sebe"
+      },
+      {
+        "n": 12,
+        "cardId": "a1-sie-study",
+        "field": "study.sectionAccents.examples[5].lv",
+        "status": "RETAINED",
+        "pirmd": "Vaříš",
+        "pec": "Vařte, prosím.",
+        "current": "Vařte, prosím."
+      },
+      {
+        "n": 13,
+        "cardId": "a1-sollen",
+        "field": "study.sectionAccents.examples[1].lv",
+        "status": "RETAINED",
+        "pirmd": "Musíte",
+        "pec": "Máš",
+        "current": "Máš"
+      },
+      {
+        "n": 14,
+        "cardId": "a1-sollen",
+        "field": "study.sectionAccents.examples[2].lv",
+        "status": "RETAINED",
+        "pirmd": "Musím",
+        "pec": "Mám",
+        "current": "Mám"
+      },
+      {
+        "n": 15,
+        "cardId": "a1-essen",
+        "field": "study.explanation",
+        "status": "RETAINED",
+        "pirmd": [
+          "Hlavní myšlenka: Sloveso - jíst jídlo.",
+          "Essen především znamená: konzumovat jídlo.",
+          "Často popisuje: akce.",
+          "Essen v podstatě znamená: jídlo nebo jídlo.",
+          "Často popisuje: déšť.",
+          "Essen znamená jíst.",
+          "Das Essen může znamenat jídlo nebo jídlo obecně."
+        ],
+        "pec": [
+          "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+          "Používá se jako sloveso pro konzumaci jídla.",
+          "Das Essen je podstatné jméno a znamená jídlo.",
+          "Essen a das Essen nejsou totéž."
+        ],
+        "current": [
+          "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+          "Používá se jako sloveso pro konzumaci jídla.",
+          "Das Essen je podstatné jméno a znamená jídlo.",
+          "Essen a das Essen nejsou totéž."
+        ]
+      },
+      {
+        "n": 16,
+        "cardId": "a1-sprechen-study",
+        "field": "study.examples[2].lv",
+        "status": "RETAINED",
+        "pirmd": "Mluví se svou učitelkou.",
+        "pec": "Mluvím německy.",
+        "current": "Mluvím německy."
+      },
+      {
+        "n": 17,
+        "cardId": "a1-auch-study",
+        "field": "study.examples[1].lv",
+        "status": "RETAINED",
+        "pirmd": "Ona zde také pracuje.",
+        "pec": "Já také přijdu.",
+        "current": "Já také přijdu."
+      },
+      {
+        "n": 18,
+        "cardId": "a1-auch-study",
+        "field": "study.examples[2].lv",
+        "status": "RETAINED",
+        "pirmd": "Také vám přeji hezký den.",
+        "pec": "Ona zde také pracuje.",
+        "current": "Ona zde také pracuje."
+      }
+    ],
+    "retained": 17,
+    "reverted": 0,
+    "mismatch": 1,
+    "missing": 0
+  },
+  "high362": {
+    "status": "RESOLVED",
+    "explanation": [
+      "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+      "Používá se jako sloveso pro konzumaci jídla.",
+      "Das Essen je podstatné jméno a znamená jídlo.",
+      "Essen a das Essen nejsou totéž."
+    ]
+  },
+  "owner": {
+    "cardId": "a1-in",
+    "field": "study.sectionAccents.examples[0].lv.purple[0]",
+    "expected": "Berlīnē",
+    "actual": "Berlīnē",
+    "pass": true,
+    "status": "OWNER_OVERRIDE_FALSE_POSITIVE"
+  },
+  "integrity": {
+    "cards": 702,
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "studyCreated": 0,
+    "studyDeleted": 0
+  },
+  "deReadOnly": {
+    "deChanges": 0
+  },
+  "unexpected": {
+    "unexpectedProductionChanges": 0,
+    "unexpected": []
+  },
+  "luna": {
+    "counts": {
+      "CONFIRMED_REPAIR_REGRESSION": 2,
+      "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR": 7,
+      "FALSE_POSITIVE": 9,
+      "DE_SOURCE_ISSUE": 0,
+      "NEEDS_OWNER_REVIEW": 0
+    },
+    "allFindings": [
+      {
+        "cardId": "a1-blond-103",
+        "status": "FALSE_POSITIVE",
+        "issue": "csText matches the PEC value, and the full card has no study content or identified regression."
+      },
+      {
+        "cardId": "a1-ins",
+        "status": "FALSE_POSITIVE",
+        "issue": "study.comparison[4].meaning matches the PEC value and correctly describes zum as a dative-direction preposition."
+      },
+      {
+        "cardId": "a1-kennen-study",
+        "field": "study.comparison[0].meaning",
+        "status": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+        "issue": "kennen refers to knowing or being familiar with a person, place, or thing, so Vědět conflicts with the repaired Znát meaning."
+      },
+      {
+        "cardId": "a1-kennen-study",
+        "field": "study.tip[0]",
+        "status": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+        "issue": "The tip contradicts the consistent Czech translation Znát and the card explanation."
+      },
+      {
+        "cardId": "a1-kennen-study",
+        "field": "study.important[1]",
+        "status": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+        "issue": "This repeated summary retains the same incorrect Czech gloss for kennen."
+      },
+      {
+        "cardId": "a1-können",
+        "field": "study.explanation[0]",
+        "status": "CONFIRMED_REPAIR_REGRESSION",
+        "issue": "The retained value is explicitly marked CURRENT_VALUE_MISMATCH and still says vědět instead of the gala-repair wording moci."
+      },
+      {
+        "cardId": "a1-lassen",
+        "status": "FALSE_POSITIVE",
+        "issue": "The repaired Czech accent values are present, old values are absent, and csMain matches study.translation."
+      },
+      {
+        "cardId": "a1-laufen",
+        "field": "csMain",
+        "status": "CONFIRMED_REPAIR_REGRESSION",
+        "issue": "csMain disagrees with study.translation, leaving the repaired card header inconsistent."
+      },
+      {
+        "cardId": "a1-seite",
+        "status": "FALSE_POSITIVE",
+        "issue": "csMain and study.translation both contain Stránka • Strana, and the repaired card context is consistent."
+      },
+      {
+        "cardId": "a1-sich",
+        "field": "study.examples[0].lv",
+        "status": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+        "issue": "The current Czech sentence means bathes, while the source sentence means washes himself."
+      },
+      {
+        "cardId": "a1-sich",
+        "field": "study.sectionAccents.comparison[2].meaning",
+        "status": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+        "issue": "The accent metadata is empty although the corresponding comparison meaning has Czech text."
+      },
+      {
+        "cardId": "a1-sich",
+        "field": "study.sectionAccents.comparison[3].meaning",
+        "status": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+        "issue": "The accent metadata is empty although the corresponding comparison meaning has Czech text."
+      },
+      {
+        "cardId": "a1-sie-study",
+        "field": "study.sectionAccents.examples[5].lv",
+        "status": "FALSE_POSITIVE",
+        "issue": "Current value matches PEC; the old value Vaříš is absent."
+      },
+      {
+        "cardId": "a1-sollen",
+        "field": "study.sectionAccents.examples[1].lv",
+        "status": "FALSE_POSITIVE",
+        "issue": "Current value matches the example Du sollst kommen and PEC; Musíte is absent."
+      },
+      {
+        "cardId": "a1-sollen",
+        "field": "study.sectionAccents.examples[2].lv",
+        "status": "FALSE_POSITIVE",
+        "issue": "Current value matches the example Ich soll zu Hause bleiben and PEC; Musím is absent."
+      },
+      {
+        "cardId": "a1-essen",
+        "field": "study.explanation",
+        "status": "FALSE_POSITIVE",
+        "issue": "Current explanation exactly matches PEC and satisfies all specified structural and semantic checks."
+      },
+      {
+        "cardId": "a1-sprechen-study",
+        "field": "study.examples[2].lv",
+        "status": "FALSE_POSITIVE",
+        "issue": "Current value matches PEC and the German example; the previous swapped translation is absent."
+      },
+      {
+        "cardId": "a1-auch-study",
+        "field": "study.sectionAccents.examples[1].lv.purple[0]",
+        "status": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+        "issue": "The second example now says „Já také přijdu“, but its accent still marks the old wording „jdu“; this path was not repaired."
+      }
+    ],
+    "repairRegressions": [
+      {
+        "cardId": "a1-können",
+        "field": "study.explanation[0]",
+        "status": "CONFIRMED_REPAIR_REGRESSION",
+        "issue": "The retained value is explicitly marked CURRENT_VALUE_MISMATCH and still says vědět instead of the gala-repair wording moci."
+      },
+      {
+        "cardId": "a1-laufen",
+        "field": "csMain",
+        "status": "CONFIRMED_REPAIR_REGRESSION",
+        "issue": "csMain disagrees with study.translation, leaving the repaired card header inconsistent."
+      }
+    ],
+    "repairNeedsOwner": []
+  },
+  "closure": {
+    "status": "NOT CLOSED",
+    "blockers": [
+      "retention 17/18 (expected 18/18)",
+      "CURRENT_VALUE_MISMATCH=1",
+      "CONFIRMED_REPAIR_REGRESSION=2"
+    ]
+  },
+  "stats": {
+    "requestCount": 4,
+    "totalTokens": 34804,
+    "model": "gpt-5.6-luna"
+  },
+  "batchFiles": [
+    "/workspace/reports/temp/cs-a1-high-micro-regression-02/batch-01.json",
+    "/workspace/reports/temp/cs-a1-high-micro-regression-02/batch-02.json",
+    "/workspace/reports/temp/cs-a1-high-micro-regression-02/batch-03.json",
+    "/workspace/reports/temp/cs-a1-high-micro-regression-02/batch-04.json"
+  ],
+  "lunaResults": [
+    {
+      "cardId": "a1-blond-103",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "csText matches the PEC value, and the full card has no study content or identified regression.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-ins",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "study.comparison[4].meaning matches the PEC value and correctly describes zum as a dative-direction preposition.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-kennen-study",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "csMain and study.translation consistently use Znát; older study text still incorrectly equates kennen with Vědět.",
+      "findings": [
+        {
+          "field": "study.comparison[0].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Vědět (osoba, místo, věc)",
+          "proposedCs": "Znát (osoba, místo, věc)",
+          "reason": "kennen refers to knowing or being familiar with a person, place, or thing, so Vědět conflicts with the repaired Znát meaning.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.tip[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Kennen = vědět",
+          "proposedCs": "Kennen = znát",
+          "reason": "The tip contradicts the consistent Czech translation Znát and the card explanation.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.important[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Kennen = vědět.",
+          "proposedCs": "Kennen = znát.",
+          "reason": "This repeated summary retains the same incorrect Czech gloss for kennen.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-können",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "MEDIUM",
+      "confidence": 0.99,
+      "reason": "csMain and study.translation match, but the repaired explanation field still contains the old wording instead of the PEC wording.",
+      "findings": [
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "MEDIUM",
+          "currentCs": "Hlavní myšlenka: können znamená umět nebo vědět, jak něco udělat.",
+          "proposedCs": "Hlavní myšlenka: können znamená umět nebo moci něco udělat",
+          "reason": "The retained value is explicitly marked CURRENT_VALUE_MISMATCH and still says vědět instead of the gala-repair wording moci.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-lassen",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The repaired Czech accent values are present, old values are absent, and csMain matches study.translation.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-laufen",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "The repaired accents use the study meaning, but csMain still says Provozovat while study.translation says Fungovat.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "CONFIRMED_REPAIR_REGRESSION",
+          "severity": "HIGH",
+          "currentCs": "Běžet • Provozovat",
+          "proposedCs": "Běžet • Fungovat",
+          "reason": "csMain disagrees with study.translation, leaving the repaired card header inconsistent.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-seite",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "csMain and study.translation both contain Stránka • Strana, and the repaired card context is consistent.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-sich",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "The repaired header is consistent, but unrelated pre-existing Czech content and accent metadata remain incomplete.",
+      "findings": [
+        {
+          "field": "study.examples[0].lv",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Koupe se.",
+          "proposedCs": "Myje se.",
+          "reason": "The current Czech sentence means bathes, while the source sentence means washes himself.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.sectionAccents.comparison[2].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "",
+          "proposedCs": "Tebe / sebe (u du)",
+          "reason": "The accent metadata is empty although the corresponding comparison meaning has Czech text.",
+          "confidence": 0.97
+        },
+        {
+          "field": "study.sectionAccents.comparison[3].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "",
+          "proposedCs": "Mu",
+          "reason": "The accent metadata is empty although the corresponding comparison meaning has Czech text.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sie-study",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The old accent value was not retained; the current value matches PEC and correctly represents the polite imperative.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[5].lv",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Vařte, prosím.",
+          "proposedCs": "Vařte, prosím.",
+          "reason": "Current value matches PEC; the old value Vaříš is absent.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sollen",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Both section accent values match PEC; the old values Musíte and Musím were not retained.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[1].lv",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Máš",
+          "proposedCs": "Máš",
+          "reason": "Current value matches the example Du sollst kommen and PEC; Musíte is absent.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.sectionAccents.examples[2].lv",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Mám",
+          "proposedCs": "Mám",
+          "reason": "Current value matches the example Ich soll zu Hause bleiben and PEC; Musím is absent.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-essen",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The explanation is a correct four-element array, distinguishes essen from Das Essen, and contains no déšť issue.",
+      "findings": [
+        {
+          "field": "study.explanation",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": [
+            "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+            "Používá se jako sloveso pro konzumaci jídla.",
+            "Das Essen je podstatné jméno a znamená jídlo.",
+            "Essen a das Essen nejsou totéž."
+          ],
+          "proposedCs": [
+            "Hlavní myšlenka: essen znamená jíst nebo konzumovat jídlo.",
+            "Používá se jako sloveso pro konzumaci jídla.",
+            "Das Essen je podstatné jméno a znamená jídlo.",
+            "Essen a das Essen nejsou totéž."
+          ],
+          "reason": "Current explanation exactly matches PEC and satisfies all specified structural and semantic checks.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-sprechen-study",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The repaired example now correctly maps Ich spreche Deutsch to Mluvím německy.",
+      "findings": [
+        {
+          "field": "study.examples[2].lv",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Mluvím německy.",
+          "proposedCs": "Mluvím německy.",
+          "reason": "Current value matches PEC and the German example; the previous swapped translation is absent.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-auch-study",
+      "auditType": "high_micro_regression_02",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "low",
+      "confidence": 0.98,
+      "reason": "Both repaired example translations are correct and not swapped. Only an old section accent remains inconsistent with the corrected second example.",
+      "findings": [
+        {
+          "field": "study.sectionAccents.examples[1].lv.purple[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "low",
+          "currentCs": "jdu",
+          "proposedCs": "přijdu",
+          "reason": "The second example now says „Já také přijdu“, but its accent still marks the old wording „jdu“; this path was not repaired.",
+          "confidence": 0.98
+        }
+      ]
+    }
+  ],
+  "productionChanges": 0
+}

@@ -1,0 +1,191 @@
+{
+  "batch": "batch-019",
+  "cardIds": [
+    "a1-zurück-674",
+    "a1-sprechen-study",
+    "a1-ab",
+    "a1-also",
+    "a1-auch-study"
+  ],
+  "findingCount": 7,
+  "findings": [
+    {
+      "findingId": "HIGH-128",
+      "cardId": "a1-zurück-674",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Zadní“ je přídavné jméno „rear/back“; německé příslovce „zurück“ znamená „zpět“.",
+      "auditCurrentCs": "Zadní",
+      "auditProposedCs": "Zpět",
+      "auditDe": "zurück",
+      "auditLvSource": "atpakaļ",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Zadní",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-129",
+      "cardId": "a1-sprechen-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "auditProblem": "Český text neodpovídá německé větě ani osobě a nahrazuje ji první ukázkovou větou.",
+      "auditCurrentCs": "Mluvím německy",
+      "auditProposedCs": "Mluví se svou učitelkou.",
+      "auditDe": "Sie spricht mit ihrer Lehrerin.",
+      "auditLvSource": "Viņa runā ar savu skolotāju.",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Mluvím německy",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-130",
+      "cardId": "a1-ab",
+      "field": "study.translation",
+      "source": "luna",
+      "auditProblem": "Ab označuje počáteční bod v čase nebo prostoru; základní český ekvivalent je „od“, ne „z“.",
+      "auditCurrentCs": "Z",
+      "auditProposedCs": "Od",
+      "auditDe": "ab",
+      "auditLvSource": "no",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Z",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-131",
+      "cardId": "a1-also",
+      "field": "study.tip.text",
+      "source": "luna",
+      "auditProblem": "„Také“ znamená auch, nikoli also; tip zaměňuje dvě německé částice.",
+      "auditCurrentCs": "Pamatujte: závěr → také.",
+      "auditProposedCs": "Pamatujte: závěr → tedy.",
+      "auditDe": "also",
+      "auditLvSource": "secinājums",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Pamatujte: závěr → také.",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-132",
+      "cardId": "a1-also",
+      "field": "study.important[0]",
+      "source": "luna",
+      "auditProblem": "Text používá české „také“ místo správného ekvivalentu „tedy“ pro německé also.",
+      "auditCurrentCs": "Také ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+      "auditProposedCs": "Tedy ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+      "auditDe": "also",
+      "auditLvSource": "tātad",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Také ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-133",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[1].lv",
+      "source": "luna",
+      "auditProblem": "Český text je kopií první věty a neodpovídá německé větě ani osobě.",
+      "auditCurrentCs": "Já jdu taky",
+      "auditProposedCs": "Ona zde také pracuje.",
+      "auditDe": "Sie arbeitet auch hier.",
+      "auditLvSource": "Viņa arī strādā šeit.",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Já jdu taky",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-134",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[2].lv",
+      "source": "luna",
+      "auditProblem": "Český text patří k předchozí větě a neodpovídá německému přání.",
+      "auditCurrentCs": "Ona zde také pracuje.",
+      "auditProposedCs": "Také vám přeji hezký den.",
+      "auditDe": "Ich wünsche Ihnen auch einen schönen Tag.",
+      "auditLvSource": "Es arī novēlu jums jauku dienu.",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Ona zde také pracuje.",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-128",
+      "cardId": "a1-zurück-674",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Zadní“ znamená rear/back, nikoli německé příslovce „zurück“ ve významu zpět.",
+      "currentCs": "Zadní",
+      "proposedCs": "Zpět"
+    },
+    {
+      "findingId": "HIGH-129",
+      "cardId": "a1-sprechen-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Text je kopií první věty a neodpovídá německé větě ani třetí osobě.",
+      "currentCs": "Mluvím německy",
+      "proposedCs": "Mluví se svou učitelkou."
+    },
+    {
+      "findingId": "HIGH-130",
+      "cardId": "a1-ab",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.96,
+      "reason": "„Z“ není vhodný hlavní český ekvivalent pro „ab“; význam počínaje od určitého bodu je „od“.",
+      "currentCs": "Z",
+      "proposedCs": "Od"
+    },
+    {
+      "findingId": "HIGH-131",
+      "cardId": "a1-also",
+      "field": "study.tip.text",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Tip chybně používá „také“, které odpovídá „auch“, místo závěrového „tedy“ pro „also“.",
+      "currentCs": "Pamatujte: závěr → také.",
+      "proposedCs": "Pamatujte: závěr → tedy."
+    },
+    {
+      "findingId": "HIGH-132",
+      "cardId": "a1-also",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Vysvětlení závěrového významu „also“ obsahuje nesprávné české „Také“ místo „Tedy“.",
+      "currentCs": "Také ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše.",
+      "proposedCs": "Tedy ukazuje závěr: další myšlenka vyplývá z toho, co bylo řečeno výše."
+    },
+    {
+      "findingId": "HIGH-133",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[1].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Text je kopií první věty a neodpovídá německé větě „Sie arbeitet auch hier.“",
+      "currentCs": "Já jdu taky",
+      "proposedCs": "Ona zde také pracuje."
+    },
+    {
+      "findingId": "HIGH-134",
+      "cardId": "a1-auch-study",
+      "field": "study.examples[2].lv",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "Text patří k předchozí větě a neodpovídá německému přání ve třetím příkladu.",
+      "currentCs": "Ona zde také pracuje.",
+      "proposedCs": "Také vám přeji hezký den."
+    }
+  ],
+  "completedAt": "2026-08-11T17:40:59.579Z"
+}

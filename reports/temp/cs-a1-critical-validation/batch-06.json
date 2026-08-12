@@ -1,0 +1,194 @@
+{
+  "batch": 6,
+  "items": [
+    {
+      "findingId": "CRIT-31",
+      "cardId": "a1-schauen-study",
+      "index": 510,
+      "field": "study.translation",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "„Hodinky“ znamená wristwatch; jde o zcela nesprávný překlad slovesa schauen.",
+        "currentCs": "Hodinky",
+        "proposedCs": "Dívat se",
+        "de": "schauen",
+        "lvSource": "skatīties"
+      },
+      "productionNow": {
+        "currentCs": "Hodinky",
+        "de": "schauen",
+        "lvSource": "skatīties"
+      }
+    },
+    {
+      "findingId": "CRIT-32",
+      "cardId": "a1-schauen-study",
+      "index": 510,
+      "field": "study.comparison[0].meaning",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "„Sledovat“ není vždy ekvivalentní schauen; základní A1 význam je „dívat se“.",
+        "currentCs": "Sledovat (aktivně)",
+        "proposedCs": "Dívat se (aktivně)",
+        "de": "schauen",
+        "lvSource": "skatīties (aktīvi)"
+      },
+      "productionNow": {
+        "currentCs": "Sledovat (aktivně)",
+        "de": "schauen",
+        "lvSource": "skatīties (aktīvi)"
+      }
+    },
+    {
+      "findingId": "CRIT-33",
+      "cardId": "a1-sehen",
+      "index": 539,
+      "field": "study.comparison[1].meaning",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "„Hodinky“ je chybný překlad způsobený záměnou schauen s podstatným jménem.",
+        "currentCs": "Hodinky",
+        "proposedCs": "Dívat se",
+        "de": "schauen",
+        "lvSource": "skatīties"
+      },
+      "productionNow": {
+        "currentCs": "Hodinky",
+        "de": "sehen",
+        "lvSource": "skatīties"
+      }
+    },
+    {
+      "findingId": "CRIT-34",
+      "cardId": "a1-sich",
+      "index": 547,
+      "field": "study.explanation[1]",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Text uvádí nesprávné osobní zájmeno „já“ místo českého reflexiva.",
+        "currentCs": "V češtině se často překládá jako já nebo já.",
+        "proposedCs": "V češtině se často překládá jako se, sebe nebo sobě podle pádu.",
+        "de": "sich",
+        "lvSource": "sevi vai sev"
+      },
+      "productionNow": {
+        "currentCs": "V češtině se často překládá jako já nebo já.",
+        "de": "sich",
+        "lvSource": "Latviski to bieži tulko kā sevi vai sev."
+      }
+    },
+    {
+      "findingId": "CRIT-35",
+      "cardId": "a1-sollen",
+      "index": 564,
+      "field": "study.important[0]",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "Český text obsahuje zásadní překlep a deformuje německou frázi.",
+        "currentCs": "Byl soll ich machen? je velmi častá věta.",
+        "proposedCs": "Was soll ich machen? je velmi častá věta.",
+        "de": "Was soll ich machen?",
+        "lvSource": "Was soll ich machen? ir ļoti bieža frāze."
+      },
+      "productionNow": {
+        "currentCs": "Byl soll ich machen? je velmi častá věta.",
+        "de": "sollen",
+        "lvSource": "Was soll ich machen? ir ļoti bieža frāze."
+      }
+    },
+    {
+      "findingId": "CRIT-36",
+      "cardId": "a1-fernsehen-study",
+      "index": 688,
+      "field": "study.important[0]",
+      "source": "luna",
+      "auditFinding": {
+        "problem": "„Kapradina“ is a mistranslation of German fern and teaches the wrong word.",
+        "currentCs": "Essen je dělitelné: sehen + kapradina.",
+        "proposedCs": "Fernsehen je dělitelné: sehen + fern.",
+        "de": "Fernsehen",
+        "lvSource": "sehen + fern"
+      },
+      "productionNow": {
+        "currentCs": "Fernsehen je dělitelné: sehen + kapradina.",
+        "de": "Fernsehen",
+        "lvSource": "fernsehen ir sadalāms: sehen + fern."
+      }
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "CRIT-31",
+      "cardId": "a1-schauen-study",
+      "field": "study.translation",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Hodinky“ znamená náramkové hodinky, nikoli německé sloveso „schauen“.",
+      "currentCs": "Hodinky",
+      "proposedCs": "Dívat se",
+      "de": "schauen"
+    },
+    {
+      "findingId": "CRIT-32",
+      "cardId": "a1-schauen-study",
+      "field": "study.comparison[0].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Sledovat“ posouvá význam k aktivnímu sledování; základní ekvivalent „schauen“ je „dívat se“.",
+      "currentCs": "Sledovat (aktivně)",
+      "proposedCs": "Dívat se (aktivně)",
+      "de": "schauen"
+    },
+    {
+      "findingId": "CRIT-33",
+      "cardId": "a1-sehen",
+      "field": "study.comparison[1].meaning",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Hodinky“ je nesprávný překlad německého „sehen“; odpovídající český význam je „dívat se“.",
+      "currentCs": "Hodinky",
+      "proposedCs": "Dívat se",
+      "de": "sehen"
+    },
+    {
+      "findingId": "CRIT-34",
+      "cardId": "a1-sich",
+      "field": "study.explanation[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "Text chybně opakuje zájmeno „já“ a nevysvětluje české reflexivní tvary „se“, „sebe“ a „sobě“.",
+      "currentCs": "V češtině se často překládá jako já nebo já.",
+      "proposedCs": "V češtině se často překládá jako se, sebe nebo sobě podle pádu.",
+      "de": "sich"
+    },
+    {
+      "findingId": "CRIT-35",
+      "cardId": "a1-sollen",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Byl soll ich machen?“ je zásadní překlep; správná německá fráze zní „Was soll ich machen?“.",
+      "currentCs": "Byl soll ich machen? je velmi častá věta.",
+      "proposedCs": "Was soll ich machen? je velmi častá věta.",
+      "de": "Was soll ich machen?"
+    },
+    {
+      "findingId": "CRIT-36",
+      "cardId": "a1-fernsehen-study",
+      "field": "study.important[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "„Kapradina“ je chybný překlad slova „fern“ a narušuje vysvětlení složení výrazu „Fernsehen“.",
+      "currentCs": "Fernsehen je dělitelné: sehen + kapradina.",
+      "proposedCs": "Fernsehen je dělitelné: sehen + fern.",
+      "de": "Fernsehen"
+    }
+  ],
+  "completedAt": "2026-08-11T16:07:37.576Z"
+}

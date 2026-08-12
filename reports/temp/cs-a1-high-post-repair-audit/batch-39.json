@@ -1,0 +1,1060 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-urlaub",
+      "index": 695,
+      "de": "Urlaub",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Dovolená",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 283,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Odejít z práce (pouze všichni)",
+          "pec": "Dovolená z práce (obvykle jednotné číslo)"
+        },
+        {
+          "block": 6,
+          "n": 284,
+          "field": "study.important[2]",
+          "pirmd": "Nesprávně: die Urlaube → Správně: der Urlaub",
+          "pec": "Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle. Množné číslo Urlaube je možné v jiných kontextech."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-urlaub",
+        "index": 695,
+        "de": "Urlaub",
+        "layout": "standardStudy",
+        "csMain": "Dovolená",
+        "studyTranslation": "Dovolená",
+        "lvSourceMain": "atvaļinājums",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "atvaļinājums",
+            "csText": "Dovolená",
+            "de": "Urlaub"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Mans tēvs ir atvaļinājumā.",
+            "csText": "Můj otec je na dovolené.",
+            "de": "Urlaub"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mans tēvs ir atvaļinājumā.",
+            "csText": "Můj otec je na dovolené.",
+            "de": "Urlaub"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "nākamnedēļ man ir atvaļinājums.",
+            "csText": "Příští týden mám dovolenou.",
+            "de": "Urlaub"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "mēs pavadām atvaļinājumu Spānijā.",
+            "csText": "Jsme na dovolené ve Španělsku.",
+            "de": "Urlaub"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "atvaļinājumā (darbs).",
+            "csText": "Na dovolené (práce).",
+            "de": "Urlaub"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "der Urlaub",
+            "csText": "der Urlaub",
+            "de": "Urlaub"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "atvaļinājums no darba (tikai vsk.)",
+            "csText": "Dovolená z práce (obvykle jednotné číslo)",
+            "de": "Urlaub"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "die Ferien",
+            "csText": "die Ferien",
+            "de": "Urlaub"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "skolas/studiju brīvlaiks (tikai dsk.)",
+            "csText": "Školní/studijní přestávka (pouze dsk.)",
+            "de": "Urlaub"
+          }
+        ],
+        "study": {
+          "id": "a1-urlaub",
+          "layout": "standardStudy",
+          "translation": "Dovolená",
+          "explanation": [
+            "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+            "Der Urlaub v podstatě znamená: volno v práci.",
+            "Často charakterizováno: pouze jednotné číslo.",
+            "Der Urlaub je pouze jednotné číslo - dovolená z práce (im Urlaub)."
+          ],
+          "examples": [
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Můj otec je na dovolené."
+            },
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Můj otec je na dovolené."
+            },
+            {
+              "de": "Nächste Woche habe ich Urlaub.",
+              "lv": "Příští týden mám dovolenou."
+            },
+            {
+              "de": "Wir machen Urlaub in Spanien.",
+              "lv": "Jsme na dovolené ve Španělsku."
+            },
+            {
+              "de": "im Urlaub",
+              "lv": "Na dovolené (práce)."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Urlaub",
+              "meaning": "Dovolená z práce (obvykle jednotné číslo)",
+              "example": "Mein Vater ist im Urlaub. – Můj otec je na dovolené."
+            },
+            {
+              "word": "die Ferien",
+              "meaning": "Školní/studijní přestávka (pouze dsk.)",
+              "example": "Die Kinder haben Ferien. – Děti mají prázdniny."
+            }
+          ],
+          "tip": [
+            "Pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+            "Použijte der Urlaub, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
+            "Urlaub: im Urlaub sein / Urlaub machen.",
+            "Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle. Množné číslo Urlaube je možné v jiných kontextech.",
+            "Dílo: der Urlaub (pouze jednotné číslo)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "yellow": [
+                "Urlaub"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Můj"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Můj"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Příští"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jsme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dovolené"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Pouze"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "der Urlabe"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-urlaub",
+          "layout": "standardStudy",
+          "translation": "atvaļinājums",
+          "explanation": [
+            "Galvenā doma: tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+            "der Urlaub galvenokārt nozīmē: brīvais laiks no darba.",
+            "Bieži raksturo: tikai vienskaitlis.",
+            "der Urlaub ir tikai vienskaitlis — atvaļinājums no darba (im Urlaub)."
+          ],
+          "examples": [
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Mans tēvs ir atvaļinājumā."
+            },
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "mans tēvs ir atvaļinājumā."
+            },
+            {
+              "de": "Nächste Woche habe ich Urlaub.",
+              "lv": "nākamnedēļ man ir atvaļinājums."
+            },
+            {
+              "de": "Wir machen Urlaub in Spanien.",
+              "lv": "mēs pavadām atvaļinājumu Spānijā."
+            },
+            {
+              "de": "im Urlaub",
+              "lv": "atvaļinājumā (darbs)."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Urlaub",
+              "meaning": "atvaļinājums no darba (tikai vsk.)",
+              "example": "Mein Vater ist im Urlaub. – Mans tēvs ir atvaļinājumā."
+            },
+            {
+              "word": "die Ferien",
+              "meaning": "skolas/studiju brīvlaiks (tikai dsk.)",
+              "example": "Die Kinder haben Ferien. – Bērniem ir brīvdienas."
+            }
+          ],
+          "tip": [
+            "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+            "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
+            "Urlaub: im Urlaub sein / Urlaub machen.",
+            "Nepareizi: die Urlaube → Pareizi: der Urlaub",
+            "Darbs: der Urlaub (tikai vienskaitlī)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ],
+              "purple": [
+                "atvaļinājums"
+              ],
+              "yellow": [
+                "Urlaub"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atvaļinājumā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atvaļinājumā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atvaļinājums"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atvaļinājumu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atvaļinājumā"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "atvaļinājums"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "der Urlaub"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-urlaub",
+        "layout": "standardStudy",
+        "translation": "Dovolená",
+        "explanation": [
+          "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+          "Der Urlaub v podstatě znamená: volno v práci.",
+          "Často charakterizováno: pouze jednotné číslo.",
+          "Der Urlaub je pouze jednotné číslo - dovolená z práce (im Urlaub)."
+        ],
+        "examples": [
+          {
+            "de": "Mein Vater ist im Urlaub.",
+            "lv": "Můj otec je na dovolené."
+          },
+          {
+            "de": "Mein Vater ist im Urlaub.",
+            "lv": "Můj otec je na dovolené."
+          },
+          {
+            "de": "Nächste Woche habe ich Urlaub.",
+            "lv": "Příští týden mám dovolenou."
+          },
+          {
+            "de": "Wir machen Urlaub in Spanien.",
+            "lv": "Jsme na dovolené ve Španělsku."
+          },
+          {
+            "de": "im Urlaub",
+            "lv": "Na dovolené (práce)."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "der Urlaub",
+            "meaning": "Dovolená z práce (obvykle jednotné číslo)",
+            "example": "Mein Vater ist im Urlaub. – Můj otec je na dovolené."
+          },
+          {
+            "word": "die Ferien",
+            "meaning": "Školní/studijní přestávka (pouze dsk.)",
+            "example": "Die Kinder haben Ferien. – Děti mají prázdniny."
+          }
+        ],
+        "tip": [
+          "Pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+          "Použijte der Urlaub, pokud kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Nesprávně: die Ferie, der Urlabe (na úrovni A1).",
+          "Urlaub: im Urlaub sein / Urlaub machen.",
+          "Urlaub se v běžném významu dovolené používá obvykle v jednotném čísle. Množné číslo Urlaube je možné v jiných kontextech.",
+          "Dílo: der Urlaub (pouze jednotné číslo)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "der Urlaub",
+              "urlaub"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "yellow": [
+              "Urlaub"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "urlaub"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Můj"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "urlaub"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Můj"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "urlaub"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Příští"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "urlaub"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jsme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "urlaub"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "dovolené"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Pouze"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "green": [
+                "der Urlabe"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-uhr",
+      "index": 698,
+      "de": "Uhr",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Hodiny",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 285,
+          "field": "study.examples[5].lv",
+          "pirmd": "Zařízení/čas na hodinách • Die Zeit",
+          "pec": "Hodiny/hodinky • Čas na hodinách"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-uhr",
+        "index": 698,
+        "de": "Uhr",
+        "layout": "standardStudy",
+        "csMain": "Hodiny",
+        "studyTranslation": "Hodiny",
+        "lvSourceMain": "pulkstenis",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "pulkstenis",
+            "csText": "Hodiny",
+            "de": "Uhr"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Ir astoņi (pulksten astoņi).",
+            "csText": "Je osm (osm hodin).",
+            "de": "Uhr"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "ir astoņi (pulksten astoņi).",
+            "csText": "Je osm (osm hodin).",
+            "de": "Uhr"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mans pulkstenis ir salūzis.",
+            "csText": "Moje hodinky jsou rozbité.",
+            "de": "Uhr"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ir astoņi.",
+            "csText": "Je osm.",
+            "de": "Uhr"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "Ir astoņi (pulksten).",
+            "csText": "Je osm (hodin).",
+            "de": "Uhr"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "ierīce/laiks pulkstenī; die Zeit",
+            "csText": "Hodiny/hodinky • Čas na hodinách",
+            "de": "Uhr"
+          }
+        ],
+        "study": {
+          "id": "a1-uhr",
+          "layout": "standardStudy",
+          "translation": "Hodiny",
+          "explanation": [
+            "Hlavní myšlenka: Hodiny nebo náramkové hodinky. Také čas na hodinách: Es ist acht Uhr.",
+            "Die Uhr v podstatě znamená: zařízení nebo čas v hodinách.",
+            "Často charakterizováno: konkrétním časem.",
+            "Die Uhr znamená hodiny - zařízení nebo čas v hodinách (Es ist acht Uhr, meine Uhr)."
+          ],
+          "examples": [
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Je osm (osm hodin)."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Je osm (osm hodin)."
+            },
+            {
+              "de": "Meine Uhr ist kaputt.",
+              "lv": "Moje hodinky jsou rozbité."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Je osm."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Je osm (hodin)."
+            },
+            {
+              "de": "die Uhr",
+              "lv": "Hodiny/hodinky • Čas na hodinách"
+            }
+          ],
+          "tip": [
+            "Hodiny nebo náramkové hodinky. Také čas na hodinách: Es ist acht Uhr.",
+            "Použijte die Uhr, pokud kontext odpovídá tomuto významu."
+          ],
+          "important": [
+            "Die Uhr: zařízení (meine Uhr) nebo čas (acht Uhr).",
+            "Die Uhr: před použitím zkontrolujte kontext."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Uhr"
+              ],
+              "purple": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "osm"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "osm"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moje"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "osm"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "die Uhr",
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zařízení/čas"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Hodiny"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Uhr"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-uhr",
+          "layout": "standardStudy",
+          "translation": "pulkstenis",
+          "explanation": [
+            "Galvenā doma: Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
+            "die Uhr galvenokārt nozīmē: ierīce vai laiks pulkstenī.",
+            "Bieži raksturo: konkrēts laiks.",
+            "die Uhr nozīmē pulksteni — ierīci vai laiku pulkstenī (Es ist acht Uhr, meine Uhr)."
+          ],
+          "examples": [
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Meine Uhr ist kaputt.",
+              "lv": "mans pulkstenis ir salūzis."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "ir astoņi."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten)."
+            },
+            {
+              "de": "die Uhr",
+              "lv": "ierīce/laiks pulkstenī; die Zeit"
+            }
+          ],
+          "tip": [
+            "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
+            "Izmanto die Uhr, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
+            "die Uhr: pārbaudi kontekstu pirms lietošanas."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Uhr"
+              ],
+              "purple": [
+                "pulkstenis"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "die Uhr",
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenī"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "pulkstenis"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Uhr"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-uhr",
+        "layout": "standardStudy",
+        "translation": "Hodiny",
+        "explanation": [
+          "Hlavní myšlenka: Hodiny nebo náramkové hodinky. Také čas na hodinách: Es ist acht Uhr.",
+          "Die Uhr v podstatě znamená: zařízení nebo čas v hodinách.",
+          "Často charakterizováno: konkrétním časem.",
+          "Die Uhr znamená hodiny - zařízení nebo čas v hodinách (Es ist acht Uhr, meine Uhr)."
+        ],
+        "examples": [
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Je osm (osm hodin)."
+          },
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Je osm (osm hodin)."
+          },
+          {
+            "de": "Meine Uhr ist kaputt.",
+            "lv": "Moje hodinky jsou rozbité."
+          },
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Je osm."
+          },
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Je osm (hodin)."
+          },
+          {
+            "de": "die Uhr",
+            "lv": "Hodiny/hodinky • Čas na hodinách"
+          }
+        ],
+        "tip": [
+          "Hodiny nebo náramkové hodinky. Také čas na hodinách: Es ist acht Uhr.",
+          "Použijte die Uhr, pokud kontext odpovídá tomuto významu."
+        ],
+        "important": [
+          "Die Uhr: zařízení (meine Uhr) nebo čas (acht Uhr).",
+          "Die Uhr: před použitím zkontrolujte kontext."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Uhr"
+            ],
+            "purple": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "uhr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "osm"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "uhr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "osm"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "uhr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Moje"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "uhr"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "uhr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "osm"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "die Uhr",
+                  "uhr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zařízení/čas"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Hodiny"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "die Uhr"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-urlaub",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "HIGH opravy významu jsou správné. Karta však obsahuje dřívější nesouvisející chyby v českém vysvětlení a důležité poznámce.",
+      "findings": [
+        {
+          "field": "study.explanation[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Hlavní myšlenka: pouze jednotné číslo. Odejít z práce - vždy v jednotném čísle.",
+          "reason": "Formulace „Odejít z práce“ nevystihuje význam Urlaub jako dovolené; toto pole nebylo HIGH opravou změněno.",
+          "confidence": 0.98
+        },
+        {
+          "field": "study.important[3]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Dílo: der Urlaub (pouze jednotné číslo).",
+          "reason": "„Dílo“ je v tomto kontextu zjevně nesprávné české slovo; pole nebylo HIGH opravou změněno.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-uhr",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "HIGH oprava správně rozlišuje hodiny či hodinky od času na hodinách a nezpůsobuje významovou ani gramatickou regresi.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:48:52.421Z"
+}

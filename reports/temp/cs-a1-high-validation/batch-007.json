@@ -1,0 +1,141 @@
+{
+  "batch": "batch-007",
+  "cardIds": [
+    "a1-anziehen-30",
+    "a1-Ärztin-46",
+    "a1-aufpassen-51",
+    "a1-aufstehen-52",
+    "a1-Bauch-73"
+  ],
+  "findingCount": 5,
+  "findings": [
+    {
+      "findingId": "HIGH-066",
+      "cardId": "a1-anziehen-30",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Nasadit“ se používá hlavně pro nasazení předmětu; obecné „anziehen“ znamená obléknout si.",
+      "auditCurrentCs": "Nasadit",
+      "auditProposedCs": "Obléknout si",
+      "auditDe": "anziehen",
+      "auditLvSource": "uzvilkt",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Nasadit",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-067",
+      "cardId": "a1-Ärztin-46",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Německé „Ärztin“ označuje ženu; „lékař“ je mužský rod.",
+      "auditCurrentCs": "Lékař",
+      "auditProposedCs": "Lékařka",
+      "auditDe": "Ärztin",
+      "auditLvSource": "ārste",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Lékař",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-068",
+      "cardId": "a1-aufpassen-51",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Buďte opatrní“ je konkrétní rozkaz; základní sloveso „aufpassen“ znamená dávat pozor.",
+      "auditCurrentCs": "Buďte opatrní",
+      "auditProposedCs": "Dávat pozor",
+      "auditDe": "aufpassen",
+      "auditLvSource": "uzmanīties",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Buďte opatrní",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-069",
+      "cardId": "a1-aufstehen-52",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "„Aufstehen“ znamená vstát; „postavit se“ znamená zaujmout stojící polohu.",
+      "auditCurrentCs": "Postavit se",
+      "auditProposedCs": "Vstát",
+      "auditDe": "aufstehen",
+      "auditLvSource": "piecelties",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Postavit se",
+      "productionMatchesAudit": true
+    },
+    {
+      "findingId": "HIGH-070",
+      "cardId": "a1-Bauch-73",
+      "field": "csText",
+      "source": "luna",
+      "auditProblem": "Žaludek znamená německy Magen; Bauch je břicho nebo oblast břicha.",
+      "auditCurrentCs": "Žaludek",
+      "auditProposedCs": "Břicho",
+      "auditDe": "Bauch",
+      "auditLvSource": "vēders",
+      "foreignRemnant": false,
+      "productionCurrentCs": "Žaludek",
+      "productionMatchesAudit": true
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "HIGH-066",
+      "cardId": "a1-anziehen-30",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Nasadit“ znamená nasadit předmět; německé „anziehen“ zde znamená obléknout si.",
+      "currentCs": "Nasadit",
+      "proposedCs": "Obléknout si"
+    },
+    {
+      "findingId": "HIGH-067",
+      "cardId": "a1-Ärztin-46",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Ärztin“ je ženský rod, takže český překlad musí být „lékařka“, nikoli „lékař“.",
+      "currentCs": "Lékař",
+      "proposedCs": "Lékařka"
+    },
+    {
+      "findingId": "HIGH-068",
+      "cardId": "a1-aufpassen-51",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.96,
+      "reason": "„Aufpassen“ znamená dávat pozor; „Buďte opatrní“ je užší situační rozkaz a není základním překladem slovesa.",
+      "currentCs": "Buďte opatrní",
+      "proposedCs": "Dávat pozor"
+    },
+    {
+      "findingId": "HIGH-069",
+      "cardId": "a1-aufstehen-52",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reason": "„Aufstehen“ znamená vstát; „postavit se“ označuje zaujetí stojící polohy a není přesným základním překladem.",
+      "currentCs": "Postavit se",
+      "proposedCs": "Vstát"
+    },
+    {
+      "findingId": "HIGH-070",
+      "cardId": "a1-Bauch-73",
+      "field": "csText",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "HIGH",
+      "confidence": 0.99,
+      "reason": "„Bauch“ znamená břicho; „žaludek“ je německy „Magen“ a označuje konkrétní orgán.",
+      "currentCs": "Žaludek",
+      "proposedCs": "Břicho"
+    }
+  ],
+  "completedAt": "2026-08-11T17:39:45.130Z"
+}

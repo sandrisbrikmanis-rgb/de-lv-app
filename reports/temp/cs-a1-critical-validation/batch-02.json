@@ -1,0 +1,194 @@
+{
+  "batch": 2,
+  "items": [
+    {
+      "findingId": "CRIT-07",
+      "cardId": "a1-in",
+      "index": 295,
+      "field": "entry[295].study.sectionAccents.important[0].purple[0]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[295].study.sectionAccents.important[0].purple[0]",
+        "currentCs": "Berlīnē",
+        "proposedCs": "(Czech text required)",
+        "de": "in",
+        "lvSource": "iekšā • uz"
+      },
+      "productionNow": {
+        "currentCs": "Berlīnē",
+        "de": "in",
+        "lvSource": "Berlīnē"
+      }
+    },
+    {
+      "findingId": "CRIT-08",
+      "cardId": "a1-land",
+      "index": 351,
+      "field": "entry[351].study.sectionAccents.comparison[3].meaning.purple[1]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[351].study.sectionAccents.comparison[3].meaning.purple[1]",
+        "currentCs": "planēta",
+        "proposedCs": "(Czech text required)",
+        "de": "Land",
+        "lvSource": "valsts • zeme"
+      },
+      "productionNow": {
+        "currentCs": "planēta",
+        "de": "Land",
+        "lvSource": "planēta"
+      }
+    },
+    {
+      "findingId": "CRIT-09",
+      "cardId": "a1-sitzen",
+      "index": 558,
+      "field": "entry[558].study.sectionAccents.explanation.purple[0]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[558].study.sectionAccents.explanation.purple[0]",
+        "currentCs": "sēdēt",
+        "proposedCs": "(Czech text required)",
+        "de": "sitzen",
+        "lvSource": "sēdēt"
+      },
+      "productionNow": {
+        "currentCs": "sēdēt",
+        "de": "sitzen",
+        "lvSource": "sēdēt"
+      }
+    },
+    {
+      "findingId": "CRIT-10",
+      "cardId": "a1-sitzen",
+      "index": 558,
+      "field": "entry[558].study.sectionAccents.explanation.purple[1]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[558].study.sectionAccents.explanation.purple[1]",
+        "currentCs": "sēž",
+        "proposedCs": "(Czech text required)",
+        "de": "sitzen",
+        "lvSource": "sēdēt"
+      },
+      "productionNow": {
+        "currentCs": "sēž",
+        "de": "sitzen",
+        "lvSource": "sēž"
+      }
+    },
+    {
+      "findingId": "CRIT-11",
+      "cardId": "a1-sitzen",
+      "index": 558,
+      "field": "entry[558].study.sectionAccents.comparison[0].meaning.purple[0]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[558].study.sectionAccents.comparison[0].meaning.purple[0]",
+        "currentCs": "sēdēt",
+        "proposedCs": "(Czech text required)",
+        "de": "sitzen",
+        "lvSource": "sēdēt"
+      },
+      "productionNow": {
+        "currentCs": "sēdēt",
+        "de": "sitzen",
+        "lvSource": "sēdēt"
+      }
+    },
+    {
+      "findingId": "CRIT-12",
+      "cardId": "a1-stehen",
+      "index": 576,
+      "field": "entry[576].study.sectionAccents.comparison[1].meaning.purple[0]",
+      "source": "deterministic",
+      "auditFinding": {
+        "problem": "Foreign remnant (LV_DIACRITIC) in entry[576].study.sectionAccents.comparison[1].meaning.purple[0]",
+        "currentCs": "sēdēt",
+        "proposedCs": "(Czech text required)",
+        "de": "stehen",
+        "lvSource": "stāvēt"
+      },
+      "productionNow": {
+        "currentCs": "sēdēt",
+        "de": "stehen",
+        "lvSource": "sēdēt"
+      }
+    }
+  ],
+  "validations": [
+    {
+      "findingId": "CRIT-07",
+      "cardId": "a1-in",
+      "field": "entry[295].study.sectionAccents.important[0].purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "The Czech field contains Latvian text; the German meaning requires the Czech phrase “v Berlíně”.",
+      "currentCs": "Berlīnē",
+      "proposedCs": "v Berlíně",
+      "de": "in"
+    },
+    {
+      "findingId": "CRIT-08",
+      "cardId": "a1-land",
+      "field": "entry[351].study.sectionAccents.comparison[3].meaning.purple[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "“planēta” is Latvian for “planet” and does not match German “Land”; the Czech equivalent is “země”.",
+      "currentCs": "planēta",
+      "proposedCs": "země",
+      "de": "Land"
+    },
+    {
+      "findingId": "CRIT-09",
+      "cardId": "a1-sitzen",
+      "field": "entry[558].study.sectionAccents.explanation.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "The field contains the Latvian infinitive “sēdēt”, not Czech; German “sitzen” translates as “sedět”.",
+      "currentCs": "sēdēt",
+      "proposedCs": "sedět",
+      "de": "sitzen"
+    },
+    {
+      "findingId": "CRIT-10",
+      "cardId": "a1-sitzen",
+      "field": "entry[558].study.sectionAccents.explanation.purple[1]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "“sēž” is Latvian, while the Czech third-person form corresponding to “sitzen” is “sedí”.",
+      "currentCs": "sēž",
+      "proposedCs": "sedí",
+      "de": "sitzen"
+    },
+    {
+      "findingId": "CRIT-11",
+      "cardId": "a1-sitzen",
+      "field": "entry[558].study.sectionAccents.comparison[0].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "The field contains Latvian “sēdēt”; the correct Czech translation of German “sitzen” is “sedět”.",
+      "currentCs": "sēdēt",
+      "proposedCs": "sedět",
+      "de": "sitzen"
+    },
+    {
+      "findingId": "CRIT-12",
+      "cardId": "a1-stehen",
+      "field": "entry[576].study.sectionAccents.comparison[1].meaning.purple[0]",
+      "validationStatus": "CONFIRMED_REAL",
+      "severity": "CRITICAL",
+      "confidence": "HIGH",
+      "reason": "The current text is Latvian for “sit”, contradicting German “stehen”; the correct Czech translation is “stát”.",
+      "currentCs": "sēdēt",
+      "proposedCs": "stát",
+      "de": "stehen"
+    }
+  ],
+  "completedAt": "2026-08-11T16:06:51.445Z"
+}

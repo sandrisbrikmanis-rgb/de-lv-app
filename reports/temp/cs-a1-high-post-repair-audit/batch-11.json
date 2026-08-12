@@ -1,0 +1,203 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-nicht-447",
+      "index": 447,
+      "de": "nicht",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Ne",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 41,
+          "field": "csText",
+          "pirmd": "Žádný",
+          "pec": "Ne"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-nicht-447",
+        "index": 447,
+        "de": "nicht",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "ne",
+        "csText": "Ne",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Ostern-467",
+      "index": 467,
+      "de": "Ostern",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Velikonoce",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 42,
+          "field": "csText",
+          "pirmd": "Velikonoční",
+          "pec": "Velikonoce"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Ostern-467",
+        "index": 467,
+        "de": "Ostern",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "Lieldienas",
+        "csText": "Velikonoce",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Pferd-474",
+      "index": 474,
+      "de": "Pferd",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Kůň",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 43,
+          "field": "csText",
+          "pirmd": "Koně",
+          "pec": "Kůň"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Pferd-474",
+        "index": 474,
+        "de": "Pferd",
+        "de_article": "das",
+        "de_plural": "die Pferde",
+        "lvSource": "zirgs",
+        "csText": "Kůň",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Programm-484",
+      "index": 484,
+      "de": "Programm",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Program",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 44,
+          "field": "csText",
+          "pirmd": "Naprogramovat",
+          "pec": "Program"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Programm-484",
+        "index": 484,
+        "de": "Programm",
+        "de_article": "das",
+        "de_plural": "die Programme",
+        "lvSource": "programma",
+        "csText": "Program",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-nicht-447",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "HIGH repair correctly changes the Czech meaning from the incorrect adjective-like form to the negation particle “Ne”.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Ne",
+          "proposedCs": "Ne",
+          "reason": "“nicht” is correctly translated as “Ne” in this A1 card; no meaning or grammar regression is present.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Ostern-467",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "HIGH repair correctly uses the Czech plural noun “Velikonoce” for “Ostern”.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Velikonoce",
+          "proposedCs": "Velikonoce",
+          "reason": "“Ostern” is correctly rendered as the Czech noun “Velikonoce”; the former adjective form was incorrect.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Pferd-474",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "HIGH repair correctly changes the Czech plural form to the singular noun matching German “das Pferd”.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Kůň",
+          "proposedCs": "Kůň",
+          "reason": "“Pferd” is correctly translated as singular Czech “Kůň”; the prior plural “Koně” did not match the headword.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Programm-484",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "HIGH repair correctly uses the Czech noun “Program” for German “Programm”.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Program",
+          "proposedCs": "Program",
+          "reason": "“Programm” is correctly translated as the Czech noun “Program”; the former infinitive was a wrong part of speech.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:41:10.134Z"
+}

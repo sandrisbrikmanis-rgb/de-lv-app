@@ -1,0 +1,155 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-Ecke-152",
+      "index": 152,
+      "de": "Ecke",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Roh",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 17,
+          "field": "csText",
+          "pirmd": "Rohu",
+          "pec": "Roh"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Ecke-152",
+        "index": 152,
+        "de": "Ecke",
+        "de_article": "die",
+        "de_plural": "die Ecken",
+        "lvSource": "stūris",
+        "csText": "Roh",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-fett-184",
+      "index": 184,
+      "de": "fett",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Tučný",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 18,
+          "field": "csText",
+          "pirmd": "Tuk",
+          "pec": "Tučný"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-fett-184",
+        "index": 184,
+        "de": "fett",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "trekns",
+        "csText": "Tučný",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-frei-199",
+      "index": 199,
+      "de": "frei",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Volný",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 19,
+          "field": "csText",
+          "pirmd": "Uvolnit",
+          "pec": "Volný"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-frei-199",
+        "index": 199,
+        "de": "frei",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "brīvs",
+        "csText": "Volný",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-freundlich-203",
+      "index": 203,
+      "de": "freundlich",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Přátelský",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 20,
+          "field": "csText",
+          "pirmd": "Druh",
+          "pec": "Přátelský"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-freundlich-203",
+        "index": 203,
+        "de": "freundlich",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "laipns",
+        "csText": "Přátelský",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-Ecke-152",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "Roh is the correct Czech noun for German Ecke; the repair from Rohu corrected an inflectional mismatch.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-fett-184",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "Tučný correctly expresses the adjective German fett; the prior Tuk was a noun and did not preserve the intended meaning.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-frei-199",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "Volný is the correct Czech adjective for German frei; the repair removed the prior infinitive Uvolnit.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-freundlich-203",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "Přátelský correctly translates German freundlich; the repair replaced the unrelated noun-like entry Druh.",
+      "findings": []
+    }
+  ],
+  "completedAt": "2026-08-12T14:40:30.375Z"
+}

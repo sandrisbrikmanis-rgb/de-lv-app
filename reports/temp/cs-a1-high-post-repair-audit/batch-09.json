@@ -1,0 +1,199 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-Köchin-341",
+      "index": 341,
+      "de": "Köchin",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Kuchařka",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 33,
+          "field": "csText",
+          "pirmd": "Vařit",
+          "pec": "Kuchařka"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Köchin-341",
+        "index": 341,
+        "de": "Köchin",
+        "de_article": "die",
+        "de_plural": "die Köchinnen",
+        "lvSource": "pavāre",
+        "csText": "Kuchařka",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Kopf-342",
+      "index": 342,
+      "de": "Kopf",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Hlava",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 34,
+          "field": "csText",
+          "pirmd": "Hlavu",
+          "pec": "Hlava"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Kopf-342",
+        "index": 342,
+        "de": "Kopf",
+        "de_article": "der",
+        "de_plural": "die Köpfe",
+        "lvSource": "galva",
+        "csText": "Hlava",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Lehrerin-365",
+      "index": 365,
+      "de": "Lehrerin",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Učitelka",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 35,
+          "field": "csText",
+          "pirmd": "Učitel",
+          "pec": "Učitelka"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Lehrerin-365",
+        "index": 365,
+        "de": "Lehrerin",
+        "de_article": "die",
+        "de_plural": "die Lehrerinnen",
+        "lvSource": "skolotāja",
+        "csText": "Učitelka",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-links-380",
+      "index": 380,
+      "de": "links",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Vlevo • Levý",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 36,
+          "field": "csText",
+          "pirmd": "Vlevo • Vlevo",
+          "pec": "Vlevo • Levý"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-links-380",
+        "index": 380,
+        "de": "links",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "pa kreisi • kreisais",
+        "csText": "Vlevo • Levý",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-Köchin-341",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": "HIGH",
+      "reason": "The HIGH repair correctly changed the Czech meaning from the accusative form to the feminine profession noun.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Kuchařka",
+          "proposedCs": "Kuchařka",
+          "reason": "Kuchařka correctly translates German Köchin.",
+          "confidence": "HIGH",
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Kopf-342",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": "HIGH",
+      "reason": "The HIGH repair correctly changed the Czech meaning to the nominative dictionary form for Kopf.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Hlava",
+          "proposedCs": "Hlava",
+          "reason": "Hlava correctly translates German Kopf.",
+          "confidence": "HIGH",
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Lehrerin-365",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": "HIGH",
+      "reason": "The HIGH repair correctly restored the feminine Czech profession noun for Lehrerin.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Učitelka",
+          "proposedCs": "Učitelka",
+          "reason": "Učitelka correctly translates German Lehrerin.",
+          "confidence": "HIGH",
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-links-380",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": "HIGH",
+      "reason": "The HIGH repair correctly preserves both adverbial and adjectival Czech meanings for links.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Vlevo • Levý",
+          "proposedCs": "Vlevo • Levý",
+          "reason": "Vlevo means leftward and Levý means left, correctly covering the supplied senses.",
+          "confidence": "HIGH",
+          "relatedRepairBlock": 1
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:40:54.726Z"
+}

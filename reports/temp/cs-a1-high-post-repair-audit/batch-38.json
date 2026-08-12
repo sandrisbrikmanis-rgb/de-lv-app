@@ -1,0 +1,2668 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-zum",
+      "index": 672,
+      "de": "zum",
+      "auditType": "owner_corrected_focus",
+      "csMain": "Do • At",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 273,
+          "field": "study.translation",
+          "pirmd": "Do • At",
+          "pec": "K • Ke"
+        },
+        {
+          "block": 6,
+          "n": 274,
+          "field": "study.comparison[0].meaning",
+          "pirmd": "Komu / u (koho?)",
+          "pec": "K / ke (komu? čemu?)"
+        },
+        {
+          "block": 6,
+          "n": 275,
+          "field": "study.comparison[1].meaning",
+          "pirmd": "Do / u (rodina manželky)",
+          "pec": "K / ke (ženský rod)"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-zum",
+        "index": 672,
+        "de": "zum",
+        "layout": "standardStudy",
+        "csMain": "Do • At",
+        "studyTranslation": "K • Ke",
+        "lvSourceMain": "uz • pie",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "uz • pie",
+            "csText": "K • Ke",
+            "de": "zum"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es eju pie ārsta.",
+            "csText": "Jdu k doktorovi.",
+            "de": "zum"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mēs braucam uz staciju.",
+            "csText": "Jdeme na nádraží.",
+            "de": "zum"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņa iet uz veikalu.",
+            "csText": "Jde do obchodu.",
+            "de": "zum"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "nāc ēst!",
+            "csText": "Pojď jíst!",
+            "de": "zum"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "viņš brauc uz lidostu.",
+            "csText": "Jede na letiště.",
+            "de": "zum"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "mēs ejam uz koncertu.",
+            "csText": "Jdeme na koncert.",
+            "de": "zum"
+          },
+          {
+            "field": "study.examples[6].lv",
+            "lvSource": "dāvana ir dzimšanas dienai.",
+            "csText": "Dárek je k narozeninám.",
+            "de": "zum"
+          },
+          {
+            "field": "study.examples[7].lv",
+            "lvSource": "es eju pie friziera.",
+            "csText": "Jdu ke kadeřníkovi.",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "zum",
+            "csText": "zum",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "uz / pie (kam?)",
+            "csText": "K / ke (komu? čemu?)",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "zur",
+            "csText": "zur",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "uz / pie (siev. dzimte)",
+            "csText": "K / ke (ženský rod)",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "zu",
+            "csText": "zu",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "uz / pie / pārāk",
+            "csText": "Do / v / také",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "nach",
+            "csText": "nach",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "uz (pilsētas/valstis)",
+            "csText": "Do (města/země)",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[4].word",
+            "lvSource": "bei",
+            "csText": "bei",
+            "de": "zum"
+          },
+          {
+            "field": "study.comparison[4].meaning",
+            "lvSource": "pie (atrašanās)",
+            "csText": "Na (umístění)",
+            "de": "zum"
+          }
+        ],
+        "study": {
+          "id": "a1-zum",
+          "layout": "standardStudy",
+          "translation": "K • Ke",
+          "explanation": [
+            "Zum je zkratka předložky zu a členu dem.",
+            "Plná podoba: zu dem (komu?).",
+            "Používá se s podstatnými jmény mužského a středního rodu při označení směru nebo účelu.",
+            "Často znamená k něčemu nebo někomu – k lékaři, na stanici, ke kamarádovi.",
+            "V praxi se místo plného zu dem téměř vždy používá zum."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Jdu k doktorovi."
+            },
+            {
+              "de": "Wir fahren zum Bahnhof.",
+              "lv": "Jdeme na nádraží."
+            },
+            {
+              "de": "Sie geht zum Supermarkt.",
+              "lv": "Jde do obchodu."
+            },
+            {
+              "de": "Komm zum Essen!",
+              "lv": "Pojď jíst!"
+            },
+            {
+              "de": "Er fährt zum Flughafen.",
+              "lv": "Jede na letiště."
+            },
+            {
+              "de": "Wir gehen zum Konzert.",
+              "lv": "Jdeme na koncert."
+            },
+            {
+              "de": "Das Geschenk ist zum Geburtstag.",
+              "lv": "Dárek je k narozeninám."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "Jdu ke kadeřníkovi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zum",
+              "meaning": "K / ke (komu? čemu?)",
+              "example": "zum Arzt – K lékaři"
+            },
+            {
+              "word": "zur",
+              "meaning": "K / ke (ženský rod)",
+              "example": "zur Schule – Do školy"
+            },
+            {
+              "word": "zu",
+              "meaning": "Do / v / také",
+              "example": "zu Hause – Doma"
+            },
+            {
+              "word": "nach",
+              "meaning": "Do (města/země)",
+              "example": "nach Berlin – Do Berlína"
+            },
+            {
+              "word": "bei",
+              "meaning": "Na (umístění)",
+              "example": "beim Arzt – K lékaři"
+            }
+          ],
+          "tip": [
+            "Pamatujte: zu + dem → zum (pro koho?).",
+            "U ženských slov: zu + der → zur."
+          ],
+          "important": [
+            "Zum = zu dem, pouze s podstatným jménem mužského nebo bezrodového pro koho? ve skloňování.",
+            "Označuje směr nebo cíl: k lékaři, na stanici, ke kamarádovi.",
+            "Pro ženský rod se používá zur: zur Bank, zur Post.",
+            "Nezaměňovat s bei (nachází se na) nebo nach (do měst bez článku)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "zum",
+                "zu dem"
+              ],
+              "purple": [
+                "Zum",
+                "Zum"
+              ],
+              "green": [
+                "Zum",
+                "Zum"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jde"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Pojď"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jede"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdeme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dárek"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jdu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Komu",
+                    "Komu"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zur"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "rodina",
+                    "rodina"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zur Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "také",
+                    "také",
+                    "také"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "zu Hause"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "města/země"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "nach Berlin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "umístění"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "beim Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "zum"
+                ]
+              },
+              {
+                "yellow": [
+                  "zur"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "zum"
+                ],
+                "purple": [
+                  "zu dem"
+                ],
+                "green": [
+                  "Zum"
+                ]
+              },
+              {
+                "purple": [
+                  "Označuje",
+                  "Označuje"
+                ],
+                "green": [
+                  "Označuje"
+                ]
+              },
+              {
+                "yellow": [
+                  "zur Bank",
+                  "zur Post"
+                ]
+              },
+              {
+                "green": [
+                  "bei"
+                ],
+                "red": [
+                  "nach"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-zum",
+          "layout": "standardStudy",
+          "translation": "uz • pie",
+          "explanation": [
+            "zum ir prievārda zu un artikula dem saīsinājums.",
+            "Pilnā forma: zu dem (kam?).",
+            "Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda virzienu vai mērķi.",
+            "Bieži nozīmē uz kaut ko vai pie kā — pie ārsta, uz staciju, pie drauga.",
+            "Praksē gandrīz vienmēr lieto zum, nevis pilno zu dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "es eju pie ārsta."
+            },
+            {
+              "de": "Wir fahren zum Bahnhof.",
+              "lv": "mēs braucam uz staciju."
+            },
+            {
+              "de": "Sie geht zum Supermarkt.",
+              "lv": "viņa iet uz veikalu."
+            },
+            {
+              "de": "Komm zum Essen!",
+              "lv": "nāc ēst!"
+            },
+            {
+              "de": "Er fährt zum Flughafen.",
+              "lv": "viņš brauc uz lidostu."
+            },
+            {
+              "de": "Wir gehen zum Konzert.",
+              "lv": "mēs ejam uz koncertu."
+            },
+            {
+              "de": "Das Geschenk ist zum Geburtstag.",
+              "lv": "dāvana ir dzimšanas dienai."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "es eju pie friziera."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zum",
+              "meaning": "uz / pie (kam?)",
+              "example": "zum Arzt – pie ārsta"
+            },
+            {
+              "word": "zur",
+              "meaning": "uz / pie (siev. dzimte)",
+              "example": "zur Schule – uz skolu"
+            },
+            {
+              "word": "zu",
+              "meaning": "uz / pie / pārāk",
+              "example": "zu Hause – mājās"
+            },
+            {
+              "word": "nach",
+              "meaning": "uz (pilsētas/valstis)",
+              "example": "nach Berlin – uz Berlīni"
+            },
+            {
+              "word": "bei",
+              "meaning": "pie (atrašanās)",
+              "example": "beim Arzt – pie ārsta"
+            }
+          ],
+          "tip": [
+            "Atceries: zu + dem → zum (kam?).",
+            "Sievišķās dzimtes vārdiem: zu + der → zur."
+          ],
+          "important": [
+            "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
+            "Norāda virzienu vai mērķi: pie ārsta, uz staciju, pie drauga.",
+            "Sievišķās dzimtei lieto zur: zur Bank, zur Post.",
+            "Nesajauc ar bei (atrašanās pie) vai nach (uz pilsētām bez artikula)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "zum",
+                "zu dem"
+              ],
+              "purple": [
+                "uz",
+                "pie"
+              ],
+              "green": [
+                "kam?",
+                "mērķi"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pie ārsta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz staciju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz veikalu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz lidostu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz koncertu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dzimšanas dienai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pie friziera"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zur"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zur Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie",
+                    "pārāk"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "zu Hause"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "nach Berlin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "beim Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "zum"
+                ]
+              },
+              {
+                "yellow": [
+                  "zur"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "zum"
+                ],
+                "purple": [
+                  "zu dem"
+                ],
+                "green": [
+                  "kam?"
+                ]
+              },
+              {
+                "purple": [
+                  "uz",
+                  "pie"
+                ],
+                "green": [
+                  "mērķi"
+                ]
+              },
+              {
+                "yellow": [
+                  "zur Bank",
+                  "zur Post"
+                ]
+              },
+              {
+                "green": [
+                  "bei"
+                ],
+                "red": [
+                  "nach"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-zum",
+        "layout": "standardStudy",
+        "translation": "K • Ke",
+        "explanation": [
+          "Zum je zkratka předložky zu a členu dem.",
+          "Plná podoba: zu dem (komu?).",
+          "Používá se s podstatnými jmény mužského a středního rodu při označení směru nebo účelu.",
+          "Často znamená k něčemu nebo někomu – k lékaři, na stanici, ke kamarádovi.",
+          "V praxi se místo plného zu dem téměř vždy používá zum."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe zum Arzt.",
+            "lv": "Jdu k doktorovi."
+          },
+          {
+            "de": "Wir fahren zum Bahnhof.",
+            "lv": "Jdeme na nádraží."
+          },
+          {
+            "de": "Sie geht zum Supermarkt.",
+            "lv": "Jde do obchodu."
+          },
+          {
+            "de": "Komm zum Essen!",
+            "lv": "Pojď jíst!"
+          },
+          {
+            "de": "Er fährt zum Flughafen.",
+            "lv": "Jede na letiště."
+          },
+          {
+            "de": "Wir gehen zum Konzert.",
+            "lv": "Jdeme na koncert."
+          },
+          {
+            "de": "Das Geschenk ist zum Geburtstag.",
+            "lv": "Dárek je k narozeninám."
+          },
+          {
+            "de": "Ich gehe zum Friseur.",
+            "lv": "Jdu ke kadeřníkovi."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "zum",
+            "meaning": "K / ke (komu? čemu?)",
+            "example": "zum Arzt – K lékaři"
+          },
+          {
+            "word": "zur",
+            "meaning": "K / ke (ženský rod)",
+            "example": "zur Schule – Do školy"
+          },
+          {
+            "word": "zu",
+            "meaning": "Do / v / také",
+            "example": "zu Hause – Doma"
+          },
+          {
+            "word": "nach",
+            "meaning": "Do (města/země)",
+            "example": "nach Berlin – Do Berlína"
+          },
+          {
+            "word": "bei",
+            "meaning": "Na (umístění)",
+            "example": "beim Arzt – K lékaři"
+          }
+        ],
+        "tip": [
+          "Pamatujte: zu + dem → zum (pro koho?).",
+          "U ženských slov: zu + der → zur."
+        ],
+        "important": [
+          "Zum = zu dem, pouze s podstatným jménem mužského nebo bezrodového pro koho? ve skloňování.",
+          "Označuje směr nebo cíl: k lékaři, na stanici, ke kamarádovi.",
+          "Pro ženský rod se používá zur: zur Bank, zur Post.",
+          "Nezaměňovat s bei (nachází se na) nebo nach (do měst bez článku)."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "zum",
+              "zu dem"
+            ],
+            "purple": [
+              "Zum",
+              "Zum"
+            ],
+            "green": [
+              "Zum",
+              "Zum"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdu"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jde"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Pojď"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jede"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdeme"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dárek"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "zum"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jdu"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "zum"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Komu",
+                  "Komu"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "zum Arzt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zur"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "rodina",
+                  "rodina"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "zur Schule"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "zu"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "také",
+                  "také",
+                  "také"
+                ]
+              },
+              "example": {
+                "green": [
+                  "zu Hause"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nach"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "města/země"
+                ]
+              },
+              "example": {
+                "green": [
+                  "nach Berlin"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "bei"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "umístění"
+                ]
+              },
+              "example": {
+                "red": [
+                  "beim Arzt"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "blue": [
+                "zum"
+              ]
+            },
+            {
+              "yellow": [
+                "zur"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "blue": [
+                "zum"
+              ],
+              "purple": [
+                "zu dem"
+              ],
+              "green": [
+                "Zum"
+              ]
+            },
+            {
+              "purple": [
+                "Označuje",
+                "Označuje"
+              ],
+              "green": [
+                "Označuje"
+              ]
+            },
+            {
+              "yellow": [
+                "zur Bank",
+                "zur Post"
+              ]
+            },
+            {
+              "green": [
+                "bei"
+              ],
+              "red": [
+                "nach"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-fernsehen",
+      "index": 687,
+      "de": "fernsehen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Dívat se na televizi",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 276,
+          "field": "study.tip.leftBlocks[0].text",
+          "pirmd": "K akci se používá Fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium.",
+          "pec": "K označení činnosti se používá fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-fernsehen",
+        "index": 687,
+        "de": "fernsehen",
+        "layout": "standardStudy",
+        "csMain": "Dívat se na televizi",
+        "studyTranslation": "Dívat se na televizi",
+        "lvSourceMain": "skatīties televizoru",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "skatīties televizoru",
+            "csText": "Dívat se na televizi",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.explanation",
+            "lvSource": "Galvenā doma: fernsehen ir sadalāms darbības vārds — ich sehe fern, du siehst fern. Tas nozīmē skatīties televīziju. Ne jaukt ar lietvārdu das Fernsehen (televīzija kā medijs).",
+            "csText": "Hlavní myšlenka: fernsehen je rozdělené sloveso — ich sehe fern, du siehst fern. To znamená sledování televize. Nezaměňovat s podstatným jménem das Fernsehen (televize jako médium).",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "šovakar es skatos televīziju.",
+            "csText": "Dnes večer se dívám na televizi.",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "vai tu bieži skaties televīzoru?",
+            "csText": "Díváš se často na televizi?",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "bērni pēcpusdienā skatās televīzoru.",
+            "csText": "Děti se odpoledne dívají na televizi.",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "fernsehen",
+            "csText": "fernsehen",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "skatīties televizoru",
+            "csText": "Dívat se na televizi",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "das Fernsehen",
+            "csText": "das Fernsehen",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "televīzija (medijs)",
+            "csText": "Televize (média)",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "sehen",
+            "csText": "sehen",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "redzēt",
+            "csText": "Vidět",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.tip.leftBlocks[0].text",
+            "lvSource": "Par darbību lieto fernsehen (ich sehe fern). Par TV programmu vai mediju lieto das Fernsehen.",
+            "csText": "K označení činnosti se používá fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium.",
+            "de": "fernsehen"
+          },
+          {
+            "field": "study.important.text",
+            "lvSource": "fernsehen = darbības vārds (ich sehe fern). das Fernsehen = lietvārds, tikai vienskaitlis.",
+            "csText": "Fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné jméno, pouze jednotné číslo.",
+            "de": "fernsehen"
+          }
+        ],
+        "study": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "Dívat se na televizi",
+          "explanation": "Hlavní myšlenka: fernsehen je rozdělené sloveso — ich sehe fern, du siehst fern. To znamená sledování televize. Nezaměňovat s podstatným jménem das Fernsehen (televize jako médium).",
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Dnes večer se dívám na televizi."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "Díváš se často na televizi?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "Děti se odpoledne dívají na televizi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "Dívat se na televizi",
+              "example": "Ich sehe fern. = Dívám se na televizi."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "Televize (média)",
+              "example": "Im Fernsehen läuft ein Film. = V televizi běží film."
+            },
+            {
+              "word": "sehen",
+              "meaning": "Vidět",
+              "example": "Ich sehe einen Film. = Vidím film."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "K označení činnosti se používá fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium."
+              }
+            ]
+          },
+          "important": {
+            "text": "Fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné jméno, pouze jednotné číslo."
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fernsehen",
+                "sehe",
+                "fern"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "das Fernsehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dnes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Díváš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehen",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Děti"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "skatīties televizoru",
+          "explanation": "Galvenā doma: fernsehen ir sadalāms darbības vārds — ich sehe fern, du siehst fern. Tas nozīmē skatīties televīziju. Ne jaukt ar lietvārdu das Fernsehen (televīzija kā medijs).",
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "šovakar es skatos televīziju."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "vai tu bieži skaties televīzoru?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "bērni pēcpusdienā skatās televīzoru."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "skatīties televizoru",
+              "example": "Ich sehe fern. = Es skatos televīziju."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "televīzija (medijs)",
+              "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+            },
+            {
+              "word": "sehen",
+              "meaning": "redzēt",
+              "example": "Ich sehe einen Film. = Es redzu filmu."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Par darbību lieto fernsehen (ich sehe fern). Par TV programmu vai mediju lieto das Fernsehen."
+              }
+            ]
+          },
+          "important": {
+            "text": "fernsehen = darbības vārds (ich sehe fern). das Fernsehen = lietvārds, tikai vienskaitlis."
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fernsehen",
+                "sehe",
+                "fern"
+              ],
+              "purple": [
+                "skatīties televīziju"
+              ],
+              "green": [
+                "das Fernsehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skatos televīziju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaties televīzoru"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehen",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skatās televīzoru"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-fernsehen",
+        "layout": "standardStudy",
+        "translation": "Dívat se na televizi",
+        "explanation": "Hlavní myšlenka: fernsehen je rozdělené sloveso — ich sehe fern, du siehst fern. To znamená sledování televize. Nezaměňovat s podstatným jménem das Fernsehen (televize jako médium).",
+        "examples": [
+          {
+            "de": "Ich sehe heute Abend fern.",
+            "lv": "Dnes večer se dívám na televizi."
+          },
+          {
+            "de": "Siehst du oft fern?",
+            "lv": "Díváš se často na televizi?"
+          },
+          {
+            "de": "Die Kinder sehen am Nachmittag fern.",
+            "lv": "Děti se odpoledne dívají na televizi."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "fernsehen",
+            "meaning": "Dívat se na televizi",
+            "example": "Ich sehe fern. = Dívám se na televizi."
+          },
+          {
+            "word": "das Fernsehen",
+            "meaning": "Televize (média)",
+            "example": "Im Fernsehen läuft ein Film. = V televizi běží film."
+          },
+          {
+            "word": "sehen",
+            "meaning": "Vidět",
+            "example": "Ich sehe einen Film. = Vidím film."
+          }
+        ],
+        "tip": {
+          "leftBlocks": [
+            {
+              "text": "K označení činnosti se používá fernsehen (ich sehe fern). Das Fernsehen se používá pro televizní program nebo médium."
+            }
+          ]
+        },
+        "important": {
+          "text": "Fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné jméno, pouze jednotné číslo."
+        },
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "fernsehen",
+              "sehe",
+              "fern"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "green": [
+              "das Fernsehen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "sehe",
+                  "fern"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dnes"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Siehst",
+                  "fern"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Díváš"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "sehen",
+                  "fern"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Děti"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-essen-study",
+      "index": 691,
+      "de": "Essen",
+      "auditType": "owner_corrected_focus",
+      "csMain": "Jídlo • Jídlo",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 277,
+          "field": "study.examples[1].lv",
+          "pirmd": "Co chceš jíst",
+          "pec": "Co chcete jíst?"
+        },
+        {
+          "block": 6,
+          "n": 278,
+          "field": "study.tip[0]",
+          "pirmd": "Das Essen = jíst",
+          "pec": "Das Essen = jídlo"
+        },
+        {
+          "block": 6,
+          "n": 279,
+          "field": "study.explanation",
+          "pirmd": [
+            "Hlavní myšlenka: Podstatné jméno - jídlo nebo celé jídlo.",
+            "Das Essen znamená především: konzumovat jídlo.",
+            "Často popisuje: akce.",
+            "Das Essen v podstatě znamená: jídlo nebo jídlo.",
+            "Často popisuje: déšť.",
+            "Essen znamená jíst.",
+            "Das Essen může znamenat jídlo nebo jídlo obecně."
+          ],
+          "pec": [
+            "Hlavní myšlenka: Das Essen je podstatné jméno a znamená jídlo nebo pokrm.",
+            "Das Essen může označovat jídlo jako věc i celé jídlo.",
+            "Sloveso essen znamená jíst.",
+            "Das Essen se píše s velkým písmenem a je středního rodu."
+          ]
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-essen-study",
+        "index": 691,
+        "de": "Essen",
+        "layout": "standardStudy",
+        "csMain": "Jídlo • Jídlo",
+        "studyTranslation": "Jídlo • Jídlo",
+        "lvSourceMain": "ēdiens • maltīte",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "ēdiens • maltīte",
+            "csText": "Jídlo • Jídlo",
+            "de": "Essen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Ēdiens garšo labi.",
+            "csText": "Jídlo chutná dobře.",
+            "de": "Essen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "ko jūs gribat ēst?",
+            "csText": "Co chcete jíst?",
+            "de": "Essen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mēs ēdam pulksten 12.",
+            "csText": "Jíme ve 12 hodin.",
+            "de": "Essen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "ēdiens ir gatavs.",
+            "csText": "Jídlo je hotové.",
+            "de": "Essen"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "ēdiens ļoti labi garšo.",
+            "csText": "Jídlo chutná velmi dobře.",
+            "de": "Essen"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "ēdiens garšo labi.",
+            "csText": "Jídlo chutná dobře.",
+            "de": "Essen"
+          }
+        ],
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "Jídlo • Jídlo",
+          "explanation": [
+            "Hlavní myšlenka: Das Essen je podstatné jméno a znamená jídlo nebo pokrm.",
+            "Das Essen může označovat jídlo jako věc i celé jídlo.",
+            "Sloveso essen znamená jíst.",
+            "Das Essen se píše s velkým písmenem a je středního rodu."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Jídlo chutná dobře."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Co chcete jíst?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Jíme ve 12 hodin."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Jídlo je hotové."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Jídlo chutná velmi dobře."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Jídlo chutná dobře."
+            }
+          ],
+          "tip": [
+            "Das Essen = jídlo",
+            "Použijte das Essen, pokud kontext vyhovuje tomuto významu."
+          ],
+          "important": [
+            "Essen je sloveso bez článku.",
+            "Das Essen není totéž co essen.",
+            "Akce: essen.",
+            "Případ/jídlo: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "green": [
+                "Essen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jídlo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jídlo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jídlo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Jídlo"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "ēdiens • maltīte",
+          "explanation": [
+            "Galvenā doma: Lietvārds — ēdiens vai visa maltīte.",
+            "das Essen galvenokārt nozīmē: patērēt pārtiku.",
+            "Bieži raksturo: darbību.",
+            "das Essen galvenokārt nozīmē: pārtika vai maltīte.",
+            "Bieži raksturo: lietu.",
+            "essen nozīmē ēst.",
+            "das Essen var nozīmēt ēdienu vai maltīti kopumā."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Ēdiens garšo labi."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "ko jūs gribat ēst?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "mēs ēdam pulksten 12."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "ēdiens ir gatavs."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "ēdiens ļoti labi garšo."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "ēdiens garšo labi."
+            }
+          ],
+          "tip": [
+            "das Essen = ēst",
+            "Izmanto das Essen, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "essen ir darbības vārds bez artikula.",
+            "das Essen nav tas pats, kas essen.",
+            "Darbība: essen.",
+            "Lieta/maltīte: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ],
+              "purple": [
+                "ēdiens",
+                "maltīte"
+              ],
+              "green": [
+                "Essen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēdiens"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēdiens"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēdiens"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēdiens"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-essen-study",
+        "layout": "standardStudy",
+        "translation": "Jídlo • Jídlo",
+        "explanation": [
+          "Hlavní myšlenka: Das Essen je podstatné jméno a znamená jídlo nebo pokrm.",
+          "Das Essen může označovat jídlo jako věc i celé jídlo.",
+          "Sloveso essen znamená jíst.",
+          "Das Essen se píše s velkým písmenem a je středního rodu."
+        ],
+        "examples": [
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "Jídlo chutná dobře."
+          },
+          {
+            "de": "Was wollt ihr essen?",
+            "lv": "Co chcete jíst?"
+          },
+          {
+            "de": "Wir essen um 12 Uhr.",
+            "lv": "Jíme ve 12 hodin."
+          },
+          {
+            "de": "Das Essen ist fertig.",
+            "lv": "Jídlo je hotové."
+          },
+          {
+            "de": "Das Essen schmeckt sehr gut.",
+            "lv": "Jídlo chutná velmi dobře."
+          },
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "Jídlo chutná dobře."
+          }
+        ],
+        "tip": [
+          "Das Essen = jídlo",
+          "Použijte das Essen, pokud kontext vyhovuje tomuto významu."
+        ],
+        "important": [
+          "Essen je sloveso bez článku.",
+          "Das Essen není totéž co essen.",
+          "Akce: essen.",
+          "Případ/jídlo: das Essen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "yellow": [
+              "das Essen",
+              "essen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "green": [
+              "Essen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "yellow": [
+                  "das Essen",
+                  "essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jídlo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "yellow": [
+                  "essen"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "yellow": [
+                  "das Essen",
+                  "essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jídlo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "das Essen",
+                  "essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jídlo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "yellow": [
+                  "das Essen",
+                  "essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Jídlo"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {},
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-ferien",
+      "index": 694,
+      "de": "Ferien",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Prázdniny (škola)",
+      "repairedFields": [
+        {
+          "block": 6,
+          "n": 280,
+          "field": "study.examples[0].lv",
+          "pirmd": "O víkendech jezdíme k moři.",
+          "pec": "O prázdninách jezdíme k moři."
+        },
+        {
+          "block": 6,
+          "n": 281,
+          "field": "study.examples[2].lv",
+          "pirmd": "Co děláš o prázdninách",
+          "pec": "Co děláte o prázdninách?"
+        },
+        {
+          "block": 6,
+          "n": 282,
+          "field": "study.comparison[1].meaning",
+          "pirmd": "Odejít z práce (pouze všichni)",
+          "pec": "Dovolená z práce (obvykle jednotné číslo)"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-ferien",
+        "index": 694,
+        "de": "Ferien",
+        "layout": "standardStudy",
+        "csMain": "Prázdniny (škola)",
+        "studyTranslation": "Prázdniny (škola)",
+        "lvSourceMain": "brīvdienas (skola)",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "brīvdienas (skola)",
+            "csText": "Prázdniny (škola)",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Brīvdienās mēs braucam pie jūras.",
+            "csText": "O prázdninách jezdíme k moři.",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "brīvdienās man ir daudz laika.",
+            "csText": "O prázdninách mám spoustu času.",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "ko jūs darāt brīvdienās?",
+            "csText": "Co děláte o prázdninách?",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "skola brīvdienās ir slēgta.",
+            "csText": "Škola je o prázdninách zavřená.",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "brīvdienās mēs braucam pie jūras.",
+            "csText": "O prázdninách jezdíme k moři.",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "brīvdienās (skola).",
+            "csText": "O prázdninách (škola).",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "die Ferien",
+            "csText": "die Ferien",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "skolas/studiju brīvlaiks (tikai dsk.)",
+            "csText": "Školní/studijní přestávka (pouze dsk.)",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "der Urlaub",
+            "csText": "der Urlaub",
+            "de": "Ferien"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "atvaļinājums no darba (tikai vsk.)",
+            "csText": "Dovolená z práce (obvykle jednotné číslo)",
+            "de": "Ferien"
+          }
+        ],
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "Prázdniny (škola)",
+          "explanation": [
+            "Hlavní myšlenka: pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle.",
+            "Die Ferien v podstatě znamená: školní prázdniny.",
+            "Často charakterizováno: pouze množné číslo.",
+            "Die Ferien je pouze množné číslo — vždy v množném čísle (in den Ferien)."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "O prázdninách jezdíme k moři."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "O prázdninách mám spoustu času."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Co děláte o prázdninách?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "Škola je o prázdninách zavřená."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "O prázdninách jezdíme k moři."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "O prázdninách (škola)."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "Školní/studijní přestávka (pouze dsk.)",
+              "example": "In den Ferien fahren wir weg. – Jezdíme někam na víkendy."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "Dovolená z práce (obvykle jednotné číslo)",
+              "example": "Ich habe zwei Wochen Urlaub. – Mám dva týdny dovolené."
+            }
+          ],
+          "tip": [
+            "Pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle.",
+            "Když kontext odpovídá tomuto významu, použijte die Ferien."
+          ],
+          "important": [
+            "Ferien vždy s dativem: in den Ferien.",
+            "Nesprávně: in der Ferien → Správně: in den Ferien",
+            "Škola: die Ferien (pouze množné číslo).",
+            "Pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "die Ferien",
+                "ferien"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "green": [
+                "Ferien"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "prázdninách"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "brīvdienas (skola)",
+          "explanation": [
+            "Galvenā doma: tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
+            "die Ferien galvenokārt nozīmē: skolas brīvlaiiks.",
+            "Bieži raksturo: tikai daudzskaitlis.",
+            "die Ferien ir tikai daudzskaitlis — vienmēr daudzskaitlī (in den Ferien)."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Brīvdienās mēs braucam pie jūras."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "brīvdienās man ir daudz laika."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "ko jūs darāt brīvdienās?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "skola brīvdienās ir slēgta."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "brīvdienās mēs braucam pie jūras."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "brīvdienās (skola)."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "skolas/studiju brīvlaiks (tikai dsk.)",
+              "example": "In den Ferien fahren wir weg. – Brīvdienās mēs braucam kaut kur."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "atvaļinājums no darba (tikai vsk.)",
+              "example": "Ich habe zwei Wochen Urlaub. – Man ir divas nedēļas atvaļinājuma."
+            }
+          ],
+          "tip": [
+            "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
+            "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "Ferien vienmēr ar datīvu: in den Ferien.",
+            "Nepareizi: in der Ferien → Pareizi: in den Ferien",
+            "Skola: die Ferien (tikai daudzskaitlī).",
+            "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "die Ferien",
+                "ferien"
+              ],
+              "purple": [
+                "skola"
+              ],
+              "green": [
+                "Ferien"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "brīvdienas (skola)"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-ferien",
+        "layout": "standardStudy",
+        "translation": "Prázdniny (škola)",
+        "explanation": [
+          "Hlavní myšlenka: pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle.",
+          "Die Ferien v podstatě znamená: školní prázdniny.",
+          "Často charakterizováno: pouze množné číslo.",
+          "Die Ferien je pouze množné číslo — vždy v množném čísle (in den Ferien)."
+        ],
+        "examples": [
+          {
+            "de": "In den Ferien fahren wir ans Meer.",
+            "lv": "O prázdninách jezdíme k moři."
+          },
+          {
+            "de": "In den Ferien habe ich viel Zeit.",
+            "lv": "O prázdninách mám spoustu času."
+          },
+          {
+            "de": "Was macht ihr in den Ferien?",
+            "lv": "Co děláte o prázdninách?"
+          },
+          {
+            "de": "Die Schule ist in den Ferien zu.",
+            "lv": "Škola je o prázdninách zavřená."
+          },
+          {
+            "de": "In den Ferien fahren wir ans Meer.",
+            "lv": "O prázdninách jezdíme k moři."
+          },
+          {
+            "de": "In den Ferien",
+            "lv": "O prázdninách (škola)."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "die Ferien",
+            "meaning": "Školní/studijní přestávka (pouze dsk.)",
+            "example": "In den Ferien fahren wir weg. – Jezdíme někam na víkendy."
+          },
+          {
+            "word": "der Urlaub",
+            "meaning": "Dovolená z práce (obvykle jednotné číslo)",
+            "example": "Ich habe zwei Wochen Urlaub. – Mám dva týdny dovolené."
+          }
+        ],
+        "tip": [
+          "Pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle.",
+          "Když kontext odpovídá tomuto významu, použijte die Ferien."
+        ],
+        "important": [
+          "Ferien vždy s dativem: in den Ferien.",
+          "Nesprávně: in der Ferien → Správně: in den Ferien",
+          "Škola: die Ferien (pouze množné číslo).",
+          "Pouze množné číslo. Školní nebo studijní prázdniny - vždy v množném čísle."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "die Ferien",
+              "ferien"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "green": [
+              "Ferien"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "ferien"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "ferien"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "ferien"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "ferien"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "ferien"
+                ]
+              },
+              "lv": {}
+            },
+            {
+              "de": {
+                "blue": [
+                  "ferien"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "prázdninách"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-zum",
+      "auditType": "owner_corrected_focus",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "MEDIUM",
+      "confidence": 0.98,
+      "reason": "Opravené překlady a významy zum/zur jsou správné. Karta však stále obsahuje starý hlavní překlad a nepřesný význam zu.",
+      "findings": [
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Do • At",
+          "reason": "Hlavní český překlad neodpovídá významu zum; opravené study.translation jej nahradil správným K • Ke, ale csMain zůstal starý.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Do / v / také",
+          "reason": "U zu je „také“ významově nesprávné; v tomto kontextu jde spíše o význam „příliš“. Pole nebylo součástí HIGH opravy.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "cardId": "a1-fernsehen",
+      "auditType": "high_repair_changed_card",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Oprava gramaticky i významově správně rozlišuje sloveso fernsehen a podstatné jméno das Fernsehen; nebyla zjištěna regrese.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-essen-study",
+      "auditType": "owner_corrected_focus",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "Opravené příklady, tip i vysvětlení jsou správné. Vysvětlení je pole se čtyřmi českými řetězci podle požadavku.",
+      "findings": []
+    },
+    {
+      "cardId": "a1-ferien",
+      "auditType": "high_repair_changed_card",
+      "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "Opravené příklady i rozlišení Ferien/Urlaub jsou správné. V kartě zůstává starší nepřesnost v českém příkladu u srovnání.",
+      "findings": [
+        {
+          "field": "study.comparison[0].example",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "In den Ferien fahren wir weg. – Jezdíme někam na víkendy.",
+          "reason": "Ferien znamená školní prázdniny, nikoli víkendy. Tento příklad nebyl mezi poli změněnými v HIGH opravě.",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:48:42.987Z"
+}

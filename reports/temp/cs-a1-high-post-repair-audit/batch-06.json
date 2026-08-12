@@ -1,0 +1,203 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-ganz-219",
+      "index": 219,
+      "de": "ganz",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Celý",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 21,
+          "field": "csText",
+          "pirmd": "Všechno",
+          "pec": "Celý"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-ganz-219",
+        "index": 219,
+        "de": "ganz",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "vesels",
+        "csText": "Celý",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-gelb-228",
+      "index": 228,
+      "de": "gelb",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Žlutý",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 22,
+          "field": "csText",
+          "pirmd": "Žluť",
+          "pec": "Žlutý"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-gelb-228",
+        "index": 228,
+        "de": "gelb",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "dzeltens",
+        "csText": "Žlutý",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-Glas-241",
+      "index": 241,
+      "de": "Glas",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Sklenice",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 23,
+          "field": "csText",
+          "pirmd": "Sklenici",
+          "pec": "Sklenice"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-Glas-241",
+        "index": 241,
+        "de": "Glas",
+        "de_article": "das",
+        "de_plural": "die Gläser",
+        "lvSource": "glāze",
+        "csText": "Sklenice",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    },
+    {
+      "cardId": "a1-halb-262",
+      "index": 262,
+      "de": "halb",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Půl",
+      "repairedFields": [
+        {
+          "block": 1,
+          "n": 24,
+          "field": "csText",
+          "pirmd": "Strana",
+          "pec": "Půl"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-halb-262",
+        "index": 262,
+        "de": "halb",
+        "de_article": null,
+        "de_plural": null,
+        "lvSource": "pus",
+        "csText": "Půl",
+        "level": "A1",
+        "hasStudy": false
+      },
+      "study": null
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-ganz-219",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly changes the Czech meaning from the noun-like Všechno to the adjective Celý for ganz.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Celý",
+          "proposedCs": null,
+          "reason": "Celý is a correct basic Czech equivalent of German ganz in adjective usage; no regression detected.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-gelb-228",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly replaces the incorrect noun Žluť with the adjective Žlutý for gelb.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Žlutý",
+          "proposedCs": null,
+          "reason": "Žlutý is the correct Czech adjective for German gelb; the repair introduces no grammar or meaning issue.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-Glas-241",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly changes the accusative-like Sklenici to the dictionary-form noun Sklenice for das Glas.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Sklenice",
+          "proposedCs": null,
+          "reason": "Sklenice is the correct Czech nominative dictionary equivalent of das Glas in this card context.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    },
+    {
+      "cardId": "a1-halb-262",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "none",
+      "confidence": 0.99,
+      "reason": "The HIGH repair correctly replaces the unrelated meaning Strana with Půl for halb.",
+      "findings": [
+        {
+          "field": "csText",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "none",
+          "currentCs": "Půl",
+          "proposedCs": null,
+          "reason": "Půl is a correct basic Czech equivalent of German halb; no meaning or grammar regression is present.",
+          "confidence": 0.99,
+          "relatedFindingId": null,
+          "relatedRepairBlock": 1
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:40:37.697Z"
+}

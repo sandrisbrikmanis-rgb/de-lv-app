@@ -1,0 +1,2972 @@
+{
+  "cards": [
+    {
+      "cardId": "a1-laut-study",
+      "index": 359,
+      "de": "Laut",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Zvuk",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 129,
+          "field": "study.explanation[1]",
+          "pirmd": "Der Laut primárně znamená: hlasitý zvuk.",
+          "pec": "Der Laut primárně znamená zvuk nebo hlásku."
+        },
+        {
+          "block": 3,
+          "n": 130,
+          "field": "study.tip[1]",
+          "pirmd": "Der Laut = zvuk",
+          "pec": "Der Laut = zvuk nebo hláska"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-laut-study",
+        "index": 359,
+        "de": "Laut",
+        "layout": "standardStudy",
+        "csMain": "Zvuk",
+        "studyTranslation": "Zvuk",
+        "lvSourceMain": "skaņa",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "skaņa",
+            "csText": "Zvuk",
+            "de": "Laut"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Skaņa ir skaista.",
+            "csText": "Zvuk je krásný.",
+            "de": "Laut"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mūzika ir skaļa.",
+            "csText": "Hudba je hlasitá.",
+            "de": "Laut"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "nerunā tik skaļi!",
+            "csText": "Nemluv tak nahlas!",
+            "de": "Laut"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "tas ir ļoti skaļi.",
+            "csText": "Je to velmi hlasité.",
+            "de": "Laut"
+          },
+          {
+            "field": "study.examples[4].lv",
+            "lvSource": "skaņa ir skaista.",
+            "csText": "Zvuk je krásný.",
+            "de": "Laut"
+          },
+          {
+            "field": "study.examples[5].lv",
+            "lvSource": "es dzirdu kādu skaņu.",
+            "csText": "Slyším zvuk",
+            "de": "Laut"
+          }
+        ],
+        "study": {
+          "id": "a1-laut-study",
+          "layout": "standardStudy",
+          "translation": "Zvuk",
+          "explanation": [
+            "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
+            "Der Laut primárně znamená zvuk nebo hlásku.",
+            "Často popisuje: přídavné jméno.",
+            "Der Laut primárně znamená: zvukový signál.",
+            "Často popisuje: podstatné jméno (der).",
+            "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
+            "Der Laut s velkým písmenem a členem der je podstatné jméno - znamená zvuk jako věc nebo signál (Der Laut ist schön = zvuk je krásný).",
+            "Množné číslo: die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Zvuk je krásný."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Hudba je hlasitá."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Nemluv tak nahlas!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Je to velmi hlasité."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Zvuk je krásný."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Slyším zvuk"
+            }
+          ],
+          "tip": [
+            "Malý laut = hlasitý (přídavné jméno: ist laut). der Laut s velkým písmenem = zvuk (podstatné jméno: ein Laut, der Laut).",
+            "Der Laut = zvuk nebo hláska"
+          ],
+          "important": [
+            "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+            "Der Laut s velkým písmenem a členem der je podstatné jméno.",
+            "Množné číslo: die Laute (zvuky jazyka, pípání).",
+            "Špatně: Der Laut ist sehr. → Správně: Das ist sehr laut."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Laut",
+                "laut"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní"
+              ],
+              "yellow": [
+                "Laut",
+                "Laute"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "der Laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zvuk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hudba"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nemluv"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "velmi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "der Laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zvuk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Slyším"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Malý"
+                ]
+              }
+            ],
+            "important": [
+              {}
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-laut-study",
+          "layout": "standardStudy",
+          "translation": "skaņa",
+          "explanation": [
+            "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Nozīmē skaņu kā lietu, signālu vai valodas skaņu.",
+            "der Laut galvenokārt nozīmē: skaļa skaņa.",
+            "Bieži raksturo: īpašības vārds.",
+            "der Laut galvenokārt nozīmē: skaņas signāls.",
+            "Bieži raksturo: lietvārds (der).",
+            "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
+            "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
+            "Daudzskaitlī: die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Skaņa ir skaista."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "mūzika ir skaļa."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "nerunā tik skaļi!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "tas ir ļoti skaļi."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "skaņa ir skaista."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "es dzirdu kādu skaņu."
+            }
+          ],
+          "tip": [
+            "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
+            "der Laut = skaņa"
+          ],
+          "important": [
+            "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
+            "der Laut ar lielo burtu un artikulu der ir lietvārds.",
+            "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
+            "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Laut",
+                "laut"
+              ],
+              "purple": [
+                "skaņa",
+                "skaņas"
+              ],
+              "yellow": [
+                "Laut",
+                "Laute"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "der Laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaņa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaļa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaļi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaļi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "der Laut",
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaņa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaņu"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "skaņa"
+                ]
+              }
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-laut-study",
+        "layout": "standardStudy",
+        "translation": "Zvuk",
+        "explanation": [
+          "Hlavní myšlenka: Podstatné jméno se členem se hodí a je velké. Znamená zvuk jako věc, signál nebo zvuk jazyka.",
+          "Der Laut primárně znamená zvuk nebo hlásku.",
+          "Často popisuje: přídavné jméno.",
+          "Der Laut primárně znamená: zvukový signál.",
+          "Často popisuje: podstatné jméno (der).",
+          "Malá písmena laut je přídavné jméno - popisuje, jak hlasitý je zvuk (Die Musik ist laut = hudba je hlasitá).",
+          "Der Laut s velkým písmenem a členem der je podstatné jméno - znamená zvuk jako věc nebo signál (Der Laut ist schön = zvuk je krásný).",
+          "Množné číslo: die Laute."
+        ],
+        "examples": [
+          {
+            "de": "Der Laut ist schön.",
+            "lv": "Zvuk je krásný."
+          },
+          {
+            "de": "Die Musik ist laut.",
+            "lv": "Hudba je hlasitá."
+          },
+          {
+            "de": "Sprich nicht so laut!",
+            "lv": "Nemluv tak nahlas!"
+          },
+          {
+            "de": "Das ist sehr laut.",
+            "lv": "Je to velmi hlasité."
+          },
+          {
+            "de": "Der Laut ist schön.",
+            "lv": "Zvuk je krásný."
+          },
+          {
+            "de": "Ich höre einen Laut.",
+            "lv": "Slyším zvuk"
+          }
+        ],
+        "tip": [
+          "Malý laut = hlasitý (přídavné jméno: ist laut). der Laut s velkým písmenem = zvuk (podstatné jméno: ein Laut, der Laut).",
+          "Der Laut = zvuk nebo hláska"
+        ],
+        "important": [
+          "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
+          "Der Laut s velkým písmenem a členem der je podstatné jméno.",
+          "Množné číslo: die Laute (zvuky jazyka, pípání).",
+          "Špatně: Der Laut ist sehr. → Správně: Das ist sehr laut."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "der Laut",
+              "laut"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní"
+            ],
+            "yellow": [
+              "Laut",
+              "Laute"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "der Laut",
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zvuk"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hudba"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Nemluv"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "velmi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "der Laut",
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Zvuk"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "laut"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Slyším"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Malý"
+              ]
+            }
+          ],
+          "important": [
+            {}
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-legen",
+      "index": 363,
+      "de": "legen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Položit",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 131,
+          "field": "study.examples[0].lv",
+          "pirmd": "Položil jsem knihu na stůl.",
+          "pec": "Pokládám knihu na stůl."
+        },
+        {
+          "block": 3,
+          "n": 132,
+          "field": "study.comparison[1].meaning",
+          "pirmd": "Být / spát",
+          "pec": "Ležet / nacházet se"
+        },
+        {
+          "block": 3,
+          "n": 133,
+          "field": "study.tip.text",
+          "pirmd": "Pamatujte: ležíte → legen • Ta věc už tam je → liegen.",
+          "pec": "Pamatujte: něco pokládáte → legen • Ta věc už leží → liegen."
+        },
+        {
+          "block": 3,
+          "n": 134,
+          "field": "study.important[1]",
+          "pirmd": "Ich lege das Buch = knihu jsem odložil. Das Buch liegt = kniha lže.",
+          "pec": "Ich lege das Buch = Pokládám knihu. Das Buch liegt = Kniha leží."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-legen",
+        "index": 363,
+        "de": "legen",
+        "layout": "standardStudy",
+        "csMain": "Položit",
+        "studyTranslation": "Položit",
+        "lvSourceMain": "nolikt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "nolikt",
+            "csText": "Položit",
+            "de": "legen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "es nolieku grāmatu uz galda.",
+            "csText": "Pokládám knihu na stůl.",
+            "de": "legen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "noliec atslēgu šeit.",
+            "csText": "Dej klíč sem.",
+            "de": "legen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņa noliek bērnu gultā.",
+            "csText": "Ukládá dítě do postele.",
+            "de": "legen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "grāmata atrodas uz galda.",
+            "csText": "Kniha je na stole.",
+            "de": "legen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "legen",
+            "csText": "legen",
+            "de": "legen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "nolikt",
+            "csText": "Položit",
+            "de": "legen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "liegen",
+            "csText": "liegen",
+            "de": "legen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "atrasties / gulēt",
+            "csText": "Ležet / nacházet se",
+            "de": "legen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "stellen",
+            "csText": "stellen",
+            "de": "legen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "nolikt stāvus",
+            "csText": "Postavit vzpřímeně",
+            "de": "legen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "setzen",
+            "csText": "setzen",
+            "de": "legen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "nosēdināt / apsēsties",
+            "csText": "Sednout si / sednout si",
+            "de": "legen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: tu noliec → legen; lieta jau atrodas → liegen.",
+            "csText": "Pamatujte: něco pokládáte → legen • Ta věc už leží → liegen.",
+            "de": "legen"
+          }
+        ],
+        "study": {
+          "id": "a1-legen",
+          "layout": "standardStudy",
+          "translation": "Položit",
+          "explanation": [
+            "Hlavní myšlenka: legen znamená něco položit nebo vodorovně.",
+            "Legen se používá, když věc sami přemístíte a položíte na stůl, postel nebo jiný povrch.",
+            "Liší se od liegen, což znamená, že už něco leží nebo leží.",
+            "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet."
+          ],
+          "examples": [
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Pokládám knihu na stůl."
+            },
+            {
+              "de": "Leg den Schlüssel hierhin.",
+              "lv": "Dej klíč sem."
+            },
+            {
+              "de": "Sie legt das Kind ins Bett.",
+              "lv": "Ukládá dítě do postele."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Kniha je na stole."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "legen",
+              "meaning": "Položit",
+              "example": "Ich lege das Buch auf den Tisch."
+            },
+            {
+              "word": "liegen",
+              "meaning": "Ležet / nacházet se",
+              "example": "Das Buch liegt auf dem Tisch."
+            },
+            {
+              "word": "stellen",
+              "meaning": "Postavit vzpřímeně",
+              "example": "Ich stelle die Flasche auf den Tisch."
+            },
+            {
+              "word": "setzen",
+              "meaning": "Sednout si / sednout si",
+              "example": "Ich setze mich."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: něco pokládáte → legen • Ta věc už leží → liegen."
+          },
+          "important": [
+            "Legen a liegen nejsou totéž.",
+            "Ich lege das Buch = Pokládám knihu. Das Buch liegt = Kniha leží."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "legen",
+                "liegen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lege"
+                  ],
+                  "yellow": [
+                    "Buch",
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Položil"
+                  ],
+                  "yellow": [
+                    "Položil",
+                    "Položil"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Leg"
+                  ],
+                  "yellow": [
+                    "Schlüssel"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dej"
+                  ],
+                  "yellow": [
+                    "Dej"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "legt"
+                  ],
+                  "green": [
+                    "Kind"
+                  ],
+                  "yellow": [
+                    "Bett"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ukládá"
+                  ],
+                  "green": [
+                    "Ukládá"
+                  ],
+                  "yellow": [
+                    "Ukládá"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "liegt"
+                  ],
+                  "yellow": [
+                    "Buch",
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Kniha"
+                  ],
+                  "yellow": [
+                    "Kniha",
+                    "Kniha"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "legen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Položit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "lege"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být",
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stellen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Postavit"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "stelle"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "setzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Sednout"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "setze"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "legen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "liegen",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "legen"
+                ],
+                "red": [
+                  "liegen"
+                ]
+              },
+              {
+                "blue": [
+                  "lege"
+                ],
+                "purple": [
+                  "Ich"
+                ],
+                "red": [
+                  "liegt",
+                  "Ich"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-legen",
+          "layout": "standardStudy",
+          "translation": "nolikt",
+          "explanation": [
+            "Galvenā doma: legen nozīmē nolikt kaut ko guļus vai horizontāli.",
+            "legen lieto, ja tu pats pārvieto lietu un noliec to uz galda, gultas vai citas virsmas.",
+            "Tas atšķiras no liegen, kas nozīmē, ka kaut kas jau atrodas vai guļ.",
+            "A1 līmenī svarīgākā atšķirība ir: legen = nolikt, liegen = atrasties guļus."
+          ],
+          "examples": [
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "es nolieku grāmatu uz galda."
+            },
+            {
+              "de": "Leg den Schlüssel hierhin.",
+              "lv": "noliec atslēgu šeit."
+            },
+            {
+              "de": "Sie legt das Kind ins Bett.",
+              "lv": "viņa noliek bērnu gultā."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "grāmata atrodas uz galda."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "legen",
+              "meaning": "nolikt",
+              "example": "Ich lege das Buch auf den Tisch."
+            },
+            {
+              "word": "liegen",
+              "meaning": "atrasties / gulēt",
+              "example": "Das Buch liegt auf dem Tisch."
+            },
+            {
+              "word": "stellen",
+              "meaning": "nolikt stāvus",
+              "example": "Ich stelle die Flasche auf den Tisch."
+            },
+            {
+              "word": "setzen",
+              "meaning": "nosēdināt / apsēsties",
+              "example": "Ich setze mich."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: tu noliec → legen; lieta jau atrodas → liegen."
+          },
+          "important": [
+            "legen un liegen nav viens un tas pats.",
+            "Ich lege das Buch = es nolieku grāmatu. Das Buch liegt = grāmata atrodas."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "legen",
+                "liegen"
+              ],
+              "purple": [
+                "nolikt",
+                "atrodas",
+                "guļ"
+              ],
+              "yellow": [
+                "lietu",
+                "galda",
+                "gultas",
+                "virsmas"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lege"
+                  ],
+                  "yellow": [
+                    "Buch",
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nolieku"
+                  ],
+                  "yellow": [
+                    "grāmatu",
+                    "galda"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Leg"
+                  ],
+                  "yellow": [
+                    "Schlüssel"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "noliec"
+                  ],
+                  "yellow": [
+                    "atslēgu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "legt"
+                  ],
+                  "green": [
+                    "Kind"
+                  ],
+                  "yellow": [
+                    "Bett"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "noliek"
+                  ],
+                  "green": [
+                    "bērnu"
+                  ],
+                  "yellow": [
+                    "gultā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "liegt"
+                  ],
+                  "yellow": [
+                    "Buch",
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "atrodas"
+                  ],
+                  "yellow": [
+                    "Grāmata",
+                    "galda"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "legen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "nolikt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "lege"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "atrasties",
+                    "gulēt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stellen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "stāvus"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "stelle"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "setzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "apsēsties"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "setze"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "legen"
+                ],
+                "purple": [
+                  "noliec"
+                ],
+                "red": [
+                  "liegen",
+                  "atrodas"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "legen"
+                ],
+                "red": [
+                  "liegen"
+                ]
+              },
+              {
+                "blue": [
+                  "lege"
+                ],
+                "purple": [
+                  "nolieku"
+                ],
+                "red": [
+                  "liegt",
+                  "atrodas"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-legen",
+        "layout": "standardStudy",
+        "translation": "Položit",
+        "explanation": [
+          "Hlavní myšlenka: legen znamená něco položit nebo vodorovně.",
+          "Legen se používá, když věc sami přemístíte a položíte na stůl, postel nebo jiný povrch.",
+          "Liší se od liegen, což znamená, že už něco leží nebo leží.",
+          "Na úrovni A1 je nejdůležitější rozdíl: legen = položit, liegen = ležet."
+        ],
+        "examples": [
+          {
+            "de": "Ich lege das Buch auf den Tisch.",
+            "lv": "Pokládám knihu na stůl."
+          },
+          {
+            "de": "Leg den Schlüssel hierhin.",
+            "lv": "Dej klíč sem."
+          },
+          {
+            "de": "Sie legt das Kind ins Bett.",
+            "lv": "Ukládá dítě do postele."
+          },
+          {
+            "de": "Das Buch liegt auf dem Tisch.",
+            "lv": "Kniha je na stole."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "legen",
+            "meaning": "Položit",
+            "example": "Ich lege das Buch auf den Tisch."
+          },
+          {
+            "word": "liegen",
+            "meaning": "Ležet / nacházet se",
+            "example": "Das Buch liegt auf dem Tisch."
+          },
+          {
+            "word": "stellen",
+            "meaning": "Postavit vzpřímeně",
+            "example": "Ich stelle die Flasche auf den Tisch."
+          },
+          {
+            "word": "setzen",
+            "meaning": "Sednout si / sednout si",
+            "example": "Ich setze mich."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: něco pokládáte → legen • Ta věc už leží → liegen."
+        },
+        "important": [
+          "Legen a liegen nejsou totéž.",
+          "Ich lege das Buch = Pokládám knihu. Das Buch liegt = Kniha leží."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "legen",
+              "liegen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "yellow": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "lege"
+                ],
+                "yellow": [
+                  "Buch",
+                  "Tisch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Položil"
+                ],
+                "yellow": [
+                  "Položil",
+                  "Položil"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Leg"
+                ],
+                "yellow": [
+                  "Schlüssel"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dej"
+                ],
+                "yellow": [
+                  "Dej"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "legt"
+                ],
+                "green": [
+                  "Kind"
+                ],
+                "yellow": [
+                  "Bett"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ukládá"
+                ],
+                "green": [
+                  "Ukládá"
+                ],
+                "yellow": [
+                  "Ukládá"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "liegt"
+                ],
+                "yellow": [
+                  "Buch",
+                  "Tisch"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Kniha"
+                ],
+                "yellow": [
+                  "Kniha",
+                  "Kniha"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "legen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Položit"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "lege"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "liegen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být",
+                  "Být"
+                ]
+              },
+              "example": {
+                "red": [
+                  "liegt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "stellen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Postavit"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "stelle"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "setzen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Sednout"
+                ]
+              },
+              "example": {
+                "green": [
+                  "setze"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "legen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "liegen",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "legen"
+              ],
+              "red": [
+                "liegen"
+              ]
+            },
+            {
+              "blue": [
+                "lege"
+              ],
+              "purple": [
+                "Ich"
+              ],
+              "red": [
+                "liegt",
+                "Ich"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-leise-study",
+      "index": 368,
+      "de": "leise",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Klid",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 135,
+          "field": "study.translation",
+          "pirmd": "Klid",
+          "pec": "Tichý • Potichu"
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-leise-study",
+        "index": 368,
+        "de": "leise",
+        "layout": "standardStudy",
+        "csMain": "Klid",
+        "studyTranslation": "Tichý • Potichu",
+        "lvSourceMain": "kluss",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "kluss",
+            "csText": "Tichý • Potichu",
+            "de": "leise"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "Lūdzu, esi kluss.",
+            "csText": "Prosím, buďte zticha.",
+            "de": "leise"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "lūdzu, esi kluss.",
+            "csText": "Prosím buď zticha",
+            "de": "leise"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "mūzika ir klusa.",
+            "csText": "Hudba je tichá.",
+            "de": "leise"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "lūdzu, runā klusi.",
+            "csText": "Prosím mluv potichu.",
+            "de": "leise"
+          }
+        ],
+        "study": {
+          "id": "a1-leise-study",
+          "layout": "standardStudy",
+          "translation": "Tichý • Potichu",
+          "explanation": [
+            "Hlavní myšlenka: Tichá nebo nízká hlasitost.",
+            "Leise v podstatě znamená: nízká hlasitost.",
+            "Často popisuje: zvuk/hlas/hudba.",
+            "Leise popisuje nízkou hlasitost nebo tichý hlas/zvuk."
+          ],
+          "examples": [
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Prosím, buďte zticha."
+            },
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Prosím buď zticha"
+            },
+            {
+              "de": "Die Musik ist leise.",
+              "lv": "Hudba je tichá."
+            },
+            {
+              "de": "Sprich bitte leise.",
+              "lv": "Prosím mluv potichu."
+            }
+          ],
+          "tip": [
+            "Klid = klid",
+            "Použijte leise, když kontext vyhovuje tomuto významu."
+          ],
+          "important": [
+            "Leise = tichý ve zvuku.",
+            "Leise = objem.",
+            "Tichá nebo nízká hlasitost."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "leise"
+              ],
+              "purple": [
+                "Hlavní"
+              ],
+              "orange": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hudba"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Prosím"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Klid"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "leise"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-leise-study",
+          "layout": "standardStudy",
+          "translation": "kluss",
+          "explanation": [
+            "Galvenā doma: Kluss vai ar mazu skaļumu.",
+            "leise galvenokārt nozīmē: mazs skaļums.",
+            "Bieži raksturo: skaņu/balsi/mūziku.",
+            "leise raksturo mazu skaļumu vai klusu balsi/skaņu."
+          ],
+          "examples": [
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Lūdzu, esi kluss."
+            },
+            {
+              "de": "Bitte sei leise.",
+              "lv": "lūdzu, esi kluss."
+            },
+            {
+              "de": "Die Musik ist leise.",
+              "lv": "mūzika ir klusa."
+            },
+            {
+              "de": "Sprich bitte leise.",
+              "lv": "lūdzu, runā klusi."
+            }
+          ],
+          "tip": [
+            "leise = kluss",
+            "Izmanto leise, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "leise = kluss skaņas ziņā.",
+            "leise = skaļums.",
+            "Kluss vai ar mazu skaļumu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "leise"
+              ],
+              "purple": [
+                "kluss"
+              ],
+              "orange": [
+                "kluss"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kluss"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kluss"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "klusa"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "leise",
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "klusi"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "kluss"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "leise"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-leise-study",
+        "layout": "standardStudy",
+        "translation": "Tichý • Potichu",
+        "explanation": [
+          "Hlavní myšlenka: Tichá nebo nízká hlasitost.",
+          "Leise v podstatě znamená: nízká hlasitost.",
+          "Často popisuje: zvuk/hlas/hudba.",
+          "Leise popisuje nízkou hlasitost nebo tichý hlas/zvuk."
+        ],
+        "examples": [
+          {
+            "de": "Bitte sei leise.",
+            "lv": "Prosím, buďte zticha."
+          },
+          {
+            "de": "Bitte sei leise.",
+            "lv": "Prosím buď zticha"
+          },
+          {
+            "de": "Die Musik ist leise.",
+            "lv": "Hudba je tichá."
+          },
+          {
+            "de": "Sprich bitte leise.",
+            "lv": "Prosím mluv potichu."
+          }
+        ],
+        "tip": [
+          "Klid = klid",
+          "Použijte leise, když kontext vyhovuje tomuto významu."
+        ],
+        "important": [
+          "Leise = tichý ve zvuku.",
+          "Leise = objem.",
+          "Tichá nebo nízká hlasitost."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "green": [
+              "leise"
+            ],
+            "purple": [
+              "Hlavní"
+            ],
+            "orange": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "green": [
+                  "leise",
+                  "leise"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "leise",
+                  "leise"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "leise",
+                  "leise"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hudba"
+                ]
+              }
+            },
+            {
+              "de": {
+                "green": [
+                  "leise",
+                  "leise"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Prosím"
+                ]
+              }
+            }
+          ],
+          "tip": [
+            {
+              "purple": [
+                "Klid"
+              ]
+            }
+          ],
+          "important": [
+            {
+              "green": [
+                "leise"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cardId": "a1-liegen",
+      "index": 377,
+      "de": "liegen",
+      "auditType": "high_repair_changed_card",
+      "csMain": "Být • Spát",
+      "repairedFields": [
+        {
+          "block": 3,
+          "n": 136,
+          "field": "study.explanation[1]",
+          "pirmd": "Pro člověka lhaní často znamená spánek.",
+          "pec": "U člověka liegen často znamená ležet."
+        },
+        {
+          "block": 3,
+          "n": 137,
+          "field": "study.important[0]",
+          "pirmd": "Liegen ukazuje stát nebo umístění.",
+          "pec": "Liegen označuje polohu vleže nebo umístění."
+        }
+      ],
+      "fullCard": {
+        "cardId": "a1-liegen",
+        "index": 377,
+        "de": "liegen",
+        "layout": "standardStudy",
+        "csMain": "Být • Spát",
+        "studyTranslation": "Být • Spát",
+        "lvSourceMain": "atrasties • gulēt",
+        "fields": [
+          {
+            "field": "study.translation",
+            "lvSource": "atrasties • gulēt",
+            "csText": "Být • Spát",
+            "de": "liegen"
+          },
+          {
+            "field": "study.examples[0].lv",
+            "lvSource": "grāmata atrodas uz galda.",
+            "csText": "Kniha je na stole.",
+            "de": "liegen"
+          },
+          {
+            "field": "study.examples[1].lv",
+            "lvSource": "mans telefons atrodas automašīnā.",
+            "csText": "Můj telefon je v autě.",
+            "de": "liegen"
+          },
+          {
+            "field": "study.examples[2].lv",
+            "lvSource": "viņš guļ gultā.",
+            "csText": "Spí v posteli.",
+            "de": "liegen"
+          },
+          {
+            "field": "study.examples[3].lv",
+            "lvSource": "es nolieku grāmatu uz galda.",
+            "csText": "Položil jsem knihu na stůl.",
+            "de": "liegen"
+          },
+          {
+            "field": "study.comparison[0].word",
+            "lvSource": "liegen",
+            "csText": "liegen",
+            "de": "liegen"
+          },
+          {
+            "field": "study.comparison[0].meaning",
+            "lvSource": "atrasties / gulēt",
+            "csText": "Být / spát",
+            "de": "liegen"
+          },
+          {
+            "field": "study.comparison[1].word",
+            "lvSource": "legen",
+            "csText": "legen",
+            "de": "liegen"
+          },
+          {
+            "field": "study.comparison[1].meaning",
+            "lvSource": "nolikt",
+            "csText": "Položit",
+            "de": "liegen"
+          },
+          {
+            "field": "study.comparison[2].word",
+            "lvSource": "stehen",
+            "csText": "stehen",
+            "de": "liegen"
+          },
+          {
+            "field": "study.comparison[2].meaning",
+            "lvSource": "stāvēt / atrasties stāvus",
+            "csText": "Stát / stát",
+            "de": "liegen"
+          },
+          {
+            "field": "study.comparison[3].word",
+            "lvSource": "sein",
+            "csText": "sein",
+            "de": "liegen"
+          },
+          {
+            "field": "study.comparison[3].meaning",
+            "lvSource": "būt",
+            "csText": "Být",
+            "de": "liegen"
+          },
+          {
+            "field": "study.tip.text",
+            "lvSource": "Atceries: lieta jau ir vietā → liegen; tu to noliec → legen.",
+            "csText": "Pamatujte: věc je již na svém místě → liegen • Položíš to → legen.",
+            "de": "liegen"
+          }
+        ],
+        "study": {
+          "id": "a1-liegen",
+          "layout": "standardStudy",
+          "translation": "Být • Spát",
+          "explanation": [
+            "Hlavní myšlenka: Liegen znamená ležet nebo ležet vodorovně.",
+            "U člověka liegen často znamená ležet.",
+            "Pro věc liegen znamená, že je někde.",
+            "Liší se od legen, což znamená něco odložit."
+          ],
+          "examples": [
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Kniha je na stole."
+            },
+            {
+              "de": "Mein Handy liegt im Auto.",
+              "lv": "Můj telefon je v autě."
+            },
+            {
+              "de": "Er liegt im Bett.",
+              "lv": "Spí v posteli."
+            },
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Položil jsem knihu na stůl."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "liegen",
+              "meaning": "Být / spát",
+              "example": "Das Buch liegt hier."
+            },
+            {
+              "word": "legen",
+              "meaning": "Položit",
+              "example": "Ich lege das Buch hierhin."
+            },
+            {
+              "word": "stehen",
+              "meaning": "Stát / stát",
+              "example": "Die Flasche steht auf dem Tisch."
+            },
+            {
+              "word": "sein",
+              "meaning": "Být",
+              "example": "Ich bin hier."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: věc je již na svém místě → liegen • Položíš to → legen."
+          },
+          "important": [
+            "Liegen označuje polohu vleže nebo umístění.",
+            "Legen ukazuje akci: někdo něco položí."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "liegen",
+                "legen"
+              ],
+              "purple": [
+                "Hlavní",
+                "Hlavní",
+                "Hlavní"
+              ],
+              "yellow": [
+                "Hlavní"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ],
+                  "yellow": [
+                    "Buch",
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kniha"
+                  ],
+                  "yellow": [
+                    "Kniha",
+                    "Kniha"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ],
+                  "yellow": [
+                    "Handy",
+                    "Auto"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Můj"
+                  ],
+                  "yellow": [
+                    "telefon",
+                    "Můj"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ],
+                  "green": [
+                    "Bett"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Spí"
+                  ],
+                  "green": [
+                    "Spí"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "lege"
+                  ],
+                  "yellow": [
+                    "Buch",
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Položil"
+                  ],
+                  "yellow": [
+                    "Položil",
+                    "Položil"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být",
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "legen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Položit"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "lege"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Stát"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "steht"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Být"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bin"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "liegen"
+                ],
+                "purple": [
+                  "Pamatujte"
+                ],
+                "red": [
+                  "legen",
+                  "Pamatujte"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "liegen"
+                ],
+                "purple": [
+                  "Liegen",
+                  "Liegen"
+                ]
+              },
+              {
+                "red": [
+                  "legen"
+                ],
+                "purple": [
+                  "Legen",
+                  "Legen"
+                ]
+              }
+            ]
+          }
+        },
+        "lvStudy": {
+          "id": "a1-liegen",
+          "layout": "standardStudy",
+          "translation": "atrasties • gulēt",
+          "explanation": [
+            "Galvenā doma: liegen nozīmē atrasties vai gulēt horizontāli.",
+            "Par cilvēku liegen bieži nozīmē gulēt.",
+            "Par lietu liegen nozīmē, ka tā atrodas kaut kur.",
+            "Tas atšķiras no legen, kas nozīmē nolikt kaut ko."
+          ],
+          "examples": [
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "grāmata atrodas uz galda."
+            },
+            {
+              "de": "Mein Handy liegt im Auto.",
+              "lv": "mans telefons atrodas automašīnā."
+            },
+            {
+              "de": "Er liegt im Bett.",
+              "lv": "viņš guļ gultā."
+            },
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "es nolieku grāmatu uz galda."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "liegen",
+              "meaning": "atrasties / gulēt",
+              "example": "Das Buch liegt hier."
+            },
+            {
+              "word": "legen",
+              "meaning": "nolikt",
+              "example": "Ich lege das Buch hierhin."
+            },
+            {
+              "word": "stehen",
+              "meaning": "stāvēt / atrasties stāvus",
+              "example": "Die Flasche steht auf dem Tisch."
+            },
+            {
+              "word": "sein",
+              "meaning": "būt",
+              "example": "Ich bin hier."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: lieta jau ir vietā → liegen; tu to noliec → legen."
+          },
+          "important": [
+            "liegen rāda stāvokli vai atrašanās vietu.",
+            "legen rāda darbību: kāds kaut ko noliek."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "liegen",
+                "legen"
+              ],
+              "purple": [
+                "atrasties",
+                "gulēt",
+                "nolikt"
+              ],
+              "yellow": [
+                "lietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ],
+                  "yellow": [
+                    "Buch",
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atrodas"
+                  ],
+                  "yellow": [
+                    "Grāmata",
+                    "galda"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ],
+                  "yellow": [
+                    "Handy",
+                    "Auto"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atrodas"
+                  ],
+                  "yellow": [
+                    "telefons",
+                    "automašīnā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ],
+                  "green": [
+                    "Bett"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "guļ"
+                  ],
+                  "green": [
+                    "gultā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "lege"
+                  ],
+                  "yellow": [
+                    "Buch",
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "nolieku"
+                  ],
+                  "yellow": [
+                    "grāmatu",
+                    "galda"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "atrasties",
+                    "gulēt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "legen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "nolikt"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "lege"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "stāvēt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "steht"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "būt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bin"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "liegen"
+                ],
+                "purple": [
+                  "ir vietā"
+                ],
+                "red": [
+                  "legen",
+                  "noliec"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "liegen"
+                ],
+                "purple": [
+                  "stāvokli",
+                  "atrašanās vietu"
+                ]
+              },
+              {
+                "red": [
+                  "legen"
+                ],
+                "purple": [
+                  "darbību",
+                  "noliek"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "study": {
+        "id": "a1-liegen",
+        "layout": "standardStudy",
+        "translation": "Být • Spát",
+        "explanation": [
+          "Hlavní myšlenka: Liegen znamená ležet nebo ležet vodorovně.",
+          "U člověka liegen často znamená ležet.",
+          "Pro věc liegen znamená, že je někde.",
+          "Liší se od legen, což znamená něco odložit."
+        ],
+        "examples": [
+          {
+            "de": "Das Buch liegt auf dem Tisch.",
+            "lv": "Kniha je na stole."
+          },
+          {
+            "de": "Mein Handy liegt im Auto.",
+            "lv": "Můj telefon je v autě."
+          },
+          {
+            "de": "Er liegt im Bett.",
+            "lv": "Spí v posteli."
+          },
+          {
+            "de": "Ich lege das Buch auf den Tisch.",
+            "lv": "Položil jsem knihu na stůl."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "liegen",
+            "meaning": "Být / spát",
+            "example": "Das Buch liegt hier."
+          },
+          {
+            "word": "legen",
+            "meaning": "Položit",
+            "example": "Ich lege das Buch hierhin."
+          },
+          {
+            "word": "stehen",
+            "meaning": "Stát / stát",
+            "example": "Die Flasche steht auf dem Tisch."
+          },
+          {
+            "word": "sein",
+            "meaning": "Být",
+            "example": "Ich bin hier."
+          }
+        ],
+        "tip": {
+          "text": "Pamatujte: věc je již na svém místě → liegen • Položíš to → legen."
+        },
+        "important": [
+          "Liegen označuje polohu vleže nebo umístění.",
+          "Legen ukazuje akci: někdo něco položí."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "liegen",
+              "legen"
+            ],
+            "purple": [
+              "Hlavní",
+              "Hlavní",
+              "Hlavní"
+            ],
+            "yellow": [
+              "Hlavní"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "liegt"
+                ],
+                "yellow": [
+                  "Buch",
+                  "Tisch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Kniha"
+                ],
+                "yellow": [
+                  "Kniha",
+                  "Kniha"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "liegt"
+                ],
+                "yellow": [
+                  "Handy",
+                  "Auto"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Můj"
+                ],
+                "yellow": [
+                  "telefon",
+                  "Můj"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "liegt"
+                ],
+                "green": [
+                  "Bett"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Spí"
+                ],
+                "green": [
+                  "Spí"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "lege"
+                ],
+                "yellow": [
+                  "Buch",
+                  "Tisch"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Položil"
+                ],
+                "yellow": [
+                  "Položil",
+                  "Položil"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "liegen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být",
+                  "Být"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "liegt"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "legen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Položit"
+                ]
+              },
+              "example": {
+                "red": [
+                  "lege"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "stehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Stát"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "steht"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "sein"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "Být"
+                ]
+              },
+              "example": {
+                "green": [
+                  "bin"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "liegen"
+              ],
+              "purple": [
+                "Pamatujte"
+              ],
+              "red": [
+                "legen",
+                "Pamatujte"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "liegen"
+              ],
+              "purple": [
+                "Liegen",
+                "Liegen"
+              ]
+            },
+            {
+              "red": [
+                "legen"
+              ],
+              "purple": [
+                "Legen",
+                "Legen"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "cardId": "a1-laut-study",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.98,
+      "reason": "The HIGH repairs correctly distinguish the noun der Laut from the adjective laut and introduce no Czech meaning or grammar regression.",
+      "findings": [
+        {
+          "field": "study.explanation[1]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Der Laut primárně znamená zvuk nebo hlásku.",
+          "reason": "Correctly gives the core meanings sound and speech sound/phoneme.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.tip[1]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Der Laut = zvuk nebo hláska",
+          "reason": "Correct concise distinction for the noun; no regression introduced.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.explanation[2]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Často popisuje: přídavné jméno.",
+          "reason": "This awkward and semantically misplaced sentence predates the HIGH changes and is unrelated to the repaired fields.",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "cardId": "a1-legen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "NONE",
+      "confidence": 0.99,
+      "reason": "The HIGH repairs correctly express present-tense placement, the legen/liegen contrast, and the corrected Czech example meanings.",
+      "findings": [
+        {
+          "field": "study.examples[0].lv",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Pokládám knihu na stůl.",
+          "reason": "Correctly matches the German present tense Ich lege.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.comparison[1].meaning",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Ležet / nacházet se",
+          "reason": "Accurately distinguishes liegen from legen in Czech.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.tip.text",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Pamatujte: něco pokládáte → legen • Ta věc už leží → liegen.",
+          "reason": "Clear and linguistically correct movement-versus-state rule.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.important[1]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Ich lege das Buch = Pokládám knihu. Das Buch liegt = Kniha leží.",
+          "reason": "Both Czech translations correctly match the German forms and meanings.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.comparison[3].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Sednout si / sednout si",
+          "reason": "The duplicated Czech meaning for setzen is unrelated to the HIGH repairs.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "cardId": "a1-leise-study",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": 0.98,
+      "reason": "The repaired translation correctly covers adjective and adverb uses of leise; unrelated legacy wording remains elsewhere on the card.",
+      "findings": [
+        {
+          "field": "study.translation",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Tichý • Potichu",
+          "reason": "Correctly covers leise as quiet and quietly, matching the examples.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "csMain",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Klid",
+          "reason": "Klid means calm/peace, while leise means quiet or quietly; this field was not changed by HIGH repair.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.tip[0]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Klid = klid",
+          "reason": "This does not teach the meaning of leise and is unrelated to the repaired translation.",
+          "confidence": 0.98
+        },
+        {
+          "field": "study.important[1]",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Leise = objem.",
+          "reason": "The wording is semantically imprecise, but the field was not changed by HIGH repair.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "cardId": "a1-liegen",
+      "auditType": "high_post_repair_micro_regression",
+      "validationStatus": "FALSE_POSITIVE",
+      "severity": "LOW",
+      "confidence": 0.99,
+      "reason": "The HIGH repairs correctly describe liegen as lying or being situated and correctly contrast it with legen; remaining issues are pre-existing.",
+      "findings": [
+        {
+          "field": "study.explanation[1]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "U člověka liegen často znamená ležet.",
+          "reason": "Correctly describes the human-subject use of liegen as lying.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.important[0]",
+          "validationStatus": "FALSE_POSITIVE",
+          "severity": "NONE",
+          "currentCs": "Liegen označuje polohu vleže nebo umístění.",
+          "reason": "Accurately states the positional and situated meanings of liegen.",
+          "confidence": 0.99,
+          "relatedRepairBlock": 3
+        },
+        {
+          "field": "study.examples[3].lv",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "MEDIUM",
+          "currentCs": "Položil jsem knihu na stůl.",
+          "reason": "The German is present tense Ich lege, so the Czech past tense is inconsistent; this field was not changed by HIGH repair.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.comparison[2].meaning",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Stát / stát",
+          "reason": "The duplicate Czech wording for stehen is unrelated to the HIGH repairs.",
+          "confidence": 0.99
+        },
+        {
+          "field": "study.translation",
+          "validationStatus": "PRE_EXISTING_NOT_CAUSED_BY_HIGH_REPAIR",
+          "severity": "LOW",
+          "currentCs": "Být • Spát",
+          "reason": "This is less precise than ležet, but the translation field was not changed by HIGH repair.",
+          "confidence": 0.96
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-08-12T14:43:55.219Z"
+}
