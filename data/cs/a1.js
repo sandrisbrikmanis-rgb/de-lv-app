@@ -2434,7 +2434,7 @@ const A1_WORDS = [
         },
         {
           "word": "zu",
-          "meaning": "Kdo jde (směr)",
+          "meaning": "Ke komu se jde (směr)",
           "example": "Ich gehe zu meinem Freund. – Jdu ke svému příteli."
         }
       ],
@@ -2645,7 +2645,7 @@ const A1_WORDS = [
           "example": "Ich bleibe bis 18 Uhr. – Zůstanu do 18:00."
         },
         {
-          "word": "bis ... zu",
+          "word": "bis zu",
           "meaning": "Do (do určitého času)",
           "example": "Ich arbeite von 9 bis 17 Uhr. – Pracuji od 9 do 17."
         },
@@ -3150,7 +3150,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bleiben",
-          "meaning": "Pobyt",
+          "meaning": "Zůstat",
           "example": "Ich bleibe hier."
         },
         {
@@ -3429,7 +3429,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er bringt das Buch zur Schule.",
-          "lv": "Vezme knihu do školy."
+          "lv": "Donese knihu do školy."
         },
         {
           "de": "Ich nehme das Buch.",
@@ -3769,7 +3769,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: da na úrovni A1 nejčastěji znamená tam.",
         "Da označuje místo nebo odkazuje na něco již zmíněného.",
-        "Podle situace to lze přeložit i jako zde nebo zde.",
+        "Podle situace lze „da“ přeložit také jako „tam“, „tady“ nebo „zde“.",
         "Na úrovni A1 se učíme hlavně da jako obecné místo."
       ],
       "examples": [
@@ -3783,7 +3783,7 @@ const A1_WORDS = [
         },
         {
           "de": "Da kommt er.",
-          "lv": "Tady přichází."
+          "lv": "Tamhle přichází."
         },
         {
           "de": "Komm mal da her!",
@@ -3813,7 +3813,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: generál tam/te → da."
+        "text": "Pamatujte: obecné „tam“ nebo „tady“ → da."
       },
       "sectionAccents": {
         "explanation": {
@@ -4036,7 +4036,7 @@ const A1_WORDS = [
       "id": "a1-das",
       "layout": "standardStudy",
       "translation": "Neuter určitý člen",
-      "explanation": "Používá se pro podstatná jména středního rodu. V některých větách může „to“ fungovat také jako zájmeno nebo vztažné zájmeno.",
+      "explanation": "Používá se před podstatnými jmény středního rodu. V některých větách může „das“ fungovat také jako zájmeno nebo vztažné zájmeno.",
       "examples": [
         {
           "de": "Das ist mein Auto.",
@@ -4401,7 +4401,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "Autobus jede."
+          "lv": "Autobus přijíždí."
         },
         {
           "de": "Der Lehrer spricht.",
@@ -4476,7 +4476,7 @@ const A1_WORDS = [
       },
       "important": [
         "Na úrovni A1 byste se měli nejprve učit jako mužský článek.",
-        "Použití zájmen a relativního jména přijde později."
+        "Použití zájmena a vztažného zájmena přijde později."
       ]
     }
   },
@@ -4598,7 +4598,7 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "Na úrovni A1 je kostka nejprve studována jako ženský článek.",
+        "Na úrovni A1 se „die“ nejprve učí jako určitý člen ženského rodu.",
         "Množné číslo kostky se také používá pro všechna pohlaví."
       ]
     }
@@ -4622,7 +4622,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Dieser Mann ist nett.",
-          "lv": "Tento muž je pěkný."
+          "lv": "Tento muž je milý."
         },
         {
           "de": "Ich mag diesen Hund.",
@@ -4634,7 +4634,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pamatujte: toto + mužský → dieser."
+        "text": "Pamatujte: „tento“ + mužský rod → dieser."
       },
       "sectionAccents": {
         "examples": [
